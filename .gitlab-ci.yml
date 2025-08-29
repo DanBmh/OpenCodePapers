@@ -5,6 +5,7 @@ stages:
   - container_testing
   - test
   - deploy
+  - bots
 
 # ==================================================================================================
 # ===== Stage: Container ===========================================================================
@@ -30,6 +31,17 @@ testing_image:
     IMAGE_TAG: "testing_ocp"
     FULL_IMAGE_NAME: "${CI_REGISTRY_IMAGE}/${CI_COMMIT_REF_SLUG}/${IMAGE_TAG}"
     IMAGE_FILE: "tests/dockerfile"
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule"'
+      when: never
+    - if: '$CI_COMMIT_REF_SLUG == "main" || $CI_COMMIT_REF_SLUG == "develop" || $CI_COMMIT_REF_NAME =~ /^containerbuild/'
+      # Run only for important branches or if the branch name starts with the 'containerbuild'
+      # keyword, else every new branch would start to build this container
+      changes:
+        - tests/dockerfile
+        - .gitlab-ci.yml
+        - pyproject.toml
+    - when: never
   script:
     # Build image, using layers=false squashes only new layers,
     # but this reduces space usage while building and is much faster
@@ -39,17 +51,6 @@ testing_image:
     - buildah images
     # Push images only from main and develop branches to reduce space usage
     - if [[ "${CI_COMMIT_REF_SLUG}" == "main" ]] || [[ "${CI_COMMIT_REF_SLUG}" == "develop" ]]; then buildah push ${FULL_IMAGE_NAME}; fi
-  only:
-    refs:
-      # Run only for important branches or if the branch name starts with the 'containerbuild'
-      # keyword, else every new branch would start to build this container
-      - main
-      - develop
-      - /^containerbuild/
-    changes:
-      - tests/dockerfile
-      - .gitlab-ci.yml
-      - pyproject.toml
 
 # ==================================================================================================
 # ===== Stage: Test ================================================================================
@@ -61,6 +62,8 @@ testing_image:
     # Use the main repository's container image by default except for specific branch names
     FULL_IMAGE_NAME: "registry.gitlab.com/opencodepapers/opencodepapers/main/${IMAGE_TAG}"
   rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule"'
+      when: never
     - if: $CI_COMMIT_REF_SLUG == "main" || $CI_COMMIT_REF_SLUG == "develop"
       variables:
         FULL_IMAGE_NAME: "${CI_REGISTRY_IMAGE}/${CI_COMMIT_REF_SLUG}/${IMAGE_TAG}"
@@ -120,3 +123,25 @@ update_tasks:
       else
         echo "No changes to commit."
       fi
+
+# ==================================================================================================
+# ===== Stage: Bots ================================================================================
+
+merge_bot:
+  stage: bots
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule"'
+      when: always
+    - when: never
+  variables:
+    IMAGE_TAG: "testing_ocp"
+    FULL_IMAGE_NAME: "registry.gitlab.com/opencodepapers/opencodepapers/main/${IMAGE_TAG}"
+    GITLAB_TOKEN: "$BOT_TOKEN"
+    PROJECT_ID: "$CI_PROJECT_ID"
+    TARGET_FOLDER: "benchmarks/"
+    REQUIRE_SUCCESS_PIPELINE: "1"
+  image: ${FULL_IMAGE_NAME}
+  script:
+    - python3 tests/bot_merge_automatic.py
+  allow_failure: false
+  interruptible: true

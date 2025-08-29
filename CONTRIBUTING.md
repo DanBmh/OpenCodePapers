@@ -13,7 +13,8 @@ To keep the results up to date, help from the community is required.
 
 3. Check that everything matches your expectations.
 
-4. Accept the merge request yourself or wait for a review.
+4. The merge request will be automatically merged if it received at least two 👍 reactions. \
+   (Everybody can give them, so please also check any open update requests, and give them an approval if they look ready)
 
 <br>
 
@@ -31,4 +32,4 @@ To keep the results up to date, help from the community is required.
 
 ## Update code
 
-Please ask for a review and do not merge yourself.
+Create a merge request and then wait for a review.

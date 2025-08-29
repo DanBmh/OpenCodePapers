@@ -23,6 +23,9 @@ RUN mkdir /usr/app/ && cd /usr/app/ \
   && /usr/local/bin/npm install --save-dev --save-exact prettier@3.5.3 prettylint
 RUN cd /usr/app/ && npx prettier -v && npx prettylint -v
 
+# Install bot dependencies
+RUN pip3 install --upgrade --no-cache-dir requests
+
 # Install python testing tools
 RUN pip3 install --upgrade --no-cache-dir \
   anybadge \
