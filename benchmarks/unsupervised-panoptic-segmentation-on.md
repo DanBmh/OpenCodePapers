@@ -1,0 +1,74 @@
+# unsupervised-panoptic-segmentation-on
+
+[Dataset Link](https://www.cityscapes-dataset.com/dataset-overview/) \
+Task Hierarchy: ['2D Panoptic Segmentation', 'Unsupervised Panoptic Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PQ",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Scene-Centric Unsupervised Panoptic Segmentation](https://arxiv.org/abs/2504.01955v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/visinf/cups)",
+      "n": "CUPS (54 pseudo-classes)",
+      "d": "2025-04-02",
+      "m1": "30.6"
+    },
+    {
+      "p": "[Scene-Centric Unsupervised Panoptic Segmentation](https://arxiv.org/abs/2504.01955v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/visinf/cups)",
+      "n": "CUPS (40 pseudo-classes)",
+      "d": "2025-04-02",
+      "m1": "30.3"
+    },
+    {
+      "p": "[Scene-Centric Unsupervised Panoptic Segmentation](https://arxiv.org/abs/2504.01955v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/visinf/cups)",
+      "n": "CUPS (27 pseudo-classes)",
+      "d": "2025-04-02",
+      "m1": "27.8"
+    },
+    {
+      "p": "[Unsupervised Universal Image Segmentation](https://arxiv.org/abs/2312.17243v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/u2seg/u2seg)",
+      "n": "U2Seg (827 pseudo-classes)",
+      "d": "2023-12-28",
+      "m1": "18.4"
+    },
+    {
+      "p": "[Unsupervised Semantic Segmentation Through Depth-Guided Feature Correlation and Sampling](https://arxiv.org/abs/2309.12378v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/leonsick/depthg)",
+      "n": "DepthG + CutLER",
+      "d": "2023-09-21",
+      "m1": "16.1"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

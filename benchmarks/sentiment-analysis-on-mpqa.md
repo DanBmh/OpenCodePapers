@@ -1,0 +1,67 @@
+# sentiment-analysis-on-mpqa
+
+[Dataset Link](https://mpqa.cs.pitt.edu/) \
+Task Hierarchy: ['Sentiment Analysis']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Entailment as Few-Shot Learner](https://arxiv.org/abs/2104.14690v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/examples/few_shot/efl)",
+      "n": "RoBERTa-large 355M + Entailment as Few-shot Learner",
+      "d": "2021-04-29",
+      "m1": "90.8"
+    },
+    {
+      "p": "[The Pupil Has Become the Master: Teacher-Student Model-Based Word Embedding Distillation with Ensemble Learning](https://arxiv.org/abs/1906.00095v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/bgshin/distill_demo)",
+      "n": "STM+TSED+PT+2L",
+      "d": "2019-05-31",
+      "m1": "89.83"
+    },
+    {
+      "p": "[A La Carte Embedding: Cheap but Effective Induction of Semantic Feature Vectors](http://arxiv.org/abs/1805.05388v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/NLPrinceton/ALaCarte)",
+      "n": "byte mLSTM7",
+      "d": "2018-05-14",
+      "m1": "88.8"
+    },
+    {
+      "p": "[Universal Sentence Encoder](http://arxiv.org/abs/1803.11175v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/InferSent)",
+      "n": "USE_T+DAN (w2v w.e.) ",
+      "d": "2018-03-29",
+      "m1": "88.14"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

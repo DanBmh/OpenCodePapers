@@ -1,0 +1,100 @@
+# video-anomaly-detection-on-cuhk-avenue
+
+[Dataset Link](http://www.cse.cuhk.edu.hk/leojia/projects/detectabnormal/dataset.html) \
+Task Hierarchy: ['Video Anomaly Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AUC",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "RBDC",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "TBDC",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[VideoPatchCore: An Effective Method to Memorize Normality for Video Anomaly Detection](https://arxiv.org/abs/2409.16225v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/SkiddieAhn/Paper-VideoPatchCore)",
+      "n": "VideoPatchCore",
+      "d": "2024-09-24",
+      "m1": "92.8%"
+    },
+    {
+      "p": "[Bounding Boxes and Probabilistic Graphical Models: Video Anomaly Detection Simplified](https://arxiv.org/abs/2407.06000v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/milestonesys-research/vad-with-pgms)",
+      "n": "PGM",
+      "d": "2024-07-08",
+      "m1": "92.72%",
+      "m2": "60.18",
+      "m3": "72.09"
+    },
+    {
+      "p": "[VADMamba: Exploring State Space Models for Fast Video Anomaly Detection](https://arxiv.org/abs/2503.21169v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jLooo/VADMamba)",
+      "n": "VADMamba",
+      "d": "2025-03-27",
+      "m1": "91.5%"
+    },
+    {
+      "p": "[Making Anomalies More Anomalous: Video Anomaly Detection Using a Novel Generator and Destroyer](https://ieeexplore.ieee.org/document/10462109)",
+      "c": "[&check;&nbsp;Link](https://github.com/SkiddieAhn/Paper-Making-Anomalies-More-Anomalous)",
+      "n": "MAMA",
+      "d": "2024-02-26",
+      "m1": "91.2%"
+    },
+    {
+      "p": "[A Hybrid Video Anomaly Detection Framework via Memory-Augmented Flow Reconstruction and Flow-Guided Frame Prediction](https://arxiv.org/abs/2108.06852v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/LiUzHiAn/hf2vad)",
+      "n": "HF2-VAD",
+      "d": "2021-08-16",
+      "m1": "91.1%"
+    },
+    {
+      "p": "[Follow the Rules: Reasoning for Video Anomaly Detection with Large Language Models](https://arxiv.org/abs/2407.10299v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Yuchen413/AnomalyRuler)",
+      "n": "AnomalyRuler",
+      "d": "2024-07-14",
+      "m1": "89.7%"
+    },
+    {
+      "p": "[AnyAnomaly: Zero-Shot Customizable Video Anomaly Detection with LVLM](https://arxiv.org/abs/2503.04504v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SkiddieAhn/Paper-AnyAnomaly)",
+      "n": "AnyAnomaly",
+      "d": "2025-03-06",
+      "m1": "87.3%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

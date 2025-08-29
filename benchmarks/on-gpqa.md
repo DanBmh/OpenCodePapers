@@ -1,0 +1,88 @@
+# on-gpqa
+
+[Dataset Link](https://github.com/idavidrein/gpqa) \
+Task Hierarchy: ['']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "NVIDIA Llama Nemotron Ultra v1",
+      "d": null,
+      "m1": "76.01"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Openai-o1-preview",
+      "d": null,
+      "m1": "72.3"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Claude3.5-Sonnet",
+      "d": null,
+      "m1": "65"
+    },
+    {
+      "p": "[Search-o1: Agentic Search-Enhanced Large Reasoning Models](https://arxiv.org/abs/2501.05366v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/sunnynexus/search-o1)",
+      "n": "Search-o1",
+      "d": "2025-01-09",
+      "m1": "63.6"
+    },
+    {
+      "p": "[TextGrad: Automatic \"Differentiation\" via Text](https://arxiv.org/abs/2406.07496v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zou-group/textgrad)",
+      "n": "GPT4o+TextGrad",
+      "d": "2024-06-11",
+      "m1": "55"
+    },
+    {
+      "p": "[TextGrad: Automatic \"Differentiation\" via Text](https://arxiv.org/abs/2406.07496v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zou-group/textgrad)",
+      "n": "GPT4o",
+      "d": "2024-06-11",
+      "m1": "53.6"
+    },
+    {
+      "p": "[Qwen2.5 Technical Report](https://arxiv.org/abs/2412.15115v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/qwenlm/qwen1.5)",
+      "n": "Qwen2.5-72B-Instruct",
+      "d": "2024-12-19",
+      "m1": "49"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

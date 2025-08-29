@@ -1,0 +1,238 @@
+# image-classification-on-kuzushiji-mnist
+
+[Dataset Link](https://github.com/rois-codh/kmnist) \
+Task Hierarchy: ['Image Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Error",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Trainable Parameters",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Efficient Global Neural Architecture Search](https://arxiv.org/abs/2502.03553)",
+      "c": "[&check;&nbsp;Link](https://github.com/siddikui/Efficient-Macro-Micro-NAS)",
+      "n": "KMNIST-Tiny",
+      "d": "2025-02-08",
+      "m1": "99.35",
+      "m3": "420000"
+    },
+    {
+      "p": "[Efficient Global Neural Architecture Search](https://arxiv.org/abs/2502.03553)",
+      "c": "[&check;&nbsp;Link](https://github.com/siddikui/Efficient-Macro-Micro-NAS)",
+      "n": "KMNIST-Mobile",
+      "d": "2025-02-08",
+      "m1": "99.29",
+      "m3": "2710000"
+    },
+    {
+      "p": "[SpinalNet: Deep Neural Network with Gradual Input](https://arxiv.org/abs/2007.03347v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/dipuk0506/SpinalNet)",
+      "n": "VGG-5 (Spinal FC)",
+      "d": "2020-07-07",
+      "m1": "99.15",
+      "m2": "0.85"
+    },
+    {
+      "p": "[Context-Aware Multipath Networks](https://arxiv.org/abs/1907.11519v1)",
+      "c": "",
+      "n": "CAMNet3",
+      "d": "2019-07-26",
+      "m1": "99.05",
+      "m2": "0.95"
+    },
+    {
+      "p": "[Training Neural Networks with Local Error Signals](https://arxiv.org/abs/1901.06656v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/anokland/local-loss)",
+      "n": "VGG8B(2x) + LocalLearning + CO",
+      "d": "2019-01-20",
+      "m1": "99.01",
+      "m2": "0.99"
+    },
+    {
+      "p": "[Toward Understanding Supervised Representation Learning with RKHS and GAN](https://openreview.net/forum?id=lFSZySpXXX8)",
+      "c": "",
+      "n": "CN(d=32)",
+      "d": "2021-01-01",
+      "m1": "98.84"
+    },
+    {
+      "p": "[Toward Understanding Supervised Representation Learning with RKHS and GAN](https://openreview.net/forum?id=lFSZySpXXX8)",
+      "c": "",
+      "n": "NSRL (log D) (d=16)",
+      "d": "2021-01-01",
+      "m1": "98.81"
+    },
+    {
+      "p": "[Toward Understanding Supervised Representation Learning with RKHS and GAN](https://openreview.net/forum?id=lFSZySpXXX8)",
+      "c": "",
+      "n": "CN(d=16)",
+      "d": "2021-01-01",
+      "m1": "98.80"
+    },
+    {
+      "p": "[A Comprehensive Study of ImageNet Pre-Training for Historical Document Image Analysis](https://arxiv.org/abs/1905.09113v1)",
+      "c": "",
+      "n": "Resnet-152",
+      "d": "2019-05-22",
+      "m1": "98.79"
+    },
+    {
+      "p": "[Learning local discrete features in explainable-by-design convolutional neural networks](https://arxiv.org/abs/2411.00139v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/pikaplan/LearnExplaiNet)",
+      "n": "R-ExplaiNet-26",
+      "d": "2024-10-31",
+      "m1": "98.78",
+      "m2": "1.22",
+      "m3": "892362"
+    },
+    {
+      "p": "[CNN Filter DB: An Empirical Investigation of Trained Convolutional Filters](https://arxiv.org/abs/2203.15331v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/paulgavrikov/cnn-filter-db)",
+      "n": "ResNet-14",
+      "d": "2022-03-29",
+      "m1": "98.75"
+    },
+    {
+      "p": "[Toward Understanding Supervised Representation Learning with RKHS and GAN](https://openreview.net/forum?id=lFSZySpXXX8)",
+      "c": "",
+      "n": "NSRL (WGAN) (d=32)",
+      "d": "2021-01-01",
+      "m1": "98.72"
+    },
+    {
+      "p": "[Toward Understanding Supervised Representation Learning with RKHS and GAN](https://openreview.net/forum?id=lFSZySpXXX8)",
+      "c": "",
+      "n": "NSRL (WGAN) (d=8)",
+      "d": "2021-01-01",
+      "m1": "98.68"
+    },
+    {
+      "p": "[Toward Understanding Supervised Representation Learning with RKHS and GAN](https://openreview.net/forum?id=lFSZySpXXX8)",
+      "c": "",
+      "n": "NSRL (WGAN) (d=16)",
+      "d": "2021-01-01",
+      "m1": "98.66"
+    },
+    {
+      "p": "[Toward Understanding Supervised Representation Learning with RKHS and GAN](https://openreview.net/forum?id=lFSZySpXXX8)",
+      "c": "",
+      "n": "NSRL (log D) (d=32)",
+      "d": "2021-01-01",
+      "m1": "98.63"
+    },
+    {
+      "p": "[Toward Understanding Supervised Representation Learning with RKHS and GAN](https://openreview.net/forum?id=lFSZySpXXX8)",
+      "c": "",
+      "n": "NSRL (log D) (d=8)",
+      "d": "2021-01-01",
+      "m1": "98.61"
+    },
+    {
+      "p": "[Toward Understanding Supervised Representation Learning with RKHS and GAN](https://openreview.net/forum?id=lFSZySpXXX8)",
+      "c": "",
+      "n": "CN(d=8)",
+      "d": "2021-01-01",
+      "m1": "98.60"
+    },
+    {
+      "p": "[Improved efficient capsule network for Kuzushiji-MNIST benchmark dataset classification](https://journals.pan.pl/dlibra/publication/147338/edition/128840/content)",
+      "c": "[&check;&nbsp;Link](https://github.com/bukson/kmnist-efcaps)",
+      "n": "Efficient Capsnet",
+      "d": "2023-12-15",
+      "m1": "98.43"
+    },
+    {
+      "p": "[mixup: Beyond Empirical Risk Minimization](http://arxiv.org/abs/1710.09412v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "PreActResNet-18 + Input Mixup",
+      "d": "2017-10-25",
+      "m1": "98.41"
+    },
+    {
+      "p": "[Identity Mappings in Deep Residual Networks](http://arxiv.org/abs/1603.05027v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/research/slim)",
+      "n": "PreActResNet-18",
+      "d": "2016-03-16",
+      "m1": "97.82"
+    },
+    {
+      "p": "[The Convolutional Tsetlin Machine](https://arxiv.org/abs/1905.09688v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/cair/TsetlinMachine)",
+      "n": "Convolutional Tsetlin Machine",
+      "d": "2019-05-23",
+      "m1": "96.3"
+    },
+    {
+      "p": "[KerCNNs: biologically inspired lateral connections for classification of corrupted images](https://arxiv.org/abs/1910.08336v1)",
+      "c": "",
+      "n": "KerCNN",
+      "d": "2019-10-18",
+      "m1": "93.13"
+    },
+    {
+      "p": "[Multi-Complementary and Unlabeled Learning for Arbitrary Losses and Models](https://arxiv.org/abs/2001.04243v3)",
+      "c": "",
+      "n": "linear/flexible model",
+      "d": "2020-01-13",
+      "m1": "79.90"
+    },
+    {
+      "p": "[Multi-Complementary and Unlabeled Learning for Arbitrary Losses and Models](https://arxiv.org/abs/2001.04243v3)",
+      "c": "",
+      "n": "FWD",
+      "d": "2020-01-13",
+      "m1": "79.5"
+    },
+    {
+      "p": "[Complementary-Label Learning for Arbitrary Losses and Models](https://arxiv.org/abs/1810.04327v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/takashiishida/comp)",
+      "n": "Complementary-Label Learning",
+      "d": "2018-10-10",
+      "m1": "67.1"
+    },
+    {
+      "p": "[Deep Learning for Classical Japanese Literature](http://arxiv.org/abs/1812.01718v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/rois-codh/kmnist)",
+      "n": "ResNet18 + VGG Ensemble",
+      "d": "2018-12-03",
+      "m2": "1.10"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

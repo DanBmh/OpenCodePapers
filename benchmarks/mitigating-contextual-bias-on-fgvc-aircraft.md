@@ -1,0 +1,76 @@
+# mitigating-contextual-bias-on-fgvc-aircraft
+
+[Dataset Link](https://www.robots.ox.ac.uk/~vgg/data/fgvc-aircraft/) \
+Task Hierarchy: ['Classification', 'Mitigating Contextual Bias']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Top-1 Accuracy (%)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "OOD Accuracy (%)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Advancing Fine-Grained Classification by Structure and Subject Preserving Augmentation](https://arxiv.org/abs/2406.14551v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/eyalmichaeli/saspa-aug)",
+      "n": "CAL + SaSPA",
+      "d": "2024-06-20",
+      "m1": "73.0",
+      "m2": "41.5"
+    },
+    {
+      "p": "[Counterfactual Attention Learning for Fine-Grained Visual Categorization and Re-identification](https://arxiv.org/abs/2108.08728v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/raoyongming/CAL)",
+      "n": "CAL + ALIA",
+      "d": "2021-08-19",
+      "m1": "71.8",
+      "m2": "25.1"
+    },
+    {
+      "p": "[Is Synthetic Data From Diffusion Models Ready for Knowledge Distillation?](https://arxiv.org/abs/2305.12954v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhengli97/dm-kd)",
+      "n": "CAL + Real-Guidance",
+      "d": "2023-05-22",
+      "m1": "71.7",
+      "m2": "17.7"
+    },
+    {
+      "p": "[Counterfactual Attention Learning for Fine-Grained Visual Categorization and Re-identification](https://arxiv.org/abs/2108.08728v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/raoyongming/CAL)",
+      "n": "CAL",
+      "d": "2021-08-19",
+      "m1": "71.0",
+      "m2": "10.2"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

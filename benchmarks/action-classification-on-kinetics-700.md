@@ -1,0 +1,315 @@
+# action-classification-on-kinetics-700
+
+[Dataset Link](https://deepmind.com/research/open-source/kinetics) \
+Task Hierarchy: ['Video', 'Action Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Top-1 Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Top-5 Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[InternVideo2: Scaling Foundation Models for Multimodal Video Understanding](https://arxiv.org/abs/2403.15377v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internvideo)",
+      "n": "InternVideo2-6B",
+      "d": "2024-03-22",
+      "m1": "85.9"
+    },
+    {
+      "p": "[InternVideo2: Scaling Foundation Models for Multimodal Video Understanding](https://arxiv.org/abs/2403.15377v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internvideo)",
+      "n": "InternVideo2-1B",
+      "d": "2024-03-22",
+      "m1": "85.4"
+    },
+    {
+      "p": "[InternVideo: General Video Foundation Models via Generative and Discriminative Learning](https://arxiv.org/abs/2212.03191v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internvideo)",
+      "n": "InternVideo-T",
+      "d": "2022-12-06",
+      "m1": "84.0"
+    },
+    {
+      "p": "[Rethinking Video ViTs: Sparse Video Tubes for Joint Image and Video Learning](https://arxiv.org/abs/2212.03229v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/daniel-code/TubeViT)",
+      "n": "TubeViT-L",
+      "d": "2022-12-06",
+      "m1": "83.8",
+      "m2": "96.6"
+    },
+    {
+      "p": "[Unmasked Teacher: Towards Training-Efficient Video Foundation Models](https://arxiv.org/abs/2303.16058v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/opengvlab/unmasked_teacher)",
+      "n": "UMT-L (ViT-L/16)",
+      "d": "2023-03-28",
+      "m1": "83.6",
+      "m2": "96.7"
+    },
+    {
+      "p": "[Multiview Transformers for Video Recognition](https://arxiv.org/abs/2201.04288v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/scenic)",
+      "n": "MTV-H (WTS 60M)",
+      "d": "2022-01-12",
+      "m1": "83.4",
+      "m2": "96.2"
+    },
+    {
+      "p": "[EVA: Exploring the Limits of Masked Visual Representation Learning at Scale](https://arxiv.org/abs/2211.07636v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "EVA",
+      "d": "2022-11-14",
+      "m1": "82.9%"
+    },
+    {
+      "p": "[UniFormerV2: Spatiotemporal Learning by Arming Image ViTs with Video UniFormer](https://openreview.net/forum?id=d77RVuVg-Mf)",
+      "c": "[&check;&nbsp;Link](https://github.com/OpenGVLab/UniFormerV2)",
+      "n": "UniFormerV2-L",
+      "d": "2022-09-22",
+      "m1": "82.7",
+      "m2": "96.2"
+    },
+    {
+      "p": "[CoCa: Contrastive Captioners are Image-Text Foundation Models](https://arxiv.org/abs/2205.01917v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mlfoundations/open_clip)",
+      "n": "CoCa (finetuned)",
+      "d": "2022-05-04",
+      "m1": "82.7"
+    },
+    {
+      "p": "[CoCa: Contrastive Captioners are Image-Text Foundation Models](https://arxiv.org/abs/2205.01917v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mlfoundations/open_clip)",
+      "n": "CoCa (frozen)",
+      "d": "2022-05-04",
+      "m1": "81.1"
+    },
+    {
+      "p": "[Hiera: A Hierarchical Vision Transformer without the Bells-and-Whistles](https://arxiv.org/abs/2306.00989v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/pytorch-image-models)",
+      "n": "Hiera-H (no extra data)",
+      "d": "2023-06-01",
+      "m1": "81.1"
+    },
+    {
+      "p": "[Masked Feature Prediction for Self-Supervised Visual Pre-Training](https://arxiv.org/abs/2112.09133v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/SlowFast)",
+      "n": "MaskFeat (no extra data, MViT-L)",
+      "d": "2021-12-16",
+      "m1": "80.4",
+      "m2": "95.7"
+    },
+    {
+      "p": "[mPLUG-2: A Modularized Multi-modal Foundation Model Across Text, Image and Video](https://arxiv.org/abs/2302.00402v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/modelscope/modelscope)",
+      "n": "mPLUG-2",
+      "d": "2023-02-01",
+      "m1": "80.4",
+      "m2": "94.9"
+    },
+    {
+      "p": "[AIM: Adapting Image Models for Efficient Video Action Recognition](https://arxiv.org/abs/2302.03024v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/taoyang1122/adapt-image-models)",
+      "n": "AIM (CLIP ViT-L/14, 32x224)",
+      "d": "2023-02-06",
+      "m1": "80.4"
+    },
+    {
+      "p": "[Co-training Transformer with Videos and Images Improves Action Recognition](https://arxiv.org/abs/2112.07175v1)",
+      "c": "",
+      "n": "CoVeR (JFT-3B)",
+      "d": "2021-12-14",
+      "m1": "79.8",
+      "m2": "94.9"
+    },
+    {
+      "p": "[MViTv2: Improved Multiscale Vision Transformers for Classification and Detection](https://arxiv.org/abs/2112.01526v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "MViTv2-L (ImageNet-21k pretrain)",
+      "d": "2021-12-02",
+      "m1": "79.4",
+      "m2": "94.9"
+    },
+    {
+      "p": "[MViTv2: Improved Multiscale Vision Transformers for Classification and Detection](https://arxiv.org/abs/2112.01526v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "MoViNet-A6",
+      "d": "2021-12-02",
+      "m1": "79.4"
+    },
+    {
+      "p": "[Co-training Transformer with Videos and Images Improves Action Recognition](https://arxiv.org/abs/2112.07175v1)",
+      "c": "",
+      "n": "CoVeR (JFT-300M)",
+      "d": "2021-12-14",
+      "m1": "78.5",
+      "m2": "94.2"
+    },
+    {
+      "p": "[MViTv2: Improved Multiscale Vision Transformers for Classification and Detection](https://arxiv.org/abs/2112.01526v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "MViTv2-B",
+      "d": "2021-12-02",
+      "m1": "76.6",
+      "m2": "93.2"
+    },
+    {
+      "p": "[MoViNets: Mobile Video Networks for Efficient Video Recognition](https://arxiv.org/abs/2103.11511v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+      "n": "MoViNet-A6",
+      "d": "2021-03-21",
+      "m1": "72.3"
+    },
+    {
+      "p": "[MoViNets: Mobile Video Networks for Efficient Video Recognition](https://arxiv.org/abs/2103.11511v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+      "n": "MoViNet-A5",
+      "d": "2021-03-21",
+      "m1": "71.7"
+    },
+    {
+      "p": "[VidTr: Video Transformer Without Convolutions](https://arxiv.org/abs/2104.11746v2)",
+      "c": "",
+      "n": "En-VidTr-L",
+      "d": "2021-04-23",
+      "m1": "70.8",
+      "m2": "89.4"
+    },
+    {
+      "p": "[MoViNets: Mobile Video Networks for Efficient Video Recognition](https://arxiv.org/abs/2103.11511v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+      "n": "MoViNet-A4",
+      "d": "2021-03-21",
+      "m1": "70.7"
+    },
+    {
+      "p": "[VidTr: Video Transformer Without Convolutions](https://arxiv.org/abs/2104.11746v2)",
+      "c": "",
+      "n": "VidTr-L",
+      "d": "2021-04-23",
+      "m1": "70.2",
+      "m2": "89"
+    },
+    {
+      "p": "[VidTr: Video Transformer Without Convolutions](https://arxiv.org/abs/2104.11746v2)",
+      "c": "",
+      "n": "VidTr-M",
+      "d": "2021-04-23",
+      "m1": "69.5",
+      "m2": "88.3"
+    },
+    {
+      "p": "[MoViNets: Mobile Video Networks for Efficient Video Recognition](https://arxiv.org/abs/2103.11511v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+      "n": "MoViNet-A3",
+      "d": "2021-03-21",
+      "m1": "68.0"
+    },
+    {
+      "p": "[VidTr: Video Transformer Without Convolutions](https://arxiv.org/abs/2104.11746v2)",
+      "c": "",
+      "n": "VidTr-S",
+      "d": "2021-04-23",
+      "m1": "67.3",
+      "m2": "87.7"
+    },
+    {
+      "p": "[MoViNets: Mobile Video Networks for Efficient Video Recognition](https://arxiv.org/abs/2103.11511v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+      "n": "MoViNet-A2",
+      "d": "2021-03-21",
+      "m1": "66.7"
+    },
+    {
+      "p": "[MoViNets: Mobile Video Networks for Efficient Video Recognition](https://arxiv.org/abs/2103.11511v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+      "n": "MoViNet-A1",
+      "d": "2021-03-21",
+      "m1": "63.5"
+    },
+    {
+      "p": "[MoViNets: Mobile Video Networks for Efficient Video Recognition](https://arxiv.org/abs/2103.11511v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+      "n": "MoViNet-A0",
+      "d": "2021-03-21",
+      "m1": "58.5"
+    },
+    {
+      "p": "[Learn to cycle: Time-consistent feature discovery for action recognition](https://arxiv.org/abs/2006.08247v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/alexandrosstergiou/Squeeze-and-Recursion-Temporal-Gates/blob/master/train_model.py)",
+      "n": "SRTG r3d-101",
+      "d": "2020-06-15",
+      "m1": "56.46",
+      "m2": "76.82"
+    },
+    {
+      "p": "[Learn to cycle: Time-consistent feature discovery for action recognition](https://arxiv.org/abs/2006.08247v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/alexandrosstergiou/Squeeze-and-Recursion-Temporal-Gates/blob/master/train_model.py)",
+      "n": "SRTG r(2+1)d-50",
+      "d": "2020-06-15",
+      "m1": "54.17",
+      "m2": "74.62"
+    },
+    {
+      "p": "[Learn to cycle: Time-consistent feature discovery for action recognition](https://arxiv.org/abs/2006.08247v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/alexandrosstergiou/Squeeze-and-Recursion-Temporal-Gates/blob/master/train_model.py)",
+      "n": "SRTG r3d-50",
+      "d": "2020-06-15",
+      "m1": "53.52",
+      "m2": "74.17"
+    },
+    {
+      "p": "[Vision Models Are More Robust And Fair When Pretrained On Uncurated Images Without Supervision](https://arxiv.org/abs/2202.08360v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/vissl)",
+      "n": "SEER (RegNet10B)",
+      "d": "2022-02-16",
+      "m1": "51.9"
+    },
+    {
+      "p": "[Learn to cycle: Time-consistent feature discovery for action recognition](https://arxiv.org/abs/2006.08247v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/alexandrosstergiou/Squeeze-and-Recursion-Temporal-Gates/blob/master/train_model.py)",
+      "n": "SRTG r(2+1)d-34",
+      "d": "2020-06-15",
+      "m1": "49.43",
+      "m2": "73.23"
+    },
+    {
+      "p": "[Learn to cycle: Time-consistent feature discovery for action recognition](https://arxiv.org/abs/2006.08247v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/alexandrosstergiou/Squeeze-and-Recursion-Temporal-Gates/blob/master/train_model.py)",
+      "n": "SRTG r3d-34",
+      "d": "2020-06-15",
+      "m1": "49.15",
+      "m2": "72.68"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

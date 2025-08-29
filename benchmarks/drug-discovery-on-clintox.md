@@ -1,0 +1,67 @@
+# drug-discovery-on-clintox
+
+[Dataset Link](https://moleculenet.org/) \
+Task Hierarchy: ['Drug Discovery']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AUC",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Accelerating Drug Safety Assessment using Bidirectional-LSTM for SMILES Data](https://arxiv.org/abs/2407.18919v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/kvrsid/toxic)",
+      "n": "BiLSTM",
+      "d": "2024-07-08",
+      "m1": "0.97"
+    },
+    {
+      "p": "[TrimNet: learning molecular representation from triplet messages for biomedicine](https://doi.org/10.1093/bib/bbaa266)",
+      "c": "[&check;&nbsp;Link](https://github.com/yvquanli/TrimNet)",
+      "n": "TrimNet",
+      "d": "2020-11-04",
+      "m1": "0.948"
+    },
+    {
+      "p": "[GIT-Mol: A Multi-modal Large Language Model for Molecular Science with Graph, Image, and Text](https://arxiv.org/abs/2308.06911v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/ai-hpc-research-team/git-mol)",
+      "n": "GIT-Mol(G+S)",
+      "d": "2023-08-14",
+      "m1": "0.883"
+    },
+    {
+      "p": "[Strategies for Pre-training Graph Neural Networks](https://arxiv.org/abs/1905.12265v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/snap-stanford/pretrain-gnns)",
+      "n": "ContextPred",
+      "d": "2019-05-29",
+      "m1": "0.726"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

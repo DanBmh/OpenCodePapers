@@ -1,0 +1,74 @@
+# open-vocabulary-attribute-detection-on-ovad
+
+[Dataset Link](https://ovad-benchmark.github.io/) \
+Task Hierarchy: ['16k', 'Object Detection', 'Open Vocabulary Object Detection', 'Open Vocabulary Attribute Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mean average precision",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[OvarNet: Towards Open-vocabulary Object Attribute Recognition](https://arxiv.org/abs/2301.09506v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/KyanChen/OvarNet)",
+      "n": "OvarNet (ViT-B16)",
+      "d": "2023-01-23",
+      "m1": "27.2"
+    },
+    {
+      "p": "[Open-vocabulary Attribute Detection](https://arxiv.org/abs/2211.12914v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/OVAD-Benchmark/ovad-bechmark-code)",
+      "n": "OVAD-Baseline (ResNet50)",
+      "d": "2022-11-23",
+      "m1": "18.8"
+    },
+    {
+      "p": "[Open-Vocabulary Object Detection Using Captions](https://arxiv.org/abs/2011.10678v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/alirezazareian/ovr-cnn)",
+      "n": "OVR (ResNet50)",
+      "d": "2020-11-20",
+      "m1": "15.1"
+    },
+    {
+      "p": "[Localized Vision-Language Matching for Open-vocabulary Object Detection](https://arxiv.org/abs/2205.06160v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/lmb-freiburg/locov)",
+      "n": "LocOv (ResNet50)",
+      "d": "2022-05-12",
+      "m1": "14.9"
+    },
+    {
+      "p": "[Bridging the Gap between Object and Image-level Representations for Open-Vocabulary Detection](https://arxiv.org/abs/2207.03482v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/mmaaz60/mvits_for_class_agnostic_od)",
+      "n": "Object-Centric-OVD (ResNet50)",
+      "d": "2022-07-07",
+      "m1": "14.6"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

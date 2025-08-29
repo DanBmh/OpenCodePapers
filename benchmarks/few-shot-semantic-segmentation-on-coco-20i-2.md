@@ -1,0 +1,123 @@
+# few-shot-semantic-segmentation-on-coco-20i-2
+
+[Dataset Link]() \
+Task Hierarchy: ['Meta-Learning', 'Few-Shot Learning', 'Few-Shot Semantic Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Mean IoU",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Feature-Proxy Transformer for Few-Shot Segmentation](https://arxiv.org/abs/2210.06908v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jarvis73/fptrans)",
+      "n": "FPTrans (DeiT-B/16)",
+      "d": "2022-10-13",
+      "m1": "79.3"
+    },
+    {
+      "p": "[Dense Gaussian Processes for Few-Shot Segmentation](https://arxiv.org/abs/2110.03674v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/joakimjohnander/dgpnet)",
+      "n": "DGPNet (ResNet-101)",
+      "d": "2021-10-07",
+      "m1": "78.5"
+    },
+    {
+      "p": "[Dense Gaussian Processes for Few-Shot Segmentation](https://arxiv.org/abs/2110.03674v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/joakimjohnander/dgpnet)",
+      "n": "DGPNet (ResNet-50)",
+      "d": "2021-10-07",
+      "m1": "77.5"
+    },
+    {
+      "p": "[Feature-Proxy Transformer for Few-Shot Segmentation](https://arxiv.org/abs/2210.06908v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jarvis73/fptrans)",
+      "n": "FPTrans (ViT-B/16)",
+      "d": "2022-10-13",
+      "m1": "76.9"
+    },
+    {
+      "p": "[MSDNet: Multi-Scale Decoder for Few-Shot Semantic Segmentation via Transformer-Guided Prototyping](https://arxiv.org/abs/2409.11316v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/amirrezafateh/msdnet)",
+      "n": "MSDNet (ResNet-101)",
+      "d": "2024-09-17",
+      "m1": "76.4"
+    },
+    {
+      "p": "[MSDNet: Multi-Scale Decoder for Few-Shot Semantic Segmentation via Transformer-Guided Prototyping](https://arxiv.org/abs/2409.11316v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/amirrezafateh/msdnet)",
+      "n": "MSDNet (ResNet-50)",
+      "d": "2024-09-17",
+      "m1": "74.2"
+    },
+    {
+      "p": "[HM: Hybrid Masking for Few-Shot Segmentation](https://arxiv.org/abs/2203.12826v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/moonsh/hm-hybrid-masking)",
+      "n": "HSNet (HM, ResNet-101)",
+      "d": "2022-03-24",
+      "m1": "70.9"
+    },
+    {
+      "p": "[HM: Hybrid Masking for Few-Shot Segmentation](https://arxiv.org/abs/2203.12826v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/moonsh/hm-hybrid-masking)",
+      "n": "HSNet (HM, ResNet-50)",
+      "d": "2022-03-24",
+      "m1": "69.7"
+    },
+    {
+      "p": "[HM: Hybrid Masking for Few-Shot Segmentation](https://arxiv.org/abs/2203.12826v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/moonsh/hm-hybrid-masking)",
+      "n": "VAT (HM, ResNet-50)",
+      "d": "2022-03-24",
+      "m1": "69.7"
+    },
+    {
+      "p": "[Few-Shot Segmentation Without Meta-Learning: A Good Transductive Inference Is All You Need?](https://arxiv.org/abs/2012.06166v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mboudiaf/RePRI-for-Few-Shot-Segmentation)",
+      "n": "RePRI (ResNet-50)",
+      "d": "2020-12-11",
+      "m1": "67.7"
+    },
+    {
+      "p": "[Simpler is Better: Few-shot Semantic Segmentation with Classifier Weight Transformer](https://arxiv.org/abs/2108.03032v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhiheLu/CWT-for-FSS)",
+      "n": "CWT (ResNet-50)",
+      "d": "2021-08-06",
+      "m1": "66.5"
+    },
+    {
+      "p": "[Prototype Mixture Models for Few-shot Semantic Segmentation](https://arxiv.org/abs/2008.03898v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Yang-Bob/PMMs)",
+      "n": "RPMM",
+      "d": "2020-08-10",
+      "m1": "53.8"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

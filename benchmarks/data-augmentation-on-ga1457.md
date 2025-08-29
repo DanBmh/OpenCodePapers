@@ -1,0 +1,67 @@
+# data-augmentation-on-ga1457
+
+[Dataset Link]() \
+Task Hierarchy: ['Data Augmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Classification Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[DiffAug: Enhance Unsupervised Contrastive Learning with Domain-Knowledge-Free Diffusion-based Data Augmentation](https://arxiv.org/abs/2309.07909v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zangzelin/code_diffaug)",
+      "n": "DiffAug",
+      "d": "2023-09-10",
+      "m1": "92.7"
+    },
+    {
+      "p": "[Understanding How Dimension Reduction Tools Work: An Empirical Approach to Deciphering t-SNE, UMAP, TriMAP, and PaCMAP for Data Visualization](https://arxiv.org/abs/2012.04456v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/YingfanWang/PaCMAP)",
+      "n": "PaCMAP",
+      "d": "2020-12-08",
+      "m1": "85.3"
+    },
+    {
+      "p": "[Hierarchical Nearest Neighbor Graph Embedding for Efficient Dimensionality Reduction](https://arxiv.org/abs/2203.12997v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/koulakis/h-nne)",
+      "n": "hNNE",
+      "d": "2022-03-24",
+      "m1": "77.4"
+    },
+    {
+      "p": "[Topological Autoencoders](https://arxiv.org/abs/1906.00722v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/BorgwardtLab/topological-autoencoders)",
+      "n": "TopoAE",
+      "d": "2019-06-03",
+      "m1": "74.6"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

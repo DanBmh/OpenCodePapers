@@ -1,0 +1,344 @@
+# automated-theorem-proving-on-minif2f-test
+
+[Dataset Link](https://github.com/openai/miniF2F) \
+Task Hierarchy: ['Mathematical Proofs', 'Automated Theorem Proving']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "cumulative",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Pass@1",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Pass@32",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Pass@64",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "Pass@100",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "ITP",
+      "sortable": "true"
+    },
+    {
+      "key": "m7",
+      "label": "pass@1024",
+      "sortable": "true"
+    },
+    {
+      "key": "m8",
+      "label": "pass@8192",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Kimina-Prover Preview: Towards Large Formal Reasoning Models with Reinforcement Learning](https://arxiv.org/abs/2504.11354v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/moonshotai/kimina-prover-preview)",
+      "n": "Kimina-Prover-Preview",
+      "d": "2025-04-15",
+      "m1": "80.74",
+      "m2": "52.94",
+      "m3": "68.85",
+      "m6": "Lean",
+      "m7": "77.87",
+      "m8": "80.74"
+    },
+    {
+      "p": "[Efficient Neural Theorem Proving via Fine-grained Proof Structure Analysis](https://arxiv.org/abs/2501.18310v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/haoxiongliu/proofaug)",
+      "n": "ProofAug",
+      "d": "2025-01-30",
+      "m1": "66.0",
+      "m2": "36.5",
+      "m5": "52.5",
+      "m6": "Isabelle"
+    },
+    {
+      "p": "[DeepSeek-Prover-V1.5: Harnessing Proof Assistant Feedback for Reinforcement Learning and Monte-Carlo Tree Search](https://arxiv.org/abs/2408.08152v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/deepseek-ai/deepseek-prover-v1.5)",
+      "n": "DeepSeek-Prover-V1.5",
+      "d": "2024-08-15",
+      "m1": "63.5",
+      "m3": "50.0",
+      "m4": "50.7",
+      "m6": "Lean"
+    },
+    {
+      "p": "[SubgoalXL: Subgoal-based Expert Learning for Theorem Proving](https://arxiv.org/abs/2408.11172v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhaoxlpku/subgoalxl)",
+      "n": "Subgoal-XL",
+      "d": "2024-08-20",
+      "m1": "56.1",
+      "m3": "39.3",
+      "m6": "Isabelle"
+    },
+    {
+      "p": "[DeepSeek-Prover: Advancing Theorem Proving in LLMs through Large-Scale Synthetic Data](https://arxiv.org/abs/2405.14333v1)",
+      "c": "",
+      "n": "DeepSeek-Prover",
+      "d": "2024-05-23",
+      "m1": "52.0",
+      "m2": "30.0",
+      "m4": "46.3",
+      "m6": "Lean"
+    },
+    {
+      "p": "[Lyra: Orchestrating Dual Correction in Automated Theorem Proving](https://arxiv.org/abs/2309.15806v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/chuanyang-zheng/lyra-theorem-prover)",
+      "n": "Lyra + GPT-4",
+      "d": "2023-09-27",
+      "m1": "47.1",
+      "m5": "47.1",
+      "m6": "Isabelle"
+    },
+    {
+      "p": "[LEGO-Prover: Neural Theorem Proving with Growing Libraries](https://arxiv.org/abs/2310.00656v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/wiio12/LEGO-Prover)",
+      "n": "LEGO-Prover ChatGPT",
+      "d": "2023-10-01",
+      "m1": "47.1",
+      "m5": "47.1",
+      "m6": "Isabelle"
+    },
+    {
+      "p": "[Decomposing the Enigma: Subgoal-based Demonstration Learning for Formal Theorem Proving](https://arxiv.org/abs/2305.16366v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/hkunlp/subgoal-theorem-prover)",
+      "n": "Decomposing the Enigma",
+      "d": "2023-05-25",
+      "m1": "45.5",
+      "m5": "45.5",
+      "m6": "Isabelle"
+    },
+    {
+      "p": "[HyperTree Proof Search for Neural Theorem Proving](https://arxiv.org/abs/2205.11491v1)",
+      "c": "",
+      "n": "Evariste",
+      "d": "2022-05-23",
+      "m1": "41",
+      "m4": "41",
+      "m6": "Lean"
+    },
+    {
+      "p": "[HyperTree Proof Search for Neural Theorem Proving](https://arxiv.org/abs/2205.11491v1)",
+      "c": "",
+      "n": "Evariste-7d",
+      "d": "2022-05-23",
+      "m1": "40.6",
+      "m4": "40.6",
+      "m6": "Lean"
+    },
+    {
+      "p": "[HyperTree Proof Search for Neural Theorem Proving](https://arxiv.org/abs/2205.11491v1)",
+      "c": "",
+      "n": "Evariste-1d",
+      "d": "2022-05-23",
+      "m1": "38.9",
+      "m4": "38.9",
+      "m6": "Lean"
+    },
+    {
+      "p": "[Draft, Sketch, and Prove: Guiding Formal Theorem Provers with Informal Proofs](https://arxiv.org/abs/2210.12283v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/minif2f)",
+      "n": "DSP (540B Minerva informal)",
+      "d": "2022-10-21",
+      "m1": "38.9",
+      "m5": "38.9",
+      "m6": "Isabelle"
+    },
+    {
+      "p": "[Formal Mathematics Statement Curriculum Learning](https://arxiv.org/abs/2202.01344v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/openai/lean-gym)",
+      "n": "Lean Expert Iteration",
+      "d": "2022-02-03",
+      "m1": "36.6",
+      "m2": "29.6",
+      "m3": "34.5",
+      "m4": "36.6",
+      "m6": "Lean"
+    },
+    {
+      "p": "[HyperTree Proof Search for Neural Theorem Proving](https://arxiv.org/abs/2205.11491v1)",
+      "c": "",
+      "n": "GPT-f",
+      "d": "2022-05-23",
+      "m1": "36.6",
+      "m4": "36.6",
+      "m6": "Metamath"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Thor + expert iteration on autoformalised theorems",
+      "d": null,
+      "m1": "35.2",
+      "m2": "35.2",
+      "m6": "Isabelle"
+    },
+    {
+      "p": "[An In-Context Learning Agent for Formal Theorem-Proving](https://arxiv.org/abs/2310.04353v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/trishullab/copra)",
+      "n": "COPRA + GPT-4-turbo",
+      "d": "2023-10-06",
+      "m1": "30.7",
+      "m2": "30.7",
+      "m6": "Lean"
+    },
+    {
+      "p": "[Thor: Wielding Hammers to Integrate Language Models and Automated Theorem Provers](https://arxiv.org/abs/2205.10893v1)",
+      "c": "",
+      "n": "Thor",
+      "d": "2022-05-22",
+      "m1": "29.9",
+      "m2": "29.9",
+      "m6": "Isabelle"
+    },
+    {
+      "p": "[MiniF2F: a cross-system benchmark for formal Olympiad-level mathematics](https://arxiv.org/abs/2109.00110v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/openai/minif2f)",
+      "n": "Lean GPT-f",
+      "d": "2021-08-31",
+      "m1": "29.2",
+      "m2": "24.6",
+      "m3": "29.2",
+      "m6": "Lean"
+    },
+    {
+      "p": "[An Empirical Study of Data Ability Boundary in LLMs' Math Reasoning](https://arxiv.org/abs/2403.00799v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cyzhh/MMOS)",
+      "n": "MMOS-DeepSeekMath-7B",
+      "d": "2024-02-23",
+      "m1": "28.3",
+      "m2": "28.3",
+      "m6": "Lean"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "ReProver",
+      "d": null,
+      "m1": "26.5",
+      "m3": "26.5",
+      "m6": "Lean"
+    },
+    {
+      "p": "[Llemma: An Open Language Model For Mathematics](https://arxiv.org/abs/2310.10631v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/eleutherai/gpt-neox)",
+      "n": "LLEMMA-7b",
+      "d": "2023-10-16",
+      "m1": "26.2",
+      "m3": "26.2",
+      "m6": "Lean"
+    },
+    {
+      "p": "[Llemma: An Open Language Model For Mathematics](https://arxiv.org/abs/2310.10631v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/eleutherai/gpt-neox)",
+      "n": "LLEMMA-34b",
+      "d": "2023-10-16",
+      "m1": "25.8",
+      "m3": "25.8",
+      "m6": "Lean"
+    },
+    {
+      "p": "[Proof Artifact Co-training for Theorem Proving with Language Models](https://arxiv.org/abs/2102.06203v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/wellecks/llmstep)",
+      "n": "PACT (reproduced by Thor)",
+      "d": "2021-02-11",
+      "m1": "24.6",
+      "m2": "24.6",
+      "m6": "Isabelle"
+    },
+    {
+      "p": "[An In-Context Learning Agent for Formal Theorem-Proving](https://arxiv.org/abs/2310.04353v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/trishullab/copra)",
+      "n": "COPRA + GPT-4",
+      "d": "2023-10-06",
+      "m1": "23.3",
+      "m2": "23.3",
+      "m6": "Lean"
+    },
+    {
+      "p": "[Draft, Sketch, and Prove: Guiding Formal Theorem Provers with Informal Proofs](https://arxiv.org/abs/2210.12283v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/minif2f)",
+      "n": "Sledgehammer + heuristics",
+      "d": "2022-10-21",
+      "m1": "20.9",
+      "m2": "20.9",
+      "m6": "Isabelle"
+    },
+    {
+      "p": "[MiniF2F: a cross-system benchmark for formal Olympiad-level mathematics](https://arxiv.org/abs/2109.00110v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/openai/minif2f)",
+      "n": "Lean tidy",
+      "d": "2021-08-31",
+      "m1": "18",
+      "m2": "18",
+      "m6": "Lean"
+    },
+    {
+      "p": "[An In-Context Learning Agent for Formal Theorem-Proving](https://arxiv.org/abs/2310.04353v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/trishullab/copra)",
+      "n": "COPRA + GPT-3.5",
+      "d": "2023-10-06",
+      "m1": "11.9",
+      "m2": "11.9",
+      "m6": "Lean"
+    },
+    {
+      "p": "[Thor: Wielding Hammers to Integrate Language Models and Automated Theorem Provers](https://arxiv.org/abs/2205.10893v1)",
+      "c": "",
+      "n": "Sledgehammer",
+      "d": "2022-05-22",
+      "m1": "10.4",
+      "m2": "10.4",
+      "m6": "Isabelle"
+    },
+    {
+      "p": "[MiniF2F: a cross-system benchmark for formal Olympiad-level mathematics](https://arxiv.org/abs/2109.00110v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/openai/minif2f)",
+      "n": "Metamath GPT-f",
+      "d": "2021-08-31",
+      "m1": "1.6",
+      "m2": "1.3",
+      "m6": "Metamath"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

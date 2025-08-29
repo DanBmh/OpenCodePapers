@@ -1,0 +1,76 @@
+# image-generation-on-vln-ce
+
+[Dataset Link](https://jacobkrantz.github.io/vlnce/#overview) \
+Task Hierarchy: ['Image Generation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "FID",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "FID (SwAV)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[GAUDI: A Neural Architect for Immersive 3D Scene Generation](https://arxiv.org/abs/2207.13751v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/apple/ml-gaudi)",
+      "n": "GAUDI",
+      "d": "2022-07-27",
+      "m1": "18.52",
+      "m2": "3.63"
+    },
+    {
+      "p": "[GAUDI: A Neural Architect for Immersive 3D Scene Generation](https://arxiv.org/abs/2207.13751v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/apple/ml-gaudi)",
+      "n": "GSN",
+      "d": "2022-07-27",
+      "m1": "43.32",
+      "m2": "6.19"
+    },
+    {
+      "p": "[GAUDI: A Neural Architect for Immersive 3D Scene Generation](https://arxiv.org/abs/2207.13751v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/apple/ml-gaudi)",
+      "n": "GRAF",
+      "d": "2022-07-27",
+      "m1": "90.43",
+      "m2": "8.65"
+    },
+    {
+      "p": "[GAUDI: A Neural Architect for Immersive 3D Scene Generation](https://arxiv.org/abs/2207.13751v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/apple/ml-gaudi)",
+      "n": "\u03c0-GAN",
+      "d": "2022-07-27",
+      "m1": "151.26",
+      "m2": "14.07"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

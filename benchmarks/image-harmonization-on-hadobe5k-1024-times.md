@@ -1,0 +1,124 @@
+# image-harmonization-on-hadobe5k-1024-times
+
+[Dataset Link]() \
+Task Hierarchy: ['Image Generation', 'Image Harmonization']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "MSE",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "SSIM",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "fMSE",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Deep Image Harmonization in Dual Color Spaces](https://arxiv.org/abs/2308.02813v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/bcmi/duconet-image-harmonization)",
+      "n": "DucoNet",
+      "d": "2023-08-05",
+      "m1": "10.94",
+      "m2": "41.37",
+      "m3": "0.9886",
+      "m4": "80.69"
+    },
+    {
+      "p": "[Hierarchical Dynamic Image Harmonization](https://arxiv.org/abs/2211.08639v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/chenhaoxing/hdnet)",
+      "n": "HDNet",
+      "d": "2022-11-16",
+      "m1": "13.24",
+      "m2": "41.56",
+      "m3": "0.9931",
+      "m4": "102.53"
+    },
+    {
+      "p": "[High-Resolution Image Harmonization via Collaborative Dual Transformations](https://arxiv.org/abs/2109.06671v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/bcmi/CDTNet-High-Resolution-Image-Harmonization)",
+      "n": "CDTNet",
+      "d": "2021-09-14",
+      "m1": "21.24",
+      "m2": "38.77",
+      "m3": "0.9868",
+      "m4": "152.13"
+    },
+    {
+      "p": "[Region-aware Adaptive Instance Normalization for Image Harmonization](https://arxiv.org/abs/2106.02853v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/junleen/RainNet)",
+      "n": "RainNet",
+      "d": "2021-06-05",
+      "m1": "42.56",
+      "m2": "36.61",
+      "m3": "0.9844",
+      "m4": "305.17"
+    },
+    {
+      "p": "[Improving the Harmony of the Composite Image by Spatial-Separated Attention Module](https://arxiv.org/abs/1907.06406v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/vinthony/s2am)",
+      "n": "S2AM",
+      "d": "2019-07-15",
+      "m1": "47.01",
+      "m2": "35.68",
+      "m3": "0.9784",
+      "m4": "262.39"
+    },
+    {
+      "p": "[DoveNet: Deep Image Harmonization via Domain Verification](https://arxiv.org/abs/1911.13239v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/bcmi/Image_Harmonization_Datasets)",
+      "n": "DoveNet",
+      "d": "2019-11-27",
+      "m1": "51.00",
+      "m2": "34.81",
+      "m3": "0.9729",
+      "m4": "312.88"
+    },
+    {
+      "p": "[Intrinsic Image Harmonization](http://openaccess.thecvf.com//content/CVPR2021/html/Guo_Intrinsic_Image_Harmonization_CVPR_2021_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhenglab/IntrinsicHarmony)",
+      "n": "Intrinsic",
+      "d": "2021-06-19",
+      "m1": "56.34",
+      "m2": "34.69",
+      "m3": "0.9471",
+      "m4": "417.33"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

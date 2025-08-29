@@ -1,0 +1,74 @@
+# category-agnostic-pose-estimation-on-mp100
+
+[Dataset Link]() \
+Task Hierarchy: ['2D Classification', '2D Pose Estimation', 'Category-Agnostic Pose Estimation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Mean PCK@0.2 - 1shot",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[CapeLLM: Support-Free Category-Agnostic Pose Estimation with Multimodal Large Language Models](https://arxiv.org/abs/2411.06869v1)",
+      "c": "",
+      "n": "CapeLLM",
+      "d": "2024-11-11",
+      "m1": "92.60"
+    },
+    {
+      "p": "[Pose for Everything: Towards Category-Agnostic Pose Estimation](https://arxiv.org/abs/2207.10387v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/luminxu/pose-for-everything)",
+      "n": "POMNet",
+      "d": "2022-07-21",
+      "m1": "79.70"
+    },
+    {
+      "p": "[Revisiting Fine-tuning for Few-shot Learning](https://arxiv.org/abs/1910.00216v2)",
+      "c": "",
+      "n": "Finetune",
+      "d": "2019-10-01",
+      "m1": "63.58"
+    },
+    {
+      "p": "[Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks](http://arxiv.org/abs/1703.03400v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/ray-project/ray/tree/master/rllib)",
+      "n": "MAML",
+      "d": "2017-03-09",
+      "m1": "61.50"
+    },
+    {
+      "p": "[Prototypical Networks for Few-shot Learning](http://arxiv.org/abs/1703.05175v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/learnables/learn2learn)",
+      "n": "ProtoNet",
+      "d": "2017-03-15",
+      "m1": "44.78"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

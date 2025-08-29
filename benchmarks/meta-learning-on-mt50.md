@@ -1,0 +1,67 @@
+# meta-learning-on-mt50
+
+[Dataset Link]() \
+Task Hierarchy: ['Meta-Learning']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Average Success Rate",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Multi-Task Reinforcement Learning with Soft Modularization](https://arxiv.org/abs/2003.13661v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/RchalYang/Soft-Module)",
+      "n": "SoftModule",
+      "d": "2020-03-30",
+      "m1": "60.0%"
+    },
+    {
+      "p": "[Meta-World: A Benchmark and Evaluation for Multi-Task and Meta Reinforcement Learning](https://arxiv.org/abs/1910.10897v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rlworkgroup/metaworld)",
+      "n": "Multi-task multi-head SAC",
+      "d": "2019-10-24",
+      "m1": "35.85%"
+    },
+    {
+      "p": "[DisCor: Corrective Feedback in Reinforcement Learning via Distribution Correction](https://arxiv.org/abs/2003.07305v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ku2482/rljax)",
+      "n": "DisCor",
+      "d": "2020-03-16",
+      "m1": "26%"
+    },
+    {
+      "p": "[Neural Dynamic Policies for End-to-End Sensorimotor Learning](https://arxiv.org/abs/2012.02788v1)",
+      "c": "",
+      "n": "NDP",
+      "d": "2020-12-04",
+      "m1": "11%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

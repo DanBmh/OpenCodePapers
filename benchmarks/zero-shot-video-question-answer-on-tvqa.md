@@ -1,0 +1,102 @@
+# zero-shot-video-question-answer-on-tvqa
+
+[Dataset Link](https://github.com/jayleicn/TVQAplus) \
+Task Hierarchy: ['Video Question Answering', 'Zero-Shot Video Question Answer']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Zero-Shot Video Question Answering via Frozen Bidirectional Language Models](https://arxiv.org/abs/2206.08155v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/antoyang/FrozenBiLM)",
+      "n": "FrozenBiLM (with speech)",
+      "d": "2022-06-16",
+      "m1": "59.7"
+    },
+    {
+      "p": "[An Image Grid Can Be Worth a Video: Zero-shot Video Question Answering Using a VLM](https://arxiv.org/abs/2403.18406v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/imagegridworth/IG-VLM)",
+      "n": "IG-VLM (no speech, GPT-4V)",
+      "d": "2024-03-27",
+      "m1": "57.8"
+    },
+    {
+      "p": "[MiniGPT4-Video: Advancing Multimodal LLMs for Video Understanding with Interleaved Visual-Textual Tokens](https://arxiv.org/abs/2404.03413v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Vision-CAIR/MiniGPT4-video)",
+      "n": "MiniGPT4-video-7B",
+      "d": "2024-04-04",
+      "m1": "54.21"
+    },
+    {
+      "p": "[MVBench: A Comprehensive Multi-modal Video Understanding Benchmark](https://arxiv.org/abs/2311.17005v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/opengvlab/ask-anything)",
+      "n": "VideoChat_HD_mistral  (no speech)",
+      "d": "2023-11-28",
+      "m1": "50.6"
+    },
+    {
+      "p": "[MVBench: A Comprehensive Multi-modal Video Understanding Benchmark](https://arxiv.org/abs/2311.17005v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/opengvlab/ask-anything)",
+      "n": "VideoChat_mistral  (no speech)",
+      "d": "2023-11-28",
+      "m1": "46.4"
+    },
+    {
+      "p": "[MVBench: A Comprehensive Multi-modal Video Understanding Benchmark](https://arxiv.org/abs/2311.17005v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/opengvlab/ask-anything)",
+      "n": "VideoChat2 (no speech)",
+      "d": "2023-11-28",
+      "m1": "40.6"
+    },
+    {
+      "p": "[Self-Chained Image-Language Model for Video Localization and Question Answering](https://arxiv.org/abs/2305.06988v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/yui010206/sevila)",
+      "n": "SEVILA  (no speech)",
+      "d": "2023-05-11",
+      "m1": "38.2"
+    },
+    {
+      "p": "[InternVideo: General Video Foundation Models via Generative and Discriminative Learning](https://arxiv.org/abs/2212.03191v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internvideo)",
+      "n": "InternVideo  (no speech)",
+      "d": "2022-12-06",
+      "m1": "35.9"
+    },
+    {
+      "p": "[Zero-Shot Video Question Answering via Frozen Bidirectional Language Models](https://arxiv.org/abs/2206.08155v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/antoyang/FrozenBiLM)",
+      "n": "FrozenBILM (no speech)",
+      "d": "2022-06-16",
+      "m1": "29.7"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

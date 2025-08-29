@@ -1,0 +1,60 @@
+# brain-tumor-segmentation-on-brats-2017-val
+
+[Dataset Link](https://www.med.upenn.edu/sbia/brats2017/data.html) \
+Task Hierarchy: ['Medical Image Segmentation', 'Brain Tumor Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Dice Score",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[SegFormer3D: an Efficient Transformer for 3D Medical Image Segmentation](https://arxiv.org/abs/2404.10156v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/osupcvlab/segformer3d)",
+      "n": "SegFormer3D",
+      "d": "2024-04-15",
+      "m1": "0.9096"
+    },
+    {
+      "p": "[One-pass Multi-task Networks with Cross-task Guided Attention for Brain Tumor Segmentation](https://arxiv.org/abs/1906.01796v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/chenhong-zhou/OM-Net)",
+      "n": "SegFormer3D",
+      "d": "2019-06-05",
+      "m1": "0.9071"
+    },
+    {
+      "p": "[Automatic Brain Tumor Segmentation using Cascaded Anisotropic Convolutional Neural Networks](http://arxiv.org/abs/1709.00382v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/charan223/Brain-Tumor-Segmentation-using-Topological-Loss)",
+      "n": "Wang et al.",
+      "d": "2017-09-01",
+      "m1": "0.905"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

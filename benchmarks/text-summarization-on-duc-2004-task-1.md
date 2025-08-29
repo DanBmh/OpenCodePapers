@@ -1,0 +1,162 @@
+# text-summarization-on-duc-2004-task-1
+
+[Dataset Link](https://duc.nist.gov/duc2004/) \
+Task Hierarchy: ['Text Summarization']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "ROUGE-1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "ROUGE-2",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "ROUGE-L",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Rethinking Perturbations in Encoder-Decoders for Fast Training](https://arxiv.org/abs/2104.01853v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/takase/rethink_perturbations)",
+      "n": "Transformer+WDrop",
+      "d": "2021-04-05",
+      "m1": "33.06",
+      "m2": "11.45",
+      "m3": "28.51"
+    },
+    {
+      "p": "[Positional Encoding to Control Output Sequence Length](http://arxiv.org/abs/1904.07418v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/takase/control-length)",
+      "n": "Transformer+LRPE+PE+Re-ranking+Ensemble",
+      "d": "2019-04-16",
+      "m1": "32.85",
+      "m2": "11.78",
+      "m3": "28.52"
+    },
+    {
+      "p": "[All Word Embeddings from One Embedding](https://arxiv.org/abs/2004.12073v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/takase/alone_seq2seq)",
+      "n": "Transformer+LRPE+PE+ALONE+Re-ranking",
+      "d": "2020-04-25",
+      "m1": "32.57",
+      "m2": "11.63",
+      "m3": "28.24"
+    },
+    {
+      "p": "[Cutting-off Redundant Repeating Generations for Neural Abstractive Summarization](http://arxiv.org/abs/1701.00138v2)",
+      "c": "",
+      "n": "EndDec+WFE",
+      "d": "2016-12-31",
+      "m1": "32.28",
+      "m2": "10.54",
+      "m3": "27.8"
+    },
+    {
+      "p": "[Deep Recurrent Generative Decoder for Abstractive Text Summarization](http://arxiv.org/abs/1708.00625v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/toru34/li_emnlp_2017)",
+      "n": "DRGD",
+      "d": "2017-08-02",
+      "m1": "31.79",
+      "m2": "10.75",
+      "m3": "27.48"
+    },
+    {
+      "p": "[A Reinforced Topic-Aware Convolutional Sequence-to-Sequence Model for Abstractive Text Summarization](https://arxiv.org/abs/1805.03616v3)",
+      "c": "",
+      "n": "Reinforced-Topic-ConvS2S",
+      "d": "2018-05-09",
+      "m1": "31.15",
+      "m2": "10.85",
+      "m3": "27.68"
+    },
+    {
+      "p": "[Ensure the Correctness of the Summary: Incorporate Entailment Knowledge into Abstractive Sentence Summarization](https://aclanthology.org/C18-1121)",
+      "c": "",
+      "n": "Seq2seq + selective + MTL + ERAM",
+      "d": "2018-08-01",
+      "m1": "29.33",
+      "m2": "10.24",
+      "m3": "25.24"
+    },
+    {
+      "p": "[Selective Encoding for Abstractive Sentence Summarization](http://arxiv.org/abs/1704.07073v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/magic282/SEASS)",
+      "n": "SEASS",
+      "d": "2017-04-24",
+      "m1": "29.21",
+      "m2": "9.56",
+      "m3": "25.51"
+    },
+    {
+      "p": "[Abstractive Sentence Summarization with Attentive Recurrent Neural Networks](https://aclanthology.org/N16-1012)",
+      "c": "",
+      "n": "RAS-Elman",
+      "d": "2016-06-01",
+      "m1": "28.97",
+      "m2": "8.26",
+      "m3": "24.06"
+    },
+    {
+      "p": "[Abstractive Text Summarization Using Sequence-to-Sequence RNNs and Beyond](http://arxiv.org/abs/1602.06023v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/theamrzaki/text_summurization_abstractive_methods)",
+      "n": "words-lvt5k-1sent",
+      "d": "2016-02-19",
+      "m1": "28.61",
+      "m2": "9.42",
+      "m3": "25.24"
+    },
+    {
+      "p": "[A Neural Attention Model for Abstractive Sentence Summarization](http://arxiv.org/abs/1509.00685v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/research/textsum)",
+      "n": "Abs+",
+      "d": "2015-09-02",
+      "m1": "28.18",
+      "m2": "8.49",
+      "m3": "23.81"
+    },
+    {
+      "p": "[Sample Efficient Text Summarization Using a Single Pre-Trained Transformer](https://arxiv.org/abs/1905.08836v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/tensor2tensor)",
+      "n": "Transformer LM",
+      "d": "2019-05-21",
+      "m2": "17.74"
+    },
+    {
+      "p": "[A Neural Attention Model for Abstractive Sentence Summarization](http://arxiv.org/abs/1509.00685v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/research/textsum)",
+      "n": "ABS",
+      "d": "2015-09-02",
+      "m3": "22.05"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

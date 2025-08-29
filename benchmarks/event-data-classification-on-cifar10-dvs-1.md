@@ -1,0 +1,88 @@
+# event-data-classification-on-cifar10-dvs-1
+
+[Dataset Link](https://figshare.com/articles/CIFAR10-DVS_New/4724671/2) \
+Task Hierarchy: ['Event data classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Neuromorphic Data Augmentation for Training Spiking Neural Networks](https://arxiv.org/abs/2203.06145v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/intelligent-computing-lab-yale/nda_snn)",
+      "n": "tdBN + NDA (VGG11)",
+      "d": "2022-03-11",
+      "m1": "81.7"
+    },
+    {
+      "p": "[A Synapse-Threshold Synergistic Learning Approach for Spiking Neural Networks](https://arxiv.org/abs/2206.06129v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/sunhongze/STL-SNN)",
+      "n": "STL-SNN",
+      "d": "2022-06-10",
+      "m1": "78.50"
+    },
+    {
+      "p": "[Online Training Through Time for Spiking Neural Networks](https://arxiv.org/abs/2210.04195v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/pkuxmq/ottt-snn)",
+      "n": "OTTT",
+      "d": "2022-10-09",
+      "m1": "77.1"
+    },
+    {
+      "p": "[Differentiable Spike: Rethinking Gradient-Descent for Training Spiking Neural Networks](http://proceedings.neurips.cc/paper/2021/hash/c4ca4238a0b923820dcc509a6f75849b-Abstract.html)",
+      "c": "",
+      "n": "Dspike (ResNet-18)",
+      "d": "2021-12-01",
+      "m1": "75.4"
+    },
+    {
+      "p": "[Ecsnet: Spatio-temporal feature learning for event camera](https://ieeexplore.ieee.org/abstract/document/9869656)",
+      "c": "[&check;&nbsp;Link](https://github.com/happychenpipi/ECSNet)",
+      "n": "ECSNet",
+      "d": "2022-08-29",
+      "m1": "72.7"
+    },
+    {
+      "p": "[IM-Loss: Information Maximization Loss for Spiking Neural Networks](https://openreview.net/forum?id=Jw34v_84m2b)",
+      "c": "",
+      "n": "IM-Loss (ResNet-19)",
+      "d": "2022-10-31",
+      "m1": "72.60"
+    },
+    {
+      "p": "[Convolutional Spiking Neural Networks for Spatio-Temporal Feature Extraction](https://arxiv.org/abs/2003.12346v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/aa-samad/conv_snn)",
+      "n": "STS-ResNet",
+      "d": "2020-03-27",
+      "m1": "69.2"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

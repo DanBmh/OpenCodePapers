@@ -1,0 +1,60 @@
+# nested-named-entity-recognition-on-tac-kbp
+
+[Dataset Link]() \
+Task Hierarchy: ['Named Entity Recognition (NER)', 'Nested Named Entity Recognition']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Fusing Heterogeneous Factors with Triaffine Mechanism for Nested Named Entity Recognition](https://arxiv.org/abs/2110.07480v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/GanjinZero/Triaffine-nested-ner)",
+      "n": "Triaffine + ALBERT",
+      "d": "2021-10-14",
+      "m1": "87.27"
+    },
+    {
+      "p": "[Fusing Heterogeneous Factors with Triaffine Mechanism for Nested Named Entity Recognition](https://arxiv.org/abs/2110.07480v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/GanjinZero/Triaffine-nested-ner)",
+      "n": "Triaffine + BERT",
+      "d": "2021-10-14",
+      "m1": "85.05"
+    },
+    {
+      "p": "[Parallel Instance Query Network for Named Entity Recognition](https://arxiv.org/abs/2203.10545v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tricktreat/piqn)",
+      "n": "PIQN",
+      "d": "2022-03-20",
+      "m1": "84.5"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

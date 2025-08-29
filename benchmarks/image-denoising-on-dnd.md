@@ -1,0 +1,172 @@
+# image-denoising-on-dnd
+
+[Dataset Link](https://noise.visinf.tu-darmstadt.de/) \
+Task Hierarchy: ['3D Architecture', 'Denoising', 'Image Denoising']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PSNR (sRGB)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "SSIM (sRGB)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[DualDn: Dual-domain Denoising via Differentiable ISP](https://arxiv.org/abs/2409.18783v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/OpenImagingLab/DualDn)",
+      "n": "DualDn",
+      "d": "2024-09-27",
+      "m1": "40.594",
+      "m2": "0.966"
+    },
+    {
+      "p": "[Learning to Generate Realistic Noisy Images via Pixel-level Noise-aware Adversarial Training](https://arxiv.org/abs/2204.02844v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/caiyuanhao1998/PNGAN)",
+      "n": "PNGAN",
+      "d": "2022-04-06",
+      "m1": "40.18",
+      "m2": "0.961"
+    },
+    {
+      "p": "[Single Stage Adaptive Multi-Attention Network for Image Restoration](https://ieeexplore.ieee.org/abstract/document/10495777)",
+      "c": "[&check;&nbsp;Link](https://github.com/anas-zafar/SSAMAN)",
+      "n": "SSAMAN",
+      "d": "2024-04-10",
+      "m1": "40.05",
+      "m2": "0.963"
+    },
+    {
+      "p": "[Restormer: Efficient Transformer for High-Resolution Image Restoration](https://arxiv.org/abs/2111.09881v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/swz30/restormer)",
+      "n": "Restormer",
+      "d": "2021-11-18",
+      "m1": "40.03",
+      "m2": "0.956"
+    },
+    {
+      "p": "[Uformer: A General U-Shaped Transformer for Image Restoration](https://arxiv.org/abs/2106.03106v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ZhendongWang6/Uformer)",
+      "n": "Uformer-B",
+      "d": "2021-06-06",
+      "m1": "39.98",
+      "m2": "0.955"
+    },
+    {
+      "p": "[NBNet: Noise Basis Learning for Image Denoising with Subspace Projection](https://arxiv.org/abs/2012.15028v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/megengine/nbnet)",
+      "n": "NBNet",
+      "d": "2020-12-30",
+      "m1": "39.89",
+      "m2": "0.955"
+    },
+    {
+      "p": "[Learning Enriched Features for Real Image Restoration and Enhancement](https://arxiv.org/abs/2003.06792v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/swz30/restormer)",
+      "n": "MIRNet",
+      "d": "2020-03-15",
+      "m1": "39.88",
+      "m2": "0.956"
+    },
+    {
+      "p": "[MAXIM: Multi-Axis MLP for Image Processing](https://arxiv.org/abs/2201.02973v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/maxim)",
+      "n": "MAXIM-3S",
+      "d": "2022-01-09",
+      "m1": "39.84",
+      "m2": "0.954"
+    },
+    {
+      "p": "[Multi-Stage Progressive Image Restoration](https://arxiv.org/abs/2102.02808v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/swz30/restormer)",
+      "n": "MPRNet",
+      "d": "2021-02-04",
+      "m1": "39.80",
+      "m2": "0.954"
+    },
+    {
+      "p": "[Spatial-Adaptive Network for Single Image Denoising](https://arxiv.org/abs/2001.10291v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/JimmyChame/SADNet)",
+      "n": "SADNet",
+      "d": "2020-01-28",
+      "m1": "39.59",
+      "m2": "0.952"
+    },
+    {
+      "p": "[Dual Adversarial Network: Toward Real-world Noise Removal and Noise Generation](https://arxiv.org/abs/2007.05946v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zsyOAOA/DANet)",
+      "n": "DANet+",
+      "d": "2020-07-12",
+      "m1": "39.58",
+      "m2": "0.955"
+    },
+    {
+      "p": "[CycleISP: Real Image Restoration via Improved Data Synthesis](https://arxiv.org/abs/2003.07761v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/swz30/restormer)",
+      "n": "CycleISP",
+      "d": "2020-03-17",
+      "m1": "39.56",
+      "m2": "0.956"
+    },
+    {
+      "p": "[Variational Denoising Network: Toward Blind Noise Modeling and Removal](https://arxiv.org/abs/1908.11314v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/zsyOAOA/VDNet)",
+      "n": "VDN",
+      "d": "2019-08-29",
+      "m1": "39.38",
+      "m2": "0.952"
+    },
+    {
+      "p": "[Transfer Learning from Synthetic to Real-Noise Denoising with Adaptive Instance Normalization](https://arxiv.org/abs/2002.11244v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/terryoo/AINDNet)",
+      "n": "AINDNet",
+      "d": "2020-02-26",
+      "m1": "39.37",
+      "m2": "0.951"
+    },
+    {
+      "p": "[Real Image Denoising with Feature Attention](https://arxiv.org/abs/1904.07396v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/saeed-anwar/RIDNet)",
+      "n": "RIDNet",
+      "d": "2019-04-16",
+      "m1": "39.26",
+      "m2": "0.953"
+    },
+    {
+      "p": "[Toward Convolutional Blind Denoising of Real Photographs](http://arxiv.org/abs/1807.04686v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/GuoShi28/CBDNet)",
+      "n": "CBDNet",
+      "d": "2018-07-12",
+      "m1": "38.06",
+      "m2": "0.942"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

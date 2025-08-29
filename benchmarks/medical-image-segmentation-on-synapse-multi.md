@@ -1,0 +1,217 @@
+# medical-image-segmentation-on-synapse-multi
+
+[Dataset Link](https://www.synapse.org/#!Synapse:syn3193805/wiki/217789) \
+Task Hierarchy: ['Medical Image Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Avg DSC",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Avg HD",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[AI-SAM: Automatic and Interactive Segment Anything Model](https://arxiv.org/abs/2312.03119v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ymp5078/ai-sam)",
+      "n": "Interactive AI-SAM gt box",
+      "d": "2023-12-05",
+      "m1": "90.66"
+    },
+    {
+      "p": "[Medical SAM Adapter: Adapting Segment Anything Model for Medical Image Segmentation](https://arxiv.org/abs/2304.12620v7)",
+      "c": "[&check;&nbsp;Link](https://github.com/supermedintel/medical-sam-adapter)",
+      "n": "Medical SAM Adapter",
+      "d": "2023-04-25",
+      "m1": "89.80"
+    },
+    {
+      "p": "[MedSegDiff-V2: Diffusion based Medical Image Segmentation with Transformer](https://arxiv.org/abs/2301.11798v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/kidswithtokens/medsegdiff)",
+      "n": "MedSegDiff-v2",
+      "d": "2023-01-19",
+      "m1": "89.50"
+    },
+    {
+      "p": "[nnU-Net: Self-adapting Framework for U-Net-Based Medical Image Segmentation](http://arxiv.org/abs/1809.10486v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/NVIDIA/DeepLearningExamples/tree/ddbcd54056e8d1bc1c4d5a8ab34cb570ebea1947/PyTorch/Segmentation/nnUNet)",
+      "n": "nnUNet",
+      "d": "2018-09-27",
+      "m1": "88.80",
+      "m2": "10.78"
+    },
+    {
+      "p": "[MedNeXt: Transformer-driven Scaling of ConvNets for Medical Image Segmentation](https://arxiv.org/abs/2303.09975v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/MIC-DKFZ/MedNeXt)",
+      "n": "MedNeXt-L (5x5x5)",
+      "d": "2023-03-17",
+      "m1": "88.76"
+    },
+    {
+      "p": "[MIST: Medical Image Segmentation Transformer with Convolutional Attention Mixing (CAM) Decoder](https://arxiv.org/abs/2310.19898v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/rahman-motiur/mist)",
+      "n": "MIST",
+      "d": "2023-10-30",
+      "m1": "86.92",
+      "m2": "11.07"
+    },
+    {
+      "p": "[nnFormer: Interleaved Transformer for Volumetric Segmentation](https://arxiv.org/abs/2109.03201v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleSeg)",
+      "n": "nnFormer",
+      "d": "2021-09-07",
+      "m1": "86.57",
+      "m2": "10.63"
+    },
+    {
+      "p": "[AgileFormer: Spatially Agile Transformer UNet for Medical Image Segmentation](https://arxiv.org/abs/2404.00122v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/sotiraslab/AgileFormer)",
+      "n": "AgileFormer",
+      "d": "2024-03-29",
+      "m1": "86.11",
+      "m2": "12.88"
+    },
+    {
+      "p": "[Multi-scale Hierarchical Vision Transformer with Cascaded Attention Decoding for Medical Image Segmentation](https://arxiv.org/abs/2303.16892v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SLDGroup/MERIT)",
+      "n": "MERIT",
+      "d": "2023-03-29",
+      "m1": "84.90",
+      "m2": "13.22"
+    },
+    {
+      "p": "[AI-SAM: Automatic and Interactive Segment Anything Model](https://arxiv.org/abs/2312.03119v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ymp5078/ai-sam)",
+      "n": "Automatic AI-SAM",
+      "d": "2023-12-05",
+      "m1": "84.21"
+    },
+    {
+      "p": "[ParaTransCNN: Parallelized TransCNN Encoder for Medical Image Segmentation](https://arxiv.org/abs/2401.15307v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/hongkunsun/paratranscnn)",
+      "n": "ParaTransCNN",
+      "d": "2024-01-27",
+      "m1": "83.86",
+      "m2": "15.86"
+    },
+    {
+      "p": "[EMCAD: Efficient Multi-scale Convolutional Attention Decoding for Medical Image Segmentation](https://arxiv.org/abs/2405.06880v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/sldgroup/emcad)",
+      "n": "EMCAD",
+      "d": "2024-05-11",
+      "m1": "83.63",
+      "m2": "15.68"
+    },
+    {
+      "p": "[Rethinking Attention Gated with Hybrid Dual Pyramid Transformer-CNN for Generalized Segmentation in Medical Imaging](https://arxiv.org/abs/2404.18199v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/faresbougourzi/pagtransynet)",
+      "n": "PAG-TransYnet",
+      "d": "2024-04-28",
+      "m1": "83.43",
+      "m2": "15.82"
+    },
+    {
+      "p": "[SegFormer3D: an Efficient Transformer for 3D Medical Image Segmentation](https://arxiv.org/abs/2404.10156v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/osupcvlab/segformer3d)",
+      "n": "SegFormer3D",
+      "d": "2024-04-15",
+      "m1": "82.15"
+    },
+    {
+      "p": "[MISSFormer: An Effective Medical Image Segmentation Transformer](https://arxiv.org/abs/2109.07162v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhifangdeng/missformer)",
+      "n": "MISSFormer",
+      "d": "2021-09-15",
+      "m1": "81.96",
+      "m2": "18.20"
+    },
+    {
+      "p": "[S2S2: Semantic Stacking for Robust Semantic Segmentation in Medical Imaging](https://arxiv.org/abs/2412.13156v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ymp5078/semantic-stacking)",
+      "n": "TransUNet",
+      "d": "2024-12-17",
+      "m1": "81.19"
+    },
+    {
+      "p": "[SelfReg-UNet: Self-Regularized UNet for Medical Image Segmentation](https://arxiv.org/abs/2406.14896v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/chongqingnosubway/selfreg-unet)",
+      "n": "SelfReg-UNet: SwinUNet",
+      "d": "2024-06-21",
+      "m1": "80.54"
+    },
+    {
+      "p": "[SelfReg-UNet: Self-Regularized UNet for Medical Image Segmentation](https://arxiv.org/abs/2406.14896v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/chongqingnosubway/selfreg-unet)",
+      "n": "SelfReg-UNet: Vanilla UNet",
+      "d": "2024-06-21",
+      "m1": "80.34"
+    },
+    {
+      "p": "[Adaptive t-vMF Dice Loss for Multi-class Medical Image Segmentation](https://arxiv.org/abs/2207.07842v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/usagisukisuki/adaptive_t-vmf_dice_loss)",
+      "n": "FCB Former",
+      "d": "2022-07-16",
+      "m1": "80.26"
+    },
+    {
+      "p": "[Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective with Transformers](https://arxiv.org/abs/2012.15840v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleSeg)",
+      "n": "SETR",
+      "d": "2020-12-31",
+      "m1": "79.60"
+    },
+    {
+      "p": "[Swin-Unet: Unet-like Pure Transformer for Medical Image Segmentation](https://arxiv.org/abs/2105.05537v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/HuCaoFighting/Swin-Unet)",
+      "n": "SwinUnet",
+      "d": "2021-05-12",
+      "m1": "79.13",
+      "m2": "21.55"
+    },
+    {
+      "p": "[UCTransNet: Rethinking the Skip Connections in U-Net from a Channel-wise Perspective with Transformer](https://arxiv.org/abs/2109.04335v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/lucidrains/imagen-pytorch)",
+      "n": "UCTransNet",
+      "d": "2021-09-09",
+      "m1": "78.99",
+      "m2": "30.29"
+    },
+    {
+      "p": "[TransUNet: Transformers Make Strong Encoders for Medical Image Segmentation](https://arxiv.org/abs/2102.04306v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleSeg)",
+      "n": "TransUNet",
+      "d": "2021-02-08",
+      "m1": "77.48",
+      "m2": "31.69"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

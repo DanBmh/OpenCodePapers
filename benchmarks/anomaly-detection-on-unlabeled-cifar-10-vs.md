@@ -1,0 +1,143 @@
+# anomaly-detection-on-unlabeled-cifar-10-vs
+
+[Dataset Link](https://www.cs.toronto.edu/~kriz/cifar.html) \
+Task Hierarchy: ['Anomaly Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AUROC",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Network",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Out-of-Distribution Detection Without Class Labels](https://arxiv.org/abs/2112.07662v2)",
+      "c": "",
+      "n": "PsudoLabels ViT",
+      "d": "2021-12-14",
+      "m1": "96.7",
+      "m2": "ViT"
+    },
+    {
+      "p": "[Out-of-Distribution Detection Without Class Labels](https://arxiv.org/abs/2112.07662v2)",
+      "c": "",
+      "n": "PsudoLabels ResNet-152",
+      "d": "2021-12-14",
+      "m1": "93.3",
+      "m2": "ResNet-152"
+    },
+    {
+      "p": "[Out-of-Distribution Detection Without Class Labels](https://arxiv.org/abs/2112.07662v2)",
+      "c": "",
+      "n": "PsudoLabels ResNet-18",
+      "d": "2021-12-14",
+      "m1": "90.8",
+      "m2": "ResNet-18"
+    },
+    {
+      "p": "[Out-of-Distribution Detection Without Class Labels](https://arxiv.org/abs/2112.07662v2)",
+      "c": "",
+      "n": "SCAN Features",
+      "d": "2021-12-14",
+      "m1": "90.2",
+      "m2": "ResNet-18"
+    },
+    {
+      "p": "[Mean-Shifted Contrastive Loss for Anomaly Detection](https://arxiv.org/abs/2106.03844v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/talreiss/Mean-Shifted-Anomaly-Detection)",
+      "n": "MeanShifted",
+      "d": "2021-06-07",
+      "m1": "90.0",
+      "m2": "ResNet-152"
+    },
+    {
+      "p": "[SSD: A Unified Framework for Self-Supervised Outlier Detection](https://arxiv.org/abs/2103.12051v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/inspire-group/SSD)",
+      "n": "SSD",
+      "d": "2021-03-22",
+      "m1": "89.6",
+      "m2": "ResNet-18"
+    },
+    {
+      "p": "[CSI: Novelty Detection via Contrastive Learning on Distributionally Shifted Instances](https://arxiv.org/abs/2007.08176v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/alinlab/CSI)",
+      "n": "CSI",
+      "d": "2020-07-16",
+      "m1": "89.3",
+      "m2": "ResNet-18"
+    },
+    {
+      "p": "[Classification-Based Anomaly Detection for General Data](https://arxiv.org/abs/2005.02359v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/xuhongzuo/DeepOD)",
+      "n": "GOAD",
+      "d": "2020-05-05",
+      "m1": "89.2",
+      "m2": "ResNet-18"
+    },
+    {
+      "p": "[Shifting Transformation Learning for Out-of-Distribution Detection](https://arxiv.org/abs/2106.03899v2)",
+      "c": "",
+      "n": "MTL",
+      "d": "2021-06-07",
+      "m1": "82.92"
+    },
+    {
+      "p": "[Input complexity and out-of-distribution detection with likelihood-based generative models](https://arxiv.org/abs/1909.11480v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/gfloto/tilted_prior)",
+      "n": "Input Complexity (Glow)",
+      "d": "2019-09-25",
+      "m1": "73.6"
+    },
+    {
+      "p": "[Input complexity and out-of-distribution detection with likelihood-based generative models](https://arxiv.org/abs/1909.11480v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/gfloto/tilted_prior)",
+      "n": "Likelihood (Glow)",
+      "d": "2019-09-25",
+      "m1": "58.2"
+    },
+    {
+      "p": "[Input complexity and out-of-distribution detection with likelihood-based generative models](https://arxiv.org/abs/1909.11480v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/gfloto/tilted_prior)",
+      "n": "Input Complexity (PixelCNN++)",
+      "d": "2019-09-25",
+      "m1": "53.5"
+    },
+    {
+      "p": "[Input complexity and out-of-distribution detection with likelihood-based generative models](https://arxiv.org/abs/1909.11480v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/gfloto/tilted_prior)",
+      "n": "Likelihood (PixelCNN++)",
+      "d": "2019-09-25",
+      "m1": "52.6"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

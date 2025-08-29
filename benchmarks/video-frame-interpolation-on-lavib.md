@@ -1,0 +1,76 @@
+# video-frame-interpolation-on-lavib
+
+[Dataset Link](https://alexandrosstergiou.github.io/datasets/LAVIB/index.html) \
+Task Hierarchy: ['Video Frame Interpolation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "LPIPS",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "SSIM",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[LAVIB: A Large-scale Video Interpolation Benchmark](https://arxiv.org/abs/2406.09754v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/alexandrosstergiou/lavib)",
+      "n": "FLAVR",
+      "d": "2024-06-14",
+      "m1": "0.02934",
+      "m2": "33.44",
+      "m3": "0.981"
+    },
+    {
+      "p": "[LAVIB: A Large-scale Video Interpolation Benchmark](https://arxiv.org/abs/2406.09754v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/alexandrosstergiou/lavib)",
+      "n": "EMA-VFI",
+      "d": "2024-06-14",
+      "m1": "0.03105",
+      "m2": "33.14",
+      "m3": "0.978"
+    },
+    {
+      "p": "[LAVIB: A Large-scale Video Interpolation Benchmark](https://arxiv.org/abs/2406.09754v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/alexandrosstergiou/lavib)",
+      "n": "RIFE",
+      "d": "2024-06-14",
+      "m1": "0.1416",
+      "m2": "27.88",
+      "m3": "0.871"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

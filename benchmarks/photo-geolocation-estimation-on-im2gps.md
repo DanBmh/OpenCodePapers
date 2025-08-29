@@ -1,0 +1,217 @@
+# photo-geolocation-estimation-on-im2gps
+
+[Dataset Link](http://graphics.cs.cmu.edu/projects/im2gps/) \
+Task Hierarchy: ['4K 60Fps', 'Photo geolocation estimation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Median Error (km)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Street level (1 km)",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "City level (25 km)",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Region level (200 km)",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "Country level (750 km)",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "Continent level (2500 km)",
+      "sortable": "true"
+    },
+    {
+      "key": "m7",
+      "label": "Training images",
+      "sortable": "true"
+    },
+    {
+      "key": "m8",
+      "label": "Reference images",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[PIGEON: Predicting Image Geolocations](https://arxiv.org/abs/2307.05845v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/LukasHaas/PIGEON)",
+      "n": "PIGEOTTO",
+      "d": "2023-07-11",
+      "m1": "70.5",
+      "m2": "14.8",
+      "m3": "40.9",
+      "m4": "63.3",
+      "m5": "82.3",
+      "m6": "91.1",
+      "m7": "4.5M",
+      "m8": "4.5M"
+    },
+    {
+      "p": "[Geolocation Estimation of Photos using a Hierarchical Model and Scene Classification](http://openaccess.thecvf.com/content_ECCV_2018/html/Eric_Muller-Budack_Geolocation_Estimation_of_ECCV_2018_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/TIBHannover/GeoEstimation)",
+      "n": "ISNs (M, f*, S3)",
+      "d": "2018-09-01",
+      "m2": "16.9",
+      "m3": "43.0",
+      "m4": "51.9",
+      "m5": "66.7",
+      "m6": "80.2",
+      "m7": "4.7M",
+      "m8": "0"
+    },
+    {
+      "p": "[CPlaNet: Enhancing Image Geolocalization by Combinatorial Partitioning of Maps](http://arxiv.org/abs/1808.02130v1)",
+      "c": "",
+      "n": "CPlaNet (1-5, PlaNet)",
+      "d": "2018-08-06",
+      "m2": "16.5",
+      "m3": "37.1",
+      "m4": "46.6",
+      "m5": "62.0",
+      "m6": "78.5",
+      "m7": "30.3M",
+      "m8": "0"
+    },
+    {
+      "p": "[Geolocation Estimation of Photos using a Hierarchical Model and Scene Classification](http://openaccess.thecvf.com/content_ECCV_2018/html/Eric_Muller-Budack_Geolocation_Estimation_of_ECCV_2018_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/TIBHannover/GeoEstimation)",
+      "n": "base (M, f*)",
+      "d": "2018-09-01",
+      "m2": "15.2",
+      "m3": "40.9",
+      "m4": "51.5",
+      "m5": "65.4",
+      "m6": "78.5",
+      "m7": "4.7M",
+      "m8": "0"
+    },
+    {
+      "p": "[Revisiting IM2GPS in the Deep Learning Era](http://arxiv.org/abs/1705.04838v1)",
+      "c": "",
+      "n": "Im2GPS (... 28m database)",
+      "d": "2017-05-13",
+      "m2": "14.4",
+      "m3": "33.3",
+      "m4": "47.7",
+      "m5": "61.6",
+      "m6": "73.4",
+      "m7": "6M",
+      "m8": "28M"
+    },
+    {
+      "p": "[Geolocation Estimation of Photos using a Hierarchical Model and Scene Classification](http://openaccess.thecvf.com/content_ECCV_2018/html/Eric_Muller-Budack_Geolocation_Estimation_of_ECCV_2018_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/TIBHannover/GeoEstimation)",
+      "n": "base (L, m)",
+      "d": "2018-09-01",
+      "m2": "13.5",
+      "m3": "35.0",
+      "m4": "49.8",
+      "m5": "64.1",
+      "m6": "79.7",
+      "m7": "4.7M",
+      "m8": "0"
+    },
+    {
+      "p": "[Revisiting IM2GPS in the Deep Learning Era](http://arxiv.org/abs/1705.04838v1)",
+      "c": "",
+      "n": "Im2GPS ([L] KNN, sigma=4)",
+      "d": "2017-05-13",
+      "m2": "12.2",
+      "m3": "33.3",
+      "m4": "44.3",
+      "m5": "57.4",
+      "m6": "71.3",
+      "m7": "6M",
+      "m8": "0"
+    },
+    {
+      "p": "[PlaNet - Photo Geolocation with Convolutional Neural Networks](http://arxiv.org/abs/1602.05314v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/gjacopo/poppysite)",
+      "n": "PlaNet (91M)",
+      "d": "2016-02-17",
+      "m2": "8.4",
+      "m3": "24.5",
+      "m4": "37.6",
+      "m5": "53.6",
+      "m6": "71.3",
+      "m7": "91M",
+      "m8": "0"
+    },
+    {
+      "p": "[Revisiting IM2GPS in the Deep Learning Era](http://arxiv.org/abs/1705.04838v1)",
+      "c": "",
+      "n": "Im2GPS ([L] 7011C)",
+      "d": "2017-05-13",
+      "m2": "6.8",
+      "m3": "21.9",
+      "m4": "34.6",
+      "m5": "49.4",
+      "m6": "63.7",
+      "m7": "6M",
+      "m8": "0"
+    },
+    {
+      "p": "[PlaNet - Photo Geolocation with Convolutional Neural Networks](http://arxiv.org/abs/1602.05314v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/gjacopo/poppysite)",
+      "n": "PlaNet (6.2M)",
+      "d": "2016-02-17",
+      "m2": "6.3",
+      "m3": "18.1",
+      "m4": "30.0",
+      "m5": "45.6",
+      "m6": "65.8",
+      "m7": "6.2M",
+      "m8": "0"
+    },
+    {
+      "p": "[Learning Generalized Zero-Shot Learners for Open-Domain Image Geolocalization](https://arxiv.org/abs/2302.00275v1)",
+      "c": "[&check;&nbsp;Link](https://huggingface.co/geolocal/StreetCLIP)",
+      "n": "StreetCLIP (Zero-Shot)",
+      "d": "2023-02-01",
+      "m3": "28.3",
+      "m4": "45.1",
+      "m5": "74.7",
+      "m6": "88.2",
+      "m7": "1.1M",
+      "m8": "0"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

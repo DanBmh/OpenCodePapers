@@ -1,0 +1,76 @@
+# unsupervised-semantic-segmentation-on-suim
+
+[Dataset Link](http://irvlab.cs.umn.edu/resources/suim-dataset) \
+Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', 'Unsupervised Semantic Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Pixel Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "mIoU",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[DatUS^2: Data-driven Unsupervised Semantic Segmentation with Pre-trained Self-supervised Vision Transformer](https://arxiv.org/abs/2401.12820v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SonalKumar95/DatUS)",
+      "n": "DatUS (ViT-B/8) + OC",
+      "d": "2024-01-23",
+      "m1": "69.98",
+      "m2": "34.02"
+    },
+    {
+      "p": "[GraPix: Exploring Graph Modularity Optimization for Unsupervised Pixel Clustering](https://doi.org/10.1007/978-3-031-78192-6_13)",
+      "c": "[&check;&nbsp;Link](https://github.com/SonalKumar95/GraPix)",
+      "n": "GraPix + AUT",
+      "d": "2024-12-04",
+      "m1": "65.48",
+      "m2": "30.78"
+    },
+    {
+      "p": "[DatUS^2: Data-driven Unsupervised Semantic Segmentation with Pre-trained Self-supervised Vision Transformer](https://arxiv.org/abs/2401.12820v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SonalKumar95/DatUS)",
+      "n": "DatUS (ViT-B/8)",
+      "d": "2024-01-23",
+      "m1": "64.67",
+      "m2": "28.48"
+    },
+    {
+      "p": "[GraPix: Exploring Graph Modularity Optimization for Unsupervised Pixel Clustering](https://doi.org/10.1007/978-3-031-78192-6_13)",
+      "c": "[&check;&nbsp;Link](https://github.com/SonalKumar95/GraPix)",
+      "n": "GraPix",
+      "d": "2024-12-04",
+      "m1": "64.06",
+      "m2": "28.98"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

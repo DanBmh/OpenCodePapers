@@ -1,0 +1,165 @@
+# object-recognition-on-shape-bias
+
+[Dataset Link](https://github.com/rgeirhos/texture-vs-shape) \
+Task Hierarchy: ['Object Recognition']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "shape bias",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Intriguing properties of generative classifiers](https://arxiv.org/abs/2309.16779v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/SamsungSAILMontreal/ForestDiffusion)",
+      "n": "Imagen",
+      "d": "2023-09-28",
+      "m1": "98.7"
+    },
+    {
+      "p": "[Intriguing properties of generative classifiers](https://arxiv.org/abs/2309.16779v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/SamsungSAILMontreal/ForestDiffusion)",
+      "n": "Stable Diffusion",
+      "d": "2023-09-28",
+      "m1": "92.7"
+    },
+    {
+      "p": "[Intriguing properties of generative classifiers](https://arxiv.org/abs/2309.16779v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/SamsungSAILMontreal/ForestDiffusion)",
+      "n": "Parti",
+      "d": "2023-09-28",
+      "m1": "91.7"
+    },
+    {
+      "p": "[Scaling Vision Transformers to 22 Billion Parameters](https://arxiv.org/abs/2302.05442v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/lucidrains/flash-cosine-sim-attention)",
+      "n": "ViT-22B-384",
+      "d": "2023-02-10",
+      "m1": "86.4"
+    },
+    {
+      "p": "[Scaling Vision Transformers to 22 Billion Parameters](https://arxiv.org/abs/2302.05442v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/lucidrains/flash-cosine-sim-attention)",
+      "n": "ViT-22B-560",
+      "d": "2023-02-10",
+      "m1": "83.8"
+    },
+    {
+      "p": "[Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/openai/CLIP)",
+      "n": "CLIP (ViT-B)",
+      "d": "2021-02-26",
+      "m1": "79.9"
+    },
+    {
+      "p": "[Scaling Vision Transformers to 22 Billion Parameters](https://arxiv.org/abs/2302.05442v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/lucidrains/flash-cosine-sim-attention)",
+      "n": "ViT-22B-224",
+      "d": "2023-02-10",
+      "m1": "78.0"
+    },
+    {
+      "p": "[Do Adversarially Robust ImageNet Models Transfer Better?](https://arxiv.org/abs/2007.08489v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/MadryLab/robustness)",
+      "n": "ResNet-50 (L2 eps 5.0 adv trained)",
+      "d": "2020-07-16",
+      "m1": "69.5"
+    },
+    {
+      "p": "[The Origins and Prevalence of Texture Bias in Convolutional Neural Networks](https://arxiv.org/abs/1911.09071v3)",
+      "c": "",
+      "n": "ResNet-50 (with strong augmentations)",
+      "d": "2019-11-20",
+      "m1": "62.2"
+    },
+    {
+      "p": "[Billion-scale semi-supervised learning for image classification](http://arxiv.org/abs/1905.00546v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/semi-supervised-ImageNet1K-models)",
+      "n": "SWSL (ResNeXt-101)",
+      "d": "2019-05-02",
+      "m1": "49.8"
+    },
+    {
+      "p": "[ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness](https://arxiv.org/abs/1811.12231v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/rgeirhos/texture-vs-shape)",
+      "n": "AlexNet",
+      "d": "2018-11-29",
+      "m1": "42.9"
+    },
+    {
+      "p": "[A Simple Framework for Contrastive Learning of Visual Representations](https://arxiv.org/abs/2002.05709v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/official/vision/beta/projects/simclr)",
+      "n": "SimCLR (ResNet-50x2)",
+      "d": "2020-02-13",
+      "m1": "41.7"
+    },
+    {
+      "p": "[A Simple Framework for Contrastive Learning of Visual Representations](https://arxiv.org/abs/2002.05709v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/official/vision/beta/projects/simclr)",
+      "n": "SimCLR (ResNet-50x4)",
+      "d": "2020-02-13",
+      "m1": "40.7"
+    },
+    {
+      "p": "[A Simple Framework for Contrastive Learning of Visual Representations](https://arxiv.org/abs/2002.05709v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/official/vision/beta/projects/simclr)",
+      "n": "SimCLR (ResNet-50x1)",
+      "d": "2020-02-13",
+      "m1": "38.9"
+    },
+    {
+      "p": "[ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness](https://arxiv.org/abs/1811.12231v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/rgeirhos/texture-vs-shape)",
+      "n": "GoogLeNet",
+      "d": "2018-11-29",
+      "m1": "31.2"
+    },
+    {
+      "p": "[Billion-scale semi-supervised learning for image classification](http://arxiv.org/abs/1905.00546v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/semi-supervised-ImageNet1K-models)",
+      "n": "SWSL (ResNet-50)",
+      "d": "2019-05-02",
+      "m1": "28.6"
+    },
+    {
+      "p": "[ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness](https://arxiv.org/abs/1811.12231v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/rgeirhos/texture-vs-shape)",
+      "n": "ResNet-50",
+      "d": "2018-11-29",
+      "m1": "22.1"
+    },
+    {
+      "p": "[ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness](https://arxiv.org/abs/1811.12231v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/rgeirhos/texture-vs-shape)",
+      "n": "VGG-16",
+      "d": "2018-11-29",
+      "m1": "17.2"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

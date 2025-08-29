@@ -1,0 +1,60 @@
+# graph-classification-on-toxcast
+
+[Dataset Link](https://moleculenet.org/) \
+Task Hierarchy: ['Classification', 'Graph Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "ROC-AUC",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Accurate Learning of Graph Representations with Graph Multiset Pooling](https://arxiv.org/abs/2102.11533v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/JinheonBaek/GMT)",
+      "n": "GMT",
+      "d": "2021-02-23",
+      "m1": "65.44"
+    },
+    {
+      "p": "[Fine-tuning Graph Neural Networks by Preserving Graph Generative Patterns](https://arxiv.org/abs/2312.13583v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zjunet/G-Tuning)",
+      "n": "G-Tuning",
+      "d": "2023-12-21",
+      "m1": "64.25"
+    },
+    {
+      "p": "[Fine-Tuning Graph Neural Networks via Graph Topology induced Optimal Transport](https://arxiv.org/abs/2203.10453v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/youjibiying/gtot-tuning)",
+      "n": "GTOT-Tuning",
+      "d": "2022-03-20",
+      "m1": "64"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

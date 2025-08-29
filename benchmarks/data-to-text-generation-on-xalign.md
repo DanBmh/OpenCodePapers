@@ -1,0 +1,89 @@
+# data-to-text-generation-on-xalign
+
+[Dataset Link](https://github.com/tushar117/XAlign) \
+Task Hierarchy: ['Data-to-Text Generation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "BLEU4",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "METEOR",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[XF2T: Cross-lingual Fact-to-Text Generation for Low-Resource Languages](https://arxiv.org/abs/2209.11252v1)",
+      "c": "",
+      "n": "Fact-aware embedding with mT5",
+      "d": "2022-09-22",
+      "m1": "29.27",
+      "m2": "53.64"
+    },
+    {
+      "p": "[XF2T: Cross-lingual Fact-to-Text Generation for Low-Resource Languages](https://arxiv.org/abs/2209.11252v1)",
+      "c": "",
+      "n": "Bi-lingual mT5",
+      "d": "2022-09-22",
+      "m1": "25.88",
+      "m2": "50.91"
+    },
+    {
+      "p": "[XAlign: Cross-lingual Fact-to-Text Alignment and Generation for Low-Resource Languages](https://arxiv.org/abs/2202.00291v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tushar117/xalign)",
+      "n": "mT5",
+      "d": "2022-02-01",
+      "m1": "25"
+    },
+    {
+      "p": "[XAlign: Cross-lingual Fact-to-Text Alignment and Generation for Low-Resource Languages](https://arxiv.org/abs/2202.00291v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tushar117/xalign)",
+      "n": "Vanilla Transformer",
+      "d": "2022-02-01",
+      "m1": "19.9"
+    },
+    {
+      "p": "[XF2T: Cross-lingual Fact-to-Text Generation for Low-Resource Languages](https://arxiv.org/abs/2209.11252v1)",
+      "c": "",
+      "n": "Translate-Output mT5",
+      "d": "2022-09-22",
+      "m1": "18.91",
+      "m2": "42.83"
+    },
+    {
+      "p": "[XAlign: Cross-lingual Fact-to-Text Alignment and Generation for Low-Resource Languages](https://arxiv.org/abs/2202.00291v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tushar117/xalign)",
+      "n": "Graph Attention Network Encoder +Transformer Decoder",
+      "d": "2022-02-01",
+      "m1": "18.3"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

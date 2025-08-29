@@ -1,0 +1,156 @@
+# breast-tumour-classification-on-pcam
+
+[Dataset Link](https://github.com/basveeling/pcam) \
+Task Hierarchy: ['Breast Tumour Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AUC",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Dense Steerable Filter CNNs for Exploiting Rotational Symmetry in Histology Images](https://arxiv.org/abs/2004.03037v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/simongraham/dsf-cnn)",
+      "n": "DSF-CNN (C8)",
+      "d": "2020-04-06",
+      "m1": "0.975"
+    },
+    {
+      "p": "[Learning Steerable Filters for Rotation Equivariant CNNs](http://arxiv.org/abs/1711.07289v3)",
+      "c": "",
+      "n": "Steerable G-CNN (C8)",
+      "d": "2017-11-20",
+      "m1": "0.971"
+    },
+    {
+      "p": "[Learning Steerable Filters for Rotation Equivariant CNNs](http://arxiv.org/abs/1711.07289v3)",
+      "c": "",
+      "n": "Steerable G-CNN (C8)",
+      "d": "2017-11-20",
+      "m1": "0.969"
+    },
+    {
+      "p": "[Learning Steerable Filters for Rotation Equivariant CNNs](http://arxiv.org/abs/1711.07289v3)",
+      "c": "",
+      "n": "Steerable G-CNN (C12)",
+      "d": "2017-11-20",
+      "m1": "0.969"
+    },
+    {
+      "p": "[Roto-Translation Equivariant Convolutional Networks: Application to Histopathology Image Analysis](https://arxiv.org/abs/2002.08725v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tueimage/se2cnn)",
+      "n": "G-CNN (C8)",
+      "d": "2020-02-20",
+      "m1": "0.968"
+    },
+    {
+      "p": "[Group Equivariant Convolutional Networks](http://arxiv.org/abs/1602.07576v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/adambielski/pytorch-gconv-experiments)",
+      "n": "G-CNN (C4)",
+      "d": "2016-02-24",
+      "m1": "0.964"
+    },
+    {
+      "p": "[Learning Steerable Filters for Rotation Equivariant CNNs](http://arxiv.org/abs/1711.07289v3)",
+      "c": "",
+      "n": "Steerable G-CNN (e)",
+      "d": "2017-11-20",
+      "m1": "0.963"
+    },
+    {
+      "p": "[Rotation Equivariant CNNs for Digital Pathology](http://arxiv.org/abs/1806.03962v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/basveeling/pcam)",
+      "n": "p4m-DenseNet (D4)",
+      "d": "2018-06-08",
+      "m1": "0.963"
+    },
+    {
+      "p": "[Roto-Translation Equivariant Convolutional Networks: Application to Histopathology Image Analysis](https://arxiv.org/abs/2002.08725v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tueimage/se2cnn)",
+      "n": "G-CNN (C12)",
+      "d": "2020-02-20",
+      "m1": "0.962"
+    },
+    {
+      "p": "[Deep Residual Learning for Image Recognition](http://arxiv.org/abs/1512.03385v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/research/deeplab)",
+      "n": "ResNet-50 (e)",
+      "d": "2015-12-10",
+      "m1": "0.948"
+    },
+    {
+      "p": "[Deep Residual Learning for Image Recognition](http://arxiv.org/abs/1512.03385v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/research/deeplab)",
+      "n": "ResNet-34 (e)",
+      "d": "2015-12-10",
+      "m1": "0.942"
+    },
+    {
+      "p": "[Densely Connected Convolutional Networks](http://arxiv.org/abs/1608.06993v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/pytorch/vision)",
+      "n": "DenseNet-121 (e)",
+      "d": "2016-08-25",
+      "m1": "0.921"
+    },
+    {
+      "p": "[Rotation equivariant vector field networks](http://arxiv.org/abs/1612.09346v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/COGMAR/RotEqNet)",
+      "n": "VF-CNN (C12)",
+      "d": "2016-12-29",
+      "m1": "0.898"
+    },
+    {
+      "p": "[Rotation equivariant vector field networks](http://arxiv.org/abs/1612.09346v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/COGMAR/RotEqNet)",
+      "n": "VF-CNN (C8)",
+      "d": "2016-12-29",
+      "m1": "0.881"
+    },
+    {
+      "p": "[Rotation equivariant vector field networks](http://arxiv.org/abs/1612.09346v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/COGMAR/RotEqNet)",
+      "n": "VF-CNN (C4)",
+      "d": "2016-12-29",
+      "m1": "0.871"
+    },
+    {
+      "p": "[Virchow: A Million-Slide Digital Pathology Foundation Model](https://arxiv.org/abs/2309.07778v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/Paige-AI/paige-ml-sdk)",
+      "n": "Virchow",
+      "d": "2023-09-14",
+      "m2": "0.933"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

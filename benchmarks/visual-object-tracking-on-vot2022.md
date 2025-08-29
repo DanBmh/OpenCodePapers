@@ -1,0 +1,74 @@
+# visual-object-tracking-on-vot2022
+
+[Dataset Link]() \
+Task Hierarchy: ['Visual Object Tracking']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "EAO",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[A Distractor-Aware Memory for Visual Object Tracking with SAM2](https://arxiv.org/abs/2411.17576v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jovanavidenovic/dam4sam)",
+      "n": "DAM4SAM",
+      "d": "2024-11-26",
+      "m1": "0.753"
+    },
+    {
+      "p": "[SAM 2: Segment Anything in Images and Videos](https://arxiv.org/abs/2408.00714v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/segment-anything)",
+      "n": "SAM2.1",
+      "d": "2024-08-01",
+      "m1": "0.692"
+    },
+    {
+      "p": "[Associating Objects with Transformers for Video Object Segmentation](https://arxiv.org/abs/2106.02638v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yoxu515/aot-benchmark)",
+      "n": "MS_AOT",
+      "d": "2021-06-04",
+      "m1": "0.673"
+    },
+    {
+      "p": "[DiffusionTrack: Point Set Diffusion Model for Visual Object Tracking](http://openaccess.thecvf.com//content/CVPR2024/html/Xie_DiffusionTrack_Point_Set_Diffusion_Model_for_Visual_Object_Tracking_CVPR_2024_paper.html)",
+      "c": "",
+      "n": "DiffusionTrack",
+      "d": "2024-01-01",
+      "m1": "0.634"
+    },
+    {
+      "p": "[MixFormer: End-to-End Tracking with Iterative Mixed Attention](https://arxiv.org/abs/2302.02814v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/MCG-NJU/MixFormer)",
+      "n": "MixFormerM",
+      "d": "2023-02-06",
+      "m1": "0.589"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

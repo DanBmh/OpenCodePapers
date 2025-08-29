@@ -1,0 +1,121 @@
+# multi-label-text-classification-on-cc3m
+
+[Dataset Link](https://github.com/shjo-april/TTD) \
+Task Hierarchy: ['Classification', 'Text Classification', 'Multi-Label Text Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Precision",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Recall",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "mAP",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[TTD: Text-Tag Self-Distillation Enhancing Image-Text Alignment in CLIP to Alleviate Single Tag Bias](https://arxiv.org/abs/2404.00384v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/shjo-april/TTD)",
+      "n": "TTD (w/ fine-tuning)",
+      "d": "2024-03-30",
+      "m1": "88.3",
+      "m2": "78.0",
+      "m3": "82.8",
+      "m4": "88.6",
+      "m5": "93.7"
+    },
+    {
+      "p": "[TTD: Text-Tag Self-Distillation Enhancing Image-Text Alignment in CLIP to Alleviate Single Tag Bias](https://arxiv.org/abs/2404.00384v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/shjo-april/TTD)",
+      "n": "TTD (w/o fine-tuning)",
+      "d": "2024-03-30",
+      "m1": "82.9",
+      "m2": "74.5",
+      "m3": "78.5",
+      "m4": "91.0",
+      "m5": "90.3"
+    },
+    {
+      "p": "[Qwen Technical Report](https://arxiv.org/abs/2309.16609v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/qwenlm/qwen)",
+      "n": "Qwen-72B",
+      "d": "2023-09-28",
+      "m1": "69.3",
+      "m2": "56.2",
+      "m3": "62.1",
+      "m4": "80.9"
+    },
+    {
+      "p": "[NLTK: The Natural Language Toolkit](https://arxiv.org/abs/cs/0205028v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/napakalas/NLIMED)",
+      "n": "NLTK",
+      "d": "2002-05-17",
+      "m1": "59.8",
+      "m2": "83.7",
+      "m3": "69.8",
+      "m4": "79.6"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Vicuna-33B",
+      "d": null,
+      "m1": "52.7",
+      "m2": "70.7",
+      "m3": "60.4",
+      "m4": "75.9"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Vicuna-7B",
+      "d": null,
+      "m1": "44.1",
+      "m2": "71.0",
+      "m3": "54.4",
+      "m4": "70.9"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

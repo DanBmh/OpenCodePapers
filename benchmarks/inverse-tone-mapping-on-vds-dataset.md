@@ -1,0 +1,155 @@
+# inverse-tone-mapping-on-vds-dataset
+
+[Dataset Link](https://siyeong-lee.github.io/hdr_vds_dataset/) \
+Task Hierarchy: ['Inverse-Tone-Mapping', 'inverse tone mapping']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "HDR-VDP-2",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "HDR-VDP-3",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "PU21-PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "PU21-SSIM",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "Reinhard'TMO-PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "Kim and Kautz TMO-PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Learning Continuous Exposure Value Representations for Single-Image HDR Reconstruction](https://arxiv.org/abs/2309.03900v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/skchen1993/2023_CEVR)",
+      "n": "CEVR",
+      "d": "2023-09-07",
+      "m1": "59.00",
+      "m5": "34.67",
+      "m6": "30.04"
+    },
+    {
+      "p": "[End-to-End Differentiable Learning to HDR Image Synthesis for Multi-exposure Images](https://arxiv.org/abs/2006.15833v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/JungHeeKim29/DiffHDRsyn)",
+      "n": "DiffHDRsyn",
+      "d": "2020-06-29",
+      "m1": "58.81",
+      "m2": "8.77",
+      "m3": "28.33",
+      "m4": "0.9388",
+      "m5": "34.12"
+    },
+    {
+      "p": "[Deep Recursive HDRI: Inverse Tone Mapping using Generative Adversarial Networks](http://openaccess.thecvf.com/content_ECCV_2018/html/Siyeong_Lee_Deep_Recursive_HDRI_ECCV_2018_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/Siyeong-Lee/Deep_Recursive_HDRI)",
+      "n": "Deep Recursive HDRI",
+      "d": "2018-09-01",
+      "m1": "57.28",
+      "m2": "8.48",
+      "m3": "25.88",
+      "m4": "0.8874",
+      "m5": "32.94",
+      "m6": "28.02"
+    },
+    {
+      "p": "[Single-Image HDR Reconstruction by Learning to Reverse the Camera Pipeline](https://arxiv.org/abs/2004.01179v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/alex04072000/SingleHDR)",
+      "n": "Liu et al.",
+      "d": "2020-04-02",
+      "m1": "56.97",
+      "m2": "8.24",
+      "m3": "25.69",
+      "m4": "0.8797",
+      "m5": "30.88",
+      "m6": "28.00"
+    },
+    {
+      "p": "[Deep Chain HDRI: Reconstructing a High Dynamic Range Image from a Single Low Dynamic Range Image](http://arxiv.org/abs/1801.06277v1)",
+      "c": "",
+      "n": "Deep Chain HDRI",
+      "d": "2018-01-19",
+      "m1": "56.36",
+      "m5": "30.86",
+      "m6": "24.54"
+    },
+    {
+      "p": "[Deep reverse tone mapping](https://www.npal.cs.tsukuba.ac.jp/~endo/projects/DrTMO/)",
+      "c": "[&check;&nbsp;Link](https://github.com/shleecs/DrTMO_unofficial_pytorch)",
+      "n": "DrTMO",
+      "d": "2017-11-20",
+      "m1": "54.33",
+      "m5": "25.49",
+      "m6": "21.36"
+    },
+    {
+      "p": "[Single Image HDR Reconstruction Using a CNN with Masked Features and Perceptual Loss](https://arxiv.org/abs/2005.07335v1)",
+      "c": "",
+      "n": "Santos et al.",
+      "d": "2020-05-15",
+      "m1": "53.51",
+      "m5": "22.56",
+      "m6": "18.23"
+    },
+    {
+      "p": "[Deep Conditional HDRI: Inverse Tone Mapping via Dual Encoder-Decoder Conditioning Method](https://ieeexplore.ieee.org/abstract/document/10476730)",
+      "c": "",
+      "n": "Deep Conditional HDRI",
+      "d": "2024-03-20",
+      "m2": "8.95",
+      "m3": "31.15",
+      "m4": "0.9537",
+      "m5": "35.75"
+    },
+    {
+      "p": "[ExpandNet: A Deep Convolutional Neural Network for High Dynamic Range Expansion from Low Dynamic Range Content](https://arxiv.org/abs/1803.02266v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmarnerides/hdr-expandnet)",
+      "n": "ExpandNet",
+      "d": "2018-03-06",
+      "m2": "6.19",
+      "m3": "17.42",
+      "m4": "0.3612",
+      "m5": "23.03"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

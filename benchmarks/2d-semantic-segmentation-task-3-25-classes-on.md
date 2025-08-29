@@ -1,0 +1,92 @@
+# 2d-semantic-segmentation-task-3-25-classes-on
+
+[Dataset Link](https://cataracts.grand-challenge.org/CaDIS/) \
+Task Hierarchy: ['2D Semantic Segmentation task 3 (25 classes)']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Mean IoU (test)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Mean IoU (val)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Effective semantic segmentation in Cataract Surgery: What matters most?](https://arxiv.org/abs/2108.06119v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/rvimlab/miccai2021_cataract_semantic_segmentation)",
+      "n": "OCR-R50-Repeat Factor-Lovasz",
+      "d": "2021-08-13",
+      "m1": "71.94",
+      "m2": "79.4"
+    },
+    {
+      "p": "[Effective semantic segmentation in Cataract Surgery: What matters most?](https://arxiv.org/abs/2108.06119v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/rvimlab/miccai2021_cataract_semantic_segmentation)",
+      "n": "DeepLabv3+-R50-Repeat Factor-Lovasz",
+      "d": "2021-08-13",
+      "m1": "70.51",
+      "m2": "77.44"
+    },
+    {
+      "p": "[Effective semantic segmentation in Cataract Surgery: What matters most?](https://arxiv.org/abs/2108.06119v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/rvimlab/miccai2021_cataract_semantic_segmentation)",
+      "n": "UPN-R50-Repeat Factor-Lovasz",
+      "d": "2021-08-13",
+      "m1": "70.44",
+      "m2": "75.75"
+    },
+    {
+      "p": "[CaDIS: Cataract Dataset for Image Segmentation](https://arxiv.org/abs/1906.11586v7)",
+      "c": "",
+      "n": "UPN",
+      "d": "2019-06-27",
+      "m1": "66.76",
+      "m2": "74.20"
+    },
+    {
+      "p": "[CaDIS: Cataract Dataset for Image Segmentation](https://arxiv.org/abs/1906.11586v7)",
+      "c": "",
+      "n": "HRNetv2",
+      "d": "2019-06-27",
+      "m1": "66.64",
+      "m2": "72.40"
+    },
+    {
+      "p": "[CaDIS: Cataract Dataset for Image Segmentation](https://arxiv.org/abs/1906.11586v7)",
+      "c": "",
+      "n": "DeepLabv3+",
+      "d": "2019-06-27",
+      "m1": "63.23",
+      "m2": "68.60"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

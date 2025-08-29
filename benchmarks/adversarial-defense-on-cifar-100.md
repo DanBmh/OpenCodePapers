@@ -1,0 +1,60 @@
+# adversarial-defense-on-cifar-100
+
+[Dataset Link](https://www.cs.toronto.edu/~kriz/cifar.html) \
+Task Hierarchy: ['Adversarial Defense']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "autoattack",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Learnable Boundary Guided Adversarial Training](https://arxiv.org/abs/2011.11164v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/fra31/auto-attack)",
+      "n": "wideresnet-34-20",
+      "d": "2020-11-23",
+      "m1": "62.55/30.20"
+    },
+    {
+      "p": "[Learnable Boundary Guided Adversarial Training](https://arxiv.org/abs/2011.11164v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/fra31/auto-attack)",
+      "n": "wideresnet-34-10",
+      "d": "2020-11-23",
+      "m1": "70.25/27.16"
+    },
+    {
+      "p": "[Enhancing Robust Representation in Adversarial Training: Alignment and Exclusion Criteria](https://arxiv.org/abs/2310.03358v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/changzhang777/ancra)",
+      "n": "resnet18",
+      "d": "2023-10-05",
+      "m1": "60.10/35.05"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

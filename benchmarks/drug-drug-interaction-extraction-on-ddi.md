@@ -1,0 +1,122 @@
+# drug-drug-interaction-extraction-on-ddi
+
+[Dataset Link](https://github.com/isegura/DDICorpus) \
+Task Hierarchy: ['Information Extraction', 'Drug–drug Interaction Extraction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Micro F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Using Drug Descriptions and Molecular Structures for Drug-Drug Interaction Extraction from Literature](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btaa907/5938075#209442351)",
+      "c": "[&check;&nbsp;Link](https://github.com/tticoin/DESC_MOL-DDIE)",
+      "n": "DESC+MOL+SciBERT",
+      "d": "2020-10-24",
+      "m1": "0.8408",
+      "m2": "84.08"
+    },
+    {
+      "p": "[SciFive: a text-to-text transformer model for biomedical literature](https://arxiv.org/abs/2106.03598v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/justinphan3110/SciFive)",
+      "n": "SciFive-large",
+      "d": "2021-05-28",
+      "m1": "0.8367",
+      "m2": "83.67"
+    },
+    {
+      "p": "[Domain-Specific Language Model Pretraining for Biomedical Natural Language Processing](https://arxiv.org/abs/2007.15779v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/bionlu-coling2024/biomed-ner-intent_detection)",
+      "n": "PubMedBERT",
+      "d": "2020-07-31",
+      "m1": "0.8236",
+      "m2": "82.36"
+    },
+    {
+      "p": "[BioBERT: a pre-trained biomedical language representation model for biomedical text mining](https://arxiv.org/abs/1901.08746v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmis-lab/biobert)",
+      "n": "BioBERT",
+      "d": "2019-01-25",
+      "m1": "0.8088",
+      "m2": "80.88"
+    },
+    {
+      "p": "[Drug\u2013drug interaction extraction via hierarchical RNNs on sequence and shortest dependency paths](https://academic.oup.com/bioinformatics/article/34/5/828/4565590)",
+      "c": "",
+      "n": "Hierarchy Bi-LSTMs +Att.+SDP",
+      "d": "2017-10-25",
+      "m1": "0.729",
+      "m2": "72.9"
+    },
+    {
+      "p": "[Enhancing Drug-Drug Interaction Extraction from Texts by Molecular Structure Information](http://arxiv.org/abs/1805.05593v1)",
+      "c": "",
+      "n": "MOL+CNN",
+      "d": "2018-05-15",
+      "m1": "0.7255",
+      "m2": "72.55"
+    },
+    {
+      "p": "[A graph kernel based on context vectors for extracting drug\u2013drug interactions](https://www.sciencedirect.com/science/article/pii/S1532046416300053)",
+      "c": "",
+      "n": "Graph Kernel-based method",
+      "d": "2016-03-21",
+      "m1": "0.684",
+      "m2": "68.4"
+    },
+    {
+      "p": "[Extracting drug\u2013drug interactions from literature using a rich feature-based linear kernel approach](https://www.sciencedirect.com/science/article/pii/S1532046415000441)",
+      "c": "",
+      "n": "Feature-based SVM",
+      "d": "2015-03-19",
+      "m1": "0.670",
+      "m2": "67.0"
+    },
+    {
+      "p": "[CharacterBERT: Reconciling ELMo and BERT for Word-Level Open-Vocabulary Representations From Characters](https://arxiv.org/abs/2010.10392v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/helboukkouri/character-bert)",
+      "n": "CharacterBERT (base, medical)",
+      "d": "2020-10-20",
+      "m2": "80.38"
+    },
+    {
+      "p": "[ELECTRAMed: a new pre-trained language representation model for biomedical NLP](https://arxiv.org/abs/2104.09585v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/gmpoli/electramed)",
+      "n": "ELECTRAMed",
+      "d": "2021-04-19",
+      "m2": "79.13"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

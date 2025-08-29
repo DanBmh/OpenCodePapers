@@ -1,0 +1,81 @@
+# story-visualization-on-pororo
+
+[Dataset Link]() \
+Task Hierarchy: ['Text-To-Image', 'Story Visualization']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "FID",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "FSD",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[ContextualStory: Consistent Visual Storytelling with Spatially-Enhanced and Storyline Context](https://arxiv.org/abs/2407.09774v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/sixiaozheng/contextualstory)",
+      "n": "ContextualStory",
+      "d": "2024-07-13",
+      "m1": "14.07"
+    },
+    {
+      "p": "[Synthesizing Coherent Story with Auto-Regressive Latent Diffusion Models](https://arxiv.org/abs/2211.10950v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/xichenpan/ARLDM)",
+      "n": "AR-LDM",
+      "d": "2022-11-20",
+      "m1": "16.59"
+    },
+    {
+      "p": "[Story Visualization by Online Text Augmentation with Context Memory](https://arxiv.org/abs/2308.07575v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/yonseivnl/cmota)",
+      "n": "CMOTA",
+      "d": "2023-08-15",
+      "m1": "52.13"
+    },
+    {
+      "p": "[Character-Preserving Coherent Story Visualization](https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/2639_ECCV_2020_paper.php)",
+      "c": "[&check;&nbsp;Link](https://github.com/basiclab/CPCStoryVisualization-Pytorch)",
+      "n": "CPCSV",
+      "d": null,
+      "m1": "67.7",
+      "m2": "71.51"
+    },
+    {
+      "p": "[Character-Preserving Coherent Story Visualization](https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/2639_ECCV_2020_paper.php)",
+      "c": "[&check;&nbsp;Link](https://github.com/basiclab/CPCStoryVisualization-Pytorch)",
+      "n": "StoryGAN",
+      "d": null,
+      "m1": "77.67",
+      "m2": "111.09"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

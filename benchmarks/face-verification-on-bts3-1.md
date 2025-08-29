@@ -1,0 +1,88 @@
+# face-verification-on-bts3-1
+
+[Dataset Link](https://www.iarpa.gov/research-programs/briar) \
+Task Hierarchy: ['3D Face Reconstruction', 'Facial Recognition and Modelling', 'Face Verification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "TAR @ FAR=0.01",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[ProxyFusion: Face Feature Aggregation Through Sparse Experts](https://proceedings.neurips.cc/paper_files/paper/2024/hash/81f554467f27759e88de14ba2fbafb47-Abstract-Conference.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/bhavinjawade/proxyfusion)",
+      "n": "ProxyFusion (Adaface)",
+      "d": "2025-09-24",
+      "m1": "0.689"
+    },
+    {
+      "p": "[CoNAN: Conditional Neural Aggregation Network For Unconstrained Face Feature Fusion](https://arxiv.org/abs/2307.10237v1)",
+      "c": "",
+      "n": "CoNAN (Adaface)",
+      "d": "2023-07-16",
+      "m1": "0.5632"
+    },
+    {
+      "p": "[Neural Aggregation Network for Video Face Recognition](http://arxiv.org/abs/1603.05474v4)",
+      "c": "",
+      "n": "NAN (Adaface)",
+      "d": "2016-03-17",
+      "m1": "0.5444"
+    },
+    {
+      "p": "[Multicolumn Networks for Face Recognition](http://arxiv.org/abs/1807.09192v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ibendrup/MulticolumnNetwork)",
+      "n": "MCN (Adaface)",
+      "d": "2018-07-24",
+      "m1": "0.5425"
+    },
+    {
+      "p": "[Cluster and Aggregate: Face Recognition with Large Probe Set](https://arxiv.org/abs/2210.10864v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/mk-minchul/caface)",
+      "n": "CAFace (Adaface)",
+      "d": "2022-10-19",
+      "m1": "0.5131"
+    },
+    {
+      "p": "[Neural Aggregation Network for Video Face Recognition](http://arxiv.org/abs/1603.05474v4)",
+      "c": "",
+      "n": "MCN (Arcface)",
+      "d": "2016-03-17",
+      "m1": "0.3941"
+    },
+    {
+      "p": "[Neural Aggregation Network for Video Face Recognition](http://arxiv.org/abs/1603.05474v4)",
+      "c": "",
+      "n": "NAN (Arcface)",
+      "d": "2016-03-17",
+      "m1": "0.3901"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

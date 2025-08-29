@@ -1,0 +1,74 @@
+# node-classification-on-amz-computers
+
+[Dataset Link]() \
+Task Hierarchy: ['Node Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Clarify Confused Nodes via Separated Learning](https://arxiv.org/abs/2306.02285v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/GISec-Team/NCGNN)",
+      "n": "NCGCN",
+      "d": "2023-06-04",
+      "m1": "90.81 \u00b1 0.46"
+    },
+    {
+      "p": "[Clarify Confused Nodes via Separated Learning](https://arxiv.org/abs/2306.02285v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/GISec-Team/NCGNN)",
+      "n": "NCSAGE",
+      "d": "2023-06-04",
+      "m1": "90.43 \u00b1 0.72"
+    },
+    {
+      "p": "[Extract the Knowledge of Graph Neural Networks and Go Beyond it: An Effective Knowledge Distillation Framework](https://arxiv.org/abs/2103.02885v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/BUPT-GAMMA/CPF)",
+      "n": "CPF-ind-GAT",
+      "d": "2021-03-04",
+      "m1": "85.5%"
+    },
+    {
+      "p": "[Towards Deeper Graph Neural Networks](https://arxiv.org/abs/2007.09296v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/dagnn)",
+      "n": "DAGNN (Ours)",
+      "d": "2020-07-18",
+      "m1": "84.5 \u00b1 1.2"
+    },
+    {
+      "p": "[Graph-less Neural Networks: Teaching Old MLPs New Tricks via Distillation](https://arxiv.org/abs/2110.08727v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/snap-research/graphless-neural-networks)",
+      "n": "GLNN",
+      "d": "2021-10-17",
+      "m1": "83.03\u00b1 1.87%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

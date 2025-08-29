@@ -1,0 +1,74 @@
+# fake-news-detection-on-grover-mega
+
+[Dataset Link]() \
+Task Hierarchy: ['Fake News Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Unpaired Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Exploring Text-transformers in AAAI 2021 Shared Task: COVID-19 Fake News Detection in English](https://arxiv.org/abs/2101.02359v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/archersama/3rd-solution-COVID19-Fake-News-Detection-in-English)",
+      "n": "Text-Transformers + Five-fold five model cross-validation +Pseudo Label Algorithm",
+      "d": "2021-01-07",
+      "m1": "98.5%"
+    },
+    {
+      "p": "[Defending Against Neural Fake News](https://arxiv.org/abs/1905.12616v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/rowanz/grover)",
+      "n": "Grover-Mega",
+      "d": "2019-05-29",
+      "m1": "92.0%"
+    },
+    {
+      "p": "[Defending Against Neural Fake News](https://arxiv.org/abs/1905.12616v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/rowanz/grover)",
+      "n": "Grover-Large",
+      "d": "2019-05-29",
+      "m1": "80.8%"
+    },
+    {
+      "p": "[Defending Against Neural Fake News](https://arxiv.org/abs/1905.12616v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/rowanz/grover)",
+      "n": "BERT-Large",
+      "d": "2019-05-29",
+      "m1": "73.1%"
+    },
+    {
+      "p": "[Defending Against Neural Fake News](https://arxiv.org/abs/1905.12616v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/rowanz/grover)",
+      "n": "GPT2 (355M)",
+      "d": "2019-05-29",
+      "m1": "70.1%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,143 @@
+# relation-extraction-on-webnlg
+
+[Dataset Link](https://webnlg-challenge.loria.fr/) \
+Task Hierarchy: ['Relation Extraction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "NER Micro F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[UniRel: Unified Representation and Interaction for Joint Relational Triple Extraction](https://arxiv.org/abs/2211.09039v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/wtangdev/unirel)",
+      "n": "UniRel",
+      "d": "2022-11-16",
+      "m1": "94.7"
+    },
+    {
+      "p": "[A Partition Filter Network for Joint Entity and Relation Extraction](https://arxiv.org/abs/2108.12202v8)",
+      "c": "[&check;&nbsp;Link](https://github.com/Coopercoppers/PFN)",
+      "n": "PFN",
+      "d": "2021-08-27",
+      "m1": "93.6",
+      "m2": "98.0"
+    },
+    {
+      "p": "[Joint Entity and Relation Extraction with Set Prediction Networks](https://arxiv.org/abs/2011.01675v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/DianboWork/SPN4RE)",
+      "n": "SPN",
+      "d": "2020-11-03",
+      "m1": "93.4"
+    },
+    {
+      "p": "[TDEER: An Efficient Translating Decoding Schema for Joint Extraction of Entities and Relations](https://aclanthology.org/2021.emnlp-main.635)",
+      "c": "[&check;&nbsp;Link](https://github.com/4ai/tdeer)",
+      "n": "TDEER",
+      "d": null,
+      "m1": "93.1"
+    },
+    {
+      "p": "[Representation Iterative Fusion based on Heterogeneous Graph Neural Network for Joint Entity and Relation Extraction](https://www.sciencedirect.com/science/article/pii/S0950705121001519)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhao9797/RIFRE)",
+      "n": "RIFRE",
+      "d": "2021-05-08",
+      "m1": "92.6"
+    },
+    {
+      "p": "[TPLinker: Single-stage Joint Extraction of Entities and Relations Through Token Pair Linking](https://arxiv.org/abs/2010.13415v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/131250208/TPlinker-joint-extraction)",
+      "n": "TPLinker",
+      "d": "2020-10-26",
+      "m1": "91.9"
+    },
+    {
+      "p": "[A Novel Cascade Binary Tagging Framework for Relational Triple Extraction](https://arxiv.org/abs/1909.03227v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/weizhepei/CasRel)",
+      "n": "HBT (CasRel)",
+      "d": "2019-09-07",
+      "m1": "91.8"
+    },
+    {
+      "p": "[Recurrent Interaction Network for Jointly Extracting Entities and Classifying Relations](https://arxiv.org/abs/2005.00162v2)",
+      "c": "",
+      "n": "RIN (BERT, K=2)",
+      "d": "2020-05-01",
+      "m1": "90.1"
+    },
+    {
+      "p": "[Contrastive Triple Extraction with Generative Transformer](https://arxiv.org/abs/2009.06207v8)",
+      "c": "",
+      "n": "CGT(UniLM)",
+      "d": "2020-09-14",
+      "m1": "83.4"
+    },
+    {
+      "p": "[Joint Extraction of Entities and Relations Based on a Novel Decomposition Strategy](https://arxiv.org/abs/1909.04273v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yubowen-ph/JointER)",
+      "n": "ETL-Span",
+      "d": "2019-09-10",
+      "m1": "83.1"
+    },
+    {
+      "p": "[A Relation-Specific Attention Network for Joint Entity and Relation Extraction](https://www.ijcai.org/Proceedings/2020/561)",
+      "c": "[&check;&nbsp;Link](https://github.com/Anery/RSAN)",
+      "n": "RSAN",
+      "d": "2020-07-01",
+      "m1": "82.1"
+    },
+    {
+      "p": "[CopyMTL: Copy Mechanism for Joint Extraction of Entities and Relations with Multi-Task Learning](https://arxiv.org/abs/1911.10438v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/WindChimeRan/CopyMTL)",
+      "n": "CopyRE' OneDecoder",
+      "d": "2019-11-24",
+      "m1": "60.5"
+    },
+    {
+      "p": "[Extracting Relational Facts by an End-to-End Neural Model with Copy Mechanism](https://aclanthology.org/P18-1047)",
+      "c": "[&check;&nbsp;Link](https://github.com/xiangrongzeng/copy_re)",
+      "n": "CopyRE MultiDecoder",
+      "d": "2018-07-01",
+      "m1": "37.1"
+    },
+    {
+      "p": "[Joint Extraction of Entities and Relations Based on a Novel Tagging Scheme](http://arxiv.org/abs/1706.05075v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tonygsw/Joint-Extraction-of-Entities-and-Relations-Based-on-a-Novel-Tagging-Scheme)",
+      "n": "NovelTagging",
+      "d": "2017-06-07",
+      "m1": "28.3"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,343 @@
+# click-through-rate-prediction-on-criteo
+
+[Dataset Link](https://labs.criteo.com/2013/12/download-terabyte-click-logs/) \
+Task Hierarchy: ['Click-Through Rate Prediction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AUC",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Log Loss",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Revisiting Feature Interactions from the Perspective of Quadratic Neural Networks for Click-through Rate Prediction](https://arxiv.org/abs/2505.17999v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/salmon1802/QNN)",
+      "n": "QNN-\u03b1",
+      "d": "2025-05-23",
+      "m1": "0.8163",
+      "m2": "0.4358"
+    },
+    {
+      "p": "[FCN: Fusing Exponential and Linear Cross Network for Click-Through Rate Prediction](https://arxiv.org/abs/2407.13349v7)",
+      "c": "[&check;&nbsp;Link](https://github.com/reczoo/FuxiCTR)",
+      "n": "FCN",
+      "d": "2024-07-18",
+      "m1": "0.8162",
+      "m2": "0.4358"
+    },
+    {
+      "p": "[Towards Deeper, Lighter and Interpretable Cross Network for CTR Prediction](https://arxiv.org/abs/2311.04635v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/xue-pai/FuxiCTR)",
+      "n": "GDCN",
+      "d": "2023-11-08",
+      "m1": "0.8161",
+      "m2": "0.4360"
+    },
+    {
+      "p": "[MemoNet: Memorizing All Cross Features' Representations Efficiently via Multi-Hash Codebook Network for CTR Prediction](https://arxiv.org/abs/2211.01334v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/ptzhangAlg/RecAlg)",
+      "n": "MemoNet",
+      "d": "2022-10-25",
+      "m1": "0.8152"
+    },
+    {
+      "p": "[TF4CTR: Twin Focus Framework for CTR Prediction via Adaptive Sample Differentiation](https://arxiv.org/abs/2405.03167v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/salmon1802/tf4ctr)",
+      "n": "TF4CTR",
+      "d": "2024-05-06",
+      "m1": "0.8150"
+    },
+    {
+      "p": "[MMBAttn: Max-Mean and Bit-wise Attention for CTR Prediction](https://arxiv.org/abs/2308.13187v1)",
+      "c": "",
+      "n": "FinalMLP + MMBAttn",
+      "d": "2023-08-25",
+      "m1": "0.81497"
+    },
+    {
+      "p": "[FinalMLP: An Enhanced Two-Stream MLP Model for CTR Prediction](https://arxiv.org/abs/2304.00902v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/reczoo/FuxiCTR)",
+      "n": "FinalMLP",
+      "d": "2023-04-03",
+      "m1": "0.8149"
+    },
+    {
+      "p": "[CETN: Contrast-enhanced Through Network for CTR Prediction](https://arxiv.org/abs/2312.09715v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/salmon1802/cetn)",
+      "n": "CETN",
+      "d": "2023-12-15",
+      "m1": "0.8148",
+      "m2": "0.4373"
+    },
+    {
+      "p": "[STEC: See-Through Transformer-based Encoder for CTR Prediction](https://arxiv.org/abs/2308.15033v2)",
+      "c": "",
+      "n": "STEC",
+      "d": "2023-08-29",
+      "m1": "0.8143",
+      "m2": "0.4379"
+    },
+    {
+      "p": "[MMBAttn: Max-Mean and Bit-wise Attention for CTR Prediction](https://arxiv.org/abs/2308.13187v1)",
+      "c": "",
+      "n": "DNN + MMBAttn",
+      "d": "2023-08-25",
+      "m1": "0.8143"
+    },
+    {
+      "p": "[MaskNet: Introducing Feature-Wise Multiplication to CTR Ranking Models by Instance-Guided Mask](https://arxiv.org/abs/2102.07619v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/twitter/the-algorithm)",
+      "n": "MaskNet",
+      "d": "2021-02-09",
+      "m1": "0.8131"
+    },
+    {
+      "p": "[DeepLight: Deep Lightweight Feature Interactions for Accelerating CTR Predictions in Ad Serving](https://arxiv.org/abs/2002.06987v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/WayneDW/DeepLight_Deep-Lightweight-Feature-Interactions)",
+      "n": "DeepLight",
+      "d": "2020-02-17",
+      "m1": "0.8123",
+      "m2": "0.4395"
+    },
+    {
+      "p": "[Cognitive Evolutionary Search to Select Feature Interactions for Click-Through Rate Prediction](https://dl.acm.org/doi/10.1145/3580305.3599277)",
+      "c": "[&check;&nbsp;Link](https://github.com/RunlongYu/CELS)",
+      "n": "CELS",
+      "d": "2023-08-01",
+      "m1": "0.8117",
+      "m2": "0.4400"
+    },
+    {
+      "p": "[Optimizing Feature Set for Click-Through Rate Prediction](https://arxiv.org/abs/2301.10909v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/fuyuanlyu/optfs)",
+      "n": "OptFS",
+      "d": "2023-01-26",
+      "m1": "0.8116",
+      "m2": "0.4401"
+    },
+    {
+      "p": "[DCN V2: Improved Deep & Cross Network and Practical Lessons for Web-scale Learning to Rank Systems](https://arxiv.org/abs/2008.13535v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/official/recommendation/ranking)",
+      "n": "DCN V2",
+      "d": "2020-08-19",
+      "m1": "0.8115",
+      "m2": "0.4406"
+    },
+    {
+      "p": "[OptEmbed: Learning Optimal Embedding Table for Click-through Rate Prediction](https://arxiv.org/abs/2208.04482v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/fuyuanlyu/optembed)",
+      "n": "OptEmbed",
+      "d": "2022-08-09",
+      "m1": "0.8114",
+      "m2": "0.44"
+    },
+    {
+      "p": "[ContextNet: A Click-Through Rate Prediction Framework Using Contextual information to Refine Feature Embedding](https://arxiv.org/abs/2107.12025v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/QunBB/DeepLearning/blob/main/recommendation/rank/contextnet.py)",
+      "n": "ContextNet",
+      "d": "2021-07-26",
+      "m1": "0.8113"
+    },
+    {
+      "p": "[FiBiNet++: Reducing Model Size by Low Rank Feature Interaction Layer for CTR Prediction](https://arxiv.org/abs/2209.05016v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/alibaba/EasyRec/blob/master/docs/source/models/fibinet.md)",
+      "n": "FiBiNet++",
+      "d": "2022-09-12",
+      "m1": "0.8110"
+    },
+    {
+      "p": "[Correct Normalization Matters: Understanding the Effect of Normalization On Deep Neural Network Models For Click-Through Rate Prediction](https://arxiv.org/abs/2006.12753v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/alibaba/EasyRec/blob/master/easy_rec/python/input/criteo_input.py)",
+      "n": "NormDNN",
+      "d": "2020-06-23",
+      "m1": "0.8107"
+    },
+    {
+      "p": "[FAT-DeepFFM: Field Attentive Deep Field-aware Factorization Machine](https://arxiv.org/abs/1905.06336v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleRec/tree/master/models/rank/fat_deepffm)",
+      "n": "DeepFFM",
+      "d": "2019-05-15",
+      "m1": "0.8104",
+      "m2": "0.4416"
+    },
+    {
+      "p": "[FiBiNET: Combining Feature Importance and Bilinear feature Interaction for Click-Through Rate Prediction](https://arxiv.org/abs/1905.09433v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/shenweichen/DeepCTR)",
+      "n": "FiBiNET",
+      "d": "2019-05-23",
+      "m1": "0.8103",
+      "m2": "0.4423"
+    },
+    {
+      "p": "[Memorize, Factorize, or be Na\u00efve: Learning Optimal Feature Interaction Methods for CTR Prediction](https://arxiv.org/abs/2108.01265v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/fuyuanlyu/OptInter)",
+      "n": "OptInter",
+      "d": "2021-08-03",
+      "m1": "0.8101",
+      "m2": "0.4417"
+    },
+    {
+      "p": "[GateNet: Gating-Enhanced Deep Network for Click-Through Rate Prediction](https://arxiv.org/abs/2007.03519v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleRec/tree/master/models/rank/gatenet)",
+      "n": "GateNet",
+      "d": "2020-07-06",
+      "m1": "0.8100"
+    },
+    {
+      "p": "[Adaptive Factorization Network: Learning Adaptive-Order Feature Interactions](https://arxiv.org/abs/1909.03276v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/shenweichen/DeepCTR-Torch)",
+      "n": "AFN+",
+      "d": "2019-09-07",
+      "m1": "0.8074"
+    },
+    {
+      "p": "[XCrossNet: Feature Structure-Oriented Learning for Click-Through Rate Prediction](https://arxiv.org/abs/2104.10907v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/bigdata-ustc/XCrossNet)",
+      "n": "XCrossNet",
+      "d": "2021-04-22",
+      "m1": "0.8067"
+    },
+    {
+      "p": "[Fi-GNN: Modeling Feature Interactions via Graph Neural Networks for CTR Prediction](https://arxiv.org/abs/1910.05552v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/xue-pai/FuxiCTR)",
+      "n": "Fi-GNN",
+      "d": "2019-10-12",
+      "m1": "0.8062",
+      "m2": "0.4453"
+    },
+    {
+      "p": "[AutoInt: Automatic Feature Interaction Learning via Self-Attentive Neural Networks](https://arxiv.org/abs/1810.11921v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/shenweichen/DeepCTR)",
+      "n": "AutoInt",
+      "d": "2018-10-29",
+      "m1": "0.8061",
+      "m2": "0.4454"
+    },
+    {
+      "p": "[Clustering the Sketch: A Novel Approach to Embedding Table Compression](https://arxiv.org/abs/2210.05974v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/thomasahle/cce)",
+      "n": "Clustered Compositional Embeddings",
+      "d": "2022-10-12",
+      "m1": "0.806",
+      "m2": "0.449"
+    },
+    {
+      "p": "[xDeepFM: Combining Explicit and Implicit Feature Interactions for Recommender Systems](http://arxiv.org/abs/1803.05170v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/recommenders)",
+      "n": "xDeepFM",
+      "d": "2018-03-14",
+      "m1": "0.8052",
+      "m2": "0.4418"
+    },
+    {
+      "p": "[Weighted Multi-Level Feature Factorization for App ads CTR and installation prediction](https://arxiv.org/abs/2308.02568v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/knife982000/recsys2023challenge)",
+      "n": "WMLFF",
+      "d": "2023-08-03",
+      "m1": "0.804",
+      "m2": "0.447"
+    },
+    {
+      "p": "[Feature Interaction based Neural Network for Click-Through Rate Prediction](https://arxiv.org/abs/2006.05312v1)",
+      "c": "",
+      "n": "FINN",
+      "d": "2020-06-07",
+      "m1": "0.8020",
+      "m2": "0.5409"
+    },
+    {
+      "p": "[AutoFIS: Automatic Feature Interaction Selection in Factorization Models for Click-Through Rate Prediction](https://arxiv.org/abs/2003.11235v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleRec/tree/master/models/rank/autofis)",
+      "n": "AutoDeepFM(3rd)",
+      "d": "2020-03-25",
+      "m1": "0.8010",
+      "m2": "0.5405"
+    },
+    {
+      "p": "[DeepFM: A Factorization-Machine based Neural Network for CTR Prediction](http://arxiv.org/abs/1703.04247v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/shenweichen/DeepCTR)",
+      "n": "DeepFM",
+      "d": "2017-03-13",
+      "m1": "0.8007",
+      "m2": "0.45083"
+    },
+    {
+      "p": "[TFNet: Multi-Semantic Feature Interaction for CTR Prediction](https://arxiv.org/abs/2006.15939v1)",
+      "c": "",
+      "n": "TFNet",
+      "d": "2020-06-29",
+      "m1": "0.7991"
+    },
+    {
+      "p": "[Product-based Neural Networks for User Response Prediction](http://arxiv.org/abs/1611.00144v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/shenweichen/DeepCTR)",
+      "n": "PNN*",
+      "d": "2016-11-01",
+      "m1": "0.7987",
+      "m2": "0.45214"
+    },
+    {
+      "p": "[Product-based Neural Networks for User Response Prediction](http://arxiv.org/abs/1611.00144v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/shenweichen/DeepCTR)",
+      "n": "OPNN",
+      "d": "2016-11-01",
+      "m1": "0.7982",
+      "m2": "0.45256"
+    },
+    {
+      "p": "[Wide & Deep Learning for Recommender Systems](http://arxiv.org/abs/1606.07792v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/recommenders)",
+      "n": "Wide&Deep",
+      "d": "2016-06-24",
+      "m1": "0.7981",
+      "m2": "0.46772"
+    },
+    {
+      "p": "[Product-based Neural Networks for User Response Prediction](http://arxiv.org/abs/1611.00144v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/shenweichen/DeepCTR)",
+      "n": "IPNN",
+      "d": "2016-11-01",
+      "m1": "0.7972",
+      "m2": "0.45323"
+    },
+    {
+      "p": "[Deep Learning over Multi-field Categorical Data: A Case Study on User Response Prediction](http://arxiv.org/abs/1601.02376v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/shenweichen/DeepCTR)",
+      "n": "FNN",
+      "d": "2016-01-11",
+      "m1": "0.7963",
+      "m2": "0.45738"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

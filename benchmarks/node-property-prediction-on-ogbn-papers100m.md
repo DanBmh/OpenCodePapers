@@ -1,0 +1,254 @@
+# node-property-prediction-on-ogbn-papers100m
+
+[Dataset Link](https://ogb.stanford.edu/) \
+Task Hierarchy: ['Node Property Prediction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Test Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Ext. data",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Validation Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Number of params",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Learning on Large-scale Text-attributed Graphs via Variational Inference](https://arxiv.org/abs/2210.14709v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/andyjzhao/glem)",
+      "n": "GLEM+GIANT+GAMLP",
+      "d": "2022-10-26",
+      "m1": "0.7037 \u00b1 0.0002",
+      "m2": "Yes",
+      "m3": "0.7354 \u00b1 0.0001",
+      "m4": "154775375"
+    },
+    {
+      "p": "[Node Feature Extraction by Self-Supervised Multi-scale Neighborhood Prediction](https://arxiv.org/abs/2111.00064v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/amzn/pecos)",
+      "n": "GIANT-XRT+GAMLP+RLU (use raw text)",
+      "d": "2021-10-29",
+      "m1": "0.6967 \u00b1 0.0005",
+      "m2": "Yes",
+      "m3": "0.7305 \u00b1 0.0004",
+      "m4": "21551631"
+    },
+    {
+      "p": "[SCR: Training Graph Neural Networks with Consistency Regularization](https://arxiv.org/abs/2112.04319v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/THUDM/SCR)",
+      "n": "GAMLP+RLU+SCR",
+      "d": "2021-12-08",
+      "m1": "0.6842 \u00b1 0.0015",
+      "m2": "No",
+      "m3": "0.7188 \u00b1 0.0007",
+      "m4": "67560875"
+    },
+    {
+      "p": "[Scalable and Adaptive Graph Neural Networks with Self-Label-Enhanced training](https://arxiv.org/abs/2104.09376v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/skepsun/SAGN_with_SLE)",
+      "n": "SAGN+SLE (4 stages)",
+      "d": "2021-04-19",
+      "m1": "0.6830 \u00b1 0.0008",
+      "m2": "No",
+      "m3": "0.7163 \u00b1 0.0007",
+      "m4": "8556888"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "GAMLP+RLU",
+      "d": null,
+      "m1": "0.6825 \u00b1 0.0011",
+      "m2": "No",
+      "m3": "0.7159 \u00b1 0.0005",
+      "m4": "16308751"
+    },
+    {
+      "p": "[SCR: Training Graph Neural Networks with Consistency Regularization](https://arxiv.org/abs/2112.04319v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/THUDM/SCR)",
+      "n": "GAMLP+SCR-m",
+      "d": "2021-12-08",
+      "m1": "0.6816 \u00b1 0.0012",
+      "m2": "No",
+      "m3": "0.7186 \u00b1 0.0008",
+      "m4": "67560875"
+    },
+    {
+      "p": "[SCR: Training Graph Neural Networks with Consistency Regularization](https://arxiv.org/abs/2112.04319v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/THUDM/SCR)",
+      "n": "GAMLP+SCR",
+      "d": "2021-12-08",
+      "m1": "0.6814 \u00b1 0.0008",
+      "m2": "No",
+      "m3": "0.7190 \u00b1 0.0007",
+      "m4": "67560875"
+    },
+    {
+      "p": "[Improving Graph Neural Networks with Simple Architecture Design](https://arxiv.org/abs/2105.07634v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/sunilkmaurya/FSGNN)",
+      "n": "FSGNN",
+      "d": "2021-05-17",
+      "m1": "0.6807 \u00b1 0.0006",
+      "m2": "No",
+      "m3": "0.7175 \u00b1 0.0007",
+      "m4": "16453301"
+    },
+    {
+      "p": "[Scalable and Adaptive Graph Neural Networks with Self-Label-Enhanced training](https://arxiv.org/abs/2104.09376v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/skepsun/SAGN_with_SLE)",
+      "n": "SAGN+SLE",
+      "d": "2021-04-19",
+      "m1": "0.6800 \u00b1 0.0015",
+      "m2": "No",
+      "m3": "0.7131 \u00b1 0.0010",
+      "m4": "8556888"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "GAMLP",
+      "d": null,
+      "m1": "0.6771 \u00b1 0.0020",
+      "m2": "No",
+      "m3": "0.7117 \u00b1 0.0014",
+      "m4": "16308751"
+    },
+    {
+      "p": "[Masked Label Prediction: Unified Message Passing Model for Semi-Supervised Classification](https://arxiv.org/abs/2009.03509v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PGL/tree/main/ogb_examples/nodeproppred/unimp)",
+      "n": "TransformerConv",
+      "d": "2020-09-08",
+      "m1": "0.6736 \u00b1 0.0010",
+      "m2": "No",
+      "m3": "0.7172 \u00b1 0.0005",
+      "m4": "883378"
+    },
+    {
+      "p": "[Decoupling the Depth and Scope of Graph Neural Networks](https://arxiv.org/abs/2201.07858v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/shaDow_GNN)",
+      "n": "shaDow-GAT",
+      "d": "2022-01-19",
+      "m1": "0.6708\u00b10.0017",
+      "m2": "No",
+      "m3": "0.7073\u00b1 0.0011",
+      "m4": "4205544"
+    },
+    {
+      "p": "[Inductive Representation Learning on Large Graphs](http://arxiv.org/abs/1706.02216v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/pyg-team/pytorch_geometric/blob/master/torch_geometric/nn/models/basic_gnn.py)",
+      "n": "GraphSAGE_res_incep",
+      "d": "2017-06-07",
+      "m1": "0.6706 \u00b1 0.0017",
+      "m2": "No",
+      "m3": "0.7032 \u00b1 0.0011",
+      "m4": "5755172"
+    },
+    {
+      "p": "[Scalable and Adaptive Graph Neural Networks with Self-Label-Enhanced training](https://arxiv.org/abs/2104.09376v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/skepsun/SAGN_with_SLE)",
+      "n": "SAGN",
+      "d": "2021-04-19",
+      "m1": "0.6675 \u00b1 0.0084",
+      "m2": "No",
+      "m3": "0.7034 \u00b1 0.0099",
+      "m4": "6098092"
+    },
+    {
+      "p": "[SIGN: Scalable Inception Graph Neural Networks](https://arxiv.org/abs/2004.11198v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/sign)",
+      "n": "SIGN-XL",
+      "d": "2020-04-23",
+      "m1": "0.6606 \u00b1 0.0019",
+      "m2": "No",
+      "m3": "0.6984 \u00b1 0.0006",
+      "m4": "7180460"
+    },
+    {
+      "p": "[Dimensionality Reduction Meets Message Passing for Graph Node Embeddings](https://arxiv.org/abs/2202.00408v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ksadowski13/PCAPass)",
+      "n": "PCAPass + LightGBM",
+      "d": "2022-02-01",
+      "m1": "0.6591 \u00b1 0.0003",
+      "m2": "No",
+      "m3": "0.6982 \u00b1 0.0002",
+      "m4": "0"
+    },
+    {
+      "p": "[SIGN: Scalable Inception Graph Neural Networks](https://arxiv.org/abs/2004.11198v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/sign)",
+      "n": "SIGN",
+      "d": "2020-04-23",
+      "m1": "0.6568 \u00b1 0.0006",
+      "m2": "No",
+      "m3": "0.6932 \u00b1 0.0006",
+      "m4": "1008812"
+    },
+    {
+      "p": "[Simplifying Graph Convolutional Networks](https://arxiv.org/abs/1902.07153v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/sgc)",
+      "n": "SGC",
+      "d": "2019-02-19",
+      "m1": "0.6329 \u00b1 0.0019",
+      "m2": "No",
+      "m3": "0.6648 \u00b1 0.0020",
+      "m4": "144044"
+    },
+    {
+      "p": "[node2vec: Scalable Feature Learning for Networks](http://arxiv.org/abs/1607.00653v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/node2vec)",
+      "n": "Node2vec",
+      "d": "2016-07-03",
+      "m1": "0.5560 \u00b1 0.0023",
+      "m2": "No",
+      "m3": "0.5807 \u00b1 0.0028",
+      "m4": "14215818412"
+    },
+    {
+      "p": "[Open Graph Benchmark: Datasets for Machine Learning on Graphs](https://arxiv.org/abs/2005.00687v7)",
+      "c": "[&check;&nbsp;Link](https://github.com/snap-stanford/ogb)",
+      "n": "MLP",
+      "d": "2020-05-02",
+      "m1": "0.4724 \u00b1 0.0031",
+      "m2": "No",
+      "m3": "0.4960 \u00b1 0.0029",
+      "m4": "144044"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

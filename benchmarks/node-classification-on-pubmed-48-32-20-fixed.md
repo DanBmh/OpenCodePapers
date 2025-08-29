@@ -1,0 +1,226 @@
+# node-classification-on-pubmed-48-32-20-fixed
+
+[Dataset Link]() \
+Task Hierarchy: ['Node Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "1:1 Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Simple and Deep Graph Convolutional Networks](https://arxiv.org/abs/2007.02133v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/chennnM/GCNII/tree/master/PyG/ogbn-arxiv)",
+      "n": "GCNII",
+      "d": "2020-07-04",
+      "m1": "90.15 \u00b1 0.43"
+    },
+    {
+      "p": "[Geom-GCN: Geometric Graph Convolutional Networks](https://arxiv.org/abs/2002.05287v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/bingzhewei/geom-gcn)",
+      "n": "Geom-GCN",
+      "d": "2020-02-13",
+      "m1": "89.95 \u00b1 0.47"
+    },
+    {
+      "p": "[Revisiting Heterophily For Graph Neural Networks](https://arxiv.org/abs/2210.07606v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SitaoLuan/ACM-GNN)",
+      "n": "ACMII-GCN",
+      "d": "2022-10-14",
+      "m1": "89.89 \u00b1 0.43"
+    },
+    {
+      "p": "[Revisiting Heterophily For Graph Neural Networks](https://arxiv.org/abs/2210.07606v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SitaoLuan/ACM-GNN)",
+      "n": "ACM-GCN+",
+      "d": "2022-10-14",
+      "m1": "89.82 \u00b1 0.41"
+    },
+    {
+      "p": "[Revisiting Heterophily For Graph Neural Networks](https://arxiv.org/abs/2210.07606v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SitaoLuan/ACM-GNN)",
+      "n": "ACMII-GCN+",
+      "d": "2022-10-14",
+      "m1": "89.78 \u00b1 0.49"
+    },
+    {
+      "p": "[Revisiting Heterophily For Graph Neural Networks](https://arxiv.org/abs/2210.07606v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SitaoLuan/ACM-GNN)",
+      "n": "ACMII-GCN++",
+      "d": "2022-10-14",
+      "m1": "89.71 \u00b1 0.48"
+    },
+    {
+      "p": "[Revisiting Heterophily For Graph Neural Networks](https://arxiv.org/abs/2210.07606v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SitaoLuan/ACM-GNN)",
+      "n": "ACM-GCN++",
+      "d": "2022-10-14",
+      "m1": "89.65 \u00b1 0.58"
+    },
+    {
+      "p": "[Finding Global Homophily in Graph Neural Networks When Meeting Heterophily](https://arxiv.org/abs/2205.07308v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/recklessronan/glognn)",
+      "n": "GloGNN",
+      "d": "2022-05-15",
+      "m1": "89.62 \u00b1 0.35"
+    },
+    {
+      "p": "[Beyond Homophily in Graph Neural Networks: Current Limitations and Effective Designs](https://arxiv.org/abs/2006.11468v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/GemsLab/H2GCN)",
+      "n": "H2GCN",
+      "d": "2020-06-20",
+      "m1": "89.49 \u00b1 0.38"
+    },
+    {
+      "p": "[Neural Sheaf Diffusion: A Topological Perspective on Heterophily and Oversmoothing in GNNs](https://arxiv.org/abs/2202.04579v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/twitter-research/neural-sheaf-diffusion)",
+      "n": "O(d)-NSD",
+      "d": "2022-02-09",
+      "m1": "89.49 \u00b1 0.40"
+    },
+    {
+      "p": "[Neural Sheaf Diffusion: A Topological Perspective on Heterophily and Oversmoothing in GNNs](https://arxiv.org/abs/2202.04579v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/twitter-research/neural-sheaf-diffusion)",
+      "n": "Diag-NSD",
+      "d": "2022-02-09",
+      "m1": "89.42 \u00b1 0.43"
+    },
+    {
+      "p": "[Neural Sheaf Diffusion: A Topological Perspective on Heterophily and Oversmoothing in GNNs](https://arxiv.org/abs/2202.04579v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/twitter-research/neural-sheaf-diffusion)",
+      "n": "Gen-NSD",
+      "d": "2022-02-09",
+      "m1": "89.33 \u00b1 0.35"
+    },
+    {
+      "p": "[Finding Global Homophily in Graph Neural Networks When Meeting Heterophily](https://arxiv.org/abs/2205.07308v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/recklessronan/glognn)",
+      "n": "GloGNN++",
+      "d": "2022-05-15",
+      "m1": "89.24 \u00b1 0.39"
+    },
+    {
+      "p": "[Addressing Heterophily in Node Classification with Graph Echo State Networks](https://arxiv.org/abs/2305.08233v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dtortorella/addressing-heterophily-gesn)",
+      "n": "GESN",
+      "d": "2023-05-14",
+      "m1": "89.20 \u00b1 0.34"
+    },
+    {
+      "p": "[Two Sides of the Same Coin: Heterophily and Oversmoothing in Graph Convolutional Neural Networks](https://arxiv.org/abs/2102.06462v8)",
+      "c": "[&check;&nbsp;Link](https://github.com/yujun-yan/heterophily_and_oversmoothing)",
+      "n": "GGCN",
+      "d": "2021-02-12",
+      "m1": "89.15 \u00b1 0.37"
+    },
+    {
+      "p": "[Revisiting Heterophily For Graph Neural Networks](https://arxiv.org/abs/2210.07606v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SitaoLuan/ACM-GNN)",
+      "n": "ACM-SGC-2",
+      "d": "2022-10-14",
+      "m1": "89.01 \u00b1 0.6"
+    },
+    {
+      "p": "[Non-Local Graph Neural Networks](https://arxiv.org/abs/2005.14612v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/divelab/Non-Local-GNN)",
+      "n": "NLGCN\u00a0",
+      "d": "2020-05-29",
+      "m1": "89.0 \u00b1 0.5"
+    },
+    {
+      "p": "[Breaking the Limit of Graph Neural Networks by Improving the Assortativity of Graphs with Local Mixing Patterns](https://arxiv.org/abs/2106.06586v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/susheels/gnns-and-local-assortativity)",
+      "n": "WRGAT",
+      "d": "2021-06-11",
+      "m1": "88.52 \u00b1 0.92"
+    },
+    {
+      "p": "[Revisiting Heterophily For Graph Neural Networks](https://arxiv.org/abs/2210.07606v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SitaoLuan/ACM-GNN)",
+      "n": "ACM-SGC-1",
+      "d": "2022-10-14",
+      "m1": "88.49 \u00b1 0.51"
+    },
+    {
+      "p": "[Non-Local Graph Neural Networks](https://arxiv.org/abs/2005.14612v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/divelab/Non-Local-GNN)",
+      "n": "NLMLP\u00a0",
+      "d": "2020-05-29",
+      "m1": "88.2 \u00b1 0.5"
+    },
+    {
+      "p": "[Non-Local Graph Neural Networks](https://arxiv.org/abs/2005.14612v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/divelab/Non-Local-GNN)",
+      "n": "NLGAT\u00a0",
+      "d": "2020-05-29",
+      "m1": "88.2 \u00b1 0.3"
+    },
+    {
+      "p": "[Beyond Low-frequency Information in Graph Convolutional Networks](https://arxiv.org/abs/2101.00797v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/bdy9527/FAGCN)",
+      "n": "FAGCN",
+      "d": "2021-01-04",
+      "m1": "88.09 \u00b1 1.38"
+    },
+    {
+      "p": "[Large Scale Learning on Non-Homophilous Graphs: New Benchmarks and Strong Simple Methods](https://arxiv.org/abs/2110.14446v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cuai/non-homophily-large-scale)",
+      "n": "LINKX",
+      "d": "2021-10-27",
+      "m1": "87.86 \u00b1 0.77"
+    },
+    {
+      "p": "[Adaptive Universal Generalized PageRank Graph Neural Network](https://arxiv.org/abs/2006.07988v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/jianhao2016/GPRGNN)",
+      "n": "GPRGCN",
+      "d": "2020-06-14",
+      "m1": "87.54 \u00b1 0.38"
+    },
+    {
+      "p": "[MixHop: Higher-Order Graph Convolutional Architectures via Sparsified Neighborhood Mixing](https://arxiv.org/abs/1905.00067v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/mixhop)",
+      "n": "MixHop",
+      "d": "2019-04-30",
+      "m1": "85.31 \u00b1 0.61"
+    },
+    {
+      "p": "[GREAD: Graph Neural Reaction-Diffusion Networks](https://arxiv.org/abs/2211.14208v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/jeongwhanchoi/gread)",
+      "n": "GREAD-BS",
+      "d": "2022-11-25",
+      "m2": "90.21"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

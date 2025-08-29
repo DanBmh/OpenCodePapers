@@ -1,0 +1,116 @@
+# visual-question-answering-on-vqa-v2-val
+
+[Dataset Link](https://visualqa.org/) \
+Task Hierarchy: ['Visual Question Answering (VQA)']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "BLIP-2 ViT-G FlanT5 XXL (zero-shot)",
+      "d": "2023-01-30",
+      "m1": "65.2"
+    },
+    {
+      "p": "[Plug-and-Play VQA: Zero-shot VQA by Conjoining Large Pretrained Models with Zero Training](https://arxiv.org/abs/2210.08773v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/salesforce/lavis)",
+      "n": "PNP-VQA",
+      "d": "2022-10-17",
+      "m1": "63.3"
+    },
+    {
+      "p": "[BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "BLIP-2 ViT-G FlanT5 XL (zero-shot)",
+      "d": "2023-01-30",
+      "m1": "63.1"
+    },
+    {
+      "p": "[BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "BLIP-2 ViT-L FlanT5 XL (zero-shot)",
+      "d": "2023-01-30",
+      "m1": "62.6"
+    },
+    {
+      "p": "[BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "BLIP-2 ViT-G OPT 6.7B (zero-shot)",
+      "d": "2023-01-30",
+      "m1": "54.3"
+    },
+    {
+      "p": "[BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "BLIP-2 ViT-G OPT 2.7B (zero-shot)",
+      "d": "2023-01-30",
+      "m1": "53.5"
+    },
+    {
+      "p": "[BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "BLIP-2 ViT-L OPT 2.7B (zero-shot)",
+      "d": "2023-01-30",
+      "m1": "50.1"
+    },
+    {
+      "p": "[A Good Prompt Is Worth Millions of Parameters: Low-resource Prompt-based Learning for Vision-Language Models](https://arxiv.org/abs/2110.08484v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/woojeongjin/fewvlm)",
+      "n": "Few VLM (zero-shot)",
+      "d": "2021-10-16",
+      "m1": "47.7"
+    },
+    {
+      "p": "[Language Models are General-Purpose Interfaces](https://arxiv.org/abs/2206.06336v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/unilm)",
+      "n": "MetaLM",
+      "d": "2022-06-13",
+      "m1": "41.1"
+    },
+    {
+      "p": "[Enabling Multimodal Generation on CLIP via Vision-Language Knowledge Distillation](https://openreview.net/forum?id=YTGg7kv8qIq)",
+      "c": "",
+      "n": "VLKD(ViT-B/16)",
+      "d": "2021-11-16",
+      "m1": "38.6"
+    },
+    {
+      "p": "[Multimodal Few-Shot Learning with Frozen Language Models](https://arxiv.org/abs/2106.13884v2)",
+      "c": "",
+      "n": "Frozen",
+      "d": "2021-06-25",
+      "m1": "29.5"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

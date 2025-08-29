@@ -1,0 +1,136 @@
+# video-frame-interpolation-on-middlebury
+
+[Dataset Link](https://vision.middlebury.edu/stereo/data/) \
+Task Hierarchy: ['Video Frame Interpolation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Interpolation Error",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "SSIM",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "LPIPS",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[IFRNet: Intermediate Feature Refine Network for Efficient Frame Interpolation](https://arxiv.org/abs/2205.14620v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ltkong218/ifrnet)",
+      "n": "IFRNet",
+      "d": "2022-05-29",
+      "m1": "4.216"
+    },
+    {
+      "p": "[Softmax Splatting for Video Frame Interpolation](https://arxiv.org/abs/2003.05534v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/sniklaus/softmax-splatting)",
+      "n": "SoftSplat",
+      "d": "2020-03-11",
+      "m1": "4.223",
+      "m2": "38.42",
+      "m3": "0.971"
+    },
+    {
+      "p": "[BMBC:Bilateral Motion Estimation with Bilateral Cost Volume for Video Interpolation](https://arxiv.org/abs/2007.12622v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/JunHeum/BMBC)",
+      "n": "BMBC",
+      "d": "2020-07-17",
+      "m1": "4.479"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "FRUCnet",
+      "d": null,
+      "m1": "4.78"
+    },
+    {
+      "p": "[Depth-Aware Video Frame Interpolation](http://arxiv.org/abs/1904.00830v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/baowenbo/DAIN)",
+      "n": "DAIN",
+      "d": "2019-04-01",
+      "m1": "4.86"
+    },
+    {
+      "p": "[MEMC-Net: Motion Estimation and Motion Compensation Driven Neural Network for Video Frame Interpolation and Enhancement](https://arxiv.org/abs/1810.08768)",
+      "c": "[&check;&nbsp;Link](https://github.com/baowenbo/MEMC-Net)",
+      "n": "MEMC-NET",
+      "d": "2018-10-20",
+      "m1": "5.24"
+    },
+    {
+      "p": "[Video Enhancement with Task-Oriented Flow](https://arxiv.org/abs/1711.09078v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/anchen1011/toflow)",
+      "n": "ToFlow",
+      "d": "2017-11-24",
+      "m1": "5.49"
+    },
+    {
+      "p": "[Video Frame Interpolation via Adaptive Separable Convolution](http://arxiv.org/abs/1708.01692v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/sniklaus/sepconv-slomo)",
+      "n": "SepConv-L1",
+      "d": "2017-08-05",
+      "m1": "5.61"
+    },
+    {
+      "p": "[Exploring Motion Ambiguity and Alignment for High-Quality Video Frame Interpolation](https://arxiv.org/abs/2203.10291v1)",
+      "c": "",
+      "n": "MA-CSPA",
+      "d": "2022-03-19",
+      "m2": "38.83"
+    },
+    {
+      "p": "[FILM: Frame Interpolation for Large Motion](https://arxiv.org/abs/2202.04901v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/frame-interpolation)",
+      "n": "FILM",
+      "d": "2022-02-10",
+      "m2": "37.52",
+      "m3": "0.966"
+    },
+    {
+      "p": "[CDFI: Compression-Driven Network Design for Frame Interpolation](https://arxiv.org/abs/2103.10559v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tding1/CDFI)",
+      "n": "CDFI",
+      "d": "2021-03-18",
+      "m2": "37.14",
+      "m3": "0.966",
+      "m4": "0.007"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

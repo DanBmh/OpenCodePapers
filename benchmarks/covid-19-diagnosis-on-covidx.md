@@ -1,0 +1,65 @@
+# covid-19-diagnosis-on-covidx
+
+[Dataset Link](https://github.com/lindawangg/COVID-Net) \
+Task Hierarchy: ['COVID-19 Diagnosis']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "3-class test accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "AUC",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[A Novel Approach for detecting Normal, COVID-19 and Pneumonia patient using only binary classifications from chest CT-Scans](https://www.sciencedirect.com/science/article/pii/S2772528622000310)",
+      "c": "[&check;&nbsp;Link](https://github.com/sanskar-hasija/COVID-19_Detection)",
+      "n": "Sanskar et al.",
+      "d": "2022-03-28",
+      "m1": "98.38"
+    },
+    {
+      "p": "[Corona-Nidaan: lightweight deep convolutional neural network for chest X-Ray based COVID-19 infection detection](https://link.springer.com/article/10.1007/s10489-020-01978-9)",
+      "c": "[&check;&nbsp;Link](https://github.com/mainak15/Corona-Nidaan)",
+      "n": "Corona-Nidaan",
+      "d": "2021-02-01",
+      "m1": "95"
+    },
+    {
+      "p": "[COVID-WideNet\u2014A capsule network for COVID-19 detection](https://www.sciencedirect.com/science/article/pii/S1568494622002046)",
+      "c": "[&check;&nbsp;Link](https://github.com/Harsh9524/COVID-WideNet)",
+      "n": "COVID-WideNet",
+      "d": "2022-03-22",
+      "m2": "0.95"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

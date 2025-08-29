@@ -1,0 +1,60 @@
+# language-modelling-on-big-bench-lite
+
+[Dataset Link](https://github.com/google/BIG-bench) \
+Task Hierarchy: ['Language Modelling']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[GLM-130B: An Open Bilingual Pre-trained Model](https://arxiv.org/abs/2210.02414v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/thudm/chatglm2-6b)",
+      "n": "GLM-130B (3-shot)",
+      "d": "2022-10-05",
+      "m1": "15.11"
+    },
+    {
+      "p": "[GLM-130B: An Open Bilingual Pre-trained Model](https://arxiv.org/abs/2210.02414v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/thudm/chatglm2-6b)",
+      "n": "GLM-130B (1-shot)",
+      "d": "2022-10-05",
+      "m1": "14.91"
+    },
+    {
+      "p": "[GLM-130B: An Open Bilingual Pre-trained Model](https://arxiv.org/abs/2210.02414v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/thudm/chatglm2-6b)",
+      "n": "GLM-130B (0-shot)",
+      "d": "2022-10-05",
+      "m1": "13.31"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

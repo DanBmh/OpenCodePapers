@@ -1,0 +1,392 @@
+# video-deinterlacing-on-msu-deinterlacer
+
+[Dataset Link](https://videoprocessing.ai/benchmarks/deinterlacer.html) \
+Task Hierarchy: ['Video', 'Video Deinterlacing']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Subjective",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "SSIM",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "VMAF",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "FPS on CPU",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Multi-frame Joint Enhancement for Early Interlaced Videos](https://arxiv.org/abs/2109.14151v1)",
+      "c": "",
+      "n": "MFDIN (L)",
+      "d": "2021-09-29",
+      "m1": "1.054",
+      "m2": "43.884",
+      "m3": "0.979",
+      "m4": "97.30",
+      "m5": "1.6"
+    },
+    {
+      "p": "[Multi-frame Joint Enhancement for Early Interlaced Videos](https://arxiv.org/abs/2109.14151v1)",
+      "c": "",
+      "n": "MFDIN",
+      "d": "2021-09-29",
+      "m1": "0.963",
+      "m2": "39.803",
+      "m3": "0.961",
+      "m4": "94.38",
+      "m5": "1.6"
+    },
+    {
+      "p": "[Multi-Field De-interlacing using Deformable Convolution Residual Blocks and Self-Attention](https://arxiv.org/abs/2209.10192v1)",
+      "c": "",
+      "n": "DfRes (SA)",
+      "d": "2022-09-21",
+      "m1": "0.925",
+      "m2": "43.486",
+      "m3": "0.972",
+      "m4": "95.96",
+      "m5": "0.1"
+    },
+    {
+      "p": "[Multi-Field De-interlacing using Deformable Convolution Residual Blocks and Self-Attention](https://arxiv.org/abs/2209.10192v1)",
+      "c": "",
+      "n": "DfRes",
+      "d": "2022-09-21",
+      "m1": "0.912",
+      "m2": "40.590",
+      "m3": "0.971",
+      "m4": "95.20",
+      "m5": "0.4"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "FLAD",
+      "d": null,
+      "m1": "0.875",
+      "m2": "43.293",
+      "m3": "0.977",
+      "m4": "96.89",
+      "m5": "0.1"
+    },
+    {
+      "p": "[Multi-Field De-interlacing using Deformable Convolution Residual Blocks and Self-Attention](https://arxiv.org/abs/2209.10192v1)",
+      "c": "",
+      "n": "DfRes (122000 G2e 3)",
+      "d": "2022-09-21",
+      "m1": "0.862",
+      "m2": "43.200",
+      "m3": "0.972",
+      "m4": "95.68"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "SwinDI",
+      "d": null,
+      "m1": "0.741",
+      "m2": "41.151",
+      "m3": "0.970",
+      "m4": "95.17"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "MSU Deinterlacer",
+      "d": null,
+      "m1": "0.733",
+      "m2": "39.846",
+      "m3": "0.966",
+      "m4": "94.32",
+      "m5": "1.3"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "YADIF",
+      "d": null,
+      "m1": "0.621",
+      "m2": "38.260",
+      "m3": "0.949",
+      "m4": "90.13",
+      "m5": "49"
+    },
+    {
+      "p": "[Spatial-Temporal Correlation and Topology Learning for Person Re-Identification in Videos](https://arxiv.org/abs/2104.08241v1)",
+      "c": "",
+      "n": "ST-Deint",
+      "d": "2021-04-15",
+      "m1": "0.550",
+      "m2": "40.869",
+      "m3": "0.964",
+      "m4": "94.36",
+      "m5": "2.7"
+    },
+    {
+      "p": "[Real-time Deep Video Deinterlacing](http://arxiv.org/abs/1708.00187v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/lszhuhaichao/Deep-Video-Deinterlacing)",
+      "n": "Real-time Deep Video Deinterlacing",
+      "d": "2017-08-01",
+      "m1": "0.543",
+      "m2": "38.374",
+      "m3": "0.957",
+      "m4": "93.28",
+      "m5": "0.3"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "EDVR (woTSA)",
+      "d": null,
+      "m1": "0.524",
+      "m2": "41.017",
+      "m3": "0.964",
+      "m4": "94.43",
+      "m5": "0.6"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "EDVR",
+      "d": null,
+      "m1": "0.492",
+      "m2": "40.678",
+      "m3": "0.962",
+      "m4": "94.01",
+      "m5": "0.6"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "NNEDI",
+      "d": null,
+      "m1": "0.472",
+      "m2": "38.443",
+      "m3": "0.957",
+      "m4": "93.15",
+      "m5": "1.9"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "VapourSynth EEDI3",
+      "d": null,
+      "m1": "0.393",
+      "m2": "38.403",
+      "m3": "0.957",
+      "m4": "92.52",
+      "m5": "51.9"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Muksun Deinterlacer",
+      "d": null,
+      "m1": "0.375",
+      "m2": "35.825",
+      "m3": "0.935",
+      "m4": "86.92",
+      "m5": "2"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "DUF",
+      "d": null,
+      "m1": "0.368",
+      "m2": "39.845",
+      "m3": "0.960",
+      "m4": "93.20",
+      "m5": "0.7"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Bob-Weave Deinterlacer",
+      "d": null,
+      "m1": "0.347",
+      "m2": "39.298",
+      "m3": "0.957",
+      "m4": "93.53",
+      "m5": "46.6"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "TDAN",
+      "d": null,
+      "m1": "0.253",
+      "m2": "38.955",
+      "m3": "0.956",
+      "m4": "91.97",
+      "m5": "0.7"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "VapourSynth TDeintMod",
+      "d": null,
+      "m1": "0.251",
+      "m2": "38.963",
+      "m3": "0.955",
+      "m4": "93.28",
+      "m5": "50.3"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Weston 3-Field Deinterlacer",
+      "d": null,
+      "m1": "0.219",
+      "m2": "38.131",
+      "m3": "0.951",
+      "m4": "92.16",
+      "m5": "36.8"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Sony Vegas Interpolate Field",
+      "d": null,
+      "m1": "0.156",
+      "m2": "37.992",
+      "m3": "0.955",
+      "m4": "90.04",
+      "m5": "3.3"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Bob",
+      "d": null,
+      "m1": "0.118",
+      "m2": "38.009",
+      "m3": "0.955",
+      "m4": "90.04",
+      "m5": "52.8"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Kernel Deinterlacer (optimal parameters)",
+      "d": null,
+      "m1": "0.091",
+      "m2": "37.812",
+      "m3": "0.951",
+      "m4": "90.62",
+      "m5": "37.9"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Kernel Deinterlacer",
+      "d": null,
+      "m1": "0.071",
+      "m2": "37.067",
+      "m3": "0.945",
+      "m4": "90.19",
+      "m5": "37.9"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Motion and Area Pixel Deinterlacer",
+      "d": null,
+      "m2": "36.640",
+      "m3": "0.939",
+      "m4": "88.96",
+      "m5": "2.2"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "ASVZZZ Deinterlacer",
+      "d": null,
+      "m2": "35.825",
+      "m3": "0.935",
+      "m4": "86.92",
+      "m5": "1.9"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "PAL Interpolation",
+      "d": null,
+      "m2": "34.260",
+      "m3": "0.912",
+      "m4": "83.05",
+      "m5": "2.9"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Adobe Premiere Pro Built-In",
+      "d": null,
+      "m2": "32.092",
+      "m3": "0.826",
+      "m4": "57.61",
+      "m5": "6.5"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Motion Compensation Deinterlacer",
+      "d": null,
+      "m2": "30.577",
+      "m3": "0.844",
+      "m4": "64.36",
+      "m5": "1.5"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Sony Vegas Blend Field",
+      "d": null,
+      "m2": "29.683",
+      "m3": "0.868",
+      "m4": "49.49",
+      "m5": "3.5"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

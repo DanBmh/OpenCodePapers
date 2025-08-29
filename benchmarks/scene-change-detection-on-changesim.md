@@ -1,0 +1,67 @@
+# scene-change-detection-on-changesim
+
+[Dataset Link](https://github.com/SAMMiCA/ChangeSim) \
+Task Hierarchy: ['Scene Change Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Category mIoU",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "macro F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[How to Reduce Change Detection to Semantic Segmentation](https://arxiv.org/abs/2206.07557v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/DoctorKey/C-3PO)",
+      "n": "C-3PO",
+      "d": "2022-06-15",
+      "m1": "27.8"
+    },
+    {
+      "p": "[ChangeSim: Towards End-to-End Online Scene Change Detection in Industrial Indoor Environments](https://arxiv.org/abs/2103.05368v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/SAMMiCA/ChangeSim)",
+      "n": "RTABMAP+CSCDNet",
+      "d": "2021-03-09",
+      "m1": "26.1",
+      "m2": "30.6"
+    },
+    {
+      "p": "[ChangeSim: Towards End-to-End Online Scene Change Detection in Industrial Indoor Environments](https://arxiv.org/abs/2103.05368v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/SAMMiCA/ChangeSim)",
+      "n": "RTABMAP+ChangeNet",
+      "d": "2021-03-09",
+      "m1": "23.0",
+      "m2": "29.8"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

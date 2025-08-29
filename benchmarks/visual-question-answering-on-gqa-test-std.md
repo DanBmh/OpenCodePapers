@@ -1,0 +1,88 @@
+# visual-question-answering-on-gqa-test-std
+
+[Dataset Link](https://cs.stanford.edu/people/dorarad/gqa/) \
+Task Hierarchy: ['Visual Question Answering (VQA)']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[ProTo: Program-Guided Transformer for Program-Guided Tasks](https://arxiv.org/abs/2110.00804v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/sjtuytc/Neurips21-ProTo-Program-guided-Transformers-for-Program-guided-Tasks)",
+      "n": "ProTo",
+      "d": "2021-10-02",
+      "m1": "65.14"
+    },
+    {
+      "p": "[Learning by Abstraction: The Neural State Machine](https://arxiv.org/abs/1907.03950v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/stanfordnlp/mac-network)",
+      "n": "NSM",
+      "d": "2019-07-09",
+      "m1": "63.17"
+    },
+    {
+      "p": "[MDETR -- Modulated Detection for End-to-End Multi-Modal Understanding](https://arxiv.org/abs/2104.12763v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/multimodal)",
+      "n": "MDETR-ENB5",
+      "d": "2021-04-26",
+      "m1": "62.45"
+    },
+    {
+      "p": "[LXMERT: Learning Cross-Modality Encoder Representations from Transformers](https://arxiv.org/abs/1908.07490v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "LXMERT",
+      "d": "2019-08-20",
+      "m1": "60.3"
+    },
+    {
+      "p": "[Language-Conditioned Graph Networks for Relational Reasoning](https://arxiv.org/abs/1905.04405v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ronghanghu/lcgn)",
+      "n": "single-hop + LCGN (ours)",
+      "d": "2019-05-10",
+      "m1": "56.1"
+    },
+    {
+      "p": "[GQA: A New Dataset for Real-World Visual Reasoning and Compositional Question Answering](https://arxiv.org/abs/1902.09506v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/stanfordnlp/mac-network)",
+      "n": "MAC",
+      "d": "2019-02-25",
+      "m1": "54.06"
+    },
+    {
+      "p": "[GQA: A New Dataset for Real-World Visual Reasoning and Compositional Question Answering](https://arxiv.org/abs/1902.09506v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/stanfordnlp/mac-network)",
+      "n": "CNN+LSTM",
+      "d": "2019-02-25",
+      "m1": "46.55"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

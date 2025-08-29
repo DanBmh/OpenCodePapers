@@ -1,0 +1,164 @@
+# zero-shot-semantic-segmentation-on-coco-stuff
+
+[Dataset Link](https://github.com/nightrome/cocostuff) \
+Task Hierarchy: ['Zero-Shot Semantic Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Transductive Setting hIoU",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Inductive Setting hIoU",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[OTSeg: Multi-prompt Sinkhorn Attention for Zero-Shot Semantic Segmentation](https://arxiv.org/abs/2403.14183v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/cubeyoung/OTSeg)",
+      "n": "OTSeg+",
+      "d": "2024-03-21",
+      "m1": "49.8",
+      "m2": "41.5"
+    },
+    {
+      "p": "[Exploring Regional Clues in CLIP for Zero-Shot Semantic Segmentation](http://openaccess.thecvf.com//content/CVPR2024/html/Zhang_Exploring_Regional_Clues_in_CLIP_for_Zero-Shot_Semantic_Segmentation_CVPR_2024_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/Jittor/JSeg)",
+      "n": "CLIP-RC",
+      "d": "2024-01-01",
+      "m1": "49.7",
+      "m2": "41.2"
+    },
+    {
+      "p": "[OTSeg: Multi-prompt Sinkhorn Attention for Zero-Shot Semantic Segmentation](https://arxiv.org/abs/2403.14183v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/cubeyoung/OTSeg)",
+      "n": "OTSeg",
+      "d": "2024-03-21",
+      "m1": "49.5",
+      "m2": "41.4"
+    },
+    {
+      "p": "[ZegCLIP: Towards Adapting CLIP for Zero-shot Semantic Segmentation](https://arxiv.org/abs/2212.03588v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/ZiqinZhou66/ZegCLIP)",
+      "n": "ZegCLIP",
+      "d": "2022-12-07",
+      "m1": "48.5",
+      "m2": "40.8"
+    },
+    {
+      "p": "[MVP-SEG: Multi-View Prompt Learning for Open-Vocabulary Semantic Segmentation](https://arxiv.org/abs/2304.06957v1)",
+      "c": "",
+      "n": "MVP-SEG+",
+      "d": "2023-04-14",
+      "m1": "45.5",
+      "m2": "-"
+    },
+    {
+      "p": "[FreeSeg: Free Mask from Interpretable Contrastive Language-Image Pretraining for Semantic Segmentation](https://arxiv.org/abs/2209.13558v2)",
+      "c": "",
+      "n": "FreeSeg",
+      "d": "2022-09-27",
+      "m1": "45.3",
+      "m2": "-"
+    },
+    {
+      "p": "[Extract Free Dense Labels from CLIP](https://arxiv.org/abs/2112.01071v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/chongzhou96/maskclip)",
+      "n": "MaskCLIP+",
+      "d": "2021-12-02",
+      "m1": "45.0",
+      "m2": "-"
+    },
+    {
+      "p": "[A Simple Baseline for Open-Vocabulary Semantic Segmentation with Pre-trained Vision-language Model](https://arxiv.org/abs/2112.14757v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mendelxu/zsseg.baseline)",
+      "n": "zsseg",
+      "d": "2021-12-29",
+      "m1": "41.5",
+      "m2": "36.3"
+    },
+    {
+      "p": "[A Closer Look at Self-training for Zero-Label Semantic Segmentation](https://arxiv.org/abs/2104.11692v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/giuseppepastore10/STRICT)",
+      "n": "STRICT",
+      "d": "2021-04-21",
+      "m1": "34.8",
+      "m2": "-"
+    },
+    {
+      "p": "[Semantic Projection Network for Zero- and Few-Label Semantic Segmentation](http://openaccess.thecvf.com/content_CVPR_2019/html/Xian_Semantic_Projection_Network_for_Zero-_and_Few-Label_Semantic_Segmentation_CVPR_2019_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/subhc/SPNet)",
+      "n": "SPNet",
+      "d": "2019-06-01",
+      "m1": "30.3",
+      "m2": "14.0"
+    },
+    {
+      "p": "[Context-aware Feature Generation for Zero-shot Semantic Segmentation](https://arxiv.org/abs/2008.06893v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/bcmi/CaGNet-Zero-Shot-Semantic-Segmentation)",
+      "n": "CaGNet",
+      "d": "2020-08-16",
+      "m1": "19.5",
+      "m2": "18.2"
+    },
+    {
+      "p": "[Zero-Shot Semantic Segmentation](https://arxiv.org/abs/1906.00817v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/valeoai/ZS3)",
+      "n": "ZS5",
+      "d": "2019-06-03",
+      "m1": "16.2",
+      "m2": "15.0"
+    },
+    {
+      "p": "[Open-Vocabulary Semantic Segmentation with Decoupled One-Pass Network](https://arxiv.org/abs/2304.01198v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/conghan0808/deop)",
+      "n": "DeOP",
+      "d": "2023-04-03",
+      "m1": "-",
+      "m2": "38.2"
+    },
+    {
+      "p": "[Decoupling Zero-Shot Semantic Segmentation](https://arxiv.org/abs/2112.07910v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dingjiansw101/zegformer)",
+      "n": "ZegFormer",
+      "d": "2021-12-15",
+      "m1": "-",
+      "m2": "33.2"
+    },
+    {
+      "p": "[SIGN: Spatial-information Incorporated Generative Network for Generalized Zero-shot Semantic Segmentation](https://arxiv.org/abs/2108.12517v1)",
+      "c": "",
+      "n": "SIGN",
+      "d": "2021-08-27",
+      "m1": "-",
+      "m2": "20.9"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

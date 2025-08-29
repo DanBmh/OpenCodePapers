@@ -1,0 +1,429 @@
+# image-classification-on-flowers-102
+
+[Dataset Link](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/) \
+Task Hierarchy: ['Image Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "FLOPS",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "PARAMS",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Per-Class Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Escaping the Big Data Paradigm with Compact Transformers](https://arxiv.org/abs/2104.05704v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/keras-team/keras-io/blob/master/examples/vision/cct.py)",
+      "n": "CCT-14/7x2",
+      "d": "2021-04-12",
+      "m1": "99.76"
+    },
+    {
+      "p": "[Reduction of Class Activation Uncertainty with Background Information](https://arxiv.org/abs/2305.03238v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/dipuk0506/SpinalNet)",
+      "n": "VIT-L/16 (Background)",
+      "d": "2023-05-05",
+      "m1": "99.75"
+    },
+    {
+      "p": "[CvT: Introducing Convolutions to Vision Transformers](https://arxiv.org/abs/2103.15808v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "CvT-W24",
+      "d": "2021-03-29",
+      "m1": "99.72"
+    },
+    {
+      "p": "[Bamboo: Building Mega-Scale Vision Dataset Continually with Human-Machine Synergy](https://arxiv.org/abs/2203.07845v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhangyuanhan-ai/bamboo)",
+      "n": "Bamboo (ViT-B/16)",
+      "d": "2022-03-15",
+      "m1": "99.7"
+    },
+    {
+      "p": "[An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "",
+      "d": "2020-10-22",
+      "m1": "99.68"
+    },
+    {
+      "p": "[Sharpness-Aware Minimization for Efficiently Improving Generalization](https://arxiv.org/abs/2010.01412v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/davda54/sam)",
+      "n": "EffNet-L2 (SAM)",
+      "d": "2020-10-03",
+      "m1": "99.65%"
+    },
+    {
+      "p": "[Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision](https://arxiv.org/abs/2102.05918v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/metaclip)",
+      "n": "ALIGN",
+      "d": "2021-02-11",
+      "m1": "99.65%"
+    },
+    {
+      "p": "[Big Transfer (BiT): General Visual Representation Learning](https://arxiv.org/abs/1912.11370v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/big_transfer)",
+      "n": "BiT-L (ResNet)",
+      "d": "2019-12-24",
+      "m1": "99.63"
+    },
+    {
+      "p": "[ConvMLP: Hierarchical Convolutional MLPs for Vision](https://arxiv.org/abs/2109.04454v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/BR-IDL/PaddleViT/tree/develop/image_classification)",
+      "n": "ConvMLP-S",
+      "d": "2021-09-09",
+      "m1": "99.5"
+    },
+    {
+      "p": "[ConvMLP: Hierarchical Convolutional MLPs for Vision](https://arxiv.org/abs/2109.04454v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/BR-IDL/PaddleViT/tree/develop/image_classification)",
+      "n": "ConvMLP-L",
+      "d": "2021-09-09",
+      "m1": "99.5"
+    },
+    {
+      "p": "[Effect of Pre-Training Scale on Intra- and Inter-Domain Full and Few-Shot Transfer Learning for Natural and Medical X-Ray Chest Images](https://arxiv.org/abs/2106.00116v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/SLAMPAI/large-scale-pretraining-transfer)",
+      "n": "ResNet-152x4-AGC (ImageNet-21K)",
+      "d": "2021-05-31",
+      "m1": "99.49"
+    },
+    {
+      "p": "[Big Transfer (BiT): General Visual Representation Learning](https://arxiv.org/abs/1912.11370v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/big_transfer)",
+      "n": "BiT-M (ResNet)",
+      "d": "2019-12-24",
+      "m1": "99.30"
+    },
+    {
+      "p": "[SpinalNet: Deep Neural Network with Gradual Input](https://arxiv.org/abs/2007.03347v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/dipuk0506/SpinalNet)",
+      "n": "Wide-ResNet-101 (Spinal FC)",
+      "d": "2020-07-07",
+      "m1": "99.30"
+    },
+    {
+      "p": "[TResNet: High Performance GPU-Dedicated Architecture](https://arxiv.org/abs/2003.13630v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "TResNet-L",
+      "d": "2020-03-30",
+      "m1": "99.1%"
+    },
+    {
+      "p": "[Grafit: Learning fine-grained image representations with coarse labels](https://arxiv.org/abs/2011.12982v1)",
+      "c": "",
+      "n": "Grafit (RegNet-8GF)",
+      "d": "2020-11-25",
+      "m1": "99.1%"
+    },
+    {
+      "p": "[Going deeper with Image Transformers](https://arxiv.org/abs/2103.17239v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "CaiT-M-36 U 224",
+      "d": "2021-03-31",
+      "m1": "99.1"
+    },
+    {
+      "p": "[Domain Adaptive Transfer Learning on Visual Attention Aware Data Augmentation for Fine-grained Visual Categorization](https://arxiv.org/abs/2010.03071v1)",
+      "c": "",
+      "n": "DAT",
+      "d": "2020-10-06",
+      "m1": "98.9%"
+    },
+    {
+      "p": "[EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks](https://arxiv.org/abs/1905.11946v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/ultralytics/yolov5)",
+      "n": "EfficientNet-B7",
+      "d": "2019-05-28",
+      "m1": "98.8%"
+    },
+    {
+      "p": "[EfficientNetV2: Smaller Models and Faster Training](https://arxiv.org/abs/2104.00298v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "EfficientNetV2-L",
+      "d": "2021-04-01",
+      "m1": "98.8"
+    },
+    {
+      "p": "[Global Filter Networks for Image Classification](https://arxiv.org/abs/2107.00645v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/raoyongming/GFNet)",
+      "n": "GFNet-H-B",
+      "d": "2021-07-01",
+      "m1": "98.8",
+      "m3": "54M"
+    },
+    {
+      "p": "[Training data-efficient image transformers & distillation through attention](https://arxiv.org/abs/2012.12877v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "DeiT-B",
+      "d": "2020-12-23",
+      "m1": "98.8%",
+      "m3": "86M"
+    },
+    {
+      "p": "[Incorporating Convolution Designs into Visual Transformers](https://arxiv.org/abs/2103.11816v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rishikksh20/CeiT-pytorch)",
+      "n": "CeiT-S (384 finetune resolution)",
+      "d": "2021-03-22",
+      "m1": "98.6"
+    },
+    {
+      "p": "[EfficientNetV2: Smaller Models and Faster Training](https://arxiv.org/abs/2104.00298v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "EfficientNetV2-M",
+      "d": "2021-04-01",
+      "m1": "98.5"
+    },
+    {
+      "p": "[Three things everyone should know about Vision Transformers](https://arxiv.org/abs/2203.09795v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "ViT-B (attn finetune)",
+      "d": "2022-03-18",
+      "m1": "98.5"
+    },
+    {
+      "p": "[LeViT: a Vision Transformer in ConvNet's Clothing for Faster Inference](https://arxiv.org/abs/2104.01136v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "LeViT-384",
+      "d": "2021-04-02",
+      "m1": "98.3"
+    },
+    {
+      "p": "[Neural Architecture Transfer](https://arxiv.org/abs/2005.05859v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/human-analysis/neural-architecture-transfer)",
+      "n": "NAT-M4",
+      "d": "2020-05-12",
+      "m1": "98.3%",
+      "m2": "400M",
+      "m3": "4.2M"
+    },
+    {
+      "p": "[Effect of Pre-Training Scale on Intra- and Inter-Domain Full and Few-Shot Transfer Learning for Natural and Medical X-Ray Chest Images](https://arxiv.org/abs/2106.00116v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/SLAMPAI/large-scale-pretraining-transfer)",
+      "n": "ResNet-50x1-ACG (ImageNet-21K)",
+      "d": "2021-05-31",
+      "m1": "98.21"
+    },
+    {
+      "p": "[Incorporating Convolution Designs into Visual Transformers](https://arxiv.org/abs/2103.11816v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rishikksh20/CeiT-pytorch)",
+      "n": "CeiT-S",
+      "d": "2021-03-22",
+      "m1": "98.2"
+    },
+    {
+      "p": "[Neural Architecture Transfer](https://arxiv.org/abs/2005.05859v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/human-analysis/neural-architecture-transfer)",
+      "n": "NAT-M3",
+      "d": "2020-05-12",
+      "m1": "98.1%",
+      "m2": "250M",
+      "m3": "3.7M"
+    },
+    {
+      "p": "[ResNet strikes back: An improved training procedure in timm](https://arxiv.org/abs/2110.00476v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "ResNet50 (A1)",
+      "d": "2021-10-01",
+      "m1": "97.9",
+      "m2": "4.1",
+      "m3": "25M"
+    },
+    {
+      "p": "[EfficientNetV2: Smaller Models and Faster Training](https://arxiv.org/abs/2104.00298v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "EfficientNetV2-S",
+      "d": "2021-04-01",
+      "m1": "97.9"
+    },
+    {
+      "p": "[ResMLP: Feedforward networks for image classification with data-efficient training](https://arxiv.org/abs/2105.03404v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "ResMLP24",
+      "d": "2021-05-07",
+      "m1": "97.9"
+    },
+    {
+      "p": "[Neural Architecture Transfer](https://arxiv.org/abs/2005.05859v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/human-analysis/neural-architecture-transfer)",
+      "n": "NAT-M2",
+      "d": "2020-05-12",
+      "m1": "97.9%",
+      "m2": "195M",
+      "m3": "3.4M"
+    },
+    {
+      "p": "[TransBoost: Improving the Best ImageNet Performance using Deep Transduction](https://arxiv.org/abs/2205.13331v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/omerb01/transboost)",
+      "n": "TransBoost-ResNet50",
+      "d": "2022-05-26",
+      "m1": "97.85%"
+    },
+    {
+      "p": "[Incorporating Convolution Designs into Visual Transformers](https://arxiv.org/abs/2103.11816v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rishikksh20/CeiT-pytorch)",
+      "n": "CeiT-T (384 finetune resolution)",
+      "d": "2021-03-22",
+      "m1": "97.8"
+    },
+    {
+      "p": "[LeViT: a Vision Transformer in ConvNet's Clothing for Faster Inference](https://arxiv.org/abs/2104.01136v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "LeViT-192",
+      "d": "2021-04-02",
+      "m1": "97.8"
+    },
+    {
+      "p": "[LeViT: a Vision Transformer in ConvNet's Clothing for Faster Inference](https://arxiv.org/abs/2104.01136v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "LeViT-256",
+      "d": "2021-04-02",
+      "m1": "97.7"
+    },
+    {
+      "p": "[ResMLP: Feedforward networks for image classification with data-efficient training](https://arxiv.org/abs/2105.03404v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "ResMLP12",
+      "d": "2021-05-07",
+      "m1": "97.4"
+    },
+    {
+      "p": "[Classification-Specific Parts for Improving Fine-Grained Visual Categorization](https://arxiv.org/abs/1909.07075v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/DiKorsch/l1_parts)",
+      "n": "CS-Parts",
+      "d": "2019-09-16",
+      "m1": "96.9%"
+    },
+    {
+      "p": "[Incorporating Convolution Designs into Visual Transformers](https://arxiv.org/abs/2103.11816v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rishikksh20/CeiT-pytorch)",
+      "n": "CeiT-T",
+      "d": "2021-03-22",
+      "m1": "96.9"
+    },
+    {
+      "p": "[LeViT: a Vision Transformer in ConvNet's Clothing for Faster Inference](https://arxiv.org/abs/2104.01136v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "LeViT-128S",
+      "d": "2021-04-02",
+      "m1": "96.8"
+    },
+    {
+      "p": "[Vision Models Are More Robust And Fair When Pretrained On Uncurated Images Without Supervision](https://arxiv.org/abs/2202.08360v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/vissl)",
+      "n": "SEER (RegNet10B)",
+      "d": "2022-02-16",
+      "m1": "96.3"
+    },
+    {
+      "p": "[With a Little Help from My Friends: Nearest-Neighbor Contrastive Learning of Visual Representations](https://arxiv.org/abs/2104.14548v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/lightly-ai/lightly)",
+      "n": "NNCLR",
+      "d": "2021-04-29",
+      "m1": "95.1"
+    },
+    {
+      "p": "[When Vision Transformers Outperform ResNets without Pre-training or Strong Data Augmentations](https://arxiv.org/abs/2106.01548v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/vision_transformer)",
+      "n": "ViT-B/16- SAM",
+      "d": "2021-06-03",
+      "m1": "91.8"
+    },
+    {
+      "p": "[When Vision Transformers Outperform ResNets without Pre-training or Strong Data Augmentations](https://arxiv.org/abs/2106.01548v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/vision_transformer)",
+      "n": "ViT-S/16- SAM",
+      "d": "2021-06-03",
+      "m1": "91.5"
+    },
+    {
+      "p": "[When Vision Transformers Outperform ResNets without Pre-training or Strong Data Augmentations](https://arxiv.org/abs/2106.01548v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/vision_transformer)",
+      "n": "ResNet-152-SAM",
+      "d": "2021-06-03",
+      "m1": "91.1"
+    },
+    {
+      "p": "[When Vision Transformers Outperform ResNets without Pre-training or Strong Data Augmentations](https://arxiv.org/abs/2106.01548v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/vision_transformer)",
+      "n": "ResNet-50-SAM",
+      "d": "2021-06-03",
+      "m1": "90"
+    },
+    {
+      "p": "[When Vision Transformers Outperform ResNets without Pre-training or Strong Data Augmentations](https://arxiv.org/abs/2106.01548v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/vision_transformer)",
+      "n": "Mixer-B/16- SAM",
+      "d": "2021-06-03",
+      "m1": "90"
+    },
+    {
+      "p": "[Linear Attention with Global Context: A Multipole Attention Mechanism for Vision and Physics](https://arxiv.org/abs/2507.02748v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/AlexColagrande/MANO)",
+      "n": "MANO-tiny",
+      "d": "2025-07-03",
+      "m1": "89.00"
+    },
+    {
+      "p": "[When Vision Transformers Outperform ResNets without Pre-training or Strong Data Augmentations](https://arxiv.org/abs/2106.01548v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/vision_transformer)",
+      "n": "Mixer-S/16- SAM",
+      "d": "2021-06-03",
+      "m1": "87.9"
+    },
+    {
+      "p": "[Your Diffusion Model is Secretly a Zero-Shot Classifier](https://arxiv.org/abs/2303.16203v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/diffusion-classifier/diffusion-classifier)",
+      "n": "Diffusion Classifier (zero-shot)",
+      "d": "2023-03-28",
+      "m4": "66.3"
+    },
+    {
+      "p": "[Neural Architecture Transfer](https://arxiv.org/abs/2005.05859v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/human-analysis/neural-architecture-transfer)",
+      "n": "NAT-M1",
+      "d": "2020-05-12",
+      "m2": "152M",
+      "m3": "3.3M"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

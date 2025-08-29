@@ -1,0 +1,246 @@
+# image-clustering-on-imagenet-dog-15
+
+[Dataset Link]() \
+Task Hierarchy: ['Image Clustering']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "NMI",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "ARI",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Backbone",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "Image Size",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Contrastive Tuning: A Little Help to Make Masked Autoencoders Forget](https://arxiv.org/abs/2304.10520v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ml-jku/mae-ct)",
+      "n": "MAE-CT (best)",
+      "d": "2023-04-20",
+      "m1": "0.943",
+      "m2": "0.904",
+      "m3": "0.879",
+      "m4": "ViT-H/16",
+      "m5": "224"
+    },
+    {
+      "p": "[Contrastive Tuning: A Little Help to Make Masked Autoencoders Forget](https://arxiv.org/abs/2304.10520v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ml-jku/mae-ct)",
+      "n": "MAE-CT (mean)",
+      "d": "2023-04-20",
+      "m1": "0.874",
+      "m2": "0.882",
+      "m3": "0.821",
+      "m4": "ViT-H/16",
+      "m5": "224"
+    },
+    {
+      "p": "[Exploring a Principled Framework for Deep Subspace Clustering](https://arxiv.org/abs/2503.17288v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/mengxianghan123/PRO-DSC)",
+      "n": "PRO-DSC",
+      "d": "2025-03-21",
+      "m1": "0.840",
+      "m2": "0.812"
+    },
+    {
+      "p": "[Learning Representation for Clustering via Prototype Scattering and Positive Sampling](https://arxiv.org/abs/2111.11821v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/hzzone/propos)",
+      "n": "ProPos*",
+      "d": "2021-11-23",
+      "m1": "0.775",
+      "m2": "0.737",
+      "m3": "0.675",
+      "m4": "ResNet-34",
+      "m5": "224"
+    },
+    {
+      "p": "[Learning Representation for Clustering via Prototype Scattering and Positive Sampling](https://arxiv.org/abs/2111.11821v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/hzzone/propos)",
+      "n": "ProPos",
+      "d": "2021-11-23",
+      "m1": "0.745",
+      "m2": "0.692",
+      "m3": "0.627",
+      "m4": "ResNet-34",
+      "m5": "96"
+    },
+    {
+      "p": "[Deep Online Probability Aggregation Clustering](https://arxiv.org/abs/2407.05246v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/aomandechenai/deep-probability-aggregation-clustering)",
+      "n": "DPAC",
+      "d": "2024-07-07",
+      "m1": "0.726",
+      "m2": "0.667",
+      "m3": "0.598",
+      "m4": "ResNet-34"
+    },
+    {
+      "p": "[Representation Learning for Clustering via Building Consensus](https://arxiv.org/abs/2105.01289v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/JayanthRR/ConCURL_NCE)",
+      "n": "ConCURL",
+      "d": "2021-05-04",
+      "m1": "0.695",
+      "m2": "0.63",
+      "m3": "0.531"
+    },
+    {
+      "p": "[SPICE: Semantic Pseudo-labeling for Image Clustering](https://arxiv.org/abs/2103.09382v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/niuchuangnn/SPICE)",
+      "n": "SPICE",
+      "d": "2021-03-17",
+      "m1": "0.675",
+      "m2": "0.627",
+      "m3": "0.526",
+      "m4": "ResNet-34"
+    },
+    {
+      "p": "[Twin Contrastive Learning for Online Clustering](https://arxiv.org/abs/2210.11680v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Yunfan-Li/Twin-Contrastive-Learning)",
+      "n": "TCL",
+      "d": "2022-10-21",
+      "m1": "0.644",
+      "m2": "0.623",
+      "m3": "0.516"
+    },
+    {
+      "p": "[Clustering-friendly Representation Learning via Instance Discrimination and Feature Decorrelation](https://arxiv.org/abs/2106.00131v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/TTN-YKK/Clustering_friendly_representation_learning)",
+      "n": "IDFD",
+      "d": "2021-05-31",
+      "m1": "0.591",
+      "m2": "0.546",
+      "m3": "0.413",
+      "m5": "96"
+    },
+    {
+      "p": "[MiCE: Mixture of Contrastive Experts for Unsupervised Image Clustering](https://arxiv.org/abs/2105.01899v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/TsungWeiTsai/MiCE)",
+      "n": "MiCE",
+      "d": "2021-05-05",
+      "m1": "0.439",
+      "m2": "0.423",
+      "m3": "0.286",
+      "m5": "96"
+    },
+    {
+      "p": "[C3: Cross-instance guided Contrastive Clustering](https://arxiv.org/abs/2211.07136v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/Armanfard-Lab/C3)",
+      "n": "C3",
+      "d": "2022-11-14",
+      "m1": "0.434",
+      "m2": "0.448",
+      "m3": "0.28"
+    },
+    {
+      "p": "[Contrastive Clustering](https://arxiv.org/abs/2009.09687v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Yunfan-Li/Contrastive-Clustering)",
+      "n": "CC",
+      "d": "2020-09-21",
+      "m1": "0.429",
+      "m2": "0.445",
+      "m3": "0.274",
+      "m5": "224"
+    },
+    {
+      "p": "[Deep Comprehensive Correlation Mining for Image Clustering](https://arxiv.org/abs/1904.06925v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Cory-M/DCCM)",
+      "n": "DCCM",
+      "d": "2019-04-15",
+      "m1": "0.383",
+      "m2": "0.321"
+    },
+    {
+      "p": "[Contrastive Hierarchical Clustering](https://arxiv.org/abs/2303.03389v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/michalznalezniak/contrastive-hierarchical-clustering)",
+      "n": "CoHiClust",
+      "d": "2023-03-03",
+      "m1": "0.355",
+      "m2": "0.411",
+      "m3": "0.232",
+      "m4": "ResNet-50"
+    },
+    {
+      "p": "[Deep Adaptive Image Clustering](http://openaccess.thecvf.com/content_iccv_2017/html/Chang_Deep_Adaptive_Image_ICCV_2017_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/vector-1127/DAC)",
+      "n": "DAC",
+      "d": "2017-10-01",
+      "m1": "0.275",
+      "m2": "0.219"
+    },
+    {
+      "p": "[Unsupervised Deep Embedding for Clustering Analysis](http://arxiv.org/abs/1511.06335v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/piiswrong/dec)",
+      "n": "DEC",
+      "d": "2015-11-19",
+      "m1": "0.195",
+      "m2": "0.122"
+    },
+    {
+      "p": "[Auto-Encoding Variational Bayes](http://arxiv.org/abs/1312.6114v10)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/recommenders)",
+      "n": "VAE",
+      "d": "2013-12-20",
+      "m1": "0.179",
+      "m2": "0.107"
+    },
+    {
+      "p": "[Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](http://arxiv.org/abs/1511.06434v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/blob/master/research/slim/nets/dcgan.py)",
+      "n": "GAN",
+      "d": "2015-11-19",
+      "m1": "0.174",
+      "m2": "0.121"
+    },
+    {
+      "p": "[Joint Unsupervised Learning of Deep Representations and Image Clusters](http://arxiv.org/abs/1604.03628v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/jwyang/jule.torch)",
+      "n": "JULE",
+      "d": "2016-04-13",
+      "m1": "0.138",
+      "m2": "0.054"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,106 @@
+# image-reconstruction-on-ultra-high-resolution
+
+[Dataset Link](https://github.com/MKJia/UHDBench) \
+Task Hierarchy: ['Image Reconstruction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "rFID",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "SSIM",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "LPIPS",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[High-Resolution Image Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2112.10752v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/compvis/stable-diffusion)",
+      "n": "SD-VAE (16x16)",
+      "d": "2021-12-20",
+      "m1": "1.07",
+      "m2": "26.86"
+    },
+    {
+      "p": "[MGVQ: Could VQ-VAE Beat VAE? A Generalizable Tokenizer with Multi-group Quantization](https://arxiv.org/abs/2507.07997)",
+      "c": "[&check;&nbsp;Link](https://github.com/MKJia/MGVQ)",
+      "n": "MGVQ (16x16x4)",
+      "d": "2025-07-14",
+      "m1": "1.59",
+      "m2": "28.27",
+      "m3": "0.844",
+      "m4": "0.092"
+    },
+    {
+      "p": "[Open-MAGVIT2: An Open-Source Project Toward Democratizing Auto-regressive Visual Generation](https://arxiv.org/abs/2409.04410v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tencentarc/open-magvit2)",
+      "n": "Open-Magvit2 (16x16)",
+      "d": "2024-09-06",
+      "m1": "4.18",
+      "m2": "23.91"
+    },
+    {
+      "p": "[Autoregressive Model Beats Diffusion: Llama for Scalable Image Generation](https://arxiv.org/abs/2406.06525v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/foundationvision/llamagen)",
+      "n": "LlamaGen (16x16)",
+      "d": "2024-06-10",
+      "m1": "5.59",
+      "m2": "23.90",
+      "m3": "0.720",
+      "m4": "0.177"
+    },
+    {
+      "p": "[Taming Transformers for High-Resolution Image Synthesis](https://arxiv.org/abs/2012.09841v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/CompVis/taming-transformers)",
+      "n": "VQGAN (16x16)",
+      "d": "2020-12-17",
+      "m1": "5.95",
+      "m2": "22.91"
+    },
+    {
+      "p": "[Visual Autoregressive Modeling: Scalable Image Generation via Next-Scale Prediction](https://arxiv.org/abs/2404.02905v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/FoundationVision/VAR)",
+      "n": "VAR (16x16)",
+      "d": "2024-04-03",
+      "m1": "9.85",
+      "m2": "21.79"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

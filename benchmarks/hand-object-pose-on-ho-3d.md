@@ -1,0 +1,158 @@
+# hand-object-pose-on-ho-3d
+
+[Dataset Link](https://www.tugraz.at/institute/icg/research/team-lepetit/research-projects/hand-object-3d-pose-annotation/) \
+Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', '6D Pose Estimation', 'hand-object pose']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "ST-MPJPE",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Average MPJPE (mm)",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "PA-MPJPE",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "OME",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "ADD-S",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[HOISDF: Constraining 3D Hand-Object Pose Estimation with Global Signed Distance Fields](https://arxiv.org/abs/2402.17062v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/amathislab/hoisdf)",
+      "n": "HOISDF",
+      "d": "2024-02-26",
+      "m1": "18.3",
+      "m2": "19.0",
+      "m3": "9.2",
+      "m4": "35.5",
+      "m5": "14.4"
+    },
+    {
+      "p": "[Interacting Hand-Object Pose Estimation via Dense Mutual Attention](https://arxiv.org/abs/2211.08805v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/rongakowang/densemutualattention)",
+      "n": "DMA",
+      "d": "2022-11-16",
+      "m1": "23.8",
+      "m2": "22.2",
+      "m3": "10.1",
+      "m4": "45.5",
+      "m5": "20.8"
+    },
+    {
+      "p": "[ArtiBoost: Boosting Articulated 3D Hand-Object Pose Estimation via Online Exploration and Synthesis](https://arxiv.org/abs/2109.05488v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mvig-sjtu/artiboost)",
+      "n": "ArtiBoost",
+      "d": "2021-09-12",
+      "m1": "25.3",
+      "m2": "26.3",
+      "m3": "11.4",
+      "m4": "-",
+      "m5": "-"
+    },
+    {
+      "p": "[Keypoint Transformer: Solving Joint Identification in Challenging Hands and Object Interactions for Accurate 3D Pose Estimation](https://arxiv.org/abs/2104.14639v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/shreyashampali/kypt_transformer)",
+      "n": "Keypoint-Trans",
+      "d": "2021-04-29",
+      "m1": "25.7",
+      "m2": "25.5",
+      "m3": "10.8",
+      "m4": "68.0",
+      "m5": "21.4"
+    },
+    {
+      "p": "[Towards unconstrained joint hand-object reconstruction from RGB videos](https://arxiv.org/abs/2108.07044v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/hassony2/homan)",
+      "n": "HOR",
+      "d": "2021-08-16",
+      "m1": "26.8",
+      "m2": "-",
+      "m3": "12.0",
+      "m4": "80.0",
+      "m5": "40.0"
+    },
+    {
+      "p": "[Harmonious Feature Learning for Interactive Hand-Object Pose Estimation](http://openaccess.thecvf.com//content/CVPR2023/html/Lin_Harmonious_Feature_Learning_for_Interactive_Hand-Object_Pose_Estimation_CVPR_2023_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/lzfff12/hfl-net)",
+      "n": "HFL-Net",
+      "d": "2023-01-01",
+      "m1": "28.4",
+      "m2": "28.9",
+      "m3": "8.9",
+      "m4": "64.3",
+      "m5": "32.4"
+    },
+    {
+      "p": "[Semi-Supervised 3D Hand-Object Poses Estimation with Interactions in Time](https://arxiv.org/abs/2106.05266v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/stevenlsw/Semi-Hand-Object)",
+      "n": "SHO",
+      "d": "2021-06-09",
+      "m1": "31.7",
+      "m2": "-",
+      "m3": "10.1",
+      "m4": "-",
+      "m5": "-"
+    },
+    {
+      "p": "[Learning joint reconstruction of hands and manipulated objects](http://arxiv.org/abs/1904.05767v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/hassony2/manopth)",
+      "n": "HMO",
+      "d": "2019-04-11",
+      "m1": "31.8",
+      "m2": "-",
+      "m3": "11.0",
+      "m4": "-",
+      "m5": "-"
+    },
+    {
+      "p": "[Leveraging Photometric Consistency over Time for Sparsely Supervised Hand-Object Reconstruction](https://arxiv.org/abs/2004.13449v1)",
+      "c": "",
+      "n": "PCTHO",
+      "d": "2020-04-28",
+      "m1": "36.9",
+      "m2": "-",
+      "m3": "11.4",
+      "m4": "67.0",
+      "m5": "22.0"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

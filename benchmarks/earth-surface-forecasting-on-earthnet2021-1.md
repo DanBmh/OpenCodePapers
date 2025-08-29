@@ -1,0 +1,81 @@
+# earth-surface-forecasting-on-earthnet2021-1
+
+[Dataset Link](https://www.earthnet.tech/docs/ds-download/) \
+Task Hierarchy: ['Video Prediction', 'Earth Surface Forecasting']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "EarthNetScore",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[EarthNet2021: A large-scale dataset and challenge for Earth surface forecasting as a guided video prediction task](https://arxiv.org/abs/2104.10066v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/earthnet2021/earthnet-model-intercomparison-suite)",
+      "n": "Persistence Baseline",
+      "d": "2021-04-16",
+      "m1": "0.2676"
+    },
+    {
+      "p": "[Understanding the Role of Weather Data for Earth Surface Forecasting using a ConvLSTM-based Model](https://openaccess.thecvf.com/content/CVPR2022W/EarthVision/papers/Diaconu_Understanding_the_Role_of_Weather_Data_for_Earth_Surface_Forecasting_CVPRW_2022_paper.pdf)",
+      "c": "[&check;&nbsp;Link](https://github.com/dcodrut/weather2land)",
+      "n": "Diaconu ConvLSTM",
+      "d": "2022-06-20",
+      "m1": "0.2193"
+    },
+    {
+      "p": "[Deep learning for satellite image forecasting of vegetation greenness](https://www.biorxiv.org/content/10.1101/2022.08.16.504173v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/rudolfwilliam/satellite_image_forecasting)",
+      "n": "SGConvLSTM",
+      "d": "2022-08-17",
+      "m1": "0.2162"
+    },
+    {
+      "p": "[EarthNet2021: A large-scale dataset and challenge for Earth surface forecasting as a guided video prediction task](https://arxiv.org/abs/2104.10066v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/earthnet2021/earthnet-model-intercomparison-suite)",
+      "n": "Channel-U-Net Baseline",
+      "d": "2021-04-16",
+      "m1": "0.1955"
+    },
+    {
+      "p": "[Deep learning for satellite image forecasting of vegetation greenness](https://www.biorxiv.org/content/10.1101/2022.08.16.504173v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/rudolfwilliam/satellite_image_forecasting)",
+      "n": "SGEDConvLSTM",
+      "d": "2022-08-17",
+      "m1": "0.1790"
+    },
+    {
+      "p": "[EarthNet2021: A large-scale dataset and challenge for Earth surface forecasting as a guided video prediction task](https://arxiv.org/abs/2104.10066v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/earthnet2021/earthnet-model-intercomparison-suite)",
+      "n": "Arcon Baseline",
+      "d": "2021-04-16",
+      "m1": "0.1587"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

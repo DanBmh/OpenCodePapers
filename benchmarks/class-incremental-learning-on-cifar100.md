@@ -1,0 +1,88 @@
+# class-incremental-learning-on-cifar100
+
+[Dataset Link](https://www.cs.toronto.edu/~kriz/cifar.html) \
+Task Hierarchy: ['Class Incremental Learning']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "10-stage average accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Split-and-Bridge: Adaptable Class Incremental Learning within a Single Neural Network](https://arxiv.org/abs/2107.01349v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/bigdata-inha/Split-and-Bridge)",
+      "n": "S&B",
+      "d": "2021-07-03",
+      "m1": "68.18"
+    },
+    {
+      "p": "[Supervised Contrastive Learning](https://arxiv.org/abs/2004.11362v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research/tree/master/supcon)",
+      "n": "SCR",
+      "d": "2020-04-23",
+      "m1": "65.98"
+    },
+    {
+      "p": "[iCaRL: Incremental Classifier and Representation Learning](http://arxiv.org/abs/1611.07725v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ContinualAI/avalanche)",
+      "n": "iCaRL",
+      "d": "2016-11-23",
+      "m1": "63.24"
+    },
+    {
+      "p": "[Learning a Unified Classifier Incrementally via Rebalancing](http://openaccess.thecvf.com/content_CVPR_2019/html/Hou_Learning_a_Unified_Classifier_Incrementally_via_Rebalancing_CVPR_2019_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/aimagelab/mammoth)",
+      "n": "LUCIR",
+      "d": "2019-06-01",
+      "m1": "56.53"
+    },
+    {
+      "p": "[Always Be Dreaming: A New Approach for Data-Free Class-Incremental Learning](https://arxiv.org/abs/2106.09701v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/GT-RIPL/AlwaysBeDreaming-DFCIL)",
+      "n": "ABD",
+      "d": "2021-06-17",
+      "m1": "54.44"
+    },
+    {
+      "p": "[On Tiny Episodic Memories in Continual Learning](https://arxiv.org/abs/1902.10486v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/ContinualAI/avalanche)",
+      "n": "EMR",
+      "d": "2019-02-27",
+      "m1": "48.66"
+    },
+    {
+      "p": "[Efficient Lifelong Learning with A-GEM](http://arxiv.org/abs/1812.00420v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ContinualAI/avalanche)",
+      "n": "A-GEM",
+      "d": "2018-12-02",
+      "m1": "45.76"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,130 @@
+# video-prediction-on-human36m
+
+[Dataset Link](http://vision.imar.ro/human3.6m/description.php) \
+Task Hierarchy: ['Video Prediction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "SSIM",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "MSE",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "MAE",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Implicit Stacked Autoregressive Model for Video Prediction](https://arxiv.org/abs/2303.07849v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/seominseok0429/Implicit-Stacked-Autoregressive-Model-for-Video-Prediction)",
+      "n": "IAM4VP",
+      "d": "2023-03-14",
+      "m1": "0.942",
+      "m2": "126",
+      "m3": "1120"
+    },
+    {
+      "p": "[SwinLSTM: Improving Spatiotemporal Prediction Accuracy using Swin Transformer and LSTM](http://openaccess.thecvf.com//content/ICCV2023/html/Tang_SwinLSTM_Improving_Spatiotemporal_Prediction_Accuracy_using_Swin_Transformer_and_LSTM_ICCV_2023_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/SongTang-x/SwinLSTM)",
+      "n": "SwinLSTM",
+      "d": "2023-01-01",
+      "m1": " 0.913",
+      "m2": "332",
+      "m3": "1190"
+    },
+    {
+      "p": "[Fast Fourier Inception Networks for Occluded Video Prediction](https://arxiv.org/abs/2306.10346v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/mlvccn/research)",
+      "n": "FFINet",
+      "d": "2023-06-17",
+      "m1": "0.912",
+      "m2": "233",
+      "m3": "1190"
+    },
+    {
+      "p": "[SimVP: Simpler yet Better Video Prediction](https://arxiv.org/abs/2206.05099v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/chengtan9907/simvpv2)",
+      "n": "SimVP",
+      "d": "2022-06-09",
+      "m1": "0.904",
+      "m2": "316",
+      "m3": "1510"
+    },
+    {
+      "p": "[Disentangling Physical Dynamics from Unknown Factors for Unsupervised Video Prediction](https://arxiv.org/abs/2003.01460v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/chengtan9907/simvpv2)",
+      "n": "PhyDNet",
+      "d": "2020-03-03",
+      "m1": "0.901",
+      "m2": "369",
+      "m3": "1620"
+    },
+    {
+      "p": "[Eidetic 3D LSTM: A Model for Video Prediction and Beyond](https://openreview.net/forum?id=B1lKS2AqtX)",
+      "c": "[&check;&nbsp;Link](https://github.com/chengtan9907/simvpv2)",
+      "n": "E3D-LSTM",
+      "d": "2019-05-01",
+      "m1": "0.869",
+      "m2": "464",
+      "m3": "1660"
+    },
+    {
+      "p": "[Memory In Memory: A Predictive Neural Network for Learning Higher-Order Non-Stationarity from Spatiotemporal Dynamics](http://arxiv.org/abs/1811.07490v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/chengtan9907/simvpv2)",
+      "n": "MIM",
+      "d": "2018-11-19",
+      "m1": "0.790",
+      "m2": "429.9",
+      "m3": "1782.8"
+    },
+    {
+      "p": "[PredRNN: Recurrent Neural Networks for Predictive Learning using Spatiotemporal LSTMs](http://papers.nips.cc/paper/6689-predrnn-recurrent-neural-networks-for-predictive-learning-using-spatiotemporal-lstms)",
+      "c": "",
+      "n": "PredRNN",
+      "d": "2017-12-01",
+      "m1": "0.781",
+      "m2": "484.1",
+      "m3": "1895.2"
+    },
+    {
+      "p": "[Folded Recurrent Neural Networks for Future Video Prediction](http://arxiv.org/abs/1712.00311v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/moliusimon/frnn)",
+      "n": "FRNN",
+      "d": "2017-12-01",
+      "m1": "0.771",
+      "m2": "497.7",
+      "m3": "1901.1"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

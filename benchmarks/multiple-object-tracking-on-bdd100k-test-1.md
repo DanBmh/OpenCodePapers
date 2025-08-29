@@ -1,0 +1,92 @@
+# multiple-object-tracking-on-bdd100k-test-1
+
+[Dataset Link](https://www.bdd100k.com/) \
+Task Hierarchy: ['Multiple Object Tracking']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mMOTA",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "mHOTA",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "mIDF1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Contrastive Learning for Multi-Object Tracking with Transformers](https://arxiv.org/abs/2311.08043v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/pfdp0/ContrasTR)",
+      "n": "ContrasTR",
+      "d": "2023-11-14",
+      "m1": "42.8",
+      "m2": "46.1",
+      "m3": "56.5"
+    },
+    {
+      "p": "[Unifying Short and Long-Term Tracking with Graph Hierarchies](https://arxiv.org/abs/2212.03038v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dvl-tum/SUSHI)",
+      "n": "SUSHI",
+      "d": "2022-12-06",
+      "m1": "40.2",
+      "m2": "48.2",
+      "m3": "60.0"
+    },
+    {
+      "p": "[ByteTrack: Multi-Object Tracking by Associating Every Detection Box](https://arxiv.org/abs/2110.06864v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleDetection/tree/release/2.3/configs/mot)",
+      "n": "ByteTrack",
+      "d": "2021-10-13",
+      "m1": "40.1",
+      "m3": "55.8"
+    },
+    {
+      "p": "[QDTrack: Quasi-Dense Similarity Learning for Appearance-Only Multiple Object Tracking](https://arxiv.org/abs/2210.06984v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/SysCV/qdtrack)",
+      "n": "QDtrack",
+      "d": "2022-10-12",
+      "m1": "35.6",
+      "m2": "41.8",
+      "m3": "52.3"
+    },
+    {
+      "p": "[BDD100K: A Diverse Driving Dataset for Heterogeneous Multitask Learning](https://arxiv.org/abs/1805.04687v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/bdd100k/bdd100k)",
+      "n": "Yu et al.",
+      "d": "2018-05-12",
+      "m1": "26.3 ",
+      "m3": "44.7"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

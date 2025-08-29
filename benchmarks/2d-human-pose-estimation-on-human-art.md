@@ -1,0 +1,127 @@
+# 2d-human-pose-estimation-on-human-art
+
+[Dataset Link](https://idea-research.github.io/HumanArt/) \
+Task Hierarchy: ['2D Human Pose Estimation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AP",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "AP (gt bbox)",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Validation AP",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[X-Pose: Detecting Any Keypoints](https://arxiv.org/abs/2310.08530v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/idea-research/x-pose)",
+      "n": "UniPose",
+      "d": "2023-10-12",
+      "m1": "0.759"
+    },
+    {
+      "p": "[Explicit Box Detection Unifies End-to-End Multi-Person Pose Estimation](https://arxiv.org/abs/2302.01593v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/idea-research/ed-pose)",
+      "n": "ED-Pose (R50)",
+      "d": "2023-02-03",
+      "m1": "0.723",
+      "m2": "/"
+    },
+    {
+      "p": "[ViTPose: Simple Vision Transformer Baselines for Human Pose Estimation](https://arxiv.org/abs/2204.12484v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "ViTPose-h",
+      "d": "2022-04-26",
+      "m1": "0.468",
+      "m2": "0.800"
+    },
+    {
+      "p": "[ViTPose: Simple Vision Transformer Baselines for Human Pose Estimation](https://arxiv.org/abs/2204.12484v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "ViTPose-l",
+      "d": "2022-04-26",
+      "m1": "0.459",
+      "m2": "0.789"
+    },
+    {
+      "p": "[Deep High-Resolution Representation Learning for Human Pose Estimation](http://arxiv.org/abs/1902.09212v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection)",
+      "n": "HRNet-w48",
+      "d": "2019-02-25",
+      "m1": "0.417",
+      "m2": "0.769"
+    },
+    {
+      "p": "[ViTPose: Simple Vision Transformer Baselines for Human Pose Estimation](https://arxiv.org/abs/2204.12484v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "ViTpose-b",
+      "d": "2022-04-26",
+      "m1": "0.410",
+      "m2": "0.759"
+    },
+    {
+      "p": "[Deep High-Resolution Representation Learning for Human Pose Estimation](http://arxiv.org/abs/1902.09212v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection)",
+      "n": "HRNet-w32",
+      "d": "2019-02-25",
+      "m1": "0.399",
+      "m2": "0.754"
+    },
+    {
+      "p": "[ViTPose: Simple Vision Transformer Baselines for Human Pose Estimation](https://arxiv.org/abs/2204.12484v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "ViTPose-s",
+      "d": "2022-04-26",
+      "m1": "0.381",
+      "m2": "0.738"
+    },
+    {
+      "p": "[RTMPose: Real-Time Multi-Person Pose Estimation based on MMPose](https://arxiv.org/abs/2303.07399v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmpose)",
+      "n": "RTMPose-s",
+      "d": "2023-03-13",
+      "m1": "0.311"
+    },
+    {
+      "p": "[RTMPose: Real-Time Multi-Person Pose Estimation based on MMPose](https://arxiv.org/abs/2303.07399v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmpose)",
+      "n": "RTMPose-l",
+      "d": "2023-03-13",
+      "m2": "0.753",
+      "m3": "83.5"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,67 @@
+# ms-ssim-on-docunet
+
+[Dataset Link](https://www3.cs.stonybrook.edu/~cvl/docunet.html) \
+Task Hierarchy: ['Document Layout Analysis', 'MS-SSIM']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "MS-SSIM",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[DewarpNet: Single-Image Document Unwarping With Stacked 3D and 2D Regression Networks](http://openaccess.thecvf.com/content_ICCV_2019/html/Das_DewarpNet_Single-Image_Document_Unwarping_With_Stacked_3D_and_2D_Regression_ICCV_2019_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/cvlab-stonybrook/DewarpNet)",
+      "n": "DewarpNet",
+      "d": "2019-10-01",
+      "m1": "0.47"
+    },
+    {
+      "p": "[RectiNet-v2: A stacked network architecture for document image dewarping](https://arxiv.org/abs/2102.01120v1)",
+      "c": "",
+      "n": "RectiNet-v2",
+      "d": "2021-02-01",
+      "m1": "0.45"
+    },
+    {
+      "p": "[A Gated and Bifurcated Stacked U-Net Module for Document Image Dewarping](https://arxiv.org/abs/2007.09824v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/DVLP-CMATERJU/RectiNet)",
+      "n": "RectiNet",
+      "d": "2020-07-20",
+      "m1": "0.415"
+    },
+    {
+      "p": "[DocUNet: Document Image Unwarping via a Stacked U-Net](http://openaccess.thecvf.com/content_cvpr_2018/html/Ma_DocUNet_Document_Image_CVPR_2018_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/teresasun/docUnet.pytorch)",
+      "n": "DocUNet",
+      "d": "2018-06-01",
+      "m1": "0.41"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

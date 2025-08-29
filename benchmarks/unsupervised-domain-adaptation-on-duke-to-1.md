@@ -1,0 +1,182 @@
+# unsupervised-domain-adaptation-on-duke-to-1
+
+[Dataset Link]() \
+Task Hierarchy: ['Unsupervised Domain Adaptation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mAP",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "rank-1",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "rank-5",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "rank-10",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[CORE-ReID: Comprehensive Optimization and Refinement through Ensemble Fusion in Domain Adaptation for Person Re-Identification](https://www.mdpi.com/2674-113X/3/2/12)",
+      "c": "[&check;&nbsp;Link](https://github.com/TrinhQuocNguyen/CORE-ReID)",
+      "n": "CORE-ReID",
+      "d": "2024-06-03",
+      "m1": "45.2",
+      "m2": "72.2",
+      "m3": "82.9",
+      "m4": "86.3"
+    },
+    {
+      "p": "[Unsupervised and self-adaptative techniques for cross-domain person re-identification](https://arxiv.org/abs/2103.11520v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Gabrielcb/Unsupervised_selfAdaptative_ReID)",
+      "n": "CCTSE",
+      "d": "2021-03-21",
+      "m1": "34.5",
+      "m2": "63.9",
+      "m3": "75.3",
+      "m4": "79.6"
+    },
+    {
+      "p": "[Attentive WaveBlock: Complementarity-enhanced Mutual Networks for Unsupervised Domain Adaptation in Person Re-identification and Beyond](https://arxiv.org/abs/2006.06525v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/WangWenhao0716/Attentive-WaveBlock)",
+      "n": "AWB",
+      "d": "2020-06-11",
+      "m1": "30.7",
+      "m2": "62.7",
+      "m3": "74.5",
+      "m4": "79.0"
+    },
+    {
+      "p": "[Self-paced Contrastive Learning with Hybrid Memory for Domain Adaptive Object Re-ID](https://arxiv.org/abs/2006.02713v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/OpenUnReID)",
+      "n": "SpCL",
+      "d": "2020-06-04",
+      "m1": "26.5",
+      "m2": "53.1",
+      "m3": "65.8",
+      "m4": "70.5"
+    },
+    {
+      "p": "[Structured Domain Adaptation with Online Relation Regularization for Unsupervised Person Re-ID](https://arxiv.org/abs/2003.06650v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yxgeee/VisDA-ECCV20)",
+      "n": "SDA",
+      "d": "2020-03-14",
+      "m1": "25.6",
+      "m2": "54.4",
+      "m3": "66.4",
+      "m4": "71.3"
+    },
+    {
+      "p": "[Mutual Mean-Teaching: Pseudo Label Refinery for Unsupervised Domain Adaptation on Person Re-identification](https://arxiv.org/abs/2001.01526v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/thuml/Transfer-Learning-Library)",
+      "n": "MMT",
+      "d": "2020-01-06",
+      "m1": "23.3",
+      "m2": "50.1",
+      "m3": "63.9",
+      "m4": "69.8"
+    },
+    {
+      "p": "[Unsupervised Person Re-identification via Multi-label Classification](https://arxiv.org/abs/2004.09228v1)",
+      "c": "",
+      "n": "MMCL",
+      "d": "2020-04-20",
+      "m1": "16.2",
+      "m2": "43.6",
+      "m3": "54.3",
+      "m4": "58.9"
+    },
+    {
+      "p": "[Learning to Adapt Invariance in Memory for Person Re-identification](https://arxiv.org/abs/1908.00485v1)",
+      "c": "",
+      "n": "ECN++",
+      "d": "2019-08-01",
+      "m1": "16.0",
+      "m2": "42.5",
+      "m3": "55.9",
+      "m4": "61.5"
+    },
+    {
+      "p": "[Self-similarity Grouping: A Simple Unsupervised Cross Domain Adaptation Approach for Person Re-identification](https://arxiv.org/abs/1811.10144v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/OasisYang/SSG)",
+      "n": "SSG",
+      "d": "2018-11-26",
+      "m1": "13.3",
+      "m2": "32.2",
+      "m3": "-",
+      "m4": "51.2"
+    },
+    {
+      "p": "[Invariance Matters: Exemplar Memory for Domain Adaptive Person Re-identification](http://arxiv.org/abs/1904.01990v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhunzhong07/ECN)",
+      "n": "ECN",
+      "d": "2019-04-03",
+      "m1": "10.2",
+      "m2": "30.2",
+      "m3": "41.5",
+      "m4": "46.8"
+    },
+    {
+      "p": "[Joint Discriminative and Generative Learning for Person Re-identification](https://arxiv.org/abs/1904.07223v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/layumi/Person_reID_baseline_pytorch)",
+      "n": "DG-Net",
+      "d": "2019-04-15",
+      "m1": "6.35",
+      "m2": "20.59",
+      "m3": "31.67",
+      "m4": "37.04"
+    },
+    {
+      "p": "[Person Transfer GAN to Bridge Domain Gap for Person Re-Identification](http://arxiv.org/abs/1711.08565v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/yxgeee/MMT)",
+      "n": "PTGAN",
+      "d": "2017-11-23",
+      "m1": "3.3",
+      "m2": "11.8",
+      "m3": "-",
+      "m4": "27.4"
+    },
+    {
+      "p": "[Parameter-Efficient Person Re-identification in the 3D Space](https://arxiv.org/abs/2006.04569v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/layumi/person-reid-3d)",
+      "n": "OG-Net",
+      "d": "2020-06-08",
+      "m1": "1.9",
+      "m2": "6.8"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

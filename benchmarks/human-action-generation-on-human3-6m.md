@@ -1,0 +1,84 @@
+# human-action-generation-on-human3-6m
+
+[Dataset Link](http://vision.imar.ro/human3.6m/description.php) \
+Task Hierarchy: ['Human action generation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "MMDa",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "MMDs",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Generative Adversarial Graph Convolutional Networks for Human Action Synthesis](https://arxiv.org/abs/2110.11191v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/degardinbruno/kinetic-gan)",
+      "n": "Kinetic-GAN",
+      "d": "2021-10-21",
+      "m1": "0.071",
+      "m2": "0.082"
+    },
+    {
+      "p": "[Structure-Aware Human-Action Generation](https://arxiv.org/abs/2007.01971v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/PingYu-iris/SA-GCN)",
+      "n": "SA-GCN",
+      "d": "2020-07-04",
+      "m1": "0.146",
+      "m2": "0.134"
+    },
+    {
+      "p": "[Conditional Generative Adversarial Nets](https://arxiv.org/abs/1411.1784v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/tree/main/Conditional_Generative_Adversarial_Nets)",
+      "n": "c-GAN",
+      "d": "2014-11-06",
+      "m1": "0.161",
+      "m2": "0.187"
+    },
+    {
+      "p": "[Learning Diverse Stochastic Human-Action Generators by Learning Smooth Latent Transitions](https://arxiv.org/abs/1912.10150v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zheshiyige/Learning-Diverse-Stochastic-Human-Action-Generators-by-Learning-Smooth-Latent-Transitions)",
+      "n": "Learning Diverse Stochastic Human-Action Generators by Learning Smooth Latent Transitions",
+      "d": "2019-12-21",
+      "m1": "0.195",
+      "m2": "0.218"
+    },
+    {
+      "p": "[Deep Video Generation, Prediction and Completion of Human Action Sequences](http://arxiv.org/abs/1711.08682v3)",
+      "c": "",
+      "n": "Deep Video Generation, Prediction and Completion of Human Action Sequences",
+      "d": "2017-11-23",
+      "m1": "0.419",
+      "m2": "0.436"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

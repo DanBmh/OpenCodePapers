@@ -1,0 +1,81 @@
+# classification-on-n-imagenet-mini
+
+[Dataset Link](https://github.com/82magnolia/n_imagenet) \
+Task Hierarchy: ['Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy (%)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[N-ImageNet: Towards Robust, Fine-Grained Object Recognition with Event Cameras](https://arxiv.org/abs/2112.01041v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/82magnolia/n_imagenet)",
+      "n": "Event Imge",
+      "d": "2021-12-02",
+      "m1": "61.42"
+    },
+    {
+      "p": "[N-ImageNet: Towards Robust, Fine-Grained Object Recognition with Event Cameras](https://arxiv.org/abs/2112.01041v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/82magnolia/n_imagenet)",
+      "n": "Event Histogram",
+      "d": "2021-12-02",
+      "m1": "61.02"
+    },
+    {
+      "p": "[N-ImageNet: Towards Robust, Fine-Grained Object Recognition with Event Cameras](https://arxiv.org/abs/2112.01041v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/82magnolia/n_imagenet)",
+      "n": "Timestamp Image",
+      "d": "2021-12-02",
+      "m1": "60.46"
+    },
+    {
+      "p": "[N-ImageNet: Towards Robust, Fine-Grained Object Recognition with Event Cameras](https://arxiv.org/abs/2112.01041v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/82magnolia/n_imagenet)",
+      "n": "DiST",
+      "d": "2021-12-02",
+      "m1": "59.74"
+    },
+    {
+      "p": "[N-ImageNet: Towards Robust, Fine-Grained Object Recognition with Event Cameras](https://arxiv.org/abs/2112.01041v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/82magnolia/n_imagenet)",
+      "n": "Sorted Time Surface",
+      "d": "2021-12-02",
+      "m1": "58.38"
+    },
+    {
+      "p": "[N-ImageNet: Towards Robust, Fine-Grained Object Recognition with Event Cameras](https://arxiv.org/abs/2112.01041v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/82magnolia/n_imagenet)",
+      "n": "Binary Event Image",
+      "d": "2021-12-02",
+      "m1": "53.52"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

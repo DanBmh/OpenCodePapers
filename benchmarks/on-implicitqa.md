@@ -1,0 +1,100 @@
+# on-implicitqa
+
+[Dataset Link](https://huggingface.co/datasets/ucf-crcv/ImplicitQA) \
+Task Hierarchy: ['']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Average Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Macro Average Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[ImplicitQA: Going beyond frames towards Implicit Video Reasoning](https://arxiv.org/abs/2506.21742v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/UCF-CRCV/ImplicitQA)",
+      "n": "GPT O3",
+      "d": "2025-06-26",
+      "m1": "64.1",
+      "m2": "68.6"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "GPT 4.1",
+      "d": null,
+      "m1": "54.3",
+      "m2": "58.6"
+    },
+    {
+      "p": "[Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution](https://arxiv.org/abs/2409.12191v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/qwenlm/qwen2-vl)",
+      "n": "Qwen2 VL - 7B",
+      "d": "2024-09-18",
+      "m1": "44.9",
+      "m2": "46.0"
+    },
+    {
+      "p": "[LLaVA-OneVision: Easy Visual Task Transfer](https://arxiv.org/abs/2408.03326v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/evolvinglmms-lab/lmms-eval)",
+      "n": "LLaVA-OneVision - 7B",
+      "d": "2024-08-06",
+      "m1": "43.4",
+      "m2": "46.4"
+    },
+    {
+      "p": "[Qwen2.5-VL Technical Report](https://arxiv.org/abs/2502.13923v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/qwenlm/qwen2-vl)",
+      "n": "Qwen 2.5 VL - 7B",
+      "d": "2025-02-19",
+      "m1": "42.8",
+      "m2": "46.1"
+    },
+    {
+      "p": "[Video Instruction Tuning With Synthetic Data](https://arxiv.org/abs/2410.02713v2)",
+      "c": "",
+      "n": "LLaVA-Video - 7B",
+      "d": "2024-10-03",
+      "m1": "42.1",
+      "m2": "46.3"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "LLaVA-Next-Video - 7B",
+      "d": null,
+      "m1": "33.9",
+      "m2": "37.5"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

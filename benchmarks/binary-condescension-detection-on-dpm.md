@@ -1,0 +1,74 @@
+# binary-condescension-detection-on-dpm
+
+[Dataset Link]() \
+Task Hierarchy: ['Binary Condescension Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "F1-score",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[PALI-NLP at SemEval-2022 Task 4: Discriminative Fine-tuning of Transformers for Patronizing and Condescending Language Detection](https://arxiv.org/abs/2203.04616v2)",
+      "c": "",
+      "n": "BERT-PCL",
+      "d": "2022-03-09",
+      "m1": "63.69"
+    },
+    {
+      "p": "[BEIKE NLP at SemEval-2022 Task 4: Prompt-Based Paragraph Classification for Patronizing and Condescending Language Detection](https://arxiv.org/abs/2208.01312v1)",
+      "c": "",
+      "n": "Prompt",
+      "d": "2022-08-02",
+      "m1": "61.9"
+    },
+    {
+      "p": "[DH-FBK at SemEval-2022 Task 4: Leveraging Annotators\u2019 Disagreement and Multiple Data Views for Patronizing Language Detection](https://aclanthology.org/2022.semeval-1.42)",
+      "c": "[&check;&nbsp;Link](https://github.com/dhfbk/pcl-detection-disagreement)",
+      "n": "MTMW (UNC+SPAN)",
+      "d": null,
+      "m1": "57.89"
+    },
+    {
+      "p": "[AliEdalat at SemEval-2022 Task 4: Patronizing and Condescending Language Detection using Fine-tuned Language Models, BERT+BiGRU, and Ensemble Models](https://aclanthology.org/2022.semeval-1.51)",
+      "c": "[&check;&nbsp;Link](https://github.com/aliedalat/semeval-2022-task-4-pcl-detection)",
+      "n": "ensemble model (BigBird and MPNet)",
+      "d": null,
+      "m1": "55.1"
+    },
+    {
+      "p": "[SemEval-2022 Task 4: Patronizing and Condescending Language Detection](https://aclanthology.org/2022.semeval-1.38)",
+      "c": "",
+      "n": "RoBERTa Baseline",
+      "d": null,
+      "m1": "49.1"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

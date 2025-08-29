@@ -1,0 +1,184 @@
+# zero-shot-composed-image-retrieval-zs-cir-on-6
+
+[Dataset Link](https://github.com/hendrycks/imagenet-r) \
+Task Hierarchy: ['Composed Image Retrieval (CoIR)', 'Zero-Shot Composed Image Retrieval (ZS-CIR)']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "(Recall@10+Recall@50)/2",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "mAP",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[MagicLens: Self-Supervised Image Retrieval with Open-Ended Instructions](https://arxiv.org/abs/2403.19651v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-deepmind/magiclens)",
+      "n": "MagicLens (CoCa L)",
+      "d": "2024-03-28",
+      "m1": "52.95"
+    },
+    {
+      "p": "[MagicLens: Self-Supervised Image Retrieval with Open-Ended Instructions](https://arxiv.org/abs/2403.19651v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-deepmind/magiclens)",
+      "n": "MagicLens (CoCa B)",
+      "d": "2024-03-28",
+      "m1": "51.75"
+    },
+    {
+      "p": "[MagicLens: Self-Supervised Image Retrieval with Open-Ended Instructions](https://arxiv.org/abs/2403.19651v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-deepmind/magiclens)",
+      "n": "MagicLens (CLIP L)",
+      "d": "2024-03-28",
+      "m1": "48"
+    },
+    {
+      "p": "[MagicLens: Self-Supervised Image Retrieval with Open-Ended Instructions](https://arxiv.org/abs/2403.19651v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-deepmind/magiclens)",
+      "n": "MagicLens (CLIP B)",
+      "d": "2024-03-28",
+      "m1": "36.4"
+    },
+    {
+      "p": "[iSEARLE: Improving Textual Inversion for Zero-Shot Composed Image Retrieval](https://arxiv.org/abs/2405.02951v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/miccunifi/searle)",
+      "n": "iSEARLE-XL (CLIP L/14)",
+      "d": "2024-05-05",
+      "m1": "24.46"
+    },
+    {
+      "p": "[Language-only Efficient Training of Zero-shot Composed Image Retrieval](https://arxiv.org/abs/2312.01998v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/navervision/lincir)",
+      "n": "LinCIR (CLIP L/14)",
+      "d": "2023-12-04",
+      "m1": "21.64"
+    },
+    {
+      "p": "[Zero-Shot Composed Image Retrieval with Textual Inversion](https://arxiv.org/abs/2303.15247v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/miccunifi/searle)",
+      "n": "SEARLE-XL (CLIP L/14)",
+      "d": "2023-03-27",
+      "m1": "21.54"
+    },
+    {
+      "p": "[Zero-Shot Composed Image Retrieval with Textual Inversion](https://arxiv.org/abs/2303.15247v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/miccunifi/searle)",
+      "n": "SEARLE-XL-OTI (CLIP B/32)",
+      "d": "2023-03-27",
+      "m1": "20.42"
+    },
+    {
+      "p": "[Context-I2W: Mapping Images to Context-dependent Words for Accurate Zero-Shot Composed Image Retrieval](https://arxiv.org/abs/2309.16137v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/pter61/context-i2w)",
+      "n": "Context-I2W",
+      "d": "2023-09-28",
+      "m1": "20.25"
+    },
+    {
+      "p": "[Pic2Word: Mapping Pictures to Words for Zero-shot Composed Image Retrieval](https://arxiv.org/abs/2302.03084v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/composed_image_retrieval)",
+      "n": "Pic2Word",
+      "d": "2023-02-06",
+      "m1": "16.65"
+    },
+    {
+      "p": "[iSEARLE: Improving Textual Inversion for Zero-Shot Composed Image Retrieval](https://arxiv.org/abs/2405.02951v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/miccunifi/searle)",
+      "n": "iSEARLE (CLIP B/32)",
+      "d": "2024-05-05",
+      "m1": "16.01"
+    },
+    {
+      "p": "[iSEARLE: Improving Textual Inversion for Zero-Shot Composed Image Retrieval](https://arxiv.org/abs/2405.02951v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/miccunifi/searle)",
+      "n": "iSEARLE-OTI (CLIP B/32)",
+      "d": "2024-05-05",
+      "m1": "15.62"
+    },
+    {
+      "p": "[Zero-Shot Composed Image Retrieval with Textual Inversion](https://arxiv.org/abs/2303.15247v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/miccunifi/searle)",
+      "n": "SEARLE-OTI (CLIP B/32)",
+      "d": "2023-03-27",
+      "m1": "12.77"
+    },
+    {
+      "p": "[Zero-Shot Composed Image Retrieval with Textual Inversion](https://arxiv.org/abs/2303.15247v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/miccunifi/searle)",
+      "n": "SEARLE (CLIP B/32)",
+      "d": "2023-03-27",
+      "m1": "11.94"
+    },
+    {
+      "p": "[Composed Image Retrieval for Training-Free Domain Conversion](https://arxiv.org/abs/2412.03297v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nikosefth/freedom)",
+      "n": "FreeDom (CLIP-L/14)",
+      "d": "2024-12-04",
+      "m2": "29.91"
+    },
+    {
+      "p": "[Composed Image Retrieval for Training-Free Domain Conversion](https://arxiv.org/abs/2412.03297v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nikosefth/freedom)",
+      "n": "SEARLE (CLIP-L/14)",
+      "d": "2024-12-04",
+      "m2": "14.04"
+    },
+    {
+      "p": "[Composed Image Retrieval for Training-Free Domain Conversion](https://arxiv.org/abs/2412.03297v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nikosefth/freedom)",
+      "n": "CompoDiff (CLIP-L/14)",
+      "d": "2024-12-04",
+      "m2": "12.88"
+    },
+    {
+      "p": "[Composed Image Retrieval for Training-Free Domain Conversion](https://arxiv.org/abs/2412.03297v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nikosefth/freedom)",
+      "n": "WeiCom (CLIP-L/14)",
+      "d": "2024-12-04",
+      "m2": "10.47"
+    },
+    {
+      "p": "[Composed Image Retrieval for Training-Free Domain Conversion](https://arxiv.org/abs/2412.03297v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nikosefth/freedom)",
+      "n": "MagicLens (CLIP-L/14)",
+      "d": "2024-12-04",
+      "m2": "9.13"
+    },
+    {
+      "p": "[Composed Image Retrieval for Training-Free Domain Conversion](https://arxiv.org/abs/2412.03297v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nikosefth/freedom)",
+      "n": "Pic2Word (CLIP-L/14)",
+      "d": "2024-12-04",
+      "m2": "7.88"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,75 @@
+# image-quality-assessment-on-koniq-10k
+
+[Dataset Link](http://database.mmsp-kn.de/koniq-10k-database.html) \
+Task Hierarchy: ['Image Quality Assessment']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "SRCC",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "PLCC",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Next Token Is Enough: Realistic Image Quality and Aesthetic Scoring with Multimodal Large Language Model](https://arxiv.org/abs/2503.06141v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/AMAP-ML/RealQA)",
+      "n": "RealQA",
+      "d": "2025-03-08",
+      "m1": "0.948",
+      "m2": "0.959"
+    },
+    {
+      "p": "[Q-Align: Teaching LMMs for Visual Scoring via Discrete Text-Defined Levels](https://arxiv.org/abs/2312.17090v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/q-future/q-align)",
+      "n": "OneAlign",
+      "d": "2023-12-28",
+      "m1": "0.941",
+      "m2": "0.952"
+    },
+    {
+      "p": "[You Only Train Once: A Unified Framework for Both Full-Reference and No-Reference Image Quality Assessment](https://arxiv.org/abs/2310.09560v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/barcodereader/yoto)",
+      "n": "UNIQA",
+      "d": "2023-10-14",
+      "m1": "0.926",
+      "m2": "0.938"
+    },
+    {
+      "p": "[KonIQ-10k: Towards an ecologically valid and large-scale IQA database](http://arxiv.org/abs/1803.08489v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/subpic/koniq)",
+      "n": "KonCept512",
+      "d": "2018-03-22",
+      "m1": "0.921"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

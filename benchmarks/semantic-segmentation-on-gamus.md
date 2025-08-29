@@ -1,0 +1,81 @@
+# semantic-segmentation-on-gamus
+
+[Dataset Link]() \
+Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mIoU",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[GAMUS: A Geometry-aware Multi-modal Semantic Segmentation Benchmark for Remote Sensing Data](https://arxiv.org/abs/2305.14914v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/earthnets/rsi-mmsegmentation)",
+      "n": "TIMF",
+      "d": "2023-05-24",
+      "m1": "76.38"
+    },
+    {
+      "p": "[CMX: Cross-Modal Fusion for RGB-X Semantic Segmentation with Transformers](https://arxiv.org/abs/2203.04838v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/huaaaliu/rgbx_semantic_segmentation)",
+      "n": "CMX",
+      "d": "2022-03-09",
+      "m1": "75.23"
+    },
+    {
+      "p": "[Variational Context-Deformable ConvNets for Indoor Scene Parsing](http://openaccess.thecvf.com/content_CVPR_2020/html/Xiong_Variational_Context-Deformable_ConvNets_for_Indoor_Scene_Parsing_CVPR_2020_paper.html)",
+      "c": "",
+      "n": "VCD",
+      "d": "2020-06-01",
+      "m1": "59.70"
+    },
+    {
+      "p": "[RTFNet: RGB-Thermal Fusion Network for Semantic Segmentation of Urban Scenes](https://ieeexplore.ieee.org/abstract/document/8666745)",
+      "c": "[&check;&nbsp;Link](https://github.com/yuxiangsun/RTFNet)",
+      "n": "RTFNet",
+      "d": "2019-03-13",
+      "m1": "58.26"
+    },
+    {
+      "p": "[ShapeConv: Shape-aware Convolutional Layer for Indoor RGB-D Semantic Segmentation](https://arxiv.org/abs/2108.10528v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/hanchaoleng/shapeconv)",
+      "n": "ShapeConv",
+      "d": "2021-08-24",
+      "m1": "55.86"
+    },
+    {
+      "p": "[MFNet: Towards real-time semantic segmentation for autonomous vehicles with multi-spectral scenes](https://ieeexplore.ieee.org/abstract/document/8206396)",
+      "c": "",
+      "n": "MFNet",
+      "d": "2017-12-14",
+      "m1": "52.73"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

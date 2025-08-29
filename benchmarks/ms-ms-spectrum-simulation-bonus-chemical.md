@@ -1,0 +1,85 @@
+# ms-ms-spectrum-simulation-bonus-chemical
+
+[Dataset Link](https://github.com/pluskal-lab/MassSpecGym) \
+Task Hierarchy: ['MS/MS spectrum simulation (bonus chemical formulae)']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Hit Rate @ 1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Hit Rate @ 5",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Hit Rate @ 20",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[MassSpecGym: A benchmark for the discovery and identification of molecules](https://arxiv.org/abs/2410.23326v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/pluskal-lab/massspecgym)",
+      "n": "FraGNNet",
+      "d": "2024-10-30",
+      "m1": "31.93",
+      "m2": "63.20",
+      "m3": "82.70"
+    },
+    {
+      "p": "[MassSpecGym: A benchmark for the discovery and identification of molecules](https://arxiv.org/abs/2410.23326v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/pluskal-lab/massspecgym)",
+      "n": "FFN Fingerprint",
+      "d": "2024-10-30",
+      "m1": "7.62",
+      "m2": "22.70",
+      "m3": "44.12"
+    },
+    {
+      "p": "[MassSpecGym: A benchmark for the discovery and identification of molecules](https://arxiv.org/abs/2410.23326v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/pluskal-lab/massspecgym)",
+      "n": "GNN",
+      "d": "2024-10-30",
+      "m1": "3.63",
+      "m2": "13.55",
+      "m3": "33.77"
+    },
+    {
+      "p": "[MassSpecGym: A benchmark for the discovery and identification of molecules](https://arxiv.org/abs/2410.23326v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/pluskal-lab/massspecgym)",
+      "n": "Precursor m/z",
+      "d": "2024-10-30",
+      "m1": "2.09",
+      "m2": "8.52",
+      "m3": "22.65"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

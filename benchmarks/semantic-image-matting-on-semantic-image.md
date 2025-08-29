@@ -1,0 +1,94 @@
+# semantic-image-matting-on-semantic-image
+
+[Dataset Link]() \
+Task Hierarchy: ['Image Matting', 'Semantic Image Matting']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Conn",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Grad",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "MSE(10^3)",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "SAD",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Semantic Image Matting](https://arxiv.org/abs/2104.08201v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nowsyn/SIM)",
+      "n": "SIM",
+      "d": "2021-04-16",
+      "m1": "20.83",
+      "m2": "11.57",
+      "m3": "4.7",
+      "m4": "27.87"
+    },
+    {
+      "p": "[Natural Image Matting via Guided Contextual Attention](https://arxiv.org/abs/2001.04069v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Yaoyi-Li/GCA-Matting)",
+      "n": "GCA",
+      "d": "2020-01-13",
+      "m1": "36.03",
+      "m2": "28.70",
+      "m3": "11.0",
+      "m4": "39.28"
+    },
+    {
+      "p": "[Deep Image Matting](http://arxiv.org/abs/1703.03872v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleSeg)",
+      "n": "DIM",
+      "d": "2017-03-10",
+      "m1": "46.26",
+      "m2": "31.67",
+      "m3": "15.0",
+      "m4": "48.07"
+    },
+    {
+      "p": "[Indices Matter: Learning to Index for Deep Image Matting](https://arxiv.org/abs/1908.00672v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/poppinace/indexnet_matting)",
+      "n": "IndexNet",
+      "d": "2019-08-02",
+      "m1": "48.77",
+      "m2": "34.19",
+      "m3": "14.0",
+      "m4": "51.29"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

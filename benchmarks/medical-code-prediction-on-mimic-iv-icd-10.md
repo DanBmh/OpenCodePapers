@@ -1,0 +1,169 @@
+# medical-code-prediction-on-mimic-iv-icd-10
+
+[Dataset Link](https://github.com/JoakimEdin/medical-coding-reproducibility) \
+Task Hierarchy: ['Multi-Label Classification', 'Medical Code Prediction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Precision@8",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "F1 Macro",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "F1 Micro",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Precision@15",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "R-Prec",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "mAP",
+      "sortable": "true"
+    },
+    {
+      "key": "m7",
+      "label": "Exact Match Ratio",
+      "sortable": "true"
+    },
+    {
+      "key": "m8",
+      "label": "AUC Macro",
+      "sortable": "true"
+    },
+    {
+      "key": "m9",
+      "label": "AUC Micro",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Automated Medical Coding on MIMIC-III and MIMIC-IV: A Critical Review and Replicability Study](https://arxiv.org/abs/2304.10909v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/joakimedin/medical-coding-reproducibility)",
+      "n": "PLM-ICD",
+      "d": "2023-04-21",
+      "m1": "69.9",
+      "m2": "21.1",
+      "m3": "58.5",
+      "m4": "55.0",
+      "m5": "57.9",
+      "m6": "61.9",
+      "m7": "0.4",
+      "m8": "96.6",
+      "m9": "99.2"
+    },
+    {
+      "p": "[Automated Medical Coding on MIMIC-III and MIMIC-IV: A Critical Review and Replicability Study](https://arxiv.org/abs/2304.10909v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/joakimedin/medical-coding-reproducibility)",
+      "n": "LAAT",
+      "d": "2023-04-21",
+      "m1": "68.9",
+      "m2": "20.3",
+      "m3": "57.9",
+      "m4": "54.3",
+      "m5": "57.2",
+      "m6": "60.6",
+      "m7": "0.4",
+      "m8": "95.4",
+      "m9": "99.0"
+    },
+    {
+      "p": "[Automated Medical Coding on MIMIC-III and MIMIC-IV: A Critical Review and Replicability Study](https://arxiv.org/abs/2304.10909v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/joakimedin/medical-coding-reproducibility)",
+      "n": "MultiResCNN",
+      "d": "2023-04-21",
+      "m1": "67.8",
+      "m2": "21.1",
+      "m3": "56.9",
+      "m4": "53.5",
+      "m5": "56.1",
+      "m6": "59.3",
+      "m7": "0.4",
+      "m8": "94.5",
+      "m9": "99.0"
+    },
+    {
+      "p": "[Automated Medical Coding on MIMIC-III and MIMIC-IV: A Critical Review and Replicability Study](https://arxiv.org/abs/2304.10909v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/joakimedin/medical-coding-reproducibility)",
+      "n": "CAML",
+      "d": "2023-04-21",
+      "m1": "66.8",
+      "m2": "16.0",
+      "m3": "55.4",
+      "m4": "52.2",
+      "m5": "54.5",
+      "m6": "57.4",
+      "m7": "0.3",
+      "m8": "91.1",
+      "m9": "98.5"
+    },
+    {
+      "p": "[Automated Medical Coding on MIMIC-III and MIMIC-IV: A Critical Review and Replicability Study](https://arxiv.org/abs/2304.10909v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/joakimedin/medical-coding-reproducibility)",
+      "n": "Bi-GRU",
+      "d": "2023-04-21",
+      "m1": "62.6",
+      "m2": "10.6",
+      "m3": "50.1",
+      "m4": "47.7",
+      "m5": "49.6",
+      "m6": "51.1",
+      "m7": "0.3",
+      "m8": "92.4",
+      "m9": "98.3"
+    },
+    {
+      "p": "[Automated Medical Coding on MIMIC-III and MIMIC-IV: A Critical Review and Replicability Study](https://arxiv.org/abs/2304.10909v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/joakimedin/medical-coding-reproducibility)",
+      "n": "CNN",
+      "d": "2023-04-21",
+      "m1": "60.3",
+      "m2": "8.0",
+      "m3": "47.2",
+      "m4": "45.7",
+      "m5": "47.3",
+      "m6": "48.2",
+      "m7": "0.3",
+      "m8": "87.9",
+      "m9": "97.5"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

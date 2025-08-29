@@ -1,0 +1,67 @@
+# image-denoising-on-urban100-sigma50
+
+[Dataset Link](https://github.com/jbhuang0604/SelfExSR) \
+Task Hierarchy: ['3D Architecture', 'Denoising', 'Image Denoising']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[MaIR: A Locality- and Continuity-Preserving Mamba for Image Restoration](https://arxiv.org/abs/2412.20066v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/XLearning-SCU/2025-CVPR-MaIR)",
+      "n": "MaIR+",
+      "d": "2024-12-28",
+      "m1": "30.41"
+    },
+    {
+      "p": "[MaIR: A Locality- and Continuity-Preserving Mamba for Image Restoration](https://arxiv.org/abs/2412.20066v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/XLearning-SCU/2025-CVPR-MaIR)",
+      "n": "MaIR",
+      "d": "2024-12-28",
+      "m1": "30.3"
+    },
+    {
+      "p": "[Practical Blind Image Denoising via Swin-Conv-UNet and Data Synthesis](https://arxiv.org/abs/2203.13278v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/cszn/scunet)",
+      "n": "SCUNet SCUNet",
+      "d": "2022-03-24",
+      "m1": "30.14"
+    },
+    {
+      "p": "[AKDT: Adaptive Kernel Dilation Transformer for Effective Image Denoising](https://www.insticc.org/node/TechnicalProgram/VISIGRAPP/2025/presentationDetails/131577)",
+      "c": "[&check;&nbsp;Link](https://github.com/albrateanu/AKDT)",
+      "n": "AKDT",
+      "d": "2025-02-26",
+      "m1": "29.82"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

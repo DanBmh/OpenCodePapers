@@ -1,0 +1,170 @@
+# 3d-human-reconstruction-on-agora-1
+
+[Dataset Link](https://agora.is.tue.mpg.de) \
+Task Hierarchy: ['Reconstruction', '3D Human Reconstruction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "FB-NMVE",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "B-NMVE",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "FB-NMJE",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "B-NMJE",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "FB-MVE",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "B-MVE",
+      "sortable": "true"
+    },
+    {
+      "key": "m7",
+      "label": "F-MVE",
+      "sortable": "true"
+    },
+    {
+      "key": "m8",
+      "label": "LH/RH-MVE",
+      "sortable": "true"
+    },
+    {
+      "key": "m9",
+      "label": "FB-MPJPE",
+      "sortable": "true"
+    },
+    {
+      "key": "m10",
+      "label": "B-MPJPE",
+      "sortable": "true"
+    },
+    {
+      "key": "m11",
+      "label": "F-MPJPE",
+      "sortable": "true"
+    },
+    {
+      "key": "m12",
+      "label": "LH/RH-MPJPE",
+      "sortable": "true"
+    },
+    {
+      "key": "m13",
+      "label": "PA-MPVPE",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[HybrIK-X: Hybrid Analytical-Neural Inverse Kinematics for Whole-body Mesh Recovery](https://arxiv.org/abs/2304.05690v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jeffffffli/HybrIK)",
+      "n": "HybrIK-X",
+      "d": "2023-04-12",
+      "m1": "120.5",
+      "m3": "115.7",
+      "m5": "112.1",
+      "m9": "107.6"
+    },
+    {
+      "p": "[Coherent Reconstruction of Multiple Humans from a Single Image](https://arxiv.org/abs/2006.08586v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/JiangWenPL/multiperson)",
+      "n": "PIXIE",
+      "d": "2020-06-15",
+      "m1": "233.9",
+      "m2": "173.4",
+      "m3": "230.9",
+      "m4": "171.1",
+      "m5": "191.8",
+      "m6": "142.2",
+      "m7": "50.2",
+      "m8": "49.5/49.0",
+      "m9": "189.3",
+      "m10": "140.3",
+      "m11": "54.5",
+      "m12": "46.4/46.0"
+    },
+    {
+      "p": "[Monocular Expressive Body Regression through Body-Driven Attention](https://arxiv.org/abs/2008.09062v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/vchoutas/expose)",
+      "n": "ExPose",
+      "d": "2020-08-20",
+      "m1": "265.0",
+      "m2": "184.8",
+      "m3": "263.3",
+      "m4": "183.4",
+      "m5": "217.3",
+      "m6": "151.5",
+      "m7": "51.1",
+      "m8": "74.9/71.3",
+      "m9": "215.9",
+      "m10": "150.4",
+      "m11": "55.2",
+      "m12": "72.5/68.8"
+    },
+    {
+      "p": "[Expressive Body Capture: 3D Hands, Face, and Body from a Single Image](http://arxiv.org/abs/1904.05866v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/vchoutas/smplify-x)",
+      "n": "SMPLify-X",
+      "d": "2019-04-11",
+      "m1": "333.1",
+      "m2": "263.3",
+      "m3": "326.5",
+      "m4": "256.5",
+      "m5": "236.5",
+      "m6": "187.0",
+      "m7": "48.9",
+      "m8": "48.3/51.4",
+      "m9": "231.8",
+      "m10": "182.1",
+      "m11": "52.9",
+      "m12": "46.5/49.6"
+    },
+    {
+      "p": "[Accurate 3D Hand Pose Estimation for Whole-Body 3D Human Mesh Estimation](https://arxiv.org/abs/2011.11534v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/mks0601/Hand4Whole_RELEASE)",
+      "n": "Hand4Whole",
+      "d": "2020-11-23",
+      "m13": "73.2"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,76 @@
+# image-deblurring-on-imagenet
+
+[Dataset Link](https://image-net.org/index.php) \
+Task Hierarchy: ['16k', 'Image Deblurring']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "FID",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "SSIM",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Zero-Shot Image Restoration Using Denoising Diffusion Null-Space Model](https://arxiv.org/abs/2212.00490v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/wyhuai/ddnm)",
+      "n": "DDNM",
+      "d": "2022-12-01",
+      "m1": "1.15",
+      "m2": "44.93",
+      "m3": "0.994"
+    },
+    {
+      "p": "[Zero-Shot Image Restoration Using Denoising Diffusion Null-Space Model](https://arxiv.org/abs/2212.00490v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/wyhuai/ddnm)",
+      "n": "DDRM",
+      "d": "2022-12-01",
+      "m1": "1.48",
+      "m2": "43.01",
+      "m3": "0.992"
+    },
+    {
+      "p": "[Zero-Shot Image Restoration Using Denoising Diffusion Null-Space Model](https://arxiv.org/abs/2212.00490v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/wyhuai/ddnm)",
+      "n": "A+y",
+      "d": "2022-12-01",
+      "m1": "55.42",
+      "m2": "18.56",
+      "m3": "0.6616"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

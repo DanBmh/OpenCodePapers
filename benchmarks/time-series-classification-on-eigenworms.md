@@ -1,0 +1,95 @@
+# time-series-classification-on-eigenworms
+
+[Dataset Link](http://www.timeseriesclassification.com/description.php?Dataset=EigenWorms) \
+Task Hierarchy: ['Time Series Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "% Test Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Long Expressive Memory for Sequence Modeling](https://arxiv.org/abs/2110.04744v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tk-rusch/lem)",
+      "n": "LEM",
+      "d": "2021-10-10",
+      "m1": "92.3"
+    },
+    {
+      "p": "[UnICORNN: A recurrent model for learning very long time dependencies](https://arxiv.org/abs/2103.05487v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tk-rusch/unicornn)",
+      "n": "UnICORNN",
+      "d": "2021-03-09",
+      "m1": "90.3"
+    },
+    {
+      "p": "[UnICORNN: A recurrent model for learning very long time dependencies](https://arxiv.org/abs/2103.05487v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tk-rusch/unicornn)",
+      "n": "coRNN",
+      "d": "2021-03-09",
+      "m1": "86.7"
+    },
+    {
+      "p": "[Neural Rough Differential Equations for Long Time Series](https://arxiv.org/abs/2009.08295v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/patrick-kidger/torchcde)",
+      "n": "NRDE",
+      "d": "2020-09-17",
+      "m1": "83.8"
+    },
+    {
+      "p": "[Parallelizing non-linear sequential models over the sequence length](https://arxiv.org/abs/2309.12252v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/machine-discovery/deer)",
+      "n": "GRU",
+      "d": "2023-09-21",
+      "m1": "82.1"
+    },
+    {
+      "p": "[UnICORNN: A recurrent model for learning very long time dependencies](https://arxiv.org/abs/2103.05487v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tk-rusch/unicornn)",
+      "n": "IndRNN",
+      "d": "2021-03-09",
+      "m1": "49.7"
+    },
+    {
+      "p": "[TSEM: Temporally Weighted Spatiotemporal Explainable Neural Network for Multivariate Time Series](https://arxiv.org/abs/2205.13012v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/a11to1n3/tsem)",
+      "n": "TSEM",
+      "d": "2022-05-25",
+      "m1": "42"
+    },
+    {
+      "p": "[UnICORNN: A recurrent model for learning very long time dependencies](https://arxiv.org/abs/2103.05487v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tk-rusch/unicornn)",
+      "n": "expRNN",
+      "d": "2021-03-09",
+      "m1": "40.0"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

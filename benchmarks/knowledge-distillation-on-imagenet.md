@@ -1,0 +1,476 @@
+# knowledge-distillation-on-imagenet
+
+[Dataset Link](https://image-net.org/index.php) \
+Task Hierarchy: ['Knowledge Distillation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Top-1 accuracy %",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "model size",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "CRD training setting",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[ScaleKD: Strong Vision Transformers Could Be Excellent Teachers](https://arxiv.org/abs/2411.06786v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/deep-optimization/scalekd)",
+      "n": "ScaleKD (T:BEiT-L S:ViT-B/14)",
+      "d": "2024-11-11",
+      "m1": "86.43",
+      "m2": "87M",
+      "m3": "\u2718"
+    },
+    {
+      "p": "[ScaleKD: Strong Vision Transformers Could Be Excellent Teachers](https://arxiv.org/abs/2411.06786v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/deep-optimization/scalekd)",
+      "n": "ScaleKD (T:Swin-L S:ViT-B/16)",
+      "d": "2024-11-11",
+      "m1": "85.53",
+      "m2": "87M",
+      "m3": "\u2718"
+    },
+    {
+      "p": "[ScaleKD: Strong Vision Transformers Could Be Excellent Teachers](https://arxiv.org/abs/2411.06786v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/deep-optimization/scalekd)",
+      "n": "ScaleKD (T:Swin-L S:ViT-S/16)",
+      "d": "2024-11-11",
+      "m1": "83.93",
+      "m2": "22M",
+      "m3": "\u2718"
+    },
+    {
+      "p": "[ScaleKD: Strong Vision Transformers Could Be Excellent Teachers](https://arxiv.org/abs/2411.06786v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/deep-optimization/scalekd)",
+      "n": "ScaleKD (T:Swin-L S:Swin-T)",
+      "d": "2024-11-11",
+      "m1": "83.8",
+      "m2": "27M",
+      "m3": "\u2718"
+    },
+    {
+      "p": "[Improving Knowledge Distillation via Regularizing Feature Norm and Direction](https://arxiv.org/abs/2305.17007v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/wangyz1608/knowledge-distillation-via-nd)",
+      "n": "KD++(T: regnety-16GF S:ViT-B)",
+      "d": "2023-05-26",
+      "m1": "83.60",
+      "m2": "87M",
+      "m3": "\u2718"
+    },
+    {
+      "p": "[$V_kD:$ Improving Knowledge Distillation using Orthogonal Projections](https://arxiv.org/abs/2403.06213v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/roymiles/vkd)",
+      "n": "VkD (T:RegNety 160 S:DeiT-S)",
+      "d": "2024-03-10",
+      "m1": "82.9",
+      "m2": "22M",
+      "m3": "\u2718"
+    },
+    {
+      "p": "[SpectralKD: A Unified Framework for Interpreting and Distilling Vision Transformers via Spectral Analysis](https://arxiv.org/abs/2412.19055v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/thy960112/SpectralKD)",
+      "n": "SpectralKD (T:Swin-S S:Swin-T)",
+      "d": "2024-12-26",
+      "m1": "82.7",
+      "m2": "22M",
+      "m3": "\u2718"
+    },
+    {
+      "p": "[ScaleKD: Strong Vision Transformers Could Be Excellent Teachers](https://arxiv.org/abs/2411.06786v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/deep-optimization/scalekd)",
+      "n": "ScaleKD (T:Swin-L S:ResNet-50)",
+      "d": "2024-11-11",
+      "m1": "82.55",
+      "m2": "22M",
+      "m3": "\u2718"
+    },
+    {
+      "p": "[Knowledge Diffusion for Distillation](https://arxiv.org/abs/2305.15712v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/hunto/diffkd)",
+      "n": "DiffKD (T:Swin-L S: Swin-T)",
+      "d": "2023-05-25",
+      "m1": "82.5"
+    },
+    {
+      "p": "[Knowledge Distillation from A Stronger Teacher](https://arxiv.org/abs/2205.10536v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yoshitomo-matsubara/torchdistill)",
+      "n": "DIST (T: Swin-L S: Swin-T)",
+      "d": "2022-05-21",
+      "m1": "82.3",
+      "m2": "29M",
+      "m3": "\u2718"
+    },
+    {
+      "p": "[SpectralKD: A Unified Framework for Interpreting and Distilling Vision Transformers via Spectral Analysis](https://arxiv.org/abs/2412.19055v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/thy960112/SpectralKD)",
+      "n": "SpectralKD (T:Cait-S24 S:DeiT-S)",
+      "d": "2024-12-26",
+      "m1": "82.2",
+      "m2": "22M",
+      "m3": "\u2718"
+    },
+    {
+      "p": "[Understanding the Role of the Projector in Knowledge Distillation](https://arxiv.org/abs/2303.11098v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/yoshitomo-matsubara/torchdistill)",
+      "n": "SRD (T:RegNety 160 S:DeiT-S)",
+      "d": "2023-03-20",
+      "m1": "82.1",
+      "m2": "22M",
+      "m3": "\u2718"
+    },
+    {
+      "p": "[One-for-All: Bridge the Gap Between Heterogeneous Architectures in Knowledge Distillation](https://arxiv.org/abs/2310.19444v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/hao840/ofakd)",
+      "n": "OFA (T: ViT-B S: ResNet-50)",
+      "d": "2023-10-30",
+      "m1": "81.33"
+    },
+    {
+      "p": "[Knowledge Diffusion for Distillation](https://arxiv.org/abs/2305.15712v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/hunto/diffkd)",
+      "n": "DiffKD (T:Swin-L S: ResNet-50)",
+      "d": "2023-05-25",
+      "m1": "80.5"
+    },
+    {
+      "p": "[$V_kD:$ Improving Knowledge Distillation using Orthogonal Projections](https://arxiv.org/abs/2403.06213v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/roymiles/vkd)",
+      "n": "VkD (T:RegNety 160 S:DeiT-Ti)",
+      "d": "2024-03-10",
+      "m1": "79.2",
+      "m2": "6M",
+      "m3": "\u2718"
+    },
+    {
+      "p": "[Improving Knowledge Distillation via Regularizing Feature Norm and Direction](https://arxiv.org/abs/2305.17007v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/wangyz1608/knowledge-distillation-via-nd)",
+      "n": "KD++(T:resnet-152 S:resnet-101)",
+      "d": "2023-05-26",
+      "m1": "79.15",
+      "m2": "44.5M",
+      "m3": "\u2718"
+    },
+    {
+      "p": "[Ensemble Knowledge Distillation for Learning Improved and Efficient Networks](https://arxiv.org/abs/1909.08097v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Adlik/model_optimizer)",
+      "n": "ADLIK-MO-P25(T:SeNet154, ResNet152b  S:ResNet-50-prune25%)",
+      "d": "2019-09-17",
+      "m1": "78.79",
+      "m2": "56.9M",
+      "m3": "\u2718"
+    },
+    {
+      "p": "[Ensemble Knowledge Distillation for Learning Improved and Efficient Networks](https://arxiv.org/abs/1909.08097v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Adlik/model_optimizer)",
+      "n": "ADLIK-MO-P375(T:SeNet154, ResNet152b  S:ResNet-50-prune37.5)",
+      "d": "2019-09-17",
+      "m1": "78.07",
+      "m2": "40.5M",
+      "m3": "\u2718"
+    },
+    {
+      "p": "[Improving Knowledge Distillation via Regularizing Feature Norm and Direction](https://arxiv.org/abs/2305.17007v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/wangyz1608/knowledge-distillation-via-nd)",
+      "n": "KD++(T:resnet-152 S:resnet-50)",
+      "d": "2023-05-26",
+      "m1": "77.48",
+      "m3": "\u2718"
+    },
+    {
+      "p": "[SpectralKD: A Unified Framework for Interpreting and Distilling Vision Transformers via Spectral Analysis](https://arxiv.org/abs/2412.19055v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/thy960112/SpectralKD)",
+      "n": "SpectralKD (T:Cait-S24 S:DeiT-T)",
+      "d": "2024-12-26",
+      "m1": "77.4",
+      "m2": "6M",
+      "m3": "\u2718"
+    },
+    {
+      "p": "[Understanding the Role of the Projector in Knowledge Distillation](https://arxiv.org/abs/2303.11098v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/yoshitomo-matsubara/torchdistill)",
+      "n": "SRD (T:RegNety 160 S:DeIT-Ti)",
+      "d": "2023-03-20",
+      "m1": "77.2",
+      "m2": "6M",
+      "m3": "\u2718"
+    },
+    {
+      "p": "[Distilling the Knowledge in a Neural Network](http://arxiv.org/abs/1503.02531v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+      "n": "ADLIK-MO(T: ResNet101 S: ResNet50)",
+      "d": "2015-03-09",
+      "m1": "77.14",
+      "m2": "99M",
+      "m3": "\u2718"
+    },
+    {
+      "p": "[Knowledge Distillation Based on Transformed Teacher Matching](https://arxiv.org/abs/2402.11148v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zkxufo/TTM)",
+      "n": "WTTM (T: DeiT III-Small S:DeiT-Tiny)",
+      "d": "2024-02-17",
+      "m1": "77.03",
+      "m3": "\u2718"
+    },
+    {
+      "p": "[Ensemble Knowledge Distillation for Learning Improved and Efficient Networks](https://arxiv.org/abs/1909.08097v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Adlik/model_optimizer)",
+      "n": "ADLIK-MO-P50(T:SeNet154, ResNet152b  S:ResNet-50-half)",
+      "d": "2019-09-17",
+      "m1": "76.376",
+      "m2": "27M",
+      "m3": "\u2718"
+    },
+    {
+      "p": "[Improving Knowledge Distillation via Regularizing Feature Norm and Direction](https://arxiv.org/abs/2305.17007v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/wangyz1608/knowledge-distillation-via-nd)",
+      "n": "KD++(T:resnet152 S:resnet34)",
+      "d": "2023-05-26",
+      "m1": "75.53",
+      "m3": "\u2718"
+    },
+    {
+      "p": "[Knowledge Distillation Based on Transformed Teacher Matching](https://arxiv.org/abs/2402.11148v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zkxufo/TTM)",
+      "n": "WTTM (T:resnet50, S:mobilenet-v1)",
+      "d": "2024-02-17",
+      "m1": "73.09"
+    },
+    {
+      "p": "[Improving Knowledge Distillation via Regularizing Feature Norm and Direction](https://arxiv.org/abs/2305.17007v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/wangyz1608/knowledge-distillation-via-nd)",
+      "n": "ReviewKD++(T:resnet50, S:mobilenet-v1)",
+      "d": "2023-05-26",
+      "m1": "72.96"
+    },
+    {
+      "p": "[Improving Knowledge Distillation via Regularizing Feature Norm and Direction](https://arxiv.org/abs/2305.17007v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/wangyz1608/knowledge-distillation-via-nd)",
+      "n": "KD++(T:resnet-152 S:resnet18)",
+      "d": "2023-05-26",
+      "m1": "72.54",
+      "m3": "\u2718"
+    },
+    {
+      "p": "[Improving Knowledge Distillation via Regularizing Feature Norm and Direction](https://arxiv.org/abs/2305.17007v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/wangyz1608/knowledge-distillation-via-nd)",
+      "n": "KD++(T:renset101 S:resnet18)",
+      "d": "2023-05-26",
+      "m1": "72.54",
+      "m3": "\u2718"
+    },
+    {
+      "p": "[Improving Knowledge Distillation via Regularizing Feature Norm and Direction](https://arxiv.org/abs/2305.17007v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/wangyz1608/knowledge-distillation-via-nd)",
+      "n": "KD++(T:resnet50 S:resnet18)",
+      "d": "2023-05-26",
+      "m1": "72.53",
+      "m3": "\u2718"
+    },
+    {
+      "p": "[Hierarchical Self-supervised Augmented Knowledge Distillation](https://arxiv.org/abs/2107.13715v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/winycg/HSAKD)",
+      "n": "HSAKD  (T: ResNet-34  S:ResNet-18)",
+      "d": "2021-07-29",
+      "m1": "72.39",
+      "m3": "\u2718"
+    },
+    {
+      "p": "[Exploring Inter-Channel Correlation for Diversity-Preserved Knowledge Distillation](http://openaccess.thecvf.com//content/ICCV2021/html/Liu_Exploring_Inter-Channel_Correlation_for_Diversity-Preserved_Knowledge_Distillation_ICCV_2021_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/yoshitomo-matsubara/torchdistill)",
+      "n": "ICKD (T: ResNet-34  S:ResNet-18)",
+      "d": "2021-01-01",
+      "m1": "72.19",
+      "m3": "\u2718"
+    },
+    {
+      "p": "[Knowledge Distillation Based on Transformed Teacher Matching](https://arxiv.org/abs/2402.11148v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zkxufo/TTM)",
+      "n": "WTTM (T: ResNet-34 S:ResNet-18)",
+      "d": "2024-02-17",
+      "m1": "72.19",
+      "m3": "\u2713"
+    },
+    {
+      "p": "[Knowledge Distillation from A Stronger Teacher](https://arxiv.org/abs/2205.10536v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yoshitomo-matsubara/torchdistill)",
+      "n": "DIST (T: ResNet-34 S:ResNet-18)",
+      "d": "2022-05-21",
+      "m1": "72.07",
+      "m3": "\u2718"
+    },
+    {
+      "p": "[Improving Knowledge Distillation via Regularizing Feature Norm and Direction](https://arxiv.org/abs/2305.17007v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/wangyz1608/knowledge-distillation-via-nd)",
+      "n": "KD++(T: ResNet-34 S:ResNet-18)",
+      "d": "2023-05-26",
+      "m1": "72.07",
+      "m3": "\u2718"
+    },
+    {
+      "p": "[Rethinking Soft Labels for Knowledge Distillation: A Bias-Variance Tradeoff Perspective](https://arxiv.org/abs/2102.00650v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmrazor)",
+      "n": "WSL (T: ResNet-34  S:ResNet-18)",
+      "d": "2021-02-01",
+      "m1": "72.04"
+    },
+    {
+      "p": "[Complementary Relation Contrastive Distillation](https://arxiv.org/abs/2103.16367v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Lechatelia/CRCD)",
+      "n": "CRCD (T: ResNet-34  S:ResNet-18)",
+      "d": "2021-03-29",
+      "m1": "71.96",
+      "m3": "\u2713"
+    },
+    {
+      "p": "[Understanding the Role of the Projector in Knowledge Distillation](https://arxiv.org/abs/2303.11098v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/yoshitomo-matsubara/torchdistill)",
+      "n": "SRD (T: ResNet-34 S:ResNet-18)",
+      "d": "2023-03-20",
+      "m1": "71.87",
+      "m3": "\u2713"
+    },
+    {
+      "p": "[Improving Knowledge Distillation via Regularizing Feature Norm and Direction](https://arxiv.org/abs/2305.17007v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/wangyz1608/knowledge-distillation-via-nd)",
+      "n": "KD++(T:ViT-B, S:resnet18)",
+      "d": "2023-05-26",
+      "m1": "71.84",
+      "m3": "\u2718"
+    },
+    {
+      "p": "[Distilling Knowledge by Mimicking Features](https://arxiv.org/abs/2011.01424v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/DoctorKey/LSHFM.singleclassification)",
+      "n": "LSHFM (T: ResNet-34 S:ResNet-18)",
+      "d": "2020-11-03",
+      "m1": "71.72"
+    },
+    {
+      "p": "[Information Theoretic Representation Distillation](https://arxiv.org/abs/2112.00459v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/roymiles/ITRD)",
+      "n": "ITRD (T: ResNet-34 S:ResNet-18)",
+      "d": "2021-12-01",
+      "m1": "71.68",
+      "m2": "11.69M",
+      "m3": "\u2713"
+    },
+    {
+      "p": "[Distilling Global and Local Logits With Densely Connected Relations](http://openaccess.thecvf.com//content/ICCV2021/html/Kim_Distilling_Global_and_Local_Logits_With_Densely_Connected_Relations_ICCV_2021_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/Youmin-Kim/GLD)",
+      "n": "GLD (T: ResNet-34  S:ResNet-18)",
+      "d": "2021-01-01",
+      "m1": "71.63"
+    },
+    {
+      "p": "[Knowledge Distillation Meets Self-Supervision](https://arxiv.org/abs/2006.07114v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/yoshitomo-matsubara/torchdistill)",
+      "n": "SSKD (T: ResNet-34  S:ResNet-18)",
+      "d": "2020-06-12",
+      "m1": "71.62",
+      "m3": "\u2718"
+    },
+    {
+      "p": "[Distilling Knowledge via Knowledge Review](https://arxiv.org/abs/2104.09044v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yoshitomo-matsubara/torchdistill)",
+      "n": "Knowledge Review (T: ResNet-34  S:ResNet-18)",
+      "d": "2021-04-19",
+      "m1": "71.61",
+      "m3": "\u2713"
+    },
+    {
+      "p": "[Adaptive Distillation: Aggregating Knowledge from Multiple Paths for Efficient Distillation](https://arxiv.org/abs/2110.09674v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/wyze-AI/AdaptiveDistillation)",
+      "n": "Adaptive (T:ResNet-50 S:ResNet-18)",
+      "d": "2021-10-19",
+      "m1": "71.61"
+    },
+    {
+      "p": "[Improving Knowledge Distillation via Regularizing Feature Norm and Direction](https://arxiv.org/abs/2305.17007v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/wangyz1608/knowledge-distillation-via-nd)",
+      "n": "KD++(T: ViT-S, S:resnet18)",
+      "d": "2023-05-26",
+      "m1": "71.46",
+      "m3": "\u2718"
+    },
+    {
+      "p": "[Show, Attend and Distill:Knowledge Distillation via Attention-based Feature Matching](https://arxiv.org/abs/2102.02973v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/clovaai/attention-feature-distillation)",
+      "n": "AFD (T: ResNet-34  S:ResNet-18)",
+      "d": "2021-02-05",
+      "m1": "71.38"
+    },
+    {
+      "p": "[Contrastive Representation Distillation](https://arxiv.org/abs/1910.10699v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/HobbitLong/RepDistiller)",
+      "n": "CRD  (T: ResNet-34  S:ResNet-18)",
+      "d": "2019-10-23",
+      "m1": "71.38"
+    },
+    {
+      "p": "[A Comprehensive Overhaul of Feature Distillation](https://arxiv.org/abs/1904.01866v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/clovaai/overhaul-distillation)",
+      "n": "Overhual (T: ResNet-34 S:ResNet-18)",
+      "d": "2019-04-03",
+      "m1": "70.81"
+    },
+    {
+      "p": "[Distilling the Knowledge in a Neural Network](http://arxiv.org/abs/1503.02531v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+      "n": "KD (T: ResNet-34 S:ResNet-18)",
+      "d": "2015-03-09",
+      "m1": "70.66",
+      "m3": "\u2713"
+    },
+    {
+      "p": "[Paying More Attention to Attention: Improving the Performance of Convolutional Neural Networks via Attention Transfer](http://arxiv.org/abs/1612.03928v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yoshitomo-matsubara/torchdistill)",
+      "n": "AT (T: ResNet-34 S:ResNet-18)",
+      "d": "2016-12-12",
+      "m4": "70.70"
+    },
+    {
+      "p": "[Paying More Attention to Attention: Improving the Performance of Convolutional Neural Networks via Attention Transfer](http://arxiv.org/abs/1612.03928v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yoshitomo-matsubara/torchdistill)",
+      "n": "AT  (T: ResNet-34  S:ResNet-18)",
+      "d": "2016-12-12",
+      "m3": "\u2713"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

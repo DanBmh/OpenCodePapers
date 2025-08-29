@@ -1,0 +1,351 @@
+# salient-object-detection-on-duts-te
+
+[Dataset Link](http://saliencydetection.net/duts/) \
+Task Hierarchy: ['16k', 'Object Detection', 'RGB Salient Object Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "S-Measure",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "max F-measure",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "mean E-Measure",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "MAE",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "mean F-Measure",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "Weighted F-Measure",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Bilateral Reference for High-Resolution Dichotomous Image Segmentation](https://arxiv.org/abs/2401.03407v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhengpeng7/birefnet)",
+      "n": "BiRefNet (DUTS, HRSOD, UHRSD)",
+      "d": "2024-01-07",
+      "m1": "0.944",
+      "m2": "0.943",
+      "m3": "0.962",
+      "m4": "0.018",
+      "m5": "0.925",
+      "m6": "0.920"
+    },
+    {
+      "p": "[Bilateral Reference for High-Resolution Dichotomous Image Segmentation](https://arxiv.org/abs/2401.03407v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhengpeng7/birefnet)",
+      "n": "BiRefNet (DUTS, UHRSD)",
+      "d": "2024-01-07",
+      "m1": "0.942",
+      "m2": "0.942",
+      "m3": "0.961",
+      "m4": "0.018",
+      "m5": "0.925",
+      "m6": "0.919"
+    },
+    {
+      "p": "[Bilateral Reference for High-Resolution Dichotomous Image Segmentation](https://arxiv.org/abs/2401.03407v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhengpeng7/birefnet)",
+      "n": "BiRefNet (DUTS)",
+      "d": "2024-01-07",
+      "m1": "0.939",
+      "m2": "0.937",
+      "m3": "0.958",
+      "m4": "0.019",
+      "m5": "0.919",
+      "m6": "0.913"
+    },
+    {
+      "p": "[Bilateral Reference for High-Resolution Dichotomous Image Segmentation](https://arxiv.org/abs/2401.03407v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhengpeng7/birefnet)",
+      "n": "BiRefNet (DUTS, HRSOD)",
+      "d": "2024-01-07",
+      "m1": "0.938",
+      "m2": "0.935",
+      "m3": "0.960",
+      "m4": "0.018",
+      "m5": "0.923",
+      "m6": "0.918"
+    },
+    {
+      "p": "[Bilateral Reference for High-Resolution Dichotomous Image Segmentation](https://arxiv.org/abs/2401.03407v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhengpeng7/birefnet)",
+      "n": "BiRefNet (HRSOD, UHRSD)",
+      "d": "2024-01-07",
+      "m1": "0.933",
+      "m2": "0.928",
+      "m3": "0.954",
+      "m4": "0.020",
+      "m5": "0.913",
+      "m6": "0.907"
+    },
+    {
+      "p": "[Revisiting Image Pyramid Structure for High Resolution Salient Object Detection](https://arxiv.org/abs/2209.09475v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/plemeri/transparent-background)",
+      "n": "InSPyReNet",
+      "d": "2022-09-20",
+      "m1": "0.931",
+      "m2": "0.892",
+      "m4": "0.024"
+    },
+    {
+      "p": "[M$^3$Net: Multilevel, Mixed and Multistage Attention Network for Salient Object Detection](https://arxiv.org/abs/2309.08365v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/I2-Multimedia-Lab/M3Net)",
+      "n": "M3Net-S",
+      "d": "2023-09-15",
+      "m1": "0.927",
+      "m4": "0.024",
+      "m6": "0.902"
+    },
+    {
+      "p": "[TRACER: Extreme Attention Guided Salient Object Tracing Network](https://arxiv.org/abs/2112.07380v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Karel911/TRACER)",
+      "n": "TRACER-TE7",
+      "d": "2021-12-14",
+      "m1": "0.919",
+      "m2": "0.932",
+      "m4": "0.022",
+      "m5": "0.904"
+    },
+    {
+      "p": "[M$^3$Net: Multilevel, Mixed and Multistage Attention Network for Salient Object Detection](https://arxiv.org/abs/2309.08365v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/I2-Multimedia-Lab/M3Net)",
+      "n": "M3Net-R",
+      "d": "2023-09-15",
+      "m1": "0.897",
+      "m4": "0.036",
+      "m6": "0.849"
+    },
+    {
+      "p": "[Uncertainty Inspired RGB-D Saliency Detection](https://arxiv.org/abs/2009.03075v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/taozh2017/RGBD-SODsurvey)",
+      "n": "UCNet-ABP",
+      "d": "2020-09-07",
+      "m1": "0.890",
+      "m3": "0.931",
+      "m4": "0.034",
+      "m5": "0.864"
+    },
+    {
+      "p": "[Uncertainty Inspired RGB-D Saliency Detection](https://arxiv.org/abs/2009.03075v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/taozh2017/RGBD-SODsurvey)",
+      "n": "UCNet-CVAE",
+      "d": "2020-09-07",
+      "m1": "0.888",
+      "m3": "0.927",
+      "m4": "0.034",
+      "m5": "0.860"
+    },
+    {
+      "p": "[BASNet: Boundary-Aware Salient Object Detection](http://openaccess.thecvf.com/content_CVPR_2019/html/Qin_BASNet_Boundary-Aware_Salient_Object_Detection_CVPR_2019_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/NathanUA/BASNet)",
+      "n": "BASNet",
+      "d": "2019-06-01",
+      "m1": "0.876",
+      "m3": "0.896",
+      "m4": "0.047",
+      "m5": "0.823"
+    },
+    {
+      "p": "[Saliency Detection via Global Context Enhanced Feature Fusion and Edge Weighted Loss](https://arxiv.org/abs/2110.06550v1)",
+      "c": "",
+      "n": "CFDN",
+      "d": "2021-10-13",
+      "m1": "0.871",
+      "m2": "0.859",
+      "m4": "0.048"
+    },
+    {
+      "p": "[Detect Globally, Refine Locally: A Novel Approach to Saliency Detection](http://openaccess.thecvf.com/content_cvpr_2018/html/Wang_Detect_Globally_Refine_CVPR_2018_paper.html)",
+      "c": "",
+      "n": "DGRL",
+      "d": "2018-06-01",
+      "m1": "0.846",
+      "m2": "0.828",
+      "m3": "0.887",
+      "m4": "0.049",
+      "m5": "0.790"
+    },
+    {
+      "p": "[PiCANet: Learning Pixel-wise Contextual Attention for Saliency Detection](http://arxiv.org/abs/1708.06433v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Ugness/PiCANet-Implementation)",
+      "n": "PiCANet",
+      "d": "2017-08-21",
+      "m1": "0.842",
+      "m2": "0.863",
+      "m3": "0.853",
+      "m4": "0.050",
+      "m5": "0.757"
+    },
+    {
+      "p": "[A Weakly Supervised Learning Framework for Salient Object Detection via Hybrid Labels](https://arxiv.org/abs/2209.02957v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/rmcong/Hybrid-Label-SOD_TCSVT2022)",
+      "n": "HybridSOD",
+      "d": "2022-09-07",
+      "m1": "0.837",
+      "m4": "0.05"
+    },
+    {
+      "p": "[P2T: Pyramid Pooling Transformer for Scene Understanding](https://arxiv.org/abs/2106.12011v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/yuhuan-wu/P2T)",
+      "n": "P2T-Small",
+      "d": "2021-06-22",
+      "m2": "0.912",
+      "m4": "0.029"
+    },
+    {
+      "p": "[P2T: Pyramid Pooling Transformer for Scene Understanding](https://arxiv.org/abs/2106.12011v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/yuhuan-wu/P2T)",
+      "n": "P2T-Tiny",
+      "d": "2021-06-22",
+      "m2": "0.895",
+      "m4": "0.033"
+    },
+    {
+      "p": "[A Simple Pooling-Based Design for Real-Time Salient Object Detection](http://arxiv.org/abs/1904.09569v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/backseason/PoolNet)",
+      "n": "PoolNet (VGG-16)",
+      "d": "2019-04-21",
+      "m2": "0.892",
+      "m4": "0.036"
+    },
+    {
+      "p": "[Progressive Attention Guided Recurrent Network for Salient Object Detection](http://openaccess.thecvf.com/content_cvpr_2018/html/Zhang_Progressive_Attention_Guided_CVPR_2018_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhangxiaoning666/PAGR)",
+      "n": "PAGR",
+      "d": "2018-06-01",
+      "m2": "0.854",
+      "m4": "0.055"
+    },
+    {
+      "p": "[A Stagewise Refinement Model for Detecting Salient Objects in Images](http://openaccess.thecvf.com/content_iccv_2017/html/Wang_A_Stagewise_Refinement_ICCV_2017_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/TiantianWang/ICCV17_SRM)",
+      "n": "SRM",
+      "d": "2017-10-01",
+      "m2": "0.826",
+      "m4": "0.058"
+    },
+    {
+      "p": "[Instance-Level Salient Object Segmentation](http://arxiv.org/abs/1704.03604v1)",
+      "c": "",
+      "n": "MSR",
+      "d": "2017-04-12",
+      "m2": "0.824",
+      "m4": "0.062"
+    },
+    {
+      "p": "[Non-Local Deep Features for Salient Object Detection](http://openaccess.thecvf.com/content_cvpr_2017/html/Luo_Non-Local_Deep_Features_CVPR_2017_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhimingluo/NLDF)",
+      "n": "NLDF",
+      "d": "2017-07-01",
+      "m2": "0.816",
+      "m4": "0.065"
+    },
+    {
+      "p": "[DHSNet: Deep Hierarchical Saliency Network for Salient Object Detection](http://openaccess.thecvf.com/content_cvpr_2016/html/Liu_DHSNet_Deep_Hierarchical_CVPR_2016_paper.html)",
+      "c": "",
+      "n": "DHS",
+      "d": "2016-06-01",
+      "m2": "0.815",
+      "m4": "0.065"
+    },
+    {
+      "p": "[Deeply supervised salient object detection with short connections](http://arxiv.org/abs/1611.04849v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/houqb/DSS)",
+      "n": "DSS",
+      "d": "2016-11-15",
+      "m2": "0.813",
+      "m4": "0.065"
+    },
+    {
+      "p": "[Deep Contrast Learning for Salient Object Detection](http://arxiv.org/abs/1603.01976v1)",
+      "c": "",
+      "n": "DCL",
+      "d": "2016-03-07",
+      "m2": "0.786",
+      "m4": "0.081"
+    },
+    {
+      "p": "[Amulet: Aggregating Multi-level Convolutional Features for Salient Object Detection](http://arxiv.org/abs/1708.02001v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Pchank/caffe-sal)",
+      "n": "Amulet",
+      "d": "2017-08-07",
+      "m2": "0.773",
+      "m4": "0.075"
+    },
+    {
+      "p": "[Learning Uncertain Convolutional Features for Accurate Saliency Detection](http://arxiv.org/abs/1708.02031v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Pchank/caffe-sal)",
+      "n": "UCF",
+      "d": "2017-08-07",
+      "m2": "0.771",
+      "m4": "0.116"
+    },
+    {
+      "p": "[C$^{4}$Net: Contextual Compression and Complementary Combination Network for Salient Object Detection](https://arxiv.org/abs/2110.11887v1)",
+      "c": "",
+      "n": "C4Net",
+      "d": "2021-10-22",
+      "m3": "0.937",
+      "m4": "0.029",
+      "m5": "0.886"
+    },
+    {
+      "p": "[CPDR: Towards Highly-Efficient Salient Object Detection via Crossed Post-decoder Refinement](https://arxiv.org/abs/2501.06441v1)",
+      "c": "",
+      "n": "CPDR-L",
+      "d": "2025-01-11",
+      "m3": "0.931",
+      "m4": "0.034",
+      "m5": "0.853"
+    },
+    {
+      "p": "[TRACER: Extreme Attention Guided Salient Object Tracing Network](https://arxiv.org/abs/2112.07380v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Karel911/TRACER)",
+      "n": "TRACER-(ResNet50)",
+      "d": "2021-12-14",
+      "m4": "0.035"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

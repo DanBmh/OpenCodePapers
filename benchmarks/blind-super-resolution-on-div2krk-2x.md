@@ -1,0 +1,84 @@
+# blind-super-resolution-on-div2krk-2x
+
+[Dataset Link](https://www.wisdom.weizmann.ac.il/~vision/kernelgan/) \
+Task Hierarchy: ['10-shot image generation', 'Image Restoration', 'Blind Super-Resolution']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "SSIM",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Deep Constrained Least Squares for Blind Image Super-Resolution](https://arxiv.org/abs/2202.07508v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/megvii-research/dcls-sr)",
+      "n": "DCLS",
+      "d": "2022-02-15",
+      "m1": "32.75",
+      "m2": "0.9094"
+    },
+    {
+      "p": "[Unfolding the Alternating Optimization for Blind Super Resolution](https://arxiv.org/abs/2010.02631v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/greatlog/DAN)",
+      "n": "DAN",
+      "d": "2020-10-06",
+      "m1": "32.56",
+      "m2": "0.8997"
+    },
+    {
+      "p": "[KOALAnet: Blind Super-Resolution using Kernel-Oriented Adaptive Local Adjustment](https://arxiv.org/abs/2012.08103v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hjSim/KOALAnet)",
+      "n": "KOALAnet",
+      "d": "2020-12-15",
+      "m1": "31.89",
+      "m2": "0.8852"
+    },
+    {
+      "p": "[Unsupervised Blur Kernel Estimation and Correction for Blind Super-Resolution](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9762718)",
+      "c": "[&check;&nbsp;Link](https://github.com/ysook1m/Enhanced_KernelGAN)",
+      "n": "Enhanced-KernelGAN-DIP + ZSSR",
+      "d": "2022-04-25",
+      "m1": "31.62",
+      "m2": "0.8874"
+    },
+    {
+      "p": "[Blind Super-Resolution Kernel Estimation using an Internal-GAN](https://arxiv.org/abs/1909.06581v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/sefibk/KernelGAN)",
+      "n": "KernelGAN+ZSSR",
+      "d": "2019-09-14",
+      "m1": "30.36",
+      "m2": "0.8669"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

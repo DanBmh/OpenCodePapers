@@ -1,0 +1,60 @@
+# 3d-instance-segmentation-on-scannet-1
+
+[Dataset Link](https://kaldir.vc.in.tum.de/scannetpp/) \
+Task Hierarchy: ['3D Instance Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mAP",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Any3DIS: Class-Agnostic 3D Instance Segmentation by 2D Mask Tracking](https://arxiv.org/abs/2411.16183v1)",
+      "c": "",
+      "n": "Any3DIS",
+      "d": "2024-11-25",
+      "m1": "22.2"
+    },
+    {
+      "p": "[Open3DIS: Open-Vocabulary 3D Instance Segmentation with 2D Mask Guidance](https://arxiv.org/abs/2312.10671v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/VinAIResearch/Open3DIS)",
+      "n": "Open3DIS",
+      "d": "2023-12-17",
+      "m1": "20.7"
+    },
+    {
+      "p": "[SAI3D: Segment Any Instance in 3D Scenes](https://arxiv.org/abs/2312.11557v2)",
+      "c": "",
+      "n": "SAI3D",
+      "d": "2023-12-17",
+      "m1": "17.1"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,75 @@
+# collaborative-filtering-on-movielens-1m-1
+
+[Dataset Link](https://grouplens.org/datasets/movielens/) \
+Task Hierarchy: ['Collaborative Filtering']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "NDCG@20",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Recall@20",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[SimpleX: A Simple and Strong Baseline for Collaborative Filtering](https://arxiv.org/abs/2109.12613v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/reczoo/RecZoo/tree/main/matching/cf/SimpleX)",
+      "n": "SimpleX",
+      "d": "2021-09-26",
+      "m1": "0.2670"
+    },
+    {
+      "p": "[UltraGCN: Ultra Simplification of Graph Convolutional Networks for Recommendation](https://arxiv.org/abs/2110.15114v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/reczoo/RecZoo/tree/main/matching/gnn/UltraGCN)",
+      "n": "UltraGCN",
+      "d": "2021-10-28",
+      "m1": "0.2642",
+      "m2": "0.2787"
+    },
+    {
+      "p": "[Disentangled Graph Collaborative Filtering](https://arxiv.org/abs/2007.01764v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/xiangwang1223/disentangled_graph_collaborative_filtering)",
+      "n": "DGCF",
+      "d": "2020-07-03",
+      "m1": "0.2504",
+      "m2": "0.2640"
+    },
+    {
+      "p": "[LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation](https://arxiv.org/abs/2002.02126v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/recommenders)",
+      "n": "LightGCN",
+      "d": "2020-02-06",
+      "m1": "0.2427",
+      "m2": "0.2576"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,211 @@
+# multimodal-recommendation-on-amazon-digital
+
+[Dataset Link](https://cseweb.ucsd.edu/~jmcauley/datasets/amazon/links.html) \
+Task Hierarchy: ['Recommendation Systems', 'Multimodal Recommendation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Recall",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "nDCG",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Hit Ratio",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "LATTICE (AltCLIP)",
+      "d": null,
+      "m1": "30.19",
+      "m2": "16.58",
+      "m3": "44.69"
+    },
+    {
+      "p": "[Ducho meets Elliot: Large-scale Benchmarks for Multimodal Recommendation](https://arxiv.org/abs/2409.15857v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/sisinflab/Ducho-meets-Elliot)",
+      "n": "LATTICE (ResNet50 + Sentence Bert)",
+      "d": "2024-09-24",
+      "m1": "29.40",
+      "m2": "16.07",
+      "m3": "43.60"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "FREEDOM (AltCLIP)",
+      "d": null,
+      "m1": "29.20",
+      "m2": "16.19",
+      "m3": "44.08"
+    },
+    {
+      "p": "[Ducho meets Elliot: Large-scale Benchmarks for Multimodal Recommendation](https://arxiv.org/abs/2409.15857v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/sisinflab/Ducho-meets-Elliot)",
+      "n": "FREEDOM (ResNet50 + Sentence Bert)",
+      "d": "2024-09-24",
+      "m1": "29.05",
+      "m2": "16.15",
+      "m3": "43.46"
+    },
+    {
+      "p": "[Ducho meets Elliot: Large-scale Benchmarks for Multimodal Recommendation](https://arxiv.org/abs/2409.15857v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/sisinflab/Ducho-meets-Elliot)",
+      "n": "LightGCN",
+      "d": "2024-09-24",
+      "m1": "28.66",
+      "m2": "14.95",
+      "m3": "43.19"
+    },
+    {
+      "p": "[Ducho meets Elliot: Large-scale Benchmarks for Multimodal Recommendation](https://arxiv.org/abs/2409.15857v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/sisinflab/Ducho-meets-Elliot)",
+      "n": "VBPR (ResNet50 + Sentence Bert)",
+      "d": "2024-09-24",
+      "m1": "28.37",
+      "m2": "15.22",
+      "m3": "43.54"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "VBPR (CLIP)",
+      "d": null,
+      "m1": "28.21",
+      "m2": "15.13",
+      "m3": "42.46"
+    },
+    {
+      "p": "[Ducho meets Elliot: Large-scale Benchmarks for Multimodal Recommendation](https://arxiv.org/abs/2409.15857v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/sisinflab/Ducho-meets-Elliot)",
+      "n": "NGCF-M (ResNet50 + Sentence Bert)",
+      "d": "2024-09-24",
+      "m1": "27.84",
+      "m2": "15.35",
+      "m3": "41.91"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "BM3 (MMFashion + Sentence Bert)",
+      "d": null,
+      "m1": "27.47",
+      "m2": "14.40",
+      "m3": "41.73"
+    },
+    {
+      "p": "[Ducho meets Elliot: Large-scale Benchmarks for Multimodal Recommendation](https://arxiv.org/abs/2409.15857v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/sisinflab/Ducho-meets-Elliot)",
+      "n": "BRMF",
+      "d": "2024-09-24",
+      "m1": "27.32",
+      "m2": "14.94",
+      "m3": "41.13"
+    },
+    {
+      "p": "[Ducho meets Elliot: Large-scale Benchmarks for Multimodal Recommendation](https://arxiv.org/abs/2409.15857v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/sisinflab/Ducho-meets-Elliot)",
+      "n": "SGL",
+      "d": "2024-09-24",
+      "m1": "27.09",
+      "m2": "15.03",
+      "m3": "40.81"
+    },
+    {
+      "p": "[Ducho meets Elliot: Large-scale Benchmarks for Multimodal Recommendation](https://arxiv.org/abs/2409.15857v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/sisinflab/Ducho-meets-Elliot)",
+      "n": "BM3 (ResNet50 + Sentence Bert)",
+      "d": "2024-09-24",
+      "m1": "27.07",
+      "m2": "14.34",
+      "m3": "41.42"
+    },
+    {
+      "p": "[Ducho meets Elliot: Large-scale Benchmarks for Multimodal Recommendation](https://arxiv.org/abs/2409.15857v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/sisinflab/Ducho-meets-Elliot)",
+      "n": "DGCF",
+      "d": "2024-09-24",
+      "m1": "26.47",
+      "m2": "14.46",
+      "m3": "40.46"
+    },
+    {
+      "p": "[Ducho meets Elliot: Large-scale Benchmarks for Multimodal Recommendation](https://arxiv.org/abs/2409.15857v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/sisinflab/Ducho-meets-Elliot)",
+      "n": "NGCF",
+      "d": "2024-09-24",
+      "m1": "26.46",
+      "m2": "14.58",
+      "m3": "40.14"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "NGCF-M (CLIP)",
+      "d": null,
+      "m1": "24.27",
+      "m2": "15.54",
+      "m3": "42.60"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "GRCN (CLIP)",
+      "d": null,
+      "m1": "24.20",
+      "m2": "13.09",
+      "m3": "37.96"
+    },
+    {
+      "p": "[Ducho meets Elliot: Large-scale Benchmarks for Multimodal Recommendation](https://arxiv.org/abs/2409.15857v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/sisinflab/Ducho-meets-Elliot)",
+      "n": "GRCN (ResNet50 + Sentence Bert)",
+      "d": "2024-09-24",
+      "m1": "22.88",
+      "m2": "12.17",
+      "m3": "36.25"
+    },
+    {
+      "p": "[Ducho meets Elliot: Large-scale Benchmarks for Multimodal Recommendation](https://arxiv.org/abs/2409.15857v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/sisinflab/Ducho-meets-Elliot)",
+      "n": "ItemKNN",
+      "d": "2024-09-24",
+      "m1": "21.74",
+      "m2": "12.00",
+      "m3": "34.51"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

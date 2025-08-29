@@ -1,0 +1,60 @@
+# classification-on-shd-adding
+
+[Dataset Link](https://zenkelab.org/resources/spiking-heidelberg-datasets-shd/) \
+Task Hierarchy: ['Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy (%)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[The Expressive Leaky Memory Neuron: an Efficient and Expressive Phenomenological Neuron Model Can Solve Long-Horizon Tasks](https://arxiv.org/abs/2306.16922v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/AaronSpieler/elmneuron)",
+      "n": "ELM Neuron",
+      "d": "2023-06-14",
+      "m1": "82"
+    },
+    {
+      "p": "[The Expressive Leaky Memory Neuron: an Efficient and Expressive Phenomenological Neuron Model Can Solve Long-Horizon Tasks](https://arxiv.org/abs/2306.16922v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/AaronSpieler/elmneuron)",
+      "n": "LSTM",
+      "d": "2023-06-14",
+      "m1": "10"
+    },
+    {
+      "p": "[The Expressive Leaky Memory Neuron: an Efficient and Expressive Phenomenological Neuron Model Can Solve Long-Horizon Tasks](https://arxiv.org/abs/2306.16922v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/AaronSpieler/elmneuron)",
+      "n": "LIF-SNN",
+      "d": "2023-06-14",
+      "m1": "FAIL"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

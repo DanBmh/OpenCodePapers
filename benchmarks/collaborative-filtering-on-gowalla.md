@@ -1,0 +1,130 @@
+# collaborative-filtering-on-gowalla
+
+[Dataset Link](https://snap.stanford.edu/data/loc-gowalla.html) \
+Task Hierarchy: ['Collaborative Filtering']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Recall@20",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "NDCG@20",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Why is Normalization Necessary for Linear Recommenders?](https://arxiv.org/abs/2504.05805v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/psm1206/dan)",
+      "n": "RLAE-DAN",
+      "d": "2025-04-08",
+      "m1": "0.1922",
+      "m2": "0.1605"
+    },
+    {
+      "p": "[Blurring-Sharpening Process Models for Collaborative Filtering](https://arxiv.org/abs/2211.09324v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jeongwhanchoi/bspm)",
+      "n": "BSPM-EM",
+      "d": "2022-11-17",
+      "m1": "0.1920",
+      "m2": "0.1597"
+    },
+    {
+      "p": "[Neighborhood-Enhanced Supervised Contrastive Learning for Collaborative Filtering](https://arxiv.org/abs/2402.11523v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PeiJieSun/NESCL)",
+      "n": "NESCL",
+      "d": "2024-02-18",
+      "m1": "0.1917",
+      "m2": "0.1617"
+    },
+    {
+      "p": "[Blurring-Sharpening Process Models for Collaborative Filtering](https://arxiv.org/abs/2211.09324v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jeongwhanchoi/bspm)",
+      "n": "BSPM-LM",
+      "d": "2022-11-17",
+      "m1": "0.1901",
+      "m2": "0.1570"
+    },
+    {
+      "p": "[LT-OCF: Learnable-Time ODE-based Collaborative Filtering](https://arxiv.org/abs/2108.06208v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/jeongwhanchoi/lt-ocf)",
+      "n": "LT-OCF",
+      "d": "2021-08-08",
+      "m1": "0.1875",
+      "m2": "0.1574"
+    },
+    {
+      "p": "[SimpleX: A Simple and Strong Baseline for Collaborative Filtering](https://arxiv.org/abs/2109.12613v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/reczoo/RecZoo/tree/main/matching/cf/SimpleX)",
+      "n": "SimpleX",
+      "d": "2021-09-26",
+      "m1": "0.1872",
+      "m2": "0.1557"
+    },
+    {
+      "p": "[UltraGCN: Ultra Simplification of Graph Convolutional Networks for Recommendation](https://arxiv.org/abs/2110.15114v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/reczoo/RecZoo/tree/main/matching/gnn/UltraGCN)",
+      "n": "UltraGCN",
+      "d": "2021-10-28",
+      "m1": "0.1862",
+      "m2": "0.1580"
+    },
+    {
+      "p": "[UltraGCN: Ultra Simplification of Graph Convolutional Networks for Recommendation](https://arxiv.org/abs/2110.15114v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/reczoo/RecZoo/tree/main/matching/gnn/UltraGCN)",
+      "n": "Emb-GCN",
+      "d": "2021-10-28",
+      "m1": "0.1862"
+    },
+    {
+      "p": "[How Powerful is Graph Convolution for Recommendation?](https://arxiv.org/abs/2108.07567v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yshenaw/GF_CF)",
+      "n": "GF-CF",
+      "d": "2021-08-17",
+      "m1": "0.1849",
+      "m2": "0.1518"
+    },
+    {
+      "p": "[LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation](https://arxiv.org/abs/2002.02126v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/recommenders)",
+      "n": "LightGCN",
+      "d": "2020-02-06",
+      "m1": "0.1830",
+      "m2": "0.1554"
+    },
+    {
+      "p": "[Neural Graph Collaborative Filtering](https://arxiv.org/abs/1905.08108v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/NGCF)",
+      "n": "NGCF",
+      "d": "2019-05-20",
+      "m1": "0.1570"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

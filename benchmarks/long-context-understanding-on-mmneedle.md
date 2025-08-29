@@ -1,0 +1,225 @@
+# long-context-understanding-on-mmneedle
+
+[Dataset Link](https://github.com/Wang-ML-Lab/multimodal-needle-in-a-haystack/tree/main) \
+Task Hierarchy: ['Long-Context Understanding']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "1 Image, 4*4 Stitching, Exact Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "1 Image, 8*8 Stitching, Exact Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "1 Image, 2*2 Stitching, Exact Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "10 Images, 1*1 Stitching, Exact Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "10 Images, 2*2 Stitching, Exact Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "10 Images, 4*4 Stitching, Exact Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m7",
+      "label": "10 Images, 8*8 Stitching, Exact Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[GPT-4 Technical Report](https://arxiv.org/abs/2303.08774v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/openai/evals)",
+      "n": "GPT-4o",
+      "d": "2023-03-15",
+      "m1": "83",
+      "m2": "19",
+      "m3": "94.6",
+      "m4": "97",
+      "m5": "81.8",
+      "m6": "26.9",
+      "m7": "1"
+    },
+    {
+      "p": "[GPT-4 Technical Report](https://arxiv.org/abs/2303.08774v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/openai/evals)",
+      "n": "GPT-4V",
+      "d": "2023-03-15",
+      "m1": "54.72",
+      "m2": "7.3",
+      "m3": "86.09",
+      "m4": "72.36",
+      "m5": "34.24",
+      "m6": "7.58",
+      "m7": "0"
+    },
+    {
+      "p": "[Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context](https://arxiv.org/abs/2403.05530v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/dlvuldet/primevul)",
+      "n": "Gemini Pro 1.5",
+      "d": "2024-03-08",
+      "m1": "39.85",
+      "m2": "29.81",
+      "m3": "90.34",
+      "m4": "89.94",
+      "m5": "45.21",
+      "m6": "6.09",
+      "m7": "0.62"
+    },
+    {
+      "p": "[Gemini: A Family of Highly Capable Multimodal Models](https://arxiv.org/abs/2312.11805v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/valdecy/pybibx)",
+      "n": "Gemini Pro 1.0",
+      "d": "2023-12-19",
+      "m1": "24.78",
+      "m2": "2.11",
+      "m3": "29.53",
+      "m4": "16.25",
+      "m5": "4.82",
+      "m6": "0.4",
+      "m7": "0"
+    },
+    {
+      "p": "[LLaVA-UHD: an LMM Perceiving Any Aspect Ratio and High-Resolution Images](https://arxiv.org/abs/2403.11703v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/thunlp/llava-uhd)",
+      "n": "LLaVA-Llama-3",
+      "d": "2024-03-18",
+      "m1": "17.5",
+      "m2": "3.3",
+      "m3": "43.8",
+      "m4": "0",
+      "m5": "0",
+      "m6": "0",
+      "m7": "0"
+    },
+    {
+      "p": "[The Claude 3 Model Family: Opus, Sonnet, Haiku](https://www.anthropic.com/news/claude-3-family)",
+      "c": "",
+      "n": "Claude 3 Opus",
+      "d": "2024-03-04",
+      "m1": "12.3",
+      "m2": "1.6",
+      "m3": "52.25",
+      "m4": "66.93",
+      "m5": "4.6",
+      "m6": "0.4",
+      "m7": "0"
+    },
+    {
+      "p": "[What matters when building vision-language models?](https://arxiv.org/abs/2405.02246v1)",
+      "c": "",
+      "n": "IDEFICS2-8B",
+      "d": "2024-05-03",
+      "m1": "7.8",
+      "m2": "0.9",
+      "m3": "18.9",
+      "m4": "0",
+      "m5": "0",
+      "m6": "0",
+      "m7": "0"
+    },
+    {
+      "p": "[InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning](https://arxiv.org/abs/2305.06500v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/salesforce/lavis)",
+      "n": "InstructBLIP-Flan-T5-XXL",
+      "d": "2023-05-11",
+      "m1": "6.2",
+      "m2": "2.2",
+      "m3": "3.8",
+      "m4": "0",
+      "m5": "0",
+      "m6": "0",
+      "m7": "0"
+    },
+    {
+      "p": "[CogVLM: Visual Expert for Pretrained Language Models](https://arxiv.org/abs/2311.03079v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/thudm/cogvlm)",
+      "n": "CogVLM2-Llama-3",
+      "d": "2023-11-06",
+      "m1": "0.9",
+      "m2": "0.1",
+      "m3": "7.3",
+      "m4": "0",
+      "m5": "0",
+      "m6": "0",
+      "m7": "0"
+    },
+    {
+      "p": "[mPLUG-Owl2: Revolutionizing Multi-modal Large Language Model with Modality Collaboration](https://arxiv.org/abs/2311.04257v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/x-plug/mplug-owl)",
+      "n": "mPLUG-Owl-v2",
+      "d": "2023-11-07",
+      "m1": "0.3",
+      "m2": "0.7",
+      "m3": "1.9",
+      "m4": "0.4",
+      "m5": "0.1",
+      "m6": "0",
+      "m7": "0"
+    },
+    {
+      "p": "[CogVLM: Visual Expert for Pretrained Language Models](https://arxiv.org/abs/2311.03079v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/thudm/cogvlm)",
+      "n": "CogVLM-17B",
+      "d": "2023-11-06",
+      "m1": "0.1",
+      "m2": "0.3",
+      "m3": "0",
+      "m4": "0",
+      "m5": "0",
+      "m6": "0",
+      "m7": "0"
+    },
+    {
+      "p": "[InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning](https://arxiv.org/abs/2305.06500v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/salesforce/lavis)",
+      "n": "InstructBLIP-Vicuna-13B",
+      "d": "2023-05-11",
+      "m1": "0",
+      "m2": "0",
+      "m3": "0",
+      "m4": "0",
+      "m5": "0",
+      "m6": "0",
+      "m7": "0"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

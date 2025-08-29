@@ -1,0 +1,403 @@
+# panoptic-segmentation-on-coco-minival
+
+[Dataset Link]() \
+Task Hierarchy: ['Panoptic Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PQ",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "PQst",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "PQth",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "RQ",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "SQ",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "RQst",
+      "sortable": "true"
+    },
+    {
+      "key": "m7",
+      "label": "RQth",
+      "sortable": "true"
+    },
+    {
+      "key": "m8",
+      "label": "SQst",
+      "sortable": "true"
+    },
+    {
+      "key": "m9",
+      "label": "SQth",
+      "sortable": "true"
+    },
+    {
+      "key": "m10",
+      "label": "AP",
+      "sortable": "true"
+    },
+    {
+      "key": "m11",
+      "label": "mIoU",
+      "sortable": "true"
+    },
+    {
+      "key": "m12",
+      "label": "boxAP",
+      "sortable": "true"
+    },
+    {
+      "key": "m13",
+      "label": "maskAP",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[HyperSeg: Towards Universal Visual Segmentation with Large Language Model](https://arxiv.org/abs/2411.17606v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/congvvc/HyperSeg)",
+      "n": "HyperSeg (Swin-B)",
+      "d": "2024-11-26",
+      "m1": "61.2"
+    },
+    {
+      "p": "[OneFormer: One Transformer to Rule Universal Image Segmentation](https://arxiv.org/abs/2211.06220v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "OneFormer (InternImage-H,single-scale)",
+      "d": "2022-11-10",
+      "m1": "60.0",
+      "m2": "49.2",
+      "m3": "67.1",
+      "m10": "52.0",
+      "m11": "68.8"
+    },
+    {
+      "p": "[A Simple Framework for Open-Vocabulary Segmentation and Detection](https://arxiv.org/abs/2303.08131v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/X-Decoder)",
+      "n": "OpenSeeD (SwinL, single-scale)",
+      "d": "2023-03-14",
+      "m1": "59.5",
+      "m10": "53.2"
+    },
+    {
+      "p": "[UMG-CLIP: A Unified Multi-Granularity Vision Generalist for Open-World Understanding](https://arxiv.org/abs/2401.06397v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/lygsbw/umg-clip)",
+      "n": "UMG-CLIP-E/14",
+      "d": "2024-01-12",
+      "m1": "59.5",
+      "m10": "50.7",
+      "m11": "69.7"
+    },
+    {
+      "p": "[Mask DINO: Towards A Unified Transformer-based Framework for Object Detection and Segmentation](https://arxiv.org/abs/2206.02777v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleDetection)",
+      "n": "MasK DINO (SwinL,single-scale)",
+      "d": "2022-06-06",
+      "m1": "59.4",
+      "m10": "50.9"
+    },
+    {
+      "p": "[Your ViT is Secretly an Image Segmentation Model](https://arxiv.org/abs/2503.19108v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tue-mps/eomt)",
+      "n": "EoMT (DINOv2-g, single-scale, 1280x1280)",
+      "d": "2025-03-24",
+      "m1": "59.2"
+    },
+    {
+      "p": "[UMG-CLIP: A Unified Multi-Granularity Vision Generalist for Open-World Understanding](https://arxiv.org/abs/2401.06397v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/lygsbw/umg-clip)",
+      "n": "UMG-CLIP-L/14",
+      "d": "2024-01-12",
+      "m1": "58.9",
+      "m10": "49.7",
+      "m11": "68.9"
+    },
+    {
+      "p": "[Dilated Neighborhood Attention Transformer](https://arxiv.org/abs/2209.15001v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "DiNAT-L (single-scale, Mask2Former)",
+      "d": "2022-09-29",
+      "m1": "58.5",
+      "m2": "48.8",
+      "m3": "64.9",
+      "m10": "49.2",
+      "m11": "68.3"
+    },
+    {
+      "p": "[Vision Transformer Adapter for Dense Predictions](https://arxiv.org/abs/2205.08534v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/czczup/vit-adapter)",
+      "n": "ViT-Adapter-L (single-scale, BEiTv2 pretrain, Mask2Former)",
+      "d": "2022-05-17",
+      "m1": "58.4",
+      "m2": "48.4",
+      "m3": "65.0",
+      "m10": "48.9"
+    },
+    {
+      "p": "[Visual Attention Network](https://arxiv.org/abs/2202.09741v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "Visual Attention Network (VAN-B6 + Mask2Former)",
+      "d": "2022-02-20",
+      "m1": "58.2",
+      "m2": "48.2",
+      "m3": "64.8"
+    },
+    {
+      "p": "[kMaX-DeepLab: k-means Mask Transformer](https://arxiv.org/abs/2207.04044v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/deeplab2)",
+      "n": "kMaX-DeepLab (single-scale, pseudo-labels)",
+      "d": "2022-07-08",
+      "m1": "58.1",
+      "m2": "48.8",
+      "m3": "64.3"
+    },
+    {
+      "p": "[Hierarchical Open-vocabulary Universal Image Segmentation](https://arxiv.org/abs/2307.00764v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/berkeley-hipie/hipie)",
+      "n": "HIPIE (ViT-H, single-scale)",
+      "d": "2023-07-03",
+      "m1": "58.1",
+      "m11": "66.8"
+    },
+    {
+      "p": "[kMaX-DeepLab: k-means Mask Transformer](https://arxiv.org/abs/2207.04044v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/deeplab2)",
+      "n": "kMaX-DeepLab (single-scale, drop query with 256 queries)",
+      "d": "2022-07-08",
+      "m1": "58.0",
+      "m2": "48.6",
+      "m3": "64.2"
+    },
+    {
+      "p": "[OneFormer: One Transformer to Rule Universal Image Segmentation](https://arxiv.org/abs/2211.06220v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "OneFormer (DiNAT-L, single-scale)",
+      "d": "2022-11-10",
+      "m1": "58.0",
+      "m2": "48.4",
+      "m3": "64.3",
+      "m10": "49.2",
+      "m11": "68.1"
+    },
+    {
+      "p": "[kMaX-DeepLab: k-means Mask Transformer](https://arxiv.org/abs/2207.04044v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/deeplab2)",
+      "n": "kMaX-DeepLab (single-scale)",
+      "d": "2022-07-08",
+      "m1": "57.9",
+      "m2": "48.6",
+      "m3": "64.0"
+    },
+    {
+      "p": "[OneFormer: One Transformer to Rule Universal Image Segmentation](https://arxiv.org/abs/2211.06220v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "OneFormer (Swin-L, single-scale)",
+      "d": "2022-11-10",
+      "m1": "57.9",
+      "m2": "48.0",
+      "m3": "64.4",
+      "m10": "49.0",
+      "m11": "67.4"
+    },
+    {
+      "p": "[Focal Modulation Networks](https://arxiv.org/abs/2203.11926v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleDetection)",
+      "n": "FocalNet-L (Mask2Former (200 queries))",
+      "d": "2022-03-22",
+      "m1": "57.9",
+      "m10": "48.4"
+    },
+    {
+      "p": "[Masked-attention Mask Transformer for Universal Image Segmentation](https://arxiv.org/abs/2112.01527v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "Mask2Former (single-scale)",
+      "d": "2021-12-02",
+      "m1": "57.8",
+      "m2": "48.1",
+      "m3": "64.2",
+      "m10": "48.6"
+    },
+    {
+      "p": "[Panoptic SegFormer: Delving Deeper into Panoptic Segmentation with Transformers](https://arxiv.org/abs/2109.03814v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhiqi-li/Panoptic-SegFormer)",
+      "n": "Panoptic SegFormer (single-scale)",
+      "d": "2021-09-08",
+      "m1": "55.8",
+      "m2": "46.9",
+      "m3": "61.7"
+    },
+    {
+      "p": "[CMT-DeepLab: Clustering Mask Transformers for Panoptic Segmentation](https://arxiv.org/abs/2206.08948v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/bytedance/kmax-deeplab)",
+      "n": "CMT-DeepLab (single-scale)",
+      "d": "2022-06-17",
+      "m1": "55.3",
+      "m2": "46.6",
+      "m3": "61.0"
+    },
+    {
+      "p": "[Per-Pixel Classification is Not All You Need for Semantic Segmentation](https://arxiv.org/abs/2107.06278v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "MaskFormer (single-scale)",
+      "d": "2021-07-13",
+      "m1": "52.7",
+      "m2": "44.0",
+      "m3": "58.5",
+      "m4": "63.5",
+      "m5": "81.8"
+    },
+    {
+      "p": "[MaX-DeepLab: End-to-End Panoptic Segmentation with Mask Transformers](https://arxiv.org/abs/2012.00759v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/deeplab2)",
+      "n": "MaX-DeepLab-L (single-scale)",
+      "d": "2020-12-01",
+      "m1": "51.1",
+      "m2": "42.2",
+      "m3": "57.0"
+    },
+    {
+      "p": "[Panoptic SegFormer: Delving Deeper into Panoptic Segmentation with Transformers](https://arxiv.org/abs/2109.03814v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhiqi-li/Panoptic-SegFormer)",
+      "n": "Panoptic SegFormer (ResNet-101)",
+      "d": "2021-09-08",
+      "m1": "50.6",
+      "m2": "43.2",
+      "m3": "55.5"
+    },
+    {
+      "p": "[ResNeSt: Split-Attention Networks](https://arxiv.org/abs/2004.08955v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "PanopticFPN+ResNeSt(single-scale)",
+      "d": "2020-04-19",
+      "m1": "47.9",
+      "m2": "37.0",
+      "m3": "55.1"
+    },
+    {
+      "p": "[End-to-End Object Detection with Transformers](https://arxiv.org/abs/2005.12872v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "DETR-R101 (ResNet-101)",
+      "d": "2020-05-26",
+      "m1": "45.1",
+      "m2": "37",
+      "m3": "50.5",
+      "m4": "55.5",
+      "m5": "79.9",
+      "m6": "46",
+      "m7": "61.7",
+      "m8": "78.5",
+      "m9": "80.9",
+      "m10": "33"
+    },
+    {
+      "p": "[Fully Convolutional Networks for Panoptic Segmentation](https://arxiv.org/abs/2012.00720v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dvlab-research/panopticfcn)",
+      "n": "Panoptic FCN* (ResNet-50-FPN)",
+      "d": "2020-12-01",
+      "m1": "44.3",
+      "m2": "35.6",
+      "m3": "50",
+      "m4": "53",
+      "m5": "80.7",
+      "m6": "43.5",
+      "m7": "59.3",
+      "m8": "76.7",
+      "m9": "83.4"
+    },
+    {
+      "p": "[End-to-End Object Detection with Transformers](https://arxiv.org/abs/2005.12872v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "PanopticFPN++",
+      "d": "2020-05-26",
+      "m1": "44.1",
+      "m2": "33.6",
+      "m3": "51.0",
+      "m4": "53.3",
+      "m5": "79.5",
+      "m6": "42.1",
+      "m7": "60.6",
+      "m8": "74.0",
+      "m9": "83.2",
+      "m10": "39.7"
+    },
+    {
+      "p": "[Axial-DeepLab: Stand-Alone Axial-Attention for Panoptic Segmentation](https://arxiv.org/abs/2003.07853v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/The-AI-Summer/self_attention)",
+      "n": "Axial-DeepLab-L (multi-scale)",
+      "d": "2020-03-17",
+      "m1": "43.9"
+    },
+    {
+      "p": "[Axial-DeepLab: Stand-Alone Axial-Attention for Panoptic Segmentation](https://arxiv.org/abs/2003.07853v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/The-AI-Summer/self_attention)",
+      "n": "Axial-DeepLab-L (single-scale)",
+      "d": "2020-03-17",
+      "m1": "43.4",
+      "m2": "35.6",
+      "m3": "48.5"
+    },
+    {
+      "p": "[Axial-DeepLab: Stand-Alone Axial-Attention for Panoptic Segmentation](https://arxiv.org/abs/2003.07853v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/The-AI-Summer/self_attention)",
+      "n": "Axial-DeepLab-L(multi-scale)",
+      "d": "2020-03-17",
+      "m2": "36.8",
+      "m3": "48.6"
+    },
+    {
+      "p": "[Fully Convolutional Networks for Panoptic Segmentation](https://arxiv.org/abs/2012.00720v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dvlab-research/panopticfcn)",
+      "n": "Panoptic FCN* (Swin-L, single-scale)",
+      "d": "2020-12-01",
+      "m3": "58.5 ",
+      "m4": " 61.6",
+      "m5": "83.2",
+      "m6": "51.1",
+      "m7": "68.6 ",
+      "m8": "81.1",
+      "m9": "84.6"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

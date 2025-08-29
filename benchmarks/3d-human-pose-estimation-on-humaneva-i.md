@@ -1,0 +1,256 @@
+# 3d-human-pose-estimation-on-humaneva-i
+
+[Dataset Link]() \
+Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', '3D Human Pose Estimation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Mean Reconstruction Error (mm)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[GLA-GCN: Global-local Adaptive Graph Convolutional Network for 3D Human Pose Estimation from Monocular Video](https://arxiv.org/abs/2307.05853v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/bruceyo/GLA-GCN)",
+      "n": "GLA-GCN (T=27, GT)",
+      "d": "2023-07-12",
+      "m1": "9.2"
+    },
+    {
+      "p": "[Exploiting Temporal Contexts with Strided Transformer for 3D Human Pose Estimation](https://arxiv.org/abs/2103.14304v8)",
+      "c": "[&check;&nbsp;Link](https://github.com/Vegetebird/StridedTransformer-Pose3D)",
+      "n": "StridedTransformer (T=27 GT)",
+      "d": "2021-03-26",
+      "m1": "12.2"
+    },
+    {
+      "p": "[3D Human Pose Estimation using Spatio-Temporal Networks with Explicit Occlusion Training](https://arxiv.org/abs/2004.11822v1)",
+      "c": "",
+      "n": "Spatio-Temporal Network (T=128)",
+      "d": "2020-04-07",
+      "m1": "13.5"
+    },
+    {
+      "p": "[Occlusion-Aware Networks for 3D Human Pose Estimation in Video](http://openaccess.thecvf.com/content_ICCV_2019/html/Cheng_Occlusion-Aware_Networks_for_3D_Human_Pose_Estimation_in_Video_ICCV_2019_paper.html)",
+      "c": "",
+      "n": "Occlusion-Aware Networks",
+      "d": "2019-10-01",
+      "m1": "14.3"
+    },
+    {
+      "p": "[HEMlets Pose: Learning Part-Centric Heatmap Triplets for Accurate 3D Human Pose Estimation](https://arxiv.org/abs/1910.12032v1)",
+      "c": "",
+      "n": "HEMlets Pose",
+      "d": "2019-10-26",
+      "m1": "15.2"
+    },
+    {
+      "p": "[Enhanced 3D Human Pose Estimation from Videos by using Attention-Based Neural Network with Dilated Convolutions](https://arxiv.org/abs/2103.03170v1)",
+      "c": "",
+      "n": "Attention (T=27 MA)",
+      "d": "2021-03-04",
+      "m1": "15.4"
+    },
+    {
+      "p": "[MixSTE: Seq2seq Mixed Spatio-Temporal Encoder for 3D Human Pose Estimation in Video](https://arxiv.org/abs/2203.00859v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/JinluZhang1126/MixSTE)",
+      "n": "MixSTE (T=43, FT)",
+      "d": "2022-03-02",
+      "m1": "16.1"
+    },
+    {
+      "p": "[Ordinal Depth Supervision for 3D Human Pose Estimation](http://arxiv.org/abs/1805.04095v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/geopavlakos/ordinal-pose3d)",
+      "n": "Ordinal Depth Supervision",
+      "d": "2018-05-10",
+      "m1": "18.3"
+    },
+    {
+      "p": "[Exploiting Temporal Contexts with Strided Transformer for 3D Human Pose Estimation](https://arxiv.org/abs/2103.14304v8)",
+      "c": "[&check;&nbsp;Link](https://github.com/Vegetebird/StridedTransformer-Pose3D)",
+      "n": "StridedTransformer (T=27 MRCNN)",
+      "d": "2021-03-26",
+      "m1": "18.9"
+    },
+    {
+      "p": "[Refined Temporal Pyramidal Compression-and-Amplification Transformer for 3D Human Pose Estimation](https://arxiv.org/abs/2309.01365v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hbing-l/rtpca)",
+      "n": "RTPCA",
+      "d": "2023-09-04",
+      "m1": "19.1"
+    },
+    {
+      "p": "[Learning Dynamical Human-Joint Affinity for 3D Pose Estimation in Videos](https://arxiv.org/abs/2109.07353v1)",
+      "c": "",
+      "n": "DG-Net (T=4)",
+      "d": "2021-09-15",
+      "m1": "19.5"
+    },
+    {
+      "p": "[A Graph Attention Spatio-temporal Convolutional Network for 3D Human Pose Estimation in Video](https://arxiv.org/abs/2003.14179v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/fabro66/GAST-Net-3DPoseEstimation)",
+      "n": "GAST",
+      "d": "2020-03-11",
+      "m1": "21.2"
+    },
+    {
+      "p": "[3D Human Pose Estimation with Spatial and Temporal Transformers](https://arxiv.org/abs/2103.10455v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/zczcwh/PoseFormer)",
+      "n": "PoseFormer",
+      "d": "2021-03-18",
+      "m1": "21.6"
+    },
+    {
+      "p": "[Exploiting temporal information for 3D pose estimation](http://arxiv.org/abs/1711.08585v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/rayat137/Pose_3D)",
+      "n": "Sequence-to-sequence network",
+      "d": "2017-11-23",
+      "m1": "22"
+    },
+    {
+      "p": "[Learning Pose Grammar for Monocular 3D Pose Estimation](http://www.stat.ucla.edu/~jxie/personalpage_file/publications/3dpose_pami19.pdf)",
+      "c": "",
+      "n": "3D Pose Grammar Network",
+      "d": "2019-06-01",
+      "m1": "22.9"
+    },
+    {
+      "p": "[Learning Pose Grammar to Encode Human Body Configuration for 3D Pose Estimation](http://arxiv.org/abs/1710.06513v6)",
+      "c": "",
+      "n": "Pose Grammar",
+      "d": "2017-10-17",
+      "m1": "22.9"
+    },
+    {
+      "p": "[Monocular 3D Human Pose Estimation by Generation and Ordinal Ranking](https://arxiv.org/abs/1904.01324v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ssfootball04/generative_pose)",
+      "n": "Ours (Oracle)",
+      "d": "2019-04-02",
+      "m1": "23.9"
+    },
+    {
+      "p": "[Coarse-to-Fine Volumetric Prediction for Single-Image 3D Human Pose](http://arxiv.org/abs/1611.07828v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/geopavlakos/c2f-vol-train)",
+      "n": "c2f-vol",
+      "d": "2016-11-23",
+      "m1": "24.3"
+    },
+    {
+      "p": "[ConvFormer: Parameter Reduction in Transformer Models for 3D Human Pose Estimation by Leveraging Dynamic Multi-Headed Convolutional Attention](https://arxiv.org/abs/2304.02147v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ajda1992/convformer)",
+      "n": "ConvFormer (T=43)",
+      "d": "2023-04-04",
+      "m1": "24.3"
+    },
+    {
+      "p": "[A simple yet effective baseline for 3d human pose estimation](http://arxiv.org/abs/1705.03098v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmpose)",
+      "n": "SIM (SH detections)",
+      "d": "2017-05-08",
+      "m1": "24.6"
+    },
+    {
+      "p": "[3D Human Pose Estimation from a Single Image via Distance Matrix Regression](http://arxiv.org/abs/1611.09010v1)",
+      "c": "",
+      "n": "EDM",
+      "d": "2016-11-28",
+      "m1": "26.9"
+    },
+    {
+      "p": "[Recurrent 3D Pose Sequence Machines](http://arxiv.org/abs/1707.09695v1)",
+      "c": "",
+      "n": "Recurrent 3D Pose Sequence Machines",
+      "d": "2017-07-31",
+      "m1": "30.8"
+    },
+    {
+      "p": "[Deep Multitask Architecture for Integrated 2D and 3D Human Sensing](http://arxiv.org/abs/1701.08985v1)",
+      "c": "",
+      "n": "DMHSR(J,B,D)",
+      "d": "2017-01-31",
+      "m1": "33.7"
+    },
+    {
+      "p": "[A Dual-Source Approach for 3D Pose Estimation from a Single Image](http://arxiv.org/abs/1509.06720v2)",
+      "c": "",
+      "n": "Dual-source approach",
+      "d": "2015-09-22",
+      "m1": "38.9"
+    },
+    {
+      "p": "[Twin gaussian processes for structured prediction](https://doi.org/10.1007/s11263-008-0204-y)",
+      "c": "",
+      "n": "TGP",
+      "d": "2010-03-01",
+      "m1": "39.1"
+    },
+    {
+      "p": "[Depth sweep regression forests for estimating 3d human pose from images](http://dx.doi.org/10.5244/C.28.80)",
+      "c": "",
+      "n": "DSRF",
+      "d": "2014-09-01",
+      "m1": "40.3"
+    },
+    {
+      "p": "[A Joint Model for 2D and 3D Pose Estimation from a Single Image](http://openaccess.thecvf.com/content_cvpr_2013/html/Simo-Serra_A_Joint_Model_2013_CVPR_paper.html)",
+      "c": "",
+      "n": "Simo-Serra et al.",
+      "d": "2013-06-01",
+      "m1": "56.7"
+    },
+    {
+      "p": "[Neural Body Fitting: Unifying Deep Learning and Model-Based Human Pose and Shape Estimation](http://arxiv.org/abs/1808.05942v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/andrewjong/SwapNet)",
+      "n": "Ours",
+      "d": "2018-08-17",
+      "m1": "64"
+    },
+    {
+      "p": "[Robust Estimation of 3D Human Poses from a Single Image](http://arxiv.org/abs/1406.2282v1)",
+      "c": "",
+      "n": "Wang et al.",
+      "d": "2014-06-09",
+      "m1": "71.3"
+    },
+    {
+      "p": "[Unite the People: Closing the Loop Between 3D and 2D Human Representations](http://arxiv.org/abs/1701.02468v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/MandyMo/pytorch_HMR)",
+      "n": "SMPLify (dense)",
+      "d": "2017-01-10",
+      "m1": "74.5"
+    },
+    {
+      "p": "[Keep it SMPL: Automatic Estimation of 3D Human Pose and Shape from a Single Image](http://arxiv.org/abs/1607.08128v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Jtoo/fitting_human_smpl_model)",
+      "n": "SMPLify",
+      "d": "2016-07-27",
+      "m1": "79.9"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

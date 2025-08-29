@@ -1,0 +1,67 @@
+# domain-adaptation-on-gtav-to-cityscapes-1
+
+[Dataset Link]() \
+Task Hierarchy: ['Domain Adaptation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mIoU",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Stronger, Fewer, & Superior: Harnessing Vision Foundation Models for Domain Generalized Semantic Segmentation](https://arxiv.org/abs/2312.04265v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/w1oves/rein)",
+      "n": "Rein",
+      "d": "2023-12-07",
+      "m1": "63.3"
+    },
+    {
+      "p": "[Deliberated Domain Bridging for Domain Adaptive Semantic Segmentation](https://arxiv.org/abs/2209.07695v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/xiaoachen98/DDB)",
+      "n": "DDB",
+      "d": "2022-09-16",
+      "m1": "58.6"
+    },
+    {
+      "p": "[ADAS: A Direct Adaptation Strategy for Multi-Target Domain Adaptive Semantic Segmentation](https://arxiv.org/abs/2203.06811v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Seung-Hun-Lee/ADAS)",
+      "n": "ADAS",
+      "d": "2022-03-14",
+      "m1": "47.5"
+    },
+    {
+      "p": "[Multi-Target Domain Adaptation with Collaborative Consistency Learning](https://arxiv.org/abs/2106.03418v1)",
+      "c": "",
+      "n": "CCL",
+      "d": "2021-06-07",
+      "m1": "46.8"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

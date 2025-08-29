@@ -1,0 +1,92 @@
+# point-processes-on-amazon-mtpp
+
+[Dataset Link](https://huggingface.co/datasets/easytpp/amazon) \
+Task Hierarchy: ['Point Processes']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "T-mAP",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "OTD",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Accuracy (%)",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "MAE",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[DeTPP: Leveraging Object Detection for Robust Long-Horizon Event Prediction](https://arxiv.org/abs/2408.13131v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ivan-chai/torch-linear-assignment)",
+      "n": "DeTPP",
+      "d": "2024-08-23",
+      "m1": "37.18",
+      "m2": "5.98"
+    },
+    {
+      "p": "[HoTPP Benchmark: Are We Good at the Long Horizon Events Forecasting?](https://arxiv.org/abs/2406.14341v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ivan-chai/torch-linear-assignment)",
+      "n": "NHP",
+      "d": "2024-06-20",
+      "m1": "26.29",
+      "m2": "9.02",
+      "m3": "11.06",
+      "m4": "0.449"
+    },
+    {
+      "p": "[HoTPP Benchmark: Are We Good at the Long Horizon Events Forecasting?](https://arxiv.org/abs/2406.14341v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ivan-chai/torch-linear-assignment)",
+      "n": "IFTPP",
+      "d": "2024-06-20",
+      "m1": "22.56",
+      "m2": "6.52",
+      "m3": "35.73",
+      "m4": "0.242"
+    },
+    {
+      "p": "[HoTPP Benchmark: Are We Good at the Long Horizon Events Forecasting?](https://arxiv.org/abs/2406.14341v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ivan-chai/torch-linear-assignment)",
+      "n": "RMTPP",
+      "d": "2024-06-20",
+      "m1": "20.06",
+      "m2": "6.57",
+      "m3": "35.76",
+      "m4": "0.294"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

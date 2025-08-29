@@ -1,0 +1,108 @@
+# video-deraining-on-vrds
+
+[Dataset Link](https://github.com/TonyHongtaoWu/ViMP-Net) \
+Task Hierarchy: ['Video deraining']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "SSIM",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Learning Truncated Causal History Model for Video Restoration](https://arxiv.org/abs/2410.03936v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Ascend-Research/Turtle)",
+      "n": "Turtle",
+      "d": "2024-10-04",
+      "m1": "0.9590",
+      "m2": "32.01"
+    },
+    {
+      "p": "[RainMamba: Enhanced Locality Learning with State Space Models for Video Deraining](https://arxiv.org/abs/2407.21773v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/TonyHongtaoWu/RainMamba)",
+      "n": "RainMamba",
+      "d": "2024-07-31",
+      "m1": "0.9366",
+      "m2": "32.04"
+    },
+    {
+      "p": "[Restormer: Efficient Transformer for High-Resolution Image Restoration](https://arxiv.org/abs/2111.09881v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/swz30/restormer)",
+      "n": "Restormer",
+      "d": "2021-11-18",
+      "m1": "0.9206",
+      "m2": "29.59"
+    },
+    {
+      "p": "[MPRNet: Multi-Path Residual Network for Lightweight Image Super Resolution](https://arxiv.org/abs/2011.04566v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/swz30/MPRNet)",
+      "n": "MPRNet",
+      "d": "2020-11-09",
+      "m1": "0.9175",
+      "m2": "29.53"
+    },
+    {
+      "p": "[BasicVSR++: Improving Video Super-Resolution with Enhanced Propagation and Alignment](https://arxiv.org/abs/2104.13371v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmediting)",
+      "n": "BasicVSR++",
+      "d": "2021-04-27",
+      "m1": "0.9171",
+      "m2": "29.75"
+    },
+    {
+      "p": "[Learning Trajectory-Aware Transformer for Video Super-Resolution](https://arxiv.org/abs/2204.04216v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/researchmm/TTVSR)",
+      "n": "TTVSR",
+      "d": "2022-04-08",
+      "m1": "0.8998",
+      "m2": "28.05"
+    },
+    {
+      "p": "[BasicVSR: The Search for Essential Components in Video Super-Resolution and Beyond](https://arxiv.org/abs/2012.02181v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/XPixelGroup/BasicSR)",
+      "n": "BasicVSR",
+      "d": "2020-12-03",
+      "m1": "0.8990",
+      "m2": "28.35"
+    },
+    {
+      "p": "[Recurrent Video Restoration Transformer with Guided Deformable Attention](https://arxiv.org/abs/2206.02146v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/jingyunliang/rvrt)",
+      "n": "RVRT",
+      "d": "2022-06-05",
+      "m1": "0.8857",
+      "m2": "28.24"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,164 @@
+# rgb-t-tracking-on-gtot
+
+[Dataset Link]() \
+Task Hierarchy: ['Visual Tracking', 'Rgb-T Tracking']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Precision",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Success",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[MambaVT: Spatio-Temporal Contextual Modeling for robust RGB-T Tracking](https://arxiv.org/abs/2408.07889v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/laisimiao/MambaVT)",
+      "n": "MambaVT-M256",
+      "d": "2024-08-15",
+      "m1": "95.2",
+      "m2": "78.6"
+    },
+    {
+      "p": "[Breaking Shallow Limits: Task-Driven Pixel Fusion for Gap-free RGBT Tracking](https://arxiv.org/abs/2503.11247v1)",
+      "c": "",
+      "n": "TPF",
+      "d": "2025-03-14",
+      "m1": "94.3",
+      "m2": "76.3"
+    },
+    {
+      "p": "[MambaVT: Spatio-Temporal Contextual Modeling for robust RGB-T Tracking](https://arxiv.org/abs/2408.07889v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/laisimiao/MambaVT)",
+      "n": "MambaVT-S256",
+      "d": "2024-08-15",
+      "m1": "94.1",
+      "m2": "75.3"
+    },
+    {
+      "p": "[Revisiting RGBT Tracking Benchmarks from the Perspective of Modality Validity: A New Benchmark, Problem, and Method](https://arxiv.org/abs/2405.00168v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhangyong-tang/moetrack)",
+      "n": "MoETrack",
+      "d": "2024-04-30",
+      "m1": "93.6",
+      "m2": "78.4"
+    },
+    {
+      "p": "[Unified Single-Stage Transformer Network for Efficient RGB-T Tracking](https://arxiv.org/abs/2308.13764v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/xiajianqiang/USTrack)",
+      "n": "USTrack",
+      "d": "2023-08-26",
+      "m1": "93.4",
+      "m2": "78.3"
+    },
+    {
+      "p": "[From Two-Stream to One-Stream: Efficient RGB-T Tracking via Mutual Prompt Learning and Knowledge Distillation](https://arxiv.org/abs/2403.16834v2)",
+      "c": "",
+      "n": "MMMP",
+      "d": "2024-03-25",
+      "m1": "92.4",
+      "m2": "77.3"
+    },
+    {
+      "p": "[Cross-modulated Attention Transformer for RGBT Tracking](https://arxiv.org/abs/2408.02222v1)",
+      "c": "",
+      "n": "CAFormer",
+      "d": "2024-08-05",
+      "m1": "91.8",
+      "m2": "76.9"
+    },
+    {
+      "p": "[AFter: Attention-based Fusion Router for RGBT Tracking](https://arxiv.org/abs/2405.02717v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/alexadlu/after)",
+      "n": "AFter",
+      "d": "2024-05-04",
+      "m1": "91.6",
+      "m2": "78.5"
+    },
+    {
+      "p": "[Visible-Thermal UAV Tracking: A Large-Scale Benchmark and New Baseline](https://arxiv.org/abs/2204.04120v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhang-pengyu/HMFT)",
+      "n": "HMFT",
+      "d": "2022-04-08",
+      "m1": "91.2",
+      "m2": "74.9"
+    },
+    {
+      "p": "[Attribute-Based Progressive Fusion Network for RGBT Tracking](https://ojs.aaai.org/index.php/AAAI/article/view/20187)",
+      "c": "[&check;&nbsp;Link](https://github.com/yangmengmeng1997/APFNet)",
+      "n": "APFNet",
+      "d": "2022-01-26",
+      "m1": "90.5",
+      "m2": "73.7"
+    },
+    {
+      "p": "[Jointly Modeling Motion and Appearance Cues for Robust RGB-T Tracking](https://arxiv.org/abs/2007.02041v1)",
+      "c": "",
+      "n": "JMMAC",
+      "d": "2020-07-04",
+      "m1": "90.2",
+      "m2": "73.2"
+    },
+    {
+      "p": "[Efficient RGB-T Tracking via Cross-Modality Distillation](http://openaccess.thecvf.com//content/CVPR2023/html/Zhang_Efficient_RGB-T_Tracking_via_Cross-Modality_Distillation_CVPR_2023_paper.html)",
+      "c": "",
+      "n": "CMD",
+      "d": "2023-01-01",
+      "m1": "89.2",
+      "m2": "73.4"
+    },
+    {
+      "p": "[Challenge-Aware RGBT Tracking](https://arxiv.org/abs/2007.13143v1)",
+      "c": "",
+      "n": "CAT",
+      "d": "2020-07-26",
+      "m1": "88.9",
+      "m2": "71.7"
+    },
+    {
+      "p": "[RGBT Tracking via Multi-Adapter Network with Hierarchical Divergence Loss](https://arxiv.org/abs/2011.07189v3)",
+      "c": "",
+      "n": "MANet++",
+      "d": "2020-11-14",
+      "m1": "88.2",
+      "m2": "70.7"
+    },
+    {
+      "p": "[Dynamic Fusion Network for RGBT Tracking](https://arxiv.org/abs/2109.07662v1)",
+      "c": "",
+      "n": "DFNet",
+      "d": "2021-09-16",
+      "m1": "88.1",
+      "m2": "71.9"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

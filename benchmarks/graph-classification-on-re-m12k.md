@@ -1,0 +1,81 @@
+# graph-classification-on-re-m12k
+
+[Dataset Link]() \
+Task Hierarchy: ['Classification', 'Graph Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Are Powerful Graph Neural Nets Necessary? A Dissection on Graph Classification](https://arxiv.org/abs/1905.04579v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/chentingpc/gfn)",
+      "n": "GFN-light",
+      "d": "2019-05-11",
+      "m1": "49.75%"
+    },
+    {
+      "p": "[Are Powerful Graph Neural Nets Necessary? A Dissection on Graph Classification](https://arxiv.org/abs/1905.04579v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/chentingpc/gfn)",
+      "n": "GFN",
+      "d": "2019-05-11",
+      "m1": "49.43%"
+    },
+    {
+      "p": "[Graph Classification with 2D Convolutional Neural Networks](https://arxiv.org/abs/1708.02218v4)",
+      "c": "",
+      "n": "2D CNN",
+      "d": "2017-07-29",
+      "m1": "48.13%"
+    },
+    {
+      "p": "[Wasserstein Embedding for Graph Learning](https://arxiv.org/abs/2006.09430v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/navid-naderi/WEGL)",
+      "n": "WEGL",
+      "d": "2020-06-16",
+      "m1": "47.8%"
+    },
+    {
+      "p": "[Capsule Graph Neural Network](https://openreview.net/forum?id=Byl8BnRcYm)",
+      "c": "[&check;&nbsp;Link](https://github.com/benedekrozemberczki/CapsGNN)",
+      "n": "CapsGNN",
+      "d": "2019-05-01",
+      "m1": "46.62%"
+    },
+    {
+      "p": "[Deep Graph Kernels](https://www.semanticscholar.org/paper/Deep-Graph-Kernels-Yanardag-Vishwanathan/8ccd0adb1a00358ede79f1d9bdcce472dc1cb8d4)",
+      "c": "",
+      "n": "DGK",
+      "d": "2015-08-10",
+      "m1": "32.22%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

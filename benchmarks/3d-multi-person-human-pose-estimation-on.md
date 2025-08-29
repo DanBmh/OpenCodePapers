@@ -1,0 +1,109 @@
+# 3d-multi-person-human-pose-estimation-on
+
+[Dataset Link](http://gvv.mpi-inf.mpg.de/projects/SingleShotMultiPerson/) \
+Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', '3D Human Pose Estimation', '3D Multi-Person Pose Estimation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "3DPCK",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Multi-Person 3D Pose and Shape Estimation via Inverse Kinematics and Refinement](https://arxiv.org/abs/2210.13529v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/JunukCha/MultiPerson)",
+      "n": "Multi-Person 3D Pose and Shape Estimation via Inverse Kinematics and Refinement",
+      "d": "2022-10-24",
+      "m1": "89.9"
+    },
+    {
+      "p": "[Multi-HMR: Multi-Person Whole-Body Human Mesh Recovery in a Single Shot](https://arxiv.org/abs/2402.14654v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/naver/multi-hmr)",
+      "n": "Multi-HMR",
+      "d": "2024-02-22",
+      "m1": "89.5"
+    },
+    {
+      "p": "[Temporal Smoothing for 3D Human Pose Estimation and Localization for Occluded People](https://arxiv.org/abs/2011.00250v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/vegesm/pose_refinement)",
+      "n": "Temporal Smoothing",
+      "d": "2020-10-31",
+      "m1": "85.3"
+    },
+    {
+      "p": "[Unsupervised Cross-Modal Alignment for Multi-Person 3D Pose Estimation](https://arxiv.org/abs/2008.01388v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/revanurambareesh/multiperson)",
+      "n": "Unsupervised Cross-Modal Alignment",
+      "d": "2020-08-04",
+      "m1": "78.4"
+    },
+    {
+      "p": "[MUG: Multi-human Graph Network for 3D Mesh Reconstruction from 2D Pose](https://arxiv.org/abs/2205.12583v3)",
+      "c": "",
+      "n": "MUG",
+      "d": "2022-05-25",
+      "m1": "76.27"
+    },
+    {
+      "p": "[Three Recipes for Better 3D Pseudo-GTs of 3D Human Mesh Estimation in the Wild](https://arxiv.org/abs/2304.04875v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/mks0601/NeuralAnnot_RELEASE)",
+      "n": "3DCrowdNet",
+      "d": "2023-04-10",
+      "m1": "76.2"
+    },
+    {
+      "p": "[XNect: Real-time Multi-Person 3D Motion Capture with a Single RGB Camera](https://arxiv.org/abs/1907.00837v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "SelecSLS",
+      "d": "2019-07-01",
+      "m1": "75.8"
+    },
+    {
+      "p": "[Multi-Person 3D Human Pose Estimation from Monocular Images](https://arxiv.org/abs/1909.10854v1)",
+      "c": "",
+      "n": "HG-RCNN",
+      "d": "2019-09-24",
+      "m1": "74.2"
+    },
+    {
+      "p": "[Body Meshes as Points](https://arxiv.org/abs/2105.02467v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jfzhang95/BMP)",
+      "n": "BMP",
+      "d": "2021-05-06",
+      "m1": "73.83"
+    },
+    {
+      "p": "[Learning to Estimate Robust 3D Human Mesh from In-the-Wild Crowded Scenes](https://arxiv.org/abs/2104.07300v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hongsukchoi/3dcrowdnet_release)",
+      "n": "3DCrowdNet (HigherHRNet)",
+      "d": "2021-04-15",
+      "m1": "72.7"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

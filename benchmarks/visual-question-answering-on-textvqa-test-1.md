@@ -1,0 +1,123 @@
+# visual-question-answering-on-textvqa-test-1
+
+[Dataset Link](https://textvqa.org/) \
+Task Hierarchy: ['Visual Question Answering (VQA)']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "overall",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[PaLI: A Jointly-Scaled Multilingual Language-Image Model](https://arxiv.org/abs/2209.06794v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/big_vision)",
+      "n": "PaLI",
+      "d": "2022-09-14",
+      "m1": "73.1"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "TAP",
+      "d": null,
+      "m1": "53.97"
+    },
+    {
+      "p": "[TAG: Boosting Text-VQA via Text-aware Visual Question-answer Generation](https://arxiv.org/abs/2208.01813v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/HenryJunW/TAG)",
+      "n": "TAG",
+      "d": "2022-08-03",
+      "m1": "53.69"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "ssbaseline",
+      "d": null,
+      "m1": "45.66"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "SMA single model",
+      "d": null,
+      "m1": "45.51"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "SAM (Single Model)",
+      "d": null,
+      "m1": "44.8"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "colab_buaa",
+      "d": null,
+      "m1": "44.73"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "CRN (Single Model)",
+      "d": null,
+      "m1": "40.96"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "CIG",
+      "d": null,
+      "m1": "40.77"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "M4C",
+      "d": null,
+      "m1": "40.46"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Shuai",
+      "d": null,
+      "m1": "39.95"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "mmgnn",
+      "d": null,
+      "m1": "32.46"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,74 @@
+# math-word-problem-solving-on-draw-1k
+
+[Dataset Link](https://www.microsoft.com/en-us/download/details.aspx?id=52628) \
+Task Hierarchy: ['Mathematical Reasoning', 'Math Word Problem Solving']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy (%)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[EPT-X: An Expression-Pointer Transformer model that generates eXplanations for numbers](https://aclanthology.org/2022.acl-long.305)",
+      "c": "[&check;&nbsp;Link](https://github.com/snucclab/ept-x)",
+      "n": "EPT",
+      "d": null,
+      "m1": "63.5"
+    },
+    {
+      "p": "[Generating Equation by Utilizing Operators : GEO model](https://aclanthology.org/2020.coling-main.38)",
+      "c": "",
+      "n": "GEO",
+      "d": "2020-12-01",
+      "m1": "62.5"
+    },
+    {
+      "p": "[Point to the Expression: Solving Algebraic Word Problems using the Expression-Pointer Transformer Model](https://aclanthology.org/2020.emnlp-main.308)",
+      "c": "[&check;&nbsp;Link](https://github.com/snucclab/EPT)",
+      "n": "EPT",
+      "d": null,
+      "m1": "59.5"
+    },
+    {
+      "p": "[Learning from Explicit and Implicit Supervision Jointly For Algebra Word Problems](https://aclanthology.org/D16-1029)",
+      "c": "",
+      "n": "MixedSP",
+      "d": "2016-11-01",
+      "m1": "59.5"
+    },
+    {
+      "p": "[EPT-X: An Expression-Pointer Transformer model that generates eXplanations for numbers](https://aclanthology.org/2022.acl-long.305)",
+      "c": "[&check;&nbsp;Link](https://github.com/snucclab/ept-x)",
+      "n": "EPT-X",
+      "d": null,
+      "m1": "56"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

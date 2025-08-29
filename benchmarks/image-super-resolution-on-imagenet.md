@@ -1,0 +1,102 @@
+# image-super-resolution-on-imagenet
+
+[Dataset Link](https://image-net.org/index.php) \
+Task Hierarchy: ['16k', 'Image Super-Resolution']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "FID",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "SSIM",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Diffusion Prior-Based Amortized Variational Inference for Noisy Inverse Problems](https://arxiv.org/abs/2407.16125v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/mlvlab/davi)",
+      "n": "DAVI",
+      "d": "2024-07-23",
+      "m1": "36.27",
+      "m2": "26.58"
+    },
+    {
+      "p": "[Zero-Shot Image Restoration Using Denoising Diffusion Null-Space Model](https://arxiv.org/abs/2212.00490v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/wyhuai/ddnm)",
+      "n": "DDNM",
+      "d": "2022-12-01",
+      "m1": "39.26",
+      "m2": "27.46",
+      "m3": "0.87"
+    },
+    {
+      "p": "[Zero-Shot Image Restoration Using Denoising Diffusion Null-Space Model](https://arxiv.org/abs/2212.00490v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/wyhuai/ddnm)",
+      "n": "DDRM",
+      "d": "2022-12-01",
+      "m1": "43.15",
+      "m2": "27.38",
+      "m3": "0.869"
+    },
+    {
+      "p": "[Zero-Shot Image Restoration Using Denoising Diffusion Null-Space Model](https://arxiv.org/abs/2212.00490v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/wyhuai/ddnm)",
+      "n": "ILVR",
+      "d": "2022-12-01",
+      "m1": "43.66",
+      "m2": "27.4",
+      "m3": "0.87"
+    },
+    {
+      "p": "[Zero-Shot Image Restoration Using Denoising Diffusion Null-Space Model](https://arxiv.org/abs/2212.00490v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/wyhuai/ddnm)",
+      "n": "DGP",
+      "d": "2022-12-01",
+      "m1": "64.34",
+      "m2": "23.18",
+      "m3": "0.798"
+    },
+    {
+      "p": "[Zero-Shot Image Restoration Using Denoising Diffusion Null-Space Model](https://arxiv.org/abs/2212.00490v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/wyhuai/ddnm)",
+      "n": "A+y",
+      "d": "2022-12-01",
+      "m1": "134.4",
+      "m2": "24.26",
+      "m3": "0.684"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

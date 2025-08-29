@@ -1,0 +1,67 @@
+# ad-hoc-video-search-on-trecvid-avs16-iacc-3
+
+[Dataset Link](https://trecvid.nist.gov/index.html) \
+Task Hierarchy: ['Ad-hoc video search']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "infAP",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Lightweight Attentional Feature Fusion: A New Baseline for Text-to-Video Retrieval](https://arxiv.org/abs/2112.01832v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/ruc-aimc-lab/laff)",
+      "n": "LAFF",
+      "d": "2021-12-03",
+      "m1": "0.222"
+    },
+    {
+      "p": "[SEA: Sentence Encoder Assembly for Video Retrieval by Textual Queries](https://arxiv.org/abs/2011.12091v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/li-xirong/sea)",
+      "n": "SEA",
+      "d": "2020-11-24",
+      "m1": "0.164"
+    },
+    {
+      "p": "[Dual Encoding for Video Retrieval by Text](https://arxiv.org/abs/2009.05381v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/danieljf24/hybrid_space)",
+      "n": "Dual Encoding",
+      "d": "2020-09-10",
+      "m1": "0.152"
+    },
+    {
+      "p": "[W2VV++: Fully Deep Learning for Ad-hoc Video Search](https://dl.acm.org/doi/pdf/10.1145/3343031.3350906?download=true)",
+      "c": "[&check;&nbsp;Link](https://github.com/li-xirong/w2vvpp)",
+      "n": "W2VV++",
+      "d": "2019-10-21",
+      "m1": "0.151"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

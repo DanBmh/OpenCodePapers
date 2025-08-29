@@ -1,0 +1,124 @@
+# object-rearrangement-on-open6dor-v2
+
+[Dataset Link](https://github.com/qizekun/SoFar) \
+Task Hierarchy: ['Object Rearrangement']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "6-DoF",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "pos-level1",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "pos-level0",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "rot-level0",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "rot-level1",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "rot-level2",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[SoFar: Language-Grounded Orientation Bridges Spatial Reasoning and Object Manipulation](https://arxiv.org/abs/2502.13143v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/qizekun/SoFar)",
+      "n": "SoFar",
+      "d": "2025-02-18",
+      "m1": "48.7",
+      "m2": "81.5",
+      "m3": "96.0",
+      "m4": "68.6",
+      "m5": "42.2",
+      "m6": "70.1"
+    },
+    {
+      "p": "[Open6DOR: Benchmarking Open-instruction 6-DoF Object Rearrangement and A VLM-based Approach](https://pku-epic.github.io/Open6DOR/)",
+      "c": "[&check;&nbsp;Link](https://github.com/Selina2023/Open6DOR)",
+      "n": "Open6DOR",
+      "d": "2024-10-24",
+      "m1": "35.6",
+      "m2": "78.6",
+      "m3": "60.3",
+      "m4": "45.7",
+      "m5": "32.5",
+      "m6": "49.8"
+    },
+    {
+      "p": "[Dream2Real: Zero-Shot 3D Object Rearrangement with Vision-Language Models](https://arxiv.org/abs/2312.04533v2)",
+      "c": "",
+      "n": "Dream2Real",
+      "d": "2023-12-07",
+      "m1": "13.5",
+      "m2": "17.2",
+      "m3": "11.0",
+      "m4": "37.3",
+      "m5": "27.6",
+      "m6": "26.2"
+    },
+    {
+      "p": "[GPT-4 Technical Report](https://arxiv.org/abs/2303.08774v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/openai/evals)",
+      "n": "GPT-4V",
+      "d": "2023-03-15",
+      "m1": "-",
+      "m2": "46.8",
+      "m3": "39.1",
+      "m4": "9.1",
+      "m5": "6.9",
+      "m6": "11.7"
+    },
+    {
+      "p": "[VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models](https://arxiv.org/abs/2307.05973v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huangwl18/voxposer)",
+      "n": "VoxPoser",
+      "d": "2023-07-12",
+      "m1": "-",
+      "m2": "35.6",
+      "m3": "21.7",
+      "m4": "-",
+      "m5": "-",
+      "m6": "-"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

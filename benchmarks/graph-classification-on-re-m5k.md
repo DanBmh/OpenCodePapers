@@ -1,0 +1,95 @@
+# graph-classification-on-re-m5k
+
+[Dataset Link]() \
+Task Hierarchy: ['Classification', 'Graph Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[How Powerful are Graph Neural Networks?](http://arxiv.org/abs/1810.00826v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/mxnet/gin)",
+      "n": "GIN-0",
+      "d": "2018-10-01",
+      "m1": "57.5%"
+    },
+    {
+      "p": "[Improving Attention Mechanism in Graph Neural Networks via Cardinality Preservation](https://arxiv.org/abs/1907.02204v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/zetayue/CPA)",
+      "n": "GAT-GC (f-Scaled)",
+      "d": "2019-07-04",
+      "m1": "57.22%"
+    },
+    {
+      "p": "[Wasserstein Embedding for Graph Learning](https://arxiv.org/abs/2006.09430v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/navid-naderi/WEGL)",
+      "n": "WEGL",
+      "d": "2020-06-16",
+      "m1": "55.1%"
+    },
+    {
+      "p": "[Capsule Graph Neural Network](https://openreview.net/forum?id=Byl8BnRcYm)",
+      "c": "[&check;&nbsp;Link](https://github.com/benedekrozemberczki/CapsGNN)",
+      "n": "CapsGNN",
+      "d": "2019-05-01",
+      "m1": "52.88%"
+    },
+    {
+      "p": "[Graph Classification with 2D Convolutional Neural Networks](https://arxiv.org/abs/1708.02218v4)",
+      "c": "",
+      "n": "2D CNN",
+      "d": "2017-07-29",
+      "m1": "52.11%"
+    },
+    {
+      "p": "[Are Powerful Graph Neural Nets Necessary? A Dissection on Graph Classification](https://arxiv.org/abs/1905.04579v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/chentingpc/gfn)",
+      "n": "GFN-light",
+      "d": "2019-05-11",
+      "m1": "49.75%"
+    },
+    {
+      "p": "[Are Powerful Graph Neural Nets Necessary? A Dissection on Graph Classification](https://arxiv.org/abs/1905.04579v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/chentingpc/gfn)",
+      "n": "GFN",
+      "d": "2019-05-11",
+      "m1": "49.43%"
+    },
+    {
+      "p": "[Deep Graph Kernels](https://www.semanticscholar.org/paper/Deep-Graph-Kernels-Yanardag-Vishwanathan/8ccd0adb1a00358ede79f1d9bdcce472dc1cb8d4)",
+      "c": "",
+      "n": "DGK",
+      "d": "2015-08-10",
+      "m1": "41.27%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

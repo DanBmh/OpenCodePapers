@@ -1,0 +1,122 @@
+# panoptic-segmentation-on-s3dis-area5
+
+[Dataset Link](http://buildingparser.stanford.edu/dataset.html) \
+Task Hierarchy: ['Panoptic Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PQ",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "RQ",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "SQ",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "PQ (with stuff)",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "RQ (with stuff)",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "SQ (with stuff)",
+      "sortable": "true"
+    },
+    {
+      "key": "m7",
+      "label": "Params (M)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Scalable 3D Panoptic Segmentation As Superpoint Graph Clustering](https://arxiv.org/abs/2401.06704v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/drprojects/superpoint_transformer)",
+      "n": "SuperCluster",
+      "d": "2024-01-12",
+      "m1": "50.1",
+      "m2": "60.1",
+      "m3": "76.6",
+      "m4": "58.4",
+      "m5": "68.4",
+      "m6": "77.8",
+      "m7": "0.21"
+    },
+    {
+      "p": "[A Review of Panoptic Segmentation for Mobile Mapping Point Clouds](https://arxiv.org/abs/2304.13980v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/bxiang233/panopticsegformobilemappingpointclouds)",
+      "n": "PointGroup (Xiang 2023)",
+      "d": "2023-04-27",
+      "m1": "42.3",
+      "m2": "52.0",
+      "m3": "74.7",
+      "m7": "7.7"
+    },
+    {
+      "p": "[A Review of Panoptic Segmentation for Mobile Mapping Point Clouds](https://arxiv.org/abs/2304.13980v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/bxiang233/panopticsegformobilemappingpointclouds)",
+      "n": "KPConv (Xiang 2023)",
+      "d": "2023-04-27",
+      "m1": "41.8",
+      "m2": "51.5",
+      "m3": "74.7",
+      "m7": "14.2"
+    },
+    {
+      "p": "[A Review of Panoptic Segmentation for Mobile Mapping Point Clouds](https://arxiv.org/abs/2304.13980v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/bxiang233/panopticsegformobilemappingpointclouds)",
+      "n": "MinkowskiNet (Xiang 2023)",
+      "d": "2023-04-27",
+      "m1": "39.2",
+      "m2": "48.0",
+      "m3": "74.9",
+      "m7": "38.0"
+    },
+    {
+      "p": "[A Review of Panoptic Segmentation for Mobile Mapping Point Clouds](https://arxiv.org/abs/2304.13980v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/bxiang233/panopticsegformobilemappingpointclouds)",
+      "n": "PointNet++ (Xiang 2023)",
+      "d": "2023-04-27",
+      "m1": "24.6",
+      "m2": "32.6",
+      "m3": "68.2",
+      "m7": "3.1"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

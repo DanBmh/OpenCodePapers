@@ -1,0 +1,129 @@
+# code-generation-on-django
+
+[Dataset Link](https://github.com/odashi/ase15-django-dataset) \
+Task Hierarchy: ['Code Generation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "BLEU Score",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[MarianCG: a code generation transformer model inspired by machine translation](https://jeas.springeropen.com/articles/10.1186/s44147-022-00159-4)",
+      "c": "[&check;&nbsp;Link](https://github.com/AhmedSSoliman/MarianCG-NL-to-Code)",
+      "n": "MarianCG",
+      "d": "2022-11-22",
+      "m1": "81.83",
+      "m2": "90.41"
+    },
+    {
+      "p": "[The impact of lexical and grammatical processing on generating code from natural language](https://arxiv.org/abs/2202.13972v2)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/codegenfactors/BertranX)",
+      "n": "TranX + BERT w/mined",
+      "d": "2022-02-28",
+      "m1": "81.03",
+      "m2": "79.86"
+    },
+    {
+      "p": "[Code Generation from Natural Language with Less Prior and More Monolingual Data](https://arxiv.org/abs/2101.00259v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/borealisai/code-gen-tae)",
+      "n": "BERT + TAE",
+      "d": "2021-01-01",
+      "m1": "81.03"
+    },
+    {
+      "p": "[Reranking for Neural Semantic Parsing](https://aclanthology.org/P19-1447)",
+      "c": "",
+      "n": "Reranker",
+      "d": "2019-07-01",
+      "m1": "80.2"
+    },
+    {
+      "p": "[Leveraging pre-trained language models for code generation](https://doi.org/10.1007/s40747-024-01373-8)",
+      "c": "[&check;&nbsp;Link](https://github.com/AhmedSSoliman/Leveraging-Pretrained-Language-Models-for-Code-Generation)",
+      "n": "LUKEMarian",
+      "d": "2024-02-29",
+      "m1": "78.50",
+      "m2": "89.34"
+    },
+    {
+      "p": "[Leveraging pre-trained language models for code generation](https://doi.org/10.1007/s40747-024-01373-8)",
+      "c": "[&check;&nbsp;Link](https://github.com/AhmedSSoliman/Leveraging-Pretrained-Language-Models-for-Code-Generation)",
+      "n": "RoBERTaMarian",
+      "d": "2024-02-29",
+      "m1": "77.95",
+      "m2": "88.91"
+    },
+    {
+      "p": "[Leveraging pre-trained language models for code generation](https://doi.org/10.1007/s40747-024-01373-8)",
+      "c": "[&check;&nbsp;Link](https://github.com/AhmedSSoliman/Leveraging-Pretrained-Language-Models-for-Code-Generation)",
+      "n": "BERTMarian",
+      "d": "2024-02-29",
+      "m1": "76.68",
+      "m2": "56.55"
+    },
+    {
+      "p": "[TRANX: A Transition-based Neural Abstract Syntax Parser for Semantic Parsing and Code Generation](http://arxiv.org/abs/1810.02720v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/pcyin/tranX)",
+      "n": "Tranx",
+      "d": "2018-10-05",
+      "m1": "73.7"
+    },
+    {
+      "p": "[Leveraging pre-trained language models for code generation](https://doi.org/10.1007/s40747-024-01373-8)",
+      "c": "[&check;&nbsp;Link](https://github.com/AhmedSSoliman/Leveraging-Pretrained-Language-Models-for-Code-Generation)",
+      "n": "ELECTRAMarian",
+      "d": "2024-02-29",
+      "m1": "65.32",
+      "m2": "53.02"
+    },
+    {
+      "p": "[Latent Predictor Networks for Code Generation](http://arxiv.org/abs/1603.06744v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/deepmind/card2code)",
+      "n": "lpn (Ling et al., 2016)",
+      "d": "2016-03-22",
+      "m1": "62.3",
+      "m2": "77.6"
+    },
+    {
+      "p": "[Latent Predictor Networks for Code Generation](http://arxiv.org/abs/1603.06744v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/deepmind/card2code)",
+      "n": "Phrasal Statistical MT (Ling et al., 2016)",
+      "d": "2016-03-22",
+      "m1": "31.5",
+      "m2": "47.6"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

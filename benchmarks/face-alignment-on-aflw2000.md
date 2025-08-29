@@ -1,0 +1,74 @@
+# face-alignment-on-aflw2000
+
+[Dataset Link](http://www.cbsr.ia.ac.cn/users/xiangyuzhu/projects/3DDFA/main.htm) \
+Task Hierarchy: ['3D Face Reconstruction', 'Facial Recognition and Modelling', 'Face Alignment']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Error rate",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Multi-task head pose estimation in-the-wild](https://arxiv.org/abs/2202.02299v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/bobetocalo/bobetocalo_pami20)",
+      "n": "MNN+ORB (Reannotated)",
+      "d": "2020-12-22",
+      "m1": "2.58"
+    },
+    {
+      "p": "[Nonlinear 3D Face Morphable Model](http://arxiv.org/abs/1804.03786v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/tranluan/Nonlinear_Face_3DMM)",
+      "n": "Nonlinear 3D Face Morphable Model",
+      "d": "2018-04-11",
+      "m1": "4.70"
+    },
+    {
+      "p": "[Deep Multi-Center Learning for Face Alignment](http://arxiv.org/abs/1808.01558v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ZhiwenShao/MCNet-Extension)",
+      "n": "MCL",
+      "d": "2018-08-05",
+      "m1": "5.38"
+    },
+    {
+      "p": "[Face Alignment Across Large Poses: A 3D Solution](http://arxiv.org/abs/1511.07212v1)",
+      "c": "",
+      "n": "3DDFA",
+      "d": "2015-11-23",
+      "m1": "5.42"
+    },
+    {
+      "p": "[One Millisecond Face Alignment with an Ensemble of Regression Trees](http://openaccess.thecvf.com/content_cvpr_2014/html/Kazemi_One_Millisecond_Face_2014_CVPR_paper.html)",
+      "c": "",
+      "n": "Dlib  (68 points)",
+      "d": "2014-06-01",
+      "m1": "10.545"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

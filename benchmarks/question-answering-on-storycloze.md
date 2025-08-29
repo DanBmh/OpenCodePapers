@@ -1,0 +1,200 @@
+# question-answering-on-storycloze
+
+[Dataset Link](https://huggingface.co/datasets/story_cloze) \
+Task Hierarchy: ['Question Answering']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Crosslingual Generalization through Multitask Finetuning](https://arxiv.org/abs/2211.01786v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/bigscience-workshop/xmtf)",
+      "n": "BLOOMZ",
+      "d": "2022-11-03",
+      "m1": "96.3"
+    },
+    {
+      "p": "[Guess the Instruction! Flipped Learning Makes Language Models Stronger Zero-Shot Learners](https://arxiv.org/abs/2210.02969v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/seonghyeonye/flipped-learning)",
+      "n": "Flipped-3B",
+      "d": "2022-10-06",
+      "m1": "95.88"
+    },
+    {
+      "p": "[Finetuned Language Models Are Zero-Shot Learners](https://arxiv.org/abs/2109.01652v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/hiyouga/llama-efficient-tuning)",
+      "n": "FLAN 137B (few-shot, k=10)",
+      "d": "2021-09-03",
+      "m1": "94.7"
+    },
+    {
+      "p": "[The CoT Collection: Improving Zero-shot and Few-shot Learning of Language Models via Chain-of-Thought Fine-Tuning](https://arxiv.org/abs/2305.14045v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/kaistai/cot-collection)",
+      "n": "T0-3B (CoT fine-tuned)",
+      "d": "2023-05-23",
+      "m1": "94.5"
+    },
+    {
+      "p": "[Knowledge-in-Context: Towards Knowledgeable Semi-Parametric Language Models](https://arxiv.org/abs/2210.16433v3)",
+      "c": "",
+      "n": "KiC-770M",
+      "d": "2022-10-28",
+      "m1": "94.40"
+    },
+    {
+      "p": "[Finetuned Language Models Are Zero-Shot Learners](https://arxiv.org/abs/2109.01652v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/hiyouga/llama-efficient-tuning)",
+      "n": "FLAN 137B (zero-shot)",
+      "d": "2021-09-03",
+      "m1": "93.4"
+    },
+    {
+      "p": "[Improving Machine Reading Comprehension with General Reading Strategies](http://arxiv.org/abs/1810.13441v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/nlpdata/strategy)",
+      "n": "Reading Strategies Model",
+      "d": "2018-10-31",
+      "m1": "88.3"
+    },
+    {
+      "p": "[Improving Language Understanding by Generative Pre-Training](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "Finetuned Transformer LM",
+      "d": "2018-06-11",
+      "m1": "86.5"
+    },
+    {
+      "p": "[Exploring the Benefits of Training Expert Language Models over Instruction Tuning](https://arxiv.org/abs/2302.03202v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/joeljang/rlphf)",
+      "n": "RoE-3B",
+      "d": "2023-02-07",
+      "m1": "86.33"
+    },
+    {
+      "p": "[SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot](https://arxiv.org/abs/2301.00774v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/nvidia/tensorrt-model-optimizer)",
+      "n": "OPT-175B",
+      "d": "2023-01-02",
+      "m1": "79.82"
+    },
+    {
+      "p": "[SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot](https://arxiv.org/abs/2301.00774v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/nvidia/tensorrt-model-optimizer)",
+      "n": "SparseGPT (175B, 50% Sparsity)",
+      "d": "2023-01-02",
+      "m1": "78.87"
+    },
+    {
+      "p": "[UNIMELB at SemEval-2016 Tasks 4A and 4B: An Ensemble of Neural Networks and a Word2Vec Based Model for Sentiment Classification](https://aclanthology.org/S16-1027)",
+      "c": "[&check;&nbsp;Link](https://github.com/liufly/narrative-modeling)",
+      "n": "Memory chains and semantic supervision",
+      "d": "2016-06-01",
+      "m1": "78.7"
+    },
+    {
+      "p": "[Story Comprehension for Predicting What Happens Next](https://aclanthology.org/D17-1168)",
+      "c": "",
+      "n": "Hidden Coherence Model",
+      "d": "2017-09-01",
+      "m1": "77.6"
+    },
+    {
+      "p": "[SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot](https://arxiv.org/abs/2301.00774v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/nvidia/tensorrt-model-optimizer)",
+      "n": "SparseGPT (175B, 4:8 Sparsity)",
+      "d": "2023-01-02",
+      "m1": "77.02"
+    },
+    {
+      "p": "[A Simple and Effective Approach to the Story Cloze Test](http://arxiv.org/abs/1803.05547v1)",
+      "c": "",
+      "n": "val-LS-skip",
+      "d": "2018-03-15",
+      "m1": "76.5"
+    },
+    {
+      "p": "[SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot](https://arxiv.org/abs/2301.00774v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/nvidia/tensorrt-model-optimizer)",
+      "n": "SparseGPT (175B, 2:4 Sparsity)",
+      "d": "2023-01-02",
+      "m1": "76.19"
+    },
+    {
+      "p": "[Efficient Language Modeling with Sparse all-MLP](https://arxiv.org/abs/2203.06850v3)",
+      "c": "",
+      "n": "sMLP \u2013 deterministic 9.4B (0-shot)",
+      "d": "2022-03-14",
+      "m1": "74.7"
+    },
+    {
+      "p": "[Efficient Language Modeling with Sparse all-MLP](https://arxiv.org/abs/2203.06850v3)",
+      "c": "",
+      "n": "Switch Transformer 9B",
+      "d": "2022-03-14",
+      "m1": "73.3"
+    },
+    {
+      "p": "[Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/ggml-org/llama.cpp)",
+      "n": "GPT-3 Large 760M (zero-shot)",
+      "d": "2020-05-28",
+      "m1": "72.4"
+    },
+    {
+      "p": "[Efficient Language Modeling with Sparse all-MLP](https://arxiv.org/abs/2203.06850v3)",
+      "c": "",
+      "n": "Gshard 9B",
+      "d": "2022-03-14",
+      "m1": "67.9"
+    },
+    {
+      "p": "[Efficient Language Modeling with Sparse all-MLP](https://arxiv.org/abs/2203.06850v3)",
+      "c": "",
+      "n": "HASH Layers 10B (0-shot)",
+      "d": "2022-03-14",
+      "m1": "64.7"
+    },
+    {
+      "p": "[Efficient Language Modeling with Sparse all-MLP](https://arxiv.org/abs/2203.06850v3)",
+      "c": "",
+      "n": "Base Layers 10B (0-shot)",
+      "d": "2022-03-14",
+      "m1": "61.4"
+    },
+    {
+      "p": "[SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot](https://arxiv.org/abs/2301.00774v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/nvidia/tensorrt-model-optimizer)",
+      "n": "OPT-175B (50% Sparsity)",
+      "d": "2023-01-02",
+      "m1": "47.10"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

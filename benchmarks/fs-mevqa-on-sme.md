@@ -1,0 +1,172 @@
+# fs-mevqa-on-sme
+
+[Dataset Link](https://huggingface.co/datasets/LivXue/SME) \
+Task Hierarchy: ['Explanatory Visual Question Answering', 'FS-MEVQA']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "BLEU-4",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "METEOR",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "ROUGE-L",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "CIDEr",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "SPICE",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "Detection",
+      "sortable": "true"
+    },
+    {
+      "key": "m7",
+      "label": "ACC",
+      "sortable": "true"
+    },
+    {
+      "key": "m8",
+      "label": "#Learning Samples (N)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Few-Shot Multimodal Explanation for Visual Question Answering](https://dl.acm.org/doi/abs/10.1145/3664647.3681597)",
+      "c": "[&check;&nbsp;Link](https://github.com/LivXue/FS-MEVQA)",
+      "n": "MEAgent",
+      "d": "2024-10-28",
+      "m1": "67.91",
+      "m2": "50.55",
+      "m3": "79.41",
+      "m4": "510.44",
+      "m5": "64.09",
+      "m6": "29.09",
+      "m7": "51.45",
+      "m8": "16"
+    },
+    {
+      "p": "[GPT-4 Technical Report](https://arxiv.org/abs/2303.08774v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/openai/evals)",
+      "n": "GPT-4-1106-Vision-Preview",
+      "d": "2023-03-15",
+      "m1": "45.51",
+      "m2": "35.17",
+      "m3": "52.67",
+      "m4": "269.68",
+      "m5": "37.67",
+      "m6": "7.00",
+      "m7": "42.30",
+      "m8": "16"
+    },
+    {
+      "p": "[Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context](https://arxiv.org/abs/2403.05530v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/dlvuldet/primevul)",
+      "n": "Gemini-1.5 Pro",
+      "d": "2024-03-08",
+      "m1": "41.87",
+      "m2": "34.61",
+      "m3": "55.90",
+      "m4": "276.14",
+      "m5": "40.58",
+      "m6": "1.40",
+      "m7": "40.88",
+      "m8": "16"
+    },
+    {
+      "p": "[Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond](https://arxiv.org/abs/2308.12966v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/qwenlm/qwen-vl)",
+      "n": "Qwen-VL-Max",
+      "d": "2023-08-24",
+      "m1": "24.30",
+      "m2": "23.40",
+      "m3": "34.52",
+      "m4": "201.47",
+      "m5": "26.13",
+      "m6": "1.05",
+      "m7": "40.33",
+      "m8": "16"
+    },
+    {
+      "p": "[CogVLM: Visual Expert for Pretrained Language Models](https://arxiv.org/abs/2311.03079v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/thudm/cogvlm)",
+      "n": "GLM-4V",
+      "d": "2023-11-06",
+      "m1": "14.45",
+      "m2": "17.53",
+      "m3": "24.28",
+      "m4": "127.37",
+      "m5": "17.70",
+      "m6": "0.89",
+      "m7": "34.23",
+      "m8": "16"
+    },
+    {
+      "p": "[Variational Causal Inference Network for Explanatory Visual Question Answering](http://openaccess.thecvf.com//content/ICCV2023/html/Xue_Variational_Causal_Inference_Network_for_Explanatory_Visual_Question_Answering_ICCV_2023_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/LivXue/VCIN)",
+      "n": "VCIN",
+      "d": "2023-01-01",
+      "m1": "9.17",
+      "m2": "19.82",
+      "m3": "33.34",
+      "m4": "4.28",
+      "m5": "13.39",
+      "m6": "0.28",
+      "m7": "17.77",
+      "m8": "16"
+    },
+    {
+      "p": "[REX: Reasoning-aware and Grounded Explanation](https://arxiv.org/abs/2203.06107v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/szzexpoi/rex)",
+      "n": "REX",
+      "d": "2022-03-11",
+      "m1": "0.00",
+      "m2": "4.37",
+      "m3": "23.23",
+      "m4": "0.89",
+      "m5": "0.00",
+      "m6": "0.00",
+      "m7": "17.77",
+      "m8": "16"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

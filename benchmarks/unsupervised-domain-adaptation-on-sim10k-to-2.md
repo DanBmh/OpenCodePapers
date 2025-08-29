@@ -1,0 +1,60 @@
+# unsupervised-domain-adaptation-on-sim10k-to-2
+
+[Dataset Link](https://fcav.engin.umich.edu/projects/driving-in-the-matrix) \
+Task Hierarchy: ['Unsupervised Domain Adaptation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mAP@0.5",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Diffusion Domain Teacher: Diffusion Guided Domain Adaptive Object Detector](https://arxiv.org/abs/2506.04211v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/heboyong/Diffusion-Domain-Teacher)",
+      "n": "DDT",
+      "d": "2025-06-04",
+      "m1": "58.3"
+    },
+    {
+      "p": "[Adapting Object Detectors with Conditional Domain Normalization](https://arxiv.org/abs/2003.07071v2)",
+      "c": "",
+      "n": "CDN",
+      "d": "2020-03-16",
+      "m1": "45.3"
+    },
+    {
+      "p": "[Strong-Weak Distribution Alignment for Adaptive Object Detection](http://arxiv.org/abs/1812.04798v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/VisionLearningGroup/DA_Detection)",
+      "n": "SWDA",
+      "d": "2018-12-12",
+      "m1": "42.9"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

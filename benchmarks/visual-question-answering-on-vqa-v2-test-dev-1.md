@@ -1,0 +1,116 @@
+# visual-question-answering-on-vqa-v2-test-dev-1
+
+[Dataset Link](https://visualqa.org/) \
+Task Hierarchy: ['Visual Question Answering']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "BLIP-2 ViT-G OPT 6.7B (fine-tuned)",
+      "d": "2023-01-30",
+      "m1": "82.30"
+    },
+    {
+      "p": "[CoCa: Contrastive Captioners are Image-Text Foundation Models](https://arxiv.org/abs/2205.01917v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mlfoundations/open_clip)",
+      "n": "CoCa",
+      "d": "2022-05-04",
+      "m1": "82.3"
+    },
+    {
+      "p": "[OFA: Unifying Architectures, Tasks, and Modalities Through a Simple Sequence-to-Sequence Learning Framework](https://arxiv.org/abs/2202.03052v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/modelscope/modelscope)",
+      "n": "OFA",
+      "d": "2022-02-07",
+      "m1": "82.0"
+    },
+    {
+      "p": "[BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "BLIP-2 ViT-G OPT 2.7B (fine-tuned)",
+      "d": "2023-01-30",
+      "m1": "81.74"
+    },
+    {
+      "p": "[BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "BLIP-2 ViT-G FlanT5 XL (fine-tuned)",
+      "d": "2023-01-30",
+      "m1": "81.66"
+    },
+    {
+      "p": "[mPLUG-2: A Modularized Multi-modal Foundation Model Across Text, Image and Video](https://arxiv.org/abs/2302.00402v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/modelscope/modelscope)",
+      "n": "mPLUG-2",
+      "d": "2023-02-01",
+      "m1": "81.11"
+    },
+    {
+      "p": "[Florence: A New Foundation Model for Computer Vision](https://arxiv.org/abs/2111.11432v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/unicl)",
+      "n": "Florence",
+      "d": "2021-11-22",
+      "m1": "80.16"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Aurora (ours, r=64)",
+      "d": null,
+      "m1": "77.69"
+    },
+    {
+      "p": "[Differentiable Outlier Detection Enable Robust Deep Multimodal Analysis](https://arxiv.org/abs/2302.05608v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ellenzhuwang/VK_OOD)",
+      "n": "VK-OOD",
+      "d": "2023-02-11",
+      "m1": "76.8"
+    },
+    {
+      "p": "[LXMERT Model Compression for Visual Question Answering](https://arxiv.org/abs/2310.15325v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ghazaleh-mahmoodi/lxmert_compression)",
+      "n": "LXMERT (low-magnitude pruning)",
+      "d": "2023-10-23",
+      "m1": "70.72"
+    },
+    {
+      "p": "[Learning to Localize Objects Improves Spatial Reasoning in Visual-LLMs](https://arxiv.org/abs/2404.07449v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/kahnchana/locvlm)",
+      "n": "LocVLM-L",
+      "d": "2024-04-11",
+      "m1": "56.2"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

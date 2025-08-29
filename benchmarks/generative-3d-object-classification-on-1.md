@@ -1,0 +1,108 @@
+# generative-3d-object-classification-on-1
+
+[Dataset Link](https://objaverse.allenai.org/) \
+Task Hierarchy: ['Generative 3D Object Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Objaverse (Average)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Objaverse (I)",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Objaverse (C)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[MiniGPT-3D: Efficiently Aligning 3D Point Clouds with Large Language Models using 2D Priors](https://arxiv.org/abs/2405.01413v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tangyuan96/minigpt-3d)",
+      "n": "MiniGPT-3D",
+      "d": "2024-05-02",
+      "m1": "60.25",
+      "m2": "60.00",
+      "m3": "60.50"
+    },
+    {
+      "p": "[ShapeLLM: Universal 3D Object Understanding for Embodied Interaction](https://arxiv.org/abs/2402.17766v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/qizekun/ShapeLLM)",
+      "n": "ShapeLLM-7B",
+      "d": "2024-02-27",
+      "m1": "54.50"
+    },
+    {
+      "p": "[PointLLM: Empowering Large Language Models to Understand Point Clouds](https://arxiv.org/abs/2308.16911v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/openrobotlab/pointllm)",
+      "n": "PointLLM-13B v1.2",
+      "d": "2023-08-31",
+      "m1": "54.00",
+      "m2": "56.50",
+      "m3": "51.50"
+    },
+    {
+      "p": "[ShapeLLM: Universal 3D Object Understanding for Embodied Interaction](https://arxiv.org/abs/2402.17766v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/qizekun/ShapeLLM)",
+      "n": "ShapeLLM-13B",
+      "d": "2024-02-27",
+      "m1": "54.00"
+    },
+    {
+      "p": "[PointLLM: Empowering Large Language Models to Understand Point Clouds](https://arxiv.org/abs/2308.16911v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/openrobotlab/pointllm)",
+      "n": "PointLLM-7B v1.2",
+      "d": "2023-08-31",
+      "m1": " 53.00",
+      "m2": "55.00",
+      "m3": "51.00"
+    },
+    {
+      "p": "[3D-LLM: Injecting the 3D World into Large Language Models](https://arxiv.org/abs/2307.12981v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/umass-foundation-model/3d-llm)",
+      "n": "3D-LLM",
+      "d": "2023-07-24",
+      "m1": "45.25",
+      "m2": "49.00",
+      "m3": "41.50"
+    },
+    {
+      "p": "[Point-Bind & Point-LLM: Aligning Point Cloud with Multi-modality for 3D Understanding, Generation, and Instruction Following](https://arxiv.org/abs/2309.00615v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/openrobotlab/pointllm)",
+      "n": "Point-Bind LLM",
+      "d": "2023-09-01",
+      "m1": "5.25",
+      "m2": "6.00",
+      "m3": "4.50"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

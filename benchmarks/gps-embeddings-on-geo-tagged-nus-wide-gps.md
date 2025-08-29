@@ -1,0 +1,88 @@
+# gps-embeddings-on-geo-tagged-nus-wide-gps
+
+[Dataset Link]() \
+Task Hierarchy: ['GPS Embeddings']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": " mAP",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[GeoCLIP: Clip-Inspired Alignment between Locations and Images for Effective Worldwide Geo-localization](https://arxiv.org/abs/2309.16020v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/VicenteVivan/geo-clip)",
+      "n": "GeoCLIP",
+      "d": "2023-09-27",
+      "m1": "0.249"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "GPS2Vec+",
+      "d": null,
+      "m1": "0.210"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "GPS2Vec",
+      "d": null,
+      "m1": "0.182"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "HashTag",
+      "d": null,
+      "m1": "0.163"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "TagFeature",
+      "d": null,
+      "m1": "0.161"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "GPS2Vec onehot",
+      "d": null,
+      "m1": " 0.130"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "OneHot",
+      "d": null,
+      "m1": "0.066"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

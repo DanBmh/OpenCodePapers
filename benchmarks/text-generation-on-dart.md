@@ -1,0 +1,106 @@
+# text-generation-on-dart
+
+[Dataset Link](https://github.com/Yale-LILY/dart) \
+Task Hierarchy: ['Text Generation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "BLEU",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "METEOR",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "FactSpotter",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[FactSpotter: Evaluating the Factual Faithfulness of Graph-to-Text Generation](https://dumas.ccsd.cnrs.fr/INRIA-SACLAY/hal-04257838v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/guihuzhang/FactSpotter)",
+      "n": "T5B Baseline",
+      "d": "2023-10-25",
+      "m1": "48.74",
+      "m2": "0.4074",
+      "m3": "96.65"
+    },
+    {
+      "p": "[FactSpotter: Evaluating the Factual Faithfulness of Graph-to-Text Generation](https://dumas.ccsd.cnrs.fr/INRIA-SACLAY/hal-04257838v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/guihuzhang/FactSpotter)",
+      "n": "FactT5B",
+      "d": "2023-10-25",
+      "m1": "48.37",
+      "m2": "0.4072",
+      "m3": "97.60"
+    },
+    {
+      "p": "[FactSpotter: Evaluating the Factual Faithfulness of Graph-to-Text Generation](https://dumas.ccsd.cnrs.fr/INRIA-SACLAY/hal-04257838v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/guihuzhang/FactSpotter)",
+      "n": "JointGT Baseline",
+      "d": "2023-10-25",
+      "m1": "47.51",
+      "m2": "0.4043",
+      "m3": "0.9586"
+    },
+    {
+      "p": "[FactSpotter: Evaluating the Factual Faithfulness of Graph-to-Text Generation](https://dumas.ccsd.cnrs.fr/INRIA-SACLAY/hal-04257838v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/guihuzhang/FactSpotter)",
+      "n": "FactJointGT",
+      "d": "2023-10-25",
+      "m1": "47.39",
+      "m2": "0.4032",
+      "m3": "97.25"
+    },
+    {
+      "p": "[Control Prefixes for Parameter-Efficient Text Generation](https://arxiv.org/abs/2110.08329v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Yale-LILY/dart)",
+      "n": "Control Prefixes (T5-large)",
+      "d": "2021-10-15",
+      "m2": "0.411"
+    },
+    {
+      "p": "[The GEM Benchmark: Natural Language Generation, its Evaluation and Metrics](https://arxiv.org/abs/2102.01672v3)",
+      "c": "",
+      "n": "T5",
+      "d": "2021-02-02",
+      "m2": "0.115"
+    },
+    {
+      "p": "[The GEM Benchmark: Natural Language Generation, its Evaluation and Metrics](https://arxiv.org/abs/2102.01672v3)",
+      "c": "",
+      "n": "BART",
+      "d": "2021-02-02",
+      "m2": "0.107"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

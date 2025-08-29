@@ -1,0 +1,67 @@
+# unsupervised-domain-adaptation-on-bdd100k-to
+
+[Dataset Link]() \
+Task Hierarchy: ['Unsupervised Domain Adaptation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": " mAP",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[RT-DATR:Real-time Unsupervised Domain Adaptive Detection Transformer with Adversarial Feature Learning](https://arxiv.org/abs/2504.09196v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Jeremy-lf/RT-DATR)",
+      "n": "RT-DATR(real-time, 640x640\uff0cR-34)",
+      "d": "2025-04-12",
+      "m1": "46.5"
+    },
+    {
+      "p": "[Diffusion Domain Teacher: Diffusion Guided Domain Adaptive Object Detector](https://arxiv.org/abs/2506.04211v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/heboyong/Diffusion-Domain-Teacher)",
+      "n": "DDT(R-101)",
+      "d": "2025-06-04",
+      "m1": "43.4"
+    },
+    {
+      "p": "[AWADA: Attention-Weighted Adversarial Domain Adaptation for Object Detection](https://arxiv.org/abs/2208.14662v1)",
+      "c": "",
+      "n": "AWADA",
+      "d": "2022-08-31",
+      "m1": "31.5"
+    },
+    {
+      "p": "[To miss-attend is to misalign! Residual Self-Attentive Feature Alignment for Adapting Object Detectors](https://openaccess.thecvf.com/content/WACV2022/html/Khindkar_To_Miss-Attend_Is_to_Misalign_Residual_Self-Attentive_Feature_Alignment_for_WACV_2022_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/Vaishnvi/ILLUME)",
+      "n": "ILLUME",
+      "d": "2022-01-05",
+      "m1": "29.6"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,74 @@
+# multi-view-3d-reconstruction-on-eth3d
+
+[Dataset Link](https://www.eth3d.net/) \
+Task Hierarchy: ['Multi-View 3D Reconstruction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "F1 score",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Dual-Level Precision Edges Guided Multi-View Stereo with Accurate Planarization](https://arxiv.org/abs/2412.20328v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ckh0715/DPE-MVS)",
+      "n": "DPE-MVS",
+      "d": "2024-12-29",
+      "m1": "89.48"
+    },
+    {
+      "p": "[Adaptive Patch Deformation for Textureless-Resilient Multi-View Stereo](http://openaccess.thecvf.com//content/CVPR2023/html/Wang_Adaptive_Patch_Deformation_for_Textureless-Resilient_Multi-View_Stereo_CVPR_2023_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/whoiszzj/apd-mvs)",
+      "n": "APD-MVS",
+      "d": "2023-01-01",
+      "m1": "87.44"
+    },
+    {
+      "p": "[Hierarchical Prior Mining for Non-local Multi-View Stereo](https://arxiv.org/abs/2303.09758v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/CLinvx/HPM-MVS)",
+      "n": "HPM-MVS",
+      "d": "2023-03-17",
+      "m1": "87.11"
+    },
+    {
+      "p": "[Planar Prior Assisted PatchMatch Multi-View Stereo](https://arxiv.org/abs/1912.11744v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/GhiXu/ACMP)",
+      "n": "ACMP",
+      "d": "2019-12-26",
+      "m1": "81.51"
+    },
+    {
+      "p": "[Multi-Scale Geometric Consistency Guided Multi-View Stereo](http://arxiv.org/abs/1904.08103v1)",
+      "c": "",
+      "n": "ACMM",
+      "d": "2019-04-17",
+      "m1": "80.78"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

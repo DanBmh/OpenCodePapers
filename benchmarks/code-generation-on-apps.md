@@ -1,0 +1,315 @@
+# code-generation-on-apps
+
+[Dataset Link](https://github.com/hendrycks/apps) \
+Task Hierarchy: ['Code Generation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Introductory Pass@1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Interview Pass@1",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Competition Pass@1",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Competition Pass@any",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "Interview Pass@any",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "Introductory Pass@any",
+      "sortable": "true"
+    },
+    {
+      "key": "m7",
+      "label": "Competition Pass@5",
+      "sortable": "true"
+    },
+    {
+      "key": "m8",
+      "label": "Interview Pass@5",
+      "sortable": "true"
+    },
+    {
+      "key": "m9",
+      "label": "Introductory Pass@5",
+      "sortable": "true"
+    },
+    {
+      "key": "m10",
+      "label": "Competition Pass@1000",
+      "sortable": "true"
+    },
+    {
+      "key": "m11",
+      "label": "Interview Pass@1000",
+      "sortable": "true"
+    },
+    {
+      "key": "m12",
+      "label": "Introductory Pass@1000",
+      "sortable": "true"
+    },
+    {
+      "key": "m13",
+      "label": "Pass@1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Planning-Driven Programming: A Large Language Model Programming Workflow](https://arxiv.org/abs/2411.14503v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/you68681/lpw)",
+      "n": "LPW (GPT-4o)",
+      "d": "2024-11-21",
+      "m1": "87.2",
+      "m2": "65.2",
+      "m3": "34.8",
+      "m13": "62.6"
+    },
+    {
+      "p": "[MoTCoder: Elevating Large Language Models with Modular of Thought for Challenging Programming Tasks](https://arxiv.org/abs/2312.15960v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/dvlab-research/motcoder)",
+      "n": "MoTCoder-32B-V1.5",
+      "d": "2023-12-26",
+      "m1": "68.44",
+      "m2": "44.49",
+      "m3": "27.84"
+    },
+    {
+      "p": "[MoTCoder: Elevating Large Language Models with Modular of Thought for Challenging Programming Tasks](https://arxiv.org/abs/2312.15960v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/dvlab-research/motcoder)",
+      "n": "MoTCoder-7B-V1.5",
+      "d": "2023-12-26",
+      "m1": "54.26",
+      "m2": "32.63",
+      "m3": "21.18"
+    },
+    {
+      "p": "[CodeT: Code Generation with Generated Tests](https://arxiv.org/abs/2207.10397v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/codet)",
+      "n": "code-davinci-002 175B (CodeT)",
+      "d": "2022-07-21",
+      "m1": "47.3%",
+      "m2": "14.3%",
+      "m3": "6.2%"
+    },
+    {
+      "p": "[DeepSeek-Coder: When the Large Language Model Meets Programming -- The Rise of Code Intelligence](https://arxiv.org/abs/2401.14196v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/deepseek-ai/DeepSeek-Coder)",
+      "n": "deepseek-ai/deepseek-coder-6.7b-instruct",
+      "d": "2024-01-25",
+      "m1": "33.80",
+      "m2": "19.70",
+      "m3": "11.09"
+    },
+    {
+      "p": "[CodeT: Code Generation with Generated Tests](https://arxiv.org/abs/2207.10397v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/codet)",
+      "n": "code-davinci-002 175B",
+      "d": "2022-07-21",
+      "m1": "31.92"
+    },
+    {
+      "p": "[CodeChain: Towards Modular Code Generation Through Chain of Self-revisions with Representative Sub-modules](https://arxiv.org/abs/2310.08992v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/SalesforceAIResearch/CodeChain)",
+      "n": "CodeChain+WizardCoder-15b",
+      "d": "2023-10-13",
+      "m1": "29.3%",
+      "m2": "6.4%",
+      "m3": "2.5%",
+      "m4": "14.5%",
+      "m5": "25.4%",
+      "m6": "60.9%"
+    },
+    {
+      "p": "[CodeChain: Towards Modular Code Generation Through Chain of Self-revisions with Representative Sub-modules](https://arxiv.org/abs/2310.08992v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/SalesforceAIResearch/CodeChain)",
+      "n": "WizardCoder-15b",
+      "d": "2023-10-13",
+      "m1": "26.29",
+      "m2": "7.49",
+      "m3": "3.75"
+    },
+    {
+      "p": "[CODESIM: Multi-Agent Code Generation and Problem Solving through Simulation-Driven Planning and Debugging](https://arxiv.org/abs/2502.05664v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/kagnlp/CodeGenerator)",
+      "n": "CodeSim (GPT4)",
+      "d": "2025-02-08",
+      "m1": "26.04",
+      "m2": "4.21",
+      "m3": "0.81"
+    },
+    {
+      "p": "[CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning](https://arxiv.org/abs/2207.01780v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/salesforce/codet5)",
+      "n": "CodeRL+CodeT5",
+      "d": "2022-07-05",
+      "m1": "20",
+      "m2": "13.5",
+      "m3": "33.3"
+    },
+    {
+      "p": "[CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning](https://arxiv.org/abs/2207.01780v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/salesforce/codet5)",
+      "n": "GPT-J 6B (Finetuned)",
+      "d": "2022-07-05",
+      "m1": "6.77%",
+      "m2": "1.80%",
+      "m3": "0.69%",
+      "m4": "15.70%",
+      "m5": "14.33%",
+      "m6": "38.10%",
+      "m7": "2.36%",
+      "m8": "4.48%",
+      "m9": "15.27%",
+      "m10": "15.70%",
+      "m11": "14.33%",
+      "m12": "38.10%"
+    },
+    {
+      "p": "[Evaluating Large Language Models Trained on Code](https://arxiv.org/abs/2107.03374v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/THUDM/CodeGeeX)",
+      "n": "Codex 12B (Raw)",
+      "d": "2021-07-07",
+      "m1": "5.60%",
+      "m2": "1.00%",
+      "m3": "0.50%",
+      "m4": "13.51%",
+      "m5": "13.15%",
+      "m6": "35.20%",
+      "m7": "1.00%",
+      "m8": "1.73%",
+      "m9": "9.20%",
+      "m10": "13.51%",
+      "m11": "13.15%",
+      "m12": "35.20%"
+    },
+    {
+      "p": "[CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning](https://arxiv.org/abs/2207.01780v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/salesforce/codet5)",
+      "n": "GPT-Neo 2.7B (Finetuned)",
+      "d": "2022-07-05",
+      "m1": "4.14%",
+      "m2": "0.14%",
+      "m3": "0.02%",
+      "m4": "3.32%",
+      "m5": "3.70%",
+      "m6": "25.02%",
+      "m7": "0.09%",
+      "m8": "0.51%",
+      "m9": "9.65%",
+      "m10": "3.23%",
+      "m11": "3.70%",
+      "m12": "25.02%"
+    },
+    {
+      "p": "[Measuring Coding Challenge Competence With APPS](https://arxiv.org/abs/2105.09938v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/ncoop57/gpt-code-clippy)",
+      "n": "GPT-Neo 2.7B",
+      "d": "2021-05-20",
+      "m1": "3.90%",
+      "m2": "0.57%",
+      "m3": "0.00%",
+      "m4": "11.40%",
+      "m5": "9.83%",
+      "m6": "27.90%",
+      "m7": "0.00%",
+      "m8": "0.80%",
+      "m9": "5.50%",
+      "m10": "11.40%",
+      "m11": "9.83%",
+      "m12": "27.90%"
+    },
+    {
+      "p": "[CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning](https://arxiv.org/abs/2207.01780v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/salesforce/codet5)",
+      "n": "GPT2 1.5B (Finetuned)",
+      "d": "2022-07-05",
+      "m1": "3.90%",
+      "m2": "0.57%",
+      "m3": "0.00%",
+      "m4": "0.0%",
+      "m5": "0.80%",
+      "m6": "5.50%",
+      "m7": "0.00%",
+      "m8": "0.80%",
+      "m9": "5.50%"
+    },
+    {
+      "p": "[MapCoder: Multi-Agent Code Generation for Competitive Problem Solving](https://arxiv.org/abs/2405.11403v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/md-ashraful-pramanik/mapcoder)",
+      "n": "MapCoder APPS-150-cherrypicked (GPT-4)",
+      "d": "2024-05-18",
+      "m1": "1.30%",
+      "m2": "0.70%",
+      "m3": "0.00%",
+      "m4": "8.80%",
+      "m5": "9.27%",
+      "m6": "25.00%",
+      "m7": "0.00%",
+      "m8": "1.03%",
+      "m9": "3.60%",
+      "m10": "8.80%",
+      "m11": "9.27%",
+      "m12": "25.00%"
+    },
+    {
+      "p": "[Competition-Level Code Generation with AlphaCode](https://arxiv.org/abs/2203.07814v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-deepmind/code_contests)",
+      "n": "AlphaCode 1B Filtered from  50000",
+      "d": "2022-02-08",
+      "m4": "22.0"
+    },
+    {
+      "p": "[Competition-Level Code Generation with AlphaCode](https://arxiv.org/abs/2203.07814v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-deepmind/code_contests)",
+      "n": "AlphaCode 1B",
+      "d": "2022-02-08",
+      "m4": "7.75%",
+      "m5": "9.66%",
+      "m6": "20.36%",
+      "m7": "7.75%",
+      "m8": "9.66%",
+      "m9": "20.36%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

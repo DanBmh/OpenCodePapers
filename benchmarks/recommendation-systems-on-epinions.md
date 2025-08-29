@@ -1,0 +1,92 @@
+# recommendation-systems-on-epinions
+
+[Dataset Link](https://snap.stanford.edu/data/soc-Epinions1.html) \
+Task Hierarchy: ['Recommendation Systems']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "MAE",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "RMSE",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "MAP@20",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "MRR@20",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "NDCG@20",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Dual Graph Attention Networks for Deep Latent Representation of Multifaceted Social Effects in Recommender Systems](http://arxiv.org/abs/1903.10433v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/echo740/DANSER-WWW-19)",
+      "n": "DANSER",
+      "d": "2019-03-25",
+      "m1": "0.7781",
+      "m2": "1.0268"
+    },
+    {
+      "p": "[Item Silk Road: Recommending Items from Information Domains to Social Users](http://arxiv.org/abs/1706.03205v1)",
+      "c": "",
+      "n": "NSCR (Wang et al., 2017)",
+      "d": "2017-06-10",
+      "m1": "0.8044",
+      "m2": "1.0425"
+    },
+    {
+      "p": "[Graph Neural Networks for Social Recommendation](https://arxiv.org/abs/1902.07243v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/wenqifan03/GraphRec-WWW19)",
+      "n": "GraphRec",
+      "d": "2019-02-19",
+      "m1": "0.8168",
+      "m2": "1.0631"
+    },
+    {
+      "p": "[Heterophily-Aware Fair Recommendation using Graph Convolutional Networks](https://arxiv.org/abs/2402.03365v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/nematgh/hetrofair)",
+      "n": "HetroFair",
+      "d": "2024-01-31",
+      "m3": "0.0379",
+      "m4": "0.1525",
+      "m5": "0.0895"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

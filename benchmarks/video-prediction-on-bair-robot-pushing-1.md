@@ -1,0 +1,81 @@
+# video-prediction-on-bair-robot-pushing-1
+
+[Dataset Link](https://sites.google.com/berkeley.edu/robotic-interaction-datasets) \
+Task Hierarchy: ['Video Prediction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "FVD",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[MAGVIT: Masked Generative Video Transformer](https://arxiv.org/abs/2212.05199v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/magvit)",
+      "n": "MAGVIT (-L-FP)",
+      "d": "2022-12-10",
+      "m1": "62\u00b10.1"
+    },
+    {
+      "p": "[MAGVIT: Masked Generative Video Transformer](https://arxiv.org/abs/2212.05199v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/magvit)",
+      "n": "MAGVIT (-B-FP)",
+      "d": "2022-12-10",
+      "m1": "76\u00b10.1"
+    },
+    {
+      "p": "[Tell Me What Happened: Unifying Text-guided Video Completion via Multimodal Masked Video Generation](https://arxiv.org/abs/2211.12824v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tsujuifu/pytorch_tvc)",
+      "n": "MMVG",
+      "d": "2022-11-23",
+      "m1": "85.2"
+    },
+    {
+      "p": "[Phenaki: Variable Length Video Generation From Open Domain Textual Description](https://arxiv.org/abs/2210.02399v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/lucidrains/phenaki-pytorch)",
+      "n": "Phenaki",
+      "d": "2022-10-05",
+      "m1": "97"
+    },
+    {
+      "p": "[Adversarial Video Generation on Complex Datasets](https://arxiv.org/abs/1907.06571v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Harrypotterrrr/DVD-GAN)",
+      "n": "DVD-GAN-FP",
+      "d": "2019-07-15",
+      "m1": "109.8"
+    },
+    {
+      "p": "[Diverse Video Generation using a Gaussian Process Trigger](https://arxiv.org/abs/2107.04619v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/shgaurav1/DVG)",
+      "n": "DVG",
+      "d": "2021-07-09",
+      "m1": "120.03"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

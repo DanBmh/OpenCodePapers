@@ -1,0 +1,123 @@
+# semantic-segmentation-on-eventscape
+
+[Dataset Link]() \
+Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mIoU",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[CMX: Cross-Modal Fusion for RGB-X Semantic Segmentation with Transformers](https://arxiv.org/abs/2203.04838v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/huaaaliu/rgbx_semantic_segmentation)",
+      "n": "CMX (B4)",
+      "d": "2022-03-09",
+      "m1": "64.28"
+    },
+    {
+      "p": "[CMX: Cross-Modal Fusion for RGB-X Semantic Segmentation with Transformers](https://arxiv.org/abs/2203.04838v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/huaaaliu/rgbx_semantic_segmentation)",
+      "n": "CMX (B2)",
+      "d": "2022-03-09",
+      "m1": "61.90"
+    },
+    {
+      "p": "[SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers](https://arxiv.org/abs/2105.15203v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "SegFormer-B4",
+      "d": "2021-05-31",
+      "m1": "59.86"
+    },
+    {
+      "p": "[SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers](https://arxiv.org/abs/2105.15203v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "SegFormer-B2",
+      "d": "2021-05-31",
+      "m1": "58.69"
+    },
+    {
+      "p": "[Bi-directional Cross-Modality Feature Propagation with Separation-and-Aggregation Gate for RGB-D Semantic Segmentation](https://arxiv.org/abs/2007.09183v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/charlesCXK/RGBD_Semantic_Segmentation_PyTorch)",
+      "n": "SA-Gate",
+      "d": "2020-07-17",
+      "m1": "53.94"
+    },
+    {
+      "p": "[Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation](http://arxiv.org/abs/1802.02611v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/research/deeplab)",
+      "n": "DeepLabV3+",
+      "d": "2018-02-07",
+      "m1": "53.65"
+    },
+    {
+      "p": "[Trans4Trans: Efficient Transformer for Transparent Object Segmentation to Help Visually Impaired People Navigate in the Real World](https://arxiv.org/abs/2107.03172v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jamycheung/Trans4Trans)",
+      "n": "Trans4Trans",
+      "d": "2021-07-07",
+      "m1": "51.86"
+    },
+    {
+      "p": "[CGNet: A Light-weight Context Guided Network for Semantic Segmentation](http://arxiv.org/abs/1811.08201v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/osmr/imgclsmob)",
+      "n": "CGNet",
+      "d": "2018-11-20",
+      "m1": "44.75"
+    },
+    {
+      "p": "[Fast-SCNN: Fast Semantic Segmentation Network](http://arxiv.org/abs/1902.04502v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmsegmentation)",
+      "n": "Fast-SCNN",
+      "d": "2019-02-12",
+      "m1": "44.27"
+    },
+    {
+      "p": "[ISSAFE: Improving Semantic Segmentation in Accidents by Fusing Event-based Data](https://arxiv.org/abs/2008.08974v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jamycheung/ISSAFE)",
+      "n": "ISSAFE",
+      "d": "2020-08-20",
+      "m1": "43.61"
+    },
+    {
+      "p": "[Real-time Fusion Network for RGB-D Semantic Segmentation Incorporating Unexpected Obstacle Detection for Road-driving Images](https://arxiv.org/abs/2002.10570v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/AHupuJR/RFNet)",
+      "n": "RFNet",
+      "d": "2020-02-24",
+      "m1": "41.34"
+    },
+    {
+      "p": "[In Defense of Pre-trained ImageNet Architectures for Real-time Semantic Segmentation of Road-driving Images](http://arxiv.org/abs/1903.08469v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/XuJiacong/PIDNet)",
+      "n": "SwiftNet",
+      "d": "2019-03-20",
+      "m1": "36.67"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

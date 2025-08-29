@@ -1,0 +1,81 @@
+# scene-classification-on-uc-merced-land-use
+
+[Dataset Link](http://weegee.vision.ucmerced.edu/datasets/landuse.html) \
+Task Hierarchy: ['Scene Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy (%)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[A Continual Development Methodology for Large-scale Multitask Dynamic ML Systems](https://arxiv.org/abs/2209.07326v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research/tree/master/muNet)",
+      "n": "\u00b52Net+ (ViT-L/16)",
+      "d": "2022-09-15",
+      "m1": "100"
+    },
+    {
+      "p": "[All Grains, One Scheme (AGOS): Learning Multi-grain Instance Representation for Aerial Scene Classification](https://arxiv.org/abs/2205.03371v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/biqiwhu/agos)",
+      "n": "AGOS",
+      "d": "2022-05-06",
+      "m1": "99.88"
+    },
+    {
+      "p": "[Local semantic enhanced convnet for aerial scene recognition](https://drive.google.com/file/d/1c1dM43l24mchg8Pcy52mxRaeTg_kfYzY/view)",
+      "c": "[&check;&nbsp;Link](https://github.com/BiQiWHU/LSENet)",
+      "n": "LSE-Net",
+      "d": "2021-07-08",
+      "m1": "99.78"
+    },
+    {
+      "p": "[In-domain representation learning for remote sensing](https://arxiv.org/abs/1911.06721v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research/tree/master/remote_sensing_representations)",
+      "n": "ResNet50",
+      "d": "2019-11-15",
+      "m1": "99.61"
+    },
+    {
+      "p": "[MSMatch: Semi-Supervised Multispectral Scene Classification with Few Labels](https://arxiv.org/abs/2103.10368v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/gomezzz/MSMatch)",
+      "n": "MSMatch",
+      "d": "2021-03-18",
+      "m1": "98.33"
+    },
+    {
+      "p": "[A multiple-instance densely-connected ConvNet for aerial scene classification](https://drive.google.com/file/u/0/d/1a0q-lXSCCrCeoIG_0Cx4cS7ulsg5dLr3/view)",
+      "c": "[&check;&nbsp;Link](https://github.com/BiQiWHU/Attention-based-Multi-instance-CNN)",
+      "n": "MIDC-Net",
+      "d": "2020-03-03",
+      "m1": "97.40"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

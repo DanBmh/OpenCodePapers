@@ -1,0 +1,81 @@
+# 3d-semantic-segmentation-on-stpls3d
+
+[Dataset Link](https://www.stpls3d.com/) \
+Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', '3D Semantic Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mIOU",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[KPConv: Flexible and Deformable Convolution for Point Clouds](https://arxiv.org/abs/1904.08889v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/isl-org/Open3D-ML)",
+      "n": "KpConv",
+      "d": "2019-04-18",
+      "m1": "53.73"
+    },
+    {
+      "p": "[PointCT: Point Central Transformer Network for Weakly-supervised Point Cloud Semantic Segmentation](https://openaccess.thecvf.com/content/WACV2024/html/Tran_PointCT_Point_Central_Transformer_Network_for_Weakly-Supervised_Point_Cloud_Semantic_WACV_2024_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/anhthuan1999/PointCT)",
+      "n": "PointCT",
+      "d": "2023-12-24",
+      "m1": "53.2"
+    },
+    {
+      "p": "[4D Spatio-Temporal ConvNets: Minkowski Convolutional Neural Networks](https://arxiv.org/abs/1904.08755v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/NVIDIA/MinkowskiEngine)",
+      "n": "MinkowskiNet",
+      "d": "2019-04-18",
+      "m1": "51.3"
+    },
+    {
+      "p": "[SCF-Net: Learning Spatial Contextual Features for Large-Scale Point Cloud Segmentation](http://openaccess.thecvf.com//content/CVPR2021/html/Fan_SCF-Net_Learning_Spatial_Contextual_Features_for_Large-Scale_Point_Cloud_Segmentation_CVPR_2021_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/leofansq/SCF-Net)",
+      "n": "SCF-Net",
+      "d": "2021-06-19",
+      "m1": "50.65"
+    },
+    {
+      "p": "[Point Transformer](https://arxiv.org/abs/2012.09164v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Pointcept/Pointcept)",
+      "n": "Point transformer",
+      "d": "2020-12-16",
+      "m1": "47.64"
+    },
+    {
+      "p": "[PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space](http://arxiv.org/abs/1706.02413v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yanx27/Pointnet_Pointnet2_pytorch)",
+      "n": "PointNet++",
+      "d": "2017-06-07",
+      "m1": "15.92"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

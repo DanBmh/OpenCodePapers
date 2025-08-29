@@ -1,0 +1,68 @@
+# emotion-recognition-in-context-on-bold
+
+[Dataset Link](https://cydar.ist.psu.edu/emotionchallenge/index.php) \
+Task Hierarchy: ['Emotion Recognition', 'Emotion Recognition in Context']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Average mAP",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "AUC",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[VLLMs Provide Better Context for Emotion Understanding Through Common Sense Reasoning](https://arxiv.org/abs/2404.07078v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nickyfot/emocommonsense)",
+      "n": "A. Xenos et al",
+      "d": "2024-04-10",
+      "m1": "26.66",
+      "m2": "69.83"
+    },
+    {
+      "p": "[Learning Emotion Representations from Verbal and Nonverbal Communication](https://arxiv.org/abs/2305.13500v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/xeaver/emotionclip)",
+      "n": "EmotionCLIP(linear-probe evaluation)",
+      "d": "2023-05-22",
+      "m1": "22.51",
+      "m2": "69.30"
+    },
+    {
+      "p": "[Leveraging Semantic Scene Characteristics and Multi-Stream Convolutional Architectures in a Contextual Approach for Video-Based Visual Emotion Recognition in the Wild](https://arxiv.org/abs/2105.07484v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/GiannisPikoulis/FG2021-BoLD)",
+      "n": "Pikoulis et al",
+      "d": "2021-05-16",
+      "m1": "19.29",
+      "m2": "66.82"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

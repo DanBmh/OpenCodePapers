@@ -1,0 +1,88 @@
+# highlight-detection-on-youtube-highlights
+
+[Dataset Link]() \
+Task Hierarchy: ['16k', 'Highlight Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mAP",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Saliency-Guided DETR for Moment Retrieval and Highlight Detection](https://arxiv.org/abs/2410.01615v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ai-forever/sg-detr)",
+      "n": "SG-DETR (w/ PT)",
+      "d": "2024-10-02",
+      "m1": "78.0"
+    },
+    {
+      "p": "[Bridging the Gap: A Unified Video Comprehension Framework for Moment Retrieval and Highlight Detection](https://arxiv.org/abs/2311.16464v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/easonxiao-888/uvcom)",
+      "n": "UVCOM",
+      "d": "2023-11-28",
+      "m1": "77.4"
+    },
+    {
+      "p": "[Saliency-Guided DETR for Moment Retrieval and Highlight Detection](https://arxiv.org/abs/2410.01615v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ai-forever/sg-detr)",
+      "n": "SG-DETR",
+      "d": "2024-10-02",
+      "m1": "76.7"
+    },
+    {
+      "p": "[Correlation-Guided Query-Dependency Calibration for Video Temporal Grounding](https://arxiv.org/abs/2311.08835v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/wjun0830/qd-detr)",
+      "n": "CG-DETR",
+      "d": "2023-11-15",
+      "m1": "75.9"
+    },
+    {
+      "p": "[FlashVTG: Feature Layering and Adaptive Score Handling Network for Video Temporal Grounding](https://arxiv.org/abs/2412.13441v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhuo-cao/flashvtg)",
+      "n": "FlashVTG",
+      "d": "2024-12-18",
+      "m1": "75.4"
+    },
+    {
+      "p": "[Prior Knowledge Integration via LLM Encoding and Pseudo Event Regulation for Video Moment Retrieval](https://arxiv.org/abs/2407.15051v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/fletcherjiang/llmepet)",
+      "n": "LLMEPET",
+      "d": "2024-07-21",
+      "m1": "75.3"
+    },
+    {
+      "p": "[UMT: Unified Multi-modal Transformers for Joint Video Moment Retrieval and Highlight Detection](https://arxiv.org/abs/2203.12745v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tencentarc/umt)",
+      "n": "UMT",
+      "d": "2022-03-23",
+      "m1": "74.9"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

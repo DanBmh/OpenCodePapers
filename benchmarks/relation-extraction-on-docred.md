@@ -1,0 +1,537 @@
+# relation-extraction-on-docred
+
+[Dataset Link](https://github.com/thunlp/DocRED) \
+Task Hierarchy: ['Relation Extraction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Ign F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[DREEAM: Guiding Attention with Evidence for Improving Document-Level Relation Extraction](https://arxiv.org/abs/2302.08675v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/youmima/dreeam)",
+      "n": "DREEAM",
+      "d": "2023-02-17",
+      "m1": "67.53",
+      "m2": "65.47"
+    },
+    {
+      "p": "[Document-Level Relation Extraction with Adaptive Focal Loss and Knowledge Distillation](https://arxiv.org/abs/2203.10900v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tonytan48/kd-docre)",
+      "n": "KD-Rb-l",
+      "d": "2022-03-21",
+      "m1": "67.28",
+      "m2": "65.24"
+    },
+    {
+      "p": "[Entity Structure Within and Throughout: Modeling Mention Dependencies for Document-Level Relation Extraction](https://arxiv.org/abs/2102.10249v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/Research)",
+      "n": "SSAN-RoBERTa-large+Adaptation",
+      "d": "2021-02-20",
+      "m1": "65.92",
+      "m2": "63.78"
+    },
+    {
+      "p": "[SAIS: Supervising and Augmenting Intermediate Steps for Document-Level Relation Extraction](https://arxiv.org/abs/2109.12093v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/xiaoyuxin1002/sais)",
+      "n": "SAIS-RoBERTa-large",
+      "d": "2021-09-24",
+      "m1": "65.11",
+      "m2": "63.44"
+    },
+    {
+      "p": "[Eider: Empowering Document-level Relation Extraction with Efficient Evidence Extraction and Inference-stage Fusion](https://arxiv.org/abs/2106.08657v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/veronicium/eider)",
+      "n": "Eider-RoBERTa-large",
+      "d": "2021-06-16",
+      "m1": "64.79",
+      "m2": "62.85"
+    },
+    {
+      "p": "[Document-level Relation Extraction as Semantic Segmentation](https://arxiv.org/abs/2106.03618v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zjunlp/DocuNet)",
+      "n": "DocuNet-RoBERTa-large",
+      "d": "2021-06-07",
+      "m1": "64.55",
+      "m2": "62.4"
+    },
+    {
+      "p": "[Document-level Relation Extraction with Context Guided Mention Integration and Inter-pair Reasoning](https://arxiv.org/abs/2201.04826v1)",
+      "c": "",
+      "n": "CGM2IR-RoBERTalarge",
+      "d": "2022-01-13",
+      "m1": "63.89",
+      "m2": "61.96"
+    },
+    {
+      "p": "[Document-Level Relation Extraction with Structure Enhanced Transformer Encoder](https://ieeexplore.ieee.org/abstract/document/9892647)",
+      "c": "",
+      "n": "SETE-Roberta-large",
+      "d": "2022-07-11",
+      "m1": "63.74",
+      "m2": "61.78"
+    },
+    {
+      "p": "[Document-Level Relation Extraction with Adaptive Thresholding and Localized Context Pooling](https://arxiv.org/abs/2010.11304v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/wzhouad/ATLOP)",
+      "n": "ATLOP-RoBERTa-large",
+      "d": "2020-10-21",
+      "m1": "63.40",
+      "m2": "61.39"
+    },
+    {
+      "p": "[A Masked Image Reconstruction Network for Document-level Relation Extraction](https://arxiv.org/abs/2204.09851v2)",
+      "c": "",
+      "n": "DRE-MIR-BERTbase",
+      "d": "2022-04-21",
+      "m1": "63.15",
+      "m2": "61.03"
+    },
+    {
+      "p": "[SAIS: Supervising and Augmenting Intermediate Steps for Document-Level Relation Extraction](https://arxiv.org/abs/2109.12093v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/xiaoyuxin1002/sais)",
+      "n": "SAIS-BERT-base",
+      "d": "2021-09-24",
+      "m1": "62.77",
+      "m2": "60.96"
+    },
+    {
+      "p": "[Double Graph Based Reasoning for Document-level Relation Extraction](https://arxiv.org/abs/2009.13752v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/DreamInvoker/GAIN)",
+      "n": "GAIN-BERT-large",
+      "d": "2020-09-29",
+      "m1": "62.76",
+      "m2": "60.31"
+    },
+    {
+      "p": "[A Densely Connected Criss-Cross Attention Network for Document-level Relation Extraction](https://arxiv.org/abs/2203.13953v1)",
+      "c": "",
+      "n": "Dense-CCNet-BERTbase",
+      "d": "2022-03-26",
+      "m1": "62.55",
+      "m2": "60.46"
+    },
+    {
+      "p": "[Entity and Evidence Guided Relation Extraction for DocRED](https://arxiv.org/abs/2008.12283v1)",
+      "c": "",
+      "n": "E2GRE-RoBERTa-large",
+      "d": "2020-08-27",
+      "m1": "62.50",
+      "m2": "60.30"
+    },
+    {
+      "p": "[Eider: Empowering Document-level Relation Extraction with Efficient Evidence Extraction and Inference-stage Fusion](https://arxiv.org/abs/2106.08657v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/veronicium/eider)",
+      "n": "Eider-BERT-base",
+      "d": "2021-06-16",
+      "m1": "62.47",
+      "m2": "60.42"
+    },
+    {
+      "p": "[SagDRE: Sequence-Aware Graph-Based Document-Level Relation Extraction with Adaptive Margin Loss](https://openreview.net/forum?id=Vi9Cj61ZGsR)",
+      "c": "[&check;&nbsp;Link](https://github.com/IAmHedgehog/SagDRE)",
+      "n": "SagDRE",
+      "d": "2021-11-16",
+      "m1": "62.32",
+      "m2": "60.11"
+    },
+    {
+      "p": "[Document-Level Relation Extraction with Sentences Importance Estimation and Focusing](https://arxiv.org/abs/2204.12679v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/xwjim/sief)",
+      "n": "GAIN+SIEF",
+      "d": "2022-04-27",
+      "m1": "62.29",
+      "m2": "59.87"
+    },
+    {
+      "p": "[Document-level Relation Extraction with Context Guided Mention Integration and Inter-pair Reasoning](https://arxiv.org/abs/2201.04826v1)",
+      "c": "",
+      "n": "CGM2IR-BERTbase",
+      "d": "2022-01-13",
+      "m1": "62.06",
+      "m2": "60.24"
+    },
+    {
+      "p": "[SIRE: Separate Intra- and Inter-sentential Reasoning for Document-level Relation Extraction](https://arxiv.org/abs/2106.01709v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/DreamInvoker/SIRE)",
+      "n": "SIRE-BERT-base",
+      "d": "2021-06-03",
+      "m1": "62.05",
+      "m2": "60.18"
+    },
+    {
+      "p": "[MRN: A Locally and Globally Mention-Based Reasoning Network for Document-Level Relation Extraction](https://aclanthology.org/2021.findings-acl.117)",
+      "c": "[&check;&nbsp;Link](https://github.com/ljynlp/mrn)",
+      "n": "MRN+BERT",
+      "d": null,
+      "m1": "61.74",
+      "m2": "59.52"
+    },
+    {
+      "p": "[Learning Logic Rules for Document-level Relation Extraction](https://arxiv.org/abs/2111.05407v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/rudongyu/logire)",
+      "n": "ATLOP + LogiRE",
+      "d": "2021-11-09",
+      "m1": "61.45",
+      "m2": "59.48"
+    },
+    {
+      "p": "[Entity Structure Within and Throughout: Modeling Mention Dependencies for Document-Level Relation Extraction](https://arxiv.org/abs/2102.10249v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/Research)",
+      "n": "SSAN-RoBERTa-large",
+      "d": "2021-02-20",
+      "m1": "61.42",
+      "m2": "59.47"
+    },
+    {
+      "p": "[Enhancing Document-level Relation Extraction by Entity Knowledge Injection](https://arxiv.org/abs/2207.11433v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nju-websoft/kire)",
+      "n": "ATLOP + KIRE",
+      "d": "2022-07-23",
+      "m1": "61.39",
+      "m2": "59.35"
+    },
+    {
+      "p": "[Discriminative Reasoning for Document-level Relation Extraction](https://arxiv.org/abs/2106.01562v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/xwjim/DRN)",
+      "n": "DRN-BERT-base",
+      "d": "2021-06-03",
+      "m1": "61.37",
+      "m2": "59.15"
+    },
+    {
+      "p": "[Improving Long Tailed Document-Level Relation Extraction via Easy Relation Augmentation and Contrastive Learning](https://arxiv.org/abs/2205.10511v1)",
+      "c": "",
+      "n": "ERACL",
+      "d": "2022-05-21",
+      "m1": "61.36",
+      "m2": "59.08"
+    },
+    {
+      "p": "[Document-Level Relation Extraction with Adaptive Thresholding and Localized Context Pooling](https://arxiv.org/abs/2010.11304v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/wzhouad/ATLOP)",
+      "n": "ATLOP-BERT-base",
+      "d": "2020-10-21",
+      "m1": "61.30",
+      "m2": "59.31"
+    },
+    {
+      "p": "[Double Graph Based Reasoning for Document-level Relation Extraction](https://arxiv.org/abs/2009.13752v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/DreamInvoker/GAIN)",
+      "n": "GAIN-BERT",
+      "d": "2020-09-29",
+      "m1": "61.24",
+      "m2": "59.00"
+    },
+    {
+      "p": "[CorefDRE: Document-level Relation Extraction with coreference resolution](https://arxiv.org/abs/2202.10744v1)",
+      "c": "",
+      "n": "CorefDRE- BERT",
+      "d": "2022-02-22",
+      "m1": "60.82",
+      "m2": "60.78"
+    },
+    {
+      "p": "[Learning Logic Rules for Document-level Relation Extraction](https://arxiv.org/abs/2111.05407v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/rudongyu/logire)",
+      "n": "GAIN + LogiRE",
+      "d": "2021-11-09",
+      "m1": "60.61",
+      "m2": "58.62"
+    },
+    {
+      "p": "[An End-to-end Model for Entity-level Relation Extraction using Multi-instance Learning](https://arxiv.org/abs/2102.05980v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/lavis-nlp/jerex)",
+      "n": "JEREX-BERT-base",
+      "d": "2021-02-11",
+      "m1": "60.40",
+      "m2": "58.44"
+    },
+    {
+      "p": "[Coreferential Reasoning Learning for Language Representation](https://arxiv.org/abs/2004.06870v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/thunlp/KernelGAT)",
+      "n": "CorefRoBERTa-large",
+      "d": "2020-04-15",
+      "m1": "60.25",
+      "m2": "57.90"
+    },
+    {
+      "p": "[Multi-view Inference for Relation Extraction with Uncertain Knowledge](https://arxiv.org/abs/2104.13579v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/pkuserc/AAAI2021-MIUK-Relation-Extraction)",
+      "n": "MIUK",
+      "d": "2021-04-28",
+      "m1": "59.99",
+      "m2": "58.05"
+    },
+    {
+      "p": "[Entity Structure Within and Throughout: Modeling Mention Dependencies for Document-Level Relation Extraction](https://arxiv.org/abs/2102.10249v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/Research)",
+      "n": "SSAN-RoBERTa-base",
+      "d": "2021-02-20",
+      "m1": "59.94",
+      "m2": "57.71"
+    },
+    {
+      "p": "[Coarse-to-Fine Entity Representations for Document-level Relation Extraction](https://arxiv.org/abs/2012.02507v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Hunter-DDM/cfer-document-level-RE)",
+      "n": "CFER-BERT-base",
+      "d": "2020-12-04",
+      "m1": "59.82",
+      "m2": "57.89"
+    },
+    {
+      "p": "[Document-Level Relation Extraction with Reconstruction](https://arxiv.org/abs/2012.11384v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/xwjim/DocRE-Rec)",
+      "n": "HeterGSAN+Reconstruction+BERT-base",
+      "d": "2020-12-21",
+      "m1": "59.45",
+      "m2": "57.12"
+    },
+    {
+      "p": "[Fine-grained Contrastive Learning for Relation Extraction](https://arxiv.org/abs/2205.12491v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/david-li0406/read)",
+      "n": "FineCL",
+      "d": "2022-05-25",
+      "m1": "59.4",
+      "m2": "57.1"
+    },
+    {
+      "p": "[Relation-Specific Attentions over Entity Mentions for Enhanced Document-Level Relation Extraction](https://arxiv.org/abs/2205.14393v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/fduyjx/rsman)",
+      "n": "SSAN+RSMAN",
+      "d": "2022-05-28",
+      "m1": "59.29",
+      "m2": "57.02"
+    },
+    {
+      "p": "[Reasoning with Latent Structure Refinement for Document-Level Relation Extraction](https://arxiv.org/abs/2005.06312v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/nanguoshun/LSR)",
+      "n": "LSR+BERT-base",
+      "d": "2020-05-13",
+      "m1": "59.05",
+      "m2": "56.97"
+    },
+    {
+      "p": "[Global-to-Local Neural Networks for Document-Level Relation Extraction](https://arxiv.org/abs/2009.10359v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nju-websoft/GLRE)",
+      "n": "GLRE-XLNet-Large",
+      "d": "2020-09-22",
+      "m1": "59.0",
+      "m2": "56.8"
+    },
+    {
+      "p": "[Coreferential Reasoning Learning for Language Representation](https://arxiv.org/abs/2004.06870v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/thunlp/KernelGAT)",
+      "n": "CorefBERT-large",
+      "d": "2020-04-15",
+      "m1": "58.83",
+      "m2": "56.40"
+    },
+    {
+      "p": "[Entity and Evidence Guided Relation Extraction for DocRED](https://arxiv.org/abs/2008.12283v1)",
+      "c": "",
+      "n": "E2GRE-BERT-base",
+      "d": "2020-08-27",
+      "m1": "58.72",
+      "m2": "55.22"
+    },
+    {
+      "p": "[Improving Document-level Relation Extraction via Contextualizing Mention Representations and Weighting Mention Pairs](https://ieeexplore.ieee.org/abstract/document/9194547)",
+      "c": "[&check;&nbsp;Link](https://github.com/nefujiangping/EncAttAgg)",
+      "n": "EncAttAgg",
+      "d": "2020-08-09",
+      "m1": "58.7",
+      "m2": "56.7"
+    },
+    {
+      "p": "[MRN: A Locally and Globally Mention-Based Reasoning Network for Document-Level Relation Extraction](https://aclanthology.org/2021.findings-acl.117)",
+      "c": "[&check;&nbsp;Link](https://github.com/ljynlp/mrn)",
+      "n": "MRN",
+      "d": null,
+      "m1": "58.46",
+      "m2": "56.19"
+    },
+    {
+      "p": "[Entity Structure Within and Throughout: Modeling Mention Dependencies for Document-Level Relation Extraction](https://arxiv.org/abs/2102.10249v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/Research)",
+      "n": "SSAN-BERT-base",
+      "d": "2021-02-20",
+      "m1": "58.16",
+      "m2": "55.84"
+    },
+    {
+      "p": "[Dual Supervision Framework for Relation Extraction with Distant Supervision and Human Annotation](https://arxiv.org/abs/2011.11851v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/woohwanjung/dual)",
+      "n": "DUAL+BERT-base",
+      "d": "2020-11-24",
+      "m1": "57.74"
+    },
+    {
+      "p": "[Coreferential Reasoning Learning for Language Representation](https://arxiv.org/abs/2004.06870v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/thunlp/KernelGAT)",
+      "n": "CorefBERT-base",
+      "d": "2020-04-15",
+      "m1": "56.96",
+      "m2": "54.54"
+    },
+    {
+      "p": "[Discriminative Reasoning for Document-level Relation Extraction](https://arxiv.org/abs/2106.01562v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/xwjim/DRN)",
+      "n": "DRN-GloVe",
+      "d": "2021-06-03",
+      "m1": "56.33",
+      "m2": "54.35"
+    },
+    {
+      "p": "[Three Sentences Are All You Need: Local Path Enhanced Document Relation Extraction](https://arxiv.org/abs/2106.01793v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/AndrewZhe/Three-Sentences-Are-All-You-Need)",
+      "n": "Paths+BiLSTM-GloVe",
+      "d": "2021-06-03",
+      "m1": "56.23"
+    },
+    {
+      "p": "[SIRE: Separate Intra- and Inter-sentential Reasoning for Document-level Relation Extraction](https://arxiv.org/abs/2106.01709v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/DreamInvoker/SIRE)",
+      "n": "SIRE-GloVe",
+      "d": "2021-06-03",
+      "m1": "55.96",
+      "m2": "54.04"
+    },
+    {
+      "p": "[Coarse-to-Fine Entity Representations for Document-level Relation Extraction](https://arxiv.org/abs/2012.02507v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Hunter-DDM/cfer-document-level-RE)",
+      "n": "CFER-GloVe",
+      "d": "2020-12-04",
+      "m1": "55.75",
+      "m2": "53.43"
+    },
+    {
+      "p": "[HIN: Hierarchical Inference Network for Document-Level Relation Extraction](https://arxiv.org/abs/2003.12754v1)",
+      "c": "",
+      "n": "HIN-BERT-base",
+      "d": "2020-03-28",
+      "m1": "55.60",
+      "m2": "53.70"
+    },
+    {
+      "p": "[Document-Level Relation Extraction with Reconstruction](https://arxiv.org/abs/2012.11384v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/xwjim/DocRE-Rec)",
+      "n": "HeterGSAN+Reconstruction",
+      "d": "2020-12-21",
+      "m1": "55.23",
+      "m2": "53.27"
+    },
+    {
+      "p": "[Double Graph Based Reasoning for Document-level Relation Extraction](https://arxiv.org/abs/2009.13752v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/DreamInvoker/GAIN)",
+      "n": "GAIN-GloVe",
+      "d": "2020-09-29",
+      "m1": "55.08",
+      "m2": "52.66"
+    },
+    {
+      "p": "[Reasoning with Latent Structure Refinement for Document-Level Relation Extraction](https://arxiv.org/abs/2005.06312v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/nanguoshun/LSR)",
+      "n": "LSR+GloVe",
+      "d": "2020-05-13",
+      "m1": "54.18",
+      "m2": "52.15"
+    },
+    {
+      "p": "[Fine-tune Bert for DocRED with Two-step Process](https://arxiv.org/abs/1909.11898v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/hongwang600/DocRed)",
+      "n": "Two-Step+BERT-base",
+      "d": "2019-09-26",
+      "m1": "53.92",
+      "m2": "54.42"
+    },
+    {
+      "p": "[HIN: Hierarchical Inference Network for Document-Level Relation Extraction](https://arxiv.org/abs/2003.12754v1)",
+      "c": "",
+      "n": "HIN-GloVe",
+      "d": "2020-03-28",
+      "m1": "53.30",
+      "m2": "51.15"
+    },
+    {
+      "p": "[Fine-tune Bert for DocRED with Two-step Process](https://arxiv.org/abs/1909.11898v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/hongwang600/DocRed)",
+      "n": "BERT-base",
+      "d": "2019-09-26",
+      "m1": "53.22",
+      "m2": "56.17"
+    },
+    {
+      "p": "[GREG: A Global Level Relation Extraction with Knowledge Graph Embedding](https://www.mdpi.com/2076-3417/10/3/1181/htm)",
+      "c": "",
+      "n": "GREG",
+      "d": "2020-02-10",
+      "m1": "52.88"
+    },
+    {
+      "p": "[DocRED: A Large-Scale Document-Level Relation Extraction Dataset](https://arxiv.org/abs/1906.06127v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/thunlp/DocRED)",
+      "n": "BiLSTM",
+      "d": "2019-06-14",
+      "m1": "51.06",
+      "m2": "44.73"
+    },
+    {
+      "p": "[DocRED: A Large-Scale Document-Level Relation Extraction Dataset](https://arxiv.org/abs/1906.06127v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/thunlp/DocRED)",
+      "n": "DocRED-Context-Aware",
+      "d": "2019-06-14",
+      "m1": "50.64",
+      "m2": "43.93"
+    },
+    {
+      "p": "[DocRED: A Large-Scale Document-Level Relation Extraction Dataset](https://arxiv.org/abs/1906.06127v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/thunlp/DocRED)",
+      "n": "BiLSTM",
+      "d": "2019-06-14",
+      "m1": "50.12",
+      "m2": "43.60"
+    },
+    {
+      "p": "[DocRED: A Large-Scale Document-Level Relation Extraction Dataset](https://arxiv.org/abs/1906.06127v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/thunlp/DocRED)",
+      "n": "DocRED-CNN",
+      "d": "2019-06-14",
+      "m1": "42.33",
+      "m2": "36.44"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

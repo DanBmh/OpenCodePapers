@@ -1,0 +1,67 @@
+# entity-resolution-on-wdc-watches-small
+
+[Dataset Link](http://webdatacommons.org/largescaleproductcorpus/v2/) \
+Task Hierarchy: ['Entity Resolution']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "F1 (%)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Entity Resolution with Hierarchical Graph Attention Networks](https://dl.acm.org/doi/10.1145/3514221.3517872)",
+      "c": "[&check;&nbsp;Link](https://github.com/CGCL-codes/HierGAT)",
+      "n": "HG",
+      "d": "2022-06-01",
+      "m1": "94"
+    },
+    {
+      "p": "[Domain Adaptation for Deep Entity Resolution: A Design Space Exploration](https://dl.acm.org/doi/10.1145/3514221.3517870)",
+      "c": "[&check;&nbsp;Link](https://github.com/ruc-datalab/DADER)",
+      "n": "DADER-NoDA",
+      "d": "2022-06-01",
+      "m1": "88.60"
+    },
+    {
+      "p": "[Deep Entity Matching with Pre-Trained Language Models](https://arxiv.org/abs/2004.00584v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/megagonlabs/ditto)",
+      "n": "Ditto",
+      "d": "2020-04-01",
+      "m1": "85.12"
+    },
+    {
+      "p": "[Dual-Objective Fine-Tuning of BERT for Entity Matching](https://doi.org/10.14778/3467861.3467878)",
+      "c": "[&check;&nbsp;Link](https://github.com/wbsg-uni-mannheim/jointbert)",
+      "n": "JointBERT",
+      "d": "2021-06-01",
+      "m1": "75.83"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

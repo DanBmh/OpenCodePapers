@@ -1,0 +1,154 @@
+# robot-navigation-on-habitat-2020-point-nav
+
+[Dataset Link]() \
+Task Hierarchy: ['Robot Navigation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "SPL",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "SOFT_SPL",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "DISTANCE_TO_GOAL",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "SUCCESS",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "VO",
+      "d": null,
+      "m1": "0.525",
+      "m2": "0.665",
+      "m3": "0.802",
+      "m4": "0.717"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "SLAM-net + D*",
+      "d": null,
+      "m1": "0.377",
+      "m2": "0.521",
+      "m3": "0.697",
+      "m4": "0.644"
+    },
+    {
+      "p": "[Occupancy Anticipation for Efficient Exploration and Navigation](https://arxiv.org/abs/2008.09285v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/OccupancyAnticipation)",
+      "n": "OccupancyAnticipation",
+      "d": "2020-08-21",
+      "m1": "0.22",
+      "m2": "0.473",
+      "m3": "2.567",
+      "m4": "0.289"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Information Bottleneck",
+      "d": null,
+      "m1": "0.122",
+      "m2": "0.561",
+      "m3": "2.075",
+      "m4": "0.163"
+    },
+    {
+      "p": "[Integrating Egocentric Localization for More Realistic Point-Goal Navigation Agents](https://arxiv.org/abs/2009.03231v1)",
+      "c": "",
+      "n": "ego-localization",
+      "d": "2020-09-07",
+      "m1": "0.119",
+      "m2": "0.586",
+      "m3": "2.232",
+      "m4": "0.157"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "39",
+      "d": null,
+      "m1": "0.009",
+      "m2": "0.304",
+      "m3": "4.879",
+      "m4": "0.013"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "cso",
+      "d": null,
+      "m1": "0.007",
+      "m2": "0.247",
+      "m3": "4.632",
+      "m4": "0.012"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "UCULab",
+      "d": null,
+      "m1": "0.005",
+      "m2": "0.104",
+      "m3": "6.555",
+      "m4": "0.008"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Habitat Team (RGBD+DD-PPO)",
+      "d": null,
+      "m1": "0.001",
+      "m2": "0.038",
+      "m3": "6.929",
+      "m4": "0.003"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "RandomAgent",
+      "d": null,
+      "m1": "0.0",
+      "m2": "0.011",
+      "m3": "7.169",
+      "m4": "0.0"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,177 @@
+# sentiment-analysis-on-mr
+
+[Dataset Link](http://www.cs.cornell.edu/people/pabo/movie-review-data/) \
+Task Hierarchy: ['Sentiment Analysis']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Training Time",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Vector of Locally-Aggregated Word Embeddings (VLAWE): A Novel Document-level Representation](https://arxiv.org/abs/1902.08850v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/raduionescu/vlawe-boswe)",
+      "n": "VLAWE",
+      "d": "2019-02-23",
+      "m1": "93.3"
+    },
+    {
+      "p": "[Entailment as Few-Shot Learner](https://arxiv.org/abs/2104.14690v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/examples/few_shot/efl)",
+      "n": "RoBERTa-large 355M + Entailment as Few-shot Learner",
+      "d": "2021-04-29",
+      "m1": "92.5"
+    },
+    {
+      "p": "[AnglE-optimized Text Embeddings](https://arxiv.org/abs/2309.12871v9)",
+      "c": "[&check;&nbsp;Link](https://github.com/SeanLee97/AnglE)",
+      "n": "AnglE-LLaMA-7B",
+      "d": "2023-09-22",
+      "m1": "91.09"
+    },
+    {
+      "p": "[A La Carte Embedding: Cheap but Effective Induction of Semantic Feature Vectors](http://arxiv.org/abs/1805.05388v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/NLPrinceton/ALaCarte)",
+      "n": "byte mLSTM7",
+      "d": "2018-05-14",
+      "m1": "86.8"
+    },
+    {
+      "p": "[A Multi-sentiment-resource Enhanced Attention Network for Sentiment Classification](http://arxiv.org/abs/1807.04990v1)",
+      "c": "",
+      "n": "MEAN",
+      "d": "2018-07-13",
+      "m1": "84.5"
+    },
+    {
+      "p": "[Sentiment Analysis by Capsules](https://ntunlpsg.github.io/publication/2018_2_ai/)",
+      "c": "[&check;&nbsp;Link](https://github.com/thuwyq/WWW18-rnn-capsule)",
+      "n": "RNN-Capsule",
+      "d": "2018-02-01",
+      "m1": "83.8"
+    },
+    {
+      "p": "[Investigating Capsule Networks with Dynamic Routing for Text Classification](http://arxiv.org/abs/1804.00538v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/andyweizhao/capsule_text_classification)",
+      "n": "Capsule-B ",
+      "d": "2018-03-29",
+      "m1": "82.3"
+    },
+    {
+      "p": "[Improved Sentence Modeling using Suffix Bidirectional LSTM](http://arxiv.org/abs/1805.07340v2)",
+      "c": "",
+      "n": "SuBiLSTM-Tied",
+      "d": "2018-05-18",
+      "m1": "81.6"
+    },
+    {
+      "p": "[Universal Sentence Encoder](http://arxiv.org/abs/1803.11175v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/InferSent)",
+      "n": "USE_T+CNN ",
+      "d": "2018-03-29",
+      "m1": "81.59"
+    },
+    {
+      "p": "[The Pupil Has Become the Master: Teacher-Student Model-Based Word Embedding Distillation with Ensemble Learning](https://arxiv.org/abs/1906.00095v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/bgshin/distill_demo)",
+      "n": "STM+TSED+PT+2L",
+      "d": "2019-05-31",
+      "m1": "80.09"
+    },
+    {
+      "p": "[All-but-the-Top: Simple and Effective Postprocessing for Word Representations](http://arxiv.org/abs/1702.01417v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/lgalke/vec4ir)",
+      "n": "GRU-RNN-WORD2VEC",
+      "d": "2017-02-05",
+      "m1": "78.26"
+    },
+    {
+      "p": "[Baseline Needs More Love: On Simple Word-Embedding-Based Models and Associated Pooling Mechanisms](http://arxiv.org/abs/1805.09843v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dinghanshen/SWEM)",
+      "n": "SWEM-concat",
+      "d": "2018-05-24",
+      "m1": "78.2"
+    },
+    {
+      "p": "[Enhancing Interpretable Clauses Semantically using Pretrained Word Representation](https://arxiv.org/abs/2104.06901v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/cair/TsetlinMachine)",
+      "n": "TM-Glove",
+      "d": "2021-04-14",
+      "m1": "77.51"
+    },
+    {
+      "p": "[Graph Convolutional Networks for Text Classification](http://arxiv.org/abs/1809.05679v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yao8839836/text_gcn)",
+      "n": "Text GCN",
+      "d": "2018-09-15",
+      "m1": "76.74"
+    },
+    {
+      "p": "[Graph Star Net for Generalized Multi-Task Learning](https://arxiv.org/abs/1906.12330v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/graph-star-team/graph_star)",
+      "n": "GraphStar",
+      "d": "2019-06-21",
+      "m1": "76.6"
+    },
+    {
+      "p": "[Sentence-State LSTM for Text Representation](http://arxiv.org/abs/1805.02474v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/leuchine/S-LSTM)",
+      "n": "S-LSTM",
+      "d": "2018-05-07",
+      "m1": "76.2"
+    },
+    {
+      "p": "[Simplifying Graph Convolutional Networks](https://arxiv.org/abs/1902.07153v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/sgc)",
+      "n": "SGC",
+      "d": "2019-02-19",
+      "m1": "75.9"
+    },
+    {
+      "p": "[Simplifying Graph Convolutional Networks](https://arxiv.org/abs/1902.07153v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/sgc)",
+      "n": "SGCN",
+      "d": "2019-02-19",
+      "m1": "75.9"
+    },
+    {
+      "p": "[Using millions of emoji occurrences to learn any-domain representations for detecting sentiment, emotion and sarcasm](http://arxiv.org/abs/1708.00524v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/bfelbo/deepmoji)",
+      "n": "Millions of Emoji",
+      "d": "2017-08-01",
+      "m2": "1500"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

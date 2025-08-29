@@ -1,0 +1,81 @@
+# traffic-prediction-on-ne-bj
+
+[Dataset Link]() \
+Task Hierarchy: ['Traffic Prediction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "12 steps MAE",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[RGDAN: A random graph diffusion attention network for traffic prediction](https://doi.org/10.1016/j.neunet.2023.106093)",
+      "c": "[&check;&nbsp;Link](https://github.com/wengwenchao123/RGDAN)",
+      "n": "RGDAN",
+      "d": "2024-01-16",
+      "m1": "4.68"
+    },
+    {
+      "p": "[Dynamic Graph Convolutional Recurrent Network for Traffic Prediction: Benchmark and Solution](https://arxiv.org/abs/2104.14917v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tsinghua-fib-lab/Traffic-Benchmark)",
+      "n": "DGCRN",
+      "d": "2021-04-30",
+      "m1": "4.79"
+    },
+    {
+      "p": "[GMAN: A Graph Multi-Attention Network for Traffic Prediction](https://arxiv.org/abs/1911.08415v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/benedekrozemberczki/pytorch_geometric_temporal)",
+      "n": "GMAN",
+      "d": "2019-11-11",
+      "m1": "4.80"
+    },
+    {
+      "p": "[Connecting the Dots: Multivariate Time Series Forecasting with Graph Neural Networks](https://arxiv.org/abs/2005.11650v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/benedekrozemberczki/pytorch_geometric_temporal)",
+      "n": "MTGNN",
+      "d": "2020-05-24",
+      "m1": "4.90"
+    },
+    {
+      "p": "[Graph WaveNet for Deep Spatial-Temporal Graph Modeling](https://arxiv.org/abs/1906.00121v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nnzhan/Graph-WaveNet)",
+      "n": "Graph WaveNet",
+      "d": "2019-05-31",
+      "m1": "4.99"
+    },
+    {
+      "p": "[Adaptive Graph Convolutional Recurrent Network for Traffic Forecasting](https://arxiv.org/abs/2007.02842v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/benedekrozemberczki/pytorch_geometric_temporal)",
+      "n": "AGCRN",
+      "d": "2020-07-06",
+      "m1": "4.99"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

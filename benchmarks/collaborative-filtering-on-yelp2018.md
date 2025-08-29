@@ -1,0 +1,116 @@
+# collaborative-filtering-on-yelp2018
+
+[Dataset Link]() \
+Task Hierarchy: ['Collaborative Filtering']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "NDCG@20",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Recall@20",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Neighborhood-Enhanced Supervised Contrastive Learning for Collaborative Filtering](https://arxiv.org/abs/2402.11523v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PeiJieSun/NESCL)",
+      "n": "NESCL",
+      "d": "2024-02-18",
+      "m1": "0.0611",
+      "m2": "0.0743"
+    },
+    {
+      "p": "[Blurring-Sharpening Process Models for Collaborative Filtering](https://arxiv.org/abs/2211.09324v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jeongwhanchoi/bspm)",
+      "n": "BSPM-EM",
+      "d": "2022-11-17",
+      "m1": "0.0593",
+      "m2": "0.0720"
+    },
+    {
+      "p": "[Why is Normalization Necessary for Linear Recommenders?](https://arxiv.org/abs/2504.05805v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/psm1206/dan)",
+      "n": "RLAE-DAN",
+      "d": "2025-04-08",
+      "m1": "0.0587",
+      "m2": "0.0706"
+    },
+    {
+      "p": "[Blurring-Sharpening Process Models for Collaborative Filtering](https://arxiv.org/abs/2211.09324v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jeongwhanchoi/bspm)",
+      "n": "BSPM-LM",
+      "d": "2022-11-17",
+      "m1": "0.0584",
+      "m2": "0.0713"
+    },
+    {
+      "p": "[SimpleX: A Simple and Strong Baseline for Collaborative Filtering](https://arxiv.org/abs/2109.12613v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/reczoo/RecZoo/tree/main/matching/cf/SimpleX)",
+      "n": "SimpleX",
+      "d": "2021-09-26",
+      "m1": "0.0575",
+      "m2": "0.0701"
+    },
+    {
+      "p": "[UltraGCN: Ultra Simplification of Graph Convolutional Networks for Recommendation](https://arxiv.org/abs/2110.15114v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/reczoo/RecZoo/tree/main/matching/gnn/UltraGCN)",
+      "n": "UltraGCN",
+      "d": "2021-10-28",
+      "m1": "0.0561",
+      "m2": "0.0683"
+    },
+    {
+      "p": "[Self-supervised Graph Learning for Recommendation](https://arxiv.org/abs/2010.10783v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/hkuds/sslrec)",
+      "n": "SGL",
+      "d": "2020-10-21",
+      "m1": "0.0555",
+      "m2": "0.0675"
+    },
+    {
+      "p": "[LT-OCF: Learnable-Time ODE-based Collaborative Filtering](https://arxiv.org/abs/2108.06208v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/jeongwhanchoi/lt-ocf)",
+      "n": "LT-OCF",
+      "d": "2021-08-08",
+      "m1": "0.0549",
+      "m2": "0.0671"
+    },
+    {
+      "p": "[LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation](https://arxiv.org/abs/2002.02126v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/recommenders)",
+      "n": "LightGCN",
+      "d": "2020-02-06",
+      "m1": "0.0530",
+      "m2": "0.0649"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

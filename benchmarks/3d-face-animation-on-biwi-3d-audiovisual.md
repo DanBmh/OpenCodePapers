@@ -1,0 +1,84 @@
+# 3d-face-animation-on-biwi-3d-audiovisual
+
+[Dataset Link](https://data.vision.ee.ethz.ch/cvl/datasets/b3dac2.en.html) \
+Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', '3D Human Pose Estimation', '3D Absolute Human Pose Estimation', '3D Face Animation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Lip Vertex Error",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "FDD",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[SelfTalk: A Self-Supervised Commutative Training Diagram to Comprehend 3D Talking Faces](https://arxiv.org/abs/2306.10799v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/psyai-net/SelfTalk_release)",
+      "n": "SelfTalk",
+      "d": "2023-06-19",
+      "m1": "4.2485",
+      "m2": "3.5761"
+    },
+    {
+      "p": "[FaceDiffuser: Speech-Driven 3D Facial Animation Synthesis Using Diffusion](https://arxiv.org/abs/2309.11306v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/uuembodiedsocialai/FaceDiffuser)",
+      "n": "FaceDiffuser",
+      "d": "2023-09-20",
+      "m1": "4.2985",
+      "m2": "3.9101"
+    },
+    {
+      "p": "[FaceXHuBERT: Text-less Speech-driven E(X)pressive 3D Facial Animation Synthesis Using Self-Supervised Speech Representation Learning](https://arxiv.org/abs/2303.05416v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/galib360/facexhubert)",
+      "n": "FaceXHuBERT",
+      "d": "2023-03-09",
+      "m1": "4.56",
+      "m2": "4.96"
+    },
+    {
+      "p": "[CodeTalker: Speech-Driven 3D Facial Animation with Discrete Motion Prior](https://arxiv.org/abs/2301.02379v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Doubiiu/CodeTalker)",
+      "n": "CodeTalker",
+      "d": "2023-01-06",
+      "m1": "4.7914",
+      "m2": "4.1170"
+    },
+    {
+      "p": "[FaceFormer: Speech-Driven 3D Facial Animation with Transformers](https://arxiv.org/abs/2112.05329v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/EvelynFan/FaceFormer)",
+      "n": "FaceFormer",
+      "d": "2021-12-10",
+      "m1": "5.3077",
+      "m2": "4.6408"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

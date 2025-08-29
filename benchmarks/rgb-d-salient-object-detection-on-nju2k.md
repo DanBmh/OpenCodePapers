@@ -1,0 +1,299 @@
+# rgb-d-salient-object-detection-on-nju2k
+
+[Dataset Link](https://drive.google.com/open?id=1R1O2dWr6HqpTOiDn6hZxUWTesOSJteQo) \
+Task Hierarchy: ['16k', 'Object Detection', 'RGB-D Salient Object Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "S-Measure",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Average MAE",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "max E-Measure",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "max F-Measure",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[DFormer: Rethinking RGBD Representation Learning for Semantic Segmentation](https://arxiv.org/abs/2309.09668v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/VCIP-RGBD/DFormer)",
+      "n": "DFormer-L",
+      "d": "2023-09-18",
+      "m1": "93.7",
+      "m2": "0.023",
+      "m3": "96.4",
+      "m4": "94.6"
+    },
+    {
+      "p": "[CoLA: Conditional Dropout and Language-driven Robust Dual-modal Salient Object Detection](https://arxiv.org/abs/2407.06780v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ssecv/CoLA)",
+      "n": "CoLANet",
+      "d": "2024-07-09",
+      "m1": "93.4",
+      "m2": "0.029",
+      "m3": "94.7",
+      "m4": "91.3"
+    },
+    {
+      "p": "[BTS-Net: Bi-directional Transfer-and-Selection Network For RGB-D Salient Object Detection](https://arxiv.org/abs/2104.01784v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zwbx/BTS-Net)",
+      "n": "BTS-Net",
+      "d": "2021-04-05",
+      "m1": "92.1",
+      "m2": "0.036",
+      "m3": "95.4",
+      "m4": "92.4"
+    },
+    {
+      "p": "[SPSN: Superpixel Prototype Sampling Network for RGB-D Salient Object Detection](https://arxiv.org/abs/2207.07898v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Hydragon516/SPSN)",
+      "n": "SPSN",
+      "d": "2022-07-16",
+      "m1": "91.8",
+      "m2": "0.032",
+      "m3": "95.0",
+      "m4": "92.0"
+    },
+    {
+      "p": "[Bilateral Attention Network for RGB-D Salient Object Detection](https://arxiv.org/abs/2004.14582v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zzhanghub/bianet)",
+      "n": "BiANet",
+      "d": "2020-04-30",
+      "m1": "91.5",
+      "m2": "0.039",
+      "m3": "94.8",
+      "m4": "92.0"
+    },
+    {
+      "p": "[Cascade Graph Neural Networks for RGB-D Salient Object Detection](https://arxiv.org/abs/2008.03087v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/LA30/Cas-Gnn)",
+      "n": "CAS-GNN",
+      "d": "2020-08-07",
+      "m1": "91.1",
+      "m2": "0.035"
+    },
+    {
+      "p": "[Hierarchical Dynamic Filtering Network for RGB-D Salient Object Detection](https://arxiv.org/abs/2007.06227v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/lartpang/HDFNet)",
+      "n": "HDFNet",
+      "d": "2020-07-13",
+      "m1": "91.1",
+      "m2": "0.037"
+    },
+    {
+      "p": "[Siamese Network for RGB-D Salient Object Detection and Beyond](https://arxiv.org/abs/2008.12134v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/taozh2017/RGBD-SODsurvey)",
+      "n": "JL-DCF*",
+      "d": "2020-08-26",
+      "m1": "91.1",
+      "m2": "0.040",
+      "m3": "94.8",
+      "m4": "91.3"
+    },
+    {
+      "p": "[RGB-D Salient Object Detection with Cross-Modality Modulation and Selection](https://arxiv.org/abs/2007.07051v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Li-Chongyi/cmMS-ECCV20)",
+      "n": "CMMS",
+      "d": "2020-07-14",
+      "m1": "90.4",
+      "m2": "0.044"
+    },
+    {
+      "p": "[JL-DCF: Joint Learning and Densely-Cooperative Fusion Framework for RGB-D Salient Object Detection](https://arxiv.org/abs/2004.08515v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/kerenfu/JLDCF)",
+      "n": "JL-DCF",
+      "d": "2020-04-18",
+      "m1": "90.3",
+      "m2": "0.043",
+      "m3": "94.4",
+      "m4": "90.3"
+    },
+    {
+      "p": "[Cross-Modal Weighting Network for RGB-D Salient Object Detection](https://arxiv.org/abs/2007.04901v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/MathLee/CMWNet)",
+      "n": "CMWNet",
+      "d": "2020-07-09",
+      "m1": "90.3",
+      "m2": "0.046"
+    },
+    {
+      "p": "[Uncertainty Inspired RGB-D Saliency Detection](https://arxiv.org/abs/2009.03075v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/taozh2017/RGBD-SODsurvey)",
+      "n": "UCNet-CVAE",
+      "d": "2020-09-07",
+      "m1": "90.2",
+      "m2": "0.039"
+    },
+    {
+      "p": "[Is Depth Really Necessary for Salient Object Detection?](https://arxiv.org/abs/2006.00269v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/JiaweiZhao-git/DASNet)",
+      "n": "DASNet",
+      "d": "2020-05-30",
+      "m1": "90.2",
+      "m2": "0.042",
+      "m4": "91.1"
+    },
+    {
+      "p": "[Uncertainty Inspired RGB-D Saliency Detection](https://arxiv.org/abs/2009.03075v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/taozh2017/RGBD-SODsurvey)",
+      "n": "UCNet-ABP",
+      "d": "2020-09-07",
+      "m1": "90.0",
+      "m2": "0.039"
+    },
+    {
+      "p": "[Rethinking RGB-D Salient Object Detection: Models, Data Sets, and Large-Scale Benchmarks](https://arxiv.org/abs/1907.06781v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/taozh2017/RGBD-SODsurvey)",
+      "n": "D3Net",
+      "d": "2019-07-15",
+      "m1": "90.0",
+      "m2": "0.046",
+      "m3": "93.9",
+      "m4": "90.0"
+    },
+    {
+      "p": "[Select, Supplement and Focus for RGB-D Saliency Detection](http://openaccess.thecvf.com/content_CVPR_2020/html/Zhang_Select_Supplement_and_Focus_for_RGB-D_Saliency_Detection_CVPR_2020_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/OIPLab-DUT/CVPR_SSF-RGBD)",
+      "n": "SSF",
+      "d": "2020-06-01",
+      "m1": "89.9",
+      "m2": "0.043"
+    },
+    {
+      "p": "[UC-Net: Uncertainty Inspired RGB-D Saliency Detection via Conditional Variational Autoencoders](https://arxiv.org/abs/2004.05763v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/JingZhang617/UCNet)",
+      "n": "UC-Net",
+      "d": "2020-04-13",
+      "m1": "89.7",
+      "m2": "0.043"
+    },
+    {
+      "p": "[A Single Stream Network for Robust and Real-time RGB-D Salient Object Detection](https://arxiv.org/abs/2007.06811v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Xiaoqi-Zhao-DLUT/DANet-RGBD-Saliency)",
+      "n": "DANet",
+      "d": "2020-07-14",
+      "m1": "89.7",
+      "m2": "0.046",
+      "m4": "90.5"
+    },
+    {
+      "p": "[Depth Quality Aware Salient Object Detection](https://arxiv.org/abs/2008.04159v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/qdu1995/DQSD)",
+      "n": "DQSD-VGG19",
+      "d": "2020-08-07",
+      "m1": "89.7",
+      "m2": "0.052"
+    },
+    {
+      "p": "[Accurate RGB-D Salient Object Detection via Collaborative Learning](https://arxiv.org/abs/2007.11782v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jiwei0921/CoNet)",
+      "n": "CoNet",
+      "d": "2020-07-23",
+      "m1": "89.4",
+      "m2": "0.047"
+    },
+    {
+      "p": "[Learning Selective Self-Mutual Attention for RGB-D Saliency Detection](http://openaccess.thecvf.com/content_CVPR_2020/html/Liu_Learning_Selective_Self-Mutual_Attention_for_RGB-D_Saliency_Detection_CVPR_2020_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/nnizhang/S2MA)",
+      "n": "S2MA",
+      "d": "2020-06-01",
+      "m1": "89.4",
+      "m2": "0.053",
+      "m3": "92.7",
+      "m4": "88.9"
+    },
+    {
+      "p": "[Depth-Induced Multi-Scale Recurrent Attention Network for Saliency Detection](http://openaccess.thecvf.com/content_ICCV_2019/html/Piao_Depth-Induced_Multi-Scale_Recurrent_Attention_Network_for_Saliency_Detection_ICCV_2019_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/jiwei0921/DMRA)",
+      "n": "DMRA",
+      "d": "2019-10-01",
+      "m1": "88.6",
+      "m2": "0.051",
+      "m3": "92.7",
+      "m4": "88.6"
+    },
+    {
+      "p": "[Contrast Prior and Fluid Pyramid Integration for RGBD Salient Object Detection](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhao_Contrast_Prior_and_Fluid_Pyramid_Integration_for_RGBD_Salient_Object_CVPR_2019_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/taozh2017/RGBD-SODsurvey)",
+      "n": "CPFP",
+      "d": "2019-06-01",
+      "m1": "87.8",
+      "m2": "0.053",
+      "m3": "92.6",
+      "m4": "87.7"
+    },
+    {
+      "p": "[Progressively Complementarity-Aware Fusion Network for RGB-D Salient Object Detection](http://openaccess.thecvf.com/content_cvpr_2018/html/Chen_Progressively_Complementarity-Aware_Fusion_CVPR_2018_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/haochen593/PCA-Fuse_RGBD_CVPR18)",
+      "n": "PCF",
+      "d": "2018-06-01",
+      "m1": "87.7",
+      "m2": "0.059",
+      "m3": "92.4",
+      "m4": "87.2"
+    },
+    {
+      "p": "[Local Background Enclosure for RGB-D Salient Object Detection](http://openaccess.thecvf.com/content_cvpr_2016/html/Feng_Local_Background_Enclosure_CVPR_2016_paper.html)",
+      "c": "",
+      "n": "LBE",
+      "d": "2016-06-01",
+      "m1": "69.5",
+      "m2": "0.153",
+      "m3": "80.3",
+      "m4": "74.8"
+    },
+    {
+      "p": "[RGBD Salient Object Detection via Deep Fusion](http://arxiv.org/abs/1607.03333v1)",
+      "c": "",
+      "n": "LHM",
+      "d": "2016-07-12",
+      "m1": "51.4",
+      "m2": "0.205",
+      "m3": "72.4",
+      "m4": "63.2"
+    },
+    {
+      "p": "[A2dele: Adaptive and Attentive Depth Distiller for Efficient RGB-D Salient Object Detection](http://openaccess.thecvf.com/content_CVPR_2020/html/Piao_A2dele_Adaptive_and_Attentive_Depth_Distiller_for_Efficient_RGB-D_Salient_CVPR_2020_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/OIPLab-DUT/CVPR2020-A2dele)",
+      "n": "A2dele",
+      "d": "2020-06-01",
+      "m2": "0.051"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

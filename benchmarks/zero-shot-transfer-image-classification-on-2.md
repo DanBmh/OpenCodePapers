@@ -1,0 +1,60 @@
+# zero-shot-transfer-image-classification-on-2
+
+[Dataset Link]() \
+Task Hierarchy: ['Zero-Shot Transfer Image Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[EVA-CLIP-18B: Scaling CLIP to 18 Billion Parameters](https://arxiv.org/abs/2402.04252v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/baaivision/EVA/tree/master/EVA-CLIP-18B)",
+      "n": "EVA-CLIP-18B",
+      "d": "2024-02-06",
+      "m1": "77.7"
+    },
+    {
+      "p": "[Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/openai/CLIP)",
+      "n": "CLIP",
+      "d": "2021-02-26",
+      "m1": "58.5"
+    },
+    {
+      "p": "[Learning Visual N-Grams from Web Data](http://arxiv.org/abs/1612.09161v2)",
+      "c": "",
+      "n": "Visual N-Grams",
+      "d": "2016-12-29",
+      "m1": "23.0"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

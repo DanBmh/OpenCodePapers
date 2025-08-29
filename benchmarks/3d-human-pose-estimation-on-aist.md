@@ -1,0 +1,87 @@
+# 3d-human-pose-estimation-on-aist
+
+[Dataset Link](https://google.github.io/aistplusplus_dataset/) \
+Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', '3D Human Pose Estimation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "MPJPE",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Single-view",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Acceleration Error",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Fusing Monocular Images and Sparse IMU Signals for Real-time Human Motion Capture](https://arxiv.org/abs/2309.00310v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/shaohua-pan/RobustCap)",
+      "n": "RobustCap",
+      "d": "2023-09-01",
+      "m1": "33.1"
+    },
+    {
+      "p": "[HybridCap: Inertia-aid Monocular Capture of Challenging Human Motions](https://arxiv.org/abs/2203.09287v2)",
+      "c": "",
+      "n": "HybridCap",
+      "d": "2022-03-17",
+      "m1": "33.3"
+    },
+    {
+      "p": "[Kinematic-aware Hierarchical Attention Network for Human Pose Estimation in Videos](https://arxiv.org/abs/2211.15868v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/kyungminjin/hanet)",
+      "n": "SPIN + HANet (T=51)",
+      "d": "2022-11-29",
+      "m1": "64.3",
+      "m3": "6.4"
+    },
+    {
+      "p": "[DeciWatch: A Simple Baseline for 10x Efficient 2D and 3D Pose Estimation](https://arxiv.org/abs/2203.08713v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/cure-lab/DeciWatch)",
+      "n": "DeciWatch",
+      "d": "2022-03-16",
+      "m1": "67.2",
+      "m2": "Y"
+    },
+    {
+      "p": "[Kinematic-aware Hierarchical Attention Network for Human Pose Estimation in Videos](https://arxiv.org/abs/2211.15868v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/kyungminjin/hanet)",
+      "n": "SPIN + HANet (T=101)",
+      "d": "2022-11-29",
+      "m1": "69.2",
+      "m3": "5.4"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,75 @@
+# protein-secondary-structure-prediction-on-6
+
+[Dataset Link]() \
+Task Hierarchy: ['Protein Secondary Structure Prediction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Q3",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Q8",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[ProtTrans: Towards Cracking the Language of Life's Code Through Self-Supervised Deep Learning and High Performance Computing](https://arxiv.org/abs/2007.06225v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/agemagician/ProtTrans)",
+      "n": "ProtT5-XL-UniRef50",
+      "d": "2020-07-13",
+      "m1": "0.87",
+      "m2": "0.77"
+    },
+    {
+      "p": "[ProtTrans: Towards Cracking the Language of Life's Code Through Self-Supervised Deep Learning and High Performance Computing](https://arxiv.org/abs/2007.06225v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/agemagician/ProtTrans)",
+      "n": "ProtT5-XL-BFD",
+      "d": "2020-07-13",
+      "m1": "0.85",
+      "m2": "0.74"
+    },
+    {
+      "p": "[ProtTrans: Towards Cracking the Language of Life's Code Through Self-Supervised Deep Learning and High Performance Computing](https://arxiv.org/abs/2007.06225v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/agemagician/ProtTrans)",
+      "n": "ProtBert-BFD",
+      "d": "2020-07-13",
+      "m1": "0.84",
+      "m2": "0.73"
+    },
+    {
+      "p": "[DistilProtBert: A distilled protein language model used to distinguish between real proteins and their randomly shuffled counterparts](https://www.biorxiv.org/content/10.1101/2022.05.09.491157v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yarongef/DistilProtBert)",
+      "n": "DistilProtBert",
+      "d": "2022-05-10",
+      "m1": "0.81"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

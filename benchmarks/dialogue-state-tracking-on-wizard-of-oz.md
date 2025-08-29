@@ -1,0 +1,120 @@
+# dialogue-state-tracking-on-wizard-of-oz
+
+[Dataset Link](https://arxiv.org/pdf/1606.03777.pdf) \
+Task Hierarchy: ['Dialogue', 'Dialogue State Tracking']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Joint",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Request",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Amendable Generation for Dialogue State Tracking](https://arxiv.org/abs/2110.15659v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/Knover/tree/develop/projects/AG-DST)",
+      "n": "AG-DST",
+      "d": "2021-10-29",
+      "m1": "91.37"
+    },
+    {
+      "p": "[A Sequence-to-Sequence Approach to Dialogue State Tracking](https://arxiv.org/abs/2011.09553v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/sweetalyssum/Seq2Seq-DU)",
+      "n": "Seq2Seq-DU-w/oSchema",
+      "d": "2020-11-18",
+      "m1": "91.2"
+    },
+    {
+      "p": "[Effective Sequence-to-Sequence Dialogue State Tracking](https://arxiv.org/abs/2108.13990v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/smartyfh/MultiWOZ2.4)",
+      "n": "T5 (span)",
+      "d": "2021-08-31",
+      "m1": "91"
+    },
+    {
+      "p": "[A Simple but Effective BERT Model for Dialog State Tracking on Resource-Limited Systems](https://arxiv.org/abs/1910.12995v3)",
+      "c": "",
+      "n": "BERT-based tracker",
+      "d": "2019-10-28",
+      "m1": "90.5",
+      "m2": "97.6"
+    },
+    {
+      "p": "[Towards Universal Dialogue State Tracking](http://arxiv.org/abs/1810.09587v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/renll/StateNet)",
+      "n": "StateNet",
+      "d": "2018-10-22",
+      "m1": "88.9"
+    },
+    {
+      "p": "[Scalable Neural Dialogue State Tracking](https://arxiv.org/abs/1910.09942v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/vevake/GSAT)",
+      "n": "G-SAT",
+      "d": "2019-10-22",
+      "m1": "88.7",
+      "m2": "96.9"
+    },
+    {
+      "p": "[Toward Scalable Neural Dialogue State Tracking Model](http://arxiv.org/abs/1812.00899v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/elnaaz/GCE-Model)",
+      "n": "GCE",
+      "d": "2018-12-03",
+      "m1": "88.5",
+      "m2": "97.4"
+    },
+    {
+      "p": "[Global-Locally Self-Attentive Dialogue State Tracker](http://arxiv.org/abs/1805.09655v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/salesforce/glad)",
+      "n": "Zhong et al.",
+      "d": "2018-05-19",
+      "m1": "88.1",
+      "m2": "97.1"
+    },
+    {
+      "p": "[Neural Belief Tracker: Data-Driven Dialogue State Tracking](http://arxiv.org/abs/1606.03777v2)",
+      "c": "",
+      "n": "Neural belief tracker",
+      "d": "2016-06-12",
+      "m1": "84.4",
+      "m2": "96.5"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "RNN",
+      "d": null,
+      "m1": "70.8",
+      "m2": "87.1"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

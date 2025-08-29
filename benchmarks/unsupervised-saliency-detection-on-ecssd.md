@@ -1,0 +1,76 @@
+# unsupervised-saliency-detection-on-ecssd
+
+[Dataset Link](https://www.cse.cuhk.edu.hk/leojia/projects/hsaliency/dataset.html) \
+Task Hierarchy: ['Saliency Detection', 'Unsupervised Saliency Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "maximal F-measure",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "IoU",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Unsupervised Salient Object Detection with Spectral Cluster Voting](https://arxiv.org/abs/2203.12614v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/noelshin/selfmask)",
+      "n": "SelfMask",
+      "d": "2022-03-23",
+      "m1": "95.6",
+      "m2": "95.5",
+      "m3": "81.8"
+    },
+    {
+      "p": "[MOVE: Unsupervised Movable Object Segmentation and Detection](https://arxiv.org/abs/2210.07920v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/adambielski/move-seg)",
+      "n": "MOVE",
+      "d": "2022-10-14",
+      "m1": "92.1",
+      "m2": "95.6",
+      "m3": "83.6"
+    },
+    {
+      "p": "[Self-Supervised Transformers for Unsupervised Object Discovery using Normalized Cut](https://arxiv.org/abs/2202.11539v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/YangtaoWANG95/TokenCut)",
+      "n": "TokenCut",
+      "d": "2022-02-23",
+      "m1": "87.4",
+      "m2": "93.4",
+      "m3": "77.2"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,67 @@
+# tirod-on-tirod
+
+[Dataset Link](https://pastifra.github.io/TiROD/) \
+Task Hierarchy: ['Continual Learning', 'TiROD']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Omega",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Tiny Robotics Dataset and Benchmark for Continual Object Detection](https://arxiv.org/abs/2409.16215v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/pastifra/TiROD_code)",
+      "n": "YOLOv8n - KMeans Replay",
+      "d": "2024-09-24",
+      "m1": "0.70"
+    },
+    {
+      "p": "[Tiny Robotics Dataset and Benchmark for Continual Object Detection](https://arxiv.org/abs/2409.16215v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/pastifra/TiROD_code)",
+      "n": "NanoDet Plus - KMeans Replay",
+      "d": "2024-09-24",
+      "m1": "0.65"
+    },
+    {
+      "p": "[Tiny Robotics Dataset and Benchmark for Continual Object Detection](https://arxiv.org/abs/2409.16215v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/pastifra/TiROD_code)",
+      "n": "YOLOv8n - SID",
+      "d": "2024-09-24",
+      "m1": "0.29"
+    },
+    {
+      "p": "[Tiny Robotics Dataset and Benchmark for Continual Object Detection](https://arxiv.org/abs/2409.16215v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/pastifra/TiROD_code)",
+      "n": "Nanodet Plus - SID",
+      "d": "2024-09-24",
+      "m1": "0.27"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

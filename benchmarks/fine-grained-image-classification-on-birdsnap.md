@@ -1,0 +1,74 @@
+# fine-grained-image-classification-on-birdsnap
+
+[Dataset Link](http://thomasberg.org/) \
+Task Hierarchy: ['Fine-Grained Image Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Sharpness-Aware Minimization for Efficiently Improving Generalization](https://arxiv.org/abs/2010.01412v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/davda54/sam)",
+      "n": "EffNet-L2 (SAM)",
+      "d": "2020-10-03",
+      "m1": "90.07%"
+    },
+    {
+      "p": "[Fixing the train-test resolution discrepancy](https://arxiv.org/abs/1906.06423v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/FixRes)",
+      "n": "FixSENet-154",
+      "d": "2019-06-14",
+      "m1": "84.3%"
+    },
+    {
+      "p": "[EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks](https://arxiv.org/abs/1905.11946v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/ultralytics/yolov5)",
+      "n": "EfficientNet-B7",
+      "d": "2019-05-28",
+      "m1": "84.3%"
+    },
+    {
+      "p": "[GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism](https://arxiv.org/abs/1811.06965v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/lingvo)",
+      "n": "GPIPE",
+      "d": "2018-11-16",
+      "m1": "83.6%"
+    },
+    {
+      "p": "[With a Little Help from My Friends: Nearest-Neighbor Contrastive Learning of Visual Representations](https://arxiv.org/abs/2104.14548v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/lightly-ai/lightly)",
+      "n": "NNCLR",
+      "d": "2021-04-29",
+      "m1": "61.4%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

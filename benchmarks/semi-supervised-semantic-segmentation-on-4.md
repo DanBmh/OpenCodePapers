@@ -1,0 +1,305 @@
+# semi-supervised-semantic-segmentation-on-4
+
+[Dataset Link]() \
+Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', 'Semi-Supervised Semantic Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Validation mIoU",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Leveraging Out-of-Distribution Unlabeled Images: Semi-Supervised Semantic Segmentation with an Open-Vocabulary Model](https://arxiv.org/abs/2507.03302)",
+      "c": "[&check;&nbsp;Link](https://github.com/wooseok-shin/SemiOVS)",
+      "n": "SemiOVS (w/ UniMatch, ResNet-101)",
+      "d": "2025-07-04",
+      "m1": "82.4"
+    },
+    {
+      "p": "[Leveraging Out-of-Distribution Unlabeled Images: Semi-Supervised Semantic Segmentation with an Open-Vocabulary Model](https://arxiv.org/abs/2507.03302)",
+      "c": "[&check;&nbsp;Link](https://github.com/wooseok-shin/SemiOVS)",
+      "n": "SemiOVS (w/ PrevMatch, ResNet-101)",
+      "d": "2025-07-04",
+      "m1": "82.3"
+    },
+    {
+      "p": "[AllSpark: Reborn Labeled Features from Unlabeled in Transformer for Semi-Supervised Semantic Segmentation](https://arxiv.org/abs/2403.01818v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/xmed-lab/AllSpark)",
+      "n": "AllSpark",
+      "d": "2024-03-04",
+      "m1": "82.04%"
+    },
+    {
+      "p": "[Revisiting Weak-to-Strong Consistency in Semi-Supervised Semantic Segmentation](https://arxiv.org/abs/2208.09910v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/LiheYoung/UniMatch)",
+      "n": "UniMatch",
+      "d": "2022-08-21",
+      "m1": "81.92%"
+    },
+    {
+      "p": "[Revisiting and Maximizing Temporal Knowledge in Semi-supervised Semantic Segmentation](https://arxiv.org/abs/2405.20610v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/wooseok-shin/PrevMatch)",
+      "n": "PrevMatch (ResNet-101)",
+      "d": "2024-05-31",
+      "m1": "81.9"
+    },
+    {
+      "p": "[CorrMatch: Label Propagation via Correlation Matching for Semi-Supervised Semantic Segmentation](https://arxiv.org/abs/2306.04300v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/bbbbchan/corrmatch)",
+      "n": "CorrMatch (Deeplabv3+ with ResNet-101)",
+      "d": "2023-06-07",
+      "m1": "81.9%"
+    },
+    {
+      "p": "[Switching Temporary Teachers for Semi-Supervised Semantic Segmentation](https://openreview.net/forum?id=JXvszuOqY3)",
+      "c": "[&check;&nbsp;Link](https://github.com/naver-ai/dual-teacher)",
+      "n": "Dual Teacher",
+      "d": "2023-09-21",
+      "m1": "81.19"
+    },
+    {
+      "p": "[Semi-supervised Semantic Segmentation with Prototype-based Consistency Regularization](https://arxiv.org/abs/2210.04388v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/heimingx/semi_seg_proto)",
+      "n": "PCR (DeepLab v3+ with ResNet-101 pretraind on ImageNet-1K)",
+      "d": "2022-10-10",
+      "m1": "80.71%"
+    },
+    {
+      "p": "[Semi-Supervised Semantic Segmentation via Marginal Contextual Information](https://arxiv.org/abs/2308.13900v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/s4mcontext/s4mc)",
+      "n": "S4MC",
+      "d": "2023-08-26",
+      "m1": "79.67%"
+    },
+    {
+      "p": "[Semi-Supervised Semantic Segmentation Using Unreliable Pseudo-Labels](https://arxiv.org/abs/2203.03884v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Haochen-Wang409/U2PL)",
+      "n": "U2PL (DeepLab v3+ with ResNet-101 pretraind on ImageNet-1K, CutMix)",
+      "d": "2022-03-08",
+      "m1": "79.01%"
+    },
+    {
+      "p": "[Perturbed and Strict Mean Teachers for Semi-supervised Semantic Segmentation](https://arxiv.org/abs/2111.12903v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yyliu01/ps-mt)",
+      "n": "PS-MT",
+      "d": "2021-11-25",
+      "m1": "78.20%"
+    },
+    {
+      "p": "[FARCLUSS: Fuzzy Adaptive Rebalancing and Contrastive Uncertainty Learning for Semi-Supervised Semantic Segmentation](https://arxiv.org/abs/2506.11142v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/psychofict/FARCLUSS)",
+      "n": "FARCLUSS",
+      "d": "2025-06-11",
+      "m1": "78.2"
+    },
+    {
+      "p": "[n-CPS: Generalising Cross Pseudo Supervision to n Networks for Semi-Supervised Semantic Segmentation](https://arxiv.org/abs/2112.07528v4)",
+      "c": "",
+      "n": "n-CPS (ResNet-101)",
+      "d": "2021-12-14",
+      "m1": "77.99%"
+    },
+    {
+      "p": "[Semi-Supervised Semantic Segmentation via Adaptive Equalization Learning](https://arxiv.org/abs/2110.05474v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/hzhupku/semiseg-ael)",
+      "n": "AEL (DeepLab v3+ with ResNet-101 pretraind on ImageNet-1K)",
+      "d": "2021-10-11",
+      "m1": "77.57%"
+    },
+    {
+      "p": "[Semi-Supervised Semantic Segmentation with Cross Pseudo Supervision](https://arxiv.org/abs/2106.01226v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/charlesCXK/TorchSemiSeg)",
+      "n": "CPS",
+      "d": "2021-06-02",
+      "m1": "76.44%"
+    },
+    {
+      "p": "[GuidedMix-Net: Learning to Improve Pseudo Masks Using Labeled Images as Reference](https://arxiv.org/abs/2106.15064v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/yh-pengtu/GuidedMix-Net)",
+      "n": "GuidedMix-Net",
+      "d": "2021-06-29",
+      "m1": "76.4%"
+    },
+    {
+      "p": "[Conservative-Progressive Collaborative Learning for Semi-supervised Semantic Segmentation](https://arxiv.org/abs/2211.16701v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/leofansq/CPCL)",
+      "n": "CPCL (DeepLab v3+ with ResNet-101)",
+      "d": "2022-11-30",
+      "m1": "76.4%"
+    },
+    {
+      "p": "[Confidence-Weighted Boundary-Aware Learning for Semi-Supervised Semantic Segmentation](https://arxiv.org/abs/2502.15152v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/psychofict/CW-BASS)",
+      "n": "CW-BASS (DeepLab v3+ with ResNet-50)",
+      "d": "2025-02-21",
+      "m1": "75.81%"
+    },
+    {
+      "p": "[Perturbed and Strict Mean Teachers for Semi-supervised Semantic Segmentation](https://arxiv.org/abs/2111.12903v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yyliu01/ps-mt)",
+      "n": "PS-MT",
+      "d": "2021-11-25",
+      "m1": "75.70%"
+    },
+    {
+      "p": "[Learning Pseudo Labels for Semi-and-Weakly Supervised Semantic Segmentation](https://www.sciencedirect.com/science/article/pii/S003132032200406X)",
+      "c": "[&check;&nbsp;Link](https://github.com/YudeWang/Learning-Pseudo-Label)",
+      "n": "PCT (DeepLab v3+ with ResNet-50 pretrained on ImageNet-1K)",
+      "d": "2022-08-02",
+      "m1": "75.52%"
+    },
+    {
+      "p": "[Semi-supervised Semantic Segmentation with Error Localization Network](https://arxiv.org/abs/2204.02078v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/kinux98/SSL_ELN)",
+      "n": "Error Localization Network",
+      "d": "2022-04-05",
+      "m1": "75.10%"
+    },
+    {
+      "p": "[n-CPS: Generalising Cross Pseudo Supervision to n Networks for Semi-Supervised Semantic Segmentation](https://arxiv.org/abs/2112.07528v4)",
+      "c": "",
+      "n": "n-CPS",
+      "d": "2021-12-14",
+      "m1": "74.21%"
+    },
+    {
+      "p": "[Conservative-Progressive Collaborative Learning for Semi-supervised Semantic Segmentation](https://arxiv.org/abs/2211.16701v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/leofansq/CPCL)",
+      "n": "CPCL (DeepLab v3+ with ResNet-50)",
+      "d": "2022-11-30",
+      "m1": "73.74%"
+    },
+    {
+      "p": "[GuidedMix-Net: Learning to Improve Pseudo Masks Using Labeled Images as Reference](https://arxiv.org/abs/2106.15064v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/yh-pengtu/GuidedMix-Net)",
+      "n": "GuidedMix-Net",
+      "d": "2021-06-29",
+      "m1": "73.4%"
+    },
+    {
+      "p": "[Semi-supervised Semantic Segmentation with Error Localization Network](https://arxiv.org/abs/2204.02078v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/kinux98/SSL_ELN)",
+      "n": "Error Localization Network",
+      "d": "2022-04-05",
+      "m1": "73.2%"
+    },
+    {
+      "p": "[DMT: Dynamic Mutual Training for Semi-Supervised Learning](https://arxiv.org/abs/2004.08514v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/voldemortX/DST-CBC)",
+      "n": "DMT",
+      "d": "2020-04-18",
+      "m1": "72.70%"
+    },
+    {
+      "p": "[Semi-supervised semantic segmentation needs strong, varied perturbations](https://arxiv.org/abs/1906.01916v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/ZHKKKe/PixelSSL)",
+      "n": "CutMix",
+      "d": "2019-06-05",
+      "m1": "72.45%"
+    },
+    {
+      "p": "[Semi-Supervised Semantic Segmentation with Pixel-Level Contrastive Learning from a Class-wise Memory Bank](https://arxiv.org/abs/2104.13415v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Shathe/SemiSeg-Contrastive)",
+      "n": "SemiSegContrast",
+      "d": "2021-04-27",
+      "m1": "71.6%"
+    },
+    {
+      "p": "[Semi-Supervised Semantic Segmentation with High- and Low-level Consistency](https://arxiv.org/abs/1908.05724v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/sud0301/semisup-semseg)",
+      "n": "s4GAN + MLMT",
+      "d": "2019-08-15",
+      "m1": "71.4%"
+    },
+    {
+      "p": "[ClassMix: Segmentation-Based Data Augmentation for Semi-Supervised Learning](https://arxiv.org/abs/2007.07936v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/lorenmt/reco)",
+      "n": "ClassMix",
+      "d": "2020-07-15",
+      "m1": "71.00%"
+    },
+    {
+      "p": "[Bootstrapping Semantic Segmentation with Regional Contrast](https://arxiv.org/abs/2104.04465v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/lorenmt/reco)",
+      "n": "ReCo",
+      "d": "2021-04-09",
+      "m1": "71.00%"
+    },
+    {
+      "p": "[The GIST and RIST of Iterative Self-Training for Semi-Supervised Segmentation](https://arxiv.org/abs/2103.17105v3)",
+      "c": "",
+      "n": "GIST and RIST",
+      "d": "2021-03-31",
+      "m1": "70.76%"
+    },
+    {
+      "p": "[Semi-Supervised Semantic Segmentation with High- and Low-level Consistency](https://arxiv.org/abs/1908.05724v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/sud0301/semisup-semseg)",
+      "n": "s4GAN+MLMT",
+      "d": "2019-08-15",
+      "m1": "70.4%"
+    },
+    {
+      "p": "[Semi-supervised semantic segmentation needs strong, varied perturbations](https://arxiv.org/abs/1906.01916v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/ZHKKKe/PixelSSL)",
+      "n": "CutMix",
+      "d": "2019-06-05",
+      "m1": "67.6%"
+    },
+    {
+      "p": "[Semi-Supervised Semantic Segmentation with High- and Low-level Consistency](https://arxiv.org/abs/1908.05724v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/sud0301/semisup-semseg)",
+      "n": "s4GAN+MLMT",
+      "d": "2019-08-15",
+      "m1": "67.3%"
+    },
+    {
+      "p": "[Dense FixMatch: a simple semi-supervised learning method for pixel-wise prediction tasks](https://arxiv.org/abs/2210.09919v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/miquelmarti/DenseFixMatch)",
+      "n": "Dense FixMatch (DeepLabv3+ ResNet-101, over-sampling, single pass eval)",
+      "d": "2022-10-18",
+      "m1": "65.82%"
+    },
+    {
+      "p": "[Adversarial Learning for Semi-Supervised Semantic Segmentation](http://arxiv.org/abs/1802.07934v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/wasidennis/AdaptSegNet)",
+      "n": "Adversarial",
+      "d": "2018-02-22",
+      "m1": "64.3%"
+    },
+    {
+      "p": "[Dense FixMatch: a simple semi-supervised learning method for pixel-wise prediction tasks](https://arxiv.org/abs/2210.09919v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/miquelmarti/DenseFixMatch)",
+      "n": "Dense FixMatch (DeepLabv3+ ResNet-50, over-sampling, single pass eval)",
+      "d": "2022-10-18",
+      "m1": "62.49%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

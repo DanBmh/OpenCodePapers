@@ -1,0 +1,100 @@
+# 3d-object-detection-on-s3dis
+
+[Dataset Link](http://buildingparser.stanford.edu/dataset.html) \
+Task Hierarchy: ['16k', 'Object Detection', '3D Object Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mAP@0.5",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "mAP@0.25",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[UniDet3D: Multi-dataset Indoor 3D Object Detection](https://arxiv.org/abs/2409.04234v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/filapro/unidet3d)",
+      "n": "UniDet3D",
+      "d": "2024-09-06",
+      "m1": "60.8",
+      "m2": "75.2"
+    },
+    {
+      "p": "[Point-GCC: Universal Self-supervised 3D Scene Pre-training via Geometry-Color Contrast](https://arxiv.org/abs/2305.19623v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/asterisci/point-gcc)",
+      "n": "Point-GCC+TR3D",
+      "d": "2023-05-31",
+      "m1": "56.7",
+      "m2": "75.1"
+    },
+    {
+      "p": "[Swin3D: A Pretrained Transformer Backbone for 3D Indoor Scene Understanding](https://arxiv.org/abs/2304.06906v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Pointcept/Pointcept)",
+      "n": "Swin3D-L+FCAF3D",
+      "d": "2023-04-14",
+      "m1": "54.0",
+      "m2": "72.1"
+    },
+    {
+      "p": "[TR3D: Towards Real-Time Indoor 3D Object Detection](https://arxiv.org/abs/2302.02858v3)",
+      "c": "",
+      "n": "TR3D",
+      "d": "2023-02-06",
+      "m1": "51.7",
+      "m2": "74.5"
+    },
+    {
+      "p": "[SPGroup3D: Superpoint Grouping Network for Indoor 3D Object Detection](https://arxiv.org/abs/2312.13641v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zyrant/spgroup3d)",
+      "n": "SPGroup3D",
+      "d": "2023-12-21",
+      "m1": "47.2",
+      "m2": "69.2"
+    },
+    {
+      "p": "[FCAF3D: Fully Convolutional Anchor-Free 3D Object Detection](https://arxiv.org/abs/2112.00322v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection3d)",
+      "n": "FCAF3D",
+      "d": "2021-12-01",
+      "m1": "45.9",
+      "m2": "66.7"
+    },
+    {
+      "p": "[Generative Sparse Detection Networks for 3D Single-shot Object Detection](https://arxiv.org/abs/2006.12356v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/StanfordVL/MinkowskiEngine)",
+      "n": "GSDN",
+      "d": "2020-06-22",
+      "m1": "25.1",
+      "m2": "47.8"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

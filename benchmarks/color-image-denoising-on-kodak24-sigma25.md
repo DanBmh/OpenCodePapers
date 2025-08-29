@@ -1,0 +1,66 @@
+# color-image-denoising-on-kodak24-sigma25
+
+[Dataset Link]() \
+Task Hierarchy: ['3D Architecture', 'Denoising', 'Color Image Denoising']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "SSIM",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Stimulating Diffusion Model for Image Denoising via Adaptive Embedding and Ensembling](https://arxiv.org/abs/2307.03992v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/li-tong-621/dmid)",
+      "n": "DMID-d",
+      "d": "2023-07-08",
+      "m1": "33.12"
+    },
+    {
+      "p": "[Hierarchical Information Flow for Generalized Efficient Image Restoration](https://arxiv.org/abs/2411.18588v1)",
+      "c": "",
+      "n": "Hi-IR",
+      "d": "2024-11-27",
+      "m1": "33.01"
+    },
+    {
+      "p": "[SwinIA: Self-Supervised Blind-Spot Image Denoising without Convolutions](https://arxiv.org/abs/2305.05651v2)",
+      "c": "",
+      "n": "SwinIA",
+      "d": "2023-05-09",
+      "m1": "30.12",
+      "m2": "0.819"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

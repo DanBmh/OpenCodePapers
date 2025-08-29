@@ -1,0 +1,184 @@
+# unsupervised-domain-adaptation-on-veri-776-to-2
+
+[Dataset Link](https://www.pkuml.org/resources/pku-vehicleid.html) \
+Task Hierarchy: ['Unsupervised Domain Adaptation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mAP",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "R-1",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "R-5",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "R-10",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[CORE-ReID V2: Advancing the Domain Adaptation for Object Re-Identification with Optimized Training and Ensemble Fusion](https://www.mdpi.com/3042-5999/1/1/4)",
+      "c": "[&check;&nbsp;Link](https://github.com/TrinhQuocNguyen/CORE-ReID-v2)",
+      "n": "CORE-ReID V2",
+      "d": "2025-07-04",
+      "m1": "57.99",
+      "m2": "48.62",
+      "m3": "68.30",
+      "m4": "77.11"
+    },
+    {
+      "p": "[CORE-ReID V2: Advancing the Domain Adaptation for Object Re-Identification with Optimized Training and Ensemble Fusion](https://www.mdpi.com/3042-5999/1/1/4)",
+      "c": "[&check;&nbsp;Link](https://github.com/TrinhQuocNguyen/CORE-ReID-v2)",
+      "n": "CORE-ReID V2 Tiny",
+      "d": "2025-07-04",
+      "m1": "55.14",
+      "m2": "45.99",
+      "m3": "65.07",
+      "m4": "73.54"
+    },
+    {
+      "p": "[Multimodality Adaptive Transformer and Mutual Learning for Unsupervised Domain Adaptation Vehicle Re-Identification](https://ieeexplore.ieee.org/abstract/document/10682436)",
+      "c": "",
+      "n": "DMDU",
+      "d": "2024-09-17",
+      "m1": "53.97",
+      "m2": "47.59",
+      "m3": "61.85",
+      "m4": "-"
+    },
+    {
+      "p": "[Unsupervised Domain Adaptive Re-Identification: Theory and Practice](http://arxiv.org/abs/1807.11334v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/LcDog/DomainAdaptiveReID)",
+      "n": "UDAR",
+      "d": "2018-07-30",
+      "m1": "52.90",
+      "m2": "45.20",
+      "m3": "62.60",
+      "m4": "69.14"
+    },
+    {
+      "p": "[Revisiting Multi-Granularity Representation via Group Contrastive Learning for Unsupervised Vehicle Re-identification](https://arxiv.org/abs/2410.21667v1)",
+      "c": "",
+      "n": "MGR-GCL",
+      "d": "2024-10-29",
+      "m1": "47.59",
+      "m2": "42.83",
+      "m3": "64.36",
+      "m4": "-"
+    },
+    {
+      "p": "[Image-to-image domain adaptation for vehicle re-identification](https://link.springer.com/article/10.1007/s11042-023-14839-7)",
+      "c": "",
+      "n": "PML",
+      "d": "2023-03-30",
+      "m1": "46.00",
+      "m2": "41.73",
+      "m3": "60.94",
+      "m4": "-"
+    },
+    {
+      "p": "[Unsupervised Vehicle Re-identification with Progressive Adaptation](https://arxiv.org/abs/2006.11486v1)",
+      "c": "",
+      "n": "PAL",
+      "d": "2020-06-20",
+      "m1": "45.14",
+      "m2": "41.08",
+      "m3": "59.12",
+      "m4": "-"
+    },
+    {
+      "p": "[Learning Multiple Semantic Knowledge For Cross-Domain Unsupervised Vehicle Re-Identification](https://ieeexplore.ieee.org/document/9428440)",
+      "c": "",
+      "n": "ML",
+      "d": "2021-07-05",
+      "m1": "45.00",
+      "m2": "36.50",
+      "m3": "54.10",
+      "m4": "-"
+    },
+    {
+      "p": "[Unsupervised Vehicle Re-Identification Based on Cross-Style Semi-Supervised Pre-Training and Feature Cross-Division](https://www.mdpi.com/2079-9292/12/13/2931)",
+      "c": "",
+      "n": "CSP+FCD",
+      "d": "2023-07-03",
+      "m1": "42.70",
+      "m2": "45.90",
+      "m3": "60.30",
+      "m4": "-"
+    },
+    {
+      "p": "[Unsupervised Person Re-identification: Clustering and Fine-tuning](http://arxiv.org/abs/1705.10444v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/hehefan/Unsupervised-Person-Re-identification-Clustering-and-Fine-tuning)",
+      "n": "PUL",
+      "d": "2017-05-30",
+      "m1": "34.71",
+      "m2": "30.90",
+      "m3": "47.18",
+      "m4": "-"
+    },
+    {
+      "p": "[Image-to-image domain adaptation for vehicle re-identification](https://link.springer.com/article/10.1007/s11042-023-14839-7)",
+      "c": "",
+      "n": "VDAF",
+      "d": "2023-03-30",
+      "m1": "-",
+      "m2": "43.69",
+      "m3": "61.76",
+      "m4": "-"
+    },
+    {
+      "p": "[A Deep Learning-Based Approach to Progressive Vehicle Re-identification for Urban Surveillance](https://link.springer.com/chapter/10.1007/978-3-319-46475-6_53)",
+      "c": "",
+      "n": "FACT",
+      "d": "2016-09-17",
+      "m1": "-",
+      "m2": "39.91",
+      "m3": "60.49",
+      "m4": "-"
+    },
+    {
+      "p": "[Deep Relative Distance Learning: Tell the Difference Between Similar Vehicles](http://openaccess.thecvf.com/content_cvpr_2016/html/Liu_Deep_Relative_Distance_CVPR_2016_paper.html)",
+      "c": "",
+      "n": "Mixed Diff + CCL",
+      "d": "2016-06-01",
+      "m1": "-",
+      "m2": "38.20",
+      "m3": "61.60",
+      "m4": "-"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

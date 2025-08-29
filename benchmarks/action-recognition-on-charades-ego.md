@@ -1,0 +1,81 @@
+# action-recognition-on-charades-ego
+
+[Dataset Link](https://prior.allenai.org/projects/charades-ego) \
+Task Hierarchy: ['Action Recognition']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mAP",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Learning Video Representations from Large Language Models](https://arxiv.org/abs/2212.04501v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/lavila)",
+      "n": "LaViLa (Finetuned, TimeSformer-L)",
+      "d": "2022-12-08",
+      "m1": "36.1"
+    },
+    {
+      "p": "[EgoVLPv2: Egocentric Video-Language Pre-training with Fusion in the Backbone](https://arxiv.org/abs/2307.05463v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/EgoVLPv2)",
+      "n": "EgoVLPv2",
+      "d": "2023-07-11",
+      "m1": "34.1"
+    },
+    {
+      "p": "[HierVL: Learning Hierarchical Video-Language Embeddings](https://arxiv.org/abs/2301.02311v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/hiervl)",
+      "n": "HierVL",
+      "d": "2023-01-05",
+      "m1": "33.8"
+    },
+    {
+      "p": "[Egocentric Video-Language Pretraining](https://arxiv.org/abs/2206.01670v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/showlab/egovlp)",
+      "n": "EgoVLP",
+      "d": "2022-06-03",
+      "m1": "32.1"
+    },
+    {
+      "p": "[Learning Video Representations from Large Language Models](https://arxiv.org/abs/2212.04501v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/lavila)",
+      "n": "LaViLa (Zero-shot, TimeSformer-L)",
+      "d": "2022-12-08",
+      "m1": "28.9"
+    },
+    {
+      "p": "[HierVL: Learning Hierarchical Video-Language Embeddings](https://arxiv.org/abs/2301.02311v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/hiervl)",
+      "n": "HierVL (Zero-shot)",
+      "d": "2023-01-05",
+      "m1": "26"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,296 @@
+# pedestrian-detection-on-citypersons
+
+[Dataset Link](https://github.com/CharlesShang/Detectron-PYTORCH/tree/master/data/citypersons) \
+Task Hierarchy: ['Pedestrian Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Reasonable MR^-2",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Heavy MR^-2",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Partial MR^-2",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Bare MR^-2",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "Small MR^-2",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "Medium MR^-2",
+      "sortable": "true"
+    },
+    {
+      "key": "m7",
+      "label": "Large MR^-2",
+      "sortable": "true"
+    },
+    {
+      "key": "m8",
+      "label": "Test Time",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Increasing pedestrian detection performance through weighting of detection impairing factors](https://dl.acm.org/doi/pdf/10.1145/3568160.3570225)",
+      "c": "",
+      "n": "DIW Loss",
+      "d": "2022-12-08",
+      "m1": "6.23",
+      "m2": "28.37",
+      "m5": "7.36"
+    },
+    {
+      "p": "[Localized Semantic Feature Mixers for Efficient Pedestrian Detection in Autonomous Driving](http://openaccess.thecvf.com//content/CVPR2023/html/Khan_Localized_Semantic_Feature_Mixers_for_Efficient_Pedestrian_Detection_in_Autonomous_CVPR_2023_paper.html)",
+      "c": "",
+      "n": "LSFM (Additional Data)",
+      "d": "2023-01-01",
+      "m1": "6.38",
+      "m2": "24.73",
+      "m5": "7.90",
+      "m8": "0.18"
+    },
+    {
+      "p": "[Generalizable Pedestrian Detection: The Elephant In The Room](https://arxiv.org/abs/2003.08799v7)",
+      "c": "[&check;&nbsp;Link](https://github.com/hasanirtiza/Pedestron)",
+      "n": "Pedestron",
+      "d": "2020-03-19",
+      "m1": "7.5",
+      "m2": "33.9",
+      "m3": "5.7",
+      "m4": "6.2",
+      "m5": "8.0",
+      "m6": "3.0",
+      "m7": "4.3"
+    },
+    {
+      "p": "[F2DNet: Fast Focal Detection Network for Pedestrian Detection](https://arxiv.org/abs/2203.02331v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/hasanirtiza/Pedestron)",
+      "n": "F2DNet (extra data)",
+      "d": "2022-03-04",
+      "m1": "7.8",
+      "m2": "26.23",
+      "m5": "9.43",
+      "m8": "0.44s/img"
+    },
+    {
+      "p": "[Localized Semantic Feature Mixers for Efficient Pedestrian Detection in Autonomous Driving](http://openaccess.thecvf.com//content/CVPR2023/html/Khan_Localized_Semantic_Feature_Mixers_for_Efficient_Pedestrian_Detection_in_Autonomous_CVPR_2023_paper.html)",
+      "c": "",
+      "n": "LSFM",
+      "d": "2023-01-01",
+      "m1": "8.5",
+      "m2": "31.9",
+      "m5": "8.8",
+      "m8": "0.18"
+    },
+    {
+      "p": "[F2DNet: Fast Focal Detection Network for Pedestrian Detection](https://arxiv.org/abs/2203.02331v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/hasanirtiza/Pedestron)",
+      "n": "F2DNet",
+      "d": "2022-03-04",
+      "m1": "8.7",
+      "m2": "32.6",
+      "m5": "11.3",
+      "m8": "0.44s/img"
+    },
+    {
+      "p": "[Adapted Center and Scale Prediction: More Stable and More Accurate](https://arxiv.org/abs/2002.09053v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/WangWenhao0716/Adapted-Center-and-Scale-Prediction)",
+      "n": "ACSP",
+      "d": "2020-02-20",
+      "m1": "9.3",
+      "m2": "46.3",
+      "m3": "8.7",
+      "m4": "5.6"
+    },
+    {
+      "p": "[VLPD: Context-Aware Pedestrian Detection via Vision-Language Semantic Self-Supervision](https://arxiv.org/abs/2304.03135v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/lmy98129/vlpd)",
+      "n": "VLPD",
+      "d": "2023-04-06",
+      "m1": "9.4",
+      "m2": "43.1",
+      "m3": "8.8",
+      "m4": "6.1",
+      "m5": "10.9"
+    },
+    {
+      "p": "[Beyond Appearance: a Semantic Controllable Self-Supervised Learning Framework for Human-Centric Visual Tasks](https://arxiv.org/abs/2303.17602v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/modelscope/modelscope)",
+      "n": "SOLIDER",
+      "d": "2023-03-30",
+      "m1": "9.7",
+      "m2": "39.4"
+    },
+    {
+      "p": "[NMS-Loss: Learning with Non-Maximum Suppression for Crowded Pedestrian Detection](https://arxiv.org/abs/2106.02426v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/IcebergKnight/NMS-Loss)",
+      "n": "NMS-Loss",
+      "d": "2021-06-04",
+      "m1": "10.08"
+    },
+    {
+      "p": "[Beta R-CNN: Looking into Pedestrian Detection from Another Perspective](https://arxiv.org/abs/2210.12758v1)",
+      "c": "",
+      "n": "Beta R-CNN",
+      "d": "2022-10-23",
+      "m1": "10.6",
+      "m2": "47.1",
+      "m3": "10.3",
+      "m4": "6.4"
+    },
+    {
+      "p": "[CrowdHuman: A Benchmark for Detecting Human in a Crowd](http://arxiv.org/abs/1805.00123v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/aibeedetect/bfjdet)",
+      "n": "FRCNN+FPN-Res50+refined feature map+Crowdhuman",
+      "d": "2018-04-30",
+      "m1": "10.67"
+    },
+    {
+      "p": "[NOH-NMS: Improving Pedestrian Detection by Nearby Objects Hallucination](https://arxiv.org/abs/2007.13376v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/TencentYoutuResearch/PedestrianDetection-NohNMS)",
+      "n": "NOH-NMS",
+      "d": "2020-07-27",
+      "m1": "10.8",
+      "m2": "53.0",
+      "m3": "11.2",
+      "m4": "6.6"
+    },
+    {
+      "p": "[Center and Scale Prediction: Anchor-free Approach for Pedestrian and Face Detection](https://arxiv.org/abs/1904.02948v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/liuwei16/CSP)",
+      "n": "CSP (with offset) + ResNet-50",
+      "d": "2019-04-05",
+      "m1": "11.0",
+      "m2": "49.3",
+      "m3": "10.4",
+      "m4": "7.3",
+      "m5": "16.0",
+      "m6": "3.7",
+      "m7": "6.5",
+      "m8": "0.33s/img"
+    },
+    {
+      "p": "[Learning Efficient Single-stage Pedestrian Detectors by Asymptotic Localization Fitting](http://openaccess.thecvf.com/content_ECCV_2018/html/Wei_Liu_Learning_Efficient_Single-stage_ECCV_2018_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/VideoObjectSearch/ALFNet)",
+      "n": "ALFNet",
+      "d": "2018-09-01",
+      "m1": "12.0",
+      "m2": "51.9",
+      "m3": "11.4",
+      "m4": "8.4",
+      "m5": "19.0",
+      "m6": "5.7",
+      "m7": "6.6",
+      "m8": "0.27"
+    },
+    {
+      "p": "[Occlusion-aware R-CNN: Detecting Pedestrians in a Crowd](http://arxiv.org/abs/1807.08407v1)",
+      "c": "",
+      "n": "OR-CNN",
+      "d": "2018-07-23",
+      "m1": "12.8",
+      "m2": "55.7",
+      "m3": "15.3",
+      "m4": "6.7"
+    },
+    {
+      "p": "[Repulsion Loss: Detecting Pedestrians in a Crowd](http://arxiv.org/abs/1711.07752v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/bailvwangzi/repulsion_loss_ssd)",
+      "n": "RepLoss",
+      "d": "2017-11-21",
+      "m1": "13.2",
+      "m2": "56.9",
+      "m3": "16.8",
+      "m4": "7.6"
+    },
+    {
+      "p": "[Small-scale Pedestrian Detection Based on Somatic Topology Localization and Temporal Feature Aggregation](http://arxiv.org/abs/1807.01438v1)",
+      "c": "",
+      "n": "TLL+MRF",
+      "d": "2018-07-04",
+      "m1": "14.4",
+      "m2": "52.0",
+      "m3": "15.9",
+      "m4": "9.2"
+    },
+    {
+      "p": "[CityPersons: A Diverse Dataset for Pedestrian Detection](http://arxiv.org/abs/1702.05693v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/aibeedetect/bfjdet)",
+      "n": "FRCNN+Seg",
+      "d": "2017-02-19",
+      "m1": "14.8",
+      "m5": "22.6",
+      "m6": "6.7",
+      "m7": "8.0"
+    },
+    {
+      "p": "[CityPersons: A Diverse Dataset for Pedestrian Detection](http://arxiv.org/abs/1702.05693v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/aibeedetect/bfjdet)",
+      "n": "FRCNN",
+      "d": "2017-02-19",
+      "m1": "15.4",
+      "m5": "25.6",
+      "m6": "7.2",
+      "m7": "7.9"
+    },
+    {
+      "p": "[Small-scale Pedestrian Detection Based on Somatic Topology Localization and Temporal Feature Aggregation](http://arxiv.org/abs/1807.01438v1)",
+      "c": "",
+      "n": "TLL",
+      "d": "2018-07-04",
+      "m1": "15.5",
+      "m2": "53.6",
+      "m3": "17.2",
+      "m4": "10.0"
+    },
+    {
+      "p": "[Adapted Center and Scale Prediction: More Stable and More Accurate](https://arxiv.org/abs/2002.09053v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/WangWenhao0716/Adapted-Center-and-Scale-Prediction)",
+      "n": "ACSP + EuroCity Persons",
+      "d": "2020-02-20",
+      "m2": "42.5",
+      "m3": "6.9",
+      "m4": "4.9"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

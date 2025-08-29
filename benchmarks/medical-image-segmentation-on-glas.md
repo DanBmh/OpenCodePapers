@@ -1,0 +1,136 @@
+# medical-image-segmentation-on-glas
+
+[Dataset Link](https://warwick.ac.uk/fac/cross_fac/tia/data/glascontest/) \
+Task Hierarchy: ['Medical Image Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "IoU",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Dice",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Hi-gMISnet: generalized medical image segmentation using DWT based multilayer fusion and dual mode attention into high resolution pGAN](https://iopscience.iop.org/article/10.1088/1361-6560/ad3cb3)",
+      "c": "[&check;&nbsp;Link](https://github.com/tushartalukder/HigMISnet)",
+      "n": "Hi-gMISnet",
+      "d": "2024-05-20",
+      "m1": "93.25",
+      "m3": "93.25"
+    },
+    {
+      "p": "[Masked Diffusion as Self-supervised Representation Learner](https://arxiv.org/abs/2308.05695v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/zx-pan/mdm)",
+      "n": "MDM",
+      "d": "2023-08-10",
+      "m1": "91.95",
+      "m2": "85.13",
+      "m3": "91.95"
+    },
+    {
+      "p": "[UCTransNet: Rethinking the Skip Connections in U-Net from a Channel-wise Perspective with Transformer](https://arxiv.org/abs/2109.04335v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/lucidrains/imagen-pytorch)",
+      "n": "UCTransNet",
+      "d": "2021-09-09",
+      "m1": "90.18",
+      "m2": "82.96",
+      "m3": "90.18"
+    },
+    {
+      "p": "[Trans2Unet: Neural fusion for Nuclei Semantic Segmentation](https://arxiv.org/abs/2407.17181v1)",
+      "c": "",
+      "n": "Trans2Unet",
+      "d": "2024-07-24",
+      "m1": "89.84",
+      "m2": "82.54",
+      "m3": "89.84"
+    },
+    {
+      "p": "[UCTransNet: Rethinking the Skip Connections in U-Net from a Channel-wise Perspective with Transformer](https://arxiv.org/abs/2109.04335v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/lucidrains/imagen-pytorch)",
+      "n": "U-Net++",
+      "d": "2021-09-09",
+      "m1": "87.56",
+      "m2": "79.13",
+      "m3": "87.56"
+    },
+    {
+      "p": "[UCTransNet: Rethinking the Skip Connections in U-Net from a Channel-wise Perspective with Transformer](https://arxiv.org/abs/2109.04335v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/lucidrains/imagen-pytorch)",
+      "n": "U-Net",
+      "d": "2021-09-09",
+      "m1": "85.45",
+      "m2": "74.78",
+      "m3": "85.45"
+    },
+    {
+      "p": "[Medical Transformer: Gated Axial-Attention for Medical Image Segmentation](https://arxiv.org/abs/2102.10662v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jeya-maria-jose/Medical-Transformer)",
+      "n": "MedT",
+      "d": "2021-02-21",
+      "m1": "81.02",
+      "m2": "69.61",
+      "m3": "81.02"
+    },
+    {
+      "p": "[Medical Transformer: Gated Axial-Attention for Medical Image Segmentation](https://arxiv.org/abs/2102.10662v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jeya-maria-jose/Medical-Transformer)",
+      "n": "LoGo",
+      "d": "2021-02-21",
+      "m1": "79.68",
+      "m2": "67.69",
+      "m3": "79.68"
+    },
+    {
+      "p": "[Medical Transformer: Gated Axial-Attention for Medical Image Segmentation](https://arxiv.org/abs/2102.10662v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jeya-maria-jose/Medical-Transformer)",
+      "n": "U-Net",
+      "d": "2021-02-21",
+      "m1": "76.26",
+      "m2": "63.03",
+      "m3": "76.26"
+    },
+    {
+      "p": "[HistoSeg : Quick attention with multi-loss function for multi-structure segmentation in digital histology images](https://arxiv.org/abs/2209.00729v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/saadwazir/HistoSeg)",
+      "n": "HistoSeg",
+      "d": "2022-09-01",
+      "m2": "76.73"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

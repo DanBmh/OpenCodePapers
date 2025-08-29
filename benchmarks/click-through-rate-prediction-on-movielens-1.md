@@ -1,0 +1,60 @@
+# click-through-rate-prediction-on-movielens-1
+
+[Dataset Link](https://grouplens.org/datasets/movielens/) \
+Task Hierarchy: ['Click-Through Rate Prediction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AUC",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[TF4CTR: Twin Focus Framework for CTR Prediction via Adaptive Sample Differentiation](https://arxiv.org/abs/2405.03167v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/salmon1802/tf4ctr)",
+      "n": "TF4CTR",
+      "d": "2024-05-06",
+      "m1": "0.9746"
+    },
+    {
+      "p": "[FinalMLP: An Enhanced Two-Stream MLP Model for CTR Prediction](https://arxiv.org/abs/2304.00902v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/reczoo/FuxiCTR)",
+      "n": "FinalMLP",
+      "d": "2023-04-03",
+      "m1": "0.9720"
+    },
+    {
+      "p": "[Adaptive Factorization Network: Learning Adaptive-Order Feature Interactions](https://arxiv.org/abs/1909.03276v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/shenweichen/DeepCTR-Torch)",
+      "n": "AFN+",
+      "d": "2019-09-07",
+      "m1": "0.95"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,126 @@
+# within-session-erp-on-bnci2015-003-moabb
+
+[Dataset Link]() \
+Task Hierarchy: ['ERP', 'Within-Session ERP']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AUC-ROC",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "training time (s)",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "CO2 Emission (g)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[The largest EEG-based BCI reproducibility study for open science: the MOABB benchmark](https://arxiv.org/abs/2404.15319v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/NeuroTechX/moabb)",
+      "n": "XDAWNCov + MDM",
+      "d": "2024-04-03",
+      "m1": "83.0813024",
+      "m2": "0.872752316",
+      "m3": "0.0042846727000000005"
+    },
+    {
+      "p": "[The largest EEG-based BCI reproducibility study for open science: the MOABB benchmark](https://arxiv.org/abs/2404.15319v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/NeuroTechX/moabb)",
+      "n": "XDAWNCov + TS + SVM",
+      "d": "2024-04-03",
+      "m1": "82.9463175",
+      "m2": "4.73371116",
+      "m3": "0.02330993935"
+    },
+    {
+      "p": "[The largest EEG-based BCI reproducibility study for open science: the MOABB benchmark](https://arxiv.org/abs/2404.15319v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/NeuroTechX/moabb)",
+      "n": "EEGITNet",
+      "d": "2024-04-03",
+      "m1": "81.8696517",
+      "m2": "31.673819200000004"
+    },
+    {
+      "p": "[The largest EEG-based BCI reproducibility study for open science: the MOABB benchmark](https://arxiv.org/abs/2404.15319v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/NeuroTechX/moabb)",
+      "n": "EEGNet-8,2",
+      "d": "2024-04-03",
+      "m1": "81.1056664",
+      "m2": "21.2605219"
+    },
+    {
+      "p": "[The largest EEG-based BCI reproducibility study for open science: the MOABB benchmark](https://arxiv.org/abs/2404.15319v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/NeuroTechX/moabb)",
+      "n": "XDAWN + LDA",
+      "d": "2024-04-03",
+      "m1": "78.6240163",
+      "m2": "1.74386197",
+      "m3": "0.00903317618"
+    },
+    {
+      "p": "[The largest EEG-based BCI reproducibility study for open science: the MOABB benchmark](https://arxiv.org/abs/2404.15319v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/NeuroTechX/moabb)",
+      "n": "EEGNeX",
+      "d": "2024-04-03",
+      "m1": "77.73544530000001",
+      "m2": "27.2078305"
+    },
+    {
+      "p": "[The largest EEG-based BCI reproducibility study for open science: the MOABB benchmark](https://arxiv.org/abs/2404.15319v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/NeuroTechX/moabb)",
+      "n": "ERPCov(svd_n=4) + MDM",
+      "d": "2024-04-03",
+      "m1": "76.9320484",
+      "m2": "0.5074777229999999",
+      "m3": "0.0047693783"
+    },
+    {
+      "p": "[The largest EEG-based BCI reproducibility study for open science: the MOABB benchmark](https://arxiv.org/abs/2404.15319v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/NeuroTechX/moabb)",
+      "n": "ERPCov + MDM",
+      "d": "2024-04-03",
+      "m1": "76.7858569",
+      "m2": "1.437615323",
+      "m3": "0.007065287250000001"
+    },
+    {
+      "p": "[The largest EEG-based BCI reproducibility study for open science: the MOABB benchmark](https://arxiv.org/abs/2404.15319v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/NeuroTechX/moabb)",
+      "n": "ShallowConvNet",
+      "d": "2024-04-03",
+      "m1": "64.19801570000001",
+      "m2": "24.1188684"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

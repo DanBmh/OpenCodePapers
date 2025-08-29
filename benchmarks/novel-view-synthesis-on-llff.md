@@ -1,0 +1,169 @@
+# novel-view-synthesis-on-llff
+
+[Dataset Link](https://bmild.github.io/llff/) \
+Task Hierarchy: ['Novel View Synthesis']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "LPIPS",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "SSIM",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[NeRFLiX: High-Quality Neural View Synthesis by Learning a Degradation-Driven Inter-viewpoint MiXer](https://arxiv.org/abs/2303.06919v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/redrock303/NeRFLiX_CPVR2023)",
+      "n": "TensoRF + NeRFLiX",
+      "d": "2023-03-13",
+      "m1": "27.39",
+      "m2": "0.149",
+      "m3": "0.867"
+    },
+    {
+      "p": "[MobileNeRF: Exploiting the Polygon Rasterization Pipeline for Efficient Neural Field Rendering on Mobile Architectures](https://arxiv.org/abs/2208.00277v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/jax3d)",
+      "n": "JAXNeRF",
+      "d": "2022-07-30",
+      "m1": "26.92",
+      "m2": "0.173",
+      "m3": "0.831"
+    },
+    {
+      "p": "[K-Planes: Explicit Radiance Fields in Space, Time, and Appearance](https://arxiv.org/abs/2301.10241v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/tree/main/KPlanes_Explicit_Radiance_Fields_in_Space_Time_and_Appearance)",
+      "n": "K-Planes (hybrid)",
+      "d": "2023-01-24",
+      "m1": "26.92",
+      "m3": "0.847"
+    },
+    {
+      "p": "[NeRFLiX: High-Quality Neural View Synthesis by Learning a Degradation-Driven Inter-viewpoint MiXer](https://arxiv.org/abs/2303.06919v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/redrock303/NeRFLiX_CPVR2023)",
+      "n": "Plenoxels + NeRFLiX",
+      "d": "2023-03-13",
+      "m1": "26.9",
+      "m2": "0.156",
+      "m3": "0.864"
+    },
+    {
+      "p": "[K-Planes: Explicit Radiance Fields in Space, Time, and Appearance](https://arxiv.org/abs/2301.10241v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/tree/main/KPlanes_Explicit_Radiance_Fields_in_Space_Time_and_Appearance)",
+      "n": "K-Planes (explicit)",
+      "d": "2023-01-24",
+      "m1": "26.78",
+      "m3": "0.841"
+    },
+    {
+      "p": "[K-Planes: Explicit Radiance Fields in Space, Time, and Appearance](https://arxiv.org/abs/2301.10241v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/tree/main/KPlanes_Explicit_Radiance_Fields_in_Space_Time_and_Appearance)",
+      "n": "TensoRF",
+      "d": "2023-01-24",
+      "m1": "26.73",
+      "m3": "0.839"
+    },
+    {
+      "p": "[MobileNeRF: Exploiting the Polygon Rasterization Pipeline for Efficient Neural Field Rendering on Mobile Architectures](https://arxiv.org/abs/2208.00277v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/jax3d)",
+      "n": "NeRF",
+      "d": "2022-07-30",
+      "m1": "26.5",
+      "m2": "0.25",
+      "m3": "0.811"
+    },
+    {
+      "p": "[K-Planes: Explicit Radiance Fields in Space, Time, and Appearance](https://arxiv.org/abs/2301.10241v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/tree/main/KPlanes_Explicit_Radiance_Fields_in_Space_Time_and_Appearance)",
+      "n": "Plenoxels",
+      "d": "2023-01-24",
+      "m1": "26.29"
+    },
+    {
+      "p": "[HyperReel: High-Fidelity 6-DoF Video with Ray-Conditioned Sampling](https://arxiv.org/abs/2301.02238v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/hyperreel)",
+      "n": "HyperReel",
+      "d": "2023-01-05",
+      "m1": "26.2"
+    },
+    {
+      "p": "[MobileNeRF: Exploiting the Polygon Rasterization Pipeline for Efficient Neural Field Rendering on Mobile Architectures](https://arxiv.org/abs/2208.00277v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/jax3d)",
+      "n": "MobileNeRF",
+      "d": "2022-07-30",
+      "m1": "25.91",
+      "m2": "0.183",
+      "m3": "0.825"
+    },
+    {
+      "p": "[HyperReel: High-Fidelity 6-DoF Video with Ray-Conditioned Sampling](https://arxiv.org/abs/2301.02238v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/hyperreel)",
+      "n": "AdaNeRF",
+      "d": "2023-01-05",
+      "m1": "25.7"
+    },
+    {
+      "p": "[MobileNeRF: Exploiting the Polygon Rasterization Pipeline for Efficient Neural Field Rendering on Mobile Architectures](https://arxiv.org/abs/2208.00277v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/jax3d)",
+      "n": "SNeRG",
+      "d": "2022-07-30",
+      "m1": "25.63",
+      "m2": "0.183",
+      "m3": "0.818"
+    },
+    {
+      "p": "[HyperReel: High-Fidelity 6-DoF Video with Ray-Conditioned Sampling](https://arxiv.org/abs/2301.02238v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/hyperreel)",
+      "n": "Instant NGP",
+      "d": "2023-01-05",
+      "m1": "25.6"
+    },
+    {
+      "p": "[HyperReel: High-Fidelity 6-DoF Video with Ray-Conditioned Sampling](https://arxiv.org/abs/2301.02238v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/hyperreel)",
+      "n": "TermiNeRF",
+      "d": "2023-01-05",
+      "m1": "23.6"
+    },
+    {
+      "p": "[HyperReel: High-Fidelity 6-DoF Video with Ray-Conditioned Sampling](https://arxiv.org/abs/2301.02238v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/hyperreel)",
+      "n": "DoNeRF",
+      "d": "2023-01-05",
+      "m1": "22.9"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

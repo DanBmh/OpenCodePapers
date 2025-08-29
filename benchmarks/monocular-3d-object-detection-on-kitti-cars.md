@@ -1,0 +1,247 @@
+# monocular-3d-object-detection-on-kitti-cars
+
+[Dataset Link](http://www.cvlibs.net/datasets/kitti/) \
+Task Hierarchy: ['16k', 'Object Detection', '3D Object Detection', 'Monocular 3D Object Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AP Medium",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "AP",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Consistency of Implicit and Explicit Features Matters for Monocular 3D Object Detection](https://arxiv.org/abs/2207.07933v2)",
+      "c": "",
+      "n": "CIE",
+      "d": "2022-07-16",
+      "m1": "20.95 "
+    },
+    {
+      "p": "[MonoLSS: Learnable Sample Selection For Monocular 3D Detection](https://arxiv.org/abs/2312.14474v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Traffic-X/MonoLSS)",
+      "n": "MonoLSS",
+      "d": "2023-12-22",
+      "m1": "19.15"
+    },
+    {
+      "p": "[MonoDGP: Monocular 3D Object Detection with Decoupled-Query and Geometry-Error Priors](https://arxiv.org/abs/2410.19590v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/pufanqi23/monodgp)",
+      "n": "MonoDGP",
+      "d": "2024-10-25",
+      "m1": "18.72"
+    },
+    {
+      "p": "[Cross Modality Knowledge Distillation for Multi-Modal Aerial View Object Classification](https://openaccess.thecvf.com/content/CVPR2021W/NTIRE/html/Yang_Cross_Modality_Knowledge_Distillation_for_Multi-Modal_Aerial_View_Object_Classification_CVPRW_2021_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/Hansxsourse/Cross-Modality-Knowledge-Distillation-for-Multi-modal-Aerial-View-Object-Classification)",
+      "n": "CMKD",
+      "d": "2021-06-19",
+      "m1": "18.69"
+    },
+    {
+      "p": "[MonoUNI: A Unified Vehicle and Infrastructure-side Monocular 3D Object Detection Network with Sufficient Depth Clues](https://openreview.net/forum?id=v2oGdhbKxi)",
+      "c": "[&check;&nbsp;Link](https://github.com/Traffic-X/MonoUNI)",
+      "n": "MonoUNI",
+      "d": "2023-09-21",
+      "m1": "16.73"
+    },
+    {
+      "p": "[Learning Auxiliary Monocular Contexts Helps Monocular 3D Object Detection](https://arxiv.org/abs/2112.04628v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Xianpeng919/MonoCon)",
+      "n": "MonoCon",
+      "d": "2021-12-09",
+      "m1": "16.46"
+    },
+    {
+      "p": "[Is Pseudo-Lidar needed for Monocular 3D Object detection?](https://arxiv.org/abs/2108.06417v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tri-ml/dd3d)",
+      "n": "DD3D",
+      "d": "2021-08-13",
+      "m1": "16.34"
+    },
+    {
+      "p": "[DEVIANT: Depth EquiVarIAnt NeTwork for Monocular 3D Object Detection](https://arxiv.org/abs/2207.10758v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/abhi1kumar/deviant)",
+      "n": "DEVIANT",
+      "d": "2022-07-21",
+      "m1": "14.46"
+    },
+    {
+      "p": "[Objects are Different: Flexible Monocular 3D Object Detection](https://arxiv.org/abs/2104.02323v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Owen-Liuyuxuan/visualDet3D)",
+      "n": "MonoFLEX",
+      "d": "2021-04-06",
+      "m1": "13.89"
+    },
+    {
+      "p": "[Monocular 3D Object Detection: An Extrinsic Parameter Free Approach](https://arxiv.org/abs/2106.15796v2)",
+      "c": "",
+      "n": "MonoEF",
+      "d": "2021-06-30",
+      "m1": "13.87"
+    },
+    {
+      "p": "[Learning Geometry-Guided Depth via Projective Modeling for Monocular 3D Object Detection](https://arxiv.org/abs/2107.13931v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/YinminZhang/MonoGeo)",
+      "n": "MonoGeo",
+      "d": "2021-07-29",
+      "m1": "13.81"
+    },
+    {
+      "p": "[Categorical Depth Distribution Network for Monocular 3D Object Detection](https://arxiv.org/abs/2103.01100v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/Paddle3D)",
+      "n": "CaDDN",
+      "d": "2021-03-01",
+      "m1": "13.41"
+    },
+    {
+      "p": "[Ground-aware Monocular 3D Object Detection for Autonomous Driving](https://arxiv.org/abs/2102.00690v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Owen-Liuyuxuan/visualDet3D)",
+      "n": "GAC",
+      "d": "2021-02-01",
+      "m1": "13.17"
+    },
+    {
+      "p": "[Depth-conditioned Dynamic Message Propagation for Monocular 3D Object Detection](https://arxiv.org/abs/2103.16470v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/fudan-zvg/DDMP)",
+      "n": "DDMP-3D",
+      "d": "2021-03-30",
+      "m1": "12.78"
+    },
+    {
+      "p": "[Kinematic 3D Object Detection in Monocular Video](https://arxiv.org/abs/2007.09548v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Nicholasli1995/EgoNet)",
+      "n": "Kinematic3D",
+      "d": "2020-07-19",
+      "m1": "12.72"
+    },
+    {
+      "p": "[Geometry-based Distance Decomposition for Monocular 3D Object Detection](https://arxiv.org/abs/2104.03775v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Rock-100/MonoDet)",
+      "n": "MonoRCNN",
+      "d": "2021-04-08",
+      "m1": "12.65"
+    },
+    {
+      "p": "[GrooMeD-NMS: Grouped Mathematically Differentiable NMS for Monocular 3D Object Detection](https://arxiv.org/abs/2103.17202v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/abhi1kumar/groomed_nms)",
+      "n": "GrooMeD-NMS",
+      "d": "2021-03-31",
+      "m1": "12.32"
+    },
+    {
+      "p": "[MonoRUn: Monocular 3D Object Detection by Reconstruction and Uncertainty Propagation](https://arxiv.org/abs/2103.12605v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tjiiv-cprg/MonoRUn)",
+      "n": "MonoRUn",
+      "d": "2021-03-23",
+      "m1": "12.30"
+    },
+    {
+      "p": "[Delving into Localization Errors for Monocular 3D Object Detection](https://arxiv.org/abs/2103.16237v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/xinzhuma/monodle)",
+      "n": "MonoDLE",
+      "d": "2021-03-30",
+      "m1": "12.26"
+    },
+    {
+      "p": "[IAFA: Instance-aware Feature Aggregation for 3D Object Detection from a Single Image](https://arxiv.org/abs/2103.03480v1)",
+      "c": "",
+      "n": "IAFA",
+      "d": "2021-03-05",
+      "m1": "12.01"
+    },
+    {
+      "p": "[Probabilistic and Geometric Depth: Detecting Objects in Perspective](https://arxiv.org/abs/2107.14160v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection3d)",
+      "n": "PGD",
+      "d": "2021-07-29",
+      "m1": "11.76"
+    },
+    {
+      "p": "[Learning Depth-Guided Convolutions for Monocular 3D Object Detection](https://arxiv.org/abs/1912.04799v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dingmyu/D4LCN)",
+      "n": "D4LCN",
+      "d": "2019-12-10",
+      "m1": "11.72"
+    },
+    {
+      "p": "[MonoPair: Monocular 3D Object Detection Using Pairwise Spatial Relationships](https://arxiv.org/abs/2003.00504v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Nicholasli1995/EgoNet)",
+      "n": "MonoPair",
+      "d": "2020-03-01",
+      "m1": "9.99"
+    },
+    {
+      "p": "[SMOKE: Single-Stage Monocular 3D Object Detection via Keypoint Estimation](https://arxiv.org/abs/2002.10111v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/lzccccc/SMOKE)",
+      "n": "SMOKE",
+      "d": "2020-02-24",
+      "m1": "9.76"
+    },
+    {
+      "p": "[M3D-RPN: Monocular 3D Region Proposal Network for Object Detection](https://arxiv.org/abs/1907.06038v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/garrickbrazil/M3D-RPN)",
+      "n": "M3D-RPN",
+      "d": "2019-07-13",
+      "m1": "9.71"
+    },
+    {
+      "p": "[CubifAE-3D: Monocular Camera Space Cubification for Auto-Encoder based 3D Object Detection](https://arxiv.org/abs/2006.04080v2)",
+      "c": "",
+      "n": "CubifAE-3D",
+      "d": "2020-06-07",
+      "m1": "7.94"
+    },
+    {
+      "p": "[MonoGRNet: A Geometric Reasoning Network for Monocular 3D Object Localization](https://arxiv.org/abs/1811.10247v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Zengyi-Qin/MonoGRNet)",
+      "n": "MonoGRNet",
+      "d": "2018-11-26",
+      "m1": "5.74"
+    },
+    {
+      "p": "[GS3D: An Efficient 3D Object Detection Framework for Autonomous Driving](http://arxiv.org/abs/1903.10955v2)",
+      "c": "",
+      "n": "GS3D",
+      "d": "2019-03-26",
+      "m1": "2.9"
+    },
+    {
+      "p": "[Pseudo-Stereo for Monocular 3D Object Detection in Autonomous Driving](https://arxiv.org/abs/2203.02112v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/revisitq/Pseudo-Stereo-3D)",
+      "n": "Pseudo-Stereo",
+      "d": "2022-03-04",
+      "m2": "17.74"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

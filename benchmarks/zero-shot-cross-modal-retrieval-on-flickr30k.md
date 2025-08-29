@@ -1,0 +1,323 @@
+# zero-shot-cross-modal-retrieval-on-flickr30k
+
+[Dataset Link](https://shannon.cs.illinois.edu/DenotationGraph/) \
+Task Hierarchy: ['Image Retrieval with Multi-Modal Query', 'Zero-Shot Cross-Modal Retrieval']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Image-to-text R@1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Image-to-text R@5",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Image-to-text R@10",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Text-to-image R@1",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "Text-to-image R@5",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "Text-to-image R@10",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[InternVL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks](https://arxiv.org/abs/2312.14238v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internvl)",
+      "n": "InternVL-G",
+      "d": "2023-12-21",
+      "m1": "95.7",
+      "m2": "99.7",
+      "m3": "99.9",
+      "m4": "85.0",
+      "m5": "97.0",
+      "m6": "98.6"
+    },
+    {
+      "p": "[Image as a Foreign Language: BEiT Pretraining for All Vision and Vision-Language Tasks](https://arxiv.org/abs/2208.10442v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/unilm/tree/master/beit)",
+      "n": "BEiT-3",
+      "d": "2022-08-22",
+      "m1": "94.9",
+      "m2": "99.9",
+      "m3": "100.0",
+      "m4": "81.5",
+      "m5": "95.6",
+      "m6": "97.8"
+    },
+    {
+      "p": "[InternVL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks](https://arxiv.org/abs/2312.14238v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internvl)",
+      "n": "InternVL-C",
+      "d": "2023-12-21",
+      "m1": "94.7",
+      "m2": "99.6",
+      "m3": "99.9",
+      "m4": "81.7",
+      "m5": "96.0",
+      "m6": "98.2"
+    },
+    {
+      "p": "[COSMOS: Cross-Modality Self-Distillation for Vision Language Pre-training](https://arxiv.org/abs/2412.01814v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ExplainableML/cosmos)",
+      "n": "COSMOS ViT-B/16",
+      "d": "2024-12-02",
+      "m1": "92.9",
+      "m2": "99.4",
+      "m3": "99.9",
+      "m4": "80.3",
+      "m5": "95.3",
+      "m6": "97.6"
+    },
+    {
+      "p": "[CoCa: Contrastive Captioners are Image-Text Foundation Models](https://arxiv.org/abs/2205.01917v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mlfoundations/open_clip)",
+      "n": "CoCa",
+      "d": "2022-05-04",
+      "m1": "92.5",
+      "m2": "99.5",
+      "m3": "99.9",
+      "m4": "80.4",
+      "m5": "95.7",
+      "m6": "97.7"
+    },
+    {
+      "p": "[Region-Aware Pretraining for Open-Vocabulary Object Detection with Vision Transformers](https://arxiv.org/abs/2305.07011v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research/tree/master/fvlm/rovit)",
+      "n": "RO-ViT",
+      "d": "2023-05-11",
+      "m1": "92.1",
+      "m2": "99.4",
+      "m3": "99.7",
+      "m4": "80.7",
+      "m5": "96.1",
+      "m6": "97.7"
+    },
+    {
+      "p": "[M2-Encoder: Advancing Bilingual Image-Text Understanding by Large-scale Efficient Pretraining](https://arxiv.org/abs/2401.15896v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/alipay/Ant-Multi-Modal-Framework/tree/main/prj/M2_Encoder)",
+      "n": "M2-Encoder",
+      "d": "2024-01-29",
+      "m1": "91.2",
+      "m2": "99.2",
+      "m3": "99.6",
+      "m4": "92.2",
+      "m5": "99.5",
+      "m6": "99.7"
+    },
+    {
+      "p": "[ERNIE-ViL 2.0: Multi-view Contrastive Learning for Image-Text Pre-training](https://arxiv.org/abs/2209.15270v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/ERNIE)",
+      "n": "ERNIE-ViL 2.0",
+      "d": "2022-09-30",
+      "m1": "91.2",
+      "m2": "99.1",
+      "m3": "99.8",
+      "m4": "77.4",
+      "m5": "93.8",
+      "m6": "96.4"
+    },
+    {
+      "p": "[Florence: A New Foundation Model for Computer Vision](https://arxiv.org/abs/2111.11432v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/unicl)",
+      "n": "Florence",
+      "d": "2021-11-22",
+      "m1": "90.9",
+      "m2": "99.1",
+      "m3": "-",
+      "m4": "76.7",
+      "m5": "93.6",
+      "m6": "-"
+    },
+    {
+      "p": "[Align before Fuse: Vision and Language Representation Learning with Momentum Distillation](https://arxiv.org/abs/2107.07651v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/salesforce/lavis)",
+      "n": "ALBEF",
+      "d": "2021-07-16",
+      "m1": "90.5",
+      "m2": "98.8",
+      "m3": "99.7",
+      "m4": "76.8",
+      "m5": "93.7",
+      "m6": "96.7"
+    },
+    {
+      "p": "[COSMOS: Cross-Modality Self-Distillation for Vision Language Pre-training](https://arxiv.org/abs/2412.01814v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ExplainableML/cosmos)",
+      "n": "COSMOS ViT-B/32",
+      "d": "2024-12-02",
+      "m1": "89.9",
+      "m2": "98.8",
+      "m3": "99.3",
+      "m4": "76.1",
+      "m5": "92.8",
+      "m6": "96.2"
+    },
+    {
+      "p": "[Flamingo: a Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mlfoundations/open_flamingo)",
+      "n": "Flamingo",
+      "d": "2022-04-29",
+      "m1": "89.3",
+      "m2": "98.8",
+      "m3": "99.7",
+      "m4": "79.5",
+      "m5": "95.3",
+      "m6": "97.9"
+    },
+    {
+      "p": "[Implicit Differentiable Outlier Detection Enable Robust Deep Multimodal Analysis](https://openreview.net/forum?id=jooPcatnVF)",
+      "c": "[&check;&nbsp;Link](https://github.com/ellenzhuwang/implicit_vkood)",
+      "n": "VK-OOD",
+      "d": "2023-09-21",
+      "m1": "89.0",
+      "m2": "99.2",
+      "m3": "99.8",
+      "m4": "77.2",
+      "m5": "94.3",
+      "m6": "98.2"
+    },
+    {
+      "p": "[Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision](https://arxiv.org/abs/2102.05918v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/metaclip)",
+      "n": "ALIGN",
+      "d": "2021-02-11",
+      "m1": "88.6",
+      "m2": "98.7",
+      "m3": "99.7",
+      "m4": "75.7",
+      "m5": "93.8",
+      "m6": "96.8"
+    },
+    {
+      "p": "[Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/openai/CLIP)",
+      "n": "CLIP",
+      "d": "2021-02-26",
+      "m1": "88.0",
+      "m2": "98.7",
+      "m3": "99.4",
+      "m4": "68.7",
+      "m5": "90.6",
+      "m6": "95.2"
+    },
+    {
+      "p": "[Position-guided Text Prompt for Vision-Language Pre-training](https://arxiv.org/abs/2212.09737v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/sail-sg/ptp)",
+      "n": "PTP-BLIP (14M)",
+      "d": "2022-12-19",
+      "m1": "87.1",
+      "m2": "98.4",
+      "m3": "99.3",
+      "m4": "73.1",
+      "m5": "91.0",
+      "m6": "94.8"
+    },
+    {
+      "p": "[AltCLIP: Altering the Language Encoder in CLIP for Extended Language Capabilities](https://arxiv.org/abs/2211.06679v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/flagai-open/flagai)",
+      "n": "AltCLIP",
+      "d": "2022-11-12",
+      "m1": "86",
+      "m2": "98",
+      "m3": "99.1",
+      "m4": "72.5",
+      "m5": "91.6",
+      "m6": "95.4"
+    },
+    {
+      "p": "[UNITER: UNiversal Image-TExt Representation Learning](https://arxiv.org/abs/1909.11740v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/ChenRocks/UNITER)",
+      "n": "UNITER",
+      "d": "2019-09-25",
+      "m1": "80.7",
+      "m2": "95.7",
+      "m3": "98.0",
+      "m4": "66.2",
+      "m5": "88.4",
+      "m6": "92.9"
+    },
+    {
+      "p": "[ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision](https://arxiv.org/abs/2102.03334v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "ViLT-B/32",
+      "d": "2021-02-05",
+      "m1": "73.2",
+      "m2": "93.6",
+      "m3": "96.5",
+      "m4": "55",
+      "m5": "82.5",
+      "m6": "89.8"
+    },
+    {
+      "p": "[ImageBERT: Cross-modal Pre-training with Large-scale Weak-supervised Image-Text Data](https://arxiv.org/abs/2001.07966v2)",
+      "c": "",
+      "n": "ImageBERT",
+      "d": "2020-01-22",
+      "m1": "70.7",
+      "m2": "90.2",
+      "m3": "94.0",
+      "m4": "54.3",
+      "m5": "79.6",
+      "m6": "87.5"
+    },
+    {
+      "p": "[Reproducible scaling laws for contrastive language-image learning](https://arxiv.org/abs/2212.07143v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mlfoundations/open_clip)",
+      "n": "OpenCLIP VIT-H/14",
+      "d": "2022-12-14",
+      "m1": "-",
+      "m2": "99.3",
+      "m3": "-",
+      "m4": "-",
+      "m5": "94.1",
+      "m6": "-"
+    },
+    {
+      "p": "[VAST: A Vision-Audio-Subtitle-Text Omni-Modality Foundation Model and Dataset](https://arxiv.org/abs/2305.18500v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/TXH-mercury/VALOR)",
+      "n": "VAST",
+      "d": "2023-05-29",
+      "m4": "90.4"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

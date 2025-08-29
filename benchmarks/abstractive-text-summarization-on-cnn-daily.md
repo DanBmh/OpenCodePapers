@@ -1,0 +1,519 @@
+# abstractive-text-summarization-on-cnn-daily
+
+[Dataset Link](https://github.com/abisee/cnn-dailymail) \
+Task Hierarchy: ['Abstractive Text Summarization']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "ROUGE-1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "ROUGE-2",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "ROUGE-L",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Universal Evasion Attacks on Summarization Scoring](https://arxiv.org/abs/2210.14260v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cestwc/universal-evasion)",
+      "n": "Scrambled code + broken (alter)",
+      "d": "2022-10-25",
+      "m1": "48.18",
+      "m2": "19.84",
+      "m3": "45.35"
+    },
+    {
+      "p": "[BRIO: Bringing Order to Abstractive Summarization](https://arxiv.org/abs/2203.16804v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yixinl7/brio)",
+      "n": "BRIO",
+      "d": "2022-03-31",
+      "m1": "47.78",
+      "m2": "23.55",
+      "m3": "44.57"
+    },
+    {
+      "p": "[Calibrating Sequence likelihood Improves Conditional Language Generation](https://arxiv.org/abs/2210.00045v1)",
+      "c": "",
+      "n": "Pegasus",
+      "d": "2022-09-30",
+      "m1": "47.36",
+      "m2": "24.02",
+      "m3": "44.45"
+    },
+    {
+      "p": "[SummaReranker: A Multi-Task Mixture-of-Experts Re-ranking Framework for Abstractive Summarization](https://arxiv.org/abs/2203.06569v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ntunlp/summareranker)",
+      "n": "PEGASUS + SummaReranker",
+      "d": "2022-03-13",
+      "m1": "47.16",
+      "m2": "22.61",
+      "m3": "43.87"
+    },
+    {
+      "p": "[Universal Evasion Attacks on Summarization Scoring](https://arxiv.org/abs/2210.14260v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cestwc/universal-evasion)",
+      "n": "Scrambled code + broken",
+      "d": "2022-10-25",
+      "m1": "46.71",
+      "m2": "20.39",
+      "m3": "43.56"
+    },
+    {
+      "p": "[SimCLS: A Simple Framework for Contrastive Learning of Abstractive Summarization](https://arxiv.org/abs/2106.01890v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yixinL7/SimCLS)",
+      "n": "BART + SimCLS",
+      "d": "2021-06-03",
+      "m1": "46.67",
+      "m2": "22.15",
+      "m3": "43.54"
+    },
+    {
+      "p": "[Salience Allocation as Guidance for Abstractive Summarization](https://arxiv.org/abs/2210.12330v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tencent-ailab/season)",
+      "n": "SEASON",
+      "d": "2022-10-22",
+      "m1": "46.27",
+      "m2": "22.64",
+      "m3": "43.08"
+    },
+    {
+      "p": "[Fourier Transformer: Fast Long Range Modeling by Removing Sequence Redundancy with FFT Operator](https://arxiv.org/abs/2305.15099v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/lumia-group/fouriertransformer)",
+      "n": "Fourier Transformer",
+      "d": "2023-05-24",
+      "m1": "44.76",
+      "m2": "21.55",
+      "m3": "41.34"
+    },
+    {
+      "p": "[GLM: General Language Model Pretraining with Autoregressive Blank Infilling](https://arxiv.org/abs/2103.10360v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/thudm/chatglm2-6b)",
+      "n": "GLM-XXLarge",
+      "d": "2021-03-18",
+      "m1": "44.7",
+      "m2": "21.4",
+      "m3": "41.4"
+    },
+    {
+      "p": "[R-Drop: Regularized Dropout for Neural Networks](https://arxiv.org/abs/2106.14448v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dropreg/R-Drop)",
+      "n": "BART + R-Drop",
+      "d": "2021-06-28",
+      "m1": "44.51",
+      "m2": "21.58",
+      "m3": "41.24"
+    },
+    {
+      "p": "[Learn to Copy from the Copying History: Correlational Copy Network for Abstractive Summarization](https://aclanthology.org/2021.emnlp-main.336)",
+      "c": "[&check;&nbsp;Link](https://github.com/hrlinlp/coconet)",
+      "n": "CoCoNet + CoCoPretrain",
+      "d": null,
+      "m1": "44.50",
+      "m2": "21.55",
+      "m3": "41.24"
+    },
+    {
+      "p": "[Muppet: Massive Multi-task Representations with Pre-Finetuning](https://arxiv.org/abs/2101.11038v1)",
+      "c": "[&check;&nbsp;Link](https://huggingface.co/facebook/muppet-roberta-base)",
+      "n": "MUPPET BART Large",
+      "d": "2021-01-26",
+      "m1": "44.45",
+      "m2": "21.25",
+      "m3": "41.4"
+    },
+    {
+      "p": "[Learn to Copy from the Copying History: Correlational Copy Network for Abstractive Summarization](https://aclanthology.org/2021.emnlp-main.336)",
+      "c": "[&check;&nbsp;Link](https://github.com/hrlinlp/coconet)",
+      "n": "CoCoNet",
+      "d": null,
+      "m1": "44.39",
+      "m2": "21.41",
+      "m3": "41.05"
+    },
+    {
+      "p": "[Better Fine-Tuning by Reducing Representational Collapse](https://arxiv.org/abs/2008.03156v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/pytorch/fairseq/tree/master/examples/rxf)",
+      "n": "BART+R3F",
+      "d": "2020-08-06",
+      "m1": "44.38",
+      "m2": "21.53",
+      "m3": "41.17"
+    },
+    {
+      "p": "[ERNIE-GEN: An Enhanced Multi-Flow Pre-training and Fine-tuning Framework for Natural Language Generation](https://arxiv.org/abs/2001.11314v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleNLP/blob/develop/paddlenlp/transformers/ernie_gen/modeling.py)",
+      "n": "ERNIE-GENLARGE (large-scale text corpora)",
+      "d": "2020-01-26",
+      "m1": "44.31",
+      "m2": "21.35",
+      "m3": "41.60"
+    },
+    {
+      "p": "[PALM: Pre-training an Autoencoding&Autoregressive Language Model for Context-conditioned Generation](https://arxiv.org/abs/2004.07159v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/alibaba/AliceMind/tree/main/PALM)",
+      "n": "PALM",
+      "d": "2020-04-14",
+      "m1": "44.30",
+      "m2": "21.12",
+      "m3": "41.41"
+    },
+    {
+      "p": "[ProphetNet: Predicting Future N-gram for Sequence-to-Sequence Pre-training](https://arxiv.org/abs/2001.04063v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "ProphetNet",
+      "d": "2020-01-13",
+      "m1": "44.20",
+      "m2": "21.17",
+      "m3": "41.30"
+    },
+    {
+      "p": "[PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization](https://arxiv.org/abs/1912.08777v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "PEGASUS",
+      "d": "2019-12-18",
+      "m1": "44.17",
+      "m2": "21.47",
+      "m3": "41.11"
+    },
+    {
+      "p": "[BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension](https://arxiv.org/abs/1910.13461v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "BART",
+      "d": "2019-10-29",
+      "m1": "44.16",
+      "m2": "21.28",
+      "m3": "40.90"
+    },
+    {
+      "p": "[ERNIE-GEN: An Enhanced Multi-Flow Pre-training and Fine-tuning Framework for Natural Language Generation](https://arxiv.org/abs/2001.11314v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleNLP/blob/develop/paddlenlp/transformers/ernie_gen/modeling.py)",
+      "n": "ERNIE-GENLARGE",
+      "d": "2020-01-26",
+      "m1": "44.02",
+      "m2": "21.17",
+      "m3": "41.26"
+    },
+    {
+      "p": "[LongT5: Efficient Text-To-Text Transformer for Long Sequences](https://arxiv.org/abs/2112.07916v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/longt5)",
+      "n": "LongT5",
+      "d": "2021-12-15",
+      "m1": "43.94",
+      "m2": "21.40 ",
+      "m3": "41.28"
+    },
+    {
+      "p": "[Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "T5",
+      "d": "2019-10-23",
+      "m1": "43.52",
+      "m2": "21.55",
+      "m3": "40.69"
+    },
+    {
+      "p": "[Segmented Recurrent Transformer: An Efficient Sequence-to-Sequence Model](https://arxiv.org/abs/2305.16340v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yinghanlong/SRtransformer)",
+      "n": "SRformer-BART",
+      "d": "2023-05-24",
+      "m1": "43.19",
+      "m2": "19.80",
+      "m3": "40.40"
+    },
+    {
+      "p": "[UniLMv2: Pseudo-Masked Language Models for Unified Language Model Pre-Training](https://arxiv.org/abs/2002.12804v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/unilm)",
+      "n": "UniLMv2",
+      "d": "2020-02-28",
+      "m1": "43.16",
+      "m2": "20.42",
+      "m3": "40.14"
+    },
+    {
+      "p": "[Unified Language Model Pre-training for Natural Language Understanding and Generation](https://arxiv.org/abs/1905.03197v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/unilm)",
+      "n": "UniLM",
+      "d": "2019-05-08",
+      "m1": "43.08",
+      "m2": "20.43",
+      "m3": "40.34"
+    },
+    {
+      "p": "[ERNIE-GEN: An Enhanced Multi-Flow Pre-training and Fine-tuning Framework for Natural Language Generation](https://arxiv.org/abs/2001.11314v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleNLP/blob/develop/paddlenlp/transformers/ernie_gen/modeling.py)",
+      "n": "ERNIE-GENBASE",
+      "d": "2020-01-26",
+      "m1": "42.30",
+      "m2": "19.92",
+      "m3": "39.68"
+    },
+    {
+      "p": "[Text Summarization with Pretrained Encoders](https://arxiv.org/abs/1908.08345v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/nlpyang/PreSumm)",
+      "n": "BertSumExtAbs",
+      "d": "2019-08-22",
+      "m1": "42.13",
+      "m2": "19.6",
+      "m3": "39.18"
+    },
+    {
+      "p": "[Summary Level Training of Sentence Rewriting for Abstractive Summarization](https://arxiv.org/abs/1909.08752v3)",
+      "c": "",
+      "n": "BERT-ext + abs + RL + rerank",
+      "d": "2019-09-19",
+      "m1": "41.90",
+      "m2": "19.08",
+      "m3": "39.64"
+    },
+    {
+      "p": "[Mixture Content Selection for Diverse Sequence Generation](https://arxiv.org/abs/1909.01953v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/clovaai/FocusSeq2Seq)",
+      "n": "Selector & Pointer-Generator",
+      "d": "2019-09-04",
+      "m1": "41.72",
+      "m2": "18.74",
+      "m3": "38.79"
+    },
+    {
+      "p": "[Pretraining-Based Natural Language Generation for Text Summarization](http://arxiv.org/abs/1902.09243v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/nayeon7lee/bert-summarization)",
+      "n": "Two-Stage + RL",
+      "d": "2019-02-25",
+      "m1": "41.71",
+      "m2": "19.49",
+      "m3": "38.79"
+    },
+    {
+      "p": "[Deep Communicating Agents for Abstractive Summarization](http://arxiv.org/abs/1803.10357v3)",
+      "c": "",
+      "n": "DCA",
+      "d": "2018-03-27",
+      "m1": "41.69",
+      "m2": "19.47",
+      "m3": "37.92"
+    },
+    {
+      "p": "[Improving Neural Abstractive Document Summarization with Explicit Information Selection Modeling](https://aclanthology.org/D18-1205)",
+      "c": "",
+      "n": "Li et al.",
+      "d": "2018-10-01",
+      "m1": "41.54",
+      "m2": "18.18",
+      "m3": "36.47"
+    },
+    {
+      "p": "[Fast Abstractive Summarization with Reinforce-Selected Sentence Rewriting](http://arxiv.org/abs/1805.11080v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ChenRocks/fast_abs_rl)",
+      "n": "rnn-ext + RL",
+      "d": "2018-05-28",
+      "m1": "41.47",
+      "m2": "18.72",
+      "m3": "37.76"
+    },
+    {
+      "p": "[An Editorial Network for Enhanced Document Summarization](http://arxiv.org/abs/1902.10360v1)",
+      "c": "",
+      "n": "EditNet",
+      "d": "2019-02-27",
+      "m1": "41.42",
+      "m2": "19.03",
+      "m3": "38.36"
+    },
+    {
+      "p": "[Bottom-Up Abstractive Summarization](http://arxiv.org/abs/1808.10792v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/sebastianGehrmann/bottom-up-summary)",
+      "n": "Bottom-Up Summarization",
+      "d": "2018-08-31",
+      "m1": "41.22",
+      "m2": "18.68",
+      "m3": "38.34"
+    },
+    {
+      "p": "[Mask Attention Networks: Rethinking and Strengthen Transformer](https://arxiv.org/abs/2103.13597v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/libertfan/man)",
+      "n": "Mask Attention Network",
+      "d": "2021-03-25",
+      "m1": "40.98",
+      "m2": "18.29",
+      "m3": "37.88"
+    },
+    {
+      "p": "[Subformer: A Parameter Reduced Transformer](https://openreview.net/forum?id=6UurSaf08jx)",
+      "c": "",
+      "n": "Subformer-base",
+      "d": "2021-01-01",
+      "m1": "40.9",
+      "m2": "18.3",
+      "m3": "37.7"
+    },
+    {
+      "p": "[Fast Abstractive Summarization with Reinforce-Selected Sentence Rewriting](http://arxiv.org/abs/1805.11080v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ChenRocks/fast_abs_rl)",
+      "n": "rnn-ext + abs + RL + rerank",
+      "d": "2018-05-28",
+      "m1": "40.88",
+      "m2": "17.80",
+      "m3": "38.54"
+    },
+    {
+      "p": "[A Unified Model for Extractive and Abstractive Summarization using Inconsistency Loss](http://arxiv.org/abs/1805.06266v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/HsuWanTing/unified-summarization)",
+      "n": "end2end w/ inconsistency loss",
+      "d": "2018-05-16",
+      "m1": "40.68",
+      "m2": "17.97",
+      "m3": "37.13"
+    },
+    {
+      "p": "[Closed-Book Training to Improve Summarization Encoder Memory](http://arxiv.org/abs/1809.04585v1)",
+      "c": "",
+      "n": "RL + pg + cbdec",
+      "d": "2018-09-12",
+      "m1": "40.66",
+      "m2": "17.87",
+      "m3": "37.06"
+    },
+    {
+      "p": "[Multi-Reward Reinforced Summarization with Saliency and Entailment](http://arxiv.org/abs/1804.06451v2)",
+      "c": "",
+      "n": "ROUGESal+Ent RL",
+      "d": "2018-04-17",
+      "m1": "40.43",
+      "m2": "18.00",
+      "m3": "37.10"
+    },
+    {
+      "p": "[Abstractive Text Summarization Using Sequence-to-Sequence RNNs and Beyond](http://arxiv.org/abs/1602.06023v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/theamrzaki/text_summurization_abstractive_methods)",
+      "n": "LEAD-3",
+      "d": "2016-02-19",
+      "m1": "40.42",
+      "m2": "17.62",
+      "m3": "36.67"
+    },
+    {
+      "p": "[Improving Neural Abstractive Document Summarization with Structural Regularization](https://aclanthology.org/D18-1441)",
+      "c": "",
+      "n": "Li et al.",
+      "d": "2018-10-01",
+      "m1": "40.30",
+      "m2": "18.02",
+      "m3": "37.36"
+    },
+    {
+      "p": "[Improving Abstraction in Text Summarization](http://arxiv.org/abs/1808.07913v1)",
+      "c": "",
+      "n": "ML+RL ROUGE+Novel, with LM",
+      "d": "2018-08-23",
+      "m1": "40.19",
+      "m2": "17.38",
+      "m3": "37.52"
+    },
+    {
+      "p": "[Pay Less Attention with Lightweight and Dynamic Convolutions](http://arxiv.org/abs/1901.10430v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/pytorch/fairseq)",
+      "n": "Dynamic Conv",
+      "d": "2019-01-29",
+      "m1": "39.84",
+      "m2": "16.25",
+      "m3": "36.73"
+    },
+    {
+      "p": "[Soft Layer-Specific Multi-Task Summarization with Entailment and Question Generation](http://arxiv.org/abs/1805.11004v1)",
+      "c": "",
+      "n": "Pointer + Coverage + EntailmentGen + QuestionGen",
+      "d": "2018-05-28",
+      "m1": "39.81",
+      "m2": "17.64",
+      "m3": "36.54"
+    },
+    {
+      "p": "[Get To The Point: Summarization with Pointer-Generator Networks](http://arxiv.org/abs/1704.04368v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/examples/text_summarization/pointer_summarizer)",
+      "n": "PTGEN + Coverage",
+      "d": "2017-04-14",
+      "m1": "39.53",
+      "m2": "17.28",
+      "m3": "36.38"
+    },
+    {
+      "p": "[Get To The Point: Summarization with Pointer-Generator Networks](http://arxiv.org/abs/1704.04368v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/examples/text_summarization/pointer_summarizer)",
+      "n": "PTGEN + Coverage",
+      "d": "2017-04-14",
+      "m1": "39.53",
+      "m2": "17.28",
+      "m3": "36.38"
+    },
+    {
+      "p": "[Get To The Point: Summarization with Pointer-Generator Networks](http://arxiv.org/abs/1704.04368v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/examples/text_summarization/pointer_summarizer)",
+      "n": "Pointer-Generator + Coverage",
+      "d": "2017-04-14",
+      "m1": "39.53",
+      "m2": "17.28"
+    },
+    {
+      "p": "[Attention Is All You Need](https://arxiv.org/abs/1706.03762v7)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "Transformer",
+      "d": "2017-06-12",
+      "m1": "39.50",
+      "m2": "16.06",
+      "m3": "36.63"
+    },
+    {
+      "p": "[The Summary Loop: Learning to Write Abstractive Summaries Without Examples](https://arxiv.org/abs/2105.05361v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cannylab/summary_loop)",
+      "n": "Summary Loop Unsup",
+      "d": "2021-05-11",
+      "m1": "37.7"
+    },
+    {
+      "p": "[CriSPO: Multi-Aspect Critique-Suggestion-guided Automatic Prompt Optimization for Text Generation](https://arxiv.org/abs/2410.02748v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/amazon-science/crispo)",
+      "n": "CriSPO 3-shot",
+      "d": "2024-10-03",
+      "m3": "27.4"
+    },
+    {
+      "p": "[DELTA: A DEep learning based Language Technology plAtform](https://arxiv.org/abs/1908.01853v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/didi/delta)",
+      "n": "DELTA (BLSTM)",
+      "d": "2019-08-02",
+      "m3": "27.3"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

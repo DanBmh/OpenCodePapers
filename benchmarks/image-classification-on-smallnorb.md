@@ -1,0 +1,88 @@
+# image-classification-on-smallnorb
+
+[Dataset Link](https://cs.nyu.edu/~ylclab/data/norb-v1.0-small/) \
+Task Hierarchy: ['Image Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Classification Error",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[An Algorithm for Routing Capsules in All Domains](https://arxiv.org/abs/1911.00792v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/glassroom/heinsen_routing)",
+      "n": "Heinsen Routing",
+      "d": "2019-11-02",
+      "m1": "0.90"
+    },
+    {
+      "p": "[Efficient-CapsNet: Capsule Network with Self-Attention Routing](https://arxiv.org/abs/2101.12491v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/EscVM/Efficient-CapsNet)",
+      "n": "Efficient-CapsNet",
+      "d": "2021-01-29",
+      "m1": "1.23"
+    },
+    {
+      "p": "[Capsule Routing via Variational Bayes](https://arxiv.org/abs/1905.11455v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/fabio-deep/Variational-Capsule-Routing)",
+      "n": "VB-Routing",
+      "d": "2019-05-27",
+      "m1": "1.29"
+    },
+    {
+      "p": "[Matrix capsules with EM routing](https://openreview.net/forum?id=HJWLfGWRb)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research/tree/master/capsule_em)",
+      "n": "Matrix-CapsNet with EM routing",
+      "d": "2018-01-01",
+      "m1": "1.8"
+    },
+    {
+      "p": "[Fast Dynamic Routing Based on Weighted Kernel Density Estimation](http://arxiv.org/abs/1805.10807v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/andyweizhao/capsule)",
+      "n": "FRMS",
+      "d": "2018-05-28",
+      "m1": "2.2"
+    },
+    {
+      "p": "[Dynamic Routing Between Capsules](http://arxiv.org/abs/1710.09829v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+      "n": "CapsNet",
+      "d": "2017-10-26",
+      "m1": "3.77"
+    },
+    {
+      "p": "[Dense and Diverse Capsule Networks: Making the Capsules Learn Better](http://arxiv.org/abs/1805.04001v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ssrp/Multi-level-DCNet)",
+      "n": "DCNet",
+      "d": "2018-05-10",
+      "m1": "5.57"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

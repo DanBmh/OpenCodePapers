@@ -1,0 +1,74 @@
+# lipreading-on-cmlr
+
+[Dataset Link]() \
+Task Hierarchy: ['Natural Language Transduction', 'Lipreading']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "CER",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Visual Speech Recognition for Multiple Languages in the Wild](https://arxiv.org/abs/2202.13084v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mpc001/Visual_Speech_Recognition_for_Multiple_Languages)",
+      "n": "CTC/Attention",
+      "d": "2022-02-26",
+      "m1": "9.1%"
+    },
+    {
+      "p": "[Hearing Lips: Improving Lip Reading by Distilling Speech Recognizers](https://arxiv.org/abs/1911.11502v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zju-vipa/KamalEngine)",
+      "n": "LIBS",
+      "d": "2019-11-26",
+      "m1": "31.27%"
+    },
+    {
+      "p": "[A Cascade Sequence-to-Sequence Model for Chinese Mandarin Lip Reading](https://arxiv.org/abs/1908.04917v2)",
+      "c": "",
+      "n": "CSSMCM",
+      "d": "2019-08-14",
+      "m1": "32.48%"
+    },
+    {
+      "p": "[A Cascade Sequence-to-Sequence Model for Chinese Mandarin Lip Reading](https://arxiv.org/abs/1908.04917v2)",
+      "c": "",
+      "n": "LipCH-Net",
+      "d": "2019-08-14",
+      "m1": "34.07%"
+    },
+    {
+      "p": "[A Cascade Sequence-to-Sequence Model for Chinese Mandarin Lip Reading](https://arxiv.org/abs/1908.04917v2)",
+      "c": "",
+      "n": "WAS",
+      "d": "2019-08-14",
+      "m1": "38.93%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

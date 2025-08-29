@@ -1,0 +1,87 @@
+# personality-trait-recognition-by-face-on
+
+[Dataset Link]() \
+Task Hierarchy: ['Personality Trait Recognition by Face']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mAcc",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "CCC",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[OCEAN-AI framework with EmoFormer cross-hemiface attention approach for personality traits assessment](https://www.sciencedirect.com/science/article/pii/S0957417423029433)",
+      "c": "[&check;&nbsp;Link](https://github.com/aimclub/OCEANAI)",
+      "n": "R3D50 + EmoFormer cross-hemiface attention",
+      "d": "2023-11-06",
+      "m1": "0.916",
+      "m2": "0.634"
+    },
+    {
+      "p": "[Cr-net: A deep classification-regression network for multimodal apparent personality analysis](https://dl.acm.org/doi/10.1007/s11263-020-01309-y)",
+      "c": "",
+      "n": "R2D34 + CR-Net",
+      "d": "2020-12-01",
+      "m1": "0.913"
+    },
+    {
+      "p": "[Multimodal assessment of apparent personality using feature attention and error consistency constraint](https://www.sciencedirect.com/science/article/pii/S0262885621000688?via%3Dihub)",
+      "c": "",
+      "n": "R2D101 + LSTM",
+      "d": "2021-03-24",
+      "m1": "0.913"
+    },
+    {
+      "p": "[Personality Traits and Job Candidate Screening via Analyzing Facial Videos](https://ieeexplore.ieee.org/document/8014945/authors#authors)",
+      "c": "",
+      "n": "PML + SVM",
+      "d": "2017-07-21",
+      "m1": "0.912"
+    },
+    {
+      "p": "[Multimodal analysis of personality traits on videos of self-presentation and induced behavior](https://link.springer.com/article/10.1007/s12193-020-00347-7)",
+      "c": "",
+      "n": "ResNext + CNN-GRU, OpenFace + LSTNet",
+      "d": "2020-11-02",
+      "m1": "0.912"
+    },
+    {
+      "p": "[A Multi-modal Personality Prediction System](https://aclanthology.org/2020.icon-main.42)",
+      "c": "",
+      "n": "R2D101",
+      "d": null,
+      "m1": "0.909"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

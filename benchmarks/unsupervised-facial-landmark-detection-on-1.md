@@ -1,0 +1,130 @@
+# unsupervised-facial-landmark-detection-on-1
+
+[Dataset Link](http://mmlab.ie.cuhk.edu.hk/projects/TCDCN.html) \
+Task Hierarchy: ['3D Face Reconstruction', 'Facial Recognition and Modelling', 'Facial Landmark Detection', 'Unsupervised Facial Landmark Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "NME",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Unsupervised Image Representation Learning with Deep Latent Particles](https://arxiv.org/abs/2205.15821v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/taldatech/deep-latent-particles-pytorch)",
+      "n": "Deep Latent Particles",
+      "d": "2022-05-31",
+      "m1": "2.43"
+    },
+    {
+      "p": "[Unsupervised Learning of Object Landmarks through Conditional Image Generation](http://arxiv.org/abs/1806.07823v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tomasjakab/imm)",
+      "n": "Conditional Image Generation",
+      "d": "2018-06-20",
+      "m1": "2.54"
+    },
+    {
+      "p": "[Unsupervised Learning of Landmarks by Descriptor Vector Exchange](https://arxiv.org/abs/1908.06427v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jamt9000/DVE)",
+      "n": "DVE",
+      "d": "2019-08-18",
+      "m1": "2.86"
+    },
+    {
+      "p": "[Unsupervised Discovery of Object Landmarks as Structural Representations](http://arxiv.org/abs/1804.04412v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/YutingZhang/lmdis-rep)",
+      "n": "LMDIS-REP",
+      "d": "2018-04-12",
+      "m1": "3.15"
+    },
+    {
+      "p": "[Unsupervised Part-Based Disentangling of Object Shape and Appearance](https://arxiv.org/abs/1903.06946v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/NVIDIA/UnsupervisedLandmarkLearning)",
+      "n": "Lorenz2019unsupervised",
+      "d": "2019-03-16",
+      "m1": "3.24"
+    },
+    {
+      "p": "[Self-supervised learning of a facial attribute embedding from video](http://arxiv.org/abs/1808.06882v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/oawiles/FAb-Net)",
+      "n": "FAB-Net",
+      "d": "2018-08-21",
+      "m1": "3.44"
+    },
+    {
+      "p": "[AutoLink: Self-supervised Learning of Human Skeletons and Object Outlines by Linking Keypoints](https://arxiv.org/abs/2205.10636v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/xingzhehe/AutoLink-Self-supervised-Learning-of-Human-Skeletons-and-Object-Outlines-by-Linking-Keypoints)",
+      "n": "AutoLink",
+      "d": "2022-05-21",
+      "m1": "3.54"
+    },
+    {
+      "p": "[Unsupervised learning of object frames by dense equivariant image labelling](http://arxiv.org/abs/1706.02932v2)",
+      "c": "",
+      "n": "DEIL",
+      "d": "2017-06-09",
+      "m1": "4.02"
+    },
+    {
+      "p": "[Deforming Autoencoders: Unsupervised Disentangling of Shape and Appearance](http://arxiv.org/abs/1806.06503v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhixinshu/DeformingAutoencoders-pytorch)",
+      "n": "Deforming Autoencoders",
+      "d": "2018-06-18",
+      "m1": "5.45"
+    },
+    {
+      "p": "[LatentKeypointGAN: Controlling Images via Latent Keypoints](https://arxiv.org/abs/2103.15812v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/DELTA37/LatentKeypointGAN)",
+      "n": "LatentKeypointGAN",
+      "d": "2021-03-29",
+      "m1": "5.85"
+    },
+    {
+      "p": "[Unsupervised learning of object landmarks by factorized spatial embeddings](http://arxiv.org/abs/1705.02193v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/alldbi/Factorized-Spatial-Embeddings)",
+      "n": "Thewlis2017unsupervised",
+      "d": "2017-05-05",
+      "m1": "6.32"
+    },
+    {
+      "p": "[Unsupervised learning of object landmarks by factorized spatial embeddings](http://arxiv.org/abs/1705.02193v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/alldbi/Factorized-Spatial-Embeddings)",
+      "n": "FSE",
+      "d": "2017-05-05",
+      "m1": "6.67"
+    },
+    {
+      "p": "[Learning Deep Representation for Face Alignment with Auxiliary Attributes](https://arxiv.org/abs/1408.3967v4)",
+      "c": "",
+      "n": "TCDCN",
+      "d": "2014-08-18",
+      "m1": "7.95"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

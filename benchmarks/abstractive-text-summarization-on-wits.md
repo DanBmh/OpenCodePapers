@@ -1,0 +1,94 @@
+# abstractive-text-summarization-on-wits
+
+[Dataset Link](https://github.com/LCS2-IIITD/MAF) \
+Task Hierarchy: ['Abstractive Text Summarization']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "ROUGE-1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "ROUGE-2",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "ROUGE-L",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "BERTScore",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[BART-IT: An Efficient Sequence-to-Sequence Model for Italian Text Summarization](https://www.mdpi.com/1999-5903/15/1/15)",
+      "c": "[&check;&nbsp;Link](https://github.com/MorenoLaQuatra/bart-it)",
+      "n": "BART-IT",
+      "d": "2022-12-27",
+      "m1": "42.32",
+      "m2": "28.83",
+      "m3": "38.84",
+      "m4": "79.28"
+    },
+    {
+      "p": "[BART-IT: An Efficient Sequence-to-Sequence Model for Italian Text Summarization](https://www.mdpi.com/1999-5903/15/1/15)",
+      "c": "[&check;&nbsp;Link](https://github.com/MorenoLaQuatra/bart-it)",
+      "n": "mT5",
+      "d": "2022-12-27",
+      "m1": "40.6",
+      "m2": "26.9",
+      "m3": "37.43",
+      "m4": "80.73"
+    },
+    {
+      "p": "[BART-IT: An Efficient Sequence-to-Sequence Model for Italian Text Summarization](https://www.mdpi.com/1999-5903/15/1/15)",
+      "c": "[&check;&nbsp;Link](https://github.com/MorenoLaQuatra/bart-it)",
+      "n": "mBART",
+      "d": "2022-12-27",
+      "m1": "39.32",
+      "m2": "26.18",
+      "m3": "35.9",
+      "m4": "78.65"
+    },
+    {
+      "p": "[BART-IT: An Efficient Sequence-to-Sequence Model for Italian Text Summarization](https://www.mdpi.com/1999-5903/15/1/15)",
+      "c": "[&check;&nbsp;Link](https://github.com/MorenoLaQuatra/bart-it)",
+      "n": "IT5-base",
+      "d": "2022-12-27",
+      "m1": "37.98",
+      "m2": "24.32",
+      "m3": "34.94",
+      "m4": "77.14"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

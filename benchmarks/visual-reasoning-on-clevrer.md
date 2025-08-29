@@ -1,0 +1,256 @@
+# visual-reasoning-on-clevrer
+
+[Dataset Link]() \
+Task Hierarchy: ['Visual Reasoning']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Average-per ques.",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Descriptive",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Explanatory-per opt.",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Explanatory-per ques.",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "Predictive-per opt.",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "Predictive-per ques.",
+      "sortable": "true"
+    },
+    {
+      "key": "m7",
+      "label": "Counterfactual-per opt.",
+      "sortable": "true"
+    },
+    {
+      "key": "m8",
+      "label": "Counterfactual-per ques.",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Think before You Simulate: Symbolic Reasoning to Orchestrate Neural Computation for Counterfactual Question Answering](https://arxiv.org/abs/2506.10753v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/azreasoners/CRCG)",
+      "n": "AI Core",
+      "d": "2025-06-12",
+      "m1": "95.24",
+      "m2": "96.46",
+      "m3": "99.94",
+      "m4": "99.81",
+      "m5": "93.96",
+      "m6": "93.96",
+      "m7": "96.61",
+      "m8": "90.72"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "redherring",
+      "d": null,
+      "m1": "91.14",
+      "m2": "95.76",
+      "m3": "98.88",
+      "m4": "96.98",
+      "m5": "95.69",
+      "m6": "91.75",
+      "m7": "92.97",
+      "m8": "80.05"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "VRDP",
+      "d": null,
+      "m1": "90.24",
+      "m2": "93.4",
+      "m3": "96.3",
+      "m4": "91.94",
+      "m5": "95.68",
+      "m6": "91.35",
+      "m7": "94.83",
+      "m8": "84.29"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Fighttttt",
+      "d": null,
+      "m1": "88.71",
+      "m2": "94.77",
+      "m3": "98.25",
+      "m4": "95.46",
+      "m5": "94.16",
+      "m6": "89.25",
+      "m7": "91.25",
+      "m8": "75.35"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "neural",
+      "d": null,
+      "m1": "88.27",
+      "m2": "94.01",
+      "m3": "98.47",
+      "m4": "95.99",
+      "m5": "93.49",
+      "m6": "87.48",
+      "m7": "91.42",
+      "m8": "75.61"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "NERV",
+      "d": null,
+      "m1": "88.05",
+      "m2": "95.04",
+      "m3": "98.18",
+      "m4": "94.98",
+      "m5": "93.11",
+      "m6": "87.28",
+      "m7": "91.12",
+      "m8": "74.89"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "DCL",
+      "d": null,
+      "m1": "75.52",
+      "m2": "90.7",
+      "m3": "89.58",
+      "m4": "82.82",
+      "m5": "90.52",
+      "m6": "82.03",
+      "m7": "80.38",
+      "m8": "46.52"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "troublesolver",
+      "d": null,
+      "m1": "73.3",
+      "m2": "88.37",
+      "m3": "89.19",
+      "m4": "81.56",
+      "m5": "84.83",
+      "m6": "72.38",
+      "m7": "79.96",
+      "m8": "50.89"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "v0.1",
+      "d": null,
+      "m1": "73.1",
+      "m2": "88.79",
+      "m3": "89.16",
+      "m4": "81.24",
+      "m5": "84.95",
+      "m6": "72.6",
+      "m7": "79.6",
+      "m8": "49.77"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "First_test",
+      "d": null,
+      "m1": "69.65",
+      "m2": "88.08",
+      "m3": "87.64",
+      "m4": "79.6",
+      "m5": "82.86",
+      "m6": "68.7",
+      "m7": "74.05",
+      "m8": "42.23"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "TS_NS_IMPERIAL",
+      "d": null,
+      "m1": "69.21",
+      "m2": "89.95",
+      "m3": "95.94",
+      "m4": "91.98",
+      "m5": "74.73",
+      "m6": "50.34",
+      "m7": "78.08",
+      "m8": "44.6"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "rnn_dyn",
+      "d": null,
+      "m1": "67.57",
+      "m2": "74.98",
+      "m3": "90.81",
+      "m4": "75.62",
+      "m5": "82.9",
+      "m6": "68.61",
+      "m7": "81.01",
+      "m8": "51.07"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "epoch 9 pgd_25_0.1_eps",
+      "d": null,
+      "m1": "60.25",
+      "m2": "81.39",
+      "m3": "83.42",
+      "m4": "72.78",
+      "m5": "78.5",
+      "m6": "60.95",
+      "m7": "66.65",
+      "m8": "25.89"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

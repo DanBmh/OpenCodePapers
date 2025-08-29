@@ -1,0 +1,60 @@
+# knowledge-graph-completion-on-dbp-5l
+
+[Dataset Link]() \
+Task Hierarchy: ['Inductive knowledge graph completion', 'Large Language Model', 'Knowledge Graphs', 'Knowledge Graph Completion']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "MRR",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Joint Multilingual Knowledge Graph Completion and Alignment](https://arxiv.org/abs/2210.08922v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/vinhsuhi/jmac)",
+      "n": "JMAC",
+      "d": "2022-10-17",
+      "m1": "71.7"
+    },
+    {
+      "p": "[Multilingual Knowledge Graph Completion with Joint Relation and Entity Alignment](https://arxiv.org/abs/2104.08804v1)",
+      "c": "",
+      "n": "AlignKGC",
+      "d": "2021-04-18",
+      "m1": "69.4"
+    },
+    {
+      "p": "[Multilingual Knowledge Graph Completion with Self-Supervised Adaptive Graph Alignment](https://arxiv.org/abs/2203.14987v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/amzn/ss-aga-kgc)",
+      "n": "SS-AGA",
+      "d": "2022-03-28",
+      "m1": "35.3"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

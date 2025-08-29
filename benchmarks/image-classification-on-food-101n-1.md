@@ -1,0 +1,67 @@
+# image-classification-on-food-101n-1
+
+[Dataset Link]() \
+Task Hierarchy: ['Image Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Label-Retrieval-Augmented Diffusion Models for Learning from Noisy Labels](https://arxiv.org/abs/2305.19518v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/puar-playground/lra-diffusion)",
+      "n": "LRA-diffusion (CLIP ViT)",
+      "d": "2023-05-31",
+      "m1": "93.42"
+    },
+    {
+      "p": "[CleanNet: Transfer Learning for Scalable Image Classifier Training with Label Noise](http://arxiv.org/abs/1711.07131v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/kuanghuei/clean-net)",
+      "n": "CleanNet",
+      "d": "2017-11-20",
+      "m1": "90.39"
+    },
+    {
+      "p": "[SURE: SUrvey REcipes for building reliable and robust deep networks](https://arxiv.org/abs/2403.00543v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/YutingLi0606/SURE)",
+      "n": "SURE(ResNet-50)",
+      "d": "2024-03-01",
+      "m1": "88.0"
+    },
+    {
+      "p": "[LongReMix: Robust Learning with High Confidence Samples in a Noisy Label Environment](https://arxiv.org/abs/2103.04173v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/filipe-research/LongReMix)",
+      "n": "LongReMix",
+      "d": "2021-03-06",
+      "m1": "87.39%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

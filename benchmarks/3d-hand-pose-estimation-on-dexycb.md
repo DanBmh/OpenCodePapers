@@ -1,0 +1,194 @@
+# 3d-hand-pose-estimation-on-dexycb
+
+[Dataset Link](https://dex-ycb.github.io) \
+Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', 'Hand Pose Estimation', '3D Hand Pose Estimation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Average MPJPE (mm)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Procrustes-Aligned MPJPE",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "MPVPE",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "VAUC",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "PA-MPVPE",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "PA-VAUC",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[HOISDF: Constraining 3D Hand-Object Pose Estimation with Global Signed Distance Fields](https://arxiv.org/abs/2402.17062v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/amathislab/hoisdf)",
+      "n": "HOISDF",
+      "d": "2024-02-26",
+      "m1": "10.1",
+      "m2": "5.13",
+      "m3": "9.9",
+      "m4": "80.5",
+      "m5": "4.9",
+      "m6": "90.2"
+    },
+    {
+      "p": "[MMHMR: Generative Masked Modeling for Hand Mesh Recovery](https://arxiv.org/abs/2412.13393v1)",
+      "c": "",
+      "n": "MaskHand",
+      "d": "2024-12-18",
+      "m1": "11.7",
+      "m2": "5.0",
+      "m3": "11.2",
+      "m5": "4.9"
+    },
+    {
+      "p": "[A Simple Baseline for Efficient Hand Mesh Reconstruction](https://arxiv.org/abs/2403.01813v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/patiencefromzhou/simplehand)",
+      "n": "SimpleHand",
+      "d": "2024-03-04",
+      "m1": "12.4",
+      "m2": "5.5",
+      "m3": "12.1",
+      "m4": "-",
+      "m5": "5.5",
+      "m6": "-"
+    },
+    {
+      "p": "[Harmonious Feature Learning for Interactive Hand-Object Pose Estimation](http://openaccess.thecvf.com//content/CVPR2023/html/Lin_Harmonious_Feature_Learning_for_Interactive_Hand-Object_Pose_Estimation_CVPR_2023_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/lzfff12/hfl-net)",
+      "n": "HFLNet",
+      "d": "2023-01-01",
+      "m1": "12.6",
+      "m2": "5.47",
+      "m3": "11.6",
+      "m4": "77.6",
+      "m5": "5.2",
+      "m6": "89.6"
+    },
+    {
+      "p": "[3D Hand Reconstruction via Aggregating Intra and Inter Graphs Guided by Prior Knowledge for Hand-Object Interaction Scenario](https://arxiv.org/abs/2403.01733v1)",
+      "c": "",
+      "n": "SemGCN",
+      "d": "2024-03-04",
+      "m1": "13.2",
+      "m2": "5.6",
+      "m3": "12.4",
+      "m4": "-",
+      "m5": "5.4",
+      "m6": "-"
+    },
+    {
+      "p": "[H2ONet: Hand-Occlusion-and-Orientation-Aware Network for Real-Time 3D Hand Mesh Reconstruction](http://openaccess.thecvf.com//content/CVPR2023/html/Xu_H2ONet_Hand-Occlusion-and-Orientation-Aware_Network_for_Real-Time_3D_Hand_Mesh_Reconstruction_CVPR_2023_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/hxwork/H2ONet_Pytorch)",
+      "n": "H2ONet",
+      "d": "2023-01-01",
+      "m1": "14.0",
+      "m2": "5.70",
+      "m3": "13.0",
+      "m4": "76.2",
+      "m5": "5.5",
+      "m6": "89.1"
+    },
+    {
+      "p": "[HandOccNet: Occlusion-Robust 3D Hand Mesh Estimation Network](https://arxiv.org/abs/2203.14564v1)",
+      "c": "",
+      "n": "HandOccNet",
+      "d": "2022-03-28",
+      "m1": "14.0",
+      "m2": "5.80",
+      "m3": "13.1",
+      "m4": "76.6",
+      "m5": "5.5",
+      "m6": "89.0"
+    },
+    {
+      "p": "[MobRecon: Mobile-Friendly Hand Mesh Reconstruction from Monocular Image](https://arxiv.org/abs/2112.02753v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/SeanChenxy/HandMesh)",
+      "n": "MobRecon",
+      "d": "2021-12-06",
+      "m1": "14.2",
+      "m2": "6.40",
+      "m3": "13.1",
+      "m4": "76.1",
+      "m5": "5.6",
+      "m6": "88.9"
+    },
+    {
+      "p": "[Semi-Supervised 3D Hand-Object Poses Estimation with Interactions in Time](https://arxiv.org/abs/2106.05266v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/stevenlsw/Semi-Hand-Object)",
+      "n": "SHO",
+      "d": "2021-06-09",
+      "m1": "15.2",
+      "m2": "6.58",
+      "m3": "-",
+      "m4": "-",
+      "m5": "-",
+      "m6": "-"
+    },
+    {
+      "p": "[End-to-End Human Pose and Mesh Reconstruction with Transformers](https://arxiv.org/abs/2012.09760v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/MeshTransformer)",
+      "n": "METRO",
+      "d": "2020-12-17",
+      "m1": "15.2",
+      "m2": "6.99",
+      "m3": "-",
+      "m4": "-",
+      "m5": "-",
+      "m6": "-"
+    },
+    {
+      "p": "[Weakly Supervised 3D Hand Pose Estimation via Biomechanical Constraints](https://arxiv.org/abs/2003.09282v2)",
+      "c": "",
+      "n": "BMC",
+      "d": "2020-03-20",
+      "m1": "17.3",
+      "m2": "6.83",
+      "m3": "-",
+      "m4": "-",
+      "m5": "-",
+      "m6": "-"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

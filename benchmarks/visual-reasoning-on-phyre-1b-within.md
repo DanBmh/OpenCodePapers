@@ -1,0 +1,67 @@
+# visual-reasoning-on-phyre-1b-within
+
+[Dataset Link](https://player.phyre.ai) \
+Task Hierarchy: ['Visual Reasoning']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AUCCESS",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Learning Long-term Visual Dynamics with Region Proposal Interaction Networks](https://arxiv.org/abs/2008.02265v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/HaozhiQi/RPIN)",
+      "n": "RPIN",
+      "d": "2020-08-05",
+      "m1": "85.2"
+    },
+    {
+      "p": "[Physical Reasoning Using Dynamics-Aware Models](https://arxiv.org/abs/2102.10336v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/DynamicsAware)",
+      "n": "Dynamics-Aware DQN",
+      "d": "2021-02-20",
+      "m1": "85.2"
+    },
+    {
+      "p": "[Forward Prediction for Physical Reasoning](https://arxiv.org/abs/2006.10734v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/phyre-fwd)",
+      "n": "Dec[Joint]1f ",
+      "d": "2020-06-18",
+      "m1": "80.0"
+    },
+    {
+      "p": "[PHYRE: A New Benchmark for Physical Reasoning](https://arxiv.org/abs/1908.05656v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/phyre)",
+      "n": "DQN",
+      "d": "2019-08-15",
+      "m1": "77.6"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

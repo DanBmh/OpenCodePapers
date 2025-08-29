@@ -1,0 +1,72 @@
+# anomaly-detection-on-surface-defect-saliency
+
+[Dataset Link]() \
+Task Hierarchy: ['Anomaly Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Detection AUROC",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Segmentation AUROC",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Hard-normal Example-aware Template Mutual Matching for Industrial Anomaly Detection](https://arxiv.org/abs/2303.16191v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/NarcissusEx/HETMM)",
+      "n": "HETMM",
+      "d": "2023-03-28",
+      "m1": "99.5"
+    },
+    {
+      "p": "[Fully Convolutional Cross-Scale-Flows for Image-based Defect Detection](https://arxiv.org/abs/2110.02855v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/marco-rudolph/cs-flow)",
+      "n": "CS-Flow (unsupervised)",
+      "d": "2021-10-06",
+      "m1": "99.3"
+    },
+    {
+      "p": "[Same Same But DifferNet: Semi-Supervised Defect Detection with Normalizing Flows](https://arxiv.org/abs/2008.12577v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/marco-rudolph/differnet)",
+      "n": "DifferNet (unsupervised)",
+      "d": "2020-08-28",
+      "m1": "97.7"
+    },
+    {
+      "p": "[Surface Defect Saliency of Magnetic Tile](https://www.researchgate.net/publication/325882869_Surface_Defect_Saliency_of_Magnetic_Tile)",
+      "c": "[&check;&nbsp;Link](https://github.com/abin24/Saliency-detection-toolbox)",
+      "n": "MCuePush (supervised)",
+      "d": "2018-08-24",
+      "m2": "98.5"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

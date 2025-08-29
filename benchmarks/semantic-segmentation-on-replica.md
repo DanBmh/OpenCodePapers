@@ -1,0 +1,74 @@
+# semantic-segmentation-on-replica
+
+[Dataset Link](https://github.com/facebookresearch/Replica-Dataset) \
+Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mIoU",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[LABELMAKER: Automatic Semantic Label Generation from RGB-D Trajectories](https://arxiv.org/abs/2311.12174v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cvg/labelmaker)",
+      "n": "LabelMaker",
+      "d": "2023-11-20",
+      "m1": "42.1"
+    },
+    {
+      "p": "[InternImage: Exploring Large-Scale Vision Foundation Models with Deformable Convolutions](https://arxiv.org/abs/2211.05778v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internimage)",
+      "n": "InternImage",
+      "d": "2022-11-10",
+      "m1": "38.4"
+    },
+    {
+      "p": "[Mask3D: Mask Transformer for 3D Semantic Instance Segmentation](https://arxiv.org/abs/2210.03105v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jonasschult/mask3d)",
+      "n": "Mask3D",
+      "d": "2022-10-06",
+      "m1": "22.6"
+    },
+    {
+      "p": "[Open-Vocabulary Semantic Segmentation with Mask-adapted CLIP](https://arxiv.org/abs/2210.04150v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/ov-seg)",
+      "n": "OVSeg",
+      "d": "2022-10-09",
+      "m1": "20.7"
+    },
+    {
+      "p": "[CMX: Cross-Modal Fusion for RGB-X Semantic Segmentation with Transformers](https://arxiv.org/abs/2203.04838v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/huaaaliu/rgbx_semantic_segmentation)",
+      "n": "CMX",
+      "d": "2022-03-09",
+      "m1": "17.0"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

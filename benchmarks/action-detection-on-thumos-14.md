@@ -1,0 +1,67 @@
+# action-detection-on-thumos-14
+
+[Dataset Link](http://crcv.ucf.edu/THUMOS14/home.html) \
+Task Hierarchy: ['Action Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mAP",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Memory-and-Anticipation Transformer for Online Action Understanding](https://arxiv.org/abs/2308.07893v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/echo0125/memory-and-anticipation-transformer)",
+      "n": "MAT (Ours) Trans",
+      "d": "2023-08-15",
+      "m1": "71.6"
+    },
+    {
+      "p": "[TadML: A fast temporal action detection with Mechanics-MLP](https://arxiv.org/abs/2206.02997v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/boneddeng/tadml)",
+      "n": "TadML-two stream",
+      "d": "2022-06-07",
+      "m1": "59.7"
+    },
+    {
+      "p": "[Memory-and-Anticipation Transformer for Online Action Understanding](https://arxiv.org/abs/2308.07893v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/echo0125/memory-and-anticipation-transformer)",
+      "n": "MAT (ours)",
+      "d": "2023-08-15",
+      "m1": "58.2"
+    },
+    {
+      "p": "[TadML: A fast temporal action detection with Mechanics-MLP](https://arxiv.org/abs/2206.02997v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/boneddeng/tadml)",
+      "n": "TadML-rgb",
+      "d": "2022-06-07",
+      "m1": "53.46"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

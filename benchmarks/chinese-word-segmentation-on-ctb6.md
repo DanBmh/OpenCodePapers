@@ -1,0 +1,67 @@
+# chinese-word-segmentation-on-ctb6
+
+[Dataset Link]() \
+Task Hierarchy: ['Chinese', 'Chinese Word Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[LATTE: Lattice ATTentive Encoding for Character-based Word Segmentation](https://www.jstage.jst.go.jp/article/jnlp/30/2/30_456/_article/-char/ja)",
+      "c": "[&check;&nbsp;Link](https://github.com/tchayintr/latte-ptm-ws)",
+      "n": "LATTE (Linguistic units, lattices, PTMs, GNNs)",
+      "d": "2023-06-01",
+      "m1": "98.07"
+    },
+    {
+      "p": "[Unsupervised Boundary-Aware Language Model Pretraining for Chinese Sequence Labeling](https://arxiv.org/abs/2210.15231v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/modelscope/modelscope)",
+      "n": "BABERT-LE",
+      "d": "2022-10-27",
+      "m1": "97.56"
+    },
+    {
+      "p": "[Unsupervised Boundary-Aware Language Model Pretraining for Chinese Sequence Labeling](https://arxiv.org/abs/2210.15231v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/modelscope/modelscope)",
+      "n": "BABERT",
+      "d": "2022-10-27",
+      "m1": "97.45"
+    },
+    {
+      "p": "[Improving Chinese Word Segmentation with Wordhood Memory Networks](https://aclanthology.org/2020.acl-main.734)",
+      "c": "[&check;&nbsp;Link](https://github.com/SVAIGBA/WMSeg)",
+      "n": "WMSeg + ZEN",
+      "d": "2020-07-01",
+      "m1": "97.25"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

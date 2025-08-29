@@ -1,0 +1,137 @@
+# visual-reasoning-on-nlvr2-test
+
+[Dataset Link](http://lil.nlp.cornell.edu/nlvr/) \
+Task Hierarchy: ['Visual Reasoning']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Image as a Foreign Language: BEiT Pretraining for All Vision and Vision-Language Tasks](https://arxiv.org/abs/2208.10442v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/unilm/tree/master/beit)",
+      "n": "BEiT-3",
+      "d": "2022-08-22",
+      "m1": "92.58"
+    },
+    {
+      "p": "[X$^2$-VLM: All-In-One Pre-trained Model For Vision-Language Tasks](https://arxiv.org/abs/2211.12402v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zengyan-97/x-vlm)",
+      "n": "X2-VLM (large)",
+      "d": "2022-11-22",
+      "m1": "89.4"
+    },
+    {
+      "p": "[Toward Building General Foundation Models for Language, Vision, and Vision-Language Understanding Tasks](https://arxiv.org/abs/2301.05065v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhangxinsong-nlp/XFM)",
+      "n": "XFM (base)",
+      "d": "2023-01-12",
+      "m1": "88.4"
+    },
+    {
+      "p": "[CoCa: Contrastive Captioners are Image-Text Foundation Models](https://arxiv.org/abs/2205.01917v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mlfoundations/open_clip)",
+      "n": "CoCa",
+      "d": "2022-05-04",
+      "m1": "87.0"
+    },
+    {
+      "p": "[X$^2$-VLM: All-In-One Pre-trained Model For Vision-Language Tasks](https://arxiv.org/abs/2211.12402v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zengyan-97/x-vlm)",
+      "n": "X2-VLM (base)",
+      "d": "2022-11-22",
+      "m1": "87.0"
+    },
+    {
+      "p": "[VLMo: Unified Vision-Language Pre-Training with Mixture-of-Modality-Experts](https://arxiv.org/abs/2111.02358v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/unilm/tree/master/vlmo)",
+      "n": "VLMo",
+      "d": "2021-11-03",
+      "m1": "86.86"
+    },
+    {
+      "p": "[SimVLM: Simple Visual Language Model Pretraining with Weak Supervision](https://arxiv.org/abs/2108.10904v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yulong-XJTU/SimVLM)",
+      "n": "SimVLM",
+      "d": "2021-08-24",
+      "m1": "85.15"
+    },
+    {
+      "p": "[Multi-Grained Vision Language Pre-Training: Aligning Texts with Visual Concepts](https://arxiv.org/abs/2111.08276v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/zengyan-97/x-vlm)",
+      "n": "X-VLM (base)",
+      "d": "2021-11-16",
+      "m1": "84.76"
+    },
+    {
+      "p": "[BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation](https://arxiv.org/abs/2201.12086v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "BLIP-129M",
+      "d": "2022-01-28",
+      "m1": "83.09"
+    },
+    {
+      "p": "[Align before Fuse: Vision and Language Representation Learning with Momentum Distillation](https://arxiv.org/abs/2107.07651v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/salesforce/lavis)",
+      "n": "ALBEF (14M)",
+      "d": "2021-07-16",
+      "m1": "82.55"
+    },
+    {
+      "p": "[UNITER: UNiversal Image-TExt Representation Learning](https://arxiv.org/abs/1909.11740v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/ChenRocks/UNITER)",
+      "n": "UNITER (Large)",
+      "d": "2019-09-25",
+      "m1": "79.5"
+    },
+    {
+      "p": "[Seeing Out of tHe bOx: End-to-End Pre-training for Vision-Language Representation Learning](https://arxiv.org/abs/2104.03135v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/researchmm/soho)",
+      "n": "SOHO",
+      "d": "2021-04-07",
+      "m1": "77.32"
+    },
+    {
+      "p": "[LXMERT: Learning Cross-Modality Encoder Representations from Transformers](https://arxiv.org/abs/1908.07490v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "LXMERT",
+      "d": "2019-08-20",
+      "m1": "76.2"
+    },
+    {
+      "p": "[ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision](https://arxiv.org/abs/2102.03334v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "ViLT-B/32",
+      "d": "2021-02-05",
+      "m1": "76.13"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

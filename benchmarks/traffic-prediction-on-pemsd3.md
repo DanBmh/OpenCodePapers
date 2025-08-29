@@ -1,0 +1,101 @@
+# traffic-prediction-on-pemsd3
+
+[Dataset Link]() \
+Task Hierarchy: ['Traffic Prediction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "12 steps MAE",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "12 steps MAPE",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "12 steps RMSE",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Spatial-Temporal-Decoupled Masked Pre-training for Spatiotemporal Forecasting](https://arxiv.org/abs/2312.00516v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/jimmy-7664/std-mae)",
+      "n": "STD-MAE",
+      "d": "2023-12-01",
+      "m1": "13.80",
+      "m2": "13.96",
+      "m3": "24.43"
+    },
+    {
+      "p": "[PDG2Seq: Periodic Dynamic Graph to Sequence Model for Traffic Flow Prediction](https://www.sciencedirect.com/science/article/pii/S0893608024008700?via%3Dihub)",
+      "c": "[&check;&nbsp;Link](https://github.com/wengwenchao123/PDG2Seq)",
+      "n": "PDG2Seq",
+      "d": "2024-12-05",
+      "m1": "14.62",
+      "m2": "14.88",
+      "m3": "25.47"
+    },
+    {
+      "p": "[A Decomposition Dynamic graph convolutional recurrent network for traffic forecasting](https://www.sciencedirect.com/science/article/abs/pii/S0031320323003710)",
+      "c": "[&check;&nbsp;Link](https://github.com/wengwenchao123/DDGCRN)",
+      "n": "DDGCRN",
+      "d": "2023-05-01",
+      "m1": "14.63",
+      "m2": "14.22",
+      "m3": "25.07"
+    },
+    {
+      "p": "[When Spatio-Temporal Meet Wavelets: Disentangled Traffic Forecasting via Efficient Spectral Graph Attention Networks](https://ieeexplore.ieee.org/document/10184591)",
+      "c": "[&check;&nbsp;Link](https://github.com/lmissher/stwave)",
+      "n": "STWave",
+      "d": "2023-07-26",
+      "m1": "14.93"
+    },
+    {
+      "p": "[Graph Neural Rough Differential Equations for Traffic Forecasting](https://arxiv.org/abs/2303.10909v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jeongwhanchoi/STG-NCDE)",
+      "n": "STG-NRDE",
+      "d": "2023-03-20",
+      "m1": "15.50",
+      "m2": "14.9",
+      "m3": "27.06"
+    },
+    {
+      "p": "[Graph Neural Controlled Differential Equations for Traffic Forecasting](https://arxiv.org/abs/2112.03558v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jeongwhanchoi/STG-NCDE)",
+      "n": "STG-NCDE",
+      "d": "2021-12-07",
+      "m1": "15.57",
+      "m2": "15.06",
+      "m3": "27.09"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

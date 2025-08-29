@@ -1,0 +1,102 @@
+# spatial-relation-recognition-on-rel3d
+
+[Dataset Link](https://github.com/princeton-vl/Rel3D) \
+Task Hierarchy: ['Spatial Relation Recognition']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Acc",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Rel3D: A Minimally Contrastive Benchmark for Grounding Spatial Relations in 3D](https://arxiv.org/abs/2012.01634v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/princeton-vl/SpatialSense)",
+      "n": "Human",
+      "d": "2020-12-03",
+      "m1": "94.25"
+    },
+    {
+      "p": "[Rel3D: A Minimally Contrastive Benchmark for Grounding Spatial Relations in 3D](https://arxiv.org/abs/2012.01634v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/princeton-vl/SpatialSense)",
+      "n": "MLP-Aligned Features",
+      "d": "2020-12-03",
+      "m1": "85.03"
+    },
+    {
+      "p": "[Rel3D: A Minimally Contrastive Benchmark for Grounding Spatial Relations in 3D](https://arxiv.org/abs/2012.01634v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/princeton-vl/SpatialSense)",
+      "n": "MLP-Raw Features",
+      "d": "2020-12-03",
+      "m1": "81.24"
+    },
+    {
+      "p": "[Rel3D: A Minimally Contrastive Benchmark for Grounding Spatial Relations in 3D](https://arxiv.org/abs/2012.01634v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/princeton-vl/SpatialSense)",
+      "n": "BBox Only",
+      "d": "2020-12-03",
+      "m1": "74.14"
+    },
+    {
+      "p": "[Rel3D: A Minimally Contrastive Benchmark for Grounding Spatial Relations in 3D](https://arxiv.org/abs/2012.01634v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/princeton-vl/SpatialSense)",
+      "n": "PPR-FCN",
+      "d": "2020-12-03",
+      "m1": "73.3"
+    },
+    {
+      "p": "[Rel3D: A Minimally Contrastive Benchmark for Grounding Spatial Relations in 3D](https://arxiv.org/abs/2012.01634v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/princeton-vl/SpatialSense)",
+      "n": "DRNet",
+      "d": "2020-12-03",
+      "m1": "73.25"
+    },
+    {
+      "p": "[Rel3D: A Minimally Contrastive Benchmark for Grounding Spatial Relations in 3D](https://arxiv.org/abs/2012.01634v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/princeton-vl/SpatialSense)",
+      "n": "VipCNN",
+      "d": "2020-12-03",
+      "m1": "72.32"
+    },
+    {
+      "p": "[Rel3D: A Minimally Contrastive Benchmark for Grounding Spatial Relations in 3D](https://arxiv.org/abs/2012.01634v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/princeton-vl/SpatialSense)",
+      "n": "VTransE",
+      "d": "2020-12-03",
+      "m1": "72.27"
+    },
+    {
+      "p": "[Rel3D: A Minimally Contrastive Benchmark for Grounding Spatial Relations in 3D](https://arxiv.org/abs/2012.01634v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/princeton-vl/SpatialSense)",
+      "n": "Random",
+      "d": "2020-12-03",
+      "m1": "50"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

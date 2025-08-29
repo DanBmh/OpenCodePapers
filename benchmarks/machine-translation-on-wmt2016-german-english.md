@@ -1,0 +1,100 @@
+# machine-translation-on-wmt2016-german-english
+
+[Dataset Link](http://www.statmt.org/wmt16/index.html) \
+Task Hierarchy: ['Machine Translation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "BLEU score",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "SacreBLEU",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Finetuned Language Models Are Zero-Shot Learners](https://arxiv.org/abs/2109.01652v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/hiyouga/llama-efficient-tuning)",
+      "n": "FLAN 137B (few-shot, k=11)",
+      "d": "2021-09-03",
+      "m1": "40.7"
+    },
+    {
+      "p": "[Finetuned Language Models Are Zero-Shot Learners](https://arxiv.org/abs/2109.01652v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/hiyouga/llama-efficient-tuning)",
+      "n": "FLAN 137B (zero-shot)",
+      "d": "2021-09-03",
+      "m1": "38.9"
+    },
+    {
+      "p": "[Edinburgh Neural Machine Translation Systems for WMT 16](http://arxiv.org/abs/1606.02891v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rsennrich/wmt16-scripts)",
+      "n": "Attentional encoder-decoder + BPE",
+      "d": "2016-06-09",
+      "m1": "38.6"
+    },
+    {
+      "p": "[Linguistic Input Features Improve Neural Machine Translation](http://arxiv.org/abs/1606.02892v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rsennrich/wmt16-scripts)",
+      "n": "Linguistic Input Features",
+      "d": "2016-06-09",
+      "m1": "32.9"
+    },
+    {
+      "p": "[Unsupervised Statistical Machine Translation](http://arxiv.org/abs/1809.01272v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/artetxem/vecmap)",
+      "n": "SMT + iterative backtranslation (unsupervised)",
+      "d": "2018-09-04",
+      "m1": "23.05"
+    },
+    {
+      "p": "[Unsupervised Neural Machine Translation with Weight Sharing](http://arxiv.org/abs/1804.09057v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ZhenYangIACAS/unsupervised-NMT)",
+      "n": "Unsupervised NMT + weight-sharing",
+      "d": "2018-04-24",
+      "m1": "14.62"
+    },
+    {
+      "p": "[Unsupervised Machine Translation Using Monolingual Corpora Only](http://arxiv.org/abs/1711.00043v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/MUSE)",
+      "n": "Unsupervised S2S with attention",
+      "d": "2017-10-31",
+      "m1": "13.33"
+    },
+    {
+      "p": "[Exploiting Monolingual Data at Scale for Neural Machine Translation](https://aclanthology.org/D19-1430)",
+      "c": "",
+      "n": "Exploiting Mono at Scale (single)",
+      "d": "2019-11-01",
+      "m2": "47.5"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

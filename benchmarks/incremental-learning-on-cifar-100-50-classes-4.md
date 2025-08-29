@@ -1,0 +1,67 @@
+# incremental-learning-on-cifar-100-50-classes-4
+
+[Dataset Link]() \
+Task Hierarchy: ['Incremental Learning']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Average Incremental Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Resolving Task Confusion in Dynamic Expansion Architectures for Class Incremental Learning](https://arxiv.org/abs/2212.14284v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/yellowpancake/tcil)",
+      "n": "TCIL",
+      "d": "2022-12-29",
+      "m1": "76.42"
+    },
+    {
+      "p": "[Resolving Task Confusion in Dynamic Expansion Architectures for Class Incremental Learning](https://arxiv.org/abs/2212.14284v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/yellowpancake/tcil)",
+      "n": "TCIL-Lite",
+      "d": "2022-12-29",
+      "m1": "74.95"
+    },
+    {
+      "p": "[DER: Dynamically Expandable Representation for Class Incremental Learning](https://arxiv.org/abs/2103.16788v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/g-u-n/pycil)",
+      "n": "DER\n(w/o P)",
+      "d": "2021-03-31",
+      "m1": "74.61"
+    },
+    {
+      "p": "[iCaRL: Incremental Classifier and Representation Learning](http://arxiv.org/abs/1611.07725v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ContinualAI/avalanche)",
+      "n": "iCaRL",
+      "d": "2016-11-23",
+      "m1": "71.33"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

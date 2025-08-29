@@ -1,0 +1,124 @@
+# spectral-reconstruction-on-kaist
+
+[Dataset Link](https://zaguan.unizar.es/record/75680) \
+Task Hierarchy: ['10-shot image generation', 'Image Restoration', 'Spectral Reconstruction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "SSIM",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Improving Spectral Snapshot Reconstruction with Spectral-Spatial Rectification](http://openaccess.thecvf.com//content/CVPR2024/html/Zhang_Improving_Spectral_Snapshot_Reconstruction_with_Spectral-Spatial_Rectification_CVPR_2024_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhangjc-2k/ssr)",
+      "n": "SSR",
+      "d": "2024-01-01",
+      "m1": "40.69",
+      "m2": "0.978"
+    },
+    {
+      "p": "[Dual Prior Unfolding for Snapshot Compressive Imaging](http://openaccess.thecvf.com//content/CVPR2024/html/Zhang_Dual_Prior_Unfolding_for_Snapshot_Compressive_Imaging_CVPR_2024_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhangjc-2k/dpu)",
+      "n": "DPU",
+      "d": "2024-01-01",
+      "m1": "40.52",
+      "m2": "0.977"
+    },
+    {
+      "p": "[Residual Degradation Learning Unfolding Framework with Mixing Priors across Spectral and Spatial for Compressive Spectral Imaging](https://arxiv.org/abs/2211.06891v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/shawndong98/rdluf_mixs2)",
+      "n": "RDLUF",
+      "d": "2022-11-13",
+      "m1": "39.57",
+      "m2": "0.974"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "RCUMP",
+      "d": null,
+      "m1": "38.96",
+      "m2": "0.969"
+    },
+    {
+      "p": "[Degradation-Aware Unfolding Half-Shuffle Transformer for Spectral Compressive Imaging](https://arxiv.org/abs/2205.10102v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/caiyuanhao1998/MST)",
+      "n": "DAUHST-9stg",
+      "d": "2022-05-20",
+      "m1": "38.36",
+      "m2": "0.967"
+    },
+    {
+      "p": "[Coarse-to-Fine Sparse Transformer for Hyperspectral Image Reconstruction](https://arxiv.org/abs/2203.04845v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/caiyuanhao1998/MST)",
+      "n": "CST-L",
+      "d": "2022-03-09",
+      "m1": "36.12",
+      "m2": "0.957"
+    },
+    {
+      "p": "[MST++: Multi-stage Spectral-wise Transformer for Efficient Spectral Reconstruction](https://arxiv.org/abs/2204.07908v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cmhungsteve/Awesome-Transformer-Attention)",
+      "n": "MST++",
+      "d": "2022-04-17",
+      "m1": "35.99",
+      "m2": "0.951"
+    },
+    {
+      "p": "[Mask-guided Spectral-wise Transformer for Efficient Hyperspectral Image Reconstruction](https://arxiv.org/abs/2111.07910v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/cmhungsteve/Awesome-Transformer-Attention)",
+      "n": "MST-L",
+      "d": "2021-11-15",
+      "m1": "35.18",
+      "m2": "0.948"
+    },
+    {
+      "p": "[HDNet: High-resolution Dual-domain Learning for Spectral Compressive Imaging](https://arxiv.org/abs/2203.02149v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/caiyuanhao1998/MST)",
+      "n": "HDNet",
+      "d": "2022-03-04",
+      "m1": "34.97",
+      "m2": "0.943"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "BiSRNet",
+      "d": null,
+      "m1": "29.76",
+      "m2": "0.837"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,81 @@
+# automatic-sleep-stage-classification-on-sleep-1
+
+[Dataset Link](https://www.physionet.org/content/sleep-edfx/1.0.0/) \
+Task Hierarchy: ['Automatic Sleep Stage Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Cohen\u2019s Kappa score",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Number of parameters (M)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[An Attention-Based Deep Learning Approach for Sleep Stage Classification With Single-Channel EEG](https://ieeexplore.ieee.org/document/9417097)",
+      "c": "[&check;&nbsp;Link](https://github.com/emadeldeen24/AttnSleep)",
+      "n": "multi-head attention",
+      "d": "2021-04-28",
+      "m1": "84.4"
+    },
+    {
+      "p": "[Toward Interpretable Sleep Stage Classification Using Cross-Modal Transformers](https://arxiv.org/abs/2208.06991v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/jathurshan0330/cross-modal-transformer)",
+      "n": "Sequence Cross-Modal Transformer-15",
+      "d": "2022-08-15",
+      "m1": "84.3",
+      "m2": "0.785",
+      "m3": "4.05"
+    },
+    {
+      "p": "[Time-Series Representation Learning via Temporal and Contextual Contrasting](https://arxiv.org/abs/2106.14112v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/emadeldeen24/TS-TCC)",
+      "n": "TS-TCC",
+      "d": "2021-06-26",
+      "m1": "83.0"
+    },
+    {
+      "p": "[Toward Interpretable Sleep Stage Classification Using Cross-Modal Transformers](https://arxiv.org/abs/2208.06991v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/jathurshan0330/cross-modal-transformer)",
+      "n": "Epoch Cross-Modal Transformer",
+      "d": "2022-08-15",
+      "m1": "80.8",
+      "m2": "0.736",
+      "m3": "0.32"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

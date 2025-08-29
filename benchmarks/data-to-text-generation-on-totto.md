@@ -1,0 +1,96 @@
+# data-to-text-generation-on-totto
+
+[Dataset Link](https://github.com/google-research-datasets/totto) \
+Task Hierarchy: ['Data-to-Text Generation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "BLEU",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "PARENT",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "METEOR",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Text-to-Text Pre-Training for Data-to-Text Tasks](https://arxiv.org/abs/2005.10433v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research-datasets/ToTTo)",
+      "n": "T5-3B",
+      "d": "2020-05-21",
+      "m1": "49.5",
+      "m2": "58.4"
+    },
+    {
+      "p": "[Robust (Controlled) Table-to-Text Generation with Structure-Aware Equivariance Learning](https://arxiv.org/abs/2205.03972v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/luka-group/lattice)",
+      "n": "LATTICE (T5-base)",
+      "d": "2022-05-08",
+      "m1": "48.4",
+      "m2": "58.1"
+    },
+    {
+      "p": "[ToTTo: A Controlled Table-To-Text Generation Dataset](https://arxiv.org/abs/2004.14373v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research-datasets/ToTTo)",
+      "n": "BERT-to-BERT",
+      "d": "2020-04-29",
+      "m1": "44",
+      "m2": "52.6"
+    },
+    {
+      "p": "[ToTTo: A Controlled Table-To-Text Generation Dataset](https://arxiv.org/abs/2004.14373v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research-datasets/ToTTo)",
+      "n": "Pointer Generator",
+      "d": "2020-04-29",
+      "m1": "41.6",
+      "m2": "51.6"
+    },
+    {
+      "p": "[ToTTo: A Controlled Table-To-Text Generation Dataset](https://arxiv.org/abs/2004.14373v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research-datasets/ToTTo)",
+      "n": "NCP+CC (Puduppully et al 2019)",
+      "d": "2020-04-29",
+      "m1": "19.2",
+      "m2": "29.2"
+    },
+    {
+      "p": "[The GEM Benchmark: Natural Language Generation, its Evaluation and Metrics](https://arxiv.org/abs/2102.01672v3)",
+      "c": "",
+      "n": "T5",
+      "d": "2021-02-02",
+      "m3": "0.363"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

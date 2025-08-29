@@ -1,0 +1,81 @@
+# instance-segmentation-on-separated-coco
+
+[Dataset Link](https://www.robots.ox.ac.uk/~vgg/research/tpod/) \
+Task Hierarchy: ['Instance Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Mean Recall",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[A Tri-Layer Plugin to Improve Occluded Detection](https://arxiv.org/abs/2210.10046v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Championchess/Tri-Layer_Plugin_Occluded_Detection)",
+      "n": "Swin-B + Cascade Mask R-CNN (tri-layer modelling)",
+      "d": "2022-10-18",
+      "m1": "36.88"
+    },
+    {
+      "p": "[Swin Transformer: Hierarchical Vision Transformer using Shifted Windows](https://arxiv.org/abs/2103.14030v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "Swin-B + Cascade Mask R-CNN",
+      "d": "2021-03-25",
+      "m1": "36.31"
+    },
+    {
+      "p": "[A Tri-Layer Plugin to Improve Occluded Detection](https://arxiv.org/abs/2210.10046v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Championchess/Tri-Layer_Plugin_Occluded_Detection)",
+      "n": "Swin-S + Mask R-CNN (tri-layer plugin)",
+      "d": "2022-10-18",
+      "m1": "35.80"
+    },
+    {
+      "p": "[A Tri-Layer Plugin to Improve Occluded Detection](https://arxiv.org/abs/2210.10046v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Championchess/Tri-Layer_Plugin_Occluded_Detection)",
+      "n": "Swin-T + Mask R-CNN (tri-layer plugin)",
+      "d": "2022-10-18",
+      "m1": "34.72"
+    },
+    {
+      "p": "[Swin Transformer: Hierarchical Vision Transformer using Shifted Windows](https://arxiv.org/abs/2103.14030v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "Swin-S + Mask R-CNN",
+      "d": "2021-03-25",
+      "m1": "33.67"
+    },
+    {
+      "p": "[Swin Transformer: Hierarchical Vision Transformer using Shifted Windows](https://arxiv.org/abs/2103.14030v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "Swin-T + Mask R-CNN",
+      "d": "2021-03-25",
+      "m1": "31.94"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

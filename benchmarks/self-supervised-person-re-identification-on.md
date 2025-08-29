@@ -1,0 +1,67 @@
+# self-supervised-person-re-identification-on
+
+[Dataset Link](https://github.com/wanggrun/SYSU-30k) \
+Task Hierarchy: ['Person Re-Identification', 'Self-Supervised Person Re-Identification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": " Rank-1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Solving Inefficiency of Self-supervised Representation Learning](https://arxiv.org/abs/2104.08760v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/wanggrun/triplet)",
+      "n": "Triplet",
+      "d": "2021-04-18",
+      "m1": "14.8"
+    },
+    {
+      "p": "[Bootstrap your own latent: A new approach to self-supervised Learning](https://arxiv.org/abs/2006.07733v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/deepmind/deepmind-research/tree/master/byol)",
+      "n": "BYOL",
+      "d": "2020-06-13",
+      "m1": "12.7"
+    },
+    {
+      "p": "[Improved Baselines with Momentum Contrastive Learning](https://arxiv.org/abs/2003.04297v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection)",
+      "n": "MoCo v2",
+      "d": "2020-03-09",
+      "m1": "11.6"
+    },
+    {
+      "p": "[A Simple Framework for Contrastive Learning of Visual Representations](https://arxiv.org/abs/2002.05709v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/official/vision/beta/projects/simclr)",
+      "n": "SimCLR",
+      "d": "2020-02-13",
+      "m1": "10.9"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

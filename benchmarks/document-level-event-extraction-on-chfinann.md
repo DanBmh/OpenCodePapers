@@ -1,0 +1,67 @@
+# document-level-event-extraction-on-chfinann
+
+[Dataset Link](https://github.com/dolphin-zs/Doc2EDAG) \
+Task Hierarchy: ['Information Extraction', 'Document-level Event Extraction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[RAAT: Relation-Augmented Attention Transformer for Relation Modeling in Document-Level Event Extraction](https://arxiv.org/abs/2206.03377v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/TencentYoutuResearch/EventExtraction-RAAT)",
+      "n": "ReDEE",
+      "d": "2022-06-07",
+      "m1": "81.9"
+    },
+    {
+      "p": "[Document-level Event Extraction via Heterogeneous Graph-based Interaction Model with a Tracker](https://arxiv.org/abs/2105.14924v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Spico197/DocEE)",
+      "n": "Git",
+      "d": "2021-05-31",
+      "m1": "80.3"
+    },
+    {
+      "p": "[Efficient Document-level Event Extraction via Pseudo-Trigger-aware Pruned Complete Graph](https://arxiv.org/abs/2112.06013v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Spico197/DocEE)",
+      "n": "PTPCG",
+      "d": "2021-12-11",
+      "m1": "79.4"
+    },
+    {
+      "p": "[Doc2EDAG: An End-to-End Document-level Framework for Chinese Financial Event Extraction](https://arxiv.org/abs/1904.07535v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dolphin-zs/Doc2EDAG)",
+      "n": "Doc2EDAG",
+      "d": "2019-04-16",
+      "m1": "76.3"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

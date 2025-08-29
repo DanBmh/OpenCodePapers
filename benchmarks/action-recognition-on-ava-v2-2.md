@@ -1,0 +1,305 @@
+# action-recognition-on-ava-v2-2
+
+[Dataset Link](http://research.google.com/ava/) \
+Task Hierarchy: ['Action Recognition']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mAP",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[On the Benefits of 3D Pose and Tracking for Human Action Recognition](https://arxiv.org/abs/2304.01199v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/brjathu/LART)",
+      "n": "LART (Hiera-H, K700 PT+FT)",
+      "d": "2023-04-03",
+      "m1": "45.1"
+    },
+    {
+      "p": "[Hiera: A Hierarchical Vision Transformer without the Bells-and-Whistles](https://arxiv.org/abs/2306.00989v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/pytorch-image-models)",
+      "n": "Hiera-H (K700 PT+FT)",
+      "d": "2023-06-01",
+      "m1": "43.3"
+    },
+    {
+      "p": "[VideoMAE V2: Scaling Video Masked Autoencoders with Dual Masking](https://arxiv.org/abs/2303.16727v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/OpenGVLab/VideoMAEv2)",
+      "n": "VideoMAE V2-g",
+      "d": "2023-03-29",
+      "m1": "42.6"
+    },
+    {
+      "p": "[End-to-End Spatio-Temporal Action Localisation with Video Transformers](https://arxiv.org/abs/2304.12160v1)",
+      "c": "",
+      "n": "STAR/L",
+      "d": "2023-04-24",
+      "m1": "41.7"
+    },
+    {
+      "p": "[Masked Video Distillation: Rethinking Masked Feature Modeling for Self-supervised Video Representation Learning](https://arxiv.org/abs/2212.04500v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ruiwang2021/mvd)",
+      "n": "MVD (Kinetics400 pretrain+finetune, ViT-H, 16x4)",
+      "d": "2022-12-08",
+      "m1": "41.1"
+    },
+    {
+      "p": "[InternVideo: General Video Foundation Models via Generative and Discriminative Learning](https://arxiv.org/abs/2212.03191v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internvideo)",
+      "n": "InternVideo",
+      "d": "2022-12-06",
+      "m1": "41.01"
+    },
+    {
+      "p": "[Masked Video Distillation: Rethinking Masked Feature Modeling for Self-supervised Video Representation Learning](https://arxiv.org/abs/2212.04500v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ruiwang2021/mvd)",
+      "n": "MVD (Kinetics400 pretrain, ViT-H, 16x4)",
+      "d": "2022-12-08",
+      "m1": "40.1"
+    },
+    {
+      "p": "[Masked Feature Prediction for Self-Supervised Visual Pre-Training](https://arxiv.org/abs/2112.09133v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/SlowFast)",
+      "n": "MaskFeat (Kinetics-600 pretrain, MViT-L)",
+      "d": "2021-12-16",
+      "m1": "39.8"
+    },
+    {
+      "p": "[Unmasked Teacher: Towards Training-Efficient Video Foundation Models](https://arxiv.org/abs/2303.16058v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/opengvlab/unmasked_teacher)",
+      "n": "UMT-L (ViT-L/16)",
+      "d": "2023-03-28",
+      "m1": "39.8"
+    },
+    {
+      "p": "[VideoMAE: Masked Autoencoders are Data-Efficient Learners for Self-Supervised Video Pre-Training](https://arxiv.org/abs/2203.12602v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "VideoMAE (K400 pretrain+finetune, ViT-H, 16x4)",
+      "d": "2022-03-23",
+      "m1": "39.5"
+    },
+    {
+      "p": "[VideoMAE: Masked Autoencoders are Data-Efficient Learners for Self-Supervised Video Pre-Training](https://arxiv.org/abs/2203.12602v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "VideoMAE (K700 pretrain+finetune, ViT-L, 16x4)",
+      "d": "2022-03-23",
+      "m1": "39.3"
+    },
+    {
+      "p": "[Masked Video Distillation: Rethinking Masked Feature Modeling for Self-supervised Video Representation Learning](https://arxiv.org/abs/2212.04500v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ruiwang2021/mvd)",
+      "n": "MVD (Kinetics400 pretrain+finetune, ViT-L, 16x4)",
+      "d": "2022-12-08",
+      "m1": "38.7"
+    },
+    {
+      "p": "[VideoMAE: Masked Autoencoders are Data-Efficient Learners for Self-Supervised Video Pre-Training](https://arxiv.org/abs/2203.12602v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "VideoMAE (K400 pretrain+finetune, ViT-L, 16x4)",
+      "d": "2022-03-23",
+      "m1": "37.8"
+    },
+    {
+      "p": "[Masked Video Distillation: Rethinking Masked Feature Modeling for Self-supervised Video Representation Learning](https://arxiv.org/abs/2212.04500v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ruiwang2021/mvd)",
+      "n": "MVD (Kinetics400 pretrain, ViT-L, 16x4)",
+      "d": "2022-12-08",
+      "m1": "37.7"
+    },
+    {
+      "p": "[VideoMAE: Masked Autoencoders are Data-Efficient Learners for Self-Supervised Video Pre-Training](https://arxiv.org/abs/2203.12602v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "VideoMAE (K400 pretrain, ViT-H, 16x4)",
+      "d": "2022-03-23",
+      "m1": "36.5"
+    },
+    {
+      "p": "[VideoMAE: Masked Autoencoders are Data-Efficient Learners for Self-Supervised Video Pre-Training](https://arxiv.org/abs/2203.12602v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "VideoMAE (K700 pretrain, ViT-L, 16x4)",
+      "d": "2022-03-23",
+      "m1": "36.1"
+    },
+    {
+      "p": "[MeMViT: Memory-Augmented Multiscale Vision Transformer for Efficient Long-Term Video Recognition](https://arxiv.org/abs/2201.08383v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/memvit)",
+      "n": "MeMViT-24",
+      "d": "2022-01-20",
+      "m1": "35.4"
+    },
+    {
+      "p": "[MViTv2: Improved Multiscale Vision Transformers for Classification and Detection](https://arxiv.org/abs/2112.01526v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "MViTv2-L (IN21k, K700)",
+      "d": "2021-12-02",
+      "m1": "34.4"
+    },
+    {
+      "p": "[VideoMAE: Masked Autoencoders are Data-Efficient Learners for Self-Supervised Video Pre-Training](https://arxiv.org/abs/2203.12602v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "VideoMAE (K400 pretrain, ViT-L, 16x4)",
+      "d": "2022-03-23",
+      "m1": "34.3"
+    },
+    {
+      "p": "[Masked Video Distillation: Rethinking Masked Feature Modeling for Self-supervised Video Representation Learning](https://arxiv.org/abs/2212.04500v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ruiwang2021/mvd)",
+      "n": "MVD (Kinetics400 pretrain+finetune, ViT-B, 16x4)",
+      "d": "2022-12-08",
+      "m1": "34.2"
+    },
+    {
+      "p": "[Asymmetric Masked Distillation for Pre-Training Small Foundation Models](https://arxiv.org/abs/2311.03149v2)",
+      "c": "",
+      "n": "AMD(ViT-B/16)",
+      "d": "2023-11-06",
+      "m1": "33.5"
+    },
+    {
+      "p": "[Holistic Interaction Transformer Network for Action Detection](https://arxiv.org/abs/2210.12686v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/joslefaure/hit)",
+      "n": "HIT",
+      "d": "2022-10-23",
+      "m1": "32.6"
+    },
+    {
+      "p": "[VideoMAE: Masked Autoencoders are Data-Efficient Learners for Self-Supervised Video Pre-Training](https://arxiv.org/abs/2203.12602v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "VideoMAE (K400 pretrain+finetune, ViT-B, 16x4)",
+      "d": "2022-03-23",
+      "m1": "31.8"
+    },
+    {
+      "p": "[Actor-Context-Actor Relation Network for Spatio-Temporal Action Localization](https://arxiv.org/abs/2006.07976v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/towhee-io/towhee)",
+      "n": "ACAR-Net, SlowFast R-101 (Kinetics-700 pretraining)",
+      "d": "2020-06-14",
+      "m1": "31.72"
+    },
+    {
+      "p": "[Masked Video Distillation: Rethinking Masked Feature Modeling for Self-supervised Video Representation Learning](https://arxiv.org/abs/2212.04500v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ruiwang2021/mvd)",
+      "n": "MVD (Kinetics400 pretrain, ViT-B, 16x4)",
+      "d": "2022-12-08",
+      "m1": "31.1"
+    },
+    {
+      "p": "[Towards Long-Form Video Understanding](https://arxiv.org/abs/2106.11310v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/chaoyuaw/lvu)",
+      "n": "Object Transformer",
+      "d": "2021-06-21",
+      "m1": "31.0"
+    },
+    {
+      "p": "[Multiscale Vision Transformers](https://arxiv.org/abs/2104.11227v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/SlowFast)",
+      "n": "MViT-B-24, 32x3 (Kinetics-600 pretraining)",
+      "d": "2021-04-22",
+      "m1": "28.7"
+    },
+    {
+      "p": "[Multiscale Vision Transformers](https://arxiv.org/abs/2104.11227v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/SlowFast)",
+      "n": "MViT-B, 32x3 (Kinetics-500 pretraining)",
+      "d": "2021-04-22",
+      "m1": "27.5"
+    },
+    {
+      "p": "[SlowFast Networks for Video Recognition](https://arxiv.org/abs/1812.03982v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/SlowFast)",
+      "n": "SlowFast, 16x8 R101+NL (Kinetics-600 pretraining)",
+      "d": "2018-12-10",
+      "m1": "27.5"
+    },
+    {
+      "p": "[Multiscale Vision Transformers](https://arxiv.org/abs/2104.11227v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/SlowFast)",
+      "n": "MViT-B, 64x3 (Kinetics-400 pretraining)",
+      "d": "2021-04-22",
+      "m1": "27.3"
+    },
+    {
+      "p": "[SlowFast Networks for Video Recognition](https://arxiv.org/abs/1812.03982v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/SlowFast)",
+      "n": "SlowFast, 8x8 R101+NL (Kinetics-600 pretraining)",
+      "d": "2018-12-10",
+      "m1": "27.1"
+    },
+    {
+      "p": "[Multiscale Vision Transformers](https://arxiv.org/abs/2104.11227v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/SlowFast)",
+      "n": "MViT-B, 32x3 (Kinetics-400 pretraining)",
+      "d": "2021-04-22",
+      "m1": "26.8"
+    },
+    {
+      "p": "[VideoMAE: Masked Autoencoders are Data-Efficient Learners for Self-Supervised Video Pre-Training](https://arxiv.org/abs/2203.12602v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "VideoMAE (K400 pretrain, ViT-B, 16x4)",
+      "d": "2022-03-23",
+      "m1": "26.7"
+    },
+    {
+      "p": "[Object-Region Video Transformers](https://arxiv.org/abs/2110.06915v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/eladb3/orvit)",
+      "n": "ORViT MViT-B, 16x4 (K400 pretraining)",
+      "d": "2021-10-13",
+      "m1": "26.6"
+    },
+    {
+      "p": "[Multiscale Vision Transformers](https://arxiv.org/abs/2104.11227v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/SlowFast)",
+      "n": "MViT-B, 16x4 (Kinetics-600 pretraining)",
+      "d": "2021-04-22",
+      "m1": "26.1"
+    },
+    {
+      "p": "[Multiscale Vision Transformers](https://arxiv.org/abs/2104.11227v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/SlowFast)",
+      "n": "MViT-B, 16x4 (Kinetics-400 pretraining)",
+      "d": "2021-04-22",
+      "m1": "24.5"
+    },
+    {
+      "p": "[SlowFast Networks for Video Recognition](https://arxiv.org/abs/1812.03982v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/SlowFast)",
+      "n": "SlowFast, 8x8, R101 (Kinetics-400 pretraining)",
+      "d": "2018-12-10",
+      "m1": "23.8"
+    },
+    {
+      "p": "[SlowFast Networks for Video Recognition](https://arxiv.org/abs/1812.03982v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/SlowFast)",
+      "n": "SlowFast, 4x16, R50 (Kinetics-400 pretraining)",
+      "d": "2018-12-10",
+      "m1": "21.9"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

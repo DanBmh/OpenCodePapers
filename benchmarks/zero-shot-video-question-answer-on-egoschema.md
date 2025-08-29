@@ -1,0 +1,143 @@
+# zero-shot-video-question-answer-on-egoschema
+
+[Dataset Link](https://egoschema.github.io/) \
+Task Hierarchy: ['Video Question Answering', 'Zero-Shot Video Question Answer']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Inference Speed (s)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Tarsier: Recipes for Training and Evaluating Large Video Description Models](https://arxiv.org/abs/2407.00634v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/bytedance/tarsier)",
+      "n": "Tarsier (34B)",
+      "d": "2024-06-30",
+      "m1": "68.6"
+    },
+    {
+      "p": "[TimeSuite: Improving MLLMs for Long Video Understanding via Grounded Tuning](https://arxiv.org/abs/2410.19702v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/OpenGVLab/TimeSuite)",
+      "n": "VideoChat-T (7B)",
+      "d": "2024-10-25",
+      "m1": "68.4"
+    },
+    {
+      "p": "[Language Repository for Long Video Understanding](https://arxiv.org/abs/2403.14622v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/kkahatapitiya/langrepo)",
+      "n": "LangRepo (12B)",
+      "d": "2024-03-21",
+      "m1": "66.2"
+    },
+    {
+      "p": "[VideoTree: Adaptive Tree-based Video Representation for LLM Reasoning on Long Videos](https://arxiv.org/abs/2405.19209v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Ziyang412/VideoTree)",
+      "n": "VideoTree (GPT4)",
+      "d": "2024-05-29",
+      "m1": "66.2"
+    },
+    {
+      "p": "[Too Many Frames, Not All Useful: Efficient Strategies for Long-Form Video QA](https://arxiv.org/abs/2406.09396v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/jongwoopark7978/LVNet)",
+      "n": "LVNet",
+      "d": "2024-06-13",
+      "m1": "66.0"
+    },
+    {
+      "p": "[MVBench: A Comprehensive Multi-modal Video Understanding Benchmark](https://arxiv.org/abs/2311.17005v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/opengvlab/ask-anything)",
+      "n": "VideoChat2_HD_mistral",
+      "d": "2023-11-28",
+      "m1": "65.6"
+    },
+    {
+      "p": "[MVBench: A Comprehensive Multi-modal Video Understanding Benchmark](https://arxiv.org/abs/2311.17005v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/opengvlab/ask-anything)",
+      "n": "VideoChat2_mistral",
+      "d": "2023-11-28",
+      "m1": "63.6"
+    },
+    {
+      "p": "[Understanding Long Videos with Multimodal Language Models](https://arxiv.org/abs/2403.16998v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/kahnchana/mvu)",
+      "n": "MVU (13B)",
+      "d": "2024-03-25",
+      "m1": "60.3",
+      "m2": "2.42"
+    },
+    {
+      "p": "[TS-LLaVA: Constructing Visual Tokens through Thumbnail-and-Sampling for Training-Free Video Large Language Models](https://arxiv.org/abs/2411.11066v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tingyu215/ts-llava)",
+      "n": "TS-LLaVA-34B",
+      "d": "2024-11-17",
+      "m1": "57.8"
+    },
+    {
+      "p": "[A Simple LLM Framework for Long-Range Video Question-Answering](https://arxiv.org/abs/2312.17235v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/ceezh/llovi)",
+      "n": "LLoVi (GPT-3.5)",
+      "d": "2023-12-28",
+      "m1": "57.6"
+    },
+    {
+      "p": "[A Simple LLM Framework for Long-Range Video Question-Answering](https://arxiv.org/abs/2312.17235v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/ceezh/llovi)",
+      "n": "LLoVi (7B)",
+      "d": "2023-12-28",
+      "m1": "50.8"
+    },
+    {
+      "p": "[SlowFast-LLaVA: A Strong Training-Free Baseline for Video Large Language Models](https://arxiv.org/abs/2407.15841v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/apple/ml-slowfast-llava)",
+      "n": "SlowFast-LLaVA-34B",
+      "d": "2024-07-22",
+      "m1": "47.2"
+    },
+    {
+      "p": "[Self-Chained Image-Language Model for Video Localization and Question Answering](https://arxiv.org/abs/2305.06988v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/yui010206/sevila)",
+      "n": "SeViLA (4B)",
+      "d": "2023-05-11",
+      "m1": "25.7"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Random",
+      "d": null,
+      "m1": "20.0"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,261 @@
+# question-answering-on-multirc
+
+[Dataset Link](https://cogcomp.seas.upenn.edu/multirc/) \
+Task Hierarchy: ['Question Answering']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "EM",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[PaLM: Scaling Language Modeling with Pathways](https://arxiv.org/abs/2204.02311v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/lucidrains/CoCa-pytorch)",
+      "n": "PaLM 540B (finetuned) ",
+      "d": "2022-04-05",
+      "m1": "90.1",
+      "m2": "69.2"
+    },
+    {
+      "p": "[ST-MoE: Designing Stable and Transferable Sparse Expert Models](https://arxiv.org/abs/2202.08906v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/mesh)",
+      "n": "ST-MoE-32B 269B (fine-tuned)",
+      "d": "2022-02-17",
+      "m1": "89.6"
+    },
+    {
+      "p": "[Toward Efficient Language Model Pretraining and Downstream Adaptation via Self-Evolution: A Case Study on SuperGLUE](https://arxiv.org/abs/2212.01853v1)",
+      "c": "",
+      "n": "Turing NLR v5 XXL 5.4B (fine-tuned)",
+      "d": "2022-12-04",
+      "m1": "88.4",
+      "m2": "63"
+    },
+    {
+      "p": "[DeBERTa: Decoding-enhanced BERT with Disentangled Attention](https://arxiv.org/abs/2006.03654v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "DeBERTa-1.5B",
+      "d": "2020-06-05",
+      "m1": "88.2",
+      "m2": "63.7"
+    },
+    {
+      "p": "[Toward Efficient Language Model Pretraining and Downstream Adaptation via Self-Evolution: A Case Study on SuperGLUE](https://arxiv.org/abs/2212.01853v1)",
+      "c": "",
+      "n": "Vega v2 6B (fine-tuned)",
+      "d": "2022-12-04",
+      "m1": "88.2",
+      "m2": "62.4"
+    },
+    {
+      "p": "[PaLM 2 Technical Report](https://arxiv.org/abs/2305.10403v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/eternityyw/tram-benchmark)",
+      "n": "PaLM 2-L (one-shot)",
+      "d": "2023-05-17",
+      "m1": "88.2"
+    },
+    {
+      "p": "[Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "T5-XXL 11B (fine-tuned)",
+      "d": "2019-10-23",
+      "m1": "88.1"
+    },
+    {
+      "p": "[ST-MoE: Designing Stable and Transferable Sparse Expert Models](https://arxiv.org/abs/2202.08906v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/mesh)",
+      "n": "ST-MoE-L 4.1B (fine-tuned)",
+      "d": "2022-02-17",
+      "m1": "86"
+    },
+    {
+      "p": "[PaLM 2 Technical Report](https://arxiv.org/abs/2305.10403v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/eternityyw/tram-benchmark)",
+      "n": "PaLM 2-M (one-shot)",
+      "d": "2023-05-17",
+      "m1": "84.1"
+    },
+    {
+      "p": "[PaLM 2 Technical Report](https://arxiv.org/abs/2305.10403v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/eternityyw/tram-benchmark)",
+      "n": "PaLM 2-S (one-shot)",
+      "d": "2023-05-17",
+      "m1": "84.0"
+    },
+    {
+      "p": "[Finetuned Language Models Are Zero-Shot Learners](https://arxiv.org/abs/2109.01652v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/hiyouga/llama-efficient-tuning)",
+      "n": "FLAN 137B (prompt-tuned)",
+      "d": "2021-09-03",
+      "m1": "83.4"
+    },
+    {
+      "p": "[Finetuned Language Models Are Zero-Shot Learners](https://arxiv.org/abs/2109.01652v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/hiyouga/llama-efficient-tuning)",
+      "n": "FLAN 137B (zero-shot)",
+      "d": "2021-09-03",
+      "m1": "77.5"
+    },
+    {
+      "p": "[Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/ggml-org/llama.cpp)",
+      "n": "GPT-3 175B (Few-Shot)",
+      "d": "2020-05-28",
+      "m1": "75.4"
+    },
+    {
+      "p": "[Finetuned Language Models Are Zero-Shot Learners](https://arxiv.org/abs/2109.01652v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/hiyouga/llama-efficient-tuning)",
+      "n": "FLAN 137B (1-shot)",
+      "d": "2021-09-03",
+      "m1": "72.1"
+    },
+    {
+      "p": "[KELM: Knowledge Enhanced Pre-Trained Language Representations with Message Passing on Hierarchical Relational Graphs](https://arxiv.org/abs/2109.04223v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/nlp-anonymous-happy/anonymous-kg-guided-nlp)",
+      "n": "KELM (finetuning BERT-large based single model)",
+      "d": "2021-09-09",
+      "m1": "70.8",
+      "m2": "27.2"
+    },
+    {
+      "p": "[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "BERT-large(single model)",
+      "d": "2018-10-11",
+      "m1": "70.0",
+      "m2": "24.1"
+    },
+    {
+      "p": "[Ask Me Anything: A simple strategy for prompting language models](https://arxiv.org/abs/2210.02441v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hazyresearch/ama_prompting)",
+      "n": "Neo-6B (QA + WS)",
+      "d": "2022-10-05",
+      "m1": " 63.8"
+    },
+    {
+      "p": "[BloombergGPT: A Large Language Model for Finance](https://arxiv.org/abs/2303.17564v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yangletliu/finlora)",
+      "n": "Bloomberg GPT 50B (1-shot)",
+      "d": "2023-03-30",
+      "m1": "62.3"
+    },
+    {
+      "p": "[N-Grammer: Augmenting Transformers with latent n-grams](https://arxiv.org/abs/2207.06366v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/lingvo)",
+      "n": "N-Grammer 343M",
+      "d": "2022-07-13",
+      "m1": "62",
+      "m2": "11.3"
+    },
+    {
+      "p": "[Ask Me Anything: A simple strategy for prompting language models](https://arxiv.org/abs/2210.02441v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hazyresearch/ama_prompting)",
+      "n": "Neo-6B (few-shot)",
+      "d": "2022-10-05",
+      "m1": "60.8"
+    },
+    {
+      "p": "[AlexaTM 20B: Few-Shot Learning Using a Large-Scale Multilingual Seq2Seq Model](https://arxiv.org/abs/2208.01448v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/amazon-science/alexa-teacher-models)",
+      "n": "AlexaTM 20B",
+      "d": "2022-08-02",
+      "m1": "59.6"
+    },
+    {
+      "p": "[Ask Me Anything: A simple strategy for prompting language models](https://arxiv.org/abs/2210.02441v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hazyresearch/ama_prompting)",
+      "n": "Neo-6B (QA)",
+      "d": "2022-10-05",
+      "m1": "58.8"
+    },
+    {
+      "p": "[BloombergGPT: A Large Language Model for Finance](https://arxiv.org/abs/2303.17564v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yangletliu/finlora)",
+      "n": "BLOOM 176B (1-shot)",
+      "d": "2023-03-30",
+      "m1": "26.7"
+    },
+    {
+      "p": "[BloombergGPT: A Large Language Model for Finance](https://arxiv.org/abs/2303.17564v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yangletliu/finlora)",
+      "n": "GPT-NeoX 20B (1-shot)",
+      "d": "2023-03-30",
+      "m1": "22.9"
+    },
+    {
+      "p": "[BloombergGPT: A Large Language Model for Finance](https://arxiv.org/abs/2303.17564v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yangletliu/finlora)",
+      "n": "OPT 66B (1-shot)",
+      "d": "2023-03-30",
+      "m1": "18.8"
+    },
+    {
+      "p": "[Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "T5-11B",
+      "d": "2019-10-23",
+      "m2": "63.3"
+    },
+    {
+      "p": "[Hungry Hungry Hippos: Towards Language Modeling with State Space Models](https://arxiv.org/abs/2212.14052v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hazyresearch/safari)",
+      "n": "Hybrid H3 355M (3-shot, logit scoring)",
+      "d": "2022-12-28",
+      "m2": "59.7"
+    },
+    {
+      "p": "[Hungry Hungry Hippos: Towards Language Modeling with State Space Models](https://arxiv.org/abs/2212.14052v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hazyresearch/safari)",
+      "n": "Hybrid H3 355M (0-shot, logit scoring)",
+      "d": "2022-12-28",
+      "m2": "59.5"
+    },
+    {
+      "p": "[Hungry Hungry Hippos: Towards Language Modeling with State Space Models](https://arxiv.org/abs/2212.14052v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hazyresearch/safari)",
+      "n": "Hybrid H3 125M (0-shot, logit scoring)",
+      "d": "2022-12-28",
+      "m2": "51.4"
+    },
+    {
+      "p": "[Hungry Hungry Hippos: Towards Language Modeling with State Space Models](https://arxiv.org/abs/2212.14052v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hazyresearch/safari)",
+      "n": "Hybrid H3 125M (3-shot, logit scoring)",
+      "d": "2022-12-28",
+      "m2": "48.9"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

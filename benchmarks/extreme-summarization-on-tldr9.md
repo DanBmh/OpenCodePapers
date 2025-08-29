@@ -1,0 +1,85 @@
+# extreme-summarization-on-tldr9
+
+[Dataset Link](https://github.com/sajastu/reddit_collector) \
+Task Hierarchy: ['Extreme Summarization']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "RG-1(%)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "RG-2(%)",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "RG-L(%)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[TLDR9+: A Large Scale Resource for Extreme Summarization of Social Media Posts](https://arxiv.org/abs/2110.01159v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/sajastu/reddit_collector)",
+      "n": "ORACLE-EXT",
+      "d": "2021-10-04",
+      "m1": "30.26",
+      "m2": "9.74",
+      "m3": "20.60"
+    },
+    {
+      "p": "[TLDR9+: A Large Scale Resource for Extreme Summarization of Social Media Posts](https://arxiv.org/abs/2110.01159v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/sajastu/reddit_collector)",
+      "n": "BART",
+      "d": "2021-10-04",
+      "m1": "23.59",
+      "m2": "9.69",
+      "m3": "18.62"
+    },
+    {
+      "p": "[TLDR9+: A Large Scale Resource for Extreme Summarization of Social Media Posts](https://arxiv.org/abs/2110.01159v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/sajastu/reddit_collector)",
+      "n": "BERTSUMABS",
+      "d": "2021-10-04",
+      "m1": "23.05",
+      "m2": "9.48",
+      "m3": "18.07"
+    },
+    {
+      "p": "[TLDR9+: A Large Scale Resource for Extreme Summarization of Social Media Posts](https://arxiv.org/abs/2110.01159v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/sajastu/reddit_collector)",
+      "n": "BERTSUMEXT",
+      "d": "2021-10-04",
+      "m1": "20.94",
+      "m2": "4.98",
+      "m3": "14.48"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

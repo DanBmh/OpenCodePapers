@@ -1,0 +1,415 @@
+# facial-expression-recognition-on-affectnet
+
+[Dataset Link](http://mohammadmahoor.com/affectnet/) \
+Task Hierarchy: ['3D Face Reconstruction', 'Facial Recognition and Modelling', 'Facial Expression Recognition (FER)']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy (8 emotion)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Accuracy (7 emotion)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Norface: Improving Facial Expression Analysis by Identity Normalization](https://arxiv.org/abs/2407.15617v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/liuhw01/Norface)",
+      "n": "Norface",
+      "d": "2024-07-22",
+      "m1": "68.69"
+    },
+    {
+      "p": "[A Dual-Direction Attention Mixed Feature Network for Facial Expression Recognition](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=P4efBMcAAAAJ&citation_for_view=P4efBMcAAAAJ:d1gkVwhDpl0C)",
+      "c": "[&check;&nbsp;Link](https://github.com/simon20010923/DDAMFN)",
+      "n": "DDAMFN++",
+      "d": "2023-08-25",
+      "m1": "65.04",
+      "m2": "67.36"
+    },
+    {
+      "p": "[Representation Learning and Identity Adversarial Training for Facial Behavior Understanding](https://arxiv.org/abs/2407.11243v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/forever208/fmae-iat)",
+      "n": "FMAE",
+      "d": "2024-07-15",
+      "m1": "64.79"
+    },
+    {
+      "p": "[QCS: Feature Refining from Quadruplet Cross Similarity for Facial Expression Recognition](https://arxiv.org/abs/2411.01988v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/birdwcp/qcs)",
+      "n": "QCS",
+      "d": "2024-11-04",
+      "m1": "64.4",
+      "m2": "67.94"
+    },
+    {
+      "p": "[Batch Transformer: Look for Attention in Batch](https://arxiv.org/abs/2407.04218v1)",
+      "c": "",
+      "n": "BTN",
+      "d": "2024-07-05",
+      "m1": "64.29",
+      "m2": "67.60"
+    },
+    {
+      "p": "[A Dual-Direction Attention Mixed Feature Network for Facial Expression Recognition](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=P4efBMcAAAAJ&citation_for_view=P4efBMcAAAAJ:d1gkVwhDpl0C)",
+      "c": "[&check;&nbsp;Link](https://github.com/simon20010923/DDAMFN)",
+      "n": "DDAMFN",
+      "d": "2023-08-25",
+      "m1": "64.25",
+      "m2": "67.03"
+    },
+    {
+      "p": "[A novel deep learning approach for facial emotion recognition: application to detecting emotional responses in elderly individuals with Alzheimer\u2019s disease](https://link.springer.com/article/10.1007/s00521-024-10938-0)",
+      "c": "[&check;&nbsp;Link](https://github.com/yelboudouri/EmoNeXt)",
+      "n": "EmoNeXt",
+      "d": "2024-12-30",
+      "m1": "64.13",
+      "m2": "67.46"
+    },
+    {
+      "p": "[POSTER++: A simpler and stronger facial expression recognition network](https://arxiv.org/abs/2301.12149v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/talented-q/poster_v2)",
+      "n": "POSTER++",
+      "d": "2023-01-28",
+      "m1": "63.77",
+      "m2": "67.49"
+    },
+    {
+      "p": "[A Lightweight Model Enhancing Facial Expression Recognition with Spatial Bias and Cosine-Harmony Loss](https://www.preprints.org/manuscript/202408.1304/v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/1chenchen22/LFNSB)",
+      "n": "LFNSB",
+      "d": "2024-08-01",
+      "m1": "63.12",
+      "m2": "66.57"
+    },
+    {
+      "p": "[From Static to Dynamic: Adapting Landmark-Aware Image Models for Facial Expression Recognition in Videos](https://arxiv.org/abs/2312.05447v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/msa-lmc/s2d)",
+      "n": "S2D",
+      "d": "2023-12-09",
+      "m1": "63.06",
+      "m2": "67.62"
+    },
+    {
+      "p": "[Classifying emotions and engagement in online learning based on a single facial expression recognition neural network](https://ieeexplore.ieee.org/document/9815154)",
+      "c": "[&check;&nbsp;Link](https://github.com/HSE-asavchenko/face-emotion-recognition)",
+      "n": "Multi-task EfficientNet-B2",
+      "d": "2022-07-04",
+      "m1": "63.03",
+      "m2": "66.29"
+    },
+    {
+      "p": "[Expression, Affect, Action Unit Recognition: Aff-Wild2, Multi-Task Learning and ArcFace](https://arxiv.org/abs/1910.04855v1)",
+      "c": "",
+      "n": "MT-ArcRes",
+      "d": "2019-09-25",
+      "m1": "63"
+    },
+    {
+      "p": "[ExpLLM: Towards Chain of Thought for Facial Expression Recognition](https://arxiv.org/abs/2409.02828v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/starhiking/ExpLLM-TMM)",
+      "n": "ExpLLM",
+      "d": "2024-09-04",
+      "m1": "62.86",
+      "m2": "65.93"
+    },
+    {
+      "p": "[Emotion Separation and Recognition from a Facial Expression by Generating the Poker Face with Vision Transformers](https://arxiv.org/abs/2207.11081v4)",
+      "c": "",
+      "n": "Vit-base + MAE",
+      "d": "2022-07-22",
+      "m1": "62.42"
+    },
+    {
+      "p": "[CAGE: Circumplex Affect Guided Expression Inference](https://arxiv.org/abs/2404.14975v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/wagner-niklas/cage_expression_inference)",
+      "n": "CAGE",
+      "d": "2024-04-23",
+      "m1": "62.2",
+      "m2": "66.6"
+    },
+    {
+      "p": "[Distract Your Attention: Multi-head Cross Attention Network for Facial Expression Recognition](https://arxiv.org/abs/2109.07270v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/yaoing/dan)",
+      "n": "DAN",
+      "d": "2021-09-15",
+      "m1": "62.09",
+      "m2": "65.69"
+    },
+    {
+      "p": "[Using Self-Supervised Auxiliary Tasks to Improve Fine-Grained Facial Representation](https://arxiv.org/abs/2105.06421v3)",
+      "c": "",
+      "n": "SL + SSL in-panting-pl (B0)",
+      "d": "2021-05-13",
+      "m1": "61.72"
+    },
+    {
+      "p": "[Leveraging Recent Advances in Deep Learning for Audio-Visual Emotion Recognition](https://arxiv.org/abs/2103.09154v2)",
+      "c": "",
+      "n": "Distilled student",
+      "d": "2021-03-16",
+      "m1": "61.60",
+      "m2": "65.4"
+    },
+    {
+      "p": "[Facial expression and attributes recognition based on multi-task learning of lightweight neural networks](https://arxiv.org/abs/2103.17107)",
+      "c": "[&check;&nbsp;Link](https://github.com/HSE-asavchenko/face-emotion-recognition)",
+      "n": "Multi-task EfficientNet-B0",
+      "d": "2021-03-31",
+      "m1": "61.32",
+      "m2": "65.74"
+    },
+    {
+      "p": "[Using Self-Supervised Auxiliary Tasks to Improve Fine-Grained Facial Representation](https://arxiv.org/abs/2105.06421v3)",
+      "c": "",
+      "n": "SL + SSL puzzling (B2)",
+      "d": "2021-05-13",
+      "m1": "61.32"
+    },
+    {
+      "p": "[Using Self-Supervised Auxiliary Tasks to Improve Fine-Grained Facial Representation](https://arxiv.org/abs/2105.06421v3)",
+      "c": "",
+      "n": "SL + SSL puzzling (B0)",
+      "d": "2021-05-13",
+      "m1": "61.09"
+    },
+    {
+      "p": "[Pyramid With Super Resolution for In-the-Wild Facial Expression Recognition](https://doi.org/10.1109/ACCESS.2020.3010018)",
+      "c": "[&check;&nbsp;Link](https://github.com/thanhhungqb/pyramid-super-resolution)",
+      "n": "PSR (VGG-16)",
+      "d": "2020-07-17",
+      "m1": "60.68",
+      "m2": "-"
+    },
+    {
+      "p": "[Deep Neural Network Augmentation: Generating Faces for Affect Analysis](https://arxiv.org/abs/1811.05027v2)",
+      "c": "",
+      "n": "VGG-FACE",
+      "d": "2018-11-12",
+      "m1": "60.40"
+    },
+    {
+      "p": "[Using Self-Supervised Auxiliary Tasks to Improve Fine-Grained Facial Representation](https://arxiv.org/abs/2105.06421v3)",
+      "c": "",
+      "n": "SL (B2)",
+      "d": "2021-05-13",
+      "m1": "60.35"
+    },
+    {
+      "p": "[Using Self-Supervised Auxiliary Tasks to Improve Fine-Grained Facial Representation](https://arxiv.org/abs/2105.06421v3)",
+      "c": "",
+      "n": "SL (B0)",
+      "d": "2021-05-13",
+      "m1": "60.34"
+    },
+    {
+      "p": "[Learning Deep Global Multi-scale and Local Attention Features for Facial Expression Recognition in the Wild](https://ieeexplore.ieee.org/document/9474949)",
+      "c": "[&check;&nbsp;Link](https://github.com/zengqunzhao/ma-net)",
+      "n": "MA-Net",
+      "d": "2021-07-05",
+      "m1": "60.29",
+      "m2": "64.53"
+    },
+    {
+      "p": "[Robust Lightweight Facial Expression Recognition Network with Label Distribution Training](https://ojs.aaai.org/index.php/AAAI/article/view/16465)",
+      "c": "[&check;&nbsp;Link](https://github.com/zengqunzhao/efficientface)",
+      "n": "EfficientFace",
+      "d": "2021-05-18",
+      "m1": "59.89",
+      "m2": "63.70"
+    },
+    {
+      "p": "[Local Learning with Deep and Handcrafted Features for Facial Expression Recognition](https://arxiv.org/abs/1804.10892v7)",
+      "c": "",
+      "n": "CNNs and BOVW + local SVM",
+      "d": "2018-04-29",
+      "m1": "59.58",
+      "m2": "63.31"
+    },
+    {
+      "p": "[Region Attention Networks for Pose and Occlusion Robust Facial Expression Recognition](https://arxiv.org/abs/1905.04075v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/kaiwang960112/Challenge-condition-FER-dataset)",
+      "n": "RAN (ResNet-18+)",
+      "d": "2019-05-10",
+      "m1": "59.5",
+      "m2": "-"
+    },
+    {
+      "p": "[Efficient Facial Feature Learning with Wide Ensemble-based Convolutional Neural Networks](https://arxiv.org/abs/2001.06338v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/siqueira-hc/Efficient-Facial-Feature-Learning-with-Wide-Ensemble-based-Convolutional-Neural-Networks)",
+      "n": "Ensemble with Shared Representations (ESR-9)",
+      "d": "2020-01-17",
+      "m1": "59.3",
+      "m2": "-"
+    },
+    {
+      "p": "[Emotion Separation and Recognition from a Facial Expression by Generating the Poker Face with Vision Transformers](https://arxiv.org/abs/2207.11081v4)",
+      "c": "",
+      "n": "ViT-tiny",
+      "d": "2022-07-22",
+      "m1": "58.28"
+    },
+    {
+      "p": "[AffectNet: A Database for Facial Expression, Valence, and Arousal Computing in the Wild](http://arxiv.org/abs/1708.03985v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/jonathangiguere/Emotion_Image_Classifier)",
+      "n": "Weighted-Loss",
+      "d": "2017-08-14",
+      "m1": "58.0",
+      "m2": "-"
+    },
+    {
+      "p": "[Emotion Separation and Recognition from a Facial Expression by Generating the Poker Face with Vision Transformers](https://arxiv.org/abs/2207.11081v4)",
+      "c": "",
+      "n": "ViT-base",
+      "d": "2022-07-22",
+      "m1": "57.99"
+    },
+    {
+      "p": "[Using Self-Supervised Auxiliary Tasks to Improve Fine-Grained Facial Representation](https://arxiv.org/abs/2105.06421v3)",
+      "c": "",
+      "n": "SL+ SSL in-painting-pl + 20% train (B0)",
+      "d": "2021-05-13",
+      "m1": "55.36"
+    },
+    {
+      "p": "[Using Self-Supervised Auxiliary Tasks to Improve Fine-Grained Facial Representation](https://arxiv.org/abs/2105.06421v3)",
+      "c": "",
+      "n": "SL+ SSL puzzling + 20% train (B0)",
+      "d": "2021-05-13",
+      "m1": "54.98"
+    },
+    {
+      "p": "[Exploring Emotion Features and Fusion Strategies for Audio-Video Emotion Recognition](https://arxiv.org/abs/2012.13912v1)",
+      "c": "",
+      "n": "LResNet50E-IR",
+      "d": "2020-12-27",
+      "m1": "53.925"
+    },
+    {
+      "p": "[Using Self-Supervised Auxiliary Tasks to Improve Fine-Grained Facial Representation](https://arxiv.org/abs/2105.06421v3)",
+      "c": "",
+      "n": "SL + 20% train (B0)",
+      "d": "2021-05-13",
+      "m1": "52.46"
+    },
+    {
+      "p": "[ResEmoteNet: Bridging Accuracy and Loss Reduction in Facial Emotion Recognition](https://arxiv.org/abs/2409.10545v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ArnabKumarRoy02/ResEmoteNet)",
+      "n": "ResEmoteNet",
+      "d": "2024-09-01",
+      "m2": "72.93"
+    },
+    {
+      "p": "[In Search of a Robust Facial Expressions Recognition Model: A Large-Scale Visual Cross-Corpus Study](https://www.sciencedirect.com/science/article/abs/pii/S0925231222012656)",
+      "c": "[&check;&nbsp;Link](https://github.com/ElenaRyumina/EMO-AffectNetModel)",
+      "n": "EmoAffectNet",
+      "d": "2022-10-07",
+      "m2": "66.49"
+    },
+    {
+      "p": "[Exploiting Emotional Dependencies with Graph Convolutional Networks for Facial Expression Recognition](https://arxiv.org/abs/2106.03487v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/PanosAntoniadis/emotion-gcn)",
+      "n": "Emotion-GCN",
+      "d": "2021-06-07",
+      "m2": "66.46"
+    },
+    {
+      "p": "[Distribution Matching for Heterogeneous Multi-Task Learning: a Large-scale Face Study](https://arxiv.org/abs/2105.03790v1)",
+      "c": "",
+      "n": "FaceBehaviorNet",
+      "d": "2021-05-08",
+      "m2": "65.40"
+    },
+    {
+      "p": "[A Dual-Branch Adaptive Distribution Fusion Framework for Real-World Facial Expression Recognition](https://ieeexplore.ieee.org/document/10097033)",
+      "c": "[&check;&nbsp;Link](https://github.com/taylor-xy0827/Ada-DF)",
+      "n": "Ada-DF",
+      "d": "2023-05-05",
+      "m2": "65.34"
+    },
+    {
+      "p": "[Learn From All: Erasing Attention Consistency for Noisy Label Facial Expression Recognition](https://arxiv.org/abs/2207.10299v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zyh-uaiaaaa/erasing-attention-consistency)",
+      "n": "EAC",
+      "d": "2022-07-21",
+      "m2": "65.32"
+    },
+    {
+      "p": "[Increasingly Packing Multiple Facial-Informatics Modules in A Unified Deep-Learning Model via Lifelong Learning](https://dl.acm.org/doi/10.1145/3323873.3325053)",
+      "c": "[&check;&nbsp;Link](https://github.com/ivclab/CPG)",
+      "n": "PAENet",
+      "d": "2019-06-10",
+      "m2": "65.29"
+    },
+    {
+      "p": "[Facial Expression Recognition in the Wild via Deep Attentive Center Loss](https://openaccess.thecvf.com/content/WACV2021/html/Farzaneh_Facial_Expression_Recognition_in_the_Wild_via_Deep_Attentive_Center_WACV_2021_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/amirhfarzaneh/dacl)",
+      "n": "DACL",
+      "d": "2021-01-07",
+      "m2": "65.20"
+    },
+    {
+      "p": "[FerNeXt: Facial Expression Recognition Using ConvNeXt with Channel Attention](https://ieeexplore.ieee.org/document/10278345)",
+      "c": "[&check;&nbsp;Link](https://github.com/OmarEl-Khashab/FerNeXt-Facial-Expression-Recognition-Using-ConvNeXt-with-Channel-Attention)",
+      "n": "FerNeXt",
+      "d": "2023-10-20",
+      "m2": "64.77"
+    },
+    {
+      "p": "[Compacting, Picking and Growing for Unforgetting Continual Learning](https://arxiv.org/abs/1910.06562v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/ivclab/CPG)",
+      "n": "CPG",
+      "d": "2019-10-15",
+      "m2": "63.57"
+    },
+    {
+      "p": "[Ad-Corre: Adaptive Correlation-Based Loss for Facial Expression Recognition in the Wild](https://ieeexplore.ieee.org/document/9727163)",
+      "c": "[&check;&nbsp;Link](https://github.com/aliprf/Ad-Corre)",
+      "n": "Ad-Corre",
+      "d": "2022-03-03",
+      "m2": "63.36"
+    },
+    {
+      "p": "[CAKE: Compact and Accurate K-dimensional representation of Emotion](http://arxiv.org/abs/1807.11215v2)",
+      "c": "",
+      "n": "CAKE",
+      "d": "2018-07-30",
+      "m2": "61.7"
+    },
+    {
+      "p": "[Facial Motion Prior Networks for Facial Expression Recognition](https://arxiv.org/abs/1902.08788v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/donydchen/FMPN-FER)",
+      "n": "Facial Motion Prior Network",
+      "d": "2019-02-23",
+      "m2": "61.52"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

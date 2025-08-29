@@ -1,0 +1,247 @@
+# 3d-human-reconstruction-on-4d-dress
+
+[Dataset Link](https://ait.ethz.ch/4d-dress) \
+Task Hierarchy: ['Reconstruction', '3D Human Reconstruction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Chamfer (cm)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Normal Consistency",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "IoU",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[SCANimate: Weakly Supervised Learning of Skinned Clothed Avatar Networks](https://arxiv.org/abs/2104.03313v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/shunsukesaito/SCANimate)",
+      "n": "SCANimate_Inner",
+      "d": "2021-04-07",
+      "m1": "0.965",
+      "m2": "0.854",
+      "m3": " 0.918"
+    },
+    {
+      "p": "[X-Avatar: Expressive Human Avatars](https://arxiv.org/abs/2303.04805v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Skype-line/X-Avatar)",
+      "n": "X-Avatar_Inner",
+      "d": "2023-03-08",
+      "m1": "1.008",
+      "m2": "0.861",
+      "m3": "0.954"
+    },
+    {
+      "p": "[SNARF: Differentiable Forward Skinning for Animating Non-Rigid Neural Implicit Shapes](https://arxiv.org/abs/2104.03953v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/xuchen-ethz/SNARF)",
+      "n": "SNARF_Inner",
+      "d": "2021-04-08",
+      "m1": "1.158",
+      "m2": "0.843",
+      "m3": "0.907"
+    },
+    {
+      "p": "[X-Avatar: Expressive Human Avatars](https://arxiv.org/abs/2303.04805v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Skype-line/X-Avatar)",
+      "n": "X-Avatar_Outer",
+      "d": "2023-03-08",
+      "m1": "1.177",
+      "m2": "0.841",
+      "m3": "0.946"
+    },
+    {
+      "p": "[SCANimate: Weakly Supervised Learning of Skinned Clothed Avatar Networks](https://arxiv.org/abs/2104.03313v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/shunsukesaito/SCANimate)",
+      "n": "SCANimate_Outer",
+      "d": "2021-04-07",
+      "m1": "1.237",
+      "m2": "0.828",
+      "m3": "0.912"
+    },
+    {
+      "p": "[SNARF: Differentiable Forward Skinning for Animating Non-Rigid Neural Implicit Shapes](https://arxiv.org/abs/2104.03953v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/xuchen-ethz/SNARF)",
+      "n": "SNARF_Outer",
+      "d": "2021-04-08",
+      "m1": "1.248",
+      "m2": "0.827",
+      "m3": "0.930"
+    },
+    {
+      "p": "[SiTH: Single-view Textured Human Reconstruction with Image-Conditioned Diffusion](https://arxiv.org/abs/2311.15855v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/SiTH-Diffusion/SiTH)",
+      "n": "SiTH_Inner",
+      "d": "2023-11-27",
+      "m1": "2.110",
+      "m2": "0.824",
+      "m3": "0.755"
+    },
+    {
+      "p": "[SiTH: Single-view Textured Human Reconstruction with Image-Conditioned Diffusion](https://arxiv.org/abs/2311.15855v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/SiTH-Diffusion/SiTH)",
+      "n": "SiTH_Outer",
+      "d": "2023-11-27",
+      "m1": "2.322",
+      "m2": "0.794",
+      "m3": "0.749"
+    },
+    {
+      "p": "[PIFuHD: Multi-Level Pixel-Aligned Implicit Function for High-Resolution 3D Human Digitization](https://arxiv.org/abs/2004.00452v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/pifuhd)",
+      "n": "PIFuHD_Outer",
+      "d": "2020-04-01",
+      "m1": "2.393",
+      "m2": "0.763",
+      "m3": "0.743"
+    },
+    {
+      "p": "[PIFuHD: Multi-Level Pixel-Aligned Implicit Function for High-Resolution 3D Human Digitization](https://arxiv.org/abs/2004.00452v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/pifuhd)",
+      "n": "PIFuHD_Inner",
+      "d": "2020-04-01",
+      "m1": "2.426",
+      "m2": "0.793",
+      "m3": "0.739"
+    },
+    {
+      "p": "[ICON: Implicit Clothed humans Obtained from Normals](https://arxiv.org/abs/2112.09127v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/yuliangxiu/icon)",
+      "n": "ICON_Inner",
+      "d": "2021-12-16",
+      "m1": "2.473",
+      "m2": "0.798",
+      "m3": "0.752"
+    },
+    {
+      "p": "[PaMIR: Parametric Model-Conditioned Implicit Representation for Image-based Human Reconstruction](https://arxiv.org/abs/2007.03858v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ZhengZerong/PaMIR)",
+      "n": "PaMIR_Inner",
+      "d": "2020-07-08",
+      "m1": "2.520",
+      "m2": "0.805",
+      "m3": "0.706"
+    },
+    {
+      "p": "[ECON: Explicit Clothed humans Optimized via Normal integration](https://arxiv.org/abs/2212.07422v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/YuliangXiu/ECON)",
+      "n": "ECON_Inner",
+      "d": "2022-12-14",
+      "m1": "2.543",
+      "m2": "0.796",
+      "m3": "0.736"
+    },
+    {
+      "p": "[PaMIR: Parametric Model-Conditioned Implicit Representation for Image-based Human Reconstruction](https://arxiv.org/abs/2007.03858v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ZhengZerong/PaMIR)",
+      "n": "PaMIR_Outer",
+      "d": "2020-07-08",
+      "m1": "2.608",
+      "m2": "0.777",
+      "m3": "0.715"
+    },
+    {
+      "p": "[PIFu: Pixel-Aligned Implicit Function for High-Resolution Clothed Human Digitization](https://arxiv.org/abs/1905.05172v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/shunsukesaito/PIFu)",
+      "n": "PIFu_Inner",
+      "d": "2019-05-13",
+      "m1": "2.696",
+      "m2": "0.792",
+      "m3": "0.690"
+    },
+    {
+      "p": "[PIFu: Pixel-Aligned Implicit Function for High-Resolution Clothed Human Digitization](https://arxiv.org/abs/1905.05172v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/shunsukesaito/PIFu)",
+      "n": "PIFu_Outer",
+      "d": "2019-05-13",
+      "m1": "2.783",
+      "m2": "0.759",
+      "m3": "0.697"
+    },
+    {
+      "p": "[ICON: Implicit Clothed humans Obtained from Normals](https://arxiv.org/abs/2112.09127v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/yuliangxiu/icon)",
+      "n": "ICON_Outer",
+      "d": "2021-12-16",
+      "m1": "2.832",
+      "m2": "0.762",
+      "m3": "0.756"
+    },
+    {
+      "p": "[ECON: Explicit Clothed humans Optimized via Normal integration](https://arxiv.org/abs/2212.07422v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/YuliangXiu/ECON)",
+      "n": "ECON_Outer",
+      "d": "2022-12-14",
+      "m1": "2.852",
+      "m2": "0.760",
+      "m3": "0.728"
+    },
+    {
+      "p": "[Vid2Avatar: 3D Avatar Reconstruction from Videos in the Wild via Self-supervised Scene Decomposition](https://arxiv.org/abs/2302.11566v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/MoyGcc/vid2avatar)",
+      "n": "Vid2Avatar_Inner",
+      "d": "2023-02-22",
+      "m1": "2.870",
+      "m2": "0.750",
+      "m3": " 0.772"
+    },
+    {
+      "p": "[SelfRecon: Self Reconstruction Your Digital Avatar from Monocular Video](https://arxiv.org/abs/2201.12792v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jby1993/selfreconcode)",
+      "n": "SelfRecon_Outer",
+      "d": "2022-01-30",
+      "m1": "3.014",
+      "m2": "0.725",
+      "m3": "0.787"
+    },
+    {
+      "p": "[SelfRecon: Self Reconstruction Your Digital Avatar from Monocular Video](https://arxiv.org/abs/2201.12792v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jby1993/selfreconcode)",
+      "n": "SelfRecon_Inner",
+      "d": "2022-01-30",
+      "m1": "3.180",
+      "m2": "0.729",
+      "m3": "0.754"
+    },
+    {
+      "p": "[Vid2Avatar: 3D Avatar Reconstruction from Videos in the Wild via Self-supervised Scene Decomposition](https://arxiv.org/abs/2302.11566v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/MoyGcc/vid2avatar)",
+      "n": "Vid2Avatar_Outer",
+      "d": "2023-02-22",
+      "m1": "4.027",
+      "m2": "0.683",
+      "m3": "0.745"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

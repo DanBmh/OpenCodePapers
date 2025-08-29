@@ -1,0 +1,124 @@
+# cloud-removal-on-sen12ms-cr-ts
+
+[Dataset Link](https://patricktum.github.io/cloud_removal/) \
+Task Hierarchy: ['Image Inpainting', 'Cloud Removal']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "RMSE",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "SSIM",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "SAM",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Cloud Removal in Remote Sensing Using Sequential-Based Diffusion Models](https://www.mdpi.com/2072-4292/15/11/2861)",
+      "c": "",
+      "n": "SeqDMs",
+      "d": "2023-05-31",
+      "m1": "0.045",
+      "m2": "28.07",
+      "m3": "0.827",
+      "m4": "12.777"
+    },
+    {
+      "p": "[UnCRtainTS: Uncertainty Quantification for Cloud Removal in Optical Satellite Time Series](https://arxiv.org/abs/2304.05464v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PatrickTUM/UnCRtainTS)",
+      "n": "UnCRtainTS L2",
+      "d": "2023-04-11",
+      "m1": "0.049",
+      "m2": "27.23",
+      "m3": "0.859",
+      "m4": "10.168"
+    },
+    {
+      "p": "[UnCRtainTS: Uncertainty Quantification for Cloud Removal in Optical Satellite Time Series](https://arxiv.org/abs/2304.05464v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PatrickTUM/UnCRtainTS)",
+      "n": "UnCRtainTS \u03c3",
+      "d": "2023-04-11",
+      "m1": "0.051",
+      "m2": "27.84",
+      "m3": "0.866",
+      "m4": "10.160"
+    },
+    {
+      "p": "[Panoptic Segmentation of Satellite Image Time Series with Convolutional Temporal Attention Networks](https://arxiv.org/abs/2107.07933v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/VSainteuf/utae-paps)",
+      "n": "U-TAE",
+      "d": "2021-07-16",
+      "m1": "0.051",
+      "m2": "27.05",
+      "m3": "0.849",
+      "m4": "11.649"
+    },
+    {
+      "p": "[SEN12MS-CR-TS: A Remote Sensing Data Set for Multi-modal Multi-temporal Cloud Removal](https://arxiv.org/abs/2201.09613v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PatrickTUM/SEN12MS-CR-TS)",
+      "n": "CR-TS Net",
+      "d": "2022-01-24",
+      "m1": "0.051",
+      "m2": "26.68",
+      "m3": "0.836",
+      "m4": "10.657"
+    },
+    {
+      "p": "[Cloud Removal in Satellite Images Using Spatiotemporal Generative Networks](https://arxiv.org/abs/1912.06838v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PatrickTUM/SEN12MS-CR-TS)",
+      "n": "STGAN",
+      "d": "2019-12-14",
+      "m1": "0.057",
+      "m2": "25.42",
+      "m3": "0.818",
+      "m4": "12.548"
+    },
+    {
+      "p": "[Cloud removal in Sentinel-2 imagery using a deep residual neural network and SAR-optical data fusion](https://www.sciencedirect.com/science/article/pii/S0924271620301398)",
+      "c": "[&check;&nbsp;Link](https://github.com/ameraner/dsen2-cr)",
+      "n": "DSen2-CR",
+      "d": "2020-07-02",
+      "m1": "0.060",
+      "m2": "26.04",
+      "m3": "0.810",
+      "m4": "12.147"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

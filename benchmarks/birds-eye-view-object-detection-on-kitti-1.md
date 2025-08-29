@@ -1,0 +1,81 @@
+# birds-eye-view-object-detection-on-kitti-1
+
+[Dataset Link](http://www.cvlibs.net/datasets/kitti/) \
+Task Hierarchy: ['Birds Eye View Object Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AP",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Frustum-PointPillars: A Multi-Stage Approach for 3D Object Detection using RGB Camera and LiDAR](https://ieeexplore.ieee.org/document/9607424)",
+      "c": "[&check;&nbsp;Link](https://github.com/anshulpaigwar/Frustum-Pointpillars)",
+      "n": "Frustrum-PointPillars",
+      "d": "2021-10-11",
+      "m1": "52.23 %"
+    },
+    {
+      "p": "[STD: Sparse-to-Dense 3D Object Detector for Point Cloud](https://arxiv.org/abs/1907.10471v1)",
+      "c": "",
+      "n": "STD",
+      "d": "2019-07-22",
+      "m1": "51.39%"
+    },
+    {
+      "p": "[Joint 3D Proposal Generation and Object Detection from View Aggregation](http://arxiv.org/abs/1712.02294v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/kujason/avod)",
+      "n": "AVOD-FPN",
+      "d": "2017-12-06",
+      "m1": "51.05%"
+    },
+    {
+      "p": "[PointPillars: Fast Encoders for Object Detection from Point Clouds](https://arxiv.org/abs/1812.05784v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection3d)",
+      "n": "PointPillars",
+      "d": "2018-12-14",
+      "m1": "50.23%"
+    },
+    {
+      "p": "[Frustum PointNets for 3D Object Detection from RGB-D Data](http://arxiv.org/abs/1711.08488v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/charlesq34/pointnet)",
+      "n": "F-PointNet",
+      "d": "2017-11-22",
+      "m1": "50.22%"
+    },
+    {
+      "p": "[VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection](http://arxiv.org/abs/1711.06396v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/qianguih/voxelnet)",
+      "n": "VoxelNet",
+      "d": "2017-11-17",
+      "m1": "40.74%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

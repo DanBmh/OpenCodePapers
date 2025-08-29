@@ -1,0 +1,68 @@
+# data-to-text-generation-on-mlb-dataset-1
+
+[Dataset Link]() \
+Task Hierarchy: ['Data-to-Text Generation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Precision",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Recall",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[May the Force Be with Your Copy Mechanism: Enhanced Supervised-Copy Method for Natural Language Generation](https://arxiv.org/abs/2112.10360v1)",
+      "c": "",
+      "n": "Force-Copy",
+      "d": "2021-12-20",
+      "m1": "49.39",
+      "m2": "50.89"
+    },
+    {
+      "p": "[Data-to-text Generation with Variational Sequential Planning](https://arxiv.org/abs/2202.13756v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ratishsp/data2text-seq-plan-py)",
+      "n": "SeqPlan",
+      "d": "2022-02-28",
+      "m1": "43.3",
+      "m2": "53.5"
+    },
+    {
+      "p": "[Data-to-text Generation with Macro Planning](https://arxiv.org/abs/2102.02723v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ratishsp/data2text-macro-plan-py)",
+      "n": "Macro",
+      "d": "2021-02-04",
+      "m1": "40.8",
+      "m2": "54.9"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

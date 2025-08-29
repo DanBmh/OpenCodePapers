@@ -1,0 +1,81 @@
+# medical-image-segmentation-on-isic-2018-1
+
+[Dataset Link]() \
+Task Hierarchy: ['Medical Image Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "DSC",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "mIoU",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[ProMISe: Promptable Medical Image Segmentation using SAM](https://arxiv.org/abs/2403.04164v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/xinkunwang111/promise)",
+      "n": "ProMISe",
+      "d": "2024-03-07",
+      "m1": "92.10",
+      "m2": "85.00"
+    },
+    {
+      "p": "[G-CASCADE: Efficient Cascaded Graph Convolutional Decoding for 2D Medical Image Segmentation](https://arxiv.org/abs/2310.16175v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SLDGroup/G-CASCADE)",
+      "n": "PVT-GCASCADE",
+      "d": "2023-10-24",
+      "m1": "91.51",
+      "m2": "86.53"
+    },
+    {
+      "p": "[EMCAD: Efficient Multi-scale Convolutional Attention Decoding for Medical Image Segmentation](https://arxiv.org/abs/2405.06880v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/sldgroup/emcad)",
+      "n": "EMCAD",
+      "d": "2024-05-11",
+      "m1": "90.96"
+    },
+    {
+      "p": "[UNeXt: MLP-based Rapid Medical Image Segmentation Network](https://arxiv.org/abs/2203.04967v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jeya-maria-jose/Medical-Transformer)",
+      "n": "UNeXt",
+      "d": "2022-03-09",
+      "m1": "89.70"
+    },
+    {
+      "p": "[FANet: A Feedback Attention Network for Improved Biomedical Image Segmentation](https://arxiv.org/abs/2103.17235v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/nikhilroxtomar/fanet)",
+      "n": "FANet",
+      "d": "2021-03-31",
+      "m1": "87.31"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

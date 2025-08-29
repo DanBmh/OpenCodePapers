@@ -1,0 +1,67 @@
+# abnormal-event-detection-in-video-on-ucsd
+
+[Dataset Link](http://www.svcl.ucsd.edu/projects/anomaly/dataset.htm) \
+Task Hierarchy: ['Abnormal Event Detection In Video']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AUC",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[An Attribute-based Method for Video Anomaly Detection](https://arxiv.org/abs/2212.00789v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/openvinotoolkit/anomalib/tree/main/src/anomalib/models/ai_vad)",
+      "n": "AI-VAD",
+      "d": "2022-12-01",
+      "m1": "99.1"
+    },
+    {
+      "p": "[A Background-Agnostic Framework with Adversarial Training for Abnormal Event Detection in Video](https://arxiv.org/abs/2008.12328v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/m-3lab/awesome-visual-sensory-anomaly-detection)",
+      "n": "Background-Agnostic Framework",
+      "d": "2020-08-27",
+      "m1": "98.7%"
+    },
+    {
+      "p": "[Anomaly Detection in Video via Self-Supervised and Multi-Task Learning](https://arxiv.org/abs/2011.07491v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/lilygeorgescu/AED-SSMTL)",
+      "n": "SSMTL",
+      "d": "2020-11-15",
+      "m1": "97.5%"
+    },
+    {
+      "p": "[Abnormal Event Detection in Videos using Generative Adversarial Nets](http://arxiv.org/abs/1708.09644v1)",
+      "c": "",
+      "n": "Adversarial Generator",
+      "d": "2017-08-31",
+      "m1": "97.4%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

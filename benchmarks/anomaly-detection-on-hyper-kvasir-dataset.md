@@ -1,0 +1,81 @@
+# anomaly-detection-on-hyper-kvasir-dataset
+
+[Dataset Link](https://datasets.simula.no/hyper-kvasir/) \
+Task Hierarchy: ['Anomaly Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AUC",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Constrained Contrastive Distribution Learning for Unsupervised Anomaly Detection and Localisation in Medical Images](https://arxiv.org/abs/2103.03423v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tianyu0207/CCD)",
+      "n": "CCD",
+      "d": "2021-03-05",
+      "m1": "0.972"
+    },
+    {
+      "p": "[Deep One-Class Classification via Interpolated Gaussian Descriptor](https://arxiv.org/abs/2101.10043v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/tianyu0207/IGD)",
+      "n": "IGD",
+      "d": "2021-01-25",
+      "m1": "0.939"
+    },
+    {
+      "p": "[PANDA: Adapting Pretrained Features for Anomaly Detection and Segmentation](https://arxiv.org/abs/2010.05903v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/talreiss/PANDA)",
+      "n": "PANDA",
+      "d": "2020-10-12",
+      "m1": "0.937"
+    },
+    {
+      "p": "[PaDiM: a Patch Distribution Modeling Framework for Anomaly Detection and Localization](https://arxiv.org/abs/2011.08785v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/openvinotoolkit/anomalib)",
+      "n": "PaDiM",
+      "d": "2020-11-17",
+      "m1": "0.923 "
+    },
+    {
+      "p": "[f-AnoGAN: Fast Unsupervised Anomaly Detection with Generative Adversarial Networks](https://www.sciencedirect.com/science/article/abs/pii/S1361841518302640)",
+      "c": "[&check;&nbsp;Link](https://github.com/tSchlegl/f-AnoGAN)",
+      "n": "F-Anogan",
+      "d": "2019-01-30",
+      "m1": "0.907"
+    },
+    {
+      "p": "[OCGAN: One-class Novelty Detection Using GANs with Constrained Latent Representations](http://arxiv.org/abs/1903.08550v1)",
+      "c": "",
+      "n": "OCGAN",
+      "d": "2019-03-20",
+      "m1": "0.813"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

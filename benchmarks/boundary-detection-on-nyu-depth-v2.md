@@ -1,0 +1,60 @@
+# boundary-detection-on-nyu-depth-v2
+
+[Dataset Link](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html) \
+Task Hierarchy: ['Boundary Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "odsF",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[InvPT: Inverted Pyramid Multi-task Transformer for Dense Scene Understanding](https://arxiv.org/abs/2203.07997v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/prismformore/InvPT)",
+      "n": "InvPT",
+      "d": "2022-03-15",
+      "m1": "78.1"
+    },
+    {
+      "p": "[Prompt Guided Transformer for Multi-Task Dense Prediction](https://arxiv.org/abs/2307.15362v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/innovator-zero/MTDP_Lib)",
+      "n": "PGT (Swin-S)",
+      "d": "2023-07-28",
+      "m1": "78.04"
+    },
+    {
+      "p": "[Prompt Guided Transformer for Multi-Task Dense Prediction](https://arxiv.org/abs/2307.15362v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/innovator-zero/MTDP_Lib)",
+      "n": "PGT (Swin-T)",
+      "d": "2023-07-28",
+      "m1": "77.05"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

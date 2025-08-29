@@ -1,0 +1,83 @@
+# speech-separation-on-lrs3
+
+[Dataset Link]() \
+Task Hierarchy: ['Speech Separation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "SI-SNRi",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "SDRi",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[IIANet: An Intra- and Inter-Modality Attention Network for Audio-Visual Speech Separation](https://arxiv.org/abs/2308.08143v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/JusperLee/IIANet)",
+      "n": "IIANet",
+      "d": "2023-08-16",
+      "m1": "18.3",
+      "m2": "18.5"
+    },
+    {
+      "p": "[RTFS-Net: Recurrent Time-Frequency Modelling for Efficient Audio-Visual Speech Separation](https://arxiv.org/abs/2309.17189v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/spkgyk/RTFS-Net)",
+      "n": "RTFS-Net-12",
+      "d": "2023-09-29",
+      "m1": "17.5",
+      "m2": "17.6"
+    },
+    {
+      "p": "[An Audio-Visual Speech Separation Model Inspired by Cortico-Thalamo-Cortical Circuits](https://arxiv.org/abs/2212.10744v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jusperlee/lrs3-for-speech-separation)",
+      "n": "CTCNet",
+      "d": "2022-12-21",
+      "m1": "17.4"
+    },
+    {
+      "p": "[RTFS-Net: Recurrent Time-Frequency Modelling for Efficient Audio-Visual Speech Separation](https://arxiv.org/abs/2309.17189v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/spkgyk/RTFS-Net)",
+      "n": "RTFS-Net-6",
+      "d": "2023-09-29",
+      "m1": "16.9",
+      "m2": "17.1"
+    },
+    {
+      "p": "[RTFS-Net: Recurrent Time-Frequency Modelling for Efficient Audio-Visual Speech Separation](https://arxiv.org/abs/2309.17189v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/spkgyk/RTFS-Net)",
+      "n": "RTFS-Net-4",
+      "d": "2023-09-29",
+      "m1": "15.5",
+      "m2": "15.6"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,281 @@
+# anomaly-detection-on-shanghaitech
+
+[Dataset Link](https://svip-lab.github.io/dataset/campus_dataset.html) \
+Task Hierarchy: ['Anomaly Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AUC",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "RBDC",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "TBDC",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Divide and Conquer in Video Anomaly Detection: A Comprehensive Review and New Approach](https://arxiv.org/abs/2309.14622v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/XiaoJian923/Divide-and-Conquer)",
+      "n": "DAC(STG-NF + Jigsaw)",
+      "d": "2023-09-26",
+      "m1": "87.72%"
+    },
+    {
+      "p": "[MULDE: Multiscale Log-Density Estimation via Denoising Score Matching for Video Anomaly Detection](https://arxiv.org/abs/2403.14497v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jakubmicorek/MULDE-Multiscale-Log-Density-Estimation-via-Denoising-Score-Matching-for-Video-Anomaly-Detection)",
+      "n": "MULDE-object-centric-micro",
+      "d": "2024-03-21",
+      "m1": "86.7%"
+    },
+    {
+      "p": "[An Attribute-based Method for Video Anomaly Detection](https://arxiv.org/abs/2212.00789v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/openvinotoolkit/anomalib/tree/main/src/anomalib/models/ai_vad)",
+      "n": "AI-VAD",
+      "d": "2022-12-01",
+      "m1": "85.94%"
+    },
+    {
+      "p": "[Normalizing Flows for Human Pose Anomaly Detection](https://arxiv.org/abs/2211.10946v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/orhir/stg-nf)",
+      "n": "STG-NF",
+      "d": "2022-11-20",
+      "m1": "85.9%"
+    },
+    {
+      "p": "[Follow the Rules: Reasoning for Video Anomaly Detection with Large Language Models](https://arxiv.org/abs/2407.10299v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Yuchen413/AnomalyRuler)",
+      "n": "AnomalyRuler",
+      "d": "2024-07-14",
+      "m1": "85.2%"
+    },
+    {
+      "p": "[VideoPatchCore: An Effective Method to Memorize Normality for Video Anomaly Detection](https://arxiv.org/abs/2409.16225v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/SkiddieAhn/Paper-VideoPatchCore)",
+      "n": "VideoPatchCore",
+      "d": "2024-09-24",
+      "m1": "85.1%"
+    },
+    {
+      "p": "[Video Anomaly Detection by Solving Decoupled Spatio-Temporal Jigsaw Puzzles](https://arxiv.org/abs/2207.10172v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/gdwang08/jigsaw-vad)",
+      "n": "Jigsaw-VAD",
+      "d": "2022-07-20",
+      "m1": "84.3%"
+    },
+    {
+      "p": "[SSMTL++: Revisiting Self-Supervised Multi-Task Learning for Video Anomaly Detection](https://arxiv.org/abs/2207.08003v4)",
+      "c": "",
+      "n": "SSMTL++v2",
+      "d": "2022-07-16",
+      "m1": "83.8%",
+      "m2": "47.10",
+      "m3": "85.60"
+    },
+    {
+      "p": "[UBnormal: New Benchmark for Supervised Open-Set Video Anomaly Detection](https://arxiv.org/abs/2111.08644v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/lilygeorgescu/ubnormal)",
+      "n": "SSMTL+UBnormal",
+      "d": "2021-11-16",
+      "m1": "83.7%",
+      "m2": "47.15",
+      "m3": "86.15"
+    },
+    {
+      "p": "[Context Recovery and Knowledge Retrieval: A Novel Two-Stream Framework for Video Anomaly Detection](https://arxiv.org/abs/2209.02899v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zugexiaodui/twostreamuvad)",
+      "n": "two-stream",
+      "d": "2022-09-07",
+      "m1": "83.7%"
+    },
+    {
+      "p": "[Self-Supervised Masked Convolutional Transformer Block for Anomaly Detection](https://arxiv.org/abs/2209.12148v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ristea/ssmctb)",
+      "n": "SSMTL+++SSMCTB",
+      "d": "2022-09-25",
+      "m1": "83.6%",
+      "m2": "47.73",
+      "m3": "85.65"
+    },
+    {
+      "p": "[Self-Supervised Predictive Convolutional Attentive Block for Anomaly Detection](https://arxiv.org/abs/2111.09099v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/openvinotoolkit/anomalib/tree/main/anomalib/models/draem)",
+      "n": "Background- Agnostic Framework+SSPCAB",
+      "d": "2021-11-17",
+      "m1": "83.6%"
+    },
+    {
+      "p": "[Regularity Learning via Explicit Distribution Modeling for Skeletal Video Anomaly Detection](https://arxiv.org/abs/2112.03649v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Yui010206/MoPRL)",
+      "n": "MoPRL",
+      "d": "2021-12-07",
+      "m1": "83.35"
+    },
+    {
+      "p": "[SSMTL++: Revisiting Self-Supervised Multi-Task Learning for Video Anomaly Detection](https://arxiv.org/abs/2207.08003v4)",
+      "c": "",
+      "n": "SSMTL++v1",
+      "d": "2022-07-16",
+      "m1": "82.9%",
+      "m2": "43.2",
+      "m3": "84.1"
+    },
+    {
+      "p": "[A Background-Agnostic Framework with Adversarial Training for Abnormal Event Detection in Video](https://arxiv.org/abs/2008.12328v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/m-3lab/awesome-visual-sensory-anomaly-detection)",
+      "n": "Background-Agnostic Framework",
+      "d": "2020-08-27",
+      "m1": "82.7%"
+    },
+    {
+      "p": "[Anomaly Detection in Video via Self-Supervised and Multi-Task Learning](https://arxiv.org/abs/2011.07491v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/lilygeorgescu/AED-SSMTL)",
+      "n": "SSMTL",
+      "d": "2020-11-15",
+      "m1": "82.4%"
+    },
+    {
+      "p": "[MULDE: Multiscale Log-Density Estimation via Denoising Score Matching for Video Anomaly Detection](https://arxiv.org/abs/2403.14497v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jakubmicorek/MULDE-Multiscale-Log-Density-Estimation-via-Denoising-Score-Matching-for-Video-Anomaly-Detection)",
+      "n": "MULDE-frame-centric-micro",
+      "d": "2024-03-21",
+      "m1": "81.3%"
+    },
+    {
+      "p": "[An Exploratory Study on Human-Centric Video Anomaly Detection through Variational Autoencoders and Trajectory Prediction](https://arxiv.org/abs/2406.15395v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tecsar-uncc/tsgad)",
+      "n": "TSGAD",
+      "d": "2024-04-29",
+      "m1": "80.6%"
+    },
+    {
+      "p": "[Diversity-Measurable Anomaly Detection](https://arxiv.org/abs/2303.05047v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/FlappyPeggy/DMAD)",
+      "n": "DMAD",
+      "d": "2023-03-09",
+      "m1": "78.8%"
+    },
+    {
+      "p": "[Object-centric Auto-encoders and Dummy Anomalies for Abnormal Event Detection in Video](http://arxiv.org/abs/1812.04960v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/fjchange/object_centric_VAD)",
+      "n": "Object-centric AE",
+      "d": "2018-12-11",
+      "m1": "78.7%"
+    },
+    {
+      "p": "[Spatio-temporal predictive tasks for abnormal event detection in videos](https://arxiv.org/abs/2210.15741v2)",
+      "c": "",
+      "n": "STPT",
+      "d": "2022-10-27",
+      "m1": "77.1%",
+      "m2": "51.6",
+      "m3": "84.6"
+    },
+    {
+      "p": "[EVAL: Explainable Video Anomaly Localization](https://arxiv.org/abs/2212.07900v1)",
+      "c": "",
+      "n": "EVAL",
+      "d": "2022-12-15",
+      "m1": "76.63%",
+      "m2": "59.21",
+      "m3": "89.44"
+    },
+    {
+      "p": "[Making Anomalies More Anomalous: Video Anomaly Detection Using a Novel Generator and Destroyer](https://ieeexplore.ieee.org/document/10462109)",
+      "c": "[&check;&nbsp;Link](https://github.com/SkiddieAhn/Paper-Making-Anomalies-More-Anomalous)",
+      "n": "MAMA",
+      "d": "2024-02-26",
+      "m1": "76.5%"
+    },
+    {
+      "p": "[STAN: Spatio-Temporal Adversarial Networks for Abnormal Event Detection](http://arxiv.org/abs/1804.08381v1)",
+      "c": "",
+      "n": "STAN",
+      "d": "2018-04-23",
+      "m1": "76.2%"
+    },
+    {
+      "p": "[Multi-timescale Trajectory Prediction for Abnormal Human Activity Detection](https://arxiv.org/abs/1908.04321v1)",
+      "c": "",
+      "n": "Multi-timescale Prediction",
+      "d": "2019-08-12",
+      "m1": "76.03%"
+    },
+    {
+      "p": "[Attention-based residual autoencoder for video anomaly detection](https://link.springer.com/article/10.1007/s10489-022-03613-1)",
+      "c": "[&check;&nbsp;Link](https://github.com/vt-le/astnet)",
+      "n": "ASTNet",
+      "d": "2022-05-25",
+      "m1": "73.6"
+    },
+    {
+      "p": "[Learning Regularity in Skeleton Trajectories for Anomaly Detection in Videos](http://arxiv.org/abs/1903.03295v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/RomeroBarata/skeleton_based_anomaly_detection)",
+      "n": "MPED-RNN",
+      "d": "2019-03-08",
+      "m1": "73.40%"
+    },
+    {
+      "p": "[Any-Shot Sequential Anomaly Detection in Surveillance Videos](https://arxiv.org/abs/2004.02072v1)",
+      "c": "",
+      "n": "Any-Shot Sequential",
+      "d": "2020-04-05",
+      "m1": "71.6%"
+    },
+    {
+      "p": "[A Revisit of Sparse Coding Based Anomaly Detection in Stacked RNN Framework](http://openaccess.thecvf.com/content_iccv_2017/html/Luo_A_Revisit_of_ICCV_2017_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/StevenLiuWen/sRNN_TSC_Anomaly_Detection)",
+      "n": "Sparse Coding Stacked RNN",
+      "d": "2017-10-01",
+      "m1": "68.0%"
+    },
+    {
+      "p": "[Bounding Boxes and Probabilistic Graphical Models: Video Anomaly Detection Simplified](https://arxiv.org/abs/2407.06000v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/milestonesys-research/vad-with-pgms)",
+      "n": "PGM",
+      "d": "2024-07-08",
+      "m1": "61.28%",
+      "m2": "45.40",
+      "m3": "81.87"
+    },
+    {
+      "p": "[Self-Supervised Predictive Convolutional Attentive Block for Anomaly Detection](https://arxiv.org/abs/2111.09099v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/openvinotoolkit/anomalib/tree/main/anomalib/models/draem)",
+      "n": "HF2VAD+SSPCAB",
+      "d": "2021-11-17",
+      "m2": "45.45",
+      "m3": "84.50"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

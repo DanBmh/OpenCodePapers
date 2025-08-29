@@ -1,0 +1,431 @@
+# thermal-image-segmentation-on-mfn-dataset
+
+[Dataset Link]() \
+Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', 'Scene Segmentation', 'Thermal Image Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mIOU",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Frame (fps)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[RoadFormer+: Delivering RGB-X Scene Parsing through Scale-Aware Information Decoupling and Advanced Heterogeneous Feature Fusion](https://arxiv.org/abs/2407.21631v2)",
+      "c": "",
+      "n": "RoadFormer+ (ConvNeXt-L)",
+      "d": "2024-07-31",
+      "m1": "62.7"
+    },
+    {
+      "p": "[HAPNet: Toward Superior RGB-Thermal Scene Parsing via Hybrid, Asymmetric, and Progressive Heterogeneous Feature Fusion](https://arxiv.org/abs/2404.03527v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/LiJiahang617/HAPNet)",
+      "n": "HAPNet",
+      "d": "2024-04-04",
+      "m1": "61.5"
+    },
+    {
+      "p": "[Complementary Random Masking for RGB-Thermal Semantic Segmentation](https://arxiv.org/abs/2303.17386v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/UkcheolShin/CRM_RGBTSeg)",
+      "n": "CRM_RGBT_Seg",
+      "d": "2023-03-30",
+      "m1": "61.4"
+    },
+    {
+      "p": "[Sigma: Siamese Mamba Network for Multi-Modal Semantic Segmentation](https://arxiv.org/abs/2404.04256v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zifuwan/sigma)",
+      "n": "Sigma-base",
+      "d": "2024-04-05",
+      "m1": "61.3"
+    },
+    {
+      "p": "[CSFNet: A Cosine Similarity Fusion Network for Real-Time RGB-X Semantic Segmentation of Driving Scenes](https://arxiv.org/abs/2407.01328v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Danial-Qashqai/CSFNet)",
+      "n": "CSFNet-2",
+      "d": "2024-07-01",
+      "m1": "59.98",
+      "m2": "72.7 (3090)"
+    },
+    {
+      "p": "[Delivering Arbitrary-Modal Semantic Segmentation](https://arxiv.org/abs/2303.01480v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jamycheung/DELIVER)",
+      "n": "CMNeXt (B4)",
+      "d": "2023-03-02",
+      "m1": "59.9"
+    },
+    {
+      "p": "[CMX: Cross-Modal Fusion for RGB-X Semantic Segmentation with Transformers](https://arxiv.org/abs/2203.04838v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/huaaaliu/rgbx_semantic_segmentation)",
+      "n": "CMX (B4)",
+      "d": "2022-03-09",
+      "m1": "59.7"
+    },
+    {
+      "p": "[Efficient Multimodal Semantic Segmentation via Dual-Prompt Learning](https://arxiv.org/abs/2312.00360v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/shaohuadong2021/dplnet)",
+      "n": "DPLNet",
+      "d": "2023-12-01",
+      "m1": "59.3"
+    },
+    {
+      "p": "[UniRGB-IR: A Unified Framework for RGB-Infrared Semantic Tasks via Adapter Tuning](https://arxiv.org/abs/2404.17360v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/potsui99/unirgb-ir)",
+      "n": "UniRGB-IR",
+      "d": "2024-04-26",
+      "m1": "59.3"
+    },
+    {
+      "p": "[Unveiling the Potential of Segment Anything Model 2 for RGB-Thermal Semantic Segmentation with Language Guidance](https://arxiv.org/abs/2503.02581v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/iasakit3t/shifnet)",
+      "n": "SHIFNet",
+      "d": "2025-03-04",
+      "m1": "59.2"
+    },
+    {
+      "p": "[IGFNet: Illumination-Guided Fusion Network for Semantic Scene Understanding using RGB-Thermal Images](https://ieeexplore.ieee.org/abstract/document/10354613)",
+      "c": "[&check;&nbsp;Link](https://github.com/lab-sun/IGFNet)",
+      "n": "IGFNet(B2)",
+      "d": "2023-12-04",
+      "m1": "59.0"
+    },
+    {
+      "p": "[Explicit Attention-Enhanced Fusion for RGB-Thermal Perception Tasks](https://arxiv.org/abs/2303.15710v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/freeformrobotics/eaefnet)",
+      "n": "EAEFNet (ResNet-152)",
+      "d": "2023-03-28",
+      "m1": "58.9"
+    },
+    {
+      "p": "[Context-Aware Interaction Network for RGB-T Semantic Segmentation](https://arxiv.org/abs/2401.01624v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yinglv1106/cainet)",
+      "n": "CAINet (MobileNet-V2)",
+      "d": "2024-01-03",
+      "m1": "58.6%"
+    },
+    {
+      "p": "[SpiderMesh: Spatial-aware Demand-guided Recursive Meshing for RGB-T Semantic Segmentation](https://arxiv.org/abs/2303.08692v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/leofansq/spidermesh)",
+      "n": "SpiderMesh (B4)",
+      "d": "2023-03-15",
+      "m1": "58.4"
+    },
+    {
+      "p": "[CMX: Cross-Modal Fusion for RGB-X Semantic Segmentation with Transformers](https://arxiv.org/abs/2203.04838v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/huaaaliu/rgbx_semantic_segmentation)",
+      "n": "CMX (B2)",
+      "d": "2022-03-09",
+      "m1": "58.2"
+    },
+    {
+      "p": "[StitchFusion: Weaving Any Visual Modalities to Enhance Multimodal Semantic Segmentation](https://arxiv.org/abs/2408.01343v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/libingyu01/stitchfusion-stitchfusion-weaving-any-visual-modalities-to-enhance-multimodal-semantic-segmentation)",
+      "n": "StitchFusion",
+      "d": "2024-08-02",
+      "m1": "58.13"
+    },
+    {
+      "p": "[SpiderMesh: Spatial-aware Demand-guided Recursive Meshing for RGB-T Semantic Segmentation](https://arxiv.org/abs/2303.08692v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/leofansq/spidermesh)",
+      "n": "SpiderMesh (ResNet-152)",
+      "d": "2023-03-15",
+      "m1": "57.9"
+    },
+    {
+      "p": "[CACFNet: Cross-Modal Attention Cascaded Fusion Network for RGB-T Urban Scene Parsing](https://ieeexplore.ieee.org/abstract/document/10251592)",
+      "c": "",
+      "n": "CACFNet",
+      "d": "2023-09-14",
+      "m1": "57.8"
+    },
+    {
+      "p": "[Variational Probabilistic Fusion Network for RGB-T Semantic Segmentation](https://arxiv.org/abs/2307.08536v1)",
+      "c": "",
+      "n": "VPFNet",
+      "d": "2023-07-17",
+      "m1": "57.61"
+    },
+    {
+      "p": "[EGFNet: Edge-Aware Guidance Fusion Network for RGB\u2013Thermal Urban Scene Parsing](https://ieeexplore.ieee.org/abstract/document/10234530)",
+      "c": "[&check;&nbsp;Link](https://github.com/shaohuadong2021/egfnet)",
+      "n": "EGFNet(ConvNeXt)",
+      "d": "2023-08-15",
+      "m1": "57.5"
+    },
+    {
+      "p": "[DooDLeNet: Double DeepLab Enhanced Feature Fusion for Thermal-color Semantic Segmentation](https://arxiv.org/abs/2204.10266v1)",
+      "c": "",
+      "n": "DooDLeNet",
+      "d": "2022-04-21",
+      "m1": "57.3"
+    },
+    {
+      "p": "[PAIF: Perception-Aware Infrared-Visible Image Fusion for Attack-Tolerant Semantic Segmentation](https://arxiv.org/abs/2308.03979v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/LiuZhu-CV/BDLFusion)",
+      "n": "PAIF",
+      "d": "2023-08-08",
+      "m1": "56.5"
+    },
+    {
+      "p": "[Residual Spatial Fusion Network for RGB-Thermal Semantic Segmentation](https://arxiv.org/abs/2306.10364v1)",
+      "c": "",
+      "n": "RSFNet (ResNet-101)",
+      "d": "2023-06-17",
+      "m1": "56.2"
+    },
+    {
+      "p": "[GEBNet: Graph-Enhancement Branch Network for RGB-T Scene Parsing](https://ieeexplore.ieee.org/abstract/document/9937048)",
+      "c": "",
+      "n": "GEBNet",
+      "d": "2022-10-31",
+      "m1": "56.2"
+    },
+    {
+      "p": "[Multi-interactive Feature Learning and a Full-time Multi-modality Benchmark for Image Fusion and Segmentation](https://arxiv.org/abs/2308.02097v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jinyuanliu-cv/segmif)",
+      "n": "SegMiF",
+      "d": "2023-08-04",
+      "m1": "56.1"
+    },
+    {
+      "p": "[SpiderMesh: Spatial-aware Demand-guided Recursive Meshing for RGB-T Semantic Segmentation](https://arxiv.org/abs/2303.08692v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/leofansq/spidermesh)",
+      "n": "SpiderMesh (ResNet-101)",
+      "d": "2023-03-15",
+      "m1": "56.1"
+    },
+    {
+      "p": "[MTANet: Multitask-Aware Network With Hierarchical Multimodal Fusion for RGB-T Urban Scene Understanding](https://ieeexplore.ieee.org/abstract/document/9749834)",
+      "c": "",
+      "n": "MTANet",
+      "d": "2022-04-05",
+      "m1": "56.1"
+    },
+    {
+      "p": "[CEKD: Cross-Modal Edge-Privileged Knowledge Distillation for Semantic Scene Understanding Using Only Thermal Images](https://ieeexplore.ieee.org/document/10049523)",
+      "c": "[&check;&nbsp;Link](https://github.com/lab-sun/CEKD)",
+      "n": "CENet",
+      "d": "2023-02-22",
+      "m1": "56.1"
+    },
+    {
+      "p": "[CSFNet: A Cosine Similarity Fusion Network for Real-Time RGB-X Semantic Segmentation of Driving Scenes](https://arxiv.org/abs/2407.01328v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Danial-Qashqai/CSFNet)",
+      "n": "CSFNet-1",
+      "d": "2024-07-01",
+      "m1": "56.05",
+      "m2": "106.3 (3090)"
+    },
+    {
+      "p": "[Channel and Spatial Relation-Propagation Network for RGB-Thermal Semantic Segmentation](https://arxiv.org/abs/2308.12534v1)",
+      "c": "",
+      "n": "CSRPNet",
+      "d": "2023-08-24",
+      "m1": "56.0"
+    },
+    {
+      "p": "[Explicit Attention-Enhanced Fusion for RGB-Thermal Perception Tasks](https://arxiv.org/abs/2303.15710v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/freeformrobotics/eaefnet)",
+      "n": "EAFFNet (ResNet-50)",
+      "d": "2023-03-28",
+      "m1": "55.9"
+    },
+    {
+      "p": "[FEANet: Feature-Enhanced Attention Network for RGB-Thermal Real-time Semantic Segmentation](https://arxiv.org/abs/2110.08988v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/matrixgame2018/FEANet)",
+      "n": "FEANet",
+      "d": "2021-10-18",
+      "m1": "55.3"
+    },
+    {
+      "p": "[RGB-T Semantic Segmentation with Location, Activation, and Sharpening](https://arxiv.org/abs/2210.14530v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/mathlee/lasnet)",
+      "n": "LASNet",
+      "d": "2022-10-26",
+      "m1": "54.9"
+    },
+    {
+      "p": "[ABMDRNet: Adaptive-Weighted Bi-Directional Modality Difference Reduction Network for RGB-T Semantic Segmentation](http://openaccess.thecvf.com//content/CVPR2021/html/Zhang_ABMDRNet_Adaptive-Weighted_Bi-Directional_Modality_Difference_Reduction_Network_for_RGB-T_Semantic_CVPR_2021_paper.html)",
+      "c": "",
+      "n": "ABMDRNet",
+      "d": "2021-06-19",
+      "m1": "54.8"
+    },
+    {
+      "p": "[Edge-aware Guidance Fusion Network for RGB Thermal Scene Parsing](https://arxiv.org/abs/2112.05144v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/shaohuadong2021/egfnet)",
+      "n": "EGFNet",
+      "d": "2021-12-09",
+      "m1": "54.8"
+    },
+    {
+      "p": "[SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers](https://arxiv.org/abs/2105.15203v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "SegFormer (B4)",
+      "d": "2021-05-31",
+      "m1": "54.8"
+    },
+    {
+      "p": "[SpiderMesh: Spatial-aware Demand-guided Recursive Meshing for RGB-T Semantic Segmentation](https://arxiv.org/abs/2303.08692v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/leofansq/spidermesh)",
+      "n": "SpiderMesh (ResNet-50)",
+      "d": "2023-03-15",
+      "m1": "54.4"
+    },
+    {
+      "p": "[SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers](https://arxiv.org/abs/2105.15203v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "SegFormer (B2)",
+      "d": "2021-05-31",
+      "m1": "53.2"
+    },
+    {
+      "p": "[RTFNet: RGB-Thermal Fusion Network for Semantic Segmentation of Urban Scenes](https://ieeexplore.ieee.org/abstract/document/8666745)",
+      "c": "[&check;&nbsp;Link](https://github.com/yuxiangsun/RTFNet)",
+      "n": "RTFNet",
+      "d": "2019-03-13",
+      "m1": "53.2"
+    },
+    {
+      "p": "[Deep High-Resolution Representation Learning for Visual Recognition](https://arxiv.org/abs/1908.07919v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection)",
+      "n": "HRNet",
+      "d": "2019-08-20",
+      "m1": "51.7"
+    },
+    {
+      "p": "[Adaptive Pyramid Context Network for Semantic Segmentation](http://openaccess.thecvf.com/content_CVPR_2019/html/He_Adaptive_Pyramid_Context_Network_for_Semantic_Segmentation_CVPR_2019_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/Dylan-get/APCNet)",
+      "n": "APCNet",
+      "d": "2019-06-01",
+      "m1": "49.0"
+    },
+    {
+      "p": "[Swin Transformer: Hierarchical Vision Transformer using Shifted Windows](https://arxiv.org/abs/2103.14030v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "SwinT",
+      "d": "2021-03-25",
+      "m1": "49.0"
+    },
+    {
+      "p": "[PST900: RGB-Thermal Calibration, Dataset and Segmentation Network](https://arxiv.org/abs/1909.10980v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ShreyasSkandanS/pst900_thermal_rgb)",
+      "n": "PST900",
+      "d": "2019-09-20",
+      "m1": "48.4"
+    },
+    {
+      "p": "[FTNet: Feature Transverse Network for Thermal Image Semantic Segmentation](https://ieeexplore.ieee.org/abstract/document/9585453)",
+      "c": "[&check;&nbsp;Link](https://github.com/shreyaskamathkm/FTNet)",
+      "n": "FTNet",
+      "d": "2021-10-26",
+      "m1": "47.12"
+    },
+    {
+      "p": "[ACNet: Attention Based Network to Exploit Complementary Features for RGBD Semantic Segmentation](https://arxiv.org/abs/1905.10089v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/anheidelonghu/ACNet)",
+      "n": "ACNet",
+      "d": "2019-05-24",
+      "m1": "46.3"
+    },
+    {
+      "p": "[Depth-aware CNN for RGB-D Segmentation](http://arxiv.org/abs/1803.06791v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/laughtervv/DepthAwareCNN)",
+      "n": "Depth-aware CNN",
+      "d": "2018-03-19",
+      "m1": "46.1"
+    },
+    {
+      "p": "[Pyramid Scene Parsing Network](http://arxiv.org/abs/1612.01105v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+      "n": "PSPNet",
+      "d": "2016-12-04",
+      "m1": "46.1"
+    },
+    {
+      "p": "[Bi-directional Cross-Modality Feature Propagation with Separation-and-Aggregation Gate for RGB-D Semantic Segmentation](https://arxiv.org/abs/2007.09183v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/charlesCXK/RGBD_Semantic_Segmentation_PyTorch)",
+      "n": "SA-Gate",
+      "d": "2020-07-17",
+      "m1": "45.8"
+    },
+    {
+      "p": "[U-Net: Convolutional Networks for Biomedical Image Segmentation](http://arxiv.org/abs/1505.04597v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+      "n": "UNet",
+      "d": "2015-05-18",
+      "m1": "45.1"
+    },
+    {
+      "p": "[Full-Resolution Residual Networks for Semantic Segmentation in Street Scenes](http://arxiv.org/abs/1611.08323v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/TobyPDE/FRRN)",
+      "n": "FRRN",
+      "d": "2016-11-24",
+      "m1": "44.2"
+    },
+    {
+      "p": "[CCNet: Criss-Cross Attention for Semantic Segmentation](https://arxiv.org/abs/1811.11721v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmsegmentation)",
+      "n": "CCNet",
+      "d": "2018-11-28",
+      "m1": "43.3"
+    },
+    {
+      "p": "[SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation](http://arxiv.org/abs/1511.00561v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleSeg)",
+      "n": "SegNet",
+      "d": "2015-11-02",
+      "m1": "42.3"
+    },
+    {
+      "p": "[Dual Attention Network for Scene Segmentation](http://arxiv.org/abs/1809.02983v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/xmu-xiaoma666/External-Attention-pytorch)",
+      "n": "DANet",
+      "d": "2018-09-09",
+      "m1": "41.3"
+    },
+    {
+      "p": "[MFNet: Towards real-time semantic segmentation for autonomous vehicles with multi-spectral scenes](https://ieeexplore.ieee.org/abstract/document/8206396)",
+      "c": "",
+      "n": "MFNet",
+      "d": "2017-12-14",
+      "m1": "39.7"
+    },
+    {
+      "p": "[ERFNet: Efficient Residual Factorized ConvNet for Real-time Semantic Segmentation](https://ieeexplore.ieee.org/abstract/document/8063438)",
+      "c": "[&check;&nbsp;Link](https://github.com/osmr/imgclsmob)",
+      "n": "ERFNet",
+      "d": "2017-10-09",
+      "m1": "36.1"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

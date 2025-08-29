@@ -1,0 +1,116 @@
+# molecular-property-prediction-on-hiv-dataset
+
+[Dataset Link](https://moleculenet.org/) \
+Task Hierarchy: ['Atomistic Description', 'Molecular Property Prediction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AUC",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Dual-view Molecule Pre-training](https://arxiv.org/abs/2106.10234v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/DVMP)",
+      "n": "DVMP",
+      "d": "2021-06-17",
+      "m1": "0.810"
+    },
+    {
+      "p": "[Galactica: A Large Language Model for Science](https://arxiv.org/abs/2211.09085v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/paperswithcode/galai)",
+      "n": "Uni-Mol",
+      "d": "2022-11-16",
+      "m1": "0.808"
+    },
+    {
+      "p": "[A Bayesian Flow Network Framework for Chemistry Tasks](https://arxiv.org/abs/2407.20294v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Augus1999/bayesian-flow-network-for-chemistry)",
+      "n": "ChemBFN",
+      "d": "2024-07-28",
+      "m1": "0.794"
+    },
+    {
+      "p": "[ChemBERTa-2: Fine-Tuning for Molecule\u2019s HIV Replication Inhibition Prediction](https://chemrxiv.org/engage/chemrxiv/article-details/65030b55b338ec988a780108)",
+      "c": "[&check;&nbsp;Link](https://github.com/SylwiaNowakowska/LLM_Fine_Tuning_Molecular_Properties)",
+      "n": "ChemBERTa-2 Fine-tuned",
+      "d": "2023-09-15",
+      "m1": "0.793"
+    },
+    {
+      "p": "[Self-Guided Masked Autoencoders for Domain-Agnostic Self-Supervised Learning](https://arxiv.org/abs/2402.14789v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/johnathan-xie/sma)",
+      "n": "SMA",
+      "d": "2024-02-22",
+      "m1": "0.789"
+    },
+    {
+      "p": "[MolXPT: Wrapping Molecules with Text for Generative Pre-training](https://arxiv.org/abs/2305.10688v2)",
+      "c": "[&check;&nbsp;Link](https://huggingface.co/zequnl/molxpt)",
+      "n": "MolXPT",
+      "d": "2023-05-18",
+      "m1": "0.781"
+    },
+    {
+      "p": "[Galactica: A Large Language Model for Science](https://arxiv.org/abs/2211.09085v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/paperswithcode/galai)",
+      "n": "GAL 30B",
+      "d": "2022-11-16",
+      "m1": "0.759"
+    },
+    {
+      "p": "[Galactica: A Large Language Model for Science](https://arxiv.org/abs/2211.09085v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/paperswithcode/galai)",
+      "n": "GAL 120B",
+      "d": "2022-11-16",
+      "m1": "0.745"
+    },
+    {
+      "p": "[Galactica: A Large Language Model for Science](https://arxiv.org/abs/2211.09085v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/paperswithcode/galai)",
+      "n": "GAL 1.3B",
+      "d": "2022-11-16",
+      "m1": "0.724"
+    },
+    {
+      "p": "[Galactica: A Large Language Model for Science](https://arxiv.org/abs/2211.09085v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/paperswithcode/galai)",
+      "n": "GAL 6.7B",
+      "d": "2022-11-16",
+      "m1": "0.722"
+    },
+    {
+      "p": "[Galactica: A Large Language Model for Science](https://arxiv.org/abs/2211.09085v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/paperswithcode/galai)",
+      "n": "GAL 125M",
+      "d": "2022-11-16",
+      "m1": "0.702"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

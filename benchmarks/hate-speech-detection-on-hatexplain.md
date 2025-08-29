@@ -1,0 +1,148 @@
+# hate-speech-detection-on-hatexplain
+
+[Dataset Link](https://github.com/punyajoy/HateXplain) \
+Task Hierarchy: ['Hate Speech Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AUROC",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Macro F1",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Macro-F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Why Is It Hate Speech? Masked Rationale Prediction for Explainable Hate Speech Detection](https://arxiv.org/abs/2211.00243v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/alatteaday/mrp_hate-speech-detection)",
+      "n": "BERT-MRP",
+      "d": "2022-11-01",
+      "m1": "0.862",
+      "m2": "0.699",
+      "m3": "0.704"
+    },
+    {
+      "p": "[Why Is It Hate Speech? Masked Rationale Prediction for Explainable Hate Speech Detection](https://arxiv.org/abs/2211.00243v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/alatteaday/mrp_hate-speech-detection)",
+      "n": "BERT-RP",
+      "d": "2022-11-01",
+      "m1": "0.853",
+      "m2": "0.693",
+      "m3": "0.707"
+    },
+    {
+      "p": "[HateXplain: A Benchmark Dataset for Explainable Hate Speech Detection](https://arxiv.org/abs/2012.10289v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/punyajoy/HateXplain)",
+      "n": "BERT-HateXplain [Attn]",
+      "d": "2020-12-18",
+      "m1": "0.851",
+      "m2": "0.687",
+      "m3": "0.698"
+    },
+    {
+      "p": "[HateXplain: A Benchmark Dataset for Explainable Hate Speech Detection](https://arxiv.org/abs/2012.10289v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/punyajoy/HateXplain)",
+      "n": "BERT-HateXplain [LIME]",
+      "d": "2020-12-18",
+      "m1": "0.851",
+      "m2": "0.687"
+    },
+    {
+      "p": "[HateXplain: A Benchmark Dataset for Explainable Hate Speech Detection](https://arxiv.org/abs/2012.10289v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/punyajoy/HateXplain)",
+      "n": "BERT [Attn]",
+      "d": "2020-12-18",
+      "m1": "0.843",
+      "m2": "0.674",
+      "m3": "0.69"
+    },
+    {
+      "p": "[HateXplain: A Benchmark Dataset for Explainable Hate Speech Detection](https://arxiv.org/abs/2012.10289v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/punyajoy/HateXplain)",
+      "n": "BiRNN-HateXplain [Attn]",
+      "d": "2020-12-18",
+      "m1": "0.805",
+      "m2": "0.629"
+    },
+    {
+      "p": "[HateXplain: A Benchmark Dataset for Explainable Hate Speech Detection](https://arxiv.org/abs/2012.10289v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/punyajoy/HateXplain)",
+      "n": "BiRNN-Attn [Attn]",
+      "d": "2020-12-18",
+      "m1": "0.795",
+      "m3": "0.621"
+    },
+    {
+      "p": "[HateXplain: A Benchmark Dataset for Explainable Hate Speech Detection](https://arxiv.org/abs/2012.10289v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/punyajoy/HateXplain)",
+      "n": "CNN-GRU [LIME]",
+      "d": "2020-12-18",
+      "m1": "0.793",
+      "m2": "0.614",
+      "m3": "0.629"
+    },
+    {
+      "p": "[HateXplain: A Benchmark Dataset for Explainable Hate Speech Detection](https://arxiv.org/abs/2012.10289v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/punyajoy/HateXplain)",
+      "n": "BiRNN [LIME]",
+      "d": "2020-12-18",
+      "m1": "0.767",
+      "m2": "0.575",
+      "m3": "0.595"
+    },
+    {
+      "p": "[Explainable Identification of Hate Speech towards Islam using Graph Neural Networks](https://arxiv.org/abs/2311.04916v4)",
+      "c": "",
+      "n": "XG-HSI-BERT",
+      "d": "2023-11-02",
+      "m3": "0.751",
+      "m4": "0.747"
+    },
+    {
+      "p": "[Explainable Identification of Hate Speech towards Islam using Graph Neural Networks](https://arxiv.org/abs/2311.04916v4)",
+      "c": "",
+      "n": "XG-HSI-BiRNN",
+      "d": "2023-11-02",
+      "m3": "0.742",
+      "m4": "0.737"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

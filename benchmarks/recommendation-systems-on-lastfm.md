@@ -1,0 +1,100 @@
+# recommendation-systems-on-lastfm
+
+[Dataset Link]() \
+Task Hierarchy: ['Recommendation Systems']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "HR@10",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "NDCG@20",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Recall@10",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Recall@100",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "Recall@2",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "Recall@20",
+      "sortable": "true"
+    },
+    {
+      "key": "m7",
+      "label": "Recall@50",
+      "sortable": "true"
+    },
+    {
+      "key": "m8",
+      "label": "nDCG@10",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Ekar: An Explainable Method for Knowledge Aware Recommendation](https://arxiv.org/abs/1906.09506v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/DeepGraphLearning/RecommenderSystems)",
+      "n": "Ekar*",
+      "d": "2019-06-22",
+      "m1": "0.2483",
+      "m8": "0.1766"
+    },
+    {
+      "p": "[HAKG: Hierarchy-Aware Knowledge Gated Network for Recommendation](https://arxiv.org/abs/2204.04959v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zealscott/hakg)",
+      "n": "HAKG",
+      "d": "2022-04-11",
+      "m2": "0.0931",
+      "m6": "0.1008"
+    },
+    {
+      "p": "[Knowledge-aware Graph Neural Networks with Label Smoothness Regularization for Recommender Systems](https://arxiv.org/abs/1905.04413v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hwwang55/KGNN-LS)",
+      "n": "KGNN-LS",
+      "d": "2019-05-11",
+      "m3": "0.122",
+      "m4": "0.370",
+      "m5": "0.044",
+      "m7": "0.277"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

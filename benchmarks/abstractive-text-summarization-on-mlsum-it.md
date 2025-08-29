@@ -1,0 +1,67 @@
+# abstractive-text-summarization-on-mlsum-it
+
+[Dataset Link](https://huggingface.co/datasets/ARTeLab/mlsum-it) \
+Task Hierarchy: ['Abstractive Text Summarization']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "rouge1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Two New Datasets for Italian-Language Abstractive Text Summarization](https://www.mdpi.com/2078-2489/13/5/228)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/nicolalandro/summarization)",
+      "n": "mBART",
+      "d": "2022-04-29",
+      "m1": "19.35"
+    },
+    {
+      "p": "[Two New Datasets for Italian-Language Abstractive Text Summarization](https://www.mdpi.com/2078-2489/13/5/228)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/nicolalandro/summarization)",
+      "n": "IT5",
+      "d": "2022-04-29",
+      "m1": "19.29"
+    },
+    {
+      "p": "[Two New Datasets for Italian-Language Abstractive Text Summarization](https://www.mdpi.com/2078-2489/13/5/228)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/nicolalandro/summarization)",
+      "n": "Pegasus-CNN/DM (eng-it translation)",
+      "d": "2022-04-29",
+      "m1": "16.97"
+    },
+    {
+      "p": "[Two New Datasets for Italian-Language Abstractive Text Summarization](https://www.mdpi.com/2078-2489/13/5/228)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/nicolalandro/summarization)",
+      "n": "Pegasus-XSum (eng-it translation)",
+      "d": "2022-04-29",
+      "m1": "15.17"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,67 @@
+# image-classification-on-malaria-dataset
+
+[Dataset Link](https://lhncbc.nlm.nih.gov/publication/pub9932) \
+Task Hierarchy: ['Image Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Acc. (test)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "PARAMS",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[An Enhanced Scheme for Reducing the Complexity of Pointwise Convolutions in CNNs for Image Classification Based on Interleaved Grouped Filters without Divisibility Constraints](https://www.researchgate.net/publication/363413038_An_Enhanced_Scheme_for_Reducing_the_Complexity_of_Pointwise_Convolutions_in_CNNs_for_Image_Classification_Based_on_Interleaved_Grouped_Filters_without_Divisibility_Constraints)",
+      "c": "[&check;&nbsp;Link](https://github.com/joaopauloschuler/k-neural-api)",
+      "n": "kEffNet-B0 V2 16ch",
+      "d": "2022-09-08",
+      "m1": "97.61%",
+      "m2": "0.61M"
+    },
+    {
+      "p": "[A Continual Development Methodology for Large-scale Multitask Dynamic ML Systems](https://arxiv.org/abs/2209.07326v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research/tree/master/muNet)",
+      "n": "\u00b52Net+ (ViT-L/16)",
+      "d": "2022-09-15",
+      "m1": "97.46%"
+    },
+    {
+      "p": "[An Enhanced Scheme for Reducing the Complexity of Pointwise Convolutions in CNNs for Image Classification Based on Interleaved Grouped Filters without Divisibility Constraints](https://www.researchgate.net/publication/363413038_An_Enhanced_Scheme_for_Reducing_the_Complexity_of_Pointwise_Convolutions_in_CNNs_for_Image_Classification_Based_on_Interleaved_Grouped_Filters_without_Divisibility_Constraints)",
+      "c": "[&check;&nbsp;Link](https://github.com/joaopauloschuler/k-neural-api)",
+      "n": "kEffNet-B0 V2 2ch",
+      "d": "2022-09-08",
+      "m1": "96.70%",
+      "m2": "0.3M"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

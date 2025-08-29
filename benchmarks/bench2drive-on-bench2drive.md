@@ -1,0 +1,284 @@
+# bench2drive-on-bench2drive
+
+[Dataset Link]() \
+Task Hierarchy: ['Autonomous Driving', 'Bench2Drive']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Driving Score",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[HiP-AD: Hierarchical and Multi-Granularity Planning with Deformable Attention for Autonomous Driving in a Single Decoder](https://arxiv.org/abs/2503.08612v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nullmax-vision/hip-ad)",
+      "n": "HiP-AD",
+      "d": "2025-03-11",
+      "m1": "86.77"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "R2SE",
+      "d": null,
+      "m1": "86.28"
+    },
+    {
+      "p": "[CarLLaVA: Vision language models for camera-only closed-loop driving](https://arxiv.org/abs/2406.10165v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/RenzKa/simlingo)",
+      "n": "SimLingo-Base (CarLLaVa)",
+      "d": "2024-06-14",
+      "m1": "85.94"
+    },
+    {
+      "p": "[Hidden Biases of End-to-End Driving Models](https://arxiv.org/abs/2306.07957v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/autonomousvision/carla_garage)",
+      "n": "TransFuser++",
+      "d": "2023-06-13",
+      "m1": "84.21"
+    },
+    {
+      "p": "[GaussianFusion: Gaussian-Based Multi-Sensor Fusion for End-to-End Autonomous Driving](https://arxiv.org/abs/2506.00034v1)",
+      "c": "",
+      "n": "GaussianFusion",
+      "d": "2025-05-27",
+      "m1": "79.4"
+    },
+    {
+      "p": "[ORION: A Holistic End-to-End Autonomous Driving Framework by Vision-Language Instructed Action Generation](https://arxiv.org/abs/2503.19755v1)",
+      "c": "",
+      "n": "ORION",
+      "d": "2025-03-25",
+      "m1": "77.7"
+    },
+    {
+      "p": "[Raw2Drive: Reinforcement Learning with Aligned World Models for End-to-End Autonomous Driving (in CARLA v2)](https://arxiv.org/abs/2505.16394v1)",
+      "c": "",
+      "n": "Raw2Drive",
+      "d": "2025-05-22",
+      "m1": "74.36"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "ETA",
+      "d": null,
+      "m1": "74.33"
+    },
+    {
+      "p": "[DriveMoE: Mixture-of-Experts for Vision-Language-Action Model in End-to-End Autonomous Driving](https://arxiv.org/abs/2505.16278v1)",
+      "c": "",
+      "n": "DriveMoE",
+      "d": "2025-05-22",
+      "m1": "74.22"
+    },
+    {
+      "p": "[Hydra-NeXt: Robust Closed-Loop Driving with Open-Loop Training](https://arxiv.org/abs/2503.12030v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/woxihuanjiangguo/hydra-next)",
+      "n": "Hydra-NeXt",
+      "d": "2025-03-15",
+      "m1": "73.86"
+    },
+    {
+      "p": "[Validity Learning on Failures: Mitigating the Distribution Shift in Autonomous Vehicle Planning](https://arxiv.org/abs/2406.01544v2)",
+      "c": "",
+      "n": "VL (on failure)",
+      "d": "2024-06-03",
+      "m1": "73.29"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "DRIVER",
+      "d": null,
+      "m1": "68.90"
+    },
+    {
+      "p": "[DiffAD: A Unified Diffusion Modeling Approach for Autonomous Driving](https://arxiv.org/abs/2503.12170v1)",
+      "c": "",
+      "n": "DiffAD",
+      "d": "2025-03-15",
+      "m1": "67.92"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "NavigationDrive",
+      "d": null,
+      "m1": "67.17"
+    },
+    {
+      "p": "[iPad: Iterative Proposal-centric End-to-End Autonomous Driving](https://arxiv.org/abs/2505.15111v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Kguo-cs/iPad)",
+      "n": "iPad",
+      "d": "2025-05-21",
+      "m1": "65.02"
+    },
+    {
+      "p": "[DriveAdapter: Breaking the Coupling Barrier of Perception and Planning in End-to-End Autonomous Driving](https://arxiv.org/abs/2308.00398v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/opendrivelab/driveadapter)",
+      "n": "DriveAdapter",
+      "d": "2023-08-01",
+      "m1": "64.22"
+    },
+    {
+      "p": "[ReasonPlan: Unified Scene Prediction and Decision Reasoning for Closed-loop Autonomous Driving](https://arxiv.org/abs/2505.20024v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/liuxueyi/reasonplan)",
+      "n": "ReasonPlan",
+      "d": "2025-05-26",
+      "m1": "64.01"
+    },
+    {
+      "p": "[DriveTransformer: Unified Transformer for Scalable End-to-End Autonomous Driving](https://arxiv.org/abs/2503.07656v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/thinklab-sjtu/drivetransformer)",
+      "n": "Drivetransformer-Large",
+      "d": "2025-03-07",
+      "m1": "63.46"
+    },
+    {
+      "p": "[Think Twice before Driving: Towards Scalable Decoders for End-to-End Autonomous Driving](https://arxiv.org/abs/2305.06242v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/opendrivelab/thinktwice)",
+      "n": "ThinkTwice",
+      "d": "2023-05-10",
+      "m1": "62.44"
+    },
+    {
+      "p": "[Trajectory-guided Control Prediction for End-to-end Autonomous Driving: A Simple yet Strong Baseline](https://arxiv.org/abs/2206.08129v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/OpenPerceptionX/TCP)",
+      "n": "TCP-traj",
+      "d": "2022-06-16",
+      "m1": "59.90"
+    },
+    {
+      "p": "[DiFSD: Ego-Centric Fully Sparse Paradigm with Uncertainty Denoising and Iterative Refinement for Efficient End-to-End Self-Driving](https://arxiv.org/abs/2409.09777v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/suhaisheng/difsd)",
+      "n": "DiFSD",
+      "d": "2024-09-15",
+      "m1": "52.02"
+    },
+    {
+      "p": "[X-Driver: Explainable Autonomous Driving with Vision-Language Models](https://arxiv.org/abs/2505.05098v2)",
+      "c": "",
+      "n": "X-Driver",
+      "d": "2025-05-08",
+      "m1": "51.70"
+    },
+    {
+      "p": "[Trajectory-guided Control Prediction for End-to-end Autonomous Driving: A Simple yet Strong Baseline](https://arxiv.org/abs/2206.08129v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/OpenPerceptionX/TCP)",
+      "n": "TCP-traj w/o distillation",
+      "d": "2022-06-16",
+      "m1": "49.30"
+    },
+    {
+      "p": "[CogAD: Cognitive-Hierarchy Guided End-to-End Autonomous Driving](https://arxiv.org/abs/2505.21581v2)",
+      "c": "",
+      "n": "CogAD",
+      "d": "2025-05-27",
+      "m1": "48.30"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "MomAD",
+      "d": null,
+      "m1": "47.91"
+    },
+    {
+      "p": "[Planning-oriented Autonomous Driving](https://arxiv.org/abs/2212.10156v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/opendrivelab/uniad)",
+      "n": "UniAD-Base",
+      "d": "2022-12-20",
+      "m1": "45.81"
+    },
+    {
+      "p": "[Two Tasks, One Goal: Uniting Motion and Planning for Excellent End To End Autonomous Driving Performance](https://arxiv.org/abs/2504.12667v1)",
+      "c": "",
+      "n": "TTOG",
+      "d": "2025-04-17",
+      "m1": "45.23"
+    },
+    {
+      "p": "[GenAD: Generative End-to-End Autonomous Driving](https://arxiv.org/abs/2402.11502v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/wzzheng/genad)",
+      "n": "GenAD",
+      "d": "2024-02-18",
+      "m1": "44.81"
+    },
+    {
+      "p": "[SparseDrive: End-to-End Autonomous Driving via Sparse Scene Representation](https://arxiv.org/abs/2405.19620v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/swc-17/sparsedrive)",
+      "n": "SparseDrive",
+      "d": "2024-05-30",
+      "m1": "44.54"
+    },
+    {
+      "p": "[VAD: Vectorized Scene Representation for Efficient Autonomous Driving](https://arxiv.org/abs/2303.12077v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hustvl/vad)",
+      "n": "VAD",
+      "d": "2023-03-21",
+      "m1": "42.35"
+    },
+    {
+      "p": "[Planning-oriented Autonomous Driving](https://arxiv.org/abs/2212.10156v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/opendrivelab/uniad)",
+      "n": "UniAD-Tiny",
+      "d": "2022-12-20",
+      "m1": "40.73"
+    },
+    {
+      "p": "[Trajectory-guided Control Prediction for End-to-end Autonomous Driving: A Simple yet Strong Baseline](https://arxiv.org/abs/2206.08129v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/OpenPerceptionX/TCP)",
+      "n": "TCP",
+      "d": "2022-06-16",
+      "m1": "40.70"
+    },
+    {
+      "p": "[From Failures to Fixes: LLM-Driven Scenario Repair for Self-Evolving Autonomous Driving](https://arxiv.org/abs/2505.22067v1)",
+      "c": "",
+      "n": "VAD + SERA",
+      "d": "2025-05-28",
+      "m1": "35.64"
+    },
+    {
+      "p": "[Trajectory-guided Control Prediction for End-to-end Autonomous Driving: A Simple yet Strong Baseline](https://arxiv.org/abs/2206.08129v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/OpenPerceptionX/TCP)",
+      "n": "TCP-ctrl",
+      "d": "2022-06-16",
+      "m1": "30.47"
+    },
+    {
+      "p": "[Bench2Drive: Towards Multi-Ability Benchmarking of Closed-Loop End-To-End Autonomous Driving](https://arxiv.org/abs/2406.03877v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Thinklab-SJTU/Bench2Drive)",
+      "n": "AD-MLP",
+      "d": "2024-06-06",
+      "m1": "18.05"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

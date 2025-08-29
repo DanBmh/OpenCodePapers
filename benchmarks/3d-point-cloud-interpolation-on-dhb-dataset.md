@@ -1,0 +1,84 @@
+# 3d-point-cloud-interpolation-on-dhb-dataset
+
+[Dataset Link](https://github.com/ZENGYIMING-EAMON/IDEA-Net) \
+Task Hierarchy: ['3D Point Cloud Interpolation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "CD",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "EMD",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[NeuralPCI: Spatio-temporal Neural Field for 3D Point Cloud Multi-frame Non-linear Interpolation](https://arxiv.org/abs/2303.15126v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ispc-lab/neuralpci)",
+      "n": "NeuralPCI",
+      "d": "2023-03-27",
+      "m1": "0.54",
+      "m2": "3.68"
+    },
+    {
+      "p": "[NeuralPCI: Spatio-temporal Neural Field for 3D Point Cloud Multi-frame Non-linear Interpolation](https://arxiv.org/abs/2303.15126v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ispc-lab/neuralpci)",
+      "n": "PV-RAFT",
+      "d": "2023-03-27",
+      "m1": "0.92",
+      "m2": "6.14"
+    },
+    {
+      "p": "[NeuralPCI: Spatio-temporal Neural Field for 3D Point Cloud Multi-frame Non-linear Interpolation](https://arxiv.org/abs/2303.15126v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ispc-lab/neuralpci)",
+      "n": "PointINet",
+      "d": "2023-03-27",
+      "m1": "0.96",
+      "m2": "12.25"
+    },
+    {
+      "p": "[NeuralPCI: Spatio-temporal Neural Field for 3D Point Cloud Multi-frame Non-linear Interpolation](https://arxiv.org/abs/2303.15126v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ispc-lab/neuralpci)",
+      "n": "IDEA-Net",
+      "d": "2023-03-27",
+      "m1": "1.02",
+      "m2": "12.03"
+    },
+    {
+      "p": "[NeuralPCI: Spatio-temporal Neural Field for 3D Point Cloud Multi-frame Non-linear Interpolation](https://arxiv.org/abs/2303.15126v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ispc-lab/neuralpci)",
+      "n": "NSFP",
+      "d": "2023-03-27",
+      "m1": "1.22",
+      "m2": "7.81"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

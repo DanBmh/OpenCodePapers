@@ -1,0 +1,88 @@
+# grayscale-image-denoising-on-urban100-sigma15
+
+[Dataset Link]() \
+Task Hierarchy: ['3D Architecture', 'Denoising', 'Grayscale Image Denoising']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Restormer: Efficient Transformer for High-Resolution Image Restoration](https://arxiv.org/abs/2111.09881v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/swz30/restormer)",
+      "n": "Restormer",
+      "d": "2021-11-18",
+      "m1": "33.79"
+    },
+    {
+      "p": "[SwinIR: Image Restoration Using Swin Transformer](https://arxiv.org/abs/2108.10257v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/XPixelGroup/BasicSR)",
+      "n": "SwinIR",
+      "d": "2021-08-23",
+      "m1": "33.70"
+    },
+    {
+      "p": "[Deep Graph-Convolutional Image Denoising](https://arxiv.org/abs/1907.08448v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/diegovalsesia/gcdn)",
+      "n": "GCDN",
+      "d": "2019-07-19",
+      "m1": "33.47"
+    },
+    {
+      "p": "[Non-Local Recurrent Network for Image Restoration](http://arxiv.org/abs/1806.02919v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Ding-Liu/NLRN)",
+      "n": "NLRN",
+      "d": "2018-06-07",
+      "m1": "33.45"
+    },
+    {
+      "p": "[Multi-level Wavelet-CNN for Image Restoration](http://arxiv.org/abs/1805.07071v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/lpj0/MWCNN)",
+      "n": "MWCNN",
+      "d": "2018-05-18",
+      "m1": "33.17"
+    },
+    {
+      "p": "[Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising](http://arxiv.org/abs/1608.03981v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cszn/DnCNN)",
+      "n": "DnCNN",
+      "d": "2016-08-13",
+      "m1": "32.67"
+    },
+    {
+      "p": "[Trainable Nonlinear Reaction Diffusion: A Flexible Framework for Fast and Effective Image Restoration](http://arxiv.org/abs/1508.02848v2)",
+      "c": "",
+      "n": "TNRD",
+      "d": "2015-08-12",
+      "m1": "31.98"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

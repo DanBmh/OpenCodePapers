@@ -1,0 +1,85 @@
+# 3d-human-reconstruction-on-cape
+
+[Dataset Link](https://cape.is.tue.mpg.de/dataset.html) \
+Task Hierarchy: ['Reconstruction', '3D Human Reconstruction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Chamfer (cm)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "P2S (cm)",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "NC",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[ICON: Implicit Clothed humans Obtained from Normals](https://arxiv.org/abs/2112.09127v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/yuliangxiu/icon)",
+      "n": "ICON",
+      "d": "2021-12-16",
+      "m1": "1.142",
+      "m2": "1.065",
+      "m3": "0.066"
+    },
+    {
+      "p": "[PaMIR: Parametric Model-Conditioned Implicit Representation for Image-based Human Reconstruction](https://arxiv.org/abs/2007.03858v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ZhengZerong/PaMIR)",
+      "n": "PaMIR",
+      "d": "2020-07-08",
+      "m1": "2.122",
+      "m2": "1.495",
+      "m3": "0.088"
+    },
+    {
+      "p": "[PIFuHD: Multi-Level Pixel-Aligned Implicit Function for High-Resolution 3D Human Digitization](https://arxiv.org/abs/2004.00452v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/pifuhd)",
+      "n": "PIFuHD",
+      "d": "2020-04-01",
+      "m1": "3.237",
+      "m2": "3.123",
+      "m3": "0.112"
+    },
+    {
+      "p": "[PIFu: Pixel-Aligned Implicit Function for High-Resolution Clothed Human Digitization](https://arxiv.org/abs/1905.05172v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/shunsukesaito/PIFu)",
+      "n": "PIFu (THuman2.0)",
+      "d": "2019-05-13",
+      "m1": "3.573",
+      "m2": "1.483",
+      "m3": "0.186"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

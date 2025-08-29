@@ -1,0 +1,155 @@
+# anomaly-detection-on-ubnormal
+
+[Dataset Link](https://github.com/lilygeorgescu/UBnormal/) \
+Task Hierarchy: ['Anomaly Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AUC",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "RBDC",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "TBDC",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Normalizing Flows for Human Pose Anomaly Detection](https://arxiv.org/abs/2211.10946v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/orhir/stg-nf)",
+      "n": "STG-NF - Supervised",
+      "d": "2022-11-20",
+      "m1": "79.2%"
+    },
+    {
+      "p": "[MULDE: Multiscale Log-Density Estimation via Denoising Score Matching for Video Anomaly Detection](https://arxiv.org/abs/2403.14497v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jakubmicorek/MULDE-Multiscale-Log-Density-Estimation-via-Denoising-Score-Matching-for-Video-Anomaly-Detection)",
+      "n": "MULDE-frame-centric-micro-one-class-classification",
+      "d": "2024-03-21",
+      "m1": "72.8%"
+    },
+    {
+      "p": "[Follow the Rules: Reasoning for Video Anomaly Detection with Large Language Models](https://arxiv.org/abs/2407.10299v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Yuchen413/AnomalyRuler)",
+      "n": "AnomalyRuler",
+      "d": "2024-07-14",
+      "m1": "71.9%"
+    },
+    {
+      "p": "[Normalizing Flows for Human Pose Anomaly Detection](https://arxiv.org/abs/2211.10946v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/orhir/stg-nf)",
+      "n": "STG-NF - Unsupervised",
+      "d": "2022-11-20",
+      "m1": "71.8%"
+    },
+    {
+      "p": "[Is Space-Time Attention All You Need for Video Understanding?](https://arxiv.org/abs/2102.05095v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmaction2)",
+      "n": "TimeSformer",
+      "d": "2021-02-09",
+      "m1": "68.5%",
+      "m2": "0.04",
+      "m3": "0.05"
+    },
+    {
+      "p": "[Multimodal Motion Conditioned Diffusion Model for Skeleton-based Video Anomaly Detection](https://arxiv.org/abs/2307.07205v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/aleflabo/MoCoDAD)",
+      "n": "MoCoDAD",
+      "d": "2023-07-14",
+      "m1": "68.3%"
+    },
+    {
+      "p": "[Contracting Skeletal Kinematics for Human-Related Video Anomaly Detection](https://arxiv.org/abs/2301.09489v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/aleflabo/COSKAD)",
+      "n": "COSKAD-hyperbolic",
+      "d": "2023-01-23",
+      "m1": "65%"
+    },
+    {
+      "p": "[Contracting Skeletal Kinematics for Human-Related Video Anomaly Detection](https://arxiv.org/abs/2301.09489v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/aleflabo/COSKAD)",
+      "n": "COSKAD-euclidean",
+      "d": "2023-01-23",
+      "m1": "64.9%"
+    },
+    {
+      "p": "[Contracting Skeletal Kinematics for Human-Related Video Anomaly Detection](https://arxiv.org/abs/2301.09489v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/aleflabo/COSKAD)",
+      "n": "COSKAD-radial",
+      "d": "2023-01-23",
+      "m1": "62.9%"
+    },
+    {
+      "p": "[Feature Prediction Diffusion Model for Video Anomaly Detection](http://openaccess.thecvf.com//content/ICCV2023/html/Yan_Feature_Prediction_Diffusion_Model_for_Video_Anomaly_Detection_ICCV_2023_paper.html)",
+      "c": "",
+      "n": "FPDM",
+      "d": "2023-01-01",
+      "m1": "62.7"
+    },
+    {
+      "p": "[SSMTL++: Revisiting Self-Supervised Multi-Task Learning for Video Anomaly Detection](https://arxiv.org/abs/2207.08003v4)",
+      "c": "",
+      "n": "SSMTL++v1",
+      "d": "2022-07-16",
+      "m1": "62.1%",
+      "m2": "25.63",
+      "m3": "63.53"
+    },
+    {
+      "p": "[A Background-Agnostic Framework with Adversarial Training for Abnormal Event Detection in Video](https://arxiv.org/abs/2008.12328v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/m-3lab/awesome-visual-sensory-anomaly-detection)",
+      "n": "Background-Agnostic Framework",
+      "d": "2020-08-27",
+      "m1": "61.3%",
+      "m2": "25.43",
+      "m3": "56.27"
+    },
+    {
+      "p": "[BiPOCO: Bi-Directional Trajectory Prediction with Pose Constraints for Pedestrian Anomaly Detection](https://arxiv.org/abs/2207.02281v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/akanuasiegbu/bipoco)",
+      "n": "BiPOCO",
+      "d": "2022-07-05",
+      "m1": "50.7"
+    },
+    {
+      "p": "[Real-world Anomaly Detection in Surveillance Videos](http://arxiv.org/abs/1801.04264v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/WaqasSultani/AnomalyDetectionCVPR2018)",
+      "n": "MIL",
+      "d": "2018-01-12",
+      "m1": "50.3%",
+      "m2": "0.002",
+      "m3": "0.001"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

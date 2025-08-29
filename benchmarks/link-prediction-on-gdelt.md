@@ -1,0 +1,116 @@
+# link-prediction-on-gdelt
+
+[Dataset Link](https://www.gdeltproject.org/) \
+Task Hierarchy: ['Link Prediction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "MRR",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Search to Pass Messages for Temporal Knowledge Graph Completion](https://arxiv.org/abs/2210.16740v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/striderdu/spa)",
+      "n": "SPA",
+      "d": "2022-10-30",
+      "m1": "0.36"
+    },
+    {
+      "p": "[Along the Time: Timeline-traced Embedding for Temporal Knowledge Graph Completion](https://dl.acm.org/doi/abs/10.1145/3511808.3557233)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhangfw123/TLT-KGE)",
+      "n": "TLT-KGE(Quaternion)",
+      "d": "2022-10-17",
+      "m1": "0.358"
+    },
+    {
+      "p": "[RotateQVS: Representing Temporal Information as Rotations in Quaternion Vector Space for Temporal Knowledge Graph Completion](https://arxiv.org/abs/2203.07993v2)",
+      "c": "",
+      "n": "RotateQVS",
+      "d": "2022-03-15",
+      "m1": "0.27"
+    },
+    {
+      "p": "[RotateQVS: Representing Temporal Information as Rotations in Quaternion Vector Space for Temporal Knowledge Graph Completion](https://arxiv.org/abs/2203.07993v2)",
+      "c": "",
+      "n": "RotateQVS-Small",
+      "d": "2022-03-15",
+      "m1": "0.259"
+    },
+    {
+      "p": "[RotateQVS: Representing Temporal Information as Rotations in Quaternion Vector Space for Temporal Knowledge Graph Completion](https://arxiv.org/abs/2203.07993v2)",
+      "c": "",
+      "n": "TeRo-Large",
+      "d": "2022-03-15",
+      "m1": "0.256"
+    },
+    {
+      "p": "[RotateQVS: Representing Temporal Information as Rotations in Quaternion Vector Space for Temporal Knowledge Graph Completion](https://arxiv.org/abs/2203.07993v2)",
+      "c": "",
+      "n": "TeRo",
+      "d": "2022-03-15",
+      "m1": "0.245"
+    },
+    {
+      "p": "[RotateQVS: Representing Temporal Information as Rotations in Quaternion Vector Space for Temporal Knowledge Graph Completion](https://arxiv.org/abs/2203.07993v2)",
+      "c": "",
+      "n": "DE-SimplE",
+      "d": "2022-03-15",
+      "m1": "0.23"
+    },
+    {
+      "p": "[RotateQVS: Representing Temporal Information as Rotations in Quaternion Vector Space for Temporal Knowledge Graph Completion](https://arxiv.org/abs/2203.07993v2)",
+      "c": "",
+      "n": "TA-DistMult",
+      "d": "2022-03-15",
+      "m1": "0.206"
+    },
+    {
+      "p": "[RotateQVS: Representing Temporal Information as Rotations in Quaternion Vector Space for Temporal Knowledge Graph Completion](https://arxiv.org/abs/2203.07993v2)",
+      "c": "",
+      "n": "DistMult",
+      "d": "2022-03-15",
+      "m1": "0.196"
+    },
+    {
+      "p": "[RotateQVS: Representing Temporal Information as Rotations in Quaternion Vector Space for Temporal Knowledge Graph Completion](https://arxiv.org/abs/2203.07993v2)",
+      "c": "",
+      "n": "TTransE",
+      "d": "2022-03-15",
+      "m1": "0.115"
+    },
+    {
+      "p": "[RotateQVS: Representing Temporal Information as Rotations in Quaternion Vector Space for Temporal Knowledge Graph Completion](https://arxiv.org/abs/2203.07993v2)",
+      "c": "",
+      "n": "TransE",
+      "d": "2022-03-15",
+      "m1": "0.113"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

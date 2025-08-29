@@ -1,0 +1,114 @@
+# tabular-data-generation-on-diabetes
+
+[Dataset Link](https://archive.ics.uci.edu/dataset/296/diabetes+130-us+hospitals+for+years+1999-2008) \
+Task Hierarchy: ['Tabular Data Generation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "DT Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Parameters(M)",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "LR Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "RF Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Tabular Data Generation using Binary Diffusion](https://arxiv.org/abs/2409.13882v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/vkinakh/binary-diffusion-tabular)",
+      "n": "Binary Diffusion",
+      "d": "2024-09-20",
+      "m1": "0.5713",
+      "m2": "1.8",
+      "m3": "0.5775",
+      "m4": "0.5752"
+    },
+    {
+      "p": "[Language Models are Realistic Tabular Data Generators](https://arxiv.org/abs/2210.06280v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/kathrinse/be_great)",
+      "n": "GReaT",
+      "d": "2022-10-12",
+      "m1": "0.5523",
+      "m2": "355",
+      "m3": "0.5734",
+      "m4": "0.5834"
+    },
+    {
+      "p": "[Language Models are Realistic Tabular Data Generators](https://arxiv.org/abs/2210.06280v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/kathrinse/be_great)",
+      "n": "Distill-GReaT",
+      "d": "2022-10-12",
+      "m1": "0.541",
+      "m2": "82",
+      "m3": "0.5733",
+      "m4": "0.5803"
+    },
+    {
+      "p": "[Modeling Tabular data using Conditional GAN](https://arxiv.org/abs/1907.00503v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ydataai/ydata-synthetic/tree/dev/src/ydata_synthetic/synthesizers/regular/ctgan)",
+      "n": "TVAE",
+      "d": "2019-07-01",
+      "m1": "0.5330",
+      "m2": "0.359",
+      "m3": "0.5634",
+      "m4": "0.5517"
+    },
+    {
+      "p": "[Modeling Tabular data using Conditional GAN](https://arxiv.org/abs/1907.00503v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ydataai/ydata-synthetic/tree/dev/src/ydata_synthetic/synthesizers/regular/ctgan)",
+      "n": "CTGAN",
+      "d": "2019-07-01",
+      "m1": "0.4973",
+      "m2": "9.6",
+      "m3": "0.5093",
+      "m4": "0.5223"
+    },
+    {
+      "p": "[Modeling Tabular data using Conditional GAN](https://arxiv.org/abs/1907.00503v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ydataai/ydata-synthetic/tree/dev/src/ydata_synthetic/synthesizers/regular/ctgan)",
+      "n": "CopulaGAN",
+      "d": "2019-07-01",
+      "m1": "0.385",
+      "m2": "9.4",
+      "m3": "0.4027",
+      "m4": "0.3759"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

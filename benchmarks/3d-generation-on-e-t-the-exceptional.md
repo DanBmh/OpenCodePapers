@@ -1,0 +1,85 @@
+# 3d-generation-on-e-t-the-exceptional
+
+[Dataset Link](https://github.com/robincourant/the-exceptional-trajectories) \
+Task Hierarchy: ['3D Generation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "FD_ClaTr",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "ClaTr-Score",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Classifier-F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[E.T. the Exceptional Trajectories: Text-to-camera-trajectory generation with character awareness](https://arxiv.org/abs/2407.01516v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/robincourant/DIRECTOR)",
+      "n": "DIRECTOR C",
+      "d": "2024-07-01",
+      "m1": "3.76",
+      "m2": "21.95 ",
+      "m3": "0.48"
+    },
+    {
+      "p": "[E.T. the Exceptional Trajectories: Text-to-camera-trajectory generation with character awareness](https://arxiv.org/abs/2407.01516v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/robincourant/DIRECTOR)",
+      "n": "DIRECTOR A",
+      "d": "2024-07-01",
+      "m1": "3.88",
+      "m2": "20.76 ",
+      "m3": "0.42"
+    },
+    {
+      "p": "[E.T. the Exceptional Trajectories: Text-to-camera-trajectory generation with character awareness](https://arxiv.org/abs/2407.01516v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/robincourant/DIRECTOR)",
+      "n": "DIRECTOR B",
+      "d": "2024-07-01",
+      "m1": "6.10 ",
+      "m2": "20.78 ",
+      "m3": "0.39"
+    },
+    {
+      "p": "[Human Motion Diffusion Model](https://arxiv.org/abs/2209.14916v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/guytevet/motion-diffusion-model)",
+      "n": "MDM",
+      "d": "2022-09-29",
+      "m1": "6.79 ",
+      "m2": "18.32 ",
+      "m3": "0.34"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

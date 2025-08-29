@@ -1,0 +1,104 @@
+# image-retrieval-on-conqa-descriptive
+
+[Dataset Link](https://github.com/AU-DIS/ConQA) \
+Task Hierarchy: ['Image Retrieval']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Recall@1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Recall@5",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Recall@10",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "R-precision",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Does the Performance of Text-to-Image Retrieval Models Generalize Beyond Captions-as-a-Query?](https://link.springer.com/chapter/10.1007/978-3-031-56066-8_15)",
+      "c": "[&check;&nbsp;Link](https://github.com/AU-DIS/ConQA)",
+      "n": "CLIP",
+      "d": "2024-03-15",
+      "m1": "20.7",
+      "m2": "58.3",
+      "m3": "65.5",
+      "m4": "16.5"
+    },
+    {
+      "p": "[Does the Performance of Text-to-Image Retrieval Models Generalize Beyond Captions-as-a-Query?](https://link.springer.com/chapter/10.1007/978-3-031-56066-8_15)",
+      "c": "[&check;&nbsp;Link](https://github.com/AU-DIS/ConQA)",
+      "n": "BLIP ",
+      "d": "2024-03-15",
+      "m1": "20.7",
+      "m2": "58.3",
+      "m3": "62.1",
+      "m4": "15.3"
+    },
+    {
+      "p": "[Does the Performance of Text-to-Image Retrieval Models Generalize Beyond Captions-as-a-Query?](https://link.springer.com/chapter/10.1007/978-3-031-56066-8_15)",
+      "c": "[&check;&nbsp;Link](https://github.com/AU-DIS/ConQA)",
+      "n": "BLIP-2",
+      "d": "2024-03-15",
+      "m1": "20.7",
+      "m2": "51.7",
+      "m3": "62.1",
+      "m4": "15.3"
+    },
+    {
+      "p": "[Does the Performance of Text-to-Image Retrieval Models Generalize Beyond Captions-as-a-Query?](https://link.springer.com/chapter/10.1007/978-3-031-56066-8_15)",
+      "c": "[&check;&nbsp;Link](https://github.com/AU-DIS/ConQA)",
+      "n": "NAAF",
+      "d": "2024-03-15",
+      "m1": "13.8",
+      "m2": "34.5",
+      "m3": "44.8",
+      "m4": "10.6"
+    },
+    {
+      "p": "[Does the Performance of Text-to-Image Retrieval Models Generalize Beyond Captions-as-a-Query?](https://link.springer.com/chapter/10.1007/978-3-031-56066-8_15)",
+      "c": "[&check;&nbsp;Link](https://github.com/AU-DIS/ConQA)",
+      "n": "SGRAF",
+      "d": "2024-03-15",
+      "m1": "6.9",
+      "m2": "24.1",
+      "m3": "34.5",
+      "m4": "7.9"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

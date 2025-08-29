@@ -1,0 +1,98 @@
+# knowledge-base-question-answering-on
+
+[Dataset Link](https://allenai.org/data/complexwebquestions) \
+Task Hierarchy: ['Question Answering', 'Knowledge Base Question Answering']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Hits@1",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "EM",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[ChatKBQA: A Generate-then-Retrieve Framework for Knowledge Base Question Answering with Fine-tuned Large Language Models](https://arxiv.org/abs/2310.08975v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/lhrlab/chatkbqa)",
+      "n": "ChatKBQA",
+      "d": "2023-10-13",
+      "m1": "76.8",
+      "m2": "81.3",
+      "m3": "86.0"
+    },
+    {
+      "p": "[Case-based Reasoning for Natural Language Queries over Knowledge Bases](https://arxiv.org/abs/2104.08762v2)",
+      "c": "",
+      "n": "CBR-KBQA",
+      "d": "2021-04-18",
+      "m1": "70.4"
+    },
+    {
+      "p": "[Improving Multi-hop Knowledge Base Question Answering by Learning Intermediate Supervision Signals](https://arxiv.org/abs/2101.03737v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/RichardHGL/WSDM2021_NSM)",
+      "n": "NSM+h",
+      "d": "2021-01-11",
+      "m1": "53.9"
+    },
+    {
+      "p": "[Case-based Reasoning for Natural Language Queries over Knowledge Bases](https://arxiv.org/abs/2104.08762v2)",
+      "c": "",
+      "n": "PullNet",
+      "d": "2021-04-18",
+      "m1": "45.9"
+    },
+    {
+      "p": "[Case-based Reasoning for Natural Language Queries over Knowledge Bases](https://arxiv.org/abs/2104.08762v2)",
+      "c": "",
+      "n": "QGG",
+      "d": "2021-04-18",
+      "m1": "44.1"
+    },
+    {
+      "p": "[Paths-over-Graph: Knowledge Graph Empowered Large Language Model Reasoning](https://arxiv.org/abs/2410.14211v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/SteveTANTAN/PoG)",
+      "n": "PoG-GPT4 (Tan et al., 2024)",
+      "d": "2024-10-18",
+      "m4": "81.4"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

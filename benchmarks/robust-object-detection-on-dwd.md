@@ -1,0 +1,123 @@
+# robust-object-detection-on-dwd
+
+[Dataset Link](https://github.com/AmingWu/Single-DGOD) \
+Task Hierarchy: ['16k', 'Object Detection', 'Robust Object Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mPC [AP50]",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Generalized Diffusion Detector: Mining Robust Features from Diffusion Models for Domain-Generalized Detection](https://arxiv.org/abs/2503.02101v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/heboyong/Generalized-Diffusion-Detector)",
+      "n": "GDD (SD-1.5 Backbone)",
+      "d": "2025-03-03",
+      "m1": "40.5"
+    },
+    {
+      "p": "[Generalized Diffusion Detector: Mining Robust Features from Diffusion Models for Domain-Generalized Detection](https://arxiv.org/abs/2503.02101v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/heboyong/Generalized-Diffusion-Detector)",
+      "n": "GDD (R101, Faster RCNN)",
+      "d": "2025-03-03",
+      "m1": "38.1"
+    },
+    {
+      "p": "[PhysAug: A Physical-guided and Frequency-based Data Augmentation for Single-Domain Generalized Object Detection](https://arxiv.org/abs/2412.11807v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/startracker0/physaug)",
+      "n": "PhysAug",
+      "d": "2024-12-16",
+      "m1": "37.5"
+    },
+    {
+      "p": "[Strong but simple: A Baseline for Domain Generalized Dense Perception by CLIP-based Transfer Learning](https://arxiv.org/abs/2312.02021v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/VLTSeg/VLTSeg)",
+      "n": "VLTDet",
+      "d": "2023-12-04",
+      "m1": "36.9"
+    },
+    {
+      "p": "[Object-Aware Domain Generalization for Object Detection](https://arxiv.org/abs/2312.12133v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/WoojuLee24/OA-DG)",
+      "n": "OA-DG",
+      "d": "2023-12-19",
+      "m1": "31.8"
+    },
+    {
+      "p": "[SRCD: Semantic Reasoning with Compound Domains for Single-Domain Generalized Object Detection](https://arxiv.org/abs/2307.01750v2)",
+      "c": "",
+      "n": "SRCD",
+      "d": "2023-07-04",
+      "m1": "29.6"
+    },
+    {
+      "p": "[Single-Domain Generalized Object Detection in Urban Scene via Cyclic-Disentangled Self-Distillation](http://openaccess.thecvf.com//content/CVPR2022/html/Wu_Single-Domain_Generalized_Object_Detection_in_Urban_Scene_via_Cyclic-Disentangled_Self-Distillation_CVPR_2022_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/amingwu/single-dgod)",
+      "n": "CDSD",
+      "d": "2022-01-01",
+      "m1": "28.7"
+    },
+    {
+      "p": "[Style-Hallucinated Dual Consistency Learning for Domain Generalized Semantic Segmentation](https://arxiv.org/abs/2204.02548v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/helioszhao/shade)",
+      "n": "SHADE",
+      "d": "2022-04-06",
+      "m1": "28.4"
+    },
+    {
+      "p": "[RobustNet: Improving Domain Generalization in Urban-Scene Segmentation via Instance Selective Whitening](https://arxiv.org/abs/2103.15597v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/shachoi/RobustNet)",
+      "n": "ISW",
+      "d": "2021-03-29",
+      "m1": "26.3"
+    },
+    {
+      "p": "[Switchable Whitening for Deep Representation Learning](https://arxiv.org/abs/1904.09739v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/XingangPan/Switchable-Whitening)",
+      "n": "SW",
+      "d": "2019-04-22",
+      "m1": "26.1"
+    },
+    {
+      "p": "[Two at Once: Enhancing Learning and Generalization Capacities via IBN-Net](https://arxiv.org/abs/1807.09441v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/layumi/Person_reID_baseline_pytorch)",
+      "n": "IBN-Net",
+      "d": "2018-07-25",
+      "m1": "25.5"
+    },
+    {
+      "p": "[Iterative Normalization: Beyond Standardization towards Efficient Whitening](http://arxiv.org/abs/1904.03441v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/XingangPan/Switchable-Whitening)",
+      "n": "IterNorm",
+      "d": "2019-04-06",
+      "m1": "23.4"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

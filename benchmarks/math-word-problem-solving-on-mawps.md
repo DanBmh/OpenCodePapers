@@ -1,0 +1,214 @@
+# math-word-problem-solving-on-mawps
+
+[Dataset Link](https://github.com/sroy9/mawps) \
+Task Hierarchy: ['Mathematical Reasoning', 'Math Word Problem Solving']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy (%)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset](https://arxiv.org/abs/2402.10176v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/kipok/nemo-skills)",
+      "n": "OpenMath-CodeLlama-70B (w/ code)",
+      "d": "2024-02-15",
+      "m1": "95.7"
+    },
+    {
+      "p": "[Learning Multi-Step Reasoning by Solving Arithmetic Tasks](https://arxiv.org/abs/2306.01707v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/TianduoWang/MsAT)",
+      "n": "MsAT-DeductReasoner",
+      "d": "2023-06-02",
+      "m1": "94.3"
+    },
+    {
+      "p": "[ATHENA: Mathematical Reasoning with Thought Expansion](https://arxiv.org/abs/2311.01036v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/the-jb/athena-math)",
+      "n": "ATHENA (roberta-large)",
+      "d": "2023-11-02",
+      "m1": "93"
+    },
+    {
+      "p": "[Multi-View Reasoning: Consistent Contrastive Learning for Math Word Problem](https://arxiv.org/abs/2210.11694v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zwq2018/multi-view-consistency-for-mwp)",
+      "n": "Multi-view",
+      "d": "2022-10-21",
+      "m1": "92.3"
+    },
+    {
+      "p": "[An Expression Tree Decoding Strategy for Mathematical Equation Generation](https://arxiv.org/abs/2310.09619v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/zwq2018/multi-view-consistency-for-mwp)",
+      "n": "Exp-Tree",
+      "d": "2023-10-14",
+      "m1": "92.3"
+    },
+    {
+      "p": "[ATHENA: Mathematical Reasoning with Thought Expansion](https://arxiv.org/abs/2311.01036v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/the-jb/athena-math)",
+      "n": "ATHENA (roberta-base)",
+      "d": "2023-11-02",
+      "m1": "92.2"
+    },
+    {
+      "p": "[Learning to Reason Deductively: Math Word Problem Solving as Complex Relation Extraction](https://arxiv.org/abs/2203.10316v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/allanj/deductive-mwp)",
+      "n": "Roberta-DeductReasoner",
+      "d": "2022-03-19",
+      "m1": "92"
+    },
+    {
+      "p": "[Math Word Problem Solving by Generating Linguistic Variants of Problem Statements](https://arxiv.org/abs/2306.13899v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/starscream-11813/variational-mathematical-reasoning)",
+      "n": "DeBERTa (PM + VM)",
+      "d": "2023-06-24",
+      "m1": "91.0"
+    },
+    {
+      "p": "[EPT-X: An Expression-Pointer Transformer model that generates eXplanations for numbers](https://aclanthology.org/2022.acl-long.305)",
+      "c": "[&check;&nbsp;Link](https://github.com/snucclab/ept-x)",
+      "n": "EPT",
+      "d": null,
+      "m1": "88.7"
+    },
+    {
+      "p": "[Are NLP Models really able to Solve Simple Math Word Problems?](https://arxiv.org/abs/2103.07191v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/arkilpatel/SVAMP)",
+      "n": "Graph2Tree with RoBERTa",
+      "d": "2021-03-12",
+      "m1": "88.7"
+    },
+    {
+      "p": "[Are NLP Models really able to Solve Simple Math Word Problems?](https://arxiv.org/abs/2103.07191v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/arkilpatel/SVAMP)",
+      "n": "GTS with RoBERTa",
+      "d": "2021-03-12",
+      "m1": "88.5"
+    },
+    {
+      "p": "[Generating Equation by Utilizing Operators : GEO model](https://aclanthology.org/2020.coling-main.38)",
+      "c": "",
+      "n": "GEO",
+      "d": "2020-12-01",
+      "m1": "85.1"
+    },
+    {
+      "p": "[EPT-X: An Expression-Pointer Transformer model that generates eXplanations for numbers](https://aclanthology.org/2022.acl-long.305)",
+      "c": "[&check;&nbsp;Link](https://github.com/snucclab/ept-x)",
+      "n": "EPT-X",
+      "d": null,
+      "m1": "84.57"
+    },
+    {
+      "p": "[Point to the Expression: Solving Algebraic Word Problems using the Expression-Pointer Transformer Model](https://aclanthology.org/2020.emnlp-main.308)",
+      "c": "[&check;&nbsp;Link](https://github.com/snucclab/EPT)",
+      "n": "EPT",
+      "d": null,
+      "m1": "84.51"
+    },
+    {
+      "p": "[Graph-to-Tree Learning for Solving Math Word Problems](https://aclanthology.org/2020.acl-main.362)",
+      "c": "[&check;&nbsp;Link](https://github.com/2003pro/Graph2Tree)",
+      "n": "Graph2Tree",
+      "d": "2020-07-01",
+      "m1": "83.7"
+    },
+    {
+      "p": "[Llama 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/abs/2307.09288v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/llama)",
+      "n": "LLaMA 2-Chat",
+      "d": "2023-07-18",
+      "m1": "82.4"
+    },
+    {
+      "p": "[Math Word Problem Solving by Generating Linguistic Variants of Problem Statements](https://arxiv.org/abs/2306.13899v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/starscream-11813/variational-mathematical-reasoning)",
+      "n": "GPT-3.5 turbo (175B)",
+      "d": "2023-06-24",
+      "m1": "80.3"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Toolformer",
+      "d": null,
+      "m1": "44.0"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "GPT-3 (175B)",
+      "d": null,
+      "m1": "19.8"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Toolformer (disabled)",
+      "d": null,
+      "m1": "15.0"
+    },
+    {
+      "p": "[Math Word Problem Solving by Generating Linguistic Variants of Problem Statements](https://arxiv.org/abs/2306.13899v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/starscream-11813/variational-mathematical-reasoning)",
+      "n": "GPT-J",
+      "d": "2023-06-24",
+      "m1": "9.9"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "GPT-J + CC",
+      "d": null,
+      "m1": "9.3"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "OPT (66B)",
+      "d": null,
+      "m1": "7.9"
+    },
+    {
+      "p": "[Math Word Problem Solving by Generating Linguistic Variants of Problem Statements](https://arxiv.org/abs/2306.13899v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/starscream-11813/variational-mathematical-reasoning)",
+      "n": "GPT-3 text-curie-001 (13B)",
+      "d": "2023-06-24",
+      "m1": "4.09"
+    },
+    {
+      "p": "[Math Word Problem Solving by Generating Linguistic Variants of Problem Statements](https://arxiv.org/abs/2306.13899v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/starscream-11813/variational-mathematical-reasoning)",
+      "n": "GPT-3 text-babbage-001 (6.7B)",
+      "d": "2023-06-24",
+      "m1": "2.76"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

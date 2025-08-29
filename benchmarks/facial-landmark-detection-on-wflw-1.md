@@ -1,0 +1,80 @@
+# facial-landmark-detection-on-wflw-1
+
+[Dataset Link](https://wywu.github.io/projects/LAB/WFLW.html) \
+Task Hierarchy: ['3D Face Reconstruction', 'Facial Recognition and Modelling', 'Facial Landmark Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "NME",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "NME (inter-ocular)",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "AUC@10 (inter-ocular)",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "FR@10 (inter-ocular)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Cascaded Dual Vision Transformer for Accurate Facial Landmark Detection](https://arxiv.org/abs/2411.07167v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Human3DAIGC/AccurateFacialLandmarkDetection)",
+      "n": "D-ViT",
+      "d": "2024-11-08",
+      "m1": "3.75",
+      "m2": "3.75",
+      "m3": "63.7",
+      "m4": "1.76"
+    },
+    {
+      "p": "[Automated Detection of Cat Facial Landmarks](https://arxiv.org/abs/2310.09793v2)",
+      "c": "",
+      "n": "ELD (EfficientNetV2B1)",
+      "d": "2023-10-15",
+      "m1": "4.65"
+    },
+    {
+      "p": "[Fiducial Focus Augmentation for Facial Landmark Detection](https://arxiv.org/abs/2402.15044v1)",
+      "c": "",
+      "n": "FiFA",
+      "d": "2024-02-23",
+      "m2": "3.89",
+      "m3": "61.78",
+      "m4": "1.60"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

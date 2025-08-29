@@ -1,0 +1,483 @@
+# image-classification-on-mini-webvision-1-0
+
+[Dataset Link](https://data.vision.ee.ethz.ch/cvl/webvision/dataset2017.html) \
+Task Hierarchy: ['Image Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Top-1 Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Top-5 Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "ImageNet Top-1 Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "ImageNet Top-5 Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Label-Retrieval-Augmented Diffusion Models for Learning from Noisy Labels](https://arxiv.org/abs/2305.19518v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/puar-playground/lra-diffusion)",
+      "n": "LRA-diffusion (CLIP ViT)",
+      "d": "2023-05-31",
+      "m1": "84.16",
+      "m3": "82.56"
+    },
+    {
+      "p": "[Two Wrongs Don't Make a Right: Combating Confirmation Bias in Learning with Label Noise](https://arxiv.org/abs/2112.02960v3)",
+      "c": "",
+      "n": "Robust LR",
+      "d": "2021-12-06",
+      "m1": "81.84",
+      "m2": "94.12",
+      "m3": "75.48",
+      "m4": "93.76"
+    },
+    {
+      "p": "[Sample Prior Guided Robust Model Learning to Suppress Noisy Labels](https://arxiv.org/abs/2112.01197v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/bupt-ai-cz/PGDF)",
+      "n": "PGDF (Inception-ResNet-v2)",
+      "d": "2021-12-02",
+      "m1": "81.47",
+      "m2": "94.03",
+      "m3": "75.45",
+      "m4": "93.11"
+    },
+    {
+      "p": "[SSR: An Efficient and Robust Framework for Learning with Unknown Label Noise](https://arxiv.org/abs/2111.11288v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/MrChenFeng/SSR_BMVC2022)",
+      "n": "SSR",
+      "d": "2021-11-22",
+      "m1": "80.92",
+      "m2": "92.80",
+      "m3": "75.76",
+      "m4": "91.76"
+    },
+    {
+      "p": "[Bootstrapping the Relationship Between Images and Their Clean and Noisy Labels](https://arxiv.org/abs/2210.08826v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/btsmart/bootstrapping-label-noise)",
+      "n": "BtR",
+      "d": "2022-10-17",
+      "m1": "80.88",
+      "m2": "92.76",
+      "m3": "75.96",
+      "m4": "92.20"
+    },
+    {
+      "p": "[CoDiM: Learning with Noisy Labels via Contrastive Semi-Supervised Learning](https://arxiv.org/abs/2111.11652v1)",
+      "c": "",
+      "n": "CoDiM-Sup (Inception-ResNet-v2)",
+      "d": "2021-11-23",
+      "m1": "80.88",
+      "m2": "92.48",
+      "m3": "76.52",
+      "m4": "91.96"
+    },
+    {
+      "p": "[Learning with Neighbor Consistency for Noisy Labels](https://arxiv.org/abs/2202.02200v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/scenic)",
+      "n": "NCR+Mixup+DA (ResNet-50)",
+      "d": "2022-02-04",
+      "m1": "80.5"
+    },
+    {
+      "p": "[CMW-Net: Learning a Class-Aware Sample Weighting Mapping for Robust Deep Learning](https://arxiv.org/abs/2202.05613v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/xjtushujun/cmw-net)",
+      "n": "CMW-Net-SL+C2D",
+      "d": "2022-02-11",
+      "m1": "80.44",
+      "m2": "93.36",
+      "m3": "77.36",
+      "m4": "93.48"
+    },
+    {
+      "p": "[Dynamic Loss For Robust Learning](https://arxiv.org/abs/2211.12506v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jiangwenj02/dynamic_loss)",
+      "n": "Dynamic Loss  (Inception-ResNet-v2)",
+      "d": "2022-11-22",
+      "m1": "80.12",
+      "m2": "93.64",
+      "m3": "74.76",
+      "m4": "93.08"
+    },
+    {
+      "p": "[CoDiM: Learning with Noisy Labels via Contrastive Semi-Supervised Learning](https://arxiv.org/abs/2111.11652v1)",
+      "c": "",
+      "n": "CoDiM-Self  (Inception-ResNet-v2)",
+      "d": "2021-11-23",
+      "m1": "80.12",
+      "m2": "93.52",
+      "m3": "77.24",
+      "m4": "92.48"
+    },
+    {
+      "p": "[Selective-Supervised Contrastive Learning with Noisy Labels](https://arxiv.org/abs/2203.04181v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/shikunli/sel-cl)",
+      "n": "Sel-CL+ (ResNet-18)",
+      "d": "2022-03-08",
+      "m1": "79.96",
+      "m2": "92.64",
+      "m3": "76.84",
+      "m4": "93.04"
+    },
+    {
+      "p": "[Class Prototype-based Cleaner for Label Noise Learning](https://arxiv.org/abs/2212.10766v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/hjjpku/cpc)",
+      "n": "CPC",
+      "d": "2022-12-21",
+      "m1": "79.63\u00b10.08",
+      "m2": "93.46\u00b10.10",
+      "m3": "75.75\u00b10.14",
+      "m4": "93.49\u00b10.25"
+    },
+    {
+      "p": "[PSSCL: A progressive sample selection framework with contrastive loss designed for noisy labels](https://www.sciencedirect.com/science/article/abs/pii/S0031320324010355)",
+      "c": "[&check;&nbsp;Link](https://github.com/LanXiaoPang613/PSSCL)",
+      "n": "PSSCL (130 epochs)",
+      "d": "2024-12-18",
+      "m1": "79.56",
+      "m2": "94.84",
+      "m3": "79.68",
+      "m4": "95.16"
+    },
+    {
+      "p": "[Contrast to Divide: Self-Supervised Pre-Training for Learning with Noisy Labels](https://arxiv.org/abs/2103.13646v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ContrastToDivide/C2D)",
+      "n": "DivideMix with C2D (ResNet-50)",
+      "d": "2021-03-25",
+      "m1": "79.42\u2009\u00b1\u20090.34",
+      "m2": "92.32\u2009\u00b1\u20090.33",
+      "m3": "78.57\u2009\u00b1\u20090.37",
+      "m4": "93.04\u2009\u00b1\u20090.10"
+    },
+    {
+      "p": "[Faster Meta Update Strategy for Noise-Robust Deep Learning](https://arxiv.org/abs/2104.15092v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/youjiangxu/FaMUS)",
+      "n": "FaMUS",
+      "d": "2021-04-30",
+      "m1": "79.4",
+      "m2": "92.80",
+      "m3": "77",
+      "m4": "92.76"
+    },
+    {
+      "p": "[Learning with Neighbor Consistency for Noisy Labels](https://arxiv.org/abs/2202.02200v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/scenic)",
+      "n": "NCR+Mixup (ResNet-50)",
+      "d": "2022-02-04",
+      "m1": "79.4"
+    },
+    {
+      "p": "[Centrality and Consistency: Two-Stage Clean Samples Identification for Learning with Instance-Dependent Noisy Labels](https://arxiv.org/abs/2207.14476v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/uitrbn/tscsi_idn)",
+      "n": "CC",
+      "d": "2022-07-29",
+      "m1": "79.36",
+      "m2": "93.64",
+      "m3": "76.08",
+      "m4": "93.86"
+    },
+    {
+      "p": "[Generalized Jensen-Shannon Divergence Loss for Learning with Noisy Labels](https://arxiv.org/abs/2105.04522v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/erikenglesson/gjs)",
+      "n": "GJS (ResNet-50)",
+      "d": "2021-05-10",
+      "m1": "79.28",
+      "m2": "91.22",
+      "m3": "75.50",
+      "m4": "91.27"
+    },
+    {
+      "p": "[NGC: A Unified Framework for Learning with Open-World Noisy Data](https://arxiv.org/abs/2108.11035v1)",
+      "c": "",
+      "n": "NGC (Inception-ResNet-v2)",
+      "d": "2021-08-25",
+      "m1": "79.16",
+      "m2": "91.84 ",
+      "m3": "74.44 ",
+      "m4": "91.04"
+    },
+    {
+      "p": "[Twin Contrastive Learning with Noisy Labels](https://arxiv.org/abs/2303.06930v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/hzzone/tcl)",
+      "n": "TCL",
+      "d": "2023-03-13",
+      "m1": "79.1",
+      "m2": "92.3",
+      "m3": "75.4",
+      "m4": "92.4"
+    },
+    {
+      "p": "[LongReMix: Robust Learning with High Confidence Samples in a Noisy Label Environment](https://arxiv.org/abs/2103.04173v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/filipe-research/LongReMix)",
+      "n": "LongReMix (Inception-ResNet-v2)",
+      "d": "2021-03-06",
+      "m1": "78.92",
+      "m2": "92.32"
+    },
+    {
+      "p": "[Multi-Objective Interpolation Training for Robustness to Label Noise](https://arxiv.org/abs/2012.04462v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/DiegoOrtego/LabelNoiseMOIT)",
+      "n": "MOIT+ (ResNet-18)",
+      "d": "2020-12-08",
+      "m1": "78.76"
+    },
+    {
+      "p": "[PSSCL: A progressive sample selection framework with contrastive loss designed for noisy labels](https://www.sciencedirect.com/science/article/abs/pii/S0031320324010355)",
+      "c": "[&check;&nbsp;Link](https://github.com/LanXiaoPang613/PSSCL)",
+      "n": "PSSCL (120 epochs)",
+      "d": "2024-12-18",
+      "m1": "78.52",
+      "m2": "93.80",
+      "m3": "79.40",
+      "m4": "94.84"
+    },
+    {
+      "p": "[CMW-Net: Learning a Class-Aware Sample Weighting Mapping for Robust Deep Learning](https://arxiv.org/abs/2202.05613v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/xjtushujun/cmw-net)",
+      "n": "CMW-Net-SL",
+      "d": "2022-02-11",
+      "m1": "78.08",
+      "m2": "92.96",
+      "m3": "75.72",
+      "m4": "92.52"
+    },
+    {
+      "p": "[Early-Learning Regularization Prevents Memorization of Noisy Labels](https://arxiv.org/abs/2007.00151v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/shengliu66/ELR)",
+      "n": "ELR+ (Inception-ResNet-v2)",
+      "d": "2020-06-30",
+      "m1": "77.78",
+      "m2": "91.68",
+      "m3": "70.29",
+      "m4": "89.76"
+    },
+    {
+      "p": "[ScanMix: Learning from Severe Label Noise via Semantic Clustering and Semi-Supervised Learning](https://arxiv.org/abs/2103.11395v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/ragavsachdeva/ScanMix)",
+      "n": "ScanMix (Inception-ResNet-v2)",
+      "d": "2021-03-21",
+      "m1": "77.72"
+    },
+    {
+      "p": "[Robust Long-Tailed Learning under Label Noise](https://arxiv.org/abs/2108.11569v1)",
+      "c": "",
+      "n": "ROLT+ (Inception-ResNet-v2)",
+      "d": "2021-08-26",
+      "m1": "77.64",
+      "m2": "92.44",
+      "m3": "74.64",
+      "m4": "92.48"
+    },
+    {
+      "p": "[Sample Selection with Uncertainty of Losses for Learning with Noisy Labels](https://arxiv.org/abs/2106.00445v1)",
+      "c": "",
+      "n": "CNLCU-S + DivideMix (Inception-ResNet-v2)",
+      "d": "2021-06-01",
+      "m1": "77.53"
+    },
+    {
+      "p": "[Hard Sample Aware Noise Robust Learning for Histopathology Image Classification](https://arxiv.org/abs/2112.03694v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/bupt-ai-cz/HSA-NRL)",
+      "n": "HSA-NRL(Inception-ResNet-v2)",
+      "d": "2021-12-05",
+      "m1": "77.52"
+    },
+    {
+      "p": "[Confidence Adaptive Regularization for Deep Learning with Noisy Labels](https://arxiv.org/abs/2108.08212v2)",
+      "c": "",
+      "n": "CAR",
+      "d": "2021-08-18",
+      "m1": "77.41",
+      "m2": "92.25",
+      "m3": "74.09",
+      "m4": "92.09"
+    },
+    {
+      "p": "[DivideMix: Learning with Noisy Labels as Semi-supervised Learning](https://arxiv.org/abs/2002.07394v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/LiJunnan1992/DivideMix)",
+      "n": "DivideMix (Inception-ResNet-v2)",
+      "d": "2020-02-18",
+      "m1": "77.32",
+      "m2": "91.64",
+      "m3": "75.20",
+      "m4": "91.64"
+    },
+    {
+      "p": "[Learning with Neighbor Consistency for Noisy Labels](https://arxiv.org/abs/2202.02200v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/scenic)",
+      "n": "NCR (ResNet-50)",
+      "d": "2022-02-04",
+      "m1": "77.1"
+    },
+    {
+      "p": "[DivideMix: Learning with Noisy Labels as Semi-supervised Learning](https://arxiv.org/abs/2002.07394v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/LiJunnan1992/DivideMix)",
+      "n": "DivideMix (ResNet-50)",
+      "d": "2020-02-18",
+      "m1": "76.32 \u00b10.36",
+      "m2": "90.65 \u00b10.16",
+      "m3": "74.42 \u00b10.29",
+      "m4": "91.21 \u00b10.12"
+    },
+    {
+      "p": "[DivideMix: Learning with Noisy Labels as Semi-supervised Learning](https://arxiv.org/abs/2002.07394v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/LiJunnan1992/DivideMix)",
+      "n": "DivideMix (ResNet-18)",
+      "d": "2020-02-18",
+      "m1": "76.08"
+    },
+    {
+      "p": "[Beyond Synthetic Noise: Deep Learning on Controlled Noisy Labels](https://arxiv.org/abs/1911.09781v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research/tree/master/mentormix)",
+      "n": "MentorMix (Inception-ResNet-v2)",
+      "d": "2019-11-21",
+      "m1": "76.0",
+      "m2": "90.2",
+      "m3": "72.9",
+      "m4": "91.1"
+    },
+    {
+      "p": "[Noisy Concurrent Training for Efficient Learning under Label Noise](https://arxiv.org/abs/2009.08325v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/NeurAI-Lab/UniNet)",
+      "n": "NCT (Inception-ResNet-v2)",
+      "d": "2020-09-17",
+      "m1": "75.16",
+      "m2": "90.77",
+      "m3": "71.73",
+      "m4": "91.61"
+    },
+    {
+      "p": "[Robust and On-the-fly Dataset Denoising for Image Classification](https://arxiv.org/abs/2003.10647v2)",
+      "c": "",
+      "n": "ODD (Inception-ResNet-v2)",
+      "d": "2020-03-24",
+      "m1": "74.6",
+      "m2": "90.6",
+      "m3": "66.7",
+      "m4": "86.3"
+    },
+    {
+      "p": "[Coresets for Robust Training of Neural Networks against Noisy Labels](https://arxiv.org/abs/2011.07451v1)",
+      "c": "",
+      "n": "Crust (Inception-ResNet-v2)",
+      "d": "2020-11-15",
+      "m1": "72.40",
+      "m2": "89.56",
+      "m3": "67.36",
+      "m4": "87.84"
+    },
+    {
+      "p": "[Understanding and Utilizing Deep Neural Networks Trained with Noisy Labels](https://arxiv.org/abs/1905.05040v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/chenpf1025/noisy_label_understanding_utilizing)",
+      "n": "Iterative-CV (Inception-ResNet-v2)",
+      "d": "2019-05-13",
+      "m1": "65.2",
+      "m2": "85.3",
+      "m3": "61.6",
+      "m4": "85.0"
+    },
+    {
+      "p": "[Co-teaching: Robust Training of Deep Neural Networks with Extremely Noisy Labels](http://arxiv.org/abs/1804.06872v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/bhanML/Co-teaching)",
+      "n": "Co-teaching (Inception-ResNet-v2)",
+      "d": "2018-04-18",
+      "m1": "63.58",
+      "m2": "85.20",
+      "m3": "61.48",
+      "m4": "84.70"
+    },
+    {
+      "p": "[Dimensionality-Driven Learning with Noisy Labels](http://arxiv.org/abs/1806.02612v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ansuini/IntrinsicDimDeep)",
+      "n": "D2L (Inception-ResNet-v2)",
+      "d": "2018-06-07",
+      "m1": "62.68",
+      "m2": "84.00",
+      "m3": "57.80",
+      "m4": "81.36"
+    },
+    {
+      "p": "[Making Deep Neural Networks Robust to Label Noise: a Loss Correction Approach](http://arxiv.org/abs/1609.03683v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/yikun2019/PENCIL)",
+      "n": "F-Correction (Inception-ResNet-v2)",
+      "d": "2016-09-13",
+      "m1": "61.12",
+      "m2": "82.68",
+      "m3": "57.36",
+      "m4": "82.36"
+    },
+    {
+      "p": "[Robust Temporal Ensembling for Learning with Noisy Labels](https://arxiv.org/abs/2109.14563v1)",
+      "c": "",
+      "n": "RTE (Inception-ResNet-v2)",
+      "d": "2021-09-29",
+      "m3": "80.84",
+      "m4": "97.24"
+    },
+    {
+      "p": "[MentorNet: Learning Data-Driven Curriculum for Very Deep Neural Networks on Corrupted Labels](http://arxiv.org/abs/1712.05055v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/google/mentornet)",
+      "n": "MentorNet (Inception-ResNet-v2)",
+      "d": "2017-12-14",
+      "m3": "63.8",
+      "m4": "85.8"
+    },
+    {
+      "p": "[Normalized Loss Functions for Deep Learning with Noisy Labels](https://arxiv.org/abs/2006.13554v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/HanxunH/Active-Passive-Losses)",
+      "n": "NCE+RCE (ResNet-50)",
+      "d": "2020-06-24",
+      "m3": "62.64"
+    },
+    {
+      "p": "[Normalized Loss Functions for Deep Learning with Noisy Labels](https://arxiv.org/abs/2006.13554v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/HanxunH/Active-Passive-Losses)",
+      "n": "NCE+MAE (ResNet-50)",
+      "d": "2020-06-24",
+      "m3": "62.36"
+    },
+    {
+      "p": "[Robust early-learning: Hindering the memorization of noisy labels](https://openreview.net/forum?id=Eql5b1_hTE4)",
+      "c": "",
+      "n": "CDR (Inception-ResNet-v2)",
+      "d": "2021-01-01",
+      "m3": "61.85"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

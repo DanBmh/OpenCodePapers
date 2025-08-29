@@ -1,0 +1,136 @@
+# single-image-deraining-on-test100
+
+[Dataset Link]() \
+Task Hierarchy: ['Rain Removal', 'Single Image Deraining']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "SSIM",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Restormer: Efficient Transformer for High-Resolution Image Restoration](https://arxiv.org/abs/2111.09881v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/swz30/restormer)",
+      "n": "Restormer",
+      "d": "2021-11-18",
+      "m1": "32.00",
+      "m2": "0.923"
+    },
+    {
+      "p": "[A Mountain-Shaped Single-Stage Network for Accurate Image Restoration](https://arxiv.org/abs/2305.05146v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Tombs98/M3SNet)",
+      "n": "M3SNet",
+      "d": "2023-05-09",
+      "m1": "31.29",
+      "m2": "0.903"
+    },
+    {
+      "p": "[Mixed Hierarchy Network for Image Restoration](https://arxiv.org/abs/2302.09554v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/tombs98/mhnet)",
+      "n": "MHNet",
+      "d": "2023-02-19",
+      "m1": "31.19",
+      "m2": "0.903"
+    },
+    {
+      "p": "[MAXIM: Multi-Axis MLP for Image Processing](https://arxiv.org/abs/2201.02973v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/maxim)",
+      "n": "MAXIM",
+      "d": "2022-01-09",
+      "m1": "31.17",
+      "m2": "0.922"
+    },
+    {
+      "p": "[HINet: Half Instance Normalization Network for Image Restoration](https://arxiv.org/abs/2105.06086v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/megvii-model/HINet)",
+      "n": "HINet",
+      "d": "2021-05-13",
+      "m1": "30.29",
+      "m2": "0.906"
+    },
+    {
+      "p": "[Multi-Stage Progressive Image Restoration](https://arxiv.org/abs/2102.02808v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/swz30/restormer)",
+      "n": "MPRNet",
+      "d": "2021-02-04",
+      "m1": "30.27",
+      "m2": "0.897"
+    },
+    {
+      "p": "[Multi-Scale Progressive Fusion Network for Single Image Deraining](https://arxiv.org/abs/2003.10985v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/kuijiang94/mspfn)",
+      "n": "MSPFN",
+      "d": "2020-03-24",
+      "m1": "27.50",
+      "m2": "0.876"
+    },
+    {
+      "p": "[Semi-supervised Transfer Learning for Image Rain Removal](http://arxiv.org/abs/1807.11078v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/wwzjer/Semi-supervised-IRR)",
+      "n": "SEMI",
+      "d": "2018-07-29",
+      "m1": "22.35",
+      "m2": "0.788"
+    },
+    {
+      "p": "[Recurrent Squeeze-and-Excitation Context Aggregation Net for Single Image Deraining](http://arxiv.org/abs/1807.05698v2)",
+      "c": "",
+      "n": "RESCAN",
+      "d": "2018-07-16",
+      "m2": "0.835"
+    },
+    {
+      "p": "[Uncertainty Guided Multi-Scale Residual Learning-using a Cycle Spinning CNN for Single Image De-Raining](https://arxiv.org/abs/1906.11129v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/rajeevyasarla/UMRL--using-Cycle-Spinning)",
+      "n": "UMRL",
+      "d": "2019-06-12",
+      "m2": "0.829"
+    },
+    {
+      "p": "[Density-aware Single Image De-raining using a Multi-stream Dense Network](http://arxiv.org/abs/1802.07412v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/hezhangsprinter/DID-MDN)",
+      "n": "DIDMDN",
+      "d": "2018-02-21",
+      "m2": "0.818"
+    },
+    {
+      "p": "[Clearing the Skies: A deep network architecture for single-image rain removal](http://arxiv.org/abs/1609.02087v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jinnovation/rainy-image-dataset)",
+      "n": "DerainNet",
+      "d": "2016-09-07",
+      "m2": "0.810"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

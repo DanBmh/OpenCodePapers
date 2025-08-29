@@ -1,0 +1,95 @@
+# question-answering-on-fever
+
+[Dataset Link](https://fever.ai/resources.html) \
+Task Hierarchy: ['Question Answering']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "EM",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Chain-of-Action: Faithful and Multimodal Question Answering through Large Language Models](https://arxiv.org/abs/2403.17359v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/MAGICS-LAB/Chain-of-Actions)",
+      "n": "CoA",
+      "d": "2024-03-26",
+      "m1": "68.9"
+    },
+    {
+      "p": "[Measuring and Narrowing the Compositionality Gap in Language Models](https://arxiv.org/abs/2210.03350v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/ofirpress/self-ask)",
+      "n": "Self-Ask",
+      "d": "2022-10-07",
+      "m1": "64.2"
+    },
+    {
+      "p": "[Chain-of-Action: Faithful and Multimodal Question Answering through Large Language Models](https://arxiv.org/abs/2403.17359v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/MAGICS-LAB/Chain-of-Actions)",
+      "n": "Self-Ask",
+      "d": "2024-03-26",
+      "m1": "64.2"
+    },
+    {
+      "p": "[DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines](https://arxiv.org/abs/2310.03714v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/stanfordnlp/dsp)",
+      "n": "DSP",
+      "d": "2023-10-05",
+      "m1": "62.2"
+    },
+    {
+      "p": "[Chain-of-Action: Faithful and Multimodal Question Answering through Large Language Models](https://arxiv.org/abs/2403.17359v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/MAGICS-LAB/Chain-of-Actions)",
+      "n": "DSP",
+      "d": "2024-03-26",
+      "m1": "62.2"
+    },
+    {
+      "p": "[Chain-of-Action: Faithful and Multimodal Question Answering through Large Language Models](https://arxiv.org/abs/2403.17359v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/MAGICS-LAB/Chain-of-Actions)",
+      "n": "CoA w/o actions",
+      "d": "2024-03-26",
+      "m1": "54.2"
+    },
+    {
+      "p": "[Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "Zero-shot",
+      "d": "2019-02-14",
+      "m1": "50"
+    },
+    {
+      "p": "[Chain-of-Action: Faithful and Multimodal Question Answering through Large Language Models](https://arxiv.org/abs/2403.17359v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/MAGICS-LAB/Chain-of-Actions)",
+      "n": "Zero-shot",
+      "d": "2024-03-26",
+      "m1": "50"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

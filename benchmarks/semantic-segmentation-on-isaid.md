@@ -1,0 +1,172 @@
+# semantic-segmentation-on-isaid
+
+[Dataset Link](https://captain-whu.github.io/iSAID/index.html) \
+Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mIoU",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[SegNeXt: Rethinking Convolutional Attention Design for Semantic Segmentation](https://arxiv.org/abs/2209.08575v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmsegmentation)",
+      "n": "SegNeXt-L",
+      "d": "2022-09-18",
+      "m1": "70.3"
+    },
+    {
+      "p": "[SegNeXt: Rethinking Convolutional Attention Design for Semantic Segmentation](https://arxiv.org/abs/2209.08575v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmsegmentation)",
+      "n": "SegNeXt-B",
+      "d": "2022-09-18",
+      "m1": "69.9"
+    },
+    {
+      "p": "[AerialFormer: Multi-resolution Transformer for Aerial Image Segmentation](https://arxiv.org/abs/2306.06842v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/UARK-AICV/AerialFormer)",
+      "n": "AerialFormer-B",
+      "d": "2023-06-12",
+      "m1": "69.3"
+    },
+    {
+      "p": "[SegNeXt: Rethinking Convolutional Attention Design for Semantic Segmentation](https://arxiv.org/abs/2209.08575v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmsegmentation)",
+      "n": "SegNeXt-S",
+      "d": "2022-09-18",
+      "m1": "68.8"
+    },
+    {
+      "p": "[AerialFormer: Multi-resolution Transformer for Aerial Image Segmentation](https://arxiv.org/abs/2306.06842v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/UARK-AICV/AerialFormer)",
+      "n": "AerialFormer-S",
+      "d": "2023-06-12",
+      "m1": "68.4"
+    },
+    {
+      "p": "[SegNeXt: Rethinking Convolutional Attention Design for Semantic Segmentation](https://arxiv.org/abs/2209.08575v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmsegmentation)",
+      "n": "SegNeXt-T",
+      "d": "2022-09-18",
+      "m1": "68.3"
+    },
+    {
+      "p": "[FarSeg++: Foreground-Aware Relation Network for Geospatial Object Segmentation in High Spatial Resolution Remote Sensing Imagery](https://ieeexplore.ieee.org/document/10188509)",
+      "c": "[&check;&nbsp;Link](https://github.com/Z-Zheng/FarSeg)",
+      "n": "FarSeg++@MiT-B2",
+      "d": "2023-07-13",
+      "m1": "67.9"
+    },
+    {
+      "p": "[FarSeg++: Foreground-Aware Relation Network for Geospatial Object Segmentation in High Spatial Resolution Remote Sensing Imagery](https://ieeexplore.ieee.org/document/10188509)",
+      "c": "[&check;&nbsp;Link](https://github.com/Z-Zheng/FarSeg)",
+      "n": "FarSeg++@ResNet-50",
+      "d": "2023-07-13",
+      "m1": "67.6"
+    },
+    {
+      "p": "[AerialFormer: Multi-resolution Transformer for Aerial Image Segmentation](https://arxiv.org/abs/2306.06842v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/UARK-AICV/AerialFormer)",
+      "n": "AerialFormer-T",
+      "d": "2023-06-12",
+      "m1": "67.5"
+    },
+    {
+      "p": "[Resolution-Aware Design of Atrous Rates for Semantic Segmentation Networks](https://arxiv.org/abs/2307.14179v1)",
+      "c": "",
+      "n": "DeepLabV3 with R-50",
+      "d": "2023-07-26",
+      "m1": "67.03"
+    },
+    {
+      "p": "[FarSeg++: Foreground-Aware Relation Network for Geospatial Object Segmentation in High Spatial Resolution Remote Sensing Imagery](https://ieeexplore.ieee.org/document/10188509)",
+      "c": "[&check;&nbsp;Link](https://github.com/Z-Zheng/FarSeg)",
+      "n": "FarSeg++@Swin-T",
+      "d": "2023-07-13",
+      "m1": "66.3"
+    },
+    {
+      "p": "[An Empirical Study of Remote Sensing Pretraining](https://arxiv.org/abs/2204.02825v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/vitae-transformer/vitae-transformer-remote-sensing)",
+      "n": "IMP-ViTAEv2-S-UperNet",
+      "d": "2022-04-06",
+      "m1": "65.3"
+    },
+    {
+      "p": "[FactSeg: Foreground Activation Driven Small Object Semantic Segmentation in Large-Scale Remote Sensing Imagery](https://ieeexplore.ieee.org/document/9497514)",
+      "c": "[&check;&nbsp;Link](https://github.com/Junjue-Wang/FactSeg)",
+      "n": "FactSeg@ResNet-50",
+      "d": "2021-07-27",
+      "m1": "64.79"
+    },
+    {
+      "p": "[Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model](https://arxiv.org/abs/2208.03987v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/vitae-transformer/vitae-transformer-remote-sensing)",
+      "n": "ViTAE-B + RVSA-UperNet",
+      "d": "2022-08-08",
+      "m1": "64.49"
+    },
+    {
+      "p": "[An Empirical Study of Remote Sensing Pretraining](https://arxiv.org/abs/2204.02825v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/vitae-transformer/vitae-transformer-remote-sensing)",
+      "n": "RSP-ViTAEv2-S-UperNet",
+      "d": "2022-04-06",
+      "m1": "64.3"
+    },
+    {
+      "p": "[An Empirical Study of Remote Sensing Pretraining](https://arxiv.org/abs/2204.02825v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/vitae-transformer/vitae-transformer-remote-sensing)",
+      "n": "RSP-Swin-T-UperNet",
+      "d": "2022-04-06",
+      "m1": "64.1"
+    },
+    {
+      "p": "[Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model](https://arxiv.org/abs/2208.03987v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/vitae-transformer/vitae-transformer-remote-sensing)",
+      "n": "ViT-B + RVSA-UperNet",
+      "d": "2022-08-08",
+      "m1": "63.85"
+    },
+    {
+      "p": "[Foreground-Aware Relation Network for Geospatial Object Segmentation in High Spatial Resolution Remote Sensing Imagery](https://arxiv.org/abs/2011.09766v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleRS)",
+      "n": "FarSeg@ResNet-50",
+      "d": "2020-11-19",
+      "m1": "63.71"
+    },
+    {
+      "p": "[An Empirical Study of Remote Sensing Pretraining](https://arxiv.org/abs/2204.02825v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/vitae-transformer/vitae-transformer-remote-sensing)",
+      "n": "RSP-ResNet-50-UperNet",
+      "d": "2022-04-06",
+      "m1": "61.6"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,68 @@
+# dependency-parsing-on-tweebank
+
+[Dataset Link](https://github.com/Oneplus/Tweebank) \
+Task Hierarchy: ['Dependency Parsing']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Labelled Attachment Score",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Unlabeled Attachment Score",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Cross-Dialect Social Media Dependency Parsing for Social Scientific Entity Attribute Analysis](https://aclanthology.org/2022.wnut-1.4)",
+      "c": "[&check;&nbsp;Link](https://github.com/slanglab/tweetie_wnut2022)",
+      "n": "SuPar-BERTweet",
+      "d": null,
+      "m1": "83.4",
+      "m2": "87.2 "
+    },
+    {
+      "p": "[Parsing Tweets into Universal Dependencies](http://arxiv.org/abs/1804.08228v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Oneplus/Tweebank)",
+      "n": "Ensemble (20)",
+      "d": "2018-04-23",
+      "m1": "79.4",
+      "m2": "83.4"
+    },
+    {
+      "p": "[Annotating the Tweebank Corpus on Named Entity Recognition and Building NLP Models for Social Media Analysis](https://arxiv.org/abs/2201.07281v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/social-machines/tweebanknlp)",
+      "n": "spaCy-XLM-RoBERTa",
+      "d": "2022-01-18",
+      "m1": "79.39",
+      "m2": "83.82"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

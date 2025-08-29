@@ -1,0 +1,67 @@
+# multimodal-emotion-recognition-on-meld
+
+[Dataset Link](https://affective-meld.github.io/) \
+Task Hierarchy: ['Multimodal Emotion Recognition']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Weighted F1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Tracing Intricate Cues in Dialogue: Joint Graph Structure and Sentiment Dynamics for Multimodal Emotion Recognition](https://arxiv.org/abs/2407.21536v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/lijfrank-open/GraphSmile)",
+      "n": "GraphSmile",
+      "d": "2024-07-31",
+      "m1": "66.71",
+      "m2": "67.70"
+    },
+    {
+      "p": "[HCAM -- Hierarchical Cross Attention Model for Multi-modal Emotion Recognition](https://arxiv.org/abs/2304.06910v2)",
+      "c": "",
+      "n": "Audio + Text (Stage III)",
+      "d": "2023-04-14",
+      "m1": "65.8"
+    },
+    {
+      "p": "[Joyful: Joint Modality Fusion and Graph Contrastive Learning for Multimodal Emotion Recognition](https://arxiv.org/abs/2311.11009v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/wykstc/MERC-main)",
+      "n": "Joyful",
+      "d": "2023-11-18",
+      "m1": "61.77",
+      "m2": "62.53"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

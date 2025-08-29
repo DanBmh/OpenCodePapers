@@ -1,0 +1,67 @@
+# fine-grained-image-classification-on-10
+
+[Dataset Link]() \
+Task Hierarchy: ['Fine-Grained Image Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[A Comprehensive Study on Torchvision Pre-trained Models for Fine-grained Inter-species Classification](https://arxiv.org/abs/2110.07097v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dipuk0506/SpinalNet)",
+      "n": "Inception-v3 (Spinal FC)",
+      "d": "2021-10-14",
+      "m1": "99.26"
+    },
+    {
+      "p": "[A Comprehensive Study on Torchvision Pre-trained Models for Fine-grained Inter-species Classification](https://arxiv.org/abs/2110.07097v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dipuk0506/SpinalNet)",
+      "n": "WideResNet-101(Spinal FC)",
+      "d": "2021-10-14",
+      "m1": "99.26"
+    },
+    {
+      "p": "[A Comprehensive Study on Torchvision Pre-trained Models for Fine-grained Inter-species Classification](https://arxiv.org/abs/2110.07097v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dipuk0506/SpinalNet)",
+      "n": "VGG-19_bn",
+      "d": "2021-10-14",
+      "m1": "98.90"
+    },
+    {
+      "p": "[Performing Image Classification for 10 Different Monkey Species using CNN](https://d1wqtxts1xzle7.cloudfront.net/59558097/Project_final_documentation20190606-52603-1sp6ali.pdf?1559856244=&response-content-disposition=inline%3B+filename%3DProject_final_documentation.pdf&Expires=1601994830&Signature=Zn6Skx93dTC60aMhHG3JL~6NYh38zoXmGZ5hWnnbk7YyX5OtJ~7UMohmYqmeUMcD2uXTypHc9s3wmH9-sKPMuLXQIzCRaezw5R~C7j613Ky8~lZ8vgZVhTdnbVlKqxKVoXleCqOr~eoxcnUmx-uaU1ALfqyr69154z-JM3kM7UwAAw2MeFtmYSR3Xk5eKFwQsdWkJkW5ZrD6FTfNKOdMhNhF93dRc41ufeff0oFR6O7jY7EejNVBk6VxwdxF3ZCAH33t8DYKLL63ICE9vm~QgeuKM~eGGpj5Tkq3FZXVajiGHGkJrEvwe2TISjPWaD3AGExlASEFdO5MP4gGvcyNrQ__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA)",
+      "c": "",
+      "n": "CNN",
+      "d": "2020-06-28",
+      "m1": "95.00"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

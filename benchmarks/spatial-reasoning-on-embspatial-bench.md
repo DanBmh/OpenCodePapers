@@ -1,0 +1,74 @@
+# spatial-reasoning-on-embspatial-bench
+
+[Dataset Link](https://arxiv.org/pdf/2406.05756) \
+Task Hierarchy: ['Visual Question Answering', 'Spatial Reasoning']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Generation",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[SoFar: Language-Grounded Orientation Bridges Spatial Reasoning and Object Manipulation](https://arxiv.org/abs/2502.13143v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/qizekun/SoFar)",
+      "n": "SoFar",
+      "d": "2025-02-18",
+      "m1": "70.88"
+    },
+    {
+      "p": "[Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond](https://arxiv.org/abs/2308.12966v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/qwenlm/qwen-vl)",
+      "n": "Qwen-VL-Max",
+      "d": "2023-08-24",
+      "m1": "49.11"
+    },
+    {
+      "p": "[GPT-4 Technical Report](https://arxiv.org/abs/2303.08774v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/openai/evals)",
+      "n": "GPT-4V",
+      "d": "2023-03-15",
+      "m1": "36.07"
+    },
+    {
+      "p": "[Visual Instruction Tuning](https://arxiv.org/abs/2304.08485v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "LLaVA-1.6",
+      "d": "2023-04-17",
+      "m1": "35.19"
+    },
+    {
+      "p": "[MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models](https://arxiv.org/abs/2304.10592v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/vision-cair/minigpt-4)",
+      "n": "MiniGPT4",
+      "d": "2023-04-20",
+      "m1": "23.54"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,108 @@
+# image-attribution-on-cub-200-2011-1
+
+[Dataset Link](https://www.vision.caltech.edu/datasets/cub_200_2011/) \
+Task Hierarchy: ['Image Attribution']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Insertion AUC score (ResNet-101)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Deletion AUC score (ResNet-101)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Less is More: Fewer Interpretable Region via Submodular Subset Selection](https://arxiv.org/abs/2402.09164v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/ruoyuchen10/smdl-attribution)",
+      "n": "SMDL-Attribution (ICLR version)",
+      "d": "2024-02-14",
+      "m1": "0.7262",
+      "m2": "0.0613"
+    },
+    {
+      "p": "[Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization](https://arxiv.org/abs/1610.02391v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/jacobgil/pytorch-grad-cam)",
+      "n": "Grad-CAM",
+      "d": "2016-10-07",
+      "m1": "0.7224",
+      "m2": "0.0810"
+    },
+    {
+      "p": "[RISE: Randomized Input Sampling for Explanation of Black-box Models](http://arxiv.org/abs/1806.07421v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/openvinotoolkit/datumaro)",
+      "n": "RISE",
+      "d": "2018-06-19",
+      "m1": "0.7193",
+      "m2": "0.0665"
+    },
+    {
+      "p": "[Making Sense of Dependence: Efficient Black-box Explanations Using Dependence Measure](https://arxiv.org/abs/2206.06219v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/paulnovello/hsic-attribution-method)",
+      "n": "HSIC-Attribution",
+      "d": "2022-06-13",
+      "m1": "0.6843",
+      "m2": "0.0647"
+    },
+    {
+      "p": "[\"Why Should I Trust You?\": Explaining the Predictions of Any Classifier](http://arxiv.org/abs/1602.04938v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/marcotcr/lime)",
+      "n": "LIME",
+      "d": "2016-02-16",
+      "m1": "0.6812",
+      "m2": "0.1070"
+    },
+    {
+      "p": "[A Unified Approach to Interpreting Model Predictions](http://arxiv.org/abs/1705.07874v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/slundberg/shap)",
+      "n": "Kernel SHAP",
+      "d": "2017-05-22",
+      "m1": "0.6763",
+      "m2": "0.1016"
+    },
+    {
+      "p": "[Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps](http://arxiv.org/abs/1312.6034v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/pytorch/captum)",
+      "n": "Saliency",
+      "d": "2013-12-20",
+      "m1": "0.6585",
+      "m2": "0.0682"
+    },
+    {
+      "p": "[Axiomatic Attribution for Deep Networks](http://arxiv.org/abs/1703.01365v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/shap/shap)",
+      "n": "Integrated Gradients",
+      "d": "2017-03-04",
+      "m1": "0.0422",
+      "m2": "0.0728"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

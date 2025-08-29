@@ -1,0 +1,121 @@
+# zero-shot-composed-image-retrieval-zs-cir-on-11
+
+[Dataset Link](https://sgvaze.github.io/genecis) \
+Task Hierarchy: ['Composed Image Retrieval (CoIR)', 'Zero-Shot Composed Image Retrieval (ZS-CIR)']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": " A-R@1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "A-R@1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Reason-before-Retrieve: One-Stage Reflective Chain-of-Thoughts for Training-Free Zero-Shot Composed Image Retrieval](https://arxiv.org/abs/2412.11077v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Pter61/osrcir)",
+      "n": "OSrCIR (CLIP G/14)",
+      "d": "2024-12-15",
+      "m1": "19.6"
+    },
+    {
+      "p": "[Reason-before-Retrieve: One-Stage Reflective Chain-of-Thoughts for Training-Free Zero-Shot Composed Image Retrieval](https://arxiv.org/abs/2412.11077v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Pter61/osrcir)",
+      "n": "OSrCIR (CLIP L/14)",
+      "d": "2024-12-15",
+      "m1": "17.9"
+    },
+    {
+      "p": "[Reason-before-Retrieve: One-Stage Reflective Chain-of-Thoughts for Training-Free Zero-Shot Composed Image Retrieval](https://arxiv.org/abs/2412.11077v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Pter61/osrcir)",
+      "n": "OSrCIR (CLIP B/32)",
+      "d": "2024-12-15",
+      "m1": "17.4"
+    },
+    {
+      "p": "[Zero-Shot Composed Image Retrieval with Textual Inversion](https://arxiv.org/abs/2303.15247v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/miccunifi/searle)",
+      "n": "SEARLE (CLIP B/32)",
+      "d": "2023-03-27",
+      "m1": "14.4"
+    },
+    {
+      "p": "[Zero-Shot Composed Image Retrieval with Textual Inversion](https://arxiv.org/abs/2303.15247v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/miccunifi/searle)",
+      "n": "SEARLE (CLIP L/14)",
+      "d": "2023-03-27",
+      "m1": "14.4"
+    },
+    {
+      "p": "[Language-only Efficient Training of Zero-shot Composed Image Retrieval](https://arxiv.org/abs/2312.01998v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/navervision/lincir)",
+      "n": "LinCIR (CLIP G/14)",
+      "d": "2023-12-04",
+      "m1": "13.7"
+    },
+    {
+      "p": "[Context-I2W: Mapping Images to Context-dependent Words for Accurate Zero-Shot Composed Image Retrieval](https://arxiv.org/abs/2309.16137v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/pter61/context-i2w)",
+      "n": "Context-I2W  (CLIP L/14)",
+      "d": "2023-09-28",
+      "m1": "12.7"
+    },
+    {
+      "p": "[Language-only Efficient Training of Zero-shot Composed Image Retrieval](https://arxiv.org/abs/2312.01998v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/navervision/lincir)",
+      "n": "LinCIR (CLIP L/14)",
+      "d": "2023-12-04",
+      "m1": "12.2"
+    },
+    {
+      "p": "[Vision-by-Language for Training-Free Compositional Image Retrieval](https://arxiv.org/abs/2310.09291v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/explainableml/vision_by_language)",
+      "n": "CIReVL (CLIP B/32)",
+      "d": "2023-10-13",
+      "m2": "15.9"
+    },
+    {
+      "p": "[Vision-by-Language for Training-Free Compositional Image Retrieval](https://arxiv.org/abs/2310.09291v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/explainableml/vision_by_language)",
+      "n": "CIReVL (CLIP L/14)",
+      "d": "2023-10-13",
+      "m2": "15.9"
+    },
+    {
+      "p": "[Vision-by-Language for Training-Free Compositional Image Retrieval](https://arxiv.org/abs/2310.09291v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/explainableml/vision_by_language)",
+      "n": "CIReVL (CLIP G/14)",
+      "d": "2023-10-13",
+      "m2": "17.4"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

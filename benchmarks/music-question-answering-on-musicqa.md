@@ -1,0 +1,84 @@
+# music-question-answering-on-musicqa
+
+[Dataset Link](https://huggingface.co/datasets/mu-llama/MusicQA) \
+Task Hierarchy: ['Music Question Answering']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "BLEU",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "METEOR",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "ROUGE",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "BERT Score",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Music Understanding LLaMA: Advancing Text-to-Music Generation with Question Answering and Captioning](https://arxiv.org/abs/2308.11276v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/shansongliu/M2UGen)",
+      "n": "MU-LLaMA",
+      "d": "2023-08-22",
+      "m1": "0.306",
+      "m2": "0.385",
+      "m3": "0.466",
+      "m4": "0.901"
+    },
+    {
+      "p": "[LLaMA-Adapter: Efficient Fine-tuning of Language Models with Zero-init Attention](https://arxiv.org/abs/2303.16199v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Lightning-AI/lit-llama)",
+      "n": "LLaMA Adapter",
+      "d": "2023-03-28",
+      "m1": "0.273",
+      "m2": "0.334",
+      "m3": "0.413",
+      "m4": "0.895"
+    },
+    {
+      "p": "[Listen, Think, and Understand](https://arxiv.org/abs/2305.10790v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/YuanGongND/ltu)",
+      "n": "LTU",
+      "d": "2023-05-18",
+      "m1": "0.242",
+      "m2": "0.274",
+      "m3": "0.326",
+      "m4": "0.887"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

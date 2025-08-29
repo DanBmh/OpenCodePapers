@@ -1,0 +1,114 @@
+# unsupervised-action-segmentation-on-ikea-asm
+
+[Dataset Link](https://ikeaasm.github.io/) \
+Task Hierarchy: ['Action Segmentation', 'Unsupervised Action Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "JSD",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Precision",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "Recall",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Hierarchical Vector Quantization for Unsupervised Action Segmentation](https://arxiv.org/abs/2412.17640v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/fedespu/hvq)",
+      "n": "HVQ",
+      "d": "2024-12-23",
+      "m1": "30.7",
+      "m2": "51.2",
+      "m3": "64.8",
+      "m4": "37.7",
+      "m5": "25.9"
+    },
+    {
+      "p": "[Temporally Consistent Unbalanced Optimal Transport for Unsupervised Action Segmentation](https://arxiv.org/abs/2404.01518v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/mingu6/action_seg_ot)",
+      "n": "ASOT",
+      "d": "2024-04-01",
+      "m1": "27.9",
+      "m2": "34.0",
+      "m3": "88.7",
+      "m4": "21.1",
+      "m5": "24.0"
+    },
+    {
+      "p": "[Unsupervised learning of action classes with continuous temporal embedding](http://arxiv.org/abs/1904.04189v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/annusha/unsup_temp_embed)",
+      "n": "CTE",
+      "d": "2019-04-08",
+      "m1": "22.6",
+      "m2": "23.1",
+      "m3": "73.7",
+      "m4": "28.1",
+      "m5": "18.9"
+    },
+    {
+      "p": "[Unsupervised Action Segmentation by Joint Representation Learning and Online Clustering](https://arxiv.org/abs/2105.13353v7)",
+      "c": "[&check;&nbsp;Link](https://github.com/trquhuytin/TOT-CVPR22)",
+      "n": "TOT+TCL",
+      "d": "2021-05-27",
+      "m1": "20.9",
+      "m2": "23.8",
+      "m3": "79.5",
+      "m4": "25.5",
+      "m5": "17.7"
+    },
+    {
+      "p": "[Unsupervised Action Segmentation by Joint Representation Learning and Online Clustering](https://arxiv.org/abs/2105.13353v7)",
+      "c": "[&check;&nbsp;Link](https://github.com/trquhuytin/TOT-CVPR22)",
+      "n": "TOT",
+      "d": "2021-05-27",
+      "m1": "20.1",
+      "m2": "21.0",
+      "m3": "80.0",
+      "m4": "24.4",
+      "m5": "17.1"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

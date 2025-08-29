@@ -1,0 +1,172 @@
+# 3d-human-reconstruction-on-expressive-hands-1
+
+[Dataset Link]() \
+Task Hierarchy: ['Reconstruction', '3D Human Reconstruction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PA V2V (mm), whole body",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "TR V2V (mm), whole body",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "MPJPE-14",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "PA V2V (mm), body only",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "TR V2V (mm), body only",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "PA V2V (mm), left hand",
+      "sortable": "true"
+    },
+    {
+      "key": "m7",
+      "label": "TR V2V (mm), left hand",
+      "sortable": "true"
+    },
+    {
+      "key": "m8",
+      "label": "PA V2V (mm), face",
+      "sortable": "true"
+    },
+    {
+      "key": "m9",
+      "label": "TR V2V (mm), face",
+      "sortable": "true"
+    },
+    {
+      "key": "m10",
+      "label": "MPJPE, left hand",
+      "sortable": "true"
+    },
+    {
+      "key": "m11",
+      "label": "mean P2S",
+      "sortable": "true"
+    },
+    {
+      "key": "m12",
+      "label": "median P2S",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Accurate 3D Hand Pose Estimation for Whole-Body 3D Human Mesh Estimation](https://arxiv.org/abs/2011.11534v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/mks0601/Hand4Whole_RELEASE)",
+      "n": "Hand4Whole",
+      "d": "2020-11-23",
+      "m1": "50.3",
+      "m6": "10.8",
+      "m8": "5.8"
+    },
+    {
+      "p": "[Monocular Expressive Body Regression through Body-Driven Attention](https://arxiv.org/abs/2008.09062v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/vchoutas/expose)",
+      "n": "ExPose",
+      "d": "2020-08-20",
+      "m1": "54.5",
+      "m2": "65.7",
+      "m3": "62.8",
+      "m4": "52.6",
+      "m5": "76.8",
+      "m6": "13.1",
+      "m7": "31.2",
+      "m8": "5.8",
+      "m9": "15.9",
+      "m10": "13.5",
+      "m11": "28.9",
+      "m12": "18"
+    },
+    {
+      "p": "[Collaborative Regression of Expressive Bodies using Moderation](https://arxiv.org/abs/2105.05301v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/YadiraF/PIXIE)",
+      "n": "PIXIE",
+      "d": "2021-05-11",
+      "m1": "55",
+      "m2": "67.6",
+      "m3": "61.5",
+      "m4": "53",
+      "m5": "75.8",
+      "m6": "11.2",
+      "m7": "25.6",
+      "m8": "4.6",
+      "m9": "14.2",
+      "m10": "11.7",
+      "m11": "29.9",
+      "m12": "18.4"
+    },
+    {
+      "p": "[FrankMocap: A Monocular 3D Whole-Body Pose Estimation System via Regression and Integration](https://arxiv.org/abs/2108.06428v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/frankmocap)",
+      "n": "FrankMocap",
+      "d": "2021-08-13",
+      "m1": "57.5",
+      "m2": "76.9",
+      "m3": "62.3",
+      "m4": "52.7",
+      "m5": "80.1",
+      "m6": "12.8",
+      "m7": "32.1",
+      "m10": "13.2",
+      "m11": "31.6",
+      "m12": "19.2"
+    },
+    {
+      "p": "[Expressive Body Capture: 3D Hands, Face, and Body from a Single Image](http://arxiv.org/abs/1904.05866v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/vchoutas/smplify-x)",
+      "n": "SMPLify-X",
+      "d": "2019-04-11",
+      "m2": "93.0",
+      "m3": "87.6",
+      "m4": "75.4",
+      "m5": "116.1",
+      "m6": "11.6",
+      "m7": "23.8",
+      "m8": "4.9",
+      "m9": "11.5",
+      "m10": "12.2",
+      "m11": "36.8",
+      "m12": "23.0"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

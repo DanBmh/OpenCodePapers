@@ -1,0 +1,132 @@
+# text-classification-on-imdb
+
+[Dataset Link](https://ai.stanford.edu/~amaas/data/sentiment/) \
+Task Hierarchy: ['Classification', 'Text Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Precision",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Recall",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[How to Fine-Tune BERT for Text Classification?](https://arxiv.org/abs/1905.05583v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/xuyige/BERT4doc-Classification)",
+      "n": "BERT-ITPT-FiT",
+      "d": "2019-05-14"
+    },
+    {
+      "p": "[Hierarchical Attentional Hybrid Neural Networks for Document Classification](https://arxiv.org/abs/1901.06610v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/luisfredgs/cnn-hierarchical-network-for-document-classification)",
+      "n": "HAHNN (CNN)",
+      "d": "2019-01-20"
+    },
+    {
+      "p": "[Distributed Representations of Sentences and Documents](http://arxiv.org/abs/1405.4053v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/inejc/paragraph-vectors)",
+      "n": "Paragraph Vectors Le & Mikolov (2014)",
+      "d": "2014-05-16"
+    },
+    {
+      "p": "[A La Carte Embedding: Cheap but Effective Induction of Semantic Feature Vectors](http://arxiv.org/abs/1805.05388v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/NLPrinceton/ALaCarte)",
+      "n": "byte mLSTM7",
+      "d": "2018-05-14"
+    },
+    {
+      "p": "[Message Passing Attention Networks for Document Understanding](https://arxiv.org/abs/1908.06267v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/giannisnik/mpad)",
+      "n": "MPAD-path",
+      "d": "2019-08-17"
+    },
+    {
+      "p": "[Semi-supervised Convolutional Neural Networks for Text Categorization via Region Embedding](http://arxiv.org/abs/1504.01255v3)",
+      "c": "",
+      "n": "Transductive SVM Johnson & Zhang ([2015b])",
+      "d": "2015-04-06"
+    },
+    {
+      "p": "[DocBERT: BERT for Document Classification](https://arxiv.org/abs/1904.08398v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/castorini/hedwig)",
+      "n": "KD-LSTMreg",
+      "d": "2019-04-17"
+    },
+    {
+      "p": "[Neural Semi-supervised Learning for Text Classification Under Large-Scale Pretraining](https://arxiv.org/abs/2011.08626v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ShannonAI/Neural-Semi-Supervised-Learning-for-Text-Classification)",
+      "n": "In-domain Pretraining+Semi-supervised",
+      "d": "2020-11-17"
+    },
+    {
+      "p": "[Improving Document-Level Sentiment Classification Using Importance of Sentences](https://arxiv.org/abs/2103.05167v1)",
+      "c": "",
+      "n": "Document Classification Using Importance of Sentences",
+      "d": "2021-03-09"
+    },
+    {
+      "p": "[ERNIE-Doc: A Retrospective Long-Document Modeling Transformer](https://arxiv.org/abs/2012.15688v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/paddlenlp/transformers/ernie_doc)",
+      "n": "ERNIE-Doc",
+      "d": "2020-12-31"
+    },
+    {
+      "p": "[ERNIE-Doc: A Retrospective Long-Document Modeling Transformer](https://arxiv.org/abs/2012.15688v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/paddlenlp/transformers/ernie_doc)",
+      "n": "ERNIE-Doc-Large",
+      "d": "2020-12-31"
+    },
+    {
+      "p": "[Context-Aware Compilation of DNN Training Pipelines across Edge and Cloud](https://dl.acm.org/doi/abs/10.1145/3494981)",
+      "c": "[&check;&nbsp;Link](https://github.com/dixiyao/Context-Aware-Compilation-of-DNN-Training-Pipelines-across-Edge-and-Cloud)",
+      "n": "Context-Aware Pipeline",
+      "d": "2021-12-30"
+    },
+    {
+      "p": "[An Algorithm for Routing Vectors in Sequences](https://arxiv.org/abs/2211.11754v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/glassroom/heinsen_routing)",
+      "n": "Heinsen Routing + RoBERTa-large",
+      "d": "2022-11-20"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

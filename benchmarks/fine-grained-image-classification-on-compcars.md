@@ -1,0 +1,88 @@
+# fine-grained-image-classification-on-compcars
+
+[Dataset Link](http://mmlab.ie.cuhk.edu.hk/datasets/comp_cars/index.html) \
+Task Hierarchy: ['Fine-Grained Image Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Progressive Multi-task Anti-Noise Learning and Distilling Frameworks for Fine-grained Vehicle Recognition](https://arxiv.org/abs/2401.14336v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dichao-liu/anti-noise_fgvr)",
+      "n": "Resnet50 + PMAL",
+      "d": "2024-01-25",
+      "m1": "99.1%"
+    },
+    {
+      "p": "[Deep CNNs With Spatially Weighted Pooling for Fine-Grained Car Recognition](https://ieeexplore.ieee.org/document/7891907)",
+      "c": "[&check;&nbsp;Link](https://github.com/duongttr/SWP)",
+      "n": "ResNet101-swp",
+      "d": "2017-04-04",
+      "m1": "97.6%"
+    },
+    {
+      "p": "[Fine-Tuning DARTS for Image Classification](https://arxiv.org/abs/2006.09042v1)",
+      "c": "",
+      "n": "Fine-Tuning DARTS",
+      "d": "2020-06-16",
+      "m1": "95.9%"
+    },
+    {
+      "p": "[Fine-Grained Vehicle Classification with Unsupervised Parts Co-occurrence Learning](https://openaccess.thecvf.com/content_eccv_2018_workshops/w24/html/Elkerdawy_Fine-Grained_Vehicle_Classification_with_Unsupervised_Parts_Co-occurrence_Learning_ECCVW_2018_paper.html)",
+      "c": "",
+      "n": "Resnet50 + COOC",
+      "d": "2019-01-23",
+      "m1": "95.6%"
+    },
+    {
+      "p": "[Attribute-Aware Attention Model for Fine-grained Representation Learning](https://arxiv.org/abs/1901.00392v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/iamhankai/attribute-aware-attention)",
+      "n": "A3M",
+      "d": "2019-01-02",
+      "m1": "95.4%"
+    },
+    {
+      "p": "[A Large-Scale Car Dataset for Fine-Grained Categorization and Verification](http://arxiv.org/abs/1506.08959v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/duongttr/SWP)",
+      "n": "GoogLeNet",
+      "d": "2015-06-30",
+      "m1": "91.2%"
+    },
+    {
+      "p": "[A Large-Scale Car Dataset for Fine-Grained Categorization and Verification](http://arxiv.org/abs/1506.08959v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/duongttr/SWP)",
+      "n": "AlexNet",
+      "d": "2015-06-30",
+      "m1": "81.9%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

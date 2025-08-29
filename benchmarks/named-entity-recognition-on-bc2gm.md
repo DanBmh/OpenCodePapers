@@ -1,0 +1,130 @@
+# named-entity-recognition-on-bc2gm
+
+[Dataset Link](https://biocreative.bioinformatics.udel.edu/tasks/) \
+Task Hierarchy: ['Named Entity Recognition (NER)']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Biomedical Named Entity Recognition at Scale](https://arxiv.org/abs/2011.06315v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/1.4.Biomedical_NER_SparkNLP_paper_reproduce.ipynb)",
+      "n": "Spark NLP",
+      "d": "2020-11-12",
+      "m1": "88.75"
+    },
+    {
+      "p": "[On the Effectiveness of Compact Biomedical Transformers](https://arxiv.org/abs/2209.03182v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nlpie-research/compact-biomedical-transformers)",
+      "n": "BioDistilBERT",
+      "d": "2022-09-07",
+      "m1": "86.97"
+    },
+    {
+      "p": "[On the Effectiveness of Compact Biomedical Transformers](https://arxiv.org/abs/2209.03182v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nlpie-research/compact-biomedical-transformers)",
+      "n": "CompactBioBERT",
+      "d": "2022-09-07",
+      "m1": "86.71"
+    },
+    {
+      "p": "[On the Effectiveness of Compact Biomedical Transformers](https://arxiv.org/abs/2209.03182v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nlpie-research/compact-biomedical-transformers)",
+      "n": "DistilBioBERT",
+      "d": "2022-09-07",
+      "m1": "86.6"
+    },
+    {
+      "p": "[Hero-Gang Neural Model For Named Entity Recognition](https://arxiv.org/abs/2205.07177v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jinpeng01/hgn)",
+      "n": "HGN",
+      "d": "2022-05-15",
+      "m1": "85.65"
+    },
+    {
+      "p": "[Improving Biomedical Named Entity Recognition with Syntactic Information](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03834-6)",
+      "c": "[&check;&nbsp;Link](https://github.com/cuhk-nlp/BioKMNER)",
+      "n": "BioKMNER + BioBERT",
+      "d": "2020-11-25",
+      "m1": "85.29"
+    },
+    {
+      "p": "[On the Effectiveness of Compact Biomedical Transformers](https://arxiv.org/abs/2209.03182v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nlpie-research/compact-biomedical-transformers)",
+      "n": "BioMobileBERT",
+      "d": "2022-09-07",
+      "m1": "85.26"
+    },
+    {
+      "p": "[LinkBERT: Pretraining Language Models with Document Links](https://arxiv.org/abs/2203.15827v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/michiyasunaga/LinkBERT)",
+      "n": "BioLinkBERT (large)",
+      "d": "2022-03-29",
+      "m1": "85.18"
+    },
+    {
+      "p": "[Improving Biomedical Pretrained Language Models with Knowledge](https://arxiv.org/abs/2104.10344v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/GanjinZero/KeBioLM)",
+      "n": "KeBioLM",
+      "d": "2021-04-21",
+      "m1": "85.1"
+    },
+    {
+      "p": "[Domain-Specific Language Model Pretraining for Biomedical Natural Language Processing](https://arxiv.org/abs/2007.15779v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/bionlu-coling2024/biomed-ner-intent_detection)",
+      "n": "PubMedBERT uncased",
+      "d": "2020-07-31",
+      "m1": "84.52"
+    },
+    {
+      "p": "[BERN2: an advanced neural biomedical named entity recognition and normalization tool](https://arxiv.org/abs/2201.02080v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmis-lab/bern2)",
+      "n": "BERN2",
+      "d": "2022-01-06",
+      "m1": "83.7"
+    },
+    {
+      "p": "[A Neural Named Entity Recognition and Multi-Type Normalization Tool for Biomedical Text Mining](https://ieeexplore.ieee.org/document/8730332)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmis-lab/bern)",
+      "n": "BERN",
+      "d": "2019-06-04",
+      "m1": "83.4"
+    },
+    {
+      "p": "[UniversalNER: Targeted Distillation from Large Language Models for Open Named Entity Recognition](https://arxiv.org/abs/2308.03279v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/universal-ner/universal-ner)",
+      "n": "UniNER-7B",
+      "d": "2023-08-07",
+      "m1": "82.42"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

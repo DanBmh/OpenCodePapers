@@ -1,0 +1,84 @@
+# handwritten-text-recognition-on-read2016-line
+
+[Dataset Link]() \
+Task Hierarchy: ['Handwritten Text Recognition']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Test CER",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Test WER",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[HTR-VT: Handwritten Text Recognition with Vision Transformer](https://arxiv.org/abs/2409.08573v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yutingli0606/htr-vt)",
+      "n": "HTR-VT",
+      "d": "2024-09-13",
+      "m1": "3.9",
+      "m2": "16.5"
+    },
+    {
+      "p": "[End-to-end Handwritten Paragraph Text Recognition Using a Vertical Attention Network](https://arxiv.org/abs/2012.03868v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/FactoDeepLearning/VerticalAttentionOCR)",
+      "n": "VAN",
+      "d": "2020-12-07",
+      "m1": "4.1",
+      "m2": "16.3"
+    },
+    {
+      "p": "[DAN: a Segmentation-free Document Attention Network for Handwritten Document Recognition](https://arxiv.org/abs/2203.12273v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/factodeeplearning/dan)",
+      "n": "DAN",
+      "d": "2022-03-23",
+      "m1": "4.1",
+      "m2": "17.6"
+    },
+    {
+      "p": "[SPAN: a Simple Predict & Align Network for Handwritten Paragraph Recognition](https://arxiv.org/abs/2102.08742v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/FactoDeepLearning/SPAN)",
+      "n": "Span",
+      "d": "2021-02-17",
+      "m1": "4.6",
+      "m2": "21.1"
+    },
+    {
+      "p": "[Evaluating Sequence-to-Sequence Models for Handwritten Text Recognition](https://arxiv.org/abs/1903.07377v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jamestjw/OCR)",
+      "n": "CNN + BLSTM",
+      "d": "2019-03-18",
+      "m1": "4.7",
+      "m2": "-"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

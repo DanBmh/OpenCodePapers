@@ -1,0 +1,95 @@
+# domain-adaptation-on-office-caltech
+
+[Dataset Link]() \
+Task Hierarchy: ['Domain Adaptation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Average Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Unsupervised Domain Adaptation via Structured Prediction Based Selective Pseudo-Labeling](https://arxiv.org/abs/1911.07982v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/hellowangqian/domain-adaptation-capls)",
+      "n": "SPL",
+      "d": "2019-11-18",
+      "m1": "93"
+    },
+    {
+      "p": "[Visual Domain Adaptation with Manifold Embedded Distribution Alignment](http://arxiv.org/abs/1807.07258v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jindongwang/transferlearning)",
+      "n": "MEDA[[Wang et al.2018]]",
+      "d": "2018-07-19",
+      "m1": "92.8"
+    },
+    {
+      "p": "[Unifying Unsupervised Domain Adaptation and Zero-Shot Visual Recognition](https://arxiv.org/abs/1903.10601v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/hellowangqian/domain-adaptation-capls)",
+      "n": "CAPLS [[Wang, Bu, and Breckon2019]]",
+      "d": "2019-03-25",
+      "m1": "91.8"
+    },
+    {
+      "p": "[Learning Transferable Features with Deep Adaptation Networks](http://arxiv.org/abs/1502.02791v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/thuml/Transfer-Learning-Library)",
+      "n": "DAN[[Long et al.2015]]",
+      "d": "2015-02-10",
+      "m1": "90.1"
+    },
+    {
+      "p": "[Joint Geometrical and Statistical Alignment for Visual Domain Adaptation](http://arxiv.org/abs/1705.05498v1)",
+      "c": "",
+      "n": "JGSA[[Zhang, Li, and Ogunbona2017]]",
+      "d": "2017-05-16",
+      "m1": "90.0"
+    },
+    {
+      "p": "[Deep Domain Confusion: Maximizing for Domain Invariance](http://arxiv.org/abs/1412.3474v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/agrija9/deep-unsupervised-domain-adaptation)",
+      "n": "DDC[[Tzeng et al.2014]]",
+      "d": "2014-12-10",
+      "m1": "88.2"
+    },
+    {
+      "p": "[Scatter Component Analysis: A Unified Framework for Domain Adaptation and Domain Generalization](http://arxiv.org/abs/1510.04373v2)",
+      "c": "",
+      "n": "SCA[[Ghifary et al.2016]]",
+      "d": "2015-10-15",
+      "m1": "85.9"
+    },
+    {
+      "p": "[Correlation Alignment for Unsupervised Domain Adaptation](http://arxiv.org/abs/1612.01939v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/adapt-python/adapt)",
+      "n": "CORAL[[Sun, Feng, and Saenko2017]]",
+      "d": "2016-12-06",
+      "m1": "84.7"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

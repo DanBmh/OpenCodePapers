@@ -1,0 +1,60 @@
+# object-detection-on-pascal-voc-to-clipart1k
+
+[Dataset Link]() \
+Task Hierarchy: ['16k', 'Object Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mAP",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Diffusion Domain Teacher: Diffusion Guided Domain Adaptive Object Detector](https://arxiv.org/abs/2506.04211v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/heboyong/Diffusion-Domain-Teacher)",
+      "n": "DDT",
+      "d": "2025-06-04",
+      "m1": "55.6"
+    },
+    {
+      "p": "[MILA: Memory-Based Instance-Level Adaptation for Cross-Domain Object Detection](https://arxiv.org/abs/2309.01086v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/hitachi-rd-cv/MILA)",
+      "n": "MILA",
+      "d": "2023-11-20",
+      "m1": "49.9"
+    },
+    {
+      "p": "[Semi-Supervised Domain Generalization for Object Detection via Language-Guided Feature Alignment](https://arxiv.org/abs/2309.13525v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/sinamalakouti/CDDMSL)",
+      "n": "CDDMSL",
+      "d": "2023-09-24",
+      "m1": "40.4"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

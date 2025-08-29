@@ -1,0 +1,99 @@
+# story-continuation-on-pororosv
+
+[Dataset Link]() \
+Task Hierarchy: ['Story Continuation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "FID",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Char-F1",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "F-Acc",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[ContextualStory: Consistent Visual Storytelling with Spatially-Enhanced and Storyline Context](https://arxiv.org/abs/2407.09774v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/sixiaozheng/contextualstory)",
+      "n": "ContextualStory",
+      "d": "2024-07-13",
+      "m1": "14.20"
+    },
+    {
+      "p": "[Synthesizing Coherent Story with Auto-Regressive Latent Diffusion Models](https://arxiv.org/abs/2211.10950v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/xichenpan/ARLDM)",
+      "n": "AR-LDM",
+      "d": "2022-11-20",
+      "m1": "17.4"
+    },
+    {
+      "p": "[StoryDALL-E: Adapting Pretrained Text-to-Image Transformers for Story Continuation](https://arxiv.org/abs/2209.06192v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/adymaharana/storydalle)",
+      "n": "StoryDALL-E",
+      "d": "2022-09-13",
+      "m1": "21.64",
+      "m2": "40.28",
+      "m3": "20.94"
+    },
+    {
+      "p": "[StoryDALL-E: Adapting Pretrained Text-to-Image Transformers for Story Continuation](https://arxiv.org/abs/2209.06192v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/adymaharana/storydalle)",
+      "n": "StoryDALL-E (Cross-Attention)",
+      "d": "2022-09-13",
+      "m1": "23.27",
+      "m2": "40.25",
+      "m3": "18.16"
+    },
+    {
+      "p": "[StoryDALL-E: Adapting Pretrained Text-to-Image Transformers for Story Continuation](https://arxiv.org/abs/2209.06192v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/adymaharana/storydalle)",
+      "n": "StoryDALL-E (Story Embeddings)",
+      "d": "2022-09-13",
+      "m1": "30.45",
+      "m2": "39.32",
+      "m3": "34.65"
+    },
+    {
+      "p": "[StoryDALL-E: Adapting Pretrained Text-to-Image Transformers for Story Continuation](https://arxiv.org/abs/2209.06192v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/adymaharana/storydalle)",
+      "n": "StoryDALL-E (Story Embeddings + Cross-Attention)",
+      "d": "2022-09-13",
+      "m1": "31.68",
+      "m2": "35.29",
+      "m3": "16.73"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

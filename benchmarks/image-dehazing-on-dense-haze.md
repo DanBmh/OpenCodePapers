@@ -1,0 +1,84 @@
+# image-dehazing-on-dense-haze
+
+[Dataset Link](https://github.com/uzh-rpg/rpg_e2depth) \
+Task Hierarchy: ['Image Dehazing']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "SSIM",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[CasDyF-Net: Image Dehazing via Cascaded Dynamic Filters](https://arxiv.org/abs/2409.08510v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dauing/casdyf-net)",
+      "n": "CasDyF-Net",
+      "d": "2024-09-13",
+      "m1": "17.56",
+      "m2": "0.658"
+    },
+    {
+      "p": "[SAD-Net: a full spectral self-attention detail enhancement network for single image dehazing](https://www.nature.com/articles/s41598-025-92061-1)",
+      "c": "[&check;&nbsp;Link](https://github.com/niuqj/SAD-Net)",
+      "n": "SAD-Net",
+      "d": "2025-04-07",
+      "m1": "17.16",
+      "m2": "0.55"
+    },
+    {
+      "p": "[Single image dehazing for a variety of haze scenarios using back projected pyramid network](https://arxiv.org/abs/2008.06713v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ayu-22/BPPNet-Back-Projected-Pyramid-Network)",
+      "n": "BPPNet",
+      "d": "2020-08-15",
+      "m1": "17.01",
+      "m2": "0.613"
+    },
+    {
+      "p": "[Structure Representation Network and Uncertainty Feedback Learning for Dense Non-Uniform Fog Removal](https://arxiv.org/abs/2210.03061v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jinyeying/fogremoval)",
+      "n": "SRDefog",
+      "d": "2022-10-06",
+      "m1": "16.67",
+      "m2": "0.5"
+    },
+    {
+      "p": "[A Novel Encoder-Decoder Network with Guided Transmission Map for Single Image Dehazing](https://arxiv.org/abs/2202.04757v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tranleanh/edn-gtm)",
+      "n": "EDN-GTM",
+      "d": "2022-02-08",
+      "m1": "15.43",
+      "m2": "0.5200"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

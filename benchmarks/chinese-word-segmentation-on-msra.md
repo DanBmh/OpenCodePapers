@@ -1,0 +1,60 @@
+# chinese-word-segmentation-on-msra
+
+[Dataset Link](https://aclanthology.org/W06-0115/) \
+Task Hierarchy: ['Chinese', 'Chinese Word Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Unsupervised Boundary-Aware Language Model Pretraining for Chinese Sequence Labeling](https://arxiv.org/abs/2210.15231v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/modelscope/modelscope)",
+      "n": "BABERT-LE",
+      "d": "2022-10-27",
+      "m1": "98.63"
+    },
+    {
+      "p": "[Unsupervised Boundary-Aware Language Model Pretraining for Chinese Sequence Labeling](https://arxiv.org/abs/2210.15231v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/modelscope/modelscope)",
+      "n": "BABERT",
+      "d": "2022-10-27",
+      "m1": "98.44"
+    },
+    {
+      "p": "[Long Short-Term Memory Neural Networks for Chinese Word Segmentation](https://aclanthology.org/D15-1141)",
+      "c": "",
+      "n": "Pre-trained+bigram+ LSTM+CRF",
+      "d": "2015-09-01",
+      "m1": "97.4"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

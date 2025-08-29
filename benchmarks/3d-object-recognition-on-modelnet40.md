@@ -1,0 +1,81 @@
+# 3d-object-recognition-on-modelnet40
+
+[Dataset Link](https://modelnet.cs.princeton.edu/) \
+Task Hierarchy: ['Object Recognition', '3D Object Recognition']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[R2-MLP: Round-Roll MLP for Multi-View 3D Object Recognition](https://arxiv.org/abs/2211.11085v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/shanshuo/MVT)",
+      "n": "R2-MLP-36",
+      "d": "2022-11-20",
+      "m1": "97.7%"
+    },
+    {
+      "p": "[MVT: Multi-view Vision Transformer for 3D Object Recognition](https://arxiv.org/abs/2110.13083v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/shanshuo/MVT)",
+      "n": "MVT-small",
+      "d": "2021-10-25",
+      "m1": "97.5%"
+    },
+    {
+      "p": "[Volumetric and Multi-View CNNs for Object Classification on 3D Data](http://arxiv.org/abs/1604.03265v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/charlesq34/3dcnn.torch)",
+      "n": "MVCNN-MultiRes",
+      "d": "2016-04-12",
+      "m1": "93.8%"
+    },
+    {
+      "p": "[MeshWalker: Deep Mesh Understanding by Random Walks](https://arxiv.org/abs/2006.05353v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/AlonLahav/MeshWalker)",
+      "n": "MeshWalker (ours)",
+      "d": "2020-06-09",
+      "m1": "92.3%"
+    },
+    {
+      "p": "[FPNN: Field Probing Neural Networks for 3D Data](http://arxiv.org/abs/1605.06240v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yangyanli/FPNN)",
+      "n": "FPNN (4-FCs + NF)",
+      "d": "2016-05-20",
+      "m1": "88.4%"
+    },
+    {
+      "p": "[Learning a Hierarchical Latent-Variable Model of 3D Shapes](http://arxiv.org/abs/1705.05994v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/lorenmt/vsl)",
+      "n": "Variational Shape Learner",
+      "d": "2017-05-17",
+      "m1": "84.5%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

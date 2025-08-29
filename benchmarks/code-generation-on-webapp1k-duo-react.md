@@ -1,0 +1,81 @@
+# code-generation-on-webapp1k-duo-react
+
+[Dataset Link](https://huggingface.co/datasets/onekq-ai/WebApp1K-Duo-React) \
+Task Hierarchy: ['Code Generation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "pass@1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[A Case Study of Web App Coding with OpenAI Reasoning Models](https://arxiv.org/abs/2409.13773v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/onekq/webapp1k)",
+      "n": "claude-3-5-sonnet",
+      "d": "2024-09-19",
+      "m1": "0.679"
+    },
+    {
+      "p": "[A Case Study of Web App Coding with OpenAI Reasoning Models](https://arxiv.org/abs/2409.13773v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/onekq/webapp1k)",
+      "n": "o1-mini",
+      "d": "2024-09-19",
+      "m1": "0.667"
+    },
+    {
+      "p": "[A Case Study of Web App Coding with OpenAI Reasoning Models](https://arxiv.org/abs/2409.13773v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/onekq/webapp1k)",
+      "n": "o1-preview",
+      "d": "2024-09-19",
+      "m1": "0.652"
+    },
+    {
+      "p": "[A Case Study of Web App Coding with OpenAI Reasoning Models](https://arxiv.org/abs/2409.13773v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/onekq/webapp1k)",
+      "n": "gpt-4o-2024-08-06",
+      "d": "2024-09-19",
+      "m1": "0.531"
+    },
+    {
+      "p": "[A Case Study of Web App Coding with OpenAI Reasoning Models](https://arxiv.org/abs/2409.13773v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/onekq/webapp1k)",
+      "n": "deepseek-v2.5",
+      "d": "2024-09-19",
+      "m1": "0.49"
+    },
+    {
+      "p": "[A Case Study of Web App Coding with OpenAI Reasoning Models](https://arxiv.org/abs/2409.13773v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/onekq/webapp1k)",
+      "n": "mistral-large-2",
+      "d": "2024-09-19",
+      "m1": "0.449"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

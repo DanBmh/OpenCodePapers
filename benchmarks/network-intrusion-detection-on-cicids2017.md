@@ -1,0 +1,94 @@
+# network-intrusion-detection-on-cicids2017
+
+[Dataset Link](https://www.unb.ca/cic/datasets/ids-2017.html) \
+Task Hierarchy: ['Intrusion Detection', 'Network Intrusion Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Avg F1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Precision",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Recall",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[A Novel Multi-Stage Approach for Hierarchical Intrusion Detection](https://ieeexplore.ieee.org/document/10077796)",
+      "c": "[&check;&nbsp;Link](https://gitlab.ilabt.imec.be/mverkerk/multi-stage-hierarchical-ids)",
+      "n": "OC-SVM / RF",
+      "d": "2023-03-21",
+      "m1": "0.9875",
+      "m2": "99.26",
+      "m3": "98.34"
+    },
+    {
+      "p": "[Synthesis of a Machine Learning Model for Detecting Computer Attacks Based on the CICIDS2017 Dataset](https://www.researchgate.net/publication/347631637_Synthesis_of_a_Machine_Learning_Model_for_Detecting_Computer_Attacks_Based_on_the_CICIDS2017_Dataset)",
+      "c": "[&check;&nbsp;Link](https://github.com/jackaduma/NLP4CyberSecurity)",
+      "n": "Random Forest",
+      "d": "2020-01-01",
+      "m1": "0.971",
+      "m2": "98.2",
+      "m3": "96.1"
+    },
+    {
+      "p": "[An Intrusion Detection System based on Deep Belief Networks](https://arxiv.org/abs/2207.02117v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/othmbela/dbn-based-nids)",
+      "n": "DBN",
+      "d": "2022-07-05",
+      "m1": "0.94",
+      "m2": "88.7",
+      "m3": "99.7"
+    },
+    {
+      "p": "[Deep Learning Applications for Intrusion Detection in Network Traffic](https://www.researchgate.net/publication/377458356_Deep_Learning_Applications_for_Intrusion_Detection_in_Network_Traffic)",
+      "c": "[&check;&nbsp;Link](https://github.com/fisher85/ml-cybersecurity/tree/master/python-web-attack-detection)",
+      "n": "CNN-BiLSTM",
+      "d": "2024-01-13",
+      "m1": "0.908",
+      "m2": "95.9",
+      "m3": "86.2"
+    },
+    {
+      "p": "[An Intrusion Detection System based on Deep Belief Networks](https://arxiv.org/abs/2207.02117v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/othmbela/dbn-based-nids)",
+      "n": "MLP",
+      "d": "2022-07-05",
+      "m1": "0.873",
+      "m2": "81.7",
+      "m3": "99.5"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

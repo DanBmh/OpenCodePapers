@@ -1,0 +1,162 @@
+# chinese-named-entity-recognition-on-ontonotes
+
+[Dataset Link](https://catalog.ldc.upenn.edu/LDC2011T03) \
+Task Hierarchy: ['Named Entity Recognition (NER)', 'Chinese Named Entity Recognition']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Precision",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Recall",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Dice Loss for Data-imbalanced NLP Tasks](https://arxiv.org/abs/1911.02855v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/ShannonAI/dice_loss_for_NLP)",
+      "n": "BERT-MRC+DSC",
+      "d": "2019-11-07",
+      "m1": "84.47"
+    },
+    {
+      "p": "[Unified Named Entity Recognition as Word-Word Relation Classification](https://arxiv.org/abs/2112.10070v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ljynlp/w2ner)",
+      "n": "W2NER",
+      "d": "2021-12-19",
+      "m1": "83.08"
+    },
+    {
+      "p": "[Boundary Smoothing for Named Entity Recognition](https://arxiv.org/abs/2204.12031v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/syuoni/eznlp)",
+      "n": "Baseline + BS",
+      "d": "2022-04-26",
+      "m1": "82.83"
+    },
+    {
+      "p": "[A Unified MRC Framework for Named Entity Recognition](https://arxiv.org/abs/1910.11476v7)",
+      "c": "[&check;&nbsp;Link](https://github.com/ShannonAI/mrc-for-flat-nested-ner)",
+      "n": "BERT-MRC",
+      "d": "2019-10-25",
+      "m1": "82.11"
+    },
+    {
+      "p": "[FGN: Fusion Glyph Network for Chinese Named Entity Recognition](https://arxiv.org/abs/2001.05272v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/AidenHuen/FGN-NER)",
+      "n": "FGN",
+      "d": "2020-01-15",
+      "m1": "82.04"
+    },
+    {
+      "p": "[FLAT: Chinese NER Using Flat-Lattice Transformer](https://arxiv.org/abs/2004.11795v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/LeeSureman/Flat-Lattice-Transformer)",
+      "n": "FLAT+BERT",
+      "d": "2020-04-24",
+      "m1": "81.82"
+    },
+    {
+      "p": "[Improving Named Entity Recognition with Attentive Ensemble of Syntactic Information](https://arxiv.org/abs/2010.15466v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cuhksz-nlp/AESINER)",
+      "n": "AESINER",
+      "d": "2020-10-29",
+      "m1": "81.18"
+    },
+    {
+      "p": "[Glyce: Glyph-vectors for Chinese Character Representations](https://arxiv.org/abs/1901.10125v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/ShannonAI/glyce)",
+      "n": "Glyce + BERT",
+      "d": "2019-01-29",
+      "m1": "80.62",
+      "m2": "81.87",
+      "m3": "81.4"
+    },
+    {
+      "p": "[SLK-NER: Exploiting Second-order Lexicon Knowledge for Chinese NER](https://arxiv.org/abs/2007.08416v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zerohd4869/SLK-NER)",
+      "n": "SLK-NER",
+      "d": "2020-07-16",
+      "m1": "80.2"
+    },
+    {
+      "p": "[NFLAT: Non-Flat-Lattice Transformer for Chinese Named Entity Recognition](https://arxiv.org/abs/2205.05832v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/codermusou/nflat4cner)",
+      "n": "NFLAT",
+      "d": "2022-05-12",
+      "m1": "77.21",
+      "m2": "75.17",
+      "m3": "79.37"
+    },
+    {
+      "p": "[FLAT: Chinese NER Using Flat-Lattice Transformer](https://arxiv.org/abs/2004.11795v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/LeeSureman/Flat-Lattice-Transformer)",
+      "n": "FLAT",
+      "d": "2020-04-24",
+      "m1": "76.45"
+    },
+    {
+      "p": "[Simplify the Usage of Lexicon in Chinese NER](https://arxiv.org/abs/1908.05969v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/v-mipeng/LexiconAugmentedNER)",
+      "n": "LSTM + Lexicon augment",
+      "d": "2019-08-16",
+      "m1": "75.54"
+    },
+    {
+      "p": "[A Lexicon-Based Graph Neural Network for Chinese NER](https://aclanthology.org/D19-1096)",
+      "c": "",
+      "n": "LGN",
+      "d": "2019-11-01",
+      "m1": "74.89",
+      "m2": "76.13",
+      "m3": "73.68"
+    },
+    {
+      "p": "[Chinese NER Using Lattice LSTM](http://arxiv.org/abs/1805.02023v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/jiesutd/LatticeLSTM)",
+      "n": "Lattice",
+      "d": "2018-05-05",
+      "m1": "73.88"
+    },
+    {
+      "p": "[CAN-NER: Convolutional Attention Network for Chinese Named Entity Recognition](https://arxiv.org/abs/1904.02141v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/vert-papers/tree/master/papers/CAN-NER)",
+      "n": "CAN-NER Model",
+      "d": "2019-04-03",
+      "m1": "73.64",
+      "m2": "75.05",
+      "m3": "72.29"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

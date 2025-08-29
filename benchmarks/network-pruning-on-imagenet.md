@@ -1,0 +1,175 @@
+# network-pruning-on-imagenet
+
+[Dataset Link](https://image-net.org/index.php) \
+Task Hierarchy: ['Network Pruning']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "GFLOPs",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "MParams",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Pruning Filters for Efficient ConvNets](http://arxiv.org/abs/1608.08710v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleOCR)",
+      "n": "ResNet50-2.3 GFLOPs",
+      "d": "2016-08-31",
+      "m1": "78.79",
+      "m2": "2.335",
+      "m3": "14.811"
+    },
+    {
+      "p": "[Pruning Filters for Efficient ConvNets](http://arxiv.org/abs/1608.08710v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleOCR)",
+      "n": "ResNet50-1.5 GFLOPs",
+      "d": "2016-08-31",
+      "m1": "78.07",
+      "m2": "1.635",
+      "m3": "10.511"
+    },
+    {
+      "p": "[Knapsack Pruning with Inner Distillation](https://arxiv.org/abs/2002.08258v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yoniaflalo/knapsack_pruning)",
+      "n": "ResNet50 2.5 GFLOPS",
+      "d": "2020-02-19",
+      "m1": "78.0",
+      "m2": "2.5"
+    },
+    {
+      "p": "[Group Fisher Pruning for Practical Network Compression](https://arxiv.org/abs/2108.00708v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jshilong/FisherPruning)",
+      "n": "RegX-1.6G",
+      "d": "2021-08-02",
+      "m1": "77.97",
+      "m2": "1.588",
+      "m3": "9.3"
+    },
+    {
+      "p": "[Knapsack Pruning with Inner Distillation](https://arxiv.org/abs/2002.08258v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yoniaflalo/knapsack_pruning)",
+      "n": "ResNet50 2.0 GFLOPS",
+      "d": "2020-02-19",
+      "m1": "77.70",
+      "m2": "2"
+    },
+    {
+      "p": "[EagleEye: Fast Sub-net Evaluation for Efficient Neural Network Pruning](https://arxiv.org/abs/2007.02491v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/anonymous47823493/EagleEye)",
+      "n": "ResNet50-3G FLOPs",
+      "d": "2020-07-06",
+      "m1": "77.1"
+    },
+    {
+      "p": "[EagleEye: Fast Sub-net Evaluation for Efficient Neural Network Pruning](https://arxiv.org/abs/2007.02491v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/anonymous47823493/EagleEye)",
+      "n": "ResNet50-2G FLOPs",
+      "d": "2020-07-06",
+      "m1": "76.4"
+    },
+    {
+      "p": "[Pruning Filters for Efficient ConvNets](http://arxiv.org/abs/1608.08710v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleOCR)",
+      "n": "ResNet50-1G FLOPs",
+      "d": "2016-08-31",
+      "m1": "76.376",
+      "m2": "1.075",
+      "m3": "6.954"
+    },
+    {
+      "p": "[Network Pruning via Transformable Architecture Search](https://arxiv.org/abs/1905.09717v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/D-X-Y/GDAS)",
+      "n": "TAS-pruned ResNet-50",
+      "d": "2019-05-23",
+      "m1": "76.20",
+      "m2": "2.3"
+    },
+    {
+      "p": "[Network Pruning That Matters: A Case Study on Retraining Variants](https://arxiv.org/abs/2105.03193v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/lehduong/NPTM)",
+      "n": "ResNet50",
+      "d": "2021-05-07",
+      "m1": "75.59"
+    },
+    {
+      "p": "[EagleEye: Fast Sub-net Evaluation for Efficient Neural Network Pruning](https://arxiv.org/abs/2007.02491v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/anonymous47823493/EagleEye)",
+      "n": "ResNet50-1G FLOPs",
+      "d": "2020-07-06",
+      "m1": "74.2"
+    },
+    {
+      "p": "[EagleEye: Fast Sub-net Evaluation for Efficient Neural Network Pruning](https://arxiv.org/abs/2007.02491v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/anonymous47823493/EagleEye)",
+      "n": "ResNet50-1G FLOPs",
+      "d": "2020-07-06",
+      "m1": "74.2"
+    },
+    {
+      "p": "[Group Fisher Pruning for Practical Network Compression](https://arxiv.org/abs/2108.00708v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jshilong/FisherPruning)",
+      "n": "MobileNetV2",
+      "d": "2021-08-02",
+      "m1": "73.42",
+      "m2": "0.29",
+      "m3": "3.31"
+    },
+    {
+      "p": "[AC/DC: Alternating Compressed/DeCompressed Training of Deep Neural Networks](https://arxiv.org/abs/2106.12379v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/IST-DASLab/ACDC)",
+      "n": "ResNet50",
+      "d": "2021-06-23",
+      "m1": "73.14"
+    },
+    {
+      "p": "[EagleEye: Fast Sub-net Evaluation for Efficient Neural Network Pruning](https://arxiv.org/abs/2007.02491v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/anonymous47823493/EagleEye)",
+      "n": "MobileNetV1-50% FLOPs",
+      "d": "2020-07-06",
+      "m1": "70.7"
+    },
+    {
+      "p": "[SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <0.5MB model size](http://arxiv.org/abs/1602.07360v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/pytorch/vision)",
+      "n": "SqueezeNet (6-bit Deep Compression)",
+      "d": "2016-02-24",
+      "m1": "57.5%",
+      "m3": "1.24"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

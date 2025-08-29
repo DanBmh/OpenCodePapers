@@ -1,0 +1,81 @@
+# image-deblurring-on-hide
+
+[Dataset Link](https://github.com/joanshen0508/HA_deblur) \
+Task Hierarchy: ['16k', 'Image Deblurring']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "SSIM",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[AdaRevD: Adaptive Patch Exiting Reversible Decoder Pushes the Limit of Image Deblurring](https://arxiv.org/abs/2406.09135v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/invokerer/deeprft)",
+      "n": "AdaRevD",
+      "d": "2024-06-13",
+      "m1": "32.35",
+      "m2": "0.953"
+    },
+    {
+      "p": "[Efficient Visual State Space Model for Image Deblurring](https://arxiv.org/abs/2405.14343v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/kkkls/evssm)",
+      "n": "EVSSM",
+      "d": "2024-05-23",
+      "m1": "31.97",
+      "m2": "0.9501"
+    },
+    {
+      "p": "[Learning Enriched Features via Selective State Spaces Model for Efficient Image Deblurring](https://arxiv.org/abs/2403.20106v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Tombs98/ALGNet)",
+      "n": "ALGNet-B",
+      "d": "2024-03-29",
+      "m1": "31.68"
+    },
+    {
+      "p": "[A Mountain-Shaped Single-Stage Network for Accurate Image Restoration](https://arxiv.org/abs/2305.05146v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Tombs98/M3SNet)",
+      "n": "M3SNet",
+      "d": "2023-05-09",
+      "m1": "31.49"
+    },
+    {
+      "p": "[MAXIM: Multi-Axis MLP for Image Processing](https://arxiv.org/abs/2201.02973v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/maxim)",
+      "n": "MAXIM-3S",
+      "d": "2022-01-09",
+      "m2": "0.956"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

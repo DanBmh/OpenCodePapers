@@ -1,0 +1,134 @@
+# multiview-detection-on-cvcs
+
+[Dataset Link](http://visal.cs.cityu.edu.hk/downloads/citystreetdata/) \
+Task Hierarchy: ['16k', 'Object Detection', '3D Object Detection', 'Multiview Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "MODA (0.5m)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "F1_score (0.5m)",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "MODA (1m)",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "MODP (1m)",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "Precision (1m)",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "Recall (1m)",
+      "sortable": "true"
+    },
+    {
+      "key": "m7",
+      "label": "F1_score (1m)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Mahalanobis Distance-based Multi-view Optimal Transport for Multi-view Crowd Localization](https://arxiv.org/abs/2409.01726v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zqyq/Mahalanobis-Distance-based-Multi-view-Optimal-Transport-for-Multi-view-Crowd-Localization)",
+      "n": "M-MVOT",
+      "d": "2024-09-03",
+      "m1": "43.5",
+      "m3": "/"
+    },
+    {
+      "p": "[Multi-View People Detection in Large Scenes via Supervised View-Wise Contribution Weighting](https://arxiv.org/abs/2405.19943v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zqyq/Multi-view-People-Detection-in-Large-Scenes-via-View-wise-Contribution-Weighting)",
+      "n": "SVCW",
+      "d": "2024-05-30",
+      "m1": "/",
+      "m2": "/",
+      "m3": "46.2",
+      "m4": "78.4",
+      "m5": "81.2",
+      "m6": "59.1",
+      "m7": "68.4"
+    },
+    {
+      "p": "[Stacked Homography Transformations for Multi-View Pedestrian Detection](http://openaccess.thecvf.com//content/ICCV2021/html/Song_Stacked_Homography_Transformations_for_Multi-View_Pedestrian_Detection_ICCV_2021_paper.html)",
+      "c": "",
+      "n": "SHOT",
+      "d": "2021-01-01",
+      "m3": "45.0",
+      "m4": "77.4",
+      "m5": "83.6",
+      "m6": "55.9",
+      "m7": "67.0"
+    },
+    {
+      "p": "[Multiview Detection with Shadow Transformer (and View-Coherent Data Augmentation)](https://arxiv.org/abs/2108.05888v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/hou-yz/mvdetr)",
+      "n": "MVDeTr",
+      "d": "2021-08-12",
+      "m3": "39.8",
+      "m4": "84.1",
+      "m5": "95.3",
+      "m6": "44.9",
+      "m7": "61.0"
+    },
+    {
+      "p": "[Multiview Detection with Feature Perspective Transformation](https://arxiv.org/abs/2007.07247v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/hou-yz/MVDet)",
+      "n": "MVDet",
+      "d": "2020-07-14",
+      "m3": "36.6",
+      "m4": "71.0",
+      "m5": "79.4",
+      "m6": "49.4",
+      "m7": "60.9"
+    },
+    {
+      "p": "[3D Random Occlusion and Multi-Layer Projection for Deep Multi-Camera Pedestrian Localization](https://arxiv.org/abs/2207.10895v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/xjtlu-cvlab/3drom)",
+      "n": "3DROM",
+      "d": "2022-07-22",
+      "m3": "33.9",
+      "m4": "73.9",
+      "m5": "79.5",
+      "m6": "42.2",
+      "m7": "55.1"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

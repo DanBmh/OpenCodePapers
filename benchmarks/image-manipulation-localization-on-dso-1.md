@@ -1,0 +1,116 @@
+# image-manipulation-localization-on-dso-1
+
+[Dataset Link]() \
+Task Hierarchy: ['Image Manipulation Localization']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Average Pixel F1(Fixed threshold)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[TruFor: Leveraging all-round clues for trustworthy image forgery detection and localization](https://arxiv.org/abs/2212.10957v3)",
+      "c": "",
+      "n": "TruFor",
+      "d": "2022-12-21",
+      "m1": ".930"
+    },
+    {
+      "p": "[MMFusion: Combining Image Forensic Filters for Visual Manipulation Detection and Localization](https://arxiv.org/abs/2312.01790v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/idt-iti/mmfusion-iml)",
+      "n": "Late Fusion",
+      "d": "2023-12-04",
+      "m1": ".899"
+    },
+    {
+      "p": "[CMX: Cross-Modal Fusion for RGB-X Semantic Segmentation with Transformers](https://arxiv.org/abs/2203.04838v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/huaaaliu/rgbx_semantic_segmentation)",
+      "n": "CMX (RGB+NP++)",
+      "d": "2022-03-09",
+      "m1": ".895"
+    },
+    {
+      "p": "[MMFusion: Combining Image Forensic Filters for Visual Manipulation Detection and Localization](https://arxiv.org/abs/2312.01790v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/idt-iti/mmfusion-iml)",
+      "n": "Early Fusion",
+      "d": "2023-12-04",
+      "m1": ".869"
+    },
+    {
+      "p": "[CMX: Cross-Modal Fusion for RGB-X Semantic Segmentation with Transformers](https://arxiv.org/abs/2203.04838v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/huaaaliu/rgbx_semantic_segmentation)",
+      "n": "CMX (RGB+SRM)",
+      "d": "2022-03-09",
+      "m1": ".792"
+    },
+    {
+      "p": "[CMX: Cross-Modal Fusion for RGB-X Semantic Segmentation with Transformers](https://arxiv.org/abs/2203.04838v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/huaaaliu/rgbx_semantic_segmentation)",
+      "n": "CMX (RGB+Bayar)",
+      "d": "2022-03-09",
+      "m1": ".776"
+    },
+    {
+      "p": "[Learning JPEG Compression Artifacts for Image Manipulation Detection and Localization](https://arxiv.org/abs/2108.12947v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mjkwon2021/cat-net)",
+      "n": "CAT-Net v2",
+      "d": "2021-08-30",
+      "m1": ".584"
+    },
+    {
+      "p": "[ManTra-Net: Manipulation Tracing Network for Detection and Localization of Image Forgeries With Anomalous Features](http://openaccess.thecvf.com/content_CVPR_2019/html/Wu_ManTra-Net_Manipulation_Tracing_Network_for_Detection_and_Localization_of_Image_CVPR_2019_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/ISICV/ManTraNet)",
+      "n": "ManTraNet",
+      "d": "2019-06-01",
+      "m1": ".412"
+    },
+    {
+      "p": "[Image Manipulation Detection by Multi-View Multi-Scale Supervision](https://arxiv.org/abs/2104.06832v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dong03/MVSS-Net)",
+      "n": "MVSS-Net",
+      "d": "2021-04-14",
+      "m1": ".358"
+    },
+    {
+      "p": "[Constrained R-CNN: A general image manipulation detection model](https://arxiv.org/abs/1911.08217v3)",
+      "c": "",
+      "n": "CR-CNN",
+      "d": "2019-11-19",
+      "m1": ".289"
+    },
+    {
+      "p": "[SPAN: Spatial Pyramid Attention Network for Image Manipulation Localization](https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/3720_ECCV_2020_paper.php)",
+      "c": "[&check;&nbsp;Link](https://github.com/ZhiHanZ/IRIS0-SPAN)",
+      "n": "SPAN",
+      "d": null,
+      "m1": ".233"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

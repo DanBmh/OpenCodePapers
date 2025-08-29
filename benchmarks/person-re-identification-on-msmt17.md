@@ -1,0 +1,402 @@
+# person-re-identification-on-msmt17
+
+[Dataset Link](http://www.pkuvmc.com/dataset.html) \
+Task Hierarchy: ['Person Re-Identification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mAP",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Rank-1",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Rank-10",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Rank-5",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[CLIP-ReID: Exploiting Vision-Language Model for Image Re-Identification without Concrete Text Labels](https://arxiv.org/abs/2211.13977v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/mikel-brostrom/boxmot)",
+      "n": "CLIP-ReID (with re-ranking)",
+      "d": "2022-11-25",
+      "m1": "86.7",
+      "m2": "91.2"
+    },
+    {
+      "p": "[Beyond Appearance: a Semantic Controllable Self-Supervised Learning Framework for Human-Centric Visual Tasks](https://arxiv.org/abs/2303.17602v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/modelscope/modelscope)",
+      "n": "SOLIDER (with re-ranking)",
+      "d": "2023-03-30",
+      "m1": "86.5",
+      "m2": "91.7"
+    },
+    {
+      "p": "[FlipReID: Closing the Gap between Training and Inference in Person Re-Identification](https://arxiv.org/abs/2105.05639v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nixingyang/FlipReID)",
+      "n": "FlipReID (with re-ranking)",
+      "d": "2021-05-12",
+      "m1": "81.3",
+      "m2": "87.5"
+    },
+    {
+      "p": "[Rethinking Person Re-identification from a Projection-on-Prototypes Perspective](https://arxiv.org/abs/2308.10717v1)",
+      "c": "",
+      "n": "ProNet++ (ResNet50+RK)",
+      "d": "2023-08-21",
+      "m1": "80",
+      "m2": "88.2"
+    },
+    {
+      "p": "[Learning to Disentangle Scenes for Person Re-identification](https://arxiv.org/abs/2111.05476v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/deropty/LDS)",
+      "n": "LDS (ResNet50+RK)",
+      "d": "2021-11-10",
+      "m1": "79.09",
+      "m2": "88.35"
+    },
+    {
+      "p": "[Beyond Appearance: a Semantic Controllable Self-Supervised Learning Framework for Human-Centric Visual Tasks](https://arxiv.org/abs/2303.17602v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/modelscope/modelscope)",
+      "n": "SOLIDER (without re-ranking)",
+      "d": "2023-03-30",
+      "m1": "77.1",
+      "m2": "90.7"
+    },
+    {
+      "p": "[Adaptive L2 Regularization in Person Re-Identification](https://arxiv.org/abs/2007.07875v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/nixingyang/AdaptiveL2Regularization)",
+      "n": "Adaptive L2 Regularization (with re-ranking)",
+      "d": "2020-07-15",
+      "m1": "76.7",
+      "m2": "84.9"
+    },
+    {
+      "p": "[Prototypical Contrastive Learning-based CLIP Fine-tuning for Object Re-identification](https://arxiv.org/abs/2310.17218v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/RikoLi/PCL-CLIP)",
+      "n": "PCL-CLIP (L_pcl+L_id)",
+      "d": "2023-10-26",
+      "m1": "76.1",
+      "m2": "89.8",
+      "m3": "96.0",
+      "m4": "94.7"
+    },
+    {
+      "p": "[CLIP-ReID: Exploiting Vision-Language Model for Image Re-Identification without Concrete Text Labels](https://arxiv.org/abs/2211.13977v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/mikel-brostrom/boxmot)",
+      "n": "CLIP-ReID (without re-ranking)",
+      "d": "2022-11-25",
+      "m1": "75.8",
+      "m2": "89.7"
+    },
+    {
+      "p": "[Self-Supervised Pre-Training for Transformer-Based Person Re-Identification](https://arxiv.org/abs/2111.12084v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/DengpanFu/LUPerson)",
+      "n": "TransReID-SSL (ViT-B without RK)",
+      "d": "2021-11-23",
+      "m1": "75.0",
+      "m2": "89.5"
+    },
+    {
+      "p": "[CA-Jaccard: Camera-aware Jaccard Distance for Person Re-identification](https://arxiv.org/abs/2311.10605v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/chen960/ca-jaccard)",
+      "n": "CA-Jaccard",
+      "d": "2023-11-17",
+      "m1": "74.1",
+      "m2": "86.2",
+      "m4": "90.5"
+    },
+    {
+      "p": "[Prototypical Contrastive Learning-based CLIP Fine-tuning for Object Re-identification](https://arxiv.org/abs/2310.17218v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/RikoLi/PCL-CLIP)",
+      "n": "PCL-CLIP (L_pcl)",
+      "d": "2023-10-26",
+      "m1": "73.8",
+      "m2": "89.2",
+      "m3": "95.8",
+      "m4": "94.7"
+    },
+    {
+      "p": "[DiP: Learning Discriminative Implicit Parts for Person Re-Identification](https://arxiv.org/abs/2212.13906v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/siyuch-fdu/DiP)",
+      "n": "DiP (without RK)",
+      "d": "2022-12-24",
+      "m1": "71.8",
+      "m2": "87.3"
+    },
+    {
+      "p": "[TransReID: Transformer-based Object Re-Identification](https://arxiv.org/abs/2102.04378v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/heshuting555/TransReID)",
+      "n": "TransReID",
+      "d": "2021-02-08",
+      "m1": "69.40",
+      "m2": "86.20"
+    },
+    {
+      "p": "[Unsupervised Pre-training for Person Re-identification](https://arxiv.org/abs/2012.03753v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/DengpanFu/LUPerson)",
+      "n": "Unsupervised Pre-training (ResNet101+MGN)",
+      "d": "2020-12-07",
+      "m1": "68.8",
+      "m2": "86.6"
+    },
+    {
+      "p": "[Large-Scale Pre-training for Person Re-identification with Noisy Labels](https://arxiv.org/abs/2203.16533v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/DengpanFu/LUPerson)",
+      "n": "Weakly Supervised Pre-training (ResNet50+MGN)",
+      "d": "2022-03-30",
+      "m1": "68.0",
+      "m2": "86.0"
+    },
+    {
+      "p": "[FlipReID: Closing the Gap between Training and Inference in Person Re-Identification](https://arxiv.org/abs/2105.05639v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nixingyang/FlipReID)",
+      "n": "FlipReID (without re-ranking)",
+      "d": "2021-05-12",
+      "m1": "68.0",
+      "m2": "85.6"
+    },
+    {
+      "p": "[Enhancing person re-identification via Uncertainty Feature Fusion Method and Auto-weighted Measure Combination](https://arxiv.org/abs/2405.01101v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/chequanghuy/Enhancing-Person-Re-Identification-via-UFFM-and-AMC)",
+      "n": "CLIP-ReID Baseline + UFFM +AMC",
+      "d": "2024-05-02",
+      "m1": "67.6",
+      "m2": "83.8"
+    },
+    {
+      "p": "[Deep Miner: A Deep and Multi-branch Network which Mines Rich and Diverse Features for Person Re-identification](https://arxiv.org/abs/2102.09321v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/robin-schneider/cicy-fourfolds)",
+      "n": "Deep Miner (w/o ReRank)",
+      "d": "2021-02-18",
+      "m1": "67.30",
+      "m2": "85.60"
+    },
+    {
+      "p": "[UniHCP: A Unified Model for Human-Centric Perceptions](https://arxiv.org/abs/2303.02936v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/opengvlab/unihcp)",
+      "n": "UniHCP (finetune)",
+      "d": "2023-03-06",
+      "m1": "67.3"
+    },
+    {
+      "p": "[Eliminate Deviation with Deviation for Data Augmentation and a General Multi-modal Data Learning Method](https://arxiv.org/abs/2101.08533v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/finger-monkey/Data-Augmentation)",
+      "n": "RGT&RGPR(without RK)",
+      "d": "2021-01-21",
+      "m1": "65.9",
+      "m2": "86.2"
+    },
+    {
+      "p": "[Rethinking Person Re-identification from a Projection-on-Prototypes Perspective](https://arxiv.org/abs/2308.10717v1)",
+      "c": "",
+      "n": "ProNet++",
+      "d": "2023-08-21",
+      "m1": "65.5",
+      "m2": "85.4"
+    },
+    {
+      "p": "[GiT: Graph Interactive Transformer for Vehicle Re-identification](https://arxiv.org/abs/2107.05475v3)",
+      "c": "",
+      "n": "GiT",
+      "d": "2021-07-12",
+      "m1": "64.8",
+      "m2": "85.6"
+    },
+    {
+      "p": "[Counterfactual Attention Learning for Fine-Grained Visual Categorization and Re-identification](https://arxiv.org/abs/2108.08728v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/raoyongming/CAL)",
+      "n": "CAL(ResNet50)",
+      "d": "2021-08-19",
+      "m1": "64",
+      "m2": "84.2"
+    },
+    {
+      "p": "[ReMix: Training Generalized Person Re-identification on a Mixture of Data](https://arxiv.org/abs/2410.21938v1)",
+      "c": "",
+      "n": "ReMix",
+      "d": "2024-10-29",
+      "m1": "63.9",
+      "m2": "84.8"
+    },
+    {
+      "p": "[Person Re-identification via Attention Pyramid](https://arxiv.org/abs/2108.05340v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/chengy12/apnet)",
+      "n": "APNet-C(ResNet50)",
+      "d": "2021-08-11",
+      "m1": "63.5",
+      "m2": "83.7"
+    },
+    {
+      "p": "[Multi-task Learning with Coarse Priors for Robust Part-aware Person Re-identification](https://arxiv.org/abs/2003.08069v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/WangKan0128/MPN)",
+      "n": "MPN (without re-ranking)",
+      "d": "2020-03-18",
+      "m1": "62.7",
+      "m2": "83.5"
+    },
+    {
+      "p": "[Enhancing person re-identification via Uncertainty Feature Fusion Method and Auto-weighted Measure Combination](https://arxiv.org/abs/2405.01101v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/chequanghuy/Enhancing-Person-Re-Identification-via-UFFM-and-AMC)",
+      "n": "BoT+UFFM+AMC",
+      "d": "2024-05-02",
+      "m1": "62.3",
+      "m2": "82.0"
+    },
+    {
+      "p": "[Adaptive L2 Regularization in Person Re-Identification](https://arxiv.org/abs/2007.07875v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/nixingyang/AdaptiveL2Regularization)",
+      "n": "Adaptive L2 Regularization (without re-ranking)",
+      "d": "2020-07-15",
+      "m1": "62.2",
+      "m2": "81.7"
+    },
+    {
+      "p": "[Devil's in the Details: Aligning Visual Clues for Conditional Embedding in Person Re-Identification](https://arxiv.org/abs/2009.05250v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/TencentYoutuResearch/PersonReID-CACENET)",
+      "n": "CACENET (ResNet50 w/o RR)",
+      "d": "2020-09-11",
+      "m1": "62.00",
+      "m2": "83.54"
+    },
+    {
+      "p": "[ABD-Net: Attentive but Diverse Person Re-Identification](https://arxiv.org/abs/1908.01114v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/vita-group/abd-net)",
+      "n": "ABD-Net (ResNet-50)",
+      "d": "2019-08-03",
+      "m1": "60.8",
+      "m2": "82.3"
+    },
+    {
+      "p": "[MSINet: Twins Contrastive Search of Multi-Scale Interaction for Object ReID](https://arxiv.org/abs/2303.07065v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/vimar-gu/msinet)",
+      "n": "MSINet (2.3M w/o RK)",
+      "d": "2023-03-13",
+      "m1": "59.6",
+      "m2": "81"
+    },
+    {
+      "p": "[Omni-Scale Feature Learning for Person Re-Identification](https://arxiv.org/abs/1905.00953v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/mikel-brostrom/boxmot)",
+      "n": "OSNet",
+      "d": "2019-05-02",
+      "m1": "52.9",
+      "m2": "78.7"
+    },
+    {
+      "p": "[Joint Discriminative and Generative Learning for Person Re-identification](https://arxiv.org/abs/1904.07223v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/layumi/Person_reID_baseline_pytorch)",
+      "n": "DG-Net",
+      "d": "2019-04-15",
+      "m1": "52.3",
+      "m2": "77.2",
+      "m3": "90.5",
+      "m4": "87.4"
+    },
+    {
+      "p": "[Circle Loss: A Unified Perspective of Pair Similarity Optimization](https://arxiv.org/abs/2002.10857v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/layumi/Person_reID_baseline_pytorch)",
+      "n": "MGN + CircleLoss(ours)",
+      "d": "2020-02-25",
+      "m1": "52.1",
+      "m2": "76.9"
+    },
+    {
+      "p": "[Circle Loss: A Unified Perspective of Pair Similarity Optimization](https://arxiv.org/abs/2002.10857v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/layumi/Person_reID_baseline_pytorch)",
+      "n": "ResNet50 + CircleLoss(ours)",
+      "d": "2020-02-25",
+      "m1": "50.2",
+      "m2": "76.3"
+    },
+    {
+      "p": "[Building Computationally Efficient and Well-Generalizing Person Re-Identification Models with Metric Learning](https://arxiv.org/abs/2003.07618v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/opencv/openvino_training_extensions)",
+      "n": "OSNet-IAP 1.0x",
+      "d": "2020-03-17",
+      "m1": "48.66",
+      "m2": "77.97"
+    },
+    {
+      "p": "[Rethinking the Distribution Gap of Person Re-identification with Camera-based Batch Normalization](https://arxiv.org/abs/2001.08680v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/automan000/Camera-based-Person-ReID)",
+      "n": "CBN",
+      "d": "2020-01-23",
+      "m1": "42.9",
+      "m2": "72.8"
+    },
+    {
+      "p": "[A Discriminatively Learned CNN Embedding for Person Re-identification](http://arxiv.org/abs/1611.05666v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/layumi/2016_person_re-ID)",
+      "n": "DLCE",
+      "d": "2016-11-17",
+      "m1": "31.58",
+      "m2": "60.48"
+    },
+    {
+      "p": "[Parameter-Efficient Person Re-identification in the 3D Space](https://arxiv.org/abs/2006.04569v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/layumi/person-reid-3d)",
+      "n": "OGNet",
+      "d": "2020-06-08",
+      "m1": "23.01",
+      "m2": "47.71"
+    },
+    {
+      "p": "[Unsupervised Tracklet Person Re-Identification](http://arxiv.org/abs/1903.00535v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/liminxian/DukeMTMC-SI-Tracklet)",
+      "n": "UTAL",
+      "d": "2019-03-01",
+      "m1": "13.1",
+      "m2": "31.4"
+    },
+    {
+      "p": "[Unsupervised Person Re-identification by Deep Learning Tracklet Association](http://arxiv.org/abs/1809.02874v1)",
+      "c": "",
+      "n": "TAUDL",
+      "d": "2018-09-08",
+      "m1": "12.5"
+    },
+    {
+      "p": "[Self-Supervised Pre-Training for Transformer-Based Person Re-Identification](https://arxiv.org/abs/2111.12084v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/DengpanFu/LUPerson)",
+      "n": "TransReID-SSL (without RK)",
+      "d": "2021-11-23",
+      "m2": "89.6"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

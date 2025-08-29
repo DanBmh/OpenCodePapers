@@ -1,0 +1,67 @@
+# stochastic-optimization-on-cifar-10-resnet-18
+
+[Dataset Link](https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf) \
+Task Hierarchy: ['Stochastic Optimization']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Benchopt: Reproducible, efficient and collaborative optimization benchmarks](https://arxiv.org/abs/2206.13424v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/deepmind/optax)",
+      "n": "SGD - cosine LR schedule",
+      "d": "2022-06-27",
+      "m1": "95.55"
+    },
+    {
+      "p": "[Lookahead Optimizer: k steps forward, 1 step back](https://arxiv.org/abs/1907.08610v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "Lookahead",
+      "d": "2019-07-19",
+      "m1": "95.27"
+    },
+    {
+      "p": "[Lookahead Optimizer: k steps forward, 1 step back](https://arxiv.org/abs/1907.08610v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "SGD",
+      "d": "2019-07-19",
+      "m1": "95.23"
+    },
+    {
+      "p": "[Lookahead Optimizer: k steps forward, 1 step back](https://arxiv.org/abs/1907.08610v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "ADAM",
+      "d": "2019-07-19",
+      "m1": "94.84"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

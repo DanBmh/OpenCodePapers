@@ -1,0 +1,67 @@
+# action-recognition-on-uav-human
+
+[Dataset Link](https://github.com/SUTDCV/UAV-Human) \
+Task Hierarchy: ['Action Recognition']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Top 1 Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[PMI Sampler: Patch Similarity Guided Frame Selection for Aerial Action Recognition](https://arxiv.org/abs/2304.06866v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ricky-xian/pmi-sampler)",
+      "n": "PMI Sampler",
+      "d": "2023-04-14",
+      "m1": "55.0"
+    },
+    {
+      "p": "[MITFAS: Mutual Information based Temporal Feature Alignment and Sampling for Aerial Video Action Recognition](https://arxiv.org/abs/2303.02575v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ricky-xian/mitfas)",
+      "n": "MITFAS",
+      "d": "2023-03-05",
+      "m1": "50.8"
+    },
+    {
+      "p": "[AZTR: Aerial Video Action Recognition with Auto Zoom and Temporal Reasoning](https://arxiv.org/abs/2303.01589v1)",
+      "c": "",
+      "n": "AZTR",
+      "d": "2023-03-02",
+      "m1": "47.4"
+    },
+    {
+      "p": "[FAR: Fourier Aerial Video Recognition](https://arxiv.org/abs/2203.10694v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/divyakraman/ECCV2022_FARFourierAerialVideoRecognition)",
+      "n": "FAR",
+      "d": "2022-03-21",
+      "m1": "39.1"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

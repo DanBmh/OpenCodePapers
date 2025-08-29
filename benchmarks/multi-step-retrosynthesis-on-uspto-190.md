@@ -1,0 +1,84 @@
+# multi-step-retrosynthesis-on-uspto-190
+
+[Dataset Link]() \
+Task Hierarchy: ['Multi-step retrosynthesis']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Success Rate (100 model calls)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Success Rate (500 model calls)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Retrosynthetic Planning with Dual Value Networks](https://arxiv.org/abs/2301.13755v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/DiXue98/PDVN)",
+      "n": "PDVN",
+      "d": "2023-01-31",
+      "m1": "96.84",
+      "m2": "99.47"
+    },
+    {
+      "p": "[RetroGraph: Retrosynthetic Planning with Graph Search](https://arxiv.org/abs/2206.11477v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/binghong-ml/retro_star)",
+      "n": "RetroGraph",
+      "d": "2022-06-23",
+      "m1": "88.42",
+      "m2": "99.47"
+    },
+    {
+      "p": "[Retrosynthetic Planning with Experience-Guided Monte Carlo Tree Search](https://arxiv.org/abs/2112.06028v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jjljkjljk/EG-MCTS)",
+      "n": "EG-MCTS",
+      "d": "2021-12-11",
+      "m1": "85.79",
+      "m2": "96.84"
+    },
+    {
+      "p": "[Self-Improved Retrosynthetic Planning](https://arxiv.org/abs/2106.04880v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/junsu-kim97/self_improved_retro)",
+      "n": "Retro* plus",
+      "d": "2021-06-09",
+      "m1": "67.37",
+      "m2": "96.32"
+    },
+    {
+      "p": "[Retro*: Learning Retrosynthetic Planning with Neural Guided A* Search](https://arxiv.org/abs/2006.15820v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/binghong-ml/retro_star)",
+      "n": "Retro*",
+      "d": "2020-06-29",
+      "m1": "52.11",
+      "m2": "86.84"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

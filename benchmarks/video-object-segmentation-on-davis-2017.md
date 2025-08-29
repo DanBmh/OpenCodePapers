@@ -1,0 +1,93 @@
+# video-object-segmentation-on-davis-2017
+
+[Dataset Link](https://davischallenge.org/) \
+Task Hierarchy: ['Video Object Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Jaccard (Mean)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "mIoU",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "J&F",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "F-Score",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Towards Robust Video Object Segmentation with Adaptive Object Calibration](https://arxiv.org/abs/2207.00887v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jerryx1110/robust-video-object-segmentation)",
+      "n": "AOC-MF (val)",
+      "d": "2022-07-02",
+      "m1": "81.7",
+      "m4": "85.9"
+    },
+    {
+      "p": "[ViTAE: Vision Transformer Advanced by Exploring Intrinsic Inductive Bias](https://arxiv.org/abs/2106.03348v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/ViTAE-Transformer/ViTAE-Transformer)",
+      "n": "ViTAE-T-Stage",
+      "d": "2021-06-07",
+      "m1": "79.4",
+      "m3": "82.5",
+      "m4": "85.5"
+    },
+    {
+      "p": "[Video Object Segmentation with Language Referring Expressions](http://arxiv.org/abs/1803.08006v3)",
+      "c": "",
+      "n": "VOSwL (Mask+Language)",
+      "d": "2018-03-21",
+      "m2": "59",
+      "m3": "62.2"
+    },
+    {
+      "p": "[Do Different Tracking Tasks Require Different Appearance Models?](https://arxiv.org/abs/2107.02156v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Zhongdao/UniTrack)",
+      "n": "UniTrack",
+      "d": "2021-07-05",
+      "m2": "58.4"
+    },
+    {
+      "p": "[Emerging Properties in Self-Supervised Vision Transformers](https://arxiv.org/abs/2104.14294v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/dino)",
+      "n": "DINO (ViT-B/8, ImageNet retrain)",
+      "d": "2021-04-29",
+      "m3": "71.4"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

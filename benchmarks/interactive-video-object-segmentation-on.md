@@ -1,0 +1,118 @@
+# interactive-video-object-segmentation-on
+
+[Dataset Link](https://davischallenge.org/) \
+Task Hierarchy: ['Video Object Segmentation', 'Interactive Video Object Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AUC-J&F",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "J&F@60s",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "AUC-J",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "J@60s",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Modular Interactive Video Object Segmentation: Interaction-to-Mask, Propagation and Difference-Aware Fusion](https://arxiv.org/abs/2103.07941v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hkchengrex/MiVOS)",
+      "n": "MiVOS",
+      "d": "2021-03-14",
+      "m1": "0.879",
+      "m2": "0.885",
+      "m3": "0.849",
+      "m4": "0.854"
+    },
+    {
+      "p": "[Guided Interactive Video Object Segmentation Using Reliability-Based Attention Maps](https://arxiv.org/abs/2104.10386v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yuk6heo/GIS-RAmap)",
+      "n": "GIS",
+      "d": "2021-04-21",
+      "m1": "0.856",
+      "m2": "0.866",
+      "m3": "0.820",
+      "m4": "0.829"
+    },
+    {
+      "p": "[Interactive Video Object Segmentation Using Global and Local Transfer Modules](https://arxiv.org/abs/2007.08139v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yuk6heo/GIS-RAmap)",
+      "n": "AT-Net",
+      "d": "2020-07-16",
+      "m1": "0.809",
+      "m2": "0.827",
+      "m3": "0.778",
+      "m4": "0.790"
+    },
+    {
+      "p": "[Video Object Segmentation using Space-Time Memory Networks](https://arxiv.org/abs/1904.00607v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/seoungwugoh/STM)",
+      "n": "STM",
+      "d": "2019-04-01",
+      "m1": "0.803",
+      "m2": "0.848"
+    },
+    {
+      "p": "[Fast Interactive Video Object Segmentation with Graph Neural Networks](https://arxiv.org/abs/2103.03821v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/vvarga90/gnn_annot)",
+      "n": "GNNannot",
+      "d": "2021-03-05",
+      "m1": "0.782",
+      "m2": "0.790",
+      "m3": "0.759",
+      "m4": "0.767"
+    },
+    {
+      "p": "[Memory Aggregation Networks for Efficient Interactive Video Object Segmentation](https://arxiv.org/abs/2003.13246v1)",
+      "c": "",
+      "n": "MA-Net",
+      "d": "2020-03-30",
+      "m3": "0.749",
+      "m4": "0.761"
+    },
+    {
+      "p": "[Fast User-Guided Video Object Segmentation by Interaction-and-Propagation Networks](http://arxiv.org/abs/1904.09791v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/seoungwugoh/ivs-demo)",
+      "n": "FUGVOS",
+      "d": "2019-04-22",
+      "m3": "0.691",
+      "m4": "0.734"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

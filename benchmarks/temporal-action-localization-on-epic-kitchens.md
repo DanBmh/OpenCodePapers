@@ -1,0 +1,136 @@
+# temporal-action-localization-on-epic-kitchens
+
+[Dataset Link](https://epic-kitchens.github.io/2021) \
+Task Hierarchy: ['Action Localization', 'Temporal Action Localization']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Avg mAP (0.1-0.5)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "mAP IOU@0.1",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "mAP IOU@0.2",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "mAP IOU@0.3",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "mAP IOU@0.4",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "mAP IOU@0.5",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[End-to-End Temporal Action Detection with 1B Parameters Across 1000 Frames](https://arxiv.org/abs/2311.17241v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/sming256/OpenTAD)",
+      "n": "AdaTAD (verb, VideoMAE-L)",
+      "d": "2023-11-28",
+      "m1": "29.3",
+      "m2": "33.1",
+      "m3": "32.2",
+      "m4": "30.4",
+      "m5": "27.5",
+      "m6": "23.1"
+    },
+    {
+      "p": "[TriDet: Temporal Action Detection with Relative Boundary Modeling](https://arxiv.org/abs/2303.07347v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dingfengshi/tridet)",
+      "n": "TriDet (verb)",
+      "d": "2023-03-13",
+      "m1": "25.4",
+      "m2": "28.6",
+      "m3": "27.4",
+      "m4": "26.1",
+      "m5": "24.2",
+      "m6": "20.8"
+    },
+    {
+      "p": "[TemporalMaxer: Maximize Temporal Context with only Max Pooling for Temporal Action Localization](https://arxiv.org/abs/2303.09055v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tuantng/temporalmaxer)",
+      "n": "TemporalMaxer (verb)",
+      "d": "2023-03-16",
+      "m1": "24.5",
+      "m2": "27.8",
+      "m3": "26.6",
+      "m4": "25.3",
+      "m5": "23.1",
+      "m6": "19.9"
+    },
+    {
+      "p": "[ActionFormer: Localizing Moments of Actions with Transformers](https://arxiv.org/abs/2202.07925v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/happyharrycn/actionformer_release)",
+      "n": "ActionFormer (verb)",
+      "d": "2022-02-16",
+      "m1": "23.5",
+      "m2": "26.6",
+      "m3": "25.4",
+      "m4": "24.2",
+      "m5": "22.3",
+      "m6": "19.1"
+    },
+    {
+      "p": "[G-TAD: Sub-Graph Localization for Temporal Action Detection](https://arxiv.org/abs/1911.11462v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Frostinassiky/gtad)",
+      "n": "G-TAD (verb)",
+      "d": "2019-11-26",
+      "m1": "9.4",
+      "m2": "12.1",
+      "m3": "11.0",
+      "m4": "9.4",
+      "m5": "8.1",
+      "m6": "6.5"
+    },
+    {
+      "p": "[BMN: Boundary-Matching Network for Temporal Action Proposal Generation](https://arxiv.org/abs/1907.09702v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/models/tree/develop/PaddleCV/video/models/bmn)",
+      "n": "BMN (verb)",
+      "d": "2019-07-23",
+      "m1": "8.4",
+      "m2": "10.8",
+      "m3": "9.8",
+      "m4": "8.4",
+      "m5": "7.1",
+      "m6": "5.6"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,121 @@
+# point-cloud-registration-on-fpv1
+
+[Dataset Link](https://github.com/DavidBoja/FPv1) \
+Task Hierarchy: ['3D Point Cloud Interpolation', 'Point Cloud Registration']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Recall (3cm, 10 degrees)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "RRE (degrees)",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "RTE (cm)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Challenging the Universal Representation of Deep Models for 3D Point Cloud Registration](https://arxiv.org/abs/2211.16301v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/davidboja/greedy-grid-search)",
+      "n": "Greedy Grid Search",
+      "d": "2022-11-29",
+      "m1": "92.81",
+      "m2": "0.014",
+      "m3": "0.009"
+    },
+    {
+      "p": "[Geometric Transformer for Fast and Robust Point Cloud Registration](https://arxiv.org/abs/2202.06688v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/qinzheng93/geotransformer)",
+      "n": "GeoTransformer",
+      "d": "2022-02-14",
+      "m1": "56.15",
+      "m2": "2.423",
+      "m3": "1.581"
+    },
+    {
+      "p": "[Distinctive 3D local deep descriptors](https://arxiv.org/abs/2009.00258v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/fabiopoiesi/gedi)",
+      "n": "DIP",
+      "d": "2020-09-01",
+      "m1": "54.81",
+      "m2": "4.058",
+      "m3": "2.052"
+    },
+    {
+      "p": "[PointDSC: Robust Point Cloud Registration using Deep Spatial Consistency](https://arxiv.org/abs/2103.05465v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/XuyangBai/PointDSC)",
+      "n": "FCGF + PointDSC",
+      "d": "2021-03-09",
+      "m1": "47.85",
+      "m2": "3.354",
+      "m3": "1.793"
+    },
+    {
+      "p": "[SpinNet: Learning a General Surface Descriptor for 3D Point Cloud Registration](https://arxiv.org/abs/2011.12149v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/QingyongHu/SpinNet)",
+      "n": "SpinNet",
+      "d": "2020-11-24",
+      "m1": "42.46",
+      "m2": "3.105",
+      "m3": "1.670"
+    },
+    {
+      "p": "[You Only Hypothesize Once: Point Cloud Registration with Rotation-equivariant Descriptors](https://arxiv.org/abs/2109.00182v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/HpWang-whu/YOHO)",
+      "n": "FCGF + YOHO-C",
+      "d": "2021-09-01",
+      "m1": "29.18",
+      "m2": "3.653",
+      "m3": "1.668"
+    },
+    {
+      "p": "[You Only Hypothesize Once: Point Cloud Registration with Rotation-equivariant Descriptors](https://arxiv.org/abs/2109.00182v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/HpWang-whu/YOHO)",
+      "n": "FCGF + YOHO-O",
+      "d": "2021-09-01",
+      "m1": "18.91",
+      "m2": "4.489",
+      "m3": "1.852"
+    },
+    {
+      "p": "[Fast Point Feature Histograms (FPFH) for 3D Registration](https://ieeexplore.ieee.org/document/5152473)",
+      "c": "[&check;&nbsp;Link](https://github.com/isl-org/Open3D/blob/main/cpp/open3d/pipelines/registration/Feature.h)",
+      "n": "FPFH-8M",
+      "d": "2009-05-12",
+      "m1": "9.51",
+      "m2": "4.347",
+      "m3": "1.900"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,88 @@
+# object-detection-on-tbbr
+
+[Dataset Link](https://zenodo.org/record/7022736) \
+Task Hierarchy: ['16k', 'Object Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Average Recall@IoU:0.5-0.95",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Deep learning approaches to building rooftop thermal bridge detection from aerial images](https://doi.org/10.1016/j.autcon.2022.104690)",
+      "c": "[&check;&nbsp;Link](https://github.com/Helmholtz-AI-Energy/TBBRDet)",
+      "n": "Swin-T (ImageNet-1k pretrain)",
+      "d": "2022-12-12",
+      "m1": "45.4"
+    },
+    {
+      "p": "[Deep learning approaches to building rooftop thermal bridge detection from aerial images](https://doi.org/10.1016/j.autcon.2022.104690)",
+      "c": "[&check;&nbsp;Link](https://github.com/Helmholtz-AI-Energy/TBBRDet)",
+      "n": "FSAF (ResNeXt-101, ImageNet-1k pretrain)",
+      "d": "2022-12-12",
+      "m1": "38.0"
+    },
+    {
+      "p": "[Deep learning approaches to building rooftop thermal bridge detection from aerial images](https://doi.org/10.1016/j.autcon.2022.104690)",
+      "c": "[&check;&nbsp;Link](https://github.com/Helmholtz-AI-Energy/TBBRDet)",
+      "n": "Mask R-CNN (ResNet-50-FPN, ImageNet-1k pretrain)",
+      "d": "2022-12-12",
+      "m1": "37.0"
+    },
+    {
+      "p": "[Deep learning approaches to building rooftop thermal bridge detection from aerial images](https://doi.org/10.1016/j.autcon.2022.104690)",
+      "c": "[&check;&nbsp;Link](https://github.com/Helmholtz-AI-Energy/TBBRDet)",
+      "n": "Mask R-CNN (ResNet-50-FPN)",
+      "d": "2022-12-12",
+      "m1": "30.8"
+    },
+    {
+      "p": "[Deep learning approaches to building rooftop thermal bridge detection from aerial images](https://doi.org/10.1016/j.autcon.2022.104690)",
+      "c": "[&check;&nbsp;Link](https://github.com/Helmholtz-AI-Energy/TBBRDet)",
+      "n": "TridentNet (ResNet-50, ImageNet-1k pretrain)",
+      "d": "2022-12-12",
+      "m1": "30.0"
+    },
+    {
+      "p": "[Deep learning approaches to building rooftop thermal bridge detection from aerial images](https://doi.org/10.1016/j.autcon.2022.104690)",
+      "c": "[&check;&nbsp;Link](https://github.com/Helmholtz-AI-Energy/TBBRDet)",
+      "n": "FSAF (ResNeXt-101)",
+      "d": "2022-12-12",
+      "m1": "24.8"
+    },
+    {
+      "p": "[Deep learning approaches to building rooftop thermal bridge detection from aerial images](https://doi.org/10.1016/j.autcon.2022.104690)",
+      "c": "[&check;&nbsp;Link](https://github.com/Helmholtz-AI-Energy/TBBRDet)",
+      "n": "TridentNet (ResNet-50)",
+      "d": "2022-12-12",
+      "m1": "21.5"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

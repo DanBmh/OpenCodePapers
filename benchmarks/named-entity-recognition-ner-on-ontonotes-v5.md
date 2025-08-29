@@ -1,0 +1,251 @@
+# named-entity-recognition-ner-on-ontonotes-v5
+
+[Dataset Link](https://catalog.ldc.upenn.edu/LDC2013T19) \
+Task Hierarchy: ['Named Entity Recognition (NER)']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Precision",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Recall",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Dice Loss for Data-imbalanced NLP Tasks](https://arxiv.org/abs/1911.02855v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/ShannonAI/dice_loss_for_NLP)",
+      "n": "BERT-MRC+DSC",
+      "d": "2019-11-07",
+      "m1": "92.07"
+    },
+    {
+      "p": "[Packed Levitated Marker for Entity and Relation Extraction](https://arxiv.org/abs/2109.06067v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/tomaarsen/spanmarkerner)",
+      "n": "PL-Marker",
+      "d": "2021-09-13",
+      "m1": "91.9",
+      "m2": "92.0",
+      "m3": "91.7"
+    },
+    {
+      "p": "[Boundary Smoothing for Named Entity Recognition](https://arxiv.org/abs/2204.12031v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/syuoni/eznlp)",
+      "n": "Baseline + BS",
+      "d": "2022-04-26",
+      "m1": "91.74"
+    },
+    {
+      "p": "[Named Entity Recognition as Dependency Parsing](https://arxiv.org/abs/2005.07150v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/juntaoy/biaffine-ner)",
+      "n": "Biaffine-NER",
+      "d": "2020-05-14",
+      "m1": "91.3"
+    },
+    {
+      "p": "[A Unified MRC Framework for Named Entity Recognition](https://arxiv.org/abs/1910.11476v7)",
+      "c": "[&check;&nbsp;Link](https://github.com/ShannonAI/mrc-for-flat-nested-ner)",
+      "n": "BERT-MRC",
+      "d": "2019-10-25",
+      "m1": "91.11"
+    },
+    {
+      "p": "[Parallel Instance Query Network for Named Entity Recognition](https://arxiv.org/abs/2203.10545v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tricktreat/piqn)",
+      "n": "PIQN",
+      "d": "2022-03-20",
+      "m1": "90.96"
+    },
+    {
+      "p": "[Hero-Gang Neural Model For Named Entity Recognition](https://arxiv.org/abs/2205.07177v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jinpeng01/hgn)",
+      "n": "HGN",
+      "d": "2022-05-15",
+      "m1": "90.92"
+    },
+    {
+      "p": "[Better Feature Integration for Named Entity Recognition](https://arxiv.org/abs/2104.05316v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/xuuuluuu/SynLSTM-for-NER)",
+      "n": "Syn-LSTM + BERT (wo doc-context)",
+      "d": "2021-04-12",
+      "m1": "90.85"
+    },
+    {
+      "p": "[DiffusionNER: Boundary Diffusion for Named Entity Recognition](https://arxiv.org/abs/2305.13298v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tricktreat/diffusionner)",
+      "n": "DiffusionNER",
+      "d": "2023-05-22",
+      "m1": "90.66"
+    },
+    {
+      "p": "[Unified Named Entity Recognition as Word-Word Relation Classification](https://arxiv.org/abs/2112.10070v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ljynlp/w2ner)",
+      "n": "W2NER",
+      "d": "2021-12-19",
+      "m1": "90.50"
+    },
+    {
+      "p": "[A Unified Generative Framework for Various NER Subtasks](https://arxiv.org/abs/2106.01223v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yhcc/BARTNER)",
+      "n": "BARTNER",
+      "d": "2021-06-02",
+      "m1": "90.38"
+    },
+    {
+      "p": "[Improving Named Entity Recognition with Attentive Ensemble of Syntactic Information](https://arxiv.org/abs/2010.15466v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cuhksz-nlp/AESINER)",
+      "n": "AESINER",
+      "d": "2020-10-29",
+      "m1": "90.32"
+    },
+    {
+      "p": "[Hierarchical Contextualized Representation for Named Entity Recognition](https://arxiv.org/abs/1911.02257v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/cslydia/Hire-NER)",
+      "n": "Hierarchical + BERT",
+      "d": "2019-11-06",
+      "m1": "90.30"
+    },
+    {
+      "p": "[Towards Improving Neural Named Entity Recognition with Gazetteers](https://aclanthology.org/P19-1524)",
+      "c": "[&check;&nbsp;Link](https://github.com/lyutyuh/acl19_subtagger)",
+      "n": "HSCRF + softdict",
+      "d": "2019-07-01",
+      "m1": "89.94"
+    },
+    {
+      "p": "[Dependency-Guided LSTM-CRF for Named Entity Recognition](https://arxiv.org/abs/1909.10148v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/allanj/ner_with_dependency)",
+      "n": "DGLSTM-CRF + ELMo",
+      "d": "2019-09-23",
+      "m1": "89.88"
+    },
+    {
+      "p": "[NuNER: Entity Recognition Encoder Pre-training via LLM-Annotated Data](https://arxiv.org/abs/2402.15343v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Serega6678/NuNER)",
+      "n": "NuNER",
+      "d": "2024-02-23",
+      "m1": "89.1",
+      "m2": "87.8",
+      "m3": "90.5"
+    },
+    {
+      "p": "[Better Feature Integration for Named Entity Recognition](https://arxiv.org/abs/2104.05316v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/xuuuluuu/SynLSTM-for-NER)",
+      "n": "Syn-LSTM (wo doc-context)",
+      "d": "2021-04-12",
+      "m1": "89.04"
+    },
+    {
+      "p": "[Semi-Supervised Sequence Modeling with Cross-View Training](http://arxiv.org/abs/1809.08370v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+      "n": "CVT + Multi-Task + Large",
+      "d": "2018-09-22",
+      "m1": "88.81"
+    },
+    {
+      "p": "[Dependency-Guided LSTM-CRF for Named Entity Recognition](https://arxiv.org/abs/1909.10148v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/allanj/ner_with_dependency)",
+      "n": "DGLSTM-CRF (L=2)",
+      "d": "2019-09-23",
+      "m1": "88.52"
+    },
+    {
+      "p": "[Why Attention? Analyze BiLSTM Deficiency and Its Remedies in the Case of NER](https://arxiv.org/abs/1908.11046v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/ckiplab/ckiptagger)",
+      "n": "Att-BiLSTM-CNN",
+      "d": "2019-08-29",
+      "m1": "88.4",
+      "m2": "88.71",
+      "m3": "88.11"
+    },
+    {
+      "p": "[Hierarchically-Refined Label Attention Network for Sequence Labeling](https://arxiv.org/abs/1908.08676v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Nealcly/LAN)",
+      "n": "BiLSTM-LAN",
+      "d": "2019-08-23",
+      "m1": "88.16"
+    },
+    {
+      "p": "[Hierarchical Contextualized Representation for Named Entity Recognition](https://arxiv.org/abs/1911.02257v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/cslydia/Hire-NER)",
+      "n": "Hierarchical",
+      "d": "2019-11-06",
+      "m1": "87.98"
+    },
+    {
+      "p": "[Robust Lexical Features for Improved Neural Network Named-Entity Recognition](http://arxiv.org/abs/1806.03489v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ghaddarAbs/NER-with-LS)",
+      "n": "Bi-LSTM-CRF + Lexical Features",
+      "d": "2018-06-09",
+      "m1": "87.95"
+    },
+    {
+      "p": "[GRN: Gated Relation Network to Enhance Convolutional Neural Network for Named Entity Recognition](https://arxiv.org/abs/1907.05611v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/vert-papers/tree/master/papers/GRN-NER)",
+      "n": "GRN",
+      "d": "2019-07-12",
+      "m1": "87.67"
+    },
+    {
+      "p": "[Fast and Accurate Entity Recognition with Iterated Dilated Convolutions](http://arxiv.org/abs/1702.02098v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/iesl/dilated-cnn-ner)",
+      "n": "BiLSTM-CRF",
+      "d": "2017-02-07",
+      "m1": "86.99"
+    },
+    {
+      "p": "[Fast and Accurate Entity Recognition with Iterated Dilated Convolutions](http://arxiv.org/abs/1702.02098v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/iesl/dilated-cnn-ner)",
+      "n": "Iterated Dilated CNN",
+      "d": "2017-02-07",
+      "m1": "86.84"
+    },
+    {
+      "p": "[Named Entity Recognition with Bidirectional LSTM-CNNs](http://arxiv.org/abs/1511.08308v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/zalandoresearch/flair)",
+      "n": "Chiu and Nichols (2016)",
+      "d": "2015-11-26",
+      "m1": "86.19"
+    },
+    {
+      "p": "[A Joint Model for Entity Analysis: Coreference, Typing, and Linking](https://aclanthology.org/Q14-1037)",
+      "c": "",
+      "n": "Joint Model",
+      "d": "2014-01-01",
+      "m1": "84.04"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

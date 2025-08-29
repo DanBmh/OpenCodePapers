@@ -1,0 +1,134 @@
+# 3d-human-reconstruction-on-customhumans
+
+[Dataset Link](https://custom-humans.github.io/#download) \
+Task Hierarchy: ['Reconstruction', '3D Human Reconstruction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Chamfer Distance P-to-S",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Chamfer Distance S-to-P",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Normal Consistency",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "f-Score",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[SiTH: Single-view Textured Human Reconstruction with Image-Conditioned Diffusion](https://arxiv.org/abs/2311.15855v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/SiTH-Diffusion/SiTH)",
+      "n": "SiTH",
+      "d": "2023-11-27",
+      "m1": "1.871",
+      "m2": "2.045",
+      "m3": "0.826",
+      "m4": "37.029"
+    },
+    {
+      "p": "[FOF: Learning Fourier Occupancy Field for Monocular Real-time Human Reconstruction](https://arxiv.org/abs/2206.02194v2)",
+      "c": "",
+      "n": "FOF",
+      "d": "2022-06-05",
+      "m1": "2.079",
+      "m2": "2.644",
+      "m3": "0.808",
+      "m4": "36.013"
+    },
+    {
+      "p": "[PIFuHD: Multi-Level Pixel-Aligned Implicit Function for High-Resolution 3D Human Digitization](https://arxiv.org/abs/2004.00452v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/pifuhd)",
+      "n": "PIFuHD",
+      "d": "2020-04-01",
+      "m1": "2.107",
+      "m2": "2.228",
+      "m3": "0.804",
+      "m4": "39.076"
+    },
+    {
+      "p": "[PaMIR: Parametric Model-Conditioned Implicit Representation for Image-based Human Reconstruction](https://arxiv.org/abs/2007.03858v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ZhengZerong/PaMIR)",
+      "n": "PaMIR",
+      "d": "2020-07-08",
+      "m1": "2.181",
+      "m2": "2.507",
+      "m3": "0.813",
+      "m4": "35.847"
+    },
+    {
+      "p": "[PIFu: Pixel-Aligned Implicit Function for High-Resolution Clothed Human Digitization](https://arxiv.org/abs/1905.05172v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/shunsukesaito/PIFu)",
+      "n": "PIFu",
+      "d": "2019-05-13",
+      "m1": "2.209",
+      "m2": "2.582",
+      "m3": "0.805",
+      "m4": "34.881"
+    },
+    {
+      "p": "[ICON: Implicit Clothed humans Obtained from Normals](https://arxiv.org/abs/2112.09127v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/yuliangxiu/icon)",
+      "n": "ICON",
+      "d": "2021-12-16",
+      "m1": "2.256",
+      "m2": "2.795",
+      "m3": "0.791",
+      "m4": "30.437"
+    },
+    {
+      "p": "[ECON: Explicit Clothed humans Optimized via Normal integration](https://arxiv.org/abs/2212.07422v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/YuliangXiu/ECON)",
+      "n": "ECON",
+      "d": "2022-12-14",
+      "m1": "2.483",
+      "m2": "2.680",
+      "m3": "0.797",
+      "m4": "30.894"
+    },
+    {
+      "p": "[High-fidelity 3D Human Digitization from Single 2K Resolution Images](https://arxiv.org/abs/2303.15108v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/sanghunhan92/2k2k)",
+      "n": "2K2K",
+      "d": "2023-03-27",
+      "m1": "2.488",
+      "m2": "3.292",
+      "m3": "0.796",
+      "m4": "30.186"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

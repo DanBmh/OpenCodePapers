@@ -1,0 +1,144 @@
+# multi-task-language-understanding-on-bbh-nlp
+
+[Dataset Link](https://github.com/suzgunmirac/BIG-Bench-Hard) \
+Task Hierarchy: ['Multi-Task Learning', 'Multi-task Language Understanding']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Average (%)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Qwen2.5-72B",
+      "d": null,
+      "m1": "86.3"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Jiutian-\u5927\u6a21\u578b",
+      "d": null,
+      "m1": "86.1"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "LLama-3-405B",
+      "d": null,
+      "m1": "85.9"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Jiutian-57B",
+      "d": null,
+      "m1": "84.07"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Qwen2-72B",
+      "d": null,
+      "m1": "82.4"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "LLama-3-70B",
+      "d": null,
+      "m1": "81.0"
+    },
+    {
+      "p": "[Scaling Instruction-Finetuned Language Models](https://arxiv.org/abs/2210.11416v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/flan)",
+      "n": "Flan-PaLM 540B (3-shot, fine-tuned, CoT + SC)",
+      "d": "2022-10-20",
+      "m1": "78.4"
+    },
+    {
+      "p": "[Scaling Instruction-Finetuned Language Models](https://arxiv.org/abs/2210.11416v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/flan)",
+      "n": "PaLM 540B (CoT + self-consistency)",
+      "d": "2022-10-20",
+      "m1": "78.2"
+    },
+    {
+      "p": "[Evaluating Large Language Models Trained on Code](https://arxiv.org/abs/2107.03374v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/THUDM/CodeGeeX)",
+      "n": "code-davinci-002 175B (CoT)",
+      "d": "2021-07-07",
+      "m1": "73.5"
+    },
+    {
+      "p": "[Scaling Instruction-Finetuned Language Models](https://arxiv.org/abs/2210.11416v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/flan)",
+      "n": "Flan-PaLM 540B (3-shot, fine-tuned, CoT)",
+      "d": "2022-10-20",
+      "m1": "72.4"
+    },
+    {
+      "p": "[Scaling Instruction-Finetuned Language Models](https://arxiv.org/abs/2210.11416v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/flan)",
+      "n": "PaLM 540B (CoT)",
+      "d": "2022-10-20",
+      "m1": "71.2"
+    },
+    {
+      "p": "[Scaling Instruction-Finetuned Language Models](https://arxiv.org/abs/2210.11416v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/flan)",
+      "n": "Flan-PaLM 540B (5-shot, finetuned)",
+      "d": "2022-10-20",
+      "m1": "70.0"
+    },
+    {
+      "p": "[Scaling Instruction-Finetuned Language Models](https://arxiv.org/abs/2210.11416v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/flan)",
+      "n": "PaLM 540B",
+      "d": "2022-10-20",
+      "m1": "62.7"
+    },
+    {
+      "p": "[Orca 2: Teaching Small Language Models How to Reason](https://arxiv.org/abs/2311.11045v2)",
+      "c": "",
+      "n": "Orca 2-13B",
+      "d": "2023-11-18",
+      "m1": "50.18"
+    },
+    {
+      "p": "[Orca 2: Teaching Small Language Models How to Reason](https://arxiv.org/abs/2311.11045v2)",
+      "c": "",
+      "n": "Orca 2-7B",
+      "d": "2023-11-18",
+      "m1": "45.93"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

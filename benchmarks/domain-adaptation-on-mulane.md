@@ -1,0 +1,95 @@
+# domain-adaptation-on-mulane
+
+[Dataset Link](https://carlanebenchmark.github.io/) \
+Task Hierarchy: ['Domain Adaptation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Lane Accuracy (LA)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[CARLANE: A Lane Detection Benchmark for Unsupervised Domain Adaptation from Simulation to multiple Real-World Domains](https://arxiv.org/abs/2206.08083v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/juliangebele/CARLANE)",
+      "n": "UFLD-SGADA-ResNet32",
+      "d": "2022-06-16",
+      "m1": "91.63"
+    },
+    {
+      "p": "[CARLANE: A Lane Detection Benchmark for Unsupervised Domain Adaptation from Simulation to multiple Real-World Domains](https://arxiv.org/abs/2206.08083v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/juliangebele/CARLANE)",
+      "n": "UFLD-SGPCS-ResNet18",
+      "d": "2022-06-16",
+      "m1": "91.57"
+    },
+    {
+      "p": "[CARLANE: A Lane Detection Benchmark for Unsupervised Domain Adaptation from Simulation to multiple Real-World Domains](https://arxiv.org/abs/2206.08083v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/juliangebele/CARLANE)",
+      "n": "UFLD-SGPCS-ResNet32",
+      "d": "2022-06-16",
+      "m1": "91.55"
+    },
+    {
+      "p": "[CARLANE: A Lane Detection Benchmark for Unsupervised Domain Adaptation from Simulation to multiple Real-World Domains](https://arxiv.org/abs/2206.08083v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/juliangebele/CARLANE)",
+      "n": "UFLD-SGADA-ResNet18",
+      "d": "2022-06-16",
+      "m1": "90.71"
+    },
+    {
+      "p": "[CARLANE: A Lane Detection Benchmark for Unsupervised Domain Adaptation from Simulation to multiple Real-World Domains](https://arxiv.org/abs/2206.08083v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/juliangebele/CARLANE)",
+      "n": "UFLD-ADDA-ResNet32",
+      "d": "2022-06-16",
+      "m1": "90.22"
+    },
+    {
+      "p": "[CARLANE: A Lane Detection Benchmark for Unsupervised Domain Adaptation from Simulation to multiple Real-World Domains](https://arxiv.org/abs/2206.08083v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/juliangebele/CARLANE)",
+      "n": "UFLD-ADDA-ResNet18",
+      "d": "2022-06-16",
+      "m1": "89.83"
+    },
+    {
+      "p": "[CARLANE: A Lane Detection Benchmark for Unsupervised Domain Adaptation from Simulation to multiple Real-World Domains](https://arxiv.org/abs/2206.08083v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/juliangebele/CARLANE)",
+      "n": "UFLD-DANN-ResNet32",
+      "d": "2022-06-16",
+      "m1": "88.76"
+    },
+    {
+      "p": "[CARLANE: A Lane Detection Benchmark for Unsupervised Domain Adaptation from Simulation to multiple Real-World Domains](https://arxiv.org/abs/2206.08083v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/juliangebele/CARLANE)",
+      "n": "UFLD-DANN-ResNet18",
+      "d": "2022-06-16",
+      "m1": "86.01"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

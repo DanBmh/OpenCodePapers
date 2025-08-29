@@ -1,0 +1,121 @@
+# passage-retrieval-on-natural-questions
+
+[Dataset Link](https://ai.google.com/research/NaturalQuestions) \
+Task Hierarchy: ['Information Retrieval', 'Passage Retrieval']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Precision@100",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Precision@20",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Retrieval as Attention: End-to-end Learning of Retrieval and Reading within a Single Transformer](https://arxiv.org/abs/2212.02027v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jzbjyb/reatt)",
+      "n": "ReAtt",
+      "d": "2022-12-05",
+      "m1": "90.40",
+      "m2": "86.00"
+    },
+    {
+      "p": "[Domain-matched Pre-training Tasks for Dense Retrieval](https://arxiv.org/abs/2107.13602v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/dpr-scale)",
+      "n": "DPR-PAQ",
+      "d": "2021-07-28",
+      "m1": "89.22",
+      "m2": "84.68"
+    },
+    {
+      "p": "[Salient Phrase Aware Dense Retrieval: Can a Dense Retriever Imitate a Sparse One?](https://arxiv.org/abs/2110.06918v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/dpr-scale)",
+      "n": "SPAR",
+      "d": "2021-10-13",
+      "m1": "88.8"
+    },
+    {
+      "p": "[RocketQA: An Optimized Training Approach to Dense Passage Retrieval for Open-Domain Question Answering](https://arxiv.org/abs/2010.08191v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/paddlepaddle/rocketqa)",
+      "n": "RocketQA",
+      "d": "2020-10-16",
+      "m1": "88.5",
+      "m2": "82.7"
+    },
+    {
+      "p": "[R2-D2: A Modular Baseline for Open-Domain Question Answering](https://arxiv.org/abs/2109.03502v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/KNOT-FIT-BUT/R2-D2)",
+      "n": "DPR+ELECTRA-large-extreader-reranker",
+      "d": "2021-09-08",
+      "m1": "88.25",
+      "m2": "85.26"
+    },
+    {
+      "p": "[R2-D2: A Modular Baseline for Open-Domain Question Answering](https://arxiv.org/abs/2109.03502v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/KNOT-FIT-BUT/R2-D2)",
+      "n": "DPR+RoBERTa-base-crossencoder-reranker",
+      "d": "2021-09-08",
+      "m1": "88.03",
+      "m2": "84.46"
+    },
+    {
+      "p": "[Approximate Nearest Neighbor Negative Contrastive Learning for Dense Text Retrieval](https://arxiv.org/abs/2007.00808v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/ANCE)",
+      "n": "ANCE",
+      "d": "2020-07-01",
+      "m1": "87.5",
+      "m2": "81.9"
+    },
+    {
+      "p": "[Dense Passage Retrieval for Open-Domain Question Answering](https://arxiv.org/abs/2004.04906v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "DPR",
+      "d": "2020-04-10",
+      "m1": "86",
+      "m2": "79.4"
+    },
+    {
+      "p": "[Generation-Augmented Retrieval for Open-domain Question Answering](https://arxiv.org/abs/2009.08553v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/morningmoni/GAR)",
+      "n": "BM25+RM3",
+      "d": "2020-09-17",
+      "m1": "79.6",
+      "m2": "64.2"
+    },
+    {
+      "p": "[Augmenting Document Representations for Dense Retrieval with Interpolation and Perturbation](https://arxiv.org/abs/2203.07735v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/starsuzi/dar)",
+      "n": "DAR",
+      "d": "2022-03-15"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

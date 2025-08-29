@@ -1,0 +1,102 @@
+# automatic-speech-recognition-on-lrs2
+
+[Dataset Link](https://www.robots.ox.ac.uk/~vgg/data/lip_reading/lrs2.html) \
+Task Hierarchy: ['Automatic Speech Recognition (ASR)']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Test WER",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Whisper-Flamingo: Integrating Visual Features into Whisper for Audio-Visual Speech Recognition and Translation](https://arxiv.org/abs/2406.10082v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/roudimit/whisper-flamingo)",
+      "n": "Whisper",
+      "d": "2024-06-14",
+      "m1": "1.3"
+    },
+    {
+      "p": "[Auto-AVSR: Audio-Visual Speech Recognition with Automatic Labels](https://arxiv.org/abs/2303.14307v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/mpc001/auto_avsr)",
+      "n": "CTC/Attention",
+      "d": "2023-03-25",
+      "m1": "1.5"
+    },
+    {
+      "p": "[Leveraging Unimodal Self-Supervised Learning for Multimodal Audio-Visual Speech Recognition](https://arxiv.org/abs/2203.07996v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/lumia-group/leveraging-self-supervised-learning-for-avsr)",
+      "n": "MoCo + wav2vec (w/o extLM)",
+      "d": "2022-02-24",
+      "m1": "2.7"
+    },
+    {
+      "p": "[End-to-end Audio-visual Speech Recognition with Conformers](https://arxiv.org/abs/2102.06657v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zziz/pwc)",
+      "n": "End2end Conformer",
+      "d": "2021-02-12",
+      "m1": "3.9"
+    },
+    {
+      "p": "[Whispering LLaMA: A Cross-Modal Generative Error Correction Framework for Speech Recognition](https://arxiv.org/abs/2310.06434v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/srijith-rkr/whispering-llama)",
+      "n": "Whisper-LLaMA",
+      "d": "2023-10-10",
+      "m1": "6.6"
+    },
+    {
+      "p": "[Audio-visual Recognition of Overlapped speech for the LRS2 dataset](https://arxiv.org/abs/2001.01656v1)",
+      "c": "",
+      "n": "LF-MMI TDNN",
+      "d": "2020-01-06",
+      "m1": "6.7"
+    },
+    {
+      "p": "[Audio-Visual Speech Recognition With A Hybrid CTC/Attention Architecture](http://arxiv.org/abs/1810.00108v1)",
+      "c": "",
+      "n": "CTC/attention",
+      "d": "2018-09-28",
+      "m1": "8.2"
+    },
+    {
+      "p": "[Deep Audio-Visual Speech Recognition](http://arxiv.org/abs/1809.02108v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/lordmartian/deep_avsr)",
+      "n": "TM-seq2seq",
+      "d": "2018-09-06",
+      "m1": "9.7"
+    },
+    {
+      "p": "[Deep Audio-Visual Speech Recognition](http://arxiv.org/abs/1809.02108v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/lordmartian/deep_avsr)",
+      "n": "TM-CTC",
+      "d": "2018-09-06",
+      "m1": "10.1"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

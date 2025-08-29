@@ -1,0 +1,109 @@
+# smac-on-smac-off-distant-parallel
+
+[Dataset Link]() \
+Task Hierarchy: ['SMAC', 'SMAC+']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Median Win Rate",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Disentangling Sources of Risk for Distributional Multi-Agent Reinforcement Learning](https://openreview.net/forum?id=5qwA7LLbgP0)",
+      "c": "",
+      "n": "DRIMA",
+      "d": "2021-09-29",
+      "m1": "95.0"
+    },
+    {
+      "p": "[Value-Decomposition Networks For Cooperative Multi-Agent Learning](http://arxiv.org/abs/1706.05296v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/benchmarl)",
+      "n": "VDN",
+      "d": "2017-06-16",
+      "m1": "85.0"
+    },
+    {
+      "p": "[Decomposed Soft Actor-Critic Method for Cooperative Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2104.06655v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/puyuan1996/MARL)",
+      "n": "MASAC",
+      "d": "2021-04-14",
+      "m1": "0.0"
+    },
+    {
+      "p": "[Counterfactual Multi-Agent Policy Gradients](https://arxiv.org/abs/1705.08926v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/opendilab/DI-engine/blob/main/ding/policy/coma.py)",
+      "n": "COMA",
+      "d": "2017-05-24",
+      "m1": "0.0"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "IQL",
+      "d": null,
+      "m1": "0.0"
+    },
+    {
+      "p": "[QTRAN: Learning to Factorize with Transformation for Cooperative Multi-Agent Reinforcement Learning](https://arxiv.org/abs/1905.05408v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/opendilab/DI-engine/blob/main/ding/policy/qtran.py)",
+      "n": "QTRAN",
+      "d": "2019-05-14",
+      "m1": "0.0"
+    },
+    {
+      "p": "[QMIX: Monotonic Value Function Factorisation for Deep Multi-Agent Reinforcement Learning](http://arxiv.org/abs/1803.11485v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ray-project/ray/tree/master/rllib)",
+      "n": "QMIX",
+      "d": "2018-03-30",
+      "m1": "0.0"
+    },
+    {
+      "p": "[DFAC Framework: Factorizing the Value Function via Quantile Mixture for Multi-Agent Distributional Q-Learning](https://arxiv.org/abs/2102.07936v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/j3soon/dfac)",
+      "n": "DDN",
+      "d": "2021-02-16",
+      "m1": "0.0"
+    },
+    {
+      "p": "[DFAC Framework: Factorizing the Value Function via Quantile Mixture for Multi-Agent Distributional Q-Learning](https://arxiv.org/abs/2102.07936v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/j3soon/dfac)",
+      "n": "DIQL",
+      "d": "2021-02-16",
+      "m1": "0.0"
+    },
+    {
+      "p": "[DFAC Framework: Factorizing the Value Function via Quantile Mixture for Multi-Agent Distributional Q-Learning](https://arxiv.org/abs/2102.07936v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/j3soon/dfac)",
+      "n": "DMIX",
+      "d": "2021-02-16",
+      "m1": "0.0"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

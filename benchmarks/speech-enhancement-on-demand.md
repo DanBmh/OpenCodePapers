@@ -1,0 +1,533 @@
+# speech-enhancement-on-demand
+
+[Dataset Link](https://datashare.ed.ac.uk/handle/10283/2791) \
+Task Hierarchy: ['Speech Enhancement']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PESQ (wb)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "CBAK",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "COVL",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "CSIG",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "STOI",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "ESTOI",
+      "sortable": "true"
+    },
+    {
+      "key": "m7",
+      "label": "SSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "m8",
+      "label": "SI-SDR",
+      "sortable": "true"
+    },
+    {
+      "key": "m9",
+      "label": "Para. (M)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Robust One-step Speech Enhancement via Consistency Distillation](https://arxiv.org/abs/2507.05688v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/LiangXu123/Robust-One-step-Speech-Enhancement-via-Consistency-Distillation-ROSE-CD-)",
+      "n": "ROSE-CD(PESQ)",
+      "d": "2025-07-08",
+      "m1": "3.99",
+      "m2": "3.37",
+      "m3": "4.30",
+      "m4": "4.63",
+      "m5": "92.6",
+      "m6": "0.83",
+      "m7": "0.927",
+      "m8": "0.40",
+      "m9": "65"
+    },
+    {
+      "p": "[The PESQetarian: On the Relevance of Goodhart's Law for Speech Enhancement](https://arxiv.org/abs/2406.03460v1)",
+      "c": "",
+      "n": "PESQetarian",
+      "d": "2024-06-05",
+      "m1": "3.82",
+      "m2": "2.49",
+      "m3": "3.5",
+      "m4": "3.63",
+      "m5": "0.92",
+      "m6": "0.84",
+      "m7": "-2.72",
+      "m8": "-19.8",
+      "m9": "30"
+    },
+    {
+      "p": "[Mamba-SEUNet: Mamba UNet for Monaural Speech Enhancement](https://arxiv.org/abs/2412.16626v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/MyParadise21/Mamba-SEUNet)",
+      "n": "Mamba-SEUNet L (+PCS)",
+      "d": "2024-12-21",
+      "m1": "3.73",
+      "m2": "3.67",
+      "m3": "4.40",
+      "m4": "4.82",
+      "m5": "96",
+      "m9": "6.28"
+    },
+    {
+      "p": "[Investigating Training Objectives for Generative Speech Enhancement](https://arxiv.org/abs/2409.10753v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/sp-uhh/sgmse)",
+      "n": "Schr\u00f6dinger bridge (PESQ loss)",
+      "d": "2024-09-16",
+      "m1": "3.70"
+    },
+    {
+      "p": "[An Investigation of Incorporating Mamba for Speech Enhancement](https://arxiv.org/abs/2405.06573v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/roychao19477/semamba)",
+      "n": "SEMamba (+PCS)",
+      "d": "2024-05-10",
+      "m1": "3.69",
+      "m2": "3.63",
+      "m3": "4.37",
+      "m4": "4.79",
+      "m5": "96",
+      "m9": "2.25"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "ZipEnhancer (S, \\lamba_6 = 0)",
+      "d": null,
+      "m1": "3.63",
+      "m2": "3.87",
+      "m3": "4.36",
+      "m4": "4.81",
+      "m5": "96.19",
+      "m7": "8.33",
+      "m8": "19.09",
+      "m9": "2.04"
+    },
+    {
+      "p": "[PrimeK-Net: Multi-scale Spectral Learning via Group Prime-Kernel Convolutional Neural Networks for Single Channel Speech Enhancement](https://arxiv.org/abs/2502.19906v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/huaidanquede/PrimeK-Net)",
+      "n": "PrimeK-Net",
+      "d": "2025-02-27",
+      "m1": "3.61",
+      "m2": "3.98",
+      "m3": "4.35",
+      "m4": "4.81",
+      "m5": "96",
+      "m9": "1.41"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "ZipEnhancer (S, \\lamba_6 = 0.2)",
+      "d": null,
+      "m1": "3.61",
+      "m2": "3.97",
+      "m3": "4.35",
+      "m4": "4.81",
+      "m5": "96.22",
+      "m7": "10.01",
+      "m8": "19.96",
+      "m9": "2.04"
+    },
+    {
+      "p": "[Explicit Estimation of Magnitude and Phase Spectra in Parallel for High-Quality Speech Enhancement](https://arxiv.org/abs/2308.08926v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/yxlu-0102/MP-SENet)",
+      "n": "MP-SENet",
+      "d": "2023-08-17",
+      "m1": "3.60",
+      "m2": "3.99",
+      "m3": "4.34",
+      "m4": "4.81",
+      "m5": "0.96",
+      "m9": "2.26"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "PCS_CS_WAVLM",
+      "d": null,
+      "m1": "3.54",
+      "m2": "3.49",
+      "m3": "4.20",
+      "m4": "4.75",
+      "m5": "0.96"
+    },
+    {
+      "p": "[xLSTM-SENet: xLSTM for Single-Channel Speech Enhancement](https://arxiv.org/abs/2501.06146v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/nikolaikyhne/xlstm-senet)",
+      "n": "xLSTM-SENet2",
+      "d": "2025-01-10",
+      "m1": "3.53",
+      "m2": "3.98",
+      "m3": "4.27",
+      "m4": "4.78",
+      "m5": "0.96",
+      "m9": "2.27"
+    },
+    {
+      "p": "[SCP-GAN: Self-Correcting Discriminator Optimization for Training Consistency Preserving Metric GAN on Speech Enhancement Tasks](https://arxiv.org/abs/2210.14474v1)",
+      "c": "",
+      "n": "SCP-CMGAN",
+      "d": "2022-10-26",
+      "m1": "3.52",
+      "m2": "3.97",
+      "m3": "4.25",
+      "m4": "4.75",
+      "m5": "96",
+      "m7": "10.82"
+    },
+    {
+      "p": "[Robust One-step Speech Enhancement via Consistency Distillation](https://arxiv.org/abs/2507.05688v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/LiangXu123/Robust-One-step-Speech-Enhancement-via-Consistency-Distillation-ROSE-CD-)",
+      "n": "ROSE-CD",
+      "d": "2025-07-08",
+      "m1": "3.49",
+      "m2": "3.33",
+      "m3": "4.04",
+      "m4": "4.523",
+      "m5": "94.73",
+      "m6": "0.87",
+      "m7": "3.34",
+      "m8": "17.80",
+      "m9": "65"
+    },
+    {
+      "p": "[Monaural Speech Enhancement with Complex Convolutional Block Attention Module and Joint Time Frequency Losses](https://arxiv.org/abs/2102.01993v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/modelscope/ClearerVoice-Studio)",
+      "n": "D2Former",
+      "d": "2021-02-03",
+      "m1": "3.43",
+      "m9": "0.86"
+    },
+    {
+      "p": "[CMGAN: Conformer-Based Metric-GAN for Monaural Speech Enhancement](https://arxiv.org/abs/2209.11112v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/ruizhecao96/cmgan)",
+      "n": "CMGAN",
+      "d": "2022-09-22",
+      "m1": "3.41",
+      "m2": "3.94",
+      "m3": "4.12",
+      "m4": "4.63",
+      "m5": "96",
+      "m7": "11.1"
+    },
+    {
+      "p": "[Perceptual Contrast Stretching on Target Feature for Speech Enhancement](https://arxiv.org/abs/2203.17152v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/roychao19477/pcs)",
+      "n": "PCS",
+      "d": "2022-03-31",
+      "m1": "3.35",
+      "m3": "3.92",
+      "m4": "4.43",
+      "m5": "95"
+    },
+    {
+      "p": "[D\u00b2Net: A Denoising and Dereverberation Network Based on Two-branch Encoder and Dual-path Transformer](https://ieeexplore.ieee.org/abstract/document/9979863)",
+      "c": "",
+      "n": "D\u00b2Net",
+      "d": "2022-11-21",
+      "m1": "3.27",
+      "m2": "3.18",
+      "m3": "3.92",
+      "m4": "4.63",
+      "m5": "96"
+    },
+    {
+      "p": "[aTENNuate: Optimized Real-time Speech Enhancement with Deep SSMs on Raw Audio](https://arxiv.org/abs/2409.03377v4)",
+      "c": "",
+      "n": "aTENNuate",
+      "d": "2024-09-05",
+      "m1": "3.27",
+      "m2": "2.85",
+      "m3": "3.96",
+      "m4": "4.57",
+      "m8": "15.04"
+    },
+    {
+      "p": "[Let SSMs be ConvNets: State-space Modeling with Optimal Tensor Contractions](https://arxiv.org/abs/2501.13230v1)",
+      "c": "",
+      "n": "Centaurus (0.51M)",
+      "d": "2025-01-22",
+      "m1": "3.25"
+    },
+    {
+      "p": "[MetricGAN-OKD: Multi-Metric Optimization of MetricGAN via Online Knowledge Distillation for Speech Enhancement](https://proceedings.mlr.press/v202/shin23b.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/wooseok-shin/MetricGAN-OKD)",
+      "n": "MetricGAN-OKD",
+      "d": "2023-07-24",
+      "m1": "3.24",
+      "m2": "3.07",
+      "m3": "3.73",
+      "m4": "4.23",
+      "m9": "1.89"
+    },
+    {
+      "p": "[MANNER: Multi-view Attention Network for Noise Erasure](https://arxiv.org/abs/2203.02181v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/winddori2002/MANNER)",
+      "n": "MANNER",
+      "d": "2022-03-04",
+      "m1": "3.21",
+      "m2": "3.65",
+      "m3": "3.91",
+      "m4": "4.53",
+      "m5": "95"
+    },
+    {
+      "p": "[Boosting Self-Supervised Embeddings for Speech Enhancement](https://arxiv.org/abs/2204.03339v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/khhungg/BSSE-SE)",
+      "n": "BSSE-SE",
+      "d": "2022-04-07",
+      "m1": "3.20",
+      "m2": "3.58",
+      "m3": "3.88",
+      "m4": "4.52",
+      "m5": "95.7"
+    },
+    {
+      "p": "[DeepFilterNet: Perceptually Motivated Real-Time Speech Enhancement](https://arxiv.org/abs/2305.08227v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/rikorose/deepfilternet)",
+      "n": "DeepFilterNet3",
+      "d": "2023-05-14",
+      "m1": "3.17",
+      "m2": "3.61",
+      "m3": "3.77",
+      "m4": "4.34",
+      "m5": "0.944"
+    },
+    {
+      "p": "[Perceptual Loss based Speech Denoising with an ensemble of Audio Pattern Recognition and Self-Supervised Models](http://arxiv.org/abs/2010.11860v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/saurabh-kataria/PERL-samples)",
+      "n": "PERL-AE",
+      "d": "2020-10-22",
+      "m1": "3.17",
+      "m2": "3.53",
+      "m3": "3.83",
+      "m4": "4.43"
+    },
+    {
+      "p": "[Improving Perceptual Quality by Phone-Fortified Perceptual Loss using Wasserstein Distance for Speech Enhancement](https://arxiv.org/abs/2010.15174v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/aleXiehta/PhoneFortifiedPerceptualLoss)",
+      "n": "PFPL",
+      "d": "2020-10-28",
+      "m1": "3.15",
+      "m2": "3.60",
+      "m3": "3.67",
+      "m4": "4.18"
+    },
+    {
+      "p": "[MetricGAN+: An Improved Version of MetricGAN for Speech Enhancement](https://arxiv.org/abs/2104.03538v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/speechbrain/speechbrain/tree/develop/recipes/Voicebank/enhance/MetricGAN)",
+      "n": "MetricGAN+",
+      "d": "2021-04-08",
+      "m1": "3.15",
+      "m2": "3.16",
+      "m3": "3.64",
+      "m4": "4.14"
+    },
+    {
+      "p": "[Multi-View Attention Transfer for Efficient Speech Enhancement](https://arxiv.org/abs/2208.10367v2)",
+      "c": "",
+      "n": "MANNER-S + MV-AT (8.1GF)",
+      "d": "2022-08-22",
+      "m1": "3.12",
+      "m2": "3.61",
+      "m3": "3.82",
+      "m4": "4.45",
+      "m5": "95",
+      "m9": "1.38"
+    },
+    {
+      "p": "[MetricGAN-OKD: Multi-Metric Optimization of MetricGAN via Online Knowledge Distillation for Speech Enhancement](https://proceedings.mlr.press/v202/shin23b.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/wooseok-shin/MetricGAN-OKD)",
+      "n": "MetricGAN-OKD (Causal Arch.)",
+      "d": "2023-07-24",
+      "m1": "3.12",
+      "m2": "3.13",
+      "m3": "3.64",
+      "m4": "4.17",
+      "m9": "0.82"
+    },
+    {
+      "p": "[An Analysis of the Variance of Diffusion-based Speech Enhancement](https://arxiv.org/abs/2402.00811v2)",
+      "c": "",
+      "n": "SGMSE+",
+      "d": "2024-02-01",
+      "m1": "3.11"
+    },
+    {
+      "p": "[Real Time Speech Enhancement in the Waveform Domain](https://arxiv.org/abs/2006.12847v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/denoiser)",
+      "n": "DEMUCS (H=64, S=2 ,U =2)",
+      "d": "2020-06-23",
+      "m1": "3.07",
+      "m2": "3.4",
+      "m3": "3.63",
+      "m4": "4.31",
+      "m5": "95"
+    },
+    {
+      "p": "[Dense-TSNet: Dense Connected Two-Stage Structure for Ultra-Lightweight Speech Enhancement](https://arxiv.org/abs/2409.11725v1)",
+      "c": "",
+      "n": "Dense-TSNet",
+      "d": "2024-09-18",
+      "m1": "3.05",
+      "m2": "3.58",
+      "m3": "3.86",
+      "m4": "4.51",
+      "m9": "0.014"
+    },
+    {
+      "p": "[Deep Residual-Dense Lattice Network for Speech Enhancement](https://arxiv.org/abs/2002.12794v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nick-nikzad/RDL-SE)",
+      "n": "RDL-Net 3.91M (Deep Xi - MMSE-LSA)",
+      "d": "2020-02-27",
+      "m1": "3.02",
+      "m2": "3.43",
+      "m3": "3.72",
+      "m4": "4.38"
+    },
+    {
+      "p": "[ROSE: A Recognition-Oriented Speech Enhancement Framework in Air Traffic Control Using Multi-Objective Learning](https://arxiv.org/abs/2312.06118v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/xcyu-0903/rose)",
+      "n": "ROSE",
+      "d": "2023-12-11",
+      "m1": "3.01",
+      "m2": "3.56",
+      "m3": "3.72",
+      "m4": "4.47",
+      "m5": "95",
+      "m9": "36.98"
+    },
+    {
+      "p": "[FSPEN: AN ULTRA-LIGHTWEIGHT NETWORK FOR REAL TIME SPEECH ENAHNCMENT](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10446016)",
+      "c": "[&check;&nbsp;Link](https://github.com/gitwukeyi/FSPEN)",
+      "n": "FSPEN",
+      "d": "2024-04-15",
+      "m1": "2.97",
+      "m5": "0.942",
+      "m9": "0.079"
+    },
+    {
+      "p": "[Deep Residual-Dense Lattice Network for Speech Enhancement](https://arxiv.org/abs/2002.12794v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nick-nikzad/RDL-SE)",
+      "n": "RDL-Net 3.91M (Deep Xi - SRWF)",
+      "d": "2020-02-27",
+      "m1": "2.94",
+      "m2": "3.35",
+      "m3": "3.67",
+      "m4": "4.36"
+    },
+    {
+      "p": "[Deep Residual-Dense Lattice Network for Speech Enhancement](https://arxiv.org/abs/2002.12794v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nick-nikzad/RDL-SE)",
+      "n": "RDL-Net 1.87M (Deep Xi - MMSE-LSA)",
+      "d": "2020-02-27",
+      "m1": "2.93",
+      "m2": "3.32",
+      "m3": "3.62",
+      "m4": "4.29"
+    },
+    {
+      "p": "[Real Time Speech Enhancement in the Waveform Domain](https://arxiv.org/abs/2006.12847v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/denoiser)",
+      "n": "Causal DEMUCS (H=48,S=4, U =4)",
+      "d": "2020-06-23",
+      "m1": "2.93",
+      "m2": "3.25",
+      "m3": "3.52",
+      "m4": "4.22",
+      "m5": "95"
+    },
+    {
+      "p": "[Speech Enhancement and Dereverberation with Diffusion-based Generative Models](https://arxiv.org/abs/2208.05830v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/sp-uhh/sgmse)",
+      "n": "SGMSE+ (Diffusion Model)",
+      "d": "2022-08-11",
+      "m1": "2.93"
+    },
+    {
+      "p": "[MetricGAN: Generative Adversarial Networks based Black-box Metric Scores Optimization for Speech Enhancement](https://arxiv.org/abs/1905.04874v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/anicolson/DeepXi)",
+      "n": "MetricGAN",
+      "d": "2019-05-13",
+      "m1": "2.86",
+      "m2": "3.18",
+      "m3": "3.42",
+      "m4": "3.99"
+    },
+    {
+      "p": "[Deep Residual-Dense Lattice Network for Speech Enhancement](https://arxiv.org/abs/2002.12794v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nick-nikzad/RDL-SE)",
+      "n": "RDL-Net 1.87M (Deep Xi - SRWF)",
+      "d": "2020-02-27",
+      "m1": "2.84",
+      "m2": "3.23",
+      "m3": "3.56",
+      "m4": "4.27"
+    },
+    {
+      "p": "[A Modulation-Domain Loss for Neural-Network-based Real-time Speech Enhancement](https://arxiv.org/abs/2102.07330v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tvuong123/ModulationDomainLoss)",
+      "n": "real-time-GRU",
+      "d": "2021-02-15",
+      "m1": "2.82"
+    },
+    {
+      "p": "[End-to-end speech enhancement based on discrete cosine transform](https://arxiv.org/abs/1910.07840v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/BYRTIMO/END-TO-END-SPEECH-ENHANCEMENT-BASED-ON-DISCRETE-COSINE-TRANSFORM)",
+      "n": "DCT",
+      "d": "2019-10-17",
+      "m1": "2.7",
+      "m2": "3.29",
+      "m3": "3.29",
+      "m4": "3.9"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

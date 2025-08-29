@@ -1,0 +1,124 @@
+# anomaly-detection-on-road-anomaly
+
+[Dataset Link](https://www.epfl.ch/labs/cvlab/data/road-anomaly/) \
+Task Hierarchy: ['Anomaly Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AP",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "FPR95",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "OodDINO",
+      "d": null,
+      "m1": "95.21",
+      "m2": "2.11"
+    },
+    {
+      "p": "[RbA: Segmenting Unknown Regions Rejected by All](https://arxiv.org/abs/2211.14293v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/NazirNayal8/RbA)",
+      "n": "RbA",
+      "d": "2022-11-25",
+      "m1": "90.28",
+      "m2": "4.92"
+    },
+    {
+      "p": "[Diffusion for Out-of-Distribution Detection on Road Scenes and Beyond](https://arxiv.org/abs/2407.15739v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/lmb-freiburg/diffusion-for-ood)",
+      "n": "DOoD",
+      "d": "2024-07-22",
+      "m1": "89.1",
+      "m2": "8.8"
+    },
+    {
+      "p": "[Far Away in the Deep Space: Dense Nearest-Neighbor-Based Out-of-Distribution Detection](https://arxiv.org/abs/2211.06660v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/silviogalesso/dense-ood-knns)",
+      "n": "cDNP",
+      "d": "2022-11-12",
+      "m1": "85.6",
+      "m2": "9.8"
+    },
+    {
+      "p": "[Unmasking Anomalies in Road-Scene Segmentation](https://arxiv.org/abs/2307.13316v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/shyam671/mask2anomaly-unmasking-anomalies-in-road-scene-segmentation)",
+      "n": "Mask2Anomaly",
+      "d": "2023-07-25",
+      "m1": "79.70",
+      "m2": "13.45"
+    },
+    {
+      "p": "[Residual Pattern Learning for Pixel-wise Out-of-Distribution Detection in Semantic Segmentation](https://arxiv.org/abs/2211.14512v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yyliu01/rpl)",
+      "n": "RPL+CoroCL",
+      "d": "2022-11-26",
+      "m1": "71.61",
+      "m2": "17.74"
+    },
+    {
+      "p": "[Pixel-wise Energy-biased Abstention Learning for Anomaly Segmentation on Complex Urban Driving Scenes](https://arxiv.org/abs/2111.12264v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/tianyu0207/pebal)",
+      "n": "PEBAL",
+      "d": "2021-11-24",
+      "m1": "45.10",
+      "m2": "44.58"
+    },
+    {
+      "p": "[Pixel-wise Anomaly Detection in Complex Driving Scenes](https://arxiv.org/abs/2103.05445v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/giandbt/synboost)",
+      "n": "Synboost",
+      "d": "2021-03-09",
+      "m1": "41.83",
+      "m2": "59.72"
+    },
+    {
+      "p": "[Standardized Max Logits: A Simple yet Effective Approach for Identifying Unexpected Road Obstacles in Urban-Scene Segmentation](https://arxiv.org/abs/2107.11264v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/shjung13/standardized-max-logits)",
+      "n": "SML",
+      "d": "2021-07-23",
+      "m1": "25.82",
+      "m2": "49.74"
+    },
+    {
+      "p": "[Synthesize then Compare: Detecting Failures and Anomalies for Semantic Segmentation](https://arxiv.org/abs/2003.08440v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/YingdaXia/SynthCP)",
+      "n": "SynthCP",
+      "d": "2020-03-18",
+      "m1": "24.86",
+      "m2": "64.69"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

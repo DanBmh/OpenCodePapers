@@ -1,0 +1,67 @@
+# retrieval-on-quora-question-pairs
+
+[Dataset Link](https://quoradata.quora.com/First-Quora-Dataset-Release-Question-Pairs) \
+Task Hierarchy: ['Retrieval']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Queries per second",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[BM25S: Orders of magnitude faster lexical search via eager sparse scoring](https://arxiv.org/abs/2407.03618v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/xhluca/bm25s)",
+      "n": "BM25S",
+      "d": "2024-07-04",
+      "m1": "183.53"
+    },
+    {
+      "p": "[BM25S: Orders of magnitude faster lexical search via eager sparse scoring](https://arxiv.org/abs/2407.03618v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/xhluca/bm25s)",
+      "n": "Elasticsearch",
+      "d": "2024-07-04",
+      "m1": "21.8"
+    },
+    {
+      "p": "[BM25S: Orders of magnitude faster lexical search via eager sparse scoring](https://arxiv.org/abs/2407.03618v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/xhluca/bm25s)",
+      "n": "BM25-PT",
+      "d": "2024-07-04",
+      "m1": "6.49"
+    },
+    {
+      "p": "[BM25S: Orders of magnitude faster lexical search via eager sparse scoring](https://arxiv.org/abs/2407.03618v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/xhluca/bm25s)",
+      "n": "Rank-BM25",
+      "d": "2024-07-04",
+      "m1": "1.18"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

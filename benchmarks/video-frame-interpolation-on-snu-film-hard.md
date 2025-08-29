@@ -1,0 +1,107 @@
+# video-frame-interpolation-on-snu-film-hard
+
+[Dataset Link]() \
+Task Hierarchy: ['Video Frame Interpolation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "SSIM",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[ST-MFNet: A Spatio-Temporal Multi-Flow Network for Frame Interpolation](https://arxiv.org/abs/2111.15483v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/danier97/st-mfnet)",
+      "n": "ST-MFNet",
+      "d": "2021-11-30",
+      "m1": "31.698"
+    },
+    {
+      "p": "[Deep Bayesian Video Frame Interpolation](https://www.ecva.net/papers.php)",
+      "c": "[&check;&nbsp;Link](https://github.com/Oceanlib/DBVI)",
+      "n": "DBVI",
+      "d": "2022-10-23",
+      "m1": "31.68",
+      "m2": "0.953"
+    },
+    {
+      "p": "[VFIMamba: Video Frame Interpolation with State Space Models](https://arxiv.org/abs/2407.02315v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mcg-nju/vfimamba)",
+      "n": "VFIMamba",
+      "d": "2024-07-02",
+      "m1": "30.99",
+      "m2": "0.9401"
+    },
+    {
+      "p": "[Extracting Motion and Appearance via Inter-Frame Attention for Efficient Video Frame Interpolation](https://arxiv.org/abs/2303.00440v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mcg-nju/ema-vfi)",
+      "n": "EMA-VFI",
+      "d": "2023-03-01",
+      "m1": "30.94",
+      "m2": "0.9392"
+    },
+    {
+      "p": "[Video Frame Interpolation with Densely Queried Bilateral Correlation](https://arxiv.org/abs/2304.13596v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/kinoud/DQBC)",
+      "n": "DQBC",
+      "d": "2023-04-26",
+      "m1": "30.94",
+      "m2": "0.9378"
+    },
+    {
+      "p": "[A Unified Pyramid Recurrent Network for Video Frame Interpolation](https://arxiv.org/abs/2211.03456v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/srcn-ivl/upr-net)",
+      "n": "UPR-Net LARGE",
+      "d": "2022-11-07",
+      "m1": "30.86",
+      "m2": "0.9377"
+    },
+    {
+      "p": "[Learning Cross-Video Neural Representations for High-Quality Frame Interpolation](https://arxiv.org/abs/2203.00137v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/wustl-cig/CURE)",
+      "n": "CURE",
+      "d": "2022-02-28",
+      "m1": "30.66",
+      "m2": "0.9373"
+    },
+    {
+      "p": "[Enhanced Bi-directional Motion Estimation for Video Frame Interpolation](https://arxiv.org/abs/2206.08572v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/srcn-ivl/ebme)",
+      "n": "EBME-H*",
+      "d": "2022-06-17",
+      "m1": "30.64",
+      "m2": "0.937"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

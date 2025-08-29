@@ -1,0 +1,105 @@
+# question-answering-on-tempquestions
+
+[Dataset Link](https://dl.acm.org/doi/10.1145/3184558.3191536) \
+Task Hierarchy: ['Question Answering']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Hits@1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Semantic Framework based Query Generation for Temporal Question Answering over Knowledge Graphs](https://arxiv.org/abs/2210.04490v3)",
+      "c": "",
+      "n": "SF-TQA",
+      "d": "2022-10-10",
+      "m1": "41.2",
+      "m2": "41.1"
+    },
+    {
+      "p": "[TEQUILA: Temporal Question Answering over Knowledge Bases](https://arxiv.org/abs/1908.03650v4)",
+      "c": "",
+      "n": "AQQU+TEQUILA",
+      "d": "2019-08-09",
+      "m1": "36.2",
+      "m2": "37.5"
+    },
+    {
+      "p": "[TEQUILA: Temporal Question Answering over Knowledge Bases](https://arxiv.org/abs/1908.03650v4)",
+      "c": "",
+      "n": "QUINT+TEQUILA",
+      "d": "2019-08-09",
+      "m1": "31.7",
+      "m2": "32"
+    },
+    {
+      "p": "[QUINT: Interpretable Question Answering over Knowledge Bases](https://aclanthology.org/D17-2011)",
+      "c": "",
+      "n": "QUINT",
+      "d": "2017-09-01",
+      "m1": "27",
+      "m2": "28.8"
+    },
+    {
+      "p": "[More Accurate Question Answering on Freebase](https://dl.acm.org/doi/10.1145/2806416.2806472)",
+      "c": "[&check;&nbsp;Link](https://worksheets.codalab.org/worksheets/0x6f181988848243d4918fe48c30cdfe64)",
+      "n": "AQQU",
+      "d": "2015-10-01",
+      "m1": "24.9",
+      "m2": "27.2"
+    },
+    {
+      "p": "[Question Answering as Programming for Solving Time-Sensitive Questions](https://arxiv.org/abs/2305.14221v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/tianhongzxy/qaap)",
+      "n": "QAap",
+      "d": "2023-05-23",
+      "m2": "68.1"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Few-shot gpt-3.5-turbo CoT",
+      "d": null,
+      "m2": "60.1"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Fine-tune",
+      "d": null,
+      "m2": "44.6"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

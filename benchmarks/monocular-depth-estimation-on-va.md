@@ -1,0 +1,84 @@
+# monocular-depth-estimation-on-va
+
+[Dataset Link](https://distdepth.github.io/) \
+Task Hierarchy: ['3D', 'Depth Estimation', 'Monocular Depth Estimation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Root mean square error (RMSE)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Log root mean square error  (RMSE_log)",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Mean average error (MAE) ",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Absolute relative error (AbsRel)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Toward Practical Monocular Indoor Depth Estimation](https://arxiv.org/abs/2112.02306v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/DistDepth)",
+      "n": "DistDepth",
+      "d": "2021-12-04",
+      "m1": "0.374",
+      "m2": "0.213",
+      "m3": "0.253",
+      "m4": "0.175"
+    },
+    {
+      "p": "[Self-Supervised Monocular Depth Hints](https://arxiv.org/abs/1909.09051v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nianticlabs/depth-hints)",
+      "n": "Depth Hints",
+      "d": "2019-09-19",
+      "m1": "0.427",
+      "m2": "0.248",
+      "m3": "0.291",
+      "m4": "0.197"
+    },
+    {
+      "p": "[Digging Into Self-Supervised Monocular Depth Estimation](https://arxiv.org/abs/1806.01260v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/nianticlabs/monodepth2)",
+      "n": "MonoDepth2",
+      "d": "2018-06-04",
+      "m1": "0.432",
+      "m2": "0.251",
+      "m3": "0.295",
+      "m4": "0.203"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

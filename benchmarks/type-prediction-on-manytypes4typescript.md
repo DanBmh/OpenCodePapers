@@ -1,0 +1,138 @@
+# type-prediction-on-manytypes4typescript
+
+[Dataset Link](https://huggingface.co/datasets/kevinjesse/ManyTypes4TypeScript) \
+Task Hierarchy: ['Type prediction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Average Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Average Precision",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Average Recall",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Average F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Learning Type Inference for Enhanced Dataflow Analysis](https://arxiv.org/abs/2310.00673v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/joernio/joernti-codetidal5)",
+      "n": "CodeTIDAL5",
+      "d": "2023-10-01",
+      "m1": "71.27"
+    },
+    {
+      "p": "[ManyTypes4TypeScript: A Comprehensive TypeScript Dataset for Sequence-Based Type Inference](https://dl.acm.org/doi/10.1145/3524842.3528507)",
+      "c": "[&check;&nbsp;Link](https://huggingface.co/kevinjesse/graphcodebert-MT4TS)",
+      "n": "GraphCodeBERT-MT4TS",
+      "d": "2022-10-17",
+      "m1": "63.42"
+    },
+    {
+      "p": "[GraphCodeBERT: Pre-training Code Representations with Data Flow](https://arxiv.org/abs/2009.08366v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/CodeBERT)",
+      "n": "GraphCodeBERT",
+      "d": "2020-09-17",
+      "m1": "62.51",
+      "m2": "60.06",
+      "m3": "61.08",
+      "m4": "60.57"
+    },
+    {
+      "p": "[CodeBERT: A Pre-Trained Model for Programming and Natural Languages](https://arxiv.org/abs/2002.08155v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/salesforce/codet5)",
+      "n": "CodeBERT",
+      "d": "2020-02-19",
+      "m1": "61.72",
+      "m2": "59.34",
+      "m3": "59.80",
+      "m4": "59.57"
+    },
+    {
+      "p": "[Multilingual training for Software Engineering](https://arxiv.org/abs/2112.02043v4)",
+      "c": "",
+      "n": "PolyGot",
+      "d": "2021-12-03",
+      "m1": "61.29",
+      "m2": "58.81",
+      "m3": "58.91",
+      "m4": "58.86"
+    },
+    {
+      "p": "[Multilingual training for Software Engineering](https://arxiv.org/abs/2112.02043v4)",
+      "c": "",
+      "n": "GraphPolyGot",
+      "d": "2021-12-03",
+      "m1": "61.00",
+      "m2": "58.36",
+      "m3": "58.91",
+      "m4": "58.63"
+    },
+    {
+      "p": "[RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/abs/1907.11692v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "RoBERTa",
+      "d": "2019-07-26",
+      "m1": "59.84",
+      "m2": "57.45",
+      "m3": "57.62",
+      "m4": "57.54"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "CodeBERTa",
+      "d": null,
+      "m1": "59.81",
+      "m2": "56.57",
+      "m3": "56.85",
+      "m4": "56.71"
+    },
+    {
+      "p": "[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "BERT",
+      "d": "2018-10-11",
+      "m1": "57.52",
+      "m2": "54.18",
+      "m3": "54.02",
+      "m4": "54.10"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

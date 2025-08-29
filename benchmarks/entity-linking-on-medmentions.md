@@ -1,0 +1,66 @@
+# entity-linking-on-medmentions
+
+[Dataset Link](https://github.com/chanzuckerberg/MedMentions) \
+Task Hierarchy: ['Entity Linking']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Recall@64",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Entity Linking via Explicit Mention-Mention Coreference Modeling](https://aclanthology.org/2022.naacl-main.343)",
+      "c": "[&check;&nbsp;Link](https://github.com/dhdhagar/arboEL)",
+      "n": "ArboEL",
+      "d": null,
+      "m1": "75.73"
+    },
+    {
+      "p": "[Entity Linking via Explicit Mention-Mention Coreference Modeling](https://aclanthology.org/2022.naacl-main.343)",
+      "c": "[&check;&nbsp;Link](https://github.com/dhdhagar/arboEL)",
+      "n": "ArboEL-dual",
+      "d": null,
+      "m1": "72.19",
+      "m2": "95.67"
+    },
+    {
+      "p": "[BioBART: Pretraining and Evaluation of A Biomedical Generative Language Model](https://arxiv.org/abs/2204.03905v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/GanjinZero/BioBART)",
+      "n": "BioBART",
+      "d": "2022-04-08",
+      "m1": "71.78"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

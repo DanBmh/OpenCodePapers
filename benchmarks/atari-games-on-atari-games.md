@@ -1,0 +1,130 @@
+# atari-games-on-atari-games
+
+[Dataset Link]() \
+Task Hierarchy: ['Video Games', 'Atari Games']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Mean Human Normalized Score",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Medium Human-Normalized Score",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Generalized Data Distribution Iteration](https://arxiv.org/abs/2206.03192v4)",
+      "c": "",
+      "n": "GDI-H3",
+      "d": "2022-06-07",
+      "m1": "9620.33%",
+      "m2": "1146.39%"
+    },
+    {
+      "p": "[Generalized Data Distribution Iteration](https://arxiv.org/abs/2206.03192v4)",
+      "c": "",
+      "n": "GDI-I3",
+      "d": "2022-06-07",
+      "m1": "7810.1%",
+      "m2": "832.5%"
+    },
+    {
+      "p": "[Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model](https://arxiv.org/abs/1911.08265v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/werner-duvaud/muzero-general)",
+      "n": "MuZero",
+      "d": "2019-11-19",
+      "m1": "4996.20%"
+    },
+    {
+      "p": "[First return, then explore](https://arxiv.org/abs/2004.12919v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/uber-research/go-explore)",
+      "n": "Go-Explore",
+      "d": "2020-04-27",
+      "m1": "4989.94%"
+    },
+    {
+      "p": "[Agent57: Outperforming the Atari Human Benchmark](https://arxiv.org/abs/2003.13350v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/michaelnny/deep_rl_zoo)",
+      "n": "Agent57",
+      "d": "2020-03-30",
+      "m1": "4763.69%"
+    },
+    {
+      "p": "[Recurrent Experience Replay in Distributed Reinforcement Learning](https://openreview.net/forum?id=r1lyTjAqYX)",
+      "c": "[&check;&nbsp;Link](https://github.com/opendilab/DI-engine/blob/main/ding/policy/r2d2.py)",
+      "n": "R2D2",
+      "d": "2019-05-01",
+      "m1": "3374.31%"
+    },
+    {
+      "p": "[Never Give Up: Learning Directed Exploration Strategies](https://arxiv.org/abs/2002.06038v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/opendilab/DI-engine)",
+      "n": "NGU",
+      "d": "2020-02-14",
+      "m1": "3169.90%"
+    },
+    {
+      "p": "[Off-Policy Actor-Critic with Shared Experience Replay](https://arxiv.org/abs/1909.11583v2)",
+      "c": "",
+      "n": "LASER",
+      "d": "2019-09-25",
+      "m1": "1741.36%"
+    },
+    {
+      "p": "[IMPALA: Scalable Distributed Deep-RL with Importance Weighted Actor-Learner Architectures](http://arxiv.org/abs/1802.01561v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/ray-project/ray/tree/master/rllib)",
+      "n": "IMPALA, deep",
+      "d": "2018-02-05",
+      "m1": "957.34%"
+    },
+    {
+      "p": "[Rainbow: Combining Improvements in Deep Reinforcement Learning](http://arxiv.org/abs/1710.02298v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/thu-ml/tianshou)",
+      "n": "Rainbow DQN",
+      "d": "2017-10-06",
+      "m1": "873.97%"
+    },
+    {
+      "p": "[Mastering Atari with Discrete World Models](https://arxiv.org/abs/2010.02193v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/opendilab/DI-engine)",
+      "n": "DreamerV2",
+      "d": "2020-10-05",
+      "m1": "631.17%"
+    },
+    {
+      "p": "[Model-Based Reinforcement Learning for Atari](https://arxiv.org/abs/1903.00374v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/tensor2tensor)",
+      "n": "SimPLe",
+      "d": "2019-03-01",
+      "m1": "25.3%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

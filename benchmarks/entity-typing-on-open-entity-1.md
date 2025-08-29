@@ -1,0 +1,130 @@
+# entity-typing-on-open-entity-1
+
+[Dataset Link](https://www.cs.utexas.edu/~eunsol/html_pages/open_entity.html) \
+Task Hierarchy: ['Entity Typing']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[LUKE: Deep Contextualized Entity Representations with Entity-aware Self-attention](https://arxiv.org/abs/2010.01057v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "MLMET",
+      "d": "2020-10-02",
+      "m1": "78.2"
+    },
+    {
+      "p": "[Recall, Expand and Multi-Candidate Cross-Encode: Fast and Accurate Ultra-Fine Entity Typing](https://arxiv.org/abs/2212.09125v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/modelscope/adaseq)",
+      "n": "MCCE-B (replicated by Adaseq)",
+      "d": "2022-12-18",
+      "m1": "52.1"
+    },
+    {
+      "p": "[Modeling Label Correlations for Ultra-Fine Entity Typing with Neural Pairwise Conditional Random Field](https://arxiv.org/abs/2212.01581v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/modelscope/adaseq)",
+      "n": "Prompt + NPCRF (replicated by Adaseq)",
+      "d": "2022-12-03",
+      "m1": "50.1"
+    },
+    {
+      "p": "[Unified Semantic Typing with Meaningful Label Inference](https://arxiv.org/abs/2205.01826v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/luka-group/unist)",
+      "n": "UniST-Large",
+      "d": "2022-05-04",
+      "m1": "49.9"
+    },
+    {
+      "p": "[Modeling Label Correlations for Ultra-Fine Entity Typing with Neural Pairwise Conditional Random Field](https://arxiv.org/abs/2212.01581v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/modelscope/adaseq)",
+      "n": "Prompt Learning (replicated by Adaseq)\uff09",
+      "d": "2022-12-03",
+      "m1": "49.3"
+    },
+    {
+      "p": "[Ultra-Fine Entity Typing with Weak Supervision from a Masked Language Model](https://arxiv.org/abs/2106.04098v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/HKUST-KnowComp/MLMET)",
+      "n": "MLMET",
+      "d": "2021-06-08",
+      "m1": "49.1"
+    },
+    {
+      "p": "[Modeling Label Correlations for Ultra-Fine Entity Typing with Neural Pairwise Conditional Random Field](https://arxiv.org/abs/2212.01581v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/modelscope/adaseq)",
+      "n": "RoBERTa-Large + NPCRF (replicated by Adaseq)",
+      "d": "2022-12-03",
+      "m1": "47.3"
+    },
+    {
+      "p": "[Fine-grained Entity Typing via Label Reasoning](https://arxiv.org/abs/2109.05744v1)",
+      "c": "",
+      "n": "LRN",
+      "d": "2021-09-13",
+      "m1": "45.4"
+    },
+    {
+      "p": "[Modeling Fine-Grained Entity Types with Box Embeddings](https://arxiv.org/abs/2101.00345v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/yasumasaonoe/Box4Types)",
+      "n": "Box4Type",
+      "d": "2021-01-02",
+      "m1": "44.8"
+    },
+    {
+      "p": "[Modeling Label Correlations for Ultra-Fine Entity Typing with Neural Pairwise Conditional Random Field](https://arxiv.org/abs/2212.01581v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/modelscope/adaseq)",
+      "n": "RoBERTa-Large (replicated by Adaseq)",
+      "d": "2022-12-03",
+      "m1": "43.8"
+    },
+    {
+      "p": "[Learning to Denoise Distantly-Labeled Data for Entity Typing](https://arxiv.org/abs/1905.01566v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yasumasaonoe/DenoiseET)",
+      "n": "LDET",
+      "d": "2019-05-04",
+      "m1": "40.1"
+    },
+    {
+      "p": "[Imposing Label-Relational Inductive Bias for Extremely Fine-Grained Entity Typing](http://arxiv.org/abs/1903.02591v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/xwhan/Extremely-Fine-Grained-Entity-Typing)",
+      "n": "LabelGCN",
+      "d": "2019-03-06",
+      "m1": "36.9"
+    },
+    {
+      "p": "[Ultra-Fine Entity Typing](http://arxiv.org/abs/1807.04905v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/uwnlp/open_type)",
+      "n": "UFET-biLSTM",
+      "d": "2018-07-13",
+      "m1": "31.3"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,102 @@
+# medical-image-registration-on-oasis
+
+[Dataset Link](https://oasis.cs.princeton.edu/) \
+Task Hierarchy: ['Medical Image Registration']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "DSC",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "val dsc",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[TransMorph: Transformer for unsupervised medical image registration](https://arxiv.org/abs/2111.10480v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration)",
+      "n": "TransMorph",
+      "d": "2021-11-19",
+      "m1": "0.818",
+      "m2": "85.8"
+    },
+    {
+      "p": "[On-the-Fly Guidance Training for Medical Image Registration](https://arxiv.org/abs/2308.15216v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/miraclefactory/on-the-fly-guidance)",
+      "n": "OFG + TransMorph",
+      "d": "2023-08-29",
+      "m1": "0.818"
+    },
+    {
+      "p": "[On-the-Fly Guidance Training for Medical Image Registration](https://arxiv.org/abs/2308.15216v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/miraclefactory/on-the-fly-guidance)",
+      "n": "OFG + ViT-V-Net",
+      "d": "2023-08-29",
+      "m1": "0.809"
+    },
+    {
+      "p": "[On-the-Fly Guidance Training for Medical Image Registration](https://arxiv.org/abs/2308.15216v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/miraclefactory/on-the-fly-guidance)",
+      "n": "OFG + VoxelMorph",
+      "d": "2023-08-29",
+      "m1": "0.794"
+    },
+    {
+      "p": "[ViT-V-Net: Vision Transformer for Unsupervised Volumetric Medical Image Registration](https://arxiv.org/abs/2104.06468v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/junyuchen245/ViT-V-Net_for_3D_Image_Registration_Pytorch)",
+      "n": "ViT-V-Net",
+      "d": "2021-04-13",
+      "m1": "0.794"
+    },
+    {
+      "p": "[VoxelMorph: A Learning Framework for Deformable Medical Image Registration](https://arxiv.org/abs/1809.05231v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/voxelmorph/voxelmorph)",
+      "n": "VoxelMorph",
+      "d": "2018-09-14",
+      "m1": "0.788",
+      "m2": "84.7"
+    },
+    {
+      "p": "[EfficientMorph: Parameter-Efficient Transformer-Based Architecture for 3D Image Registration](https://arxiv.org/abs/2403.11026v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/medvic-lab/efficient_morph_registration)",
+      "n": "EfficientMorph",
+      "d": "2024-03-16",
+      "m2": "86.7"
+    },
+    {
+      "p": "[Fourier-Net: Fast Image Registration with Band-limited Deformation](https://arxiv.org/abs/2211.16342v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/xi-jia/fourier-net)",
+      "n": "Fourier-Net",
+      "d": "2022-11-29",
+      "m2": "84.7"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

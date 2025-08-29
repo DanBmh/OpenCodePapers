@@ -1,0 +1,88 @@
+# video-denoising-on-crvd-1
+
+[Dataset Link](https://github.com/cao-cong/RViDeNet) \
+Task Hierarchy: ['Video', 'Video Denoising']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PSNR (Raw)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "SSIM (Raw)",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "PSNR (sRBG)",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "SSIM (sRGB)",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "LPIPS (sRGB)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Real-time Streaming Video Denoising with Bidirectional Buffers](https://arxiv.org/abs/2207.06937v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/chenyangqiqi/bsvd)",
+      "n": "BSVD (real-time)",
+      "d": "2022-07-14",
+      "m1": "44.39",
+      "m2": "0.9894",
+      "m3": "40.48",
+      "m4": "0.9820"
+    },
+    {
+      "p": "[Multi-Stage Raw Video Denoising with Adversarial Loss and Gradient Mask](https://arxiv.org/abs/2103.02861v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/avinashpaliwal/MaskDnGAN)",
+      "n": "MaskDnGAN",
+      "d": "2021-03-04",
+      "m1": "43.96",
+      "m2": "0.988",
+      "m3": "40.40",
+      "m4": "0.981",
+      "m5": "0.0357"
+    },
+    {
+      "p": "[Efficient Multi-Stage Video Denoising with Recurrent Spatio-Temporal Fusion](https://arxiv.org/abs/2103.05407v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Baymax-chen/EMVD)",
+      "n": "EMVD (5 GFLOPS)",
+      "d": "2021-03-09",
+      "m1": "42.63",
+      "m2": "0.9851"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

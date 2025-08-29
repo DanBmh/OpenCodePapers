@@ -1,0 +1,81 @@
+# on-1
+
+[Dataset Link](https://github.com/CoIR-team/coir) \
+Task Hierarchy: ['']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[A Survey on Large Language Models for Recommendation](https://arxiv.org/abs/2305.19860v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/wlik/llm4rec-awesome-papers)",
+      "n": "",
+      "d": "2023-05-31",
+      "m1": "54"
+    },
+    {
+      "p": "[An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "",
+      "d": "2020-10-22",
+      "m1": "32"
+    },
+    {
+      "p": "[N24News: A New Dataset for Multimodal News Classification](https://arxiv.org/abs/2108.13327v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/billywzh717/n24news)",
+      "n": "",
+      "d": "2021-08-30",
+      "m1": "24"
+    },
+    {
+      "p": "[CogAgent: A Visual Language Model for GUI Agents](https://arxiv.org/abs/2312.08914v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/thudm/cogvlm)",
+      "n": "",
+      "d": "2023-12-14",
+      "m1": "-3.5"
+    },
+    {
+      "p": "[Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time](https://arxiv.org/abs/2203.05482v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/mlfoundations/model-soups)",
+      "n": "",
+      "d": "2022-03-10",
+      "m1": ""
+    },
+    {
+      "p": "[MobileViTv3: Mobile-Friendly Vision Transformer with Simple and Effective Fusion of Local, Global and Input Features](https://arxiv.org/abs/2209.15159v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/microndla/mobilevitv3)",
+      "n": "",
+      "d": "2022-09-30",
+      "m1": ""
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,85 @@
+# unsupervised-opinion-summarization-on-amazon
+
+[Dataset Link]() \
+Task Hierarchy: ['Text Summarization', 'Unsupervised Opinion Summarization']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "ROUGE-1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "ROUGE-2",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "ROUGE-L",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Convex Aggregation for Opinion Summarization](https://arxiv.org/abs/2104.01371v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/megagonlabs/coop)",
+      "n": "BiMeanVAE - Coop",
+      "d": "2021-04-03",
+      "m1": "36.57",
+      "m2": "7.23",
+      "m3": "21.24"
+    },
+    {
+      "p": "[Convex Aggregation for Opinion Summarization](https://arxiv.org/abs/2104.01371v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/megagonlabs/coop)",
+      "n": "Optimus - Coop",
+      "d": "2021-04-03",
+      "m1": "35.32",
+      "m2": "6.22",
+      "m3": "19.84"
+    },
+    {
+      "p": "[Convex Aggregation for Opinion Summarization](https://arxiv.org/abs/2104.01371v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/megagonlabs/coop)",
+      "n": "BiMeanVAE - SimpleAvg",
+      "d": "2021-04-03",
+      "m1": "33.6",
+      "m2": "6.64",
+      "m3": "20.87"
+    },
+    {
+      "p": "[Convex Aggregation for Opinion Summarization](https://arxiv.org/abs/2104.01371v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/megagonlabs/coop)",
+      "n": "Optimus - SimpleAvg",
+      "d": "2021-04-03",
+      "m1": "33.54",
+      "m2": "6.18",
+      "m3": "19.34"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

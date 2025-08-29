@@ -1,0 +1,148 @@
+# face-alignment-on-aflw2000-3d
+
+[Dataset Link](http://www.cbsr.ia.ac.cn/users/xiangyuzhu/projects/3DDFA/main.htm) \
+Task Hierarchy: ['3D Face Reconstruction', 'Facial Recognition and Modelling', 'Face Alignment']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Balanced NME (2D Sparse Alignment)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Mean NME(3D Dense Alignment)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Multi-task head pose estimation in-the-wild](https://arxiv.org/abs/2202.02299v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/bobetocalo/bobetocalo_pami20)",
+      "n": "MNN+OR (reannotated)",
+      "d": "2020-12-22",
+      "m1": "2.58%"
+    },
+    {
+      "p": "[Synergy between 3DMM and 3D Landmarks for Accurate 3D Facial Geometry](https://arxiv.org/abs/2110.09772v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/tomas-gajarsky/facetorch)",
+      "n": "SynergyNet-Reannotated",
+      "d": "2021-10-19",
+      "m1": "2.65%"
+    },
+    {
+      "p": "[Adversarial Learning Semantic Volume for 2D/3D Face Shape Regression in the Wild](https://openreview.net/pdf?id=gafjGfv8uR)",
+      "c": "[&check;&nbsp;Link](https://github.com/HongwenZhang/JVCR-3Dlandmark)",
+      "n": "JVCR",
+      "d": "2019-04-19",
+      "m1": "3.31%"
+    },
+    {
+      "p": "[Synergy between 3DMM and 3D Landmarks for Accurate 3D Facial Geometry](https://arxiv.org/abs/2110.09772v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/tomas-gajarsky/facetorch)",
+      "n": "SynergyNet",
+      "d": "2021-10-19",
+      "m1": "3.41%",
+      "m2": "4.06%"
+    },
+    {
+      "p": "[SADRNet: Self-Aligned Dual Face Regression Networks for Robust 3D Dense Face Alignment and Reconstruction](https://arxiv.org/abs/2106.03021v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/MCG-NJU/SADRNet)",
+      "n": "SADRNet",
+      "d": "2021-06-06",
+      "m1": "3.46%",
+      "m2": "4.02%"
+    },
+    {
+      "p": "[Towards Fast, Accurate and Stable 3D Dense Face Alignment](https://arxiv.org/abs/2009.09960v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/cleardusk/3DDFA)",
+      "n": "3DDFA_V2",
+      "d": "2020-09-21",
+      "m1": "3.51%",
+      "m2": "4.18%"
+    },
+    {
+      "p": "[3D Face Reconstruction from A Single Image Assisted by 2D Face Images in the Wild](https://arxiv.org/abs/1903.09359v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/XgTu/2DASL-CNN)",
+      "n": "2DASL",
+      "d": "2019-03-22",
+      "m1": "3.53%"
+    },
+    {
+      "p": "[On the power of data augmentation for head pose estimation](https://arxiv.org/abs/2407.05357v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/opentrack/neuralnet-tracker-traincode)",
+      "n": "OpNet",
+      "d": "2024-07-07",
+      "m1": "3.55%"
+    },
+    {
+      "p": "[Joint 3D Face Reconstruction and Dense Alignment with Position Map Regression Network](http://arxiv.org/abs/1803.07835v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/YadiraF/PRNet)",
+      "n": "PRN",
+      "d": "2018-03-21",
+      "m1": "3.62%",
+      "m2": "4.40%"
+    },
+    {
+      "p": "[Face Alignment in Full Pose Range: A 3D Total Solution](http://arxiv.org/abs/1804.01005v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cleardusk/3DDFA)",
+      "n": "3DDFA",
+      "d": "2018-04-02",
+      "m1": "3.79%",
+      "m2": "6.55%"
+    },
+    {
+      "p": "[Faster Than Real-time Facial Alignment: A 3D Spatial Transformer Network Approach in Unconstrained Poses](http://arxiv.org/abs/1707.05653v2)",
+      "c": "",
+      "n": "3DSTN",
+      "d": "2017-07-18",
+      "m1": "4.49%"
+    },
+    {
+      "p": "[Dense Face Alignment](http://arxiv.org/abs/1709.01442v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yaojieliu/ICCVW2017-DenseFaceAlignment)",
+      "n": "DeFA",
+      "d": "2017-09-05",
+      "m1": "4.50%",
+      "m2": "6.04%"
+    },
+    {
+      "p": "[Face Alignment Across Large Poses: A 3D Solution](http://arxiv.org/abs/1511.07212v1)",
+      "c": "",
+      "n": "3DDFA + SDM",
+      "d": "2015-11-23",
+      "m1": "4.94%"
+    },
+    {
+      "p": "[DSFNet: Dual Space Fusion Network for Occlusion-Robust 3D Dense Face Alignment](https://arxiv.org/abs/2305.11522v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/lhyfst/dsfnet)",
+      "n": "DSFNet-f",
+      "d": "2023-05-19",
+      "m2": "3.8%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

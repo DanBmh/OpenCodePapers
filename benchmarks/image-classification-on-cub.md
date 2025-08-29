@@ -1,0 +1,94 @@
+# image-classification-on-cub
+
+[Dataset Link](https://www.vision.caltech.edu/datasets/cub_200_2011/) \
+Task Hierarchy: ['Image Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Classification Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Explanation Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Explanation complexity",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Explanation extraction time",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Entropy-based Logic Explanations of Neural Networks](https://arxiv.org/abs/2106.06804v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/pietrobarbiero/pytorch_explain)",
+      "n": "Entropy-based Logic Explained Network",
+      "d": "2021-06-12",
+      "m1": "0.9295",
+      "m2": "95.24",
+      "m3": "3.74",
+      "m4": "171.87"
+    },
+    {
+      "p": "[Entropy-based Logic Explanations of Neural Networks](https://arxiv.org/abs/2106.06804v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/pietrobarbiero/pytorch_explain)",
+      "n": "$\\psi$ network",
+      "d": "2021-06-12",
+      "m1": "0.9192",
+      "m2": "76.1",
+      "m3": "15.96",
+      "m4": "3707.29"
+    },
+    {
+      "p": "[Entropy-based Logic Explanations of Neural Networks](https://arxiv.org/abs/2106.06804v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/pietrobarbiero/pytorch_explain)",
+      "n": "Bayesian Rule List",
+      "d": "2021-06-12",
+      "m1": "0.9079",
+      "m2": "96.02",
+      "m3": "8.87",
+      "m4": "264678.29"
+    },
+    {
+      "p": "[Entropy-based Logic Explanations of Neural Networks](https://arxiv.org/abs/2106.06804v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/pietrobarbiero/pytorch_explain)",
+      "n": "Decision Tree",
+      "d": "2021-06-12",
+      "m1": "0.8162",
+      "m2": "89.36",
+      "m3": "45.92",
+      "m4": "8.1"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

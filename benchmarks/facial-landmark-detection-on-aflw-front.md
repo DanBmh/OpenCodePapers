@@ -1,0 +1,72 @@
+# facial-landmark-detection-on-aflw-front
+
+[Dataset Link](https://www.tugraz.at/institute/icg/research/team-bischof/lrs/downloads/aflw/) \
+Task Hierarchy: ['3D Face Reconstruction', 'Facial Recognition and Modelling', 'Facial Landmark Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Mean NME",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Mean NME ",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "NME",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Fiducial Focus Augmentation for Facial Landmark Detection](https://arxiv.org/abs/2402.15044v1)",
+      "c": "",
+      "n": "FiFA",
+      "d": "2024-02-23",
+      "m1": "0.80",
+      "m2": "0.80",
+      "m3": "0.80"
+    },
+    {
+      "p": "[AnchorFace: An Anchor-based Facial Landmark Detector Across Large Poses](https://arxiv.org/abs/2007.03221v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/nothingelse92/AnchorFace)",
+      "n": "AnchorFace",
+      "d": "2020-07-07",
+      "m1": "1.38"
+    },
+    {
+      "p": "[Style Aggregated Network for Facial Landmark Detection](http://arxiv.org/abs/1803.04108v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/D-X-Y/SAN)",
+      "n": "SAN",
+      "d": "2018-03-12",
+      "m2": "1.85"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

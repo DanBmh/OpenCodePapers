@@ -1,0 +1,134 @@
+# word-sense-disambiguation-on-fews
+
+[Dataset Link](https://nlp.cs.washington.edu/fews/) \
+Task Hierarchy: ['Word Sense Disambiguation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "F1 (Zeroshot Dev)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "F1 (Zero shot test)",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "F1(FewShot Dev)",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "F1 (Fewshot Test)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "MFS",
+      "d": null,
+      "m1": "0",
+      "m2": "0",
+      "m3": "52.8",
+      "m4": "51.5"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Lesk",
+      "d": null,
+      "m1": "40.1",
+      "m2": "39.0",
+      "m3": "42.5",
+      "m4": "40.9"
+    },
+    {
+      "p": "[Connect-the-Dots: Bridging Semantics between Words and Definitions via Aligning Word Sense Inventories](https://arxiv.org/abs/2110.14091v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/wenlinyao/emnlp21-connectthedots)",
+      "n": "SEMeq base",
+      "d": "2021-10-27",
+      "m1": "71.5",
+      "m2": "70.2",
+      "m3": "80.4",
+      "m4": "80.1"
+    },
+    {
+      "p": "[Connect-the-Dots: Bridging Semantics between Words and Definitions via Aligning Word Sense Inventories](https://arxiv.org/abs/2110.14091v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/wenlinyao/emnlp21-connectthedots)",
+      "n": "SEMEq Large",
+      "d": "2021-10-27",
+      "m1": "73.7",
+      "m2": "72.2",
+      "m3": "81.8",
+      "m4": "82.3"
+    },
+    {
+      "p": "[Improved Word Sense Disambiguation with Enhanced Sense Representations](https://aclanthology.org/2021.findings-emnlp.365)",
+      "c": "[&check;&nbsp;Link](https://github.com/nusnlp/esr)",
+      "n": "ESR base",
+      "d": null,
+      "m1": "73.9",
+      "m2": "71.6",
+      "m3": "77.9",
+      "m4": "77.8"
+    },
+    {
+      "p": "[Improved Word Sense Disambiguation with Enhanced Sense Representations](https://aclanthology.org/2021.findings-emnlp.365)",
+      "c": "[&check;&nbsp;Link](https://github.com/nusnlp/esr)",
+      "n": "ESR Large",
+      "d": null,
+      "m1": "77.4",
+      "m2": "75.8",
+      "m3": "83.8",
+      "m4": "83.4"
+    },
+    {
+      "p": "[GlossGPT: GPT for Word Sense Disambiguation using Few-shot Chain-of-Thought Prompting](https://www.sciencedirect.com/science/article/pii/S1877050925008385)",
+      "c": "[&check;&nbsp;Link](https://github.com/Sumanathilaka/GlossGPT-GPT-4-WSD-with-COT)",
+      "n": "GlossGPT",
+      "d": "2025-03-01",
+      "m1": "81.8",
+      "m2": "79.5",
+      "m3": "90.2",
+      "m4": "90.7"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "RTWE large",
+      "d": null,
+      "m1": "-",
+      "m2": "69.9",
+      "m3": "-",
+      "m4": "78.4"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

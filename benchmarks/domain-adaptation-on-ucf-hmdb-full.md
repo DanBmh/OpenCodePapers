@@ -1,0 +1,74 @@
+# domain-adaptation-on-ucf-hmdb-full
+
+[Dataset Link]() \
+Task Hierarchy: ['Domain Adaptation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Unsupervised Video Domain Adaptation with Masked Pre-Training and Collaborative Self-Training](https://arxiv.org/abs/2312.02914v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/reddyav1/unite)",
+      "n": "UNITE",
+      "d": "2023-12-05",
+      "m1": "95.0"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "TranSVAE",
+      "d": null,
+      "m1": "87.78"
+    },
+    {
+      "p": "[Contrast and Mix: Temporal Contrastive Video Domain Adaptation with Background Mixing](https://arxiv.org/abs/2110.15128v1)",
+      "c": "",
+      "n": "CoMix",
+      "d": "2021-10-28",
+      "m1": "86.66"
+    },
+    {
+      "p": "[Shuffle and Attend: Video Domain Adaptation](https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/1712_ECCV_2020_paper.php)",
+      "c": "",
+      "n": "SAVA",
+      "d": null,
+      "m1": "82.22"
+    },
+    {
+      "p": "[Temporal Attentive Alignment for Large-Scale Video Domain Adaptation](https://arxiv.org/abs/1907.12743v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/cmhungsteve/TA3N)",
+      "n": "TA3N",
+      "d": "2019-07-30",
+      "m1": "78.33"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

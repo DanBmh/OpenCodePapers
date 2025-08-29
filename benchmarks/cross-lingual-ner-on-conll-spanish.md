@@ -1,0 +1,109 @@
+# cross-lingual-ner-on-conll-spanish
+
+[Dataset Link](https://www.conll.org/) \
+Task Hierarchy: ['Cross-Lingual Transfer', 'Cross-Lingual NER']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Model and Data Transfer for Cross-Lingual Sequence Labelling in Zero-Resource Settings](https://arxiv.org/abs/2210.12623v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ikergarcia1996/Easy-Translate)",
+      "n": "XLM-R large",
+      "d": "2022-10-23",
+      "m1": "79.5"
+    },
+    {
+      "p": "[UniTrans: Unifying Model Transfer and Data Transfer for Cross-Lingual Named Entity Recognition with Unlabeled Data](https://arxiv.org/abs/2007.07683v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/vert-papers/tree/master/papers/UniTrans)",
+      "n": "UniTrans",
+      "d": "2020-07-15",
+      "m1": "79.31"
+    },
+    {
+      "p": "[Single-/Multi-Source Cross-Lingual NER via Teacher-Student Learning on Unlabeled Data in Target Language](https://arxiv.org/abs/2004.12440v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/vert-papers/tree/master/papers/SingleMulti-TS)",
+      "n": "SMTS Multi sim",
+      "d": "2020-04-26",
+      "m1": "78"
+    },
+    {
+      "p": "[Single-/Multi-Source Cross-Lingual NER via Teacher-Student Learning on Unlabeled Data in Target Language](https://arxiv.org/abs/2004.12440v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/vert-papers/tree/master/papers/SingleMulti-TS)",
+      "n": "SMTS Multi avg",
+      "d": "2020-04-26",
+      "m1": "77.75"
+    },
+    {
+      "p": "[Single-/Multi-Source Cross-Lingual NER via Teacher-Student Learning on Unlabeled Data in Target Language](https://arxiv.org/abs/2004.12440v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/vert-papers/tree/master/papers/SingleMulti-TS)",
+      "n": "SMTS Single",
+      "d": "2020-04-26",
+      "m1": "76.94"
+    },
+    {
+      "p": "[Enhanced Meta-Learning for Cross-lingual Named Entity Recognition with Minimal Resources](https://arxiv.org/abs/1911.06161v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/vert-papers/tree/master/papers/Meta-Cross)",
+      "n": "Meta-Cross",
+      "d": "2019-11-14",
+      "m1": "76.75"
+    },
+    {
+      "p": "[Towards Lingua Franca Named Entity Recognition with BERT](https://arxiv.org/abs/1912.01389v2)",
+      "c": "",
+      "n": "Zero shot mBERT 3",
+      "d": "2019-11-19",
+      "m1": "76.53"
+    },
+    {
+      "p": "[Beto, Bentz, Becas: The Surprising Cross-Lingual Effectiveness of BERT](https://arxiv.org/abs/1904.09077v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/shijie-wu/crosslingual-nlp)",
+      "n": "mBERT",
+      "d": "2019-04-19",
+      "m1": "74.96"
+    },
+    {
+      "p": "[Enhanced Meta-Learning for Cross-lingual Named Entity Recognition with Minimal Resources](https://arxiv.org/abs/1911.06161v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/vert-papers/tree/master/papers/Meta-Cross)",
+      "n": "Base Model",
+      "d": "2019-11-14",
+      "m1": "74.59"
+    },
+    {
+      "p": "[Multi-Source Cross-Lingual Model Transfer: Learning What to Share](https://arxiv.org/abs/1810.03552v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/Multilingual-Model-Transfer)",
+      "n": "MAN-MoE+CharCNN+UMWE",
+      "d": "2018-10-08",
+      "m1": "73.5"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

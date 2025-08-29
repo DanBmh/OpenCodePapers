@@ -1,0 +1,75 @@
+# face-anti-spoofing-on-replay-attack
+
+[Dataset Link](https://www.idiap.ch/dataset/replayattack) \
+Task Hierarchy: ['Depth And Camera Motion', 'Face Anti-Spoofing']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "EER",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "HTER",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Generalizable Method for Face Anti-Spoofing with Semi-Supervised Learning](https://arxiv.org/abs/2206.06510v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/FaceOnLive/Face-Liveness-Detection-SDK-Linux)",
+      "n": "Entry-V2",
+      "d": "2022-06-13",
+      "m1": "0",
+      "m2": "0"
+    },
+    {
+      "p": "[Improving Face Anti-Spoofing by 3D Virtual Synthesis](https://arxiv.org/abs/1901.00488v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/sicxu/Deep3DFaceRecon_pytorch)",
+      "n": "3D Synthesis (balancing sampling)",
+      "d": "2019-01-02",
+      "m1": "0.25",
+      "m2": "0.63"
+    },
+    {
+      "p": "[face anti-spoofing based on color texture analysis](http://arxiv.org/abs/1511.06316v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/coderwangson/Face-anti-spoofing-based-on-color-texture-analysis)",
+      "n": "YCbCr+HSV-LBP",
+      "d": "2015-11-19",
+      "m1": "0.40",
+      "m2": "2.90"
+    },
+    {
+      "p": "[Learn Convolutional Neural Network for Face Anti-Spoofing](https://arxiv.org/abs/1408.5601v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/FaceOnLive/Face-Liveness-Detection-SDK-Android)",
+      "n": "Multi-Scale",
+      "d": "2014-08-24",
+      "m1": "2.14"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,168 @@
+# hyperspectral-image-classification-on-kennedy
+
+[Dataset Link](http://www.csr.utexas.edu/projects/rs/hrs/classify.html) \
+Task Hierarchy: ['Hyperspectral Image Segmentation', 'Hyperspectral', 'Hyperspectral Image Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "OA@15perclass",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "AA@10%perclass",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Kappa@10%perclass",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "OA@10%perclass",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "Overall Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "F1@10%perclass",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Small Sample Hyperspectral Image Classification Based on the Random Patches Network and Recursive Filtering](https://doi.org/10.3390/s23052499)",
+      "c": "[&check;&nbsp;Link](https://github.com/UchaevD/RPNet-RF)",
+      "n": "RPNet-RF",
+      "d": "2023-02-23",
+      "m1": "98.51"
+    },
+    {
+      "p": "[Generative Adversarial Networks Based on Transformer Encoder and Convolution Block for Hyperspectral Image Classification](https://doi.org/10.3390/rs14143426)",
+      "c": "",
+      "n": "TC-GAN",
+      "d": "2022-07-16",
+      "m1": "98.39\u00b10.63"
+    },
+    {
+      "p": "[Graph Information Aggregation Cross-Domain Few-Shot Learning for Hyperspectral Image Classification](https://doi.org/10.1109/TNNLS.2022.3185795)",
+      "c": "[&check;&nbsp;Link](https://github.com/YuxiangZhang-BIT/IEEE_TNNLS_Gia-CFSL)",
+      "n": "DCFSL",
+      "d": "2022-06-30",
+      "m1": "97.59\u00b11.03"
+    },
+    {
+      "p": "[Deep Metric Learning-Based Feature Embedding for Hyperspectral Image Classification](https://doi.org/10.1109/TGRS.2019.2946318)",
+      "c": "[&check;&nbsp;Link](https://github.com/szubing/S-DMM)",
+      "n": "S-DMM",
+      "d": "2019-10-30",
+      "m1": "95.83\u00b11.68"
+    },
+    {
+      "p": "[Hyperspectral image classification via a random patches network](https://doi.org/10.1016/j.isprsjprs.2018.05.014)",
+      "c": "[&check;&nbsp;Link](https://github.com/YonghaoXu/RPNet)",
+      "n": "RPNet",
+      "d": "2018-05-22",
+      "m1": "95.83"
+    },
+    {
+      "p": "[Feature Extraction of Hyperspectral Images With Image Fusion and Recursive Filtering](https://doi.org/10.1109/TGRS.2013.2275613)",
+      "c": "",
+      "n": "IFRF",
+      "d": "2013-09-16",
+      "m1": "95.07"
+    },
+    {
+      "p": "[Generative Adversarial Networks Based on Collaborative Learning and Attention Mechanism for Hyperspectral Image Classification](https://doi.org/10.3390/rs12071149)",
+      "c": "",
+      "n": "CA-GAN",
+      "d": "2020-04-03",
+      "m1": "91.17\u00b11.54"
+    },
+    {
+      "p": "[Spectral\u2013Spatial Classification of Hyperspectral Imagery with 3D Convolutional Neural Network](https://doi.org/10.3390/rs9010067)",
+      "c": "[&check;&nbsp;Link](https://github.com/nshaud/DeepHyperX)",
+      "n": "3D-CNN",
+      "d": "2017-01-13",
+      "m1": "87.18\u00b11.00"
+    },
+    {
+      "p": "[HSI-BERT: Hyperspectral Image Classification Using the Bidirectional Encoder Representation From Transformers](https://doi.org/10.1109/TGRS.2019.2934760)",
+      "c": "",
+      "n": "HSI-BERT",
+      "d": "2019-09-04",
+      "m1": "82.93\u00b10.94"
+    },
+    {
+      "p": "[Deep supervised learning for hyperspectral data classification through convolutional neural networks](https://doi.org/10.1109/IGARSS.2015.7326945)",
+      "c": "[&check;&nbsp;Link](https://github.com/swalpa/Classification-of-Hyperspectral-Image)",
+      "n": "2D-CNN",
+      "d": "2015-07-26",
+      "m1": "80.53\u00b11.31"
+    },
+    {
+      "p": "[Hyperspectral Image Classification of Convolutional Neural Network Combined with Valuable Samples](http://doi.org/10.1088/1742-6596/1549/5/052011)",
+      "c": "",
+      "n": "3D VS-CNN",
+      "d": "2020-06-01",
+      "m1": "80.15\u00b10.62"
+    },
+    {
+      "p": "[Discrete Cosine Transform-Based Joint Spectral-Spatial Information Compression and Band Correlation Calculation for Hyperspectral Feature Extraction](https://doi.org/10.3390/rs16224270)",
+      "c": "[&check;&nbsp;Link](https://github.com/Lightness7/SSBC)",
+      "n": "SSBC",
+      "d": "2024-11-16",
+      "m2": "98.06%",
+      "m3": "98.61%",
+      "m4": "98.75%",
+      "m6": "98.11%"
+    },
+    {
+      "p": "[Exploring the Relationship between Center and Neighborhoods: Central Vector oriented Self-Similarity Network for Hyperspectral Image Classification](http://dx.doi.org/10.1109/tcsvt.2022.3218284)",
+      "c": "[&check;&nbsp;Link](https://github.com/lms-07/CVSSN)",
+      "n": "CVSSN",
+      "d": "2022-10-31",
+      "m2": "98.29\u00b10.45%",
+      "m3": "0.9878\u00b10.0033",
+      "m4": "98.90\u00b10.30%",
+      "m5": "98.90\u00b10.30%"
+    },
+    {
+      "p": "[Attention-Based Adaptive Spectral-Spatial Kernel ResNet for Hyperspectral Image Classification](https://ieeexplore.ieee.org/document/9306920)",
+      "c": "[&check;&nbsp;Link](https://github.com/suvojit-0x55aa/A2S2K-ResNet)",
+      "n": "A2S2K-ResNet",
+      "d": "2020-12-24",
+      "m5": "99.34"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

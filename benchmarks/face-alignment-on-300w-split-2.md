@@ -1,0 +1,121 @@
+# face-alignment-on-300w-split-2
+
+[Dataset Link](https://ibug.doc.ic.ac.uk/resources/300-W/) \
+Task Hierarchy: ['3D Face Reconstruction', 'Facial Recognition and Modelling', 'Face Alignment']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "NME (box)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "AUC@7 (box)",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "NME (inter-ocular)",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "AUC@8 (inter-ocular)",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "FR@8 (inter-ocular)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Shape Preserving Facial Landmarks with Graph Attention Networks](https://arxiv.org/abs/2210.07233v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/andresprados/spiga)",
+      "n": "SPIGA",
+      "d": "2022-10-13",
+      "m1": "2.03",
+      "m2": "71.0",
+      "m3": "3.43",
+      "m4": "57.27",
+      "m5": "0.67"
+    },
+    {
+      "p": "[Towards Accurate Facial Landmark Detection via Cascaded Transformers](https://arxiv.org/abs/2208.10808v1)",
+      "c": "",
+      "n": "DTLD-s",
+      "d": "2022-08-23",
+      "m1": "2.05",
+      "m2": "70.9"
+    },
+    {
+      "p": "[LUVLi Face Alignment: Estimating Landmarks' Location, Uncertainty, and Visibility Likelihood](https://arxiv.org/abs/2004.02980v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/abhi1kumar/LUVLi)",
+      "n": "LUVLi",
+      "d": "2020-04-06",
+      "m1": "2.24",
+      "m2": "68.3"
+    },
+    {
+      "p": "[Face Alignment With Kernel Density Deep Neural Network](http://openaccess.thecvf.com/content_ICCV_2019/html/Chen_Face_Alignment_With_Kernel_Density_Deep_Neural_Network_ICCV_2019_paper.html)",
+      "c": "",
+      "n": "KDN",
+      "d": "2019-10-01",
+      "m1": "2.49",
+      "m2": "67.3"
+    },
+    {
+      "p": "[Face Alignment using a 3D Deeply-initialized Ensemble of Regression Trees](https://arxiv.org/abs/1902.01831v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/bobetocalo/bobetocalo_eccv18)",
+      "n": "3DDE",
+      "d": "2019-02-05",
+      "m3": "3.73",
+      "m4": "53.94",
+      "m5": "2.33"
+    },
+    {
+      "p": "[A Deeply-initialized Coarse-to-fine Ensemble of Regression Trees for Face Alignment](http://openaccess.thecvf.com/content_ECCV_2018/html/Roberto_Valle_A_Deeply-initialized_Coarse-to-fine_ECCV_2018_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/bobetocalo/bobetocalo_eccv18)",
+      "n": "DCFE",
+      "d": "2018-09-01",
+      "m3": "3.88",
+      "m4": "52.42",
+      "m5": "1.83"
+    },
+    {
+      "p": "[Deep Alignment Network: A convolutional neural network for robust face alignment](http://arxiv.org/abs/1706.01789v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/MarekKowalski/DeepAlignmentNetwork)",
+      "n": "DAN",
+      "d": "2017-06-06",
+      "m3": "4.30",
+      "m4": "47.00",
+      "m5": "2.67"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,191 @@
+# relation-extraction-on-conll04
+
+[Dataset Link](https://www.conll.org/) \
+Task Hierarchy: ['Relation Extraction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "RE+ Macro F1 ",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "RE+ Micro F1",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "NER Macro F1",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "NER Micro F1",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "RE+ Macro F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[REBEL: Relation Extraction By End-to-end Language generation](https://github.com/Babelscape/rebel)",
+      "c": "[&check;&nbsp;Link](https://github.com/Babelscape/rebel)",
+      "n": "REBEL",
+      "d": "2021-10-29",
+      "m1": "76.65",
+      "m2": "75.4"
+    },
+    {
+      "p": "[Two are Better than One: Joint Entity and Relation Extraction with Table-Sequence Encoders](https://arxiv.org/abs/2010.03851v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/LorrinWWW/two-are-better-than-one)",
+      "n": "Table-Sequence",
+      "d": "2020-10-08",
+      "m1": "75.4",
+      "m2": "73.6",
+      "m3": "86.9",
+      "m4": "90.1"
+    },
+    {
+      "p": "[Span-based Joint Entity and Relation Extraction with Transformer Pre-training](https://arxiv.org/abs/1909.07755v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/markus-eberts/spert)",
+      "n": "SpERT",
+      "d": "2019-09-17",
+      "m1": "72.87",
+      "m2": "71.47",
+      "m3": "86.25",
+      "m4": "88.94"
+    },
+    {
+      "p": "[Deeper Task-Specificity Improves Joint Entity and Relation Extraction](https://arxiv.org/abs/2002.06424v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/vedantc6/mtl-dts)",
+      "n": "Deeper",
+      "d": "2020-02-15",
+      "m1": "72.63",
+      "m2": "71.08",
+      "m3": "87",
+      "m4": "89.78"
+    },
+    {
+      "p": "[End-to-end neural relation extraction using deep biaffine attention](http://arxiv.org/abs/1812.11275v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/datquocnguyen/jointRE)",
+      "n": "Biaffine attention",
+      "d": "2018-12-29",
+      "m1": "64.4",
+      "m3": "86.2"
+    },
+    {
+      "p": "[Neural Metric Learning for Fast End-to-End Relation Extraction](https://arxiv.org/abs/1905.07458v4)",
+      "c": "",
+      "n": "Relation-Metric with AT",
+      "d": "2019-05-17",
+      "m1": "62.29",
+      "m3": "84.15"
+    },
+    {
+      "p": "[Joint entity recognition and relation extraction as a multi-head selection problem](http://arxiv.org/abs/1804.07847v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/bekou/multihead_joint_entity_relation_extraction)",
+      "n": "multi-head",
+      "d": "2018-04-20",
+      "m1": "62.04",
+      "m3": "83.9"
+    },
+    {
+      "p": "[Adversarial training for multi-context joint entity and relation extraction](http://arxiv.org/abs/1808.06876v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/bekou/multihead_joint_entity_relation_extraction)",
+      "n": "multi-head + AT",
+      "d": "2018-08-21",
+      "m1": "61.95",
+      "m3": "83.6"
+    },
+    {
+      "p": "[ReLiK: Retrieve and LinK, Fast and Accurate Entity Linking and Relation Extraction on an Academic Budget](https://arxiv.org/abs/2408.00103v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/SapienzaNLP/relik)",
+      "n": "ReLiK-Large",
+      "d": "2024-07-31",
+      "m2": "78.1"
+    },
+    {
+      "p": "[Autoregressive Structured Prediction with Language Models](https://arxiv.org/abs/2210.14698v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/lyutyuh/asp)",
+      "n": "ASP+T0-3B",
+      "d": "2022-10-26",
+      "m2": "76.3",
+      "m4": "90.3"
+    },
+    {
+      "p": "[Named Entity Recognition and Relation Extraction using Enhanced Table Filling by Contextualized Representations](https://arxiv.org/abs/2010.07522v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/YoumiMa/TablERT)",
+      "n": "TablERT",
+      "d": "2020-10-15",
+      "m2": "72.6",
+      "m4": "90.2"
+    },
+    {
+      "p": "[Structured Prediction as Translation between Augmented Natural Languages](https://arxiv.org/abs/2101.05779v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/amazon-science/tanl)",
+      "n": "TANL",
+      "d": "2021-01-14",
+      "m2": "72.6"
+    },
+    {
+      "p": "[A Trigger-Sense Memory Flow Framework for Joint Entity and Relation Extraction](https://arxiv.org/abs/2101.10213v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/tricktreat/trimf)",
+      "n": "TriMF",
+      "d": "2021-01-25",
+      "m2": "72.35",
+      "m4": "90.3"
+    },
+    {
+      "p": "[Entity-Relation Extraction as Multi-Turn Question Answering](https://arxiv.org/abs/1905.05529v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/ShannonAI/Entity-Relation-As-Multi-Turn-QA)",
+      "n": "Multi-turn QA",
+      "d": "2019-05-14",
+      "m2": "68.9",
+      "m4": "87.8"
+    },
+    {
+      "p": "[End-to-End Neural Relation Extraction with Global Optimization](https://aclanthology.org/D17-1182)",
+      "c": "",
+      "n": "Global",
+      "d": "2017-09-01",
+      "m2": "67.8",
+      "m4": "85.6"
+    },
+    {
+      "p": "[Modeling Joint Entity and Relation Extraction with Table Representation](https://aclanthology.org/D14-1200)",
+      "c": "",
+      "n": "Table Representation",
+      "d": "2014-10-01",
+      "m2": "61",
+      "m4": "80.7"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

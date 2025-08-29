@@ -1,0 +1,95 @@
+# visual-instruction-following-on-llava-bench
+
+[Dataset Link](https://llava-vl.github.io/) \
+Task Hierarchy: ['Instruction Following', 'visual instruction following']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "avg score",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[CuMo: Scaling Multimodal LLM with Co-Upcycled Mixture-of-Experts](https://arxiv.org/abs/2405.05949v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/shi-labs/cumo)",
+      "n": "CuMo-7B",
+      "d": "2024-05-09",
+      "m1": "85.7"
+    },
+    {
+      "p": "[ShareGPT4V: Improving Large Multi-Modal Models with Better Captions](https://arxiv.org/abs/2311.12793v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/InternLM/InternLM-XComposer/tree/main/projects/ShareGPT4V)",
+      "n": "ShareGPT4V-13B",
+      "d": "2023-11-21",
+      "m1": "79.9"
+    },
+    {
+      "p": "[ShareGPT4V: Improving Large Multi-Modal Models with Better Captions](https://arxiv.org/abs/2311.12793v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/InternLM/InternLM-XComposer/tree/main/projects/ShareGPT4V)",
+      "n": "ShareGPT4V-7B",
+      "d": "2023-11-21",
+      "m1": "72.6"
+    },
+    {
+      "p": "[Improved Baselines with Visual Instruction Tuning](https://arxiv.org/abs/2310.03744v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "LLaVA-v1.5-13B",
+      "d": "2023-10-05",
+      "m1": "70.7"
+    },
+    {
+      "p": "[Improved Baselines with Visual Instruction Tuning](https://arxiv.org/abs/2310.03744v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "LLaVA-v1.5-7B",
+      "d": "2023-10-05",
+      "m1": "63.4"
+    },
+    {
+      "p": "[InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning](https://arxiv.org/abs/2305.06500v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/salesforce/lavis)",
+      "n": "InstructBLIP-7B",
+      "d": "2023-05-11",
+      "m1": "60.9"
+    },
+    {
+      "p": "[InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning](https://arxiv.org/abs/2305.06500v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/salesforce/lavis)",
+      "n": "InstructBLIP-13B",
+      "d": "2023-05-11",
+      "m1": "58.2"
+    },
+    {
+      "p": "[BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "BLIP-2",
+      "d": "2023-01-30",
+      "m1": "38.1"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

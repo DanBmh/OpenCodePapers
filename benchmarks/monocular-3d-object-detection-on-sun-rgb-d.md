@@ -1,0 +1,106 @@
+# monocular-3d-object-detection-on-sun-rgb-d
+
+[Dataset Link](https://rgbd.cs.princeton.edu/) \
+Task Hierarchy: ['16k', 'Object Detection', '3D Object Detection', 'Monocular 3D Object Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AP@0.15 (NYU-37)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "AP@0.15 (10 / NYU-37)",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "AP@0.15 (10 / PNet-30)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Holistic 3D Scene Understanding from a Single Image with Implicit Representation](https://arxiv.org/abs/2103.06422v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/chengzhag/Implicit3DUnderstanding)",
+      "n": "IM3D",
+      "d": "2021-03-11",
+      "m1": "24.10",
+      "m2": "45.21"
+    },
+    {
+      "p": "[ImVoxelNet: Image to Voxels Projection for Monocular and Multi-View General-Purpose 3D Object Detection](https://arxiv.org/abs/2106.01178v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection3d)",
+      "n": "ImVoxelNet",
+      "d": "2021-06-02",
+      "m1": "21.08",
+      "m2": "42.69",
+      "m3": "48.74"
+    },
+    {
+      "p": "[Total3DUnderstanding: Joint Layout, Object Pose and Mesh Reconstruction for Indoor Scenes from a Single Image](https://arxiv.org/abs/2002.12212v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yinyunie/Total3DUnderstanding)",
+      "n": "Total3D  joint",
+      "d": "2020-02-27",
+      "m1": "14.28",
+      "m2": "26.38"
+    },
+    {
+      "p": "[Total3DUnderstanding: Joint Layout, Object Pose and Mesh Reconstruction for Indoor Scenes from a Single Image](https://arxiv.org/abs/2002.12212v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yinyunie/Total3DUnderstanding)",
+      "n": "Total3D w/o. joint",
+      "d": "2020-02-27",
+      "m1": "13.25",
+      "m2": "23.32"
+    },
+    {
+      "p": "[Cooperative Holistic Scene Understanding: Unifying 3D Object, Layout, and Camera Pose Estimation](http://arxiv.org/abs/1810.13049v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/thusiyuan/cooperative_scene_parsing)",
+      "n": "Cooperative",
+      "d": "2018-10-31",
+      "m1": "12.23",
+      "m2": "23.65",
+      "m3": "23.65"
+    },
+    {
+      "p": "[Holistic 3D Scene Parsing and Reconstruction from a Single RGB Image](http://arxiv.org/abs/1808.02201v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/thusiyuan/holistic_scene_parsing)",
+      "n": "Holistic",
+      "d": "2018-08-07",
+      "m2": "14.01",
+      "m3": "14.01"
+    },
+    {
+      "p": "[PerspectiveNet: 3D Object Detection from a Single RGB Image via Perspective Points](https://arxiv.org/abs/1912.07744v1)",
+      "c": "",
+      "n": "PerspectiveNet",
+      "d": "2019-12-16",
+      "m3": "39.09"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

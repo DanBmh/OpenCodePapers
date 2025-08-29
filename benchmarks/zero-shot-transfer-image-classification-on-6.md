@@ -1,0 +1,115 @@
+# zero-shot-transfer-image-classification-on-6
+
+[Dataset Link](https://objectnet.dev/) \
+Task Hierarchy: ['Zero-Shot Transfer Image Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy (Private)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Accuracy (Public)",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Top 5 Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Scaling Vision Transformers to 22 Billion Parameters](https://arxiv.org/abs/2302.05442v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/lucidrains/flash-cosine-sim-attention)",
+      "n": "LiT-22B",
+      "d": "2023-02-10",
+      "m1": "87.6"
+    },
+    {
+      "p": "[PaLI: A Jointly-Scaled Multilingual Language-Image Model](https://arxiv.org/abs/2209.06794v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/big_vision)",
+      "n": "LiT ViT-e",
+      "d": "2022-09-14",
+      "m1": "84.9"
+    },
+    {
+      "p": "[CoCa: Contrastive Captioners are Image-Text Foundation Models](https://arxiv.org/abs/2205.01917v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mlfoundations/open_clip)",
+      "n": "CoCa",
+      "d": "2022-05-04",
+      "m1": "82.7"
+    },
+    {
+      "p": "[EVA-CLIP-18B: Scaling CLIP to 18 Billion Parameters](https://arxiv.org/abs/2402.04252v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/baaivision/EVA/tree/master/EVA-CLIP-18B)",
+      "n": "EVA-CLIP-18B",
+      "d": "2024-02-06",
+      "m1": "82.2"
+    },
+    {
+      "p": "[LiT: Zero-Shot Transfer with Locked-image text Tuning](https://arxiv.org/abs/2111.07991v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/mlfoundations/open_clip)",
+      "n": "LiT-tuning",
+      "d": "2021-11-15",
+      "m1": "81.1",
+      "m2": " 54.5"
+    },
+    {
+      "p": "[InternVL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks](https://arxiv.org/abs/2312.14238v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internvl)",
+      "n": "InternVL-C",
+      "d": "2023-12-21",
+      "m1": "80.6"
+    },
+    {
+      "p": "[EVA-CLIP: Improved Training Techniques for CLIP at Scale](https://arxiv.org/abs/2303.15389v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/baaivision/eva)",
+      "n": "EVA-CLIP-E/14+",
+      "d": "2023-03-27",
+      "m1": "79.6"
+    },
+    {
+      "p": "[Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/openai/CLIP)",
+      "n": "CLIP",
+      "d": "2021-02-26",
+      "m1": "72.3",
+      "m2": "-"
+    },
+    {
+      "p": "[PaLI: A Jointly-Scaled Multilingual Language-Image Model](https://arxiv.org/abs/2209.06794v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/big_vision)",
+      "n": "PaLI",
+      "d": "2022-09-14",
+      "m1": "42.62",
+      "m3": "58.35"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

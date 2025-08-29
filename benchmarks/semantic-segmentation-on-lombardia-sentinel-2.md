@@ -1,0 +1,67 @@
+# semantic-segmentation-on-lombardia-sentinel-2
+
+[Dataset Link](https://www.kaggle.com/datasets/ignazio/sentinel2-crop-mapping) \
+Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Overall Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Enhancing crop segmentation in satellite image time-series with transformer networks](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13072/1307208/Enhancing-crop-segmentation-in-satellite-image-time-series-with-transformer/10.1117/12.3023389.short#_=_)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/mattiagatti/sentinel2-crop-mapping-models)",
+      "n": "UNet3D",
+      "d": "2024-04-03",
+      "m1": "80.77"
+    },
+    {
+      "p": "[Enhancing crop segmentation in satellite image time-series with transformer networks](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13072/1307208/Enhancing-crop-segmentation-in-satellite-image-time-series-with-transformer/10.1117/12.3023389.short#_=_)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/mattiagatti/sentinel2-crop-mapping-models)",
+      "n": "Swin UNETR",
+      "d": "2024-04-03",
+      "m1": "79.64"
+    },
+    {
+      "p": "[Enhancing crop segmentation in satellite image time-series with transformer networks](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13072/1307208/Enhancing-crop-segmentation-in-satellite-image-time-series-with-transformer/10.1117/12.3023389.short#_=_)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/mattiagatti/sentinel2-crop-mapping-models)",
+      "n": "3D FPN with NDVI Loss",
+      "d": "2024-04-03",
+      "m1": "77.23"
+    },
+    {
+      "p": "[Enhancing crop segmentation in satellite image time-series with transformer networks](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13072/1307208/Enhancing-crop-segmentation-in-satellite-image-time-series-with-transformer/10.1117/12.3023389.short#_=_)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/mattiagatti/sentinel2-crop-mapping-models)",
+      "n": "DeepLabv3 3D",
+      "d": "2024-04-03",
+      "m1": "74.51"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

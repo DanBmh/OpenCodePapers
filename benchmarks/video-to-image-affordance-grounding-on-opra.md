@@ -1,0 +1,68 @@
+# video-to-image-affordance-grounding-on-opra
+
+[Dataset Link](https://sites.google.com/view/demo2vec/) \
+Task Hierarchy: ['Video-to-image Affordance Grounding']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "KLD",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Top-1 Action Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Affordance Grounding from Demonstration Video to Target Image](https://arxiv.org/abs/2303.14644v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/showlab/afformer)",
+      "n": "Afformer (ViTDet-B encoder)",
+      "d": "2023-03-26",
+      "m1": "1.51",
+      "m2": "52.27"
+    },
+    {
+      "p": "[Affordance Grounding from Demonstration Video to Target Image](https://arxiv.org/abs/2303.14644v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/showlab/afformer)",
+      "n": "Afformer (ResNet-50-FPN encoder)",
+      "d": "2023-03-26",
+      "m1": "1.55",
+      "m2": "52.14"
+    },
+    {
+      "p": "[Demo2Vec: Reasoning Object Affordances From Online Videos](http://openaccess.thecvf.com/content_cvpr_2018/html/Fang_Demo2Vec_Reasoning_Object_CVPR_2018_paper.html)",
+      "c": "",
+      "n": "Demo2Vec",
+      "d": "2018-06-01",
+      "m1": "2.34",
+      "m2": "40.79"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

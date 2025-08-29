@@ -1,0 +1,156 @@
+# visual-place-recognition-on-st-lucia
+
+[Dataset Link]() \
+Task Hierarchy: ['Visual Place Recognition']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Recall@1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Recall@5",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Recall@10",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[EffoVPR: Effective Foundation Model Utilization for Visual Place Recognition](https://arxiv.org/abs/2405.18065v2)",
+      "c": "",
+      "n": "EffoVPR",
+      "d": "2024-05-28",
+      "m1": "100.0",
+      "m2": "100.0"
+    },
+    {
+      "p": "[BoQ: A Place is Worth a Bag of Learnable Queries](https://arxiv.org/abs/2405.07364v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/amaralibey/bag-of-queries)",
+      "n": "BoQ\n(DINOv2)",
+      "d": "2024-05-12",
+      "m1": "100.0",
+      "m2": "100"
+    },
+    {
+      "p": "[Focus on Local: Finding Reliable Discriminative Regions for Visual Place Recognition](https://arxiv.org/abs/2504.09881v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/chenshunpeng/FoL)",
+      "n": "FoL-global",
+      "d": "2025-04-14",
+      "m1": "99.9",
+      "m2": "100",
+      "m3": "100"
+    },
+    {
+      "p": "[Focus on Local: Finding Reliable Discriminative Regions for Visual Place Recognition](https://arxiv.org/abs/2504.09881v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/chenshunpeng/FoL)",
+      "n": "FoL",
+      "d": "2025-04-14",
+      "m1": "99.9",
+      "m2": "100",
+      "m3": "100"
+    },
+    {
+      "p": "[Towards Seamless Adaptation of Pre-trained Models for Visual Place Recognition](https://arxiv.org/abs/2402.14505v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Lu-Feng/SelaVPR)",
+      "n": "SelaVPR",
+      "d": "2024-02-22",
+      "m1": "99.8"
+    },
+    {
+      "p": "[ProGEO: Generating Prompts through Image-Text Contrastive Learning for Visual Geo-localization](https://arxiv.org/abs/2406.01906v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/chain-mao/progeo)",
+      "n": "ProGEO",
+      "d": "2024-06-04",
+      "m1": "99.7",
+      "m2": "99.9"
+    },
+    {
+      "p": "[MixVPR: Feature Mixing for Visual Place Recognition](https://arxiv.org/abs/2303.02190v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/amaralibey/mixvpr)",
+      "n": "MixVPR",
+      "d": "2023-03-03",
+      "m1": "99.66"
+    },
+    {
+      "p": "[Rethinking Visual Geo-localization for Large-Scale Applications](https://arxiv.org/abs/2204.02287v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/gmberton/cosplace)",
+      "n": "CosPlace",
+      "d": "2022-04-05",
+      "m1": "99.59",
+      "m2": "99.9"
+    },
+    {
+      "p": "[AnyLoc: Towards Universal Visual Place Recognition](https://arxiv.org/abs/2308.00688v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/AnyLoc/AnyLoc)",
+      "n": "AnyLoc-VLAD-DINOv2",
+      "d": "2023-08-01",
+      "m1": "96.17"
+    },
+    {
+      "p": "[DINOv2: Learning Robust Visual Features without Supervision](https://arxiv.org/abs/2304.07193v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "DINOv2",
+      "d": "2023-04-14",
+      "m1": "78.62"
+    },
+    {
+      "p": "[AnyLoc: Towards Universal Visual Place Recognition](https://arxiv.org/abs/2308.00688v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/AnyLoc/AnyLoc)",
+      "n": "CLIP",
+      "d": "2023-08-01",
+      "m1": "62.7"
+    },
+    {
+      "p": "[NetVLAD: CNN architecture for weakly supervised place recognition](http://arxiv.org/abs/1511.07247v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Relja/netvlad)",
+      "n": "NetVLAD",
+      "d": "2015-11-23",
+      "m1": "57.92"
+    },
+    {
+      "p": "[Emerging Properties in Self-Supervised Vision Transformers](https://arxiv.org/abs/2104.14294v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/dino)",
+      "n": "DINO",
+      "d": "2021-04-29",
+      "m1": "45.22"
+    },
+    {
+      "p": "[BoQ: A Place is Worth a Bag of Learnable Queries](https://arxiv.org/abs/2405.07364v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/amaralibey/bag-of-queries)",
+      "n": "BoQ",
+      "d": "2024-05-12",
+      "m2": "100",
+      "m3": "100"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

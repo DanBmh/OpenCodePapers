@@ -1,0 +1,74 @@
+# face-verification-on-agedb-30
+
+[Dataset Link]() \
+Task Hierarchy: ['3D Face Reconstruction', 'Facial Recognition and Modelling', 'Face Verification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Killing Two Birds with One Stone:Efficient and Robust Training of Face Recognition CNNs by Partial FC](https://arxiv.org/abs/2203.15565v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/deepinsight/insightface)",
+      "n": "PartialFC(R200)",
+      "d": "2022-03-28",
+      "m1": "0.9870"
+    },
+    {
+      "p": "[GhostFaceNets: Lightweight Face Recognition Model From Cheap Operations](https://ieeexplore.ieee.org/document/10098610)",
+      "c": "[&check;&nbsp;Link](https://github.com/serengil/deepface)",
+      "n": "GhostFaceNetV2-1",
+      "d": "2023-04-10",
+      "m1": "0.9862"
+    },
+    {
+      "p": "[DiscFace: Minimum Discrepancy Learning for Deep Face Recognition](https://openaccess.thecvf.com/content/ACCV2020/html/Kim_DiscFace_Minimum_Discrepancy_Learning_for_Deep_Face_Recognition_ACCV_2020_paper.html)",
+      "c": "",
+      "n": "DiscFace",
+      "d": "2020-11-30",
+      "m1": "0.9835"
+    },
+    {
+      "p": "[VarGFaceNet: An Efficient Variable Group Convolutional Neural Network for Lightweight Face Recognition](https://arxiv.org/abs/1910.04985v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/zma-c-137/VarGFaceNet)",
+      "n": "VarGFaceNet",
+      "d": "2019-10-11",
+      "m1": "0.9815"
+    },
+    {
+      "p": "[VarGNet: Variable Group Convolutional Neural Network for Efficient Embedded Computing](https://arxiv.org/abs/1907.05653v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zma-c-137/VarGFaceNet)",
+      "n": "VarGNet",
+      "d": "2019-07-12",
+      "m1": "0.97333"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

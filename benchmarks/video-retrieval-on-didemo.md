@@ -1,0 +1,541 @@
+# video-retrieval-on-didemo
+
+[Dataset Link](https://github.com/LisaAnne/TemporalLanguageRelease) \
+Task Hierarchy: ['Video Retrieval']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "text-to-video R@1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "text-to-video R@5",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "text-to-video R@10",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "text-to-video R@50",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "text-to-video Median Rank",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "text-to-video Mean Rank",
+      "sortable": "true"
+    },
+    {
+      "key": "m7",
+      "label": "video-to-text R@1",
+      "sortable": "true"
+    },
+    {
+      "key": "m8",
+      "label": "video-to-text R@5",
+      "sortable": "true"
+    },
+    {
+      "key": "m9",
+      "label": "video-to-text R@10",
+      "sortable": "true"
+    },
+    {
+      "key": "m10",
+      "label": "video-to-text Median Rank",
+      "sortable": "true"
+    },
+    {
+      "key": "m11",
+      "label": "video-to-text Mean Rank",
+      "sortable": "true"
+    },
+    {
+      "key": "m12",
+      "label": "text-to-videoR@1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[InternVideo2: Scaling Foundation Models for Multimodal Video Understanding](https://arxiv.org/abs/2403.15377v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internvideo)",
+      "n": "InternVideo2-6B",
+      "d": "2024-03-22",
+      "m1": "74.2",
+      "m7": "71.9"
+    },
+    {
+      "p": "[vid-TLDR: Training Free Token merging for Light-weight Video Transformer](https://arxiv.org/abs/2403.13347v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mlvlab/vid-tldr)",
+      "n": "vid-TLDR (UMT-L)",
+      "d": "2024-03-20",
+      "m1": "72.3",
+      "m2": "91.2",
+      "m3": "94.2",
+      "m7": "68.5",
+      "m8": "89.8",
+      "m9": "93.8"
+    },
+    {
+      "p": "[VAST: A Vision-Audio-Subtitle-Text Omni-Modality Foundation Model and Dataset](https://arxiv.org/abs/2305.18500v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/TXH-mercury/VALOR)",
+      "n": "VAST",
+      "d": "2023-05-29",
+      "m1": "72.0",
+      "m2": "89.0",
+      "m3": "91.4"
+    },
+    {
+      "p": "[COSA: Concatenated Sample Pretrained Vision-Language Foundation Model](https://arxiv.org/abs/2306.09085v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/txh-mercury/cosa)",
+      "n": "COSA",
+      "d": "2023-06-15",
+      "m1": "70.5"
+    },
+    {
+      "p": "[Unmasked Teacher: Towards Training-Efficient Video Foundation Models](https://arxiv.org/abs/2303.16058v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/opengvlab/unmasked_teacher)",
+      "n": "UMT-L (ViT-L/16)",
+      "d": "2023-03-28",
+      "m1": "70.4",
+      "m2": "90.1",
+      "m3": "93.5",
+      "m7": "65.7",
+      "m8": "89.6",
+      "m9": "93.3"
+    },
+    {
+      "p": "[Gramian Multimodal Representation Learning and Alignment](https://arxiv.org/abs/2412.11959v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ispamm/GRAM)",
+      "n": "GRAM",
+      "d": "2024-12-16",
+      "m1": "67.3",
+      "m3": "90.1",
+      "m7": "63.5",
+      "m9": "91.6"
+    },
+    {
+      "p": "[VALOR: Vision-Audio-Language Omni-Perception Pretraining Model and Dataset](https://arxiv.org/abs/2304.08345v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/TXH-mercury/VALOR)",
+      "n": "VALOR",
+      "d": "2023-04-17",
+      "m1": "61.5",
+      "m2": "85.3",
+      "m3": "90.4"
+    },
+    {
+      "p": "[TESTA: Temporal-Spatial Token Aggregation for Long-form Video-Language Understanding](https://arxiv.org/abs/2310.19060v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/renshuhuai-andy/testa)",
+      "n": "TESTA (ViT-B/16)",
+      "d": "2023-10-29",
+      "m1": "61.2",
+      "m2": "87.2",
+      "m3": "91.5"
+    },
+    {
+      "p": "[VindLU: A Recipe for Effective Video-and-Language Pretraining](https://arxiv.org/abs/2212.05051v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/klauscc/vindlu)",
+      "n": "VindLU",
+      "d": "2022-12-09",
+      "m1": "61.2",
+      "m2": "85.8",
+      "m3": "91.0"
+    },
+    {
+      "p": "[InternVideo: General Video Foundation Models via Generative and Discriminative Learning](https://arxiv.org/abs/2212.03191v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internvideo)",
+      "n": "InternVideo",
+      "d": "2022-12-06",
+      "m1": "57.9",
+      "m7": "59.1"
+    },
+    {
+      "p": "[RTQ: Rethinking Video-language Understanding Based on Image-text Model](https://arxiv.org/abs/2312.00347v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/SCZwangxiao/RTQ-MM2023)",
+      "n": "RTQ",
+      "d": "2023-12-01",
+      "m1": "57.6",
+      "m2": "84.1",
+      "m3": "89.9"
+    },
+    {
+      "p": "[VLAB: Enhancing Video Language Pre-training by Feature Adapting and Blending](https://arxiv.org/abs/2305.13167v1)",
+      "c": "",
+      "n": "VLAB",
+      "d": "2023-05-22",
+      "m1": "56.8",
+      "m2": "81.6",
+      "m3": "88.7"
+    },
+    {
+      "p": "[HiTeA: Hierarchical Temporal-Aware Video-Language Pre-training](https://arxiv.org/abs/2212.14546v1)",
+      "c": "",
+      "n": "HiTeA",
+      "d": "2022-12-30",
+      "m1": "56.5",
+      "m2": "81.7",
+      "m3": "89.7"
+    },
+    {
+      "p": "[MuLTI: Efficient Video-and-Language Understanding with Text-Guided MultiWay-Sampler and Multiple Choice Modeling](https://arxiv.org/abs/2303.05707v2)",
+      "c": "",
+      "n": "MuLTI",
+      "d": "2023-03-10",
+      "m1": "56.5",
+      "m2": "80.2",
+      "m3": "87.0"
+    },
+    {
+      "p": "[mPLUG-2: A Modularized Multi-modal Foundation Model Across Text, Image and Video](https://arxiv.org/abs/2302.00402v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/modelscope/modelscope)",
+      "n": "mPLUG-2",
+      "d": "2023-02-01",
+      "m1": "56.4",
+      "m2": "79.1",
+      "m3": "85.2"
+    },
+    {
+      "p": "[CLIP-ViP: Adapting Pre-trained Image-Text Model to Video-Language Representation Alignment](https://arxiv.org/abs/2209.06430v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/xpretrain)",
+      "n": "CLIP-ViP",
+      "d": "2022-09-14",
+      "m1": "55.3",
+      "m2": "82",
+      "m3": "89.3",
+      "m5": "1"
+    },
+    {
+      "p": "[Revisiting Temporal Modeling for CLIP-based Image-to-Video Knowledge Transferring](https://arxiv.org/abs/2301.11116v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/farewellthree/stan)",
+      "n": "STAN",
+      "d": "2023-01-26",
+      "m1": "54.6",
+      "m2": "78.4",
+      "m3": "85.1",
+      "m5": "1"
+    },
+    {
+      "p": "[Revealing Single Frame Bias for Video-and-Language Learning](https://arxiv.org/abs/2206.03428v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jayleicn/ClipBERT)",
+      "n": "Singularity",
+      "d": "2022-06-07",
+      "m1": "53.9",
+      "m2": "79.4",
+      "m3": "86.9"
+    },
+    {
+      "p": "[Dual-Modal Attention-Enhanced Text-Video Retrieval with Triplet Partial Margin Contrastive Learning](https://arxiv.org/abs/2309.11082v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/alipay/Ant-Multi-Modal-Framework)",
+      "n": "DMAE (ViT-B/32)",
+      "d": "2023-09-20",
+      "m1": "52.7",
+      "m2": "79.3",
+      "m3": "86.6",
+      "m5": "1.0",
+      "m6": "10.5"
+    },
+    {
+      "p": "[Tencent Text-Video Retrieval: Hierarchical Cross-Modal Interactions with Multi-Level Representations](https://arxiv.org/abs/2204.03382v8)",
+      "c": "",
+      "n": "HunYuan_tvr (huge)",
+      "d": "2022-04-07",
+      "m1": "52.7",
+      "m2": "77.8",
+      "m3": "85.2",
+      "m5": "1.0",
+      "m6": "13.7",
+      "m7": "54.1",
+      "m8": "78.3",
+      "m9": "86.8",
+      "m10": "1.0",
+      "m11": "9.1"
+    },
+    {
+      "p": "[OmniVL:One Foundation Model for Image-Language and Video-Language Tasks](https://arxiv.org/abs/2209.07526v2)",
+      "c": "",
+      "n": "OmniVL",
+      "d": "2022-09-15",
+      "m1": "52.4",
+      "m2": "79.5",
+      "m3": "85.4"
+    },
+    {
+      "p": "[Tencent Text-Video Retrieval: Hierarchical Cross-Modal Interactions with Multi-Level Representations](https://arxiv.org/abs/2204.03382v8)",
+      "c": "",
+      "n": "HunYuan_tvr",
+      "d": "2022-04-07",
+      "m1": "52.1",
+      "m2": "78.2",
+      "m3": "85.7",
+      "m5": "1",
+      "m6": "11.1",
+      "m7": "54.8",
+      "m8": "79.9",
+      "m9": "87.2",
+      "m10": "1",
+      "m11": "7.1"
+    },
+    {
+      "p": "[Cap4Video: What Can Auxiliary Captions Do for Text-Video Retrieval?](https://arxiv.org/abs/2301.00184v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/whwu95/Cap4Video)",
+      "n": "Cap4Video",
+      "d": "2022-12-31",
+      "m1": "52.0",
+      "m2": "79.4",
+      "m3": "87.5",
+      "m5": "1",
+      "m6": "10.5",
+      "m7": "51.2",
+      "m8": "78.5",
+      "m9": "87.4",
+      "m10": "1",
+      "m11": "7.3"
+    },
+    {
+      "p": "[Clover: Towards A Unified Video-Language Alignment and Fusion Model](https://arxiv.org/abs/2207.07885v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/leeyn-43/clover)",
+      "n": "Clover",
+      "d": "2022-07-16",
+      "m1": "50.1",
+      "m2": "76.7",
+      "m3": "85.6",
+      "m5": "1"
+    },
+    {
+      "p": "[Disentangled Representation Learning for Text-Video Retrieval](https://arxiv.org/abs/2203.07111v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/towhee-io/towhee)",
+      "n": "DRL",
+      "d": "2022-03-14",
+      "m1": "49.0",
+      "m2": "76.5",
+      "m3": "84.5",
+      "m5": "2.0",
+      "m6": "11.5",
+      "m7": "49.9",
+      "m9": "83.3",
+      "m10": "2",
+      "m11": "7.9"
+    },
+    {
+      "p": "[DiffusionRet: Generative Text-Video Retrieval with Diffusion Model](https://arxiv.org/abs/2303.09867v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jpthu17/emcl)",
+      "n": "DiffusionRet+QB-Norm",
+      "d": "2023-03-17",
+      "m1": "48.9",
+      "m2": "75.5",
+      "m3": "83.3",
+      "m5": "2.0",
+      "m6": "14.1",
+      "m7": "50.3",
+      "m8": "75.1",
+      "m9": "82.9",
+      "m10": "1.0",
+      "m11": "10.3"
+    },
+    {
+      "p": "[Prototype-based Aleatoric Uncertainty Quantification for Cross-modal Retrieval](https://arxiv.org/abs/2309.17093v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/leolee99/pau)",
+      "n": "PAU",
+      "d": "2023-09-29",
+      "m1": "48.6",
+      "m2": "76.0",
+      "m3": "84.5",
+      "m5": "2.0",
+      "m6": "12.9",
+      "m7": "48.1",
+      "m8": "74.2",
+      "m9": "85.7",
+      "m10": "2.0",
+      "m11": "9.8"
+    },
+    {
+      "p": "[An Empirical Study of End-to-End Video-Language Transformers with Masked Visual Modeling](https://arxiv.org/abs/2209.01540v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/tsujuifu/pytorch_empirical-mvm)",
+      "n": "VIOLETv2",
+      "d": "2022-09-04",
+      "m1": "47.9",
+      "m2": "76.5",
+      "m3": "84.1"
+    },
+    {
+      "p": "[X-CLIP: End-to-End Multi-grained Contrastive Learning for Video-Text Retrieval](https://arxiv.org/abs/2207.07285v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/xuguohai/X-CLIP)",
+      "n": "X-CLIP",
+      "d": "2022-07-15",
+      "m1": "47.8",
+      "m2": "79.3",
+      "m6": "12.6",
+      "m7": "47.8",
+      "m9": "76.8",
+      "m11": "10.5"
+    },
+    {
+      "p": "[Video-Text as Game Players: Hierarchical Banzhaf Interaction for Cross-Modal Representation Learning](https://arxiv.org/abs/2303.14369v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jpthu17/emcl)",
+      "n": "HBI",
+      "d": "2023-03-25",
+      "m1": "46.9",
+      "m2": "74.9",
+      "m3": "82.7",
+      "m5": "2.0",
+      "m6": "12.1",
+      "m7": "46.2",
+      "m8": "73.0",
+      "m9": "82.7",
+      "m10": "2.0",
+      "m11": "8.7"
+    },
+    {
+      "p": "[DiffusionRet: Generative Text-Video Retrieval with Diffusion Model](https://arxiv.org/abs/2303.09867v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jpthu17/emcl)",
+      "n": "DiffusionRet",
+      "d": "2023-03-17",
+      "m1": "46.7",
+      "m2": "74.7",
+      "m3": "82.7",
+      "m5": "2.0",
+      "m6": "14.3",
+      "m7": "46.2",
+      "m8": "74.3",
+      "m9": "82.2",
+      "m10": "2.0",
+      "m11": "10.7"
+    },
+    {
+      "p": "[Improving Video-Text Retrieval by Multi-Stream Corpus Alignment and Dual Softmax Loss](https://arxiv.org/abs/2109.04290v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/starmemda/camow)",
+      "n": "CAMoE",
+      "d": "2021-09-09",
+      "m1": "43.8",
+      "m2": "71.4",
+      "m3": "79.9",
+      "m5": "2.0",
+      "m6": "16.3",
+      "m7": "45.5",
+      "m9": "80.5",
+      "m10": "2",
+      "m11": "10.2"
+    },
+    {
+      "p": "[Cross Modal Retrieval with Querybank Normalisation](https://arxiv.org/abs/2112.12777v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/ioanacroi/qb-norm)",
+      "n": "QB-Norm+CLIP4Clip",
+      "d": "2021-12-23",
+      "m1": "43.5",
+      "m2": "71.4",
+      "m3": "80.9",
+      "m5": "2.0"
+    },
+    {
+      "p": "[CLIP4Clip: An Empirical Study of CLIP for End to End Video Clip Retrieval](https://arxiv.org/abs/2104.08860v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/towhee-io/towhee)",
+      "n": "CLIP4Clip",
+      "d": "2021-04-18",
+      "m1": "43.4",
+      "m2": "70.2",
+      "m3": "80.6",
+      "m5": "2.0",
+      "m6": "17.5"
+    },
+    {
+      "p": "[Align and Prompt: Video-and-Language Pre-training with Entity Prompts](https://arxiv.org/abs/2112.09583v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/salesforce/alpro)",
+      "n": "ALPRO",
+      "d": "2021-12-17",
+      "m1": "35.9",
+      "m2": "67.5",
+      "m3": "78.8",
+      "m5": "3"
+    },
+    {
+      "p": "[Frozen in Time: A Joint Video and Image Encoder for End-to-End Retrieval](https://arxiv.org/abs/2104.00650v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/towhee-io/towhee)",
+      "n": "FROZEN",
+      "d": "2021-04-01",
+      "m1": "31.0",
+      "m2": "59.8",
+      "m3": "72.4",
+      "m5": "3"
+    },
+    {
+      "p": "[Advancing High-Resolution Video-Language Representation with Large-Scale Video Transcriptions](https://arxiv.org/abs/2111.10337v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/xpretrain)",
+      "n": "HD-VILA",
+      "d": "2021-11-19",
+      "m1": "28.8",
+      "m2": "57.4",
+      "m3": "69.1",
+      "m5": "4"
+    },
+    {
+      "p": "[Rudder: A Cross Lingual Video and Text Retrieval Dataset](https://arxiv.org/abs/2103.05457v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nshubham655/RUDDER)",
+      "n": "PO Loss",
+      "d": "2021-03-09",
+      "m1": "16.3",
+      "m3": "56.5",
+      "m5": "8",
+      "m6": "40.2",
+      "m7": "15",
+      "m9": "54.9",
+      "m10": "8",
+      "m11": "39.6"
+    },
+    {
+      "p": "[Use What You Have: Video Retrieval Using Representations From Collaborative Experts](https://arxiv.org/abs/1907.13487v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/albanie/collaborative-experts)",
+      "n": "Collaborative Experts",
+      "d": "2019-07-31",
+      "m1": "16.1",
+      "m2": "41.1",
+      "m3": "54.4",
+      "m4": "82.7",
+      "m5": "8.3",
+      "m6": "43.7"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Aurora (ours, r=64)",
+      "d": null,
+      "m2": "77.4",
+      "m3": "85.3",
+      "m5": "1",
+      "m12": "53.1"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

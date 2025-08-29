@@ -1,0 +1,144 @@
+# unsupervised-video-object-segmentation-on-11
+
+[Dataset Link]() \
+Task Hierarchy: ['Video Object Segmentation', 'Unsupervised Video Object Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "J",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Improving Unsupervised Video Object Segmentation via Fake Flow Generation](https://arxiv.org/abs/2407.11714v1)",
+      "c": "",
+      "n": "FakeFlow",
+      "d": "2024-07-16",
+      "m1": "84.7"
+    },
+    {
+      "p": "[Dual Prototype Attention for Unsupervised Video Object Segmentation](https://arxiv.org/abs/2211.12036v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hydragon516/dpa)",
+      "n": "DPA",
+      "d": "2022-11-22",
+      "m1": "83.4"
+    },
+    {
+      "p": "[Treating Motion as Option with Output Selection for Unsupervised Video Object Segmentation](https://arxiv.org/abs/2309.14786v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/suhwan-cho/tmo)",
+      "n": "TMO++ (MiT-b1)",
+      "d": "2023-09-26",
+      "m1": "83.2"
+    },
+    {
+      "p": "[Guided Slot Attention for Unsupervised Video Object Segmentation](https://arxiv.org/abs/2303.08314v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hydragon516/gsanet)",
+      "n": "GSANet",
+      "d": "2023-03-15",
+      "m1": "83.1"
+    },
+    {
+      "p": "[Treating Motion as Option with Output Selection for Unsupervised Video Object Segmentation](https://arxiv.org/abs/2309.14786v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/suhwan-cho/tmo)",
+      "n": "TMO++ (RN-101)",
+      "d": "2023-09-26",
+      "m1": "81.2"
+    },
+    {
+      "p": "[Treating Motion as Option to Reduce Motion Dependency in Unsupervised Video Object Segmentation](https://arxiv.org/abs/2209.03138v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/suhwan-cho/tmo)",
+      "n": "TMO (MiT-b1)",
+      "d": "2022-09-04",
+      "m1": "80.0"
+    },
+    {
+      "p": "[Treating Motion as Option to Reduce Motion Dependency in Unsupervised Video Object Segmentation](https://arxiv.org/abs/2209.03138v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/suhwan-cho/tmo)",
+      "n": "TMO (RN-101)",
+      "d": "2022-09-04",
+      "m1": "79.9"
+    },
+    {
+      "p": "[Deep Transport Network for Unsupervised Video Object Segmentation](http://openaccess.thecvf.com//content/ICCV2021/html/Zhang_Deep_Transport_Network_for_Unsupervised_Video_Object_Segmentation_ICCV_2021_paper.html)",
+      "c": "",
+      "n": "TransportNet",
+      "d": "2021-01-01",
+      "m1": "78.7"
+    },
+    {
+      "p": "[Unsupervised Video Object Segmentation via Prototype Memory Network](https://arxiv.org/abs/2209.03712v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Hydragon516/PMN)",
+      "n": "PMN",
+      "d": "2022-09-08",
+      "m1": "77.7"
+    },
+    {
+      "p": "[F2Net: Learning to Focus on the Foreground for Unsupervised Video Object Segmentation](https://arxiv.org/abs/2012.02534v1)",
+      "c": "",
+      "n": "F2Net",
+      "d": "2020-12-04",
+      "m1": "77.5"
+    },
+    {
+      "p": "[Iteratively Selecting an Easy Reference Frame Makes Unsupervised Video Object Segmentation Easier](https://arxiv.org/abs/2112.12402v1)",
+      "c": "",
+      "n": "IMP",
+      "d": "2021-12-23",
+      "m1": "77.5"
+    },
+    {
+      "p": "[Learning Motion-Appearance Co-Attention for Zero-Shot Video Object Segmentation](http://openaccess.thecvf.com//content/ICCV2021/html/Yang_Learning_Motion-Appearance_Co-Attention_for_Zero-Shot_Video_Object_Segmentation_ICCV_2021_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/isyangshu/amc-net)",
+      "n": "AMC-Net",
+      "d": "2021-01-01",
+      "m1": "76.5"
+    },
+    {
+      "p": "[Motion-Attentive Transition for Zero-Shot Video Object Segmentation](https://arxiv.org/abs/2003.04253v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/tfzhou/MATNet)",
+      "n": "MATNet",
+      "d": "2020-03-09",
+      "m1": "76.1"
+    },
+    {
+      "p": "[See More, Know More: Unsupervised Video Object Segmentation with Co-Attention Siamese Networks](https://arxiv.org/abs/2001.06810v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/carrierlxk/COSNet)",
+      "n": "COSNet",
+      "d": "2020-01-19",
+      "m1": "75.6"
+    },
+    {
+      "p": "[Pyramid Dilated Deeper ConvLSTM for Video Salient Object Detection](http://openaccess.thecvf.com/content_ECCV_2018/html/Hongmei_Song_Pseudo_Pyramid_Deeper_ECCV_2018_paper.html)",
+      "c": "",
+      "n": "PDB",
+      "d": "2018-09-01",
+      "m1": "74.0"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

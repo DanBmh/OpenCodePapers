@@ -1,0 +1,94 @@
+# few-shot-object-counting-and-detection-on
+
+[Dataset Link](https://github.com/cvlab-stonybrook/LearningToCountEverything) \
+Task Hierarchy: ['Object Counting', 'Few-shot Object Counting and Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "MAE(test)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "RMSE(test)",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "AP50(test)",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "AP(test)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[A Novel Unified Architecture for Low-Shot Counting by Detection and Segmentation](https://arxiv.org/abs/2409.18686v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jerpelhan/GeCo)",
+      "n": "GeCo",
+      "d": "2024-09-27",
+      "m1": "7.91",
+      "m2": "54.28",
+      "m3": "75.06",
+      "m4": "43.42"
+    },
+    {
+      "p": "[DAVE -- A Detect-and-Verify Paradigm for Low-Shot Counting](https://arxiv.org/abs/2404.16622v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jerpelhan/dave)",
+      "n": "DAVE",
+      "d": "2024-04-25",
+      "m1": "10.45",
+      "m2": "74.51",
+      "m3": "62.82",
+      "m4": "26.81"
+    },
+    {
+      "p": "[Point Segment and Count: A Generalized Framework for Object Counting](http://openaccess.thecvf.com//content/CVPR2024/html/Huang_Point_Segment_and_Count_A_Generalized_Framework_for_Object_Counting_CVPR_2024_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/hzzone/pseco)",
+      "n": "PSECO",
+      "d": "2024-01-01",
+      "m1": "13.05",
+      "m2": "112.86",
+      "m3": "73.33",
+      "m4": "42.98"
+    },
+    {
+      "p": "[Few-shot Object Counting and Detection](https://arxiv.org/abs/2207.10988v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/vinairesearch/counting-detr)",
+      "n": "Counting-DETR",
+      "d": "2022-07-22",
+      "m1": "16.79",
+      "m2": "123.56",
+      "m3": "50.57",
+      "m4": "22.66"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

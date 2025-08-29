@@ -1,0 +1,100 @@
+# point-cloud-quality-assessment-on-wpc
+
+[Dataset Link](https://github.com/qdushl/Waterloo-Point-Cloud-Database) \
+Task Hierarchy: ['Point Cloud Quality Assessment']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PLCC",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "KROCC",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "RMSE",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "SROCC",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[No-Reference Point Cloud Quality Assessment via Weighted Patch Quality Prediction](https://arxiv.org/abs/2305.07829v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/philox12358/COPP-Net)",
+      "n": "COPP-Net",
+      "d": "2023-05-13",
+      "m1": "0.9324",
+      "m3": "8.10",
+      "m4": "0.9251"
+    },
+    {
+      "p": "[MM-PCQA: Multi-Modal Learning for No-reference Point Cloud Quality Assessment](https://arxiv.org/abs/2209.00244v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zzc-1998/mm-pcqa)",
+      "n": "MM-PCQA",
+      "d": "2022-09-01",
+      "m1": "0.83",
+      "m2": "0.64",
+      "m3": "12.84",
+      "m4": "0.83"
+    },
+    {
+      "p": "[No-Reference Quality Assessment for 3D Colored Point Cloud and Mesh Models](https://arxiv.org/abs/2107.02041v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/zzc-1998/NR-3DQA)",
+      "n": "NR-3DQA",
+      "d": "2021-07-05",
+      "m1": "0.6514",
+      "m2": "0.4417",
+      "m3": "16.5716",
+      "m4": "0.6479"
+    },
+    {
+      "p": "[No-Reference Point Cloud Quality Assessment via Domain Adaptation](https://arxiv.org/abs/2112.02851v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/qi-yangsjtu/it-pcqa)",
+      "n": "IT-PCQA",
+      "d": "2021-12-06",
+      "m1": "0.55",
+      "m4": "0.54"
+    },
+    {
+      "p": "[Point Cloud Quality Assessment: Dataset Construction and Learning-based No-Reference Metric](https://arxiv.org/abs/2012.11895v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/lyp22/ResSCNN)",
+      "n": "ResSCNN",
+      "d": "2020-12-22",
+      "m1": "0.4292",
+      "m3": "23.27",
+      "m4": "0.4352"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

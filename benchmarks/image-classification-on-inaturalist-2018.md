@@ -1,0 +1,468 @@
+# image-classification-on-inaturalist-2018
+
+[Dataset Link](https://github.com/visipedia/inat_comp/tree/master/2017) \
+Task Hierarchy: ['Image Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Top-1 Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Number of params",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[OmniVec2 - A Novel Transformer based Network for Large Scale Multimodal and Multitask Learning](http://openaccess.thecvf.com//content/CVPR2024/html/Srivastava_OmniVec2_-_A_Novel_Transformer_based_Network_for_Large_Scale_CVPR_2024_paper.html)",
+      "c": "",
+      "n": "OmniVec2",
+      "d": "2024-01-01",
+      "m1": "94.6"
+    },
+    {
+      "p": "[OmniVec: Learning robust representations with cross modal sharing](https://arxiv.org/abs/2311.05709v1)",
+      "c": "",
+      "n": "OmniVec",
+      "d": "2023-11-07",
+      "m1": "93.8"
+    },
+    {
+      "p": "[InternImage: Exploring Large-Scale Vision Foundation Models with Deformable Convolutions](https://arxiv.org/abs/2211.05778v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internimage)",
+      "n": "InternImage-H",
+      "d": "2022-11-10",
+      "m1": "92.6%"
+    },
+    {
+      "p": "[The effectiveness of MAE pre-pretraining for billion-scale pretraining](https://arxiv.org/abs/2303.13496v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/maws)",
+      "n": "MAWS (ViT-2B)",
+      "d": "2023-03-23",
+      "m1": "91.3%"
+    },
+    {
+      "p": "[MetaFormer: A Unified Meta Framework for Fine-Grained Recognition](https://arxiv.org/abs/2203.02751v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dqshuai/metaformer)",
+      "n": "MetaFormer\n(MetaFormer-2,384,extra_info)",
+      "d": "2022-03-05",
+      "m1": "88.7%"
+    },
+    {
+      "p": "[Hiera: A Hierarchical Vision Transformer without the Bells-and-Whistles](https://arxiv.org/abs/2306.00989v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/pytorch-image-models)",
+      "n": "Hiera-H (448px)",
+      "d": "2023-06-01",
+      "m1": "87.3%"
+    },
+    {
+      "p": "[Masked Autoencoders Are Scalable Vision Learners](https://arxiv.org/abs/2111.06377v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/mae)",
+      "n": "MAE (ViT-H, 448)",
+      "d": "2021-11-11",
+      "m1": "86.8%"
+    },
+    {
+      "p": "[Revisiting Weakly Supervised Pre-Training of Visual Perception Models](https://arxiv.org/abs/2201.08371v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/SWAG)",
+      "n": "SWAG (ViT H/14)",
+      "d": "2022-01-20",
+      "m1": "86.0%"
+    },
+    {
+      "p": "[Vision Models Are More Robust And Fair When Pretrained On Uncurated Images Without Supervision](https://arxiv.org/abs/2202.08360v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/vissl)",
+      "n": "SEER (RegNet10B - finetuned - 384px)",
+      "d": "2022-02-16",
+      "m1": "84.7%"
+    },
+    {
+      "p": "[MetaFormer: A Unified Meta Framework for Fine-Grained Recognition](https://arxiv.org/abs/2203.02751v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dqshuai/metaformer)",
+      "n": "MetaFormer\n(MetaFormer-2,384)",
+      "d": "2022-03-05",
+      "m1": "84.3%"
+    },
+    {
+      "p": "[Omnivore: A Single Model for Many Visual Modalities](https://arxiv.org/abs/2201.08377v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/towhee-io/towhee)",
+      "n": "OMNIVORE (Swin-L)",
+      "d": "2022-01-20",
+      "m1": "84.1%"
+    },
+    {
+      "p": "[DenseNets Reloaded: Paradigm Shift Beyond ResNets and ViTs](https://arxiv.org/abs/2403.19588v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/pytorch-image-models)",
+      "n": "RDNet-L (224 res, IN-1K pretrained)",
+      "d": "2024-03-28",
+      "m1": "81.8%",
+      "m2": "186M"
+    },
+    {
+      "p": "[Grafit: Learning fine-grained image representations with coarse labels](https://arxiv.org/abs/2011.12982v1)",
+      "c": "",
+      "n": "RegNet-8GF",
+      "d": "2020-11-25",
+      "m1": "81.2%"
+    },
+    {
+      "p": "[VL-LTR: Learning Class-wise Visual-Linguistic Representation for Long-Tailed Visual Recognition](https://arxiv.org/abs/2111.13579v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/ChangyaoTian/VL-LTR)",
+      "n": "VL-LTR (ViT-B-16)",
+      "d": "2021-11-26",
+      "m1": "81.0%"
+    },
+    {
+      "p": "[A Continual Development Methodology for Large-scale Multitask Dynamic ML Systems](https://arxiv.org/abs/2209.07326v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research/tree/master/muNet)",
+      "n": "\u00b52Net+ (ViT-L/16)",
+      "d": "2022-09-15",
+      "m1": "80.97"
+    },
+    {
+      "p": "[DenseNets Reloaded: Paradigm Shift Beyond ResNets and ViTs](https://arxiv.org/abs/2403.19588v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/pytorch-image-models)",
+      "n": "RDNet-B (224 res, IN-1K pretrained)",
+      "d": "2024-03-28",
+      "m1": "80.5",
+      "m2": "87M"
+    },
+    {
+      "p": "[MixMAE: Mixed and Masked Autoencoder for Efficient Pretraining of Hierarchical Vision Transformers](https://arxiv.org/abs/2205.13137v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/sense-x/mixmim)",
+      "n": "MixMIM-L",
+      "d": "2022-05-26",
+      "m1": "80.3%"
+    },
+    {
+      "p": "[Training data-efficient image transformers & distillation through attention](https://arxiv.org/abs/2012.12877v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "DeiT-B",
+      "d": "2020-12-23",
+      "m1": "79.5%"
+    },
+    {
+      "p": "[Incorporating Convolution Designs into Visual Transformers](https://arxiv.org/abs/2103.11816v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rishikksh20/CeiT-pytorch)",
+      "n": "CeiT-S (384 finetune resolution)",
+      "d": "2021-03-22",
+      "m1": "79.4%"
+    },
+    {
+      "p": "[DenseNets Reloaded: Paradigm Shift Beyond ResNets and ViTs](https://arxiv.org/abs/2403.19588v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/pytorch-image-models)",
+      "n": "RDNet-S (224 res, IN-1K pretrained)",
+      "d": "2024-03-28",
+      "m1": "79.1",
+      "m2": "50M"
+    },
+    {
+      "p": "[Generalized Parametric Contrastive Learning](https://arxiv.org/abs/2209.12400v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dvlab-research/parametric-contrastive-learning)",
+      "n": "GPaCo (ResNet-152)",
+      "d": "2022-09-26",
+      "m1": "78.1%"
+    },
+    {
+      "p": "[Going deeper with Image Transformers](https://arxiv.org/abs/2103.17239v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "CaiT-M-36 U 224",
+      "d": "2021-03-31",
+      "m1": "78%"
+    },
+    {
+      "p": "[MixMAE: Mixed and Masked Autoencoder for Efficient Pretraining of Hierarchical Vision Transformers](https://arxiv.org/abs/2205.13137v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/sense-x/mixmim)",
+      "n": "MixMIM-B",
+      "d": "2022-05-26",
+      "m1": "77.5%"
+    },
+    {
+      "p": "[DenseNets Reloaded: Paradigm Shift Beyond ResNets and ViTs](https://arxiv.org/abs/2403.19588v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/pytorch-image-models)",
+      "n": "RDNet-T (224 res, IN-1K pretrained)",
+      "d": "2024-03-28",
+      "m1": "77.0",
+      "m2": "24M"
+    },
+    {
+      "p": "[Generalized Parametric Contrastive Learning](https://arxiv.org/abs/2209.12400v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dvlab-research/parametric-contrastive-learning)",
+      "n": "GPaCo (ResNet-50)",
+      "d": "2022-09-26",
+      "m1": "75.4%"
+    },
+    {
+      "p": "[Class-Balanced Distillation for Long-Tailed Visual Recognition](https://arxiv.org/abs/2104.05279v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research)",
+      "n": "CBD-ENS (ResNet-101)",
+      "d": "2021-04-12",
+      "m1": "75.3%"
+    },
+    {
+      "p": "[Three things everyone should know about Vision Transformers](https://arxiv.org/abs/2203.09795v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "ViT-L (attn finetune)",
+      "d": "2022-03-18",
+      "m1": "75.3%"
+    },
+    {
+      "p": "[Parametric Contrastive Learning](https://arxiv.org/abs/2107.12028v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dvlab-research/parametric-contrastive-learning)",
+      "n": "PaCo(ResNet-152)",
+      "d": "2021-07-26",
+      "m1": "75.2%"
+    },
+    {
+      "p": "[VL-LTR: Learning Class-wise Visual-Linguistic Representation for Long-Tailed Visual Recognition](https://arxiv.org/abs/2111.13579v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/ChangyaoTian/VL-LTR)",
+      "n": "VL-LTR (ResNet-50)",
+      "d": "2021-11-26",
+      "m1": "74.6%"
+    },
+    {
+      "p": "[The Majority Can Help The Minority: Context-rich Minority Oversampling for Long-tailed Classification](https://arxiv.org/abs/2112.00412v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/naver-ai/cmo)",
+      "n": "BS-CMO (ResNet-50)",
+      "d": "2021-12-01",
+      "m1": "74.0%"
+    },
+    {
+      "p": "[Class-Balanced Distillation for Long-Tailed Visual Recognition](https://arxiv.org/abs/2104.05279v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research)",
+      "n": "CBD-ENS (ResNet-50)",
+      "d": "2021-04-12",
+      "m1": "73.6%"
+    },
+    {
+      "p": "[Incorporating Convolution Designs into Visual Transformers](https://arxiv.org/abs/2103.11816v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rishikksh20/CeiT-pytorch)",
+      "n": "CeiT-S",
+      "d": "2021-03-22",
+      "m1": "73.3%"
+    },
+    {
+      "p": "[Self-Supervised Aggregation of Diverse Experts for Test-Agnostic Long-Tailed Recognition](https://arxiv.org/abs/2107.09249v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/vanint/sade-agnosticlt)",
+      "n": "TADE (ResNet-50)",
+      "d": "2021-07-20",
+      "m1": "72.9%"
+    },
+    {
+      "p": "[Incorporating Convolution Designs into Visual Transformers](https://arxiv.org/abs/2103.11816v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rishikksh20/CeiT-pytorch)",
+      "n": "CeiT-T (384 finetune resolution)",
+      "d": "2021-03-22",
+      "m1": "72.2%"
+    },
+    {
+      "p": "[Long-tailed Recognition by Routing Diverse Distribution-Aware Experts](https://arxiv.org/abs/2010.01809v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/frank-xwang/RIDE-LongTailRecognition)",
+      "n": "RIDE (ResNet-50)",
+      "d": "2020-10-05",
+      "m1": "72.2%"
+    },
+    {
+      "p": "[Boosting Discriminative Visual Representation Learning with Scenario-Agnostic Mixup](https://arxiv.org/abs/2111.15454v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Westlake-AI/openmixup)",
+      "n": "ResNeXt-101 (SAMix)",
+      "d": "2021-11-30",
+      "m1": "70.54%"
+    },
+    {
+      "p": "[AutoMix: Unveiling the Power of Mixup for Stronger Classifiers](https://arxiv.org/abs/2103.13027v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/Westlake-AI/openmixup)",
+      "n": "ResNeXt-101 (AutoMix)",
+      "d": "2021-03-24",
+      "m1": "70.49%"
+    },
+    {
+      "p": "[Disentangling Label Distribution for Long-tailed Visual Recognition](https://arxiv.org/abs/2012.00321v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/hyperconnect/LADE)",
+      "n": "LADE",
+      "d": "2020-12-01",
+      "m1": "70.0%"
+    },
+    {
+      "p": "[Grafit: Learning fine-grained image representations with coarse labels](https://arxiv.org/abs/2011.12982v1)",
+      "c": "",
+      "n": "ResNet-50",
+      "d": "2020-11-25",
+      "m1": "69.8%"
+    },
+    {
+      "p": "[Feature Space Augmentation for Long-Tailed Data](https://arxiv.org/abs/2008.03673v1)",
+      "c": "",
+      "n": "ResNet-152",
+      "d": "2020-08-09",
+      "m1": "69.08%"
+    },
+    {
+      "p": "[Class-Balanced Loss Based on Effective Number of Samples](http://arxiv.org/abs/1901.05555v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/vandit15/Class-balanced-loss-pytorch)",
+      "n": "ResNet-152",
+      "d": "2019-01-16",
+      "m1": "69.05%"
+    },
+    {
+      "p": "[MetaSAug: Meta Semantic Augmentation for Long-Tailed Visual Recognition](https://arxiv.org/abs/2103.12579v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/BIT-DA/MetaSAug)",
+      "n": "MetaSAug",
+      "d": "2021-03-23",
+      "m1": "68.75%"
+    },
+    {
+      "p": "[Feature Space Augmentation for Long-Tailed Data](https://arxiv.org/abs/2008.03673v1)",
+      "c": "",
+      "n": "ResNet-101",
+      "d": "2020-08-09",
+      "m1": "68.39%"
+    },
+    {
+      "p": "[Class-Balanced Loss Based on Effective Number of Samples](http://arxiv.org/abs/1901.05555v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/vandit15/Class-balanced-loss-pytorch)",
+      "n": "ResNet-101",
+      "d": "2019-01-16",
+      "m1": "67.98%"
+    },
+    {
+      "p": "[LeViT: a Vision Transformer in ConvNet's Clothing for Faster Inference](https://arxiv.org/abs/2104.01136v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "LeViT-384",
+      "d": "2021-04-02",
+      "m1": "66.9%"
+    },
+    {
+      "p": "[LeViT: a Vision Transformer in ConvNet's Clothing for Faster Inference](https://arxiv.org/abs/2104.01136v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "LeViT-256",
+      "d": "2021-04-02",
+      "m1": "66.2%"
+    },
+    {
+      "p": "[Feature Space Augmentation for Long-Tailed Data](https://arxiv.org/abs/2008.03673v1)",
+      "c": "",
+      "n": "ResNet-50",
+      "d": "2020-08-09",
+      "m1": "65.91%"
+    },
+    {
+      "p": "[Boosting Discriminative Visual Representation Learning with Scenario-Agnostic Mixup](https://arxiv.org/abs/2111.15454v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Westlake-AI/openmixup)",
+      "n": "ResNet-50 (SAMix)",
+      "d": "2021-11-30",
+      "m1": "64.84%"
+    },
+    {
+      "p": "[AutoMix: Unveiling the Power of Mixup for Stronger Classifiers](https://arxiv.org/abs/2103.13027v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/Westlake-AI/openmixup)",
+      "n": "ResNet-50 (AutoMix)",
+      "d": "2021-03-24",
+      "m1": "64.73%"
+    },
+    {
+      "p": "[Incorporating Convolution Designs into Visual Transformers](https://arxiv.org/abs/2103.11816v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rishikksh20/CeiT-pytorch)",
+      "n": "CeiT-T",
+      "d": "2021-03-22",
+      "m1": "64.3%"
+    },
+    {
+      "p": "[ResMLP: Feedforward networks for image classification with data-efficient training](https://arxiv.org/abs/2105.03404v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "ResMLP-24",
+      "d": "2021-05-07",
+      "m1": "64.3"
+    },
+    {
+      "p": "[Class-Balanced Loss Based on Effective Number of Samples](http://arxiv.org/abs/1901.05555v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/vandit15/Class-balanced-loss-pytorch)",
+      "n": "ResNet-50",
+      "d": "2019-01-16",
+      "m1": "64.16%"
+    },
+    {
+      "p": "[LeViT: a Vision Transformer in ConvNet's Clothing for Faster Inference](https://arxiv.org/abs/2104.01136v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "LeViT-192",
+      "d": "2021-04-02",
+      "m1": "60.4%"
+    },
+    {
+      "p": "[The iNaturalist Species Classification and Detection Dataset](http://arxiv.org/abs/1707.06642v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+      "n": "Inception-V3",
+      "d": "2017-07-20",
+      "m1": "60.20%"
+    },
+    {
+      "p": "[ResMLP: Feedforward networks for image classification with data-efficient training](https://arxiv.org/abs/2105.03404v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "ResMLP-12",
+      "d": "2021-05-07",
+      "m1": "60.2"
+    },
+    {
+      "p": "[LeViT: a Vision Transformer in ConvNet's Clothing for Faster Inference](https://arxiv.org/abs/2104.01136v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "LeViT-128S",
+      "d": "2021-04-02",
+      "m1": "55.2%"
+    },
+    {
+      "p": "[LeViT: a Vision Transformer in ConvNet's Clothing for Faster Inference](https://arxiv.org/abs/2104.01136v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "LeViT-128",
+      "d": "2021-04-02",
+      "m1": "54%"
+    },
+    {
+      "p": "[ClusterFit: Improving Generalization of Visual Representations](https://arxiv.org/abs/1912.03330v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/vissl/blob/main/MODEL_ZOO.md)",
+      "n": "ResNet-50",
+      "d": "2019-12-06",
+      "m1": "49.7%"
+    },
+    {
+      "p": "[Unsupervised Learning of Visual Features by Contrasting Cluster Assignments](https://arxiv.org/abs/2006.09882v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection)",
+      "n": "ResNet-50",
+      "d": "2020-06-17",
+      "m1": "48.6"
+    },
+    {
+      "p": "[Barlow Twins: Self-Supervised Learning via Redundancy Reduction](https://arxiv.org/abs/2103.03230v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/lightly-ai/lightly)",
+      "n": "Barlow Twins (ResNet-50)",
+      "d": "2021-03-04",
+      "m1": "46.5"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,88 @@
+# video-denoising-on-set8-sigma30
+
+[Dataset Link]() \
+Task Hierarchy: ['Video', 'Video Denoising']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Learning Task-Oriented Flows to Mutually Guide Feature Alignment in Synthesized and Real Video Denoising](https://arxiv.org/abs/2208.11803v3)",
+      "c": "",
+      "n": "ReViD",
+      "d": "2022-08-25",
+      "m1": "33.78"
+    },
+    {
+      "p": "[VRT: A Video Restoration Transformer](https://arxiv.org/abs/2201.12288v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jingyunliang/vrt)",
+      "n": "VRT",
+      "d": "2022-01-28",
+      "m1": "33.35"
+    },
+    {
+      "p": "[Recurrent Video Restoration Transformer with Guided Deformable Attention](https://arxiv.org/abs/2206.02146v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/jingyunliang/rvrt)",
+      "n": "RVRT",
+      "d": "2022-06-05",
+      "m1": "33.3"
+    },
+    {
+      "p": "[Patch Craft: Video Denoising by Deep Modeling and Patch Matching](https://arxiv.org/abs/2103.13767v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/grishavak/PaCNet-denoiser)",
+      "n": "PaCNet",
+      "d": "2021-03-25",
+      "m1": "32.05"
+    },
+    {
+      "p": "[Unsupervised Deep Video Denoising](https://arxiv.org/abs/2011.15045v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/sreyas-mohan/udvd)",
+      "n": "UDVD",
+      "d": "2020-11-30",
+      "m1": "32.01"
+    },
+    {
+      "p": "[DVDnet: A Fast Network for Deep Video Denoising](https://arxiv.org/abs/1906.11890v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/m-tassano/dvdnet)",
+      "n": "DVDnet",
+      "d": "2019-06-04",
+      "m1": "31.79"
+    },
+    {
+      "p": "[FastDVDnet: Towards Real-Time Deep Video Denoising Without Flow Estimation](https://arxiv.org/abs/1907.01361v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/m-tassano/fastdvdnet)",
+      "n": "FastDVDnet",
+      "d": "2019-07-01",
+      "m1": "31.6"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

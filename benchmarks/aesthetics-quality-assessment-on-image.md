@@ -1,0 +1,76 @@
+# aesthetics-quality-assessment-on-image
+
+[Dataset Link](http://di.unito.it/beautyicwsm15) \
+Task Hierarchy: ['Image Quality Assessment', 'Aesthetics Quality Assessment']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "MAE",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[OrdinalCLIP: Learning Rank Prompts for Language-Guided Ordinal Regression](https://arxiv.org/abs/2206.02338v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/xk-huang/OrdinalCLIP)",
+      "n": "OrdinalCLIP",
+      "d": "2022-06-06",
+      "m1": "73.05",
+      "m2": "0.280"
+    },
+    {
+      "p": "[Learning Probabilistic Ordinal Embeddings for Uncertainty-Aware Regression](https://arxiv.org/abs/2103.13629v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Li-Wanhua/POEs)",
+      "n": "POE",
+      "d": "2021-03-25",
+      "m1": "72.44",
+      "m2": "0.287"
+    },
+    {
+      "p": "[Soft Labels for Ordinal Regression](http://openaccess.thecvf.com/content_CVPR_2019/html/Diaz_Soft_Labels_for_Ordinal_Regression_CVPR_2019_paper.html)",
+      "c": "",
+      "n": "SORD",
+      "d": "2019-06-01",
+      "m1": "72.03",
+      "m2": "0.290"
+    },
+    {
+      "p": "[A Constrained Deep Neural Network for Ordinal Regression](http://openaccess.thecvf.com/content_cvpr_2018/html/Liu_A_Constrained_Deep_CVPR_2018_paper.html)",
+      "c": "",
+      "n": "CNNPOR",
+      "d": "2018-06-01",
+      "m1": "70.05",
+      "m2": "0.316"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

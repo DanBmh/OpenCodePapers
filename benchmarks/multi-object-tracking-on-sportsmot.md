@@ -1,0 +1,300 @@
+# multi-object-tracking-on-sportsmot
+
+[Dataset Link](https://github.com/MCG-NJU/SportsMOT) \
+Task Hierarchy: ['Object Tracking', 'Multi-Object Tracking']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "HOTA",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "IDF1",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "AssA",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "MOTA",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "DetA",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[GTA: Global Tracklet Association for Multi-Object Tracking in Sports](https://arxiv.org/abs/2411.08216v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/sjc042/gta-link)",
+      "n": "DeepEIoU + GTA",
+      "d": "2024-11-12",
+      "m1": "81.0",
+      "m2": "86.5",
+      "m3": "74.5",
+      "m4": "96.3",
+      "m5": "88.2"
+    },
+    {
+      "p": "[History-Aware Transformation of ReID Features for Multiple Object Tracking](https://arxiv.org/abs/2503.12562v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/HELLORPG/HATReID-MOT)",
+      "n": "HAT-FastReID-MOT",
+      "d": "2025-03-16",
+      "m1": "80.8",
+      "m2": "84.7",
+      "m3": "73.1",
+      "m5": "89.4"
+    },
+    {
+      "p": "[CAMELTrack: Context-Aware Multi-cue ExpLoitation for Online Multi-Object Tracking](https://arxiv.org/abs/2505.01257v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/TrackingLaboratory/CAMELTrack)",
+      "n": "CAMELTrack (fully online)",
+      "d": "2025-05-02",
+      "m1": "80.4",
+      "m2": "84.8",
+      "m3": "72.8",
+      "m4": "96.3",
+      "m5": "88.8"
+    },
+    {
+      "p": "[Deep HM-SORT: Enhancing Multi-Object Tracking in Sports with Deep Features, Harmonic Mean, and Expansion IOU](https://arxiv.org/abs/2406.12081v1)",
+      "c": "",
+      "n": "Deep HM-SORT",
+      "d": "2024-06-17",
+      "m1": "80.1",
+      "m2": "85.2",
+      "m3": "72.7",
+      "m4": "96.6",
+      "m5": "88.3"
+    },
+    {
+      "p": "[Associate Everything Detected: Facilitating Tracking-by-Detection to the Unknown](https://arxiv.org/abs/2409.09293v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/balabooooo/aed)",
+      "n": "AED",
+      "d": "2024-09-14",
+      "m1": "79.1",
+      "m2": "81.8",
+      "m3": "70.1",
+      "m4": "97.1",
+      "m5": "89.4"
+    },
+    {
+      "p": "[Engineering an Efficient Object Tracker for Non-Linear Motion](https://arxiv.org/abs/2407.00738v1)",
+      "c": "",
+      "n": "DeepMoveSORT",
+      "d": "2024-06-30",
+      "m1": "78.7",
+      "m2": "81.7",
+      "m3": "70.3",
+      "m4": "96.5",
+      "m5": "88.1"
+    },
+    {
+      "p": "[Iterative Scale-Up ExpansionIoU and Deep Features Association for Multi-Object Tracking in Sports](https://arxiv.org/abs/2306.13074v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/hsiangwei0903/Deep-EIoU)",
+      "n": "Deep-EIoU",
+      "d": "2023-06-22",
+      "m1": "77.2",
+      "m2": "79.8",
+      "m3": "67.7",
+      "m4": "96.3",
+      "m5": "88.2"
+    },
+    {
+      "p": "[Beyond Kalman Filters: Deep Learning-Based Filters for Improved Object Tracking](https://arxiv.org/abs/2402.09865v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Robotmurlock/NODETracker)",
+      "n": "MoveSORT",
+      "d": "2024-02-15",
+      "m1": "74.6",
+      "m2": "76.9",
+      "m3": "63.7",
+      "m4": "96.7",
+      "m5": "87.5"
+    },
+    {
+      "p": "[ETTrack: Enhanced Temporal Motion Predictor for Multi-Object Tracking](https://arxiv.org/abs/2405.15755v1)",
+      "c": "",
+      "n": "ETTrack",
+      "d": "2024-05-24",
+      "m1": "74.3",
+      "m2": "74.5",
+      "m3": "62.1",
+      "m4": "96.8",
+      "m5": "88.8"
+    },
+    {
+      "p": "[SportsMOT: A Large Multi-Object Tracking Dataset in Multiple Sports Scenes](https://arxiv.org/abs/2304.05170v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/MCG-NJU/SportsMOT)",
+      "n": "MixSort-OC",
+      "d": "2023-04-11",
+      "m1": "74.1",
+      "m2": "74.4",
+      "m3": "62.0",
+      "m4": "96.5",
+      "m5": "88.5"
+    },
+    {
+      "p": "[MotionTrack: Learning Motion Predictor for Multiple Object Tracking](https://arxiv.org/abs/2306.02585v2)",
+      "c": "",
+      "n": "MotionTrack",
+      "d": "2023-06-05",
+      "m1": "74.0",
+      "m2": "74.0",
+      "m3": "61.7",
+      "m4": "96.6",
+      "m5": "88.8"
+    },
+    {
+      "p": "[Observation-Centric SORT: Rethinking SORT for Robust Multi-Object Tracking](https://arxiv.org/abs/2203.14360v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleDetection)",
+      "n": "OC-SORT",
+      "d": "2022-03-27",
+      "m1": "73.7",
+      "m2": "74.0",
+      "m3": "61.5",
+      "m4": "96.5",
+      "m5": "88.5"
+    },
+    {
+      "p": "[MambaMOT: State-Space Model as Motion Predictor for Multi-Object Tracking](https://arxiv.org/abs/2403.10826v2)",
+      "c": "",
+      "n": "MambaMOT",
+      "d": "2024-03-16",
+      "m1": "71.3",
+      "m2": "71.1",
+      "m3": "58.6",
+      "m4": "94.9",
+      "m5": "86.7"
+    },
+    {
+      "p": "[MeMOTR: Long-Term Memory-Augmented Transformer for Multi-Object Tracking](https://arxiv.org/abs/2307.15700v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/mcg-nju/memotr)",
+      "n": "MeMOTR",
+      "d": "2023-07-28",
+      "m1": "70.0",
+      "m2": "71.4",
+      "m3": "59.1",
+      "m4": "91.5",
+      "m5": "83.1"
+    },
+    {
+      "p": "[TransTrack: Multiple Object Tracking with Transformer](https://arxiv.org/abs/2012.15460v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/PeizeSun/TransTrack)",
+      "n": "TransTrack",
+      "d": "2020-12-31",
+      "m1": "68.9",
+      "m2": "71.5",
+      "m3": "57.5",
+      "m4": "92.6",
+      "m5": "82.7"
+    },
+    {
+      "p": "[MeMOTR: Long-Term Memory-Augmented Transformer for Multi-Object Tracking](https://arxiv.org/abs/2307.15700v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/mcg-nju/memotr)",
+      "n": "MeMOTR (Deformable-DETR)",
+      "d": "2023-07-28",
+      "m1": "68.8",
+      "m2": "69.9",
+      "m3": "57.8",
+      "m4": "90.2",
+      "m5": "82.0"
+    },
+    {
+      "p": "[SportsMOT: A Large Multi-Object Tracking Dataset in Multiple Sports Scenes](https://arxiv.org/abs/2304.05170v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/MCG-NJU/SportsMOT)",
+      "n": "MixSort-Byte",
+      "d": "2023-04-11",
+      "m1": "65.7",
+      "m2": "74.1",
+      "m3": "54.8",
+      "m4": "96.2",
+      "m5": "78.8"
+    },
+    {
+      "p": "[ByteTrack: Multi-Object Tracking by Associating Every Detection Box](https://arxiv.org/abs/2110.06864v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleDetection/tree/release/2.3/configs/mot)",
+      "n": "ByteTrack",
+      "d": "2021-10-13",
+      "m1": "64.1",
+      "m2": "71.4",
+      "m3": "52.3",
+      "m4": "95.9",
+      "m5": "78.5"
+    },
+    {
+      "p": "[Tracking Objects as Points](https://arxiv.org/abs/2004.01177v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleDetection)",
+      "n": "CenterTrack",
+      "d": "2020-04-02",
+      "m1": "62.7",
+      "m2": "60.0",
+      "m3": "48.0",
+      "m4": "90.8",
+      "m5": "82.1"
+    },
+    {
+      "p": "[Quasi-Dense Similarity Learning for Multiple Object Tracking](https://arxiv.org/abs/2006.06664v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/SysCV/qdtrack)",
+      "n": "QDTrack",
+      "d": "2020-06-11",
+      "m1": "60.4",
+      "m2": "62.3",
+      "m3": "47.2",
+      "m4": "90.1",
+      "m5": "77.5"
+    },
+    {
+      "p": "[Global Tracking Transformers](https://arxiv.org/abs/2203.13250v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/xingyizhou/GTR)",
+      "n": "GTR",
+      "d": "2022-03-24",
+      "m1": "54.5",
+      "m2": "55.8",
+      "m3": "45.9",
+      "m4": "67.9",
+      "m5": "64.8"
+    },
+    {
+      "p": "[FairMOT: On the Fairness of Detection and Re-Identification in Multiple Object Tracking](https://arxiv.org/abs/2004.01888v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleDetection)",
+      "n": "FairMOT",
+      "d": "2020-04-04",
+      "m1": "49.3",
+      "m2": "53.5",
+      "m3": "34.7",
+      "m4": "86.4",
+      "m5": "70.2"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

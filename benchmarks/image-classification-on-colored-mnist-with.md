@@ -1,0 +1,81 @@
+# image-classification-on-colored-mnist-with
+
+[Dataset Link]() \
+Task Hierarchy: ['Image Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy ",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[DecAug: Out-of-Distribution Generalization via Decomposed Feature Representation and Semantic Augmentation](https://arxiv.org/abs/2012.09382v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/HaoyueBaiZJU/DecAug)",
+      "n": "MLP-DecAug",
+      "d": "2020-12-17",
+      "m1": "69.60"
+    },
+    {
+      "p": "[Out-of-Distribution Generalization via Risk Extrapolation (REx)](https://arxiv.org/abs/2003.00688v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/thuml/Transfer-Learning-Library)",
+      "n": "MLP-REx",
+      "d": "2020-03-02",
+      "m1": "68.70"
+    },
+    {
+      "p": "[Invariant Risk Minimization](https://arxiv.org/abs/1907.02893v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/thuml/Transfer-Learning-Library)",
+      "n": "MLP-IRM",
+      "d": "2019-07-05",
+      "m1": "66.9"
+    },
+    {
+      "p": "[Invariant Risk Minimization Games](https://arxiv.org/abs/2002.04692v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/IBM/OoD)",
+      "n": "F-IRMGames",
+      "d": "2020-02-11",
+      "m1": "59.91"
+    },
+    {
+      "p": "[Empirical Risk Minimization for Stochastic Convex Optimization: $O(1/n)$- and $O(1/n^2)$-type of Risk Bounds](http://arxiv.org/abs/1702.02030v1)",
+      "c": "",
+      "n": "MLP-ERM",
+      "d": "2017-02-07",
+      "m1": "17.10"
+    },
+    {
+      "p": "[Domain Generalization by Solving Jigsaw Puzzles](http://arxiv.org/abs/1903.06864v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/fmcarlucci/JigenDG)",
+      "n": "JiGen",
+      "d": "2019-03-16",
+      "m1": "11.91"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

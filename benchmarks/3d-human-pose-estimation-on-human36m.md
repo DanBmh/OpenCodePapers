@@ -1,0 +1,879 @@
+# 3d-human-pose-estimation-on-human36m
+
+[Dataset Link](http://vision.imar.ro/human3.6m/description.php) \
+Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', '3D Human Pose Estimation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Average MPJPE (mm)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Using 2D ground-truth joints",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Multi-View or Monocular",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "PA-MPJPE",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "Acceleration Error",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "Angular Error",
+      "sortable": "true"
+    },
+    {
+      "key": "m7",
+      "label": "MPVE (mm)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Learnable human mesh triangulation for 3D human pose and shape estimation](https://arxiv.org/abs/2208.11251v1)",
+      "c": "",
+      "n": "LMT R152 384x384",
+      "d": "2022-08-24",
+      "m1": "17.59",
+      "m2": "No",
+      "m3": "Multi-View",
+      "m6": "11.33",
+      "m7": "23.7"
+    },
+    {
+      "p": "[Geometry-Biased Transformer for Robust Multi-View 3D Human Pose Reconstruction](https://arxiv.org/abs/2312.17106v1)",
+      "c": "",
+      "n": "Geometry-Biased Transformer (HRNet)",
+      "d": "2023-12-28",
+      "m1": "26.0",
+      "m2": "No",
+      "m3": "Multi-View"
+    },
+    {
+      "p": "[Epipolar Transformers](https://arxiv.org/abs/2005.04551v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yihui-he/epipolar-transformers)",
+      "n": "Epipolar Transformer+R50 256\u00d7256+RPSM",
+      "d": "2020-05-10",
+      "m1": "26.9",
+      "m2": "No",
+      "m3": "Multi-View"
+    },
+    {
+      "p": "[Adaptive Multi-view and Temporal Fusing Transformer for 3D Human Pose Estimation](https://arxiv.org/abs/2110.05092v2)",
+      "c": "",
+      "n": "MTF-Transformer (M=0.4, T=7)",
+      "d": "2021-10-11",
+      "m1": "28.5",
+      "m2": "No",
+      "m3": "Multi-View"
+    },
+    {
+      "p": "[Generalizable Human Pose Triangulation](https://arxiv.org/abs/2110.00280v3)",
+      "c": "",
+      "n": "Generalizable Human Pose Triangulation",
+      "d": "2021-10-01",
+      "m1": "29.1",
+      "m2": "No",
+      "m3": "Multi-View"
+    },
+    {
+      "p": "[Adaptive Multi-view and Temporal Fusing Transformer for 3D Human Pose Estimation](https://arxiv.org/abs/2110.05092v2)",
+      "c": "",
+      "n": "MTF-Transformer (M=0.4, T=1)",
+      "d": "2021-10-11",
+      "m1": "29.4",
+      "m2": "No",
+      "m3": "Multi-View"
+    },
+    {
+      "p": "[Real-Time Multi-View 3D Human Pose Estimation using Semantic Feedback to Smart Edge Sensors](https://arxiv.org/abs/2106.14729v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/AIS-Bonn/SmartEdgeSensor3DHumanPose)",
+      "n": "SmartEdgeSensor",
+      "d": "2021-06-28",
+      "m1": "29.8",
+      "m2": "No",
+      "m3": "Multi-View"
+    },
+    {
+      "p": "[Lightweight Multi-View 3D Pose Estimation through Camera-Disentangled Representation](https://arxiv.org/abs/2004.02186v2)",
+      "c": "",
+      "n": "LWCDR",
+      "d": "2020-04-05",
+      "m1": "30.2",
+      "m2": "No",
+      "m3": "Multi-View"
+    },
+    {
+      "p": "[Learnable human mesh triangulation for 3D human pose and shape estimation](https://arxiv.org/abs/2208.11251v1)",
+      "c": "",
+      "n": "LMT R50 224x224",
+      "d": "2022-08-24",
+      "m1": "30.56",
+      "m2": "No",
+      "m3": "Multi-View",
+      "m6": "14.61",
+      "m7": "42.28"
+    },
+    {
+      "p": "[FLEX: Extrinsic Parameters-free Multi-view 3D Human Motion Reconstruction](https://arxiv.org/abs/2105.01937v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/BrianG13/FLEX)",
+      "n": "FLEX",
+      "d": "2021-05-05",
+      "m1": "30.9",
+      "m2": "No",
+      "m3": "Multi-View"
+    },
+    {
+      "p": "[Cross View Fusion for 3D Human Pose Estimation](https://arxiv.org/abs/1909.01203v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/multiview-human-pose-estimation-pytorch)",
+      "n": "Fusion-RPSM (t=10)",
+      "d": "2019-09-03",
+      "m1": "31.17",
+      "m2": "No",
+      "m3": "Multi-View"
+    },
+    {
+      "p": "[KTPFormer: Kinematics and Trajectory Prior Knowledge-Enhanced Transformer for 3D Human Pose Estimation](https://arxiv.org/abs/2404.00658v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/JihuaPeng/KTPFormer)",
+      "n": "KTPFormer (T=243)",
+      "d": "2024-03-31",
+      "m1": "33.0",
+      "m2": "No",
+      "m3": "Monocular",
+      "m4": "26.2"
+    },
+    {
+      "p": "[Differentiable Dynamics for Articulated 3d Human Motion Reconstruction](https://arxiv.org/abs/2205.12256v1)",
+      "c": "",
+      "n": "DiffPhy (W=480)",
+      "d": "2022-05-24",
+      "m1": "33.4",
+      "m2": "No",
+      "m3": "Monocular",
+      "m4": "21.9"
+    },
+    {
+      "p": "[PoseRN: A 2D pose refinement network for bias-free multi-view 3D human pose estimation](https://arxiv.org/abs/2107.03000v1)",
+      "c": "",
+      "n": "PoseRN",
+      "d": "2021-07-07",
+      "m1": "38.4",
+      "m2": "No",
+      "m3": "Multi-View"
+    },
+    {
+      "p": "[SoloPose: One-Shot Kinematic 3D Human Pose Estimation with Video Data Augmentation](https://arxiv.org/abs/2312.10195v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Santa-Clara-Media-Lab/SoloPose)",
+      "n": "SoloPose",
+      "d": "2023-12-15",
+      "m1": " 38.9",
+      "m2": "No",
+      "m3": "Monocular",
+      "m4": "29.9"
+    },
+    {
+      "p": "[Consensus-based Optimization for 3D Human Pose Estimation in Camera Coordinates](https://arxiv.org/abs/1911.09245v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/dluvizon/3d-pose-consensus)",
+      "n": "Pose Consensus (multi-view, GT calib.)",
+      "d": "2019-11-21",
+      "m1": "39",
+      "m2": "No",
+      "m3": "Multi-View"
+    },
+    {
+      "p": "[MixSTE: Seq2seq Mixed Spatio-Temporal Encoder for 3D Human Pose Estimation in Video](https://arxiv.org/abs/2203.00859v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/JinluZhang1126/MixSTE)",
+      "n": "MixSTE (HRNet, T=243)",
+      "d": "2022-03-02",
+      "m1": "39.8",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[3D Human Pose Estimation using Spatio-Temporal Networks with Explicit Occlusion Training](https://arxiv.org/abs/2004.11822v1)",
+      "c": "",
+      "n": "Spatio-Temporal Network (T=128)",
+      "d": "2020-04-07",
+      "m1": "40.1",
+      "m2": "No",
+      "m3": "Monocular",
+      "m4": "30.7"
+    },
+    {
+      "p": "[IVT: An End-to-End Instance-guided Video Transformer for 3D Pose Estimation](https://arxiv.org/abs/2208.03431v1)",
+      "c": "",
+      "n": "IVT (f=5)",
+      "d": "2022-08-06",
+      "m1": "40.2",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[Graph and Temporal Convolutional Networks for 3D Multi-person Pose Estimation in Monocular Videos](https://arxiv.org/abs/2012.11806v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/3dpose/GnTCN)",
+      "n": "GnTCN",
+      "d": "2020-12-22",
+      "m1": "40.9",
+      "m2": "No",
+      "m3": "Monocular",
+      "m4": "30.4"
+    },
+    {
+      "p": "[MixSTE: Seq2seq Mixed Spatio-Temporal Encoder for 3D Human Pose Estimation in Video](https://arxiv.org/abs/2203.00859v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/JinluZhang1126/MixSTE)",
+      "n": "MixSTE (CPN, T=243)",
+      "d": "2022-03-02",
+      "m1": "40.9",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[Conditional Directed Graph Convolution for 3D Human Pose Estimation](https://arxiv.org/abs/2107.07797v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tamasino52/U-CondDGCN)",
+      "n": "U-CondDGConv",
+      "d": "2021-07-16",
+      "m1": "41.1",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[P-STMO: Pre-Trained Spatial Temporal Many-to-One Model for 3D Human Pose Estimation](https://arxiv.org/abs/2203.07628v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/patrick-swk/p-stmo)",
+      "n": "P-STMO (N=243)",
+      "d": "2022-03-15",
+      "m1": "42.1",
+      "m2": "No",
+      "m3": "Monocular",
+      "m4": "34.4"
+    },
+    {
+      "p": "[MixSTE: Seq2seq Mixed Spatio-Temporal Encoder for 3D Human Pose Estimation in Video](https://arxiv.org/abs/2203.00859v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/JinluZhang1126/MixSTE)",
+      "n": "MixSTE (CPN, T=81)",
+      "d": "2022-03-02",
+      "m1": "42.4",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[Motion Guided 3D Pose Estimation from Videos](https://arxiv.org/abs/2004.13985v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tamasino52/UGCN)",
+      "n": "UGCN (HR-Net)",
+      "d": "2020-04-29",
+      "m1": "42.6",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[Occlusion-Aware Networks for 3D Human Pose Estimation in Video](http://openaccess.thecvf.com/content_ICCV_2019/html/Cheng_Occlusion-Aware_Networks_for_3D_Human_Pose_Estimation_in_Video_ICCV_2019_paper.html)",
+      "c": "",
+      "n": "Occlusion-Aware Networks",
+      "d": "2019-10-01",
+      "m1": "42.9",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[MHFormer: Multi-Hypothesis Transformer for 3D Human Pose Estimation](https://arxiv.org/abs/2111.12707v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/Vegetebird/MHFormer)",
+      "n": "MHFormer",
+      "d": "2021-11-24",
+      "m1": "43",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[ConvFormer: Parameter Reduction in Transformer Models for 3D Human Pose Estimation by Leveraging Dynamic Multi-Headed Convolutional Attention](https://arxiv.org/abs/2304.02147v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ajda1992/convformer)",
+      "n": "ConvFormer (T=243, CPN)",
+      "d": "2023-04-04",
+      "m1": "43.2",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[Context Modeling in 3D Human Pose Estimation: A Unified Perspective](https://arxiv.org/abs/2103.15507v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ShirleyMaxx/ContextPose-PyTorch-release)",
+      "n": "ContextPose",
+      "d": "2021-03-29",
+      "m1": "43.4",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[CrossFormer: Cross Spatio-Temporal Transformer for 3D Human Pose Estimation](https://arxiv.org/abs/2203.13387v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/mfawzy/CrossFormer)",
+      "n": "CrossFormer (T=81)",
+      "d": "2022-03-24",
+      "m1": "43.7",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[Exploiting Temporal Contexts with Strided Transformer for 3D Human Pose Estimation](https://arxiv.org/abs/2103.14304v8)",
+      "c": "[&check;&nbsp;Link](https://github.com/Vegetebird/StridedTransformer-Pose3D)",
+      "n": "StridedTransformer (T=351)",
+      "d": "2021-03-26",
+      "m1": "43.7",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[Exploiting Temporal Contexts with Strided Transformer for 3D Human Pose Estimation](https://arxiv.org/abs/2103.14304v8)",
+      "c": "[&check;&nbsp;Link](https://github.com/Vegetebird/StridedTransformer-Pose3D)",
+      "n": "StridedTransformer (T=243)",
+      "d": "2021-03-26",
+      "m1": "44",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[Anatomy-aware 3D Human Pose Estimation with Bone-based Pose Decomposition](https://arxiv.org/abs/2002.10322v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/sunnychencool/Anatomy3D)",
+      "n": "Anatomy3D",
+      "d": "2020-02-24",
+      "m1": "44.1",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[P-STMO: Pre-Trained Spatial Temporal Many-to-One Model for 3D Human Pose Estimation](https://arxiv.org/abs/2203.07628v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/patrick-swk/p-stmo)",
+      "n": "P-STMO-S (N=81)",
+      "d": "2022-03-15",
+      "m1": "44.1",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[3D Human Pose Estimation with Spatial and Temporal Transformers](https://arxiv.org/abs/2103.10455v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/zczcwh/PoseFormer)",
+      "n": "PoseFormer (f=81)",
+      "d": "2021-03-18",
+      "m1": "44.3",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[Improving Robustness and Accuracy via Relative Information Encoding in 3D Human Pose Estimation](https://arxiv.org/abs/2107.13994v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/paTRICK-swk/Pose3D-RIE)",
+      "n": "RIE (T=243 CPN)",
+      "d": "2021-07-29",
+      "m1": "44.3",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[Probabilistic Monocular 3D Human Pose Estimation with Normalizing Flows](https://arxiv.org/abs/2107.13788v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/twehrbein/Probabilistic-Monocular-3D-Human-Pose-Estimation-with-Normalizing-Flows)",
+      "n": "Probabilistic Monocular (T=200)",
+      "d": "2021-07-29",
+      "m1": "44.3",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[Shape-Aware Human Pose and Shape Reconstruction Using Multi-View Images](https://arxiv.org/abs/1908.09464v1)",
+      "c": "",
+      "n": "Shape-aware SMPL",
+      "d": "2019-08-26",
+      "m1": "44.4",
+      "m2": "No",
+      "m3": "Multi-View"
+    },
+    {
+      "p": "[TesseTrack: End-to-End Learnable Multi-Person Articulated 3D Pose Tracking](http://www.cs.cmu.edu/~ILIM/projects/IM/TesseTrack/)",
+      "c": "",
+      "n": "TesseTrack (Monocular)",
+      "d": "2021-06-16",
+      "m1": "44.6",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[SRNet: Improving Generalization in 3D Human Pose Estimation with a Split-and-Recombine Approach](https://arxiv.org/abs/2007.09389v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ailingzengzzz/Split-and-Recombine-Net)",
+      "n": "SRNet (T=243)",
+      "d": "2020-07-18",
+      "m1": "44.8",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[Enhanced 3D Human Pose Estimation from Videos by using Attention-Based Neural Network with Dilated Convolutions](https://arxiv.org/abs/2103.03170v1)",
+      "c": "",
+      "n": "Attention (T=243 CPN)",
+      "d": "2021-03-04",
+      "m1": "44.8",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[Motion Projection Consistency Based 3D Human Pose Estimation with Virtual Bones from Monocular Videos](https://arxiv.org/abs/2106.14706v2)",
+      "c": "",
+      "n": "Virtual Bones (T=243 CPN)",
+      "d": "2021-06-28",
+      "m1": "44.8",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[Consensus-based Optimization for 3D Human Pose Estimation in Camera Coordinates](https://arxiv.org/abs/1911.09245v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/dluvizon/3d-pose-consensus)",
+      "n": "Pose Consensus (multi-view, est. calib.)",
+      "d": "2019-11-21",
+      "m1": "45",
+      "m2": "No",
+      "m3": "Multi-View"
+    },
+    {
+      "p": "[HEMlets Pose: Learning Part-Centric Heatmap Triplets for Accurate 3D Human Pose Estimation](https://arxiv.org/abs/1910.12032v1)",
+      "c": "",
+      "n": "HEMlets Pose",
+      "d": "2019-10-26",
+      "m1": "45.1",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[Attention Mechanism Exploits Temporal Contexts: Real-Time 3D Human Pose Reconstruction](http://openaccess.thecvf.com/content_CVPR_2020/html/Liu_Attention_Mechanism_Exploits_Temporal_Contexts_Real-Time_3D_Human_Pose_Reconstruction_CVPR_2020_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/lrxjason/Attention3DHumanPose)",
+      "n": "Attention3DHumanPose (T=243 CPN)",
+      "d": "2020-06-01",
+      "m1": "45.1",
+      "m2": "No",
+      "m3": "Multi-View"
+    },
+    {
+      "p": "[Exploiting Temporal Contexts with Strided Transformer for 3D Human Pose Estimation](https://arxiv.org/abs/2103.14304v8)",
+      "c": "[&check;&nbsp;Link](https://github.com/Vegetebird/StridedTransformer-Pose3D)",
+      "n": "StridedTransformer (T=81)",
+      "d": "2021-03-26",
+      "m1": "45.4",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[Double-chain Constraints for 3D Human Pose Estimation in Images and Videos](https://arxiv.org/abs/2308.05298v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/KHB1698/DC-GCT)",
+      "n": "DC-GCT(T=1)",
+      "d": "2023-08-10",
+      "m1": "46.1",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[Trajectory Space Factorization for Deep Video-Based 3D Human Pose Estimation](https://arxiv.org/abs/1908.08289v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jiahaoLjh/trajectory-pose-3d)",
+      "n": "Trajectory Space Factorization (50 frames)",
+      "d": "2019-08-22",
+      "m1": "46.6",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[3D human pose estimation in video with temporal convolutions and semi-supervised training](http://arxiv.org/abs/1811.11742v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmpose)",
+      "n": "VideoPose3D (T=243)",
+      "d": "2018-11-28",
+      "m1": "46.8",
+      "m2": "No",
+      "m3": "Monocular",
+      "m4": "36.5"
+    },
+    {
+      "p": "[Exploiting Temporal Contexts with Strided Transformer for 3D Human Pose Estimation](https://arxiv.org/abs/2103.14304v8)",
+      "c": "[&check;&nbsp;Link](https://github.com/Vegetebird/StridedTransformer-Pose3D)",
+      "n": "StridedTransformer (T=27)",
+      "d": "2021-03-26",
+      "m1": "46.9",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[Motion Projection Consistency Based 3D Human Pose Estimation with Virtual Bones from Monocular Videos](https://arxiv.org/abs/2106.14706v2)",
+      "c": "",
+      "n": "Virtual Bones (T=9 CPN)",
+      "d": "2021-06-28",
+      "m1": "47.4",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[Learning Skeletal Graph Neural Networks for Hard 3D Pose Estimation](https://arxiv.org/abs/2108.07181v2)",
+      "c": "",
+      "n": "Skeletal GNN",
+      "d": "2021-08-16",
+      "m1": "47.9",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[GraphMLP: A Graph MLP-Like Architecture for 3D Human Pose Estimation](https://arxiv.org/abs/2206.06420v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/vegetebird/graphmlp)",
+      "n": "GraphMLP",
+      "d": "2022-06-13",
+      "m1": "48",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[Exploiting Spatial-Temporal Relationships for 3D Pose Estimation via Graph Convolutional Networks](http://openaccess.thecvf.com/content_ICCV_2019/html/Cai_Exploiting_Spatial-Temporal_Relationships_for_3D_Pose_Estimation_via_Graph_Convolutional_ICCV_2019_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/vanoracai/Exploiting-Spatial-temporal-Relationships-for-3D-Pose-Estimation-via-Graph-Convolutional-Networks)",
+      "n": "STRGCN (T=7)",
+      "d": "2019-10-01",
+      "m1": "48.8",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[Exploiting Spatial-Temporal Relationships for 3D Pose Estimation via Graph Convolutional Networks](http://openaccess.thecvf.com/content_ICCV_2019/html/Cai_Exploiting_Spatial-Temporal_Relationships_for_3D_Pose_Estimation_via_Graph_Convolutional_ICCV_2019_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/vanoracai/Exploiting-Spatial-temporal-Relationships-for-3D-Pose-Estimation-via-Graph-Convolutional-Networks)",
+      "n": "STRGCN (T=3)",
+      "d": "2019-10-01",
+      "m1": "49.1",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[Learning Pyramid-structured Long-range Dependencies for 3D Human Pose Estimation](https://arxiv.org/abs/2506.02853v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/MingjieWe/PGFormer)",
+      "n": "DiffPyramid (CPN)",
+      "d": "2025-06-03",
+      "m1": "49.2",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[Dual networks based 3D Multi-Person Pose Estimation from Monocular Video](https://arxiv.org/abs/2205.00748v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/3dpose/3D-Multi-Person-Pose)",
+      "n": "Dual network",
+      "d": "2022-05-02",
+      "m1": "49.31",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[Modulated Graph Convolutional Network for 3D Human Pose Estimation](http://openaccess.thecvf.com//content/ICCV2021/html/Zou_Modulated_Graph_Convolutional_Network_for_3D_Human_Pose_Estimation_ICCV_2021_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhimingzo/modulated-gcn)",
+      "n": "Modulated-GCN",
+      "d": "2021-01-01",
+      "m1": "49.4",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[Adaptive Multi-view and Temporal Fusing Transformer for 3D Human Pose Estimation](https://arxiv.org/abs/2110.05092v2)",
+      "c": "",
+      "n": "MTF-Transformer (M=0.4, T=7, N=1)",
+      "d": "2021-10-11",
+      "m1": "49.4",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[Learning Pyramid-structured Long-range Dependencies for 3D Human Pose Estimation](https://arxiv.org/abs/2506.02853v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/MingjieWe/PGFormer)",
+      "n": "PGFormer (CPN)",
+      "d": "2025-06-03",
+      "m1": "49.5",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[Generating Multiple Hypotheses for 3D Human Pose Estimation with Mixture Density Network](http://arxiv.org/abs/1904.05547v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/chaneyddtt/Generating-Multiple-Hypotheses-for-3D-Human-Pose-Estimation-with-Mixture-Density-Network)",
+      "n": "MDN (Multi-View)",
+      "d": "2019-04-11",
+      "m1": "49.6",
+      "m2": "No",
+      "m3": "Multi-View"
+    },
+    {
+      "p": "[Ray3D: ray-based 3D human pose estimation for monocular absolute 3D localization](https://arxiv.org/abs/2203.11471v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/YxZhxn/Ray3D)",
+      "n": "Ray3D (T=9 CPN)",
+      "d": "2022-03-22",
+      "m1": "49.7",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[SRNet: Improving Generalization in 3D Human Pose Estimation with a Split-and-Recombine Approach](https://arxiv.org/abs/2007.09389v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ailingzengzzz/Split-and-Recombine-Net)",
+      "n": "SRNet (T=1)",
+      "d": "2020-07-18",
+      "m1": "49.9",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[PoseAug: A Differentiable Pose Augmentation Framework for 3D Human Pose Estimation](https://arxiv.org/abs/2105.02465v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jfzhang95/PoseAug)",
+      "n": "HR-Net+VPose+PoseAug",
+      "d": "2021-05-06",
+      "m1": "50.2",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[Jointformer: Single-Frame Lifting Transformer with Error Prediction and Refinement for 3D Human Pose Estimation](https://arxiv.org/abs/2208.03704v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/seblutz/JointFormer)",
+      "n": "Jointformer (CPN)",
+      "d": "2022-08-07",
+      "m1": "50.5",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[Learning Temporal 3D Human Pose Estimation with Pseudo-Labels](https://arxiv.org/abs/2110.07578v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/vru2020/Pose_3D)",
+      "n": "Multi-view Temporal self-supervised",
+      "d": "2021-10-14",
+      "m1": "50.6",
+      "m2": "No",
+      "m3": "Multi-View"
+    },
+    {
+      "p": "[Exploiting Spatial-Temporal Relationships for 3D Pose Estimation via Graph Convolutional Networks](http://openaccess.thecvf.com/content_ICCV_2019/html/Cai_Exploiting_Spatial-Temporal_Relationships_for_3D_Pose_Estimation_via_Graph_Convolutional_ICCV_2019_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/vanoracai/Exploiting-Spatial-temporal-Relationships-for-3D-Pose-Estimation-via-Graph-Convolutional-Networks)",
+      "n": "STRGCN (T=1)",
+      "d": "2019-10-01",
+      "m1": "50.6",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[Adaptive Multi-view and Temporal Fusing Transformer for 3D Human Pose Estimation](https://arxiv.org/abs/2110.05092v2)",
+      "c": "",
+      "n": "MTF-Transformer (M=0.4, T=1, N=1)",
+      "d": "2021-10-11",
+      "m1": "50.7",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[PoseAug: A Differentiable Pose Augmentation Framework for 3D Human Pose Estimation](https://arxiv.org/abs/2105.02465v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jfzhang95/PoseAug)",
+      "n": "HR-Net+ST-GCN+PoseAug",
+      "d": "2021-05-06",
+      "m1": "50.8",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[Cascaded deep monocular 3D human pose estimation with evolutionary training data](https://arxiv.org/abs/2006.07778v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Nicholasli1995/EvoSkeleton)",
+      "n": "TAG-Net",
+      "d": "2020-06-14",
+      "m1": "50.9",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[Compressed Volumetric Heatmaps for Multi-Person 3D Pose Estimation](https://arxiv.org/abs/2004.00329v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/fabbrimatteo/LoCO)",
+      "n": "LoCO",
+      "d": "2020-04-01",
+      "m1": "51.1",
+      "m2": "No",
+      "m3": "Monocular",
+      "m4": "43.4"
+    },
+    {
+      "p": "[3D human pose estimation in video with temporal convolutions and semi-supervised training](http://arxiv.org/abs/1811.11742v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmpose)",
+      "n": "VideoPose3D (T=1)",
+      "d": "2018-11-28",
+      "m1": "51.8",
+      "m2": "No",
+      "m3": "Monocular",
+      "m4": "40"
+    },
+    {
+      "p": "[Graph Stacked Hourglass Networks for 3D Human Pose Estimation](https://arxiv.org/abs/2103.16385v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tamasino52/GraphSH)",
+      "n": "Graph Stacked Hourglass Network (CPN)",
+      "d": "2021-03-30",
+      "m1": "51.9",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[Consensus-based Optimization for 3D Human Pose Estimation in Camera Coordinates](https://arxiv.org/abs/1911.09245v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/dluvizon/3d-pose-consensus)",
+      "n": "Pose Consensus (monocular)",
+      "d": "2019-11-21",
+      "m1": "52",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[3D Human Pose Estimation Using M\u00f6bius Graph Convolutional Networks](https://arxiv.org/abs/2203.10554v1)",
+      "c": "",
+      "n": "M\u00f6biusGCN",
+      "d": "2022-03-20",
+      "m1": "52.1",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[PoseLifter: Absolute 3D human pose lifting network from a single noisy 2D human pose](https://arxiv.org/abs/1910.12029v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/juyongchang/PoseLifter)",
+      "n": "PoseLifter",
+      "d": "2019-10-26",
+      "m1": "52.5",
+      "m2": "No",
+      "m3": "Monocular",
+      "m4": "39.1"
+    },
+    {
+      "p": "[Generating Multiple Hypotheses for 3D Human Pose Estimation with Mixture Density Network](http://arxiv.org/abs/1904.05547v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/chaneyddtt/Generating-Multiple-Hypotheses-for-3D-Human-Pose-Estimation-with-Mixture-Density-Network)",
+      "n": "MDN",
+      "d": "2019-04-11",
+      "m1": "52.7",
+      "m2": "No",
+      "m3": "Monocular",
+      "m4": "42.6"
+    },
+    {
+      "p": "[Optimizing Network Structure for 3D Human Pose Estimation](http://openaccess.thecvf.com/content_ICCV_2019/html/Ci_Optimizing_Network_Structure_for_3D_Human_Pose_Estimation_ICCV_2019_paper.html)",
+      "c": "",
+      "n": "ONS LCN",
+      "d": "2019-10-01",
+      "m1": "52.7",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[Semantic Graph Convolutional Networks for 3D Human Pose Regression](https://arxiv.org/abs/1904.03345v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/garyzhao/SemGCN)",
+      "n": "SemGCN",
+      "d": "2019-04-06",
+      "m1": "57.6",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[Generalizing Monocular 3D Human Pose Estimation in the Wild](http://arxiv.org/abs/1904.05512v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/llcshappy/Monocular-3D-Human-Pose)",
+      "n": "Stereoscopic View Synthesis Subnetwork",
+      "d": "2019-04-11",
+      "m1": "58",
+      "m2": "No",
+      "m3": "Multi-View"
+    },
+    {
+      "p": "[Exploiting temporal information for 3D pose estimation](http://arxiv.org/abs/1711.08585v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/rayat137/Pose_3D)",
+      "n": "Sequence-to-sequence network",
+      "d": "2017-11-23",
+      "m1": "58.5",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[TAPE: Temporal Attention-based Probabilistic human pose and shape Estimation](https://arxiv.org/abs/2305.00181v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nikosvasilik/tape)",
+      "n": "TAPE (T=16)",
+      "d": "2023-04-29",
+      "m1": "60",
+      "m2": "No",
+      "m3": "Monocular",
+      "m4": "39.5",
+      "m5": "6.5"
+    },
+    {
+      "p": "[Probabilistic Monocular 3D Human Pose Estimation with Normalizing Flows](https://arxiv.org/abs/2107.13788v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/twehrbein/Probabilistic-Monocular-3D-Human-Pose-Estimation-with-Normalizing-Flows)",
+      "n": "Probabilistic Monocular (T=1)",
+      "d": "2021-07-29",
+      "m1": "61.8",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[Self-Supervised 3D Human Pose Estimation with Multiple-View Geometry](https://arxiv.org/abs/2108.07777v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/vru2020/Pose_3D)",
+      "n": "2D-3D Lifting self-supervised",
+      "d": "2021-08-17",
+      "m1": "62.0",
+      "m2": "No",
+      "m3": "Multi-View"
+    },
+    {
+      "p": "[A simple yet effective baseline for 3d human pose estimation](http://arxiv.org/abs/1705.03098v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmpose)",
+      "n": "SIM (SH detections FT) (MA)",
+      "d": "2017-05-08",
+      "m1": "62.9",
+      "m2": "No",
+      "m3": "Monocular"
+    },
+    {
+      "p": "[VoxelKeypointFusion: Generalizable Multi-View Multi-Person Pose Estimation](https://arxiv.org/abs/2410.18723v3)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/Percipiote/VoxelKeypointFusion)",
+      "n": "VoxelKeypointFusion (transfer)",
+      "d": "2024-10-24",
+      "m1": "64.3",
+      "m2": "No",
+      "m3": "Multi-View"
+    },
+    {
+      "p": "[VIBE: Video Inference for Human Body Pose and Shape Estimation](https://arxiv.org/abs/1912.05656v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/mkocabas/VIBE)",
+      "n": "VIBE",
+      "d": "2019-12-11",
+      "m1": "65.6",
+      "m2": "No",
+      "m3": "Monocular",
+      "m4": "41.4"
+    },
+    {
+      "p": "[CanonPose: Self-Supervised Monocular 3D Human Pose Estimation in the Wild](https://arxiv.org/abs/2011.14679v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/bastianwandt/CanonPose)",
+      "n": "CanonPose",
+      "d": "2020-11-30",
+      "m1": "74.3",
+      "m2": "No",
+      "m3": "MultiView"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

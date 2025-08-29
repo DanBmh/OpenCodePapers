@@ -1,0 +1,104 @@
+# unsupervised-kg-to-text-generation-on-genwiki-1
+
+[Dataset Link](https://github.com/zhijing-jin/genwiki) \
+Task Hierarchy: ['Data-to-Text Generation', 'Unsupervised KG-to-Text Generation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "BLEU",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "METEOR",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "ROUGE-L",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "CIDEr",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[GenWiki: A Dataset of 1.3 Million Content-Sharing Text and Graphs for Unsupervised Graph-to-Text Generation](https://aclanthology.org/2020.coling-main.217/)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhijing-jin/genwiki)",
+      "n": "CycleGT_Base",
+      "d": "2020-12-01",
+      "m1": "41.29",
+      "m2": "35.39",
+      "m3": "63.73",
+      "m4": "3.53"
+    },
+    {
+      "p": "[GenWiki: A Dataset of 1.3 Million Content-Sharing Text and Graphs for Unsupervised Graph-to-Text Generation](https://aclanthology.org/2020.coling-main.217/)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhijing-jin/genwiki)",
+      "n": "CycleGT_Warm",
+      "d": "2020-12-01",
+      "m1": "40.47",
+      "m2": "34.84",
+      "m3": "63.40",
+      "m4": "3.48"
+    },
+    {
+      "p": "[GenWiki: A Dataset of 1.3 Million Content-Sharing Text and Graphs for Unsupervised Graph-to-Text Generation](https://aclanthology.org/2020.coling-main.217/)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhijing-jin/genwiki)",
+      "n": "NoisySupervised",
+      "d": "2020-12-01",
+      "m1": "35.03",
+      "m2": "33.45",
+      "m3": "58.14",
+      "m4": "2.63"
+    },
+    {
+      "p": "[GenWiki: A Dataset of 1.3 Million Content-Sharing Text and Graphs for Unsupervised Graph-to-Text Generation](https://aclanthology.org/2020.coling-main.217/)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhijing-jin/genwiki)",
+      "n": "DirectTransfer",
+      "d": "2020-12-01",
+      "m1": "13.89",
+      "m2": "25.76",
+      "m3": "39.75",
+      "m4": "1.26"
+    },
+    {
+      "p": "[GenWiki: A Dataset of 1.3 Million Content-Sharing Text and Graphs for Unsupervised Graph-to-Text Generation](https://aclanthology.org/2020.coling-main.217/)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhijing-jin/genwiki)",
+      "n": "Rule-Based",
+      "d": "2020-12-01",
+      "m1": "13.45",
+      "m2": "30.72",
+      "m3": "40.93",
+      "m4": "1.26"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,90 @@
+# generalized-few-shot-semantic-segmentation-on-2
+
+[Dataset Link]() \
+Task Hierarchy: ['Meta-Learning', 'Few-Shot Learning', 'Few-Shot Semantic Segmentation', 'Generalized Few-Shot Semantic Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Mean Base and Novel",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Mean IoU",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Visual Prompting for Generalized Few-shot Segmentation: A Multi-scale Approach](https://arxiv.org/abs/2404.11732v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/rayat137/VisualPromptGFSS)",
+      "n": "VisualPromptGFSS",
+      "d": "2024-04-17",
+      "m1": "36.05"
+    },
+    {
+      "p": "[Learning Orthogonal Prototypes for Generalized Few-Shot Semantic Segmentation](http://openaccess.thecvf.com//content/CVPR2023/html/Liu_Learning_Orthogonal_Prototypes_for_Generalized_Few-Shot_Semantic_Segmentation_CVPR_2023_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/lsa1997/POP)",
+      "n": "POP(ResNet-50)",
+      "d": "2023-01-01",
+      "m1": "35.01",
+      "m2": "44.98"
+    },
+    {
+      "p": "[A Surprisingly Simple Approach to Generalized Few-Shot Semantic Segmentation](https://openreview.net/forum?id=p3nPHMpx04)",
+      "c": "[&check;&nbsp;Link](https://github.com/IBM/BCM)",
+      "n": "BCM (ResNet-50)",
+      "d": "2024-09-26",
+      "m1": "33.85"
+    },
+    {
+      "p": "[A Strong Baseline for Generalized Few-Shot Semantic Segmentation](https://arxiv.org/abs/2211.14126v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/sinahmr/diam)",
+      "n": "DIaM (ResNet-50)",
+      "d": "2022-11-25",
+      "m1": "32.75",
+      "m2": "40.52"
+    },
+    {
+      "p": "[Harmonizing Base and Novel Classes: A Class-Contrastive Approach for Generalized Few-Shot Segmentation](https://arxiv.org/abs/2303.13724v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/liuweide01/HBNC)",
+      "n": "CCA (ResNet-50)",
+      "d": "2023-03-24",
+      "m1": "27.86",
+      "m2": "37.48"
+    },
+    {
+      "p": "[Generalized Few-shot Semantic Segmentation](https://arxiv.org/abs/2010.05210v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/dvlab-research/gfs-seg)",
+      "n": "CAPL (ResNet-50)",
+      "d": "2020-10-11",
+      "m1": "25.83",
+      "m2": "35.46"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

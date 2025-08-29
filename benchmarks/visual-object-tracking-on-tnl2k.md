@@ -1,0 +1,172 @@
+# visual-object-tracking-on-tnl2k
+
+[Dataset Link](https://sites.google.com/view/langtrackbenchmark/) \
+Task Hierarchy: ['Visual Object Tracking']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AUC",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "precision",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Normalized Precision",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Exploring Enhanced Contextual Information for Video-Level Object Tracking](https://arxiv.org/abs/2412.11023v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/kangben258/MCITrack)",
+      "n": "MCITrack-L384",
+      "d": "2024-12-15",
+      "m1": "65.3"
+    },
+    {
+      "p": "[SPMTrack: Spatio-Temporal Parameter-Efficient Fine-Tuning with Mixture of Experts for Scalable Visual Tracking](https://arxiv.org/abs/2503.18338v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/wenruicai/spmtrack)",
+      "n": "SPMTrack-G",
+      "d": "2025-03-24",
+      "m1": "64.7",
+      "m2": "70.6",
+      "m3": "82.6"
+    },
+    {
+      "p": "[SPMTrack: Spatio-Temporal Parameter-Efficient Fine-Tuning with Mixture of Experts for Scalable Visual Tracking](https://arxiv.org/abs/2503.18338v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/wenruicai/spmtrack)",
+      "n": "SPMTrack-L",
+      "d": "2025-03-24",
+      "m1": "63.7",
+      "m2": "69.2",
+      "m3": "81.5"
+    },
+    {
+      "p": "[Exploring Enhanced Contextual Information for Video-Level Object Tracking](https://arxiv.org/abs/2412.11023v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/kangben258/MCITrack)",
+      "n": "MCITrack-B224",
+      "d": "2024-12-15",
+      "m1": "62.9"
+    },
+    {
+      "p": "[Tracking Meets LoRA: Faster Training, Larger Model, Stronger Performance](https://arxiv.org/abs/2403.05231v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/litinglin/lorat)",
+      "n": "LoRAT-g-378",
+      "d": "2024-03-08",
+      "m1": "62.7",
+      "m2": "67.8"
+    },
+    {
+      "p": "[Tracking Meets LoRA: Faster Training, Larger Model, Stronger Performance](https://arxiv.org/abs/2403.05231v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/litinglin/lorat)",
+      "n": "LoRAT-L-378",
+      "d": "2024-03-08",
+      "m1": "62.3",
+      "m2": "67.0"
+    },
+    {
+      "p": "[SPMTrack: Spatio-Temporal Parameter-Efficient Fine-Tuning with Mixture of Experts for Scalable Visual Tracking](https://arxiv.org/abs/2503.18338v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/wenruicai/spmtrack)",
+      "n": "SPMTrack-B",
+      "d": "2025-03-24",
+      "m1": "62.0",
+      "m2": "66.7",
+      "m3": "79.7"
+    },
+    {
+      "p": "[ODTrack: Online Dense Temporal Token Learning for Visual Tracking](https://arxiv.org/abs/2401.01686v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/gxnu-zhonglab/odtrack)",
+      "n": "ODTrack-L",
+      "d": "2024-01-03",
+      "m1": "61.7"
+    },
+    {
+      "p": "[ARTrackV2: Prompting Autoregressive Tracker Where to Look and How to Describe](https://arxiv.org/abs/2312.17133v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/miv-xjtu/artrack)",
+      "n": "ARTrackV2-L",
+      "d": "2023-12-28",
+      "m1": "61.6"
+    },
+    {
+      "p": "[ODTrack: Online Dense Temporal Token Learning for Visual Tracking](https://arxiv.org/abs/2401.01686v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/gxnu-zhonglab/odtrack)",
+      "n": "ODTrack-B",
+      "d": "2024-01-03",
+      "m1": "60.9"
+    },
+    {
+      "p": "[RTracker: Recoverable Tracking via PN Tree Structured Memory](https://arxiv.org/abs/2403.19242v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/norahgreen/rtracker)",
+      "n": "RTracker-L",
+      "d": "2024-03-28",
+      "m1": "60.6",
+      "m2": "63.7"
+    },
+    {
+      "p": "[Autoregressive Visual Tracking](http://openaccess.thecvf.com//content/CVPR2023/html/Wei_Autoregressive_Visual_Tracking_CVPR_2023_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/miv-xjtu/artrack)",
+      "n": "ARTrack-L",
+      "d": "2023-01-01",
+      "m1": "60.3"
+    },
+    {
+      "p": "[Unified Sequence-to-Sequence Learning for Single- and Multi-Modal Visual Object Tracking](https://arxiv.org/abs/2304.14394v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/chenxin-dlut/seqtrackv2)",
+      "n": "SeqTrack-L384",
+      "d": "2023-04-27",
+      "m1": "57.8"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "MixFormerV2-B",
+      "d": null,
+      "m1": "57.4",
+      "m2": "58.4"
+    },
+    {
+      "p": "[DropMAE: Masked Autoencoders with Spatial-Attention Dropout for Tracking Tasks](https://arxiv.org/abs/2304.00571v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jimmy-dq/dropmae)",
+      "n": "DropTrack",
+      "d": "2023-04-02",
+      "m1": "56.9",
+      "m2": "57.9"
+    },
+    {
+      "p": "[Towards More Flexible and Accurate Object Tracking with Natural Language: Algorithms and Benchmark](https://arxiv.org/abs/2103.16746v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/wangxiao5791509/Single_Object_Tracking_Paper_List)",
+      "n": "AdaSwitcher",
+      "d": "2021-03-31",
+      "m2": "0.42|0.50|0.42"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

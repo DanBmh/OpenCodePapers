@@ -1,0 +1,124 @@
+# cross-lingual-question-answering-on-tydiqa
+
+[Dataset Link](https://github.com/google-research-datasets/tydiqa) \
+Task Hierarchy: ['Question Answering', 'Cross-Lingual Question Answering']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "EM",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[ByT5: Towards a token-free future with pre-trained byte-to-byte models](https://arxiv.org/abs/2105.13626v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers/tree/master/src/transformers/models/byt5)",
+      "n": "ByT5 (fine-tuned)",
+      "d": "2021-05-28",
+      "m1": "81.9"
+    },
+    {
+      "p": "[Transcending Scaling Laws with 0.1% Extra Compute](https://arxiv.org/abs/2210.11399v2)",
+      "c": "",
+      "n": "U-PaLM 62B (fine-tuned)",
+      "d": "2022-10-20",
+      "m1": "78.4",
+      "m2": "88.5"
+    },
+    {
+      "p": "[Scaling Instruction-Finetuned Language Models](https://arxiv.org/abs/2210.11416v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/flan)",
+      "n": "Flan-U-PaLM 540B (direct-prompting)",
+      "d": "2022-10-20",
+      "m1": "68.3"
+    },
+    {
+      "p": "[Scaling Instruction-Finetuned Language Models](https://arxiv.org/abs/2210.11416v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/flan)",
+      "n": "Flan-PaLM 540B (direct-prompting)",
+      "d": "2022-10-20",
+      "m1": "67.8"
+    },
+    {
+      "p": "[ByT5: Towards a token-free future with pre-trained byte-to-byte models](https://arxiv.org/abs/2105.13626v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers/tree/master/src/transformers/models/byt5)",
+      "n": "ByT5 XXL",
+      "d": "2021-05-28",
+      "m1": "60.0",
+      "m2": "75.3"
+    },
+    {
+      "p": "[Transcending Scaling Laws with 0.1% Extra Compute](https://arxiv.org/abs/2210.11399v2)",
+      "c": "",
+      "n": "U-PaLM-540B (CoT)",
+      "d": "2022-10-20",
+      "m1": "54.6"
+    },
+    {
+      "p": "[PaLM: Scaling Language Modeling with Pathways](https://arxiv.org/abs/2204.02311v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/lucidrains/CoCa-pytorch)",
+      "n": "PaLM-540B (CoT)",
+      "d": "2022-04-05",
+      "m1": "52.9"
+    },
+    {
+      "p": "[Rethinking embedding coupling in pre-trained language models](https://arxiv.org/abs/2010.12821v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/examples/language_model/rembert)",
+      "n": "Decoupled",
+      "d": "2020-10-24",
+      "m1": "42.8",
+      "m2": "58.1"
+    },
+    {
+      "p": "[PaLM 2 Technical Report](https://arxiv.org/abs/2305.10403v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/eternityyw/tram-benchmark)",
+      "n": "PaLM 2-L (one-shot)",
+      "d": "2023-05-17",
+      "m2": "73.6"
+    },
+    {
+      "p": "[PaLM 2 Technical Report](https://arxiv.org/abs/2305.10403v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/eternityyw/tram-benchmark)",
+      "n": "PaLM 2-S (one-shot)",
+      "d": "2023-05-17",
+      "m2": "73.3"
+    },
+    {
+      "p": "[PaLM 2 Technical Report](https://arxiv.org/abs/2305.10403v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/eternityyw/tram-benchmark)",
+      "n": "PaLM 2-M (one-shot)",
+      "d": "2023-05-17",
+      "m2": "73.3"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,130 @@
+# image-matting-on-am-2k
+
+[Dataset Link](https://github.com/JizhiziLi/GFM) \
+Task Hierarchy: ['Image Matting']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "SAD",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "MSE",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "MAD",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Adversarially-Guided Portrait Matting](https://arxiv.org/abs/2305.02981v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/chroneus/stylematte)",
+      "n": "StyleMatte",
+      "d": "2023-05-04",
+      "m1": "9.602",
+      "m2": "0.0024",
+      "m3": "0.0055"
+    },
+    {
+      "p": "[Bridging Composite and Real: Towards End-to-end Deep Image Matting](https://arxiv.org/abs/2010.16188v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/JizhiziLi/GFM)",
+      "n": "GFM(r')",
+      "d": "2020-10-30",
+      "m1": "9.66",
+      "m2": "0.0024",
+      "m3": "0.0056"
+    },
+    {
+      "p": "[Bridging Composite and Real: Towards End-to-end Deep Image Matting](https://arxiv.org/abs/2010.16188v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/JizhiziLi/GFM)",
+      "n": "GFM(r2b)",
+      "d": "2020-10-30",
+      "m1": "10.24",
+      "m2": "0.0028",
+      "m3": "0.0060"
+    },
+    {
+      "p": "[Bridging Composite and Real: Towards End-to-end Deep Image Matting](https://arxiv.org/abs/2010.16188v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/JizhiziLi/GFM)",
+      "n": "GFM(d)",
+      "d": "2020-10-30",
+      "m1": "10.26",
+      "m2": "0.0029",
+      "m3": "0.0059"
+    },
+    {
+      "p": "[Bridging Composite and Real: Towards End-to-end Deep Image Matting](https://arxiv.org/abs/2010.16188v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/JizhiziLi/GFM)",
+      "n": "GFM(r)",
+      "d": "2020-10-30",
+      "m1": "10.89",
+      "m2": "0.0029",
+      "m3": "0.0064"
+    },
+    {
+      "p": "[Semantic Human Matting](http://arxiv.org/abs/1809.01354v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/lizhengwei1992/Semantic_Human_Matting)",
+      "n": "SHM",
+      "d": "2018-09-05",
+      "m1": "17.81",
+      "m2": "0.0068",
+      "m3": "0.0102"
+    },
+    {
+      "p": "[Attention-Guided Hierarchical Structure Aggregation for Image Matting](http://openaccess.thecvf.com/content_CVPR_2020/html/Qiao_Attention-Guided_Hierarchical_Structure_Aggregation_for_Image_Matting_CVPR_2020_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/vietnamican/HAttMatting)",
+      "n": "HATT",
+      "d": "2020-06-01",
+      "m1": "28.01",
+      "m2": "0.0055",
+      "m3": "0.0161"
+    },
+    {
+      "p": "[A Late Fusion CNN for Digital Matting](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_A_Late_Fusion_CNN_for_Digital_Matting_CVPR_2019_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/yunkezhang/FusionMatting)",
+      "n": "LF",
+      "d": "2019-06-01",
+      "m1": "36.12",
+      "m2": "0.0116",
+      "m3": "0.0210"
+    },
+    {
+      "p": "[Boosting Semantic Human Matting with Coarse Annotations](https://arxiv.org/abs/2004.04955v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/youngLBW/HRN)",
+      "n": "SHMC",
+      "d": "2020-04-10",
+      "m1": "61.50",
+      "m2": "0.0270",
+      "m3": "0.0356"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

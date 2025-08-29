@@ -1,0 +1,751 @@
+# language-modelling-on-wikitext-103
+
+[Dataset Link](https://blog.einstein.ai/the-wikitext-long-term-dependency-language-modeling-dataset/) \
+Task Hierarchy: ['Language Modelling']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Test perplexity",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Validation perplexity",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Number of params",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Improving language models by retrieving from trillions of tokens](https://arxiv.org/abs/2112.04426v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+      "n": "RETRO (7.5B)",
+      "d": "2021-12-08",
+      "m1": "2.4",
+      "m3": "7532M"
+    },
+    {
+      "p": "[Hungry Hungry Hippos: Towards Language Modeling with State Space Models](https://arxiv.org/abs/2212.14052v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hazyresearch/safari)",
+      "n": "Hybrid H3 (2.7B)",
+      "d": "2022-12-28",
+      "m1": "10.6",
+      "m3": "2700M"
+    },
+    {
+      "p": "[Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism](https://arxiv.org/abs/1909.08053v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/NVIDIA/Megatron-LM)",
+      "n": "Megatron-LM",
+      "d": "2019-09-17",
+      "m1": "10.81",
+      "m3": "8300M"
+    },
+    {
+      "p": "[GLM: General Language Model Pretraining with Autoregressive Blank Infilling](https://arxiv.org/abs/2103.10360v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/thudm/chatglm2-6b)",
+      "n": "GLM-XXLarge (bidirectional)",
+      "d": "2021-03-18",
+      "m1": "11.33",
+      "m3": "10000M"
+    },
+    {
+      "p": "[GLM: General Language Model Pretraining with Autoregressive Blank Infilling](https://arxiv.org/abs/2103.10360v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/thudm/chatglm2-6b)",
+      "n": "GLM-XXLarge (unidirectional)",
+      "d": "2021-03-18",
+      "m1": "12.22",
+      "m3": "10000M"
+    },
+    {
+      "p": "[Hungry Hungry Hippos: Towards Language Modeling with State Space Models](https://arxiv.org/abs/2212.14052v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hazyresearch/safari)",
+      "n": "Hybrid H3 (1.3B)",
+      "d": "2022-12-28",
+      "m1": "12.5",
+      "m3": "1300M"
+    },
+    {
+      "p": "[Advancing State of the Art in Language Modeling](https://arxiv.org/abs/2312.03735v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/davidherel/sota_lm)",
+      "n": "Ensemble of All",
+      "d": "2023-11-28",
+      "m1": "13.29",
+      "m2": "13.11"
+    },
+    {
+      "p": "[GateLoop: Fully Data-Controlled Linear Recurrence for Sequence Modeling](https://arxiv.org/abs/2311.01927v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tobiaskatsch/GateLoop)",
+      "n": "GateLoop (125M)",
+      "d": "2023-11-03",
+      "m1": "13.4",
+      "m3": "125M"
+    },
+    {
+      "p": "[You can't pick your neighbors, or can you? When and how to rely on retrieval in the $k$NN-LM](https://arxiv.org/abs/2210.15859v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/iesl/knnlm-retrieval-quality)",
+      "n": "kNN-LM w/ Adaptive Coefficient",
+      "d": "2022-10-28",
+      "m1": "15.5",
+      "m2": "15.72",
+      "m3": "247M"
+    },
+    {
+      "p": "[Generalization through Memorization: Nearest Neighbor Language Models](https://arxiv.org/abs/1911.00172v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+      "n": "kNN-LM w/ Continuous Cache",
+      "d": "2019-11-01",
+      "m1": "15.79",
+      "m2": "15.81",
+      "m3": "247M"
+    },
+    {
+      "p": "[Efficient Content-Based Sparse Attention with Routing Transformers](https://arxiv.org/abs/2003.05997v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/lucidrains/local-attention)",
+      "n": "Routing Transformer",
+      "d": "2020-03-12",
+      "m1": "15.8"
+    },
+    {
+      "p": "[Generalization through Memorization: Nearest Neighbor Language Models](https://arxiv.org/abs/1911.00172v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+      "n": "kNN-LM",
+      "d": "2019-11-01",
+      "m1": "16.12",
+      "m2": "16.06",
+      "m3": "247M"
+    },
+    {
+      "p": "[Dynamic Evaluation of Transformer Language Models](http://arxiv.org/abs/1904.08378v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/benkrause/dynamiceval-transformer)",
+      "n": "Transformer-XL (RMS dynamic eval)",
+      "d": "2019-04-17",
+      "m1": "16.4",
+      "m2": "15.8",
+      "m3": "257M"
+    },
+    {
+      "p": "[$\\infty$-former: Infinite Memory Transformer](https://arxiv.org/abs/2109.00301v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/deep-spin/infinite-former)",
+      "n": "[?]-former (SM)",
+      "d": "2021-09-01",
+      "m1": "16.61"
+    },
+    {
+      "p": "[$\\infty$-former: Infinite Memory Transformer](https://arxiv.org/abs/2109.00301v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/deep-spin/infinite-former)",
+      "n": "-former (SM)",
+      "d": "2021-09-01",
+      "m1": "16.61"
+    },
+    {
+      "p": "[$\\infty$-former: Infinite Memory Transformer](https://arxiv.org/abs/2109.00301v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/deep-spin/infinite-former)",
+      "n": "\u221e-former (Sticky memories + initialized GPT-2 Small)",
+      "d": "2021-09-01",
+      "m1": "16.61"
+    },
+    {
+      "p": "[$\\infty$-former: Infinite Memory Transformer](https://arxiv.org/abs/2109.00301v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/deep-spin/infinite-former)",
+      "n": "\u221e-former (initialized GPT-2 Small)",
+      "d": "2021-09-01",
+      "m1": "16.64"
+    },
+    {
+      "p": "[Hungry Hungry Hippos: Towards Language Modeling with State Space Models](https://arxiv.org/abs/2212.14052v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hazyresearch/safari)",
+      "n": "Hybrid H3 (355M)",
+      "d": "2022-12-28",
+      "m1": "16.9",
+      "m3": "355M"
+    },
+    {
+      "p": "[Dynamic Evaluation of Transformer Language Models](http://arxiv.org/abs/1904.08378v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/benkrause/dynamiceval-transformer)",
+      "n": "Transformer-XL (SGD dynamic eval)",
+      "d": "2019-04-17",
+      "m1": "17.0",
+      "m2": "16.3",
+      "m3": "257M"
+    },
+    {
+      "p": "[Compressive Transformers for Long-Range Sequence Modelling](https://arxiv.org/abs/1911.05507v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+      "n": "Compressive Transformer (18L, M=1024)",
+      "d": "2019-11-13",
+      "m1": "17.1",
+      "m2": "16.0"
+    },
+    {
+      "p": "[When Attention Meets Fast Recurrence: Training Language Models with Reduced Compute](https://arxiv.org/abs/2102.12459v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/asappresearch/sru)",
+      "n": "SRU++ Large",
+      "d": "2021-02-24",
+      "m1": "17.1",
+      "m2": "16.4",
+      "m3": "234M"
+    },
+    {
+      "p": "[Segatron: Segment-Aware Transformer for Language Modeling and Understanding](https://arxiv.org/abs/2004.14996v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rsvp-ai/segatron_aaai)",
+      "n": "SegaTransformer-XL",
+      "d": "2020-04-30",
+      "m1": "17.1",
+      "m3": "257M"
+    },
+    {
+      "p": "[The Information Pathways Hypothesis: Transformers are Dynamic Self-Ensembles](https://arxiv.org/abs/2306.01705v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/shamim-hussain/ssa)",
+      "n": "Transformer+SSA+Self-ensemble",
+      "d": "2023-06-02",
+      "m1": "17.18",
+      "m2": "16.54"
+    },
+    {
+      "p": "[Improving Neural Language Models by Segmenting, Attending, and Predicting the Future](https://arxiv.org/abs/1906.01702v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/luohongyin/PILM)",
+      "n": "Transformer-XL Large + Phrase Induction",
+      "d": "2019-06-04",
+      "m1": "17.4",
+      "m3": "257M"
+    },
+    {
+      "p": "[Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "GPT-2 Full",
+      "d": "2019-02-14",
+      "m1": "17.48",
+      "m3": "1542M"
+    },
+    {
+      "p": "[Shortformer: Better Language Modeling using Shorter Inputs](https://arxiv.org/abs/2012.15832v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ofirpress/shortformer)",
+      "n": "Staged Training",
+      "d": "2020-12-31",
+      "m1": "17.56",
+      "m2": "16.89",
+      "m3": "247M"
+    },
+    {
+      "p": "[The Information Pathways Hypothesis: Transformers are Dynamic Self-Ensembles](https://arxiv.org/abs/2306.01705v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/shamim-hussain/ssa)",
+      "n": "Transformer+SSA",
+      "d": "2023-06-02",
+      "m1": "17.60",
+      "m2": "16.91"
+    },
+    {
+      "p": "[Improving Transformer Models by Reordering their Sublayers](https://arxiv.org/abs/1911.03864v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ofirpress/sandwich_transformer)",
+      "n": "Sandwich Transformer",
+      "d": "2019-11-10",
+      "m1": "17.96",
+      "m3": "247M"
+    },
+    {
+      "p": "[Differentiable Model Compression via Pseudo Quantization Noise](https://arxiv.org/abs/2104.09987v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/diffq)",
+      "n": "DIFFQ (\u03bb=1, g=16)",
+      "d": "2021-04-20",
+      "m1": "18.0"
+    },
+    {
+      "p": "[Mega: Moving Average Equipped Gated Attention](https://arxiv.org/abs/2209.10655v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "Mega",
+      "d": "2022-09-21",
+      "m1": "18.07",
+      "m3": "252M"
+    },
+    {
+      "p": "[Shortformer: Better Language Modeling using Shorter Inputs](https://arxiv.org/abs/2012.15832v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ofirpress/shortformer)",
+      "n": "Shortformer",
+      "d": "2020-12-31",
+      "m1": "18.15",
+      "m2": "17.47",
+      "m3": "247M"
+    },
+    {
+      "p": "[Addressing Some Limitations of Transformers with Feedback Memory](https://arxiv.org/abs/2002.09402v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+      "n": "Feedback Transformer (8 layers)",
+      "d": "2020-02-21",
+      "m1": "18.2",
+      "m2": "17.5",
+      "m3": "139M"
+    },
+    {
+      "p": "[When Attention Meets Fast Recurrence: Training Language Models with Reduced Compute](https://arxiv.org/abs/2102.12459v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/asappresearch/sru)",
+      "n": "SRU++ Base",
+      "d": "2021-02-24",
+      "m1": "18.3",
+      "m2": "17.5",
+      "m3": "148M"
+    },
+    {
+      "p": "[Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context](https://arxiv.org/abs/1901.02860v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "Transformer-XL Large",
+      "d": "2019-01-09",
+      "m1": "18.3",
+      "m2": "18.2",
+      "m3": "257M"
+    },
+    {
+      "p": "[Pay Attention when Required](https://arxiv.org/abs/2009.04534v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/NVIDIA/DeepLearningExamples/tree/master/PyTorch/LanguageModeling)",
+      "n": "PAR Transformer Large",
+      "d": "2020-09-09",
+      "m1": "18.4"
+    },
+    {
+      "p": "[General-purpose, long-context autoregressive modeling with Perceiver AR](https://arxiv.org/abs/2202.07765v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/krasserm/perceiver-io)",
+      "n": "Perceiver AR 358M",
+      "d": "2022-02-15",
+      "m1": "18.4"
+    },
+    {
+      "p": "[Hyena Hierarchy: Towards Larger Convolutional Language Models](https://arxiv.org/abs/2302.10866v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hazyresearch/safari)",
+      "n": "Hyena-3-slim",
+      "d": "2023-02-21",
+      "m1": "18.5"
+    },
+    {
+      "p": "[Hungry Hungry Hippos: Towards Language Modeling with State Space Models](https://arxiv.org/abs/2212.14052v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hazyresearch/safari)",
+      "n": "Hybrid H3 125M",
+      "d": "2022-12-28",
+      "m1": "18.5"
+    },
+    {
+      "p": "[Hyena Hierarchy: Towards Larger Convolutional Language Models](https://arxiv.org/abs/2302.10866v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hazyresearch/safari)",
+      "n": "Hyena-3",
+      "d": "2023-02-21",
+      "m1": "18.6"
+    },
+    {
+      "p": "[Adaptive Input Representations for Neural Language Modeling](http://arxiv.org/abs/1809.10853v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/pytorch/fairseq)",
+      "n": "Transformer (Adaptive inputs)",
+      "d": "2018-09-28",
+      "m1": "18.70",
+      "m2": "17.97",
+      "m3": "247M"
+    },
+    {
+      "p": "[Finetuning Pretrained Transformers into RNNs](https://arxiv.org/abs/2103.13076v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/hazyresearch/lolcats)",
+      "n": "T2R + Pretrain",
+      "d": "2021-03-24",
+      "m1": "19.6",
+      "m2": "19"
+    },
+    {
+      "p": "[Subformer: A Parameter Reduced Transformer](https://openreview.net/forum?id=6UurSaf08jx)",
+      "c": "",
+      "n": "Subformer",
+      "d": "2021-01-01",
+      "m1": "20.39",
+      "m3": "96M"
+    },
+    {
+      "p": "[Language Models with Transformers](https://arxiv.org/abs/1904.09408v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/cgraywang/gluon-nlp-1)",
+      "n": "BERT-Large-CAS",
+      "d": "2019-04-20",
+      "m1": "20.4",
+      "m2": "19.6",
+      "m3": "395M"
+    },
+    {
+      "p": "[Augmenting Self-attention with Persistent Memory](https://arxiv.org/abs/1907.01470v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/lucidrains/x-transformers)",
+      "n": "All-attention network (36 layers)",
+      "d": "2019-07-02",
+      "m1": "20.6",
+      "m2": "19.7",
+      "m3": "133M"
+    },
+    {
+      "p": "[Efficiently Modeling Long Sequences with Structured State Spaces](https://arxiv.org/abs/2111.00396v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/state-spaces/s4)",
+      "n": "S4",
+      "d": "2021-10-31",
+      "m1": "21.28",
+      "m3": "249M"
+    },
+    {
+      "p": "[Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "GPT-2 Large",
+      "d": "2019-02-14",
+      "m1": "22.05",
+      "m3": "774M"
+    },
+    {
+      "p": "[Addressing Some Limitations of Transformers with Feedback Memory](https://arxiv.org/abs/2002.09402v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+      "n": "Feedback Transformer (4 layers)",
+      "d": "2020-02-21",
+      "m1": "22.4",
+      "m2": "21.4",
+      "m3": "44M"
+    },
+    {
+      "p": "[Pay Attention when Required](https://arxiv.org/abs/2009.04534v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/NVIDIA/DeepLearningExamples/tree/master/PyTorch/LanguageModeling)",
+      "n": "PAR Transformer Base",
+      "d": "2020-09-09",
+      "m1": "22.7"
+    },
+    {
+      "p": "[Memory-efficient Stochastic methods for Memory-based Transformers](https://arxiv.org/abs/2311.08123v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/vishwajit-vishnu/memory-efficient-stochastic-methods-for-memory-based-transformers)",
+      "n": "Skip Cross-Head Transformer-XL",
+      "d": "2023-11-14",
+      "m1": "22.91",
+      "m2": "21.87",
+      "m3": "122M"
+    },
+    {
+      "p": "[Deep Equilibrium Models](https://arxiv.org/abs/1909.01377v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/locuslab/deq)",
+      "n": "DEQ-Transformer (medium, adaptive embed)",
+      "d": "2019-09-03",
+      "m1": "23.2",
+      "m3": "110M"
+    },
+    {
+      "p": "[Time-aware Large Kernel Convolutions](https://arxiv.org/abs/2002.03184v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/lioutasb/TaLKConvolutions)",
+      "n": "TaLK Convolutions",
+      "d": "2020-02-08",
+      "m1": "23.3",
+      "m3": "240M"
+    },
+    {
+      "p": "[Random Feature Attention](https://arxiv.org/abs/2103.02143v2)",
+      "c": "",
+      "n": "Rfa-Gate-Gaussian-Stateful (Big)",
+      "d": "2021-03-03",
+      "m1": "23.5",
+      "m2": "22"
+    },
+    {
+      "p": "[Hungry Hungry Hippos: Towards Language Modeling with State Space Models](https://arxiv.org/abs/2212.14052v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hazyresearch/safari)",
+      "n": "Hybrid H3 (125M)",
+      "d": "2022-12-28",
+      "m1": "23.7",
+      "m3": "125M"
+    },
+    {
+      "p": "[Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context](https://arxiv.org/abs/1901.02860v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "Transformer-XL Standard",
+      "d": "2019-01-09",
+      "m1": "24.0",
+      "m2": "23.1",
+      "m3": "151M"
+    },
+    {
+      "p": "[DeLighT: Deep and Light-weight Transformer](https://arxiv.org/abs/2008.00623v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/sacmehta/delight)",
+      "n": "DeLighT",
+      "d": "2020-08-03",
+      "m1": "24.14",
+      "m3": "99M"
+    },
+    {
+      "p": "[$\\infty$-former: Infinite Memory Transformer](https://arxiv.org/abs/2109.00301v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/deep-spin/infinite-former)",
+      "n": "[?]-former (Sticky memories)",
+      "d": "2021-09-01",
+      "m1": "24.22"
+    },
+    {
+      "p": "[$\\infty$-former: Infinite Memory Transformer](https://arxiv.org/abs/2109.00301v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/deep-spin/infinite-former)",
+      "n": "\\infty-former (Sticky memories)",
+      "d": "2021-09-01",
+      "m1": "24.22"
+    },
+    {
+      "p": "[$\\infty$-former: Infinite Memory Transformer](https://arxiv.org/abs/2109.00301v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/deep-spin/infinite-former)",
+      "n": "\u221e-former (Sticky memories)",
+      "d": "2021-09-01",
+      "m1": "24.22"
+    },
+    {
+      "p": "[Revisiting Simple Neural Probabilistic Language Models](https://arxiv.org/abs/2104.03474v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SimengSun/revisit-nplm)",
+      "n": "Transformer-N",
+      "d": "2021-04-08",
+      "m1": "25.2",
+      "m2": "24.1",
+      "m3": "148M"
+    },
+    {
+      "p": "[Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention](https://arxiv.org/abs/2006.16236v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/idiap/fast-transformers)",
+      "n": "Linear Attention 125M",
+      "d": "2020-06-29",
+      "m1": "25.6"
+    },
+    {
+      "p": "[FNetAR: Mixing Tokens with Autoregressive Fourier Transforms](https://arxiv.org/abs/2107.10932v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/MindCode-4/code-3/tree/main/fnet)",
+      "n": "FNetAR Medium",
+      "d": "2021-07-22",
+      "m1": "25.81",
+      "m3": "144.4M"
+    },
+    {
+      "p": "[Reformer: The Efficient Transformer](https://arxiv.org/abs/2001.04451v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "Reformer 125M",
+      "d": "2020-01-13",
+      "m1": "26.0"
+    },
+    {
+      "p": "[Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "GPT-2 Medium",
+      "d": "2019-02-14",
+      "m1": "26.37",
+      "m3": "355M"
+    },
+    {
+      "p": "[Rethinking Attention with Performers](https://arxiv.org/abs/2009.14794v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/official/nlp/modeling)",
+      "n": "Performer 125M",
+      "d": "2020-09-30",
+      "m1": "26.8"
+    },
+    {
+      "p": "[Improving Neural Language Modeling via Adversarial Training](https://arxiv.org/abs/1906.03805v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ChengyueGongR/advsoft)",
+      "n": "AdvSoft (+ 4 layer QRNN + dynamic eval)",
+      "d": "2019-06-10",
+      "m1": "28.0",
+      "m2": "27.2"
+    },
+    {
+      "p": "[Deep Equilibrium Models](https://arxiv.org/abs/1909.01377v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/locuslab/deq)",
+      "n": "DEQ-TrellisNet",
+      "d": "2019-09-03",
+      "m1": "29.0",
+      "m3": "180M"
+    },
+    {
+      "p": "[Trellis Networks for Sequence Modeling](http://arxiv.org/abs/1810.06682v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/locuslab/trellisnet)",
+      "n": "Trellis Network",
+      "d": "2018-10-15",
+      "m1": "29.19"
+    },
+    {
+      "p": "[Fast Parametric Learning with Activation Memorization](http://arxiv.org/abs/1803.10049v1)",
+      "c": "",
+      "n": "LSTM (Hebbian, Cache, MbPA)",
+      "d": "2018-03-27",
+      "m1": "29.2",
+      "m2": "29.0"
+    },
+    {
+      "p": "[Fast Parametric Learning with Activation Memorization](http://arxiv.org/abs/1803.10049v1)",
+      "c": "",
+      "n": "LSTM (Hebbian, Cache)",
+      "d": "2018-03-27",
+      "m1": "29.7",
+      "m2": "29.9"
+    },
+    {
+      "p": "[Random Feature Attention](https://arxiv.org/abs/2103.02143v2)",
+      "c": "",
+      "n": "Rfa-Gate-Gaussian-Stateful (Small)",
+      "d": "2021-03-03",
+      "m1": "30.5",
+      "m2": "29.4"
+    },
+    {
+      "p": "[Primal-Attention: Self-attention through Asymmetric Kernel SVD in Primal Representation](https://arxiv.org/abs/2305.19798v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/yingyichen-cyy/PrimalAttention)",
+      "n": "Primal.+Trans.",
+      "d": "2023-05-31",
+      "m1": "31.0"
+    },
+    {
+      "p": "[Relational recurrent neural networks](http://arxiv.org/abs/1806.01822v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/L0SG/relational-rnn-pytorch)",
+      "n": "LSTM (RMC)",
+      "d": "2018-06-05",
+      "m1": "31.6",
+      "m2": "30.8"
+    },
+    {
+      "p": "[Deep Equilibrium Models](https://arxiv.org/abs/1909.01377v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/locuslab/deq)",
+      "n": "DEQ-Transformer (small)",
+      "d": "2019-09-03",
+      "m1": "32.4",
+      "m3": "138M"
+    },
+    {
+      "p": "[Alleviating Sequence Information Loss with Data Overlapping and Prime Batch Sizes](https://arxiv.org/abs/1909.08700v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nkcr/overlap-ml)",
+      "n": "AWD-LSTM-MoS + ATOI",
+      "d": "2019-09-18",
+      "m1": "32.85",
+      "m2": "31.92"
+    },
+    {
+      "p": "[An Analysis of Neural Language Modeling at Multiple Scales](http://arxiv.org/abs/1803.08240v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/salesforce/awd-lstm-lm)",
+      "n": "4 layer QRNN",
+      "d": "2018-03-22",
+      "m1": "33.0",
+      "m2": "32.0",
+      "m3": "151M"
+    },
+    {
+      "p": "[Fast Parametric Learning with Activation Memorization](http://arxiv.org/abs/1803.10049v1)",
+      "c": "",
+      "n": "LSTM (Hebbian)",
+      "d": "2018-03-27",
+      "m1": "34.3",
+      "m2": "34.1"
+    },
+    {
+      "p": "[Fast Parametric Learning with Activation Memorization](http://arxiv.org/abs/1803.10049v1)",
+      "c": "",
+      "n": "LSTM",
+      "d": "2018-03-27",
+      "m1": "36.4",
+      "m2": "36.0"
+    },
+    {
+      "p": "[Language Modeling with Gated Convolutional Networks](http://arxiv.org/abs/1612.08083v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/fairseq)",
+      "n": "GCNN-8",
+      "d": "2016-12-23",
+      "m1": "37.2",
+      "m2": "-"
+    },
+    {
+      "p": "[Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "GPT-2 Small",
+      "d": "2019-02-14",
+      "m1": "37.50",
+      "m3": "124M"
+    },
+    {
+      "p": "[Improving Neural Language Models with a Continuous Cache](http://arxiv.org/abs/1612.04426v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/gluon-nlp)",
+      "n": "Neural cache model (size = 2,000)",
+      "d": "2016-12-13",
+      "m1": "40.8"
+    },
+    {
+      "p": "[Improving Neural Language Models with a Continuous Cache](http://arxiv.org/abs/1612.04426v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/gluon-nlp)",
+      "n": "Neural cache model (size = 100)",
+      "d": "2016-12-13",
+      "m1": "44.8"
+    },
+    {
+      "p": "[Language Modeling with Gated Convolutional Networks](http://arxiv.org/abs/1612.08083v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/fairseq)",
+      "n": "GCNN-8",
+      "d": "2016-12-23",
+      "m1": "44.9"
+    },
+    {
+      "p": "[An Empirical Evaluation of Generic Convolutional and Recurrent Networks for Sequence Modeling](http://arxiv.org/abs/1803.01271v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/timeseriesAI/tsai/tree/main/tsai/models)",
+      "n": "TCN",
+      "d": "2018-03-04",
+      "m1": "45.19"
+    },
+    {
+      "p": "[Convolutional Sequence Modeling Revisited](https://openreview.net/forum?id=rk8wKk-R-)",
+      "c": "",
+      "n": "Temporal CNN",
+      "d": "2018-01-01",
+      "m1": "45.2",
+      "m2": "-"
+    },
+    {
+      "p": "[Improving Neural Language Models with a Continuous Cache](http://arxiv.org/abs/1612.04426v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/gluon-nlp)",
+      "n": "LSTM",
+      "d": "2016-12-13",
+      "m1": "48.7"
+    },
+    {
+      "p": "[On the adequacy of untuned warmup for adaptive optimization](https://arxiv.org/abs/1910.04209v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Tony-Y/pytorch_warmup)",
+      "n": "Transformer  (Adaptive inputs)",
+      "d": "2019-10-09",
+      "m2": "19.5"
+    },
+    {
+      "p": "[How much complexity does an RNN architecture need to learn syntax-sensitive dependencies?](https://arxiv.org/abs/2005.08199v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/bhattg/Decay-RNN-ACL-SRW2020)",
+      "n": "LSTM",
+      "d": "2020-05-17",
+      "m2": "52.73"
+    },
+    {
+      "p": "[How much complexity does an RNN architecture need to learn syntax-sensitive dependencies?](https://arxiv.org/abs/2005.08199v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/bhattg/Decay-RNN-ACL-SRW2020)",
+      "n": "GRU",
+      "d": "2020-05-17",
+      "m2": "53.78"
+    },
+    {
+      "p": "[How much complexity does an RNN architecture need to learn syntax-sensitive dependencies?](https://arxiv.org/abs/2005.08199v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/bhattg/Decay-RNN-ACL-SRW2020)",
+      "n": "Decay RNN",
+      "d": "2020-05-17",
+      "m2": "76.67"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

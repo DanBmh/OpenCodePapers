@@ -1,0 +1,100 @@
+# video-reconstruction-on-uvg
+
+[Dataset Link]() \
+Task Hierarchy: ['Video Reconstruction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Average PSNR (dB)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Model Size (M)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "HiNeRV",
+      "d": null,
+      "m1": "38.02",
+      "m2": "12.82M"
+    },
+    {
+      "p": "[CoordFlow: Coordinate Flow for Pixel-wise Neural Video Representation](https://arxiv.org/abs/2501.00975v1)",
+      "c": "",
+      "n": "CoordFlow",
+      "d": "2025-01-01",
+      "m1": "36.54",
+      "m2": "12.68M"
+    },
+    {
+      "p": "[FFNeRV: Flow-Guided Frame-Wise Neural Representations for Videos](https://arxiv.org/abs/2212.12294v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/maincold2/FFNeRV)",
+      "n": "FFNeRV",
+      "d": "2022-12-23",
+      "m1": "35.63",
+      "m2": "12.66M"
+    },
+    {
+      "p": "[HNeRV: A Hybrid Neural Representation for Videos](https://arxiv.org/abs/2304.02633v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/haochen-rye/hnerv)",
+      "n": "HNeRV",
+      "d": "2023-04-05",
+      "m1": "35.23",
+      "m2": "12.87M"
+    },
+    {
+      "p": "[E-NeRV: Expedite Neural Video Representation with Disentangled Spatial-Temporal Context](https://arxiv.org/abs/2207.08132v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/kyleleey/e-nerv)",
+      "n": "E-NeRV",
+      "d": "2022-07-17",
+      "m1": "34.85",
+      "m2": "13.02M"
+    },
+    {
+      "p": "[PS-NeRV: Patch-wise Stylized Neural Representations for Videos](https://arxiv.org/abs/2208.03742v1)",
+      "c": "",
+      "n": "PS-NeRV",
+      "d": "2022-08-07",
+      "m1": "34.61",
+      "m2": "13.07M"
+    },
+    {
+      "p": "[NeRV: Neural Representations for Videos](https://arxiv.org/abs/2110.13903v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/haochen-rye/nerv)",
+      "n": "NeRV",
+      "d": "2021-10-26",
+      "m1": "34.49",
+      "m2": "13.01M"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

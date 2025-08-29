@@ -1,0 +1,76 @@
+# mri-reconstruction-on-fastmri-knee-8x
+
+[Dataset Link](https://fastmri.med.nyu.edu/) \
+Task Hierarchy: ['MRI Reconstruction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "SSIM",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[HUMUS-Net: Hybrid unrolled multi-scale network architecture for accelerated MRI reconstruction](https://arxiv.org/abs/2203.08213v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/z-fabian/HUMUS-Net)",
+      "n": "HUMUS-Net (train+val data)",
+      "d": "2022-03-15",
+      "m1": "0.8945",
+      "m2": "37.3"
+    },
+    {
+      "p": "[HUMUS-Net: Hybrid unrolled multi-scale network architecture for accelerated MRI reconstruction](https://arxiv.org/abs/2203.08213v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/z-fabian/HUMUS-Net)",
+      "n": "HUMUS-Net (train only)",
+      "d": "2022-03-15",
+      "m1": "0.8936",
+      "m2": "37.0"
+    },
+    {
+      "p": "[End-to-End Variational Networks for Accelerated MRI Reconstruction](https://arxiv.org/abs/2004.06688v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/fastMRI)",
+      "n": "End-to-end variational network",
+      "d": "2020-04-14",
+      "m1": "0.890",
+      "m2": "37"
+    },
+    {
+      "p": "[XPDNet for MRI Reconstruction: an application to the 2020 fastMRI challenge](https://arxiv.org/abs/2010.07290v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zaccharieramzi/fastmri-reproducible-benchmark)",
+      "n": "XPDNet",
+      "d": "2020-10-15",
+      "m1": "0.8893",
+      "m2": "37.2"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

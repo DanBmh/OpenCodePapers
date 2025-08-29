@@ -1,0 +1,74 @@
+# named-entity-recognition-on-anatem
+
+[Dataset Link]() \
+Task Hierarchy: ['Named Entity Recognition (NER)']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Enhancing Label Consistency on Document-level Named Entity Recognition](https://arxiv.org/abs/2210.12949v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmis-lab/conner)",
+      "n": "ConNER",
+      "d": "2022-10-24",
+      "m1": "83.5"
+    },
+    {
+      "p": "[UniversalNER: Targeted Distillation from Large Language Models for Open Named Entity Recognition](https://arxiv.org/abs/2308.03279v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/universal-ner/universal-ner)",
+      "n": "UniNER-7B",
+      "d": "2023-08-07",
+      "m1": "88.65"
+    },
+    {
+      "p": "[Biomedical Named Entity Recognition at Scale](https://arxiv.org/abs/2011.06315v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/1.4.Biomedical_NER_SparkNLP_paper_reproduce.ipynb)",
+      "n": "BLSTM-CNN-Char (SparkNLP)",
+      "d": "2020-11-12",
+      "m1": "89.13"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "aimped",
+      "d": null,
+      "m1": "91.08"
+    },
+    {
+      "p": "[Accurate clinical and biomedical Named entity recognition at scale](https://www.softwareimpacts.com/article/S2665-9638(22)00079-3/fulltext)",
+      "c": "[&check;&nbsp;Link](https://github.com/JohnSnowLabs/spark-nlp-workshop)",
+      "n": "BertForTokenClassification (Spark NLP)",
+      "d": "2022-07-19",
+      "m1": "91.65"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,88 @@
+# visual-place-recognition-on-sf-xl-test-v1
+
+[Dataset Link]() \
+Task Hierarchy: ['Visual Place Recognition']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Recall@1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Recall@10",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Recall@5",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[EffoVPR: Effective Foundation Model Utilization for Visual Place Recognition](https://arxiv.org/abs/2405.18065v2)",
+      "c": "",
+      "n": "EffoVPR",
+      "d": "2024-05-28",
+      "m1": "95.5",
+      "m2": "98.1"
+    },
+    {
+      "p": "[Query-Based Adaptive Aggregation for Multi-Dataset Joint Training Toward Universal Visual Place Recognition](https://arxiv.org/abs/2507.03831v1)",
+      "c": "",
+      "n": "QAA-DINOv2-B-8192",
+      "d": "2025-07-04",
+      "m1": "94.4"
+    },
+    {
+      "p": "[ProGEO: Generating Prompts through Image-Text Contrastive Learning for Visual Geo-localization](https://arxiv.org/abs/2406.01906v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/chain-mao/progeo)",
+      "n": "ProGEO",
+      "d": "2024-06-04",
+      "m1": "84.7",
+      "m3": "90.3"
+    },
+    {
+      "p": "[EigenPlaces: Training Viewpoint Robust Models for Visual Place Recognition](https://arxiv.org/abs/2308.10832v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/stschubert/vpr_tutorial)",
+      "n": "EigenPlaces",
+      "d": "2023-08-21",
+      "m1": "84.1"
+    },
+    {
+      "p": "[Rethinking Visual Geo-localization for Large-Scale Applications](https://arxiv.org/abs/2204.02287v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/gmberton/cosplace)",
+      "n": "CosPlace",
+      "d": "2022-04-05",
+      "m1": "64.7",
+      "m2": "76.6",
+      "m3": "73.3"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

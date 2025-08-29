@@ -1,0 +1,88 @@
+# visual-question-answering-vqa-on-illusionvqa
+
+[Dataset Link](https://illusionvqa.github.io/) \
+Task Hierarchy: ['Visual Question Answering (VQA)']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[IllusionVQA: A Challenging Optical Illusion Dataset for Vision Language Models](https://arxiv.org/abs/2403.15952v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/csebuetnlp/illusionvqa)",
+      "n": "GPT4-Vision 4-shot",
+      "d": "2024-03-23",
+      "m1": "62.99"
+    },
+    {
+      "p": "[IllusionVQA: A Challenging Optical Illusion Dataset for Vision Language Models](https://arxiv.org/abs/2403.15952v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/csebuetnlp/illusionvqa)",
+      "n": "GPT4-Vision",
+      "d": "2024-03-23",
+      "m1": "58.85"
+    },
+    {
+      "p": "[IllusionVQA: A Challenging Optical Illusion Dataset for Vision Language Models](https://arxiv.org/abs/2403.15952v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/csebuetnlp/illusionvqa)",
+      "n": "Gemini-Pro 4-shot",
+      "d": "2024-03-23",
+      "m1": "52.87"
+    },
+    {
+      "p": "[IllusionVQA: A Challenging Optical Illusion Dataset for Vision Language Models](https://arxiv.org/abs/2403.15952v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/csebuetnlp/illusionvqa)",
+      "n": "Gemini-Pro",
+      "d": "2024-03-23",
+      "m1": "51.26"
+    },
+    {
+      "p": "[IllusionVQA: A Challenging Optical Illusion Dataset for Vision Language Models](https://arxiv.org/abs/2403.15952v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/csebuetnlp/illusionvqa)",
+      "n": "LLaVA-1.5-13B",
+      "d": "2024-03-23",
+      "m1": "40"
+    },
+    {
+      "p": "[IllusionVQA: A Challenging Optical Illusion Dataset for Vision Language Models](https://arxiv.org/abs/2403.15952v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/csebuetnlp/illusionvqa)",
+      "n": "CogVLM",
+      "d": "2024-03-23",
+      "m1": "38.16"
+    },
+    {
+      "p": "[IllusionVQA: A Challenging Optical Illusion Dataset for Vision Language Models](https://arxiv.org/abs/2403.15952v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/csebuetnlp/illusionvqa)",
+      "n": "InstructBLIP-13B",
+      "d": "2024-03-23",
+      "m1": "34.25"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

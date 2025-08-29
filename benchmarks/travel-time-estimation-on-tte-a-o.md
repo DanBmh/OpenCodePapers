@@ -1,0 +1,92 @@
+# travel-time-estimation-on-tte-a-o
+
+[Dataset Link](https://github.com/Eighonet/GCT-TTE) \
+Task Hierarchy: ['regression', 'Travel Time Estimation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Root mean square error (RMSE)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "mean absolute error",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[GCT-TTE: Graph Convolutional Transformer for Travel Time Estimation](https://arxiv.org/abs/2306.04324v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/eighonet/gct-tte)",
+      "n": "GCT-TTE",
+      "d": "2023-06-07",
+      "m1": "147.89",
+      "m2": "92.26"
+    },
+    {
+      "p": "[Logistics, Graphs, and Transformers: Towards improving Travel Time Estimation](https://arxiv.org/abs/2207.05835v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/vloods/transtte_demo)",
+      "n": "TransTTE",
+      "d": "2022-07-12",
+      "m1": "168.421",
+      "m2": "83.616"
+    },
+    {
+      "p": "[GCT-TTE: Graph Convolutional Transformer for Travel Time Estimation](https://arxiv.org/abs/2306.04324v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/eighonet/gct-tte)",
+      "n": "DeepTTE",
+      "d": "2023-06-07",
+      "m1": "174.56",
+      "m2": "111.03"
+    },
+    {
+      "p": "[GCT-TTE: Graph Convolutional Transformer for Travel Time Estimation](https://arxiv.org/abs/2306.04324v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/eighonet/gct-tte)",
+      "n": "WDR",
+      "d": "2023-06-07",
+      "m1": "190.09",
+      "m2": "97.22"
+    },
+    {
+      "p": "[GCT-TTE: Graph Convolutional Transformer for Travel Time Estimation](https://arxiv.org/abs/2306.04324v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/eighonet/gct-tte)",
+      "n": "DeepI2T",
+      "d": "2023-06-07",
+      "m1": "201.33",
+      "m2": "97.99"
+    },
+    {
+      "p": "[GCT-TTE: Graph Convolutional Transformer for Travel Time Estimation](https://arxiv.org/abs/2306.04324v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/eighonet/gct-tte)",
+      "n": "DeepIST",
+      "d": "2023-06-07",
+      "m1": "241.29",
+      "m2": "153.88"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

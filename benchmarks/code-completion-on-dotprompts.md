@@ -1,0 +1,60 @@
+# code-completion-on-dotprompts
+
+[Dataset Link](https://github.com/microsoft/monitors4codegen) \
+Task Hierarchy: ['Code Completion']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Compilation Rate",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Guiding Language Models of Code with Global Context using Monitors](https://arxiv.org/abs/2306.10763v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/monitors4codegen)",
+      "n": "SantaCoder-MGD",
+      "d": "2023-06-19",
+      "m1": "73.03"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "SantaCoder",
+      "d": null,
+      "m1": "59.97"
+    },
+    {
+      "p": "[Guiding Language Models of Code with Global Context using Monitors](https://arxiv.org/abs/2306.10763v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/monitors4codegen)",
+      "n": "SantaCoder",
+      "d": "2023-06-19",
+      "m1": "59.79"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

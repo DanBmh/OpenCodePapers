@@ -1,0 +1,276 @@
+# visual-question-answering-on-docvqa-test
+
+[Dataset Link](https://cvit.iiit.ac.in/docvqa/) \
+Task Hierarchy: ['Visual Question Answering (VQA)']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "ANLS",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[DocVQA: A Dataset for VQA on Document Images](https://arxiv.org/abs/2007.00398v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/anisha2102/docvqa)",
+      "n": "Human",
+      "d": "2020-07-01",
+      "m1": "0.9436"
+    },
+    {
+      "p": "[Multi-label Cluster Discrimination for Visual Representation Learning](https://arxiv.org/abs/2407.17331v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/deepglint/unicom)",
+      "n": "MLCD-Embodied-7B",
+      "d": "2024-07-24",
+      "m1": "0.916"
+    },
+    {
+      "p": "[Omni-SMoLA: Boosting Generalist Multimodal Models with Soft Mixture of Low-rank Experts](https://arxiv.org/abs/2312.00968v2)",
+      "c": "",
+      "n": "SMoLA-PaLI-X Specialist",
+      "d": "2023-12-01",
+      "m1": "0.908"
+    },
+    {
+      "p": "[Omni-SMoLA: Boosting Generalist Multimodal Models with Soft Mixture of Low-rank Experts](https://arxiv.org/abs/2312.00968v2)",
+      "c": "",
+      "n": "SMoLA-PaLI-X Generalist",
+      "d": "2023-12-01",
+      "m1": "0.906"
+    },
+    {
+      "p": "[Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond](https://arxiv.org/abs/2308.12966v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/qwenlm/qwen-vl)",
+      "n": "Qwen-VL-Plus",
+      "d": "2023-08-24",
+      "m1": "0.9024"
+    },
+    {
+      "p": "[ScreenAI: A Vision-Language Model for UI and Infographics Understanding](https://arxiv.org/abs/2402.04615v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research-datasets/screen_qa)",
+      "n": "ScreenAI 5B (4.62 B params, w/OCR)",
+      "d": "2024-02-07",
+      "m1": "0.8988"
+    },
+    {
+      "p": "[PaLI-3 Vision Language Models: Smaller, Faster, Stronger](https://arxiv.org/abs/2310.09199v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/kyegomez/PALI3)",
+      "n": "PaLI-3 (w/ OCR)",
+      "d": "2023-10-13",
+      "m1": "0.886"
+    },
+    {
+      "p": "[ERNIE-Layout: Layout Knowledge Enhanced Pre-training for Visually-rich Document Understanding](https://arxiv.org/abs/2210.06155v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/model_zoo/ernie-layout)",
+      "n": "ERNIE-Layout large (ensemble)",
+      "d": "2022-10-12",
+      "m1": "0.8841"
+    },
+    {
+      "p": "[Layout and Task Aware Instruction Prompt for Zero-shot Document Image Question Answering](https://arxiv.org/abs/2306.00526v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/wenjinw/latin-prompt)",
+      "n": "GPT-4",
+      "d": "2023-06-01",
+      "m1": "0.884"
+    },
+    {
+      "p": "[DocFormerv2: Local Features for Document Understanding](https://arxiv.org/abs/2306.01733v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/uakarsh/docformerv2)",
+      "n": "DocFormerv2-large",
+      "d": "2023-06-02",
+      "m1": "0.8784"
+    },
+    {
+      "p": "[Unifying Vision, Text, and Layout for Universal Document Processing](https://arxiv.org/abs/2212.02623v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/i-code)",
+      "n": "UDOP (aux)",
+      "d": "2022-12-05",
+      "m1": "0.878"
+    },
+    {
+      "p": "[PaLI-3 Vision Language Models: Smaller, Faster, Stronger](https://arxiv.org/abs/2310.09199v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/kyegomez/PALI3)",
+      "n": "PaLI-3",
+      "d": "2023-10-13",
+      "m1": "0.876"
+    },
+    {
+      "p": "[Going Full-TILT Boogie on Document Understanding with Text-Image-Layout Transformer](https://arxiv.org/abs/2102.09550v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/uakarsh/TiLT-Implementation)",
+      "n": "TILT-Large",
+      "d": "2021-02-18",
+      "m1": "0.8705"
+    },
+    {
+      "p": "[PaLI-X: On Scaling up a Multilingual Vision and Language Model](https://arxiv.org/abs/2305.18565v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/kyegomez/PALI)",
+      "n": "PaLI-X (Single-task FT w/ OCR)",
+      "d": "2023-05-29",
+      "m1": "0.868"
+    },
+    {
+      "p": "[LayoutLMv2: Multi-modal Pre-training for Visually-Rich Document Understanding](https://arxiv.org/abs/2012.14740v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "LayoutLMv2LARGE",
+      "d": "2020-12-29",
+      "m1": "0.8672"
+    },
+    {
+      "p": "[ERNIE-Layout: Layout Knowledge Enhanced Pre-training for Visually-rich Document Understanding](https://arxiv.org/abs/2210.06155v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/model_zoo/ernie-layout)",
+      "n": "ERNIE-Layout large",
+      "d": "2022-10-12",
+      "m1": "0.8486"
+    },
+    {
+      "p": "[Unifying Vision, Text, and Layout for Universal Document Processing](https://arxiv.org/abs/2212.02623v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/i-code)",
+      "n": "UDOP",
+      "d": "2022-12-05",
+      "m1": "0.847"
+    },
+    {
+      "p": "[Going Full-TILT Boogie on Document Understanding with Text-Image-Layout Transformer](https://arxiv.org/abs/2102.09550v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/uakarsh/TiLT-Implementation)",
+      "n": "TILT-Base",
+      "d": "2021-02-18",
+      "m1": "0.8392"
+    },
+    {
+      "p": "[Layout and Task Aware Instruction Prompt for Zero-shot Document Image Question Answering](https://arxiv.org/abs/2306.00526v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/wenjinw/latin-prompt)",
+      "n": "Claude + LATIN-Prompt",
+      "d": "2023-06-01",
+      "m1": "0.8336"
+    },
+    {
+      "p": "[Layout and Task Aware Instruction Prompt for Zero-shot Document Image Question Answering](https://arxiv.org/abs/2306.00526v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/wenjinw/latin-prompt)",
+      "n": "GPT-3.5 + LATIN-Prompt",
+      "d": "2023-06-01",
+      "m1": "0.8255"
+    },
+    {
+      "p": "[PaLI-X: On Scaling up a Multilingual Vision and Language Model](https://arxiv.org/abs/2305.18565v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/kyegomez/PALI)",
+      "n": "PaLI-X (Multi-task FT)",
+      "d": "2023-05-29",
+      "m1": "0.809"
+    },
+    {
+      "p": "[DUBLIN -- Document Understanding By Language-Image Network](https://arxiv.org/abs/2305.14218v4)",
+      "c": "",
+      "n": "DUBLIN (variable resolution)",
+      "d": "2023-05-23",
+      "m1": "0.803"
+    },
+    {
+      "p": "[PaLI-X: On Scaling up a Multilingual Vision and Language Model](https://arxiv.org/abs/2305.18565v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/kyegomez/PALI)",
+      "n": "PaLI-X (Single-task FT)",
+      "d": "2023-05-29",
+      "m1": "0.80"
+    },
+    {
+      "p": "[DUBLIN -- Document Understanding By Language-Image Network](https://arxiv.org/abs/2305.14218v4)",
+      "c": "",
+      "n": "DUBLIN",
+      "d": "2023-05-23",
+      "m1": "0.782"
+    },
+    {
+      "p": "[LayoutLMv2: Multi-modal Pre-training for Visually-Rich Document Understanding](https://arxiv.org/abs/2012.14740v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "LayoutLMv2BASE",
+      "d": "2020-12-29",
+      "m1": "0.7808"
+    },
+    {
+      "p": "[Pix2Struct: Screenshot Parsing as Pretraining for Visual Language Understanding](https://arxiv.org/abs/2210.03347v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "Pix2Struct-large",
+      "d": "2022-10-07",
+      "m1": "0.766"
+    },
+    {
+      "p": "[MatCha: Enhancing Visual Language Pretraining with Math Reasoning and Chart Derendering](https://arxiv.org/abs/2212.09662v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "MatCha",
+      "d": "2022-12-19",
+      "m1": "0.742"
+    },
+    {
+      "p": "[Pix2Struct: Screenshot Parsing as Pretraining for Visual Language Understanding](https://arxiv.org/abs/2210.03347v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "Pix2Struct-base",
+      "d": "2022-10-07",
+      "m1": "0.721"
+    },
+    {
+      "p": "[OCR-free Document Understanding Transformer](https://arxiv.org/abs/2111.15664v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/clovaai/donut)",
+      "n": "Donut",
+      "d": "2021-11-30",
+      "m1": "0.675"
+    },
+    {
+      "p": "[DocVQA: A Dataset for VQA on Document Images](https://arxiv.org/abs/2007.00398v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/anisha2102/docvqa)",
+      "n": "BERT_LARGE_SQUAD_DOCVQA_FINETUNED_Baseline",
+      "d": "2020-07-01",
+      "m1": "0.665",
+      "m2": "55.77"
+    },
+    {
+      "p": "[Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond](https://arxiv.org/abs/2308.12966v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/qwenlm/qwen-vl)",
+      "n": "Qwen-VL",
+      "d": "2023-08-24",
+      "m1": "0.651"
+    },
+    {
+      "p": "[End-to-end Document Recognition and Understanding with Dessurt](https://arxiv.org/abs/2203.16618v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/herobd/dessurt)",
+      "n": "Dessurt",
+      "d": "2022-03-30",
+      "m1": "0.632"
+    },
+    {
+      "p": "[Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond](https://arxiv.org/abs/2308.12966v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/qwenlm/qwen-vl)",
+      "n": "Qwen-VL-Chat",
+      "d": "2023-08-24",
+      "m1": "0.626"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

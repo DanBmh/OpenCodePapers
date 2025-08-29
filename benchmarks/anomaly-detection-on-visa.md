@@ -1,0 +1,483 @@
+# anomaly-detection-on-visa
+
+[Dataset Link](https://amazon-visual-anomaly.s3.us-west-2.amazonaws.com/VisA_20220922.tar) \
+Task Hierarchy: ['Anomaly Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Detection AUROC",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Segmentation AUPRO (until 30% FPR)",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "F1-Score",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Segmentation AUPRO",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "Segmentation AUROC",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[UniNet: A Contrastive Learning-guided Unified Framework with Feature Selection for Anomaly Detection](https://pangdatangtt.github.io/#:~:text=guided%20anomaly%20discrimination.-,Abstract,-Anomaly%20detection%20(AD)",
+      "c": "[&check;&nbsp;Link](https://github.com/pangdatangtt/UniNet)",
+      "n": "UniNet",
+      "d": "2025-02-28",
+      "m1": "99.8",
+      "m2": "93.9",
+      "m4": "93.9",
+      "m5": "98.8"
+    },
+    {
+      "p": "[GLAD: Towards Better Reconstruction with Global and Local Adaptive Diffusion Models for Unsupervised Anomaly Detection](https://arxiv.org/abs/2406.07487v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hyao1/glad)",
+      "n": "GLAD",
+      "d": "2024-06-11",
+      "m1": "99.5",
+      "m2": "94.3",
+      "m3": "98.3",
+      "m4": "94.3",
+      "m5": "98.6"
+    },
+    {
+      "p": "[UniNet: A Contrastive Learning-guided Unified Framework with Feature Selection for Anomaly Detection](https://pangdatangtt.github.io/#:~:text=guided%20anomaly%20discrimination.-,Abstract,-Anomaly%20detection%20(AD)",
+      "c": "[&check;&nbsp;Link](https://github.com/pangdatangtt/UniNet)",
+      "n": "UniNet(model-unified multi-class)",
+      "d": "2025-02-28",
+      "m1": "99.15",
+      "m3": "98.29"
+    },
+    {
+      "p": "[Dinomaly: The Less Is More Philosophy in Multi-Class Unsupervised Anomaly Detection](https://arxiv.org/abs/2405.14325v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/guojiajeremy/dinomaly)",
+      "n": "Dinomaly ViT-L (model-unified multi-class)",
+      "d": "2024-05-23",
+      "m1": "98.9",
+      "m2": "94.8",
+      "m3": "96.1",
+      "m4": "94.8",
+      "m5": "99.1"
+    },
+    {
+      "p": "[Exploring Intrinsic Normal Prototypes within a Single Image for Universal Anomaly Detection](https://arxiv.org/abs/2503.02424v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/luow23/inp-former)",
+      "n": "INP-Former ViT-B (model-unified multi-class)",
+      "d": "2025-03-04",
+      "m1": "98.9",
+      "m2": "94.4",
+      "m3": "96.6",
+      "m4": "94.4",
+      "m5": "98.9"
+    },
+    {
+      "p": "[Anomaly Detection with Conditioned Denoising Diffusion Models](https://arxiv.org/abs/2305.15956v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/arimousa/DDAD)",
+      "n": "DDAD",
+      "d": "2023-05-25",
+      "m1": "98.9",
+      "m2": "92.7",
+      "m5": "97.6"
+    },
+    {
+      "p": "[DiffusionAD: Norm-guided One-step Denoising Diffusion for Anomaly Detection](https://arxiv.org/abs/2303.08730v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/huizhang0812/diffusionad)",
+      "n": "DiffusionAD",
+      "d": "2023-03-15",
+      "m1": "98.8",
+      "m2": "96.0",
+      "m4": "96.0",
+      "m5": "98.9"
+    },
+    {
+      "p": "[A Unified Anomaly Synthesis Strategy with Gradient Ascent for Industrial Anomaly Detection and Localization](https://arxiv.org/abs/2407.09359v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cqylunlun/glass)",
+      "n": "GLASS",
+      "d": "2024-07-12",
+      "m1": "98.8",
+      "m2": "92.8",
+      "m5": "98.8"
+    },
+    {
+      "p": "[TransFusion -- A Transparency-Based Diffusion Model for Anomaly Detection](https://arxiv.org/abs/2311.09999v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/maticfuc/eccv_transfusion)",
+      "n": "TransFusion",
+      "d": "2023-11-16",
+      "m1": "98.7",
+      "m2": "94.7"
+    },
+    {
+      "p": "[EfficientAD: Accurate Visual Anomaly Detection at Millisecond-Level Latencies](https://arxiv.org/abs/2303.14535v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/openvinotoolkit/anomalib)",
+      "n": "EfficientAD-M",
+      "d": "2023-03-25",
+      "m1": "98.1",
+      "m2": "94.0"
+    },
+    {
+      "p": "[Hard-normal Example-aware Template Mutual Matching for Industrial Anomaly Detection](https://arxiv.org/abs/2303.16191v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/NarcissusEx/HETMM)",
+      "n": "HETMM",
+      "d": "2023-03-28",
+      "m1": "98.1",
+      "m5": "99.1"
+    },
+    {
+      "p": "[RealNet: A Feature Selection Network with Realistic Synthetic Anomaly for Anomaly Detection](https://arxiv.org/abs/2403.05897v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cnulab/realnet)",
+      "n": "RealNet",
+      "d": "2024-03-09",
+      "m1": "97.8",
+      "m5": "98.8"
+    },
+    {
+      "p": "[Progressive Boundary Guided Anomaly Synthesis for Industrial Anomaly Detection](https://arxiv.org/abs/2412.17458v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cqylunlun/pbas)",
+      "n": "PBAS",
+      "d": "2024-12-23",
+      "m1": "97.7",
+      "m4": "93.3",
+      "m5": "98.6"
+    },
+    {
+      "p": "[AnomalyDINO: Boosting Patch-based Few-shot Anomaly Detection with DINOv2](https://arxiv.org/abs/2405.14529v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dammsi/AnomalyDINO)",
+      "n": "AnomalyDINO-S (full-shot)",
+      "d": "2024-05-23",
+      "m1": "97.6",
+      "m2": "96.1",
+      "m5": "98.8"
+    },
+    {
+      "p": "[EfficientAD: Accurate Visual Anomaly Detection at Millisecond-Level Latencies](https://arxiv.org/abs/2303.14535v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/openvinotoolkit/anomalib)",
+      "n": "EfficientAD-S",
+      "d": "2023-03-25",
+      "m1": "97.5",
+      "m2": "93.1"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "ReContrast",
+      "d": null,
+      "m1": "97.5",
+      "m4": "92.6",
+      "m5": "98.2"
+    },
+    {
+      "p": "[FAIR: Frequency-aware Image Restoration for Industrial Visual Anomaly Detection](https://arxiv.org/abs/2309.07068v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/liutongkun/fair)",
+      "n": "FAIRnoDTD",
+      "d": "2023-09-13",
+      "m1": "97.1",
+      "m2": "91.2",
+      "m5": "98.7"
+    },
+    {
+      "p": "[Center-aware Residual Anomaly Synthesis for Multi-class Industrial Anomaly Detection](https://arxiv.org/abs/2505.17551v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cqylunlun/CRAS)",
+      "n": "CRAS",
+      "d": "2025-05-23",
+      "m1": "97.0",
+      "m5": "98.4"
+    },
+    {
+      "p": "[Unlocking the Potential of Reverse Distillation for Anomaly Detection](https://arxiv.org/abs/2412.07579v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/hito2448/urd)",
+      "n": "URD",
+      "d": "2024-12-10",
+      "m1": "96.5",
+      "m2": "95.1",
+      "m5": "99.1"
+    },
+    {
+      "p": "[Dynamic Addition of Noise in a Diffusion Model for Anomaly Detection](https://arxiv.org/abs/2401.04463v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/JustinTebbe/D3AD)",
+      "n": "D3AD",
+      "d": "2024-01-09",
+      "m1": "96.0",
+      "m2": "94.1",
+      "m5": "97.9"
+    },
+    {
+      "p": "[Asymmetric Student-Teacher Networks for Industrial Anomaly Detection](https://arxiv.org/abs/2210.07829v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/marco-rudolph/ast)",
+      "n": "AST",
+      "d": "2022-10-14",
+      "m1": "94.9",
+      "m2": "81.5"
+    },
+    {
+      "p": "[Reconstruction from edge image combined with color and gradient difference for industrial surface anomaly detection](https://arxiv.org/abs/2210.14485v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/liutongkun/edgrec)",
+      "n": "EdgRec",
+      "d": "2022-10-26",
+      "m1": "94.2",
+      "m2": "90.7"
+    },
+    {
+      "p": "[SuperSimpleNet: Unifying Unsupervised and Supervised Learning for Fast and Reliable Surface Defect Detection](https://arxiv.org/abs/2408.03143v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-edge-platform/anomalib)",
+      "n": "SuperSimpleNet",
+      "d": "2024-08-06",
+      "m1": "93.4",
+      "m2": "87.4",
+      "m4": "87.4"
+    },
+    {
+      "p": "[Uninformed Students: Student-Teacher Anomaly Detection with Discriminative Latent Embeddings](https://arxiv.org/abs/1911.02357v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/denguir/student-teacher-anomaly-detection)",
+      "n": "Student-Teacher",
+      "d": "2019-11-06",
+      "m1": "93.2"
+    },
+    {
+      "p": "[MuSc: Zero-Shot Industrial Anomaly Classification and Segmentation with Mutual Scoring of the Unlabeled Images](https://arxiv.org/abs/2401.16753v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/xrli-U/MuSc)",
+      "n": "MuSc (zero-shot)",
+      "d": "2024-01-30",
+      "m1": "92.8",
+      "m2": "92.7",
+      "m4": "92.7",
+      "m5": "98.8"
+    },
+    {
+      "p": "[AnomalyDINO: Boosting Patch-based Few-shot Anomaly Detection with DINOv2](https://arxiv.org/abs/2405.14529v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dammsi/AnomalyDINO)",
+      "n": "AnomalyDINO-S (4-shot)",
+      "d": "2024-05-23",
+      "m1": "92.6",
+      "m2": "94.1",
+      "m5": "98.2"
+    },
+    {
+      "p": "[CFA: Coupled-hypersphere-based Feature Adaptation for Target-Oriented Anomaly Localization](https://arxiv.org/abs/2206.04325v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/openvinotoolkit/anomalib)",
+      "n": "CFA",
+      "d": "2022-06-09",
+      "m1": "92.0",
+      "m2": "55.1"
+    },
+    {
+      "p": "[CFLOW-AD: Real-Time Unsupervised Anomaly Detection with Localization via Conditional Normalizing Flows](https://arxiv.org/abs/2107.12571v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/openvinotoolkit/anomalib/tree/development/anomalib/models/cflow)",
+      "n": "CFLOW",
+      "d": "2021-07-27",
+      "m1": "91.5"
+    },
+    {
+      "p": "[AnomalyDINO: Boosting Patch-based Few-shot Anomaly Detection with DINOv2](https://arxiv.org/abs/2405.14529v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dammsi/AnomalyDINO)",
+      "n": "AnomalyDINO-S (2-shot)",
+      "d": "2024-05-23",
+      "m1": "89.7",
+      "m2": "93.4",
+      "m5": "98"
+    },
+    {
+      "p": "[Beyond Dents and Scratches: Logical Constraints in Unsupervised Anomaly Detection and Localization](https://link.springer.com/article/10.1007/s11263-022-01578-9)",
+      "c": "",
+      "n": "GCAD",
+      "d": "2022-02-22",
+      "m1": "89.1",
+      "m2": "83.7"
+    },
+    {
+      "p": "[SPot-the-Difference Self-Supervised Pre-training for Anomaly Detection and Segmentation](https://arxiv.org/abs/2207.14315v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/amazon-science/spot-diff)",
+      "n": "SPD",
+      "d": "2022-07-28",
+      "m1": "87.8"
+    },
+    {
+      "p": "[AnomalyDINO: Boosting Patch-based Few-shot Anomaly Detection with DINOv2](https://arxiv.org/abs/2405.14529v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dammsi/AnomalyDINO)",
+      "n": "AnomalyDINO-S (1-shot)",
+      "d": "2024-05-23",
+      "m1": "87.4",
+      "m2": "92.5",
+      "m5": "97.8"
+    },
+    {
+      "p": "[WinCLIP: Zero-/Few-Shot Anomaly Classification and Segmentation](https://arxiv.org/abs/2303.14814v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/openvinotoolkit/anomalib)",
+      "n": "WinCLIP+ (4-shot)",
+      "d": "2023-03-26",
+      "m1": "87.3",
+      "m2": "87.6",
+      "m4": "87.6"
+    },
+    {
+      "p": "[AdaCLIP: Adapting CLIP with Hybrid Learnable Prompts for Zero-Shot Anomaly Detection](https://arxiv.org/abs/2407.15795v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/caoyunkang/adaclip)",
+      "n": "AdaCLIP",
+      "d": "2024-07-22",
+      "m1": "85.8",
+      "m5": "95.5"
+    },
+    {
+      "p": "[WinCLIP: Zero-/Few-Shot Anomaly Classification and Segmentation](https://arxiv.org/abs/2303.14814v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/openvinotoolkit/anomalib)",
+      "n": "WinCLIP+ (2-shot)",
+      "d": "2023-03-26",
+      "m1": "84.6",
+      "m2": "86.2",
+      "m4": "86.2"
+    },
+    {
+      "p": "[WinCLIP: Zero-/Few-Shot Anomaly Classification and Segmentation](https://arxiv.org/abs/2303.14814v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/openvinotoolkit/anomalib)",
+      "n": "WinCLIP+ (1-shot)",
+      "d": "2023-03-26",
+      "m1": "83.8",
+      "m2": "85.1",
+      "m4": "85.1"
+    },
+    {
+      "p": "[Student-Teacher Feature Pyramid Matching for Anomaly Detection](https://arxiv.org/abs/2103.04257v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/openvinotoolkit/anomalib)",
+      "n": "STPM",
+      "d": "2021-03-07",
+      "m1": "83.3",
+      "m2": "62.0"
+    },
+    {
+      "p": "[Sub-Image Anomaly Detection with Deep Pyramid Correspondences](https://arxiv.org/abs/2005.02357v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/byungjae89/SPADE-pytorch)",
+      "n": "SPADE",
+      "d": "2020-05-05",
+      "m1": "82.1",
+      "m2": "65.9"
+    },
+    {
+      "p": "[AnomalyCLIP: Object-agnostic Prompt Learning for Zero-shot Anomaly Detection](https://arxiv.org/abs/2310.18961v9)",
+      "c": "[&check;&nbsp;Link](https://github.com/zqhang/anomalyclip)",
+      "n": "AnomalyCLIP",
+      "d": "2023-10-29",
+      "m1": "82.1",
+      "m4": "87.0",
+      "m5": "95.5"
+    },
+    {
+      "p": "[AnoDDPM: Anomaly Detection With Denoising Diffusion Probabilistic Models Using Simplex Noise](https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/html/Wyatt_AnoDDPM_Anomaly_Detection_With_Denoising_Diffusion_Probabilistic_Models_Using_Simplex_CVPRW_2022_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/julian-wyatt/anoddpm)",
+      "n": "AnoDDPM",
+      "d": "2022-06-30",
+      "m1": "78.2",
+      "m2": "60.5"
+    },
+    {
+      "p": "[WinCLIP: Zero-/Few-Shot Anomaly Classification and Segmentation](https://arxiv.org/abs/2303.14814v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/openvinotoolkit/anomalib)",
+      "n": "WinCLIP (0-shot)",
+      "d": "2023-03-26",
+      "m1": "78.1",
+      "m2": "56.8",
+      "m4": "56.8"
+    },
+    {
+      "p": "[APRIL-GAN: A Zero-/Few-Shot Anomaly Classification and Segmentation Method for CVPR 2023 VAND Workshop Challenge Tracks 1&2: 1st Place on Zero-shot AD and 4th Place on Few-shot AD](https://arxiv.org/abs/2305.17382v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/bychelsea/vand-april-gan)",
+      "n": "APRIL-GAN",
+      "d": "2023-05-27",
+      "m1": "78.0",
+      "m3": "32.3",
+      "m4": "86.8",
+      "m5": "94.2"
+    },
+    {
+      "p": "[PaDiM: a Patch Distribution Modeling Framework for Anomaly Detection and Localization](https://arxiv.org/abs/2011.08785v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/openvinotoolkit/anomalib)",
+      "n": "PaDiM",
+      "d": "2020-11-17",
+      "m2": "85.9"
+    },
+    {
+      "p": "[DRAEM -- A discriminatively trained reconstruction embedding for surface anomaly detection](https://arxiv.org/abs/2108.07610v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/openvinotoolkit/anomalib/tree/development/anomalib/models/draem)",
+      "n": "DRAEM",
+      "d": "2021-08-17",
+      "m2": "73.1"
+    },
+    {
+      "p": "[Anomaly Detection via Reverse Distillation from One-Class Embedding](https://arxiv.org/abs/2201.10703v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/openvinotoolkit/anomalib/tree/development/anomalib/models/reverse_distillation)",
+      "n": "Reverse Distillation",
+      "d": "2022-01-26",
+      "m2": "70.9"
+    },
+    {
+      "p": "[DSR -- A dual subspace re-projection network for surface anomaly detection](https://arxiv.org/abs/2208.01521v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/vitjanz/dsr_anomaly_detection)",
+      "n": "DSR",
+      "d": "2022-08-02",
+      "m2": "68.1"
+    },
+    {
+      "p": "[Anomaly localization by modeling perceptual features](https://arxiv.org/abs/2008.05369v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/xiahaifeng1995/FAVAE-anomaly-detection-localization-master)",
+      "n": "FAVAE",
+      "d": "2020-08-12",
+      "m2": "67.9"
+    },
+    {
+      "p": "[FastFlow: Unsupervised Anomaly Detection and Localization via 2D Normalizing Flows](https://arxiv.org/abs/2111.07677v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/openvinotoolkit/anomalib/tree/main/src/anomalib/models/fastflow)",
+      "n": "FastFlow",
+      "d": "2021-11-15",
+      "m2": "59.8"
+    },
+    {
+      "p": "[Segment Any Anomaly without Training via Hybrid Prompt Regularization](https://arxiv.org/abs/2305.10724v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/caoyunkang/groundedsam-zero-shot-anomaly-detection)",
+      "n": "SAA+",
+      "d": "2023-05-18",
+      "m3": "27.07"
+    },
+    {
+      "p": "[VCP-CLIP: A visual context prompting model for zero-shot anomaly segmentation](https://arxiv.org/abs/2407.12276v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/xiaozhen228/vcp-clip)",
+      "n": "VCP-CLIP",
+      "d": "2024-07-17",
+      "m4": "90.7",
+      "m5": "95.7"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

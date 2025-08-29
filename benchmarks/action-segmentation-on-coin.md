@@ -1,0 +1,102 @@
+# action-segmentation-on-coin
+
+[Dataset Link](https://coin-dataset.github.io/) \
+Task Hierarchy: ['Action Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Frame accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[UnLoc: A Unified Framework for Video Localization Tasks](https://arxiv.org/abs/2308.11062v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/scenic)",
+      "n": "UnLoc-L",
+      "d": "2023-08-21",
+      "m1": "72.8"
+    },
+    {
+      "p": "[UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation](https://arxiv.org/abs/2002.06353v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/UniVL)",
+      "n": "Univl",
+      "d": "2020-02-15",
+      "m1": "70.0"
+    },
+    {
+      "p": "[Multi-granularity Correspondence Learning from Long-term Noisy Videos](https://arxiv.org/abs/2401.16702v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/XLearning-SCU/2024-ICLR-Norton)",
+      "n": "Norton",
+      "d": "2024-01-30",
+      "m1": "69.8"
+    },
+    {
+      "p": "[VideoCLIP: Contrastive Pre-training for Zero-shot Video-Text Understanding](https://arxiv.org/abs/2109.14084v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/fairseq)",
+      "n": "VideoClip",
+      "d": "2021-09-28",
+      "m1": "68.7"
+    },
+    {
+      "p": "[VLM: Task-agnostic Video-Language Model Pre-training for Video Understanding](https://arxiv.org/abs/2105.09996v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/pytorch/fairseq)",
+      "n": "VLM",
+      "d": "2021-05-20",
+      "m1": "68.4"
+    },
+    {
+      "p": "[TACo: Token-aware Cascade Contrastive Learning for Video-Text Alignment](https://arxiv.org/abs/2108.09980v1)",
+      "c": "",
+      "n": "TACo",
+      "d": "2021-08-23",
+      "m1": "68.4"
+    },
+    {
+      "p": "[End-to-End Learning of Visual Representations from Uncurated Instructional Videos](https://arxiv.org/abs/1912.06430v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/antoine77340/MIL-NCE_HowTo100M)",
+      "n": "MIL-NCE",
+      "d": "2019-12-13",
+      "m1": "61.0"
+    },
+    {
+      "p": "[ActBERT: Learning Global-Local Video-Text Representations](https://arxiv.org/abs/2011.07231v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleVideo/blob/develop/docs/en/model_zoo/multimodal/actbert.md)",
+      "n": "ActBERT",
+      "d": "2020-11-14",
+      "m1": "57.0"
+    },
+    {
+      "p": "[End-to-End Learning of Visual Representations from Uncurated Instructional Videos](https://arxiv.org/abs/1912.06430v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/antoine77340/MIL-NCE_HowTo100M)",
+      "n": "CBT",
+      "d": "2019-12-13",
+      "m1": "53.9"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

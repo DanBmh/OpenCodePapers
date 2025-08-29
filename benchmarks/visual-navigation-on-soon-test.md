@@ -1,0 +1,92 @@
+# visual-navigation-on-soon-test
+
+[Dataset Link]() \
+Task Hierarchy: ['Visual Navigation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Nav-SPL",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "SR",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Learning from Unlabeled 3D Environments for Vision-and-Language Navigation](https://arxiv.org/abs/2208.11781v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cshizhe/HM3DAutoVLN)",
+      "n": "AutoVLN",
+      "d": "2022-08-24",
+      "m1": "27.83",
+      "m2": "40.36"
+    },
+    {
+      "p": "[Towards Learning a Generalist Model for Embodied Navigation](https://arxiv.org/abs/2312.02010v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/zd11024/NaviLLM)",
+      "n": "NaviLLM",
+      "d": "2023-12-04",
+      "m1": "26.26",
+      "m2": "35.04"
+    },
+    {
+      "p": "[Meta-Explore: Exploratory Hierarchical Vision-and-Language Navigation Using Scene Object Spectrum Grounding](https://arxiv.org/abs/2303.04077v1)",
+      "c": "",
+      "n": "Meta-Explore",
+      "d": "2023-03-07",
+      "m1": "25.8",
+      "m2": "39.1"
+    },
+    {
+      "p": "[Agent Journey Beyond RGB: Unveiling Hybrid Semantic-Spatial Environmental Representations for Vision-and-Language Navigation](https://arxiv.org/abs/2412.06465v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/HCI-LMC/VLN-SUSA)",
+      "n": "SUSA",
+      "d": "2024-12-09",
+      "m1": "25.47",
+      "m2": "36.87"
+    },
+    {
+      "p": "[Think Global, Act Local: Dual-scale Graph Transformer for Vision-and-Language Navigation](https://arxiv.org/abs/2202.11742v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cshizhe/vln-duet)",
+      "n": "DUET",
+      "d": "2022-02-23",
+      "m1": "21.42",
+      "m2": "33.44"
+    },
+    {
+      "p": "[SOON: Scenario Oriented Object Navigation with Graph-based Exploration](https://arxiv.org/abs/2103.17138v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhufengdaaa/soon)",
+      "n": "GBE",
+      "d": "2021-03-31",
+      "m1": "13.3",
+      "m2": "19.5"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

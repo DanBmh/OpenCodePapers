@@ -1,0 +1,104 @@
+# image-retrieval-on-photochat
+
+[Dataset Link]() \
+Task Hierarchy: ['Image Retrieval']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "R1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "R@10",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "R@5",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Sum(R@1,5,10)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[PaCE: Unified Multi-modal Dialogue Pre-training with Progressive and Compositional Experts](https://arxiv.org/abs/2305.14839v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/pace)",
+      "n": "PaCE",
+      "d": "2023-05-24",
+      "m1": "15.2",
+      "m2": "49.6",
+      "m3": "36.7",
+      "m4": "101.5"
+    },
+    {
+      "p": "[VLMo: Unified Vision-Language Pre-Training with Mixture-of-Modality-Experts](https://arxiv.org/abs/2111.02358v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/unilm/tree/master/vlmo)",
+      "n": "VLMo",
+      "d": "2021-11-03",
+      "m1": "11.5",
+      "m2": "39.4",
+      "m3": "30.0",
+      "m4": "83.2"
+    },
+    {
+      "p": "[ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision](https://arxiv.org/abs/2102.03334v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "ViLT",
+      "d": "2021-02-05",
+      "m1": "11.5",
+      "m2": "25.6",
+      "m3": "33.8",
+      "m4": "71.0"
+    },
+    {
+      "p": "[Stacked Cross Attention for Image-Text Matching](http://arxiv.org/abs/1803.08024v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/kuanghuei/SCAN)",
+      "n": "SCAN",
+      "d": "2018-03-21",
+      "m1": "10.4",
+      "m2": "37.1",
+      "m3": "27.0",
+      "m4": "74.5"
+    },
+    {
+      "p": "[PhotoChat: A Human-Human Dialogue Dataset with Photo Sharing Behavior for Joint Image-Text Modeling](https://arxiv.org/abs/2108.01453v1)",
+      "c": "",
+      "n": "DE++",
+      "d": "2021-07-06",
+      "m1": "9.0",
+      "m2": "35.7",
+      "m3": "26.4",
+      "m4": "71.1"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

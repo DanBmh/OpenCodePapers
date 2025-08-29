@@ -1,0 +1,76 @@
+# spatio-temporal-video-grounding-on-hc-stvg1
+
+[Dataset Link](https://github.com/tzhhhh123/HC-STVG) \
+Task Hierarchy: ['Spatio-Temporal Video Grounding']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "m_vIoU",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "vIoU@0.3",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "vIoU@0.5",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Knowing Your Target: Target-Aware Transformer Makes Better Spatio-Temporal Video Grounding](https://arxiv.org/abs/2502.11168v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/HengLan/TA-STVG)",
+      "n": "TA-STVG",
+      "d": "2025-02-16",
+      "m1": "39.1",
+      "m2": "63.1",
+      "m3": "36.8"
+    },
+    {
+      "p": "[Context-Guided Spatio-Temporal Video Grounding](https://arxiv.org/abs/2401.01578v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/henglan/cgstvg)",
+      "n": "CG-STVG",
+      "d": "2024-01-03",
+      "m1": "38.4",
+      "m2": "61.5",
+      "m3": "36.3"
+    },
+    {
+      "p": "[TubeDETR: Spatio-Temporal Video Grounding with Transformers](https://arxiv.org/abs/2203.16434v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/antoyang/TubeDETR)",
+      "n": "TubeDETR",
+      "d": "2022-03-30",
+      "m1": "32.4",
+      "m2": "49.8",
+      "m3": "23.5"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

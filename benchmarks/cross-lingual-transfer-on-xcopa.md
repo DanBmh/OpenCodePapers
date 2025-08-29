@@ -1,0 +1,81 @@
+# cross-lingual-transfer-on-xcopa
+
+[Dataset Link](https://github.com/cambridgeltl/xcopa) \
+Task Hierarchy: ['Cross-Lingual Transfer']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[PaLM 2 Technical Report](https://arxiv.org/abs/2305.10403v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/eternityyw/tram-benchmark)",
+      "n": "PaLM 2 (few-shot)",
+      "d": "2023-05-17",
+      "m1": "94.4"
+    },
+    {
+      "p": "[Crosslingual Generalization through Multitask Finetuning](https://arxiv.org/abs/2211.01786v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/bigscience-workshop/xmtf)",
+      "n": "mT0-13B",
+      "d": "2022-11-03",
+      "m1": "84.45"
+    },
+    {
+      "p": "[XCOPA: A Multilingual Dataset for Causal Commonsense Reasoning](https://arxiv.org/abs/2005.00333v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/cambridgeltl/xcopa)",
+      "n": "RoBERTa Large (translate test)",
+      "d": "2020-05-01",
+      "m1": "76.05"
+    },
+    {
+      "p": "[Crosslingual Generalization through Multitask Finetuning](https://arxiv.org/abs/2211.01786v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/bigscience-workshop/xmtf)",
+      "n": "BLOOMZ",
+      "d": "2022-11-03",
+      "m1": "75.5"
+    },
+    {
+      "p": "[MAD-X: An Adapter-Based Framework for Multi-Task Cross-Lingual Transfer](https://arxiv.org/abs/2005.00052v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Adapter-Hub/adapter-transformers)",
+      "n": "MAD-X Base",
+      "d": "2020-04-30",
+      "m1": "60.94"
+    },
+    {
+      "p": "[mGPT: Few-Shot Learners Go Multilingual](https://arxiv.org/abs/2204.07580v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ai-forever/mgpt)",
+      "n": "mGPT",
+      "d": "2022-04-15",
+      "m1": "55.5"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

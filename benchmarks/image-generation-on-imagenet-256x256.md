@@ -1,0 +1,721 @@
+# image-generation-on-imagenet-256x256
+
+[Dataset Link]() \
+Task Hierarchy: ['Image Generation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "FID",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Inception score",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "NFE",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Unified Continuous Generative Models](https://arxiv.org/abs/2505.07447v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/LINs-Lab/UCGM)",
+      "n": "SiT-XL/2 + UCGM-S (E2E-VAE + 40 sampling steps + CFG)",
+      "d": "2025-05-12",
+      "m1": "1.06",
+      "m3": "80"
+    },
+    {
+      "p": "[Unified Continuous Generative Models](https://arxiv.org/abs/2505.07447v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/LINs-Lab/UCGM)",
+      "n": "UCGM-XL/2 (VA-VAE + 30 sampling steps, without guidance)",
+      "d": "2025-05-12",
+      "m1": "1.21",
+      "m3": "30"
+    },
+    {
+      "p": "[Unified Continuous Generative Models](https://arxiv.org/abs/2505.07447v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/LINs-Lab/UCGM)",
+      "n": "UCGM-XL/2 (E2E-VAE + 40 sampling steps, without guidance)",
+      "d": "2025-05-12",
+      "m1": "1.21",
+      "m3": "40"
+    },
+    {
+      "p": "[Direct Discriminative Optimization: Your Likelihood-Based Visual Generative Model is Secretly a GAN Discriminator](https://arxiv.org/abs/2503.01103v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/nvlabs/ddo)",
+      "n": "EDM2-L + DDO (SD-VAE, 25 steps, DPM-Solver-v3)",
+      "d": "2025-03-03",
+      "m1": "1.21",
+      "m3": "50"
+    },
+    {
+      "p": "[Unified Continuous Generative Models](https://arxiv.org/abs/2505.07447v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/LINs-Lab/UCGM)",
+      "n": "LightningDiT + UCGM-S (VA-VAE + 50 sampling steps + CFG)",
+      "d": "2025-05-12",
+      "m1": "1.21",
+      "m3": "100"
+    },
+    {
+      "p": "[Beyond Next-Token: Next-X Prediction for Autoregressive Visual Generation](https://arxiv.org/abs/2502.20388v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/OliverRensu/xAR)",
+      "n": "xAR-H",
+      "d": "2025-02-27",
+      "m1": "1.24"
+    },
+    {
+      "p": "[REPA-E: Unlocking VAE for End-to-End Tuning of Latent Diffusion Transformers](https://arxiv.org/abs/2504.10483)",
+      "c": "[&check;&nbsp;Link](https://github.com/End2End-Diffusion/REPA-E)",
+      "n": "SiT-XL/2 + REPA-E",
+      "d": "2025-04-15",
+      "m1": "1.26",
+      "m2": "314.9"
+    },
+    {
+      "p": "[DDT: Decoupled Diffusion Transformer](https://arxiv.org/abs/2504.05741v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/MCG-NJU/DDT)",
+      "n": "DDT-XL/2(22en6de 675M + guidance interval )",
+      "d": "2025-04-08",
+      "m1": "1.26",
+      "m2": "310.6"
+    },
+    {
+      "p": "[Beyond Next-Token: Next-X Prediction for Autoregressive Visual Generation](https://arxiv.org/abs/2502.20388v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/OliverRensu/xAR)",
+      "n": "xAR-L",
+      "d": "2025-02-27",
+      "m1": "1.28"
+    },
+    {
+      "p": "[Flow-Anchored Consistency Models](https://arxiv.org/abs/2507.03738v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ali-vilab/FACM)",
+      "n": "FACM (2-step)",
+      "d": "2025-07-04",
+      "m1": "1.32",
+      "m3": "2"
+    },
+    {
+      "p": "[Generative Modeling with Explicit Memory](https://arxiv.org/abs/2412.08781v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/lins-lab/gmem)",
+      "n": "GMem  (with the guidance interval)",
+      "d": "2024-12-11",
+      "m1": "1.32"
+    },
+    {
+      "p": "[Diffusion Models without Classifier-free Guidance](https://arxiv.org/abs/2502.12154v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/lucidrains/classifier-free-guidance-pytorch)",
+      "n": "SiT-XL/2 + MG",
+      "d": "2025-02-17",
+      "m1": "1.34"
+    },
+    {
+      "p": "[AliTok: Towards Sequence Modeling Alignment between Tokenizer and Autoregressive Model](https://arxiv.org/abs/2506.05289v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ali-vilab/alitok)",
+      "n": "AliTok-XL, autoregressive, 662M",
+      "d": "2025-06-05",
+      "m1": "1.35",
+      "m2": "318.8"
+    },
+    {
+      "p": "[Reconstruction vs. Generation: Taming Optimization Dilemma in Latent Diffusion Models](https://arxiv.org/abs/2501.01423v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/hustvl/LightningDiT)",
+      "n": "LightningDiT + VA-VAE (with the guidance interval)",
+      "d": "2025-01-02",
+      "m1": "1.35"
+    },
+    {
+      "p": "[Simpler Diffusion (SiD2): 1.5 FID on ImageNet512 with pixel-space diffusion](https://arxiv.org/abs/2410.19324v2)",
+      "c": "",
+      "n": "SiD2",
+      "d": "2024-10-25",
+      "m1": "1.38"
+    },
+    {
+      "p": "[U-REPA: Aligning Diffusion U-Nets to ViTs](https://arxiv.org/abs/2503.18414v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yuchuantian/u-repa)",
+      "n": "SiT\u2193-XL/2+U-REPA (with the guidance interval)",
+      "d": "2025-03-24",
+      "m1": "1.41"
+    },
+    {
+      "p": "[AliTok: Towards Sequence Modeling Alignment between Tokenizer and Autoregressive Model](https://arxiv.org/abs/2506.05289v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ali-vilab/alitok)",
+      "n": "AliTok-XL, autoregressive, 318M",
+      "d": "2025-06-05",
+      "m1": "1.42",
+      "m2": "326.6"
+    },
+    {
+      "p": "[Representation Alignment for Generation: Training Diffusion Transformers Is Easier Than You Think](https://arxiv.org/abs/2410.06940v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/sihyun-yu/REPA)",
+      "n": "SiT-XL/2 + REPA (with the guidance interval)",
+      "d": "2024-10-09",
+      "m1": "1.42"
+    },
+    {
+      "p": "[Randomized Autoregressive Visual Generation](https://arxiv.org/abs/2411.00776v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/bytedance/1d-tokenizer)",
+      "n": "RAR-XXL, autoregressive",
+      "d": "2024-11-01",
+      "m1": "1.48"
+    },
+    {
+      "p": "[Randomized Autoregressive Visual Generation](https://arxiv.org/abs/2411.00776v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/bytedance/1d-tokenizer)",
+      "n": "RAR-XL, autoregressive",
+      "d": "2024-11-01",
+      "m1": "1.50"
+    },
+    {
+      "p": "[MaskBit: Embedding-free Image Generation via Bit Tokens](https://arxiv.org/abs/2409.16211v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/markweberdev/maskbit)",
+      "n": "MaskBit",
+      "d": "2024-09-24",
+      "m1": "1.52"
+    },
+    {
+      "p": "[Generative Modeling with Explicit Memory](https://arxiv.org/abs/2412.08781v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/lins-lab/gmem)",
+      "n": "GMem (w/o guidance)",
+      "d": "2024-12-11",
+      "m1": "1.53"
+    },
+    {
+      "p": "[Elucidating the design space of language models for image generation](https://arxiv.org/abs/2410.16257v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Pepper-lll/LMforImageGeneration)",
+      "n": "ELM",
+      "d": "2024-10-21",
+      "m1": "1.54"
+    },
+    {
+      "p": "[Autoregressive Image Generation without Vector Quantization](https://arxiv.org/abs/2406.11838v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/lth14/mar)",
+      "n": "MAR-H, Diff Loss",
+      "d": "2024-06-17",
+      "m1": "1.55"
+    },
+    {
+      "p": "[PaGoDA: Progressive Growing of a One-Step Generator from a Low-Resolution Diffusion Teacher](https://arxiv.org/abs/2405.14822v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/sony/pagoda)",
+      "n": "PaGoDA",
+      "d": "2024-05-23",
+      "m1": "1.56"
+    },
+    {
+      "p": "[Efficient Diffusion Training via Min-SNR Weighting Strategy](https://arxiv.org/abs/2303.09556v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/tiankaihang/min-snr-diffusion-training)",
+      "n": "ViT-XL/2 with limited Interval Guidance",
+      "d": "2023-03-16",
+      "m1": "1.57"
+    },
+    {
+      "p": "[MDTv2: Masked Diffusion Transformer is a Strong Image Synthesizer](https://arxiv.org/abs/2303.14389v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/sail-sg/mdt)",
+      "n": "MDTv2",
+      "d": "2023-03-25",
+      "m1": "1.58"
+    },
+    {
+      "p": "[No Other Representation Component Is Needed: Diffusion Transformers Can Provide Representation Guidance by Themselves](https://arxiv.org/abs/2505.02831v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/vvvvvjdy/sra)",
+      "n": "SiT-XL + SRA",
+      "d": "2025-05-05",
+      "m1": "1.58"
+    },
+    {
+      "p": "[Robust Latent Matters: Boosting Image Generation with Sampling Error](https://arxiv.org/abs/2503.08354v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/lxa9867/imagefolder)",
+      "n": "RobustTok-L",
+      "d": "2025-03-11",
+      "m1": "1.60"
+    },
+    {
+      "p": "[Alleviating Distortion in Image Generation via Multi-Resolution Diffusion Models and Time-Dependent Layer Normalization](https://arxiv.org/abs/2406.09416v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/qihao067/DiMR)",
+      "n": "DiMR-G/2R",
+      "d": "2024-06-13",
+      "m1": "1.63"
+    },
+    {
+      "p": "[FlowAR: Scale-wise Autoregressive Image Generation Meets Flow Matching](https://arxiv.org/abs/2412.15205v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/oliverrensu/flowar)",
+      "n": "FlowAR",
+      "d": "2024-12-19",
+      "m1": "1.65"
+    },
+    {
+      "p": "[Flow-Anchored Consistency Models](https://arxiv.org/abs/2507.03738v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ali-vilab/FACM)",
+      "n": "FACM (1-step)",
+      "d": "2025-07-04",
+      "m1": "1.70",
+      "m3": "1"
+    },
+    {
+      "p": "[CADS: Unleashing the Diversity of Diffusion Models through Condition-Annealed Sampling](https://arxiv.org/abs/2310.17347v4)",
+      "c": "",
+      "n": "DiT-XL/2 with CADS",
+      "d": "2023-10-26",
+      "m1": "1.70"
+    },
+    {
+      "p": "[Alleviating Distortion in Image Generation via Multi-Resolution Diffusion Models and Time-Dependent Layer Normalization](https://arxiv.org/abs/2406.09416v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/qihao067/DiMR)",
+      "n": "DiMR-XL/2R",
+      "d": "2024-06-13",
+      "m1": "1.70"
+    },
+    {
+      "p": "[Randomized Autoregressive Visual Generation](https://arxiv.org/abs/2411.00776v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/bytedance/1d-tokenizer)",
+      "n": "RAR-L, autoregressive",
+      "d": "2024-11-01",
+      "m1": "1.70"
+    },
+    {
+      "p": "[DiffiT: Diffusion Vision Transformers for Image Generation](https://arxiv.org/abs/2312.02139v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/nvlabs/diffit)",
+      "n": "DiffiT",
+      "d": "2023-12-04",
+      "m1": "1.73"
+    },
+    {
+      "p": "[Visual Autoregressive Modeling: Scalable Image Generation via Next-Scale Prediction](https://arxiv.org/abs/2404.02905v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/FoundationVision/VAR)",
+      "n": "VAR (Visual Autoregressive)",
+      "d": "2024-04-03",
+      "m1": "1.73"
+    },
+    {
+      "p": "[Language Model Beats Diffusion -- Tokenizer is Key to Visual Generation](https://arxiv.org/abs/2310.05737v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/jy0205/Pyramid-Flow)",
+      "n": "MAGVIT-v2",
+      "d": "2023-10-09",
+      "m1": "1.78"
+    },
+    {
+      "p": "[Autoregressive Image Generation without Vector Quantization](https://arxiv.org/abs/2406.11838v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/lth14/mar)",
+      "n": "MAR-L, Diff Loss",
+      "d": "2024-06-17",
+      "m1": "1.78"
+    },
+    {
+      "p": "[MDTv2: Masked Diffusion Transformer is a Strong Image Synthesizer](https://arxiv.org/abs/2303.14389v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/sail-sg/mdt)",
+      "n": "MDT",
+      "d": "2023-03-25",
+      "m1": "1.79"
+    },
+    {
+      "p": "[Refining Generative Process with Discriminator Guidance in Score-based Diffusion Models](https://arxiv.org/abs/2211.17091v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/alsdudrla10/DG)",
+      "n": "Discriminator Guidance",
+      "d": "2022-11-28",
+      "m1": "1.83"
+    },
+    {
+      "p": "[Diffusion Models Need Visual Priors for Image Generation](https://arxiv.org/abs/2410.08531v1)",
+      "c": "",
+      "n": "DoD-XL",
+      "d": "2024-10-11",
+      "m1": "1.83"
+    },
+    {
+      "p": "[Robust Latent Matters: Boosting Image Generation with Sampling Error](https://arxiv.org/abs/2503.08354v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/lxa9867/imagefolder)",
+      "n": "RobustTok-B",
+      "d": "2025-03-11",
+      "m1": "1.83"
+    },
+    {
+      "p": "[Autoregressive Image Generation with Randomized Parallel Decoding](https://arxiv.org/abs/2503.10568v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/hp-l33/ARPG)",
+      "n": "ARPG-XXL",
+      "d": "2025-03-13",
+      "m1": "1.94"
+    },
+    {
+      "p": "[Randomized Autoregressive Visual Generation](https://arxiv.org/abs/2411.00776v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/bytedance/1d-tokenizer)",
+      "n": "RAR-B, autoregressive",
+      "d": "2024-11-01",
+      "m1": "1.95"
+    },
+    {
+      "p": "[An Image is Worth 32 Tokens for Reconstruction and Generation](https://arxiv.org/abs/2406.07550v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/bytedance/1d-tokenizer)",
+      "n": "TiTok-S-128",
+      "d": "2024-06-11",
+      "m1": "1.97"
+    },
+    {
+      "p": "[PixelFlow: Pixel-Space Generative Models with Flow](https://arxiv.org/abs/2504.07963v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/shoufachen/pixelflow)",
+      "n": "PixelFlow",
+      "d": "2025-04-10",
+      "m1": "1.98"
+    },
+    {
+      "p": "[Relay Diffusion: Unifying diffusion process across resolutions for image synthesis](https://arxiv.org/abs/2309.03350v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/THUDM/RelayDiffusion)",
+      "n": "RDM",
+      "d": "2023-09-04",
+      "m1": "1.99"
+    },
+    {
+      "p": "[FasterDiT: Towards Faster Diffusion Transformers Training without Architecture Modification](https://arxiv.org/abs/2410.10356v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/hustvl/LightningDiT)",
+      "n": "FasterDiT-XL/2",
+      "d": "2024-10-14",
+      "m1": "2.03"
+    },
+    {
+      "p": "[Learning Stackable and Skippable LEGO Bricks for Efficient, Reconfigurable, and Variable-Resolution Diffusion Modeling](https://arxiv.org/abs/2310.06389v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/JegZheng/LEGODiffusion)",
+      "n": "LEGO-XL",
+      "d": "2023-10-10",
+      "m1": "2.05",
+      "m2": "338.08"
+    },
+    {
+      "p": "[Autoregressive Image Generation with Randomized Parallel Decoding](https://arxiv.org/abs/2503.10568v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/hp-l33/ARPG)",
+      "n": "ARPG-XL",
+      "d": "2025-03-13",
+      "m1": "2.1"
+    },
+    {
+      "p": "[SAN: Inducing Metrizability of GAN with Discriminative Normalized Linear Layer](https://arxiv.org/abs/2301.12811v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/sony/san)",
+      "n": "StyleSAN-XL",
+      "d": "2023-01-30",
+      "m1": "2.14"
+    },
+    {
+      "p": "[Autoregressive Model Beats Diffusion: Llama for Scalable Image Generation](https://arxiv.org/abs/2406.06525v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/foundationvision/llamagen)",
+      "n": "LlamaGen",
+      "d": "2024-06-10",
+      "m1": "2.18"
+    },
+    {
+      "p": "[Scalable Diffusion Models with Transformers](https://arxiv.org/abs/2212.09748v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/diffusers)",
+      "n": "DiT-XL/2",
+      "d": "2022-12-19",
+      "m1": "2.27"
+    },
+    {
+      "p": "[StyleGAN-XL: Scaling StyleGAN to Large Diverse Datasets](https://arxiv.org/abs/2202.00273v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/autonomousvision/stylegan-xl)",
+      "n": "StyleGAN-XL",
+      "d": "2022-02-01",
+      "m1": "2.30"
+    },
+    {
+      "p": "[Autoregressive Image Generation without Vector Quantization](https://arxiv.org/abs/2406.11838v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/lth14/mar)",
+      "n": "MAR-B, Diff Loss",
+      "d": "2024-06-17",
+      "m1": "2.31"
+    },
+    {
+      "p": "[Open-MAGVIT2: An Open-Source Project Toward Democratizing Auto-regressive Visual Generation](https://arxiv.org/abs/2409.04410v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tencentarc/open-magvit2)",
+      "n": "Open-MAGVIT2-XL",
+      "d": "2024-09-06",
+      "m1": "2.33"
+    },
+    {
+      "p": "[ACDiT: Interpolating Autoregressive Conditional Modeling and Diffusion Transformer](https://arxiv.org/abs/2412.07720v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/thunlp/acdit)",
+      "n": "ACDiT",
+      "d": "2024-12-10",
+      "m1": "2.37"
+    },
+    {
+      "p": "[Autoregressive Image Generation with Randomized Parallel Decoding](https://arxiv.org/abs/2503.10568v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/hp-l33/ARPG)",
+      "n": "ARPG-L",
+      "d": "2025-03-13",
+      "m1": "2.44"
+    },
+    {
+      "p": "[An Image is Worth 32 Tokens for Reconstruction and Generation](https://arxiv.org/abs/2406.07550v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/bytedance/1d-tokenizer)",
+      "n": "TiTok-B-64",
+      "d": "2024-06-11",
+      "m1": "2.48"
+    },
+    {
+      "p": "[GIVT: Generative Infinite-Vocabulary Transformers](https://arxiv.org/abs/2312.02116v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/big_vision)",
+      "n": "GIVT-Causal-L+A ",
+      "d": "2023-12-04",
+      "m1": "2.59"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Patch Diffusion",
+      "d": null,
+      "m1": "2.74"
+    },
+    {
+      "p": "[An Image is Worth 32 Tokens for Reconstruction and Generation](https://arxiv.org/abs/2406.07550v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/bytedance/1d-tokenizer)",
+      "n": "TiTok-B-32",
+      "d": "2024-06-11",
+      "m1": "2.77"
+    },
+    {
+      "p": "[Diffusion Models Need Visual Priors for Image Generation](https://arxiv.org/abs/2410.08531v1)",
+      "c": "",
+      "n": "DoD-B",
+      "d": "2024-10-11",
+      "m1": "2.79"
+    },
+    {
+      "p": "[Polynomial Implicit Neural Representations For Large Diverse Datasets](https://arxiv.org/abs/2303.11424v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/rajhans0/poly_inr)",
+      "n": "Poly-INR",
+      "d": "2023-03-20",
+      "m1": "2.86"
+    },
+    {
+      "p": "[MGVQ: Could VQ-VAE Beat VAE? A Generalizable Tokenizer with Multi-group Quantization](https://arxiv.org/abs/2507.07997)",
+      "c": "[&check;&nbsp;Link](https://github.com/MKJia/MGVQ)",
+      "n": "MGVQ",
+      "d": "2025-07-14",
+      "m1": "3.02",
+      "m2": "294.1"
+    },
+    {
+      "p": "[Refining Generative Process with Discriminator Guidance in Score-based Diffusion Models](https://arxiv.org/abs/2211.17091v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/alsdudrla10/DG)",
+      "n": "ADM-G++ (FID)",
+      "d": "2022-11-28",
+      "m1": "3.18"
+    },
+    {
+      "p": "[Stabilize the Latent Space for Image Autoregressive Modeling: A Unified Perspective](https://arxiv.org/abs/2410.12490v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/DAMO-NLP-SG/DiGIT)",
+      "n": "DiGIT-0.7B",
+      "d": "2024-10-16",
+      "m1": "3.39",
+      "m2": "205.96"
+    },
+    {
+      "p": "[Draft-and-Revise: Effective Image Generation with Contextual RQ-Transformer](https://arxiv.org/abs/2206.04452v1)",
+      "c": "",
+      "n": "Contextual RQ-Transformer",
+      "d": "2022-06-09",
+      "m1": "3.41"
+    },
+    {
+      "p": "[Scaling up GANs for Text-to-Image Synthesis](https://arxiv.org/abs/2303.05511v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/lucidrains/gigagan-pytorch)",
+      "n": "GigaGAN",
+      "d": "2023-03-09",
+      "m1": "3.45"
+    },
+    {
+      "p": "[Return of Unconditional Generation: A Self-supervised Representation Generation Method](https://arxiv.org/abs/2312.03701v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/LTH14/rcg)",
+      "n": "RCG-L (w/o guidance)",
+      "d": "2023-12-06",
+      "m1": "3.49"
+    },
+    {
+      "p": "[BIGRoC: Boosting Image Generation via a Robust Classifier](https://arxiv.org/abs/2108.03702v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/royg27/BIGRoC)",
+      "n": "BIGRoC-gt (Guided-Diffusion)",
+      "d": "2021-08-08",
+      "m1": "3.63"
+    },
+    {
+      "p": "[Language Model Beats Diffusion -- Tokenizer is Key to Visual Generation](https://arxiv.org/abs/2310.05737v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/jy0205/Pyramid-Flow)",
+      "n": "MAGVIT-v2 (w/o guidance)",
+      "d": "2023-10-09",
+      "m1": "3.65"
+    },
+    {
+      "p": "[BIGRoC: Boosting Image Generation via a Robust Classifier](https://arxiv.org/abs/2108.03702v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/royg27/BIGRoC)",
+      "n": "BIGRoC-pl (Guided-Diffusion)",
+      "d": "2021-08-08",
+      "m1": "3.69"
+    },
+    {
+      "p": "[Simple diffusion: End-to-end diffusion for high resolution images](https://arxiv.org/abs/2301.11093v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/fashn-AI/tryondiffusion)",
+      "n": "simple diffusion (U-Net)",
+      "d": "2023-01-26",
+      "m1": "3.71"
+    },
+    {
+      "p": "[Simple diffusion: End-to-end diffusion for high resolution images](https://arxiv.org/abs/2301.11093v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/fashn-AI/tryondiffusion)",
+      "n": "simple diffusion (U-ViT, L)",
+      "d": "2023-01-26",
+      "m1": "3.75"
+    },
+    {
+      "p": "[Autoregressive Image Generation using Residual Quantization](https://arxiv.org/abs/2203.01941v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/kakaobrain/rq-vae-transformer)",
+      "n": "RQ-Transformer",
+      "d": "2022-03-03",
+      "m1": "3.83"
+    },
+    {
+      "p": "[Diffusion Models Beat GANs on Image Synthesis](https://arxiv.org/abs/2105.05233v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/openai/guided-diffusion)",
+      "n": "ADM-G, ADM-U",
+      "d": "2021-05-11",
+      "m1": "3.94"
+    },
+    {
+      "p": "[Entropy-driven Sampling and Training Scheme for Conditional Diffusion Generation](https://arxiv.org/abs/2206.11474v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/ZGCTroy/ED-DPM)",
+      "n": "ADM-G + EDS (ED-DPM, classifier_scale=0.75)",
+      "d": "2022-06-23",
+      "m1": "3.96"
+    },
+    {
+      "p": "[MaskGIT: Masked Generative Image Transformer](https://arxiv.org/abs/2202.04200v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/lucidrains/soundstorm-pytorch)",
+      "n": "MaskGIT (a=0.05)",
+      "d": "2022-02-08",
+      "m1": "4.02"
+    },
+    {
+      "p": "[Entropy-driven Sampling and Training Scheme for Conditional Diffusion Generation](https://arxiv.org/abs/2206.11474v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/ZGCTroy/ED-DPM)",
+      "n": "ADM-G + EDS + ECT (ED-DPM, classifier_scale=1.0)",
+      "d": "2022-06-23",
+      "m1": "4.09"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "LDM",
+      "d": null,
+      "m1": "4.29"
+    },
+    {
+      "p": "[Refining Generative Process with Discriminator Guidance in Score-based Diffusion Models](https://arxiv.org/abs/2211.17091v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/alsdudrla10/DG)",
+      "n": "ADM-G++ (Recall)",
+      "d": "2022-11-28",
+      "m1": "4.45"
+    },
+    {
+      "p": "[Flow Matching in Latent Space](https://arxiv.org/abs/2307.08698v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/vinairesearch/lfm)",
+      "n": "LFM",
+      "d": "2023-07-17",
+      "m1": "4.46"
+    },
+    {
+      "p": "[Scalable Adaptive Computation for Iterative Generation](https://arxiv.org/abs/2212.11972v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/pix2seq)",
+      "n": "RIN",
+      "d": "2022-12-22",
+      "m1": "4.51"
+    },
+    {
+      "p": "[Diffusion Models Beat GANs on Image Synthesis](https://arxiv.org/abs/2105.05233v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/openai/guided-diffusion)",
+      "n": "ADM-G",
+      "d": "2021-05-11",
+      "m1": "4.59"
+    },
+    {
+      "p": "[Cascaded Diffusion Models for High Fidelity Image Generation](https://arxiv.org/abs/2106.15282v3)",
+      "c": "",
+      "n": "CDM",
+      "d": "2021-05-30",
+      "m1": "4.88"
+    },
+    {
+      "p": "[Taming Transformers for High-Resolution Image Synthesis](https://arxiv.org/abs/2012.09841v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/CompVis/taming-transformers)",
+      "n": "VQGAN+Transformer (k=600, p=1.0, a=0.05)",
+      "d": "2020-12-17",
+      "m1": "5.2"
+    },
+    {
+      "p": "[MaskGIT: Masked Generative Image Transformer](https://arxiv.org/abs/2202.04200v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/lucidrains/soundstorm-pytorch)",
+      "n": "MaskGIT",
+      "d": "2022-02-08",
+      "m1": "6.18"
+    },
+    {
+      "p": "[Taming Transformers for High-Resolution Image Synthesis](https://arxiv.org/abs/2012.09841v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/CompVis/taming-transformers)",
+      "n": "VQGAN+Transformer (k=mixed, p=1.0, a=0.005)",
+      "d": "2020-12-17",
+      "m1": "6.59"
+    },
+    {
+      "p": "[Polarity Sampling: Quality and Diversity Control of Pre-Trained Generative Networks via Singular Values](https://arxiv.org/abs/2203.01993v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/AhmedImtiazPrio/magnet-polarity)",
+      "n": "Polarity-BigGAN",
+      "d": "2022-03-03",
+      "m1": "6.82"
+    },
+    {
+      "p": "[Large Scale GAN Training for High Fidelity Natural Image Synthesis](http://arxiv.org/abs/1809.11096v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ajbrock/BigGAN-PyTorch)",
+      "n": "BigGAN-deep",
+      "d": "2018-09-28",
+      "m1": "8.1"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "ADM",
+      "d": null,
+      "m1": "11.84"
+    },
+    {
+      "p": "[Improved Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2102.09672v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/neonbjb/tortoise-tts)",
+      "n": "Improved DDPM",
+      "d": "2021-02-18",
+      "m1": "12.3"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

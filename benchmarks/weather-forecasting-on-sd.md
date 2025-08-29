@@ -1,0 +1,124 @@
+# weather-forecasting-on-sd
+
+[Dataset Link]() \
+Task Hierarchy: ['Weather Forecasting']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "MSE (t+1)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "MSE (t+6)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Climate modeling with neural advection\u2013diffusion equation](https://link.springer.com/article/10.1007/s10115-023-01829-2)",
+      "c": "[&check;&nbsp;Link](https://github.com/hwangyong753/NADE)",
+      "n": "NADE",
+      "d": "2023-01-31",
+      "m1": "0.1430 \u00b1 0.0280",
+      "m2": "0.6516 \u00b1 0.0657"
+    },
+    {
+      "p": "[Adaptive Graph Convolutional Recurrent Network for Traffic Forecasting](https://arxiv.org/abs/2007.02842v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/benedekrozemberczki/pytorch_geometric_temporal)",
+      "n": "AGCRN",
+      "d": "2020-07-06",
+      "m1": "0.2010 \u00b1 0.0188",
+      "m2": "1.0181 \u00b1 0.1275"
+    },
+    {
+      "p": "[Climate Modeling with Neural Diffusion Equations](https://arxiv.org/abs/2111.06011v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jeehyunhwang/neural-diffusion-equation)",
+      "n": "NDE",
+      "d": "2021-11-11",
+      "m1": "0.3561 \u00b1 0.0055",
+      "m2": "0.7301 \u00b1 0.0048"
+    },
+    {
+      "p": "[Differentiable Physics-informed Graph Networks](http://arxiv.org/abs/1902.02950v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/sungyongs/dpgn)",
+      "n": "DPGN",
+      "d": "2019-02-08",
+      "m1": "0.5149 \u00b1 0.0831",
+      "m2": "0.6714 \u00b1 0.1106"
+    },
+    {
+      "p": "[Neural Dynamics on Complex Networks](https://arxiv.org/abs/1908.06491v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/calvin-zcx/ndcn)",
+      "n": "RNN-GNN",
+      "d": "2019-08-18",
+      "m1": "0.5291 \u00b1 0.0578",
+      "m2": "0.7862 \u00b1 0.0475"
+    },
+    {
+      "p": "[Neural Dynamics on Complex Networks](https://arxiv.org/abs/1908.06491v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/calvin-zcx/ndcn)",
+      "n": "NDCN",
+      "d": "2019-08-18",
+      "m1": "0.5296 \u00b1 0.0274",
+      "m2": "0.7542 \u00b1 0.0730"
+    },
+    {
+      "p": "[Neural Dynamics on Complex Networks](https://arxiv.org/abs/1908.06491v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/calvin-zcx/ndcn)",
+      "n": "GRU-GNN",
+      "d": "2019-08-18",
+      "m1": "0.5705 \u00b1 0.0057",
+      "m2": "0.7414 \u00b1 0.0294"
+    },
+    {
+      "p": "[Neural Dynamics on Complex Networks](https://arxiv.org/abs/1908.06491v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/calvin-zcx/ndcn)",
+      "n": "LSTM-GNN",
+      "d": "2019-08-18",
+      "m1": "0.5754 \u00b1 0.0180",
+      "m2": "0.7954 \u00b1 0.0110"
+    },
+    {
+      "p": "[Graph networks as learnable physics engines for inference and control](http://arxiv.org/abs/1806.01242v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/fxia22/gn.pytorch)",
+      "n": "GN-skip",
+      "d": "2018-06-04",
+      "m1": "0.6543 \u00b1 0.1195",
+      "m2": "0.9872 \u00b1 0.2425"
+    },
+    {
+      "p": "[Graph networks as learnable physics engines for inference and control](http://arxiv.org/abs/1806.01242v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/fxia22/gn.pytorch)",
+      "n": "GN-only",
+      "d": "2018-06-04",
+      "m1": "0.7007 \u00b1 0.0848",
+      "m2": "1.0422 \u00b1 0.0673"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

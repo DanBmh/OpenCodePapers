@@ -1,0 +1,235 @@
+# video-question-answering-on-tvbench
+
+[Dataset Link](https://daniel-cores.github.io/tvbench/) \
+Task Hierarchy: ['Video Question Answering']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Average Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Seed1.5-VL Technical Report](https://arxiv.org/abs/2505.07062v1)",
+      "c": "",
+      "n": "Seed1.5-VL thinking",
+      "d": "2025-05-11",
+      "m1": "63.6"
+    },
+    {
+      "p": "[PerceptionLM: Open-Access Data and Models for Detailed Visual Understanding](https://arxiv.org/abs/2504.13180v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/perception_models)",
+      "n": "PLM-8B",
+      "d": "2025-04-17",
+      "m1": "63.5"
+    },
+    {
+      "p": "[Seed1.5-VL Technical Report](https://arxiv.org/abs/2505.07062v1)",
+      "c": "",
+      "n": "Seed1.5-VL",
+      "d": "2025-05-11",
+      "m1": "61.5"
+    },
+    {
+      "p": "[V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning](https://arxiv.org/abs/2506.09985v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/vjepa2)",
+      "n": "V-JEPA 2 ViT-g 8B",
+      "d": "2025-06-11",
+      "m1": "60.6"
+    },
+    {
+      "p": "[PerceptionLM: Open-Access Data and Models for Detailed Visual Understanding](https://arxiv.org/abs/2504.13180v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/perception_models)",
+      "n": "PLM-3B",
+      "d": "2025-04-17",
+      "m1": "58.9"
+    },
+    {
+      "p": "[Self-alignment of Large Video Language Models with Refined Regularized Preference Optimization](https://arxiv.org/abs/2504.12083v1)",
+      "c": "",
+      "n": "RRPO",
+      "d": "2025-04-16",
+      "m1": "56.5"
+    },
+    {
+      "p": "[Tarsier: Recipes for Training and Evaluating Large Video Description Models](https://arxiv.org/abs/2407.00634v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/bytedance/tarsier)",
+      "n": "Tarsier-34B",
+      "d": "2024-06-30",
+      "m1": "55.5"
+    },
+    {
+      "p": "[Tarsier2: Advancing Large Vision-Language Models from Detailed Video Description to Comprehensive Video Understanding](https://arxiv.org/abs/2501.07888v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/bytedance/tarsier)",
+      "n": "Tarsier2-7B",
+      "d": "2025-01-14",
+      "m1": "54.7"
+    },
+    {
+      "p": "[Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution](https://arxiv.org/abs/2409.12191v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/qwenlm/qwen2-vl)",
+      "n": "Qwen2-VL-72B",
+      "d": "2024-09-18",
+      "m1": "52.7"
+    },
+    {
+      "p": "[InternLM-XComposer-2.5: A Versatile Large Vision Language Model Supporting Long-Contextual Input and Output](https://arxiv.org/abs/2407.03320v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/internlm/internlm-xcomposer)",
+      "n": "IXC-2.5 7B",
+      "d": "2024-07-03",
+      "m1": "51.6"
+    },
+    {
+      "p": "[Aria: An Open Multimodal Native Mixture-of-Experts Model](https://arxiv.org/abs/2410.05993v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/rhymes-ai/aria)",
+      "n": "Aria",
+      "d": "2024-10-08",
+      "m1": "51.0"
+    },
+    {
+      "p": "[PerceptionLM: Open-Access Data and Models for Detailed Visual Understanding](https://arxiv.org/abs/2504.13180v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/perception_models)",
+      "n": "PLM-1B",
+      "d": "2025-04-17",
+      "m1": "50.4"
+    },
+    {
+      "p": "[Video Instruction Tuning With Synthetic Data](https://arxiv.org/abs/2410.02713v2)",
+      "c": "",
+      "n": "LLaVA-Video 72B",
+      "d": "2024-10-03",
+      "m1": "50.0"
+    },
+    {
+      "p": "[VideoLLaMA 2: Advancing Spatial-Temporal Modeling and Audio Understanding in Video-LLMs](https://arxiv.org/abs/2406.07476v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/damo-nlp-sg/videollama2)",
+      "n": "VideoLLaMA2 72B",
+      "d": "2024-06-11",
+      "m1": "48.4"
+    },
+    {
+      "p": "[Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context](https://arxiv.org/abs/2403.05530v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/dlvuldet/primevul)",
+      "n": "Gemini 1.5 Pro",
+      "d": "2024-03-08",
+      "m1": "47.6"
+    },
+    {
+      "p": "[Tarsier: Recipes for Training and Evaluating Large Video Description Models](https://arxiv.org/abs/2407.00634v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/bytedance/tarsier)",
+      "n": "Tarsier-7B",
+      "d": "2024-06-30",
+      "m1": "46.9"
+    },
+    {
+      "p": "[Video Instruction Tuning With Synthetic Data](https://arxiv.org/abs/2410.02713v2)",
+      "c": "",
+      "n": "LLaVA-Video 7B",
+      "d": "2024-10-03",
+      "m1": "45.6"
+    },
+    {
+      "p": "[Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution](https://arxiv.org/abs/2409.12191v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/qwenlm/qwen2-vl)",
+      "n": "Qwen2-VL-7B",
+      "d": "2024-09-18",
+      "m1": "43.8"
+    },
+    {
+      "p": "[VideoLLaMA 2: Advancing Spatial-Temporal Modeling and Audio Understanding in Video-LLMs](https://arxiv.org/abs/2406.07476v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/damo-nlp-sg/videollama2)",
+      "n": "VideoLLaMA2 7B",
+      "d": "2024-06-11",
+      "m1": "42.9"
+    },
+    {
+      "p": "[PLLaVA : Parameter-free LLaVA Extension from Images to Videos for Video Dense Captioning](https://arxiv.org/abs/2404.16994v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/magic-research/PLLaVA)",
+      "n": "PLLaVA-34B",
+      "d": "2024-04-25",
+      "m1": "42.3"
+    },
+    {
+      "p": "[mPLUG-Owl3: Towards Long Image-Sequence Understanding in Multi-Modal Large Language Models](https://arxiv.org/abs/2408.04840v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/x-plug/mplug-owl)",
+      "n": "mPLUG-Owl3",
+      "d": "2024-08-09",
+      "m1": "42.2"
+    },
+    {
+      "p": "[VideoLLaMA 2: Advancing Spatial-Temporal Modeling and Audio Understanding in Video-LLMs](https://arxiv.org/abs/2406.07476v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/damo-nlp-sg/videollama2)",
+      "n": "VideoLLaMA2.1",
+      "d": "2024-06-11",
+      "m1": "42.1"
+    },
+    {
+      "p": "[VideoGPT+: Integrating Image and Video Encoders for Enhanced Video Understanding](https://arxiv.org/abs/2406.09418v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/mbzuai-oryx/videogpt-plus)",
+      "n": "VideoGPT+",
+      "d": "2024-06-13",
+      "m1": "41.7"
+    },
+    {
+      "p": "[GPT-4o System Card](https://arxiv.org/abs/2410.21276v1)",
+      "c": "",
+      "n": "GPT4o 8 frames",
+      "d": "2024-10-25",
+      "m1": "39.9"
+    },
+    {
+      "p": "[PLLaVA : Parameter-free LLaVA Extension from Images to Videos for Video Dense Captioning](https://arxiv.org/abs/2404.16994v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/magic-research/PLLaVA)",
+      "n": "PLLaVA-13B",
+      "d": "2024-04-25",
+      "m1": "36.4"
+    },
+    {
+      "p": "[ST-LLM: Large Language Models Are Effective Temporal Learners](https://arxiv.org/abs/2404.00308v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/TencentARC/ST-LLM)",
+      "n": "ST-LLM",
+      "d": "2024-03-30",
+      "m1": "35.7"
+    },
+    {
+      "p": "[MVBench: A Comprehensive Multi-modal Video Understanding Benchmark](https://arxiv.org/abs/2311.17005v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/opengvlab/ask-anything)",
+      "n": "VideoChat2",
+      "d": "2023-11-28",
+      "m1": "35.0"
+    },
+    {
+      "p": "[PLLaVA : Parameter-free LLaVA Extension from Images to Videos for Video Dense Captioning](https://arxiv.org/abs/2404.16994v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/magic-research/PLLaVA)",
+      "n": "PLLaVA-7B",
+      "d": "2024-04-25",
+      "m1": "34.9"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

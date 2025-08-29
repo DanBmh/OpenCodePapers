@@ -1,0 +1,81 @@
+# action-triplet-recognition-on-cholect50
+
+[Dataset Link](https://github.com/CAMMA-public/cholect45) \
+Task Hierarchy: ['Action Recognition', 'Action Triplet Recognition']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Mean AP",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Rendezvous: Attention Mechanisms for the Recognition of Surgical Action Triplets in Endoscopic Videos](https://arxiv.org/abs/2109.03223v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/CAMMA-public/cholect50)",
+      "n": "Rendezvous (TensorFlow v1)",
+      "d": "2021-09-07",
+      "m1": "29.9"
+    },
+    {
+      "p": "[Data Splits and Metrics for Method Benchmarking on Surgical Action Triplet Datasets](https://arxiv.org/abs/2204.05235v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/CAMMA-public/cholect50)",
+      "n": "Rendezvous (PyTorch)",
+      "d": "2022-04-11",
+      "m1": "29.5"
+    },
+    {
+      "p": "[Rendezvous: Attention Mechanisms for the Recognition of Surgical Action Triplets in Endoscopic Videos](https://arxiv.org/abs/2109.03223v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/CAMMA-public/cholect50)",
+      "n": "Attention Tripnet (TensorFlow v1)",
+      "d": "2021-09-07",
+      "m1": "23.4"
+    },
+    {
+      "p": "[Data Splits and Metrics for Method Benchmarking on Surgical Action Triplet Datasets](https://arxiv.org/abs/2204.05235v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/CAMMA-public/cholect50)",
+      "n": "Attention Tripnet (PyTorch)",
+      "d": "2022-04-11",
+      "m1": "23.3"
+    },
+    {
+      "p": "[Data Splits and Metrics for Method Benchmarking on Surgical Action Triplet Datasets](https://arxiv.org/abs/2204.05235v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/CAMMA-public/cholect50)",
+      "n": "Tripnet (PyTorch)",
+      "d": "2022-04-11",
+      "m1": "21.6"
+    },
+    {
+      "p": "[Recognition of Instrument-Tissue Interactions in Endoscopic Videos via Action Triplets](https://arxiv.org/abs/2007.05405v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/CAMMA-public/cholect50)",
+      "n": "Tripnet (TensorFlow v1)",
+      "d": "2020-07-10",
+      "m1": "20.0"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,60 @@
+# environmental-sound-classification-on
+
+[Dataset Link](https://urbansounddataset.weebly.com/urbansound8k.html) \
+Task Hierarchy: ['Classification', 'Audio Classification', 'Environmental Sound Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[AudioCLIP: Extending CLIP to Image, Text and Audio](https://arxiv.org/abs/2106.13043v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/iver56/audiomentations)",
+      "n": "AudioCLIP",
+      "d": "2021-06-24",
+      "m1": "90.07"
+    },
+    {
+      "p": "[Masked Latent Prediction and Classification for Self-Supervised Audio Representation Learning](https://arxiv.org/abs/2502.12031v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/aurianworld/matpac)",
+      "n": "MATPAC (SSL, linear eval)",
+      "d": "2025-02-17",
+      "m1": "89.4"
+    },
+    {
+      "p": "[End-to-End Environmental Sound Classification using a 1D Convolutional Neural Network](http://arxiv.org/abs/1904.08990v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Logan97117/environmental_sound_classification_1DCNN)",
+      "n": "1DCNN",
+      "d": "2019-04-18",
+      "m1": "89"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

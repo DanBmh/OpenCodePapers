@@ -1,0 +1,112 @@
+# point-interactive-image-colorization-on-cub
+
+[Dataset Link](https://www.vision.caltech.edu/datasets/cub_200_2011/) \
+Task Hierarchy: ['Colorization', 'Point-interactive Image Colorization']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PSNR@10",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "PSNR@1",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "PSNR@100",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[iColoriT: Towards Propagating Local Hint to the Right Region in Interactive Colorization by Leveraging Vision Transformer](https://arxiv.org/abs/2207.06831v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/pmh9960/iColoriT)",
+      "n": "iColoriT",
+      "d": "2022-07-14",
+      "m1": "30.595",
+      "m2": "27.986",
+      "m3": "33.543"
+    },
+    {
+      "p": "[Instance-aware Image Colorization](https://arxiv.org/abs/2005.10825v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ericsujw/InstColorization)",
+      "n": "InstColor",
+      "d": "2020-05-21",
+      "m1": "29.45",
+      "m2": "27.69",
+      "m3": "31.45"
+    },
+    {
+      "p": "[iColoriT: Towards Propagating Local Hint to the Right Region in Interactive Colorization by Leveraging Vision Transformer](https://arxiv.org/abs/2207.06831v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/pmh9960/iColoriT)",
+      "n": "InstColor",
+      "d": "2022-07-14",
+      "m1": "29.45",
+      "m2": "27.69",
+      "m3": "31.45"
+    },
+    {
+      "p": "[Real-Time User-Guided Image Colorization with Learned Deep Priors](http://arxiv.org/abs/1705.02999v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/junyanz/interactive-deep-colorization)",
+      "n": "iDeepColor",
+      "d": "2017-05-08",
+      "m1": "29.32",
+      "m2": "27.45",
+      "m3": "31.57"
+    },
+    {
+      "p": "[iColoriT: Towards Propagating Local Hint to the Right Region in Interactive Colorization by Leveraging Vision Transformer](https://arxiv.org/abs/2207.06831v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/pmh9960/iColoriT)",
+      "n": "iDeepColor",
+      "d": "2022-07-14",
+      "m1": "29.32",
+      "m2": "27.45",
+      "m3": "31.57"
+    },
+    {
+      "p": "[Side Window Filtering](https://arxiv.org/abs/1905.07177v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/wang-kangkang/SideWindowFilter-pytorch)",
+      "n": "SWF",
+      "d": "2019-05-17",
+      "m1": "25.097",
+      "m2": "23.547",
+      "m3": "27.623"
+    },
+    {
+      "p": "[iColoriT: Towards Propagating Local Hint to the Right Region in Interactive Colorization by Leveraging Vision Transformer](https://arxiv.org/abs/2207.06831v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/pmh9960/iColoriT)",
+      "n": "SWF",
+      "d": "2022-07-14",
+      "m1": "25.097",
+      "m2": "23.547",
+      "m3": "27.623"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

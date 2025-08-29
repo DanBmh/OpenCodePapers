@@ -1,0 +1,74 @@
+# edge-detection-on-uded
+
+[Dataset Link](https://github.com/xavysp/UDED) \
+Task Hierarchy: ['2D Object Detection', 'Edge Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "ODS",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[A Doubly Decoupled Network for edge detection](https://www.sciencedirect.com/science/article/abs/pii/S0925231225001146)",
+      "c": "[&check;&nbsp;Link](https://github.com/Li-yachuan/DDN)",
+      "n": "DDN",
+      "d": "2025-04-01",
+      "m1": "0.832"
+    },
+    {
+      "p": "[Tiny and Efficient Model for the Edge Detection Generalization](https://arxiv.org/abs/2308.06468v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/xavysp/teed)",
+      "n": "TEED",
+      "d": "2023-08-12",
+      "m1": "0.828"
+    },
+    {
+      "p": "[LDC: Lightweight Dense CNN for Edge Detection](https://ieeexplore.ieee.org/document/9807316)",
+      "c": "[&check;&nbsp;Link](https://github.com/xavysp/LDC)",
+      "n": "LDC",
+      "d": "2022-06-27",
+      "m1": "0.817"
+    },
+    {
+      "p": "[Dense Extreme Inception Network for Edge Detection](https://arxiv.org/abs/2112.02250v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/xavysp/DexiNed)",
+      "n": "DexiNed",
+      "d": "2021-12-04",
+      "m1": "0.815"
+    },
+    {
+      "p": "[Pixel Difference Networks for Efficient Edge Detection](https://arxiv.org/abs/2108.07009v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/hellozhuo/pidinet)",
+      "n": "PiDiNet",
+      "d": "2021-08-16",
+      "m1": "0.812"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

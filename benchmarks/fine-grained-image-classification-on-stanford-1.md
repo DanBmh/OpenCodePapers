@@ -1,0 +1,207 @@
+# fine-grained-image-classification-on-stanford-1
+
+[Dataset Link](http://vision.stanford.edu/aditya86/ImageNetDogs/) \
+Task Hierarchy: ['Fine-Grained Image Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[SR-GNN: Spatial Relation-aware Graph Neural Network for Fine-Grained Image Categorization](https://arxiv.org/abs/2209.02109v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ardhendubehera/sr-gnn)",
+      "n": "MP",
+      "d": "2022-09-05",
+      "m1": "97.3%"
+    },
+    {
+      "p": "[Multi-Granularity Part Sampling Attention for Fine-Grained Visual Classification](https://ieeexplore.ieee.org/document/10638479)",
+      "c": "[&check;&nbsp;Link](https://github.com/mobulan/MPSA)",
+      "n": "MPSA",
+      "d": "2024-08-16",
+      "m1": "95.4%"
+    },
+    {
+      "p": "[ViT-NeT: Interpretable Vision Transformers with Neural Tree Decoder](https://proceedings.mlr.press/v162/kim22g/kim22g.pdf)",
+      "c": "[&check;&nbsp;Link](https://github.com/jumpsnack/ViT-NeT)",
+      "n": "ViT-NeT (DeiT-III-B)",
+      "d": "2022-07-17",
+      "m1": "93.6%"
+    },
+    {
+      "p": "[A Continual Development Methodology for Large-scale Multitask Dynamic ML Systems](https://arxiv.org/abs/2209.07326v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research/tree/master/muNet)",
+      "n": "\u00b52Net+ (ViT-L/16)",
+      "d": "2022-09-15",
+      "m1": "93.5%"
+    },
+    {
+      "p": "[SIM-OFE: Structure Information Mining and Object-aware Feature Enhancement for Fine-Grained Visual Categorization](https://ieeexplore.ieee.org/abstract/document/10684043?casa_token=NiYRDEp2kJIAAAAA:jeeDd7pAukFditXKKUfgmKumOxWerqxLVmQPw2SGqyIFbLMOC9_uOOtVPgztuKoSciigvUs32A)",
+      "c": "",
+      "n": "SIM-OFE",
+      "d": "2024-09-18",
+      "m1": "93.3%"
+    },
+    {
+      "p": "[Fine-Grained Visual Classification using Self Assessment Classifier](https://arxiv.org/abs/2205.10529v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/aioz-ai/sac)",
+      "n": "WS_DAN-SAC",
+      "d": "2022-05-21",
+      "m1": "93.1%"
+    },
+    {
+      "p": "[On the Eigenvalues of Global Covariance Pooling for Fine-grained Visual Recognition](https://arxiv.org/abs/2205.13282v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/KingJamesSong/DifferentiableSVD)",
+      "n": "SEB+EfficientNet-B5",
+      "d": "2022-05-26",
+      "m1": "93.0%"
+    },
+    {
+      "p": "[Transformer with Peak Suppression and Knowledge Guidance for Fine-grained Image Recognition](https://arxiv.org/abs/2107.06538v2)",
+      "c": "",
+      "n": "TPSKG",
+      "d": "2021-07-14",
+      "m1": "92.5%"
+    },
+    {
+      "p": "[RAMS-Trans: Recurrent Attention Multi-scale Transformer forFine-grained Image Recognition](https://arxiv.org/abs/2107.08192v1)",
+      "c": "",
+      "n": "RAMS-Trans",
+      "d": "2021-07-17",
+      "m1": "92.4%"
+    },
+    {
+      "p": "[Structural feature enhanced transformer for fine-grained image recognition](https://www.sciencedirect.com/science/article/abs/pii/S0031320325006156?dgcid=rss_sd_all)",
+      "c": "",
+      "n": "SFETrans",
+      "d": "2025-06-14",
+      "m1": "92.4"
+    },
+    {
+      "p": "[TransFG: A Transformer Architecture for Fine-grained Recognition](https://arxiv.org/abs/2103.07976v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/TACJu/TransFG)",
+      "n": "TransFG",
+      "d": "2021-03-14",
+      "m1": "92.3% (90.6%)"
+    },
+    {
+      "p": "[Fine-Grained Visual Classification via Internal Ensemble Learning Transformer](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10042971)",
+      "c": "[&check;&nbsp;Link](https://github.com/mobulan/ielt)",
+      "n": "IELT",
+      "d": "2023-02-13",
+      "m1": "91.8%"
+    },
+    {
+      "p": "[A free lunch from ViT:Adaptive Attention Multi-scale Fusion Transformer for Fine-grained Visual Recognition](https://arxiv.org/abs/2110.01240v2)",
+      "c": "",
+      "n": "AFTrans",
+      "d": "2021-10-04",
+      "m1": "91.6%"
+    },
+    {
+      "p": "[Feature Fusion Vision Transformer for Fine-Grained Visual Categorization](https://arxiv.org/abs/2107.02341v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Markin-Wang/FFVT)",
+      "n": "FFVT",
+      "d": "2021-07-06",
+      "m1": "91.5%"
+    },
+    {
+      "p": "[An Attention-Locating Algorithm for Eliminating Background Effects in Fine-grained Visual Classification](https://ieeexplore.ieee.org/document/10855837)",
+      "c": "[&check;&nbsp;Link](https://github.com/yueting-huang/fal-vit)",
+      "n": "FAL-ViT",
+      "d": "2025-01-28",
+      "m1": "91.1%"
+    },
+    {
+      "p": "[Delving into Multimodal Prompting for Fine-grained Visual Classification](https://arxiv.org/abs/2309.08912v2)",
+      "c": "",
+      "n": "MP-FGVC",
+      "d": "2023-09-16",
+      "m1": "91.0%"
+    },
+    {
+      "p": "[Learning Attentive Pairwise Interaction for Fine-Grained Classification](https://arxiv.org/abs/2002.10191v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PeiqinZhuang/API-Net)",
+      "n": "API-Net",
+      "d": "2020-02-24",
+      "m1": "90.3%"
+    },
+    {
+      "p": "[Understanding Gaussian Attention Bias of Vision Transformers Using Effective Receptive Fields](https://arxiv.org/abs/2305.04722v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/kmbmjn/GaussianAttentionBias)",
+      "n": "ViT-B/16 (RPE w/ GAB)",
+      "d": "2023-05-08",
+      "m1": "90.185%"
+    },
+    {
+      "p": "[Domain Adaptive Transfer Learning on Visual Attention Aware Data Augmentation for Fine-grained Visual Categorization](https://arxiv.org/abs/2010.03071v1)",
+      "c": "",
+      "n": "ImageNet + iNat on WS-DAN",
+      "d": "2020-10-06",
+      "m1": "90%"
+    },
+    {
+      "p": "[Learning Semantically Enhanced Feature for Fine-Grained Image Classification](https://arxiv.org/abs/2006.13457v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/cswluo/SEF)",
+      "n": "SEF",
+      "d": "2020-06-24",
+      "m1": "88.8%"
+    },
+    {
+      "p": "[Fine-grained Recognition: Accounting for Subtle Differences between Similar Classes](https://arxiv.org/abs/1912.06842v1)",
+      "c": "",
+      "n": "DB",
+      "d": "2019-12-14",
+      "m1": "87.7%"
+    },
+    {
+      "p": "[PCNN: Probable-Class Nearest-Neighbor Explanations Improve Fine-Grained Image Classification Accuracy for AIs and Humans](https://arxiv.org/abs/2308.13651v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/giangnguyen2412/PCNN-src-code-TMRL2024)",
+      "n": "ResNet-50",
+      "d": "2023-08-25",
+      "m1": "86.31%"
+    },
+    {
+      "p": "[Pairwise Confusion for Fine-Grained Visual Classification](http://arxiv.org/abs/1705.08016v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/abhimanyudubey/confusion)",
+      "n": "PC-DenseNet-161",
+      "d": "2017-05-22",
+      "m1": "83.75%"
+    },
+    {
+      "p": "[Rethinking Depthwise Separable Convolutions: How Intra-Kernel Correlations Lead to Improved MobileNets](https://arxiv.org/abs/2003.13549v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/zeiss-microscopy/BSConv)",
+      "n": "EfficientNet-B0 (BSConv-S)",
+      "d": "2020-03-30",
+      "m1": "61.2%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

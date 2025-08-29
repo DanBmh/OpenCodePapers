@@ -1,0 +1,90 @@
+# event-extraction-on-ace2005
+
+[Dataset Link](https://catalog.ldc.upenn.edu/LDC2006T06) \
+Task Hierarchy: ['Event Extraction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Argument Cl",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Argument Id",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Trigger Cl",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Trigger Id",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[DeepStruct: Pretraining of Language Models for Structure Prediction](https://arxiv.org/abs/2205.10475v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/cgraywang/deepstruct)",
+      "n": "DeepStruct multi-task",
+      "d": "2022-05-21",
+      "m1": "63.9",
+      "m2": "67.5",
+      "m3": "69.2",
+      "m4": "72.7"
+    },
+    {
+      "p": "[DeepStruct: Pretraining of Language Models for Structure Prediction](https://arxiv.org/abs/2205.10475v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/cgraywang/deepstruct)",
+      "n": "DeepStruct multi-task w/ finetune",
+      "d": "2022-05-21",
+      "m1": "56.2",
+      "m2": "59.4",
+      "m3": "69.8",
+      "m4": "73.5"
+    },
+    {
+      "p": "[Text2Event: Controllable Sequence-to-Structure Generation for End-to-end Event Extraction](https://arxiv.org/abs/2106.09232v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/luyaojie/text2event)",
+      "n": "Text2Event - T5-large",
+      "d": "2021-06-17",
+      "m1": "53.8",
+      "m3": "71.9"
+    },
+    {
+      "p": "[Text2Event: Controllable Sequence-to-Structure Generation for End-to-end Event Extraction](https://arxiv.org/abs/2106.09232v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/luyaojie/text2event)",
+      "n": "Text2Event - T5-base",
+      "d": "2021-06-17",
+      "m1": "49.8",
+      "m3": "69.2"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

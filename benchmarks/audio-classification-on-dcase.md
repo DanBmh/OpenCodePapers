@@ -1,0 +1,84 @@
+# audio-classification-on-dcase
+
+[Dataset Link]() \
+Task Hierarchy: ['Classification', 'Audio Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Top-1 Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "PRE-TRAINING DATASET",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Self-Supervised Audio-Visual Representation Learning with Relaxed Cross-Modal Synchronicity](https://arxiv.org/abs/2111.05329v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/pritamqu/CrissCross)",
+      "n": "CrissCross (AudioSet)",
+      "d": "2021-11-09",
+      "m1": "97",
+      "m2": "AudioSet"
+    },
+    {
+      "p": "[Self-Supervised Audio-Visual Representation Learning with Relaxed Cross-Modal Synchronicity](https://arxiv.org/abs/2111.05329v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/pritamqu/CrissCross)",
+      "n": "CrissCross (Kinetics-400)",
+      "d": "2021-11-09",
+      "m1": "96",
+      "m2": "Kinetics-400"
+    },
+    {
+      "p": "[Self-Supervised Learning by Cross-Modal Audio-Video Clustering](https://arxiv.org/abs/1911.12667v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/HumamAlwassel/XDC)",
+      "n": "XDC",
+      "d": "2019-11-28",
+      "m1": "95",
+      "m2": "IG-Random"
+    },
+    {
+      "p": "[Self-Supervised Learning by Cross-Modal Audio-Video Clustering](https://arxiv.org/abs/1911.12667v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/HumamAlwassel/XDC)",
+      "n": "XDC",
+      "d": "2019-11-28",
+      "m1": "95",
+      "m2": "AudioSet"
+    },
+    {
+      "p": "[Self-Supervised Audio-Visual Representation Learning with Relaxed Cross-Modal Synchronicity](https://arxiv.org/abs/2111.05329v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/pritamqu/CrissCross)",
+      "n": "CrissCross (Kinetics-Sound)",
+      "d": "2021-11-09",
+      "m1": "93",
+      "m2": "Kinetics-Sound"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,130 @@
+# video-quality-assessment-on-live-fb-lsvq
+
+[Dataset Link](https://github.com/baidut/PatchVQ) \
+Task Hierarchy: ['Video', 'Video Understanding', 'Video Quality Assessment']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PLCC",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Q-Align: Teaching LMMs for Visual Scoring via Discrete Text-Defined Levels](https://arxiv.org/abs/2312.17090v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/q-future/q-align)",
+      "n": "OneAlign + FAST-VQA",
+      "d": "2023-12-28",
+      "m1": "0.900"
+    },
+    {
+      "p": "[Exploring Video Quality Assessment on User Generated Contents from Aesthetic and Technical Perspectives](https://arxiv.org/abs/2211.04894v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/vqassessment/dover)",
+      "n": "DOVER",
+      "d": "2022-11-09",
+      "m1": "0.889"
+    },
+    {
+      "p": "[Q-Align: Teaching LMMs for Visual Scoring via Discrete Text-Defined Levels](https://arxiv.org/abs/2312.17090v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/q-future/q-align)",
+      "n": "OneAlign",
+      "d": "2023-12-28",
+      "m1": "0.886"
+    },
+    {
+      "p": "[FAST-VQA: Efficient End-to-end Video Quality Assessment with Fragment Sampling](https://arxiv.org/abs/2207.02595v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/VQAssessment/FAST-VQA-and-FasterVQA)",
+      "n": "FAST-VQA",
+      "d": "2022-07-06",
+      "m1": "0.877"
+    },
+    {
+      "p": "[Neighbourhood Representative Sampling for Efficient End-to-end Video Quality Assessment](https://arxiv.org/abs/2210.05357v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/timothyhtimothy/fast-vqa)",
+      "n": "FasterVQA",
+      "d": "2022-10-11",
+      "m1": "0.874"
+    },
+    {
+      "p": "[HVS Revisited: A Comprehensive Video Quality Assessment Framework](https://arxiv.org/abs/2210.04158v1)",
+      "c": "",
+      "n": "HVS-5M",
+      "d": "2022-10-09",
+      "m1": "0.8723"
+    },
+    {
+      "p": "[A Deep Learning based No-reference Quality Assessment Model for UGC Videos](https://arxiv.org/abs/2204.14047v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/sunwei925/SimpleVQA)",
+      "n": "SimpleVQA",
+      "d": "2022-04-29",
+      "m1": "0.861"
+    },
+    {
+      "p": "[Blindly Assess Quality of In-the-Wild Videos via Quality-aware Pre-training and Motion Perception](https://arxiv.org/abs/2108.08505v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zwx8981/tcsvt-2022-bvqa)",
+      "n": "BVQA-2022",
+      "d": "2021-08-19",
+      "m1": "0.854"
+    },
+    {
+      "p": "[DisCoVQA: Temporal Distortion-Content Transformers for Video Quality Assessment](https://arxiv.org/abs/2206.09853v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/QualityAssessment/DisCoVQA)",
+      "n": "DisCoVQA",
+      "d": "2022-06-20",
+      "m1": "0.850"
+    },
+    {
+      "p": "[Patch-VQ: 'Patching Up' the Video Quality Problem](https://arxiv.org/abs/2011.13544v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/baidut/PatchVQ)",
+      "n": "PVQ",
+      "d": "2020-11-27",
+      "m1": "0.827"
+    },
+    {
+      "p": "[Image Quality Assessment using Contrastive Learning](https://arxiv.org/abs/2110.13266v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/pavancm/contrique)",
+      "n": "CONTRIQUE",
+      "d": "2021-10-25",
+      "m1": "0.826"
+    },
+    {
+      "p": "[CONVIQT: Contrastive Video Quality Estimator](https://arxiv.org/abs/2206.14713v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/pavancm/conviqt)",
+      "n": "CONVIQT",
+      "d": "2022-06-29",
+      "m1": "0.820"
+    },
+    {
+      "p": "[UGC-VQA: Benchmarking Blind Video Quality Assessment for User Generated Content](https://arxiv.org/abs/2005.14354v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tu184044109/VIDEVAL_release)",
+      "n": "VIDEVAL",
+      "d": "2020-05-29",
+      "m1": "0.783"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

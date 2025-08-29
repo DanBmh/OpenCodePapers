@@ -1,0 +1,118 @@
+# artifact-detection-on-histoartifacts
+
+[Dataset Link](https://zenodo.org/records/10809442) \
+Task Hierarchy: ['3D Anomaly Detection', 'Artifact Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "MCC",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Average F1",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "1:1 Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "ACC",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "AUROC",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "Avg F1",
+      "sortable": "true"
+    },
+    {
+      "key": "m7",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "m8",
+      "label": "Recall/ Sensitivity",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Are you sure it\u2019s an artifact? Artifact detection and uncertainty quantification in histological images](https://www.sciencedirect.com/science/article/pii/S0895611123001398)",
+      "c": "[&check;&nbsp;Link](https://github.com/NeelKanwal/Vision-Transformers-for-Small-Histological-Datasets-Learned-Through-Knowledge-Distillation)",
+      "n": "DKL_101010",
+      "d": "2023-12-23",
+      "m1": "0.990",
+      "m2": "0.996",
+      "m3": "0.9952",
+      "m5": "0.995"
+    },
+    {
+      "p": "[Quantifying the effect of color processing on blood and damaged tissue detection in Whole Slide Images](https://ieeexplore.ieee.org/abstract/document/9816283/authors#authors)",
+      "c": "[&check;&nbsp;Link](https://github.com/NeelKanwal/Quantifying-the-effect-of-color-processing-on-blood-and-damaged-tissue-detection)",
+      "n": "VGG16-TL",
+      "d": "2022-09-26",
+      "m1": "0.98",
+      "m2": "0.997"
+    },
+    {
+      "p": "[Vision Transformers for Small Histological Datasets Learned through Knowledge Distillation](https://arxiv.org/abs/2305.17370v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/NeelKanwal/Vision-Transformers-for-Small-Histological-Datasets-Learned-Through-Knowledge-Distillation)",
+      "n": "KD-based ViT-Tiny",
+      "d": "2023-05-27",
+      "m1": "0.911",
+      "m4": "0.956",
+      "m7": "0.961"
+    },
+    {
+      "p": "[Quantifying the effect of color processing on blood and damaged tissue detection in Whole Slide Images](https://ieeexplore.ieee.org/abstract/document/9816283/authors#authors)",
+      "c": "[&check;&nbsp;Link](https://github.com/NeelKanwal/Quantifying-the-effect-of-color-processing-on-blood-and-damaged-tissue-detection)",
+      "n": "MobileNet-TL",
+      "d": "2022-09-26",
+      "m1": "0.81",
+      "m2": "0.89"
+    },
+    {
+      "p": "[Equipping Computational Pathology Systems with Artifact Processing Pipelines: A Showcase for Computation and Performance Trade-offs](https://arxiv.org/abs/2403.07743v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/neelkanwal/equipping-computational-pathology-systems-with-artifact-processing-pipeline)",
+      "n": "DCNN-based MoE",
+      "d": "2024-03-12",
+      "m3": "97.82",
+      "m6": "86.15",
+      "m8": "97.93"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

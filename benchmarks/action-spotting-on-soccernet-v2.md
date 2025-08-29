@@ -1,0 +1,120 @@
+# action-spotting-on-soccernet-v2
+
+[Dataset Link](https://soccer-net.org/) \
+Task Hierarchy: ['Video', 'Action Spotting']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Tight Average-mAP",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Average-mAP",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[COMEDIAN: Self-Supervised Learning and Knowledge Distillation for Action Spotting using Transformers](https://arxiv.org/abs/2309.01270v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/juliendenize/eztorch)",
+      "n": "COMEDIAN (ViSwin T ens.)",
+      "d": "2023-09-03",
+      "m1": "73.1",
+      "m2": "77.6"
+    },
+    {
+      "p": "[COMEDIAN: Self-Supervised Learning and Knowledge Distillation for Action Spotting using Transformers](https://arxiv.org/abs/2309.01270v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/juliendenize/eztorch)",
+      "n": "COMEDIAN (ViViT T ens.)",
+      "d": "2023-09-03",
+      "m1": "72.0",
+      "m2": "77.1"
+    },
+    {
+      "p": "[COMEDIAN: Self-Supervised Learning and Knowledge Distillation for Action Spotting using Transformers](https://arxiv.org/abs/2309.01270v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/juliendenize/eztorch)",
+      "n": "COMEDIAN (ViSwin T)",
+      "d": "2023-09-03",
+      "m1": "71.6",
+      "m2": "76.6"
+    },
+    {
+      "p": "[COMEDIAN: Self-Supervised Learning and Knowledge Distillation for Action Spotting using Transformers](https://arxiv.org/abs/2309.01270v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/juliendenize/eztorch)",
+      "n": "COMEDIAN (ViViT T)",
+      "d": "2023-09-03",
+      "m1": "70.7",
+      "m2": "76.1"
+    },
+    {
+      "p": "[Action Spotting using Dense Detection Anchors Revisited: Submission to the SoccerNet Challenge 2022](https://arxiv.org/abs/2206.07846v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/yahoo/spivak)",
+      "n": "DenseAnchorsRevisited (Soares et al.)",
+      "d": "2022-06-15",
+      "m1": "65.1",
+      "m2": "78.5"
+    },
+    {
+      "p": "[Spotting Temporally Precise, Fine-Grained Events in Video](https://arxiv.org/abs/2207.10213v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/soccernet/sn-spotting)",
+      "n": "E2E-Spot",
+      "d": "2022-07-20",
+      "m1": "61.82",
+      "m2": "74.05"
+    },
+    {
+      "p": "[Temporally-Aware Feature Pooling for Action Spotting in Soccer Broadcasts](https://arxiv.org/abs/2104.06779v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SilvioGiancola/SoccerNetv2-DevKit/tree/main/Task1-ActionSpotting/TemporallyAwarePooling)",
+      "n": "NetVLAD++ (Giancola et al.)",
+      "d": "2021-04-14",
+      "m2": "53.4"
+    },
+    {
+      "p": "[A Context-Aware Loss Function for Action Spotting in Soccer Videos](https://arxiv.org/abs/1912.01326v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/cioppaanthony/context-aware-loss)",
+      "n": "CALF (Cioppa et al.)",
+      "d": "2019-12-03",
+      "m2": "40.7"
+    },
+    {
+      "p": "[SoccerNet-v2: A Dataset and Benchmarks for Holistic Understanding of Broadcast Soccer Videos](https://arxiv.org/abs/2011.13367v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/SilvioGiancola/SoccerNetv2-DevKit)",
+      "n": "AudioVid (Vanderplaetse et al.)",
+      "d": "2020-11-26",
+      "m2": "39.9"
+    },
+    {
+      "p": "[SoccerNet-v2: A Dataset and Benchmarks for Holistic Understanding of Broadcast Soccer Videos](https://arxiv.org/abs/2011.13367v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/SilvioGiancola/SoccerNetv2-DevKit)",
+      "n": "NetVLAD (Giancola et al.)",
+      "d": "2020-11-26",
+      "m2": "31.4"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

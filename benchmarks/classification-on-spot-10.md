@@ -1,0 +1,102 @@
+# classification-on-spot-10
+
+[Dataset Link](https://github.com/Amotica/SPOTS-10) \
+Task Hierarchy: ['Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[SPOTS-10: Animal Pattern Benchmark Dataset for Machine Learning Algorithms](https://arxiv.org/abs/2410.21044v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/amotica/spots-10)",
+      "n": "DenseNet121 Distiller",
+      "d": "2024-10-28",
+      "m1": "81.84"
+    },
+    {
+      "p": "[SPOTS-10: Animal Pattern Benchmark Dataset for Machine Learning Algorithms](https://arxiv.org/abs/2410.21044v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/amotica/spots-10)",
+      "n": "ResNet101V2 Distiller",
+      "d": "2024-10-28",
+      "m1": "80.29"
+    },
+    {
+      "p": "[SPOTS-10: Animal Pattern Benchmark Dataset for Machine Learning Algorithms](https://arxiv.org/abs/2410.21044v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/amotica/spots-10)",
+      "n": "ResNet50V2 Distiller",
+      "d": "2024-10-28",
+      "m1": "79.03"
+    },
+    {
+      "p": "[SPOTS-10: Animal Pattern Benchmark Dataset for Machine Learning Algorithms](https://arxiv.org/abs/2410.21044v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/amotica/spots-10)",
+      "n": "MobileNet Distiller",
+      "d": "2024-10-28",
+      "m1": "78.26"
+    },
+    {
+      "p": "[SPOTS-10: Animal Pattern Benchmark Dataset for Machine Learning Algorithms](https://arxiv.org/abs/2410.21044v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/amotica/spots-10)",
+      "n": "MobileNetV3Small Distiller",
+      "d": "2024-10-28",
+      "m1": "78.04"
+    },
+    {
+      "p": "[SPOTS-10: Animal Pattern Benchmark Dataset for Machine Learning Algorithms](https://arxiv.org/abs/2410.21044v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/amotica/spots-10)",
+      "n": "MobileNetV3Large Distiller",
+      "d": "2024-10-28",
+      "m1": "77.88"
+    },
+    {
+      "p": "[SPOTS-10: Animal Pattern Benchmark Dataset for Machine Learning Algorithms](https://arxiv.org/abs/2410.21044v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/amotica/spots-10)",
+      "n": "NASNetMobile Distiller",
+      "d": "2024-10-28",
+      "m1": "77.75"
+    },
+    {
+      "p": "[SPOTS-10: Animal Pattern Benchmark Dataset for Machine Learning Algorithms](https://arxiv.org/abs/2410.21044v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/amotica/spots-10)",
+      "n": "MobileNetV2 Distiller",
+      "d": "2024-10-28",
+      "m1": "77.53"
+    },
+    {
+      "p": "[SPOTS-10: Animal Pattern Benchmark Dataset for Machine Learning Algorithms](https://arxiv.org/abs/2410.21044v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/amotica/spots-10)",
+      "n": "ResNet50 Distiller",
+      "d": "2024-10-28",
+      "m1": "77.45"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,96 @@
+# click-through-rate-prediction-on-movielens-1m
+
+[Dataset Link](https://grouplens.org/datasets/movielens/) \
+Task Hierarchy: ['Click-Through Rate Prediction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AUC",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Log Loss",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[STEC: See-Through Transformer-based Encoder for CTR Prediction](https://arxiv.org/abs/2308.15033v2)",
+      "c": "",
+      "n": "STEC",
+      "d": "2023-08-29",
+      "m1": "0.9712",
+      "m3": "0.2016"
+    },
+    {
+      "p": "[An End-to-End Neighborhood-based Interaction Model for Knowledge-enhanced Recommendation](https://arxiv.org/abs/1908.04032v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Atomu2014/KNI)",
+      "n": "KNI",
+      "d": "2019-08-12",
+      "m1": "0.9449"
+    },
+    {
+      "p": "[RippleNet: Propagating User Preferences on the Knowledge Graph for Recommender Systems](http://arxiv.org/abs/1803.03467v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/hwwang55/RippleNet)",
+      "n": "RippleNet",
+      "d": "2018-03-09",
+      "m1": "0.921",
+      "m2": "84.4"
+    },
+    {
+      "p": "[Multi-Task Feature Learning for Knowledge Graph Enhanced Recommendation](http://arxiv.org/abs/1901.08907v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/hwwang55/KGCN)",
+      "n": "MKR",
+      "d": "2019-01-23",
+      "m1": "0.917",
+      "m2": "84.3"
+    },
+    {
+      "p": "[FCN: Fusing Exponential and Linear Cross Network for Click-Through Rate Prediction](https://arxiv.org/abs/2407.13349v7)",
+      "c": "[&check;&nbsp;Link](https://github.com/reczoo/FuxiCTR)",
+      "n": "DCNv3",
+      "d": "2024-07-18",
+      "m1": "0.9074",
+      "m3": "0.3001"
+    },
+    {
+      "p": "[AutoInt: Automatic Feature Interaction Learning via Self-Attentive Neural Networks](https://arxiv.org/abs/1810.11921v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/shenweichen/DeepCTR)",
+      "n": "AutoInt",
+      "d": "2018-10-29",
+      "m1": "0.846",
+      "m3": "0.3784"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

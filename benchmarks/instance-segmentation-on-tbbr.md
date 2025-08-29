@@ -1,0 +1,74 @@
+# instance-segmentation-on-tbbr
+
+[Dataset Link](https://zenodo.org/record/7022736) \
+Task Hierarchy: ['Instance Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Average Recall@IoU:0.5-0.95",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Deep learning approaches to building rooftop thermal bridge detection from aerial images](https://doi.org/10.1016/j.autcon.2022.104690)",
+      "c": "[&check;&nbsp;Link](https://github.com/Helmholtz-AI-Energy/TBBRDet)",
+      "n": "Swin-T (ImageNet-1k pretrain)",
+      "d": "2022-12-12",
+      "m1": "28.0"
+    },
+    {
+      "p": "[Deep learning approaches to building rooftop thermal bridge detection from aerial images](https://doi.org/10.1016/j.autcon.2022.104690)",
+      "c": "[&check;&nbsp;Link](https://github.com/Helmholtz-AI-Energy/TBBRDet)",
+      "n": "Mask R-CNN (ResNet-50-FPN, ImageNet-1k pretrain)",
+      "d": "2022-12-12",
+      "m1": "21.9"
+    },
+    {
+      "p": "[Deep learning approaches to building rooftop thermal bridge detection from aerial images](https://doi.org/10.1016/j.autcon.2022.104690)",
+      "c": "[&check;&nbsp;Link](https://github.com/Helmholtz-AI-Energy/TBBRDet)",
+      "n": "Swin-T",
+      "d": "2022-12-12",
+      "m1": "20.6"
+    },
+    {
+      "p": "[Deep learning approaches to building rooftop thermal bridge detection from aerial images](https://doi.org/10.1016/j.autcon.2022.104690)",
+      "c": "[&check;&nbsp;Link](https://github.com/Helmholtz-AI-Energy/TBBRDet)",
+      "n": "Mask R-CNN (ResNet-50-FPN)",
+      "d": "2022-12-12",
+      "m1": "20.1"
+    },
+    {
+      "p": "[AI-based thermal bridge detection of building rooftops on district scale using aerial images](https://publikationen.bibliothek.kit.edu/1000136256)",
+      "c": "",
+      "n": "Wahn Mask R-CNN",
+      "d": "2021-08-09",
+      "m1": "9.4"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

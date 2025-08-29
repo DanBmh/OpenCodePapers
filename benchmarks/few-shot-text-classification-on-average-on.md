@@ -1,0 +1,67 @@
+# few-shot-text-classification-on-average-on
+
+[Dataset Link]() \
+Task Hierarchy: ['Classification', 'Text Classification', 'Few-Shot Text Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[OCD: Learning to Overfit with Conditional Diffusion Models](https://arxiv.org/abs/2210.00471v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/shaharlutatipersonal/ocd)",
+      "n": "SetFit + OCD(5)",
+      "d": "2022-10-02",
+      "m1": "0.648"
+    },
+    {
+      "p": "[OCD: Learning to Overfit with Conditional Diffusion Models](https://arxiv.org/abs/2210.00471v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/shaharlutatipersonal/ocd)",
+      "n": "SetFit + OCD",
+      "d": "2022-10-02",
+      "m1": "0.643"
+    },
+    {
+      "p": "[OCD: Learning to Overfit with Conditional Diffusion Models](https://arxiv.org/abs/2210.00471v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/shaharlutatipersonal/ocd)",
+      "n": "T-few 3B",
+      "d": "2022-10-02",
+      "m1": "0.633"
+    },
+    {
+      "p": "[OCD: Learning to Overfit with Conditional Diffusion Models](https://arxiv.org/abs/2210.00471v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/shaharlutatipersonal/ocd)",
+      "n": "SetFit",
+      "d": "2022-10-02",
+      "m1": "0.622"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

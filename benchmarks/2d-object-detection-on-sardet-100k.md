@@ -1,0 +1,147 @@
+# 2d-object-detection-on-sardet-100k
+
+[Dataset Link](https://github.com/zcablii/SARDet_100K) \
+Task Hierarchy: ['2D Object Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "box mAP",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "mAP",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "mAP@50",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "mAP@75",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[DenoDet: Attention as Deformable Multi-Subspace Feature Denoising for Target Detection in SAR Images](https://arxiv.org/abs/2406.02833v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zcablii/sardet_100k)",
+      "n": "DenoDet",
+      "d": "2024-06-05",
+      "m1": "55.4"
+    },
+    {
+      "p": "[SARDet-100K: Towards Open-Source Benchmark and ToolKit for Large-Scale SAR Object Detection](https://arxiv.org/abs/2403.06534v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zcablii/sardet_100k)",
+      "n": "MSFA (F-RCNN+ConvNext-T)",
+      "d": "2024-03-11",
+      "m1": "54.8"
+    },
+    {
+      "p": "[SARDet-100K: Towards Open-Source Benchmark and ToolKit for Large-Scale SAR Object Detection](https://arxiv.org/abs/2403.06534v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zcablii/sardet_100k)",
+      "n": "MSFA (GFL+R50)",
+      "d": "2024-03-11",
+      "m1": "53.7"
+    },
+    {
+      "p": "[SARDet-100K: Towards Open-Source Benchmark and ToolKit for Large-Scale SAR Object Detection](https://arxiv.org/abs/2403.06534v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zcablii/sardet_100k)",
+      "n": "MSFA (Deformable DETR)",
+      "d": "2024-03-11",
+      "m1": "51.3"
+    },
+    {
+      "p": "[SARDet-100K: Towards Open-Source Benchmark and ToolKit for Large-Scale SAR Object Detection](https://arxiv.org/abs/2403.06534v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zcablii/sardet_100k)",
+      "n": "MSFA (F-RCNN+R50)",
+      "d": "2024-03-11",
+      "m1": "51.1"
+    },
+    {
+      "p": "[Cascade R-CNN: Delving into High Quality Object Detection](http://arxiv.org/abs/1712.00726v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection)",
+      "n": "Cascade R-CNN",
+      "d": "2017-12-03",
+      "m1": "51.1"
+    },
+    {
+      "p": "[Deformable DETR: Deformable Transformers for End-to-End Object Detection](https://arxiv.org/abs/2010.04159v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleDetection)",
+      "n": "Deformable DETR",
+      "d": "2020-10-08",
+      "m1": "50.0"
+    },
+    {
+      "p": "[FCOS: Fully Convolutional One-Stage Object Detection](https://arxiv.org/abs/1904.01355v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection)",
+      "n": "FCOS",
+      "d": "2019-04-02",
+      "m1": "49.8"
+    },
+    {
+      "p": "[Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks](http://arxiv.org/abs/1506.01497v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/detectron2)",
+      "n": "F-RCNN",
+      "d": "2015-06-04",
+      "m1": "49.0"
+    },
+    {
+      "p": "[Grid R-CNN](http://arxiv.org/abs/1811.12030v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection)",
+      "n": "Grid RCNN",
+      "d": "2018-11-29",
+      "m1": "48.8"
+    },
+    {
+      "p": "[Focal Loss for Dense Object Detection](http://arxiv.org/abs/1708.02002v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+      "n": "RetinaNet",
+      "d": "2017-08-07",
+      "m1": "47.4"
+    },
+    {
+      "p": "[Sparse R-CNN: End-to-End Object Detection with Learnable Proposals](https://arxiv.org/abs/2011.12450v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection)",
+      "n": "Sparse R-CNN",
+      "d": "2020-11-25",
+      "m1": "38.1"
+    },
+    {
+      "p": "[SARATR-X: Toward Building A Foundation Model for SAR Target Recognition](https://arxiv.org/abs/2405.09365v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/waterdisappear/SARATR-X)",
+      "n": "SARATR-X",
+      "d": "2024-05-15",
+      "m2": "57.3",
+      "m3": "88.7",
+      "m4": "62.8"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

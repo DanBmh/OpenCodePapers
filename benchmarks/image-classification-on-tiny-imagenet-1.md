@@ -1,0 +1,200 @@
+# image-classification-on-tiny-imagenet-1
+
+[Dataset Link](https://www.kaggle.com/c/tiny-imagenet) \
+Task Hierarchy: ['Image Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Validation Acc",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Astroformer: More Data Might not be all you need for Classification](https://arxiv.org/abs/2304.05350v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Rishit-dagli/Astroformer)",
+      "n": "Astroformer",
+      "d": "2023-04-03",
+      "m1": "92.98"
+    },
+    {
+      "p": "[OCD: Learning to Overfit with Conditional Diffusion Models](https://arxiv.org/abs/2210.00471v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/shaharlutatipersonal/ocd)",
+      "n": "DeiT-B/16-D + OCD(5)",
+      "d": "2022-10-02",
+      "m1": "92.0%"
+    },
+    {
+      "p": "[Data-Efficient Training of CNNs and Transformers with Coresets: A Stability Perspective](https://arxiv.org/abs/2303.02095v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/transmuteai/data-efficient-transformers)",
+      "n": "SwinV2-B + GradMatch",
+      "d": "2023-03-03",
+      "m1": "91.90"
+    },
+    {
+      "p": "[Vision Transformers in 2022: An Update on Tiny ImageNet](https://arxiv.org/abs/2205.10660v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ehuynh1106/TinyImageNet-Transformers)",
+      "n": "Swin-L",
+      "d": "2022-05-21",
+      "m1": "91.35%"
+    },
+    {
+      "p": "[Perturbated Gradients Updating within Unit Space for Deep Learning](https://arxiv.org/abs/2110.00199v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/hanktseng131415go/pugd)",
+      "n": "DeiT-B/16 (PUGD)",
+      "d": "2021-10-01",
+      "m1": "91.02%"
+    },
+    {
+      "p": "[OCD: Learning to Overfit with Conditional Diffusion Models](https://arxiv.org/abs/2210.00471v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/shaharlutatipersonal/ocd)",
+      "n": "DeiT-B/16-D + OCD",
+      "d": "2022-10-02",
+      "m1": "90.8%"
+    },
+    {
+      "p": "[Perturbated Gradients Updating within Unit Space for Deep Learning](https://arxiv.org/abs/2110.00199v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/hanktseng131415go/pugd)",
+      "n": "ViT-B/16 (PUGD)",
+      "d": "2021-10-01",
+      "m1": "90.74%"
+    },
+    {
+      "p": "[Linear Attention with Global Context: A Multipole Attention Mechanism for Vision and Physics](https://arxiv.org/abs/2507.02748v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/AlexColagrande/MANO)",
+      "n": "MANO-tiny",
+      "d": "2025-07-03",
+      "m1": "87.52"
+    },
+    {
+      "p": "[Direction Concentration Learning: Enhancing Congruency in Machine Learning](https://arxiv.org/abs/1912.08136v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/luoyan407/congruency)",
+      "n": "EfficientNet-B1+DCL",
+      "d": "2019-12-17",
+      "m1": "84.39%"
+    },
+    {
+      "p": "[WaveMix: A Resource-efficient Neural Network for Image Analysis](https://arxiv.org/abs/2205.14375v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/pranavphoenix/WaveMix)",
+      "n": "WaveMixLite-144/7",
+      "d": "2022-05-28",
+      "m1": "77.47%"
+    },
+    {
+      "p": "[Context-Aware Compilation of DNN Training Pipelines across Edge and Cloud](https://dl.acm.org/doi/abs/10.1145/3494981)",
+      "c": "[&check;&nbsp;Link](https://github.com/dixiyao/Context-Aware-Compilation-of-DNN-Training-Pipelines-across-Edge-and-Cloud)",
+      "n": "Context-Aware Pipeline",
+      "d": "2021-12-30",
+      "m1": "73.6%"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "ResNeXt-50 (SAMix+DM)",
+      "d": null,
+      "m1": "72.39"
+    },
+    {
+      "p": "[Boosting Discriminative Visual Representation Learning with Scenario-Agnostic Mixup](https://arxiv.org/abs/2111.15454v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Westlake-AI/openmixup)",
+      "n": "ResNeXt-50 (SAMix)",
+      "d": "2021-11-30",
+      "m1": "72.18%"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "ResNeXt-50 (AutoMix+DM)",
+      "d": null,
+      "m1": "71.56"
+    },
+    {
+      "p": "[AutoMix: Unveiling the Power of Mixup for Stronger Classifiers](https://arxiv.org/abs/2103.13027v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/Westlake-AI/openmixup)",
+      "n": "ResNeXt-50 (AutoMix)",
+      "d": "2021-03-24",
+      "m1": "70.72%"
+    },
+    {
+      "p": "[MixMo: Mixing Multiple Inputs for Multiple Outputs via Deep Subnetworks](https://arxiv.org/abs/2103.06132v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/alexrame/mixmo-pytorch)",
+      "n": "PreActResNet-18-3",
+      "d": "2021-03-10",
+      "m1": "70.24%"
+    },
+    {
+      "p": "[Boosting Discriminative Visual Representation Learning with Scenario-Agnostic Mixup](https://arxiv.org/abs/2111.15454v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Westlake-AI/openmixup)",
+      "n": "ResNet18 (SAMix)",
+      "d": "2021-11-30",
+      "m1": "68.89%"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "ResNeXt-50 (PuzzleMix+DM)",
+      "d": null,
+      "m1": "68.04"
+    },
+    {
+      "p": "[UPANets: Learning from the Universal Pixel Attention Networks](https://arxiv.org/abs/2103.08640v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/hanktseng131415go/UPANets)",
+      "n": "UPANets",
+      "d": "2021-03-15",
+      "m1": "67.67"
+    },
+    {
+      "p": "[AutoMix: Unveiling the Power of Mixup for Stronger Classifiers](https://arxiv.org/abs/2103.13027v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/Westlake-AI/openmixup)",
+      "n": "ResNet18 (AutoMix)",
+      "d": "2021-03-24",
+      "m1": "67.33%"
+    },
+    {
+      "p": "[DenseNet Models for Tiny ImageNet Classification](https://arxiv.org/abs/1904.10429v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ZohebAbai/Tiny-ImageNet-Challenge)",
+      "n": "DenseNet + Residual Networks",
+      "d": "2019-04-23",
+      "m1": "60%"
+    },
+    {
+      "p": "[WaveMix-Lite: A Resource-efficient Neural Network for Image Analysis](https://openreview.net/forum?id=y_icnxeeUcl)",
+      "c": "[&check;&nbsp;Link](https://github.com/pranavphoenix/WaveMix)",
+      "n": "WaveMixLite-160/13",
+      "d": "2022-10-13",
+      "m1": "54.76"
+    },
+    {
+      "p": "[Convolutional Xformers for Vision](https://arxiv.org/abs/2201.10271v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/pranavphoenix/cxv)",
+      "n": "Convolutional Nystromformer for Vision (CNV)",
+      "d": "2022-01-25",
+      "m1": "49.56"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

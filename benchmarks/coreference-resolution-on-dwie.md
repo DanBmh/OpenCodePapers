@@ -1,0 +1,60 @@
+# coreference-resolution-on-dwie
+
+[Dataset Link](https://github.com/klimzaporojets/DWIE) \
+Task Hierarchy: ['Coreference Resolution']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Avg. F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[REXEL: An End-to-end Model for Document-Level Relation Extraction and Entity Linking](https://arxiv.org/abs/2404.12788v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/amazon-science/e2e-docie)",
+      "n": "REXEL",
+      "d": "2024-04-19",
+      "m1": "95.12"
+    },
+    {
+      "p": "[DWIE: an entity-centric dataset for multi-task document-level information extraction](https://arxiv.org/abs/2009.12626v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/klimzaporojets/DWIE)",
+      "n": "Joint",
+      "d": "2020-09-26",
+      "m1": "91.6"
+    },
+    {
+      "p": "[Injecting Knowledge Base Information into End-to-End Joint Entity and Relation Extraction and Coreference Resolution](https://arxiv.org/abs/2107.02286v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/klimzaporojets/e2e-kb-ie)",
+      "n": "KB-both",
+      "d": "2021-07-05",
+      "m1": "91.5"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

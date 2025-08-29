@@ -1,0 +1,295 @@
+# unsupervised-domain-adaptation-on-market-to
+
+[Dataset Link](https://www.kaggle.com/pengcw1/market-1501/data) \
+Task Hierarchy: ['Unsupervised Domain Adaptation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mAP",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "rank-1",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "rank-5",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "rank-10",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[CORE-ReID: Comprehensive Optimization and Refinement through Ensemble Fusion in Domain Adaptation for Person Re-Identification](https://www.mdpi.com/2674-113X/3/2/12)",
+      "c": "[&check;&nbsp;Link](https://github.com/TrinhQuocNguyen/CORE-ReID)",
+      "n": "CORE-ReID",
+      "d": "2024-06-03",
+      "m1": "74.8",
+      "m2": "84.8",
+      "m3": "92.4",
+      "m4": "94.4"
+    },
+    {
+      "p": "[Learning Feature Fusion for Unsupervised Domain Adaptive Person Re-identification](https://arxiv.org/abs/2205.09495v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/DJEddyking/LF2)",
+      "n": "LF2",
+      "d": "2022-05-19",
+      "m1": "73.5",
+      "m2": "83.7"
+    },
+    {
+      "p": "[Unsupervised and self-adaptative techniques for cross-domain person re-identification](https://arxiv.org/abs/2103.11520v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Gabrielcb/Unsupervised_selfAdaptative_ReID)",
+      "n": "CCTSE",
+      "d": "2021-03-21",
+      "m1": "72.6",
+      "m2": "85.0",
+      "m3": "92.1",
+      "m4": "93.9"
+    },
+    {
+      "p": "[On Evolving Attention Towards Domain Adaptation](https://arxiv.org/abs/2103.13561v1)",
+      "c": "",
+      "n": "EvoADA",
+      "d": "2021-03-25",
+      "m1": "71.4"
+    },
+    {
+      "p": "[Attentive WaveBlock: Complementarity-enhanced Mutual Networks for Unsupervised Domain Adaptation in Person Re-identification and Beyond](https://arxiv.org/abs/2006.06525v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/WangWenhao0716/Attentive-WaveBlock)",
+      "n": "AWB",
+      "d": "2020-06-11",
+      "m1": "71.0",
+      "m2": "83.4",
+      "m3": "91.7",
+      "m4": "93.8"
+    },
+    {
+      "p": "[Self-paced Contrastive Learning with Hybrid Memory for Domain Adaptive Object Re-ID](https://arxiv.org/abs/2006.02713v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/OpenUnReID)",
+      "n": "SpCL",
+      "d": "2020-06-04",
+      "m1": "68.8",
+      "m2": "82.9",
+      "m3": "90.1",
+      "m4": "92.5"
+    },
+    {
+      "p": "[Mutual Mean-Teaching: Pseudo Label Refinery for Unsupervised Domain Adaptation on Person Re-identification](https://arxiv.org/abs/2001.01526v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/thuml/Transfer-Learning-Library)",
+      "n": "MMT",
+      "d": "2020-01-06",
+      "m1": "65.1",
+      "m2": "78.0",
+      "m3": "88.8",
+      "m4": "92.5"
+    },
+    {
+      "p": "[Structured Domain Adaptation with Online Relation Regularization for Unsupervised Person Re-ID](https://arxiv.org/abs/2003.06650v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yxgeee/VisDA-ECCV20)",
+      "n": "SDA",
+      "d": "2020-03-14",
+      "m1": "61.4",
+      "m2": "76.5",
+      "m3": "86.6",
+      "m4": "89.7"
+    },
+    {
+      "p": "[Style Normalization and Restitution for Generalizable Person Re-identification](https://arxiv.org/abs/2005.11037v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/SNR)",
+      "n": "SNR",
+      "d": "2020-05-22",
+      "m1": "58.1",
+      "m2": "76.3",
+      "m3": "-",
+      "m4": "-"
+    },
+    {
+      "p": "[Asymmetric Co-Teaching for Unsupervised Cross Domain Person Re-Identification](https://arxiv.org/abs/1912.01349v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/FlyingRoastDuck/ACT_AAAI20)",
+      "n": "ACT",
+      "d": "2019-12-03",
+      "m1": "54.5",
+      "m2": "72.4",
+      "m3": "-",
+      "m4": "-"
+    },
+    {
+      "p": "[Learning to Adapt Invariance in Memory for Person Re-identification](https://arxiv.org/abs/1908.00485v1)",
+      "c": "",
+      "n": "ECN++",
+      "d": "2019-08-01",
+      "m1": "54.4",
+      "m2": "74.0",
+      "m3": "83.7",
+      "m4": "87.4"
+    },
+    {
+      "p": "[Self-training with progressive augmentation for unsupervised cross-domain person re-identification](https://arxiv.org/abs/1907.13315v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhangxinyu-xyz/PAST-ReID)",
+      "n": "PCB-PAST",
+      "d": "2019-07-31",
+      "m1": "54.3",
+      "m2": "72.4"
+    },
+    {
+      "p": "[AD-Cluster: Augmented Discriminative Clustering for Domain Adaptive Person Re-identification](https://arxiv.org/abs/2004.08787v2)",
+      "c": "",
+      "n": "AD-Cluster",
+      "d": "2020-04-19",
+      "m1": "54.1",
+      "m2": "72.6",
+      "m3": "82.5",
+      "m4": "85.5"
+    },
+    {
+      "p": "[Self-similarity Grouping: A Simple Unsupervised Cross Domain Adaptation Approach for Person Re-identification](https://arxiv.org/abs/1811.10144v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/OasisYang/SSG)",
+      "n": "SSG",
+      "d": "2018-11-26",
+      "m1": "53.4",
+      "m2": "73.0",
+      "m3": "80.6",
+      "m4": "83.2"
+    },
+    {
+      "p": "[Unsupervised Person Re-identification via Multi-label Classification](https://arxiv.org/abs/2004.09228v1)",
+      "c": "",
+      "n": "MMCL",
+      "d": "2020-04-20",
+      "m1": "51.4",
+      "m2": "72.4",
+      "m3": "82.9",
+      "m4": "85.0"
+    },
+    {
+      "p": "[Unsupervised Domain Adaptive Re-Identification: Theory and Practice](http://arxiv.org/abs/1807.11334v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/LcDog/DomainAdaptiveReID)",
+      "n": "UDAP",
+      "d": "2018-07-30",
+      "m1": "49.0",
+      "m2": "68.4",
+      "m3": "80.1",
+      "m4": "83.5"
+    },
+    {
+      "p": "[Cross-Dataset Person Re-Identification via Unsupervised Pose Disentanglement and Adaptation](https://arxiv.org/abs/1909.09675v1)",
+      "c": "",
+      "n": "PDA-Net",
+      "d": "2019-09-20",
+      "m1": "45.1",
+      "m2": "63.2",
+      "m3": "77.0",
+      "m4": "82.5"
+    },
+    {
+      "p": "[Rethinking the Distribution Gap of Person Re-identification with Camera-based Batch Normalization](https://arxiv.org/abs/2001.08680v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/automan000/Camera-based-Person-ReID)",
+      "n": "CBN+ECN",
+      "d": "2020-01-23",
+      "m1": "44.9",
+      "m2": "68",
+      "m3": "80",
+      "m4": "83.9"
+    },
+    {
+      "p": "[Invariance Matters: Exemplar Memory for Domain Adaptive Person Re-identification](http://arxiv.org/abs/1904.01990v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhunzhong07/ECN)",
+      "n": "ENC",
+      "d": "2019-04-03",
+      "m1": "40.4",
+      "m2": "63.3"
+    },
+    {
+      "p": "[A Novel Unsupervised Camera-aware Domain Adaptation Framework for Person Re-identification](https://arxiv.org/abs/1904.03425v2)",
+      "c": "",
+      "n": "UCDA",
+      "d": "2019-04-06",
+      "m1": "31.0",
+      "m2": "47.7",
+      "m3": "-",
+      "m4": "-"
+    },
+    {
+      "p": "[Disjoint Label Space Transfer Learning with Common Factorised Space](http://arxiv.org/abs/1812.02605v1)",
+      "c": "",
+      "n": "CFSM",
+      "d": "2018-12-06",
+      "m1": "27.3",
+      "m2": "49.8",
+      "m3": "-",
+      "m4": "-"
+    },
+    {
+      "p": "[Joint Discriminative and Generative Learning for Person Re-identification](https://arxiv.org/abs/1904.07223v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/layumi/Person_reID_baseline_pytorch)",
+      "n": "DG-Net",
+      "d": "2019-04-15",
+      "m1": "24.25",
+      "m2": "42.62",
+      "m3": "58.57",
+      "m4": "64.63"
+    },
+    {
+      "p": "[Transferable Joint Attribute-Identity Deep Learning for Unsupervised Person Re-Identification](http://arxiv.org/abs/1803.09786v1)",
+      "c": "",
+      "n": "TJ-AIDL",
+      "d": "2018-03-26",
+      "m1": "23.0",
+      "m2": "44.3",
+      "m3": "59.6",
+      "m4": "65.0"
+    },
+    {
+      "p": "[Image-Image Domain Adaptation with Preserved Self-Similarity and Domain-Dissimilarity for Person Re-identification](http://arxiv.org/abs/1711.07027v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/thuml/Transfer-Learning-Library)",
+      "n": "SPGAN",
+      "d": "2017-11-19",
+      "m1": "22.3",
+      "m2": "41.1",
+      "m3": "56.6",
+      "m4": "63.0"
+    },
+    {
+      "p": "[Parameter-Efficient Person Re-identification in the 3D Space](https://arxiv.org/abs/2006.04569v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/layumi/person-reid-3d)",
+      "n": "OG-Net",
+      "d": "2020-06-08",
+      "m1": "13.7",
+      "m2": "26.4",
+      "m3": "-",
+      "m4": "-"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

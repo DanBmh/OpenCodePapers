@@ -1,0 +1,60 @@
+# weakly-supervised-3d-detection-on-kitti-360
+
+[Dataset Link](http://www.cvlibs.net/datasets/kitti-360/) \
+Task Hierarchy: ['16k', 'Object Detection', 'Weakly Supervised 3D Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mAP@0.3",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[VSRD: Instance-Aware Volumetric Silhouette Rendering for Weakly Supervised 3D Object Detection](https://arxiv.org/abs/2404.00149v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/skmhrk1209/VSRD)",
+      "n": "VSRD-MonoDETR",
+      "d": "2024-03-29",
+      "m1": "58.40"
+    },
+    {
+      "p": "[Autolabeling 3D Objects with Differentiable Rendering of SDF Shape Priors](https://arxiv.org/abs/1911.11288v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/TRI-ML/sdflabel)",
+      "n": "Auto-Labels",
+      "d": "2019-11-26",
+      "m1": "48.16"
+    },
+    {
+      "p": "[WeakM3D: Towards Weakly Supervised Monocular 3D Object Detection](https://arxiv.org/abs/2203.08332v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/spengliang/weakm3d)",
+      "n": "WeakM3D",
+      "d": "2022-03-16",
+      "m1": "29.89"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

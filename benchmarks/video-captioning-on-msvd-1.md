@@ -1,0 +1,209 @@
+# video-captioning-on-msvd-1
+
+[Dataset Link](https://www.cs.utexas.edu/users/ml/clamp/videoDescription/) \
+Task Hierarchy: ['Video Captioning']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "CIDEr",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "BLEU-4",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "METEOR",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "ROUGE-L",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "GS",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[MaMMUT: A Simple Architecture for Joint Learning for MultiModal Tasks](https://arxiv.org/abs/2303.16839v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/lucidrains/mammut-pytorch)",
+      "n": "MaMMUT",
+      "d": "2023-03-29",
+      "m1": "195.6"
+    },
+    {
+      "p": "[VLAB: Enhancing Video Language Pre-training by Feature Adapting and Blending](https://arxiv.org/abs/2305.13167v1)",
+      "c": "",
+      "n": "VLAB",
+      "d": "2023-05-22",
+      "m1": "179.8",
+      "m2": "79.3",
+      "m3": "51.2",
+      "m4": "87.9"
+    },
+    {
+      "p": "[VALOR: Vision-Audio-Language Omni-Perception Pretraining Model and Dataset](https://arxiv.org/abs/2304.08345v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/TXH-mercury/VALOR)",
+      "n": "VALOR",
+      "d": "2023-04-17",
+      "m1": "178.5",
+      "m2": "80.7",
+      "m3": "51.0",
+      "m4": "87.9"
+    },
+    {
+      "p": "[COSA: Concatenated Sample Pretrained Vision-Language Foundation Model](https://arxiv.org/abs/2306.09085v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/txh-mercury/cosa)",
+      "n": "COSA",
+      "d": "2023-06-15",
+      "m1": "178.5",
+      "m2": "76.5"
+    },
+    {
+      "p": "[mPLUG-2: A Modularized Multi-modal Foundation Model Across Text, Image and Video](https://arxiv.org/abs/2302.00402v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/modelscope/modelscope)",
+      "n": "mPLUG-2",
+      "d": "2023-02-01",
+      "m1": "165.8",
+      "m2": "70.5",
+      "m3": "48.4",
+      "m4": "85.3"
+    },
+    {
+      "p": "[HowToCaption: Prompting LLMs to Transform Video Annotations at Scale](https://arxiv.org/abs/2310.04900v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ninatu/howtocaption)",
+      "n": "HowToCaption",
+      "d": "2023-10-07",
+      "m1": "154.2",
+      "m2": "70.4",
+      "m3": "46.4",
+      "m4": "83.2"
+    },
+    {
+      "p": "[HiTeA: Hierarchical Temporal-Aware Video-Language Pre-training](https://arxiv.org/abs/2212.14546v1)",
+      "c": "",
+      "n": "HiTeA",
+      "d": "2022-12-30",
+      "m1": "146.9",
+      "m2": "71.0",
+      "m3": "45.3",
+      "m4": "81.4"
+    },
+    {
+      "p": "[Vid2Seq: Large-Scale Pretraining of a Visual Language Model for Dense Video Captioning](https://arxiv.org/abs/2302.14115v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/scenic/tree/main/scenic/projects/vid2seq)",
+      "n": "Vid2Seq",
+      "d": "2023-02-27",
+      "m1": "146.2",
+      "m3": "45.3"
+    },
+    {
+      "p": "[An Empirical Study of End-to-End Video-Language Transformers with Masked Visual Modeling](https://arxiv.org/abs/2209.01540v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/tsujuifu/pytorch_empirical-mvm)",
+      "n": "VIOLETv2",
+      "d": "2022-09-04",
+      "m1": "139.2"
+    },
+    {
+      "p": "[RTQ: Rethinking Video-language Understanding Based on Image-text Model](https://arxiv.org/abs/2312.00347v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/SCZwangxiao/RTQ-MM2023)",
+      "n": "RTQ",
+      "d": "2023-12-01",
+      "m1": "123.4",
+      "m2": "66.9",
+      "m4": "82.2"
+    },
+    {
+      "p": "[Accurate and Fast Compressed Video Captioning](https://arxiv.org/abs/2309.12867v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/acherstyx/CoCap)",
+      "n": "CoCap (ViT/L14)",
+      "d": "2023-09-22",
+      "m1": "121.5",
+      "m2": "60.1",
+      "m3": "41.4",
+      "m4": "78.2"
+    },
+    {
+      "p": "[Diverse Video Captioning by Adaptive Spatio-temporal Attention](https://arxiv.org/abs/2208.09266v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zohrehghaderi/vasta)",
+      "n": "VASTA (Vatex-backbone)",
+      "d": "2022-08-19",
+      "m1": "119.7",
+      "m2": "59.2",
+      "m3": "40.65",
+      "m4": "76.7"
+    },
+    {
+      "p": "[IcoCap: Improving Video Captioning by Compounding Images](https://ieeexplore.ieee.org/abstract/document/10272675)",
+      "c": "",
+      "n": "IcoCap (ViT-B/16)",
+      "d": "2023-10-05",
+      "m1": "110.3",
+      "m2": "59.1",
+      "m3": "39.5",
+      "m4": "76.5"
+    },
+    {
+      "p": "[SEM-POS: Grammatically and Semantically Correct Video Captioning](https://arxiv.org/abs/2303.14829v2)",
+      "c": "",
+      "n": "SEM-POS",
+      "d": "2023-03-26",
+      "m1": "108.3",
+      "m2": "60.1",
+      "m3": "38.5",
+      "m4": "76.0",
+      "m5": "607.1"
+    },
+    {
+      "p": "[Diverse Video Captioning by Adaptive Spatio-temporal Attention](https://arxiv.org/abs/2208.09266v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zohrehghaderi/vasta)",
+      "n": "VASTA (Kinetics-backbone)",
+      "d": "2022-08-19",
+      "m1": "106.4",
+      "m2": "56.1",
+      "m3": "39.1",
+      "m4": "74.5"
+    },
+    {
+      "p": "[IcoCap: Improving Video Captioning by Compounding Images](https://ieeexplore.ieee.org/abstract/document/10272675)",
+      "c": "",
+      "n": "IcoCap (ViT-B/32)",
+      "d": "2023-10-05",
+      "m1": "103.8",
+      "m2": "56.3",
+      "m3": "38.9",
+      "m4": "75.0"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

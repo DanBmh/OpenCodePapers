@@ -1,0 +1,256 @@
+# image-generation-on-textatlaseval
+
+[Dataset Link](https://textatlas5m.github.io) \
+Task Hierarchy: ['Image Generation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "TextVsionBlend OCR (F1 Score)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "TextVisionBlend OCR (Accuracy)",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "TextVisionBlend OCR (Cer)",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "TextVisionBlend FID",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "TextVisionBlend Clip Score",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "StyledTextSynth OCR (F1 Score)",
+      "sortable": "true"
+    },
+    {
+      "key": "m7",
+      "label": "StyledTextSynth OCR (Accuracy)",
+      "sortable": "true"
+    },
+    {
+      "key": "m8",
+      "label": "StyledTextSynth OCR (Cer)",
+      "sortable": "true"
+    },
+    {
+      "key": "m9",
+      "label": "StyledTextSynth FID",
+      "sortable": "true"
+    },
+    {
+      "key": "m10",
+      "label": "StyledTextSynth Clip Score",
+      "sortable": "true"
+    },
+    {
+      "key": "m11",
+      "label": "TextScenesHQ OCR (F1 Score)",
+      "sortable": "true"
+    },
+    {
+      "key": "m12",
+      "label": "TextScenesHQ OCR (Accuracy)",
+      "sortable": "true"
+    },
+    {
+      "key": "m13",
+      "label": "TextScenesHQ OCR (Cer)",
+      "sortable": "true"
+    },
+    {
+      "key": "m14",
+      "label": "TextScenesHQ FID",
+      "sortable": "true"
+    },
+    {
+      "key": "m15",
+      "label": "TextScenesHQ Clip Score",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Grok3",
+      "d": null,
+      "m1": "44.22",
+      "m2": "41.54",
+      "m3": "0.57",
+      "m4": "-",
+      "m5": "0.1697",
+      "m6": "21.40",
+      "m7": "15.82",
+      "m8": "0.73",
+      "m9": "80.33",
+      "m10": "0.2938",
+      "m11": "37.94",
+      "m12": "35.07",
+      "m13": "0.57",
+      "m14": "-",
+      "m15": "0.3197"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "SD3.5 Large",
+      "d": null,
+      "m1": "16.25",
+      "m2": "14.55",
+      "m3": "0.88",
+      "m4": "118.85",
+      "m5": "0.1846",
+      "m6": "33.86",
+      "m7": "27.21",
+      "m8": "0.73",
+      "m9": "71.09",
+      "m10": "0.2849",
+      "m11": "24.45",
+      "m12": "19.03",
+      "m13": "0.73",
+      "m14": "64.44",
+      "m15": "0.2363"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Dalle3",
+      "d": null,
+      "m1": "7.94",
+      "m2": "8.38",
+      "m3": "0.93",
+      "m4": "153.21",
+      "m5": "0.1938",
+      "m6": "38.25",
+      "m7": "30.58",
+      "m8": "0.78",
+      "m9": "90.70",
+      "m10": "0.2938",
+      "m11": "51.63",
+      "m12": "69.26",
+      "m13": "-",
+      "m14": "86.73",
+      "m15": "0.3367"
+    },
+    {
+      "p": "[Infinity-MM: Scaling Multimodal Performance with Large-Scale and High-Quality Instruction Data](https://arxiv.org/abs/2410.18558v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/LLaVA-VL/LLaVA-NeXT)",
+      "n": "Infinity-2B",
+      "d": "2024-10-24",
+      "m1": "3.44",
+      "m2": "2.98",
+      "m3": "0.83",
+      "m4": "95.69",
+      "m5": "0.1979",
+      "m6": "1.42",
+      "m7": "0.80",
+      "m8": "0.93",
+      "m9": "84.95",
+      "m10": "0.2727",
+      "m11": "1.74",
+      "m12": "1.06",
+      "m13": "0.88",
+      "m14": "71.59",
+      "m15": "0.2346"
+    },
+    {
+      "p": "[PixArt-\u03a3: Weak-to-Strong Training of Diffusion Transformer for 4K Text-to-Image Generation](https://arxiv.org/abs/2403.04692v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/PixArt-alpha/PixArt-sigma)",
+      "n": "PixArt-Sigma",
+      "d": "2024-03-07",
+      "m1": "1.57",
+      "m2": "2.40",
+      "m3": "0.83",
+      "m4": "81.29",
+      "m5": "0.1891",
+      "m6": "0.62",
+      "m7": "0.42",
+      "m8": "0.90",
+      "m9": "82.83",
+      "m10": "0.2764",
+      "m11": "0.53",
+      "m12": "0.34",
+      "m13": "0.91",
+      "m14": "72.62",
+      "m15": "0.2347"
+    },
+    {
+      "p": "[TextDiffuser-2: Unleashing the Power of Language Models for Text Rendering](https://arxiv.org/abs/2311.16465v1)",
+      "c": "",
+      "n": "TextDiffuser2",
+      "d": "2023-11-28",
+      "m1": "-",
+      "m2": "-",
+      "m3": "-",
+      "m4": "-",
+      "m5": "-",
+      "m6": "1.46",
+      "m7": "0.76",
+      "m8": "0.99",
+      "m9": "114.31",
+      "m10": "0.2510",
+      "m11": "1.25",
+      "m12": "0.66",
+      "m13": "0.96",
+      "m14": "84.10",
+      "m15": "0.2252"
+    },
+    {
+      "p": "[AnyText: Multilingual Visual Text Generation And Editing](https://arxiv.org/abs/2311.03054v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/tyxsspa/anytext)",
+      "n": "Anytext",
+      "d": "2023-11-06",
+      "m1": "-",
+      "m2": "-",
+      "m3": "-",
+      "m4": "-",
+      "m5": "-",
+      "m6": "0.66",
+      "m7": "0.35",
+      "m8": "0.98",
+      "m9": "117.71",
+      "m10": "0.2501",
+      "m11": "0.8",
+      "m12": "0.42",
+      "m13": "0.95",
+      "m14": "101.32",
+      "m15": "0.2174"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

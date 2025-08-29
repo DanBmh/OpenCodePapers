@@ -1,0 +1,81 @@
+# semantic-segmentation-on-acdc-scribbles
+
+[Dataset Link](https://vios-s.github.io/multiscale-adversarial-attention-gates) \
+Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Dice (Average)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[ScribFormer: Transformer Makes CNN Work Better for Scribble-based Medical Image Segmentation](https://arxiv.org/abs/2402.02029v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/HUANGLIZI/ScribFormer)",
+      "n": "ScribFormer",
+      "d": "2024-02-03",
+      "m1": "88.8%"
+    },
+    {
+      "p": "[ScribbleVC: Scribble-supervised Medical Image Segmentation with Vision-Class Embedding](https://arxiv.org/abs/2307.16226v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/huanglizi/scribblevc)",
+      "n": "ScribbleVC",
+      "d": "2023-07-30",
+      "m1": "88.4%"
+    },
+    {
+      "p": "[CycleMix: A Holistic Strategy for Medical Image Segmentation from Scribble Supervision](https://arxiv.org/abs/2203.01475v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/bwgzk/cyclemix)",
+      "n": "CycleMix",
+      "d": "2022-03-03",
+      "m1": "84.8%"
+    },
+    {
+      "p": "[CutMix: Regularization Strategy to Train Strong Classifiers with Localizable Features](https://arxiv.org/abs/1905.04899v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "CutMix",
+      "d": "2019-05-13",
+      "m1": "70.5%"
+    },
+    {
+      "p": "[TFCNs: A CNN-Transformer Hybrid Network for Medical Image Segmentation](https://arxiv.org/abs/2207.03450v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/huanglizi/tfcns)",
+      "n": "TFCNs",
+      "d": "2022-07-07",
+      "m1": "64.5%"
+    },
+    {
+      "p": "[Puzzle Mix: Exploiting Saliency and Local Statistics for Optimal Mixup](https://arxiv.org/abs/2009.06962v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/snu-mllab/PuzzleMix)",
+      "n": "Puzzle Mix",
+      "d": "2020-09-15",
+      "m1": "62.4%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

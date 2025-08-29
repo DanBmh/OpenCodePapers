@@ -1,0 +1,389 @@
+# long-tail-learning-on-cifar-10-lt-r-10
+
+[Dataset Link](https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf) \
+Task Hierarchy: ['Generalized Few-Shot Learning', 'Long-tail Learning']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Error Rate",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Global and Local Mixture Consistency Cumulative Learning for Long-tailed Visual Recognitions](https://arxiv.org/abs/2305.08661v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ynu-yangpeng/GLMC)",
+      "n": "GLMC+MaxNorm (ResNet-34, channel x4)",
+      "d": "2023-05-15",
+      "m1": "5"
+    },
+    {
+      "p": "[SURE: SUrvey REcipes for building reliable and robust deep networks](https://arxiv.org/abs/2403.00543v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/YutingLi0606/SURE)",
+      "n": "SURE(ResNet-32)",
+      "d": "2024-03-01",
+      "m1": "5.04"
+    },
+    {
+      "p": "[Global and Local Mixture Consistency Cumulative Learning for Long-tailed Visual Recognitions](https://arxiv.org/abs/2305.08661v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ynu-yangpeng/GLMC)",
+      "n": "GLMC (ResNet-34, channel x4)",
+      "d": "2023-05-15",
+      "m1": "5.15"
+    },
+    {
+      "p": "[Delving Deep into Simplicity Bias for Long-Tailed Image Recognition](https://arxiv.org/abs/2302.03264v1)",
+      "c": "",
+      "n": "3LSSL",
+      "d": "2023-02-07",
+      "m1": "7.9"
+    },
+    {
+      "p": "[Rebalanced Siamese Contrastive Mining for Long-Tailed Recognition](https://arxiv.org/abs/2203.11506v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dvlab-research/imbalanced-learning)",
+      "n": "ResCom",
+      "d": "2022-03-22",
+      "m1": "8.0"
+    },
+    {
+      "p": "[A Unified Generalization Analysis of Re-Weighting and Logit-Adjustment for Imbalanced Learning. paper with code](https://arxiv.org/abs/2310.04752)",
+      "c": "[&check;&nbsp;Link](https://github.com/wang22ti/DDC)",
+      "n": "VS + ADRW + TLA",
+      "d": "2023-10-07",
+      "m1": "8.18"
+    },
+    {
+      "p": "[Balanced Meta-Softmax for Long-Tailed Visual Recognition](https://arxiv.org/abs/2007.10740v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/jiawei-ren/BalancedMetaSoftmax)",
+      "n": "Balanced Softmax (BALMS)",
+      "d": "2020-07-21",
+      "m1": "8.7"
+    },
+    {
+      "p": "[Learning Imbalanced Data with Vision Transformers](https://arxiv.org/abs/2212.02015v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/xuzhengzhuo/livt)",
+      "n": "ViT-B + Bal-BCE",
+      "d": "2022-12-05",
+      "m1": "8.7"
+    },
+    {
+      "p": "[Long-tailed Recognition by Learning from Latent Categories](https://arxiv.org/abs/2206.01010v3)",
+      "c": "",
+      "n": "LCReg",
+      "d": "2022-06-02",
+      "m1": "8.8"
+    },
+    {
+      "p": "[Balanced Contrastive Learning for Long-Tailed Visual Recognition](https://arxiv.org/abs/2207.09052v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/flamiezhu/bcl)",
+      "n": "BCL(ResNet-32)",
+      "d": "2022-07-19",
+      "m1": "8.9"
+    },
+    {
+      "p": "[Contrastive Learning based Hybrid Networks for Long-Tailed Image Classification](https://arxiv.org/abs/2103.14267v1)",
+      "c": "",
+      "n": "Hybrid-SC",
+      "d": "2021-03-26",
+      "m1": "8.9"
+    },
+    {
+      "p": "[Decoupling Representation and Classifier for Long-Tailed Recognition](https://arxiv.org/abs/1910.09217v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/classifier-balancing)",
+      "n": "LWS",
+      "d": "2019-10-21",
+      "m1": "8.9"
+    },
+    {
+      "p": "[Decoupling Representation and Classifier for Long-Tailed Recognition](https://arxiv.org/abs/1910.09217v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/classifier-balancing)",
+      "n": "cRT",
+      "d": "2019-10-21",
+      "m1": "9.0"
+    },
+    {
+      "p": "[Parametric Contrastive Learning](https://arxiv.org/abs/2107.12028v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dvlab-research/parametric-contrastive-learning)",
+      "n": "PCL",
+      "d": "2021-07-26",
+      "m1": "9.14"
+    },
+    {
+      "p": "[Self-Supervised Aggregation of Diverse Experts for Test-Agnostic Long-Tailed Recognition](https://arxiv.org/abs/2107.09249v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/vanint/sade-agnosticlt)",
+      "n": "TADE",
+      "d": "2021-07-20",
+      "m1": "9.2"
+    },
+    {
+      "p": "[Learning Imbalanced Data with Vision Transformers](https://arxiv.org/abs/2212.02015v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/xuzhengzhuo/livt)",
+      "n": "ViT-B + Bal-CE",
+      "d": "2022-12-05",
+      "m1": "9.3"
+    },
+    {
+      "p": "[Equalization Loss for Long-Tailed Object Recognition](https://arxiv.org/abs/2003.05176v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tztztztztz/eql.detectron2)",
+      "n": "Equalization Loss",
+      "d": "2020-03-11",
+      "m1": "9.8"
+    },
+    {
+      "p": "[Improving Calibration for Long-Tailed Recognition](https://arxiv.org/abs/2104.00466v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Jia-Research-Lab/MiSLAS)",
+      "n": "MiSLAS",
+      "d": "2021-04-01",
+      "m1": "10"
+    },
+    {
+      "p": "[Learning Imbalanced Data with Vision Transformers](https://arxiv.org/abs/2212.02015v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/xuzhengzhuo/livt)",
+      "n": "ViT-B + CB",
+      "d": "2022-12-05",
+      "m1": "10.1"
+    },
+    {
+      "p": "[Predicting and Enhancing the Fairness of DNNs with the Curvature of Perceptual Manifolds](https://arxiv.org/abs/2303.12307v7)",
+      "c": "[&check;&nbsp;Link](https://github.com/mayanbiao1234/geometric-metrics-for-perceptual-manifolds)",
+      "n": "De-C-TDE + Curvature Regularization",
+      "d": "2023-03-22",
+      "m1": "10.1"
+    },
+    {
+      "p": "[Leveraging Angular Information Between Feature and Classifier for Long-tailed Learning: A Prediction Reformulation Approach](https://arxiv.org/abs/2212.01565v1)",
+      "c": "",
+      "n": "L2A(S2)",
+      "d": "2022-12-03",
+      "m1": "10.16"
+    },
+    {
+      "p": "[ResLT: Residual Learning for Long-tailed Recognition](https://arxiv.org/abs/2101.10633v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/dvlab-research/parametric-contrastive-learning)",
+      "n": "ResLT",
+      "d": "2021-01-26",
+      "m1": "10.3"
+    },
+    {
+      "p": "[Self-Supervised Aggregation of Diverse Experts for Test-Agnostic Long-Tailed Recognition](https://arxiv.org/abs/2107.09249v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/vanint/sade-agnosticlt)",
+      "n": "RIDE",
+      "d": "2021-07-20",
+      "m1": "10.3"
+    },
+    {
+      "p": "[Improving Tail-Class Representation with Centroid Contrastive Learning](https://arxiv.org/abs/2110.10048v2)",
+      "c": "",
+      "n": "ICCL",
+      "d": "2021-10-19",
+      "m1": "10.3"
+    },
+    {
+      "p": "[MetaSAug: Meta Semantic Augmentation for Long-Tailed Visual Recognition](https://arxiv.org/abs/2103.12579v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/BIT-DA/MetaSAug)",
+      "n": "MetaSAug-LDAM",
+      "d": "2021-03-23",
+      "m1": "10.32"
+    },
+    {
+      "p": "[Towards Calibrated Model for Long-Tailed Visual Recognition from Prior Perspective](https://arxiv.org/abs/2111.03874v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/XuZhengzhuo/Prior-LT)",
+      "n": "UniMix+Bayias",
+      "d": "2021-11-06",
+      "m1": "10.34"
+    },
+    {
+      "p": "[Learning Imbalanced Data with Vision Transformers](https://arxiv.org/abs/2212.02015v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/xuzhengzhuo/livt)",
+      "n": "ViT-B + CE",
+      "d": "2022-12-05",
+      "m1": "10.5"
+    },
+    {
+      "p": "[Escaping Saddle Points for Effective Generalization on Class-Imbalanced Data](https://arxiv.org/abs/2212.13827v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/val-iisc/saddle-longtail)",
+      "n": "LDAM + DRW + SAM",
+      "d": "2022-12-28",
+      "m1": "10.6"
+    },
+    {
+      "p": "[SAFA: Sample-Adaptive Feature Augmentation for Long-Tailed Image Classification](https://doi.org/10.1007/978-3-031-20053-3_34)",
+      "c": "",
+      "n": "SAFA+LDAM-DRW (ResNeXt-29)",
+      "d": "2022-11-06",
+      "m1": "10.61"
+    },
+    {
+      "p": "[Long-tailed Visual Recognition via Gaussian Clouded Logit Adjustment](https://arxiv.org/abs/2305.11733v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/keke921/gclloss)",
+      "n": "GCLLoss",
+      "d": "2023-05-19",
+      "m1": "10.77"
+    },
+    {
+      "p": "[Disentangling Label Distribution for Long-tailed Visual Recognition](https://arxiv.org/abs/2012.00321v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/hyperconnect/LADE)",
+      "n": "LADE",
+      "d": "2020-12-01",
+      "m1": "11.22"
+    },
+    {
+      "p": "[A Simple Episodic Linear Probe Improves Visual Recognition in the Wild](http://openaccess.thecvf.com//content/CVPR2022/html/Liang_A_Simple_Episodic_Linear_Probe_Improves_Visual_Recognition_in_the_CVPR_2022_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/JDAI-CV/DCL)",
+      "n": "ELP",
+      "d": "2022-01-01",
+      "m1": "11.3"
+    },
+    {
+      "p": "[Targeted Supervised Contrastive Learning for Long-Tailed Recognition](https://arxiv.org/abs/2111.13998v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/lth14/targeted-supcon)",
+      "n": "TSC",
+      "d": "2021-11-27",
+      "m1": "11.3"
+    },
+    {
+      "p": "[Learning Imbalanced Data with Vision Transformers](https://arxiv.org/abs/2212.02015v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/xuzhengzhuo/livt)",
+      "n": "ViT-B + LDAM",
+      "d": "2022-12-05",
+      "m1": "11.4"
+    },
+    {
+      "p": "[Rethinking the Value of Labels for Improving Class-Imbalanced Learning](https://arxiv.org/abs/2006.07529v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/YyzHarry/imbalanced-semi-self)",
+      "n": "LDAM-DRW + SSP",
+      "d": "2020-06-13",
+      "m1": "11.47"
+    },
+    {
+      "p": "[Long-Tailed Classification by Keeping the Good and Removing the Bad Momentum Causal Effect](https://arxiv.org/abs/2009.12991v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/KaihuaTang/Long-Tailed-Recognition.pytorch)",
+      "n": "Causal Norm",
+      "d": "2020-09-28",
+      "m1": "11.5"
+    },
+    {
+      "p": "[BBN: Bilateral-Branch Network with Cumulative Learning for Long-Tailed Visual Recognition](https://arxiv.org/abs/1912.02413v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/Megvii-Nanjing/BBN)",
+      "n": "BBN",
+      "d": "2019-12-05",
+      "m1": "11.7"
+    },
+    {
+      "p": "[From Generalized zero-shot learning to long-tail with class descriptors](https://arxiv.org/abs/2004.02235v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/dvirsamuel/DRAGON)",
+      "n": "smDRAGON",
+      "d": "2020-04-05",
+      "m1": "11.84"
+    },
+    {
+      "p": "[Learning Imbalanced Datasets with Label-Distribution-Aware Margin Loss](https://arxiv.org/abs/1906.07413v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/kaidic/LDAM-DRW)",
+      "n": "LDAM-DRW",
+      "d": "2019-06-18",
+      "m1": "11.84"
+    },
+    {
+      "p": "[ELF: An Early-Exiting Framework for Long-Tailed Classification](https://arxiv.org/abs/2006.11979v2)",
+      "c": "",
+      "n": "ELF&LDAM+DRW",
+      "d": "2020-06-22",
+      "m1": "12.00"
+    },
+    {
+      "p": "[Exploring Balanced Feature Spaces for Representation Learning](https://openreview.net/forum?id=OqtLIabPTit)",
+      "c": "",
+      "n": "KCL",
+      "d": "2021-01-01",
+      "m1": "12.00"
+    },
+    {
+      "p": "[Towards Calibrated Model for Long-Tailed Visual Recognition from Prior Perspective](https://arxiv.org/abs/2111.03874v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/XuZhengzhuo/Prior-LT)",
+      "n": "Prior-LT",
+      "d": "2021-11-06",
+      "m1": "12.20"
+    },
+    {
+      "p": "[M2m: Imbalanced Classification via Major-to-minor Translation](https://arxiv.org/abs/2004.00431v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/alinlab/M2m)",
+      "n": "M2m",
+      "d": "2020-04-01",
+      "m1": "12.5"
+    },
+    {
+      "p": "[Long-Tailed Classification by Keeping the Good and Removing the Bad Momentum Causal Effect](https://arxiv.org/abs/2009.12991v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/KaihuaTang/Long-Tailed-Recognition.pytorch)",
+      "n": "DecTDE",
+      "d": "2020-09-28",
+      "m1": "12.63"
+    },
+    {
+      "p": "[Class-Balanced Loss Based on Effective Number of Samples](http://arxiv.org/abs/1901.05555v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/vandit15/Class-balanced-loss-pytorch)",
+      "n": "Class-balanced Focal Loss",
+      "d": "2019-01-16",
+      "m1": "12.90"
+    },
+    {
+      "p": "[Influence-Balanced Loss for Imbalanced Visual Classification](https://arxiv.org/abs/2110.02444v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/pseulki/ib-loss)",
+      "n": "IBLLoss",
+      "d": "2021-10-06",
+      "m1": "12.93"
+    },
+    {
+      "p": "[Learning Imbalanced Datasets with Label-Distribution-Aware Margin Loss](https://arxiv.org/abs/1906.07413v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/kaidic/LDAM-DRW)",
+      "n": "Class-balanced Resampling",
+      "d": "2019-06-18",
+      "m1": "13.21"
+    },
+    {
+      "p": "[Class-Balanced Loss Based on Effective Number of Samples](http://arxiv.org/abs/1901.05555v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/vandit15/Class-balanced-loss-pytorch)",
+      "n": "Class-balanced Reweighting",
+      "d": "2019-01-16",
+      "m1": "13.46"
+    },
+    {
+      "p": "[Learning Imbalanced Datasets with Label-Distribution-Aware Margin Loss](https://arxiv.org/abs/1906.07413v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/kaidic/LDAM-DRW)",
+      "n": "Empirical Risk Minimization (ERM, CE)",
+      "d": "2019-06-18",
+      "m1": "13.61"
+    },
+    {
+      "p": "[Imagine by Reasoning: A Reasoning-Based Implicit Semantic Data Augmentation for Long-Tailed Classification](https://arxiv.org/abs/2112.07928v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/xiaohua-chen/risda)",
+      "n": "RISDA",
+      "d": "2021-12-15",
+      "m1": "20.11"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,286 @@
+# machine-translation-on-iwslt2014-german
+
+[Dataset Link]() \
+Task Hierarchy: ['Machine Translation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "BLEU score",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Number of Params",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Integrating Pre-trained Language Model into Neural Machine Translation](https://arxiv.org/abs/2310.19680v4)",
+      "c": "",
+      "n": "PiNMT",
+      "d": "2023-10-30",
+      "m1": "40.43"
+    },
+    {
+      "p": "[BERT, mBERT, or BiBERT? A Study on Contextualized Embeddings for Neural Machine Translation](https://arxiv.org/abs/2109.04588v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/fe1ixxu/BiBERT)",
+      "n": "BiBERT",
+      "d": "2021-09-09",
+      "m1": "38.61",
+      "m2": "73.8M"
+    },
+    {
+      "p": "[Bi-SimCut: A Simple Strategy for Boosting Neural Machine Translation](https://arxiv.org/abs/2206.02368v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/gpengzhi/Bi-SimCut)",
+      "n": "Bi-SimCut",
+      "d": "2022-06-06",
+      "m1": "38.37"
+    },
+    {
+      "p": "[Relaxed Attention for Transformer Models](https://arxiv.org/abs/2209.09735v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Oguzhanercan/Vision-Transformers)",
+      "n": "Cutoff + Relaxed Attention + LM",
+      "d": "2022-09-20",
+      "m1": "37.96",
+      "m2": "24.1M"
+    },
+    {
+      "p": "[Deterministic Reversible Data Augmentation for Neural Machine Translation](https://arxiv.org/abs/2406.02517v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/BITHLP/DRDA)",
+      "n": "DRDA",
+      "d": "2024-06-04",
+      "m1": "37.95"
+    },
+    {
+      "p": "[R-Drop: Regularized Dropout for Neural Networks](https://arxiv.org/abs/2106.14448v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dropreg/R-Drop)",
+      "n": "Transformer + R-Drop + Cutoff",
+      "d": "2021-06-28",
+      "m1": "37.90"
+    },
+    {
+      "p": "[Bi-SimCut: A Simple Strategy for Boosting Neural Machine Translation](https://arxiv.org/abs/2206.02368v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/gpengzhi/Bi-SimCut)",
+      "n": "SimCut",
+      "d": "2022-06-06",
+      "m1": "37.81"
+    },
+    {
+      "p": "[Wide-minima Density Hypothesis and the Explore-Exploit Learning Rate Schedule](https://arxiv.org/abs/2003.03977v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/HA-Transformer/HA-Transformer)",
+      "n": "Cutoff+Knee",
+      "d": "2020-03-09",
+      "m1": "37.78"
+    },
+    {
+      "p": "[A Simple but Tough-to-Beat Data Augmentation Approach for Natural Language Understanding and Generation](https://arxiv.org/abs/2009.13818v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dinghanshen/Cutoff)",
+      "n": "Cutoff",
+      "d": "2020-09-29",
+      "m1": "37.6"
+    },
+    {
+      "p": "[CipherDAug: Ciphertext based Data Augmentation for Neural Machine Translation](https://arxiv.org/abs/2204.00665v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/protonish/cipherdaug-nmt)",
+      "n": "CipherDAug",
+      "d": "2022-04-01",
+      "m1": "37.53"
+    },
+    {
+      "p": "[R-Drop: Regularized Dropout for Neural Networks](https://arxiv.org/abs/2106.14448v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dropreg/R-Drop)",
+      "n": "Transformer + R-Drop",
+      "d": "2021-06-28",
+      "m1": "37.25"
+    },
+    {
+      "p": "[Data Diversification: A Simple Strategy For Neural Machine Translation](https://arxiv.org/abs/1911.01986v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/nxphi47/data_diversification)",
+      "n": "Data Diversification",
+      "d": "2019-11-05",
+      "m1": "37.2"
+    },
+    {
+      "p": "[UniDrop: A Simple yet Effective Technique to Improve Transformer without Extra Cost](https://arxiv.org/abs/2104.04946v1)",
+      "c": "",
+      "n": "UniDrop",
+      "d": "2021-04-11",
+      "m1": "36.88"
+    },
+    {
+      "p": "[Sequence Generation with Mixed Representations](https://icml.cc/Conferences/2020/ScheduleMultitrack?event=6391)",
+      "c": "[&check;&nbsp;Link](https://github.com/apeterswu/fairseq_mix)",
+      "n": "MixedRepresentations",
+      "d": "2020-07-11",
+      "m1": "36.41"
+    },
+    {
+      "p": "[Mask Attention Networks: Rethinking and Strengthen Transformer](https://arxiv.org/abs/2103.13597v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/libertfan/man)",
+      "n": "Mask Attention Network (small)",
+      "d": "2021-03-25",
+      "m1": "36.3",
+      "m2": "37M"
+    },
+    {
+      "p": "[MUSE: Parallel Multi-Scale Attention for Sequence to Sequence Learning](https://arxiv.org/abs/1911.09483v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/lancopku/MUSE)",
+      "n": "MUSE(Parallel Multi-scale Attention)",
+      "d": "2019-11-17",
+      "m1": "36.3"
+    },
+    {
+      "p": "[Rethinking Perturbations in Encoder-Decoders for Fast Training](https://arxiv.org/abs/2104.01853v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/takase/rethink_perturbations)",
+      "n": "Transformer+Rep(Sim)+WDrop",
+      "d": "2021-04-05",
+      "m1": "36.22",
+      "m2": "37M"
+    },
+    {
+      "p": "[Multi-branch Attentive Transformer](https://arxiv.org/abs/2006.10270v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/HA-Transformer/HA-Transformer)",
+      "n": "MAT",
+      "d": "2020-06-18",
+      "m1": "36.22"
+    },
+    {
+      "p": "[AutoDropout: Learning Dropout Patterns to Regularize Deep Networks](https://arxiv.org/abs/2101.01761v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research)",
+      "n": "TransformerBase + AutoDropout",
+      "d": "2021-01-05",
+      "m1": "35.8"
+    },
+    {
+      "p": "[Joint Source-Target Self Attention with Locality Constraints](https://arxiv.org/abs/1905.06596v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jarfo/joint)",
+      "n": "Local Joint Self-attention",
+      "d": "2019-05-16",
+      "m1": "35.7"
+    },
+    {
+      "p": "[Time-aware Large Kernel Convolutions](https://arxiv.org/abs/2002.03184v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/lioutasb/TaLKConvolutions)",
+      "n": "TaLK Convolutions",
+      "d": "2020-02-08",
+      "m1": "35.5"
+    },
+    {
+      "p": "[Autoregressive Knowledge Distillation through Imitation Learning](https://arxiv.org/abs/2009.07253v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/asappresearch/imitkd)",
+      "n": "ImitKD + Full",
+      "d": "2020-09-15",
+      "m1": "35.4"
+    },
+    {
+      "p": "[DeLighT: Deep and Light-weight Transformer](https://arxiv.org/abs/2008.00623v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/sacmehta/delight)",
+      "n": "DeLighT",
+      "d": "2020-08-03",
+      "m1": "35.3"
+    },
+    {
+      "p": "[Pay Less Attention with Lightweight and Dynamic Convolutions](http://arxiv.org/abs/1901.10430v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/pytorch/fairseq)",
+      "n": "DynamicConv",
+      "d": "2019-01-29",
+      "m1": "35.2"
+    },
+    {
+      "p": "[Guidelines for the Regularization of Gammas in Batch Normalization for Deep Residual Networks](https://arxiv.org/abs/2205.07260v1)",
+      "c": "",
+      "n": "Transformer",
+      "d": "2022-05-15",
+      "m1": "35.1385"
+    },
+    {
+      "p": "[Pay Less Attention with Lightweight and Dynamic Convolutions](http://arxiv.org/abs/1901.10430v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/pytorch/fairseq)",
+      "n": "LightConv",
+      "d": "2019-01-29",
+      "m1": "34.8"
+    },
+    {
+      "p": "[Attention Is All You Need](https://arxiv.org/abs/1706.03762v7)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "Transformer",
+      "d": "2017-06-12",
+      "m1": "34.44"
+    },
+    {
+      "p": "[Random Feature Attention](https://arxiv.org/abs/2103.02143v2)",
+      "c": "",
+      "n": "Rfa-Gate-arccos",
+      "d": "2021-03-03",
+      "m1": "34.4"
+    },
+    {
+      "p": "[Latent Alignment and Variational Attention](http://arxiv.org/abs/1807.03756v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/harvardnlp/var-attn)",
+      "n": "Variational Attention",
+      "d": "2018-07-10",
+      "m1": "33.1"
+    },
+    {
+      "p": "[Classical Structured Prediction Losses for Sequence to Sequence Learning](http://arxiv.org/abs/1711.04956v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/pytorch/fairseq)",
+      "n": "Minimum Risk Training [Edunov2017]",
+      "d": "2017-11-14",
+      "m1": "32.84"
+    },
+    {
+      "p": "[Non-Autoregressive Translation by Learning Target Categorical Codes](https://arxiv.org/abs/2103.11405v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/baoy-nlp/CNAT)",
+      "n": "CNAT",
+      "d": "2021-03-21",
+      "m1": "31.15"
+    },
+    {
+      "p": "[Towards Neural Phrase-based Machine Translation](http://arxiv.org/abs/1706.05565v8)",
+      "c": "[&check;&nbsp;Link](https://github.com/posenhuang/NPMT)",
+      "n": "Neural PBMT + LM [Huang2018]",
+      "d": "2017-06-17",
+      "m1": "30.08"
+    },
+    {
+      "p": "[Tag-less Back-Translation](https://arxiv.org/abs/1912.10514v3)",
+      "c": "",
+      "n": "Back-Translation Finetuning",
+      "d": "2019-12-22",
+      "m1": "28.83"
+    },
+    {
+      "p": "[An Actor-Critic Algorithm for Sequence Prediction](http://arxiv.org/abs/1607.07086v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/joeynmt/joeynmt)",
+      "n": "Actor-Critic [Bahdanau2017]",
+      "d": "2016-07-24",
+      "m1": "28.53"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

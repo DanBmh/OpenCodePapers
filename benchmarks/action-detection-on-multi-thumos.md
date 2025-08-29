@@ -1,0 +1,95 @@
+# action-detection-on-multi-thumos
+
+[Dataset Link](http://ai.stanford.edu/~syyeung/everymoment.html) \
+Task Hierarchy: ['Action Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mAP",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Modeling Multi-Label Action Dependencies for Temporal Action Localization](https://arxiv.org/abs/2103.03027v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/ptirupat/MLAD)",
+      "n": "MLAD",
+      "d": "2021-03-04",
+      "m1": "51.5"
+    },
+    {
+      "p": "[CTRN: Class-Temporal Relational Network for Action Detection](https://arxiv.org/abs/2110.13473v2)",
+      "c": "",
+      "n": "CTRN",
+      "d": "2021-10-26",
+      "m1": "51.2"
+    },
+    {
+      "p": "[PDAN: Pyramid Dilated Attention Network for Action Detection](https://openaccess.thecvf.com/content/WACV2021/html/Dai_PDAN_Pyramid_Dilated_Attention_Network_for_Action_Detection_WACV_2021_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/dairui01/PDAN)",
+      "n": "PDAN",
+      "d": "2021-01-05",
+      "m1": "47.6"
+    },
+    {
+      "p": "[Temporal Gaussian Mixture Layer for Videos](https://arxiv.org/abs/1803.06316v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/piergiaj/tgm-icml19)",
+      "n": "TGM",
+      "d": "2018-03-16",
+      "m1": "46.4"
+    },
+    {
+      "p": "[MS-TCT: Multi-Scale Temporal ConvTransformer for Action Detection](https://arxiv.org/abs/2112.03902v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dairui01/MS-TCT)",
+      "n": "MS-TCT (RGB only)",
+      "d": "2021-12-07",
+      "m1": "43.1"
+    },
+    {
+      "p": "[Learning Latent Super-Events to Detect Multiple Activities in Videos](http://arxiv.org/abs/1712.01938v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/piergiaj/super-events-cvpr18)",
+      "n": "I3D + our super-event",
+      "d": "2017-12-05",
+      "m1": "36.4"
+    },
+    {
+      "p": "[Every Moment Counts: Dense Detailed Labeling of Actions in Complex Videos](http://arxiv.org/abs/1507.05738v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/lauradhatt/Interesting-Reads)",
+      "n": "Two-stream + LSTM",
+      "d": "2015-07-21",
+      "m1": "28.1"
+    },
+    {
+      "p": "[Every Moment Counts: Dense Detailed Labeling of Actions in Complex Videos](http://arxiv.org/abs/1507.05738v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/lauradhatt/Interesting-Reads)",
+      "n": "Two-stream",
+      "d": "2015-07-21",
+      "m1": "27.6"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

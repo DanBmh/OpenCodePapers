@@ -1,0 +1,67 @@
+# aspect-sentiment-triplet-extraction-on-1
+
+[Dataset Link](https://doi.org/10.1016/j.eswa.2024.125695) \
+Task Hierarchy: ['Sentiment Analysis', 'Aspect Sentiment Triplet Extraction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Bidirectional Machine Reading Comprehension for Aspect Sentiment Triplet Extraction](https://arxiv.org/abs/2103.07665v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/NKU-IIPLab/BMRC)",
+      "n": "BMRC",
+      "d": "2021-03-13",
+      "m1": "0.568"
+    },
+    {
+      "p": "[A Unified Generative Framework for Aspect-Based Sentiment Analysis](https://arxiv.org/abs/2106.04300v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yhcc/BARTABSA)",
+      "n": "BARTABSA",
+      "d": "2021-06-08",
+      "m1": "0.249"
+    },
+    {
+      "p": "[Learning Span-Level Interactions for Aspect Sentiment Triplet Extraction](https://arxiv.org/abs/2107.12214v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/chiayewken/Span-ASTE)",
+      "n": "Span-ASTE",
+      "d": "2021-07-26",
+      "m1": "0.241"
+    },
+    {
+      "p": "[Towards Generative Aspect-Based Sentiment Analysis](https://aclanthology.org/2021.acl-short.64/)",
+      "c": "[&check;&nbsp;Link](https://github.com/IsakZhang/Generative-ABSA)",
+      "n": "GAS",
+      "d": "2021-08-01",
+      "m1": "0.218"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

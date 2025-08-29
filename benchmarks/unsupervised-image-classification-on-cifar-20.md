@@ -1,0 +1,154 @@
+# unsupervised-image-classification-on-cifar-20
+
+[Dataset Link]() \
+Task Hierarchy: ['Image Classification', 'Unsupervised Image Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "NMI",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "ARI",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[MV-MR: multi-views and multi-representations for self-supervised learning and knowledge distillation](https://arxiv.org/abs/2303.12130v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/vkinakh/mv-mr)",
+      "n": "MV-MR",
+      "d": "2023-03-21",
+      "m1": "73.2"
+    },
+    {
+      "p": "[Exploring a Principled Framework for Deep Subspace Clustering](https://arxiv.org/abs/2503.17288v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/mengxianghan123/PRO-DSC)",
+      "n": "PRO-DSC",
+      "d": "2025-03-21",
+      "m1": "71.6",
+      "m2": "73.2"
+    },
+    {
+      "p": "[ScatSimCLR: self-supervised contrastive learning with pretext task regularization for small-scale datasets](https://arxiv.org/abs/2108.13939v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/vkinakh/scatsimclr)",
+      "n": "ScatSimCLR",
+      "d": "2021-08-31",
+      "m1": "63.76"
+    },
+    {
+      "p": "[Breaking the Reclustering Barrier in Centroid-based Deep Clustering](https://arxiv.org/abs/2411.02275v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/probabilistic-and-interactive-ml/breaking-the-reclustering-barrier)",
+      "n": "DCN+BRB",
+      "d": "2024-11-04",
+      "m1": "56.92",
+      "m2": "56.76",
+      "m3": "41.15"
+    },
+    {
+      "p": "[Loss Function Entropy Regularization for Diverse Decision Boundaries](https://arxiv.org/abs/2205.00224v2)",
+      "c": "",
+      "n": "LFER Ensemble",
+      "d": "2022-04-30",
+      "m1": "56.1"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "HUME",
+      "d": null,
+      "m1": "55.5"
+    },
+    {
+      "p": "[Breaking the Reclustering Barrier in Centroid-based Deep Clustering](https://arxiv.org/abs/2411.02275v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/probabilistic-and-interactive-ml/breaking-the-reclustering-barrier)",
+      "n": "IDEC+BRB",
+      "d": "2024-11-04",
+      "m1": "55.43",
+      "m2": "54.81",
+      "m3": "38.81"
+    },
+    {
+      "p": "[Stable Cluster Discrimination for Deep Clustering](https://arxiv.org/abs/2311.14310v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/idstcv/secu)",
+      "n": "SeCu",
+      "d": "2023-11-24",
+      "m1": "55.2"
+    },
+    {
+      "p": "[Improving Unsupervised Image Clustering With Robust Learning](https://arxiv.org/abs/2012.11150v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/deu30303/RUC)",
+      "n": "RUC",
+      "d": "2020-12-21",
+      "m1": "54.3"
+    },
+    {
+      "p": "[SCAN: Learning to Classify Images without Labels](https://arxiv.org/abs/2005.12320v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/wvangansbeke/Unsupervised-Classification)",
+      "n": "SCAN",
+      "d": "2020-05-25",
+      "m1": "50.7"
+    },
+    {
+      "p": "[Breaking the Reclustering Barrier in Centroid-based Deep Clustering](https://arxiv.org/abs/2411.02275v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/probabilistic-and-interactive-ml/breaking-the-reclustering-barrier)",
+      "n": "DEC+BRB",
+      "d": "2024-11-04",
+      "m1": "50.46",
+      "m2": "51.72",
+      "m3": "35.05"
+    },
+    {
+      "p": "[Unsupervised Visual Representation Learning by Online Constrained K-Means](https://arxiv.org/abs/2105.11527v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/idstcv/coke)",
+      "n": "CoKe",
+      "d": "2021-05-24",
+      "m1": "49.7"
+    },
+    {
+      "p": "[Mitigating Embedding and Class Assignment Mismatch in Unsupervised Image Classification](https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/4802_ECCV_2020_paper.php)",
+      "c": "[&check;&nbsp;Link](https://github.com/dscig/TwoStageUC)",
+      "n": "TSUC",
+      "d": null,
+      "m1": "35.3"
+    },
+    {
+      "p": "[Invariant Information Clustering for Unsupervised Image Classification and Segmentation](https://arxiv.org/abs/1807.06653v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/xu-ji/IIC)",
+      "n": "IIC",
+      "d": "2018-07-17",
+      "m1": "25.7"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

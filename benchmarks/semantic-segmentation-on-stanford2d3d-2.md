@@ -1,0 +1,68 @@
+# semantic-segmentation-on-stanford2d3d-2
+
+[Dataset Link](https://github.com/alexsax/2D-3D-Semantics) \
+Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mAcc",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "mIoU",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Complementary Bi-directional Feature Compression for Indoor 360\u00b0 Semantic Segmentation with Self-distillation](https://arxiv.org/abs/2207.02437v1)",
+      "c": "",
+      "n": "CBFC",
+      "d": "2022-07-06",
+      "m1": "70.8",
+      "m2": "56.7"
+    },
+    {
+      "p": "[Tangent Images for Mitigating Spherical Distortion](https://arxiv.org/abs/1912.09390v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/meder411/Tangent-Images)",
+      "n": "Tangent (ResNet-101)",
+      "d": "2019-12-19",
+      "m1": "69.1",
+      "m2": "51.9"
+    },
+    {
+      "p": "[HoHoNet: 360 Indoor Holistic Understanding with Latent Horizontal Features](https://arxiv.org/abs/2011.11498v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/sunset1995/HoHoNet)",
+      "n": "HoHoNet (ResNet-101)",
+      "d": "2020-11-23",
+      "m1": "68.9",
+      "m2": "56.3"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

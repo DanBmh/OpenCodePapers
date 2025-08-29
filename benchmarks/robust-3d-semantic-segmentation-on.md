@@ -1,0 +1,193 @@
+# robust-3d-semantic-segmentation-on
+
+[Dataset Link](https://ldkong.com/Robo3D) \
+Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', '3D Semantic Segmentation', 'Robust 3D Semantic Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mean Corruption Error (mCE)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Searching Efficient 3D Architectures with Sparse Point-Voxel Convolution](https://arxiv.org/abs/2007.16100v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Pointcept/Pointcept)",
+      "n": "SPVCNN-34",
+      "d": "2020-07-31",
+      "m1": "99.16%"
+    },
+    {
+      "p": "[KPConv: Flexible and Deformable Convolution for Point Clouds](https://arxiv.org/abs/1904.08889v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/isl-org/Open3D-ML)",
+      "n": "KPConv",
+      "d": "2019-04-18",
+      "m1": "99.54%"
+    },
+    {
+      "p": "[4D Spatio-Temporal ConvNets: Minkowski Convolutional Neural Networks](https://arxiv.org/abs/1904.08755v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/NVIDIA/MinkowskiEngine)",
+      "n": "MinkUNet-18",
+      "d": "2019-04-18",
+      "m1": "100.00%"
+    },
+    {
+      "p": "[Searching Efficient 3D Architectures with Sparse Point-Voxel Convolution](https://arxiv.org/abs/2007.16100v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Pointcept/Pointcept)",
+      "n": "SPVCNN-18",
+      "d": "2020-07-31",
+      "m1": "100.30%"
+    },
+    {
+      "p": "[4D Spatio-Temporal ConvNets: Minkowski Convolutional Neural Networks](https://arxiv.org/abs/1904.08755v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/NVIDIA/MinkowskiEngine)",
+      "n": "MinkUNet-34",
+      "d": "2019-04-18",
+      "m1": "100.61%"
+    },
+    {
+      "p": "[PIDS: Joint Point Interaction-Dimension Search for 3D Point Cloud](https://arxiv.org/abs/2211.15759v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/lordzth666/WACV23_PIDS-Joint-Point-Interaction-Dimension-Search-for-3D-Point-Cloud)",
+      "n": "PIDS-2.0x",
+      "d": "2022-11-28",
+      "m1": "101.20%"
+    },
+    {
+      "p": "[Cylindrical and Asymmetrical 3D Convolution Networks for LiDAR Segmentation](https://arxiv.org/abs/2011.10033v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/xinge008/Cylinder3D)",
+      "n": "Cylinder3D (torchsparse)",
+      "d": "2020-11-19",
+      "m1": "103.13%"
+    },
+    {
+      "p": "[Cylindrical and Asymmetrical 3D Convolution Networks for LiDAR Segmentation](https://arxiv.org/abs/2011.10033v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/xinge008/Cylinder3D)",
+      "n": "Cylinder3D (spconv)",
+      "d": "2020-11-19",
+      "m1": "103.25%"
+    },
+    {
+      "p": "[CENet: Toward Concise and Efficient LiDAR Semantic Segmentation for Autonomous Driving](https://arxiv.org/abs/2207.12691v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection3d)",
+      "n": "CENet (64x2048)",
+      "d": "2022-07-26",
+      "m1": "103.41%"
+    },
+    {
+      "p": "[PIDS: Joint Point Interaction-Dimension Search for 3D Point Cloud](https://arxiv.org/abs/2211.15759v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/lordzth666/WACV23_PIDS-Joint-Point-Interaction-Dimension-Search-for-3D-Point-Cloud)",
+      "n": "PIDS-1.2x",
+      "d": "2022-11-28",
+      "m1": "104.13%"
+    },
+    {
+      "p": "[2DPASS: 2D Priors Assisted Semantic Segmentation on LiDAR Point Clouds](https://arxiv.org/abs/2207.04397v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yanx27/2dpass)",
+      "n": "2DPASS",
+      "d": "2022-07-10",
+      "m1": "106.14%"
+    },
+    {
+      "p": "[CPGNet: Cascade Point-Grid Fusion Network for Real-Time LiDAR Semantic Segmentation](https://arxiv.org/abs/2204.09914v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/GangZhang842/CPGNet)",
+      "n": "CPGNet",
+      "d": "2022-04-21",
+      "m1": "107.34%"
+    },
+    {
+      "p": "[GFNet: Geometric Flow Network for 3D Point Cloud Semantic Segmentation](https://arxiv.org/abs/2207.02605v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/haibo-qiu/gfnet)",
+      "n": "GFNet",
+      "d": "2022-07-06",
+      "m1": "108.68%"
+    },
+    {
+      "p": "[Using a Waffle Iron for Automotive Point Cloud Semantic Segmentation](https://arxiv.org/abs/2301.10100v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/valeoai/waffleiron)",
+      "n": "WaffleIron",
+      "d": "2023-01-24",
+      "m1": "109.54%"
+    },
+    {
+      "p": "[RPVNet: A Deep and Efficient Range-Point-Voxel Fusion Network for LiDAR Point Cloud Segmentation](https://arxiv.org/abs/2103.12978v1)",
+      "c": "",
+      "n": "RPVNet",
+      "d": "2021-03-24",
+      "m1": "111.74%"
+    },
+    {
+      "p": "[FIDNet: LiDAR Point Cloud Semantic Segmentation with Fully Interpolation Decoding](https://arxiv.org/abs/2109.03787v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/placeforyiming/iros21-fidnet-semantickitti)",
+      "n": "FIDNet (64x2048)",
+      "d": "2021-09-08",
+      "m1": "113.81%"
+    },
+    {
+      "p": "[SalsaNext: Fast, Uncertainty-aware Semantic Segmentation of LiDAR Point Clouds for Autonomous Driving](https://arxiv.org/abs/2003.03653v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/TiagoCortinhal/SalsaNext)",
+      "n": "SalsaNext (64x2048)",
+      "d": "2020-03-07",
+      "m1": "116.14%"
+    },
+    {
+      "p": "[PolarNet: An Improved Grid Representation for Online LiDAR Point Clouds Semantic Segmentation](https://arxiv.org/abs/2003.14032v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/edwardzhou130/PolarSeg)",
+      "n": "PolarNet",
+      "d": "2020-03-31",
+      "m1": "118.56%"
+    },
+    {
+      "p": "[RangeNet++: Fast and Accurate LiDAR Semantic Segmentation](http://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/milioto2019iros.pdf)",
+      "c": "[&check;&nbsp;Link](https://github.com/PRBonn/lidar-bonnetal)",
+      "n": "RangeNet-53 (64x2048)",
+      "d": "2019-11-04",
+      "m1": "130.66%"
+    },
+    {
+      "p": "[RangeNet++: Fast and Accurate LiDAR Semantic Segmentation](http://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/milioto2019iros.pdf)",
+      "c": "[&check;&nbsp;Link](https://github.com/PRBonn/lidar-bonnetal)",
+      "n": "RangeNet-21 (64x2048)",
+      "d": "2019-11-04",
+      "m1": "136.33%"
+    },
+    {
+      "p": "[SqueezeSegV2: Improved Model Structure and Unsupervised Domain Adaptation for Road-Object Segmentation from a LiDAR Point Cloud](http://arxiv.org/abs/1809.08495v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/xuanyuzhou98/SqueezeSegV2)",
+      "n": "SqueezeSegV2 (64x2048)",
+      "d": "2018-09-22",
+      "m1": "152.45%"
+    },
+    {
+      "p": "[SqueezeSeg: Convolutional Neural Nets with Recurrent CRF for Real-Time Road-Object Segmentation from 3D LiDAR Point Cloud](http://arxiv.org/abs/1710.07368v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/BichenWuUCB/SqueezeSeg)",
+      "n": "SqueezeSeg (64x2048)",
+      "d": "2017-10-19",
+      "m1": "164.87%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

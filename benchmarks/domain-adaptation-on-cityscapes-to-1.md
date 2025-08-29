@@ -1,0 +1,74 @@
+# domain-adaptation-on-cityscapes-to-1
+
+[Dataset Link]() \
+Task Hierarchy: ['Domain Adaptation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mIoU",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[CoDA: Instructive Chain-of-Domain Adaptation with Severity-Aware Visual Prompt Tuning](https://arxiv.org/abs/2403.17369v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Cuzyoung/CoDA)",
+      "n": "CoDA",
+      "d": "2024-03-26",
+      "m1": "61.0"
+    },
+    {
+      "p": "[Learning Generalized Segmentation for Foggy-scenes by Bi-directional Wavelet Guidance](https://pure.uva.nl/ws/files/153124325/2357.pdf)",
+      "c": "[&check;&nbsp;Link](https://github.com/BiQiWHU/BWG)",
+      "n": "BWG",
+      "d": "2024-02-28",
+      "m1": "54.2"
+    },
+    {
+      "p": "[FogAdapt: Self-Supervised Domain Adaptation for Semantic Segmentation of Foggy Images](https://arxiv.org/abs/2201.02588v3)",
+      "c": "",
+      "n": "FogAdapt+",
+      "d": "2022-01-07",
+      "m1": "53.4"
+    },
+    {
+      "p": "[FIFO: Learning Fog-invariant Features for Foggy Scene Segmentation](https://arxiv.org/abs/2204.01587v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/sohyun-l/fifo)",
+      "n": "FIFO",
+      "d": "2022-04-04",
+      "m1": "50.7"
+    },
+    {
+      "p": "[Curriculum Model Adaptation with Synthetic and Real Data for Semantic Foggy Scene Understanding](http://arxiv.org/abs/1901.01415v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/sohyun-l/fifo)",
+      "n": "CMAda3+",
+      "d": "2019-01-05",
+      "m1": "49.8"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

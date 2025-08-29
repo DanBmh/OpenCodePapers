@@ -1,0 +1,204 @@
+# image-classification-on-emnist-balanced
+
+[Dataset Link](https://www.nist.gov/itl/products-and-services/emnist-dataset) \
+Task Hierarchy: ['Image Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Trainable Parameters",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "NMI",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Efficient Global Neural Architecture Search](https://arxiv.org/abs/2502.03553)",
+      "c": "[&check;&nbsp;Link](https://github.com/siddikui/Efficient-Macro-Micro-NAS)",
+      "n": "EMNIST-mobile",
+      "d": "2025-02-08",
+      "m1": "91.48",
+      "m2": " 2250000"
+    },
+    {
+      "p": "[Efficient Global Neural Architecture Search](https://arxiv.org/abs/2502.03553)",
+      "c": "[&check;&nbsp;Link](https://github.com/siddikui/Efficient-Macro-Micro-NAS)",
+      "n": "EMNIST-Tiny",
+      "d": "2025-02-08",
+      "m1": "91.20",
+      "m2": "400000"
+    },
+    {
+      "p": "[WaveMix: A Resource-efficient Neural Network for Image Analysis](https://arxiv.org/abs/2205.14375v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/pranavphoenix/WaveMix)",
+      "n": "WaveMixLite-128/7",
+      "d": "2022-05-28",
+      "m1": "91.06"
+    },
+    {
+      "p": "[SpinalNet: Deep Neural Network with Gradual Input](https://arxiv.org/abs/2007.03347v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/dipuk0506/SpinalNet)",
+      "n": "VGG-5(Spinal FC)",
+      "d": "2020-07-07",
+      "m1": "91.05",
+      "m2": "3630000"
+    },
+    {
+      "p": "[SpinalNet: Deep Neural Network with Gradual Input](https://arxiv.org/abs/2007.03347v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/dipuk0506/SpinalNet)",
+      "n": "VGG-5",
+      "d": "2020-07-07",
+      "m1": "91.04",
+      "m2": "3646000"
+    },
+    {
+      "p": "[Dynamic Routing Between Capsules](http://arxiv.org/abs/1710.09829v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+      "n": "TextCaps",
+      "d": "2017-10-26",
+      "m1": "90.46"
+    },
+    {
+      "p": "[OnDev-LCT: On-Device Lightweight Convolutional Transformers towards federated learning](https://arxiv.org/abs/2401.11652v1)",
+      "c": "",
+      "n": "OnDev-LCT-8/1",
+      "d": "2024-01-22",
+      "m1": "89.55",
+      "m2": "913296"
+    },
+    {
+      "p": "[OnDev-LCT: On-Device Lightweight Convolutional Transformers towards federated learning](https://arxiv.org/abs/2401.11652v1)",
+      "c": "",
+      "n": "OnDev-LCT-1/1",
+      "d": "2024-01-22",
+      "m1": "89.52",
+      "m2": "216208"
+    },
+    {
+      "p": "[OnDev-LCT: On-Device Lightweight Convolutional Transformers towards federated learning](https://arxiv.org/abs/2401.11652v1)",
+      "c": "",
+      "n": "OnDev-LCT-4/1",
+      "d": "2024-01-22",
+      "m1": "89.39",
+      "m2": "514960"
+    },
+    {
+      "p": "[OnDev-LCT: On-Device Lightweight Convolutional Transformers towards federated learning](https://arxiv.org/abs/2401.11652v1)",
+      "c": "",
+      "n": "OnDev-LCT-2/1",
+      "d": "2024-01-22",
+      "m1": "89.18",
+      "m2": "315792"
+    },
+    {
+      "p": "[Efficient Neural Vision Systems Based on Convolutional Image Acquisition](http://openaccess.thecvf.com/content_CVPR_2020/html/Pad_Efficient_Neural_Vision_Systems_Based_on_Convolutional_Image_Acquisition_CVPR_2020_paper.html)",
+      "c": "",
+      "n": "OptConv+Log+Perc",
+      "d": "2020-06-01",
+      "m1": "87.69"
+    },
+    {
+      "p": "[Parametric Matrix Models](https://arxiv.org/abs/2401.11694v6)",
+      "c": "",
+      "n": "Convolutional PMM (Parametric Matrix Model)",
+      "d": "2024-01-22",
+      "m1": "85.95",
+      "m2": "349172"
+    },
+    {
+      "p": "[Hybrid Macro/Micro Level Backpropagation for Training Deep Spiking Neural Networks](http://arxiv.org/abs/1805.07866v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/jinyyy666/mm-bp-snn)",
+      "n": "HM2-BP",
+      "d": "2018-05-21",
+      "m1": "85.57",
+      "m2": "665647"
+    },
+    {
+      "p": "[SpinalNet: Deep Neural Network with Gradual Input](https://arxiv.org/abs/2007.03347v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/dipuk0506/SpinalNet)",
+      "n": "CNN(Spinal FC)",
+      "d": "2020-07-07",
+      "m1": "83.21",
+      "m2": "16050"
+    },
+    {
+      "p": "[SpinalNet: Deep Neural Network with Gradual Input](https://arxiv.org/abs/2007.03347v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/dipuk0506/SpinalNet)",
+      "n": "CNN(Spinal FC)",
+      "d": "2020-07-07",
+      "m1": "82.77",
+      "m2": "13820"
+    },
+    {
+      "p": "[Parametric Matrix Models](https://arxiv.org/abs/2401.11694v6)",
+      "c": "",
+      "n": "PMM (Parametric Matrix Model)",
+      "d": "2024-01-22",
+      "m1": "81.57",
+      "m2": "13792"
+    },
+    {
+      "p": "[SpinalNet: Deep Neural Network with Gradual Input](https://arxiv.org/abs/2007.03347v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/dipuk0506/SpinalNet)",
+      "n": "CNN",
+      "d": "2020-07-07",
+      "m1": "79.61",
+      "m2": "21840"
+    },
+    {
+      "p": "[EMNIST: an extension of MNIST to handwritten letters](http://arxiv.org/abs/1702.05373v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Chizuchizu/amplify-hackathon)",
+      "n": "OPIUM Classifier",
+      "d": "2017-02-17",
+      "m1": "78.94"
+    },
+    {
+      "p": "[Improving k-Means Clustering Performance with Disentangled Internal Representations](https://arxiv.org/abs/2006.04535v1)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/afagarap/pt-snnl)",
+      "n": "SNNL-5",
+      "d": "2020-06-05",
+      "m1": "78.5",
+      "m3": "77.6"
+    },
+    {
+      "p": "[EMNIST: an extension of MNIST to handwritten letters](http://arxiv.org/abs/1702.05373v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Chizuchizu/amplify-hackathon)",
+      "n": "Linear Classifier",
+      "d": "2017-02-17",
+      "m1": "50.93"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

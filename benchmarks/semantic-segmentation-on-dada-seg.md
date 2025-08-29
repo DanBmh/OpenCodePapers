@@ -1,0 +1,235 @@
+# semantic-segmentation-on-dada-seg
+
+[Dataset Link](https://github.com/jamycheung/ISSAFE) \
+Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mIoU",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Towards Robust Semantic Segmentation of Accident Scenes via Multi-Source Mixed Sampling and Meta-Learning](https://arxiv.org/abs/2203.10395v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/xinyu-laura/mmuda)",
+      "n": "MMUDA",
+      "d": "2022-03-19",
+      "m1": "46.97"
+    },
+    {
+      "p": "[Trans4Trans: Efficient Transformer for Transparent Object and Semantic Scene Segmentation in Real-World Navigation Assistance](https://arxiv.org/abs/2108.09174v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jamycheung/Trans4Trans)",
+      "n": "Trans4Trans",
+      "d": "2021-08-20",
+      "m1": "39.20"
+    },
+    {
+      "p": "[Exploring Event-driven Dynamic Context for Accident Scene Segmentation](https://arxiv.org/abs/2112.05006v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jamycheung/ISSAFE)",
+      "n": "EDCNet",
+      "d": "2021-12-09",
+      "m1": "32.04"
+    },
+    {
+      "p": "[Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective with Transformers](https://arxiv.org/abs/2012.15840v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleSeg)",
+      "n": "SETR (PUP, Transformer-Large)",
+      "d": "2020-12-31",
+      "m1": "31.8"
+    },
+    {
+      "p": "[Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective with Transformers](https://arxiv.org/abs/2012.15840v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleSeg)",
+      "n": "SETR (MLA, Transformer-Large)",
+      "d": "2020-12-31",
+      "m1": "30.4"
+    },
+    {
+      "p": "[ISSAFE: Improving Semantic Segmentation in Accidents by Fusing Event-based Data](https://arxiv.org/abs/2008.08974v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jamycheung/ISSAFE)",
+      "n": "ISSAFE",
+      "d": "2020-08-20",
+      "m1": "29.97"
+    },
+    {
+      "p": "[Bidirectional Learning for Domain Adaptation of Semantic Segmentation](http://arxiv.org/abs/1904.10620v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/liyunsheng13/BDL)",
+      "n": "BDL",
+      "d": "2019-04-24",
+      "m1": "29.66"
+    },
+    {
+      "p": "[Taking A Closer Look at Domain Shift: Category-level Adversaries for Semantics Consistent Domain Adaptation](http://arxiv.org/abs/1809.09478v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/RoyalVane/CLAN)",
+      "n": "CLAN",
+      "d": "2018-09-25",
+      "m1": "28.76"
+    },
+    {
+      "p": "[Deep High-Resolution Representation Learning for Visual Recognition](https://arxiv.org/abs/1908.07919v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection)",
+      "n": "HRNet (ACDC)",
+      "d": "2019-08-20",
+      "m1": "27.5"
+    },
+    {
+      "p": "[SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers](https://arxiv.org/abs/2105.15203v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "SegFormer (MiT-B3)",
+      "d": "2021-05-31",
+      "m1": "27.0"
+    },
+    {
+      "p": "[Differential Treatment for Stuff and Things: A Simple Unsupervised Domain Adaptation Method for Semantic Segmentation](https://arxiv.org/abs/2003.08040v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/SHI-Labs/Unsupervised-Domain-Adaptation-with-Differential-Treatment)",
+      "n": "SIM",
+      "d": "2020-03-18",
+      "m1": "26.85"
+    },
+    {
+      "p": "[Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation](http://arxiv.org/abs/1802.02611v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/research/deeplab)",
+      "n": "DeepLabV3+ (ACDC)",
+      "d": "2018-02-07",
+      "m1": "26.8"
+    },
+    {
+      "p": "[Fast-SCNN: Fast Semantic Segmentation Network](http://arxiv.org/abs/1902.04502v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmsegmentation)",
+      "n": "Fast-SCNN",
+      "d": "2019-02-12",
+      "m1": "26.32"
+    },
+    {
+      "p": "[Lawin Transformer: Improving Semantic Segmentation Transformer with Multi-Scale Representations via Large Window Attention](https://arxiv.org/abs/2201.01615v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/sithu31296/semantic-segmentation)",
+      "n": "Lawin Transformer",
+      "d": "2022-01-05",
+      "m1": "25.16"
+    },
+    {
+      "p": "[FDA: Fourier Domain Adaptation for Semantic Segmentation](https://arxiv.org/abs/2004.05498v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/albumentations-team/albumentations)",
+      "n": "FDA",
+      "d": "2020-04-11",
+      "m1": "24.45"
+    },
+    {
+      "p": "[Deep Residual Learning for Image Recognition](http://arxiv.org/abs/1512.03385v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/research/deeplab)",
+      "n": "ResNet-101",
+      "d": "2015-12-10",
+      "m1": "23.60"
+    },
+    {
+      "p": "[Dual Attention Network for Scene Segmentation](http://arxiv.org/abs/1809.02983v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/xmu-xiaoma666/External-Attention-pytorch)",
+      "n": "DANet",
+      "d": "2018-09-09",
+      "m1": "22.24"
+    },
+    {
+      "p": "[SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers](https://arxiv.org/abs/2105.15203v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "SegFormer (MiT-B2)",
+      "d": "2021-05-31",
+      "m1": "21.2"
+    },
+    {
+      "p": "[In Defense of Pre-trained ImageNet Architectures for Real-time Semantic Segmentation of Road-driving Images](http://arxiv.org/abs/1903.08469v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/XuJiacong/PIDNet)",
+      "n": "SwiftNet (ResNet-18)",
+      "d": "2019-03-20",
+      "m1": "20.5"
+    },
+    {
+      "p": "[Pyramid Scene Parsing Network](http://arxiv.org/abs/1612.01105v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+      "n": "PSPNet (ResNet-101)",
+      "d": "2016-12-04",
+      "m1": "20.1"
+    },
+    {
+      "p": "[ResNeSt: Split-Attention Networks](https://arxiv.org/abs/2004.08955v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "ResNeSt (ResNeSt-101)",
+      "d": "2020-04-19",
+      "m1": "19.99"
+    },
+    {
+      "p": "[Disentangled Non-Local Neural Networks](https://arxiv.org/abs/2006.06668v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmsegmentation)",
+      "n": "DNL (ResNet-101)",
+      "d": "2020-06-11",
+      "m1": "19.7"
+    },
+    {
+      "p": "[Panoptic Feature Pyramid Networks](http://arxiv.org/abs/1901.02446v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/detectron2)",
+      "n": "Semantic FPN (ResNet-101)",
+      "d": "2019-01-08",
+      "m1": "19.59"
+    },
+    {
+      "p": "[Deep Residual Learning for Image Recognition](http://arxiv.org/abs/1512.03385v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/research/deeplab)",
+      "n": "ResNet-50",
+      "d": "2015-12-10",
+      "m1": "18.96"
+    },
+    {
+      "p": "[Searching for MobileNetV3](https://arxiv.org/abs/1905.02244v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+      "n": "MobileNetV3 (MobileNetV3small)",
+      "d": "2019-05-06",
+      "m1": "18.2"
+    },
+    {
+      "p": "[SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers](https://arxiv.org/abs/2105.15203v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "SegFormer (MiT-B1)",
+      "d": "2021-05-31",
+      "m1": "16.6"
+    },
+    {
+      "p": "[MobileNetV2: Inverted Residuals and Linear Bottlenecks](http://arxiv.org/abs/1801.04381v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/research/deeplab)",
+      "n": "MobileNetV2",
+      "d": "2018-01-13",
+      "m1": "16.05"
+    },
+    {
+      "p": "[ERFNet: Efficient Residual Factorized ConvNet for Real-time Semantic Segmentation](https://ieeexplore.ieee.org/abstract/document/8063438)",
+      "c": "[&check;&nbsp;Link](https://github.com/osmr/imgclsmob)",
+      "n": "ERFNet",
+      "d": "2017-10-09",
+      "m1": "9.0"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

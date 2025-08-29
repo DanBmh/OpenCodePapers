@@ -1,0 +1,74 @@
+# multimodal-sleep-stage-detection-on-sleep-edf
+
+[Dataset Link](https://www.physionet.org/content/sleep-edfx/1.0.0/) \
+Task Hierarchy: ['Sleep Quality', 'Multimodal Sleep Stage Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Macro-F1",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Cohen's kappa",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Do Not Sleep on Traditional Machine Learning: Simple and Interpretable Techniques Are Competitive to Deep Learning for Sleep Scoring](https://arxiv.org/abs/2207.07753v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/predict-idlab/sleep-linear)",
+      "n": "CatBoost",
+      "d": "2022-07-15",
+      "m1": "86.4%",
+      "m2": "0.802",
+      "m3": "0.812"
+    },
+    {
+      "p": "[Do Not Sleep on Traditional Machine Learning: Simple and Interpretable Techniques Are Competitive to Deep Learning for Sleep Scoring](https://arxiv.org/abs/2207.07753v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/predict-idlab/sleep-linear)",
+      "n": "Linear model",
+      "d": "2022-07-15",
+      "m1": "85.7%",
+      "m2": "0.809",
+      "m3": "0.806"
+    },
+    {
+      "p": "[Towards More Accurate Automatic Sleep Staging via Deep Transfer Learning](https://arxiv.org/abs/1907.13177v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/pquochuy/sleep_transfer_learning)",
+      "n": "Scratch SeqSleepNet+ (EEG+EOG)",
+      "d": "2019-07-30",
+      "m1": "82.2%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

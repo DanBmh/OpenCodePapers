@@ -1,0 +1,103 @@
+# image-matting-on-distinctions-646
+
+[Dataset Link](https://github.com/yuhaoliu7456/CVPR2020-HAttMatting) \
+Task Hierarchy: ['Image Matting']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "SAD",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "MSE",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Grad",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Conn",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "Trimap",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Diffusion for Natural Image Matting](https://arxiv.org/abs/2312.05915v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/yihanhu-2022/diffmatte)",
+      "n": "DiffMatte",
+      "d": "2023-12-10",
+      "m1": "15.50",
+      "m2": "0.0015",
+      "m3": "7.20",
+      "m4": "13.29",
+      "m5": "\u221a"
+    },
+    {
+      "p": "[ViTMatte: Boosting Image Matting with Pretrained Plain Vision Transformers](https://arxiv.org/abs/2305.15272v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "ViTMatte",
+      "d": "2023-05-24",
+      "m1": "17.05",
+      "m2": "0.0015",
+      "m3": "7.03",
+      "m4": "12.95",
+      "m5": "\u221a"
+    },
+    {
+      "p": "[Dual-Context Aggregation for Universal Image Matting](https://arxiv.org/abs/2402.18109v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/windaway/dcam)",
+      "n": "DCAM",
+      "d": "2024-02-28",
+      "m1": "31.27",
+      "m2": "0.0049",
+      "m3": "25.50",
+      "m4": "31.72",
+      "m5": "\u00d7"
+    },
+    {
+      "p": "[PP-Matting: High-Accuracy Natural Image Matting](https://arxiv.org/abs/2204.09433v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleSeg)",
+      "n": "PP-Matting",
+      "d": "2022-04-20",
+      "m1": "40.69",
+      "m2": "0.009",
+      "m3": "43.91",
+      "m4": "40.56",
+      "m5": "\u00d7"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

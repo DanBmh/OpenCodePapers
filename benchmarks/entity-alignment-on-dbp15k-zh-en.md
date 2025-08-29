@@ -1,0 +1,305 @@
+# entity-alignment-on-dbp15k-zh-en
+
+[Dataset Link](https://github.com/nle-ml/mmkb) \
+Task Hierarchy: ['Entity Alignment']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Hits@1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[MEAformer: Multi-modal Entity Alignment Transformer for Meta Modality Hybrid](https://arxiv.org/abs/2212.14454v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/zjukg/MEAformer)",
+      "n": "MEAformer",
+      "d": "2022-12-29",
+      "m1": "0.973"
+    },
+    {
+      "p": "[MEAformer: Multi-modal Entity Alignment Transformer for Meta Modality Hybrid](https://arxiv.org/abs/2212.14454v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/zjukg/MEAformer)",
+      "n": "Unsup. MEAformer",
+      "d": "2022-12-29",
+      "m1": "0.962"
+    },
+    {
+      "p": "[MEAformer: Multi-modal Entity Alignment Transformer for Meta Modality Hybrid](https://arxiv.org/abs/2212.14454v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/zjukg/MEAformer)",
+      "n": "MEAformer (w/o iter )",
+      "d": "2022-12-29",
+      "m1": "0.948"
+    },
+    {
+      "p": "[MEAformer: Multi-modal Entity Alignment Transformer for Meta Modality Hybrid](https://arxiv.org/abs/2212.14454v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/zjukg/MEAformer)",
+      "n": "Unsup. MEAformer (w/o iter )",
+      "d": "2022-12-29",
+      "m1": "0.917"
+    },
+    {
+      "p": "[From Alignment to Assignment: Frustratingly Simple Unsupervised Entity Alignment](https://arxiv.org/abs/2109.02363v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/maoxinn/seu)",
+      "n": "SEU",
+      "d": "2021-09-06",
+      "m1": "0.900"
+    },
+    {
+      "p": "[Are Negative Samples Necessary in Entity Alignment? An Approach with High Performance, Scalability and Robustness](https://arxiv.org/abs/2108.05278v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/maoxinn/psr)",
+      "n": "PSR",
+      "d": "2021-08-11",
+      "m1": "0.883"
+    },
+    {
+      "p": "[Entity Alignment for Knowledge Graphs with Multi-order Convolutional Networks](https://ieeexplore.ieee.org/document/9262038)",
+      "c": "[&check;&nbsp;Link](https://github.com/vinhsuhi/EMGCN)",
+      "n": "EMGCN",
+      "d": "2020-11-17",
+      "m1": "0.863"
+    },
+    {
+      "p": "[Boosting the Speed of Entity Alignment 10*: Dual Attention Matching Network with Normalized Hard Sample Mining](https://arxiv.org/abs/2103.15452v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/MaoXinn/Dual-AMN)",
+      "n": "Dual-AMN",
+      "d": "2021-03-29",
+      "m1": "0.861"
+    },
+    {
+      "p": "[Rethinking Uncertainly Missing and Ambiguous Visual Modality in Multi-Modal Entity Alignment](https://arxiv.org/abs/2307.16210v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zjukg/umaea)",
+      "n": "UMAEA (w/o surf)",
+      "d": "2023-07-30",
+      "m1": "0.856"
+    },
+    {
+      "p": "[MEAformer: Multi-modal Entity Alignment Transformer for Meta Modality Hybrid](https://arxiv.org/abs/2212.14454v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/zjukg/MEAformer)",
+      "n": "MEAformer (w/o surf)",
+      "d": "2022-12-29",
+      "m1": "0.847"
+    },
+    {
+      "p": "[Relational Reflection Entity Alignment](https://arxiv.org/abs/2008.07962v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/MaoXinn/RREA)",
+      "n": "RREA(text)",
+      "d": "2020-08-18",
+      "m1": "0.822"
+    },
+    {
+      "p": "[Deep Graph Matching Consensus](https://arxiv.org/abs/2001.09621v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/snap-stanford/neural-subgraph-learning-gnn)",
+      "n": "Deep Graph Matching Consensus (L=10)",
+      "d": "2020-01-27",
+      "m1": "0.8012"
+    },
+    {
+      "p": "[Relational Reflection Entity Alignment](https://arxiv.org/abs/2008.07962v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/MaoXinn/RREA)",
+      "n": "RREA",
+      "d": "2020-08-18",
+      "m1": "0.801"
+    },
+    {
+      "p": "[Rethinking Uncertainly Missing and Ambiguous Visual Modality in Multi-Modal Entity Alignment](https://arxiv.org/abs/2307.16210v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zjukg/umaea)",
+      "n": "UMAEA (w/o surf & iter )",
+      "d": "2023-07-30",
+      "m1": "0.800"
+    },
+    {
+      "p": "[MEAformer: Multi-modal Entity Alignment Transformer for Meta Modality Hybrid](https://arxiv.org/abs/2212.14454v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/zjukg/MEAformer)",
+      "n": "MEAformer (w/o surf & iter )",
+      "d": "2022-12-29",
+      "m1": "0.771"
+    },
+    {
+      "p": "[Visual Pivoting for (Unsupervised) Entity Alignment](https://arxiv.org/abs/2009.13603v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/sayands/sgaligner)",
+      "n": "EVA",
+      "d": "2020-09-28",
+      "m1": "0.761"
+    },
+    {
+      "p": "[MRAEA: An Efficient and Robust Entity Alignment Approach for Cross-lingual Knowledge Graph](https://dl.acm.org/doi/abs/10.1145/3336191.3371804)",
+      "c": "[&check;&nbsp;Link](https://github.com/MaoXinn/MRAEA)",
+      "n": "MRAEA",
+      "d": "2020-02-03",
+      "m1": "0.757"
+    },
+    {
+      "p": "[Jointly Learning Entity and Relation Representations for Entity Alignment](https://arxiv.org/abs/1909.09317v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/StephanieWyt/HGCN-JE-JR)",
+      "n": "HGCN-JE",
+      "d": "2019-09-20",
+      "m1": "0.7203"
+    },
+    {
+      "p": "[Cross-lingual Entity Alignment with Incidental Supervision](https://arxiv.org/abs/2005.00171v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/CogComp/JEANS)",
+      "n": "JEANS",
+      "d": "2020-05-01",
+      "m1": "0.719"
+    },
+    {
+      "p": "[Deep Graph Matching Consensus](https://arxiv.org/abs/2001.09621v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/snap-stanford/neural-subgraph-learning-gnn)",
+      "n": "Deep Graph Matching Consensus",
+      "d": "2020-01-27",
+      "m1": "0.7075"
+    },
+    {
+      "p": "[Relation-Aware Entity Alignment for Heterogeneous Knowledge Graphs](https://arxiv.org/abs/1908.08210v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/StephanieWyt/RDGCN)",
+      "n": "RDGCN",
+      "d": "2019-08-22",
+      "m1": "0.7075"
+    },
+    {
+      "p": "[A Critical Assessment of State-of-the-Art in Entity Alignment](https://arxiv.org/abs/2010.16314v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mberr/ea-sota-comparison)",
+      "n": "RDGCN",
+      "d": "2020-10-30",
+      "m1": "0.6954"
+    },
+    {
+      "p": "[Deep Graph Matching Consensus](https://arxiv.org/abs/2001.09621v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/snap-stanford/neural-subgraph-learning-gnn)",
+      "n": "GMNN",
+      "d": "2020-01-27",
+      "m1": "0.6793"
+    },
+    {
+      "p": "[Deep Graph Matching Consensus](https://arxiv.org/abs/2001.09621v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/snap-stanford/neural-subgraph-learning-gnn)",
+      "n": "NAEA",
+      "d": "2020-01-27",
+      "m1": "0.6501"
+    },
+    {
+      "p": "[Jointly Learning Entity and Relation Representations for Entity Alignment](https://arxiv.org/abs/1909.09317v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/StephanieWyt/HGCN-JE-JR)",
+      "n": "BootEA",
+      "d": "2019-09-20",
+      "m1": "0.6294"
+    },
+    {
+      "p": "[Deep Graph Matching Consensus](https://arxiv.org/abs/2001.09621v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/snap-stanford/neural-subgraph-learning-gnn)",
+      "n": "BootEA",
+      "d": "2020-01-27",
+      "m1": "0.6294"
+    },
+    {
+      "p": "[A Critical Assessment of State-of-the-Art in Entity Alignment](https://arxiv.org/abs/2010.16314v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mberr/ea-sota-comparison)",
+      "n": "Zero Shot",
+      "d": "2020-10-30",
+      "m1": "0.594"
+    },
+    {
+      "p": "[Knowledge Association with Hyperbolic Knowledge Graph Embeddings](https://arxiv.org/abs/2010.02162v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nju-websoft/HyperKA)",
+      "n": "HyperKA",
+      "d": "2020-10-05",
+      "m1": "0.572"
+    },
+    {
+      "p": "[Knowledge Graph Alignment Network with Gated Multi-hop Neighborhood Aggregation](https://arxiv.org/abs/1911.08936v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nju-websoft/AliNet)",
+      "n": "AliNet",
+      "d": "2019-11-20",
+      "m1": "0.539"
+    },
+    {
+      "p": "[Deep Graph Matching Consensus](https://arxiv.org/abs/2001.09621v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/snap-stanford/neural-subgraph-learning-gnn)",
+      "n": "MuGNN",
+      "d": "2020-01-27",
+      "m1": "0.494"
+    },
+    {
+      "p": "[Multi-Channel Graph Neural Network for Entity Alignment](https://arxiv.org/abs/1908.09898v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/thunlp/MuGNN)",
+      "n": "MuGNN",
+      "d": "2019-08-26",
+      "m1": "0.494"
+    },
+    {
+      "p": "[Multi-Channel Graph Neural Network for Entity Alignment](https://arxiv.org/abs/1908.09898v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/thunlp/MuGNN)",
+      "n": "AlignEA",
+      "d": "2019-08-26",
+      "m1": "0.472"
+    },
+    {
+      "p": "[Knowledge Graph Entity Alignment with Graph Convolutional Networks: Lessons Learned](https://arxiv.org/abs/1911.08342v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Valentyn1997/kg-alignment-lessons-learned)",
+      "n": "GCN-Align",
+      "d": "2019-11-19",
+      "m1": "0.433"
+    },
+    {
+      "p": "[Jointly Learning Entity and Relation Representations for Entity Alignment](https://arxiv.org/abs/1909.09317v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/StephanieWyt/HGCN-JE-JR)",
+      "n": "JAPE",
+      "d": "2019-09-20",
+      "m1": "0.4125"
+    },
+    {
+      "p": "[Deep Graph Matching Consensus](https://arxiv.org/abs/2001.09621v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/snap-stanford/neural-subgraph-learning-gnn)",
+      "n": "GCN-Align",
+      "d": "2020-01-27",
+      "m1": "0.4125"
+    },
+    {
+      "p": "[Multi-Channel Graph Neural Network for Entity Alignment](https://arxiv.org/abs/1908.09898v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/thunlp/MuGNN)",
+      "n": "JAPE",
+      "d": "2019-08-26",
+      "m1": "0.412"
+    },
+    {
+      "p": "[Jointly Learning Entity and Relation Representations for Entity Alignment](https://arxiv.org/abs/1909.09317v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/StephanieWyt/HGCN-JE-JR)",
+      "n": "MTransE",
+      "d": "2019-09-20",
+      "m1": "0.3083"
+    },
+    {
+      "p": "[Multilingual Knowledge Graph Embeddings for Cross-lingual Knowledge Alignment](http://arxiv.org/abs/1611.03954v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/muhaochen/MTransE)",
+      "n": "MTransE",
+      "d": "2016-11-12",
+      "m1": "0.308"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

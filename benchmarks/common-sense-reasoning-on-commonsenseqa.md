@@ -1,0 +1,305 @@
+# common-sense-reasoning-on-commonsenseqa
+
+[Dataset Link](https://www.tau-nlp.org/commonsenseqa) \
+Task Hierarchy: ['Common Sense Reasoning']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Hierarchical Prompting Taxonomy: A Universal Evaluation Framework for Large Language Models Aligned with Human Cognitive Principles](https://arxiv.org/abs/2406.12644v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/devichand579/HPT)",
+      "n": "GPT-4o (HPT)",
+      "d": "2024-06-18",
+      "m1": "92.54"
+    },
+    {
+      "p": "[Human Parity on CommonsenseQA: Augmenting Self-Attention with External Attention](https://arxiv.org/abs/2112.03254v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/DEKCOR-CommonsenseQA)",
+      "n": "DeBERTaV3-large+KEAR",
+      "d": "2021-12-06",
+      "m1": "91.2"
+    },
+    {
+      "p": "[PaLM 2 Technical Report](https://arxiv.org/abs/2305.10403v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/eternityyw/tram-benchmark)",
+      "n": "PaLM 2 (few\u2011shot, CoT, SC)",
+      "d": "2023-05-17",
+      "m1": "90.4"
+    },
+    {
+      "p": "[Human Parity on CommonsenseQA: Augmenting Self-Attention with External Attention](https://arxiv.org/abs/2112.03254v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/DEKCOR-CommonsenseQA)",
+      "n": "KEAR",
+      "d": "2021-12-06",
+      "m1": "89.4"
+    },
+    {
+      "p": "[Fusing Context Into Knowledge Graph for Commonsense Question Answering](https://arxiv.org/abs/2012.04808v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/kear)",
+      "n": "DEKCOR",
+      "d": "2020-12-09",
+      "m1": "83.3"
+    },
+    {
+      "p": "[UNICORN on RAINBOW: A Universal Commonsense Reasoning Model on a New Multitask Benchmark](https://arxiv.org/abs/2103.13009v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/allenai/rainbow)",
+      "n": "Unicorn 11B (fine-tuned)",
+      "d": "2021-03-24",
+      "m1": "79.3"
+    },
+    {
+      "p": "[Muppet: Massive Multi-task Representations with Pre-Finetuning](https://arxiv.org/abs/2101.11038v1)",
+      "c": "[&check;&nbsp;Link](https://huggingface.co/facebook/muppet-roberta-base)",
+      "n": "MUPPET Roberta Large",
+      "d": "2021-01-26",
+      "m1": "79.2"
+    },
+    {
+      "p": "[UnifiedQA: Crossing Format Boundaries With a Single QA System](https://arxiv.org/abs/2005.00700v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/allenai/unifiedqa)",
+      "n": "UnifiedQA 11B (fine-tuned)",
+      "d": "2020-05-02",
+      "m1": "79.1"
+    },
+    {
+      "p": "[Deep Bidirectional Language-Knowledge Graph Pretraining](https://arxiv.org/abs/2210.09338v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/michiyasunaga/dragon)",
+      "n": "DRAGON",
+      "d": "2022-10-17",
+      "m1": "78.2"
+    },
+    {
+      "p": "[UnifiedQA: Crossing Format Boundaries With a Single QA System](https://arxiv.org/abs/2005.00700v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/allenai/unifiedqa)",
+      "n": "T5-XXL 11B (fine-tuned)",
+      "d": "2020-05-02",
+      "m1": "78.1"
+    },
+    {
+      "p": "[ALBERT: A Lite BERT for Self-supervised Learning of Language Representations](https://arxiv.org/abs/1909.11942v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "Albert Lan et al. (2020) (ensemble)",
+      "d": "2019-09-26",
+      "m1": "76.5"
+    },
+    {
+      "p": "[UnifiedQA: Crossing Format Boundaries With a Single QA System](https://arxiv.org/abs/2005.00700v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/allenai/unifiedqa)",
+      "n": "UnifiedQA 11B (zero-shot)",
+      "d": "2020-05-02",
+      "m1": "76.2"
+    },
+    {
+      "p": "[QA-GNN: Reasoning with Language Models and Knowledge Graphs for Question Answering](https://arxiv.org/abs/2104.06378v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/michiyasunaga/qagnn)",
+      "n": "QA-GNN",
+      "d": "2021-04-13",
+      "m1": "76.1"
+    },
+    {
+      "p": "[Graph-Based Reasoning over Heterogeneous External Knowledge for Commonsense Question Answering](https://arxiv.org/abs/1909.05311v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/DecstionBack/AAAI_2020_CommonsenseQA)",
+      "n": "XLNet+GraphReason",
+      "d": "2019-09-09",
+      "m1": "75.3"
+    },
+    {
+      "p": "[GrapeQA: GRaph Augmentation and Pruning to Enhance Question-Answering](https://arxiv.org/abs/2303.12320v2)",
+      "c": "",
+      "n": "GrapeQA: PEGA",
+      "d": "2023-03-22",
+      "m1": "73.5"
+    },
+    {
+      "p": "[Towards Generalizable Neuro-Symbolic Systems for Commonsense Question Answering](https://arxiv.org/abs/1910.14087v1)",
+      "c": "",
+      "n": "RoBERTa+HyKAS Ma et al. (2019)",
+      "d": "2019-10-30",
+      "m1": "73.2"
+    },
+    {
+      "p": "[Human Parity on CommonsenseQA: Augmenting Self-Attention with External Attention](https://arxiv.org/abs/2112.03254v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/DEKCOR-CommonsenseQA)",
+      "n": "GPT-3 Direct Finetuned",
+      "d": "2021-12-06",
+      "m1": "73.0"
+    },
+    {
+      "p": "[STaR: Bootstrapping Reasoning With Reasoning](https://arxiv.org/abs/2203.14465v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ezelikman/STaR)",
+      "n": "STaR (on GPT-J)",
+      "d": "2022-03-28",
+      "m1": "72.3"
+    },
+    {
+      "p": "[RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/abs/1907.11692v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "RoBERTa-Large 355M",
+      "d": "2019-07-26",
+      "m1": "72.1"
+    },
+    {
+      "p": "[STaR: Bootstrapping Reasoning With Reasoning](https://arxiv.org/abs/2203.14465v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ezelikman/STaR)",
+      "n": "STaR without Rationalization (on GPT-J)",
+      "d": "2022-03-28",
+      "m1": "68.8"
+    },
+    {
+      "p": "[BloombergGPT: A Large Language Model for Finance](https://arxiv.org/abs/2303.17564v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yangletliu/finlora)",
+      "n": "OPT 66B (1-shot)",
+      "d": "2023-03-30",
+      "m1": "66.4"
+    },
+    {
+      "p": "[BloombergGPT: A Large Language Model for Finance](https://arxiv.org/abs/2303.17564v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yangletliu/finlora)",
+      "n": "Bloomberg GPT 50B (1-shot)",
+      "d": "2023-03-30",
+      "m1": "65.5"
+    },
+    {
+      "p": "[Explain Yourself! Leveraging Language Models for Commonsense Reasoning](https://arxiv.org/abs/1906.02361v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/salesforce/cos-e)",
+      "n": "CAGE-reasoning",
+      "d": "2019-06-06",
+      "m1": "64.7"
+    },
+    {
+      "p": "[BloombergGPT: A Large Language Model for Finance](https://arxiv.org/abs/2303.17564v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yangletliu/finlora)",
+      "n": "BLOOM 176B (1-shot)",
+      "d": "2023-03-30",
+      "m1": "64.2"
+    },
+    {
+      "p": "[UnifiedQA: Crossing Format Boundaries With a Single QA System](https://arxiv.org/abs/2005.00700v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/allenai/unifiedqa)",
+      "n": "UnifiedQA 440M (fine-tuned)",
+      "d": "2020-05-02",
+      "m1": "64"
+    },
+    {
+      "p": "[UnifiedQA: Crossing Format Boundaries With a Single QA System](https://arxiv.org/abs/2005.00700v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/allenai/unifiedqa)",
+      "n": "BART-large 440M (fine-tuned)",
+      "d": "2020-05-02",
+      "m1": "62.5"
+    },
+    {
+      "p": "[Align, Mask and Select: A Simple Method for Incorporating Commonsense Knowledge into Language Representation Models](https://arxiv.org/abs/1908.06725v5)",
+      "c": "",
+      "n": "BERT_CSlarge",
+      "d": "2019-08-19",
+      "m1": "62.2"
+    },
+    {
+      "p": "[BloombergGPT: A Large Language Model for Finance](https://arxiv.org/abs/2303.17564v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yangletliu/finlora)",
+      "n": "GPT-NeoX 20B (1-shot)",
+      "d": "2023-03-30",
+      "m1": "60.4"
+    },
+    {
+      "p": "[STaR: Bootstrapping Reasoning With Reasoning](https://arxiv.org/abs/2203.14465v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ezelikman/STaR)",
+      "n": "GPT-J Direct Finetuned",
+      "d": "2022-03-28",
+      "m1": "60.0"
+    },
+    {
+      "p": "[KagNet: Knowledge-Aware Graph Networks for Commonsense Reasoning](https://arxiv.org/abs/1909.02151v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/INK-USC/KagNet)",
+      "n": "KagNet",
+      "d": "2019-09-04",
+      "m1": "58.9"
+    },
+    {
+      "p": "[CommonsenseQA: A Question Answering Challenge Targeting Commonsense Knowledge](http://arxiv.org/abs/1811.00937v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jonathanherzig/commonsenseqa)",
+      "n": "BERT-LARGE",
+      "d": "2018-11-02",
+      "m1": "55.9"
+    },
+    {
+      "p": "[UL2: Unifying Language Learning Paradigms](https://arxiv.org/abs/2205.05131v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research)",
+      "n": "UL2 20B (chain-of-thought + self-consistency)",
+      "d": "2022-05-10",
+      "m1": "55.7"
+    },
+    {
+      "p": "[STaR: Bootstrapping Reasoning With Reasoning](https://arxiv.org/abs/2203.14465v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ezelikman/STaR)",
+      "n": "Few-shot CoT LaMDA 137B",
+      "d": "2022-03-28",
+      "m1": " 55.6"
+    },
+    {
+      "p": "[UL2: Unifying Language Learning Paradigms](https://arxiv.org/abs/2205.05131v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research)",
+      "n": "UL2 20B (chain-of-thought)",
+      "d": "2022-05-10",
+      "m1": "51.4"
+    },
+    {
+      "p": "[STaR: Bootstrapping Reasoning With Reasoning](https://arxiv.org/abs/2203.14465v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ezelikman/STaR)",
+      "n": "Few-shot CoT GPT-J",
+      "d": "2022-03-28",
+      "m1": "36.6"
+    },
+    {
+      "p": "[UL2: Unifying Language Learning Paradigms](https://arxiv.org/abs/2205.05131v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research)",
+      "n": "UL2 20B (zero-shot)",
+      "d": "2022-05-10",
+      "m1": "34.2"
+    },
+    {
+      "p": "[Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/guidance)",
+      "n": "Chain of thought ASDiv",
+      "d": "2022-01-28",
+      "m1": "28.6"
+    },
+    {
+      "p": "[STaR: Bootstrapping Reasoning With Reasoning](https://arxiv.org/abs/2203.14465v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ezelikman/STaR)",
+      "n": "Few-shot Direct GPT-J",
+      "d": "2022-03-28",
+      "m1": "20.9"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,101 @@
+# respiratory-failure-on-hirid
+
+[Dataset Link](https://physionet.org/content/hirid/1.1.1/) \
+Task Hierarchy: ['Respiratory Failure']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AUPRC",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Recall@50",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Temporal Label Smoothing for Early Event Prediction](https://arxiv.org/abs/2208.13764v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ratschlab/tls)",
+      "n": "Temporal Label Smoothing",
+      "d": "2022-08-29",
+      "m1": "0.604\u00b10.002",
+      "m2": "77.0"
+    },
+    {
+      "p": "[HiRID-ICU-Benchmark -- A Comprehensive Machine Learning Benchmark on High-resolution ICU Data](https://arxiv.org/abs/2111.08536v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/ratschlab/HIRID-ICU-Benchmark)",
+      "n": "LGBM ( + hand crafted features)",
+      "d": "2021-11-16",
+      "m1": "0.604\u00b10.002"
+    },
+    {
+      "p": "[HiRID-ICU-Benchmark -- A Comprehensive Machine Learning Benchmark on High-resolution ICU Data](https://arxiv.org/abs/2111.08536v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/ratschlab/HIRID-ICU-Benchmark)",
+      "n": "Transformer",
+      "d": "2021-11-16",
+      "m1": "0.594\u00b10.003"
+    },
+    {
+      "p": "[HiRID-ICU-Benchmark -- A Comprehensive Machine Learning Benchmark on High-resolution ICU Data](https://arxiv.org/abs/2111.08536v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/ratschlab/HIRID-ICU-Benchmark)",
+      "n": "GRU",
+      "d": "2021-11-16",
+      "m1": "0.592\u00b10.003"
+    },
+    {
+      "p": "[HiRID-ICU-Benchmark -- A Comprehensive Machine Learning Benchmark on High-resolution ICU Data](https://arxiv.org/abs/2111.08536v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/ratschlab/HIRID-ICU-Benchmark)",
+      "n": "TCN",
+      "d": "2021-11-16",
+      "m1": "0.589\u00b10.003"
+    },
+    {
+      "p": "[HiRID-ICU-Benchmark -- A Comprehensive Machine Learning Benchmark on High-resolution ICU Data](https://arxiv.org/abs/2111.08536v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/ratschlab/HIRID-ICU-Benchmark)",
+      "n": "LGBM",
+      "d": "2021-11-16",
+      "m1": "0.585\u00b10.001"
+    },
+    {
+      "p": "[HiRID-ICU-Benchmark -- A Comprehensive Machine Learning Benchmark on High-resolution ICU Data](https://arxiv.org/abs/2111.08536v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/ratschlab/HIRID-ICU-Benchmark)",
+      "n": "LSTM",
+      "d": "2021-11-16",
+      "m1": "0.569\u00b10.003"
+    },
+    {
+      "p": "[HiRID-ICU-Benchmark -- A Comprehensive Machine Learning Benchmark on High-resolution ICU Data](https://arxiv.org/abs/2111.08536v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/ratschlab/HIRID-ICU-Benchmark)",
+      "n": "Logistic Regression",
+      "d": "2021-11-16",
+      "m1": "0.530\u00b10.000"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

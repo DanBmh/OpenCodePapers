@@ -1,0 +1,109 @@
+# joint-entity-and-relation-extraction-on-8
+
+[Dataset Link](https://webnlg-challenge.loria.fr/) \
+Task Hierarchy: ['Information Extraction', 'Joint Entity and Relation Extraction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[ReGen: Reinforcement Learning for Text and Knowledge Base Generation using Pretrained Language Models](https://arxiv.org/abs/2108.12472v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/IBM/regen)",
+      "n": "ReGen (Ours) T2G.CE",
+      "d": "2021-08-27",
+      "m1": "72.3"
+    },
+    {
+      "p": "[Knowledge Graph Generation From Text](https://arxiv.org/abs/2211.10511v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ibm/grapher)",
+      "n": "ReGen",
+      "d": "2022-11-18",
+      "m1": "72.3"
+    },
+    {
+      "p": "[Knowledge Graph Generation From Text](https://arxiv.org/abs/2211.10511v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ibm/grapher)",
+      "n": "Grapher (Text Nodes and Class Edges)",
+      "d": "2022-11-18",
+      "m1": "72.2"
+    },
+    {
+      "p": "[ReGen: Reinforcement Learning for Text and Knowledge Base Generation using Pretrained Language Models](https://arxiv.org/abs/2108.12472v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/IBM/regen)",
+      "n": "ReGen (Ours) T2G.RL",
+      "d": "2021-08-27",
+      "m1": "72"
+    },
+    {
+      "p": "[ReGen: Reinforcement Learning for Text and Knowledge Base Generation using Pretrained Language Models](https://arxiv.org/abs/2108.12472v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/IBM/regen)",
+      "n": "Amazon AI (Shanghai) (guo-etal-2020-2)",
+      "d": "2021-08-27",
+      "m1": "68.9"
+    },
+    {
+      "p": "[Knowledge Graph Generation From Text](https://arxiv.org/abs/2211.10511v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ibm/grapher)",
+      "n": "Amazon AI",
+      "d": "2022-11-18",
+      "m1": "68.9"
+    },
+    {
+      "p": "[ReGen: Reinforcement Learning for Text and Knowledge Base Generation using Pretrained Language Models](https://arxiv.org/abs/2108.12472v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/IBM/regen)",
+      "n": "bt5 (agarwal-etal-2020-machine)",
+      "d": "2021-08-27",
+      "m1": "68.2"
+    },
+    {
+      "p": "[Knowledge Graph Generation From Text](https://arxiv.org/abs/2211.10511v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ibm/grapher)",
+      "n": "BTS",
+      "d": "2022-11-18",
+      "m1": "68.2"
+    },
+    {
+      "p": "[Knowledge Graph Generation From Text](https://arxiv.org/abs/2211.10511v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ibm/grapher)",
+      "n": "CycleGT",
+      "d": "2022-11-18",
+      "m1": "34.2"
+    },
+    {
+      "p": "[Knowledge Graph Generation From Text](https://arxiv.org/abs/2211.10511v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ibm/grapher)",
+      "n": "Stanford OIE",
+      "d": "2022-11-18",
+      "m1": "15.8"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

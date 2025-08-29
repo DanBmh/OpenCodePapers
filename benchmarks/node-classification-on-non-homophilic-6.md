@@ -1,0 +1,235 @@
+# node-classification-on-non-homophilic-6
+
+[Dataset Link]() \
+Task Hierarchy: ['Node Classification', 'Node Classification on Non-Homophilic (Heterophilic) Graphs']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "1:1 Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Revisiting Heterophily For Graph Neural Networks](https://arxiv.org/abs/2210.07606v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SitaoLuan/ACM-GNN)",
+      "n": "ACMII-GCN+++",
+      "d": "2022-10-14",
+      "m1": "67.5\u00b10.53"
+    },
+    {
+      "p": "[Revisiting Heterophily For Graph Neural Networks](https://arxiv.org/abs/2210.07606v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SitaoLuan/ACM-GNN)",
+      "n": "ACMII-GCN+",
+      "d": "2022-10-14",
+      "m1": "67.44\u00b10.31"
+    },
+    {
+      "p": "[Revisiting Heterophily For Graph Neural Networks](https://arxiv.org/abs/2210.07606v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SitaoLuan/ACM-GNN)",
+      "n": "ACM-GCN+",
+      "d": "2022-10-14",
+      "m1": "67.4\u00b10.44"
+    },
+    {
+      "p": "[Revisiting Heterophily For Graph Neural Networks](https://arxiv.org/abs/2210.07606v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SitaoLuan/ACM-GNN)",
+      "n": "ACM-GCN++",
+      "d": "2022-10-14",
+      "m1": "67.3\u00b10.48"
+    },
+    {
+      "p": "[Beyond Homophily in Graph Neural Networks: Current Limitations and Effective Designs](https://arxiv.org/abs/2006.11468v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/GemsLab/H2GCN)",
+      "n": "H2GCN",
+      "d": "2020-06-20",
+      "m1": "67.22\u00b10.90"
+    },
+    {
+      "p": "[Predict then Propagate: Graph Neural Networks meet Personalized PageRank](https://arxiv.org/abs/1810.05997v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/appnp)",
+      "n": "APPNP",
+      "d": "2018-10-14",
+      "m1": "67.21\u00b10.56"
+    },
+    {
+      "p": "[Revisiting Heterophily For Graph Neural Networks](https://arxiv.org/abs/2210.07606v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SitaoLuan/ACM-GNN)",
+      "n": "ACMII-GCN",
+      "d": "2022-10-14",
+      "m1": "67.15\u00b10.41"
+    },
+    {
+      "p": "[Revisiting Heterophily For Graph Neural Networks](https://arxiv.org/abs/2210.07606v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SitaoLuan/ACM-GNN)",
+      "n": "ACM-GCN",
+      "d": "2022-10-14",
+      "m1": "67.01\u00b10.38"
+    },
+    {
+      "p": "[Adaptive Universal Generalized PageRank Graph Neural Network](https://arxiv.org/abs/2006.07988v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/jianhao2016/GPRGNN)",
+      "n": "GPRGNN",
+      "d": "2020-06-14",
+      "m1": "66.90\u00b10.50"
+    },
+    {
+      "p": "[Beyond Low-frequency Information in Graph Convolutional Networks](https://arxiv.org/abs/2101.00797v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/bdy9527/FAGCN)",
+      "n": "FAGCN",
+      "d": "2021-01-04",
+      "m1": "66.86\u00b10.53"
+    },
+    {
+      "p": "[MixHop: Higher-Order Graph Convolutional Architectures via Sparsified Neighborhood Mixing](https://arxiv.org/abs/1905.00067v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/mixhop)",
+      "n": "MixHop",
+      "d": "2019-04-30",
+      "m1": "66.80\u00b10.58"
+    },
+    {
+      "p": "[Revisiting Heterophily For Graph Neural Networks](https://arxiv.org/abs/2210.07606v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SitaoLuan/ACM-GNN)",
+      "n": "ACM-SGC-1",
+      "d": "2022-10-14",
+      "m1": "66.67\u00b10.56"
+    },
+    {
+      "p": "[Revisiting Heterophily For Graph Neural Networks](https://arxiv.org/abs/2210.07606v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SitaoLuan/ACM-GNN)",
+      "n": "ACM-GCNII*",
+      "d": "2022-10-14",
+      "m1": "66.6\u00b10.57"
+    },
+    {
+      "p": "[New Benchmarks for Learning on Non-Homophilous Graphs](https://arxiv.org/abs/2104.01404v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/CUAI/Non-Homophily-Benchmarks)",
+      "n": "MLP-2",
+      "d": "2021-04-03",
+      "m1": "66.55\u00b10.72"
+    },
+    {
+      "p": "[Revisiting Heterophily For Graph Neural Networks](https://arxiv.org/abs/2210.07606v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SitaoLuan/ACM-GNN)",
+      "n": "ACM-SGC-2",
+      "d": "2022-10-14",
+      "m1": "66.53\u00b10.57"
+    },
+    {
+      "p": "[Simple and Deep Graph Convolutional Networks](https://arxiv.org/abs/2007.02133v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/chennnM/GCNII/tree/master/PyG/ogbn-arxiv)",
+      "n": "GCNII*",
+      "d": "2020-07-04",
+      "m1": "66.42\u00b10.56"
+    },
+    {
+      "p": "[Revisiting Heterophily For Graph Neural Networks](https://arxiv.org/abs/2210.07606v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SitaoLuan/ACM-GNN)",
+      "n": "ACM-GCNII",
+      "d": "2022-10-14",
+      "m1": "66.39\u00b10.56"
+    },
+    {
+      "p": "[Simple and Deep Graph Convolutional Networks](https://arxiv.org/abs/2007.02133v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/chennnM/GCNII/tree/master/PyG/ogbn-arxiv)",
+      "n": "GCNII",
+      "d": "2020-07-04",
+      "m1": "66.38\u00b10.45"
+    },
+    {
+      "p": "[Combining Label Propagation and Simple Models Out-performs Graph Neural Networks](https://arxiv.org/abs/2010.13993v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/correct_and_smooth)",
+      "n": "C&S(1hop)",
+      "d": "2020-10-27",
+      "m1": "64.60\u00b10.57"
+    },
+    {
+      "p": "[Combining Label Propagation and Simple Models Out-performs Graph Neural Networks](https://arxiv.org/abs/2010.13993v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/correct_and_smooth)",
+      "n": "C&S(2hop)",
+      "d": "2020-10-27",
+      "m1": "64.52\u00b10.62"
+    },
+    {
+      "p": "[Semi-Supervised Classification with Graph Convolutional Networks](http://arxiv.org/abs/1609.02907v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/mxnet/gcn)",
+      "n": "GCN",
+      "d": "2016-09-09",
+      "m1": "62.23\u00b10.53"
+    },
+    {
+      "p": "[Graph Attention Networks](http://arxiv.org/abs/1710.10903v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+      "n": "GAT",
+      "d": "2017-10-30",
+      "m1": "61.09\u00b10.77"
+    },
+    {
+      "p": "[New Benchmarks for Learning on Non-Homophilous Graphs](https://arxiv.org/abs/2104.01404v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/CUAI/Non-Homophily-Benchmarks)",
+      "n": "GCN+JK",
+      "d": "2021-04-03",
+      "m1": "60.99\u00b10.14"
+    },
+    {
+      "p": "[Simplifying Graph Convolutional Networks](https://arxiv.org/abs/1902.07153v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/sgc)",
+      "n": "SGC-1",
+      "d": "2019-02-19",
+      "m1": "59.73\u00b10.12"
+    },
+    {
+      "p": "[New Benchmarks for Learning on Non-Homophilous Graphs](https://arxiv.org/abs/2104.01404v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/CUAI/Non-Homophily-Benchmarks)",
+      "n": "GAT+JK",
+      "d": "2021-04-03",
+      "m1": "59.66\u00b10.92"
+    },
+    {
+      "p": "[New Benchmarks for Learning on Non-Homophilous Graphs](https://arxiv.org/abs/2104.01404v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/CUAI/Non-Homophily-Benchmarks)",
+      "n": "LINK",
+      "d": "2021-04-03",
+      "m1": "57.71\u00b10.36"
+    },
+    {
+      "p": "[New Benchmarks for Learning on Non-Homophilous Graphs](https://arxiv.org/abs/2104.01404v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/CUAI/Non-Homophily-Benchmarks)",
+      "n": "LProp (2hop)",
+      "d": "2021-04-03",
+      "m1": "56.96\u00b10.26"
+    },
+    {
+      "p": "[New Benchmarks for Learning on Non-Homophilous Graphs](https://arxiv.org/abs/2104.01404v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/CUAI/Non-Homophily-Benchmarks)",
+      "n": "L Prop (1hop)",
+      "d": "2021-04-03",
+      "m1": "56.50\u00b10.41"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

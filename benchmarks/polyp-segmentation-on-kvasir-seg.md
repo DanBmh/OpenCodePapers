@@ -1,0 +1,106 @@
+# polyp-segmentation-on-kvasir-seg
+
+[Dataset Link](https://datasets.simula.no/kvasir/) \
+Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', 'Polyp Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mDice",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "mIoU",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Medical Image Segmentation via Cascaded Attention Decoding](https://openaccess.thecvf.com/content/WACV2023/html/Rahman_Medical_Image_Segmentation_via_Cascaded_Attention_Decoding_WACV_2023_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/SLDGroup/CASCADE)",
+      "n": "PVT-CASCADE",
+      "d": "2023-01-03",
+      "m1": "0.9258",
+      "m2": "0.8776"
+    },
+    {
+      "p": "[KDAS: Knowledge Distillation via Attention Supervision Framework for Polyp Segmentation](https://arxiv.org/abs/2312.08555v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huyquoctrinh/kdas)",
+      "n": "KDAS",
+      "d": "2023-12-13",
+      "m1": "0.913",
+      "m2": "0.848"
+    },
+    {
+      "p": "[TGANet: Text-guided attention for improved polyp segmentation](https://arxiv.org/abs/2205.04280v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nikhilroxtomar/tganet)",
+      "n": "TGA-Net",
+      "d": "2022-05-09",
+      "m1": "0.8982",
+      "m2": "0.8330"
+    },
+    {
+      "p": "[Multi Kernel Positional Embedding ConvNeXt for Polyp Segmentation](https://arxiv.org/abs/2301.06673v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huyquoctrinh/PEFNet)",
+      "n": "PEFNet",
+      "d": "2023-01-17",
+      "m1": "0.8818",
+      "m2": "0.8163"
+    },
+    {
+      "p": "[TransNetR: Transformer-based Residual Network for Polyp Segmentation with Multi-Center Out-of-Distribution Testing](https://arxiv.org/abs/2303.07428v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/debeshjha/transnetr)",
+      "n": "TransNetR",
+      "d": "2023-03-13",
+      "m1": "0.8706",
+      "m2": "0.8016"
+    },
+    {
+      "p": "[ResUNet++: An Advanced Architecture for Medical Image Segmentation](https://arxiv.org/abs/1911.07067v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/rishikksh20/ResUnet)",
+      "n": "ResUNet++",
+      "d": "2019-11-16",
+      "m1": "0.8133",
+      "m2": "0.7927"
+    },
+    {
+      "p": "[Kvasir-SEG: A Segmented Polyp Dataset](https://arxiv.org/abs/1911.07069v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tfboys-lzz/fobs)",
+      "n": "ResUNet",
+      "d": "2019-11-16",
+      "m1": "0.7877"
+    },
+    {
+      "p": "[PatchRefineNet: Improving Binary Segmentation by Incorporating Signals from Optimal Patch-wise Binarization](https://arxiv.org/abs/2211.06560v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/savinay95n/PatchRefineNet)",
+      "n": "SSFormer-S + PRN",
+      "d": "2022-11-12",
+      "m2": "0.891"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

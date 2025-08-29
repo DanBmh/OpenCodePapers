@@ -1,0 +1,161 @@
+# dense-pixel-correspondence-estimation-on
+
+[Dataset Link](https://github.com/hpatches/hpatches-dataset) \
+Task Hierarchy: ['Dense Pixel Correspondence Estimation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Viewpoint I AEPE",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Viewpoint II AEPE",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Viewpoint III AEPE",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Viewpoint IV AEPE",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "Viewpoint V AEPE",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "PCK-5px",
+      "sortable": "true"
+    },
+    {
+      "key": "m7",
+      "label": "PCK-1px",
+      "sortable": "true"
+    },
+    {
+      "key": "m8",
+      "label": "PCK-3px",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Deep Matching Prior: Test-Time Optimization for Dense Correspondence](https://arxiv.org/abs/2106.03090v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/SunghwanHong/Deep-Matching-Prior)",
+      "n": "RANSAC-DMP+",
+      "d": "2021-06-06",
+      "m1": "0.48",
+      "m2": "2.24",
+      "m3": "2.41",
+      "m4": "4.32",
+      "m5": "5.16",
+      "m6": "97.52"
+    },
+    {
+      "p": "[DGC-Net: Dense Geometric Correspondence Network](http://arxiv.org/abs/1810.08393v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/AaltoVision/DGC-Net)",
+      "n": "DGC-Net aff+tps+homo",
+      "d": "2018-10-19",
+      "m1": "1.55",
+      "m2": "5.53",
+      "m3": "8.98",
+      "m4": "11.66",
+      "m5": "16.70"
+    },
+    {
+      "p": "[PWC-Net: CNNs for Optical Flow Using Pyramid, Warping, and Cost Volume](http://arxiv.org/abs/1709.02371v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/NVlabs/PWC-Net)",
+      "n": "PWC-Net",
+      "d": "2017-09-07",
+      "m1": "4.43",
+      "m2": "11.44",
+      "m3": "15.47",
+      "m4": "20.17",
+      "m5": "28.30"
+    },
+    {
+      "p": "[DeepMatching: Hierarchical Deformable Dense Matching](http://arxiv.org/abs/1506.07656v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/vwegn/dm)",
+      "n": "DeepMatching*",
+      "d": "2015-06-25",
+      "m1": "5.84",
+      "m2": "4.63",
+      "m3": "12.43",
+      "m4": "12.17",
+      "m5": "22.55"
+    },
+    {
+      "p": "[FlowNet 2.0: Evolution of Optical Flow Estimation with Deep Networks](http://arxiv.org/abs/1612.01925v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/NVIDIA/flownet2-pytorch)",
+      "n": "FlowNet2",
+      "d": "2016-12-06",
+      "m1": "5.99",
+      "m2": "15.55",
+      "m3": "17.09",
+      "m4": "22.13",
+      "m5": "30.68"
+    },
+    {
+      "p": "[COTR: Correspondence Transformer for Matching Across Images](https://arxiv.org/abs/2103.14167v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ubc-vision/COTR)",
+      "n": "COTR",
+      "d": "2021-03-25",
+      "m1": "7.75",
+      "m6": "91.1",
+      "m7": "40.91",
+      "m8": "82.37"
+    },
+    {
+      "p": "[COTR: Correspondence Transformer for Matching Across Images](https://arxiv.org/abs/2103.14167v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ubc-vision/COTR)",
+      "n": "COTR +Interp.",
+      "d": "2021-03-25",
+      "m1": "7.98",
+      "m6": "86.33",
+      "m7": "33.08",
+      "m8": "77.09"
+    },
+    {
+      "p": "[Optical Flow Estimation using a Spatial Pyramid Network](http://arxiv.org/abs/1611.00850v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/philferriere/tfoptflow)",
+      "n": "SPyNet",
+      "d": "2016-11-03",
+      "m1": "36.94",
+      "m2": "50.92",
+      "m3": "54.29",
+      "m4": "62.60",
+      "m5": "72.57"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

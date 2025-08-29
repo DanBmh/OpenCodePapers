@@ -1,0 +1,172 @@
+# few-shot-image-classification-on-omniglot-5-1
+
+[Dataset Link]() \
+Task Hierarchy: ['Few-Shot Image Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Meta-Curvature](https://arxiv.org/abs/1902.03356v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/silverbottlep/meta_curvature)",
+      "n": "MC2+",
+      "d": "2019-02-09",
+      "m1": "99.65%"
+    },
+    {
+      "p": "[Decoder Choice Network for Meta-Learning](https://arxiv.org/abs/1909.11446v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/AceChuse/DCN)",
+      "n": "DCN6-E",
+      "d": "2019-09-25",
+      "m1": "99.63"
+    },
+    {
+      "p": "[Decoder Choice Network for Meta-Learning](https://arxiv.org/abs/1909.11446v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/AceChuse/DCN)",
+      "n": "DCN4",
+      "d": "2019-09-25",
+      "m1": "99.5%"
+    },
+    {
+      "p": "[TapNet: Neural Network Augmented with Task-Adaptive Projection for Few-Shot Learning](https://arxiv.org/abs/1905.06549v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/istarjun/TapNet)",
+      "n": "TapNet",
+      "d": "2019-05-16",
+      "m1": "99.49%"
+    },
+    {
+      "p": "[How to train your MAML](http://arxiv.org/abs/1810.09502v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/AntreasAntoniou/HowToTrainYourMAMLPytorch)",
+      "n": "MAML++",
+      "d": "2018-10-22",
+      "m1": "99.33%"
+    },
+    {
+      "p": "[Few-Shot Learning with Global Class Representations](https://arxiv.org/abs/1908.05257v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tiangeluo/fsl-global)",
+      "n": "GCR",
+      "d": "2019-08-14",
+      "m1": "99.32"
+    },
+    {
+      "p": "[HyperTransformer: Model Generation for Supervised and Semi-Supervised Few-Shot Learning](https://arxiv.org/abs/2201.04182v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research/tree/master/hypertransformer)",
+      "n": "MAML++",
+      "d": "2022-01-11",
+      "m1": "99.3%"
+    },
+    {
+      "p": "[Meta-Learning with Implicit Gradients](https://arxiv.org/abs/1909.04630v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/prolearner/hypertorch)",
+      "n": "iMAML, Hessian-Free",
+      "d": "2019-09-10",
+      "m1": "99.14%"
+    },
+    {
+      "p": "[Learning to Compare: Relation Network for Few-Shot Learning](http://arxiv.org/abs/1711.06025v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/sicara/easy-few-shot-learning)",
+      "n": "Relation Net",
+      "d": "2017-11-16",
+      "m1": "99.1%"
+    },
+    {
+      "p": "[Prototypical Networks for Few-shot Learning](http://arxiv.org/abs/1703.05175v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/learnables/learn2learn)",
+      "n": "Prototypical Networks",
+      "d": "2017-03-15",
+      "m1": "98.9%"
+    },
+    {
+      "p": "[Learning to Remember Rare Events](http://arxiv.org/abs/1703.03129v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+      "n": "ConvNet with Memory Module",
+      "d": "2017-03-09",
+      "m1": "98.6%"
+    },
+    {
+      "p": "[Uncertainty in Model-Agnostic Meta-Learning using Variational Inference](https://arxiv.org/abs/1907.11864v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/cnguyen10/few_shot_meta_learning)",
+      "n": "VAMPIRE",
+      "d": "2019-07-27",
+      "m1": "98.52%"
+    },
+    {
+      "p": "[Matching Networks for One Shot Learning](http://arxiv.org/abs/1606.04080v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/oscarknagg/few-shot)",
+      "n": "Matching Nets",
+      "d": "2016-06-13",
+      "m1": "98.5%"
+    },
+    {
+      "p": "[Rapid Adaptation with Conditionally Shifted Neurons](http://arxiv.org/abs/1712.09926v3)",
+      "c": "",
+      "n": "adaCNN (DF)",
+      "d": "2017-12-28",
+      "m1": "98.43%"
+    },
+    {
+      "p": "[Hyperbolic Image Embeddings](https://arxiv.org/abs/1904.02239v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/KhrulkovV/hyperbolic-image-embeddings)",
+      "n": "Hyperbolic ProtoNet",
+      "d": "2019-04-03",
+      "m1": "98.15%"
+    },
+    {
+      "p": "[Towards a Neural Statistician](http://arxiv.org/abs/1606.02185v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/conormdurkan/neural-statistician)",
+      "n": "Neural Statistician",
+      "d": "2016-06-07",
+      "m1": "98.1%"
+    },
+    {
+      "p": "[Adaptive Posterior Learning: few-shot learning with a surprise-based memory module](http://arxiv.org/abs/1902.02527v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cogentlabs/apl)",
+      "n": "APL",
+      "d": "2019-02-07",
+      "m1": "97.6%"
+    },
+    {
+      "p": "[On First-Order Meta-Learning Algorithms](http://arxiv.org/abs/1803.02999v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/learnables/learn2learn)",
+      "n": "Reptile + Transduction",
+      "d": "2018-03-08",
+      "m1": "97.12%"
+    },
+    {
+      "p": "[Meta-Learning without Memorization](https://arxiv.org/abs/1912.03820v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research/tree/master/meta_learning_without_memorization)",
+      "n": "MR-MAML",
+      "d": "2019-12-09",
+      "m1": "94.1%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,88 @@
+# zero-shot-object-detection-on-pascal-voc-07
+
+[Dataset Link]() \
+Task Hierarchy: ['16k', 'Object Detection', 'Zero-Shot Object Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mAP",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[SeeDS: Semantic Separable Diffusion Synthesizer for Zero-shot Food Detection](https://arxiv.org/abs/2310.04689v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/lancezpf/seeds)",
+      "n": "SeeDS",
+      "d": "2023-10-07",
+      "m1": "68.9"
+    },
+    {
+      "p": "[Robust Region Feature Synthesizer for Zero-Shot Object Detection](https://arxiv.org/abs/2201.00103v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/HPL123/RRFS)",
+      "n": "RRFS-ZSD",
+      "d": "2022-01-01",
+      "m1": "65.50"
+    },
+    {
+      "p": "[Synthesizing the Unseen for Zero-shot Object Detection](https://arxiv.org/abs/2010.09425v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nasir6/zero_shot_detection)",
+      "n": "SUZOD",
+      "d": "2020-10-19",
+      "m1": "64.9"
+    },
+    {
+      "p": "[Resolving Semantic Confusions for Improved Zero-Shot Detection](https://arxiv.org/abs/2212.06097v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/sandipan211/ZSD-SC-Resolver)",
+      "n": "ZSD-SCR",
+      "d": "2022-12-12",
+      "m1": "62.70"
+    },
+    {
+      "p": "[Polarity Loss for Zero-shot Object Detection](https://arxiv.org/abs/1811.08982v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/KennithLi/Awesome-Zero-Shot-Object-Detection)",
+      "n": "PL",
+      "d": "2018-11-22",
+      "m1": "62.10"
+    },
+    {
+      "p": "[Background Learnable Cascade for Zero-Shot Object Detection](https://arxiv.org/abs/2010.04502v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhengye1995/BLC)",
+      "n": "BLC",
+      "d": "2020-10-09",
+      "m1": "55.20"
+    },
+    {
+      "p": "[Zero-Shot Object Detection by Hybrid Region Embedding](http://arxiv.org/abs/1805.06157v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/KennithLi/Awesome-Zero-Shot-Object-Detection)",
+      "n": "HRE",
+      "d": "2018-05-16",
+      "m1": "54.20"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

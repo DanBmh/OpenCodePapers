@@ -1,0 +1,134 @@
+# time-series-forecasting-on-weather-96
+
+[Dataset Link](https://www.bgc-jena.mpg.de/wetter/) \
+Task Hierarchy: ['Time Series Analysis', 'Time Series Forecasting']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "MSE",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "MAE",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[SegRNN: Segment Recurrent Neural Network for Long-Term Time Series Forecasting](https://arxiv.org/abs/2308.11200v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/thuml/Time-Series-Library)",
+      "n": "SegRNN",
+      "d": "2023-08-22",
+      "m1": "0.142",
+      "m2": "0.181"
+    },
+    {
+      "p": "[Disentangling Structured Components: Towards Adaptive, Interpretable and Scalable Time Series Forecasting](https://arxiv.org/abs/2305.13036v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/JLDeng/SCNN)",
+      "n": "SCNN",
+      "d": "2023-05-22",
+      "m1": "0.142"
+    },
+    {
+      "p": "[Disentangled Interpretable Representation for Efficient Long-term Time Series Forecasting](https://arxiv.org/abs/2411.17257v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/wintertee/dipe-linear)",
+      "n": "DiPE-Linear",
+      "d": "2024-11-26",
+      "m1": "0.142"
+    },
+    {
+      "p": "[PRformer: Pyramidal Recurrent Transformer for Multivariate Time Series Forecasting](https://arxiv.org/abs/2408.10483v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/usualheart/prformer)",
+      "n": "PRformer",
+      "d": "2024-08-20",
+      "m1": "0.144"
+    },
+    {
+      "p": "[TSMixer: Lightweight MLP-Mixer Model for Multivariate Time Series Forecasting](https://arxiv.org/abs/2306.09364v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/ibm/tsfm)",
+      "n": "TSMixer",
+      "d": "2023-06-14",
+      "m1": "0.146",
+      "m2": "0.197"
+    },
+    {
+      "p": "[Revisiting Long-term Time Series Forecasting: An Investigation on Linear Mapping](https://arxiv.org/abs/2305.10721v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/plumprc/rtsf)",
+      "n": "RLinear-CI",
+      "d": "2023-05-18",
+      "m1": "0.146",
+      "m2": "0.194"
+    },
+    {
+      "p": "[xPatch: Dual-Stream Time Series Forecasting with Exponential Seasonal-Trend Decomposition](https://arxiv.org/abs/2412.17323v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/stitsyuk/xpatch)",
+      "n": "xPatch",
+      "d": "2024-12-23",
+      "m1": "0.146",
+      "m2": "0.185"
+    },
+    {
+      "p": "[Mixture-of-Linear-Experts for Long-term Time Series Forecasting](https://arxiv.org/abs/2312.06786v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/rogerni/mole)",
+      "n": "MoLE-DLinear",
+      "d": "2023-12-11",
+      "m1": "0.147"
+    },
+    {
+      "p": "[A Time Series is Worth 64 Words: Long-term Forecasting with Transformers](https://arxiv.org/abs/2211.14730v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/timeseriesAI/tsai)",
+      "n": "PatchTST/64",
+      "d": "2022-11-27",
+      "m1": "0.149"
+    },
+    {
+      "p": "[Revisiting Long-term Time Series Forecasting: An Investigation on Linear Mapping](https://arxiv.org/abs/2305.10721v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/plumprc/rtsf)",
+      "n": "RLinear",
+      "d": "2023-05-18",
+      "m1": "0.175",
+      "m2": "0.225"
+    },
+    {
+      "p": "[Are Transformers Effective for Time Series Forecasting?](https://arxiv.org/abs/2205.13504v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/cure-lab/DLinear)",
+      "n": "DLinear",
+      "d": "2022-05-26",
+      "m1": "0.176"
+    },
+    {
+      "p": "[Time Evidence Fusion Network: Multi-source View in Long-Term Time Series Forecasting](https://arxiv.org/abs/2405.06419v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/WenjieDu/PyPOTS)",
+      "n": "TEFN",
+      "d": "2024-05-10",
+      "m1": "0.182",
+      "m2": "0.227"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

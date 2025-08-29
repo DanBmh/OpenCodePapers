@@ -1,0 +1,123 @@
+# node-classification-on-arxiv-year
+
+[Dataset Link]() \
+Task Hierarchy: ['Node Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Preventing Representational Rank Collapse in MPNNs by Splitting the Computational Graph](https://arxiv.org/abs/2409.11504v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/roth-andreas/splitting-computational-graphs)",
+      "n": "MRS-Dir-GNN",
+      "d": "2024-09-17",
+      "m1": "66.03\u00b10.20"
+    },
+    {
+      "p": "[HoloNets: Spectral Convolutions do extend to Directed Graphs](https://arxiv.org/abs/2310.02232v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ChristianKoke/HoloNets)",
+      "n": "FaberNet",
+      "d": "2023-10-03",
+      "m1": "64.62\u00b11.01"
+    },
+    {
+      "p": "[Edge Directionality Improves Learning on Heterophilic Graphs](https://arxiv.org/abs/2305.10498v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/emalgorithm/directed-graph-neural-network)",
+      "n": "Dir-GNN",
+      "d": "2023-05-17",
+      "m1": "64.08\u00b10.26"
+    },
+    {
+      "p": "[Gradient Gating for Deep Multi-Rate Learning on Graphs](https://arxiv.org/abs/2210.00513v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tk-rusch/gradientgating)",
+      "n": "G^2-GraphSAGE",
+      "d": "2022-10-02",
+      "m1": "63.30\u00b11.84"
+    },
+    {
+      "p": "[Feature Selection: Key to Enhance Node Classification with Graph Neural Networks](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/cit2.12166)",
+      "c": "[&check;&nbsp;Link](https://github.com/sunilkmaurya/DualNetGNN_large)",
+      "n": "Dual-Net GNN",
+      "d": "2023-01-25",
+      "m1": "62.65\u00b10.39"
+    },
+    {
+      "p": "[Uplifting Message Passing Neural Network with Graph Original Information](https://arxiv.org/abs/2210.05382v2)",
+      "c": "",
+      "n": "OGNN",
+      "d": "2022-10-08",
+      "m1": "56.50\u00b10.13"
+    },
+    {
+      "p": "[Large Scale Learning on Non-Homophilous Graphs: New Benchmarks and Strong Simple Methods](https://arxiv.org/abs/2110.14446v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cuai/non-homophily-large-scale)",
+      "n": "LINKX",
+      "d": "2021-10-27",
+      "m1": "56.00\u00b11.34"
+    },
+    {
+      "p": "[Label-Wise Graph Convolutional Network for Heterophilic Graphs](https://arxiv.org/abs/2110.08128v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/enyandai/lwgcn)",
+      "n": "LW-GCN",
+      "d": "2021-10-15",
+      "m1": "55.8\u00b10.2"
+    },
+    {
+      "p": "[Finding Global Homophily in Graph Neural Networks When Meeting Heterophily](https://arxiv.org/abs/2205.07308v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/recklessronan/glognn)",
+      "n": "GloGNN++",
+      "d": "2022-05-15",
+      "m1": "54.79\u00b10.25"
+    },
+    {
+      "p": "[Enhancing Intra-class Information Extraction for Heterophilous Graphs: One Neural Architecture Search Approach](https://arxiv.org/abs/2211.10990v1)",
+      "c": "",
+      "n": "IIE-GNN",
+      "d": "2022-11-20",
+      "m1": "51.59\u00b10.24"
+    },
+    {
+      "p": "[Diffusion-Jump GNNs: Homophiliation via Learnable Metric Filters](https://arxiv.org/abs/2306.16976v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/AhmedBegggaUA/TFM)",
+      "n": "DJ-GNN",
+      "d": "2023-06-29",
+      "m1": "49.21\u00b10.20"
+    },
+    {
+      "p": "[Addressing Heterophily in Node Classification with Graph Echo State Networks](https://arxiv.org/abs/2305.08233v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dtortorella/addressing-heterophily-gesn)",
+      "n": "GESN",
+      "d": "2023-05-14",
+      "m1": "48.80 \u00b1 0.22"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

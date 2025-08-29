@@ -1,0 +1,92 @@
+# smac-on-smac-mmm2-7m2m1m-vs-8m4m1m
+
+[Dataset Link]() \
+Task Hierarchy: ['SMAC']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Average Score",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Median Win Rate",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[A Unified Framework for Factorizing Distributional Value Functions for Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2306.02430v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/j3soon/dfac-extended)",
+      "n": "DDN",
+      "d": "2023-06-04",
+      "m1": "16.50",
+      "m2": "56.82"
+    },
+    {
+      "p": "[A Unified Framework for Factorizing Distributional Value Functions for Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2306.02430v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/j3soon/dfac-extended)",
+      "n": "DMIX",
+      "d": "2023-06-04",
+      "m1": "16.24",
+      "m2": "63.35"
+    },
+    {
+      "p": "[A Unified Framework for Factorizing Distributional Value Functions for Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2306.02430v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/j3soon/dfac-extended)",
+      "n": "DPLEX",
+      "d": "2023-06-04",
+      "m1": "15.89",
+      "m2": "50.00"
+    },
+    {
+      "p": "[A Unified Framework for Factorizing Distributional Value Functions for Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2306.02430v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/j3soon/dfac-extended)",
+      "n": "QPLEX",
+      "d": "2023-06-04",
+      "m1": "15.52",
+      "m2": "46.88"
+    },
+    {
+      "p": "[A Unified Framework for Factorizing Distributional Value Functions for Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2306.02430v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/j3soon/dfac-extended)",
+      "n": "QMIX",
+      "d": "2023-06-04",
+      "m1": "14.40",
+      "m2": "29.55"
+    },
+    {
+      "p": "[A Unified Framework for Factorizing Distributional Value Functions for Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2306.02430v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/j3soon/dfac-extended)",
+      "n": "VDN",
+      "d": "2023-06-04",
+      "m1": "13.13",
+      "m2": "13.35"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

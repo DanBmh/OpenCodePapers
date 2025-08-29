@@ -1,0 +1,60 @@
+# point-cloud-registration-on-scannet-trained
+
+[Dataset Link](https://kaldir.vc.in.tum.de/scannetpp/) \
+Task Hierarchy: ['3D Point Cloud Interpolation', 'Point Cloud Registration']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Recall ( correspondence RMSE below 0.2)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Cross-modal feature fusion for robust point cloud registration with ambiguous geometry](https://arxiv.org/abs/2505.13088v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhaoyiww/coff)",
+      "n": "CoFF",
+      "d": "2025-05-19",
+      "m1": "78.7"
+    },
+    {
+      "p": "[Geometric Transformer for Fast and Robust Point Cloud Registration](https://arxiv.org/abs/2202.06688v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/qinzheng93/geotransformer)",
+      "n": "GeoTransformer",
+      "d": "2022-02-14",
+      "m1": "73.4"
+    },
+    {
+      "p": "[PREDATOR: Registration of 3D Point Clouds with Low Overlap](https://arxiv.org/abs/2011.13005v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/qinzheng93/geotransformer)",
+      "n": "Predator",
+      "d": "2020-11-25",
+      "m1": "63.7"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

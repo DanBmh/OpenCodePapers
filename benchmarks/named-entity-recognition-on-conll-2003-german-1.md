@@ -1,0 +1,74 @@
+# named-entity-recognition-on-conll-2003-german-1
+
+[Dataset Link](https://www.clips.uantwerpen.be/conll2003/ner/) \
+Task Hierarchy: ['Named Entity Recognition (NER)']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[FLERT: Document-Level Features for Named Entity Recognition](https://arxiv.org/abs/2011.06993v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/flairNLP/flair)",
+      "n": "FLERT XLM-R",
+      "d": "2020-11-13",
+      "m1": "92.23"
+    },
+    {
+      "p": "[Automated Concatenation of Embeddings for Structured Prediction](https://arxiv.org/abs/2010.05006v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/Alibaba-NLP/ACE)",
+      "n": "ACE + document-context",
+      "d": "2020-10-10",
+      "m1": "91.7"
+    },
+    {
+      "p": "[Automated Concatenation of Embeddings for Structured Prediction](https://arxiv.org/abs/2010.05006v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/Alibaba-NLP/ACE)",
+      "n": "ACE",
+      "d": "2020-10-10",
+      "m1": "90.5"
+    },
+    {
+      "p": "[Named Entity Recognition as Dependency Parsing](https://arxiv.org/abs/2005.07150v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/juntaoy/biaffine-ner)",
+      "n": "Biaffine-NER",
+      "d": "2020-05-14",
+      "m1": "90.3"
+    },
+    {
+      "p": "[Contextual String Embeddings for Sequence Labeling](https://aclanthology.org/C18-1139)",
+      "c": "[&check;&nbsp;Link](https://github.com/zalandoresearch/flair)",
+      "n": "Flair",
+      "d": "2018-08-01",
+      "m1": "88.3"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

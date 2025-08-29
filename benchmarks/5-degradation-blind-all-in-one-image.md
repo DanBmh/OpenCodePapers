@@ -1,0 +1,94 @@
+# 5-degradation-blind-all-in-one-image
+
+[Dataset Link]() \
+Task Hierarchy: ['10-shot image generation', 'Image Restoration', '5-Degradation Blind All-in-One Image Restoration']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Average PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "LPIPS",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Adaptive Blind All-in-One Image Restoration](https://arxiv.org/abs/2411.18412v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/davidserra9/abair)",
+      "n": "ABAIR",
+      "d": "2024-11-27",
+      "m1": "31.25"
+    },
+    {
+      "p": "[Degradation-Aware Residual-Conditioned Optimal Transport for Unified Image Restoration](https://arxiv.org/abs/2411.01656v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/xl-tang3/RCOT)",
+      "n": "DA-RCOT",
+      "d": "2024-11-03",
+      "m1": "30.40",
+      "m2": "0.064"
+    },
+    {
+      "p": "[HAIR: Hypernetworks-based All-in-One Image Restoration](https://arxiv.org/abs/2408.08091v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/toummHus/HAIR)",
+      "n": "HAIR",
+      "d": "2024-08-15",
+      "m1": "30.37"
+    },
+    {
+      "p": "[Efficient Degradation-aware Any Image Restoration](https://arxiv.org/abs/2405.15475v2)",
+      "c": "",
+      "n": "DaAIR",
+      "d": "2024-05-24",
+      "m1": "30.24"
+    },
+    {
+      "p": "[Restore Anything Model via Efficient Degradation Adaptation](https://arxiv.org/abs/2407.13372v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Amazingren/AnyIR)",
+      "n": "AnyIR",
+      "d": "2024-07-18",
+      "m1": "29.65"
+    },
+    {
+      "p": "[Ingredient-Oriented Multi-Degradation Learning for Image Restoration](http://openaccess.thecvf.com//content/CVPR2023/html/Zhang_Ingredient-Oriented_Multi-Degradation_Learning_for_Image_Restoration_CVPR_2023_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/JingHao99/IDR-Ingredients-oriented-Degradation-Reformulation)",
+      "n": "IDR",
+      "d": "2023-01-01",
+      "m1": "28.34"
+    },
+    {
+      "p": "[All-in-One Image Restoration for Unknown Corruption](http://openaccess.thecvf.com//content/CVPR2022/html/Li_All-in-One_Image_Restoration_for_Unknown_Corruption_CVPR_2022_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/xlearning-scu/2022-cvpr-airnet)",
+      "n": "AirNet",
+      "d": "2022-01-01",
+      "m1": "25.49"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

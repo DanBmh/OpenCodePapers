@@ -1,0 +1,396 @@
+# image-classification-on-clothing1m
+
+[Dataset Link](https://github.com/Cysu/noisy_label) \
+Task Hierarchy: ['Image Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Label-Retrieval-Augmented Diffusion Models for Learning from Noisy Labels](https://arxiv.org/abs/2305.19518v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/puar-playground/lra-diffusion)",
+      "n": "LRA-diffusion (CC)",
+      "d": "2023-05-31",
+      "m1": "75.7%"
+    },
+    {
+      "p": "[SST: Self-training with Self-adaptive Thresholding for Semi-supervised Learning](https://arxiv.org/abs/2506.00467v1)",
+      "c": "",
+      "n": "Super-SST (ViT-Small, 5% Labels)",
+      "d": "2025-05-31",
+      "m1": "75.7%"
+    },
+    {
+      "p": "[Learning with Noisy labels via Self-supervised Adversarial Noisy Masking](https://arxiv.org/abs/2302.06805v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/yuanpengtu/SANM)",
+      "n": "SANM (DivideMix)",
+      "d": "2023-02-14",
+      "m1": "75.63%"
+    },
+    {
+      "p": "[Centrality and Consistency: Two-Stage Clean Samples Identification for Learning with Instance-Dependent Noisy Labels](https://arxiv.org/abs/2207.14476v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/uitrbn/tscsi_idn)",
+      "n": "CC",
+      "d": "2022-07-29",
+      "m1": "75.4%"
+    },
+    {
+      "p": "[Class Prototype-based Cleaner for Label Noise Learning](https://arxiv.org/abs/2212.10766v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/hjjpku/cpc)",
+      "n": "CPC",
+      "d": "2022-12-21",
+      "m1": "75.40\u00b10.10%"
+    },
+    {
+      "p": "[Jigsaw-ViT: Learning Jigsaw Puzzles in Vision Transformer](https://arxiv.org/abs/2207.11971v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/yingyichen-cyy/JigsawViT)",
+      "n": "Jigsaw-ViT+NCT",
+      "d": "2022-07-25",
+      "m1": "75.4%"
+    },
+    {
+      "p": "[Learning advisor networks for noisy image classification](https://arxiv.org/abs/2211.04177v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/z3n0e/MFRW)",
+      "n": "MFRW",
+      "d": "2022-11-08",
+      "m1": "75.35%"
+    },
+    {
+      "p": "[Knockoffs-SPR: Clean Sample Selection in Learning with Noisy Labels](https://arxiv.org/abs/2301.00545v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/yikai-wang/knockoffs-spr)",
+      "n": "Knockoffs-SPR",
+      "d": "2023-01-02",
+      "m1": "75.20%"
+    },
+    {
+      "p": "[Sample Prior Guided Robust Model Learning to Suppress Noisy Labels](https://arxiv.org/abs/2112.01197v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/bupt-ai-cz/PGDF)",
+      "n": "PGDF",
+      "d": "2021-12-02",
+      "m1": "75.19%"
+    },
+    {
+      "p": "[Augmentation Strategies for Learning with Noisy Labels](https://arxiv.org/abs/2103.02130v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/KentoNishi/Augmentation-for-LNL)",
+      "n": "AugDesc",
+      "d": "2021-03-03",
+      "m1": "75.11%"
+    },
+    {
+      "p": "[Compressing Features for Learning with Noisy Labels](https://arxiv.org/abs/2206.13140v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yingyichen-cyy/Nested-Co-teaching)",
+      "n": "Nested+Co-teaching (ResNet-50)",
+      "d": "2022-06-27",
+      "m1": "75%"
+    },
+    {
+      "p": "[SSR: An Efficient and Robust Framework for Learning with Unknown Label Noise](https://arxiv.org/abs/2111.11288v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/MrChenFeng/SSR_BMVC2022)",
+      "n": "SSR",
+      "d": "2021-11-22",
+      "m1": "74.91"
+    },
+    {
+      "p": "[Boosting Co-teaching with Compression Regularization for Label Noise](https://arxiv.org/abs/2104.13766v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yingyichen-cyy/Nested-Co-teaching)",
+      "n": "NestedCoTeaching",
+      "d": "2021-04-28",
+      "m1": "74.9%"
+    },
+    {
+      "p": "[Early-Learning Regularization Prevents Memorization of Noisy Labels](https://arxiv.org/abs/2007.00151v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/shengliu66/ELR)",
+      "n": "ELR+",
+      "d": "2020-06-30",
+      "m1": "74.81%"
+    },
+    {
+      "p": "[DivideMix: Learning with Noisy Labels as Semi-supervised Learning](https://arxiv.org/abs/2002.07394v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/LiJunnan1992/DivideMix)",
+      "n": "DivideMix",
+      "d": "2020-02-18",
+      "m1": "74.76%"
+    },
+    {
+      "p": "[Cross-to-merge training with class balance strategy for learning with noisy labels](https://doi.org/10.1016/j.eswa.2024.123846)",
+      "c": "[&check;&nbsp;Link](https://github.com/LanXiaoPang613/C2MT)",
+      "n": "C2MT",
+      "d": "2024-04-01",
+      "m1": "74.61%"
+    },
+    {
+      "p": "[Contrast to Divide: Self-Supervised Pre-Training for Learning with Noisy Labels](https://arxiv.org/abs/2103.13646v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ContrastToDivide/C2D)",
+      "n": "ELR+ with C2D (ResNet-50)",
+      "d": "2021-03-25",
+      "m1": "74.58\u2009\u00b1\u20090.15%"
+    },
+    {
+      "p": "[Instance-Dependent Noisy Label Learning via Graphical Modelling](https://arxiv.org/abs/2209.00906v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/arpit2412/InstanceGM)",
+      "n": "InstanceGM",
+      "d": "2022-09-02",
+      "m1": "74.40%"
+    },
+    {
+      "p": "[LongReMix: Robust Learning with High Confidence Samples in a Noisy Label Environment](https://arxiv.org/abs/2103.04173v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/filipe-research/LongReMix)",
+      "n": "LongReMix",
+      "d": "2021-03-06",
+      "m1": "74.38%"
+    },
+    {
+      "p": "[FINE Samples for Learning with Noisy Labels](https://arxiv.org/abs/2102.11628v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Kthyeon/FINE_official)",
+      "n": "FINE + DivideMix",
+      "d": "2021-02-23",
+      "m1": "74.37%"
+    },
+    {
+      "p": "[To Smooth or Not? When Label Smoothing Meets Noisy Labels](https://arxiv.org/abs/2106.04149v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/ucsc-real/negative-label-smoothing)",
+      "n": "Negative Label Smoothing (NLS)",
+      "d": "2021-06-08",
+      "m1": "74.24%"
+    },
+    {
+      "p": "[A Second-Order Approach to Learning with Instance-Dependent Label Noise](https://arxiv.org/abs/2012.11854v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/UCSC-REAL/CAL)",
+      "n": "CAL",
+      "d": "2020-12-22",
+      "m1": "74.17%"
+    },
+    {
+      "p": "[NoiseRank: Unsupervised Label Noise Reduction with Dependence Models](https://arxiv.org/abs/2003.06729v1)",
+      "c": "",
+      "n": "NoiseRank",
+      "d": "2020-03-15",
+      "m1": "73.82%"
+    },
+    {
+      "p": "[Which Strategies Matter for Noisy Label Classification? Insight into Loss and Uncertainty](https://arxiv.org/abs/2008.06218v1)",
+      "c": "",
+      "n": "FOCI",
+      "d": "2020-08-14",
+      "m1": "73.8%"
+    },
+    {
+      "p": "[Meta-Weight-Net: Learning an Explicit Mapping For Sample Weighting](https://arxiv.org/abs/1902.07379v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/xjtushujun/meta-weight-net)",
+      "n": "MW-Net",
+      "d": "2019-02-20",
+      "m1": "73.72%"
+    },
+    {
+      "p": "[Probabilistic End-to-end Noise Correction for Learning with Noisy Labels](http://arxiv.org/abs/1903.07788v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yikun2019/PENCIL)",
+      "n": "PENCIL",
+      "d": "2019-03-19",
+      "m1": "73.49%"
+    },
+    {
+      "p": "[Learning to Learn from Noisy Labeled Data](http://arxiv.org/abs/1812.05214v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/LiJunnan1992/MLNT)",
+      "n": "MLNT",
+      "d": "2018-12-13",
+      "m1": "73.47%"
+    },
+    {
+      "p": "[Clusterability as an Alternative to Anchor Points When Learning with Noisy Labels](https://arxiv.org/abs/2102.05291v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/UCSC-REAL/HOC)",
+      "n": "HOC",
+      "d": "2021-02-10",
+      "m1": "73.39%"
+    },
+    {
+      "p": "[Contrastive Learning Improves Model Robustness Under Label Noise](https://arxiv.org/abs/2104.08984v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/arghosh/noisy_label_pretrain)",
+      "n": "MAE (SimCLR)",
+      "d": "2021-04-19",
+      "m1": "73.36%"
+    },
+    {
+      "p": "[Contrastive Learning Improves Model Robustness Under Label Noise](https://arxiv.org/abs/2104.08984v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/arghosh/noisy_label_pretrain)",
+      "n": "Generalized CE (SimCLR)",
+      "d": "2021-04-19",
+      "m1": "73.35%"
+    },
+    {
+      "p": "[Derivative Manipulation for General Example Weighting](https://arxiv.org/abs/1905.11233v9)",
+      "c": "[&check;&nbsp;Link](https://github.com/XinshaoAmosWang/Improving-Mean-Absolute-Error-against-CCE)",
+      "n": "DM",
+      "d": "2019-05-27",
+      "m1": "73.3%"
+    },
+    {
+      "p": "[Contrastive Learning Improves Model Robustness Under Label Noise](https://arxiv.org/abs/2104.08984v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/arghosh/noisy_label_pretrain)",
+      "n": "CCE (SimCLR)",
+      "d": "2021-04-19",
+      "m1": "73.27%"
+    },
+    {
+      "p": "[Learning with Instance-Dependent Label Noise: A Sample Sieve Approach](https://arxiv.org/abs/2010.02347v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/UCSC-REAL/cores)",
+      "n": "CORES2",
+      "d": "2020-10-05",
+      "m1": "73.24%"
+    },
+    {
+      "p": "[IMAE for Noise-Robust Learning: Mean Absolute Error Does Not Treat Examples Equally and Gradient Magnitude's Variance Matters](https://arxiv.org/abs/1903.12141v9)",
+      "c": "[&check;&nbsp;Link](https://github.com/XinshaoAmosWang/Improving-Mean-Absolute-Error-against-CCE)",
+      "n": "IMAE",
+      "d": "2019-03-28",
+      "m1": "73.2%"
+    },
+    {
+      "p": "[When Optimizing $f$-divergence is Robust with Label Noise](https://arxiv.org/abs/2011.03687v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/weijiaheng/Robust-f-divergence-measures)",
+      "n": "Robust f-divergence",
+      "d": "2020-11-07",
+      "m1": "73.09%"
+    },
+    {
+      "p": "[Safeguarded Dynamic Label Regression for Generalized Noisy Supervision](https://arxiv.org/abs/1903.02152v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Sunarker/Safeguarded-Dynamic-Label-Regression-for-Noisy-Supervision)",
+      "n": "LCCN",
+      "d": "2019-03-06",
+      "m1": "73.07%"
+    },
+    {
+      "p": "[L_DMI: A Novel Information-theoretic Loss Function for Training Deep Nets Robust to Label Noise](http://papers.nips.cc/paper/8853-l_dmi-a-novel-information-theoretic-loss-function-for-training-deep-nets-robust-to-label-noise)",
+      "c": "",
+      "n": "DMI",
+      "d": "2019-12-01",
+      "m1": "72.46%"
+    },
+    {
+      "p": "[L_DMI: An Information-theoretic Noise-robust Loss Function](https://arxiv.org/abs/1909.03388v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Newbeeer/L_DMI)",
+      "n": "DMI",
+      "d": "2019-09-08",
+      "m1": "72.46%"
+    },
+    {
+      "p": "[Adaptive Sample Selection for Robust Learning under Label Noise](https://arxiv.org/abs/2106.15292v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/dbp1994/bare-wacv-2023)",
+      "n": "BARE",
+      "d": "2021-06-29",
+      "m1": "72.28%"
+    },
+    {
+      "p": "[Joint Optimization Framework for Learning with Noisy Labels](http://arxiv.org/abs/1803.11364v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/DaikiTanaka-UT/JointOptimization)",
+      "n": "Joint Opt.",
+      "d": "2018-03-30",
+      "m1": "72.23%"
+    },
+    {
+      "p": "[Error-Bounded Correction of Noisy Labels](https://arxiv.org/abs/2011.10077v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/pxiangwu/PLC)",
+      "n": "LRT",
+      "d": "2020-11-19",
+      "m1": "71.74%"
+    },
+    {
+      "p": "[Scalable Penalized Regression for Noise Detection in Learning with Noisy Labels](https://arxiv.org/abs/2203.07788v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/yikai-wang/spr-lnl)",
+      "n": "SPR",
+      "d": "2022-03-15",
+      "m1": "71.16%"
+    },
+    {
+      "p": "[Masking: A New Perspective of Noisy Supervision](http://arxiv.org/abs/1805.08193v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/bhanML/Co-teaching)",
+      "n": "MASKING",
+      "d": "2018-05-21",
+      "m1": "71.1%"
+    },
+    {
+      "p": "[Symmetric Cross Entropy for Robust Learning with Noisy Labels](https://arxiv.org/abs/1908.06112v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/hanxunh/sceloss-reproduce)",
+      "n": "SCE",
+      "d": "2019-08-16",
+      "m1": "71.02%"
+    },
+    {
+      "p": "[Unsupervised Label Noise Modeling and Loss Correction](https://arxiv.org/abs/1904.11238v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaulAlbert31/LabelNoiseCorrection)",
+      "n": "DY",
+      "d": "2019-04-25",
+      "m1": "71%"
+    },
+    {
+      "p": "[Beyond Class-Conditional Assumption: A Primary Attempt to Combat Instance-Dependent Label Noise](https://arxiv.org/abs/2012.05458v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/chenpf1025/IDN)",
+      "n": "SEAL",
+      "d": "2020-12-10",
+      "m1": "70.63%"
+    },
+    {
+      "p": "[Combating noisy labels by agreement: A joint training method with co-regularization](https://arxiv.org/abs/2003.02752v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hongxin001/JoCoR)",
+      "n": "JoCoR",
+      "d": "2020-03-05",
+      "m1": "70.3%"
+    },
+    {
+      "p": "[Co-teaching: Robust Training of Deep Neural Networks with Extremely Noisy Labels](http://arxiv.org/abs/1804.06872v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/bhanML/Co-teaching)",
+      "n": "CoT",
+      "d": "2018-04-18",
+      "m1": "70.15%"
+    },
+    {
+      "p": "[Generalized Cross Entropy Loss for Training Deep Neural Networks with Noisy Labels](http://arxiv.org/abs/1805.07836v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/AlanChou/Truncated-Loss)",
+      "n": "GCE",
+      "d": "2018-05-20",
+      "m1": "69.75%"
+    },
+    {
+      "p": "[Dimensionality-Driven Learning with Noisy Labels](http://arxiv.org/abs/1806.02612v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ansuini/IntrinsicDimDeep)",
+      "n": "D2L",
+      "d": "2018-06-07",
+      "m1": "69.47%"
+    },
+    {
+      "p": "[Adaptive Sample Selection for Robust Learning under Label Noise](https://arxiv.org/abs/2106.15292v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/dbp1994/bare-wacv-2023)",
+      "n": "CCE",
+      "d": "2021-06-29",
+      "m1": "68.94%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,468 @@
+# trajectory-prediction-on-nuscenes
+
+[Dataset Link](https://www.nuscenes.org/) \
+Task Hierarchy: ['Trajectory Prediction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "MinADE_5",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "MinADE_10",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "MissRateTopK_2_5",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "MissRateTopK_2_10",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "MinFDE_1",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "OffRoadRate",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[UniTraj: A Unified Framework for Scalable Vehicle Trajectory Prediction](https://arxiv.org/abs/2403.15098v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/vita-epfl/unitraj)",
+      "n": "UniTraj (MTR)",
+      "d": "2024-03-22",
+      "m1": "0.96",
+      "m2": "0.84",
+      "m3": "0.43",
+      "m4": "0.41",
+      "m5": "5.40",
+      "m6": "0.07"
+    },
+    {
+      "p": "[SemanticFormer: Holistic and Semantic Traffic Scene Representation for Trajectory Prediction using Knowledge Graphs](https://arxiv.org/abs/2404.19379v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/boschresearch/nuscenes_knowledge_graph)",
+      "n": "SemanticFormer",
+      "d": "2024-04-30",
+      "m1": "1.14",
+      "m2": "1.14",
+      "m3": "0.50",
+      "m4": "0.50",
+      "m5": "6.27",
+      "m6": "0.03"
+    },
+    {
+      "p": "[CASPNet++: Joint Multi-Agent Motion Prediction](https://arxiv.org/abs/2308.07751v1)",
+      "c": "",
+      "n": "CASPNet++",
+      "d": "2023-08-15",
+      "m1": "1.16",
+      "m2": "0.92",
+      "m3": "0.50",
+      "m4": "0.29",
+      "m5": "6.18",
+      "m6": "0.01"
+    },
+    {
+      "p": "[Leveraging Future Relationship Reasoning for Vehicle Trajectory Prediction](https://arxiv.org/abs/2305.14715v1)",
+      "c": "",
+      "n": "FRM",
+      "d": "2023-05-24",
+      "m1": "1.18",
+      "m2": "0.88",
+      "m3": "0.48",
+      "m4": "0.30",
+      "m5": "6.59",
+      "m6": "0.02"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "LaPred++",
+      "d": null,
+      "m1": "1.24",
+      "m2": "1.05",
+      "m3": "0.53",
+      "m4": "0.46",
+      "m5": "7.58",
+      "m6": "0.06"
+    },
+    {
+      "p": "[Multimodal Trajectory Prediction Conditioned on Lane-Graph Traversals](https://arxiv.org/abs/2106.15004v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/nachiket92/PGP)",
+      "n": "PGP",
+      "d": "2021-06-28",
+      "m1": "1.27",
+      "m2": "0.94",
+      "m3": "0.52",
+      "m4": "0.34",
+      "m5": "7.17",
+      "m6": "0.03"
+    },
+    {
+      "p": "[Context-Aware Scene Prediction Network (CASPNet)](https://arxiv.org/abs/2201.06933v1)",
+      "c": "",
+      "n": "CASPNet_v2",
+      "d": "2022-01-18",
+      "m1": "1.28",
+      "m2": "1.01",
+      "m3": "0.53",
+      "m4": "0.32",
+      "m5": "7.02",
+      "m6": "0.01"
+    },
+    {
+      "p": "[THOMAS: Trajectory Heatmap Output with learned Multi-Agent Sampling](https://arxiv.org/abs/2110.06607v3)",
+      "c": "",
+      "n": "THOMAS",
+      "d": "2021-10-13",
+      "m1": "1.33",
+      "m2": "1.04",
+      "m3": "0.55",
+      "m4": "0.42",
+      "m5": "6.71",
+      "m6": "0.03"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "JAL-MTP",
+      "d": null,
+      "m1": "1.36",
+      "m2": "0.99",
+      "m3": "0.55",
+      "m4": "0.36",
+      "m5": "7.87",
+      "m6": "0.03"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Autobot",
+      "d": null,
+      "m1": "1.37",
+      "m2": "1.03",
+      "m3": "0.62",
+      "m4": "0.44",
+      "m5": "8.19",
+      "m6": "0.02"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Noah_prediction",
+      "d": null,
+      "m1": "1.38",
+      "m2": "1.08",
+      "m3": "0.62",
+      "m4": "0.47",
+      "m5": "8.1",
+      "m6": "0.02"
+    },
+    {
+      "p": "[GOHOME: Graph-Oriented Heatmap Output for future Motion Estimation](https://arxiv.org/abs/2109.01827v4)",
+      "c": "",
+      "n": "GOHOME",
+      "d": "2021-09-04",
+      "m1": "1.42",
+      "m2": "1.15",
+      "m3": "0.57",
+      "m4": "0.47",
+      "m5": "6.99",
+      "m6": "0.04"
+    },
+    {
+      "p": "[Trajectory Forecasts in Unknown Environments Conditioned on Grid-Based Plans](https://arxiv.org/abs/2001.00735v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/nachiket92/P2T)",
+      "n": "P2T",
+      "d": "2020-01-03",
+      "m1": "1.45",
+      "m2": "1.16",
+      "m3": "0.64",
+      "m4": "0.46",
+      "m5": "10.5",
+      "m6": "0.03"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "LaPred",
+      "d": null,
+      "m1": "1.47",
+      "m2": "1.12",
+      "m3": "0.53",
+      "m4": "0.46",
+      "m5": "8.37",
+      "m6": "0.09"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "cxx",
+      "d": null,
+      "m1": "1.63",
+      "m2": "1.29",
+      "m3": "0.69",
+      "m4": "0.6",
+      "m5": "8.86",
+      "m6": "0.08"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "ENTC-UoM",
+      "d": null,
+      "m1": "1.67",
+      "m2": "1.67",
+      "m3": "0.66",
+      "m4": "0.66",
+      "m5": "8.43",
+      "m6": "0.07"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Lane_vae",
+      "d": null,
+      "m1": "1.69",
+      "m2": "1.1",
+      "m3": "0.53",
+      "m4": "0.42",
+      "m5": "7.91",
+      "m6": "0.11"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "MHA_JAM",
+      "d": null,
+      "m1": "1.81",
+      "m2": "1.24",
+      "m3": "0.59",
+      "m4": "0.46",
+      "m5": "8.57",
+      "m6": "0.07"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "yihang",
+      "d": null,
+      "m1": "1.82",
+      "m2": "1.04",
+      "m3": "0.55",
+      "m4": "0.4",
+      "m5": "8.23",
+      "m6": "0.03"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "IUCVL-SGNet",
+      "d": null,
+      "m1": "1.86",
+      "m2": "1.4",
+      "m3": "0.67",
+      "m4": "0.52",
+      "m5": "9.25",
+      "m6": "0.04"
+    },
+    {
+      "p": "[AgentFormer: Agent-Aware Transformers for Socio-Temporal Multi-Agent Forecasting](https://arxiv.org/abs/2103.14023v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Khrylx/AgentFormer)",
+      "n": "AgentFormer",
+      "d": "2021-03-25",
+      "m1": "1.86",
+      "m2": "1.45"
+    },
+    {
+      "p": "[Trajectron++: Dynamically-Feasible Trajectory Forecasting With Heterogeneous Data](https://arxiv.org/abs/2001.03093v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/StanfordASL/Trajectron-plus-plus)",
+      "n": "Trajectron++",
+      "d": "2020-01-09",
+      "m1": "1.88",
+      "m2": "1.51",
+      "m3": "0.7",
+      "m4": "0.57",
+      "m5": "9.52",
+      "m6": "0.25"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "invett",
+      "d": null,
+      "m1": "1.92",
+      "m2": "1.92",
+      "m3": "0.78",
+      "m4": "0.78",
+      "m5": "9.29",
+      "m6": "0.1"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "1223",
+      "d": null,
+      "m1": "2.06",
+      "m2": "9.72",
+      "m3": "0.86",
+      "m4": "0.82",
+      "m5": "15.66",
+      "m6": "0.37"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "VI tp",
+      "d": null,
+      "m1": "2.08",
+      "m2": "1.67",
+      "m3": "0.75",
+      "m4": "0.66",
+      "m5": "9.97",
+      "m6": "0.34"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "pq",
+      "d": null,
+      "m1": "2.23",
+      "m2": "1.68",
+      "m3": "0.69",
+      "m4": "0.56",
+      "m5": "9.54",
+      "m6": "0.12"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "teamcc",
+      "d": null,
+      "m1": "2.28",
+      "m2": "2.0",
+      "m3": "0.78",
+      "m4": "0.71",
+      "m5": "15.95",
+      "m6": "0.31"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "8536",
+      "d": null,
+      "m1": "2.36",
+      "m2": "1.76",
+      "m3": "0.67",
+      "m4": "0.6",
+      "m5": "9.82",
+      "m6": "0.08"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Semir",
+      "d": null,
+      "m1": "2.38",
+      "m2": "1.66",
+      "m3": "0.67",
+      "m4": "0.53",
+      "m5": "10.73",
+      "m6": "0.13"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "CoverNet, Fixed, Epsilon 2",
+      "d": null,
+      "m1": "2.62",
+      "m2": "1.92",
+      "m3": "0.76",
+      "m4": "0.64",
+      "m5": "11.36",
+      "m6": "0.13"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "KeepCalm",
+      "d": null,
+      "m1": "2.74",
+      "m2": "2.13",
+      "m3": "0.8",
+      "m4": "0.75",
+      "m5": "11.86",
+      "m6": "0.5"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Physics Oracle",
+      "d": null,
+      "m1": "3.7",
+      "m2": "3.7",
+      "m3": "0.88",
+      "m4": "0.88",
+      "m5": "9.09",
+      "m6": "0.12"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "xli4217",
+      "d": null,
+      "m1": "4.46",
+      "m2": "4.46",
+      "m3": "0.91",
+      "m4": "0.91",
+      "m5": "9.52",
+      "m6": "0.07"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "CoverNet",
+      "d": null,
+      "m1": "4.61",
+      "m2": "4.61",
+      "m3": "0.91",
+      "m4": "0.91",
+      "m5": "11.21",
+      "m6": "0.14"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

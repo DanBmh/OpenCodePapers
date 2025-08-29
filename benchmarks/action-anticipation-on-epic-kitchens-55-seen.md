@@ -1,0 +1,148 @@
+# action-anticipation-on-epic-kitchens-55-seen
+
+[Dataset Link]() \
+Task Hierarchy: ['Action Recognition In Videos', 'Action Anticipation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Top 1 Accuracy - Act.",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Top 1 Accuracy - Noun",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Top 1 Accuracy - Verb",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Top 5 Accuracy - Act.",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "Top 5 Accuracy - Noun",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "Top 5 Accuracy - Verb",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Predicting the Next Action by Modeling the Abstract Goal](https://arxiv.org/abs/2209.05044v5)",
+      "c": "",
+      "n": "Abstract Goal",
+      "d": "2022-09-12",
+      "m1": "22.03",
+      "m2": "51.56",
+      "m3": "35.34",
+      "m4": "38.29",
+      "m5": "58.01",
+      "m6": "82.56"
+    },
+    {
+      "p": "[Anticipative Video Transformer](https://arxiv.org/abs/2106.02036v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/AVT)",
+      "n": "AVT+",
+      "d": "2021-06-03",
+      "m1": "16.84",
+      "m2": "20.16",
+      "m3": "34.36",
+      "m4": "36.52",
+      "m5": "51.57",
+      "m6": "80.03"
+    },
+    {
+      "p": "[Learning to Anticipate Egocentric Actions by Imagination](https://arxiv.org/abs/2101.04924v2)",
+      "c": "",
+      "n": "ImagineRNN",
+      "d": "2021-01-13",
+      "m1": "14.66",
+      "m2": "22.79",
+      "m3": "35.44",
+      "m4": "34.98",
+      "m5": "52.09",
+      "m6": "79.72"
+    },
+    {
+      "p": "[What Would You Expect? Anticipating Egocentric Actions with Rolling-Unrolling LSTMs and Modality Attention](https://arxiv.org/abs/1905.09035v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/antoninofurnari/rulstm)",
+      "n": "RULSTM [24, 23]",
+      "d": "2019-05-22",
+      "m1": "14.39",
+      "m2": "22.78",
+      "m3": "33.04",
+      "m4": "33.73",
+      "m5": "50.95",
+      "m6": "79.55"
+    },
+    {
+      "p": "[RED: Reinforced Encoder-Decoder Networks for Action Anticipation](http://arxiv.org/abs/1707.04818v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/rajskar/CS763Project)",
+      "n": "ED",
+      "d": "2017-07-16",
+      "m1": "8.08",
+      "m2": "16.07",
+      "m3": "29.35",
+      "m4": "18.19",
+      "m5": "38.83",
+      "m6": "74.49"
+    },
+    {
+      "p": "[Scaling Egocentric Vision: The EPIC-KITCHENS Dataset](http://arxiv.org/abs/1804.02748v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/epic-kitchens/epic-kitchens-55-annotations)",
+      "n": "ATSN",
+      "d": "2018-04-08",
+      "m1": "6.00",
+      "m2": "16.22",
+      "m3": "31.81",
+      "m4": "28.21",
+      "m5": "42.15",
+      "m6": "76.56"
+    },
+    {
+      "p": "[Scaling Egocentric Vision: The EPIC-KITCHENS Dataset](http://arxiv.org/abs/1804.02748v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/epic-kitchens/epic-kitchens-55-annotations)",
+      "n": "2SCNN",
+      "d": "2018-04-08",
+      "m1": "4.32",
+      "m2": "15.15",
+      "m3": "29.76",
+      "m4": "15.21",
+      "m5": "38.56",
+      "m6": "76.03"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

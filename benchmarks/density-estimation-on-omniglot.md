@@ -1,0 +1,86 @@
+# density-estimation-on-omniglot
+
+[Dataset Link]() \
+Task Hierarchy: ['Density Estimation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Negative ELBO",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "NLL",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "MMD-L2",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "COV-L2",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Block Neural Autoregressive Flow](http://arxiv.org/abs/1904.04676v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nicola-decao/BNAF)",
+      "n": "B-NAF",
+      "d": "2019-04-09",
+      "m1": "94.83",
+      "m2": "100.08"
+    },
+    {
+      "p": "[FFJORD: Free-form Continuous Dynamics for Scalable Reversible Generative Models](http://arxiv.org/abs/1810.01367v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/rtqichen/ffjord)",
+      "n": "FFJORD",
+      "d": "2018-10-02",
+      "m1": "98.33",
+      "m3": "20.5",
+      "m4": "99%"
+    },
+    {
+      "p": "[Hierarchical VAE with a Diffusion-based VampPrior](https://arxiv.org/abs/2412.01373v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/akuzina/dvp_vae)",
+      "n": "DVp-VAE",
+      "d": "2024-12-02",
+      "m2": "89.07"
+    },
+    {
+      "p": "[PaddingFlow: Improving Normalizing Flows with Padding-Dimensional Noise](https://arxiv.org/abs/2403.08216v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/adamqlmeng/paddingflow)",
+      "n": "PaddingFlow",
+      "d": "2024-03-13",
+      "m3": "20.3",
+      "m4": "98.8%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

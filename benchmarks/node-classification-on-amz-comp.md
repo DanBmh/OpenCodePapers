@@ -1,0 +1,88 @@
+# node-classification-on-amz-comp
+
+[Dataset Link]() \
+Task Hierarchy: ['Node Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Half-Hop: A graph upsampling approach for slowing down message passing](https://arxiv.org/abs/2308.09198v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nerdslab/halfhop)",
+      "n": "HH-GCN",
+      "d": "2023-08-17",
+      "m1": "90.92%"
+    },
+    {
+      "p": "[Half-Hop: A graph upsampling approach for slowing down message passing](https://arxiv.org/abs/2308.09198v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nerdslab/halfhop)",
+      "n": "GCN",
+      "d": "2023-08-17",
+      "m1": "90.22%"
+    },
+    {
+      "p": "[Diffusion Improves Graph Learning](https://arxiv.org/abs/1911.05485v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/klicperajo/gdc)",
+      "n": "GCN (Heat Diffusion)",
+      "d": "2019-10-28",
+      "m1": "86.77%"
+    },
+    {
+      "p": "[Half-Hop: A graph upsampling approach for slowing down message passing](https://arxiv.org/abs/2308.09198v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nerdslab/halfhop)",
+      "n": "HH-GraphSAGE",
+      "d": "2023-08-17",
+      "m1": "86.6%"
+    },
+    {
+      "p": "[SIGN: Scalable Inception Graph Neural Networks](https://arxiv.org/abs/2004.11198v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/sign)",
+      "n": "SIGN",
+      "d": "2020-04-23",
+      "m1": "85.93 \u00b1 1.21"
+    },
+    {
+      "p": "[Half-Hop: A graph upsampling approach for slowing down message passing](https://arxiv.org/abs/2308.09198v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nerdslab/halfhop)",
+      "n": "GraphSAGE",
+      "d": "2023-08-17",
+      "m1": "84.79%"
+    },
+    {
+      "p": "[Graph InfoClust: Leveraging cluster-level node information for unsupervised graph representation learning](https://arxiv.org/abs/2009.06946v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cmavro/Graph-InfoClust-GIC)",
+      "n": "Graph InfoClust (GIC)",
+      "d": "2020-09-15",
+      "m1": "81.5 \u00b1 1.0"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

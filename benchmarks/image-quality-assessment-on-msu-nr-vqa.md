@@ -1,0 +1,139 @@
+# image-quality-assessment-on-msu-nr-vqa
+
+[Dataset Link](https://videoprocessing.ai/benchmarks/no-reference-video-quality-metrics.html) \
+Task Hierarchy: ['Image Quality Assessment']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "SRCC",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "PLCC",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "KLCC",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[UNIQUE: Unsupervised Image Quality Estimation](http://arxiv.org/abs/1810.06631v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/olivesgatech/UNIQUE-Unsupervised-Image-Quality-Estimation)",
+      "n": "UNIQUE",
+      "d": "2018-10-15",
+      "m1": "0.9148",
+      "m2": "0.9238",
+      "m3": "0.7648"
+    },
+    {
+      "p": "[Norm-in-Norm Loss with Faster Convergence and Better Performance for Image Quality Assessment](https://arxiv.org/abs/2008.03889v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/lidq92/LinearityIQA)",
+      "n": "LINEARITY",
+      "d": "2020-08-10",
+      "m1": "0.9104",
+      "m2": "0.9106",
+      "m3": "0.7589"
+    },
+    {
+      "p": "[MUSIQ: Multi-scale Image Quality Transformer](https://arxiv.org/abs/2108.05997v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research/tree/master/musiq)",
+      "n": "MUSIQ",
+      "d": "2021-08-12",
+      "m1": "0.9004",
+      "m2": "0.9068",
+      "m3": "0.7433"
+    },
+    {
+      "p": "[Perceptual Quality Assessment of Smartphone Photography](http://openaccess.thecvf.com/content_CVPR_2020/html/Fang_Perceptual_Quality_Assessment_of_Smartphone_Photography_CVPR_2020_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/h4nwei/SPAQ)",
+      "n": "SPAQ MT-S",
+      "d": "2020-06-01",
+      "m1": "0.8822",
+      "m2": "0.8814",
+      "m3": "0.7186"
+    },
+    {
+      "p": "[Perceptual Quality Assessment of Smartphone Photography](http://openaccess.thecvf.com/content_CVPR_2020/html/Fang_Perceptual_Quality_Assessment_of_Smartphone_Photography_CVPR_2020_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/h4nwei/SPAQ)",
+      "n": "SPAQ BL",
+      "d": "2020-06-01",
+      "m1": "0.8799",
+      "m2": "0.8855",
+      "m3": "0.7106"
+    },
+    {
+      "p": "[Perceptual Quality Assessment of Smartphone Photography](http://openaccess.thecvf.com/content_CVPR_2020/html/Fang_Perceptual_Quality_Assessment_of_Smartphone_Photography_CVPR_2020_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/h4nwei/SPAQ)",
+      "n": "SPAQ MT-A",
+      "d": "2020-06-01",
+      "m1": "0.8794",
+      "m2": "0.8824",
+      "m3": "0.7148"
+    },
+    {
+      "p": "[From Patches to Pictures (PaQ-2-PiQ): Mapping the Perceptual Space of Picture Quality](https://arxiv.org/abs/1912.10088v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/baidut/PaQ-2-PiQ)",
+      "n": "PaQ-2-PiQ",
+      "d": "2019-12-20",
+      "m1": "0.8705",
+      "m2": "0.8549",
+      "m3": "0.7079"
+    },
+    {
+      "p": "[NIMA: Neural Image Assessment](http://arxiv.org/abs/1709.05424v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/idealo/image-quality-assessment)",
+      "n": "NIMA",
+      "d": "2017-09-15",
+      "m1": "0.8494",
+      "m2": "0.8784",
+      "m3": "0.6745"
+    },
+    {
+      "p": "[KonIQ-10k: Towards an ecologically valid and large-scale IQA database](http://arxiv.org/abs/1803.08489v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/subpic/koniq)",
+      "n": "KonCept512",
+      "d": "2018-03-22",
+      "m1": "0.8360",
+      "m2": "0.8464",
+      "m3": "0.6608"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "MEON",
+      "d": null,
+      "m1": "0.5066",
+      "m2": "0.2898",
+      "m3": "0.3755"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

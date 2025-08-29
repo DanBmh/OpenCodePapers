@@ -1,0 +1,67 @@
+# passage-ranking-on-ms-marco
+
+[Dataset Link](https://microsoft.github.io/msmarco/) \
+Task Hierarchy: ['Passage Ranking']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "MRR@10",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Text and Code Embeddings by Contrastive Pre-Training](https://arxiv.org/abs/2201.10005v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/openmatch/coco-dr)",
+      "n": "Fine-tuned SOTA",
+      "d": "2022-01-24",
+      "m1": "44.3"
+    },
+    {
+      "p": "[Text and Code Embeddings by Contrastive Pre-Training](https://arxiv.org/abs/2201.10005v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/openmatch/coco-dr)",
+      "n": "cpt-text XL",
+      "d": "2022-01-24",
+      "m1": "22.7"
+    },
+    {
+      "p": "[Text and Code Embeddings by Contrastive Pre-Training](https://arxiv.org/abs/2201.10005v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/openmatch/coco-dr)",
+      "n": "cpt-text L",
+      "d": "2022-01-24",
+      "m1": "21.5"
+    },
+    {
+      "p": "[Text and Code Embeddings by Contrastive Pre-Training](https://arxiv.org/abs/2201.10005v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/openmatch/coco-dr)",
+      "n": "BM25",
+      "d": "2022-01-24",
+      "m1": "18.4"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

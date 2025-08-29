@@ -1,0 +1,95 @@
+# video-anomaly-detection-on-hr-ubnormal
+
+[Dataset Link]() \
+Task Hierarchy: ['Video Anomaly Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AUC",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Multimodal Motion Conditioned Diffusion Model for Skeleton-based Video Anomaly Detection](https://arxiv.org/abs/2307.07205v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/aleflabo/MoCoDAD)",
+      "n": "MoCoDAD",
+      "d": "2023-07-14",
+      "m1": "68.4"
+    },
+    {
+      "p": "[Holistic Representation Learning for Multitask Trajectory Anomaly Detection](https://arxiv.org/abs/2311.01851v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/alexandrosstergiou/TrajREC)",
+      "n": "TrajREC",
+      "d": "2023-11-03",
+      "m1": "68.2"
+    },
+    {
+      "p": "[Contracting Skeletal Kinematics for Human-Related Video Anomaly Detection](https://arxiv.org/abs/2301.09489v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/aleflabo/COSKAD)",
+      "n": "COSKAD-hyperbolic",
+      "d": "2023-01-23",
+      "m1": "65.5"
+    },
+    {
+      "p": "[Contracting Skeletal Kinematics for Human-Related Video Anomaly Detection](https://arxiv.org/abs/2301.09489v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/aleflabo/COSKAD)",
+      "n": "COSKAD-euclidean",
+      "d": "2023-01-23",
+      "m1": "65.2"
+    },
+    {
+      "p": "[Contracting Skeletal Kinematics for Human-Related Video Anomaly Detection](https://arxiv.org/abs/2301.09489v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/aleflabo/COSKAD)",
+      "n": "COSKAD-radial",
+      "d": "2023-01-23",
+      "m1": "63.4"
+    },
+    {
+      "p": "[Learning Regularity in Skeleton Trajectories for Anomaly Detection in Videos](http://arxiv.org/abs/1903.03295v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/RomeroBarata/skeleton_based_anomaly_detection)",
+      "n": "MPED-RNN",
+      "d": "2019-03-08",
+      "m1": "61.2"
+    },
+    {
+      "p": "[Graph Embedded Pose Clustering for Anomaly Detection](https://arxiv.org/abs/1912.11850v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/amirmk89/gepc)",
+      "n": "GEPC",
+      "d": "2019-12-26",
+      "m1": "55.2"
+    },
+    {
+      "p": "[BiPOCO: Bi-Directional Trajectory Prediction with Pose Constraints for Pedestrian Anomaly Detection](https://arxiv.org/abs/2207.02281v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/akanuasiegbu/bipoco)",
+      "n": "BiPOCO",
+      "d": "2022-07-05",
+      "m1": "52.3"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

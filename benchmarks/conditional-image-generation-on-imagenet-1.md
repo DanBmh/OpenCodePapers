@@ -1,0 +1,76 @@
+# conditional-image-generation-on-imagenet-1
+
+[Dataset Link]() \
+Task Hierarchy: ['Conditional Image Generation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "FID",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Inception score",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Instance-Conditioned GAN](https://arxiv.org/abs/2109.05070v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/ic_gan)",
+      "n": "IC-GAN + DA",
+      "d": "2021-09-10",
+      "m1": "6.7",
+      "m2": "45.9\u00b10.3"
+    },
+    {
+      "p": "[Instance Selection for GANs](https://arxiv.org/abs/2007.15255v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/snap-research/3dgp)",
+      "n": "SAGAN + instance selection",
+      "d": "2020-07-30",
+      "m1": "9.07",
+      "m2": "37.1"
+    },
+    {
+      "p": "[Feature Quantization Improves GAN Training](https://arxiv.org/abs/2004.02088v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/YangNaruto/FQ-GAN)",
+      "n": "FQ-GAN",
+      "d": "2020-04-05",
+      "m1": "9.67",
+      "m2": "25.96"
+    },
+    {
+      "p": "[Instance-Conditioned GAN](https://arxiv.org/abs/2109.05070v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/ic_gan)",
+      "n": "BigGAN* [Brock et al.] +DA",
+      "d": "2021-09-10",
+      "m1": "10.2\u00b10.1",
+      "m2": "30.1\u00b10.1"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

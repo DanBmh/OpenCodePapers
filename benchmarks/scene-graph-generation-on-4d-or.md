@@ -1,0 +1,74 @@
+# scene-graph-generation-on-4d-or
+
+[Dataset Link](https://github.com/egeozsoy/4D-OR) \
+Task Hierarchy: ['Scene Graph Generation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[ORacle: Large Vision-Language Models for Knowledge-Guided Holistic OR Domain Modeling](https://arxiv.org/abs/2404.07031v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/egeozsoy/Oracle)",
+      "n": "ORacle",
+      "d": "2024-04-10",
+      "m1": "0.91"
+    },
+    {
+      "p": "[MM-OR: A Large Multimodal Operating Room Dataset for Semantic Understanding of High-Intensity Surgical Environments](https://arxiv.org/abs/2503.02579v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/egeozsoy/MM-OR)",
+      "n": "MM2SG",
+      "d": "2025-03-04",
+      "m1": "0.901"
+    },
+    {
+      "p": "[Location-Free Scene Graph Generation](https://arxiv.org/abs/2303.10944v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/egeozsoy/LF-SGG)",
+      "n": "Pix2SG",
+      "d": "2023-03-20",
+      "m1": "0.90"
+    },
+    {
+      "p": "[LABRAD-OR: Lightweight Memory Scene Graphs for Accurate Bimodal Reasoning in Dynamic Operating Rooms](https://arxiv.org/abs/2303.13293v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/egeozsoy/LABRAD-OR)",
+      "n": "LABRAD-OR",
+      "d": "2023-03-23",
+      "m1": "0.88"
+    },
+    {
+      "p": "[4D-OR: Semantic Scene Graphs for OR Domain Modeling](https://arxiv.org/abs/2203.11937v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/egeozsoy/4D-OR)",
+      "n": "4D-OR baseline",
+      "d": "2022-03-22",
+      "m1": "0.75"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

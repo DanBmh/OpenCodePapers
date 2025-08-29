@@ -1,0 +1,60 @@
+# semi-supervised-instance-segmentation-on-coco-4
+
+[Dataset Link]() \
+Task Hierarchy: ['Semi-Supervised Instance Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mask AP",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Guided Distillation for Semi-Supervised Instance Segmentation](https://arxiv.org/abs/2308.02668v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/guideddistillation)",
+      "n": "Guided Distillation (ResNet50)",
+      "d": "2023-08-03",
+      "m1": "21.5"
+    },
+    {
+      "p": "[Polite Teacher: Semi-Supervised Instance Segmentation with Mutual Learning and Pseudo-Label Thresholding](https://arxiv.org/abs/2211.03850v1)",
+      "c": "",
+      "n": "Polite Teacher (ResNet50)",
+      "d": "2022-11-07",
+      "m1": "18.33"
+    },
+    {
+      "p": "[CenterMask : Real-Time Anchor-Free Instance Segmentation](https://arxiv.org/abs/1911.06667v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/youngwanLEE/centermask2)",
+      "n": "CenterMask2 (ResNet50)",
+      "d": "2019-11-15",
+      "m1": "10.07"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

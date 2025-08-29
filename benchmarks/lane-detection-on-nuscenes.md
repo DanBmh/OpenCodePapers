@@ -1,0 +1,68 @@
+# lane-detection-on-nuscenes
+
+[Dataset Link](https://www.nuscenes.org/) \
+Task Hierarchy: ['Lane Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "IoU",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "F1 score",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Learning to Predict Navigational Patterns from Partial Observations](https://arxiv.org/abs/2304.13242v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/robin-karlsson0/dslp)",
+      "n": "DSLP",
+      "d": "2023-04-26",
+      "m1": "0.453",
+      "m2": "0.853"
+    },
+    {
+      "p": "[Lane Graph Estimation for Scene Understanding in Urban Driving](https://arxiv.org/abs/2105.00195v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/robin-karlsson0/dslp)",
+      "n": "LaneGraphNet",
+      "d": "2021-05-01",
+      "m1": "0.420",
+      "m2": "0.574"
+    },
+    {
+      "p": "[Structured Bird's-Eye-View Traffic Scene Understanding from Onboard Images](https://arxiv.org/abs/2110.01997v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ybarancan/stsu)",
+      "n": "STSU",
+      "d": "2021-10-05",
+      "m1": "0.389",
+      "m2": "0.560"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

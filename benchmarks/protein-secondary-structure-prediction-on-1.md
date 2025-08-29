@@ -1,0 +1,119 @@
+# protein-secondary-structure-prediction-on-1
+
+[Dataset Link]() \
+Task Hierarchy: ['Protein Secondary Structure Prediction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Q8",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Q3",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[PS4: a Next-Generation Dataset for Protein Single Sequence Secondary Structure Prediction](https://www.biorxiv.org/content/10.1101/2023.02.28.530456v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/omarperacha/ps4-dataset)",
+      "n": "PS4-Mega",
+      "d": "2023-03-01",
+      "m1": "0.763",
+      "m2": "0.868"
+    },
+    {
+      "p": "[PS4: a Next-Generation Dataset for Protein Single Sequence Secondary Structure Prediction](https://www.biorxiv.org/content/10.1101/2023.02.28.530456v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/omarperacha/ps4-dataset)",
+      "n": "PS4-Conv",
+      "d": "2023-03-01",
+      "m1": "0.756",
+      "m2": "0.863"
+    },
+    {
+      "p": "[ProtTrans: Towards Cracking the Language of Life's Code Through Self-Supervised Deep Learning and High Performance Computing](https://arxiv.org/abs/2007.06225v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/agemagician/ProtTrans)",
+      "n": "ProtT5-XL-UniRef50",
+      "d": "2020-07-13",
+      "m1": "0.74",
+      "m2": "0.86"
+    },
+    {
+      "p": "[Deeper Profiles and Cascaded Recurrent and Convolutional Neural Networks for state-of-the-art Protein Secondary Structure Prediction](https://doi.org/10.1038/s41598-019-48786-x)",
+      "c": "[&check;&nbsp;Link](https://github.com/mircare/Porter5)",
+      "n": "Porter5",
+      "d": "2019-10-12",
+      "m1": "0.74"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Advanced ACNN",
+      "d": null,
+      "m1": "0.733"
+    },
+    {
+      "p": "[ProtTrans: Towards Cracking the Language of Life's Code Through Self-Supervised Deep Learning and High Performance Computing](https://arxiv.org/abs/2007.06225v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/agemagician/ProtTrans)",
+      "n": "ProtT5-XL-BFD",
+      "d": "2020-07-13",
+      "m1": "0.71",
+      "m2": "0.84"
+    },
+    {
+      "p": "[ProtTrans: Towards Cracking the Language of Life's Code Through Self-Supervised Deep Learning and High Performance Computing](https://arxiv.org/abs/2007.06225v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/agemagician/ProtTrans)",
+      "n": "ProtBert-BFD",
+      "d": "2020-07-13",
+      "m1": "0.7",
+      "m2": "0.83"
+    },
+    {
+      "p": "[Protein secondary structure prediction using deep convolutional neural fields](http://arxiv.org/abs/1512.00843v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/LucaAngioloni/ProteinSecondaryStructure-CNN)",
+      "n": "ACNN",
+      "d": "2015-12-02",
+      "m1": "0.697"
+    },
+    {
+      "p": "[Protein secondary structure prediction using deep convolutional neural fields](http://arxiv.org/abs/1512.00843v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/LucaAngioloni/ProteinSecondaryStructure-CNN)",
+      "n": "LucaAngioloni-WindowCNN",
+      "d": "2015-12-02",
+      "m1": "0.684"
+    },
+    {
+      "p": "[DistilProtBert: A distilled protein language model used to distinguish between real proteins and their randomly shuffled counterparts](https://www.biorxiv.org/content/10.1101/2022.05.09.491157v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yarongef/DistilProtBert)",
+      "n": "DistilProtBert",
+      "d": "2022-05-10",
+      "m2": "0.79"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

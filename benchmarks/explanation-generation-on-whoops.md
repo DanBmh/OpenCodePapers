@@ -1,0 +1,93 @@
+# explanation-generation-on-whoops
+
+[Dataset Link](https://whoops-benchmark.github.io/) \
+Task Hierarchy: ['Explanation Generation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Human (%)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Breaking Common Sense: WHOOPS! A Vision-and-Language Benchmark of Synthetic and Compositional Images](https://arxiv.org/abs/2303.07274v4)",
+      "c": "",
+      "n": "Ground-truth Caption -> GPT3 (Oracle)",
+      "d": "2023-03-13",
+      "m1": "68"
+    },
+    {
+      "p": "[Breaking Common Sense: WHOOPS! A Vision-and-Language Benchmark of Synthetic and Compositional Images](https://arxiv.org/abs/2303.07274v4)",
+      "c": "",
+      "n": "Predicted Caption -> GPT3",
+      "d": "2023-03-13",
+      "m1": "33"
+    },
+    {
+      "p": "[Breaking Common Sense: WHOOPS! A Vision-and-Language Benchmark of Synthetic and Compositional Images](https://arxiv.org/abs/2303.07274v4)",
+      "c": "",
+      "n": "BLIP2 FlanT5-XXL (Fine-tuned)",
+      "d": "2023-03-13",
+      "m1": "27"
+    },
+    {
+      "p": "[Breaking Common Sense: WHOOPS! A Vision-and-Language Benchmark of Synthetic and Compositional Images](https://arxiv.org/abs/2303.07274v4)",
+      "c": "",
+      "n": "BLIP2 FlanT5-XL (Fine-tuned)",
+      "d": "2023-03-13",
+      "m1": "15"
+    },
+    {
+      "p": "[Breaking Common Sense: WHOOPS! A Vision-and-Language Benchmark of Synthetic and Compositional Images](https://arxiv.org/abs/2303.07274v4)",
+      "c": "",
+      "n": "BLIP2 FlanT5-XXL (Zero-shot)",
+      "d": "2023-03-13",
+      "m1": "0"
+    },
+    {
+      "p": "[VLIS: Unimodal Language Models Guide Multimodal Language Generation](https://arxiv.org/abs/2310.09767v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jiwanchung/vlis)",
+      "n": "VLIS (Lynx)",
+      "d": "2023-10-15",
+      "m2": "80"
+    },
+    {
+      "p": "[VLIS: Unimodal Language Models Guide Multimodal Language Generation](https://arxiv.org/abs/2310.09767v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jiwanchung/vlis)",
+      "n": "VLIS (LLaVA)",
+      "d": "2023-10-15",
+      "m2": "73"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

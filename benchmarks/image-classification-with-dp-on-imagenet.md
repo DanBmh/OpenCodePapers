@@ -1,0 +1,67 @@
+# image-classification-with-dp-on-imagenet
+
+[Dataset Link](https://image-net.org/index.php) \
+Task Hierarchy: ['Image Classification', 'Image Classification with Differential Privacy']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Top 1 Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[TAN Without a Burn: Scaling Laws of DP-SGD](https://arxiv.org/abs/2210.03403v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/tan)",
+      "n": "NFResnet-50",
+      "d": "2022-10-07",
+      "m1": "39.2"
+    },
+    {
+      "p": "[Unlocking High-Accuracy Differentially Private Image Classification through Scale](https://arxiv.org/abs/2204.13650v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-deepmind/jax_privacy)",
+      "n": "NFResnet-50",
+      "d": "2022-04-28",
+      "m1": "32.4"
+    },
+    {
+      "p": "[Toward Training at ImageNet Scale with Differential Privacy](https://arxiv.org/abs/2201.12328v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/dp-imagenet)",
+      "n": "Resnet-18",
+      "d": "2022-01-28",
+      "m1": "6.9"
+    },
+    {
+      "p": "[Toward Training at ImageNet Scale with Differential Privacy](https://arxiv.org/abs/2201.12328v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/dp-imagenet)",
+      "n": "Resnet-50",
+      "d": "2022-01-28",
+      "m1": "5"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

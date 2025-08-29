@@ -1,0 +1,121 @@
+# text-to-image-generation-on-drawbench
+
+[Dataset Link](https://huggingface.co/datasets/shunk031/DrawBench) \
+Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Text-to-Image Generation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Aesthetics (Laion Aesthtetics Predictor)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Human Preference Alignement (HPSv2)",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Text Alignement (SentenceBERT)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Curriculum Direct Preference Optimization for Diffusion and Consistency Models](https://arxiv.org/abs/2405.13637v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/croitorualin/curriculum-dpo)",
+      "n": "LCM (Curriculum DPO)",
+      "d": "2024-05-22",
+      "m1": "6.1829",
+      "m2": "0.2851",
+      "m3": "0.5812"
+    },
+    {
+      "p": "[Diffusion Model Alignment Using Direct Preference Optimization](https://arxiv.org/abs/2311.12908v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SalesforceAIResearch/DiffusionDPO)",
+      "n": "LCM (DPO)",
+      "d": "2023-11-21",
+      "m1": "6.0430",
+      "m2": "0.2814",
+      "m3": "0.5720"
+    },
+    {
+      "p": "[Training Diffusion Models with Reinforcement Learning](https://arxiv.org/abs/2305.13301v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/kvablack/ddpo-pytorch)",
+      "n": "LCM (DDPO)",
+      "d": "2023-05-22",
+      "m1": "6.0121",
+      "m2": "0.2803",
+      "m3": "0.5721"
+    },
+    {
+      "p": "[Latent Consistency Models: Synthesizing High-Resolution Images with Few-Step Inference](https://arxiv.org/abs/2310.04378v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/luosiallen/latent-consistency-model)",
+      "n": "LCM",
+      "d": "2023-10-06",
+      "m1": "5.8038",
+      "m2": "0.2610",
+      "m3": "0.5602"
+    },
+    {
+      "p": "[Curriculum Direct Preference Optimization for Diffusion and Consistency Models](https://arxiv.org/abs/2405.13637v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/croitorualin/curriculum-dpo)",
+      "n": "Stable Diffusion 1.5 (Curriculum DPO)",
+      "d": "2024-05-22",
+      "m1": "5.7060",
+      "m2": "0.2681",
+      "m3": "0.6234"
+    },
+    {
+      "p": "[Training Diffusion Models with Reinforcement Learning](https://arxiv.org/abs/2305.13301v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/kvablack/ddpo-pytorch)",
+      "n": "Stable Diffusion 1.5 (DDPO)",
+      "d": "2023-05-22",
+      "m1": "5.6748",
+      "m2": "0.2673",
+      "m3": "0.6024"
+    },
+    {
+      "p": "[Diffusion Model Alignment Using Direct Preference Optimization](https://arxiv.org/abs/2311.12908v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SalesforceAIResearch/DiffusionDPO)",
+      "n": "Stable Diffusion 1.5 (DPO)",
+      "d": "2023-11-21",
+      "m1": "5.6205",
+      "m2": "0.2672",
+      "m3": "0.6075"
+    },
+    {
+      "p": "[High-Resolution Image Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2112.10752v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/compvis/stable-diffusion)",
+      "n": "Stable Diffusion 1.5",
+      "d": "2021-12-20",
+      "m1": "5.4292",
+      "m2": "0.2646",
+      "m3": "0.5997"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

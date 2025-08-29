@@ -1,0 +1,193 @@
+# image-to-image-translation-on-gtav-to
+
+[Dataset Link](https://arxiv.org/pdf/1608.02192v1.pdf) \
+Task Hierarchy: ['1 Image, 2*2 Stitching', 'Image-to-Image Translation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mIoU",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[MIC: Masked Image Consistency for Context-Enhanced Domain Adaptation](https://arxiv.org/abs/2212.01322v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/lhoyer/mic)",
+      "n": "MIC",
+      "d": "2022-12-02",
+      "m1": "75.9"
+    },
+    {
+      "p": "[PiPa: Pixel- and Patch-wise Self-supervised Learning for Domain Adaptative Semantic Segmentation](https://arxiv.org/abs/2211.07609v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/chen742/PiPa)",
+      "n": "HRDA + PiPa",
+      "d": "2022-11-14",
+      "m1": "75.6"
+    },
+    {
+      "p": "[HRDA: Context-Aware High-Resolution Domain-Adaptive Semantic Segmentation](https://arxiv.org/abs/2204.13132v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/lhoyer/hrda)",
+      "n": "HRDA",
+      "d": "2022-04-27",
+      "m1": "73.8"
+    },
+    {
+      "p": "[PiPa: Pixel- and Patch-wise Self-supervised Learning for Domain Adaptative Semantic Segmentation](https://arxiv.org/abs/2211.07609v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/chen742/PiPa)",
+      "n": "DAFormer + PiPa",
+      "d": "2022-11-14",
+      "m1": "71.7"
+    },
+    {
+      "p": "[SePiCo: Semantic-Guided Pixel Contrast for Domain Adaptive Semantic Segmentation](https://arxiv.org/abs/2204.08808v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/bit-da/sepico)",
+      "n": "SePiCo",
+      "d": "2022-04-19",
+      "m1": "70.3"
+    },
+    {
+      "p": "[Context-Aware Mixup for Domain Adaptive Semantic Segmentation](https://arxiv.org/abs/2108.03557v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/qianyuzqy/CAMix)",
+      "n": "CAMix (w DAFormer)",
+      "d": "2021-08-08",
+      "m1": "70.0"
+    },
+    {
+      "p": "[ProCST: Boosting Semantic Segmentation Using Progressive Cyclic Style-Transfer](https://arxiv.org/abs/2204.11891v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/shahaf1313/procst)",
+      "n": "DAFormer + ProCST",
+      "d": "2022-04-25",
+      "m1": "69.4"
+    },
+    {
+      "p": "[DAFormer: Improving Network Architectures and Training Strategies for Domain-Adaptive Semantic Segmentation](https://arxiv.org/abs/2111.14887v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/lhoyer/DAFormer)",
+      "n": "DAFormer",
+      "d": "2021-11-29",
+      "m1": "68.3"
+    },
+    {
+      "p": "[Smoothing Matters: Momentum Transformer for Domain Adaptive Semantic Segmentation](https://arxiv.org/abs/2203.07988v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/alpc91/transda)",
+      "n": "TransDA-B",
+      "d": "2022-03-15",
+      "m1": "63.9"
+    },
+    {
+      "p": "[Deliberated Domain Bridging for Domain Adaptive Semantic Segmentation](https://arxiv.org/abs/2209.07695v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/xiaoachen98/DDB)",
+      "n": "DDB",
+      "d": "2022-09-16",
+      "m1": "62.7"
+    },
+    {
+      "p": "[Exploring High-quality Target Domain Information for Unsupervised Domain Adaptive Semantic Segmentation](https://arxiv.org/abs/2208.06100v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ljjcoder/ehtdi)",
+      "n": "EHTDI*",
+      "d": "2022-08-12",
+      "m1": "62.0"
+    },
+    {
+      "p": "[Class-Balanced Pixel-Level Self-Labeling for Domain Adaptive Semantic Segmentation](https://arxiv.org/abs/2203.09744v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/lslrh/cpsl)",
+      "n": "CPSL",
+      "d": "2022-03-18",
+      "m1": "60.8"
+    },
+    {
+      "p": "[G2L: A Global to Local Alignment Method for Unsupervised Domain Adaptive Semantic Segmentation](https://www.sciencedirect.com/science/article/pii/S1877050922012170)",
+      "c": "",
+      "n": "G2L",
+      "d": "2022-09-07",
+      "m1": "59.7"
+    },
+    {
+      "p": "[Cross-Region Domain Adaptation for Class-level Alignment](https://arxiv.org/abs/2109.06422v2)",
+      "c": "",
+      "n": "ProDA+CRA",
+      "d": "2021-09-14",
+      "m1": "58.6"
+    },
+    {
+      "p": "[Prototypical Pseudo Label Denoising and Target Structure Learning for Domain Adaptive Semantic Segmentation](https://arxiv.org/abs/2101.10979v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/ProDA)",
+      "n": "ProDA",
+      "d": "2021-01-26",
+      "m1": "57.5"
+    },
+    {
+      "p": "[Context-Aware Mixup for Domain Adaptive Semantic Segmentation](https://arxiv.org/abs/2108.03557v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/qianyuzqy/CAMix)",
+      "n": "CAMix (w Deeplabv2 ResNet 101)",
+      "d": "2021-08-08",
+      "m1": "55.2"
+    },
+    {
+      "p": "[Content-Consistent Matching for Domain Adaptive Semantic Segmentation](https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/2178_ECCV_2020_paper.php)",
+      "c": "[&check;&nbsp;Link](https://github.com/Solacex/CCM)",
+      "n": "CCM",
+      "d": null,
+      "m1": "49.9"
+    },
+    {
+      "p": "[Unsupervised Domain Adaptation for Semantic Segmentation via Class-Balanced Self-Training](http://openaccess.thecvf.com/content_ECCV_2018/html/Yang_Zou_Unsupervised_Domain_Adaptation_ECCV_2018_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/yzou2/CBST)",
+      "n": "CBST",
+      "d": "2018-09-01",
+      "m1": "47.0"
+    },
+    {
+      "p": "[ADVENT: Adversarial Entropy Minimization for Domain Adaptation in Semantic Segmentation](http://arxiv.org/abs/1811.12833v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/thuml/Transfer-Learning-Library)",
+      "n": "ADVENT",
+      "d": "2018-11-30",
+      "m1": "44.8"
+    },
+    {
+      "p": "[Deep Residual Learning for Image Recognition](http://arxiv.org/abs/1512.03385v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/research/deeplab)",
+      "n": "ResNet101 65.1",
+      "d": "2015-12-10",
+      "m1": "41.7"
+    },
+    {
+      "p": "[Bidirectional Learning for Domain Adaptation of Semantic Segmentation](http://arxiv.org/abs/1904.10620v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/liyunsheng13/BDL)",
+      "n": "Bidirectional Learning",
+      "d": "2019-04-24",
+      "m1": "41.3"
+    },
+    {
+      "p": "[Very Deep Convolutional Networks for Large-Scale Image Recognition](http://arxiv.org/abs/1409.1556v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/research/slim)",
+      "n": "VGG16 60.3",
+      "d": "2014-09-04",
+      "m1": "41.3"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

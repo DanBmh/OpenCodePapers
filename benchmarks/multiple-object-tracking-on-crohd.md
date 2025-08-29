@@ -1,0 +1,121 @@
+# multiple-object-tracking-on-crohd
+
+[Dataset Link]() \
+Task Hierarchy: ['Multiple Object Tracking']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "MOTA",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "IDEucl",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "IDF1",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "IDs",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "ML",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "MT",
+      "sortable": "true"
+    },
+    {
+      "key": "m7",
+      "label": "HOTA",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[PP-YOLOE: An evolved version of YOLO](https://arxiv.org/abs/2203.16250v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleDetection)",
+      "n": "PP-Tracking",
+      "d": "2022-03-30",
+      "m1": "72.6"
+    },
+    {
+      "p": "[Observation-Centric SORT: Rethinking SORT for Robust Multi-Object Tracking](https://arxiv.org/abs/2203.14360v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleDetection)",
+      "n": "OC-SORT",
+      "d": "2022-03-27",
+      "m1": "67.9",
+      "m3": "62.9",
+      "m7": "44.1"
+    },
+    {
+      "p": "[Tracking Pedestrian Heads in Dense Crowd](https://arxiv.org/abs/2103.13516v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleDetection)",
+      "n": "HeadHunter-T",
+      "d": "2021-03-24",
+      "m1": "63.6",
+      "m2": "60.3",
+      "m3": "57.1",
+      "m4": "892",
+      "m5": "93",
+      "m6": "146"
+    },
+    {
+      "p": "[Tracking Pedestrian Heads in Dense Crowd](https://arxiv.org/abs/2103.13516v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleDetection)",
+      "n": "Tracktor",
+      "d": "2021-03-24",
+      "m1": "58.9",
+      "m2": "31.8",
+      "m3": "38.5",
+      "m4": "3474",
+      "m5": "117",
+      "m6": "125"
+    },
+    {
+      "p": "[Tracking Pedestrian Heads in Dense Crowd](https://arxiv.org/abs/2103.13516v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleDetection)",
+      "n": "SORT",
+      "d": "2021-03-24",
+      "m1": "46.4",
+      "m2": "58",
+      "m3": "48.4",
+      "m4": "649",
+      "m5": "216",
+      "m6": "49"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

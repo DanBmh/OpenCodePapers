@@ -1,0 +1,67 @@
+# weakly-supervised-semantic-segmentation-on-14
+
+[Dataset Link]() \
+Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', 'Weakly-Supervised Semantic Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Mean IoU",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Foundation Model Assisted Weakly Supervised Semantic Segmentation](https://arxiv.org/abs/2312.03585v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/HAL-42/FMA-WSSS)",
+      "n": "FMA-WSSS",
+      "d": "2023-12-06",
+      "m1": "80.4"
+    },
+    {
+      "p": "[WeakTr: Exploring Plain Vision Transformer for Weakly-supervised Semantic Segmentation](https://arxiv.org/abs/2304.01184v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/hustvl/weaktr)",
+      "n": "WeakTr (DeiT-S, single-stage)",
+      "d": "2023-04-03",
+      "m1": "76.5"
+    },
+    {
+      "p": "[Fine-grained Background Representation for Weakly Supervised Semantic Segmentation](https://arxiv.org/abs/2406.15755v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/YininKorea/FBR)",
+      "n": "FBR",
+      "d": "2024-06-22",
+      "m1": "75.9"
+    },
+    {
+      "p": "[Max Pooling with Vision Transformers reconciles class and shape in weakly supervised semantic segmentation](https://arxiv.org/abs/2210.17400v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/deepplants/vit-pcm)",
+      "n": "ViT-PCM",
+      "d": "2022-10-31",
+      "m1": "71.4"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,185 @@
+# image-reconstruction-on-imagenet
+
+[Dataset Link](https://image-net.org/index.php) \
+Task Hierarchy: ['Image Reconstruction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "FID",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "LPIPS",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "SSIM",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[MGVQ: Could VQ-VAE Beat VAE? A Generalizable Tokenizer with Multi-group Quantization](https://arxiv.org/abs/2507.07997)",
+      "c": "[&check;&nbsp;Link](https://github.com/MKJia/MGVQ)",
+      "n": "MGVQ (16x16x8)",
+      "d": "2025-07-14",
+      "m1": "0.49",
+      "m2": "0.086",
+      "m3": "24.70",
+      "m4": "0.787"
+    },
+    {
+      "p": "[MGVQ: Could VQ-VAE Beat VAE? A Generalizable Tokenizer with Multi-group Quantization](https://arxiv.org/abs/2507.07997)",
+      "c": "[&check;&nbsp;Link](https://github.com/MKJia/MGVQ)",
+      "n": "MGVQ (16x16x4)",
+      "d": "2025-07-14",
+      "m1": "0.64",
+      "m2": "0.110",
+      "m3": "23.71",
+      "m4": "0.755"
+    },
+    {
+      "p": "[GigaTok: Scaling Visual Tokenizers to 3 Billion Parameters for Autoregressive Image Generation](https://arxiv.org/abs/2504.08736v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SilentView/GigaTok)",
+      "n": "GigaTok-XL-XXL",
+      "d": "2025-04-11",
+      "m1": "0.79",
+      "m2": "0.1947",
+      "m3": "21.65",
+      "m4": "0.699"
+    },
+    {
+      "p": "[Preventing Local Pitfalls in Vector Quantization via Optimal Transport](https://arxiv.org/abs/2412.15195v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zbr17/OptVQ)",
+      "n": "OptVQ (16x16x8)",
+      "d": "2024-12-19",
+      "m1": "0.91",
+      "m2": "0.066",
+      "m3": "27.57",
+      "m4": "0.729"
+    },
+    {
+      "p": "[Preventing Local Pitfalls in Vector Quantization via Optimal Transport](https://arxiv.org/abs/2412.15195v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zbr17/OptVQ)",
+      "n": "OptVQ (16x16x4)",
+      "d": "2024-12-19",
+      "m1": "1.00",
+      "m2": "0.076",
+      "m3": "26.59",
+      "m4": "0.717"
+    },
+    {
+      "p": "[Taming Scalable Visual Tokenizer for Autoregressive Image Generation](https://arxiv.org/abs/2412.02692v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tencentarc/seed-voken)",
+      "n": "IBQ (16x16)",
+      "d": "2024-12-03",
+      "m1": "1.00",
+      "m2": "0.2030"
+    },
+    {
+      "p": "[MoVQ: Modulating Quantized Vectors for High-Fidelity Image Generation](https://arxiv.org/abs/2209.09002v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ai-forever/Kandinsky-2)",
+      "n": "Mo-VQGAN (16x16x4)",
+      "d": "2022-09-19",
+      "m1": "1.12",
+      "m2": "0.113",
+      "m3": "22.42",
+      "m4": "0.673"
+    },
+    {
+      "p": "[Open-MAGVIT2: An Open-Source Project Toward Democratizing Auto-regressive Visual Generation](https://arxiv.org/abs/2409.04410v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tencentarc/open-magvit2)",
+      "n": "Open-Magvit2 (16x16)",
+      "d": "2024-09-06",
+      "m1": "1.17",
+      "m3": "21.90"
+    },
+    {
+      "p": "[Vector-quantized Image Modeling with Improved VQGAN](https://arxiv.org/abs/2110.04627v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/lucidrains/DALLE2-pytorch)",
+      "n": "ViT-VQGAN (16x16)",
+      "d": "2021-10-09",
+      "m1": "1.28"
+    },
+    {
+      "p": "[MaskBit: Embedding-free Image Generation via Bit Tokens](https://arxiv.org/abs/2409.16211v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/markweberdev/maskbit)",
+      "n": "MaskBit (16x16)",
+      "d": "2024-09-24",
+      "m1": "1.66"
+    },
+    {
+      "p": "[An Image is Worth 32 Tokens for Reconstruction and Generation](https://arxiv.org/abs/2406.07550v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/bytedance/1d-tokenizer)",
+      "n": "TiTok-S-128",
+      "d": "2024-06-11",
+      "m1": "1.71"
+    },
+    {
+      "p": "[Autoregressive Image Generation using Residual Quantization](https://arxiv.org/abs/2203.01941v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/kakaobrain/rq-vae-transformer)",
+      "n": "RQ-VAE (8x8x16)",
+      "d": "2022-03-03",
+      "m1": "1.83"
+    },
+    {
+      "p": "[MaskGIT: Masked Generative Image Transformer](https://arxiv.org/abs/2202.04200v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/lucidrains/soundstorm-pytorch)",
+      "n": "MaskGIT-VQGAN (16x16)",
+      "d": "2022-02-08",
+      "m1": "2.28"
+    },
+    {
+      "p": "[Scaling the Codebook Size of VQGAN to 100,000 with a Utilization Rate of 99%](https://arxiv.org/abs/2406.11837v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zh460045050/vqgan-lc)",
+      "n": "VQGAN-LC (16x16)",
+      "d": "2024-06-17",
+      "m1": "2.62",
+      "m2": "0.120",
+      "m3": "23.80",
+      "m4": "0.589"
+    },
+    {
+      "p": "[Taming Transformers for High-Resolution Image Synthesis](https://arxiv.org/abs/2012.09841v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/CompVis/taming-transformers)",
+      "n": "Taming-VQGAN (16x16)",
+      "d": "2020-12-17",
+      "m1": "3.64",
+      "m2": "0.177",
+      "m3": "19.93",
+      "m4": "0.542"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

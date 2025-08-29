@@ -1,0 +1,60 @@
+# object-proposal-generation-on-pascal-voc-2012
+
+[Dataset Link]() \
+Task Hierarchy: ['16k', 'Object Detection', 'Object Proposal Generation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Average Recall",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Class-agnostic Object Detection with Multi-modal Transformer](https://arxiv.org/abs/2111.11430v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/mmaaz60/mvits_for_class_agnostic_od)",
+      "n": "MDef-DETR",
+      "d": "2021-11-22",
+      "m1": "0.9126"
+    },
+    {
+      "p": "[Recurrent Pixel Embedding for Instance Grouping](http://arxiv.org/abs/1712.08273v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/aimerykong/Recurrent-Pixel-Embedding-for-Instance-Grouping)",
+      "n": "Recurrent Pixel Embedding",
+      "d": "2017-12-22",
+      "m1": "0.814"
+    },
+    {
+      "p": "[Semantic Instance Segmentation via Deep Metric Learning](http://arxiv.org/abs/1703.10277v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/alicranck/instance-seg)",
+      "n": "inst-DML",
+      "d": "2017-03-30",
+      "m1": "0.667"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

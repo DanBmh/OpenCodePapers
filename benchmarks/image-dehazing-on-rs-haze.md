@@ -1,0 +1,99 @@
+# image-dehazing-on-rs-haze
+
+[Dataset Link](https://github.com/IDKiro/DehazeFormer) \
+Task Hierarchy: ['Image Dehazing']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "SSIM",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Vision Transformers for Single Image Dehazing](https://arxiv.org/abs/2204.03883v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/IDKiro/DehazeFormer)",
+      "n": "DehazeFormer-B",
+      "d": "2022-04-08",
+      "m1": "39.87",
+      "m2": "0.971"
+    },
+    {
+      "p": "[Rethinking Performance Gains in Image Dehazing Networks](https://arxiv.org/abs/2209.11448v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/idkiro/gunet)",
+      "n": "gUNet-D",
+      "d": "2022-09-23",
+      "m1": "39.7",
+      "m2": "0.971"
+    },
+    {
+      "p": "[FFA-Net: Feature Fusion Attention Network for Single Image Dehazing](https://arxiv.org/abs/1911.07559v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhilin007/FFA-Net)",
+      "n": "FFA-Net",
+      "d": "2019-11-18",
+      "m1": "39.39",
+      "m2": "0.969"
+    },
+    {
+      "p": "[GridDehazeNet: Attention-Based Multi-Scale Network for Image Dehazing](https://arxiv.org/abs/1908.03245v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/proteus1991/GridDehazeNet)",
+      "n": "GridDehazeNet",
+      "d": "2019-08-08",
+      "m1": "36.4",
+      "m2": "0.96"
+    },
+    {
+      "p": "[Contrastive Learning for Compact Single Image Dehazing](https://arxiv.org/abs/2104.09367v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/GlassyWu/AECR-Net)",
+      "n": "AECR-Net",
+      "d": "2021-04-19",
+      "m1": "35.69"
+    },
+    {
+      "p": "[Gated Context Aggregation Network for Image Dehazing and Deraining](http://arxiv.org/abs/1811.08747v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/cddlyf/GCANet)",
+      "n": "GCANet",
+      "d": "2018-11-21",
+      "m1": "34.41",
+      "m2": "0.949"
+    },
+    {
+      "p": "[DehazeNet: An End-to-End System for Single Image Haze Removal](http://arxiv.org/abs/1601.07661v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/caibolun/DehazeNet)",
+      "n": "DehazeNet",
+      "d": "2016-01-28",
+      "m1": "23.16",
+      "m2": "0.816"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

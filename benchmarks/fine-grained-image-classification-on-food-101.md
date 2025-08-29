@@ -1,0 +1,169 @@
+# fine-grained-image-classification-on-food-101
+
+[Dataset Link](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/) \
+Task Hierarchy: ['Fine-Grained Image Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "FLOPS",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "PARAMS",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Top 1 Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Context-aware Attentional Pooling (CAP) for Fine-grained Visual Classification](https://arxiv.org/abs/2101.06635v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ArdhenduBehera/cap)",
+      "n": "CAP",
+      "d": "2021-01-17",
+      "m1": "98.6",
+      "m3": "34.2"
+    },
+    {
+      "p": "[Sharpness-Aware Minimization for Efficiently Improving Generalization](https://arxiv.org/abs/2010.01412v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/davda54/sam)",
+      "n": "EffNet-L2 (SAM)",
+      "d": "2020-10-03",
+      "m1": "96.18"
+    },
+    {
+      "p": "[Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision](https://arxiv.org/abs/2102.05918v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/metaclip)",
+      "n": "ALIGN",
+      "d": "2021-02-11",
+      "m1": "95.88"
+    },
+    {
+      "p": "[Dining on Details: LLM-Guided Expert Networks for Fine-Grained Food Recognition](https://dl.acm.org/doi/10.1145/3607828.3617797)",
+      "c": "",
+      "n": "DoD (SwinV2-B)",
+      "d": "2023-10-29",
+      "m1": "94.9"
+    },
+    {
+      "p": "[Learning Multi-Subset of Classes for Fine-Grained Food Recognition](https://dl.acm.org/doi/abs/10.1145/3552484.3555754)",
+      "c": "[&check;&nbsp;Link](https://github.com/javierrodenas/Learning-Multi-Subset-of-Classes-for-Fine-Grained-Recognition)",
+      "n": "CSWin-L",
+      "d": "2022-10-10",
+      "m1": "93.81"
+    },
+    {
+      "p": "[Grafit: Learning fine-grained image representations with coarse labels](https://arxiv.org/abs/2011.12982v1)",
+      "c": "",
+      "n": "Grafit (RegNet-8GF)",
+      "d": "2020-11-25",
+      "m1": "93.7"
+    },
+    {
+      "p": "[Learning Multi-Subset of Classes for Fine-Grained Food Recognition](https://dl.acm.org/doi/abs/10.1145/3552484.3555754)",
+      "c": "[&check;&nbsp;Link](https://github.com/javierrodenas/Learning-Multi-Subset-of-Classes-for-Fine-Grained-Recognition)",
+      "n": "VOLO-D5",
+      "d": "2022-10-10",
+      "m1": "93.66"
+    },
+    {
+      "p": "[EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks](https://arxiv.org/abs/1905.11946v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/ultralytics/yolov5)",
+      "n": "EfficientNet-B7",
+      "d": "2019-05-28",
+      "m1": "93.0"
+    },
+    {
+      "p": "[Compounding the Performance Improvements of Assembled Techniques in a Convolutional Neural Network](https://arxiv.org/abs/2001.06268v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/clovaai/assembled-cnn)",
+      "n": "Assemble-ResNet-FGVC-50",
+      "d": "2020-01-17",
+      "m1": "92.5",
+      "m4": "92.47"
+    },
+    {
+      "p": "[A Continual Development Methodology for Large-scale Multitask Dynamic ML Systems](https://arxiv.org/abs/2209.07326v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research/tree/master/muNet)",
+      "n": "\u00b52Net+ (ViT-L/16)",
+      "d": "2022-09-15",
+      "m1": "91.47"
+    },
+    {
+      "p": "[Neural Architecture Transfer](https://arxiv.org/abs/2005.05859v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/human-analysis/neural-architecture-transfer)",
+      "n": "NAT-M4",
+      "d": "2020-05-12",
+      "m1": "89.4",
+      "m2": "361M",
+      "m3": "4.5M"
+    },
+    {
+      "p": "[Neural Architecture Transfer](https://arxiv.org/abs/2005.05859v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/human-analysis/neural-architecture-transfer)",
+      "n": "NAT-M3",
+      "d": "2020-05-12",
+      "m1": "89.0",
+      "m2": "299M",
+      "m3": "3.9M"
+    },
+    {
+      "p": "[Neural Architecture Transfer](https://arxiv.org/abs/2005.05859v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/human-analysis/neural-architecture-transfer)",
+      "n": "NAT-M2",
+      "d": "2020-05-12",
+      "m1": "88.5",
+      "m2": "266M",
+      "m3": "4.1M"
+    },
+    {
+      "p": "[Neural Architecture Transfer](https://arxiv.org/abs/2005.05859v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/human-analysis/neural-architecture-transfer)",
+      "n": "NAT-M1",
+      "d": "2020-05-12",
+      "m1": "87.4",
+      "m2": "198M",
+      "m3": "3.1M"
+    },
+    {
+      "p": "[Domain Adaptive Transfer Learning on Visual Attention Aware Data Augmentation for Fine-grained Visual Categorization](https://arxiv.org/abs/2010.03071v1)",
+      "c": "",
+      "n": "ImageNet + iNat on WS-DAN",
+      "d": "2020-10-06",
+      "m4": "88.7"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

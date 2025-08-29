@@ -1,0 +1,553 @@
+# emotion-recognition-in-conversation-on-meld
+
+[Dataset Link](https://affective-meld.github.io/) \
+Task Hierarchy: ['Emotion Recognition', 'Emotion Recognition in Conversation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Weighted-F1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Micro-F1",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Balanced Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Efficient Long-distance Latent Relation-aware Graph Neural Network for Multi-modal Emotion Recognition in Conversations](https://arxiv.org/abs/2407.00119v2)",
+      "c": "",
+      "n": "ELR-GNN",
+      "d": "2024-06-27",
+      "m1": "69.9",
+      "m2": "68.7"
+    },
+    {
+      "p": "[BiosERC: Integrating Biography Speakers Supported by LLMs for ERC Tasks](https://arxiv.org/abs/2407.04279v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yingjie7/BiosERC)",
+      "n": "BiosERC",
+      "d": "2024-07-05",
+      "m1": "69.83"
+    },
+    {
+      "p": "[CKERC : Joint Large Language Models with Commonsense Knowledge for Emotion Recognition in Conversation](https://arxiv.org/abs/2403.07260v1)",
+      "c": "",
+      "n": "CKERC",
+      "d": "2024-03-12",
+      "m1": "69.27"
+    },
+    {
+      "p": "[InstructERC: Reforming Emotion Recognition in Conversation with Multi-task Retrieval-Augmented Large Language Models](https://arxiv.org/abs/2309.11911v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/LIN-SHANG/InstructERC)",
+      "n": "InstructERC",
+      "d": "2023-09-21",
+      "m1": "69.15"
+    },
+    {
+      "p": "[Revisiting Multimodal Emotion Recognition in Conversation from the Perspective of Graph Spectrum](https://arxiv.org/abs/2404.17862v2)",
+      "c": "",
+      "n": "GS-MCC",
+      "d": "2024-04-27",
+      "m1": "69.0",
+      "m2": "68.1"
+    },
+    {
+      "p": "[Beyond Silent Letters: Amplifying LLMs in Emotion Recognition with Vocal Nuances](https://arxiv.org/abs/2407.21315v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/zehuiwu/SpeechCueLLM)",
+      "n": "SpeechCueLLM",
+      "d": "2024-07-31",
+      "m1": "67.604"
+    },
+    {
+      "p": "[Revisiting Multi-modal Emotion Learning with Broad State Space Models and Probability-guidance Fusion](https://arxiv.org/abs/2404.17858v2)",
+      "c": "",
+      "n": "Mamba-like Model",
+      "d": "2024-04-27",
+      "m1": "67.6",
+      "m2": "68.0"
+    },
+    {
+      "p": "[TelME: Teacher-leading Multimodal Fusion Network for Emotion Recognition in Conversation](https://arxiv.org/abs/2401.12987v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/yuntaeyang/telme)",
+      "n": "TelME",
+      "d": "2024-01-16",
+      "m1": "67.37"
+    },
+    {
+      "p": "[Supervised Prototypical Contrastive Learning for Emotion Recognition in Conversation](https://arxiv.org/abs/2210.08713v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/caskcsg/spcl)",
+      "n": "SPCL-CL-ERC",
+      "d": "2022-10-17",
+      "m1": "67.25"
+    },
+    {
+      "p": "[Emotion-Anchored Contrastive Learning Framework for Emotion Recognition in Conversation](https://arxiv.org/abs/2403.20289v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yu-fangxu/eacl)",
+      "n": "EACL",
+      "d": "2024-03-29",
+      "m1": "67.12"
+    },
+    {
+      "p": "[Revisiting Disentanglement and Fusion on Modality and Context in Conversational Multimodal Emotion Recognition](https://arxiv.org/abs/2308.04502v2)",
+      "c": "",
+      "n": "DF-ERC",
+      "d": "2023-08-08",
+      "m1": "67.03",
+      "m2": "68.28"
+    },
+    {
+      "p": "[Hierarchical Dialogue Understanding with Special Tokens and Turn-level Attention](https://arxiv.org/abs/2305.00262v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/shawx825/hidialog)",
+      "n": "HiDialog",
+      "d": "2023-04-29",
+      "m1": "66.96"
+    },
+    {
+      "p": "[Supervised Adversarial Contrastive Learning for Emotion Recognition in Conversations](https://arxiv.org/abs/2306.01505v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zerohd4869/sacl)",
+      "n": "SACL-LSTM (one seed)",
+      "d": "2023-06-02",
+      "m1": "66.86",
+      "m2": "67.89"
+    },
+    {
+      "p": "[A Facial Expression-Aware Multimodal Multi-task Learning Framework for Emotion Recognition in Multi-party Conversations](https://aclanthology.org/2023.acl-long.861/)",
+      "c": "[&check;&nbsp;Link](https://github.com/NUSTM/FacialMMT)",
+      "n": "FacialMMT",
+      "d": "2023-07-01",
+      "m1": "66.73"
+    },
+    {
+      "p": "[M2FNet: Multi-modal Fusion Network for Emotion Recognition in Conversation](https://arxiv.org/abs/2206.02187v1)",
+      "c": "",
+      "n": "M2FNet",
+      "d": "2022-06-05",
+      "m1": "66.71",
+      "m2": "67.85"
+    },
+    {
+      "p": "[Tracing Intricate Cues in Dialogue: Joint Graph Structure and Sentiment Dynamics for Multimodal Emotion Recognition](https://arxiv.org/abs/2407.21536v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/lijfrank-open/GraphSmile)",
+      "n": "GraphSmile",
+      "d": "2024-07-31",
+      "m1": "66.71",
+      "m2": "67.70"
+    },
+    {
+      "p": "[CFN-ESA: A Cross-Modal Fusion Network with Emotion-Shift Awareness for Dialogue Emotion Recognition](https://arxiv.org/abs/2307.15432v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/lijfrank-open/CFN-ESA)",
+      "n": "CFN-ESA",
+      "d": "2023-07-28",
+      "m1": "66.70",
+      "m2": "67.85"
+    },
+    {
+      "p": "[A Transformer-Based Model With Self-Distillation for Multimodal Emotion Recognition in Conversations](https://arxiv.org/abs/2310.20494v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/butterfliesss/sdt)",
+      "n": "SDT",
+      "d": "2023-10-31",
+      "m1": "66.60",
+      "m2": "67.55"
+    },
+    {
+      "p": "[CoMPM: Context Modeling with Speaker's Pre-trained Memory Tracking for Emotion Recognition in Conversation](https://arxiv.org/abs/2108.11626v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/rungjoo/compm)",
+      "n": "CoMPM",
+      "d": "2021-08-26",
+      "m1": "66.52"
+    },
+    {
+      "p": "[EmotionFlow: Capture the Dialogue Level Emotion Transitions](https://github.com/fpcsong/emotionflow/blob/master/EmotionFlow.pdf)",
+      "c": "[&check;&nbsp;Link](https://github.com/fpcsong/emotionflow)",
+      "n": "EmotionFlow-large",
+      "d": "2022-05-07",
+      "m1": "66.50"
+    },
+    {
+      "p": "[The Emotion is Not One-hot Encoding: Learning with Grayscale Label for Emotion Recognition in Conversation](https://arxiv.org/abs/2206.07359v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rungjoo/Emotion_not_One)",
+      "n": "EmoOne-RoBERTa",
+      "d": "2022-06-15",
+      "m1": "66.49"
+    },
+    {
+      "p": "[Supervised Adversarial Contrastive Learning for Emotion Recognition in Conversations](https://arxiv.org/abs/2306.01505v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zerohd4869/sacl)",
+      "n": "SACL-LSTM",
+      "d": "2023-06-02",
+      "m1": "66.45",
+      "m2": "67.51"
+    },
+    {
+      "p": "[EmotionIC: emotional inertia and contagion-driven dependency modeling for emotion recognition in conversation](https://arxiv.org/abs/2303.11117v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/lijfrank-open/EmotionIC)",
+      "n": "EmotionIC",
+      "d": "2023-03-20",
+      "m1": "66.32",
+      "m3": "67.59"
+    },
+    {
+      "p": "[M2FNet: Multi-modal Fusion Network for Emotion Recognition in Conversation](https://arxiv.org/abs/2206.02187v1)",
+      "c": "",
+      "n": "M2FNet-Text",
+      "d": "2022-06-05",
+      "m1": "66.23",
+      "m2": "67.24"
+    },
+    {
+      "p": "[Static and Dynamic Speaker Modeling based on Graph Neural Network for Emotion Recognition in Conversation](https://aclanthology.org/2022.naacl-srw.31)",
+      "c": "",
+      "n": "Static-Dynamic Modeling",
+      "d": null,
+      "m1": "65.90"
+    },
+    {
+      "p": "[HCAM -- Hierarchical Cross Attention Model for Multi-modal Emotion Recognition](https://arxiv.org/abs/2304.06910v2)",
+      "c": "",
+      "n": "Audio + Text (Stage III)",
+      "d": "2023-04-14",
+      "m1": "65.8"
+    },
+    {
+      "p": "[DialogueCRN: Contextual Reasoning Networks for Emotion Recognition in Conversations](https://arxiv.org/abs/2106.01978v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zerohd4869/mm-dfn)",
+      "n": "DialogueCRN+RoBERTa",
+      "d": "2021-06-03",
+      "m1": "65.77",
+      "m2": "66.93"
+    },
+    {
+      "p": "[EmoBERTa: Speaker-Aware Emotion Recognition in Conversation with RoBERTa](https://arxiv.org/abs/2108.12009v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tae898/erc)",
+      "n": "EmoBERTa",
+      "d": "2021-08-26",
+      "m1": "65.61"
+    },
+    {
+      "p": "[GRASP: Guiding model with RelAtional Semantics using Prompt for Dialogue Relation Extraction](https://arxiv.org/abs/2208.12494v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/rgop13/GRASP)",
+      "n": "GRASP_Large",
+      "d": "2022-08-26",
+      "m1": "65.6"
+    },
+    {
+      "p": "[UniMSE: Towards Unified Multimodal Sentiment Analysis and Emotion Recognition](https://arxiv.org/abs/2211.11256v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/lemei/unimse)",
+      "n": "UniMSE",
+      "d": "2022-11-21",
+      "m1": "65.51",
+      "m2": "65.09"
+    },
+    {
+      "p": "[Topic-Driven and Knowledge-Aware Transformer for Dialogue Emotion Detection](https://arxiv.org/abs/2106.01071v1)",
+      "c": "",
+      "n": "TODKAT",
+      "d": "2021-06-02",
+      "m1": "65.47"
+    },
+    {
+      "p": "[Graph Based Network with Contextualized Representations of Turns in Dialogue](https://arxiv.org/abs/2109.04008v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/blacknoodle/tucore-gcn)",
+      "n": "TUCORE-GCN_RoBERTa",
+      "d": "2021-09-09",
+      "m1": "65.36"
+    },
+    {
+      "p": "[COSMIC: COmmonSense knowledge for eMotion Identification in Conversations](https://arxiv.org/abs/2010.02795v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/declare-lab/conv-emotion)",
+      "n": "COSMIC",
+      "d": "2020-10-06",
+      "m1": "65.21"
+    },
+    {
+      "p": "[Past, Present, and Future: Conversational Emotion Recognition through Structural Modeling of Psychological Knowledge](https://aclanthology.org/2021.findings-emnlp.104)",
+      "c": "[&check;&nbsp;Link](https://github.com/leqsnan/skaig-erc)",
+      "n": "SKAIG-ERC",
+      "d": null,
+      "m1": "65.18"
+    },
+    {
+      "p": "[EmotionFlow: Capture the Dialogue Level Emotion Transitions](https://github.com/fpcsong/emotionflow/blob/master/EmotionFlow.pdf)",
+      "c": "[&check;&nbsp;Link](https://github.com/fpcsong/emotionflow)",
+      "n": "EmotionFlow-base",
+      "d": "2022-05-07",
+      "m1": "65.05"
+    },
+    {
+      "p": "[Multimodal Prompt Transformer with Hybrid Contrastive Learning for Emotion Recognition in Conversation](https://arxiv.org/abs/2310.04456v1)",
+      "c": "",
+      "n": "MPT-HCL",
+      "d": "2023-10-04",
+      "m1": "65.02",
+      "m2": "65.86"
+    },
+    {
+      "p": "[Contrast and Generation Make BART a Good Dialogue Emotion Recognizer](https://arxiv.org/abs/2112.11202v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/whatissimondoing/cog-bart)",
+      "n": "CoG-BART",
+      "d": "2021-12-21",
+      "m1": "64.81"
+    },
+    {
+      "p": "[Accumulating Word Representations in Multi-level Context Integration for ERC Task](https://ieeexplore.ieee.org/document/10299463)",
+      "c": "[&check;&nbsp;Link](https://github.com/yingjie7/per_erc)",
+      "n": "AccumWR",
+      "d": "2023-11-06",
+      "m1": "64.58"
+    },
+    {
+      "p": "[A Discourse-Aware Graph Neural Network for Emotion Recognition in Multi-Party Conversation](https://aclanthology.org/2021.findings-emnlp.252)",
+      "c": "",
+      "n": "ERMC-DisGCN",
+      "d": null,
+      "m1": "64.22"
+    },
+    {
+      "p": "[Long-Short Distance Graph Neural Networks and Improved Curriculum Learning for Emotion Recognition in Conversation](https://arxiv.org/abs/2507.15205v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/LiXinran6/LSDGNN_ICL)",
+      "n": "LSDGNN+ICL",
+      "d": "2025-07-21",
+      "m1": "64.07"
+    },
+    {
+      "p": "[EmoCaps: Emotion Capsule based Model for Conversational Emotion Recognition](https://arxiv.org/abs/2203.13504v1)",
+      "c": "",
+      "n": "EmoCaps",
+      "d": "2022-03-25",
+      "m1": "64.00"
+    },
+    {
+      "p": "[Directed Acyclic Graph Network for Conversational Emotion Recognition](https://arxiv.org/abs/2105.12907v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/shenwzh3/DAG-ERC)",
+      "n": "DAG-ERC",
+      "d": "2021-05-27",
+      "m1": "63.65"
+    },
+    {
+      "p": "[EmoCaps: Emotion Capsule based Model for Conversational Emotion Recognition](https://arxiv.org/abs/2203.13504v1)",
+      "c": "",
+      "n": "EmoCaps-Text",
+      "d": "2022-03-25",
+      "m1": "63.51"
+    },
+    {
+      "p": "[S+PAGE: A Speaker and Position-Aware Graph Neural Network Model for Emotion Recognition in Conversation](https://arxiv.org/abs/2112.12389v1)",
+      "c": "",
+      "n": "S+PAGE",
+      "d": "2021-12-23",
+      "m1": "63.32"
+    },
+    {
+      "p": "[Knowledge-Interactive Network with Sentiment Polarity Intensity-Aware Multi-Task Learning for Emotion Recognition in Conversations](https://aclanthology.org/2021.findings-emnlp.245)",
+      "c": "",
+      "n": "KI-Net",
+      "d": null,
+      "m1": "63.24"
+    },
+    {
+      "p": "[Graph Based Network with Contextualized Representations of Turns in Dialogue](https://arxiv.org/abs/2109.04008v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/blacknoodle/tucore-gcn)",
+      "n": "TUCORE-GCN_BERT",
+      "d": "2021-09-09",
+      "m1": "62.47"
+    },
+    {
+      "p": "[DialogXL: All-in-One XLNet for Multi-Party Conversation Emotion Recognition](https://arxiv.org/abs/2012.08695v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/shenwzh3/DialogXL)",
+      "n": "DialogXL",
+      "d": "2020-12-16",
+      "m1": "62.41"
+    },
+    {
+      "p": "[A Hierarchical Transformer with Speaker Modeling for Emotion Recognition in Conversation](https://arxiv.org/abs/2012.14781v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/leqsnan/skaig-erc)",
+      "n": "TRMSM-Att",
+      "d": "2020-12-29",
+      "m1": "62.36"
+    },
+    {
+      "p": "[HiTrans: A Transformer-Based Context- and Speaker-Sensitive Model for Emotion Detection in Conversations](https://aclanthology.org/2020.coling-main.370)",
+      "c": "",
+      "n": "HiTrans",
+      "d": "2020-12-01",
+      "m1": "61.94"
+    },
+    {
+      "p": "[Multi-Task Learning with Auxiliary Speaker Identification for Conversational Emotion Recognition](https://arxiv.org/abs/2003.01478v2)",
+      "c": "",
+      "n": "BERT+MTL",
+      "d": "2020-03-03",
+      "m1": "61.90"
+    },
+    {
+      "p": "[Hierarchical Pre-training for Sequence Labelling in Spoken Dialog](https://arxiv.org/abs/2009.11152v3)",
+      "c": "",
+      "n": "Pretrained Hierarchical Transformer",
+      "d": "2020-09-23",
+      "m1": "61.90"
+    },
+    {
+      "p": "[Relation-aware Graph Attention Networks with Relational Position Encodings for Emotion Recognition in Conversations](https://aclanthology.org/2020.emnlp-main.597)",
+      "c": "[&check;&nbsp;Link](https://github.com/KomorebiLHX/Emotion-Recognition-in-Conversations)",
+      "n": "RGAT-ERC",
+      "d": null,
+      "m1": "60.91"
+    },
+    {
+      "p": "[BiERU: Bidirectional Emotional Recurrent Unit for Conversational Sentiment Analysis](https://arxiv.org/abs/2006.00492v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Maxwe11y/BiERU)",
+      "n": "BiERU-lc",
+      "d": "2020-05-31",
+      "m1": "60.84"
+    },
+    {
+      "p": "[An Iterative Emotion Interaction Network for Emotion Recognition in Conversations](https://aclanthology.org/2020.coling-main.360)",
+      "c": "",
+      "n": "Iterative",
+      "d": "2020-12-01",
+      "m1": "60.72"
+    },
+    {
+      "p": "[Multi-Task Learning with Auxiliary Speaker Identification for Conversational Emotion Recognition](https://arxiv.org/abs/2003.01478v2)",
+      "c": "",
+      "n": "GloVE+MTL",
+      "d": "2020-03-03",
+      "m1": "60.69"
+    },
+    {
+      "p": "[MM-DFN: Multimodal Dynamic Fusion Network for Emotion Recognition in Conversations](https://arxiv.org/abs/2203.02385v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zerohd4869/mm-dfn)",
+      "n": "MM-DFN",
+      "d": "2022-03-04",
+      "m1": "59.46",
+      "m2": "62.49"
+    },
+    {
+      "p": "[GA2MIF: Graph and Attention Based Two-Stage Multi-Source Information Fusion for Conversational Emotion Detection](https://arxiv.org/abs/2207.11900v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/lijfrank-open/GA2MIF)",
+      "n": "GA2MIF",
+      "d": "2022-07-25",
+      "m1": "58.94",
+      "m2": "61.65"
+    },
+    {
+      "p": "[GraphCFC: A Directed Graph Based Cross-Modal Feature Complementation Approach for Multimodal Conversational Emotion Recognition](https://arxiv.org/abs/2207.12261v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/lijfrank-open/GraphCFC)",
+      "n": "GraphCFC",
+      "d": "2022-07-06",
+      "m1": "58.86",
+      "m2": "61.42"
+    },
+    {
+      "p": "[Summarize before Aggregate: A Global-to-local Heterogeneous Graph Inference Network for Conversational Emotion Recognition](https://aclanthology.org/2020.coling-main.367)",
+      "c": "",
+      "n": "SumAggGIN",
+      "d": "2020-12-01",
+      "m1": "58.45"
+    },
+    {
+      "p": "[DialogueCRN: Contextual Reasoning Networks for Emotion Recognition in Conversations](https://arxiv.org/abs/2106.01978v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zerohd4869/mm-dfn)",
+      "n": "DialogueCRN",
+      "d": "2021-06-03",
+      "m1": "58.39",
+      "m2": "60.73"
+    },
+    {
+      "p": "[Contextualized Emotion Recognition in Conversation as Sequence Tagging](https://aclanthology.org/2020.sigdial-1.23)",
+      "c": "",
+      "n": "CESTa",
+      "d": "2020-07-01",
+      "m1": "58.36"
+    },
+    {
+      "p": "[Knowledge-Enriched Transformer for Emotion Detection in Textual Conversations](https://arxiv.org/abs/1909.10681v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhongpeixiang/KET)",
+      "n": "KET",
+      "d": "2019-09-24",
+      "m1": "58.18"
+    },
+    {
+      "p": "[DialogueGCN: A Graph Convolutional Neural Network for Emotion Recognition in Conversation](https://arxiv.org/abs/1908.11540v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SenticNet/conv-emotion)",
+      "n": "DialogueGCN",
+      "d": "2019-08-30",
+      "m1": "58.10",
+      "m2": "59.46"
+    },
+    {
+      "p": "[Modeling both context- and speaker-sensitive dependence for emotion detection in multi-speaker conversations](https://www.ijcai.org/Proceedings/2019/752)",
+      "c": "",
+      "n": "ConGCN",
+      "d": "2019-07-01",
+      "m1": "57.4"
+    },
+    {
+      "p": "[DialogueRNN: An Attentive RNN for Emotion Detection in Conversations](https://arxiv.org/abs/1811.00405v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/SenticNet/conv-emotion)",
+      "n": "DialogueRNN",
+      "d": "2018-11-01",
+      "m1": "57.03",
+      "m2": "59.54"
+    },
+    {
+      "p": "[Context-Dependent Sentiment Analysis in User-Generated Videos](https://aclanthology.org/P17-1081)",
+      "c": "[&check;&nbsp;Link](https://github.com/soujanyaporia/multimodal-sentiment-analysis)",
+      "n": "bc-LSTM+Att",
+      "d": "2017-07-01",
+      "m1": "56.44",
+      "m2": "57.50"
+    },
+    {
+      "p": "[Multi-Task Multi-Modal Self-Supervised Learning for Facial Expression Recognition](https://arxiv.org/abs/2404.10904v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tub-cv-group/conclugen)",
+      "n": "ConCluGen",
+      "d": "2024-04-16",
+      "m2": "60.03",
+      "m4": "60.03"
+    },
+    {
+      "p": "[Qwen-Audio: Advancing Universal Audio Understanding via Unified Large-Scale Audio-Language Models](https://arxiv.org/abs/2311.07919v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/alibaba-damo-academy/FunASR)",
+      "n": "Qwen-Audio",
+      "d": "2023-11-14",
+      "m2": "55.70"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

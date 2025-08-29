@@ -1,0 +1,74 @@
+# text-to-image-generation-on-conceptual
+
+[Dataset Link](https://github.com/google-research-datasets/conceptual-captions) \
+Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Text-to-Image Generation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "FID",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Draft-and-Revise: Effective Image Generation with Contextual RQ-Transformer](https://arxiv.org/abs/2206.04452v1)",
+      "c": "",
+      "n": "Contextual RQ-Transformer",
+      "d": "2022-06-09",
+      "m1": "9.80"
+    },
+    {
+      "p": "[Autoregressive Image Generation using Residual Quantization](https://arxiv.org/abs/2203.01941v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/kakaobrain/rq-vae-transformer)",
+      "n": "RQ-Transformer",
+      "d": "2022-03-03",
+      "m1": "12.33"
+    },
+    {
+      "p": "[High-Resolution Image Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2112.10752v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/compvis/stable-diffusion)",
+      "n": "LDM-4",
+      "d": "2021-12-20",
+      "m1": "17.01"
+    },
+    {
+      "p": "[ImageBART: Bidirectional Context with Multinomial Diffusion for Autoregressive Image Synthesis](https://arxiv.org/abs/2108.08827v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/compvis/imagebart)",
+      "n": "Image-BART",
+      "d": "2021-08-19",
+      "m1": "22.61"
+    },
+    {
+      "p": "[Taming Transformers for High-Resolution Image Synthesis](https://arxiv.org/abs/2012.09841v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/CompVis/taming-transformers)",
+      "n": "VQ-GAN",
+      "d": "2020-12-17",
+      "m1": "28.86"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

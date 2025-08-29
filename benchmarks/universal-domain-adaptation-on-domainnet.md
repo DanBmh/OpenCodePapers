@@ -1,0 +1,140 @@
+# universal-domain-adaptation-on-domainnet
+
+[Dataset Link](http://ai.bu.edu/M3SDA/) \
+Task Hierarchy: ['Universal Domain Adaptation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "H-Score",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Source-free",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Target Semantics Clustering via Text Representations for Robust Universal Domain Adaptation](https://arxiv.org/abs/2506.03521v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Sapphire-356/TASC)",
+      "n": "TASC",
+      "d": "2025-06-04",
+      "m1": "73.28",
+      "m2": "no"
+    },
+    {
+      "p": "[Universal Domain Adaptation via Compressive Attention Matching](https://arxiv.org/abs/2304.11862v4)",
+      "c": "",
+      "n": "UniAM",
+      "d": "2023-04-24",
+      "m1": "61.52",
+      "m2": "no"
+    },
+    {
+      "p": "[Upcycling Models under Domain and Category Shift](https://arxiv.org/abs/2303.07110v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ispc-lab/glc)",
+      "n": "GLC",
+      "d": "2023-03-13",
+      "m1": "55.1",
+      "m2": "yes"
+    },
+    {
+      "p": "[Unified Optimal Transport Framework for Universal Domain Adaptation](https://arxiv.org/abs/2210.17067v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/changwxx/uniot-for-unida)",
+      "n": "UniOT",
+      "d": "2022-10-31",
+      "m1": "52.04",
+      "m2": "no"
+    },
+    {
+      "p": "[Boosting Novel Category Discovery Over Domains with Soft Contrastive Learning and All in One Classifier](http://openaccess.thecvf.com//content/ICCV2023/html/Zang_Boosting_Novel_Category_Discovery_Over_Domains_with_Soft_Contrastive_Learning_ICCV_2023_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/zangzelin/code_san_share)",
+      "n": "SAN",
+      "d": "2023-01-01",
+      "m1": "52.0",
+      "m2": "no"
+    },
+    {
+      "p": "[LEAD: Learning Decomposition for Source-free Universal Domain Adaptation](https://arxiv.org/abs/2403.03421v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ispc-lab/lead)",
+      "n": "LEAD",
+      "d": "2024-03-06",
+      "m1": "50.8",
+      "m2": "yes"
+    },
+    {
+      "p": "[OVANet: One-vs-All Network for Universal Domain Adaptation](https://arxiv.org/abs/2104.03344v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/VisionLearningGroup/OVANet)",
+      "n": "OVANet",
+      "d": "2021-04-07",
+      "m1": "50.7",
+      "m2": "no"
+    },
+    {
+      "p": "[Domain Consensus Clustering for Universal Domain Adaptation](http://www.guangrui.li/papers/guangruiCVPR2021.pdf)",
+      "c": "[&check;&nbsp;Link](https://github.com/Solacex/Domain-Consensus-Clustering)",
+      "n": "DCC",
+      "d": "2021-06-05",
+      "m1": "49.20",
+      "m2": "no"
+    },
+    {
+      "p": "[Learning to Detect Open Classes for Universal Domain Adaptation](https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/2396_ECCV_2020_paper.php)",
+      "c": "[&check;&nbsp;Link](https://github.com/thuml/Calibrated-Multiple-Uncertainties)",
+      "n": "CMU",
+      "d": null,
+      "m1": "48.25",
+      "m2": "no"
+    },
+    {
+      "p": "[UMAD: Universal Model Adaptation under Domain and Category Shift](https://arxiv.org/abs/2112.08553v1)",
+      "c": "",
+      "n": "UMAD",
+      "d": "2021-12-16",
+      "m1": "47.1",
+      "m2": "yes"
+    },
+    {
+      "p": "[Universal Domain Adaptation](http://openaccess.thecvf.com/content_CVPR_2019/html/You_Universal_Domain_Adaptation_CVPR_2019_paper.html)",
+      "c": "",
+      "n": "UAN",
+      "d": "2019-06-01",
+      "m1": "40.98",
+      "m2": "no"
+    },
+    {
+      "p": "[Do We Really Need to Access the Source Data? Source Hypothesis Transfer for Unsupervised Domain Adaptation](https://arxiv.org/abs/2002.08546v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/tim-learn/SHOT)",
+      "n": "SHOT-O",
+      "d": "2020-02-20",
+      "m1": "32.6",
+      "m2": "no"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

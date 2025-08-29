@@ -1,0 +1,60 @@
+# anomaly-detection-on-mvtec-ad-textures-domain
+
+[Dataset Link]() \
+Task Hierarchy: ['Anomaly Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Detection AUROC",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[FABLE : Fabric Anomaly Detection Automation Process](https://arxiv.org/abs/2306.10089v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SimonThomine/FABLE)",
+      "n": "FABLE",
+      "d": "2023-06-16",
+      "m1": "97.5"
+    },
+    {
+      "p": "[Domain-Generalized Textured Surface Anomaly Detection](https://arxiv.org/abs/2203.12304v1)",
+      "c": "",
+      "n": "DGTSAD",
+      "d": "2022-03-23",
+      "m1": "91.8"
+    },
+    {
+      "p": "[Learning from Extrinsic and Intrinsic Supervisions for Domain Generalization](https://arxiv.org/abs/2007.09316v1)",
+      "c": "",
+      "n": "EISNet+",
+      "d": "2020-07-18",
+      "m1": "90.9"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

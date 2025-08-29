@@ -1,0 +1,70 @@
+# text-classification-on-imdb-movie-reviews-1
+
+[Dataset Link](https://ai.stanford.edu/~amaas/data/sentiment/) \
+Task Hierarchy: ['Classification', 'Text Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AUC",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Accuracy (2 classes)",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "F1 Macro",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Anytime Active Learning](https://dl.acm.org/doi/10.5555/2892753.2892837)",
+      "c": "[&check;&nbsp;Link](https://github.com/Bhavneet1492/Anytime-Active-Learning)",
+      "n": "Logistic Regression",
+      "d": "2014-07-27",
+      "m1": "0.84"
+    },
+    {
+      "p": "[Breaking Free Transformer Models: Task-specific Context Attribution Promises Improved Generalizability Without Fine-tuning Pre-trained LLMs](https://arxiv.org/abs/2401.16638v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/stepantita/space-model)",
+      "n": "XLNet",
+      "d": "2024-01-30",
+      "m2": "0.9387"
+    },
+    {
+      "p": "[Breaking Free Transformer Models: Task-specific Context Attribution Promises Improved Generalizability Without Fine-tuning Pre-trained LLMs](https://arxiv.org/abs/2401.16638v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/stepantita/space-model)",
+      "n": "Space-XLNet",
+      "d": "2024-01-30",
+      "m3": "0.9487"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

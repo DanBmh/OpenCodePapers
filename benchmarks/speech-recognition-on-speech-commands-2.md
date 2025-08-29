@@ -1,0 +1,60 @@
+# speech-recognition-on-speech-commands-2
+
+[Dataset Link](https://arxiv.org/abs/1804.03209) \
+Task Hierarchy: ['Speech Recognition']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy (%)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Let SSMs be ConvNets: State-space Modeling with Optimal Tensor Contractions](https://arxiv.org/abs/2501.13230v1)",
+      "c": "",
+      "n": "Centaurus",
+      "d": "2025-01-22",
+      "m1": "98.53"
+    },
+    {
+      "p": "[Liquid Structural State-Space Models](https://arxiv.org/abs/2209.12951v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/raminmh/liquid-s4)",
+      "n": "Liquid-S4",
+      "d": "2022-09-26",
+      "m1": "98.51"
+    },
+    {
+      "p": "[Efficiently Modeling Long Sequences with Structured State Spaces](https://arxiv.org/abs/2111.00396v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/state-spaces/s4)",
+      "n": "S4",
+      "d": "2021-10-31",
+      "m1": "98.32"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

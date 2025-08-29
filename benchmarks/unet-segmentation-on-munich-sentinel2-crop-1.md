@@ -1,0 +1,74 @@
+# unet-segmentation-on-munich-sentinel2-crop-1
+
+[Dataset Link](https://zenodo.org/records/5712933) \
+Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', 'UNET Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Overall Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Enhancing crop segmentation in satellite image time-series with transformer networks](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13072/1307208/Enhancing-crop-segmentation-in-satellite-image-time-series-with-transformer/10.1117/12.3023389.short#_=_)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/mattiagatti/sentinel2-crop-mapping-models)",
+      "n": "Swin UNETR",
+      "d": "2024-04-03",
+      "m1": "95.26"
+    },
+    {
+      "p": "[Enhancing crop segmentation in satellite image time-series with transformer networks](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13072/1307208/Enhancing-crop-segmentation-in-satellite-image-time-series-with-transformer/10.1117/12.3023389.short#_=_)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/mattiagatti/sentinel2-crop-mapping-models)",
+      "n": "UNet3D",
+      "d": "2024-04-03",
+      "m1": "94.73"
+    },
+    {
+      "p": "[Sentinel 2 Time Series Analysis with 3D Feature Pyramid Network and Time Domain Class Activation Intervals for Crop Mapping](https://www.mdpi.com/2220-9964/10/7/483/htm)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/ignazio.gallo/sentinel-2-time-series-with-3d-fpn-and-time-domain-cai)",
+      "n": "3D FPN with NDVI Loss",
+      "d": "2021-10-07",
+      "m1": "93.55"
+    },
+    {
+      "p": "[Multi-Temporal Land Cover Classification with Sequential Recurrent Encoders](http://arxiv.org/abs/1802.02080v4)",
+      "c": "",
+      "n": "Sequential Recurrent Encoders",
+      "d": "2018-02-06",
+      "m1": "89.60"
+    },
+    {
+      "p": "[Enhancing crop segmentation in satellite image time-series with transformer networks](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13072/1307208/Enhancing-crop-segmentation-in-satellite-image-time-series-with-transformer/10.1117/12.3023389.short#_=_)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/mattiagatti/sentinel2-crop-mapping-models)",
+      "n": "DeepLabv3 3D",
+      "d": "2024-04-03",
+      "m1": "85.98"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

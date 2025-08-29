@@ -1,0 +1,102 @@
+# question-answering-on-obqa
+
+[Dataset Link](https://allenai.org/data/open-book-qa) \
+Task Hierarchy: ['Question Answering']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Finetuned Language Models Are Zero-Shot Learners](https://arxiv.org/abs/2109.01652v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/hiyouga/llama-efficient-tuning)",
+      "n": "FLAN 137B (zero-shot)",
+      "d": "2021-09-03",
+      "m1": "78.4"
+    },
+    {
+      "p": "[Finetuned Language Models Are Zero-Shot Learners](https://arxiv.org/abs/2109.01652v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/hiyouga/llama-efficient-tuning)",
+      "n": "FLAN 137B (few-shot, k=16)",
+      "d": "2021-09-03",
+      "m1": "78.2"
+    },
+    {
+      "p": "[LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "LLaMA 65B (zero-shot)",
+      "d": "2023-02-27",
+      "m1": "60.2"
+    },
+    {
+      "p": "[LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "LLaMA 33B (zero-shot)",
+      "d": "2023-02-27",
+      "m1": "58.6"
+    },
+    {
+      "p": "[Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/ggml-org/llama.cpp)",
+      "n": "GPT-3 175B (zero-shot)",
+      "d": "2020-05-28",
+      "m1": "57.6"
+    },
+    {
+      "p": "[LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "LLaMA 7B (zero-shot)",
+      "d": "2023-02-27",
+      "m1": "57.2"
+    },
+    {
+      "p": "[LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "LLaMA 13B (zero-shot)",
+      "d": "2023-02-27",
+      "m1": "56.4"
+    },
+    {
+      "p": "[PaLM: Scaling Language Modeling with Pathways](https://arxiv.org/abs/2204.02311v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/lucidrains/CoCa-pytorch)",
+      "n": "PaLM 540B (zero-shot)",
+      "d": "2022-04-05",
+      "m1": "53.4"
+    },
+    {
+      "p": "[PaLM: Scaling Language Modeling with Pathways](https://arxiv.org/abs/2204.02311v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/lucidrains/CoCa-pytorch)",
+      "n": "PaLM 62B (zero-shot)",
+      "d": "2022-04-05",
+      "m1": "50.4"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

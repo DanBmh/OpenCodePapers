@@ -1,0 +1,123 @@
+# unsupervised-few-shot-image-classification-on-3
+
+[Dataset Link](https://github.com/yaoyao-liu/tiered-imagenet-tools) \
+Task Hierarchy: ['Few-Shot Image Classification', 'Unsupervised Few-Shot Image Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[BECLR: Batch Enhanced Contrastive Few-Shot Learning](https://arxiv.org/abs/2402.02444v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/stypoumic/beclr)",
+      "n": "BECLR",
+      "d": "2024-02-04",
+      "m1": "87.86"
+    },
+    {
+      "p": "[Self-Supervision Can Be a Good Few-Shot Learner](https://arxiv.org/abs/2207.09176v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/bbbdylan/unisiam)",
+      "n": "UniSiam",
+      "d": "2022-07-19",
+      "m1": "86.51"
+    },
+    {
+      "p": "[Shot in the Dark: Few-Shot Learning with No Base-Class Labels](https://arxiv.org/abs/2010.02430v2)",
+      "c": "",
+      "n": "UBC-FSL",
+      "d": "2020-10-06",
+      "m1": "84.3"
+    },
+    {
+      "p": "[Few-Shot Learning with Part Discovery and Augmentation from Unlabeled Images](https://arxiv.org/abs/2105.11874v1)",
+      "c": "",
+      "n": "PDA-Net",
+      "d": "2021-05-25",
+      "m1": "84.20"
+    },
+    {
+      "p": "[Revisiting Unsupervised Meta-Learning via the Characteristics of Few-Shot Tasks](https://arxiv.org/abs/2011.14663v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hanlu-nju/revisiting-uml)",
+      "n": "HMS",
+      "d": "2020-11-30",
+      "m1": "75.85"
+    },
+    {
+      "p": "[Unsupervised Few-Shot Image Classification by Learning Features into Clustering Space](https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/7167_ECCV_2022_paper.php)",
+      "c": "[&check;&nbsp;Link](https://github.com/xidianai/LF2CS)",
+      "n": "LF2CS",
+      "d": "2022-10-21",
+      "m1": "66.59"
+    },
+    {
+      "p": "[Self-Attention Message Passing for Contrastive Few-Shot Learning](https://arxiv.org/abs/2210.06339v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ojss/samptransfer)",
+      "n": "SAMPTransfer (Conv4)",
+      "d": "2022-10-12",
+      "m1": "65.19"
+    },
+    {
+      "p": "[Rethinking Clustering-Based Pseudo-Labeling for Unsupervised Meta-Learning](https://arxiv.org/abs/2209.13635v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/xingpingdong/pl-cfe)",
+      "n": "PL-CFE",
+      "d": "2022-09-27",
+      "m1": "64.31"
+    },
+    {
+      "p": "[Contrastive Prototypical Network with Wasserstein Confidence Penalty](https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/121_ECCV_2022_paper.php)",
+      "c": "[&check;&nbsp;Link](https://github.com/Haoqing-Wang/CPNWCP)",
+      "n": "CPNWCP",
+      "d": "2022-10-21",
+      "m1": "62.96"
+    },
+    {
+      "p": "[Rethinking Class Relations: Absolute-relative Supervised and Unsupervised Few-shot Learning](https://arxiv.org/abs/2001.03919v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/ojss/samptransfer)",
+      "n": "ArL",
+      "d": "2020-01-12",
+      "m1": "58.56"
+    },
+    {
+      "p": "[Multi-level Second-order Few-shot Learning](https://arxiv.org/abs/2201.05916v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/hongguangzhang/mlso-tmm-master)",
+      "n": "U-MlSo",
+      "d": "2022-01-15",
+      "m1": "57.53"
+    },
+    {
+      "p": "[Diversity Helps: Unsupervised Few-shot Learning via Distribution Shift-based Data Augmentation](https://arxiv.org/abs/2004.05805v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/WonderSeven/ULDA)",
+      "n": "ULDA",
+      "d": "2020-04-13",
+      "m1": "56.78"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

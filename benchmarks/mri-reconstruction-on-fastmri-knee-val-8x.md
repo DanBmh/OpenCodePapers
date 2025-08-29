@@ -1,0 +1,94 @@
+# mri-reconstruction-on-fastmri-knee-val-8x
+
+[Dataset Link](https://fastmri.med.nyu.edu/) \
+Task Hierarchy: ['MRI Reconstruction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "SSIM",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "NMSE",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Params (M)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Fill the K-Space and Refine the Image: Prompting for Dynamic and Multi-Contrast MRI Reconstruction](https://arxiv.org/abs/2309.13839v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/hellopipu/promptmr)",
+      "n": "PromptMR",
+      "d": "2023-09-25",
+      "m1": "0.8983",
+      "m2": "37.78",
+      "m3": "0.0080",
+      "m4": "80"
+    },
+    {
+      "p": "[HUMUS-Net: Hybrid unrolled multi-scale network architecture for accelerated MRI reconstruction](https://arxiv.org/abs/2203.08213v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/z-fabian/HUMUS-Net)",
+      "n": "HUMUS-Net-L",
+      "d": "2022-03-15",
+      "m1": "0.8955",
+      "m2": "37.45",
+      "m3": "0.0086",
+      "m4": "228"
+    },
+    {
+      "p": "[HUMUS-Net: Hybrid unrolled multi-scale network architecture for accelerated MRI reconstruction](https://arxiv.org/abs/2203.08213v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/z-fabian/HUMUS-Net)",
+      "n": "HUMUS-Net",
+      "d": "2022-03-15",
+      "m1": "0.8946",
+      "m2": "37.20",
+      "m3": "0.0090",
+      "m4": "109"
+    },
+    {
+      "p": "[End-to-End Variational Networks for Accelerated MRI Reconstruction](https://arxiv.org/abs/2004.06688v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/fastMRI)",
+      "n": "E2E-VarNet (train+val)",
+      "d": "2020-04-14",
+      "m1": "0.8936",
+      "m2": "37.30",
+      "m3": "0.0087",
+      "m4": "30"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

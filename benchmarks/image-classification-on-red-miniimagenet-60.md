@@ -1,0 +1,67 @@
+# image-classification-on-red-miniimagenet-60
+
+[Dataset Link]() \
+Task Hierarchy: ['Image Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Instance-Dependent Noisy Label Learning via Graphical Modelling](https://arxiv.org/abs/2209.00906v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/arpit2412/InstanceGM)",
+      "n": "InstanceGM-SS",
+      "d": "2022-09-02",
+      "m1": "53.21"
+    },
+    {
+      "p": "[PropMix: Hard Sample Filtering and Proportional MixUp for Learning with Noisy Labels](https://arxiv.org/abs/2110.11809v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/filipe-research/propmix)",
+      "n": "PropMix",
+      "d": "2021-10-22",
+      "m1": "52.84"
+    },
+    {
+      "p": "[Instance-Dependent Noisy Label Learning via Graphical Modelling](https://arxiv.org/abs/2209.00906v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/arpit2412/InstanceGM)",
+      "n": "InstanceGM",
+      "d": "2022-09-02",
+      "m1": "47.96"
+    },
+    {
+      "p": "[Faster Meta Update Strategy for Noise-Robust Deep Learning](https://arxiv.org/abs/2104.15092v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/youjiangxu/FaMUS)",
+      "n": "FaMUS",
+      "d": "2021-04-30",
+      "m1": "45.1"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

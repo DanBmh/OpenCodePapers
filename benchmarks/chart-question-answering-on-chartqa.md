@@ -1,0 +1,228 @@
+# chart-question-answering-on-chartqa
+
+[Dataset Link](https://github.com/vis-nlp/ChartQA) \
+Task Hierarchy: ['Chart Question Answering']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "1:1 Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Chart-based Reasoning: Transferring Capabilities from LLMs to VLMs](https://arxiv.org/abs/2403.12596v1)",
+      "c": "",
+      "n": "ChartPaLI-5B + PaLM 2-S",
+      "d": "2024-03-19",
+      "m1": "81.3"
+    },
+    {
+      "p": "[Gemini: A Family of Highly Capable Multimodal Models](https://arxiv.org/abs/2312.11805v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/valdecy/pybibx)",
+      "n": "Gemini Ultra",
+      "d": "2023-12-19",
+      "m1": "80.8"
+    },
+    {
+      "p": "[DePlot: One-shot visual language reasoning by plot-to-table translation](https://arxiv.org/abs/2212.10505v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "DePlot+FlanPaLM+Codex (PoT Self-Consistency)",
+      "d": "2022-12-20",
+      "m1": "79.3"
+    },
+    {
+      "p": "[Chart-based Reasoning: Transferring Capabilities from LLMs to VLMs](https://arxiv.org/abs/2403.12596v1)",
+      "c": "",
+      "n": "ChartPaLI-5B",
+      "d": "2024-03-19",
+      "m1": "77.3"
+    },
+    {
+      "p": "[DePlot: One-shot visual language reasoning by plot-to-table translation](https://arxiv.org/abs/2212.10505v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "DePlot+Codex (PoT Self-Consistency)",
+      "d": "2022-12-20",
+      "m1": "76.7"
+    },
+    {
+      "p": "[ScreenAI: A Vision-Language Model for UI and Infographics Understanding](https://arxiv.org/abs/2402.04615v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research-datasets/screen_qa)",
+      "n": "ScreenAI 5B (4.62 B params, w/ OCR)",
+      "d": "2024-02-07",
+      "m1": "76.7"
+    },
+    {
+      "p": "[Omni-SMoLA: Boosting Generalist Multimodal Models with Soft Mixture of Low-rank Experts](https://arxiv.org/abs/2312.00968v2)",
+      "c": "",
+      "n": "SMoLA-PaLI-X Specialist Model",
+      "d": "2023-12-01",
+      "m1": "74.6"
+    },
+    {
+      "p": "[Omni-SMoLA: Boosting Generalist Multimodal Models with Soft Mixture of Low-rank Experts](https://arxiv.org/abs/2312.00968v2)",
+      "c": "",
+      "n": "SMoLA-PaLI-X Generalist Model",
+      "d": "2023-12-01",
+      "m1": "73.8"
+    },
+    {
+      "p": "[Synthesize Step-by-Step: Tools Templates and LLMs as Data Generators for Reasoning-Based Chart VQA](http://openaccess.thecvf.com//content/CVPR2024/html/Li_Synthesize_Step-by-Step_Tools_Templates_and_LLMs_as_Data_Generators_for_CVPR_2024_paper.html)",
+      "c": "",
+      "n": "MatCha4096 + LaMenDa",
+      "d": "2024-01-01",
+      "m1": "72.64"
+    },
+    {
+      "p": "[PaLI-X: On Scaling up a Multilingual Vision and Language Model](https://arxiv.org/abs/2305.18565v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/kyegomez/PALI)",
+      "n": "PaLI-X (Single-task FT w/ OCR)",
+      "d": "2023-05-29",
+      "m1": "72.3"
+    },
+    {
+      "p": "[PaLI-X: On Scaling up a Multilingual Vision and Language Model](https://arxiv.org/abs/2305.18565v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/kyegomez/PALI)",
+      "n": "PaLI-X (Single-task FT)",
+      "d": "2023-05-29",
+      "m1": "70.9"
+    },
+    {
+      "p": "[PaLI-X: On Scaling up a Multilingual Vision and Language Model](https://arxiv.org/abs/2305.18565v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/kyegomez/PALI)",
+      "n": "PaLI-X (Multi-task FT)",
+      "d": "2023-05-29",
+      "m1": "70.6"
+    },
+    {
+      "p": "[DePlot: One-shot visual language reasoning by plot-to-table translation](https://arxiv.org/abs/2212.10505v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "DePlot+FlanPaLM (Self-Consistency)",
+      "d": "2022-12-20",
+      "m1": "70.5"
+    },
+    {
+      "p": "[PaLI-3 Vision Language Models: Smaller, Faster, Stronger](https://arxiv.org/abs/2310.09199v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/kyegomez/PALI3)",
+      "n": "PaLI-3",
+      "d": "2023-10-13",
+      "m1": "70"
+    },
+    {
+      "p": "[PaLI-3 Vision Language Models: Smaller, Faster, Stronger](https://arxiv.org/abs/2310.09199v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/kyegomez/PALI3)",
+      "n": "PaLI-3 (w/ OCR)",
+      "d": "2023-10-13",
+      "m1": "69.5"
+    },
+    {
+      "p": "[DePlot: One-shot visual language reasoning by plot-to-table translation](https://arxiv.org/abs/2212.10505v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "DePlot+FlanPaLM (CoT)",
+      "d": "2022-12-20",
+      "m1": "67.3"
+    },
+    {
+      "p": "[Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond](https://arxiv.org/abs/2308.12966v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/qwenlm/qwen-vl)",
+      "n": "Qwen-VL-Chat",
+      "d": "2023-08-24",
+      "m1": "66.3"
+    },
+    {
+      "p": "[UniChart: A Universal Vision-language Pretrained Model for Chart Comprehension and Reasoning](https://arxiv.org/abs/2305.14761v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/vis-nlp/unichart)",
+      "n": "UniChart",
+      "d": "2023-05-24",
+      "m1": "66.24"
+    },
+    {
+      "p": "[Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond](https://arxiv.org/abs/2308.12966v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/qwenlm/qwen-vl)",
+      "n": "Qwen-VL",
+      "d": "2023-08-24",
+      "m1": "65.7"
+    },
+    {
+      "p": "[StructChart: On the Schema, Metric, and Augmentation for Visual Chart Understanding](https://arxiv.org/abs/2309.11268v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/alpha-innovator/chartvlm)",
+      "n": "StructChart+GPT3.5 (STR ChartQA+SimChart9K)",
+      "d": "2023-09-20",
+      "m1": "65.3"
+    },
+    {
+      "p": "[MatCha: Enhancing Visual Language Pretraining with Math Reasoning and Chart Derendering](https://arxiv.org/abs/2212.09662v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "MatCha",
+      "d": "2022-12-19",
+      "m1": "64.2"
+    },
+    {
+      "p": "[StructChart: On the Schema, Metric, and Augmentation for Visual Chart Understanding](https://arxiv.org/abs/2309.11268v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/alpha-innovator/chartvlm)",
+      "n": "StructChart+GPT3.5 (STR)",
+      "d": "2023-09-20",
+      "m1": "60.7"
+    },
+    {
+      "p": "[Pix2Struct: Screenshot Parsing as Pretraining for Visual Language Understanding](https://arxiv.org/abs/2210.03347v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "Pix2Struct-large",
+      "d": "2022-10-07",
+      "m1": "58.6"
+    },
+    {
+      "p": "[Pix2Struct: Screenshot Parsing as Pretraining for Visual Language Understanding](https://arxiv.org/abs/2210.03347v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "Pix2Struct-base",
+      "d": "2022-10-07",
+      "m1": "56.0"
+    },
+    {
+      "p": "[ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning](https://arxiv.org/abs/2203.10244v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/vis-nlp/chartqa)",
+      "n": "VisionTapas-OCR",
+      "d": "2022-03-19",
+      "m1": "45.5"
+    },
+    {
+      "p": "[DePlot: One-shot visual language reasoning by plot-to-table translation](https://arxiv.org/abs/2212.10505v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "DePlot+GPT3 (Self-Consistency)",
+      "d": "2022-12-20",
+      "m1": "42.3"
+    },
+    {
+      "p": "[DePlot: One-shot visual language reasoning by plot-to-table translation](https://arxiv.org/abs/2212.10505v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "DePlot+GPT3 (CoT)",
+      "d": "2022-12-20",
+      "m1": "36.9"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

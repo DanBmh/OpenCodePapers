@@ -1,0 +1,81 @@
+# image-quality-assessment-on-msu-fr-vqa
+
+[Dataset Link](https://videoprocessing.ai/benchmarks/video-quality-metrics.html) \
+Task Hierarchy: ['Image Quality Assessment']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "SRCC",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Attentions Help CNNs See Better: Attention-based Hybrid Image Quality Assessment Network](https://arxiv.org/abs/2204.10485v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/iigroup/maniqa)",
+      "n": "AHIQ",
+      "d": "2022-04-22",
+      "m1": "0.937"
+    },
+    {
+      "p": "[FSIM: A Feature Similarity Index for Image Quality Assessment](https://ieeexplore.ieee.org/document/5705575)",
+      "c": "",
+      "n": "FSIM",
+      "d": "2011-01-31",
+      "m1": "0.9000"
+    },
+    {
+      "p": "[Image quality assessment based on DCT subband similarity](https://ieeexplore.ieee.org/document/7351172)",
+      "c": "",
+      "n": "DSS",
+      "d": "2015-12-10",
+      "m1": "0.8993"
+    },
+    {
+      "p": "[Mean Deviation Similarity Index: Efficient and Reliable Full-Reference Image Quality Evaluator](http://arxiv.org/abs/1608.07433v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/photosynthesis-team/piq)",
+      "n": "MDSI",
+      "d": "2016-08-26",
+      "m1": "0.8971"
+    },
+    {
+      "p": "[Gradient magnitude similarity deviation on multiple scales for color image quality assessment](https://ieeexplore.ieee.org/document/7952357)",
+      "c": "",
+      "n": "MS-GMSD",
+      "d": "2017-06-19",
+      "m1": "0.8949"
+    },
+    {
+      "p": "[Gradient Magnitude Similarity Deviation: A Highly Efficient Perceptual Image Quality Index](http://arxiv.org/abs/1308.3052v2)",
+      "c": "",
+      "n": "GMSD",
+      "d": "2013-08-14",
+      "m1": "0.8937"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

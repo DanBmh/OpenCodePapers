@@ -1,0 +1,550 @@
+# named-entity-recognition-ner-on-conll-2003
+
+[Dataset Link](https://www.clips.uantwerpen.be/conll2003/ner/) \
+Task Hierarchy: ['Named Entity Recognition (NER)']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Automated Concatenation of Embeddings for Structured Prediction](https://arxiv.org/abs/2010.05006v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/Alibaba-NLP/ACE)",
+      "n": "ACE + document-context",
+      "d": "2020-10-10",
+      "m1": "94.6"
+    },
+    {
+      "p": "[LUKE: Deep Contextualized Entity Representations with Entity-aware Self-attention](https://arxiv.org/abs/2010.01057v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "LUKE 483M",
+      "d": "2020-10-02",
+      "m1": "94.3"
+    },
+    {
+      "p": "[Learning from Noisy Labels for Entity-Centric Information Extraction](https://arxiv.org/abs/2104.08656v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/wzhouad/NLL-IE)",
+      "n": "Co-regularized LUKE",
+      "d": "2021-04-17",
+      "m1": "94.22"
+    },
+    {
+      "p": "[SubRegWeigh: Effective and Efficient Annotation Weighing with Subword Regularization](https://arxiv.org/abs/2409.06216v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/4ldk/SubRegWeigh)",
+      "n": "LUKE + SubRegWeigh (K-means)",
+      "d": "2024-09-10",
+      "m1": "94.2"
+    },
+    {
+      "p": "[Autoregressive Structured Prediction with Language Models](https://arxiv.org/abs/2210.14698v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/lyutyuh/asp)",
+      "n": "ASP+T5-3B",
+      "d": "2022-10-26",
+      "m1": "94.1"
+    },
+    {
+      "p": "[FLERT: Document-Level Features for Named Entity Recognition](https://arxiv.org/abs/2011.06993v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/flairNLP/flair)",
+      "n": "FLERT XLM-R",
+      "d": "2020-11-13",
+      "m1": "94.09"
+    },
+    {
+      "p": "[Packed Levitated Marker for Entity and Relation Extraction](https://arxiv.org/abs/2109.06067v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/tomaarsen/spanmarkerner)",
+      "n": "PL-Marker",
+      "d": "2021-09-13",
+      "m1": "94.0"
+    },
+    {
+      "p": "[Improving Named Entity Recognition by External Context Retrieving and Cooperative Learning](https://arxiv.org/abs/2105.03654v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/modelscope/adaseq)",
+      "n": "CL-KL",
+      "d": "2021-05-08",
+      "m1": "93.85"
+    },
+    {
+      "p": "[Named entity recognition architecture combining contextual and global features](https://arxiv.org/abs/2112.08033v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/honghanhh/ner-combining-contextual-and-global-features)",
+      "n": "XLNet-GCN",
+      "d": "2021-12-15",
+      "m1": "93.82"
+    },
+    {
+      "p": "[SubRegWeigh: Effective and Efficient Annotation Weighing with Subword Regularization](https://arxiv.org/abs/2409.06216v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/4ldk/SubRegWeigh)",
+      "n": "RoBERTa + SubRegWeigh (K-means)",
+      "d": "2024-09-10",
+      "m1": "93.81"
+    },
+    {
+      "p": "[Autoregressive Structured Prediction with Language Models](https://arxiv.org/abs/2210.14698v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/lyutyuh/asp)",
+      "n": "ASP+flan-T5-large",
+      "d": "2022-10-26",
+      "m1": "93.8"
+    },
+    {
+      "p": "[InferNER: an attentive model leveraging the sentence-level information for Named Entity Recognition in Microblogs](https://journals.flvc.org/FLAIRS/article/view/128538)",
+      "c": "",
+      "n": "InferNER",
+      "d": "2021-04-18",
+      "m1": "93.76"
+    },
+    {
+      "p": "[Exploring Cross-sentence Contexts for Named Entity Recognition with BERT](https://arxiv.org/abs/2006.01563v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jouniluoma/bert-ner-cmv)",
+      "n": "Cross-sentence context (First)",
+      "d": "2020-06-02",
+      "m1": "93.74"
+    },
+    {
+      "p": "[Transformer-based Named Entity Recognition with Combined Data Representation](https://arxiv.org/abs/2406.17474v1)",
+      "c": "",
+      "n": "XLM-RoBERTa-large union",
+      "d": "2024-06-25",
+      "m1": "93.69"
+    },
+    {
+      "p": "[Boundary Smoothing for Named Entity Recognition](https://arxiv.org/abs/2204.12031v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/syuoni/eznlp)",
+      "n": "Baseline + BS",
+      "d": "2022-04-26",
+      "m1": "93.65"
+    },
+    {
+      "p": "[Automated Concatenation of Embeddings for Structured Prediction](https://arxiv.org/abs/2010.05006v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/Alibaba-NLP/ACE)",
+      "n": "ACE",
+      "d": "2020-10-10",
+      "m1": "93.64"
+    },
+    {
+      "p": "[Focusing on Potential Named Entities During Active Label Acquisition](https://arxiv.org/abs/2111.03837v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/bo1929/anelfop)",
+      "n": "BERT-CRF",
+      "d": "2021-11-06",
+      "m1": "93.6"
+    },
+    {
+      "p": "[Cloze-driven Pretraining of Self-attention Networks](http://arxiv.org/abs/1903.07785v1)",
+      "c": "",
+      "n": "CNN Large + fine-tune",
+      "d": "2019-03-19",
+      "m1": "93.5"
+    },
+    {
+      "p": "[Named Entity Recognition as Dependency Parsing](https://arxiv.org/abs/2005.07150v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/juntaoy/biaffine-ner)",
+      "n": "Biaffine-NER",
+      "d": "2020-05-14",
+      "m1": "93.5"
+    },
+    {
+      "p": "[GCDT: A Global Context Enhanced Deep Transition Architecture for Sequence Labeling](https://arxiv.org/abs/1906.02437v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Adaxry/GCDT)",
+      "n": "GCDT + BERT-L",
+      "d": "2019-06-06",
+      "m1": "93.47"
+    },
+    {
+      "p": "[Improved Differentiable Architecture Search for Language Modeling and Named Entity Recognition](https://aclanthology.org/D19-1367)",
+      "c": "[&check;&nbsp;Link](https://github.com/jiangyingjunn/i-darts)",
+      "n": "I-DARTS + Flair",
+      "d": "2019-11-01",
+      "m1": "93.47"
+    },
+    {
+      "p": "[CrossWeigh: Training Named Entity Tagger from Imperfect Annotations](https://arxiv.org/abs/1909.01441v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ZihanWangKi/CrossWeigh)",
+      "n": "CrossWeigh + Pooled Flair",
+      "d": "2019-09-03",
+      "m1": "93.43"
+    },
+    {
+      "p": "[Neural Architectures for Nested NER through Linearization](https://arxiv.org/abs/1908.06926v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ufal/acl2019_nested_ner)",
+      "n": "LSTM-CRF+ELMo+BERT+Flair",
+      "d": "2019-08-19",
+      "m1": "93.38"
+    },
+    {
+      "p": "[Hierarchical Contextualized Representation for Named Entity Recognition](https://arxiv.org/abs/1911.02257v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/cslydia/Hire-NER)",
+      "n": "Hierarchical + BERT",
+      "d": "2019-11-06",
+      "m1": "93.37"
+    },
+    {
+      "p": "[Improving Named Entity Recognition by External Context Retrieving and Cooperative Learning](https://arxiv.org/abs/2105.03654v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/modelscope/adaseq)",
+      "n": "BERT-CRF (Replicated in AdaSeq)",
+      "d": "2021-05-08",
+      "m1": "93.35"
+    },
+    {
+      "p": "[Dice Loss for Data-imbalanced NLP Tasks](https://arxiv.org/abs/1911.02855v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/ShannonAI/dice_loss_for_NLP)",
+      "n": "BERT-MRC+DSC",
+      "d": "2019-11-07",
+      "m1": "93.33"
+    },
+    {
+      "p": "[Named entity recognition architecture combining contextual and global features](https://arxiv.org/abs/2112.08033v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/honghanhh/ner-combining-contextual-and-global-features)",
+      "n": "XLNet",
+      "d": "2021-12-15",
+      "m1": "93.28"
+    },
+    {
+      "p": "[A Unified Generative Framework for Various NER Subtasks](https://arxiv.org/abs/2106.01223v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yhcc/BARTNER)",
+      "n": "BARTNER",
+      "d": "2021-06-02",
+      "m1": "93.24"
+    },
+    {
+      "p": "[GoLLIE: Annotation Guidelines improve Zero-Shot Information-Extraction](https://arxiv.org/abs/2310.03668v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/hitz-zentroa/gollie)",
+      "n": "GoLLIE",
+      "d": "2023-10-05",
+      "m1": "93.1"
+    },
+    {
+      "p": "[Contextual String Embeddings for Sequence Labeling](https://aclanthology.org/C18-1139)",
+      "c": "[&check;&nbsp;Link](https://github.com/zalandoresearch/flair)",
+      "n": "Flair embeddings",
+      "d": "2018-08-01",
+      "m1": "93.09"
+    },
+    {
+      "p": "[PromptNER: Prompt Locating and Typing for Named Entity Recognition](https://arxiv.org/abs/2305.17104v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tricktreat/promptner)",
+      "n": "PromptNER [RoBERTa-large]",
+      "d": "2023-05-26",
+      "m1": "93.08"
+    },
+    {
+      "p": "[Unified Named Entity Recognition as Word-Word Relation Classification](https://arxiv.org/abs/2112.10070v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ljynlp/w2ner)",
+      "n": "W2NER",
+      "d": "2021-12-19",
+      "m1": "93.07"
+    },
+    {
+      "p": "[A Unified MRC Framework for Named Entity Recognition](https://arxiv.org/abs/1910.11476v7)",
+      "c": "[&check;&nbsp;Link](https://github.com/ShannonAI/mrc-for-flat-nested-ner)",
+      "n": "BERT-MRC",
+      "d": "2019-10-25",
+      "m1": "93.04"
+    },
+    {
+      "p": "[Locate and Label: A Two-stage Identifier for Nested Named Entity Recognition](https://arxiv.org/abs/2105.06804v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tricktreat/locate-and-label)",
+      "n": "Locate and Label",
+      "d": "2021-05-14",
+      "m1": "92.94"
+    },
+    {
+      "p": "[Parallel Instance Query Network for Named Entity Recognition](https://arxiv.org/abs/2203.10545v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tricktreat/piqn)",
+      "n": "PIQN",
+      "d": "2022-03-20",
+      "m1": "92.87"
+    },
+    {
+      "p": "[DiffusionNER: Boundary Diffusion for Named Entity Recognition](https://arxiv.org/abs/2305.13298v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tricktreat/diffusionner)",
+      "n": "DiffusionNER",
+      "d": "2023-05-22",
+      "m1": "92.78"
+    },
+    {
+      "p": "[Towards Improving Neural Named Entity Recognition with Gazetteers](https://aclanthology.org/P19-1524)",
+      "c": "[&check;&nbsp;Link](https://github.com/lyutyuh/acl19_subtagger)",
+      "n": "HSCRF + softdict",
+      "d": "2019-07-01",
+      "m1": "92.75"
+    },
+    {
+      "p": "[TENER: Adapting Transformer Encoder for Named Entity Recognition](https://arxiv.org/abs/1911.04474v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/HIT-SCIR/ltp)",
+      "n": "TENER",
+      "d": "2019-11-10",
+      "m1": "92.62"
+    },
+    {
+      "p": "[Semi-Supervised Sequence Modeling with Cross-View Training](http://arxiv.org/abs/1809.08370v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+      "n": "CVT + Multi-Task",
+      "d": "2018-09-22",
+      "m1": "92.61"
+    },
+    {
+      "p": "[Semi-Supervised Sequence Modeling with Cross-View Training](http://arxiv.org/abs/1809.08370v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+      "n": "CVT + Multi-Task + Large",
+      "d": "2018-09-22",
+      "m1": "92.61"
+    },
+    {
+      "p": "[Joint Learning of Named Entity Recognition and Entity Linking](https://arxiv.org/abs/1907.08243v1)",
+      "c": "",
+      "n": "Stack LSTM",
+      "d": "2019-07-18",
+      "m1": "92.43"
+    },
+    {
+      "p": "[PromptNER: Prompt Locating and Typing for Named Entity Recognition](https://arxiv.org/abs/2305.17104v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tricktreat/promptner)",
+      "n": "PromptNER [BERT-large]",
+      "d": "2023-05-26",
+      "m1": "92.41"
+    },
+    {
+      "p": "[Dependency-Guided LSTM-CRF for Named Entity Recognition](https://arxiv.org/abs/1909.10148v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/allanj/ner_with_dependency)",
+      "n": "DGLSTM-CRF + ELMo (L=2) 3.0pt1-4.51.5",
+      "d": "2019-09-23",
+      "m1": "92.4"
+    },
+    {
+      "p": "[GRN: Gated Relation Network to Enhance Convolutional Neural Network for Named Entity Recognition](https://arxiv.org/abs/1907.05611v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/vert-papers/tree/master/papers/GRN-NER)",
+      "n": "GRN",
+      "d": "2019-07-12",
+      "m1": "92.34"
+    },
+    {
+      "p": "[Evaluating the Utility of Hand-crafted Features in Sequence Labelling](http://arxiv.org/abs/1808.09075v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/minghao-wu/CRF-AE)",
+      "n": "Neural-CRF+AE",
+      "d": "2018-08-28",
+      "m1": "92.29"
+    },
+    {
+      "p": "[Multi-Grained Named Entity Recognition](https://arxiv.org/abs/1906.08449v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/congyingxia/Multi-Grained-NER)",
+      "n": "MGNER",
+      "d": "2019-06-20",
+      "m1": "92.28"
+    },
+    {
+      "p": "[Deep contextualized word representations](http://arxiv.org/abs/1802.05365v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/flairNLP/flair)",
+      "n": "BiLSTM-CRF+ELMo",
+      "d": "2018-02-15",
+      "m1": "92.22"
+    },
+    {
+      "p": "[Generalizing Natural Language Analysis through Span-relation Representations](https://arxiv.org/abs/1911.03822v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jzbjyb/SpanRel)",
+      "n": "SpanRel",
+      "d": "2019-11-10",
+      "m1": "92.2"
+    },
+    {
+      "p": "[Efficient Contextualized Representation: Language Model Pruning for Sequence Labeling](http://arxiv.org/abs/1804.07827v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/LiyuanLucasLiu/LD-Net)",
+      "n": "LD-Net",
+      "d": "2018-04-20",
+      "m1": "92.03"
+    },
+    {
+      "p": "[GCDT: A Global Context Enhanced Deep Transition Architecture for Sequence Labeling](https://arxiv.org/abs/1906.02437v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Adaxry/GCDT)",
+      "n": "GCDT",
+      "d": "2019-06-06",
+      "m1": "91.96"
+    },
+    {
+      "p": "[Hierarchical Contextualized Representation for Named Entity Recognition](https://arxiv.org/abs/1911.02257v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/cslydia/Hire-NER)",
+      "n": "Hierarchical",
+      "d": "2019-11-06",
+      "m1": "91.96"
+    },
+    {
+      "p": "[Evaluating the Utility of Hand-crafted Features in Sequence Labelling](http://arxiv.org/abs/1808.09075v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/minghao-wu/CRF-AE)",
+      "n": "CRF + AutoEncoder",
+      "d": "2018-08-28",
+      "m1": "91.87"
+    },
+    {
+      "p": "[A Prism Module for Semantic Disentanglement in Name Entity Recognition](https://aclanthology.org/P19-1532)",
+      "c": "[&check;&nbsp;Link](https://github.com/liukun95/Prism-Module)",
+      "n": "PRISM",
+      "d": "2019-07-01",
+      "m1": "91.8"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "GraphIE (GCN+BiLSTM)",
+      "d": null,
+      "m1": "91.74"
+    },
+    {
+      "p": "[Robust Lexical Features for Improved Neural Network Named-Entity Recognition](http://arxiv.org/abs/1806.03489v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ghaddarAbs/NER-with-LS)",
+      "n": "Bi-LSTM-CRF + Lexical Features",
+      "d": "2018-06-09",
+      "m1": "91.73"
+    },
+    {
+      "p": "[Learning Better Internal Structure of Words for Sequence Labeling](http://arxiv.org/abs/1810.12443v1)",
+      "c": "",
+      "n": "IntNet + BiLSTM-CRF",
+      "d": "2018-10-29",
+      "m1": "91.64"
+    },
+    {
+      "p": "[Neural Reranking for Named Entity Recognition](http://arxiv.org/abs/1707.05127v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jiesutd/RerankNER)",
+      "n": "Yang et al. ([2017a])",
+      "d": "2017-07-17",
+      "m1": "91.62"
+    },
+    {
+      "p": "[Named Entity Recognition with Bidirectional LSTM-CNNs](http://arxiv.org/abs/1511.08308v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/zalandoresearch/flair)",
+      "n": "Bi-LSTM-CNN",
+      "d": "2015-11-26",
+      "m1": "91.62"
+    },
+    {
+      "p": "[Sentence-State LSTM for Text Representation](http://arxiv.org/abs/1805.02474v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/leuchine/S-LSTM)",
+      "n": "S-LSTM",
+      "d": "2018-05-07",
+      "m1": "91.57"
+    },
+    {
+      "p": "[Long Short-Term Memory with Dynamic Skip Connections](http://arxiv.org/abs/1811.03873v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/lecholin/DynamicLSTM)",
+      "n": "LSTM with dynamic skip",
+      "d": "2018-11-09",
+      "m1": "91.56"
+    },
+    {
+      "p": "[Robust Multilingual Part-of-Speech Tagging via Adversarial Training](http://arxiv.org/abs/1711.04903v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/michiyasunaga/pos_adv)",
+      "n": "Adversarial Bi-LSTM",
+      "d": "2017-11-14",
+      "m1": "91.56"
+    },
+    {
+      "p": "[Hybrid semi-Markov CRF for Neural Sequence Labeling](http://arxiv.org/abs/1805.03838v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ZhixiuYe/HSCRF-pytorch)",
+      "n": "HSCRF",
+      "d": "2018-05-10",
+      "m1": "91.38"
+    },
+    {
+      "p": "[Robust Multilingual Named Entity Recognition with Shallow Semi-Supervised Features](http://arxiv.org/abs/1701.09123v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ixa-ehu/ixa-pipe-nerc)",
+      "n": "IXA pipes",
+      "d": "2017-01-31",
+      "m1": "91.36"
+    },
+    {
+      "p": "[NCRF++: An Open-source Neural Sequence Labeling Toolkit](http://arxiv.org/abs/1806.05626v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jiesutd/PyTorchSeqLabel)",
+      "n": "NCRF++",
+      "d": "2018-06-14",
+      "m1": "91.35"
+    },
+    {
+      "p": "[Transfer Learning for Sequence Tagging with Hierarchical Recurrent Networks](http://arxiv.org/abs/1703.06345v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jiesutd/NCRFpp)",
+      "n": "Yang et al.",
+      "d": "2017-03-18",
+      "m1": "91.26"
+    },
+    {
+      "p": "[Empower Sequence Labeling with Task-Aware Neural Language Model](http://arxiv.org/abs/1709.04109v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/LiyuanLucasLiu/LM-LSTM-CRF)",
+      "n": "LM-LSTM-CRF",
+      "d": "2017-09-13",
+      "m1": "91.24"
+    },
+    {
+      "p": "[A Deep Neural Network Model for the Task of Named Entity Recognition](https://www.researchgate.net/publication/330556058_A_Deep_Neural_Network_Model_for_the_task_of_Named_Entity_Recognition)",
+      "c": "[&check;&nbsp;Link](https://github.com/ZhixiuYe/NER-pytorch)",
+      "n": "Bi-LSTM-CNN-CRF",
+      "d": "2018-02-01",
+      "m1": "91.22"
+    },
+    {
+      "p": "[End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF](http://arxiv.org/abs/1603.01354v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/guillaumegenthial/sequence_tagging)",
+      "n": "BLSTM-CNN-CRF",
+      "d": "2016-03-04",
+      "m1": "91.21"
+    },
+    {
+      "p": "[Harnessing Deep Neural Networks with Logic Rules](https://arxiv.org/abs/1603.06318v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/ZhitingHu/logicnn)",
+      "n": "Bi-LSTM + Logic rules",
+      "d": "2016-03-21",
+      "m1": "91.18"
+    },
+    {
+      "p": "[Neural Architectures for Named Entity Recognition](http://arxiv.org/abs/1603.01360v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/flairNLP/flair)",
+      "n": "LSTM-CRF",
+      "d": "2016-03-04",
+      "m1": "90.94"
+    },
+    {
+      "p": "[Named entity recognition architecture combining contextual and global features](https://arxiv.org/abs/2112.08033v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/honghanhh/ner-combining-contextual-and-global-features)",
+      "n": "GCN",
+      "d": "2021-12-15",
+      "m1": "88.63"
+    },
+    {
+      "p": "[Baseline Needs More Love: On Simple Word-Embedding-Based Models and Associated Pooling Mechanisms](http://arxiv.org/abs/1805.09843v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dinghanshen/SWEM)",
+      "n": "SWEM-CRF",
+      "d": "2018-05-24",
+      "m1": "86.28"
+    },
+    {
+      "p": "[Variational Sequential Labelers for Semi-Supervised Learning](https://arxiv.org/abs/1906.09535v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/mingdachen/vsl)",
+      "n": "VSL-GG-Hier",
+      "d": "2019-06-23",
+      "m1": "84.7"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

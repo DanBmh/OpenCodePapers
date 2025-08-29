@@ -1,0 +1,147 @@
+# image-clustering-on-fashion-mnist
+
+[Dataset Link](https://github.com/zalandoresearch/fashion-mnist) \
+Task Hierarchy: ['Image Clustering']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "NMI",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Deep Clustering via Probabilistic Ratio-Cut Optimization](https://arxiv.org/abs/2502.03405)",
+      "c": "[&check;&nbsp;Link](https://github.com/ayghri/prcut)",
+      "n": "PRCut (DinoV2)",
+      "d": "2025-02-01",
+      "m1": "0.791",
+      "m2": "0.758"
+    },
+    {
+      "p": "[The VampPrior Mixture Model](https://arxiv.org/abs/2402.04412v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/astirn/vampprior-mixture-model)",
+      "n": "VMM",
+      "d": "2024-02-06",
+      "m1": "0.716",
+      "m2": "0.710"
+    },
+    {
+      "p": "[Selective Pseudo-label Clustering](https://arxiv.org/abs/2107.10692v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Lou1sM/clustering)",
+      "n": "SPC",
+      "d": "2021-07-22",
+      "m1": "0.679",
+      "m2": "0.735"
+    },
+    {
+      "p": "[N2D: (Not Too) Deep Clustering via Clustering the Local Manifold of an Autoencoded Embedding](https://arxiv.org/abs/1908.05968v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/rymc/n2d)",
+      "n": "N2D (UMAP)",
+      "d": "2019-08-16",
+      "m1": "0.672",
+      "m2": "0.684"
+    },
+    {
+      "p": "[Contrastive Hierarchical Clustering](https://arxiv.org/abs/2303.03389v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/michalznalezniak/contrastive-hierarchical-clustering)",
+      "n": "CoHiClust",
+      "d": "2023-03-03",
+      "m1": "0.65"
+    },
+    {
+      "p": "[Interpretable Visualizations with Differentiating Embedding Networks](https://arxiv.org/abs/2006.06640v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/isaacrob/DEN)",
+      "n": "DEN",
+      "d": "2020-06-11",
+      "m1": "0.635",
+      "m2": "0.71"
+    },
+    {
+      "p": "[Scattering Transform Based Image Clustering using Projection onto Orthogonal Complement](https://arxiv.org/abs/2011.11586v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/vmorgenshtern/scattering-clustering)",
+      "n": "PSSC",
+      "d": "2020-11-23",
+      "m1": "0.628",
+      "m2": "0.644"
+    },
+    {
+      "p": "[Graph Degree Linkage: Agglomerative Clustering on a Directed Graph](http://arxiv.org/abs/1208.5092v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/waynezhanghk/gactoolbox)",
+      "n": "GDL",
+      "d": "2012-08-25",
+      "m1": "0.627",
+      "m2": "0.66"
+    },
+    {
+      "p": "[Deep Density-based Image Clustering](http://arxiv.org/abs/1812.04287v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Yazhou-Ren/DDC)",
+      "n": "DDC",
+      "d": "2018-12-11",
+      "m1": "0.619",
+      "m2": "0.682"
+    },
+    {
+      "p": "[Deep Transformation-Invariant Clustering](https://arxiv.org/abs/2006.11132v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/monniert/dti-clustering)",
+      "n": "DTI-Clustering",
+      "d": "2020-06-19",
+      "m1": "0.612",
+      "m2": "0.637"
+    },
+    {
+      "p": "[Deep Density-based Image Clustering](http://arxiv.org/abs/1812.04287v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Yazhou-Ren/DDC)",
+      "n": "DDC-DA",
+      "d": "2018-12-11",
+      "m1": "0.609",
+      "m2": "0.661"
+    },
+    {
+      "p": "[Deep Clustering with a Dynamic Autoencoder: From Reconstruction towards Centroids Construction](https://arxiv.org/abs/1901.07752v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/nairouz/DynAE)",
+      "n": "DynAE",
+      "d": "2019-01-23",
+      "m1": "0.591",
+      "m2": "0.642"
+    },
+    {
+      "p": "[Improving k-Means Clustering Performance with Disentangled Internal Representations](https://arxiv.org/abs/2006.04535v1)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/afagarap/pt-snnl)",
+      "n": "SNNL-4",
+      "d": "2020-06-05",
+      "m1": "0.555",
+      "m2": "0.574"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

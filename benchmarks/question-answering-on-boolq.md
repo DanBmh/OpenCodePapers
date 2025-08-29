@@ -1,0 +1,494 @@
+# question-answering-on-boolq
+
+[Dataset Link](https://github.com/google-research-datasets/boolean-questions) \
+Task Hierarchy: ['Question Answering']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Hierarchical Prompting Taxonomy: A Universal Evaluation Framework for Large Language Models Aligned with Human Cognitive Principles](https://arxiv.org/abs/2406.12644v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/devichand579/HPT)",
+      "n": "Mistral-Nemo 12B (HPT)",
+      "d": "2024-06-18",
+      "m1": "99.87"
+    },
+    {
+      "p": "[ST-MoE: Designing Stable and Transferable Sparse Expert Models](https://arxiv.org/abs/2202.08906v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/mesh)",
+      "n": "ST-MoE-32B 269B (fine-tuned)",
+      "d": "2022-02-17",
+      "m1": "92.4"
+    },
+    {
+      "p": "[PaLM: Scaling Language Modeling with Pathways](https://arxiv.org/abs/2204.02311v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/lucidrains/CoCa-pytorch)",
+      "n": "PaLM 540B (fine-tuned)",
+      "d": "2022-04-05",
+      "m1": "92.2"
+    },
+    {
+      "p": "[Toward Efficient Language Model Pretraining and Downstream Adaptation via Self-Evolution: A Case Study on SuperGLUE](https://arxiv.org/abs/2212.01853v1)",
+      "c": "",
+      "n": "Turing NLR v5 XXL 5.4B (fine-tuned)",
+      "d": "2022-12-04",
+      "m1": "92"
+    },
+    {
+      "p": "[Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "T5-XXL 11B (fine-tuned)",
+      "d": "2019-10-23",
+      "m1": "91.2"
+    },
+    {
+      "p": "[PaLM 2 Technical Report](https://arxiv.org/abs/2305.10403v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/eternityyw/tram-benchmark)",
+      "n": "PaLM 2-L (1-shot)",
+      "d": "2023-05-17",
+      "m1": "90.9"
+    },
+    {
+      "p": "[UL2: Unifying Language Learning Paradigms](https://arxiv.org/abs/2205.05131v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research)",
+      "n": "UL2 20B (fine-tuned)",
+      "d": "2022-05-10",
+      "m1": "90.8"
+    },
+    {
+      "p": "[Toward Efficient Language Model Pretraining and Downstream Adaptation via Self-Evolution: A Case Study on SuperGLUE](https://arxiv.org/abs/2212.01853v1)",
+      "c": "",
+      "n": "Vega v2 6B (fine-tuned)",
+      "d": "2022-12-04",
+      "m1": "90.5"
+    },
+    {
+      "p": "[DeBERTa: Decoding-enhanced BERT with Disentangled Attention](https://arxiv.org/abs/2006.03654v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "DeBERTa-1.5B",
+      "d": "2020-06-05",
+      "m1": "90.4"
+    },
+    {
+      "p": "[PaLM 2 Technical Report](https://arxiv.org/abs/2305.10403v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/eternityyw/tram-benchmark)",
+      "n": "PaLM 2-M (1-shot)",
+      "d": "2023-05-17",
+      "m1": "88.6"
+    },
+    {
+      "p": "[ST-MoE: Designing Stable and Transferable Sparse Expert Models](https://arxiv.org/abs/2202.08906v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/mesh)",
+      "n": "ST-MoE-L 4.1B (fine-tuned)",
+      "d": "2022-02-17",
+      "m1": "88.6"
+    },
+    {
+      "p": "[PaLM 2 Technical Report](https://arxiv.org/abs/2305.10403v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/eternityyw/tram-benchmark)",
+      "n": "PaLM 2-S (1-shot)",
+      "d": "2023-05-17",
+      "m1": "88.1"
+    },
+    {
+      "p": "[Muppet: Massive Multi-task Representations with Pre-Finetuning](https://arxiv.org/abs/2101.11038v1)",
+      "c": "[&check;&nbsp;Link](https://huggingface.co/facebook/muppet-roberta-base)",
+      "n": "MUPPET Roberta Large",
+      "d": "2021-01-26",
+      "m1": "87.5"
+    },
+    {
+      "p": "[Finetuned Language Models Are Zero-Shot Learners](https://arxiv.org/abs/2109.01652v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/hiyouga/llama-efficient-tuning)",
+      "n": "FLAN 137B (prompt-tuned)",
+      "d": "2021-09-03",
+      "m1": "86.3"
+    },
+    {
+      "p": "[Entailment as Few-Shot Learner](https://arxiv.org/abs/2104.14690v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/examples/few_shot/efl)",
+      "n": "RoBERTa-large 355M + Entailment as Few-shot Learner",
+      "d": "2021-04-29",
+      "m1": "86.0"
+    },
+    {
+      "p": "[Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "T5-Large 770M (fine-tuned)",
+      "d": "2019-10-23",
+      "m1": "85.4"
+    },
+    {
+      "p": "[LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "LLaMA 65B (0-shot)",
+      "d": "2023-02-27",
+      "m1": "85.3"
+    },
+    {
+      "p": "[Llama 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/abs/2307.09288v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/llama)",
+      "n": "LLaMA 2 70B (0-shot)",
+      "d": "2023-07-18",
+      "m1": "85"
+    },
+    {
+      "p": "[Finetuned Language Models Are Zero-Shot Learners](https://arxiv.org/abs/2109.01652v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/hiyouga/llama-efficient-tuning)",
+      "n": "FLAN 137B (4-shot)",
+      "d": "2021-09-03",
+      "m1": "84.6"
+    },
+    {
+      "p": "[Muppet: Massive Multi-task Representations with Pre-Finetuning](https://arxiv.org/abs/2101.11038v1)",
+      "c": "[&check;&nbsp;Link](https://huggingface.co/facebook/muppet-roberta-base)",
+      "n": "MUPPET Roberta Base",
+      "d": "2021-01-26",
+      "m1": "83.8"
+    },
+    {
+      "p": "[Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/karpathy/llama2.c)",
+      "n": "Chinchilla 70B (0-shot)",
+      "d": "2022-03-29",
+      "m1": "83.7"
+    },
+    {
+      "p": "[Llama 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/abs/2307.09288v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/llama)",
+      "n": "LLaMA 2 34B (0-shot)",
+      "d": "2023-07-18",
+      "m1": "83.7"
+    },
+    {
+      "p": "[LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "LLaMA 33B (0-shot)",
+      "d": "2023-02-27",
+      "m1": "83.1"
+    },
+    {
+      "p": "[Finetuned Language Models Are Zero-Shot Learners](https://arxiv.org/abs/2109.01652v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/hiyouga/llama-efficient-tuning)",
+      "n": "FLAN 137B (0-shot)",
+      "d": "2021-09-03",
+      "m1": "82.9"
+    },
+    {
+      "p": "[Llama 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/abs/2307.09288v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/llama)",
+      "n": "LLaMA 2 13B (0-shot)",
+      "d": "2023-07-18",
+      "m1": "81.7"
+    },
+    {
+      "p": "[Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "T5-Base 220M (fine-tuned)",
+      "d": "2019-10-23",
+      "m1": "81.4"
+    },
+    {
+      "p": "[BoolQ: Exploring the Surprising Difficulty of Natural Yes/No Questions](https://arxiv.org/abs/1905.10044v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research-datasets/boolean-questions)",
+      "n": "BERT-MultiNLI 340M (fine-tuned)",
+      "d": "2019-05-24",
+      "m1": "80.4"
+    },
+    {
+      "p": "[Scaling Language Models: Methods, Analysis & Insights from Training Gopher](https://arxiv.org/abs/2112.11446v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/allenai/dolma)",
+      "n": "Gopher (zero-shot)",
+      "d": "2021-12-08",
+      "m1": "79.3"
+    },
+    {
+      "p": "[LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "LLaMA 13B (zero-shot)",
+      "d": "2023-02-27",
+      "m1": "78.1"
+    },
+    {
+      "p": "[Llama 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/abs/2307.09288v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/llama)",
+      "n": "LLaMA 2 7B (zero-shot)",
+      "d": "2023-07-18",
+      "m1": "77.4"
+    },
+    {
+      "p": "[MixLoRA: Enhancing Large Language Models Fine-Tuning with LoRA-based Mixture of Experts](https://arxiv.org/abs/2404.15159v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/TUDB-Labs/MixLoRA)",
+      "n": "LLaMA-2 13B + MixLoRA",
+      "d": "2024-04-22",
+      "m1": "77.1"
+    },
+    {
+      "p": "[LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "LLaMA 7B (zero-shot)",
+      "d": "2023-02-27",
+      "m1": "76.5"
+    },
+    {
+      "p": "[Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "T5-Small 60M (fine-tuned)",
+      "d": "2019-10-23",
+      "m1": "76.4"
+    },
+    {
+      "p": "[Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/ggml-org/llama.cpp)",
+      "n": "GPT-3 175B (few-shot, k=32)",
+      "d": "2020-05-28",
+      "m1": "76.4"
+    },
+    {
+      "p": "[BoolQ: Exploring the Surprising Difficulty of Natural Yes/No Questions](https://arxiv.org/abs/1905.10044v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research-datasets/boolean-questions)",
+      "n": "BiDAF-MultiNLI (fine-tuned)",
+      "d": "2019-05-24",
+      "m1": "75.57"
+    },
+    {
+      "p": "[MixLoRA: Enhancing Large Language Models Fine-Tuning with LoRA-based Mixture of Experts](https://arxiv.org/abs/2404.15159v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/TUDB-Labs/MixLoRA)",
+      "n": "LLaMA-3 8B + MixLoRA",
+      "d": "2024-04-22",
+      "m1": "75"
+    },
+    {
+      "p": "[BloombergGPT: A Large Language Model for Finance](https://arxiv.org/abs/2303.17564v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yangletliu/finlora)",
+      "n": "Bloomberg GPT 50B (1-shot)",
+      "d": "2023-03-30",
+      "m1": "74.6"
+    },
+    {
+      "p": "[Mixture-of-Subspaces in Low-Rank Adaptation](https://arxiv.org/abs/2406.11909v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/wutaiqiang/moslora)",
+      "n": "LLaMA3+MoSLoRA",
+      "d": "2024-06-16",
+      "m1": "74.6"
+    },
+    {
+      "p": "[BoolQ: Exploring the Surprising Difficulty of Natural Yes/No Questions](https://arxiv.org/abs/1905.10044v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research-datasets/boolean-questions)",
+      "n": "GPT-1 117M (fine-tuned)",
+      "d": "2019-05-24",
+      "m1": "72.87"
+    },
+    {
+      "p": "[MixLoRA: Enhancing Large Language Models Fine-Tuning with LoRA-based Mixture of Experts](https://arxiv.org/abs/2404.15159v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/TUDB-Labs/MixLoRA)",
+      "n": "LLaMA-2 7B + MixLoRA",
+      "d": "2024-04-22",
+      "m1": "72.7"
+    },
+    {
+      "p": "[BoolQ: Exploring the Surprising Difficulty of Natural Yes/No Questions](https://arxiv.org/abs/1905.10044v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research-datasets/boolean-questions)",
+      "n": "BiDAF + ELMo (fine-tuned)",
+      "d": "2019-05-24",
+      "m1": "71.41"
+    },
+    {
+      "p": "[OPT-IML: Scaling Language Model Instruction Meta Learning through the Lens of Generalization](https://arxiv.org/abs/2212.12017v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/tanyuqian/cappy)",
+      "n": "OPT-IML 175B",
+      "d": "2022-12-22",
+      "m1": "71.4"
+    },
+    {
+      "p": "[AlexaTM 20B: Few-Shot Learning Using a Large-Scale Multilingual Seq2Seq Model](https://arxiv.org/abs/2208.01448v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/amazon-science/alexa-teacher-models)",
+      "n": "AlexaTM 20B",
+      "d": "2022-08-02",
+      "m1": "69.4"
+    },
+    {
+      "p": "[Ask Me Anything: A simple strategy for prompting language models](https://arxiv.org/abs/2210.02441v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hazyresearch/ama_prompting)",
+      "n": "Neo-6B (QA + WS)",
+      "d": "2022-10-05",
+      "m1": " 67.2"
+    },
+    {
+      "p": "[OPT-IML: Scaling Language Model Instruction Meta Learning through the Lens of Generalization](https://arxiv.org/abs/2212.12017v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/tanyuqian/cappy)",
+      "n": "OPT-IML 30B",
+      "d": "2022-12-22",
+      "m1": "66.9"
+    },
+    {
+      "p": "[Ask Me Anything: A simple strategy for prompting language models](https://arxiv.org/abs/2210.02441v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hazyresearch/ama_prompting)",
+      "n": "Neo-6B (few-shot)",
+      "d": "2022-10-05",
+      "m1": "66.5"
+    },
+    {
+      "p": "[N-Grammer: Augmenting Transformers with latent n-grams](https://arxiv.org/abs/2207.06366v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/lingvo)",
+      "n": "N-Grammer 343M",
+      "d": "2022-07-13",
+      "m1": "65"
+    },
+    {
+      "p": "[Ask Me Anything: A simple strategy for prompting language models](https://arxiv.org/abs/2210.02441v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hazyresearch/ama_prompting)",
+      "n": "Neo-6B (QA)",
+      "d": "2022-10-05",
+      "m1": "64.9"
+    },
+    {
+      "p": "[OPT-IML: Scaling Language Model Instruction Meta Learning through the Lens of Generalization](https://arxiv.org/abs/2212.12017v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/tanyuqian/cappy)",
+      "n": "OPT 30B (0-shot)",
+      "d": "2022-12-22",
+      "m1": "64"
+    },
+    {
+      "p": "[UL2: Unifying Language Learning Paradigms](https://arxiv.org/abs/2205.05131v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research)",
+      "n": "UL2 20B (0-shot)",
+      "d": "2022-05-10",
+      "m1": "63.1"
+    },
+    {
+      "p": "[BoolQ: Exploring the Surprising Difficulty of Natural Yes/No Questions](https://arxiv.org/abs/1905.10044v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research-datasets/boolean-questions)",
+      "n": "Majority baseline",
+      "d": "2019-05-24",
+      "m1": "62.17"
+    },
+    {
+      "p": "[Hungry Hungry Hippos: Towards Language Modeling with State Space Models](https://arxiv.org/abs/2212.14052v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hazyresearch/safari)",
+      "n": "Hybrid H3 1.3B (0-shot, logit scoring)",
+      "d": "2022-12-28",
+      "m1": "61.7"
+    },
+    {
+      "p": "[OPT-IML: Scaling Language Model Instruction Meta Learning through the Lens of Generalization](https://arxiv.org/abs/2212.12017v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/tanyuqian/cappy)",
+      "n": "OPT-IML 1.3B (0-shot)",
+      "d": "2022-12-22",
+      "m1": "61.5"
+    },
+    {
+      "p": "[SHAKTI: A 2.5 Billion Parameter Small Language Model Optimized for Edge AI and Low-Resource Environments](https://arxiv.org/abs/2410.11331v1)",
+      "c": "",
+      "n": "Shakti-LLM (2.5B)",
+      "d": "2024-10-15",
+      "m1": "61.1"
+    },
+    {
+      "p": "[Hungry Hungry Hippos: Towards Language Modeling with State Space Models](https://arxiv.org/abs/2212.14052v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hazyresearch/safari)",
+      "n": "Hybrid H3 2.7B (3-shot, logit scoring)",
+      "d": "2022-12-28",
+      "m1": "60.6"
+    },
+    {
+      "p": "[OPT-IML: Scaling Language Model Instruction Meta Learning through the Lens of Generalization](https://arxiv.org/abs/2212.12017v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/tanyuqian/cappy)",
+      "n": "OPT 1.3B (zero-shot)",
+      "d": "2022-12-22",
+      "m1": "60.5"
+    },
+    {
+      "p": "[Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/ggml-org/llama.cpp)",
+      "n": "GPT-3 75B (0-shot)",
+      "d": "2020-05-28",
+      "m1": "60.5"
+    },
+    {
+      "p": "[OPT-IML: Scaling Language Model Instruction Meta Learning through the Lens of Generalization](https://arxiv.org/abs/2212.12017v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/tanyuqian/cappy)",
+      "n": "OPT 175B",
+      "d": "2022-12-22",
+      "m1": "60.1"
+    },
+    {
+      "p": "[Hungry Hungry Hippos: Towards Language Modeling with State Space Models](https://arxiv.org/abs/2212.14052v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hazyresearch/safari)",
+      "n": "Hybrid H3 125M (0-shot, logit scoring)",
+      "d": "2022-12-28",
+      "m1": "59.6"
+    },
+    {
+      "p": "[BloombergGPT: A Large Language Model for Finance](https://arxiv.org/abs/2303.17564v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yangletliu/finlora)",
+      "n": "OPT 66B (1-shot)",
+      "d": "2023-03-30",
+      "m1": "57.5"
+    },
+    {
+      "p": "[Hungry Hungry Hippos: Towards Language Modeling with State Space Models](https://arxiv.org/abs/2212.14052v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hazyresearch/safari)",
+      "n": "Hybrid H3 125M (3-shot, logit scoring)",
+      "d": "2022-12-28",
+      "m1": "56.1"
+    },
+    {
+      "p": "[Hungry Hungry Hippos: Towards Language Modeling with State Space Models](https://arxiv.org/abs/2212.14052v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hazyresearch/safari)",
+      "n": "Hybrid H3 125M (3-shot, rank classification)",
+      "d": "2022-12-28",
+      "m1": "56.1"
+    },
+    {
+      "p": "[BloombergGPT: A Large Language Model for Finance](https://arxiv.org/abs/2303.17564v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yangletliu/finlora)",
+      "n": "BLOOM 176B (1-shot)",
+      "d": "2023-03-30",
+      "m1": "52.9"
+    },
+    {
+      "p": "[Hyena Hierarchy: Towards Larger Convolutional Language Models](https://arxiv.org/abs/2302.10866v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hazyresearch/safari)",
+      "n": "Hyena",
+      "d": "2023-02-21",
+      "m1": "51.8"
+    },
+    {
+      "p": "[BloombergGPT: A Large Language Model for Finance](https://arxiv.org/abs/2303.17564v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yangletliu/finlora)",
+      "n": "GPT-NeoX 20B (1-shot)",
+      "d": "2023-03-30",
+      "m1": "46.4"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

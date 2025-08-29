@@ -1,0 +1,122 @@
+# sign-language-translation-on-rwth-phoenix
+
+[Dataset Link](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX-2014-T/) \
+Task Hierarchy: ['Sign Language Translation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "BLEU-4",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "ROUGE",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Multi-Stream Keypoint Attention Network for Sign Language Recognition and Translation](https://arxiv.org/abs/2405.05672v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/sutwangyan/MSKA)",
+      "n": "MSKA-SLT",
+      "d": "2024-05-09",
+      "m1": "29.03"
+    },
+    {
+      "p": "[Two-Stream Network for Sign Language Recognition and Translation](https://arxiv.org/abs/2211.01367v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/FangyunWei/SLRT)",
+      "n": "TwoStream-SLT",
+      "d": "2022-11-02",
+      "m1": "28.95"
+    },
+    {
+      "p": "[SignBERT+: Hand-model-aware Self-supervised Pre-training for Sign Language Understanding](https://arxiv.org/abs/2305.04868v1)",
+      "c": "",
+      "n": "SignBERT+",
+      "d": "2023-05-08",
+      "m1": "25.7"
+    },
+    {
+      "p": "[Stochastic Transformer Networks with Linear Competing Units: Application to end-to-end SL Translation](https://arxiv.org/abs/2109.13318v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/avoskou/Stochastic-Transformer-Networks-with-Linear-Competing-Units-Application-to-end-to-end-SL-Translatio)",
+      "n": "S2T Stochastic Transformer (Ens)",
+      "d": "2021-09-01",
+      "m1": "25.59"
+    },
+    {
+      "p": "[Better Sign Language Translation with STMC-Transformer](https://arxiv.org/abs/2004.00588v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/kayoyin/transformer-slt)",
+      "n": "STMC+Transformer (Ens)",
+      "d": "2020-04-01",
+      "m1": "25.40"
+    },
+    {
+      "p": "[Improving Sign Language Translation with Monolingual Data by Sign Back-Translation](https://arxiv.org/abs/2105.12397v1)",
+      "c": "",
+      "n": "BN-TIN-Transf.+SignBT",
+      "d": "2021-05-26",
+      "m1": "24.32"
+    },
+    {
+      "p": "[Signformer is all you need: Towards Edge AI for Sign Language](https://arxiv.org/abs/2411.12901v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/EtaEnding/Signformer)",
+      "n": "Signformer",
+      "d": "2024-11-19",
+      "m1": "23.43",
+      "m2": "48.53"
+    },
+    {
+      "p": "[Frozen Pretrained Transformers for Neural Sign Language Translation](https://aclanthology.org/2021.mtsummit-at4ssl.10/)",
+      "c": "[&check;&nbsp;Link](https://github.com/m-decoster/fpt4slt)",
+      "n": "BERT2RND",
+      "d": "2021-08-20",
+      "m1": "22.47"
+    },
+    {
+      "p": "[Improving Sign Language Translation with Monolingual Data by Sign Back-Translation](https://arxiv.org/abs/2105.12397v1)",
+      "c": "",
+      "n": "BN-TIN-Transf.",
+      "d": "2021-05-26",
+      "m1": "21.68"
+    },
+    {
+      "p": "[Frozen Pretrained Transformers for Neural Sign Language Translation](https://aclanthology.org/2021.mtsummit-at4ssl.10/)",
+      "c": "[&check;&nbsp;Link](https://github.com/m-decoster/fpt4slt)",
+      "n": "BERT2BERT",
+      "d": "2021-08-20",
+      "m1": "21.26"
+    },
+    {
+      "p": "[Neural Sign Language Translation](http://openaccess.thecvf.com/content_cvpr_2018/html/Camgoz_Neural_Sign_Language_CVPR_2018_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/neccam/nslt)",
+      "n": "Sign2Gloss2Text",
+      "d": "2018-06-01",
+      "m1": "19.26"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

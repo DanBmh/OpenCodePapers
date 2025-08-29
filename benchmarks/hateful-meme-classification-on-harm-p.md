@@ -1,0 +1,84 @@
+# hateful-meme-classification-on-harm-p
+
+[Dataset Link]() \
+Task Hierarchy: ['Meme Classification', 'Hateful Meme Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Robust Adaptation of Large Multimodal Models for Retrieval Augmented Hateful Meme Detection](https://arxiv.org/abs/2502.13061v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/JingbiaoMei/RGCL)",
+      "n": "RA-HMD (Qwen2-VL-7B)",
+      "d": "2025-02-18",
+      "m1": "91.6",
+      "m2": "91.1"
+    },
+    {
+      "p": "[Towards Explainable Harmful Meme Detection through Multimodal Debate between Large Language Models](https://arxiv.org/abs/2401.13298v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/hkbunlp/explainhm-www2024)",
+      "n": "ExplainHM",
+      "d": "2024-01-24",
+      "m1": "90.7",
+      "m2": "90.7"
+    },
+    {
+      "p": "[Improving Hateful Meme Detection through Retrieval-Guided Contrastive Learning](https://arxiv.org/abs/2311.08110v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/JingbiaoMei/RGCL)",
+      "n": "RGCL",
+      "d": "2023-11-14",
+      "m1": "89.9",
+      "m2": "89.5"
+    },
+    {
+      "p": "[Hate-CLIPper: Multimodal Hateful Meme Classification based on Cross-modal Interaction of CLIP Features](https://arxiv.org/abs/2210.05916v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/gokulkarthik/hateclipper)",
+      "n": "hateclipper",
+      "d": "2022-10-12",
+      "m1": "87.6",
+      "m2": "86.9"
+    },
+    {
+      "p": "[Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/openai/CLIP)",
+      "n": "CLIP",
+      "d": "2021-02-26",
+      "m1": "80.6",
+      "m2": "80.3"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

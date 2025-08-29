@@ -1,0 +1,76 @@
+# motion-captioning-on-humanml3d
+
+[Dataset Link](https://github.com/EricGuo5513/HumanML3D) \
+Task Hierarchy: ['Motion Captioning']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "BLEU-4",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "BERTScore",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Guided Attention for Interpretable Motion Captioning](https://arxiv.org/abs/2310.07324v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rd20karim/m2t-interpretable)",
+      "n": "ST-MLP",
+      "d": "2023-10-11",
+      "m1": "25.0",
+      "m2": "40.3"
+    },
+    {
+      "p": "[Motion2Language, unsupervised learning of synchronized semantic motion segmentation](https://arxiv.org/abs/2310.10594v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rd20karim/M2T-Segmentation)",
+      "n": "MLP+GRU",
+      "d": "2023-10-16",
+      "m1": "23.4",
+      "m2": "37.2"
+    },
+    {
+      "p": "[TM2T: Stochastic and Tokenized Modeling for the Reciprocal Generation of 3D Human Motions and Texts](https://arxiv.org/abs/2207.01696v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/EricGuo5513/TM2T)",
+      "n": "TM2T",
+      "d": "2022-07-04",
+      "m1": "22.3",
+      "m2": "37.8"
+    },
+    {
+      "p": "[MotionGPT: Human Motion as a Foreign Language](https://arxiv.org/abs/2306.14795v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/openmotionlab/motiongpt)",
+      "n": "MotionGPT",
+      "d": "2023-06-26",
+      "m1": "12.47",
+      "m2": "32.4"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

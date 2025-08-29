@@ -1,0 +1,74 @@
+# traffic-sign-recognition-on-gtsrb
+
+[Dataset Link](https://benchmark.ini.rub.de/) \
+Task Hierarchy: ['Autonomous Vehicles', 'Traffic Sign Recognition']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Deep neural network for traffic sign recognition systems: An analysis of spatial transformers and stochastic optimisation methods](https://www.sciencedirect.com/science/article/abs/pii/S0893608018300054)",
+      "c": "[&check;&nbsp;Link](https://github.com/aarcosg/tsr-torch)",
+      "n": "CNN with 3 Spatial Transformers",
+      "d": "2018-03-01",
+      "m1": "99.71%"
+    },
+    {
+      "p": "[Sill-Net: Feature Augmentation with Separated Illumination Representation](https://arxiv.org/abs/2102.03539v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/lanfenghuanyu/Sill-Net)",
+      "n": "Sill-Net",
+      "d": "2021-02-06",
+      "m1": "99.68%"
+    },
+    {
+      "p": "[SeqNet: Sequential Networks for One-Shot Traffic Sign Recognition With Transfer Learning](https://ieeexplore.ieee.org/document/10689469)",
+      "c": "[&check;&nbsp;Link](https://github.com/narimanabdi/seqnet)",
+      "n": "SeqNet",
+      "d": "2024-09-23",
+      "m1": "99.66%"
+    },
+    {
+      "p": "[MicronNet: A Highly Compact Deep Convolutional Neural Network Architecture for Real-time Embedded Traffic Sign Classification](http://arxiv.org/abs/1804.00497v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/ppriyank/MicronNet)",
+      "n": "MicronNet (fp16)",
+      "d": "2018-03-28",
+      "m1": "98.9%"
+    },
+    {
+      "p": "[Vision Models Are More Robust And Fair When Pretrained On Uncurated Images Without Supervision](https://arxiv.org/abs/2202.08360v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/vissl)",
+      "n": "SEER (RegNet10B)",
+      "d": "2022-02-16",
+      "m1": "90.71%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

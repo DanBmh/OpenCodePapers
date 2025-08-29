@@ -1,0 +1,79 @@
+# instance-segmentation-on-coco-2017-val
+
+[Dataset Link]() \
+Task Hierarchy: ['Instance Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mask AP*",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "mask AP",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "AP",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Designing BERT for Convolutional Networks: Sparse and Hierarchical Masked Modeling](https://arxiv.org/abs/2301.03580v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/keyu-tian/spark)",
+      "n": "SparK (ConvNeXt V1-B Mask R-CNN)",
+      "d": "2023-01-09",
+      "m1": "45.1",
+      "m2": "45.1",
+      "m3": "45.1"
+    },
+    {
+      "p": "[Mask Transfiner for High-Quality Instance Segmentation](https://arxiv.org/abs/2111.13673v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SysCV/transfiner)",
+      "n": "Mask Transfiner (R50-FPN)",
+      "d": "2021-11-26",
+      "m1": "43.1"
+    },
+    {
+      "p": "[PointRend: Image Segmentation as Rendering](https://arxiv.org/abs/1912.08193v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/detectron2/tree/master/projects/PointRend)",
+      "n": "PointRend (MaskR-CNN, ResNet-50-FPN)",
+      "d": "2019-12-17",
+      "m1": "39.7"
+    },
+    {
+      "p": "[RF-Next: Efficient Receptive Field Search for Convolutional Neural Networks](https://arxiv.org/abs/2206.06637v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ShangHua-Gao/G2L-search)",
+      "n": "RF-ConvNeXt-T Cascade R-CNN",
+      "d": "2022-06-14",
+      "m3": "44.3"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

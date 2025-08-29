@@ -1,0 +1,136 @@
+# action-segmentation-on-assembly101
+
+[Dataset Link](https://assembly-101.github.io/) \
+Task Hierarchy: ['Action Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "F1@10%",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "F1@25%",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "F1@50%",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Edit",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "MoF",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[ASQuery: A Query-based Model for Action Segmentation](https://ieeexplore.ieee.org/document/10687535)",
+      "c": "[&check;&nbsp;Link](https://github.com/zlngan/ASQuery)",
+      "n": "ASQuery",
+      "d": "2024-09-30",
+      "m1": "37.8",
+      "m2": "35.6",
+      "m3": "29.4",
+      "m4": "35.3",
+      "m5": "40.4"
+    },
+    {
+      "p": "[How Much Temporal Long-Term Context is Needed for Action Segmentation?](https://arxiv.org/abs/2308.11358v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ltcontext/ltcontext)",
+      "n": "LTContext",
+      "d": "2023-08-22",
+      "m1": "33.9",
+      "m2": "30.0",
+      "m3": "22.6",
+      "m4": "30.4",
+      "m5": "41.2"
+    },
+    {
+      "p": "[ASFormer: Transformer for Action Segmentation](https://arxiv.org/abs/2110.08568v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/chinayi/asformer)",
+      "n": "ASFormer",
+      "d": "2021-10-16",
+      "m1": "33.4",
+      "m2": "29.2",
+      "m3": "21.4",
+      "m4": "30.5",
+      "m5": "38.8"
+    },
+    {
+      "p": "[Coarse to Fine Multi-Resolution Temporal Convolutional Network](https://arxiv.org/abs/2105.10859v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dipika-singhania/C2F-TCN)",
+      "n": "C2F-TCN",
+      "d": "2021-05-23",
+      "m1": "33.3",
+      "m2": "29.0",
+      "m3": "21.3",
+      "m4": "32.4",
+      "m5": "39.2"
+    },
+    {
+      "p": "[Unified Fully and Timestamp Supervised Temporal Action Segmentation via Sequence to Sequence Translation](https://arxiv.org/abs/2209.00638v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/boschresearch/uvast)",
+      "n": "UVAST",
+      "d": "2022-09-01",
+      "m1": "32.1",
+      "m2": "28.3",
+      "m3": "20.8",
+      "m4": "31.5",
+      "m5": "37.4"
+    },
+    {
+      "p": "[MS-TCN++: Multi-Stage Temporal Convolutional Network for Action Segmentation](https://arxiv.org/abs/2006.09220v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/sj-li/MS-TCN2)",
+      "n": "MS-TCN++",
+      "d": "2020-06-16",
+      "m1": "31.6",
+      "m2": "27.8",
+      "m3": "20.6",
+      "m4": "30.7",
+      "m5": "37.1"
+    },
+    {
+      "p": "[Progress-Aware Online Action Segmentation for Egocentric Procedural Task Videos](http://openaccess.thecvf.com//content/CVPR2024/html/Shen_Progress-Aware_Online_Action_Segmentation_for_Egocentric_Procedural_Task_Videos_CVPR_2024_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/Yuhan-Shen/ProTAS)",
+      "n": "ProTAS(Offline)",
+      "d": "2024-01-01",
+      "m1": "28.7",
+      "m2": "24.4",
+      "m3": "17.5",
+      "m4": "29.2",
+      "m5": "34.8"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

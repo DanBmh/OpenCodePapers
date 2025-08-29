@@ -1,0 +1,74 @@
+# virtual-try-on-on-viton-hd
+
+[Dataset Link](https://github.com/shadow2496/VITON-HD) \
+Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Virtual Try-on']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "FID",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[FitDiT: Advancing the Authentic Garment Details for High-fidelity Virtual Try-on](https://arxiv.org/abs/2411.10499v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/BoyuanJiang/FitDiT)",
+      "n": "FItDiT",
+      "d": "2024-11-15",
+      "m1": "4.7309"
+    },
+    {
+      "p": "[Improving Diffusion Models for Authentic Virtual Try-on in the Wild](https://arxiv.org/abs/2403.05139v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yisol/IDM-VTON)",
+      "n": "IDM-VTON",
+      "d": "2024-03-08",
+      "m1": "6.290"
+    },
+    {
+      "p": "[StableVITON: Learning Semantic Correspondence with Latent Diffusion Model for Virtual Try-On](https://arxiv.org/abs/2312.01725v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/rlawjdghek/stableviton)",
+      "n": "StableVITON",
+      "d": "2023-12-04",
+      "m1": "8.233"
+    },
+    {
+      "p": "[High-Resolution Virtual Try-On with Misalignment and Occlusion-Handled Conditions](https://arxiv.org/abs/2206.14180v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/sangyun884/hr-viton)",
+      "n": "HR-VITON",
+      "d": "2022-06-28",
+      "m1": "10.91"
+    },
+    {
+      "p": "[VITON-HD: High-Resolution Virtual Try-On via Misalignment-Aware Normalization](https://arxiv.org/abs/2103.16874v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/shadow2496/VITON-HD)",
+      "n": "VITON-HD",
+      "d": "2021-03-31",
+      "m1": "11.74"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,103 @@
+# speech-enhancement-on-vb-demandex
+
+[Dataset Link](https://huggingface.co/datasets/NikolaiKyhne/VB-DemandEx) \
+Task Hierarchy: ['Speech Enhancement']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "ESTOI",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Number of parameters (M)",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "PESQ (wb)",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "SI-SDR",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "SSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[MambAttention: Mamba with Multi-Head Attention for Generalizable Single-Channel Speech Enhancement](https://arxiv.org/abs/2507.00966v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nikolaikyhne/xlstm-senet)",
+      "n": "MambAttention",
+      "d": "2025-07-01",
+      "m1": "0.801",
+      "m2": "2.33",
+      "m3": "3.026",
+      "m4": "16.684",
+      "m5": "7.674"
+    },
+    {
+      "p": "[MambAttention: Mamba with Multi-Head Attention for Generalizable Single-Channel Speech Enhancement](https://arxiv.org/abs/2507.00966v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nikolaikyhne/xlstm-senet)",
+      "n": "SEMamba",
+      "d": "2025-07-01",
+      "m1": "0.800",
+      "m2": "2.25",
+      "m3": "3.002",
+      "m4": "16.593",
+      "m5": "7.590"
+    },
+    {
+      "p": "[MambAttention: Mamba with Multi-Head Attention for Generalizable Single-Channel Speech Enhancement](https://arxiv.org/abs/2507.00966v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nikolaikyhne/xlstm-senet)",
+      "n": "xLSTM-SENet",
+      "d": "2025-07-01",
+      "m1": "0.795",
+      "m2": "2.20",
+      "m3": "2.973",
+      "m4": "16.414",
+      "m5": "7.933"
+    },
+    {
+      "p": "[MambAttention: Mamba with Multi-Head Attention for Generalizable Single-Channel Speech Enhancement](https://arxiv.org/abs/2507.00966v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nikolaikyhne/xlstm-senet)",
+      "n": "MP-SENet",
+      "d": "2025-07-01",
+      "m1": "0.787",
+      "m2": "2.05",
+      "m3": "2.935",
+      "m4": "16.202",
+      "m5": "7.641"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

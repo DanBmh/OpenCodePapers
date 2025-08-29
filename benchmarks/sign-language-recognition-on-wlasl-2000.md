@@ -1,0 +1,102 @@
+# sign-language-recognition-on-wlasl-2000
+
+[Dataset Link](https://github.com/dxli94/WLASL) \
+Task Hierarchy: ['Sign Language Recognition']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Top-1 Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Logos as a Well-Tempered Pre-train for Sign Language Recognition](https://arxiv.org/abs/2505.10481v1)",
+      "c": "",
+      "n": "Logos-Pretraining",
+      "d": "2025-05-15",
+      "m1": "66.82"
+    },
+    {
+      "p": "[Uni-Sign: Toward Unified Sign Language Understanding at Scale](https://arxiv.org/abs/2501.15187v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zechengli19/uni-sign)",
+      "n": "Uni-Sign",
+      "d": "2025-01-25",
+      "m1": "63.52"
+    },
+    {
+      "p": "[Natural Language-Assisted Sign Language Recognition](https://arxiv.org/abs/2303.12080v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/FangyunWei/SLRT)",
+      "n": "NLA-SLR",
+      "d": "2023-03-21",
+      "m1": "61.26"
+    },
+    {
+      "p": "[StepNet: Spatial-temporal Part-aware Network for Isolated Sign Language Recognition](https://arxiv.org/abs/2212.12857v2)",
+      "c": "",
+      "n": "StepNet",
+      "d": "2022-12-25",
+      "m1": "61.17"
+    },
+    {
+      "p": "[Skeleton Aware Multi-modal Sign Language Recognition](https://arxiv.org/abs/2103.08833v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/jackyjsy/CVPR21Chal-SLR)",
+      "n": "SAM-SLR",
+      "d": "2021-03-16",
+      "m1": "58.73"
+    },
+    {
+      "p": "[Fine-tuning of sign language recognition models: a technical report](https://arxiv.org/abs/2302.07693v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ds-hub-sochi/sl-techreport)",
+      "n": "SWIN-SLR",
+      "d": "2023-02-15",
+      "m1": "58.51"
+    },
+    {
+      "p": "[Hierarchical Windowed Graph Attention Network and a Large Scale Dataset for Isolated Indian Sign Language Recognition](https://arxiv.org/abs/2407.14224v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/suvajit-patra/sl-hwgat)",
+      "n": "HWGAT",
+      "d": "2024-07-19",
+      "m1": "48.49"
+    },
+    {
+      "p": "[BSL-1K: Scaling up co-articulated sign language recognition using mouthing cues](https://arxiv.org/abs/2007.12131v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/gulvarol/bsl1k)",
+      "n": "I3D (pretraining: BSL-1K)",
+      "d": "2020-07-23",
+      "m1": "46.82"
+    },
+    {
+      "p": "[Word-level Deep Sign Language Recognition from Video: A New Large-scale Dataset and Methods Comparison](https://arxiv.org/abs/1910.11006v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dxli94/WLASL)",
+      "n": "I3D",
+      "d": "2019-10-24",
+      "m1": "32.48"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,214 @@
+# lipreading-on-lrs2
+
+[Dataset Link](https://www.robots.ox.ac.uk/~vgg/data/lip_reading/lrs2.html) \
+Task Hierarchy: ['Natural Language Transduction', 'Lipreading']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Word Error Rate (WER)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Auto-AVSR: Audio-Visual Speech Recognition with Automatic Labels](https://arxiv.org/abs/2303.14307v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/mpc001/auto_avsr)",
+      "n": "Auto-AVSR",
+      "d": "2023-03-25",
+      "m1": "14.6"
+    },
+    {
+      "p": "[Unified Speech Recognition: A Single Model for Auditory, Visual, and Audiovisual Inputs](https://arxiv.org/abs/2411.02256v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ahaliassos/usr)",
+      "n": "USR",
+      "d": "2024-11-04",
+      "m1": "15.4"
+    },
+    {
+      "p": "[SyncVSR: Data-Efficient Visual Speech Recognition with End-to-End Crossmodal Audio Token Synchronization](https://arxiv.org/abs/2406.12233v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/KAIST-AILab/SyncVSR)",
+      "n": "SyncVSR",
+      "d": "2024-06-18",
+      "m1": "16.5"
+    },
+    {
+      "p": "[Jointly Learning Visual and Auditory Speech Representations from Raw Data](https://arxiv.org/abs/2212.06246v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ahaliassos/raven)",
+      "n": "RAVEn Large",
+      "d": "2022-12-12",
+      "m1": "18.6"
+    },
+    {
+      "p": "[Sub-word Level Lip Reading With Visual Attention](https://arxiv.org/abs/2110.07603v2)",
+      "c": "",
+      "n": "VTP (more data)",
+      "d": "2021-10-14",
+      "m1": "22.6"
+    },
+    {
+      "p": "[ES3: Evolving Self-Supervised Learning of Robust Audio-Visual Speech Representations](http://openaccess.thecvf.com//content/CVPR2024/html/Zhang_ES3_Evolving_Self-Supervised_Learning_of_Robust_Audio-Visual_Speech_Representations_CVPR_2024_paper.html)",
+      "c": "",
+      "n": "ES\u00b3 Large + extLM",
+      "d": "2024-01-01",
+      "m1": "24.6"
+    },
+    {
+      "p": "[Visual Speech Recognition for Multiple Languages in the Wild](https://arxiv.org/abs/2202.13084v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mpc001/Visual_Speech_Recognition_for_Multiple_Languages)",
+      "n": "CTC/Attention (LRW+LRS2/3+AVSpeech)",
+      "d": "2022-02-26",
+      "m1": "25.5"
+    },
+    {
+      "p": "[ES3: Evolving Self-Supervised Learning of Robust Audio-Visual Speech Representations](http://openaccess.thecvf.com//content/CVPR2024/html/Zhang_ES3_Evolving_Self-Supervised_Learning_of_Robust_Audio-Visual_Speech_Representations_CVPR_2024_paper.html)",
+      "c": "",
+      "n": "ES\u00b3 Large",
+      "d": "2024-01-01",
+      "m1": "26.7"
+    },
+    {
+      "p": "[ES3: Evolving Self-Supervised Learning of Robust Audio-Visual Speech Representations](http://openaccess.thecvf.com//content/CVPR2024/html/Zhang_ES3_Evolving_Self-Supervised_Learning_of_Robust_Audio-Visual_Speech_Representations_CVPR_2024_paper.html)",
+      "c": "",
+      "n": "ES\u00b3 Base + extLM",
+      "d": "2024-01-01",
+      "m1": "28.7"
+    },
+    {
+      "p": "[Sub-word Level Lip Reading With Visual Attention](https://arxiv.org/abs/2110.07603v2)",
+      "c": "",
+      "n": "VTP",
+      "d": "2021-10-14",
+      "m1": "28.9"
+    },
+    {
+      "p": "[SyncVSR: Data-Efficient Visual Speech Recognition with End-to-End Crossmodal Audio Token Synchronization](https://arxiv.org/abs/2406.12233v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/KAIST-AILab/SyncVSR)",
+      "n": "SyncVSR",
+      "d": "2024-06-18",
+      "m1": "28.9"
+    },
+    {
+      "p": "[ES3: Evolving Self-Supervised Learning of Robust Audio-Visual Speech Representations](http://openaccess.thecvf.com//content/CVPR2024/html/Zhang_ES3_Evolving_Self-Supervised_Learning_of_Robust_Audio-Visual_Speech_Representations_CVPR_2024_paper.html)",
+      "c": "",
+      "n": "ES\u00b3 Base* + extLM",
+      "d": "2024-01-01",
+      "m1": "29.3"
+    },
+    {
+      "p": "[ES3: Evolving Self-Supervised Learning of Robust Audio-Visual Speech Representations](http://openaccess.thecvf.com//content/CVPR2024/html/Zhang_ES3_Evolving_Self-Supervised_Learning_of_Robust_Audio-Visual_Speech_Representations_CVPR_2024_paper.html)",
+      "c": "",
+      "n": "ES\u00b3 Base",
+      "d": "2024-01-01",
+      "m1": "30.7"
+    },
+    {
+      "p": "[ES3: Evolving Self-Supervised Learning of Robust Audio-Visual Speech Representations](http://openaccess.thecvf.com//content/CVPR2024/html/Zhang_ES3_Evolving_Self-Supervised_Learning_of_Robust_Audio-Visual_Speech_Representations_CVPR_2024_paper.html)",
+      "c": "",
+      "n": "ES\u00b3 Base*",
+      "d": "2024-01-01",
+      "m1": "31.4"
+    },
+    {
+      "p": "[Visual Speech Recognition for Multiple Languages in the Wild](https://arxiv.org/abs/2202.13084v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mpc001/Visual_Speech_Recognition_for_Multiple_Languages)",
+      "n": "CTC/Attention",
+      "d": "2022-02-26",
+      "m1": "32.9"
+    },
+    {
+      "p": "[End-to-end Audio-visual Speech Recognition with Conformers](https://arxiv.org/abs/2102.06657v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zziz/pwc)",
+      "n": "Hybrid CTC / Attention",
+      "d": "2021-02-12",
+      "m1": "39.1"
+    },
+    {
+      "p": "[Leveraging Unimodal Self-Supervised Learning for Multimodal Audio-Visual Speech Recognition](https://arxiv.org/abs/2203.07996v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/lumia-group/leveraging-self-supervised-learning-for-avsr)",
+      "n": "MoCo + wav2vec (w/o extLM)",
+      "d": "2022-02-24",
+      "m1": "43.2"
+    },
+    {
+      "p": "[Distinguishing Homophenes Using Multi-Head Visual-Audio Memory for Lip Reading](https://arxiv.org/abs/2204.01725v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ms-dot-k/Multi-head-Visual-Audio-Memory)",
+      "n": "Multi-head Visual-Audio Memory",
+      "d": "2022-04-04",
+      "m1": "44.5"
+    },
+    {
+      "p": "[Deep Audio-Visual Speech Recognition](http://arxiv.org/abs/1809.02108v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/lordmartian/deep_avsr)",
+      "n": "TM-seq2seq + extLM",
+      "d": "2018-09-06",
+      "m1": "48.3"
+    },
+    {
+      "p": "[Audio-visual Recognition of Overlapped speech for the LRS2 dataset](https://arxiv.org/abs/2001.01656v1)",
+      "c": "",
+      "n": "LF-MMI TDNN",
+      "d": "2020-01-06",
+      "m1": "48.86"
+    },
+    {
+      "p": "[Audio-Visual Speech Recognition With A Hybrid CTC/Attention Architecture](http://arxiv.org/abs/1810.00108v1)",
+      "c": "",
+      "n": "Hybrid CTC / Attention",
+      "d": "2018-09-28",
+      "m1": "50"
+    },
+    {
+      "p": "[Spatio-Temporal Fusion Based Convolutional Sequence Learning for Lip Reading](http://openaccess.thecvf.com/content_ICCV_2019/html/Zhang_Spatio-Temporal_Fusion_Based_Convolutional_Sequence_Learning_for_Lip_Reading_ICCV_2019_paper.html)",
+      "c": "",
+      "n": "Conv-seq2seq",
+      "d": "2019-10-01",
+      "m1": "51.7"
+    },
+    {
+      "p": "[ASR is all you need: cross-modal distillation for lip reading](https://arxiv.org/abs/1911.12747v2)",
+      "c": "",
+      "n": "CTC + KD ASR",
+      "d": "2019-11-28",
+      "m1": "53.2"
+    },
+    {
+      "p": "[Deep Audio-Visual Speech Recognition](http://arxiv.org/abs/1809.02108v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/lordmartian/deep_avsr)",
+      "n": "TM-CTC + extLM",
+      "d": "2018-09-06",
+      "m1": "54.7"
+    },
+    {
+      "p": "[Hearing Lips: Improving Lip Reading by Distilling Speech Recognizers](https://arxiv.org/abs/1911.11502v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zju-vipa/KamalEngine)",
+      "n": "LIBS",
+      "d": "2019-11-26",
+      "m1": "65.29"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

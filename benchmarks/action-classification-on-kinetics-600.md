@@ -1,0 +1,561 @@
+# action-classification-on-kinetics-600
+
+[Dataset Link](https://deepmind.com/research/open-source/kinetics) \
+Task Hierarchy: ['Video', 'Action Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Top-1 Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Top-5 Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "GFLOPs",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[InternVideo2: Scaling Foundation Models for Multimodal Video Understanding](https://arxiv.org/abs/2403.15377v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internvideo)",
+      "n": "InternVideo2-6B",
+      "d": "2024-03-22",
+      "m1": "91.9"
+    },
+    {
+      "p": "[Rethinking Video ViTs: Sparse Video Tubes for Joint Image and Video Learning](https://arxiv.org/abs/2212.03229v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/daniel-code/TubeViT)",
+      "n": "TubeVit-H",
+      "d": "2022-12-06",
+      "m1": "91.8",
+      "m2": "98.9"
+    },
+    {
+      "p": "[InternVideo2: Scaling Foundation Models for Multimodal Video Understanding](https://arxiv.org/abs/2403.15377v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internvideo)",
+      "n": "InternVideo2-1B",
+      "d": "2024-03-22",
+      "m1": "91.6"
+    },
+    {
+      "p": "[Rethinking Video ViTs: Sparse Video Tubes for Joint Image and Video Learning](https://arxiv.org/abs/2212.03229v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/daniel-code/TubeViT)",
+      "n": "TubeVit-L",
+      "d": "2022-12-06",
+      "m1": "91.5",
+      "m2": "98.7"
+    },
+    {
+      "p": "[InternVideo: General Video Foundation Models via Generative and Discriminative Learning](https://arxiv.org/abs/2212.03191v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internvideo)",
+      "n": "InternVideo-T",
+      "d": "2022-12-06",
+      "m1": "91.3"
+    },
+    {
+      "p": "[MERLOT Reserve: Neural Script Knowledge through Vision and Language and Sound](https://arxiv.org/abs/2201.02639v4)",
+      "c": "",
+      "n": "\ud83c\udf77MerlotReserve-Large (+Audio)",
+      "d": "2022-01-07",
+      "m1": "91.1",
+      "m2": "97.1"
+    },
+    {
+      "p": "[Rethinking Video ViTs: Sparse Video Tubes for Joint Image and Video Learning](https://arxiv.org/abs/2212.03229v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/daniel-code/TubeViT)",
+      "n": "TubeVit-B",
+      "d": "2022-12-06",
+      "m1": "90.9",
+      "m2": "97.3"
+    },
+    {
+      "p": "[Unmasked Teacher: Towards Training-Efficient Video Foundation Models](https://arxiv.org/abs/2303.16058v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/opengvlab/unmasked_teacher)",
+      "n": "UMT-L (ViT-L/16)",
+      "d": "2023-03-28",
+      "m1": "90.5",
+      "m2": "98.8"
+    },
+    {
+      "p": "[Multiview Transformers for Video Recognition](https://arxiv.org/abs/2201.04288v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/scenic)",
+      "n": "MTV-H (WTS 60M)",
+      "d": "2022-01-12",
+      "m1": "90.3",
+      "m2": "98.5"
+    },
+    {
+      "p": "[UniFormerV2: Spatiotemporal Learning by Arming Image ViTs with Video UniFormer](https://openreview.net/forum?id=d77RVuVg-Mf)",
+      "c": "[&check;&nbsp;Link](https://github.com/OpenGVLab/UniFormerV2)",
+      "n": "UniFormerV2-L",
+      "d": "2022-09-22",
+      "m1": "90.1",
+      "m2": "98.5"
+    },
+    {
+      "p": "[VideoMAE V2: Scaling Video Masked Autoencoders with Dual Masking](https://arxiv.org/abs/2303.16727v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/OpenGVLab/VideoMAEv2)",
+      "n": "VideoMAE V2-g (64x266x266)",
+      "d": "2023-03-29",
+      "m1": "89.9",
+      "m2": "98.5"
+    },
+    {
+      "p": "[mPLUG-2: A Modularized Multi-modal Foundation Model Across Text, Image and Video](https://arxiv.org/abs/2302.00402v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/modelscope/modelscope)",
+      "n": "mPLUG-2",
+      "d": "2023-02-01",
+      "m1": "89.8",
+      "m2": "98.3"
+    },
+    {
+      "p": "[EVA: Exploring the Limits of Masked Visual Representation Learning at Scale](https://arxiv.org/abs/2211.07636v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "EVA",
+      "d": "2022-11-14",
+      "m1": "89.8%"
+    },
+    {
+      "p": "[MERLOT Reserve: Neural Script Knowledge through Vision and Language and Sound](https://arxiv.org/abs/2201.02639v4)",
+      "c": "",
+      "n": "\ud83c\udf77MerlotReserve-Base (+Audio)",
+      "d": "2022-01-07",
+      "m1": "89.7",
+      "m2": "96.6"
+    },
+    {
+      "p": "[MERLOT Reserve: Neural Script Knowledge through Vision and Language and Sound](https://arxiv.org/abs/2201.02639v4)",
+      "c": "",
+      "n": "\ud83c\udf77MerlotReserve-Large (no Audio)",
+      "d": "2022-01-07",
+      "m1": "89.4",
+      "m2": "96.3"
+    },
+    {
+      "p": "[CoCa: Contrastive Captioners are Image-Text Foundation Models](https://arxiv.org/abs/2205.01917v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mlfoundations/open_clip)",
+      "n": "CoCa (finetuned)",
+      "d": "2022-05-04",
+      "m1": "89.4"
+    },
+    {
+      "p": "[VideoMAE V2: Scaling Video Masked Autoencoders with Dual Masking](https://arxiv.org/abs/2303.16727v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/OpenGVLab/VideoMAEv2)",
+      "n": "VideoMAE V2-g",
+      "d": "2023-03-29",
+      "m1": "88.8",
+      "m2": "98.2"
+    },
+    {
+      "p": "[Hiera: A Hierarchical Vision Transformer without the Bells-and-Whistles](https://arxiv.org/abs/2306.00989v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/pytorch-image-models)",
+      "n": "Hiera-H (no extra data)",
+      "d": "2023-06-01",
+      "m1": "88.8"
+    },
+    {
+      "p": "[CoCa: Contrastive Captioners are Image-Text Foundation Models](https://arxiv.org/abs/2205.01917v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mlfoundations/open_clip)",
+      "n": "CoCa (frozen)",
+      "d": "2022-05-04",
+      "m1": "88.5"
+    },
+    {
+      "p": "[Masked Feature Prediction for Self-Supervised Visual Pre-Training](https://arxiv.org/abs/2112.09133v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/SlowFast)",
+      "n": "MaskFeat (no extra data, MViT-L)",
+      "d": "2021-12-16",
+      "m1": "88.3",
+      "m2": "98.0"
+    },
+    {
+      "p": "[Expanding Language-Image Pretrained Models for General Video Recognition](https://arxiv.org/abs/2208.02816v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/videox)",
+      "n": "X-CLIP(ViT-L/14, CLIP)",
+      "d": "2022-08-04",
+      "m1": "88.3",
+      "m2": "97.7"
+    },
+    {
+      "p": "[MERLOT Reserve: Neural Script Knowledge through Vision and Language and Sound](https://arxiv.org/abs/2201.02639v4)",
+      "c": "",
+      "n": "\ud83c\udf77MerlotReserve-Base (no Audio)",
+      "d": "2022-01-07",
+      "m1": "88.1",
+      "m2": "95.8"
+    },
+    {
+      "p": "[MViTv2: Improved Multiscale Vision Transformers for Classification and Detection](https://arxiv.org/abs/2112.01526v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "MViTv2-L (ImageNet-21k pretrain)",
+      "d": "2021-12-02",
+      "m1": "87.9",
+      "m2": "97.9"
+    },
+    {
+      "p": "[Co-training Transformer with Videos and Images Improves Action Recognition](https://arxiv.org/abs/2112.07175v1)",
+      "c": "",
+      "n": "CoVeR (JFT-3B)",
+      "d": "2021-12-14",
+      "m1": "87.9",
+      "m2": "97.8"
+    },
+    {
+      "p": "[Florence: A New Foundation Model for Computer Vision](https://arxiv.org/abs/2111.11432v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/unicl)",
+      "n": "Florence (curated FLD-900M pretrain)",
+      "d": "2021-11-22",
+      "m1": "87.8",
+      "m2": "97.9"
+    },
+    {
+      "p": "[Co-training Transformer with Videos and Images Improves Action Recognition](https://arxiv.org/abs/2112.07175v1)",
+      "c": "",
+      "n": "CoVeR (JFT-300M)",
+      "d": "2021-12-14",
+      "m1": "86.8",
+      "m2": "97.3"
+    },
+    {
+      "p": "[TokenLearner: What Can 8 Learned Tokens Do for Images and Videos?](https://arxiv.org/abs/2106.11297v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/scenic)",
+      "n": "TokenLearner 16at18 w. Fuser (L/10)",
+      "d": "2021-06-21",
+      "m1": "86.3",
+      "m2": "97.0"
+    },
+    {
+      "p": "[Video Swin Transformer](https://arxiv.org/abs/2106.13230v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmaction2)",
+      "n": "Swin-L (384x384, ImageNet-21k pretrain)",
+      "d": "2021-06-24",
+      "m1": "86.1",
+      "m2": "97.3"
+    },
+    {
+      "p": "[ViViT: A Video Vision Transformer](https://arxiv.org/abs/2103.15691v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/scenic)",
+      "n": "ViViT-H/16x2 (JFT)",
+      "d": "2021-03-29",
+      "m1": "85.8",
+      "m2": "96.5"
+    },
+    {
+      "p": "[MViTv2: Improved Multiscale Vision Transformers for Classification and Detection](https://arxiv.org/abs/2112.01526v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "MViTv2-L (train from scratch)",
+      "d": "2021-12-02",
+      "m1": "85.5"
+    },
+    {
+      "p": "[UniFormer: Unified Transformer for Efficient Spatial-Temporal Representation Learning](https://openreview.net/forum?id=nBU_u6DLvoK)",
+      "c": "[&check;&nbsp;Link](https://github.com/towhee-io/towhee)",
+      "n": "UniFormer-B (ImageNet-1K)",
+      "d": "2021-09-29",
+      "m1": "84.8",
+      "m2": "96.7",
+      "m3": "259x4"
+    },
+    {
+      "p": "[Space-time Mixing Attention for Video Transformer](https://arxiv.org/abs/2106.05968v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/1adrianb/video-transformers)",
+      "n": "XViT (x16)",
+      "d": "2021-06-10",
+      "m1": "84.5",
+      "m2": "96.3"
+    },
+    {
+      "p": "[MoViNets: Mobile Video Networks for Efficient Video Recognition](https://arxiv.org/abs/2103.11511v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+      "n": "MoViNet-A5 (AutoAugment)",
+      "d": "2021-03-21",
+      "m1": "84.3",
+      "m2": "96.4",
+      "m3": "281x1"
+    },
+    {
+      "p": "[ViViT: A Video Vision Transformer](https://arxiv.org/abs/2103.15691v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/scenic)",
+      "n": "ViViT-L/16x2",
+      "d": "2021-03-29",
+      "m1": "84.3",
+      "m2": "95.6"
+    },
+    {
+      "p": "[Video Swin Transformer](https://arxiv.org/abs/2106.13230v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmaction2)",
+      "n": "Swin-B (ImageNet-21k pretrain)",
+      "d": "2021-06-24",
+      "m1": "84.0",
+      "m2": "96.5"
+    },
+    {
+      "p": "[Multiscale Vision Transformers](https://arxiv.org/abs/2104.11227v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/SlowFast)",
+      "n": "MViT-B-24, 32x3",
+      "d": "2021-04-22",
+      "m1": "83.8",
+      "m2": "96.3"
+    },
+    {
+      "p": "[VATT: Transformers for Multimodal Self-Supervised Learning from Raw Video, Audio and Text](https://arxiv.org/abs/2104.11178v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research/tree/master/vatt)",
+      "n": "VATT-Large",
+      "d": "2021-04-22",
+      "m1": "83.6",
+      "m2": "96.6"
+    },
+    {
+      "p": "[MoViNets: Mobile Video Networks for Efficient Video Recognition](https://arxiv.org/abs/2103.11511v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+      "n": "MoViNet-A6",
+      "d": "2021-03-21",
+      "m1": "83.5",
+      "m2": "96.5",
+      "m3": "386x1"
+    },
+    {
+      "p": "[Multiscale Vision Transformers](https://arxiv.org/abs/2104.11227v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/SlowFast)",
+      "n": "MViT-B, 32x3",
+      "d": "2021-04-22",
+      "m1": "83.4",
+      "m2": "96.3"
+    },
+    {
+      "p": "[Learning Spatio-Temporal Representation with Local and Global Diffusion](https://arxiv.org/abs/1906.05571v1)",
+      "c": "",
+      "n": "LGD-3D Two-stream",
+      "d": "2019-06-13",
+      "m1": "83.1",
+      "m2": "96.2"
+    },
+    {
+      "p": "[Revisiting 3D ResNets for Video Recognition](https://arxiv.org/abs/2109.01696v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+      "n": "R3D-RS-200",
+      "d": "2021-09-03",
+      "m1": "83.1"
+    },
+    {
+      "p": "[ViViT: A Video Vision Transformer](https://arxiv.org/abs/2103.15691v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/scenic)",
+      "n": "ViViT-L/16x2 (320x320)",
+      "d": "2021-03-29",
+      "m1": "83.0",
+      "m2": "95.7"
+    },
+    {
+      "p": "[MoViNets: Mobile Video Networks for Efficient Video Recognition](https://arxiv.org/abs/2103.11511v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+      "n": "MoViNet-A5",
+      "d": "2021-03-21",
+      "m1": "82.7",
+      "m2": "95.7",
+      "m3": "281x1"
+    },
+    {
+      "p": "[Multiscale Vision Transformers](https://arxiv.org/abs/2104.11227v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/SlowFast)",
+      "n": "MViT-B, 16x4",
+      "d": "2021-04-22",
+      "m1": "82.1",
+      "m2": "95.7"
+    },
+    {
+      "p": "[PERF-Net: Pose Empowered RGB-Flow Net](https://arxiv.org/abs/2009.13087v2)",
+      "c": "",
+      "n": "PERF-Net (distilled ResNet50-G)",
+      "d": "2020-09-28",
+      "m1": "82.0",
+      "m2": "95.7"
+    },
+    {
+      "p": "[SlowFast Networks for Video Recognition](https://arxiv.org/abs/1812.03982v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/SlowFast)",
+      "n": "SlowFast 16x8 (ResNet-101 + NL)",
+      "d": "2018-12-10",
+      "m1": "81.8",
+      "m2": "95.1"
+    },
+    {
+      "p": "[Learning Spatio-Temporal Representation with Local and Global Diffusion](https://arxiv.org/abs/1906.05571v1)",
+      "c": "",
+      "n": "LGD-3D RGB",
+      "d": "2019-06-13",
+      "m1": "81.5",
+      "m2": "95.6"
+    },
+    {
+      "p": "[MoViNets: Mobile Video Networks for Efficient Video Recognition](https://arxiv.org/abs/2103.11511v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+      "n": "MoViNet-A4",
+      "d": "2021-03-21",
+      "m1": "81.2",
+      "m2": "94.9",
+      "m3": "105x1"
+    },
+    {
+      "p": "[SlowFast Networks for Video Recognition](https://arxiv.org/abs/1812.03982v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/SlowFast)",
+      "n": "SlowFast 16x8 (ResNet-101)",
+      "d": "2018-12-10",
+      "m1": "81.1",
+      "m2": "95.1"
+    },
+    {
+      "p": "[MoViNets: Mobile Video Networks for Efficient Video Recognition](https://arxiv.org/abs/2103.11511v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+      "n": "MoViNet-A3",
+      "d": "2021-03-21",
+      "m1": "80.8",
+      "m2": "80.8",
+      "m3": "56.9x1"
+    },
+    {
+      "p": "[SlowFast Networks for Video Recognition](https://arxiv.org/abs/1812.03982v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/SlowFast)",
+      "n": "SlowFast 8x8 (ResNet-101)",
+      "d": "2018-12-10",
+      "m1": "80.4",
+      "m2": "94.8"
+    },
+    {
+      "p": "[SlowFast Networks for Video Recognition](https://arxiv.org/abs/1812.03982v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/SlowFast)",
+      "n": "SlowFast 8x8 (ResNet-50)",
+      "d": "2018-12-10",
+      "m1": "79.9",
+      "m2": "94.5"
+    },
+    {
+      "p": "[D3D: Distilled 3D Networks for Video Action Recognition](http://arxiv.org/abs/1812.08249v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/princeton-vl/d3dhelper)",
+      "n": "D3D+S3D-G",
+      "d": "2018-12-19",
+      "m1": "79.1"
+    },
+    {
+      "p": "[SlowFast Networks for Video Recognition](https://arxiv.org/abs/1812.03982v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/SlowFast)",
+      "n": "SlowFast 4x16 (ResNet-50)",
+      "d": "2018-12-10",
+      "m1": "78.8",
+      "m2": "94"
+    },
+    {
+      "p": "[Rethinking Spatiotemporal Feature Learning: Speed-Accuracy Trade-offs in Video Classification](http://arxiv.org/abs/1712.04851v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/kylemin/S3D)",
+      "n": "S3D-G (RGB+Flow)",
+      "d": "2017-12-13",
+      "m1": "78.6"
+    },
+    {
+      "p": "[D3D: Distilled 3D Networks for Video Action Recognition](http://arxiv.org/abs/1812.08249v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/princeton-vl/d3dhelper)",
+      "n": "D3D",
+      "d": "2018-12-19",
+      "m1": "77.9"
+    },
+    {
+      "p": "[MoViNets: Mobile Video Networks for Efficient Video Recognition](https://arxiv.org/abs/2103.11511v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+      "n": "MoViNet-A2",
+      "d": "2021-03-21",
+      "m1": "77.5",
+      "m2": "93.4",
+      "m3": "10.3x1"
+    },
+    {
+      "p": "[Rethinking Spatiotemporal Feature Learning: Speed-Accuracy Trade-offs in Video Classification](http://arxiv.org/abs/1712.04851v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/kylemin/S3D)",
+      "n": "S3D-G (RGB)",
+      "d": "2017-12-13",
+      "m1": "76.6"
+    },
+    {
+      "p": "[MoViNets: Mobile Video Networks for Efficient Video Recognition](https://arxiv.org/abs/2103.11511v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+      "n": "MoViNet-A1",
+      "d": "2021-03-21",
+      "m1": "76.0",
+      "m2": "92.6",
+      "m3": "6.0x1"
+    },
+    {
+      "p": "[Learning Spatio-Temporal Representation with Local and Global Diffusion](https://arxiv.org/abs/1906.05571v1)",
+      "c": "",
+      "n": "LGD-3D Flow",
+      "d": "2019-06-13",
+      "m1": "75",
+      "m2": "92.4"
+    },
+    {
+      "p": "[A Short Note about Kinetics-600](http://arxiv.org/abs/1808.01340v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/rocksyne/kinetics-dataset-downloader)",
+      "n": "I3D (RGB)",
+      "d": "2018-08-03",
+      "m1": "73.6"
+    },
+    {
+      "p": "[MoViNets: Mobile Video Networks for Efficient Video Recognition](https://arxiv.org/abs/2103.11511v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+      "n": "MoViNet-A0",
+      "d": "2021-03-21",
+      "m1": "71.5",
+      "m2": "90.4",
+      "m3": "2.7x1"
+    },
+    {
+      "p": "[Rethinking Spatiotemporal Feature Learning: Speed-Accuracy Trade-offs in Video Classification](http://arxiv.org/abs/1712.04851v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/kylemin/S3D)",
+      "n": "S3D-G (Flow)",
+      "d": "2017-12-13",
+      "m1": "69.7"
+    },
+    {
+      "p": "[MViTv2: Improved Multiscale Vision Transformers for Classification and Detection](https://arxiv.org/abs/2112.01526v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "MViTv2-B (train from scratch)",
+      "d": "2021-12-02",
+      "m2": "97.2"
+    },
+    {
+      "p": "[MViTv2: Improved Multiscale Vision Transformers for Classification and Detection](https://arxiv.org/abs/2112.01526v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "MViT-L (train from scratch)",
+      "d": "2021-12-02",
+      "m3": "206x5"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

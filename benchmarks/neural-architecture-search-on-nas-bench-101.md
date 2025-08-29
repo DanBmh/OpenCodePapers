@@ -1,0 +1,79 @@
+# neural-architecture-search-on-nas-bench-101
+
+[Dataset Link](https://github.com/google-research/nasbench) \
+Task Hierarchy: ['AutoML', 'Neural Architecture Search']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy (%)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Spearman Correlation",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Multi-conditioned Graph Diffusion for Neural Architecture Search](https://arxiv.org/abs/2403.06020v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rohanasthana/dinas)",
+      "n": "DiNAS",
+      "d": "2024-03-09",
+      "m1": "94.98%"
+    },
+    {
+      "p": "[LayerNAS: Neural Architecture Search in Polynomial Complexity](https://arxiv.org/abs/2304.11517v1)",
+      "c": "",
+      "n": "LayerNAS",
+      "d": "2023-04-23",
+      "m1": "94.26%"
+    },
+    {
+      "p": "[Improving Neural Architecture Search by Mixing a FireFly algorithm with a Training Free Evaluation](https://ieeexplore.ieee.org/document/9892861)",
+      "c": "[&check;&nbsp;Link](https://github.com/nassimmokhtari/Improved-FireFly-Algorithm)",
+      "n": "Improved FireFly Algorithme",
+      "d": "2022-07-18",
+      "m1": "94.03%"
+    },
+    {
+      "p": "[Improving Neural Architecture Search by Mixing a FireFly algorithm with a Training Free Evaluation](https://ieeexplore.ieee.org/document/9892861)",
+      "c": "[&check;&nbsp;Link](https://github.com/nassimmokhtari/Improved-FireFly-Algorithm)",
+      "n": "FireFly",
+      "d": "2022-07-18",
+      "m1": "93%"
+    },
+    {
+      "p": "[Generic Neural Architecture Search via Regression](https://arxiv.org/abs/2108.01899v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/leeyeehoo/GenNAS)",
+      "n": "GenNAS",
+      "d": "2021-08-04",
+      "m2": "0.87"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,154 @@
+# zeroshot-video-question-answer-on-tgif-qa
+
+[Dataset Link](https://github.com/YunseokJANG/tgif-qa) \
+Task Hierarchy: ['Video Question Answering', 'Zero-Shot Video Question Answer']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Confidence Score",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Tarsier: Recipes for Training and Evaluating Large Video Description Models](https://arxiv.org/abs/2407.00634v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/bytedance/tarsier)",
+      "n": "Tarsier (34B)",
+      "d": "2024-06-30",
+      "m1": "82.5",
+      "m2": "4.4"
+    },
+    {
+      "p": "[LinVT: Empower Your Image-level Large Language Model to Understand Videos](https://arxiv.org/abs/2412.05185v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/gls0425/linvt)",
+      "n": "LinVT-Qwen2-VL\n(7B)",
+      "d": "2024-12-06",
+      "m1": "81.3",
+      "m2": "4.3"
+    },
+    {
+      "p": "[TS-LLaVA: Constructing Visual Tokens through Thumbnail-and-Sampling for Training-Free Video Large Language Models](https://arxiv.org/abs/2411.11066v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tingyu215/ts-llava)",
+      "n": "TS-LLaVA-34B",
+      "d": "2024-11-17",
+      "m1": "81.0",
+      "m2": "4.2"
+    },
+    {
+      "p": "[PLLaVA : Parameter-free LLaVA Extension from Images to Videos for Video Dense Captioning](https://arxiv.org/abs/2404.16994v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/magic-research/PLLaVA)",
+      "n": "PLLaVA",
+      "d": "2024-04-25",
+      "m1": "80.6",
+      "m2": "4.3"
+    },
+    {
+      "p": "[SlowFast-LLaVA: A Strong Training-Free Baseline for Video Large Language Models](https://arxiv.org/abs/2407.15841v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/apple/ml-slowfast-llava)",
+      "n": "SlowFast-LLaVA-34B",
+      "d": "2024-07-22",
+      "m1": "80.6",
+      "m2": "4.3"
+    },
+    {
+      "p": "[An Image Grid Can Be Worth a Video: Zero-shot Video Question Answering Using a VLM](https://arxiv.org/abs/2403.18406v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/imagegridworth/IG-VLM)",
+      "n": "IG-VLM",
+      "d": "2024-03-27",
+      "m1": "79.1",
+      "m2": "4.2"
+    },
+    {
+      "p": "[VideoGPT+: Integrating Image and Video Encoders for Enhanced Video Understanding](https://arxiv.org/abs/2406.09418v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/mbzuai-oryx/videogpt-plus)",
+      "n": "VideoGPT+",
+      "d": "2024-06-13",
+      "m1": "74.6",
+      "m2": "4.1"
+    },
+    {
+      "p": "[MiniGPT4-Video: Advancing Multimodal LLMs for Video Understanding with Interleaved Visual-Textual Tokens](https://arxiv.org/abs/2404.03413v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Vision-CAIR/MiniGPT4-video)",
+      "n": "MiniGPT4-video-7B",
+      "d": "2024-04-04",
+      "m1": "72.22"
+    },
+    {
+      "p": "[Video-LLaVA: Learning United Visual Representation by Alignment Before Projection](https://arxiv.org/abs/2311.10122v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/PKU-YuanGroup/Video-LLaVA)",
+      "n": "Video-LLaVA-7B",
+      "d": "2023-11-16",
+      "m1": "70.0",
+      "m2": "4.0"
+    },
+    {
+      "p": "[Chat-UniVi: Unified Visual Representation Empowers Large Language Models with Image and Video Understanding](https://arxiv.org/abs/2311.08046v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/pku-yuangroup/chat-univi)",
+      "n": "Chat-UniVi-7B",
+      "d": "2023-11-14",
+      "m1": "69.0",
+      "m2": "3.8"
+    },
+    {
+      "p": "[Elysium: Exploring Object-level Perception in Videos via MLLM](https://arxiv.org/abs/2403.16558v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/hon-wong/elysium)",
+      "n": "Elysium",
+      "d": "2024-03-25",
+      "m1": "66.6",
+      "m2": "3.6"
+    },
+    {
+      "p": "[Video-ChatGPT: Towards Detailed Video Understanding via Large Vision and Language Models](https://arxiv.org/abs/2306.05424v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mbzuai-oryx/video-chatgpt)",
+      "n": "Video-ChatGPT-7B",
+      "d": "2023-06-08",
+      "m1": "51.4",
+      "m2": "3.0"
+    },
+    {
+      "p": "[Zero-Shot Video Question Answering via Frozen Bidirectional Language Models](https://arxiv.org/abs/2206.08155v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/antoyang/FrozenBiLM)",
+      "n": "FrozenBiLM",
+      "d": "2022-06-16",
+      "m1": "41.9"
+    },
+    {
+      "p": "[VideoChat: Chat-Centric Video Understanding](https://arxiv.org/abs/2305.06355v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/opengvlab/ask-anything)",
+      "n": "Video Chat-7B",
+      "d": "2023-05-10",
+      "m1": "34.4",
+      "m2": "2.3"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

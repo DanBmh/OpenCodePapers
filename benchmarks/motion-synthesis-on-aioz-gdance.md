@@ -1,0 +1,121 @@
+# motion-synthesis-on-aioz-gdance
+
+[Dataset Link](https://github.com/aioz-ai/AIOZ-GDANCE) \
+Task Hierarchy: ['3D Human Pose Tracking', 'Motion Synthesis']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "FID",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "MMC",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "GenDiv",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "PFC",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "GMR",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "GMC",
+      "sortable": "true"
+    },
+    {
+      "key": "m7",
+      "label": "TIF",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Scalable Group Choreography via Variational Phase Manifold Learning](https://arxiv.org/abs/2407.18839v1)",
+      "c": "",
+      "n": "Scalable Group Choreography",
+      "d": "2024-07-26",
+      "m1": "31.01",
+      "m2": "0.271",
+      "m3": "10.98",
+      "m4": "2.33",
+      "m5": "30.08",
+      "m6": "84.52",
+      "m7": "0.163"
+    },
+    {
+      "p": "[Controllable Group Choreography using Contrastive Diffusion](https://arxiv.org/abs/2310.18986v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/aioz-ai/GCD)",
+      "n": "GCD",
+      "d": "2023-10-29",
+      "m1": "31.16",
+      "m2": "0.261",
+      "m3": "10.87",
+      "m4": "2.53",
+      "m5": "31.47",
+      "m6": "80.97",
+      "m7": "0.167"
+    },
+    {
+      "p": "[Harmonious Group Choreography with Trajectory-Controllable Diffusion](https://arxiv.org/abs/2403.06189v3)",
+      "c": "",
+      "n": "TCDiff",
+      "d": "2024-03-10",
+      "m1": "42.39",
+      "m2": "0.25",
+      "m3": "14.37",
+      "m4": "0.54",
+      "m5": "21.12",
+      "m6": "81.48",
+      "m7": "0.15"
+    },
+    {
+      "p": "[Music-Driven Group Choreography](https://arxiv.org/abs/2303.12337v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/aioz-ai/AIOZ-GDANCE)",
+      "n": "GDANCER",
+      "d": "2023-03-22",
+      "m1": "43.90",
+      "m2": "0.250",
+      "m3": "9.23",
+      "m4": "3.05",
+      "m5": "51.27",
+      "m6": "79.01",
+      "m7": "0.217"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,81 @@
+# superpixel-image-classification-on-75
+
+[Dataset Link](http://yann.lecun.com/exdb/mnist/) \
+Task Hierarchy: ['Image Classification', 'Superpixel Image Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Classification Error",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[A Dynamic Reduction Network for Point Clouds](https://arxiv.org/abs/2003.08013v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/mcremone/graph-met)",
+      "n": "Dynamic Reduction Network (256 HD)",
+      "d": "2020-03-18",
+      "m1": "0.95"
+    },
+    {
+      "p": "[Probabilistic Numeric Convolutional Neural Networks](https://arxiv.org/abs/2010.10876v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Qualcomm-AI-research/ProbabilisticNumericCNNs)",
+      "n": "PNCNN",
+      "d": "2020-10-21",
+      "m1": "1.24"
+    },
+    {
+      "p": "[Superpixel Image Classification with Graph Attention Networks](https://arxiv.org/abs/2002.05544v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/machine-reasoning-ufrgs/spixel-gat)",
+      "n": "GAT",
+      "d": "2020-02-13",
+      "m1": "3.81"
+    },
+    {
+      "p": "[Graph Convolutional Gaussian Processes](https://arxiv.org/abs/1905.05739v1)",
+      "c": "",
+      "n": "GCGP",
+      "d": "2019-05-14",
+      "m1": "4.2"
+    },
+    {
+      "p": "[SplineCNN: Fast Geometric Deep Learning with Continuous B-Spline Kernels](http://arxiv.org/abs/1711.08920v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rusty1s/pytorch_geometric)",
+      "n": "SplineCNN",
+      "d": "2017-11-24",
+      "m1": "4.78"
+    },
+    {
+      "p": "[Geometric deep learning on graphs and manifolds using mixture model CNNs](http://arxiv.org/abs/1611.08402v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/mxnet/monet)",
+      "n": "Monet",
+      "d": "2016-11-25",
+      "m1": "8.89"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

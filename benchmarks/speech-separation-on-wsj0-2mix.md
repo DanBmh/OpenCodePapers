@@ -1,0 +1,369 @@
+# speech-separation-on-wsj0-2mix
+
+[Dataset Link](https://www.merl.com/demos/deep-clustering) \
+Task Hierarchy: ['Speech Separation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "SI-SDRi",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "SDRi",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Number of parameters (M)",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "MACs (G)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[TF-Locoformer: Transformer with Local Modeling by Convolution for Speech Separation and Enhancement](https://arxiv.org/abs/2408.03440v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/merlresearch/tf-locoformer)",
+      "n": "TF-Locoformer (L) + DM",
+      "d": "2024-08-06",
+      "m1": "25.1",
+      "m2": "25.2",
+      "m3": "22.5"
+    },
+    {
+      "p": "[Separate and Reconstruct: Asymmetric Encoder-Decoder for Speech Separation](https://arxiv.org/abs/2406.05983v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlguq456/SepReformer)",
+      "n": "SepReformer-L",
+      "d": "2024-06-10",
+      "m1": "25.1",
+      "m2": "25.2",
+      "m3": "59.4",
+      "m4": "155.5"
+    },
+    {
+      "p": "[TF-Locoformer: Transformer with Local Modeling by Convolution for Speech Separation and Enhancement](https://arxiv.org/abs/2408.03440v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/merlresearch/tf-locoformer)",
+      "n": "TF-Locoformer (M) + DM",
+      "d": "2024-08-06",
+      "m1": "24.6",
+      "m2": "24.7",
+      "m3": "15.0"
+    },
+    {
+      "p": "[TF-Locoformer: Transformer with Local Modeling by Convolution for Speech Separation and Enhancement](https://arxiv.org/abs/2408.03440v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/merlresearch/tf-locoformer)",
+      "n": "TF-Locoformer (L)",
+      "d": "2024-08-06",
+      "m1": "24.2",
+      "m2": "24.3",
+      "m3": "22.5"
+    },
+    {
+      "p": "[MossFormer2: Combining Transformer and RNN-Free Recurrent Network for Enhanced Time-Domain Monaural Speech Separation](https://arxiv.org/abs/2312.11825v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/modelscope/ClearerVoice-Studio)",
+      "n": "MossFormer2 (L)",
+      "d": "2023-12-19",
+      "m1": "24.1",
+      "m3": "55.7"
+    },
+    {
+      "p": "[Boosting Unknown-number Speaker Separation with Transformer Decoder-based Attractor](https://arxiv.org/abs/2401.12473v1)",
+      "c": "",
+      "n": "SepTDA (L=12)",
+      "d": "2024-01-23",
+      "m1": "24.0"
+    },
+    {
+      "p": "[Separate And Diffuse: Using a Pretrained Diffusion Model for Improving Source Separation](https://arxiv.org/abs/2301.10752v2)",
+      "c": "",
+      "n": "Separate And Diffuse",
+      "d": "2023-01-25",
+      "m1": "23.9"
+    },
+    {
+      "p": "[TF-Locoformer: Transformer with Local Modeling by Convolution for Speech Separation and Enhancement](https://arxiv.org/abs/2408.03440v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/merlresearch/tf-locoformer)",
+      "n": "TF-Locoformer (M)",
+      "d": "2024-08-06",
+      "m1": "23.6",
+      "m2": "23.8",
+      "m3": "15.0"
+    },
+    {
+      "p": "[TF-Locoformer: Transformer with Local Modeling by Convolution for Speech Separation and Enhancement](https://arxiv.org/abs/2408.03440v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/merlresearch/tf-locoformer)",
+      "n": "TF-Locoformer (S) + DM",
+      "d": "2024-08-06",
+      "m1": "22.8",
+      "m2": "23",
+      "m3": "5.0"
+    },
+    {
+      "p": "[MossFormer: Pushing the Performance Limit of Monaural Speech Separation using Gated Single-Head Transformer with Convolution-Augmented Joint Self-Attentions](https://arxiv.org/abs/2302.11824v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/modelscope/ClearerVoice-Studio)",
+      "n": "MossFormer (L) + DM",
+      "d": "2023-02-23",
+      "m1": "22.8",
+      "m3": "42.1",
+      "m4": "86.1"
+    },
+    {
+      "p": "[SepMamba: State-space models for speaker separation using Mamba](https://arxiv.org/abs/2410.20997v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/andrasschin/SepMamba)",
+      "n": "SepMamba + DM (M)",
+      "d": "2024-10-28",
+      "m1": "22.7",
+      "m2": "22.9"
+    },
+    {
+      "p": "[SPGM: Prioritizing Local Features for enhanced speech separation performance](https://arxiv.org/abs/2309.12608v2)",
+      "c": "[&check;&nbsp;Link](https://huggingface.co/yipjiaqi/spgm)",
+      "n": "SPGM + DM",
+      "d": "2023-09-22",
+      "m1": "22.7",
+      "m3": "26.2",
+      "m4": "77"
+    },
+    {
+      "p": "[MossFormer: Pushing the Performance Limit of Monaural Speech Separation using Gated Single-Head Transformer with Convolution-Augmented Joint Self-Attentions](https://arxiv.org/abs/2302.11824v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/modelscope/ClearerVoice-Studio)",
+      "n": "MossFormer (M) + DM",
+      "d": "2023-02-23",
+      "m1": "22.5"
+    },
+    {
+      "p": "[SepIt: Approaching a Single Channel Speech Separation Bound](https://arxiv.org/abs/2205.11801v4)",
+      "c": "",
+      "n": "SepIt",
+      "d": "2022-05-24",
+      "m1": "22.4"
+    },
+    {
+      "p": "[Attention is All You Need in Speech Separation](https://arxiv.org/abs/2010.13154v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/speechbrain/speechbrain/tree/develop/recipes/WSJ0Mix/separation)",
+      "n": "SepFormer",
+      "d": "2020-10-25",
+      "m1": "22.3",
+      "m2": "22.4"
+    },
+    {
+      "p": "[Wavesplit: End-to-End Speech Separation by Speaker Clustering](https://arxiv.org/abs/2002.08933v2)",
+      "c": "",
+      "n": "Wavesplit v2",
+      "d": "2020-02-20",
+      "m1": "22.2",
+      "m2": "22.3"
+    },
+    {
+      "p": "[SPGM: Prioritizing Local Features for enhanced speech separation performance](https://arxiv.org/abs/2309.12608v2)",
+      "c": "[&check;&nbsp;Link](https://huggingface.co/yipjiaqi/spgm)",
+      "n": "SPGM",
+      "d": "2023-09-22",
+      "m1": "22.1",
+      "m3": "26.2",
+      "m4": "77"
+    },
+    {
+      "p": "[TF-Locoformer: Transformer with Local Modeling by Convolution for Speech Separation and Enhancement](https://arxiv.org/abs/2408.03440v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/merlresearch/tf-locoformer)",
+      "n": "TF-Locoformer (S)",
+      "d": "2024-08-06",
+      "m1": "22",
+      "m2": "22.1",
+      "m3": "5.0"
+    },
+    {
+      "p": "[Stabilizing Label Assignment for Speech Separation by Self-supervised Pre-training](https://arxiv.org/abs/2010.15366v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/SungFeng-Huang/SSL-pretraining-separation)",
+      "n": "DPTNet (Libri1Mix speech enhancement pre-trained)",
+      "d": "2020-10-29",
+      "m1": "21.3",
+      "m2": "21.5"
+    },
+    {
+      "p": "[SepMamba: State-space models for speaker separation using Mamba](https://arxiv.org/abs/2410.20997v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/andrasschin/SepMamba)",
+      "n": "SepMamba + DM (S)",
+      "d": "2024-10-28",
+      "m1": "21.2",
+      "m2": "21.4"
+    },
+    {
+      "p": "[On Time Domain Conformer Models for Monaural Speech Separation in Noisy Reverberant Acoustic Environments](https://arxiv.org/abs/2310.06125v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jwr1995/pubsep)",
+      "n": "TD-Conformer (XL) + DM",
+      "d": "2023-10-09",
+      "m1": "21.2"
+    },
+    {
+      "p": "[Sandglasset: A Light Multi-Granularity Self-attentive Network For Time-Domain Speech Separation](https://arxiv.org/abs/2103.00819v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Zhongyang-debug/Sandglasset-A-Light-Multi-Granularity-Self-Attentive-Network-For-Time-Domain-Speech-Separation)",
+      "n": "Sandglasset",
+      "d": "2021-03-01",
+      "m1": "21.0"
+    },
+    {
+      "p": "[Effective Low-Cost Time-Domain Audio Separation Using Globally Attentive Locally Recurrent Networks](https://arxiv.org/abs/2101.05014v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Zhongyang-debug/Effective-Low-Cost-Time-Domain-Audio-Separation-Using-Globally-Attentive-Locally-Recurrent-Networks)",
+      "n": "GALR",
+      "d": "2021-01-13",
+      "m1": "20.3"
+    },
+    {
+      "p": "[Dual-Path Transformer Network: Direct Context-Aware Modeling for End-to-End Monaural Speech Separation](https://arxiv.org/abs/2007.13975v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/mpariente/asteroid)",
+      "n": "DPTNet",
+      "d": "2020-07-28",
+      "m1": "20.2"
+    },
+    {
+      "p": "[Voice Separation with an Unknown Number of Multiple Speakers](https://arxiv.org/abs/2003.01531v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/svoice)",
+      "n": "Gated DualPathRNN",
+      "d": "2020-02-29",
+      "m1": "20.12"
+    },
+    {
+      "p": "[Compute and memory efficient universal sound source separation](https://arxiv.org/abs/2103.02644v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/etzinis/sudo_rm_rf)",
+      "n": "Sudo rm -rf (U=36)",
+      "d": "2021-03-03",
+      "m1": "19.5"
+    },
+    {
+      "p": "[Wavesplit: End-to-End Speech Separation by Speaker Clustering](https://arxiv.org/abs/2002.08933v2)",
+      "c": "",
+      "n": "Wavesplit v1",
+      "d": "2020-02-20",
+      "m1": "19.0"
+    },
+    {
+      "p": "[Sudo rm -rf: Efficient Networks for Universal Audio Source Separation](https://arxiv.org/abs/2007.06833v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/mpariente/asteroid)",
+      "n": "Sudo rm -rf XL",
+      "d": "2020-07-14",
+      "m1": "18.9"
+    },
+    {
+      "p": "[Dual-path RNN: efficient long sequence modeling for time-domain single-channel speech separation](https://arxiv.org/abs/1910.06379v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mpariente/asteroid)",
+      "n": "Dual-path RNN",
+      "d": "2019-10-14",
+      "m1": "18.8"
+    },
+    {
+      "p": "[Divide and Conquer: A Deep CASA Approach to Talker-independent Monaural Speaker Separation](http://arxiv.org/abs/1904.11148v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yuzhou-git/deep-casa)",
+      "n": "DeepCASA",
+      "d": "2019-04-25",
+      "m1": "17.7"
+    },
+    {
+      "p": "[Interrupted and cascaded permutation invariant training for speech separation](https://arxiv.org/abs/1910.12706v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/r06944010/Speech-Separation-TF2)",
+      "n": "IAC-PIT Tasnet",
+      "d": "2019-10-28",
+      "m1": "17.5"
+    },
+    {
+      "p": "[Deformable Temporal Convolutional Networks for Monaural Noisy Reverberant Speech Separation](https://arxiv.org/abs/2210.15305v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/jwr1995/dtcn)",
+      "n": "Deformable TCN + Dynamic Mixing",
+      "d": "2022-10-27",
+      "m1": "17.2",
+      "m2": "17.4",
+      "m3": "3.6",
+      "m4": "3.7"
+    },
+    {
+      "p": "[Improved Speech Separation with Time-and-Frequency Cross-domain Joint Embedding and Clustering](http://arxiv.org/abs/1904.07845v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/r06944010/improved-speech-separation)",
+      "n": "Hybrid-Tasnet",
+      "d": "2019-04-16",
+      "m1": "16.6"
+    },
+    {
+      "p": "[Deformable Temporal Convolutional Networks for Monaural Noisy Reverberant Speech Separation](https://arxiv.org/abs/2210.15305v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/jwr1995/dtcn)",
+      "n": "Deformable TCN + Shared Weights + Dynamic Mixing",
+      "d": "2022-10-27",
+      "m1": "16.1",
+      "m2": "16.3",
+      "m3": "1.3",
+      "m4": "3.7"
+    },
+    {
+      "p": "[Two-Step Sound Source Separation: Training on Learned Latent Targets](https://arxiv.org/abs/1910.09804v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mpariente/asteroid)",
+      "n": "Two-step Conv-TasNet",
+      "d": "2019-10-22",
+      "m1": "16.1"
+    },
+    {
+      "p": "[Conv-TasNet: Surpassing Ideal Time-Frequency Magnitude Masking for Speech Separation](https://arxiv.org/abs/1809.07454v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/demucs)",
+      "n": "Conv-TasNet",
+      "d": "2018-09-20",
+      "m1": "15.3",
+      "m2": "15.6",
+      "m3": "5.1"
+    },
+    {
+      "p": "[Real-time Single-channel Dereverberation and Separation with Time-domainAudio Separation Network](https://www.isca-speech.org/archive/Interspeech_2018/pdfs/2290.pdf)",
+      "c": "[&check;&nbsp;Link](https://github.com/mpariente/asteroid)",
+      "n": "TasNet v2",
+      "d": "2018-09-02",
+      "m1": "13.2"
+    },
+    {
+      "p": "[Alternative Objective Functions for Deep Clustering](https://www.merl.com/publications/docs/TR2018-005.pdf)",
+      "c": "[&check;&nbsp;Link](https://github.com/mpariente/asteroid)",
+      "n": "Chimera++",
+      "d": "2018-04-01",
+      "m1": "11.5"
+    },
+    {
+      "p": "[TasNet: time-domain audio separation network for real-time, single-channel speech separation](http://arxiv.org/abs/1711.00541v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mpariente/asteroid)",
+      "n": "TasNet",
+      "d": "2017-11-01",
+      "m1": "10.8"
+    },
+    {
+      "p": "[Deep clustering: Discriminative embeddings for segmentation and separation](http://arxiv.org/abs/1508.04306v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/mpariente/asteroid)",
+      "n": "Deep Clustering ++",
+      "d": "2015-08-18",
+      "m1": "10.8"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

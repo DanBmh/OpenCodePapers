@@ -1,0 +1,304 @@
+# slot-filling-on-kilt-t-rex
+
+[Dataset Link](http://kiltbenchmark.com/) \
+Task Hierarchy: ['Slot Filling']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "KILT-AC",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "R-Prec",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Recall@5",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "KILT-F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Re2G: Retrieve, Rerank, Generate](https://arxiv.org/abs/2207.06300v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ibm/kgi-slot-filling)",
+      "n": "Re2G",
+      "d": "2022-07-13",
+      "m1": "75.84",
+      "m2": "80.7",
+      "m3": "89.0",
+      "m4": "87.68",
+      "m5": "89.93",
+      "m6": "77.05"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "KGI_1",
+      "d": null,
+      "m1": "69.14",
+      "m2": "74.36",
+      "m3": "83.14",
+      "m4": "84.36",
+      "m5": "87.24",
+      "m6": "70.58"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Wikipedia",
+      "d": null,
+      "m1": "64.64",
+      "m2": "75.64",
+      "m3": "87.57",
+      "m4": "81.34",
+      "m5": "84.46",
+      "m6": "66.64"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "MetaRAG",
+      "d": null,
+      "m1": "61.88",
+      "m2": "66.36",
+      "m3": "76.24",
+      "m4": "78.66",
+      "m5": "81.71",
+      "m6": "63.09"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "single ngram",
+      "d": null,
+      "m1": "60.08",
+      "m2": "67.8",
+      "m3": "81.52",
+      "m4": "83.72",
+      "m5": "86.53",
+      "m6": "61.72"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "KGI_0 (reupload)",
+      "d": null,
+      "m1": "55.54",
+      "m2": "59.7",
+      "m3": "70.38",
+      "m4": "77.9",
+      "m5": "81.31",
+      "m6": "56.79"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Coop. DistilBert",
+      "d": null,
+      "m1": "36.68",
+      "m2": "48.08",
+      "m3": "51.86",
+      "m4": "49.04",
+      "m5": "54.62",
+      "m6": "39.57"
+    },
+    {
+      "p": "[Learning Dense Representations of Phrases at Scale](https://arxiv.org/abs/2012.12624v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/princeton-nlp/SimCSE)",
+      "n": "DensePhrases",
+      "d": "2020-12-23",
+      "m1": "27.84",
+      "m2": "37.62",
+      "m3": "40.07",
+      "m4": "53.9",
+      "m5": "61.74",
+      "m6": "32.34"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "10k",
+      "d": null,
+      "m1": "27.84",
+      "m2": "37.62",
+      "m3": "40.07",
+      "m4": "53.9",
+      "m5": "61.74",
+      "m6": "32.34"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "RAG",
+      "d": null,
+      "m1": "23.12",
+      "m2": "28.68",
+      "m3": "33.04",
+      "m4": "59.2",
+      "m5": "62.96",
+      "m6": "23.94"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "BART + DPR",
+      "d": null,
+      "m1": "11.12",
+      "m2": "13.26",
+      "m3": "17.04",
+      "m4": "59.16",
+      "m5": "62.76",
+      "m6": "11.41"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "GENRE",
+      "d": null,
+      "m1": "0.04",
+      "m2": "79.42",
+      "m3": "85.33",
+      "m4": "0.1",
+      "m5": "7.67",
+      "m6": "6.66"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "TABi",
+      "d": null,
+      "m1": "0.0",
+      "m2": "81.9",
+      "m3": "89.36",
+      "m4": "0.0",
+      "m5": "0.0",
+      "m6": "0.0"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "chriskuei",
+      "d": null,
+      "m1": "0.0",
+      "m2": "79.98",
+      "m3": "85.75",
+      "m4": "0.0",
+      "m5": "0.0",
+      "m6": "0.0"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Multi-task DPR",
+      "d": null,
+      "m1": "0.0",
+      "m2": "69.46",
+      "m3": "83.88",
+      "m4": "0.0",
+      "m5": "0.0",
+      "m6": "0.0"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Sphere",
+      "d": null,
+      "m1": "0.0",
+      "m2": "0.0",
+      "m3": "0.0",
+      "m4": "57.02",
+      "m5": "61.46",
+      "m6": "0.0"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "BART",
+      "d": null,
+      "m1": "0.0",
+      "m2": "0.0",
+      "m3": "0.0",
+      "m4": "45.06",
+      "m5": "49.24",
+      "m6": "0.0"
+    },
+    {
+      "p": "[KILT: a Benchmark for Knowledge Intensive Language Tasks](https://arxiv.org/abs/2009.02252v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/KILT)",
+      "n": "T5-base",
+      "d": "2020-09-04",
+      "m1": "0.0",
+      "m2": "0.0",
+      "m3": "0.0",
+      "m4": "43.56",
+      "m5": "50.61",
+      "m6": "0.0"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "multi-task small",
+      "d": null,
+      "m1": "0.0",
+      "m2": "0.0",
+      "m3": "0.0",
+      "m4": "19.3",
+      "m5": "25.81",
+      "m6": "0.0"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "JivBest",
+      "d": null,
+      "m1": "0.0",
+      "m2": "0.0",
+      "m3": "0.0",
+      "m4": "0.02",
+      "m5": "2.04",
+      "m6": "0.0"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

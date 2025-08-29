@@ -1,0 +1,92 @@
+# drone-navigation-on-university-1652-1
+
+[Dataset Link](https://github.com/layumi/University1652-Baseline) \
+Task Hierarchy: ['Content-Based Image Retrieval', 'Drone navigation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AP",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Recall@1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[A Transformer-Based Feature Segmentation and Region Alignment Method For UAV-View Geo-Localization](https://arxiv.org/abs/2201.09206v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmmm1997/fsra)",
+      "n": "FSRA",
+      "d": "2022-01-23",
+      "m1": "81.53",
+      "m2": "87.87"
+    },
+    {
+      "p": "[Joint Representation Learning and Keypoint Detection for Cross-view Geo-localization](https://zhunzhong.site/paper/RK_Net.pdf)",
+      "c": "[&check;&nbsp;Link](https://github.com/AggMan96/RK-Net)",
+      "n": "LPN + USAM",
+      "d": "2022-05-15",
+      "m1": "75.96",
+      "m2": "86.59"
+    },
+    {
+      "p": "[Each Part Matters: Local Patterns Facilitate Cross-view Geo-localization](https://arxiv.org/abs/2008.11646v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/wtyhub/LPN)",
+      "n": "LPN",
+      "d": "2020-08-26",
+      "m1": "74.79",
+      "m2": "86.45"
+    },
+    {
+      "p": "[Joint Representation Learning and Keypoint Detection for Cross-view Geo-localization](https://zhunzhong.site/paper/RK_Net.pdf)",
+      "c": "[&check;&nbsp;Link](https://github.com/AggMan96/RK-Net)",
+      "n": "SAFA + USAM",
+      "d": "2022-05-15",
+      "m1": "71.77",
+      "m2": "83.23"
+    },
+    {
+      "p": "[Joint Representation Learning and Keypoint Detection for Cross-view Geo-localization](https://zhunzhong.site/paper/RK_Net.pdf)",
+      "c": "[&check;&nbsp;Link](https://github.com/AggMan96/RK-Net)",
+      "n": "RK-Net",
+      "d": "2022-05-15",
+      "m1": "65.76",
+      "m2": "80.17"
+    },
+    {
+      "p": "[University-1652: A Multi-view Multi-source Benchmark for Drone-based Geo-localization](https://arxiv.org/abs/2002.12186v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/layumi/University1652-Baseline)",
+      "n": "Instance Loss",
+      "d": "2020-02-27",
+      "m1": "58.74",
+      "m2": "71.18"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,81 @@
+# semantic-segmentation-on-synpass
+
+[Dataset Link]() \
+Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mIoU",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Behind Every Domain There is a Shift: Adapting Distortion-aware Vision Transformers for Panoramic Semantic Segmentation](https://arxiv.org/abs/2207.11860v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/jamycheung/trans4pass)",
+      "n": "Trans4PASS+",
+      "d": "2022-07-25",
+      "m1": "39.16%"
+    },
+    {
+      "p": "[Bending Reality: Distortion-aware Transformers for Adapting to Panoramic Semantic Segmentation](https://arxiv.org/abs/2203.01452v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jamycheung/trans4pass)",
+      "n": "Trans4PASS",
+      "d": "2022-03-02",
+      "m1": "38.57%"
+    },
+    {
+      "p": "[SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers](https://arxiv.org/abs/2105.15203v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "SegFomrer",
+      "d": "2021-05-31",
+      "m1": "37.24%"
+    },
+    {
+      "p": "[Pyramid Vision Transformer: A Versatile Backbone for Dense Prediction without Convolutions](https://arxiv.org/abs/2102.12122v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection)",
+      "n": "PVT",
+      "d": "2021-02-24",
+      "m1": "32.68%"
+    },
+    {
+      "p": "[Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation](http://arxiv.org/abs/1802.02611v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/research/deeplab)",
+      "n": "DeepLabv3+",
+      "d": "2018-02-07",
+      "m1": "29.66%"
+    },
+    {
+      "p": "[Fast-SCNN: Fast Semantic Segmentation Network](http://arxiv.org/abs/1902.04502v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmsegmentation)",
+      "n": "Fast-SCNN",
+      "d": "2019-02-12",
+      "m1": "21.30%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

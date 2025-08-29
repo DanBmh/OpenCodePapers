@@ -1,0 +1,114 @@
+# tabular-data-generation-on-california-housing
+
+[Dataset Link](https://www.kaggle.com/datasets/camnugent/california-housing-prices) \
+Task Hierarchy: ['Tabular Data Generation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Parameters(M)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "RF Mean Squared Error",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "DT Mean Squared Error",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "LR Mean Squared Error",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Modeling Tabular data using Conditional GAN](https://arxiv.org/abs/1907.00503v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ydataai/ydata-synthetic/tree/dev/src/ydata_synthetic/synthesizers/regular/ctgan)",
+      "n": "TVAE",
+      "d": "2019-07-01",
+      "m1": "0.045",
+      "m2": "0.35",
+      "m3": "0.45",
+      "m4": "0.65"
+    },
+    {
+      "p": "[Modeling Tabular data using Conditional GAN](https://arxiv.org/abs/1907.00503v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ydataai/ydata-synthetic/tree/dev/src/ydata_synthetic/synthesizers/regular/ctgan)",
+      "n": "CTGAN",
+      "d": "2019-07-01",
+      "m1": "0.197",
+      "m2": "0.62",
+      "m3": "0.82",
+      "m4": "0.61"
+    },
+    {
+      "p": "[Modeling Tabular data using Conditional GAN](https://arxiv.org/abs/1907.00503v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ydataai/ydata-synthetic/tree/dev/src/ydata_synthetic/synthesizers/regular/ctgan)",
+      "n": "CopulaGAN",
+      "d": "2019-07-01",
+      "m1": "0.201",
+      "m2": "0.99",
+      "m3": "1.19",
+      "m4": "0.98"
+    },
+    {
+      "p": "[Tabular Data Generation using Binary Diffusion](https://arxiv.org/abs/2409.13882v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/vkinakh/binary-diffusion-tabular)",
+      "n": "Binary Diffusion",
+      "d": "2024-09-20",
+      "m1": "1.5",
+      "m2": "0.39",
+      "m3": "0.45",
+      "m4": "0.55"
+    },
+    {
+      "p": "[Language Models are Realistic Tabular Data Generators](https://arxiv.org/abs/2210.06280v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/kathrinse/be_great)",
+      "n": "Distill-GReaT",
+      "d": "2022-10-12",
+      "m1": "82",
+      "m2": "0.32",
+      "m3": "0.43",
+      "m4": "0.57"
+    },
+    {
+      "p": "[Language Models are Realistic Tabular Data Generators](https://arxiv.org/abs/2210.06280v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/kathrinse/be_great)",
+      "n": "GReaT",
+      "d": "2022-10-12",
+      "m1": "355",
+      "m2": "0.28",
+      "m3": "0.39",
+      "m4": "0.34"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,104 @@
+# dialogue-generation-on-persona-chat-1
+
+[Dataset Link]() \
+Task Hierarchy: ['Dialogue Generation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Avg F1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "BLEU-1",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "CIDr",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "METEOR",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "ROUGE-L",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Learning to Memorize Entailment and Discourse Relations for Persona-Consistent Dialogues](https://arxiv.org/abs/2301.04871v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/chenrj233/lmedr)",
+      "n": "LMEDR",
+      "d": "2023-01-12",
+      "m1": "21.99"
+    },
+    {
+      "p": "[You Impress Me: Dialogue Generation via Mutual Persona Perception](https://arxiv.org/abs/2004.05388v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SivilTaram/Persona-Dialogue-Generation)",
+      "n": "P^2 Bot",
+      "d": "2020-04-11",
+      "m1": "19.77"
+    },
+    {
+      "p": "[TransferTransfo: A Transfer Learning Approach for Neural Network Based Conversational Agents](http://arxiv.org/abs/1901.08149v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/thu-coai/CDial-GPT)",
+      "n": "TransferTransfo",
+      "d": "2019-01-23",
+      "m1": "19.09"
+    },
+    {
+      "p": "[Neural Machine Translation by Jointly Learning to Align and Translate](http://arxiv.org/abs/1409.0473v7)",
+      "c": "[&check;&nbsp;Link](https://github.com/graykode/nlp-tutorial)",
+      "n": "Seq2Seq + Attention",
+      "d": "2014-09-01",
+      "m1": "16.18"
+    },
+    {
+      "p": "[Personalizing Dialogue Agents: I have a dog, do you have pets too?](http://arxiv.org/abs/1801.07243v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/ParlAI)",
+      "n": "KV Profile Memory",
+      "d": "2018-01-22",
+      "m1": "11.9"
+    },
+    {
+      "p": "[Synthesizer: Rethinking Self-Attention in Transformer Models](https://arxiv.org/abs/2005.00743v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/10-zin/Synthesizer)",
+      "n": "Synthesizer (R+V)",
+      "d": "2020-05-02",
+      "m2": "14.7",
+      "m3": "19.09",
+      "m4": "6.39",
+      "m5": "14.79"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,352 @@
+# semantic-segmentation-on-sun-rgbd
+
+[Dataset Link](https://rgbd.cs.princeton.edu/) \
+Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Mean IoU",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Mean IoU (test)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[GeminiFusion: Efficient Pixel-wise Multimodal Fusion for Vision Transformer](https://arxiv.org/abs/2406.01210v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jiadingcn/geminifusion)",
+      "n": "GeminiFusion (Swin-Large)",
+      "d": "2024-06-03",
+      "m1": "54.6"
+    },
+    {
+      "p": "[Diffusion-based RGB-D Semantic Segmentation with Deformable Attention Transformer](https://arxiv.org/abs/2409.15117v2)",
+      "c": "",
+      "n": "DiffusionMMS",
+      "d": "2024-09-23",
+      "m1": "54.0"
+    },
+    {
+      "p": "[HDBFormer: Efficient RGB-D Semantic Segmentation with A Heterogeneous Dual-Branch Framework](https://arxiv.org/abs/2504.13579v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/weishuobin/hdbformer)",
+      "n": "HDBFormer",
+      "d": "2025-04-18",
+      "m1": "53.9%"
+    },
+    {
+      "p": "[GeminiFusion: Efficient Pixel-wise Multimodal Fusion for Vision Transformer](https://arxiv.org/abs/2406.01210v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jiadingcn/geminifusion)",
+      "n": "GeminiFusion (MiT-B5)",
+      "d": "2024-06-03",
+      "m1": "53.3"
+    },
+    {
+      "p": "[DFormerv2: Geometry Self-Attention for RGBD Semantic Segmentation](https://arxiv.org/abs/2504.04701v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/VCIP-RGBD/DFormer)",
+      "n": "DFormerv2-L",
+      "d": "2025-04-07",
+      "m1": "53.3"
+    },
+    {
+      "p": "[Multimodal Token Fusion for Vision Transformers](https://arxiv.org/abs/2204.08721v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huawei-noah/noah-research/tree/master/TokenFusion)",
+      "n": "TokenFusion (S)",
+      "d": "2022-04-19",
+      "m1": "53.0%"
+    },
+    {
+      "p": "[Efficient Multimodal Semantic Segmentation via Dual-Prompt Learning](https://arxiv.org/abs/2312.00360v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/shaohuadong2021/dplnet)",
+      "n": "DPLNet ",
+      "d": "2023-12-01",
+      "m1": "52.8%"
+    },
+    {
+      "p": "[DFormerv2: Geometry Self-Attention for RGBD Semantic Segmentation](https://arxiv.org/abs/2504.04701v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/VCIP-RGBD/DFormer)",
+      "n": "DFormerv2-B",
+      "d": "2025-04-07",
+      "m1": "52.8%"
+    },
+    {
+      "p": "[GeminiFusion: Efficient Pixel-wise Multimodal Fusion for Vision Transformer](https://arxiv.org/abs/2406.01210v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jiadingcn/geminifusion)",
+      "n": "GeminiFusion (MiT-B3)",
+      "d": "2024-06-03",
+      "m1": "52.7"
+    },
+    {
+      "p": "[DFormer: Rethinking RGBD Representation Learning for Semantic Segmentation](https://arxiv.org/abs/2309.09668v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/VCIP-RGBD/DFormer)",
+      "n": "DFormer-L",
+      "d": "2023-09-18",
+      "m1": "52.5%"
+    },
+    {
+      "p": "[CMX: Cross-Modal Fusion for RGB-X Semantic Segmentation with Transformers](https://arxiv.org/abs/2203.04838v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/huaaaliu/rgbx_semantic_segmentation)",
+      "n": "CMX (B5)",
+      "d": "2022-03-09",
+      "m1": "52.4%"
+    },
+    {
+      "p": "[CMX: Cross-Modal Fusion for RGB-X Semantic Segmentation with Transformers](https://arxiv.org/abs/2203.04838v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/huaaaliu/rgbx_semantic_segmentation)",
+      "n": "CMX (B4)",
+      "d": "2022-03-09",
+      "m1": "52.1%"
+    },
+    {
+      "p": "[DFormerv2: Geometry Self-Attention for RGBD Semantic Segmentation](https://arxiv.org/abs/2504.04701v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/VCIP-RGBD/DFormer)",
+      "n": "DFormerv2-S",
+      "d": "2025-04-07",
+      "m1": "51.5%"
+    },
+    {
+      "p": "[Multimodal Token Fusion for Vision Transformers](https://arxiv.org/abs/2204.08721v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huawei-noah/noah-research/tree/master/TokenFusion)",
+      "n": "TokenFusion (Ti)",
+      "d": "2022-04-19",
+      "m1": "51.4%"
+    },
+    {
+      "p": "[DFormer: Rethinking RGBD Representation Learning for Semantic Segmentation](https://arxiv.org/abs/2309.09668v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/VCIP-RGBD/DFormer)",
+      "n": "DFormer-B",
+      "d": "2023-09-18",
+      "m1": "51.2%"
+    },
+    {
+      "p": "[PanopticNDT: Efficient and Robust Panoptic Mapping](https://arxiv.org/abs/2309.13635v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tui-nicr/emsanet)",
+      "n": "EMSANet (2x ResNet-34 NBt1D, PanopticNDT version, finetuned)",
+      "d": "2023-09-24",
+      "m1": "50.86%"
+    },
+    {
+      "p": "[Deep feature selection-and-fusion for RGB-D semantic segmentation](https://arxiv.org/abs/2105.04102v1)",
+      "c": "",
+      "n": "FSFNet",
+      "d": "2021-05-10",
+      "m1": "50.6%"
+    },
+    {
+      "p": "[Pattern-Structure Diffusion for Multi-Task Learning](http://openaccess.thecvf.com/content_CVPR_2020/html/Zhou_Pattern-Structure_Diffusion_for_Multi-Task_Learning_CVPR_2020_paper.html)",
+      "c": "",
+      "n": "PSD-ResNet50",
+      "d": "2020-06-01",
+      "m1": "50.6%"
+    },
+    {
+      "p": "[DFormer: Rethinking RGBD Representation Learning for Semantic Segmentation](https://arxiv.org/abs/2309.09668v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/VCIP-RGBD/DFormer)",
+      "n": "TokenFusion (S)",
+      "d": "2023-09-18",
+      "m1": "50.0%"
+    },
+    {
+      "p": "[CMX: Cross-Modal Fusion for RGB-X Semantic Segmentation with Transformers](https://arxiv.org/abs/2203.04838v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/huaaaliu/rgbx_semantic_segmentation)",
+      "n": "DPLNet ",
+      "d": "2022-03-09",
+      "m1": "49.7%"
+    },
+    {
+      "p": "[Attention-based Dual Supervised Decoder for RGBD Semantic Segmentation](https://arxiv.org/abs/2201.01427v2)",
+      "c": "",
+      "n": "DFormer-L",
+      "d": "2022-01-05",
+      "m1": "49.6%"
+    },
+    {
+      "p": "[DCANet: Differential Convolution Attention Network for RGB-D Semantic Segmentation](https://arxiv.org/abs/2210.06747v1)",
+      "c": "",
+      "n": "CMX (B5)",
+      "d": "2022-10-13",
+      "m1": "49.6%"
+    },
+    {
+      "p": "[Pixel Difference Convolutional Network for RGB-D Semantic Segmentation](https://arxiv.org/abs/2302.11951v1)",
+      "c": "",
+      "n": "CMX (B4)",
+      "d": "2023-02-23",
+      "m1": "49.6%"
+    },
+    {
+      "p": "[Bi-directional Cross-Modality Feature Propagation with Separation-and-Aggregation Gate for RGB-D Semantic Segmentation](https://arxiv.org/abs/2007.09183v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/charlesCXK/RGBD_Semantic_Segmentation_PyTorch)",
+      "n": "TokenFusion (Ti)",
+      "d": "2020-07-17",
+      "m1": "49.4%"
+    },
+    {
+      "p": "[AsymFormer: Asymmetrical Cross-Modal Representation Learning for Mobile Platform Real-Time RGB-D Semantic Segmentation](https://arxiv.org/abs/2309.14065v7)",
+      "c": "[&check;&nbsp;Link](https://github.com/Fourier7754/AsymFormer)",
+      "n": "DFormer-B",
+      "d": "2023-09-25",
+      "m1": "49.1%"
+    },
+    {
+      "p": "[Efficient Multi-Task Scene Analysis with RGB-D Transformers](https://arxiv.org/abs/2306.05242v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tui-nicr/nicr-scene-analysis-datasets)",
+      "n": "EMSANet (2x ResNet-34 NBt1D, PanopticNDT version, finetuned)",
+      "d": "2023-06-08",
+      "m1": "48.82%"
+    },
+    {
+      "p": "[DFormer: Rethinking RGBD Representation Learning for Semantic Segmentation](https://arxiv.org/abs/2309.09668v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/VCIP-RGBD/DFormer)",
+      "n": "FSFNet",
+      "d": "2023-09-18",
+      "m1": "48.8%"
+    },
+    {
+      "p": "[ShapeConv: Shape-aware Convolutional Layer for Indoor RGB-D Semantic Segmentation](https://arxiv.org/abs/2108.10528v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/hanchaoleng/shapeconv)",
+      "n": "PSD-ResNet50",
+      "d": "2021-08-24",
+      "m1": "48.6%"
+    },
+    {
+      "p": "[Spatial Information Guided Convolution for Real-Time RGBD Semantic Segmentation](https://arxiv.org/abs/2004.04534v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/LinZhuoChen/SGNet)",
+      "n": "TokenFusion (S)",
+      "d": "2020-04-09",
+      "m1": "48.6%"
+    },
+    {
+      "p": "[Efficient Multi-Task RGB-D Scene Analysis for Indoor Environments](https://arxiv.org/abs/2207.04526v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tui-nicr/emsanet)",
+      "n": "DPLNet ",
+      "d": "2022-07-10",
+      "m1": "48.47%"
+    },
+    {
+      "p": "[Attention-guided Chained Context Aggregation for Semantic Segmentation](https://arxiv.org/abs/2002.12041v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/BebDong/MXNetSeg)",
+      "n": "DFormer-L",
+      "d": "2020-02-27",
+      "m1": "48.3%"
+    },
+    {
+      "p": "[Efficient RGB-D Semantic Segmentation for Indoor Scene Analysis](https://arxiv.org/abs/2011.06961v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/TUI-NICR/ESANet)",
+      "n": "CMX (B5)",
+      "d": "2020-11-13",
+      "m1": "48.17"
+    },
+    {
+      "p": "[ACNet: Attention Based Network to Exploit Complementary Features for RGBD Semantic Segmentation](https://arxiv.org/abs/1905.10089v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/anheidelonghu/ACNet)",
+      "n": "CMX (B4)",
+      "d": "2019-05-24",
+      "m1": "48.1%"
+    },
+    {
+      "p": "[RedNet: Residual Encoder-Decoder Network for indoor RGB-D Semantic Segmentation](http://arxiv.org/abs/1806.01054v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/JindongJiang/RedNet)",
+      "n": "TokenFusion (Ti)",
+      "d": "2018-06-04",
+      "m1": "47.8%"
+    },
+    {
+      "p": "[RDFNet: RGB-D Multi-Level Residual Feature Fusion for Indoor Semantic Segmentation](http://openaccess.thecvf.com/content_iccv_2017/html/Park_RDFNet_RGB-D_Multi-Level_ICCV_2017_paper.html)",
+      "c": "",
+      "n": "DFormer-B",
+      "d": "2017-10-01",
+      "m1": "47.7%"
+    },
+    {
+      "p": "[Context Contrasted Feature and Gated Multi-Scale Aggregation for Scene Segmentation](http://openaccess.thecvf.com/content_cvpr_2018/html/Ding_Context_Contrasted_Feature_CVPR_2018_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/henghuiding/CCL)",
+      "n": "EMSANet (2x ResNet-34 NBt1D, PanopticNDT version, finetuned)",
+      "d": "2018-06-01",
+      "m1": "47.1%"
+    },
+    {
+      "p": "[Multi-Modal Attention-based Fusion Model for Semantic Segmentation of RGB-Depth Images](https://arxiv.org/abs/1912.11691v1)",
+      "c": "",
+      "n": "FSFNet",
+      "d": "2019-12-25",
+      "m1": "47.0%"
+    },
+    {
+      "p": "[3D Graph Neural Networks for RGBD Semantic Segmentation](http://openaccess.thecvf.com/content_iccv_2017/html/Qi_3D_Graph_Neural_ICCV_2017_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/yanx27/3DGNN_pytorch)",
+      "n": "PSD-ResNet50",
+      "d": "2017-10-01",
+      "m1": "45.9%"
+    },
+    {
+      "p": "[Self-Supervised Model Adaptation for Multimodal Semantic Segmentation](https://arxiv.org/abs/1808.03833v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/DeepSceneSeg/SSMA)",
+      "n": "TokenFusion (S)",
+      "d": "2018-08-11",
+      "m1": "45.73"
+    },
+    {
+      "p": "[Recurrent Scene Parsing with Perspective Understanding in the Loop](http://arxiv.org/abs/1705.07238v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/aimerykong/Recurrent-Scene-Parsing-with-Perspective-Understanding-in-the-loop)",
+      "n": "DPLNet ",
+      "d": "2017-05-20",
+      "m1": "45.1%"
+    },
+    {
+      "p": "[CI-Net: Contextual Information for Joint Semantic Segmentation and Depth Estimation](https://arxiv.org/abs/2107.13800v2)",
+      "c": "",
+      "n": "DFormer-L",
+      "d": "2021-07-29",
+      "m1": "44.3%"
+    },
+    {
+      "p": "[Depth-aware CNN for RGB-D Segmentation](http://arxiv.org/abs/1803.06791v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/laughtervv/DepthAwareCNN)",
+      "n": "TokenFusion (S)",
+      "d": "2018-03-19",
+      "m1": "42.0%"
+    },
+    {
+      "p": "[Self-Supervised Model Adaptation for Multimodal Semantic Segmentation](https://arxiv.org/abs/1808.03833v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/DeepSceneSeg/SSMA)",
+      "n": "DPLNet ",
+      "d": "2018-08-11",
+      "m1": "38.4"
+    },
+    {
+      "p": "[Missing Modality Robustness in Semi-Supervised Multi-Modal Semantic Segmentation](https://arxiv.org/abs/2304.10756v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/harshm121/m3l)",
+      "n": "DFormer-L",
+      "d": "2023-04-21",
+      "m2": "48.17"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

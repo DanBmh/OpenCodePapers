@@ -1,0 +1,100 @@
+# instance-segmentation-on-armbench
+
+[Dataset Link](http://armbench.s3-website-us-east-1.amazonaws.com/index.html) \
+Task Hierarchy: ['Instance Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AP50",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "AP75",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Robot Instance Segmentation with Few Annotations for Grasping](https://arxiv.org/abs/2407.01302v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mkimhi/RISE)",
+      "n": "RISE (VIT-B)",
+      "d": "2024-07-01",
+      "m1": "86.37",
+      "m2": "77.51"
+    },
+    {
+      "p": "[Robot Instance Segmentation with Few Annotations for Grasping](https://arxiv.org/abs/2407.01302v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mkimhi/RISE)",
+      "n": "RISE (R101)",
+      "d": "2024-07-01",
+      "m1": "84.74",
+      "m2": "75.93"
+    },
+    {
+      "p": "[Robot Instance Segmentation with Few Annotations for Grasping](https://arxiv.org/abs/2407.01302v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mkimhi/RISE)",
+      "n": "RISE (R50)",
+      "d": "2024-07-01",
+      "m1": "83.53",
+      "m2": "75.15"
+    },
+    {
+      "p": "[RoboLLM: Robotic Vision Tasks Grounded on Multimodal Large Language Models](https://arxiv.org/abs/2310.10221v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/longkukuhi/armbench)",
+      "n": "RoboLLM (VIT-B)",
+      "d": "2023-10-16",
+      "m1": "82.0",
+      "m2": "74"
+    },
+    {
+      "p": "[Robot Instance Segmentation with Few Annotations for Grasping](https://arxiv.org/abs/2407.01302v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mkimhi/RISE)",
+      "n": "Mask2Former",
+      "d": "2024-07-01",
+      "m1": "81.2",
+      "m2": "74.0"
+    },
+    {
+      "p": "[Robot Instance Segmentation with Few Annotations for Grasping](https://arxiv.org/abs/2407.01302v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mkimhi/RISE)",
+      "n": "Deformable DETR",
+      "d": "2024-07-01",
+      "m1": "77.03",
+      "m2": "63.4"
+    },
+    {
+      "p": "[ARMBench: An Object-centric Benchmark Dataset for Robotic Manipulation](https://arxiv.org/abs/2303.16382v1)",
+      "c": "",
+      "n": "Mask R-CNN (Resnet50)",
+      "d": "2023-03-29",
+      "m1": "72",
+      "m2": "61"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

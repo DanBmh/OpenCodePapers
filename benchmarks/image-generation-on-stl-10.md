@@ -1,0 +1,308 @@
+# image-generation-on-stl-10
+
+[Dataset Link](https://cs.stanford.edu/~acoates/stl10/) \
+Task Hierarchy: ['Image Generation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "FID",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Inception score",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Model Size (MB)",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Recall",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "NFE",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Diffusion-GAN: Training GANs with Diffusion](https://arxiv.org/abs/2206.02262v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/Zhendong-Wang/Diffusion-GAN)",
+      "n": "Diffusion ProjectedGAN",
+      "d": "2022-06-05",
+      "m1": "6.91"
+    },
+    {
+      "p": "[Soft Truncation: A Universal Training Technique of Score-based Diffusion Model for High Precision Score Estimation](https://arxiv.org/abs/2106.05527v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/Kim-Dongjun/Soft-Truncation)",
+      "n": "UNCSN++ (RVE) + ST",
+      "d": "2021-06-10",
+      "m1": "7.71",
+      "m2": "13.43"
+    },
+    {
+      "p": "[A High-Quality Robust Diffusion Framework for Corrupted Dataset](https://arxiv.org/abs/2311.17101v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/VinAIResearch/RDUOT)",
+      "n": "RDUOT",
+      "d": "2023-11-28",
+      "m1": "11.5",
+      "m4": "0.49"
+    },
+    {
+      "p": "[Diffusion-GAN: Training GANs with Diffusion](https://arxiv.org/abs/2206.02262v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/Zhendong-Wang/Diffusion-GAN)",
+      "n": "Diffusion StyleGAN2",
+      "d": "2022-06-05",
+      "m1": "11.53"
+    },
+    {
+      "p": "[Enhancing GANs with MMD Neural Architecture Search, PMish Activation Function, and Adaptive Rank Decomposition](https://ieeexplore.ieee.org/document/10732016)",
+      "c": "[&check;&nbsp;Link](https://github.com/PrasannaPulakurthi/MMD-PMish-NAS)",
+      "n": "MMD-PMish-NAS",
+      "d": "2024-10-23",
+      "m1": "11.61",
+      "m2": "11.79",
+      "m3": "19.47"
+    },
+    {
+      "p": "[Enhancing GAN Performance through Neural Architecture Search and Tensor Decomposition](https://ieeexplore.ieee.org/document/10446488)",
+      "c": "[&check;&nbsp;Link](https://github.com/PrasannaPulakurthi/MMD-AdversarialNAS)",
+      "n": "MMD-AdversarialNAS",
+      "d": "2024-03-18",
+      "m1": "12.91",
+      "m2": "11.6",
+      "m3": "19.47"
+    },
+    {
+      "p": "[Wavelet Diffusion Models are fast and scalable Image Generators](https://arxiv.org/abs/2211.16152v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/vinairesearch/wavediff)",
+      "n": "WaveDiff",
+      "d": "2022-11-29",
+      "m1": "12.93",
+      "m4": "0.41",
+      "m5": "4"
+    },
+    {
+      "p": "[Enhancing GAN Performance through Neural Architecture Search and Tensor Decomposition](https://ieeexplore.ieee.org/document/10446488)",
+      "c": "[&check;&nbsp;Link](https://github.com/PrasannaPulakurthi/MMD-AdversarialNAS)",
+      "n": "MMD-AdversarialNAS (Compressed Large)",
+      "d": "2024-03-18",
+      "m1": "13.06",
+      "m2": "11.28",
+      "m3": "5.35"
+    },
+    {
+      "p": "[Enhancing GANs with MMD Neural Architecture Search, PMish Activation Function, and Adaptive Rank Decomposition](https://ieeexplore.ieee.org/document/10732016)",
+      "c": "[&check;&nbsp;Link](https://github.com/PrasannaPulakurthi/MMD-PMish-NAS)",
+      "n": "MMD-PMish-NAS (Compressed)",
+      "d": "2024-10-23",
+      "m1": "13.07",
+      "m2": "11.85",
+      "m3": "2.78"
+    },
+    {
+      "p": "[A High-Quality Robust Diffusion Framework for Corrupted Dataset](https://arxiv.org/abs/2311.17101v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/VinAIResearch/RDUOT)",
+      "n": "RDGAN",
+      "d": "2023-11-28",
+      "m1": "13.07",
+      "m4": "0.47"
+    },
+    {
+      "p": "[Enhancing GAN Performance through Neural Architecture Search and Tensor Decomposition](https://ieeexplore.ieee.org/document/10446488)",
+      "c": "[&check;&nbsp;Link](https://github.com/PrasannaPulakurthi/MMD-AdversarialNAS)",
+      "n": "MMD-AdversarialNAS (Compressed Small)",
+      "d": "2024-03-18",
+      "m1": "14.84",
+      "m2": "11.66",
+      "m3": "1.71"
+    },
+    {
+      "p": "[Styleformer: Transformer based Generative Adversarial Networks with Style Vector](https://arxiv.org/abs/2106.07023v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/BR-IDL/PaddleViT/blob/main/gan/Styleformer)",
+      "n": "Styleformer",
+      "d": "2021-06-13",
+      "m1": "15.17",
+      "m2": "11.01"
+    },
+    {
+      "p": "[Discriminator Contrastive Divergence: Semi-Amortized Generative Modeling by Exploring Energy of the Discriminator](https://arxiv.org/abs/2004.01704v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/MinkaiXu/Discriminator-Contrastive-Divergence)",
+      "n": "SNGAN-DCD (Latent)",
+      "d": "2020-04-05",
+      "m1": "17.68",
+      "m2": "9.33"
+    },
+    {
+      "p": "[TransGAN: Two Pure Transformers Can Make One Strong GAN, and That Can Scale Up](https://arxiv.org/abs/2102.07074v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/VITA-Group/TransGAN)",
+      "n": "TransGAN",
+      "d": "2021-02-14",
+      "m1": "18.28",
+      "m2": "10.43"
+    },
+    {
+      "p": "[Partition-Guided GANs](https://arxiv.org/abs/2104.00816v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/alisadeghian/PGMGAN)",
+      "n": "PGMGAN",
+      "d": "2021-04-02",
+      "m1": "19.52",
+      "m2": "11.16"
+    },
+    {
+      "p": "[EAGAN: Efficient Two-stage Evolutionary Architecture Search for GANs](https://arxiv.org/abs/2111.15097v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/marsggbo/EAGAN)",
+      "n": "EAGAN (G+D)",
+      "d": "2021-11-30",
+      "m1": "22.18",
+      "m2": "10.44"
+    },
+    {
+      "p": "[Discriminator Contrastive Divergence: Semi-Amortized Generative Modeling by Exploring Energy of the Discriminator](https://arxiv.org/abs/2004.01704v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/MinkaiXu/Discriminator-Contrastive-Divergence)",
+      "n": "SNGAN-DCD (Pixel)",
+      "d": "2020-04-05",
+      "m1": "22.25",
+      "m2": "9.25"
+    },
+    {
+      "p": "[EAGAN: Efficient Two-stage Evolutionary Architecture Search for GANs](https://arxiv.org/abs/2111.15097v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/marsggbo/EAGAN)",
+      "n": "EAGAN (G)",
+      "d": "2021-11-30",
+      "m1": "23.34",
+      "m2": "10.02"
+    },
+    {
+      "p": "[Off-Policy Reinforcement Learning for Efficient and Effective GAN Architecture Search](https://arxiv.org/abs/2007.09180v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Yuantian013/E2GAN)",
+      "n": "E2GAN",
+      "d": "2020-07-17",
+      "m1": "25.35",
+      "m2": "9.51"
+    },
+    {
+      "p": "[Adaptive Weighted Discriminator for Training Generative Adversarial Networks](https://arxiv.org/abs/2012.03149v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/vasily789/adaptive-weighted-gans)",
+      "n": "aw-AutoGAN",
+      "d": "2020-12-05",
+      "m1": "26.32",
+      "m2": "9.59"
+    },
+    {
+      "p": "[DEGAS: Differentiable Efficient Generator Search](https://arxiv.org/abs/1912.00606v3)",
+      "c": "",
+      "n": "DEGAS",
+      "d": "2019-12-02",
+      "m1": "28.76",
+      "m2": "9.71"
+    },
+    {
+      "p": "[AutoGAN: Neural Architecture Search for Generative Adversarial Networks](https://arxiv.org/abs/1908.03835v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/TAMU-VITA/AutoGAN)",
+      "n": "AutoGAN",
+      "d": "2019-08-11",
+      "m1": "31.01",
+      "m2": "9.16"
+    },
+    {
+      "p": "[Adaptive Weighted Discriminator for Training Generative Adversarial Networks](https://arxiv.org/abs/2012.03149v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/vasily789/adaptive-weighted-gans)",
+      "n": "aw-SN-GAN",
+      "d": "2020-12-05",
+      "m1": "34.72",
+      "m2": "9.61"
+    },
+    {
+      "p": "[Dist-GAN: An Improved GAN using Distance Constraints](http://arxiv.org/abs/1803.08887v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/tntrung/gan)",
+      "n": "Dist-GAN",
+      "d": "2018-03-23",
+      "m1": "36.19"
+    },
+    {
+      "p": "[Improving MMD-GAN Training with Repulsive Loss Function](http://arxiv.org/abs/1812.09916v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/richardwth/MMD-GAN)",
+      "n": "Improving MMD GAN",
+      "d": "2018-12-24",
+      "m1": "37.63",
+      "m2": "9.34"
+    },
+    {
+      "p": "[Spectral Normalization for Generative Adversarial Networks](http://arxiv.org/abs/1802.05957v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/pytorch/pytorch/blob/a77b391de723a69fb59ff6ae9d1236ca93f03a97/torch/nn/utils/spectral_norm.py)",
+      "n": "SN-GAN",
+      "d": "2018-02-16",
+      "m1": "40.1",
+      "m2": "9.10"
+    },
+    {
+      "p": "[Dual Contradistinctive Generative Autoencoder](https://arxiv.org/abs/2011.10063v1)",
+      "c": "",
+      "n": "DC-VAE",
+      "d": "2020-11-19",
+      "m1": "41.9",
+      "m2": "8.1"
+    },
+    {
+      "p": "[ProbGAN: Towards Probabilistic GAN with Theoretical Guarantees](https://openreview.net/forum?id=H1l7bnR5Ym)",
+      "c": "[&check;&nbsp;Link](https://github.com/hehaodele/ProbGAN)",
+      "n": "ProbGAN",
+      "d": "2019-05-01",
+      "m1": "46.74",
+      "m2": "8.87"
+    },
+    {
+      "p": "[DuelGAN: A Duel Between Two Discriminators Stabilizes the GAN Training](https://arxiv.org/abs/2101.07524v3)",
+      "c": "",
+      "n": "PeerGAN",
+      "d": "2021-01-19",
+      "m1": "51.37"
+    },
+    {
+      "p": "[Quaternion Generative Adversarial Networks](https://arxiv.org/abs/2104.09630v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/eleGAN23/QVAE)",
+      "n": "QSNGAN",
+      "d": "2021-04-19",
+      "m1": "59.611",
+      "m2": "4.987"
+    },
+    {
+      "p": "[Dual Discriminator Generative Adversarial Nets](http://arxiv.org/abs/1709.03831v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tund/D2GAN)",
+      "n": "D2GAN",
+      "d": "2017-09-12",
+      "m2": "7.98"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

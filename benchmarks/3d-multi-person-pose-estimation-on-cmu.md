@@ -1,0 +1,179 @@
+# 3d-multi-person-pose-estimation-on-cmu
+
+[Dataset Link](http://domedb.perception.cs.cmu.edu/) \
+Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', '3D Human Pose Estimation', '3D Multi-Person Pose Estimation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Average MPJPE (mm)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[TesseTrack: End-to-End Learnable Multi-Person Articulated 3D Pose Tracking](http://www.cs.cmu.edu/~ILIM/projects/IM/TesseTrack/)",
+      "c": "",
+      "n": "TesseTrack",
+      "d": "2021-06-16",
+      "m1": "7.3"
+    },
+    {
+      "p": "[Graph-Based 3D Multi-Person Pose Estimation Using Multi-View Images](https://arxiv.org/abs/2109.05885v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/wusize/multiview_pose)",
+      "n": "PRGN",
+      "d": "2021-09-13",
+      "m1": "15.68"
+    },
+    {
+      "p": "[Direct Multi-view Multi-person 3D Pose Estimation](https://arxiv.org/abs/2111.04076v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/openxrlab/xrmocap)",
+      "n": "MvP",
+      "d": "2021-11-07",
+      "m1": "15.8"
+    },
+    {
+      "p": "[Multi-View Multi-Person 3D Pose Estimation with Plane Sweep Stereo](https://arxiv.org/abs/2104.02273v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jiahaoLjh/PlaneSweepPose)",
+      "n": "PlaneSweepPose",
+      "d": "2021-04-06",
+      "m1": "16.75"
+    },
+    {
+      "p": "[VoxelPose: Towards Multi-Camera 3D Human Pose Estimation in Wild Environment](https://arxiv.org/abs/2004.06239v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmpose)",
+      "n": "VoxelPose",
+      "d": "2020-04-13",
+      "m1": "17.68"
+    },
+    {
+      "p": "[Faster VoxelPose: Real-time 3D Human Pose Estimation by Orthographic Projection](https://arxiv.org/abs/2207.10955v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/AlvinYH/Faster-VoxelPose)",
+      "n": "Faster VoxelPose",
+      "d": "2022-07-22",
+      "m1": "18.41"
+    },
+    {
+      "p": "[VoxelTrack: Multi-Person 3D Human Pose Estimation and Tracking in the Wild](https://arxiv.org/abs/2108.02452v1)",
+      "c": "",
+      "n": "VoxelTrack",
+      "d": "2021-08-05",
+      "m1": "18.49"
+    },
+    {
+      "p": "[QuickPose: Real-time Multi-view Multi-person Pose Estimation in Crowded Scenes](https://dl.acm.org/doi/abs/10.1145/3528233.3530746)",
+      "c": "",
+      "n": "QuickPose",
+      "d": "2022-07-22",
+      "m1": "29.4"
+    },
+    {
+      "p": "[RapidPoseTriangulation: Multi-view Multi-person Whole-body Human Pose Triangulation in a Millisecond](https://arxiv.org/abs/2503.21692v1)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/Percipiote/RapidPoseTriangulation)",
+      "n": "RapidPoseTriangulation (without training)",
+      "d": "2025-03-27",
+      "m1": "30.5"
+    },
+    {
+      "p": "[Light3DPose: Real-time Multi-Person 3D PoseEstimation from Multiple Views](https://arxiv.org/abs/2004.02688v1)",
+      "c": "",
+      "n": "Light3DPose",
+      "d": "2020-04-06",
+      "m1": "38.59"
+    },
+    {
+      "p": "[IVT: An End-to-End Instance-guided Video Transformer for 3D Pose Estimation](https://arxiv.org/abs/2208.03431v1)",
+      "c": "",
+      "n": "IVT (f=5)",
+      "d": "2022-08-06",
+      "m1": "48.4"
+    },
+    {
+      "p": "[Permutation-Invariant Relational Network for Multi-person 3D Pose Estimation](https://arxiv.org/abs/2204.04913v2)",
+      "c": "",
+      "n": "PIRN",
+      "d": "2022-04-11",
+      "m1": "49.8"
+    },
+    {
+      "p": "[Multi-person 3D Pose Estimation in Crowded Scenes Based on Multi-View Geometry](https://arxiv.org/abs/2007.10986v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/HeCraneChen/3D-Crowd-Pose-Estimation-Based-on-MVG)",
+      "n": "MVG",
+      "d": "2020-07-21",
+      "m1": "50"
+    },
+    {
+      "p": "[HMOR: Hierarchical Multi-Person Ordinal Relations for Monocular Multi-Person 3D Pose Estimation](https://arxiv.org/abs/2008.00206v2)",
+      "c": "",
+      "n": "HMOR",
+      "d": "2020-08-01",
+      "m1": "51.6"
+    },
+    {
+      "p": "[Distribution-Aware Single-Stage Models for Multi-Person 3D Pose Estimation](https://arxiv.org/abs/2203.07697v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/wangzt-halo/das)",
+      "n": "DAS",
+      "d": "2022-03-15",
+      "m1": "53.8"
+    },
+    {
+      "p": "[Dynamic Graph Reasoning for Multi-person 3D Pose Estimation](https://arxiv.org/abs/2207.11341v2)",
+      "c": "",
+      "n": "GR-M3D",
+      "d": "2022-07-22",
+      "m1": "57.9"
+    },
+    {
+      "p": "[VirtualPose: Learning Generalizable 3D Human Pose Models from Virtual Data](https://arxiv.org/abs/2207.09949v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/wkom/virtualpose)",
+      "n": "VirtualPose",
+      "d": "2022-07-20",
+      "m1": "58.9"
+    },
+    {
+      "p": "[SMAP: Single-Shot Multi-Person Absolute 3D Pose Estimation](https://arxiv.org/abs/2008.11469v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zju3dv/smap)",
+      "n": "SMAP",
+      "d": "2020-08-26",
+      "m1": "61.8"
+    },
+    {
+      "p": "[Instance-aware Contrastive Learning for Occluded Human Mesh Reconstruction](http://openaccess.thecvf.com//content/CVPR2024/html/Gwon_Instance-aware_Contrastive_Learning_for_Occluded_Human_Mesh_Reconstruction_CVPR_2024_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/dcvl-3d/instancehmr_release)",
+      "n": "InstanceHMR",
+      "d": "2024-01-01",
+      "m1": "126.1"
+    },
+    {
+      "p": "[Body Meshes as Points](https://arxiv.org/abs/2105.02467v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jfzhang95/BMP)",
+      "n": "BMP",
+      "d": "2021-05-06",
+      "m1": "135.4"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

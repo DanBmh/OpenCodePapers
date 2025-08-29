@@ -1,0 +1,140 @@
+# speaker-diarization-on-callhome
+
+[Dataset Link](https://catalog.ldc.upenn.edu/LDC97S42) \
+Task Hierarchy: ['Speaker Diarization']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "DER(%)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "DER(ig olp)",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "FA",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "MI",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "CF",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[TOLD: A Novel Two-Stage Overlap-Aware Framework for Speaker Diarization](https://arxiv.org/abs/2303.05397v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/alibaba-damo-academy/FunASR)",
+      "n": "TOLD",
+      "d": "2023-03-08",
+      "m1": "10.14",
+      "m2": "7.37",
+      "m3": "2.4",
+      "m4": "4.8",
+      "m5": "2.94"
+    },
+    {
+      "p": "[End-to-End Neural Speaker Diarization with Self-attention](https://arxiv.org/abs/1909.06247v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/hitachi-speech/EEND)",
+      "n": "SA-EEND (2-spk, adapted)",
+      "d": "2019-09-13",
+      "m1": "10.76",
+      "m3": "6.68",
+      "m4": "2.40",
+      "m5": "1.68"
+    },
+    {
+      "p": "[TOLD: A Novel Two-Stage Overlap-Aware Framework for Speaker Diarization](https://arxiv.org/abs/2303.05397v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/alibaba-damo-academy/FunASR)",
+      "n": "EEND-OLA",
+      "d": "2023-03-08",
+      "m1": "12.57",
+      "m2": "9.14"
+    },
+    {
+      "p": "[End-to-End Neural Speaker Diarization with Self-attention](https://arxiv.org/abs/1909.06247v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/hitachi-speech/EEND)",
+      "n": "SA-EEND (2-spk, no-adapt)",
+      "d": "2019-09-13",
+      "m1": "12.66",
+      "m3": "7.42",
+      "m4": "3.93",
+      "m5": "1.31"
+    },
+    {
+      "p": "[Auto-Tuning Spectral Clustering for Speaker Diarization Using Normalized Maximum Eigengap](https://arxiv.org/abs/2003.02405v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tango4j/Auto-Tuning-Spectral-Clustering)",
+      "n": "COS+AHC (Oracle SAD)",
+      "d": "2020-03-05",
+      "m1": "21.13"
+    },
+    {
+      "p": "[End-to-End Neural Speaker Diarization with Permutation-Free Objectives](https://arxiv.org/abs/1909.05952v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/hitachi-speech/EEND)",
+      "n": "EEND",
+      "d": "2019-09-12",
+      "m1": "23.07"
+    },
+    {
+      "p": "[Auto-Tuning Spectral Clustering for Speaker Diarization Using Normalized Maximum Eigengap](https://arxiv.org/abs/2003.02405v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tango4j/Auto-Tuning-Spectral-Clustering)",
+      "n": "COS+NJW-SC (Oracle SAD)",
+      "d": "2020-03-05",
+      "m1": "24.05"
+    },
+    {
+      "p": "[Auto-Tuning Spectral Clustering for Speaker Diarization Using Normalized Maximum Eigengap](https://arxiv.org/abs/2003.02405v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tango4j/Auto-Tuning-Spectral-Clustering)",
+      "n": "COS+NME-SC (Oracle SAD)",
+      "d": "2020-03-05",
+      "m2": "7.29"
+    },
+    {
+      "p": "[Auto-Tuning Spectral Clustering for Speaker Diarization Using Normalized Maximum Eigengap](https://arxiv.org/abs/2003.02405v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tango4j/Auto-Tuning-Spectral-Clustering)",
+      "n": "PLDA+AHC (Oracle SAD)",
+      "d": "2020-03-05",
+      "m2": "8.39"
+    },
+    {
+      "p": "[Auto-Tuning Spectral Clustering for Speaker Diarization Using Normalized Maximum Eigengap](https://arxiv.org/abs/2003.02405v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tango4j/Auto-Tuning-Spectral-Clustering)",
+      "n": "COS+B-SC (Oracle SAD)",
+      "d": "2020-03-05",
+      "m2": "8.78"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

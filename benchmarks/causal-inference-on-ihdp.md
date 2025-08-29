@@ -1,0 +1,130 @@
+# causal-inference-on-ihdp
+
+[Dataset Link](https://causalforge.readthedocs.io/en/latest/user_guide/Loading_Causal_RW_Benchmarking_Datasets.html) \
+Task Hierarchy: ['Causal Inference']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Average Treatment Effect Error",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Preventing Spurious Interactions: A New Inductive Bias for Accurate Treatment Effect Estimation](https://ieeexplore.ieee.org/document/11016676)",
+      "c": "[&check;&nbsp;Link](https://github.com/RogerG2/NNSIP)",
+      "n": "SIP + BCAUSS",
+      "d": "2025-05-28",
+      "m1": "0.13"
+    },
+    {
+      "p": "[Learning end-to-end patient representations through self-supervised covariate balancing for causal treatment effect estimation](https://www.sciencedirect.com/science/article/pii/S1532046423000606)",
+      "c": "[&check;&nbsp;Link](https://github.com/anthem-ai/bcauss)",
+      "n": "BCAUSS",
+      "d": "2023-03-20",
+      "m1": "0.15"
+    },
+    {
+      "p": "[Adapting Neural Networks for the Estimation of Treatment Effects](https://arxiv.org/abs/1906.02120v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/uber/causalml/blob/master/causalml/inference/tf/dragonnet.py)",
+      "n": "Dragonnet",
+      "d": "2019-06-05",
+      "m1": "0.20"
+    },
+    {
+      "p": "[Deep representation learning for individualized treatment effect estimation using electronic health records](https://www.sciencedirect.com/science/article/pii/S1532046419302229)",
+      "c": "[&check;&nbsp;Link](https://github.com/ZJU-BMI/ITE-estimation)",
+      "n": "MTDL-KNN",
+      "d": "2019-12-01",
+      "m1": "0.23"
+    },
+    {
+      "p": "[Estimating individual treatment effect: generalization bounds and algorithms](http://arxiv.org/abs/1606.03976v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/clinicalml/cfrnet)",
+      "n": "Counterfactual Regression + WASS",
+      "d": "2016-06-13",
+      "m1": "0.27"
+    },
+    {
+      "p": "[Estimating individual treatment effect: generalization bounds and algorithms](http://arxiv.org/abs/1606.03976v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/clinicalml/cfrnet)",
+      "n": "TARNet",
+      "d": "2016-06-13",
+      "m1": "0.28"
+    },
+    {
+      "p": "[Minimizing bias in massive multi-arm observational studies with BCAUS: balancing covariates automatically using supervision](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-021-01383-x)",
+      "c": "",
+      "n": "BCAUS DR",
+      "d": "2021-09-20",
+      "m1": "0.29"
+    },
+    {
+      "p": "[Estimating individual treatment effect: generalization bounds and algorithms](http://arxiv.org/abs/1606.03976v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/clinicalml/cfrnet)",
+      "n": "Causal Forest",
+      "d": "2016-06-13",
+      "m1": "0.4"
+    },
+    {
+      "p": "[Estimating individual treatment effect: generalization bounds and algorithms](http://arxiv.org/abs/1606.03976v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/clinicalml/cfrnet)",
+      "n": "Balancing Neural Network",
+      "d": "2016-06-13",
+      "m1": "0.42"
+    },
+    {
+      "p": "[Causal Effect Inference with Deep Latent-Variable Models](http://arxiv.org/abs/1705.08821v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/uber/causalml/blob/master/causalml/inference/nn/cevae.py)",
+      "n": "CEVAE",
+      "d": "2017-05-24",
+      "m1": "0.46"
+    },
+    {
+      "p": "[Estimating individual treatment effect: generalization bounds and algorithms](http://arxiv.org/abs/1606.03976v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/clinicalml/cfrnet)",
+      "n": "k-NN",
+      "d": "2016-06-13",
+      "m1": "0.79"
+    },
+    {
+      "p": "[Estimating individual treatment effect: generalization bounds and algorithms](http://arxiv.org/abs/1606.03976v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/clinicalml/cfrnet)",
+      "n": "Balancing Linear Regression",
+      "d": "2016-06-13",
+      "m1": "0.93"
+    },
+    {
+      "p": "[Estimating individual treatment effect: generalization bounds and algorithms](http://arxiv.org/abs/1606.03976v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/clinicalml/cfrnet)",
+      "n": "Random Forest",
+      "d": "2016-06-13",
+      "m1": "0.96"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

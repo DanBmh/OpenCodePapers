@@ -1,0 +1,191 @@
+# change-detection-on-sysu-cd
+
+[Dataset Link]() \
+Task Hierarchy: ['Change Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Precision",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Recall",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "OA",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "KC",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "IoU",
+      "sortable": "true"
+    },
+    {
+      "key": "m7",
+      "label": "Overall Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[SChanger: Change Detection from a Semantic Change and Spatial Consistency Perspective](https://arxiv.org/abs/2503.20734v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhouziyu-cn/SChanger)",
+      "n": "SChanger-small",
+      "d": "2025-03-26",
+      "m1": "84.58"
+    },
+    {
+      "p": "[SChanger: Change Detection from a Semantic Change and Spatial Consistency Perspective](https://arxiv.org/abs/2503.20734v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhouziyu-cn/SChanger)",
+      "n": "SChanger-base",
+      "d": "2025-03-26",
+      "m1": "84.17"
+    },
+    {
+      "p": "[ChangeMamba: Remote Sensing Change Detection With Spatiotemporal State Space Model](https://arxiv.org/abs/2404.03425v7)",
+      "c": "[&check;&nbsp;Link](https://github.com/chenhongruixuan/mambacd)",
+      "n": "ChangeMamba",
+      "d": "2024-04-04",
+      "m1": "83.11",
+      "m2": "86.11",
+      "m3": "80.31",
+      "m4": "92.30",
+      "m5": "78.13",
+      "m6": "71.10"
+    },
+    {
+      "p": "[Relating CNN-Transformer Fusion Network for Change Detection](https://arxiv.org/abs/2407.03178v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nust-machine-intelligence-laboratory/rctnet)",
+      "n": "RCTNet",
+      "d": "2024-07-03",
+      "m1": "83.01",
+      "m2": "84.33",
+      "m3": "81.73",
+      "m6": "70.96"
+    },
+    {
+      "p": "[Rethinking Remote Sensing Change Detection With A Mask View](https://arxiv.org/abs/2406.15320v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/xwmaxwma/rschange)",
+      "n": "CDMaskFormer",
+      "d": "2024-06-21",
+      "m1": "82.84",
+      "m2": "78.85",
+      "m3": "87.25",
+      "m6": "70.70",
+      "m7": "91.47"
+    },
+    {
+      "p": "[Be the Change You Want to See: Revisiting Remote Sensing Change Detection Practices](https://arxiv.org/abs/2507.03367)",
+      "c": "[&check;&nbsp;Link](https://github.com/blaz-r/BTC-change-detection)",
+      "n": "BTC",
+      "d": "2025-07-04",
+      "m1": "82.4"
+    },
+    {
+      "p": "[MaskCD: A Remote Sensing Change Detection Network Based on Mask Classification](https://arxiv.org/abs/2404.12081v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ericyu97/maskcd)",
+      "n": "MaskCD",
+      "d": "2024-04-18",
+      "m1": "82.17",
+      "m2": "87.07",
+      "m3": "77.78",
+      "m4": "92.04"
+    },
+    {
+      "p": "[Change Guiding Network: Incorporating Change Prior to Guide Change Detection in Remote Sensing Imagery](https://arxiv.org/abs/2404.09179v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/chengxihan/cgnet-cd)",
+      "n": "CGNet",
+      "d": "2024-04-14",
+      "m1": "79.92",
+      "m2": "86.37",
+      "m3": "74.37",
+      "m4": "91.19",
+      "m5": "74.31",
+      "m6": "66.55"
+    },
+    {
+      "p": "[HCGMNET: A Hierarchical Change Guiding Map Network For Change Detection](https://arxiv.org/abs/2302.10420v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ChengxiHAN/HCGMNet-CD)",
+      "n": "HCGMNet",
+      "d": "2023-02-21",
+      "m1": "79.76",
+      "m2": "86.28",
+      "m3": "74.15",
+      "m4": "91.12",
+      "m5": "74.11",
+      "m6": "66.33"
+    },
+    {
+      "p": "[DSAMNet: A Deeply Supervised Attention Metric Based Network for Change Detection of High-Resolution Images](https://ieeexplore.ieee.org/document/9555146)",
+      "c": "[&check;&nbsp;Link](https://github.com/liumency/DSAMNet)",
+      "n": "DSAMNET",
+      "d": "2021-10-12",
+      "m1": "78.18",
+      "m2": "74.81",
+      "m3": "81.86",
+      "m6": "64.18"
+    },
+    {
+      "p": "[C2F-SemiCD: A Coarse-to-Fine Semi-Supervised Change Detection Method Based on Consistency Regularization in High-Resolution Remote Sensing Images](https://arxiv.org/abs/2404.13838v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/chengxihan/c2f-semicd-and-c2f-cdnet)",
+      "n": "C2FNet",
+      "d": "2024-04-22",
+      "m1": "77.97",
+      "m2": "75.44",
+      "m3": "80.67",
+      "m4": "89.25",
+      "m5": "70.87",
+      "m6": "63.89"
+    },
+    {
+      "p": "[HANet: A Hierarchical Attention Network for Change Detection With Bitemporal Very-High-Resolution Remote Sensing Images](https://arxiv.org/abs/2404.09178v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/chengxihan/hanet-cd)",
+      "n": "HANet",
+      "d": "2024-04-14",
+      "m1": "77.41",
+      "m2": "78.71",
+      "m3": "76.14",
+      "m4": "89.52",
+      "m5": "70.59",
+      "m6": "63.14"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

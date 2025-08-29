@@ -1,0 +1,60 @@
+# single-view-3d-reconstruction-on-common
+
+[Dataset Link](https://github.com/facebookresearch/co3d) \
+Task Hierarchy: ['Single-View 3D Reconstruction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Avg. F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[NU-MCC: Multiview Compressive Coding with Neighborhood Decoder and Repulsive UDF](https://arxiv.org/abs/2307.09112v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/sail-sg/numcc)",
+      "n": "NU-MCC",
+      "d": "2023-07-18",
+      "m1": "83.8"
+    },
+    {
+      "p": "[Multiview Compressive Coding for 3D Reconstruction](https://arxiv.org/abs/2301.08247v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/mcc)",
+      "n": "MCC",
+      "d": "2023-01-19",
+      "m1": "56.7"
+    },
+    {
+      "p": "[PoinTr: Diverse Point Cloud Completion with Geometry-Aware Transformers](https://arxiv.org/abs/2108.08839v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yuxumin/PoinTr)",
+      "n": "PointTr",
+      "d": "2021-08-19",
+      "m1": "39.7"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

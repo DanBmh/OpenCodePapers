@@ -1,0 +1,472 @@
+# graph-property-prediction-on-ogbg-molhiv
+
+[Dataset Link](https://ogb.stanford.edu/) \
+Task Hierarchy: ['Graph Property Prediction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Test ROC-AUC",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Ext. data",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Validation ROC-AUC",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Number of params",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "HyperFusion",
+      "d": null,
+      "m1": "0.8475 \u00b1 0.0003",
+      "m2": "No",
+      "m3": "0.8275 \u00b1 0.0008",
+      "m4": "5908027"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "PAS+FPs",
+      "d": null,
+      "m1": "0.8420 \u00b1 0.0015",
+      "m2": "No",
+      "m3": "0.8238 \u00b1 0.0028",
+      "m4": "26706953"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "HIG",
+      "d": null,
+      "m1": "0.8403 \u00b1 0.0021",
+      "m2": "No",
+      "m3": "0.8176 \u00b1 0.0034",
+      "m4": "1019408"
+    },
+    {
+      "p": "[Large-scale Robust Deep AUC Maximization: A New Surrogate Loss and Empirical Studies on Medical Image Classification](https://arxiv.org/abs/2012.03173v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Optimization-AI/LibAUC)",
+      "n": "DeepAUC",
+      "d": "2020-12-06",
+      "m1": "0.8352 \u00b1 0.0054",
+      "m2": "No",
+      "m3": "0.8238 \u00b1 0.0061",
+      "m4": "3444509"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "FingerPrint+GMAN",
+      "d": null,
+      "m1": "0.8244 \u00b1 0.0033",
+      "m2": "No",
+      "m3": "0.8329 \u00b1 0.0039",
+      "m4": "1444110"
+    },
+    {
+      "p": "[Molecular Representation Learning by Leveraging Chemical Information](https://github.com/PaddlePaddle/PaddleHelix/blob/dev/competition/ogbg_molhiv/Molecule_Representation_Learning_by_Leveraging_Chemical_Information.pdf)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleHelix)",
+      "n": "Neural FingerPrints",
+      "d": "2021-03-15",
+      "m1": "0.8232 \u00b1 0.0047",
+      "m2": "No",
+      "m3": "0.8331 \u00b1 0.0054",
+      "m4": "2425102"
+    },
+    {
+      "p": "[Do Transformers Really Perform Bad for Graph Representation?](https://arxiv.org/abs/2106.05234v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/Graphormer)",
+      "n": "Graphormer + FPs",
+      "d": "2021-06-09",
+      "m1": "0.8225 \u00b1 0.0001",
+      "m2": "No",
+      "m3": "0.8396 \u00b1 0.0001",
+      "m4": "47085378"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Molecular FP + Random Forest",
+      "d": null,
+      "m1": "0.8208 \u00b1 0.0037",
+      "m2": "No",
+      "m3": "0.8036 \u00b1 0.0059",
+      "m4": "5782"
+    },
+    {
+      "p": "[Graph Propagation Transformer for Graph Representation Learning](https://arxiv.org/abs/2305.11424v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/czczup/gptrans)",
+      "n": "GPTrans-B",
+      "d": "2023-05-19",
+      "m1": "0.8126 \u00b1 0.0032",
+      "m2": "Yes"
+    },
+    {
+      "p": "[Weisfeiler and Lehman Go Cellular: CW Networks](https://arxiv.org/abs/2106.12575v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/twitter-research/cwn)",
+      "n": "CIN",
+      "d": "2021-06-23",
+      "m1": "0.8094 \u00b1 0.0057",
+      "m2": "No",
+      "m3": "0.8277 \u00b1 0.0099",
+      "m4": "239745"
+    },
+    {
+      "p": "[Interpretable and Generalizable Graph Learning via Stochastic Attention Mechanism](https://arxiv.org/abs/2201.12987v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/divelab/good)",
+      "n": "GSAT",
+      "d": "2022-01-31",
+      "m1": "0.8067 \u00b1 0.0950",
+      "m2": "No",
+      "m3": "0.8347 \u00b1 0.0031",
+      "m4": "249602"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "MorganFP+Rand. Forest",
+      "d": null,
+      "m1": "0.8060 \u00b1 0.0010",
+      "m2": "No",
+      "m3": "0.8420 \u00b1 0.0030",
+      "m4": "230000"
+    },
+    {
+      "p": "[Global Self-Attention as a Replacement for Graph Convolution](https://arxiv.org/abs/2108.03348v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/shamim-hussain/egt_pytorch)",
+      "n": "EGT",
+      "d": "2021-08-07",
+      "m1": "0.806 \u00b1 0.0065"
+    },
+    {
+      "p": "[Weisfeiler and Lehman Go Cellular: CW Networks](https://arxiv.org/abs/2106.12575v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/twitter-research/cwn)",
+      "n": "CIN-small",
+      "d": "2021-06-23",
+      "m1": "0.8055 \u00b1 0.0104",
+      "m2": "No",
+      "m3": "0.8310 \u00b1 0.0102",
+      "m4": "138337"
+    },
+    {
+      "p": "[Do Transformers Really Perform Bad for Graph Representation?](https://arxiv.org/abs/2106.05234v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/Graphormer)",
+      "n": "Graphormer",
+      "d": "2021-06-09",
+      "m1": "0.8051 \u00b1 0.0053",
+      "m2": "Yes",
+      "m3": "0.8310 \u00b1 0.0089",
+      "m4": "47183040"
+    },
+    {
+      "p": "[Do Transformers Really Perform Bad for Graph Representation?](https://arxiv.org/abs/2106.05234v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/Graphormer)",
+      "n": "Graphormer (pre-trained on PCQM4M)",
+      "d": "2021-06-09",
+      "m1": "0.8051 \u00b1 0.0053",
+      "m2": "Yes",
+      "m3": "0.8310 \u00b1 0.0089",
+      "m4": "47183040"
+    },
+    {
+      "p": "[Unlocking the Potential of Classic GNNs for Graph-level Tasks: Simple Architectures Meet Excellence](https://arxiv.org/abs/2502.09263v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/LUOyk1999/GNNPlus)",
+      "n": "GatedGCN+",
+      "d": "2025-02-13",
+      "m1": "0.8040 \u00b1 0.0164",
+      "m2": "No",
+      "m3": "0.8329 \u00b1 0.0158",
+      "m4": "1076633"
+    },
+    {
+      "p": "[Improving Graph Neural Network Expressivity via Subgraph Isomorphism Counting](https://arxiv.org/abs/2006.09252v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/gbouritsas/gsn)",
+      "n": "directional GSN",
+      "d": "2020-06-16",
+      "m1": "0.8039 \u00b1 0.0090",
+      "m2": "No",
+      "m3": "0.8473 \u00b1 0.0096",
+      "m4": "114211"
+    },
+    {
+      "p": "[A Persistent Weisfeiler\u2013Lehman Procedure for Graph Classification](http://proceedings.mlr.press/v97/rieck19a.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/BorgwardtLab/P-WL)",
+      "n": "P-WL",
+      "d": "2019-06-09",
+      "m1": "0.8039 \u00b1 0.0040",
+      "m2": "No",
+      "m3": "0.8279 \u00b1 0.0059",
+      "m4": "4600000"
+    },
+    {
+      "p": "[Nested Graph Neural Networks](https://arxiv.org/abs/2110.13197v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/muhanzhang/NestedGNN)",
+      "n": "Nested GIN+virtual node (ens)",
+      "d": "2021-10-25",
+      "m1": "0.7986 \u00b1 0.0105",
+      "m3": "0.8080 \u00b1 0.0278"
+    },
+    {
+      "p": "[Directional Graph Networks](https://arxiv.org/abs/2010.02863v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/Saro00/DGN)",
+      "n": "DGN",
+      "d": "2020-10-06",
+      "m1": "0.7970 \u00b1 0.0097",
+      "m2": "No",
+      "m3": "0.8470 \u00b1 0.0047",
+      "m4": "114065"
+    },
+    {
+      "p": "[Weisfeiler and Lehman Go Paths: Learning Topological Features via Path Complexes](https://arxiv.org/abs/2308.06838v6)",
+      "c": "",
+      "n": "PIN",
+      "d": "2023-08-13",
+      "m1": "0.7944 \u00b1 1.40 "
+    },
+    {
+      "p": "[Robust Optimization as Data Augmentation for Large-scale Graphs](https://arxiv.org/abs/2010.09891v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/sangyx/gtrick/tree/main/benchmark/pyg)",
+      "n": "DeeperGCN+FLAG",
+      "d": "2020-10-19",
+      "m1": "0.7942 \u00b1 0.0120",
+      "m2": "No",
+      "m3": "0.8425 \u00b1 0.0061",
+      "m4": "531976"
+    },
+    {
+      "p": "[Parameterized Hypercomplex Graph Neural Networks for Graph Classification](https://arxiv.org/abs/2103.16584v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/bayer-science-for-a-better-life/phc-gnn)",
+      "n": "PHC-GNN",
+      "d": "2021-03-30",
+      "m1": "0.7934 \u00b1 0.0116",
+      "m2": "No",
+      "m3": "0.8217 \u00b1 0.0089",
+      "m4": "110909"
+    },
+    {
+      "p": "[Principal Neighbourhood Aggregation for Graph Nets](https://arxiv.org/abs/2004.05718v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/rusty1s/pytorch_geometric)",
+      "n": "PNA",
+      "d": "2020-04-12",
+      "m1": "0.7905 \u00b1 0.0132",
+      "m2": "No",
+      "m3": "0.8519 \u00b1 0.0099",
+      "m4": "326081"
+    },
+    {
+      "p": "[GraphNorm: A Principled Approach to Accelerating Graph Neural Network Training](https://arxiv.org/abs/2009.03294v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/lsj2408/GraphNorm)",
+      "n": "GCN+GraphNorm",
+      "d": "2020-09-07",
+      "m1": "0.7883 \u00b1 0.0100",
+      "m2": "No",
+      "m3": "0.7904 \u00b1 0.0115",
+      "m4": "526201"
+    },
+    {
+      "p": "[Recipe for a General, Powerful, Scalable Graph Transformer](https://arxiv.org/abs/2205.12454v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/rampasek/GraphGPS)",
+      "n": "GPS",
+      "d": "2022-05-25",
+      "m1": "0.7880",
+      "m2": "No",
+      "m3": "0.8255 \u00b1 0.0092",
+      "m4": "558625"
+    },
+    {
+      "p": "[Hierarchical Inter-Message Passing for Learning on Molecular Graphs](https://arxiv.org/abs/2006.12179v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/rusty1s/himp-gnn)",
+      "n": "HIMP",
+      "d": "2020-06-22",
+      "m1": "0.7880 \u00b1 0.0082",
+      "m2": "No",
+      "m3": "Please tell us",
+      "m4": "153029"
+    },
+    {
+      "p": "[DeeperGCN: All You Need to Train Deeper GCNs](https://arxiv.org/abs/2006.07739v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/deepergcn)",
+      "n": "DeeperGCN",
+      "d": "2020-06-13",
+      "m1": "0.7858 \u00b1 0.0117",
+      "m2": "No",
+      "m3": "0.8427 \u00b1 0.0063",
+      "m4": "531976"
+    },
+    {
+      "p": "[Nested Graph Neural Networks](https://arxiv.org/abs/2110.13197v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/muhanzhang/NestedGNN)",
+      "n": "Nested GIN+virtual node",
+      "d": "2021-10-25",
+      "m1": "0.7834 \u00b1 0.0186",
+      "m3": "0.8317 \u00b1 0.0199"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "GIN",
+      "d": null,
+      "m1": "0.7825 \u00b1 0.0121",
+      "m2": "No",
+      "m3": "0.8009 \u00b1 0.0078",
+      "m4": "32385"
+    },
+    {
+      "p": "[Do We Need Anisotropic Graph Neural Networks?](https://arxiv.org/abs/2104.01481v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/pyg-team/pytorch_geometric)",
+      "n": "EGC-M (No Edge Features)",
+      "d": "2021-04-03",
+      "m1": "0.7818 \u00b1 0.0153",
+      "m2": "No",
+      "m3": "0.8396 \u00b1 0.0097",
+      "m4": "317265"
+    },
+    {
+      "p": "[Improving Graph Neural Network Expressivity via Subgraph Isomorphism Counting](https://arxiv.org/abs/2006.09252v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/gbouritsas/gsn)",
+      "n": "GSN",
+      "d": "2020-06-16",
+      "m1": "0.7799 \u00b1 0.0100",
+      "m2": "No",
+      "m3": "0.8658 \u00b1 0.0084",
+      "m4": "3338701"
+    },
+    {
+      "p": "[Wasserstein Embedding for Graph Learning](https://arxiv.org/abs/2006.09430v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/navid-naderi/WEGL)",
+      "n": "WEGL",
+      "d": "2020-06-16",
+      "m1": "0.7757 \u00b1 0.0111",
+      "m2": "No",
+      "m3": "0.8101 \u00b1 0.0097",
+      "m4": "361064"
+    },
+    {
+      "p": "[Robust Optimization as Data Augmentation for Large-scale Graphs](https://arxiv.org/abs/2010.09891v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/sangyx/gtrick/tree/main/benchmark/pyg)",
+      "n": "GIN+virtual node+FLAG",
+      "d": "2020-10-19",
+      "m1": "0.7748 \u00b1 0.0096",
+      "m2": "No",
+      "m3": "0.8438 \u00b1 0.0128",
+      "m4": "3336306"
+    },
+    {
+      "p": "[Do We Need Anisotropic Graph Neural Networks?](https://arxiv.org/abs/2104.01481v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/pyg-team/pytorch_geometric)",
+      "n": "EGC-S (No Edge Features)",
+      "d": "2021-04-03",
+      "m1": "0.7721 \u00b1 0.0110",
+      "m2": "No",
+      "m3": "0.8366 \u00b1 0.0074",
+      "m4": "317013"
+    },
+    {
+      "p": "[How Powerful are Graph Neural Networks?](http://arxiv.org/abs/1810.00826v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/mxnet/gin)",
+      "n": "GIN+virtual node",
+      "d": "2018-10-01",
+      "m1": "0.7707 \u00b1 0.0149",
+      "m2": "No",
+      "m3": "0.8479 \u00b1 0.0068",
+      "m4": "3336306"
+    },
+    {
+      "p": "[Robust Optimization as Data Augmentation for Large-scale Graphs](https://arxiv.org/abs/2010.09891v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/sangyx/gtrick/tree/main/benchmark/pyg)",
+      "n": "GCN+FLAG",
+      "d": "2020-10-19",
+      "m1": "0.7683 \u00b1 0.0102",
+      "m2": "No",
+      "m3": "0.8176 \u00b1 0.0087",
+      "m4": "527701"
+    },
+    {
+      "p": "[Robust Optimization as Data Augmentation for Large-scale Graphs](https://arxiv.org/abs/2010.09891v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/sangyx/gtrick/tree/main/benchmark/pyg)",
+      "n": "GIN+FLAG",
+      "d": "2020-10-19",
+      "m1": "0.7654 \u00b1 0.0114",
+      "m2": "No",
+      "m3": "0.8225 \u00b1 0.0155",
+      "m4": "1885206"
+    },
+    {
+      "p": "[Semi-Supervised Classification with Graph Convolutional Networks](http://arxiv.org/abs/1609.02907v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/mxnet/gcn)",
+      "n": "GCN",
+      "d": "2016-09-09",
+      "m1": "0.7606 \u00b1 0.0097",
+      "m2": "No",
+      "m3": "0.8204 \u00b1 0.0141",
+      "m4": "527701"
+    },
+    {
+      "p": "[Semi-Supervised Classification with Graph Convolutional Networks](http://arxiv.org/abs/1609.02907v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/mxnet/gcn)",
+      "n": "GCN+virtual node",
+      "d": "2016-09-09",
+      "m1": "0.7599 \u00b1 0.0119",
+      "m2": "No",
+      "m3": "0.8384 \u00b1 0.0091",
+      "m4": "1978801"
+    },
+    {
+      "p": "[How Powerful are Graph Neural Networks?](http://arxiv.org/abs/1810.00826v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/mxnet/gin)",
+      "n": "GIN",
+      "d": "2018-10-01",
+      "m1": "0.7558 \u00b1 0.0140",
+      "m2": "No",
+      "m3": "0.8232 \u00b1 0.0090",
+      "m4": "1885206"
+    },
+    {
+      "p": "[Semi-Supervised Classification with Graph Convolutional Networks](http://arxiv.org/abs/1609.02907v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/mxnet/gcn)",
+      "n": "GCN (in Julia)",
+      "d": "2016-09-09",
+      "m1": "0.7549 \u00b1 0.0163",
+      "m2": "No",
+      "m3": "0.8042 \u00b1 0.0107",
+      "m4": "527701"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

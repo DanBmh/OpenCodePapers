@@ -1,0 +1,104 @@
+# medical-image-segmentation-on-drive-1
+
+[Dataset Link](https://drive.grand-challenge.org/) \
+Task Hierarchy: ['Medical Image Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mIoU",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "F1 score",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Recall",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Specificity",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "Precision",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[G-CASCADE: Efficient Cascaded Graph Convolutional Decoding for 2D Medical Image Segmentation](https://arxiv.org/abs/2310.16175v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SLDGroup/G-CASCADE)",
+      "n": "MERIT-GCASCADE",
+      "d": "2023-10-24",
+      "m1": "0.7081",
+      "m2": "0.8290",
+      "m3": "0.8281",
+      "m4": "0.9844"
+    },
+    {
+      "p": "[G-CASCADE: Efficient Cascaded Graph Convolutional Decoding for 2D Medical Image Segmentation](https://arxiv.org/abs/2310.16175v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SLDGroup/G-CASCADE)",
+      "n": "PVT-GCASCADE",
+      "d": "2023-10-24",
+      "m1": "0.697",
+      "m2": "0.8210",
+      "m3": "0.83",
+      "m4": "0.9822"
+    },
+    {
+      "p": "[FANet: A Feedback Attention Network for Improved Biomedical Image Segmentation](https://arxiv.org/abs/2103.17235v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/nikhilroxtomar/fanet)",
+      "n": "FANet",
+      "d": "2021-03-31",
+      "m1": "0.6927",
+      "m2": "0.8183",
+      "m3": "0.8215",
+      "m4": "0.9826",
+      "m5": "0.8189"
+    },
+    {
+      "p": "[Hi-gMISnet: generalized medical image segmentation using DWT based multilayer fusion and dual mode attention into high resolution pGAN](https://iopscience.iop.org/article/10.1088/1361-6560/ad3cb3)",
+      "c": "[&check;&nbsp;Link](https://github.com/tushartalukder/HigMISnet)",
+      "n": "Hi-gMISnet",
+      "d": "2024-05-20",
+      "m1": "0.6901"
+    },
+    {
+      "p": "[Bi-Directional ConvLSTM U-Net with Densley Connected Convolutions](https://arxiv.org/abs/1909.00166v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/rezazad68/BCDU-Net)",
+      "n": "BCDU-net",
+      "d": "2019-08-31",
+      "m2": "0.8222"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

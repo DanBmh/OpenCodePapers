@@ -1,0 +1,72 @@
+# blind-docking-on-pdbbind-1
+
+[Dataset Link]() \
+Task Hierarchy: ['Molecular Docking', 'Blind Docking']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Top-1 RMSD (%<2)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Top-1 RMSD (Med.)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[FABind+: Enhancing Molecular Docking through Improved Pocket Prediction and Pose Generation](https://arxiv.org/abs/2403.20261v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/qizhipei/fabind)",
+      "n": "FABind+",
+      "d": "2024-03-29",
+      "m1": "43.8"
+    },
+    {
+      "p": "[DiffDock: Diffusion Steps, Twists, and Turns for Molecular Docking](https://arxiv.org/abs/2210.01776v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/gcorso/diffdock)",
+      "n": "P2RANK+SMINA",
+      "d": "2022-10-04",
+      "m1": " 20.4"
+    },
+    {
+      "p": "[DiffDock: Diffusion Steps, Twists, and Turns for Molecular Docking](https://arxiv.org/abs/2210.01776v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/gcorso/diffdock)",
+      "n": "EQUIBIND+GNINA",
+      "d": "2022-10-04",
+      "m2": "4.9"
+    },
+    {
+      "p": "[DiffDock: Diffusion Steps, Twists, and Turns for Molecular Docking](https://arxiv.org/abs/2210.01776v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/gcorso/diffdock)",
+      "n": "GNINA",
+      "d": "2022-10-04",
+      "m2": " 7.7"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

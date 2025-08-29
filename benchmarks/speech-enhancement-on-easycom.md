@@ -1,0 +1,146 @@
+# speech-enhancement-on-easycom
+
+[Dataset Link](https://github.com/facebookresearch/EasyComDataset) \
+Task Hierarchy: ['Speech Enhancement']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PESQ",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "STOI",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "ViSQOL",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "HASQI",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "Audio Quality MOS",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "SDR",
+      "sortable": "true"
+    },
+    {
+      "key": "m7",
+      "label": "ESTOI",
+      "sortable": "true"
+    },
+    {
+      "key": "m8",
+      "label": "HASPI",
+      "sortable": "true"
+    },
+    {
+      "key": "m9",
+      "label": "SI-SDR",
+      "sortable": "true"
+    },
+    {
+      "key": "m10",
+      "label": "SIIB",
+      "sortable": "true"
+    },
+    {
+      "key": "m11",
+      "label": "SNR",
+      "sortable": "true"
+    },
+    {
+      "key": "m12",
+      "label": "SegSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[EasyCom: An Augmented Reality Dataset to Support Algorithms for Easy Communication in Noisy Environments](https://arxiv.org/abs/2107.04174v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/EasyComDataset)",
+      "n": "MaxDI (Baseline)",
+      "d": "2021-07-09",
+      "m1": "1.17",
+      "m2": "0.544",
+      "m3": "1.68",
+      "m4": "0.249",
+      "m6": "-12.9",
+      "m7": "0.379",
+      "m8": "0.830",
+      "m9": "-23.4",
+      "m10": "139",
+      "m11": "-10.1",
+      "m12": "-12.2"
+    },
+    {
+      "p": "[ReVISE: Self-Supervised Speech Resynthesis with Visual Input for Universal and Generalized Speech Enhancement](https://arxiv.org/abs/2212.11377v1)",
+      "c": "",
+      "n": "ReVISE (ch2)",
+      "d": "2022-12-21",
+      "m5": "4.19"
+    },
+    {
+      "p": "[ReVISE: Self-Supervised Speech Resynthesis with Visual Input for Universal and Generalized Speech Enhancement](https://arxiv.org/abs/2212.11377v1)",
+      "c": "",
+      "n": "ReVISE (bf)",
+      "d": "2022-12-21",
+      "m5": "4.11"
+    },
+    {
+      "p": "[ReVISE: Self-Supervised Speech Resynthesis with Visual Input for Universal and Generalized Speech Enhancement](https://arxiv.org/abs/2212.11377v1)",
+      "c": "",
+      "n": "Demucs (ch2)",
+      "d": "2022-12-21",
+      "m5": "2.95"
+    },
+    {
+      "p": "[ReVISE: Self-Supervised Speech Resynthesis with Visual Input for Universal and Generalized Speech Enhancement](https://arxiv.org/abs/2212.11377v1)",
+      "c": "",
+      "n": "Demucs (bf)",
+      "d": "2022-12-21",
+      "m5": "2.39"
+    },
+    {
+      "p": "[Direction-Aware Joint Adaptation of Neural Speech Enhancement and Recognition in Real Multiparty Conversational Environments](https://arxiv.org/abs/2207.07273v1)",
+      "c": "",
+      "n": "DAJA (MVDR,HMA,1000) (Overlapped Speech)",
+      "d": "2022-07-15",
+      "m6": "-4.76"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,121 @@
+# image-guided-story-ending-generation-on-lsmdc
+
+[Dataset Link]() \
+Task Hierarchy: ['Story Generation', 'Visual Storytelling', 'Image-guided Story Ending Generation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "BLEU-1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "BLEU-2",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "BLEU-3",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "BLEU-4",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "CIDEr",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "METEOR",
+      "sortable": "true"
+    },
+    {
+      "key": "m7",
+      "label": "ROUGE-L",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[MMT: Image-guided Story Ending Generation with Multimodal Memory Transformer](https://dl.acm.org/doi/abs/10.1145/3503161.3548022)",
+      "c": "[&check;&nbsp;Link](https://github.com/LivXue/MMT)",
+      "n": "MMT",
+      "d": "2022-10-10",
+      "m1": "18.52",
+      "m2": "5.99",
+      "m3": "2.51",
+      "m4": "1.13",
+      "m5": "12.41",
+      "m6": "12.87",
+      "m7": "20.99"
+    },
+    {
+      "p": "[IgSEG: Image-guided Story Ending Generation](https://aclanthology.org/2021.findings-acl.274)",
+      "c": "",
+      "n": "MGCL",
+      "d": null,
+      "m1": "15.89",
+      "m2": "4.76",
+      "m3": "1.57",
+      "m4": "0.00",
+      "m5": "9.16",
+      "m6": "11.61",
+      "m7": "20.30"
+    },
+    {
+      "p": "[Attention Is All You Need](https://arxiv.org/abs/1706.03762v7)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "Transformer",
+      "d": "2017-06-12",
+      "m1": "15.35",
+      "m2": "4.49",
+      "m3": "1.82",
+      "m4": "0.76",
+      "m5": "9.32",
+      "m6": "11.43",
+      "m7": "19.16"
+    },
+    {
+      "p": "[Effective Approaches to Attention-based Neural Machine Translation](http://arxiv.org/abs/1508.04025v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/philipperemy/keras-attention-mechanism)",
+      "n": "Seq2Seq",
+      "d": "2015-08-17",
+      "m1": "14.21",
+      "m2": "4.56",
+      "m3": "1.70",
+      "m4": "0.70",
+      "m5": "8.69",
+      "m6": "11.01",
+      "m7": "19.69"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

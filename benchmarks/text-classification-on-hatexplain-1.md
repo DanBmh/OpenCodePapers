@@ -1,0 +1,76 @@
+# text-classification-on-hatexplain-1
+
+[Dataset Link](https://github.com/punyajoy/HateXplain) \
+Task Hierarchy: ['Classification', 'Text Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy (2 classes)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "F1 Macro",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Breaking Free Transformer Models: Task-specific Context Attribution Promises Improved Generalizability Without Fine-tuning Pre-trained LLMs](https://arxiv.org/abs/2401.16638v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/stepantita/space-model)",
+      "n": "Space-XLNet",
+      "d": "2024-01-30",
+      "m1": "0.8798",
+      "m2": "0.8797"
+    },
+    {
+      "p": "[Breaking Free Transformer Models: Task-specific Context Attribution Promises Improved Generalizability Without Fine-tuning Pre-trained LLMs](https://arxiv.org/abs/2401.16638v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/stepantita/space-model)",
+      "n": "XLNet",
+      "d": "2024-01-30",
+      "m1": "0.8160",
+      "m2": "0.8156"
+    },
+    {
+      "p": "[Breaking Free Transformer Models: Task-specific Context Attribution Promises Improved Generalizability Without Fine-tuning Pre-trained LLMs](https://arxiv.org/abs/2401.16638v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/stepantita/space-model)",
+      "n": "Space-BERT",
+      "d": "2024-01-30",
+      "m1": "0.8110",
+      "m2": "0.8108"
+    },
+    {
+      "p": "[Breaking Free Transformer Models: Task-specific Context Attribution Promises Improved Generalizability Without Fine-tuning Pre-trained LLMs](https://arxiv.org/abs/2401.16638v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/stepantita/space-model)",
+      "n": "BERT-base",
+      "d": "2024-01-30",
+      "m1": "0.6588",
+      "m2": "0.6555"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

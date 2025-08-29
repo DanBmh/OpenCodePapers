@@ -1,0 +1,238 @@
+# real-time-semantic-segmentation-on-cityscapes-1
+
+[Dataset Link](https://www.cityscapes-dataset.com/dataset-overview/) \
+Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', 'Real-Time Semantic Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mIoU",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Frame (fps)",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Time (ms)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[PIDNet: A Real-time Semantic Segmentation Network Inspired by PID Controllers](https://arxiv.org/abs/2206.02066v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/XuJiacong/PIDNet)",
+      "n": "PIDNet-L",
+      "d": "2022-06-04",
+      "m1": "80.9%",
+      "m2": "31.1(3090)",
+      "m3": "32.2"
+    },
+    {
+      "p": "[DSNet: A Novel Way to Use Atrous Convolutions in Semantic Segmentation](https://arxiv.org/abs/2406.03702v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/takaniwa/dsnet)",
+      "n": "DSNet",
+      "d": "2024-06-06",
+      "m1": "80.4%",
+      "m2": "81.9"
+    },
+    {
+      "p": "[PIDNet: A Real-time Semantic Segmentation Network Inspired by PID Controllers](https://arxiv.org/abs/2206.02066v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/XuJiacong/PIDNet)",
+      "n": "PIDNet-M",
+      "d": "2022-06-04",
+      "m1": "79.9%",
+      "m2": "42.2(3090)",
+      "m3": "23.7"
+    },
+    {
+      "p": "[SegNeXt: Rethinking Convolutional Attention Design for Semantic Segmentation](https://arxiv.org/abs/2209.08575v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmsegmentation)",
+      "n": "SegNext-T-Seg100",
+      "d": "2022-09-18",
+      "m1": "79.8%",
+      "m2": "28.1"
+    },
+    {
+      "p": "[Deep Dual-resolution Networks for Real-time and Accurate Semantic Segmentation of Road Scenes](https://arxiv.org/abs/2101.06085v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Deci-AI/super-gradients)",
+      "n": "DDRNet23",
+      "d": "2021-01-15",
+      "m1": "79.4",
+      "m2": "37.1"
+    },
+    {
+      "p": "[RTFormer: Efficient Design for Real-Time Semantic Segmentation with Transformer](https://arxiv.org/abs/2210.07124v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleSeg)",
+      "n": "RTFormer-B",
+      "d": "2022-10-13",
+      "m1": "79.3%",
+      "m2": "50.2"
+    },
+    {
+      "p": "[PIDNet: A Real-time Semantic Segmentation Network Inspired by PID Controllers](https://arxiv.org/abs/2206.02066v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/XuJiacong/PIDNet)",
+      "n": "PIDNet-S",
+      "d": "2022-06-04",
+      "m1": "78.8%",
+      "m2": "93.2(3090)",
+      "m3": "10.7"
+    },
+    {
+      "p": "[Mobile-Seed: Joint Semantic Segmentation and Boundary Detection for Mobile Robots](https://arxiv.org/abs/2311.12651v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/whu-usi3dv/mobile-seed)",
+      "n": "Mobile-Seed",
+      "d": "2023-11-21",
+      "m1": "78.4%",
+      "m2": "23.9(2080Ti)"
+    },
+    {
+      "p": "[PP-LiteSeg: A Superior Real-Time Semantic Segmentation Model](https://arxiv.org/abs/2204.02681v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleSeg)",
+      "n": "PP-LiteSeg-B2",
+      "d": "2022-04-06",
+      "m1": "78.2"
+    },
+    {
+      "p": "[Deep Dual-resolution Networks for Real-time and Accurate Semantic Segmentation of Road Scenes](https://arxiv.org/abs/2101.06085v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Deci-AI/super-gradients)",
+      "n": "DDRNet23-slim",
+      "d": "2021-01-15",
+      "m1": "77.4",
+      "m2": "101.6"
+    },
+    {
+      "p": "[Rethinking BiSeNet For Real-time Semantic Segmentation](https://arxiv.org/abs/2104.13188v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleSeg)",
+      "n": "STDC2-Seg75",
+      "d": "2021-04-27",
+      "m1": "77%",
+      "m2": "97"
+    },
+    {
+      "p": "[CSFNet: A Cosine Similarity Fusion Network for Real-Time RGB-X Semantic Segmentation of Driving Scenes](https://arxiv.org/abs/2407.01328v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Danial-Qashqai/CSFNet)",
+      "n": "CSFNet-2",
+      "d": "2024-07-01",
+      "m1": "76.36",
+      "m2": "72.3 (3090)"
+    },
+    {
+      "p": "[RTFormer: Efficient Design for Real-Time Semantic Segmentation with Transformer](https://arxiv.org/abs/2210.07124v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleSeg)",
+      "n": "RTFormer-S",
+      "d": "2022-10-13",
+      "m1": "76.3%",
+      "m2": "89.6"
+    },
+    {
+      "p": "[PP-LiteSeg: A Superior Real-Time Semantic Segmentation Model](https://arxiv.org/abs/2204.02681v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleSeg)",
+      "n": "PP-LiteSeg-T2",
+      "d": "2022-04-06",
+      "m1": "76"
+    },
+    {
+      "p": "[BiSeNet V2: Bilateral Network with Guided Aggregation for Real-time Semantic Segmentation](https://arxiv.org/abs/2004.02147v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleSeg)",
+      "n": "BiseNetV2-L",
+      "d": "2020-04-05",
+      "m1": "75.8%",
+      "m2": "47.3"
+    },
+    {
+      "p": "[In defence of metric learning for speaker recognition](http://arxiv.org/abs/2003.11982v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/coqui-ai/TTS)",
+      "n": "SwiftNetRN-18",
+      "d": "2020-04-24",
+      "m1": "75.5%",
+      "m2": "39.9"
+    },
+    {
+      "p": "[PP-LiteSeg: A Superior Real-Time Semantic Segmentation Model](https://arxiv.org/abs/2204.02681v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleSeg)",
+      "n": "PP-LiteSeg-B1",
+      "d": "2022-04-06",
+      "m1": "75.3"
+    },
+    {
+      "p": "[CSFNet: A Cosine Similarity Fusion Network for Real-Time RGB-X Semantic Segmentation of Driving Scenes](https://arxiv.org/abs/2407.01328v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Danial-Qashqai/CSFNet)",
+      "n": "CSFNet-1",
+      "d": "2024-07-01",
+      "m1": "74.73",
+      "m2": "106.1"
+    },
+    {
+      "p": "[Rethinking BiSeNet For Real-time Semantic Segmentation](https://arxiv.org/abs/2104.13188v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleSeg)",
+      "n": "STDC1-Seg75",
+      "d": "2021-04-27",
+      "m1": "74.5%",
+      "m2": "126.7"
+    },
+    {
+      "p": "[BiSeNet V2: Bilateral Network with Guided Aggregation for Real-time Semantic Segmentation](https://arxiv.org/abs/2004.02147v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleSeg)",
+      "n": "BiseNetV2",
+      "d": "2020-04-05",
+      "m1": "73.5%",
+      "m2": "156"
+    },
+    {
+      "p": "[FasterSeg: Searching for Faster Real-time Semantic Segmentation](https://arxiv.org/abs/1912.10917v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/TAMU-VITA/FasterSeg)",
+      "n": "FasterSeg",
+      "d": "2019-12-23",
+      "m1": "73.1",
+      "m2": "163.9"
+    },
+    {
+      "p": "[PP-LiteSeg: A Superior Real-Time Semantic Segmentation Model](https://arxiv.org/abs/2204.02681v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleSeg)",
+      "n": "PP-LiteSeg-T1",
+      "d": "2022-04-06",
+      "m1": "73.1"
+    },
+    {
+      "p": "[Incorporating Luminance, Depth and Color Information by a Fusion-based Network for Semantic Segmentation](https://arxiv.org/abs/1809.09077v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/shangweihung/LDFNet)",
+      "n": "LDFNet",
+      "d": "2018-09-24",
+      "m1": "68.48%"
+    },
+    {
+      "p": "[LiteSeg: A Novel Lightweight ConvNet for Semantic Segmentation](https://arxiv.org/abs/1912.06683v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zh320/realtime-semantic-segmentation-pytorch)",
+      "n": "LiteSeg-MobileNet",
+      "d": "2019-12-13",
+      "m1": "67.8%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

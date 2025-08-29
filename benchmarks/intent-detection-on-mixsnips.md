@@ -1,0 +1,157 @@
+# intent-detection-on-mixsnips
+
+[Dataset Link](https://github.com/LooperXX/AGIF/data) \
+Task Hierarchy: ['Intent Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "f1 macro",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[A Scope Sensitive and Result Attentive Model for Multi-Intent Spoken Language Understanding](https://arxiv.org/abs/2211.12220v1)",
+      "c": "",
+      "n": "SSRAN",
+      "d": "2022-11-22",
+      "m1": "98.4"
+    },
+    {
+      "p": "[Joint Multiple Intent Detection and Slot Filling with Supervised Contrastive Learning and Self-Distillation](https://arxiv.org/abs/2308.14654v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/anhtunguyen98/bislu)",
+      "n": "BiSLU",
+      "d": "2023-08-28",
+      "m1": "97.8"
+    },
+    {
+      "p": "[A Dynamic Graph Interactive Framework with Label-Semantic Injection for Spoken Language Understanding](https://arxiv.org/abs/2211.04023v1)",
+      "c": "",
+      "n": "DGIF",
+      "d": "2022-11-08",
+      "m1": "97.8"
+    },
+    {
+      "p": "[A Transformer-based Threshold-Free Framework for Multi-Intent NLU](https://aclanthology.org/2022.coling-1.629)",
+      "c": "",
+      "n": "TFMN",
+      "d": null,
+      "m1": "97.7"
+    },
+    {
+      "p": "[Co-guiding Net: Achieving Mutual Guidances between Multiple Intent Detection and Slot Filling via Heterogeneous Semantics-Label Graphs](https://arxiv.org/abs/2210.10375v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/xingbowen714/co-guiding)",
+      "n": "Co-guiding Net",
+      "d": "2022-10-19",
+      "m1": "97.7"
+    },
+    {
+      "p": "[A Two-Stage Prediction-Aware Contrastive Learning Framework for Multi-Intent NLU](https://arxiv.org/abs/2405.02925v1)",
+      "c": "",
+      "n": "TFMN (PACL)",
+      "d": "2024-05-05",
+      "m1": "97.4"
+    },
+    {
+      "p": "[MISCA: A Joint Model for Multiple Intent Detection and Slot Filling with Intent-Slot Co-Attention](https://arxiv.org/abs/2312.05741v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/vinairesearch/misca)",
+      "n": "MISCA",
+      "d": "2023-12-10",
+      "m1": "97.3"
+    },
+    {
+      "p": "[Uni-MIS: United Multiple Intent Spoken Language Understanding via Multi-View Intent-Slot Interaction](https://ojs.aaai.org/index.php/AAAI/article/view/29910)",
+      "c": "[&check;&nbsp;Link](https://github.com/SJY8460/Uni-MIS)",
+      "n": "Uni-MIS",
+      "d": "2024-03-24",
+      "m1": "97.2"
+    },
+    {
+      "p": "[SLIM: Explicit Slot-Intent Mapping with BERT for Joint Multi-Intent Detection and Slot Filling](https://arxiv.org/abs/2108.11711v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/TRUMANCFY/SLIM)",
+      "n": "SLIM",
+      "d": "2021-08-26",
+      "m1": "97.2"
+    },
+    {
+      "p": "[A Two-Stage Prediction-Aware Contrastive Learning Framework for Multi-Intent NLU](https://arxiv.org/abs/2405.02925v1)",
+      "c": "",
+      "n": "SLIM (PACL)",
+      "d": "2024-05-05",
+      "m1": "96.9"
+    },
+    {
+      "p": "[Incorporating Instructional Prompts into a Unified Generative Framework for Joint Multiple Intent Detection and Slot Filling](https://aclanthology.org/2022.coling-1.631)",
+      "c": "[&check;&nbsp;Link](https://github.com/young1993/ugen)",
+      "n": "UGEN",
+      "d": null,
+      "m1": "96.9"
+    },
+    {
+      "p": "[AGIF: An Adaptive Graph-Interactive Framework for Joint Multiple Intent Detection and Slot Filling](https://arxiv.org/abs/2004.10087v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/LooperXX/AGIF)",
+      "n": "AGIF",
+      "d": "2020-04-21",
+      "m1": "96.5",
+      "m2": "98.6"
+    },
+    {
+      "p": "[A Two-Stage Prediction-Aware Contrastive Learning Framework for Multi-Intent NLU](https://arxiv.org/abs/2405.02925v1)",
+      "c": "",
+      "n": "RoBERTa (PACL)",
+      "d": "2024-05-05",
+      "m1": "96.5"
+    },
+    {
+      "p": "[Exploiting Topic Information for Joint Intent Detection and Slot Filling](https://openreview.net/forum?id=YXvbGWz1AGP)",
+      "c": "",
+      "n": "Topic Information",
+      "d": "2022-01-16",
+      "m1": "96.3"
+    },
+    {
+      "p": "[GL-GIN: Fast and Accurate Non-Autoregressive Model for Joint Multiple Intent Detection and Slot Filling](https://arxiv.org/abs/2106.01925v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yizhen20133868/GL-GIN)",
+      "n": "GL-GIN",
+      "d": "2021-06-03",
+      "m1": "95.6"
+    },
+    {
+      "p": "[Enhancing Joint Multiple Intent Detection and Slot Filling with Global Intent-Slot Co-occurrence](https://aclanthology.org/2022.emnlp-main.543/)",
+      "c": "[&check;&nbsp;Link](https://github.com/smxiao/GISCo)",
+      "n": "Global Intent-Slot Co-occurence",
+      "d": "2022-12-01",
+      "m1": "95.5"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

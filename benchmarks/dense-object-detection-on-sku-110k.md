@@ -1,0 +1,80 @@
+# dense-object-detection-on-sku-110k
+
+[Dataset Link](https://github.com/eg4000/SKU110K_CVPR19) \
+Task Hierarchy: ['16k', 'Object Detection', 'Dense Object Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AP",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "AP75",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Unitail: Detecting, Reading, and Matching in Retail Scene](https://arxiv.org/abs/2204.00298v4)",
+      "c": "",
+      "n": "RetailDet",
+      "d": "2022-04-01",
+      "m1": "59.0"
+    },
+    {
+      "p": "[A Solution to Product detection in Densely Packed Scenes](https://arxiv.org/abs/2007.11946v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Media-Smart/SKU110K-DenseDet)",
+      "n": "Cascade-RCNN",
+      "d": "2020-07-23",
+      "m1": "58.7"
+    },
+    {
+      "p": "[Soft Anchor-Point Object Detection](https://arxiv.org/abs/1911.12448v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/xuannianz/FSAF)",
+      "n": "SAPD",
+      "d": "2019-11-27",
+      "m1": "55.7"
+    },
+    {
+      "p": "[Precise Detection in Densely Packed Scenes](http://arxiv.org/abs/1904.00853v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/eg4000/SKU110K_CVPR19)",
+      "n": "Soft-IoU + EM-Merger unit",
+      "d": "2019-04-01",
+      "m1": "49.2"
+    },
+    {
+      "p": "[Focal Loss for Dense Object Detection](http://arxiv.org/abs/1708.02002v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+      "n": "RetinaNet",
+      "d": "2017-08-07",
+      "m1": "45.5",
+      "m2": ".389"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

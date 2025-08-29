@@ -1,0 +1,95 @@
+# age-estimation-on-fgnet
+
+[Dataset Link](https://yanweifu.github.io/FG_NET_data/) \
+Task Hierarchy: ['Age Estimation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "MAE",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Moving Window Regression: A Novel Approach to Ordinal Regression](https://arxiv.org/abs/2203.13122v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nhshin-mcl/mwr)",
+      "n": "MWR",
+      "d": "2022-03-24",
+      "m1": "2.23"
+    },
+    {
+      "p": "[BridgeNet: A Continuity-Aware Probabilistic Network for Age Estimation](http://arxiv.org/abs/1904.03358v1)",
+      "c": "",
+      "n": "BridgeNet",
+      "d": "2019-04-06",
+      "m1": "2.56"
+    },
+    {
+      "p": "[C3AE: Exploring the Limits of Compact Model for Age Estimation](http://arxiv.org/abs/1904.05059v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/StevenBanama/C3AE)",
+      "n": "C3AE (WIKI-IMDB)",
+      "d": "2019-04-10",
+      "m1": "2.95"
+    },
+    {
+      "p": "[Deep Expectation of Real and Apparent Age from a Single Image Without Facial Landmarks](https://link.springer.com/article/10.1007/s11263-016-0940-3)",
+      "c": "",
+      "n": "DEX",
+      "d": "2016-08-10",
+      "m1": "3.09"
+    },
+    {
+      "p": "[Facial Aging and Rejuvenation by Conditional Multi-Adversarial Autoencoder with Ordinal Regression](http://arxiv.org/abs/1804.02740v1)",
+      "c": "",
+      "n": "CMAAE-OR",
+      "d": "2018-04-08",
+      "m1": "3.62"
+    },
+    {
+      "p": "[Deep Regression Forests for Age Estimation](http://arxiv.org/abs/1712.07195v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/shenwei1231/caffe-DeepRegressionForests)",
+      "n": "DRFs",
+      "d": "2017-12-19",
+      "m1": "3.85"
+    },
+    {
+      "p": "[Facial Aging and Rejuvenation by Conditional Multi-Adversarial Autoencoder with Ordinal Regression](http://arxiv.org/abs/1804.02740v1)",
+      "c": "",
+      "n": "Zhu et al. (Actual)",
+      "d": "2018-04-08",
+      "m1": "4.58"
+    },
+    {
+      "p": "[C3AE: Exploring the Limits of Compact Model for Age Estimation](http://arxiv.org/abs/1904.05059v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/StevenBanama/C3AE)",
+      "n": "AEBFI",
+      "d": "2019-04-10",
+      "m1": "52"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

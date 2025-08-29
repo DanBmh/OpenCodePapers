@@ -1,0 +1,158 @@
+# entity-resolution-on-amazon-google
+
+[Dataset Link](https://dbs.uni-leipzig.de/research/projects/object_matching/benchmark_datasets_for_entity_resolution) \
+Task Hierarchy: ['Entity Resolution']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "F1 (%)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Entity Matching using Large Language Models](https://arxiv.org/abs/2310.11244v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/wbsg-uni-mannheim/matchgpt)",
+      "n": "gpt4-0613_fewshot-10",
+      "d": "2023-10-17",
+      "m1": "85.21"
+    },
+    {
+      "p": "[Fine-tuning Large Language Models for Entity Matching](https://arxiv.org/abs/2409.08185v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/wbsg-uni-mannheim/tailormatch)",
+      "n": "gpt-4o-mini-2024-07-18_fine_tuned",
+      "d": "2024-09-12",
+      "m1": "80.25"
+    },
+    {
+      "p": "[Supervised Contrastive Learning for Product Matching](https://arxiv.org/abs/2202.02098v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/wbsg-uni-mannheim/contrastive-product-matching)",
+      "n": "RoBERTa-SupCon",
+      "d": "2022-02-04",
+      "m1": "79.28"
+    },
+    {
+      "p": "[Probing the Robustness of Pre-trained Language Models for Entity Matching](https://dl.acm.org/doi/10.1145/3511808.3557673)",
+      "c": "[&check;&nbsp;Link](https://github.com/makbn/robem)",
+      "n": "RobEM",
+      "d": "2022-10-01",
+      "m1": "79.06"
+    },
+    {
+      "p": "[Profiling Entity Matching Benchmark Tasks](https://dl.acm.org/doi/10.1145/3340531.3412781)",
+      "c": "[&check;&nbsp;Link](https://github.com/wbsg-uni-mannheim/EntityMatchingTaskProfiler)",
+      "n": "Random Forest",
+      "d": "2020-10-19",
+      "m1": "79.0"
+    },
+    {
+      "p": "[Entity Resolution with Hierarchical Graph Attention Networks](https://dl.acm.org/doi/10.1145/3514221.3517872)",
+      "c": "[&check;&nbsp;Link](https://github.com/CGCL-codes/HierGAT)",
+      "n": "HG",
+      "d": "2022-06-01",
+      "m1": "76.4"
+    },
+    {
+      "p": "[Deep Entity Matching with Pre-Trained Language Models](https://arxiv.org/abs/2004.00584v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/megagonlabs/ditto)",
+      "n": "Ditto",
+      "d": "2020-04-01",
+      "m1": "75.58"
+    },
+    {
+      "p": "[CorDEL: A Contrastive Deep Learning Approach for Entity Linkage](https://arxiv.org/abs/2009.07203v3)",
+      "c": "",
+      "n": "CorDEL-Sum",
+      "d": "2020-09-15",
+      "m1": "70.2"
+    },
+    {
+      "p": "[Deep Learning for Entity Matching: A Design Space Exploration](https://doi.org/10.1145/3183713.3196926)",
+      "c": "[&check;&nbsp;Link](https://github.com/anhaidgroup/deepmatcher)",
+      "n": "DeepMatcher - Hybrid",
+      "d": "2018-05-01",
+      "m1": "69.3"
+    },
+    {
+      "p": "[Deduplication Over Heterogeneous Attribute Types (D-HAT)](https://link.springer.com/chapter/10.1007/978-3-031-22137-8_28)",
+      "c": "[&check;&nbsp;Link](https://github.com/Loujainl/D-HAT)",
+      "n": "D-HAT",
+      "d": "2022-11-24",
+      "m1": "67.5"
+    },
+    {
+      "p": "[Can Foundation Models Wrangle Your Data?](https://arxiv.org/abs/2205.09911v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/fminference/flexgen)",
+      "n": "text-davinci-002_fewshot-10",
+      "d": "2022-05-20",
+      "m1": "63.50"
+    },
+    {
+      "p": "[Fine-tuning Large Language Models for Entity Matching](https://arxiv.org/abs/2409.08185v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/wbsg-uni-mannheim/tailormatch)",
+      "n": "gpt-4o-2024-08-06",
+      "d": "2024-09-12",
+      "m1": "63.45"
+    },
+    {
+      "p": "[Fine-tuning Large Language Models for Entity Matching](https://arxiv.org/abs/2409.08185v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/wbsg-uni-mannheim/tailormatch)",
+      "n": "gpt-4o-mini-2024-07-18",
+      "d": "2024-09-12",
+      "m1": "59.20"
+    },
+    {
+      "p": "[Can Foundation Models Wrangle Your Data?](https://arxiv.org/abs/2205.09911v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/fminference/flexgen)",
+      "n": "text-davinci-002_zeroshot",
+      "d": "2022-05-20",
+      "m1": "54.30"
+    },
+    {
+      "p": "[Fine-tuning Large Language Models for Entity Matching](https://arxiv.org/abs/2409.08185v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/wbsg-uni-mannheim/tailormatch)",
+      "n": "Meta-Llama-3.1-70B-Instruct",
+      "d": "2024-09-12",
+      "m1": "51.44"
+    },
+    {
+      "p": "[Fine-tuning Large Language Models for Entity Matching](https://arxiv.org/abs/2409.08185v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/wbsg-uni-mannheim/tailormatch)",
+      "n": "Meta-Llama-3.1-8B-Instruct_fine_tuned",
+      "d": "2024-09-12",
+      "m1": "50.00"
+    },
+    {
+      "p": "[Fine-tuning Large Language Models for Entity Matching](https://arxiv.org/abs/2409.08185v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/wbsg-uni-mannheim/tailormatch)",
+      "n": "Meta-Llama-3.1-8B-Instruct",
+      "d": "2024-09-12",
+      "m1": "49.16"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

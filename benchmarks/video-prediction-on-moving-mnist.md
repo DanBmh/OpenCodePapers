@@ -1,0 +1,331 @@
+# video-prediction-on-moving-mnist
+
+[Dataset Link](http://www.cs.toronto.edu/~nitish/unsupervised_video/) \
+Task Hierarchy: ['Video Prediction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "MSE",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "MAE",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "SSIM",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "LPIPS",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Video Prediction Transformers without Recurrence or Convolution](https://arxiv.org/abs/2410.04733v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yyyujintang/predformer)",
+      "n": "PredFormer",
+      "d": "2024-10-07",
+      "m1": "11.62",
+      "m2": "41.96",
+      "m3": "0.9742",
+      "m5": "39.89"
+    },
+    {
+      "p": "[SimVPv2: Towards Simple yet Powerful Spatiotemporal Predictive Learning](https://arxiv.org/abs/2211.12509v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/chengtan9907/OpenSTL)",
+      "n": "SimVP+gSTA-Sx10",
+      "d": "2022-11-22",
+      "m1": "15.05",
+      "m2": "49.8",
+      "m3": "0.967"
+    },
+    {
+      "p": "[Implicit Stacked Autoregressive Model for Video Prediction](https://arxiv.org/abs/2303.07849v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/seominseok0429/Implicit-Stacked-Autoregressive-Model-for-Video-Prediction)",
+      "n": "IAM4VPx5",
+      "d": "2023-03-14",
+      "m1": "15.3",
+      "m2": "49.2",
+      "m3": "0.966"
+    },
+    {
+      "p": "[MogaNet: Multi-order Gated Aggregation Network](https://arxiv.org/abs/2211.03295v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/chengtan9907/OpenSTL)",
+      "n": "MogaNet (SimVP 10x)",
+      "d": "2022-11-07",
+      "m1": "15.67",
+      "m2": "51.84",
+      "m3": "0.9661"
+    },
+    {
+      "p": "[MogaNet: Multi-order Gated Aggregation Network](https://arxiv.org/abs/2211.03295v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/chengtan9907/OpenSTL)",
+      "n": "VAN (SimVP 10x)",
+      "d": "2022-11-07",
+      "m1": "16.21",
+      "m2": "53.57",
+      "m3": "0.9646"
+    },
+    {
+      "p": "[MogaNet: Multi-order Gated Aggregation Network](https://arxiv.org/abs/2211.03295v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/chengtan9907/OpenSTL)",
+      "n": "HorNet (SimVP 10x)",
+      "d": "2022-11-07",
+      "m1": "17.4",
+      "m2": "55.7",
+      "m3": "0.9624"
+    },
+    {
+      "p": "[MogaNet: Multi-order Gated Aggregation Network](https://arxiv.org/abs/2211.03295v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/chengtan9907/OpenSTL)",
+      "n": "ConvNeXt (SimVP 10x)",
+      "d": "2022-11-07",
+      "m1": "17.58",
+      "m2": "55.76",
+      "m3": "0.9617"
+    },
+    {
+      "p": "[SwinLSTM: Improving Spatiotemporal Prediction Accuracy using Swin Transformer and LSTM](http://openaccess.thecvf.com//content/ICCV2023/html/Tang_SwinLSTM_Improving_Spatiotemporal_Prediction_Accuracy_using_Swin_Transformer_and_LSTM_ICCV_2023_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/SongTang-x/SwinLSTM)",
+      "n": "SwinLSTM",
+      "d": "2023-01-01",
+      "m1": "17.7",
+      "m3": "0.962"
+    },
+    {
+      "p": "[MogaNet: Multi-order Gated Aggregation Network](https://arxiv.org/abs/2211.03295v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/chengtan9907/OpenSTL)",
+      "n": "Uniformer (SimVP 10x)",
+      "d": "2022-11-07",
+      "m1": "18.01",
+      "m2": "57.52"
+    },
+    {
+      "p": "[MogaNet: Multi-order Gated Aggregation Network](https://arxiv.org/abs/2211.03295v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/chengtan9907/OpenSTL)",
+      "n": "MLP-Mixer (SimVP 10x)",
+      "d": "2022-11-07",
+      "m1": "18.85",
+      "m2": "59.86"
+    },
+    {
+      "p": "[GMG: A Video Prediction Method Based on Global Focus and Motion Guided](https://arxiv.org/abs/2503.11297v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/duyhlzu/GMG)",
+      "n": "GMG",
+      "d": "2025-03-14",
+      "m1": "19.0741",
+      "m2": "60.7413",
+      "m3": "0.9586",
+      "m5": "24.4606"
+    },
+    {
+      "p": "[MogaNet: Multi-order Gated Aggregation Network](https://arxiv.org/abs/2211.03295v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/chengtan9907/OpenSTL)",
+      "n": "Swin (SimVP 10x)",
+      "d": "2022-11-07",
+      "m1": "19.11",
+      "m2": "59.84"
+    },
+    {
+      "p": "[MogaNet: Multi-order Gated Aggregation Network](https://arxiv.org/abs/2211.03295v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/chengtan9907/OpenSTL)",
+      "n": "ViT (SimVP 10x)",
+      "d": "2022-11-07",
+      "m1": "19.74",
+      "m2": "61.65",
+      "m3": "0.9539"
+    },
+    {
+      "p": "[Temporal Attention Unit: Towards Efficient Spatiotemporal Predictive Learning](https://arxiv.org/abs/2206.12126v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/chengtan9907/simvpv2)",
+      "n": "TAU",
+      "d": "2022-06-24",
+      "m1": "19.8",
+      "m2": "60.3",
+      "m3": "0.957"
+    },
+    {
+      "p": "[MogaNet: Multi-order Gated Aggregation Network](https://arxiv.org/abs/2211.03295v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/chengtan9907/OpenSTL)",
+      "n": "Poolformer (SimVP 10x)",
+      "d": "2022-11-07",
+      "m1": "20.96",
+      "m2": "64.31"
+    },
+    {
+      "p": "[MogaNet: Multi-order Gated Aggregation Network](https://arxiv.org/abs/2211.03295v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/chengtan9907/OpenSTL)",
+      "n": "ConvMixer (SimVP 10x)",
+      "d": "2022-11-07",
+      "m1": "22.3",
+      "m2": "67.37"
+    },
+    {
+      "p": "[Efficient and Information-Preserving Future Frame Prediction and Beyond](https://openreview.net/forum?id=B1eY_pVYvB)",
+      "c": "[&check;&nbsp;Link](https://github.com/rrxi/CrevNet)",
+      "n": "CrevNet+ST-LSTM",
+      "d": "2020-05-01",
+      "m1": "22.3",
+      "m3": "0.949"
+    },
+    {
+      "p": "[SimVP: Simpler yet Better Video Prediction](https://arxiv.org/abs/2206.05099v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/chengtan9907/simvpv2)",
+      "n": "SimVP",
+      "d": "2022-06-09",
+      "m1": "23.8",
+      "m3": "0.948"
+    },
+    {
+      "p": "[Disentangling Physical Dynamics from Unknown Factors for Unsupervised Video Prediction](https://arxiv.org/abs/2003.01460v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/chengtan9907/simvpv2)",
+      "n": "PhyDNet",
+      "d": "2020-03-03",
+      "m1": "24.4",
+      "m2": "70.3",
+      "m3": "0.947"
+    },
+    {
+      "p": "[MAU: A Motion-Aware Unit for Video Prediction and Beyond](http://proceedings.neurips.cc/paper/2021/hash/e25cfa90f04351958216f97e3efdabe9-Abstract.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/ZhengChang467/MAU)",
+      "n": "MAU",
+      "d": "2021-12-01",
+      "m1": "27.6",
+      "m3": "0.937"
+    },
+    {
+      "p": "[MSPred: Video Prediction at Multiple Spatio-Temporal Scales with Hierarchical Recurrent Networks](https://arxiv.org/abs/2203.09303v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/AIS-Bonn/MSPred)",
+      "n": "MSPred",
+      "d": "2022-03-17",
+      "m1": "34.44",
+      "m3": "0.975",
+      "m4": "0.024",
+      "m5": "26.82"
+    },
+    {
+      "p": "[Efficient and Information-Preserving Future Frame Prediction and Beyond](https://openreview.net/forum?id=B1eY_pVYvB)",
+      "c": "[&check;&nbsp;Link](https://github.com/rrxi/CrevNet)",
+      "n": "CrevNet+ConvLSTM",
+      "d": "2020-05-01",
+      "m1": "38.5",
+      "m3": "0.928"
+    },
+    {
+      "p": "[Eidetic 3D LSTM: A Model for Video Prediction and Beyond](https://openreview.net/forum?id=B1lKS2AqtX)",
+      "c": "[&check;&nbsp;Link](https://github.com/chengtan9907/simvpv2)",
+      "n": "E3D-LSTM",
+      "d": "2019-05-01",
+      "m1": "41.3",
+      "m2": "86.4",
+      "m3": "0.910"
+    },
+    {
+      "p": "[Video Prediction Recalling Long-term Motion Context via Memory Alignment Learning](https://arxiv.org/abs/2104.00924v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/sangmin-git/LMC-Memory)",
+      "n": "LMC",
+      "d": "2021-04-02",
+      "m1": "41.5",
+      "m3": "0.924",
+      "m4": "0.047"
+    },
+    {
+      "p": "[Self-Attention ConvLSTM for Spatiotemporal Prediction](https://ojs.aaai.org//index.php/AAAI/article/view/6819)",
+      "c": "[&check;&nbsp;Link](https://github.com/tsugumi-sys/SAM-ConvLSTM-Pytorch)",
+      "n": "SA-ConvLSTM",
+      "d": "2020-04-03",
+      "m1": "43.9",
+      "m2": "94.7",
+      "m3": "0.913"
+    },
+    {
+      "p": "[Memory In Memory: A Predictive Neural Network for Learning Higher-Order Non-Stationarity from Spatiotemporal Dynamics](http://arxiv.org/abs/1811.07490v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/chengtan9907/simvpv2)",
+      "n": "MIM*",
+      "d": "2018-11-19",
+      "m1": "44.2",
+      "m2": "101.1",
+      "m3": "0.910"
+    },
+    {
+      "p": "[PredRNN++: Towards A Resolution of the Deep-in-Time Dilemma in Spatiotemporal Predictive Learning](http://arxiv.org/abs/1804.06300v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/thuml/predrnn-pytorch)",
+      "n": "Causal LSTM",
+      "d": "2018-04-17",
+      "m1": "46.5",
+      "m2": "106.8",
+      "m3": "0.898"
+    },
+    {
+      "p": "[PredRNN: A Recurrent Neural Network for Spatiotemporal Predictive Learning](https://arxiv.org/abs/2103.09504v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/chengtan9907/simvpv2)",
+      "n": "PredRNN-V2",
+      "d": "2021-03-17",
+      "m1": "48.4",
+      "m3": "0.891",
+      "m4": "0.071"
+    },
+    {
+      "p": "[Memory In Memory: A Predictive Neural Network for Learning Higher-Order Non-Stationarity from Spatiotemporal Dynamics](http://arxiv.org/abs/1811.07490v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/chengtan9907/simvpv2)",
+      "n": "MIM",
+      "d": "2018-11-19",
+      "m1": "52.0",
+      "m2": "116.5",
+      "m3": "0.874"
+    },
+    {
+      "p": "[PredRNN: Recurrent Neural Networks for Predictive Learning using Spatiotemporal LSTMs](https://papers.nips.cc/paper/6689-predrnn-recurrent-neural-networks-for-predictive-learning-using-spatiotemporal-lstms)",
+      "c": "[&check;&nbsp;Link](https://github.com/chengtan9907/simvpv2)",
+      "n": "PredRNN",
+      "d": "2017-12-01",
+      "m1": "56.8",
+      "m2": "126.1",
+      "m3": "0.867"
+    },
+    {
+      "p": "[Convolutional LSTM Network: A Machine Learning Approach for Precipitation Nowcasting](http://arxiv.org/abs/1506.04214v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ndrplz/ConvLSTM_pytorch)",
+      "n": "ConvLSTM",
+      "d": "2015-06-13",
+      "m1": "103.3",
+      "m2": "182.9",
+      "m3": "0.707"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,116 @@
+# generalizable-person-re-identification-on-23
+
+[Dataset Link]() \
+Task Hierarchy: ['Person Re-Identification', 'Generalizable Person Re-identification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Market-1501->Rank1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Market-1501->mAP",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "MSMT17->Rank1",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "MSMT17->mAP",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "MSMT17-All->Rank-1",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "MSMT17-All->mAP",
+      "sortable": "true"
+    },
+    {
+      "key": "m7",
+      "label": "RandPerson->Rank1",
+      "sortable": "true"
+    },
+    {
+      "key": "m8",
+      "label": "RandPerson->mAP",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Unleashing the Potential of Pre-Trained Diffusion Models for Generalizable Person Re-Identification](https://arxiv.org/abs/2502.06619v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/RikoLi/DCAC)",
+      "n": "DCAC",
+      "d": "2025-02-10",
+      "m1": "69.1",
+      "m2": "49.5",
+      "m3": "75.0",
+      "m4": "58.4"
+    },
+    {
+      "p": "[ReMix: Training Generalized Person Re-identification on a Mixture of Data](https://arxiv.org/abs/2410.21938v1)",
+      "c": "",
+      "n": "ReMix",
+      "d": "2024-10-29",
+      "m1": "58.4",
+      "m2": "38.8",
+      "m3": "71.6",
+      "m4": "52.8",
+      "m5": "77.6",
+      "m6": "61.6",
+      "m7": "63.2",
+      "m8": "42.8"
+    },
+    {
+      "p": "[Interpretable and Generalizable Person Re-Identification with Query-Adaptive Convolution and Temporal Lifting](https://arxiv.org/abs/1904.10424v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/shengcailiao/QAConv)",
+      "n": "QAConv",
+      "d": "2019-04-23",
+      "m3": "69.4",
+      "m4": "52.6"
+    },
+    {
+      "p": "[Graph Sampling Based Deep Metric Learning for Generalizable Person Re-Identification](https://arxiv.org/abs/2104.01546v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/shengcailiao/QAConv)",
+      "n": "QAConv-GS",
+      "d": "2021-04-04",
+      "m3": "67.3",
+      "m4": "49.4",
+      "m5": "71.3",
+      "m6": "53.5"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

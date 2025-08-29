@@ -1,0 +1,130 @@
+# semantic-segmentation-on-nighttime-driving
+
+[Dataset Link](http://people.ee.ethz.ch/~daid/NightDriving/#) \
+Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mIoU",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Text-image Alignment for Diffusion-based Perception](https://arxiv.org/abs/2310.00031v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/damaggu/tadp)",
+      "n": "TADP",
+      "d": "2023-09-29",
+      "m1": "60.8"
+    },
+    {
+      "p": "[CoDA: Instructive Chain-of-Domain Adaptation with Severity-Aware Visual Prompt Tuning](https://arxiv.org/abs/2403.17369v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Cuzyoung/CoDA)",
+      "n": "CoDA",
+      "d": "2024-03-26",
+      "m1": "59.2"
+    },
+    {
+      "p": "[Refign: Align and Refine for Adaptation of Semantic Segmentation to Adverse Conditions](https://arxiv.org/abs/2207.06825v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/brdav/refign)",
+      "n": "Refign (HRDA)",
+      "d": "2022-07-14",
+      "m1": "58.0"
+    },
+    {
+      "p": "[Refign: Align and Refine for Adaptation of Semantic Segmentation to Adverse Conditions](https://arxiv.org/abs/2207.06825v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/brdav/refign)",
+      "n": "Refign (DAFormer)",
+      "d": "2022-07-14",
+      "m1": "56.8"
+    },
+    {
+      "p": "[Map-Guided Curriculum Domain Adaptation and Uncertainty-Aware Evaluation for Semantic Nighttime Image Segmentation](https://arxiv.org/abs/2005.14553v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/sakaridis/MGCDA)",
+      "n": "MGCDA",
+      "d": "2020-05-28",
+      "m1": "49.4"
+    },
+    {
+      "p": "[DANNet: A One-Stage Domain Adaptation Network for Unsupervised Nighttime Semantic Segmentation](https://arxiv.org/abs/2104.10834v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/W-zx-Y/DANNet)",
+      "n": "DANNet (PSPNet)",
+      "d": "2021-04-22",
+      "m1": "47.70"
+    },
+    {
+      "p": "[Guided Curriculum Model Adaptation and Uncertainty-Aware Evaluation for Semantic Nighttime Image Segmentation](https://arxiv.org/abs/1901.05946v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/sakaridis/MGCDA)",
+      "n": "GCMA",
+      "d": "2019-01-17",
+      "m1": "45.6"
+    },
+    {
+      "p": "[See Clearer at Night: Towards Robust Nighttime Semantic Segmentation through Day-Night Image Conversion](https://arxiv.org/abs/1908.05868v1)",
+      "c": "",
+      "n": "ERF-PSPNet",
+      "d": "2019-08-16",
+      "m1": "45.09"
+    },
+    {
+      "p": "[DANNet: A One-Stage Domain Adaptation Network for Unsupervised Nighttime Semantic Segmentation](https://arxiv.org/abs/2104.10834v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/W-zx-Y/DANNet)",
+      "n": "DANNet (DeepLab-v2)",
+      "d": "2021-04-22",
+      "m1": "44.98"
+    },
+    {
+      "p": "[DANNet: A One-Stage Domain Adaptation Network for Unsupervised Nighttime Semantic Segmentation](https://arxiv.org/abs/2104.10834v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/W-zx-Y/DANNet)",
+      "n": "DANNet (RefineNet)",
+      "d": "2021-04-22",
+      "m1": "42.36"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "LTSP",
+      "d": null,
+      "m1": "42.3"
+    },
+    {
+      "p": "[Zero-Shot Day-Night Domain Adaptation with a Physics Prior](https://arxiv.org/abs/2108.05137v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Attila94/CIConv)",
+      "n": "CIConv",
+      "d": "2021-08-11",
+      "m1": "41.6"
+    },
+    {
+      "p": "[Dark Model Adaptation: Semantic Image Segmentation from Daytime to Nighttime](http://arxiv.org/abs/1810.02575v1)",
+      "c": "",
+      "n": "DMAda",
+      "d": "2018-10-05",
+      "m1": "36.1"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

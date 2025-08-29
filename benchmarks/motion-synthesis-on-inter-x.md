@@ -1,0 +1,114 @@
+# motion-synthesis-on-inter-x
+
+[Dataset Link](https://liangxuy.github.io/inter-x/) \
+Task Hierarchy: ['3D Human Pose Tracking', 'Motion Synthesis']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "FID",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "R-Precision Top3",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "MMDist",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "MModality",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[InterMask: 3D Human Interaction Generation via Collaborative Masked Modelling](https://arxiv.org/abs/2410.10010v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/gohar-malik/intermask)",
+      "n": "InterMask",
+      "d": "2024-10-13",
+      "m1": "0.399",
+      "m2": "0.705",
+      "m3": "3.705",
+      "m4": "2.261"
+    },
+    {
+      "p": "[InterGen: Diffusion-based Multi-human Motion Generation under Complex Interactions](https://arxiv.org/abs/2304.05684v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/tr3e/intergen)",
+      "n": "InterGen",
+      "d": "2023-04-12",
+      "m1": "5.207",
+      "m2": "0.429",
+      "m3": "9.580",
+      "m4": "3.686"
+    },
+    {
+      "p": "[Generating Diverse and Natural 3D Human Motions From Text](http://openaccess.thecvf.com//content/CVPR2022/html/Guo_Generating_Diverse_and_Natural_3D_Human_Motions_From_Text_CVPR_2022_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/EricGuo5513/text-to-motion)",
+      "n": "T2M",
+      "d": "2022-01-01",
+      "m1": "5.481",
+      "m2": "0.396",
+      "m3": "9.576",
+      "m4": "2.761"
+    },
+    {
+      "p": "[Human Motion Diffusion Model](https://arxiv.org/abs/2209.14916v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/guytevet/motion-diffusion-model)",
+      "n": "MDM",
+      "d": "2022-09-29",
+      "m1": "23.701",
+      "m2": "0.426",
+      "m3": "9.548",
+      "m4": "3.490"
+    },
+    {
+      "p": "[TEMOS: Generating diverse human motions from textual descriptions](https://arxiv.org/abs/2204.14109v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Mathux/TEMOS)",
+      "n": "TEMOS",
+      "d": "2022-04-25",
+      "m1": "29.258",
+      "m2": "0.238",
+      "m3": "6.867",
+      "m4": "0.672"
+    },
+    {
+      "p": "[Human Motion Diffusion as a Generative Prior](https://arxiv.org/abs/2303.01418v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/priormdm/priormdm)",
+      "n": "ComMDM",
+      "d": "2023-03-02",
+      "m1": "29.266",
+      "m2": "0.236",
+      "m3": "6.870",
+      "m4": "0.771"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

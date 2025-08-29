@@ -1,0 +1,116 @@
+# weakly-supervised-video-anomaly-detection-on-1
+
+[Dataset Link](https://github.com/lilygeorgescu/UBnormal/) \
+Task Hierarchy: ['Video Anomaly Detection', 'Weakly-supervised Video Anomaly Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AUC-ROC",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Dual\u2011detector Re\u2011optimization for Federated Weakly Supervised Video Anomaly Detection Via Adaptive Dynamic Recursive Mapping](https://ieeexplore.ieee.org/document/11036561)",
+      "c": "[&check;&nbsp;Link](https://github.com/rekkles2/Fed_WSVAD)",
+      "n": "DDRO (SSALA)",
+      "d": "2025-06-13",
+      "m1": "76.51"
+    },
+    {
+      "p": "[Dual\u2011detector Re\u2011optimization for Federated Weakly Supervised Video Anomaly Detection Via Adaptive Dynamic Recursive Mapping](https://ieeexplore.ieee.org/document/11036561)",
+      "c": "[&check;&nbsp;Link](https://github.com/rekkles2/Fed_WSVAD)",
+      "n": "DDRO",
+      "d": "2025-06-13",
+      "m1": "70.91"
+    },
+    {
+      "p": "[Interleaving One-Class and Weakly-Supervised Models with Adaptive Thresholding for Unsupervised Video Anomaly Detection](https://arxiv.org/abs/2401.13551v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/benedictstar/Joint-VAD)",
+      "n": "OCC-WS",
+      "d": "2024-01-24",
+      "m1": "67.42"
+    },
+    {
+      "p": "[Weakly-supervised Video Anomaly Detection with Robust Temporal Feature Magnitude Learning](https://arxiv.org/abs/2101.10030v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/tianyu0207/RTFM)",
+      "n": "RTFM",
+      "d": "2021-01-25",
+      "m1": "66.83"
+    },
+    {
+      "p": "[MIST: Multiple Instance Self-Training Framework for Video Anomaly Detection](https://arxiv.org/abs/2104.01633v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/fjchange/MIST_VAD)",
+      "n": "MIST",
+      "d": "2021-04-04",
+      "m1": "65.32"
+    },
+    {
+      "p": "[Weakly Supervised Video Anomaly Detection and Localization with Spatio-Temporal Prompts](https://arxiv.org/abs/2408.05905v2)",
+      "c": "",
+      "n": "STPrompt",
+      "d": "2024-08-12",
+      "m1": "63.98"
+    },
+    {
+      "p": "[Open-Vocabulary Video Anomaly Detection](https://arxiv.org/abs/2311.07042v3)",
+      "c": "",
+      "n": "OPVAD",
+      "d": "2023-11-13",
+      "m1": "62.94"
+    },
+    {
+      "p": "[VadCLIP: Adapting Vision-Language Models for Weakly Supervised Video Anomaly Detection](https://arxiv.org/abs/2308.11681v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/nwpu-zxr/vadclip)",
+      "n": "VadCLIP",
+      "d": "2023-08-22",
+      "m1": "62.32"
+    },
+    {
+      "p": "[Weakly Supervised Video Anomaly Detection via Center-guided Discriminative Learning](https://arxiv.org/abs/2104.07268v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/wanboyang/Anomaly_AR_Net_ICME_2020)",
+      "n": "AR-Net",
+      "d": "2021-04-15",
+      "m1": "62.30"
+    },
+    {
+      "p": "[Dual Memory Units with Uncertainty Regulation for Weakly Supervised Video Anomaly Detection](https://arxiv.org/abs/2302.05160v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/henrryzh1/UR-DMU)",
+      "n": "DMU",
+      "d": "2023-02-10",
+      "m1": "59.91"
+    },
+    {
+      "p": "[Real-world Anomaly Detection in Surveillance Videos](http://arxiv.org/abs/1801.04264v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/WaqasSultani/AnomalyDetectionCVPR2018)",
+      "n": "MIL-Rank",
+      "d": "2018-01-12",
+      "m1": "54.12"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,180 @@
+# co-salient-object-detection-on-cosal2015
+
+[Dataset Link](None) \
+Task Hierarchy: ['16k', 'Object Detection', 'RGB Salient Object Detection', 'Co-Salient Object Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "max E-measure",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "S-measure",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "max F-measure",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "MAE",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "mean E-measure",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "mean F-measure",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Discriminative Co-Saliency and Background Mining Transformer for Co-Salient Object Detection](https://arxiv.org/abs/2305.00514v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dragonlee258079/DMT)",
+      "n": "DMT",
+      "d": "2023-04-30",
+      "m1": "0.936",
+      "m2": "0.897",
+      "m3": "0.905",
+      "m4": "0.045",
+      "m5": "0.922",
+      "m6": "0.883"
+    },
+    {
+      "p": "[GCoNet+: A Stronger Group Collaborative Co-Salient Object Detector](https://arxiv.org/abs/2205.15469v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhengpeng7/birefnet)",
+      "n": "GCoNet+",
+      "d": "2022-05-30",
+      "m1": "0.924",
+      "m2": "0.881",
+      "m3": "0.891",
+      "m4": "0.0563",
+      "m5": "0.902",
+      "m6": "0.870"
+    },
+    {
+      "p": "[Summarize and Search: Learning Consensus-aware Dynamic Convolution for Co-Saliency Detection](https://arxiv.org/abs/2110.00338v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nnizhang/cadc)",
+      "n": "CADC",
+      "d": "2021-10-01",
+      "m1": "0.906",
+      "m2": "0.866",
+      "m3": "0.864",
+      "m4": "0.064",
+      "m5": "0.874",
+      "m6": "0.825"
+    },
+    {
+      "p": "[A Unified Transformer Framework for Group-based Segmentation: Co-Segmentation, Co-Saliency Detection and Video Salient Object Detection](https://arxiv.org/abs/2203.04708v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/suyukun666/UFO)",
+      "n": "UFO",
+      "d": "2022-03-09",
+      "m1": "0.906",
+      "m2": "0.860",
+      "m3": "0.865",
+      "m4": "0.064",
+      "m5": "0.889",
+      "m6": "0.848"
+    },
+    {
+      "p": "[Democracy Does Matter: Comprehensive Feature Mining for Co-Salient Object Detection](https://arxiv.org/abs/2203.05787v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/siyueyu/dcfm)",
+      "n": "DCFM",
+      "d": "2022-03-11",
+      "m1": "0.893",
+      "m2": "0.838",
+      "m3": "0.856",
+      "m4": "0.067",
+      "m5": "0.889",
+      "m6": "0.850"
+    },
+    {
+      "p": "[Group Collaborative Learning for Co-Salient Object Detection](https://arxiv.org/abs/2104.01108v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/fanq15/GCoNet)",
+      "n": "GCoNet",
+      "d": "2021-03-15",
+      "m1": "0.888",
+      "m2": "0.845",
+      "m3": "0.847",
+      "m4": "0.068",
+      "m5": "0.884",
+      "m6": "0.838"
+    },
+    {
+      "p": "[Gradient-Induced Co-Saliency Detection](https://arxiv.org/abs/2004.13364v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/zzhanghub/gicd)",
+      "n": "GICD",
+      "d": "2020-04-28",
+      "m1": "0.887",
+      "m2": "0.844",
+      "m3": "0.844",
+      "m4": "0.071",
+      "m5": "0.883",
+      "m6": "0.835"
+    },
+    {
+      "p": "[Taking a Deeper Look at Co-Salient Object Detection](http://openaccess.thecvf.com/content_CVPR_2020/html/Fan_Taking_a_Deeper_Look_at_Co-Salient_Object_Detection_CVPR_2020_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/DengPingFan/CoEGNet)",
+      "n": "CoEG-Net",
+      "d": "2020-06-01",
+      "m1": "0.882",
+      "m2": "0.836",
+      "m3": "0.832",
+      "m4": "0.077",
+      "m5": "0.867",
+      "m6": "0.827"
+    },
+    {
+      "p": "[EGNet: Edge Guidance Network for Salient Object Detection](http://openaccess.thecvf.com/content_ICCV_2019/html/Zhao_EGNet_Edge_Guidance_Network_for_Salient_Object_Detection_ICCV_2019_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/mindspore-ai/models/tree/master/research/cv/EGnet)",
+      "n": "EGNet",
+      "d": "2019-10-01",
+      "m1": "0.843",
+      "m2": "0.818",
+      "m3": "0.786",
+      "m4": "0.099"
+    },
+    {
+      "p": "[Co-Saliency Detection via Mask-Guided Fully Convolutional Networks With Multi-Scale Label Smoothing](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Co-Saliency_Detection_via_Mask-Guided_Fully_Convolutional_Networks_With_Multi-Scale_Label_CVPR_2019_paper.html)",
+      "c": "",
+      "n": "CSMG",
+      "d": "2019-06-01",
+      "m1": "0.842",
+      "m2": "0.774",
+      "m3": "0.784",
+      "m4": "0.130"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

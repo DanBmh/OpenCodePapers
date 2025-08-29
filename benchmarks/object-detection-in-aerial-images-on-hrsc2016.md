@@ -1,0 +1,112 @@
+# object-detection-in-aerial-images-on-hrsc2016
+
+[Dataset Link]() \
+Task Hierarchy: ['16k', 'Object Detection', 'Object Detection In Aerial Images']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mAP-07",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "mAP-12",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Category-Aware Dynamic Label Assignment with High-Quality Oriented Proposal](https://arxiv.org/abs/2407.03205v1)",
+      "c": "",
+      "n": "CDLA-HOP",
+      "d": "2024-07-03",
+      "m1": "90.89",
+      "m2": "98.77"
+    },
+    {
+      "p": "[Spatial Transform Decoupling for Oriented Object Detection](https://arxiv.org/abs/2308.10561v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/yuhongtian17/spatial-transform-decoupling)",
+      "n": "STD+ViT-B",
+      "d": "2023-08-21",
+      "m1": "90.67",
+      "m2": "98.55"
+    },
+    {
+      "p": "[Large Selective Kernel Network for Remote Sensing Object Detection](https://arxiv.org/abs/2303.09030v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zcablii/Large-Selective-Kernel-Network)",
+      "n": "LSKNet-S",
+      "d": "2023-03-16",
+      "m1": "90.65",
+      "m2": "98.46"
+    },
+    {
+      "p": "[Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection](https://arxiv.org/abs/2501.03775v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/zcablii/Large-Selective-Kernel-Network)",
+      "n": "Strip R-CNN",
+      "d": "2025-01-07",
+      "m1": "90.6",
+      "m2": "98.70"
+    },
+    {
+      "p": "[RTMDet: An Empirical Study of Designing Real-Time Object Detectors](https://arxiv.org/abs/2212.07784v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection/tree/3.x/configs/rtmdet)",
+      "n": "RTMDet-R-tiny",
+      "d": "2022-12-14",
+      "m1": "90.6",
+      "m2": "97.10"
+    },
+    {
+      "p": "[An Empirical Study of Remote Sensing Pretraining](https://arxiv.org/abs/2204.02825v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/vitae-transformer/vitae-transformer-remote-sensing)",
+      "n": "RSP-ViTAEv2-S-FPN-ORCN",
+      "d": "2022-04-06",
+      "m1": "90.4"
+    },
+    {
+      "p": "[An Empirical Study of Remote Sensing Pretraining](https://arxiv.org/abs/2204.02825v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/vitae-transformer/vitae-transformer-remote-sensing)",
+      "n": "IMP-ViTAEv2-S-FPN-ORCN",
+      "d": "2022-04-06",
+      "m1": "90.4"
+    },
+    {
+      "p": "[An Empirical Study of Remote Sensing Pretraining](https://arxiv.org/abs/2204.02825v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/vitae-transformer/vitae-transformer-remote-sensing)",
+      "n": "RSP-ResNet-50-FPN-ORCN",
+      "d": "2022-04-06",
+      "m1": "90.3"
+    },
+    {
+      "p": "[An Empirical Study of Remote Sensing Pretraining](https://arxiv.org/abs/2204.02825v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/vitae-transformer/vitae-transformer-remote-sensing)",
+      "n": "RSP-Swin-T-FPN-ORCN",
+      "d": "2022-04-06",
+      "m1": "90.0"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

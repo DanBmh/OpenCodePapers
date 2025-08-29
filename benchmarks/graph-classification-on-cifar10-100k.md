@@ -1,0 +1,179 @@
+# graph-classification-on-cifar10-100k
+
+[Dataset Link](https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf) \
+Task Hierarchy: ['Classification', 'Graph Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy (%)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Learning Long Range Dependencies on Graphs via Random Walks](https://arxiv.org/abs/2406.03386v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/borgwardtlab/neuralwalker)",
+      "n": "NeuralWalker",
+      "d": "2024-06-05",
+      "m1": "80.027 \u00b1 0.185"
+    },
+    {
+      "p": "[Unlocking the Potential of Classic GNNs for Graph-level Tasks: Simple Architectures Meet Excellence](https://arxiv.org/abs/2502.09263v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/LUOyk1999/GNNPlus)",
+      "n": "GatedGCN+",
+      "d": "2025-02-13",
+      "m1": "77.218 \u00b1 0.381"
+    },
+    {
+      "p": "[Recurrent Distance Filtering for Graph Representation Learning](https://arxiv.org/abs/2312.01538v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/skeletondyh/gred)",
+      "n": "GRED",
+      "d": "2023-12-03",
+      "m1": "76.853\u00b10.185"
+    },
+    {
+      "p": "[Graph Inductive Biases in Transformers without Message Passing](https://arxiv.org/abs/2305.17589v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/liamma/grit)",
+      "n": "GRIT",
+      "d": "2023-05-27",
+      "m1": "76.468"
+    },
+    {
+      "p": "[Enhancing Graph Transformers with Hierarchical Distance Structural Encoding](https://arxiv.org/abs/2308.11129v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/luoyk1999/hdse)",
+      "n": "GraphGPS + HDSE",
+      "d": "2023-08-22",
+      "m1": "76.180\u00b10.277"
+    },
+    {
+      "p": "[An end-to-end attention-based approach for learning on graphs](https://arxiv.org/abs/2402.10793v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/davidbuterez/edge-set-attention)",
+      "n": "ESA (Edge set attention, no positional encodings)",
+      "d": "2024-02-16",
+      "m1": "75.413\u00b10.248"
+    },
+    {
+      "p": "[Exphormer: Sparse Transformers for Graphs](https://arxiv.org/abs/2303.06147v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/hamed1375/exphormer)",
+      "n": "Exphormer",
+      "d": "2023-03-10",
+      "m1": "74.754\u00b10.194"
+    },
+    {
+      "p": "[Topology-Informed Graph Transformer](https://arxiv.org/abs/2402.02005v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/leemingo/tigt)",
+      "n": "TIGT",
+      "d": "2024-02-03",
+      "m1": "73.955"
+    },
+    {
+      "p": "[Automatic Relation-aware Graph Network Proliferation](https://arxiv.org/abs/2205.15678v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/phython96/ARGNP)",
+      "n": "ARGNP",
+      "d": "2022-05-31",
+      "m1": "73.90"
+    },
+    {
+      "p": "[Directional Graph Networks](https://arxiv.org/abs/2010.02863v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/Saro00/DGN)",
+      "n": "DGN",
+      "d": "2020-10-06",
+      "m1": "72.84"
+    },
+    {
+      "p": "[Recipe for a General, Powerful, Scalable Graph Transformer](https://arxiv.org/abs/2205.12454v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/rampasek/GraphGPS)",
+      "n": "GPS",
+      "d": "2022-05-25",
+      "m1": "72.298"
+    },
+    {
+      "p": "[Principal Neighbourhood Aggregation for Graph Nets](https://arxiv.org/abs/2004.05718v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/rusty1s/pytorch_geometric)",
+      "n": "PNA",
+      "d": "2020-04-12",
+      "m1": "70.47"
+    },
+    {
+      "p": "[Graph Transformers without Positional Encodings](https://arxiv.org/abs/2401.17791v3)",
+      "c": "",
+      "n": "EIGENFORMER",
+      "d": "2024-01-31",
+      "m1": "70.194"
+    },
+    {
+      "p": "[Residual Gated Graph ConvNets](http://arxiv.org/abs/1711.07553v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/xbresson/spatial_graph_convnets)",
+      "n": "GatedGCN",
+      "d": "2017-11-20",
+      "m1": "69.37"
+    },
+    {
+      "p": "[Global Self-Attention as a Replacement for Graph Convolution](https://arxiv.org/abs/2108.03348v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/shamim-hussain/egt_pytorch)",
+      "n": "EGT",
+      "d": "2021-08-07",
+      "m1": "68.702"
+    },
+    {
+      "p": "[Benchmarking Graph Neural Networks](https://arxiv.org/abs/2003.00982v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/graphdeeplearning/benchmarking-gnns)",
+      "n": "GatedGCN",
+      "d": "2020-03-02",
+      "m1": "67.312"
+    },
+    {
+      "p": "[Inductive Representation Learning on Large Graphs](http://arxiv.org/abs/1706.02216v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/pyg-team/pytorch_geometric/blob/master/torch_geometric/nn/models/basic_gnn.py)",
+      "n": "GraphSage",
+      "d": "2017-06-07",
+      "m1": "66.08"
+    },
+    {
+      "p": "[Graph Attention Networks](http://arxiv.org/abs/1710.10903v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+      "n": "GAT",
+      "d": "2017-10-30",
+      "m1": "65.48"
+    },
+    {
+      "p": "[Geometric deep learning on graphs and manifolds using mixture model CNNs](http://arxiv.org/abs/1611.08402v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/mxnet/monet)",
+      "n": "MoNet",
+      "d": "2016-11-25",
+      "m1": "53.42"
+    },
+    {
+      "p": "[How Powerful are Graph Neural Networks?](http://arxiv.org/abs/1810.00826v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/mxnet/gin)",
+      "n": "GIN",
+      "d": "2018-10-01",
+      "m1": "53.28"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

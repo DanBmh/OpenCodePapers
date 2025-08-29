@@ -1,0 +1,67 @@
+# information-threading-on-newshead
+
+[Dataset Link](https://github.com/google-research-datasets/NewSHead) \
+Task Hierarchy: ['Information Extraction', 'Information Threading']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "NMI",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Effective Hierarchical Information Threading Using Network Community Detection](https://link.springer.com/chapter/10.1007/978-3-031-28244-7_44)",
+      "c": "[&check;&nbsp;Link](https://github.com/hitt08/HINT)",
+      "n": "HINT",
+      "d": "2023-03-17",
+      "m1": "0.797"
+    },
+    {
+      "p": "[Identifying chronological and coherent information threads using 5W1H questions and temporal relationships](https://www.sciencedirect.com/science/article/pii/S0306457323000110)",
+      "c": "[&check;&nbsp;Link](https://github.com/hitt08/HINT)",
+      "n": "SeqINT",
+      "d": "2023-01-18",
+      "m1": "0.7537"
+    },
+    {
+      "p": "[Growing Story Forest Online from Massive Breaking News](http://arxiv.org/abs/1803.00189v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/BangLiu/StoryForest)",
+      "n": "EventX",
+      "d": "2018-03-01",
+      "m1": "0.2405"
+    },
+    {
+      "p": "[Discovering Diverse and Salient Threads in Document Collections](https://aclanthology.org/D12-1065)",
+      "c": "",
+      "n": "k-SDPP",
+      "d": "2012-07-01",
+      "m1": "0.1908"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,86 @@
+# 3d-semantic-segmentation-on-scribblekitti
+
+[Dataset Link](https://github.com/ouenal/scribblekitti) \
+Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', '3D Semantic Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mIoU",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "mIoU-1%",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[2D Feature Distillation for Weakly- and Semi-Supervised 3D Semantic Segmentation](https://arxiv.org/abs/2311.15605v1)",
+      "c": "",
+      "n": "IGNet",
+      "d": "2023-11-27",
+      "m1": "62.0"
+    },
+    {
+      "p": "[Scribble-Supervised LiDAR Semantic Segmentation](https://arxiv.org/abs/2203.08537v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/pjlab-adg/openpcseg)",
+      "n": "SSLSS with Cylinder3D",
+      "d": "2022-03-16",
+      "m1": "61.3"
+    },
+    {
+      "p": "[Cylindrical and Asymmetrical 3D Convolution Networks for LiDAR Segmentation](https://arxiv.org/abs/2011.10033v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/xinge008/Cylinder3D)",
+      "n": "Cylinder3D",
+      "d": "2020-11-19",
+      "m1": "57.0"
+    },
+    {
+      "p": "[4D Spatio-Temporal ConvNets: Minkowski Convolutional Neural Networks](https://arxiv.org/abs/1904.08755v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/NVIDIA/MinkowskiEngine)",
+      "n": "MinkowskiNet",
+      "d": "2019-04-18",
+      "m1": "55.0"
+    },
+    {
+      "p": "[Less is More: Reducing Task and Model Complexity for 3D Point Cloud Semantic Segmentation](https://arxiv.org/abs/2303.11203v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/l1997i/lim3d)",
+      "n": "LiM3D",
+      "d": "2023-03-20",
+      "m2": "57"
+    },
+    {
+      "p": "[Less is More: Reducing Task and Model Complexity for 3D Point Cloud Semantic Segmentation](https://arxiv.org/abs/2303.11203v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/l1997i/lim3d)",
+      "n": "LiM3D+SDSC",
+      "d": "2023-03-20",
+      "m2": "55.8"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

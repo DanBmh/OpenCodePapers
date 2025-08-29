@@ -1,0 +1,112 @@
+# 3d-human-pose-estimation-on-ubody
+
+[Dataset Link](https://osx-ubody.github.io/) \
+Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', '3D Human Pose Estimation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PVE-All",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "PVE-Hands",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "PVE-Face",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "PA-PVE-All",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "PA-PVE-Hands",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "PA-PVE-Face",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Multi-HMR: Multi-Person Whole-Body Human Mesh Recovery in a Single Shot](https://arxiv.org/abs/2402.14654v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/naver/multi-hmr)",
+      "n": "Multi-HMR",
+      "d": "2024-02-22",
+      "m1": "56.4",
+      "m2": "24.9",
+      "m3": "19.3",
+      "m4": "23.6",
+      "m5": "7.0",
+      "m6": "1.8"
+    },
+    {
+      "p": "[SMPLer-X: Scaling Up Expressive Human Pose and Shape Estimation](https://arxiv.org/abs/2309.17448v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/caizhongang/SMPLer-X)",
+      "n": "SMPLer-X",
+      "d": "2023-09-29",
+      "m1": "57.5",
+      "m2": "40.2",
+      "m3": "21.6",
+      "m4": "31.9",
+      "m5": "10.3",
+      "m6": "2.8"
+    },
+    {
+      "p": "[One-Stage 3D Whole-Body Mesh Recovery with Component Aware Transformer](https://arxiv.org/abs/2303.16160v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/IDEA-Research/OSX)",
+      "n": "OSX",
+      "d": "2023-03-28",
+      "m1": "81.9",
+      "m2": "41.5",
+      "m3": "21.2",
+      "m4": "42.2",
+      "m5": "8.6",
+      "m6": "2.0"
+    },
+    {
+      "p": "[Accurate 3D Hand Pose Estimation for Whole-Body 3D Human Mesh Estimation](https://arxiv.org/abs/2011.11534v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/mks0601/Hand4Whole_RELEASE)",
+      "n": "Hand4Whole",
+      "d": "2020-11-23",
+      "m1": "104.1",
+      "m2": "45.7",
+      "m3": "27.0",
+      "m4": "44.8",
+      "m5": "8.9",
+      "m6": "2.8"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

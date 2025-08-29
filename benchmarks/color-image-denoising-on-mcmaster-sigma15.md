@@ -1,0 +1,67 @@
+# color-image-denoising-on-mcmaster-sigma15
+
+[Dataset Link](https://www4.comp.polyu.edu.hk/~cslzhang/CDM_Dataset.htm) \
+Task Hierarchy: ['3D Architecture', 'Denoising', 'Color Image Denoising']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[AKDT: Adaptive Kernel Dilation Transformer for Effective Image Denoising](https://www.insticc.org/node/TechnicalProgram/VISIGRAPP/2025/presentationDetails/131577)",
+      "c": "[&check;&nbsp;Link](https://github.com/albrateanu/AKDT)",
+      "n": "AKDT",
+      "d": "2025-02-26",
+      "m1": "36.71"
+    },
+    {
+      "p": "[Stimulating Diffusion Model for Image Denoising via Adaptive Embedding and Ensembling](https://arxiv.org/abs/2307.03992v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/li-tong-621/dmid)",
+      "n": "DMID-d",
+      "d": "2023-07-08",
+      "m1": "35.72"
+    },
+    {
+      "p": "[Hierarchical Information Flow for Generalized Efficient Image Restoration](https://arxiv.org/abs/2411.18588v1)",
+      "c": "",
+      "n": "Hi-IR",
+      "d": "2024-11-27",
+      "m1": "35.69"
+    },
+    {
+      "p": "[FFDNet: Toward a Fast and Flexible Solution for CNN based Image Denoising](http://arxiv.org/abs/1710.04026v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/cszn/FFDNet)",
+      "n": "FFDNet",
+      "d": "2017-10-11",
+      "m1": "34.66"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

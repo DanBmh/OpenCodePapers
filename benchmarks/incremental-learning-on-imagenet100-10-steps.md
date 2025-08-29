@@ -1,0 +1,178 @@
+# incremental-learning-on-imagenet100-10-steps
+
+[Dataset Link]() \
+Task Hierarchy: ['Incremental Learning']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Average Incremental Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Final Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Average Incremental Accuracy Top-5",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Final Accuracy Top-5",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "# M Params",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Revisiting a kNN-based Image Classification System with High-capacity Storage](https://arxiv.org/abs/2204.01186v2)",
+      "c": "",
+      "n": "kNN-CLIP",
+      "d": "2022-04-03",
+      "m1": "85.1"
+    },
+    {
+      "p": "[RMM: Reinforced Memory Management for Class-Incremental Learning](https://arxiv.org/abs/2301.05792v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/g-u-n/pycil)",
+      "n": "RMM (ResNet-18)",
+      "d": "2023-01-14",
+      "m1": "78.47"
+    },
+    {
+      "p": "[FOSTER: Feature Boosting and Compression for Class-Incremental Learning](https://arxiv.org/abs/2204.04662v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/g-u-n/pycil)",
+      "n": "FOSTER",
+      "d": "2022-04-10",
+      "m1": "77.75"
+    },
+    {
+      "p": "[Resolving Task Confusion in Dynamic Expansion Architectures for Class Incremental Learning](https://arxiv.org/abs/2212.14284v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/yellowpancake/tcil)",
+      "n": "TCIL",
+      "d": "2022-12-29",
+      "m1": "77.66",
+      "m2": "67.34",
+      "m3": "94.17",
+      "m4": "88.84",
+      "m5": "116.54"
+    },
+    {
+      "p": "[Resolving Task Confusion in Dynamic Expansion Architectures for Class Incremental Learning](https://arxiv.org/abs/2212.14284v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/yellowpancake/tcil)",
+      "n": "TCIL-Lite",
+      "d": "2022-12-29",
+      "m1": "77.50",
+      "m2": "67.30",
+      "m3": "93.60",
+      "m4": "87.94",
+      "m5": "26.36"
+    },
+    {
+      "p": "[DER: Dynamically Expandable Representation for Class Incremental Learning](https://arxiv.org/abs/2103.16788v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/g-u-n/pycil)",
+      "n": "DER w/o Pruning",
+      "d": "2021-03-31",
+      "m1": "77.18",
+      "m2": "66.70",
+      "m3": "93.23",
+      "m4": "87.52",
+      "m5": "112.27"
+    },
+    {
+      "p": "[DyTox: Transformers for Continual Learning with DYnamic TOken eXpansion](https://arxiv.org/abs/2111.11326v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/arthurdouillard/dytox)",
+      "n": "DyTox",
+      "d": "2021-11-22",
+      "m1": "77.15",
+      "m2": "69.10",
+      "m3": "92.04",
+      "m4": "87.98",
+      "m5": "11.01"
+    },
+    {
+      "p": "[DER: Dynamically Expandable Representation for Class Incremental Learning](https://arxiv.org/abs/2103.16788v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/g-u-n/pycil)",
+      "n": "DER",
+      "d": "2021-03-31",
+      "m1": "76.12",
+      "m2": "66.07",
+      "m3": "92.79",
+      "m4": "88.38"
+    },
+    {
+      "p": "[Maintaining Discrimination and Fairness in Class Incremental Learning](https://arxiv.org/abs/1911.07053v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/g-u-n/pycil)",
+      "n": "WA",
+      "d": "2019-11-16",
+      "m3": "91.00",
+      "m4": "84.10",
+      "m5": "11.22"
+    },
+    {
+      "p": "[Large Scale Incremental Learning](https://arxiv.org/abs/1905.13260v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ContinualAI/avalanche)",
+      "n": "BiC",
+      "d": "2019-05-30",
+      "m3": "90.60",
+      "m4": "84.40",
+      "m5": "11.22"
+    },
+    {
+      "p": "[End-to-End Incremental Learning](http://arxiv.org/abs/1807.09536v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mmasana/FACIL)",
+      "n": "E2E",
+      "d": "2018-07-25",
+      "m3": "89.92",
+      "m4": "80.29",
+      "m5": "11.22"
+    },
+    {
+      "p": "[An Adaptive Random Path Selection Approach for Incremental Learning](https://arxiv.org/abs/1906.01120v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/brjathu/RPSnet)",
+      "n": "RPSNet",
+      "d": "2019-06-03",
+      "m3": "87.90",
+      "m4": "74.00"
+    },
+    {
+      "p": "[iCaRL: Incremental Classifier and Representation Learning](http://arxiv.org/abs/1611.07725v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ContinualAI/avalanche)",
+      "n": "iCaRL",
+      "d": "2016-11-23",
+      "m3": "83.60",
+      "m4": "63.80",
+      "m5": "11.22"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,60 @@
+# code-generation-on-livecodebench
+
+[Dataset Link]() \
+Task Hierarchy: ['Code Generation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Acc",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Xolver: Multi-Agent Reasoning with Holistic Experience Learning Just Like an Olympiad Team](https://arxiv.org/abs/2506.14234v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/kagnlp/Xolver)",
+      "n": "Xolver",
+      "d": "2025-06-17",
+      "m1": "91.6"
+    },
+    {
+      "p": "[Planning-Driven Programming: A Large Language Model Programming Workflow](https://arxiv.org/abs/2411.14503v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/you68681/lpw)",
+      "n": "LPW (GPT-4o)",
+      "d": "2024-11-21",
+      "m1": "59.3"
+    },
+    {
+      "p": "[Search-o1: Agentic Search-Enhanced Large Reasoning Models](https://arxiv.org/abs/2501.05366v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/sunnynexus/search-o1)",
+      "n": "Search-o1",
+      "d": "2025-01-09",
+      "m1": "33"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

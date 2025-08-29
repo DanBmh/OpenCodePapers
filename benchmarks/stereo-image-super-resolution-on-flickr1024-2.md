@@ -1,0 +1,95 @@
+# stereo-image-super-resolution-on-flickr1024-2
+
+[Dataset Link]() \
+Task Hierarchy: ['16k', 'Image Super-Resolution', 'Stereo Image Super-Resolution']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[SwinFIR: Revisiting the SwinIR with Fast Fourier Convolution and Improved Training for Image Super-Resolution](https://arxiv.org/abs/2208.11247v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Zdafeng/SwinFIR)",
+      "n": "SwinFIRSSR",
+      "d": "2022-08-24",
+      "m1": "24.29"
+    },
+    {
+      "p": "[NAFSSR: Stereo Image Super-Resolution Using NAFNet](https://arxiv.org/abs/2204.08714v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/megvii-research/NAFNet)",
+      "n": "NAFSSR-L",
+      "d": "2022-04-19",
+      "m1": "24.17"
+    },
+    {
+      "p": "[NAFSSR: Stereo Image Super-Resolution Using NAFNet](https://arxiv.org/abs/2204.08714v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/megvii-research/NAFNet)",
+      "n": "NAFSSR-B",
+      "d": "2022-04-19",
+      "m1": "24.07"
+    },
+    {
+      "p": "[Learning Accurate and Enriched Features for Stereo Image Super-Resolution](https://arxiv.org/abs/2406.16001v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Tombs98/MSSFNet)",
+      "n": "MSSFNet",
+      "d": "2024-06-23",
+      "m1": "23.99"
+    },
+    {
+      "p": "[Feedback Network for Mutually Boosted Stereo Image Super-Resolution and Disparity Estimation](https://arxiv.org/abs/2106.00985v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/MIVRC/SSRDEFNet-PyTorch)",
+      "n": "SSRDE-FNet",
+      "d": "2021-06-02",
+      "m1": "23.59"
+    },
+    {
+      "p": "[Symmetric Parallax Attention for Stereo Image Super-Resolution](https://arxiv.org/abs/2011.03802v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/YingqianWang/iPASSR)",
+      "n": "iPASSR",
+      "d": "2020-11-07",
+      "m1": "23.44"
+    },
+    {
+      "p": "[Learning Parallax Attention for Stereo Image Super-Resolution](http://arxiv.org/abs/1903.05784v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/LongguangWang/PASSRnet)",
+      "n": "PASSRnet",
+      "d": "2019-03-14",
+      "m1": "23.31"
+    },
+    {
+      "p": "[Enhancing the Spatial Resolution of Stereo Images Using a Parallax Prior](http://openaccess.thecvf.com/content_cvpr_2018/html/Jeon_Enhancing_the_Spatial_CVPR_2018_paper.html)",
+      "c": "",
+      "n": "StereoSR",
+      "d": "2018-06-01",
+      "m1": "21.70"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

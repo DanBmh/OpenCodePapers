@@ -1,0 +1,146 @@
+# virtual-try-on-on-viton
+
+[Dataset Link](https://github.com/xthan/VITON) \
+Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Virtual Try-on']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "FID",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "SSIM",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "LPIPS",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "IS",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "KID",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Style-Based Global Appearance Flow for Virtual Try-On](https://arxiv.org/abs/2204.01046v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/senhe/flow-style-vton)",
+      "n": "Flow-Style-VTON",
+      "d": "2022-04-03",
+      "m1": "8.89",
+      "m2": "0.91"
+    },
+    {
+      "p": "[Parser-Free Virtual Try-on via Distilling Appearance Flows](https://arxiv.org/abs/2103.04559v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/geyuying/PF-AFN)",
+      "n": "PF-AFN",
+      "d": "2021-03-08",
+      "m1": "10.09"
+    },
+    {
+      "p": "[Single Stage Virtual Try-on via Deformable Attention Flows](https://arxiv.org/abs/2207.09161v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/OFA-Sys/DAFlow)",
+      "n": "SDAFN",
+      "d": "2022-07-19",
+      "m1": "10.97",
+      "m2": "0.888",
+      "m4": "2.859",
+      "m6": "26.48"
+    },
+    {
+      "p": "[Full-Range Virtual Try-On With Recurrent Tri-Level Transform](http://openaccess.thecvf.com//content/CVPR2022/html/Yang_Full-Range_Virtual_Try-On_With_Recurrent_Tri-Level_Transform_CVPR_2022_paper.html)",
+      "c": "",
+      "n": "RT-VTON",
+      "d": "2022-01-01",
+      "m1": "11.66"
+    },
+    {
+      "p": "[Dress Code: High-Resolution Multi-Category Virtual Try-On](https://arxiv.org/abs/2204.08532v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/aimagelab/dress-code)",
+      "n": "PSAD",
+      "d": "2022-04-18",
+      "m1": "13.71",
+      "m2": "0.885",
+      "m4": "2.84",
+      "m5": "41.2"
+    },
+    {
+      "p": "[C-VTON: Context-Driven Image-Based Virtual Try-On Network](https://arxiv.org/abs/2212.04437v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/benquick123/c-vton)",
+      "n": "C-VTON",
+      "d": "2022-12-08",
+      "m1": "19.54",
+      "m3": "0.108"
+    },
+    {
+      "p": "[CloTH-VTON+: Clothing Three-dimensional reconstruction for Hybrid image-based Virtual Try-ON](https://ieeexplore.ieee.org/document/9354778)",
+      "c": "",
+      "n": "CloTH-VTON+",
+      "d": "2021-02-16",
+      "m2": "0.8937",
+      "m3": "0.0958"
+    },
+    {
+      "p": "[Towards Photo-Realistic Virtual Try-On by Adaptively Generating$\\leftrightarrow$Preserving Image Content](https://arxiv.org/abs/2003.05863v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/switchablenorms/DeepFashion_Try_On)",
+      "n": "ACGPN",
+      "d": "2020-03-12",
+      "m2": "0.845",
+      "m4": "2.829"
+    },
+    {
+      "p": "[ClothFlow: A Flow-Based Model for Clothed Person Generation](http://openaccess.thecvf.com/content_ICCV_2019/html/Han_ClothFlow_A_Flow-Based_Model_for_Clothed_Person_Generation_ICCV_2019_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/adldotori/ClothFlow)",
+      "n": "ClothFlow",
+      "d": "2019-10-01",
+      "m2": "0.841"
+    },
+    {
+      "p": "[CP-VTON+: Clothing Shape and Texture Preserving Image-Based Virtual Try-On](https://minar09.github.io/cpvtonplus/)",
+      "c": "[&check;&nbsp;Link](https://github.com/minar09/cp-vton-plus)",
+      "n": "CP-VTON+",
+      "d": "2020-06-10",
+      "m2": "0.8163",
+      "m3": "0.1144",
+      "m4": "3.1048"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

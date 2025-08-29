@@ -1,0 +1,74 @@
+# object-categorization-on-grit
+
+[Dataset Link](https://grit-benchmark.org/) \
+Task Hierarchy: ['Object Categorization']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Categorization (ablation)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Categorization (test)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Unified-IO: A Unified Model for Vision, Language, and Multi-Modal Tasks](https://arxiv.org/abs/2206.08916v2)",
+      "c": "",
+      "n": "Unified-IOXL",
+      "d": "2022-06-17",
+      "m1": "61.7",
+      "m2": "60.8"
+    },
+    {
+      "p": "[Webly Supervised Concept Expansion for General Purpose Vision Models](https://arxiv.org/abs/2202.02317v2)",
+      "c": "",
+      "n": "GPV-2",
+      "d": "2022-02-04",
+      "m1": "54.7",
+      "m2": "55.1"
+    },
+    {
+      "p": "[Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/openai/CLIP)",
+      "n": "CLIP",
+      "d": "2021-02-26",
+      "m1": "48.1"
+    },
+    {
+      "p": "[OFA: Unifying Architectures, Tasks, and Modalities Through a Simple Sequence-to-Sequence Learning Framework](https://arxiv.org/abs/2202.03052v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/modelscope/modelscope)",
+      "n": "OFA_Large",
+      "d": "2022-02-07",
+      "m1": "22.6"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

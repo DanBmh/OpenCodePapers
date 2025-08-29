@@ -1,0 +1,102 @@
+# age-invariant-face-recognition-on-cacdvs
+
+[Dataset Link]() \
+Task Hierarchy: ['3D Face Reconstruction', 'Facial Recognition and Modelling', 'Face Recognition', 'Age-Invariant Face Recognition']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Look Across Elapse: Disentangled Representation Learning and Photorealistic Cross-Age Face Synthesis for Age-Invariant Face Recognition](http://arxiv.org/abs/1809.00338v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ZhaoJ9014/High_Performance_Face_Recognition)",
+      "n": "AIM + CAFR",
+      "d": "2018-09-02",
+      "m1": "99.76%"
+    },
+    {
+      "p": "[When Age-Invariant Face Recognition Meets Face Age Synthesis: A Multi-Task Learning Framework](https://arxiv.org/abs/2103.01520v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Hzzone/MTLFace)",
+      "n": "MTLFace",
+      "d": "2021-03-02",
+      "m1": "99.55%"
+    },
+    {
+      "p": "[Decorrelated Adversarial Learning for Age-Invariant Face Recognition](http://arxiv.org/abs/1904.04972v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/neverUseThisName/Decorrelated-Adversarial-Learning)",
+      "n": "DAL",
+      "d": "2019-04-10",
+      "m1": "99.4%"
+    },
+    {
+      "p": "[Look Across Elapse: Disentangled Representation Learning and Photorealistic Cross-Age Face Synthesis for Age-Invariant Face Recognition](http://arxiv.org/abs/1809.00338v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ZhaoJ9014/High_Performance_Face_Recognition)",
+      "n": "AIM",
+      "d": "2018-09-02",
+      "m1": "99.38%"
+    },
+    {
+      "p": "[Orthogonal Deep Features Decomposition for Age-Invariant Face Recognition](http://arxiv.org/abs/1810.07599v1)",
+      "c": "",
+      "n": "OE-CNN",
+      "d": "2018-10-17",
+      "m1": "99.2%"
+    },
+    {
+      "p": "[DeepVisage: Making face recognition simple yet with powerful generalization skills](http://arxiv.org/abs/1703.08388v2)",
+      "c": "",
+      "n": "DeepVisage",
+      "d": "2017-03-24",
+      "m1": "99.13%"
+    },
+    {
+      "p": "[Latent Factor Guided Convolutional Neural Networks for Age-Invariant Face Recognition](http://openaccess.thecvf.com/content_cvpr_2016/html/Wen_Latent_Factor_Guided_CVPR_2016_paper.html)",
+      "c": "",
+      "n": "LF-CNNs",
+      "d": "2016-06-01",
+      "m1": "98.5"
+    },
+    {
+      "p": "[A Light CNN for Deep Face Representation with Noisy Labels](http://arxiv.org/abs/1511.02683v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/AlfredXiangWu/LightCNN)",
+      "n": "MFM-CNN",
+      "d": "2015-11-09",
+      "m1": "97.95%"
+    },
+    {
+      "p": "[Blessing of Dimensionality: High-Dimensional Feature and Its Efficient Compression for Face Verification](http://openaccess.thecvf.com/content_cvpr_2013/html/Chen_Blessing_of_Dimensionality_2013_CVPR_paper.html)",
+      "c": "",
+      "n": "High-Dimensional LBP",
+      "d": "2013-06-01",
+      "m1": "81.6"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,97 @@
+# face-recognition-on-ijb-b
+
+[Dataset Link](https://www.nist.gov/programs-projects/face-challenges) \
+Task Hierarchy: ['3D Face Reconstruction', 'Facial Recognition and Modelling', 'Face Recognition']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Rank-1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Rank-5",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "TAR @ FAR=0.0001",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "TAR @ FAR=1e-3",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "TAR @ FAR=1e-4",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "TAR @ FAR=1e-5",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Controllable and Guided Face Synthesis for Unconstrained Face Recognition](https://arxiv.org/abs/2207.10180v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Faceplugin-ltd/FaceRecognition-Android)",
+      "n": "ArcFace+CSFM",
+      "d": "2022-07-20",
+      "m1": "0.9496",
+      "m2": "0.9684",
+      "m4": "0.9621",
+      "m5": "0.9461",
+      "m6": "0.9095"
+    },
+    {
+      "p": "[AdaFace: Quality Adaptive Margin for Face Recognition](https://arxiv.org/abs/2204.00964v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mk-minchul/adaface)",
+      "n": "ArcFace + MS1MV2 + R100",
+      "d": "2022-04-03",
+      "m1": "0.9450",
+      "m6": "0.8933"
+    },
+    {
+      "p": "[ElasticFace: Elastic Margin Loss for Deep Face Recognition](https://arxiv.org/abs/2109.09416v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/fdbtrs/ElasticFace)",
+      "n": "ElasticFace-Cos",
+      "d": "2021-09-20",
+      "m3": "0.953"
+    },
+    {
+      "p": "[AdaFace: Quality Adaptive Margin for Face Recognition](https://arxiv.org/abs/2204.00964v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mk-minchul/adaface)",
+      "n": "AdaFace + MS1MV3 + R100",
+      "d": "2022-04-03",
+      "m3": "0.9425"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

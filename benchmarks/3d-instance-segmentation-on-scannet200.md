@@ -1,0 +1,88 @@
+# 3d-instance-segmentation-on-scannet200
+
+[Dataset Link](http://kaldir.vc.in.tum.de/scannet_benchmark/) \
+Task Hierarchy: ['3D Instance Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mAP",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "mAP@25",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "mAP@50",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[ODIN: A Single Model for 2D and 3D Segmentation](https://arxiv.org/abs/2401.02416v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/ayushjain1144/odin)",
+      "n": "ODIN",
+      "d": "2024-01-04",
+      "m1": "31.5",
+      "m2": "53.1",
+      "m3": "45.3"
+    },
+    {
+      "p": "[Mask3D: Mask Transformer for 3D Semantic Instance Segmentation](https://arxiv.org/abs/2210.03105v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jonasschult/mask3d)",
+      "n": "Mask3D",
+      "d": "2022-10-06",
+      "m1": "27.8"
+    },
+    {
+      "p": "[MSTA3D: Multi-scale Twin-attention for 3D Instance Segmentation](https://arxiv.org/abs/2411.01781v3)",
+      "c": "",
+      "n": "MSTA3D",
+      "d": "2024-11-04",
+      "m1": "26.2",
+      "m2": "40.1",
+      "m3": "35.2"
+    },
+    {
+      "p": "[ISBNet: a 3D Point Cloud Instance Segmentation Network with Instance-aware Sampling and Box-aware Dynamic Convolution](https://arxiv.org/abs/2303.00246v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/VinAIResearch/ISBNet)",
+      "n": "ISBNet",
+      "d": "2023-03-01",
+      "m1": "24.5"
+    },
+    {
+      "p": "[Open3DIS: Open-Vocabulary 3D Instance Segmentation with 2D Mask Guidance](https://arxiv.org/abs/2312.10671v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/VinAIResearch/Open3DIS)",
+      "n": "Open3DIS (Open-Vocabulary)",
+      "d": "2023-12-17",
+      "m1": "23.7"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

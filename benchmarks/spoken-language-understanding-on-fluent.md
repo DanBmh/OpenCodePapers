@@ -1,0 +1,158 @@
+# spoken-language-understanding-on-fluent
+
+[Dataset Link](https://fluent.ai/fluent-speech-commands-a-dataset-for-spoken-language-understanding-research/) \
+Task Hierarchy: ['Dialogue Understanding', 'Spoken Language Understanding']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy (%)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Finstreder: Simple and fast Spoken Language Understanding with Finite State Transducers using modern Speech-to-Text models](https://arxiv.org/abs/2206.14589v1)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/Jaco-Assistant/Jaco-Master)",
+      "n": "Finstreder (Conformer + AMT, character-based)",
+      "d": "2022-06-29",
+      "m1": "99.8"
+    },
+    {
+      "p": "[UniverSLU: Universal Spoken Language Understanding for Diverse Tasks with Natural Language Instructions](https://arxiv.org/abs/2310.02973v2)",
+      "c": "",
+      "n": "UniverSLU",
+      "d": "2023-10-04",
+      "m1": "99.8"
+    },
+    {
+      "p": "[Finstreder: Simple and fast Spoken Language Understanding with Finite State Transducers using modern Speech-to-Text models](https://arxiv.org/abs/2206.14589v1)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/Jaco-Assistant/Jaco-Master)",
+      "n": "Finstreder (Quartznet + AMT)",
+      "d": "2022-06-29",
+      "m1": "99.7"
+    },
+    {
+      "p": "[Two-stage Textual Knowledge Distillation for End-to-End Spoken Language Understanding](https://arxiv.org/abs/2010.13105v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/clovaai/textual-kd-slu)",
+      "n": "textual-kd-slu",
+      "d": "2020-10-25",
+      "m1": "99.7"
+    },
+    {
+      "p": "[Integration of Pre-trained Networks with Continuous Token Interface for End-to-End Spoken Language Understanding](https://arxiv.org/abs/2104.07253v2)",
+      "c": "",
+      "n": "Wav2Vec2.0-Classifier",
+      "d": "2021-04-15",
+      "m1": "99.7"
+    },
+    {
+      "p": "[Speech-language Pre-training for End-to-end Spoken Language Understanding](https://arxiv.org/abs/2102.06283v1)",
+      "c": "",
+      "n": "E2E SLP two-step",
+      "d": "2021-02-11",
+      "m1": "99.7"
+    },
+    {
+      "p": "[Do We Still Need Automatic Speech Recognition for Spoken Language Understanding?](https://arxiv.org/abs/2111.14842v1)",
+      "c": "",
+      "n": "Wav2vec 2.0 SSL",
+      "d": "2021-11-29",
+      "m1": "99.6"
+    },
+    {
+      "p": "[Finstreder: Simple and fast Spoken Language Understanding with Finite State Transducers using modern Speech-to-Text models](https://arxiv.org/abs/2206.14589v1)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/Jaco-Assistant/Jaco-Master)",
+      "n": "Finstreder (Conformer)",
+      "d": "2022-06-29",
+      "m1": "99.5"
+    },
+    {
+      "p": "[Exploring Transfer Learning For End-to-End Spoken Language Understanding](https://arxiv.org/abs/2012.08549v1)",
+      "c": "",
+      "n": "AT-AT",
+      "d": "2020-12-15",
+      "m1": "99.5"
+    },
+    {
+      "p": "[End-to-End Spoken Language Understanding for Generalized Voice Assistants](https://arxiv.org/abs/2106.09009v2)",
+      "c": "",
+      "n": "BERT, AC Pretraining",
+      "d": "2021-06-16",
+      "m1": "99.4"
+    },
+    {
+      "p": "[Sequential End-to-End Intent and Slot Label Classification and Localization](https://arxiv.org/abs/2106.04660v1)",
+      "c": "",
+      "n": "3D-CNN+LSTM+CE",
+      "d": "2021-06-08",
+      "m1": "99.3"
+    },
+    {
+      "p": "[Finstreder: Simple and fast Spoken Language Understanding with Finite State Transducers using modern Speech-to-Text models](https://arxiv.org/abs/2206.14589v1)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/Jaco-Assistant/Jaco-Master)",
+      "n": "Finstreder (Quartznet)",
+      "d": "2022-06-29",
+      "m1": "99.2"
+    },
+    {
+      "p": "[Improving End-to-End Speech-to-Intent Classification with Reptile](https://arxiv.org/abs/2008.01994v1)",
+      "c": "",
+      "n": "Reptile",
+      "d": "2020-08-05",
+      "m1": "99.2"
+    },
+    {
+      "p": "[FANS: Fusing ASR and NLU for on-device SLU](https://arxiv.org/abs/2111.00400v1)",
+      "c": "",
+      "n": "FANS",
+      "d": "2021-10-31",
+      "m1": "99.0"
+    },
+    {
+      "p": "[Speech Model Pre-training for End-to-End Spoken Language Understanding](https://arxiv.org/abs/1904.03670v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dscripka/openwakeword)",
+      "n": "Pooling classifier pre-trained using force-aligned phoneme and word labels on LibriSpeech",
+      "d": "2019-04-07",
+      "m1": "98.8"
+    },
+    {
+      "p": "[Finstreder: Simple and fast Spoken Language Understanding with Finite State Transducers using modern Speech-to-Text models](https://arxiv.org/abs/2206.14589v1)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/Jaco-Assistant/Jaco-Master)",
+      "n": "Amazon Alexa",
+      "d": "2022-06-29",
+      "m1": "98.7"
+    },
+    {
+      "p": "[SpeechPrompt v2: Prompt Tuning for Speech Classification Tasks](https://arxiv.org/abs/2303.00733v1)",
+      "c": "",
+      "n": "pGSLM+",
+      "d": "2023-03-01",
+      "m1": "98.2"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

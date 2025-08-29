@@ -1,0 +1,122 @@
+# abstractive-text-summarization-on-abstractive-1
+
+[Dataset Link](https://huggingface.co/datasets/ARTeLab/ilpost) \
+Task Hierarchy: ['Abstractive Text Summarization']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "ROUGE-1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "ROUGE-2",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "ROUGE-L",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "BERTScore",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[BART-IT: An Efficient Sequence-to-Sequence Model for Italian Text Summarization](https://www.mdpi.com/1999-5903/15/1/15)",
+      "c": "[&check;&nbsp;Link](https://github.com/MorenoLaQuatra/bart-it)",
+      "n": "mBART",
+      "d": "2022-12-27",
+      "m1": "38.91",
+      "m2": "21.41",
+      "m3": "32.08",
+      "m4": "75.86"
+    },
+    {
+      "p": "[Two New Datasets for Italian-Language Abstractive Text Summarization](https://www.mdpi.com/2078-2489/13/5/228)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/nicolalandro/summarization)",
+      "n": "mBART",
+      "d": "2022-04-29",
+      "m1": "38.91"
+    },
+    {
+      "p": "[BART-IT: An Efficient Sequence-to-Sequence Model for Italian Text Summarization](https://www.mdpi.com/1999-5903/15/1/15)",
+      "c": "[&check;&nbsp;Link](https://github.com/MorenoLaQuatra/bart-it)",
+      "n": "BART-IT",
+      "d": "2022-12-27",
+      "m1": "37.31",
+      "m2": "19.44",
+      "m3": "30.41",
+      "m4": "75.36"
+    },
+    {
+      "p": "[BART-IT: An Efficient Sequence-to-Sequence Model for Italian Text Summarization](https://www.mdpi.com/1999-5903/15/1/15)",
+      "c": "[&check;&nbsp;Link](https://github.com/MorenoLaQuatra/bart-it)",
+      "n": "mT5",
+      "d": "2022-12-27",
+      "m1": "35.04",
+      "m2": "17.41",
+      "m3": "28.68",
+      "m4": "74.69"
+    },
+    {
+      "p": "[Two New Datasets for Italian-Language Abstractive Text Summarization](https://www.mdpi.com/2078-2489/13/5/228)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/nicolalandro/summarization)",
+      "n": "IT5",
+      "d": "2022-04-29",
+      "m1": "33.78"
+    },
+    {
+      "p": "[BART-IT: An Efficient Sequence-to-Sequence Model for Italian Text Summarization](https://www.mdpi.com/1999-5903/15/1/15)",
+      "c": "[&check;&nbsp;Link](https://github.com/MorenoLaQuatra/bart-it)",
+      "n": "IT5-base",
+      "d": "2022-12-27",
+      "m1": "32.88",
+      "m2": "15.53",
+      "m3": "26.7",
+      "m4": "71.06"
+    },
+    {
+      "p": "[Two New Datasets for Italian-Language Abstractive Text Summarization](https://www.mdpi.com/2078-2489/13/5/228)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/nicolalandro/summarization)",
+      "n": "Pegasus-CNN/DM (eng-it translation)",
+      "d": "2022-04-29",
+      "m1": "23.96"
+    },
+    {
+      "p": "[Two New Datasets for Italian-Language Abstractive Text Summarization](https://www.mdpi.com/2078-2489/13/5/228)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/nicolalandro/summarization)",
+      "n": "Pegasus-XSum (eng-it translation)",
+      "d": "2022-04-29",
+      "m1": "21.03"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

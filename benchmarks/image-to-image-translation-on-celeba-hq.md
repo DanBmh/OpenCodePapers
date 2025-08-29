@@ -1,0 +1,89 @@
+# image-to-image-translation-on-celeba-hq
+
+[Dataset Link](https://github.com/tkarras/progressive_growing_of_gans) \
+Task Hierarchy: ['1 Image, 2*2 Stitching', 'Image-to-Image Translation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "FID",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "LPIPS",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[StarGAN v2: Diverse Image Synthesis for Multiple Domains](https://arxiv.org/abs/1912.01865v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/clovaai/stargan-v2)",
+      "n": "StarGAN v2",
+      "d": "2019-12-04",
+      "m1": "13.73",
+      "m2": "0.428"
+    },
+    {
+      "p": "[Cross-domain Correspondence Learning for Exemplar-based Image Translation](https://arxiv.org/abs/2004.05571v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/CoCosNet)",
+      "n": "CoCosNet",
+      "d": "2020-04-12",
+      "m1": "14.3"
+    },
+    {
+      "p": "[Hypercomplex Image-to-Image Translation](https://arxiv.org/abs/2205.02087v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ispamm/hi2i)",
+      "n": "PHStarGANv2 n=4",
+      "d": "2022-05-04",
+      "m1": "16.54",
+      "m2": "0.29"
+    },
+    {
+      "p": "[Hypercomplex Image-to-Image Translation](https://arxiv.org/abs/2205.02087v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ispamm/hi2i)",
+      "n": "PHStarGANv2 n=3",
+      "d": "2022-05-04",
+      "m1": "16.63",
+      "m2": "0.33"
+    },
+    {
+      "p": "[Image-to-Image Translation with Low Resolution Conditioning](https://arxiv.org/abs/2107.11262v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Medabid1/I2I-LR)",
+      "n": "PonoSPadaIN",
+      "d": "2021-07-23",
+      "m1": "23.8"
+    },
+    {
+      "p": "[EGSDE: Unpaired Image-to-Image Translation via Energy-Guided Stochastic Differential Equations](https://arxiv.org/abs/2207.06635v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/ML-GSAI/EGSDE)",
+      "n": "EGSDE",
+      "d": "2022-07-14",
+      "m1": "30.61"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

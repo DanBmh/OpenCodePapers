@@ -1,0 +1,60 @@
+# graph-classification-on-synthetic-dynamic
+
+[Dataset Link](https://data.4tu.nl/datasets/0b40e329-7b33-4b8f-a289-ab6d1893b437) \
+Task Hierarchy: ['Classification', 'Graph Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Learning the mechanisms of network growth](https://arxiv.org/abs/2404.00793v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/LourensT/DynamicNetworkSimulation)",
+      "n": "Time-cohort Dynamic Features + Static Features",
+      "d": "2024-03-31",
+      "m1": "98.4"
+    },
+    {
+      "p": "[Learning the mechanisms of network growth](https://arxiv.org/abs/2404.00793v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/LourensT/DynamicNetworkSimulation)",
+      "n": "Size-cohort Dynamic Features + Static Features",
+      "d": "2024-03-31",
+      "m1": "98.06"
+    },
+    {
+      "p": "[Learning the mechanisms of network growth](https://arxiv.org/abs/2404.00793v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/LourensT/DynamicNetworkSimulation)",
+      "n": "Static Features",
+      "d": "2024-03-31",
+      "m1": "92.81%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

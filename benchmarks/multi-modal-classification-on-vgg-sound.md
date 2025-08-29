@@ -1,0 +1,74 @@
+# multi-modal-classification-on-vgg-sound
+
+[Dataset Link](http://www.robots.ox.ac.uk/~vgg/data/vggsound/) \
+Task Hierarchy: ['Multi-modal Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Top-1 Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Top-5 Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Multiscale Multimodal Transformer for Multimodal Action Recognition](https://openreview.net/pdf?id=aqP3WFwMPbe)",
+      "c": "",
+      "n": "MMT",
+      "d": "2022-09-22",
+      "m1": "66.2",
+      "m2": "85.7"
+    },
+    {
+      "p": "[Contrastive Audio-Visual Masked Autoencoder](https://arxiv.org/abs/2210.07839v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/yuangongnd/cav-mae)",
+      "n": "CAV-MAE (Audio-Visual)",
+      "d": "2022-10-02",
+      "m1": "65.9"
+    },
+    {
+      "p": "[UAVM: Towards Unifying Audio and Visual Models](https://arxiv.org/abs/2208.00061v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/YuanGongND/uavm)",
+      "n": "UAVM",
+      "d": "2022-07-29",
+      "m1": "65.8"
+    },
+    {
+      "p": "[AVT: Audio-Video Transformer for Multimodal Action Recognition](https://openreview.net/pdf?id=yFuHxmSwGus)",
+      "c": "",
+      "n": "AVT",
+      "d": "2022-09-22",
+      "m1": "63.9",
+      "m2": "85.0"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

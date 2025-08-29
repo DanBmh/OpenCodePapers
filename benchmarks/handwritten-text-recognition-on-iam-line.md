@@ -1,0 +1,84 @@
+# handwritten-text-recognition-on-iam-line
+
+[Dataset Link](https://fki.tic.heia-fr.ch/databases/iam-handwriting-database) \
+Task Hierarchy: ['Handwritten Text Recognition']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Test CER",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Test WER",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[TrOCR: Transformer-based Optical Character Recognition with Pre-trained Models](https://arxiv.org/abs/2109.10282v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "TrOCR",
+      "d": "2021-09-21",
+      "m1": "3.4",
+      "m2": "-"
+    },
+    {
+      "p": "[HTR-VT: Handwritten Text Recognition with Vision Transformer](https://arxiv.org/abs/2409.08573v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yutingli0606/htr-vt)",
+      "n": "HTR-VT",
+      "d": "2024-09-13",
+      "m1": "4.7",
+      "m2": "14.9"
+    },
+    {
+      "p": "[End-to-end Handwritten Paragraph Text Recognition Using a Vertical Attention Network](https://arxiv.org/abs/2012.03868v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/FactoDeepLearning/VerticalAttentionOCR)",
+      "n": "VAN",
+      "d": "2020-12-07",
+      "m1": "5.0",
+      "m2": "16.3"
+    },
+    {
+      "p": "[OrigamiNet: Weakly-Supervised, Segmentation-Free, One-Step, Full Page Text Recognition by learning to unfold](https://arxiv.org/abs/2006.07491v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/mindspore-ai/models/tree/master/official/cv/essay-recogination)",
+      "n": "OrigamiNet-12",
+      "d": "2020-06-12",
+      "m1": "6.0",
+      "m2": "22.3"
+    },
+    {
+      "p": "[Recurrence-free unconstrained handwritten text recognition using gated fully convolutional network](https://arxiv.org/abs/2012.04961v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/FactoDeepLearning/LinePytorchOCR)",
+      "n": "GFCN",
+      "d": "2020-12-09",
+      "m1": "8.0",
+      "m2": "28.6"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

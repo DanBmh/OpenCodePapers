@@ -1,0 +1,74 @@
+# face-anti-spoofing-on-siw-enroll5
+
+[Dataset Link]() \
+Task Hierarchy: ['Depth And Camera Motion', 'Face Anti-Spoofing']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AUC",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[A personalized benchmark for face anti-spoofing](https://openaccess.thecvf.com/content/WACV2022W/MAP-A/html/Belli_A_Personalized_Benchmark_for_Face_Anti-Spoofing_WACVW_2022_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/FaceOnLive/Face-Liveness-Detection-SDK-Linux)",
+      "n": "ResNet18 Personalized",
+      "d": "2022-01-05",
+      "m1": "99.2"
+    },
+    {
+      "p": "[A personalized benchmark for face anti-spoofing](https://openaccess.thecvf.com/content/WACV2022W/MAP-A/html/Belli_A_Personalized_Benchmark_for_Face_Anti-Spoofing_WACVW_2022_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/FaceOnLive/Face-Liveness-Detection-SDK-Linux)",
+      "n": "FeatherNet Personalized",
+      "d": "2022-01-05",
+      "m1": "99.0"
+    },
+    {
+      "p": "[FeatherNets: Convolutional Neural Networks as Light as Feather for Face Anti-spoofing](http://arxiv.org/abs/1904.09290v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SoftwareGift/FeatheNets_Face-Anti-spoofing-Attack-Detection-Challenge-CVPR2019)",
+      "n": "FeatherNet",
+      "d": "2019-04-22",
+      "m1": "98.9"
+    },
+    {
+      "p": "[A personalized benchmark for face anti-spoofing](https://openaccess.thecvf.com/content/WACV2022W/MAP-A/html/Belli_A_Personalized_Benchmark_for_Face_Anti-Spoofing_WACVW_2022_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/FaceOnLive/Face-Liveness-Detection-SDK-Linux)",
+      "n": "VGG16 Personalized",
+      "d": "2022-01-05",
+      "m1": "98.1"
+    },
+    {
+      "p": "[Very Deep Convolutional Networks for Large-Scale Image Recognition](http://arxiv.org/abs/1409.1556v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/research/slim)",
+      "n": "VGG16",
+      "d": "2014-09-04",
+      "m1": "97.8"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

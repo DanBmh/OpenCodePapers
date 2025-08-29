@@ -1,0 +1,291 @@
+# node-classification-on-cora-with-public-split
+
+[Dataset Link](https://relational.fit.cvut.cz/dataset/CORA) \
+Task Hierarchy: ['Node Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[From Cluster Assumption to Graph Convolution: Graph-based Semi-Supervised Learning Revisited](https://arxiv.org/abs/2309.13599v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhengwang100/ogc_ggcm)",
+      "n": "OGC",
+      "d": "2023-09-24",
+      "m1": "86.9%"
+    },
+    {
+      "p": "[Re-Think and Re-Design Graph Neural Networks in Spaces of Continuous Graph Diffusion Functionals](https://arxiv.org/abs/2307.00222v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Dandy5721/GNN-PDE-COV)",
+      "n": "GCN-TV",
+      "d": "2023-07-01",
+      "m1": "86.3%"
+    },
+    {
+      "p": "[Simple and Deep Graph Convolutional Networks](https://arxiv.org/abs/2007.02133v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/chennnM/GCNII/tree/master/PyG/ogbn-arxiv)",
+      "n": "GCNII",
+      "d": "2020-07-04",
+      "m1": "85.5%"
+    },
+    {
+      "p": "[Graph Random Neural Network for Semi-Supervised Learning on Graphs](https://arxiv.org/abs/2005.11079v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/grand)",
+      "n": "GRAND",
+      "d": "2020-05-22",
+      "m1": "85.4 \u00b1 0.4"
+    },
+    {
+      "p": "[Extract the Knowledge of Graph Neural Networks and Go Beyond it: An Effective Knowledge Distillation Framework](https://arxiv.org/abs/2103.02885v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/BUPT-GAMMA/CPF)",
+      "n": "CPF-ind-APPNP",
+      "d": "2021-03-04",
+      "m1": "85.3%"
+    },
+    {
+      "p": "[Classic GNNs are Strong Baselines: Reassessing GNNs for Node Classification](https://arxiv.org/abs/2406.08993v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/LUOyk1999/tunedGNN)",
+      "n": "GCN",
+      "d": "2024-06-13",
+      "m1": "85.1 \u00b1 0.7"
+    },
+    {
+      "p": "[GraphAIR: Graph Representation Learning with Neighborhood Aggregation and Interaction](https://arxiv.org/abs/1911.01731v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/CRIPAC-DIG/GraphAIR)",
+      "n": "AIR-GCN",
+      "d": "2019-11-05",
+      "m1": "84.7%"
+    },
+    {
+      "p": "[Hierarchical Graph Convolutional Networks for Semi-supervised Node Classification](https://arxiv.org/abs/1902.06667v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/CRIPAC-DIG/H-GCN)",
+      "n": "H-GCN",
+      "d": "2019-02-13",
+      "m1": "84.5%"
+    },
+    {
+      "p": "[Towards Deeper Graph Neural Networks](https://arxiv.org/abs/2007.09296v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/dagnn)",
+      "n": "DAGNN (Ours)",
+      "d": "2020-07-18",
+      "m1": "84.4 \u00b1 0.5"
+    },
+    {
+      "p": "[Pre-train and Learn: Preserve Global Information for Graph Neural Networks](https://arxiv.org/abs/1910.12241v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhudanhao/g-gnn)",
+      "n": "G-APPNP",
+      "d": "2019-10-27",
+      "m1": "84.31%"
+    },
+    {
+      "p": "[How to Find Your Friendly Neighborhood: Graph Attention Design with Self-Supervision](https://arxiv.org/abs/2204.04879v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/pyg-team/pytorch_geometric/blob/master/torch_geometric/nn/conv/supergat_conv.py)",
+      "n": "SuperGAT MX",
+      "d": "2022-04-11",
+      "m1": "84.3%"
+    },
+    {
+      "p": "[Bridging the Gap Between Spectral and Spatial Domains in Graph Neural Networks](https://arxiv.org/abs/2003.11702v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/balcilar/Spectral-Designed-Graph-Convolutions)",
+      "n": "DSGCN",
+      "d": "2020-03-26",
+      "m1": "84.2%"
+    },
+    {
+      "p": "[Learning Discrete Structures for Graph Neural Networks](https://arxiv.org/abs/1903.11960v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/lucfra/LDS)",
+      "n": "LDS-GNN",
+      "d": "2019-03-28",
+      "m1": "84.1%"
+    },
+    {
+      "p": "[GraphMix: Improved Training of GNNs for Semi-Supervised Learning](https://arxiv.org/abs/1909.11715v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/vikasverma1077/GraphMix)",
+      "n": "GraphMix",
+      "d": "2019-09-25",
+      "m1": "83.94 \u00b1 0.57"
+    },
+    {
+      "p": "[GraphMix: Improved Training of GNNs for Semi-Supervised Learning](https://arxiv.org/abs/1909.11715v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/vikasverma1077/GraphMix)",
+      "n": "GraphMix (GCN)",
+      "d": "2019-09-25",
+      "m1": "83.94 \u00b1 0.57"
+    },
+    {
+      "p": "[Data Augmentation for Graph Neural Networks](https://arxiv.org/abs/2006.06830v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhao-tong/GAug)",
+      "n": "GCN+GAugO",
+      "d": "2020-06-11",
+      "m1": "83.6 \u00b1 0.5%"
+    },
+    {
+      "p": "[From Cluster Assumption to Graph Convolution: Graph-based Semi-Supervised Learning Revisited](https://arxiv.org/abs/2309.13599v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhengwang100/ogc_ggcm)",
+      "n": "GGCM",
+      "d": "2023-09-24",
+      "m1": "83.6%"
+    },
+    {
+      "p": "[Break the Ceiling: Stronger Multi-scale Deep Graph Convolutional Networks](https://arxiv.org/abs/1906.02174v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/PwnerHarry/Stronger_GCN)",
+      "n": "Snowball (linear)",
+      "d": "2019-06-05",
+      "m1": "83.26%"
+    },
+    {
+      "p": "[The Split Matters: Flat Minima Methods for Improving the Performance of GNNs](https://arxiv.org/abs/2306.09121v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/foisunt/fmms-in-gnns)",
+      "n": "GAT+PGN",
+      "d": "2023-06-15",
+      "m1": "83.26 \u00b1 0.69%"
+    },
+    {
+      "p": "[Break the Ceiling: Stronger Multi-scale Deep Graph Convolutional Networks](https://arxiv.org/abs/1906.02174v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/PwnerHarry/Stronger_GCN)",
+      "n": "Snowball (tanh)",
+      "d": "2019-06-05",
+      "m1": "83.19%"
+    },
+    {
+      "p": "[Break the Ceiling: Stronger Multi-scale Deep Graph Convolutional Networks](https://arxiv.org/abs/1906.02174v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/PwnerHarry/Stronger_GCN)",
+      "n": "Truncated Krylov",
+      "d": "2019-06-05",
+      "m1": "83.16%"
+    },
+    {
+      "p": "[Graph Entropy Minimization for Semi-supervised Node Classification](https://arxiv.org/abs/2305.19502v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cf020031308/gem)",
+      "n": "GEM",
+      "d": "2023-05-31",
+      "m1": "83.05%"
+    },
+    {
+      "p": "[Graph Attention Networks](http://arxiv.org/abs/1710.10903v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+      "n": "GAT",
+      "d": "2017-10-30",
+      "m1": "83.0 \u00b1 0.7%"
+    },
+    {
+      "p": "[A Flexible Generative Framework for Graph-based Semi-supervised Learning](https://arxiv.org/abs/1905.10769v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jiaqima/G3NN)",
+      "n": "G3NN",
+      "d": "2019-05-26",
+      "m1": "82.9%"
+    },
+    {
+      "p": "[Optimization of Graph Neural Networks with Natural Gradient Descent](https://arxiv.org/abs/2008.09624v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/russellizadi/ssp)",
+      "n": "SSP",
+      "d": "2020-08-21",
+      "m1": "82.84 \u00b1 0.87%"
+    },
+    {
+      "p": "[Distilling Self-Knowledge From Contrastive Links to Classify Graph Nodes Without Passing Messages](https://arxiv.org/abs/2106.08541v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cf020031308/LinkDist/blob/master/ogbn.py)",
+      "n": "CoLinkDist",
+      "d": "2021-06-16",
+      "m1": "81.39%"
+    },
+    {
+      "p": "[Distilling Self-Knowledge From Contrastive Links to Classify Graph Nodes Without Passing Messages](https://arxiv.org/abs/2106.08541v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cf020031308/LinkDist/blob/master/ogbn.py)",
+      "n": "CoLinkDistMLP",
+      "d": "2021-06-16",
+      "m1": "81.19%"
+    },
+    {
+      "p": "[Distilling Self-Knowledge From Contrastive Links to Classify Graph Nodes Without Passing Messages](https://arxiv.org/abs/2106.08541v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cf020031308/LinkDist/blob/master/ogbn.py)",
+      "n": "LinkDist",
+      "d": "2021-06-16",
+      "m1": "81.05%"
+    },
+    {
+      "p": "[Distilling Self-Knowledge From Contrastive Links to Classify Graph Nodes Without Passing Messages](https://arxiv.org/abs/2106.08541v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cf020031308/LinkDist/blob/master/ogbn.py)",
+      "n": "LinkDistMLP",
+      "d": "2021-06-16",
+      "m1": "80.79%"
+    },
+    {
+      "p": "[LanczosNet: Multi-Scale Deep Graph Convolutional Networks](https://arxiv.org/abs/1901.01484v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/lrjconan/LanczosNetwork)",
+      "n": "AdaLanczosNet",
+      "d": "2019-01-06",
+      "m1": "80.4 \u00b1 1.1"
+    },
+    {
+      "p": "[Diffusion-Convolutional Neural Networks](http://arxiv.org/abs/1511.02136v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/jcatw/dcnn)",
+      "n": "DCNN",
+      "d": "2015-11-06",
+      "m1": "79.7%"
+    },
+    {
+      "p": "[LanczosNet: Multi-Scale Deep Graph Convolutional Networks](https://arxiv.org/abs/1901.01484v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/lrjconan/LanczosNetwork)",
+      "n": "LanczosNet",
+      "d": "2019-01-06",
+      "m1": "79.5 \u00b1 1.8"
+    },
+    {
+      "p": "[Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering](http://arxiv.org/abs/1606.09375v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/mdeff/cnn_graph)",
+      "n": "ChebyNet",
+      "d": "2016-06-30",
+      "m1": "78.0%"
+    },
+    {
+      "p": "[Gated Graph Sequence Neural Networks](http://arxiv.org/abs/1511.05493v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/ggnn)",
+      "n": "GGNN",
+      "d": "2015-11-17",
+      "m1": "77.6%"
+    },
+    {
+      "p": "[Convolutional Networks on Graphs for Learning Molecular Fingerprints](http://arxiv.org/abs/1509.09292v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/HIPS/neural-fingerprint)",
+      "n": "GCN-FP",
+      "d": "2015-09-30",
+      "m1": "74.6%"
+    },
+    {
+      "p": "[Inductive Representation Learning on Large Graphs](http://arxiv.org/abs/1706.02216v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/pyg-team/pytorch_geometric/blob/master/torch_geometric/nn/models/basic_gnn.py)",
+      "n": "GraphSAGE",
+      "d": "2017-06-07",
+      "m1": "74.5%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

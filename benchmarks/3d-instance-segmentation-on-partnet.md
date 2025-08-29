@@ -1,0 +1,60 @@
+# 3d-instance-segmentation-on-partnet
+
+[Dataset Link](https://cs.stanford.edu/~kaichun/partnet/) \
+Task Hierarchy: ['3D Instance Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mAP50",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Semantic Segmentation-Assisted Instance Feature Fusion for Multi-Level 3D Part Instance Segmentation](https://arxiv.org/abs/2208.04766v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/isunchy/3d_instance_segmentation)",
+      "n": "Semantic Segmentation-Assisted Instance Feature Fusion",
+      "d": "2022-08-09",
+      "m1": "64.1"
+    },
+    {
+      "p": "[Point Cloud Instance Segmentation using Probabilistic Embeddings](https://arxiv.org/abs/1912.00145v2)",
+      "c": "",
+      "n": "Probabilistic Embeddings",
+      "d": "2019-11-30",
+      "m1": "57.5"
+    },
+    {
+      "p": "[PartNet: A Large-scale Benchmark for Fine-grained and Hierarchical Part-level 3D Object Understanding](http://arxiv.org/abs/1812.02713v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yangyanli/PointCNN)",
+      "n": "Partnet",
+      "d": "2018-12-06",
+      "m1": " 54.4"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,67 @@
+# video-anomaly-detection-on-shanghaitech
+
+[Dataset Link](https://svip-lab.github.io/dataset/campus_dataset.html) \
+Task Hierarchy: ['Video Anomaly Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AUC",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[PoseWatch: A Transformer-based Architecture for Human-centric Video Anomaly Detection Using Spatio-temporal Pose Tokenization](https://arxiv.org/abs/2408.15185v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/TeCSAR-UNCC/SPARTA)",
+      "n": "PoseWatch-H",
+      "d": "2024-08-27",
+      "m1": "85.75"
+    },
+    {
+      "p": "[An Exploratory Study on Human-Centric Video Anomaly Detection through Variational Autoencoders and Trajectory Prediction](https://arxiv.org/abs/2406.15395v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tecsar-uncc/tsgad)",
+      "n": "TSGAD",
+      "d": "2024-04-29",
+      "m1": "80.6"
+    },
+    {
+      "p": "[VADMamba: Exploring State Space Models for Fast Video Anomaly Detection](https://arxiv.org/abs/2503.21169v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jLooo/VADMamba)",
+      "n": "VADMamba",
+      "d": "2025-03-27",
+      "m1": "77.0%"
+    },
+    {
+      "p": "[A Hybrid Video Anomaly Detection Framework via Memory-Augmented Flow Reconstruction and Flow-Guided Frame Prediction](https://arxiv.org/abs/2108.06852v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/LiUzHiAn/hf2vad)",
+      "n": "HF2-VAD",
+      "d": "2021-08-16",
+      "m1": "76.2"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

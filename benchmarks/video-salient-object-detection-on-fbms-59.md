@@ -1,0 +1,206 @@
+# video-salient-object-detection-on-fbms-59
+
+[Dataset Link](https://lmb.informatik.uni-freiburg.de/resources/datasets/) \
+Task Hierarchy: ['16k', 'Object Detection', 'RGB Salient Object Detection', 'Video Salient Object Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "S-Measure",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "MAX E-MEASURE",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "MAX F-MEASURE",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "AVERAGE MAE",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Transforming Static Images Using Generative Models for Video Salient Object Detection](https://arxiv.org/abs/2411.13975v1)",
+      "c": "",
+      "n": "RealFlow",
+      "d": "2024-11-21",
+      "m1": "0.926",
+      "m3": "0.906",
+      "m4": "0.028"
+    },
+    {
+      "p": "[A Unified Transformer Framework for Group-based Segmentation: Co-Segmentation, Co-Saliency Detection and Video Salient Object Detection](https://arxiv.org/abs/2203.04708v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/suyukun666/UFO)",
+      "n": "UFO",
+      "d": "2022-03-09",
+      "m1": "0.894",
+      "m3": "0.890",
+      "m4": "0.028"
+    },
+    {
+      "p": "[Shifting More Attention to Video Salient Object Detection](http://openaccess.thecvf.com/content_CVPR_2019/html/Fan_Shifting_More_Attention_to_Video_Salient_Object_Detection_CVPR_2019_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/DengPingFan/DAVSOD)",
+      "n": "SSAV",
+      "d": "2019-06-01",
+      "m1": "0.879",
+      "m2": "0.926",
+      "m3": "0.865",
+      "m4": "0.040"
+    },
+    {
+      "p": "[Semi-Supervised Video Salient Object Detection Using Pseudo-Labels](https://arxiv.org/abs/1908.04051v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Kinpzz/RCRNet-Pytorch)",
+      "n": "RCRNet+NER",
+      "d": "2019-08-12",
+      "m1": "0.870",
+      "m3": "0.861",
+      "m4": "0.054"
+    },
+    {
+      "p": "[Unsupervised Video Object Segmentation with Motion-based Bilateral Networks](http://openaccess.thecvf.com/content_ECCV_2018/html/Siyang_Li_Unsupervised_Video_Object_ECCV_2018_paper.html)",
+      "c": "",
+      "n": "MBNM",
+      "d": "2018-09-01",
+      "m1": "0.857",
+      "m2": "0.892",
+      "m3": "0.816",
+      "m4": "0.047"
+    },
+    {
+      "p": "[Pyramid Dilated Deeper ConvLSTM for Video Salient Object Detection](http://openaccess.thecvf.com/content_ECCV_2018/html/Hongmei_Song_Pseudo_Pyramid_Deeper_ECCV_2018_paper.html)",
+      "c": "",
+      "n": "PDB",
+      "d": "2018-09-01",
+      "m1": "0.851",
+      "m3": "0.821",
+      "m4": "0.064"
+    },
+    {
+      "p": "[Flow Guided Recurrent Neural Encoder for Video Salient Object Detection](http://openaccess.thecvf.com/content_cvpr_2018/html/Li_Flow_Guided_Recurrent_CVPR_2018_paper.html)",
+      "c": "",
+      "n": "FGRN",
+      "d": "2018-06-01",
+      "m1": "0.809",
+      "m2": "0.863",
+      "m3": "0.767",
+      "m4": "0.088"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "LTSI",
+      "d": null,
+      "m1": "0.805",
+      "m2": "0.871",
+      "m3": "0.799",
+      "m4": "0.087"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "SPD",
+      "d": null,
+      "m1": "0.691",
+      "m2": "0.804",
+      "m3": "0.686",
+      "m4": "0.125"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "SRP",
+      "d": null,
+      "m1": "0.684",
+      "m2": "0.773",
+      "m3": "0.671",
+      "m4": "0.134"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "RSE",
+      "d": null,
+      "m1": "0.670",
+      "m2": "0.790",
+      "m3": "0.652",
+      "m4": "0.128"
+    },
+    {
+      "p": "[Saliency-Aware Geodesic Video Object Segmentation](http://openaccess.thecvf.com/content_cvpr_2015/html/Wang_Saliency-Aware_Geodesic_Video_2015_CVPR_paper.html)",
+      "c": "",
+      "n": "SAGM",
+      "d": "2015-06-01",
+      "m1": "0.659",
+      "m3": "0.564",
+      "m4": "0.161"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "MESO",
+      "d": null,
+      "m1": "0.635",
+      "m2": "0.767",
+      "m3": "0.618",
+      "m4": "0.134"
+    },
+    {
+      "p": "[Real-Time Salient Object Detection With a Minimum Spanning Tree](http://openaccess.thecvf.com/content_cvpr_2016/html/Tu_Real-Time_Salient_Object_CVPR_2016_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/cj4L/MST-python)",
+      "n": "MSTM",
+      "d": "2016-06-01",
+      "m1": "0.613",
+      "m3": "0.500",
+      "m4": "0.177"
+    },
+    {
+      "p": "[Minimum Barrier Salient Object Detection at 80 FPS](http://openaccess.thecvf.com/content_iccv_2015/html/Zhang_Minimum_Barrier_Salient_ICCV_2015_paper.html)",
+      "c": "",
+      "n": "MB+M",
+      "d": "2015-12-01",
+      "m1": "0.609",
+      "m3": "0.487",
+      "m4": "0.206"
+    },
+    {
+      "p": "[Time-Mapping Using Space-Time Saliency](http://openaccess.thecvf.com/content_cvpr_2014/html/Zhou_Time-Mapping_Using_Space-Time_2014_CVPR_paper.html)",
+      "c": "",
+      "n": "TIMP",
+      "d": "2014-06-01",
+      "m1": "0.576",
+      "m3": "0.465",
+      "m4": "0.192"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

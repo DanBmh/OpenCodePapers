@@ -1,0 +1,137 @@
+# point-cloud-registration-on-kitti-trained-on
+
+[Dataset Link](http://www.cvlibs.net/datasets/kitti/) \
+Task Hierarchy: ['3D Point Cloud Interpolation', 'Point Cloud Registration']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Success Rate",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Learning general and distinctive 3D local deep descriptors for point cloud registration](https://arxiv.org/abs/2105.10382v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/fabiopoiesi/gedi)",
+      "n": "GeDi",
+      "d": "2021-05-21",
+      "m1": "98.92"
+    },
+    {
+      "p": "[SC2-PCR: A Second Order Spatial Compatibility for Efficient and Robust Point Cloud Registration](http://openaccess.thecvf.com//content/CVPR2022/html/Chen_SC2-PCR_A_Second_Order_Spatial_Compatibility_for_Efficient_and_Robust_CVPR_2022_paper.html)",
+      "c": "",
+      "n": "FCGF+SC2-PCR",
+      "d": "2022-01-01",
+      "m1": "97.66"
+    },
+    {
+      "p": "[PointDSC: Robust Point Cloud Registration using Deep Spatial Consistency](https://arxiv.org/abs/2103.05465v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/XuyangBai/PointDSC)",
+      "n": "FCGF+PointDSC",
+      "d": "2021-03-09",
+      "m1": "96.76"
+    },
+    {
+      "p": "[Addressing the generalization of 3D registration methods with a featureless baseline and an unbiased benchmark](https://link.springer.com/article/10.1007/s00138-024-01510-w)",
+      "c": "[&check;&nbsp;Link](https://github.com/DavidBoja/exhaustive-grid-search)",
+      "n": "Exhaustive Grid Search",
+      "d": "2024-03-23",
+      "m1": "94.95"
+    },
+    {
+      "p": "[PointDSC: Robust Point Cloud Registration using Deep Spatial Consistency](https://arxiv.org/abs/2103.05465v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/XuyangBai/PointDSC)",
+      "n": "FPFH+PointDSC",
+      "d": "2021-03-09",
+      "m1": "94.05"
+    },
+    {
+      "p": "[Distinctive 3D local deep descriptors](https://arxiv.org/abs/2009.00258v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/fabiopoiesi/gedi)",
+      "n": "DIP",
+      "d": "2020-09-01",
+      "m1": "93.51"
+    },
+    {
+      "p": "[Challenging the Universal Representation of Deep Models for 3D Point Cloud Registration](https://arxiv.org/abs/2211.16301v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/davidboja/greedy-grid-search)",
+      "n": "Greedy Grid Search",
+      "d": "2022-11-29",
+      "m1": "90.27"
+    },
+    {
+      "p": "[You Only Hypothesize Once: Point Cloud Registration with Rotation-equivariant Descriptors](https://arxiv.org/abs/2109.00182v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/HpWang-whu/YOHO)",
+      "n": "YOHO-C",
+      "d": "2021-09-01",
+      "m1": "82.16"
+    },
+    {
+      "p": "[SpinNet: Learning a General Surface Descriptor for 3D Point Cloud Registration](https://arxiv.org/abs/2011.12149v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/QingyongHu/SpinNet)",
+      "n": "SpinNet",
+      "d": "2020-11-24",
+      "m1": "81.44"
+    },
+    {
+      "p": "[You Only Hypothesize Once: Point Cloud Registration with Rotation-equivariant Descriptors](https://arxiv.org/abs/2109.00182v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/HpWang-whu/YOHO)",
+      "n": "YOHO-O",
+      "d": "2021-09-01",
+      "m1": "81.44"
+    },
+    {
+      "p": "[GeoTransformer: Fast and Robust Point Cloud Registration with Geometric Transformer](https://arxiv.org/abs/2308.03768v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/qinzheng93/geotransformer)",
+      "n": "GeoTransformer",
+      "d": "2023-07-25",
+      "m1": "67.93"
+    },
+    {
+      "p": "[PREDATOR: Registration of 3D Point Clouds with Low Overlap](https://arxiv.org/abs/2011.13005v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/qinzheng93/geotransformer)",
+      "n": "Predator",
+      "d": "2020-11-25",
+      "m1": "41.20"
+    },
+    {
+      "p": "[D3Feat: Joint Learning of Dense Detection and Description of 3D Local Features](https://arxiv.org/abs/2003.03164v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/XuyangBai/D3Feat)",
+      "n": "D3Feat-pred",
+      "d": "2020-03-06",
+      "m1": "36.76"
+    },
+    {
+      "p": "[Fully Convolutional Geometric Features](https://github.com/chrischoy/FCGF)",
+      "c": "[&check;&nbsp;Link](https://github.com/chrischoy/FCGF)",
+      "n": "FCGF",
+      "d": "2019-10-27",
+      "m1": "24.19"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

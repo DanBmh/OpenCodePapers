@@ -1,0 +1,130 @@
+# graph-classification-on-mnist
+
+[Dataset Link](http://yann.lecun.com/exdb/mnist/) \
+Task Hierarchy: ['Classification', 'Graph Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[An end-to-end attention-based approach for learning on graphs](https://arxiv.org/abs/2402.10793v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/davidbuterez/edge-set-attention)",
+      "n": "ESA (Edge set attention, no positional encodings, tuned)",
+      "d": "2024-02-16",
+      "m1": "98.917\u00b10.020"
+    },
+    {
+      "p": "[Learning Long Range Dependencies on Graphs via Random Walks](https://arxiv.org/abs/2406.03386v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/borgwardtlab/neuralwalker)",
+      "n": "NeuralWalker",
+      "d": "2024-06-05",
+      "m1": "98.760 \u00b1 0.079"
+    },
+    {
+      "p": "[An end-to-end attention-based approach for learning on graphs](https://arxiv.org/abs/2402.10793v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/davidbuterez/edge-set-attention)",
+      "n": "ESA (Edge set attention, no positional encodings)",
+      "d": "2024-02-16",
+      "m1": "98.753\u00b10.041"
+    },
+    {
+      "p": "[Unlocking the Potential of Classic GNNs for Graph-level Tasks: Simple Architectures Meet Excellence](https://arxiv.org/abs/2502.09263v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/LUOyk1999/GNNPlus)",
+      "n": "GatedGCN+",
+      "d": "2025-02-13",
+      "m1": "98.712 \u00b1 0.137"
+    },
+    {
+      "p": "[CKGConv: General Graph Convolution with Continuous Kernels](https://arxiv.org/abs/2404.13604v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/networkslab/ckgconv)",
+      "n": "CKGCN",
+      "d": "2024-04-21",
+      "m1": "98.423"
+    },
+    {
+      "p": "[Exphormer: Sparse Transformers for Graphs](https://arxiv.org/abs/2303.06147v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/hamed1375/exphormer)",
+      "n": "Exphormer",
+      "d": "2023-03-10",
+      "m1": "98.414\u00b10.038"
+    },
+    {
+      "p": "[Unlocking the Potential of Classic GNNs for Graph-level Tasks: Simple Architectures Meet Excellence](https://arxiv.org/abs/2502.09263v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/LUOyk1999/GNNPlus)",
+      "n": "GCN+",
+      "d": "2025-02-13",
+      "m1": "98.382 \u00b1 0.095"
+    },
+    {
+      "p": "[Graph Transformers without Positional Encodings](https://arxiv.org/abs/2401.17791v3)",
+      "c": "",
+      "n": "EIGENFORMER",
+      "d": "2024-01-31",
+      "m1": "98.362"
+    },
+    {
+      "p": "[Topology-Informed Graph Transformer](https://arxiv.org/abs/2402.02005v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/leemingo/tigt)",
+      "n": "TIGT",
+      "d": "2024-02-03",
+      "m1": "98.230\u00b10.133"
+    },
+    {
+      "p": "[Global Self-Attention as a Replacement for Graph Convolution](https://arxiv.org/abs/2108.03348v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/shamim-hussain/egt_pytorch)",
+      "n": "EGT",
+      "d": "2021-08-07",
+      "m1": "98.173"
+    },
+    {
+      "p": "[Graph Inductive Biases in Transformers without Message Passing](https://arxiv.org/abs/2305.17589v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/liamma/grit)",
+      "n": "GRIT",
+      "d": "2023-05-27",
+      "m1": "98.108"
+    },
+    {
+      "p": "[Recipe for a General, Powerful, Scalable Graph Transformer](https://arxiv.org/abs/2205.12454v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/rampasek/GraphGPS)",
+      "n": "GPS",
+      "d": "2022-05-25",
+      "m1": "98.05"
+    },
+    {
+      "p": "[Benchmarking Graph Neural Networks](https://arxiv.org/abs/2003.00982v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/graphdeeplearning/benchmarking-gnns)",
+      "n": "GatedGCN",
+      "d": "2020-03-02",
+      "m1": "97.340"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

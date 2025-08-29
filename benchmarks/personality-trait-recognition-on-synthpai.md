@@ -1,0 +1,165 @@
+# personality-trait-recognition-on-synthpai
+
+[Dataset Link](https://huggingface.co/datasets/RobinSta/SynthPAI) \
+Task Hierarchy: ['Personality Trait Recognition']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Average accuracy in %",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[A Synthetic Dataset for Personal Attribute Inference](https://arxiv.org/abs/2406.07217v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/eth-sri/synthpai)",
+      "n": "GPT-4",
+      "d": "2024-06-11",
+      "m1": "77.9%"
+    },
+    {
+      "p": "[A Synthetic Dataset for Personal Attribute Inference](https://arxiv.org/abs/2406.07217v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/eth-sri/synthpai)",
+      "n": "LLama-3 70B",
+      "d": "2024-06-11",
+      "m1": "72.2%"
+    },
+    {
+      "p": "[A Synthetic Dataset for Personal Attribute Inference](https://arxiv.org/abs/2406.07217v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/eth-sri/synthpai)",
+      "n": "Mixtral 8x22B",
+      "d": "2024-06-11",
+      "m1": "72%"
+    },
+    {
+      "p": "[A Synthetic Dataset for Personal Attribute Inference](https://arxiv.org/abs/2406.07217v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/eth-sri/synthpai)",
+      "n": "Claude-3 Opus",
+      "d": "2024-06-11",
+      "m1": "71.1%"
+    },
+    {
+      "p": "[A Synthetic Dataset for Personal Attribute Inference](https://arxiv.org/abs/2406.07217v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/eth-sri/synthpai)",
+      "n": "Claude-3 Sonnet",
+      "d": "2024-06-11",
+      "m1": "70.9%"
+    },
+    {
+      "p": "[A Synthetic Dataset for Personal Attribute Inference](https://arxiv.org/abs/2406.07217v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/eth-sri/synthpai)",
+      "n": "Gemini 1.5 Pro",
+      "d": "2024-06-11",
+      "m1": "67.5%"
+    },
+    {
+      "p": "[A Synthetic Dataset for Personal Attribute Inference](https://arxiv.org/abs/2406.07217v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/eth-sri/synthpai)",
+      "n": "Qwen1.5 110B",
+      "d": "2024-06-11",
+      "m1": "65.7%"
+    },
+    {
+      "p": "[A Synthetic Dataset for Personal Attribute Inference](https://arxiv.org/abs/2406.07217v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/eth-sri/synthpai)",
+      "n": "Gemini 1.0 Pro",
+      "d": "2024-06-11",
+      "m1": "64.6%"
+    },
+    {
+      "p": "[A Synthetic Dataset for Personal Attribute Inference](https://arxiv.org/abs/2406.07217v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/eth-sri/synthpai)",
+      "n": "Claude-3 Haiku",
+      "d": "2024-06-11",
+      "m1": "64%"
+    },
+    {
+      "p": "[A Synthetic Dataset for Personal Attribute Inference](https://arxiv.org/abs/2406.07217v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/eth-sri/synthpai)",
+      "n": "Yi 34B",
+      "d": "2024-06-11",
+      "m1": "57.7%"
+    },
+    {
+      "p": "[A Synthetic Dataset for Personal Attribute Inference](https://arxiv.org/abs/2406.07217v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/eth-sri/synthpai)",
+      "n": "LLama-2 70B",
+      "d": "2024-06-11",
+      "m1": "56.8%"
+    },
+    {
+      "p": "[A Synthetic Dataset for Personal Attribute Inference](https://arxiv.org/abs/2406.07217v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/eth-sri/synthpai)",
+      "n": "GPT-3.5",
+      "d": "2024-06-11",
+      "m1": "55.9%"
+    },
+    {
+      "p": "[A Synthetic Dataset for Personal Attribute Inference](https://arxiv.org/abs/2406.07217v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/eth-sri/synthpai)",
+      "n": "LLama-3 8B",
+      "d": "2024-06-11",
+      "m1": "53.5%"
+    },
+    {
+      "p": "[A Synthetic Dataset for Personal Attribute Inference](https://arxiv.org/abs/2406.07217v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/eth-sri/synthpai)",
+      "n": "Mixtral 8x7B",
+      "d": "2024-06-11",
+      "m1": "52.3%"
+    },
+    {
+      "p": "[A Synthetic Dataset for Personal Attribute Inference](https://arxiv.org/abs/2406.07217v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/eth-sri/synthpai)",
+      "n": "LLama-2 13B",
+      "d": "2024-06-11",
+      "m1": "48.7%"
+    },
+    {
+      "p": "[A Synthetic Dataset for Personal Attribute Inference](https://arxiv.org/abs/2406.07217v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/eth-sri/synthpai)",
+      "n": "Mistral 7B",
+      "d": "2024-06-11",
+      "m1": "42.4%"
+    },
+    {
+      "p": "[A Synthetic Dataset for Personal Attribute Inference](https://arxiv.org/abs/2406.07217v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/eth-sri/synthpai)",
+      "n": "Gemma 7B",
+      "d": "2024-06-11",
+      "m1": "34.9%"
+    },
+    {
+      "p": "[A Synthetic Dataset for Personal Attribute Inference](https://arxiv.org/abs/2406.07217v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/eth-sri/synthpai)",
+      "n": "LLama-2 7B",
+      "d": "2024-06-11",
+      "m1": "33%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

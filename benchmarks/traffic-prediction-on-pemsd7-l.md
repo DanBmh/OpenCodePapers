@@ -1,0 +1,103 @@
+# traffic-prediction-on-pemsd7-l
+
+[Dataset Link]() \
+Task Hierarchy: ['Traffic Prediction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "12 steps MAE",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "12 steps MAPE",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "12 steps RMSE",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Spatial-Temporal-Decoupled Masked Pre-training for Spatiotemporal Forecasting](https://arxiv.org/abs/2312.00516v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/jimmy-7664/std-mae)",
+      "n": "STD-MAE",
+      "d": "2023-12-01",
+      "m1": "2.64",
+      "m2": "6.65",
+      "m3": "5.50"
+    },
+    {
+      "p": "[A Decomposition Dynamic graph convolutional recurrent network for traffic forecasting](https://www.sciencedirect.com/science/article/abs/pii/S0031320323003710)",
+      "c": "[&check;&nbsp;Link](https://github.com/wengwenchao123/DDGCRN)",
+      "n": "DDGCRN",
+      "d": "2023-05-01",
+      "m1": "2.79",
+      "m2": "7.06",
+      "m3": "5.68"
+    },
+    {
+      "p": "[Pattern-Matching Dynamic Memory Network for Dual-Mode Traffic Prediction](https://arxiv.org/abs/2408.07100v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/wengwenchao123/PM-DMNet)",
+      "n": "PM-DMNet(R)",
+      "d": "2024-08-12",
+      "m1": "2.79",
+      "m2": "6.99",
+      "m3": "5.81"
+    },
+    {
+      "p": "[Pattern-Matching Dynamic Memory Network for Dual-Mode Traffic Prediction](https://arxiv.org/abs/2408.07100v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/wengwenchao123/PM-DMNet)",
+      "n": "PM-DMNet(P)",
+      "d": "2024-08-12",
+      "m1": "2.81",
+      "m2": "7.13",
+      "m3": "5.79"
+    },
+    {
+      "p": "[Graph Neural Rough Differential Equations for Traffic Forecasting](https://arxiv.org/abs/2303.10909v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jeongwhanchoi/STG-NCDE)",
+      "n": "STG-NRDE",
+      "d": "2023-03-20",
+      "m1": "2.85",
+      "m2": "7.14",
+      "m3": "5.76"
+    },
+    {
+      "p": "[Graph Neural Controlled Differential Equations for Traffic Forecasting](https://arxiv.org/abs/2112.03558v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jeongwhanchoi/STG-NCDE)",
+      "n": "STG-NCDE",
+      "d": "2021-12-07",
+      "m1": "2.87",
+      "m2": "7.31",
+      "m3": "5.76"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

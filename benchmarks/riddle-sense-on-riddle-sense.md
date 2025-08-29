@@ -1,0 +1,60 @@
+# riddle-sense-on-riddle-sense
+
+[Dataset Link](https://inklab.usc.edu/RiddleSense/) \
+Task Hierarchy: ['Common Sense Reasoning', 'Riddle Sense']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy (%)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Deep Bidirectional Language-Knowledge Graph Pretraining](https://arxiv.org/abs/2210.09338v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/michiyasunaga/dragon)",
+      "n": "DRAGON",
+      "d": "2022-10-17",
+      "m1": "71.3"
+    },
+    {
+      "p": "[QA-GNN: Reasoning with Language Models and Knowledge Graphs for Question Answering](https://arxiv.org/abs/2104.06378v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/michiyasunaga/qagnn)",
+      "n": "QAGNN",
+      "d": "2021-04-13",
+      "m1": "67"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "RoBERTa large",
+      "d": null,
+      "m1": "60.7"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,74 @@
+# utterance-level-pronounciation-scoring-on
+
+[Dataset Link](https://www.openslr.org/101) \
+Task Hierarchy: ['Pronunciation Assessment', 'Utterance-level pronounciation scoring']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Pearson correlation coefficient (PCC)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[A Hierarchical Context-aware Modeling Approach for Multi-aspect and Multi-granular Pronunciation Assessment](https://arxiv.org/abs/2305.18146v4)",
+      "c": "",
+      "n": "3MH",
+      "d": "2023-05-29",
+      "m1": "0.811"
+    },
+    {
+      "p": "[ConPCO: Preserving Phoneme Characteristics for Automatic Pronunciation Assessment Leveraging Contrastive Ordinal Regularization](https://arxiv.org/abs/2406.02859v2)",
+      "c": "",
+      "n": "HierCB+ConPCO",
+      "d": "2024-06-05",
+      "m1": "0.803"
+    },
+    {
+      "p": "[Hierarchical Pronunciation Assessment with Multi-Aspect Attention](https://arxiv.org/abs/2211.08102v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/doheejin/HiPAMA)",
+      "n": "HiPAMA-Librispeech",
+      "d": "2022-11-15",
+      "m1": "0.754"
+    },
+    {
+      "p": "[Transformer-Based Multi-Aspect Multi-Granularity Non-Native English Speaker Pronunciation Assessment](https://arxiv.org/abs/2205.03432v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/YuanGongND/gopt)",
+      "n": "GOPT-Librispeech",
+      "d": "2022-05-06",
+      "m1": "0.74"
+    },
+    {
+      "p": "[Transformer-Based Multi-Aspect Multi-Granularity Non-Native English Speaker Pronunciation Assessment](https://arxiv.org/abs/2205.03432v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/YuanGongND/gopt)",
+      "n": "GOPT-PAII",
+      "d": "2022-05-06",
+      "m1": "0.73"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

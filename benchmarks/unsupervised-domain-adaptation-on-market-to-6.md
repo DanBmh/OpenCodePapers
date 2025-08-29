@@ -1,0 +1,134 @@
+# unsupervised-domain-adaptation-on-market-to-6
+
+[Dataset Link]() \
+Task Hierarchy: ['Unsupervised Domain Adaptation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mAP",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "R1",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "R5",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "R10",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[CORE-ReID V2: Advancing the Domain Adaptation for Object Re-Identification with Optimized Training and Ensemble Fusion](https://www.mdpi.com/3042-5999/1/1/4)",
+      "c": "[&check;&nbsp;Link](https://github.com/TrinhQuocNguyen/CORE-ReID-v2)",
+      "n": "CORE-ReID V2",
+      "d": "2025-07-04",
+      "m1": "66.4",
+      "m2": "66.9",
+      "m3": "83.4",
+      "m4": "88.9"
+    },
+    {
+      "p": "[CORE-ReID: Comprehensive Optimization and Refinement through Ensemble Fusion in Domain Adaptation for Person Re-Identification](https://www.mdpi.com/2674-113X/3/2/12)",
+      "c": "[&check;&nbsp;Link](https://github.com/TrinhQuocNguyen/CORE-ReID)",
+      "n": "CORE-ReID",
+      "d": "2024-06-03",
+      "m1": "62.9",
+      "m2": "61.0",
+      "m3": "79.6",
+      "m4": "87.2"
+    },
+    {
+      "p": "[Mitigate Domain Shift by Primary-Auxiliary Objectives Association for Generalizing Person ReID](https://arxiv.org/abs/2310.15913v1)",
+      "c": "",
+      "n": "PAOA+",
+      "d": "2023-10-24",
+      "m1": "50.3",
+      "m2": "50.9",
+      "m3": "-",
+      "m4": "-"
+    },
+    {
+      "p": "[CORE-ReID V2: Advancing the Domain Adaptation for Object Re-Identification with Optimized Training and Ensemble Fusion](https://www.mdpi.com/3042-5999/1/1/4)",
+      "c": "[&check;&nbsp;Link](https://github.com/TrinhQuocNguyen/CORE-ReID-v2)",
+      "n": "CORE-ReID V2 Tiny",
+      "d": "2025-07-04",
+      "m1": "33.0",
+      "m2": "31.9",
+      "m3": "48.9",
+      "m4": "59.1"
+    },
+    {
+      "p": "[Interpretable and Generalizable Person Re-Identification with Query-Adaptive Convolution and Temporal Lifting](https://arxiv.org/abs/1904.10424v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/shengcailiao/QAConv)",
+      "n": "QAConv",
+      "d": "2019-04-23",
+      "m1": "32.9",
+      "m2": "33.3",
+      "m3": "-",
+      "m4": "-"
+    },
+    {
+      "p": "[Unsupervised Domain Adaptive Re-Identification: Theory and Practice](http://arxiv.org/abs/1807.11334v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/LcDog/DomainAdaptiveReID)",
+      "n": "UDAR",
+      "d": "2018-07-30",
+      "m1": "20.9",
+      "m2": "20.3",
+      "m3": "-",
+      "m4": "-"
+    },
+    {
+      "p": "[Style Normalization and Restitution for Generalizable Person Re-identification](https://arxiv.org/abs/2005.11037v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/SNR)",
+      "n": "SNR",
+      "d": "2020-05-22",
+      "m1": "17.5",
+      "m2": "17.1",
+      "m3": "-",
+      "m4": "-"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "MTI",
+      "d": null,
+      "m1": "16.3",
+      "m2": "16.2",
+      "m3": "-",
+      "m4": "-"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

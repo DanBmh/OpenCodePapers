@@ -1,0 +1,75 @@
+# lightweight-face-recognition-on-ijb-c
+
+[Dataset Link](https://www.nist.gov/programs-projects/face-challenges) \
+Task Hierarchy: ['3D Face Reconstruction', 'Facial Recognition and Modelling', 'Face Recognition', 'Lightweight Face Recognition']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "TAR @ FAR=0.01",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "MFLOPs",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "MParams",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[EdgeFace: Efficient Face Recognition Model for Edge Devices](https://arxiv.org/abs/2307.01838v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/otroshi/edgeface)",
+      "n": "EdgeFace - S (g=0.5)",
+      "d": "2023-07-04",
+      "m1": "0.9563",
+      "m2": "306.11",
+      "m3": "3.65"
+    },
+    {
+      "p": "[EdgeFace: Efficient Face Recognition Model for Edge Devices](https://arxiv.org/abs/2307.01838v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/otroshi/edgeface)",
+      "n": "EdgeFace - XS (g=0.6)",
+      "d": "2023-07-04",
+      "m1": "0.9485",
+      "m2": "154",
+      "m3": "1.77"
+    },
+    {
+      "p": "[MixFaceNets: Extremely Efficient Face Recognition Networks](https://arxiv.org/abs/2107.13046v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/fdbtrs/mixfacenets)",
+      "n": "MixFaceNet-S",
+      "d": "2021-07-27",
+      "m1": "0.9230",
+      "m2": "451.7"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,126 @@
+# within-session-ssvep-on-mamem1-moabb
+
+[Dataset Link]() \
+Task Hierarchy: ['SSVEP', 'Within-Session SSVEP']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "training time (s)",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "CO2 Emission (g)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[The largest EEG-based BCI reproducibility study for open science: the MOABB benchmark](https://arxiv.org/abs/2404.15319v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/NeuroTechX/moabb)",
+      "n": "EEGNeX",
+      "d": "2024-04-03",
+      "m1": "67.1084639",
+      "m2": "197.02376239999998"
+    },
+    {
+      "p": "[The largest EEG-based BCI reproducibility study for open science: the MOABB benchmark](https://arxiv.org/abs/2404.15319v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/NeuroTechX/moabb)",
+      "n": "EEGITNet",
+      "d": "2024-04-03",
+      "m1": "58.0691632",
+      "m2": "39.6391611"
+    },
+    {
+      "p": "[The largest EEG-based BCI reproducibility study for open science: the MOABB benchmark](https://arxiv.org/abs/2404.15319v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/NeuroTechX/moabb)",
+      "n": "TRCA",
+      "d": "2024-04-03",
+      "m1": "54.5442871",
+      "m2": "250.07919099999998",
+      "m3": "1.785962026"
+    },
+    {
+      "p": "[The largest EEG-based BCI reproducibility study for open science: the MOABB benchmark](https://arxiv.org/abs/2404.15319v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/NeuroTechX/moabb)",
+      "n": "SSVEP_TS + LR",
+      "d": "2024-04-03",
+      "m1": "53.70517730000001",
+      "m2": "698.7826769999999",
+      "m3": "13.59719356"
+    },
+    {
+      "p": "[The largest EEG-based BCI reproducibility study for open science: the MOABB benchmark](https://arxiv.org/abs/2404.15319v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/NeuroTechX/moabb)",
+      "n": "SSVEP_TS + SVM",
+      "d": "2024-04-03",
+      "m1": "50.57987980000001",
+      "m2": "657.646162",
+      "m3": "12.962970100000001"
+    },
+    {
+      "p": "[The largest EEG-based BCI reproducibility study for open science: the MOABB benchmark](https://arxiv.org/abs/2404.15319v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/NeuroTechX/moabb)",
+      "n": "EEGNet-8,2",
+      "d": "2024-04-03",
+      "m1": "43.029499",
+      "m2": "23.1336158"
+    },
+    {
+      "p": "[The largest EEG-based BCI reproducibility study for open science: the MOABB benchmark](https://arxiv.org/abs/2404.15319v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/NeuroTechX/moabb)",
+      "n": "ShallowConvNet",
+      "d": "2024-04-03",
+      "m1": "36.03516260000001",
+      "m2": "3920.421198"
+    },
+    {
+      "p": "[The largest EEG-based BCI reproducibility study for open science: the MOABB benchmark](https://arxiv.org/abs/2404.15319v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/NeuroTechX/moabb)",
+      "n": "SSVEP_MDM",
+      "d": "2024-04-03",
+      "m1": "27.3128415",
+      "m2": "824.9421399999999",
+      "m3": "16.1321347"
+    },
+    {
+      "p": "[The largest EEG-based BCI reproducibility study for open science: the MOABB benchmark](https://arxiv.org/abs/2404.15319v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/NeuroTechX/moabb)",
+      "n": "CCA",
+      "d": "2024-04-03",
+      "m1": "21.7420669",
+      "m2": "11.47441585",
+      "m3": "0.0819434059"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

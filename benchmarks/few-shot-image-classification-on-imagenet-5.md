@@ -1,0 +1,95 @@
+# few-shot-image-classification-on-imagenet-5
+
+[Dataset Link](https://image-net.org/index.php) \
+Task Hierarchy: ['Few-Shot Image Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Top 1 Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Scaling Vision with Sparse Mixture of Experts](https://arxiv.org/abs/2106.05974v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/vmoe)",
+      "n": "ViT-MoE-15B (Every-2)",
+      "d": "2021-06-10",
+      "m1": "82.78"
+    },
+    {
+      "p": "[The effectiveness of MAE pre-pretraining for billion-scale pretraining](https://arxiv.org/abs/2303.13496v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/maws)",
+      "n": "MAWS (ViT-6.5B)",
+      "d": "2023-03-23",
+      "m1": "82.6"
+    },
+    {
+      "p": "[The effectiveness of MAE pre-pretraining for billion-scale pretraining](https://arxiv.org/abs/2303.13496v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/maws)",
+      "n": "MAWS (ViT-2B)",
+      "d": "2023-03-23",
+      "m1": "81.5"
+    },
+    {
+      "p": "[The effectiveness of MAE pre-pretraining for billion-scale pretraining](https://arxiv.org/abs/2303.13496v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/maws)",
+      "n": "MAWS (ViT-H)",
+      "d": "2023-03-23",
+      "m1": "79.8"
+    },
+    {
+      "p": "[Scaling Vision with Sparse Mixture of Experts](https://arxiv.org/abs/2106.05974v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/vmoe)",
+      "n": "V-MoE-H/14 (Every-2)",
+      "d": "2021-06-10",
+      "m1": "78.21"
+    },
+    {
+      "p": "[Scaling Vision with Sparse Mixture of Experts](https://arxiv.org/abs/2106.05974v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/vmoe)",
+      "n": "V-MoE-H/14 (Last-5)",
+      "d": "2021-06-10",
+      "m1": "78.08"
+    },
+    {
+      "p": "[Scaling Vision with Sparse Mixture of Experts](https://arxiv.org/abs/2106.05974v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/vmoe)",
+      "n": "V-MoE-L/16 (Every-2)",
+      "d": "2021-06-10",
+      "m1": "77.1"
+    },
+    {
+      "p": "[Scaling Vision with Sparse Mixture of Experts](https://arxiv.org/abs/2106.05974v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/vmoe)",
+      "n": "VIT-H/14",
+      "d": "2021-06-10",
+      "m1": "76.95"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

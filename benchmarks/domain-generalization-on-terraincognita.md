@@ -1,0 +1,249 @@
+# domain-generalization-on-terraincognita
+
+[Dataset Link]() \
+Task Hierarchy: ['Domain Generalization']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Average Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Towards Unified and Effective Domain Generalization](https://arxiv.org/abs/2310.10008v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/invictus717/UniDG)",
+      "n": "UniDG + CORAL + ConvNeXt-B",
+      "d": "2023-10-16",
+      "m1": "69.6"
+    },
+    {
+      "p": "[Rethinking Multi-domain Generalization with A General Learning Objective](https://arxiv.org/abs/2402.18853v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhaorui-tan/gmdg)",
+      "n": "GMDG (RegNetY-16GF, SWAD)",
+      "d": "2024-02-29",
+      "m1": "65"
+    },
+    {
+      "p": "[Domain Generalization by Mutual-Information Regularization with Pre-trained Models](https://arxiv.org/abs/2203.10789v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/kakaobrain/miro)",
+      "n": "MIRO (RegNetY-16GF, SWAD)",
+      "d": "2022-03-21",
+      "m1": "64.3"
+    },
+    {
+      "p": "[Context-Aware Robust Fine-Tuning](https://arxiv.org/abs/2211.16175v1)",
+      "c": "",
+      "n": "CAR-FT (CLIP, ViT-B/16)",
+      "d": "2022-11-29",
+      "m1": "61.9"
+    },
+    {
+      "p": "[Ensemble of Averages: Improving Model Selection and Boosting Performance in Domain Generalization](https://arxiv.org/abs/2110.10832v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/salesforce/ensemble-of-averages)",
+      "n": "Ensemble of Averages (RegNetY-16GF)",
+      "d": "2021-10-21",
+      "m1": "61.1"
+    },
+    {
+      "p": "[Rethinking Multi-domain Generalization with A General Learning Objective](https://arxiv.org/abs/2402.18853v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhaorui-tan/gmdg)",
+      "n": "GMDG (RegNetY-16GF)",
+      "d": "2024-02-29",
+      "m1": "60.7"
+    },
+    {
+      "p": "[SIMPLE: Specialized Model-Sample Matching for Domain Generalization](https://openreview.net/forum?id=BqrPeZ_e5P)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/SeqML/tree/main/SIMPLE)",
+      "n": "SIMPLE+",
+      "d": "2023-05-01",
+      "m1": "59.0"
+    },
+    {
+      "p": "[Leveraging Vision-Language Models for Improving Domain Generalization in Image Classification](https://arxiv.org/abs/2310.08255v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/val-iisc/VL2V-ADiP)",
+      "n": "VL2V-SD (CLIP, ViT-B/16)",
+      "d": "2023-10-12",
+      "m1": "58.54"
+    },
+    {
+      "p": "[SIMPLE: Specialized Model-Sample Matching for Domain Generalization](https://openreview.net/forum?id=BqrPeZ_e5P)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/SeqML/tree/main/SIMPLE)",
+      "n": "SIMPLE",
+      "d": "2023-05-01",
+      "m1": "57.6"
+    },
+    {
+      "p": "[Domain Generalization using Pretrained Models without Fine-tuning](https://arxiv.org/abs/2203.04600v1)",
+      "c": "",
+      "n": "SEDGE+",
+      "d": "2022-03-09",
+      "m1": "56.8"
+    },
+    {
+      "p": "[Domain Generalization using Pretrained Models without Fine-tuning](https://arxiv.org/abs/2203.04600v1)",
+      "c": "",
+      "n": "SEDGE",
+      "d": "2022-03-09",
+      "m1": "56.8"
+    },
+    {
+      "p": "[CADG: A Model Based on Cross Attention for Domain Generalization](https://arxiv.org/abs/2203.17067v3)",
+      "c": "",
+      "n": "CADG",
+      "d": "2022-03-31",
+      "m1": "55.7"
+    },
+    {
+      "p": "[Ensemble of Averages: Improving Model Selection and Boosting Performance in Domain Generalization](https://arxiv.org/abs/2110.10832v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/salesforce/ensemble-of-averages)",
+      "n": "Ensemble of Averages (ResNeXt-50 32x4d)",
+      "d": "2021-10-21",
+      "m1": "55.2"
+    },
+    {
+      "p": "[QT-DoG: Quantization-aware Training for Domain Generalization](https://arxiv.org/abs/2410.06020v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/saqibjaved1/QT-DoG)",
+      "n": "EOQ (ResNet-50)",
+      "d": "2024-10-08",
+      "m1": "53.2"
+    },
+    {
+      "p": "[Rethinking Multi-domain Generalization with A General Learning Objective](https://arxiv.org/abs/2402.18853v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhaorui-tan/gmdg)",
+      "n": "GMDG (ResNet-50, SWAD)",
+      "d": "2024-02-29",
+      "m1": "53.0"
+    },
+    {
+      "p": "[Domain Generalization by Mutual-Information Regularization with Pre-trained Models](https://arxiv.org/abs/2203.10789v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/kakaobrain/miro)",
+      "n": "MIRO (ResNet-50, SWAD)",
+      "d": "2022-03-21",
+      "m1": "52.9"
+    },
+    {
+      "p": "[Domain Generalization Using Large Pretrained Models with Mixture-of-Adapters](https://arxiv.org/abs/2310.11031v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/KU-CVLAB/MoA)",
+      "n": "MoA (OpenCLIP, ViT-B/16)",
+      "d": "2023-10-17",
+      "m1": "52.8"
+    },
+    {
+      "p": "[Ensemble of Averages: Improving Model Selection and Boosting Performance in Domain Generalization](https://arxiv.org/abs/2110.10832v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/salesforce/ensemble-of-averages)",
+      "n": "Ensemble of Averages (ResNet-50)",
+      "d": "2021-10-21",
+      "m1": "52.3"
+    },
+    {
+      "p": "[Model Ratatouille: Recycling Diverse Models for Out-of-Distribution Generalization](https://arxiv.org/abs/2212.10445v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/ModelRatatouille)",
+      "n": "Model Ratatouille",
+      "d": "2022-12-20",
+      "m1": "52"
+    },
+    {
+      "p": "[VNE: An Effective Method for Improving Deep Representation by Manipulating Eigenvalue Distribution](https://arxiv.org/abs/2304.01434v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jaeill/CVPR23-VNE)",
+      "n": "VNE (ResNet-50, SWAD)",
+      "d": "2023-04-04",
+      "m1": "51.7"
+    },
+    {
+      "p": "[Rethinking Multi-domain Generalization with A General Learning Objective](https://arxiv.org/abs/2402.18853v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhaorui-tan/gmdg)",
+      "n": "GMDG (ResNet-50)",
+      "d": "2024-02-29",
+      "m1": "51.1"
+    },
+    {
+      "p": "[QT-DoG: Quantization-aware Training for Domain Generalization](https://arxiv.org/abs/2410.06020v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/saqibjaved1/QT-DoG)",
+      "n": "QT-DoG (ResNet-50)",
+      "d": "2024-10-08",
+      "m1": "50.8"
+    },
+    {
+      "p": "[Adaptive Methods for Aggregated Domain Generalization](https://arxiv.org/abs/2112.04766v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/xavierohan/AdaClust_DomainBed)",
+      "n": "AdaClust (ResNet-50, SWAD)",
+      "d": "2021-12-09",
+      "m1": "50.6"
+    },
+    {
+      "p": "[Soft Prompt Generation for Domain Generalization](https://arxiv.org/abs/2404.19286v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/renytek13/soft-prompt-generation-with-cgan)",
+      "n": "SPG (CLIP, ViT-B/16)",
+      "d": "2024-04-30",
+      "m1": "50.2"
+    },
+    {
+      "p": "[SWAD: Domain Generalization by Seeking Flat Minima](https://arxiv.org/abs/2102.08604v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/khanrc/swad)",
+      "n": "SWAD (ResNet-50)",
+      "d": "2021-02-17",
+      "m1": "50.0"
+    },
+    {
+      "p": "[POEM: Polarization of Embeddings for Domain-Invariant Representations](https://arxiv.org/abs/2305.13046v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/josangyoung/official-poem)",
+      "n": "POEM",
+      "d": "2023-05-22",
+      "m1": "49.5"
+    },
+    {
+      "p": "[Automated Domain Discovery from Multiple Sources to Improve Zero-Shot Generalization](https://arxiv.org/abs/2112.09802v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/kowshikthopalli/DREAME)",
+      "n": "DREAME",
+      "d": "2021-12-17",
+      "m1": "48.66"
+    },
+    {
+      "p": "[Sparse Mixture-of-Experts are Domain Generalizable Learners](https://arxiv.org/abs/2206.04046v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/luodian/sf-moe-dg)",
+      "n": "GMoE-S/16",
+      "d": "2022-06-08",
+      "m1": "48.5"
+    },
+    {
+      "p": "[Adaptive Methods for Aggregated Domain Generalization](https://arxiv.org/abs/2112.04766v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/xavierohan/AdaClust_DomainBed)",
+      "n": "AdaClust (ResNet-50)",
+      "d": "2021-12-09",
+      "m1": "48.1"
+    },
+    {
+      "p": "[Fishr: Invariant Gradient Variances for Out-of-Distribution Generalization](https://arxiv.org/abs/2109.02934v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/DomainBed)",
+      "n": "Fishr(ResNet-50)",
+      "d": "2021-09-07",
+      "m1": "47.4"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

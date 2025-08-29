@@ -1,0 +1,74 @@
+# unsupervised-extractive-summarization-on-2
+
+[Dataset Link](https://github.com/hfthair/emerald_crawler) \
+Task Hierarchy: ['Summarization', 'Unsupervised Extractive Summarization']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "ROUGE-L",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Bringing Structure into Summaries: a Faceted Summarization Dataset for Long Scientific Documents](https://arxiv.org/abs/2106.00130v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/hfthair/emerald_crawler)",
+      "n": "HipoRank",
+      "d": "2021-05-31",
+      "m1": "42.89"
+    },
+    {
+      "p": "[Bringing Structure into Summaries: a Faceted Summarization Dataset for Long Scientific Documents](https://arxiv.org/abs/2106.00130v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/hfthair/emerald_crawler)",
+      "n": "LexRank",
+      "d": "2021-05-31",
+      "m1": "42.18"
+    },
+    {
+      "p": "[Bringing Structure into Summaries: a Faceted Summarization Dataset for Long Scientific Documents](https://arxiv.org/abs/2106.00130v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/hfthair/emerald_crawler)",
+      "n": "TextRank",
+      "d": "2021-05-31",
+      "m1": "41.87"
+    },
+    {
+      "p": "[Bringing Structure into Summaries: a Faceted Summarization Dataset for Long Scientific Documents](https://arxiv.org/abs/2106.00130v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/hfthair/emerald_crawler)",
+      "n": "SumBasic",
+      "d": "2021-05-31",
+      "m1": "38.71"
+    },
+    {
+      "p": "[Bringing Structure into Summaries: a Faceted Summarization Dataset for Long Scientific Documents](https://arxiv.org/abs/2106.00130v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/hfthair/emerald_crawler)",
+      "n": "LSA",
+      "d": "2021-05-31",
+      "m1": "35.98"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

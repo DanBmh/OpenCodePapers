@@ -1,0 +1,80 @@
+# pansharpening-on-worldview-3-adelaide
+
+[Dataset Link]() \
+Task Hierarchy: ['Image Fusion', 'Pansharpening']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "D_lambda",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "D_rho",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "D_lambda_aligned",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "R-ERGAS",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Unsupervised Deep Learning-based Pansharpening with Jointly-Enhanced Spectral and Spatial Fidelity](https://arxiv.org/abs/2307.14403v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/matciotola/hyperspectral_pansharpening_toolbox)",
+      "n": "Lambda-PNN",
+      "d": "2023-07-26",
+      "m1": "0.095",
+      "m2": "0.044",
+      "m3": "0.021",
+      "m4": "1.978"
+    },
+    {
+      "p": "[Fast Full-Resolution Target-Adaptive CNN-Based Pansharpening Framework](https://www.mdpi.com/2072-4292/15/2/319)",
+      "c": "[&check;&nbsp;Link](https://github.com/matciotola/fast-z-pnn)",
+      "n": "Fast Z-PNN",
+      "d": "2023-01-05",
+      "m1": "0.1373",
+      "m2": "0.1389"
+    },
+    {
+      "p": "[Fast Full-Resolution Target-Adaptive CNN-Based Pansharpening Framework](https://www.mdpi.com/2072-4292/15/2/319)",
+      "c": "[&check;&nbsp;Link](https://github.com/matciotola/fast-z-pnn)",
+      "n": "Z-PNN",
+      "d": "2023-01-05",
+      "m1": "0.1482",
+      "m2": "0.1360"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

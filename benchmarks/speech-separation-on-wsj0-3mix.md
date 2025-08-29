@@ -1,0 +1,102 @@
+# speech-separation-on-wsj0-3mix
+
+[Dataset Link]() \
+Task Hierarchy: ['Speech Separation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "SI-SDRi",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Boosting Unknown-number Speaker Separation with Transformer Decoder-based Attractor](https://arxiv.org/abs/2401.12473v1)",
+      "c": "",
+      "n": "SepTDA",
+      "d": "2024-01-23",
+      "m1": "23.7"
+    },
+    {
+      "p": "[MossFormer2: Combining Transformer and RNN-Free Recurrent Network for Enhanced Time-Domain Monaural Speech Separation](https://arxiv.org/abs/2312.11825v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/modelscope/ClearerVoice-Studio)",
+      "n": "MossFormer2",
+      "d": "2023-12-19",
+      "m1": "22.2"
+    },
+    {
+      "p": "[MossFormer: Pushing the Performance Limit of Monaural Speech Separation using Gated Single-Head Transformer with Convolution-Augmented Joint Self-Attentions](https://arxiv.org/abs/2302.11824v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/modelscope/ClearerVoice-Studio)",
+      "n": "MossFormer (L) + DM",
+      "d": "2023-02-23",
+      "m1": "21.2"
+    },
+    {
+      "p": "[Separate And Diffuse: Using a Pretrained Diffusion Model for Improving Source Separation](https://arxiv.org/abs/2301.10752v2)",
+      "c": "",
+      "n": "Separate And Diffuse",
+      "d": "2023-01-25",
+      "m1": "20.9"
+    },
+    {
+      "p": "[MossFormer: Pushing the Performance Limit of Monaural Speech Separation using Gated Single-Head Transformer with Convolution-Augmented Joint Self-Attentions](https://arxiv.org/abs/2302.11824v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/modelscope/ClearerVoice-Studio)",
+      "n": "MossFormer (M) + DM",
+      "d": "2023-02-23",
+      "m1": "20.8"
+    },
+    {
+      "p": "[SepIt: Approaching a Single Channel Speech Separation Bound](https://arxiv.org/abs/2205.11801v4)",
+      "c": "",
+      "n": "SepIt",
+      "d": "2022-05-24",
+      "m1": "20.1"
+    },
+    {
+      "p": "[Attention is All You Need in Speech Separation](https://arxiv.org/abs/2010.13154v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/speechbrain/speechbrain/tree/develop/recipes/WSJ0Mix/separation)",
+      "n": "SepFormer",
+      "d": "2020-10-25",
+      "m1": "19.5"
+    },
+    {
+      "p": "[Sandglasset: A Light Multi-Granularity Self-attentive Network For Time-Domain Speech Separation](https://arxiv.org/abs/2103.00819v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Zhongyang-debug/Sandglasset-A-Light-Multi-Granularity-Self-Attentive-Network-For-Time-Domain-Speech-Separation)",
+      "n": "Sandglasset",
+      "d": "2021-03-01",
+      "m1": "17.1"
+    },
+    {
+      "p": "[Voice Separation with an Unknown Number of Multiple Speakers](https://arxiv.org/abs/2003.01531v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/svoice)",
+      "n": "Gated DualPathRNN",
+      "d": "2020-02-29",
+      "m1": "16.85"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

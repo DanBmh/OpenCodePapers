@@ -1,0 +1,67 @@
+# object-detection-on-india-driving-dataset
+
+[Dataset Link]() \
+Task Hierarchy: ['16k', 'Object Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mAP@0.5",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[YOLO-Drone:Airborne real-time detection of dense small objects from high-altitude perspective](https://arxiv.org/abs/2304.06925v2)",
+      "c": "",
+      "n": "YOLOv5x",
+      "d": "2023-04-14",
+      "m1": "30.3"
+    },
+    {
+      "p": "[On Generalizing Detection Models for Unconstrained Environments](https://arxiv.org/abs/1909.13080v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/prajjwal1/autonomous-object-detection)",
+      "n": "hybrid incremental net",
+      "d": "2019-09-28",
+      "m1": "31.57"
+    },
+    {
+      "p": "[YOLO-Drone:Airborne real-time detection of dense small objects from high-altitude perspective](https://arxiv.org/abs/2304.06925v2)",
+      "c": "",
+      "n": "YOLO-Drone",
+      "d": "2023-04-14",
+      "m1": "59.87"
+    },
+    {
+      "p": "[Target-aware Dual Adversarial Learning and a Multi-scenario Multi-Modality Benchmark to Fuse Infrared and Visible for Object Detection](https://arxiv.org/abs/2203.16220v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/JinyuanLiu-CV/TarDAL)",
+      "n": "",
+      "d": "2022-03-30",
+      "m1": "81.1"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

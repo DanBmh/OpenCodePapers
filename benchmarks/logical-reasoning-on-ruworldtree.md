@@ -1,0 +1,67 @@
+# logical-reasoning-on-ruworldtree
+
+[Dataset Link](http://tape-benchmark.com/datasets.html#ruworldtree) \
+Task Hierarchy: ['Logical Reasoning']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy ",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[TAPE: Assessing Few-shot Russian Language Understanding](https://arxiv.org/abs/2210.12813v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/RussianNLP/TAPE)",
+      "n": "Human benchmark",
+      "d": "2022-10-23",
+      "m1": "83.7"
+    },
+    {
+      "p": "[TAPE: Assessing Few-shot Russian Language Understanding](https://arxiv.org/abs/2210.12813v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/RussianNLP/TAPE)",
+      "n": "RuGPT-3 Large",
+      "d": "2022-10-23",
+      "m1": "40.7"
+    },
+    {
+      "p": "[TAPE: Assessing Few-shot Russian Language Understanding](https://arxiv.org/abs/2210.12813v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/RussianNLP/TAPE)",
+      "n": "RuGPT-3 Medium",
+      "d": "2022-10-23",
+      "m1": "38.0"
+    },
+    {
+      "p": "[TAPE: Assessing Few-shot Russian Language Understanding](https://arxiv.org/abs/2210.12813v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/RussianNLP/TAPE)",
+      "n": "RuGPT-3 Small",
+      "d": "2022-10-23",
+      "m1": "34.0"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

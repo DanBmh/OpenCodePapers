@@ -1,0 +1,90 @@
+# pneumonia-detection-on-chestx-ray14
+
+[Dataset Link](https://nihcc.app.box.com/v/ChestXray-NIHCC) \
+Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pneumonia Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AUROC",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Params",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "FLOPS",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Multi-Objective Evolutionary Design of Deep Convolutional Neural Networks for Image Classification](https://arxiv.org/abs/1912.01369v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/mikelzc1990/nsganetv2)",
+      "n": "NSGANetV1-A3",
+      "d": "2019-12-03",
+      "m1": "0.847",
+      "m2": "5.0M"
+    },
+    {
+      "p": "[Multi-Objective Evolutionary Design of Deep Convolutional Neural Networks for Image Classification](https://arxiv.org/abs/1912.01369v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/mikelzc1990/nsganetv2)",
+      "n": "NSGANetV1-X",
+      "d": "2019-12-03",
+      "m1": "0.846",
+      "m2": "2.2.M"
+    },
+    {
+      "p": "[CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning](http://arxiv.org/abs/1711.05225v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/arnoweng/CheXNet)",
+      "n": "CheXNet",
+      "d": "2017-11-14",
+      "m1": "0.844",
+      "m2": "7.0M",
+      "m3": "2800M"
+    },
+    {
+      "p": "[MUXConv: Information Multiplexing in Convolutional Neural Networks](https://arxiv.org/abs/2003.13880v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/human-analysis/MUXConv)",
+      "n": "MUXNet-m",
+      "d": "2020-03-31",
+      "m1": "0.841",
+      "m2": "2.1M",
+      "m3": "200M"
+    },
+    {
+      "p": "[Jointly Learning Convolutional Representations to Compress Radiological Images and Classify Thoracic Diseases in the Compressed Domain](https://drive.google.com/file/d/1i2jl5M0ddr-STAma0a2Bsr5rOMtcCSyB/view)",
+      "c": "[&check;&nbsp;Link](https://github.com/ekagra-ranjan/AE-CNN)",
+      "n": "AE-CNN",
+      "d": "2018-12-18",
+      "m1": "0.8241"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

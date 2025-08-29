@@ -1,0 +1,102 @@
+# skeleton-based-action-recognition-on-sbu
+
+[Dataset Link](https://github.com/hanyangclarence/SILT/releases/tag/refined_sbu) \
+Task Hierarchy: ['Action Recognition', '3D Action Recognition', 'Skeleton Based Action Recognition']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[On Geometric Features for Skeleton-Based Action Recognition using Multilayer LSTM Networks](https://doi.org/10.1109/WACV.2017.24)",
+      "c": "[&check;&nbsp;Link](https://github.com/Sy-Zhang/Geometric-Feature-Release)",
+      "n": "Joint Line Distance",
+      "d": "2017-03-01",
+      "m1": "99.02%"
+    },
+    {
+      "p": "[MLGCN: Multi-Laplacian Graph Convolutional Networks for Human Action Recognition](https://bmvc2019.org/wp-content/uploads/papers/1103-paper.pdf)",
+      "c": "",
+      "n": "MLGCN",
+      "d": "2019-09-11",
+      "m1": "98.60%"
+    },
+    {
+      "p": "[View Adaptive Neural Networks for High Performance Skeleton-based Human Action Recognition](https://arxiv.org/abs/1804.07453v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/View-Adaptive-Neural-Networks-for-Skeleton-based-Human-Action-Recognition)",
+      "n": "VA-fusion (aug.)",
+      "d": "2018-04-20",
+      "m1": "98.3%"
+    },
+    {
+      "p": "[Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering](http://arxiv.org/abs/1606.09375v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/mdeff/cnn_graph)",
+      "n": "ChebyNet",
+      "d": "2016-06-30",
+      "m1": "96.00%"
+    },
+    {
+      "p": "[Graph Neural Networks with convolutional ARMA filters](https://arxiv.org/abs/1901.01343v7)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/arma)",
+      "n": "ArmaConv",
+      "d": "2019-01-05",
+      "m1": "96.00%"
+    },
+    {
+      "p": "[DeepGRU: Deep Gesture Recognition Utility](https://arxiv.org/abs/1810.12514v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/Maghoumi/DeepGRU)",
+      "n": "DeepGRU",
+      "d": "2018-10-30",
+      "m1": "95.7%"
+    },
+    {
+      "p": "[Simplifying Graph Convolutional Networks](https://arxiv.org/abs/1902.07153v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/sgc)",
+      "n": "SGCConv",
+      "d": "2019-02-19",
+      "m1": "94.0%"
+    },
+    {
+      "p": "[Real-Time Hand Gesture Recognition: Integrating Skeleton-Based Data Fusion and Multi-Stream CNN](https://arxiv.org/abs/2406.15003v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/outsiders17711/e2eet-skeleton-based-hgr-using-data-level-fusion)",
+      "n": "e2eET",
+      "d": "2024-06-21",
+      "m1": "93.96"
+    },
+    {
+      "p": "[Spatio-Temporal LSTM with Trust Gates for 3D Human Action Recognition](http://arxiv.org/abs/1607.07043v1)",
+      "c": "",
+      "n": "ST-LSTM + Trust Gate",
+      "d": "2016-07-24",
+      "m1": "93.3%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

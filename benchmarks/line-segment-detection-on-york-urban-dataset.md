@@ -1,0 +1,191 @@
+# line-segment-detection-on-york-urban-dataset
+
+[Dataset Link](https://www.elderlab.yorku.ca/resources/york-urban-line-segment-database-information/) \
+Task Hierarchy: ['Line Segment Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "sAP5",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "sAP10",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "sAP15",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "FH",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[LINEA: Fast and Accurate Line Detection Using Scalable Transformers](https://arxiv.org/abs/2505.16264v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SebastianJanampa/LINEA)",
+      "n": "LINEA-L",
+      "d": "2025-05-22",
+      "m1": "30.9",
+      "m2": "34.9",
+      "m3": "37.3"
+    },
+    {
+      "p": "[LINEA: Fast and Accurate Line Detection Using Scalable Transformers](https://arxiv.org/abs/2505.16264v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SebastianJanampa/LINEA)",
+      "n": "LINEA-M",
+      "d": "2025-05-22",
+      "m1": "30.3",
+      "m2": "34.5",
+      "m3": "36.7"
+    },
+    {
+      "p": "[DT-LSD: Deformable Transformer-based Line Segment Detection](https://arxiv.org/abs/2411.13005v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SebastianJanampa/DT-LSD)",
+      "n": "DT-LSD",
+      "d": "2024-11-20",
+      "m1": "30.2",
+      "m2": "33.2",
+      "m3": "35.1"
+    },
+    {
+      "p": "[LINEA: Fast and Accurate Line Detection Using Scalable Transformers](https://arxiv.org/abs/2505.16264v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SebastianJanampa/LINEA)",
+      "n": "LINEA-S",
+      "d": "2025-05-22",
+      "m1": "28.9",
+      "m2": "32.6",
+      "m3": "34.8"
+    },
+    {
+      "p": "[Fully Convolutional Line Parsing](https://arxiv.org/abs/2104.11207v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/279_F-Clip)",
+      "n": "F-Clip",
+      "d": "2021-04-22",
+      "m1": "28.5",
+      "m2": "30.8"
+    },
+    {
+      "p": "[ELSD: Efficient Line Segment Detector and Descriptor](https://arxiv.org/abs/2104.14205v1)",
+      "c": "",
+      "n": "ELSD",
+      "d": "2021-04-29",
+      "m1": "27.6",
+      "m2": "30.2",
+      "m3": "31.8",
+      "m4": "64.8"
+    },
+    {
+      "p": "[TP-LSD: Tri-Points Based Line Segment Detector](https://arxiv.org/abs/2009.05505v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/siyuada7/tp-lsd)",
+      "n": "TP-LSD",
+      "d": "2020-09-11",
+      "m1": "27.6",
+      "m2": "27.7"
+    },
+    {
+      "p": "[LINEA: Fast and Accurate Line Detection Using Scalable Transformers](https://arxiv.org/abs/2505.16264v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SebastianJanampa/LINEA)",
+      "n": "LINEA-N",
+      "d": "2025-05-22",
+      "m1": "27.3",
+      "m2": "30.5",
+      "m3": "32.5"
+    },
+    {
+      "p": "[Holistically-Attracted Wireframe Parsing](https://arxiv.org/abs/2003.01663v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cherubicXN/hawp)",
+      "n": "HAWP",
+      "d": "2020-03-03",
+      "m1": "26.1",
+      "m2": "28.5",
+      "m3": "29.7",
+      "m4": "66.3"
+    },
+    {
+      "p": "[Deep Hough-Transform Line Priors](https://arxiv.org/abs/2007.09493v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yanconglin/Deep-Hough-Transform-Line-Priors)",
+      "n": "HT-HAWP",
+      "d": "2020-07-18",
+      "m1": "25.0",
+      "m2": "27.4"
+    },
+    {
+      "p": "[Towards Light-weight and Real-time Line Segment Detection](https://arxiv.org/abs/2106.00186v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/navervision/mlsd)",
+      "n": "M-LSD",
+      "d": "2021-06-01",
+      "m1": "24.6",
+      "m2": "27.3",
+      "m4": "64.2"
+    },
+    {
+      "p": "[End-to-End Wireframe Parsing](https://arxiv.org/abs/1905.03246v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhou13/lcnn)",
+      "n": "L-CNN",
+      "d": "2019-05-08",
+      "m1": "24.3",
+      "m2": "26.4"
+    },
+    {
+      "p": "[MCMLSD: A Dynamic Programming Approach to Line Segment Detection](http://openaccess.thecvf.com/content_cvpr_2017/html/Almazan_MCMLSD_A_Dynamic_CVPR_2017_paper.html)",
+      "c": "",
+      "n": "MCMLSD",
+      "d": "2017-07-01",
+      "m1": "7.2",
+      "m2": "9.2"
+    },
+    {
+      "p": "[Line Segment Detection Using Transformers without Edges](https://arxiv.org/abs/2101.01909v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mlpc-ucsd/LETR)",
+      "n": "LETR",
+      "d": "2021-01-06",
+      "m2": "29.4",
+      "m3": "31.7",
+      "m4": "66.9"
+    },
+    {
+      "p": "[ULSD: Unified Line Segment Detection across Pinhole, Fisheye, and Spherical Cameras](https://arxiv.org/abs/2011.03174v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/lh9171338/ULSD-ISPRS)",
+      "n": "ULSD",
+      "d": "2020-11-06",
+      "m2": "27.4"
+    },
+    {
+      "p": "[LSDNet: Trainable Modification of LSD Algorithm for Real-Time Line Segment Detection](https://arxiv.org/abs/2209.04642v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/iitpvisionlab/LSDNet)",
+      "n": "LSDNet",
+      "d": "2022-09-10",
+      "m4": "64.6"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,76 @@
+# text-retrieval-on-image-chat
+
+[Dataset Link](http://parl.ai/projects/image_chat) \
+Task Hierarchy: ['Retrieval', 'Text Retrieval']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "R@1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "R@5",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Sum(R@1,5)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[PaCE: Unified Multi-modal Dialogue Pre-training with Progressive and Compositional Experts](https://arxiv.org/abs/2305.14839v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/pace)",
+      "n": "PaCE",
+      "d": "2023-05-24",
+      "m1": "51.9",
+      "m2": "76.8",
+      "m3": "128.7"
+    },
+    {
+      "p": "[Image Chat: Engaging Grounded Conversations](https://arxiv.org/abs/1811.00945v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/ParlAI)",
+      "n": "TransResNet",
+      "d": "2018-11-02",
+      "m1": "50.3",
+      "m2": "75.4",
+      "m3": "125.7"
+    },
+    {
+      "p": "[VLMo: Unified Vision-Language Pre-Training with Mixture-of-Modality-Experts](https://arxiv.org/abs/2111.02358v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/unilm/tree/master/vlmo)",
+      "n": "VLMo",
+      "d": "2021-11-03",
+      "m1": "46.8",
+      "m2": "67.5",
+      "m3": "114.3"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

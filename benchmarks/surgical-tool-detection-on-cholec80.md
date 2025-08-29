@@ -1,0 +1,81 @@
+# surgical-tool-detection-on-cholec80
+
+[Dataset Link](http://camma.u-strasbg.fr/datasets) \
+Task Hierarchy: ['16k', 'Object Detection', 'Surgical tool detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mAP",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Dissecting Self-Supervised Learning Methods for Surgical Computer Vision](https://arxiv.org/abs/2207.00449v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/camma-public/selfsupsurg)",
+      "n": "MoCo V2 Surg SSL - FCN head",
+      "d": "2022-07-01",
+      "m1": "93.5"
+    },
+    {
+      "p": "[Weakly Supervised Convolutional LSTM Approach for Tool Tracking in Laparoscopic Videos](http://arxiv.org/abs/1812.01366v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/CAMMA-public/ConvLSTM-Surgical-Tool-Tracker)",
+      "n": "ConvLSTM tracker",
+      "d": "2018-12-04",
+      "m1": "92.9"
+    },
+    {
+      "p": "[Multi-Task Recurrent Convolutional Network with Correlation Loss for Surgical Video Analysis](https://arxiv.org/abs/1907.06099v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/YuemingJin/MTRCNet-CL)",
+      "n": "MTRCNet-CL",
+      "d": "2019-07-13",
+      "m1": "89.1"
+    },
+    {
+      "p": "[Weakly-Supervised Learning for Tool Localization in Laparoscopic Videos](http://arxiv.org/abs/1806.05573v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/CAMMA-public/ai4surgery)",
+      "n": "FCN",
+      "d": "2018-06-14",
+      "m1": "87.4"
+    },
+    {
+      "p": "[EndoNet: A Deep Architecture for Recognition Tasks on Laparoscopic Videos](http://arxiv.org/abs/1602.03012v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/YuemingJin/TMRNet)",
+      "n": "EndoNet",
+      "d": "2016-02-09",
+      "m1": "81.0"
+    },
+    {
+      "p": "[EndoNet: A Deep Architecture for Recognition Tasks on Laparoscopic Videos](http://arxiv.org/abs/1602.03012v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/YuemingJin/TMRNet)",
+      "n": "ToolNet",
+      "d": "2016-02-09",
+      "m1": "80.9"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

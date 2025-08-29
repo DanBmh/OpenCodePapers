@@ -1,0 +1,105 @@
+# time-series-forecasting-on-ettm2-336-1
+
+[Dataset Link](https://github.com/zhouhaoyi/ETDataset) \
+Task Hierarchy: ['Time Series Analysis', 'Time Series Forecasting']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "MSE",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "MAE",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[LTBoost: Boosted Hybrids of Ensemble Linear and Gradient Algorithms for the Long-term Time Series Forecasting](https://dl.acm.org/doi/10.1145/3627673.3679527)",
+      "c": "[&check;&nbsp;Link](https://github.com/hubtru/LTBoost)",
+      "n": "LTBoost (drop_last=false)",
+      "d": "2024-10-21",
+      "m1": "0.262",
+      "m2": "0.317"
+    },
+    {
+      "p": "[xPatch: Dual-Stream Time Series Forecasting with Exponential Seasonal-Trend Decomposition](https://arxiv.org/abs/2412.17323v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/stitsyuk/xpatch)",
+      "n": "xPatch",
+      "d": "2024-12-23",
+      "m1": "0.264",
+      "m2": "0.315"
+    },
+    {
+      "p": "[Disentangled Interpretable Representation for Efficient Long-term Time Series Forecasting](https://arxiv.org/abs/2411.17257v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/wintertee/dipe-linear)",
+      "n": "DiPE-Linear",
+      "d": "2024-11-26",
+      "m1": "0.268"
+    },
+    {
+      "p": "[PRformer: Pyramidal Recurrent Transformer for Multivariate Time Series Forecasting](https://arxiv.org/abs/2408.10483v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/usualheart/prformer)",
+      "n": "PRformer",
+      "d": "2024-08-20",
+      "m1": "0.272"
+    },
+    {
+      "p": "[Revisiting Long-term Time Series Forecasting: An Investigation on Linear Mapping](https://arxiv.org/abs/2305.10721v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/plumprc/rtsf)",
+      "n": "RLinear",
+      "d": "2023-05-18",
+      "m1": "0.273",
+      "m2": "0.326"
+    },
+    {
+      "p": "[TSMixer: Lightweight MLP-Mixer Model for Multivariate Time Series Forecasting](https://arxiv.org/abs/2306.09364v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/ibm/tsfm)",
+      "n": "TSMixer",
+      "d": "2023-06-14",
+      "m1": "0.273",
+      "m2": "0.329"
+    },
+    {
+      "p": "[Mixture-of-Linear-Experts for Long-term Time Series Forecasting](https://arxiv.org/abs/2312.06786v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/rogerni/mole)",
+      "n": "MoLE-DLinear",
+      "d": "2023-12-11",
+      "m1": "0.289"
+    },
+    {
+      "p": "[Time Evidence Fusion Network: Multi-source View in Long-Term Time Series Forecasting](https://arxiv.org/abs/2405.06419v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/WenjieDu/PyPOTS)",
+      "n": "TEFN",
+      "d": "2024-05-10",
+      "m1": "0.307",
+      "m2": "0.343"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,132 @@
+# 3d-dense-shape-correspondence-on-shrec-19
+
+[Dataset Link](http://profs.scienze.univr.it/~marin/shrec19/) \
+Task Hierarchy: ['3D Shape Representation', '3D Dense Shape Correspondence']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Euclidean Mean Error (EME)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Accuracy at 1%",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Diffusion 3D Features (Diff3F): Decorating Untextured Shapes with Distilled Semantic Features](https://arxiv.org/abs/2311.17024v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/niladridutt/Diffusion-3D-Features)",
+      "n": "Diffusion 3D Features (Zero-shot)",
+      "d": "2023-11-28",
+      "m1": "1.7",
+      "m2": "26.4"
+    },
+    {
+      "p": "[Unsupervised Template-assisted Point Cloud Shape Correspondence Network](https://arxiv.org/abs/2403.16412v1)",
+      "c": "",
+      "n": "TANet (Trained on Surreal)",
+      "d": "2024-03-25",
+      "m1": "4.5",
+      "m2": "21.5"
+    },
+    {
+      "p": "[SE-ORNet: Self-Ensembling Orientation-aware Network for Unsupervised Point Cloud Shape Correspondence](https://arxiv.org/abs/2304.05395v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/openspaceai/se-ornet)",
+      "n": "SE-ORNet (Trained on Surreal)",
+      "d": "2023-04-10",
+      "m1": "4.6",
+      "m2": "21.5"
+    },
+    {
+      "p": "[SE-ORNet: Self-Ensembling Orientation-aware Network for Unsupervised Point Cloud Shape Correspondence](https://arxiv.org/abs/2304.05395v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/openspaceai/se-ornet)",
+      "n": "SE-ORNet",
+      "d": "2023-04-10",
+      "m1": "5.1",
+      "m2": "17.5"
+    },
+    {
+      "p": "[DPC: Unsupervised Deep Point Correspondence via Cross and Self Construction](https://arxiv.org/abs/2110.08636v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dvirginz/dpc)",
+      "n": "DPC",
+      "d": "2021-10-16",
+      "m1": "5.6",
+      "m2": "15.3"
+    },
+    {
+      "p": "[DPC: Unsupervised Deep Point Correspondence via Cross and Self Construction](https://arxiv.org/abs/2110.08636v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dvirginz/dpc)",
+      "n": "DPC (Trained on Surreal)",
+      "d": "2021-10-16",
+      "m1": "6.1",
+      "m2": "17.7"
+    },
+    {
+      "p": "[CorrNet3D: Unsupervised End-to-end Learning of Dense Correspondence for 3D Point Clouds](https://arxiv.org/abs/2012.15638v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ZENGYIMING-EAMON/CorrNet3D)",
+      "n": "CorrNet3D (Trained on Surreal)",
+      "d": "2020-12-31",
+      "m1": "6.9",
+      "m2": "6.0"
+    },
+    {
+      "p": "[Correspondence Learning via Linearly-invariant Embedding](https://arxiv.org/abs/2010.13136v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/riccardomarin/diff-fmaps-pytorch)",
+      "n": "Diff-FMaps  (Trained on Surreal)",
+      "d": "2020-10-25",
+      "m1": "7.1",
+      "m2": "4.0"
+    },
+    {
+      "p": "[Learning elementary structures for 3D shape generation and matching](https://arxiv.org/abs/1908.04725v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ThibaultGROUEIX/3D-CODED)",
+      "n": "Elementery  Structures(Trained on Surreal)",
+      "d": "2019-08-13",
+      "m1": "7.6",
+      "m2": "2.3"
+    },
+    {
+      "p": "[3D-CODED : 3D Correspondences by Deep Deformation](http://arxiv.org/abs/1806.05228v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ThibaultGROUEIX/3D-CODED)",
+      "n": "3DCODED (Trained on Surreal)",
+      "d": "2018-06-13",
+      "m1": "8.1",
+      "m2": "2.1"
+    },
+    {
+      "p": "[CorrNet3D: Unsupervised End-to-end Learning of Dense Correspondence for 3D Point Clouds](https://arxiv.org/abs/2012.15638v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ZENGYIMING-EAMON/CorrNet3D)",
+      "n": "CorrNet3D",
+      "d": "2020-12-31",
+      "m1": "33.8",
+      "m2": "0.4"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

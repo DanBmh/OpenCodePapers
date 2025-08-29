@@ -1,0 +1,100 @@
+# 3d-semantic-segmentation-on-toronto-3d
+
+[Dataset Link](https://github.com/WeikaiTan/Toronto-3D) \
+Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', '3D Semantic Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "OA",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "mIoU",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[SCF-Net: Learning Spatial Contextual Features for Large-Scale Point Cloud Segmentation](http://openaccess.thecvf.com//content/CVPR2021/html/Fan_SCF-Net_Learning_Spatial_Contextual_Features_for_Large-Scale_Point_Cloud_Segmentation_CVPR_2021_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/leofansq/SCF-Net)",
+      "n": "SCF-Net",
+      "d": "2021-06-19",
+      "m1": "95.50",
+      "m2": "73.60"
+    },
+    {
+      "p": "[RandLA-Net: Efficient Semantic Segmentation of Large-Scale Point Clouds](https://arxiv.org/abs/1911.11236v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/intel-isl/Open3D-ML)",
+      "n": "RandLANet",
+      "d": "2019-11-25",
+      "m1": "93.50",
+      "m2": "68.40"
+    },
+    {
+      "p": "[Toronto-3D: A Large-scale Mobile LiDAR Dataset for Semantic Segmentation of Urban Roadways](https://arxiv.org/abs/2003.08284v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/WeikaiTan/Toronto-3D)",
+      "n": "KPFCNN",
+      "d": "2020-03-18",
+      "m1": "91.71",
+      "m2": "60.30"
+    },
+    {
+      "p": "[Toronto-3D: A Large-scale Mobile LiDAR Dataset for Semantic Segmentation of Urban Roadways](https://arxiv.org/abs/2003.08284v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/WeikaiTan/Toronto-3D)",
+      "n": "TGNet",
+      "d": "2020-03-18",
+      "m1": "91.64",
+      "m2": "58.34"
+    },
+    {
+      "p": "[Toronto-3D: A Large-scale Mobile LiDAR Dataset for Semantic Segmentation of Urban Roadways](https://arxiv.org/abs/2003.08284v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/WeikaiTan/Toronto-3D)",
+      "n": "MS-PCNN",
+      "d": "2020-03-18",
+      "m1": "91.53",
+      "m2": "58.01"
+    },
+    {
+      "p": "[Toronto-3D: A Large-scale Mobile LiDAR Dataset for Semantic Segmentation of Urban Roadways](https://arxiv.org/abs/2003.08284v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/WeikaiTan/Toronto-3D)",
+      "n": "PointNet++",
+      "d": "2020-03-18",
+      "m1": "91.21",
+      "m2": "56.55"
+    },
+    {
+      "p": "[Toronto-3D: A Large-scale Mobile LiDAR Dataset for Semantic Segmentation of Urban Roadways](https://arxiv.org/abs/2003.08284v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/WeikaiTan/Toronto-3D)",
+      "n": "DGCNN",
+      "d": "2020-03-18",
+      "m1": "89.00",
+      "m2": "49.60"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

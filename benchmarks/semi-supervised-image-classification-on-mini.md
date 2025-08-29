@@ -1,0 +1,67 @@
+# semi-supervised-image-classification-on-mini
+
+[Dataset Link]() \
+Task Hierarchy: ['Semi-Supervised Image Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[SimPLE: Similar Pseudo Label Exploitation for Semi-Supervised Classification](https://arxiv.org/abs/2103.16725v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zijian-hu/SimPLE)",
+      "n": "SimPLE",
+      "d": "2021-03-30",
+      "m1": "66.55"
+    },
+    {
+      "p": "[FeatMatch: Feature-Based Augmentation for Semi-Supervised Learning](https://arxiv.org/abs/2007.08505v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/GT-RIPL/FeatMatch)",
+      "n": "FeatMatch",
+      "d": "2020-07-16",
+      "m1": "60.95"
+    },
+    {
+      "p": "[All Labels Are Not Created Equal: Enhancing Semi-supervision via Label Grouping and Co-training](https://arxiv.org/abs/2104.05248v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/islam-nassar/semco)",
+      "n": "SemCo (\u03bc=3)",
+      "d": "2021-04-12",
+      "m1": "53.99\u00b10.93"
+    },
+    {
+      "p": "[All Labels Are Not Created Equal: Enhancing Semi-supervision via Label Grouping and Co-training](https://arxiv.org/abs/2104.05248v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/islam-nassar/semco)",
+      "n": "SemCo (\u03bc=7)",
+      "d": "2021-04-12",
+      "m1": "50.54\u00b12.20"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

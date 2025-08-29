@@ -1,0 +1,67 @@
+# gaze-estimation-on-gaze360
+
+[Dataset Link](http://gaze360.csail.mit.edu/) \
+Task Hierarchy: ['Gaze Estimation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Angular Error",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[End-to-end Video Gaze Estimation via Capturing Head-face-eye Spatial-temporal Interaction Context](https://arxiv.org/abs/2310.18131v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/zgchen33/mcgaze)",
+      "n": "MCGaze",
+      "d": "2023-10-27",
+      "m1": "10.02"
+    },
+    {
+      "p": "[L2CS-Net: Fine-Grained Gaze Estimation in Unconstrained Environments](https://arxiv.org/abs/2203.03339v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ahmednull/l2cs-net)",
+      "n": "L2CS",
+      "d": "2022-03-07",
+      "m1": "10.41"
+    },
+    {
+      "p": "[Weakly-Supervised Physically Unconstrained Gaze Estimation](https://arxiv.org/abs/2105.09803v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yakhyo/gaze-estimation)",
+      "n": "ResNet-18",
+      "d": "2021-05-20",
+      "m1": "12.94"
+    },
+    {
+      "p": "[Gaze360: Physically Unconstrained Gaze Estimation in the Wild](https://arxiv.org/abs/1910.10088v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/erkil1452/gaze360)",
+      "n": "ResNet-18",
+      "d": "2019-10-22",
+      "m1": "13.5"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

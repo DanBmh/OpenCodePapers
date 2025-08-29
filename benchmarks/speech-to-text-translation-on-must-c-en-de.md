@@ -1,0 +1,95 @@
+# speech-to-text-translation-on-must-c-en-de
+
+[Dataset Link](https://mt.fbk.eu/must-c) \
+Task Hierarchy: ['Speech-to-Text Translation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Case-sensitive sacreBLEU",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[TASK AWARE MULTI-TASK LEARNING FOR SPEECH TO TEXT TASKS](https://ieeexplore.ieee.org/document/9414703)",
+      "c": "",
+      "n": "Task Modulation + Multitask Learning(ASR/MT) + Data Augmentation",
+      "d": "2021-06-10",
+      "m1": "28.88"
+    },
+    {
+      "p": "[End-to-End Speech Translation with Pre-trained Models and Adapters: UPC at IWSLT 2021](https://arxiv.org/abs/2105.04512v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mt-upc/iwslt-2021)",
+      "n": "Wav2Vec2.0+mBART+Adaptors",
+      "d": "2021-05-10",
+      "m1": "28.22"
+    },
+    {
+      "p": "[End-to-End Offline Speech Translation System for IWSLT 2020 using Modality Agnostic Meta-Learning](https://aclanthology.org/2020.iwslt-1.7)",
+      "c": "",
+      "n": "Transformer + Meta Learning(ASR/MT) + Data Augmentation",
+      "d": "2020-07-01",
+      "m1": "27.51"
+    },
+    {
+      "p": "[Lightweight Adapter Tuning for Multilingual Speech Translation](https://arxiv.org/abs/2106.01463v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/formiel/fairseq)",
+      "n": "Transformer with Adapters",
+      "d": "2021-06-02",
+      "m1": "24.63"
+    },
+    {
+      "p": "[Dual-decoder Transformer for Joint Automatic Speech Recognition and Multilingual Speech Translation](https://arxiv.org/abs/2011.00747v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/formiel/speech-translation)",
+      "n": "Dual-decoder Transformer",
+      "d": "2020-11-02",
+      "m1": "23.63"
+    },
+    {
+      "p": "[Speechformer: Reducing Information Loss in Direct Speech Translation](https://arxiv.org/abs/2109.04574v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/sarapapi/fbk-fairseq)",
+      "n": "Speechformer",
+      "d": "2021-09-09",
+      "m1": "23.6"
+    },
+    {
+      "p": "[NeurST: Neural Speech Translation Toolkit](https://arxiv.org/abs/2012.10018v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/bytedance/neurst)",
+      "n": "Transformer + ASR Pretrain",
+      "d": "2020-12-18",
+      "m1": "22.8"
+    },
+    {
+      "p": "[fairseq S2T: Fast Speech-to-Text Modeling with fairseq](https://arxiv.org/abs/2010.05171v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "Transformer + ASR Pretrain",
+      "d": "2020-10-11",
+      "m1": "22.7"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

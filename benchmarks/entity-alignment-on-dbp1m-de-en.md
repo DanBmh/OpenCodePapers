@@ -1,0 +1,74 @@
+# entity-alignment-on-dbp1m-de-en
+
+[Dataset Link]() \
+Task Hierarchy: ['Entity Alignment']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Hit@1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[LightEA: A Scalable, Robust, and Interpretable Entity Alignment Framework via Three-view Label Propagation](https://arxiv.org/abs/2210.10436v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/THU-KEG/Entity_Alignment_Papers)",
+      "n": "LightEA-I",
+      "d": "2022-10-19",
+      "m1": "0.289"
+    },
+    {
+      "p": "[ClusterEA: Scalable Entity Alignment with Stochastic Training and Normalized Mini-batch Similarities](https://arxiv.org/abs/2205.10312v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/joker-xii/clusterea)",
+      "n": "ClusterEA-D",
+      "d": "2022-05-20",
+      "m1": "0.288"
+    },
+    {
+      "p": "[LightEA: A Scalable, Robust, and Interpretable Entity Alignment Framework via Three-view Label Propagation](https://arxiv.org/abs/2210.10436v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/THU-KEG/Entity_Alignment_Papers)",
+      "n": "LightEA-B",
+      "d": "2022-10-19",
+      "m1": "0.262"
+    },
+    {
+      "p": "[ClusterEA: Scalable Entity Alignment with Stochastic Training and Normalized Mini-batch Similarities](https://arxiv.org/abs/2205.10312v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/joker-xii/clusterea)",
+      "n": "ClusterEA-R",
+      "d": "2022-05-20",
+      "m1": "0.260"
+    },
+    {
+      "p": "[ClusterEA: Scalable Entity Alignment with Stochastic Training and Normalized Mini-batch Similarities](https://arxiv.org/abs/2205.10312v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/joker-xii/clusterea)",
+      "n": "ClusterEA-G",
+      "d": "2022-05-20",
+      "m1": "0.100"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

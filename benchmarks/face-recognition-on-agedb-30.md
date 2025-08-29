@@ -1,0 +1,67 @@
+# face-recognition-on-agedb-30
+
+[Dataset Link]() \
+Task Hierarchy: ['3D Face Reconstruction', 'Facial Recognition and Modelling', 'Face Recognition']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Deep Polynomial Neural Networks](https://arxiv.org/abs/2006.13026v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Faceplugin-ltd/FaceRecognition-Android)",
+      "n": "Prodpoly",
+      "d": "2020-06-20",
+      "m1": "0.98467"
+    },
+    {
+      "p": "[ElasticFace: Elastic Margin Loss for Deep Face Recognition](https://arxiv.org/abs/2109.09416v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/fdbtrs/ElasticFace)",
+      "n": "ElasticFace-Cos",
+      "d": "2021-09-20",
+      "m1": "0.9835"
+    },
+    {
+      "p": "[Transformer-Based Auxiliary Loss for Face Recognition Across Age Variations](https://arxiv.org/abs/2412.02198v2)",
+      "c": "",
+      "n": "Transformer loss+ArcFace ResNet100",
+      "d": "2024-12-03",
+      "m1": "0.9831"
+    },
+    {
+      "p": "[Dynamic Class Queue for Large Scale Face Recognition In the Wild](https://arxiv.org/abs/2105.11113v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/bilylee/DCQ)",
+      "n": "DCQ",
+      "d": "2021-05-24",
+      "m1": "0.9823"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

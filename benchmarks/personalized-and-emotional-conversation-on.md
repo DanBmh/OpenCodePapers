@@ -1,0 +1,186 @@
+# personalized-and-emotional-conversation-on
+
+[Dataset Link](https://github.com/scutcyr/CPED) \
+Task Hierarchy: ['Conversational Response Generation', 'Personalized and Emotional Conversation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PPL",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "BLEU",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Distinct-1",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Distinct-2",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "Greedy Embedding",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "Average Embedding",
+      "sortable": "true"
+    },
+    {
+      "key": "m7",
+      "label": "bertscore",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[CPED: A Large-Scale Chinese Personalized and Emotional Dialogue Dataset for Conversational AI](https://arxiv.org/abs/2205.14727v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/scutcyr/CPED)",
+      "n": "GPT-{emo}",
+      "d": "2022-05-29",
+      "m1": "17.48",
+      "m2": "0.1342",
+      "m3": "0.0614",
+      "m4": "0.3430",
+      "m5": "0.4996",
+      "m6": "0.5588",
+      "m7": "0.5709"
+    },
+    {
+      "p": "[CPED: A Large-Scale Chinese Personalized and Emotional Dialogue Dataset for Conversational AI](https://arxiv.org/abs/2205.14727v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/scutcyr/CPED)",
+      "n": "GPT-{per+emo}",
+      "d": "2022-05-29",
+      "m1": "17.70",
+      "m2": "0.1403",
+      "m3": "0.0602",
+      "m4": "0.3388",
+      "m5": "0.5026",
+      "m6": "0.5617",
+      "m7": "0.5719"
+    },
+    {
+      "p": "[CPED: A Large-Scale Chinese Personalized and Emotional Dialogue Dataset for Conversational AI](https://arxiv.org/abs/2205.14727v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/scutcyr/CPED)",
+      "n": "GPT-{da}",
+      "d": "2022-05-29",
+      "m1": "17.72",
+      "m2": "0.1372",
+      "m3": "0.0605",
+      "m4": "0.3389",
+      "m5": "0.5017",
+      "m6": "0.5610",
+      "m7": "0.5703"
+    },
+    {
+      "p": "[CPED: A Large-Scale Chinese Personalized and Emotional Dialogue Dataset for Conversational AI](https://arxiv.org/abs/2205.14727v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/scutcyr/CPED)",
+      "n": "GPT-{per+emo+da}",
+      "d": "2022-05-29",
+      "m1": "17.80",
+      "m2": "0.1382",
+      "m3": "0.0601",
+      "m4": "0.3404",
+      "m5": "05012",
+      "m6": "0.5608",
+      "m7": "0.5722"
+    },
+    {
+      "p": "[CPED: A Large-Scale Chinese Personalized and Emotional Dialogue Dataset for Conversational AI](https://arxiv.org/abs/2205.14727v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/scutcyr/CPED)",
+      "n": "GPT-{per}",
+      "d": "2022-05-29",
+      "m1": "18.08",
+      "m2": "0.1372",
+      "m3": "0.0592",
+      "m4": "0.3363",
+      "m5": "0.5009",
+      "m6": "0.5606",
+      "m7": "0.5715"
+    },
+    {
+      "p": "[CPED: A Large-Scale Chinese Personalized and Emotional Dialogue Dataset for Conversational AI](https://arxiv.org/abs/2205.14727v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/scutcyr/CPED)",
+      "n": "GPT",
+      "d": "2022-05-29",
+      "m1": "20.07",
+      "m2": "0.1171",
+      "m3": "0.0482",
+      "m4": "0.2738",
+      "m5": "0.4922",
+      "m6": "0.5509",
+      "m7": "0.5629"
+    },
+    {
+      "p": "[CPED: A Large-Scale Chinese Personalized and Emotional Dialogue Dataset for Conversational AI](https://arxiv.org/abs/2205.14727v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/scutcyr/CPED)",
+      "n": "{emo+da}-GPT",
+      "d": "2022-05-29",
+      "m1": "21.60",
+      "m2": "0.1304",
+      "m3": "0.0476",
+      "m4": "0.2785",
+      "m5": "0.4962",
+      "m6": "0.5552",
+      "m7": "0.5674"
+    },
+    {
+      "p": "[CPED: A Large-Scale Chinese Personalized and Emotional Dialogue Dataset for Conversational AI](https://arxiv.org/abs/2205.14727v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/scutcyr/CPED)",
+      "n": "{emo+da}-GPT w/o da",
+      "d": "2022-05-29",
+      "m1": "22.09",
+      "m2": "0.1272",
+      "m3": "0.0473",
+      "m4": "0.2790",
+      "m5": "0.4962",
+      "m6": "0.5556",
+      "m7": "0.5669"
+    },
+    {
+      "p": "[CPED: A Large-Scale Chinese Personalized and Emotional Dialogue Dataset for Conversational AI](https://arxiv.org/abs/2205.14727v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/scutcyr/CPED)",
+      "n": "{emo+da}-GPT w/o emo",
+      "d": "2022-05-29",
+      "m1": "22.84",
+      "m2": "0.1252",
+      "m3": "0.0451",
+      "m4": "0.2746",
+      "m5": "0.4964",
+      "m6": "0.5564",
+      "m7": "0.5666"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

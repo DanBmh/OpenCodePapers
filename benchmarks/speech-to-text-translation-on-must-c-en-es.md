@@ -1,0 +1,74 @@
+# speech-to-text-translation-on-must-c-en-es
+
+[Dataset Link]() \
+Task Hierarchy: ['Speech-to-Text Translation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Case-sensitive sacreBLEU",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Lightweight Adapter Tuning for Multilingual Speech Translation](https://arxiv.org/abs/2106.01463v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/formiel/fairseq)",
+      "n": "Transformer with Adapters",
+      "d": "2021-06-02",
+      "m1": "28.73"
+    },
+    {
+      "p": "[Speechformer: Reducing Information Loss in Direct Speech Translation](https://arxiv.org/abs/2109.04574v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/sarapapi/fbk-fairseq)",
+      "n": "Speechformer",
+      "d": "2021-09-09",
+      "m1": "28.5"
+    },
+    {
+      "p": "[Dual-decoder Transformer for Joint Automatic Speech Recognition and Multilingual Speech Translation](https://arxiv.org/abs/2011.00747v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/formiel/speech-translation)",
+      "n": "Dual-decoder Transformer",
+      "d": "2020-11-02",
+      "m1": "28.12"
+    },
+    {
+      "p": "[NeurST: Neural Speech Translation Toolkit](https://arxiv.org/abs/2012.10018v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/bytedance/neurst)",
+      "n": "Transformer + ASR Pretrain + SpecAug",
+      "d": "2020-12-18",
+      "m1": "27.4"
+    },
+    {
+      "p": "[NeurST: Neural Speech Translation Toolkit](https://arxiv.org/abs/2012.10018v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/bytedance/neurst)",
+      "n": "Transformer + ASR Pretrain",
+      "d": "2020-12-18",
+      "m1": "26.8"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

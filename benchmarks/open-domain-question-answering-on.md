@@ -1,0 +1,67 @@
+# open-domain-question-answering-on
+
+[Dataset Link](https://worksheets.codalab.org/worksheets/0xba659fe363cb46e7a505c5b6a774dc8a) \
+Task Hierarchy: ['Open-Domain Question Answering']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Exact Match",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[UniK-QA: Unified Representations of Structured and Unstructured Knowledge for Open-Domain Question Answering](https://arxiv.org/abs/2012.14610v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/UniK-QA)",
+      "n": "UniK-QA",
+      "d": "2020-12-29",
+      "m1": "57.7"
+    },
+    {
+      "p": "[FiE: Building a Global Probability Space by Leveraging Early Fusion in Encoder for Open-Domain Question Answering](https://arxiv.org/abs/2211.10147v1)",
+      "c": "",
+      "n": "FiE+PAQ",
+      "d": "2022-11-18",
+      "m1": "56.3"
+    },
+    {
+      "p": "[FiE: Building a Global Probability Space by Leveraging Early Fusion in Encoder for Open-Domain Question Answering](https://arxiv.org/abs/2211.10147v1)",
+      "c": "",
+      "n": "FiE",
+      "d": "2022-11-18",
+      "m1": "52.4"
+    },
+    {
+      "p": "[End-to-End Training of Multi-Document Reader and Retriever for Open-Domain Question Answering](https://arxiv.org/abs/2106.05346v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/DevSinghSachan/emdr2)",
+      "n": "EMDR2",
+      "d": "2021-06-09",
+      "m1": "48.7"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

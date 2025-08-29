@@ -1,0 +1,169 @@
+# collaborative-filtering-on-netflix
+
+[Dataset Link](https://www.netflixprize.com/) \
+Task Hierarchy: ['Recommendation Systems']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "nDCG@100",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "nDCG@10",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Recall@20",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Recall@50",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "AUC",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "PSP@10",
+      "sortable": "true"
+    },
+    {
+      "key": "m7",
+      "label": "Recall@10",
+      "sortable": "true"
+    },
+    {
+      "key": "m8",
+      "label": "mAP@10",
+      "sortable": "true"
+    },
+    {
+      "key": "m9",
+      "label": "Recall@100",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Enhancing VAEs for Collaborative Filtering: Flexible Priors & Gating Mechanisms](https://arxiv.org/abs/1911.00936v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/psywaves/EVCF)",
+      "n": "H+Vamp Gated",
+      "d": "2019-11-03",
+      "m1": "0.40861",
+      "m3": "0.37678",
+      "m4": "0.46252"
+    },
+    {
+      "p": "[RecVAE: a New Variational Autoencoder for Top-N Recommendations with Implicit Feedback](https://arxiv.org/abs/1912.11160v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ilya-shenbin/RecVAE)",
+      "n": "RecVAE",
+      "d": "2019-12-24",
+      "m1": "0.394",
+      "m3": "0.361",
+      "m4": "0.452"
+    },
+    {
+      "p": "[Embarrassingly Shallow Autoencoders for Sparse Data](https://arxiv.org/abs/1905.03375v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PreferredAI/cornac)",
+      "n": "EASE",
+      "d": "2019-05-08",
+      "m1": "0.393",
+      "m3": "0.362",
+      "m4": "0.445"
+    },
+    {
+      "p": "[Towards Amortized Ranking-Critical Training for Collaborative Filtering](https://arxiv.org/abs/1906.04281v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/samlobel/RaCT_CF)",
+      "n": "RaCT",
+      "d": "2019-06-10",
+      "m1": "0.392",
+      "m3": "0.357",
+      "m4": " 0.450"
+    },
+    {
+      "p": "[Variational Autoencoders for Collaborative Filtering](http://arxiv.org/abs/1802.05814v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/recommenders)",
+      "n": "Mult-VAE PR",
+      "d": "2018-02-16",
+      "m1": "0.386",
+      "m3": "0.351",
+      "m4": "0.444"
+    },
+    {
+      "p": "[Variational Autoencoders for Collaborative Filtering](http://arxiv.org/abs/1802.05814v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/recommenders)",
+      "n": "Mult-DAE",
+      "d": "2018-02-16",
+      "m1": "0.380",
+      "m3": "0.344",
+      "m4": "0.438"
+    },
+    {
+      "p": "[Infinite Recommendation Networks: A Data-Centric Approach](https://arxiv.org/abs/2206.02626v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Guang000/Awesome-Dataset-Distillation)",
+      "n": "\u221e-AE",
+      "d": "2022-06-03",
+      "m1": "0.3659",
+      "m2": "0.3059",
+      "m5": "0.9728",
+      "m6": "0.0375",
+      "m7": "0.2969",
+      "m9": "0.5088"
+    },
+    {
+      "p": "[Latent Relational Metric Learning via Memory-based Attention for Collaborative Ranking](http://arxiv.org/abs/1707.05176v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/vanzytay/WWW2018_LRML)",
+      "n": "LRML",
+      "d": "2017-07-17",
+      "m2": "0.3578",
+      "m7": "0.5371"
+    },
+    {
+      "p": "[Collaborative Metric Learning](https://ylongqi.com/publication/www17b/)",
+      "c": "[&check;&nbsp;Link](https://github.com/changun/CollMetric)",
+      "n": "CML",
+      "d": "2017-04-01",
+      "m2": "0.2948",
+      "m7": "0.4612"
+    },
+    {
+      "p": "[Collaborative Similarity Embedding for Recommender Systems](http://arxiv.org/abs/1902.06188v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/cnclabs/smore)",
+      "n": "RATE-CSE",
+      "d": "2019-02-17",
+      "m7": "0.2014",
+      "m8": "0.1039"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

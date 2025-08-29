@@ -1,0 +1,109 @@
+# unsupervised-image-classification-on-mnist
+
+[Dataset Link](http://yann.lecun.com/exdb/mnist/) \
+Task Hierarchy: ['Image Classification', 'Unsupervised Image Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Invariant Information Clustering for Unsupervised Image Classification and Segmentation](https://arxiv.org/abs/1807.06653v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/xu-ji/IIC)",
+      "n": "IIC",
+      "d": "2018-07-17",
+      "m1": "99.3"
+    },
+    {
+      "p": "[Learning Latent Representations in Neural Networks for Clustering through Pseudo Supervision and Graph-based Activity Regularization](http://arxiv.org/abs/1802.03063v1)",
+      "c": "",
+      "n": "ACOL + GAR + k-means",
+      "d": "2018-02-08",
+      "m1": "98.32"
+    },
+    {
+      "p": "[Let Go of Your Labels with Unsupervised Transfer](https://arxiv.org/abs/2406.07236v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/mlbio-epfl/turtle)",
+      "n": "TURTLE (CLIP + DINOv2)",
+      "d": "2024-06-11",
+      "m1": "97.8"
+    },
+    {
+      "p": "[Deep Transformation-Invariant Clustering](https://arxiv.org/abs/2006.11132v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/monniert/dti-clustering)",
+      "n": "DTI-Clustering",
+      "d": "2020-06-19",
+      "m1": "97.3"
+    },
+    {
+      "p": "[The VampPrior Mixture Model](https://arxiv.org/abs/2402.04412v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/astirn/vampprior-mixture-model)",
+      "n": "VMM",
+      "d": "2024-02-06",
+      "m1": "96.74"
+    },
+    {
+      "p": "[Inferencing Based on Unsupervised Learning of Disentangled Representations](http://arxiv.org/abs/1803.02627v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tohinz/Bidirectional-InfoGAN)",
+      "n": "Bidirectional InfoGAN",
+      "d": "2018-03-07",
+      "m1": "96.61"
+    },
+    {
+      "p": "[Adversarial Autoencoders](http://arxiv.org/abs/1511.05644v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/eriklindernoren/PyTorch-GAN)",
+      "n": "Adversarial AE",
+      "d": "2015-11-18",
+      "m1": "95.9"
+    },
+    {
+      "p": "[Unsupervised and Semi-supervised Learning with Categorical Generative Adversarial Networks](http://arxiv.org/abs/1511.06390v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/xinario/catgan_pytorch)",
+      "n": "CatGAN",
+      "d": "2015-11-19",
+      "m1": "95.73"
+    },
+    {
+      "p": "[InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets](http://arxiv.org/abs/1606.03657v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/eriklindernoren/PyTorch-GAN)",
+      "n": "InfoGAN",
+      "d": "2016-06-12",
+      "m1": "95"
+    },
+    {
+      "p": "[PixelGAN Autoencoders](http://arxiv.org/abs/1706.00531v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/anonyme20/nips20)",
+      "n": "PixelGAN Autoencoders",
+      "d": "2017-06-02",
+      "m1": "94.73"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

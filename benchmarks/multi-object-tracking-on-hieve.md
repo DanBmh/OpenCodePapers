@@ -1,0 +1,75 @@
+# multi-object-tracking-on-hieve
+
+[Dataset Link](http://humaninevents.org/) \
+Task Hierarchy: ['Object Tracking', 'Multi-Object Tracking']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "MOTA",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "IDF1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Rethinking the competition between detection and ReID in Multi-Object Tracking](https://arxiv.org/abs/2010.12138v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Zhongdao/Towards-Realtime-MOT)",
+      "n": "CSTrack",
+      "d": "2020-10-23",
+      "m1": "48.6",
+      "m2": "51.4"
+    },
+    {
+      "p": "[Detection Recovery in Online Multi-Object Tracking with Sparse Graph Tracker](https://arxiv.org/abs/2205.00968v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hyunjs/sgt)",
+      "n": "SGT",
+      "d": "2022-05-02",
+      "m1": "47.2",
+      "m2": "53.7"
+    },
+    {
+      "p": "[FairMOT: On the Fairness of Detection and Re-Identification in Multiple Object Tracking](https://arxiv.org/abs/2004.01888v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleDetection)",
+      "n": "FairMOT",
+      "d": "2020-04-04",
+      "m1": "35.0"
+    },
+    {
+      "p": "[Towards Real-Time Multi-Object Tracking](https://arxiv.org/abs/1909.12605v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleDetection)",
+      "n": "JDE",
+      "d": "2019-09-27",
+      "m1": "33.1",
+      "m2": "36.0"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

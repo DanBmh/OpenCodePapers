@@ -1,0 +1,60 @@
+# face-recognition-on-calfw
+
+[Dataset Link](http://whdeng.cn/CALFW/index.html) \
+Task Hierarchy: ['3D Face Reconstruction', 'Facial Recognition and Modelling', 'Face Recognition']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Deep Polynomial Neural Networks](https://arxiv.org/abs/2006.13026v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Faceplugin-ltd/FaceRecognition-Android)",
+      "n": "Prodpoly",
+      "d": "2020-06-20",
+      "m1": "0.96233"
+    },
+    {
+      "p": "[ElasticFace: Elastic Margin Loss for Deep Face Recognition](https://arxiv.org/abs/2109.09416v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/fdbtrs/ElasticFace)",
+      "n": "ElasticFace-Arc",
+      "d": "2021-09-20",
+      "m1": "0.9617"
+    },
+    {
+      "p": "[GhostFaceNets: Lightweight Face Recognition Model From Cheap Operations](https://ieeexplore.ieee.org/document/10098610)",
+      "c": "[&check;&nbsp;Link](https://github.com/serengil/deepface)",
+      "n": "GhostFaceNetV2-1",
+      "d": "2023-04-10",
+      "m1": "0.9612"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

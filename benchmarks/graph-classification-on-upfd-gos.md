@@ -1,0 +1,95 @@
+# graph-classification-on-upfd-gos
+
+[Dataset Link](https://github.com/safe-graph/GNN-FakeNews) \
+Task Hierarchy: ['Classification', 'Graph Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy (%)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[User Preference-aware Fake News Detection](https://arxiv.org/abs/2104.12259v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/safe-graph/GNN-FakeNews)",
+      "n": "UPFD-SAGE",
+      "d": "2021-04-25",
+      "m1": "97.54"
+    },
+    {
+      "p": "[Nothing Stands Alone: Relational Fake News Detection with Hypergraph Neural Networks](https://arxiv.org/abs/2212.12621v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ujeong1/IEEEBigdata22_HGFND)",
+      "n": "HGFND",
+      "d": "2022-12-24",
+      "m1": "97.46\u00b10.30"
+    },
+    {
+      "p": "[User Preference-aware Fake News Detection](https://arxiv.org/abs/2104.12259v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/safe-graph/GNN-FakeNews)",
+      "n": "UPFD-GAT",
+      "d": "2021-04-25",
+      "m1": "96.52"
+    },
+    {
+      "p": "[User Preference-aware Fake News Detection](https://arxiv.org/abs/2104.12259v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/safe-graph/GNN-FakeNews)",
+      "n": "UPFD-GCNFN",
+      "d": "2021-04-25",
+      "m1": "96.11"
+    },
+    {
+      "p": "[User Preference-aware Fake News Detection](https://arxiv.org/abs/2104.12259v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/safe-graph/GNN-FakeNews)",
+      "n": "GCNFN",
+      "d": "2021-04-25",
+      "m1": "95.90"
+    },
+    {
+      "p": "[User Preference-aware Fake News Detection](https://arxiv.org/abs/2104.12259v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/safe-graph/GNN-FakeNews)",
+      "n": "UPFD-GCN",
+      "d": "2021-04-25",
+      "m1": "95.11"
+    },
+    {
+      "p": "[User Preference-aware Fake News Detection](https://arxiv.org/abs/2104.12259v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/safe-graph/GNN-FakeNews)",
+      "n": "GNNCL",
+      "d": "2021-04-25",
+      "m1": "93.60"
+    },
+    {
+      "p": "[User Preference-aware Fake News Detection](https://arxiv.org/abs/2104.12259v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/safe-graph/GNN-FakeNews)",
+      "n": "UPFD-BiGCN",
+      "d": "2021-04-25",
+      "m1": "91.27"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

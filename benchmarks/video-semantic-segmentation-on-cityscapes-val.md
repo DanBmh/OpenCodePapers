@@ -1,0 +1,102 @@
+# video-semantic-segmentation-on-cityscapes-val
+
+[Dataset Link](https://www.cityscapes-dataset.com/dataset-overview/) \
+Task Hierarchy: ['2D Semantic Segmentation', 'Scene Parsing', 'Scene Understanding', 'Video Semantic Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mIoU",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Temporal Memory Attention for Video Semantic Segmentation](https://arxiv.org/abs/2102.08643v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/wanghao9610/TMANet)",
+      "n": "TMANet-50",
+      "d": "2021-02-17",
+      "m1": "80.3"
+    },
+    {
+      "p": "[Temporally Distributed Networks for Fast Video Semantic Segmentation](https://arxiv.org/abs/2004.01800v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/feinanshan/TDNet)",
+      "n": "TDNet-50 [9]",
+      "d": "2020-04-03",
+      "m1": "79.9"
+    },
+    {
+      "p": "[Delta Distillation for Efficient Video Processing](https://arxiv.org/abs/2203.09594v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Qualcomm-AI-research/delta-distillation)",
+      "n": "DeltaDist-DDRNet-39",
+      "d": "2022-03-17",
+      "m1": "79.9"
+    },
+    {
+      "p": "[Pyramid Scene Parsing Network](http://arxiv.org/abs/1612.01105v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+      "n": "PSPNet-101 [20]",
+      "d": "2016-12-04",
+      "m1": "79.7"
+    },
+    {
+      "p": "[Pyramid Scene Parsing Network](http://arxiv.org/abs/1612.01105v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+      "n": "PSPNet-50 [20]",
+      "d": "2016-12-04",
+      "m1": "78.1"
+    },
+    {
+      "p": "[Low-Latency Video Semantic Segmentation](http://arxiv.org/abs/1804.00389v1)",
+      "c": "",
+      "n": "LVS [12]",
+      "d": "2018-04-02",
+      "m1": "76.8"
+    },
+    {
+      "p": "[Semantic Video Segmentation by Gated Recurrent Flow Propagation](http://arxiv.org/abs/1612.08871v2)",
+      "c": "",
+      "n": "GRFP [15]",
+      "d": "2016-12-28",
+      "m1": "73.6"
+    },
+    {
+      "p": "[Fully Convolutional Networks for Semantic Segmentation](http://arxiv.org/abs/1605.06211v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/pytorch/vision)",
+      "n": "FCN-50 [14]",
+      "d": "2016-05-20",
+      "m1": "70.1"
+    },
+    {
+      "p": "[Deep Feature Flow for Video Recognition](http://arxiv.org/abs/1611.07715v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmtracking)",
+      "n": "DFF [22]",
+      "d": "2016-11-23",
+      "m1": "69.2"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

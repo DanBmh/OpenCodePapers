@@ -1,0 +1,88 @@
+# question-answering-on-sqa3d
+
+[Dataset Link](https://sqa3d.github.io) \
+Task Hierarchy: ['Question Answering']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AnswerExactMatch (Question Answering)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[CREMA: Generalizable and Efficient Video-Language Reasoning via Multimodal Modular Fusion](https://arxiv.org/abs/2402.05889v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Yui010206/CREMA)",
+      "n": "CREMA",
+      "d": "2024-02-08",
+      "m1": "54.6"
+    },
+    {
+      "p": "[Situational Awareness Matters in 3D Vision Language Reasoning](https://arxiv.org/abs/2406.07544v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/YunzeMan/Situation3D)",
+      "n": "Situation3D",
+      "d": "2024-06-11",
+      "m1": "52.6"
+    },
+    {
+      "p": "[Lexicon3D: Probing Visual Foundation Models for Complex 3D Scene Understanding](https://arxiv.org/abs/2409.03757v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yunzeman/lexicon3d)",
+      "n": "Lexicon3D",
+      "d": "2024-09-05",
+      "m1": "50.7"
+    },
+    {
+      "p": "[Frozen Transformers in Language Models Are Effective Visual Encoder Layers](https://arxiv.org/abs/2310.12973v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ziqipang/lm4visualencoding)",
+      "n": "LM4VisualEncoding",
+      "d": "2023-10-19",
+      "m1": "48.09"
+    },
+    {
+      "p": "[SQA3D: Situated Question Answering in 3D Scenes](https://arxiv.org/abs/2210.07474v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/SilongYong/SQA3D)",
+      "n": "ScanQA (w/ auxiliary loss)",
+      "d": "2022-10-14",
+      "m1": "47.20"
+    },
+    {
+      "p": "[SQA3D: Situated Question Answering in 3D Scenes](https://arxiv.org/abs/2210.07474v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/SilongYong/SQA3D)",
+      "n": "ScanQA",
+      "d": "2022-10-14",
+      "m1": "46.58"
+    },
+    {
+      "p": "[Deep Modular Co-Attention Networks for Visual Question Answering](https://arxiv.org/abs/1906.10770v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/MILVLG/mcan-vqa)",
+      "n": "MCAN",
+      "d": "2019-06-25",
+      "m1": "43.42"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

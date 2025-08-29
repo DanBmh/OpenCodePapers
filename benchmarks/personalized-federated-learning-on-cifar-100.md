@@ -1,0 +1,119 @@
+# personalized-federated-learning-on-cifar-100
+
+[Dataset Link](https://www.cs.toronto.edu/~kriz/cifar.html) \
+Task Hierarchy: ['Federated Learning', 'Personalized Federated Learning']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "ACC@1-500",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "ACC@1-100Clients",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "ACC@1-50Clients",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "ACC@1-10Clients",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "ACC@5-100Clients",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Personalized Federated Learning with Gaussian Processes](https://arxiv.org/abs/2106.15482v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/IdanAchituve/pFedGP)",
+      "n": "pFedGP-IP-data",
+      "d": "2021-06-29",
+      "m1": "55.7",
+      "m2": "58.5",
+      "m3": "60.2"
+    },
+    {
+      "p": "[Personalized Federated Learning with Gaussian Processes](https://arxiv.org/abs/2106.15482v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/IdanAchituve/pFedGP)",
+      "n": "pFedGP",
+      "d": "2021-06-29",
+      "m1": "50.6",
+      "m2": "61.3",
+      "m3": "63.3"
+    },
+    {
+      "p": "[Personalized Federated Learning with Gaussian Processes](https://arxiv.org/abs/2106.15482v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/IdanAchituve/pFedGP)",
+      "n": "pFedGP-IP-compute",
+      "d": "2021-06-29",
+      "m1": "49.2",
+      "m2": "59.8",
+      "m3": "61.2"
+    },
+    {
+      "p": "[Personalized Federated Learning using Hypernetworks](https://arxiv.org/abs/2103.04628v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/KarhouTam/FL-bench)",
+      "n": "pFedHN-PC",
+      "d": "2021-03-08",
+      "m1": "34.1",
+      "m2": "52.40",
+      "m3": "60.17",
+      "m4": "68.15"
+    },
+    {
+      "p": "[Personalized Federated Learning using Hypernetworks](https://arxiv.org/abs/2103.04628v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/KarhouTam/FL-bench)",
+      "n": "pFedHN",
+      "d": "2021-03-08",
+      "m2": "53.24",
+      "m3": "59.46",
+      "m4": "65.74"
+    },
+    {
+      "p": "[Connecting Low-Loss Subspace for Personalized Federated Learning](https://arxiv.org/abs/2109.07628v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/vaseline555/superfed)",
+      "n": "SuPerFed-LM",
+      "d": "2021-09-16",
+      "m5": "62.50"
+    },
+    {
+      "p": "[Connecting Low-Loss Subspace for Personalized Federated Learning](https://arxiv.org/abs/2109.07628v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/vaseline555/superfed)",
+      "n": "SuPerFed-MM",
+      "d": "2021-09-16",
+      "m5": "60.14"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

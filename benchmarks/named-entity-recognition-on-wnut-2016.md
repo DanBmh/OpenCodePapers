@@ -1,0 +1,88 @@
+# named-entity-recognition-on-wnut-2016
+
+[Dataset Link](https://noisy-text.github.io/2016/ner-shared-task.html) \
+Task Hierarchy: ['Named Entity Recognition (NER)']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Hero-Gang Neural Model For Named Entity Recognition](https://arxiv.org/abs/2205.07177v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jinpeng01/hgn)",
+      "n": "HGN",
+      "d": "2022-05-15",
+      "m1": "59.50"
+    },
+    {
+      "p": "[Improving Named Entity Recognition by External Context Retrieving and Cooperative Learning](https://arxiv.org/abs/2105.03654v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/modelscope/adaseq)",
+      "n": "CL-KL",
+      "d": "2021-05-08",
+      "m1": "58.98"
+    },
+    {
+      "p": "[Improving Named Entity Recognition with Attentive Ensemble of Syntactic Information](https://arxiv.org/abs/2010.15466v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cuhksz-nlp/AESINER)",
+      "n": "AESINER",
+      "d": "2020-10-29",
+      "m1": "55.14"
+    },
+    {
+      "p": "[Named Entity Recognition for Social Media Texts with Semantic Augmentation](https://arxiv.org/abs/2010.15458v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cuhksz-nlp/SANER)",
+      "n": "SA-NER",
+      "d": "2020-10-29",
+      "m1": "55.01"
+    },
+    {
+      "p": "[InferNER: an attentive model leveraging the sentence-level information for Named Entity Recognition in Microblogs](https://journals.flvc.org/FLAIRS/article/view/128538)",
+      "c": "",
+      "n": "InferNER",
+      "d": "2021-04-18",
+      "m1": "53.48"
+    },
+    {
+      "p": "[Bidirectional LSTM for Named Entity Recognition in Twitter Messages](https://aclanthology.org/W16-3920)",
+      "c": "",
+      "n": "CambridgeLTL",
+      "d": "2016-12-01",
+      "m1": "52.41"
+    },
+    {
+      "p": "[BERTweet: A pre-trained language model for English Tweets](https://arxiv.org/abs/2005.10200v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/VinAIResearch/BERTweet)",
+      "n": "BERTweet",
+      "d": "2020-05-20",
+      "m1": "52.1"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

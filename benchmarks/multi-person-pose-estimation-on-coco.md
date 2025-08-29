@@ -1,0 +1,162 @@
+# multi-person-pose-estimation-on-coco
+
+[Dataset Link]() \
+Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', 'Multi-Person Pose Estimation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AP",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Test AP",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Validation AP",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Learning Delicate Local Representations for Multi-Person Pose Estimation](https://arxiv.org/abs/2003.04030v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmpose)",
+      "n": "RSN",
+      "d": "2020-03-09",
+      "m1": "0.792"
+    },
+    {
+      "p": "[Distribution-Aware Coordinate Representation for Human Pose Estimation](https://arxiv.org/abs/1910.06278v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleDetection)",
+      "n": "DarkPose",
+      "d": "2019-10-14",
+      "m1": "0.774"
+    },
+    {
+      "p": "[X-Pose: Detecting Any Keypoints](https://arxiv.org/abs/2310.08530v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/idea-research/x-pose)",
+      "n": "UniPose",
+      "d": "2023-10-12",
+      "m1": "0.768"
+    },
+    {
+      "p": "[Cascaded Pyramid Network for Multi-Person Pose Estimation](http://arxiv.org/abs/1711.07319v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/chenyilun95/tf-cpn)",
+      "n": "CPN+",
+      "d": "2017-11-20",
+      "m1": "0.730"
+    },
+    {
+      "p": "[BAPose: Bottom-Up Pose Estimation with Disentangled Waterfall Representations](https://arxiv.org/abs/2112.10716v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/bmartacho/BAPose)",
+      "n": "BAPose",
+      "d": "2021-12-20",
+      "m1": "0.727",
+      "m2": "71.2",
+      "m3": "72.7"
+    },
+    {
+      "p": "[The Center of Attention: Center-Keypoint Grouping via Attention for Multi-Person Pose Estimation](https://arxiv.org/abs/2110.05132v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dvl-tum/center-group)",
+      "n": "CenterGroup",
+      "d": "2021-10-11",
+      "m1": "0.714",
+      "m2": "71.4"
+    },
+    {
+      "p": "[OpenPifPaf: Composite Fields for Semantic Keypoint Detection and Spatio-Temporal Association](https://arxiv.org/abs/2103.02440v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/openpifpaf/openpifpaf)",
+      "n": "OpenPifPaf",
+      "d": "2021-03-03",
+      "m1": "0.709",
+      "m2": "70.9",
+      "m3": "71.0"
+    },
+    {
+      "p": "[MultiPoseNet: Fast Multi-Person Pose Estimation using Pose Residual Network](http://arxiv.org/abs/1807.04067v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/salihkaragoz/pose-residual-network-pytorch)",
+      "n": "Pose Residual Network",
+      "d": "2018-07-11",
+      "m1": "0.697"
+    },
+    {
+      "p": "[Towards Accurate Multi-person Pose Estimation in the Wild](http://arxiv.org/abs/1701.01779v2)",
+      "c": "",
+      "n": "G-RMI*",
+      "d": "2017-01-06",
+      "m1": "0.685"
+    },
+    {
+      "p": "[Attend to Who You Are: Supervising Self-Attention for Keypoint Detection and Instance-Aware Association](https://arxiv.org/abs/2111.12892v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yangsenius/ssa)",
+      "n": "Supervising Self-Attention",
+      "d": "2021-11-25",
+      "m1": "0.665"
+    },
+    {
+      "p": "[Associative Embedding: End-to-End Learning for Joint Detection and Grouping](http://arxiv.org/abs/1611.05424v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmpose)",
+      "n": "Associative Embedding",
+      "d": "2016-11-16",
+      "m1": "0.655"
+    },
+    {
+      "p": "[Towards Accurate Multi-person Pose Estimation in the Wild](http://arxiv.org/abs/1701.01779v2)",
+      "c": "",
+      "n": "G-RMI",
+      "d": "2017-01-06",
+      "m1": "0.649"
+    },
+    {
+      "p": "[EvoPose2D: Pushing the Boundaries of 2D Human Pose Estimation using Accelerated Neuroevolution with Weight Transfer](https://arxiv.org/abs/2011.08446v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/wmcnally/evopose2d)",
+      "n": "EvoPose2D-L",
+      "d": "2020-11-17",
+      "m2": "76.8",
+      "m3": "77.5"
+    },
+    {
+      "p": "[PoseFix: Model-agnostic General Human Pose Refinement Network](http://arxiv.org/abs/1812.03595v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/mks0601/PoseFix_RELEASE)",
+      "n": "PoseFix",
+      "d": "2018-12-10",
+      "m2": "76.7",
+      "m3": "77.3"
+    },
+    {
+      "p": "[Lite Pose: Efficient Architecture Design for 2D Human Pose Estimation](https://arxiv.org/abs/2205.01271v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/mit-han-lab/litepose)",
+      "n": "LitePose-S",
+      "d": "2022-05-03",
+      "m2": "56.7",
+      "m3": "56.8"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

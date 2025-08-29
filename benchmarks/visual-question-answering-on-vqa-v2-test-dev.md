@@ -1,0 +1,431 @@
+# visual-question-answering-on-vqa-v2-test-dev
+
+[Dataset Link](https://visualqa.org/) \
+Task Hierarchy: ['Visual Question Answering (VQA)']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[PaLI: A Jointly-Scaled Multilingual Language-Image Model](https://arxiv.org/abs/2209.06794v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/big_vision)",
+      "n": "PaLI",
+      "d": "2022-09-14",
+      "m1": "84.3"
+    },
+    {
+      "p": "[Image as a Foreign Language: BEiT Pretraining for All Vision and Vision-Language Tasks](https://arxiv.org/abs/2208.10442v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/unilm/tree/master/beit)",
+      "n": "BEiT-3",
+      "d": "2022-08-22",
+      "m1": "84.19"
+    },
+    {
+      "p": "[VLMo: Unified Vision-Language Pre-Training with Mixture-of-Modality-Experts](https://arxiv.org/abs/2111.02358v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/unilm/tree/master/vlmo)",
+      "n": "VLMo",
+      "d": "2021-11-03",
+      "m1": "82.78"
+    },
+    {
+      "p": "[ONE-PEACE: Exploring One General Representation Model Toward Unlimited Modalities](https://arxiv.org/abs/2305.11172v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/modelscope/modelscope)",
+      "n": "ONE-PEACE",
+      "d": "2023-05-18",
+      "m1": "82.6"
+    },
+    {
+      "p": "[mPLUG: Effective and Efficient Vision-Language Learning by Cross-modal Skip-connections](https://arxiv.org/abs/2205.12005v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/modelscope/modelscope)",
+      "n": "mPLUG (Huge)",
+      "d": "2022-05-24",
+      "m1": "82.43"
+    },
+    {
+      "p": "[CuMo: Scaling Multimodal LLM with Co-Upcycled Mixture-of-Experts](https://arxiv.org/abs/2405.05949v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/shi-labs/cumo)",
+      "n": "CuMo-7B",
+      "d": "2024-05-09",
+      "m1": "82.2"
+    },
+    {
+      "p": "[X$^2$-VLM: All-In-One Pre-trained Model For Vision-Language Tasks](https://arxiv.org/abs/2211.12402v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zengyan-97/x-vlm)",
+      "n": "X2-VLM (large)",
+      "d": "2022-11-22",
+      "m1": "81.9"
+    },
+    {
+      "p": "[Achieving Human Parity on Visual Question Answering](https://arxiv.org/abs/2111.08896v3)",
+      "c": "",
+      "n": "MMU",
+      "d": "2021-11-17",
+      "m1": "81.26"
+    },
+    {
+      "p": "[Lyrics: Boosting Fine-grained Language-Vision Alignment and Comprehension via Semantic-aware Visual Objects](https://arxiv.org/abs/2312.05278v2)",
+      "c": "",
+      "n": "Lyrics",
+      "d": "2023-12-08",
+      "m1": "81.2"
+    },
+    {
+      "p": "[InternVL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks](https://arxiv.org/abs/2312.14238v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internvl)",
+      "n": "InternVL-C",
+      "d": "2023-12-21",
+      "m1": "81.2"
+    },
+    {
+      "p": "[X$^2$-VLM: All-In-One Pre-trained Model For Vision-Language Tasks](https://arxiv.org/abs/2211.12402v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zengyan-97/x-vlm)",
+      "n": "X2-VLM (base)",
+      "d": "2022-11-22",
+      "m1": "80.4"
+    },
+    {
+      "p": "[Toward Building General Foundation Models for Language, Vision, and Vision-Language Understanding Tasks](https://arxiv.org/abs/2301.05065v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhangxinsong-nlp/XFM)",
+      "n": "XFM (base)",
+      "d": "2023-01-12",
+      "m1": "80.4"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "VAST",
+      "d": null,
+      "m1": "80.23"
+    },
+    {
+      "p": "[SimVLM: Simple Visual Language Model Pretraining with Weak Supervision](https://arxiv.org/abs/2108.10904v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yulong-XJTU/SimVLM)",
+      "n": "SimVLM",
+      "d": "2021-08-24",
+      "m1": "80.03"
+    },
+    {
+      "p": "[VALOR: Vision-Audio-Language Omni-Perception Pretraining Model and Dataset](https://arxiv.org/abs/2304.08345v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/TXH-mercury/VALOR)",
+      "n": "VALOR",
+      "d": "2023-04-17",
+      "m1": "78.46"
+    },
+    {
+      "p": "[Prismer: A Vision-Language Model with Multi-Task Experts](https://arxiv.org/abs/2303.02506v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/nvlabs/prismer)",
+      "n": "Prismer",
+      "d": "2023-03-04",
+      "m1": "78.43"
+    },
+    {
+      "p": "[Multi-Grained Vision Language Pre-Training: Aligning Texts with Visual Concepts](https://arxiv.org/abs/2111.08276v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/zengyan-97/x-vlm)",
+      "n": "X-VLM (base)",
+      "d": "2021-11-16",
+      "m1": "78.22"
+    },
+    {
+      "p": "[Implicit Differentiable Outlier Detection Enable Robust Deep Multimodal Analysis](https://openreview.net/forum?id=jooPcatnVF)",
+      "c": "[&check;&nbsp;Link](https://github.com/ellenzhuwang/implicit_vkood)",
+      "n": "VK-OOD",
+      "d": "2023-09-21",
+      "m1": "77.9"
+    },
+    {
+      "p": "[Align before Fuse: Vision and Language Representation Learning with Momentum Distillation](https://arxiv.org/abs/2107.07651v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/salesforce/lavis)",
+      "n": "ALBEF (14M)",
+      "d": "2021-07-16",
+      "m1": "75.84"
+    },
+    {
+      "p": "[Oscar: Object-Semantics Aligned Pre-training for Vision-Language Tasks](https://arxiv.org/abs/2004.06165v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/rmokady/clip_prefix_caption)",
+      "n": "Oscar",
+      "d": "2020-04-13",
+      "m1": "73.82"
+    },
+    {
+      "p": "[UNITER: UNiversal Image-TExt Representation Learning](https://arxiv.org/abs/1909.11740v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/ChenRocks/UNITER)",
+      "n": "UNITER (Large)",
+      "d": "2019-09-25",
+      "m1": "73.24"
+    },
+    {
+      "p": "[In Defense of Grid Features for Visual Question Answering](https://arxiv.org/abs/2001.03615v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/clip-vil/CLIP-ViL)",
+      "n": "X-101 grid features + MCAN",
+      "d": "2020-01-10",
+      "m1": "72.59"
+    },
+    {
+      "p": "[Coarse-to-Fine Reasoning for Visual Question Answering](https://arxiv.org/abs/2110.02526v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/aioz-ai/cfr_vqa)",
+      "n": "CFR",
+      "d": "2021-10-06",
+      "m1": "72.5"
+    },
+    {
+      "p": "[VL-BERT: Pre-training of Generic Visual-Linguistic Representations](https://arxiv.org/abs/1908.08530v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/jackroos/VL-BERT)",
+      "n": "VL-BERTLARGE",
+      "d": "2019-08-22",
+      "m1": "71.79"
+    },
+    {
+      "p": "[ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision](https://arxiv.org/abs/2102.03334v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "ViLT-B/32",
+      "d": "2021-02-05",
+      "m1": "71.26"
+    },
+    {
+      "p": "[Visual Commonsense R-CNN](https://arxiv.org/abs/2002.12204v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Wangt-CN/VC-R-CNN)",
+      "n": "MCAN+VC",
+      "d": "2020-02-27",
+      "m1": "71.21"
+    },
+    {
+      "p": "[VL-BERT: Pre-training of Generic Visual-Linguistic Representations](https://arxiv.org/abs/1908.08530v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/jackroos/VL-BERT)",
+      "n": "VL-BERTBASE",
+      "d": "2019-08-22",
+      "m1": "71.16"
+    },
+    {
+      "p": "[VisualBERT: A Simple and Performant Baseline for Vision and Language](https://arxiv.org/abs/1908.03557v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/uclanlp/visualbert)",
+      "n": "VisualBERT",
+      "d": "2019-08-09",
+      "m1": "70.8"
+    },
+    {
+      "p": "[Deep Modular Co-Attention Networks for Visual Question Answering](https://arxiv.org/abs/1906.10770v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/MILVLG/mcan-vqa)",
+      "n": "MCANed-6",
+      "d": "2019-06-25",
+      "m1": "70.63"
+    },
+    {
+      "p": "[ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks](https://arxiv.org/abs/1908.02265v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/vilbert-multi-task)",
+      "n": "ViLBERT",
+      "d": "2019-08-06",
+      "m1": "70.55"
+    },
+    {
+      "p": "[Bilinear Attention Networks](http://arxiv.org/abs/1805.07932v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/mmf)",
+      "n": "BAN+Glove+Counter",
+      "d": "2018-05-21",
+      "m1": "70.04"
+    },
+    {
+      "p": "[LXMERT: Learning Cross-Modality Encoder Representations from Transformers](https://arxiv.org/abs/1908.07490v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "LXMERT (Pre-train + scratch)",
+      "d": "2019-08-20",
+      "m1": "69.9"
+    },
+    {
+      "p": "[Tips and Tricks for Visual Question Answering: Learnings from the 2017 Challenge](http://arxiv.org/abs/1708.02711v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/peteanderson80/bottom-up-attention)",
+      "n": "Image features from bottom-up attention (adaptive K, ensemble)",
+      "d": "2017-08-09",
+      "m1": "69.87"
+    },
+    {
+      "p": "[Towards VQA Models That Can Read](https://arxiv.org/abs/1904.08920v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/pythia)",
+      "n": "Pythia v0.3 + LoRRA",
+      "d": "2019-04-18",
+      "m1": "69.21"
+    },
+    {
+      "p": "[Learning to Count Objects in Natural Images for Visual Question Answering](http://arxiv.org/abs/1802.05766v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Cyanogenoid/vqa-counting)",
+      "n": "DMN",
+      "d": "2018-02-15",
+      "m1": "68.09"
+    },
+    {
+      "p": "[LaKo: Knowledge-driven Visual Question Answering via Late Knowledge-to-Text Injection](https://arxiv.org/abs/2207.12888v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/hackerchenzhuo/LaKo)",
+      "n": "LaKo",
+      "d": "2022-07-26",
+      "m1": "68.07"
+    },
+    {
+      "p": "[MUREL: Multimodal Relational Reasoning for Visual Question Answering](http://arxiv.org/abs/1902.09487v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Cadene/murel.bootstrap.pytorch)",
+      "n": "MuRel",
+      "d": "2019-02-25",
+      "m1": "68.03"
+    },
+    {
+      "p": "[BLOCK: Bilinear Superdiagonal Fusion for Visual Question Answering and Visual Relationship Detection](http://arxiv.org/abs/1902.00038v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Cadene/block.bootstrap.pytorch)",
+      "n": "BLOCK",
+      "d": "2019-01-31",
+      "m1": "67.58"
+    },
+    {
+      "p": "[MUTAN: Multimodal Tucker Fusion for Visual Question Answering](http://arxiv.org/abs/1705.06676v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Cadene/vqa.pytorch)",
+      "n": "MUTAN",
+      "d": "2017-05-18",
+      "m1": "67.42"
+    },
+    {
+      "p": "[Compact Trilinear Interaction for Visual Question Answering](https://arxiv.org/abs/1909.11874v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/aioz-ai/ICCV19_VQA-CTI)",
+      "n": "BAN2-CTI",
+      "d": "2019-09-26",
+      "m1": "67.4"
+    },
+    {
+      "p": "[Sparse and Continuous Attention Mechanisms](https://arxiv.org/abs/2006.07214v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/deep-spin/mcan-vqa-continuous-attention)",
+      "n": "2D continuous softmax",
+      "d": "2020-06-12",
+      "m1": "65.96"
+    },
+    {
+      "p": "[BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "BLIP-2 ViT-G FlanT5 XXL (zero-shot)",
+      "d": "2023-01-30",
+      "m1": "65"
+    },
+    {
+      "p": "[Learning to Reason: End-to-End Module Networks for Visual Question Answering](http://arxiv.org/abs/1704.05526v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/ronghanghu/n2nmn)",
+      "n": "N2NMN (ResNet-152, policy search)",
+      "d": "2017-04-18",
+      "m1": "64.9"
+    },
+    {
+      "p": "[Plug-and-Play VQA: Zero-shot VQA by Conjoining Large Pretrained Models with Zero Training](https://arxiv.org/abs/2210.08773v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/salesforce/lavis)",
+      "n": "PNP-VQA",
+      "d": "2022-10-17",
+      "m1": "64.8"
+    },
+    {
+      "p": "[Multimodal Compact Bilinear Pooling for Visual Question Answering and Visual Grounding](http://arxiv.org/abs/1606.01847v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Cadene/vqa.pytorch)",
+      "n": "MCB",
+      "d": "2016-06-06",
+      "m1": "64.7"
+    },
+    {
+      "p": "[RUBi: Reducing Unimodal Biases in Visual Question Answering](https://arxiv.org/abs/1906.10169v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/cdancette/rubi.bootstrap.pytorch)",
+      "n": "RUBi",
+      "d": "2019-06-24",
+      "m1": "63.18"
+    },
+    {
+      "p": "[BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "BLIP-2 ViT-G FlanT5 XL (zero-shot)",
+      "d": "2023-01-30",
+      "m1": "63"
+    },
+    {
+      "p": "[BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "BLIP-2 ViT-L FlanT5 XL (zero-shot)",
+      "d": "2023-01-30",
+      "m1": "62.3"
+    },
+    {
+      "p": "[Flamingo: a Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mlfoundations/open_flamingo)",
+      "n": "Flamingo 80B",
+      "d": "2022-04-29",
+      "m1": "56.3"
+    },
+    {
+      "p": "[BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "BLIP-2 ViT-G OPT 6.7B (zero-shot)",
+      "d": "2023-01-30",
+      "m1": "52.6"
+    },
+    {
+      "p": "[BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "BLIP-2 ViT-G OPT 2.7B (zero-shot)",
+      "d": "2023-01-30",
+      "m1": "52.3"
+    },
+    {
+      "p": "[Flamingo: a Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mlfoundations/open_flamingo)",
+      "n": "Flamingo 9B",
+      "d": "2022-04-29",
+      "m1": "51.8"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "KOSMOS-1 1.6B (zero-shot)",
+      "d": null,
+      "m1": "51.0"
+    },
+    {
+      "p": "[BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "BLIP-2 ViT-L OPT 2.7B (zero-shot)",
+      "d": "2023-01-30",
+      "m1": "49.7"
+    },
+    {
+      "p": "[Flamingo: a Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mlfoundations/open_flamingo)",
+      "n": "Flamingo 3B",
+      "d": "2022-04-29",
+      "m1": "49.2"
+    },
+    {
+      "p": "[Enabling Multimodal Generation on CLIP via Vision-Language Knowledge Distillation](https://openreview.net/forum?id=YTGg7kv8qIq)",
+      "c": "",
+      "n": "VLKD",
+      "d": "2021-11-16",
+      "m1": "44.5"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,116 @@
+# point-cloud-registration-on-3dmatch-at-least-2
+
+[Dataset Link]() \
+Task Hierarchy: ['3D Point Cloud Interpolation', 'Point Cloud Registration']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Recall ( correspondence RMSE below 0.2)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Leveraging Inlier Correspondences Proportion for Point Cloud Registration](https://arxiv.org/abs/2201.12094v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhulf0804/ngenet)",
+      "n": "NgeNet",
+      "d": "2022-01-28",
+      "m1": "92.9"
+    },
+    {
+      "p": "[REGTR: End-to-end Point Cloud Correspondences with Transformers](https://arxiv.org/abs/2203.14517v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yewzijian/regtr)",
+      "n": "REGTR",
+      "d": "2022-03-28",
+      "m1": "92"
+    },
+    {
+      "p": "[PREDATOR: Registration of 3D Point Clouds with Low Overlap](https://arxiv.org/abs/2011.13005v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/qinzheng93/geotransformer)",
+      "n": "Predator-1k",
+      "d": "2020-11-25",
+      "m1": "90.5"
+    },
+    {
+      "p": "[PREDATOR: Registration of 3D Point Clouds with Low Overlap](https://arxiv.org/abs/2011.13005v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/qinzheng93/geotransformer)",
+      "n": "Predator-5k",
+      "d": "2020-11-25",
+      "m1": "89"
+    },
+    {
+      "p": "[PCAM: Product of Cross-Attention Matrices for Rigid Registration of Point Clouds](https://arxiv.org/abs/2110.01269v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/valeoai/pcam)",
+      "n": "PCAM (reported in REGTR)",
+      "d": "2021-10-04",
+      "m1": "85.5"
+    },
+    {
+      "p": "[Deep Global Registration](https://arxiv.org/abs/2004.11540v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/chrischoy/FCGF)",
+      "n": "DGR (reported in REGTR)",
+      "d": "2020-04-24",
+      "m1": "85.3"
+    },
+    {
+      "p": "[Fully Convolutional Geometric Features](https://github.com/chrischoy/FCGF)",
+      "c": "[&check;&nbsp;Link](https://github.com/chrischoy/FCGF)",
+      "n": "FCGF (reported in PREDATOR)",
+      "d": "2019-10-27",
+      "m1": "85.1"
+    },
+    {
+      "p": "[D3Feat: Joint Learning of Dense Detection and Description of 3D Local Features](https://arxiv.org/abs/2003.03164v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/XuyangBai/D3Feat)",
+      "n": "D3Feat (reported in PREDATOR)",
+      "d": "2020-03-06",
+      "m1": "81.6"
+    },
+    {
+      "p": "[The Perfect Match: 3D Point Cloud Matching with Smoothed Densities](https://arxiv.org/abs/1811.06879v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/zgojcic/3DSmoothNet)",
+      "n": "3DSN (reported in PREDATOR)",
+      "d": "2018-11-16",
+      "m1": "78.4"
+    },
+    {
+      "p": "[PREDATOR: Registration of 3D Point Clouds with Low Overlap](https://arxiv.org/abs/2011.13005v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/qinzheng93/geotransformer)",
+      "n": "Predator-NR",
+      "d": "2020-11-25",
+      "m1": "62.7"
+    },
+    {
+      "p": "[OMNet: Learning Overlapping Mask for Partial-to-Partial Point Cloud Registration](https://arxiv.org/abs/2103.00937v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/megvii-research/omnet)",
+      "n": "OMNet (reported in REGTR)",
+      "d": "2021-03-01",
+      "m1": "35.9"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

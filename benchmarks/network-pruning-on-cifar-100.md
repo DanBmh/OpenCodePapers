@@ -1,0 +1,85 @@
+# network-pruning-on-cifar-100
+
+[Dataset Link](https://www.cs.toronto.edu/~kriz/cifar.html) \
+Task Hierarchy: ['Network Pruning']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "GFLOPs",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Inference Time (ms)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[AC/DC: Alternating Compressed/DeCompressed Training of Deep Neural Networks](https://arxiv.org/abs/2106.12379v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/IST-DASLab/ACDC)",
+      "n": "Dense",
+      "d": "2021-06-23",
+      "m1": "79"
+    },
+    {
+      "p": "[AC/DC: Alternating Compressed/DeCompressed Training of Deep Neural Networks](https://arxiv.org/abs/2106.12379v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/IST-DASLab/ACDC)",
+      "n": "AC/DC",
+      "d": "2021-06-23",
+      "m1": "78.2"
+    },
+    {
+      "p": "[Beta-Rank: A Robust Convolutional Filter Pruning Method For Imbalanced Medical Image Analysis](https://arxiv.org/abs/2304.07461v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mohofar/beta-rank)",
+      "n": "Beta-Rank",
+      "d": "2023-04-15",
+      "m1": "74.01"
+    },
+    {
+      "p": "[Network Pruning via Transformable Architecture Search](https://arxiv.org/abs/1905.09717v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/D-X-Y/GDAS)",
+      "n": "TAS-pruned ResNet-110",
+      "d": "2019-05-23",
+      "m1": "73.16",
+      "m2": "0.12"
+    },
+    {
+      "p": "[PP-StructureV2: A Stronger Document Analysis System](https://arxiv.org/abs/2210.05391v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleOCR)",
+      "n": "+U-DML*",
+      "d": "2022-10-11",
+      "m3": "675.56"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

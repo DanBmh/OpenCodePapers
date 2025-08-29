@@ -1,0 +1,174 @@
+# face-recognition-on-lfw
+
+[Dataset Link](http://vis-www.cs.umass.edu/lfw/) \
+Task Hierarchy: ['3D Face Reconstruction', 'Facial Recognition and Modelling', 'Face Recognition']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "FNMR [%] @ 10-3 FMR",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "F1-score",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Precision",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "Recall",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[GhostFaceNets: Lightweight Face Recognition Model From Cheap Operations](https://ieeexplore.ieee.org/document/10098610)",
+      "c": "[&check;&nbsp;Link](https://github.com/serengil/deepface)",
+      "n": "GhostFaceNetV2-1 (MS1MV3)",
+      "d": "2023-04-10",
+      "m1": "0.998667"
+    },
+    {
+      "p": "[SymFace: Additional Facial Symmetry Loss for Deep Face Recognition](https://arxiv.org/abs/2409.11816v1)",
+      "c": "",
+      "n": "SymFace + AdaFace + ResNet100 +WebFace (MS1MV2)",
+      "d": "2024-09-18",
+      "m1": "0.9985"
+    },
+    {
+      "p": "[Deep Polynomial Neural Networks](https://arxiv.org/abs/2006.13026v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Faceplugin-ltd/FaceRecognition-Android)",
+      "n": "Prodpoly",
+      "d": "2020-06-20",
+      "m1": "0.99833"
+    },
+    {
+      "p": "[DiscFace: Minimum Discrepancy Learning for Deep Face Recognition](https://openaccess.thecvf.com/content/ACCV2020/html/Kim_DiscFace_Minimum_Discrepancy_Learning_for_Deep_Face_Recognition_ACCV_2020_paper.html)",
+      "c": "",
+      "n": "DiscFace",
+      "d": "2020-11-30",
+      "m1": "0.9983"
+    },
+    {
+      "p": "[AdaFace: Quality Adaptive Margin for Face Recognition](https://arxiv.org/abs/2204.00964v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mk-minchul/adaface)",
+      "n": "ArcFace +  MS1MV2 + R100",
+      "d": "2022-04-03",
+      "m1": "0.9983"
+    },
+    {
+      "p": "[Dynamic Class Queue for Large Scale Face Recognition In the Wild](https://arxiv.org/abs/2105.11113v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/bilylee/DCQ)",
+      "n": "DCQ",
+      "d": "2021-05-24",
+      "m1": "0.998"
+    },
+    {
+      "p": "[AdaFace: Quality Adaptive Margin for Face Recognition](https://arxiv.org/abs/2204.00964v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mk-minchul/adaface)",
+      "n": "AdaFace +  WebFace4M + R100",
+      "d": "2022-04-03",
+      "m1": "0.9980"
+    },
+    {
+      "p": "[EdgeFace: Efficient Face Recognition Model for Edge Devices](https://arxiv.org/abs/2307.01838v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/otroshi/edgeface)",
+      "n": "EdgeFace - S (g=0.5)",
+      "d": "2023-07-04",
+      "m1": "0.9978"
+    },
+    {
+      "p": "[Circle Loss: A Unified Perspective of Pair Similarity Optimization](https://arxiv.org/abs/2002.10857v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/layumi/Person_reID_baseline_pytorch)",
+      "n": "CircleLoss",
+      "d": "2020-02-25",
+      "m1": "0.9973"
+    },
+    {
+      "p": "[Octuplet Loss: Make Face Recognition Robust to Image Resolution](https://arxiv.org/abs/2207.06726v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Faceplugin-ltd/FaceRecognition-Android)",
+      "n": "FaceTransformer+OctupletLoss",
+      "d": "2022-07-14",
+      "m1": "0.9973"
+    },
+    {
+      "p": "[EdgeFace: Efficient Face Recognition Model for Edge Devices](https://arxiv.org/abs/2307.01838v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/otroshi/edgeface)",
+      "n": "EdgeFace - XS (g=0.6)",
+      "d": "2023-07-04",
+      "m1": "0.9973"
+    },
+    {
+      "p": "[QMagFace: Simple and Accurate Quality-Aware Face Recognition](https://arxiv.org/abs/2111.13475v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/pterhoer/QMagFace)",
+      "n": "QMagFace",
+      "d": "2021-11-26",
+      "m1": "0.9850"
+    },
+    {
+      "p": "[MagicEye: An Intelligent Wearable Towards Independent Living of Visually Impaired](https://arxiv.org/abs/2303.13863v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/gauravreddy08/OcularAI)",
+      "n": "OcularAI-Face",
+      "d": "2023-03-24",
+      "m1": "0.945",
+      "m3": "0.9421",
+      "m4": "0.9934",
+      "m5": "0.896"
+    },
+    {
+      "p": "[PIC-Score: Probabilistic Interpretable Comparison Score for Optimal Matching Confidence in Single- and Multi-Biometric (Face) Recognition](https://arxiv.org/abs/2211.12483v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Faceplugin-ltd/FaceRecognition-Android)",
+      "n": "PIC - MagFace",
+      "d": "2022-11-22",
+      "m2": "0.05"
+    },
+    {
+      "p": "[PIC-Score: Probabilistic Interpretable Comparison Score for Optimal Matching Confidence in Single- and Multi-Biometric (Face) Recognition](https://arxiv.org/abs/2211.12483v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Faceplugin-ltd/FaceRecognition-Android)",
+      "n": "PIC - QMagFace",
+      "d": "2022-11-22",
+      "m2": "0.05"
+    },
+    {
+      "p": "[PIC-Score: Probabilistic Interpretable Comparison Score for Optimal Matching Confidence in Single- and Multi-Biometric (Face) Recognition](https://arxiv.org/abs/2211.12483v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Faceplugin-ltd/FaceRecognition-Android)",
+      "n": "PIC - ArcFace",
+      "d": "2022-11-22",
+      "m2": "4.38"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

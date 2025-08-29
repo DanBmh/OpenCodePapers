@@ -1,0 +1,103 @@
+# change-point-detection-on-tep
+
+[Dataset Link](https://github.com/YKatser/CPDE/tree/master/TEP_data) \
+Task Hierarchy: ['Change Point Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "NAB (standard)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "NAB (lowFP)",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "NAB (LowFN)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Unsupervised Offline Changepoint Detection Ensembles](https://www.mdpi.com/2076-3417/11/9/4280?utm_source=TrendMD&utm_medium=cpc&utm_campaign=Appl_Sci_TrendMD_0)",
+      "c": "[&check;&nbsp;Link](https://github.com/YKatser/CPDE)",
+      "n": "OptEnsemble CPDE algorithm (Min+MinMax/Rank)",
+      "d": "2021-05-09",
+      "m1": "41.81",
+      "m2": "41",
+      "m3": "42.16"
+    },
+    {
+      "p": "[Unsupervised Offline Changepoint Detection Ensembles](https://www.mdpi.com/2076-3417/11/9/4280?utm_source=TrendMD&utm_medium=cpc&utm_campaign=Appl_Sci_TrendMD_0)",
+      "c": "[&check;&nbsp;Link](https://github.com/YKatser/CPDE)",
+      "n": "BinSegEnsemble CPDE algorithm (Min+MinMax/Rank)",
+      "d": "2021-05-09",
+      "m1": "41.81",
+      "m2": "41",
+      "m3": "42.16"
+    },
+    {
+      "p": "[Unsupervised Offline Changepoint Detection Ensembles](https://www.mdpi.com/2076-3417/11/9/4280?utm_source=TrendMD&utm_medium=cpc&utm_campaign=Appl_Sci_TrendMD_0)",
+      "c": "[&check;&nbsp;Link](https://github.com/YKatser/CPDE)",
+      "n": "BinSeg CPD algorithm (Mahalanobis metric)",
+      "d": "2021-05-09",
+      "m1": "36.88",
+      "m2": "35.82",
+      "m3": "37.29"
+    },
+    {
+      "p": "[Unsupervised Offline Changepoint Detection Ensembles](https://www.mdpi.com/2076-3417/11/9/4280?utm_source=TrendMD&utm_medium=cpc&utm_campaign=Appl_Sci_TrendMD_0)",
+      "c": "[&check;&nbsp;Link](https://github.com/YKatser/CPDE)",
+      "n": "Opt CPD algorithm (Mahalanobis metric)",
+      "d": "2021-05-09",
+      "m1": "36.88",
+      "m2": "35.82",
+      "m3": "37.29"
+    },
+    {
+      "p": "[Unsupervised Offline Changepoint Detection Ensembles](https://www.mdpi.com/2076-3417/11/9/4280?utm_source=TrendMD&utm_medium=cpc&utm_campaign=Appl_Sci_TrendMD_0)",
+      "c": "[&check;&nbsp;Link](https://github.com/YKatser/CPDE)",
+      "n": "Win CPD algorithm (Mahalanobis metric)",
+      "d": "2021-05-09",
+      "m1": "27.79",
+      "m2": "27",
+      "m3": "28.05"
+    },
+    {
+      "p": "[Unsupervised Offline Changepoint Detection Ensembles](https://www.mdpi.com/2076-3417/11/9/4280?utm_source=TrendMD&utm_medium=cpc&utm_campaign=Appl_Sci_TrendMD_0)",
+      "c": "[&check;&nbsp;Link](https://github.com/YKatser/CPDE)",
+      "n": "WinEnsemble CPDE algorithm (WeightedSum+MinAbs)",
+      "d": "2021-05-09",
+      "m1": "25.14",
+      "m2": "24.33",
+      "m3": "26.29"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

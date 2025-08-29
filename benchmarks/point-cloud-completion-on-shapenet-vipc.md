@@ -1,0 +1,60 @@
+# point-cloud-completion-on-shapenet-vipc
+
+[Dataset Link](https://github.com/Hydrogenion/ViPC) \
+Task Hierarchy: ['Point Cloud Completion']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Chamfer Distance",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Cross-modal Learning for Image-Guided Point Cloud Shape Completion](https://arxiv.org/abs/2209.09552v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/diegovalsesia/xmfnet)",
+      "n": "XMFNet",
+      "d": "2022-09-20",
+      "m1": "1.443"
+    },
+    {
+      "p": "[CSDN: Cross-modal Shape-transfer Dual-refinement Network for Point Cloud Completion](https://arxiv.org/abs/2208.00751v2)",
+      "c": "",
+      "n": "CSDN",
+      "d": "2022-08-01",
+      "m1": "2.570"
+    },
+    {
+      "p": "[View-Guided Point Cloud Completion](https://arxiv.org/abs/2104.05666v2)",
+      "c": "",
+      "n": "ViPC",
+      "d": "2021-04-12",
+      "m1": "3.308"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

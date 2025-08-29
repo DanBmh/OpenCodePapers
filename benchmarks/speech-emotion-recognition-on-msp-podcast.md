@@ -1,0 +1,67 @@
+# speech-emotion-recognition-on-msp-podcast
+
+[Dataset Link](https://ecs.utdallas.edu/research/researchlabs/msp-lab/MSP-Podcast.html) \
+Task Hierarchy: ['Speech Emotion Recognition']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "CCC",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Wav2Small: Distilling Wav2Vec2 to 72K parameters for Low-Resource Speech emotion recognition](https://arxiv.org/abs/2408.13920v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/dkounadis/wav2small)",
+      "n": "wav2small-Teacher",
+      "d": "2024-08-25",
+      "m1": "0.676"
+    },
+    {
+      "p": "[Odyssey 2024 - Speech Emotion Recognition Challenge: Dataset, Baseline Framework, and Results](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=M7AZbh8AAAAJ&citation_for_view=M7AZbh8AAAAJ:UebtZRa9Y70C)",
+      "c": "[&check;&nbsp;Link](https://github.com/msplabresearch/MSP-Podcast_Challenge)",
+      "n": "wavlm",
+      "d": "2024-06-20",
+      "m1": "0.6466753"
+    },
+    {
+      "p": "[Dawn of the transformer era in speech emotion recognition: closing the valence gap](https://arxiv.org/abs/2203.07378v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/audeering/w2v2-how-to)",
+      "n": "w2v2-L-robust-12",
+      "d": "2022-03-14",
+      "m1": "0.638"
+    },
+    {
+      "p": "[Contrastive Unsupervised Learning for Speech Emotion Recognition](https://arxiv.org/abs/2102.06357v1)",
+      "c": "",
+      "n": "preCPC",
+      "d": "2021-02-12",
+      "m1": "0.377"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

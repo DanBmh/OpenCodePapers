@@ -1,0 +1,92 @@
+# question-answering-on-friendsqa
+
+[Dataset Link]() \
+Task Hierarchy: ['Question Answering']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "EM",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Enhanced Speaker-aware Multi-party Multi-turn Dialogue Comprehension](https://arxiv.org/abs/2109.04066v1)",
+      "c": "",
+      "n": "Ma et al. - ELECTRA",
+      "d": "2021-09-09",
+      "m1": "58.7",
+      "m2": "75.4"
+    },
+    {
+      "p": "[Self- and Pseudo-self-supervised Prediction of Speaker and Key-utterance for Multi-party Dialogue Reading Comprehension](https://arxiv.org/abs/2109.03772v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ericlee8/multi-party-dialogue-mrc)",
+      "n": "Li and Zhao - ELECTRA",
+      "d": "2021-09-08",
+      "m1": "55.8",
+      "m2": "72.3"
+    },
+    {
+      "p": "[Transformers to Learn Hierarchical Contexts in Multiparty Dialogue for Span-based Question Answering](https://arxiv.org/abs/2004.03561v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/emorynlp/friendsqa)",
+      "n": "Li and Choi - RoBERTa",
+      "d": "2020-04-07",
+      "m1": "53.5",
+      "m2": "69.6"
+    },
+    {
+      "p": "[Self- and Pseudo-self-supervised Prediction of Speaker and Key-utterance for Multi-party Dialogue Reading Comprehension](https://arxiv.org/abs/2109.03772v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ericlee8/multi-party-dialogue-mrc)",
+      "n": "Li and Zhao - BERT",
+      "d": "2021-09-08",
+      "m1": "46.9",
+      "m2": "63.9"
+    },
+    {
+      "p": "[Transformers to Learn Hierarchical Contexts in Multiparty Dialogue for Span-based Question Answering](https://arxiv.org/abs/2004.03561v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/emorynlp/friendsqa)",
+      "n": "Li and Choi - BERT",
+      "d": "2020-04-07",
+      "m1": "46.8",
+      "m2": "63.1"
+    },
+    {
+      "p": "[Graph-Based Knowledge Integration for Question Answering over Dialogue](https://aclanthology.org/2020.coling-main.219)",
+      "c": "",
+      "n": "Liu et al. - BERT",
+      "d": "2020-12-01",
+      "m1": "46.4",
+      "m2": "64.3"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

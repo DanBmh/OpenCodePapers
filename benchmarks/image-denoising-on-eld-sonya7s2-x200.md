@@ -1,0 +1,123 @@
+# image-denoising-on-eld-sonya7s2-x200
+
+[Dataset Link](https://github.com/Vandermode/ELD) \
+Task Hierarchy: ['3D Architecture', 'Denoising', 'Image Denoising']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PSNR (Raw)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "SSIM (Raw)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Physics-Guided ISO-Dependent Sensor Noise Modeling for Extreme Low-Light Photography](http://openaccess.thecvf.com//content/CVPR2023/html/Cao_Physics-Guided_ISO-Dependent_Sensor_Noise_Modeling_for_Extreme_Low-Light_Photography_CVPR_2023_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/happycaoyue/lld)",
+      "n": "LLD*",
+      "d": "2023-01-01",
+      "m1": "44.95",
+      "m2": "0.977"
+    },
+    {
+      "p": "[Learnability Enhancement for Low-light Raw Denoising: Where Paired Real Data Meets Noise Modeling](https://arxiv.org/abs/2207.06103v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/megvii-research/pmn)",
+      "n": "PMN",
+      "d": "2022-07-13",
+      "m1": "44.51",
+      "m2": "0.973"
+    },
+    {
+      "p": "[Rethinking Noise Synthesis and Modeling in Raw Denoising](https://arxiv.org/abs/2110.04756v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhangyi-3/noise-synthesis)",
+      "n": "SFRN",
+      "d": "2021-10-10",
+      "m1": "44.10",
+      "m2": "0.964"
+    },
+    {
+      "p": "[Physics-Guided ISO-Dependent Sensor Noise Modeling for Extreme Low-Light Photography](http://openaccess.thecvf.com//content/CVPR2023/html/Cao_Physics-Guided_ISO-Dependent_Sensor_Noise_Modeling_for_Extreme_Low-Light_Photography_CVPR_2023_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/happycaoyue/lld)",
+      "n": "LLD",
+      "d": "2023-01-01",
+      "m1": "43.84",
+      "m2": "0.959"
+    },
+    {
+      "p": "[A Physics-based Noise Formation Model for Extreme Low-light Raw Denoising](https://arxiv.org/abs/2003.12751v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Vandermode/NoiseModel)",
+      "n": "ELD",
+      "d": "2020-03-28",
+      "m1": "43.43",
+      "m2": "0.954"
+    },
+    {
+      "p": "[Towards General Low-Light Raw Noise Synthesis and Modeling](https://arxiv.org/abs/2307.16508v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/fengzhang427/LRD)",
+      "n": "LRD",
+      "d": "2023-07-31",
+      "m1": "43.32",
+      "m2": "0.966"
+    },
+    {
+      "p": "[Learning to See in the Dark](http://arxiv.org/abs/1805.01934v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cchen156/Learning-to-See-in-the-Dark)",
+      "n": "Paired Data(SID)",
+      "d": "2018-05-04",
+      "m1": "41.97",
+      "m2": "0.928"
+    },
+    {
+      "p": "[Dancing under the stars: video denoising in starlight](https://arxiv.org/abs/2204.04210v1)",
+      "c": "",
+      "n": "Starlight",
+      "d": "2022-04-08",
+      "m1": "40.86",
+      "m2": "0.884"
+    },
+    {
+      "p": "[ExposureDiffusion: Learning to Expose for Low-light Image Enhancement](https://arxiv.org/abs/2307.07710v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/wyf0912/ExposureDiffusion)",
+      "n": "ExposureDiffusion (UNet+ELD)",
+      "d": "2023-07-15",
+      "m1": "40.39"
+    },
+    {
+      "p": "[Noise Flow: Noise Modeling with Conditional Normalizing Flows](https://arxiv.org/abs/1908.08453v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/BorealisAI/noise_flow)",
+      "n": "Noise Flow",
+      "d": "2019-08-22",
+      "m1": "39.23",
+      "m2": "0.889"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

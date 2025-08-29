@@ -1,0 +1,101 @@
+# image-retrieval-on-cars196
+
+[Dataset Link](https://ai.stanford.edu/~jkrause/cars/car_dataset.html) \
+Task Hierarchy: ['Image Retrieval']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "R@1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "R@8",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Combination of Multiple Global Descriptors for Image Retrieval](https://arxiv.org/abs/1903.10663v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/naver/cgd)",
+      "n": "CGD (MG/SG)",
+      "d": "2019-03-26",
+      "m1": "94.8"
+    },
+    {
+      "p": "[ProxyNCA++: Revisiting and Revitalizing Proxy Neighborhood Component Analysis](https://arxiv.org/abs/2004.01113v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/euwern/proxynca_pp)",
+      "n": "ProxyNCA++",
+      "d": "2020-04-02",
+      "m1": "90.1"
+    },
+    {
+      "p": "[Classification is a Strong Baseline for Deep Metric Learning](https://arxiv.org/abs/1811.12649v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/computervision-recipes/blob/master/scenarios/similarity/02_state_of_the_art.ipynb)",
+      "n": "NormSoftmax2048 (ResNet-50)",
+      "d": "2018-11-30",
+      "m1": "89.3"
+    },
+    {
+      "p": "[MES-Loss: Mutually equidistant separation metric learning loss function](https://www.sciencedirect.com/science/article/abs/pii/S0167865523001824)",
+      "c": "",
+      "n": "MES-Loss",
+      "d": "2023-08-01",
+      "m1": "87.89",
+      "m2": "97.62"
+    },
+    {
+      "p": "[Sampling Matters in Deep Embedding Learning](http://arxiv.org/abs/1706.07567v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/CompVis/metric-learning-divide-and-conquer)",
+      "n": "Margin",
+      "d": "2017-06-23",
+      "m1": "86.9"
+    },
+    {
+      "p": "[Multi-Similarity Loss with General Pair Weighting for Deep Metric Learning](https://arxiv.org/abs/1904.06627v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/bnu-wangxun/Deep_Metric)",
+      "n": "MS512",
+      "d": "2019-04-14",
+      "m1": "84.1"
+    },
+    {
+      "p": "[Improved Embeddings with Easy Positive Triplet Mining](https://arxiv.org/abs/1904.04370v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/littleredxh/DREML)",
+      "n": "EPSHN512",
+      "d": "2019-04-08",
+      "m1": "82.7"
+    },
+    {
+      "p": "[Deep Metric Learning with Hierarchical Triplet Loss](http://arxiv.org/abs/1810.06951v1)",
+      "c": "",
+      "n": "HTL",
+      "d": "2018-10-16",
+      "m1": "81.4"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

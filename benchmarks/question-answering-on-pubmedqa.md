@@ -1,0 +1,249 @@
+# question-answering-on-pubmedqa
+
+[Dataset Link](https://pubmedqa.github.io/) \
+Task Hierarchy: ['Question Answering']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[MEDITRON-70B: Scaling Medical Pretraining for Large Language Models](https://arxiv.org/abs/2311.16079v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/epfllm/meditron)",
+      "n": "Meditron-70B (CoT + SC)",
+      "d": "2023-11-27",
+      "m1": "81.6"
+    },
+    {
+      "p": "[BioGPT: Generative Pre-trained Transformer for Biomedical Text Generation and Mining](https://arxiv.org/abs/2210.10341v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "BioGPT-Large(1.5B)",
+      "d": "2022-10-19",
+      "m1": "81.0"
+    },
+    {
+      "p": "[RankRAG: Unifying Context Ranking with Retrieval-Augmented Generation in LLMs](https://arxiv.org/abs/2407.02485v1)",
+      "c": "",
+      "n": "RankRAG-llama3-70B (Zero-Shot)",
+      "d": "2024-07-02",
+      "m1": "79.8"
+    },
+    {
+      "p": "[Towards Expert-Level Medical Question Answering with Large Language Models](https://arxiv.org/abs/2305.09617v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/m42-health/med42)",
+      "n": "Med-PaLM 2 (5-shot)",
+      "d": "2023-05-16",
+      "m1": "79.2"
+    },
+    {
+      "p": "[Large Language Models Encode Clinical Knowledge](https://arxiv.org/abs/2212.13138v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmis-lab/olaph)",
+      "n": "Flan-PaLM (540B, Few-shot)",
+      "d": "2022-12-26",
+      "m1": "79"
+    },
+    {
+      "p": "[BioGPT: Generative Pre-trained Transformer for Biomedical Text Generation and Mining](https://arxiv.org/abs/2210.10341v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "BioGPT(345M)",
+      "d": "2022-10-19",
+      "m1": "78.2"
+    },
+    {
+      "p": "[Can large language models reason about medical questions?](https://arxiv.org/abs/2207.08143v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/vlievin/medical-reasoning)",
+      "n": "Codex 5-shot CoT",
+      "d": "2022-07-17",
+      "m1": "78.2"
+    },
+    {
+      "p": "[PubMedQA: A Dataset for Biomedical Research Question Answering](https://arxiv.org/abs/1909.06146v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-dataflow/rare)",
+      "n": "Human Performance (single annotator)",
+      "d": "2019-09-13",
+      "m1": "78.0"
+    },
+    {
+      "p": "[MetaGen Blended RAG: Higher Accuracy for Domain-Specific Q&A Without Fine-Tuning](https://arxiv.org/abs/2505.18247v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ibm-self-serve-assets/metagen-blended-rag)",
+      "n": "MetaGen Blended RAG (zero-shot)",
+      "d": "2025-05-23",
+      "m1": "77.9"
+    },
+    {
+      "p": "[Galactica: A Large Language Model for Science](https://arxiv.org/abs/2211.09085v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/paperswithcode/galai)",
+      "n": "GAL 120B (zero-shot)",
+      "d": "2022-11-16",
+      "m1": "77.6"
+    },
+    {
+      "p": "[Large Language Models Encode Clinical Knowledge](https://arxiv.org/abs/2212.13138v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmis-lab/olaph)",
+      "n": "Flan-PaLM (62B, Few-shot)",
+      "d": "2022-12-26",
+      "m1": "77.2"
+    },
+    {
+      "p": "[MediSwift: Efficient Sparse Pre-trained Biomedical Language Models](https://arxiv.org/abs/2403.00952v2)",
+      "c": "",
+      "n": "MediSwift-XL",
+      "d": "2024-03-01",
+      "m1": "76.8"
+    },
+    {
+      "p": "[Evaluation of large language model performance on the Biomedical Language Understanding and Reasoning Benchmark](https://www.medrxiv.org/content/10.1101/2024.05.17.24307411v1)",
+      "c": "",
+      "n": "Flan-T5-XXL",
+      "d": "2024-05-17",
+      "m1": "76.80"
+    },
+    {
+      "p": "[BioMedGPT: Open Multimodal Generative Pre-trained Transformer for BioMedicine](https://arxiv.org/abs/2308.09442v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/pharmolix/openbiomed)",
+      "n": "BioMedGPT-10B",
+      "d": "2023-08-18",
+      "m1": "76.1"
+    },
+    {
+      "p": "[The Claude 3 Model Family: Opus, Sonnet, Haiku](https://www.anthropic.com/news/claude-3-family)",
+      "c": "",
+      "n": "Claude 3 Opus (5-shot)",
+      "d": "2024-03-04",
+      "m1": "75.8"
+    },
+    {
+      "p": "[Large Language Models Encode Clinical Knowledge](https://arxiv.org/abs/2212.13138v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmis-lab/olaph)",
+      "n": "Flan-PaLM (540B, SC)",
+      "d": "2022-12-26",
+      "m1": "75.2"
+    },
+    {
+      "p": "[Towards Expert-Level Medical Question Answering with Large Language Models](https://arxiv.org/abs/2305.09617v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/m42-health/med42)",
+      "n": "Med-PaLM 2 (ER)",
+      "d": "2023-05-16",
+      "m1": "75.0"
+    },
+    {
+      "p": "[The Claude 3 Model Family: Opus, Sonnet, Haiku](https://www.anthropic.com/news/claude-3-family)",
+      "c": "",
+      "n": "Claude 3 Opus (zero-shot)",
+      "d": "2024-03-04",
+      "m1": "74.9"
+    },
+    {
+      "p": "[Towards Expert-Level Medical Question Answering with Large Language Models](https://arxiv.org/abs/2305.09617v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/m42-health/med42)",
+      "n": "Med-PaLM 2 (CoT + SC)",
+      "d": "2023-05-16",
+      "m1": "74.0"
+    },
+    {
+      "p": "[Galactica: A Large Language Model for Science](https://arxiv.org/abs/2211.09085v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/paperswithcode/galai)",
+      "n": "BLOOM (zero-shot)",
+      "d": "2022-11-16",
+      "m1": "73.6"
+    },
+    {
+      "p": "[The CoT Collection: Improving Zero-shot and Few-shot Learning of Language Models via Chain-of-Thought Fine-Tuning](https://arxiv.org/abs/2305.14045v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/kaistai/cot-collection)",
+      "n": "CoT-T5-11B (1024 Shot)",
+      "d": "2023-05-23",
+      "m1": "73.42"
+    },
+    {
+      "p": "[LinkBERT: Pretraining Language Models with Document Links](https://arxiv.org/abs/2203.15827v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/michiyasunaga/LinkBERT)",
+      "n": "BioLinkBERT (large)",
+      "d": "2022-03-29",
+      "m1": "72.2"
+    },
+    {
+      "p": "[LinkBERT: Pretraining Language Models with Document Links](https://arxiv.org/abs/2203.15827v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/michiyasunaga/LinkBERT)",
+      "n": "BioLinkBERT (base)",
+      "d": "2022-03-29",
+      "m1": "70.2"
+    },
+    {
+      "p": "[Galactica: A Large Language Model for Science](https://arxiv.org/abs/2211.09085v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/paperswithcode/galai)",
+      "n": "OPT (zero-shot)",
+      "d": "2022-11-16",
+      "m1": "70.2"
+    },
+    {
+      "p": "[Large Language Models Encode Clinical Knowledge](https://arxiv.org/abs/2212.13138v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmis-lab/olaph)",
+      "n": "Flan-PaLM (8B, Few-shot)",
+      "d": "2022-12-26",
+      "m1": "67.6"
+    },
+    {
+      "p": "[BioELECTRA:Pretrained Biomedical text Encoder using Discriminators](https://aclanthology.org/2021.bionlp-1.16)",
+      "c": "[&check;&nbsp;Link](https://github.com/kamalkraj/BioELECTRA)",
+      "n": "BioELECTRA uncased",
+      "d": "2021-06-11",
+      "m1": "64.2"
+    },
+    {
+      "p": "[Large Language Models Encode Clinical Knowledge](https://arxiv.org/abs/2212.13138v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmis-lab/olaph)",
+      "n": "PaLM (62B, Few-shot)",
+      "d": "2022-12-26",
+      "m1": "57.8"
+    },
+    {
+      "p": "[Domain-Specific Language Model Pretraining for Biomedical Natural Language Processing](https://arxiv.org/abs/2007.15779v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/bionlu-coling2024/biomed-ner-intent_detection)",
+      "n": "PubMedBERT uncased",
+      "d": "2020-07-31",
+      "m1": "55.84"
+    },
+    {
+      "p": "[Large Language Models Encode Clinical Knowledge](https://arxiv.org/abs/2212.13138v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmis-lab/olaph)",
+      "n": "PaLM (540B, Few-shot)",
+      "d": "2022-12-26",
+      "m1": "55"
+    },
+    {
+      "p": "[Large Language Models Encode Clinical Knowledge](https://arxiv.org/abs/2212.13138v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmis-lab/olaph)",
+      "n": "PaLM (8B, Few-shot)",
+      "d": "2022-12-26",
+      "m1": "34"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

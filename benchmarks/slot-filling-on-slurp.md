@@ -1,0 +1,74 @@
+# slot-filling-on-slurp
+
+[Dataset Link](https://github.com/pswietojanski/slurp) \
+Task Hierarchy: ['Slot Filling']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Efficient Sequence Transduction by Jointly Predicting Tokens and Durations](https://arxiv.org/abs/2304.06795v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/NVIDIA/NeMo)",
+      "n": "TDT 0-6",
+      "d": "2023-04-13",
+      "m1": "0.8061"
+    },
+    {
+      "p": "[A Fine-tuned Wav2vec 2.0/HuBERT Benchmark For Speech Emotion Recognition, Speaker Verification and Spoken Language Understanding](https://arxiv.org/abs/2111.02735v3)",
+      "c": "",
+      "n": "Partially Fine-tuned HuBERT",
+      "d": "2021-11-04",
+      "m1": "0.753"
+    },
+    {
+      "p": "[SLURP: A Spoken Language Understanding Resource Package](https://arxiv.org/abs/2011.13205v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/pswietojanski/slurp)",
+      "n": "Multi-SLURP",
+      "d": "2020-11-26",
+      "m1": "0.642"
+    },
+    {
+      "p": "[Finstreder: Simple and fast Spoken Language Understanding with Finite State Transducers using modern Speech-to-Text models](https://arxiv.org/abs/2206.14589v1)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/Jaco-Assistant/Jaco-Master)",
+      "n": "Finstreder (Conformer)",
+      "d": "2022-06-29",
+      "m1": "0.395"
+    },
+    {
+      "p": "[Finstreder: Simple and fast Spoken Language Understanding with Finite State Transducers using modern Speech-to-Text models](https://arxiv.org/abs/2206.14589v1)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/Jaco-Assistant/Jaco-Master)",
+      "n": "Finstreder (Quartznet)",
+      "d": "2022-06-29",
+      "m1": " 0.313"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

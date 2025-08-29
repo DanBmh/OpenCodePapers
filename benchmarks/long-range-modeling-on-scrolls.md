@@ -1,0 +1,238 @@
+# long-range-modeling-on-scrolls
+
+[Dataset Link](https://www.scrolls-benchmark.com) \
+Task Hierarchy: ['Language Modelling', 'Long-range modeling']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Avg.",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "GovRep",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "SumScr",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "QMSum",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "Qspr",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "Nrtv",
+      "sortable": "true"
+    },
+    {
+      "key": "m7",
+      "label": "QALT EM-T/H",
+      "sortable": "true"
+    },
+    {
+      "key": "m8",
+      "label": "CNLI",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[CoLT5: Faster Long-Range Transformers with Conditional Computation](https://arxiv.org/abs/2303.09752v3)",
+      "c": "",
+      "n": "CoLT5 XL",
+      "d": "2023-03-17",
+      "m1": "43.51",
+      "m2": "61.3/32.2/33.8",
+      "m3": "36.4/10.2/21.7",
+      "m4": "36.2/12.9/24.3",
+      "m5": "53.9",
+      "m6": "31.1",
+      "m7": "48.1/43.8",
+      "m8": "88.4"
+    },
+    {
+      "p": "[LongT5: Efficient Text-To-Text Transformer for Long Sequences](https://arxiv.org/abs/2112.07916v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/longt5)",
+      "n": "LongT5 XL",
+      "d": "2021-12-15",
+      "m1": "42.53",
+      "m2": "61.1 / 32.3 / 33.7",
+      "m3": "35.8 / 9.6 / 21.1",
+      "m4": "34.9 / 11.8 / 23.5",
+      "m5": "53.1",
+      "m6": "29.3",
+      "m7": "46.0 / 42.1",
+      "m8": "88.2"
+    },
+    {
+      "p": "[LongT5: Efficient Text-To-Text Transformer for Long Sequences](https://arxiv.org/abs/2112.07916v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/longt5)",
+      "n": "LongT5 Large",
+      "d": "2021-12-15",
+      "m1": "41.03",
+      "m2": "61.3/32.2/33.8",
+      "m3": "60.3 / 31.1 / 32.8",
+      "m4": "35.1 / 12.0 / 23.3",
+      "m5": "52.3",
+      "m6": "27.2",
+      "m7": "40.6 / 38.6",
+      "m8": "87.3"
+    },
+    {
+      "p": "[Adapting Pretrained Text-to-Text Models for Long Text Sequences](https://arxiv.org/abs/2209.10052v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/bart_ls)",
+      "n": "BART-LS",
+      "d": "2022-09-21",
+      "m1": "39.76",
+      "m2": "59.4 / 29.8 / 30.8",
+      "m3": "37.7 / 10.2 / 21.5",
+      "m4": "35.1 / 11.0 / 22.0",
+      "m5": "48.7",
+      "m6": "26.2",
+      "m7": "37.8 / 34.0",
+      "m8": "87.1"
+    },
+    {
+      "p": "[LongT5: Efficient Text-To-Text Transformer for Long Sequences](https://arxiv.org/abs/2112.07916v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/longt5)",
+      "n": "LongT5 Base",
+      "d": "2021-12-15",
+      "m1": "38.6",
+      "m2": "57.7 / 30.0 / 31.4",
+      "m3": "34.8 / 9.6 / 21.1",
+      "m4": "33.9 / 11.0 / 22.8",
+      "m5": "46.6",
+      "m6": "23.0",
+      "m7": "37.9 / 36.6",
+      "m8": "85.6"
+    },
+    {
+      "p": "[Efficient Long-Text Understanding with Short-Text Models](https://arxiv.org/abs/2208.00748v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/mivg/sled)",
+      "n": "BART-large SLED",
+      "d": "2022-08-01",
+      "m1": "37.99",
+      "m2": "57.5 / 26.3 / 27.4",
+      "m3": "35.2 / 8.7 / 19.4",
+      "m4": "34.2 / 11.0 / 22.0",
+      "m5": "46.9",
+      "m6": "24.1",
+      "m7": "34.8 / 34.8",
+      "m8": "87.3"
+    },
+    {
+      "p": "[UL2: Unifying Language Learning Paradigms](https://arxiv.org/abs/2205.05131v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research)",
+      "n": "UL2",
+      "d": "2022-05-10",
+      "m1": "37.87",
+      "m2": "53.6 / 26.1 / 28.8",
+      "m3": "32.9 / 7.8 / 19.4",
+      "m4": "31.1 / 8.5 / 20.4",
+      "m5": "37.6",
+      "m6": "24.2",
+      "m7": "45.8 / 40.7"
+    },
+    {
+      "p": "[SCROLLS: Standardized CompaRison Over Long Language Sequences](https://arxiv.org/abs/2201.03533v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tau-nlp/scrolls)",
+      "n": "LED Base",
+      "d": "2022-01-10",
+      "m1": "29.16",
+      "m2": "56.2 / 26.6 / 28.8",
+      "m3": "24.2 / 4.5 / 15.4",
+      "m4": "25.1 / 6.7 / 18.8",
+      "m5": "26.6",
+      "m6": "18.5",
+      "m7": "25.8 / 25.4\t",
+      "m8": "71.5"
+    },
+    {
+      "p": "[SCROLLS: Standardized CompaRison Over Long Language Sequences](https://arxiv.org/abs/2201.03533v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tau-nlp/scrolls)",
+      "n": "BART Base",
+      "d": "2022-01-10",
+      "m1": "29.01",
+      "m2": "47.9 / 18.6 / 22.7",
+      "m3": "27.2 / 4.9 / 16.7",
+      "m4": "30.2 / 8.7 / 20.7",
+      "m5": "26.3",
+      "m6": "15.4",
+      "m7": "26.0 / 25.9",
+      "m8": "77.4"
+    },
+    {
+      "p": "[SCROLLS: Standardized CompaRison Over Long Language Sequences](https://arxiv.org/abs/2201.03533v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tau-nlp/scrolls)",
+      "n": "Naive",
+      "d": "2022-01-10",
+      "m1": "19.35",
+      "m2": "45.3 / 17.9 / 20.8",
+      "m3": "19.6 / 1.8 / 11.0",
+      "m4": "14.2 / 2.0 / 9.3",
+      "m5": "3.4",
+      "m6": "1.5",
+      "m7": "25.2 / 26.1",
+      "m8": "66"
+    },
+    {
+      "p": "[Investigating Efficiently Extending Transformers for Long Input Summarization](https://arxiv.org/abs/2208.04347v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/pegasus)",
+      "n": "PEGASUS-X",
+      "d": "2022-08-08",
+      "m2": "60.3 / 30.0 / 31.5",
+      "m3": "35.7 / 9.1 / 20.6",
+      "m4": "33.2 / 9.6 / 21.6 "
+    },
+    {
+      "p": "[Investigating Efficiently Extending Transformers for Long Input Summarization](https://arxiv.org/abs/2208.04347v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/pegasus)",
+      "n": "PEGASUS-X-Base",
+      "d": "2022-08-08",
+      "m2": "59.3 / 29.3 / 30.9",
+      "m3": " 35.0 / 8.9 / 20.4",
+      "m4": "32.9 / 9.8 / 21.4"
+    },
+    {
+      "p": "[UL2: Unifying Language Learning Paradigms](https://arxiv.org/abs/2205.05131v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research)",
+      "n": "UL2 20B",
+      "d": "2022-05-10",
+      "m8": "88.7"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

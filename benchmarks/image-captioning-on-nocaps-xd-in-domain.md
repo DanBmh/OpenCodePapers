@@ -1,0 +1,228 @@
+# image-captioning-on-nocaps-xd-in-domain
+
+[Dataset Link](https://nocaps.org/) \
+Task Hierarchy: ['Image Captioning']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "CIDEr",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "B1",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "B2",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "B3",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "B4",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "ROUGE-L",
+      "sortable": "true"
+    },
+    {
+      "key": "m7",
+      "label": "METEOR",
+      "sortable": "true"
+    },
+    {
+      "key": "m8",
+      "label": "SPICE",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[GIT: A Generative Image-to-text Transformer for Vision and Language](https://arxiv.org/abs/2205.14100v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/GenerativeImage2Text)",
+      "n": "GIT2",
+      "d": "2022-05-27",
+      "m1": "124.18",
+      "m2": "88.86",
+      "m3": "75.86",
+      "m4": "59.94",
+      "m5": "41.1",
+      "m6": "63.82",
+      "m7": "33.83",
+      "m8": "16.36"
+    },
+    {
+      "p": "[GIT: A Generative Image-to-text Transformer for Vision and Language](https://arxiv.org/abs/2205.14100v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/GenerativeImage2Text)",
+      "n": "GIT",
+      "d": "2022-05-27",
+      "m1": "122.4",
+      "m2": "88.55",
+      "m3": "76.1",
+      "m4": "60.53",
+      "m5": "41.65",
+      "m6": "64.02",
+      "m7": "33.41",
+      "m8": "16.18"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "VLAF2",
+      "d": null,
+      "m1": "106.36",
+      "m2": "85.33",
+      "m3": "70.44",
+      "m4": "52.99",
+      "m5": "34.02",
+      "m6": "60.67",
+      "m7": "31.18",
+      "m8": "15.51"
+    },
+    {
+      "p": "[VIVO: Visual Vocabulary Pre-Training for Novel Object Captioning](https://arxiv.org/abs/2009.13682v2)",
+      "c": "",
+      "n": "Microsoft Cognitive Services team",
+      "d": "2020-09-28",
+      "m1": "100.62",
+      "m2": "82.94",
+      "m3": "67.56",
+      "m4": "49.66",
+      "m5": "32.07",
+      "m6": "59.43",
+      "m7": "30.62",
+      "m8": "14.7"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "test_cbs2",
+      "d": null,
+      "m1": "90.73",
+      "m2": "81.84",
+      "m3": "64.09",
+      "m4": "44.03",
+      "m5": "25.66",
+      "m6": "55.41",
+      "m7": "28.39",
+      "m8": "13.5"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "icp2ssi1_coco_si_0.02_5_test",
+      "d": null,
+      "m1": "82.86",
+      "m2": "79.14",
+      "m3": "62.18",
+      "m4": "43.04",
+      "m5": "25.67",
+      "m6": "55.37",
+      "m7": "26.82",
+      "m8": "11.9"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Human",
+      "d": null,
+      "m1": "80.61",
+      "m2": "76.89",
+      "m3": "57.3",
+      "m4": "37.78",
+      "m5": "21.49",
+      "m6": "53.47",
+      "m7": "28.53",
+      "m8": "14.99"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "UpDown + ELMo + CBS",
+      "d": null,
+      "m1": "76.02",
+      "m2": "77.65",
+      "m3": "59.58",
+      "m4": "39.86",
+      "m5": "22.83",
+      "m6": "53.98",
+      "m7": "26.35",
+      "m8": "11.8"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "UpDown",
+      "d": null,
+      "m1": "74.27",
+      "m2": "77.68",
+      "m3": "60.34",
+      "m4": "41.5",
+      "m5": "24.57",
+      "m6": "54.42",
+      "m7": "26.04",
+      "m8": "11.47"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Neural Baby Talk + CBS",
+      "d": null,
+      "m1": "62.96",
+      "m2": "76.49",
+      "m3": "56.2",
+      "m4": "33.73",
+      "m5": "15.14",
+      "m6": "50.84",
+      "m7": "23.68",
+      "m8": "10.12"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Neural Baby Talk",
+      "d": null,
+      "m1": "60.89",
+      "m2": "75.91",
+      "m3": "56.78",
+      "m4": "35.58",
+      "m5": "17.39",
+      "m6": "51.42",
+      "m7": "23.8",
+      "m8": "9.81"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

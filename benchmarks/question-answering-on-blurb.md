@@ -1,0 +1,67 @@
+# question-answering-on-blurb
+
+[Dataset Link](https://microsoft.github.io/BLURB/index.html) \
+Task Hierarchy: ['Question Answering']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[LinkBERT: Pretraining Language Models with Document Links](https://arxiv.org/abs/2203.15827v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/michiyasunaga/LinkBERT)",
+      "n": "BioLinkBERT (large)",
+      "d": "2022-03-29",
+      "m1": "83.5"
+    },
+    {
+      "p": "[LinkBERT: Pretraining Language Models with Document Links](https://arxiv.org/abs/2203.15827v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/michiyasunaga/LinkBERT)",
+      "n": "BioLinkBERT (base)",
+      "d": "2022-03-29",
+      "m1": "80.81"
+    },
+    {
+      "p": "[Evaluation of large language model performance on the Biomedical Language Understanding and Reasoning Benchmark](https://www.medrxiv.org/content/10.1101/2024.05.17.24307411v1)",
+      "c": "",
+      "n": "GPT-4",
+      "d": "2024-05-17",
+      "m1": "80.56"
+    },
+    {
+      "p": "[Domain-Specific Language Model Pretraining for Biomedical Natural Language Processing](https://arxiv.org/abs/2007.15779v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/bionlu-coling2024/biomed-ner-intent_detection)",
+      "n": "PubMedBERT (uncased; abstracts)",
+      "d": "2020-07-31",
+      "m1": "71.7"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

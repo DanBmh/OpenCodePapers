@@ -1,0 +1,89 @@
+# music-transcription-on-slakh2100
+
+[Dataset Link](http://www.slakh.com/) \
+Task Hierarchy: ['Music Transcription']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "note-level F-measure-no-offset (Fno)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Onset F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[YourMT3+: Multi-instrument Music Transcription with Enhanced Transformer Architectures and Cross-dataset Stem Augmentation](https://arxiv.org/abs/2407.04822v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/mimbres/yourmt3)",
+      "n": "YourMT3+ (YPTF.MoE+M)",
+      "d": "2024-07-05",
+      "m1": "0.8456",
+      "m2": "84.56"
+    },
+    {
+      "p": "[YourMT3+: Multi-instrument Music Transcription with Enhanced Transformer Architectures and Cross-dataset Stem Augmentation](https://arxiv.org/abs/2407.04822v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/mimbres/yourmt3)",
+      "n": "PerceiverTF",
+      "d": "2024-07-05",
+      "m1": "0.819",
+      "m2": "81.9"
+    },
+    {
+      "p": "[YourMT3+: Multi-instrument Music Transcription with Enhanced Transformer Architectures and Cross-dataset Stem Augmentation](https://arxiv.org/abs/2407.04822v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/mimbres/yourmt3)",
+      "n": "MT3 (colab)",
+      "d": "2024-07-05",
+      "m1": "0.752",
+      "m2": "75.2"
+    },
+    {
+      "p": "[Jointist: Joint Learning for Multi-instrument Transcription and Its Applications](https://arxiv.org/abs/2206.10805v2)",
+      "c": "",
+      "n": "Jointist",
+      "d": "2022-06-22",
+      "m1": "0.6"
+    },
+    {
+      "p": "[MT3: Multi-Task Multitrack Music Transcription](https://arxiv.org/abs/2111.03017v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/magenta/mt3)",
+      "n": "MT3",
+      "d": "2021-11-04",
+      "m1": "0.57"
+    },
+    {
+      "p": "[A Lightweight Instrument-Agnostic Model for Polyphonic Note Transcription and Multipitch Estimation](https://arxiv.org/abs/2203.09893v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/spotify/basic-pitch)",
+      "n": "Basic Pitch",
+      "d": "2022-03-18",
+      "m1": "0.43"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

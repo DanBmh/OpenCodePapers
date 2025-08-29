@@ -1,0 +1,102 @@
+# semantic-segmentation-on-dsec
+
+[Dataset Link](https://dsec.ifi.uzh.ch/) \
+Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mIoU",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Rethinking RGB-Event Semantic Segmentation with a Novel Bidirectional Motion-enhanced Event Representation](https://arxiv.org/abs/2505.01548v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zyaocoder/BRENet)",
+      "n": "BRENet",
+      "d": "2025-05-02",
+      "m1": "74.94"
+    },
+    {
+      "p": "[Delivering Arbitrary-Modal Semantic Segmentation](https://arxiv.org/abs/2303.01480v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jamycheung/DELIVER)",
+      "n": "CMNeXt",
+      "d": "2023-03-02",
+      "m1": "72.54"
+    },
+    {
+      "p": "[CMX: Cross-Modal Fusion for RGB-X Semantic Segmentation with Transformers](https://arxiv.org/abs/2203.04838v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/huaaaliu/rgbx_semantic_segmentation)",
+      "n": "CMX",
+      "d": "2022-03-09",
+      "m1": "72.42"
+    },
+    {
+      "p": "[SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers](https://arxiv.org/abs/2105.15203v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "SegFormer-B2",
+      "d": "2021-05-31",
+      "m1": "71.99"
+    },
+    {
+      "p": "[SegNeXt: Rethinking Convolutional Attention Design for Semantic Segmentation](https://arxiv.org/abs/2209.08575v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmsegmentation)",
+      "n": "SegNeXt-B",
+      "d": "2022-09-18",
+      "m1": "71.55"
+    },
+    {
+      "p": "[Exploring Event-driven Dynamic Context for Accident Scene Segmentation](https://arxiv.org/abs/2112.05006v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jamycheung/ISSAFE)",
+      "n": "EDCNet-S2D",
+      "d": "2021-12-09",
+      "m1": "56.75"
+    },
+    {
+      "p": "[HALSIE: Hybrid Approach to Learning Segmentation by Simultaneously Exploiting Image and Event Modalities](https://arxiv.org/abs/2211.10754v4)",
+      "c": "",
+      "n": "HALSIE",
+      "d": "2022-11-19",
+      "m1": "52.43"
+    },
+    {
+      "p": "[EV-SegNet: Semantic Segmentation for Event-based Cameras](http://arxiv.org/abs/1811.12039v1)",
+      "c": "",
+      "n": "EV-SegNet",
+      "d": "2018-11-29",
+      "m1": "51.76"
+    },
+    {
+      "p": "[ESS: Learning Event-based Semantic Segmentation from Still Images](https://arxiv.org/abs/2203.10016v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/uzh-rpg/ess)",
+      "n": "ESS",
+      "d": "2022-03-18",
+      "m1": "51.57"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

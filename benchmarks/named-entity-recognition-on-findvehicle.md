@@ -1,0 +1,65 @@
+# named-entity-recognition-on-findvehicle
+
+[Dataset Link](https://github.com/GuanRunwei/FindVehicle) \
+Task Hierarchy: ['Named Entity Recognition (NER)']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "F1 Score",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Bidirectional LSTM-CRF Models for Sequence Tagging](http://arxiv.org/abs/1508.01991v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/determined22/zh-ner-tf)",
+      "n": "BiLSTM-CRF",
+      "d": "2015-08-09",
+      "m1": "49.5"
+    },
+    {
+      "p": "[FLERT: Document-Level Features for Named Entity Recognition](https://arxiv.org/abs/2011.06993v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/flairNLP/flair)",
+      "n": "FLERT",
+      "d": "2020-11-13",
+      "m1": "80.9"
+    },
+    {
+      "p": "[UniversalNER: Targeted Distillation from Large Language Models for Open Named Entity Recognition](https://arxiv.org/abs/2308.03279v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/universal-ner/universal-ner)",
+      "n": "UniNER-7B",
+      "d": "2023-08-07",
+      "m2": "98.3"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

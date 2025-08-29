@@ -1,0 +1,103 @@
+# camouflaged-object-segmentation-on-moca-mask
+
+[Dataset Link](https://xueliancheng.github.io/SLT-Net-project/) \
+Task Hierarchy: ['16k', 'Object Detection', 'Camouflaged Object Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "S-measure",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "weighted F-measure",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "MAE",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "mDice",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "mIoU",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[ZS-VCOS: Zero-Shot Outperforms Supervised Video Camouflaged Object Segmentation with Zero-Shot Method](https://www.researchgate.net/publication/390322532_ZS-VCOS_Zero-Shot_Outperforms_Supervised_Video_Camouflaged_Object_Segmentation_with_Zero-Shot_Method)",
+      "c": "[&check;&nbsp;Link](https://github.com/weathon/vcos)",
+      "n": "ZS-VCOS",
+      "d": "2025-03-30",
+      "m1": "0.776",
+      "m2": "0.628",
+      "m3": "0.008",
+      "m4": "0.648",
+      "m5": "0.550"
+    },
+    {
+      "p": "[CamoSAM2: Motion-Appearance Induced Auto-Refining Prompts for Video Camouflaged Object Detection](https://arxiv.org/abs/2504.00375v1)",
+      "c": "",
+      "n": "CamoSAM2",
+      "d": "2025-04-01",
+      "m1": "0.765",
+      "m2": "0.607",
+      "m3": "0.007",
+      "m4": "0.62",
+      "m5": "0.542"
+    },
+    {
+      "p": "[ZoomNeXt: A Unified Collaborative Pyramid Network for Camouflaged Object Detection](https://arxiv.org/abs/2310.20208v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/lartpang/zoomnext)",
+      "n": "ZoomNeXt-PVTv2-B5",
+      "d": "2023-10-31",
+      "m1": "0.734",
+      "m2": "0.476",
+      "m3": "0.010",
+      "m4": "0.497",
+      "m5": "0.422"
+    },
+    {
+      "p": "[Implicit Motion Handling for Video Camouflaged Object Detection](https://arxiv.org/abs/2203.07363v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/xueliancheng/slt-net)",
+      "n": "STL-Net-LT-PVTv2-B5",
+      "d": "2022-03-14",
+      "m1": "0.631",
+      "m2": "0.311",
+      "m3": "0.027",
+      "m4": "0.360",
+      "m5": "0.272"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

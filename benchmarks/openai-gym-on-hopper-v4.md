@@ -1,0 +1,74 @@
+# openai-gym-on-hopper-v4
+
+[Dataset Link]() \
+Task Hierarchy: ['OpenAI Gym']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Average Return",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Maximum Entropy Reinforcement Learning via Energy-Based Normalizing Flow](https://arxiv.org/abs/2405.13629v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ChienFeng-hub/meow)",
+      "n": "MEow",
+      "d": "2024-05-22",
+      "m1": "3332.99"
+    },
+    {
+      "p": "[Addressing Function Approximation Error in Actor-Critic Methods](http://arxiv.org/abs/1802.09477v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/DLR-RM/stable-baselines3)",
+      "n": "TD3",
+      "d": "2018-02-26",
+      "m1": "3319.98"
+    },
+    {
+      "p": "[Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor](http://arxiv.org/abs/1801.01290v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ray-project/ray/tree/master/rllib)",
+      "n": "SAC",
+      "d": "2018-01-04",
+      "m1": "2882.56"
+    },
+    {
+      "p": "[Continuous control with deep reinforcement learning](https://arxiv.org/abs/1509.02971v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/ray-project/ray/tree/master/rllib)",
+      "n": "DDPG",
+      "d": "2015-09-09",
+      "m1": "1290.24"
+    },
+    {
+      "p": "[Proximal Policy Optimization Algorithms](http://arxiv.org/abs/1707.06347v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+      "n": "PPO",
+      "d": "2017-07-20",
+      "m1": "790.77"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

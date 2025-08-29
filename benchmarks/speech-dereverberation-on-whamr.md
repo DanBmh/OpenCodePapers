@@ -1,0 +1,88 @@
+# speech-dereverberation-on-whamr
+
+[Dataset Link](http://wham.whisper.ai/) \
+Task Hierarchy: ['Speech Enhancement', 'Speech Dereverberation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PESQ",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "SI-SDR",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "ESTOI",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "SRMR",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "SI-SDRi",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Utterance Weighted Multi-Dilation Temporal Convolutional Networks for Monaural Speech Dereverberation](https://arxiv.org/abs/2205.08455v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/jwr1995/wd-tcn)",
+      "n": "WD-TCN",
+      "d": "2022-05-17",
+      "m1": "3.5",
+      "m2": "12.26",
+      "m3": "93.5",
+      "m4": "8.8"
+    },
+    {
+      "p": "[Receptive Field Analysis of Temporal Convolutional Networks for Monaural Speech Dereverberation](https://arxiv.org/abs/2204.06439v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/jwr1995/whamr_ext)",
+      "n": "Conv-TasNet DAE",
+      "d": "2022-04-13",
+      "m1": "3.46",
+      "m2": "12.03",
+      "m3": "93",
+      "m4": "8.7",
+      "m5": "7.63"
+    },
+    {
+      "p": "[Phase-aware Single-stage Speech Denoising and Dereverberation with U-Net](https://arxiv.org/abs/2006.00687v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jonashaag/paperswithcode-speech-enhancement-audiosamples/tree/master/Phase-aware%20Single-stage%20Speech%20Denoising%20and%20Dereverberation%20with%20U-Net)",
+      "n": "Non-Real-Time MultiScale+",
+      "d": "2020-06-01",
+      "m1": "3.16",
+      "m2": "10.4"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,74 @@
+# knowledge-base-question-answering-on-4
+
+[Dataset Link](https://github.com/askplatypus/wikidata-simplequestions) \
+Task Hierarchy: ['Question Answering', 'Knowledge Base Question Answering']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[SPARKLE: Enhancing SPARQL Generation with Direct KG Integration in Decoding](https://arxiv.org/abs/2407.01626v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zzaebok/sparkle)",
+      "n": "SPARKLE",
+      "d": "2024-06-29",
+      "m1": "79.6"
+    },
+    {
+      "p": "[GETT-QA: Graph Embedding based T2T Transformer for Knowledge Graph Question Answering](https://arxiv.org/abs/2303.13284v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/debayan/gett-qa)",
+      "n": "GETT-QA",
+      "d": "2023-03-23",
+      "m1": "76.1"
+    },
+    {
+      "p": "[A Two-Stage Approach towards Generalization in Knowledge Base Question Answering](https://openreview.net/forum?id=-5R9TsypRrW)",
+      "c": "",
+      "n": "STaG-QA",
+      "d": "2022-01-16",
+      "m1": "61.2"
+    },
+    {
+      "p": "[SYGMA: System for Generalizable Modular Question Answering OverKnowledge Bases](https://arxiv.org/abs/2109.13430v1)",
+      "c": "",
+      "n": "SYGMA",
+      "d": "2021-09-28",
+      "m1": "44.0"
+    },
+    {
+      "p": "[Falcon 2.0: An Entity and Relation Linking Tool over Wikidata](https://arxiv.org/abs/1912.11270v7)",
+      "c": "[&check;&nbsp;Link](https://github.com/SDM-TIB/Falcon2.0)",
+      "n": "Falcon 2.0",
+      "d": "2019-12-24",
+      "m1": "36.3"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

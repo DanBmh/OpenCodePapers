@@ -1,0 +1,81 @@
+# video-emotion-recognition-on-ekman6
+
+[Dataset Link]() \
+Task Hierarchy: ['Emotion Recognition', 'Video Emotion Recognition']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[VEMOCLAP: A video emotion classification web application](https://arxiv.org/abs/2410.21303v1)",
+      "c": "",
+      "n": "VEMOCLAP",
+      "d": "2024-10-22",
+      "m1": "65.28"
+    },
+    {
+      "p": "[Representation Learning through Multimodal Attention and Time-Sync Comments for Affective Video Content Analysis](https://dl.acm.org/doi/abs/10.1145/3503161.3548018)",
+      "c": "",
+      "n": "TAM",
+      "d": "2022-10-14",
+      "m1": "61.00"
+    },
+    {
+      "p": "[Representation Learning through Multimodal Attention and Time-Sync Comments for Affective Video Content Analysis](https://dl.acm.org/doi/abs/10.1145/3503161.3548018)",
+      "c": "",
+      "n": "TAM w/o TSC",
+      "d": "2022-10-14",
+      "m1": "60.64"
+    },
+    {
+      "p": "[Weakly Supervised Video Emotion Detection and Prediction via Cross-Modal Temporal Erasing Network](http://openaccess.thecvf.com//content/CVPR2023/html/Zhang_Weakly_Supervised_Video_Emotion_Detection_and_Prediction_via_Cross-Modal_Temporal_CVPR_2023_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/nku-zhichengzhang/wecl)",
+      "n": "WECL",
+      "d": "2023-01-01",
+      "m1": "58.2"
+    },
+    {
+      "p": "[An End-to-End Visual-Audio Attention Network for Emotion Recognition in User-Generated Videos](https://arxiv.org/abs/2003.00832v1)",
+      "c": "",
+      "n": "VAANet",
+      "d": "2020-02-12",
+      "m1": "55.3"
+    },
+    {
+      "p": "[Heterogeneous Knowledge Transfer in Video Emotion Recognition, Attribution and Summarization](http://arxiv.org/abs/1511.04798v2)",
+      "c": "",
+      "n": "ITE",
+      "d": "2015-11-16",
+      "m1": "51.2"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

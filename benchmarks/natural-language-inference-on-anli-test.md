@@ -1,0 +1,268 @@
+# natural-language-inference-on-anli-test
+
+[Dataset Link](https://github.com/facebookresearch/anli) \
+Task Hierarchy: ['Natural Language Inference']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "A1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "A2",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "A3",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Prompting for explanations improves Adversarial NLI. Is this true? {Yes} it is {true} because {it weakens superficial cues}](https://aclanthology.org/2023.findings-eacl.162/)",
+      "c": "",
+      "n": "T5-3B (explanation prompting)",
+      "d": "2023-05-01",
+      "m1": "81.8",
+      "m2": "72.5",
+      "m3": "74.8"
+    },
+    {
+      "p": "[Prompting for explanations improves Adversarial NLI. Is this true? {Yes} it is {true} because {it weakens superficial cues}](https://aclanthology.org/2023.findings-eacl.162/)",
+      "c": "",
+      "n": "T0-11B (explanation prompting)",
+      "d": "2023-05-01",
+      "m1": "75.6",
+      "m2": "60.6",
+      "m3": "59.9"
+    },
+    {
+      "p": "[InfoBERT: Improving Robustness of Language Models from An Information Theoretic Perspective](https://arxiv.org/abs/2010.02329v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/anli)",
+      "n": "InfoBERT (RoBERTa)",
+      "d": "2020-10-05",
+      "m1": "75",
+      "m2": "50.5",
+      "m3": "47.7"
+    },
+    {
+      "p": "[PaLM 2 Technical Report](https://arxiv.org/abs/2305.10403v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/eternityyw/tram-benchmark)",
+      "n": "PaLM 2-L (one-shot)",
+      "d": "2023-05-17",
+      "m1": "73.1",
+      "m2": "63.4",
+      "m3": "67.1"
+    },
+    {
+      "p": "[RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/abs/1907.11692v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "RoBERTa (Large)",
+      "d": "2019-07-26",
+      "m1": "72.4",
+      "m2": "49.8",
+      "m3": "44.4"
+    },
+    {
+      "p": "[Adversarial Training for Large Neural Language Models](https://arxiv.org/abs/2004.08994v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/namisan/mt-dnn)",
+      "n": "ALUM (RoBERTa-LARGE)",
+      "d": "2020-04-20",
+      "m1": "72.3",
+      "m2": "52.1",
+      "m3": "48.4"
+    },
+    {
+      "p": "[XLNet: Generalized Autoregressive Pretraining for Language Understanding](https://arxiv.org/abs/1906.08237v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "XLNet (Large)",
+      "d": "2019-06-19",
+      "m1": "70.3",
+      "m2": "50.9",
+      "m3": "49.4"
+    },
+    {
+      "p": "[A Systematic Study and Comprehensive Evaluation of ChatGPT on Benchmark Datasets](https://arxiv.org/abs/2305.18486v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/ntunlp/chatgpt_eval)",
+      "n": "ChatGPT",
+      "d": "2023-05-29",
+      "m1": "62.3",
+      "m2": "52.6",
+      "m3": "54.1"
+    },
+    {
+      "p": "[PaLM 2 Technical Report](https://arxiv.org/abs/2305.10403v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/eternityyw/tram-benchmark)",
+      "n": "PaLM 2-M (one-shot)",
+      "d": "2023-05-17",
+      "m1": "58.1",
+      "m2": "49.5",
+      "m3": "54.5"
+    },
+    {
+      "p": "[PaLM 2 Technical Report](https://arxiv.org/abs/2305.10403v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/eternityyw/tram-benchmark)",
+      "n": "PaLM 2-S (one-shot)",
+      "d": "2023-05-17",
+      "m1": "53.1",
+      "m2": "48.8",
+      "m3": "53.2"
+    },
+    {
+      "p": "[The CoT Collection: Improving Zero-shot and Few-shot Learning of Language Models via Chain-of-Thought Fine-Tuning](https://arxiv.org/abs/2305.14045v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/kaistai/cot-collection)",
+      "n": "T0-3B (CoT fine-tuned)",
+      "d": "2023-05-23",
+      "m1": "41.7",
+      "m2": "37.2",
+      "m3": "41.9"
+    },
+    {
+      "p": "[Guess the Instruction! Flipped Learning Makes Language Models Stronger Zero-Shot Learners](https://arxiv.org/abs/2210.02969v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/seonghyeonye/flipped-learning)",
+      "n": "Flipped-3B",
+      "d": "2022-10-06",
+      "m1": "39.99",
+      "m2": "37.05",
+      "m3": "37.73"
+    },
+    {
+      "p": "[Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/ggml-org/llama.cpp)",
+      "n": "GPT-3",
+      "d": "2020-05-28",
+      "m1": "36.8",
+      "m2": "34",
+      "m3": "40.2"
+    },
+    {
+      "p": "[Knowledge-in-Context: Towards Knowledgeable Semi-Parametric Language Models](https://arxiv.org/abs/2210.16433v3)",
+      "c": "",
+      "n": "KiC-770M",
+      "d": "2022-10-28",
+      "m1": "36.30",
+      "m2": "35.00",
+      "m3": "37.60"
+    },
+    {
+      "p": "[Exploring the Benefits of Training Expert Language Models over Instruction Tuning](https://arxiv.org/abs/2302.03202v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/joeljang/rlphf)",
+      "n": "RoE-3B",
+      "d": "2023-02-07",
+      "m1": "35.49",
+      "m2": "34.64",
+      "m3": "31.22"
+    },
+    {
+      "p": "[BloombergGPT: A Large Language Model for Finance](https://arxiv.org/abs/2303.17564v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yangletliu/finlora)",
+      "n": "BLOOM 176B (one-shot)",
+      "d": "2023-03-30",
+      "m1": "33.6",
+      "m2": "33.8",
+      "m3": "35.17"
+    },
+    {
+      "p": "[BloombergGPT: A Large Language Model for Finance](https://arxiv.org/abs/2303.17564v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yangletliu/finlora)",
+      "n": "OPT 66B (one-shot)",
+      "d": "2023-03-30",
+      "m1": "33.1",
+      "m2": "34.2",
+      "m3": "34.92"
+    },
+    {
+      "p": "[BloombergGPT: A Large Language Model for Finance](https://arxiv.org/abs/2303.17564v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yangletliu/finlora)",
+      "n": "Bloomberg GPT (one-shot)",
+      "d": "2023-03-30",
+      "m1": "32.9",
+      "m2": "34.4",
+      "m3": "37.33"
+    },
+    {
+      "p": "[BloombergGPT: A Large Language Model for Finance](https://arxiv.org/abs/2303.17564v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yangletliu/finlora)",
+      "n": "GPT-NeoX (one-shot)",
+      "d": "2023-03-30",
+      "m1": "32.6",
+      "m2": "33.8",
+      "m3": "36.17"
+    },
+    {
+      "p": "[Large Language Models Can Self-Improve](https://arxiv.org/abs/2210.11610v2)",
+      "c": "",
+      "n": "PaLM 540B (Self Improvement, Self Consistency)",
+      "d": "2022-10-20",
+      "m2": "66.5",
+      "m3": "67.9"
+    },
+    {
+      "p": "[Large Language Models Can Self-Improve](https://arxiv.org/abs/2210.11610v2)",
+      "c": "",
+      "n": "PaLM 540B (Self Improvement, CoT Prompting)",
+      "d": "2022-10-20",
+      "m2": "65.3",
+      "m3": "67.3"
+    },
+    {
+      "p": "[Large Language Models Can Self-Improve](https://arxiv.org/abs/2210.11610v2)",
+      "c": "",
+      "n": "PaLM 540B (Self Improvement, Standard-Prompting)",
+      "d": "2022-10-20",
+      "m2": "64.8",
+      "m3": "66.9"
+    },
+    {
+      "p": "[Large Language Models Can Self-Improve](https://arxiv.org/abs/2210.11610v2)",
+      "c": "",
+      "n": "PaLM 540B (Self Consistency)",
+      "d": "2022-10-20",
+      "m2": "64.5",
+      "m3": "63.4"
+    },
+    {
+      "p": "[Large Language Models Can Self-Improve](https://arxiv.org/abs/2210.11610v2)",
+      "c": "",
+      "n": "PaLM 540B (CoT Prompting)",
+      "d": "2022-10-20",
+      "m2": "58.9",
+      "m3": "60.6"
+    },
+    {
+      "p": "[Large Language Models Can Self-Improve](https://arxiv.org/abs/2210.11610v2)",
+      "c": "",
+      "n": "PaLM 540B (Standard-Prompting)",
+      "d": "2022-10-20",
+      "m2": "55.8",
+      "m3": "55.8"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

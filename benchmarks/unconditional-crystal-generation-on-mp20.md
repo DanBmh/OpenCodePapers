@@ -1,0 +1,68 @@
+# unconditional-crystal-generation-on-mp20
+
+[Dataset Link](https://huggingface.co/datasets/chaitjo/MP20_ADiT) \
+Task Hierarchy: ['Unconditional Crystal Generation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "DFT Stable, Unique, Novel Rate",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Validity",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[All-atom Diffusion Transformers: Unified generative modelling of molecules and materials](https://arxiv.org/abs/2503.03965v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/all-atom-diffusion-transformer)",
+      "n": "ADiT",
+      "d": "2025-03-05",
+      "m1": "6.0",
+      "m2": "91.92"
+    },
+    {
+      "p": "[FlowLLM: Flow Matching for Material Generation with Large Language Models as Base Distributions](https://arxiv.org/abs/2410.23405v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/flowmm)",
+      "n": "FlowLLM",
+      "d": "2024-10-30",
+      "m1": "4.7",
+      "m2": "90.81"
+    },
+    {
+      "p": "[FlowMM: Generating Materials with Riemannian Flow Matching](https://arxiv.org/abs/2406.04713v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/flowmm)",
+      "n": "FlowMM",
+      "d": "2024-06-07",
+      "m1": "2.8",
+      "m2": "80.30"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

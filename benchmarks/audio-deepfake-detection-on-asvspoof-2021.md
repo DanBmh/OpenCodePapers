@@ -1,0 +1,108 @@
+# audio-deepfake-detection-on-asvspoof-2021
+
+[Dataset Link](https://www.asvspoof.org/index2021.html) \
+Task Hierarchy: ['3D Shape Reconstruction from Videos', 'DeepFake Detection', 'Audio Deepfake Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "21LA EER",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "21DF EER",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[XLSR-Mamba: A Dual-Column Bidirectional State Space Model for Spoofing Attack Detection](https://arxiv.org/abs/2411.10027v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/swagshaw/xlsr-mamba)",
+      "n": "XLSR-Mamba",
+      "d": "2024-11-15",
+      "m1": "0.93",
+      "m2": "1.88"
+    },
+    {
+      "p": "[Automatic speaker verification spoofing and deepfake detection using wav2vec 2.0 and data augmentation](https://arxiv.org/abs/2202.12233v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/takhemlata/ssl_anti-spoofing)",
+      "n": "XLSR+AASIST",
+      "d": "2022-02-24",
+      "m1": "1.0",
+      "m2": "3.69"
+    },
+    {
+      "p": "[Audio Deepfake Detection with Self-Supervised XLS-R and SLS Classifier](https://openreview.net/pdf?id=acJMIXJg2u)",
+      "c": "[&check;&nbsp;Link](https://github.com/qishanzhang/slsforadd)",
+      "n": "XLSR+SLS",
+      "d": "2024-10-28",
+      "m1": "2.86",
+      "m2": "1.96"
+    },
+    {
+      "p": "[Temporal-Channel Modeling in Multi-head Self-Attention for Synthetic Speech Detection](https://arxiv.org/abs/2406.17376v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ductuantruong/tcm_add)",
+      "n": "TCM-Add",
+      "d": "2024-06-25",
+      "m1": "2.99",
+      "m2": "2.14"
+    },
+    {
+      "p": "[Bts-e: Audio deepfake detection using breathing-talking-silence encoder](https://ieeexplore.ieee.org/abstract/document/10095927)",
+      "c": "[&check;&nbsp;Link](https://github.com/josebeo2016/BTS-Encoder-ASVspoof)",
+      "n": "BTS-E",
+      "d": "2023-05-05",
+      "m1": "8.75",
+      "m2": "/"
+    },
+    {
+      "p": "[End-to-End Spectro-Temporal Graph Attention Networks for Speaker Verification Anti-Spoofing and Speech Deepfake Detection](https://arxiv.org/abs/2107.12710v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/eurecom-asp/rawgat-st-antispoofing)",
+      "n": "RawGAT-ST",
+      "d": "2021-07-27",
+      "m1": "10.25",
+      "m2": "23.26"
+    },
+    {
+      "p": "[AASIST: Audio Anti-Spoofing using Integrated Spectro-Temporal Graph Attention Networks](https://arxiv.org/abs/2110.01200v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/clovaai/aasist)",
+      "n": "AASIST",
+      "d": "2021-10-04",
+      "m1": "11.46",
+      "m2": "21.07"
+    },
+    {
+      "p": "[End-to-end anti-spoofing with RawNet2](https://arxiv.org/abs/2011.01108v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/eurecom-asp/rawnet2-antispoofing)",
+      "n": "RawNet-2",
+      "d": "2020-11-02",
+      "m1": "40.07",
+      "m2": "40.06"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

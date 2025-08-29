@@ -1,0 +1,68 @@
+# anomaly-detection-on-odds
+
+[Dataset Link](http://odds.cs.stonybrook.edu/) \
+Task Hierarchy: ['Anomaly Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AUROC",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Anomaly Detection Requires Better Representations](https://arxiv.org/abs/2210.10773v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/eliahuhorwitz/3D-ADS)",
+      "n": "kNN",
+      "d": "2022-10-19",
+      "m1": "0.902",
+      "m2": "0.699"
+    },
+    {
+      "p": "[Anomaly Detection Requires Better Representations](https://arxiv.org/abs/2210.10773v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/eliahuhorwitz/3D-ADS)",
+      "n": "ICL",
+      "d": "2022-10-19",
+      "m1": "0.889",
+      "m2": "0.681"
+    },
+    {
+      "p": "[Anomaly Detection Requires Better Representations](https://arxiv.org/abs/2210.10773v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/eliahuhorwitz/3D-ADS)",
+      "n": "GOAD",
+      "d": "2022-10-19",
+      "m1": "0.782",
+      "m2": "0.544"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

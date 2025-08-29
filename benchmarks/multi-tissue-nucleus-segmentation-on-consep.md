@@ -1,0 +1,85 @@
+# multi-tissue-nucleus-segmentation-on-consep
+
+[Dataset Link](https://warwick.ac.uk/fac/sci/dcs/research/tia/data/hovernet/) \
+Task Hierarchy: ['Multi-tissue Nucleus Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Dice",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Jaccard Index",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "PQ",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "PromptNu",
+      "d": null,
+      "m1": "0.858",
+      "m2": "0.702",
+      "m3": "0.714"
+    },
+    {
+      "p": "[HoVer-Net: Simultaneous Segmentation and Classification of Nuclei in Multi-Tissue Histology Images](https://arxiv.org/abs/1812.06499v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/vqdang/xy_net)",
+      "n": "HoVer-Net",
+      "d": "2018-12-16",
+      "m1": "0.853",
+      "m2": "0.571",
+      "m3": "0.547"
+    },
+    {
+      "p": "[SONNET: A Self-Guided Ordinal Regression Neural Network for Segmentation and Classification of Nuclei in Large-Scale Multi-Tissue Histology Images](https://ieeexplore.ieee.org/document/9709151)",
+      "c": "[&check;&nbsp;Link](https://github.com/QuIIL/Sonnet)",
+      "n": "SONNET",
+      "d": "2022-02-09",
+      "m1": "0.844",
+      "m2": "0.586",
+      "m3": "0.540"
+    },
+    {
+      "p": "[PointNu-Net: Keypoint-assisted Convolutional Neural Network for Simultaneous Multi-tissue Histology Nuclei Segmentation and Classification](https://arxiv.org/abs/2111.01557v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/kaiseem/pointnu-net)",
+      "n": "PointNu-Net",
+      "d": "2021-11-01",
+      "m1": "0.822",
+      "m2": "0.56",
+      "m3": "0.545"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,88 @@
+# image-to-sketch-recognition-on-pacs
+
+[Dataset Link](https://domaingeneralization.github.io/#data) \
+Task Hierarchy: ['Sketch Recognition', 'Image to sketch recognition']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Crafting Distribution Shifts for Validation and Training in Single Source Domain Generalization](https://arxiv.org/abs/2409.19774v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nikosefth/crafting-shifts)",
+      "n": "Crafting-Shifts(ResNet18)",
+      "d": "2024-09-29",
+      "m1": "74.13"
+    },
+    {
+      "p": "[Edge Augmentation for Large-Scale Sketch Recognition without Sketches](https://arxiv.org/abs/2202.13164v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/nikosefth/im2rbte)",
+      "n": "rBTE (ResNet18)",
+      "d": "2022-02-26",
+      "m1": "70.6"
+    },
+    {
+      "p": "[Crafting Distribution Shifts for Validation and Training in Single Source Domain Generalization](https://arxiv.org/abs/2409.19774v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nikosefth/crafting-shifts)",
+      "n": "Crafting-Shifts(AlexNet)",
+      "d": "2024-09-29",
+      "m1": "68.5"
+    },
+    {
+      "p": "[Improved Test-Time Adaptation for Domain Generalization](https://arxiv.org/abs/2304.04494v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/liangchen527/itta)",
+      "n": "ITTA (ResNet18)",
+      "d": "2023-04-10",
+      "m1": "63.8"
+    },
+    {
+      "p": "[Cross-Domain Ensemble Distillation for Domain Generalization](https://arxiv.org/abs/2211.14058v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/leekyungmoon/XDED)",
+      "n": "XDED (ResNet18)",
+      "d": "2022-11-25",
+      "m1": "51.5"
+    },
+    {
+      "p": "[Reducing Domain Gap by Reducing Style Bias](https://arxiv.org/abs/1910.11645v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/DomainBed)",
+      "n": "SagNet (ResNet18)",
+      "d": "2019-10-25",
+      "m1": "40.7"
+    },
+    {
+      "p": "[SelfReg: Self-supervised Contrastive Regularization for Domain Generalization](https://arxiv.org/abs/2104.09841v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/DomainBed)",
+      "n": "SelfReg (ResNet18)",
+      "d": "2021-04-20",
+      "m1": "33.71"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

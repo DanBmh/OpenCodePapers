@@ -1,0 +1,91 @@
+# question-answering-on-finqa
+
+[Dataset Link](https://github.com/czyssrs/FinQA) \
+Task Hierarchy: ['Question Answering']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Execution Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Program Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[APOLLO: An Optimized Training Approach for Long-form Numerical Reasoning](https://arxiv.org/abs/2212.07249v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/gasolsun36/iter-cot)",
+      "n": "APOLLO",
+      "d": "2022-12-14",
+      "m1": "71.07",
+      "m2": "68.94"
+    },
+    {
+      "p": "[ELASTIC: Numerical Reasoning with Adaptive Symbolic Compiler](https://arxiv.org/abs/2210.10105v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/neurasearch/neurips-2022-submission-3358)",
+      "n": "ELASTIC (RoBERTa-large)",
+      "d": "2022-10-18",
+      "m1": "68.96",
+      "m2": "65.21"
+    },
+    {
+      "p": "[Are ChatGPT and GPT-4 General-Purpose Solvers for Financial Text Analytics? A Study on Several Typical Tasks](https://arxiv.org/abs/2305.05862v2)",
+      "c": "",
+      "n": "GPT-4 (8k)",
+      "d": "2023-05-10",
+      "m1": "68.79"
+    },
+    {
+      "p": "[FinQA: A Dataset of Numerical Reasoning over Financial Data](https://arxiv.org/abs/2109.00122v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/czyssrs/finqa)",
+      "n": "FinQANet (RoBERTa-large)",
+      "d": "2021-09-01",
+      "m1": "65.05",
+      "m2": "63.52"
+    },
+    {
+      "p": "[FinQA: A Dataset of Numerical Reasoning over Financial Data](https://arxiv.org/abs/2109.00122v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/czyssrs/finqa)",
+      "n": "FinQANet (BERT-large)",
+      "d": "2021-09-01",
+      "m1": "57.43",
+      "m2": "55.52"
+    },
+    {
+      "p": "[FinQA: A Dataset of Numerical Reasoning over Financial Data](https://arxiv.org/abs/2109.00122v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/czyssrs/finqa)",
+      "n": "FinQANet (FinBert )",
+      "d": "2021-09-01",
+      "m1": "53.71",
+      "m2": "51.71"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

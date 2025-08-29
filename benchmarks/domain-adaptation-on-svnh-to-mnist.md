@@ -1,0 +1,102 @@
+# domain-adaptation-on-svnh-to-mnist
+
+[Dataset Link](http://yann.lecun.com/exdb/mnist/) \
+Task Hierarchy: ['Domain Adaptation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Learning Smooth Representation for Unsupervised Domain Adaptation](https://arxiv.org/abs/1905.10748v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/CuthbertCai/SRDA)",
+      "n": "SRDA (RAN)",
+      "d": "2019-05-26",
+      "m1": "98.91"
+    },
+    {
+      "p": "[Do We Really Need to Access the Source Data? Source Hypothesis Transfer for Unsupervised Domain Adaptation](https://arxiv.org/abs/2002.08546v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/tim-learn/SHOT)",
+      "n": "SHOT",
+      "d": "2020-02-20",
+      "m1": "98.9"
+    },
+    {
+      "p": "[Cluster Alignment with a Teacher for Unsupervised Domain Adaptation](https://arxiv.org/abs/1903.09980v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/thudzj/CAT)",
+      "n": "rRevGrad+CAT",
+      "d": "2019-03-24",
+      "m1": "98.8"
+    },
+    {
+      "p": "[d-SNE: Domain Adaptation Using Stochastic Neighborhood Embedding](http://openaccess.thecvf.com/content_CVPR_2019/html/Xu_d-SNE_Domain_Adaptation_Using_Stochastic_Neighborhood_Embedding_CVPR_2019_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/aws-samples/d-SNE)",
+      "n": "dSNE",
+      "d": "2019-06-01",
+      "m1": "97.60"
+    },
+    {
+      "p": "[DeepJDOT: Deep Joint Distribution Optimal Transport for Unsupervised Domain Adaptation](http://arxiv.org/abs/1803.10081v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/bbdamodaran/deepJDOT)",
+      "n": "DeepJDOT",
+      "d": "2018-03-27",
+      "m1": "96.7"
+    },
+    {
+      "p": "[Cycle-consistent Conditional Adversarial Transfer Networks](https://arxiv.org/abs/1909.07618v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/lijin118/3CATN)",
+      "n": "3CATN",
+      "d": "2019-09-17",
+      "m1": "92.5"
+    },
+    {
+      "p": "[Domain Separation Networks](http://arxiv.org/abs/1608.06019v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+      "n": "DSN (DANN)",
+      "d": "2016-08-22",
+      "m1": "82.7"
+    },
+    {
+      "p": "[Learning Transferable Features with Deep Adaptation Networks](http://arxiv.org/abs/1502.02791v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/thuml/Transfer-Learning-Library)",
+      "n": "MMD [tzeng2015ddc]; [long2015learning]",
+      "d": "2015-02-10",
+      "m1": "71.1"
+    },
+    {
+      "p": "[Domain-Adversarial Training of Neural Networks](http://arxiv.org/abs/1505.07818v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleSpeech)",
+      "n": "DANN [ganin2016domain]",
+      "d": "2015-05-28",
+      "m1": "70.7"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

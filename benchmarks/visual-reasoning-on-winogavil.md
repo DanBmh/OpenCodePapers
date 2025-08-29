@@ -1,0 +1,95 @@
+# visual-reasoning-on-winogavil
+
+[Dataset Link](https://winogavil.github.io/) \
+Task Hierarchy: ['Visual Reasoning']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Jaccard Index",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[WinoGAViL: Gamified Association Benchmark to Challenge Vision-and-Language Models](https://arxiv.org/abs/2207.12576v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/winogavil/winogavil-experiments)",
+      "n": "Humans",
+      "d": "2022-07-25",
+      "m1": "90"
+    },
+    {
+      "p": "[WinoGAViL: Gamified Association Benchmark to Challenge Vision-and-Language Models](https://arxiv.org/abs/2207.12576v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/winogavil/winogavil-experiments)",
+      "n": "ViLT (Zero-Shot)",
+      "d": "2022-07-25",
+      "m1": "52"
+    },
+    {
+      "p": "[WinoGAViL: Gamified Association Benchmark to Challenge Vision-and-Language Models](https://arxiv.org/abs/2207.12576v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/winogavil/winogavil-experiments)",
+      "n": "X-VLM (Zero-Shot)",
+      "d": "2022-07-25",
+      "m1": "46"
+    },
+    {
+      "p": "[WinoGAViL: Gamified Association Benchmark to Challenge Vision-and-Language Models](https://arxiv.org/abs/2207.12576v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/winogavil/winogavil-experiments)",
+      "n": "CLIP-ViT-B/32 (Zero-Shot)",
+      "d": "2022-07-25",
+      "m1": "41"
+    },
+    {
+      "p": "[WinoGAViL: Gamified Association Benchmark to Challenge Vision-and-Language Models](https://arxiv.org/abs/2207.12576v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/winogavil/winogavil-experiments)",
+      "n": "CLIP-ViT-L/14 (Zero-Shot)",
+      "d": "2022-07-25",
+      "m1": "40"
+    },
+    {
+      "p": "[WinoGAViL: Gamified Association Benchmark to Challenge Vision-and-Language Models](https://arxiv.org/abs/2207.12576v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/winogavil/winogavil-experiments)",
+      "n": "CLIP-RN50x64/14 (Zero-Shot)",
+      "d": "2022-07-25",
+      "m1": "38"
+    },
+    {
+      "p": "[WinoGAViL: Gamified Association Benchmark to Challenge Vision-and-Language Models](https://arxiv.org/abs/2207.12576v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/winogavil/winogavil-experiments)",
+      "n": "CLIP-RN50 (Zero-Shot)",
+      "d": "2022-07-25",
+      "m1": "35"
+    },
+    {
+      "p": "[WinoGAViL: Gamified Association Benchmark to Challenge Vision-and-Language Models](https://arxiv.org/abs/2207.12576v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/winogavil/winogavil-experiments)",
+      "n": "CLIP-ViL (Zero-Shot)",
+      "d": "2022-07-25",
+      "m1": "15"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

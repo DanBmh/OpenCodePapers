@@ -1,0 +1,60 @@
+# 3d-object-reconstruction-on-behave
+
+[Dataset Link](http://virtualhumans.mpi-inf.mpg.de/behave) \
+Task Hierarchy: ['3D Object Reconstruction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Chamfer Distance",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Joint Reconstruction of 3D Human and Object via Contact-Based Refinement Transformer](https://arxiv.org/abs/2404.04819v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dqj5182/contho_release)",
+      "n": "CONTHO",
+      "d": "2024-04-07",
+      "m1": "8.42"
+    },
+    {
+      "p": "[CHORE: Contact, Human and Object REconstruction from a single RGB image](https://arxiv.org/abs/2204.02445v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/xiexh20/CHORE)",
+      "n": "CHORE",
+      "d": "2022-04-05",
+      "m1": "10.66"
+    },
+    {
+      "p": "[Perceiving 3D Human-Object Spatial Arrangements from a Single Image in the Wild](https://arxiv.org/abs/2007.15649v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/phosa)",
+      "n": "PHOSA",
+      "d": "2020-07-30",
+      "m1": "26.62"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

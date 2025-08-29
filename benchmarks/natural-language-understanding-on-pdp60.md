@@ -1,0 +1,130 @@
+# natural-language-understanding-on-pdp60
+
+[Dataset Link]() \
+Task Hierarchy: ['Natural Language Understanding']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[A Hybrid Neural Network Model for Commonsense Reasoning](https://arxiv.org/abs/1907.11983v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/namisan/mt-dnn)",
+      "n": "HNN",
+      "d": "2019-07-27",
+      "m1": "90"
+    },
+    {
+      "p": "[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "BERT-large 340M",
+      "d": "2018-10-11",
+      "m1": "78.3"
+    },
+    {
+      "p": "[Unsupervised Deep Structured Semantic Models for Commonsense Reasoning](http://arxiv.org/abs/1904.01938v1)",
+      "c": "",
+      "n": "UDSSM-II (ensemble)",
+      "d": "2019-04-03",
+      "m1": "78.3"
+    },
+    {
+      "p": "[Unsupervised Deep Structured Semantic Models for Commonsense Reasoning](http://arxiv.org/abs/1904.01938v1)",
+      "c": "",
+      "n": "UDSSM-I (ensemble)",
+      "d": "2019-04-03",
+      "m1": "76.7"
+    },
+    {
+      "p": "[Unsupervised Deep Structured Semantic Models for Commonsense Reasoning](http://arxiv.org/abs/1904.01938v1)",
+      "c": "",
+      "n": "DSSM",
+      "d": "2019-04-03",
+      "m1": "75.0"
+    },
+    {
+      "p": "[Unsupervised Deep Structured Semantic Models for Commonsense Reasoning](http://arxiv.org/abs/1904.01938v1)",
+      "c": "",
+      "n": "UDSSM-II",
+      "d": "2019-04-03",
+      "m1": "75"
+    },
+    {
+      "p": "[Attention Is (not) All You Need for Commonsense Reasoning](https://arxiv.org/abs/1905.13497v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SAP-samples/acl2020-commonsense)",
+      "n": "BERT-base 110M + MAS",
+      "d": "2019-05-31",
+      "m1": "68.3"
+    },
+    {
+      "p": "[Attention Is (not) All You Need for Commonsense Reasoning](https://arxiv.org/abs/1905.13497v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SAP-samples/acl2020-commonsense)",
+      "n": "USSM + Supervised Deepnet + 3 Knowledge Bases",
+      "d": "2019-05-31",
+      "m1": "66.7"
+    },
+    {
+      "p": "[A Simple Method for Commonsense Reasoning](https://arxiv.org/abs/1806.02847v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/research/lm_commonsense)",
+      "n": "Word-level CNN+LSTM (full scoring)",
+      "d": "2018-06-07",
+      "m1": "60.0"
+    },
+    {
+      "p": "[Attention Is All You Need](https://arxiv.org/abs/1706.03762v7)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "Subword-level Transformer LM",
+      "d": "2017-06-12",
+      "m1": "58.3"
+    },
+    {
+      "p": "[Probabilistic Reasoning via Deep Learning: Neural Association Models](http://arxiv.org/abs/1603.07704v2)",
+      "c": "",
+      "n": "USSM + Cause-Effect Knowledge Base",
+      "d": "2016-03-24",
+      "m1": "55.0"
+    },
+    {
+      "p": "[A Simple Method for Commonsense Reasoning](https://arxiv.org/abs/1806.02847v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/research/lm_commonsense)",
+      "n": "Word-level CNN+LSTM (partial scoring)",
+      "d": "2018-06-07",
+      "m1": "53.3"
+    },
+    {
+      "p": "[Attention Is (not) All You Need for Commonsense Reasoning](https://arxiv.org/abs/1905.13497v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SAP-samples/acl2020-commonsense)",
+      "n": "USSM + Supervised Deepnet",
+      "d": "2019-05-31",
+      "m1": "53.3"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

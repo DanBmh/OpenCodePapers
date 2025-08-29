@@ -1,0 +1,88 @@
+# speech-to-speech-translation-on-fleurs-x-eng
+
+[Dataset Link]() \
+Task Hierarchy: ['Speech-to-Speech Translation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "ASR-BLEU",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[GenTranslate: Large Language Models are Generative Multilingual Speech and Machine Translators](https://arxiv.org/abs/2402.06894v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/yuchen005/gentranslate)",
+      "n": "GenTranslateV2",
+      "d": "2024-02-10",
+      "m1": "32.3"
+    },
+    {
+      "p": "[GenTranslate: Large Language Models are Generative Multilingual Speech and Machine Translators](https://arxiv.org/abs/2402.06894v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/yuchen005/gentranslate)",
+      "n": "GenTranslateV1",
+      "d": "2024-02-10",
+      "m1": "30.1"
+    },
+    {
+      "p": "[SeamlessM4T: Massively Multilingual & Multimodal Machine Translation](https://arxiv.org/abs/2308.11596v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/seamless_communication)",
+      "n": "SeamlessM4T LargeV2",
+      "d": "2023-08-22",
+      "m1": "29.4"
+    },
+    {
+      "p": "[SeamlessM4T: Massively Multilingual & Multimodal Machine Translation](https://arxiv.org/abs/2308.11596v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/seamless_communication)",
+      "n": "SeamlessM4T Large",
+      "d": "2023-08-22",
+      "m1": "25.8"
+    },
+    {
+      "p": "[AudioLM: a Language Modeling Approach to Audio Generation](https://arxiv.org/abs/2209.03143v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/suno-ai/bark)",
+      "n": "AudioPaLM2",
+      "d": "2022-09-07",
+      "m1": "24.0"
+    },
+    {
+      "p": "[Robust Speech Recognition via Large-Scale Weak Supervision](https://arxiv.org/abs/2212.04356v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "WhisperV2",
+      "d": "2022-12-06",
+      "m1": "23.5"
+    },
+    {
+      "p": "[SeamlessM4T: Massively Multilingual & Multimodal Machine Translation](https://arxiv.org/abs/2308.11596v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/seamless_communication)",
+      "n": "SeamlessM4T Medium",
+      "d": "2023-08-22",
+      "m1": "20.4"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

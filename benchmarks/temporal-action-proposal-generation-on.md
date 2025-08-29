@@ -1,0 +1,142 @@
+# temporal-action-proposal-generation-on
+
+[Dataset Link](http://activity-net.org/) \
+Task Hierarchy: ['Action Localization', 'Temporal Action Localization', 'Temporal Action Proposal Generation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AR@100",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "AUC (val)",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "AUC (test)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[AOE-Net: Entities Interactions Modeling with Adaptive Attention Mechanism for Temporal Action Proposals Generation](https://arxiv.org/abs/2210.02578v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/uark-aicv/aoe-net)",
+      "n": "AOE-Net",
+      "d": "2022-10-05",
+      "m1": "77.67",
+      "m2": "69.71",
+      "m3": "70.10"
+    },
+    {
+      "p": "[AEI: Actors-Environment Interaction with Adaptive Attention for Temporal Action Proposals Generation](https://arxiv.org/abs/2110.11474v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/vhvkhoa/tapg-agentenvinteration)",
+      "n": "AEI-G",
+      "d": "2021-10-21",
+      "m1": "77.24",
+      "m2": "69.47",
+      "m3": "70.09"
+    },
+    {
+      "p": "[Improve Temporal Action Proposals using Hierarchical Context](https://www.sciencedirect.com/science/article/pii/S0031320323002601)",
+      "c": "",
+      "n": "HCN",
+      "d": "2023-04-03",
+      "m1": "77.13",
+      "m2": "68.78"
+    },
+    {
+      "p": "[ABN: Agent-Aware Boundary Networks for Temporal Action Proposal Generation](https://arxiv.org/abs/2203.08942v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/vhvkhoa/TAPG-AgentEnvNetwork)",
+      "n": "ABN (C3D)",
+      "d": "2022-03-16",
+      "m1": "76.72",
+      "m2": "69.16",
+      "m3": "69.26"
+    },
+    {
+      "p": "[TSP: Temporally-Sensitive Pretraining of Video Encoders for Localization Tasks](https://arxiv.org/abs/2011.11479v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/HumamAlwassel/TSP)",
+      "n": "TSP",
+      "d": "2020-11-23",
+      "m1": "76.63",
+      "m2": "69.04"
+    },
+    {
+      "p": "[BSN++: Complementary Boundary Regressor with Scale-Balanced Relation Modeling for Temporal Action Proposal Generation](https://arxiv.org/abs/2009.07641v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/xxcheng0708/BSNPlusPlus-boundary-sensitive-network)",
+      "n": "BSN++",
+      "d": "2020-09-15",
+      "m1": "76.52",
+      "m2": "68.26"
+    },
+    {
+      "p": "[BMN: Boundary-Matching Network for Temporal Action Proposal Generation](https://arxiv.org/abs/1907.09702v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/models/tree/develop/PaddleCV/video/models/bmn)",
+      "n": "BMN",
+      "d": "2019-07-23",
+      "m1": "75.01",
+      "m2": "67.1"
+    },
+    {
+      "p": "[Multi-granularity Generator for Temporal Action Proposal](http://arxiv.org/abs/1811.11524v2)",
+      "c": "",
+      "n": "MGG",
+      "d": "2018-11-28",
+      "m1": "74.54",
+      "m2": "66.43"
+    },
+    {
+      "p": "[BSN: Boundary Sensitive Network for Temporal Action Proposal Generation](http://arxiv.org/abs/1806.02964v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/models/tree/develop/PaddleCV/video/models/bsn)",
+      "n": "BSN",
+      "d": "2018-06-08",
+      "m1": "74.16",
+      "m2": "66.17",
+      "m3": "66.26"
+    },
+    {
+      "p": "[CTAP: Complementary Temporal Action Proposal Generation](http://arxiv.org/abs/1807.04821v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jiyanggao/CTAP)",
+      "n": "CTAP",
+      "d": "2018-07-12",
+      "m1": "73.17",
+      "m2": "65.72"
+    },
+    {
+      "p": "[Temporal Convolution Based Action Proposal: Submission to ActivityNet 2017](http://arxiv.org/abs/1707.06750v3)",
+      "c": "",
+      "n": "Lin et al.",
+      "d": "2017-07-21",
+      "m1": "73.01",
+      "m2": "64.40",
+      "m3": "64.80"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

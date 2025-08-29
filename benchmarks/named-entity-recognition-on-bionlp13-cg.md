@@ -1,0 +1,60 @@
+# named-entity-recognition-on-bionlp13-cg
+
+[Dataset Link]() \
+Task Hierarchy: ['Named Entity Recognition (NER)']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Biomedical Named Entity Recognition at Scale](https://arxiv.org/abs/2011.06315v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/1.4.Biomedical_NER_SparkNLP_paper_reproduce.ipynb)",
+      "n": "BLSTM-CNN-Char (SparkNLP)",
+      "d": "2020-11-12",
+      "m1": "85.58"
+    },
+    {
+      "p": "[Accurate clinical and biomedical Named entity recognition at scale](https://www.softwareimpacts.com/article/S2665-9638(22)00079-3/fulltext)",
+      "c": "[&check;&nbsp;Link](https://github.com/JohnSnowLabs/spark-nlp-workshop)",
+      "n": "BertForTokenClassification (Spark NLP)",
+      "d": "2022-07-19",
+      "m1": "87.83"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "aimped",
+      "d": null,
+      "m1": "87.85"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

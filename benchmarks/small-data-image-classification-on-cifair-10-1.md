@@ -1,0 +1,74 @@
+# small-data-image-classification-on-cifair-10-1
+
+[Dataset Link](https://github.com/cvjena/deic) \
+Task Hierarchy: ['Image Classification', 'Small Data Image Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[ChimeraMix: Image Classification on Small Datasets via Masked Feature Mixing](https://arxiv.org/abs/2202.11616v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/creinders/chimeramix)",
+      "n": "ChimeraMix+AutoAugment",
+      "d": "2022-02-23",
+      "m1": "70.09"
+    },
+    {
+      "p": "[ChimeraMix: Image Classification on Small Datasets via Masked Feature Mixing](https://arxiv.org/abs/2202.11616v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/creinders/chimeramix)",
+      "n": "ChimeraMix",
+      "d": "2022-02-23",
+      "m1": "67.30"
+    },
+    {
+      "p": "[Tune It or Don't Use It: Benchmarking Data-Efficient Image Classification](https://arxiv.org/abs/2108.13122v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cvjena/deic)",
+      "n": "Cross-entropy baseline",
+      "d": "2021-08-30",
+      "m1": "58.22"
+    },
+    {
+      "p": "[Tune It or Don't Use It: Benchmarking Data-Efficient Image Classification](https://arxiv.org/abs/2108.13122v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cvjena/deic)",
+      "n": "T-vMF Similarity",
+      "d": "2021-08-30",
+      "m1": "57.50"
+    },
+    {
+      "p": "[Tune It or Don't Use It: Benchmarking Data-Efficient Image Classification](https://arxiv.org/abs/2108.13122v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cvjena/deic)",
+      "n": " Harmonic Networks",
+      "d": "2021-08-30",
+      "m1": "56.50"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

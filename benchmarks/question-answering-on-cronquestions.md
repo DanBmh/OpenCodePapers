@@ -1,0 +1,242 @@
+# question-answering-on-cronquestions
+
+[Dataset Link](https://arxiv.org/abs/2106.01515) \
+Task Hierarchy: ['Question Answering']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Hits@1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Two-stage Generative Question Answering on Temporal Knowledge Graph Using Large Language Models](https://arxiv.org/abs/2402.16568v2)",
+      "c": "",
+      "n": "GenTKGQA",
+      "d": "2024-02-26",
+      "m1": "97.8"
+    },
+    {
+      "p": "[Question Calibration and Multi-Hop Modeling for Temporal Question Answering](https://arxiv.org/abs/2402.13188v1)",
+      "c": "",
+      "n": "QC-MHM",
+      "d": "2024-02-20",
+      "m1": "97.1"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "LGQA",
+      "d": null,
+      "m1": "96.9"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "M3TQA",
+      "d": null,
+      "m1": "96.9"
+    },
+    {
+      "p": "[Temporal knowledge graph question answering via subgraph reasoning](https://www.sciencedirect.com/science/article/pii/S0950705122005603)",
+      "c": "[&check;&nbsp;Link](https://github.com/czy1999/SubGTR)",
+      "n": "SubGTR",
+      "d": "2022-05-30",
+      "m1": "96.6"
+    },
+    {
+      "p": "[Self-Improvement Programming for Temporal Knowledge Graph Question Answering](https://arxiv.org/abs/2404.01720v1)",
+      "c": "",
+      "n": "Prog-TQA",
+      "d": "2024-04-02",
+      "m1": "93.7"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "CTRN-hard",
+      "d": null,
+      "m1": "92"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "CTRN",
+      "d": null,
+      "m1": "92"
+    },
+    {
+      "p": "[TempoQR: Temporal Question Reasoning over Knowledge Graphs](https://arxiv.org/abs/2112.05785v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cmavro/tempoqr)",
+      "n": "TempoQR-Hard",
+      "d": "2021-12-10",
+      "m1": "91.8"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "TSIQA-Search",
+      "d": null,
+      "m1": "90.9"
+    },
+    {
+      "p": "[Improving Time Sensitivity for Question Answering over Temporal Knowledge Graphs](https://arxiv.org/abs/2203.00255v1)",
+      "c": "",
+      "n": "TSQA",
+      "d": "2022-03-01",
+      "m1": "83.1"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "SERQA-soft",
+      "d": null,
+      "m1": "81.1"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "CTRN-soft",
+      "d": null,
+      "m1": "80.6"
+    },
+    {
+      "p": "[TempoQR: Temporal Question Reasoning over Knowledge Graphs](https://arxiv.org/abs/2112.05785v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cmavro/tempoqr)",
+      "n": "TempoQR-Soft",
+      "d": "2021-12-10",
+      "m1": "79.9"
+    },
+    {
+      "p": "[Time-aware Multiway Adaptive Fusion Network for Temporal Knowledge Graph Question Answering](https://arxiv.org/abs/2302.12529v2)",
+      "c": "",
+      "n": "TMA",
+      "d": "2023-02-24",
+      "m1": "78.4"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "ChatGPT w/ tkg",
+      "d": null,
+      "m1": "75.4"
+    },
+    {
+      "p": "[TempoQR: Temporal Question Reasoning over Knowledge Graphs](https://arxiv.org/abs/2112.05785v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cmavro/tempoqr)",
+      "n": "EntityQR",
+      "d": "2021-12-10",
+      "m1": "74.5"
+    },
+    {
+      "p": "[Question Answering Over Temporal Knowledge Graphs](https://arxiv.org/abs/2106.01515v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/apoorvumang/CronKGQA)",
+      "n": "CronKGQA",
+      "d": "2021-06-03",
+      "m1": "64.7"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "EmbedKGQA",
+      "d": null,
+      "m1": "28.8"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "EaE",
+      "d": null,
+      "m1": "28.8"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "T-EaE-replace",
+      "d": null,
+      "m1": "28.8"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "T-EaE-add",
+      "d": null,
+      "m1": "27.8"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "T5-3B",
+      "d": null,
+      "m1": "25.2"
+    },
+    {
+      "p": "[TempoQR: Temporal Question Reasoning over Knowledge Graphs](https://arxiv.org/abs/2112.05785v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cmavro/tempoqr)",
+      "n": "BERT",
+      "d": "2021-12-10",
+      "m1": "24.3"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "KnowBERT",
+      "d": null,
+      "m1": "22.6"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "RoBERTa",
+      "d": null,
+      "m1": "22.5"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "ChatGPT w/o tkg",
+      "d": null,
+      "m1": "15.1"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "BERT w/o tkg",
+      "d": null,
+      "m1": "7.1"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "RoBERTa w/o tkg",
+      "d": null,
+      "m1": "7"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

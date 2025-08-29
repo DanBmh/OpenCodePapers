@@ -1,0 +1,193 @@
+# sign-language-recognition-on-rwth-phoenix
+
+[Dataset Link](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX/) \
+Task Hierarchy: ['Sign Language Recognition']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Word Error Rate (WER)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[SlowFast Network for Continuous Sign Language Recognition](https://arxiv.org/abs/2309.12304v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/kaistmm/SlowFastSign)",
+      "n": "SlowFastSign",
+      "d": "2023-09-21",
+      "m1": "18.3"
+    },
+    {
+      "p": "[Two-Stream Network for Sign Language Recognition and Translation](https://arxiv.org/abs/2211.01367v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/FangyunWei/SLRT)",
+      "n": "TwoStream-SLR",
+      "d": "2022-11-02",
+      "m1": "18.4"
+    },
+    {
+      "p": "[Swin-MSTP: Swin transformer with multi-scale temporal perception for continuous sign language recognition](https://www.sciencedirect.com/science/article/abs/pii/S0925231224017867)",
+      "c": "[&check;&nbsp;Link](https://github.com/snalyami/Swin-MSTP)",
+      "n": "Swin-MSTP",
+      "d": "2025-02-07",
+      "m1": "18.7"
+    },
+    {
+      "p": "[CLIP-SLA: Parameter-Efficient CLIP Adaptation for Continuous Sign Language Recognition](https://arxiv.org/abs/2504.01666v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/snalyami/CLIP-SLA)",
+      "n": "SLA-Adapter",
+      "d": "2025-04-02",
+      "m1": "18.8"
+    },
+    {
+      "p": "[TCNet: Continuous Sign Language Recognition from Trajectories and Correlated Regions](https://arxiv.org/abs/2403.11818v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/hotfinda/tcnet)",
+      "n": "TCNet",
+      "d": "2024-03-18",
+      "m1": "18.9"
+    },
+    {
+      "p": "[Continuous Sign Language Recognition with Correlation Network](https://arxiv.org/abs/2303.03202v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hulianyuyy/corrnet)",
+      "n": "CorrNet + VAC + SMKD",
+      "d": "2023-03-06",
+      "m1": "19.4"
+    },
+    {
+      "p": "[SignBERT+: Hand-model-aware Self-supervised Pre-training for Sign Language Understanding](https://arxiv.org/abs/2305.04868v1)",
+      "c": "",
+      "n": "SignBERT+",
+      "d": "2023-05-08",
+      "m1": "20"
+    },
+    {
+      "p": "[Deep Radial Embedding for Visual Sequence Learning](https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/5670_ECCV_2022_paper.php)",
+      "c": "",
+      "n": "RadialCTC",
+      "d": "2022-11-11",
+      "m1": "20.2"
+    },
+    {
+      "p": "[C2SLR: Consistency-Enhanced Continuous Sign Language Recognition](http://openaccess.thecvf.com//content/CVPR2022/html/Zuo_C2SLR_Consistency-Enhanced_Continuous_Sign_Language_Recognition_CVPR_2022_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/2000zrl/lcsa_c2slr_srm)",
+      "n": "C2SLR",
+      "d": "2022-01-01",
+      "m1": "20.4"
+    },
+    {
+      "p": "[Self-Mutual Distillation Learning for Continuous Sign Language Recognition](http://openaccess.thecvf.com//content/ICCV2021/html/Hao_Self-Mutual_Distillation_Learning_for_Continuous_Sign_Language_Recognition_ICCV_2021_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/ycmin95/VAC_CSLR)",
+      "n": "SMKD",
+      "d": "2021-01-01",
+      "m1": "20.5"
+    },
+    {
+      "p": "[Spatial-Temporal Multi-Cue Network for Continuous Sign Language Recognition](https://arxiv.org/abs/2002.03187v1)",
+      "c": "",
+      "n": "STMC",
+      "d": "2020-02-08",
+      "m1": "20.7"
+    },
+    {
+      "p": "[Multimodal Locally Enhanced Transformer for Continuous Sign Language Recognition](https://www.isca-archive.org/interspeech_2023/papadimitriou23_interspeech.html)",
+      "c": "",
+      "n": "WRNN + LET",
+      "d": "2023-08-22",
+      "m1": "20.89"
+    },
+    {
+      "p": "[Visual Alignment Constraint for Continuous Sign Language Recognition](https://arxiv.org/abs/2104.02330v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ycmin95/VAC_CSLR)",
+      "n": "VAC",
+      "d": "2021-04-06",
+      "m1": "22.1"
+    },
+    {
+      "p": "[Multi-Stream Keypoint Attention Network for Sign Language Recognition and Translation](https://arxiv.org/abs/2405.05672v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/sutwangyan/MSKA)",
+      "n": "MSKA-SLR",
+      "d": "2024-05-09",
+      "m1": "22.1"
+    },
+    {
+      "p": "[A Deep Neural Framework for Continuous Sign Language Recognition by Iterative Training](http://www.kresttechnology.com/krest-academic-projects/krest-mtech-projects/CSE/M.Tech%20Computer%20Science%202020/Artificial%20Intelligence/Basepaper-AI/12.%20A%20deep%20neural%20framework.pdf)",
+      "c": "[&check;&nbsp;Link](https://github.com/iliasprc/slrzoo)",
+      "n": "DNF",
+      "d": "2019-07-01",
+      "m1": "22.86"
+    },
+    {
+      "p": "[007: Democratically Finding The Cause of Packet Drops](http://arxiv.org/abs/1802.07222v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/behnazak/Vigil-007SourceCode)",
+      "n": "SLRGAN",
+      "d": "2018-02-20",
+      "m1": "23.4"
+    },
+    {
+      "p": "[Continuous Sign Language Recognition Through Cross-Modal Alignment of Video and Text Embeddings in a Joint-Latent Space](https://ieeexplore.ieee.org/document/9090828)",
+      "c": "",
+      "n": "CrossModal",
+      "d": "2020-05-11",
+      "m1": "24.0"
+    },
+    {
+      "p": "[Stochastic Fine-grained Labeling of Multi-state Sign Glosses for Continuous Sign Language Recognition](https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/2527_ECCV_2020_paper.php)",
+      "c": "[&check;&nbsp;Link](https://github.com/zheniu/stochastic-cslr)",
+      "n": "Stochastic CSLR",
+      "d": null,
+      "m1": "25.3"
+    },
+    {
+      "p": "[Context Matters: Self-Attention for Sign Language Recognition](https://arxiv.org/abs/2101.04632v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/faresbs/san)",
+      "n": "SAN",
+      "d": "2021-01-12",
+      "m1": "29.7"
+    },
+    {
+      "p": "[Dense Temporal Convolution Network for Sign Language Translation](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=qTE3BacAAAAJ&citation_for_view=qTE3BacAAAAJ:u-x6o8ySG0sC)",
+      "c": "",
+      "n": "DTN",
+      "d": "2019-05-01",
+      "m1": "36.5"
+    },
+    {
+      "p": "[Connectionist Temporal Fusion for Sign Language Translation](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=qTE3BacAAAAJ&citation_for_view=qTE3BacAAAAJ:u5HHmVD_uO8C)",
+      "c": "",
+      "n": "CTF-MM",
+      "d": "2018-10-01",
+      "m1": "37.8"
+    },
+    {
+      "p": "[SubUNets: End-To-End Hand Shape and Continuous Sign Language Recognition](http://openaccess.thecvf.com/content_iccv_2017/html/Camgoz_SubUNets_End-To-End_Hand_ICCV_2017_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/neccam/SubUNets)",
+      "n": "SubUNets",
+      "d": "2017-10-01",
+      "m1": "40.7"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

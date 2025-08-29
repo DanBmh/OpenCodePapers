@@ -1,0 +1,157 @@
+# out-of-distribution-detection-on-cifar-10-vs
+
+[Dataset Link](https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf) \
+Task Hierarchy: ['Out-of-Distribution Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AUROC",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "AUPR",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "FPR95",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Deep Hybrid Models for Out-of-Distribution Detection](http://openaccess.thecvf.com//content/CVPR2022/html/Cao_Deep_Hybrid_Models_for_Out-of-Distribution_Detection_CVPR_2022_paper.html)",
+      "c": "",
+      "n": "DHM",
+      "d": "2022-01-01",
+      "m1": "100",
+      "m2": "100"
+    },
+    {
+      "p": "[Exploring the Limits of Out-of-Distribution Detection](https://arxiv.org/abs/2106.03004v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/stanislavfort/exploring_the_limits_of_OOD_detection)",
+      "n": "R+ViT finetuned on CIFAR-10",
+      "d": "2021-06-06",
+      "m1": "98.52",
+      "m2": "97.75"
+    },
+    {
+      "p": "[Exploring the Limits of Out-of-Distribution Detection](https://arxiv.org/abs/2106.03004v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/stanislavfort/exploring_the_limits_of_OOD_detection)",
+      "n": "ViT finetuned on CIFAR-10",
+      "d": "2021-06-06",
+      "m1": "98.42",
+      "m2": "97.68"
+    },
+    {
+      "p": "[Exploring the Limits of Out-of-Distribution Detection](https://arxiv.org/abs/2106.03004v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/stanislavfort/exploring_the_limits_of_OOD_detection)",
+      "n": "MLP-Mixer finetuned on CIFAR-10",
+      "d": "2021-06-06",
+      "m1": "97.85",
+      "m2": "96.28"
+    },
+    {
+      "p": "[Forte : Finding Outliers with Representation Typicality Estimation](https://arxiv.org/abs/2410.01322v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/DebarghaG/forte)",
+      "n": "Forte",
+      "d": "2024-10-02",
+      "m1": "97.63 \u00b1 00.15",
+      "m2": " 09.69 \u00b1 01.08"
+    },
+    {
+      "p": "[Boosting Out-of-Distribution Detection with Multiple Pre-trained Models](https://arxiv.org/abs/2212.12720v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mapleleaf6/zode)",
+      "n": "ZODE-KNN",
+      "d": "2022-12-24",
+      "m1": "97.12",
+      "m3": "18.29"
+    },
+    {
+      "p": "[Hybrid Models for Open Set Recognition](https://arxiv.org/abs/2003.12506v2)",
+      "c": "",
+      "n": "OpenHybrid",
+      "d": "2020-03-27",
+      "m1": "95.1"
+    },
+    {
+      "p": "[Semi-supervised novelty detection using ensembles with regularized disagreement](https://arxiv.org/abs/2012.05825v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/ericpts/reto)",
+      "n": "ERD (ResNet18)",
+      "d": "2020-12-10",
+      "m1": "95.1"
+    },
+    {
+      "p": "[Outlier Exposure with Confidence Control for Out-of-Distribution Detection](https://arxiv.org/abs/1906.03509v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/nazim1021/OOD-detection-using-OECC)",
+      "n": "Wide 40-2 + OECC",
+      "d": "2019-06-08",
+      "m1": "94.9",
+      "m2": "82.0"
+    },
+    {
+      "p": "[Deep Anomaly Detection with Outlier Exposure](http://arxiv.org/abs/1812.04606v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hendrycks/outlier-exposure)",
+      "n": "WRN 40-2 + OE",
+      "d": "2018-12-11",
+      "m1": "93.3",
+      "m2": "76.2"
+    },
+    {
+      "p": "[Out-of-Distribution Detection Using Outlier Detection Methods](https://arxiv.org/abs/2108.08218v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jandiers/ood-detection)",
+      "n": "Isolation Forest on EfficientNet Softmax values",
+      "d": "2021-08-18",
+      "m1": "91.95"
+    },
+    {
+      "p": "[Using Self-Supervised Learning Can Improve Model Robustness and Uncertainty](https://arxiv.org/abs/1906.12340v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/hendrycks/ss-ood)",
+      "n": "WRN 40-2 + Rotation Prediction",
+      "d": "2019-06-28",
+      "m1": "90.9",
+      "m2": "67.7"
+    },
+    {
+      "p": "[A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks](http://arxiv.org/abs/1610.02136v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hendrycks/error-detection)",
+      "n": "WRN 40-2 (MSP Baseline)",
+      "d": "2016-10-07",
+      "m1": "87.9",
+      "m2": "55.8"
+    },
+    {
+      "p": "[Detecting Out-of-Distribution Examples with In-distribution Examples and Gram Matrices](https://arxiv.org/abs/1912.12510v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/nazim1021/OOD-detection-using-OECC)",
+      "n": "ResNet + diagonal elements of Gram matrix",
+      "d": "2019-12-28",
+      "m1": "79.7"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

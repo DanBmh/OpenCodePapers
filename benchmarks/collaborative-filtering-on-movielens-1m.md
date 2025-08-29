@@ -1,0 +1,323 @@
+# collaborative-filtering-on-movielens-1m
+
+[Dataset Link](https://grouplens.org/datasets/movielens/) \
+Task Hierarchy: ['Recommendation Systems']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "RMSE",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "nDCG@10",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "HR@10",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "NDCG",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "Precision",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "nDCG@100",
+      "sortable": "true"
+    },
+    {
+      "key": "m7",
+      "label": "HR@100",
+      "sortable": "true"
+    },
+    {
+      "key": "m8",
+      "label": "PSP@10",
+      "sortable": "true"
+    },
+    {
+      "key": "m9",
+      "label": "HR@10 (full corpus)",
+      "sortable": "true"
+    },
+    {
+      "key": "m10",
+      "label": "NDCG@10 (full corpus)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[GLocal-K: Global and Local Kernels for Recommender Systems](https://arxiv.org/abs/2108.12184v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/usydnlp/Glocal_K)",
+      "n": "GLocal-K",
+      "d": "2021-08-27",
+      "m1": "0.8227"
+    },
+    {
+      "p": "[Kernelized Synaptic Weight Matrices](https://icml.cc/Conferences/2018/Schedule?showEvent=2141)",
+      "c": "[&check;&nbsp;Link](https://github.com/lorenzMuller/kernelNet_MovieLens)",
+      "n": "Sparse FC",
+      "d": "2018-07-01",
+      "m1": "0.824"
+    },
+    {
+      "p": "[A Neural Autoregressive Approach to Collaborative Filtering](http://arxiv.org/abs/1605.09477v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dsanno/chainer-cf-nade)",
+      "n": "CF-NADE",
+      "d": "2016-05-31",
+      "m1": "0.829"
+    },
+    {
+      "p": "[Inductive Matrix Completion Using Graph Autoencoder](https://arxiv.org/abs/2108.11124v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/swtheing/imc-gae)",
+      "n": "IMC-GAE",
+      "d": "2021-08-25",
+      "m1": "0.829"
+    },
+    {
+      "p": "[AutoRec: Autoencoders Meet Collaborative Filtering](https://scholar.google.com/citations?user=z_hDjNYAAAAJ&hl=en&oi=sra)",
+      "c": "[&check;&nbsp;Link](https://github.com/gtshs2/Autorec)",
+      "n": "I-AutoRec",
+      "d": "2015-05-18",
+      "m1": "0.831"
+    },
+    {
+      "p": "[Graph Convolutional Matrix Completion](http://arxiv.org/abs/1706.02263v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/mxnet/_deprecated/gcmc)",
+      "n": "GC-MC",
+      "d": "2017-06-07",
+      "m1": "0.832"
+    },
+    {
+      "p": "[Hybrid Recommender System based on Autoencoders](http://arxiv.org/abs/1606.07659v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/fstrub95/Autoencoders_cf)",
+      "n": "I-CFN",
+      "d": "2016-06-24",
+      "m1": "0.8321"
+    },
+    {
+      "p": "[GHRS: Graph-based Hybrid Recommendation System with Application to Movie Recommendation](https://arxiv.org/abs/2111.11293v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/hadoov/GHRS)",
+      "n": "GHRS",
+      "d": "2021-11-06",
+      "m1": "0.838",
+      "m5": "0.792"
+    },
+    {
+      "p": "[A federated graph neural network framework for privacy-preserving personalization](https://www.nature.com/articles/s41467-022-30714-9)",
+      "c": "[&check;&nbsp;Link](https://github.com/wuch15/fedpergnn)",
+      "n": "FedPerGNN",
+      "d": "2022-06-02",
+      "m1": "0.839"
+    },
+    {
+      "p": "[Behavior Sequence Transformer for E-commerce Recommendation in Alibaba](https://arxiv.org/abs/1905.06874v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/shenweichen/DeepCTR)",
+      "n": "BST",
+      "d": "2019-05-15",
+      "m1": "0.8401"
+    },
+    {
+      "p": "[Neural Network Matrix Factorization](http://arxiv.org/abs/1511.06443v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jstol/neural-net-matrix-factorization)",
+      "n": "NNMF",
+      "d": "2015-11-19",
+      "m1": "0.843"
+    },
+    {
+      "p": "[FedGNN: Federated Graph Neural Network for Privacy-Preserving Recommendation](https://arxiv.org/abs/2102.04925v2)",
+      "c": "",
+      "n": "FedGNN",
+      "d": "2021-02-09",
+      "m1": "0.848"
+    },
+    {
+      "p": "[Inductive Matrix Completion Based on Graph Neural Networks](https://arxiv.org/abs/1904.12058v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/muhanzhang/IGMC)",
+      "n": "IGMC",
+      "d": "2019-04-26",
+      "m1": "0.857"
+    },
+    {
+      "p": "[Hybrid Recommender System based on Autoencoders](http://arxiv.org/abs/1606.07659v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/fstrub95/Autoencoders_cf)",
+      "n": "U-CFN",
+      "d": "2016-06-24",
+      "m1": "0.8574"
+    },
+    {
+      "p": "[Deep Models of Interactions Across Sets](http://arxiv.org/abs/1803.02879v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mravanba/deep_exchangeable_tensors)",
+      "n": "Factorized EAE",
+      "d": "2018-03-07",
+      "m1": "0.860"
+    },
+    {
+      "p": "[Dictionary Learning for Massive Matrix Factorization](http://arxiv.org/abs/1605.00937v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/arthurmensch/modl)",
+      "n": "Factorization with dictionary learning",
+      "d": "2016-05-03",
+      "m1": "0.866"
+    },
+    {
+      "p": "[SSE-PT: Sequential Recommendation Via Personalized Transformer](https://openreview.net/forum?id=HkeuD34KPH)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/recommenders)",
+      "n": "SSE-PT",
+      "d": "2019-09-25",
+      "m2": "0.6292",
+      "m3": "0.8389"
+    },
+    {
+      "p": "[Self-Attentive Sequential Recommendation](http://arxiv.org/abs/1808.09781v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/recommenders)",
+      "n": "SASRec",
+      "d": "2018-08-20",
+      "m2": "0.5905",
+      "m3": "0.8245",
+      "m9": "0.2821",
+      "m10": "0.1603"
+    },
+    {
+      "p": "[HyperML: A Boosting Metric Learning Approach in Hyperbolic Space for Recommender Systems](https://arxiv.org/abs/1809.01703v3)",
+      "c": "",
+      "n": "HyperML",
+      "d": "2018-09-05",
+      "m2": "0.5620",
+      "m3": "0.7563"
+    },
+    {
+      "p": "[Latent Relational Metric Learning via Memory-based Attention for Collaborative Ranking](http://arxiv.org/abs/1707.05176v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/vanzytay/WWW2018_LRML)",
+      "n": "LRML",
+      "d": "2017-07-17",
+      "m2": "0.5453",
+      "m3": "0.7397"
+    },
+    {
+      "p": "[Collaborative Metric Learning](https://ylongqi.com/publication/www17b/)",
+      "c": "[&check;&nbsp;Link](https://github.com/changun/CollMetric)",
+      "n": "CML",
+      "d": "2017-04-01",
+      "m2": "0.5413",
+      "m3": "0.7216"
+    },
+    {
+      "p": "[Ekar: An Explainable Method for Knowledge Aware Recommendation](https://arxiv.org/abs/1906.09506v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/DeepGraphLearning/RecommenderSystems)",
+      "n": "Ekar*",
+      "d": "2019-06-22",
+      "m2": "0.3699",
+      "m3": "0.1994"
+    },
+    {
+      "p": "[SVD-AE: Simple Autoencoders for Collaborative Filtering](https://arxiv.org/abs/2405.04746v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/seoyoungh/svd-ae)",
+      "n": "SVD-AE",
+      "d": "2024-05-08",
+      "m2": "0.3355",
+      "m3": "0.3179",
+      "m6": "0.4257",
+      "m7": "0.5933",
+      "m8": "0.0322"
+    },
+    {
+      "p": "[Infinite Recommendation Networks: A Data-Centric Approach](https://arxiv.org/abs/2206.02626v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Guang000/Awesome-Dataset-Distillation)",
+      "n": "\u221e-AE",
+      "d": "2022-06-03",
+      "m2": "0.3282",
+      "m3": "0.3151",
+      "m6": "0.4253",
+      "m7": "0.6005",
+      "m8": "0.0322"
+    },
+    {
+      "p": "[Unifying Knowledge Graph Learning and Recommendation: Towards a Better Understanding of User Preferences](http://arxiv.org/abs/1902.06236v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/TaoMiner/joint-kg-recommender)",
+      "n": "KTUP (soft)",
+      "d": "2019-02-17",
+      "m3": "0.8903",
+      "m4": "0.6992"
+    },
+    {
+      "p": "[Context-Aware Compilation of DNN Training Pipelines across Edge and Cloud](https://dl.acm.org/doi/abs/10.1145/3494981)",
+      "c": "[&check;&nbsp;Link](https://github.com/dixiyao/Context-Aware-Compilation-of-DNN-Training-Pipelines-across-Edge-and-Cloud)",
+      "n": "Context-Aware Pipeline",
+      "d": "2021-12-30",
+      "m5": "0.731"
+    },
+    {
+      "p": "[Sequential Variational Autoencoders for Collaborative Filtering](http://arxiv.org/abs/1811.09975v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/noveens/svae_cf)",
+      "n": "SVAE",
+      "d": "2018-11-25",
+      "m6": "0.2993"
+    },
+    {
+      "p": "[Retrieval with Learned Similarities](https://arxiv.org/abs/2407.15462v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/bailuding/rails)",
+      "n": "HSTU+MoL",
+      "d": "2024-07-22",
+      "m9": ".3412",
+      "m10": ".1979"
+    },
+    {
+      "p": "[Actions Speak Louder than Words: Trillion-Parameter Sequential Transducers for Generative Recommendations](https://arxiv.org/abs/2402.17152v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/generative-recommenders)",
+      "n": "HSTU",
+      "d": "2024-02-27",
+      "m9": "0.3294",
+      "m10": "0.1893"
+    },
+    {
+      "p": "[BERT4Rec: Sequential Recommendation with Bidirectional Encoder Representations from Transformer](https://arxiv.org/abs/1904.06690v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleRec/tree/master/models/rank/bert4rec)",
+      "n": "BERT4Rec",
+      "d": "2019-04-14",
+      "m9": "0.2843",
+      "m10": "0.1537"
+    },
+    {
+      "p": "[Session-based Recommendations with Recurrent Neural Networks](http://arxiv.org/abs/1511.06939v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/recommenders)",
+      "n": "GRU4Rec",
+      "d": "2015-11-21",
+      "m9": "0.2811",
+      "m10": "0.1648"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

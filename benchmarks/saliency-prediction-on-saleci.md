@@ -1,0 +1,74 @@
+# saliency-prediction-on-saleci
+
+[Dataset Link]() \
+Task Hierarchy: ['Few-Shot Transfer Learning for Saliency Prediction', 'Saliency Prediction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "KL",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[SUM: Saliency Unification through Mamba for Visual Attention Modeling](https://arxiv.org/abs/2406.17815v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Arhosseini77/SUM)",
+      "n": "SUM",
+      "d": "2024-06-25",
+      "m1": "0.473"
+    },
+    {
+      "p": "[Brand Visibility in Packaging: A Deep Learning Approach for Logo Detection, Saliency-Map Prediction, and Logo Placement Analysis](https://arxiv.org/abs/2403.02336v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Arhosseini77/Brand_Attention)",
+      "n": "ECT-SAL",
+      "d": "2024-03-04",
+      "m1": "0.578"
+    },
+    {
+      "p": "[Does Text Attract Attention on E-Commerce Images: A Novel Saliency Prediction Dataset and Method](http://openaccess.thecvf.com//content/CVPR2022/html/Jiang_Does_Text_Attract_Attention_on_E-Commerce_Images_A_Novel_Saliency_CVPR_2022_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/leafy-lee/E-commercial-dataset)",
+      "n": "SSwin transformer",
+      "d": "2022-01-01",
+      "m1": "0.652"
+    },
+    {
+      "p": "[TempSAL - Uncovering Temporal Information for Deep Saliency Prediction](http://openaccess.thecvf.com//content/CVPR2023/html/Aydemir_TempSAL_-_Uncovering_Temporal_Information_for_Deep_Saliency_Prediction_CVPR_2023_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/IVRL/Tempsal)",
+      "n": "TempSAL",
+      "d": "2023-01-01",
+      "m1": "0.712"
+    },
+    {
+      "p": "[TranSalNet: Towards perceptually relevant visual saliency prediction](https://arxiv.org/abs/2110.03593v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/ljovo/transalnet)",
+      "n": "Transalnet",
+      "d": "2021-10-07",
+      "m1": "0.873"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,74 @@
+# zero-shot-object-detection-on-odinw
+
+[Dataset Link]() \
+Task Hierarchy: ['16k', 'Object Detection', 'Zero-Shot Object Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Average Score",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[CP-DETR: Concept Prompt Guide DETR Toward Stronger Universal Object Detection](https://arxiv.org/abs/2412.09799v1)",
+      "c": "",
+      "n": "CP-DETR-L Swin-L",
+      "d": "2024-12-13",
+      "m1": "32.2"
+    },
+    {
+      "p": "[Grounding DINO 1.5: Advance the \"Edge\" of Open-Set Object Detection](https://arxiv.org/abs/2405.10300v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mit-han-lab/efficientvit)",
+      "n": "Grounding DINO 1.5 Pro",
+      "d": "2024-05-16",
+      "m1": "30.2"
+    },
+    {
+      "p": "[Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection](https://arxiv.org/abs/2303.05499v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "Grounding DINO",
+      "d": "2023-03-09",
+      "m1": "26.1"
+    },
+    {
+      "p": "[Multi-modal Queried Object Detection in the Wild](https://arxiv.org/abs/2305.18980v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/yifanxu74/mq-det)",
+      "n": "MQ-GLIP-L",
+      "d": "2023-05-30",
+      "m1": "23.9"
+    },
+    {
+      "p": "[ELEVATER: A Benchmark and Toolkit for Evaluating Language-Augmented Visual Models](https://arxiv.org/abs/2204.08790v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/GLIP)",
+      "n": "GLIP (Tiny A)",
+      "d": "2022-04-19",
+      "m1": "11.4"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

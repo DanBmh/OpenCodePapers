@@ -1,0 +1,137 @@
+# node-classification-on-pubmed-003
+
+[Dataset Link](https://linqs.org/datasets/#pubmed-diabetes) \
+Task Hierarchy: ['Node Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[View-Consistent Heterogeneous Network on Graphs With Few Labeled Nodes](https://doi.org/10.1109/TCYB.2022.3157771)",
+      "c": "[&check;&nbsp;Link](https://github.com/kunzhan/VCHN)",
+      "n": "VCHN",
+      "d": "2022-03-17",
+      "m1": "71.8%"
+    },
+    {
+      "p": "[Break the Ceiling: Stronger Multi-scale Deep Graph Convolutional Networks](https://arxiv.org/abs/1906.02174v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/PwnerHarry/Stronger_GCN)",
+      "n": "Truncated Krylov",
+      "d": "2019-06-05",
+      "m1": "71.11%"
+    },
+    {
+      "p": "[Break the Ceiling: Stronger Multi-scale Deep Graph Convolutional Networks](https://arxiv.org/abs/1906.02174v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/PwnerHarry/Stronger_GCN)",
+      "n": "Snowball (linear)",
+      "d": "2019-06-05",
+      "m1": "68.12%"
+    },
+    {
+      "p": "[Mutual Teaching for Graph Convolutional Networks](https://arxiv.org/abs/2009.00952v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/kunzhan/MTGCN)",
+      "n": "MT-GCN",
+      "d": "2020-09-02",
+      "m1": "65.5%"
+    },
+    {
+      "p": "[Break the Ceiling: Stronger Multi-scale Deep Graph Convolutional Networks](https://arxiv.org/abs/1906.02174v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/PwnerHarry/Stronger_GCN)",
+      "n": "Snowball (tanh)",
+      "d": "2019-06-05",
+      "m1": "62.61%"
+    },
+    {
+      "p": "[Break the Ceiling: Stronger Multi-scale Deep Graph Convolutional Networks](https://arxiv.org/abs/1906.02174v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/PwnerHarry/Stronger_GCN)",
+      "n": "Snowball (linear + tanh)",
+      "d": "2019-06-05",
+      "m1": "61.94%"
+    },
+    {
+      "p": "[LanczosNet: Multi-Scale Deep Graph Convolutional Networks](https://arxiv.org/abs/1901.01484v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/lrjconan/LanczosNetwork)",
+      "n": "AdaLanczosNet",
+      "d": "2019-01-06",
+      "m1": "61%"
+    },
+    {
+      "p": "[Diffusion-Convolutional Neural Networks](http://arxiv.org/abs/1511.02136v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/jcatw/dcnn)",
+      "n": "DCNN",
+      "d": "2015-11-06",
+      "m1": "60.9%"
+    },
+    {
+      "p": "[LanczosNet: Multi-Scale Deep Graph Convolutional Networks](https://arxiv.org/abs/1901.01484v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/lrjconan/LanczosNetwork)",
+      "n": "LanczosNet",
+      "d": "2019-01-06",
+      "m1": "60.4 \u00b1 8.6"
+    },
+    {
+      "p": "[Convolutional Networks on Graphs for Learning Molecular Fingerprints](http://arxiv.org/abs/1509.09292v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/HIPS/neural-fingerprint)",
+      "n": "GCN-FP",
+      "d": "2015-09-30",
+      "m1": "56.2%"
+    },
+    {
+      "p": "[Gated Graph Sequence Neural Networks](http://arxiv.org/abs/1511.05493v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/ggnn)",
+      "n": "GGNN",
+      "d": "2015-11-17",
+      "m1": "55.8%"
+    },
+    {
+      "p": "[Graph Attention Networks](http://arxiv.org/abs/1710.10903v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+      "n": "GAT",
+      "d": "2017-10-30",
+      "m1": "50.9%"
+    },
+    {
+      "p": "[Inductive Representation Learning on Large Graphs](http://arxiv.org/abs/1706.02216v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/pyg-team/pytorch_geometric/blob/master/torch_geometric/nn/models/basic_gnn.py)",
+      "n": "GraphSAGE",
+      "d": "2017-06-07",
+      "m1": "45.4%"
+    },
+    {
+      "p": "[Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering](http://arxiv.org/abs/1606.09375v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/mdeff/cnn_graph)",
+      "n": "ChebyNet",
+      "d": "2016-06-30",
+      "m1": "45.3%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

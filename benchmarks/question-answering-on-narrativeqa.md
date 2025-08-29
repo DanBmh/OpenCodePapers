@@ -1,0 +1,149 @@
+# question-answering-on-narrativeqa
+
+[Dataset Link](https://deepmind.com/research/open-source/narrativeqa) \
+Task Hierarchy: ['Question Answering']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Rouge-L",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "BLEU-1",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "BLEU-4",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "METEOR",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Multi-style Generative Reading Comprehension](https://arxiv.org/abs/1901.02262v2)",
+      "c": "",
+      "n": "Masque (NarrativeQA + MS MARCO)",
+      "d": "2019-01-08",
+      "m1": "59.87",
+      "m2": "54.11",
+      "m3": "30.43",
+      "m4": "26.13"
+    },
+    {
+      "p": "[A Discrete Hard EM Approach for Weakly Supervised Question Answering](https://arxiv.org/abs/1909.04849v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/shmsw25/qa-hard-em)",
+      "n": "BERT-QA with Hard EM objective",
+      "d": "2019-09-11",
+      "m1": "58.8"
+    },
+    {
+      "p": "[Multi-style Generative Reading Comprehension](https://arxiv.org/abs/1901.02262v2)",
+      "c": "",
+      "n": "Masque (NarrativeQA only)",
+      "d": "2019-01-08",
+      "m1": "54.74",
+      "m2": "48.7",
+      "m3": "20.98",
+      "m4": "21.95"
+    },
+    {
+      "p": "[Cut to the Chase: A Context Zoom-in Network for Reading Comprehension](https://aclanthology.org/D18-1054)",
+      "c": "",
+      "n": "ConZNet",
+      "d": "2018-10-01",
+      "m1": "46.67",
+      "m2": "42.76",
+      "m3": "22.49",
+      "m4": "19.24"
+    },
+    {
+      "p": "[Densely Connected Attention Propagation for Reading Comprehension](http://arxiv.org/abs/1811.04210v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/vanzytay/NIPS2018_DECAPROP)",
+      "n": "DecaProp",
+      "d": "2018-11-10",
+      "m1": "44.69",
+      "m2": "44.35",
+      "m3": "27.61",
+      "m4": "21.80"
+    },
+    {
+      "p": "[Commonsense for Generative Multi-Hop Question Answering Tasks](https://arxiv.org/abs/1809.06309v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yicheng-w/CommonSenseMultiHopQA)",
+      "n": "MHPGM + NOIC",
+      "d": "2018-09-17",
+      "m1": "44.16",
+      "m2": "43.63",
+      "m3": "21.07",
+      "m4": "19.03"
+    },
+    {
+      "p": "[Multi-Granular Sequence Encoding via Dilated Compositional Units for Reading Comprehension](https://aclanthology.org/D18-1238)",
+      "c": "",
+      "n": "BiAttention + DCU-LSTM",
+      "d": "2018-10-01",
+      "m1": "41.44",
+      "m2": "36.55",
+      "m3": "19.79",
+      "m4": "17.87"
+    },
+    {
+      "p": "[Bidirectional Attention Flow for Machine Comprehension](http://arxiv.org/abs/1611.01603v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/allenai/bi-att-flow)",
+      "n": "BiDAF",
+      "d": "2016-11-05",
+      "m1": "36.74",
+      "m2": "33.45",
+      "m3": "15.69",
+      "m4": "15.68"
+    },
+    {
+      "p": "[Distilling Knowledge from Reader to Retriever for Question Answering](https://arxiv.org/abs/2012.04584v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/FiD)",
+      "n": "FiD+Distil",
+      "d": "2020-12-08",
+      "m1": "32",
+      "m2": "35.3",
+      "m3": "7.5",
+      "m4": "11.1"
+    },
+    {
+      "p": "[The NarrativeQA Reading Comprehension Challenge](http://arxiv.org/abs/1712.07040v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-deepmind/narrativeqa)",
+      "n": "Oracle IR Models",
+      "d": "2017-12-19",
+      "m2": "54.60/55.55",
+      "m3": "26.71/27.78"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

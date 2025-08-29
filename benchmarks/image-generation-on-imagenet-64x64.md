@@ -1,0 +1,547 @@
+# image-generation-on-imagenet-64x64
+
+[Dataset Link]() \
+Task Hierarchy: ['Image Generation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "FID",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Bits per dim",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "NFE",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Inception Score",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "KID",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Self-Improving Diffusion Models with Synthetic Data](https://arxiv.org/abs/2408.16333v1)",
+      "c": "",
+      "n": "SIMS",
+      "d": "2024-08-29",
+      "m1": "0.92",
+      "m3": "126"
+    },
+    {
+      "p": "[Direct Discriminative Optimization: Your Likelihood-Based Visual Generative Model is Secretly a GAN Discriminator](https://arxiv.org/abs/2503.01103v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/nvlabs/ddo)",
+      "n": "EDM2-S+DDO",
+      "d": "2025-03-03",
+      "m1": "0.97",
+      "m3": "63"
+    },
+    {
+      "p": "[Uni-Instruct: One-step Diffusion Model through Unified Diffusion Divergence Instruction](https://arxiv.org/abs/2505.20755)",
+      "c": "",
+      "n": "Uni-Instruct",
+      "d": "2025-05-27",
+      "m1": "1.02",
+      "m3": "1"
+    },
+    {
+      "p": "[Adversarial Score identity Distillation: Rapidly Surpassing the Teacher in One Step](https://arxiv.org/abs/2410.14919v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/mingyuanzhou/sid)",
+      "n": "SiDA-EDM",
+      "d": "2024-10-19",
+      "m1": "1.11",
+      "m3": "1"
+    },
+    {
+      "p": "[Diffusion Models Are Innate One-Step Generators](https://arxiv.org/abs/2405.20750v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Zyriix/GDD)",
+      "n": "GDD-I",
+      "d": "2024-05-31",
+      "m1": "1.16",
+      "m3": "1"
+    },
+    {
+      "p": "[PaGoDA: Progressive Growing of a One-Step Generator from a Low-Resolution Diffusion Teacher](https://arxiv.org/abs/2405.14822v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/sony/pagoda)",
+      "n": "PaGoDA",
+      "d": "2024-05-23",
+      "m1": "1.21",
+      "m3": "1",
+      "m4": "76.47"
+    },
+    {
+      "p": "[DisCo-Diff: Enhancing Continuous Diffusion Models with Discrete Latents](https://arxiv.org/abs/2407.03300v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/gcorso/disco-diffdock)",
+      "n": "DisCo-Diff",
+      "d": "2024-07-03",
+      "m1": "1.22"
+    },
+    {
+      "p": "[Scalable Adaptive Computation for Iterative Generation](https://arxiv.org/abs/2212.11972v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/pix2seq)",
+      "n": "RIN",
+      "d": "2022-12-22",
+      "m1": "1.23"
+    },
+    {
+      "p": "[Diffusion Models Are Innate One-Step Generators](https://arxiv.org/abs/2405.20750v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Zyriix/GDD)",
+      "n": "GDD",
+      "d": "2024-05-31",
+      "m1": "1.42",
+      "m3": "1"
+    },
+    {
+      "p": "[Stable Consistency Tuning: Understanding and Improving Consistency Models](https://arxiv.org/abs/2410.18958v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/G-U-N/Stable-Consistency-Tuning)",
+      "n": "SCT",
+      "d": "2024-10-24",
+      "m1": "1.47",
+      "m3": "2"
+    },
+    {
+      "p": "[Cascaded Diffusion Models for High Fidelity Image Generation](https://arxiv.org/abs/2106.15282v3)",
+      "c": "",
+      "n": "CDM",
+      "d": "2021-05-30",
+      "m1": "1.48"
+    },
+    {
+      "p": "[StyleGAN-XL: Scaling StyleGAN to Large Diverse Datasets](https://arxiv.org/abs/2202.00273v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/autonomousvision/stylegan-xl)",
+      "n": "StyleGAN-XL",
+      "d": "2022-02-01",
+      "m1": "1.51",
+      "m3": "1"
+    },
+    {
+      "p": "[Score identity Distillation: Exponentially Fast Distillation of Pretrained Diffusion Models for One-Step Generation](https://arxiv.org/abs/2404.04057v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/mingyuanzhou/sid)",
+      "n": "SiD",
+      "d": "2024-04-05",
+      "m1": "1.524",
+      "m3": "1"
+    },
+    {
+      "p": "[Truncated Consistency Models](https://arxiv.org/abs/2410.14895v2)",
+      "c": "",
+      "n": "TCM",
+      "d": "2024-10-18",
+      "m1": "1.62",
+      "m3": "2"
+    },
+    {
+      "p": "[Consistency Models Made Easy](https://arxiv.org/abs/2406.14548v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/locuslab/ect)",
+      "n": "ECM-XL",
+      "d": "2024-06-20",
+      "m1": "1.67",
+      "m3": "2"
+    },
+    {
+      "p": "[Constant Acceleration Flow](https://arxiv.org/abs/2411.00322v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/mlvlab/CAF)",
+      "n": "CAF",
+      "d": "2024-11-01",
+      "m1": "1.69",
+      "m3": "2",
+      "m4": "62.03"
+    },
+    {
+      "p": "[Consistency Trajectory Models: Learning Probability Flow ODE Trajectory of Diffusion](https://arxiv.org/abs/2310.02279v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/sony/ctm)",
+      "n": "CTM",
+      "d": "2023-10-01",
+      "m1": "1.73",
+      "m3": "2",
+      "m4": "64.29"
+    },
+    {
+      "p": "[Diffusion Models Beat GANs on Image Synthesis](https://arxiv.org/abs/2105.05233v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/openai/guided-diffusion)",
+      "n": "ADM (dropout)",
+      "d": "2021-05-11",
+      "m1": "2.07"
+    },
+    {
+      "p": "[Learning Stackable and Skippable LEGO Bricks for Efficient, Reconfigurable, and Variable-Resolution Diffusion Modeling](https://arxiv.org/abs/2310.06389v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/JegZheng/LEGODiffusion)",
+      "n": "LEGO",
+      "d": "2023-10-10",
+      "m1": "2.16",
+      "m4": "78.7"
+    },
+    {
+      "p": "[Normalizing Flows are Capable Generative Models](https://arxiv.org/abs/2412.06329v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/apple/ml-tarflow)",
+      "n": "TarFlow",
+      "d": "2024-12-09",
+      "m1": "2.9",
+      "m2": "2.99"
+    },
+    {
+      "p": "[Improved Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2102.09672v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/neonbjb/tortoise-tts)",
+      "n": "Improved DDPM",
+      "d": "2021-02-18",
+      "m1": "2.92",
+      "m2": "3.53"
+    },
+    {
+      "p": "[Improving the Training of Rectified Flows](https://arxiv.org/abs/2405.20320v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/sangyun884/rfpp)",
+      "n": "2-rectified flow++ (NFE=2)",
+      "d": "2024-05-30",
+      "m1": "3.64"
+    },
+    {
+      "p": "[Improving the Training of Rectified Flows](https://arxiv.org/abs/2405.20320v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/sangyun884/rfpp)",
+      "n": "2-rectified flow++ (NFE=1)",
+      "d": "2024-05-30",
+      "m1": "4.31"
+    },
+    {
+      "p": "[Consistency Models](https://arxiv.org/abs/2303.01469v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/openai/consistency_models)",
+      "n": "CD (Diffusion + Distillation, NFE=2)",
+      "d": "2023-03-02",
+      "m1": "4.70",
+      "m3": "2"
+    },
+    {
+      "p": "[Consistency Models](https://arxiv.org/abs/2303.01469v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/openai/consistency_models)",
+      "n": "CD (Diffusion + Distillation, NFE=1)",
+      "d": "2023-03-02",
+      "m1": "6.20",
+      "m3": "1"
+    },
+    {
+      "p": "[Consistency Models](https://arxiv.org/abs/2303.01469v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/openai/consistency_models)",
+      "n": "CT (Direct Generation, NFE=2)",
+      "d": "2023-03-02",
+      "m1": "11.1",
+      "m3": "2"
+    },
+    {
+      "p": "[Consistency Models](https://arxiv.org/abs/2303.01469v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/openai/consistency_models)",
+      "n": "CT (Direct Generation, NFE=1)",
+      "d": "2023-03-02",
+      "m1": "13.0",
+      "m3": "1"
+    },
+    {
+      "p": "[Flow Matching for Generative Modeling](https://arxiv.org/abs/2210.02747v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/shivammehta25/Matcha-TTS)",
+      "n": "FM",
+      "d": "2022-10-06",
+      "m1": "14.45",
+      "m2": "3.31"
+    },
+    {
+      "p": "[CLR-GAN: Improving GANs Stability and Quality via Consistent Latent Representation and Reconstruction](https://link.springer.com/chapter/10.1007/978-3-031-73232-4_12)",
+      "c": "[&check;&nbsp;Link](https://github.com/Petecheco/CLR-GAN)",
+      "n": "CLR-GAN",
+      "d": "2024-09-30",
+      "m1": "20.27"
+    },
+    {
+      "p": "[Partition-Guided GANs](https://arxiv.org/abs/2104.00816v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/alisadeghian/PGMGAN)",
+      "n": "PGMGAN",
+      "d": "2021-04-02",
+      "m1": "21.73"
+    },
+    {
+      "p": "[Composing Ensembles of Pre-trained Models via Iterative Consensus](https://arxiv.org/abs/2210.11522v1)",
+      "c": "",
+      "n": "GLIDE + CLIP + CLS + CLS-FREE",
+      "d": "2022-10-20",
+      "m1": "29.184",
+      "m4": "34.952",
+      "m5": "3.766"
+    },
+    {
+      "p": "[Composing Ensembles of Pre-trained Models via Iterative Consensus](https://arxiv.org/abs/2210.11522v1)",
+      "c": "",
+      "n": "GLIDE + CLS-FREE",
+      "d": "2022-10-20",
+      "m1": "29.219",
+      "m4": "25.926",
+      "m5": "5.325"
+    },
+    {
+      "p": "[Composing Ensembles of Pre-trained Models via Iterative Consensus](https://arxiv.org/abs/2210.11522v1)",
+      "c": "",
+      "n": "GLIDE + CLIP",
+      "d": "2022-10-20",
+      "m1": "30.462",
+      "m4": "25.017",
+      "m5": "6.174"
+    },
+    {
+      "p": "[Composing Ensembles of Pre-trained Models via Iterative Consensus](https://arxiv.org/abs/2210.11522v1)",
+      "c": "",
+      "n": "GLIDE + CLS",
+      "d": "2022-10-20",
+      "m1": "30.871",
+      "m4": "22.077"
+    },
+    {
+      "p": "[Neural Flow Diffusion Models: Learnable Forward Process for Improved Diffusion Modelling](https://arxiv.org/abs/2404.12940v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/GrigoryBartosh/neural_diffusion)",
+      "n": "NFDM",
+      "d": "2024-04-19",
+      "m2": "3.2"
+    },
+    {
+      "p": "[Generative Modeling with Bayesian Sample Inference](https://arxiv.org/abs/2502.07580v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/martenlienen/bsi)",
+      "n": "BSI",
+      "d": "2025-02-11",
+      "m2": "3.22"
+    },
+    {
+      "p": "[Efficient-VDVAE: Less is more](https://arxiv.org/abs/2203.13751v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Rayhane-mamah/Efficient-VDVAE)",
+      "n": "Efficient-VDVAE",
+      "d": "2022-03-25",
+      "m2": "3.30 (different downsampling)"
+    },
+    {
+      "p": "[Densely connected normalizing flows](https://arxiv.org/abs/2106.04627v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/matejgrcic/DenseFlow)",
+      "n": "DenseFlow-74-10",
+      "d": "2021-06-08",
+      "m2": "3.35 (different downsampling)"
+    },
+    {
+      "p": "[Neural Diffusion Models](https://arxiv.org/abs/2310.08337v3)",
+      "c": "",
+      "n": "NDM",
+      "d": "2023-10-12",
+      "m2": "3.35"
+    },
+    {
+      "p": "[Variational Diffusion Models](https://arxiv.org/abs/2107.00630v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/vdm)",
+      "n": "VDM",
+      "d": "2021-07-01",
+      "m2": "3.40"
+    },
+    {
+      "p": "[Combiner: Full Attention Transformer with Sparse Computation Cost](https://arxiv.org/abs/2107.05768v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research)",
+      "n": "Combiner-Axial",
+      "d": "2021-07-12",
+      "m2": "3.42"
+    },
+    {
+      "p": "[Efficient Content-Based Sparse Attention with Routing Transformers](https://arxiv.org/abs/2003.05997v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/lucidrains/local-attention)",
+      "n": "Routing Transformer",
+      "d": "2020-03-12",
+      "m2": "3.43"
+    },
+    {
+      "p": "[Generating Long Sequences with Sparse Transformers](http://arxiv.org/abs/1904.10509v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/mistralai/mistral-src)",
+      "n": "Sparse Transformer 59M (strided)",
+      "d": "2019-04-23",
+      "m2": "3.44"
+    },
+    {
+      "p": "[Multi-Resolution Continuous Normalizing Flows](https://arxiv.org/abs/2106.08462v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/voletiv/mrcnf)",
+      "n": "MRCNF",
+      "d": "2021-06-15",
+      "m2": "3.44"
+    },
+    {
+      "p": "[Hierarchical Transformers Are More Efficient Language Models](https://arxiv.org/abs/2110.13711v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+      "n": "Hourglass",
+      "d": "2021-10-26",
+      "m2": "3.44"
+    },
+    {
+      "p": "[Combiner: Full Attention Transformer with Sparse Computation Cost](https://arxiv.org/abs/2107.05768v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research)",
+      "n": "Combiner-Mixture",
+      "d": "2021-07-12",
+      "m2": "3.504"
+    },
+    {
+      "p": "[Generating High Fidelity Images with Subscale Pixel Networks and Multidimensional Upscaling](http://arxiv.org/abs/1812.01608v1)",
+      "c": "",
+      "n": "SPN",
+      "d": "2018-12-04",
+      "m2": "3.52"
+    },
+    {
+      "p": "[Very Deep VAEs Generalize Autoregressive Models and Can Outperform Them on Images](https://arxiv.org/abs/2011.10650v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/openai/vdvae)",
+      "n": "Very Deep VAE",
+      "d": "2020-11-20",
+      "m2": "3.52"
+    },
+    {
+      "p": "[PixelCNN Models with Auxiliary Variables for Natural Image Modeling](http://arxiv.org/abs/1612.08185v4)",
+      "c": "",
+      "n": "PixelCNN",
+      "d": "2016-12-24",
+      "m2": "3.57"
+    },
+    {
+      "p": "[Conditional Image Generation with PixelCNN Decoders](http://arxiv.org/abs/1606.05328v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/openai/pixel-cnn)",
+      "n": "Gated PixelCNN (van den Oord et al., [2016c])",
+      "d": "2016-06-16",
+      "m2": "3.57"
+    },
+    {
+      "p": "[Rethinking Attention with Performers](https://arxiv.org/abs/2009.14794v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/official/nlp/modeling)",
+      "n": "Performer (12 layers)",
+      "d": "2020-09-30",
+      "m2": "3.636"
+    },
+    {
+      "p": "[Flow++: Improving Flow-Based Generative Models with Variational Dequantization and Architecture Design](https://arxiv.org/abs/1902.00275v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/aravind0706/flowpp)",
+      "n": "Flow++",
+      "d": "2019-02-01",
+      "m2": "3.69"
+    },
+    {
+      "p": "[MaCow: Masked Convolutional Generative Flow](https://arxiv.org/abs/1902.04208v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/XuezheMax/wolf)",
+      "n": "MaCow (Var)",
+      "d": "2019-02-12",
+      "m2": "3.69"
+    },
+    {
+      "p": "[Parallel Multiscale Autoregressive Density Estimation](http://arxiv.org/abs/1703.03664v1)",
+      "c": "",
+      "n": "Parallel Multiscale",
+      "d": "2017-03-10",
+      "m2": "3.7"
+    },
+    {
+      "p": "[MALI: A memory efficient and reverse accurate integrator for Neural ODEs](https://arxiv.org/abs/2102.04668v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/juntang-zhuang/TorchDiffEqPack)",
+      "n": "MALI",
+      "d": "2021-02-09",
+      "m2": "3.71"
+    },
+    {
+      "p": "[Reformer: The Efficient Transformer](https://arxiv.org/abs/2001.04451v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "Reformer (12 layers)",
+      "d": "2020-01-13",
+      "m2": "3.710"
+    },
+    {
+      "p": "[Rethinking Attention with Performers](https://arxiv.org/abs/2009.14794v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/official/nlp/modeling)",
+      "n": "Performer (6 layers)",
+      "d": "2020-09-30",
+      "m2": "3.719"
+    },
+    {
+      "p": "[Reformer: The Efficient Transformer](https://arxiv.org/abs/2001.04451v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "Reformer (6 layers)",
+      "d": "2020-01-13",
+      "m2": "3.740"
+    },
+    {
+      "p": "[MaCow: Masked Convolutional Generative Flow](https://arxiv.org/abs/1902.04208v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/XuezheMax/wolf)",
+      "n": "MaCow (Unf)",
+      "d": "2019-02-12",
+      "m2": "3.75"
+    },
+    {
+      "p": "[Residual Flows for Invertible Generative Modeling](https://arxiv.org/abs/1906.02735v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/rtqichen/residual-flows)",
+      "n": "Residual Flow",
+      "d": "2019-06-06",
+      "m2": "3.757"
+    },
+    {
+      "p": "[Glow: Generative Flow with Invertible 1x1 Convolutions](http://arxiv.org/abs/1807.03039v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/openai/glow)",
+      "n": "Glow (Kingma and Dhariwal, 2018)",
+      "d": "2018-07-09",
+      "m2": "3.81"
+    },
+    {
+      "p": "[Axial Attention in Multidimensional Transformers](https://arxiv.org/abs/1912.12180v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/lucidrains/axial-attention)",
+      "n": "Axial Transformer (6 layers)",
+      "d": "2019-12-20",
+      "m2": "4.032"
+    },
+    {
+      "p": "[Enhancing the Locality and Breaking the Memory Bottleneck of Transformer on Time Series Forecasting](https://arxiv.org/abs/1907.00235v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/AIStream-Peelout/flow-forecast)",
+      "n": "Logsparse (6 layers)",
+      "d": "2019-06-29",
+      "m2": "4.351"
+    },
+    {
+      "p": "[Consistency Trajectory Models: Learning Probability Flow ODE Trajectory of Diffusion](https://arxiv.org/abs/2310.02279v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/sony/ctm)",
+      "n": "CTM (NFE 1)",
+      "d": "2023-10-01",
+      "m3": "1",
+      "m4": "70.38"
+    },
+    {
+      "p": "[Composing Ensembles of Pre-trained Models via Iterative Consensus](https://arxiv.org/abs/2210.11522v1)",
+      "c": "",
+      "n": "GLIDE +CLS",
+      "d": "2022-10-20",
+      "m5": "7.952"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

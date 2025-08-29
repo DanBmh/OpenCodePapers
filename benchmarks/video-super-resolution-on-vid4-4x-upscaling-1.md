@@ -1,0 +1,188 @@
+# video-super-resolution-on-vid4-4x-upscaling-1
+
+[Dataset Link]() \
+Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', '3D Human Pose Estimation', '3D Absolute Human Pose Estimation', '3D Face Animation', 'Video Super-Resolution']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "SSIM",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Recurrent Video Restoration Transformer with Guided Deformable Attention](https://arxiv.org/abs/2206.02146v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/jingyunliang/rvrt)",
+      "n": "RVRT",
+      "d": "2022-06-05",
+      "m1": "29.54",
+      "m2": "0.8810"
+    },
+    {
+      "p": "[VRT: A Video Restoration Transformer](https://arxiv.org/abs/2201.12288v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jingyunliang/vrt)",
+      "n": "VRT",
+      "d": "2022-01-28",
+      "m1": "29.42",
+      "m2": "0.8795"
+    },
+    {
+      "p": "[BasicVSR++: Improving Video Super-Resolution with Enhanced Propagation and Alignment](https://arxiv.org/abs/2104.13371v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmediting)",
+      "n": "BasicVSR++",
+      "d": "2021-04-27",
+      "m1": "29.04",
+      "m2": "0.8753"
+    },
+    {
+      "p": "[Learning Spatiotemporal Frequency-Transformer for Low-Quality Video Super-Resolution](https://arxiv.org/abs/2212.14046v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/researchmm/ftvsr)",
+      "n": "FTVSR",
+      "d": "2022-12-27",
+      "m1": "28.7",
+      "m2": "0.869"
+    },
+    {
+      "p": "[Omniscient Video Super-Resolution](https://arxiv.org/abs/2103.15683v1)",
+      "c": "",
+      "n": "GOVSR",
+      "d": "2021-03-29",
+      "m1": "28.41",
+      "m2": "0.8724"
+    },
+    {
+      "p": "[Learning Trajectory-Aware Transformer for Video Super-Resolution](https://arxiv.org/abs/2204.04216v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/researchmm/TTVSR)",
+      "n": "TTVSR",
+      "d": "2022-04-08",
+      "m1": "28.40",
+      "m2": "0.8643"
+    },
+    {
+      "p": "[BasicVSR: The Search for Essential Components in Video Super-Resolution and Beyond](https://arxiv.org/abs/2012.02181v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/XPixelGroup/BasicSR)",
+      "n": "IconVSR",
+      "d": "2020-12-03",
+      "m1": "28.04",
+      "m2": "0.8570"
+    },
+    {
+      "p": "[BasicVSR: The Search for Essential Components in Video Super-Resolution and Beyond](https://arxiv.org/abs/2012.02181v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/XPixelGroup/BasicSR)",
+      "n": "BasicVSR",
+      "d": "2020-12-03",
+      "m1": "27.96",
+      "m2": "0.8553"
+    },
+    {
+      "p": "[Video Super-Resolution with Recurrent Structure-Detail Network](https://arxiv.org/abs/2008.00455v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/junpan19/RSDN)",
+      "n": "RSDN",
+      "d": "2020-08-02",
+      "m1": "27.92",
+      "m2": "0.8505"
+    },
+    {
+      "p": "[EDVR: Video Restoration with Enhanced Deformable Convolutional Networks](https://arxiv.org/abs/1905.02716v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmsr)",
+      "n": "EDVR",
+      "d": "2019-05-07",
+      "m1": "27.85",
+      "m2": "0.8503"
+    },
+    {
+      "p": "[Revisiting Temporal Modeling for Video Super-resolution](https://arxiv.org/abs/2008.05765v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/junpan19/RRN)",
+      "n": "RRN",
+      "d": "2020-08-13",
+      "m1": "27.69",
+      "m2": "0.8488"
+    },
+    {
+      "p": "[Video Super-resolution with Temporal Group Attention](https://arxiv.org/abs/2007.10595v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/junpan19/VSR_TGA)",
+      "n": "TGA",
+      "d": "2020-07-21",
+      "m1": "27.63",
+      "m2": "0.8423"
+    },
+    {
+      "p": "[Efficient Video Super-Resolution through Recurrent Latent Space Propagation](https://arxiv.org/abs/1909.08080v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dariofuoli/RLSP)",
+      "n": "RLSP",
+      "d": "2019-09-17",
+      "m1": "27.48",
+      "m2": "0.8388"
+    },
+    {
+      "p": "[Deep Video Super-Resolution Network Using Dynamic Upsampling Filters Without Explicit Motion Compensation](http://openaccess.thecvf.com/content_cvpr_2018/html/Jo_Deep_Video_Super-Resolution_CVPR_2018_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/yhjo09/VSR-DUF)",
+      "n": "DUF",
+      "d": "2018-06-01",
+      "m1": "27.38",
+      "m2": "0.8329"
+    },
+    {
+      "p": "[Recurrent Back-Projection Network for Video Super-Resolution](http://arxiv.org/abs/1903.10128v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/alterzero/RBPN-PyTorch)",
+      "n": "RBPN",
+      "d": "2019-03-25",
+      "m1": "27.17",
+      "m2": "0.8205"
+    },
+    {
+      "p": "[Progressive Fusion Video Super-Resolution Network via Exploiting Non-Local Spatio-Temporal Correlations](http://openaccess.thecvf.com/content_ICCV_2019/html/Yi_Progressive_Fusion_Video_Super-Resolution_Network_via_Exploiting_Non-Local_Spatio-Temporal_Correlations_ICCV_2019_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/psychopa4/PFNL)",
+      "n": "PFNL",
+      "d": "2019-10-01",
+      "m1": "27.16",
+      "m2": "0.8355"
+    },
+    {
+      "p": "[Frame-Recurrent Video Super-Resolution](http://arxiv.org/abs/1801.04590v4)",
+      "c": "",
+      "n": "FRVSR",
+      "d": "2018-01-14",
+      "m1": "26.69",
+      "m2": "0.8103"
+    },
+    {
+      "p": "[Video Enhancement with Task-Oriented Flow](https://arxiv.org/abs/1711.09078v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/anchen1011/toflow)",
+      "n": "TOFlow",
+      "d": "2017-11-24",
+      "m1": "25.85",
+      "m2": "0.7659"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

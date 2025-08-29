@@ -1,0 +1,73 @@
+# 3d-object-detection-on-arkitscenes
+
+[Dataset Link](https://github.com/apple/ARKitScenes) \
+Task Hierarchy: ['16k', 'Object Detection', '3D Object Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mAP@0.25",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "mAP@0.5",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[UniDet3D: Multi-dataset Indoor 3D Object Detection](https://arxiv.org/abs/2409.04234v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/filapro/unidet3d)",
+      "n": "UniDet3D",
+      "d": "2024-09-06",
+      "m1": "61.3",
+      "m2": "47.1"
+    },
+    {
+      "p": "[MLCVNet: Multi-Level Context VoteNet for 3D Object Detection](https://arxiv.org/abs/2004.05679v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/NUAAXQ/MLCVNet)",
+      "n": "MLCVNet",
+      "d": "2020-04-12",
+      "m1": "41.9"
+    },
+    {
+      "p": "[H3DNet: 3D Object Detection Using Hybrid Geometric Primitives](https://arxiv.org/abs/2006.05682v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection3d)",
+      "n": "H3DNet",
+      "d": "2020-06-10",
+      "m1": "38.3"
+    },
+    {
+      "p": "[Deep Hough Voting for 3D Object Detection in Point Clouds](https://arxiv.org/abs/1904.09664v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection3d)",
+      "n": "VoteNet",
+      "d": "2019-04-21",
+      "m1": "35.8"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

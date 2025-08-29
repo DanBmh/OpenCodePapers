@@ -1,0 +1,1089 @@
+# action-recognition-in-videos-on-something
+
+[Dataset Link](https://developer.qualcomm.com/software/ai-datasets/something-something) \
+Task Hierarchy: ['Action Recognition']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Top-1 Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Top-5 Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Parameters",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "GFLOPs",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Masked Video Distillation: Rethinking Masked Feature Modeling for Self-supervised Video Representation Learning](https://arxiv.org/abs/2212.04500v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ruiwang2021/mvd)",
+      "n": "MVD (Kinetics400 pretrain, ViT-H, 16 frame)",
+      "d": "2022-12-08",
+      "m1": "77.3",
+      "m2": "95.7",
+      "m3": "633",
+      "m4": "1192x6"
+    },
+    {
+      "p": "[DejaVid: Encoder-Agnostic Learned Temporal Matching for Video Classification](http://openaccess.thecvf.com//content/CVPR2025/html/Ho_DejaVid_Encoder-Agnostic_Learned_Temporal_Matching_for_Video_Classification_CVPR_2025_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/darrylho/dejavid)",
+      "n": "DejaVid",
+      "d": "2025-01-01",
+      "m1": "77.2",
+      "m2": "96.3"
+    },
+    {
+      "p": "[InternVideo: General Video Foundation Models via Generative and Discriminative Learning](https://arxiv.org/abs/2212.03191v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internvideo)",
+      "n": "InternVideo",
+      "d": "2022-12-06",
+      "m1": "77.2"
+    },
+    {
+      "p": "[InternVideo2: Scaling Foundation Models for Multimodal Video Understanding](https://arxiv.org/abs/2403.15377v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internvideo)",
+      "n": "InternVideo2-1B",
+      "d": "2024-03-22",
+      "m1": "77.1"
+    },
+    {
+      "p": "[VideoMAE V2: Scaling Video Masked Autoencoders with Dual Masking](https://arxiv.org/abs/2303.16727v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/OpenGVLab/VideoMAEv2)",
+      "n": "VideoMAE V2-g",
+      "d": "2023-03-29",
+      "m1": "77.0",
+      "m2": "95.9",
+      "m3": "1013",
+      "m4": "2544x6"
+    },
+    {
+      "p": "[Masked Video Distillation: Rethinking Masked Feature Modeling for Self-supervised Video Representation Learning](https://arxiv.org/abs/2212.04500v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ruiwang2021/mvd)",
+      "n": "MVD (Kinetics400 pretrain, ViT-L, 16 frame)",
+      "d": "2022-12-08",
+      "m1": "76.7",
+      "m2": "95.5",
+      "m3": "305",
+      "m4": "597x6"
+    },
+    {
+      "p": "[Hiera: A Hierarchical Vision Transformer without the Bells-and-Whistles](https://arxiv.org/abs/2306.00989v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/pytorch-image-models)",
+      "n": "Hiera-L (no extra data)",
+      "d": "2023-06-01",
+      "m1": "76.5"
+    },
+    {
+      "p": "[Rethinking Video ViTs: Sparse Video Tubes for Joint Image and Video Learning](https://arxiv.org/abs/2212.03229v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/daniel-code/TubeViT)",
+      "n": "TubeViT-L",
+      "d": "2022-12-06",
+      "m1": "76.1",
+      "m2": "95.2"
+    },
+    {
+      "p": "[VideoMAE: Masked Autoencoders are Data-Efficient Learners for Self-Supervised Video Pre-Training](https://arxiv.org/abs/2203.12602v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "VideoMAE (no extra data, ViT-L, 32x2)",
+      "d": "2022-03-23",
+      "m1": "75.4",
+      "m2": "95.2",
+      "m3": "305",
+      "m4": "1436x3"
+    },
+    {
+      "p": "[Side4Video: Spatial-Temporal Side Network for Memory-Efficient Image-to-Video Transfer Learning](https://arxiv.org/abs/2311.15769v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/whwu95/ATM)",
+      "n": "Side4Video (EVA ViT-E/14)",
+      "d": "2023-11-27",
+      "m1": "75.2",
+      "m2": "94.0"
+    },
+    {
+      "p": "[Masked Feature Prediction for Self-Supervised Visual Pre-Training](https://arxiv.org/abs/2112.09133v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/SlowFast)",
+      "n": "MaskFeat (Kinetics600 pretrain, MViT-L)",
+      "d": "2021-12-16",
+      "m1": "75.0",
+      "m2": "95.0",
+      "m3": "218",
+      "m4": "2828*3"
+    },
+    {
+      "p": "[MAR: Masked Autoencoders for Efficient Action Recognition](https://arxiv.org/abs/2207.11660v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/alibaba-mmai-research/masked-action-recognition)",
+      "n": "MAR (50% mask, ViT-L, 16x4)",
+      "d": "2022-07-24",
+      "m1": "74.7",
+      "m2": "94.9",
+      "m3": "311",
+      "m4": "276x6"
+    },
+    {
+      "p": "[What Can Simple Arithmetic Operations Do for Temporal Modeling?](https://arxiv.org/abs/2307.08908v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/whwu95/ATM)",
+      "n": "ATM",
+      "d": "2023-07-18",
+      "m1": "74.6",
+      "m2": "94.4"
+    },
+    {
+      "p": "[The effectiveness of MAE pre-pretraining for billion-scale pretraining](https://arxiv.org/abs/2303.13496v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/maws)",
+      "n": "MAWS (ViT-L)",
+      "d": "2023-03-23",
+      "m1": "74.4"
+    },
+    {
+      "p": "[VideoMAE: Masked Autoencoders are Data-Efficient Learners for Self-Supervised Video Pre-Training](https://arxiv.org/abs/2203.12602v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "VideoMAE (no extra data, ViT-L, 16frame)",
+      "d": "2022-03-23",
+      "m1": "74.3",
+      "m2": "94.6",
+      "m3": "305",
+      "m4": "597x6"
+    },
+    {
+      "p": "[MAR: Masked Autoencoders for Efficient Action Recognition](https://arxiv.org/abs/2207.11660v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/alibaba-mmai-research/masked-action-recognition)",
+      "n": "MAR (75% mask, ViT-L, 16x4)",
+      "d": "2022-07-24",
+      "m1": "73.8",
+      "m2": "94.4",
+      "m3": "311",
+      "m4": "131x6"
+    },
+    {
+      "p": "[Masked Video Distillation: Rethinking Masked Feature Modeling for Self-supervised Video Representation Learning](https://arxiv.org/abs/2212.04500v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ruiwang2021/mvd)",
+      "n": "MVD (Kinetics400 pretrain, ViT-B, 16 frame)",
+      "d": "2022-12-08",
+      "m1": "73.7",
+      "m2": "94.0",
+      "m3": "87",
+      "m4": "180x6"
+    },
+    {
+      "p": "[ViC-MAE: Self-Supervised Representation Learning from Images and Video with Contrastive Masked Autoencoders](https://arxiv.org/abs/2303.12001v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/jeffhernandez1995/vic-mae)",
+      "n": "ViC-MAE (ViT-L)",
+      "d": "2023-03-21",
+      "m1": "73.7"
+    },
+    {
+      "p": "[Temporally-Adaptive Models for Efficient Video Understanding](https://arxiv.org/abs/2308.05787v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/alibaba-mmai-research/TAdaConv)",
+      "n": "TAdaFormer-L/14",
+      "d": "2023-08-10",
+      "m1": "73.6"
+    },
+    {
+      "p": "[TDS-CLIP: Temporal Difference Side Network for Image-to-Video Transfer Learning](https://arxiv.org/abs/2408.10688v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/BBYL9413/TDS-CLIP)",
+      "n": "TDS-CLIP-ViT-L/14(8frames)",
+      "d": "2024-08-20",
+      "m1": "73.4",
+      "m2": "93.8"
+    },
+    {
+      "p": "[MViTv2: Improved Multiscale Vision Transformers for Classification and Detection](https://arxiv.org/abs/2112.01526v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "MViTv2-L (IN-21K + Kinetics400 pretrain)",
+      "d": "2021-12-02",
+      "m1": "73.3",
+      "m2": "94.1",
+      "m3": "213.1"
+    },
+    {
+      "p": "[Asymmetric Masked Distillation for Pre-Training Small Foundation Models](https://arxiv.org/abs/2311.03149v2)",
+      "c": "",
+      "n": "AMD(ViT-B/16)",
+      "d": "2023-11-06",
+      "m1": "73.3",
+      "m2": "94.0",
+      "m3": "87",
+      "m4": "180x6"
+    },
+    {
+      "p": "[UniFormerV2: Spatiotemporal Learning by Arming Image ViTs with Video UniFormer](https://openreview.net/forum?id=d77RVuVg-Mf)",
+      "c": "[&check;&nbsp;Link](https://github.com/OpenGVLab/UniFormerV2)",
+      "n": "UniFormerV2-L",
+      "d": "2022-09-22",
+      "m1": "73.0",
+      "m2": "94.5",
+      "m4": "5154"
+    },
+    {
+      "p": "[ST-Adapter: Parameter-Efficient Image-to-Video Transfer Learning](https://arxiv.org/abs/2206.13559v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/linziyi96/st-adapter)",
+      "n": "ST-Adapter (ViT-L, CLIP)",
+      "d": "2022-06-27",
+      "m1": "72.3",
+      "m2": "93.9",
+      "m4": "8248"
+    },
+    {
+      "p": "[ZeroI2V: Zero-Cost Adaptation of Pre-trained Transformers from Image to Video](https://arxiv.org/abs/2310.01324v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mcg-nju/zeroi2v)",
+      "n": "ZeroI2V ViT-L/14",
+      "d": "2023-10-02",
+      "m1": "72.2",
+      "m2": "93.0"
+    },
+    {
+      "p": "[MViTv2: Improved Multiscale Vision Transformers for Classification and Detection](https://arxiv.org/abs/2112.01526v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "MViT-B (IN-21K + Kinetics400 pretrain)",
+      "d": "2021-12-02",
+      "m1": "72.1",
+      "m4": "225x3"
+    },
+    {
+      "p": "[CAST: Cross-Attention in Space and Time for Video Action Recognition](https://arxiv.org/abs/2311.18825v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/khu-vll/cast)",
+      "n": "CAST(ViT-B/16)",
+      "d": "2023-11-30",
+      "m1": "71.6"
+    },
+    {
+      "p": "[Learning Correlation Structures for Vision Transformers](https://arxiv.org/abs/2404.03924v1)",
+      "c": "",
+      "n": "StructVit-B-4-1",
+      "d": "2024-04-05",
+      "m1": "71.5"
+    },
+    {
+      "p": "[Omnivore: A Single Model for Many Visual Modalities](https://arxiv.org/abs/2201.08377v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/towhee-io/towhee)",
+      "n": "OMNIVORE (Swin-B,  IN-21K+ Kinetics400 pretrain)",
+      "d": "2022-01-20",
+      "m1": "71.4",
+      "m2": "93.5"
+    },
+    {
+      "p": "[BEVT: BERT Pretraining of Video Transformers](https://arxiv.org/abs/2112.01529v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/xyzforever/bevt)",
+      "n": "BEVT (IN-1K + Kinetics400 pretrain)",
+      "d": "2021-12-02",
+      "m1": "71.4",
+      "m2": "-",
+      "m3": "89",
+      "m4": "321x3"
+    },
+    {
+      "p": "[UniFormer: Unified Transformer for Efficient Spatial-Temporal Representation Learning](https://openreview.net/forum?id=nBU_u6DLvoK)",
+      "c": "[&check;&nbsp;Link](https://github.com/towhee-io/towhee)",
+      "n": "UniFormer-B (IN-1K + Kinetics400 pretrain)",
+      "d": "2021-09-29",
+      "m1": "71.2",
+      "m2": "92.8",
+      "m3": "50.1",
+      "m4": "259x3"
+    },
+    {
+      "p": "[Temporally-Adaptive Models for Efficient Video Understanding](https://arxiv.org/abs/2308.05787v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/alibaba-mmai-research/TAdaConv)",
+      "n": "TAdaConvNeXtV2-B",
+      "d": "2023-08-10",
+      "m1": "71.1"
+    },
+    {
+      "p": "[MAR: Masked Autoencoders for Efficient Action Recognition](https://arxiv.org/abs/2207.11660v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/alibaba-mmai-research/masked-action-recognition)",
+      "n": "MAR (50% mask, ViT-B, 16x4)",
+      "d": "2022-07-24",
+      "m1": "71.0",
+      "m2": "92.8",
+      "m3": "94",
+      "m4": "86x6"
+    },
+    {
+      "p": "[Masked Video Distillation: Rethinking Masked Feature Modeling for Self-supervised Video Representation Learning](https://arxiv.org/abs/2212.04500v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ruiwang2021/mvd)",
+      "n": "MVD (Kinetics400 pretrain, ViT-S, 16 frame)",
+      "d": "2022-12-08",
+      "m1": "70.9",
+      "m2": "92.8",
+      "m3": "22",
+      "m4": "57x6"
+    },
+    {
+      "p": "[Co-training Transformer with Videos and Images Improves Action Recognition](https://arxiv.org/abs/2112.07175v1)",
+      "c": "",
+      "n": "CoVeR(JFT-3B)",
+      "d": "2021-12-14",
+      "m1": "70.9",
+      "m2": "92.5"
+    },
+    {
+      "p": "[VideoMAE: Masked Autoencoders are Data-Efficient Learners for Self-Supervised Video Pre-Training](https://arxiv.org/abs/2203.12602v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "VideoMAE (no extra data, ViT-B, 16frame)",
+      "d": "2022-03-23",
+      "m1": "70.8",
+      "m2": "92.4",
+      "m3": "87",
+      "m4": "180x6"
+    },
+    {
+      "p": "[Asymmetric Masked Distillation for Pre-Training Small Foundation Models](https://arxiv.org/abs/2311.03149v2)",
+      "c": "",
+      "n": "AMD(ViT-S/16)",
+      "d": "2023-11-06",
+      "m1": "70.2",
+      "m2": "92.5",
+      "m3": "22",
+      "m4": "57x6"
+    },
+    {
+      "p": "[Implicit Temporal Modeling with Learnable Alignment for Video Recognition](https://arxiv.org/abs/2304.10465v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/francis-rings/ila)",
+      "n": "ILA (ViT-L/14)",
+      "d": "2023-04-20",
+      "m1": "70.2",
+      "m2": "91.8"
+    },
+    {
+      "p": "[MorphMLP: An Efficient MLP-Like Backbone for Spatial-Temporal Representation Learning](https://arxiv.org/abs/2111.12527v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/liuruiyang98/Jittor-MLP)",
+      "n": "MorphMLP-B (IN-1K)",
+      "d": "2021-11-24",
+      "m1": "70.1",
+      "m2": "92.8",
+      "m3": "68.5",
+      "m4": "197x3"
+    },
+    {
+      "p": "[Co-training Transformer with Videos and Images Improves Action Recognition](https://arxiv.org/abs/2112.07175v1)",
+      "c": "",
+      "n": "CoVeR(JFT-300M)",
+      "d": "2021-12-14",
+      "m1": "69.8",
+      "m2": "91.9"
+    },
+    {
+      "p": "[Spatiotemporal Self-attention Modeling with Temporal Patch Shift for Action Recognition](https://arxiv.org/abs/2207.13259v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/martinxm/tps)",
+      "n": "TPS",
+      "d": "2022-07-27",
+      "m1": "69.8"
+    },
+    {
+      "p": "[Stand-Alone Inter-Frame Attention in Video Models](https://arxiv.org/abs/2206.06931v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/fuchenustc/sifa)",
+      "n": "SIFA",
+      "d": "2022-06-14",
+      "m1": "69.8"
+    },
+    {
+      "p": "[Video Swin Transformer](https://arxiv.org/abs/2106.13230v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmaction2)",
+      "n": "Swin-B (IN-21K + Kinetics400 pretrain)",
+      "d": "2021-06-24",
+      "m1": "69.6",
+      "m2": "92.7",
+      "m3": "89",
+      "m4": "321x3"
+    },
+    {
+      "p": "[TDN: Temporal Difference Networks for Efficient Action Recognition](https://arxiv.org/abs/2012.10071v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/MCG-NJU/TDN)",
+      "n": "TDN ResNet101 (one clip, three crop, 8+16 ensemble, ImageNet pretrained, RGB only)",
+      "d": "2020-12-18",
+      "m1": "69.6",
+      "m2": "92.2",
+      "m4": "198x3"
+    },
+    {
+      "p": "[MAR: Masked Autoencoders for Efficient Action Recognition](https://arxiv.org/abs/2207.11660v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/alibaba-mmai-research/masked-action-recognition)",
+      "n": "MAR (75% mask, ViT-B, 16x4)",
+      "d": "2022-07-24",
+      "m1": "69.5",
+      "m2": "91.9",
+      "m3": "94",
+      "m4": "41x6"
+    },
+    {
+      "p": "[Object-Region Video Transformers](https://arxiv.org/abs/2110.06915v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/eladb3/orvit)",
+      "n": "ORViT Mformer-L (ORViT blocks)",
+      "d": "2021-10-13",
+      "m1": "69.5",
+      "m2": "91.5",
+      "m3": "N/A",
+      "m4": "N/A"
+    },
+    {
+      "p": "[UniFormer: Unified Transformer for Efficient Spatial-Temporal Representation Learning](https://openreview.net/forum?id=nBU_u6DLvoK)",
+      "c": "[&check;&nbsp;Link](https://github.com/towhee-io/towhee)",
+      "n": "UniFormer-S (IN-1K + Kinetics600 pretrain)",
+      "d": "2021-09-29",
+      "m1": "69.4",
+      "m2": "92.1",
+      "m3": "21.4",
+      "m4": "41.8x3"
+    },
+    {
+      "p": "[Mutual Modality Learning for Video Action Classification](https://arxiv.org/abs/2011.02543v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/papermsucode/mutual-modality-learning)",
+      "n": "MML (ensemble)",
+      "d": "2020-11-04",
+      "m1": "69.02",
+      "m2": "92.70"
+    },
+    {
+      "p": "[Multiscale Vision Transformers](https://arxiv.org/abs/2104.11227v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/SlowFast)",
+      "n": "MViT-B-24, 32x3",
+      "d": "2021-04-22",
+      "m1": "68.7",
+      "m2": "91.5",
+      "m3": "53.2M",
+      "m4": "236x3"
+    },
+    {
+      "p": "[Multiview Transformers for Video Recognition](https://arxiv.org/abs/2201.04288v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/scenic)",
+      "n": "MTV-B",
+      "d": "2022-01-12",
+      "m1": "68.5",
+      "m2": "90.4"
+    },
+    {
+      "p": "[MLP-3D: A MLP-like 3D Architecture with Grouped Time Mixing](https://arxiv.org/abs/2206.06292v1)",
+      "c": "",
+      "n": "MLP-3D",
+      "d": "2022-06-13",
+      "m1": "68.5"
+    },
+    {
+      "p": "[TDN: Temporal Difference Networks for Efficient Action Recognition](https://arxiv.org/abs/2012.10071v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/MCG-NJU/TDN)",
+      "n": "TDN ResNet101 (one clip, center crop, 8+16 ensemble, ImageNet pretrained, RGB only)",
+      "d": "2020-12-18",
+      "m1": "68.2",
+      "m2": "91.6",
+      "m4": "198x1"
+    },
+    {
+      "p": "[Multi-scale Motion-Aware Module for Video Action Recognition](https://link.springer.com/chapter/10.1007/978-3-031-25075-0_40)",
+      "c": "",
+      "n": "MSMA (8+16frames)",
+      "d": "2023-02-19",
+      "m1": "68.2"
+    },
+    {
+      "p": "[Keeping Your Eye on the Ball: Trajectory Attention in Video Transformers](https://arxiv.org/abs/2106.05392v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/xformers)",
+      "n": "Mformer-L",
+      "d": "2021-06-09",
+      "m1": "68.1",
+      "m2": "91.2",
+      "m3": "N/A",
+      "m4": "1181x3"
+    },
+    {
+      "p": "[VIMPAC: Video Pre-Training via Masked Token Prediction and Contrastive Learning](https://arxiv.org/abs/2106.11250v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/airsplay/vimpac)",
+      "n": "VIMPAC",
+      "d": "2021-06-21",
+      "m1": "68.1"
+    },
+    {
+      "p": "[Object-Region Video Transformers](https://arxiv.org/abs/2110.06915v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/eladb3/orvit)",
+      "n": "ORViT Mformer (ORViT blocks)",
+      "d": "2021-10-13",
+      "m1": "67.9",
+      "m2": "90.5",
+      "m3": "N/A",
+      "m4": "N/A"
+    },
+    {
+      "p": "[Multiscale Vision Transformers](https://arxiv.org/abs/2104.11227v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/SlowFast)",
+      "n": "MViT-B, 32x3(Kinetics600 pretrain)",
+      "d": "2021-04-22",
+      "m1": "67.8",
+      "m2": "91.3",
+      "m3": "36.6",
+      "m4": "170x3"
+    },
+    {
+      "p": "[Group Contextualization for Video Recognition](https://arxiv.org/abs/2203.09694v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/haoyanbin918/group-contextualization)",
+      "n": "GC-TDN Ensemble (R50,8+16)",
+      "d": "2022-03-18",
+      "m1": "67.8",
+      "m2": "91.2",
+      "m3": "27.4",
+      "m4": "110.1"
+    },
+    {
+      "p": "[CT-Net: Channel Tensorization Network for Video Classification](https://arxiv.org/abs/2106.01603v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Andy1621/CT-Net)",
+      "n": "CT-Net Ensemble (R50, 8+12+16+24)",
+      "d": "2021-06-03",
+      "m1": "67.8",
+      "m2": "91.1",
+      "m3": "83.8",
+      "m4": "280"
+    },
+    {
+      "p": "[Motion-driven Visual Tempo Learning for Video-based Action Recognition](https://arxiv.org/abs/2202.12116v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/yzfly/tcm)",
+      "n": "TCM (Ensemble)",
+      "d": "2022-02-24",
+      "m1": "67.8"
+    },
+    {
+      "p": "[Learning Self-Similarity in Space and Time as Generalized Motion for Video Action Recognition](https://arxiv.org/abs/2102.07092v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/arunos728/SELFY)",
+      "n": "SELFYNet-TSM-R50En (8+16 frames, ImageNet pretrained, 2 clips)",
+      "d": "2021-02-14",
+      "m1": "67.7",
+      "m2": "91.1"
+    },
+    {
+      "p": "[Relational Self-Attention: What's Missing in Attention for Video Understanding](https://arxiv.org/abs/2111.01673v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/KimManjin/RSA)",
+      "n": "RSANet-R50 (8+16 frames, ImageNet pretrained, 2 clips",
+      "d": "2021-11-02",
+      "m1": "67.7",
+      "m2": "91.1"
+    },
+    {
+      "p": "[Global Temporal Difference Network for Action Recognition](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9961904)",
+      "c": "",
+      "n": "GTDNet",
+      "d": "2022-11-23",
+      "m1": "67.6"
+    },
+    {
+      "p": "[Learning Self-Similarity in Space and Time as Generalized Motion for Video Action Recognition](https://arxiv.org/abs/2102.07092v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/arunos728/SELFY)",
+      "n": "SELFYNet-TSM-R50En (8+16 frames, ImageNet pretrained, a single clip)",
+      "d": "2021-02-14",
+      "m1": "67.4",
+      "m2": "91"
+    },
+    {
+      "p": "[Diverse Temporal Aggregation and Depthwise Spatiotemporal Factorization for Efficient Video Classification](https://arxiv.org/abs/2012.00317v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/youngwanLEE/VoV3D)",
+      "n": "VoV3D-L (32frames, Kinetics pretrained, single)",
+      "d": "2020-12-01",
+      "m1": "67.35",
+      "m2": "90.50",
+      "m3": "5.8M",
+      "m4": "20.9x6"
+    },
+    {
+      "p": "[SCP: Soft Conditional Prompt Learning for Aerial Video Action Recognition](https://arxiv.org/abs/2305.12437v4)",
+      "c": "",
+      "n": "PLAR",
+      "d": "2023-05-21",
+      "m1": "67.3",
+      "m2": "91"
+    },
+    {
+      "p": "[Relational Self-Attention: What's Missing in Attention for Video Understanding](https://arxiv.org/abs/2111.01673v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/KimManjin/RSA)",
+      "n": "RSANet-R50 (8+16 frames, ImageNet pretrained, a single clip)",
+      "d": "2021-11-02",
+      "m1": "67.3",
+      "m2": "90.8"
+    },
+    {
+      "p": "[Space-time Mixing Attention for Video Transformer](https://arxiv.org/abs/2106.05968v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/1adrianb/video-transformers)",
+      "n": "X-Vit (x16)",
+      "d": "2021-06-10",
+      "m1": "67.2",
+      "m2": "90.8",
+      "m3": "N/A",
+      "m4": "850x1"
+    },
+    {
+      "p": "[TAda! Temporally-Adaptive Convolutions for Video Understanding](https://arxiv.org/abs/2110.06178v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/alibaba-mmai-research/TAdaConv)",
+      "n": "TAda2D-En (ResNet-50, 8+16 frames)",
+      "d": "2021-10-12",
+      "m1": "67.2",
+      "m2": "89.8"
+    },
+    {
+      "p": "[Keeping Your Eye on the Ball: Trajectory Attention in Video Transformers](https://arxiv.org/abs/2106.05392v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/xformers)",
+      "n": "Mformer-HR",
+      "d": "2021-06-09",
+      "m1": "67.1",
+      "m2": "90.6",
+      "m3": "N/A",
+      "m4": "958.8x3"
+    },
+    {
+      "p": "[TAda! Temporally-Adaptive Convolutions for Video Understanding](https://arxiv.org/abs/2110.06178v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/alibaba-mmai-research/TAdaConv)",
+      "n": "TAdaConvNeXt-T",
+      "d": "2021-10-12",
+      "m1": "67.1",
+      "m2": "90.4"
+    },
+    {
+      "p": "[Action Recognition With Motion Diversification and Dynamic Selection](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9831068)",
+      "c": "",
+      "n": "MoDS (8+16frames)",
+      "d": "2022-07-15",
+      "m1": "67.1"
+    },
+    {
+      "p": "[Spatial-Temporal Pyramid Graph Reasoning for Action Recognition](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9852978)",
+      "c": "",
+      "n": "STPG (8+16frames)",
+      "d": "2022-08-09",
+      "m1": "67.0"
+    },
+    {
+      "p": "[Mutual Modality Learning for Video Action Classification](https://arxiv.org/abs/2011.02543v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/papermsucode/mutual-modality-learning)",
+      "n": "MML (single)",
+      "d": "2020-11-04",
+      "m1": "66.83",
+      "m2": "91.30"
+    },
+    {
+      "p": "[Implicit Temporal Modeling with Learnable Alignment for Video Recognition](https://arxiv.org/abs/2304.10465v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/francis-rings/ila)",
+      "n": "ILA (ViT-B/16)",
+      "d": "2023-04-20",
+      "m1": "66.8",
+      "m2": "90.3"
+    },
+    {
+      "p": "[TSM: Temporal Shift Module for Efficient Video Understanding](https://arxiv.org/abs/1811.08383v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmaction2)",
+      "n": "TSM (RGB + Flow)",
+      "d": "2018-11-20",
+      "m1": "66.6",
+      "m2": "91.3"
+    },
+    {
+      "p": "[MotionSqueeze: Neural Motion Feature Learning for Video Understanding](https://arxiv.org/abs/2007.09933v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/arunos728/MotionSqueeze)",
+      "n": "MSNet-R50En (8+16 ensemble, ImageNet pretrained)",
+      "d": "2020-07-20",
+      "m1": "66.6",
+      "m2": "90.6"
+    },
+    {
+      "p": "[PAN: Towards Fast Action Recognition via Learning Persistence of Appearance](https://arxiv.org/abs/2008.03462v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhang-can/PAN-PyTorch)",
+      "n": "PAN ResNet101 (RGB only, no Flow)",
+      "d": "2020-08-08",
+      "m1": "66.5",
+      "m2": "90.6"
+    },
+    {
+      "p": "[Knowing What, Where and When to Look: Efficient Video Action Modeling with Attention](https://arxiv.org/abs/2004.01278v1)",
+      "c": "",
+      "n": "TSM+W3 (16 frames, RGB ResNet-50)",
+      "d": "2020-04-02",
+      "m1": "66.5",
+      "m2": "90.4"
+    },
+    {
+      "p": "[Keeping Your Eye on the Ball: Trajectory Attention in Video Transformers](https://arxiv.org/abs/2106.05392v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/xformers)",
+      "n": "Mformer",
+      "d": "2021-06-09",
+      "m1": "66.5",
+      "m2": "90.1"
+    },
+    {
+      "p": "[MVFNet: Multi-View Fusion Network for Efficient Video Recognition](https://arxiv.org/abs/2012.06977v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/whwu95/MVFNet)",
+      "n": "MVFNet-ResNet50 (center crop, 8+16 ensemble, ImageNet pretrained, RGB only)",
+      "d": "2020-12-13",
+      "m1": "66.3"
+    },
+    {
+      "p": "[Multiscale Vision Transformers](https://arxiv.org/abs/2104.11227v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/SlowFast)",
+      "n": "MViT-B, 16x4",
+      "d": "2021-04-22",
+      "m1": "66.2",
+      "m2": "90.2"
+    },
+    {
+      "p": "[Relational Self-Attention: What's Missing in Attention for Video Understanding](https://arxiv.org/abs/2111.01673v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/KimManjin/RSA)",
+      "n": "RSANet-R50 (16 frames, ImageNet pretrained, a single clip)",
+      "d": "2021-11-02",
+      "m1": "66",
+      "m2": "89.8"
+    },
+    {
+      "p": "[Diverse Temporal Aggregation and Depthwise Spatiotemporal Factorization for Efficient Video Classification](https://arxiv.org/abs/2012.00317v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/youngwanLEE/VoV3D)",
+      "n": "VoV3D-L (32frames, from scratch, single)",
+      "d": "2020-12-01",
+      "m1": "65.8",
+      "m2": "89.5",
+      "m3": "5.8M",
+      "m4": "20.9x6"
+    },
+    {
+      "p": "[Maximizing Spatio-Temporal Entropy of Deep 3D CNNs for Efficient Video Recognition](https://arxiv.org/abs/2303.02693v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/alibaba/lightweight-neural-architecture-search)",
+      "n": "E3D-L",
+      "d": "2023-03-05",
+      "m1": "65.7",
+      "m2": "89.8",
+      "m4": "18.3"
+    },
+    {
+      "p": "[Learning Self-Similarity in Space and Time as Generalized Motion for Video Action Recognition](https://arxiv.org/abs/2102.07092v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/arunos728/SELFY)",
+      "n": "SELFYNet-TSM-R50 (16 frames, ImageNet pretrained)",
+      "d": "2021-02-14",
+      "m1": "65.7",
+      "m2": "89.8"
+    },
+    {
+      "p": "[TAda! Temporally-Adaptive Convolutions for Video Understanding](https://arxiv.org/abs/2110.06178v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/alibaba-mmai-research/TAdaConv)",
+      "n": "TAda2D (ResNet-50, 16 frames)",
+      "d": "2021-10-12",
+      "m1": "65.6",
+      "m2": "89.2"
+    },
+    {
+      "p": "[ViViT: A Video Vision Transformer](https://arxiv.org/abs/2103.15691v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/scenic)",
+      "n": "ViViT-L/16x2 Fact. encoder",
+      "d": "2021-03-29",
+      "m1": "65.4",
+      "m2": "89.8"
+    },
+    {
+      "p": "[Diverse Temporal Aggregation and Depthwise Spatiotemporal Factorization for Efficient Video Classification](https://arxiv.org/abs/2012.00317v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/youngwanLEE/VoV3D)",
+      "n": "VoV3D-M (32frames, Kinetics pretrained, single)",
+      "d": "2020-12-01",
+      "m1": "65.24",
+      "m2": "89.48",
+      "m3": "3.3M",
+      "m4": "11.5x6"
+    },
+    {
+      "p": "[More Is Less: Learning Efficient Video Representations by Big-Little Network and Depthwise Temporal Aggregation](https://arxiv.org/abs/1912.00869v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/IBM/bLVNet-TAM)",
+      "n": "bLVNet",
+      "d": "2019-12-02",
+      "m1": "65.2"
+    },
+    {
+      "p": "[DirecFormer: A Directed Attention in Transformer Approach to Robust Action Recognition](https://arxiv.org/abs/2203.10233v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/uark-cviu/direcformer)",
+      "n": "DirecFormer",
+      "d": "2022-03-19",
+      "m1": "64.94",
+      "m2": "87.9"
+    },
+    {
+      "p": "[Relational Self-Attention: What's Missing in Attention for Video Understanding](https://arxiv.org/abs/2111.01673v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/KimManjin/RSA)",
+      "n": "RSANet-R50 (8 frames, ImageNet pretrained, a single clip)",
+      "d": "2021-11-02",
+      "m1": "64.8",
+      "m2": "89.1"
+    },
+    {
+      "p": "[MotionSqueeze: Neural Motion Feature Learning for Video Understanding](https://arxiv.org/abs/2007.09933v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/arunos728/MotionSqueeze)",
+      "n": "MSNet-R50 (16 frames, ImageNet pretrained)",
+      "d": "2020-07-20",
+      "m1": "64.7",
+      "m2": "89.4"
+    },
+    {
+      "p": "[Action Keypoint Network for Efficient Video Recognition](https://arxiv.org/abs/2201.06304v1)",
+      "c": "",
+      "n": "AK-Net",
+      "d": "2022-01-17",
+      "m1": "64.3"
+    },
+    {
+      "p": "[Diverse Temporal Aggregation and Depthwise Spatiotemporal Factorization for Efficient Video Classification](https://arxiv.org/abs/2012.00317v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/youngwanLEE/VoV3D)",
+      "n": "VoV3D-M (32frames, from scratch, single)",
+      "d": "2020-12-01",
+      "m1": "64.2",
+      "m2": "88.8",
+      "m3": "3.3M",
+      "m4": "11.5x6"
+    },
+    {
+      "p": "[Diverse Temporal Aggregation and Depthwise Spatiotemporal Factorization for Efficient Video Classification](https://arxiv.org/abs/2012.00317v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/youngwanLEE/VoV3D)",
+      "n": "VoV3D-L (16frames, from scratch, single)",
+      "d": "2020-12-01",
+      "m1": "64.1",
+      "m2": "88.6",
+      "m3": "5.8M",
+      "m4": "9.3x6"
+    },
+    {
+      "p": "[TAda! Temporally-Adaptive Convolutions for Video Understanding](https://arxiv.org/abs/2110.06178v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/alibaba-mmai-research/TAdaConv)",
+      "n": "TAda2D (ResNet-50, 8 frames)",
+      "d": "2021-10-12",
+      "m1": "64.0",
+      "m2": "88.0"
+    },
+    {
+      "p": "[MoViNets: Mobile Video Networks for Efficient Video Recognition](https://arxiv.org/abs/2103.11511v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+      "n": "MoViNet-A2",
+      "d": "2021-03-21",
+      "m1": "63.5",
+      "m2": "89.0",
+      "m3": "4.8M",
+      "m4": "10.3x1"
+    },
+    {
+      "p": "[Diverse Temporal Aggregation and Depthwise Spatiotemporal Factorization for Efficient Video Classification](https://arxiv.org/abs/2012.00317v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/youngwanLEE/VoV3D)",
+      "n": "VoV3D-M (16frames, from scratch, single)",
+      "d": "2020-12-01",
+      "m1": "63.2",
+      "m2": "88.2",
+      "m3": "3.3M",
+      "m4": "5.7x6"
+    },
+    {
+      "p": "[MotionSqueeze: Neural Motion Feature Learning for Video Understanding](https://arxiv.org/abs/2007.09933v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/arunos728/MotionSqueeze)",
+      "n": "MSNet-R50 (8 frames, ImageNet pretrained)",
+      "d": "2020-07-20",
+      "m1": "63",
+      "m2": "88.4"
+    },
+    {
+      "p": "[MoViNets: Mobile Video Networks for Efficient Video Recognition](https://arxiv.org/abs/2103.11511v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+      "n": "MoViNet-A1",
+      "d": "2021-03-21",
+      "m1": "62.7",
+      "m2": "89.0",
+      "m3": "4.6M",
+      "m4": "6.0x1"
+    },
+    {
+      "p": "[OmniVL:One Foundation Model for Image-Language and Video-Language Tasks](https://arxiv.org/abs/2209.07526v2)",
+      "c": "",
+      "n": "OmniVL",
+      "d": "2022-09-15",
+      "m1": "62.5",
+      "m2": "86.2"
+    },
+    {
+      "p": "[Is Space-Time Attention All You Need for Video Understanding?](https://arxiv.org/abs/2102.05095v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmaction2)",
+      "n": "TimeSformer-HR",
+      "d": "2021-02-09",
+      "m1": "62.5"
+    },
+    {
+      "p": "[Is Space-Time Attention All You Need for Video Understanding?](https://arxiv.org/abs/2102.05095v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmaction2)",
+      "n": "TimeSformer-L",
+      "d": "2021-02-09",
+      "m1": "62.3"
+    },
+    {
+      "p": "[Temporal Reasoning Graph for Activity Recognition](https://arxiv.org/abs/1908.09995v1)",
+      "c": "",
+      "n": "TRG (ResNet-50)",
+      "d": "2019-08-27",
+      "m1": "62.2",
+      "m2": "90.3"
+    },
+    {
+      "p": "[Temporal Pyramid Network for Action Recognition](https://arxiv.org/abs/2004.03548v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmaction2)",
+      "n": "TPN (TSM-50)",
+      "d": "2020-04-07",
+      "m1": "62.0"
+    },
+    {
+      "p": "[A Multigrid Method for Efficiently Training Video Models](https://arxiv.org/abs/1912.00998v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/SlowFast)",
+      "n": "Multigrid",
+      "d": "2019-12-02",
+      "m1": "61.7"
+    },
+    {
+      "p": "[SlowFast Networks for Video Recognition](https://arxiv.org/abs/1812.03982v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/SlowFast)",
+      "n": "SlowFast",
+      "d": "2018-12-10",
+      "m1": "61.7"
+    },
+    {
+      "p": "[Temporal Reasoning Graph for Activity Recognition](https://arxiv.org/abs/1908.09995v1)",
+      "c": "",
+      "n": "TRG (Inception-V3)",
+      "d": "2019-08-27",
+      "m1": "61.3",
+      "m2": "91.4"
+    },
+    {
+      "p": "[MoViNets: Mobile Video Networks for Efficient Video Recognition](https://arxiv.org/abs/2103.11511v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+      "n": "MoViNet-A0",
+      "d": "2021-03-21",
+      "m1": "61.3",
+      "m2": "88.2",
+      "m3": "3.1M",
+      "m4": "2.7x1"
+    },
+    {
+      "p": "[Cooperative Cross-Stream Network for Discriminative Action Representation](https://arxiv.org/abs/1908.10136v1)",
+      "c": "",
+      "n": "CCS + two-stream + TRN",
+      "d": "2019-08-27",
+      "m1": "61.2",
+      "m2": "89.3"
+    },
+    {
+      "p": "[VidTr: Video Transformer Without Convolutions](https://arxiv.org/abs/2104.11746v2)",
+      "c": "",
+      "n": "VidTr-L",
+      "d": "2021-04-23",
+      "m1": "60.2"
+    },
+    {
+      "p": "[Is Space-Time Attention All You Need for Video Understanding?](https://arxiv.org/abs/2102.05095v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmaction2)",
+      "n": "TimeSformer",
+      "d": "2021-02-09",
+      "m1": "59.5"
+    },
+    {
+      "p": "[Self-supervised Video Transformer](https://arxiv.org/abs/2112.01514v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/kahnchana/svt)",
+      "n": "SVT",
+      "d": "2021-12-02",
+      "m1": "59.2"
+    },
+    {
+      "p": "[Few-Shot Video Classification via Temporal Alignment](https://arxiv.org/abs/1906.11415v1)",
+      "c": "",
+      "n": "TAM (5-shot)",
+      "d": "2019-06-27",
+      "m1": "52.3"
+    },
+    {
+      "p": "[The \"something something\" video database for learning and evaluating visual common sense](http://arxiv.org/abs/1706.04261v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jayleicn/singularity)",
+      "n": "model3D_1 with left-right augmentation and fps jitter",
+      "d": "2017-06-13",
+      "m1": "51.33",
+      "m2": "80.46"
+    },
+    {
+      "p": "[Attention Distillation for Learning Video Representations](https://arxiv.org/abs/1904.03249v2)",
+      "c": "",
+      "n": "Prob-Distill",
+      "d": "2019-04-05",
+      "m1": "49.9",
+      "m2": "79.1"
+    },
+    {
+      "p": "[Comparative Analysis of CNN-based Spatiotemporal Reasoning in Videos](https://arxiv.org/abs/1909.05165v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/fubel/stmodeling)",
+      "n": "STM + TRNMultiscale",
+      "d": "2019-09-11",
+      "m1": "47.73"
+    },
+    {
+      "p": "[InternVideo2: Scaling Foundation Models for Multimodal Video Understanding](https://arxiv.org/abs/2403.15377v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internvideo)",
+      "n": "InternVideo2-6B",
+      "d": "2024-03-22",
+      "m1": "1",
+      "m2": "12",
+      "m3": "2131",
+      "m4": "13321"
+    },
+    {
+      "p": "[MViTv2: Improved Multiscale Vision Transformers for Classification and Detection](https://arxiv.org/abs/2112.01526v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "MViTv2-B (IN-21K + Kinetics400 pretrain)",
+      "d": "2021-12-02",
+      "m2": "93.4",
+      "m3": "51.1"
+    },
+    {
+      "p": "[Relational Self-Attention: What's Missing in Attention for Video Understanding](https://arxiv.org/abs/2111.01673v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/KimManjin/RSA)",
+      "n": "RSANet-R50 (8+16 frames, ImageNet pretrained, 2 clips)",
+      "d": "2021-11-02",
+      "m2": "91.1"
+    },
+    {
+      "p": "[MoViNets: Mobile Video Networks for Efficient Video Recognition](https://arxiv.org/abs/2103.11511v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+      "n": "MoViNet-A3",
+      "d": "2021-03-21",
+      "m3": "5.3M",
+      "m4": "23.7x1"
+    },
+    {
+      "p": "[MViTv2: Improved Multiscale Vision Transformers for Classification and Detection](https://arxiv.org/abs/2112.01526v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "MViT-L (IN-21K + Kinetics400 pretrain)",
+      "d": "2021-12-02",
+      "m4": "2828x3"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

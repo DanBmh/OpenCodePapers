@@ -1,0 +1,172 @@
+# instance-segmentation-on-cityscapes-val
+
+[Dataset Link](https://www.cityscapes-dataset.com/dataset-overview/) \
+Task Hierarchy: ['Instance Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mask AP",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "AP50",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "AP",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[The Missing Point in Vision Transformers for Universal Image Segmentation](https://arxiv.org/abs/2505.19795v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/sajjad-sh33/vit-p)",
+      "n": "ViT-P (OneFormer, ConvNeXt-L, single-scale, 512x1024, Mapillary Vistas-pretrained)",
+      "d": "2025-05-26",
+      "m1": "49.0",
+      "m3": "49.0"
+    },
+    {
+      "p": "[OneFormer: One Transformer to Rule Universal Image Segmentation](https://arxiv.org/abs/2211.06220v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "OneFormer (ConvNeXt-L, single-scale, Mapillary-Pretrained)",
+      "d": "2022-11-10",
+      "m1": "48.7"
+    },
+    {
+      "p": "[A Simple Framework for Open-Vocabulary Segmentation and Detection](https://arxiv.org/abs/2303.08131v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/X-Decoder)",
+      "n": "OpenSeeD( SwinL, single-scale)",
+      "d": "2023-03-14",
+      "m1": "48.5"
+    },
+    {
+      "p": "[AutoFocusFormer: Image Segmentation off the Grid](https://arxiv.org/abs/2304.12406v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/apple/ml-autofocusformer)",
+      "n": "AFF-Base (single-scale, point-based Mask2Former)",
+      "d": "2023-04-24",
+      "m1": "46.2",
+      "m2": "74.2"
+    },
+    {
+      "p": "[OneFormer: One Transformer to Rule Universal Image Segmentation](https://arxiv.org/abs/2211.06220v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "OneFormer (DiNAT-L, single-scale)",
+      "d": "2022-11-10",
+      "m1": "45.6"
+    },
+    {
+      "p": "[OneFormer: One Transformer to Rule Universal Image Segmentation](https://arxiv.org/abs/2211.06220v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "OneFormer (Swin-L, single-scale)",
+      "d": "2022-11-10",
+      "m1": "45.6"
+    },
+    {
+      "p": "[Dilated Neighborhood Attention Transformer](https://arxiv.org/abs/2209.15001v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "DiNAT-L (single-scale, Mask2Former)",
+      "d": "2022-09-29",
+      "m1": "45.1",
+      "m2": "72.6"
+    },
+    {
+      "p": "[AutoFocusFormer: Image Segmentation off the Grid](https://arxiv.org/abs/2304.12406v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/apple/ml-autofocusformer)",
+      "n": "AFF-Small (single-scale, point-based Mask2Former)",
+      "d": "2023-04-24",
+      "m1": "44.0",
+      "m2": "72.8"
+    },
+    {
+      "p": "[Masked-attention Mask Transformer for Universal Image Segmentation](https://arxiv.org/abs/2112.01527v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "Mask2Former (Swin-L, single-scale)",
+      "d": "2021-12-02",
+      "m1": "43.7"
+    },
+    {
+      "p": "[Masked-attention Mask Transformer for Universal Image Segmentation](https://arxiv.org/abs/2112.01527v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "Mask2Former (Swin-B)",
+      "d": "2021-12-02",
+      "m1": "42"
+    },
+    {
+      "p": "[Masked-attention Mask Transformer for Universal Image Segmentation](https://arxiv.org/abs/2112.01527v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "Mask2Former (Swin-S)",
+      "d": "2021-12-02",
+      "m1": "41.8"
+    },
+    {
+      "p": "[Recurrent Generic Contour-based Instance Segmentation with Progressive Learning](https://arxiv.org/abs/2301.08898v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/fh2019ustc/polysnake)",
+      "n": "PolySnake",
+      "d": "2023-01-21",
+      "m1": "40.2"
+    },
+    {
+      "p": "[Masked-attention Mask Transformer for Universal Image Segmentation](https://arxiv.org/abs/2112.01527v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "Mask2Former (Swin-T)",
+      "d": "2021-12-02",
+      "m1": "39.7"
+    },
+    {
+      "p": "[Masked-attention Mask Transformer for Universal Image Segmentation](https://arxiv.org/abs/2112.01527v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "Mask2Former (ResNet-101)",
+      "d": "2021-12-02",
+      "m1": "38.5"
+    },
+    {
+      "p": "[Masked-attention Mask Transformer for Universal Image Segmentation](https://arxiv.org/abs/2112.01527v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "Mask2Former (ResNet-50)",
+      "d": "2021-12-02",
+      "m1": "37.4"
+    },
+    {
+      "p": "[Geometry-Aware Instance Segmentation with Disparity Maps](https://arxiv.org/abs/2006.07802v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/choyingw/GAIS-Net)",
+      "n": "GAIS-Net",
+      "d": "2020-06-14",
+      "m1": "37.1"
+    },
+    {
+      "p": "[PointRend: Image Segmentation as Rendering](https://arxiv.org/abs/1912.08193v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/detectron2/tree/master/projects/PointRend)",
+      "n": "PointRend",
+      "d": "2019-12-17",
+      "m1": "35.8"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

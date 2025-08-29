@@ -1,0 +1,88 @@
+# salient-object-detection-on-istd
+
+[Dataset Link](https://github.com/DeepInsight-PCALab/ST-CGAN) \
+Task Hierarchy: ['16k', 'Object Detection', 'RGB Salient Object Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Balanced Error Rate",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Cascaded Partial Decoder for Fast and Accurate Salient Object Detection](http://arxiv.org/abs/1904.08739v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/wuzhe71/CPD)",
+      "n": "CPD",
+      "d": "2019-04-18",
+      "m1": "6.76"
+    },
+    {
+      "p": "[A Bi-Directional Message Passing Model for Salient Object Detection](http://openaccess.thecvf.com/content_cvpr_2018/html/Zhang_A_Bi-Directional_Message_CVPR_2018_paper.html)",
+      "c": "",
+      "n": "BMPM",
+      "d": "2018-06-01",
+      "m1": "7.10"
+    },
+    {
+      "p": "[Stacked Conditional Generative Adversarial Networks for Jointly Learning Shadow Detection and Shadow Removal](http://arxiv.org/abs/1712.02478v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/IsHYuhi/ST-CGAN_Stacked_Conditional_Generative_Adversarial_Networks)",
+      "n": "JDR",
+      "d": "2017-12-07",
+      "m1": "7.35"
+    },
+    {
+      "p": "[Non-Local Deep Features for Salient Object Detection](http://openaccess.thecvf.com/content_cvpr_2017/html/Luo_Non-Local_Deep_Features_CVPR_2017_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhimingluo/NLDF)",
+      "n": "NLDF",
+      "d": "2017-07-01",
+      "m1": "7.50"
+    },
+    {
+      "p": "[Direction-aware Spatial Context Features for Shadow Detection](http://arxiv.org/abs/1712.04142v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/xw-hu/DSC)",
+      "n": "DSC",
+      "d": "2017-12-12",
+      "m1": "8.24"
+    },
+    {
+      "p": "[Shadow Detection With Conditional Generative Adversarial Networks](http://openaccess.thecvf.com/content_iccv_2017/html/Nguyen_Shadow_Detection_With_ICCV_2017_paper.html)",
+      "c": "",
+      "n": "scGAN",
+      "d": "2017-10-01",
+      "m1": "8.98"
+    },
+    {
+      "p": "[Deeply supervised salient object detection with short connections](http://arxiv.org/abs/1611.04849v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/houqb/DSS)",
+      "n": "DSS",
+      "d": "2016-11-15",
+      "m1": "10.48"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

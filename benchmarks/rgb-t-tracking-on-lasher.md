@@ -1,0 +1,356 @@
+# rgb-t-tracking-on-lasher
+
+[Dataset Link](https://github.com/BUGPLEASEOUT/LasHeR) \
+Task Hierarchy: ['Visual Tracking', 'Rgb-T Tracking']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Precision",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Success",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "FlexTrack",
+      "d": null,
+      "m1": "77.3",
+      "m2": "62.0"
+    },
+    {
+      "p": "[SUTrack: Towards Simple and Unified Single Object Tracking](https://arxiv.org/abs/2412.19138v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/chenxin-dlut/sutrack)",
+      "n": "SUTrack-L384",
+      "d": "2024-12-26",
+      "m1": "76.9",
+      "m2": "61.9"
+    },
+    {
+      "p": "[Unified Sequence-to-Sequence Learning for Single- and Multi-Modal Visual Object Tracking](https://arxiv.org/abs/2304.14394v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/chenxin-dlut/seqtrackv2)",
+      "n": "SeqTrackv2-L384",
+      "d": "2023-04-27",
+      "m1": "76.7",
+      "m2": "61.0"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "PromptTrack",
+      "d": null,
+      "m1": "76.2",
+      "m2": "60.7"
+    },
+    {
+      "p": "[Exploiting Multimodal Spatial-temporal Patterns for Video Object Tracking](https://arxiv.org/abs/2412.15691v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nju-pcalab/sttrack)",
+      "n": "STTrack",
+      "d": "2024-12-20",
+      "m1": "76.0",
+      "m2": "60.3"
+    },
+    {
+      "p": "[Breaking Shallow Limits: Task-Driven Pixel Fusion for Gap-free RGBT Tracking](https://arxiv.org/abs/2503.11247v1)",
+      "c": "",
+      "n": "TPF",
+      "d": "2025-03-14",
+      "m1": "75.1",
+      "m2": "59.5"
+    },
+    {
+      "p": "[RGBT Tracking via All-layer Multimodal Interactions with Progressive Fusion Mamba](https://arxiv.org/abs/2408.08827v2)",
+      "c": "",
+      "n": "AINet-B384",
+      "d": "2024-08-16",
+      "m1": "74.2",
+      "m2": "59.1"
+    },
+    {
+      "p": "[Adaptive Perception for Unified Visual Multi-modal Object Tracking](https://arxiv.org/abs/2502.06583v1)",
+      "c": "",
+      "n": "APTrack",
+      "d": "2025-02-10",
+      "m1": "74.1",
+      "m2": "58.9"
+    },
+    {
+      "p": "[Unified Sequence-to-Sequence Learning for Single- and Multi-Modal Visual Object Tracking](https://arxiv.org/abs/2304.14394v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/chenxin-dlut/seqtrackv2)",
+      "n": "SeqTrackv2-L256",
+      "d": "2023-04-27",
+      "m1": "74.1",
+      "m2": "58.8"
+    },
+    {
+      "p": "[Cross Fusion RGB-T Tracking with Bi-directional Adapter](https://arxiv.org/abs/2408.16979v1)",
+      "c": "",
+      "n": "CFBT",
+      "d": "2024-08-30",
+      "m1": "73.2",
+      "m2": "58.4"
+    },
+    {
+      "p": "[Breaking Modality Gap in RGBT Tracking: Coupled Knowledge Distillation](https://arxiv.org/abs/2410.11586v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/multi-modality-tracking/ckd)",
+      "n": "CKD",
+      "d": "2024-10-15",
+      "m1": "73.2",
+      "m2": "58.1"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "MST",
+      "d": null,
+      "m1": "73.0",
+      "m2": "58.8"
+    },
+    {
+      "p": "[MambaVT: Spatio-Temporal Contextual Modeling for robust RGB-T Tracking](https://arxiv.org/abs/2408.07889v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/laisimiao/MambaVT)",
+      "n": "MambaVT-S256",
+      "d": "2024-08-15",
+      "m1": "73.0",
+      "m2": "57.9"
+    },
+    {
+      "p": "[MambaVT: Spatio-Temporal Contextual Modeling for robust RGB-T Tracking](https://arxiv.org/abs/2408.07889v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/laisimiao/MambaVT)",
+      "n": "MambaVT-M256",
+      "d": "2024-08-15",
+      "m1": "72.7",
+      "m2": "57.5"
+    },
+    {
+      "p": "[Revisiting RGBT Tracking Benchmarks from the Perspective of Modality Validity: A New Benchmark, Problem, and Method](https://arxiv.org/abs/2405.00168v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhangyong-tang/moetrack)",
+      "n": "MoETrack",
+      "d": "2024-04-30",
+      "m1": "72.1",
+      "m2": "57.8"
+    },
+    {
+      "p": "[RGB-T Tracking via Multi-Modal Mutual Prompt Learning](https://arxiv.org/abs/2308.16386v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/husteryoung/mplt)",
+      "n": "MPLT",
+      "d": "2023-08-31",
+      "m1": "72.0",
+      "m2": "57.1"
+    },
+    {
+      "p": "[Transformer-based RGB-T Tracking with Channel and Spatial Feature Fusion](https://arxiv.org/abs/2405.03177v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/liyunfenglyf/cstnet)",
+      "n": "CSTNet",
+      "d": "2024-05-06",
+      "m1": "71.5",
+      "m2": "57.2"
+    },
+    {
+      "p": "[Unified Sequence-to-Sequence Learning for Single- and Multi-Modal Visual Object Tracking](https://arxiv.org/abs/2304.14394v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/chenxin-dlut/seqtrackv2)",
+      "n": "SeqTrackv2-B384",
+      "d": "2023-04-27",
+      "m1": "71.5",
+      "m2": "56.2"
+    },
+    {
+      "p": "[From Two-Stream to One-Stream: Efficient RGB-T Tracking via Mutual Prompt Learning and Knowledge Distillation](https://arxiv.org/abs/2403.16834v2)",
+      "c": "",
+      "n": "MMMP",
+      "d": "2024-03-25",
+      "m1": "71.4",
+      "m2": "56.7"
+    },
+    {
+      "p": "[Generative-based Fusion Mechanism for Multi-Modal Tracking](https://arxiv.org/abs/2309.01728v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhangyong-tang/gmmt)",
+      "n": "GMMT",
+      "d": "2023-09-04",
+      "m1": "70.7",
+      "m2": "56.6"
+    },
+    {
+      "p": "[Unified Sequence-to-Sequence Learning for Single- and Multi-Modal Visual Object Tracking](https://arxiv.org/abs/2304.14394v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/chenxin-dlut/seqtrackv2)",
+      "n": "SeqTrackv2-B256",
+      "d": "2023-04-27",
+      "m1": "70.4",
+      "m2": "55.8"
+    },
+    {
+      "p": "[AFter: Attention-based Fusion Router for RGBT Tracking](https://arxiv.org/abs/2405.02717v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/alexadlu/after)",
+      "n": "AFter",
+      "d": "2024-05-04",
+      "m1": "70.3",
+      "m2": "55.1"
+    },
+    {
+      "p": "[Bridging Search Region Interaction With Template for RGB-T Tracking](http://openaccess.thecvf.com//content/CVPR2023/html/Hui_Bridging_Search_Region_Interaction_With_Template_for_RGB-T_Tracking_CVPR_2023_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/ryanhtr/tbsi)",
+      "n": "TBSI",
+      "d": "2023-01-01",
+      "m1": "70.2",
+      "m2": "56.5"
+    },
+    {
+      "p": "[Bi-directional Adapter for Multi-modal Tracking](https://arxiv.org/abs/2312.10611v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/sparktempest/bat)",
+      "n": "BAT",
+      "d": "2023-12-17",
+      "m1": "70.2",
+      "m2": "56.3"
+    },
+    {
+      "p": "[Temporal Adaptive RGBT Tracking with Modality Prompt](https://arxiv.org/abs/2401.01244v1)",
+      "c": "",
+      "n": "TATrack",
+      "d": "2024-01-02",
+      "m1": "70.2",
+      "m2": "56.1"
+    },
+    {
+      "p": "[Cross-modulated Attention Transformer for RGBT Tracking](https://arxiv.org/abs/2408.02222v1)",
+      "c": "",
+      "n": "CAFormer",
+      "d": "2024-08-05",
+      "m1": "70.0",
+      "m2": "55.6"
+    },
+    {
+      "p": "[Transformer RGBT Tracking with Spatio-Temporal Multimodal Tokens](https://arxiv.org/abs/2401.01674v1)",
+      "c": "",
+      "n": "STMT",
+      "d": "2024-01-03",
+      "m1": "67.4",
+      "m2": "53.7"
+    },
+    {
+      "p": "[Middle Fusion and Multi-Stage, Multi-Form Prompts for Robust RGB-T Tracking](https://arxiv.org/abs/2403.18193v2)",
+      "c": "",
+      "n": "M3PT",
+      "d": "2024-03-27",
+      "m1": "67.3",
+      "m2": "54.2"
+    },
+    {
+      "p": "[OneTracker: Unifying Visual Object Tracking with Foundation Models and Efficient Tuning](https://arxiv.org/abs/2403.09634v1)",
+      "c": "",
+      "n": "OneTracker",
+      "d": "2024-03-14",
+      "m1": "67.2",
+      "m2": "53.8"
+    },
+    {
+      "p": "[Single-Model and Any-Modality for Video Object Tracking](https://arxiv.org/abs/2311.15851v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/zongwei97/untrack)",
+      "n": "Un-Track",
+      "d": "2023-11-27",
+      "m1": "66.7",
+      "m2": "53.6"
+    },
+    {
+      "p": "[SDSTrack: Self-Distillation Symmetric Adapter Learning for Multi-Modal Visual Object Tracking](https://arxiv.org/abs/2403.16002v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/hoqolo/sdstrack)",
+      "n": "SDSTrack",
+      "d": "2024-03-24",
+      "m1": "66.5",
+      "m2": "53.1"
+    },
+    {
+      "p": "[Visual Prompt Multi-Modal Tracking](https://arxiv.org/abs/2303.10826v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jiawen-zhu/vipt)",
+      "n": "ViPT",
+      "d": "2023-03-20",
+      "m1": "65.1",
+      "m2": "52.5"
+    },
+    {
+      "p": "[Efficient RGB-T Tracking via Cross-Modality Distillation](http://openaccess.thecvf.com//content/CVPR2023/html/Zhang_Efficient_RGB-T_Tracking_via_Cross-Modality_Distillation_CVPR_2023_paper.html)",
+      "c": "",
+      "n": "CMD",
+      "d": "2023-01-01",
+      "m1": "59.0",
+      "m2": "46.6"
+    },
+    {
+      "p": "[Prompting for Multi-Modal Tracking](https://arxiv.org/abs/2207.14571v2)",
+      "c": "",
+      "n": "ProTrack",
+      "d": "2022-07-29",
+      "m1": "50.9",
+      "m2": "42.1"
+    },
+    {
+      "p": "[Attribute-Based Progressive Fusion Network for RGBT Tracking](https://ojs.aaai.org/index.php/AAAI/article/view/20187)",
+      "c": "[&check;&nbsp;Link](https://github.com/yangmengmeng1997/APFNet)",
+      "n": "APFNet",
+      "d": "2022-01-26",
+      "m1": "50.0",
+      "m2": "36.2"
+    },
+    {
+      "p": "[Duality-Gated Mutual Condition Network for RGBT Tracking](https://arxiv.org/abs/2011.07188v3)",
+      "c": "",
+      "n": "DMCNet",
+      "d": "2020-11-14",
+      "m1": "49.0",
+      "m2": "35.5"
+    },
+    {
+      "p": "[RGBT Tracking via Multi-Adapter Network with Hierarchical Divergence Loss](https://arxiv.org/abs/2011.07189v3)",
+      "c": "",
+      "n": "MANet++",
+      "d": "2020-11-14",
+      "m1": "46.7",
+      "m2": "31.4"
+    },
+    {
+      "p": "[Challenge-Aware RGBT Tracking](https://arxiv.org/abs/2007.13143v1)",
+      "c": "",
+      "n": "CAT",
+      "d": "2020-07-26",
+      "m1": "45.0",
+      "m2": "31.4"
+    },
+    {
+      "p": "[Multi-Modal Fusion for End-to-End RGB-T Tracking](https://arxiv.org/abs/1908.11714v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhanglichao/end2end_rgbt_tracking)",
+      "n": "mfDiMP",
+      "d": "2019-08-30",
+      "m1": "44.7",
+      "m2": "34.3"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

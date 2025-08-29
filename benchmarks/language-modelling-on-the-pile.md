@@ -1,0 +1,317 @@
+# language-modelling-on-the-pile
+
+[Dataset Link](https://pile.eleuther.ai/) \
+Task Hierarchy: ['Language Modelling']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Bits per byte",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Test perplexity",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Efficiently Learning at Test-Time: Active Fine-Tuning of LLMs](https://arxiv.org/abs/2410.08020v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jonhue/activeft)",
+      "n": "Test-Time Fine-Tuning with SIFT + Llama-3.2 (3B)",
+      "d": "2024-10-10",
+      "m1": "0.557"
+    },
+    {
+      "p": "[Efficiently Learning at Test-Time: Active Fine-Tuning of LLMs](https://arxiv.org/abs/2410.08020v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jonhue/activeft)",
+      "n": "Test-Time Fine-Tuning with SIFT + Phi-3 (3.8B)",
+      "d": "2024-10-10",
+      "m1": "0.595"
+    },
+    {
+      "p": "[Efficiently Learning at Test-Time: Active Fine-Tuning of LLMs](https://arxiv.org/abs/2410.08020v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jonhue/activeft)",
+      "n": "Test-Time Fine-Tuning with SIFT + Llama-3.2 (1B)",
+      "d": "2024-10-10",
+      "m1": "0.606"
+    },
+    {
+      "p": "[Efficiently Learning at Test-Time: Active Fine-Tuning of LLMs](https://arxiv.org/abs/2410.08020v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jonhue/activeft)",
+      "n": "Gemma-2 27B",
+      "d": "2024-10-10",
+      "m1": "0.629"
+    },
+    {
+      "p": "[GLM-130B: An Open Bilingual Pre-trained Model](https://arxiv.org/abs/2210.02414v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/thudm/chatglm2-6b)",
+      "n": "GLM-130B",
+      "d": "2022-10-05",
+      "m1": "0.634"
+    },
+    {
+      "p": "[Efficiently Learning at Test-Time: Active Fine-Tuning of LLMs](https://arxiv.org/abs/2410.08020v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jonhue/activeft)",
+      "n": "Llama-3.2 3B",
+      "d": "2024-10-10",
+      "m1": "0.640"
+    },
+    {
+      "p": "[GLM-130B: An Open Bilingual Pre-trained Model](https://arxiv.org/abs/2210.02414v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/thudm/chatglm2-6b)",
+      "n": "Jurassic-1",
+      "d": "2022-10-05",
+      "m1": "0.65"
+    },
+    {
+      "p": "[Efficiently Learning at Test-Time: Active Fine-Tuning of LLMs](https://arxiv.org/abs/2410.08020v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jonhue/activeft)",
+      "n": "Phi-3 14B",
+      "d": "2024-10-10",
+      "m1": "0.651"
+    },
+    {
+      "p": "[Efficiently Learning at Test-Time: Active Fine-Tuning of LLMs](https://arxiv.org/abs/2410.08020v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jonhue/activeft)",
+      "n": "Gemma-2 9B",
+      "d": "2024-10-10",
+      "m1": "0.670"
+    },
+    {
+      "p": "[Efficiently Learning at Test-Time: Active Fine-Tuning of LLMs](https://arxiv.org/abs/2410.08020v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jonhue/activeft)",
+      "n": "Phi-3 7B",
+      "d": "2024-10-10",
+      "m1": "0.678"
+    },
+    {
+      "p": "[Efficiently Learning at Test-Time: Active Fine-Tuning of LLMs](https://arxiv.org/abs/2410.08020v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jonhue/activeft)",
+      "n": "Phi-3 3.8B",
+      "d": "2024-10-10",
+      "m1": "0.679"
+    },
+    {
+      "p": "[Efficiently Learning at Test-Time: Active Fine-Tuning of LLMs](https://arxiv.org/abs/2410.08020v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jonhue/activeft)",
+      "n": "Llama-3.2 1B",
+      "d": "2024-10-10",
+      "m1": "0.697"
+    },
+    {
+      "p": "[The Pile: An 800GB Dataset of Diverse Text for Language Modeling](https://arxiv.org/abs/2101.00027v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/EleutherAI/gpt-neo)",
+      "n": "GPT-3 Davinci 175B (pre-trained)",
+      "d": "2020-12-31",
+      "m1": "0.7177"
+    },
+    {
+      "p": "[Efficiently Learning at Test-Time: Active Fine-Tuning of LLMs](https://arxiv.org/abs/2410.08020v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jonhue/activeft)",
+      "n": "Gemma-2 2B",
+      "d": "2024-10-10",
+      "m1": "0.721"
+    },
+    {
+      "p": "[Efficiently Learning at Test-Time: Active Fine-Tuning of LLMs](https://arxiv.org/abs/2410.08020v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jonhue/activeft)",
+      "n": "Llama-3.2-Instruct 3B",
+      "d": "2024-10-10",
+      "m1": "0.737"
+    },
+    {
+      "p": "[GLM-130B: An Open Bilingual Pre-trained Model](https://arxiv.org/abs/2210.02414v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/thudm/chatglm2-6b)",
+      "n": "GPT-3",
+      "d": "2022-10-05",
+      "m1": "0.742"
+    },
+    {
+      "p": "[Efficiently Learning at Test-Time: Active Fine-Tuning of LLMs](https://arxiv.org/abs/2410.08020v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jonhue/activeft)",
+      "n": "Test-Time Fine-Tuning with SIFT + GPT-2 (774M)",
+      "d": "2024-10-10",
+      "m1": "0.762"
+    },
+    {
+      "p": "[The Pile: An 800GB Dataset of Diverse Text for Language Modeling](https://arxiv.org/abs/2101.00027v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/EleutherAI/gpt-neo)",
+      "n": "GPT-3 Curie 6.7B (pre-trained)",
+      "d": "2020-12-31",
+      "m1": "0.7980"
+    },
+    {
+      "p": "[Efficiently Learning at Test-Time: Active Fine-Tuning of LLMs](https://arxiv.org/abs/2410.08020v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jonhue/activeft)",
+      "n": "Llama-3.2-Instruct 1B",
+      "d": "2024-10-10",
+      "m1": "0.807"
+    },
+    {
+      "p": "[Test-Time Training on Nearest Neighbors for Large Language Models](https://arxiv.org/abs/2305.18466v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/socialfoundations/tttlm)",
+      "n": "GPT-2 Large 774M (test-time training on nearest neighbors)",
+      "d": "2023-05-29",
+      "m1": "0.85"
+    },
+    {
+      "p": "[Efficiently Learning at Test-Time: Active Fine-Tuning of LLMs](https://arxiv.org/abs/2410.08020v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jonhue/activeft)",
+      "n": "Test-Time Fine-Tuning with SIFT + GPT-2 (124M)",
+      "d": "2024-10-10",
+      "m1": "0.862"
+    },
+    {
+      "p": "[The Pile: An 800GB Dataset of Diverse Text for Language Modeling](https://arxiv.org/abs/2101.00027v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/EleutherAI/gpt-neo)",
+      "n": "GPT-3 Babbage 1.3B (pre-trained)",
+      "d": "2020-12-31",
+      "m1": "0.8718"
+    },
+    {
+      "p": "[The Pile: An 800GB Dataset of Diverse Text for Language Modeling](https://arxiv.org/abs/2101.00027v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/EleutherAI/gpt-neo)",
+      "n": "GPT-3 Ada 350M (pre-trained)",
+      "d": "2020-12-31",
+      "m1": "0.9631"
+    },
+    {
+      "p": "[The Pile: An 800GB Dataset of Diverse Text for Language Modeling](https://arxiv.org/abs/2101.00027v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/EleutherAI/gpt-neo)",
+      "n": "GPT-2 XL 1.5B (pre-trained)",
+      "d": "2020-12-31",
+      "m1": "1.0468"
+    },
+    {
+      "p": "[The Pile: An 800GB Dataset of Diverse Text for Language Modeling](https://arxiv.org/abs/2101.00027v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/EleutherAI/gpt-neo)",
+      "n": "GPT-2 Large 774M (pre-trained)",
+      "d": "2020-12-31",
+      "m1": "1.0828"
+    },
+    {
+      "p": "[The Pile: An 800GB Dataset of Diverse Text for Language Modeling](https://arxiv.org/abs/2101.00027v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/EleutherAI/gpt-neo)",
+      "n": "GPT-2 Medium 355M (pre-trained)",
+      "d": "2020-12-31",
+      "m1": "1.0928"
+    },
+    {
+      "p": "[The Pile: An 800GB Dataset of Diverse Text for Language Modeling](https://arxiv.org/abs/2101.00027v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/EleutherAI/gpt-neo)",
+      "n": "GPT-2 Small 124M (pre-trained)",
+      "d": "2020-12-31",
+      "m1": "1.2253"
+    },
+    {
+      "p": "[Need a Small Specialized Language Model? Plan Early!](https://arxiv.org/abs/2402.01093v2)",
+      "c": "",
+      "n": "Larger Transformer 771M (fine-tuned)",
+      "d": "2024-02-02",
+      "m2": "10"
+    },
+    {
+      "p": "[Hungry Hungry Hippos: Towards Language Modeling with State Space Models](https://arxiv.org/abs/2212.14052v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hazyresearch/safari)",
+      "n": "Hybrid H3 125M",
+      "d": "2022-12-28",
+      "m2": "10.2"
+    },
+    {
+      "p": "[Knowledge Unlearning for Mitigating Privacy Risks in Language Models](https://arxiv.org/abs/2210.01504v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/joeljang/knowledge-unlearning)",
+      "n": "GPT-Neo 2.7B",
+      "d": "2022-10-04",
+      "m2": "10.44"
+    },
+    {
+      "p": "[Hungry Hungry Hippos: Towards Language Modeling with State Space Models](https://arxiv.org/abs/2212.14052v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/hazyresearch/safari)",
+      "n": "Transformer 125M",
+      "d": "2022-12-28",
+      "m2": "10.7"
+    },
+    {
+      "p": "[Knowledge Unlearning for Mitigating Privacy Risks in Language Models](https://arxiv.org/abs/2210.01504v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/joeljang/knowledge-unlearning)",
+      "n": "GPT-Neo 1.3B",
+      "d": "2022-10-04",
+      "m2": "11.46"
+    },
+    {
+      "p": "[Need a Small Specialized Language Model? Plan Early!](https://arxiv.org/abs/2402.01093v2)",
+      "c": "",
+      "n": "Smaller Transformer 126M (fine-tuned)",
+      "d": "2024-02-02",
+      "m2": "12"
+    },
+    {
+      "p": "[Knowledge Unlearning for Mitigating Privacy Risks in Language Models](https://arxiv.org/abs/2210.01504v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/joeljang/knowledge-unlearning)",
+      "n": "OPT 2.7B",
+      "d": "2022-10-04",
+      "m2": "17.81"
+    },
+    {
+      "p": "[Knowledge Unlearning for Mitigating Privacy Risks in Language Models](https://arxiv.org/abs/2210.01504v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/joeljang/knowledge-unlearning)",
+      "n": "GPT-Neo 125M",
+      "d": "2022-10-04",
+      "m2": "17.83"
+    },
+    {
+      "p": "[Knowledge Unlearning for Mitigating Privacy Risks in Language Models](https://arxiv.org/abs/2210.01504v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/joeljang/knowledge-unlearning)",
+      "n": "OPT 1.3B",
+      "d": "2022-10-04",
+      "m2": "19.55"
+    },
+    {
+      "p": "[Need a Small Specialized Language Model? Plan Early!](https://arxiv.org/abs/2402.01093v2)",
+      "c": "",
+      "n": "Larger Transformer 771M (pre-trained)",
+      "d": "2024-02-02",
+      "m2": "28.1"
+    },
+    {
+      "p": "[Knowledge Unlearning for Mitigating Privacy Risks in Language Models](https://arxiv.org/abs/2210.01504v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/joeljang/knowledge-unlearning)",
+      "n": "OPT 125M",
+      "d": "2022-10-04",
+      "m2": "32.26"
+    },
+    {
+      "p": "[Need a Small Specialized Language Model? Plan Early!](https://arxiv.org/abs/2402.01093v2)",
+      "c": "",
+      "n": "Smaller Transformer 126M (pre-trained)",
+      "d": "2024-02-02",
+      "m2": "33"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

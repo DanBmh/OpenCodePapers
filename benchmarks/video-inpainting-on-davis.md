@@ -1,0 +1,191 @@
+# video-inpainting-on-davis
+
+[Dataset Link](https://davischallenge.org/) \
+Task Hierarchy: ['Video Inpainting']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "SSIM",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "VFID",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Ewarp",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "LPIPS (object)",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "LPIPS (square)",
+      "sortable": "true"
+    },
+    {
+      "key": "m7",
+      "label": "PNSR (object)",
+      "sortable": "true"
+    },
+    {
+      "key": "m8",
+      "label": "SSIM (object)",
+      "sortable": "true"
+    },
+    {
+      "key": "m9",
+      "label": "SSIM (square)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Deficiency-Aware Masked Transformer for Video Inpainting](https://arxiv.org/abs/2307.08629v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yeates/dmt)",
+      "n": "DMT",
+      "d": "2023-07-17",
+      "m1": "33.82",
+      "m2": "0.976",
+      "m3": "0.104",
+      "m4": "-"
+    },
+    {
+      "p": "[Towards An End-to-End Framework for Flow-Guided Video Inpainting](https://arxiv.org/abs/2204.02663v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/MCG-NKU/E2FGVI)",
+      "n": "E2FGVI",
+      "d": "2022-04-06",
+      "m1": "33.01",
+      "m2": "0.9721",
+      "m3": "0.116",
+      "m4": "0.1315"
+    },
+    {
+      "p": "[FuseFormer: Fusing Fine-Grained Information in Transformers for Video Inpainting](https://arxiv.org/abs/2109.02974v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ruiliu-ai/fuseformer)",
+      "n": "FuseFormer",
+      "d": "2021-09-07",
+      "m1": "32.54",
+      "m2": "0.9700",
+      "m3": "0.138",
+      "m4": "0.1362"
+    },
+    {
+      "p": "[Flow-edge Guided Video Completion](https://arxiv.org/abs/2009.01835v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/vt-vl-lab/FGVC)",
+      "n": "FGVC",
+      "d": "2020-09-03",
+      "m1": "30.80",
+      "m2": "0.9497",
+      "m3": "0.165",
+      "m4": "0.1586"
+    },
+    {
+      "p": "[Learning Joint Spatial-Temporal Transformations for Video Inpainting](https://arxiv.org/abs/2007.10247v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/researchmm/STTN)",
+      "n": "STTN",
+      "d": "2020-07-20",
+      "m1": "30.67",
+      "m2": "0.9560",
+      "m3": "0.149",
+      "m4": "0.1449"
+    },
+    {
+      "p": "[Copy-and-Paste Networks for Deep Video Inpainting](https://arxiv.org/abs/1908.11587v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/shleecs/Copy-and-Paste-Networks-for-Deep-Video-Inpainting)",
+      "n": "CAP",
+      "d": "2019-08-30",
+      "m1": "30.28",
+      "m2": "0.9521",
+      "m3": "0.182",
+      "m4": "0.1533"
+    },
+    {
+      "p": "[Deep Video Inpainting](https://arxiv.org/abs/1905.01639v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/mcahny/Deep-Video-Inpainting)",
+      "n": "VINet",
+      "d": "2019-05-05",
+      "m1": "28.96",
+      "m2": "0.9411",
+      "m3": "0.199",
+      "m4": "0.1785"
+    },
+    {
+      "p": "[Deep Flow-Guided Video Inpainting](https://arxiv.org/abs/1905.02884v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nbei/Deep-Flow-Guided-Video-Inpainting)",
+      "n": "DFVI",
+      "d": "2019-05-08",
+      "m1": "28.81",
+      "m2": "0.9404",
+      "m3": "0.187",
+      "m4": "0.1608"
+    },
+    {
+      "p": "[Learnable Gated Temporal Shift Module for Deep Video Inpainting](https://arxiv.org/abs/1907.01131v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/amjltc295/Free-Form-Video-Inpainting)",
+      "n": "LGTSM",
+      "d": "2019-07-02",
+      "m1": "28.57",
+      "m2": "0.9409",
+      "m3": "0.170",
+      "m4": "0.1640"
+    },
+    {
+      "p": "[Exploiting Optical Flow Guidance for Transformer-Based Video Inpainting](https://arxiv.org/abs/2301.10048v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/hitachinsk/fgt)",
+      "n": "FGT++",
+      "d": "2023-01-24",
+      "m5": "0.035",
+      "m6": "0.028",
+      "m7": "35.61",
+      "m8": "0.961",
+      "m9": "0.971"
+    },
+    {
+      "p": "[Exploiting Optical Flow Guidance for Transformer-Based Video Inpainting](https://arxiv.org/abs/2301.10048v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/hitachinsk/fgt)",
+      "n": "FGT++*",
+      "d": "2023-01-24",
+      "m5": "0.027",
+      "m6": "0.022",
+      "m7": "35.9",
+      "m8": "96.8",
+      "m9": "97.6"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

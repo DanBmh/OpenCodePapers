@@ -1,0 +1,165 @@
+# pose-estimation-on-leeds-sports-poses
+
+[Dataset Link](https://dbcollection.readthedocs.io/en/latest/datasets/leeds_sports_pose_extended.html) \
+Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PCK",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[OmniPose: A Multi-Scale Framework for Multi-Person Pose Estimation](https://arxiv.org/abs/2103.10180v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/bmartacho/OmniPose)",
+      "n": "OmniPose",
+      "d": "2021-03-18",
+      "m1": "99.5%"
+    },
+    {
+      "p": "[Toward fast and accurate human pose estimation via soft-gated skip connections](https://arxiv.org/abs/2002.11098v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/BB-Repos/BBpose)",
+      "n": "Soft-gated Skip Connections",
+      "d": "2020-02-25",
+      "m1": "94.8%"
+    },
+    {
+      "p": "[UniPose: Unified Human Pose Estimation in Single Images and Videos](https://arxiv.org/abs/2001.08095v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/bmartacho/UniPose)",
+      "n": "UniPose",
+      "d": "2020-01-22",
+      "m1": "94.5%"
+    },
+    {
+      "p": "[Jointly Optimize Data Augmentation and Network Training: Adversarial Data Augmentation in Human Pose Estimation](http://arxiv.org/abs/1805.09707v1)",
+      "c": "",
+      "n": "Residual Hourglass + ASR + AHO",
+      "d": "2018-05-24",
+      "m1": "94.5%"
+    },
+    {
+      "p": "[Self Adversarial Training for Human Pose Estimation](http://arxiv.org/abs/1707.02439v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dongzhuoyao/jessiechouuu-adversarial-pose)",
+      "n": "Chou et al. arXiv'17",
+      "d": "2017-07-08",
+      "m1": "94%"
+    },
+    {
+      "p": "[Learning Feature Pyramids for Human Pose Estimation](http://arxiv.org/abs/1708.01101v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/bearpaw/PyraNet)",
+      "n": "Pyramid Residual Modules (PRMs)",
+      "d": "2017-08-03",
+      "m1": "93.9%"
+    },
+    {
+      "p": "[Knowledge-Guided Deep Fractal Neural Networks for Human Pose Estimation](http://arxiv.org/abs/1705.02407v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Guanghan/GNet-pose)",
+      "n": "Stacked hourglass + Inception-resnet",
+      "d": "2017-05-05",
+      "m1": "93.9%"
+    },
+    {
+      "p": "[Multi-Context Attention for Human Pose Estimation](http://arxiv.org/abs/1702.07432v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/wbenbihi/hourglasstensorlfow)",
+      "n": "Multi-Context Attention",
+      "d": "2017-02-24",
+      "m1": "92.6%"
+    },
+    {
+      "p": "[Fast Human Pose Estimation](http://arxiv.org/abs/1811.05419v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ilovepose/fast-human-pose-estimation.pytorch)",
+      "n": "FPD",
+      "d": "2018-11-13",
+      "m1": "90.8%"
+    },
+    {
+      "p": "[Human pose estimation via Convolutional Part Heatmap Regression](http://arxiv.org/abs/1609.01743v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/1adrianb/human-pose-estimation)",
+      "n": "Part heatmap regression (ResNet-152)",
+      "d": "2016-09-06",
+      "m1": "90.7%"
+    },
+    {
+      "p": "[Convolutional Pose Machines](http://arxiv.org/abs/1602.00134v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/CMU-Perceptual-Computing-Lab/openpose)",
+      "n": "Convolutional Pose Machines",
+      "d": "2016-01-30",
+      "m1": "90.5%"
+    },
+    {
+      "p": "[Human Pose Regression by Combining Indirect Part Detection and Contextual Information](http://arxiv.org/abs/1710.02322v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dluvizon/pose-regression)",
+      "n": "Soft-argmax + contextual information",
+      "d": "2017-10-06",
+      "m1": "90.5%"
+    },
+    {
+      "p": "[DeeperCut: A Deeper, Stronger, and Faster Multi-Person Pose Estimation Model](http://arxiv.org/abs/1605.03170v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/eldar/pose-tensorflow)",
+      "n": "ResNet-152 + intermediate supervision",
+      "d": "2016-05-10",
+      "m1": "90.1%"
+    },
+    {
+      "p": "[Learning Dynamical Human-Joint Affinity for 3D Pose Estimation in Videos](https://arxiv.org/abs/2109.07353v1)",
+      "c": "",
+      "n": "DG-Net (T=4)",
+      "d": "2021-09-15",
+      "m1": "87.5%"
+    },
+    {
+      "p": "[Trajectory Space Factorization for Deep Video-Based 3D Human Pose Estimation](https://arxiv.org/abs/1908.08289v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jiahaoLjh/trajectory-pose-3d)",
+      "n": "Trajectory Space Factorization (F=25)",
+      "d": "2019-08-22",
+      "m1": "83.6"
+    },
+    {
+      "p": "[VNect: Real-time 3D Human Pose Estimation with a Single RGB Camera](http://arxiv.org/abs/1705.01583v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/XinArkh/VNect)",
+      "n": "VNect (ResNet 50)",
+      "d": "2017-05-03",
+      "m1": "79.4"
+    },
+    {
+      "p": "[Monocular 3D Human Pose Estimation In The Wild Using Improved CNN Supervision](http://arxiv.org/abs/1611.09813v5)",
+      "c": "",
+      "n": "Mehta",
+      "d": "2016-11-29",
+      "m1": "75.7"
+    },
+    {
+      "p": "[Articulated Pose Estimation by a Graphical Model with Image Dependent Pairwise Relations](http://arxiv.org/abs/1407.3399v2)",
+      "c": "",
+      "n": "Chen&Yuille, NIPS'14",
+      "d": "2014-07-12",
+      "m1": "73.4%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,67 @@
+# monocular-depth-estimation-on-scared-c
+
+[Dataset Link](https://data.mendeley.com/datasets/hwb9rn9w9h/3) \
+Task Hierarchy: ['3D', 'Depth Estimation', 'Monocular Depth Estimation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mDERS",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[EndoDepth: A Benchmark for Assessing Robustness in Endoscopic Depth Prediction](https://arxiv.org/abs/2409.19930v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Ivanrs297/endoscopycorruptions)",
+      "n": "AF-SfMLearner ",
+      "d": "2024-09-30",
+      "m1": "0.3134"
+    },
+    {
+      "p": "[EndoDepth: A Benchmark for Assessing Robustness in Endoscopic Depth Prediction](https://arxiv.org/abs/2409.19930v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Ivanrs297/endoscopycorruptions)",
+      "n": "MonoViT",
+      "d": "2024-09-30",
+      "m1": "0.2759"
+    },
+    {
+      "p": "[EndoDepth: A Benchmark for Assessing Robustness in Endoscopic Depth Prediction](https://arxiv.org/abs/2409.19930v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Ivanrs297/endoscopycorruptions)",
+      "n": "Monodepth2",
+      "d": "2024-09-30",
+      "m1": "0.2608"
+    },
+    {
+      "p": "[EndoDepth: A Benchmark for Assessing Robustness in Endoscopic Depth Prediction](https://arxiv.org/abs/2409.19930v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Ivanrs297/endoscopycorruptions)",
+      "n": "EndoSfMLearner",
+      "d": "2024-09-30",
+      "m1": "0.2332"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

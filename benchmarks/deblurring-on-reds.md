@@ -1,0 +1,60 @@
+# deblurring-on-reds
+
+[Dataset Link](https://seungjunnah.github.io/Datasets/reds.html) \
+Task Hierarchy: ['Blind Image Deblurring', 'Deblurring']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Average PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[VRT: A Video Restoration Transformer](https://arxiv.org/abs/2201.12288v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jingyunliang/vrt)",
+      "n": "VRT",
+      "d": "2022-01-28",
+      "m1": "36.79"
+    },
+    {
+      "p": "[EDVR: Video Restoration with Enhanced Deformable Convolutional Networks](https://arxiv.org/abs/1905.02716v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmsr)",
+      "n": "EDVR_Deblur",
+      "d": "2019-05-07",
+      "m1": "34.80"
+    },
+    {
+      "p": "[DeblurGAN: Blind Motion Deblurring Using Conditional Adversarial Networks](http://arxiv.org/abs/1711.07064v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/KupynOrest/DeblurGAN)",
+      "n": "DeblurGAN",
+      "d": "2017-11-19",
+      "m1": "24.09"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,88 @@
+# time-series-forecasting-on-mlo-cn2
+
+[Dataset Link](https://data.eol.ucar.edu/dataset/160.007) \
+Task Hierarchy: ['Time Series Analysis', 'Time Series Forecasting']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "RMSE",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Effective Benchmarks for Optical Turbulence Modeling](https://arxiv.org/abs/2401.03573v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cdjellen/otbench)",
+      "n": "GBRT",
+      "d": "2024-01-07",
+      "m1": "0.428"
+    },
+    {
+      "p": "[Effective Benchmarks for Optical Turbulence Modeling](https://arxiv.org/abs/2401.03573v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cdjellen/otbench)",
+      "n": "Mean Window Forecast",
+      "d": "2024-01-07",
+      "m1": "0.481"
+    },
+    {
+      "p": "[Effective Benchmarks for Optical Turbulence Modeling](https://arxiv.org/abs/2401.03573v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cdjellen/otbench)",
+      "n": "Minute Climatology",
+      "d": "2024-01-07",
+      "m1": "0.551"
+    },
+    {
+      "p": "[Effective Benchmarks for Optical Turbulence Modeling](https://arxiv.org/abs/2401.03573v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cdjellen/otbench)",
+      "n": "RNN",
+      "d": "2024-01-07",
+      "m1": "0.581"
+    },
+    {
+      "p": "[Effective Benchmarks for Optical Turbulence Modeling](https://arxiv.org/abs/2401.03573v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cdjellen/otbench)",
+      "n": "Climatology",
+      "d": "2024-01-07",
+      "m1": "0.658"
+    },
+    {
+      "p": "[Effective Benchmarks for Optical Turbulence Modeling](https://arxiv.org/abs/2401.03573v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cdjellen/otbench)",
+      "n": "Linear Forecast",
+      "d": "2024-01-07",
+      "m1": "0.930"
+    },
+    {
+      "p": "[Effective Benchmarks for Optical Turbulence Modeling](https://arxiv.org/abs/2401.03573v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cdjellen/otbench)",
+      "n": "Persistence",
+      "d": "2024-01-07",
+      "m1": "1.227"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,74 @@
+# code-generation-on-turbulence
+
+[Dataset Link](https://github.com/ShahinHonarvar/Turbulence-Benchmark) \
+Task Hierarchy: ['Code Generation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "CorrSc",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Turbulence: Systematically and Automatically Testing Instruction-Tuned Large Language Models for Code](https://arxiv.org/abs/2312.14856v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/shahinhonarvar/turbulence-benchmark)",
+      "n": "GPT-4",
+      "d": "2023-12-22",
+      "m1": "0.848"
+    },
+    {
+      "p": "[Turbulence: Systematically and Automatically Testing Instruction-Tuned Large Language Models for Code](https://arxiv.org/abs/2312.14856v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/shahinhonarvar/turbulence-benchmark)",
+      "n": "GPT-3.5-Turbo",
+      "d": "2023-12-22",
+      "m1": "0.617"
+    },
+    {
+      "p": "[Turbulence: Systematically and Automatically Testing Instruction-Tuned Large Language Models for Code](https://arxiv.org/abs/2312.14856v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/shahinhonarvar/turbulence-benchmark)",
+      "n": "CodeLlama:13B-4bit-quantised",
+      "d": "2023-12-22",
+      "m1": "0.327"
+    },
+    {
+      "p": "[Turbulence: Systematically and Automatically Testing Instruction-Tuned Large Language Models for Code](https://arxiv.org/abs/2312.14856v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/shahinhonarvar/turbulence-benchmark)",
+      "n": "CodeLlama:7B-4bit-quantised",
+      "d": "2023-12-22",
+      "m1": "0.289"
+    },
+    {
+      "p": "[Turbulence: Systematically and Automatically Testing Instruction-Tuned Large Language Models for Code](https://arxiv.org/abs/2312.14856v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/shahinhonarvar/turbulence-benchmark)",
+      "n": "Command",
+      "d": "2023-12-22",
+      "m1": "0.063"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

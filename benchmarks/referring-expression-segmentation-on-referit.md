@@ -1,0 +1,67 @@
+# referring-expression-segmentation-on-referit
+
+[Dataset Link]() \
+Task Hierarchy: ['Referring Expression Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Overall IoU",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Mean IoU",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[PolyFormer: Referring Image Segmentation as Sequential Polygon Generation](https://arxiv.org/abs/2302.07387v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/amazon-science/polygon-transformer)",
+      "n": "PolyFormer-L",
+      "d": "2023-02-14",
+      "m1": "72.6",
+      "m2": "67.22"
+    },
+    {
+      "p": "[PolyFormer: Referring Image Segmentation as Sequential Polygon Generation](https://arxiv.org/abs/2302.07387v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/amazon-science/polygon-transformer)",
+      "n": "PolyFormer-B",
+      "d": "2023-02-14",
+      "m1": "71.91",
+      "m2": "65.98"
+    },
+    {
+      "p": "[Comprehensive Multi-Modal Interactions for Referring Image Segmentation](https://arxiv.org/abs/2104.10412v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/kanji95/SHNET)",
+      "n": "SHNet",
+      "d": "2021-04-21",
+      "m1": "69.19"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

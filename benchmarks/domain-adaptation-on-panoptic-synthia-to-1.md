@@ -1,0 +1,74 @@
+# domain-adaptation-on-panoptic-synthia-to-1
+
+[Dataset Link]() \
+Task Hierarchy: ['Domain Adaptation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mPQ",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[MC-PanDA: Mask Confidence for Panoptic Domain Adaptation](https://arxiv.org/abs/2407.14110v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/helen1c/mc-panda)",
+      "n": "MC-PanDA",
+      "d": "2024-07-19",
+      "m1": "38.7"
+    },
+    {
+      "p": "[EDAPS: Enhanced Domain-Adaptive Panoptic Segmentation](https://arxiv.org/abs/2304.14291v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/susaha/edaps)",
+      "n": "EDAPS",
+      "d": "2023-04-27",
+      "m1": "36.6"
+    },
+    {
+      "p": "[Cross-View Regularization for Domain Adaptive Panoptic Segmentation](https://arxiv.org/abs/2103.02584v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jxhuang0508/CVRN)",
+      "n": "CVRN",
+      "d": "2021-03-03",
+      "m1": "21.3"
+    },
+    {
+      "p": "[FDA: Fourier Domain Adaptation for Semantic Segmentation](https://arxiv.org/abs/2004.05498v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/albumentations-team/albumentations)",
+      "n": "FDA",
+      "d": "2020-04-11",
+      "m1": "19.1"
+    },
+    {
+      "p": "[ADVENT: Adversarial Entropy Minimization for Domain Adaptation in Semantic Segmentation](http://arxiv.org/abs/1811.12833v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/thuml/Transfer-Learning-Library)",
+      "n": "ADVENT",
+      "d": "2018-11-30",
+      "m1": "18.3"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

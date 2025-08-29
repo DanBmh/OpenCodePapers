@@ -1,0 +1,81 @@
+# node-classification-on-mutag
+
+[Dataset Link](https://ls11-www.cs.tu-dortmund.de/staff/morris/graphkerneldatasets) \
+Task Hierarchy: ['Node Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[From Primes to Paths: Enabling Fast Multi-Relational Graph Analysis](https://arxiv.org/abs/2411.11149v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/kbogas/PAM_BoP)",
+      "n": "BoP",
+      "d": "2024-11-17",
+      "m1": "91.17"
+    },
+    {
+      "p": "[R-GCN: The R Could Stand for Random](https://arxiv.org/abs/2203.02424v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/predict-idlab/RR-GCN)",
+      "n": "RR-GCN-PPV",
+      "d": "2022-03-04",
+      "m1": "79.41"
+    },
+    {
+      "p": "[SCENE: Reasoning about Traffic Scenes using Heterogeneous Graph Neural Networks](https://arxiv.org/abs/2301.03512v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/schmidt-ju/scene)",
+      "n": "SCENE",
+      "d": "2023-01-09",
+      "m1": "75.44"
+    },
+    {
+      "p": "[Inducing a Decision Tree with Discriminative Paths to Classify Entities in a Knowledge Graph](http://ceur-ws.org/Vol-2427/SEPDA_2019_paper_3.pdf)",
+      "c": "[&check;&nbsp;Link](https://github.com/IBCNServices/KGPTree)",
+      "n": "Path Tree",
+      "d": "2019-08-22",
+      "m1": "73.82"
+    },
+    {
+      "p": "[Modeling Relational Data with Graph Convolutional Networks](http://arxiv.org/abs/1703.06103v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/tensorflow/rgcn)",
+      "n": "R-GCN",
+      "d": "2017-03-17",
+      "m1": "73.23"
+    },
+    {
+      "p": "[RDF2Vec: RDF Graph Embeddings and Their Applications](http://www.semantic-web-journal.net/content/rdf2vec-rdf-graph-embeddings-and-their-applications-1)",
+      "c": "[&check;&nbsp;Link](https://github.com/IBCNServices/pyRDF2Vec)",
+      "n": "RDF2Vec+SVM",
+      "d": "2017-11-10",
+      "m1": "67.20"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

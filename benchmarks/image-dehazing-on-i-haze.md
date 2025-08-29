@@ -1,0 +1,76 @@
+# image-dehazing-on-i-haze
+
+[Dataset Link](https://data.vision.ee.ethz.ch/cvl/ntire18//i-haze/) \
+Task Hierarchy: ['Image Dehazing']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "SSIM",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[A Novel Encoder-Decoder Network with Guided Transmission Map for Single Image Dehazing](https://arxiv.org/abs/2202.04757v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tranleanh/edn-gtm)",
+      "n": "EDN-GTM",
+      "d": "2022-02-08",
+      "m1": "22.90",
+      "m2": "0.8270"
+    },
+    {
+      "p": "[Single image dehazing for a variety of haze scenarios using back projected pyramid network](https://arxiv.org/abs/2008.06713v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ayu-22/BPPNet-Back-Projected-Pyramid-Network)",
+      "n": "BPPNet",
+      "d": "2020-08-15",
+      "m1": "22.56",
+      "m2": "0.8994"
+    },
+    {
+      "p": "[Revitalizing Convolutional Network for Image Restoration](https://ieeexplore.ieee.org/abstract/document/10571568)",
+      "c": "[&check;&nbsp;Link](https://github.com/c-yn/ConvIR)",
+      "n": "ConvIR",
+      "d": "2024-06-25",
+      "m1": "22.44",
+      "m2": "0.887"
+    },
+    {
+      "p": "[SAD-Net: a full spectral self-attention detail enhancement network for single image dehazing](https://www.nature.com/articles/s41598-025-92061-1)",
+      "c": "[&check;&nbsp;Link](https://github.com/niuqj/SAD-Net)",
+      "n": "SAD-Net",
+      "d": "2025-04-07",
+      "m1": "21.65",
+      "m2": "0.84"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

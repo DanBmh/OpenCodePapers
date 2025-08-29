@@ -1,0 +1,203 @@
+# single-image-deraining-on-rain100l
+
+[Dataset Link]() \
+Task Hierarchy: ['Rain Removal', 'Single Image Deraining']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "SSIM",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "FID",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "LPIPS",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Pre-Trained Image Processing Transformer](https://arxiv.org/abs/2012.00364v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/huawei-noah/Pretrained-IPT)",
+      "n": "IPT",
+      "d": "2020-12-01",
+      "m1": "41.62",
+      "m2": "0.988"
+    },
+    {
+      "p": "[A Mountain-Shaped Single-Stage Network for Accurate Image Restoration](https://arxiv.org/abs/2305.05146v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Tombs98/M3SNet)",
+      "n": "M3SNet",
+      "d": "2023-05-09",
+      "m1": "40.04",
+      "m2": "0.985"
+    },
+    {
+      "p": "[MCW-Net: Single Image Deraining with Multi-level Connections and Wide Regional Non-local Blocks](https://arxiv.org/abs/2009.13990v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/yechanp/MCW-Net)",
+      "n": "MCW-Net",
+      "d": "2020-09-29",
+      "m1": "39.73",
+      "m2": "0.988"
+    },
+    {
+      "p": "[Mixed Hierarchy Network for Image Restoration](https://arxiv.org/abs/2302.09554v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/tombs98/mhnet)",
+      "n": "MHNet",
+      "d": "2023-02-19",
+      "m1": "39.47",
+      "m2": "0.984"
+    },
+    {
+      "p": "[Instruct-IPT: All-in-One Image Processing Transformer via Weight Modulation](https://arxiv.org/abs/2407.00676v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huawei-noah/Pretrained-IPT)",
+      "n": "Instruct-IPT",
+      "d": "2024-06-30",
+      "m1": "39.35",
+      "m2": "0.977"
+    },
+    {
+      "p": "[Prompt-based Ingredient-Oriented All-in-One Image Restoration](https://arxiv.org/abs/2309.03063v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Tombs98/CAPTNet)",
+      "n": "CAPTNet",
+      "d": "2023-09-06",
+      "m1": "39.22",
+      "m2": "0.981"
+    },
+    {
+      "p": "[Restormer: Efficient Transformer for High-Resolution Image Restoration](https://arxiv.org/abs/2111.09881v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/swz30/restormer)",
+      "n": "Restormer",
+      "d": "2021-11-18",
+      "m1": "38.99",
+      "m2": "0.978"
+    },
+    {
+      "p": "[Image Restoration with Mean-Reverting Stochastic Differential Equations](https://arxiv.org/abs/2301.11699v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/algolzw/image-restoration-sde)",
+      "n": "IR-SDE",
+      "d": "2023-01-27",
+      "m1": "38.3",
+      "m2": "0.9805",
+      "m3": "7.94",
+      "m4": "0.014"
+    },
+    {
+      "p": "[Selective Frequency Network for Image Restoration](https://openreview.net/forum?id=tyZ1ChGZIKO)",
+      "c": "[&check;&nbsp;Link](https://github.com/c-yn/SFNet)",
+      "n": "SFNet",
+      "d": "2023-04-13",
+      "m1": "38.21",
+      "m2": "0.974"
+    },
+    {
+      "p": "[Progressive Image Deraining Networks: A Better and Simpler Baseline](https://arxiv.org/abs/1901.09221v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/csdwren/PReNet)",
+      "n": "PReNet",
+      "d": "2019-01-26",
+      "m1": "37.48",
+      "m2": "0.979"
+    },
+    {
+      "p": "[HINet: Half Instance Normalization Network for Image Restoration](https://arxiv.org/abs/2105.06086v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/megvii-model/HINet)",
+      "n": "HINet",
+      "d": "2021-05-13",
+      "m1": "37.28",
+      "m2": "0.97"
+    },
+    {
+      "p": "[Multi-Stage Progressive Image Restoration](https://arxiv.org/abs/2102.02808v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/swz30/restormer)",
+      "n": "MPRNet",
+      "d": "2021-02-04",
+      "m1": "36.40",
+      "m2": "0.965"
+    },
+    {
+      "p": "[Multi-Scale Progressive Fusion Network for Single Image Deraining](https://arxiv.org/abs/2003.10985v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/kuijiang94/mspfn)",
+      "n": "MSPFN",
+      "d": "2020-03-24",
+      "m1": "32.40",
+      "m2": "0.933"
+    },
+    {
+      "p": "[Semi-supervised Transfer Learning for Image Rain Removal](http://arxiv.org/abs/1807.11078v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/wwzjer/Semi-supervised-IRR)",
+      "n": "SEMI",
+      "d": "2018-07-29",
+      "m1": "25.03",
+      "m2": "0.842"
+    },
+    {
+      "p": "[MAXIM: Multi-Axis MLP for Image Processing](https://arxiv.org/abs/2201.02973v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/maxim)",
+      "n": "MAXIM",
+      "d": "2022-01-09",
+      "m2": "0.977"
+    },
+    {
+      "p": "[Uncertainty Guided Multi-Scale Residual Learning-using a Cycle Spinning CNN for Single Image De-Raining](https://arxiv.org/abs/1906.11129v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/rajeevyasarla/UMRL--using-Cycle-Spinning)",
+      "n": "UMRL",
+      "d": "2019-06-12",
+      "m2": "0.923"
+    },
+    {
+      "p": "[Clearing the Skies: A deep network architecture for single-image rain removal](http://arxiv.org/abs/1609.02087v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jinnovation/rainy-image-dataset)",
+      "n": "DerainNet",
+      "d": "2016-09-07",
+      "m2": "0.884"
+    },
+    {
+      "p": "[Recurrent Squeeze-and-Excitation Context Aggregation Net for Single Image Deraining](http://arxiv.org/abs/1807.05698v2)",
+      "c": "",
+      "n": "RESCAN",
+      "d": "2018-07-16",
+      "m2": "0.881"
+    },
+    {
+      "p": "[Density-aware Single Image De-raining using a Multi-stream Dense Network](http://arxiv.org/abs/1802.07412v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/hezhangsprinter/DID-MDN)",
+      "n": "DIDMDN",
+      "d": "2018-02-21",
+      "m2": "0.741"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

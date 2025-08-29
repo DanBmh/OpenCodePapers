@@ -1,0 +1,114 @@
+# document-image-classification-on-tobacco-3482
+
+[Dataset Link]() \
+Task Hierarchy: ['Image Classification', 'Document Image Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Memory",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[DocXClassifier: High Performance Explainable Deep Network for Document Image Classification](https://www.techrxiv.org/articles/preprint/DocXClassifier_High_Performance_Explainable_Deep_Network_for_Document_Image_Classification/19310489)",
+      "c": "[&check;&nbsp;Link](https://github.com/saifullah3396/docxclassifier)",
+      "n": "DocXClassifier-L",
+      "d": "2022-03-17",
+      "m1": "95.57"
+    },
+    {
+      "p": "[Efficient Document Image Classification Using Region-Based Graph Neural Network](https://arxiv.org/abs/2106.13802v1)",
+      "c": "",
+      "n": "DocBert [DOCBERT]",
+      "d": "2021-06-25",
+      "m1": "91.95"
+    },
+    {
+      "p": "[Efficient Document Image Classification Using Region-Based Graph Neural Network](https://arxiv.org/abs/2106.13802v1)",
+      "c": "",
+      "n": "Eff-GNN + Word2Vec [word2vec]",
+      "d": "2021-06-25",
+      "m1": "91"
+    },
+    {
+      "p": "[Multimodal Side-Tuning for Document Classification](https://arxiv.org/abs/2301.07502v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/thezingaro/multimodal-side-tuning)",
+      "n": "Multimodal Side-Tuning (MobileNetV2)",
+      "d": "2023-01-16",
+      "m1": "90.50"
+    },
+    {
+      "p": "[Multimodal Side-Tuning for Document Classification](https://arxiv.org/abs/2301.07502v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/thezingaro/multimodal-side-tuning)",
+      "n": "Multimodal Side-Tuning (ResNet50)",
+      "d": "2023-01-16",
+      "m1": "90.30"
+    },
+    {
+      "p": "[Efficient Document Image Classification Using Region-Based Graph Neural Network](https://arxiv.org/abs/2106.13802v1)",
+      "c": "",
+      "n": "DocBERT [DOCBERT]",
+      "d": "2021-06-25",
+      "m1": "82.3"
+    },
+    {
+      "p": "[Efficient Document Image Classification Using Region-Based Graph Neural Network](https://arxiv.org/abs/2106.13802v1)",
+      "c": "",
+      "n": "BERT [BERT]",
+      "d": "2021-06-25",
+      "m1": "79"
+    },
+    {
+      "p": "[Efficient Document Image Classification Using Region-Based Graph Neural Network](https://arxiv.org/abs/2106.13802v1)",
+      "c": "",
+      "n": "Eff-GNN + Word2Vec [word2vec] + Image Embedding",
+      "d": "2021-06-25",
+      "m1": "77.5"
+    },
+    {
+      "p": "[Efficient Document Image Classification Using Region-Based Graph Neural Network](https://arxiv.org/abs/2106.13802v1)",
+      "c": "",
+      "n": "Eff-GNN+ Word2Vec [word2vec]",
+      "d": "2021-06-25",
+      "m1": "73.5"
+    },
+    {
+      "p": "[Efficient Document Image Classification Using Region-Based Graph Neural Network](https://arxiv.org/abs/2106.13802v1)",
+      "c": "",
+      "n": "VGG",
+      "d": "2021-06-25",
+      "m2": "7.08"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

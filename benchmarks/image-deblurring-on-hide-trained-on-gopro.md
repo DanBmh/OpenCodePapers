@@ -1,0 +1,66 @@
+# image-deblurring-on-hide-trained-on-gopro
+
+[Dataset Link](https://github.com/joanshen0508/HA_deblur) \
+Task Hierarchy: ['16k', 'Image Deblurring']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "SSIM",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Hierarchical Information Flow for Generalized Efficient Image Restoration](https://arxiv.org/abs/2411.18588v1)",
+      "c": "",
+      "n": "Hi-IR-L",
+      "d": "2024-11-27",
+      "m1": "31.64"
+    },
+    {
+      "p": "[A Mountain-Shaped Single-Stage Network for Accurate Image Restoration](https://arxiv.org/abs/2305.05146v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Tombs98/M3SNet)",
+      "n": "M3SNet",
+      "d": "2023-05-09",
+      "m1": "31.49",
+      "m2": "0.951"
+    },
+    {
+      "p": "[Mixed Hierarchy Network for Image Restoration](https://arxiv.org/abs/2302.09554v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/tombs98/mhnet)",
+      "n": "MHNet",
+      "d": "2023-02-19",
+      "m1": "30.71"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

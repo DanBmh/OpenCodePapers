@@ -1,0 +1,85 @@
+# zero-shot-learning-on-awa2
+
+[Dataset Link](https://cvml.ist.ac.at/AwA/) \
+Task Hierarchy: ['Zero-Shot Learning']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "average top-1 classification accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Accuracy Seen",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Accuracy Unseen",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "H",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Exploring Data Efficiency in Zero-Shot Learning with Diffusion Models](https://arxiv.org/abs/2406.02929v1)",
+      "c": "",
+      "n": "ZeroDiff",
+      "d": "2024-06-05",
+      "m1": "86.4"
+    },
+    {
+      "p": "[Zero-Shot Learning with Common Sense Knowledge Graphs](https://arxiv.org/abs/2006.10713v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/BatsResearch/zsl-kg)",
+      "n": "ZSL-KG",
+      "d": "2020-06-18",
+      "m1": "78.08"
+    },
+    {
+      "p": "[Latent Embedding Feedback and Discriminative Features for Zero-Shot Classification](https://arxiv.org/abs/2003.07833v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/akshitac8/tfvaegan)",
+      "n": "ZSL_TF-VAEGAN",
+      "d": "2020-03-17",
+      "m1": "72.2"
+    },
+    {
+      "p": "[DUET: Cross-modal Semantic Grounding for Contrastive Zero-shot Learning](https://arxiv.org/abs/2207.01328v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/zjukg/structure-clip)",
+      "n": "DUET (Ours)",
+      "d": "2022-07-04",
+      "m1": "69.9",
+      "m2": "84.7",
+      "m3": "63.7",
+      "m4": "72.7"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

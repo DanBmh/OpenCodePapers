@@ -1,0 +1,113 @@
+# time-series-classification-on
+
+[Dataset Link]() \
+Task Hierarchy: ['Time Series Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "NLL",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Multivariate LSTM-FCNs for Time Series Classification](https://arxiv.org/abs/1801.04503v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/timeseriesAI/tsai/blob/main/tsai/models/RNN_FCN.py)",
+      "n": "MALSTM-FCN",
+      "d": "2018-01-14",
+      "m1": "1"
+    },
+    {
+      "p": "[Seq2Tens: An Efficient Representation of Sequences by Low-Rank Tensor Projections](https://arxiv.org/abs/2006.07027v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tgcsaba/seq2tens)",
+      "n": "FCN-SNLST",
+      "d": "2020-06-12",
+      "m1": "0.994"
+    },
+    {
+      "p": "[Bayesian Learning from Sequential Data using Gaussian Processes with Signature Covariances](https://arxiv.org/abs/1906.08215v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tgcsaba/GPSig)",
+      "n": "GP-Sig-LSTM",
+      "d": "2019-06-19",
+      "m1": "0.991",
+      "m2": "0.031"
+    },
+    {
+      "p": "[Bayesian Learning from Sequential Data using Gaussian Processes with Signature Covariances](https://arxiv.org/abs/1906.08215v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tgcsaba/GPSig)",
+      "n": "GP-Sig",
+      "d": "2019-06-19",
+      "m1": "0.979",
+      "m2": "0.108"
+    },
+    {
+      "p": "[Seq2Tens: An Efficient Representation of Sequences by Low-Rank Tensor Projections](https://arxiv.org/abs/2006.07027v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tgcsaba/seq2tens)",
+      "n": "SNLST",
+      "d": "2020-06-12",
+      "m1": "0.957"
+    },
+    {
+      "p": "[Bayesian Learning from Sequential Data using Gaussian Processes with Signature Covariances](https://arxiv.org/abs/1906.08215v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tgcsaba/GPSig)",
+      "n": "GP-KConv1D",
+      "d": "2019-06-19",
+      "m1": "0.941",
+      "m2": "0.409"
+    },
+    {
+      "p": "[Bayesian Learning from Sequential Data using Gaussian Processes with Signature Covariances](https://arxiv.org/abs/1906.08215v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tgcsaba/GPSig)",
+      "n": "GP-Sig-GRU",
+      "d": "2019-06-19",
+      "m1": "0.925",
+      "m2": "0.258"
+    },
+    {
+      "p": "[Bayesian Learning from Sequential Data using Gaussian Processes with Signature Covariances](https://arxiv.org/abs/1906.08215v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tgcsaba/GPSig)",
+      "n": "GP-LSTM",
+      "d": "2019-06-19",
+      "m1": "0.233",
+      "m2": "2.506"
+    },
+    {
+      "p": "[Bayesian Learning from Sequential Data using Gaussian Processes with Signature Covariances](https://arxiv.org/abs/1906.08215v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tgcsaba/GPSig)",
+      "n": "GP-GRU",
+      "d": "2019-06-19",
+      "m1": "0.114",
+      "m2": "3.523"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

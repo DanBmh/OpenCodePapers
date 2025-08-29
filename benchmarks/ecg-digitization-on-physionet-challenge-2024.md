@@ -1,0 +1,60 @@
+# ecg-digitization-on-physionet-challenge-2024
+
+[Dataset Link](https://moody-challenge.physionet.org/2024/) \
+Task Hierarchy: ['ECG Digitization']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "SNR",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Combining Hough Transform and Deep Learning Approaches to Reconstruct ECG Signals From Printouts](https://arxiv.org/abs/2410.14185v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/felixkrones/ECG-Digitiser)",
+      "n": "ECG-Digitiser",
+      "d": "2024-10-18",
+      "m1": "12.15"
+    },
+    {
+      "p": "[Segmentation-based Extraction of Key Components from ECG Images: A Framework for Precise Classification and Digitization](https://cinc.org/archives/2024/pdf/CinC2024-227.pdf)",
+      "c": "",
+      "n": "BAPORLab",
+      "d": "2024-12-20",
+      "m1": "5.493"
+    },
+    {
+      "p": "[WAVIE: A Modular and Open-Source Python Implementation for Fully Automated Digitisation of Paper Electrocardiograms](https://cinc.org/archives/2024/pdf/CinC2024-229.pdf)",
+      "c": "",
+      "n": "WAVIE",
+      "d": "2024-12-20",
+      "m1": "5.469"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

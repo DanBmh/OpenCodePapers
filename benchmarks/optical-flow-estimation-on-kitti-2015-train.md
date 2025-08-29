@@ -1,0 +1,195 @@
+# optical-flow-estimation-on-kitti-2015-train
+
+[Dataset Link](http://www.cvlibs.net/datasets/kitti/) \
+Task Hierarchy: ['Optical Flow Estimation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "F1-all",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "EPE",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[MEMFOF: High-Resolution Training for Memory-Efficient Multi-Frame Optical Flow Estimation](https://arxiv.org/abs/2506.23151v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/msu-video-group/memfof)",
+      "n": "MEMFOF",
+      "d": "2025-06-29",
+      "m1": "9.93",
+      "m2": "2.93"
+    },
+    {
+      "p": "[DPFlow: Adaptive Optical Flow Estimation with a Dual-Pyramid Framework](https://arxiv.org/abs/2503.14880v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/hmorimitsu/ptlflow)",
+      "n": "DPFlow",
+      "d": "2025-03-19",
+      "m1": "11.1",
+      "m2": "3.37"
+    },
+    {
+      "p": "[Deep Equilibrium Optical Flow Estimation](https://arxiv.org/abs/2204.08442v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/locuslab/deq-flow)",
+      "n": "DEQ-Flow",
+      "d": "2022-04-18",
+      "m1": "13.0",
+      "m2": "3.76"
+    },
+    {
+      "p": "[Recurrent Partial Kernel Network for Efficient Optical Flow Estimation](https://hmorimitsu.com/publication/2024-aaai-rpknet/)",
+      "c": "[&check;&nbsp;Link](https://github.com/hmorimitsu/ptlflow)",
+      "n": "RPKNet",
+      "d": "2024-02-01",
+      "m1": "13.0",
+      "m2": "3.79"
+    },
+    {
+      "p": "[FlowFormer: A Transformer Architecture for Optical Flow](https://arxiv.org/abs/2203.16194v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/drinkingcoder/FlowFormer-Official)",
+      "n": "FlowFormer",
+      "d": "2022-03-30",
+      "m1": "14.7",
+      "m2": "4.09"
+    },
+    {
+      "p": "[Global Matching with Overlapping Attention for Optical Flow Estimation](https://arxiv.org/abs/2203.11335v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/xiaofeng94/gmflownet)",
+      "n": "GMFlowNet",
+      "d": "2022-03-21",
+      "m1": "15.4",
+      "m2": "4.24"
+    },
+    {
+      "p": "[Separable Flow: Learning Motion Cost Volumes for Optical Flow Estimation](http://openaccess.thecvf.com//content/ICCV2021/html/Zhang_Separable_Flow_Learning_Motion_Cost_Volumes_for_Optical_Flow_Estimation_ICCV_2021_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/feihuzhang/separableflow)",
+      "n": "SeparableFlow",
+      "d": "2021-01-01",
+      "m1": "15.9",
+      "m2": "4.60"
+    },
+    {
+      "p": "[Rethinking RAFT for Efficient Optical Flow](https://arxiv.org/abs/2401.00833v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/n3slami/Ef-RAFT)",
+      "n": "Ef-RAFT",
+      "d": "2024-01-01",
+      "m1": "16.45",
+      "m2": "4.83"
+    },
+    {
+      "p": "[Learning to Estimate Hidden Motions with Global Motion Aggregation](https://arxiv.org/abs/2104.02409v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmflow)",
+      "n": "GMA",
+      "d": "2021-04-06",
+      "m1": "17.1",
+      "m2": "4.69"
+    },
+    {
+      "p": "[RAFT: Recurrent All-Pairs Field Transforms for Optical Flow](https://arxiv.org/abs/2003.12039v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/pytorch/vision)",
+      "n": "RAFT",
+      "d": "2020-03-26",
+      "m1": "17.4",
+      "m2": "5.04"
+    },
+    {
+      "p": "[CRAFT: Cross-Attentional Flow Transformer for Robust Optical Flow](https://arxiv.org/abs/2203.16896v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/askerlee/craft)",
+      "n": "CRAFT",
+      "d": "2022-03-31",
+      "m1": "17.5",
+      "m2": "4.88"
+    },
+    {
+      "p": "[RAPIDFlow: Recurrent Adaptable Pyramids with Iterative Decoding for Efficient Optical Flow Estimation](https://hmorimitsu.com/publication/2024-icra-rapidflow/)",
+      "c": "[&check;&nbsp;Link](https://github.com/hmorimitsu/ptlflow)",
+      "n": "RAPIDFlow",
+      "d": "2024-05-01",
+      "m1": "17.7",
+      "m2": "5.87"
+    },
+    {
+      "p": "[Learning Optical Flow from a Few Matches](https://arxiv.org/abs/2104.02166v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zacjiang/scv)",
+      "n": "SCV",
+      "d": "2021-04-05",
+      "m1": "19.3",
+      "m2": "6.80"
+    },
+    {
+      "p": "[MaskFlownet: Asymmetric Feature Matching with Learnable Occlusion Mask](https://arxiv.org/abs/2003.10955v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmflow)",
+      "n": "MaskFlowNet",
+      "d": "2020-03-24",
+      "m1": "23.1"
+    },
+    {
+      "p": "[Hierarchical Discrete Distribution Decomposition for Match Density Estimation](http://arxiv.org/abs/1812.06264v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/ucbdrive/hd3)",
+      "n": "HD3",
+      "d": "2018-12-15",
+      "m1": "24.0",
+      "m2": "13.17"
+    },
+    {
+      "p": "[Volumetric Correspondence Networks for Optical Flow](http://papers.nips.cc/paper/8367-volumetric-correspondence-networks-for-optical-flow)",
+      "c": "[&check;&nbsp;Link](https://github.com/gengshan-y/VCN)",
+      "n": "VCN",
+      "d": "2019-12-01",
+      "m1": "25.1",
+      "m2": "8.36"
+    },
+    {
+      "p": "[FlowNet 2.0: Evolution of Optical Flow Estimation with Deep Networks](http://arxiv.org/abs/1612.01925v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/NVIDIA/flownet2-pytorch)",
+      "n": "FlowNet2",
+      "d": "2016-12-06",
+      "m1": "30.0",
+      "m2": "10.08"
+    },
+    {
+      "p": "[FastFlowNet: A Lightweight Network for Fast Optical Flow Estimation](https://arxiv.org/abs/2103.04524v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ltkong218/FastFlowNet)",
+      "n": "FastFlowNet",
+      "d": "2021-03-08",
+      "m1": "33.1",
+      "m2": "12.24"
+    },
+    {
+      "p": "[PWC-Net: CNNs for Optical Flow Using Pyramid, Warping, and Cost Volume](http://arxiv.org/abs/1709.02371v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/NVlabs/PWC-Net)",
+      "n": "PWC-Net",
+      "d": "2017-09-07",
+      "m1": "33.7",
+      "m2": "10.35"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

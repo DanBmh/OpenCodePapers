@@ -1,0 +1,81 @@
+# single-image-desnowing-on-csd
+
+[Dataset Link](https://github.com/torrvision/CollaborativeSLAMDataset) \
+Task Hierarchy: ['10-shot image generation', 'Image Restoration', 'Single Image Desnowing']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Average PSNR (dB)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Instruct-IPT: All-in-One Image Processing Transformer via Weight Modulation](https://arxiv.org/abs/2407.00676v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huawei-noah/Pretrained-IPT)",
+      "n": "Instruct-IPT",
+      "d": "2024-06-30",
+      "m1": "40.12"
+    },
+    {
+      "p": "[SnowFormer: Context Interaction Transformer with Scale-awareness for Single Image Desnowing](https://arxiv.org/abs/2208.09703v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/ephemeral182/snowformer)",
+      "n": "SnowFormer",
+      "d": "2022-08-20",
+      "m1": "39.45"
+    },
+    {
+      "p": "[Restormer: Efficient Transformer for High-Resolution Image Restoration](https://arxiv.org/abs/2111.09881v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/swz30/restormer)",
+      "n": "Restormer",
+      "d": "2021-11-18",
+      "m1": "35.43"
+    },
+    {
+      "p": "[Simple Baselines for Image Restoration](https://arxiv.org/abs/2204.04676v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/megvii-research/NAFNet)",
+      "n": "NAFNet",
+      "d": "2022-04-10",
+      "m1": "35.13"
+    },
+    {
+      "p": "[Uformer: A General U-Shaped Transformer for Image Restoration](https://arxiv.org/abs/2106.03106v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ZhendongWang6/Uformer)",
+      "n": "UFormer",
+      "d": "2021-06-06",
+      "m1": "33.80"
+    },
+    {
+      "p": "[ALL Snow Removed: Single Image Desnowing Algorithm Using Hierarchical Dual-Tree Complex Wavelet Representation and Contradict Channel Loss](http://openaccess.thecvf.com//content/ICCV2021/html/Chen_ALL_Snow_Removed_Single_Image_Desnowing_Algorithm_Using_Hierarchical_Dual-Tree_ICCV_2021_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/weitingchen83/iccv2021-single-image-desnowing-hdcwnet)",
+      "n": "HDCW-Net",
+      "d": "2021-01-01",
+      "m1": "29.06"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

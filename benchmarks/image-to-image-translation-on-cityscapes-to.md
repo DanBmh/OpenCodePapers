@@ -1,0 +1,81 @@
+# image-to-image-translation-on-cityscapes-to
+
+[Dataset Link](http://people.ee.ethz.ch/~csakarid/SFSU_synthetic/) \
+Task Hierarchy: ['1 Image, 2*2 Stitching', 'Image-to-Image Translation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mAP",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[MIC: Masked Image Consistency for Context-Enhanced Domain Adaptation](https://arxiv.org/abs/2212.01322v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/lhoyer/mic)",
+      "n": "MIC",
+      "d": "2022-12-02",
+      "m1": "47.6"
+    },
+    {
+      "p": "[Bi-Dimensional Feature Alignment for Cross-Domain Object Detection](https://arxiv.org/abs/2011.07205v1)",
+      "c": "",
+      "n": "SSA-DA",
+      "d": "2020-11-14",
+      "m1": "42.5"
+    },
+    {
+      "p": "[Adaptive Object Detection with Dual Multi-Label Prediction](https://arxiv.org/abs/2003.12943v2)",
+      "c": "",
+      "n": "MCAR",
+      "d": "2020-03-29",
+      "m1": "38.8"
+    },
+    {
+      "p": "[Progressive Domain Adaptation for Object Detection](https://arxiv.org/abs/1910.11319v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/kevinhkhsu/DA_detection)",
+      "n": "Progressive Domain Adaptation",
+      "d": "2019-10-24",
+      "m1": "36.9"
+    },
+    {
+      "p": "[Diversify and Match: A Domain Adaptive Representation Learning Paradigm for Object Detection](https://arxiv.org/abs/1905.05396v1)",
+      "c": "",
+      "n": "Diversify & Match",
+      "d": "2019-05-14",
+      "m1": "34.6"
+    },
+    {
+      "p": "[Domain Adaptive Faster R-CNN for Object Detection in the Wild](http://arxiv.org/abs/1803.03243v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yuhuayc/da-faster-rcnn)",
+      "n": "FRCNN in the wild",
+      "d": "2018-03-08",
+      "m1": "27.6"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

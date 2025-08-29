@@ -1,0 +1,117 @@
+# facial-action-unit-detection-on-bp4d
+
+[Dataset Link](http://www.cs.binghamton.edu/~lijun/Research/3DFE/3DFE_Analysis.html) \
+Task Hierarchy: ['3D Face Reconstruction', 'Facial Recognition and Modelling', 'Facial Action Unit Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Average F1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Average AUC",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Representation Learning and Identity Adversarial Training for Facial Behavior Understanding](https://arxiv.org/abs/2407.11243v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/forever208/fmae-iat)",
+      "n": "FMAE-IAT",
+      "d": "2024-07-15",
+      "m1": "67.1"
+    },
+    {
+      "p": "[Representation Learning and Identity Adversarial Training for Facial Behavior Understanding](https://arxiv.org/abs/2407.11243v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/forever208/fmae-iat)",
+      "n": "FMAE",
+      "d": "2024-07-15",
+      "m1": "66.6"
+    },
+    {
+      "p": "[Multi-scale Dynamic and Hierarchical Relationship Modeling for Facial Action Units Recognition](https://arxiv.org/abs/2404.06443v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cvi-szu/mdhr)",
+      "n": "MDHRD",
+      "d": "2024-04-09",
+      "m1": "66.6"
+    },
+    {
+      "p": "[Learning Multi-dimensional Edge Feature-based AU Relation Graph for Facial Action Unit Recognition](https://arxiv.org/abs/2205.01782v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tomas-gajarsky/facetorch)",
+      "n": "Multi-dimensional Edge Feature-based AU Relation Graph (Swin-B)",
+      "d": "2022-05-02",
+      "m1": "65.5",
+      "m2": "83.1"
+    },
+    {
+      "p": "[Learning Multi-dimensional Edge Feature-based AU Relation Graph for Facial Action Unit Recognition](https://arxiv.org/abs/2205.01782v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tomas-gajarsky/facetorch)",
+      "n": "Multi-dimensional Edge Feature-based AU Relation Graph (ResNet 50)",
+      "d": "2022-05-02",
+      "m1": "64.7",
+      "m2": "82.6"
+    },
+    {
+      "p": "[Multi-View Dynamic Facial Action Unit Detection](http://arxiv.org/abs/1704.07863v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/BCV-Uniandes/AUNets)",
+      "n": "Multi-View Dynamic Facial Action Unit Detection",
+      "d": "2017-04-25",
+      "m1": "63.0"
+    },
+    {
+      "p": "[Learning Multi-dimensional Edge Feature-based AU Relation Graph for Facial Action Unit Recognition](https://arxiv.org/abs/2205.01782v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tomas-gajarsky/facetorch)",
+      "n": "Swin-B",
+      "d": "2022-05-02",
+      "m1": "62.6"
+    },
+    {
+      "p": "[Deep Adaptive Attention for Joint Facial Action Unit Detection and Face Alignment](http://arxiv.org/abs/1803.05588v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ZhiwenShao/JAANet)",
+      "n": "JAA-Net",
+      "d": "2018-03-15",
+      "m1": "60.0"
+    },
+    {
+      "p": "[Learning Multi-dimensional Edge Feature-based AU Relation Graph for Facial Action Unit Recognition](https://arxiv.org/abs/2205.01782v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tomas-gajarsky/facetorch)",
+      "n": "ResNet 50",
+      "d": "2022-05-02",
+      "m1": "59.1"
+    },
+    {
+      "p": "[Deep Region and Multi-Label Learning for Facial Action Unit Detection](http://openaccess.thecvf.com/content_cvpr_2016/html/Zhao_Deep_Region_and_CVPR_2016_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/zkl20061823/DRML)",
+      "n": "DRML",
+      "d": "2016-06-01",
+      "m1": "48.3",
+      "m2": "56.0"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

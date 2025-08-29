@@ -1,0 +1,74 @@
+# retrieval-augmented-few-shot-in-context-audio
+
+[Dataset Link](https://audiocaps.github.io/) \
+Task Hierarchy: ['Audio captioning', 'Retrieval-augmented Few-shot In-context Audio Captioning']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "CIDEr",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Audio Flamingo: A Novel Audio Language Model with Few-Shot Learning and Dialogue Abilities](https://arxiv.org/abs/2402.01831v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/NVIDIA/audio-flamingo)",
+      "n": "Audio Flamingo (4-shot)",
+      "d": "2024-02-02",
+      "m1": "0.518"
+    },
+    {
+      "p": "[RECAP: Retrieval-Augmented Audio Captioning](https://arxiv.org/abs/2309.09836v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/sreyan88/recap)",
+      "n": "RECAP (4-shot)",
+      "d": "2023-09-18",
+      "m1": "0.359"
+    },
+    {
+      "p": "[Prefix tuning for automated audio captioning](https://arxiv.org/abs/2303.17489v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/MinkyuKim26/Prefix_AAC_ICASSP2023)",
+      "n": "Prefix tuning for automated audio captioning",
+      "d": "2023-03-30",
+      "m1": "0.211"
+    },
+    {
+      "p": "[Audio Captioning Transformer](https://arxiv.org/abs/2107.09817v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/XinhaoMei/ACT)",
+      "n": "Audio captioning transformer",
+      "d": "2021-07-21",
+      "m1": "0.149"
+    },
+    {
+      "p": "[AUTOMATED AUDIO CAPTIONING BY FINE-TUNING BART WITH AUDIOSET TAGS](https://dcase.community/documents/workshop2021/proceedings/DCASE2021Workshop_Gontier_57.pdf)",
+      "c": "[&check;&nbsp;Link](https://github.com/felixgontier/dcase2021aac)",
+      "n": "Automated audio captioning by fine-tuning bart with audioset tags",
+      "d": "2021-11-15",
+      "m1": "0.147"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

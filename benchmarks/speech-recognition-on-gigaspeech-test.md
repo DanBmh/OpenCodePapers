@@ -1,0 +1,74 @@
+# speech-recognition-on-gigaspeech-test
+
+[Dataset Link](https://github.com/SpeechColab/GigaSpeech) \
+Task Hierarchy: ['Speech Recognition']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Word Error Rate (WER)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[CR-CTC: Consistency regularization on CTC for improved speech recognition](https://arxiv.org/abs/2410.05101v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/k2-fsa/icefall)",
+      "n": "Zipformer+pruned transducer w/ CR-CTC\n(no external language model)",
+      "d": "2024-10-07",
+      "m1": "10.03"
+    },
+    {
+      "p": "[CR-CTC: Consistency regularization on CTC for improved speech recognition](https://arxiv.org/abs/2410.05101v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/k2-fsa/icefall)",
+      "n": "Zipformer+CR-CTC/AED\n(no external language model)",
+      "d": "2024-10-07",
+      "m1": "10.07"
+    },
+    {
+      "p": "[CR-CTC: Consistency regularization on CTC for improved speech recognition](https://arxiv.org/abs/2410.05101v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/k2-fsa/icefall)",
+      "n": "Zipformer+pruned transducer\n(no external language model)",
+      "d": "2024-10-07",
+      "m1": "10.2"
+    },
+    {
+      "p": "[CR-CTC: Consistency regularization on CTC for improved speech recognition](https://arxiv.org/abs/2410.05101v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/k2-fsa/icefall)",
+      "n": "Zipformer+CR-CTC\n(no external language model)",
+      "d": "2024-10-07",
+      "m1": "10.28"
+    },
+    {
+      "p": "[GigaSpeech: An Evolving, Multi-domain ASR Corpus with 10,000 Hours of Transcribed Audio](https://arxiv.org/abs/2106.06909v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SpeechColab/GigaSpeech)",
+      "n": "Conformer/Transformer-AED",
+      "d": "2021-06-13",
+      "m1": "10.80"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

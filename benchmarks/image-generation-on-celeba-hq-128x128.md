@@ -1,0 +1,100 @@
+# image-generation-on-celeba-hq-128x128
+
+[Dataset Link](https://github.com/tkarras/progressive_growing_of_gans) \
+Task Hierarchy: ['Image Generation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "FID",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Inception score",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "IS",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[A U-Net Based Discriminator for Generative Adversarial Networks](https://arxiv.org/abs/2002.12655v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/boschresearch/unetgan)",
+      "n": "U-Net GAN",
+      "d": "2020-02-28",
+      "m1": "2.03",
+      "m2": "3.33"
+    },
+    {
+      "p": "[COCO-GAN: Generation by Parts via Conditional Coordinating](https://arxiv.org/abs/1904.00284v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/hubert0527/COCO-GAN)",
+      "n": "COCO-GAN",
+      "d": "2019-03-30",
+      "m1": "5.74"
+    },
+    {
+      "p": "[Progressive Augmentation of GANs](https://arxiv.org/abs/1901.10422v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/boschresearch/PA-GAN)",
+      "n": "PA-GAN",
+      "d": "2019-01-29",
+      "m1": "15.4"
+    },
+    {
+      "p": "[LT-GAN: Self-Supervised GAN with Latent Transformation Detection](https://arxiv.org/abs/2010.09893v1)",
+      "c": "",
+      "n": "CR+LT-SNDCGAN",
+      "d": "2020-10-19",
+      "m1": "16.84"
+    },
+    {
+      "p": "[Consistency Regularization for Generative Adversarial Networks](https://arxiv.org/abs/1910.12027v2)",
+      "c": "",
+      "n": "CR-GAN",
+      "d": "2019-10-26",
+      "m1": "16.97"
+    },
+    {
+      "p": "[Self-Supervised GANs via Auxiliary Rotation Loss](http://arxiv.org/abs/1811.11212v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/google/compare_gan)",
+      "n": "SS-GAN (sBN)",
+      "d": "2018-11-27",
+      "m1": "24.36"
+    },
+    {
+      "p": "[Quaternion Generative Adversarial Networks](https://arxiv.org/abs/2104.09630v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/eleGAN23/QVAE)",
+      "n": "QSNGAN",
+      "d": "2021-04-19",
+      "m1": "29.417",
+      "m3": "2.249"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

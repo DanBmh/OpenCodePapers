@@ -1,0 +1,246 @@
+# image-retrieval-on-crepe-vision-language
+
+[Dataset Link]() \
+Task Hierarchy: ['Image Retrieval']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Recall@1 (HN-Atom + HN-Comp, SC)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Recall@1 (HN-Atom + HN-Comp, UC)",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Recall@1 (HN-Atom, UC)",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Recall@1 (HN-Comp, UC)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[CREPE: Can Vision-Language Foundation Models Reason Compositionally?](https://arxiv.org/abs/2212.07796v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/raivnlab/crepe)",
+      "n": "ViT-L-14 (LAION400M)",
+      "d": "2022-12-13",
+      "m1": "39.44",
+      "m2": "33.81",
+      "m3": "47.86",
+      "m4": "60.78"
+    },
+    {
+      "p": "[CREPE: Can Vision-Language Foundation Models Reason Compositionally?](https://arxiv.org/abs/2212.07796v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/raivnlab/crepe)",
+      "n": "ViT-B-16+240 (LAION400M)",
+      "d": "2022-12-13",
+      "m1": "37.32",
+      "m2": "32.26",
+      "m3": "46.53",
+      "m4": "60.19"
+    },
+    {
+      "p": "[CREPE: Can Vision-Language Foundation Models Reason Compositionally?](https://arxiv.org/abs/2212.07796v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/raivnlab/crepe)",
+      "n": "ViT-B-16 (LAION400M)",
+      "d": "2022-12-13",
+      "m1": "37.01",
+      "m2": "30.81",
+      "m3": "44.93",
+      "m4": "59.00"
+    },
+    {
+      "p": "[CREPE: Can Vision-Language Foundation Models Reason Compositionally?](https://arxiv.org/abs/2212.07796v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/raivnlab/crepe)",
+      "n": "ViT-B-32 (LAION400M)",
+      "d": "2022-12-13",
+      "m1": "34.28",
+      "m2": "28.00",
+      "m3": "42.75",
+      "m4": "54.80"
+    },
+    {
+      "p": "[CREPE: Can Vision-Language Foundation Models Reason Compositionally?](https://arxiv.org/abs/2212.07796v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/raivnlab/crepe)",
+      "n": "RN50 (YFCC15M)",
+      "d": "2022-12-13",
+      "m1": "23.38",
+      "m2": "20.08",
+      "m3": "39.85",
+      "m4": "39.83"
+    },
+    {
+      "p": "[CREPE: Can Vision-Language Foundation Models Reason Compositionally?](https://arxiv.org/abs/2212.07796v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/raivnlab/crepe)",
+      "n": "RN50 (CC12M)",
+      "d": "2022-12-13",
+      "m1": "23.26",
+      "m2": "19.96",
+      "m3": "34.88",
+      "m4": "45.27"
+    },
+    {
+      "p": "[CREPE: Can Vision-Language Foundation Models Reason Compositionally?](https://arxiv.org/abs/2212.07796v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/raivnlab/crepe)",
+      "n": "RN101 (YFCC15M)",
+      "d": "2022-12-13",
+      "m1": "22.74",
+      "m2": "20.50",
+      "m3": "39.50",
+      "m4": "39.56"
+    },
+    {
+      "p": "[CREPE: Can Vision-Language Foundation Models Reason Compositionally?](https://arxiv.org/abs/2212.07796v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/raivnlab/crepe)",
+      "n": "Random",
+      "d": "2022-12-13",
+      "m1": "9.09",
+      "m2": "9.09",
+      "m3": "20.00",
+      "m4": "14.29"
+    },
+    {
+      "p": "[Coarse-to-Fine Contrastive Learning in Image-Text-Graph Space for Improved Vision-Language Compositionality](https://arxiv.org/abs/2305.13812v3)",
+      "c": "",
+      "n": "Swin-T (MosaiCLIP, CC-12M)",
+      "d": "2023-05-23",
+      "m3": "44.5",
+      "m4": "92.1"
+    },
+    {
+      "p": "[Coarse-to-Fine Contrastive Learning in Image-Text-Graph Space for Improved Vision-Language Compositionality](https://arxiv.org/abs/2305.13812v3)",
+      "c": "",
+      "n": "RN-50 (MosaiCLIP, CC-12M)",
+      "d": "2023-05-23",
+      "m3": "44.4",
+      "m4": "92.6"
+    },
+    {
+      "p": "[Coarse-to-Fine Contrastive Learning in Image-Text-Graph Space for Improved Vision-Language Compositionality](https://arxiv.org/abs/2305.13812v3)",
+      "c": "",
+      "n": "MosaiCLIP (YFCC-FT)",
+      "d": "2023-05-23",
+      "m3": "41.5",
+      "m4": "48.8"
+    },
+    {
+      "p": "[Coarse-to-Fine Contrastive Learning in Image-Text-Graph Space for Improved Vision-Language Compositionality](https://arxiv.org/abs/2305.13812v3)",
+      "c": "",
+      "n": "RN-50 (NegCLIP, CC-12M)",
+      "d": "2023-05-23",
+      "m3": "41.4",
+      "m4": "82.0"
+    },
+    {
+      "p": "[Coarse-to-Fine Contrastive Learning in Image-Text-Graph Space for Improved Vision-Language Compositionality](https://arxiv.org/abs/2305.13812v3)",
+      "c": "",
+      "n": "MosaiCLIP (CC-FT)",
+      "d": "2023-05-23",
+      "m3": "40.9",
+      "m4": "72.4"
+    },
+    {
+      "p": "[Coarse-to-Fine Contrastive Learning in Image-Text-Graph Space for Improved Vision-Language Compositionality](https://arxiv.org/abs/2305.13812v3)",
+      "c": "",
+      "n": "Swin-T (NegCLIP, CC-12M)",
+      "d": "2023-05-23",
+      "m3": "39.6",
+      "m4": "80.3"
+    },
+    {
+      "p": "[Coarse-to-Fine Contrastive Learning in Image-Text-Graph Space for Improved Vision-Language Compositionality](https://arxiv.org/abs/2305.13812v3)",
+      "c": "",
+      "n": "CLIP (YFCC-FT)",
+      "d": "2023-05-23",
+      "m3": "39.5",
+      "m4": "39.8"
+    },
+    {
+      "p": "[Coarse-to-Fine Contrastive Learning in Image-Text-Graph Space for Improved Vision-Language Compositionality](https://arxiv.org/abs/2305.13812v3)",
+      "c": "",
+      "n": "NegCLIP (YFCC-FT)",
+      "d": "2023-05-23",
+      "m3": "39.0",
+      "m4": "38.8"
+    },
+    {
+      "p": "[Coarse-to-Fine Contrastive Learning in Image-Text-Graph Space for Improved Vision-Language Compositionality](https://arxiv.org/abs/2305.13812v3)",
+      "c": "",
+      "n": "CLIP-FT (YFCC-FT)",
+      "d": "2023-05-23",
+      "m3": "38.3",
+      "m4": "36.4"
+    },
+    {
+      "p": "[Coarse-to-Fine Contrastive Learning in Image-Text-Graph Space for Improved Vision-Language Compositionality](https://arxiv.org/abs/2305.13812v3)",
+      "c": "",
+      "n": "NegCLIP (CC-FT)",
+      "d": "2023-05-23",
+      "m3": "37.5",
+      "m4": "53.1"
+    },
+    {
+      "p": "[Coarse-to-Fine Contrastive Learning in Image-Text-Graph Space for Improved Vision-Language Compositionality](https://arxiv.org/abs/2305.13812v3)",
+      "c": "",
+      "n": "Swin-T (CLIP, CC-12M)",
+      "d": "2023-05-23",
+      "m3": "37.3",
+      "m4": "44.1"
+    },
+    {
+      "p": "[Coarse-to-Fine Contrastive Learning in Image-Text-Graph Space for Improved Vision-Language Compositionality](https://arxiv.org/abs/2305.13812v3)",
+      "c": "",
+      "n": "RN-50 (CLIP, CC-12M)",
+      "d": "2023-05-23",
+      "m3": "36.7",
+      "m4": "42.9"
+    },
+    {
+      "p": "[Coarse-to-Fine Contrastive Learning in Image-Text-Graph Space for Improved Vision-Language Compositionality](https://arxiv.org/abs/2305.13812v3)",
+      "c": "",
+      "n": "CLIP-FT (CC-FT)",
+      "d": "2023-05-23",
+      "m3": "35.6",
+      "m4": "45.8"
+    },
+    {
+      "p": "[Coarse-to-Fine Contrastive Learning in Image-Text-Graph Space for Improved Vision-Language Compositionality](https://arxiv.org/abs/2305.13812v3)",
+      "c": "",
+      "n": "CLIP (CC-FT)",
+      "d": "2023-05-23",
+      "m3": "35.0",
+      "m4": "45.1"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

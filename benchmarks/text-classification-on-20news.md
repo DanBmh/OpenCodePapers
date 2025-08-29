@@ -1,0 +1,175 @@
+# text-classification-on-20news
+
+[Dataset Link]() \
+Task Hierarchy: ['Classification', 'Text Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "F-measure",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Precision",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Recall",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[A Comparison of SVM against Pre-trained Language Models (PLMs) for Text Classification Tasks](https://arxiv.org/abs/2211.02563v1)",
+      "c": "",
+      "n": "LinearSVM+TFIDF",
+      "d": "2022-11-04",
+      "m1": "93",
+      "m2": "93"
+    },
+    {
+      "p": "[BertGCN: Transductive Text Classification by Combining GCN and BERT](https://arxiv.org/abs/2105.05727v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/ZeroRin/BertGCN)",
+      "n": "RoBERTaGCN",
+      "d": "2021-05-12",
+      "m1": "89.5"
+    },
+    {
+      "p": "[Simple Spectral Graph Convolution](https://openreview.net/forum?id=CYO5T-YjWZV)",
+      "c": "[&check;&nbsp;Link](https://github.com/allenhaozhu/SSGC)",
+      "n": "SSGC",
+      "d": "2021-01-01",
+      "m1": "88.6"
+    },
+    {
+      "p": "[Simplifying Graph Convolutional Networks](https://arxiv.org/abs/1902.07153v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/sgc)",
+      "n": "SGC",
+      "d": "2019-02-19",
+      "m1": "88.5"
+    },
+    {
+      "p": "[Simplifying Graph Convolutional Networks](https://arxiv.org/abs/1902.07153v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/sgc)",
+      "n": "SGCN",
+      "d": "2019-02-19",
+      "m1": "88.5"
+    },
+    {
+      "p": "[RMDL: Random Multimodel Deep Learning for Classification](http://arxiv.org/abs/1805.01890v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/kk7nc/RMDL)",
+      "n": "RMDL (15 RDLs)",
+      "d": "2018-05-03",
+      "m1": "87.91"
+    },
+    {
+      "p": "[An Explainable Probabilistic Classifier for Categorical Data Inspired to Quantum Physics](https://arxiv.org/abs/2105.13988v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SparseTensorClassifier/stc)",
+      "n": "Sparse Tensor Classifier",
+      "d": "2021-05-26",
+      "m1": "87.3",
+      "m2": "86.6",
+      "m3": "87.1",
+      "m4": "86.6"
+    },
+    {
+      "p": "[Graph Star Net for Generalized Multi-Task Learning](https://arxiv.org/abs/1906.12330v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/graph-star-team/graph_star)",
+      "n": "GraphStar",
+      "d": "2019-06-21",
+      "m1": "86.9"
+    },
+    {
+      "p": "[Neural Attentive Bag-of-Entities Model for Text Classification](https://arxiv.org/abs/1909.01259v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/studio-ousia/wikipedia2vec)",
+      "n": "NABoE-full",
+      "d": "2019-09-03",
+      "m1": "86.8",
+      "m2": "86.2"
+    },
+    {
+      "p": "[Graph Convolutional Networks for Text Classification](http://arxiv.org/abs/1809.05679v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yao8839836/text_gcn)",
+      "n": "Text GCN",
+      "d": "2018-09-15",
+      "m1": "86.34"
+    },
+    {
+      "p": "[Improving Document Classification with Multi-Sense Embeddings](https://arxiv.org/abs/1911.07918v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/vgupta123/SCDV-MS)",
+      "n": "SCDV-MS",
+      "d": "2019-11-18",
+      "m1": "86.19",
+      "m2": "86.16",
+      "m3": "86.2",
+      "m4": "86.18"
+    },
+    {
+      "p": "[Representation Learning of Entities and Documents from Knowledge Base Descriptions](http://arxiv.org/abs/1806.02960v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/wikipedia2vec/wikipedia2vec)",
+      "n": "TextEnt-full",
+      "d": "2018-06-08",
+      "m1": "84.5",
+      "m2": "83.9"
+    },
+    {
+      "p": "[Semi-supervised NMF Models for Topic Modeling in Learning Tasks](https://arxiv.org/abs/2010.07956v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jamiehadd/ssnmf)",
+      "n": "SSNMF",
+      "d": "2020-10-15",
+      "m1": "81.88"
+    },
+    {
+      "p": "[Rep the Set: Neural Networks for Learning Set Representations](https://arxiv.org/abs/1904.01962v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/giannisnik/repset)",
+      "n": "ApproxRepSet",
+      "d": "2019-04-03",
+      "m1": "76.18"
+    },
+    {
+      "p": "[Speeding up Word Mover's Distance and its variants via properties of distances between embeddings](https://arxiv.org/abs/1912.00509v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/matwerner/fast-wmd)",
+      "n": "REL-RWMD k-NN",
+      "d": "2019-12-01",
+      "m1": "74.78"
+    },
+    {
+      "p": "[Text classification with word embedding regularization and soft similarity measure](https://arxiv.org/abs/2003.05019v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/MIR-MU/regularized-embeddings)",
+      "n": "Orthogonalized Soft VSM",
+      "d": "2020-03-10",
+      "m1": "70.28"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,326 @@
+# dichotomous-image-segmentation-on-dis-te4
+
+[Dataset Link](https://xuebinqin.github.io/dis/index.html) \
+Task Hierarchy: ['16k', 'Object Detection', 'RGB Salient Object Detection', 'Dichotomous Image Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "max F-Measure",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "weighted F-measure",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "MAE",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "S-Measure",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "E-measure",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "HCE",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Multi-view Aggregation Network for Dichotomous Image Segmentation](https://arxiv.org/abs/2404.07445v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/qianyu-dlut/mvanet)",
+      "n": "MVANet",
+      "d": "2024-04-11",
+      "m1": "0.912",
+      "m2": "0.857",
+      "m3": "0.041",
+      "m4": "0.903",
+      "m5": "0.944",
+      "m6": "2331"
+    },
+    {
+      "p": "[Patch-Depth Fusion: Dichotomous Image Segmentation via Fine-Grained Patch Strategy and Depth Integrity-Prior](https://arxiv.org/abs/2503.06100v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/tennine2077/pdfnet)",
+      "n": "PDFNet",
+      "d": "2025-03-08",
+      "m1": "0.911",
+      "m2": "0.867",
+      "m3": "0.037",
+      "m4": "0.910",
+      "m5": "0.941"
+    },
+    {
+      "p": "[Revisiting Image Pyramid Structure for High Resolution Salient Object Detection](https://arxiv.org/abs/2209.09475v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/plemeri/transparent-background)",
+      "n": "InSPyReNet (HR scale)",
+      "d": "2022-09-20",
+      "m1": "0.905",
+      "m2": "0.848",
+      "m3": "0.042",
+      "m4": "0.905",
+      "m5": "0.926",
+      "m6": "2336"
+    },
+    {
+      "p": "[Bilateral Reference for High-Resolution Dichotomous Image Segmentation](https://arxiv.org/abs/2401.03407v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhengpeng7/birefnet)",
+      "n": "BiRefNet",
+      "d": "2024-01-07",
+      "m1": "0.900",
+      "m2": "0.861",
+      "m3": "0.040",
+      "m4": "0.898",
+      "m5": "0.937",
+      "m6": "2746"
+    },
+    {
+      "p": "[Revisiting Image Pyramid Structure for High Resolution Salient Object Detection](https://arxiv.org/abs/2209.09475v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/plemeri/transparent-background)",
+      "n": "InSPyReNet",
+      "d": "2022-09-20",
+      "m1": "0.892",
+      "m2": "0.840",
+      "m3": "0.046",
+      "m4": "0.891",
+      "m5": "0.926",
+      "m6": "2243"
+    },
+    {
+      "p": "[Highly Accurate Dichotomous Image Segmentation](https://arxiv.org/abs/2203.03041v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/xuebinqin/DIS)",
+      "n": "IS-Net",
+      "d": "2022-03-06",
+      "m1": "0.827",
+      "m2": "0.753",
+      "m3": "0.072",
+      "m4": "0.83",
+      "m5": "0.87",
+      "m6": "2888"
+    },
+    {
+      "p": "[U$^2$-Net: Going Deeper with Nested U-Structure for Salient Object Detection](https://arxiv.org/abs/2005.09007v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/xuebinqin/U-2-Net)",
+      "n": "U2Net",
+      "d": "2020-05-18",
+      "m1": "0.795",
+      "m2": "0.705",
+      "m3": "0.087",
+      "m4": "0.807",
+      "m5": "0.847",
+      "m6": "3653"
+    },
+    {
+      "p": "[HyperSeg: Patch-wise Hypernetwork for Real-time Semantic Segmentation](https://arxiv.org/abs/2012.11582v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/YuvalNirkin/hyperseg)",
+      "n": "HySM",
+      "d": "2020-12-21",
+      "m1": "0.782",
+      "m2": "0.693",
+      "m3": "0.091",
+      "m4": "0.802",
+      "m5": "0.842",
+      "m6": "3331"
+    },
+    {
+      "p": "[BASNet: Boundary-Aware Salient Object Detection](http://openaccess.thecvf.com/content_CVPR_2019/html/Qin_BASNet_Boundary-Aware_Salient_Object_Detection_CVPR_2019_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/NathanUA/BASNet)",
+      "n": "BASNet",
+      "d": "2019-06-01",
+      "m1": "0.780",
+      "m2": "0.693",
+      "m3": "0.091",
+      "m4": "0.794",
+      "m5": "0.848",
+      "m6": "3601"
+    },
+    {
+      "p": "[Deep High-Resolution Representation Learning for Visual Recognition](https://arxiv.org/abs/1908.07919v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection)",
+      "n": "HRNet",
+      "d": "2019-08-20",
+      "m1": "0.772",
+      "m2": "0.687",
+      "m3": "0.092",
+      "m4": "0.792",
+      "m5": "0.854",
+      "m6": "3864"
+    },
+    {
+      "p": "[U-Net: Convolutional Networks for Biomedical Image Segmentation](http://arxiv.org/abs/1505.04597v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+      "n": "UNet",
+      "d": "2015-05-18",
+      "m1": "0.759",
+      "m2": "0.659",
+      "m3": "0.102",
+      "m5": "0.821",
+      "m6": "3218"
+    },
+    {
+      "p": "[ICNet for Real-Time Semantic Segmentation on High-Resolution Images](http://arxiv.org/abs/1704.08545v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/osmr/imgclsmob)",
+      "n": "ICNet",
+      "d": "2017-04-27",
+      "m1": "0.749",
+      "m2": "0.663",
+      "m3": "0.099",
+      "m4": "0.776",
+      "m5": "0.837",
+      "m6": "3690"
+    },
+    {
+      "p": "[Searching for MobileNetV3](https://arxiv.org/abs/1905.02244v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+      "n": "MBV3",
+      "d": "2019-05-06",
+      "m1": "0.736",
+      "m2": "0.664",
+      "m3": "0.098",
+      "m4": "0.770",
+      "m5": "0.848",
+      "m6": "3817"
+    },
+    {
+      "p": "[Rethinking BiSeNet For Real-time Semantic Segmentation](https://arxiv.org/abs/2104.13188v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleSeg)",
+      "n": "STDC",
+      "d": "2021-04-27",
+      "m1": "0.731",
+      "m2": "0.652",
+      "m3": "0.102",
+      "m4": "0.762",
+      "m5": "0.841",
+      "m6": "3819"
+    },
+    {
+      "p": "[Camouflaged Object Segmentation with Distraction Mining](https://arxiv.org/abs/2104.10475v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Mhaiyang/CVPR2021_PFNet)",
+      "n": "PFNet",
+      "d": "2021-04-21",
+      "m1": "0.731",
+      "m2": "0.647",
+      "m3": "0.107",
+      "m4": "0.763",
+      "m5": "0.838",
+      "m6": "3803"
+    },
+    {
+      "p": "[Suppress and Balance: A Simple Gated Network for Salient Object Detection](https://arxiv.org/abs/2007.08074v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Xiaoqi-Zhao-DLUT/GateNet-RGB-Saliency)",
+      "n": "GateNet",
+      "d": "2020-07-16",
+      "m1": "0.729",
+      "m2": "0.625",
+      "m3": "0.109",
+      "m4": "0.743",
+      "m5": "0.803",
+      "m6": "3654"
+    },
+    {
+      "p": "[Pyramid Scene Parsing Network](http://arxiv.org/abs/1612.01105v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+      "n": "PSPNet",
+      "d": "2016-12-04",
+      "m1": "0.725",
+      "m2": "0.630",
+      "m3": "0.107",
+      "m4": "0.758",
+      "m5": "0.815",
+      "m6": "3806"
+    },
+    {
+      "p": "[F3Net: Fusion, Feedback and Focus for Salient Object Detection](https://arxiv.org/abs/1911.11445v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/weijun88/F3Net)",
+      "n": "F3Net",
+      "d": "2019-11-26",
+      "m1": "0.721",
+      "m2": "0.633",
+      "m3": "0.107",
+      "m4": "0.752",
+      "m5": "0.825",
+      "m6": "3760"
+    },
+    {
+      "p": "[Rethinking Atrous Convolution for Semantic Image Segmentation](http://arxiv.org/abs/1706.05587v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+      "n": "DeeplabV3+",
+      "d": "2017-06-17",
+      "m1": "0.715",
+      "m2": "0.621",
+      "m3": "0.111",
+      "m4": "0.744",
+      "m5": "0.820",
+      "m6": "3709"
+    },
+    {
+      "p": "[BiSeNet: Bilateral Segmentation Network for Real-time Semantic Segmentation](http://arxiv.org/abs/1808.00897v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleSeg)",
+      "n": "BSV1",
+      "d": "2018-08-02",
+      "m1": "0.710",
+      "m2": "0.598",
+      "m3": "0.114",
+      "m4": "0.755",
+      "m5": "0.788",
+      "m6": "3999"
+    },
+    {
+      "p": "[Concealed Object Detection](https://arxiv.org/abs/2102.10274v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/GewelsJI/SINet-V2)",
+      "n": "SINetV2",
+      "d": "2021-02-20",
+      "m1": "0.699",
+      "m2": "0.616",
+      "m3": "0.113",
+      "m4": "0.744",
+      "m5": "0.824",
+      "m6": "3683"
+    },
+    {
+      "p": "[Global Context-Aware Progressive Aggregation Network for Salient Object Detection](https://arxiv.org/abs/2003.00651v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/JosephChenHub/GCPANet)",
+      "n": "GCPANet",
+      "d": "2020-03-02",
+      "m1": "0.670",
+      "m2": "0.559",
+      "m3": "0.127",
+      "m4": "0.723",
+      "m5": "0.767",
+      "m6": "3678"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

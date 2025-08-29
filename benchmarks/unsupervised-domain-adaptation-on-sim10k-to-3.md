@@ -1,0 +1,130 @@
+# unsupervised-domain-adaptation-on-sim10k-to-3
+
+[Dataset Link](https://fcav.engin.umich.edu/projects/driving-in-the-matrix) \
+Task Hierarchy: ['Unsupervised Domain Adaptation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mAP@0.5",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Align and Distill: Unifying and Improving Domain Adaptive Object Detection](https://arxiv.org/abs/2403.12029v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/justinkay/aldi)",
+      "n": "ALDI++",
+      "d": "2024-03-18",
+      "m1": "77.8"
+    },
+    {
+      "p": "[Align and Distill: Unifying and Improving Domain Adaptive Object Detection](https://arxiv.org/abs/2403.12029v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/justinkay/aldi)",
+      "n": "ALDI-YOLO",
+      "d": "2024-03-18",
+      "m1": "75.0"
+    },
+    {
+      "p": "[Align and Distill: Unifying and Improving Domain Adaptive Object Detection](https://arxiv.org/abs/2403.12029v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/justinkay/aldi)",
+      "n": "MIC(ALDI frame)",
+      "d": "2024-03-18",
+      "m1": "73.1"
+    },
+    {
+      "p": "[Align and Distill: Unifying and Improving Domain Adaptive Object Detection](https://arxiv.org/abs/2403.12029v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/justinkay/aldi)",
+      "n": "AT(ALDI frame)",
+      "d": "2024-03-18",
+      "m1": "72.0"
+    },
+    {
+      "p": "[Align and Distill: Unifying and Improving Domain Adaptive Object Detection](https://arxiv.org/abs/2403.12029v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/justinkay/aldi)",
+      "n": "SADA(ALDI frame)",
+      "d": "2024-03-18",
+      "m1": "71.8"
+    },
+    {
+      "p": "[Align and Distill: Unifying and Improving Domain Adaptive Object Detection](https://arxiv.org/abs/2403.12029v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/justinkay/aldi)",
+      "n": "PT(ALDI frame)",
+      "d": "2024-03-18",
+      "m1": "70.6"
+    },
+    {
+      "p": "[RT-DATR:Real-time Unsupervised Domain Adaptive Detection Transformer with Adversarial Feature Learning](https://arxiv.org/abs/2504.09196v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Jeremy-lf/RT-DATR)",
+      "n": "RT-DATR(real-time, 640x640)",
+      "d": "2025-04-12",
+      "m1": "67.2"
+    },
+    {
+      "p": "[Diffusion Domain Teacher: Diffusion Guided Domain Adaptive Object Detector](https://arxiv.org/abs/2506.04211v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/heboyong/Diffusion-Domain-Teacher)",
+      "n": "DDT",
+      "d": "2025-06-04",
+      "m1": "64.0"
+    },
+    {
+      "p": "[Masked Retraining Teacher-Student Framework for Domain Adaptive Object Detection](http://openaccess.thecvf.com//content/ICCV2023/html/Zhao_Masked_Retraining_Teacher-Student_Framework_for_Domain_Adaptive_Object_Detection_ICCV_2023_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/jeremyzhao1998/mrt-release)",
+      "n": "MRT",
+      "d": "2023-01-01",
+      "m1": "62.0"
+    },
+    {
+      "p": "[MILA: Memory-Based Instance-Level Adaptation for Cross-Domain Object Detection](https://arxiv.org/abs/2309.01086v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/hitachi-rd-cv/MILA)",
+      "n": "MILA",
+      "d": "2023-09-03",
+      "m1": "57.4"
+    },
+    {
+      "p": "[AWADA: Attention-Weighted Adversarial Domain Adaptation for Object Detection](https://arxiv.org/abs/2208.14662v1)",
+      "c": "",
+      "n": "AWADA",
+      "d": "2022-08-31",
+      "m1": "54.1"
+    },
+    {
+      "p": "[To miss-attend is to misalign! Residual Self-Attentive Feature Alignment for Adapting Object Detectors](https://openaccess.thecvf.com/content/WACV2022/html/Khindkar_To_Miss-Attend_Is_to_Misalign_Residual_Self-Attentive_Feature_Alignment_for_WACV_2022_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/Vaishnvi/ILLUME)",
+      "n": "ILLUME",
+      "d": "2022-01-05",
+      "m1": "53.1"
+    },
+    {
+      "p": "[Seeking Similarities over Differences: Similarity-based Domain Alignment for Adaptive Object Detection](https://arxiv.org/abs/2110.01428v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/frezaeix/VISGA_Public)",
+      "n": "ViSGA",
+      "d": "2021-10-04",
+      "m1": "52.1"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

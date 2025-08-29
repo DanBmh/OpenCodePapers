@@ -1,0 +1,67 @@
+# partial-domain-adaptation-on-imagenet-caltech
+
+[Dataset Link]() \
+Task Hierarchy: ['Domain Adaptation', 'Partial Domain Adaptation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy (%)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Adversarial Reweighting for Partial Domain Adaptation](http://proceedings.neurips.cc/paper/2021/hash/7ce3284b743aefde80ffd9aec500e085-Abstract.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/xjtu-xgu/adversarial-reweighting-for-partial-domain-adaptation)",
+      "n": "AR",
+      "d": "2021-12-01",
+      "m1": "84.69"
+    },
+    {
+      "p": "[A Balanced and Uncertainty-aware Approach for Partial Domain Adaptation](https://arxiv.org/abs/2003.02541v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tim-learn/BA3US)",
+      "n": "BA^3US",
+      "d": "2020-03-05",
+      "m1": "83.7"
+    },
+    {
+      "p": "[Select, Label, and Mix: Learning Discriminative Invariant Feature Representations for Partial Domain Adaptation](https://arxiv.org/abs/2012.03358v2)",
+      "c": "",
+      "n": "SLM",
+      "d": "2020-12-06",
+      "m1": "81.86"
+    },
+    {
+      "p": "[Learning to Transfer Examples for Partial Domain Adaptation](http://arxiv.org/abs/1903.12230v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/thuml/ETN)",
+      "n": "ETN",
+      "d": "2019-03-28",
+      "m1": "79.1"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

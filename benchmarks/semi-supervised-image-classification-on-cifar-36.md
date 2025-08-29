@@ -1,0 +1,67 @@
+# semi-supervised-image-classification-on-cifar-36
+
+[Dataset Link]() \
+Task Hierarchy: ['Semi-Supervised Image Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Scaling Up Semi-supervised Learning with Unconstrained Unlabelled Data](https://arxiv.org/abs/2306.01222v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/shuvenduroy/unmixmatch)",
+      "n": "UnMixMatch",
+      "d": "2023-06-02",
+      "m1": "95.7"
+    },
+    {
+      "p": "[OpenMatch: Open-Set Semi-supervised Learning with Open-set Consistency Regularization](http://proceedings.neurips.cc/paper/2021/hash/da11e8cd1811acb79ccf0fd62cd58f86-Abstract.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/VisionLearningGroup/OP_Match)",
+      "n": "OpenMatch",
+      "d": "2021-12-01",
+      "m1": "89.6"
+    },
+    {
+      "p": "[Multi-Task Curriculum Framework for Open-Set Semi-Supervised Learning](https://arxiv.org/abs/2007.11330v1)",
+      "c": "",
+      "n": "MTC",
+      "d": "2020-07-22",
+      "m1": "79.7"
+    },
+    {
+      "p": "[FixMatch: Simplifying Semi-Supervised Learning with Consistency and Confidence](https://arxiv.org/abs/2001.07685v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/fixmatch)",
+      "n": "FixMatch",
+      "d": "2020-01-21",
+      "m1": "56.8"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

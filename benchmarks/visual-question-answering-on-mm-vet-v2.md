@@ -1,0 +1,220 @@
+# visual-question-answering-on-mm-vet-v2
+
+[Dataset Link](https://github.com/yuweihao/MM-Vet) \
+Task Hierarchy: ['Visual Question Answering']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "GPT-4 score",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Params",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "gemini-2.0-flash-exp",
+      "d": null,
+      "m1": "77.1\u00b10.1"
+    },
+    {
+      "p": "[GPT-4 Technical Report](https://arxiv.org/abs/2303.08774v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/openai/evals)",
+      "n": "GPT-4o (gpt-4o-2024-11-20)",
+      "d": "2023-03-15",
+      "m1": "72.1\u00b10.2"
+    },
+    {
+      "p": "[Claude 3.5 Sonnet Model Card Addendum](https://www-cdn.anthropic.com/fed9cc193a14b84131812372d8d5857f8f304c52/Model_Card_Claude_3_Addendum.pdf)",
+      "c": "",
+      "n": "Claude 3.5 Sonnet  (claude-3-5-sonnet-20240620)",
+      "d": "2024-06-24",
+      "m1": "71.8\u00b10.2"
+    },
+    {
+      "p": "[GPT-4 Technical Report](https://arxiv.org/abs/2303.08774v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/openai/evals)",
+      "n": "GPT-4o (gpt-4o-2024-05-13)",
+      "d": "2023-03-15",
+      "m1": "71.0\u00b10.2"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "InternVL2-Llama3-76B",
+      "d": null,
+      "m1": "68.4\u00b10.3",
+      "m2": "76B"
+    },
+    {
+      "p": "[Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context](https://arxiv.org/abs/2403.05530v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/dlvuldet/primevul)",
+      "n": "Gemini 1.5 Pro",
+      "d": "2024-03-08",
+      "m1": "66.9\u00b10.2"
+    },
+    {
+      "p": "[Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution](https://arxiv.org/abs/2409.12191v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/qwenlm/qwen2-vl)",
+      "n": "Qwen2-VL-72B (qwen-vl-max-0809)",
+      "d": "2024-09-18",
+      "m1": "66.9\u00b10.3",
+      "m2": "72B"
+    },
+    {
+      "p": "[GPT-4 Technical Report](https://arxiv.org/abs/2303.08774v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/openai/evals)",
+      "n": "gpt-4o-mini-2024-07-18",
+      "d": "2023-03-15",
+      "m1": "66.8\u00b10.3"
+    },
+    {
+      "p": "[GPT-4 Technical Report](https://arxiv.org/abs/2303.08774v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/openai/evals)",
+      "n": "GPT-4 Turbo (gpt-4-0125-preview)",
+      "d": "2023-03-15",
+      "m1": "66.3\u00b10.2"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "InternVL2-40B",
+      "d": null,
+      "m1": "63.8\u00b10.2",
+      "m2": "40B"
+    },
+    {
+      "p": "[Gemini: A Family of Highly Capable Multimodal Models](https://arxiv.org/abs/2312.11805v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/valdecy/pybibx)",
+      "n": "Gemini Pro Vision",
+      "d": "2023-12-19",
+      "m1": "57.2\u00b10.2"
+    },
+    {
+      "p": "[Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond](https://arxiv.org/abs/2308.12966v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/qwenlm/qwen-vl)",
+      "n": "Qwen-VL-Max",
+      "d": "2023-08-24",
+      "m1": "55.8\u00b10.2"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Claude 3 Opus (claude-3-opus-20240229)",
+      "d": null,
+      "m1": "55.8\u00b10.2"
+    },
+    {
+      "p": "[How Far Are We to GPT-4V? Closing the Gap to Commercial Multimodal Models with Open-Source Suites](https://arxiv.org/abs/2404.16821v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internvl)",
+      "n": "InternVL-Chat-V1-5",
+      "d": "2024-04-25",
+      "m1": "51.5\u00b10.2"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "LLaVA-NeXT-34B",
+      "d": null,
+      "m1": "50.9\u00b10.1",
+      "m2": "34B"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "InternVL-Chat-V1-2",
+      "d": null,
+      "m1": "45.5\u00b10.1"
+    },
+    {
+      "p": "[CogVLM: Visual Expert for Pretrained Language Models](https://arxiv.org/abs/2311.03079v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/thudm/cogvlm)",
+      "n": "CogVLM-Chat",
+      "d": "2023-11-06",
+      "m1": "45.1\u00b10.2"
+    },
+    {
+      "p": "[InternLM-XComposer2: Mastering Free-form Text-Image Composition and Comprehension in Vision-Language Large Model](https://arxiv.org/abs/2401.16420v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/internlm/internlm-xcomposer)",
+      "n": "IXC2-VL-7B",
+      "d": "2024-01-29",
+      "m1": "42.5\u00b10.3"
+    },
+    {
+      "p": "[Generative Multimodal Models are In-Context Learners](https://arxiv.org/abs/2312.13286v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/baaivision/emu)",
+      "n": "Emu2-Chat",
+      "d": "2023-12-20",
+      "m1": "38.0\u00b10.1"
+    },
+    {
+      "p": "[CogAgent: A Visual Language Model for GUI Agents](https://arxiv.org/abs/2312.08914v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/thudm/cogvlm)",
+      "n": "CogAgent-Chat",
+      "d": "2023-12-14",
+      "m1": "34.7\u00b10.2"
+    },
+    {
+      "p": "[Improved Baselines with Visual Instruction Tuning](https://arxiv.org/abs/2310.03744v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "LLaVA-v1.5-13B",
+      "d": "2023-10-05",
+      "m1": "33.2\u00b10.1",
+      "m2": "13B"
+    },
+    {
+      "p": "[Improved Baselines with Visual Instruction Tuning](https://arxiv.org/abs/2310.03744v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "LLaVA-v1.5-7B",
+      "d": "2023-10-05",
+      "m1": "28.3\u00b10.2",
+      "m2": "7B"
+    },
+    {
+      "p": "[MIMIC-IT: Multi-Modal In-Context Instruction Tuning](https://arxiv.org/abs/2306.05425v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/luodian/otter)",
+      "n": "Otter-9B",
+      "d": "2023-06-08",
+      "m1": "23.2\u00b10.1",
+      "m2": "9B"
+    },
+    {
+      "p": "[OpenFlamingo: An Open-Source Framework for Training Large Autoregressive Vision-Language Models](https://arxiv.org/abs/2308.01390v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mlfoundations/open_flamingo)",
+      "n": "OpenFlamingo-9B",
+      "d": "2023-08-02",
+      "m1": "17.6\u00b10.2",
+      "m2": "9B"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

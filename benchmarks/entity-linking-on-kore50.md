@@ -1,0 +1,73 @@
+# entity-linking-on-kore50
+
+[Dataset Link]() \
+Task Hierarchy: ['Entity Linking']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Micro-F1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Micro-F1 strong",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[ReLiK: Retrieve and LinK, Fast and Accurate Entity Linking and Relation Extraction on an Academic Budget](https://arxiv.org/abs/2408.00103v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/SapienzaNLP/relik)",
+      "n": "ReLiK-Large",
+      "d": "2024-07-31",
+      "m1": "72.8"
+    },
+    {
+      "p": "[ReLiK: Retrieve and LinK, Fast and Accurate Entity Linking and Relation Extraction on an Academic Budget](https://arxiv.org/abs/2408.00103v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/SapienzaNLP/relik)",
+      "n": "ReLiK-Base",
+      "d": "2024-07-31",
+      "m1": "68"
+    },
+    {
+      "p": "[ReFinED: An Efficient Zero-shot-capable Approach to End-to-End Entity Linking](https://arxiv.org/abs/2207.04108v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/amazon-science/ReFinED)",
+      "n": "ReFinED",
+      "d": "2022-07-08",
+      "m1": "65.9",
+      "m2": "64.7"
+    },
+    {
+      "p": "[Entity Disambiguation via Fusion Entity Decoding](https://arxiv.org/abs/2404.01626v2)",
+      "c": "",
+      "n": "FusionED",
+      "d": "2024-04-02",
+      "m2": "65.1"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

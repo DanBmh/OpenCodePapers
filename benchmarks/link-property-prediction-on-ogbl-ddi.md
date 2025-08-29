@@ -1,0 +1,364 @@
+# link-property-prediction-on-ogbl-ddi
+
+[Dataset Link](https://ogb.stanford.edu/) \
+Task Hierarchy: ['Link Property Prediction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Ext. data",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Test Hits@20",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Validation Hits@20",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Number of params",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "HyperFusion",
+      "d": null,
+      "m1": "No",
+      "m2": "0.9972 \u00b1 0.0004",
+      "m3": "0.9956 \u00b1 0.0001",
+      "m4": "976022023"
+    },
+    {
+      "p": "[Ensemble Learning for Graph Neural Networks](https://arxiv.org/abs/2310.14166v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/wongzhenhao/ELGNN)",
+      "n": "ELGNN",
+      "d": "2023-10-22",
+      "m1": "No",
+      "m2": "0.9777 \u00b1 0.0037",
+      "m3": "0.8965 \u00b1 0.0021",
+      "m4": "10512391"
+    },
+    {
+      "p": "[Can GNNs Learn Link Heuristics? A Concise Review and Evaluation of Link Prediction Methods](https://arxiv.org/abs/2411.14711v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/astroming/GNNHE)",
+      "n": "GCN (node embedding)",
+      "d": "2024-11-22",
+      "m1": "No",
+      "m2": "0.9549 \u00b1 0.0073",
+      "m3": "0.9098 \u00b1 0.0294",
+      "m4": "5125250"
+    },
+    {
+      "p": "[GIDN: A Lightweight Graph Inception Diffusion Network for High-efficient Link Prediction](https://arxiv.org/abs/2210.01301v3)",
+      "c": "",
+      "n": "GIDN@YITU",
+      "d": "2022-10-04",
+      "m1": "No",
+      "m2": "0.9542 \u00b1 0.0000",
+      "m3": "0.8258 \u00b1 0.0000",
+      "m4": "3506691"
+    },
+    {
+      "p": "[Adaptive Graph Diffusion Networks](https://arxiv.org/abs/2012.15024v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/skepsun/SAGN_with_SLE)",
+      "n": "AGDN (AUC loss)",
+      "d": "2020-12-30",
+      "m1": "No",
+      "m2": "0.9538 \u00b1 0.0094",
+      "m3": "0.8943 \u00b1 0.0281",
+      "m4": "3506691"
+    },
+    {
+      "p": "[Reconsidering the Performance of GAE in Link Prediction](https://arxiv.org/abs/2411.03845v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/GraphPKU/Refined-GAE)",
+      "n": "Refined-GAE",
+      "d": "2024-11-06",
+      "m1": "No",
+      "m2": "0.9443 \u00b1 0.0057",
+      "m3": "0.7979 \u00b1 0.0159",
+      "m4": "13816833"
+    },
+    {
+      "p": "[Path-aware Siamese Graph Neural Network for Link Prediction](https://arxiv.org/abs/2208.05781v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jingsonglv/PSG)",
+      "n": "PSG",
+      "d": "2022-08-10",
+      "m1": "No",
+      "m2": "0.9284 \u00b1 0.0047",
+      "m3": "0.8306 \u00b1 0.0134",
+      "m4": "3499009"
+    },
+    {
+      "p": "[Pairwise Learning for Neural Link Prediction](https://arxiv.org/abs/2112.02936v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhitao-wang/PLNLP)",
+      "n": "PLNLP",
+      "d": "2021-12-06",
+      "m1": "No",
+      "m2": "0.9088 \u00b1 0.0313",
+      "m3": "0.8242 \u00b1 0.0253",
+      "m4": "3497473"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "GDNN",
+      "d": null,
+      "m1": "No",
+      "m2": "0.9037 \u00b1 0.0193",
+      "m3": "0.8599 \u00b1 0.0286",
+      "m4": "3761665"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "GraphSAGE + Edge Attr",
+      "d": null,
+      "m1": "No",
+      "m2": "0.8781 \u00b1 0.0474",
+      "m3": "0.8044 \u00b1 0.0404",
+      "m4": "3761665"
+    },
+    {
+      "p": "[Learning from Counterfactual Links for Link Prediction](https://arxiv.org/abs/2106.02172v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/DM2-ND/CFLP)",
+      "n": "CFLP (w/ JKNet)",
+      "d": "2021-06-03",
+      "m1": "No",
+      "m2": "0.8608 \u00b1 0.0198",
+      "m3": "0.8405 \u00b1 0.0284",
+      "m4": "837635"
+    },
+    {
+      "p": "[Distance-Enhanced Graph Neural Network for Link Prediction](https://www.dropbox.com/s/is3f4dfvtvnis7w/DEGNN_linkPrediction.pdf?dl=0)",
+      "c": "[&check;&nbsp;Link](https://github.com/lbn187/DLGNN)",
+      "n": "GraphSAGE+anchor distance",
+      "d": "2021-05-20",
+      "m1": "No",
+      "m2": "0.8239 \u00b1 0.0437",
+      "m3": "0.8206 \u00b1 0.0298",
+      "m4": "3760134"
+    },
+    {
+      "p": "[Neural Common Neighbor with Completion for Link Prediction](https://arxiv.org/abs/2302.00890v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/GraphPKU/NeuralCommonNeighbor)",
+      "n": "NeuralCommonNeighbor",
+      "d": "2023-02-02",
+      "m1": "No",
+      "m2": "0.8232 \u00b1 0.0610",
+      "m3": "0.7172 \u00b1 0.0025",
+      "m4": "1412098"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "ELPH",
+      "d": null,
+      "m1": "No",
+      "m2": "0.7704 \u00b1 0.0582",
+      "m3": "0.6928 \u00b1 0.0096",
+      "m4": "2910817"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "DEA + JKNet",
+      "d": null,
+      "m1": "No",
+      "m2": "0.7672 \u00b1 0.0265",
+      "m3": "0.6713 \u00b1 0.0071",
+      "m4": "1763329"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "BUDDY",
+      "d": null,
+      "m1": "No",
+      "m2": "0.7654 \u00b1 0.0459",
+      "m3": "0.6927 \u00b1 0.0054",
+      "m4": "2712931"
+    },
+    {
+      "p": "[Edge Proposal Sets for Link Prediction](https://arxiv.org/abs/2106.15810v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/sangyx/gtrick/tree/main/benchmark/pyg)",
+      "n": "GraphSAGE+Edge Proposal Set",
+      "d": "2021-06-30",
+      "m1": "No",
+      "m2": "0.7495 \u00b1 0.0317",
+      "m3": "0.6696 \u00b1 0.0198",
+      "m4": "1421057"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "LRGA+GCN(Node2Vec+Augment)",
+      "d": null,
+      "m1": "No",
+      "m2": "0.7385 \u00b1 0.0871",
+      "m3": "0.7225 \u00b1 0.0047",
+      "m4": "10235281"
+    },
+    {
+      "p": "[Memory-Associated Differential Learning](https://arxiv.org/abs/2102.05246v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/cf020031308/mad-learning)",
+      "n": "MAD Learning",
+      "d": "2021-02-10",
+      "m1": "No",
+      "m2": "0.6781 \u00b1 0.0294",
+      "m3": "0.7010 \u00b1 0.0082",
+      "m4": "1228897"
+    },
+    {
+      "p": "[Global Attention Improves Graph Networks Generalization](https://arxiv.org/abs/2006.07846v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/omri1348/LRGA)",
+      "n": "LRGA + GCN",
+      "d": "2020-06-14",
+      "m1": "No",
+      "m2": "0.6230 \u00b1 0.0912",
+      "m3": "0.6675 \u00b1 0.0058",
+      "m4": "1576081"
+    },
+    {
+      "p": "[Semi-Supervised Classification with Graph Convolutional Networks](http://arxiv.org/abs/1609.02907v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/mxnet/gcn)",
+      "n": "GCN+JKNet",
+      "d": "2016-09-09",
+      "m1": "No",
+      "m2": "0.6056 \u00b1 0.0869",
+      "m3": "0.6776 \u00b1 0.0095",
+      "m4": "1421571"
+    },
+    {
+      "p": "[Network In Graph Neural Network](https://arxiv.org/abs/2111.11638v1)",
+      "c": "",
+      "n": "NGNN + GraphSAGE",
+      "d": "2021-11-23",
+      "m1": "No",
+      "m2": "0.5770 \u00b1 0.1523",
+      "m3": "0.7323 \u00b1 0.0040",
+      "m4": "1618433"
+    },
+    {
+      "p": "[Network In Graph Neural Network](https://arxiv.org/abs/2111.11638v1)",
+      "c": "",
+      "n": "NGNN + GCN",
+      "d": "2021-11-23",
+      "m1": "No",
+      "m2": "0.5483 \u00b1 0.1581",
+      "m3": "0.7121 \u00b1 0.0038",
+      "m4": "1487361"
+    },
+    {
+      "p": "[Inductive Representation Learning on Large Graphs](http://arxiv.org/abs/1706.02216v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/pyg-team/pytorch_geometric/blob/master/torch_geometric/nn/models/basic_gnn.py)",
+      "n": "GraphSAGE",
+      "d": "2017-06-07",
+      "m1": "No",
+      "m2": "0.5390 \u00b1 0.0474",
+      "m3": "0.6262 \u00b1 0.0037",
+      "m4": "1421057"
+    },
+    {
+      "p": "[Semi-Supervised Classification with Graph Convolutional Networks](http://arxiv.org/abs/1609.02907v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/mxnet/gcn)",
+      "n": "GCN",
+      "d": "2016-09-09",
+      "m1": "No",
+      "m2": "0.3707 \u00b1 0.0507",
+      "m3": "0.5550 \u00b1 0.0208",
+      "m4": "1289985"
+    },
+    {
+      "p": "[Labeling Trick: A Theory of Using Graph Neural Networks for Multi-Node Representation Learning](https://arxiv.org/abs/2010.16103v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/seal)",
+      "n": "SEAL",
+      "d": "2020-10-30",
+      "m1": "No",
+      "m2": "0.3056 \u00b1 0.0386",
+      "m3": "0.2849 \u00b1 0.0269",
+      "m4": "531138"
+    },
+    {
+      "p": "[node2vec: Scalable Feature Learning for Networks](http://arxiv.org/abs/1607.00653v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/node2vec)",
+      "n": "Node2vec",
+      "d": "2016-07-03",
+      "m1": "No",
+      "m2": "0.2326 \u00b1 0.0209",
+      "m3": "0.3292 \u00b1 0.0121",
+      "m4": "645249"
+    },
+    {
+      "p": "[DeepWalk: Online Learning of Social Representations](http://arxiv.org/abs/1403.6652v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleRec/tree/master/models/recall/deepwalk)",
+      "n": "DeepWalk",
+      "d": "2014-03-26",
+      "m1": "No",
+      "m2": "0.2246 \u00b1 0.0290",
+      "m3": "Please tell us",
+      "m4": "1543913"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Adamic Adar",
+      "d": null,
+      "m1": "No",
+      "m2": "0.1861 \u00b1 0.0000",
+      "m3": "0.0966 \u00b1 0.0000",
+      "m4": "0"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Common Neighbor",
+      "d": null,
+      "m1": "No",
+      "m2": "0.1773 \u00b1 0.0000",
+      "m3": "0.0947 \u00b1 0.0000",
+      "m4": "0"
+    },
+    {
+      "p": "[Open Graph Benchmark: Datasets for Machine Learning on Graphs](https://arxiv.org/abs/2005.00687v7)",
+      "c": "[&check;&nbsp;Link](https://github.com/snap-stanford/ogb)",
+      "n": "Matrix Factorization",
+      "d": "2020-05-02",
+      "m1": "No",
+      "m2": "0.1368 \u00b1 0.0475",
+      "m3": "0.3370 \u00b1 0.0264",
+      "m4": "1224193"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

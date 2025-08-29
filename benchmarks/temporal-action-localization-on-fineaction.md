@@ -1,0 +1,138 @@
+# temporal-action-localization-on-fineaction
+
+[Dataset Link](https://deeperaction.github.io/datasets/fineaction.html) \
+Task Hierarchy: ['Action Localization', 'Temporal Action Localization']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mAP",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "mAP IOU@0.5",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "mAP IOU@0.75",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "mAP IOU@0.95",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Enhancing Temporal Action Localization: Advanced S6 Modeling with Recurrent Mechanism](https://arxiv.org/abs/2407.13078v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/lsy0882/RDFA-S6)",
+      "n": "RDFA-S6 (InternVideo2-6B)",
+      "d": "2024-07-18",
+      "m1": "29.6",
+      "m2": "46.4",
+      "m3": "29.5",
+      "m4": "7.6"
+    },
+    {
+      "p": "[Video Mamba Suite: State Space Model as a Versatile Alternative for Video Understanding](https://arxiv.org/abs/2403.09626v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/opengvlab/video-mamba-suite)",
+      "n": "ActionMamba(InternVideo2-6B)",
+      "d": "2024-03-14",
+      "m1": "29.04",
+      "m2": "45.44",
+      "m3": "28.82",
+      "m4": "6.79"
+    },
+    {
+      "p": "[InternVideo2: Scaling Foundation Models for Multimodal Video Understanding](https://arxiv.org/abs/2403.15377v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internvideo)",
+      "n": "InternVideo2-6B",
+      "d": "2024-03-22",
+      "m1": "27.7"
+    },
+    {
+      "p": "[DyFADet: Dynamic Feature Aggregation for Temporal Action Detection](https://arxiv.org/abs/2407.03197v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yangle15/DyFADet-pytorch)",
+      "n": "DyFADet (VideoMAE v2-g)",
+      "d": "2024-07-03",
+      "m1": "23.8",
+      "m2": "37.1",
+      "m3": "23.7",
+      "m4": "5.9"
+    },
+    {
+      "p": "[VideoMAE V2: Scaling Video Masked Autoencoders with Dual Masking](https://arxiv.org/abs/2303.16727v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/OpenGVLab/VideoMAEv2)",
+      "n": "VideoMAE V2-g",
+      "d": "2023-03-29",
+      "m1": "18.24",
+      "m2": "29.07",
+      "m3": "17.66",
+      "m4": "5.07"
+    },
+    {
+      "p": "[InternVideo: General Video Foundation Models via Generative and Discriminative Learning](https://arxiv.org/abs/2212.03191v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internvideo)",
+      "n": "InternVideo",
+      "d": "2022-12-06",
+      "m1": "17.57"
+    },
+    {
+      "p": "[BMN: Boundary-Matching Network for Temporal Action Proposal Generation](https://arxiv.org/abs/1907.09702v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/models/tree/develop/PaddleCV/video/models/bmn)",
+      "n": "BMN (i3d feaure)",
+      "d": "2019-07-23",
+      "m1": "9.25",
+      "m2": "14.44",
+      "m3": "8.92",
+      "m4": "3.12"
+    },
+    {
+      "p": "[G-TAD: Sub-Graph Localization for Temporal Action Detection](https://arxiv.org/abs/1911.11462v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Frostinassiky/gtad)",
+      "n": "G-TAD (i3d feature)",
+      "d": "2019-11-26",
+      "m1": "9.06",
+      "m2": "13.74",
+      "m3": "8.83",
+      "m4": "3.06"
+    },
+    {
+      "p": "[Fast Learning of Temporal Action Proposal via Dense Boundary Generator](https://arxiv.org/abs/1911.04127v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Tencent/ActionDetection-DBG)",
+      "n": "DBG (i3d feature)",
+      "d": "2019-11-11",
+      "m1": "6.75",
+      "m2": "10.65",
+      "m3": "6.43",
+      "m4": "2.50"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

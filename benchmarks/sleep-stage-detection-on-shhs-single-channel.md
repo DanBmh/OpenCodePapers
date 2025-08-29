@@ -1,0 +1,93 @@
+# sleep-stage-detection-on-shhs-single-channel
+
+[Dataset Link]() \
+Task Hierarchy: ['Sleep Stage Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Cohen's Kappa",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Macro-F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[MC2SleepNet: Multi-modal Cross-masking with Contrastive Learning for Sleep Stage Classification](https://arxiv.org/abs/2502.17470v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/younghoonNa/MC2SleepNet)",
+      "n": "MC2SleepNet 50% Masking (C4-A1 only)",
+      "d": "2025-02-13",
+      "m1": "88.6%",
+      "m2": "0.841",
+      "m3": "0.821"
+    },
+    {
+      "p": "[MC2SleepNet: Multi-modal Cross-masking with Contrastive Learning for Sleep Stage Classification](https://arxiv.org/abs/2502.17470v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/younghoonNa/MC2SleepNet)",
+      "n": "MC2SleepNet 15% Masking (C4-A1 only)",
+      "d": "2025-02-13",
+      "m1": "88.5%",
+      "m2": "0.840",
+      "m3": "0.823"
+    },
+    {
+      "p": "[SleePyCo: Automatic Sleep Scoring with Feature Pyramid and Contrastive Learning](https://arxiv.org/abs/2209.09452v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/gist-ailab/sleepyco)",
+      "n": "SleePyCo (C4-A1 only)",
+      "d": "2022-09-20",
+      "m1": "87.9%",
+      "m2": "0.830",
+      "m3": "0.807"
+    },
+    {
+      "p": "[XSleepNet: Multi-View Sequential Model for Automatic Sleep Staging](https://arxiv.org/abs/2007.05492v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/pquochuy/xsleepnet)",
+      "n": "XSleepNet (C4-A1 only)",
+      "d": "2020-07-08",
+      "m1": "87.7%",
+      "m2": "0.828",
+      "m3": "0.801"
+    },
+    {
+      "p": "[NeuroNet: A Novel Hybrid Self-Supervised Learning Framework for Sleep Stage Classification Using Single-Channel EEG](https://arxiv.org/abs/2404.17585v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dlcjfgmlnasa/NeuroNet)",
+      "n": "NeuroNet (C4-A1 only)",
+      "d": "2024-04-10",
+      "m1": "86.88%",
+      "m3": "0.812"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

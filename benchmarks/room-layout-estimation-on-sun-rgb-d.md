@@ -1,0 +1,110 @@
+# room-layout-estimation-on-sun-rgb-d
+
+[Dataset Link](https://rgbd.cs.princeton.edu/) \
+Task Hierarchy: ['Room Layout Estimation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "IoU",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Camera Pitch",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Camera Roll",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Holistic 3D Scene Understanding from a Single Image with Implicit Representation](https://arxiv.org/abs/2103.06422v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/chengzhag/Implicit3DUnderstanding)",
+      "n": "IM3D",
+      "d": "2021-03-11",
+      "m1": "64.4",
+      "m2": "2.98",
+      "m3": "2.11"
+    },
+    {
+      "p": "[ImVoxelNet: Image to Voxels Projection for Monocular and Multi-View General-Purpose 3D Object Detection](https://arxiv.org/abs/2106.01178v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection3d)",
+      "n": "ImVoxelNet",
+      "d": "2021-06-02",
+      "m1": "59.3",
+      "m2": "2.63",
+      "m3": "1.96"
+    },
+    {
+      "p": "[Total3DUnderstanding: Joint Layout, Object Pose and Mesh Reconstruction for Indoor Scenes from a Single Image](https://arxiv.org/abs/2002.12212v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yinyunie/Total3DUnderstanding)",
+      "n": "Total3D joint",
+      "d": "2020-02-27",
+      "m1": "59.2",
+      "m2": "3.15",
+      "m3": "2.09"
+    },
+    {
+      "p": "[Total3DUnderstanding: Joint Layout, Object Pose and Mesh Reconstruction for Indoor Scenes from a Single Image](https://arxiv.org/abs/2002.12212v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yinyunie/Total3DUnderstanding)",
+      "n": "Total w/o. joint",
+      "d": "2020-02-27",
+      "m1": "57.6",
+      "m2": "3.68",
+      "m3": "2.59"
+    },
+    {
+      "p": "[Cooperative Holistic Scene Understanding: Unifying 3D Object, Layout, and Camera Pose Estimation](http://arxiv.org/abs/1810.13049v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/thusiyuan/cooperative_scene_parsing)",
+      "n": "Cooperative",
+      "d": "2018-10-31",
+      "m1": "56.9",
+      "m2": "3.28",
+      "m3": "2.19"
+    },
+    {
+      "p": "[Holistic 3D Scene Parsing and Reconstruction from a Single RGB Image](http://arxiv.org/abs/1808.02201v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/thusiyuan/holistic_scene_parsing)",
+      "n": "Holistic",
+      "d": "2018-08-07",
+      "m1": "54.9",
+      "m2": "7.60",
+      "m3": "3.12"
+    },
+    {
+      "p": "[Understanding Indoor Scenes Using 3D Geometric Phrases](http://openaccess.thecvf.com/content_cvpr_2013/html/Choi_Understanding_Indoor_Scenes_2013_CVPR_paper.html)",
+      "c": "",
+      "n": "3DGP",
+      "d": "2013-06-01",
+      "m1": "19.2"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

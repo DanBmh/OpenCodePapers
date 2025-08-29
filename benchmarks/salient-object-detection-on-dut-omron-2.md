@@ -1,0 +1,132 @@
+# salient-object-detection-on-dut-omron-2
+
+[Dataset Link](http://saliencydetection.net/dut-omron/) \
+Task Hierarchy: ['Salient Object Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "S-measure",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "E-measure",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "MAE",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "max_F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[SAM2-UNet: Segment Anything 2 Makes Strong Encoder for Natural and Medical Image Segmentation](https://arxiv.org/abs/2408.08870v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/wzh0120/sam2-unet)",
+      "n": "SAM2-UNet",
+      "d": "2024-08-16",
+      "m1": "0.884",
+      "m2": "0.912",
+      "m3": "0.039"
+    },
+    {
+      "p": "[FOCUS: Towards Universal Foreground Segmentation](https://arxiv.org/abs/2501.05238v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/geshang777/FOCUS)",
+      "n": "FOCUS",
+      "d": "2025-01-09",
+      "m1": "0.868",
+      "m2": "0.900",
+      "m3": "0.045"
+    },
+    {
+      "p": "[Explicit Visual Prompting for Universal Foreground Segmentations](https://arxiv.org/abs/2305.18476v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nifangbaage/explict-visual-prompt)",
+      "n": "EVPv2",
+      "d": "2023-05-29",
+      "m1": "0.862",
+      "m2": "0.895",
+      "m3": "0.047",
+      "m4": "0.857"
+    },
+    {
+      "p": "[SelfReformer: Self-Refined Network with Transformer for Salient Object Detection](https://arxiv.org/abs/2205.11283v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/BarCodeReader/SelfReformer)",
+      "n": "SelfReformer-Swin",
+      "d": "2022-05-23",
+      "m1": "0.859",
+      "m2": "0.884",
+      "m3": "0.043",
+      "m4": "0.838"
+    },
+    {
+      "p": "[SelfReformer: Self-Refined Network with Transformer for Salient Object Detection](https://arxiv.org/abs/2205.11283v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/BarCodeReader/SelfReformer)",
+      "n": "SelfReformer",
+      "d": "2022-05-23",
+      "m1": "0.856",
+      "m2": "0.886",
+      "m3": "0.041",
+      "m4": "0.836"
+    },
+    {
+      "p": "[Label Decoupling Framework for Salient Object Detection](https://arxiv.org/abs/2008.11048v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/weijun88/LDF)",
+      "n": "LDF",
+      "d": "2020-08-25",
+      "m1": "0.838",
+      "m2": "0.873",
+      "m3": "0.051",
+      "m4": "0.819"
+    },
+    {
+      "p": "[F3Net: Fusion, Feedback and Focus for Salient Object Detection](https://arxiv.org/abs/1911.11445v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/weijun88/F3Net)",
+      "n": "F3Net",
+      "d": "2019-11-26",
+      "m1": "0.838",
+      "m2": "0.869",
+      "m3": "0.052",
+      "m4": "0.813"
+    },
+    {
+      "p": "[Recursive Contour Saliency Blending Network for Accurate Salient Object Detection](https://arxiv.org/abs/2105.13865v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/BarCodeReader/RCSB-PyTorch)",
+      "n": "RCSB",
+      "d": "2021-05-28",
+      "m1": "0.820",
+      "m2": "0.856",
+      "m3": "0.045",
+      "m4": "0.810"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

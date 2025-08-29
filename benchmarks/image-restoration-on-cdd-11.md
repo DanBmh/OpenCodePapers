@@ -1,0 +1,156 @@
+# image-restoration-on-cdd-11
+
+[Dataset Link](https://github.com/gy65896/OneRestore) \
+Task Hierarchy: ['10-shot image generation', 'Image Restoration']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Average PSNR (dB)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "SSIM",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[OneRestore: A Universal Restoration Framework for Composite Degradation](https://arxiv.org/abs/2407.04621v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/gy65896/onerestore)",
+      "n": "OneRestore",
+      "d": "2024-07-05",
+      "m1": "28.72",
+      "m2": "0.8828"
+    },
+    {
+      "p": "[Under-Display Camera Image Restoration with Scattering Effect](https://arxiv.org/abs/2308.04163v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/namecantbenull/srudc)",
+      "n": "SRUDC",
+      "d": "2023-08-08",
+      "m1": "27.64",
+      "m2": "0.8600"
+    },
+    {
+      "p": "[Restormer: Efficient Transformer for High-Resolution Image Restoration](https://arxiv.org/abs/2111.09881v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/swz30/restormer)",
+      "n": "Restormer",
+      "d": "2021-11-18",
+      "m1": "26.99",
+      "m2": "0.8646"
+    },
+    {
+      "p": "[Learning Weather-General and Weather-Specific Features for Image Restoration Under Multiple Adverse Weather Conditions](http://openaccess.thecvf.com//content/CVPR2023/html/Zhu_Learning_Weather-General_and_Weather-Specific_Features_for_Image_Restoration_Under_Multiple_CVPR_2023_paper.html)",
+      "c": "",
+      "n": "WGWSNet",
+      "d": "2023-01-01",
+      "m1": "26.96",
+      "m2": "0.8626"
+    },
+    {
+      "p": "[Deep Generalized Unfolding Networks for Image Restoration](https://arxiv.org/abs/2204.13348v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/mc-e/deep-generalized-unfolding-networks-for-image-restoration)",
+      "n": "DGUNet",
+      "d": "2022-04-28",
+      "m1": "26.92",
+      "m2": "0.8559"
+    },
+    {
+      "p": "[Omni-Kernel Network for Image Restoration](https://ojs.aaai.org/index.php/AAAI/article/view/27907)",
+      "c": "[&check;&nbsp;Link](https://github.com/c-yn/OKNet)",
+      "n": "OKNet",
+      "d": "2024-03-24",
+      "m1": "26.33",
+      "m2": "0.8605"
+    },
+    {
+      "p": "[Learning Enriched Features for Real Image Restoration and Enhancement](https://arxiv.org/abs/2003.06792v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/swz30/restormer)",
+      "n": "MIRNet",
+      "d": "2020-03-15",
+      "m1": "25.97",
+      "m2": "0.8474"
+    },
+    {
+      "p": "[PromptIR: Prompting for All-in-One Blind Image Restoration](https://arxiv.org/abs/2306.13090v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/va1shn9v/promptir)",
+      "n": "PromptIR",
+      "d": "2023-06-22",
+      "m1": "25.90",
+      "m2": "0.8499"
+    },
+    {
+      "p": "[Multi-Stage Progressive Image Restoration](https://arxiv.org/abs/2102.02808v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/swz30/restormer)",
+      "n": "MPRNet",
+      "d": "2021-02-04",
+      "m1": "25.47",
+      "m2": "0.8555"
+    },
+    {
+      "p": "[Learning Enriched Features for Fast Image Restoration and Enhancement](https://arxiv.org/abs/2205.01649v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/swz30/mirnetv2)",
+      "n": "MIRNetv2",
+      "d": "2022-04-19",
+      "m1": "25.37",
+      "m2": "0.8335"
+    },
+    {
+      "p": "[Simple Baselines for Image Restoration](https://arxiv.org/abs/2204.04676v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/megvii-research/NAFNet)",
+      "n": "NAFNet",
+      "d": "2022-04-10",
+      "m1": "24.13",
+      "m2": "0.7964"
+    },
+    {
+      "p": "[All-in-One Image Restoration for Unknown Corruption](http://openaccess.thecvf.com//content/CVPR2022/html/Li_All-in-One_Image_Restoration_for_Unknown_Corruption_CVPR_2022_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/xlearning-scu/2022-cvpr-airnet)",
+      "n": "AirNet",
+      "d": "2022-01-01",
+      "m1": "23.75",
+      "m2": "0.8140"
+    },
+    {
+      "p": "[TransWeather: Transformer-based Restoration of Images Degraded by Adverse Weather Conditions](https://arxiv.org/abs/2111.14813v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jeya-maria-jose/TransWeather)",
+      "n": "TransWeather",
+      "d": "2021-11-29",
+      "m1": "23.13",
+      "m2": "0.7810"
+    },
+    {
+      "p": "[Restoring Vision in Adverse Weather Conditions with Patch-Based Denoising Diffusion Models](https://arxiv.org/abs/2207.14626v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/igitugraz/weatherdiffusion)",
+      "n": "WeatherDiff",
+      "d": "2022-07-29",
+      "m1": "22.49",
+      "m2": "0.7985"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,67 @@
+# colorization-on-imagenet-val
+
+[Dataset Link]() \
+Task Hierarchy: ['Colorization']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "FID-5K",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Palette: Image-to-Image Diffusion Models](https://arxiv.org/abs/2111.05826v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Janspiry/Palette-Image-to-Image-Diffusion-Models)",
+      "n": "Palette",
+      "d": "2021-11-10",
+      "m1": "15.78"
+    },
+    {
+      "p": "[Colorization Transformer](https://arxiv.org/abs/2102.04432v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research)",
+      "n": "Coltran",
+      "d": "2021-02-08",
+      "m1": "19.37"
+    },
+    {
+      "p": "[PixColor: Pixel Recursive Colorization](http://arxiv.org/abs/1705.07208v2)",
+      "c": "",
+      "n": "PixColor",
+      "d": "2017-05-19",
+      "m1": "24.32"
+    },
+    {
+      "p": "[Image-to-Image Translation with Conditional Adversarial Networks](http://arxiv.org/abs/1611.07004v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/research/gan)",
+      "n": "cGAN",
+      "d": "2016-11-21",
+      "m1": "24.41"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

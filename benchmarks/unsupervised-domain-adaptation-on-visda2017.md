@@ -1,0 +1,135 @@
+# unsupervised-domain-adaptation-on-visda2017
+
+[Dataset Link](http://ai.bu.edu/visda-2017/) \
+Task Hierarchy: ['Unsupervised Domain Adaptation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Average Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Feature Fusion Transferability Aware Transformer for Unsupervised Domain Adaptation](https://arxiv.org/abs/2411.07794v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Shawey94/NoisyNN)",
+      "n": "FFTAT",
+      "d": "2024-11-10",
+      "m1": "93.8"
+    },
+    {
+      "p": "[Empowering Source-Free Domain Adaptation with MLLM-driven Curriculum Learning](https://arxiv.org/abs/2405.18376v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Dong-Jie-Chen/RCL)",
+      "n": "RCL",
+      "d": "2024-05-28",
+      "m1": "93.2"
+    },
+    {
+      "p": "[TransAdapter: Vision Transformer for Feature-Centric Unsupervised Domain Adaptation](https://arxiv.org/abs/2412.04073v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/enesdoruk/TransAdapter)",
+      "n": "TransAdapter",
+      "d": "2024-12-05",
+      "m1": "91.2"
+    },
+    {
+      "p": "[Semantic-aware Message Broadcasting for Efficient Unsupervised Domain Adaptation](https://arxiv.org/abs/2212.02739v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/lixinustc/samb-transformeruda)",
+      "n": "SAMB",
+      "d": "2022-12-06",
+      "m1": "90.41"
+    },
+    {
+      "p": "[Prompt-based Distribution Alignment for Unsupervised Domain Adaptation](https://arxiv.org/abs/2312.09553v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/baishuanghao/prompt-based-distribution-alignment)",
+      "n": "PDA (CLIP, ViT-B/16)",
+      "d": "2023-12-15",
+      "m1": "89.7"
+    },
+    {
+      "p": "[SF(DA)$^2$: Source-free Domain Adaptation Through the Lens of Data Augmentation](https://arxiv.org/abs/2403.10834v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/shinyflight/sfda2)",
+      "n": "SFDA2++",
+      "d": "2024-03-16",
+      "m1": "89.6"
+    },
+    {
+      "p": "[Patch-Mix Transformer for Unsupervised Domain Adaptation: A Game Perspective](https://arxiv.org/abs/2303.13434v2)",
+      "c": "",
+      "n": "PMTrans",
+      "d": "2023-03-23",
+      "m1": "88.8"
+    },
+    {
+      "p": "[Safe Self-Refinement for Transformer-based Domain Adaptation](https://arxiv.org/abs/2204.07683v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tsun/ssrt)",
+      "n": "SSRT-B (ours)",
+      "d": "2022-04-16",
+      "m1": "88.76"
+    },
+    {
+      "p": "[SF(DA)$^2$: Source-free Domain Adaptation Through the Lens of Data Augmentation](https://arxiv.org/abs/2403.10834v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/shinyflight/sfda2)",
+      "n": "SFDA2",
+      "d": "2024-03-16",
+      "m1": "88.1"
+    },
+    {
+      "p": "[Prompt-based Distribution Alignment for Unsupervised Domain Adaptation](https://arxiv.org/abs/2312.09553v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/baishuanghao/prompt-based-distribution-alignment)",
+      "n": "PDA (CLIP, ResNet-101)",
+      "d": "2023-12-15",
+      "m1": "86.4"
+    },
+    {
+      "p": "[Implicit Class-Conditioned Domain Alignment for Unsupervised Domain Adaptation](https://arxiv.org/abs/2006.04996v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/xiangdal/implicit_alignment)",
+      "n": "Implicit Alignment (with MDD)",
+      "d": "2020-06-09",
+      "m1": "75.8"
+    },
+    {
+      "p": "[DeepJDOT: Deep Joint Distribution Optimal Transport for Unsupervised Domain Adaptation](http://arxiv.org/abs/1803.10081v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/bbdamodaran/deepJDOT)",
+      "n": "DeepJDOT",
+      "d": "2018-03-27",
+      "m1": "66.9"
+    },
+    {
+      "p": "[Unsupervised Domain Adaptation via Distilled Discriminative Clustering](https://arxiv.org/abs/2302.11984v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/huitangtang/disclusterda)",
+      "n": "DisClusterDA",
+      "d": "2023-02-23",
+      "m2": "87.1"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

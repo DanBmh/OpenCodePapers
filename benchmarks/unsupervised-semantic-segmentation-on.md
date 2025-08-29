@@ -1,0 +1,158 @@
+# unsupervised-semantic-segmentation-on
+
+[Dataset Link](https://www.cityscapes-dataset.com/dataset-overview/) \
+Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', 'Unsupervised Semantic Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mIoU",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Pixel Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Scene-Centric Unsupervised Panoptic Segmentation](https://arxiv.org/abs/2504.01955v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/visinf/cups)",
+      "n": "CUPS",
+      "d": "2025-04-02",
+      "m1": "26.8",
+      "m2": "83.2 "
+    },
+    {
+      "p": "[ViCE: Improving Dense Representation Learning by Superpixelization and Contrasting Cluster Assignment](https://arxiv.org/abs/2111.12460v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/robin-karlsson0/vice)",
+      "n": "ViCE",
+      "d": "2021-11-24",
+      "m1": "25.2",
+      "m2": "84.3"
+    },
+    {
+      "p": "[EAGLE: Eigen Aggregation Learning for Object-Centric Unsupervised Semantic Segmentation](https://arxiv.org/abs/2403.01482v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/MICV-yonsei/EAGLE)",
+      "n": "EAGLE (DINO, ViT-B/8)",
+      "d": "2024-03-03",
+      "m1": "22.1",
+      "m2": "79.4"
+    },
+    {
+      "p": "[Expand-and-Quantize: Unsupervised Semantic Segmentation Using High-Dimensional Space and Product Quantization](https://arxiv.org/abs/2312.07342v1)",
+      "c": "",
+      "n": "EQUSS",
+      "d": "2023-12-12",
+      "m1": "22.0",
+      "m2": "79.9"
+    },
+    {
+      "p": "[Boosting Unsupervised Semantic Segmentation with Principal Mask Proposals](https://arxiv.org/abs/2404.16818v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/visinf/primaps)",
+      "n": "PriMaPs-EM + STEGO (DINO ViT-B/8)",
+      "d": "2024-04-25",
+      "m1": "21.6",
+      "m2": "78.6"
+    },
+    {
+      "p": "[Unsupervised Semantic Segmentation by Distilling Feature Correspondences](https://arxiv.org/abs/2203.08414v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/mhamilton723/STEGO)",
+      "n": "STEGO",
+      "d": "2022-03-16",
+      "m1": "21.0",
+      "m2": "73.2"
+    },
+    {
+      "p": "[EAGLE: Eigen Aggregation Learning for Object-Centric Unsupervised Semantic Segmentation](https://arxiv.org/abs/2403.01482v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/MICV-yonsei/EAGLE)",
+      "n": "EAGLE (DINO, ViT-S/8)",
+      "d": "2024-03-03",
+      "m1": "19.7",
+      "m2": "81.8"
+    },
+    {
+      "p": "[Boosting Unsupervised Semantic Segmentation with Principal Mask Proposals](https://arxiv.org/abs/2404.16818v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/visinf/primaps)",
+      "n": "PriMaPs-EM (DINO ViT-S/8)",
+      "d": "2024-04-25",
+      "m1": "19.4",
+      "m2": "81.2"
+    },
+    {
+      "p": "[Leveraging Hidden Positives for Unsupervised Semantic Segmentation](https://arxiv.org/abs/2303.15014v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/hynnsk/hp)",
+      "n": "HP",
+      "d": "2023-03-27",
+      "m1": "18.4",
+      "m2": "80.1"
+    },
+    {
+      "p": "[GraPix: Exploring Graph Modularity Optimization for Unsupervised Pixel Clustering](https://doi.org/10.1007/978-3-031-78192-6_13)",
+      "c": "[&check;&nbsp;Link](https://github.com/SonalKumar95/GraPix)",
+      "n": "GraPix + AUT",
+      "d": "2024-12-04",
+      "m1": "14.54"
+    },
+    {
+      "p": "[GraPix: Exploring Graph Modularity Optimization for Unsupervised Pixel Clustering](https://doi.org/10.1007/978-3-031-78192-6_13)",
+      "c": "[&check;&nbsp;Link](https://github.com/SonalKumar95/GraPix)",
+      "n": "Grapix",
+      "d": "2024-12-04",
+      "m1": "14.33"
+    },
+    {
+      "p": "[PiCIE: Unsupervised Semantic Segmentation using Invariance and Equivariance in Clustering](https://arxiv.org/abs/2103.17070v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/janghyuncho/PiCIE)",
+      "n": "PiCIE",
+      "d": "2021-03-30",
+      "m1": "12.3",
+      "m2": "65.5"
+    },
+    {
+      "p": "[Deep Clustering for Unsupervised Learning of Visual Features](http://arxiv.org/abs/1807.05520v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/deepcluster)",
+      "n": "MDC",
+      "d": "2018-07-15",
+      "m1": "7.1",
+      "m2": "40.7"
+    },
+    {
+      "p": "[GraPix: Exploring Graph Modularity Optimization for Unsupervised Pixel Clustering](https://doi.org/10.1007/978-3-031-78192-6_13)",
+      "c": "[&check;&nbsp;Link](https://github.com/SonalKumar95/GraPix)",
+      "n": "GraPix",
+      "d": "2024-12-04",
+      "m3": "64.89"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

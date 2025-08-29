@@ -1,0 +1,76 @@
+# image-registration-on-unpaired-lung-ct
+
+[Dataset Link](https://learn2reg.grand-challenge.org/) \
+Task Hierarchy: ['Image Registration']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "ASD",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "DSC",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Residual Aligner-based Network (RAN): Motion-separable structure for coarse-to-fine discontinuous deformable registration](https://doi.org/10.1016/j.media.2023.103038)",
+      "c": "[&check;&nbsp;Link](https://github.com/jianqingzheng/res_aligner_net)",
+      "n": "RAN3",
+      "d": "2023-11-21",
+      "m1": "3.01",
+      "m2": "0.935"
+    },
+    {
+      "p": "[Residual Aligner-based Network (RAN): Motion-separable structure for coarse-to-fine discontinuous deformable registration](https://doi.org/10.1016/j.media.2023.103038)",
+      "c": "[&check;&nbsp;Link](https://github.com/jianqingzheng/res_aligner_net)",
+      "n": "RAN4+",
+      "d": "2023-11-21",
+      "m1": "3.8",
+      "m2": "0.92"
+    },
+    {
+      "p": "[Recursive Deformable Image Registration Network with Mutual Attention](https://arxiv.org/abs/2206.01863v2)",
+      "c": "",
+      "n": "RMAn",
+      "d": "2022-06-04",
+      "m1": "3.83",
+      "m2": "0.92"
+    },
+    {
+      "p": "[Recursive Deformable Image Registration Network with Mutual Attention](https://arxiv.org/abs/2206.01863v2)",
+      "c": "",
+      "n": "Dnet",
+      "d": "2022-06-04",
+      "m1": "5.01",
+      "m2": "0.88"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

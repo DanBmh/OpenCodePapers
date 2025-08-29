@@ -1,0 +1,207 @@
+# image-retrieval-on-flickr30k-1k-test
+
+[Dataset Link](https://shannon.cs.illinois.edu/DenotationGraph/) \
+Task Hierarchy: ['Image Retrieval']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "R@1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "R@5",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "R@10",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Multi-Grained Vision Language Pre-Training: Aligning Texts with Visual Concepts](https://arxiv.org/abs/2111.08276v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/zengyan-97/x-vlm)",
+      "n": "X-VLM (base)",
+      "d": "2021-11-16",
+      "m1": "86.9",
+      "m2": "97.3",
+      "m3": "98.7"
+    },
+    {
+      "p": "[Plug-and-Play Regulators for Image-Text Matching](https://arxiv.org/abs/2303.13371v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/paranioar/rcar)",
+      "n": "RCAR",
+      "d": "2023-03-23",
+      "m1": "62.6",
+      "m2": "85.8",
+      "m3": "91.1"
+    },
+    {
+      "p": "[Similarity Reasoning and Filtration for Image-Text Matching](https://arxiv.org/abs/2101.01368v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Paranioar/SGRAF)",
+      "n": "SGRAF",
+      "d": "2021-01-05",
+      "m1": "58.5",
+      "m2": "83.0",
+      "m3": "88.8"
+    },
+    {
+      "p": "[A Deep Local and Global Scene-Graph Matching for Image-Text Retrieval](https://arxiv.org/abs/2106.02400v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/m2man/LGSGM)",
+      "n": "LGSGM",
+      "d": "2021-06-04",
+      "m1": "57.4",
+      "m2": "84.1",
+      "m3": "90.2"
+    },
+    {
+      "p": "[VisualSparta: An Embarrassingly Simple Approach to Large-scale Text-to-Image Search with Weighted Bag-of-words](https://arxiv.org/abs/2101.00265v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/soco-ai/SF-QA)",
+      "n": "VisualSparta",
+      "d": "2021-01-01",
+      "m1": "57.4",
+      "m2": "82.0",
+      "m3": "88.1"
+    },
+    {
+      "p": "[Fine-grained Visual Textual Alignment for Cross-Modal Retrieval using Transformer Encoders](https://arxiv.org/abs/2008.05231v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mesnico/TERAN)",
+      "n": "TERAN MrSw",
+      "d": "2020-08-12",
+      "m1": "56.5",
+      "m2": "81.2",
+      "m3": "88.2"
+    },
+    {
+      "p": "[Fine-grained Visual Textual Alignment for Cross-Modal Retrieval using Transformer Encoders](https://arxiv.org/abs/2008.05231v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mesnico/TERAN)",
+      "n": "TERAN Symm.",
+      "d": "2020-08-12",
+      "m1": "55.7",
+      "m2": "83.1",
+      "m3": "89.3"
+    },
+    {
+      "p": "[Visual Semantic Reasoning for Image-Text Matching](https://arxiv.org/abs/1909.02701v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/KunpengLi1994/VSRN)",
+      "n": "VSRN",
+      "d": "2019-09-06",
+      "m1": "54.7",
+      "m2": "81.8",
+      "m3": "88.2"
+    },
+    {
+      "p": "[CAMP: Cross-Modal Adaptive Message Passing for Text-Image Retrieval](https://arxiv.org/abs/1909.05506v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ZihaoWang-CV/CAMP_iccv19)",
+      "n": "CAMP",
+      "d": "2019-09-12",
+      "m1": "51.5",
+      "m2": "77.1",
+      "m3": "85.3"
+    },
+    {
+      "p": "[Stacked Cross Attention for Image-Text Matching](http://arxiv.org/abs/1803.08024v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/kuanghuei/SCAN)",
+      "n": "SCAN i-t",
+      "d": "2018-03-21",
+      "m1": "44.0",
+      "m2": "74.2",
+      "m3": "82.6"
+    },
+    {
+      "p": "[Learning Semantic Concepts and Order for Image and Sentence Matching](http://arxiv.org/abs/1712.02036v1)",
+      "c": "",
+      "n": "SCO",
+      "d": "2017-12-06",
+      "m1": "41.1",
+      "m2": "70.5",
+      "m3": "80.1"
+    },
+    {
+      "p": "[Dual Attention Networks for Multimodal Reasoning and Matching](http://arxiv.org/abs/1611.00471v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/iammrhelo/pytorch-vqa-dan)",
+      "n": "DAN",
+      "d": "2016-11-02",
+      "m1": "39.4",
+      "m2": "69.2",
+      "m3": "79.1"
+    },
+    {
+      "p": "[Linking Image and Text with 2-Way Nets](http://arxiv.org/abs/1608.07973v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/aviveise/2WayNet)",
+      "n": "2WayNet (VGG)",
+      "d": "2016-08-29",
+      "m1": "36.0"
+    },
+    {
+      "p": "[Instance-aware Image and Sentence Matching with Selective Multimodal LSTM](http://arxiv.org/abs/1611.05588v1)",
+      "c": "",
+      "n": "SM-LSTM (VGG)",
+      "d": "2016-11-17",
+      "m1": "30.2",
+      "m3": "72.3"
+    },
+    {
+      "p": "[Learning Deep Structure-Preserving Image-Text Embeddings](http://arxiv.org/abs/1511.06078v2)",
+      "c": "",
+      "n": "SPE",
+      "d": "2015-11-19",
+      "m1": "29.7",
+      "m2": "60.1",
+      "m3": "72.1"
+    },
+    {
+      "p": "[Multimodal Convolutional Neural Networks for Matching Image and Sentence](http://arxiv.org/abs/1504.06063v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/ryankiros/visual-semantic-embedding)",
+      "n": "mCNN",
+      "d": "2015-04-23",
+      "m1": "26.2",
+      "m2": "56.3",
+      "m3": "69.6"
+    },
+    {
+      "p": "[Flickr30k Entities: Collecting Region-to-Phrase Correspondences for Richer Image-to-Sentence Models](http://arxiv.org/abs/1505.04870v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/bryanplummer/flickr30k_entities)",
+      "n": "HGLMM FV",
+      "d": "2015-05-19",
+      "m1": "24.7",
+      "m2": "53.4",
+      "m3": "66.8"
+    },
+    {
+      "p": "[Deep Visual-Semantic Alignments for Generating Image Descriptions](http://arxiv.org/abs/1412.2306v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/VinitSR7/Image-Caption-Generation)",
+      "n": "DVSA (R-CNN, AlexNet)",
+      "d": "2014-12-07",
+      "m1": "15.2",
+      "m3": "50.5"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,171 @@
+# sentiment-analysis-on-tweeteval
+
+[Dataset Link](https://github.com/cardiffnlp/tweeteval) \
+Task Hierarchy: ['Sentiment Analysis']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Emoji",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Emotion",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Hate",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Irony",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "Offensive",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "Sentiment",
+      "sortable": "true"
+    },
+    {
+      "key": "m7",
+      "label": "Stance",
+      "sortable": "true"
+    },
+    {
+      "key": "m8",
+      "label": "ALL",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[BERTweet: A pre-trained language model for English Tweets](https://arxiv.org/abs/2005.10200v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/VinAIResearch/BERTweet)",
+      "n": "BERTweet",
+      "d": "2020-05-20",
+      "m1": "33.4",
+      "m2": "79.3",
+      "m4": "82.1",
+      "m5": "79.5",
+      "m6": "73.4",
+      "m7": "71.2",
+      "m8": "67.9"
+    },
+    {
+      "p": "[XLM-T: Multilingual Language Models in Twitter for Sentiment Analysis and Beyond](https://arxiv.org/abs/2104.12250v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/cardiffnlp/xlm-t)",
+      "n": "RoB-RT",
+      "d": "2021-04-25",
+      "m1": "31.4",
+      "m2": "79.5",
+      "m3": "52.3",
+      "m4": "61.7",
+      "m5": "80.5",
+      "m6": "72.6",
+      "m7": "69.3",
+      "m8": "65.2"
+    },
+    {
+      "p": "[TweetEval: Unified Benchmark and Comparative Evaluation for Tweet Classification](https://arxiv.org/abs/2010.12421v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/cardiffnlp/tweeteval)",
+      "n": "RoBERTa-Base",
+      "d": "2020-10-23",
+      "m1": "30.9",
+      "m2": "76.1",
+      "m3": "46.6",
+      "m4": "59.7",
+      "m5": "79.5",
+      "m6": "71.3",
+      "m7": "68",
+      "m8": "61.3"
+    },
+    {
+      "p": "[TweetEval: Unified Benchmark and Comparative Evaluation for Tweet Classification](https://arxiv.org/abs/2010.12421v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/cardiffnlp/tweeteval)",
+      "n": "RoBERTa-Twitter",
+      "d": "2020-10-23",
+      "m1": "29.3",
+      "m2": "72.0",
+      "m3": "49.9",
+      "m4": "65.4",
+      "m5": "77.1",
+      "m6": "69.1",
+      "m7": "66.7",
+      "m8": "61.0"
+    },
+    {
+      "p": "[TweetEval: Unified Benchmark and Comparative Evaluation for Tweet Classification](https://arxiv.org/abs/2010.12421v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/cardiffnlp/tweeteval)",
+      "n": "SVM",
+      "d": "2020-10-23",
+      "m1": "29.3",
+      "m2": "64.7",
+      "m3": "36.7",
+      "m4": "61.7",
+      "m5": "52.3",
+      "m6": "62.9",
+      "m7": "67.3",
+      "m8": "53.5"
+    },
+    {
+      "p": "[TweetEval: Unified Benchmark and Comparative Evaluation for Tweet Classification](https://arxiv.org/abs/2010.12421v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/cardiffnlp/tweeteval)",
+      "n": "FastText",
+      "d": "2020-10-23",
+      "m1": "25.8",
+      "m2": "65.2",
+      "m3": "50.6",
+      "m4": "63.1",
+      "m5": "73.4",
+      "m6": "62.9",
+      "m7": "65.4",
+      "m8": "58.1"
+    },
+    {
+      "p": "[TweetEval: Unified Benchmark and Comparative Evaluation for Tweet Classification](https://arxiv.org/abs/2010.12421v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/cardiffnlp/tweeteval)",
+      "n": "LSTM",
+      "d": "2020-10-23",
+      "m1": "24.7",
+      "m2": "66.0",
+      "m3": "52.6",
+      "m4": "62.8",
+      "m5": "71.7",
+      "m6": "58.3",
+      "m7": "59.4",
+      "m8": "56.5"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

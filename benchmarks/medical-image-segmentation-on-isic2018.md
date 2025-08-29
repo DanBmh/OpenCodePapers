@@ -1,0 +1,79 @@
+# medical-image-segmentation-on-isic2018
+
+[Dataset Link]() \
+Task Hierarchy: ['Medical Image Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Precision",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Test F1-Score",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "mean Dice",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[MobileUNETR: A Lightweight End-To-End Hybrid Vision Transformer For Efficient Medical Image Segmentation](https://arxiv.org/abs/2409.03062v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/osupcvlab/mobileunetr)",
+      "n": "MobileUNETR",
+      "d": "2024-09-04",
+      "m1": "94.40",
+      "m4": "90.74"
+    },
+    {
+      "p": "[DCSAU-Net: A Deeper and More Compact Split-Attention U-Net for Medical Image Segmentation](https://arxiv.org/abs/2202.00972v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/xq141839/DCSAU-Net)",
+      "n": "U2netme",
+      "d": "2022-02-02",
+      "m1": "0.94216",
+      "m2": "0.89502",
+      "m3": "0.90604",
+      "m4": "0.905"
+    },
+    {
+      "p": "[EMCAD: Efficient Multi-scale Convolutional Attention Decoding for Medical Image Segmentation](https://arxiv.org/abs/2405.06880v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/sldgroup/emcad)",
+      "n": "EMCAD",
+      "d": "2024-05-11",
+      "m4": "0.9096"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

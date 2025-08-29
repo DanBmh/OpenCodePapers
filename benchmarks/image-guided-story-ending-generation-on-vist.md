@@ -1,0 +1,147 @@
+# image-guided-story-ending-generation-on-vist
+
+[Dataset Link]() \
+Task Hierarchy: ['Story Generation', 'Visual Storytelling', 'Image-guided Story Ending Generation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "BLEU-1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "BLEU-2",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "BLEU-3",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "BLEU-4",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "CIDEr",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "METEOR",
+      "sortable": "true"
+    },
+    {
+      "key": "m7",
+      "label": "ROUGE-L",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[MMT: Image-guided Story Ending Generation with Multimodal Memory Transformer](https://dl.acm.org/doi/abs/10.1145/3503161.3548022)",
+      "c": "[&check;&nbsp;Link](https://github.com/LivXue/MMT)",
+      "n": "MMT",
+      "d": "2022-10-10",
+      "m1": "22.87",
+      "m2": "8.68",
+      "m3": "4.38",
+      "m4": "2.61",
+      "m5": "25.41",
+      "m6": "15.55",
+      "m7": "23.61"
+    },
+    {
+      "p": "[IgSEG: Image-guided Story Ending Generation](https://aclanthology.org/2021.findings-acl.274)",
+      "c": "",
+      "n": "MGCL",
+      "d": null,
+      "m1": "22.57",
+      "m2": "8.16",
+      "m3": "4.23",
+      "m4": "2.49",
+      "m5": "21.64",
+      "m6": "7.84",
+      "m7": "21.66"
+    },
+    {
+      "p": "[Story Ending Generation with Incremental Encoding and Commonsense Knowledge](http://arxiv.org/abs/1808.10113v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/JianGuanTHU/StoryEndGen)",
+      "n": "IE+MSA",
+      "d": "2018-08-30",
+      "m1": "19.15",
+      "m2": "5.74",
+      "m3": "2.73",
+      "m4": "1.63",
+      "m5": "15.56",
+      "m6": "6.59",
+      "m7": "20.62"
+    },
+    {
+      "p": "[Attention Is All You Need](https://arxiv.org/abs/1706.03762v7)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "Transformer",
+      "d": "2017-06-12",
+      "m1": "17.18",
+      "m2": "6.29",
+      "m3": "3.07",
+      "m4": "2.01",
+      "m5": "12.75",
+      "m6": "6.91",
+      "m7": "18.23"
+    },
+    {
+      "p": "[Hierarchical Photo-Scene Encoder for Album Storytelling](http://arxiv.org/abs/1902.00669v1)",
+      "c": "",
+      "n": "T-CVAE",
+      "d": "2019-02-02",
+      "m1": "14.34",
+      "m2": "5.06",
+      "m3": "2.01",
+      "m4": "1.13",
+      "m5": "11.49",
+      "m6": "4.23",
+      "m7": "15.51"
+    },
+    {
+      "p": "[Effective Approaches to Attention-based Neural Machine Translation](http://arxiv.org/abs/1508.04025v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/philipperemy/keras-attention-mechanism)",
+      "n": "Seq2Seq",
+      "d": "2015-08-17",
+      "m1": "13.96",
+      "m2": "5.57",
+      "m3": "2.94",
+      "m4": "1.69",
+      "m5": "12.04",
+      "m6": "4.54",
+      "m7": "16.84"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

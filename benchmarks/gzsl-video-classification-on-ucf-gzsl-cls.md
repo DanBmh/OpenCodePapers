@@ -1,0 +1,76 @@
+# gzsl-video-classification-on-ucf-gzsl-cls
+
+[Dataset Link]() \
+Task Hierarchy: ['Zero-Shot Learning', 'GZSL Video Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "HM",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "ZSL",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Boosting Audio-visual Zero-shot Learning with Large Language Models](https://arxiv.org/abs/2311.12268v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/chenhaoxing/KDA)",
+      "n": "KDA",
+      "d": "2023-11-21",
+      "m1": "54.84",
+      "m2": "52.66"
+    },
+    {
+      "p": "[Temporal and cross-modal attention for audio-visual zero-shot learning](https://arxiv.org/abs/2207.09966v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/explainableml/tcaf-gzsl)",
+      "n": "TCaF",
+      "d": "2022-07-20",
+      "m1": "50.78",
+      "m2": "44.64"
+    },
+    {
+      "p": "[Hyperbolic Audio-visual Zero-shot Learning](https://arxiv.org/abs/2308.12558v2)",
+      "c": "",
+      "n": "Hyper-multiple",
+      "d": "2023-08-24",
+      "m1": "48.30",
+      "m2": "52.11"
+    },
+    {
+      "p": "[Audio-visual Generalised Zero-shot Learning with Cross-modal Attention and Language](https://arxiv.org/abs/2203.03598v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/explainableml/avca-gzsl)",
+      "n": "AVCA",
+      "d": "2022-03-07",
+      "m1": "41.34",
+      "m2": "37.72"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

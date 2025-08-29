@@ -1,0 +1,84 @@
+# video-adverb-retrieval-on-activitynet-adverbs
+
+[Dataset Link](https://github.com/hazeld/pseudoadverbs) \
+Task Hierarchy: ['Video-Adverb Retrieval']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Acc-A",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "mAP M",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "mAP W",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Video-adverb retrieval with compositional adverb-action embeddings](https://arxiv.org/abs/2309.15086v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ExplainableML/ReGaDa)",
+      "n": "ReGaDa",
+      "d": "2023-09-26",
+      "m1": "0.771",
+      "m2": "0.175",
+      "m3": "0.239"
+    },
+    {
+      "p": "[Learning Action Changes by Measuring Verb-Adverb Textual Relationships](https://arxiv.org/abs/2303.15086v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmoltisanti/air-cvpr23)",
+      "n": "Action Changes (cls)",
+      "d": "2023-03-27",
+      "m1": "0.741",
+      "m2": "0.096",
+      "m3": "0.130"
+    },
+    {
+      "p": "[Learning Action Changes by Measuring Verb-Adverb Textual Relationships](https://arxiv.org/abs/2303.15086v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmoltisanti/air-cvpr23)",
+      "n": "Action Changes (reg)",
+      "d": "2023-03-27",
+      "m1": "0.714",
+      "m2": "0.079"
+    },
+    {
+      "p": "[Learning Action Changes by Measuring Verb-Adverb Textual Relationships](https://arxiv.org/abs/2303.15086v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmoltisanti/air-cvpr23)",
+      "n": "Action Changes (reg, fixed \u03b4)",
+      "d": "2023-03-27",
+      "m1": "0.706",
+      "m2": "0.075",
+      "m3": "0.119"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

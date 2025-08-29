@@ -1,0 +1,60 @@
+# spoken-language-identification-on-voxforge-2
+
+[Dataset Link](http://www.voxforge.org/home) \
+Task Hierarchy: ['Dialogue Understanding', 'Spoken Language Understanding', 'Spoken language identification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[EfficientLEAF: A Faster LEarnable Audio Frontend of Questionable Use](https://arxiv.org/abs/2207.05508v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cpjku/efficientleaf)",
+      "n": "LEAF",
+      "d": "2022-07-12",
+      "m1": "91.5"
+    },
+    {
+      "p": "[EfficientLEAF: A Faster LEarnable Audio Frontend of Questionable Use](https://arxiv.org/abs/2207.05508v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cpjku/efficientleaf)",
+      "n": "EfficientLEAF",
+      "d": "2022-07-12",
+      "m1": "86.6"
+    },
+    {
+      "p": "[EfficientLEAF: A Faster LEarnable Audio Frontend of Questionable Use](https://arxiv.org/abs/2207.05508v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cpjku/efficientleaf)",
+      "n": "melspect",
+      "d": "2022-07-12",
+      "m1": "85.6"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

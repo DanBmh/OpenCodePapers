@@ -1,0 +1,113 @@
+# hyperspectral-image-classification-on-houston
+
+[Dataset Link](https://hyperspectral.ee.uh.edu/?page_id=459) \
+Task Hierarchy: ['Hyperspectral Image Segmentation', 'Hyperspectral', 'Hyperspectral Image Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Overall Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "AA@10%perclass",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "AA@disjoint",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "F1@10%perclass",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "Kappa@10%perclass",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "Kappa@disjoint",
+      "sortable": "true"
+    },
+    {
+      "key": "m7",
+      "label": "OA@10%perclass",
+      "sortable": "true"
+    },
+    {
+      "key": "m8",
+      "label": "OA@15perclass",
+      "sortable": "true"
+    },
+    {
+      "key": "m9",
+      "label": "OA@disjoint",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Attention-Based Second-Order Pooling Network for Hyperspectral Image Classification](https://ieeexplore.ieee.org/document/9325094)",
+      "c": "[&check;&nbsp;Link](https://github.com/ZhaohuiXue/A-SPN-release)",
+      "n": "A-SPN",
+      "d": "2021-01-14",
+      "m1": "97.27%"
+    },
+    {
+      "p": "[Adaptive Mask Sampling and Manifold to Euclidean Subspace Learning with Distance Covariance Representation for Hyperspectral Image Classification](https://ieeexplore.ieee.org/abstract/document/10097620)",
+      "c": "[&check;&nbsp;Link](https://github.com/lms-07/AMS-M2ESL)",
+      "n": "AMS-M2ESL",
+      "d": "2023-04-07",
+      "m1": "88.82\u00b10.93%",
+      "m3": "92.15\u00b10.30%",
+      "m6": "0.8785\u00b10.0101",
+      "m9": "88.82\u00b10.93%"
+    },
+    {
+      "p": "[Discrete Cosine Transform-Based Joint Spectral-Spatial Information Compression and Band Correlation Calculation for Hyperspectral Feature Extraction](https://doi.org/10.3390/rs16224270)",
+      "c": "[&check;&nbsp;Link](https://github.com/Lightness7/SSBC)",
+      "n": "SSBC",
+      "d": "2024-11-16",
+      "m2": "98.42%",
+      "m4": "98.54%",
+      "m5": "98.41%",
+      "m7": "98.53%"
+    },
+    {
+      "p": "[Locality-Aware Hyperspectral Classification](https://arxiv.org/abs/2309.01561v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhoufangqin/hylite)",
+      "n": "HyLITE",
+      "d": "2023-09-04",
+      "m8": "88.49"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

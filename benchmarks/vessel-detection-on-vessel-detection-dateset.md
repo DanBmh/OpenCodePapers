@@ -1,0 +1,60 @@
+# vessel-detection-on-vessel-detection-dateset
+
+[Dataset Link]() \
+Task Hierarchy: ['2D Object Detection', 'Vessel Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AP",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[VDDT: Improving Vessel Detection with Deformable Transfomer](https://dl.acm.org/doi/10.1145/3573428.3573457)",
+      "c": "",
+      "n": "VDDT",
+      "d": "2023-03-15",
+      "m1": "65.1%"
+    },
+    {
+      "p": "[Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks](http://arxiv.org/abs/1506.01497v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/detectron2)",
+      "n": "Faster RCNN",
+      "d": "2015-06-04",
+      "m1": "64.3%"
+    },
+    {
+      "p": "[Deformable Convolutional Networks](http://arxiv.org/abs/1703.06211v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection)",
+      "n": "Deformable DETR",
+      "d": "2017-03-17",
+      "m1": "54.8%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,87 @@
+# color-image-denoising-on-cbsd68-sigma35
+
+[Dataset Link](https://github.com/clausmichele/CBSD68-dataset) \
+Task Hierarchy: ['3D Architecture', 'Denoising', 'Color Image Denoising']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "SSIM",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Adversarial Distortion Learning for Medical Image Denoising](https://arxiv.org/abs/2204.14100v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mogvision/adl)",
+      "n": "ADL",
+      "d": "2022-04-29",
+      "m1": "30.24"
+    },
+    {
+      "p": "[Hypernetwork-Based Adaptive Image Restoration](https://arxiv.org/abs/2206.05970v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/ifryed/HyperRes)",
+      "n": "HyperRes",
+      "d": "2022-06-13",
+      "m1": "29.8",
+      "m2": "0.85"
+    },
+    {
+      "p": "[FFDNet: Toward a Fast and Flexible Solution for CNN based Image Denoising](http://arxiv.org/abs/1710.04026v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/cszn/FFDNet)",
+      "n": "FFDNet",
+      "d": "2017-10-11",
+      "m1": "29.58"
+    },
+    {
+      "p": "[ViDeNN: Deep Blind Video Denoising](http://arxiv.org/abs/1904.10898v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/clausmichele/ViDeNN)",
+      "n": "Spatial-CNN",
+      "d": "2019-04-24",
+      "m1": "29.34"
+    },
+    {
+      "p": "[Blind Universal Bayesian Image Denoising with Gaussian Noise Level Learning](https://arxiv.org/abs/1907.03029v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/majedelhelou/BUIFD)",
+      "n": "CBUIFD75",
+      "d": "2019-07-05",
+      "m1": "28.81"
+    },
+    {
+      "p": "[Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising](http://arxiv.org/abs/1608.03981v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cszn/DnCNN)",
+      "n": "DnCNN-B*",
+      "d": "2016-08-13",
+      "m1": "28.74"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

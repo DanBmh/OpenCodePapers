@@ -1,0 +1,218 @@
+# retinal-vessel-segmentation-on-chase_db1
+
+[Dataset Link](https://blogs.kingston.ac.uk/retinal/chasedb1/) \
+Task Hierarchy: ['Retinal Vessel Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AUC",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "F1 score",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "mIOU",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Sensitivity",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "MCC",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "1:1 Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m7",
+      "label": "Acc",
+      "sortable": "true"
+    },
+    {
+      "key": "m8",
+      "label": "Average IOU",
+      "sortable": "true"
+    },
+    {
+      "key": "m9",
+      "label": "DSC",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Full-scale Representation Guided Network for Retinal Vessel Segmentation](https://arxiv.org/abs/2501.18921v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zombasy/fsg-net-pytorch)",
+      "n": "FSG-Net",
+      "d": "2025-01-31",
+      "m1": "0.9937",
+      "m2": "0.8101",
+      "m3": "0.8268",
+      "m4": "0.8599",
+      "m5": "0.7989",
+      "m7": "0.9751"
+    },
+    {
+      "p": "[Study Group Learning: Improving Retinal Vessel Segmentation Trained with Noisy Labels](https://arxiv.org/abs/2103.03451v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SHI-Labs/SGL-Retinal-Vessel-Segmentation)",
+      "n": "Study Group Learning",
+      "d": "2021-03-05",
+      "m1": "0.9920",
+      "m2": "0.8271",
+      "m4": "0.8690"
+    },
+    {
+      "p": "[RV-GAN: Segmenting Retinal Vascular Structure in Fundus Photographs using a Novel Multi-scale Generative Adversarial Network](https://arxiv.org/abs/2101.00535v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/SharifAmit/RVGAN)",
+      "n": "RV-GAN",
+      "d": "2021-01-03",
+      "m1": "0.9914",
+      "m2": "0.8957",
+      "m3": "0.9705",
+      "m4": "0.8199"
+    },
+    {
+      "p": "[Full-Resolution Network and Dual-Threshold Iteration for Retinal Vessel and Coronary Angiograph Segmentation](https://ieeexplore.ieee.org/abstract/document/9815506)",
+      "c": "[&check;&nbsp;Link](https://github.com/lseventeen/FR-UNet)",
+      "n": "FR-UNet",
+      "d": "2022-07-05",
+      "m1": "0.9913",
+      "m2": "0.8151",
+      "m4": "0.8798"
+    },
+    {
+      "p": "[SA-UNet: Spatial Attention U-Net for Retinal Vessel Segmentation](https://arxiv.org/abs/2004.03696v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/clguo/SA-UNet)",
+      "n": "SA-UNet",
+      "d": "2020-04-07",
+      "m1": "0.9905",
+      "m2": "0.8153"
+    },
+    {
+      "p": "[IterNet: Retinal Image Segmentation Utilizing Structural Redundancy in Vessel Networks](https://arxiv.org/abs/1912.05763v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/conscienceli/IterNet)",
+      "n": "IterNet",
+      "d": "2019-12-12",
+      "m1": "0.9851",
+      "m2": "0.8073"
+    },
+    {
+      "p": "[LadderNet: Multi-path networks based on U-Net for medical image segmentation](https://arxiv.org/abs/1810.07810v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/Deci-AI/super-gradients)",
+      "n": "LadderNet",
+      "d": "2018-10-17",
+      "m1": "0.9839",
+      "m2": "0.8031"
+    },
+    {
+      "p": "[Deep Vessel Segmentation By Learning Graphical Connectivity](http://arxiv.org/abs/1806.02279v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/syshin1014/VGN)",
+      "n": "VGN",
+      "d": "2018-06-06",
+      "m1": "0.9830",
+      "m2": "0.8034"
+    },
+    {
+      "p": "[Dual encoding feature filtering generalized attention UNET for retinal vessel segmentation](https://arxiv.org/abs/2506.02312v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/TauhidScu/DEFFA-Unet)",
+      "n": "DEFFA-Unet",
+      "d": "2025-06-02",
+      "m1": "0.9823",
+      "m5": "0.7892",
+      "m6": "0.9712",
+      "m8": "0.6891",
+      "m9": "0.8156"
+    },
+    {
+      "p": "[Recurrent Residual Convolutional Neural Network based on U-Net (R2U-Net) for Medical Image Segmentation](http://arxiv.org/abs/1802.06955v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/LeeJunHyun/Image_Segmentation)",
+      "n": "R2U-Net",
+      "d": "2018-02-20",
+      "m1": "0.9815",
+      "m2": "0.7928"
+    },
+    {
+      "p": "[DUNet: A deformable network for retinal vessel segmentation](http://arxiv.org/abs/1811.01206v1)",
+      "c": "",
+      "n": "DUNet",
+      "d": "2018-11-03",
+      "m1": "0.9804",
+      "m2": "0.7883"
+    },
+    {
+      "p": "[Road Extraction by Deep Residual U-Net](http://arxiv.org/abs/1711.10684v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/rishikksh20/ResUnet)",
+      "n": "Residual U-Net",
+      "d": "2017-11-29",
+      "m1": "0.9779",
+      "m2": "0.7800"
+    },
+    {
+      "p": "[U-Net: Convolutional Networks for Biomedical Image Segmentation](http://arxiv.org/abs/1505.04597v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+      "n": "U-Net",
+      "d": "2015-05-18",
+      "m1": "0.9772"
+    },
+    {
+      "p": "[G-CASCADE: Efficient Cascaded Graph Convolutional Decoding for 2D Medical Image Segmentation](https://arxiv.org/abs/2310.16175v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SLDGroup/G-CASCADE)",
+      "n": "MERIT-GCASCADE",
+      "d": "2023-10-24",
+      "m2": "0.8267",
+      "m3": "0.7050",
+      "m4": "0.8493"
+    },
+    {
+      "p": "[G-CASCADE: Efficient Cascaded Graph Convolutional Decoding for 2D Medical Image Segmentation](https://arxiv.org/abs/2310.16175v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SLDGroup/G-CASCADE)",
+      "n": "PVT-GCASCADE",
+      "d": "2023-10-24",
+      "m2": "0.8251",
+      "m3": "0.7024",
+      "m4": "0.8584"
+    },
+    {
+      "p": "[Resolution-Aware Design of Atrous Rates for Semantic Segmentation Networks](https://arxiv.org/abs/2307.14179v1)",
+      "c": "",
+      "n": "U-Net ASPP",
+      "d": "2023-07-26",
+      "m3": "0.8959"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,74 @@
+# multi-modal-named-entity-recognition-on-2
+
+[Dataset Link]() \
+Task Hierarchy: ['Named Entity Recognition (NER)', 'Multi-modal Named Entity Recognition']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Named Entity and Relation Extraction with Multi-Modal Retrieval](https://arxiv.org/abs/2212.01612v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/modelscope/adaseq)",
+      "n": "MoRe-MoE",
+      "d": "2022-12-03",
+      "m1": "79.33"
+    },
+    {
+      "p": "[Named Entity and Relation Extraction with Multi-Modal Retrieval](https://arxiv.org/abs/2212.01612v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/modelscope/adaseq)",
+      "n": "MoRe-Text",
+      "d": "2022-12-03",
+      "m1": "77.97"
+    },
+    {
+      "p": "[Named Entity and Relation Extraction with Multi-Modal Retrieval](https://arxiv.org/abs/2212.01612v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/modelscope/adaseq)",
+      "n": "MoRe-Image",
+      "d": "2022-12-03",
+      "m1": "77.46"
+    },
+    {
+      "p": "[ITA: Image-Text Alignments for Multi-Modal Named Entity Recognition](https://arxiv.org/abs/2112.06482v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/alibaba-nlp/kb-ner)",
+      "n": "ITA-All",
+      "d": "2021-12-13",
+      "m1": "76.87"
+    },
+    {
+      "p": "[Named Entity and Relation Extraction with Multi-Modal Retrieval](https://arxiv.org/abs/2212.01612v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/modelscope/adaseq)",
+      "n": "BERT-CRF",
+      "d": "2022-12-03",
+      "m1": "76.58"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

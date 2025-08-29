@@ -1,0 +1,72 @@
+# face-recognition-on-color-feret
+
+[Dataset Link](https://catalog.data.gov/dataset/color-feret-database) \
+Task Hierarchy: ['3D Face Reconstruction', 'Facial Recognition and Modelling', 'Face Recognition']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "FNMR [%] @ 10-3 FMR",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "5-class test accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[PIC-Score: Probabilistic Interpretable Comparison Score for Optimal Matching Confidence in Single- and Multi-Biometric (Face) Recognition](https://arxiv.org/abs/2211.12483v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Faceplugin-ltd/FaceRecognition-Android)",
+      "n": "PIC - QMagFace",
+      "d": "2022-11-22",
+      "m1": "3.24"
+    },
+    {
+      "p": "[PIC-Score: Probabilistic Interpretable Comparison Score for Optimal Matching Confidence in Single- and Multi-Biometric (Face) Recognition](https://arxiv.org/abs/2211.12483v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Faceplugin-ltd/FaceRecognition-Android)",
+      "n": "PIC - MagFace",
+      "d": "2022-11-22",
+      "m1": "3.92"
+    },
+    {
+      "p": "[PIC-Score: Probabilistic Interpretable Comparison Score for Optimal Matching Confidence in Single- and Multi-Biometric (Face) Recognition](https://arxiv.org/abs/2211.12483v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Faceplugin-ltd/FaceRecognition-Android)",
+      "n": "PIC - ArcFace",
+      "d": "2022-11-22",
+      "m1": "4.22"
+    },
+    {
+      "p": "[IdentiFace : A VGG Based Multimodal Facial Biometric System](https://arxiv.org/abs/2401.01227v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/MahmoudRabea13/IdentiFace)",
+      "n": "VGG based",
+      "d": "2024-01-02",
+      "m2": "99.2%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

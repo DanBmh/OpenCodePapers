@@ -1,0 +1,396 @@
+# video-retrieval-on-msvd
+
+[Dataset Link](https://www.cs.utexas.edu/users/ml/clamp/videoDescription/) \
+Task Hierarchy: ['Video Retrieval']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "text-to-video R@1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "text-to-video R@5",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "text-to-video R@10",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "text-to-video Median Rank",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "text-to-video Mean Rank",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "text-to-video R@50",
+      "sortable": "true"
+    },
+    {
+      "key": "m7",
+      "label": "video-to-text R@1",
+      "sortable": "true"
+    },
+    {
+      "key": "m8",
+      "label": "video-to-text R@5",
+      "sortable": "true"
+    },
+    {
+      "key": "m9",
+      "label": "video-to-text R@10",
+      "sortable": "true"
+    },
+    {
+      "key": "m10",
+      "label": "video-to-text Median Rank",
+      "sortable": "true"
+    },
+    {
+      "key": "m11",
+      "label": "video-to-text Mean Rank",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[InternVideo2: Scaling Foundation Models for Multimodal Video Understanding](https://arxiv.org/abs/2403.15377v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internvideo)",
+      "n": "InternVideo2-6B",
+      "d": "2024-03-22",
+      "m1": "61.4",
+      "m7": "85.2"
+    },
+    {
+      "p": "[Tencent Text-Video Retrieval: Hierarchical Cross-Modal Interactions with Multi-Level Representations](https://arxiv.org/abs/2204.03382v8)",
+      "c": "",
+      "n": "HunYuan_tvr (huge)",
+      "d": "2022-04-07",
+      "m1": "59.0",
+      "m2": "84.0",
+      "m3": "90.3",
+      "m4": " 1.0",
+      "m5": "7.6 ",
+      "m7": "73.0",
+      "m8": "94.5",
+      "m9": "96.6",
+      "m10": "1.0",
+      "m11": "7.6"
+    },
+    {
+      "p": "[InternVideo: General Video Foundation Models via Generative and Discriminative Learning](https://arxiv.org/abs/2212.03191v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internvideo)",
+      "n": "InternVideo",
+      "d": "2022-12-06",
+      "m1": "58.4",
+      "m7": "76.3"
+    },
+    {
+      "p": "[Tencent Text-Video Retrieval: Hierarchical Cross-Modal Interactions with Multi-Level Representations](https://arxiv.org/abs/2204.03382v8)",
+      "c": "",
+      "n": "HunYuan_tvr",
+      "d": "2022-04-07",
+      "m1": "58.2",
+      "m2": "83.5",
+      "m3": "90.1",
+      "m4": "1",
+      "m5": "7.8",
+      "m7": "69.1",
+      "m8": "91.5",
+      "m9": "95.0",
+      "m10": "1.0",
+      "m11": "3.8"
+    },
+    {
+      "p": "[vid-TLDR: Training Free Token merging for Light-weight Video Transformer](https://arxiv.org/abs/2403.13347v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mlvlab/vid-tldr)",
+      "n": "vid-TLDR (UMT-L)",
+      "d": "2024-03-20",
+      "m1": "57.9",
+      "m2": "83.8",
+      "m3": "89.4",
+      "m7": "82.7",
+      "m8": "94.5",
+      "m9": "96.3"
+    },
+    {
+      "p": "[VLAB: Enhancing Video Language Pre-training by Feature Adapting and Blending](https://arxiv.org/abs/2305.13167v1)",
+      "c": "",
+      "n": "VLAB",
+      "d": "2023-05-22",
+      "m1": "57.5",
+      "m2": "83.6",
+      "m3": "89.9"
+    },
+    {
+      "p": "[MDMMT-2: Multidomain Multimodal Transformer for Video Retrieval, One More Step Towards Generalization](https://arxiv.org/abs/2203.07086v1)",
+      "c": "",
+      "n": "MDMMT-2",
+      "d": "2022-03-14",
+      "m1": "56.8",
+      "m2": "83.1",
+      "m3": "89.2",
+      "m4": "1.0",
+      "m5": "8.8"
+    },
+    {
+      "p": "[Side4Video: Spatial-Temporal Side Network for Memory-Efficient Image-to-Video Transfer Learning](https://arxiv.org/abs/2311.15769v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/whwu95/ATM)",
+      "n": "Side4Video",
+      "d": "2023-11-27",
+      "m1": "56.1",
+      "m2": "81.7",
+      "m3": "88.8",
+      "m4": "1.0",
+      "m5": "8.4"
+    },
+    {
+      "p": "[Improving Video-Text Retrieval by Multi-Stream Corpus Alignment and Dual Softmax Loss](https://arxiv.org/abs/2109.04290v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/starmemda/camow)",
+      "n": "CAMoE",
+      "d": "2021-09-09",
+      "m1": "51.8",
+      "m2": "87.6",
+      "m3": "87.6",
+      "m4": "1",
+      "m5": "8.9",
+      "m7": "69.3",
+      "m8": "90.6",
+      "m9": "94.6",
+      "m10": "1",
+      "m11": "3.1"
+    },
+    {
+      "p": "[Cap4Video: What Can Auxiliary Captions Do for Text-Video Retrieval?](https://arxiv.org/abs/2301.00184v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/whwu95/Cap4Video)",
+      "n": "Cap4Video",
+      "d": "2022-12-31",
+      "m1": "51.8",
+      "m2": "80.8",
+      "m3": "88.3",
+      "m4": "1",
+      "m5": "8.3",
+      "m7": "70.0",
+      "m8": "93.2",
+      "m9": "96.2",
+      "m10": "1",
+      "m11": "2.4"
+    },
+    {
+      "p": "[CenterCLIP: Token Clustering for Efficient Text-Video Retrieval](https://arxiv.org/abs/2205.00823v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/mzhaoshuai/CenterCLIP)",
+      "n": "CenterCLIP (ViT-B/16)",
+      "d": "2022-05-02",
+      "m1": "50.6",
+      "m2": "80.3",
+      "m3": "88.4",
+      "m4": "1",
+      "m5": "8.4",
+      "m7": "68.4",
+      "m8": "90.1",
+      "m9": "95.0",
+      "m10": "1",
+      "m11": "3.0"
+    },
+    {
+      "p": "[X-CLIP: End-to-End Multi-grained Contrastive Learning for Video-Text Retrieval](https://arxiv.org/abs/2207.07285v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/xuguohai/X-CLIP)",
+      "n": "X-CLIP",
+      "d": "2022-07-15",
+      "m1": "50.4",
+      "m2": "80.6",
+      "m5": "8.4",
+      "m7": "66.8",
+      "m9": "90.4",
+      "m11": "4.2"
+    },
+    {
+      "p": "[Dual-Modal Attention-Enhanced Text-Video Retrieval with Triplet Partial Margin Contrastive Learning](https://arxiv.org/abs/2309.11082v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/alipay/Ant-Multi-Modal-Framework)",
+      "n": "DMAE\n(ViT-B/32)",
+      "d": "2023-09-20",
+      "m1": "48.7",
+      "m2": "78.4",
+      "m3": "86.3",
+      "m4": "2.0",
+      "m5": "9.8"
+    },
+    {
+      "p": "[Cross Modal Retrieval with Querybank Normalisation](https://arxiv.org/abs/2112.12777v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/ioanacroi/qb-norm)",
+      "n": "QB-Norm+CLIP2Video",
+      "d": "2021-12-23",
+      "m1": "48.0",
+      "m2": "77.9",
+      "m3": "86.2",
+      "m4": "2.0"
+    },
+    {
+      "p": "[DiffusionRet: Generative Text-Video Retrieval with Diffusion Model](https://arxiv.org/abs/2303.09867v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jpthu17/emcl)",
+      "n": "DiffusionRet+QB-Norm",
+      "d": "2023-03-17",
+      "m1": "47.9",
+      "m2": "77.2",
+      "m3": "84.8",
+      "m5": "15.6",
+      "m7": "60.3",
+      "m8": "86.4",
+      "m9": "92",
+      "m10": "1.0",
+      "m11": "4.5"
+    },
+    {
+      "p": "[Prototype-based Aleatoric Uncertainty Quantification for Cross-modal Retrieval](https://arxiv.org/abs/2309.17093v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/leolee99/pau)",
+      "n": "PAU",
+      "d": "2023-09-29",
+      "m1": "47.3",
+      "m2": "77.4",
+      "m3": "85.5",
+      "m4": "2.0",
+      "m5": "9.6",
+      "m7": "68.9",
+      "m8": "93.1",
+      "m9": "97.1",
+      "m10": "1.0",
+      "m11": "2.4"
+    },
+    {
+      "p": "[X-Pool: Cross-Modal Language-Video Attention for Text-Video Retrieval](https://arxiv.org/abs/2203.15086v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/layer6ai-labs/xpool)",
+      "n": "X-Pool",
+      "d": "2022-03-28",
+      "m1": "47.2",
+      "m2": "77.4",
+      "m3": "86.0",
+      "m4": "2.0",
+      "m5": "9.3",
+      "m7": "66.4",
+      "m8": "90.0",
+      "m9": "94.2",
+      "m10": "1.0",
+      "m11": "3.3"
+    },
+    {
+      "p": "[DiffusionRet: Generative Text-Video Retrieval with Diffusion Model](https://arxiv.org/abs/2303.09867v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jpthu17/emcl)",
+      "n": "DiffusionRet",
+      "d": "2023-03-17",
+      "m1": "46.6",
+      "m2": "75.9",
+      "m3": "84.1",
+      "m4": "2.0",
+      "m5": "15.7",
+      "m7": "61.9",
+      "m8": "88.3",
+      "m9": "92.9",
+      "m10": "1.0",
+      "m11": "4.5"
+    },
+    {
+      "p": "[CLIP4Clip: An Empirical Study of CLIP for End to End Video Clip Retrieval](https://arxiv.org/abs/2104.08860v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/towhee-io/towhee)",
+      "n": "CLIP4Clip",
+      "d": "2021-04-18",
+      "m1": "46.2",
+      "m2": "76.1",
+      "m3": "84.6",
+      "m4": "2",
+      "m5": "10.0",
+      "m7": "62.0",
+      "m8": "87.3",
+      "m9": "92.6",
+      "m10": "1"
+    },
+    {
+      "p": "[Lightweight Attentional Feature Fusion: A New Baseline for Text-to-Video Retrieval](https://arxiv.org/abs/2112.01832v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/ruc-aimc-lab/laff)",
+      "n": "LAFF",
+      "d": "2021-12-03",
+      "m1": "45.4",
+      "m2": "76.0",
+      "m3": "84.6"
+    },
+    {
+      "p": "[A Straightforward Framework For Video Retrieval Using CLIP](https://arxiv.org/abs/2102.12443v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Deferf/CLIP_Video_Representation)",
+      "n": "CLIP",
+      "d": "2021-02-24",
+      "m1": "37",
+      "m2": "64.1",
+      "m3": "73.8",
+      "m4": "3.0",
+      "m7": "59.9",
+      "m8": "85.2",
+      "m9": "90.7",
+      "m10": "1"
+    },
+    {
+      "p": "[Frozen in Time: A Joint Video and Image Encoder for End-to-End Retrieval](https://arxiv.org/abs/2104.00650v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/towhee-io/towhee)",
+      "n": "FROZEN",
+      "d": "2021-04-01",
+      "m1": "33.7",
+      "m2": "64.7",
+      "m3": "76.3",
+      "m4": "3"
+    },
+    {
+      "p": "[Noise Estimation Using Density Estimation for Self-Supervised Multimodal Learning](https://arxiv.org/abs/2003.03186v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/elad-amrani/ssml)",
+      "n": "SSML",
+      "d": "2020-03-06",
+      "m1": "20.3",
+      "m2": "49.0",
+      "m3": "63.3",
+      "m4": "6.0",
+      "m5": "--",
+      "m6": "--"
+    },
+    {
+      "p": "[Use What You Have: Video Retrieval Using Representations From Collaborative Experts](https://arxiv.org/abs/1907.13487v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/albanie/collaborative-experts)",
+      "n": "Collaborative Experts",
+      "d": "2019-07-31",
+      "m1": "19.8",
+      "m2": "49.0",
+      "m3": "63.8",
+      "m4": "6.0",
+      "m5": "23.1",
+      "m6": "89.0"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

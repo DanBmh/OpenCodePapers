@@ -1,0 +1,109 @@
+# action-classification-on-avid
+
+[Dataset Link](https://github.com/piergiaj/AViD) \
+Task Hierarchy: ['Video', 'Action Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[TokenLearner: What Can 8 Learned Tokens Do for Images and Videos?](https://arxiv.org/abs/2106.11297v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/scenic)",
+      "n": "TokenLearner",
+      "d": "2021-06-21",
+      "m1": "53.8"
+    },
+    {
+      "p": "[AViD Dataset: Anonymized Videos from Diverse Countries](https://arxiv.org/abs/2007.05515v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/piergiaj/AViD)",
+      "n": "SlowFast-101 16x8",
+      "d": "2020-07-10",
+      "m1": "50.9"
+    },
+    {
+      "p": "[AViD Dataset: Anonymized Videos from Diverse Countries](https://arxiv.org/abs/2007.05515v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/piergiaj/AViD)",
+      "n": "RepFlow ResNet-50",
+      "d": "2020-07-10",
+      "m1": "50.5"
+    },
+    {
+      "p": "[AViD Dataset: Anonymized Videos from Diverse Countries](https://arxiv.org/abs/2007.05515v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/piergiaj/AViD)",
+      "n": "SlowFast-50 8x8",
+      "d": "2020-07-10",
+      "m1": "50.4"
+    },
+    {
+      "p": "[AViD Dataset: Anonymized Videos from Diverse Countries](https://arxiv.org/abs/2007.05515v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/piergiaj/AViD)",
+      "n": "Two-Stream 3D ResNet-50",
+      "d": "2020-07-10",
+      "m1": "50.1"
+    },
+    {
+      "p": "[AViD Dataset: Anonymized Videos from Diverse Countries](https://arxiv.org/abs/2007.05515v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/piergiaj/AViD)",
+      "n": "(2+1)D ResNet-50",
+      "d": "2020-07-10",
+      "m1": "48.8"
+    },
+    {
+      "p": "[AViD Dataset: Anonymized Videos from Diverse Countries](https://arxiv.org/abs/2007.05515v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/piergiaj/AViD)",
+      "n": "SlowFast-50 4x4",
+      "d": "2020-07-10",
+      "m1": "48.5"
+    },
+    {
+      "p": "[AViD Dataset: Anonymized Videos from Diverse Countries](https://arxiv.org/abs/2007.05515v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/piergiaj/AViD)",
+      "n": "3D ResNet-50",
+      "d": "2020-07-10",
+      "m1": "48.2"
+    },
+    {
+      "p": "[AViD Dataset: Anonymized Videos from Diverse Countries](https://arxiv.org/abs/2007.05515v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/piergiaj/AViD)",
+      "n": "I3D",
+      "d": "2020-07-10",
+      "m1": "46.8"
+    },
+    {
+      "p": "[AViD Dataset: Anonymized Videos from Diverse Countries](https://arxiv.org/abs/2007.05515v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/piergiaj/AViD)",
+      "n": "2D ResNet-50",
+      "d": "2020-07-10",
+      "m1": "36.2"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

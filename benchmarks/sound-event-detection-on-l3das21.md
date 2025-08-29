@@ -1,0 +1,93 @@
+# sound-event-detection-on-l3das21
+
+[Dataset Link](https://zenodo.org/record/4642005) \
+Task Hierarchy: ['Sound Event Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Error Rate",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "SED-score",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "F-Score",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[PHNNs: Lightweight Neural Networks via Parameterized Hypercomplex Convolutions](https://arxiv.org/abs/2110.04176v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/elegan23/hypernets)",
+      "n": "PHC SEDnet n=2",
+      "d": "2021-10-08",
+      "m1": "0.389",
+      "m2": "0.638",
+      "m3": "0.68"
+    },
+    {
+      "p": "[PHNNs: Lightweight Neural Networks via Parameterized Hypercomplex Convolutions](https://arxiv.org/abs/2110.04176v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/elegan23/hypernets)",
+      "n": "PHC SEDnet n=4",
+      "d": "2021-10-08",
+      "m1": "0.453",
+      "m2": "0.407"
+    },
+    {
+      "p": "[PHNNs: Lightweight Neural Networks via Parameterized Hypercomplex Convolutions](https://arxiv.org/abs/2110.04176v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/elegan23/hypernets)",
+      "n": "PHC SEDnet n=16",
+      "d": "2021-10-08",
+      "m1": "0.509",
+      "m2": "0.461",
+      "m3": "0.588"
+    },
+    {
+      "p": "[PHNNs: Lightweight Neural Networks via Parameterized Hypercomplex Convolutions](https://arxiv.org/abs/2110.04176v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/elegan23/hypernets)",
+      "n": "Quaternion SEDnet",
+      "d": "2021-10-08",
+      "m1": "0.516",
+      "m2": "0.468",
+      "m3": "0.58"
+    },
+    {
+      "p": "[PHNNs: Lightweight Neural Networks via Parameterized Hypercomplex Convolutions](https://arxiv.org/abs/2110.04176v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/elegan23/hypernets)",
+      "n": "PHC SEDnet n=8",
+      "d": "2021-10-08",
+      "m1": "0.56",
+      "m2": "0.503",
+      "m3": "0.553"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

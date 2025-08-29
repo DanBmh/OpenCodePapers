@@ -1,0 +1,165 @@
+# action-recognition-on-diving-48
+
+[Dataset Link]() \
+Task Hierarchy: ['Action Recognition']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Extending Video Masked Autoencoders to 128 frames](https://arxiv.org/abs/2411.13683v1)",
+      "c": "",
+      "n": "LVMAE",
+      "d": "2024-11-20",
+      "m1": "94.9"
+    },
+    {
+      "p": "[Video-FocalNets: Spatio-Temporal Focal Modulation for Video Action Recognition](https://arxiv.org/abs/2307.06947v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/talalwasim/video-focalnets)",
+      "n": "Video-FocalNet-B",
+      "d": "2023-07-13",
+      "m1": "90.8"
+    },
+    {
+      "p": "[AIM: Adapting Image Models for Efficient Video Action Recognition](https://arxiv.org/abs/2302.03024v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/taoyang1122/adapt-image-models)",
+      "n": "AIM (CLIP ViT-L/14, 32x224)",
+      "d": "2023-02-06",
+      "m1": "90.6"
+    },
+    {
+      "p": "[Dual-path Adaptation from Image to Video Transformers](https://arxiv.org/abs/2303.09857v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/park-jungin/dualpath)",
+      "n": "DUALPATH",
+      "d": "2023-03-17",
+      "m1": "88.7"
+    },
+    {
+      "p": "[TFCNet: Temporal Fully Connected Networks for Static Unbiased Temporal Reasoning](https://arxiv.org/abs/2203.05928v1)",
+      "c": "",
+      "n": "TFCNet",
+      "d": "2022-03-11",
+      "m1": "88.3"
+    },
+    {
+      "p": "[Learning Correlation Structures for Vision Transformers](https://arxiv.org/abs/2404.03924v1)",
+      "c": "",
+      "n": "StructVit-B-4-1",
+      "d": "2024-04-05",
+      "m1": "88.3"
+    },
+    {
+      "p": "[Object-Region Video Transformers](https://arxiv.org/abs/2110.06915v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/eladb3/orvit)",
+      "n": "ORViT TimeSformer",
+      "d": "2021-10-13",
+      "m1": "88.0"
+    },
+    {
+      "p": "[Group Contextualization for Video Recognition](https://arxiv.org/abs/2203.09694v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/haoyanbin918/group-contextualization)",
+      "n": "GC-TDN",
+      "d": "2022-03-18",
+      "m1": "87.6"
+    },
+    {
+      "p": "[BEVT: BERT Pretraining of Video Transformers](https://arxiv.org/abs/2112.01529v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/xyzforever/bevt)",
+      "n": "BEVT",
+      "d": "2021-12-02",
+      "m1": "86.7"
+    },
+    {
+      "p": "[Spatiotemporal Self-attention Modeling with Temporal Patch Shift for Action Recognition](https://arxiv.org/abs/2207.13259v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/martinxm/tps)",
+      "n": "PSB",
+      "d": "2022-07-27",
+      "m1": "86"
+    },
+    {
+      "p": "[VIMPAC: Video Pre-Training via Masked Token Prediction and Contrastive Learning](https://arxiv.org/abs/2106.11250v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/airsplay/vimpac)",
+      "n": "VIMPAC",
+      "d": "2021-06-21",
+      "m1": "85.5"
+    },
+    {
+      "p": "[Relational Self-Attention: What's Missing in Attention for Video Understanding](https://arxiv.org/abs/2111.01673v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/KimManjin/RSA)",
+      "n": "RSANet-R50 (16 frames, ImageNet pretrained, a single clip)",
+      "d": "2021-11-02",
+      "m1": "84.2"
+    },
+    {
+      "p": "[Temporal Query Networks for Fine-grained Video Understanding](https://arxiv.org/abs/2104.09496v1)",
+      "c": "",
+      "n": "TQN",
+      "d": "2021-04-19",
+      "m1": "81.8"
+    },
+    {
+      "p": "[PMI Sampler: Patch Similarity Guided Frame Selection for Aerial Action Recognition](https://arxiv.org/abs/2304.06866v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ricky-xian/pmi-sampler)",
+      "n": "PMI Sampler",
+      "d": "2023-04-14",
+      "m1": "81.3"
+    },
+    {
+      "p": "[Is Space-Time Attention All You Need for Video Understanding?](https://arxiv.org/abs/2102.05095v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmaction2)",
+      "n": "TimeSformer-L",
+      "d": "2021-02-09",
+      "m1": "81"
+    },
+    {
+      "p": "[Is Space-Time Attention All You Need for Video Understanding?](https://arxiv.org/abs/2102.05095v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmaction2)",
+      "n": "TimeSformer-HR",
+      "d": "2021-02-09",
+      "m1": "78"
+    },
+    {
+      "p": "[SlowFast Networks for Video Recognition](https://arxiv.org/abs/1812.03982v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/SlowFast)",
+      "n": "SlowFast",
+      "d": "2018-12-10",
+      "m1": "77.6"
+    },
+    {
+      "p": "[Is Space-Time Attention All You Need for Video Understanding?](https://arxiv.org/abs/2102.05095v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmaction2)",
+      "n": "TimeSformer",
+      "d": "2021-02-09",
+      "m1": "75"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

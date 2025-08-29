@@ -1,0 +1,83 @@
+# new-product-sales-forecasting-on-visuelle
+
+[Dataset Link](https://github.com/HumaticsLAB/GTM-Transformer) \
+Task Hierarchy: ['Time Series Analysis', 'Time Series Forecasting', 'New Product Sales Forecasting']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "MAE",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "WAPE",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[POP: Mining POtential Performance of new fashion products via webly cross-modal query expansion](https://arxiv.org/abs/2207.11001v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/humaticslab/pop-mining-potential-performance)",
+      "n": "GTM-Transformer [POP]",
+      "d": "2022-07-22",
+      "m1": "28.62",
+      "m2": "52.39"
+    },
+    {
+      "p": "[Multimodal Quasi-AutoRegression: Forecasting the visual popularity of new fashion products](https://arxiv.org/abs/2204.04014v2)",
+      "c": "",
+      "n": "MuQAR",
+      "d": "2022-04-08",
+      "m1": "28.75",
+      "m2": "52.63"
+    },
+    {
+      "p": "[Well Googled is Half Done: Multimodal Forecasting of New Fashion Product Sales with Image-based Google Trends](https://arxiv.org/abs/2109.09824v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/humaticslab/gtm-transformer)",
+      "n": "GTM-Transformer [Extra Tag]",
+      "d": "2021-09-20",
+      "m1": "29.6",
+      "m2": "54.2"
+    },
+    {
+      "p": "[Well Googled is Half Done: Multimodal Forecasting of New Fashion Product Sales with Image-based Google Trends](https://arxiv.org/abs/2109.09824v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/humaticslab/gtm-transformer)",
+      "n": "GTM-Transformer",
+      "d": "2021-09-20",
+      "m1": "30.2",
+      "m2": "55.2"
+    },
+    {
+      "p": "[Attention based Multi-Modal New Product Sales Time-series Forecasting](https://dl.acm.org/doi/10.1145/3394486.3403362)",
+      "c": "[&check;&nbsp;Link](https://github.com/HumaticsLAB/AttentionBasedMultiModalRNN)",
+      "n": "Explainable  Cross-Attention Multimodal RNN",
+      "d": "2020-08-23",
+      "m1": "32.1"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

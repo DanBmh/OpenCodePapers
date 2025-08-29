@@ -1,0 +1,72 @@
+# crop-classification-on-cropharvest-brazil
+
+[Dataset Link]() \
+Task Hierarchy: ['Crop Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Average Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "F1 Macro",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Target Binary F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[In the Search for Optimal Multi-view Learning Models for Crop Classification with Global Remote Sensing Data](https://arxiv.org/abs/2403.16582v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/fmenat/optimal-multiview-crop-classifier)",
+      "n": "Feature fusion with LSTM",
+      "d": "2024-03-25",
+      "m1": "0.975",
+      "m2": "0.979"
+    },
+    {
+      "p": "[In the Search for Optimal Multi-view Learning Models for Crop Classification with Global Remote Sensing Data](https://arxiv.org/abs/2403.16582v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/fmenat/optimal-multiview-crop-classifier)",
+      "n": "Hybrid fusion with LSTM",
+      "d": "2024-03-25",
+      "m1": "0.974",
+      "m2": "0.978"
+    },
+    {
+      "p": "[Lightweight, Pre-trained Transformers for Remote Sensing Timeseries](https://arxiv.org/abs/2304.14065v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/nasaharvest/presto)",
+      "n": "PrestoR",
+      "d": "2023-04-27",
+      "m3": "0.891"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

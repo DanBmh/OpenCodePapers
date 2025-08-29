@@ -1,0 +1,60 @@
+# on-cybench
+
+[Dataset Link](https://cybench.github.io/) \
+Task Hierarchy: ['']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Unguided Performance",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[US AISI and UK AISI Joint Pre-Deployment Test: Anthropic\u2019s Claude 3.5 Sonnet (October 2024 Release)](https://www.nist.gov/news-events/news/2024/11/pre-deployment-evaluation-anthropics-upgraded-claude-35-sonnet)",
+      "c": "",
+      "n": "Claude 3.5 Sonnet (old, US AISI scaffold, pass@10)",
+      "d": "2024-11-19",
+      "m1": "35%"
+    },
+    {
+      "p": "[US AISI and UK AISI Joint Pre-Deployment Test: Anthropic\u2019s Claude 3.5 Sonnet (October 2024 Release)](https://www.nist.gov/news-events/news/2024/11/pre-deployment-evaluation-anthropics-upgraded-claude-35-sonnet)",
+      "c": "",
+      "n": "o1-preview (US AISI scaffold, pass@10)",
+      "d": "2024-11-19",
+      "m1": "35%"
+    },
+    {
+      "p": "[Cybench: A Framework for Evaluating Cybersecurity Capabilities and Risks of Language Models](https://arxiv.org/abs/2408.08926v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/andyzorigin/cyber-bench)",
+      "n": "Claude 3.5 Sonnet",
+      "d": "2024-08-15",
+      "m1": "17.5%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

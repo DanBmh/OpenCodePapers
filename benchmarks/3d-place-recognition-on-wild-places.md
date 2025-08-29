@@ -1,0 +1,76 @@
+# 3d-place-recognition-on-wild-places
+
+[Dataset Link](https://csiro-robotics.github.io/Wild-Places/) \
+Task Hierarchy: ['Visual Place Recognition', '3D Place Recognition']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AR@1 (Intra-Seq)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "AR@1 Inter-Seq",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[ForestLPR: LiDAR Place Recognition in Forests Attentioning Multiple BEV Density Images](https://arxiv.org/abs/2503.04475v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/shenyanqing1105/ForestLPR-CVPR2025)",
+      "n": "ForestLPR",
+      "d": "2025-03-06",
+      "m1": "77.62",
+      "m2": "78.73"
+    },
+    {
+      "p": "[LoGG3D-Net: Locally Guided Global Descriptor Learning for 3D Place Recognition](https://arxiv.org/abs/2109.08336v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/csiro-robotics/LoGG3D-Net)",
+      "n": "LoGG3D-Net",
+      "d": "2021-09-17",
+      "m1": "69.80",
+      "m2": "77.26"
+    },
+    {
+      "p": "[Improving Point Cloud Based Place Recognition with Ranking-based Loss and Large Batch Training](https://arxiv.org/abs/2203.00972v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/jac99/minkloc3dv2)",
+      "n": "MinkLoc3Dv2",
+      "d": "2022-03-02",
+      "m1": "60.93",
+      "m2": "71.80"
+    },
+    {
+      "p": "[TransLoc3D : Point Cloud based Large-scale Place Recognition using Adaptive Receptive Fields](https://arxiv.org/abs/2105.11605v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/slothfulxtx/TransLoc3D)",
+      "n": "TransLoc3D",
+      "d": "2021-05-25",
+      "m1": "47.31",
+      "m2": "48.16"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

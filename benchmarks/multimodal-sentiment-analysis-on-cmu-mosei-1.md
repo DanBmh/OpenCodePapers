@@ -1,0 +1,183 @@
+# multimodal-sentiment-analysis-on-cmu-mosei-1
+
+[Dataset Link]() \
+Task Hierarchy: ['Sentiment Analysis', 'Multimodal Sentiment Analysis']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "MAE",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Acc-5",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "Acc-7",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "Corr",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Multi-label Emotion Analysis in Conversation via Multimodal Knowledge Distillation](https://dl.acm.org/doi/10.1145/3581783.3612517)",
+      "c": "",
+      "n": "SeMUL-PCD",
+      "d": "2023-10-27",
+      "m1": "88.62",
+      "m3": "89.04"
+    },
+    {
+      "p": "[Multimodal Multi-loss Fusion Network for Sentiment Analysis](https://arxiv.org/abs/2308.00264v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/zehuiwu/MMML)",
+      "n": "MMML",
+      "d": "2023-08-01",
+      "m1": "88.22",
+      "m2": "0.5072",
+      "m3": "88.04",
+      "m4": "57.45",
+      "m5": "54.77",
+      "m6": "81.42"
+    },
+    {
+      "p": "[UniMSE: Towards Unified Multimodal Sentiment Analysis and Emotion Recognition](https://arxiv.org/abs/2211.11256v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/lemei/unimse)",
+      "n": "UniMSE",
+      "d": "2022-11-21",
+      "m1": "87.50",
+      "m2": "0.523",
+      "m3": "87.46"
+    },
+    {
+      "p": "[Speech-Text Dialog Pre-training for Spoken Dialog Understanding with Explicit Cross-Modal Alignment](https://arxiv.org/abs/2305.11579v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/alibabaresearch/damo-convai)",
+      "n": "SPECTRA",
+      "d": "2023-05-19",
+      "m1": "87.34"
+    },
+    {
+      "p": "[A Transformer-based joint-encoding for Emotion Recognition and Sentiment Analysis](https://arxiv.org/abs/2006.15955v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jbdel/MOSEI_UMONS)",
+      "n": "Transformer-based joint-encoding",
+      "d": "2020-06-29",
+      "m1": "82.48"
+    },
+    {
+      "p": "[Modulated Fusion using Transformer for Linguistic-Acoustic Emotion Recognition](https://arxiv.org/abs/2010.02057v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jbdel/modulated_fusion_transformer)",
+      "n": "Modulated-fusion transformer",
+      "d": "2020-10-05",
+      "m1": "82.45"
+    },
+    {
+      "p": "[MMLatch: Bottom-up Top-down Fusion for Multimodal Sentiment Analysis](https://arxiv.org/abs/2201.09828v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/georgepar/mmlatch)",
+      "n": "MMLatch",
+      "d": "2022-01-24",
+      "m1": "82.4",
+      "m2": "0.7"
+    },
+    {
+      "p": "[Multilogue-Net: A Context Aware RNN for Multi-modal Emotion Detection and Sentiment Analysis in Conversation](https://arxiv.org/abs/2002.08267v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/amanshenoy/multilogue-net)",
+      "n": "Multilogue-Net",
+      "d": "2020-02-19",
+      "m1": "82.10",
+      "m2": "0.59"
+    },
+    {
+      "p": "[Gated Mechanism for Attention Based Multimodal Sentiment Analysis](https://arxiv.org/abs/2003.01043v1)",
+      "c": "",
+      "n": "Proposed: B2 + B4 w/ multimodal fusion",
+      "d": "2020-02-21",
+      "m1": "81.14"
+    },
+    {
+      "p": "[Unsupervised Multimodal Language Representations using Convolutional Autoencoders](https://arxiv.org/abs/2110.03007v2)",
+      "c": "",
+      "n": "CAE-LR",
+      "d": "2021-10-06",
+      "m1": "78"
+    },
+    {
+      "p": "[Multimodal Language Analysis in the Wild: CMU-MOSEI Dataset and Interpretable Dynamic Fusion Graph](https://aclanthology.org/P18-1208)",
+      "c": "",
+      "n": "Graph-MFN",
+      "d": "2018-07-01",
+      "m1": "76.9",
+      "m2": "0.71"
+    },
+    {
+      "p": "[MARLIN: Masked Autoencoder for facial video Representation LearnINg](https://arxiv.org/abs/2211.06627v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/ControlNet/MARLIN)",
+      "n": "MARLIN (ViT-L)",
+      "d": "2022-11-12",
+      "m1": "74.83"
+    },
+    {
+      "p": "[MARLIN: Masked Autoencoder for facial video Representation LearnINg](https://arxiv.org/abs/2211.06627v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/ControlNet/MARLIN)",
+      "n": "MARLIN (ViT-B)",
+      "d": "2022-11-12",
+      "m1": "73.7"
+    },
+    {
+      "p": "[MARLIN: Masked Autoencoder for facial video Representation LearnINg](https://arxiv.org/abs/2211.06627v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/ControlNet/MARLIN)",
+      "n": "MARLIN (ViT-S)",
+      "d": "2022-11-12",
+      "m1": "72.69"
+    },
+    {
+      "p": "[Learning Language-guided Adaptive Hyper-modality Representation for Multimodal Sentiment Analysis](https://arxiv.org/abs/2310.05804v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Haoyu-ha/ALMT)",
+      "n": "ALMT",
+      "d": "2023-10-09",
+      "m2": "0.526",
+      "m4": "55.96",
+      "m5": "54.28",
+      "m6": "0.779"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,192 @@
+# unsupervised-anomaly-detection-on-anoshift
+
+[Dataset Link](https://github.com/bit-ml/AnoShift) \
+Task Hierarchy: ['Unsupervised Anomaly Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "ROC-AUC FAR",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "ROC-AUC IID",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "ROC-AUC NEAR",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "ROC-AUC-ID (In-Distribution setup)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Zero-Shot Anomaly Detection via Batch Normalization](https://arxiv.org/abs/2302.07849v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/aodongli/zero-shot-ad-via-batch-norm)",
+      "n": "ACR-NTL (zero-shot, test anomaly ratio=1%)",
+      "d": "2023-02-15",
+      "m1": "62.5"
+    },
+    {
+      "p": "[Zero-Shot Anomaly Detection via Batch Normalization](https://arxiv.org/abs/2302.07849v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/aodongli/zero-shot-ad-via-batch-norm)",
+      "n": "ACR-DSVDD (zero-shot, anomaly ratio=1%)",
+      "d": "2023-02-15",
+      "m1": "62"
+    },
+    {
+      "p": "[Zero-Shot Anomaly Detection via Batch Normalization](https://arxiv.org/abs/2302.07849v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/aodongli/zero-shot-ad-via-batch-norm)",
+      "n": "ACR-NTL (zero-shot, test anomaly ratio=20%)",
+      "d": "2023-02-15",
+      "m1": "62"
+    },
+    {
+      "p": "[Zero-Shot Anomaly Detection via Batch Normalization](https://arxiv.org/abs/2302.07849v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/aodongli/zero-shot-ad-via-batch-norm)",
+      "n": "ACR-DSVDD (zero-shot, anomaly ratio=20%)",
+      "d": "2023-02-15",
+      "m1": "59.1"
+    },
+    {
+      "p": "[AnoShift: A Distribution Shift Benchmark for Unsupervised Anomaly Detection](https://arxiv.org/abs/2206.15476v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/bit-ml/anoshift)",
+      "n": "COPOD",
+      "d": "2022-06-30",
+      "m1": "50.42",
+      "m2": "85.62",
+      "m3": "54.24",
+      "m4": "80.89"
+    },
+    {
+      "p": "[AnoShift: A Distribution Shift Benchmark for Unsupervised Anomaly Detection](https://arxiv.org/abs/2206.15476v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/bit-ml/anoshift)",
+      "n": "OC-SVM",
+      "d": "2022-06-30",
+      "m1": "49.57",
+      "m2": "76.86",
+      "m3": "71.43",
+      "m4": "68.73"
+    },
+    {
+      "p": "[AnoShift: A Distribution Shift Benchmark for Unsupervised Anomaly Detection](https://arxiv.org/abs/2206.15476v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/bit-ml/anoshift)",
+      "n": "SO-GAAL",
+      "d": "2022-06-30",
+      "m1": "49.35",
+      "m2": "50.48",
+      "m3": "54.55",
+      "m4": "49.90"
+    },
+    {
+      "p": "[AnoShift: A Distribution Shift Benchmark for Unsupervised Anomaly Detection](https://arxiv.org/abs/2206.15476v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/bit-ml/anoshift)",
+      "n": "ECOD Li et al. (2022)",
+      "d": "2022-06-30",
+      "m1": "49.19",
+      "m2": "84.76",
+      "m3": "44.87",
+      "m4": "79.41"
+    },
+    {
+      "p": "[AnoShift: A Distribution Shift Benchmark for Unsupervised Anomaly Detection](https://arxiv.org/abs/2206.15476v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/bit-ml/anoshift)",
+      "n": "LOF",
+      "d": "2022-06-30",
+      "m1": "34.96",
+      "m2": "91.5",
+      "m3": "79.29",
+      "m4": "87.61"
+    },
+    {
+      "p": "[AnoShift: A Distribution Shift Benchmark for Unsupervised Anomaly Detection](https://arxiv.org/abs/2206.15476v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/bit-ml/anoshift)",
+      "n": "deepSVDD",
+      "d": "2022-06-30",
+      "m1": "34.53",
+      "m2": "92.67",
+      "m3": "87.00",
+      "m4": "88.24"
+    },
+    {
+      "p": "[AnoShift: A Distribution Shift Benchmark for Unsupervised Anomaly Detection](https://arxiv.org/abs/2206.15476v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/bit-ml/anoshift)",
+      "n": "LUNAR",
+      "d": "2022-06-30",
+      "m1": "28.19",
+      "m2": "85.75",
+      "m3": "49.03",
+      "m4": "78.53"
+    },
+    {
+      "p": "[AnoShift: A Distribution Shift Benchmark for Unsupervised Anomaly Detection](https://arxiv.org/abs/2206.15476v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/bit-ml/anoshift)",
+      "n": "BERT",
+      "d": "2022-06-30",
+      "m1": "28.15",
+      "m2": "84.54",
+      "m3": "86.05",
+      "m4": "79.62"
+    },
+    {
+      "p": "[AnoShift: A Distribution Shift Benchmark for Unsupervised Anomaly Detection](https://arxiv.org/abs/2206.15476v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/bit-ml/anoshift)",
+      "n": "IsoForest",
+      "d": "2022-06-30",
+      "m1": "27.16",
+      "m2": "86.09",
+      "m3": "75.26",
+      "m4": "81.27"
+    },
+    {
+      "p": "[AnoShift: A Distribution Shift Benchmark for Unsupervised Anomaly Detection](https://arxiv.org/abs/2206.15476v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/bit-ml/anoshift)",
+      "n": "Internal Contrastive Learning",
+      "d": "2022-06-30",
+      "m1": "22.45",
+      "m2": "84.86",
+      "m3": "52.26",
+      "m4": "66.99"
+    },
+    {
+      "p": "[AnoShift: A Distribution Shift Benchmark for Unsupervised Anomaly Detection](https://arxiv.org/abs/2206.15476v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/bit-ml/anoshift)",
+      "n": "AE for anomalies",
+      "d": "2022-06-30",
+      "m1": "19.96",
+      "m2": "81",
+      "m3": "44.06",
+      "m4": "64.08"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,453 @@
+# multi-object-tracking-on-dancetrack
+
+[Dataset Link](https://sites.google.com/view/dancetrackmot) \
+Task Hierarchy: ['Object Tracking', 'Multi-Object Tracking']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "HOTA",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "MOTA",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "IDF1",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "AssA",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "DetA",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[SAM2MOT: A Novel Paradigm of Multi-Object Tracking by Segmentation](https://arxiv.org/abs/2504.04519v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/TripleJoy/SAM2MOT)",
+      "n": "SAM2MOT",
+      "d": "2025-04-06",
+      "m1": "75.9",
+      "m2": "88.9",
+      "m3": "84.4",
+      "m4": "72.3",
+      "m5": "79.9"
+    },
+    {
+      "p": "[Multiple Object Tracking as ID Prediction](https://arxiv.org/abs/2403.16848v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/MCG-NJU/MOTIP)",
+      "n": "MOTIP (Deformable DETR, with DanceTrack val and CrowdHuman)",
+      "d": "2024-03-25",
+      "m1": "73.7",
+      "m2": "92.7",
+      "m3": "78.4",
+      "m4": "65.9",
+      "m5": "82.6"
+    },
+    {
+      "p": "[MOTRv2: Bootstrapping End-to-End Multi-Object Tracking by Pretrained Object Detectors](https://arxiv.org/abs/2211.09791v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/megvii-research/MOTRv2)",
+      "n": "MOTRv2",
+      "d": "2022-11-17",
+      "m1": "73.4",
+      "m2": "92.1",
+      "m3": "76.0",
+      "m4": "64.4",
+      "m5": "83.7"
+    },
+    {
+      "p": "[Multiple Object Tracking as ID Prediction](https://arxiv.org/abs/2403.16848v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/MCG-NJU/MOTIP)",
+      "n": "MOTIP (Deformable DETR, with CrowdHuman)",
+      "d": "2024-03-25",
+      "m1": "71.4",
+      "m2": "91.6",
+      "m3": "76.3",
+      "m4": "62.8",
+      "m5": "81.3"
+    },
+    {
+      "p": "[Multiple Object Tracking as ID Prediction](https://arxiv.org/abs/2403.16848v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/MCG-NJU/MOTIP)",
+      "n": "MOTIP (DAB-Deformable DETR)",
+      "d": "2024-03-25",
+      "m1": "70.0",
+      "m2": "91.0",
+      "m3": "75.1",
+      "m4": "60.8",
+      "m5": "80.8"
+    },
+    {
+      "p": "[Bridging the Gap Between End-to-end and Non-End-to-end Multi-Object Tracking](https://arxiv.org/abs/2305.12724v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/bingfengyan/visam)",
+      "n": "CO-MOT",
+      "d": "2023-05-22",
+      "m1": "69.4",
+      "m2": "91.2",
+      "m3": "71.9",
+      "m4": "58.9",
+      "m5": "82.1"
+    },
+    {
+      "p": "[CAMELTrack: Context-Aware Multi-cue ExpLoitation for Online Multi-Object Tracking](https://arxiv.org/abs/2505.01257v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/TrackingLaboratory/CAMELTrack)",
+      "n": "CAMELTrack (fully online)",
+      "d": "2025-05-02",
+      "m1": "69.3"
+    },
+    {
+      "p": "[MeMOTR: Long-Term Memory-Augmented Transformer for Multi-Object Tracking](https://arxiv.org/abs/2307.15700v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/mcg-nju/memotr)",
+      "n": "MeMOTR",
+      "d": "2023-07-28",
+      "m1": "68.5",
+      "m2": "89.9",
+      "m3": "71.2",
+      "m4": "58.4",
+      "m5": "80.5"
+    },
+    {
+      "p": "[Multiple Object Tracking as ID Prediction](https://arxiv.org/abs/2403.16848v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/MCG-NJU/MOTIP)",
+      "n": "MOTIP (Deformable DETR)",
+      "d": "2024-03-25",
+      "m1": "67.5",
+      "m2": "90.3",
+      "m3": "72.2",
+      "m4": "57.6",
+      "m5": "79.4"
+    },
+    {
+      "p": "[Multiple Object Tracking Challenge Technical Report for Team MT_IoT](https://arxiv.org/abs/2212.03586v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/BingfengYan/DS_OCSORT)",
+      "n": "MT_IOT",
+      "d": "2022-12-07",
+      "m1": "66.66",
+      "m2": "93.97",
+      "m3": "70.6",
+      "m4": "52.95",
+      "m5": "84.14"
+    },
+    {
+      "p": "[Associate Everything Detected: Facilitating Tracking-by-Detection to the Unknown](https://arxiv.org/abs/2409.09293v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/balabooooo/aed)",
+      "n": "AED",
+      "d": "2024-09-14",
+      "m1": "66.6",
+      "m2": "92.2",
+      "m3": "69.7",
+      "m4": "54.3",
+      "m5": "82.0"
+    },
+    {
+      "p": "[Focusing on Tracks for Online Multi-Object Tracking](https://cvpr.thecvf.com/virtual/2025/poster/35174)",
+      "c": "[&check;&nbsp;Link](https://github.com/kamkyu94/TrackTrack)",
+      "n": "TrackTrack",
+      "d": "2025-06-15",
+      "m1": "66.5",
+      "m2": "93.6",
+      "m3": "67.8",
+      "m4": "52.9"
+    },
+    {
+      "p": "[One Homography is All You Need: IMM-based Joint Homography and Multiple Object State Estimation](https://arxiv.org/abs/2409.02562v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Paulkie99/imm-jhse)",
+      "n": "IMM-JHSE",
+      "d": "2024-09-04",
+      "m1": "66.24",
+      "m2": "89.95",
+      "m3": "71.72",
+      "m4": "55.41"
+    },
+    {
+      "p": "[Hybrid-SORT: Weak Cues Matter for Online Multi-Object Tracking](https://arxiv.org/abs/2308.00783v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mikel-brostrom/boxmot)",
+      "n": "Hybrid-SORT-ReID",
+      "d": "2023-08-01",
+      "m1": "65.7",
+      "m2": "91.8",
+      "m3": "67.4",
+      "m4": "52.6",
+      "m5": "82.2"
+    },
+    {
+      "p": "[UCMCTrack: Multi-Object Tracking with Uniform Camera Motion Compensation](https://arxiv.org/abs/2312.08952v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/corfyi/ucmctrack)",
+      "n": "UCMCTrack",
+      "d": "2023-12-14",
+      "m1": "63.6",
+      "m3": "65.0"
+    },
+    {
+      "p": "[MeMOTR: Long-Term Memory-Augmented Transformer for Multi-Object Tracking](https://arxiv.org/abs/2307.15700v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/mcg-nju/memotr)",
+      "n": "MeMOTR (Deformable DETR)",
+      "d": "2023-07-28",
+      "m1": "63.4",
+      "m2": "85.4",
+      "m3": "65.5",
+      "m4": "52.3",
+      "m5": "77.0"
+    },
+    {
+      "p": "[Engineering an Efficient Object Tracker for Non-Linear Motion](https://arxiv.org/abs/2407.00738v1)",
+      "c": "",
+      "n": "DeepMoveSORT",
+      "d": "2024-06-30",
+      "m1": "63.0",
+      "m2": "92.6",
+      "m3": "65.0",
+      "m4": "48.6",
+      "m5": "82.0"
+    },
+    {
+      "p": "[Hybrid-SORT: Weak Cues Matter for Online Multi-Object Tracking](https://arxiv.org/abs/2308.00783v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mikel-brostrom/boxmot)",
+      "n": "Hybrid-SORT",
+      "d": "2023-08-01",
+      "m1": "62.2",
+      "m2": "91.6",
+      "m3": "63.0",
+      "m4": "47.4",
+      "m5": "81.9"
+    },
+    {
+      "p": "[Learning Data Association for Multi-Object Tracking using Only Coordinates](https://arxiv.org/abs/2403.08018v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Guepardow/TWiX)",
+      "n": "C-TWiX",
+      "d": "2024-03-12",
+      "m1": "62.1",
+      "m2": "91.4",
+      "m3": "63.6",
+      "m4": "47.2",
+      "m5": "81.8"
+    },
+    {
+      "p": "[A Confidence-Aware Matching Strategy For Generalized Multi-Object Tracking](https://ieeexplore.ieee.org/document/10647729)",
+      "c": "[&check;&nbsp;Link](https://github.com/kamkyu94/CMTrack)",
+      "n": "CMTrack",
+      "d": "2024-09-27",
+      "m1": "61.8",
+      "m2": "92.5",
+      "m3": "63.3",
+      "m4": "46.4"
+    },
+    {
+      "p": "[Deep OC-SORT: Multi-Pedestrian Tracking by Adaptive Re-Identification](https://arxiv.org/abs/2302.11813v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/mikel-brostrom/boxmot)",
+      "n": "Deep OC-SORT",
+      "d": "2023-02-23",
+      "m1": "61.3",
+      "m2": "92.3",
+      "m3": "61.5",
+      "m4": "45.8",
+      "m5": "82.2"
+    },
+    {
+      "p": "[Hard to Track Objects with Irregular Motions and Similar Appearances? Make It Easier by Buffering the Matching Space](https://arxiv.org/abs/2211.14317v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Guepardow/TWiX)",
+      "n": "C-BIoU",
+      "d": "2022-11-24",
+      "m1": "60.6",
+      "m2": "91.6",
+      "m3": "61.6",
+      "m4": "45.4",
+      "m5": "81.3"
+    },
+    {
+      "p": "[MotionTrack: Learning Motion Predictor for Multiple Object Tracking](https://arxiv.org/abs/2306.02585v2)",
+      "c": "",
+      "n": "MotionTrack",
+      "d": "2023-06-05",
+      "m1": "58.2",
+      "m2": "91.3",
+      "m3": "58.6",
+      "m4": "41.7",
+      "m5": "81.4"
+    },
+    {
+      "p": "[ETTrack: Enhanced Temporal Motion Predictor for Multi-Object Tracking](https://arxiv.org/abs/2405.15755v1)",
+      "c": "",
+      "n": "ETTrack",
+      "d": "2024-05-24",
+      "m1": "56.4",
+      "m2": "92.2",
+      "m3": "57.5",
+      "m4": "39.1",
+      "m5": "81.7"
+    },
+    {
+      "p": "[Beyond Kalman Filters: Deep Learning-Based Filters for Improved Object Tracking](https://arxiv.org/abs/2402.09865v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Robotmurlock/NODETracker)",
+      "n": "MoveSORT",
+      "d": "2024-02-15",
+      "m1": "56.1",
+      "m2": "91.8",
+      "m3": "56.0",
+      "m4": "38.7",
+      "m5": "81.6"
+    },
+    {
+      "p": "[MambaMOT: State-Space Model as Motion Predictor for Multi-Object Tracking](https://arxiv.org/abs/2403.10826v2)",
+      "c": "",
+      "n": "MambaMOT",
+      "d": "2024-03-16",
+      "m1": "56.1",
+      "m2": "90.3",
+      "m3": "54.9",
+      "m4": "39.0",
+      "m5": "80.8"
+    },
+    {
+      "p": "[When to Extract ReID Features: A Selective Approach for Improved Multiple Object Tracking](https://arxiv.org/abs/2409.06617v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/emirhanbayar/fast-strongsort)",
+      "n": "Fast-StrongSORT",
+      "d": "2024-09-10",
+      "m1": "55.9",
+      "m3": "54.6",
+      "m4": "38.8"
+    },
+    {
+      "p": "[SparseTrack: Multi-Object Tracking by Performing Scene Decomposition based on Pseudo-Depth](https://arxiv.org/abs/2306.05238v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/hustvl/sparsetrack)",
+      "n": "SparseTrack",
+      "d": "2023-06-08",
+      "m1": "55.7",
+      "m2": "91.3",
+      "m3": "58.1",
+      "m4": "39.3",
+      "m5": "79.2"
+    },
+    {
+      "p": "[Observation-Centric SORT: Rethinking SORT for Robust Multi-Object Tracking](https://arxiv.org/abs/2203.14360v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleDetection)",
+      "n": "OC-SORT",
+      "d": "2022-03-27",
+      "m1": "55.1",
+      "m2": "89.4",
+      "m3": "54.2",
+      "m4": "38.0"
+    },
+    {
+      "p": "[MOTR: End-to-End Multiple-Object Tracking with Transformer](https://arxiv.org/abs/2105.03247v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/megvii-model/MOTR)",
+      "n": "MOTR",
+      "d": "2021-05-07",
+      "m1": "54.2",
+      "m2": "79.7",
+      "m3": "51.5",
+      "m4": "40.2",
+      "m5": "73.5"
+    },
+    {
+      "p": "[Multiple Object Tracking from appearance by hierarchically clustering tracklets](https://arxiv.org/abs/2210.03355v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/nii-satoh-lab/mot_fcg)",
+      "n": "FCG",
+      "d": "2022-10-07",
+      "m1": "48.7",
+      "m2": "89.9",
+      "m3": "46.5",
+      "m4": "29.9",
+      "m5": "79.8"
+    },
+    {
+      "p": "[ByteTrack: Multi-Object Tracking by Associating Every Detection Box](https://arxiv.org/abs/2110.06864v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleDetection/tree/release/2.3/configs/mot)",
+      "n": "ByteTrack",
+      "d": "2021-10-13",
+      "m1": "47.1",
+      "m2": "88.2",
+      "m3": "51.9",
+      "m4": "31.5",
+      "m5": "70.5"
+    },
+    {
+      "p": "[Quasi-Dense Similarity Learning for Multiple Object Tracking](https://arxiv.org/abs/2006.06664v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/SysCV/qdtrack)",
+      "n": "QDTrack",
+      "d": "2020-06-11",
+      "m1": "45.7",
+      "m2": "83.0",
+      "m3": "44.8",
+      "m4": "29.2",
+      "m5": "72.1"
+    },
+    {
+      "p": "[TransTrack: Multiple Object Tracking with Transformer](https://arxiv.org/abs/2012.15460v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/PeizeSun/TransTrack)",
+      "n": "TransTrack",
+      "d": "2020-12-31",
+      "m1": "45.7",
+      "m2": "83.0",
+      "m3": "44.8",
+      "m4": "27.5",
+      "m5": "72.1"
+    },
+    {
+      "p": "[Track to Detect and Segment: An Online Multi-Object Tracker](https://arxiv.org/abs/2103.08808v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/JialianW/TraDeS)",
+      "n": "TraDes",
+      "d": "2021-03-16",
+      "m1": "43.3",
+      "m2": "86.2",
+      "m3": "41.2",
+      "m4": "25.4",
+      "m5": "74.5"
+    },
+    {
+      "p": "[Tracking Objects as Points](https://arxiv.org/abs/2004.01177v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleDetection)",
+      "n": "CenterTrack",
+      "d": "2020-04-02",
+      "m1": "41.8",
+      "m2": "86.8",
+      "m3": "35.7",
+      "m4": "22.6",
+      "m5": "78.1"
+    },
+    {
+      "p": "[FairMOT: On the Fairness of Detection and Re-Identification in Multiple Object Tracking](https://arxiv.org/abs/2004.01888v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleDetection)",
+      "n": "FairMOT",
+      "d": "2020-04-04",
+      "m1": "39.7",
+      "m2": "82.2",
+      "m3": "40.8",
+      "m4": "23.8",
+      "m5": "66.7"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

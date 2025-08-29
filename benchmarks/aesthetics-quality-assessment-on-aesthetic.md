@@ -1,0 +1,67 @@
+# aesthetics-quality-assessment-on-aesthetic
+
+[Dataset Link](https://github.com/ylogx/aesthetics/tree/master/data/ava) \
+Task Hierarchy: ['Image Quality Assessment', 'Aesthetics Quality Assessment']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "SRCC",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "PLCC",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Language Integration in Fine-Tuning Multimodal Large Language Models for Image-Based Regression](https://arxiv.org/abs/2507.14997)",
+      "c": "",
+      "n": "RvTC+",
+      "d": "2025-07-20",
+      "m1": "0.899",
+      "m2": "0.901"
+    },
+    {
+      "p": "[Language Integration in Fine-Tuning Multimodal Large Language Models for Image-Based Regression](https://arxiv.org/abs/2507.14997)",
+      "c": "",
+      "n": "RvTC (image-only)",
+      "d": "2025-07-20",
+      "m1": "0.833",
+      "m2": "0.831"
+    },
+    {
+      "p": "[Q-Align: Teaching LMMs for Visual Scoring via Discrete Text-Defined Levels](https://arxiv.org/abs/2312.17090v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/q-future/q-align)",
+      "n": "OneAlign",
+      "d": "2023-12-28",
+      "m1": "0.823"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

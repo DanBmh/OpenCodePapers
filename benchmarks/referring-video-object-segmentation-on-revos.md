@@ -1,0 +1,144 @@
+# referring-video-object-segmentation-on-revos
+
+[Dataset Link](https://github.com/cilinyan/revos-api) \
+Task Hierarchy: ['Video Object Segmentation', 'Referring Video Object Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "J&F",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "J",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "F",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "R",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[The Devil is in Temporal Token: High Quality Video Reasoning Segmentation](https://arxiv.org/abs/2501.08549v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/sitonggong/vrs-hq)",
+      "n": "VRS-HQ (Chat-UniVi-13B)",
+      "d": "2025-01-15",
+      "m1": "60",
+      "m2": "57.6",
+      "m3": "62.5",
+      "m4": "18.9"
+    },
+    {
+      "p": "[The Devil is in Temporal Token: High Quality Video Reasoning Segmentation](https://arxiv.org/abs/2501.08549v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/sitonggong/vrs-hq)",
+      "n": "VRS-HQ (Chat-UniVi-7B)",
+      "d": "2025-01-15",
+      "m1": "59.1",
+      "m2": "56.6",
+      "m3": "61.6",
+      "m4": "19.7"
+    },
+    {
+      "p": "[VISA: Reasoning Video Object Segmentation via Large Language Models](https://arxiv.org/abs/2407.11325v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cilinyan/VISA)",
+      "n": "VISA (Chat-UniVi-13B)",
+      "d": "2024-07-16",
+      "m1": "50.9",
+      "m2": "48.8",
+      "m3": "52.9",
+      "m4": "14.5"
+    },
+    {
+      "p": "[VISA: Reasoning Video Object Segmentation via Large Language Models](https://arxiv.org/abs/2407.11325v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/cilinyan/VISA)",
+      "n": "VISA (Chat-UniVi-7B)",
+      "d": "2024-07-16",
+      "m1": "46.9",
+      "m2": "44.9",
+      "m3": "49.0",
+      "m4": "15.5"
+    },
+    {
+      "p": "[Tracking with Human-Intent Reasoning](https://arxiv.org/abs/2312.17448v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jiawen-zhu/trackgpt)",
+      "n": "TrackGPT (LLaVA-13B)",
+      "d": "2023-12-29",
+      "m1": "45.0",
+      "m2": "43.2",
+      "m3": "46.8",
+      "m4": "12.8"
+    },
+    {
+      "p": "[LISA: Reasoning Segmentation via Large Language Model](https://arxiv.org/abs/2308.00692v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/dvlab-research/lisa)",
+      "n": "LISA (LLaVA-13B)",
+      "d": "2023-08-01",
+      "m1": "41.6",
+      "m2": "39.8",
+      "m3": "43.5",
+      "m4": "8.6"
+    },
+    {
+      "p": "[Language as Queries for Referring Video Object Segmentation](https://arxiv.org/abs/2201.00487v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/wjn922/referformer)",
+      "n": "ReferFormer (Video-Swin-B)",
+      "d": "2022-01-03",
+      "m1": "28.1",
+      "m2": "26.2",
+      "m3": "29.9",
+      "m4": "8.8"
+    },
+    {
+      "p": "[MeViS: A Large-scale Benchmark for Video Segmentation with Motion Expressions](https://arxiv.org/abs/2308.08544v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/henghuiding/MeViS)",
+      "n": "LMPM (Swin-T)",
+      "d": "2023-08-16",
+      "m1": "26.4",
+      "m2": "21.2",
+      "m3": "31.7",
+      "m4": "3.2"
+    },
+    {
+      "p": "[End-to-End Referring Video Object Segmentation with Multimodal Transformers](https://arxiv.org/abs/2111.14821v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mttr2021/MTTR)",
+      "n": "MTTR (Video-Swin-T)",
+      "d": "2021-11-29",
+      "m1": "25.5",
+      "m2": "25.1",
+      "m3": "25.9",
+      "m4": "5.6"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

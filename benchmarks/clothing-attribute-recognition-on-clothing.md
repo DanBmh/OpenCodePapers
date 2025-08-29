@@ -1,0 +1,67 @@
+# clothing-attribute-recognition-on-clothing
+
+[Dataset Link](https://purl.stanford.edu/tb980qz1002) \
+Task Hierarchy: ['Clothing Attribute Recognition']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Label2Label: A Language Modeling Framework for Multi-Attribute Learning](https://arxiv.org/abs/2207.08677v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/li-wanhua/label2label)",
+      "n": "Label2Label",
+      "d": "2022-07-18",
+      "m1": "92.87"
+    },
+    {
+      "p": "[Multi-task CNN Model for Attribute Prediction](http://arxiv.org/abs/1601.00400v1)",
+      "c": "",
+      "n": "MG-CNN",
+      "d": "2016-01-04",
+      "m1": "92.82"
+    },
+    {
+      "p": "[Efficient Relative Attribute Learning using Graph Neural Networks](http://openaccess.thecvf.com/content_ECCV_2018/html/Zihang_Meng_Efficient_Relative_Attribute_ECCV_2018_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/zihangm/RAL_GNN)",
+      "n": "RAL_GNN",
+      "d": "2018-09-01",
+      "m1": "92.39"
+    },
+    {
+      "p": "[Multi-task CNN Model for Attribute Prediction](http://arxiv.org/abs/1601.00400v1)",
+      "c": "",
+      "n": "S-CNN",
+      "d": "2016-01-04",
+      "m1": "90.43"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

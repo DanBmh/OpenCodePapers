@@ -1,0 +1,151 @@
+# cad-reconstruction-on-fusion-360-gallery
+
+[Dataset Link](https://github.com/AutodeskAILab/Fusion360GalleryDataset) \
+Task Hierarchy: ['3D Object Reconstruction', 'CAD Reconstruction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "IoU",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Chamfer Distance",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Chamfer Distance (median)",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Invalid Ratio",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[cadrille: Multi-modal CAD Reconstruction with Online Reinforcement Learning](https://arxiv.org/abs/2505.22914v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/col14m/cadrille)",
+      "n": "cadrille",
+      "d": "2025-05-28",
+      "m1": "85.0",
+      "m2": "0.58",
+      "m3": "0.17",
+      "m4": "0.2"
+    },
+    {
+      "p": "[CAD-Recode: Reverse Engineering CAD Code from Point Clouds](https://arxiv.org/abs/2412.14042v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/filaPro/cad-recode)",
+      "n": "CAD-Recode",
+      "d": "2024-12-18",
+      "m1": "79.1",
+      "m2": "1.21",
+      "m3": "0.19",
+      "m4": "5.0"
+    },
+    {
+      "p": "[SECAD-Net: Self-Supervised CAD Reconstruction by Learning Sketch-Extrude Operations](https://arxiv.org/abs/2303.10613v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/bunnysocrazy/secad-net)",
+      "n": "SECAD-Net",
+      "d": "2023-03-19",
+      "m1": "69.0",
+      "m3": "4.32"
+    },
+    {
+      "p": "[Point2Cyl: Reverse Engineering 3D Objects from Point Clouds to Extrusion Cylinders](https://arxiv.org/abs/2112.09329v2)",
+      "c": "",
+      "n": "Point2Cyl",
+      "d": "2021-12-17",
+      "m1": "67.5",
+      "m3": "4.18"
+    },
+    {
+      "p": "[Reconstructing editable prismatic CAD from rounded voxel models](https://arxiv.org/abs/2209.01161v1)",
+      "c": "",
+      "n": "PrismCAD",
+      "d": "2022-09-02",
+      "m1": "65.3",
+      "m3": "4.75"
+    },
+    {
+      "p": "[Hierarchical Neural Coding for Controllable CAD Model Generation](https://arxiv.org/abs/2307.00149v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/samxuxiang/hnc-cad)",
+      "n": "HNC-CAD",
+      "d": "2023-06-30",
+      "m1": "63.5",
+      "m3": "36.8"
+    },
+    {
+      "p": "[Draw Step by Step: Reconstructing CAD Construction Sequences from Point Clouds via Multimodal Diffusion.](http://openaccess.thecvf.com//content/CVPR2024/html/Ma_Draw_Step_by_Step_Reconstructing_CAD_Construction_Sequences_from_Point_CVPR_2024_paper.html)",
+      "c": "",
+      "n": "CAD-Diffuser",
+      "d": "2024-01-01",
+      "m1": "63.2",
+      "m3": "3.85"
+    },
+    {
+      "p": "[TransCAD: A Hierarchical Transformer for CAD Sequence Inference from Point Clouds](https://arxiv.org/abs/2407.12702v2)",
+      "c": "",
+      "n": "TransCAD",
+      "d": "2024-07-17",
+      "m1": "60.2",
+      "m2": "78.6",
+      "m3": "33.4"
+    },
+    {
+      "p": "[CAD-SIGNet: CAD Language Inference from Point Clouds using Layer-wise Sketch Instance Guided Attention](https://arxiv.org/abs/2402.17678v1)",
+      "c": "",
+      "n": "CAD-SIGNet",
+      "d": "2024-02-27",
+      "m1": "58.4",
+      "m2": "14.5",
+      "m3": "0.70",
+      "m4": "9.3"
+    },
+    {
+      "p": "[DeepCAD: A Deep Generative Network for Computer-Aided Design Models](https://arxiv.org/abs/2105.09492v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ChrisWu1997/DeepCAD)",
+      "n": "DeepCAD",
+      "d": "2021-05-20",
+      "m1": "39.9",
+      "m2": "330",
+      "m3": "89.2",
+      "m4": "25.2"
+    },
+    {
+      "p": "[ExtrudeNet: Unsupervised Inverse Sketch-and-Extrude for Shape Parsing](https://arxiv.org/abs/2209.15632v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/kimren227/extrudenet)",
+      "n": "ExtrudeNet",
+      "d": "2022-09-30",
+      "m1": "37.3",
+      "m3": "4.95"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

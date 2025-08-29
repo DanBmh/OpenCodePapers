@@ -1,0 +1,81 @@
+# anomaly-detection-on-mnist
+
+[Dataset Link](http://yann.lecun.com/exdb/mnist/) \
+Task Hierarchy: ['Anomaly Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "ROC AUC",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[GAN-based Anomaly Detection in Imbalance Problems](http://intlab.skuniv.ac.kr/paper/GAN-based_Anomaly_Detection_in_Imbalance_Problems.pdf)",
+      "c": "",
+      "n": "GAN-based Anomaly Detection in Imbalance\nProblems",
+      "d": "2020-08-28",
+      "m1": "99.7"
+    },
+    {
+      "p": "[Deep One-Class Classification via Interpolated Gaussian Descriptor](https://arxiv.org/abs/2101.10043v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/tianyu0207/IGD)",
+      "n": "IGD (pre-trained ImageNet)",
+      "d": "2021-01-25",
+      "m1": "99.27"
+    },
+    {
+      "p": "[Deep One-Class Classification via Interpolated Gaussian Descriptor](https://arxiv.org/abs/2101.10043v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/tianyu0207/IGD)",
+      "n": "IGD (scratch)",
+      "d": "2021-01-25",
+      "m1": "98.69"
+    },
+    {
+      "p": "[DASVDD: Deep Autoencoding Support Vector Data Descriptor for Anomaly Detection](https://arxiv.org/abs/2106.05410v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/Armanfard-Lab/DASVDD)",
+      "n": "DASVDD",
+      "d": "2021-06-09",
+      "m1": "97.7"
+    },
+    {
+      "p": "[Latent-Insensitive autoencoders for Anomaly Detection](https://arxiv.org/abs/2110.13101v2)",
+      "c": "",
+      "n": "LIS-AE",
+      "d": "2021-10-25",
+      "m1": "97.68"
+    },
+    {
+      "p": "[P-KDGAN: Progressive Knowledge Distillation with GANs for One-class Novelty Detection](https://arxiv.org/abs/2007.06963v2)",
+      "c": "",
+      "n": "P-KDGAN",
+      "d": "2020-07-14",
+      "m1": "97.25"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

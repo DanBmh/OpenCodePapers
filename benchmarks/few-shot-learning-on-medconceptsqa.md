@@ -1,0 +1,123 @@
+# few-shot-learning-on-medconceptsqa
+
+[Dataset Link](https://huggingface.co/datasets/ofir408/MedConceptsQA) \
+Task Hierarchy: ['Meta-Learning', 'Few-Shot Learning']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[GPT-4 Technical Report](https://arxiv.org/abs/2303.08774v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/openai/evals)",
+      "n": "gpt-4-0125-preview",
+      "d": "2023-03-15",
+      "m1": "61.911"
+    },
+    {
+      "p": "[Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/ggml-org/llama.cpp)",
+      "n": "gpt-3.5-turbo",
+      "d": "2020-05-28",
+      "m1": "41.476"
+    },
+    {
+      "p": "[LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "d": "2023-02-27",
+      "m1": "25.653"
+    },
+    {
+      "p": "[MedConceptsQA: Open Source Medical Concepts QA Benchmark](https://arxiv.org/abs/2405.07348v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/nadavlab/MedConceptsQA)",
+      "n": "johnsnowlabs/JSL-MedMNX-7B",
+      "d": "2024-05-12",
+      "m1": "25.627"
+    },
+    {
+      "p": "[Clinical-Longformer and Clinical-BigBird: Transformers for long clinical sequences](https://arxiv.org/abs/2201.11838v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/luoyuanlab/clinical-longformer)",
+      "n": "yikuan8/Clinical-Longformer",
+      "d": "2022-01-27",
+      "m1": "25.547"
+    },
+    {
+      "p": "[BioBERT: a pre-trained biomedical language representation model for biomedical text mining](https://arxiv.org/abs/1901.08746v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmis-lab/biobert)",
+      "n": "dmis-lab/biobert-v1.1",
+      "d": "2019-01-25",
+      "m1": "25.458"
+    },
+    {
+      "p": "[MEDITRON-70B: Scaling Medical Pretraining for Large Language Models](https://arxiv.org/abs/2311.16079v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/epfllm/meditron)",
+      "n": "epfl-llm/meditron-70b",
+      "d": "2023-11-27",
+      "m1": "25.262"
+    },
+    {
+      "p": "[BioMistral: A Collection of Open-Source Pretrained Large Language Models for Medical Domains](https://arxiv.org/abs/2402.10373v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/biomistral/biomistral)",
+      "n": "BioMistral/BioMistral-7B-DARE",
+      "d": "2024-02-15",
+      "m1": "25.058"
+    },
+    {
+      "p": "[Zephyr: Direct Distillation of LM Alignment](https://arxiv.org/abs/2310.16944v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/alignment-handbook)",
+      "n": "HuggingFaceH4/zephyr-7b-beta",
+      "d": "2023-10-25",
+      "m1": "25.058"
+    },
+    {
+      "p": "[Small Language Models Learn Enhanced Reasoning Skills from Medical Textbooks](https://arxiv.org/abs/2404.00376v2)",
+      "c": "",
+      "n": "dmis-lab/meerkat-7b-v1.0",
+      "d": "2024-03-30",
+      "m1": "24.942"
+    },
+    {
+      "p": "[BioMedGPT: Open Multimodal Generative Pre-trained Transformer for BioMedicine](https://arxiv.org/abs/2308.09442v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/pharmolix/openbiomed)",
+      "n": "PharMolix/BioMedGPT-LM-7B",
+      "d": "2023-08-18",
+      "m1": "24.924"
+    },
+    {
+      "p": "[MEDITRON-70B: Scaling Medical Pretraining for Large Language Models](https://arxiv.org/abs/2311.16079v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/epfllm/meditron)",
+      "n": "epfl-llm/meditron-7b",
+      "d": "2023-11-27",
+      "m1": "23.787"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

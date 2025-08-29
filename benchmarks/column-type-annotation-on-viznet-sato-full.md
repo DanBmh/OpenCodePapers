@@ -1,0 +1,73 @@
+# column-type-annotation-on-viznet-sato-full
+
+[Dataset Link](https://github.com/megagonlabs/sato/#original-tables) \
+Task Hierarchy: ['Table annotation', 'Column Type Annotation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Macro-F1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Weighted-F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Watchog: A Light-weight Contrastive Learning based Framework for Column Annotation](https://dl.acm.org/doi/10.1145/3626766)",
+      "c": "",
+      "n": "Watchog",
+      "d": "2023-12-12",
+      "m1": "85.63"
+    },
+    {
+      "p": "[Annotating Columns with Pre-trained Language Models](https://arxiv.org/abs/2104.01785v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/megagonlabs/doduo)",
+      "n": "DODUO",
+      "d": "2021-04-05",
+      "m1": "84.6"
+    },
+    {
+      "p": "[Sato: Contextual Semantic Type Detection in Tables](https://arxiv.org/abs/1911.06311v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/megagonlabs/sato)",
+      "n": "Sato",
+      "d": "2019-11-14",
+      "m1": "75.6",
+      "m2": "90.2"
+    },
+    {
+      "p": "[TABBIE: Pretrained Representations of Tabular Data](https://arxiv.org/abs/2105.02584v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/SFIG611/tabbie)",
+      "n": "TaBERT",
+      "d": "2021-05-06",
+      "m2": "97.2"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

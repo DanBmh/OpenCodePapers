@@ -1,0 +1,60 @@
+# few-shot-learning-on-mini-imagenet-5-shot
+
+[Dataset Link]() \
+Task Hierarchy: ['Meta-Learning', 'Few-Shot Learning']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "BGNN",
+      "d": null,
+      "m1": "92.7%"
+    },
+    {
+      "p": "[Transductive Information Maximization For Few-Shot Learning](https://arxiv.org/abs/2008.11297v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/sicara/easy-few-shot-learning)",
+      "n": "TIM-GD",
+      "d": "2020-08-25",
+      "m1": "87.4%"
+    },
+    {
+      "p": "[UNEM: UNrolled Generalized EM for Transductive Few-Shot Learning](https://arxiv.org/abs/2412.16739v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhoulong0/unem-transductive)",
+      "n": "UNEM-Gaussian",
+      "d": "2024-12-21",
+      "m1": "66.4%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,84 @@
+# image-generation-on-places50
+
+[Dataset Link]() \
+Task Hierarchy: ['Image Generation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "LPIPS",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "SIFID",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[SinDiffusion: Learning a Diffusion Model from a Single Natural Image](https://arxiv.org/abs/2211.12445v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/weilunwang/sindiffusion)",
+      "n": "SinDiffusion",
+      "d": "2022-11-22",
+      "m1": "0.387",
+      "m2": "0.06"
+    },
+    {
+      "p": "[SinDiffusion: Learning a Diffusion Model from a Single Natural Image](https://arxiv.org/abs/2211.12445v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/weilunwang/sindiffusion)",
+      "n": "ConSinGAN",
+      "d": "2022-11-22",
+      "m1": "0.305",
+      "m2": "0.06"
+    },
+    {
+      "p": "[SinDiffusion: Learning a Diffusion Model from a Single Natural Image](https://arxiv.org/abs/2211.12445v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/weilunwang/sindiffusion)",
+      "n": "SinGan",
+      "d": "2022-11-22",
+      "m1": "0.266",
+      "m2": "0.09"
+    },
+    {
+      "p": "[SinDiffusion: Learning a Diffusion Model from a Single Natural Image](https://arxiv.org/abs/2211.12445v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/weilunwang/sindiffusion)",
+      "n": "GPNN",
+      "d": "2022-11-22",
+      "m1": "0.256",
+      "m2": "0.07"
+    },
+    {
+      "p": "[SinDiffusion: Learning a Diffusion Model from a Single Natural Image](https://arxiv.org/abs/2211.12445v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/weilunwang/sindiffusion)",
+      "n": "ExSinGAN",
+      "d": "2022-11-22",
+      "m1": "0.248",
+      "m2": "0.1"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

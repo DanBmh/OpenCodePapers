@@ -1,0 +1,831 @@
+# machine-translation-on-wmt2014-english-german
+
+[Dataset Link](http://www.statmt.org/wmt14/index.html) \
+Task Hierarchy: ['Machine Translation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "BLEU score",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "SacreBLEU",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Number of Params",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Hardware Burden",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "Operations per network pass",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Lessons on Parameter Sharing across Layers in Transformers](https://arxiv.org/abs/2104.06022v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/takase/share_layer_params)",
+      "n": "Transformer Cycle (Rev)",
+      "d": "2021-04-13",
+      "m1": "35.14",
+      "m2": "33.54"
+    },
+    {
+      "p": "[Understanding Back-Translation at Scale](http://arxiv.org/abs/1808.09381v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/fairseq)",
+      "n": "Noisy back-translation",
+      "d": "2018-08-28",
+      "m1": "35.0",
+      "m2": "33.8",
+      "m4": "146G",
+      "m5": null
+    },
+    {
+      "p": "[Rethinking Perturbations in Encoder-Decoders for Fast Training](https://arxiv.org/abs/2104.01853v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/takase/rethink_perturbations)",
+      "n": "Transformer+Rep(Uni)",
+      "d": "2021-04-05",
+      "m1": "33.89",
+      "m2": "32.35",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "T5-11B",
+      "d": "2019-10-23",
+      "m1": "32.1",
+      "m3": "11110M"
+    },
+    {
+      "p": "[BERT, mBERT, or BiBERT? A Study on Contextualized Embeddings for Neural Machine Translation](https://arxiv.org/abs/2109.04588v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/fe1ixxu/BiBERT)",
+      "n": "BiBERT",
+      "d": "2021-09-09",
+      "m1": "31.26"
+    },
+    {
+      "p": "[R-Drop: Regularized Dropout for Neural Networks](https://arxiv.org/abs/2106.14448v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dropreg/R-Drop)",
+      "n": "Transformer + R-Drop",
+      "d": "2021-06-28",
+      "m1": "30.91",
+      "m4": "49G",
+      "m5": null
+    },
+    {
+      "p": "[Bi-SimCut: A Simple Strategy for Boosting Neural Machine Translation](https://arxiv.org/abs/2206.02368v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/gpengzhi/Bi-SimCut)",
+      "n": "Bi-SimCut",
+      "d": "2022-06-06",
+      "m1": "30.78"
+    },
+    {
+      "p": "[Incorporating BERT into Neural Machine Translation](https://arxiv.org/abs/2002.06823v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/bert-nmt/bert-nmt)",
+      "n": "BERT-fused NMT",
+      "d": "2020-02-17",
+      "m1": "30.75"
+    },
+    {
+      "p": "[Data Diversification: A Simple Strategy For Neural Machine Translation](https://arxiv.org/abs/1911.01986v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/nxphi47/data_diversification)",
+      "n": "Data Diversification - Transformer",
+      "d": "2019-11-05",
+      "m1": "30.7",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[Bi-SimCut: A Simple Strategy for Boosting Neural Machine Translation](https://arxiv.org/abs/2206.02368v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/gpengzhi/Bi-SimCut)",
+      "n": "SimCut",
+      "d": "2022-06-06",
+      "m1": "30.56"
+    },
+    {
+      "p": "[Mask Attention Networks: Rethinking and Strengthen Transformer](https://arxiv.org/abs/2103.13597v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/libertfan/man)",
+      "n": "Mask Attention Network (big)",
+      "d": "2021-03-25",
+      "m1": "30.4",
+      "m3": "215M",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[Very Deep Transformers for Neural Machine Translation](https://arxiv.org/abs/2008.07772v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/LiyuanLucasLiu/Transforemr-Clinic)",
+      "n": "Transformer (ADMIN init)",
+      "d": "2020-08-18",
+      "m1": "30.1",
+      "m2": "29.5",
+      "m3": "256M"
+    },
+    {
+      "p": "[PowerNorm: Rethinking Batch Normalization in Transformers](https://arxiv.org/abs/2003.07845v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/sIncerass/powernorm)",
+      "n": "PowerNorm (Transformer)",
+      "d": "2020-03-17",
+      "m1": "30.1"
+    },
+    {
+      "p": "[Depth Growing for Neural Machine Translation](https://arxiv.org/abs/1907.01968v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/apeterswu/Depth_Growing_NMT)",
+      "n": "Depth Growing",
+      "d": "2019-07-03",
+      "m1": "30.07",
+      "m4": "24G",
+      "m5": null
+    },
+    {
+      "p": "[MUSE: Parallel Multi-Scale Attention for Sequence to Sequence Learning](https://arxiv.org/abs/1911.09483v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/lancopku/MUSE)",
+      "n": "MUSE(Parallel Multi-scale Attention)",
+      "d": "2019-11-17",
+      "m1": "29.9",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[The Evolved Transformer](https://arxiv.org/abs/1901.11117v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/tensor2tensor)",
+      "n": "Evolved Transformer Big",
+      "d": "2019-01-30",
+      "m1": "29.8",
+      "m2": "29.2",
+      "m3": "218M"
+    },
+    {
+      "p": "[OmniNet: Omnidirectional Representations from Transformers](https://arxiv.org/abs/2103.01075v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/lucidrains/omninet-pytorch)",
+      "n": "OmniNetP",
+      "d": "2021-03-01",
+      "m1": "29.8",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[Pay Less Attention with Lightweight and Dynamic Convolutions](http://arxiv.org/abs/1901.10430v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/pytorch/fairseq)",
+      "n": "DynamicConv",
+      "d": "2019-01-29",
+      "m1": "29.7",
+      "m3": "213M"
+    },
+    {
+      "p": "[Joint Source-Target Self Attention with Locality Constraints](https://arxiv.org/abs/1905.06596v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jarfo/joint)",
+      "n": "Local Joint Self-attention",
+      "d": "2019-05-16",
+      "m1": "29.7",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[Time-aware Large Kernel Convolutions](https://arxiv.org/abs/2002.03184v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/lioutasb/TaLKConvolutions)",
+      "n": "TaLK Convolutions",
+      "d": "2020-02-08",
+      "m1": "29.6",
+      "m3": "209M"
+    },
+    {
+      "p": "[Fast and Simple Mixture of Softmaxes with BPE and Hybrid-LightRNN for Language Generation](https://arxiv.org/abs/1809.09296v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/shawnkx/Fast-MoS)",
+      "n": "Transformer Big + MoS",
+      "d": "2018-09-25",
+      "m1": "29.6",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[AdvAug: Robust Adversarial Augmentation for Neural Machine Translation](https://arxiv.org/abs/2006.11834v3)",
+      "c": "",
+      "n": "AdvAug (aut+adv)",
+      "d": "2020-06-21",
+      "m1": "29.57"
+    },
+    {
+      "p": "[PartialFormer: Modeling Part Instead of Whole for Machine Translation](https://arxiv.org/abs/2310.14921v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhengkid/partialformer)",
+      "n": "PartialFormer",
+      "d": "2023-10-23",
+      "m1": "29.56",
+      "m3": "68M"
+    },
+    {
+      "p": "[Improving Neural Language Modeling via Adversarial Training](https://arxiv.org/abs/1906.03805v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ChengyueGongR/advsoft)",
+      "n": "Transformer Big + adversarial MLE",
+      "d": "2019-06-10",
+      "m1": "29.52",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[Scaling Neural Machine Translation](http://arxiv.org/abs/1806.00187v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/fairseq)",
+      "n": "Transformer Big",
+      "d": "2018-06-01",
+      "m1": "29.3",
+      "m3": "210M",
+      "m4": "9G",
+      "m5": null
+    },
+    {
+      "p": "[Subformer: A Parameter Reduced Transformer](https://openreview.net/forum?id=6UurSaf08jx)",
+      "c": "",
+      "n": "Subformer-xlarge",
+      "d": "2021-01-01",
+      "m1": "29.3",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[Synchronous Bidirectional Neural Machine Translation](https://arxiv.org/abs/1905.04847v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/wszlong/sb-nmt)",
+      "n": "SB-NMT",
+      "d": "2019-05-13",
+      "m1": "29.21",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[Self-Attention with Relative Position Representations](http://arxiv.org/abs/1803.02155v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/tensor2tensor)",
+      "n": "Transformer (big) + Relative Position Representations",
+      "d": "2018-03-06",
+      "m1": "29.2"
+    },
+    {
+      "p": "[Learning to Encode Position for Transformer with Continuous Dynamical Model](https://arxiv.org/abs/2003.09229v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/xuanqing94/FLOATER)",
+      "n": "FLOATER-large",
+      "d": "2020-03-13",
+      "m1": "29.2",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[Modeling Localness for Self-Attention Networks](http://arxiv.org/abs/1810.10182v1)",
+      "c": "",
+      "n": "Local Transformer",
+      "d": "2018-10-24",
+      "m1": "29.2",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[FRAGE: Frequency-Agnostic Word Representation](https://arxiv.org/abs/1809.06858v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ChengyueGongR/FrequencyAgnostic)",
+      "n": "Transformer Big with FRAGE",
+      "d": "2018-09-18",
+      "m1": "29.11",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[Mask Attention Networks: Rethinking and Strengthen Transformer](https://arxiv.org/abs/2103.13597v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/libertfan/man)",
+      "n": "Mask Attention Network (base)",
+      "d": "2021-03-25",
+      "m1": "29.1",
+      "m3": "63M",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[Mega: Moving Average Equipped Gated Attention](https://arxiv.org/abs/2209.10655v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "Mega",
+      "d": "2022-09-21",
+      "m1": "29.01",
+      "m2": "27.96",
+      "m3": "67M"
+    },
+    {
+      "p": "[Neural Machine Translation with Adequacy-Oriented Learning](http://arxiv.org/abs/1811.08541v1)",
+      "c": "",
+      "n": "adequacy-oriented NMT",
+      "d": "2018-11-21",
+      "m1": "28.99",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[Pay Less Attention with Lightweight and Dynamic Convolutions](http://arxiv.org/abs/1901.10430v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/pytorch/fairseq)",
+      "n": "LightConv",
+      "d": "2019-01-29",
+      "m1": "28.9",
+      "m3": "202M"
+    },
+    {
+      "p": "[Weighted Transformer Network for Machine Translation](http://arxiv.org/abs/1711.02132v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/JayParks/transformer)",
+      "n": "Weighted Transformer (large)",
+      "d": "2017-11-06",
+      "m1": "28.9",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[Universal Transformers](http://arxiv.org/abs/1807.03819v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/tensor2tensor)",
+      "n": "universal transformer base",
+      "d": "2018-07-10",
+      "m1": "28.9",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[KERMIT: Generative Insertion-Based Modeling for Sequences](https://arxiv.org/abs/1906.01604v1)",
+      "c": "",
+      "n": "KERMIT",
+      "d": "2019-06-04",
+      "m1": "28.7",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[Finetuning Pretrained Transformers into RNNs](https://arxiv.org/abs/2103.13076v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/hazyresearch/lolcats)",
+      "n": "T2R + Pretrain",
+      "d": "2021-03-24",
+      "m1": "28.7",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[AdvAug: Robust Adversarial Augmentation for Neural Machine Translation](https://arxiv.org/abs/2006.11834v3)",
+      "c": "",
+      "n": "AdvAug (aut)",
+      "d": "2020-06-21",
+      "m1": "28.58"
+    },
+    {
+      "p": "[The Best of Both Worlds: Combining Recent Advances in Neural Machine Translation](http://arxiv.org/abs/1804.09849v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/lingvo)",
+      "n": "RNMT+",
+      "d": "2018-04-26",
+      "m1": "28.5",
+      "m4": "44G",
+      "m5": "2.81G"
+    },
+    {
+      "p": "[Synthesizer: Rethinking Self-Attention in Transformer Models](https://arxiv.org/abs/2005.00743v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/10-zin/Synthesizer)",
+      "n": "Synthesizer (Random + Vanilla)",
+      "d": "2020-05-02",
+      "m1": "28.47",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[HAT: Hardware-Aware Transformers for Efficient Natural Language Processing](https://arxiv.org/abs/2005.14187v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/mit-han-lab/hardware-aware-transformers)",
+      "n": "Hardware Aware Transformer",
+      "d": "2020-05-28",
+      "m1": "28.4",
+      "m3": "48M"
+    },
+    {
+      "p": "[Attention Is All You Need](https://arxiv.org/abs/1706.03762v7)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "Transformer Big",
+      "d": "2017-06-12",
+      "m1": "28.4",
+      "m4": "871G",
+      "m5": "2300000000.0G"
+    },
+    {
+      "p": "[Simple Recurrent Units for Highly Parallelizable Recurrence](http://arxiv.org/abs/1709.02755v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/aymericdamien/TopDeepLearning)",
+      "n": "Transformer + SRU",
+      "d": "2017-09-08",
+      "m1": "28.4",
+      "m4": "34G",
+      "m5": null
+    },
+    {
+      "p": "[The Evolved Transformer](https://arxiv.org/abs/1901.11117v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/tensor2tensor)",
+      "n": "Evolved Transformer Base",
+      "d": "2019-01-30",
+      "m1": "28.4",
+      "m4": "2488G"
+    },
+    {
+      "p": "[Random Feature Attention](https://arxiv.org/abs/2103.02143v2)",
+      "c": "",
+      "n": "Rfa-Gate-arccos",
+      "d": "2021-03-03",
+      "m1": "28.2",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[Deep Residual Output Layers for Neural Language Generation](https://arxiv.org/abs/1905.05513v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/idiap/drill)",
+      "n": "Transformer-DRILL Base",
+      "d": "2019-05-14",
+      "m1": "28.1",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[AdvAug: Robust Adversarial Augmentation for Neural Machine Translation](https://arxiv.org/abs/2006.11834v3)",
+      "c": "",
+      "n": "AdvAug (mixup)",
+      "d": "2020-06-21",
+      "m1": "28.08"
+    },
+    {
+      "p": "[Incorporating a Local Translation Mechanism into Non-autoregressive Translation](https://arxiv.org/abs/2011.06132v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/shawnkx/NAT-with-Local-AT)",
+      "n": "CMLM+LAT+4 iterations",
+      "d": "2020-11-12",
+      "m1": "27.35",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[Attention Is All You Need](https://arxiv.org/abs/1706.03762v7)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "Transformer Base",
+      "d": "2017-06-12",
+      "m1": "27.3",
+      "m5": "330000000.0G"
+    },
+    {
+      "p": "[Levenshtein Transformer](https://arxiv.org/abs/1905.11006v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/pytorch/fairseq)",
+      "n": "Levenshtein Transformer (distillation)",
+      "d": "2019-05-27",
+      "m1": "27.27"
+    },
+    {
+      "p": "[Non-autoregressive Translation with Disentangled Context Transformer](https://proceedings.icml.cc/static/paper_files/icml/2020/477-Paper.pdf)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/DisCo)",
+      "n": "DisCo + Mask-Predict (non-autoregressive)",
+      "d": null,
+      "m1": "27.06"
+    },
+    {
+      "p": "[Adaptively Sparse Transformers](https://arxiv.org/abs/1909.00015v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/deep-spin/entmax)",
+      "n": "Adaptively Sparse Transformer (alpha-entmax)",
+      "d": "2019-08-30",
+      "m1": "26.93"
+    },
+    {
+      "p": "[ResMLP: Feedforward networks for image classification with data-efficient training](https://arxiv.org/abs/2105.03404v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "ResMLP-12",
+      "d": "2021-05-07",
+      "m1": "26.8"
+    },
+    {
+      "p": "[Non-Autoregressive Translation by Learning Target Categorical Codes](https://arxiv.org/abs/2103.11405v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/baoy-nlp/CNAT)",
+      "n": "CNAT",
+      "d": "2021-03-21",
+      "m1": "26.6"
+    },
+    {
+      "p": "[Lite Transformer with Long-Short Range Attention](https://arxiv.org/abs/2004.11886v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/mit-han-lab/lite-transformer)",
+      "n": "Lite Transformer",
+      "d": "2020-04-24",
+      "m1": "26.5",
+      "m3": "17.3M"
+    },
+    {
+      "p": "[Convolutional Sequence to Sequence Learning](http://arxiv.org/abs/1705.03122v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/fairseq)",
+      "n": "ConvS2S (ensemble)",
+      "d": "2017-05-08",
+      "m1": "26.4",
+      "m4": "54G",
+      "m5": null
+    },
+    {
+      "p": "[ResMLP: Feedforward networks for image classification with data-efficient training](https://arxiv.org/abs/2105.03404v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "ResMLP-6",
+      "d": "2021-05-07",
+      "m1": "26.4"
+    },
+    {
+      "p": "[Accelerating Neural Transformer via an Average Attention Network](http://arxiv.org/abs/1805.00631v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/bzhangXMU/transformer-aan)",
+      "n": "Average Attention Network",
+      "d": "2018-05-02",
+      "m1": "26.31"
+    },
+    {
+      "p": "[Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation](http://arxiv.org/abs/1609.08144v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/NVIDIA/DeepLearningExamples/tree/master/PyTorch/Translation/GNMT)",
+      "n": "GNMT+RL",
+      "d": "2016-09-26",
+      "m1": "26.3",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[Depthwise Separable Convolutions for Neural Machine Translation](http://arxiv.org/abs/1706.03059v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/tensor2tensor)",
+      "n": "SliceNet",
+      "d": "2017-06-09",
+      "m1": "26.1",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[Accelerating Neural Transformer via an Average Attention Network](http://arxiv.org/abs/1805.00631v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/bzhangXMU/transformer-aan)",
+      "n": "Average Attention Network (w/o FFN)",
+      "d": "2018-05-02",
+      "m1": "26.05"
+    },
+    {
+      "p": "[Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer](http://arxiv.org/abs/1701.06538v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/davidmrau/mixture-of-experts)",
+      "n": "MoE",
+      "d": "2017-01-23",
+      "m1": "26.03",
+      "m4": "24G",
+      "m5": null
+    },
+    {
+      "p": "[Accelerating Neural Transformer via an Average Attention Network](http://arxiv.org/abs/1805.00631v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/bzhangXMU/transformer-aan)",
+      "n": "Average Attention Network (w/o gate)",
+      "d": "2018-05-02",
+      "m1": "25.91"
+    },
+    {
+      "p": "[Adaptively Sparse Transformers](https://arxiv.org/abs/1909.00015v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/deep-spin/entmax)",
+      "n": "Adaptively Sparse Transformer (1.5-entmax)",
+      "d": "2019-08-30",
+      "m1": "25.89"
+    },
+    {
+      "p": "[Dense Information Flow for Neural Machine Translation](http://arxiv.org/abs/1806.00722v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/yanyao-shen/fairseq)",
+      "n": "DenseNMT",
+      "d": "2018-06-03",
+      "m1": "25.52",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[Glancing Transformer for Non-Autoregressive Neural Machine Translation](https://arxiv.org/abs/2008.07905v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/flc777/glat)",
+      "n": "GLAT",
+      "d": "2020-08-18",
+      "m1": "25.21"
+    },
+    {
+      "p": "[Incorporating a Local Translation Mechanism into Non-autoregressive Translation](https://arxiv.org/abs/2011.06132v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/shawnkx/NAT-with-Local-AT)",
+      "n": "CMLM+LAT+1 iterations",
+      "d": "2020-11-12",
+      "m1": "25.20",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[Convolutional Sequence to Sequence Learning](http://arxiv.org/abs/1705.03122v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/fairseq)",
+      "n": "ConvS2S",
+      "d": "2017-05-08",
+      "m1": "25.16",
+      "m4": "72G",
+      "m5": null
+    },
+    {
+      "p": "[Neural Machine Translation in Linear Time](http://arxiv.org/abs/1610.10099v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/paarthneekhara/byteNet-tensorflow)",
+      "n": "ByteNet",
+      "d": "2016-10-31",
+      "m1": "23.75",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[FlowSeq: Non-Autoregressive Conditional Sequence Generation with Generative Flow](https://arxiv.org/abs/1909.02480v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/XuezheMax/flowseq)",
+      "n": "FlowSeq-large (NPD n = 30)",
+      "d": "2019-09-05",
+      "m1": "23.64",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[FlowSeq: Non-Autoregressive Conditional Sequence Generation with Generative Flow](https://arxiv.org/abs/1909.02480v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/XuezheMax/flowseq)",
+      "n": "FlowSeq-large (NPD n = 15)",
+      "d": "2019-09-05",
+      "m1": "23.14",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[FlowSeq: Non-Autoregressive Conditional Sequence Generation with Generative Flow](https://arxiv.org/abs/1909.02480v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/XuezheMax/flowseq)",
+      "n": "FlowSeq-large (IWD n = 15)",
+      "d": "2019-09-05",
+      "m1": "22.94",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[Deterministic Non-Autoregressive Neural Sequence Modeling by Iterative Refinement](http://arxiv.org/abs/1802.06901v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/nyu-dl/dl4mt-nonauto)",
+      "n": "Denoising autoencoders (non-autoregressive)",
+      "d": "2018-02-19",
+      "m1": "21.54",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[Effective Approaches to Attention-based Neural Machine Translation](http://arxiv.org/abs/1508.04025v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/philipperemy/keras-attention-mechanism)",
+      "n": "RNN Enc-Dec Att",
+      "d": "2015-08-17",
+      "m1": "20.9",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[FlowSeq: Non-Autoregressive Conditional Sequence Generation with Generative Flow](https://arxiv.org/abs/1909.02480v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/XuezheMax/flowseq)",
+      "n": "FlowSeq-large",
+      "d": "2019-09-05",
+      "m1": "20.85",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "PBMT",
+      "d": null,
+      "m1": "20.7",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[Deep Recurrent Models with Fast-Forward Connections for Neural Machine Translation](http://arxiv.org/abs/1606.04199v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/fstahlberg/tensor2tensor-usr)",
+      "n": "Deep-Att",
+      "d": "2016-06-14",
+      "m1": "20.7",
+      "m4": "119G",
+      "m5": null
+    },
+    {
+      "p": "[Edinburgh's Syntax-Based Systems at WMT 2015](https://aclanthology.org/W15-3024)",
+      "c": "",
+      "n": "Phrase Based MT",
+      "d": "2015-09-01",
+      "m1": "20.7",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[Phrase-Based & Neural Unsupervised Machine Translation](http://arxiv.org/abs/1804.07755v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "PBSMT + NMT",
+      "d": "2018-04-20",
+      "m1": "20.23",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[Non-Autoregressive Neural Machine Translation](http://arxiv.org/abs/1711.02281v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/salesforce/nonauto-nmt)",
+      "n": "NAT +FT + NPD",
+      "d": "2017-11-07",
+      "m1": "19.17",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[FlowSeq: Non-Autoregressive Conditional Sequence Generation with Generative Flow](https://arxiv.org/abs/1909.02480v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/XuezheMax/flowseq)",
+      "n": "FlowSeq-base",
+      "d": "2019-09-05",
+      "m1": "18.55",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[Sequence-Level Knowledge Distillation](http://arxiv.org/abs/1606.07947v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/harvardnlp/seq2seq-attn)",
+      "n": "Seq-KD + Seq-Inter + Word-KD",
+      "d": "2016-06-25",
+      "m1": "18.5",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[Phrase-Based & Neural Unsupervised Machine Translation](http://arxiv.org/abs/1804.07755v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "Unsupervised PBSMT",
+      "d": "2018-04-20",
+      "m1": "17.94",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[Neural Semantic Encoders](http://arxiv.org/abs/1607.04315v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Smerity/keras_snli)",
+      "n": "NSE-NSE",
+      "d": "2016-07-14",
+      "m1": "17.9",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[Phrase-Based & Neural Unsupervised Machine Translation](http://arxiv.org/abs/1804.07755v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "Unsupervised NMT + Transformer",
+      "d": "2018-04-20",
+      "m1": "17.16",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[Unsupervised Statistical Machine Translation](http://arxiv.org/abs/1809.01272v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/artetxem/vecmap)",
+      "n": "SMT + iterative backtranslation (unsupervised)",
+      "d": "2018-09-04",
+      "m1": "14.08",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[Effective Approaches to Attention-based Neural Machine Translation](http://arxiv.org/abs/1508.04025v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/philipperemy/keras-attention-mechanism)",
+      "n": "Reverse RNN Enc-Dec",
+      "d": "2015-08-17",
+      "m1": "14.0",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[Effective Approaches to Attention-based Neural Machine Translation](http://arxiv.org/abs/1508.04025v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/philipperemy/keras-attention-mechanism)",
+      "n": "RNN Enc-Dec",
+      "d": "2015-08-17",
+      "m1": "11.3",
+      "m4": null,
+      "m5": null
+    },
+    {
+      "p": "[Multi-branch Attentive Transformer](https://arxiv.org/abs/2006.10270v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/HA-Transformer/HA-Transformer)",
+      "n": "MAT",
+      "d": "2020-06-18",
+      "m2": "29.9"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

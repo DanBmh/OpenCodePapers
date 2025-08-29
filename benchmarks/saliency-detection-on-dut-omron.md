@@ -1,0 +1,98 @@
+# saliency-detection-on-dut-omron
+
+[Dataset Link](http://saliencydetection.net/dut-omron/) \
+Task Hierarchy: ['Saliency Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "MAE",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Fw\u03b2",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Sm",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "relaxFb\u03b2",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "{max}F\u03b2",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Pyramid Feature Attention Network for Saliency detection](http://arxiv.org/abs/1903.00179v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/CaitinZhao/cvpr2019_Pyramid-Feature-Attention-Network-for-Saliency-detection)",
+      "n": "Pyramid Feature Attention",
+      "d": "2019-03-01",
+      "m1": "0.0414"
+    },
+    {
+      "p": "[Label Decoupling Framework for Salient Object Detection](https://arxiv.org/abs/2008.11048v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/weijun88/LDF)",
+      "n": "LDF(ours)",
+      "d": "2020-08-25",
+      "m1": "0.051"
+    },
+    {
+      "p": "[U$^2$-Net: Going Deeper with Nested U-Structure for Salient Object Detection](https://arxiv.org/abs/2005.09007v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/xuebinqin/U-2-Net)",
+      "n": "U2-Net",
+      "d": "2020-05-18",
+      "m1": "0.054"
+    },
+    {
+      "p": "[U$^2$-Net: Going Deeper with Nested U-Structure for Salient Object Detection](https://arxiv.org/abs/2005.09007v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/xuebinqin/U-2-Net)",
+      "n": "U2-Net+",
+      "d": "2020-05-18",
+      "m1": "0.06",
+      "m2": "0.731",
+      "m3": "0.837",
+      "m4": "0.676",
+      "m5": "0.813"
+    },
+    {
+      "p": "[Learning Uncertain Convolutional Features for Accurate Saliency Detection](http://arxiv.org/abs/1708.02031v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Pchank/caffe-sal)",
+      "n": "UCF",
+      "d": "2017-08-07",
+      "m1": "0.1203"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

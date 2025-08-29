@@ -1,0 +1,60 @@
+# human-mesh-recovery-on-bedlam
+
+[Dataset Link](https://bedlam.is.tue.mpg.de/#data) \
+Task Hierarchy: ['Human Mesh Recovery']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PVE-All",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Multi-HMR: Multi-Person Whole-Body Human Mesh Recovery in a Single Shot](https://arxiv.org/abs/2402.14654v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/naver/multi-hmr)",
+      "n": "Multi-HMR",
+      "d": "2024-02-22",
+      "m1": "76.80"
+    },
+    {
+      "p": "[CLIFF: Carrying Location Information in Full Frames into Human Pose and Shape Estimation](https://arxiv.org/abs/2208.00571v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huawei-noah/noah-research/tree/master/CLIFF)",
+      "n": "BEDLAM-CLIFF+",
+      "d": "2022-08-01",
+      "m1": "87.60"
+    },
+    {
+      "p": "[CLIFF: Carrying Location Information in Full Frames into Human Pose and Shape Estimation](https://arxiv.org/abs/2208.00571v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huawei-noah/noah-research/tree/master/CLIFF)",
+      "n": "BEDLAM-CLIFF",
+      "d": "2022-08-01",
+      "m1": "94.60"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

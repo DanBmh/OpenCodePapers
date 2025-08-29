@@ -1,0 +1,109 @@
+# 3d-object-detection-on-sun-rgbd
+
+[Dataset Link](https://rgbd.cs.princeton.edu/) \
+Task Hierarchy: ['16k', 'Object Detection', '3D Object Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mAP@0.25",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "mAP@0.5",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Inference Speed (s)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Uni3DETR: Unified 3D Detection Transformer](https://arxiv.org/abs/2310.05699v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhenyuw16/uni3detr)",
+      "n": "Uni3DETR",
+      "d": "2023-10-09",
+      "m1": "67.0",
+      "m2": "50.3"
+    },
+    {
+      "p": "[CAGroup3D: Class-Aware Grouping for 3D Object Detection on Point Clouds](https://arxiv.org/abs/2210.04264v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/haiyang-w/cagroup3d)",
+      "n": "CAGroup3D (Geo Only)",
+      "d": "2022-10-09",
+      "m1": "66.8",
+      "m2": "50.2"
+    },
+    {
+      "p": "[ImVoteNet: Boosting 3D Object Detection in Point Clouds with Image Votes](https://arxiv.org/abs/2001.10692v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/imvotenet)",
+      "n": "ImVoteNet",
+      "d": "2020-01-29",
+      "m1": "63.4"
+    },
+    {
+      "p": "[Group-Free 3D Object Detection via Transformers](https://arxiv.org/abs/2104.00678v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zeliu98/Group-Free-3D)",
+      "n": "GroupFree3D",
+      "d": "2021-04-01",
+      "m1": "63.0",
+      "m2": "45.2"
+    },
+    {
+      "p": "[Spatio-temporal Self-Supervised Representation Learning for 3D Point Clouds](https://arxiv.org/abs/2109.00179v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yichen928/STRL)",
+      "n": "STRL + VoteNet ShapeNet_Pretrain",
+      "d": "2021-09-01",
+      "m1": "59.2"
+    },
+    {
+      "p": "[Spatio-temporal Self-Supervised Representation Learning for 3D Point Clouds](https://arxiv.org/abs/2109.00179v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yichen928/STRL)",
+      "n": "STRL + VoteNet",
+      "d": "2021-09-01",
+      "m1": "58.2"
+    },
+    {
+      "p": "[Frustum PointNets for 3D Object Detection from RGB-D Data](http://arxiv.org/abs/1711.08488v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/charlesq34/pointnet)",
+      "n": "Frustum PointNets",
+      "d": "2017-11-22",
+      "m1": "54.0"
+    },
+    {
+      "p": "[3D Object Detection and Instance Segmentation from 3D Range and 2D Color Images](https://www.mdpi.com/1424-8220/21/4/1213/htm)",
+      "c": "",
+      "n": "Frustum VoxNets v2",
+      "d": "2021-02-09",
+      "m1": "45.0",
+      "m3": "0.21"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

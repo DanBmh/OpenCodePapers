@@ -1,0 +1,67 @@
+# long-context-understanding-on-l-eval
+
+[Dataset Link](https://github.com/OpenLMLab/LEval) \
+Task Hierarchy: ['Long-Context Understanding']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Average Score",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[A Training-Free Length Extrapolation Approach for LLMs: Greedy Attention Logit Interpolation (GALI)](https://arxiv.org/abs/2502.02659v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/academycityl/gali)",
+      "n": "GALI(Llama3-8b-ins-4k-to-16k)",
+      "d": "2025-02-04",
+      "m1": "59.21"
+    },
+    {
+      "p": "[A Training-Free Length Extrapolation Approach for LLMs: Greedy Attention Logit Interpolation (GALI)](https://arxiv.org/abs/2502.02659v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/academycityl/gali)",
+      "n": "GALI(Llama3-8b-ins-4k-to-32k)",
+      "d": "2025-02-04",
+      "m1": "59.10"
+    },
+    {
+      "p": "[A Training-Free Length Extrapolation Approach for LLMs: Greedy Attention Logit Interpolation (GALI)](https://arxiv.org/abs/2502.02659v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/academycityl/gali)",
+      "n": "GALI(Llama3-8b-ins-8k-to-32k)",
+      "d": "2025-02-04",
+      "m1": "42.79"
+    },
+    {
+      "p": "[A Training-Free Length Extrapolation Approach for LLMs: Greedy Attention Logit Interpolation (GALI)](https://arxiv.org/abs/2502.02659v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/academycityl/gali)",
+      "n": "GALI(Llama3-8b-ins-8k-to-16k)",
+      "d": "2025-02-04",
+      "m1": "42.32"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

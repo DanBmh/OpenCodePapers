@@ -1,0 +1,333 @@
+# hyperspectral-image-classification-on-indian
+
+[Dataset Link](http://www.ehu.eus/ccwintco/index.php?title=Hyperspectral_Remote_Sensing_Scenes#Indian_Pines) \
+Task Hierarchy: ['Hyperspectral Image Segmentation', 'Hyperspectral', 'Hyperspectral Image Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "OA@15perclass",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Overall Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Kappa",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "AA@10%perclass",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "Kappa@10%perclass",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "OA@10%perclass",
+      "sortable": "true"
+    },
+    {
+      "key": "m7",
+      "label": "AA@5%perclass",
+      "sortable": "true"
+    },
+    {
+      "key": "m8",
+      "label": "Kappa@5%perclass",
+      "sortable": "true"
+    },
+    {
+      "key": "m9",
+      "label": "OA@5%perclass",
+      "sortable": "true"
+    },
+    {
+      "key": "m10",
+      "label": "F1@10%perclass",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[HyperspectralMAE: The Hyperspectral Imagery Classification Model using Fourier-Encoded Dual-Branch Masked Autoencoder](https://arxiv.org/abs/2505.05710v1)",
+      "c": "",
+      "n": "HyperspectralMAE",
+      "d": "2025-05-09",
+      "m1": "92.37"
+    },
+    {
+      "p": "[Small Sample Hyperspectral Image Classification Based on the Random Patches Network and Recursive Filtering](https://doi.org/10.3390/s23052499)",
+      "c": "[&check;&nbsp;Link](https://github.com/UchaevD/RPNet-RF)",
+      "n": "RPNet-RF",
+      "d": "2023-02-23",
+      "m1": "90.23"
+    },
+    {
+      "p": "[Locality-Aware Hyperspectral Classification](https://arxiv.org/abs/2309.01561v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhoufangqin/hylite)",
+      "n": "HyLITE",
+      "d": "2023-09-04",
+      "m1": "89.80",
+      "m2": "89.80"
+    },
+    {
+      "p": "[Generative Adversarial Networks Based on Transformer Encoder and Convolution Block for Hyperspectral Image Classification](https://doi.org/10.3390/rs14143426)",
+      "c": "",
+      "n": "TC-GAN",
+      "d": "2022-07-16",
+      "m1": "87.47\u00b11.45"
+    },
+    {
+      "p": "[Hyperspectral Image Classification of Convolutional Neural Network Combined with Valuable Samples](http://doi.org/10.1088/1742-6596/1549/5/052011)",
+      "c": "",
+      "n": "3D VS-CNN",
+      "d": "2020-06-01",
+      "m1": "83.06\u00b11.04"
+    },
+    {
+      "p": "[Hyperspectral image classification via a random patches network](https://doi.org/10.1016/j.isprsjprs.2018.05.014)",
+      "c": "[&check;&nbsp;Link](https://github.com/YonghaoXu/RPNet)",
+      "n": "RPNet",
+      "d": "2018-05-22",
+      "m1": "77.97"
+    },
+    {
+      "p": "[Graph Information Aggregation Cross-Domain Few-Shot Learning for Hyperspectral Image Classification](https://doi.org/10.1109/TNNLS.2022.3185795)",
+      "c": "[&check;&nbsp;Link](https://github.com/YuxiangZhang-BIT/IEEE_TNNLS_Gia-CFSL)",
+      "n": "DCFSL",
+      "d": "2022-06-30",
+      "m1": "77.45\u00b11.78"
+    },
+    {
+      "p": "[Generative Adversarial Networks Based on Collaborative Learning and Attention Mechanism for Hyperspectral Image Classification](https://doi.org/10.3390/rs12071149)",
+      "c": "",
+      "n": "CA-GAN",
+      "d": "2020-04-03",
+      "m1": "75.52\u00b11.28"
+    },
+    {
+      "p": "[Feature Extraction of Hyperspectral Images With Image Fusion and Recursive Filtering](https://doi.org/10.1109/TGRS.2013.2275613)",
+      "c": "",
+      "n": "IFRF",
+      "d": "2013-09-16",
+      "m1": "69.52"
+    },
+    {
+      "p": "[Deep Metric Learning-Based Feature Embedding for Hyperspectral Image Classification](https://doi.org/10.1109/TGRS.2019.2946318)",
+      "c": "[&check;&nbsp;Link](https://github.com/szubing/S-DMM)",
+      "n": "S-DMM",
+      "d": "2019-10-30",
+      "m1": "67.04\u00b11.65"
+    },
+    {
+      "p": "[Spectral\u2013Spatial Classification of Hyperspectral Imagery with 3D Convolutional Neural Network](https://doi.org/10.3390/rs9010067)",
+      "c": "[&check;&nbsp;Link](https://github.com/nshaud/DeepHyperX)",
+      "n": "3D-CNN",
+      "d": "2017-01-13",
+      "m1": "58.94\u00b11.27"
+    },
+    {
+      "p": "[HSI-BERT: Hyperspectral Image Classification Using the Bidirectional Encoder Representation From Transformers](https://doi.org/10.1109/TGRS.2019.2934760)",
+      "c": "",
+      "n": "HSI-BERT",
+      "d": "2019-09-04",
+      "m1": "58.50\u00b11.56"
+    },
+    {
+      "p": "[Deep supervised learning for hyperspectral data classification through convolutional neural networks](https://doi.org/10.1109/IGARSS.2015.7326945)",
+      "c": "[&check;&nbsp;Link](https://github.com/swalpa/Classification-of-Hyperspectral-Image)",
+      "n": "2D-CNN",
+      "d": "2015-07-26",
+      "m1": "57.72\u00b11.90"
+    },
+    {
+      "p": "[Dynamic 3D KAN Convolution with Adaptive Grid Optimization for Hyperspectral Image Classification](https://arxiv.org/abs/2504.15155v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/leeguandong/KANet-for-HSI)",
+      "n": "KANet",
+      "d": "2025-04-21",
+      "m2": "99.94"
+    },
+    {
+      "p": "[Hyperspectral Image Classification Using Deep Matrix Capsules](https://ieeexplore.ieee.org/document/10028853)",
+      "c": "[&check;&nbsp;Link](https://github.com/DeepMatrixCapsules/DeepMatrixCapsules)",
+      "n": "Deep Matrix Capsules",
+      "d": "2023-02-02",
+      "m2": "99.93%"
+    },
+    {
+      "p": "[Spatial-Geometry Enhanced 3D Dynamic Snake Convolutional Neural Network for Hyperspectral Image Classification](https://arxiv.org/abs/2504.04463v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/leeguandong/SGDSCNet-for-HSI)",
+      "n": "SGDSCNet",
+      "d": "2025-04-06",
+      "m2": "99.90"
+    },
+    {
+      "p": "[3D Wavelet Convolutions with Extended Receptive Fields for Hyperspectral Image Classification](https://arxiv.org/abs/2504.10795v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/leeguandong/WCNet-for-HSI)",
+      "n": "WCNet",
+      "d": "2025-04-15",
+      "m2": "99.87"
+    },
+    {
+      "p": "[SpectralNET: Exploring Spatial-Spectral WaveletCNN for Hyperspectral Image Classification](https://arxiv.org/abs/2104.00341v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tanmay-ty/SpectralNET)",
+      "n": "SpectralNET",
+      "d": "2021-04-01",
+      "m2": "99.86%"
+    },
+    {
+      "p": "[Expert Kernel Generation Network Driven by Contextual Mapping for Hyperspectral Image Classification](https://arxiv.org/abs/2504.13045v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/leeguandong/EKGNet-for-HSI)",
+      "n": "EKGNet",
+      "d": "2025-04-17",
+      "m2": "99.84"
+    },
+    {
+      "p": "[Faster hyperspectral image classification based on selective kernel mechanism using deep convolutional networks](https://arxiv.org/abs/2202.06458v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/leeguandong/fsknet-for-hsi)",
+      "n": "FSKNet",
+      "d": "2022-02-14",
+      "m2": "99.83%"
+    },
+    {
+      "p": "[HybridSN: Exploring 3D-2D CNN Feature Hierarchy for Hyperspectral Image Classification](https://arxiv.org/abs/1902.06701v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/gokriznastic/HybridSN)",
+      "n": "HybridSN",
+      "d": "2019-02-18",
+      "m2": "99.81%"
+    },
+    {
+      "p": "[Hyperspectral Image Classification via Transformer-based Spectral-Spatial Attention Decoupling and Adaptive Gating](https://arxiv.org/abs/2506.08324v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/leeguandong/STNet-for-HSI)",
+      "n": "STNet",
+      "d": "2025-06-10",
+      "m2": "99.77"
+    },
+    {
+      "p": "[JigsawHSI: a network for Hyperspectral Image classification](https://arxiv.org/abs/2206.02327v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/jmoraga-mines/jigsawhsi)",
+      "n": "JigsawHSI",
+      "d": "2022-06-06",
+      "m2": "99.74"
+    },
+    {
+      "p": "[MVNet: Hyperspectral Remote Sensing Image Classification Based on Hybrid Mamba-Transformer Vision Backbone Architecture](https://arxiv.org/abs/2507.04409v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/leeguandong/MVNet-for-HSI)",
+      "n": "MVNet",
+      "d": "2025-07-06",
+      "m2": "99.74"
+    },
+    {
+      "p": "[A Spectral-Spatial-Dependent Global Learning Framework for Insufficient and Imbalanced Hyperspectral Image Classification](https://arxiv.org/abs/2105.14327v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dengweihuan/SSDGL)",
+      "n": "SSDGL",
+      "d": "2021-05-29",
+      "m2": "99.63%",
+      "m3": "0.9958"
+    },
+    {
+      "p": "[Attention-Based Adaptive Spectral-Spatial Kernel ResNet for Hyperspectral Image Classification](https://ieeexplore.ieee.org/document/9306920)",
+      "c": "[&check;&nbsp;Link](https://github.com/suvojit-0x55aa/A2S2K-ResNet)",
+      "n": "A2S2K-ResNet",
+      "d": "2020-12-24",
+      "m2": "99.57 %"
+    },
+    {
+      "p": "[Hyperspectral Image Classification with Deep Metric Learning and Conditional Random Field](https://arxiv.org/abs/1903.06258v2)",
+      "c": "",
+      "n": "Recurrent 3D-CNN",
+      "d": "2019-03-04",
+      "m2": "99.50%"
+    },
+    {
+      "p": "[Attention-Based Second-Order Pooling Network for Hyperspectral Image Classification](https://ieeexplore.ieee.org/document/9325094)",
+      "c": "[&check;&nbsp;Link](https://github.com/ZhaohuiXue/A-SPN-release)",
+      "n": "A-SPN",
+      "d": "2021-01-14",
+      "m2": "99.24%"
+    },
+    {
+      "p": "[Adaptive Mask Sampling and Manifold to Euclidean Subspace Learning with Distance Covariance Representation for Hyperspectral Image Classification](https://ieeexplore.ieee.org/abstract/document/10097620)",
+      "c": "[&check;&nbsp;Link](https://github.com/lms-07/AMS-M2ESL)",
+      "n": "AMS-M2ESL",
+      "d": "2023-04-07",
+      "m2": "98.38\u00b10.38%",
+      "m7": "98.86\u00b10.26%",
+      "m8": "0.9816\u00b10.0043",
+      "m9": "98.38\u00b10.38%"
+    },
+    {
+      "p": "[Exploring the Relationship between Center and Neighborhoods: Central Vector oriented Self-Similarity Network for Hyperspectral Image Classification](http://dx.doi.org/10.1109/tcsvt.2022.3218284)",
+      "c": "[&check;&nbsp;Link](https://github.com/lms-07/CVSSN)",
+      "n": "CVSSN",
+      "d": "2022-10-31",
+      "m2": "98.18\u00b10.27%",
+      "m4": "97.92\u00b10.75%",
+      "m5": "0.9792\u00b10.0030",
+      "m6": "98.18\u00b10.27%"
+    },
+    {
+      "p": "[BASS Net: Band-Adaptive Spectral-Spatial Feature Learning Neural Network for Hyperspectral Image Classification](http://arxiv.org/abs/1612.00144v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/kaustubh0mani/BASS-Net)",
+      "n": "BASSNet",
+      "d": "2016-12-01",
+      "m2": "96.77%"
+    },
+    {
+      "p": "[Hyperspectral Image Classification with Markov Random Fields and a Convolutional Neural Network](http://arxiv.org/abs/1705.00727v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/xiangyongcao/CNN_HSIC_MRF)",
+      "n": "CNN-MRF",
+      "d": "2017-05-01",
+      "m2": "96.12%"
+    },
+    {
+      "p": "[Shorten Spatial-spectral RNN with Parallel-GRU for Hyperspectral Image Classification](http://arxiv.org/abs/1810.12563v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/codeRimoe/DL_for_RSIs)",
+      "n": "St-SS-pGRU",
+      "d": "2018-10-30",
+      "m2": "90.35%"
+    },
+    {
+      "p": "[Discrete Cosine Transform-Based Joint Spectral-Spatial Information Compression and Band Correlation Calculation for Hyperspectral Feature Extraction](https://doi.org/10.3390/rs16224270)",
+      "c": "[&check;&nbsp;Link](https://github.com/Lightness7/SSBC)",
+      "n": "SSBC",
+      "d": "2024-11-16",
+      "m4": "97.16%",
+      "m5": "98.47%",
+      "m6": "98.66%",
+      "m10": "97.61%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,94 @@
+# instruction-following-on-ifeval
+
+[Dataset Link](https://github.com/google-research/google-research/tree/master/instruction_following_eval) \
+Task Hierarchy: ['Instruction Following']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Inst-level loose-accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Inst-level strict-accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Prompt-level loose-accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Prompt-level strict-accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Self-play with Execution Feedback: Improving Instruction-following Capabilities of Large Language Models](https://arxiv.org/abs/2406.13542v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/QwenLM/AutoIF)",
+      "n": "AutoIF (Llama3 70B)",
+      "d": "2024-06-19",
+      "m1": "90.4",
+      "m2": "86.7",
+      "m3": "85.6",
+      "m4": "80.2"
+    },
+    {
+      "p": "[Self-play with Execution Feedback: Improving Instruction-following Capabilities of Large Language Models](https://arxiv.org/abs/2406.13542v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/QwenLM/AutoIF)",
+      "n": "AutoIF (Qwen2 72B)",
+      "d": "2024-06-19",
+      "m1": "88",
+      "m2": "86.1",
+      "m3": "82.3",
+      "m4": "80.2"
+    },
+    {
+      "p": "[Instruction-Following Evaluation for Large Language Models](https://arxiv.org/abs/2311.07911v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research/tree/master/instruction_following_eval)",
+      "n": "GPT-4",
+      "d": "2023-11-14",
+      "m1": "85.37",
+      "m2": "83.57",
+      "m3": "79.3",
+      "m4": "76.89"
+    },
+    {
+      "p": "[Instruction-Following Evaluation for Large Language Models](https://arxiv.org/abs/2311.07911v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research/tree/master/instruction_following_eval)",
+      "n": "PaLM 2 S",
+      "d": "2023-11-14",
+      "m1": "59.11",
+      "m2": "55.76",
+      "m3": "46.95",
+      "m4": "43.07"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

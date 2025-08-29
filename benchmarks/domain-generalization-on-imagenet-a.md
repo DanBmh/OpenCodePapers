@@ -1,0 +1,329 @@
+# domain-generalization-on-imagenet-a
+
+[Dataset Link](https://github.com/hendrycks/natural-adv-examples) \
+Task Hierarchy: ['Domain Generalization']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Top-1 accuracy %",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Number of params",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time](https://arxiv.org/abs/2203.05482v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/mlfoundations/model-soups)",
+      "n": "Model soups (BASIC-L)",
+      "d": "2022-03-10",
+      "m1": "94.17"
+    },
+    {
+      "p": "[Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time](https://arxiv.org/abs/2203.05482v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/mlfoundations/model-soups)",
+      "n": "Model soups (ViT-G/14)",
+      "d": "2022-03-10",
+      "m1": "92.67"
+    },
+    {
+      "p": "[A Continual Development Methodology for Large-scale Multitask Dynamic ML Systems](https://arxiv.org/abs/2209.07326v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research/tree/master/muNet)",
+      "n": "\u00b52Net+ (ViT-L/16)",
+      "d": "2022-09-15",
+      "m1": "84.53"
+    },
+    {
+      "p": "[Context-Aware Robust Fine-Tuning](https://arxiv.org/abs/2211.16175v1)",
+      "c": "",
+      "n": "CAR-FT (CLIP, ViT-L/14@336px)",
+      "d": "2022-11-29",
+      "m1": "81.5"
+    },
+    {
+      "p": "[MetaFormer Baselines for Vision](https://arxiv.org/abs/2210.13452v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "CAFormer-B36 (IN-21K, 384)",
+      "d": "2022-10-24",
+      "m1": "79.5",
+      "m2": "99M"
+    },
+    {
+      "p": "[Masked Autoencoders Are Scalable Vision Learners](https://arxiv.org/abs/2111.06377v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/mae)",
+      "n": "MAE (ViT-H, 448)",
+      "d": "2021-11-11",
+      "m1": "76.7"
+    },
+    {
+      "p": "[Understanding The Robustness in Vision Transformers](https://arxiv.org/abs/2204.12451v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/nvlabs/fan)",
+      "n": "FAN-Hybrid-L(IN-21K, 384)",
+      "d": "2022-04-26",
+      "m1": "74.5"
+    },
+    {
+      "p": "[MetaFormer Baselines for Vision](https://arxiv.org/abs/2210.13452v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "ConvFormer-B36 (IN-21K, 384)",
+      "d": "2022-10-24",
+      "m1": "73.5",
+      "m2": "100M"
+    },
+    {
+      "p": "[MetaFormer Baselines for Vision](https://arxiv.org/abs/2210.13452v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "CAFormer-B36 (IN-21K)",
+      "d": "2022-10-24",
+      "m1": "69.4",
+      "m2": "99M"
+    },
+    {
+      "p": "[A ConvNet for the 2020s](https://arxiv.org/abs/2201.03545v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/keras-team/keras/blob/master/keras/applications/convnext.py)",
+      "n": "ConvNeXt-XL (Im21k, 384)",
+      "d": "2022-01-10",
+      "m1": "69.3"
+    },
+    {
+      "p": "[Enhance the Visual Representation via Discrete Adversarial Training](https://arxiv.org/abs/2209.07735v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/alibaba/easyrobust/tree/main/examples/imageclassification/imagenet/dat)",
+      "n": "MAE+DAT (ViT-H)",
+      "d": "2022-09-16",
+      "m1": "68.92"
+    },
+    {
+      "p": "[MetaFormer Baselines for Vision](https://arxiv.org/abs/2210.13452v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "ConvFormer-B36 (IN-21K)",
+      "d": "2022-10-24",
+      "m1": "63.3",
+      "m2": "100M"
+    },
+    {
+      "p": "[Pyramid Adversarial Training Improves ViT Performance](https://arxiv.org/abs/2111.15121v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/scenic/tree/main/scenic/projects/adversarialtraining)",
+      "n": "Pyramid Adversarial Training Improves ViT (Im21k)",
+      "d": "2021-11-30",
+      "m1": "62.44"
+    },
+    {
+      "p": "[MetaFormer Baselines for Vision](https://arxiv.org/abs/2210.13452v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "CAFormer-B36 (384)",
+      "d": "2022-10-24",
+      "m1": "61.9",
+      "m2": "99M"
+    },
+    {
+      "p": "[TransNeXt: Robust Foveal Visual Perception for Vision Transformers](https://arxiv.org/abs/2311.17132v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Westlake-AI/openmixup)",
+      "n": "TransNeXt-Base (IN-1K supervised, 384)",
+      "d": "2023-11-28",
+      "m1": "61.6",
+      "m2": "89.7M"
+    },
+    {
+      "p": "[TransNeXt: Robust Foveal Visual Perception for Vision Transformers](https://arxiv.org/abs/2311.17132v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Westlake-AI/openmixup)",
+      "n": "TransNeXt-Small (IN-1K supervised, 384)",
+      "d": "2023-11-28",
+      "m1": "58.3",
+      "m2": "49.7M"
+    },
+    {
+      "p": "[MetaFormer Baselines for Vision](https://arxiv.org/abs/2210.13452v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "ConvFormer-B36 (384)",
+      "d": "2022-10-24",
+      "m1": "55.3",
+      "m2": "100M"
+    },
+    {
+      "p": "[Vision Models Are More Robust And Fair When Pretrained On Uncurated Images Without Supervision](https://arxiv.org/abs/2202.08360v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/vissl)",
+      "n": "SEER (RegNet10B)",
+      "d": "2022-02-16",
+      "m1": "52.7"
+    },
+    {
+      "p": "[TransNeXt: Robust Foveal Visual Perception for Vision Transformers](https://arxiv.org/abs/2311.17132v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Westlake-AI/openmixup)",
+      "n": "TransNeXt-Base (IN-1K supervised, 224)",
+      "d": "2023-11-28",
+      "m1": "50.6",
+      "m2": "89.7M"
+    },
+    {
+      "p": "[MetaFormer Baselines for Vision](https://arxiv.org/abs/2210.13452v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "CAFormer-B36",
+      "d": "2022-10-24",
+      "m1": "48.5",
+      "m2": "99M"
+    },
+    {
+      "p": "[TransNeXt: Robust Foveal Visual Perception for Vision Transformers](https://arxiv.org/abs/2311.17132v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Westlake-AI/openmixup)",
+      "n": "TransNeXt-Small (IN-1K supervised, 224)",
+      "d": "2023-11-28",
+      "m1": "47.1",
+      "m2": "49.7M"
+    },
+    {
+      "p": "[Fully Attentional Networks with Self-emerging Token Labeling](https://arxiv.org/abs/2401.03844v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/NVlabs/STL)",
+      "n": "FAN-L-Hybrid+STL",
+      "d": "2024-01-08",
+      "m1": "46.1"
+    },
+    {
+      "p": "[MetaFormer Baselines for Vision](https://arxiv.org/abs/2210.13452v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "ConvFormer-B36",
+      "d": "2022-10-24",
+      "m1": "40.1",
+      "m2": "100M"
+    },
+    {
+      "p": "[Pyramid Adversarial Training Improves ViT Performance](https://arxiv.org/abs/2111.15121v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/scenic/tree/main/scenic/projects/adversarialtraining)",
+      "n": "Pyramid Adversarial Training Improves ViT (384x384)",
+      "d": "2021-11-30",
+      "m1": "36.41"
+    },
+    {
+      "p": "[Sequencer: Deep LSTM for Image Classification](https://arxiv.org/abs/2205.01972v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "Sequencer2D-L",
+      "d": "2022-05-04",
+      "m1": "35.5"
+    },
+    {
+      "p": "[Distilling Out-of-Distribution Robustness from Vision-Language Foundation Models](https://arxiv.org/abs/2311.01441v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/lapisrocks/DiscreteAdversarialDistillation)",
+      "n": "Discrete Adversarial Distillation (ViT-B/224)",
+      "d": "2023-11-02",
+      "m1": "31.8 "
+    },
+    {
+      "p": "[Your Diffusion Model is Secretly a Zero-Shot Classifier](https://arxiv.org/abs/2303.16203v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/diffusion-classifier/diffusion-classifier)",
+      "n": "Diffusion Classifier",
+      "d": "2023-03-28",
+      "m1": "30.2"
+    },
+    {
+      "p": "[Towards Robust Vision Transformer](https://arxiv.org/abs/2105.07926v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/alibaba/easyrobust)",
+      "n": "RVT-B*",
+      "d": "2021-05-17",
+      "m1": "28.5"
+    },
+    {
+      "p": "[Towards Robust Vision Transformer](https://arxiv.org/abs/2105.07926v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/alibaba/easyrobust)",
+      "n": "RVT-S*",
+      "d": "2021-05-17",
+      "m1": "25.7"
+    },
+    {
+      "p": "[Towards Robust Vision Transformer](https://arxiv.org/abs/2105.07926v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/alibaba/easyrobust)",
+      "n": "RVT-Ti*",
+      "d": "2021-05-17",
+      "m1": "14.4"
+    },
+    {
+      "p": "[Global Filter Networks for Image Classification](https://arxiv.org/abs/2107.00645v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/raoyongming/GFNet)",
+      "n": "GFNet-S",
+      "d": "2021-07-01",
+      "m1": "14.3"
+    },
+    {
+      "p": "[On Feature Normalization and Data Augmentation](https://arxiv.org/abs/2002.11102v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Boyiliee/MoEx)",
+      "n": "CutMix+MoEx (ResNet-50)",
+      "d": "2020-02-25",
+      "m1": "8.4"
+    },
+    {
+      "p": "[Distilling Out-of-Distribution Robustness from Vision-Language Foundation Models](https://arxiv.org/abs/2311.01441v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/lapisrocks/DiscreteAdversarialDistillation)",
+      "n": "Discrete Adversarial Distillation (ResNet-50)",
+      "d": "2023-11-02",
+      "m1": "7.7"
+    },
+    {
+      "p": "[CutMix: Regularization Strategy to Train Strong Classifiers with Localizable Features](https://arxiv.org/abs/1905.04899v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "CutMix (ResNet-50)",
+      "d": "2019-05-13",
+      "m1": "7.3"
+    },
+    {
+      "p": "[mixup: Beyond Empirical Risk Minimization](http://arxiv.org/abs/1710.09412v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "Mixup (ResNet-50)",
+      "d": "2017-10-25",
+      "m1": "6.6"
+    },
+    {
+      "p": "[Improved Regularization of Convolutional Neural Networks with Cutout](http://arxiv.org/abs/1708.04552v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/albumentations-team/albumentations)",
+      "n": "Cutout (ResNet-50)",
+      "d": "2017-08-15",
+      "m1": "4.4"
+    },
+    {
+      "p": "[Deep Residual Learning for Image Recognition](http://arxiv.org/abs/1512.03385v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/research/deeplab)",
+      "n": "ResNet-50 (300 Epochs)",
+      "d": "2015-12-10",
+      "m1": "4.2"
+    },
+    {
+      "p": "[ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness](https://arxiv.org/abs/1811.12231v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/rgeirhos/texture-vs-shape)",
+      "n": "Stylized ImageNet (ResNet-50)",
+      "d": "2018-11-29",
+      "m1": "2.3"
+    },
+    {
+      "p": "[Natural Adversarial Examples](https://arxiv.org/abs/1907.07174v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/hendrycks/natural-adv-examples)",
+      "n": "ResNet-50",
+      "d": "2019-07-16",
+      "m1": "0"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

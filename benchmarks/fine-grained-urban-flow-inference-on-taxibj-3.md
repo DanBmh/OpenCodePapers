@@ -1,0 +1,74 @@
+# fine-grained-urban-flow-inference-on-taxibj-3
+
+[Dataset Link](https://github.com/TolicWang/DeepST/tree/master/data/TaxiBJ) \
+Task Hierarchy: ['Fine-Grained Urban Flow Inference']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "MSE ",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "MAE",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "MAPE",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Spatial-Temporal Contrasting for Fine-Grained Urban Flow Inference](https://ieeexplore.ieee.org/abstract/document/10254322)",
+      "c": "[&check;&nbsp;Link](https://github.com/Xovee/stcf)",
+      "n": "STCF",
+      "d": "2023-12-01",
+      "m1": "11.7718"
+    },
+    {
+      "p": "[UrbanFM: Inferring Fine-Grained Urban Flows](http://arxiv.org/abs/1902.05377v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yoshall/UrbanFM)",
+      "n": "UrbanFM",
+      "d": "2019-02-06",
+      "m1": "12.2570",
+      "m2": "1.815",
+      "m3": "0.308"
+    },
+    {
+      "p": "[UrbanFM: Inferring Fine-Grained Urban Flows](http://arxiv.org/abs/1902.05377v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/yoshall/UrbanFM)",
+      "n": "UrbanFM-ne",
+      "d": "2019-02-06",
+      "m1": "12.666",
+      "m2": "1.845",
+      "m3": "0.309"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

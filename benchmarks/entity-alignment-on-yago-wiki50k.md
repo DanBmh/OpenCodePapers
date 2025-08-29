@@ -1,0 +1,74 @@
+# entity-alignment-on-yago-wiki50k
+
+[Dataset Link]() \
+Task Hierarchy: ['Entity Alignment']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Hit@1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Unsupervised Entity Alignment for Temporal Knowledge Graphs](https://arxiv.org/abs/2302.00796v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/zju-daily/dualmatch)",
+      "n": "DualMatch",
+      "d": "2023-02-01",
+      "m1": "98.1"
+    },
+    {
+      "p": "[Boosting the Speed of Entity Alignment 10*: Dual Attention Matching Network with Normalized Hard Sample Mining](https://arxiv.org/abs/2103.15452v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/MaoXinn/Dual-AMN)",
+      "n": "Dual-AMN",
+      "d": "2021-03-29",
+      "m1": "89.7"
+    },
+    {
+      "p": "[Time-aware Graph Neural Network for Entity Alignment between Temporal Knowledge Graphs](https://aclanthology.org/2021.emnlp-main.709)",
+      "c": "[&check;&nbsp;Link](https://github.com/soledad921/tea-gnn)",
+      "n": "TEA-GNN",
+      "d": null,
+      "m1": "87.9"
+    },
+    {
+      "p": "[Relational Reflection Entity Alignment](https://arxiv.org/abs/2008.07962v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/MaoXinn/RREA)",
+      "n": "RREA",
+      "d": "2020-08-18",
+      "m1": "82.8"
+    },
+    {
+      "p": "[Cross-lingual Knowledge Graph Alignment via Graph Convolutional Networks](https://aclanthology.org/D18-1032)",
+      "c": "[&check;&nbsp;Link](https://github.com/1049451037/GCN-Align)",
+      "n": "GCN-Align",
+      "d": "2018-10-01",
+      "m1": "51.2"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

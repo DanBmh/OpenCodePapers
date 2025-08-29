@@ -1,0 +1,85 @@
+# spatio-temporal-video-grounding-on-hc-stvg2
+
+[Dataset Link](https://github.com/tzhhhh123/HC-STVG) \
+Task Hierarchy: ['Spatio-Temporal Video Grounding']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Val m_vIoU",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Val vIoU@0.3",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Val vIoU@0.5",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Knowing Your Target: Target-Aware Transformer Makes Better Spatio-Temporal Video Grounding](https://arxiv.org/abs/2502.11168v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/HengLan/TA-STVG)",
+      "n": "TA-STVG",
+      "d": "2025-02-16",
+      "m1": "40.2",
+      "m2": "65.8",
+      "m3": "36.7"
+    },
+    {
+      "p": "[Context-Guided Spatio-Temporal Video Grounding](https://arxiv.org/abs/2401.01578v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/henglan/cgstvg)",
+      "n": "CG-STVG",
+      "d": "2024-01-03",
+      "m1": "39.5",
+      "m2": "64.5",
+      "m3": "36.3"
+    },
+    {
+      "p": "[STVGFormer: Spatio-Temporal Video Grounding with Static-Dynamic Cross-Modal Understanding](https://arxiv.org/abs/2207.02756v1)",
+      "c": "",
+      "n": "STVGFormer",
+      "d": "2022-07-06",
+      "m1": "38.7",
+      "m2": "65.5",
+      "m3": "33.8"
+    },
+    {
+      "p": "[TubeDETR: Spatio-Temporal Video Grounding with Transformers](https://arxiv.org/abs/2203.16434v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/antoyang/TubeDETR)",
+      "n": "TubeDETR",
+      "d": "2022-03-30",
+      "m1": "36.4",
+      "m2": "58.8",
+      "m3": "30.6"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

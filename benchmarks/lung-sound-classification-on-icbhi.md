@@ -1,0 +1,60 @@
+# lung-sound-classification-on-icbhi
+
+[Dataset Link](https://bhichallenge.med.auth.gr/ICBHI_2017_Challenge) \
+Task Hierarchy: ['Lung Sound Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accurcay ",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[RDLINet: A Novel Lightweight Inception Network for Respiratory Disease Classification Using Lung Sounds](https://ieeexplore.ieee.org/document/10174701)",
+      "c": "[&check;&nbsp;Link](https://github.com/rsarka34/RDLINet)",
+      "n": "RDLINet",
+      "d": "2023-07-06",
+      "m1": "99.6"
+    },
+    {
+      "p": "[A Lightweight CNN Model for Detecting Respiratory Diseases from Lung Auscultation Sounds using EMD-CWT-based Hybrid Scalogram](https://arxiv.org/abs/2009.04402v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/samiulshuvo/Lung_sound_classification)",
+      "n": "Lightweight CNN",
+      "d": "2020-09-08",
+      "m1": "98.7"
+    },
+    {
+      "p": "[Respiratory diseases recognition through respiratory sound with the help of deep neural network](https://ieeexplore.ieee.org/document/9080747)",
+      "c": "[&check;&nbsp;Link](https://github.com/victor369basu/Respiratory-diseases-recognition-through-respiratory-sound-with-the-help-of-deep-neural-network)",
+      "n": "GRU",
+      "d": "2020-04-30",
+      "m1": "95.7"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

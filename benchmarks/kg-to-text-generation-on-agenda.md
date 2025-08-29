@@ -1,0 +1,81 @@
+# kg-to-text-generation-on-agenda
+
+[Dataset Link](https://github.com/rikdz/GraphWriter) \
+Task Hierarchy: ['KG-to-Text Generation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "BLEU",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Investigating Pretrained Language Models for Graph-to-Text Generation](https://arxiv.org/abs/2007.08426v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/bjascob/amrlib)",
+      "n": "BART-large+ STA",
+      "d": "2020-07-16",
+      "m1": "25.66"
+    },
+    {
+      "p": "[Investigating Pretrained Language Models for Graph-to-Text Generation](https://arxiv.org/abs/2007.08426v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/bjascob/amrlib)",
+      "n": "BART-large",
+      "d": "2020-07-16",
+      "m1": "23.65"
+    },
+    {
+      "p": "[How to Train Your Agent to Read and Write](https://arxiv.org/abs/2101.00916v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/menggehe/DRAW)",
+      "n": "Writer-Reviewer",
+      "d": "2021-01-04",
+      "m1": "19.60"
+    },
+    {
+      "p": "[Modeling Global and Local Node Contexts for Text Generation from Knowledge Graphs](https://arxiv.org/abs/2001.11003v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/UKPLab/kg2text)",
+      "n": "CGE-LW",
+      "d": "2020-01-29",
+      "m1": "18.01"
+    },
+    {
+      "p": "[Modeling Graph Structure via Relative Position for Text Generation from Knowledge Graphs](https://arxiv.org/abs/2006.09242v3)",
+      "c": "",
+      "n": "Graformer",
+      "d": "2020-06-16",
+      "m1": "17.80"
+    },
+    {
+      "p": "[Text Generation from Knowledge Graphs with Graph Transformers](https://arxiv.org/abs/1904.02342v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/graphwriter)",
+      "n": "GraphWriter",
+      "d": "2019-04-04",
+      "m1": "14.3"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

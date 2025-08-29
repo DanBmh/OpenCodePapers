@@ -1,0 +1,115 @@
+# video-polyp-segmentation-on-sun-seg-hard-1
+
+[Dataset Link]() \
+Task Hierarchy: ['Medical Image Segmentation', 'Video Polyp Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Dice",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "S-Measure",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "IoU",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "mean E-measure",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "mean F-measure",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "weighted F-measure",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[LGRNet: Local-Global Reciprocal Network for Uterine Fibroid Segmentation in Ultrasound Videos](https://arxiv.org/abs/2407.05703v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/bio-mlhui/lgrnet)",
+      "n": "LGRNet",
+      "d": "2024-07-08",
+      "m1": "0.876",
+      "m3": "0.805"
+    },
+    {
+      "p": "[Rectifying Noisy Labels with Sequential Prior: Multi-Scale Temporal Feature Affinity Learning for Robust Video Segmentation](https://arxiv.org/abs/2307.05898v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/beileicui/ms-tfal)",
+      "n": "MS-TFAL",
+      "d": "2023-07-12",
+      "m1": "0.862",
+      "m3": "0.788"
+    },
+    {
+      "p": "[Shifting More Attention to Breast Lesion Segmentation in Ultrasound Videos](https://arxiv.org/abs/2310.01861v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jhl-det/fla-net)",
+      "n": "FLA-Net",
+      "d": "2023-10-03",
+      "m1": "0.858",
+      "m3": "0.781"
+    },
+    {
+      "p": "[WeakPolyp: You Only Look Bounding Box for Polyp Segmentation](https://arxiv.org/abs/2307.10912v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/weijun88/weakpolyp)",
+      "n": "WeakPolyP",
+      "d": "2023-07-20",
+      "m1": "0.854",
+      "m3": "0.777"
+    },
+    {
+      "p": "[UNet++: A Nested U-Net Architecture for Medical Image Segmentation](http://arxiv.org/abs/1807.10165v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/qubvel/segmentation_models.pytorch)",
+      "n": "UNet++",
+      "d": "2018-07-18",
+      "m1": "0.554",
+      "m2": "0.685",
+      "m4": "0.697",
+      "m5": "0.544",
+      "m6": "0.480"
+    },
+    {
+      "p": "[U-Net: Convolutional Networks for Biomedical Image Segmentation](http://arxiv.org/abs/1505.04597v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+      "n": "UNet",
+      "d": "2015-05-18",
+      "m1": "0.542",
+      "m2": "0.670"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

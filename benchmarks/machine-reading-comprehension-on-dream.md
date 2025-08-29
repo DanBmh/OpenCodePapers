@@ -1,0 +1,60 @@
+# machine-reading-comprehension-on-dream
+
+[Dataset Link](https://dataset.org/dream/) \
+Task Hierarchy: ['Visual Question Answering (VQA)', 'Machine Reading Comprehension']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Adversarial Self-Attention for Language Understanding](https://arxiv.org/abs/2206.12608v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/gingasan/adversarialsa)",
+      "n": "ASA + RoBERTa",
+      "d": "2022-06-25",
+      "m1": "69.2"
+    },
+    {
+      "p": "[Instructive Dialogue Summarization with Query Aggregations](https://arxiv.org/abs/2310.10981v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/BinWang28/InstructDS)",
+      "n": "InstructDS",
+      "d": "2023-10-17",
+      "m1": "65.9"
+    },
+    {
+      "p": "[Adversarial Self-Attention for Language Understanding](https://arxiv.org/abs/2206.12608v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/gingasan/adversarialsa)",
+      "n": "ASA + BERT-base",
+      "d": "2022-06-25",
+      "m1": "64.3"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

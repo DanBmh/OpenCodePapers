@@ -1,0 +1,119 @@
+# link-prediction-on-yelp
+
+[Dataset Link](https://www.yelp.com/dataset) \
+Task Hierarchy: ['Link Prediction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "HR@10",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "AUC",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "nDCG@10",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Metapath- and Entity-aware Graph Neural Network for Recommendation](https://arxiv.org/abs/2010.11793v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/ecml-peagnn/PEAGNN)",
+      "n": "PEAGAT",
+      "d": "2020-10-22",
+      "m1": "0.9128",
+      "m3": "0.6641"
+    },
+    {
+      "p": "[KGAT: Knowledge Graph Attention Network for Recommendation](https://arxiv.org/abs/1905.07854v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/xiangwang1223/knowledge_graph_attention_network)",
+      "n": "KGAT",
+      "d": "2019-05-20",
+      "m1": "0.8762",
+      "m3": "0.6136"
+    },
+    {
+      "p": "[Learning Heterogeneous Knowledge Base Embeddings for Explainable Recommendation](http://arxiv.org/abs/1805.03352v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/xiangwang1223/knowledge_graph_attention_network)",
+      "n": "CFKG",
+      "d": "2018-05-09",
+      "m1": "0.8729",
+      "m3": "0.5826"
+    },
+    {
+      "p": "[Neural Factorization Machines for Sparse Predictive Analytics](http://arxiv.org/abs/1708.05027v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/shenweichen/DeepCTR)",
+      "n": "NFM",
+      "d": "2017-08-16",
+      "m1": "0.8595",
+      "m3": "0.6062"
+    },
+    {
+      "p": "[Knowledge Graph Convolutional Networks for Recommender Systems](http://arxiv.org/abs/1904.12575v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/hwwang55/KGCN)",
+      "n": "KGCN",
+      "d": "2019-03-18",
+      "m1": "0.8125",
+      "m3": "0.4668"
+    },
+    {
+      "p": "[Neural Collaborative Filtering vs. Matrix Factorization Revisited](https://arxiv.org/abs/2005.09683v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research/tree/master/dot_vs_learned_similarity)",
+      "n": "NGCF",
+      "d": "2020-05-19",
+      "m1": "0.8068",
+      "m3": "0.481"
+    },
+    {
+      "p": "[metapath2vec: Scalable Representation Learning for Heterogeneous Networks](https://dl.acm.org/doi/10.1145/3097983.3098036)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/metapath2vec)",
+      "n": "Metapath2Vec",
+      "d": "2017-08-01",
+      "m1": "0.6307",
+      "m3": "0.402"
+    },
+    {
+      "p": "[Learning Topological Representation for Networks via Hierarchical Sampling](http://arxiv.org/abs/1902.06684v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/fuguoji/HSRL)",
+      "n": "HSRL (DW)",
+      "d": "2019-02-15",
+      "m2": "90.1"
+    },
+    {
+      "p": "[Representation Learning for Heterogeneous Information Networks via Embedding Events](http://arxiv.org/abs/1901.10234v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/fuguoji/Event2vec)",
+      "n": "Event2vec",
+      "d": "2019-01-29",
+      "m2": "86.2"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

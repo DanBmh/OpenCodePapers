@@ -1,0 +1,193 @@
+# word-sense-disambiguation-on-russe
+
+[Dataset Link](https://github.com/RussianNLP/RussianSuperGLUE) \
+Task Hierarchy: ['Word Sense Disambiguation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[RussianSuperGLUE: A Russian Language Understanding Evaluation Benchmark](https://arxiv.org/abs/2010.15925v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/RussianNLP/RussianSuperGLUE)",
+      "n": "Human Benchmark",
+      "d": "2020-10-29",
+      "m1": "0.805"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "ruT5-large-finetune",
+      "d": null,
+      "m1": "0.735"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "RuBERT conversational",
+      "d": null,
+      "m1": "0.729"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "RuBERT plain",
+      "d": null,
+      "m1": "0.726"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "ruRoberta-large finetune",
+      "d": null,
+      "m1": "0.715"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "ruBert-base finetune",
+      "d": null,
+      "m1": "0.706"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Multilingual Bert",
+      "d": null,
+      "m1": "0.69"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "ruT5-base-finetune",
+      "d": null,
+      "m1": "0.682"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "ruBert-large finetune",
+      "d": null,
+      "m1": "0.682"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "SBERT_Large_mt_ru_finetuning",
+      "d": null,
+      "m1": "0.657"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "SBERT_Large",
+      "d": null,
+      "m1": "0.654"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "RuGPT3Large",
+      "d": null,
+      "m1": "0.647"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "RuGPT3Medium",
+      "d": null,
+      "m1": "0.642"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "MT5 Large",
+      "d": null,
+      "m1": "0.633"
+    },
+    {
+      "p": "[Unreasonable Effectiveness of Rule-Based Heuristics in Solving Russian SuperGLUE Tasks](https://arxiv.org/abs/2105.01192v1)",
+      "c": "",
+      "n": "heuristic majority",
+      "d": "2021-05-03",
+      "m1": "0.595"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Golden Transformer",
+      "d": null,
+      "m1": "0.587"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "YaLM 1.0B few-shot",
+      "d": null,
+      "m1": "0.587"
+    },
+    {
+      "p": "[Unreasonable Effectiveness of Rule-Based Heuristics in Solving Russian SuperGLUE Tasks](https://arxiv.org/abs/2105.01192v1)",
+      "c": "",
+      "n": "majority_class",
+      "d": "2021-05-03",
+      "m1": "0.587"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "RuGPT3Small",
+      "d": null,
+      "m1": "0.57"
+    },
+    {
+      "p": "[RussianSuperGLUE: A Russian Language Understanding Evaluation Benchmark](https://arxiv.org/abs/2010.15925v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/RussianNLP/RussianSuperGLUE)",
+      "n": "Baseline TF-IDF1.1",
+      "d": "2020-10-29",
+      "m1": "0.57"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "RuGPT3XL few-shot",
+      "d": null,
+      "m1": "0.565"
+    },
+    {
+      "p": "[Unreasonable Effectiveness of Rule-Based Heuristics in Solving Russian SuperGLUE Tasks](https://arxiv.org/abs/2105.01192v1)",
+      "c": "",
+      "n": "Random weighted",
+      "d": "2021-05-03",
+      "m1": "0.528"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

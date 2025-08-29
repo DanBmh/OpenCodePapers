@@ -1,0 +1,67 @@
+# video-quality-assessment-on-live-livestream
+
+[Dataset Link](https://live.ece.utexas.edu/research/LIVE_APV_Study/apv_index.html) \
+Task Hierarchy: ['Video', 'Video Understanding', 'Video Quality Assessment']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "SRCC",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[ChipQA: No-Reference Video Quality Prediction via Space-Time Chips](https://arxiv.org/abs/2109.08726v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/JoshuaEbenezer/ChipQA)",
+      "n": "ChipQA",
+      "d": "2021-09-17",
+      "m1": "0.7575"
+    },
+    {
+      "p": "[No-Reference Video Quality Assessment Using Space-Time Chips](http://arxiv.org/abs/2008.00031v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/JoshuaEbenezer/ChipQA-0)",
+      "n": "ChipQA-0",
+      "d": "2020-08-23",
+      "m1": "0.7513"
+    },
+    {
+      "p": "[Two-Level Approach for No-Reference Consumer Video Quality Assessment](https://ieeexplore.ieee.org/abstract/document/8742797)",
+      "c": "[&check;&nbsp;Link](https://github.com/jarikorhonen/nr-vqa-consumervideo)",
+      "n": "TLVQM",
+      "d": "2019-06-20",
+      "m1": "0.7503"
+    },
+    {
+      "p": "[RAPIQUE: Rapid and Accurate Video Quality Prediction of User Generated Content](https://arxiv.org/abs/2101.10955v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/vztu/RAPIQUE)",
+      "n": "RAPIQUE",
+      "d": "2021-01-26",
+      "m1": "0.7424"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,95 @@
+# text-classification-on-r52
+
+[Dataset Link]() \
+Task Hierarchy: ['Classification', 'Text Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[BertGCN: Transductive Text Classification by Combining GCN and BERT](https://arxiv.org/abs/2105.05727v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/ZeroRin/BertGCN)",
+      "n": "1-6 BertGCN",
+      "d": "2021-05-12",
+      "m1": "96.6"
+    },
+    {
+      "p": "[Graph Star Net for Generalized Multi-Task Learning](https://arxiv.org/abs/1906.12330v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/graph-star-team/graph_star)",
+      "n": "GraphStar",
+      "d": "2019-06-21",
+      "m1": "95.00"
+    },
+    {
+      "p": "[Text Level Graph Neural Network for Text Classification](https://arxiv.org/abs/1910.02356v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mojave-pku/TextLevelGCN)",
+      "n": "Our Model*",
+      "d": "2019-10-06",
+      "m1": "94.6"
+    },
+    {
+      "p": "[Simple Spectral Graph Convolution](https://openreview.net/forum?id=CYO5T-YjWZV)",
+      "c": "[&check;&nbsp;Link](https://github.com/allenhaozhu/SSGC)",
+      "n": "SSGC",
+      "d": "2021-01-01",
+      "m1": "94.5"
+    },
+    {
+      "p": "[Simplifying Graph Convolutional Networks](https://arxiv.org/abs/1902.07153v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/sgc)",
+      "n": "SGC",
+      "d": "2019-02-19",
+      "m1": "94.0"
+    },
+    {
+      "p": "[Simplifying Graph Convolutional Networks](https://arxiv.org/abs/1902.07153v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/sgc)",
+      "n": "SGCN",
+      "d": "2019-02-19",
+      "m1": "94.0"
+    },
+    {
+      "p": "[Graph Convolutional Networks for Text Classification](http://arxiv.org/abs/1809.05679v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yao8839836/text_gcn)",
+      "n": "Text GCN",
+      "d": "2018-09-15",
+      "m1": "93.56"
+    },
+    {
+      "p": "[Enhancing Interpretable Clauses Semantically using Pretrained Word Representation](https://arxiv.org/abs/2104.06901v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/cair/TsetlinMachine)",
+      "n": "TM-Glove",
+      "d": "2021-04-14",
+      "m1": "89.14"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,66 @@
+# regression-on-concrete-compressive-strength
+
+[Dataset Link](https://archive.ics.uci.edu/dataset/165/concrete+compressive+strength) \
+Task Hierarchy: ['regression']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "R2 Score",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "lambda",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Fidelity Isn't Accuracy: When Linearly Decodable Functions Fail to Match the Ground Truth](https://arxiv.org/abs/2506.12176v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jacksoneshbaugh/lambda-linearity-score)",
+      "n": "Neural Network",
+      "d": "2025-06-13",
+      "m1": "0.8588",
+      "m2": "0.6659"
+    },
+    {
+      "p": "[Fidelity Isn't Accuracy: When Linearly Decodable Functions Fail to Match the Ground Truth](https://arxiv.org/abs/2506.12176v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jacksoneshbaugh/lambda-linearity-score)",
+      "n": "Baseline Regression",
+      "d": "2025-06-13",
+      "m1": "0.5944"
+    },
+    {
+      "p": "[Fidelity Isn't Accuracy: When Linearly Decodable Functions Fail to Match the Ground Truth](https://arxiv.org/abs/2506.12176v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jacksoneshbaugh/lambda-linearity-score)",
+      "n": "Mimic / Surrogate",
+      "d": "2025-06-13",
+      "m1": "0.5821"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

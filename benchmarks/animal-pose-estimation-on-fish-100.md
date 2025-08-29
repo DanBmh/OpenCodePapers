@@ -1,0 +1,67 @@
+# animal-pose-estimation-on-fish-100
+
+[Dataset Link](https://benchmark.deeplabcut.org/datasets.html) \
+Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', 'Animal Pose Estimation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "mAP",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Rethinking pose estimation in crowds: overcoming the detection information-bottleneck and ambiguity](https://arxiv.org/abs/2306.07879v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/amathislab/BUCTD)",
+      "n": "HRNet-W48 + Faster R-CNN",
+      "d": "2023-06-13",
+      "m1": "89.1"
+    },
+    {
+      "p": "[Rethinking pose estimation in crowds: overcoming the detection information-bottleneck and ambiguity](https://arxiv.org/abs/2306.07879v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/amathislab/BUCTD)",
+      "n": "BUCTD-preNet-W48 (DLCRNet)",
+      "d": "2023-06-13",
+      "m1": "88.7"
+    },
+    {
+      "p": "[Rethinking pose estimation in crowds: overcoming the detection information-bottleneck and ambiguity](https://arxiv.org/abs/2306.07879v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/amathislab/BUCTD)",
+      "n": "BUCTD-preNet-W48 (CID-W32)",
+      "d": "2023-06-13",
+      "m1": "88.0"
+    },
+    {
+      "p": "[Multi-animal pose estimation, identification and tracking with DeepLabCut](https://www.nature.com/articles/s41592-022-01443-0)",
+      "c": "[&check;&nbsp;Link](https://github.com/DeepLabCut/DeepLabCut)",
+      "n": "DLCRNet_ms4graph9",
+      "d": "2022-04-12",
+      "m1": "71.6"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

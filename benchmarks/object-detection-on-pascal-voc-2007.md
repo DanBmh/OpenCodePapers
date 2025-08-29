@@ -1,0 +1,272 @@
+# object-detection-on-pascal-voc-2007
+
+[Dataset Link](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/) \
+Task Hierarchy: ['16k', 'Object Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "MAP",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "AP50",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "mAP@50",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "mAP@50-95",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "box AP",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Simple Copy-Paste is a Strong Data Augmentation Method for Instance Segmentation](https://arxiv.org/abs/2012.07177v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleOCR)",
+      "n": "Cascade Eff-B7 NAS-FPN (Copy Paste pre-training, single-scale)",
+      "d": "2020-12-13",
+      "m1": "89.3%"
+    },
+    {
+      "p": "[YOLO-Former: YOLO Shakes Hand With ViT](https://arxiv.org/abs/2401.06244v1)",
+      "c": "",
+      "n": "YOLO-Former",
+      "d": "2024-01-11",
+      "m1": "86.01%"
+    },
+    {
+      "p": "[Class-agnostic Object Detection with Multi-modal Transformer](https://arxiv.org/abs/2111.11430v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/mmaaz60/mvits_for_class_agnostic_od)",
+      "n": "DETReg (MDef-DETR)",
+      "d": "2021-11-22",
+      "m1": "84.16%",
+      "m2": "84.16"
+    },
+    {
+      "p": "[Hierarchical Shot Detector](http://openaccess.thecvf.com/content_ICCV_2019/html/Cao_Hierarchical_Shot_Detector_ICCV_2019_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/JialeCao001/HSD)",
+      "n": "HSD (VGG16, 512x512, single-scale test)",
+      "d": "2019-10-01",
+      "m1": "83.0%"
+    },
+    {
+      "p": "[CoupleNet: Coupling Global Structure with Local Parts for Object Detection](http://arxiv.org/abs/1708.02863v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/princewang1994/R-FCN.pytorch)",
+      "n": "CoupleNet",
+      "d": "2017-08-09",
+      "m1": "82.7%"
+    },
+    {
+      "p": "[EEEA-Net: An Early Exit Evolutionary Neural Architecture Search](https://arxiv.org/abs/2108.06156v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/chakkritte/eeea-net)",
+      "n": "EEEA-Net-C2 (YOLOv4)",
+      "d": "2021-08-13",
+      "m1": "81.8%"
+    },
+    {
+      "p": "[Hierarchical Shot Detector](http://openaccess.thecvf.com/content_ICCV_2019/html/Cao_Hierarchical_Shot_Detector_ICCV_2019_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/JialeCao001/HSD)",
+      "n": "HSD (VGG16, 320x320, single-scale test)",
+      "d": "2019-10-01",
+      "m1": "81.7%"
+    },
+    {
+      "p": "[SSD: Single Shot MultiBox Detector](http://arxiv.org/abs/1512.02325v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection)",
+      "n": "SSD512 (07+12+COCO)",
+      "d": "2015-12-08",
+      "m1": "81.6%"
+    },
+    {
+      "p": "[BlitzNet: A Real-Time Deep Network for Scene Understanding](http://arxiv.org/abs/1708.02813v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dvornikita/blitznet)",
+      "n": "BlitzNet512 + seg (s8)",
+      "d": "2017-08-09",
+      "m1": "81.5%"
+    },
+    {
+      "p": "[Localize to Classify and Classify to Localize: Mutual Guidance in Object Detection](https://arxiv.org/abs/2009.14085v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ZHANGHeng19931123/MutualGuide)",
+      "n": "Localize",
+      "d": "2020-09-29",
+      "m1": "81.5%"
+    },
+    {
+      "p": "[Objects as Points](http://arxiv.org/abs/1904.07850v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/research/object_detection)",
+      "n": "CenterNet(DLA34, Flip, 512x512)",
+      "d": "2019-04-16",
+      "m1": "80.7%"
+    },
+    {
+      "p": "[Self-Knowledge Distillation with Progressive Refinement of Targets](https://arxiv.org/abs/2006.12000v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/lgcnsai/ps-kd-pytorch)",
+      "n": "PS-KD (ResNet-152, CutMix)",
+      "d": "2020-06-22",
+      "m1": "79.7%"
+    },
+    {
+      "p": "[DPNet: Dual-Path Network for Real-time Object Detection with Lightweight Attention](https://arxiv.org/abs/2209.13933v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/huiminshii/dpnet)",
+      "n": "DPNet",
+      "d": "2022-09-28",
+      "m1": "79.2%"
+    },
+    {
+      "p": "[Training Region-based Object Detectors with Online Hard Example Mining](http://arxiv.org/abs/1604.03540v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/abhi2610/ohem)",
+      "n": "OHEM",
+      "d": "2016-04-12",
+      "m1": "78.9%"
+    },
+    {
+      "p": "[YOLO9000: Better, Faster, Stronger](http://arxiv.org/abs/1612.08242v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/AlexeyAB/darknet)",
+      "n": "YOLO v2",
+      "d": "2016-12-25",
+      "m1": "78.6%"
+    },
+    {
+      "p": "[ThunderNet: Towards Real-time Generic Object Detection](https://arxiv.org/abs/1903.11752v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/ouyanghuiyu/Thundernet_Pytorch)",
+      "n": "ThunderNet SNet535 Backbone",
+      "d": "2019-03-28",
+      "m1": "78.6%"
+    },
+    {
+      "p": "[DeNet: Scalable Real-time Object Detection with Directed Sparse Sampling](http://arxiv.org/abs/1703.10295v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/lachlants/denet)",
+      "n": "DeNet-101 (skip)",
+      "d": "2017-03-30",
+      "m1": "77.1%"
+    },
+    {
+      "p": "[Random Erasing Data Augmentation](http://arxiv.org/abs/1708.04896v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+      "n": "I+ORE",
+      "d": "2017-08-16",
+      "m1": "76.2%"
+    },
+    {
+      "p": "[Learning Visual Representations for Transfer Learning by Suppressing Texture](https://arxiv.org/abs/2011.01901v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/HaohanWang/ImageNet-Sketch)",
+      "n": "Perona Malik (Perona and Malik, 1990)",
+      "d": "2020-11-03",
+      "m1": "74.37%"
+    },
+    {
+      "p": "[A-Fast-RCNN: Hard Positive Generation via Adversary for Object Detection](http://arxiv.org/abs/1704.03414v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/xiaolonw/adversarial-frcnn)",
+      "n": "FRCN",
+      "d": "2017-04-11",
+      "m1": "74.2%"
+    },
+    {
+      "p": "[Bounding Box Regression with Uncertainty for Accurate Object Detection](http://arxiv.org/abs/1809.08545v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yihui-he/KL-Loss)",
+      "n": "VGG-16 + KL Loss + var voting + soft-NMS",
+      "d": "2018-09-23",
+      "m1": "71.6%"
+    },
+    {
+      "p": "[Fast R-CNN](http://arxiv.org/abs/1504.08083v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/detectron)",
+      "n": "Fast R-CNN",
+      "d": "2015-04-30",
+      "m1": "70.0%"
+    },
+    {
+      "p": "[Subcategory-aware Convolutional Neural Networks for Object Proposals and Detection](http://arxiv.org/abs/1604.04693v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/xiaohaoChen/rrc_detection)",
+      "n": "subCNN",
+      "d": "2016-04-16",
+      "m1": "68.5%"
+    },
+    {
+      "p": "[You Only Look Once: Unified, Real-Time Object Detection](http://arxiv.org/abs/1506.02640v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/AlexeyAB/darknet)",
+      "n": "YOLO",
+      "d": "2015-06-08",
+      "m1": "63.4%"
+    },
+    {
+      "p": "[Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition](http://arxiv.org/abs/1406.4729v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/yhenon/keras-spp)",
+      "n": "SPP(combination)",
+      "d": "2014-06-18",
+      "m1": "60.9%"
+    },
+    {
+      "p": "[Rich feature hierarchies for accurate object detection and semantic segmentation](http://arxiv.org/abs/1311.2524v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/rbgirshick/rcnn)",
+      "n": "R-CNN",
+      "d": "2013-11-11",
+      "m1": "58.5%"
+    },
+    {
+      "p": "[Deformable Part Models are Convolutional Neural Networks](http://arxiv.org/abs/1409.5403v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/rbgirshick/DeepPyramid)",
+      "n": "Deformable Parts Model (DeepPyramid)",
+      "d": "2014-09-18",
+      "m1": "45.2%"
+    },
+    {
+      "p": "[Ultra-Efficient On-Device Object Detection on AI-Integrated Smart Glasses with TinyissimoYOLO](https://arxiv.org/abs/2311.01057v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/eth-pbl/tinyissimoyolo)",
+      "n": "TinyissimoYOLO-v8",
+      "d": "2023-11-02",
+      "m1": "42.3%"
+    },
+    {
+      "p": "[FemtoDet: An Object Detection Baseline for Energy Versus Performance Tradeoffs](https://arxiv.org/abs/2301.06719v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/yh-pengtu/FemtoDet)",
+      "n": "FemotoDet",
+      "d": "2023-01-17",
+      "m1": "22.90%",
+      "m2": "46.31"
+    },
+    {
+      "p": "[Inner-IoU: More Effective Intersection over Union Loss with Auxiliary Bounding Box](https://arxiv.org/abs/2311.02877v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/malagoutou/Inner-IoU)",
+      "n": "YOLOv7+Inner-IoU",
+      "d": "2023-11-06",
+      "m3": "64.44",
+      "m4": "38.52"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

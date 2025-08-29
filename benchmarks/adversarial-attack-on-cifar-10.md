@@ -1,0 +1,98 @@
+# adversarial-attack-on-cifar-10
+
+[Dataset Link](https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf) \
+Task Hierarchy: ['Adversarial Attack']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Attack: PGD20",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Attack: AutoAttack",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Attack: DeepFool",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Robust Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[An Orthogonal Classifier for Improving the Adversarial Robustness of Neural Networks](https://arxiv.org/abs/2105.09109v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/MTandHJ/roboc)",
+      "n": "Xu et al.",
+      "d": "2021-05-19",
+      "m1": "78.680",
+      "m2": "44.150",
+      "m3": "51.310"
+    },
+    {
+      "p": "[Towards Deep Learning Models Resistant to Adversarial Attacks](https://arxiv.org/abs/1706.06083v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/cleverhans-lab/cleverhans)",
+      "n": "AdvTraining [madry2018]",
+      "d": "2017-06-19",
+      "m1": "48.440"
+    },
+    {
+      "p": "[Theoretically Principled Trade-off between Robustness and Accuracy](https://arxiv.org/abs/1901.08573v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/yaodongyu/TRADES)",
+      "n": "TRADES [zhang2019b]",
+      "d": "2019-01-24",
+      "m1": "45.900"
+    },
+    {
+      "p": "[Ensemble everything everywhere: Multi-scale aggregation for adversarial robustness](https://arxiv.org/abs/2408.05446v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/stanislavfort/ensemble-everything-everywhere)",
+      "n": "3-ensemble of multi-resolution self-ensembles",
+      "d": "2024-08-08",
+      "m2": "78.13"
+    },
+    {
+      "p": "[Enhancing Robust Representation in Adversarial Training: Alignment and Exclusion Criteria](https://arxiv.org/abs/2310.03358v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/changzhang777/ancra)",
+      "n": "TRADES-ANCRA/ResNet18",
+      "d": "2023-10-05",
+      "m2": "59.70"
+    },
+    {
+      "p": "[Attention Masks Help Adversarial Attacks to Bypass Safety Detectors](https://arxiv.org/abs/2411.04772v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/FrankShi9/Attention-Mask-Attack)",
+      "n": "XU-Net",
+      "d": "2024-11-07",
+      "m4": "1%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

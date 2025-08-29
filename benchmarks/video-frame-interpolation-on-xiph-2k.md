@@ -1,0 +1,76 @@
+# video-frame-interpolation-on-xiph-2k
+
+[Dataset Link]() \
+Task Hierarchy: ['Video Frame Interpolation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "SSIM",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[VFIMamba: Video Frame Interpolation with State Space Models](https://arxiv.org/abs/2407.02315v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mcg-nju/vfimamba)",
+      "n": "VFIMamba",
+      "d": "2024-07-02",
+      "m1": "37.13",
+      "m2": "0.9451"
+    },
+    {
+      "p": "[Extracting Motion and Appearance via Inter-Frame Attention for Efficient Video Frame Interpolation](https://arxiv.org/abs/2303.00440v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mcg-nju/ema-vfi)",
+      "n": "EMA-VFI",
+      "d": "2023-03-01",
+      "m1": "36.90",
+      "m2": "0.945"
+    },
+    {
+      "p": "[FILM: Frame Interpolation for Large Motion](https://arxiv.org/abs/2202.04901v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/google-research/frame-interpolation)",
+      "n": "FILM",
+      "d": "2022-02-10",
+      "m1": "36.66",
+      "m2": "0.951"
+    },
+    {
+      "p": "[Many-to-many Splatting for Efficient Video Frame Interpolation](https://arxiv.org/abs/2204.03513v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/feinanshan/m2m_vfi)",
+      "n": "M2M-PWC",
+      "d": "2022-04-07",
+      "m1": "36.45",
+      "m2": "0.967"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

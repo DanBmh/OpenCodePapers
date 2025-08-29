@@ -1,0 +1,81 @@
+# color-image-denoising-on-urban100-sigma25
+
+[Dataset Link](https://github.com/jbhuang0604/SelfExSR) \
+Task Hierarchy: ['3D Architecture', 'Denoising', 'Color Image Denoising']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PSNR",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Hierarchical Information Flow for Generalized Efficient Image Restoration](https://arxiv.org/abs/2411.18588v1)",
+      "c": "",
+      "n": "Hi-IR",
+      "d": "2024-11-27",
+      "m1": "33.34"
+    },
+    {
+      "p": "[AKDT: Adaptive Kernel Dilation Transformer for Effective Image Denoising](https://www.insticc.org/node/TechnicalProgram/VISIGRAPP/2025/presentationDetails/131577)",
+      "c": "[&check;&nbsp;Link](https://github.com/albrateanu/AKDT)",
+      "n": "AKDT",
+      "d": "2025-02-26",
+      "m1": "33.14"
+    },
+    {
+      "p": "[Stimulating Diffusion Model for Image Denoising via Adaptive Embedding and Ensembling](https://arxiv.org/abs/2307.03992v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/li-tong-621/dmid)",
+      "n": "DMID-d",
+      "d": "2023-07-08",
+      "m1": "33.11"
+    },
+    {
+      "p": "[KBNet: Kernel Basis Network for Image Restoration](https://arxiv.org/abs/2303.02881v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zhangyi-3/kbnet)",
+      "n": "KBNet",
+      "d": "2023-03-06",
+      "m1": "32.96"
+    },
+    {
+      "p": "[SwinIR: Image Restoration Using Swin Transformer](https://arxiv.org/abs/2108.10257v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/XPixelGroup/BasicSR)",
+      "n": "SwinIR",
+      "d": "2021-08-23",
+      "m1": "32.9"
+    },
+    {
+      "p": "[iiTransformer: A Unified Approach to Exploiting Local and Non-Local Information for Image Restoration](https://bmvc2022.mpi-inf.mpg.de/377/)",
+      "c": "",
+      "n": "iiTransformer",
+      "d": "2022-11-21",
+      "m1": "31.74"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

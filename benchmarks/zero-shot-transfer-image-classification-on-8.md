@@ -1,0 +1,88 @@
+# zero-shot-transfer-image-classification-on-8
+
+[Dataset Link](https://github.com/HaohanWang/ImageNet-Sketch) \
+Task Hierarchy: ['Zero-Shot Transfer Image Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy (Private)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[CoCa: Contrastive Captioners are Image-Text Foundation Models](https://arxiv.org/abs/2205.01917v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/mlfoundations/open_clip)",
+      "n": "CoCa",
+      "d": "2022-05-04",
+      "m1": "77.6"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "BASIC (Lion)",
+      "d": null,
+      "m1": "77.2"
+    },
+    {
+      "p": "[Combined Scaling for Zero-shot Transfer Learning](https://arxiv.org/abs/2111.10050v3)",
+      "c": "",
+      "n": "BASIC",
+      "d": "2021-11-19",
+      "m1": "76.1"
+    },
+    {
+      "p": "[EVA-CLIP-18B: Scaling CLIP to 18 Billion Parameters](https://arxiv.org/abs/2402.04252v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/baaivision/EVA/tree/master/EVA-CLIP-18B)",
+      "n": "EVA-CLIP-18B",
+      "d": "2024-02-06",
+      "m1": "74.7"
+    },
+    {
+      "p": "[InternVL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks](https://arxiv.org/abs/2312.14238v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internvl)",
+      "n": "InternVL-C",
+      "d": "2023-12-21",
+      "m1": "73.9"
+    },
+    {
+      "p": "[EVA-CLIP: Improved Training Techniques for CLIP at Scale](https://arxiv.org/abs/2303.15389v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/baaivision/eva)",
+      "n": "EVA-CLIP-E/14+",
+      "d": "2023-03-27",
+      "m1": "71.6"
+    },
+    {
+      "p": "[AltCLIP: Altering the Language Encoder in CLIP for Extended Language Capabilities](https://arxiv.org/abs/2211.06679v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/flagai-open/flagai)",
+      "n": "AltCLIP",
+      "d": "2022-11-12",
+      "m1": "58.7"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,88 @@
+# continual-learning-on-f-celeba-10-tasks
+
+[Dataset Link](https://github.com/ZixuanKe/CAT) \
+Task Hierarchy: ['Continual Learning']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Acc",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Continual Learning of a Mixed Sequence of Similar and Dissimilar Tasks](https://arxiv.org/abs/2112.10017v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zixuanke/pycontinual)",
+      "n": "CAT (CNN backbone)",
+      "d": "2021-12-18",
+      "m1": "0.7564"
+    },
+    {
+      "p": "[Continual Learning of a Mixed Sequence of Similar and Dissimilar Tasks](https://arxiv.org/abs/2112.10017v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/zixuanke/pycontinual)",
+      "n": "CAT (MLP backbone)",
+      "d": "2021-12-18",
+      "m1": "0.6909"
+    },
+    {
+      "p": "[Overcoming catastrophic forgetting in neural networks](http://arxiv.org/abs/1612.00796v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/ContinualAI/avalanche)",
+      "n": "EWC",
+      "d": "2016-12-02",
+      "m1": "0.6545"
+    },
+    {
+      "p": "[Continual learning with hypernetworks](https://arxiv.org/abs/1906.00695v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/chrhenning/hypercl)",
+      "n": "HyperNet",
+      "d": "2019-06-03",
+      "m1": "0.6036"
+    },
+    {
+      "p": "[PathNet: Evolution Channels Gradient Descent in Super Neural Networks](http://arxiv.org/abs/1701.08734v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/kimhc6028/pathnet-pytorch)",
+      "n": "PathNet",
+      "d": "2017-01-30",
+      "m1": "0.5764"
+    },
+    {
+      "p": "[Overcoming catastrophic forgetting with hard attention to the task](http://arxiv.org/abs/1801.01423v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/joansj/hat)",
+      "n": "HAT",
+      "d": "2018-01-04",
+      "m1": "0.5673"
+    },
+    {
+      "p": "[Random Path Selection for Continual Learning](http://papers.nips.cc/paper/9429-random-path-selection-for-continual-learning)",
+      "c": "[&check;&nbsp;Link](https://github.com/brjathu/RPSnet)",
+      "n": "RPSNet",
+      "d": "2019-12-01",
+      "m1": "0.5545"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

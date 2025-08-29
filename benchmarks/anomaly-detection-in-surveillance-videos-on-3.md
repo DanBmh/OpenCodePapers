@@ -1,0 +1,81 @@
+# anomaly-detection-in-surveillance-videos-on-3
+
+[Dataset Link]() \
+Task Hierarchy: ['Anomaly Detection', 'Anomaly Detection In Surveillance Videos']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AUC",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[A Background-Agnostic Framework with Adversarial Training for Abnormal Event Detection in Video](https://arxiv.org/abs/2008.12328v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/m-3lab/awesome-visual-sensory-anomaly-detection)",
+      "n": "Background-Agnostic Framework",
+      "d": "2020-08-27",
+      "m1": "98.7"
+    },
+    {
+      "p": "[Weakly-supervised Video Anomaly Detection with Robust Temporal Feature Magnitude Learning](https://arxiv.org/abs/2101.10030v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/tianyu0207/RTFM)",
+      "n": "RTFM",
+      "d": "2021-01-25",
+      "m1": "98.6"
+    },
+    {
+      "p": "[Continual Learning for Anomaly Detection in Surveillance Videos](https://arxiv.org/abs/2004.07941v1)",
+      "c": "",
+      "n": "CL-VAD",
+      "d": "2020-04-15",
+      "m1": "97.8"
+    },
+    {
+      "p": "[Anomaly Detection in Video via Self-Supervised and Multi-Task Learning](https://arxiv.org/abs/2011.07491v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/lilygeorgescu/AED-SSMTL)",
+      "n": "SSMTL",
+      "d": "2020-11-15",
+      "m1": "97.5"
+    },
+    {
+      "p": "[FastAno: Fast Anomaly Detection via Spatio-temporal Patch Transformation](https://arxiv.org/abs/2106.08613v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/codnjsqkr/FastAno_official)",
+      "n": "FastAno",
+      "d": "2021-06-16",
+      "m1": "96.3"
+    },
+    {
+      "p": "[Graph Convolutional Label Noise Cleaner: Train a Plug-and-play Action Classifier for Anomaly Detection](http://arxiv.org/abs/1903.07256v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/jx-zhong-for-academic-purpose/GCN-Anomaly-Detection)",
+      "n": "GCN-Anomaly",
+      "d": "2019-03-18",
+      "m1": "93.2"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```
