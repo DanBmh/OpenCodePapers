@@ -124,6 +124,19 @@ update_tasks:
         echo "No changes to commit."
       fi
 
+website:
+  <<: *test_anchor
+  stage: deploy
+  script:
+    - python3 build_tasks.py
+    - python3 build_website_bench.py
+    - python3 build_website_tasks.py
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+
 # ==================================================================================================
 # ===== Stage: Bots ================================================================================
 
