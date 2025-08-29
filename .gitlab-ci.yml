@@ -4,6 +4,7 @@ stages:
   # Install testing tools into extra container to speed up later testing steps
   - container_testing
   - test
+  - deploy
 
 # ==================================================================================================
 # ===== Stage: Container ===========================================================================
@@ -91,3 +92,31 @@ analysis:
   artifacts:
     paths:
       - ./badges/
+
+# ==================================================================================================
+# ===== Stage: Deploy ==============================================================================
+
+update_tasks:
+  <<: *test_anchor
+  stage: deploy
+  script:
+    # 1) Run script
+    - python3 build_tasks.py
+    # 2) Configure git identity for runner
+    - git config --global user.email "ci-bot@$CI_SERVER_HOST"
+    - git config --global user.name "CI Bot"
+    - git config --global --add safe.directory "$CI_PROJECT_DIR"
+    # 4) Rebase on latest just in case the branch moved
+    - git remote set-url origin "https://gitlab-ci-token:${CI_JOB_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git"
+    - git fetch origin "$CI_COMMIT_REF_NAME"
+    - git pull --rebase origin "$CI_COMMIT_REF_NAME"
+    # 5) Commit & push only if there are changes
+    - |
+      if ! git diff --quiet; then
+        echo "Changes detected, committing..."
+        git add -A
+        git commit -m "ci: automated update from update_tasks job [skip ci]"
+        git push origin HEAD:"$CI_COMMIT_REF_NAME"
+      else
+        echo "No changes to commit."
+      fi
