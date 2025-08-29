@@ -1,7 +1,7 @@
 # few-shot-object-detection-on-ms-coco-10-shot
 
 [Dataset Link]() \
-Task Hierarchy: ['16k', 'Object Detection', 'Few-Shot Object Detection']
+Task Hierarchy: ['Object Detection', 'Few-Shot Object Detection']
 
 <br>
 

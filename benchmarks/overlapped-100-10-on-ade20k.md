@@ -1,7 +1,7 @@
 # overlapped-100-10-on-ade20k
 
 [Dataset Link](https://groups.csail.mit.edu/vision/datasets/ADE20K/) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', 'Class-Incremental Semantic Segmentation', 'Overlapped 100-10']
+Task Hierarchy: ['Semantic Segmentation', 'Class-Incremental Semantic Segmentation', 'Overlapped 100-10']
 
 <br>
 

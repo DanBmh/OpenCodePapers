@@ -1,7 +1,7 @@
 # rgb-d-salient-object-detection-on-sip
 
 [Dataset Link](https://github.com/DengPingFan/D3NetBenchmark) \
-Task Hierarchy: ['16k', 'Object Detection', 'RGB-D Salient Object Detection']
+Task Hierarchy: ['Object Detection', 'RGB-D Salient Object Detection']
 
 <br>
 

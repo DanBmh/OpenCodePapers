@@ -1,7 +1,7 @@
 # semantic-segmentation-on-acdc-scribbles
 
 [Dataset Link](https://vios-s.github.io/multiscale-adversarial-attention-gates) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

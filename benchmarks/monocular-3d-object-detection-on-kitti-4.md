@@ -1,7 +1,7 @@
 # monocular-3d-object-detection-on-kitti-4
 
 [Dataset Link](http://www.cvlibs.net/datasets/kitti/) \
-Task Hierarchy: ['16k', 'Object Detection', '3D Object Detection', 'Monocular 3D Object Detection']
+Task Hierarchy: ['Object Detection', '3D Object Detection', 'Monocular 3D Object Detection']
 
 <br>
 

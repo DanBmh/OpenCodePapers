@@ -1,7 +1,7 @@
 # 3d-hand-pose-estimation-on-freihand
 
 [Dataset Link](https://lmb.informatik.uni-freiburg.de/projects/freihand/) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', 'Hand Pose Estimation', '3D Hand Pose Estimation']
+Task Hierarchy: ['Pose Estimation', 'Hand Pose Estimation', '3D Hand Pose Estimation']
 
 <br>
 

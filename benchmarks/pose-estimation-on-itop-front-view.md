@@ -1,7 +1,7 @@
 # pose-estimation-on-itop-front-view
 
 [Dataset Link](https://zenodo.org/record/3932973) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation']
+Task Hierarchy: ['Pose Estimation']
 
 <br>
 

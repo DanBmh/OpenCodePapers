@@ -1,7 +1,7 @@
 # lip-sync-on-lrs2
 
 [Dataset Link](https://www.robots.ox.ac.uk/~vgg/data/lip_reading/lrs2.html) \
-Task Hierarchy: ['10-shot image generation', 'Talking Head Generation', 'Unconstrained Lip-synchronization']
+Task Hierarchy: ['Talking Head Generation', 'Unconstrained Lip-synchronization']
 
 <br>
 

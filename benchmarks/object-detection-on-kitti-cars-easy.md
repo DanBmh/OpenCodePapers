@@ -1,7 +1,7 @@
 # object-detection-on-kitti-cars-easy
 
 [Dataset Link](http://www.cvlibs.net/datasets/kitti/) \
-Task Hierarchy: ['16k', 'Object Detection']
+Task Hierarchy: ['Object Detection']
 
 <br>
 

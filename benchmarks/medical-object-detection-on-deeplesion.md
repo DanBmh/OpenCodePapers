@@ -1,7 +1,7 @@
 # medical-object-detection-on-deeplesion
 
 [Dataset Link](https://nihcc.app.box.com/v/DeepLesion) \
-Task Hierarchy: ['16k', 'Object Detection', 'Medical Object Detection']
+Task Hierarchy: ['Object Detection', 'Medical Object Detection']
 
 <br>
 

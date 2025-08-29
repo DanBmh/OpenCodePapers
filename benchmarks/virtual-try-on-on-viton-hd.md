@@ -1,7 +1,7 @@
 # virtual-try-on-on-viton-hd
 
 [Dataset Link](https://github.com/shadow2496/VITON-HD) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Virtual Try-on']
+Task Hierarchy: ['Virtual Try-on']
 
 <br>
 

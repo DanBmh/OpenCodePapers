@@ -1,7 +1,7 @@
 # image-super-resolution-on-manga109-4x
 
 [Dataset Link](http://www.manga109.org/en/) \
-Task Hierarchy: ['16k', 'Image Super-Resolution']
+Task Hierarchy: ['Image Super-Resolution']
 
 <br>
 

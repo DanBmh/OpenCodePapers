@@ -1,7 +1,7 @@
 # weakly-supervised-object-detection-on-4
 
 [Dataset Link](http://vuchallenge.org/charades.html) \
-Task Hierarchy: ['16k', 'Object Detection', 'Weakly Supervised Object Detection']
+Task Hierarchy: ['Object Detection', 'Weakly Supervised Object Detection']
 
 <br>
 

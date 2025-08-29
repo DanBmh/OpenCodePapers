@@ -1,7 +1,7 @@
 # 3d-multi-person-pose-estimation-root-relative
 
 [Dataset Link](http://gvv.mpi-inf.mpg.de/projects/SingleShotMultiPerson/) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', '3D Human Pose Estimation', '3D Multi-Person Pose Estimation', '3D Multi-Person Pose Estimation (root-relative)']
+Task Hierarchy: ['Pose Estimation', '3D Human Pose Estimation', '3D Multi-Person Pose Estimation', '3D Multi-Person Pose Estimation (root-relative)']
 
 <br>
 

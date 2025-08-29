@@ -1,7 +1,7 @@
 # unsupervised-3d-human-pose-estimation-on-mpi
 
 [Dataset Link](http://gvv.mpi-inf.mpg.de/3dhp-dataset/) \
-Task Hierarchy: ['3D', '3D Reconstruction', 'Unsupervised 3D Human Pose Estimation']
+Task Hierarchy: ['3D Reconstruction', 'Unsupervised 3D Human Pose Estimation']
 
 <br>
 

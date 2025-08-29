@@ -1,7 +1,7 @@
 # face-swapping-on-aflw2000-3d
 
 [Dataset Link](http://www.cbsr.ia.ac.cn/users/xiangyuzhu/projects/3DDFA/main.htm) \
-Task Hierarchy: ['10-shot image generation', 'Face Swapping']
+Task Hierarchy: ['Face Swapping']
 
 <br>
 

@@ -1,7 +1,7 @@
 # hand-pose-estimation-on-hands-2017
 
 [Dataset Link]() \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', 'Hand Pose Estimation']
+Task Hierarchy: ['Pose Estimation', 'Hand Pose Estimation']
 
 <br>
 

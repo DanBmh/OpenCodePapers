@@ -1,7 +1,7 @@
 # thermal-image-segmentation-on-noisy-rs-rgb-t
 
 [Dataset Link]() \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', 'Scene Segmentation', 'Thermal Image Segmentation']
+Task Hierarchy: ['Semantic Segmentation', 'Scene Segmentation', 'Thermal Image Segmentation']
 
 <br>
 

@@ -1,7 +1,7 @@
 # camouflaged-object-segmentation-on-moca-mask
 
 [Dataset Link](https://xueliancheng.github.io/SLT-Net-project/) \
-Task Hierarchy: ['16k', 'Object Detection', 'Camouflaged Object Segmentation']
+Task Hierarchy: ['Object Detection', 'Camouflaged Object Segmentation']
 
 <br>
 

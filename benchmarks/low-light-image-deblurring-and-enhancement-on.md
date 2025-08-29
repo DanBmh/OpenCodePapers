@@ -1,7 +1,7 @@
 # low-light-image-deblurring-and-enhancement-on
 
 [Dataset Link](https://shangchenzhou.com/projects/LEDNet/) \
-Task Hierarchy: ['16k', 'Image Deblurring', 'Low-light Image Deblurring and Enhancement']
+Task Hierarchy: ['Image Deblurring', 'Low-light Image Deblurring and Enhancement']
 
 <br>
 

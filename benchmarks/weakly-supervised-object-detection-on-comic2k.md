@@ -1,7 +1,7 @@
 # weakly-supervised-object-detection-on-comic2k
 
 [Dataset Link](https://naoto0804.github.io/cross_domain_detection/) \
-Task Hierarchy: ['16k', 'Object Detection', 'Weakly Supervised Object Detection']
+Task Hierarchy: ['Object Detection', 'Weakly Supervised Object Detection']
 
 <br>
 

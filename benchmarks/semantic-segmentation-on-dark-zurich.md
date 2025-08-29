@@ -1,7 +1,7 @@
 # semantic-segmentation-on-dark-zurich
 
 [Dataset Link](https://www.trace.ethz.ch/publications/2019/GCMA_UIoU/) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

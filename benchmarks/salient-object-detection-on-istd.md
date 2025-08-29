@@ -1,7 +1,7 @@
 # salient-object-detection-on-istd
 
 [Dataset Link](https://github.com/DeepInsight-PCALab/ST-CGAN) \
-Task Hierarchy: ['16k', 'Object Detection', 'RGB Salient Object Detection']
+Task Hierarchy: ['Object Detection', 'RGB Salient Object Detection']
 
 <br>
 

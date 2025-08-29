@@ -1,7 +1,7 @@
 # blind-super-resolution-on-bsd100-4x-upscaling
 
 [Dataset Link](None) \
-Task Hierarchy: ['10-shot image generation', 'Image Restoration', 'Blind Super-Resolution']
+Task Hierarchy: ['Image Restoration', 'Blind Super-Resolution']
 
 <br>
 

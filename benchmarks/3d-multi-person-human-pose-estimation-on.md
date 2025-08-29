@@ -1,7 +1,7 @@
 # 3d-multi-person-human-pose-estimation-on
 
 [Dataset Link](http://gvv.mpi-inf.mpg.de/projects/SingleShotMultiPerson/) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', '3D Human Pose Estimation', '3D Multi-Person Pose Estimation']
+Task Hierarchy: ['Pose Estimation', '3D Human Pose Estimation', '3D Multi-Person Pose Estimation']
 
 <br>
 

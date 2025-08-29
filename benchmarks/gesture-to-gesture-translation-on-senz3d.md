@@ -1,7 +1,7 @@
 # gesture-to-gesture-translation-on-senz3d
 
 [Dataset Link]() \
-Task Hierarchy: ['', 'Hand', 'Gesture-to-Gesture Translation']
+Task Hierarchy: ['Hand', 'Gesture-to-Gesture Translation']
 
 <br>
 

@@ -1,7 +1,7 @@
 # scene-segmentation-on-streethazards
 
 [Dataset Link](https://github.com/hendrycks/anomaly-seg) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', 'Scene Segmentation']
+Task Hierarchy: ['Semantic Segmentation', 'Scene Segmentation']
 
 <br>
 

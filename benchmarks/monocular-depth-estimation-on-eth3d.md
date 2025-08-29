@@ -1,7 +1,7 @@
 # monocular-depth-estimation-on-eth3d
 
 [Dataset Link](https://www.eth3d.net/) \
-Task Hierarchy: ['3D', 'Depth Estimation', 'Monocular Depth Estimation']
+Task Hierarchy: ['Depth Estimation', 'Monocular Depth Estimation']
 
 <br>
 

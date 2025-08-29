@@ -1,7 +1,7 @@
 # unsupervised-image-to-image-translation-on-1
 
 [Dataset Link](http://deepscene.cs.uni-freiburg.de/) \
-Task Hierarchy: ['1 Image, 2*2 Stitching', 'Image-to-Image Translation', 'Unsupervised Image-To-Image Translation']
+Task Hierarchy: ['Image-to-Image Translation', 'Unsupervised Image-To-Image Translation']
 
 <br>
 

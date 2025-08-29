@@ -1,7 +1,7 @@
 # 3d-shape-retrieval-on-pix3d
 
 [Dataset Link](http://pix3d.csail.mit.edu/) \
-Task Hierarchy: ['3D', '3D Shape Classification']
+Task Hierarchy: ['3D Shape Classification']
 
 <br>
 

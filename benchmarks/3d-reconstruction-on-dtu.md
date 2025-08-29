@@ -1,7 +1,7 @@
 # 3d-reconstruction-on-dtu
 
 [Dataset Link](http://roboimagedata.compute.dtu.dk/?page_id=36) \
-Task Hierarchy: ['3D', '3D Reconstruction']
+Task Hierarchy: ['3D Reconstruction']
 
 <br>
 

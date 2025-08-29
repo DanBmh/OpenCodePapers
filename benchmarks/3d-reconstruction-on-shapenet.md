@@ -1,7 +1,7 @@
 # 3d-reconstruction-on-shapenet
 
 [Dataset Link](https://www.shapenet.org/) \
-Task Hierarchy: ['3D', '3D Reconstruction']
+Task Hierarchy: ['3D Reconstruction']
 
 <br>
 

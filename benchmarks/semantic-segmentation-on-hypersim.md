@@ -1,7 +1,7 @@
 # semantic-segmentation-on-hypersim
 
 [Dataset Link](https://github.com/apple/ml-hypersim) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

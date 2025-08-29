@@ -1,7 +1,7 @@
 # semantic-segmentation-on-pastis
 
 [Dataset Link](https://github.com/VSainteuf/pastis-benchmark) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

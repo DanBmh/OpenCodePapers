@@ -1,7 +1,7 @@
 # object-detection-on-flickrlogos-32
 
 [Dataset Link](https://www.uni-augsburg.de/en/fakultaet/fai/informatik/prof/mmc/research/datensatze/flickrlogos/) \
-Task Hierarchy: ['16k', 'Object Detection']
+Task Hierarchy: ['Object Detection']
 
 <br>
 

@@ -1,7 +1,7 @@
 # semantic-segmentation-on-lip-val
 
 [Dataset Link](http://sysu-hcp.net/lip/) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

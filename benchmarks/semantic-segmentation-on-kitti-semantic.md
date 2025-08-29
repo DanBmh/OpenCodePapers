@@ -1,7 +1,7 @@
 # semantic-segmentation-on-kitti-semantic
 
 [Dataset Link](http://www.cvlibs.net/datasets/kitti/) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

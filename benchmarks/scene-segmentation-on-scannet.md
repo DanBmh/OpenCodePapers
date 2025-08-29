@@ -1,7 +1,7 @@
 # scene-segmentation-on-scannet
 
 [Dataset Link](http://www.scan-net.org/) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', 'Scene Segmentation']
+Task Hierarchy: ['Semantic Segmentation', 'Scene Segmentation']
 
 <br>
 

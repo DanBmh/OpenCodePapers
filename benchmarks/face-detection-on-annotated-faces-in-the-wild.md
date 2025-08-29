@@ -1,7 +1,7 @@
 # face-detection-on-annotated-faces-in-the-wild
 
 [Dataset Link](https://doi.org/10.1109/CVPR.2012.6248014) \
-Task Hierarchy: ['', 'Face Detection']
+Task Hierarchy: ['Face Detection']
 
 <br>
 

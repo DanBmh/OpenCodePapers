@@ -1,7 +1,7 @@
 # scene-generation-on-vizdoom
 
 [Dataset Link](http://vizdoom.cs.put.edu.pl/) \
-Task Hierarchy: ['16k', 'Scene Generation']
+Task Hierarchy: ['Scene Generation']
 
 <br>
 

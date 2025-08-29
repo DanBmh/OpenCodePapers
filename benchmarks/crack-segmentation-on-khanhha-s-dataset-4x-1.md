@@ -1,7 +1,7 @@
 # crack-segmentation-on-khanhha-s-dataset-4x-1
 
 [Dataset Link](https://github.com/khanhha/crack_segmentation) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', 'Crack Segmentation']
+Task Hierarchy: ['Semantic Segmentation', 'Crack Segmentation']
 
 <br>
 

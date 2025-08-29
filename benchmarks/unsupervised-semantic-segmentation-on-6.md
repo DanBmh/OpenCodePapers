@@ -1,7 +1,7 @@
 # unsupervised-semantic-segmentation-on-6
 
 [Dataset Link](https://github.com/LUSSeg/ImageNet-S) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', 'Unsupervised Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation', 'Unsupervised Semantic Segmentation']
 
 <br>
 

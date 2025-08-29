@@ -1,7 +1,7 @@
 # multi-person-pose-estimation-on-coco
 
 [Dataset Link]() \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', 'Multi-Person Pose Estimation']
+Task Hierarchy: ['Pose Estimation', 'Multi-Person Pose Estimation']
 
 <br>
 

@@ -1,7 +1,7 @@
 # image-to-image-translation-on-ixi-dataset
 
 [Dataset Link](https://brain-development.org/ixi-dataset/) \
-Task Hierarchy: ['1 Image, 2*2 Stitching', 'Image-to-Image Translation']
+Task Hierarchy: ['Image-to-Image Translation']
 
 <br>
 

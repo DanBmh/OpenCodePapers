@@ -1,7 +1,7 @@
 # object-detection-on-crowdhuman-full-body
 
 [Dataset Link](http://www.crowdhuman.org/) \
-Task Hierarchy: ['16k', 'Object Detection']
+Task Hierarchy: ['Object Detection']
 
 <br>
 

@@ -1,7 +1,7 @@
 # salient-object-detection-on-pascal-s
 
 [Dataset Link](http://cbs.ic.gatech.edu/salobj/) \
-Task Hierarchy: ['16k', 'Object Detection', 'RGB Salient Object Detection']
+Task Hierarchy: ['Object Detection', 'RGB Salient Object Detection']
 
 <br>
 

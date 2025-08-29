@@ -1,7 +1,7 @@
 # highlight-detection-on-qvhighlights
 
 [Dataset Link](https://github.com/jayleicn/moment_detr/tree/main/data) \
-Task Hierarchy: ['16k', 'Highlight Detection']
+Task Hierarchy: ['Highlight Detection']
 
 <br>
 

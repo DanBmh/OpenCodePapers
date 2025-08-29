@@ -1,7 +1,7 @@
 # open-vocabulary-attribute-detection-on-ovad-1
 
 [Dataset Link](https://ovad-benchmark.github.io/) \
-Task Hierarchy: ['16k', 'Object Detection', 'Open Vocabulary Object Detection', 'Open Vocabulary Attribute Detection']
+Task Hierarchy: ['Object Detection', 'Open Vocabulary Object Detection', 'Open Vocabulary Attribute Detection']
 
 <br>
 

@@ -1,7 +1,7 @@
 # medical-image-generation-on-acdc
 
 [Dataset Link](https://acdc.creatis.insa-lyon.fr/description/databases.html) \
-Task Hierarchy: ['10-shot image generation', 'Medical Image Generation']
+Task Hierarchy: ['Medical Image Generation']
 
 <br>
 

@@ -1,7 +1,7 @@
 # video-salient-object-detection-on-davsod-1
 
 [Dataset Link]() \
-Task Hierarchy: ['16k', 'Object Detection', 'RGB Salient Object Detection', 'Video Salient Object Detection']
+Task Hierarchy: ['Object Detection', 'RGB Salient Object Detection', 'Video Salient Object Detection']
 
 <br>
 

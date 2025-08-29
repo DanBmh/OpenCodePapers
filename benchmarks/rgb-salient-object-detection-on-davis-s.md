@@ -1,7 +1,7 @@
 # rgb-salient-object-detection-on-davis-s
 
 [Dataset Link](https://github.com/yi94code/HRSOD) \
-Task Hierarchy: ['16k', 'Object Detection', 'RGB Salient Object Detection']
+Task Hierarchy: ['Object Detection', 'RGB Salient Object Detection']
 
 <br>
 

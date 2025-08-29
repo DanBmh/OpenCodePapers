@@ -1,7 +1,7 @@
 # monocular-depth-estimation-on-cityscapes
 
 [Dataset Link](https://www.cityscapes-dataset.com/dataset-overview/) \
-Task Hierarchy: ['3D', 'Depth Estimation', 'Monocular Depth Estimation']
+Task Hierarchy: ['Depth Estimation', 'Monocular Depth Estimation']
 
 <br>
 

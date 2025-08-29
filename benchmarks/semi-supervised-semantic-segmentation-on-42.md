@@ -1,7 +1,7 @@
 # semi-supervised-semantic-segmentation-on-42
 
 [Dataset Link](https://groups.csail.mit.edu/vision/datasets/ADE20K/) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', 'Semi-Supervised Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation', 'Semi-Supervised Semantic Segmentation']
 
 <br>
 

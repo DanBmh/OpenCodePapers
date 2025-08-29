@@ -1,7 +1,7 @@
 # image-deblurring-on-gopro
 
 [Dataset Link](https://seungjunnah.github.io/Datasets/gopro) \
-Task Hierarchy: ['16k', 'Image Deblurring']
+Task Hierarchy: ['Image Deblurring']
 
 <br>
 

@@ -1,7 +1,7 @@
 # on-cybench
 
 [Dataset Link](https://cybench.github.io/) \
-Task Hierarchy: ['']
+Task Hierarchy: []
 
 <br>
 

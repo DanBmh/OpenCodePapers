@@ -1,7 +1,7 @@
 # image-super-resolution-on-webface-8x
 
 [Dataset Link]() \
-Task Hierarchy: ['16k', 'Image Super-Resolution']
+Task Hierarchy: ['Image Super-Resolution']
 
 <br>
 

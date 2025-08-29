@@ -1,7 +1,7 @@
 # depth-estimation-on-scannetv2
 
 [Dataset Link](http://www.scan-net.org/) \
-Task Hierarchy: ['3D', 'Depth Estimation']
+Task Hierarchy: ['Depth Estimation']
 
 <br>
 

@@ -1,7 +1,7 @@
 # face-swapping-on-faceforensics
 
 [Dataset Link](https://github.com/ondyari/FaceForensics) \
-Task Hierarchy: ['10-shot image generation', 'Face Swapping']
+Task Hierarchy: ['Face Swapping']
 
 <br>
 

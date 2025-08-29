@@ -1,7 +1,7 @@
 # hand-object-pose-on-dexycb
 
 [Dataset Link](https://dex-ycb.github.io) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', '6D Pose Estimation', 'hand-object pose']
+Task Hierarchy: ['Pose Estimation', '6D Pose Estimation', 'hand-object pose']
 
 <br>
 

@@ -1,7 +1,7 @@
 # dichotomous-image-segmentation-on-dis-te3
 
 [Dataset Link](https://xuebinqin.github.io/dis/index.html) \
-Task Hierarchy: ['16k', 'Object Detection', 'RGB Salient Object Detection', 'Dichotomous Image Segmentation']
+Task Hierarchy: ['Object Detection', 'RGB Salient Object Detection', 'Dichotomous Image Segmentation']
 
 <br>
 

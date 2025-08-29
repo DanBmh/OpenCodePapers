@@ -1,7 +1,7 @@
 # real-time-semantic-segmentation-on-camvid
 
 [Dataset Link](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', 'Real-Time Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation', 'Real-Time Semantic Segmentation']
 
 <br>
 

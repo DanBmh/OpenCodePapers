@@ -1,7 +1,7 @@
 # object-detection-on-visual-genome
 
 [Dataset Link](https://homes.cs.washington.edu/~ranjay/visualgenome/index.html) \
-Task Hierarchy: ['16k', 'Object Detection']
+Task Hierarchy: ['Object Detection']
 
 <br>
 

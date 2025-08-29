@@ -1,7 +1,7 @@
 # medical-image-generation-on-sliver07
 
 [Dataset Link]() \
-Task Hierarchy: ['10-shot image generation', 'Medical Image Generation']
+Task Hierarchy: ['Medical Image Generation']
 
 <br>
 

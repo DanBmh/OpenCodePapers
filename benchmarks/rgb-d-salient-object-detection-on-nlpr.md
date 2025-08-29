@@ -1,7 +1,7 @@
 # rgb-d-salient-object-detection-on-nlpr
 
 [Dataset Link](https://sites.google.com/site/rgbdsaliency/home) \
-Task Hierarchy: ['16k', 'Object Detection', 'RGB-D Salient Object Detection']
+Task Hierarchy: ['Object Detection', 'RGB-D Salient Object Detection']
 
 <br>
 

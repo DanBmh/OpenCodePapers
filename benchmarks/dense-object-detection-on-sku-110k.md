@@ -1,7 +1,7 @@
 # dense-object-detection-on-sku-110k
 
 [Dataset Link](https://github.com/eg4000/SKU110K_CVPR19) \
-Task Hierarchy: ['16k', 'Object Detection', 'Dense Object Detection']
+Task Hierarchy: ['Object Detection', 'Dense Object Detection']
 
 <br>
 

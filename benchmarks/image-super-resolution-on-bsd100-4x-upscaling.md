@@ -1,7 +1,7 @@
 # image-super-resolution-on-bsd100-4x-upscaling
 
 [Dataset Link](None) \
-Task Hierarchy: ['16k', 'Image Super-Resolution']
+Task Hierarchy: ['Image Super-Resolution']
 
 <br>
 

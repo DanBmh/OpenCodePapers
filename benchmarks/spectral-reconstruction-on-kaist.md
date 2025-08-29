@@ -1,7 +1,7 @@
 # spectral-reconstruction-on-kaist
 
 [Dataset Link](https://zaguan.unizar.es/record/75680) \
-Task Hierarchy: ['10-shot image generation', 'Image Restoration', 'Spectral Reconstruction']
+Task Hierarchy: ['Image Restoration', 'Spectral Reconstruction']
 
 <br>
 

@@ -1,7 +1,7 @@
 # monocular-depth-estimation-on-ibims-1
 
 [Dataset Link](https://www.bgu.tum.de/lmf/ibims1/) \
-Task Hierarchy: ['3D', 'Depth Estimation', 'Monocular Depth Estimation']
+Task Hierarchy: ['Depth Estimation', 'Monocular Depth Estimation']
 
 <br>
 

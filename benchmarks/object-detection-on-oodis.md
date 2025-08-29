@@ -1,7 +1,7 @@
 # object-detection-on-oodis
 
 [Dataset Link](https://kumuji.github.io/oodis_website/) \
-Task Hierarchy: ['16k', 'Object Detection']
+Task Hierarchy: ['Object Detection']
 
 <br>
 

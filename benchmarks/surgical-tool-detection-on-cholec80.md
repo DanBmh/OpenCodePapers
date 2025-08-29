@@ -1,7 +1,7 @@
 # surgical-tool-detection-on-cholec80
 
 [Dataset Link](http://camma.u-strasbg.fr/datasets) \
-Task Hierarchy: ['16k', 'Object Detection', 'Surgical tool detection']
+Task Hierarchy: ['Object Detection', 'Surgical tool detection']
 
 <br>
 

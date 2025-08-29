@@ -1,7 +1,7 @@
 # object-detection-on-dsec
 
 [Dataset Link](https://dsec.ifi.uzh.ch/) \
-Task Hierarchy: ['16k', 'Object Detection']
+Task Hierarchy: ['Object Detection']
 
 <br>
 

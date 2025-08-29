@@ -1,7 +1,7 @@
 # one-shot-object-detection-on-coco
 
 [Dataset Link]() \
-Task Hierarchy: ['16k', 'Object Detection', 'One-Shot Object Detection']
+Task Hierarchy: ['Object Detection', 'One-Shot Object Detection']
 
 <br>
 

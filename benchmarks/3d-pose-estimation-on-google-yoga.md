@@ -1,7 +1,7 @@
 # 3d-pose-estimation-on-google-yoga
 
 [Dataset Link]() \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', '3D Pose Estimation']
+Task Hierarchy: ['Pose Estimation', '3D Pose Estimation']
 
 <br>
 

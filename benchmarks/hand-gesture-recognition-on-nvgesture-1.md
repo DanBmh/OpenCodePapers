@@ -1,7 +1,7 @@
 # hand-gesture-recognition-on-nvgesture-1
 
 [Dataset Link](https://research.nvidia.com/publication/online-detection-and-classification-dynamic-hand-gestures-recurrent-3d-convolutional) \
-Task Hierarchy: ['', 'Hand', 'Hand Gesture Recognition']
+Task Hierarchy: ['Hand', 'Hand Gesture Recognition']
 
 <br>
 

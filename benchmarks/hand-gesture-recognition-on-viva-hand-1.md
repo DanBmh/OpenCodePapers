@@ -1,7 +1,7 @@
 # hand-gesture-recognition-on-viva-hand-1
 
 [Dataset Link](http://cvrr.ucsd.edu/vivachallenge/) \
-Task Hierarchy: ['', 'Hand', 'Hand Gesture Recognition']
+Task Hierarchy: ['Hand', 'Hand Gesture Recognition']
 
 <br>
 

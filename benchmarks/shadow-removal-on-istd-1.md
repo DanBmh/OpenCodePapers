@@ -1,7 +1,7 @@
 # shadow-removal-on-istd-1
 
 [Dataset Link](https://drive.google.com/file/d/1rsCSWrotVnKFUqu9A_Nw9Uf-bJq_ryOv/view) \
-Task Hierarchy: ['16k', 'Shadow Removal']
+Task Hierarchy: ['Shadow Removal']
 
 <br>
 

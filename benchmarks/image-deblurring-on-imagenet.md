@@ -1,7 +1,7 @@
 # image-deblurring-on-imagenet
 
 [Dataset Link](https://image-net.org/index.php) \
-Task Hierarchy: ['16k', 'Image Deblurring']
+Task Hierarchy: ['Image Deblurring']
 
 <br>
 

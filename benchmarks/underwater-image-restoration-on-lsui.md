@@ -1,7 +1,7 @@
 # underwater-image-restoration-on-lsui
 
 [Dataset Link](https://bianlab.github.io/data.html) \
-Task Hierarchy: ['10-shot image generation', 'Image Restoration', 'Underwater Image Restoration']
+Task Hierarchy: ['Image Restoration', 'Underwater Image Restoration']
 
 <br>
 

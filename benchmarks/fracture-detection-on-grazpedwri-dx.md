@@ -1,7 +1,7 @@
 # fracture-detection-on-grazpedwri-dx
 
 [Dataset Link](https://www.nature.com/articles/s41597-022-01328-z#citeas) \
-Task Hierarchy: ['16k', 'Object Detection', 'Fracture detection']
+Task Hierarchy: ['Object Detection', 'Fracture detection']
 
 <br>
 

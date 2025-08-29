@@ -1,7 +1,7 @@
 # unsupervised-3d-human-pose-estimation-on
 
 [Dataset Link](http://vision.imar.ro/human3.6m/description.php) \
-Task Hierarchy: ['3D', '3D Reconstruction', 'Unsupervised 3D Human Pose Estimation']
+Task Hierarchy: ['3D Reconstruction', 'Unsupervised 3D Human Pose Estimation']
 
 <br>
 

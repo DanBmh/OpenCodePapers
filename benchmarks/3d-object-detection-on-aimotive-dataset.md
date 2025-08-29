@@ -1,7 +1,7 @@
 # 3d-object-detection-on-aimotive-dataset
 
 [Dataset Link](https://github.com/aimotive/aimotive_dataset) \
-Task Hierarchy: ['16k', 'Object Detection', '3D Object Detection']
+Task Hierarchy: ['Object Detection', '3D Object Detection']
 
 <br>
 

@@ -1,7 +1,7 @@
 # animal-pose-estimation-on-stanfordextra
 
 [Dataset Link](https://github.com/benjiebob/StanfordExtra) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', 'Animal Pose Estimation']
+Task Hierarchy: ['Pose Estimation', 'Animal Pose Estimation']
 
 <br>
 

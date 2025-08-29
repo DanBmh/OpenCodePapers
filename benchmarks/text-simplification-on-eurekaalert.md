@@ -1,7 +1,7 @@
 # text-simplification-on-eurekaalert
 
 [Dataset Link](https://github.com/farooqzaman1/HTSS/tree/main/data) \
-Task Hierarchy: ['', 'Text Simplification']
+Task Hierarchy: ['Text Simplification']
 
 <br>
 

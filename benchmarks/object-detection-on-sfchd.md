@@ -1,7 +1,7 @@
 # object-detection-on-sfchd
 
 [Dataset Link](https://github.com/lijfrank-open/SFCHD-SCALE) \
-Task Hierarchy: ['16k', 'Object Detection']
+Task Hierarchy: ['Object Detection']
 
 <br>
 

@@ -1,7 +1,7 @@
 # semantic-segmentation-on-replica
 
 [Dataset Link](https://github.com/facebookresearch/Replica-Dataset) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

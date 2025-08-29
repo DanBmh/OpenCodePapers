@@ -1,7 +1,7 @@
 # unsupervised-semantic-segmentation-with-1
 
 [Dataset Link](https://github.com/nightrome/cocostuff) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', 'Unsupervised Semantic Segmentation', 'Unsupervised Semantic Segmentation with Language-image Pre-training']
+Task Hierarchy: ['Semantic Segmentation', 'Unsupervised Semantic Segmentation', 'Unsupervised Semantic Segmentation with Language-image Pre-training']
 
 <br>
 

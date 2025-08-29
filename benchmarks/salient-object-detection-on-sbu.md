@@ -1,7 +1,7 @@
 # salient-object-detection-on-sbu
 
 [Dataset Link](https://github.com/hanyangclarence/SILT/releases/tag/refined_sbu) \
-Task Hierarchy: ['16k', 'Object Detection', 'RGB Salient Object Detection']
+Task Hierarchy: ['Object Detection', 'RGB Salient Object Detection']
 
 <br>
 

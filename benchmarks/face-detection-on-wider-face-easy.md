@@ -1,7 +1,7 @@
 # face-detection-on-wider-face-easy
 
 [Dataset Link]() \
-Task Hierarchy: ['', 'Face Detection']
+Task Hierarchy: ['Face Detection']
 
 <br>
 

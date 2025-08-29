@@ -1,7 +1,7 @@
 # few-shot-object-detection-on-camo-fs
 
 [Dataset Link](https://www.kaggle.com/datasets/danhnt/camo-fs-dataset) \
-Task Hierarchy: ['16k', 'Object Detection', 'Few-Shot Object Detection']
+Task Hierarchy: ['Object Detection', 'Few-Shot Object Detection']
 
 <br>
 

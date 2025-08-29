@@ -1,7 +1,7 @@
 # pneumonia-detection-on-chestx-ray14
 
 [Dataset Link](https://nihcc.app.box.com/v/ChestXray-NIHCC) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pneumonia Detection']
+Task Hierarchy: ['Pneumonia Detection']
 
 <br>
 

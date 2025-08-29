@@ -1,7 +1,7 @@
 # 3d-object-detection-on-kitti-cyclist-hard-val
 
 [Dataset Link](http://www.cvlibs.net/datasets/kitti/) \
-Task Hierarchy: ['16k', 'Object Detection', '3D Object Detection']
+Task Hierarchy: ['Object Detection', '3D Object Detection']
 
 <br>
 

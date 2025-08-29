@@ -1,7 +1,7 @@
 # 3d-object-detection-on-truckscenes
 
 [Dataset Link](https://github.com/TUMFTM/truckscenes-devkit) \
-Task Hierarchy: ['16k', 'Object Detection', '3D Object Detection']
+Task Hierarchy: ['Object Detection', '3D Object Detection']
 
 <br>
 

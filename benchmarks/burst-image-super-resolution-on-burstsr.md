@@ -1,7 +1,7 @@
 # burst-image-super-resolution-on-burstsr
 
 [Dataset Link](https://github.com/goutamgmb/deep-burst-sr) \
-Task Hierarchy: ['16k', 'Image Super-Resolution', 'Burst Image Super-Resolution']
+Task Hierarchy: ['Image Super-Resolution', 'Burst Image Super-Resolution']
 
 <br>
 

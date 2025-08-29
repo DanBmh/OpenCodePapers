@@ -1,7 +1,7 @@
 # image-super-resolution-on-vggface2-8x
 
 [Dataset Link](https://www.robots.ox.ac.uk/~vgg/data/vgg_face2/) \
-Task Hierarchy: ['16k', 'Image Super-Resolution']
+Task Hierarchy: ['Image Super-Resolution']
 
 <br>
 

@@ -1,7 +1,7 @@
 # semantic-segmentation-on-lars
 
 [Dataset Link](https://lojzezust.github.io/lars-dataset/) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

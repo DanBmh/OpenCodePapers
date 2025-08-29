@@ -1,7 +1,7 @@
 # object-detection-on-pascal-voc-to-clipart1k
 
 [Dataset Link]() \
-Task Hierarchy: ['16k', 'Object Detection']
+Task Hierarchy: ['Object Detection']
 
 <br>
 

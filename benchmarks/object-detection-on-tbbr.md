@@ -1,7 +1,7 @@
 # object-detection-on-tbbr
 
 [Dataset Link](https://zenodo.org/record/7022736) \
-Task Hierarchy: ['16k', 'Object Detection']
+Task Hierarchy: ['Object Detection']
 
 <br>
 

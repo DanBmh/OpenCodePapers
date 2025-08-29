@@ -1,7 +1,7 @@
 # hand-gesture-recognition-on-chalearn-val
 
 [Dataset Link]() \
-Task Hierarchy: ['', 'Hand', 'Hand Gesture Recognition']
+Task Hierarchy: ['Hand', 'Hand Gesture Recognition']
 
 <br>
 

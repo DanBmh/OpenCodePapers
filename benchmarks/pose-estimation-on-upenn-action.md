@@ -1,7 +1,7 @@
 # pose-estimation-on-upenn-action
 
 [Dataset Link](http://dreamdragon.github.io/PennAction/) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation']
+Task Hierarchy: ['Pose Estimation']
 
 <br>
 

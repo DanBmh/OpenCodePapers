@@ -1,7 +1,7 @@
 # 3d-multi-person-mesh-recovery-on-agora
 
 [Dataset Link](https://agora.is.tue.mpg.de) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', '3D Human Pose Estimation', '3D Multi-Person Pose Estimation', '3D Multi-Person Mesh Recovery']
+Task Hierarchy: ['Pose Estimation', '3D Human Pose Estimation', '3D Multi-Person Pose Estimation', '3D Multi-Person Mesh Recovery']
 
 <br>
 

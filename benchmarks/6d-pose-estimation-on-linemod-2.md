@@ -1,7 +1,7 @@
 # 6d-pose-estimation-on-linemod-2
 
 [Dataset Link](https://bop.felk.cvut.cz/datasets) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', '6D Pose Estimation']
+Task Hierarchy: ['Pose Estimation', '6D Pose Estimation']
 
 <br>
 

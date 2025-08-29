@@ -1,7 +1,7 @@
 # depth-estimation-on-ebdtheque
 
 [Dataset Link](http://ebdtheque.univ-lr.fr/database/) \
-Task Hierarchy: ['3D', 'Depth Estimation']
+Task Hierarchy: ['Depth Estimation']
 
 <br>
 

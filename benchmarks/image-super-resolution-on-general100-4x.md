@@ -1,7 +1,7 @@
 # image-super-resolution-on-general100-4x
 
 [Dataset Link]() \
-Task Hierarchy: ['16k', 'Image Super-Resolution']
+Task Hierarchy: ['Image Super-Resolution']
 
 <br>
 

@@ -1,7 +1,7 @@
 # synthetic-to-real-translation-on-synthia-to-1
 
 [Dataset Link](https://synthia-dataset.net/) \
-Task Hierarchy: ['1 Image, 2*2 Stitching', 'Image-to-Image Translation', 'Synthetic-to-Real Translation']
+Task Hierarchy: ['Image-to-Image Translation', 'Synthetic-to-Real Translation']
 
 <br>
 

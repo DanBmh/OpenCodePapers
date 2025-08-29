@@ -1,7 +1,7 @@
 # hyperspectral-semantic-segmentation-on-hyko2
 
 [Dataset Link](https://wp.uni-koblenz.de/hyko/) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', 'Hyperspectral Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation', 'Hyperspectral Semantic Segmentation']
 
 <br>
 

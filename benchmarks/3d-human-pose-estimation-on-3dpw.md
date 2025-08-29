@@ -1,7 +1,7 @@
 # 3d-human-pose-estimation-on-3dpw
 
 [Dataset Link](http://virtualhumans.mpi-inf.mpg.de/3DPW) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', '3D Human Pose Estimation']
+Task Hierarchy: ['Pose Estimation', '3D Human Pose Estimation']
 
 <br>
 

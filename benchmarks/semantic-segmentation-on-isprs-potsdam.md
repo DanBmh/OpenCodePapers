@@ -1,7 +1,7 @@
 # semantic-segmentation-on-isprs-potsdam
 
 [Dataset Link](https://www2.isprs.org/commissions/comm2/wg4/benchmark/2d-sem-label-potsdam/) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

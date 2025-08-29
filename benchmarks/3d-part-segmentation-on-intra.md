@@ -1,7 +1,7 @@
 # 3d-part-segmentation-on-intra
 
 [Dataset Link](https://github.com/intra3d2019/IntrA) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', '3D Part Segmentation']
+Task Hierarchy: ['Semantic Segmentation', '3D Part Segmentation']
 
 <br>
 

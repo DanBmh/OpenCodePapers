@@ -1,7 +1,7 @@
 # text-to-image-generation-on-oxford-102
 
 [Dataset Link](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Text-to-Image Generation']
+Task Hierarchy: ['Text-to-Image Generation']
 
 <br>
 

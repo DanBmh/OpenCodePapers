@@ -1,7 +1,7 @@
 # semantic-segmentation-on-cc3m-tagmask
 
 [Dataset Link](https://github.com/shjo-april/TTD) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

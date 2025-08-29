@@ -1,7 +1,7 @@
 # 3d-object-detection-on-simbev
 
 [Dataset Link](https://drive.google.com/drive/folders/14MytQeGmW80Btg_AGPNrE18ZLdLzyGx5?usp=sharing) \
-Task Hierarchy: ['16k', 'Object Detection', '3D Object Detection']
+Task Hierarchy: ['Object Detection', '3D Object Detection']
 
 <br>
 

@@ -1,7 +1,7 @@
 # cross-view-image-to-image-translation-on-3
 
 [Dataset Link](https://github.com/kregmi/cross-view-image-synthesis/blob/master/README.md) \
-Task Hierarchy: ['1 Image, 2*2 Stitching', 'Image-to-Image Translation', 'Cross-View Image-to-Image Translation']
+Task Hierarchy: ['Image-to-Image Translation', 'Cross-View Image-to-Image Translation']
 
 <br>
 

@@ -1,7 +1,7 @@
 # text-to-image-generation-on-drawbench
 
 [Dataset Link](https://huggingface.co/datasets/shunk031/DrawBench) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Text-to-Image Generation']
+Task Hierarchy: ['Text-to-Image Generation']
 
 <br>
 

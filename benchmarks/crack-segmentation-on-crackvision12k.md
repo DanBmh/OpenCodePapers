@@ -1,7 +1,7 @@
 # crack-segmentation-on-crackvision12k
 
 [Dataset Link](https://rdr.ucl.ac.uk/articles/dataset/CrackVision12K/26946472?file=49023628) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', 'Crack Segmentation']
+Task Hierarchy: ['Semantic Segmentation', 'Crack Segmentation']
 
 <br>
 

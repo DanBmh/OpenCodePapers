@@ -1,7 +1,7 @@
 # camouflaged-object-segmentation-with-a-single-2
 
 [Dataset Link](https://dengpingfan.github.io/pages/COD.html) \
-Task Hierarchy: ['16k', 'Object Detection', 'Camouflaged Object Segmentation', 'Camouflaged Object Segmentation with a Single Task-generic Prompt']
+Task Hierarchy: ['Object Detection', 'Camouflaged Object Segmentation', 'Camouflaged Object Segmentation with a Single Task-generic Prompt']
 
 <br>
 

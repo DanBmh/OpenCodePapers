@@ -1,7 +1,7 @@
 # object-detection-on-india-driving-dataset
 
 [Dataset Link]() \
-Task Hierarchy: ['16k', 'Object Detection']
+Task Hierarchy: ['Object Detection']
 
 <br>
 

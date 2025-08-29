@@ -1,7 +1,7 @@
 # pose-estimation-on-inloc
 
 [Dataset Link](http://www.ok.sc.e.titech.ac.jp/INLOC/) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation']
+Task Hierarchy: ['Pose Estimation']
 
 <br>
 

@@ -1,7 +1,7 @@
 # text-to-image-generation-on-multi-modal
 
 [Dataset Link](https://github.com/weihaox/Multi-Modal-CelebA-HQ-Dataset) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Text-to-Image Generation']
+Task Hierarchy: ['Text-to-Image Generation']
 
 <br>
 

@@ -1,7 +1,7 @@
 # text-simplification-on-deplain-apa-doc
 
 [Dataset Link](https://github.com/rstodden/DEPlain/tree/main/B__Document-level_Corpus/DEplain-APA-doc) \
-Task Hierarchy: ['', 'Text Simplification']
+Task Hierarchy: ['Text Simplification']
 
 <br>
 

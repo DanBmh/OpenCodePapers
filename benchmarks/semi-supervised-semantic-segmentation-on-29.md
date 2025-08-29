@@ -1,7 +1,7 @@
 # semi-supervised-semantic-segmentation-on-29
 
 [Dataset Link]() \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', 'Semi-Supervised Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation', 'Semi-Supervised Semantic Segmentation']
 
 <br>
 

@@ -1,7 +1,7 @@
 # text-based-image-editing-on-pie-bench
 
 [Dataset Link](https://github.com/cure-lab/DirectInversion) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Text-to-Image Generation', 'Text-based Image Editing']
+Task Hierarchy: ['Text-to-Image Generation', 'Text-based Image Editing']
 
 <br>
 

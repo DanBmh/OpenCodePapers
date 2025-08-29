@@ -1,7 +1,7 @@
 # image-super-resolution-on-pirm-test
 
 [Dataset Link](https://pirm.github.io) \
-Task Hierarchy: ['16k', 'Image Super-Resolution']
+Task Hierarchy: ['Image Super-Resolution']
 
 <br>
 

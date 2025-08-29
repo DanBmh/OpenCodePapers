@@ -1,7 +1,7 @@
 # 3d-face-animation-on-beat2
 
 [Dataset Link](https://pantomatrix.github.io/EMAGE/) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', '3D Human Pose Estimation', '3D Absolute Human Pose Estimation', '3D Face Animation']
+Task Hierarchy: ['Pose Estimation', '3D Human Pose Estimation', '3D Absolute Human Pose Estimation', '3D Face Animation']
 
 <br>
 

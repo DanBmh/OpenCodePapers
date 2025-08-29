@@ -1,7 +1,7 @@
 # semantic-segmentation-on-dsec
 
 [Dataset Link](https://dsec.ifi.uzh.ch/) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

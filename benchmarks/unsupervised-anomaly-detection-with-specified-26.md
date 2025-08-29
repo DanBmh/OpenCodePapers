@@ -1,7 +1,7 @@
 # unsupervised-anomaly-detection-with-specified-26
 
 [Dataset Link]() \
-Task Hierarchy: ['Unsupervised Anomaly Detection with Specified Settings -- 10% anomaly']
+Task Hierarchy: ['Unsupervised Anomaly Detection']
 
 <br>
 

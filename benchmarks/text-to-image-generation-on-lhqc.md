@@ -1,7 +1,7 @@
 # text-to-image-generation-on-lhqc
 
 [Dataset Link](https://universome.github.io/alis) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Text-to-Image Generation']
+Task Hierarchy: ['Text-to-Image Generation']
 
 <br>
 

@@ -1,7 +1,7 @@
 # garment-reconstruction-on-4d-dress
 
 [Dataset Link](https://ait.ethz.ch/4d-dress) \
-Task Hierarchy: ['3D', '3D Reconstruction', 'Garment Reconstruction']
+Task Hierarchy: ['3D Reconstruction', 'Garment Reconstruction']
 
 <br>
 

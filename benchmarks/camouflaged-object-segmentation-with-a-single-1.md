@@ -1,7 +1,7 @@
 # camouflaged-object-segmentation-with-a-single-1
 
 [Dataset Link](https://sites.google.com/view/ltnghia/research/camo) \
-Task Hierarchy: ['16k', 'Object Detection', 'Camouflaged Object Segmentation', 'Camouflaged Object Segmentation with a Single Task-generic Prompt']
+Task Hierarchy: ['Object Detection', 'Camouflaged Object Segmentation', 'Camouflaged Object Segmentation with a Single Task-generic Prompt']
 
 <br>
 

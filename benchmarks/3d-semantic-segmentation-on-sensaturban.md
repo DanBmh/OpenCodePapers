@@ -1,7 +1,7 @@
 # 3d-semantic-segmentation-on-sensaturban
 
 [Dataset Link](https://github.com/QingyongHu/SensatUrban) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', '3D Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation', '3D Semantic Segmentation']
 
 <br>
 

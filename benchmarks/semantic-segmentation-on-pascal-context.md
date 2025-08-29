@@ -1,7 +1,7 @@
 # semantic-segmentation-on-pascal-context
 
 [Dataset Link](https://cs.stanford.edu/~roozbeh/pascal-context/) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

@@ -1,7 +1,7 @@
 # object-detection-on-pascal-voc-2007
 
 [Dataset Link](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/) \
-Task Hierarchy: ['16k', 'Object Detection']
+Task Hierarchy: ['Object Detection']
 
 <br>
 

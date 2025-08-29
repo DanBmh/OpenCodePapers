@@ -1,7 +1,7 @@
 # semantic-segmentation-on-fine-grained-grass
 
 [Dataset Link](https://xavierjiezou.github.io/KTDA/) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

@@ -1,7 +1,7 @@
 # depth-estimation-on-stanford2d3d-panoramic
 
 [Dataset Link](https://github.com/alexsax/2D-3D-Semantics) \
-Task Hierarchy: ['3D', 'Depth Estimation']
+Task Hierarchy: ['Depth Estimation']
 
 <br>
 

@@ -1,7 +1,7 @@
 # unsupervised-semantic-segmentation-on-pascal-1
 
 [Dataset Link]() \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', 'Unsupervised Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation', 'Unsupervised Semantic Segmentation']
 
 <br>
 

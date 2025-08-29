@@ -1,7 +1,7 @@
 # semantic-segmentation-on-nighttime-driving
 
 [Dataset Link](http://people.ee.ethz.ch/~daid/NightDriving/#) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

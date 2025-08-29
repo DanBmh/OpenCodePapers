@@ -1,7 +1,7 @@
 # animal-pose-estimation-on-ap-10k
 
 [Dataset Link](https://github.com/AlexTheBad/AP-10K) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', 'Animal Pose Estimation']
+Task Hierarchy: ['Pose Estimation', 'Animal Pose Estimation']
 
 <br>
 

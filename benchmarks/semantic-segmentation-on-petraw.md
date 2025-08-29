@@ -1,7 +1,7 @@
 # semantic-segmentation-on-petraw
 
 [Dataset Link](https://www.synapse.org/PETRAW) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

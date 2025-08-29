@@ -1,7 +1,7 @@
 # scene-generation-on-replica
 
 [Dataset Link](https://github.com/facebookresearch/Replica-Dataset) \
-Task Hierarchy: ['16k', 'Scene Generation']
+Task Hierarchy: ['Scene Generation']
 
 <br>
 

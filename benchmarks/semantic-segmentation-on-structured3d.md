@@ -1,7 +1,7 @@
 # semantic-segmentation-on-structured3d
 
 [Dataset Link](https://github.com/bertjiazheng/Structured3D) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

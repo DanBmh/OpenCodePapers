@@ -1,7 +1,7 @@
 # on-gpqa
 
 [Dataset Link](https://github.com/idavidrein/gpqa) \
-Task Hierarchy: ['']
+Task Hierarchy: []
 
 <br>
 

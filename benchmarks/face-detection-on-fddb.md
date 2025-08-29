@@ -1,7 +1,7 @@
 # face-detection-on-fddb
 
 [Dataset Link](http://vis-www.cs.umass.edu/fddb/) \
-Task Hierarchy: ['', 'Face Detection']
+Task Hierarchy: ['Face Detection']
 
 <br>
 

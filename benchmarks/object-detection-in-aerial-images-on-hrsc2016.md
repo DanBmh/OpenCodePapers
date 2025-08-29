@@ -1,7 +1,7 @@
 # object-detection-in-aerial-images-on-hrsc2016
 
 [Dataset Link]() \
-Task Hierarchy: ['16k', 'Object Detection', 'Object Detection In Aerial Images']
+Task Hierarchy: ['Object Detection', 'Object Detection In Aerial Images']
 
 <br>
 

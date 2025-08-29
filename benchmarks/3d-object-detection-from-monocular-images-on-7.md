@@ -1,7 +1,7 @@
 # 3d-object-detection-from-monocular-images-on-7
 
 [Dataset Link](http://www.cvlibs.net/datasets/kitti-360/) \
-Task Hierarchy: ['16k', 'Object Detection', '3D Object Detection From Monocular Images']
+Task Hierarchy: ['Object Detection', '3D Object Detection From Monocular Images']
 
 <br>
 

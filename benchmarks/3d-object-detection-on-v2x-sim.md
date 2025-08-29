@@ -1,7 +1,7 @@
 # 3d-object-detection-on-v2x-sim
 
 [Dataset Link](https://ai4ce.github.io/V2X-Sim/) \
-Task Hierarchy: ['16k', 'Object Detection', '3D Object Detection']
+Task Hierarchy: ['Object Detection', '3D Object Detection']
 
 <br>
 

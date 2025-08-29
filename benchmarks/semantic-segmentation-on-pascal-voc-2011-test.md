@@ -1,7 +1,7 @@
 # semantic-segmentation-on-pascal-voc-2011-test
 
 [Dataset Link](http://host.robots.ox.ac.uk:8080/pascal/VOC/voc2011/index.html) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

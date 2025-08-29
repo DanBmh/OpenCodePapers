@@ -1,7 +1,7 @@
 # music-source-separation-on-musdb18-hq
 
 [Dataset Link](https://sigsep.github.io/datasets/musdb.html) \
-Task Hierarchy: ['', 'Music Source Separation']
+Task Hierarchy: ['Music Source Separation']
 
 <br>
 

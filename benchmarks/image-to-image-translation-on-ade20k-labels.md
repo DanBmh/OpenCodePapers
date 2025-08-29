@@ -1,7 +1,7 @@
 # image-to-image-translation-on-ade20k-labels
 
 [Dataset Link](https://groups.csail.mit.edu/vision/datasets/ADE20K/) \
-Task Hierarchy: ['1 Image, 2*2 Stitching', 'Image-to-Image Translation']
+Task Hierarchy: ['Image-to-Image Translation']
 
 <br>
 

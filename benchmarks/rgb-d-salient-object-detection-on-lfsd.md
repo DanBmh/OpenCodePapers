@@ -1,7 +1,7 @@
 # rgb-d-salient-object-detection-on-lfsd
 
 [Dataset Link](https://sites.duke.edu/nianyi/publication/saliency-detection-on-light-field/) \
-Task Hierarchy: ['16k', 'Object Detection', 'RGB-D Salient Object Detection']
+Task Hierarchy: ['Object Detection', 'RGB-D Salient Object Detection']
 
 <br>
 

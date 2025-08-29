@@ -1,7 +1,7 @@
 # multi-frame-super-resolution-on-proba-v
 
 [Dataset Link](https://kelvins.esa.int/proba-v-super-resolution/) \
-Task Hierarchy: ['16k', 'Image Super-Resolution', 'Multi-Frame Super-Resolution']
+Task Hierarchy: ['Image Super-Resolution', 'Multi-Frame Super-Resolution']
 
 <br>
 

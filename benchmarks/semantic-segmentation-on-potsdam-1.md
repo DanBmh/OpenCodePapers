@@ -1,7 +1,7 @@
 # semantic-segmentation-on-potsdam-1
 
 [Dataset Link](https://paperswithcode.com/sota/semantic-segmentation-on-isprs-potsdam) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

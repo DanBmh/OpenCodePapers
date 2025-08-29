@@ -1,7 +1,7 @@
 # 3d-object-detection-on-dair-v2x-i
 
 [Dataset Link](https://github.com/AIR-THU/DAIR-V2X) \
-Task Hierarchy: ['16k', 'Object Detection', '3D Object Detection']
+Task Hierarchy: ['Object Detection', '3D Object Detection']
 
 <br>
 

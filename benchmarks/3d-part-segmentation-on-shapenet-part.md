@@ -1,7 +1,7 @@
 # 3d-part-segmentation-on-shapenet-part
 
 [Dataset Link](https://www.shapenet.org/) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', '3D Part Segmentation']
+Task Hierarchy: ['Semantic Segmentation', '3D Part Segmentation']
 
 <br>
 

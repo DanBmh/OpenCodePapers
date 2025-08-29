@@ -1,7 +1,7 @@
 # spectral-reconstruction-on-real-hsi
 
 [Dataset Link](https://github.com/mengziyi64/TSA-Net) \
-Task Hierarchy: ['10-shot image generation', 'Image Restoration', 'Spectral Reconstruction']
+Task Hierarchy: ['Image Restoration', 'Spectral Reconstruction']
 
 <br>
 

@@ -1,7 +1,7 @@
 # video-super-resolution-on-msu-super-1
 
 [Dataset Link](https://videoprocessing.ai/benchmarks/super-resolution-for-video-compression.html) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', '3D Human Pose Estimation', '3D Absolute Human Pose Estimation', '3D Face Animation', 'Video Super-Resolution']
+Task Hierarchy: ['Pose Estimation', '3D Human Pose Estimation', '3D Absolute Human Pose Estimation', '3D Face Animation', 'Video Super-Resolution']
 
 <br>
 

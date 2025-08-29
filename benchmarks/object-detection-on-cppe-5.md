@@ -1,7 +1,7 @@
 # object-detection-on-cppe-5
 
 [Dataset Link](https://sites.google.com/view/cppe5) \
-Task Hierarchy: ['16k', 'Object Detection']
+Task Hierarchy: ['Object Detection']
 
 <br>
 

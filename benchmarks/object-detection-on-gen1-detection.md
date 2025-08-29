@@ -1,7 +1,7 @@
 # object-detection-on-gen1-detection
 
 [Dataset Link](https://www.prophesee.ai/2020/01/24/prophesee-gen1-automotive-detection-dataset/) \
-Task Hierarchy: ['16k', 'Object Detection']
+Task Hierarchy: ['Object Detection']
 
 <br>
 

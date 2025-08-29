@@ -1,7 +1,7 @@
 # text-to-image-generation-on-conceptual
 
 [Dataset Link](https://github.com/google-research-datasets/conceptual-captions) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Text-to-Image Generation']
+Task Hierarchy: ['Text-to-Image Generation']
 
 <br>
 

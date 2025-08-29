@@ -1,7 +1,7 @@
 # camouflaged-object-segmentation-on-chameleon
 
 [Dataset Link]() \
-Task Hierarchy: ['16k', 'Object Detection', 'Camouflaged Object Segmentation']
+Task Hierarchy: ['Object Detection', 'Camouflaged Object Segmentation']
 
 <br>
 

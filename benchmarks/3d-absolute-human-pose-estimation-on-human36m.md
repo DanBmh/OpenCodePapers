@@ -1,7 +1,7 @@
 # 3d-absolute-human-pose-estimation-on-human36m
 
 [Dataset Link](http://vision.imar.ro/human3.6m/description.php) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', '3D Human Pose Estimation', '3D Absolute Human Pose Estimation']
+Task Hierarchy: ['Pose Estimation', '3D Human Pose Estimation', '3D Absolute Human Pose Estimation']
 
 <br>
 

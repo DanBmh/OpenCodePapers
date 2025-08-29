@@ -1,7 +1,7 @@
 # salient-object-detection-on-sod
 
 [Dataset Link](https://github.com/LT1st/SmallObstacleDetection/blob/main/README.md) \
-Task Hierarchy: ['16k', 'Object Detection', 'RGB Salient Object Detection']
+Task Hierarchy: ['Object Detection', 'RGB Salient Object Detection']
 
 <br>
 

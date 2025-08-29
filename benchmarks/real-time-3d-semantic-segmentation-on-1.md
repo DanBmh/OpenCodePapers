@@ -1,7 +1,7 @@
 # real-time-3d-semantic-segmentation-on-1
 
 [Dataset Link](http://www.semantic-kitti.org/) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', '3D Semantic Segmentation', 'Real-Time 3D Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation', '3D Semantic Segmentation', 'Real-Time 3D Semantic Segmentation']
 
 <br>
 

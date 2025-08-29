@@ -1,7 +1,7 @@
 # monocular-depth-estimation-on-scared-c
 
 [Dataset Link](https://data.mendeley.com/datasets/hwb9rn9w9h/3) \
-Task Hierarchy: ['3D', 'Depth Estimation', 'Monocular Depth Estimation']
+Task Hierarchy: ['Depth Estimation', 'Monocular Depth Estimation']
 
 <br>
 

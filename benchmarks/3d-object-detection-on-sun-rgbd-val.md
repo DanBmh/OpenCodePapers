@@ -1,7 +1,7 @@
 # 3d-object-detection-on-sun-rgbd-val
 
 [Dataset Link](https://rgbd.cs.princeton.edu/) \
-Task Hierarchy: ['16k', 'Object Detection', '3D Object Detection']
+Task Hierarchy: ['Object Detection', '3D Object Detection']
 
 <br>
 

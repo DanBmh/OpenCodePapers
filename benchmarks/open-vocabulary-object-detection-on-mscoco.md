@@ -1,7 +1,7 @@
 # open-vocabulary-object-detection-on-mscoco
 
 [Dataset Link]() \
-Task Hierarchy: ['16k', 'Object Detection', 'Open Vocabulary Object Detection']
+Task Hierarchy: ['Object Detection', 'Open Vocabulary Object Detection']
 
 <br>
 

@@ -1,7 +1,7 @@
 # 3d-object-detection-on-multiscan
 
 [Dataset Link](https://3dlg-hcvc.github.io/multiscan/#/) \
-Task Hierarchy: ['16k', 'Object Detection', '3D Object Detection']
+Task Hierarchy: ['Object Detection', '3D Object Detection']
 
 <br>
 

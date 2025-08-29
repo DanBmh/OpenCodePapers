@@ -1,7 +1,7 @@
 # hand-gesture-recognition-on-egogesture-1
 
 [Dataset Link](http://www.nlpr.ia.ac.cn/iva/yfzhang/datasets/egogesture.html) \
-Task Hierarchy: ['', 'Hand', 'Hand Gesture Recognition']
+Task Hierarchy: ['Hand', 'Hand Gesture Recognition']
 
 <br>
 

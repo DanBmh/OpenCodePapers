@@ -1,7 +1,7 @@
 # 3d-object-detection-on-view-of-delft-val
 
 [Dataset Link](https://intelligent-vehicles.org/datasets/view-of-delft/) \
-Task Hierarchy: ['16k', 'Object Detection', '3D Object Detection']
+Task Hierarchy: ['Object Detection', '3D Object Detection']
 
 <br>
 

@@ -1,7 +1,7 @@
 # hyperspectral-semantic-segmentation-on
 
 [Dataset Link](https://pbdl2019.github.io/challenge/index.html) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', 'Hyperspectral Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation', 'Hyperspectral Semantic Segmentation']
 
 <br>
 

@@ -1,7 +1,7 @@
 # blind-super-resolution-on-set5-2x-upscaling
 
 [Dataset Link](http://people.rennes.inria.fr/Aline.Roumy/results/SR_BMVC12.html) \
-Task Hierarchy: ['10-shot image generation', 'Image Restoration', 'Blind Super-Resolution']
+Task Hierarchy: ['Image Restoration', 'Blind Super-Resolution']
 
 <br>
 

@@ -1,7 +1,7 @@
 # text-simplification-on-asset
 
 [Dataset Link](https://github.com/facebookresearch/asset) \
-Task Hierarchy: ['', 'Text Simplification']
+Task Hierarchy: ['Text Simplification']
 
 <br>
 

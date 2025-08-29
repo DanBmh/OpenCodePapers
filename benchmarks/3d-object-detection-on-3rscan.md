@@ -1,7 +1,7 @@
 # 3d-object-detection-on-3rscan
 
 [Dataset Link](https://waldjohannau.github.io/RIO/) \
-Task Hierarchy: ['16k', 'Object Detection', '3D Object Detection']
+Task Hierarchy: ['Object Detection', '3D Object Detection']
 
 <br>
 

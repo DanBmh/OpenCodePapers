@@ -1,7 +1,7 @@
 # scene-generation-on-googleearth
 
 [Dataset Link](https://haozhexie.com/project/city-dreamer) \
-Task Hierarchy: ['16k', 'Scene Generation']
+Task Hierarchy: ['Scene Generation']
 
 <br>
 

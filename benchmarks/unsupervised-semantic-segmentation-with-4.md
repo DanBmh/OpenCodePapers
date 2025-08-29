@@ -1,7 +1,7 @@
 # unsupervised-semantic-segmentation-with-4
 
 [Dataset Link](https://groups.csail.mit.edu/vision/datasets/ADE20K/) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', 'Unsupervised Semantic Segmentation', 'Unsupervised Semantic Segmentation with Language-image Pre-training']
+Task Hierarchy: ['Semantic Segmentation', 'Unsupervised Semantic Segmentation', 'Unsupervised Semantic Segmentation with Language-image Pre-training']
 
 <br>
 

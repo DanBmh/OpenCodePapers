@@ -1,7 +1,7 @@
 # unsupervised-anomaly-detection-with-specified-23
 
 [Dataset Link](http://yann.lecun.com/exdb/mnist/) \
-Task Hierarchy: ['Unsupervised Anomaly Detection with Specified Settings -- 30% anomaly']
+Task Hierarchy: ['Unsupervised Anomaly Detection']
 
 <br>
 

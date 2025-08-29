@@ -1,7 +1,7 @@
 # synthetic-to-real-translation-on-syn2real-c
 
 [Dataset Link](https://ai.bu.edu/syn2real/) \
-Task Hierarchy: ['1 Image, 2*2 Stitching', 'Image-to-Image Translation', 'Synthetic-to-Real Translation']
+Task Hierarchy: ['Image-to-Image Translation', 'Synthetic-to-Real Translation']
 
 <br>
 

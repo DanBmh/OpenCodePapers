@@ -1,7 +1,7 @@
 # text-simplification-on-turkcorpus
 
 [Dataset Link](https://github.com/cocoxu/simplification/tree/master/data/turkcorpus/GEM) \
-Task Hierarchy: ['', 'Text Simplification']
+Task Hierarchy: ['Text Simplification']
 
 <br>
 

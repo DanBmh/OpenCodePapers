@@ -1,7 +1,7 @@
 # object-detection-on-ai-tod
 
 [Dataset Link](https://github.com/jwwangchn/AI-TOD) \
-Task Hierarchy: ['16k', 'Object Detection']
+Task Hierarchy: ['Object Detection']
 
 <br>
 

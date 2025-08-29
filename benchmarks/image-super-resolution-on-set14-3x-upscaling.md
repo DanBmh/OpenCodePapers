@@ -1,7 +1,7 @@
 # image-super-resolution-on-set14-3x-upscaling
 
 [Dataset Link](https://github.com/jbhuang0604/SelfExSR) \
-Task Hierarchy: ['16k', 'Image Super-Resolution']
+Task Hierarchy: ['Image Super-Resolution']
 
 <br>
 

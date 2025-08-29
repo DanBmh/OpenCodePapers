@@ -1,7 +1,7 @@
 # semantic-segmentation-on-spacenet-1
 
 [Dataset Link](https://spacenet.ai/spacenet-buildings-dataset-v1/) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

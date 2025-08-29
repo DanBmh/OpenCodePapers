@@ -1,7 +1,7 @@
 # semantic-segmentation-on-matterport3d
 
 [Dataset Link](https://niessner.github.io/Matterport/) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

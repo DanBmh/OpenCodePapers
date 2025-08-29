@@ -1,7 +1,7 @@
 # salient-object-detection-on-dut-omron
 
 [Dataset Link](http://saliencydetection.net/dut-omron/) \
-Task Hierarchy: ['16k', 'Object Detection', 'RGB Salient Object Detection']
+Task Hierarchy: ['Object Detection', 'RGB Salient Object Detection']
 
 <br>
 

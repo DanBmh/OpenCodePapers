@@ -1,7 +1,7 @@
 # 3d-object-detection-on-kitti-cars-hard-val
 
 [Dataset Link](https://github.com/richardmarcus/synth-it-like-kitti) \
-Task Hierarchy: ['16k', 'Object Detection', '3D Object Detection']
+Task Hierarchy: ['Object Detection', '3D Object Detection']
 
 <br>
 

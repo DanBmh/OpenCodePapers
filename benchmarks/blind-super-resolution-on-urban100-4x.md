@@ -1,7 +1,7 @@
 # blind-super-resolution-on-urban100-4x
 
 [Dataset Link](https://github.com/jbhuang0604/SelfExSR) \
-Task Hierarchy: ['10-shot image generation', 'Image Restoration', 'Blind Super-Resolution']
+Task Hierarchy: ['Image Restoration', 'Blind Super-Resolution']
 
 <br>
 

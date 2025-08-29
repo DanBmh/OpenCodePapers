@@ -1,7 +1,7 @@
 # semantic-segmentation-on-semantic3d
 
 [Dataset Link](http://www.semantic3d.net/) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

@@ -1,7 +1,7 @@
 # highlight-detection-on-tvsum
 
 [Dataset Link](https://github.com/yalesong/tvsum) \
-Task Hierarchy: ['16k', 'Highlight Detection']
+Task Hierarchy: ['Highlight Detection']
 
 <br>
 

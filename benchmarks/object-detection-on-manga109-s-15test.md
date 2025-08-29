@@ -1,7 +1,7 @@
 # object-detection-on-manga109-s-15test
 
 [Dataset Link](http://www.manga109.org/en/) \
-Task Hierarchy: ['16k', 'Object Detection']
+Task Hierarchy: ['Object Detection']
 
 <br>
 

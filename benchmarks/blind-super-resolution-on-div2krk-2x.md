@@ -1,7 +1,7 @@
 # blind-super-resolution-on-div2krk-2x
 
 [Dataset Link](https://www.wisdom.weizmann.ac.il/~vision/kernelgan/) \
-Task Hierarchy: ['10-shot image generation', 'Image Restoration', 'Blind Super-Resolution']
+Task Hierarchy: ['Image Restoration', 'Blind Super-Resolution']
 
 <br>
 

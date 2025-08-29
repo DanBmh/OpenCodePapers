@@ -1,7 +1,7 @@
 # animal-pose-estimation-on-horse-10
 
 [Dataset Link](http://horse10.deeplabcut.org) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', 'Animal Pose Estimation']
+Task Hierarchy: ['Pose Estimation', 'Animal Pose Estimation']
 
 <br>
 

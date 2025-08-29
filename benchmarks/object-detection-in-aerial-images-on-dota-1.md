@@ -1,7 +1,7 @@
 # object-detection-in-aerial-images-on-dota-1
 
 [Dataset Link](https://captain-whu.github.io/DOTA/) \
-Task Hierarchy: ['16k', 'Object Detection', 'Object Detection In Aerial Images']
+Task Hierarchy: ['Object Detection', 'Object Detection In Aerial Images']
 
 <br>
 

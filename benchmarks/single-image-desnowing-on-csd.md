@@ -1,7 +1,7 @@
 # single-image-desnowing-on-csd
 
 [Dataset Link](https://github.com/torrvision/CollaborativeSLAMDataset) \
-Task Hierarchy: ['10-shot image generation', 'Image Restoration', 'Single Image Desnowing']
+Task Hierarchy: ['Image Restoration', 'Single Image Desnowing']
 
 <br>
 

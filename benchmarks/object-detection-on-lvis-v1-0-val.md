@@ -1,7 +1,7 @@
 # object-detection-on-lvis-v1-0-val
 
 [Dataset Link](https://www.lvisdataset.org/dataset) \
-Task Hierarchy: ['16k', 'Object Detection']
+Task Hierarchy: ['Object Detection']
 
 <br>
 

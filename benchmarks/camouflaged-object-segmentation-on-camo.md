@@ -1,7 +1,7 @@
 # camouflaged-object-segmentation-on-camo
 
 [Dataset Link](https://sites.google.com/view/ltnghia/research/camo) \
-Task Hierarchy: ['16k', 'Object Detection', 'Camouflaged Object Segmentation']
+Task Hierarchy: ['Object Detection', 'Camouflaged Object Segmentation']
 
 <br>
 

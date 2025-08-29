@@ -1,7 +1,7 @@
 # semantic-segmentation-on-foodseg103
 
 [Dataset Link](https://xiongweiwu.github.io/foodseg103.html) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

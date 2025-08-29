@@ -1,7 +1,7 @@
 # head-pose-estimation-on-biwi
 
 [Dataset Link](https://www.kaggle.com/kmader/biwi-kinect-head-pose-database) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', 'Head Pose Estimation']
+Task Hierarchy: ['Pose Estimation', 'Head Pose Estimation']
 
 <br>
 

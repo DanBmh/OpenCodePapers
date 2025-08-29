@@ -1,7 +1,7 @@
 # head-pose-estimation-on-arkitface
 
 [Dataset Link](https://github.com/cbsropenproject/6dof_face) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', 'Head Pose Estimation']
+Task Hierarchy: ['Pose Estimation', 'Head Pose Estimation']
 
 <br>
 

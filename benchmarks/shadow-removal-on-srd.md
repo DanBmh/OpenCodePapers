@@ -1,7 +1,7 @@
 # shadow-removal-on-srd
 
 [Dataset Link](http://vision.sia.cn/our%20team/JiandongTian/JiandongTian.html) \
-Task Hierarchy: ['16k', 'Shadow Removal']
+Task Hierarchy: ['Shadow Removal']
 
 <br>
 

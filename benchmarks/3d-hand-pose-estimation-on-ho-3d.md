@@ -1,7 +1,7 @@
 # 3d-hand-pose-estimation-on-ho-3d
 
 [Dataset Link](https://www.tugraz.at/institute/icg/research/team-lepetit/research-projects/hand-object-3d-pose-annotation/) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', 'Hand Pose Estimation', '3D Hand Pose Estimation']
+Task Hierarchy: ['Pose Estimation', 'Hand Pose Estimation', '3D Hand Pose Estimation']
 
 <br>
 

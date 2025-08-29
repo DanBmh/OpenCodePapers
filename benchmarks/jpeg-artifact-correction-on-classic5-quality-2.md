@@ -1,7 +1,7 @@
 # jpeg-artifact-correction-on-classic5-quality-2
 
 [Dataset Link](https://github.com/cszn/DnCNN/tree/master/testsets/classic5) \
-Task Hierarchy: ['10-shot image generation', 'Image Restoration', 'JPEG Artifact Correction']
+Task Hierarchy: ['Image Restoration', 'JPEG Artifact Correction']
 
 <br>
 

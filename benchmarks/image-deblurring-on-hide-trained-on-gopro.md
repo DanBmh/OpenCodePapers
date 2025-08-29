@@ -1,7 +1,7 @@
 # image-deblurring-on-hide-trained-on-gopro
 
 [Dataset Link](https://github.com/joanshen0508/HA_deblur) \
-Task Hierarchy: ['16k', 'Image Deblurring']
+Task Hierarchy: ['Image Deblurring']
 
 <br>
 

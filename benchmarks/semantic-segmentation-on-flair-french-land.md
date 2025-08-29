@@ -1,7 +1,7 @@
 # semantic-segmentation-on-flair-french-land
 
 [Dataset Link](https://ignf.github.io/FLAIR/) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

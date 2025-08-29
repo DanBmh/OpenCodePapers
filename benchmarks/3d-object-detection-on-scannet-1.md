@@ -1,7 +1,7 @@
 # 3d-object-detection-on-scannet-1
 
 [Dataset Link](https://kaldir.vc.in.tum.de/scannetpp/) \
-Task Hierarchy: ['16k', 'Object Detection', '3D Object Detection']
+Task Hierarchy: ['Object Detection', '3D Object Detection']
 
 <br>
 

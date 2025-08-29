@@ -1,7 +1,7 @@
 # multimodal-unsupervised-image-to-image
 
 [Dataset Link](https://bigdatavision.org/CATS) \
-Task Hierarchy: ['1 Image, 2*2 Stitching', 'Image-to-Image Translation', 'Multimodal Unsupervised Image-To-Image Translation']
+Task Hierarchy: ['Image-to-Image Translation', 'Multimodal Unsupervised Image-To-Image Translation']
 
 <br>
 

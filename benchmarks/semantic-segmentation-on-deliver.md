@@ -1,7 +1,7 @@
 # semantic-segmentation-on-deliver
 
 [Dataset Link](https://jamycheung.github.io/DELIVER.html) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

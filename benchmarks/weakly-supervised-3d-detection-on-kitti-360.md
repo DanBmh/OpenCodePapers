@@ -1,7 +1,7 @@
 # weakly-supervised-3d-detection-on-kitti-360
 
 [Dataset Link](http://www.cvlibs.net/datasets/kitti-360/) \
-Task Hierarchy: ['16k', 'Object Detection', 'Weakly Supervised 3D Detection']
+Task Hierarchy: ['Object Detection', 'Weakly Supervised 3D Detection']
 
 <br>
 

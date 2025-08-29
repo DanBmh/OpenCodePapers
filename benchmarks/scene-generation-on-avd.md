@@ -1,7 +1,7 @@
 # scene-generation-on-avd
 
 [Dataset Link](http://cs.unc.edu/~ammirato/active_vision_dataset_website/) \
-Task Hierarchy: ['16k', 'Scene Generation']
+Task Hierarchy: ['Scene Generation']
 
 <br>
 

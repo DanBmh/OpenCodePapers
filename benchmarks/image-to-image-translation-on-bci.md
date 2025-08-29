@@ -1,7 +1,7 @@
 # image-to-image-translation-on-bci
 
 [Dataset Link](https://bupt-ai-cz.github.io/BCI/) \
-Task Hierarchy: ['1 Image, 2*2 Stitching', 'Image-to-Image Translation']
+Task Hierarchy: ['Image-to-Image Translation']
 
 <br>
 

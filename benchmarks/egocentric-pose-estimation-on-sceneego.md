@@ -1,7 +1,7 @@
 # egocentric-pose-estimation-on-sceneego
 
 [Dataset Link](https://people.mpi-inf.mpg.de/~jianwang/projects/sceneego/) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', '3D Human Pose Estimation', 'Egocentric Pose Estimation']
+Task Hierarchy: ['Pose Estimation', '3D Human Pose Estimation', 'Egocentric Pose Estimation']
 
 <br>
 

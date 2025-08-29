@@ -1,7 +1,7 @@
 # 3d-object-detection-from-monocular-images-on-6
 
 [Dataset Link](https://waymo.com/open) \
-Task Hierarchy: ['16k', 'Object Detection', '3D Object Detection From Monocular Images']
+Task Hierarchy: ['Object Detection', '3D Object Detection From Monocular Images']
 
 <br>
 

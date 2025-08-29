@@ -1,7 +1,7 @@
 # semantic-segmentation-on-lombardia-sentinel-2
 
 [Dataset Link](https://www.kaggle.com/datasets/ignazio/sentinel2-crop-mapping) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

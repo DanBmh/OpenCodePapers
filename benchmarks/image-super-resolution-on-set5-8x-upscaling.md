@@ -1,7 +1,7 @@
 # image-super-resolution-on-set5-8x-upscaling
 
 [Dataset Link](http://people.rennes.inria.fr/Aline.Roumy/results/SR_BMVC12.html) \
-Task Hierarchy: ['16k', 'Image Super-Resolution']
+Task Hierarchy: ['Image Super-Resolution']
 
 <br>
 

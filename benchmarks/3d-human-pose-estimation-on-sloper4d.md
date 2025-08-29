@@ -1,7 +1,7 @@
 # 3d-human-pose-estimation-on-sloper4d
 
 [Dataset Link](http://www.lidarhumanmotion.net/sloper4d/) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', '3D Human Pose Estimation']
+Task Hierarchy: ['Pose Estimation', '3D Human Pose Estimation']
 
 <br>
 

@@ -1,7 +1,7 @@
 # semi-supervised-semantic-segmentation-on-24
 
 [Dataset Link](http://www.semantic-kitti.org/) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', 'Semi-Supervised Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation', 'Semi-Supervised Semantic Segmentation']
 
 <br>
 

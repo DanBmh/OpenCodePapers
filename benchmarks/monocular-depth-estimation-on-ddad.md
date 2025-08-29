@@ -1,7 +1,7 @@
 # monocular-depth-estimation-on-ddad
 
 [Dataset Link](https://github.com/TRI-ML/DDAD) \
-Task Hierarchy: ['3D', 'Depth Estimation', 'Monocular Depth Estimation']
+Task Hierarchy: ['Depth Estimation', 'Monocular Depth Estimation']
 
 <br>
 

@@ -1,7 +1,7 @@
 # salient-object-detection-on-hku-is
 
 [Dataset Link](https://sites.google.com/site/ligb86/mdfsaliency/) \
-Task Hierarchy: ['16k', 'Object Detection', 'RGB Salient Object Detection']
+Task Hierarchy: ['Object Detection', 'RGB Salient Object Detection']
 
 <br>
 

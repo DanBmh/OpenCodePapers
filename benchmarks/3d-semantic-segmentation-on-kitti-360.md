@@ -1,7 +1,7 @@
 # 3d-semantic-segmentation-on-kitti-360
 
 [Dataset Link](http://www.cvlibs.net/datasets/kitti-360/) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', '3D Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation', '3D Semantic Segmentation']
 
 <br>
 

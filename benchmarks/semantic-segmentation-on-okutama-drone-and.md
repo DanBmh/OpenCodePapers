@@ -1,7 +1,7 @@
 # semantic-segmentation-on-okutama-drone-and
 
 [Dataset Link](https://www.okutama-segmentation.org/) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

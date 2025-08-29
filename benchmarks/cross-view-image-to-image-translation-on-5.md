@@ -1,7 +1,7 @@
 # cross-view-image-to-image-translation-on-5
 
 [Dataset Link](https://www.crcv.ucf.edu/projects/ego2top/index.php) \
-Task Hierarchy: ['1 Image, 2*2 Stitching', 'Image-to-Image Translation', 'Cross-View Image-to-Image Translation']
+Task Hierarchy: ['Image-to-Image Translation', 'Cross-View Image-to-Image Translation']
 
 <br>
 

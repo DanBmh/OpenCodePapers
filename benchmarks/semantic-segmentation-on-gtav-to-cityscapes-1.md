@@ -1,7 +1,7 @@
 # semantic-segmentation-on-gtav-to-cityscapes-1
 
 [Dataset Link](https://arxiv.org/pdf/1608.02192v1.pdf) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

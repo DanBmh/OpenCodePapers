@@ -1,7 +1,7 @@
 # multi-person-pose-estimation-on-posetrack2017
 
 [Dataset Link](https://posetrack.net/) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', 'Multi-Person Pose Estimation']
+Task Hierarchy: ['Pose Estimation', 'Multi-Person Pose Estimation']
 
 <br>
 

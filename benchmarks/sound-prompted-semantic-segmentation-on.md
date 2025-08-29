@@ -1,7 +1,7 @@
 # sound-prompted-semantic-segmentation-on
 
 [Dataset Link](https://groups.csail.mit.edu/vision/datasets/ADE20K/) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', 'Sound Prompted Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation', 'Sound Prompted Semantic Segmentation']
 
 <br>
 

@@ -1,7 +1,7 @@
 # unsupervised-semantic-segmentation-on-suim
 
 [Dataset Link](http://irvlab.cs.umn.edu/resources/suim-dataset) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', 'Unsupervised Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation', 'Unsupervised Semantic Segmentation']
 
 <br>
 

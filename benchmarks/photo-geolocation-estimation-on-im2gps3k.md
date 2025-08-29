@@ -1,7 +1,7 @@
 # photo-geolocation-estimation-on-im2gps3k
 
 [Dataset Link]() \
-Task Hierarchy: ['4K 60Fps', 'Photo geolocation estimation']
+Task Hierarchy: ['Photo geolocation estimation']
 
 <br>
 

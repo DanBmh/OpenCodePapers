@@ -1,7 +1,7 @@
 # 6d-pose-estimation-using-rgbd-on-real275
 
 [Dataset Link](https://geometry.stanford.edu/projects/NOCS_CVPR2019/) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', '6D Pose Estimation using RGBD']
+Task Hierarchy: ['Pose Estimation', '6D Pose Estimation using RGBD']
 
 <br>
 

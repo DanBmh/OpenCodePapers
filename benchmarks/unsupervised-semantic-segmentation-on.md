@@ -1,7 +1,7 @@
 # unsupervised-semantic-segmentation-on
 
 [Dataset Link](https://www.cityscapes-dataset.com/dataset-overview/) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', 'Unsupervised Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation', 'Unsupervised Semantic Segmentation']
 
 <br>
 

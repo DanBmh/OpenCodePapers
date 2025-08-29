@@ -1,7 +1,7 @@
 # small-object-detection-on-sod4sb-public-test-1
 
 [Dataset Link](https://github.com/iim-ttij/mva2023smallobjectdetection4spottingbirds) \
-Task Hierarchy: ['16k', 'Object Detection', 'Small Object Detection']
+Task Hierarchy: ['Object Detection', 'Small Object Detection']
 
 <br>
 

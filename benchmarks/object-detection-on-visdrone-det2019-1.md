@@ -1,7 +1,7 @@
 # object-detection-on-visdrone-det2019-1
 
 [Dataset Link](https://github.com/VisDrone/VisDrone-Dataset) \
-Task Hierarchy: ['16k', 'Object Detection']
+Task Hierarchy: ['Object Detection']
 
 <br>
 

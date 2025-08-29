@@ -1,7 +1,7 @@
 # camouflaged-object-segmentation-on-pcod-1200
 
 [Dataset Link]() \
-Task Hierarchy: ['16k', 'Object Detection', 'Camouflaged Object Segmentation']
+Task Hierarchy: ['Object Detection', 'Camouflaged Object Segmentation']
 
 <br>
 

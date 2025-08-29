@@ -1,7 +1,7 @@
 # camouflaged-object-segmentation-on-cod
 
 [Dataset Link](https://dengpingfan.github.io/pages/COD.html) \
-Task Hierarchy: ['16k', 'Object Detection', 'Camouflaged Object Segmentation']
+Task Hierarchy: ['Object Detection', 'Camouflaged Object Segmentation']
 
 <br>
 

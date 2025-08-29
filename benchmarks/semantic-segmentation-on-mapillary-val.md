@@ -1,7 +1,7 @@
 # semantic-segmentation-on-mapillary-val
 
 [Dataset Link](https://www.mapillary.com/dataset/vistas?lat=20&lng=0&z=1.5&pKey=pBBmjuJ8yU1r2ROYRzWmFg) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

@@ -1,7 +1,7 @@
 # monocular-depth-estimation-on-sun-rgbd
 
 [Dataset Link](https://rgbd.cs.princeton.edu/) \
-Task Hierarchy: ['3D', 'Depth Estimation', 'Monocular Depth Estimation']
+Task Hierarchy: ['Depth Estimation', 'Monocular Depth Estimation']
 
 <br>
 

@@ -1,7 +1,7 @@
 # image-super-resolution-on-urban100-3x
 
 [Dataset Link](https://github.com/jbhuang0604/SelfExSR) \
-Task Hierarchy: ['16k', 'Image Super-Resolution']
+Task Hierarchy: ['Image Super-Resolution']
 
 <br>
 

@@ -1,7 +1,7 @@
 # open-vocabulary-object-detection-on-lvis-v1-0
 
 [Dataset Link](https://www.lvisdataset.org/dataset) \
-Task Hierarchy: ['16k', 'Object Detection', 'Open Vocabulary Object Detection']
+Task Hierarchy: ['Object Detection', 'Open Vocabulary Object Detection']
 
 <br>
 

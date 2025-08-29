@@ -1,7 +1,7 @@
 # 10-shot-image-generation-on-babies
 
 [Dataset Link]() \
-Task Hierarchy: ['10-shot image generation']
+Task Hierarchy: []
 
 <br>
 

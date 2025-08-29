@@ -1,7 +1,7 @@
 # conditional-text-to-image-synthesis-on-mimic
 
 [Dataset Link](https://physionet.org/content/mimic-cxr/2.0.0/) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Text-to-Image Generation', 'Conditional Text-to-Image Synthesis']
+Task Hierarchy: ['Text-to-Image Generation', 'Conditional Text-to-Image Synthesis']
 
 <br>
 

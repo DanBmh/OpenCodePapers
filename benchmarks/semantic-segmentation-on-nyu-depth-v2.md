@@ -1,7 +1,7 @@
 # semantic-segmentation-on-nyu-depth-v2
 
 [Dataset Link](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

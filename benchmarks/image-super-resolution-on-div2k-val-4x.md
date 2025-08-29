@@ -1,7 +1,7 @@
 # image-super-resolution-on-div2k-val-4x
 
 [Dataset Link](https://data.vision.ee.ethz.ch/cvl/DIV2K/) \
-Task Hierarchy: ['16k', 'Image Super-Resolution']
+Task Hierarchy: ['Image Super-Resolution']
 
 <br>
 

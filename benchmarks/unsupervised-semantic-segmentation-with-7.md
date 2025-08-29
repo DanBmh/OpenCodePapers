@@ -1,7 +1,7 @@
 # unsupervised-semantic-segmentation-with-7
 
 [Dataset Link](http://host.robots.ox.ac.uk/pascal/VOC/) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', 'Unsupervised Semantic Segmentation', 'Unsupervised Semantic Segmentation with Language-image Pre-training']
+Task Hierarchy: ['Semantic Segmentation', 'Unsupervised Semantic Segmentation', 'Unsupervised Semantic Segmentation with Language-image Pre-training']
 
 <br>
 

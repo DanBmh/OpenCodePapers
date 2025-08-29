@@ -1,7 +1,7 @@
 # image-super-resolution-on-ffhq-1024-x-1024-4x
 
 [Dataset Link](https://github.com/NVlabs/ffhq-dataset) \
-Task Hierarchy: ['16k', 'Image Super-Resolution']
+Task Hierarchy: ['Image Super-Resolution']
 
 <br>
 

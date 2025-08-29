@@ -1,7 +1,7 @@
 # spectral-reconstruction-on-cave
 
 [Dataset Link](https://github.com/caiyuanhao1998/MST) \
-Task Hierarchy: ['10-shot image generation', 'Image Restoration', 'Spectral Reconstruction']
+Task Hierarchy: ['Image Restoration', 'Spectral Reconstruction']
 
 <br>
 

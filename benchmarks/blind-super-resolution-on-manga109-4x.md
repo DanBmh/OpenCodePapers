@@ -1,7 +1,7 @@
 # blind-super-resolution-on-manga109-4x
 
 [Dataset Link](http://www.manga109.org/en/) \
-Task Hierarchy: ['10-shot image generation', 'Image Restoration', 'Blind Super-Resolution']
+Task Hierarchy: ['Image Restoration', 'Blind Super-Resolution']
 
 <br>
 

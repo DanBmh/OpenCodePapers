@@ -1,7 +1,7 @@
 # object-detection-on-peopleart
 
 [Dataset Link](https://github.com/BathVisArtData/PeopleArt) \
-Task Hierarchy: ['16k', 'Object Detection']
+Task Hierarchy: ['Object Detection']
 
 <br>
 

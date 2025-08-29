@@ -1,7 +1,7 @@
 # weakly-supervised-semantic-segmentation-on-4
 
 [Dataset Link]() \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', 'Weakly-Supervised Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation', 'Weakly-Supervised Semantic Segmentation']
 
 <br>
 

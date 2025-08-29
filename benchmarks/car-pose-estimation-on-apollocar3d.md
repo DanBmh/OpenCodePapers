@@ -1,7 +1,7 @@
 # car-pose-estimation-on-apollocar3d
 
 [Dataset Link](http://apolloscape.auto/car_instance.html) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', 'Car Pose Estimation']
+Task Hierarchy: ['Pose Estimation', 'Car Pose Estimation']
 
 <br>
 

@@ -1,7 +1,7 @@
 # jpeg-artifact-correction-on-icb-quality-10-1
 
 [Dataset Link](https://imagecompression.info/) \
-Task Hierarchy: ['10-shot image generation', 'Image Restoration', 'JPEG Artifact Correction']
+Task Hierarchy: ['Image Restoration', 'JPEG Artifact Correction']
 
 <br>
 

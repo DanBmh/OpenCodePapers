@@ -1,7 +1,7 @@
 # robot-pose-estimation-on-dream-dataset
 
 [Dataset Link](https://research.nvidia.com/publication/2020-05_camera-robot-pose-estimation-single-image) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', '6D Pose Estimation', 'Robot Pose Estimation']
+Task Hierarchy: ['Pose Estimation', '6D Pose Estimation', 'Robot Pose Estimation']
 
 <br>
 

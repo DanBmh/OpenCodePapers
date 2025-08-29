@@ -1,7 +1,7 @@
 # semantic-segmentation-on-fmb-dataset
 
 [Dataset Link](https://github.com/JinyuanLiu-CV/SegMiF) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

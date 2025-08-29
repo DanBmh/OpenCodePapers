@@ -1,7 +1,7 @@
 # animal-pose-estimation-on-fish-100
 
 [Dataset Link](https://benchmark.deeplabcut.org/datasets.html) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', 'Animal Pose Estimation']
+Task Hierarchy: ['Pose Estimation', 'Animal Pose Estimation']
 
 <br>
 

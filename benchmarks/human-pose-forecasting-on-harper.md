@@ -1,7 +1,7 @@
 # human-pose-forecasting-on-harper
 
 [Dataset Link](https://github.com/intelligolabs/HARPER) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', 'Human Pose Forecasting']
+Task Hierarchy: ['Pose Estimation', 'Human Pose Forecasting']
 
 <br>
 

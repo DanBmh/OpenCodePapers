@@ -1,7 +1,7 @@
 # co-salient-object-detection-on-coca
 
 [Dataset Link]() \
-Task Hierarchy: ['16k', 'Object Detection', 'RGB Salient Object Detection', 'Co-Salient Object Detection']
+Task Hierarchy: ['Object Detection', 'RGB Salient Object Detection', 'Co-Salient Object Detection']
 
 <br>
 

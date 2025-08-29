@@ -1,7 +1,7 @@
 # stereo-lidar-fusion-on-kitti-depth-completion
 
 [Dataset Link]() \
-Task Hierarchy: ['3D', 'Depth Estimation', 'Stereo-LiDAR Fusion']
+Task Hierarchy: ['Depth Estimation', 'Stereo-LiDAR Fusion']
 
 <br>
 

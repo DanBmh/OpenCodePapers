@@ -1,7 +1,7 @@
 # flare-removal-on-flare7k
 
 [Dataset Link](https://nukaliad.github.io/projects/Flare7K) \
-Task Hierarchy: ['10-shot image generation', 'Image Restoration', 'Flare Removal']
+Task Hierarchy: ['Image Restoration', 'Flare Removal']
 
 <br>
 

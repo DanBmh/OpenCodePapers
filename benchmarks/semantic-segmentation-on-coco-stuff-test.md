@@ -1,7 +1,7 @@
 # semantic-segmentation-on-coco-stuff-test
 
 [Dataset Link](https://github.com/nightrome/cocostuff) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

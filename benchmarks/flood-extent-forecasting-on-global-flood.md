@@ -1,7 +1,7 @@
 # flood-extent-forecasting-on-global-flood
 
 [Dataset Link](https://github.com/Multihuntr/gff) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', 'Flood extent forecasting']
+Task Hierarchy: ['Semantic Segmentation', 'Flood extent forecasting']
 
 <br>
 

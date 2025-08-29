@@ -1,7 +1,7 @@
 # fundus-to-angiography-generation-on-fundus
 
 [Dataset Link]() \
-Task Hierarchy: ['1 Image, 2*2 Stitching', 'Image-to-Image Translation', 'Fundus to Angiography Generation']
+Task Hierarchy: ['Image-to-Image Translation', 'Fundus to Angiography Generation']
 
 <br>
 

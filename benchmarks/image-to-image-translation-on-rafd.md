@@ -1,7 +1,7 @@
 # image-to-image-translation-on-rafd
 
 [Dataset Link](http://www.socsci.ru.nl:8180/RaFD2/RaFD) \
-Task Hierarchy: ['1 Image, 2*2 Stitching', 'Image-to-Image Translation']
+Task Hierarchy: ['Image-to-Image Translation']
 
 <br>
 

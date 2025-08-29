@@ -1,7 +1,7 @@
 # semantic-segmentation-on-dada-seg
 
 [Dataset Link](https://github.com/jamycheung/ISSAFE) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

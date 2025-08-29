@@ -1,7 +1,7 @@
 # talking-head-generation-on-voxceleb2-1-shot
 
 [Dataset Link](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/) \
-Task Hierarchy: ['10-shot image generation', 'Talking Head Generation']
+Task Hierarchy: ['Talking Head Generation']
 
 <br>
 

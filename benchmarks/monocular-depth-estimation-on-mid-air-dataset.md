@@ -1,7 +1,7 @@
 # monocular-depth-estimation-on-mid-air-dataset
 
 [Dataset Link](https://midair.ulg.ac.be) \
-Task Hierarchy: ['3D', 'Depth Estimation', 'Monocular Depth Estimation']
+Task Hierarchy: ['Depth Estimation', 'Monocular Depth Estimation']
 
 <br>
 

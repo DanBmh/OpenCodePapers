@@ -1,7 +1,7 @@
 # robust-object-detection-on-cityscapes-1
 
 [Dataset Link](https://www.cityscapes-dataset.com/dataset-overview/) \
-Task Hierarchy: ['16k', 'Object Detection', 'Robust Object Detection']
+Task Hierarchy: ['Object Detection', 'Robust Object Detection']
 
 <br>
 

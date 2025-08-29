@@ -1,7 +1,7 @@
 # 3d-face-animation-on-biwi-3d-audiovisual
 
 [Dataset Link](https://data.vision.ee.ethz.ch/cvl/datasets/b3dac2.en.html) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', '3D Human Pose Estimation', '3D Absolute Human Pose Estimation', '3D Face Animation']
+Task Hierarchy: ['Pose Estimation', '3D Human Pose Estimation', '3D Absolute Human Pose Estimation', '3D Face Animation']
 
 <br>
 

@@ -1,7 +1,7 @@
 # video-salient-object-detection-on-visal
 
 [Dataset Link](https://github.com/shenjianbing/ViSalDataset) \
-Task Hierarchy: ['16k', 'Object Detection', 'RGB Salient Object Detection', 'Video Salient Object Detection']
+Task Hierarchy: ['Object Detection', 'RGB Salient Object Detection', 'Video Salient Object Detection']
 
 <br>
 

@@ -1,7 +1,7 @@
 # image-to-image-translation-on-cityscapes-to
 
 [Dataset Link](http://people.ee.ethz.ch/~csakarid/SFSU_synthetic/) \
-Task Hierarchy: ['1 Image, 2*2 Stitching', 'Image-to-Image Translation']
+Task Hierarchy: ['Image-to-Image Translation']
 
 <br>
 

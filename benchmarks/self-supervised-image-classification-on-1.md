@@ -1,7 +1,7 @@
 # self-supervised-image-classification-on-1
 
 [Dataset Link](https://image-net.org/index.php) \
-Task Hierarchy: ['', 'Self-Supervised Image Classification']
+Task Hierarchy: ['Self-Supervised Image Classification']
 
 <br>
 

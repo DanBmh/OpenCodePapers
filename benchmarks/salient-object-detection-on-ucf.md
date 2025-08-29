@@ -1,7 +1,7 @@
 # salient-object-detection-on-ucf
 
 [Dataset Link]() \
-Task Hierarchy: ['16k', 'Object Detection', 'RGB Salient Object Detection']
+Task Hierarchy: ['Object Detection', 'RGB Salient Object Detection']
 
 <br>
 

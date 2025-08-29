@@ -1,7 +1,7 @@
 # semantic-segmentation-on-pothole-mix
 
 [Dataset Link](https://data.mendeley.com/datasets/kfth5g2xk3) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

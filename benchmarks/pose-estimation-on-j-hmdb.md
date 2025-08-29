@@ -1,7 +1,7 @@
 # pose-estimation-on-j-hmdb
 
 [Dataset Link](http://jhmdb.is.tue.mpg.de/) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation']
+Task Hierarchy: ['Pose Estimation']
 
 <br>
 

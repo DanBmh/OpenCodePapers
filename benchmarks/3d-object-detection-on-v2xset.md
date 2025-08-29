@@ -1,7 +1,7 @@
 # 3d-object-detection-on-v2xset
 
 [Dataset Link](https://github.com/DerrickXuNu/v2x-vit) \
-Task Hierarchy: ['16k', 'Object Detection', '3D Object Detection']
+Task Hierarchy: ['Object Detection', '3D Object Detection']
 
 <br>
 

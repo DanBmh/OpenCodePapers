@@ -1,7 +1,7 @@
 # image-to-image-translation-on-coco-stuff
 
 [Dataset Link](https://github.com/nightrome/cocostuff) \
-Task Hierarchy: ['1 Image, 2*2 Stitching', 'Image-to-Image Translation']
+Task Hierarchy: ['Image-to-Image Translation']
 
 <br>
 

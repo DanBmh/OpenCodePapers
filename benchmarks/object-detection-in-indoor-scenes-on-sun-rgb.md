@@ -1,7 +1,7 @@
 # object-detection-in-indoor-scenes-on-sun-rgb
 
 [Dataset Link](https://rgbd.cs.princeton.edu/) \
-Task Hierarchy: ['16k', 'Object Detection', 'Object Detection In Indoor Scenes']
+Task Hierarchy: ['Object Detection', 'Object Detection In Indoor Scenes']
 
 <br>
 

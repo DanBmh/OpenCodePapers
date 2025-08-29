@@ -1,7 +1,7 @@
 # 6d-pose-estimation-on-ycb-video
 
 [Dataset Link](https://rse-lab.cs.washington.edu/projects/posecnn/) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', '6D Pose Estimation using RGB']
+Task Hierarchy: ['Pose Estimation', '6D Pose Estimation using RGB']
 
 <br>
 

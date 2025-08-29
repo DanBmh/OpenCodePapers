@@ -1,7 +1,7 @@
 # multiview-detection-on-cvcs
 
 [Dataset Link](http://visal.cs.cityu.edu.hk/downloads/citystreetdata/) \
-Task Hierarchy: ['16k', 'Object Detection', '3D Object Detection', 'Multiview Detection']
+Task Hierarchy: ['Object Detection', '3D Object Detection', 'Multiview Detection']
 
 <br>
 

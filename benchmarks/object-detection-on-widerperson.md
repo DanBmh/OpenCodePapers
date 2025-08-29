@@ -1,7 +1,7 @@
 # object-detection-on-widerperson
 
 [Dataset Link](http://www.cbsr.ia.ac.cn/users/sfzhang/WiderPerson/) \
-Task Hierarchy: ['16k', 'Object Detection']
+Task Hierarchy: ['Object Detection']
 
 <br>
 

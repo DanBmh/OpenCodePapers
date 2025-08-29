@@ -1,7 +1,7 @@
 # highlight-detection-on-youtube-highlights
 
 [Dataset Link]() \
-Task Hierarchy: ['16k', 'Highlight Detection']
+Task Hierarchy: ['Highlight Detection']
 
 <br>
 

@@ -1,7 +1,7 @@
 # text-simplification-on-pwkp-wikismall
 
 [Dataset Link]() \
-Task Hierarchy: ['', 'Text Simplification']
+Task Hierarchy: ['Text Simplification']
 
 <br>
 

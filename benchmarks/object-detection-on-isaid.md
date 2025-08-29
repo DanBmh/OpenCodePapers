@@ -1,7 +1,7 @@
 # object-detection-on-isaid
 
 [Dataset Link](https://captain-whu.github.io/iSAID/index.html) \
-Task Hierarchy: ['16k', 'Object Detection']
+Task Hierarchy: ['Object Detection']
 
 <br>
 

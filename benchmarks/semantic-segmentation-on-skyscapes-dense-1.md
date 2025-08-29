@@ -1,7 +1,7 @@
 # semantic-segmentation-on-skyscapes-dense-1
 
 [Dataset Link]() \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

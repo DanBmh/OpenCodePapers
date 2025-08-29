@@ -1,7 +1,7 @@
 # semantic-segmentation-on-trans10k
 
 [Dataset Link](https://github.com/xieenze/Segment_Transparent_Objects) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

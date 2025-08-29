@@ -1,7 +1,7 @@
 # 3d-semantic-segmentation-on-stpls3d
 
 [Dataset Link](https://www.stpls3d.com/) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', '3D Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation', '3D Semantic Segmentation']
 
 <br>
 

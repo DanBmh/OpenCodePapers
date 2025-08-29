@@ -1,7 +1,7 @@
 # object-detection-on-seadronessee
 
 [Dataset Link](https://seadronessee.cs.uni-tuebingen.de/) \
-Task Hierarchy: ['16k', 'Object Detection']
+Task Hierarchy: ['Object Detection']
 
 <br>
 

@@ -1,7 +1,7 @@
 # human-pose-forecasting-on-amass
 
 [Dataset Link](https://amass.is.tue.mpg.de/) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', 'Human Pose Forecasting']
+Task Hierarchy: ['Pose Estimation', 'Human Pose Forecasting']
 
 <br>
 

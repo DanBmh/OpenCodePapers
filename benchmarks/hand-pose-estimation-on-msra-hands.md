@@ -1,7 +1,7 @@
 # hand-pose-estimation-on-msra-hands
 
 [Dataset Link](https://jimmysuen.github.io/) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', 'Hand Pose Estimation']
+Task Hierarchy: ['Pose Estimation', 'Hand Pose Estimation']
 
 <br>
 

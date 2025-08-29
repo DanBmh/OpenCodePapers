@@ -1,7 +1,7 @@
 # head-pose-estimation-on-aflw2000
 
 [Dataset Link](http://www.cbsr.ia.ac.cn/users/xiangyuzhu/projects/3DDFA/main.htm) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', 'Head Pose Estimation']
+Task Hierarchy: ['Pose Estimation', 'Head Pose Estimation']
 
 <br>
 

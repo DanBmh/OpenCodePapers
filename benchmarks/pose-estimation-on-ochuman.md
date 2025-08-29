@@ -1,7 +1,7 @@
 # pose-estimation-on-ochuman
 
 [Dataset Link](https://github.com/liruilong940607/OCHumanApi) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation']
+Task Hierarchy: ['Pose Estimation']
 
 <br>
 

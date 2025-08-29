@@ -1,7 +1,7 @@
 # object-detection-on-uavdt
 
 [Dataset Link](https://sites.google.com/view/grli-uavdt/%E9%A6%96%E9%A1%B5) \
-Task Hierarchy: ['16k', 'Object Detection']
+Task Hierarchy: ['Object Detection']
 
 <br>
 

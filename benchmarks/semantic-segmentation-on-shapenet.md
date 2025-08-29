@@ -1,7 +1,7 @@
 # semantic-segmentation-on-shapenet
 
 [Dataset Link](https://www.shapenet.org/) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

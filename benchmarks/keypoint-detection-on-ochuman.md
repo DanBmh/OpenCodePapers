@@ -1,7 +1,7 @@
 # keypoint-detection-on-ochuman
 
 [Dataset Link](https://github.com/liruilong940607/OCHumanApi) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', 'Keypoint Detection']
+Task Hierarchy: ['Pose Estimation', 'Keypoint Detection']
 
 <br>
 

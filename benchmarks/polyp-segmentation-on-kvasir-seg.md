@@ -1,7 +1,7 @@
 # polyp-segmentation-on-kvasir-seg
 
 [Dataset Link](https://datasets.simula.no/kvasir/) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', 'Polyp Segmentation']
+Task Hierarchy: ['Semantic Segmentation', 'Polyp Segmentation']
 
 <br>
 

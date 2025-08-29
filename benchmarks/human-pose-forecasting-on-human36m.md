@@ -1,7 +1,7 @@
 # human-pose-forecasting-on-human36m
 
 [Dataset Link](http://vision.imar.ro/human3.6m/description.php) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', 'Human Pose Forecasting']
+Task Hierarchy: ['Pose Estimation', 'Human Pose Forecasting']
 
 <br>
 

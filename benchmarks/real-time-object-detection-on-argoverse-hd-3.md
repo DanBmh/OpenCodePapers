@@ -1,7 +1,7 @@
 # real-time-object-detection-on-argoverse-hd-3
 
 [Dataset Link](https://www.cs.cmu.edu/~mengtial/proj/streaming/) \
-Task Hierarchy: ['16k', 'Object Detection', 'Real-Time Object Detection']
+Task Hierarchy: ['Object Detection', 'Real-Time Object Detection']
 
 <br>
 

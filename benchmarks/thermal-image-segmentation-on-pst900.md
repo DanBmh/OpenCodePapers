@@ -1,7 +1,7 @@
 # thermal-image-segmentation-on-pst900
 
 [Dataset Link](https://github.com/ShreyasSkandanS/pst900_thermal_rgb) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', 'Scene Segmentation', 'Thermal Image Segmentation']
+Task Hierarchy: ['Semantic Segmentation', 'Scene Segmentation', 'Thermal Image Segmentation']
 
 <br>
 

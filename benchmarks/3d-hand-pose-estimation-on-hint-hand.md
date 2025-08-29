@@ -1,7 +1,7 @@
 # 3d-hand-pose-estimation-on-hint-hand
 
 [Dataset Link](https://github.com/ddshan/hint?tab=readme-ov-file) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', 'Hand Pose Estimation', '3D Hand Pose Estimation']
+Task Hierarchy: ['Pose Estimation', 'Hand Pose Estimation', '3D Hand Pose Estimation']
 
 <br>
 

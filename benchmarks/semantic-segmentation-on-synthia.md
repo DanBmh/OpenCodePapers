@@ -1,7 +1,7 @@
 # semantic-segmentation-on-synthia
 
 [Dataset Link](https://synthia-dataset.net/) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

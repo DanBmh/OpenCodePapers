@@ -1,7 +1,7 @@
 # hand-pose-estimation-on-nyu-hands
 
 [Dataset Link](https://jonathantompson.github.io/NYU_Hand_Pose_Dataset.htm) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', 'Hand Pose Estimation']
+Task Hierarchy: ['Pose Estimation', 'Hand Pose Estimation']
 
 <br>
 

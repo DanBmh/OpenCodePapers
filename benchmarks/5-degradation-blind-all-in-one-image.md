@@ -1,7 +1,7 @@
 # 5-degradation-blind-all-in-one-image
 
 [Dataset Link]() \
-Task Hierarchy: ['10-shot image generation', 'Image Restoration', '5-Degradation Blind All-in-One Image Restoration']
+Task Hierarchy: ['Image Restoration', '5-Degradation Blind All-in-One Image Restoration']
 
 <br>
 

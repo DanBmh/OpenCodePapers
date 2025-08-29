@@ -1,7 +1,7 @@
 # semantic-segmentation-on-mcubes-p
 
 [Dataset Link](https://github.com/kyotovision-public/multimodal-material-segmentation) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

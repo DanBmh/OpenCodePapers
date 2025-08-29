@@ -1,7 +1,7 @@
 # multi-hypotheses-3d-human-pose-estimation-on-2
 
 [Dataset Link](https://sites.google.com/view/3dmb/home) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', '3D Human Pose Estimation', 'Multi-Hypotheses 3D Human Pose Estimation']
+Task Hierarchy: ['Pose Estimation', '3D Human Pose Estimation', 'Multi-Hypotheses 3D Human Pose Estimation']
 
 <br>
 

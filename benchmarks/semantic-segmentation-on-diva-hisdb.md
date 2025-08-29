@@ -1,7 +1,7 @@
 # semantic-segmentation-on-diva-hisdb
 
 [Dataset Link](https://diuf.unifr.ch/main/hisdoc/diva-hisdb) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

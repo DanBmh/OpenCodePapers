@@ -1,7 +1,7 @@
 # hyperspectral-semantic-segmentation-on-hsi
 
 [Dataset Link](https://ipaccess.ehu.eus/HSI-Drive/) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', 'Hyperspectral Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation', 'Hyperspectral Semantic Segmentation']
 
 <br>
 

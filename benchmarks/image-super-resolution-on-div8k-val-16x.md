@@ -1,7 +1,7 @@
 # image-super-resolution-on-div8k-val-16x
 
 [Dataset Link]() \
-Task Hierarchy: ['16k', 'Image Super-Resolution']
+Task Hierarchy: ['Image Super-Resolution']
 
 <br>
 

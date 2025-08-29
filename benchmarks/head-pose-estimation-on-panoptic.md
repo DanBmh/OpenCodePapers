@@ -1,7 +1,7 @@
 # head-pose-estimation-on-panoptic
 
 [Dataset Link](http://domedb.perception.cs.cmu.edu/) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', 'Head Pose Estimation']
+Task Hierarchy: ['Pose Estimation', 'Head Pose Estimation']
 
 <br>
 

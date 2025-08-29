@@ -1,7 +1,7 @@
 # image-super-resolution-on-imagenet
 
 [Dataset Link](https://image-net.org/index.php) \
-Task Hierarchy: ['16k', 'Image Super-Resolution']
+Task Hierarchy: ['Image Super-Resolution']
 
 <br>
 

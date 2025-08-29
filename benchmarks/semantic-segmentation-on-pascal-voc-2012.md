@@ -1,7 +1,7 @@
 # semantic-segmentation-on-pascal-voc-2012
 
 [Dataset Link]() \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

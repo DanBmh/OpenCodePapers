@@ -1,7 +1,7 @@
 # stereo-image-super-resolution-on-kitti2012-4x
 
 [Dataset Link](http://www.cvlibs.net/datasets/kitti/) \
-Task Hierarchy: ['16k', 'Image Super-Resolution', 'Stereo Image Super-Resolution']
+Task Hierarchy: ['Image Super-Resolution', 'Stereo Image Super-Resolution']
 
 <br>
 

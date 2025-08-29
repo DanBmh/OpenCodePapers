@@ -1,7 +1,7 @@
 # image-super-resolution-on-celeba-hq-128x128
 
 [Dataset Link](https://github.com/tkarras/progressive_growing_of_gans) \
-Task Hierarchy: ['16k', 'Image Super-Resolution']
+Task Hierarchy: ['Image Super-Resolution']
 
 <br>
 

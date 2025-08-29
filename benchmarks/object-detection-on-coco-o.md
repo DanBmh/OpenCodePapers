@@ -1,7 +1,7 @@
 # object-detection-on-coco-o
 
 [Dataset Link](https://github.com/alibaba/easyrobust/tree/main/benchmarks/coco_o) \
-Task Hierarchy: ['16k', 'Object Detection']
+Task Hierarchy: ['Object Detection']
 
 <br>
 

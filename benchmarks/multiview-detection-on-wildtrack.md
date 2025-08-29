@@ -1,7 +1,7 @@
 # multiview-detection-on-wildtrack
 
 [Dataset Link](https://www.epfl.ch/labs/cvlab/data/data-wildtrack/) \
-Task Hierarchy: ['16k', 'Object Detection', '3D Object Detection', 'Multiview Detection']
+Task Hierarchy: ['Object Detection', '3D Object Detection', 'Multiview Detection']
 
 <br>
 

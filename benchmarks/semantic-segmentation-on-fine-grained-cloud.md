@@ -1,7 +1,7 @@
 # semantic-segmentation-on-fine-grained-cloud
 
 [Dataset Link](https://landsat.usgs.gov/landsat-8-cloud-cover-assessment-validation-data) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

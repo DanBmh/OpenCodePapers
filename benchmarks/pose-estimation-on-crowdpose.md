@@ -1,7 +1,7 @@
 # pose-estimation-on-crowdpose
 
 [Dataset Link](https://github.com/Jeff-sjtu/CrowdPose) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation']
+Task Hierarchy: ['Pose Estimation']
 
 <br>
 

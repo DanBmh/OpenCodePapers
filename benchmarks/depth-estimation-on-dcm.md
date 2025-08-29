@@ -1,7 +1,7 @@
 # depth-estimation-on-dcm
 
 [Dataset Link](https://gitlab.univ-lr.fr/crigau02/dcm-dataset/-/tree/master) \
-Task Hierarchy: ['3D', 'Depth Estimation']
+Task Hierarchy: ['Depth Estimation']
 
 <br>
 

@@ -1,7 +1,7 @@
 # 6d-pose-estimation-on-dttd2
 
 [Dataset Link](https://openark-berkeley.github.io/DTTDNet/) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', '6D Pose Estimation']
+Task Hierarchy: ['Pose Estimation', '6D Pose Estimation']
 
 <br>
 

@@ -1,7 +1,7 @@
 # robust-3d-object-detection-on-kitti-c
 
 [Dataset Link](https://ldkong.com/Robo3D) \
-Task Hierarchy: ['16k', 'Object Detection', '3D Object Detection', 'Robust 3D Object Detection']
+Task Hierarchy: ['Object Detection', '3D Object Detection', 'Robust 3D Object Detection']
 
 <br>
 

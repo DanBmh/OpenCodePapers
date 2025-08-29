@@ -1,7 +1,7 @@
 # on-wise
 
 [Dataset Link](https://github.com/PKU-YuanGroup/WISE) \
-Task Hierarchy: ['']
+Task Hierarchy: []
 
 <br>
 

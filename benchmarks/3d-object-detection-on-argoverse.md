@@ -1,7 +1,7 @@
 # 3d-object-detection-on-argoverse
 
 [Dataset Link](https://www.argoverse.org/data.html) \
-Task Hierarchy: ['16k', 'Object Detection', '3D Object Detection']
+Task Hierarchy: ['Object Detection', '3D Object Detection']
 
 <br>
 

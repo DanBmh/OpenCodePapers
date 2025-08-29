@@ -1,7 +1,7 @@
 # object-detection-on-vedai
 
 [Dataset Link](https://downloads.greyc.fr/vedai/) \
-Task Hierarchy: ['16k', 'Object Detection']
+Task Hierarchy: ['Object Detection']
 
 <br>
 

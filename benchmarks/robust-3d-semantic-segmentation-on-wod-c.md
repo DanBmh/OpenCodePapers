@@ -1,7 +1,7 @@
 # robust-3d-semantic-segmentation-on-wod-c
 
 [Dataset Link](https://ldkong.com/Robo3D) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', '3D Semantic Segmentation', 'Robust 3D Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation', '3D Semantic Segmentation', 'Robust 3D Semantic Segmentation']
 
 <br>
 

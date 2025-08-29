@@ -1,7 +1,7 @@
 # real-time-object-detection-on-coco
 
 [Dataset Link]() \
-Task Hierarchy: ['16k', 'Object Detection', 'Real-Time Object Detection']
+Task Hierarchy: ['Object Detection', 'Real-Time Object Detection']
 
 <br>
 

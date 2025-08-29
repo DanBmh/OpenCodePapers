@@ -1,7 +1,7 @@
 # monocular-depth-estimation-on-make3d
 
 [Dataset Link](http://make3d.cs.cornell.edu/data.html#make3d) \
-Task Hierarchy: ['3D', 'Depth Estimation', 'Monocular Depth Estimation']
+Task Hierarchy: ['Depth Estimation', 'Monocular Depth Estimation']
 
 <br>
 

@@ -1,7 +1,7 @@
 # 3d-aware-image-synthesis-on-celebamask-hq
 
 [Dataset Link](https://github.com/switchablenorms/CelebAMask-HQ) \
-Task Hierarchy: ['3D', '3D-Aware Image Synthesis']
+Task Hierarchy: ['3D-Aware Image Synthesis']
 
 <br>
 

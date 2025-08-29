@@ -1,7 +1,7 @@
 # video-super-resolution-on-tbd
 
 [Dataset Link](https://github.com/rozumden/fmo-deblurring-benchmark) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', '3D Human Pose Estimation', '3D Absolute Human Pose Estimation', '3D Face Animation', 'Video Super-Resolution']
+Task Hierarchy: ['Pose Estimation', '3D Human Pose Estimation', '3D Absolute Human Pose Estimation', '3D Face Animation', 'Video Super-Resolution']
 
 <br>
 

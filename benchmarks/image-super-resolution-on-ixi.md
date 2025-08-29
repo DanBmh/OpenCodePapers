@@ -1,7 +1,7 @@
 # image-super-resolution-on-ixi
 
 [Dataset Link](https://brain-development.org/ixi-dataset/) \
-Task Hierarchy: ['16k', 'Image Super-Resolution']
+Task Hierarchy: ['Image Super-Resolution']
 
 <br>
 

@@ -1,7 +1,7 @@
 # unet-segmentation-on-munich-sentinel2-crop-1
 
 [Dataset Link](https://zenodo.org/records/5712933) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', 'UNET Segmentation']
+Task Hierarchy: ['Semantic Segmentation', 'UNET Segmentation']
 
 <br>
 

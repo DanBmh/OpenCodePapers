@@ -1,7 +1,7 @@
 # semantic-segmentation-on-cems-w
 
 [Dataset Link](https://huggingface.co/datasets/links-ads/wildfires-cems) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

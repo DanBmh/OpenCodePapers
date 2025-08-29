@@ -1,7 +1,7 @@
 # image-to-image-translation-on-cityscapes
 
 [Dataset Link](https://www.cityscapes-dataset.com/dataset-overview/) \
-Task Hierarchy: ['1 Image, 2*2 Stitching', 'Image-to-Image Translation']
+Task Hierarchy: ['Image-to-Image Translation']
 
 <br>
 

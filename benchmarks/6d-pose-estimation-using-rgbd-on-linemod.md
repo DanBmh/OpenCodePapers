@@ -1,7 +1,7 @@
 # 6d-pose-estimation-using-rgbd-on-linemod
 
 [Dataset Link](https://bop.felk.cvut.cz/datasets) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', '6D Pose Estimation using RGBD']
+Task Hierarchy: ['Pose Estimation', '6D Pose Estimation using RGBD']
 
 <br>
 

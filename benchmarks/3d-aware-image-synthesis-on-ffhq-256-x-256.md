@@ -1,7 +1,7 @@
 # 3d-aware-image-synthesis-on-ffhq-256-x-256
 
 [Dataset Link](https://github.com/NVlabs/ffhq-dataset) \
-Task Hierarchy: ['3D', '3D-Aware Image Synthesis']
+Task Hierarchy: ['3D-Aware Image Synthesis']
 
 <br>
 

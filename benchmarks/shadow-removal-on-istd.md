@@ -1,7 +1,7 @@
 # shadow-removal-on-istd
 
 [Dataset Link](https://github.com/DeepInsight-PCALab/ST-CGAN) \
-Task Hierarchy: ['16k', 'Shadow Removal']
+Task Hierarchy: ['Shadow Removal']
 
 <br>
 

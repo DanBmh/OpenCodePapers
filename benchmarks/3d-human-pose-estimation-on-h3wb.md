@@ -1,7 +1,7 @@
 # 3d-human-pose-estimation-on-h3wb
 
 [Dataset Link](https://github.com/wholebody3d/wholebody3d) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', '3D Human Pose Estimation']
+Task Hierarchy: ['Pose Estimation', '3D Human Pose Estimation']
 
 <br>
 

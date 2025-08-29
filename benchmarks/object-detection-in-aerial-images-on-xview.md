@@ -1,7 +1,7 @@
 # object-detection-in-aerial-images-on-xview
 
 [Dataset Link](http://xviewdataset.org/) \
-Task Hierarchy: ['16k', 'Object Detection', 'Object Detection In Aerial Images']
+Task Hierarchy: ['Object Detection', 'Object Detection In Aerial Images']
 
 <br>
 

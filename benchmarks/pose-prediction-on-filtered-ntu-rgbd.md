@@ -1,7 +1,7 @@
 # pose-prediction-on-filtered-ntu-rgbd
 
 [Dataset Link](https://github.com/shahroudy/NTURGB-D) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', '3D Human Pose Estimation', 'Pose Prediction']
+Task Hierarchy: ['Pose Estimation', '3D Human Pose Estimation', 'Pose Prediction']
 
 <br>
 

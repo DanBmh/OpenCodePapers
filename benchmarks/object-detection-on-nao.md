@@ -1,7 +1,7 @@
 # object-detection-on-nao
 
 [Dataset Link](https://drive.google.com/drive/folders/15P8sOWoJku6SSEiHLEts86ORfytGezi8?usp=sharing) \
-Task Hierarchy: ['16k', 'Object Detection']
+Task Hierarchy: ['Object Detection']
 
 <br>
 

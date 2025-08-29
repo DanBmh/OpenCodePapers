@@ -1,7 +1,7 @@
 # rgb-d-salient-object-detection-on-nju2k
 
 [Dataset Link](https://drive.google.com/open?id=1R1O2dWr6HqpTOiDn6hZxUWTesOSJteQo) \
-Task Hierarchy: ['16k', 'Object Detection', 'RGB-D Salient Object Detection']
+Task Hierarchy: ['Object Detection', 'RGB-D Salient Object Detection']
 
 <br>
 

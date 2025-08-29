@@ -1,7 +1,7 @@
 # overlapped-5-3-on-pascal-voc-2012
 
 [Dataset Link]() \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', 'Class-Incremental Semantic Segmentation', 'Overlapped 5-3']
+Task Hierarchy: ['Semantic Segmentation', 'Class-Incremental Semantic Segmentation', 'Overlapped 5-3']
 
 <br>
 

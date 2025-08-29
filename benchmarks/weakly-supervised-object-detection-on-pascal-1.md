@@ -1,7 +1,7 @@
 # weakly-supervised-object-detection-on-pascal-1
 
 [Dataset Link](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/) \
-Task Hierarchy: ['16k', 'Object Detection', 'Weakly Supervised Object Detection']
+Task Hierarchy: ['Object Detection', 'Weakly Supervised Object Detection']
 
 <br>
 

@@ -1,7 +1,7 @@
 # object-detection-on-odinw-full-shot-13-tasks
 
 [Dataset Link]() \
-Task Hierarchy: ['16k', 'Object Detection']
+Task Hierarchy: ['Object Detection']
 
 <br>
 

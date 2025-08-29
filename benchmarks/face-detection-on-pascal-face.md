@@ -1,7 +1,7 @@
 # face-detection-on-pascal-face
 
 [Dataset Link](http://host.robots.ox.ac.uk/pascal/VOC/databases.html) \
-Task Hierarchy: ['', 'Face Detection']
+Task Hierarchy: ['Face Detection']
 
 <br>
 

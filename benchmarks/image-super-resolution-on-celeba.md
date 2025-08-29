@@ -1,7 +1,7 @@
 # image-super-resolution-on-celeba
 
 [Dataset Link](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) \
-Task Hierarchy: ['16k', 'Image Super-Resolution']
+Task Hierarchy: ['Image Super-Resolution']
 
 <br>
 

@@ -1,7 +1,7 @@
 # object-detection-on-coco-2017-val
 
 [Dataset Link]() \
-Task Hierarchy: ['16k', 'Object Detection']
+Task Hierarchy: ['Object Detection']
 
 <br>
 

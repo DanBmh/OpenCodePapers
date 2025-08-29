@@ -1,7 +1,7 @@
 # object-proposal-generation-on-pascal-voc-2012
 
 [Dataset Link]() \
-Task Hierarchy: ['16k', 'Object Detection', 'Object Proposal Generation']
+Task Hierarchy: ['Object Detection', 'Object Proposal Generation']
 
 <br>
 

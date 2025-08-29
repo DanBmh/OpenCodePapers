@@ -1,7 +1,7 @@
 # image-restoration-on-cdd-11
 
 [Dataset Link](https://github.com/gy65896/OneRestore) \
-Task Hierarchy: ['10-shot image generation', 'Image Restoration']
+Task Hierarchy: ['Image Restoration']
 
 <br>
 

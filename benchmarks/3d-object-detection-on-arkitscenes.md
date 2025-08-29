@@ -1,7 +1,7 @@
 # 3d-object-detection-on-arkitscenes
 
 [Dataset Link](https://github.com/apple/ARKitScenes) \
-Task Hierarchy: ['16k', 'Object Detection', '3D Object Detection']
+Task Hierarchy: ['Object Detection', '3D Object Detection']
 
 <br>
 

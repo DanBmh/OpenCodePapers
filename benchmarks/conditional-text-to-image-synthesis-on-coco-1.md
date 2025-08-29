@@ -1,7 +1,7 @@
 # conditional-text-to-image-synthesis-on-coco-1
 
 [Dataset Link](https://github.com/LeyRio/MIG_Bench) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Text-to-Image Generation', 'Conditional Text-to-Image Synthesis']
+Task Hierarchy: ['Text-to-Image Generation', 'Conditional Text-to-Image Synthesis']
 
 <br>
 

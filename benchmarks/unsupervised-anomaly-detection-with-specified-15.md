@@ -1,7 +1,7 @@
 # unsupervised-anomaly-detection-with-specified-15
 
 [Dataset Link](https://cs.stanford.edu/~acoates/stl10/) \
-Task Hierarchy: ['Unsupervised Anomaly Detection with Specified Settings -- 1% anomaly']
+Task Hierarchy: ['Unsupervised Anomaly Detection']
 
 <br>
 

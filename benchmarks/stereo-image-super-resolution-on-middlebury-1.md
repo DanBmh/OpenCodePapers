@@ -1,7 +1,7 @@
 # stereo-image-super-resolution-on-middlebury-1
 
 [Dataset Link](https://vision.middlebury.edu/stereo/data/) \
-Task Hierarchy: ['16k', 'Image Super-Resolution', 'Stereo Image Super-Resolution']
+Task Hierarchy: ['Image Super-Resolution', 'Stereo Image Super-Resolution']
 
 <br>
 

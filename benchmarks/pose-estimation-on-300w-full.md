@@ -1,7 +1,7 @@
 # pose-estimation-on-300w-full
 
 [Dataset Link](https://ibug.doc.ic.ac.uk/resources/300-W/) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation']
+Task Hierarchy: ['Pose Estimation']
 
 <br>
 

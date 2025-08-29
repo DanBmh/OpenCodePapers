@@ -1,7 +1,7 @@
 # image-to-image-translation-on-selfie2anime
 
 [Dataset Link](https://github.com/taki0112/UGATIT) \
-Task Hierarchy: ['1 Image, 2*2 Stitching', 'Image-to-Image Translation']
+Task Hierarchy: ['Image-to-Image Translation']
 
 <br>
 

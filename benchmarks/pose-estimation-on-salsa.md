@@ -1,7 +1,7 @@
 # pose-estimation-on-salsa
 
 [Dataset Link](http://tev.fbk.eu/salsa) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation']
+Task Hierarchy: ['Pose Estimation']
 
 <br>
 

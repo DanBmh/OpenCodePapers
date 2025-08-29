@@ -1,7 +1,7 @@
 # semantic-segmentation-on-densepass
 
 [Dataset Link](https://github.com/chma1024/DensePASS) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

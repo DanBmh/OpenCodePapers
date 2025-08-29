@@ -1,7 +1,7 @@
 # video-object-detection-on-imagenet-vid
 
 [Dataset Link]() \
-Task Hierarchy: ['16k', 'Object Detection', 'Video Object Detection']
+Task Hierarchy: ['Object Detection', 'Video Object Detection']
 
 <br>
 

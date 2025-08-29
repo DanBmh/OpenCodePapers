@@ -1,7 +1,7 @@
 # semantic-segmentation-on-inria-aerial-image
 
 [Dataset Link](https://project.inria.fr/aerialimagelabeling/) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

@@ -1,7 +1,7 @@
 # depth-estimation-on-nyu-depth-v2
 
 [Dataset Link](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html) \
-Task Hierarchy: ['3D', 'Depth Estimation']
+Task Hierarchy: ['Depth Estimation']
 
 <br>
 

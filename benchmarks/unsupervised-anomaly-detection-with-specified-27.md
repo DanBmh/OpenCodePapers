@@ -1,7 +1,7 @@
 # unsupervised-anomaly-detection-with-specified-27
 
 [Dataset Link](https://github.com/zalandoresearch/fashion-mnist) \
-Task Hierarchy: ['Unsupervised Anomaly Detection with Specified Settings -- 10% anomaly']
+Task Hierarchy: ['Unsupervised Anomaly Detection']
 
 <br>
 

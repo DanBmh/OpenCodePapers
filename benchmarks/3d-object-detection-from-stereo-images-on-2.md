@@ -1,7 +1,7 @@
 # 3d-object-detection-from-stereo-images-on-2
 
 [Dataset Link](http://www.cvlibs.net/datasets/kitti/) \
-Task Hierarchy: ['16k', 'Object Detection', '3D Object Detection', '3D Object Detection From Stereo Images']
+Task Hierarchy: ['Object Detection', '3D Object Detection', '3D Object Detection From Stereo Images']
 
 <br>
 

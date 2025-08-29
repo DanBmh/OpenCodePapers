@@ -1,7 +1,7 @@
 # pose-estimation-on-mpii-human-pose
 
 [Dataset Link](http://human-pose.mpi-inf.mpg.de/) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation']
+Task Hierarchy: ['Pose Estimation']
 
 <br>
 

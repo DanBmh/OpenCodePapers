@@ -1,7 +1,7 @@
 # keypoint-detection-on-pascal3d
 
 [Dataset Link](https://cvgl.stanford.edu/projects/pascal3d.html) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', 'Keypoint Detection']
+Task Hierarchy: ['Pose Estimation', 'Keypoint Detection']
 
 <br>
 

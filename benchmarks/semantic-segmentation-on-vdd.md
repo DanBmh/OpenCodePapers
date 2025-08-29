@@ -1,7 +1,7 @@
 # semantic-segmentation-on-vdd
 
 [Dataset Link](https://github.com/RussRobin/VDD) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

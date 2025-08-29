@@ -1,7 +1,7 @@
 # 3d-object-detection-on-s3dis
 
 [Dataset Link](http://buildingparser.stanford.edu/dataset.html) \
-Task Hierarchy: ['16k', 'Object Detection', '3D Object Detection']
+Task Hierarchy: ['Object Detection', '3D Object Detection']
 
 <br>
 

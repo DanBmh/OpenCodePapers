@@ -1,7 +1,7 @@
 # stereo-image-super-resolution-on-flickr1024-1
 
 [Dataset Link]() \
-Task Hierarchy: ['16k', 'Image Super-Resolution', 'Stereo Image Super-Resolution']
+Task Hierarchy: ['Image Super-Resolution', 'Stereo Image Super-Resolution']
 
 <br>
 

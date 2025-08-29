@@ -1,7 +1,7 @@
 # monocular-depth-estimation-on-nyu-depth-v2-4
 
 [Dataset Link](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html) \
-Task Hierarchy: ['3D', 'Depth Estimation', 'Monocular Depth Estimation']
+Task Hierarchy: ['Depth Estimation', 'Monocular Depth Estimation']
 
 <br>
 

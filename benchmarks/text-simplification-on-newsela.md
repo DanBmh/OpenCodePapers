@@ -1,7 +1,7 @@
 # text-simplification-on-newsela
 
 [Dataset Link](https://newsela.com/data/) \
-Task Hierarchy: ['', 'Text Simplification']
+Task Hierarchy: ['Text Simplification']
 
 <br>
 

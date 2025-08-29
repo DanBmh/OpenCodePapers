@@ -1,7 +1,7 @@
 # unsupervised-anomaly-detection-with-specified-9
 
 [Dataset Link](https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf) \
-Task Hierarchy: ['Unsupervised Anomaly Detection with Specified Settings -- 0.1% anomaly']
+Task Hierarchy: ['Unsupervised Anomaly Detection']
 
 <br>
 

@@ -1,7 +1,7 @@
 # pneumonia-detection-on-chest-x-ray-images-1
 
 [Dataset Link](https://pubmed.ncbi.nlm.nih.gov/29474911/) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pneumonia Detection']
+Task Hierarchy: ['Pneumonia Detection']
 
 <br>
 

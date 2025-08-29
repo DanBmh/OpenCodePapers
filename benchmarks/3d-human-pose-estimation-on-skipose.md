@@ -1,7 +1,7 @@
 # 3d-human-pose-estimation-on-skipose
 
 [Dataset Link](https://www.epfl.ch/labs/cvlab/data/ski-poseptz-dataset/) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', '3D Human Pose Estimation']
+Task Hierarchy: ['Pose Estimation', '3D Human Pose Estimation']
 
 <br>
 

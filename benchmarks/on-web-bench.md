@@ -1,7 +1,7 @@
 # on-web-bench
 
 [Dataset Link](https://huggingface.co/datasets/bytedance-research/Web-Bench) \
-Task Hierarchy: ['']
+Task Hierarchy: []
 
 <br>
 

@@ -1,7 +1,7 @@
 # synthetic-to-real-translation-on-gtav-to
 
 [Dataset Link](https://arxiv.org/pdf/1608.02192v1.pdf) \
-Task Hierarchy: ['1 Image, 2*2 Stitching', 'Image-to-Image Translation', 'Synthetic-to-Real Translation']
+Task Hierarchy: ['Image-to-Image Translation', 'Synthetic-to-Real Translation']
 
 <br>
 

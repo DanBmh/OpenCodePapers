@@ -1,7 +1,7 @@
 # head-pose-estimation-on-aflw
 
 [Dataset Link](https://www.tugraz.at/institute/icg/research/team-bischof/lrs/downloads/aflw/) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', 'Head Pose Estimation']
+Task Hierarchy: ['Pose Estimation', 'Head Pose Estimation']
 
 <br>
 

@@ -1,7 +1,7 @@
 # object-detection-on-waterscenes
 
 [Dataset Link](https://waterscenes.github.io) \
-Task Hierarchy: ['16k', 'Object Detection']
+Task Hierarchy: ['Object Detection']
 
 <br>
 

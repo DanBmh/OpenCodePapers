@@ -1,7 +1,7 @@
 # cross-domain-few-shot-object-detection-on-3
 
 [Dataset Link](https://github.com/alzayats/DeepFish) \
-Task Hierarchy: ['16k', 'Object Detection', 'Few-Shot Object Detection', 'Cross-Domain Few-Shot Object Detection']
+Task Hierarchy: ['Object Detection', 'Few-Shot Object Detection', 'Cross-Domain Few-Shot Object Detection']
 
 <br>
 

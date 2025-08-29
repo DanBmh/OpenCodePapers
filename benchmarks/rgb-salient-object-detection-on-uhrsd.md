@@ -1,7 +1,7 @@
 # rgb-salient-object-detection-on-uhrsd
 
 [Dataset Link](https://github.com/iCVTEAM/PGNet) \
-Task Hierarchy: ['16k', 'Object Detection', 'RGB Salient Object Detection']
+Task Hierarchy: ['Object Detection', 'RGB Salient Object Detection']
 
 <br>
 

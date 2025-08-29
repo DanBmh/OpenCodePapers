@@ -1,7 +1,7 @@
 # semantic-segmentation-on-bdd100k-val
 
 [Dataset Link](https://www.bdd100k.com/) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

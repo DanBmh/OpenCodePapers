@@ -1,7 +1,7 @@
 # semantic-segmentation-on-s3dis
 
 [Dataset Link](http://buildingparser.stanford.edu/dataset.html) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

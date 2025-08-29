@@ -1,7 +1,7 @@
 # 3d-semantic-segmentation-on-scannet-1
 
 [Dataset Link](https://kaldir.vc.in.tum.de/scannetpp/) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', '3D Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation', '3D Semantic Segmentation']
 
 <br>
 

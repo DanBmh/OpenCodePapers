@@ -1,7 +1,7 @@
 # object-detection-on-waymo-open-dataset
 
 [Dataset Link](https://waymo.com/open) \
-Task Hierarchy: ['16k', 'Object Detection']
+Task Hierarchy: ['Object Detection']
 
 <br>
 

@@ -1,7 +1,7 @@
 # real-time-semantic-segmentation-on-cityscapes-1
 
 [Dataset Link](https://www.cityscapes-dataset.com/dataset-overview/) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', 'Real-Time Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation', 'Real-Time Semantic Segmentation']
 
 <br>
 

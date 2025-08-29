@@ -1,7 +1,7 @@
 # multiview-detection-on-multiviewx
 
 [Dataset Link](https://github.com/hou-yz/MVDet) \
-Task Hierarchy: ['16k', 'Object Detection', '3D Object Detection', 'Multiview Detection']
+Task Hierarchy: ['Object Detection', '3D Object Detection', 'Multiview Detection']
 
 <br>
 

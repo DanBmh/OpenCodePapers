@@ -1,7 +1,7 @@
 # 3d-human-shape-estimation-on-ssp-3d
 
 [Dataset Link](https://github.com/akashsengupta1997/SSP-3D) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', '3D Human Pose Estimation', '3D Absolute Human Pose Estimation', '3D Human Shape Estimation']
+Task Hierarchy: ['Pose Estimation', '3D Human Pose Estimation', '3D Absolute Human Pose Estimation', '3D Human Shape Estimation']
 
 <br>
 

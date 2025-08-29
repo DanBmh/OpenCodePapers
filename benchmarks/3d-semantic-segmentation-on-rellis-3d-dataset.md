@@ -1,7 +1,7 @@
 # 3d-semantic-segmentation-on-rellis-3d-dataset
 
 [Dataset Link](https://github.com/unmannedlab/RELLIS-3D) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', '3D Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation', '3D Semantic Segmentation']
 
 <br>
 

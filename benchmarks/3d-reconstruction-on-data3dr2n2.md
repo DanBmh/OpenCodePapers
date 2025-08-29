@@ -1,7 +1,7 @@
 # 3d-reconstruction-on-data3dr2n2
 
 [Dataset Link]() \
-Task Hierarchy: ['3D', '3D Reconstruction']
+Task Hierarchy: ['3D Reconstruction']
 
 <br>
 

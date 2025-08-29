@@ -1,7 +1,7 @@
 # gesture-to-gesture-translation-on-ntu-hand
 
 [Dataset Link]() \
-Task Hierarchy: ['', 'Hand', 'Gesture-to-Gesture Translation']
+Task Hierarchy: ['Hand', 'Gesture-to-Gesture Translation']
 
 <br>
 

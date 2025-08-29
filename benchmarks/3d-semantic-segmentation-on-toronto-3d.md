@@ -1,7 +1,7 @@
 # 3d-semantic-segmentation-on-toronto-3d
 
 [Dataset Link](https://github.com/WeikaiTan/Toronto-3D) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', '3D Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation', '3D Semantic Segmentation']
 
 <br>
 

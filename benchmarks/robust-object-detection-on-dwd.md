@@ -1,7 +1,7 @@
 # robust-object-detection-on-dwd
 
 [Dataset Link](https://github.com/AmingWu/Single-DGOD) \
-Task Hierarchy: ['16k', 'Object Detection', 'Robust Object Detection']
+Task Hierarchy: ['Object Detection', 'Robust Object Detection']
 
 <br>
 

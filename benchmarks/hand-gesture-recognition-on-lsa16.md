@@ -1,7 +1,7 @@
 # hand-gesture-recognition-on-lsa16
 
 [Dataset Link](http://facundoq.github.io/datasets/lsa16/) \
-Task Hierarchy: ['', 'Hand', 'Hand Gesture Recognition']
+Task Hierarchy: ['Hand', 'Hand Gesture Recognition']
 
 <br>
 

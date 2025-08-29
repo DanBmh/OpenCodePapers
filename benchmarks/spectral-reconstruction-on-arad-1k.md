@@ -1,7 +1,7 @@
 # spectral-reconstruction-on-arad-1k
 
 [Dataset Link](https://github.com/boazarad/ARAD_1K) \
-Task Hierarchy: ['10-shot image generation', 'Image Restoration', 'Spectral Reconstruction']
+Task Hierarchy: ['Image Restoration', 'Spectral Reconstruction']
 
 <br>
 

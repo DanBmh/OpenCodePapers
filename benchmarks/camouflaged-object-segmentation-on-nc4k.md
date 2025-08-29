@@ -1,7 +1,7 @@
 # camouflaged-object-segmentation-on-nc4k
 
 [Dataset Link](https://github.com/JingZhang617/COD-Rank-Localize-and-Segment) \
-Task Hierarchy: ['16k', 'Object Detection', 'Camouflaged Object Segmentation']
+Task Hierarchy: ['Object Detection', 'Camouflaged Object Segmentation']
 
 <br>
 

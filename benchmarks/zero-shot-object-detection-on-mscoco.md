@@ -1,7 +1,7 @@
 # zero-shot-object-detection-on-mscoco
 
 [Dataset Link]() \
-Task Hierarchy: ['16k', 'Object Detection', 'Zero-Shot Object Detection']
+Task Hierarchy: ['Object Detection', 'Zero-Shot Object Detection']
 
 <br>
 

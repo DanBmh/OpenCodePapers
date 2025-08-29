@@ -1,7 +1,7 @@
 # on-implicitqa
 
 [Dataset Link](https://huggingface.co/datasets/ucf-crcv/ImplicitQA) \
-Task Hierarchy: ['']
+Task Hierarchy: []
 
 <br>
 

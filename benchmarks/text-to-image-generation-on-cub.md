@@ -1,7 +1,7 @@
 # text-to-image-generation-on-cub
 
 [Dataset Link](https://www.vision.caltech.edu/datasets/cub_200_2011/) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Text-to-Image Generation']
+Task Hierarchy: ['Text-to-Image Generation']
 
 <br>
 

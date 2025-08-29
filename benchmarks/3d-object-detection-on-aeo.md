@@ -1,7 +1,7 @@
 # 3d-object-detection-on-aeo
 
 [Dataset Link](https://www.projectaria.com/datasets/aeo/) \
-Task Hierarchy: ['16k', 'Object Detection', '3D Object Detection']
+Task Hierarchy: ['Object Detection', '3D Object Detection']
 
 <br>
 

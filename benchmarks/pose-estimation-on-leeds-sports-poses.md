@@ -1,7 +1,7 @@
 # pose-estimation-on-leeds-sports-poses
 
 [Dataset Link](https://dbcollection.readthedocs.io/en/latest/datasets/leeds_sports_pose_extended.html) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation']
+Task Hierarchy: ['Pose Estimation']
 
 <br>
 

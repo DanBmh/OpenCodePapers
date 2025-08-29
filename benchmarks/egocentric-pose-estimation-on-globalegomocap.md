@@ -1,7 +1,7 @@
 # egocentric-pose-estimation-on-globalegomocap
 
 [Dataset Link](https://vcai.mpi-inf.mpg.de/projects/globalegomocap/) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', '3D Human Pose Estimation', 'Egocentric Pose Estimation']
+Task Hierarchy: ['Pose Estimation', '3D Human Pose Estimation', 'Egocentric Pose Estimation']
 
 <br>
 

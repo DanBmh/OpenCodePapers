@@ -1,7 +1,7 @@
 # text-to-image-generation-on-geneval
 
 [Dataset Link](https://arxiv.org/abs/2310.11513) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Text-to-Image Generation']
+Task Hierarchy: ['Text-to-Image Generation']
 
 <br>
 

@@ -1,7 +1,7 @@
 # object-detection-on-eventped
 
 [Dataset Link]() \
-Task Hierarchy: ['16k', 'Object Detection']
+Task Hierarchy: ['Object Detection']
 
 <br>
 

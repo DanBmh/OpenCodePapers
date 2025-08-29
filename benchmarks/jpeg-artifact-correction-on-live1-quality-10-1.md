@@ -1,7 +1,7 @@
 # jpeg-artifact-correction-on-live1-quality-10-1
 
 [Dataset Link](https://live.ece.utexas.edu/research/quality/subjective.htm) \
-Task Hierarchy: ['10-shot image generation', 'Image Restoration', 'JPEG Artifact Correction']
+Task Hierarchy: ['Image Restoration', 'JPEG Artifact Correction']
 
 <br>
 

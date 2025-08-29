@@ -1,7 +1,7 @@
 # object-detection-on-usb-standard-usb-1-0
 
 [Dataset Link](https://github.com/shinya7y/UniverseNet) \
-Task Hierarchy: ['16k', 'Object Detection']
+Task Hierarchy: ['Object Detection']
 
 <br>
 

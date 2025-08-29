@@ -1,7 +1,7 @@
 # 3d-semantic-segmentation-on-nuscenes
 
 [Dataset Link](https://www.nuscenes.org/) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation', '3D Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation', '3D Semantic Segmentation']
 
 <br>
 

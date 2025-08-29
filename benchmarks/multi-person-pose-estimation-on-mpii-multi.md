@@ -1,7 +1,7 @@
 # multi-person-pose-estimation-on-mpii-multi
 
 [Dataset Link](http://human-pose.mpi-inf.mpg.de/) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', 'Multi-Person Pose Estimation']
+Task Hierarchy: ['Pose Estimation', 'Multi-Person Pose Estimation']
 
 <br>
 

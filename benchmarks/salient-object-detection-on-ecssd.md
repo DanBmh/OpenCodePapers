@@ -1,7 +1,7 @@
 # salient-object-detection-on-ecssd
 
 [Dataset Link](https://www.cse.cuhk.edu.hk/leojia/projects/hsaliency/dataset.html) \
-Task Hierarchy: ['16k', 'Object Detection', 'RGB Salient Object Detection']
+Task Hierarchy: ['Object Detection', 'RGB Salient Object Detection']
 
 <br>
 

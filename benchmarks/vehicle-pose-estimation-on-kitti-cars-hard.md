@@ -1,7 +1,7 @@
 # vehicle-pose-estimation-on-kitti-cars-hard
 
 [Dataset Link](http://www.cvlibs.net/datasets/kitti/) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', 'Vehicle Pose Estimation']
+Task Hierarchy: ['Pose Estimation', 'Vehicle Pose Estimation']
 
 <br>
 

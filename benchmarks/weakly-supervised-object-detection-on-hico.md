@@ -1,7 +1,7 @@
 # weakly-supervised-object-detection-on-hico
 
 [Dataset Link](https://umich-ywchao-hico.github.io/) \
-Task Hierarchy: ['16k', 'Object Detection', 'Weakly Supervised Object Detection']
+Task Hierarchy: ['Object Detection', 'Weakly Supervised Object Detection']
 
 <br>
 

@@ -1,7 +1,7 @@
 # described-object-detection-on-description
 
 [Dataset Link](https://github.com/shikras/d-cube) \
-Task Hierarchy: ['16k', 'Object Detection', 'Described Object Detection']
+Task Hierarchy: ['Object Detection', 'Described Object Detection']
 
 <br>
 

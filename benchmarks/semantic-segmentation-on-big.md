@@ -1,7 +1,7 @@
 # semantic-segmentation-on-big
 
 [Dataset Link](https://github.com/hkchengrex/CascadePSP) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

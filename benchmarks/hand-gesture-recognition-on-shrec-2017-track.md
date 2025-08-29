@@ -1,7 +1,7 @@
 # hand-gesture-recognition-on-shrec-2017-track
 
 [Dataset Link](http://tosca.cs.technion.ac.il/book/shrec.html) \
-Task Hierarchy: ['', 'Hand', 'Hand Gesture Recognition']
+Task Hierarchy: ['Hand', 'Hand Gesture Recognition']
 
 <br>
 

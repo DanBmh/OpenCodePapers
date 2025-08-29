@@ -1,7 +1,7 @@
 # object-detection-on-bigdetection-val
 
 [Dataset Link](https://github.com/amazon-research/bigdetection) \
-Task Hierarchy: ['16k', 'Object Detection']
+Task Hierarchy: ['Object Detection']
 
 <br>
 

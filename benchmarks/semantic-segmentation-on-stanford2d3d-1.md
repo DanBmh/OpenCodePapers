@@ -1,7 +1,7 @@
 # semantic-segmentation-on-stanford2d3d-1
 
 [Dataset Link](https://github.com/alexsax/2D-3D-Semantics) \
-Task Hierarchy: ['10-shot image generation', 'Semantic Segmentation']
+Task Hierarchy: ['Semantic Segmentation']
 
 <br>
 

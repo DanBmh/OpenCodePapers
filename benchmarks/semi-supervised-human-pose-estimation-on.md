@@ -1,7 +1,7 @@
 # semi-supervised-human-pose-estimation-on
 
 [Dataset Link](https://doi.org/10.5281/zenodo.7516229) \
-Task Hierarchy: ['1 Image, 2*2 Stitchi', 'Pose Estimation', 'Multi-Person Pose Estimation', 'Semi-Supervised Human Pose Estimation']
+Task Hierarchy: ['Pose Estimation', 'Multi-Person Pose Estimation', 'Semi-Supervised Human Pose Estimation']
 
 <br>
 
