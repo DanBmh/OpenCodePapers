@@ -12,7 +12,7 @@ Collecting benchmark results and code links of research papers.
 
 ## Benchmarks
 
-See [tasks.md](./tasks.md) for the main overview.
+See [tasks.md](./dataset/tasks.md) for the main overview.
 
 ## Contributing
 

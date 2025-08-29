@@ -6,7 +6,7 @@ To keep the results up to date, help from the community is required.
 
 ## Add new paper results
 
-1. Edit the benchmark markdown file, and insert the new results. \
+1. Edit the corresponding file at `dataset/benchmarks/`, and insert the new results. \
    (Please insert them matching to the initial default order)
 
 2. Commit the changes and create a merge request into the main repository.
