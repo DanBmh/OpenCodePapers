@@ -34,6 +34,20 @@ Task Hierarchy: {}
 ```
 """
 
+task_name_replacers = {
+    "1 Image, 2*2 Stitchi": "",
+    "1 Image, 2*2 Stitching": "",
+    "10-shot image generation": "",
+    "16k": "",
+    "4K 60Fps": "",
+    "3D": "",
+    "Unsupervised Anomaly Detection with Specified Settings -- 0.1% anomaly": "Unsupervised Anomaly Detection",
+    "Unsupervised Anomaly Detection with Specified Settings -- 1% anomaly": "Unsupervised Anomaly Detection",
+    "Unsupervised Anomaly Detection with Specified Settings -- 10% anomaly": "Unsupervised Anomaly Detection",
+    "Unsupervised Anomaly Detection with Specified Settings -- 20% anomaly": "Unsupervised Anomaly Detection",
+    "Unsupervised Anomaly Detection with Specified Settings -- 30% anomaly": "Unsupervised Anomaly Detection",
+}
+
 # ==================================================================================================
 
 
@@ -44,7 +58,12 @@ def process_evaluation_tables(data: list, task_hierarchy: list = []):
         tsh = list(task_hierarchy)
 
         if "task" in item:
-            tsh.append(item["task"])
+            task = item["task"]
+            if task in task_name_replacers:
+                task = task_name_replacers[task]
+
+            if task != "":
+                tsh.append(task)
 
         if "subtasks" in item:
             res = process_evaluation_tables(item["subtasks"], list(tsh))
