@@ -1,0 +1,93 @@
+# Pipelines to test code
+
+stages:
+  # Install testing tools into extra container to speed up later testing steps
+  - container_testing
+  - test
+
+# ==================================================================================================
+# ===== Stage: Container ===========================================================================
+
+# Use anchors to reuse parts for the different steps
+.stage_container_anchor: &container_anchor
+  image: "quay.io/buildah/stable"
+  variables:
+    # Use vfs with buildah. Docker offers overlayfs as a default, but buildah
+    # cannot stack overlayfs on top of another overlayfs filesystem.
+    STORAGE_DRIVER: "vfs"
+    BUILDAH_FORMAT: "oci"
+  before_script:
+    # Print out program versions for debugging
+    - buildah version
+    - buildah login --username "${CI_REGISTRY_USER}" --password "${CI_REGISTRY_PASSWORD}" "${CI_REGISTRY}"
+
+testing_image:
+  <<: *container_anchor
+  stage: container_testing
+  variables:
+    # Set base image variables here because it didn't work to set them in the anchor
+    IMAGE_TAG: "testing_ocp"
+    FULL_IMAGE_NAME: "${CI_REGISTRY_IMAGE}/${CI_COMMIT_REF_SLUG}/${IMAGE_TAG}"
+    IMAGE_FILE: "tests/dockerfile"
+  script:
+    # Build image, using layers=false squashes only new layers,
+    # but this reduces space usage while building and is much faster
+    - echo "buildah bud --layers=false --squash -f ${IMAGE_FILE} -t ${IMAGE_TAG} ."
+    - buildah bud --layers=false --squash -f ${IMAGE_FILE} -t ${IMAGE_TAG} .
+    - buildah tag ${IMAGE_TAG} ${FULL_IMAGE_NAME}
+    - buildah images
+    # Push images only from main and develop branches to reduce space usage
+    - if [[ "${CI_COMMIT_REF_SLUG}" == "main" ]] || [[ "${CI_COMMIT_REF_SLUG}" == "develop" ]]; then buildah push ${FULL_IMAGE_NAME}; fi
+  only:
+    refs:
+      # Run only for important branches or if the branch name starts with the 'containerbuild'
+      # keyword, else every new branch would start to build this container
+      - main
+      - develop
+      - /^containerbuild/
+    changes:
+      - tests/dockerfile
+      - .gitlab-ci.yml
+      - pyproject.toml
+
+# ==================================================================================================
+# ===== Stage: Test ================================================================================
+
+# Use anchors to reuse parts for the different steps
+.stage_test_anchor: &test_anchor
+  variables:
+    IMAGE_TAG: "testing_ocp"
+    # Use the main repository's container image by default except for specific branch names
+    FULL_IMAGE_NAME: "registry.gitlab.com/opencodepapers/opencodepapers/main/${IMAGE_TAG}"
+  rules:
+    - if: $CI_COMMIT_REF_SLUG == "main" || $CI_COMMIT_REF_SLUG == "develop"
+      variables:
+        FULL_IMAGE_NAME: "${CI_REGISTRY_IMAGE}/${CI_COMMIT_REF_SLUG}/${IMAGE_TAG}"
+    - when: always
+  image: ${FULL_IMAGE_NAME}
+
+linting:
+  <<: *test_anchor
+  stage: test
+  script:
+    - isort --check-only --diff .
+    - black --check --diff .
+    - npx /usr/app/node_modules/prettylint/bin/cli.js \
+      $(find . -type f \( -name '*.json' -o -name '*.md' -o -name '*.yml' -o -name '*.yaml' \) ! -path './.*/*')
+    - pylint --disable=import-error --disable=parse-error $(find . -type f -name "*.py")
+    - flake8 .
+
+analysis:
+  <<: *test_anchor
+  stage: test
+  # The following pipe allows using a ':' in the 'sed' command, also remove the '-' list indicator
+  script: |
+    mkdir ./badges/
+    radon cc -a . | tee ./badges/radon.log
+    RCC_SCORE=$(sed -n 's/^Average complexity: \([A-F]\) .*/\1/p' ./badges/radon.log)
+    anybadge --label=complexity --file=badges/rcc.svg --overwrite --value=$RCC_SCORE A=green B=yellow C=orange D=red E=red F=red
+    echo "Radon cyclomatic complexity score is: $RCC_SCORE"
+    pygount --format=summary ./
+  artifacts:
+    paths:
+      - ./badges/

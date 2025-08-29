@@ -51,7 +51,7 @@ task_name_replacers = {
 # ==================================================================================================
 
 
-def process_evaluation_tables(data: list, task_hierarchy: list = []):
+def process_evaluation_tables(data: list, task_hierarchy: list):
     results = []
 
     for item in data:
@@ -87,7 +87,7 @@ def process_evaluation_tables(data: list, task_hierarchy: list = []):
 
 
 def process_datasets(data: list):
-    results = dict()
+    results = {}
     for item in data:
         for v in item["variants"]:
             url = ""
@@ -152,12 +152,12 @@ def build_sota_data(data: dict):
 def main():
 
     path = "data/evaluation-tables.json"
-    with open(path, "r") as f:
+    with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
-    data_et = process_evaluation_tables(data)
+    data_et = process_evaluation_tables(data, [])
 
     path = "data/datasets.json"
-    with open(path, "r") as f:
+    with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
     data_ds = process_datasets(data)
 

@@ -90,9 +90,7 @@ def ensure_child(node: Node, label: str) -> Node:
 # ==================================================================================================
 
 
-def process_small_leaves(
-    node: Node, parent: Optional[Node] = None, label_in_parent: Optional[str] = None
-):
+def process_small_leaves(node: Node, parent: Optional[Node] = None):
     """
     Bottom-up normalization:
     - Move small leaf buckets (<3 files) into 'others' at this node.
@@ -104,7 +102,7 @@ def process_small_leaves(
 
     # Recurse first
     for label, child in list(node.children.items()):
-        process_small_leaves(child, node, label)
+        process_small_leaves(child, node)
 
     # Move small leaf buckets into 'others'
     to_delete = []
@@ -201,9 +199,9 @@ def render_html(node: Node) -> str:
         if not (child.files or child.children):
             continue
 
-        lines.append(f"<details>")
+        lines.append("<details>")
         lines.append(f"  <summary>{escape_attr(label)}</summary>")
-        lines.append(f"  <div>")
+        lines.append("  <div>")
 
         # 1) Subgroups first
         if child.children:
@@ -218,8 +216,8 @@ def render_html(node: Node) -> str:
                 )
             lines.append("    </ul>")
 
-        lines.append(f"  </div>")
-        lines.append(f"</details>")
+        lines.append("  </div>")
+        lines.append("</details>")
     return "\n".join(lines)
 
 
@@ -242,7 +240,7 @@ def build_tasks_md(input_dir: str, output_path: str):
             # No/empty hierarchy → top-level 'others'
             ensure_child(root, "others").files.append((slug, relpath))
 
-    process_small_leaves(root, None, None)
+    process_small_leaves(root, None)
     prune_empty(root)
 
     html = []

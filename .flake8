@@ -1,0 +1,11 @@
+[flake8]
+exclude = .vscode,venv
+max-line-length = 88
+ignore =
+    D202,
+    E203,
+    F401,
+    E501,
+    W503,
+    W504,
+    E731,
