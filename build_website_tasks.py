@@ -106,7 +106,7 @@ HTML_SCAFFOLD = r"""<!DOCTYPE html>
 <section class="hero">
   <div class="hero-inner">
     <h1 class="hero-title">OpenCodePapers</h1>
-    <p class="hero-sub">An open collection of benchmarks, papers, and code for computer vision and AI tasks.</p>
+    <p class="hero-sub">A collection of benchmark results and code links from many research papers.</p>
   </div>
 </section>
 <header class="sticky">

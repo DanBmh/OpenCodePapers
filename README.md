@@ -12,7 +12,7 @@ Collecting benchmark results and code links of research papers.
 
 ## Benchmarks
 
-See [tasks.md](./dataset/tasks.md) for the main overview.
+See [website](https://opencodepapers-b7572d.gitlab.io/) for the main overview.
 
 ## Contributing
 

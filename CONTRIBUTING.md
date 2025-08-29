@@ -20,7 +20,7 @@ To keep the results up to date, help from the community is required.
 
 ## Add new benchmarks
 
-1. Check that the benchmark is not already existing under a slightly different name
+1. Check that the benchmark is not already existing under a slightly different name.
 
 2. To avoid file number explosion, please add only benchmarks that are used by at least _3_ different papers.
 
