@@ -124,7 +124,7 @@ update_tasks:
         echo "No changes to commit."
       fi
 
-website:
+pages:
   <<: *test_anchor
   stage: deploy
   script:
