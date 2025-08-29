@@ -169,7 +169,7 @@ def main():
             et["data_url"] = ""
 
     # Build files
-    path = "../../benchmarks/{}.md"
+    path = "../../dataset/benchmarks/{}.md"
     for et in data_et:
         sdata = build_sota_data(et["sota"])
         name = et["bench_url"].replace("https://paperswithcode.com/sota/", "")
