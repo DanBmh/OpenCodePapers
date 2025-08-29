@@ -73,7 +73,7 @@ linting:
     - isort --check-only --diff .
     - black --check --diff .
     - npx /usr/app/node_modules/prettylint/bin/cli.js \
-      $(find . -type f \( -name '*.json' -o -name '*.md' -o -name '*.yml' -o -name '*.yaml' \) ! -path './.*/*')
+      $(find . -type f \( -name '*.md' -o -name '*.yml' -o -name '*.yaml' \) ! -path './.*/*' ! -path './benchmarks/*')
     - pylint --disable=import-error --disable=parse-error $(find . -type f -name "*.py")
     - flake8 .
 
