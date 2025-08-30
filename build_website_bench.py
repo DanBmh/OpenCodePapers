@@ -163,8 +163,7 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
 
     # Build rows + chart series
     rows_html = []
-    series_all = {mk: [] for mk in metric_keys}  # mk -> list of dicts with x,y,model
-    series_code = {mk: [] for mk in metric_keys}
+    series_code = {mk: [] for mk in metric_keys}  # mk -> list of dicts with x,y,model
 
     for row in items:
         tds = []
@@ -213,7 +212,6 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
                     y = to_number(row.get(mk))
                     if y is not None:
                         pt = {"x": date_iso, "y": y, "model": model_name or ""}
-                        series_all[mk].append(pt)
                         if has_code:
                             series_code[mk].append(pt)
 
@@ -226,7 +224,6 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
 
     # Sort each series by date
     for mk in metric_keys:
-        series_all[mk].sort(key=lambda d: d["x"])
         series_code[mk].sort(key=lambda d: d["x"])
 
     # Map metric key -> label
@@ -255,8 +252,6 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
                 }}"""
             )
         return ",\n".join(out)
-
-    traces_js_all = build_traces(series_all)
     traces_js_code = build_traces(series_code)
 
     # Subtitle
@@ -410,10 +405,7 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
     </div>
 
     <div class="card">
-      <div class="section-title" style="display:flex;align-items:center;justify-content:space-between;gap:12px;">
-        <span>Results over time</span>
-        <button class="btn toggle-nocode">Show papers without code</button>
-      </div>
+      <span>Results over time</span>
       <div id="metricPlot"></div>
       <div class="legend-note">Click legend items to toggle metrics. Hover points for model names.</div>
     </div>
@@ -444,8 +436,7 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
   <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
   <script>
     (function() {{
-      // ===== Plot (Plotly) with code-only toggle =====
-      const tracesAll  = [ {traces_js_all} ];
+      // ===== Plot (Plotly) =====
       const tracesCode = [ {traces_js_code} ];
       const layout = {{
         paper_bgcolor: 'white',
@@ -469,7 +460,7 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
         }});
 
         // Plot
-        Plotly.react('metricPlot', showNoCode ? tracesAll : tracesCode, layout, cfg);
+        Plotly.react('metricPlot', tracesCode, layout, cfg);
 
         // Sync all buttons' labels
         btns.forEach(b => {{
