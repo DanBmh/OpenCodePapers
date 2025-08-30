@@ -106,7 +106,7 @@ HTML_SCAFFOLD = r"""<!DOCTYPE html>
 <section class="hero">
   <div class="hero-inner">
     <h1 class="hero-title">OpenCodePapers</h1>
-    <p class="hero-sub">A collection of benchmark results and code links from many research papers.</p>
+    <p class="hero-sub">Collecting benchmark results and code links of research papers.</p>
     <p class="hero-sub">Contribute on <a href="https://gitlab.com/OpenCodePapers/OpenCodePapers" target="_blank" rel="noopener noreferrer" style="color:darkorange">GitLab</a></p>
   </div>
 </section>
@@ -286,7 +286,7 @@ MD_TO_HTML_HREF = re.compile(r'href="([^"]+?)\.md(\#[^"]*)?"', re.IGNORECASE)
 
 def rewrite_md_links_to_html(s: str) -> str:
     def _rep(m):
-        path = m.group(1)
+        path = m.group(1).replace("dataset/", "")
         frag = m.group(2) or ""
         return f'href="{path}.html{frag}" target="_blank" rel="noopener noreferrer"'
 
