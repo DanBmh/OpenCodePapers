@@ -126,7 +126,7 @@ merge_bot:
     FULL_IMAGE_NAME: "registry.gitlab.com/opencodepapers/opencodepapers/main/${IMAGE_TAG}"
     GITLAB_TOKEN: "$BOT_TOKEN"
     PROJECT_ID: "$CI_PROJECT_ID"
-    TARGET_FOLDER: "benchmarks/"
+    TARGET_FOLDER: "dataset/"
     REQUIRE_SUCCESS_PIPELINE: "1"
   image: ${FULL_IMAGE_NAME}
   script:

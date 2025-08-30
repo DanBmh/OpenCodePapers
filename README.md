@@ -1,6 +1,7 @@
 # OpenCodePapers
 
-Collecting benchmark results and code links of research papers.
+Collecting benchmark results and code links of research papers. \
+The original data was taken from the now discontinued [PapersWithCode](https://github.com/paperswithcode) project.
 
 [![pipeline status](https://gitlab.com/OpenCodePapers/OpenCodePapers/badges/main/pipeline.svg)](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/commits/main)
 [![coverage report](https://gitlab.com/OpenCodePapers/OpenCodePapers/badges/main/coverage.svg)](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/commits/main)

@@ -262,18 +262,8 @@ def main():
     parser = argparse.ArgumentParser(
         description="Generate an expandable tasks.md from benchmark markdown files."
     )
-    parser.add_argument(
-        "--input",
-        "-i",
-        default="benchmarks",
-        help="Directory containing benchmark .md files (default: benchmarks)",
-    )
-    parser.add_argument(
-        "--output",
-        "-o",
-        default="tasks.md",
-        help="Output markdown/HTML file path (default: tasks.md)",
-    )
+    parser.add_argument("--input", "-i", default="dataset/benchmarks")
+    parser.add_argument("--output", "-o", default="dataset/tasks.md")
     args = parser.parse_args()
 
     input_dir = args.input.rstrip("/").rstrip("\\")

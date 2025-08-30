@@ -252,6 +252,7 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
                 }}"""
             )
         return ",\n".join(out)
+
     traces_js_code = build_traces(series_code)
 
     # Subtitle

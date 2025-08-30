@@ -107,6 +107,7 @@ HTML_SCAFFOLD = r"""<!DOCTYPE html>
   <div class="hero-inner">
     <h1 class="hero-title">OpenCodePapers</h1>
     <p class="hero-sub">A collection of benchmark results and code links from many research papers.</p>
+    <p class="hero-sub">Contribute on <a href="https://gitlab.com/OpenCodePapers/OpenCodePapers" target="_blank" rel="noopener noreferrer" style="color:darkorange">GitLab</a></p>
   </div>
 </section>
 <header class="sticky">

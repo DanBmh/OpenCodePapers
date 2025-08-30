@@ -1,5 +1,6 @@
 import copy
 import json
+import os
 
 # ==================================================================================================
 
@@ -170,6 +171,7 @@ def main():
 
     # Build files
     path = "../../dataset/benchmarks/{}.md"
+    os.makedirs(os.path.dirname(path), exist_ok=True)
     for et in data_et:
         sdata = build_sota_data(et["sota"])
         name = et["bench_url"].replace("https://paperswithcode.com/sota/", "")
