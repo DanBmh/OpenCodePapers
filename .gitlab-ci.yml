@@ -130,7 +130,7 @@ merge_bot:
     GITLAB_TOKEN: "$BOT_TOKEN"
     PROJECT_ID: "$CI_PROJECT_ID"
     TARGET_FOLDER: "dataset/"
-    REQUIRE_SUCCESS_PIPELINE: "1"
+    SQUASH_COMMITS: "1"
   image: ${FULL_IMAGE_NAME}
   script:
     - python3 tests/bot_merge_automatic.py

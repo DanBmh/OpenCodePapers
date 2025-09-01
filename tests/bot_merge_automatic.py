@@ -10,7 +10,7 @@ API = os.getenv("GITLAB_API", "https://gitlab.com/api/v4")
 TOKEN = os.environ["GITLAB_TOKEN"]
 PROJECT_ID = os.getenv("PROJECT_ID") or os.getenv("CI_PROJECT_ID")
 TARGET_FOLDER = os.environ.get("TARGET_FOLDER", "").rstrip("/")
-REQUIRE_SUCCESS_PIPELINE = os.environ.get("REQUIRE_SUCCESS_PIPELINE", "1") == "1"
+SQUASH_COMMITS = os.environ.get("SQUASH_COMMITS", "1") == "1"
 MIN_THUMBS_UP = 2
 
 if not PROJECT_ID:
@@ -119,14 +119,13 @@ def head_pipeline_status(mr: Dict[str, Any]) -> str:
 # ==================================================================================================
 
 
-def try_merge(
-    project_id: str, iid: int, sha: str, message: str, wait_for_success: bool
-) -> bool:
+def try_merge(project_id: str, iid: int, sha: str, message: str) -> bool:
 
-    payload = {"sha": sha, "merge_commit_message": message}
-    if not wait_for_success:
-        # Use merge_when_pipeline_succeeds when allowed
-        payload["merge_when_pipeline_succeeds"] = True
+    payload = {
+        "sha": sha,
+        "merge_commit_message": message,
+        "squash": bool(SQUASH_COMMITS),
+    }
     r = session.put(
         f"{API}/projects/{project_id}/merge_requests/{iid}/merge",
         data=payload,
@@ -168,13 +167,9 @@ def main() -> int:
 
         # Pipeline gate
         status = head_pipeline_status(details)
-        if REQUIRE_SUCCESS_PIPELINE:
-            if status != "success":
-                print(f"Skip !{iid}: pipeline status={status}")
-                continue
-            merge_when_success = False
-        else:
-            merge_when_success = status != "success"
+        if status != "success":
+            print(f"Skip !{iid}: pipeline status={status}")
+            continue
 
         sha = (
             details.get("sha")
@@ -185,18 +180,8 @@ def main() -> int:
             print(f"Skip !{iid}: missing head sha", file=sys.stderr)
             continue
 
-        msg = (
-            f"Auto-merged by CI bot: all changes within '{TARGET_FOLDER}', "
-            f"{thumbs['pos']}x up, 0x down."
-        )
-        if try_merge(
-            PROJECT_ID,
-            iid,
-            sha,
-            msg,
-            wait_for_success=REQUIRE_SUCCESS_PIPELINE is True
-            and merge_when_success is False,
-        ):
+        msg = f"Auto-merged !{iid} by CI bot."
+        if try_merge(PROJECT_ID, iid, sha, msg):
             merged_any = True
 
     return 0 if merged_any else 0
