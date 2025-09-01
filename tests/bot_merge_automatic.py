@@ -24,6 +24,7 @@ session.headers.update({"PRIVATE-TOKEN": TOKEN})
 
 
 def list_open_mrs(project_id: str) -> List[Dict[str, Any]]:
+
     mrs: List[Dict[str, Any]] = []
     page = 1
     while True:
@@ -38,6 +39,7 @@ def list_open_mrs(project_id: str) -> List[Dict[str, Any]]:
         if len(batch) < 100:
             break
         page += 1
+
     return mrs
 
 
@@ -120,6 +122,7 @@ def head_pipeline_status(mr: Dict[str, Any]) -> str:
 def try_merge(
     project_id: str, iid: int, sha: str, message: str, wait_for_success: bool
 ) -> bool:
+
     payload = {"sha": sha, "merge_commit_message": message}
     if not wait_for_success:
         # Use merge_when_pipeline_succeeds when allowed
@@ -129,6 +132,7 @@ def try_merge(
         data=payload,
         timeout=60,
     )
+
     if r.ok:
         print(f"Merged MR !{iid}")
         return True
@@ -141,8 +145,12 @@ def try_merge(
 
 
 def main() -> int:
+
     merged_any = False
-    for mr in list_open_mrs(PROJECT_ID):
+    open_mrs = list_open_mrs(PROJECT_ID)
+    print(f"Found {len(open_mrs)} open merge requests.")
+
+    for mr in open_mrs:
         if mr.get("work_in_progress") or mr.get("draft"):
             continue
         iid = mr.get("iid")
@@ -154,6 +162,7 @@ def main() -> int:
             continue
 
         thumbs = thumbs_summary(PROJECT_ID, iid, author_id)
+        print(f'MR !{iid}: {{"pos": {thumbs["pos"]}, "neg": {thumbs["neg"]}}}')
         if thumbs["neg"] > 0 or thumbs["pos"] < MIN_THUMBS_UP:
             continue
 
