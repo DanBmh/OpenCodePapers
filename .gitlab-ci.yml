@@ -81,6 +81,12 @@ linting:
     - pylint --disable=import-error --disable=parse-error $(find . -type f -name "*.py")
     - flake8 .
 
+validate_data:
+  <<: *test_anchor
+  stage: test
+  script:
+    - python3 tests/test_benchmark_files.py
+
 analysis:
   <<: *test_anchor
   stage: test
