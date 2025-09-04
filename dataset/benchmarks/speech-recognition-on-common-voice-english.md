@@ -1,4 +1,4 @@
-# speech-recognition-on-common-voice-french
+# speech-recognition-on-common-voice-english
 
 [Dataset Link](https://commonvoice.mozilla.org) \
 Task Hierarchy: ['Speech Recognition']
@@ -33,67 +33,81 @@ Task Hierarchy: ['Speech Recognition']
   ],
   "items": [
     {
+      "p": "[Step-Audio 2 Technical Report](https://arxiv.org/pdf/2507.16632)",
+      "c": "",
+      "n": "Step-Audio 2",
+      "d": "2025-08-27",
+      "m1": "5.95"
+    },
+    {
+      "p": "[Step-Audio 2 Technical Report](https://arxiv.org/pdf/2507.16632)",
+      "c": "[&check;&nbsp;Link](https://github.com/stepfun-ai/Step-Audio2)",
+      "n": "Step-Audio 2 mini",
+      "d": "2025-08-27",
+      "m1": "6.76"
+    },
+    {
       "p": "[NeMo: a toolkit for building AI applications using Neural Modules](https://arxiv.org/abs/1909.09577v1)",
       "c": "[&check;&nbsp;Link](https://github.com/NVIDIA/NeMo)",
       "n": "canary-1b-flash",
       "d": "2025-03-07",
-      "m1": "6.15%"
+      "m1": "6.99%"
+    },
+    {
+      "p": "[Step-Audio 2 Technical Report](https://arxiv.org/pdf/2507.16632)",
+      "c": "[&check;&nbsp;Link](https://github.com/MoonshotAI/Kimi-Audio)",
+      "n": "Kimi-Audio",
+      "d": "2025-04-25",
+      "m1": "7.83"
+    },
+    {
+      "p": "[NeMo: a toolkit for building AI applications using Neural Modules](https://arxiv.org/abs/1909.09577v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/NVIDIA/NeMo)",
+      "n": "canary-1b",
+      "d": "2024-02-08",
+      "m1": "7.97%"
+    },
+    {
+      "p": "[NeMo: a toolkit for building AI applications using Neural Modules](https://arxiv.org/abs/1909.09577v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/NVIDIA/NeMo)",
+      "n": "ConformerCTC-L",
+      "d": "2019-09-14",
+      "m1": "8.0%"
+    },
+    {
+      "p": "[Step-Audio 2 Technical Report](https://arxiv.org/pdf/2507.16632)",
+      "c": "",
+      "n": "Qwen Omni",
+      "d": "2025-08-27",
+      "m1": "8.33"
     },
     {
       "p": "[Scribosermo: Fast Speech-to-Text models for German and other Languages](https://arxiv.org/abs/2110.07982v1)",
       "c": "[&check;&nbsp;Link](https://gitlab.com/Jaco-Assistant/deepspeech-polyglot)",
       "n": "ConformerCTC-L (5-gram)",
       "d": "2021-10-15",
-      "m1": "8.13%"
+      "m1": "9.06%"
     },
     {
-      "p": "[NeMo: a toolkit for building AI applications using Neural Modules](https://arxiv.org/abs/1909.09577v1)",
-      "c": "[&check;&nbsp;Link](https://github.com/NVIDIA/NeMo)",
-      "n": "ConformerCTC-L (4-gram)",
-      "d": "2019-09-14",
-      "m1": "9.16%"
+      "p": "[Step-Audio 2 Technical Report](https://arxiv.org/pdf/2507.16632)",
+      "c": "",
+      "n": "Doubao LLM ASR",
+      "d": "2025-08-27",
+      "m1": "9.20"
     },
     {
-      "p": "[VoxPopuli: A Large-Scale Multilingual Speech Corpus for Representation Learning, Semi-Supervised Learning and Interpretation](https://arxiv.org/abs/2101.00390v2)",
-      "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/voxpopuli)",
-      "n": "VoxPopuli-50K (n-gram)",
-      "d": "2021-01-02",
-      "m1": "9.6%"
-    },
-    {
-      "p": "[NeMo: a toolkit for building AI applications using Neural Modules](https://arxiv.org/abs/1909.09577v1)",
-      "c": "[&check;&nbsp;Link](https://github.com/NVIDIA/NeMo)",
-      "n": "ConformerCTC-L (no-LM)",
-      "d": "2019-09-14",
-      "m1": "9.63%"
+      "p": "[Step-Audio 2 Technical Report](https://arxiv.org/pdf/2507.16632)",
+      "c": "",
+      "n": "GPT-4o Transcribe",
+      "d": "2025-08-27",
+      "m1": "9.30"
     },
     {
       "p": "[Scribosermo: Fast Speech-to-Text models for German and other Languages](https://arxiv.org/abs/2110.07982v1)",
       "c": "[&check;&nbsp;Link](https://gitlab.com/Jaco-Assistant/deepspeech-polyglot)",
-      "n": "ConformerCTC-L (no-LM)",
+      "n": "ConformerCTC-L (5-gram, charbased)",
       "d": "2021-10-15",
-      "m1": "10.19 %"
-    },
-    {
-      "p": "[Scribosermo: Fast Speech-to-Text models for German and other Languages](https://arxiv.org/abs/2110.07982v1)",
-      "c": "[&check;&nbsp;Link](https://gitlab.com/Jaco-Assistant/deepspeech-polyglot)",
-      "n": "QuartzNet15x5FR (D7)",
-      "d": "2021-10-15",
-      "m1": "11.0%"
-    },
-    {
-      "p": "[Scribosermo: Fast Speech-to-Text models for German and other Languages](https://arxiv.org/abs/2110.07982v1)",
-      "c": "[&check;&nbsp;Link](https://gitlab.com/Jaco-Assistant/deepspeech-polyglot)",
-      "n": "QuartzNet15x5FR (CV-only)",
-      "d": "2021-10-15",
-      "m1": "12.1%"
-    },
-    {
-      "p": "[Robust Speech Recognition via Large-Scale Weak Supervision](https://arxiv.org/abs/2212.04356v1)",
-      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
-      "n": "Whisper (Large v2)",
-      "d": "2022-12-06",
-      "m1": "13.9%"
+      "m1": "14.38%"
     }
   ],
   "markdown": "true",

@@ -47,6 +47,27 @@ Task Hierarchy: ['Speech Recognition']
       "m1": "1.17"
     },
     {
+      "p": "[Step-Audio 2 Technical Report](https://arxiv.org/pdf/2507.16632)",
+      "c": "",
+      "n": "Step-Audio 2",
+      "d": "2025-08-27",
+      "m1": "1.17"
+    },
+    {
+      "p": "[Kimi-Audio Technical Report](https://arxiv.org/pdf/2504.18425)",
+      "c": "[&check;&nbsp;Link](https://github.com/MoonshotAI/Kimi-Audio)",
+      "n": "Kimi-Audio",
+      "d": "2025-04-25",
+      "m1": "1.28"
+    },
+    {
+      "p": "[Step-Audio 2 Technical Report](https://arxiv.org/pdf/2507.16632)",
+      "c": "[&check;&nbsp;Link](https://github.com/stepfun-ai/Step-Audio2)",
+      "n": "Step-Audio 2 mini",
+      "d": "2025-08-27",
+      "m1": "1.33"
+    },
+    {
       "p": "[FAdam: Adam is a natural gradient optimizer using diagonal empirical Fisher information](https://arxiv.org/abs/2405.12807v10)",
       "c": "[&check;&nbsp;Link](https://github.com/lessw2020/fadam_pytorch)",
       "n": "FAdam",
@@ -100,6 +121,13 @@ Task Hierarchy: ['Speech Recognition']
       "c": "",
       "n": "Multistream CNN with Self-Attentive SRU (WER includes text normalization)",
       "d": "2020-05-21",
+      "m1": "1.75"
+    },
+    {
+      "p": "[Step-Audio 2 Technical Report](https://arxiv.org/pdf/2507.16632)",
+      "c": "",
+      "n": "GPT-4o Transcribe",
+      "d": "2025-08-27",
       "m1": "1.75"
     },
     {
@@ -346,6 +374,20 @@ Task Hierarchy: ['Speech Recognition']
       "n": "Jasper DR 10x5 (+ Time/Freq Masks)",
       "d": "2019-04-05",
       "m1": "2.84"
+    },
+    {
+      "p": "[Step-Audio 2 Technical Report](https://arxiv.org/pdf/2507.16632)",
+      "c": "",
+      "n": "Doubao LLM ASR",
+      "d": "2025-08-27",
+      "m1": "2.92"
+    },
+    {
+      "p": "[Step-Audio 2 Technical Report](https://arxiv.org/pdf/2507.16632)",
+      "c": "",
+      "n": "Qwen Omni",
+      "d": "2025-08-27",
+      "m1": "2.93"
     },
     {
       "p": "[Jasper: An End-to-End Convolutional Neural Acoustic Model](https://arxiv.org/abs/1904.03288v3)",
