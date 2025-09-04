@@ -50,6 +50,13 @@ Task Hierarchy: ['Speech Recognition']
     {
       "p": "[NeMo: a toolkit for building AI applications using Neural Modules](https://arxiv.org/abs/1909.09577v1)",
       "c": "[&check;&nbsp;Link](https://github.com/NVIDIA/NeMo)",
+      "n": "canary-1b-flash",
+      "d": "2025-03-07",
+      "m1": "3.62%"
+    },
+    {
+      "p": "[NeMo: a toolkit for building AI applications using Neural Modules](https://arxiv.org/abs/1909.09577v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/NVIDIA/NeMo)",
       "n": "ConformerCTC-L (4-gram)",
       "d": "2019-09-14",
       "m1": "5.5%"

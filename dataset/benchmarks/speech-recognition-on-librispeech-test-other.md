@@ -33,6 +33,20 @@ Task Hierarchy: ['Speech Recognition']
   ],
   "items": [
     {
+      "p": "[Kimi-Audio Technical Report](https://arxiv.org/pdf/2504.18425)",
+      "c": "[&check;&nbsp;Link](https://github.com/MoonshotAI/Kimi-Audio)",
+      "n": "Kimi-Audio",
+      "d": "2025-04-25",
+      "m1": "2.42"
+    },
+    {
+      "p": "[Step-Audio 2 Technical Report](https://arxiv.org/pdf/2507.16632)",
+      "c": "",
+      "n": "Step-Audio 2",
+      "d": "2025-08-27",
+      "m1": "2.42"
+    },
+    {
       "p": "[Samba-ASR: State-Of-The-Art Speech Recognition Leveraging Structured State-Space Models](https://arxiv.org/abs/2501.02832v3)",
       "c": "",
       "n": "SAMBA ASR",
@@ -59,6 +73,13 @@ Task Hierarchy: ['Speech Recognition']
       "n": "Conformer + Wav2vec 2.0 + SpecAugment-based Noisy Student Training with Libri-Light",
       "d": "2020-10-20",
       "m1": "2.6"
+    },
+    {
+      "p": "[Step-Audio 2 Technical Report](https://arxiv.org/pdf/2507.16632)",
+      "c": "[&check;&nbsp;Link](https://github.com/stepfun-ai/Step-Audio2)",
+      "n": "Step-Audio 2 mini",
+      "d": "2025-08-27",
+      "m1": "2.86"
     },
     {
       "p": "[HuBERT: Self-Supervised Speech Representation Learning by Masked Prediction of Hidden Units](https://arxiv.org/abs/2106.07447v1)",
@@ -187,6 +208,13 @@ Task Hierarchy: ['Speech Recognition']
       "m1": "4.2"
     },
     {
+      "p": "[Step-Audio 2 Technical Report](https://arxiv.org/pdf/2507.16632)",
+      "c": "",
+      "n": "GPT-4o Transcribe",
+      "d": "2025-08-27",
+      "m1": "4.23"
+    },
+    {
       "p": "[Conformer: Convolution-augmented Transformer for Speech Recognition](https://arxiv.org/abs/2005.08100v1)",
       "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleSpeech)",
       "n": "Conformer(M)",
@@ -250,11 +278,25 @@ Task Hierarchy: ['Speech Recognition']
       "m1": "5.0"
     },
     {
+      "p": "[Step-Audio 2 Technical Report](https://arxiv.org/pdf/2507.16632)",
+      "c": "",
+      "n": "Qwen Omni",
+      "d": "2025-08-27",
+      "m1": "5.07"
+    },
+    {
       "p": "[End-to-end ASR: from Supervised to Semi-Supervised Learning with Modern Architectures](https://arxiv.org/abs/1911.08460v3)",
       "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/wav2letter/tree/master/recipes/models/sota/2019)",
       "n": "Conv + Transformer AM (ConvLM  with Transformer Rescoring) (LS only)",
       "d": "2019-11-19",
       "m1": "5.18"
+    },
+    {
+      "p": "[Step-Audio 2 Technical Report](https://arxiv.org/pdf/2507.16632)",
+      "c": "",
+      "n": "Doubao LLM ASR",
+      "d": "2025-08-27",
+      "m1": "5.32"
     },
     {
       "p": "[ContextNet: Improving Convolutional Neural Networks for Automatic Speech Recognition with Global Context](https://arxiv.org/abs/2005.03191v3)",

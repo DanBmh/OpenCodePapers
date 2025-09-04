@@ -61,6 +61,13 @@ Task Hierarchy: ['Speech Recognition']
       "m2": "1.37%"
     },
     {
+      "p": "[NeMo: a toolkit for building AI applications using Neural Modules](https://arxiv.org/abs/1909.09577v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/NVIDIA/NeMo)",
+      "n": "canary-1b-flash",
+      "d": "2025-03-07",
+      "m1": "4.09%"
+    },
+    {
       "p": "[TEVR: Improving Speech Recognition by Token Entropy Variance Reduction](https://arxiv.org/abs/2206.12693v1)",
       "c": "[&check;&nbsp;Link](https://github.com/DeutscheKI/tevr-asr-tool)",
       "n": "wav2vec 2.0 XLS-R 1B (5-gram)",
