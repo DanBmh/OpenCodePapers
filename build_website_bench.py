@@ -271,6 +271,11 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
     if caption:
         caption_html = md_links_to_html(caption)
 
+    # Add link to file source
+    note = ' Then edit <a href="https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/dataset/benchmarks/{}?plain=0" target="_blank" rel="noopener noreferrer">this</a> file.'
+    note = note.format(os.path.basename(out_path).replace("html", "md"))
+    caption_html += note
+
     # Build columns (headers)
     thead_cells = []
     for col in columns:
