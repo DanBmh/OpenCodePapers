@@ -97,7 +97,7 @@ Task Hierarchy: ['Dialogue Understanding', 'Spoken Language Understanding']
       "p": "[Jaco: An Offline Running Privacy-aware Voice Assistant](https://arxiv.org/pdf/2209.07775)",
       "c": "[&check;&nbsp;Link](https://gitlab.com/Jaco-Assistant/)",
       "n": "Quartznet + Rasa",
-      "d": "2022-09-16",
+      "d": "2021-03-03",
       "m1": "62.7",
       "m2": "48.0"
     },
@@ -113,7 +113,7 @@ Task Hierarchy: ['Dialogue Understanding', 'Spoken Language Understanding']
       "p": "[Jaco: An Offline Running Privacy-aware Voice Assistant](https://arxiv.org/pdf/2209.07775)",
       "c": "[&check;&nbsp;Link](https://gitlab.com/Jaco-Assistant/)",
       "n": "Alexa",
-      "d": "2022-09-16",
+      "d": "2021-03-19",
       "m1": "45.5",
       "m2": "88.9"
     }
