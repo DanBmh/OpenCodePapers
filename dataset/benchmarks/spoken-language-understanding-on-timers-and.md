@@ -34,14 +34,21 @@ Task Hierarchy: ['Dialogue Understanding', 'Spoken Language Understanding']
   "items": [
     {
       "p": "[Finstreder: Simple and fast Spoken Language Understanding with Finite State Transducers using modern Speech-to-Text models](https://arxiv.org/abs/2206.14589v1)",
-      "c": "[&check;&nbsp;Link](https://gitlab.com/Jaco-Assistant/Jaco-Master)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/Jaco-Assistant/finstreder)",
       "n": "Finstreder (Conformer)",
       "d": "2022-06-29",
       "m1": "95.4"
     },
     {
+      "p": "[Slungt: Even Faster Spoken Language Understanding with N-Grams and Tries](https://opus.bibliothek.uni-augsburg.de/opus4/frontdoor/deliver/index/docId/120295/file/slungt.pdf)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/Jaco-Assistant/slungt)",
+      "n": "Slungt",
+      "d": "2024-02-11",
+      "m1": "92.5"
+    },
+    {
       "p": "[Finstreder: Simple and fast Spoken Language Understanding with Finite State Transducers using modern Speech-to-Text models](https://arxiv.org/abs/2206.14589v1)",
-      "c": "[&check;&nbsp;Link](https://gitlab.com/Jaco-Assistant/Jaco-Master)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/Jaco-Assistant/finstreder)",
       "n": "Finstreder (Quartznet)",
       "d": "2022-06-29",
       "m1": "90.0"

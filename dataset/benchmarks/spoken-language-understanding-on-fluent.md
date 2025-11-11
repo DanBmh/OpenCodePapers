@@ -34,7 +34,7 @@ Task Hierarchy: ['Dialogue Understanding', 'Spoken Language Understanding']
   "items": [
     {
       "p": "[Finstreder: Simple and fast Spoken Language Understanding with Finite State Transducers using modern Speech-to-Text models](https://arxiv.org/abs/2206.14589v1)",
-      "c": "[&check;&nbsp;Link](https://gitlab.com/Jaco-Assistant/Jaco-Master)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/Jaco-Assistant/finstreder)",
       "n": "Finstreder (Conformer + AMT, character-based)",
       "d": "2022-06-29",
       "m1": "99.8"
@@ -48,9 +48,16 @@ Task Hierarchy: ['Dialogue Understanding', 'Spoken Language Understanding']
     },
     {
       "p": "[Finstreder: Simple and fast Spoken Language Understanding with Finite State Transducers using modern Speech-to-Text models](https://arxiv.org/abs/2206.14589v1)",
-      "c": "[&check;&nbsp;Link](https://gitlab.com/Jaco-Assistant/Jaco-Master)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/Jaco-Assistant/finstreder)",
       "n": "Finstreder (Quartznet + AMT)",
       "d": "2022-06-29",
+      "m1": "99.7"
+    },
+    {
+      "p": "[Slungt: Even Faster Spoken Language Understanding with N-Grams and Tries](https://opus.bibliothek.uni-augsburg.de/opus4/frontdoor/deliver/index/docId/120295/file/slungt.pdf)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/Jaco-Assistant/slungt)",
+      "n": "Slungt (Conformer + AMT, character-based)",
+      "d": "2024-02-11",
       "m1": "99.7"
     },
     {
@@ -83,7 +90,7 @@ Task Hierarchy: ['Dialogue Understanding', 'Spoken Language Understanding']
     },
     {
       "p": "[Finstreder: Simple and fast Spoken Language Understanding with Finite State Transducers using modern Speech-to-Text models](https://arxiv.org/abs/2206.14589v1)",
-      "c": "[&check;&nbsp;Link](https://gitlab.com/Jaco-Assistant/Jaco-Master)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/Jaco-Assistant/finstreder)",
       "n": "Finstreder (Conformer)",
       "d": "2022-06-29",
       "m1": "99.5"
@@ -94,6 +101,13 @@ Task Hierarchy: ['Dialogue Understanding', 'Spoken Language Understanding']
       "n": "AT-AT",
       "d": "2020-12-15",
       "m1": "99.5"
+    },
+    {
+      "p": "[Finstreder: Simple and fast Spoken Language Understanding with Finite State Transducers using modern Speech-to-Text models](https://arxiv.org/abs/2206.14589v1)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/Jaco-Assistant/finstreder)",
+      "n": "Finstreder (Conformer, character-based)",
+      "d": "2022-06-29",
+      "m1": "99.4"
     },
     {
       "p": "[End-to-End Spoken Language Understanding for Generalized Voice Assistants](https://arxiv.org/abs/2106.09009v2)",
@@ -111,9 +125,23 @@ Task Hierarchy: ['Dialogue Understanding', 'Spoken Language Understanding']
     },
     {
       "p": "[Finstreder: Simple and fast Spoken Language Understanding with Finite State Transducers using modern Speech-to-Text models](https://arxiv.org/abs/2206.14589v1)",
-      "c": "[&check;&nbsp;Link](https://gitlab.com/Jaco-Assistant/Jaco-Master)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/Jaco-Assistant/finstreder)",
       "n": "Finstreder (Quartznet)",
       "d": "2022-06-29",
+      "m1": "99.2"
+    },
+    {
+      "p": "[Slungt: Even Faster Spoken Language Understanding with N-Grams and Tries](https://opus.bibliothek.uni-augsburg.de/opus4/frontdoor/deliver/index/docId/120295/file/slungt.pdf)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/Jaco-Assistant/slungt)",
+      "n": "Slungt (Conformer, character-based)",
+      "d": "2024-02-11",
+      "m1": "99.2"
+    },
+    {
+      "p": "[Cross-Modal Alignment for End-to-End Spoken Language Understanding Based on Momentum Contrastive Learning](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10448143)",
+      "c": "",
+      "n": "CMMC",
+      "d": "2024-04-14",
       "m1": "99.2"
     },
     {
@@ -131,6 +159,20 @@ Task Hierarchy: ['Dialogue Understanding', 'Spoken Language Understanding']
       "m1": "99.0"
     },
     {
+      "p": "[Sequential End-to-End Intent and Slot Label Classification and Localization](https://arxiv.org/pdf/2106.04660)",
+      "c": "",
+      "n": "CTC + Pretrained ASR",
+      "d": "2021-06-08",
+      "m1": "99.0"
+    },
+    {
+      "p": "[Speech Understanding on Tiny Devices with A Learning Cache](https://dl.acm.org/doi/pdf/10.1145/3643832.3661886)",
+      "c": "",
+      "n": "Base",
+      "d": "2024-06-04",
+      "m1": "99.0"
+    },
+    {
       "p": "[Speech Model Pre-training for End-to-End Spoken Language Understanding](https://arxiv.org/abs/1904.03670v2)",
       "c": "[&check;&nbsp;Link](https://github.com/dscripka/openwakeword)",
       "n": "Pooling classifier pre-trained using force-aligned phoneme and word labels on LibriSpeech",
@@ -143,6 +185,13 @@ Task Hierarchy: ['Dialogue Understanding', 'Spoken Language Understanding']
       "n": "Amazon Alexa",
       "d": "2022-06-29",
       "m1": "98.7"
+    },
+    {
+      "p": "[Slungt: Even Faster Spoken Language Understanding with N-Grams and Tries](https://opus.bibliothek.uni-augsburg.de/opus4/frontdoor/deliver/index/docId/120295/file/slungt.pdf)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/Jaco-Assistant/slungt)",
+      "n": "Slungt (Conformer)",
+      "d": "2024-02-11",
+      "m1": "98.3"
     },
     {
       "p": "[SpeechPrompt v2: Prompt Tuning for Speech Classification Tasks](https://arxiv.org/abs/2303.00733v1)",
