@@ -455,6 +455,13 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
       }};
       const cfg = {{ displayModeBar:false, responsive:true }};
 
+      // Hide all but the first metric initially
+      tracesCode.forEach((trace, idx) => {{
+        if (idx > 0) {{
+          trace.visible = 'legendonly';
+        }}
+      }});
+
       // Create the plot
       Plotly.newPlot('metricPlot', tracesCode, layout, cfg);
     }})();
