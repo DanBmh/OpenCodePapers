@@ -224,6 +224,8 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
 
     # Sort each series by date
     for mk in metric_keys:
+        for i in range(len(series_code[mk])):
+            series_code[mk][i]["idx"] = i
         series_code[mk].sort(key=lambda d: d["x"])
 
     # Map metric key -> label
@@ -232,14 +234,32 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
     # Build Plotly traces (as JS)
     def build_traces(series_dict):
         out = []
-        for mk in metric_keys:
+        for metric_index, mk in enumerate(metric_keys):
             pts = series_dict[mk]
             if not pts:
                 continue
-            x_js = json.dumps([p["x"] for p in pts])
-            y_js = json.dumps([p["y"] for p in pts])
-            text_js = json.dumps([(p["model"] or "") for p in pts])
+
+            xs = [p["x"] for p in pts]
+            ys = [p["y"] for p in pts]
+            texts = [(p["model"] or "") for p in pts]
             name = metric_labels.get(mk, mk).replace('"', '\\"')
+            marker_sizes = [6] * len(pts)
+            marker_symbols = ["circle"] * len(pts)
+
+            # Highlight best point of the first metric
+            best_idx = None
+            if metric_index == 0:
+                best_idx = min(enumerate(pts), key=lambda x: x[1]["idx"])[0]
+            if best_idx is not None:
+                marker_sizes[best_idx] = 18
+                marker_symbols[best_idx] = "star"
+
+            x_js = json.dumps(xs)
+            y_js = json.dumps(ys)
+            text_js = json.dumps(texts)
+            size_js = json.dumps(marker_sizes)
+            symbol_js = json.dumps(marker_symbols)
+
             out.append(
                 f"""{{
                     name: "{name}",
@@ -248,6 +268,10 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
                     text: {text_js},
                     mode: 'lines+markers',
                     type: 'scatter',
+                    marker: {{
+                        size: {size_js},
+                        symbol: {symbol_js}
+                    }},
                     hovertemplate: '%{{y}}<extra>%{{text}}</extra>'
                 }}"""
             )
@@ -438,12 +462,12 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
     </div>
   </div>
 
-  <!-- Plotly (charting) -->
+  <!-- Plotly chart -->
   <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
   <script>
     (function() {{
-      // ===== Plot (Plotly) =====
       const tracesCode = [ {traces_js_code} ];
+
       const layout = {{
         paper_bgcolor: 'white',
         plot_bgcolor: 'white',
@@ -455,39 +479,48 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
       }};
       const cfg = {{ displayModeBar:false, responsive:true }};
 
-      let showNoCode = false; // start hidden
-      Plotly.newPlot('metricPlot', tracesCode, layout, cfg);
-
-      const btns = document.querySelectorAll('.toggle-nocode');
-      function applyNoCodeVisibility() {{
-        // Table rows: force correct display for <tr>
-        document.querySelectorAll('tr.nocode').forEach(tr => {{
-          tr.style.display = showNoCode ? 'table-row' : 'none';
-        }});
-
-        // Plot
-        Plotly.react('metricPlot', tracesCode, layout, cfg);
-
-        // Sync all buttons' labels
-        btns.forEach(b => {{
-          b.textContent = showNoCode ? 'Hide papers without code' : 'Show papers without code';
-        }});
-      }}
-
-      btns.forEach(b => {{
-        b.addEventListener('click', () => {{
-          showNoCode = !showNoCode;
-          applyNoCodeVisibility();
-        }});
+      // Hide all but the first metric initially
+      tracesCode.forEach((trace, idx) => {{
+        if (idx > 0) {{
+          trace.visible = 'legendonly';
+        }}
       }});
 
-      // Ensure initial state matches default (hidden)
-      applyNoCodeVisibility();
+      // Create the plot
+      Plotly.newPlot('metricPlot', tracesCode, layout, cfg);
     }})();
   </script>
 
+  <!-- No code visibility toggle -->
   <script>
-    // ===== Table sorting (lightweight) =====
+    let showNoCode = false; // start hidden
+    const btns = document.querySelectorAll('.toggle-nocode');
+
+    function applyNoCodeVisibility() {{
+      // Table rows: force correct display for <tr>
+      document.querySelectorAll('tr.nocode').forEach(tr => {{
+        tr.style.display = showNoCode ? 'table-row' : 'none';
+      }});
+
+      // Sync all buttons' labels
+      btns.forEach(b => {{
+        b.textContent = showNoCode ? 'Hide papers without code' : 'Show papers without code';
+      }});
+    }}
+
+    btns.forEach(b => {{
+      b.addEventListener('click', () => {{
+        showNoCode = !showNoCode;
+        applyNoCodeVisibility();
+      }});
+    }});
+
+    // Ensure initial state matches default (hidden)
+    applyNoCodeVisibility();
+  </script>
+
+  <!-- Table sorting -->
+  <script>
     (function() {{
       const table = document.getElementById('resultsTable');
       const getCellValue = (tr, idx, type) => {{
