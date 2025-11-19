@@ -1,4 +1,4 @@
-# skeleton-based-action-recognition-on-ntu-rgbd-1
+# skeleton-based-action-recognition-on-ntu-rgbd-120
 
 [Dataset Link](http://rose1.ntu.edu.sg/Datasets/actionRecognition.asp) \
 Task Hierarchy: ['Action Recognition', '3D Action Recognition', 'Skeleton Based Action Recognition']
@@ -47,6 +47,22 @@ Task Hierarchy: ['Action Recognition', '3D Action Recognition', 'Skeleton Based 
     }
   ],
   "items": [
+    {
+      "p": "[3Mformer: Multi-order Multi-mode Transformer for Skeletal Action Recognition](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_3Mformer_Multi-Order_Multi-Mode_Transformer_for_Skeletal_Action_Recognition_CVPR_2023_paper.pdf)",
+      "c": "",
+      "n": "3Mformer",
+      "d": "2023-03-25",
+      "m1": "92.0",
+      "m2": "93.8"
+    },
+    {
+      "p": "[Reenvisioning Skeleton-based Action Recognition Through the Lens of NLP](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10888571)",
+      "c": "",
+      "n": "POTR",
+      "d": "2025-04-06",
+      "m1": "91.1",
+      "m2": "92.0"
+    },
     {
       "p": "[Revealing Key Details to See Differences: A Novel Prototypical Perspective for Skeleton-based Action Recognition](https://arxiv.org/abs/2411.18941v1)",
       "c": "[&check;&nbsp;Link](https://github.com/firework8/ProtoGCN)",
@@ -119,6 +135,14 @@ Task Hierarchy: ['Action Recognition', '3D Action Recognition', 'Skeleton Based 
       "m3": "4"
     },
     {
+      "p": "[Multi-modal and multi-part with skeletons and texts for action recognition](https://www.sciencedirect.com/science/article/pii/S0957417425002684)",
+      "c": "",
+      "n": "MMP-ST",
+      "d": "2025-01-20",
+      "m1": "90.2",
+      "m2": "91.2"
+    },
+    {
       "p": "[Hierarchically Decomposed Graph Convolutional Networks for Skeleton-Based Action Recognition](https://arxiv.org/abs/2208.10741v3)",
       "c": "[&check;&nbsp;Link](https://github.com/Jho-Yonsei/HD-GCN)",
       "n": "HD-GCN",
@@ -134,6 +158,15 @@ Task Hierarchy: ['Action Recognition', '3D Action Recognition', 'Skeleton Based 
       "d": "2023-08-14",
       "m1": "90.0",
       "m2": "91.3"
+    },
+    {
+      "p": "[Language-guided temporal primitive modeling for skeleton-based action recognition](https://www.sciencedirect.com/science/article/pii/S0925231224014073)",
+      "c": "",
+      "n": "LGS-Net",
+      "d": "2024-09-15",
+      "m1": "90.0",
+      "m2": "91.3",
+      "m3": "4"
     },
     {
       "p": "[STEP CATFormer: Spatial-Temporal Effective Body-Part Cross Attention Transformer for Skeleton-based Action Recognition](https://arxiv.org/abs/2312.03288v1)",
@@ -517,6 +550,14 @@ Task Hierarchy: ['Action Recognition', '3D Action Recognition', 'Skeleton Based 
       "d": "2020-08-09",
       "m1": "81.1%",
       "m2": "82.7%"
+    },
+    {
+      "p": "[Skeleton-based action recognition through dual-granularity feature fusion with self-adapting graph convolution and multi-scale temporal convolution](https://www.sciencedirect.com/science/article/pii/S0925231225009336)",
+      "c": "",
+      "n": "MTGCN",
+      "d": "2025-04-09",
+      "m1": "80.8",
+      "m2": "81.7"
     },
     {
       "p": "[USDRL: Unified Skeleton-Based Dense Representation Learning with Multi-Grained Feature Decorrelation](https://arxiv.org/abs/2412.09220v2)",
