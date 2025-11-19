@@ -438,12 +438,12 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
     </div>
   </div>
 
-  <!-- Plotly (charting) -->
+  <!-- Plotly chart -->
   <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
   <script>
     (function() {{
-      // ===== Plot (Plotly) =====
       const tracesCode = [ {traces_js_code} ];
+
       const layout = {{
         paper_bgcolor: 'white',
         plot_bgcolor: 'white',
@@ -455,39 +455,41 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
       }};
       const cfg = {{ displayModeBar:false, responsive:true }};
 
-      let showNoCode = false; // start hidden
+      // Create the plot
       Plotly.newPlot('metricPlot', tracesCode, layout, cfg);
-
-      const btns = document.querySelectorAll('.toggle-nocode');
-      function applyNoCodeVisibility() {{
-        // Table rows: force correct display for <tr>
-        document.querySelectorAll('tr.nocode').forEach(tr => {{
-          tr.style.display = showNoCode ? 'table-row' : 'none';
-        }});
-
-        // Plot
-        Plotly.react('metricPlot', tracesCode, layout, cfg);
-
-        // Sync all buttons' labels
-        btns.forEach(b => {{
-          b.textContent = showNoCode ? 'Hide papers without code' : 'Show papers without code';
-        }});
-      }}
-
-      btns.forEach(b => {{
-        b.addEventListener('click', () => {{
-          showNoCode = !showNoCode;
-          applyNoCodeVisibility();
-        }});
-      }});
-
-      // Ensure initial state matches default (hidden)
-      applyNoCodeVisibility();
     }})();
   </script>
 
+  <!-- No code visibility toggle -->
   <script>
-    // ===== Table sorting (lightweight) =====
+    let showNoCode = false; // start hidden
+    const btns = document.querySelectorAll('.toggle-nocode');
+
+    function applyNoCodeVisibility() {{
+      // Table rows: force correct display for <tr>
+      document.querySelectorAll('tr.nocode').forEach(tr => {{
+        tr.style.display = showNoCode ? 'table-row' : 'none';
+      }});
+
+      // Sync all buttons' labels
+      btns.forEach(b => {{
+        b.textContent = showNoCode ? 'Hide papers without code' : 'Show papers without code';
+      }});
+    }}
+
+    btns.forEach(b => {{
+      b.addEventListener('click', () => {{
+        showNoCode = !showNoCode;
+        applyNoCodeVisibility();
+      }});
+    }});
+
+    // Ensure initial state matches default (hidden)
+    applyNoCodeVisibility();
+  </script>
+
+  <!-- Table sorting -->
+  <script>
     (function() {{
       const table = document.getElementById('resultsTable');
       const getCellValue = (tr, idx, type) => {{
