@@ -224,6 +224,8 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
 
     # Sort each series by date
     for mk in metric_keys:
+        for i in range(len(series_code[mk])):
+            series_code[mk][i]["idx"] = i
         series_code[mk].sort(key=lambda d: d["x"])
 
     # Map metric key -> label
@@ -232,14 +234,32 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
     # Build Plotly traces (as JS)
     def build_traces(series_dict):
         out = []
-        for mk in metric_keys:
+        for metric_index, mk in enumerate(metric_keys):
             pts = series_dict[mk]
             if not pts:
                 continue
-            x_js = json.dumps([p["x"] for p in pts])
-            y_js = json.dumps([p["y"] for p in pts])
-            text_js = json.dumps([(p["model"] or "") for p in pts])
+
+            xs = [p["x"] for p in pts]
+            ys = [p["y"] for p in pts]
+            texts = [(p["model"] or "") for p in pts]
             name = metric_labels.get(mk, mk).replace('"', '\\"')
+            marker_sizes = [6] * len(pts)
+            marker_symbols = ["circle"] * len(pts)
+
+            # Highlight best point of the first metric
+            best_idx = None
+            if metric_index == 0:
+                best_idx = min(enumerate(pts), key=lambda x: x[1]["idx"])[0]
+            if best_idx is not None:
+                marker_sizes[best_idx] = 18
+                marker_symbols[best_idx] = "star"
+
+            x_js = json.dumps(xs)
+            y_js = json.dumps(ys)
+            text_js = json.dumps(texts)
+            size_js = json.dumps(marker_sizes)
+            symbol_js = json.dumps(marker_symbols)
+
             out.append(
                 f"""{{
                     name: "{name}",
@@ -248,6 +268,10 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
                     text: {text_js},
                     mode: 'lines+markers',
                     type: 'scatter',
+                    marker: {{
+                        size: {size_js},
+                        symbol: {symbol_js}
+                    }},
                     hovertemplate: '%{{y}}<extra>%{{text}}</extra>'
                 }}"""
             )
