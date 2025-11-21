@@ -74,6 +74,14 @@ Task Hierarchy: ['Pose Estimation', '3D Human Pose Estimation']
       "m7": "23.7"
     },
     {
+      "p": "[TesseTrack: End-to-End Learnable Multi-Person Articulated 3D Pose Tracking](http://www.cs.cmu.edu/~ILIM/projects/IM/TesseTrack/)",
+      "c": "",
+      "n": "TesseTrack",
+      "d": "2021-06-16",
+      "m1": "18.7",
+      "m3": "Multi-View"
+    },
+    {
       "p": "[Geometry-Biased Transformer for Robust Multi-View 3D Human Pose Reconstruction](https://arxiv.org/abs/2312.17106v1)",
       "c": "",
       "n": "Geometry-Biased Transformer (HRNet)",
@@ -449,6 +457,13 @@ Task Hierarchy: ['Pose Estimation', '3D Human Pose Estimation']
       "m1": "44.8",
       "m2": "No",
       "m3": "Monocular"
+    },
+    {
+      "p": "[LiftFormer: 3D Human Pose Estimation using attention models](https://arxiv.org/abs/2009.00348v1)",
+      "c": "",
+      "n": "Liftformer (n=243 CPN)",
+      "d": "2020-09-01",
+      "m1": "44.8"
     },
     {
       "p": "[Consensus-based Optimization for 3D Human Pose Estimation in Camera Coordinates](https://arxiv.org/abs/1911.09245v3)",
