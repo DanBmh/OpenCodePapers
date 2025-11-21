@@ -1,4 +1,4 @@
-# human-pose-forecasting-on-human36m
+# human-pose-forecasting-on-human36m-relative
 
 [Dataset Link](http://vision.imar.ro/human3.6m/description.php) \
 Task Hierarchy: ['Pose Estimation', 'Human Pose Forecasting']

@@ -1,0 +1,84 @@
+# human-pose-forecasting-on-cmu-mocap
+
+[Dataset Link](https://gitlab.com/Percipiote/Scriboora#data) \
+Task Hierarchy: ['Pose Estimation', 'Human Pose Forecasting']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Average MPJPE (mm) @ 1000 ms",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Average MPJPE (mm) @ 3000 ms",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Scriboora: Rethinking Human Pose Forecasting](https://arxiv.org/pdf/2511.15565)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/Percipiote/Scriboora)",
+      "n": "MotionConformer",
+      "d": "2025-11-19",
+      "m1": "201",
+      "m2": "462"
+    },
+    {
+      "p": "[Efficient Multi-Person Motion Prediction by Lightweight Spatial and Temporal Interactions](https://openaccess.thecvf.com/content/ICCV2025/papers/Zheng_Efficient_Multi-Person_Motion_Prediction_by_Lightweight_Spatial_and_Temporal_Interactions_ICCV_2025_paper.pdf)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/Percipiote/PoseForecastWrappers)",
+      "n": "EMPMP",
+      "d": "2025-10-19",
+      "m1": "216",
+      "m2": "489"
+    },
+    {
+      "p": "[EqMotion: Equivariant Multi-agent Motion Prediction with Invariant Interaction Reasoning](https://arxiv.org/abs/2303.10876v2)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/Percipiote/PoseForecastWrappers)",
+      "n": "EqMotion",
+      "d": "2023-03-20",
+      "m1": "217",
+      "m2": "469"
+    },
+    {
+      "p": "[DeformMLP: Dynamic Large-Scale Receptive Field MLP Networks for Human Motion Prediction](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10447880)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/Percipiote/PoseForecastWrappers)",
+      "n": "DeformMLP",
+      "d": "2024-04-14",
+      "m1": "242",
+      "m2": "656"
+    },
+    {
+      "p": "[Joint-Relation Transformer for Multi-Person Motion Prediction](https://openaccess.thecvf.com/content/ICCV2023/papers/Xu_Joint-Relation_Transformer_for_Multi-Person_Motion_Prediction_ICCV_2023_paper.pdf)",
+      "c": "[&check;&nbsp;Link](https://gitlab.com/Percipiote/PoseForecastWrappers)",
+      "n": "JRTransformer",
+      "d": "2023-08-09",
+      "m1": "245",
+      "m2": "602"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```
