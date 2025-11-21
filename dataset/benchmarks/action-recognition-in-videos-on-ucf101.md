@@ -1,7 +1,7 @@
 # action-recognition-in-videos-on-ucf101
 
 [Dataset Link](https://www.crcv.ucf.edu/data/UCF101.php) \
-Task Hierarchy: ['Action Recognition']
+Task Hierarchy: ['Action Recognition', 'Action Recognition In Videos']
 
 <br>
 

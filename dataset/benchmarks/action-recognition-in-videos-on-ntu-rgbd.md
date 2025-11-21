@@ -1,7 +1,7 @@
 # action-recognition-in-videos-on-ntu-rgbd
 
 [Dataset Link](https://github.com/shahroudy/NTURGB-D) \
-Task Hierarchy: ['Action Recognition']
+Task Hierarchy: ['Action Recognition', 'Action Recognition In Videos']
 
 <br>
 

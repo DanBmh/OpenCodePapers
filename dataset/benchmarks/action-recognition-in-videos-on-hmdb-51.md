@@ -1,7 +1,7 @@
 # action-recognition-in-videos-on-hmdb-51
 
 [Dataset Link](https://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database) \
-Task Hierarchy: ['Action Recognition']
+Task Hierarchy: ['Action Recognition', 'Action Recognition In Videos']
 
 <br>
 

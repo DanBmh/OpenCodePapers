@@ -1,7 +1,7 @@
 # action-recognition-in-videos-on-something-1
 
 [Dataset Link](https://20bn.com/datasets/something-something/v1) \
-Task Hierarchy: ['Action Recognition']
+Task Hierarchy: ['Action Recognition', 'Action Recognition In Videos']
 
 <br>
 

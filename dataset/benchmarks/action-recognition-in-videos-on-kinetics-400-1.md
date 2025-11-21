@@ -1,7 +1,7 @@
 # action-recognition-in-videos-on-kinetics-400-1
 
 [Dataset Link](https://deepmind.com/research/open-source/kinetics) \
-Task Hierarchy: ['Action Recognition In Videos']
+Task Hierarchy: ['Action Recognition', 'Action Recognition In Videos']
 
 <br>
 

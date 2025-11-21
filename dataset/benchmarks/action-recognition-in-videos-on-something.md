@@ -1,7 +1,7 @@
 # action-recognition-in-videos-on-something
 
 [Dataset Link](https://developer.qualcomm.com/software/ai-datasets/something-something) \
-Task Hierarchy: ['Action Recognition']
+Task Hierarchy: ['Action Recognition', 'Action Recognition In Videos']
 
 <br>
 

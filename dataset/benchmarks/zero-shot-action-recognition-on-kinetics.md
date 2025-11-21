@@ -1,7 +1,7 @@
 # zero-shot-action-recognition-on-kinetics
 
 [Dataset Link](https://deepmind.com/research/open-source/kinetics) \
-Task Hierarchy: ['Zero-Shot Action Recognition']
+Task Hierarchy: ['Action Recognition', 'Zero-Shot Action Recognition']
 
 <br>
 

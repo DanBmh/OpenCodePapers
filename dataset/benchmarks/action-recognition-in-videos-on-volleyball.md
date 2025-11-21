@@ -1,7 +1,7 @@
 # action-recognition-in-videos-on-volleyball
 
 [Dataset Link](https://github.com/mostafa-saad/deep-activity-rec#dataset) \
-Task Hierarchy: ['Action Recognition']
+Task Hierarchy: ['Action Recognition', 'Action Recognition In Videos']
 
 <br>
 

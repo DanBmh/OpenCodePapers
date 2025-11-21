@@ -1,7 +1,7 @@
 # action-recognition-in-videos-on-ava-v21
 
 [Dataset Link](http://research.google.com/ava/) \
-Task Hierarchy: ['Action Recognition']
+Task Hierarchy: ['Action Recognition', 'Action Recognition In Videos']
 
 <br>
 
