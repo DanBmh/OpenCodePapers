@@ -1,0 +1,123 @@
+# univariate-time-series-forecasting-on
+
+[Dataset Link](https://archive.ics.uci.edu/ml/datasets/individual+household+electric+power+consumption) \
+Task Hierarchy: ['Time Series Forecasting', 'Univariate Time Series Forecasting']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "RRSE",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Connecting the Dots: Multivariate Time Series Forecasting with Graph Neural Networks](https://arxiv.org/abs/2005.11650v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/benedekrozemberczki/pytorch_geometric_temporal)",
+      "n": "MTGNN (3 step)",
+      "d": "2020-05-24",
+      "m1": "0.0745"
+    },
+    {
+      "p": "[Temporal Pattern Attention for Multivariate Time Series Forecasting](https://arxiv.org/abs/1809.04206v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/gantheory/TPA-LSTM)",
+      "n": "TPA-LSTM (3 step)",
+      "d": "2018-09-12",
+      "m1": "0.0823"
+    },
+    {
+      "p": "[Modeling Long- and Short-Term Temporal Patterns with Deep Neural Networks](http://arxiv.org/abs/1703.07015v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/laiguokun/multivariate-time-series-data)",
+      "n": "LST-Skip (3 step)",
+      "d": "2017-03-21",
+      "m1": "0.0864"
+    },
+    {
+      "p": "[Connecting the Dots: Multivariate Time Series Forecasting with Graph Neural Networks](https://arxiv.org/abs/2005.11650v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/benedekrozemberczki/pytorch_geometric_temporal)",
+      "n": "MTGNN (6 step)",
+      "d": "2020-05-24",
+      "m1": "0.0878"
+    },
+    {
+      "p": "[Connecting the Dots: Multivariate Time Series Forecasting with Graph Neural Networks](https://arxiv.org/abs/2005.11650v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/benedekrozemberczki/pytorch_geometric_temporal)",
+      "n": "MTGNN (12 step)",
+      "d": "2020-05-24",
+      "m1": "0.0916"
+    },
+    {
+      "p": "[Temporal Pattern Attention for Multivariate Time Series Forecasting](https://arxiv.org/abs/1809.04206v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/gantheory/TPA-LSTM)",
+      "n": "TPA-LSTM (6 step)",
+      "d": "2018-09-12",
+      "m1": "0.0916"
+    },
+    {
+      "p": "[Modeling Long- and Short-Term Temporal Patterns with Deep Neural Networks](http://arxiv.org/abs/1703.07015v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/laiguokun/multivariate-time-series-data)",
+      "n": "LST-Skip (6 step)",
+      "d": "2017-03-21",
+      "m1": " 0.0931"
+    },
+    {
+      "p": "[Connecting the Dots: Multivariate Time Series Forecasting with Graph Neural Networks](https://arxiv.org/abs/2005.11650v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/benedekrozemberczki/pytorch_geometric_temporal)",
+      "n": "MTGNN (24 step)",
+      "d": "2020-05-24",
+      "m1": "0.0953"
+    },
+    {
+      "p": "[Temporal Pattern Attention for Multivariate Time Series Forecasting](https://arxiv.org/abs/1809.04206v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/gantheory/TPA-LSTM)",
+      "n": "TPA-LSTM (12 step)",
+      "d": "2018-09-12",
+      "m1": "0.0964"
+    },
+    {
+      "p": "[Temporal Pattern Attention for Multivariate Time Series Forecasting](https://arxiv.org/abs/1809.04206v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/gantheory/TPA-LSTM)",
+      "n": "TPA-LSTM (24 step)",
+      "d": "2018-09-12",
+      "m1": "0.1006"
+    },
+    {
+      "p": "[Modeling Long- and Short-Term Temporal Patterns with Deep Neural Networks](http://arxiv.org/abs/1703.07015v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/laiguokun/multivariate-time-series-data)",
+      "n": "LST-Skip (24 step)",
+      "d": "2017-03-21",
+      "m1": "0.1007"
+    },
+    {
+      "p": "[Modeling Long- and Short-Term Temporal Patterns with Deep Neural Networks](http://arxiv.org/abs/1703.07015v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/laiguokun/multivariate-time-series-data)",
+      "n": "LST-Skip (12 step)",
+      "d": "2017-03-21",
+      "m1": "0.1007"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

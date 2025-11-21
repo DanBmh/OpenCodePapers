@@ -1,0 +1,123 @@
+# question-answering-on-coqa
+
+[Dataset Link](https://stanfordnlp.github.io/coqa/) \
+Task Hierarchy: ['Question Answering']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "In-domain",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Out-of-domain",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Overall",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "BERT Large Augmented (single model)",
+      "d": "2018-10-11",
+      "m1": "82.5",
+      "m2": "77.6",
+      "m3": "81.1"
+    },
+    {
+      "p": "[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "BERT-base finetune (single model)",
+      "d": "2018-10-11",
+      "m1": "79.8",
+      "m2": "74.1",
+      "m3": "78.1"
+    },
+    {
+      "p": "[A Qualitative Comparison of CoQA, SQuAD 2.0 and QuAC](https://arxiv.org/abs/1809.10735v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/my89/co-squac)",
+      "n": "BiDAF++ (single model)",
+      "d": "2018-09-27",
+      "m1": "69.4",
+      "m2": "63.8",
+      "m3": "67.8"
+    },
+    {
+      "p": "[CoQA: A Conversational Question Answering Challenge](http://arxiv.org/abs/1808.07042v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/stanfordnlp/coqa-baselines)",
+      "n": "DrQA + seq2seq with copy attention (single model)",
+      "d": "2018-08-21",
+      "m1": "67.0",
+      "m2": "60.4",
+      "m3": "65.1"
+    },
+    {
+      "p": "[CoQA: A Conversational Question Answering Challenge](http://arxiv.org/abs/1808.07042v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/stanfordnlp/coqa-baselines)",
+      "n": "Vanilla DrQA (single model)",
+      "d": "2018-08-21",
+      "m1": "54.5",
+      "m2": "47.9",
+      "m3": "52.6"
+    },
+    {
+      "p": "[FlowQA: Grasping Flow in History for Conversational Machine Comprehension](http://arxiv.org/abs/1810.06683v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/momohuang/FlowQA)",
+      "n": "FlowQA (single model)",
+      "d": "2018-10-06",
+      "m2": "71.8",
+      "m3": "75.0"
+    },
+    {
+      "p": "[Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/ggml-org/llama.cpp)",
+      "n": "GPT-3 175B (few-shot, k=32)",
+      "d": "2020-05-28",
+      "m3": "85"
+    },
+    {
+      "p": "[SDNet: Contextualized Attention-based Deep Network for Conversational Question Answering](http://arxiv.org/abs/1812.03593v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/Microsoft/SDNet)",
+      "n": "SDNet (ensemble)",
+      "d": "2018-12-10",
+      "m3": "79.3"
+    },
+    {
+      "p": "[SDNet: Contextualized Attention-based Deep Network for Conversational Question Answering](http://arxiv.org/abs/1812.03593v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/Microsoft/SDNet)",
+      "n": "SDNet (single model)",
+      "d": "2018-12-10",
+      "m3": "76.6"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

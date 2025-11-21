@@ -1,0 +1,81 @@
+# humor-detection-on-200k-short-texts-for-humor-1
+
+[Dataset Link]() \
+Task Hierarchy: ['Humor Detection']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "F1-score",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[ColBERT: Using BERT Sentence Embedding in Parallel Neural Networks for Computational Humor](https://arxiv.org/abs/2004.12765v7)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "ColBERT model",
+      "d": "2020-04-27",
+      "m1": "0.982"
+    },
+    {
+      "p": "[XLNet: Generalized Autoregressive Pretraining for Language Understanding](https://arxiv.org/abs/1906.08237v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "XLNet Large Cased",
+      "d": "2019-06-19",
+      "m1": "0.920"
+    },
+    {
+      "p": "[ColBERT: Using BERT Sentence Embedding in Parallel Neural Networks for Computational Humor](https://arxiv.org/abs/2004.12765v7)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "Multinomial NB",
+      "d": "2020-04-27",
+      "m1": "0.882"
+    },
+    {
+      "p": "[ColBERT: Using BERT Sentence Embedding in Parallel Neural Networks for Computational Humor](https://arxiv.org/abs/2004.12765v7)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "SVM",
+      "d": "2020-04-27",
+      "m1": "0.874"
+    },
+    {
+      "p": "[XGBoost: A Scalable Tree Boosting System](http://arxiv.org/abs/1603.02754v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/xgboost)",
+      "n": "XGBoost",
+      "d": "2016-03-09",
+      "m1": "0.813"
+    },
+    {
+      "p": "[ColBERT: Using BERT Sentence Embedding in Parallel Neural Networks for Computational Humor](https://arxiv.org/abs/2004.12765v7)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "Decision Tree",
+      "d": "2020-04-27",
+      "m1": "0.794"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,84 @@
+# text-classification-on-svictor-type
+
+[Dataset Link]() \
+Task Hierarchy: ['Text Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Average F1",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Weighted F1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[VICTOR: a Dataset for Brazilian Legal Documents Classification](https://aclanthology.org/2020.lrec-1.181)",
+      "c": "[&check;&nbsp;Link](https://github.com/peluz/VICTOR-dataset)",
+      "n": "CNN + CRF",
+      "d": "2020-05-01",
+      "m1": "0.7740",
+      "m2": "0.9533"
+    },
+    {
+      "p": "[VICTOR: a Dataset for Brazilian Legal Documents Classification](https://aclanthology.org/2020.lrec-1.181)",
+      "c": "[&check;&nbsp;Link](https://github.com/peluz/VICTOR-dataset)",
+      "n": "SVM",
+      "d": "2020-05-01",
+      "m1": "0.7632",
+      "m2": "0.9425"
+    },
+    {
+      "p": "[VICTOR: a Dataset for Brazilian Legal Documents Classification](https://aclanthology.org/2020.lrec-1.181)",
+      "c": "[&check;&nbsp;Link](https://github.com/peluz/VICTOR-dataset)",
+      "n": "CNN",
+      "d": "2020-05-01",
+      "m1": "0.7584",
+      "m2": "0.9472"
+    },
+    {
+      "p": "[VICTOR: a Dataset for Brazilian Legal Documents Classification](https://aclanthology.org/2020.lrec-1.181)",
+      "c": "[&check;&nbsp;Link](https://github.com/peluz/VICTOR-dataset)",
+      "n": "BiLSTM",
+      "d": "2020-05-01",
+      "m1": "0.7281",
+      "m2": "0.9465"
+    },
+    {
+      "p": "[VICTOR: a Dataset for Brazilian Legal Documents Classification](https://aclanthology.org/2020.lrec-1.181)",
+      "c": "[&check;&nbsp;Link](https://github.com/peluz/VICTOR-dataset)",
+      "n": "NB",
+      "d": "2020-05-01",
+      "m1": "0.5979",
+      "m2": "0.8893"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

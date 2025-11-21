@@ -1,0 +1,81 @@
+# pose-estimation-on-mpii-single-person
+
+[Dataset Link](http://human-pose.mpi-inf.mpg.de/) \
+Task Hierarchy: ['Pose Estimation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "PCKh@0.5",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "PCKh@0.1",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Learning Delicate Local Representations for Multi-Person Pose Estimation](https://arxiv.org/abs/2003.04030v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmpose)",
+      "n": "4xRSN-50",
+      "d": "2020-03-09",
+      "m1": "93"
+    },
+    {
+      "p": "[Learning to Refine Human Pose Estimation](http://arxiv.org/abs/1804.07909v1)",
+      "c": "",
+      "n": "Refine",
+      "d": "2018-04-21",
+      "m1": "92.1"
+    },
+    {
+      "p": "[EfficientPose: Scalable single-person pose estimation](https://arxiv.org/abs/2004.12186v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/daniegr/EfficientPose)",
+      "n": "EfficientPose IV",
+      "d": "2020-04-25",
+      "m1": "91.2",
+      "m2": "36.0"
+    },
+    {
+      "p": "[OpenPose: Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields](https://arxiv.org/abs/1812.08008v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/CMU-Perceptual-Computing-Lab/openpose)",
+      "n": "OpenPose",
+      "d": "2018-12-18",
+      "m1": "88.8",
+      "m2": "22.5"
+    },
+    {
+      "p": "[3D Human Pose Estimation in the Wild by Adversarial Learning](http://arxiv.org/abs/1803.09722v2)",
+      "c": "",
+      "n": "Adversarial Learning",
+      "d": "2018-03-26",
+      "m1": "88.6"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

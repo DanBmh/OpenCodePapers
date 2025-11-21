@@ -1,0 +1,74 @@
+# motion-segmentation-on-apolloscape
+
+[Dataset Link](http://apolloscape.auto/) \
+Task Hierarchy: ['Motion Segmentation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Understanding Dynamic Scenes using Graph Convolution Networks](https://arxiv.org/abs/2005.04437v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/ma8sa/Undersrtanding-Dynamic-Scenes-using-MR-GCN)",
+      "n": "Rule Based",
+      "d": "2020-05-09",
+      "m1": "90"
+    },
+    {
+      "p": "[Understanding Dynamic Scenes using Graph Convolution Networks](https://arxiv.org/abs/2005.04437v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/ma8sa/Undersrtanding-Dynamic-Scenes-using-MR-GCN)",
+      "n": "Rel-Att-GCN",
+      "d": "2020-05-09",
+      "m1": "89"
+    },
+    {
+      "p": "[Understanding Dynamic Scenes using Graph Convolution Networks](https://arxiv.org/abs/2005.04437v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/ma8sa/Undersrtanding-Dynamic-Scenes-using-MR-GCN)",
+      "n": "MRGCN",
+      "d": "2020-05-09",
+      "m1": "86"
+    },
+    {
+      "p": "[Understanding Dynamic Scenes using Graph Convolution Networks](https://arxiv.org/abs/2005.04437v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/ma8sa/Undersrtanding-Dynamic-Scenes-using-MR-GCN)",
+      "n": "MRGCN-LSTM",
+      "d": "2020-05-09",
+      "m1": "72"
+    },
+    {
+      "p": "[Understanding Dynamic Scenes using Graph Convolution Networks](https://arxiv.org/abs/2005.04437v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/ma8sa/Undersrtanding-Dynamic-Scenes-using-MR-GCN)",
+      "n": "St-RNN",
+      "d": "2020-05-09",
+      "m1": "63"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

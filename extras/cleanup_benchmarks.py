@@ -1,12 +1,12 @@
 import json
+import math
 import os
 import re
-from datetime import datetime, timedelta
+from datetime import datetime
 
 # ==================================================================================================
 
 benchmark_dir = "../dataset/benchmarks/"
-date_threshold = datetime.now() - timedelta(days=5 * 365.25)
 
 # regex to extract the json block between ```json:table ... ```
 json_block_pattern = re.compile(r"```json:table\s*(\{.*?\})\s*```", re.DOTALL)
@@ -26,11 +26,13 @@ def should_delete_file(filepath):
         data = json.loads(match.group(1))
         items = data.get("items", [])
 
-        # rule 1: less than 3 items
+        # rule: drop if less than 3 items
         if len(items) < 3:
             return True
 
-        # rule 2: no item is newer than 5 years
+        # rule: drop if newest entry is older than the number of items
+        # (-> drop outdated benchmarks, but keep those which were often used for longer time)
+        threshold = max(5, len(set((it["p"] for it in items if it["p"]))))
         all_old = True
         for it in items:
             d = it.get("d")
@@ -38,23 +40,39 @@ def should_delete_file(filepath):
                 continue
             try:
                 pub_date = datetime.strptime(d, "%Y-%m-%d")
-                if pub_date >= date_threshold:
+                age_years = (datetime.now() - pub_date).days / 365.25
+                if math.floor(age_years) <= threshold:
                     all_old = False
                     break
             except ValueError:
                 pass
-        return all_old
+        if all_old:
+            return all_old
+
+        # rule: drop if benchmark has no papers with code
+        no_code = True
+        for it in items:
+            c = it.get("c")
+            if not c:
+                continue
+            else:
+                no_code = False
+                break
+        if no_code:
+            return no_code
 
     except Exception as e:
         print(f"Error parsing {filepath}: {e}")
         return False
+
+    return False
 
 
 # ==================================================================================================
 
 
 def main():
-    for f in os.listdir(benchmark_dir):
+    for f in sorted(os.listdir(benchmark_dir)):
         if f.endswith(".md"):
             filepath = os.path.join(benchmark_dir, f)
             if should_delete_file(filepath):

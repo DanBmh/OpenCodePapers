@@ -1,0 +1,81 @@
+# relation-extraction-on-semeval-2018-task-10
+
+[Dataset Link]() \
+Task Hierarchy: ['Relation Extraction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "F1-Score",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[SUNNYNLP at SemEval-2018 Task 10: A Support-Vector-Machine-Based Method for Detecting Semantic Difference using Taxonomy and Word Embedding Features](https://aclanthology.org/S18-1118)",
+      "c": "[&check;&nbsp;Link](https://github.com/Yermouth/sunnynlp)",
+      "n": "SVM with GloVe",
+      "d": "2018-06-01",
+      "m1": "0.76"
+    },
+    {
+      "p": "[Luminoso at SemEval-2018 Task 10: Distinguishing Attributes Using Text Corpora and Relational Knowledge](http://arxiv.org/abs/1806.01733v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/LuminosoInsight/semeval-discriminatt)",
+      "n": "SVM with ConceptNet, Wikipedia articles and WordNet synonyms",
+      "d": "2018-06-05",
+      "m1": "0.74"
+    },
+    {
+      "p": "[BomJi at SemEval-2018 Task 10: Combining Vector-, Pattern- and Graph-based Information to Identify Discriminative Attributes](http://arxiv.org/abs/1804.11251v1)",
+      "c": "",
+      "n": "Gradient boosting with co-occurrence count features and JoBimText features",
+      "d": "2018-04-30",
+      "m1": "0.73"
+    },
+    {
+      "p": "[UWB at SemEval-2018 Task 10: Capturing Discriminative Attributes from Word Distributions](https://aclanthology.org/S18-1153)",
+      "c": "",
+      "n": "LexVec, word co-occurrence, and ConceptNet data combined using maximum entropy classifier",
+      "d": "2018-06-01",
+      "m1": "0.72"
+    },
+    {
+      "p": "[Identifying and Explaining Discriminative Attributes](https://arxiv.org/abs/1909.05363v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/ab-10/Hawk)",
+      "n": "Composes explicit vector spaces from WordNet Definitions, ConceptNet and Visual Genome",
+      "d": "2019-09-05",
+      "m1": "0.69"
+    },
+    {
+      "p": "[ELiRF-UPV at SemEval-2018 Task 10: Capturing Discriminative Attributes with Knowledge Graphs and Wikipedia](https://aclanthology.org/S18-1159)",
+      "c": "",
+      "n": "Use of Wikipedia and ConceptNet Transp. (No expl.)",
+      "d": "2018-06-01",
+      "m1": "0.69"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

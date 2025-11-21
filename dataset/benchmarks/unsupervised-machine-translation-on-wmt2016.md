@@ -1,0 +1,88 @@
+# unsupervised-machine-translation-on-wmt2016
+
+[Dataset Link](http://www.statmt.org/wmt16/index.html) \
+Task Hierarchy: ['Machine Translation', 'Unsupervised Machine Translation']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "BLEU",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/ggml-org/llama.cpp)",
+      "n": "GPT-3 175B (Few-Shot)",
+      "d": "2020-05-28",
+      "m1": "29.7"
+    },
+    {
+      "p": "[MASS: Masked Sequence to Sequence Pre-training for Language Generation](https://arxiv.org/abs/1905.02450v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/MASS)",
+      "n": "MASS (6-layer Transformer)",
+      "d": "2019-05-07",
+      "m1": "28.3"
+    },
+    {
+      "p": "[An Effective Approach to Unsupervised Machine Translation](https://arxiv.org/abs/1902.01313v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/artetxem/monoses)",
+      "n": "SMT + NMT (tuning and joint refinement)",
+      "d": "2019-02-04",
+      "m1": "26.9"
+    },
+    {
+      "p": "[Cross-lingual Language Model Pretraining](http://arxiv.org/abs/1901.07291v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "MLM pretraining for encoder and decoder",
+      "d": "2019-01-22",
+      "m1": "26.4"
+    },
+    {
+      "p": "[Unsupervised Neural Machine Translation with SMT as Posterior Regularization](http://arxiv.org/abs/1901.04112v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Imagist-Shuo/UNMT-SPR)",
+      "n": "SMT as posterior regularization",
+      "d": "2019-01-14",
+      "m1": "21.7"
+    },
+    {
+      "p": "[Phrase-Based & Neural Unsupervised Machine Translation](http://arxiv.org/abs/1804.07755v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+      "n": "PBSMT + NMT",
+      "d": "2018-04-20",
+      "m1": "20.2"
+    },
+    {
+      "p": "[Unsupervised Neural Machine Translation Initialized by Unsupervised Statistical Machine Translation](http://arxiv.org/abs/1810.12703v1)",
+      "c": "",
+      "n": "Synthetic bilingual data init",
+      "d": "2018-10-30",
+      "m1": "20.0"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```
