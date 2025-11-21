@@ -1,7 +1,7 @@
 # zero-shot-action-recognition-on-hmdb51
 
 [Dataset Link](https://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database) \
-Task Hierarchy: ['Zero-Shot Action Recognition']
+Task Hierarchy: ['Action Recognition', 'Zero-Shot Action Recognition']
 
 <br>
 

@@ -1,7 +1,7 @@
 # action-recognition-in-videos-on-ntu-rgbd-120
 
 [Dataset Link](http://rose1.ntu.edu.sg/Datasets/actionRecognition.asp) \
-Task Hierarchy: ['Action Recognition']
+Task Hierarchy: ['Action Recognition', 'Action Recognition In Videos']
 
 <br>
 

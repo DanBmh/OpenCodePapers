@@ -1,7 +1,7 @@
 # zero-shot-action-recognition-on-olympics
 
 [Dataset Link]() \
-Task Hierarchy: ['Zero-Shot Action Recognition']
+Task Hierarchy: ['Action Recognition', 'Zero-Shot Action Recognition']
 
 <br>
 

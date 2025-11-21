@@ -1,7 +1,7 @@
 # action-recognition-in-videos-on-pku-mmd
 
 [Dataset Link](https://www.icst.pku.edu.cn/struct/Projects/PKUMMD.html) \
-Task Hierarchy: ['Action Recognition In Videos']
+Task Hierarchy: ['Action Recognition', 'Action Recognition In Videos']
 
 <br>
 

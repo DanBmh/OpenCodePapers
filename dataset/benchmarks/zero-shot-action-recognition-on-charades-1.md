@@ -1,7 +1,7 @@
 # zero-shot-action-recognition-on-charades-1
 
 [Dataset Link](http://vuchallenge.org/charades.html) \
-Task Hierarchy: ['Zero-Shot Action Recognition']
+Task Hierarchy: ['Action Recognition', 'Zero-Shot Action Recognition']
 
 <br>
 

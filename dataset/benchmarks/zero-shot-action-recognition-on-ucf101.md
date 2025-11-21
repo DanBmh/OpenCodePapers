@@ -1,7 +1,7 @@
 # zero-shot-action-recognition-on-ucf101
 
 [Dataset Link](https://www.crcv.ucf.edu/data/UCF101.php) \
-Task Hierarchy: ['Zero-Shot Action Recognition']
+Task Hierarchy: ['Action Recognition', 'Zero-Shot Action Recognition']
 
 <br>
 

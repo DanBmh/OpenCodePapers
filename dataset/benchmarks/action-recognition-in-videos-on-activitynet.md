@@ -1,7 +1,7 @@
 # action-recognition-in-videos-on-activitynet
 
 [Dataset Link](http://activity-net.org/) \
-Task Hierarchy: ['Action Recognition']
+Task Hierarchy: ['Action Recognition', 'Action Recognition In Videos']
 
 <br>
 
