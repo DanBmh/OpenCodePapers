@@ -1,0 +1,288 @@
+# link-prediction-on-fb15k
+
+[Dataset Link](https://www.microsoft.com/en-us/download/details.aspx?id=52312) \
+Task Hierarchy: ['Link Prediction']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "MRR",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Hits@1",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Hits@3",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Hits@10",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "MR",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "training time (s)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[AutoSF: Searching Scoring Functions for Knowledge Graph Embedding](https://arxiv.org/abs/1904.11682v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/AutoML-4Paradigm/ERAS)",
+      "n": "AutoKGE",
+      "d": "2019-04-26",
+      "m1": "0.861",
+      "m4": "0.914"
+    },
+    {
+      "p": "[Augmenting and Tuning Knowledge Graph Embeddings](https://arxiv.org/abs/1907.01068v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/mandt-lab/knowledge-graph-tuning)",
+      "n": "DistMult (after variational EM)",
+      "d": "2019-07-01",
+      "m1": "0.841",
+      "m4": "0.914"
+    },
+    {
+      "p": "[Quaternion Knowledge Graph Embeddings](https://arxiv.org/abs/1904.10281v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/cheungdaven/QuatE)",
+      "n": "QuatE",
+      "d": "2019-04-23",
+      "m1": "0.833",
+      "m2": "0.800",
+      "m3": "0.859",
+      "m4": "0.900",
+      "m5": "17"
+    },
+    {
+      "p": "[SEEK: Segmented Embedding of Knowledge Graphs](https://arxiv.org/abs/2005.00856v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/Wentao-Xu/SEEK)",
+      "n": "SEEK",
+      "d": "2020-05-02",
+      "m1": "0.825",
+      "m2": "0.792",
+      "m3": "0.841",
+      "m4": "0.886"
+    },
+    {
+      "p": "[Multi-Partition Embedding Interaction with Block Term Format for Knowledge Graph Completion](https://arxiv.org/abs/2006.16365v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/tranhungnghiep/AnalyzeKGE)",
+      "n": "MEI-BTD",
+      "d": "2020-06-29",
+      "m1": "0.806",
+      "m2": "0.754",
+      "m3": "0.843",
+      "m4": "0.893"
+    },
+    {
+      "p": "[RotatE: Knowledge Graph Embedding by Relational Rotation in Complex Space](http://arxiv.org/abs/1902.10197v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/pyg-team/pytorch_geometric/blob/master/torch_geometric/nn/kge/rotate.py)",
+      "n": "pRotatE",
+      "d": "2019-02-26",
+      "m1": "0.799",
+      "m2": "0.750",
+      "m3": "0.829",
+      "m4": "0.884",
+      "m5": "43"
+    },
+    {
+      "p": "[RotatE: Knowledge Graph Embedding by Relational Rotation in Complex Space](http://arxiv.org/abs/1902.10197v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/pyg-team/pytorch_geometric/blob/master/torch_geometric/nn/kge/rotate.py)",
+      "n": "RotatE",
+      "d": "2019-02-26",
+      "m1": "0.797",
+      "m2": "0.746",
+      "m3": "0.830",
+      "m4": "0.884",
+      "m5": "40"
+    },
+    {
+      "p": "[Augmenting Compositional Models for Knowledge Base Completion Using Gradient Representations](https://arxiv.org/abs/1811.01062v2)",
+      "c": "",
+      "n": "HHolE",
+      "d": "2018-11-02",
+      "m1": ".796",
+      "m2": ".727",
+      "m3": ".848",
+      "m4": ".901",
+      "m5": "21"
+    },
+    {
+      "p": "[TuckER: Tensor Factorization for Knowledge Graph Completion](https://arxiv.org/abs/1901.09590v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Sujit-O/pykg2vec)",
+      "n": "TuckER",
+      "d": "2019-01-28",
+      "m1": "0.795",
+      "m2": "0.741",
+      "m3": "0.833",
+      "m4": "0.892"
+    },
+    {
+      "p": "[Hypernetwork Knowledge Graph Embeddings](https://arxiv.org/abs/1808.07018v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/ibalazevic/HypER)",
+      "n": "HypER",
+      "d": "2018-08-21",
+      "m1": "0.790",
+      "m2": "0.734",
+      "m3": "0.829",
+      "m4": "0.885"
+    },
+    {
+      "p": "[Adaptive Convolution for Multi-Relational Learning](https://aclanthology.org/N19-1103)",
+      "c": "",
+      "n": "ConvR",
+      "d": "2019-06-01",
+      "m1": "0.782",
+      "m2": "0.720",
+      "m3": "0.826",
+      "m4": "0.887"
+    },
+    {
+      "p": "[GraphVite: A High-Performance CPU-GPU Hybrid System for Node Embedding](http://arxiv.org/abs/1903.00757v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/DeepGraphLearning/graphvite)",
+      "n": "SimplE",
+      "d": "2019-03-02",
+      "m1": "0.779",
+      "m2": "0.721",
+      "m3": "0.818",
+      "m4": "0.876",
+      "m5": "74",
+      "m6": "2105"
+    },
+    {
+      "p": "[NSCaching: Simple and Efficient Negative Sampling for Knowledge Graph Embedding](http://arxiv.org/abs/1812.06410v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/yzhangee/NSCaching)",
+      "n": "ComplEx NSCaching",
+      "d": "2018-12-16",
+      "m1": "0.7721"
+    },
+    {
+      "p": "[LogicENN: A Neural Based Knowledge Graphs Embedding Model with Logical Rules](https://arxiv.org/abs/1908.07141v1)",
+      "c": "",
+      "n": "LogicENN",
+      "d": "2019-08-20",
+      "m1": "0.766",
+      "m4": "0.874",
+      "m5": "112"
+    },
+    {
+      "p": "[Using Pairwise Occurrence Information to Improve Knowledge Graph Completion on Large-Scale Datasets](https://arxiv.org/abs/1910.11583v1)",
+      "c": "",
+      "n": "JoBi ComplEx",
+      "d": "2019-10-25",
+      "m1": "0.761",
+      "m2": "0.681",
+      "m3": "0.824",
+      "m4": "0.883"
+    },
+    {
+      "p": "[SimplE Embedding for Link Prediction in Knowledge Graphs](http://arxiv.org/abs/1802.04868v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Mehran-k/SimplE)",
+      "n": "SimplE",
+      "d": "2018-02-13",
+      "m1": "0.727",
+      "m2": "0.660",
+      "m3": "0.773",
+      "m4": "0.838"
+    },
+    {
+      "p": "[]()",
+      "c": "",
+      "n": "Relational-GCN",
+      "d": null,
+      "m1": "0.696",
+      "m2": "0.601",
+      "m3": "0.760",
+      "m4": "0.842"
+    },
+    {
+      "p": "[Knowledge Graph Completion via Complex Tensor Factorization](http://arxiv.org/abs/1702.06879v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/Accenture/AmpliGraph)",
+      "n": "Complex",
+      "d": "2017-02-22",
+      "m1": "0.692",
+      "m2": "0.599",
+      "m3": "0.759",
+      "m4": "0.840"
+    },
+    {
+      "p": "[Convolutional 2D Knowledge Graph Embeddings](http://arxiv.org/abs/1707.01476v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/TimDettmers/ConvE)",
+      "n": "Inverse Model",
+      "d": "2017-07-05",
+      "m1": "0.660",
+      "m2": "0.658",
+      "m3": "0.659",
+      "m4": "0.660",
+      "m5": "2501"
+    },
+    {
+      "p": "[Convolutional 2D Knowledge Graph Embeddings](http://arxiv.org/abs/1707.01476v6)",
+      "c": "[&check;&nbsp;Link](https://github.com/TimDettmers/ConvE)",
+      "n": "ConvE",
+      "d": "2017-07-05",
+      "m1": "0.657",
+      "m2": "0.558",
+      "m3": "0.723",
+      "m4": "0.831",
+      "m5": "51"
+    },
+    {
+      "p": "[Representation Learning with Ordered Relation Paths for Knowledge Graph Completion](https://arxiv.org/abs/1909.11864v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Peter7Yao/OPTransE)",
+      "n": "OPTransE",
+      "d": "2019-09-26",
+      "m4": "0.899",
+      "m5": "33"
+    },
+    {
+      "p": "[Knowledge Graph Embedding via Dynamic Mapping Matrix](https://aclanthology.org/P15-1067)",
+      "c": "[&check;&nbsp;Link](https://github.com/yangyucheng000/transX)",
+      "n": "TransD",
+      "d": "2015-07-01",
+      "m4": "0.773",
+      "m5": "91"
+    },
+    {
+      "p": "[Translating Embeddings for Modeling Multi-relational Data](http://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-relational-data)",
+      "c": "[&check;&nbsp;Link](https://github.com/pyg-team/pytorch_geometric/blob/master/torch_geometric/nn/kge/transe.py)",
+      "n": "TransE",
+      "d": "2013-12-01",
+      "m4": "0.471",
+      "m5": "125"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

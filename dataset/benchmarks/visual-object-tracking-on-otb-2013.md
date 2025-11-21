@@ -1,0 +1,88 @@
+# visual-object-tracking-on-otb-2013
+
+[Dataset Link](http://cvlab.hanyang.ac.kr/tracker_benchmark/datasets.html) \
+Task Hierarchy: ['Object Tracking', 'Visual Object Tracking']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "AUC",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Scale Equivariance Improves Siamese Tracking](https://arxiv.org/abs/2007.09115v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/isosnovik/SiamSE)",
+      "n": "SE-SiamFC",
+      "d": "2020-07-17",
+      "m1": "0.68"
+    },
+    {
+      "p": "[A Twofold Siamese Network for Real-Time Object Tracking](http://arxiv.org/abs/1802.08817v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/Microsoft/SA-Siam)",
+      "n": "SA-Siam",
+      "d": "2018-02-24",
+      "m1": "0.677"
+    },
+    {
+      "p": "[Learning Attentions: Residual Attentional Siamese Network for High Performance Online Visual Tracking](http://openaccess.thecvf.com/content_cvpr_2018/html/Wang_Learning_Attentions_Residual_CVPR_2018_paper.html)",
+      "c": "[&check;&nbsp;Link](https://github.com/foolwood/RASNet)",
+      "n": "RASNet",
+      "d": "2018-06-01",
+      "m1": "0.670"
+    },
+    {
+      "p": "[SiamVGG: Visual Tracking using Deeper Siamese Networks](https://arxiv.org/abs/1902.02804v4)",
+      "c": "[&check;&nbsp;Link](https://github.com/zllrunning/SiameseX.PyTorch)",
+      "n": "SiamVGG",
+      "d": "2019-02-07",
+      "m1": "0.665"
+    },
+    {
+      "p": "[Learning Dynamic Siamese Network for Visual Object Tracking](http://openaccess.thecvf.com/content_iccv_2017/html/Guo_Learning_Dynamic_Siamese_ICCV_2017_paper.html)",
+      "c": "",
+      "n": "DSiam",
+      "d": "2017-10-01",
+      "m1": "0.656"
+    },
+    {
+      "p": "[End-to-end representation learning for Correlation Filter based tracking](http://arxiv.org/abs/1704.06036v1)",
+      "c": "",
+      "n": "CFNet",
+      "d": "2017-04-20",
+      "m1": "0.611"
+    },
+    {
+      "p": "[Fully-Convolutional Siamese Networks for Object Tracking](https://arxiv.org/abs/1606.09549v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/bertinetto/siamese-fc)",
+      "n": "SiamFC-3s",
+      "d": "2016-06-30",
+      "m1": "0.607"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

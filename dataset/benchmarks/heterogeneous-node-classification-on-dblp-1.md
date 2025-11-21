@@ -1,0 +1,199 @@
+# heterogeneous-node-classification-on-dblp-1
+
+[Dataset Link](https://www.aminer.org/citation) \
+Task Hierarchy: ['Node Classification', 'Heterogeneous Node Classification']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Micro-F1 (20% training data)",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "Macro-F1 (20% training data)",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "Macro-F1 (60% training data)",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Micro-F1 (80% training data)",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "Macro-F1 (80% training data)",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Heterogeneous Graph Attention Network](https://arxiv.org/abs/1903.07293v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/han)",
+      "n": "HAN",
+      "d": "2019-03-18",
+      "m1": "93.11%",
+      "m2": "92.24%",
+      "m3": "93.70%",
+      "m4": "93.99%",
+      "m5": "93.08%"
+    },
+    {
+      "p": "[Heterogeneous Graph Attention Network](https://arxiv.org/abs/1903.07293v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/han)",
+      "n": "HAN (sem)",
+      "d": "2019-03-18",
+      "m1": "92.99%",
+      "m2": "92.03%",
+      "m3": "93.31%",
+      "m4": "93.29%",
+      "m5": "92.53%"
+    },
+    {
+      "p": "[Heterogeneous Graph Attention Network](https://arxiv.org/abs/1903.07293v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/han)",
+      "n": "ESim",
+      "d": "2019-03-18",
+      "m1": "92.73%",
+      "m2": "91.64%",
+      "m3": "93.39%",
+      "m4": "92.53%",
+      "m5": "93.44%"
+    },
+    {
+      "p": "[Heterogeneous Graph Attention Network](https://arxiv.org/abs/1903.07293v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/han)",
+      "n": "HERec",
+      "d": "2019-03-18",
+      "m1": "92.69%",
+      "m2": "91.68%",
+      "m3": "93.70%",
+      "m4": "93.27%",
+      "m5": "92.34%"
+    },
+    {
+      "p": "[Heterogeneous Graph Attention Network](https://arxiv.org/abs/1903.07293v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/han)",
+      "n": "HAN (nd)",
+      "d": "2019-03-18",
+      "m1": "92.05%",
+      "m2": "91.17%",
+      "m3": "92.69%",
+      "m4": "92.69%",
+      "m5": "91.80%"
+    },
+    {
+      "p": "[Heterogeneous Graph Attention Network](https://arxiv.org/abs/1903.07293v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/han)",
+      "n": "GAT",
+      "d": "2019-03-18",
+      "m1": "91.96%",
+      "m2": "90.97%",
+      "m3": "91.84%",
+      "m4": "92.55%",
+      "m5": "91.73%"
+    },
+    {
+      "p": "[Heterogeneous Deep Graph Infomax](https://arxiv.org/abs/1911.08538v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/YuxiangRen/Heterogeneous-Deep-Graph-Infomax)",
+      "n": "HDGI-C",
+      "d": "2019-11-19",
+      "m1": "91.75%",
+      "m2": "90.94%",
+      "m4": "92.26%",
+      "m5": "91.53%"
+    },
+    {
+      "p": "[Heterogeneous Graph Attention Network](https://arxiv.org/abs/1903.07293v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/han)",
+      "n": "GCN",
+      "d": "2019-03-18",
+      "m1": "91.71%",
+      "m2": "90.79%",
+      "m3": "92.62%",
+      "m4": "93.09%",
+      "m5": "92.38%"
+    },
+    {
+      "p": "[Heterogeneous Graph Attention Network](https://arxiv.org/abs/1903.07293v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/han)",
+      "n": "metapath2vec",
+      "d": "2019-03-18",
+      "m1": "91.53%",
+      "m2": "90.16%",
+      "m3": "92.48%",
+      "m4": "92.80%",
+      "m5": "91.89%"
+    },
+    {
+      "p": "[Heterogeneous Deep Graph Infomax](https://arxiv.org/abs/1911.08538v5)",
+      "c": "[&check;&nbsp;Link](https://github.com/YuxiangRen/Heterogeneous-Deep-Graph-Infomax)",
+      "n": "HDGI-A",
+      "d": "2019-11-19",
+      "m1": "90.62%",
+      "m2": "89.88%",
+      "m4": "91.92%",
+      "m5": "91.06%"
+    },
+    {
+      "p": "[Heterogeneous Graph Attention Network](https://arxiv.org/abs/1903.07293v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/han)",
+      "n": "DeepWalk",
+      "d": "2019-03-18",
+      "m1": "79.37%",
+      "m2": "77.43%",
+      "m3": "85.27%",
+      "m4": "86.26%",
+      "m5": "84.81%"
+    },
+    {
+      "p": "[Non-local Attention Learning on Large Heterogeneous Information Networks](https://ieeexplore.ieee.org/document/9006463)",
+      "c": "[&check;&nbsp;Link](https://github.com/xiaoyuxin1002/NLAH)",
+      "n": "NLAH (2ndprox)",
+      "d": "2019-12-12",
+      "m3": "96.48%"
+    },
+    {
+      "p": "[Non-local Attention Learning on Large Heterogeneous Information Networks](https://ieeexplore.ieee.org/document/9006463)",
+      "c": "[&check;&nbsp;Link](https://github.com/xiaoyuxin1002/NLAH)",
+      "n": "NLAH (ppr)",
+      "d": "2019-12-12",
+      "m3": "95.95%"
+    },
+    {
+      "p": "[Non-local Attention Learning on Large Heterogeneous Information Networks](https://ieeexplore.ieee.org/document/9006463)",
+      "c": "[&check;&nbsp;Link](https://github.com/xiaoyuxin1002/NLAH)",
+      "n": "NLAH (ppmi)",
+      "d": "2019-12-12",
+      "m3": "95.91%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

@@ -1,0 +1,102 @@
+# skeleton-based-action-recognition-on-sysu-3d
+
+[Dataset Link]() \
+Task Hierarchy: ['Video', 'Temporal Action Localization', '3D Action Recognition', 'Skeleton Based Action Recognition']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "Accuracy",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Semantics-Guided Neural Networks for Efficient Skeleton-Based Human Action Recognition](https://arxiv.org/abs/1904.01189v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/SGN)",
+      "n": "SGN",
+      "d": "2019-04-02",
+      "m1": "86.9%"
+    },
+    {
+      "p": "[View Adaptive Neural Networks for High Performance Skeleton-based Human Action Recognition](https://arxiv.org/abs/1804.07453v3)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/View-Adaptive-Neural-Networks-for-Skeleton-based-Human-Action-Recognition)",
+      "n": "VA-fusion (aug.)",
+      "d": "2018-04-20",
+      "m1": "86.7%"
+    },
+    {
+      "p": "[EleAtt-RNN: Adding Attentiveness to Neurons in Recurrent Neural Networks](https://arxiv.org/abs/1909.01939v1)",
+      "c": "",
+      "n": "EleAtt-GRU (aug.)",
+      "d": "2019-09-03",
+      "m1": "85.7%"
+    },
+    {
+      "p": "[Learning Latent Global Network for Skeleton-based Action Prediction](https://doi.org/10.1109/TIP.2019.2937757)",
+      "c": "",
+      "n": "Local+LGN",
+      "d": "2019-09-02",
+      "m1": "83.14%"
+    },
+    {
+      "p": "[Optimized Skeleton-based Action Recognition via Sparsified Graph Regression](http://arxiv.org/abs/1811.12013v2)",
+      "c": "",
+      "n": "Complete GR-GCN",
+      "d": "2018-11-29",
+      "m1": "77.9%"
+    },
+    {
+      "p": "[View Adaptive Recurrent Neural Networks for High Performance Human Action Recognition from Skeleton Data](http://arxiv.org/abs/1703.08274v2)",
+      "c": "[&check;&nbsp;Link](https://github.com/microsoft/View-Adaptive-Neural-Networks-for-Skeleton-based-Human-Action-Recognition)",
+      "n": "VA-LSTM",
+      "d": "2017-03-24",
+      "m1": "77.5%"
+    },
+    {
+      "p": "[Deep Progressive Reinforcement Learning for Skeleton-Based Action Recognition](http://openaccess.thecvf.com/content_cvpr_2018/html/Tang_Deep_Progressive_Reinforcement_CVPR_2018_paper.html)",
+      "c": "",
+      "n": "DPRL",
+      "d": "2018-06-01",
+      "m1": "76.9%"
+    },
+    {
+      "p": "[Jointly learning heterogeneous features for rgb-d activity recognition](https://doi.org/10.1109/TPAMI.2016.2640292)",
+      "c": "",
+      "n": "Dynamic Skeletons",
+      "d": "2016-12-15",
+      "m1": "75.5%"
+    },
+    {
+      "p": "[Skeleton-Based Action Recognition Using Spatio-Temporal LSTM Network with Trust Gates](http://arxiv.org/abs/1706.08276v1)",
+      "c": "",
+      "n": "ST-LSTM (Tree)",
+      "d": "2017-06-26",
+      "m1": "73.4%"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```

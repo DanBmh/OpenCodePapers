@@ -1,0 +1,154 @@
+# fact-based-text-editing-on-webedit
+
+[Dataset Link](https://github.com/isomap/factedit) \
+Task Hierarchy: ['Text Generation', 'Fact-based Text Editing']
+
+<br>
+
+```json:table
+{
+  "fields": [
+    {
+      "key": "p",
+      "label": "Paper"
+    },
+    {
+      "key": "c",
+      "label": "Code"
+    },
+    {
+      "key": "m1",
+      "label": "ADD",
+      "sortable": "true"
+    },
+    {
+      "key": "m2",
+      "label": "BLEU",
+      "sortable": "true"
+    },
+    {
+      "key": "m3",
+      "label": "DELETE",
+      "sortable": "true"
+    },
+    {
+      "key": "m4",
+      "label": "Exact Match",
+      "sortable": "true"
+    },
+    {
+      "key": "m5",
+      "label": "F1",
+      "sortable": "true"
+    },
+    {
+      "key": "m6",
+      "label": "KEEP",
+      "sortable": "true"
+    },
+    {
+      "key": "m7",
+      "label": "Precision",
+      "sortable": "true"
+    },
+    {
+      "key": "m8",
+      "label": "Recall",
+      "sortable": "true"
+    },
+    {
+      "key": "m9",
+      "label": "SARI",
+      "sortable": "true"
+    },
+    {
+      "key": "n",
+      "label": "ModelName"
+    },
+    {
+      "key": "d",
+      "label": "ReleaseDate",
+      "sortable": "true"
+    }
+  ],
+  "items": [
+    {
+      "p": "[Fact-based Text Editing](https://arxiv.org/abs/2007.00916v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/isomap/factedit)",
+      "n": "FactEditor",
+      "d": "2020-07-02",
+      "m1": "47.69",
+      "m2": "75.68",
+      "m3": "0.7707",
+      "m4": "24.8",
+      "m5": "93.17",
+      "m6": "0.9184",
+      "m7": "96.88",
+      "m8": "89.74",
+      "m9": "72.2"
+    },
+    {
+      "p": "[Fact-based Text Editing](https://arxiv.org/abs/2007.00916v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/isomap/factedit)",
+      "n": "EncDecEditor",
+      "d": "2020-07-02",
+      "m1": "43.82",
+      "m2": "71.03",
+      "m3": "0.7548",
+      "m4": "20.96",
+      "m5": "92.51",
+      "m6": "0.8949",
+      "m7": "98.06",
+      "m8": "87.56",
+      "m9": "69.59"
+    },
+    {
+      "p": "[Fact-based Text Editing](https://arxiv.org/abs/2007.00916v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/isomap/factedit)",
+      "n": "Table-to-Text",
+      "d": "2020-07-02",
+      "m1": "27.86",
+      "m2": "33.75",
+      "m3": "0.5219",
+      "m4": "5.78",
+      "m5": "90.4",
+      "m6": "0.5144",
+      "m7": "98.23",
+      "m8": "83.72",
+      "m9": "43.83"
+    },
+    {
+      "p": "[Fact-based Text Editing](https://arxiv.org/abs/2007.00916v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/isomap/factedit)",
+      "n": "Text-to-Text",
+      "d": "2020-07-02",
+      "m1": "25.77",
+      "m2": "63.61",
+      "m3": "0.678",
+      "m4": "6.22",
+      "m5": "79.48",
+      "m6": "0.8262",
+      "m7": "81.93",
+      "m8": "77.16",
+      "m9": "58.73"
+    },
+    {
+      "p": "[Fact-based Text Editing](https://arxiv.org/abs/2007.00916v1)",
+      "c": "[&check;&nbsp;Link](https://github.com/isomap/factedit)",
+      "n": "No-Editing",
+      "d": "2020-07-02",
+      "m1": "3.91",
+      "m2": "66.67",
+      "m3": "0.1202",
+      "m4": "0",
+      "m5": "80.21",
+      "m6": "0.7862",
+      "m7": "84.49",
+      "m8": "76.34",
+      "m9": "31.51"
+    }
+  ],
+  "markdown": "true",
+  "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+}
+```
