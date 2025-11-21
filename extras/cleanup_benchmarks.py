@@ -49,6 +49,18 @@ def should_delete_file(filepath):
         if all_old:
             return all_old
 
+        # rule: drop if benchmark has no papers with code
+        no_code = True
+        for it in items:
+            c = it.get("c")
+            if not c:
+                continue
+            else:
+                no_code = False
+                break
+        if no_code:
+            return no_code
+
     except Exception as e:
         print(f"Error parsing {filepath}: {e}")
         return False
