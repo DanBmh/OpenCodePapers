@@ -1,4 +1,4 @@
-# 3d-action-recognition-on-ntu-rgb-d-1
+# 3d-action-recognition-on-ntu-rgbd-60
 
 [Dataset Link](https://github.com/shahroudy/NTURGB-D) \
 Task Hierarchy: ['Action Recognition', '3D Action Recognition']

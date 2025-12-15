@@ -1,7 +1,7 @@
-# human-interaction-recognition-on-ntu-rgb-d-1
+# human-interaction-recognition-on-ntu-rgbd-120
 
 [Dataset Link](http://rose1.ntu.edu.sg/Datasets/actionRecognition.asp) \
-Task Hierarchy: ['Human Interaction Recognition']
+Task Hierarchy: ['Action Recognition', '3D Action Recognition', 'Human Interaction Recognition']
 
 <br>
 

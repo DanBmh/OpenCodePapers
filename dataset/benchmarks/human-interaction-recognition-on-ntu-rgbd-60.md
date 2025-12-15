@@ -1,7 +1,7 @@
-# human-interaction-recognition-on-ntu-rgb-d
+# human-interaction-recognition-on-ntu-rgbd-60
 
 [Dataset Link](https://github.com/shahroudy/NTURGB-D) \
-Task Hierarchy: ['Human Interaction Recognition']
+Task Hierarchy: ['Action Recognition', '3D Action Recognition', 'Human Interaction Recognition']
 
 <br>
 
