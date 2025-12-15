@@ -1,7 +1,7 @@
-# one-shot-3d-action-recognition-on-ntu-rgbd
+# one-shot-3d-action-recognition-on-ntu-rgbd-120
 
 [Dataset Link](http://rose1.ntu.edu.sg/Datasets/actionRecognition.asp) \
-Task Hierarchy: ['Human Interaction Recognition', 'One-Shot 3D Action Recognition']
+Task Hierarchy: ['Action Recognition', '3D Action Recognition', 'One-Shot 3D Action Recognition']
 
 <br>
 

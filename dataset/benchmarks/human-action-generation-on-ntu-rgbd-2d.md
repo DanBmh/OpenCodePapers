@@ -1,4 +1,4 @@
-# human-action-generation-on-ntu-rgb-d-2d
+# human-action-generation-on-ntu-rgbd-2d
 
 [Dataset Link](https://rose1.ntu.edu.sg/dataset/actionRecognition/) \
 Task Hierarchy: ['Human action generation']
