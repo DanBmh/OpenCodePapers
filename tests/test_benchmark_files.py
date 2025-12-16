@@ -7,16 +7,11 @@ from pathlib import Path
 # ==================================================================================================
 
 
-MARKDOWN_DIR = "dataset/benchmarks/"
-TITLE_RE = re.compile(r"^\s*#\s+(.+?)\s*$", re.MULTILINE)
-TASK_RE = re.compile(r"(?im)^Task\s*Hierarchy:\s*(.+)$")
-JSON_TABLE_RE = re.compile(r"```json:table\s*([\s\S]*?)```", re.MULTILINE)
-
-# ==================================================================================================
-
-
 def check_title_equals_filename(text: str, path: Path):
+
+    TITLE_RE = re.compile(r"^\s*#\s+(.+?)\s*$", re.MULTILINE)
     m = TITLE_RE.search(text)
+
     if not m:
         return [f"{path}: Missing H1 title line starting with '# '."]
 
@@ -37,9 +32,28 @@ def check_title_equals_filename(text: str, path: Path):
 # ==================================================================================================
 
 
+def check_dataset_link(text: str, path: Path):
+
+    DATASET_LINK_RE = re.compile(
+        r"^\s*\[Dataset\s+Link\]\((https?://[^)]+)\)\s*\\\s*$",
+        re.MULTILINE,
+    )
+    m = DATASET_LINK_RE.search(text)
+
+    if not m:
+        return [f"{path}: Missing dataset link"]
+
+    return []
+
+
+# ==================================================================================================
+
+
 def check_task_hierarchy(text: str, path: Path):
 
+    TASK_RE = re.compile(r"(?im)^Task\s*Hierarchy:\s*(.+)$")
     m = TASK_RE.search(text)
+
     if not m:
         return [f"{path}: Missing 'Task Hierarchy: [...]' line."]
 
@@ -67,8 +81,11 @@ def check_task_hierarchy(text: str, path: Path):
 
 
 def check_json_table_blocks(text: str, path: Path):
-    errors = []
+
+    JSON_TABLE_RE = re.compile(r"```json:table\s*([\s\S]*?)```", re.MULTILINE)
     matches = list(JSON_TABLE_RE.finditer(text))
+
+    errors = []
     if not matches:
         errors.append(f"{path}: Missing fenced code block starting with ```json:table.")
         return errors
@@ -98,6 +115,9 @@ def check_json_table_blocks(text: str, path: Path):
 
 
 def main() -> int:
+
+    MARKDOWN_DIR = "dataset/benchmarks/"
+
     root = Path(MARKDOWN_DIR).resolve()
     if not root.exists() or not root.is_dir():
         print(
@@ -105,6 +125,12 @@ def main() -> int:
             file=sys.stderr,
         )
         return 2
+
+    # check that all items in the directory are markdown files
+    for item in root.iterdir():
+        if item.is_file() and item.suffix != ".md":
+            print(f"ERROR: Non-markdown file found in {root}: {item}", file=sys.stderr)
+            return 1
 
     md_files = [p for p in root.rglob("*.md") if p.is_file()]
     if not md_files:
@@ -120,6 +146,7 @@ def main() -> int:
             continue
 
         all_errors.extend(check_title_equals_filename(text, path))
+        # all_errors.extend(check_dataset_link(text, path))
         all_errors.extend(check_task_hierarchy(text, path))
         all_errors.extend(check_json_table_blocks(text, path))
 
