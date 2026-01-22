@@ -56,12 +56,29 @@ Task Hierarchy: ['Action Recognition', '3D Action Recognition', 'Skeleton Based 
       "m2": "93.8"
     },
     {
+      "p": "[SkeletonAgent: An Agentic Interaction Framework for Skeleton-based Action Recognition](https://arxiv.org/pdf/2511.22433)",
+      "c": "[&check;&nbsp;Link](https://github.com/firework8/SkeletonAgent)",
+      "n": "SkeletonAgent",
+      "d": "2025-12-02",
+      "m1": "91.7",
+      "m2": "93.1",
+      "m3": "6"
+    },
+    {
       "p": "[Reenvisioning Skeleton-based Action Recognition Through the Lens of NLP](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10888571)",
       "c": "",
       "n": "POTR",
       "d": "2025-04-06",
       "m1": "91.1",
       "m2": "92.0"
+    },
+    {
+      "p": "[TDSN-GCN: Transformerify Overall Structure Decaying Static Graph Embedding NAS-guided GCN for Skeleton Action Recognition](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11176951)",
+      "c": "",
+      "n": "TDSN-GCN",
+      "d": "2025-09-25",
+      "m1": "91.1",
+      "m1": "92.5"
     },
     {
       "p": "[Revealing Key Details to See Differences: A Novel Prototypical Perspective for Skeleton-based Action Recognition](https://arxiv.org/abs/2411.18941v1)",
@@ -79,6 +96,14 @@ Task Hierarchy: ['Action Recognition', '3D Action Recognition', 'Skeleton Based 
       "d": "2024-10-13",
       "m1": "90.9",
       "m2": "91.9"
+    },
+    {
+      "p": "[Adaptive Hyper-Graph Convolution Network for Skeleton-based Human Action Recognition with Virtual Connections](https://openaccess.thecvf.com/content/ICCV2025/papers/Zhou_Adaptive_Hyper-Graph_Convolution_Network_for_Skeleton-based_Human_Action_Recognition_with_ICCV_2025_paper.pdf)",
+      "c": "[&check;&nbsp;Link](https://github.com/6UOOON9/Hyper-GCN)",
+      "n": "Hyper-GCN",
+      "d": "2025-10-19",
+      "m1": "90.9",
+      "m2": "92.0"
     },
     {
       "p": "[Language Knowledge-Assisted Representation Learning for Skeleton-Based Action Recognition](https://arxiv.org/abs/2305.12398v1)",
@@ -120,10 +145,18 @@ Task Hierarchy: ['Action Recognition', '3D Action Recognition', 'Skeleton Based 
       "p": "[BlockGCN: Redefine Topology Awareness for Skeleton-Based Action Recognition](http://openaccess.thecvf.com//content/CVPR2024/html/Zhou_BlockGCN_Redefine_Topology_Awareness_for_Skeleton-Based_Action_Recognition_CVPR_2024_paper.html)",
       "c": "[&check;&nbsp;Link](https://github.com/zhouyuxuanyx/blockgcn)",
       "n": "BlockGCN",
-      "d": "2024-01-01",
+      "d": "2024-06-17",
       "m1": "90.3",
       "m2": "91.5",
       "m3": "4"
+    },
+    {
+      "p": "[Modeling the skeleton-language uncertainty for 3D action recognition](https://www.sciencedirect.com/science/article/pii/S0925231224011974)",
+      "c": "",
+      "n": "USLLF",
+      "d": "2024-08-15",
+      "m1": "90.3",
+      "m1": "91.9"
     },
     {
       "p": "[TSGCNeXt: Dynamic-Static Multi-Graph Convolution for Efficient Skeleton-Based Action Recognition with Long-term Learning Potential](https://arxiv.org/abs/2304.11631v1)",
@@ -327,6 +360,14 @@ Task Hierarchy: ['Action Recognition', '3D Action Recognition', 'Skeleton Based 
       "m3": "4"
     },
     {
+      "p": "[Local and Global Spatial–Temporal Transformer for skeleton-based action recognition](https://www.sciencedirect.com/science/article/pii/S0925231225004928)",
+      "c": "",
+      "n": "LG-STFormer",
+      "d": "2025-02-21",
+      "m1": "88.6",
+      "m2": "90.4"
+    },
+    {
       "p": "[Learning Multi-Granular Spatio-Temporal Graph Network for Skeleton-based Action Recognition](https://arxiv.org/abs/2108.04536v1)",
       "c": "[&check;&nbsp;Link](https://github.com/tailin1009/dualhead-network)",
       "n": "DualHead-Net",
@@ -360,6 +401,14 @@ Task Hierarchy: ['Action Recognition', '3D Action Recognition', 'Skeleton Based 
       "m1": "87.5",
       "m2": "89.2",
       "m3": "4"
+    },
+    {
+      "p": "[HyLiFormer: Hyperbolic Linear Attention for Skeleton-based Human Action Recognition](https://arxiv.org/pdf/2502.05869)",
+      "c": "",
+      "n": "HyLiFormer",
+      "d": "2025-02-09",
+      "m1": "87.5",
+      "m2": "88.6"
     },
     {
       "p": "[MaskCLR: Attention-Guided Contrastive Learning for Robust Action Representation Learning](http://openaccess.thecvf.com//content/CVPR2024/html/Abdelfattah_MaskCLR_Attention-Guided_Contrastive_Learning_for_Robust_Action_Representation_Learning_CVPR_2024_paper.html)",
