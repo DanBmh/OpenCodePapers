@@ -56,6 +56,15 @@ Task Hierarchy: ['Action Recognition', '3D Action Recognition', 'Skeleton Based 
       "m2": "93.8"
     },
     {
+      "p": "[SkeletonAgent: An Agentic Interaction Framework for Skeleton-based Action Recognition](https://arxiv.org/pdf/2511.22433)",
+      "c": "[&check;&nbsp;Link](https://github.com/firework8/SkeletonAgent)",
+      "n": "SkeletonAgent",
+      "d": "2025-12-02",
+      "m1": "91.7",
+      "m2": "93.1",
+      "m3": "6"
+    },
+    {
       "p": "[Reenvisioning Skeleton-based Action Recognition Through the Lens of NLP](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10888571)",
       "c": "",
       "n": "POTR",
@@ -87,6 +96,14 @@ Task Hierarchy: ['Action Recognition', '3D Action Recognition', 'Skeleton Based 
       "d": "2024-10-13",
       "m1": "90.9",
       "m2": "91.9"
+    },
+    {
+      "p": "[Adaptive Hyper-Graph Convolution Network for Skeleton-based Human Action Recognition with Virtual Connections](https://openaccess.thecvf.com/content/ICCV2025/papers/Zhou_Adaptive_Hyper-Graph_Convolution_Network_for_Skeleton-based_Human_Action_Recognition_with_ICCV_2025_paper.pdf)",
+      "c": "[&check;&nbsp;Link](https://github.com/6UOOON9/Hyper-GCN)",
+      "n": "Hyper-GCN",
+      "d": "2025-10-19",
+      "m1": "90.9",
+      "m2": "92.0"
     },
     {
       "p": "[Language Knowledge-Assisted Representation Learning for Skeleton-Based Action Recognition](https://arxiv.org/abs/2305.12398v1)",
@@ -128,7 +145,7 @@ Task Hierarchy: ['Action Recognition', '3D Action Recognition', 'Skeleton Based 
       "p": "[BlockGCN: Redefine Topology Awareness for Skeleton-Based Action Recognition](http://openaccess.thecvf.com//content/CVPR2024/html/Zhou_BlockGCN_Redefine_Topology_Awareness_for_Skeleton-Based_Action_Recognition_CVPR_2024_paper.html)",
       "c": "[&check;&nbsp;Link](https://github.com/zhouyuxuanyx/blockgcn)",
       "n": "BlockGCN",
-      "d": "2024-01-01",
+      "d": "2024-06-17",
       "m1": "90.3",
       "m2": "91.5",
       "m3": "4"
