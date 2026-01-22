@@ -153,6 +153,22 @@ Task Hierarchy: ['Action Recognition', '3D Action Recognition', 'Skeleton Based 
       "m1": "93.6"
     },
     {
+      "p": "[Modeling the skeleton-language uncertainty for 3D action recognition](https://www.sciencedirect.com/science/article/pii/S0925231224011974)",
+      "c": "",
+      "n": "USLLF",
+      "d": "2024-08-15",
+      "m1": "93.6",
+      "m1": "97.6"
+    },
+    {
+      "p": "[TDSN-GCN: Transformerify Overall Structure Decaying Static Graph Embedding NAS-guided GCN for Skeleton Action Recognition](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11176951)",
+      "c": "",
+      "n": "TDSN-GCN",
+      "d": "2025-09-25",
+      "m1": "93.6",
+      "m1": "97.2"
+    },
+    {
       "p": "[SkateFormer: Skeletal-Temporal Transformer for Human Action Recognition](https://arxiv.org/abs/2403.09508v3)",
       "c": "[&check;&nbsp;Link](https://github.com/KAIST-VICLab/SkateFormer)",
       "n": "SkateFormer",
@@ -336,6 +352,14 @@ Task Hierarchy: ['Action Recognition', '3D Action Recognition', 'Skeleton Based 
       "m3": "4"
     },
     {
+      "p": "[Local and Global Spatial–Temporal Transformer for skeleton-based action recognition](https://www.sciencedirect.com/science/article/pii/S0925231225004928)",
+      "c": "",
+      "n": "LG-STFormer",
+      "d": "2025-02-21",
+      "m1": "92.8",
+      "m2": "96.7"
+    },
+    {
       "p": "[DSTSA-GCN: Advancing Skeleton-Based Gesture Recognition with Semantic-Aware Spatio-Temporal Topology Modeling](https://arxiv.org/abs/2501.12086v1)",
       "c": "[&check;&nbsp;Link](https://github.com/HuCui2022/DSTSA-GCN_Gesture)",
       "n": "DSTSA-GCN",
@@ -393,6 +417,14 @@ Task Hierarchy: ['Action Recognition', '3D Action Recognition', 'Skeleton Based 
       "d": "2021-05-04",
       "m1": "91.7",
       "m2": "96.4"
+    },
+    {
+      "p": "[HyLiFormer: Hyperbolic Linear Attention for Skeleton-based Human Action Recognition](https://arxiv.org/pdf/2502.05869)",
+      "c": "",
+      "n": "HyLiFormer",
+      "d": "2025-02-09",
+      "m1": "91.7",
+      "m2": "96.2"
     },
     {
       "p": "[Learning Skeletal Graph Neural Networks for Hard 3D Pose Estimation](https://arxiv.org/abs/2108.07181v2)",
@@ -719,6 +751,14 @@ Task Hierarchy: ['Action Recognition', '3D Action Recognition', 'Skeleton Based 
       "d": "2018-09-13",
       "m1": "87.5",
       "m2": "93.2"
+    },
+    {
+      "p": "[Learning Skeletal Graph Neural Networks for Hard 3D Pose Estimation](https://arxiv.org/pdf/2502.05869)",
+      "c": "",
+      "n": "Skeletal GNN",
+      "d": "2025-02-09",
+      "m1": "87.5",
+      "m2": "88.6"
     },
     {
       "p": "[Richly Activated Graph Convolutional Network for Robust Skeleton-based Action Recognition](https://arxiv.org/abs/2008.03791v2)",
