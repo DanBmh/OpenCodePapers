@@ -14,7 +14,7 @@ def should_delete_file(filepath):
     try:
         with open(filepath, "r", encoding="utf-8") as f:
             data = json.load(f)
-        
+
         # Access items from the nested benchmark structure
         items = data.get("benchmark", {}).get("items", [])
 

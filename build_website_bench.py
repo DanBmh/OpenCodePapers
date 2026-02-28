@@ -215,8 +215,7 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
             size_js = json.dumps(marker_sizes)
             symbol_js = json.dumps(marker_symbols)
 
-            out.append(
-                f"""{{
+            out.append(f"""{{
                     name: "{name}",
                     x: {x_js},
                     y: {y_js},
@@ -228,8 +227,7 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
                         symbol: {symbol_js}
                     }},
                     hovertemplate: '%{{y}}<extra>%{{text}}</extra>'
-                }}"""
-            )
+                }}""")
         return ",\n".join(out)
 
     traces_js_code = build_traces(series_code)
