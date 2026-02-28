@@ -1,82 +1,60 @@
 import argparse
-import ast
+import json
 import os
-import re
-from typing import Dict, List, Optional, Tuple
-
-# ==================================================================================================
-
-
-HIERARCHY_PATTERN = re.compile(
-    r"^\s*Task\s*Hierarchy\s*:\s*(\[[^\]]*\])", re.IGNORECASE | re.MULTILINE
-)
+from typing import Dict, List
 
 # ==================================================================================================
 
 
 class Node:
-    __slots__ = ("children", "files")
+    __slots__ = ("children", "benchmarks")
 
     def __init__(self):
         self.children: Dict[str, Node] = {}
-        self.files: List[Tuple[str, str]] = []  # (display_text, link_path)
+        self.benchmarks: List[str] = []
 
 
 # ==================================================================================================
 
 
-def add_path(root: Node, labels: List[str], file_entry: Tuple[str, str]):
+def add_path(root: Node, labels: List[str], title: str):
     node = root
     for label in labels:
         node = node.children.setdefault(label, Node())
-    node.files.append(file_entry)
+    node.benchmarks.append(title)
 
 
 # ==================================================================================================
 
 
-def parse_hierarchy(md_text: str) -> Optional[List[str]]:
-    m = HIERARCHY_PATTERN.search(md_text)
-    if not m:
-        return None
-    try:
-        parsed = ast.literal_eval(m.group(1))
-        labels = [str(x).strip() for x in parsed if str(x).strip()]
-        return labels if labels else None
-    except Exception:
-        return None
-
-
-# ==================================================================================================
-
-
-def scan_markdowns(input_dir: str) -> List[Tuple[Optional[List[str]], str, str]]:
+def scan_json_files(input_dir: str) -> List[tuple]:
     """
-    Returns list of (labels or None, link_text, link_path) for each .md.
-    If labels is None, hierarchy missing/empty -> top-level 'others'.
+    Returns list of (task_hierarchy, title) for each .json file.
+    task_hierarchy is a list of strings, title is the benchmark name.
     """
 
-    results: List[Tuple[Optional[List[str]], str, str]] = []
+    results: List[tuple] = []
     for root_dir, _, files in os.walk(input_dir):
         for fn in files:
-            if not fn.lower().endswith(".md"):
+            if not fn.lower().endswith(".json"):
                 continue
             full = os.path.join(root_dir, fn)
             try:
                 with open(full, "r", encoding="utf-8") as f:
-                    text = f.read()
-            except Exception:
-                print(f"[warn] Could not read: {full}")
+                    data = json.load(f)
+            except Exception as e:
+                print(f"[warn] Could not read {full}: {e}")
                 continue
 
-            labels = parse_hierarchy(text)
+            task_hierarchy = data.get("task-hierarchy")
+            title = data.get("title")
 
-            slug = os.path.splitext(os.path.basename(full))[0]
-            rel_path = os.path.relpath(full, os.getcwd()).replace("\\", "/")
-            if not rel_path.startswith(input_dir.rstrip("/")):
-                rel_path = f"{input_dir.rstrip('/')}/{os.path.basename(full)}"
-
-            results.append((labels, slug, rel_path))
+            if title:
+                if task_hierarchy and isinstance(task_hierarchy, list):
+                    results.append((task_hierarchy, title))
+                else:
+                    # No hierarchy or empty -> use None
+                    results.append((None, title))
     return results
 
 
@@ -90,14 +68,14 @@ def ensure_child(node: Node, label: str) -> Node:
 # ==================================================================================================
 
 
-def process_small_leaves(node: Node, parent: Optional[Node] = None):
+def process_small_leaves(node: Node, parent: Node = None):
     """
     Bottom-up normalization:
-    - Move small leaf buckets (<3 files) into 'others' at this node.
-    - Flatten 'others' children to a single file list.
+    - Move small leaf buckets (<3 benchmarks) into 'others' at this node.
+    - Flatten 'others' children to a single benchmark list.
     - Bubble 'others' upward if still <3 (and not at root).
-    - If THIS node already has files and also an 'others' child, MERGE
-      'others' files into THIS node's files and remove the 'others' child.
+    - If THIS node already has benchmarks and also an 'others' child, MERGE
+      'others' benchmarks into THIS node's benchmarks and remove the 'others' child.
     """
 
     # Recurse first
@@ -107,10 +85,10 @@ def process_small_leaves(node: Node, parent: Optional[Node] = None):
     # Move small leaf buckets into 'others'
     to_delete = []
     for label, child in list(node.children.items()):
-        if child.files and not child.children:
-            if 0 < len(child.files) < 3:
+        if child.benchmarks and not child.children:
+            if 0 < len(child.benchmarks) < 3:
                 others = ensure_child(node, "others")
-                others.files.extend(child.files)
+                others.benchmarks.extend(child.benchmarks)
                 to_delete.append(label)
     for label in to_delete:
         del node.children[label]
@@ -120,26 +98,26 @@ def process_small_leaves(node: Node, parent: Optional[Node] = None):
     if others:
         if others.children:
             stack = [others]
-            collected: List[Tuple[str, str]] = []
+            collected: List[str] = []
             while stack:
                 cur = stack.pop()
-                collected.extend(cur.files)
+                collected.extend(cur.benchmarks)
                 for ch in cur.children.values():
                     stack.append(ch)
             others.children.clear()
-            others.files = collected
+            others.benchmarks = collected
 
-        # If this node already has files, merge 'others' into the parent link list
-        if node.files and others.files:
-            node.files.extend(others.files)
+        # If this node already has benchmarks, merge 'others' into the node's list
+        if node.benchmarks and others.benchmarks:
+            node.benchmarks.extend(others.benchmarks)
             del node.children["others"]
-            others = None  # dropped
+            others = None
 
     # Bubble 'others' upward if still present and <3 (and not root)
     others = node.children.get("others")
-    if others and len(others.files) < 3 and parent is not None:
+    if others and len(others.benchmarks) < 3 and parent is not None:
         p_others = ensure_child(parent, "others")
-        p_others.files.extend(others.files)
+        p_others.benchmarks.extend(others.benchmarks)
         del node.children["others"]
 
 
@@ -149,7 +127,7 @@ def process_small_leaves(node: Node, parent: Optional[Node] = None):
 def prune_empty(node: Node) -> bool:
     """
     Remove empty child groups recursively.
-    Returns True if this node has any content (files or non-empty children).
+    Returns True if this node has any content (benchmarks or non-empty children).
     """
 
     empty_labels = []
@@ -158,101 +136,76 @@ def prune_empty(node: Node) -> bool:
             empty_labels.append(label)
     for label in empty_labels:
         del node.children[label]
-    return bool(node.files or node.children)
+    return bool(node.benchmarks or node.children)
 
 
 # ==================================================================================================
 
 
-def escape_attr(s: str) -> str:
-    return (
-        s.replace("&", "&amp;")
-        .replace("<", "&lt;")
-        .replace(">", "&gt;")
-        .replace('"', "&quot;")
-    )
-
-
-# ==================================================================================================
-
-
-def render_html(node: Node) -> str:
+def node_to_dict(node: Node) -> List:
     """
-    Pure-HTML rendering:
-      <details>
-        <summary>Label</summary>
-        <div>
-          ... nested <details> for subgroups first ...
-          <ul> ... files ... </ul>
-        </div>
-      </details>
-    Only non-empty children are rendered (after pruning).
+    Convert a Node tree to a mixed list structure.
+    Returns [benchmark_string, benchmark_string, {subcategory_name: [...]}, ...]
     """
-    lines: List[str] = []
 
-    def sort_key(lbl: str):
-        return (lbl == "others", lbl.lower())
+    result = []
 
-    for label in sorted(node.children.keys(), key=sort_key):
-        child = node.children[label]
-        # Skip empty children (safety; prune_empty should have removed them already)
-        if not (child.files or child.children):
-            continue
+    # Add subcategories as dicts
+    if node.children:
 
-        lines.append("<details>")
-        lines.append(f"  <summary>{escape_attr(label)}</summary>")
-        lines.append("  <div>")
+        def sort_key(lbl: str):
+            return (lbl == "others", lbl.lower())
 
-        # 1) Subgroups first
-        if child.children:
-            lines.append(render_html(child))
+        for label in sorted(node.children.keys(), key=sort_key):
+            child = node.children[label]
+            if child.benchmarks or child.children:  # Skip empty (safety)
+                result.append({label: node_to_dict(child)})
 
-        # 2) Then files for this group
-        if child.files:
-            lines.append("    <ul>")
-            for text, link in sorted(child.files, key=lambda x: x[0].lower()):
-                lines.append(
-                    f'      <li><a href="{escape_attr(link)}">{escape_attr(text)}</a></li>'
-                )
-            lines.append("    </ul>")
+    # Add benchmarks
+    if node.benchmarks:
+        result.extend(sorted(node.benchmarks))
 
-        lines.append("  </div>")
-        lines.append("</details>")
-    return "\n".join(lines)
+    return result
 
 
 # ==================================================================================================
 
 
-def build_tasks_md(input_dir: str, output_path: str):
-    entries = scan_markdowns(input_dir)
+def build_tasks_json(input_dir: str, output_path: str):
+    entries = scan_json_files(input_dir)
     if not entries:
-        print("[info] No entries found. Nothing to write.")
+        print("[info] No JSON entries found. Writing empty structure.")
+        output_data = {}
         with open(output_path, "w", encoding="utf-8") as f:
-            f.write("<h1>Tasks</h1>\n<p><em>No benchmarks found.</em></p>\n")
+            json.dump(output_data, f, indent=2, ensure_ascii=False)
         return
 
     root = Node()
-    for labels, slug, relpath in entries:
-        if labels:
-            add_path(root, labels, (slug, relpath))
+    for hierarchy, title in entries:
+        if hierarchy:
+            add_path(root, hierarchy, title)
         else:
-            # No/empty hierarchy → top-level 'others'
-            ensure_child(root, "others").files.append((slug, relpath))
+            # No/empty hierarchy -> top-level 'others'
+            ensure_child(root, "others").benchmarks.append(title)
 
     process_small_leaves(root, None)
     prune_empty(root)
 
-    html = []
-    html.append("<h1>Tasks</h1>")
-    html.append(
-        "<!-- Expandable, nested task hierarchy. Click to expand categories. -->"
-    )
-    html.append(render_html(root))
-    html_text = "\n".join(html).rstrip() + "\n"
+    # Convert tree to dictionary
+    output_data = {}
+
+    def sort_key(lbl: str):
+        return (lbl == "others", lbl.lower())
+
+    for label in sorted(root.children.keys(), key=sort_key):
+        child = root.children[label]
+        if child.benchmarks or child.children:
+            output_data[label] = node_to_dict(child)
 
     with open(output_path, "w", encoding="utf-8") as f:
-        f.write(html_text)
+        json.dump(output_data, f, indent=2, ensure_ascii=False)
+
+    print(f"[info] Written {len(entries)} benchmarks to {output_path}")
 
 
 # ==================================================================================================
@@ -260,14 +213,14 @@ def build_tasks_md(input_dir: str, output_path: str):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Generate an expandable tasks.md from benchmark markdown files."
+        description="Generate a tasks hierarchy JSON from benchmark JSON files."
     )
     parser.add_argument("--input", "-i", default="dataset/benchmarks")
-    parser.add_argument("--output", "-o", default="dataset/tasks.md")
+    parser.add_argument("--output", "-o", default="dataset/tasks.json")
     args = parser.parse_args()
 
     input_dir = args.input.rstrip("/").rstrip("\\")
-    build_tasks_md(input_dir, args.output)
+    build_tasks_json(input_dir, args.output)
 
 
 # ==================================================================================================
