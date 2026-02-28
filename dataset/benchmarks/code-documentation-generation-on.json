@@ -1,0 +1,88 @@
+{
+  "title": "code-documentation-generation-on",
+  "task-hierarchy": [
+    "Code Documentation Generation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/github/CodeSearchNet"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Smoothed BLEU-4",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[CodeTrans: Towards Cracking the Language of Silicon's Code Through Self-Supervised Deep Learning and High Performance Computing](https://arxiv.org/abs/2104.02443v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/agemagician/CodeTrans)",
+        "n": "CodeTrans-MT-Base",
+        "d": "2021-04-06",
+        "m1": "20.39"
+      },
+      {
+        "p": "[CodeBERT: A Pre-Trained Model for Programming and Natural Languages](https://arxiv.org/abs/2002.08155v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/salesforce/codet5)",
+        "n": "CodeBERT (MLM)",
+        "d": "2020-02-19",
+        "m1": "15.48"
+      },
+      {
+        "p": "[CodeBERT: A Pre-Trained Model for Programming and Natural Languages](https://arxiv.org/abs/2002.08155v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/salesforce/codet5)",
+        "n": "CodeBERT (MLM+RTD)",
+        "d": "2020-02-19",
+        "m1": "15.41"
+      },
+      {
+        "p": "[CodeBERT: A Pre-Trained Model for Programming and Natural Languages](https://arxiv.org/abs/2002.08155v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/salesforce/codet5)",
+        "n": "pre-train w/ code only",
+        "d": "2020-02-19",
+        "m1": "15.12"
+      },
+      {
+        "p": "[CodeBERT: A Pre-Trained Model for Programming and Natural Languages](https://arxiv.org/abs/2002.08155v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/salesforce/codet5)",
+        "n": "RoBERTa",
+        "d": "2020-02-19",
+        "m1": "14.92"
+      },
+      {
+        "p": "[CodeBERT: A Pre-Trained Model for Programming and Natural Languages](https://arxiv.org/abs/2002.08155v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/salesforce/codet5)",
+        "n": "Transformer",
+        "d": "2020-02-19",
+        "m1": "13.44"
+      },
+      {
+        "p": "[CodeBERT: A Pre-Trained Model for Programming and Natural Languages](https://arxiv.org/abs/2002.08155v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/salesforce/codet5)",
+        "n": "seq2seq",
+        "d": "2020-02-19",
+        "m1": "13.04"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

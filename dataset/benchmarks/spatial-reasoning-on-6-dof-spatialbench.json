@@ -1,0 +1,134 @@
+{
+  "title": "spatial-reasoning-on-6-dof-spatialbench",
+  "task-hierarchy": [
+    "Visual Question Answering",
+    "Spatial Reasoning"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Total",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Position-rel",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Position-abs",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Orientation-rel",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Orientation-abs",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[SoFar: Language-Grounded Orientation Bridges Spatial Reasoning and Object Manipulation](https://arxiv.org/abs/2502.13143v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/qizekun/SoFar)",
+        "n": "SoFar",
+        "d": "2025-02-18",
+        "m1": "43.9",
+        "m2": "59.6",
+        "m3": "33.8",
+        "m4": "54.6",
+        "m5": "31.3"
+      },
+      {
+        "p": "[GPT-4o System Card](https://arxiv.org/abs/2410.21276v1)",
+        "c": "",
+        "n": "GPT-4o",
+        "d": "2024-10-25",
+        "m1": "36.2",
+        "m2": "49.4",
+        "m3": "28.4",
+        "m4": "44.2",
+        "m5": "25.8"
+      },
+      {
+        "p": "[RoboPoint: A Vision-Language Model for Spatial Affordance Prediction for Robotics](https://arxiv.org/abs/2406.10721v1)",
+        "c": "",
+        "n": "RoboPoint",
+        "d": "2024-06-15",
+        "m1": "33.5",
+        "m2": "43.8",
+        "m3": "30.8",
+        "m4": "33.8",
+        "m5": "25.8"
+      },
+      {
+        "p": "[SpatialBot: Precise Spatial Understanding with Vision Language Models](https://arxiv.org/abs/2406.13642v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/baai-dcai/spatialbot)",
+        "n": "SpatialBot",
+        "d": "2024-06-19",
+        "m1": "32.7",
+        "m2": "50.9",
+        "m3": "21.6",
+        "m4": "39.6",
+        "m5": "22.9"
+      },
+      {
+        "p": "[SpatialVLM: Endowing Vision-Language Models with Spatial Reasoning Capabilities](https://arxiv.org/abs/2401.12168v1)",
+        "c": "",
+        "n": "SpaceMantis",
+        "d": "2024-01-22",
+        "m1": "28.9",
+        "m2": "33.6",
+        "m3": "29.2",
+        "m4": "27.2",
+        "m5": "25.0"
+      },
+      {
+        "p": "[SpatialVLM: Endowing Vision-Language Models with Spatial Reasoning Capabilities](https://arxiv.org/abs/2401.12168v1)",
+        "c": "",
+        "n": "SpaceLLaVA",
+        "d": "2024-01-22",
+        "m1": "28.2",
+        "m2": "32.4",
+        "m3": "30.5",
+        "m4": "30.9",
+        "m5": "24.9"
+      },
+      {
+        "p": "[Improved Baselines with Visual Instruction Tuning](https://arxiv.org/abs/2310.03744v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "LLaVA-1.5",
+        "d": "2023-10-05",
+        "m1": "27.2",
+        "m2": "30.9",
+        "m3": "24.5",
+        "m4": "28.3",
+        "m5": "25.8"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

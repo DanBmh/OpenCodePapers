@@ -1,0 +1,225 @@
+{
+  "title": "semantic-parsing-on-wikitablequestions",
+  "task-hierarchy": [
+    "Semantic Parsing"
+  ],
+  "dataset-info": {
+    "link": "https://ppasupat.github.io/WikiTableQuestions/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy (Test)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Accuracy (Dev)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Test Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[ARTEMIS-DA: An Advanced Reasoning and Transformation Engine for Multi-Step Insight Synthesis in Data Analytics](https://arxiv.org/abs/2412.14146v3)",
+        "c": "",
+        "n": "ARTEMIS-DA",
+        "d": "2024-12-18",
+        "m1": "80.8"
+      },
+      {
+        "p": "[Accurate and Regret-aware Numerical Problem Solver for Tabular Question Answering](https://arxiv.org/abs/2410.12846v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/yxw-11/tablap)",
+        "n": "TabLaP",
+        "d": "2024-10-10",
+        "m1": "76.6",
+        "m2": "/"
+      },
+      {
+        "p": "[SynTQA: Synergistic Table-based Question Answering via Mixture of Text-to-SQL and E2E TQA](https://arxiv.org/abs/2409.16682v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/siyue-zhang/SynTableQA)",
+        "n": "SynTQA (GPT)",
+        "d": "2024-09-25",
+        "m1": "74.4",
+        "m3": "65.2"
+      },
+      {
+        "p": "[Rethinking Tabular Data Understanding with Large Language Models](https://arxiv.org/abs/2312.16702v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Leolty/tablellm)",
+        "n": "Mix SC",
+        "d": "2023-12-27",
+        "m1": "73.6",
+        "m2": "/"
+      },
+      {
+        "p": "[SynTQA: Synergistic Table-based Question Answering via Mixture of Text-to-SQL and E2E TQA](https://arxiv.org/abs/2409.16682v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/siyue-zhang/SynTableQA)",
+        "n": "SynTQA (RF)",
+        "d": "2024-09-25",
+        "m1": "71.6",
+        "m2": "/"
+      },
+      {
+        "p": "[CABINET: Content Relevance based Noise Reduction for Table Question Answering](https://arxiv.org/abs/2402.01155v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/sohanpatnaik106/cabinet_qa)",
+        "n": "CABINET",
+        "d": "2024-02-02",
+        "m1": "69.1",
+        "m2": "/"
+      },
+      {
+        "p": "[NormTab: Improving Symbolic Reasoning in LLMs Through Tabular Data Normalization](https://arxiv.org/abs/2406.17961v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/mahadi-nahid/NormTab)",
+        "n": "NormTab+TabSQLify",
+        "d": "2024-06-25",
+        "m1": "68.63"
+      },
+      {
+        "p": "[Chain-of-Table: Evolving Tables in the Reasoning Chain for Table Understanding](https://arxiv.org/abs/2401.04398v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/cyqiq/multicot)",
+        "n": "Chain-of-Table",
+        "d": "2024-01-09",
+        "m1": "67.31",
+        "m2": "/"
+      },
+      {
+        "p": "[Efficient Prompting for LLM-based Generative Internet of Things](https://arxiv.org/abs/2406.10382v3)",
+        "c": "",
+        "n": "Tab-PoT",
+        "d": "2024-06-14",
+        "m1": "66.78",
+        "m2": "/"
+      },
+      {
+        "p": "[Large Language Models are Versatile Decomposers: Decompose Evidence and Questions for Table-based Reasoning](https://arxiv.org/abs/2301.13808v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/alibabaresearch/damo-convai)",
+        "n": "Dater",
+        "d": "2023-01-31",
+        "m1": "65.9",
+        "m2": "64.8"
+      },
+      {
+        "p": "[LEVER: Learning to Verify Language-to-Code Generation with Execution](https://arxiv.org/abs/2302.08468v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/niansong1996/lever)",
+        "n": "LEVER",
+        "d": "2023-02-16",
+        "m1": "65.8",
+        "m2": "64.6"
+      },
+      {
+        "p": "[TabSQLify: Enhancing Reasoning Capabilities of LLMs Through Table Decomposition](https://arxiv.org/abs/2404.10150v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/mahadi-nahid/tabsqlify)",
+        "n": "TabSQLify (col+row)",
+        "d": "2024-04-15",
+        "m1": "64.7"
+      },
+      {
+        "p": "[Binding Language Models in Symbolic Languages](https://arxiv.org/abs/2210.02875v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/xlang-ai/binder)",
+        "n": "Binder",
+        "d": "2022-10-06",
+        "m1": "64.6",
+        "m2": "65.0"
+      },
+      {
+        "p": "[OmniTab: Pretraining with Natural and Synthetic Data for Few-shot Table-based Question Answering](https://arxiv.org/abs/2207.03637v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jzbjyb/omnitab)",
+        "n": "OmniTab-Large",
+        "d": "2022-07-08",
+        "m1": "63.3",
+        "m2": "62.5"
+      },
+      {
+        "p": "[NormTab: Improving Symbolic Reasoning in LLMs Through Tabular Data Normalization](https://arxiv.org/abs/2406.17961v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/mahadi-nahid/NormTab)",
+        "n": "NormTab (Targeted) + SQL",
+        "d": "2024-06-25",
+        "m1": "61.20"
+      },
+      {
+        "p": "[ReasTAP: Injecting Table Reasoning Skills During Pre-training via Synthetic Reasoning Examples](https://arxiv.org/abs/2210.12374v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/yale-lily/reastap)",
+        "n": "ReasTAP-Large",
+        "d": "2022-10-22",
+        "m1": "58.7",
+        "m2": "59.7"
+      },
+      {
+        "p": "[TAPEX: Table Pre-training via Learning a Neural SQL Executor](https://arxiv.org/abs/2107.07653v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/microsoft/Table-Pretraining)",
+        "n": "TAPEX-Large",
+        "d": "2021-07-16",
+        "m1": "57.5",
+        "m2": "57.0"
+      },
+      {
+        "p": "[TaBERT: Pretraining for Joint Understanding of Textual and Tabular Data](https://arxiv.org/abs/2005.08314v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/tabert)",
+        "n": "MAPO + TABERTLarge (K = 3)",
+        "d": "2020-05-17",
+        "m1": "51.8",
+        "m2": "52.2"
+      },
+      {
+        "p": "[UnifiedSKG: Unifying and Multi-Tasking Structured Knowledge Grounding with Text-to-Text Language Models](https://arxiv.org/abs/2201.05966v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/hkunlp/unifiedskg)",
+        "n": "T5-3b(UnifiedSKG)",
+        "d": "2022-01-16",
+        "m1": "49.29",
+        "m2": "50.65"
+      },
+      {
+        "p": "[TAPAS: Weakly Supervised Table Parsing via Pre-training](https://arxiv.org/abs/2004.02349v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "TAPAS-Large (pre-trained on SQA)",
+        "d": "2020-04-05",
+        "m1": "48.8",
+        "m2": "/"
+      },
+      {
+        "p": "[Learning Semantic Parsers from Denotations with Latent Structured Alignments and Abstract Programs](https://arxiv.org/abs/1909.04165v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/berlino/weaksp_em19)",
+        "n": "Structured Attention",
+        "d": "2019-09-09",
+        "m1": "44.5",
+        "m2": "43.7"
+      },
+      {
+        "p": "[SynTQA: Synergistic Table-based Question Answering via Mixture of Text-to-SQL and E2E TQA](https://arxiv.org/abs/2409.16682v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/siyue-zhang/SynTableQA)",
+        "n": "SynTQA (Oracle)",
+        "d": "2024-09-25",
+        "m4": "77.5"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "title": "image-enhancement-on-mit-adobe-5k",
+  "task-hierarchy": [
+    "Image Enhancement"
+  ],
+  "dataset-info": {
+    "link": "https://data.csail.mit.edu/graphics/fivek/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR on sRGB",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM on sRGB",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "PSNR on proRGB",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "SSIM on proRGB",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Retinexformer: One-stage Retinex-based Transformer for Low-light Image Enhancement](https://arxiv.org/abs/2303.06705v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/cmhungsteve/Awesome-Transformer-Attention)",
+        "n": "Retinexformer",
+        "d": "2023-03-12",
+        "m1": "24.94",
+        "m2": "0.907",
+        "m3": "25.98",
+        "m4": "0.957"
+      },
+      {
+        "p": "[Image Enhancement Based on Histogram-Guided Multiple Transformation Function Estimation](https://ieeexplore.ieee.org/abstract/document/10707348)",
+        "c": "[&check;&nbsp;Link](https://github.com/PJaemin/HG-MTFE)",
+        "n": "HG-MTFE",
+        "d": "2024-10-08",
+        "m3": "25.69"
+      },
+      {
+        "p": "[PQDynamicISP: Dynamically Controlled Image Signal Processor for Any Image Sensors Pursuing Perceptual Quality](https://arxiv.org/abs/2403.10091v1)",
+        "c": "",
+        "n": "PQDynamicISP",
+        "d": "2024-03-15",
+        "m3": "25.53",
+        "m4": "0.928"
+      },
+      {
+        "p": "[AdaInt: Learning Adaptive Intervals for 3D Lookup Tables on Real-time Image Enhancement](https://arxiv.org/abs/2204.13983v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/imcharlesy/adaint)",
+        "n": "AdaInt",
+        "d": "2022-04-29",
+        "m3": "25.49",
+        "m4": "0.926"
+      },
+      {
+        "p": "[RSFNet: A White-Box Image Retouching Approach using Region-Specific Color Filters](https://arxiv.org/abs/2303.08682v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/vicky0522/rsfnet)",
+        "n": "RSFNet-map",
+        "d": "2023-03-15",
+        "m3": "25.49",
+        "m4": "0.924"
+      },
+      {
+        "p": "[SepLUT: Separable Image-adaptive Lookup Tables for Real-time Image Enhancement](https://arxiv.org/abs/2207.08351v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ImCharlesY/SepLUT)",
+        "n": "SepLUT",
+        "d": "2022-07-18",
+        "m3": "25.47",
+        "m4": "0.921"
+      },
+      {
+        "p": "[Multiple transformation function estimation for image enhancement](https://doi.org/10.1016/j.jvcir.2023.103863)",
+        "c": "[&check;&nbsp;Link](https://github.com/PJaemin/MTFE)",
+        "n": "MTFE",
+        "d": "2023-09-01",
+        "m3": "25.46"
+      },
+      {
+        "p": "[Learning Image-adaptive 3D Lookup Tables for High Performance Photo Enhancement in Real-time](https://arxiv.org/abs/2009.14468v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/HuiZeng/Image-Adaptive-3DLUT)",
+        "n": "3D LUT",
+        "d": "2020-09-30",
+        "m3": "25.21",
+        "m4": "0.922"
+      },
+      {
+        "p": "[4D LUT: Learnable Context-Aware 4D Lookup Table for Image Enhancement](https://arxiv.org/abs/2209.01749v1)",
+        "c": "",
+        "n": "4D LUT",
+        "d": "2022-09-05",
+        "m3": "24.61",
+        "m4": "0.918"
+      },
+      {
+        "p": "[CURL: Neural Curve Layers for Global Image Enhancement](https://arxiv.org/abs/1911.13175v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/sjmoran/neural_curve_layers)",
+        "n": "DIFAR (MSCA, level 1)",
+        "d": "2019-11-29",
+        "m3": "24.2",
+        "m4": "0.88"
+      },
+      {
+        "p": "[DeepLPF: Deep Local Parametric Filters for Image Enhancement](https://arxiv.org/abs/2003.13985v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/sjmoran/deep_local_parametric_filters)",
+        "n": "DeepLPF",
+        "d": "2020-03-31",
+        "m3": "23.93",
+        "m4": "0.903"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

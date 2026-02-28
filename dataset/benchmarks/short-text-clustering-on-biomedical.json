@@ -1,0 +1,71 @@
+{
+  "title": "short-text-clustering-on-biomedical",
+  "task-hierarchy": [
+    "Text Clustering",
+    "Short Text Clustering"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Acc",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "NMI",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Twin Contrastive Learning for Online Clustering](https://arxiv.org/abs/2210.11680v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Yunfan-Li/Twin-Contrastive-Learning)",
+        "n": "TCL",
+        "d": "2022-10-21",
+        "m1": "49.8",
+        "m2": "42.9"
+      },
+      {
+        "p": "[Supporting Clustering with Contrastive Learning](https://arxiv.org/abs/2103.12953v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/makcedward/nlpaug)",
+        "n": "SCCL",
+        "d": "2021-03-24",
+        "m1": "46.2"
+      },
+      {
+        "p": "[Self-Taught Convolutional Neural Networks for Short Text Clustering](http://arxiv.org/abs/1701.00185v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jacoxu/STC2)",
+        "n": "STC2-LE",
+        "d": "2017-01-01",
+        "m1": "43.62"
+      },
+      {
+        "p": "[Self-Taught Convolutional Neural Networks for Short Text Clustering](http://arxiv.org/abs/1701.00185v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jacoxu/STC2)",
+        "n": "STC2-LPI",
+        "d": "2017-01-01",
+        "m1": "43"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

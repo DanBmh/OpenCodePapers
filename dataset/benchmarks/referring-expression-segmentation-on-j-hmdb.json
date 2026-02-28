@@ -1,0 +1,362 @@
+{
+  "title": "referring-expression-segmentation-on-j-hmdb",
+  "task-hierarchy": [
+    "Referring Expression Segmentation"
+  ],
+  "dataset-info": {
+    "link": "http://jhmdb.is.tue.mpg.de/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AP",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "IoU overall",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "IoU mean",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Precision@0.5",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Precision@0.6",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "Precision@0.7",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "Precision@0.8",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "Precision@0.9",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Spectrum-guided Multi-granularity Referring Video Object Segmentation](https://arxiv.org/abs/2307.13537v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/bo-miao/sgmg)",
+        "n": "SgMg (Video-Swin-B)",
+        "d": "2023-07-25",
+        "m1": "0.450",
+        "m2": "0.737",
+        "m3": "0.725",
+        "m4": "0.972",
+        "m5": "0.917",
+        "m6": "0.714",
+        "m7": "0.225",
+        "m8": "0.003"
+      },
+      {
+        "p": "[SOC: Semantic-Assisted Object Cluster for Referring Video Object Segmentation](https://arxiv.org/abs/2305.17011v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/RobertLuo1/NeurIPS2023_SOC)",
+        "n": "SOC (Video-Swin-B)",
+        "d": "2023-05-26",
+        "m1": "0.446",
+        "m2": "0.736",
+        "m3": "0.723",
+        "m4": "0.969",
+        "m5": "0.914",
+        "m6": "0.711",
+        "m7": "0.213",
+        "m8": "0.001"
+      },
+      {
+        "p": "[Deeply Interleaved Two-Stream Encoder for Referring Video Segmentation](https://arxiv.org/abs/2203.15969v1)",
+        "c": "",
+        "n": "VLIDE",
+        "d": "2022-03-30",
+        "m1": "0.441",
+        "m2": "0.68",
+        "m3": "0.666",
+        "m4": "0.874",
+        "m5": "0.791",
+        "m6": "0.586",
+        "m7": "0.182",
+        "m8": "0.30"
+      },
+      {
+        "p": "[SOC: Semantic-Assisted Object Cluster for Referring Video Object Segmentation](https://arxiv.org/abs/2305.17011v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/RobertLuo1/NeurIPS2023_SOC)",
+        "n": "SOC (Video-Swin-T)",
+        "d": "2023-05-26",
+        "m1": "0.397",
+        "m2": "0.707",
+        "m3": "0.701",
+        "m4": "0.947",
+        "m5": "0.864",
+        "m6": "0.627",
+        "m7": "0.179",
+        "m8": "0.001"
+      },
+      {
+        "p": "[End-to-End Referring Video Object Segmentation with Multimodal Transformers](https://arxiv.org/abs/2111.14821v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/mttr2021/MTTR)",
+        "n": "MTTR (w=10)",
+        "d": "2021-11-29",
+        "m1": "0.392",
+        "m2": "0.701",
+        "m3": "0.698",
+        "m4": "0.939",
+        "m5": "0.852",
+        "m6": "0.616",
+        "m7": "0.166",
+        "m8": "0.001"
+      },
+      {
+        "p": "[End-to-End Referring Video Object Segmentation with Multimodal Transformers](https://arxiv.org/abs/2111.14821v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/mttr2021/MTTR)",
+        "n": "MTTR (w=8)",
+        "d": "2021-11-29",
+        "m1": "0.366",
+        "m2": "0.674",
+        "m3": "0.679",
+        "m4": "0.91",
+        "m5": "0.815",
+        "m6": "0.57",
+        "m7": "0.144",
+        "m8": "0.001"
+      },
+      {
+        "p": "[Cross-Modal Progressive Comprehension for Referring Segmentation](https://arxiv.org/abs/2105.07175v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/spyflying/CMPC-Refseg)",
+        "n": "CMPC-V",
+        "d": "2021-05-15",
+        "m1": "0.342",
+        "m2": "0.616",
+        "m3": "0.617",
+        "m4": "0.813",
+        "m5": "0.657",
+        "m6": "0.371",
+        "m7": "0.07",
+        "m8": "0.000"
+      },
+      {
+        "p": "[Collaborative Spatial-Temporal Modeling for Language-Queried Video Actor Segmentation](https://arxiv.org/abs/2105.06818v1)",
+        "c": "",
+        "n": "Hui et al.",
+        "d": "2021-05-14",
+        "m1": "0.335",
+        "m2": "0.598",
+        "m3": "0.604",
+        "m4": "0.783",
+        "m5": "0.639",
+        "m6": "0.378",
+        "m7": "0.076",
+        "m8": "0.000"
+      },
+      {
+        "p": "[Actor and Action Modular Network for Text-based Video Segmentation](https://arxiv.org/abs/2011.00786v2)",
+        "c": "",
+        "n": "AAMN",
+        "d": "2020-11-02",
+        "m1": "0.321",
+        "m2": "0.583",
+        "m3": "0.576",
+        "m4": "0.773",
+        "m5": "0.627",
+        "m6": "0.360",
+        "m7": "0.044",
+        "m8": "0.000"
+      },
+      {
+        "p": "[Context Modulated Dynamic Networks for Actor and Action Video Segmentation with Language Queries](https://ojs.aaai.org//index.php/AAAI/article/view/6895)",
+        "c": "",
+        "n": "CMDy",
+        "d": "2020-04-03",
+        "m1": "0.301",
+        "m2": "0.554",
+        "m3": "0.576",
+        "m4": "0.742",
+        "m5": "0.587",
+        "m6": "0.316",
+        "m7": "0.047",
+        "m8": "0.000"
+      },
+      {
+        "p": "[Polar Relative Positional Encoding for Video-Language Segmentation](https://www.ijcai.org/proceedings/2020/132)",
+        "c": "",
+        "n": "PRPE",
+        "d": "2020-07-20",
+        "m1": "0.294",
+        "m4": "0.572",
+        "m5": "0.690",
+        "m6": "0.319",
+        "m7": "0.06",
+        "m8": "0.001"
+      },
+      {
+        "p": "[Asymmetric Cross-Guided Attention Network for Actor and Action Video Segmentation From Natural Language Query](http://openaccess.thecvf.com/content_ICCV_2019/html/Wang_Asymmetric_Cross-Guided_Attention_Network_for_Actor_and_Action_Video_Segmentation_ICCV_2019_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/haowang1992/ACGA)",
+        "n": "ACGA",
+        "d": "2019-10-01",
+        "m1": "0.289",
+        "m2": "0.576",
+        "m3": "0.584",
+        "m4": "0.756",
+        "m5": "0.564",
+        "m6": "0.287",
+        "m7": "0.034",
+        "m8": "0.000"
+      },
+      {
+        "p": "[Actor and Action Video Segmentation from a Sentence](http://arxiv.org/abs/1803.07485v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/JerryX1110/awesome-rvos)",
+        "n": "Gavrilyuk et al. (Optical flow)",
+        "d": "2018-03-20",
+        "m1": "0.267",
+        "m2": "0.555",
+        "m3": "0.570",
+        "m4": "0.712",
+        "m5": "0.518",
+        "m6": "0.264",
+        "m7": "0.030",
+        "m8": "0.000"
+      },
+      {
+        "p": "[Visual-Textual Capsule Routing for Text-Based Video Segmentation](http://openaccess.thecvf.com/content_CVPR_2020/html/McIntosh_Visual-Textual_Capsule_Routing_for_Text-Based_Video_Segmentation_CVPR_2020_paper.html)",
+        "c": "",
+        "n": "VT-Capsule",
+        "d": "2020-06-01",
+        "m1": "0.261",
+        "m2": "0.535",
+        "m3": "0.550",
+        "m4": "0.677",
+        "m5": "0.513",
+        "m6": "0.283",
+        "m7": "0.051",
+        "m8": "0.000"
+      },
+      {
+        "p": "[Actor and Action Video Segmentation from a Sentence](http://arxiv.org/abs/1803.07485v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/JerryX1110/awesome-rvos)",
+        "n": "Gavrilyuk et al.",
+        "d": "2018-03-20",
+        "m1": "0.233",
+        "m2": "0.541",
+        "m3": "0.542",
+        "m4": "0.699",
+        "m5": "0.460",
+        "m6": "0.173",
+        "m7": "0.014",
+        "m8": "0.000"
+      },
+      {
+        "p": "[Segmentation from Natural Language Expressions](http://arxiv.org/abs/1603.06180v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ronghanghu/text_objseg)",
+        "n": "Hu et al.",
+        "d": "2016-03-20",
+        "m1": "0.178",
+        "m2": "0.546",
+        "m3": "0.528",
+        "m4": "0.633",
+        "m5": "0.350",
+        "m6": "0.085",
+        "m7": "0.002",
+        "m8": "0.000"
+      },
+      {
+        "p": "[Tracking by Natural Language Specification](http://openaccess.thecvf.com/content_cvpr_2017/html/Li_Tracking_by_Natural_CVPR_2017_paper.html)",
+        "c": "",
+        "n": "Li et al.",
+        "d": "2017-07-01",
+        "m1": "0.173",
+        "m2": "0.529",
+        "m3": "0.491",
+        "m4": "0.578",
+        "m5": "0.335",
+        "m6": "0.103",
+        "m7": "0.060",
+        "m8": "0.000"
+      },
+      {
+        "p": "[Hierarchical interaction network for video object segmentation from referring expressions](https://www.bmvc2021-virtualconference.com/conference/papers/paper_0386.html)",
+        "c": "",
+        "n": "HINet",
+        "d": "2021-11-22",
+        "m2": "0.652",
+        "m3": "0.627",
+        "m4": "0.819",
+        "m5": "0.736",
+        "m6": "0.542",
+        "m7": "0.168",
+        "m8": "0.4"
+      },
+      {
+        "p": "[ClawCraneNet: Leveraging Object-level Relation for Text-based Video Segmentation](https://arxiv.org/abs/2103.10702v4)",
+        "c": "",
+        "n": "ClawCraneNet",
+        "d": "2021-03-19",
+        "m2": "0.644",
+        "m3": "0.655",
+        "m4": "0.880",
+        "m5": "0.796",
+        "m6": "0.566",
+        "m7": "0.147",
+        "m8": "0.002"
+      },
+      {
+        "p": "[Referring Segmentation in Images and Videos with Cross-Modal Self-Attention Network](https://arxiv.org/abs/2102.04762v1)",
+        "c": "",
+        "n": "CMSA+CFSA",
+        "d": "2021-02-09",
+        "m2": "0.628",
+        "m3": "0.581",
+        "m4": "0.764",
+        "m5": "0.625",
+        "m6": "0.389",
+        "m7": "0.09",
+        "m8": "0.001"
+      },
+      {
+        "p": "[Hierarchical interaction network for video object segmentation from referring expressions](https://www.bmvc2021-virtualconference.com/conference/papers/paper_0386.html)",
+        "c": "",
+        "n": "RefVOS",
+        "d": "2021-11-22",
+        "m2": "0.606",
+        "m3": "0.568",
+        "m4": "0.731",
+        "m5": "0.62",
+        "m6": "0.392",
+        "m7": "0.088",
+        "m8": "0.0"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "title": "link-prediction-on-movielens-25m",
+  "task-hierarchy": [
+    "Link Prediction"
+  ],
+  "dataset-info": {
+    "link": "https://grouplens.org/datasets/movielens/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "nDCG@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Hits@10",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Metapath- and Entity-aware Graph Neural Network for Recommendation](https://arxiv.org/abs/2010.11793v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/ecml-peagnn/PEAGNN)",
+        "n": "PEAGAT",
+        "d": "2020-10-22",
+        "m1": "0.5475",
+        "m2": "0.8284"
+      },
+      {
+        "p": "[Neural Factorization Machines for Sparse Predictive Analytics](http://arxiv.org/abs/1708.05027v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/shenweichen/DeepCTR)",
+        "n": "NFM",
+        "d": "2017-08-16",
+        "m1": "0.5347",
+        "m2": "0.8132"
+      },
+      {
+        "p": "[KGAT: Knowledge Graph Attention Network for Recommendation](https://arxiv.org/abs/1905.07854v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/xiangwang1223/knowledge_graph_attention_network)",
+        "n": "KGAT",
+        "d": "2019-05-20",
+        "m1": "0.5236",
+        "m2": "0.8147"
+      },
+      {
+        "p": "[Learning Heterogeneous Knowledge Base Embeddings for Explainable Recommendation](http://arxiv.org/abs/1805.03352v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/xiangwang1223/knowledge_graph_attention_network)",
+        "n": "CFKG",
+        "d": "2018-05-09",
+        "m1": "0.5196",
+        "m2": "0.8152"
+      },
+      {
+        "p": "[metapath2vec: Scalable Representation Learning for Heterogeneous Networks](https://dl.acm.org/doi/10.1145/3097983.3098036)",
+        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/metapath2vec)",
+        "n": "metapath2vec",
+        "d": "2017-08-01",
+        "m1": "0.5051",
+        "m2": "0.7956"
+      },
+      {
+        "p": "[Neural Graph Collaborative Filtering](https://arxiv.org/abs/1905.08108v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/NGCF)",
+        "n": "NGCF",
+        "d": "2019-05-20",
+        "m1": "0.4866",
+        "m2": "0.7807"
+      },
+      {
+        "p": "[Knowledge Graph Convolutional Networks for Recommender Systems](http://arxiv.org/abs/1904.12575v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/hwwang55/KGCN)",
+        "n": "KGCN",
+        "d": "2019-03-18",
+        "m1": "0.4699",
+        "m2": "0.771"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "title": "speech-recognition-on-tuda",
+  "task-hierarchy": [
+    "Speech Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://www.inf.uni-hamburg.de/en/inst/ab/lt/resources/data/acoustic-models.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Test WER",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Automatic Speech Recognition in German: A Detailed Error Analysis](https://ieeexplore.ieee.org/abstract/document/9854978/)",
+        "c": "",
+        "n": "Conformer-Transducer (no LM)",
+        "d": "2022-08-03",
+        "m1": "5.82%"
+      },
+      {
+        "p": "[Improved Open Source Automatic Subtitling for Lecture Videos](https://aclanthology.org/2022.konvens-1.11)",
+        "c": "[&check;&nbsp;Link](https://github.com/uhh-lt/kaldi-tuda-de)",
+        "n": "TDNN-HMM hybrid, FST (with RNNLM rescoring)",
+        "d": null,
+        "m1": "6.93%"
+      },
+      {
+        "p": "[Scribosermo: Fast Speech-to-Text models for German and other Languages](https://arxiv.org/abs/2110.07982v1)",
+        "c": "[&check;&nbsp;Link](https://gitlab.com/Jaco-Assistant/deepspeech-polyglot)",
+        "n": "QuartzNet15x5DE (D37)",
+        "d": "2021-10-15",
+        "m1": "10.2%"
+      },
+      {
+        "p": "[IMS-Speech: A Speech to Text Tool](https://arxiv.org/abs/1908.04743v1)",
+        "c": "",
+        "n": "IMS-Speech",
+        "d": "2019-08-13",
+        "m1": "12.0%"
+      },
+      {
+        "p": "[CTC-Segmentation of Large Corpora for German End-to-end Speech Recognition](https://arxiv.org/abs/2007.09127v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/lumaku/ctc-segmentation)",
+        "n": "Hybrid CTC/Attention",
+        "d": "2020-07-17",
+        "m1": "12.8%"
+      },
+      {
+        "p": "[Open Source Automatic Speech Recognition for German](http://arxiv.org/abs/1807.10311v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/uhh-lt/kaldi-tuda-de)",
+        "n": "Kaldi",
+        "d": "2018-07-26",
+        "m1": "14.4%"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "DeepSpeech-Polyglot",
+        "d": null,
+        "m1": "18.6%"
+      },
+      {
+        "p": "[Open Source German Distant Speech Recognition: Corpus and Acoustic Model](https://link.springer.com/chapter/10.1007/978-3-319-24033-6_54)",
+        "c": "[&check;&nbsp;Link](https://github.com/tudarmstadt-lt/kaldi-tuda-de)",
+        "n": "Kaldi",
+        "d": "2015-12-11",
+        "m1": "20.5%"
+      },
+      {
+        "p": "[Open Source German Distant Speech Recognition: Corpus and Acoustic Model](https://link.springer.com/chapter/10.1007/978-3-319-24033-6_54)",
+        "c": "[&check;&nbsp;Link](https://github.com/tudarmstadt-lt/kaldi-tuda-de)",
+        "n": "PocketSphinx",
+        "d": "2015-12-11",
+        "m1": "39.6%"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

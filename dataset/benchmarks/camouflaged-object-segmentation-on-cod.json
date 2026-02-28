@@ -1,0 +1,158 @@
+{
+  "title": "camouflaged-object-segmentation-on-cod",
+  "task-hierarchy": [
+    "Object Detection",
+    "Camouflaged Object Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://dengpingfan.github.io/pages/COD.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "S-Measure",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Weighted F-Measure",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "MAE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Bilateral Reference for High-Resolution Dichotomous Image Segmentation](https://arxiv.org/abs/2401.03407v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/zhengpeng7/birefnet)",
+        "n": "BiRefNet",
+        "d": "2024-01-07",
+        "m1": "0.913",
+        "m2": "0.874",
+        "m3": "0.014"
+      },
+      {
+        "p": "[FOCUS: Towards Universal Foreground Segmentation](https://arxiv.org/abs/2501.05238v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/geshang777/FOCUS)",
+        "n": "FOCUS",
+        "d": "2025-01-09",
+        "m1": "0.910",
+        "m2": "0.883",
+        "m3": "0.013"
+      },
+      {
+        "p": "[ZoomNeXt: A Unified Collaborative Pyramid Network for Camouflaged Object Detection](https://arxiv.org/abs/2310.20208v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/lartpang/zoomnext)",
+        "n": "ZoomNeXt-PVTv2-B4",
+        "d": "2023-10-31",
+        "m1": "0.898",
+        "m2": "0.838",
+        "m3": "0.017"
+      },
+      {
+        "p": "[ZoomNeXt: A Unified Collaborative Pyramid Network for Camouflaged Object Detection](https://arxiv.org/abs/2310.20208v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/lartpang/zoomnext)",
+        "n": "ZoomNeXt-PVTv2-B5",
+        "d": "2023-10-31",
+        "m1": "0.898",
+        "m2": "0.827",
+        "m3": "0.018"
+      },
+      {
+        "p": "[ZoomNeXt: A Unified Collaborative Pyramid Network for Camouflaged Object Detection](https://arxiv.org/abs/2310.20208v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/lartpang/zoomnext)",
+        "n": "ZoomNeXt-ResNet-50",
+        "d": "2023-10-31",
+        "m1": "0.861",
+        "m2": "0.768",
+        "m3": "0.026"
+      },
+      {
+        "p": "[Explicit Visual Prompting for Universal Foreground Segmentations](https://arxiv.org/abs/2305.18476v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/nifangbaage/explict-visual-prompt)",
+        "n": "EVPv2",
+        "d": "2023-05-29",
+        "m1": "0.843",
+        "m2": "0.746",
+        "m3": "0.029"
+      },
+      {
+        "p": "[Explicit Visual Prompting for Low-Level Structure Segmentations](https://arxiv.org/abs/2303.10883v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/nifangbaage/explicit-visual-prompt)",
+        "n": "EVPv1",
+        "d": "2023-03-20",
+        "m1": "0.843",
+        "m2": "0.742",
+        "m3": "0.029"
+      },
+      {
+        "p": "[Concealed Object Detection](https://arxiv.org/abs/2102.10274v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/GewelsJI/SINet-V2)",
+        "n": "SINet*",
+        "d": "2021-02-20",
+        "m1": "0.771",
+        "m2": "0.551",
+        "m3": "0.051"
+      },
+      {
+        "p": "[Cascaded Partial Decoder for Fast and Accurate Salient Object Detection](http://arxiv.org/abs/1904.08739v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/wuzhe71/CPD)",
+        "n": "CPD",
+        "d": "2019-04-18",
+        "m1": "0.747",
+        "m2": "0.508",
+        "m3": "0.059"
+      },
+      {
+        "p": "[EGNet: Edge Guidance Network for Salient Object Detection](http://openaccess.thecvf.com/content_ICCV_2019/html/Zhao_EGNet_Edge_Guidance_Network_for_Salient_Object_Detection_ICCV_2019_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/mindspore-ai/models/tree/master/research/cv/EGnet)",
+        "n": "EGNet",
+        "d": "2019-10-01",
+        "m1": "0.737",
+        "m2": "0.509",
+        "m3": "0.056"
+      },
+      {
+        "p": "[Camouflaged Object Detection](http://openaccess.thecvf.com/content_CVPR_2020/html/Fan_Camouflaged_Object_Detection_CVPR_2020_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/DengPingFan/SINet)",
+        "n": "SINet",
+        "d": "2020-06-01",
+        "m1": "0.685",
+        "m2": "0.352",
+        "m3": "0.092"
+      },
+      {
+        "p": "[BASNet: Boundary-Aware Salient Object Detection](http://openaccess.thecvf.com/content_CVPR_2019/html/Qin_BASNet_Boundary-Aware_Salient_Object_Detection_CVPR_2019_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/NathanUA/BASNet)",
+        "n": "BASNet",
+        "d": "2019-06-01",
+        "m1": "0.685",
+        "m2": "0.352",
+        "m3": "0.092"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

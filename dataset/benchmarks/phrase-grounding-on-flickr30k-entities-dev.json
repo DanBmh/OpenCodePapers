@@ -1,0 +1,74 @@
+{
+  "title": "phrase-grounding-on-flickr30k-entities-dev",
+  "task-hierarchy": [
+    "Phrase Grounding"
+  ],
+  "dataset-info": {
+    "link": "http://bryanplummer.com/Flickr30kEntities/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "R@1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "R@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "R@5",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Coarse-to-Fine Vision-Language Pre-training with Fusion in the Backbone](https://arxiv.org/abs/2206.07643v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/microsoft/fiber)",
+        "n": "Fiber-B",
+        "d": "2022-06-15",
+        "m1": "87.1",
+        "m2": "97.4",
+        "m3": "96.1"
+      },
+      {
+        "p": "[PEVL: Position-enhanced Pre-training and Prompt Tuning for Vision-language Models](https://arxiv.org/abs/2205.11169v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/thunlp/pevl)",
+        "n": "PEVL",
+        "d": "2022-05-23",
+        "m1": "84.1"
+      },
+      {
+        "p": "[VisualBERT: A Simple and Performant Baseline for Vision and Language](https://arxiv.org/abs/1908.03557v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/uclanlp/visualbert)",
+        "n": "VisualBERT",
+        "d": "2019-08-09",
+        "m1": "70.4",
+        "m2": "86.31",
+        "m3": "84.49"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

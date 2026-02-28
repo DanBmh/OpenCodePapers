@@ -1,0 +1,83 @@
+{
+  "title": "visual-social-relationship-recognition-on",
+  "task-hierarchy": [
+    "Visual Social Relationship Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://zenodo.org/record/1059155"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "mAP (Coarse)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[GRITv2: Efficient and Light-weight Social Relation Recognition](https://arxiv.org/abs/2403.06895v1)",
+        "c": "",
+        "n": "GRITv2-L",
+        "d": "2024-03-11",
+        "m1": "80.7",
+        "m2": "87.8"
+      },
+      {
+        "p": "[Graph-Based Social Relation Reasoning](https://arxiv.org/abs/2007.07453v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/Li-Wanhua/GR2N)",
+        "n": "GR2N",
+        "d": "2020-07-15",
+        "m1": "72.7",
+        "m2": "83.1"
+      },
+      {
+        "p": "[Multi-Granularity Reasoning for Social Relation Recognition from Images](http://arxiv.org/abs/1901.03067v1)",
+        "c": "",
+        "n": "MGR",
+        "d": "2019-01-10",
+        "m1": "70.0"
+      },
+      {
+        "p": "[Deep Reasoning with Knowledge Graph for Social Relationship Understanding](http://arxiv.org/abs/1807.00504v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/HCPLab-SYSU/SR)",
+        "n": "GRM",
+        "d": "2018-07-02",
+        "m1": "68.7",
+        "m2": "82.8"
+      },
+      {
+        "p": "[Dual-Glance Model for Deciphering Social Relationships](http://arxiv.org/abs/1708.00634v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/HCPLab-SYSU/SR)",
+        "n": "Dual-Glance",
+        "d": "2017-08-02",
+        "m1": "63.2",
+        "m2": "79.7"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

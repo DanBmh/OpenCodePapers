@@ -1,0 +1,117 @@
+{
+  "title": "multi-object-tracking-on-wildtrack",
+  "task-hierarchy": [
+    "Object Tracking",
+    "Multi-Object Tracking"
+  ],
+  "dataset-info": {
+    "link": "https://www.epfl.ch/labs/cvlab/data/data-wildtrack/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "IDF1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "MOTA",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[MCBLT: Multi-Camera Multi-Object 3D Tracking in Long Videos](https://arxiv.org/abs/2412.00692v3)",
+        "c": "",
+        "n": "MCBLT",
+        "d": "2024-12-01",
+        "m1": "95.6",
+        "m2": "92.6"
+      },
+      {
+        "p": "[Lifting Multi-View Detection and Tracking to the Bird's Eye View](https://arxiv.org/abs/2403.12573v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/tteepe/tracktacular)",
+        "n": "TrackTacular (Bilinear Sampling)",
+        "d": "2024-03-19",
+        "m1": "95.3",
+        "m2": "91.8"
+      },
+      {
+        "p": "[Multi-view Tracking Using Weakly Supervised Human Motion Prediction](https://arxiv.org/abs/2210.10771v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/cvlab-epfl/mvflow)",
+        "n": "MVFlow",
+        "d": "2022-10-19",
+        "m1": "93.5",
+        "m2": "91.3"
+      },
+      {
+        "p": "[EarlyBird: Early-Fusion for Multi-View Tracking in the Bird's Eye View](https://arxiv.org/abs/2310.13350v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/tteepe/EarlyBird)",
+        "n": "EarlyBird",
+        "d": "2023-10-20",
+        "m1": "92.3",
+        "m2": "89.5"
+      },
+      {
+        "p": "[ReST: A Reconfigurable Spatial-Temporal Graph Model for Multi-Camera Multi-Object Tracking](https://arxiv.org/abs/2308.13229v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/chengche6230/rest)",
+        "n": "ReST",
+        "d": "2023-08-25",
+        "m1": "86.7",
+        "m2": "84.9"
+      },
+      {
+        "p": "[Real-time 3D Deep Multi-Camera Tracking](https://arxiv.org/abs/2003.11753v1)",
+        "c": "",
+        "n": "DMCT Stack",
+        "d": "2020-03-26",
+        "m1": "81.9",
+        "m2": "74.6"
+      },
+      {
+        "p": "[Real-time 3D Deep Multi-Camera Tracking](https://arxiv.org/abs/2003.11753v1)",
+        "c": "",
+        "n": "DMCT",
+        "d": "2020-03-26",
+        "m1": "77.8",
+        "m2": "72.8"
+      },
+      {
+        "p": "[A Bayesian Filter for Multi-view 3D Multi-object Tracking with Occlusion Handling](https://arxiv.org/abs/2001.04118v4)",
+        "c": "",
+        "n": "GLMB-YOLOv3",
+        "d": "2020-01-13",
+        "m1": "74.3",
+        "m2": "69.7"
+      },
+      {
+        "p": "[A Bayesian Filter for Multi-view 3D Multi-object Tracking with Occlusion Handling](https://arxiv.org/abs/2001.04118v4)",
+        "c": "",
+        "n": "GLMB-DO",
+        "d": "2020-01-13",
+        "m1": "72.5",
+        "m2": "70.1"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

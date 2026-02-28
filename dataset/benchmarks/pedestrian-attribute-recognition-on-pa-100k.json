@@ -1,0 +1,140 @@
+{
+  "title": "pedestrian-attribute-recognition-on-pa-100k",
+  "task-hierarchy": [
+    "Pedestrian Attribute Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/xh-liu/HydraPlus-Net"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Accuracy ",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "F1 score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[HumanBench: Towards General Human-centric Perception with Projector Assisted Pretraining](https://arxiv.org/abs/2303.05675v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/opengvlab/humanbench)",
+        "n": "PATH (Partial FT)",
+        "d": "2023-03-10",
+        "m1": "90.8"
+      },
+      {
+        "p": "[Hulk: A Universal Knowledge Translator for Human-Centric Tasks](https://arxiv.org/abs/2312.01697v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/opengvlab/humanbench)",
+        "n": "Hulk(Finetune, ViT-L)",
+        "d": "2023-12-04",
+        "m1": "88.97"
+      },
+      {
+        "p": "[Hulk: A Universal Knowledge Translator for Human-Centric Tasks](https://arxiv.org/abs/2312.01697v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/opengvlab/humanbench)",
+        "n": "Hulk(Finetune, ViT-B)",
+        "d": "2023-12-04",
+        "m1": "87.85"
+      },
+      {
+        "p": "[C2T-Net: Channel-Aware Cross-Fused Transformer-Style Networks for Pedestrian Attribute Recognition](https://openaccess.thecvf.com/content/WACV2024W/RWS/html/Bui_C2T-Net_Channel-Aware_Cross-Fused_Transformer-Style_Networks_for_Pedestrian_Attribute_Recognition_WACVW_2024_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/caodoanh2001/upar_challenge)",
+        "n": "C2T-Net",
+        "d": "2023-12-26",
+        "m1": "87.2"
+      },
+      {
+        "p": "[Beyond Appearance: a Semantic Controllable Self-Supervised Learning Framework for Human-Centric Visual Tasks](https://arxiv.org/abs/2303.17602v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/modelscope/modelscope)",
+        "n": "SOLIDER",
+        "d": "2023-03-30",
+        "m1": "86.38"
+      },
+      {
+        "p": "[UniHCP: A Unified Model for Human-Centric Perceptions](https://arxiv.org/abs/2303.02936v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/opengvlab/unihcp)",
+        "n": "UniHCP (finetune)",
+        "d": "2023-03-06",
+        "m1": "86.18"
+      },
+      {
+        "p": "[Towards Unified Text-based Person Retrieval: A Large-scale Multi-Attribute and Language Search Benchmark](https://arxiv.org/abs/2306.02898v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/Shuyu-XJTU/APTM)",
+        "n": "APTM",
+        "d": "2023-06-05",
+        "m1": "80.17"
+      },
+      {
+        "p": "[Label2Label: A Language Modeling Framework for Multi-Attribute Learning](https://arxiv.org/abs/2207.08677v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/li-wanhua/label2label)",
+        "n": "Label2Label",
+        "d": "2022-07-18",
+        "m1": "79.23"
+      },
+      {
+        "p": "[Rethinking of Pedestrian Attribute Recognition: Realistic Datasets with Efficient Method](https://arxiv.org/abs/2005.11909v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/valencebond/Rethinking_of_PAR)",
+        "n": "strongBaseline(ours)",
+        "d": "2020-05-25",
+        "m1": "78.56"
+      },
+      {
+        "p": "[Improving Pedestrian Attribute Recognition With Weakly-Supervised Multi-Scale Attribute-Specific Localization](https://arxiv.org/abs/1910.04562v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/chufengt/alm-pedestrian-attribute)",
+        "n": "Attribute-Specific Localization",
+        "d": "2019-10-10",
+        "m1": "77.08%"
+      },
+      {
+        "p": "[HydraPlus-Net: Attentive Deep Features for Pedestrian Analysis](http://arxiv.org/abs/1709.09930v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/xh-liu/HydraPlus-Net)",
+        "n": "HP-net",
+        "d": "2017-09-28",
+        "m1": "72.19%"
+      },
+      {
+        "p": "[AttriVision: Advancing Generalization in Pedestrian Attribute Recognition using CLIP](https://openaccess.thecvf.com/content/WACV2025W/V3SC/html/Sedeh_AttriVision_Advancing_Generalization_in_Pedestrian_Attribute_Recognition_using_CLIP_WACVW_2025_paper.html)",
+        "c": "",
+        "n": "Attrivision",
+        "d": "2025-02-18",
+        "m2": "89.8"
+      },
+      {
+        "p": "[AttriVision: Advancing Generalization in Pedestrian Attribute Recognition using CLIP](https://openaccess.thecvf.com/content/WACV2025W/V3SC/html/Sedeh_AttriVision_Advancing_Generalization_in_Pedestrian_Attribute_Recognition_using_CLIP_WACVW_2025_paper.html)",
+        "c": "",
+        "n": "Attivision",
+        "d": "2025-02-18",
+        "m3": "93.1"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

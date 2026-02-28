@@ -1,0 +1,91 @@
+{
+  "title": "3d-human-pose-estimation-on-rich",
+  "task-hierarchy": [
+    "Pose Estimation",
+    "3D Human Pose Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://rich.is.tue.mpg.de/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MPJPE",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "MPVPE",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "PA-MPJPE",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "BoSE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[UPose3D: Uncertainty-Aware 3D Human Pose Estimation with Cross-View and Temporal Cues](https://arxiv.org/abs/2404.14634v3)",
+        "c": "",
+        "n": "UPose3D (eval only)",
+        "d": "2024-04-23",
+        "m1": "34.7",
+        "m3": "32"
+      },
+      {
+        "p": "[SkelFormer: Markerless 3D Pose and Shape Estimation using Skeletal Transformers](https://arxiv.org/abs/2404.12625v1)",
+        "c": "",
+        "n": "SkelFormer (HRNet - eval only)",
+        "d": "2024-04-19",
+        "m1": "44.2",
+        "m2": "39.9",
+        "m3": "35.6"
+      },
+      {
+        "p": "[3D Human Pose Estimation via Intuitive Physics](https://arxiv.org/abs/2303.18246v3)",
+        "c": "",
+        "n": "IPMAN-R",
+        "d": "2023-03-31",
+        "m1": "79",
+        "m2": "89.9",
+        "m3": "47.6",
+        "m4": "71.2%"
+      },
+      {
+        "p": "[WHAM: Reconstructing World-grounded Humans with Accurate 3D Motion](https://arxiv.org/abs/2312.07531v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/yohanshin/WHAM)",
+        "n": "WHAM (ViT)",
+        "d": "2023-12-12",
+        "m1": "80",
+        "m2": "91.2",
+        "m3": "44.3"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

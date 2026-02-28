@@ -1,0 +1,105 @@
+{
+  "title": "stereo-depth-estimation-on-kitti2015",
+  "task-hierarchy": [
+    "Stereo Depth Estimation"
+  ],
+  "dataset-info": {
+    "link": "http://www.cvlibs.net/datasets/kitti/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": " three pixel error",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "three pixel error",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "D1-all All",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "D1-all Noc",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Anytime Stereo Image Depth Estimation on Mobile Devices](http://arxiv.org/abs/1810.11408v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/mileyan/AnyNet)",
+        "n": "AnyNet",
+        "d": "2018-10-26",
+        "m1": "6.2"
+      },
+      {
+        "p": "[MobileStereoNet: Towards Lightweight Deep Networks for Stereo Matching](https://arxiv.org/abs/2108.09770v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/cogsys-tuebingen/mobilestereonet)",
+        "n": "3D-MobileStereoNet",
+        "d": "2021-08-22",
+        "m2": "1.69"
+      },
+      {
+        "p": "[Wasserstein Distances for Stereo Disparity Estimation](https://arxiv.org/abs/2007.03085v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Div99/W-Stereo-Disp)",
+        "n": "CDN-GANet Deep",
+        "d": "2020-07-06",
+        "m2": "1.92"
+      },
+      {
+        "p": "[HITNet: Hierarchical Iterative Tile Refinement Network for Real-time Stereo Matching](https://arxiv.org/abs/2007.12140v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research)",
+        "n": "HITNET",
+        "d": "2020-07-23",
+        "m2": "2.43"
+      },
+      {
+        "p": "[MobileStereoNet: Towards Lightweight Deep Networks for Stereo Matching](https://arxiv.org/abs/2108.09770v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/cogsys-tuebingen/mobilestereonet)",
+        "n": "2D-MobileStereoNet",
+        "d": "2021-08-22",
+        "m2": "2.67"
+      },
+      {
+        "p": "[TriStereoNet: A Trinocular Framework for Multi-baseline Disparity Estimation](https://arxiv.org/abs/2111.12502v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/cogsys-tuebingen/tristereonet)",
+        "n": "TriStereoNet",
+        "d": "2021-11-24",
+        "m3": "2.35",
+        "m4": "2.09"
+      },
+      {
+        "p": "[Chitransformer: Towards Reliable Stereo From Cues](http://openaccess.thecvf.com//content/CVPR2022/html/Su_Chitransformer_Towards_Reliable_Stereo_From_Cues_CVPR_2022_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/isl-cv/chitransformer)",
+        "n": "ChiTransformer",
+        "d": "2022-01-01",
+        "m3": "2.60 (self-sup.)",
+        "m4": "2.38 (self-sup.)"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

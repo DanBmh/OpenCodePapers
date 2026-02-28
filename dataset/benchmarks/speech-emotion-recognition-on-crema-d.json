@@ -1,0 +1,102 @@
+{
+  "title": "speech-emotion-recognition-on-crema-d",
+  "task-hierarchy": [
+    "Speech Emotion Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/CheyneyComputerScience/CREMA-D"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Accuracy enhancement method for speech emotion recognition from spectrogram using temporal frequency correlation and positional information learning through knowledge transfer](https://arxiv.org/abs/2403.17327v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/kjy7567/speech_emotion_recognition_from_log_Mel_spectrogram_using_vertically_long_patch)",
+        "n": "Vertically long patch ViT",
+        "d": "2024-03-26",
+        "m1": "94.07"
+      },
+      {
+        "p": "[BigSSL: Exploring the Frontier of Large-Scale Semi-Supervised Learning for Automatic Speech Recognition](https://arxiv.org/abs/2109.13226v3)",
+        "c": "",
+        "n": "ConformerXL-P",
+        "d": "2021-09-27",
+        "m1": "88.2"
+      },
+      {
+        "p": "[CoordViT: A Novel Method of Improve Vision Transformer-Based Speech Emotion Recognition using Coordinate Information Concatenate](https://ieeexplore.ieee.org/document/10049941)",
+        "c": "",
+        "n": "CoordViT",
+        "d": "2023-03-10",
+        "m1": "82.96"
+      },
+      {
+        "p": "[Learning Rate Curriculum](https://arxiv.org/abs/2205.09180v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/croitorualin/lerac)",
+        "n": "SepTr + LeRaC",
+        "d": "2022-05-18",
+        "m1": "70.95"
+      },
+      {
+        "p": "[SepTr: Separable Transformer for Audio Spectrogram Processing](https://arxiv.org/abs/2203.09581v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/ristea/septr)",
+        "n": "SepTr",
+        "d": "2022-03-17",
+        "m1": "70.47"
+      },
+      {
+        "p": "[Self-paced ensemble learning for speech and audio classification](https://arxiv.org/abs/2103.11988v2)",
+        "c": "",
+        "n": "ResNet-18 + SPEL",
+        "d": "2021-03-22",
+        "m1": "68.12"
+      },
+      {
+        "p": "[AST: Audio Spectrogram Transformer](https://arxiv.org/abs/2104.01778v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/YuanGongND/ast)",
+        "n": "ViT",
+        "d": "2021-04-05",
+        "m1": "67.81"
+      },
+      {
+        "p": "[Non-linear Neurons with Human-like Apical Dendrite Activations](https://arxiv.org/abs/2003.03229v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/raduionescu/pynada)",
+        "n": "ResNet-18 + PyNADA",
+        "d": "2020-02-02",
+        "m1": "65.15"
+      },
+      {
+        "p": "[Visually Guided Self Supervised Learning of Speech Representations](https://arxiv.org/abs/2001.04316v2)",
+        "c": "",
+        "n": "GRU",
+        "d": "2020-01-13",
+        "m1": "55.01"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

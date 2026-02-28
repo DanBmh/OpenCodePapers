@@ -1,0 +1,68 @@
+{
+  "title": "single-image-deraining-on-raindrop",
+  "task-hierarchy": [
+    "Rain Removal",
+    "Single Image Deraining"
+  ],
+  "dataset-info": {
+    "link": "https://rui1996.github.io/raindrop/raindrop_removal.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[TransWeather: Transformer-based Restoration of Images Degraded by Adverse Weather Conditions](https://arxiv.org/abs/2111.14813v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/jeya-maria-jose/TransWeather)",
+        "n": "TransWeather",
+        "d": "2021-11-29",
+        "m1": "34.55"
+      },
+      {
+        "p": "[Resfusion: Denoising Diffusion Probabilistic Models for Image Restoration Based on Prior Residual Noise](https://arxiv.org/abs/2311.14900v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/nkicsl/resfusion)",
+        "n": "Resfusion",
+        "d": "2023-11-25",
+        "m1": "32.61",
+        "m2": "0.938"
+      },
+      {
+        "p": "[Restoring Vision in Adverse Weather Conditions with Patch-Based Denoising Diffusion Models](https://arxiv.org/abs/2207.14626v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/igitugraz/weatherdiffusion)",
+        "n": "RainDropDiff128",
+        "d": "2022-07-29",
+        "m1": "32.43",
+        "m2": "0.933"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

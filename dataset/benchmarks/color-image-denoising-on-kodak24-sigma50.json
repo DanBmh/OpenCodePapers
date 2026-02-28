@@ -1,0 +1,115 @@
+{
+  "title": "color-image-denoising-on-kodak24-sigma50",
+  "task-hierarchy": [
+    "3D Architecture",
+    "Denoising",
+    "Color Image Denoising"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "LPIPS",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Stimulating Diffusion Model for Image Denoising via Adaptive Embedding and Ensembling](https://arxiv.org/abs/2307.03992v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/li-tong-621/dmid)",
+        "n": "DMID-d(MMSE)",
+        "d": "2023-07-08",
+        "m1": "30.13",
+        "m2": "0.172",
+        "m3": "0.9174"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "CGNet",
+        "d": null,
+        "m1": "30.06"
+      },
+      {
+        "p": "[KBNet: Kernel Basis Network for Image Restoration](https://arxiv.org/abs/2303.02881v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/zhangyi-3/kbnet)",
+        "n": "KBNet",
+        "d": "2023-03-06",
+        "m1": "30.04"
+      },
+      {
+        "p": "[Restormer: Efficient Transformer for High-Resolution Image Restoration](https://arxiv.org/abs/2111.09881v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/swz30/restormer)",
+        "n": "Restormer",
+        "d": "2021-11-18",
+        "m1": "30.01"
+      },
+      {
+        "p": "[Hierarchical Information Flow for Generalized Efficient Image Restoration](https://arxiv.org/abs/2411.18588v1)",
+        "c": "",
+        "n": "Hi-IR",
+        "d": "2024-11-27",
+        "m1": "29.98"
+      },
+      {
+        "p": "[SwinIR: Image Restoration Using Swin Transformer](https://arxiv.org/abs/2108.10257v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/XPixelGroup/BasicSR)",
+        "n": "SwinIR",
+        "d": "2021-08-23",
+        "m1": "29.79"
+      },
+      {
+        "p": "[Residual Dense Network for Image Restoration](https://arxiv.org/abs/1812.10477v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/yulunzhang/RDN)",
+        "n": "Residual Dense Network +",
+        "d": "2018-12-25",
+        "m1": "29.7"
+      },
+      {
+        "p": "[iiTransformer: A Unified Approach to Exploiting Local and Non-Local Information for Image Restoration](https://bmvc2022.mpi-inf.mpg.de/377/)",
+        "c": "",
+        "n": "iiTransformer",
+        "d": "2022-11-21",
+        "m1": "28.09"
+      },
+      {
+        "p": "[Stimulating Diffusion Model for Image Denoising via Adaptive Embedding and Ensembling](https://arxiv.org/abs/2307.03992v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/li-tong-621/dmid)",
+        "n": "DMID-p",
+        "d": "2023-07-08",
+        "m1": "27.9",
+        "m2": "0.131",
+        "m3": "0.8770"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

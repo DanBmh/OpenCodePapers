@@ -1,0 +1,375 @@
+{
+  "title": "cross-modal-retrieval-on-flickr30k",
+  "task-hierarchy": [
+    "Cross-Modal Retrieval"
+  ],
+  "dataset-info": {
+    "link": "https://shannon.cs.illinois.edu/DenotationGraph/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Image-to-text R@1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Image-to-text R@5",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Image-to-text R@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Text-to-image R@1",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Text-to-image R@5",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "Text-to-image R@10",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[X$^2$-VLM: All-In-One Pre-trained Model For Vision-Language Tasks](https://arxiv.org/abs/2211.12402v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/zengyan-97/x-vlm)",
+        "n": "X2-VLM (large)",
+        "d": "2022-11-22",
+        "m1": "98.8",
+        "m2": "100",
+        "m3": "100",
+        "m4": "91.8",
+        "m5": "98.6",
+        "m6": "99.5"
+      },
+      {
+        "p": "[X$^2$-VLM: All-In-One Pre-trained Model For Vision-Language Tasks](https://arxiv.org/abs/2211.12402v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/zengyan-97/x-vlm)",
+        "n": "X2-VLM (base)",
+        "d": "2022-11-22",
+        "m1": "98.5",
+        "m2": "100",
+        "m3": "100",
+        "m4": "90.4",
+        "m5": "98.2",
+        "m6": "99.3"
+      },
+      {
+        "p": "[Image as a Foreign Language: BEiT Pretraining for All Vision and Vision-Language Tasks](https://arxiv.org/abs/2208.10442v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/microsoft/unilm/tree/master/beit)",
+        "n": "BEiT-3",
+        "d": "2022-08-22",
+        "m1": "98.0",
+        "m2": "100.0",
+        "m3": "100.0",
+        "m4": "90.3",
+        "m5": "98.7",
+        "m6": "99.5"
+      },
+      {
+        "p": "[OmniVL:One Foundation Model for Image-Language and Video-Language Tasks](https://arxiv.org/abs/2209.07526v2)",
+        "c": "",
+        "n": "OmniVL (14M)",
+        "d": "2022-09-15",
+        "m1": "97.3",
+        "m2": "99.9",
+        "m3": "100",
+        "m4": "87.9",
+        "m5": "97.8",
+        "m6": "99.1"
+      },
+      {
+        "p": "[ERNIE-ViL 2.0: Multi-view Contrastive Learning for Image-Text Pre-training](https://arxiv.org/abs/2209.15270v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/ERNIE)",
+        "n": "ERNIE-ViL 2.0",
+        "d": "2022-09-30",
+        "m1": "97.2",
+        "m2": "100.0",
+        "m3": "100.0",
+        "m4": "93.3",
+        "m5": "99.4",
+        "m6": "99.8"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Aurora (ours, r=128)",
+        "d": null,
+        "m1": "97.2",
+        "m2": "100",
+        "m3": "100",
+        "m4": "86.8",
+        "m5": "97.6",
+        "m6": "98.9"
+      },
+      {
+        "p": "[Multi-Grained Vision Language Pre-Training: Aligning Texts with Visual Concepts](https://arxiv.org/abs/2111.08276v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/zengyan-97/x-vlm)",
+        "n": "X-VLM (base)",
+        "d": "2021-11-16",
+        "m1": "97.1",
+        "m2": "100.0",
+        "m3": "100.0",
+        "m4": "86.9",
+        "m5": "97.3",
+        "m6": "98.7"
+      },
+      {
+        "p": "[Dissecting Deep Metric Learning Losses for Image-Text Retrieval](https://arxiv.org/abs/2210.13188v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/microsoft/VSE_Gradient)",
+        "n": "VSE-Gradient",
+        "d": "2022-10-21",
+        "m1": "97.0",
+        "m2": "99.6",
+        "m3": "100",
+        "m4": "86.3",
+        "m5": "97.4",
+        "m6": "99.0"
+      },
+      {
+        "p": "[Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision](https://arxiv.org/abs/2102.05918v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/metaclip)",
+        "n": "ALIGN",
+        "d": "2021-02-11",
+        "m1": "95.3",
+        "m2": "99.8",
+        "m3": "100",
+        "m4": "84.9",
+        "m5": "97.4",
+        "m6": "98.6"
+      },
+      {
+        "p": "[ViSTA: Vision and Scene Text Aggregation for Cross-Modal Retrieval](https://arxiv.org/abs/2203.16778v1)",
+        "c": "",
+        "n": "ViSTA",
+        "d": "2022-03-31",
+        "m1": "89.5",
+        "m2": "98.4",
+        "m3": "99.6",
+        "m4": "75.8",
+        "m5": "94.2",
+        "m6": "96.9"
+      },
+      {
+        "p": "[Learning Relation Alignment for Calibrated Cross-modal Retrieval](https://arxiv.org/abs/2105.13868v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/lancopku/IAIS)",
+        "n": "IAIS",
+        "d": "2021-05-28",
+        "m1": "88.3",
+        "m2": "98.4",
+        "m3": "99.4",
+        "m4": "76.86",
+        "m5": "93.3",
+        "m6": "95.72"
+      },
+      {
+        "p": "[3SHNet: Boosting Image-Sentence Retrieval via Visual Semantic-Spatial Self-Highlighting](https://arxiv.org/abs/2404.17273v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/xurige1995/3shnet)",
+        "n": "3SHNet",
+        "d": "2024-04-26",
+        "m1": "87.1",
+        "m2": "98.2",
+        "m3": "99.2",
+        "m4": "69.5",
+        "m5": "91.0",
+        "m6": "94.7"
+      },
+      {
+        "p": "[ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision](https://arxiv.org/abs/2102.03334v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "ViLT-B/32",
+        "d": "2021-02-05",
+        "m1": "83.5",
+        "m2": "96.7",
+        "m3": "98.6",
+        "m4": "64.4",
+        "m5": "88.7",
+        "m6": "93.8"
+      },
+      {
+        "p": "[Dynamic Self-adaptive Multiscale Distillation from Pre-trained Multimodal Large Model for Efficient Cross-modal Representation Learning](https://arxiv.org/abs/2404.10838v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/chrisx599/dsmd)",
+        "n": "DSMD",
+        "d": "2024-04-16",
+        "m1": "82.5",
+        "m2": "95.5",
+        "m3": "97.7",
+        "m4": "68.4",
+        "m5": "90.8",
+        "m6": "94.4"
+      },
+      {
+        "p": "[Plug-and-Play Regulators for Image-Text Matching](https://arxiv.org/abs/2303.13371v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/paranioar/rcar)",
+        "n": "RCAR",
+        "d": "2023-03-23",
+        "m1": "82.3",
+        "m2": "96.0",
+        "m3": "98.4",
+        "m4": "62.6",
+        "m5": "85.8",
+        "m6": "91.1"
+      },
+      {
+        "p": "[NAPReg: Nouns As Proxies Regularization for Semantically Aware Cross-Modal Embeddings](https://openaccess.thecvf.com/content/WACV2023/html/Jawade_NAPReg_Nouns_As_Proxies_Regularization_for_Semantically_Aware_Cross-Modal_Embeddings_WACV_2023_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/bhavinjawade/NAPReq)",
+        "n": "NAPReg",
+        "d": "2023-01-07",
+        "m1": "79.6",
+        "m4": "60.0"
+      },
+      {
+        "p": "[Similarity Reasoning and Filtration for Image-Text Matching](https://arxiv.org/abs/2101.01368v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Paranioar/SGRAF)",
+        "n": "SGRAF",
+        "d": "2021-01-05",
+        "m1": "77.8",
+        "m2": "94.1",
+        "m3": "97.4",
+        "m4": "58.5",
+        "m5": "83.0",
+        "m6": "88.8"
+      },
+      {
+        "p": "[Graph Structured Network for Image-Text Matching](https://arxiv.org/abs/2004.00277v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/CrossmodalGroup/GSMN)",
+        "n": "GSMN",
+        "d": "2020-04-01",
+        "m1": "76.4",
+        "m2": "94.3",
+        "m3": "97.3",
+        "m4": "57.4",
+        "m5": "82.3",
+        "m6": "89.0"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Pearl",
+        "d": null,
+        "m1": "75.3",
+        "m2": "93.4",
+        "m3": "97.3",
+        "m4": "54.98",
+        "m5": "81.3",
+        "m6": "88.26"
+      },
+      {
+        "p": "[IMRAM: Iterative Matching with Recurrent Attention Memory for Cross-Modal Image-Text Retrieval](https://arxiv.org/abs/2003.03772v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/HuiChen24/IMRAM)",
+        "n": "IMRAM",
+        "d": "2020-03-08",
+        "m1": "74.1",
+        "m2": "93.0",
+        "m3": "96.6",
+        "m4": "53.9",
+        "m5": "79.4",
+        "m6": "87.2"
+      },
+      {
+        "p": "[Stacked Cross Attention for Image-Text Matching](http://arxiv.org/abs/1803.08024v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/kuanghuei/SCAN)",
+        "n": "SCAN",
+        "d": "2018-03-21",
+        "m1": "67.4",
+        "m2": "90.3",
+        "m3": "95.8",
+        "m4": "48.6",
+        "m5": "77.7",
+        "m6": "85.2"
+      },
+      {
+        "p": "[Dual-Path Convolutional Image-Text Embeddings with Instance Loss](https://arxiv.org/abs/1711.05535v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/layumi/Image-Text-Embedding)",
+        "n": "Dual-Path\n  (ResNet)",
+        "d": "2017-11-15",
+        "m1": "55.6",
+        "m2": "81.9"
+      },
+      {
+        "p": "[Learning Semantic Concepts and Order for Image and Sentence Matching](http://arxiv.org/abs/1712.02036v1)",
+        "c": "",
+        "n": "SCO\n  (ResNet)",
+        "d": "2017-12-06",
+        "m1": "55.5",
+        "m2": "82.0",
+        "m3": "89.3",
+        "m4": "41.1",
+        "m5": "70.5",
+        "m6": "80.1"
+      },
+      {
+        "p": "[VSE++: Improving Visual-Semantic Embeddings with Hard Negatives](http://arxiv.org/abs/1707.05612v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/fartashf/vsepp)",
+        "n": "VSE++\n  (ResNet)",
+        "d": "2017-07-18",
+        "m1": "52.9",
+        "m2": "80.5",
+        "m3": "87.2",
+        "m4": "39.6",
+        "m5": "70.1",
+        "m6": "79.5"
+      },
+      {
+        "p": "[Deep Cross-Modal Projection Learning for Image-Text Matching](http://openaccess.thecvf.com/content_ECCV_2018/html/Ying_Zhang_Deep_Cross-Modal_Projection_ECCV_2018_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/YingZhangDUT/Cross-Modal-Projection-Learning)",
+        "n": "CMPL\n  (ResNet)",
+        "d": "2018-09-01",
+        "m1": "49.6",
+        "m2": "76.8",
+        "m3": "86.1",
+        "m4": "37.3",
+        "m5": "65.7",
+        "m6": "75.5"
+      },
+      {
+        "p": "[Dual-Path Convolutional Image-Text Embeddings with Instance Loss](https://arxiv.org/abs/1711.05535v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/layumi/Image-Text-Embedding)",
+        "n": "Dual-Path (ResNet)",
+        "d": "2017-11-15",
+        "m3": "89.5",
+        "m4": "39.1",
+        "m5": "69.2",
+        "m6": "80.9"
+      },
+      {
+        "p": "[VAST: A Vision-Audio-Subtitle-Text Omni-Modality Foundation Model and Dataset](https://arxiv.org/abs/2305.18500v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/TXH-mercury/VALOR)",
+        "n": "VAST",
+        "d": "2023-05-29",
+        "m4": "91.0",
+        "m5": "98.5",
+        "m6": "99.5"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

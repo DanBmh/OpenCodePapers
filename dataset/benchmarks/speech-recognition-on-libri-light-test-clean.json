@@ -1,0 +1,86 @@
+{
+  "title": "speech-recognition-on-libri-light-test-clean",
+  "task-hierarchy": [
+    "Speech Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/facebookresearch/libri-light"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Word Error Rate (WER)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "ABX-across",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "ABX-within",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations](https://arxiv.org/abs/2006.11477v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "wav2vec 2.0 Large-10h-LV-60k",
+        "d": "2020-06-20",
+        "m1": "2.5"
+      },
+      {
+        "p": "[Libri-Light: A Benchmark for ASR with Limited or No Supervision](https://arxiv.org/abs/1912.07875v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/libri-light)",
+        "n": "TDS 60k pseudo-label + CTC fine-tuning + 4gram-LM",
+        "d": "2019-12-17",
+        "m1": "29.3"
+      },
+      {
+        "p": "[Libri-Light: A Benchmark for ASR with Limited or No Supervision](https://arxiv.org/abs/1912.07875v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/libri-light)",
+        "n": "CPC unlab-60k+train-10h CPC pretrain + CTC fine-tuning + 4gram-LM",
+        "d": "2019-12-17",
+        "m1": "43.9"
+      },
+      {
+        "p": "[Libri-Light: A Benchmark for ASR with Limited or No Supervision](https://arxiv.org/abs/1912.07875v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/libri-light)",
+        "n": "CPC unlab-60k",
+        "d": "2019-12-17",
+        "m2": "7.56",
+        "m3": "5.83"
+      },
+      {
+        "p": "[Improving Unsupervised Sparsespeech Acoustic Models with Categorical Reparameterization](https://arxiv.org/abs/2005.14578v1)",
+        "c": "[&check;&nbsp;Link](https://gitlab.com/milde/sparsespeech)",
+        "n": "S6000h-n42-τ2 → 0.1",
+        "d": "2020-05-29",
+        "m2": "13.53",
+        "m3": "9.33"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

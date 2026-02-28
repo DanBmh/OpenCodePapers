@@ -1,0 +1,69 @@
+{
+  "title": "face-alignment-on-facescape",
+  "task-hierarchy": [
+    "3D Face Reconstruction",
+    "Facial Recognition and Modelling",
+    "Face Alignment"
+  ],
+  "dataset-info": {
+    "link": "https://facescape.nju.edu.cn/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "NME",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[ASM: Adaptive Skinning Model for High-Quality 3D Face Modeling](https://arxiv.org/abs/2304.09423v3)",
+        "c": "",
+        "n": "ASM",
+        "d": "2023-04-19",
+        "m1": "0.21"
+      },
+      {
+        "p": "[ImFace: A Nonlinear 3D Morphable Face Model with Implicit Neural Representations](https://arxiv.org/abs/2203.14510v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/mingwuzheng/imface)",
+        "n": "ImFace",
+        "d": "2022-03-28",
+        "m1": "0.257"
+      },
+      {
+        "p": "[Learning a model of facial shape and expression from 4D scans](http://flame.is.tue.mpg.de/)",
+        "c": "[&check;&nbsp;Link](https://github.com/YadiraF/DECA)",
+        "n": "FLAME",
+        "d": "2017-11-01",
+        "m1": "0.341"
+      },
+      {
+        "p": "[Generating 3D faces using Convolutional Mesh Autoencoders](http://arxiv.org/abs/1807.10267v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/anuragranj/coma)",
+        "n": "CoMA",
+        "d": "2018-07-26",
+        "m1": "1.088"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "title": "graph-classification-on-hiv-dataset",
+  "task-hierarchy": [
+    "Classification",
+    "Graph Classification"
+  ],
+  "dataset-info": {
+    "link": "https://moleculenet.org/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "ROC-AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[CIN++: Enhancing Topological Message Passing](https://arxiv.org/abs/2306.03561v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/twitter-research/cwn)",
+        "n": "CIN++",
+        "d": "2023-06-06",
+        "m1": "80.63"
+      },
+      {
+        "p": "[CIN++: Enhancing Topological Message Passing](https://arxiv.org/abs/2306.03561v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/twitter-research/cwn)",
+        "n": "CIN++-small",
+        "d": "2023-06-06",
+        "m1": "80.26"
+      },
+      {
+        "p": "[Accurate Learning of Graph Representations with Graph Multiset Pooling](https://arxiv.org/abs/2102.11533v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/JinheonBaek/GMT)",
+        "n": "GMT",
+        "d": "2021-02-23",
+        "m1": "77.56"
+      },
+      {
+        "p": "[TREE-G: Decision Trees Contesting Graph Neural Networks](https://arxiv.org/abs/2207.02760v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/mayabechlerspeicher/tree-g)",
+        "n": "TREE-G",
+        "d": "2022-07-06",
+        "m2": "83.5"
+      },
+      {
+        "p": "[Graph Classification using Structural Attention](https://www.kdd.org/kdd2018/accepted-papers/view/graph-classification-using-structural-attention)",
+        "c": "[&check;&nbsp;Link](https://github.com/benedekrozemberczki/GAM)",
+        "n": "GAM",
+        "d": "2018-07-19",
+        "m2": "74.79%"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

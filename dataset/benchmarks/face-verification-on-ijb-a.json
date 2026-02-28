@@ -1,0 +1,174 @@
+{
+  "title": "face-verification-on-ijb-a",
+  "task-hierarchy": [
+    "3D Face Reconstruction",
+    "Facial Recognition and Modelling",
+    "Face Verification"
+  ],
+  "dataset-info": {
+    "link": "https://www.nist.gov/programs-projects/face-challenges"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "TAR @ FAR=0.01",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "TAR @ FAR=0.001",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "TAR @ FAR=0.1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Dual-Agent GANs for Photorealistic and Identity Preserving Profile Face Synthesis](http://papers.nips.cc/paper/6612-dual-agent-gans-for-photorealistic-and-identity-preserving-profile-face-synthesis)",
+        "c": "",
+        "n": "Dual-Agent GANs",
+        "d": "2017-12-01",
+        "m1": "97.60%"
+      },
+      {
+        "p": "[Probabilistic Face Embeddings](https://arxiv.org/abs/1904.09658v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/seasonSH/Probabilistic-Face-Embeddings)",
+        "n": "PFEfuse + match",
+        "d": "2019-04-21",
+        "m1": "97.5%",
+        "m2": "95.25"
+      },
+      {
+        "p": "[GhostVLAD for set-based face recognition](http://arxiv.org/abs/1810.09951v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/keetsky/Net_ghostVLAD-pytorch)",
+        "n": "SE-GV-4-g1",
+        "d": "2018-10-23",
+        "m1": "97.2%"
+      },
+      {
+        "p": "[L2-constrained Softmax Loss for Discriminative Face Verification](http://arxiv.org/abs/1703.09507v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/samisoto/keras_cosine_based_loss)",
+        "n": "L2-constrained softmax loss",
+        "d": "2017-03-28",
+        "m1": "97%"
+      },
+      {
+        "p": "[VGGFace2: A dataset for recognising faces across pose and age](http://arxiv.org/abs/1710.08092v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/deepinsight/insightface)",
+        "n": "VGGFace2_ft",
+        "d": "2017-10-23",
+        "m1": "96.8%",
+        "m2": "92.1",
+        "m3": "0.99"
+      },
+      {
+        "p": "[Inclusive normalization of face images to passport format](https://arxiv.org/abs/2312.14544v1)",
+        "c": "",
+        "n": "StyleFNM",
+        "d": "2023-12-22",
+        "m1": "94.60%"
+      },
+      {
+        "p": "[Pose-Robust Face Recognition via Deep Residual Equivariant Mapping](http://arxiv.org/abs/1803.00839v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/penincillin/DREAM)",
+        "n": "Deep Residual Equivariant Mapping",
+        "d": "2018-03-02",
+        "m1": "94.40%"
+      },
+      {
+        "p": "[Neural Aggregation Network for Video Face Recognition](http://arxiv.org/abs/1603.05474v4)",
+        "c": "",
+        "n": "NAN",
+        "d": "2016-03-17",
+        "m1": "94.10%"
+      },
+      {
+        "p": "[Template Adaptation for Face Verification and Identification](http://arxiv.org/abs/1603.03958v3)",
+        "c": "",
+        "n": "Template adaptation",
+        "d": "2016-03-12",
+        "m1": "93.90%"
+      },
+      {
+        "p": "[An All-In-One Convolutional Neural Network for Face Analysis](http://arxiv.org/abs/1611.00851v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/senguptaumd/SfSNet)",
+        "n": "All-in-one CNN",
+        "d": "2016-11-03",
+        "m1": "92.20%"
+      },
+      {
+        "p": "[FacePoseNet: Making a Case for Landmark-Free Face Alignment](http://arxiv.org/abs/1708.07517v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/fengju514/Expression-Net)",
+        "n": "FPN",
+        "d": "2017-08-24",
+        "m1": "90.1%"
+      },
+      {
+        "p": "[Triplet Probabilistic Embedding for Face Verification and Clustering](http://arxiv.org/abs/1604.05417v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/Ananaskelly/TPE)",
+        "n": "Triplet probabilistic embedding",
+        "d": "2016-04-19",
+        "m1": "90%"
+      },
+      {
+        "p": "[Do We Really Need to Collect Millions of Faces for Effective Face Recognition?](http://arxiv.org/abs/1603.07057v2)",
+        "c": "",
+        "n": "Synthesis as data augmentation",
+        "d": "2016-03-23",
+        "m1": "88.60%"
+      },
+      {
+        "p": "[Unconstrained Face Verification using Deep CNN Features](http://arxiv.org/abs/1508.01722v2)",
+        "c": "",
+        "n": "DCNN",
+        "d": "2015-08-07",
+        "m1": "83.80%"
+      },
+      {
+        "p": "[Face Recognition Using Deep Multi-Pose Representations](http://arxiv.org/abs/1603.07388v1)",
+        "c": "",
+        "n": "Deep multi-pose representations",
+        "d": "2016-03-23",
+        "m1": "78.70%"
+      },
+      {
+        "p": "[Face Search at Scale: 80 Million Gallery](http://arxiv.org/abs/1507.07242v2)",
+        "c": "",
+        "n": "Deep CNN + COTS matcher",
+        "d": "2015-07-26",
+        "m1": "73.30%"
+      },
+      {
+        "p": "[Semi-supervised Adversarial Learning to Generate Photorealistic Face Images of New Identities from 3D Morphable Model](http://arxiv.org/abs/1804.03675v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/barisgecer/facegan)",
+        "n": "VGG + GANFaces",
+        "d": "2018-04-10",
+        "m1": "53.507%",
+        "m2": "18.768"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

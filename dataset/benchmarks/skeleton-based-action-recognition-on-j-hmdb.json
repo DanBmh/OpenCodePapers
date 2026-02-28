@@ -1,0 +1,142 @@
+{
+  "title": "skeleton-based-action-recognition-on-j-hmdb",
+  "task-hierarchy": [
+    "Action Recognition",
+    "3D Action Recognition",
+    "Skeleton Based Action Recognition"
+  ],
+  "dataset-info": {
+    "link": "http://jhmdb.is.tue.mpg.de/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy (RGB+pose)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Accuracy (pose)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[PoTion: Pose MoTion Representation for Action Recognition](http://openaccess.thecvf.com/content_cvpr_2018/html/Choutas_PoTion_Pose_MoTion_CVPR_2018_paper.html)",
+        "c": "",
+        "n": "Potion",
+        "d": "2018-06-01",
+        "m1": "90.4",
+        "m2": "67.9"
+      },
+      {
+        "p": "[PA3D: Pose-Action 3D Machine for Video Recognition](http://openaccess.thecvf.com/content_CVPR_2019/html/Yan_PA3D_Pose-Action_3D_Machine_for_Video_Recognition_CVPR_2019_paper.html)",
+        "c": "",
+        "n": "PA3D+RPAN",
+        "d": "2019-06-01",
+        "m1": "86.1"
+      },
+      {
+        "p": "[PoTion: Pose MoTion Representation for Action Recognition](http://openaccess.thecvf.com/content_cvpr_2018/html/Choutas_PoTion_Pose_MoTion_CVPR_2018_paper.html)",
+        "c": "",
+        "n": "I3D + Potion",
+        "d": "2018-06-01",
+        "m1": "85.5"
+      },
+      {
+        "p": "[Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset](http://arxiv.org/abs/1705.07750v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmaction2)",
+        "n": "I3D",
+        "d": "2017-05-22",
+        "m1": "84.1"
+      },
+      {
+        "p": "[RPAN: An End-to-End Recurrent Pose-Attention Network for Action Recognition in Videos](https://doi.org/10.1109/ICCV.2017.402)",
+        "c": "[&check;&nbsp;Link](https://github.com/agethen/RPAN)",
+        "n": "RPAN",
+        "d": "2017-10-22",
+        "m1": "83.9"
+      },
+      {
+        "p": "[Chained Multi-stream Networks Exploiting Pose, Motion, and Appearance for Action Classification and Detection](http://arxiv.org/abs/1704.00616v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/mzolfaghari/chained-multistream-networks)",
+        "n": "Chained (RGB+Flow +Pose)",
+        "d": "2017-04-03",
+        "m1": "76.1",
+        "m2": "56.8"
+      },
+      {
+        "p": "[Multi-region two-stream R-CNN for action detection](https://doi.org/10.1007/978-3-319-46493-0_45)",
+        "c": "",
+        "n": "MR Two-Sream R-CNN",
+        "d": "2016-09-17",
+        "m1": "71.1"
+      },
+      {
+        "p": "[PA3D: Pose-Action 3D Machine for Video Recognition](http://openaccess.thecvf.com/content_CVPR_2019/html/Yan_PA3D_Pose-Action_3D_Machine_for_Video_Recognition_CVPR_2019_paper.html)",
+        "c": "",
+        "n": "PA3D",
+        "d": "2019-06-01",
+        "m1": "69.5"
+      },
+      {
+        "p": "[STAR-Net: Action Recognition using Spatio-Temporal Activation Reprojection](http://arxiv.org/abs/1902.10024v1)",
+        "c": "",
+        "n": "STAR-Net",
+        "d": "2019-02-26",
+        "m1": "64.3"
+      },
+      {
+        "p": "[Finding Action Tubes](http://arxiv.org/abs/1411.6031v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/JeffCHEN2017/WSSTG)",
+        "n": "Action Tubes",
+        "d": "2014-11-21",
+        "m1": "62.5"
+      },
+      {
+        "p": "[Hierarchical Temporal Convolution Network:Towards Privacy-Centric Activity Recognition](https://www.researchgate.net/publication/387230107_Hierarchical_Temporal_Convolution_Network_Towards_Privacy-Centric_Activity_Recognition)",
+        "c": "[&check;&nbsp;Link](https://github.com/Gbouna/HT-ConvNet)",
+        "n": "HT-ConvNet",
+        "d": "2024-12-21",
+        "m1": "-",
+        "m2": "86.1"
+      },
+      {
+        "p": "[Make Skeleton-based Action Recognition Model Smaller, Faster and Better](https://arxiv.org/abs/1907.09658v8)",
+        "c": "[&check;&nbsp;Link](https://github.com/fandulu/DD-Net)",
+        "n": "DD-Net",
+        "d": "2019-07-23",
+        "m1": "-",
+        "m2": "77.2"
+      },
+      {
+        "p": "[Simple yet efficient real-time pose-based action recognition](http://arxiv.org/abs/1904.09140v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/noboevbo/ehpi_action_recognition)",
+        "n": "EHPI",
+        "d": "2019-04-19",
+        "m1": "-",
+        "m2": "65.5"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

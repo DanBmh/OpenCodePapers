@@ -1,0 +1,74 @@
+{
+  "title": "fine-grained-image-classification-on-sun397",
+  "task-hierarchy": [
+    "Fine-Grained Image Classification"
+  ],
+  "dataset-info": {
+    "link": "https://vision.princeton.edu/projects/2010/SUN/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[An Evolutionary Approach to Dynamic Introduction of Tasks in Large-scale Multitask Learning Systems](https://arxiv.org/abs/2205.12755v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research/tree/master/muNet)",
+        "n": "µ2Net (ViT-L/16)",
+        "d": "2022-05-25",
+        "m1": "84.8"
+      },
+      {
+        "p": "[Vision Models Are More Robust And Fair When Pretrained On Uncurated Images Without Supervision](https://arxiv.org/abs/2202.08360v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/vissl)",
+        "n": "SEER (RegNet10B - linear eval)",
+        "d": "2022-02-16",
+        "m1": "80.0"
+      },
+      {
+        "p": "[Bamboo: Building Mega-Scale Vision Dataset Continually with Human-Machine Synergy](https://arxiv.org/abs/2203.07845v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/zhangyuanhan-ai/bamboo)",
+        "n": "Bamboo (ViT-B/16)",
+        "d": "2022-03-15",
+        "m1": "79.5"
+      },
+      {
+        "p": "[Self-Supervised Learning by Estimating Twin Class Distributions](https://arxiv.org/abs/2110.07402v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/bytedance/TWIST)",
+        "n": "TWIST (ResNet-50)",
+        "d": "2021-10-14",
+        "m1": "67.4"
+      },
+      {
+        "p": "[With a Little Help from My Friends: Nearest-Neighbor Contrastive Learning of Visual Representations](https://arxiv.org/abs/2104.14548v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/lightly-ai/lightly)",
+        "n": "NNCLR",
+        "d": "2021-04-29",
+        "m1": "62.5"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

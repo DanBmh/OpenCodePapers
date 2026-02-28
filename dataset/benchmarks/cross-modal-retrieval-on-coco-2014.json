@@ -1,0 +1,475 @@
+{
+  "title": "cross-modal-retrieval-on-coco-2014",
+  "task-hierarchy": [
+    "Cross-Modal Retrieval"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Text-to-image R@1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Text-to-image R@5",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Text-to-image R@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Image-to-text R@1",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Image-to-text R@5",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "Image-to-text R@10",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[VAST: A Vision-Audio-Subtitle-Text Omni-Modality Foundation Model and Dataset](https://arxiv.org/abs/2305.18500v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/TXH-mercury/VALOR)",
+        "n": "VAST",
+        "d": "2023-05-29",
+        "m1": "68.0",
+        "m2": "87.7",
+        "m3": "92.8"
+      },
+      {
+        "p": "[X$^2$-VLM: All-In-One Pre-trained Model For Vision-Language Tasks](https://arxiv.org/abs/2211.12402v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/zengyan-97/x-vlm)",
+        "n": "X2-VLM (large)",
+        "d": "2022-11-22",
+        "m1": "67.7",
+        "m2": "87.5",
+        "m3": "92.5",
+        "m4": "84.4",
+        "m5": "96.5",
+        "m6": "98.5"
+      },
+      {
+        "p": "[Image as a Foreign Language: BEiT Pretraining for All Vision and Vision-Language Tasks](https://arxiv.org/abs/2208.10442v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/microsoft/unilm/tree/master/beit)",
+        "n": "BEiT-3",
+        "d": "2022-08-22",
+        "m1": "67.2",
+        "m2": "92.8",
+        "m3": "87.7",
+        "m4": "84.8",
+        "m5": "96.5",
+        "m6": "98.3"
+      },
+      {
+        "p": "[Toward Building General Foundation Models for Language, Vision, and Vision-Language Understanding Tasks](https://arxiv.org/abs/2301.05065v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/zhangxinsong-nlp/XFM)",
+        "n": "XFM (base)",
+        "d": "2023-01-12",
+        "m1": "67.0",
+        "m2": "87.2",
+        "m3": "92.4",
+        "m4": "84.2",
+        "m5": "96.4",
+        "m6": "98.4"
+      },
+      {
+        "p": "[X$^2$-VLM: All-In-One Pre-trained Model For Vision-Language Tasks](https://arxiv.org/abs/2211.12402v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/zengyan-97/x-vlm)",
+        "n": "X2-VLM (base)",
+        "d": "2022-11-22",
+        "m1": "66.2",
+        "m2": "87.1",
+        "m3": "92.2",
+        "m4": "83.5",
+        "m5": "96.3",
+        "m6": "98.5"
+      },
+      {
+        "p": "[Position-guided Text Prompt for Vision-Language Pre-training](https://arxiv.org/abs/2212.09737v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/sail-sg/ptp)",
+        "n": "PTP-BLIP (14M)",
+        "d": "2022-12-19",
+        "m1": "64.9",
+        "m2": "87.4",
+        "m3": "92.2",
+        "m4": "81.5",
+        "m5": "95.9",
+        "m6": "97.9"
+      },
+      {
+        "p": "[OmniVL:One Foundation Model for Image-Language and Video-Language Tasks](https://arxiv.org/abs/2209.07526v2)",
+        "c": "",
+        "n": "OmniVL (14M)",
+        "d": "2022-09-15",
+        "m1": "64.8",
+        "m2": "86.1",
+        "m3": "91.6",
+        "m4": "82.1",
+        "m5": "95.9",
+        "m6": "98.1"
+      },
+      {
+        "p": "[Dissecting Deep Metric Learning Losses for Image-Text Retrieval](https://arxiv.org/abs/2210.13188v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/microsoft/VSE_Gradient)",
+        "n": "VSE-Gradient",
+        "d": "2022-10-21",
+        "m1": "63.6",
+        "m2": "86.0",
+        "m3": "91.5",
+        "m4": "81.4",
+        "m5": "95.6",
+        "m6": "97.9"
+      },
+      {
+        "p": "[Multi-Grained Vision Language Pre-Training: Aligning Texts with Visual Concepts](https://arxiv.org/abs/2111.08276v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/zengyan-97/x-vlm)",
+        "n": "X-VLM (base)",
+        "d": "2021-11-16",
+        "m1": "63.4",
+        "m2": "85.8",
+        "m3": "91.5",
+        "m4": "81.2",
+        "m5": "95.6",
+        "m6": "98.2"
+      },
+      {
+        "p": "[Florence: A New Foundation Model for Computer Vision](https://arxiv.org/abs/2111.11432v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/microsoft/unicl)",
+        "n": "Florence",
+        "d": "2021-11-22",
+        "m1": "63.2",
+        "m2": "85.7",
+        "m4": "81.8",
+        "m5": "95.2"
+      },
+      {
+        "p": "[Implicit Differentiable Outlier Detection Enable Robust Deep Multimodal Analysis](https://openreview.net/forum?id=jooPcatnVF)",
+        "c": "[&check;&nbsp;Link](https://github.com/ellenzhuwang/implicit_vkood)",
+        "n": "VK-OOD",
+        "d": "2023-09-21",
+        "m1": "62.9",
+        "m2": "84.8",
+        "m3": "92.8",
+        "m4": "80.7",
+        "m5": "95.1",
+        "m6": "96.8"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Aurora (ours, r=128)",
+        "d": null,
+        "m1": "62.8",
+        "m2": "84.8",
+        "m3": "91",
+        "m4": "80.7",
+        "m5": "95.3",
+        "m6": "97.8"
+      },
+      {
+        "p": "[Dynamic Self-adaptive Multiscale Distillation from Pre-trained Multimodal Large Model for Efficient Cross-modal Representation Learning](https://arxiv.org/abs/2404.10838v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/chrisx599/dsmd)",
+        "n": "DSMD",
+        "d": "2024-04-16",
+        "m1": "62.1",
+        "m2": "85.9",
+        "m3": "92.0",
+        "m4": "48.0",
+        "m5": "75.6",
+        "m6": "84.5"
+      },
+      {
+        "p": "[VALOR: Vision-Audio-Language Omni-Perception Pretraining Model and Dataset](https://arxiv.org/abs/2304.08345v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/TXH-mercury/VALOR)",
+        "n": "VALOR",
+        "d": "2023-04-17",
+        "m1": "61.4",
+        "m2": "84.4",
+        "m3": "90.9"
+      },
+      {
+        "p": "[Align before Fuse: Vision and Language Representation Learning with Momentum Distillation](https://arxiv.org/abs/2107.07651v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/salesforce/lavis)",
+        "n": "ALBEF",
+        "d": "2021-07-16",
+        "m1": "60.7",
+        "m2": "84.3",
+        "m3": "90.5",
+        "m4": "77.6",
+        "m5": "94.3",
+        "m6": "97.2"
+      },
+      {
+        "p": "[Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision](https://arxiv.org/abs/2102.05918v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/metaclip)",
+        "n": "ALIGN",
+        "d": "2021-02-11",
+        "m1": "59.9",
+        "m2": "83.3",
+        "m3": "89.8",
+        "m4": "77",
+        "m5": "93.5",
+        "m6": "96.9"
+      },
+      {
+        "p": "[ERNIE-ViL 2.0: Multi-view Contrastive Learning for Image-Text Pre-training](https://arxiv.org/abs/2209.15270v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/ERNIE)",
+        "n": "ERNIE-ViL 2.0",
+        "d": "2022-09-30",
+        "m1": "59.5",
+        "m2": "83.4",
+        "m3": "90.1",
+        "m4": "77.4",
+        "m5": "93.6",
+        "m6": "97.1"
+      },
+      {
+        "p": "[Vision-Language Pre-Training with Triple Contrastive Learning](https://arxiv.org/abs/2202.10401v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/uta-smile/TCL)",
+        "n": "TCL",
+        "d": "2022-02-21",
+        "m1": "59.0",
+        "m2": "83.2",
+        "m3": "89.9",
+        "m4": "75.6",
+        "m5": "92.8",
+        "m6": "96.7"
+      },
+      {
+        "p": "[Oscar: Object-Semantics Aligned Pre-training for Vision-Language Tasks](https://arxiv.org/abs/2004.06165v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/rmokady/clip_prefix_caption)",
+        "n": "Oscar",
+        "d": "2020-04-13",
+        "m1": "57.5",
+        "m2": "82.8",
+        "m3": "89.8",
+        "m4": "73.5",
+        "m5": "92.2",
+        "m6": "96.0"
+      },
+      {
+        "p": "[An Empirical Study of Training End-to-End Vision-and-Language Transformers](https://arxiv.org/abs/2111.02387v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/zdou0830/meter)",
+        "n": "METER",
+        "d": "2021-11-03",
+        "m1": "57.08",
+        "m2": "82.66",
+        "m3": "90.07",
+        "m4": "76.16",
+        "m5": "93.16",
+        "m6": "96.82"
+      },
+      {
+        "p": "[ViSTA: Vision and Scene Text Aggregation for Cross-Modal Retrieval](https://arxiv.org/abs/2203.16778v1)",
+        "c": "",
+        "n": "ViSTA",
+        "d": "2022-03-31",
+        "m1": "52.6",
+        "m2": "79.6",
+        "m3": "87.6",
+        "m4": "68.9",
+        "m5": "90.1",
+        "m6": "95.4"
+      },
+      {
+        "p": "[ALADIN: Distilling Fine-grained Alignment Scores for Efficient Image-Text Matching and Retrieval](https://arxiv.org/abs/2207.14757v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/mesnico/aladin)",
+        "n": "ALADIN",
+        "d": "2022-07-29",
+        "m1": "51.3",
+        "m2": "79.2",
+        "m3": "87.5",
+        "m4": "64.9",
+        "m5": "88.6",
+        "m6": "94.5"
+      },
+      {
+        "p": "[3SHNet: Boosting Image-Sentence Retrieval via Visual Semantic-Spatial Self-Highlighting](https://arxiv.org/abs/2404.17273v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/xurige1995/3shnet)",
+        "n": "3SHNet",
+        "d": "2024-04-26",
+        "m1": "50.3",
+        "m2": "79.3",
+        "m3": "87.7",
+        "m4": "67.9",
+        "m5": "90.5",
+        "m6": "95.4"
+      },
+      {
+        "p": "[VisualSparta: An Embarrassingly Simple Approach to Large-scale Text-to-Image Search with Weighted Bag-of-words](https://arxiv.org/abs/2101.00265v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/soco-ai/SF-QA)",
+        "n": "VisualSparta",
+        "d": "2021-01-01",
+        "m1": "44.4",
+        "m2": "72.8",
+        "m3": "82.4"
+      },
+      {
+        "p": "[Plug-and-Play Regulators for Image-Text Matching](https://arxiv.org/abs/2303.13371v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/paranioar/rcar)",
+        "n": "RCAR",
+        "d": "2023-03-23",
+        "m1": "44.3",
+        "m2": "73.2",
+        "m3": "83.2",
+        "m4": "61.3",
+        "m5": "86.1",
+        "m6": "92.6"
+      },
+      {
+        "p": "[NAPReg: Nouns As Proxies Regularization for Semantically Aware Cross-Modal Embeddings](https://openaccess.thecvf.com/content/WACV2023/html/Jawade_NAPReg_Nouns_As_Proxies_Regularization_for_Semantically_Aware_Cross-Modal_Embeddings_WACV_2023_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/bhavinjawade/NAPReq)",
+        "n": "NAPReg",
+        "d": "2023-01-07",
+        "m1": "43.0",
+        "m4": "59.8"
+      },
+      {
+        "p": "[ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision](https://arxiv.org/abs/2102.03334v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "ViLT-B/32",
+        "d": "2021-02-05",
+        "m1": "42.7",
+        "m2": "72.9",
+        "m3": "83.1",
+        "m4": "61.5",
+        "m5": "86.3",
+        "m6": "92.7"
+      },
+      {
+        "p": "[Similarity Reasoning and Filtration for Image-Text Matching](https://arxiv.org/abs/2101.01368v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Paranioar/SGRAF)",
+        "n": "SGRAF",
+        "d": "2021-01-05",
+        "m1": "41.9",
+        "m2": "70.7",
+        "m3": "81.3",
+        "m4": "57.8",
+        "m5": "84.9",
+        "m6": "91.6"
+      },
+      {
+        "p": "[LILE: Look In-Depth before Looking Elsewhere -- A Dual Attention Network using Transformers for Cross-Modal Information Retrieval in Histopathology Archives](https://arxiv.org/abs/2203.01445v2)",
+        "c": "",
+        "n": "LILE",
+        "d": "2022-03-02",
+        "m1": "41.5",
+        "m2": "72.1",
+        "m3": "82.2",
+        "m4": "55.6",
+        "m5": "82.4",
+        "m6": "91.0"
+      },
+      {
+        "p": "[Visual Semantic Reasoning for Image-Text Matching](https://arxiv.org/abs/1909.02701v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/KunpengLi1994/VSRN)",
+        "n": "VSRN",
+        "d": "2019-09-06",
+        "m1": "40.5",
+        "m2": "70.6",
+        "m3": "81.1",
+        "m4": "53.0",
+        "m5": "81.1",
+        "m6": "89.4"
+      },
+      {
+        "p": "[IMRAM: Iterative Matching with Recurrent Attention Memory for Cross-Modal Image-Text Retrieval](https://arxiv.org/abs/2003.03772v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/HuiChen24/IMRAM)",
+        "n": "IMRAM",
+        "d": "2020-03-08",
+        "m1": "39.7",
+        "m2": "69.1",
+        "m3": "79.8",
+        "m4": "53.7",
+        "m5": "83.2",
+        "m6": "91.0"
+      },
+      {
+        "p": "[Stacked Cross Attention for Image-Text Matching](http://arxiv.org/abs/1803.08024v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/kuanghuei/SCAN)",
+        "n": "SCAN",
+        "d": "2018-03-21",
+        "m1": "38.6",
+        "m2": "69.3",
+        "m3": "80.4",
+        "m4": "50.4",
+        "m5": "82.2",
+        "m6": "90.0"
+      },
+      {
+        "p": "[Learning Semantic Concepts and Order for Image and Sentence Matching](http://arxiv.org/abs/1712.02036v1)",
+        "c": "",
+        "n": "SCO (ResNet)",
+        "d": "2017-12-06",
+        "m1": "33.1",
+        "m2": "62.9",
+        "m3": "75.5",
+        "m4": "42.8",
+        "m5": "72.3",
+        "m6": "83.0"
+      },
+      {
+        "p": "[Polysemous Visual-Semantic Embedding for Cross-Modal Retrieval](https://arxiv.org/abs/1906.04402v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/yalesong/pvse)",
+        "n": "PVSE",
+        "d": "2019-06-11",
+        "m1": "32.4",
+        "m2": "63.0",
+        "m3": "75.0",
+        "m4": "45.2",
+        "m5": "74.3",
+        "m6": "84.5"
+      },
+      {
+        "p": "[Deep Visual-Semantic Alignments for Generating Image Descriptions](http://arxiv.org/abs/1412.2306v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/VinitSR7/Image-Caption-Generation)",
+        "n": "Dual-Path (ResNet)",
+        "d": "2014-12-07",
+        "m1": "25.3",
+        "m2": "53.4",
+        "m3": "66.4",
+        "m4": "41.2",
+        "m5": "70.5",
+        "m6": "81.1"
+      },
+      {
+        "p": "[MaMMUT: A Simple Architecture for Joint Learning for MultiModal Tasks](https://arxiv.org/abs/2303.16839v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/lucidrains/mammut-pytorch)",
+        "n": "MaMMUT (ours)",
+        "d": "2023-03-29",
+        "m4": "70.7",
+        "m5": "89.1",
+        "m6": "93.7"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "title": "fake-news-detection-on-rawfc",
+  "task-hierarchy": [
+    "Fake News Detection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/Nicozwy/CofCED/tree/main/Datasets/LIAR-RAW"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Using Persuasive Writing Strategies to Explain and Detect Health Misinformation](https://arxiv.org/abs/2211.05985v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/hlr/misinformation-detection)",
+        "n": "Persuasive Writing Strategy",
+        "d": "2022-11-11",
+        "m1": "55.8"
+      },
+      {
+        "p": "[Towards LLM-based Fact Verification on News Claims with a Hierarchical Step-by-Step Prompting Method](https://arxiv.org/abs/2310.00305v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jadecurl/hiss)",
+        "n": "HiSS",
+        "d": "2023-09-30",
+        "m1": "53.9"
+      },
+      {
+        "p": "[A Coarse-to-fine Cascaded Evidence-Distillation Neural Network for Explainable Fake News Detection](https://arxiv.org/abs/2209.14642v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/nicozwy/cofced)",
+        "n": "CofCED",
+        "d": "2022-09-29",
+        "m1": "51.1"
+      },
+      {
+        "p": "[Towards LLM-based Fact Verification on News Claims with a Hierarchical Step-by-Step Prompting Method](https://arxiv.org/abs/2310.00305v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jadecurl/hiss)",
+        "n": "ReAct",
+        "d": "2023-09-30",
+        "m1": "49.8"
+      },
+      {
+        "p": "[Towards LLM-based Fact Verification on News Claims with a Hierarchical Step-by-Step Prompting Method](https://arxiv.org/abs/2310.00305v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jadecurl/hiss)",
+        "n": "Standard prompting with articles",
+        "d": "2023-09-30",
+        "m1": "47.9"
+      },
+      {
+        "p": "[Towards LLM-based Fact Verification on News Claims with a Hierarchical Step-by-Step Prompting Method](https://arxiv.org/abs/2310.00305v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jadecurl/hiss)",
+        "n": "CoT",
+        "d": "2023-09-30",
+        "m1": "44.4"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

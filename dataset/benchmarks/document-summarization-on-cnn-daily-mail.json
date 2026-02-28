@@ -1,0 +1,290 @@
+{
+  "title": "document-summarization-on-cnn-daily-mail",
+  "task-hierarchy": [
+    "Document Summarization"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/abisee/cnn-dailymail"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "ROUGE-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "ROUGE-2",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "ROUGE-L",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "PPL",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Universal Evasion Attacks on Summarization Scoring](https://arxiv.org/abs/2210.14260v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/cestwc/universal-evasion)",
+        "n": "Scrambled code + broken (alter)",
+        "d": "2022-10-25",
+        "m1": "48.18",
+        "m2": "19.84",
+        "m3": "45.35"
+      },
+      {
+        "p": "[SummaReranker: A Multi-Task Mixture-of-Experts Re-ranking Framework for Abstractive Summarization](https://arxiv.org/abs/2203.06569v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/ntunlp/summareranker)",
+        "n": "PEGASUS + SummaReranker",
+        "d": "2022-03-13",
+        "m1": "47.16",
+        "m2": "22.55",
+        "m3": "43.87"
+      },
+      {
+        "p": "[Fourier Transformer: Fast Long Range Modeling by Removing Sequence Redundancy with FFT Operator](https://arxiv.org/abs/2305.15099v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/lumia-group/fouriertransformer)",
+        "n": "Fourier Transformer",
+        "d": "2023-05-24",
+        "m1": "44.76",
+        "m2": "21.55",
+        "m3": "41.34"
+      },
+      {
+        "p": "[GLM: General Language Model Pretraining with Autoregressive Blank Infilling](https://arxiv.org/abs/2103.10360v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/thudm/chatglm2-6b)",
+        "n": "GLM-XXLarge",
+        "d": "2021-03-18",
+        "m1": "44.7",
+        "m2": "21.4",
+        "m3": "41.4"
+      },
+      {
+        "p": "[Hierarchical Learning for Generation with Long Source Sequences](https://arxiv.org/abs/2104.07545v2)",
+        "c": "",
+        "n": "HAT-BART",
+        "d": "2021-04-15",
+        "m1": "44.48",
+        "m2": "21.31",
+        "m3": "41.52"
+      },
+      {
+        "p": "[Extractive Summarization as Text Matching](https://arxiv.org/abs/2004.08795v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/maszhongming/MatchSum)",
+        "n": "MatchSum (RoBERTa-base)",
+        "d": "2020-04-19",
+        "m1": "44.41",
+        "m2": "20.86",
+        "m3": "40.55"
+      },
+      {
+        "p": "[Hie-BART: Document Summarization with Hierarchical BART](https://aclanthology.org/2021.naacl-srw.20)",
+        "c": "",
+        "n": "Hie-BART",
+        "d": "2021-06-01",
+        "m1": "44.35",
+        "m2": "21.37",
+        "m3": "41.05"
+      },
+      {
+        "p": "[Extractive Summarization as Text Matching](https://arxiv.org/abs/2004.08795v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/maszhongming/MatchSum)",
+        "n": "MatchSum (BERT-base)",
+        "d": "2020-04-19",
+        "m1": "44.22",
+        "m2": "20.62",
+        "m3": "40.38"
+      },
+      {
+        "p": "[Text Summarization with Pretrained Encoders](https://arxiv.org/abs/1908.08345v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/nlpyang/PreSumm)",
+        "n": "BertSumExt",
+        "d": "2019-08-22",
+        "m1": "43.85",
+        "m2": "20.34",
+        "m3": "39.9"
+      },
+      {
+        "p": "[Big Bird: Transformers for Longer Sequences](https://arxiv.org/abs/2007.14062v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "BigBird-Pegasus",
+        "d": "2020-07-28",
+        "m1": "43.84",
+        "m2": "21.11",
+        "m3": "40.74"
+      },
+      {
+        "p": "[Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "T5-11B",
+        "d": "2019-10-23",
+        "m1": "43.52",
+        "m2": "21.55",
+        "m3": "40.69"
+      },
+      {
+        "p": "[Fine-tune BERT for Extractive Summarization](https://arxiv.org/abs/1903.10318v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/nlpyang/BertSum)",
+        "n": "BERTSUM+Transformer",
+        "d": "2019-03-25",
+        "m1": "43.25",
+        "m2": "20.24",
+        "m3": "39.63"
+      },
+      {
+        "p": "[Unified Language Model Pre-training for Natural Language Understanding and Generation](https://arxiv.org/abs/1905.03197v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/microsoft/unilm)",
+        "n": "UniLM (Abstractive Summarization)",
+        "d": "2019-05-08",
+        "m1": "43.08",
+        "m2": "20.43",
+        "m3": "40.34"
+      },
+      {
+        "p": "[Mixture Content Selection for Diverse Sequence Generation](https://arxiv.org/abs/1909.01953v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/clovaai/FocusSeq2Seq)",
+        "n": "Selector+Pointer Generator",
+        "d": "2019-09-04",
+        "m1": "41.72",
+        "m2": "18.74",
+        "m3": "38.79"
+      },
+      {
+        "p": "[Neural Document Summarization by Jointly Learning to Score and Select Sentences](http://arxiv.org/abs/1807.02305v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/magic282/NeuSum)",
+        "n": "NeuSUM",
+        "d": "2018-07-06",
+        "m1": "41.59",
+        "m2": "19.01",
+        "m3": "37.98"
+      },
+      {
+        "p": "[Bottom-Up Abstractive Summarization](http://arxiv.org/abs/1808.10792v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/sebastianGehrmann/bottom-up-summary)",
+        "n": "Bottom-Up Sum",
+        "d": "2018-08-31",
+        "m1": "41.22",
+        "m2": "18.68",
+        "m3": "38.34",
+        "m4": "32.75"
+      },
+      {
+        "p": "[Time-aware Large Kernel Convolutions](https://arxiv.org/abs/2002.03184v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/lioutasb/TaLKConvolutions)",
+        "n": "TaLK Convolutions (Deep)",
+        "d": "2020-02-08",
+        "m1": "40.59",
+        "m2": "18.97",
+        "m3": "36.81"
+      },
+      {
+        "p": "[Get To The Point: Summarization with Pointer-Generator Networks](http://arxiv.org/abs/1704.04368v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/examples/text_summarization/pointer_summarizer)",
+        "n": "Lead-3",
+        "d": "2017-04-14",
+        "m1": "40.34",
+        "m2": "17.70",
+        "m3": "36.57"
+      },
+      {
+        "p": "[Time-aware Large Kernel Convolutions](https://arxiv.org/abs/2002.03184v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/lioutasb/TaLKConvolutions)",
+        "n": "TaLK Convolutions (Standard)",
+        "d": "2020-02-08",
+        "m1": "40.03",
+        "m2": "18.45",
+        "m3": "36.13"
+      },
+      {
+        "p": "[A Deep Reinforced Model for Abstractive Summarization](http://arxiv.org/abs/1705.04304v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/theamrzaki/text_summurization_abstractive_methods)",
+        "n": "ML + RL (Paulus et al., 2017)",
+        "d": "2017-05-11",
+        "m1": "39.87",
+        "m2": "15.82",
+        "m3": "36.90"
+      },
+      {
+        "p": "[Pay Less Attention with Lightweight and Dynamic Convolutions](http://arxiv.org/abs/1901.10430v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/pytorch/fairseq)",
+        "n": "DynamicConv",
+        "d": "2019-01-29",
+        "m1": "39.84",
+        "m2": "16.25",
+        "m3": "36.73"
+      },
+      {
+        "p": "[Pay Less Attention with Lightweight and Dynamic Convolutions](http://arxiv.org/abs/1901.10430v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/pytorch/fairseq)",
+        "n": "LightConv",
+        "d": "2019-01-29",
+        "m1": "39.52",
+        "m2": "15.97",
+        "m3": "36.51"
+      },
+      {
+        "p": "[Synthesizer: Rethinking Self-Attention in Transformer Models](https://arxiv.org/abs/2005.00743v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/10-zin/Synthesizer)",
+        "n": "Synthesizer (R+V)",
+        "d": "2020-05-02",
+        "m1": "38.57",
+        "m2": "16.24",
+        "m3": "35.95"
+      },
+      {
+        "p": "[A Deep Reinforced Model for Abstractive Summarization](http://arxiv.org/abs/1705.04304v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/theamrzaki/text_summurization_abstractive_methods)",
+        "n": "ML + Intra-Attention (Paulus et al., 2017)",
+        "d": "2017-05-11",
+        "m1": "38.30",
+        "m2": "14.81",
+        "m3": "35.49"
+      },
+      {
+        "p": "[Coarse-to-Fine Attention Models for Document Summarization](https://aclanthology.org/W17-4505)",
+        "c": "",
+        "n": "C2F + ALTERNATE",
+        "d": "2017-09-01",
+        "m1": "31.1",
+        "m2": "15.4",
+        "m3": "28.8",
+        "m4": "23.6"
+      },
+      {
+        "p": "[Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "GPT-2",
+        "d": "2019-02-14",
+        "m1": "29.34",
+        "m2": "8.27",
+        "m3": "26.58"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

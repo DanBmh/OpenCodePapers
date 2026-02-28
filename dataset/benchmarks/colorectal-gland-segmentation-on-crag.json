@@ -1,0 +1,178 @@
+{
+  "title": "colorectal-gland-segmentation-on-crag",
+  "task-hierarchy": [
+    "Colorectal Gland Segmentation:"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Dice",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "F1-score",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Hausdorff Distance (mm)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Pseudo-Label Guided Contrastive Learning for Semi-Supervised Medical Image Segmentation](http://openaccess.thecvf.com//content/CVPR2023/html/Basak_Pseudo-Label_Guided_Contrastive_Learning_for_Semi-Supervised_Medical_Image_Segmentation_CVPR_2023_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/HiLab-git/SSL4MIS)",
+        "n": "PatchCL",
+        "d": "2023-01-01",
+        "m1": "0.892",
+        "m2": "0.881",
+        "m3": "119.5"
+      },
+      {
+        "p": "[Dense Steerable Filter CNNs for Exploiting Rotational Symmetry in Histology Images](https://arxiv.org/abs/2004.03037v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/simongraham/dsf-cnn)",
+        "n": "DSF-CNN (C8)",
+        "d": "2020-04-06",
+        "m1": "0.891",
+        "m2": "0.874",
+        "m3": "138.4"
+      },
+      {
+        "p": "[Learning Steerable Filters for Rotation Equivariant CNNs](http://arxiv.org/abs/1711.07289v3)",
+        "c": "",
+        "n": "Steerable G-CNN (C8)",
+        "d": "2017-11-20",
+        "m1": "0.888",
+        "m2": "0.861",
+        "m3": "139.5"
+      },
+      {
+        "p": "[MILD-Net: Minimal Information Loss Dilated Network for Gland Instance Segmentation in Colon Histology Images](http://arxiv.org/abs/1806.01963v4)",
+        "c": "",
+        "n": "MILD-Net (e)",
+        "d": "2018-06-05",
+        "m1": "0.883",
+        "m2": "0.869",
+        "m3": "146.2"
+      },
+      {
+        "p": "[Learning Steerable Filters for Rotation Equivariant CNNs](http://arxiv.org/abs/1711.07289v3)",
+        "c": "",
+        "n": "Steerable G-CNN (C12)",
+        "d": "2017-11-20",
+        "m1": "0.870",
+        "m2": "0.855",
+        "m3": "156.2"
+      },
+      {
+        "p": "[Learning Steerable Filters for Rotation Equivariant CNNs](http://arxiv.org/abs/1711.07289v3)",
+        "c": "",
+        "n": "Steerable G-CNN (C12)",
+        "d": "2017-11-20",
+        "m1": "0.869",
+        "m2": "0.837",
+        "m3": "164.8"
+      },
+      {
+        "p": "[Roto-Translation Equivariant Convolutional Networks: Application to Histopathology Image Analysis](https://arxiv.org/abs/2002.08725v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/tueimage/se2cnn)",
+        "n": "G-CNN (C8)",
+        "d": "2020-02-20",
+        "m1": "0.866",
+        "m2": "0.837",
+        "m3": "157.4"
+      },
+      {
+        "p": "[Group Equivariant Convolutional Networks](http://arxiv.org/abs/1602.07576v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/adambielski/pytorch-gconv-experiments)",
+        "n": "G-CNN (C4)",
+        "d": "2016-02-24",
+        "m1": "0.856",
+        "m2": "0.833",
+        "m3": "170.4"
+      },
+      {
+        "p": "[Learning Steerable Filters for Rotation Equivariant CNNs](http://arxiv.org/abs/1711.07289v3)",
+        "c": "",
+        "n": "Steerable G-CNN (e)",
+        "d": "2017-11-20",
+        "m1": "0.848",
+        "m2": "0.811",
+        "m3": "175.9"
+      },
+      {
+        "p": "[U-Net: Convolutional Networks for Biomedical Image Segmentation](http://arxiv.org/abs/1505.04597v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+        "n": "U-Net (e)",
+        "d": "2015-05-18",
+        "m1": "0.844",
+        "m3": "196.9"
+      },
+      {
+        "p": "[Roto-Translation Equivariant Convolutional Networks: Application to Histopathology Image Analysis](https://arxiv.org/abs/2002.08725v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/tueimage/se2cnn)",
+        "n": "G-CNN (C12)",
+        "d": "2020-02-20",
+        "m1": "0.834",
+        "m2": "0.818",
+        "m3": "192.2"
+      },
+      {
+        "p": "[Rotation equivariant vector field networks](http://arxiv.org/abs/1612.09346v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/COGMAR/RotEqNet)",
+        "n": "VF-CNN (C12)",
+        "d": "2016-12-29",
+        "m1": "0.782",
+        "m2": "0.776",
+        "m3": "251.9"
+      },
+      {
+        "p": "[Rotation equivariant vector field networks](http://arxiv.org/abs/1612.09346v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/COGMAR/RotEqNet)",
+        "n": "VF-CNN (C8)",
+        "d": "2016-12-29",
+        "m1": "0.758",
+        "m2": "0.745",
+        "m3": "287.5"
+      },
+      {
+        "p": "[Rotation equivariant vector field networks](http://arxiv.org/abs/1612.09346v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/COGMAR/RotEqNet)",
+        "n": "VF-CNN (C4)",
+        "d": "2016-12-29",
+        "m1": "0.721",
+        "m2": "0.711",
+        "m3": "318.9"
+      },
+      {
+        "p": "[U-Net: Convolutional Networks for Biomedical Image Segmentation](http://arxiv.org/abs/1505.04597v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+        "n": "FCN8 (e)",
+        "d": "2015-05-18",
+        "m3": "199.5"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

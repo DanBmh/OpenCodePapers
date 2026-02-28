@@ -1,0 +1,102 @@
+{
+  "title": "image-retrieval-on-coco",
+  "task-hierarchy": [
+    "Image Retrieval"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "recall@1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "recall@5",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Recall@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "QPS",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "BLIP-2 ViT-G (fine-tuned)",
+        "d": "2023-01-30",
+        "m1": "68.3",
+        "m2": "87.7",
+        "m3": "92.6"
+      },
+      {
+        "p": "[VisualSparta: An Embarrassingly Simple Approach to Large-scale Text-to-Image Search with Weighted Bag-of-words](https://arxiv.org/abs/2101.00265v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/soco-ai/SF-QA)",
+        "n": "VisualSparta",
+        "d": "2021-01-01",
+        "m1": "68.2",
+        "m2": "91.8",
+        "m3": "96.3",
+        "m4": "451.4"
+      },
+      {
+        "p": "[BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "BLIP-2 ViT-L (fine-tuned)",
+        "d": "2023-01-30",
+        "m1": "66.3",
+        "m2": "86.5",
+        "m3": "91.8"
+      },
+      {
+        "p": "[FLAVA: A Foundational Language And Vision Alignment Model](https://arxiv.org/abs/2112.04482v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/multimodal)",
+        "n": "FLAVA (zero-shot)",
+        "d": "2021-12-08",
+        "m1": "38.38",
+        "m2": "67.47"
+      },
+      {
+        "p": "[FLAVA: A Foundational Language And Vision Alignment Model](https://arxiv.org/abs/2112.04482v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/multimodal)",
+        "n": "CLIP (zero-shot)",
+        "d": "2021-12-08",
+        "m1": "33.29",
+        "m2": "62.47"
+      },
+      {
+        "p": "[Oscar: Object-Semantics Aligned Pre-training for Vision-Language Tasks](https://arxiv.org/abs/2004.06165v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/rmokady/clip_prefix_caption)",
+        "n": "Oscar",
+        "d": "2020-04-13",
+        "m3": "98.3"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

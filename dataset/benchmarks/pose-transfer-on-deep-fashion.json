@@ -1,0 +1,174 @@
+{
+  "title": "pose-transfer-on-deep-fashion",
+  "task-hierarchy": [
+    "Image Generation",
+    "Pose Transfer"
+  ],
+  "dataset-info": {
+    "link": "https://liuziwei7.github.io/projects/DeepFashion.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "IS",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "FID",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "DS",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "PCKh",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "LPIPS",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "Retrieval Top10 Recall",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Dressing in Order: Recurrent Person Image Generation for Pose Transfer, Virtual Try-on and Outfit Editing](https://arxiv.org/abs/2104.07021v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/cuiaiyu/dressing-in-order)",
+        "n": "DiOr",
+        "d": "2021-04-14",
+        "m1": "0.806"
+      },
+      {
+        "p": "[XingGAN for Person Image Generation](https://arxiv.org/abs/2007.09278v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Ha0Tang/XingGAN)",
+        "n": "XingGAN",
+        "d": "2020-07-17",
+        "m1": "0.778",
+        "m2": "3.476",
+        "m5": "0.95"
+      },
+      {
+        "p": "[Bipartite Graph Reasoning GANs for Person Image Generation](https://arxiv.org/abs/2008.04381v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Ha0Tang/BiGraphGAN)",
+        "n": "BiGraphGAN",
+        "d": "2020-08-10",
+        "m1": "0.778",
+        "m2": "3.430",
+        "m5": "0.97"
+      },
+      {
+        "p": "[Region-adaptive Texture Enhancement for Detailed Person Image Synthesis](https://arxiv.org/abs/2005.12486v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Lotayou/RATE)",
+        "n": "RATE",
+        "d": "2020-05-26",
+        "m1": "0.774",
+        "m2": "3.125",
+        "m3": "14.611",
+        "m6": "0.218",
+        "m7": "30.89"
+      },
+      {
+        "p": "[Progressive Pose Attention Transfer for Person Image Generation](https://arxiv.org/abs/1904.03349v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/tengteng95/Pose-Transfer)",
+        "n": "Progressive Pose Attention",
+        "d": "2019-04-06",
+        "m1": "0.773",
+        "m2": "3.209",
+        "m4": "0.976",
+        "m5": "0.96",
+        "m7": "17.84"
+      },
+      {
+        "p": "[Controllable Person Image Synthesis with Attribute-Decomposed GAN](https://arxiv.org/abs/2003.12267v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/menyifang/adgan)",
+        "n": "ADGAN",
+        "d": "2020-03-27",
+        "m1": "0.772",
+        "m2": "3.364"
+      },
+      {
+        "p": "[Guided Image-to-Image Translation with Bi-Directional Feature Transformation](https://arxiv.org/abs/1910.11328v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/vt-vl-lab/Guided-pix2pix)",
+        "n": "bFT",
+        "d": "2019-10-24",
+        "m1": "0.767",
+        "m2": "3.22",
+        "m3": "12.266"
+      },
+      {
+        "p": "[Pose Guided Person Image Generation](http://arxiv.org/abs/1705.09368v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/sgoldyaev/DeepFashion.ADGAN)",
+        "n": "PG Squared",
+        "d": "2017-05-25",
+        "m1": "0.762",
+        "m2": "3.090"
+      },
+      {
+        "p": "[Deformable GANs for Pose-based Human Image Generation](http://arxiv.org/abs/1801.00055v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/AliaksandrSiarohin/pose-gan)",
+        "n": "Deformable GAN",
+        "d": "2017-12-29",
+        "m1": "0.756",
+        "m2": "3.439",
+        "m6": "0.233",
+        "m7": "30.07"
+      },
+      {
+        "p": "[Disentangled Person Image Generation](http://arxiv.org/abs/1712.02621v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/charliememory/Disentangled-Person-Image-Generation)",
+        "n": "Disentangled PG",
+        "d": "2017-12-07",
+        "m1": "0.614",
+        "m2": "3.228"
+      },
+      {
+        "p": "[Learning Flow Fields in Attention for Controllable Person Image Generation](https://arxiv.org/abs/2412.08486v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/franciszzj/leffa)",
+        "n": "Leffa",
+        "d": "2024-12-11",
+        "m3": "4.23"
+      },
+      {
+        "p": "[UPGPT: Universal Diffusion Model for Person Image Generation, Editing and Pose Transfer](https://arxiv.org/abs/2304.08870v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/soon-yau/upgpt)",
+        "n": "UPGPT",
+        "d": "2023-04-18",
+        "m3": "9.427"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

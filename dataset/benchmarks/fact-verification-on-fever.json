@@ -1,0 +1,97 @@
+{
+  "title": "fact-verification-on-fever",
+  "task-hierarchy": [
+    "Fact Verification"
+  ],
+  "dataset-info": {
+    "link": "https://fever.ai/resources.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "FEVER",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[ProoFVer: Natural Logic Theorem Proving for Fact Verification](https://arxiv.org/abs/2108.11357v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/krishnamrith12/proofver)",
+        "n": "ProoFVer-SB",
+        "d": "2021-08-25",
+        "m1": "79.47",
+        "m2": "76.82"
+      },
+      {
+        "p": "[Reasoning Over Semantic-Level Graph for Fact Checking](https://arxiv.org/abs/1909.03745v3)",
+        "c": "",
+        "n": "DREAM",
+        "d": "2019-09-09",
+        "m1": "76.85",
+        "m2": "70.60"
+      },
+      {
+        "p": "[Paragraph-based Transformer Pre-training for Multi-Sentence Inference](https://arxiv.org/abs/2205.01228v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/amazon-research/wqa-multi-sentence-inference)",
+        "n": "RoBERTa-Base Joint MSPP Flexible",
+        "d": "2022-05-02",
+        "m1": "75.36"
+      },
+      {
+        "p": "[Paragraph-based Transformer Pre-training for Multi-Sentence Inference](https://arxiv.org/abs/2205.01228v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/amazon-research/wqa-multi-sentence-inference)",
+        "n": "RoBERTa-Base Joint MSPP",
+        "d": "2022-05-02",
+        "m1": "74.39"
+      },
+      {
+        "p": "[Fine-grained Fact Verification with Kernel Graph Attention Network](https://arxiv.org/abs/1910.09796v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/thunlp/KernelGAT)",
+        "n": "KGAT",
+        "d": "2019-10-22",
+        "m1": "74.1",
+        "m2": "70.4"
+      },
+      {
+        "p": "[Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "RAG",
+        "d": "2020-05-22",
+        "m1": "72.5"
+      },
+      {
+        "p": "[GEAR: Graph-based Evidence Aggregating and Reasoning for Fact Verification](https://arxiv.org/abs/1908.01843v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/thunlp/KernelGAT)",
+        "n": "GEAR",
+        "d": "2019-07-22",
+        "m1": "71.6",
+        "m2": "67.1"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "title": "skeleton-based-action-recognition-on-n-ucla",
+  "task-hierarchy": [
+    "Action Recognition",
+    "3D Action Recognition",
+    "Skeleton Based Action Recognition"
+  ],
+  "dataset-info": {
+    "link": "http://wangjiangb.github.io/my_data.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Data Modality (Joint, Bone, Motion)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[A Dense-Sparse Complementary Network for Human Action Recognition based on RGB and Skeleton Modalities](https://www.sciencedirect.com/science/article/pii/S0957417423035637)",
+        "c": "[&check;&nbsp;Link](https://github.com/Maxchengqin/DSCNet)",
+        "n": "DSCNet (RGB + Pose)",
+        "d": "2023-12-28",
+        "m1": "99.1"
+      },
+      {
+        "p": "[SkateFormer: Skeletal-Temporal Transformer for Human Action Recognition](https://arxiv.org/abs/2403.09508v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/KAIST-VICLab/SkateFormer)",
+        "n": "SkateFormer",
+        "d": "2024-03-14",
+        "m1": "98.3"
+      },
+      {
+        "p": "[Language Knowledge-Assisted Representation Learning for Skeleton-Based Action Recognition](https://arxiv.org/abs/2305.12398v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/damnull/lagcn)",
+        "n": "LA-GCN",
+        "d": "2023-05-21",
+        "m1": "97.6"
+      },
+      {
+        "p": "[Multi-Modality Co-Learning for Efficient Skeleton-based Action Recognition](https://arxiv.org/abs/2407.15706v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/liujf69/MMCL-Action)",
+        "n": "MMCL",
+        "d": "2024-07-22",
+        "m1": "97.5"
+      },
+      {
+        "p": "[Temporal Decoupling Graph Convolutional Network for Skeleton-based Gesture Recognition](https://ieeexplore.ieee.org/abstract/document/10113233/)",
+        "c": "[&check;&nbsp;Link](https://github.com/liujf69/TD-GCN-Gesture)",
+        "n": "TD-GCN",
+        "d": "2023-05-01",
+        "m1": "97.4"
+      },
+      {
+        "p": "[Action Capsules: Human Skeleton Action Recognition](https://arxiv.org/abs/2301.13090v1)",
+        "c": "",
+        "n": "Action Capsules",
+        "d": "2023-01-30",
+        "m1": "97.3"
+      },
+      {
+        "p": "[Generative Action Description Prompts for Skeleton-based Action Recognition](https://arxiv.org/abs/2208.05318v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/martinxm/gap)",
+        "n": "LST",
+        "d": "2022-08-10",
+        "m1": "97.2"
+      },
+      {
+        "p": "[Hierarchically Decomposed Graph Convolutional Networks for Skeleton-Based Action Recognition](https://arxiv.org/abs/2208.10741v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/Jho-Yonsei/HD-GCN)",
+        "n": "HD-GCN",
+        "d": "2022-08-23",
+        "m1": "97.2"
+      },
+      {
+        "p": "[InfoGCN: Representation Learning for Human Skeleton-Based Action Recognition](http://openaccess.thecvf.com//content/CVPR2022/html/Chi_InfoGCN_Representation_Learning_for_Human_Skeleton-Based_Action_Recognition_CVPR_2022_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/stnoah1/infogcn)",
+        "n": "InfoGCN",
+        "d": "2022-01-01",
+        "m1": "97.0"
+      },
+      {
+        "p": "[Skeleton-based Action Recognition via Temporal-Channel Aggregation](https://arxiv.org/abs/2205.15936v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/OrdinaryQin/TCA-GCN)",
+        "n": "TCA-GCN",
+        "d": "2022-05-31",
+        "m1": "97.0"
+      },
+      {
+        "p": "[DSTSA-GCN: Advancing Skeleton-Based Gesture Recognition with Semantic-Aware Spatio-Temporal Topology Modeling](https://arxiv.org/abs/2501.12086v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/HuCui2022/DSTSA-GCN_Gesture)",
+        "n": "DSTSA-GCN",
+        "d": "2025-01-21",
+        "m1": "96.98"
+      },
+      {
+        "p": "[Joint-Partition Group Attention for skeleton-based action recognition](https://www.sciencedirect.com/science/article/pii/S0165168424002111)",
+        "c": "[&check;&nbsp;Link](https://github.com/HuCui2022/JPFormer)",
+        "n": "JPFormer",
+        "d": "2024-07-30",
+        "m1": "96.7"
+      },
+      {
+        "p": "[Channel-wise Topology Refinement Graph Convolution for Skeleton-Based Action Recognition](https://arxiv.org/abs/2107.12213v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/kennymckormick/pyskl)",
+        "n": "CTR-GCN",
+        "d": "2021-07-26",
+        "m1": "96.5"
+      },
+      {
+        "p": "[Action Recognition in Real-World Ambient Assisted Living Environment](https://arxiv.org/abs/2503.23214v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Gbouna/RE-TCN)",
+        "n": "RE-TCN",
+        "d": "2025-03-29",
+        "m1": "96.34%",
+        "m2": "Joint"
+      },
+      {
+        "p": "[Action Recognition for Privacy-Preserving Ambient Assisted Living](https://www.researchgate.net/publication/383206363_Action_Recognition_for_Privacy-Preserving_Ambient_Assisted_Living)",
+        "c": "[&check;&nbsp;Link](https://github.com/Gbouna/Action-Recognition-for-Privacy-Preserving-Ambient-Assisted-Living)",
+        "n": "TD-GDSCN",
+        "d": "2024-08-15",
+        "m1": "95.69",
+        "m2": "Joint"
+      },
+      {
+        "p": "[Multi-scale spatial–temporal convolutional neural network for skeleton-based action recognition](https://link.springer.com/article/10.1007/s10044-023-01156-w#Sec8)",
+        "c": "[&check;&nbsp;Link](https://github.com/Maxchengqin/MSSTNet_2D_3D)",
+        "n": "MSSTNet",
+        "d": "2023-05-12",
+        "m1": "95.3"
+      },
+      {
+        "p": "[Hierarchical Action Classification with Network Pruning](https://arxiv.org/abs/2007.15244v1)",
+        "c": "",
+        "n": "Hierarchical Action Classification (RGB + Pose)",
+        "d": "2020-07-30",
+        "m1": "93.99"
+      },
+      {
+        "p": "[MMNet: A Model-Based Multimodal Network for Human Action Recognition in RGB-D Videos](https://ieeexplore.ieee.org/abstract/document/9782511)",
+        "c": "[&check;&nbsp;Link](https://github.com/bruceyo/MMNet)",
+        "n": "MMNet (RGB + Pose)",
+        "d": "2022-05-26",
+        "m1": "93.7"
+      },
+      {
+        "p": "[VPN: Learning Video-Pose Embedding for Activities of Daily Living](https://arxiv.org/abs/2007.03056v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/srijandas07/VPN)",
+        "n": "VPN (RGB + Pose)",
+        "d": "2020-07-06",
+        "m1": "93.5"
+      },
+      {
+        "p": "[VPN++: Rethinking Video-Pose embeddings for understanding Activities of Daily Living](https://arxiv.org/abs/2105.08141v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/srijandas07/vpnplusplus)",
+        "n": "VPN++ (RGB + Pose)",
+        "d": "2021-05-17",
+        "m1": "93.5"
+      },
+      {
+        "p": "[Semantics-Guided Neural Networks for Efficient Skeleton-Based Human Action Recognition](https://arxiv.org/abs/1904.01189v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/microsoft/SGN)",
+        "n": "SGN",
+        "d": "2019-04-02",
+        "m1": "92.5%"
+      },
+      {
+        "p": "[Action Machine: Rethinking Action Recognition in Trimmed Videos](http://arxiv.org/abs/1812.05770v2)",
+        "c": "",
+        "n": "Action Machine",
+        "d": "2018-12-14",
+        "m1": "92.3%"
+      },
+      {
+        "p": "[EleAtt-RNN: Adding Attentiveness to Neurons in Recurrent Neural Networks](https://arxiv.org/abs/1909.01939v1)",
+        "c": "",
+        "n": "EleAtt-GRU (aug.)",
+        "d": "2019-09-03",
+        "m1": "90.7%"
+      },
+      {
+        "p": "[View Adaptive Neural Networks for High Performance Skeleton-based Human Action Recognition](https://arxiv.org/abs/1804.07453v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/microsoft/View-Adaptive-Neural-Networks-for-Skeleton-based-Human-Action-Recognition)",
+        "n": "VA-fusion (aug.)",
+        "d": "2018-04-20",
+        "m1": "88.1%"
+      },
+      {
+        "p": "[Glimpse Clouds: Human Activity Recognition from Unstructured Feature Points](http://arxiv.org/abs/1802.07898v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/fabienbaradel/glimpse_clouds)",
+        "n": "Glimpse Clouds",
+        "d": "2018-02-22",
+        "m1": "87.6%"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

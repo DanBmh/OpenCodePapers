@@ -1,0 +1,71 @@
+{
+  "title": "acne-severity-grading-on-acne04",
+  "task-hierarchy": [
+    "Acne Severity Grading"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[DED: Diagnostic Evidence Distillation for acne severity grading on face images](http://dx.doi.org/10.1016/j.eswa.2023.120312)",
+        "c": "[&check;&nbsp;Link](https://github.com/linyi0604/DED-Diagnostic-Evidence-Distillation-for-Acne-Severity-Grading-on-Face-Images)",
+        "n": "DED",
+        "d": "2023-10-05",
+        "m1": "86.06"
+      },
+      {
+        "p": "[Acne Severity Grading on Face Images via Extraction and Guidance of Prior Knowledge](https://ieeexplore.ieee.org/document/9995101)",
+        "c": "[&check;&nbsp;Link](https://github.com/linyi0604/PKGF)",
+        "n": "PKGF",
+        "d": "2023-01-02",
+        "m1": "85.27"
+      },
+      {
+        "p": "[An Acne Grading Framework on Face Images via Skin Attention and SFNet](https://ieeexplore.ieee.org/document/9669431/)",
+        "c": "",
+        "n": "SFNet",
+        "d": "2022-01-14",
+        "m1": "84.52"
+      },
+      {
+        "p": "[KIEGLFN: A unified acne grading framework on face images](http://dx.doi.org/10.1016/j.cmpb.2022.106911)",
+        "c": "[&check;&nbsp;Link](https://github.com/linyi0604/KIEGLFN)",
+        "n": "KIEGLFN",
+        "d": "2022-06-01",
+        "m1": "84.52"
+      },
+      {
+        "p": "[Joint Acne Image Grading and Counting via Label Distribution Learning](http://openaccess.thecvf.com/content_ICCV_2019/html/Wu_Joint_Acne_Image_Grading_and_Counting_via_Label_Distribution_Learning_ICCV_2019_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/xpwu95/ldl)",
+        "n": "JAGC",
+        "d": "2019-10-01",
+        "m1": "84.11"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

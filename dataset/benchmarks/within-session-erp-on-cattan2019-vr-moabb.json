@@ -1,0 +1,124 @@
+{
+  "title": "within-session-erp-on-cattan2019-vr-moabb",
+  "task-hierarchy": [
+    "ERP",
+    "Within-Session ERP"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AUC-ROC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "training time (s)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "CO2 Emission (g)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[The largest EEG-based BCI reproducibility study for open science: the MOABB benchmark](https://arxiv.org/abs/2404.15319v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/NeuroTechX/moabb)",
+        "n": "XDAWNCov + TS + SVM",
+        "d": "2024-04-03",
+        "m1": "90.677777575",
+        "m2": "0.85638401025",
+        "m3": "0.008065587075"
+      },
+      {
+        "p": "[The largest EEG-based BCI reproducibility study for open science: the MOABB benchmark](https://arxiv.org/abs/2404.15319v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/NeuroTechX/moabb)",
+        "n": "EEGITNet",
+        "d": "2024-04-03",
+        "m1": "89.4212960952381",
+        "m2": "22.83087557142857"
+      },
+      {
+        "p": "[The largest EEG-based BCI reproducibility study for open science: the MOABB benchmark](https://arxiv.org/abs/2404.15319v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/NeuroTechX/moabb)",
+        "n": "EEGNeX",
+        "d": "2024-04-03",
+        "m1": "89.3339950952381",
+        "m2": "23.31658614285714"
+      },
+      {
+        "p": "[The largest EEG-based BCI reproducibility study for open science: the MOABB benchmark](https://arxiv.org/abs/2404.15319v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/NeuroTechX/moabb)",
+        "n": "XDAWNCov + MDM",
+        "d": "2024-04-03",
+        "m1": "88.529687375",
+        "m2": "0.18693414675",
+        "m3": "0.0017226343375000002"
+      },
+      {
+        "p": "[The largest EEG-based BCI reproducibility study for open science: the MOABB benchmark](https://arxiv.org/abs/2404.15319v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/NeuroTechX/moabb)",
+        "n": "EEGNet-8,2",
+        "d": "2024-04-03",
+        "m1": "86.3244051904762",
+        "m2": "15.87339438095238"
+      },
+      {
+        "p": "[The largest EEG-based BCI reproducibility study for open science: the MOABB benchmark](https://arxiv.org/abs/2404.15319v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/NeuroTechX/moabb)",
+        "n": "ERPCov + MDM",
+        "d": "2024-04-03",
+        "m1": "80.757379",
+        "m2": "0.7168895120000001",
+        "m3": "0.0067425482250000005"
+      },
+      {
+        "p": "[The largest EEG-based BCI reproducibility study for open science: the MOABB benchmark](https://arxiv.org/abs/2404.15319v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/NeuroTechX/moabb)",
+        "n": "ERPCov(svd_n=4) + MDM",
+        "d": "2024-04-03",
+        "m1": "80.674825575",
+        "m2": "0.30020958225",
+        "m3": "0.0027964518625"
+      },
+      {
+        "p": "[The largest EEG-based BCI reproducibility study for open science: the MOABB benchmark](https://arxiv.org/abs/2404.15319v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/NeuroTechX/moabb)",
+        "n": "ShallowConvNet",
+        "d": "2024-04-03",
+        "m1": "80.03306880952381",
+        "m2": "13.902749985714287"
+      },
+      {
+        "p": "[The largest EEG-based BCI reproducibility study for open science: the MOABB benchmark](https://arxiv.org/abs/2404.15319v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/NeuroTechX/moabb)",
+        "n": "XDAWN + LDA",
+        "d": "2024-04-03",
+        "m1": "67.159201475",
+        "m2": "0.3639022155",
+        "m3": "0.0033990314475"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

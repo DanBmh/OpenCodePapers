@@ -1,0 +1,96 @@
+{
+  "title": "relation-extraction-on-nyt-corpus",
+  "task-hierarchy": [
+    "Relation Extraction"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "P@10%",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "P@30%",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[KGPool: Dynamic Knowledge Graph Context Selection for Relation Extraction](https://arxiv.org/abs/2106.00459v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/nadgeri14/KGPool)",
+        "n": "KGPOOL",
+        "d": "2021-06-01",
+        "m1": "92.3",
+        "m2": "86.7"
+      },
+      {
+        "p": "[RECON: Relation Extraction using Knowledge Graph Context in a Graph Neural Network](https://arxiv.org/abs/2009.08694v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/ansonb/RECON)",
+        "n": "RECON",
+        "d": "2020-09-18",
+        "m1": "87.5",
+        "m2": "74.1"
+      },
+      {
+        "p": "[Connecting Language and Knowledge with Heterogeneous Representations for Neural Relation Extraction](https://arxiv.org/abs/1903.10126v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/billy-inn/HRERE)",
+        "n": "HRERE",
+        "d": "2019-03-25",
+        "m1": "84.9",
+        "m2": "72.8"
+      },
+      {
+        "p": "[Distantly Supervised Relation Extraction with Sentence Reconstruction and Knowledge Base Priors](https://arxiv.org/abs/2104.08225v1)",
+        "c": "",
+        "n": "DSRE-VAE",
+        "d": "2021-04-16",
+        "m1": "75.9",
+        "m2": "63.3"
+      },
+      {
+        "p": "[RESIDE: Improving Distantly-Supervised Neural Relation Extraction using Side Information](http://arxiv.org/abs/1812.04361v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/malllabiisc/RESIDE)",
+        "n": "RESIDE",
+        "d": "2018-12-11",
+        "m1": "73.6",
+        "m2": "59.5"
+      },
+      {
+        "p": "[Neural Relation Extraction with Selective Attention over Instances](https://aclanthology.org/p16-1200)",
+        "c": "[&check;&nbsp;Link](https://github.com/onehaitao/distant-supervised-relation-extraction)",
+        "n": "PCNN+ATT",
+        "d": "2016-08-01",
+        "m1": "69.4",
+        "m2": "51.8"
+      },
+      {
+        "p": "[Multi-instance Multi-label Learning for Relation Extraction](https://aclanthology.org/D12-1042)",
+        "c": "",
+        "n": "MIML-RE",
+        "d": "2012-07-01",
+        "m1": "60.7"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

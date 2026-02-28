@@ -1,0 +1,104 @@
+{
+  "title": "scene-generation-on-googleearth",
+  "task-hierarchy": [
+    "Scene Generation"
+  ],
+  "dataset-info": {
+    "link": "https://haozhexie.com/project/city-dreamer"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Depth Error",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "KID",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Camera Error",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "FID",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[GaussianCity: Generative Gaussian Splatting for Unbounded 3D City Generation](https://arxiv.org/abs/2406.06526v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/hzxie/GaussianCity)",
+        "n": "GaussianCity",
+        "d": "2024-06-10",
+        "m1": "0.136",
+        "m2": "0.09",
+        "m3": "0.057",
+        "m4": "86.94"
+      },
+      {
+        "p": "[CityDreamer: Compositional Generative Model of Unbounded 3D Cities](https://arxiv.org/abs/2309.00610v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/hzxie/CityDreamer)",
+        "n": "CityDreamer",
+        "d": "2023-09-01",
+        "m1": "0.147",
+        "m2": "0.096",
+        "m3": "0.060",
+        "m4": "97.38"
+      },
+      {
+        "p": "[SceneDreamer: Unbounded 3D Scene Generation from 2D Image Collections](https://arxiv.org/abs/2302.01330v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/frozenburning/scenedreamer)",
+        "n": "SceneDreamer",
+        "d": "2023-02-02",
+        "m1": "0.152",
+        "m2": "0.216",
+        "m3": "0.186",
+        "m4": "213.56"
+      },
+      {
+        "p": "[Persistent Nature: A Generative Model of Unbounded 3D Worlds](https://arxiv.org/abs/2303.13515v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research/tree/master/persistent-nature)",
+        "n": "PersistentNature",
+        "d": "2023-03-23",
+        "m1": "0.326",
+        "m2": "0.109",
+        "m3": "86.371",
+        "m4": "123.83"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "SGAM",
+        "d": null,
+        "m1": "0.575",
+        "m2": "0.358",
+        "m3": "239.291",
+        "m4": "277.64"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

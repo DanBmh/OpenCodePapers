@@ -1,0 +1,207 @@
+{
+  "title": "semantic-segmentation-on-bdd100k-val",
+  "task-hierarchy": [
+    "Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://www.bdd100k.com/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Strong but simple: A Baseline for Domain Generalized Dense Perception by CLIP-based Transfer Learning](https://arxiv.org/abs/2312.02021v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/VLTSeg/VLTSeg)",
+        "n": "VLTSeg",
+        "d": "2023-12-04",
+        "m1": "72.5"
+      },
+      {
+        "p": "[SERNet-Former: Semantic Segmentation by Efficient Residual Network with Attention-Boosting Gates and Attention-Fusion Networks](https://arxiv.org/abs/2401.15741v7)",
+        "c": "[&check;&nbsp;Link](https://github.com/serdarch/sernet-former)",
+        "n": "SERNet-Former_v2",
+        "d": "2024-01-28",
+        "m1": "67.42"
+      },
+      {
+        "p": "[DSNet: A Novel Way to Use Atrous Convolutions in Semantic Segmentation](https://arxiv.org/abs/2406.03702v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/takaniwa/dsnet)",
+        "n": "DSNet-Base",
+        "d": "2024-06-06",
+        "m1": "64.6"
+      },
+      {
+        "p": "[Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation](http://arxiv.org/abs/1802.02611v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/research/deeplab)",
+        "n": "Deeplabv3+",
+        "d": "2018-02-07",
+        "m1": "63.6"
+      },
+      {
+        "p": "[Dual Attention Network for Scene Segmentation](http://arxiv.org/abs/1809.02983v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/xmu-xiaoma666/External-Attention-pytorch)",
+        "n": "DANet",
+        "d": "2018-09-09",
+        "m1": "62.8"
+      },
+      {
+        "p": "[Pyramid Scene Parsing Network](http://arxiv.org/abs/1612.01105v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+        "n": "PSPNet",
+        "d": "2016-12-04",
+        "m1": "62.3"
+      },
+      {
+        "p": "[Expectation-Maximization Attention Networks for Semantic Segmentation](https://arxiv.org/abs/1907.13426v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmsegmentation)",
+        "n": "EMANet",
+        "d": "2019-07-31",
+        "m1": "61.4"
+      },
+      {
+        "p": "[Segmentation Transformer: Object-Contextual Representations for Semantic Segmentation](https://arxiv.org/abs/1909.11065v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmsegmentation)",
+        "n": "OCRNet",
+        "d": "2019-09-24",
+        "m1": "60.1"
+      },
+      {
+        "p": "[What's There in the Dark](https://ieeexplore.ieee.org/document/8803299)",
+        "c": "[&check;&nbsp;Link](https://github.com/sauradip/night_image_semantic_segmentation)",
+        "n": "NiseNet",
+        "d": "2019-09-24",
+        "m1": "53.52"
+      },
+      {
+        "p": "[MRFP: Learning Generalizable Semantic Segmentation from Sim-2-Real with Multi-Resolution Feature Perturbation](https://arxiv.org/abs/2311.18331v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/airl-iisc/MRFP)",
+        "n": "MRFP+(Ours) Resnet50",
+        "d": "2023-11-30",
+        "m1": "39.55"
+      },
+      {
+        "p": "[MRFP: Learning Generalizable Semantic Segmentation from Sim-2-Real with Multi-Resolution Feature Perturbation](https://arxiv.org/abs/2311.18331v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/airl-iisc/MRFP)",
+        "n": "Resnet50",
+        "d": "2023-11-30",
+        "m1": "31.44"
+      },
+      {
+        "p": "[BiSeNet: Bilateral Segmentation Network for Real-time Semantic Segmentation](http://arxiv.org/abs/1808.00897v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleSeg)",
+        "n": "BiSeNet-V1(ResNet-18)",
+        "d": "2018-08-02",
+        "m1": "53.8(45.1fps)"
+      },
+      {
+        "p": "[ICNet for Real-Time Semantic Segmentation on High-Resolution Images](http://arxiv.org/abs/1704.08545v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/osmr/imgclsmob)",
+        "n": "ICNet",
+        "d": "2017-04-27",
+        "m1": "52.4(39.5fps)"
+      },
+      {
+        "p": "[Fast and Accurate Scene Parsing via Bi-direction Alignment Networks](https://arxiv.org/abs/2105.11651v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jojacola/BiAlignNet)",
+        "n": "Bi-Align",
+        "d": "2021-05-25",
+        "m1": "53.4(42.1fps)"
+      },
+      {
+        "p": "[Partial Order Pruning: for Best Speed/Accuracy Trade-off in Neural Architecture Search](http://arxiv.org/abs/1903.03777v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/lixincn2015/Partial-Order-Pruning)",
+        "n": "DF1-Seg",
+        "d": "2019-03-09",
+        "m1": "42.5(82.3fps)"
+      },
+      {
+        "p": "[Partial Order Pruning: for Best Speed/Accuracy Trade-off in Neural Architecture Search](http://arxiv.org/abs/1903.03777v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/lixincn2015/Partial-Order-Pruning)",
+        "n": "DF2-Seg",
+        "d": "2019-03-09",
+        "m1": "47.8(53.4fps)"
+      },
+      {
+        "p": "[Rethinking BiSeNet For Real-time Semantic Segmentation](https://arxiv.org/abs/2104.13188v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleSeg)",
+        "n": "STDC1",
+        "d": "2021-04-27",
+        "m1": "52.1(45.8FPS)"
+      },
+      {
+        "p": "[Rethinking BiSeNet For Real-time Semantic Segmentation](https://arxiv.org/abs/2104.13188v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleSeg)",
+        "n": "STDC2",
+        "d": "2021-04-27",
+        "m1": "53.8(33.0FPS)"
+      },
+      {
+        "p": "[Semantic Flow for Fast and Accurate Scene Parsing](https://arxiv.org/abs/2002.10120v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleSeg)",
+        "n": "SFNet(DF2)",
+        "d": "2020-02-24",
+        "m1": "60.2(208FPS 4090)"
+      },
+      {
+        "p": "[Semantic Flow for Fast and Accurate Scene Parsing](https://arxiv.org/abs/2002.10120v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleSeg)",
+        "n": "SFNet(DF1)",
+        "d": "2020-02-24",
+        "m1": "55.4(70.3fps)"
+      },
+      {
+        "p": "[Semantic Flow for Fast and Accurate Scene Parsing](https://arxiv.org/abs/2002.10120v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleSeg)",
+        "n": "SFNet(ResNet-18)",
+        "d": "2020-02-24",
+        "m1": "60.6(132.5FPS 4090)"
+      },
+      {
+        "p": "[SFNet: Faster, Accurate, and Domain Agnostic Semantic Segmentation via Semantic Flow](https://arxiv.org/abs/2207.04415v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/lxtGH/SFSegNets)",
+        "n": "SFNet-Lite(ResNet-18)",
+        "d": "2022-07-10",
+        "m1": "60.6(161.3FPS 4090)"
+      },
+      {
+        "p": "[SFNet: Faster, Accurate, and Domain Agnostic Semantic Segmentation via Semantic Flow](https://arxiv.org/abs/2207.04415v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/lxtGH/SFSegNets)",
+        "n": "SFNet-Lite(STDC2)",
+        "d": "2022-07-10",
+        "m1": "60.6(194.5FPS 4090)"
+      },
+      {
+        "p": "[DSNet: A Novel Way to Use Atrous Convolutions in Semantic Segmentation](https://arxiv.org/abs/2406.03702v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/takaniwa/dsnet)",
+        "n": "DSNet-head64",
+        "d": "2024-06-06",
+        "m1": "62.6(172.2FPS 4090)"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

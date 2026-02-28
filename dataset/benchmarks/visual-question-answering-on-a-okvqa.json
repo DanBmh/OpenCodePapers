@@ -1,0 +1,160 @@
+{
+  "title": "visual-question-answering-on-a-okvqa",
+  "task-hierarchy": [
+    "Visual Question Answering (VQA)"
+  ],
+  "dataset-info": {
+    "link": "https://allenai.org/project/a-okvqa/home"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MC Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "DA VQA Score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Omni-SMoLA: Boosting Generalist Multimodal Models with Soft Mixture of Low-rank Experts](https://arxiv.org/abs/2312.00968v2)",
+        "c": "",
+        "n": "SMoLA-PaLI-X Specialist Model",
+        "d": "2023-12-01",
+        "m1": "83.75",
+        "m2": "70.55"
+      },
+      {
+        "p": "[Visual Program Distillation: Distilling Tools and Programmatic Reasoning into Vision-Language Models](https://arxiv.org/abs/2312.03052v2)",
+        "c": "",
+        "n": "PaLI-X-VPD",
+        "d": "2023-12-05",
+        "m1": "80.4",
+        "m2": "68.2"
+      },
+      {
+        "p": "[Prophet: Prompting Large Language Models with Complementary Answer Heuristics for Knowledge-based Visual Question Answering](https://arxiv.org/abs/2303.01903v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/milvlg/prophet)",
+        "n": "Prophet",
+        "d": "2023-03-03",
+        "m1": "75.1",
+        "m2": "58.5"
+      },
+      {
+        "p": "[PromptCap: Prompt-Guided Task-Aware Image Captioning](https://arxiv.org/abs/2211.09699v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/Yushi-Hu/PromptCap)",
+        "n": "PromptCap",
+        "d": "2022-11-15",
+        "m1": "73.2",
+        "m2": "59.6"
+      },
+      {
+        "p": "[Boosting the Power of Small Multimodal Reasoning Models to Match Larger Models with Self-Consistency Training](https://arxiv.org/abs/2311.14109v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/chengtan9907/mc-cot)",
+        "n": "MC-CoT",
+        "d": "2023-11-23",
+        "m1": "71"
+      },
+      {
+        "p": "[HYDRA: A Hyper Agent for Dynamic Compositional Visual Reasoning](https://arxiv.org/abs/2403.12884v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/ControlNet/HYDRA)",
+        "n": "HYDRA",
+        "d": "2024-03-19",
+        "m1": "56.35"
+      },
+      {
+        "p": "[Webly Supervised Concept Expansion for General Purpose Vision Models](https://arxiv.org/abs/2202.02317v2)",
+        "c": "",
+        "n": "GPV-2",
+        "d": "2022-02-04",
+        "m1": "53.7",
+        "m2": "40.7"
+      },
+      {
+        "p": "[KRISP: Integrating Implicit and Symbolic Knowledge for Open-Domain Knowledge-Based VQA](https://arxiv.org/abs/2012.11014v1)",
+        "c": "",
+        "n": "KRISP",
+        "d": "2020-12-20",
+        "m1": "42.2",
+        "m2": "42.2"
+      },
+      {
+        "p": "[ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks](https://arxiv.org/abs/1908.02265v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/vilbert-multi-task)",
+        "n": "ViLBERT - VQA",
+        "d": "2019-08-06",
+        "m1": "42.1",
+        "m2": "12.0"
+      },
+      {
+        "p": "[LXMERT: Learning Cross-Modality Encoder Representations from Transformers](https://arxiv.org/abs/1908.07490v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "LXMERT",
+        "d": "2019-08-20",
+        "m1": "41.6",
+        "m2": "25.9"
+      },
+      {
+        "p": "[ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks](https://arxiv.org/abs/1908.02265v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/vilbert-multi-task)",
+        "n": "ViLBERT",
+        "d": "2019-08-06",
+        "m1": "41.5",
+        "m2": "25.9"
+      },
+      {
+        "p": "[Pythia v0.1: the Winning Entry to the VQA Challenge 2018](http://arxiv.org/abs/1807.09956v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/mmf)",
+        "n": "Pythia",
+        "d": "2018-07-26",
+        "m1": "40.1",
+        "m2": "21.9"
+      },
+      {
+        "p": "[ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks](https://arxiv.org/abs/1908.02265v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/vilbert-multi-task)",
+        "n": "ViLBERT - OK-VQA",
+        "d": "2019-08-06",
+        "m1": "34.1",
+        "m2": "9.2"
+      },
+      {
+        "p": "[A Simple Baseline for Knowledge-Based Visual Question Answering](https://arxiv.org/abs/2310.13570v2)",
+        "c": "",
+        "n": "A Simple Baseline for KB-VQA",
+        "d": "2023-10-20",
+        "m2": "57.5"
+      },
+      {
+        "p": "[VLC-BERT: Visual Question Answering with Contextualized Commonsense Knowledge](https://arxiv.org/abs/2210.13626v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/aditya10/vlc-bert)",
+        "n": "VLC-BERT",
+        "d": "2022-10-24",
+        "m2": "38.05"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "title": "image-colorization-on-nir2rgb-vcip-challange",
+  "task-hierarchy": [
+    "Image Colorization"
+  ],
+  "dataset-info": {
+    "link": "https://drive.google.com/file/d/1_iI8kaTbMuYnWGll5H294YTt78qcX5Lg/view?usp=sharing"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[ColorMamba: Towards High-quality NIR-to-RGB Spectral Translation with Mamba](https://arxiv.org/abs/2408.08087v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/alexyangxx/colormamba)",
+        "n": "ColorMamba",
+        "d": "2024-08-15",
+        "m1": "24.56"
+      },
+      {
+        "p": "[Cooperative Colorization: Exploring Latent Cross-Domain Priors for NIR Image Spectrum Translation](https://arxiv.org/abs/2308.03348v1)",
+        "c": "",
+        "n": "CoColor",
+        "d": "2023-08-07",
+        "m1": "23.54"
+      },
+      {
+        "p": "[Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks](https://arxiv.org/abs/1703.10593v7)",
+        "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+        "n": "CycleGAN",
+        "d": "2017-03-30",
+        "m1": "19.59"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

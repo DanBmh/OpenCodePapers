@@ -1,0 +1,64 @@
+{
+  "title": "visual-place-recognition-on-berlin-kudamm",
+  "task-hierarchy": [
+    "Visual Place Recognition"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Recall@1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[A Hierarchical Dual Model of Environment- and Place-Specific Utility for Visual Place Recognition](https://arxiv.org/abs/2107.02440v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Nik-V9/HEAPUtil)",
+        "n": "HEAPUtil",
+        "d": "2021-07-06",
+        "m1": "61.07"
+      },
+      {
+        "p": "[SuperGlue: Learning Feature Matching with Graph Neural Networks](https://arxiv.org/abs/1911.11763v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "SuperPoint & SuperGlue",
+        "d": "2019-11-26",
+        "m1": "59.64"
+      },
+      {
+        "p": "[From Coarse to Fine: Robust Hierarchical Localization at Large Scale](http://arxiv.org/abs/1812.03506v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/cvg/Hierarchical-Localization)",
+        "n": "HF-Net",
+        "d": "2018-12-09",
+        "m1": "46.78"
+      },
+      {
+        "p": "[NetVLAD: CNN architecture for weakly supervised place recognition](http://arxiv.org/abs/1511.07247v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/Relja/netvlad)",
+        "n": "NetVLAD",
+        "d": "2015-11-23",
+        "m1": "38.21"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

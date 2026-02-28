@@ -1,0 +1,84 @@
+{
+  "title": "image-super-resolution-on-celeba-hq-128x128",
+  "task-hierarchy": [
+    "Image Super-Resolution"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/tkarras/progressive_growing_of_gans"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Consistency",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Trustworthy Image Super-Resolution via Generative Pseudoinverse](https://arxiv.org/abs/2505.12375v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/andreasfloros/trustworthy-super-resolution)",
+        "n": "TSRGP",
+        "d": "2025-05-18",
+        "m1": "24.09",
+        "m2": "0.71",
+        "m3": "0.31"
+      },
+      {
+        "p": "[Implicit Diffusion Models for Continuous Super-Resolution](https://arxiv.org/abs/2303.16491v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ree1s/idm)",
+        "n": "IDM",
+        "d": "2023-03-29",
+        "m1": "24.01",
+        "m2": "0.71",
+        "m3": "2.14"
+      },
+      {
+        "p": "[Waving Goodbye to Low-Res: A Diffusion-Wavelet Approach for Image Super-Resolution](https://arxiv.org/abs/2304.01994v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/brian-moser/diwa)",
+        "n": "DiWa",
+        "d": "2023-04-04",
+        "m1": "23.34",
+        "m2": "0.67"
+      },
+      {
+        "p": "[Image Super-Resolution via Iterative Refinement](https://arxiv.org/abs/2104.07636v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Janspiry/Image-Super-Resolution-via-Iterative-Refinement)",
+        "n": "SR3",
+        "d": "2021-04-15",
+        "m1": "23.04",
+        "m2": "0.65",
+        "m3": "2.68"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

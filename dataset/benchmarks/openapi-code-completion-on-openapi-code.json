@@ -1,0 +1,94 @@
+{
+  "title": "openapi-code-completion-on-openapi-code",
+  "task-hierarchy": [
+    "OpenAPI code completion"
+  ],
+  "dataset-info": {
+    "link": "https://huggingface.co/datasets/BohdanPetryshyn/openapi-completion-refined"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Correctness, avg., %",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Correctness, max., %",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Validness, avg., %",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Validness, max., %",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Optimizing Large Language Models for OpenAPI Code Completion](https://arxiv.org/abs/2405.15729v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/BohdanPetryshyn/code-llama-fim-fine-tuning)",
+        "n": "Code Llama 7B, fine-tuned with document splitting",
+        "d": "2024-05-24",
+        "m1": "34",
+        "m2": "42",
+        "m3": "69.1",
+        "m4": "76"
+      },
+      {
+        "p": "[Optimizing Large Language Models for OpenAPI Code Completion](https://arxiv.org/abs/2405.15729v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/BohdanPetryshyn/code-llama-fim-fine-tuning)",
+        "n": "Code Llama 7B, fine-tuned at 4096 tokens",
+        "d": "2024-05-24",
+        "m1": "32",
+        "m2": "45",
+        "m3": "63.1",
+        "m4": "84"
+      },
+      {
+        "p": "[Optimizing Large Language Models for OpenAPI Code Completion](https://arxiv.org/abs/2405.15729v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/BohdanPetryshyn/code-llama-fim-fine-tuning)",
+        "n": "Code Llama 7B",
+        "d": "2024-05-24",
+        "m1": "31.1",
+        "m2": "36",
+        "m3": "60.7",
+        "m4": "64"
+      },
+      {
+        "p": "[Optimizing Large Language Models for OpenAPI Code Completion](https://arxiv.org/abs/2405.15729v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/BohdanPetryshyn/code-llama-fim-fine-tuning)",
+        "n": "GitHub Copilot",
+        "d": "2024-05-24",
+        "m1": "29",
+        "m2": "29",
+        "m3": "68",
+        "m4": "68"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "title": "image-relighting-on-vidit20-validation-set",
+  "task-hierarchy": [
+    "Image Enhancement",
+    "Image Relighting"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/majedelhelou/VIDIT"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "LPIPS",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "MPS",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Runtime(s)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Physically Inspired Dense Fusion Networks for Relighting](https://arxiv.org/abs/2105.02209v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/yazdaniamir38/Depth-guided-Image-Relighting)",
+        "n": "OIDDR-Net",
+        "d": "2021-05-05",
+        "m1": "17.62",
+        "m2": "0.6645",
+        "m3": "0.2733",
+        "m4": "0.6956",
+        "m5": "0.53"
+      },
+      {
+        "p": "[Deep Relighting Networks for Image Light Source Manipulation](https://arxiv.org/abs/2008.08298v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/WangLiwen1994/DeepRelight)",
+        "n": "DRN",
+        "d": "2020-08-19",
+        "m1": "17.59",
+        "m2": "0.596",
+        "m3": "0.440",
+        "m4": "0.578",
+        "m5": "0.5"
+      },
+      {
+        "p": "[WDRN : A Wavelet Decomposed RelightNet for Image Relighting](https://arxiv.org/abs/2009.06678v1)",
+        "c": "",
+        "n": "WDRN",
+        "d": "2020-09-14",
+        "m1": "17.45",
+        "m2": "0.6642",
+        "m3": "0.2771",
+        "m4": "0.6935",
+        "m5": "0.05"
+      },
+      {
+        "p": "[DSRN: an Efficient Deep Network for Image Relighting](https://arxiv.org/abs/2102.09242v2)",
+        "c": "",
+        "n": "DMSHN",
+        "d": "2021-02-18",
+        "m1": "17.20",
+        "m2": "0.5696",
+        "m3": "0.3712",
+        "m4": "0.5992",
+        "m5": "0.0058"
+      },
+      {
+        "p": "[Scale-recurrent Network for Deep Image Deblurring](http://arxiv.org/abs/1802.01770v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jiangsutx/SRN-Deblur)",
+        "n": "SRN",
+        "d": "2018-02-06",
+        "m1": "16.94",
+        "m2": "0.5660",
+        "m3": "0.4319",
+        "m4": "0.5670",
+        "m5": "0.87"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

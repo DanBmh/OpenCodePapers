@@ -1,0 +1,148 @@
+{
+  "title": "question-answering-on-trecqa",
+  "task-hierarchy": [
+    "Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://trec.nist.gov/data/qa.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MAP",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "MRR",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Structural Self-Supervised Objectives for Transformers](https://arxiv.org/abs/2309.08272v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/lucadiliello/transformers-framework)",
+        "n": "TANDA DeBERTa-V3-Large + ALL",
+        "d": "2023-09-15",
+        "m1": "0.954",
+        "m2": "0.984"
+      },
+      {
+        "p": "[TANDA: Transfer and Adapt Pre-Trained Transformer Models for Answer Sentence Selection](https://arxiv.org/abs/1911.04118v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/alexa/wqa_tanda)",
+        "n": "TANDA-RoBERTa (ASNQ, TREC-QA)",
+        "d": "2019-11-11",
+        "m1": "0.943",
+        "m2": "0.974"
+      },
+      {
+        "p": "[Pre-training Transformer Models with Sentence-Level Objectives for Answer Sentence Selection](https://arxiv.org/abs/2205.10455v2)",
+        "c": "",
+        "n": "DeBERTa-V3-Large + SSP",
+        "d": "2022-05-20",
+        "m1": "0.923",
+        "m2": "0.946"
+      },
+      {
+        "p": "[Context-Aware Transformer Pre-Training for Answer Sentence Selection](https://arxiv.org/abs/2305.15358v1)",
+        "c": "",
+        "n": "Contextual DeBERTa-V3-Large + SSP",
+        "d": "2023-05-24",
+        "m1": "0.919",
+        "m2": "0.945"
+      },
+      {
+        "p": "[RLAS-BIABC: A Reinforcement Learning-Based Answer Selection Using the BERT Model Boosted by an Improved ABC Algorithm](https://arxiv.org/abs/2301.02807v1)",
+        "c": "",
+        "n": "RLAS-BIABC",
+        "d": "2023-01-07",
+        "m1": "0.913",
+        "m2": "0.998"
+      },
+      {
+        "p": "[Paragraph-based Transformer Pre-training for Multi-Sentence Inference](https://arxiv.org/abs/2205.01228v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/amazon-research/wqa-multi-sentence-inference)",
+        "n": "RoBERTa-Base Joint + MSPP",
+        "d": "2022-05-02",
+        "m1": "0.911",
+        "m2": "0.952"
+      },
+      {
+        "p": "[Pre-training Transformer Models with Sentence-Level Objectives for Answer Sentence Selection](https://arxiv.org/abs/2205.10455v2)",
+        "c": "",
+        "n": "RoBERTa-Base + PSD",
+        "d": "2022-05-20",
+        "m1": "0.903",
+        "m2": "0.951"
+      },
+      {
+        "p": "[A Compare-Aggregate Model with Latent Clustering for Answer Selection](https://arxiv.org/abs/1905.12897v2)",
+        "c": "",
+        "n": "Comp-Clip + LM + LC",
+        "d": "2019-05-30",
+        "m1": "0.868",
+        "m2": "0.928"
+      },
+      {
+        "p": "[Towards Scalable and Reliable Capsule Networks for Challenging NLP Applications](https://arxiv.org/abs/1906.02829v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/andyweizhao/capsule_text_classification)",
+        "n": "NLP-Capsule",
+        "d": "2019-06-06",
+        "m1": "0.7773",
+        "m2": "0.7416"
+      },
+      {
+        "p": "[Hyperbolic Representation Learning for Fast and Efficient Neural Question Answering](http://arxiv.org/abs/1707.07847v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/vanzytay/WSDM2018_HyperQA)",
+        "n": "HyperQA",
+        "d": "2017-07-25",
+        "m1": "0.770",
+        "m2": "0.825"
+      },
+      {
+        "p": "[Pairwise Word Interaction Modeling with Deep Neural Networks for Semantic Similarity Measurement](https://aclanthology.org/N16-1108)",
+        "c": "",
+        "n": "PWIN",
+        "d": "2016-06-01",
+        "m1": "0.7588",
+        "m2": "0.8219"
+      },
+      {
+        "p": "[aNMM: Ranking Short Answer Texts with Attention-Based Neural Matching Model](https://arxiv.org/abs/1801.01641v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/yangliuy/aNMM-CIKM16)",
+        "n": "aNMM",
+        "d": "2018-01-05",
+        "m1": "0.750",
+        "m2": "0.811"
+      },
+      {
+        "p": "[Deep Learning for Answer Sentence Selection](http://arxiv.org/abs/1412.1632v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/brmson/dataset-sts)",
+        "n": "CNN",
+        "d": "2014-12-04",
+        "m1": "0.711",
+        "m2": "0.785"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

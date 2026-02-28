@@ -1,0 +1,359 @@
+{
+  "title": "3d-lane-detection-on-openlane",
+  "task-hierarchy": [
+    "Lane Detection",
+    "3D Lane Detection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/OpenDriveLab/OpenLane"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1 (all)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Up & Down",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Curve",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Extreme Weather",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Night",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "Intersection",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "Merge & Split",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "FPS (pytorch)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[GLane3D : Detecting Lanes with Graph of 3D Keypoints](https://arxiv.org/abs/2503.23882v1)",
+        "c": "",
+        "n": "GLane3D(Swin-B)",
+        "d": "2025-03-31",
+        "m1": "66.0",
+        "m2": "61.7",
+        "m3": "72.7",
+        "m4": "63.8",
+        "m5": "62.0",
+        "m6": "57.9",
+        "m7": "67.7"
+      },
+      {
+        "p": "[GLane3D : Detecting Lanes with Graph of 3D Keypoints](https://arxiv.org/abs/2503.23882v1)",
+        "c": "",
+        "n": "GLane3D(ResNet-50)",
+        "d": "2025-03-31",
+        "m1": "63.9",
+        "m2": "58.2",
+        "m3": "71.1",
+        "m4": "60.1",
+        "m5": "60.2",
+        "m6": "55.0",
+        "m7": "64.8"
+      },
+      {
+        "p": "[PVALane: Prior-Guided 3D Lane Detection with View-Agnostic Feature Alignment](https://ojs.aaai.org/index.php/AAAI/article/view/28592)",
+        "c": "",
+        "n": "PVALane (Swin-B)",
+        "d": "2024-03-24",
+        "m1": "63.4",
+        "m2": "56.1",
+        "m3": "67.7",
+        "m4": "64.0",
+        "m5": "58.6",
+        "m6": "53.6",
+        "m7": "60.8"
+      },
+      {
+        "p": "[PVALane: Prior-Guided 3D Lane Detection with View-Agnostic Feature Alignment](https://ojs.aaai.org/index.php/AAAI/article/view/28592)",
+        "c": "",
+        "n": "PVALane (ResNet-50)",
+        "d": "2024-03-24",
+        "m1": "62.7",
+        "m2": "54.1",
+        "m3": "67.3",
+        "m4": "62.0",
+        "m5": "57.2",
+        "m6": "53.4",
+        "m7": "60.0"
+      },
+      {
+        "p": "[LATR: 3D Lane Detection from Monocular Images with Transformer](https://arxiv.org/abs/2308.04583v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/jmoonr/latr)",
+        "n": "LATR",
+        "d": "2023-08-08",
+        "m1": "61.9",
+        "m2": "55.2",
+        "m3": "68.2",
+        "m4": "57.1",
+        "m5": "55.4",
+        "m6": "52.3",
+        "m7": "61.5"
+      },
+      {
+        "p": "[RepVF: A Unified Vector Fields Representation for Multi-task 3D Perception](https://arxiv.org/abs/2407.10876v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/jbji/repvf)",
+        "n": "RFTR (ResNet-50)",
+        "d": "2024-07-15",
+        "m1": "61.8",
+        "m2": "-",
+        "m3": "-",
+        "m4": "-",
+        "m5": "-",
+        "m6": "-",
+        "m7": "-"
+      },
+      {
+        "p": "[PVALane: Prior-Guided 3D Lane Detection with View-Agnostic Feature Alignment](https://ojs.aaai.org/index.php/AAAI/article/view/28592)",
+        "c": "",
+        "n": "PVALane (ResNet-18)",
+        "d": "2024-03-24",
+        "m1": "61.2",
+        "m2": "52.6",
+        "m3": "65.7",
+        "m4": "59.5",
+        "m5": "56.5",
+        "m6": "52.2",
+        "m7": "58.7"
+      },
+      {
+        "p": "[PETRv2: A Unified Framework for 3D Perception from Multi-Camera Images](https://arxiv.org/abs/2206.01256v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/megvii-research/petr)",
+        "n": "PETRv2-V∗ (VoVNetV2 with 400 anchor points)",
+        "d": "2022-06-02",
+        "m1": "61.2",
+        "m2": "-",
+        "m3": "-",
+        "m4": "-",
+        "m5": "-",
+        "m6": "-",
+        "m7": "-",
+        "m8": "-"
+      },
+      {
+        "p": "[LaneCPP: Continuous 3D Lane Detection using Physical Priors](https://arxiv.org/abs/2406.08381v1)",
+        "c": "",
+        "n": "LaneCPP",
+        "d": "2024-06-12",
+        "m1": "60.3",
+        "m2": "53.6",
+        "m3": "64.4",
+        "m4": "56.7",
+        "m5": "54.9",
+        "m6": "52.0",
+        "m7": "58.7"
+      },
+      {
+        "p": "[BEV-LaneDet: a Simple and Effective 3D Lane Detection Baseline](https://arxiv.org/abs/2210.06006v3)",
+        "c": "",
+        "n": "BEV-LaneDet",
+        "d": "2022-10-12",
+        "m1": "58.4",
+        "m2": "48.7",
+        "m3": "63.1",
+        "m4": "53.4",
+        "m5": "53.4",
+        "m6": "50.3",
+        "m7": "53.7",
+        "m8": "102"
+      },
+      {
+        "p": "[PETRv2: A Unified Framework for 3D Perception from Multi-Camera Images](https://arxiv.org/abs/2206.01256v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/megvii-research/petr)",
+        "n": "PETRv2-V (VoVNetV2)",
+        "d": "2022-06-02",
+        "m1": "57.8",
+        "m2": "-",
+        "m3": "-",
+        "m4": "-",
+        "m5": "-",
+        "m6": "-",
+        "m7": "-",
+        "m8": "-"
+      },
+      {
+        "p": "[M$^2$-3DLaneNet: Exploring Multi-Modal 3D Lane Detection](https://arxiv.org/abs/2209.05996v3)",
+        "c": "",
+        "n": "M^2-3DLaneNet (Camera + Lidar)",
+        "d": "2022-09-13",
+        "m1": "55.5",
+        "m2": "53.4",
+        "m3": "60.7",
+        "m4": "56.2",
+        "m5": "51.6",
+        "m6": "43.8",
+        "m7": "51.4",
+        "m8": "-"
+      },
+      {
+        "p": "[Anchor3DLane: Learning to Regress 3D Anchors for Monocular 3D Lane Detection](https://arxiv.org/abs/2301.02371v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/tusen-ai/anchor3dlane)",
+        "n": "Anchor3DLane-T† (multi-frame + iterative regression)",
+        "d": "2023-01-06",
+        "m1": "54.3",
+        "m2": "47.2",
+        "m3": "58.0",
+        "m4": "52.7",
+        "m5": "48.7",
+        "m6": "45.8",
+        "m7": "51.7",
+        "m8": "-"
+      },
+      {
+        "p": "[Anchor3DLane: Learning to Regress 3D Anchors for Monocular 3D Lane Detection](https://arxiv.org/abs/2301.02371v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/tusen-ai/anchor3dlane)",
+        "n": "Anchor3DLane† (iterative regression)",
+        "d": "2023-01-06",
+        "m1": "53.7",
+        "m2": "46.7",
+        "m3": "57.2",
+        "m4": "52.5",
+        "m5": "47.8",
+        "m6": "45.4",
+        "m7": "51.2"
+      },
+      {
+        "p": "[Anchor3DLane: Learning to Regress 3D Anchors for Monocular 3D Lane Detection](https://arxiv.org/abs/2301.02371v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/tusen-ai/anchor3dlane)",
+        "n": "Anchor3DLane (ResNet-18)",
+        "d": "2023-01-06",
+        "m1": "53.1",
+        "m2": "45.5",
+        "m3": "56.2",
+        "m4": "51.9 ",
+        "m5": "47.2",
+        "m6": "44.2",
+        "m7": "50.5"
+      },
+      {
+        "p": "[PersFormer: 3D Lane Detection via Perspective Transformer and the OpenLane Benchmark](https://arxiv.org/abs/2203.11089v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/OpenDriveLab/OpenLane)",
+        "n": "PersFormer (version 1.2)",
+        "d": "2022-03-21",
+        "m1": "52.9",
+        "m2": "47.5",
+        "m3": "58.4",
+        "m4": "51.8",
+        "m5": "47.4",
+        "m6": "42.1",
+        "m7": "50.9",
+        "m8": "-"
+      },
+      {
+        "p": "[PETRv2: A Unified Framework for 3D Perception from Multi-Camera Images](https://arxiv.org/abs/2206.01256v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/megvii-research/petr)",
+        "n": "PETRv2-E (EfficientNet)",
+        "d": "2022-06-02",
+        "m1": "51.9",
+        "m2": "-",
+        "m3": "-",
+        "m4": "-",
+        "m5": "-",
+        "m6": "-",
+        "m7": "-",
+        "m8": "-"
+      },
+      {
+        "p": "[PersFormer: 3D Lane Detection via Perspective Transformer and the OpenLane Benchmark](https://arxiv.org/abs/2203.11089v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/OpenDriveLab/OpenLane)",
+        "n": "PersFormer (version 1.1)",
+        "d": "2022-03-21",
+        "m1": "50.5",
+        "m2": "45.6",
+        "m3": "58.7",
+        "m4": "54.0",
+        "m5": "50.0",
+        "m6": "41.6",
+        "m7": "53.1",
+        "m8": "-"
+      },
+      {
+        "p": "[CurveFormer: 3D Lane Detection by Curve Propagation with Curve Queries and Attention](https://arxiv.org/abs/2209.07989v2)",
+        "c": "",
+        "n": "CurveFormer",
+        "d": "2022-09-16",
+        "m1": "50.5",
+        "m2": "45.2",
+        "m3": "56.6",
+        "m4": "49.7",
+        "m5": "49.1",
+        "m6": "42.9",
+        "m7": "45.4",
+        "m8": "-"
+      },
+      {
+        "p": "[3D-LaneNet: End-to-End 3D Multiple Lane Detection](https://arxiv.org/abs/1811.10203v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/yuliangguo/Pytorch_Generalized_3D_Lane_Detection)",
+        "n": "3D-LaneNet",
+        "d": "2018-11-26",
+        "m1": "44.1",
+        "m2": "40.8",
+        "m3": "46.5",
+        "m4": "47.5",
+        "m5": "41.5",
+        "m6": "32.1",
+        "m7": "41.7",
+        "m8": "-"
+      },
+      {
+        "p": "[Gen-LaneNet: A Generalized and Scalable Approach for 3D Lane Detection](https://arxiv.org/abs/2003.10656v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/yuliangguo/Pytorch_Generalized_3D_Lane_Detection)",
+        "n": "Gen-LaneNet",
+        "d": "2020-03-24",
+        "m1": "32.3",
+        "m2": "25.4",
+        "m3": "33.5",
+        "m4": "28.1",
+        "m5": "18.7",
+        "m6": "21.4",
+        "m7": "31.0",
+        "m8": "-"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

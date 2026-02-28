@@ -1,0 +1,103 @@
+{
+  "title": "3d-semantic-scene-completion-from-a-single-1",
+  "task-hierarchy": [
+    "Single-View 3D Reconstruction",
+    "3D Semantic Scene Completion from a single RGB image"
+  ],
+  "dataset-info": {
+    "link": "http://www.semantic-kitti.org/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Context and Geometry Aware Voxel Transformer for Semantic Scene Completion](https://arxiv.org/abs/2405.13675v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/pkqbajng/cgformer)",
+        "n": "CGFormer",
+        "d": "2024-05-22",
+        "m1": "16.63"
+      },
+      {
+        "p": "[Symphonize 3D Semantic Scene Completion with Contextual Instance Queries](https://arxiv.org/abs/2306.15670v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/hustvl/symphonies)",
+        "n": "Symphonies",
+        "d": "2023-06-27",
+        "m1": "15.04"
+      },
+      {
+        "p": "[NDC-Scene: Boost Monocular 3D Semantic Scene Completion in Normalized Device Coordinates Space](https://arxiv.org/abs/2309.14616v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/Jiawei-Yao0812/NDCScene)",
+        "n": "NDC-Scene",
+        "d": "2023-09-26",
+        "m1": "12.58"
+      },
+      {
+        "p": "[OccFormer: Dual-path Transformer for Vision-based 3D Semantic Occupancy Prediction](https://arxiv.org/abs/2304.05316v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/zhangyp15/occformer)",
+        "n": "OccFormer",
+        "d": "2023-04-11",
+        "m1": "12.32"
+      },
+      {
+        "p": "[VoxFormer: Sparse Voxel Transformer for Camera-based 3D Semantic Scene Completion](https://arxiv.org/abs/2302.12251v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/nvlabs/voxformer)",
+        "n": "VoxFormer",
+        "d": "2023-02-23",
+        "m1": "12.20"
+      },
+      {
+        "p": "[MonoScene: Monocular 3D Semantic Scene Completion](https://arxiv.org/abs/2112.00726v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/astra-vision/monoscene)",
+        "n": "MonoScene",
+        "d": "2021-12-01",
+        "m1": "11.08"
+      },
+      {
+        "p": "[Sparse Single Sweep LiDAR Point Cloud Segmentation via Learning Contextual Shape Priors from Scene Completion](https://arxiv.org/abs/2012.03762v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/yanx27/JS3C-Net)",
+        "n": "JS3C-Net (rgb input - reported in MonoScene paper)",
+        "d": "2020-12-07",
+        "m1": "8.97"
+      },
+      {
+        "p": "[LMSCNet: Lightweight Multiscale 3D Semantic Completion](https://arxiv.org/abs/2008.10559v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/astra-vision/lmscnet)",
+        "n": "LMSCNet (rgb input - reported in MonoScene paper)",
+        "d": "2020-08-24",
+        "m1": "7.09"
+      },
+      {
+        "p": "[3D Sketch-aware Semantic Scene Completion via Semi-supervised Structure Prior](https://arxiv.org/abs/2003.14052v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/charlesCXK/3D-SketchAware-SSC)",
+        "n": "3DSketch (rgb input - reported in MonoScene paper)",
+        "d": "2020-03-31",
+        "m1": "6.23"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

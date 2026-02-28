@@ -1,0 +1,64 @@
+{
+  "title": "instance-segmentation-on-coco-val-panoptic",
+  "task-hierarchy": [
+    "Instance Segmentation"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[OneFormer: One Transformer to Rule Universal Image Segmentation](https://arxiv.org/abs/2211.06220v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "OneFormer (InternImage-H, emb_dim=1024, single-scale)",
+        "d": "2022-11-10",
+        "m1": "52.0"
+      },
+      {
+        "p": "[OneFormer: One Transformer to Rule Universal Image Segmentation](https://arxiv.org/abs/2211.06220v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "OneFormer (DiNAT-L, single-scale)",
+        "d": "2022-11-10",
+        "m1": "49.2"
+      },
+      {
+        "p": "[Masked-attention Mask Transformer for Universal Image Segmentation](https://arxiv.org/abs/2112.01527v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "Mask2Former (Swin-L, single-scale)",
+        "d": "2021-12-02",
+        "m1": "49.1"
+      },
+      {
+        "p": "[OneFormer: One Transformer to Rule Universal Image Segmentation](https://arxiv.org/abs/2211.06220v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "OneFormer (Swin-L, single-scale)",
+        "d": "2022-11-10",
+        "m1": "49.0"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

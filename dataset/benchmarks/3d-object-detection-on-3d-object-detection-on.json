@@ -1,0 +1,58 @@
+{
+  "title": "3d-object-detection-on-3d-object-detection-on",
+  "task-hierarchy": [
+    "Object Detection",
+    "3D Object Detection"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Average mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Far3D: Expanding the Horizon for Surround-view 3D Object Detection](https://arxiv.org/abs/2308.09616v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/megvii-research/far3d)",
+        "n": "Far3D",
+        "d": "2023-08-18",
+        "m1": "24.4"
+      },
+      {
+        "p": "[Exploring Object-Centric Temporal Modeling for Efficient Multi-View 3D Object Detection](https://arxiv.org/abs/2303.11926v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/exiawsh/streampetr)",
+        "n": "StreamPETR",
+        "d": "2023-03-21",
+        "m1": "20.3"
+      },
+      {
+        "p": "[PETR: Position Embedding Transformation for Multi-View 3D Object Detection](https://arxiv.org/abs/2203.05625v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/megvii-research/petr)",
+        "n": "PETR",
+        "d": "2022-03-10",
+        "m1": "17.6"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

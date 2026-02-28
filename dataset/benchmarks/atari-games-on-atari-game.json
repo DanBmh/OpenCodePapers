@@ -1,0 +1,100 @@
+{
+  "title": "atari-games-on-atari-game",
+  "task-hierarchy": [
+    "Video Games",
+    "Atari Games"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Human World Record Breakthrough",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Generalized Data Distribution Iteration](https://arxiv.org/abs/2206.03192v4)",
+        "c": "",
+        "n": "GDI-H3",
+        "d": "2022-06-07",
+        "m1": "22"
+      },
+      {
+        "p": "[Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model](https://arxiv.org/abs/1911.08265v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/werner-duvaud/muzero-general)",
+        "n": "Muzero",
+        "d": "2019-11-19",
+        "m1": "19"
+      },
+      {
+        "p": "[Agent57: Outperforming the Atari Human Benchmark](https://arxiv.org/abs/2003.13350v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/michaelnny/deep_rl_zoo)",
+        "n": "Agent57",
+        "d": "2020-03-30",
+        "m1": "18"
+      },
+      {
+        "p": "[Go-Explore: a New Approach for Hard-Exploration Problems](https://arxiv.org/abs/1901.10995v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/uber-research/go-explore)",
+        "n": "Go-Explore",
+        "d": "2019-01-30",
+        "m1": "17"
+      },
+      {
+        "p": "[Generalized Data Distribution Iteration](https://arxiv.org/abs/2206.03192v4)",
+        "c": "",
+        "n": "GDI-I3",
+        "d": "2022-06-07",
+        "m1": "17"
+      },
+      {
+        "p": "[Recurrent Experience Replay in Distributed Reinforcement Learning](https://openreview.net/forum?id=r1lyTjAqYX)",
+        "c": "[&check;&nbsp;Link](https://github.com/opendilab/DI-engine/blob/main/ding/policy/r2d2.py)",
+        "n": "R2D2",
+        "d": "2019-05-01",
+        "m1": "15"
+      },
+      {
+        "p": "[Never Give Up: Learning Directed Exploration Strategies](https://arxiv.org/abs/2002.06038v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/opendilab/DI-engine)",
+        "n": "NGU",
+        "d": "2020-02-14",
+        "m1": "8"
+      },
+      {
+        "p": "[Muesli: Combining Improvements in Policy Optimization](https://arxiv.org/abs/2104.06159v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/YuriCat/MuesliJupyterExample)",
+        "n": "Muesli",
+        "d": "2021-04-13",
+        "m1": "5"
+      },
+      {
+        "p": "[Rainbow: Combining Improvements in Deep Reinforcement Learning](http://arxiv.org/abs/1710.02298v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/thu-ml/tianshou)",
+        "n": "Rainbow",
+        "d": "2017-10-06",
+        "m1": "4"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "title": "graph-property-prediction-on-ogbg-code2",
+  "task-hierarchy": [
+    "Graph Property Prediction"
+  ],
+  "dataset-info": {
+    "link": "https://ogb.stanford.edu/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Test F1 score",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Ext. data",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Validation F1 score",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Number of params",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Transformers Meet Directed Graphs](https://arxiv.org/abs/2302.00049v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/deepmind/digraph_transformer)",
+        "n": "SAT++ with Magnetic Laplacian",
+        "d": "2023-01-31",
+        "m1": "0.2222 ± 0.0010",
+        "m2": "No",
+        "m3": "0.2044 ± 0.0020",
+        "m4": "14378069"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "SAT++ with Magnetic Laplacian",
+        "d": null,
+        "m1": "0.2222 ± 0.0032",
+        "m2": "No",
+        "m3": "0.2044 ± 0.0020",
+        "m4": "14378069"
+      },
+      {
+        "p": "[Transformers over Directed Acyclic Graphs](https://arxiv.org/abs/2210.13148v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/LUOyk1999/DAGformer)",
+        "n": "DAGformer",
+        "d": "2022-10-24",
+        "m1": "0.2018 ± 0.0021",
+        "m2": "No",
+        "m3": "0.1846 ± 0.0010",
+        "m4": "14952882"
+      },
+      {
+        "p": "[Structure-Aware Transformer for Graph Representation Learning](https://arxiv.org/abs/2202.03036v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/BorgwardtLab/SAT)",
+        "n": "SAT",
+        "d": "2022-02-07",
+        "m1": "0.1937 ± 0.0028",
+        "m2": "No",
+        "m3": "0.1773 ± 0.0023",
+        "m4": "15734000"
+      },
+      {
+        "p": "[Unlocking the Potential of Classic GNNs for Graph-level Tasks: Simple Architectures Meet Excellence](https://arxiv.org/abs/2502.09263v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/LUOyk1999/GNNPlus)",
+        "n": "GatedGCN+",
+        "d": "2025-02-13",
+        "m1": "0.1896 ± 0.0024",
+        "m3": "0.1742 ± 0.0027"
+      },
+      {
+        "p": "[Recipe for a General, Powerful, Scalable Graph Transformer](https://arxiv.org/abs/2205.12454v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/rampasek/GraphGPS)",
+        "n": "GPS",
+        "d": "2022-05-25",
+        "m1": "0.1894",
+        "m2": "No",
+        "m3": "0.1739 ± 0.001",
+        "m4": "12454066"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "GraphTrans (GCN-Virtual)",
+        "d": null,
+        "m1": "0.1830 ± 0.0024",
+        "m2": "No",
+        "m3": "0.1661 ± 0.0012",
+        "m4": "9053246"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "GMAN+bag of tricks",
+        "d": null,
+        "m1": "0.1770 ± 0.0012",
+        "m2": "No",
+        "m3": "0.1631 ± 0.0090",
+        "m4": "63684290"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "DAGNN",
+        "d": null,
+        "m1": "0.1751 ± 0.0049",
+        "m2": "No",
+        "m3": "0.1607 ± 0.0040",
+        "m4": "35246814"
+      },
+      {
+        "p": "[Directed Acyclic Graph Neural Networks](https://arxiv.org/abs/2101.07965v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/vthost/DAGNN)",
+        "n": "DAGNN",
+        "d": "2021-01-20",
+        "m1": "0.1751 ± 0.0049",
+        "m3": "0.1607 ± 0.0040"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "GraphTrans (GCN)",
+        "d": null,
+        "m1": "0.1751 ± 0.0015",
+        "m2": "No",
+        "m3": "0.1599 ± 0.0009",
+        "m4": "7563746"
+      },
+      {
+        "p": "[Do We Need Anisotropic Graph Neural Networks?](https://arxiv.org/abs/2104.01481v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/pyg-team/pytorch_geometric)",
+        "n": "EGC-M (No Edge Features)",
+        "d": "2021-04-03",
+        "m1": "0.1595 ± 0.0019",
+        "m2": "No",
+        "m3": "0.1464 ± 0.0021",
+        "m4": "10986002"
+      },
+      {
+        "p": "[Semi-Supervised Classification with Graph Convolutional Networks](http://arxiv.org/abs/1609.02907v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/mxnet/gcn)",
+        "n": "GCN+virtual node",
+        "d": "2016-09-09",
+        "m1": "0.1595 ± 0.0018",
+        "m2": "No",
+        "m3": "0.1461 ± 0.0013",
+        "m4": "12484310"
+      },
+      {
+        "p": "[How Powerful are Graph Neural Networks?](http://arxiv.org/abs/1810.00826v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/mxnet/gin)",
+        "n": "GIN+virtual node",
+        "d": "2018-10-01",
+        "m1": "0.1581 ± 0.0026",
+        "m2": "No",
+        "m3": "0.1439 ± 0.0020",
+        "m4": "13841815"
+      },
+      {
+        "p": "[Do We Need Anisotropic Graph Neural Networks?](https://arxiv.org/abs/2104.01481v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/pyg-team/pytorch_geometric)",
+        "n": "PNA (No Edge Features)",
+        "d": "2021-04-03",
+        "m1": "0.1570 ± 0.0032",
+        "m2": "No",
+        "m3": "0.1453 ± 0.0025",
+        "m4": "10992050"
+      },
+      {
+        "p": "[Graph Attention Networks](http://arxiv.org/abs/1710.10903v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+        "n": "GAT",
+        "d": "2017-10-30",
+        "m1": "0.1569 ± 0.0010",
+        "m2": "No",
+        "m3": "0.1442 ± 0.0017",
+        "m4": "11030210"
+      },
+      {
+        "p": "[Do We Need Anisotropic Graph Neural Networks?](https://arxiv.org/abs/2104.01481v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/pyg-team/pytorch_geometric)",
+        "n": "MPNN-Max (No Edge Features)",
+        "d": "2021-04-03",
+        "m1": "0.1552 ± 0.0022",
+        "m2": "No",
+        "m3": "0.1441 ± 0.0016",
+        "m4": "10971506"
+      },
+      {
+        "p": "[Do We Need Anisotropic Graph Neural Networks?](https://arxiv.org/abs/2104.01481v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/pyg-team/pytorch_geometric)",
+        "n": "EGC-S (No Edge Features)",
+        "d": "2021-04-03",
+        "m1": "0.1528 ± 0.0025",
+        "m2": "No",
+        "m3": "0.1427 ± 0.0020",
+        "m4": "11156530"
+      },
+      {
+        "p": "[Semi-Supervised Classification with Graph Convolutional Networks](http://arxiv.org/abs/1609.02907v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/mxnet/gcn)",
+        "n": "GCN",
+        "d": "2016-09-09",
+        "m1": "0.1507 ± 0.0018",
+        "m2": "No",
+        "m3": "0.1399 ± 0.0017",
+        "m4": "11033210"
+      },
+      {
+        "p": "[How Powerful are Graph Neural Networks?](http://arxiv.org/abs/1810.00826v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/mxnet/gin)",
+        "n": "GIN",
+        "d": "2018-10-01",
+        "m1": "0.1495 ± 0.0023",
+        "m2": "No",
+        "m3": "0.1376 ± 0.0016",
+        "m4": "12390715"
+      },
+      {
+        "p": "[Hierarchical Graph Representation Learning with Differentiable Pooling](http://arxiv.org/abs/1806.08804v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/diffpool)",
+        "n": "DiffPool w/ graphSAGE",
+        "d": "2018-06-22",
+        "m1": "0.1401 ± 0.0012",
+        "m2": "No",
+        "m3": "0.1405 ± 0.0012",
+        "m4": "10095826"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

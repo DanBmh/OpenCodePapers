@@ -1,0 +1,102 @@
+{
+  "title": "open-information-extraction-on-lsoie",
+  "task-hierarchy": [
+    "Open Information Extraction"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/Jacobsolawetz/large-scale-oie"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[DetIE: Multilingual Open Information Extraction Inspired by Object Detection](https://arxiv.org/abs/2206.12514v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/sberbank-ai/DetIE)",
+        "n": "DetIELSOIE",
+        "d": "2022-06-24",
+        "m1": "71.4"
+      },
+      {
+        "p": "[DetIE: Multilingual Open Information Extraction Inspired by Object Detection](https://arxiv.org/abs/2206.12514v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/sberbank-ai/DetIE)",
+        "n": "CIGL-OIE",
+        "d": "2022-06-24",
+        "m1": "59.7"
+      },
+      {
+        "p": "[DetIE: Multilingual Open Information Extraction Inspired by Object Detection](https://arxiv.org/abs/2206.12514v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/sberbank-ai/DetIE)",
+        "n": "DetIELSOIE + IGL-CA",
+        "d": "2022-06-24",
+        "m1": "58.7"
+      },
+      {
+        "p": "[DetIE: Multilingual Open Information Extraction Inspired by Object Detection](https://arxiv.org/abs/2206.12514v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/sberbank-ai/DetIE)",
+        "n": "DetIEIMoJIE",
+        "d": "2022-06-24",
+        "m1": "55.7"
+      },
+      {
+        "p": "[DetIE: Multilingual Open Information Extraction Inspired by Object Detection](https://arxiv.org/abs/2206.12514v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/sberbank-ai/DetIE)",
+        "n": "OpenIE4",
+        "d": "2022-06-24",
+        "m1": "54.6"
+      },
+      {
+        "p": "[DetIE: Multilingual Open Information Extraction Inspired by Object Detection](https://arxiv.org/abs/2206.12514v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/sberbank-ai/DetIE)",
+        "n": "OpenIE6 (CIGL-OIE + IGL-CA)",
+        "d": "2022-06-24",
+        "m1": "51.6"
+      },
+      {
+        "p": "[DetIE: Multilingual Open Information Extraction Inspired by Object Detection](https://arxiv.org/abs/2206.12514v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/sberbank-ai/DetIE)",
+        "n": "OpenIE5",
+        "d": "2022-06-24",
+        "m1": "49.5"
+      },
+      {
+        "p": "[DetIE: Multilingual Open Information Extraction Inspired by Object Detection](https://arxiv.org/abs/2206.12514v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/sberbank-ai/DetIE)",
+        "n": "DetIEIMoJIE (ours) + IGL-CA",
+        "d": "2022-06-24",
+        "m1": "45.9"
+      },
+      {
+        "p": "[DetIE: Multilingual Open Information Extraction Inspired by Object Detection](https://arxiv.org/abs/2206.12514v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/sberbank-ai/DetIE)",
+        "n": "OllIE Mausam et al. (2012)",
+        "d": "2022-06-24",
+        "m1": "36.8"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

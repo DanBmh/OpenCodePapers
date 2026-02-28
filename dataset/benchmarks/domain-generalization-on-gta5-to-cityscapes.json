@@ -1,0 +1,92 @@
+{
+  "title": "domain-generalization-on-gta5-to-cityscapes",
+  "task-hierarchy": [
+    "Domain Generalization"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Textual Query-Driven Mask Transformer for Domain Generalized Segmentation](https://arxiv.org/abs/2407.09033v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ByeongHyunPak/tqdm)",
+        "n": "tqdm (EVA02-CLIP-L)",
+        "d": "2024-07-12",
+        "m1": "68.88"
+      },
+      {
+        "p": "[Domain Generalization through Attenuation of Domain-Specific Information](https://arxiv.org/abs/2504.06781v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ReijiSoftmaxSaito/ADSI)",
+        "n": "ADSI",
+        "d": "2025-04-09",
+        "m1": "67.75"
+      },
+      {
+        "p": "[Stronger, Fewer, & Superior: Harnessing Vision Foundation Models for Domain Generalized Semantic Segmentation](https://arxiv.org/abs/2312.04265v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/w1oves/rein)",
+        "n": "Rein",
+        "d": "2023-12-07",
+        "m1": "66.4"
+      },
+      {
+        "p": "[Strong but simple: A Baseline for Domain Generalized Dense Perception by CLIP-based Transfer Learning](https://arxiv.org/abs/2312.02021v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/VLTSeg/VLTSeg)",
+        "n": "VLTSeg (EVA02-CLIP-L)",
+        "d": "2023-12-04",
+        "m1": "65.6"
+      },
+      {
+        "p": "[Diffusion Features to Bridge Domain Gap for Semantic Segmentation](https://arxiv.org/abs/2406.00777v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Yux1angJi/DIFF)",
+        "n": "DIFF",
+        "d": "2024-06-02",
+        "m1": "58.01"
+      },
+      {
+        "p": "[Learning Content-enhanced Mask Transformer for Domain Generalized Urban-Scene Segmentation](https://arxiv.org/abs/2307.00371v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/BiQiWHU/CMFormer)",
+        "n": "CMFormer",
+        "d": "2023-07-01",
+        "m1": "55.31"
+      },
+      {
+        "p": "[Semantic Self-adaptation: Enhancing Generalization with a Single Sample](https://arxiv.org/abs/2208.05788v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/visinf/self-adaptive)",
+        "n": "Self-adaptation (ResNet - 101)",
+        "d": "2022-08-10",
+        "m1": "46.99"
+      },
+      {
+        "p": "[Generalize then Adapt: Source-Free Domain Adaptive Semantic Segmentation](https://arxiv.org/abs/2108.11249v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/val-iisc/SFDA-Seg)",
+        "n": "GtA-SFDA Source-Only (DeepLabv2-ResNet101)",
+        "d": "2021-08-25",
+        "m1": "43.5"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

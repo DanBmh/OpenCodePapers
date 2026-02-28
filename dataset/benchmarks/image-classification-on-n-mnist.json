@@ -1,0 +1,67 @@
+{
+  "title": "image-classification-on-n-mnist",
+  "task-hierarchy": [
+    "Image Classification"
+  ],
+  "dataset-info": {
+    "link": "https://www.garrickorchard.com/datasets/n-mnist"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Convolutional Spiking Neural Networks for Spatio-Temporal Feature Extraction](https://arxiv.org/abs/2003.12346v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/aa-samad/conv_snn)",
+        "n": "STS-ResNet",
+        "d": "2020-03-27",
+        "m1": "99.6"
+      },
+      {
+        "p": "[Sneaky Spikes: Uncovering Stealthy Backdoor Attacks in Spiking Neural Networks with Neuromorphic Data](https://arxiv.org/abs/2302.06279v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/GorkaAbad/Sneaky-Spikes)",
+        "n": "SNN",
+        "d": "2023-02-13",
+        "m1": "99.4"
+      },
+      {
+        "p": "[Robust and accelerated single-spike spiking neural network training with applicability to challenging temporal tasks](https://arxiv.org/abs/2205.15286v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/webstorms/fastsnn)",
+        "n": "FastSNN",
+        "d": "2022-05-30",
+        "m1": "95.91"
+      },
+      {
+        "p": "[Sparse Spiking Gradient Descent](https://arxiv.org/abs/2105.08810v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/npvoid/SparseSpikingBackprop)",
+        "n": "Sparse Spiking Gradient Descent",
+        "d": "2021-05-18",
+        "m1": "92.7"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

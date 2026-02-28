@@ -1,0 +1,103 @@
+{
+  "title": "emotion-recognition-in-context-on-emotic",
+  "task-hierarchy": [
+    "Emotion Recognition",
+    "Emotion Recognition in Context"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/rkosti/emotic"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[VLLMs Provide Better Context for Emotion Understanding Through Common Sense Reasoning](https://arxiv.org/abs/2404.07078v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/nickyfot/emocommonsense)",
+        "n": "A. Xenos et al",
+        "d": "2024-04-10",
+        "m1": "38.52"
+      },
+      {
+        "p": "[EmotiCon: Context-Aware Multimodal Emotion Recognition using Frege's Principle](https://arxiv.org/abs/2003.06692v1)",
+        "c": "",
+        "n": "EmotiCon (Depth-based)",
+        "d": "2020-03-14",
+        "m1": "35.48"
+      },
+      {
+        "p": "[Learning Emotion Representations from Verbal and Nonverbal Communication](https://arxiv.org/abs/2305.13500v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/xeaver/emotionclip)",
+        "n": "EmotionCLIP(linear-probe evaluation)",
+        "d": "2023-05-22",
+        "m1": "32.91"
+      },
+      {
+        "p": "[EmotiCon: Context-Aware Multimodal Emotion Recognition using Frege's Principle](https://arxiv.org/abs/2003.06692v1)",
+        "c": "",
+        "n": "EmotiCon (GCN)",
+        "d": "2020-03-14",
+        "m1": "32.03"
+      },
+      {
+        "p": "[Context Based Emotion Recognition using EMOTIC Dataset](https://arxiv.org/abs/2003.13401v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Tandon-A/emotic)",
+        "n": "Fusion Model (scene sentiment + body features)",
+        "d": "2020-03-30",
+        "m1": "29.45"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Affective Graph (GCN)",
+        "d": null,
+        "m1": "28.42"
+      },
+      {
+        "p": "[Context Based Emotion Recognition using EMOTIC Dataset](https://arxiv.org/abs/2003.13401v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Tandon-A/emotic)",
+        "n": "Fusion Model (scene + body features)",
+        "d": "2020-03-30",
+        "m1": "27.70"
+      },
+      {
+        "p": "[Context Based Emotion Recognition using EMOTIC Dataset](https://arxiv.org/abs/2003.13401v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Tandon-A/emotic)",
+        "n": "Fusion Model",
+        "d": "2020-03-30",
+        "m1": "27.38"
+      },
+      {
+        "p": "[Context-Aware Emotion Recognition Networks](https://arxiv.org/abs/1908.05913v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ankurbhatia24/MULTIMODAL-EMOTION-RECOGNITION)",
+        "n": "CAER-Net (Adaptive Fusion)",
+        "d": "2019-08-16",
+        "m1": "20.84"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

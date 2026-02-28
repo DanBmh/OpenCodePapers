@@ -1,0 +1,79 @@
+{
+  "title": "few-shot-image-classification-on-mini-8",
+  "task-hierarchy": [
+    "Image Classification",
+    "Few-Shot Image Classification"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Transductive Information Maximization For Few-Shot Learning](https://arxiv.org/abs/2008.11297v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/sicara/easy-few-shot-learning)",
+        "n": "TIM-GD",
+        "d": "2020-08-25",
+        "m1": "59.5"
+      },
+      {
+        "p": "[RelationNet2: Deep Comparison Columns for Few-Shot Learning](https://arxiv.org/abs/1811.07100v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/zhangxueting/DCN)",
+        "n": "Deep Comparison Network",
+        "d": "2018-11-17",
+        "m1": "47.31"
+      },
+      {
+        "p": "[Meta-SGD: Learning to Learn Quickly for Few-Shot Learning](http://arxiv.org/abs/1707.09835v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/learnables/learn2learn)",
+        "n": "Meta SGD",
+        "d": "2017-07-31",
+        "m1": "28.92"
+      },
+      {
+        "p": "[Meta-SGD: Learning to Learn Quickly for Few-Shot Learning](http://arxiv.org/abs/1707.09835v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/learnables/learn2learn)",
+        "n": "Meta LSTM, (from )",
+        "d": "2017-07-31",
+        "m1": "26.06"
+      },
+      {
+        "p": "[Meta-SGD: Learning to Learn Quickly for Few-Shot Learning](http://arxiv.org/abs/1707.09835v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/learnables/learn2learn)",
+        "n": "Matching Nets, (from )",
+        "d": "2017-07-31",
+        "m1": "22.69"
+      },
+      {
+        "p": "[Meta-SGD: Learning to Learn Quickly for Few-Shot Learning](http://arxiv.org/abs/1707.09835v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/learnables/learn2learn)",
+        "n": "MAML, (from )",
+        "d": "2017-07-31",
+        "m1": "19.29"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

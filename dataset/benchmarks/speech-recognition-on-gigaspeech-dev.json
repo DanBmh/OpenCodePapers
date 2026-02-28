@@ -1,0 +1,74 @@
+{
+  "title": "speech-recognition-on-gigaspeech-dev",
+  "task-hierarchy": [
+    "Speech Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/SpeechColab/GigaSpeech"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Word Error Rate (WER)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Samba-ASR: State-Of-The-Art Speech Recognition Leveraging Structured State-Space Models](https://arxiv.org/abs/2501.02832v3)",
+        "c": "",
+        "n": "SAMBA ASR",
+        "d": "2025-01-06",
+        "m1": "9.12"
+      },
+      {
+        "p": "[CR-CTC: Consistency regularization on CTC for improved speech recognition](https://arxiv.org/abs/2410.05101v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/k2-fsa/icefall)",
+        "n": "Zipformer+pruned transducer w/ CR-CTC\n(no external language model)",
+        "d": "2024-10-07",
+        "m1": "9.95"
+      },
+      {
+        "p": "[CR-CTC: Consistency regularization on CTC for improved speech recognition](https://arxiv.org/abs/2410.05101v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/k2-fsa/icefall)",
+        "n": "Zipformer+pruned transducer\n(no external language model)",
+        "d": "2024-10-07",
+        "m1": "10.09"
+      },
+      {
+        "p": "[CR-CTC: Consistency regularization on CTC for improved speech recognition](https://arxiv.org/abs/2410.05101v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/k2-fsa/icefall)",
+        "n": "Zipformer+CR-CTC\n(no external language model)",
+        "d": "2024-10-07",
+        "m1": "10.15"
+      },
+      {
+        "p": "[GigaSpeech: An Evolving, Multi-domain ASR Corpus with 10,000 Hours of Transcribed Audio](https://arxiv.org/abs/2106.06909v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/SpeechColab/GigaSpeech)",
+        "n": "Conformer/Transformer-AED",
+        "d": "2021-06-13",
+        "m1": "10.90"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

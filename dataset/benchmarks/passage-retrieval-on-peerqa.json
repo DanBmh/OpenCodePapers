@@ -1,0 +1,106 @@
+{
+  "title": "passage-retrieval-on-peerqa",
+  "task-hierarchy": [
+    "Information Retrieval",
+    "Passage Retrieval"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Recall@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "MRR",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[SPLADE-v3: New baselines for SPLADE](https://arxiv.org/abs/2403.06789v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/naver/splade)",
+        "n": "SPLADEv3",
+        "d": "2024-03-11",
+        "m1": "0.6851",
+        "m2": "0.4536"
+      },
+      {
+        "p": "[How to Train Your DRAGON: Diverse Augmentation Towards Generalizable Dense Retrieval](https://arxiv.org/abs/2302.07452v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/dpr-scale)",
+        "n": "Dragon+",
+        "d": "2023-02-15",
+        "m1": "0.6817",
+        "m2": "0.4845"
+      },
+      {
+        "p": "[MiniLLM: Knowledge Distillation of Large Language Models](https://arxiv.org/abs/2306.08543v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/microsoft/lmops)",
+        "n": "MiniLM-L12-v2",
+        "d": "2023-06-14",
+        "m1": "0.6709",
+        "m2": "0.4839"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BM25",
+        "d": null,
+        "m1": "0.6388",
+        "m2": "0.4288"
+      },
+      {
+        "p": "[ColBERTv2: Effective and Efficient Retrieval via Lightweight Late Interaction](https://arxiv.org/abs/2112.01488v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/stanford-futuredata/ColBERT)",
+        "n": "ColBERTv2",
+        "d": "2021-12-02",
+        "m1": "0.6371",
+        "m2": "0.4122"
+      },
+      {
+        "p": "[Unsupervised Dense Information Retrieval with Contrastive Learning](https://arxiv.org/abs/2112.09118v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/contriever)",
+        "n": "Contriever-MS",
+        "d": "2021-12-16",
+        "m1": "0.6314",
+        "m2": "0.4408"
+      },
+      {
+        "p": "[Large Dual Encoders Are Generalizable Retrievers](https://arxiv.org/abs/2112.07899v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/t5x_retrieval)",
+        "n": "GTR-XL",
+        "d": "2021-12-15",
+        "m1": "0.6122",
+        "m2": "0.4142"
+      },
+      {
+        "p": "[Unsupervised Dense Information Retrieval with Contrastive Learning](https://arxiv.org/abs/2112.09118v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/contriever)",
+        "n": "Contriever",
+        "d": "2021-12-16",
+        "m1": "0.5567",
+        "m2": "0.3624"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

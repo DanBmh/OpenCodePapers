@@ -1,0 +1,88 @@
+{
+  "title": "video-question-answering-on-msrvtt-mc",
+  "task-hierarchy": [
+    "Video Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/yj-yu/lsmdc"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[An Empirical Study of End-to-End Video-Language Transformers with Masked Visual Modeling](https://arxiv.org/abs/2209.01540v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/tsujuifu/pytorch_empirical-mvm)",
+        "n": "VIOLETv2",
+        "d": "2022-09-04",
+        "m1": "97.6"
+      },
+      {
+        "p": "[HiTeA: Hierarchical Temporal-Aware Video-Language Pre-training](https://arxiv.org/abs/2212.14546v1)",
+        "c": "",
+        "n": "HiTeA",
+        "d": "2022-12-30",
+        "m1": "97.4"
+      },
+      {
+        "p": "[VindLU: A Recipe for Effective Video-and-Language Pretraining](https://arxiv.org/abs/2212.05051v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/klauscc/vindlu)",
+        "n": "VindLU",
+        "d": "2022-12-09",
+        "m1": "95.5"
+      },
+      {
+        "p": "[Clover: Towards A Unified Video-Language Alignment and Fusion Model](https://arxiv.org/abs/2207.07885v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/leeyn-43/clover)",
+        "n": "Clover",
+        "d": "2022-07-16",
+        "m1": "95.2"
+      },
+      {
+        "p": "[Revealing Single Frame Bias for Video-and-Language Learning](https://arxiv.org/abs/2206.03428v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jayleicn/ClipBERT)",
+        "n": "Singularity-temporal",
+        "d": "2022-06-07",
+        "m1": "93.7"
+      },
+      {
+        "p": "[Multi-granularity Correspondence Learning from Long-term Noisy Videos](https://arxiv.org/abs/2401.16702v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/XLearning-SCU/2024-ICLR-Norton)",
+        "n": "Norton",
+        "d": "2024-01-30",
+        "m1": "92.7"
+      },
+      {
+        "p": "[Revealing Single Frame Bias for Video-and-Language Learning](https://arxiv.org/abs/2206.03428v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jayleicn/ClipBERT)",
+        "n": "Singularity",
+        "d": "2022-06-07",
+        "m1": "92.1"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

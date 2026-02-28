@@ -1,0 +1,156 @@
+{
+  "title": "node-classification-on-reddit",
+  "task-hierarchy": [
+    "Node Classification"
+  ],
+  "dataset-info": {
+    "link": "http://snap.stanford.edu/graphsage/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Micro-F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[BNS-GCN: Efficient Full-Graph Training of Graph Convolutional Networks with Partition-Parallelism and Random Boundary Node Sampling](https://arxiv.org/abs/2203.10983v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/gatech-eic/bns-gcn)",
+        "n": "BNS-GCN",
+        "d": "2022-03-21",
+        "m1": "97.17%"
+      },
+      {
+        "p": "[Communication-Free Distributed GNN Training with Vertex Cut](https://arxiv.org/abs/2308.03209v1)",
+        "c": "",
+        "n": "CoFree-GNN",
+        "d": "2023-08-06",
+        "m1": "97.14±0.02%"
+      },
+      {
+        "p": "[Decoupling the Depth and Scope of Graph Neural Networks](https://arxiv.org/abs/2201.07858v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/shaDow_GNN)",
+        "n": "shaDow-GAT",
+        "d": "2022-01-19",
+        "m1": "97.13%"
+      },
+      {
+        "p": "[Decoupling the Depth and Scope of Graph Neural Networks](https://arxiv.org/abs/2201.07858v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/shaDow_GNN)",
+        "n": "shaDow-SAGE",
+        "d": "2022-01-19",
+        "m1": "97.03%"
+      },
+      {
+        "p": "[DropEdge: Towards Deep Graph Convolutional Networks on Node Classification](https://arxiv.org/abs/1907.10903v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/GraphSAINT/GraphSAINT)",
+        "n": "JKNet+DropEdge",
+        "d": "2019-07-25",
+        "m1": "97.02%"
+      },
+      {
+        "p": "[GraphSAINT: Graph Sampling Based Inductive Learning Method](https://arxiv.org/abs/1907.04931v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/graphsaint)",
+        "n": "GraphSAINT",
+        "d": "2019-07-10",
+        "m1": "97.0%"
+      },
+      {
+        "p": "[A Comprehensive Study on Large-Scale Graph Training: Benchmarking and Rethinking](https://arxiv.org/abs/2210.07494v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/VITA-Group/Large_Scale_GCN_Benchmarking)",
+        "n": "EnGCN",
+        "d": "2022-10-14",
+        "m1": "96.65%"
+      },
+      {
+        "p": "[SIGN: Scalable Inception Graph Neural Networks](https://arxiv.org/abs/2004.11198v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/sign)",
+        "n": "SIGN",
+        "d": "2020-04-23",
+        "m1": "96.60%"
+      },
+      {
+        "p": "[Adaptive Sampling Towards Fast Graph Representation Learning](http://arxiv.org/abs/1809.05343v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/_deprecated/adaptive_sampling)",
+        "n": "ASGCN",
+        "d": "2018-09-14",
+        "m1": "96.27%"
+      },
+      {
+        "p": "[Dimensionality Reduction Meets Message Passing for Graph Node Embeddings](https://arxiv.org/abs/2202.00408v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/ksadowski13/PCAPass)",
+        "n": "PCAPass + XGBoost",
+        "d": "2022-02-01",
+        "m1": "96.26 ± 0.02%"
+      },
+      {
+        "p": "[Simple Spectral Graph Convolution](https://openreview.net/forum?id=CYO5T-YjWZV)",
+        "c": "[&check;&nbsp;Link](https://github.com/allenhaozhu/SSGC)",
+        "n": "SSGC",
+        "d": "2021-01-01",
+        "m1": "95.3"
+      },
+      {
+        "p": "[VQ-GNN: A Universal Framework to Scale up Graph Neural Networks using Vector Quantization](https://arxiv.org/abs/2110.14363v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/devnkong/VQ-GNN)",
+        "n": "VQ-GNN (SAGE-Mean)",
+        "d": "2021-10-27",
+        "m1": "94.5 ± .0024"
+      },
+      {
+        "p": "[Inductive Representation Learning on Large Graphs](http://arxiv.org/abs/1706.02216v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/pyg-team/pytorch_geometric/blob/master/torch_geometric/nn/models/basic_gnn.py)",
+        "n": "GraphSAGE",
+        "d": "2017-06-07",
+        "m1": "94.32%"
+      },
+      {
+        "p": "[FastGCN: Fast Learning with Graph Convolutional Networks via Importance Sampling](http://arxiv.org/abs/1801.10247v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/matenure/FastGCN)",
+        "n": "FastGCN",
+        "d": "2018-01-30",
+        "m1": "93.70%"
+      },
+      {
+        "p": "[Deeper-GXX: Deepening Arbitrary GNNs](https://arxiv.org/abs/2110.13798v3)",
+        "c": "",
+        "n": "TGCL+ResNet",
+        "d": "2021-10-26",
+        "m1": "81.06±1.18%"
+      },
+      {
+        "p": "[Deep Graph Contrastive Representation Learning](https://arxiv.org/abs/2006.04131v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/grace)",
+        "n": "GRACE",
+        "d": "2020-06-07",
+        "m2": "94.2 ± 0.0"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

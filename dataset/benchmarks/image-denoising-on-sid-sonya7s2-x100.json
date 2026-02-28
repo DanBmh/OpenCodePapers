@@ -1,0 +1,83 @@
+{
+  "title": "image-denoising-on-sid-sonya7s2-x100",
+  "task-hierarchy": [
+    "3D Architecture",
+    "Denoising",
+    "Image Denoising"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR (Raw)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM (Raw)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Learnability Enhancement for Low-light Raw Denoising: Where Paired Real Data Meets Noise Modeling](https://arxiv.org/abs/2207.06103v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/megvii-research/pmn)",
+        "n": "PMN",
+        "d": "2022-07-13",
+        "m1": "43.16",
+        "m2": "0.960"
+      },
+      {
+        "p": "[Rethinking Noise Synthesis and Modeling in Raw Denoising](https://arxiv.org/abs/2110.04756v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/zhangyi-3/noise-synthesis)",
+        "n": "SFRN",
+        "d": "2021-10-10",
+        "m1": "42.29",
+        "m2": "0.951"
+      },
+      {
+        "p": "[Make Explicit Calibration Implicit: Calibrate Denoiser Instead of the Noise Model](https://arxiv.org/abs/2308.03448v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/srameo/led)",
+        "n": "LED",
+        "d": "2023-08-07",
+        "m1": "41.98",
+        "m2": "0.954"
+      },
+      {
+        "p": "[Towards General Low-Light Raw Noise Synthesis and Modeling](https://arxiv.org/abs/2307.16508v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/fengzhang427/LRD)",
+        "n": "LRD",
+        "d": "2023-07-31",
+        "m1": "41.95",
+        "m2": "0.956"
+      },
+      {
+        "p": "[Physics-based Noise Modeling for Extreme Low-light Photography](https://arxiv.org/abs/2108.02158v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Vandermode/ELD)",
+        "n": "ELD",
+        "d": "2021-08-04",
+        "m1": "41.95",
+        "m2": "0.953"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

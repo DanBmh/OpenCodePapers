@@ -1,0 +1,61 @@
+{
+  "title": "local-color-enhancement-on-university-of",
+  "task-hierarchy": [
+    "Image Enhancement",
+    "Local Color Enhancement"
+  ],
+  "dataset-info": {
+    "link": "https://uwaterloo.ca/vision-image-processing-lab/research-demos/skin-cancer-detection"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Dice (Average)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[An EfficientNet-based modified sigmoid transform for enhancing dermatological macro-images of melanoma and nevi skin lesions](https://doi.org/10.1016/j.cmpb.2022.106935)",
+        "c": "[&check;&nbsp;Link](https://github.com/VipinBioLab/EMST)",
+        "n": "EMST",
+        "d": "2022-07-17",
+        "m1": "0.81 ± 0.17"
+      },
+      {
+        "p": "[Histogram Equalization Of The Image](https://arxiv.org/abs/2108.12818v1)",
+        "c": "",
+        "n": "HE",
+        "d": "2021-08-29",
+        "m1": "0.40 ± 0.27"
+      },
+      {
+        "p": "[Contrast Limited Adaptive Histogram Equalization (CLAHE) Approach for Enhancement of the Microstructures of Friction Stir Welded Joints](https://arxiv.org/abs/2109.00886v1)",
+        "c": "",
+        "n": "CLAHE",
+        "d": "2021-08-15",
+        "m1": "0.30 ± 0.20"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

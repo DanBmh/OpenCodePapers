@@ -1,0 +1,291 @@
+{
+  "title": "zero-shot-action-recognition-on-ucf101",
+  "task-hierarchy": [
+    "Action Recognition",
+    "Zero-Shot Action Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://www.crcv.ucf.edu/data/UCF101.php"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Top-1 Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Top-5 accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Orthogonal Temporal Interpolation for Zero-Shot Video Recognition](https://arxiv.org/abs/2308.06897v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/sweetorangezhuyan/mm2023_oti)",
+        "n": "OTI(ViT-L/14)",
+        "d": "2023-08-14",
+        "m1": "92.8"
+      },
+      {
+        "p": "[Alternating Gradient Descent and Mixture-of-Experts for Integrated Multimodal Perception](https://arxiv.org/abs/2305.06324v2)",
+        "c": "",
+        "n": "IMP-MoE-L",
+        "d": "2023-05-10",
+        "m1": "91.5"
+      },
+      {
+        "p": "[Multimodal Open-Vocabulary Video Classification via Pre-Trained Vision and Language Models](https://arxiv.org/abs/2207.07646v1)",
+        "c": "",
+        "n": "MOV (ViT-L/14)",
+        "d": "2022-07-15",
+        "m1": "87.1"
+      },
+      {
+        "p": "[VideoCoCa: Video-Text Modeling with Zero-Shot Transfer from Contrastive Captioners](https://arxiv.org/abs/2212.04979v3)",
+        "c": "",
+        "n": "VideoCoCa",
+        "d": "2022-12-09",
+        "m1": "86.6",
+        "m2": "98.4"
+      },
+      {
+        "p": "[Bidirectional Cross-Modal Knowledge Exploration for Video Recognition with Pre-trained Vision-Language Models](https://arxiv.org/abs/2301.00182v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/whwu95/Cap4Video)",
+        "n": "BIKE",
+        "d": "2022-12-31",
+        "m1": "86.6"
+      },
+      {
+        "p": "[Revisiting Classifier: Transferring Vision-Language Models for Video Recognition](https://arxiv.org/abs/2207.01297v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/whwu95/Cap4Video)",
+        "n": "Text4Vis",
+        "d": "2022-07-04",
+        "m1": "85.8"
+      },
+      {
+        "p": "[Leveraging Temporal Contextualization for Video Action Recognition](https://arxiv.org/abs/2404.09490v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/naver-ai/tc-clip)",
+        "n": "TC-CLIP",
+        "d": "2024-04-15",
+        "m1": "85.4"
+      },
+      {
+        "p": "[EVA-CLIP: Improved Training Techniques for CLIP at Scale](https://arxiv.org/abs/2303.15389v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/baaivision/eva)",
+        "n": "EVA-CLIP-E/14+",
+        "d": "2023-03-27",
+        "m1": "83.1"
+      },
+      {
+        "p": "[Multimodal Open-Vocabulary Video Classification via Pre-Trained Vision and Language Models](https://arxiv.org/abs/2207.07646v1)",
+        "c": "",
+        "n": "MOV (ViT-B/16)",
+        "d": "2022-07-15",
+        "m1": "82.6"
+      },
+      {
+        "p": "[OST: Refining Text Knowledge with Optimal Spatio-Temporal Descriptor for General Video Recognition](https://arxiv.org/abs/2312.00096v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/tomchen-ctj/OST)",
+        "n": "OST",
+        "d": "2023-11-30",
+        "m1": "79.7"
+      },
+      {
+        "p": "[EZ-CLIP: Efficient Zeroshot Video Action Recognition](https://arxiv.org/abs/2312.08010v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/shahzadnit/ez-clip)",
+        "n": "EZ-CLIP",
+        "d": "2023-12-13",
+        "m1": "79.1"
+      },
+      {
+        "p": "[MAtch, eXpand and Improve: Unsupervised Finetuning for Zero-Shot Action Recognition with Language Knowledge](https://arxiv.org/abs/2303.08914v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/wlin-at/maxi)",
+        "n": "MAXI",
+        "d": "2023-03-15",
+        "m1": "78.2"
+      },
+      {
+        "p": "[LoCATe-GAT: Modeling Multi-Scale Local Context and Action Relationships for Zero-Shot Action Recognition](https://ieeexplore.ieee.org/document/10769605)",
+        "c": "[&check;&nbsp;Link](https://github.com/sandipan211/LoCATe-GAT)",
+        "n": "LoCATe-GAT",
+        "d": "2024-11-27",
+        "m1": "76.0"
+      },
+      {
+        "p": "[VicTR: Video-conditioned Text Representations for Activity Recognition](https://arxiv.org/abs/2304.02560v2)",
+        "c": "",
+        "n": "VicTR (ViT-B/16)",
+        "d": "2023-04-05",
+        "m1": "72.4"
+      },
+      {
+        "p": "[Expanding Language-Image Pretrained Models for General Video Recognition](https://arxiv.org/abs/2208.02816v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/microsoft/videox)",
+        "n": "X-CLIP",
+        "d": "2022-08-04",
+        "m1": "72.0"
+      },
+      {
+        "p": "[Cross-modal Representation Learning for Zero-shot Action Recognition](https://arxiv.org/abs/2205.01657v1)",
+        "c": "",
+        "n": "ResT",
+        "d": "2022-05-03",
+        "m1": "58.7"
+      },
+      {
+        "p": "[Alignment-Uniformity aware Representation Learning for Zero-shot Video Classification](https://arxiv.org/abs/2203.15381v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ShipuLoveMili/CVPR2022-AURL)",
+        "n": "AURL",
+        "d": "2022-03-29",
+        "m1": "58"
+      },
+      {
+        "p": "[Rethinking Zero-shot Action Recognition: Learning from Latent Atomic Actions](https://link.springer.com/chapter/10.1007/978-3-031-19772-7_7)",
+        "c": "[&check;&nbsp;Link](https://github.com/KevinQian97/JigsawNet)",
+        "n": "JigsawNet",
+        "d": "2022-03-28",
+        "m1": "56.0"
+      },
+      {
+        "p": "[CLASTER: Clustering with Reinforcement Learning for Zero-Shot Action Recognition](https://arxiv.org/abs/2101.07042v3)",
+        "c": "",
+        "n": "CLASTER",
+        "d": "2021-01-18",
+        "m1": "53.9"
+      },
+      {
+        "p": "[Elaborative Rehearsal for Zero-shot Action Recognition](https://arxiv.org/abs/2108.02833v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/DeLightCMU/ElaborativeRehearsal)",
+        "n": "ER-ZSAR",
+        "d": "2021-08-05",
+        "m1": "51.8"
+      },
+      {
+        "p": "[Rethinking Zero-shot Video Classification: End-to-end Training for Realistic Applications](https://arxiv.org/abs/2003.01455v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/bbrattoli/ZeroShotVideoClassification)",
+        "n": "E2E",
+        "d": "2020-03-03",
+        "m1": "48"
+      },
+      {
+        "p": "[Synthetic Sample Selection for Generalized Zero-Shot Learning](https://arxiv.org/abs/2304.02846v1)",
+        "c": "",
+        "n": "SPOT",
+        "d": "2023-04-06",
+        "m1": "40.9"
+      },
+      {
+        "p": "[I Know the Relationships: Zero-Shot Action Recognition via Two-Stream Graph Convolutional Networks and Knowledge Graphs](https://ojs.aaai.org//index.php/AAAI/article/view/4843)",
+        "c": "[&check;&nbsp;Link](https://github.com/junyuGao/Zero-Shot-Action-Recognition-with-Two-Stream-GCN)",
+        "n": "TS-GCN",
+        "d": "2019-07-17",
+        "m1": "34.2"
+      },
+      {
+        "p": "[Objects2action: Classifying and localizing actions without any video example](http://arxiv.org/abs/1510.06939v1)",
+        "c": "",
+        "n": "O2A",
+        "d": "2015-10-23",
+        "m1": "30.3"
+      },
+      {
+        "p": "[Alternative Semantic Representations for Zero-Shot Human Action Recognition](http://arxiv.org/abs/1706.09317v1)",
+        "c": "",
+        "n": "ASR",
+        "d": "2017-06-28",
+        "m1": "24.4"
+      },
+      {
+        "p": "[Towards Universal Representation for Unseen Action Recognition](http://arxiv.org/abs/1803.08460v1)",
+        "c": "",
+        "n": "UR",
+        "d": "2018-03-22",
+        "m1": "17.5"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "IAP",
+        "d": null,
+        "m1": "16.7"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "DAP",
+        "d": null,
+        "m1": "15.9"
+      },
+      {
+        "p": "[Multi-Task Zero-Shot Action Recognition with Prioritised Data Augmentation](http://arxiv.org/abs/1611.08663v1)",
+        "c": "",
+        "n": "MTE",
+        "d": "2016-11-26",
+        "m1": "15.8"
+      },
+      {
+        "p": "[Zero-Shot Action Recognition With Error-Correcting Output Codes](http://openaccess.thecvf.com/content_cvpr_2017/html/Qin_Zero-Shot_Action_Recognition_CVPR_2017_paper.html)",
+        "c": "",
+        "n": "ZSECOC",
+        "d": "2017-07-01",
+        "m1": "15.1"
+      },
+      {
+        "p": "[An embarrassingly simple approach to zero-shot learning](https://dl.acm.org/doi/10.5555/3045118.3045347)",
+        "c": "[&check;&nbsp;Link](https://github.com/chichilicious/embarrsingly-simple-zero-shot-learning)",
+        "n": "ESZSL",
+        "d": "2015-07-06",
+        "m1": "15.0"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "HAA",
+        "d": null,
+        "m1": "14.9"
+      },
+      {
+        "p": "[Evaluation of Output Embeddings for Fine-Grained Image Classification](http://arxiv.org/abs/1409.8403v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/mvp18/Popular-ZSL-Algorithms)",
+        "n": "SJE(Attribute)",
+        "d": "2014-09-30",
+        "m1": "12.0"
+      },
+      {
+        "p": "[Semantic Embedding Space for Zero-Shot Action Recognition](http://arxiv.org/abs/1502.01540v1)",
+        "c": "",
+        "n": "SVE",
+        "d": "2015-02-05",
+        "m1": "10.9"
+      },
+      {
+        "p": "[Evaluation of Output Embeddings for Fine-Grained Image Classification](http://arxiv.org/abs/1409.8403v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/mvp18/Popular-ZSL-Algorithms)",
+        "n": "SJE(Word Embedding)",
+        "d": "2014-09-30",
+        "m1": "9.9"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

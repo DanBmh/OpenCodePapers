@@ -1,0 +1,143 @@
+{
+  "title": "unsupervised-anomaly-detection-on-smap",
+  "task-hierarchy": [
+    "Unsupervised Anomaly Detection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/OpsPAI/MTAD"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Precision",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Recall",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[DFM: Interpolant-free Dual Flow Matching](https://arxiv.org/abs/2410.09246v1)",
+        "c": "",
+        "n": "DFM (flow matching)",
+        "d": "2024-10-11",
+        "m1": "94.1",
+        "m2": "89.7",
+        "m3": "98.9",
+        "m4": "98.6"
+      },
+      {
+        "p": "[ContextFlow++: Generalist-Specialist Flow-based Generative Models with Mixed-Variable Context Encoding](https://arxiv.org/abs/2406.00578v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/gudovskiy/contextflow)",
+        "n": "ContextFlow++ (Glow-based)",
+        "d": "2024-06-02",
+        "m1": "93.62",
+        "m2": "88.64",
+        "m3": "99.19",
+        "m4": "98.66"
+      },
+      {
+        "p": "[TranAD: Deep Transformer Networks for Anomaly Detection in Multivariate Time Series Data](https://arxiv.org/abs/2201.07284v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/imperial-qore/tranad)",
+        "n": "TranAd",
+        "d": "2022-01-18",
+        "m1": "89.15",
+        "m2": "80.43",
+        "m3": "99.99",
+        "m4": "99.21"
+      },
+      {
+        "p": "[Multivariate Time-series Anomaly Detection via Graph Attention Network](https://arxiv.org/abs/2009.02040v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ML4ITS/mtad-gat-pytorch)",
+        "n": "MTAD-GAT",
+        "d": "2020-09-04",
+        "m1": "88.80",
+        "m2": "79.91",
+        "m3": "99.91",
+        "m4": "98.44"
+      },
+      {
+        "p": "[Unsupervised Deep Anomaly Detection for Multi-Sensor Time-Series Signals](https://arxiv.org/abs/2107.12626v2)",
+        "c": "",
+        "n": "CAE-M",
+        "d": "2021-07-27",
+        "m1": "88.27",
+        "m2": "81.93",
+        "m3": "95.67",
+        "m4": "99.01"
+      },
+      {
+        "p": "[Robust Anomaly Detection for Multivariate Time Series through Stochastic Recurrent Neural Network](https://dl.acm.org/citation.cfm?id=3330672)",
+        "c": "[&check;&nbsp;Link](https://github.com/smallcowbaby/OmniAnomaly)",
+        "n": "OmniAnomaly",
+        "d": "2019-07-25",
+        "m1": "87.28",
+        "m2": "81.30",
+        "m3": "94.19",
+        "m4": "98.89"
+      },
+      {
+        "p": "[Glow: Generative Flow with Invertible 1x1 Convolutions](http://arxiv.org/abs/1807.03039v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/openai/glow)",
+        "n": "Glow",
+        "d": "2018-07-09",
+        "m1": "86.05",
+        "m2": "87.40",
+        "m3": "84.93",
+        "m4": "91.55"
+      },
+      {
+        "p": "[Graph Neural Network-Based Anomaly Detection in Multivariate Time Series](https://arxiv.org/abs/2106.06947v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/d-ailin/GDN)",
+        "n": "GDN",
+        "d": "2021-06-13",
+        "m1": "85.18",
+        "m2": "74.80",
+        "m3": "98.91",
+        "m4": "98.64"
+      },
+      {
+        "p": "[USAD: UnSupervised Anomaly Detection on Multivariate Time Series](https://dl.acm.org/doi/10.1145/3394486.3403392)",
+        "c": "[&check;&nbsp;Link](https://github.com/manigalati/usad)",
+        "n": "USAD",
+        "d": "2020-08-23",
+        "m1": "81.86",
+        "m2": "76.97",
+        "m3": "98.31"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

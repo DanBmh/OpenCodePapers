@@ -1,0 +1,209 @@
+{
+  "title": "molecular-property-prediction-on-freesolv",
+  "task-hierarchy": [
+    "Atomistic Description",
+    "Molecular Property Prediction"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/MobleyLab/FreeSolv"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "RMSE",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "R2",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[An end-to-end attention-based approach for learning on graphs](https://arxiv.org/abs/2402.10793v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/davidbuterez/edge-set-attention)",
+        "n": "ESA (Edge set attention, no positional encodings)",
+        "d": "2024-02-16",
+        "m1": "0.595±0.013",
+        "m2": "0.977±0.001"
+      },
+      {
+        "p": "[DropGNN: Random Dropouts Increase the Expressiveness of Graph Neural Networks](https://arxiv.org/abs/2111.06283v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/karolismart/dropgnn)",
+        "n": "DropGIN",
+        "d": "2021-11-11",
+        "m1": "0.657±0.059",
+        "m2": "0.972±0.005"
+      },
+      {
+        "p": "[How Attentive are Graph Attention Networks?](https://arxiv.org/abs/2105.14491v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+        "n": "GATv2",
+        "d": "2021-05-30",
+        "m1": "0.676±0.081",
+        "m2": "0.970±0.007"
+      },
+      {
+        "p": "[How Powerful are Graph Neural Networks?](http://arxiv.org/abs/1810.00826v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/mxnet/gin)",
+        "n": "GIN",
+        "d": "2018-10-01",
+        "m1": "0.744±0.083",
+        "m2": "0.964±0.008"
+      },
+      {
+        "p": "[Graph Attention Networks](http://arxiv.org/abs/1710.10903v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+        "n": "GAT",
+        "d": "2017-10-30",
+        "m1": "0.791±0.101",
+        "m2": "0.959±0.011"
+      },
+      {
+        "p": "[Semi-Supervised Classification with Graph Convolutional Networks](http://arxiv.org/abs/1609.02907v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/mxnet/gcn)",
+        "n": "GCN",
+        "d": "2016-09-09",
+        "m1": "0.815±0.086",
+        "m2": "0.957±0.009"
+      },
+      {
+        "p": "[Principal Neighbourhood Aggregation for Graph Nets](https://arxiv.org/abs/2004.05718v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/rusty1s/pytorch_geometric)",
+        "n": "PNA",
+        "d": "2020-04-12",
+        "m1": "0.870±0.081",
+        "m2": "0.951±0.009"
+      },
+      {
+        "p": "[Pure Transformers are Powerful Graph Learners](https://arxiv.org/abs/2207.02505v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/jw9730/tokengt)",
+        "n": "TokenGT",
+        "d": "2022-07-06",
+        "m1": "1.038±0.125",
+        "m2": "0.930±0.018"
+      },
+      {
+        "p": "[Do Transformers Really Perform Bad for Graph Representation?](https://arxiv.org/abs/2106.05234v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/microsoft/Graphormer)",
+        "n": "Graphormer",
+        "d": "2021-06-09",
+        "m1": "1.065±0.039",
+        "m2": "0.927±0.005"
+      },
+      {
+        "p": "[Self-Guided Masked Autoencoders for Domain-Agnostic Self-Supervised Learning](https://arxiv.org/abs/2402.14789v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/johnathan-xie/sma)",
+        "n": "SMA",
+        "d": "2024-02-22",
+        "m1": "1.09"
+      },
+      {
+        "p": "[A Bayesian Flow Network Framework for Chemistry Tasks](https://arxiv.org/abs/2407.20294v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Augus1999/bayesian-flow-network-for-chemistry)",
+        "n": "ChemBFN",
+        "d": "2024-07-28",
+        "m1": "1.418"
+      },
+      {
+        "p": "[Recipe for a General, Powerful, Scalable Graph Transformer](https://arxiv.org/abs/2205.12454v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/rampasek/GraphGPS)",
+        "n": "GraphGPS",
+        "d": "2022-05-25",
+        "m1": "1.462±0.188",
+        "m2": "0.861±0.037"
+      },
+      {
+        "p": "[Uni-Mol: A Universal 3D Molecular Representation Learning Framework](https://chemrxiv.org/engage/chemrxiv/article-details/628e5b4d5d948517f5ce6d72)",
+        "c": "[&check;&nbsp;Link](https://github.com/dptech-corp/Uni-Mol)",
+        "n": "Uni-Mol",
+        "d": "2022-09-08",
+        "m1": "1.620"
+      },
+      {
+        "p": "[Pre-training Graph Neural Networks on Molecules by Using Subgraph-Conditioned Graph Information Bottleneck](https://arxiv.org/abs/2412.15589)",
+        "c": "[&check;&nbsp;Link](https://github.com/NSLab-CUK/S-CGIB)",
+        "n": "S-CGIB",
+        "d": "2025-02-20",
+        "m1": "1.648±0.074"
+      },
+      {
+        "p": "[Bidirectional Generation of Structure and Properties Through a Single Molecular Foundation Model](https://arxiv.org/abs/2211.10590v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/jinhojsk515/SPMM)",
+        "n": "SPMM",
+        "d": "2022-11-19",
+        "m1": "1.859"
+      },
+      {
+        "p": "[ChemRL-GEM: Geometry Enhanced Molecular Representation Learning for Property Prediction](https://arxiv.org/abs/2106.06130v4)",
+        "c": "",
+        "n": "ChemRL-GEM",
+        "d": "2021-06-11",
+        "m1": "1.877"
+      },
+      {
+        "p": "[Analyzing Learned Molecular Representations for Property Prediction](https://arxiv.org/abs/1904.01561v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/swansonk14/chemprop)",
+        "n": "D-MPNN",
+        "d": "2019-04-02",
+        "m1": "2.082"
+      },
+      {
+        "p": "[Self-Supervised Graph Transformer on Large-Scale Molecular Data](https://arxiv.org/abs/2007.02835v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/deepchem/deepchem)",
+        "n": "GROVER (base)",
+        "d": "2020-06-18",
+        "m1": "2.176"
+      },
+      {
+        "p": "[Self-Supervised Graph Transformer on Large-Scale Molecular Data](https://arxiv.org/abs/2007.02835v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/deepchem/deepchem)",
+        "n": "GROVER (large)",
+        "d": "2020-06-18",
+        "m1": "2.272"
+      },
+      {
+        "p": "[N-Gram Graph: Simple Unsupervised Representation for Graphs, with Applications to Molecules](https://arxiv.org/abs/1806.09206v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/chao1224/n_gram_graph)",
+        "n": "N-GramRF",
+        "d": "2018-06-24",
+        "m1": "2.688"
+      },
+      {
+        "p": "[Strategies for Pre-training Graph Neural Networks](https://arxiv.org/abs/1905.12265v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/snap-stanford/pretrain-gnns)",
+        "n": "PretrainGNN",
+        "d": "2019-05-29",
+        "m1": "2.764"
+      },
+      {
+        "p": "[N-Gram Graph: Simple Unsupervised Representation for Graphs, with Applications to Molecules](https://arxiv.org/abs/1806.09206v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/chao1224/n_gram_graph)",
+        "n": "N-GramXGB",
+        "d": "2018-06-24",
+        "m1": "5.061"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

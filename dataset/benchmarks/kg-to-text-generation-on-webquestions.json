@@ -1,0 +1,94 @@
+{
+  "title": "kg-to-text-generation-on-webquestions",
+  "task-hierarchy": [
+    "KG-to-Text Generation"
+  ],
+  "dataset-info": {
+    "link": "https://worksheets.codalab.org/worksheets/0xba659fe363cb46e7a505c5b6a774dc8a"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "BLEU",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "METEOR",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "ROUGE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[JointGT: Graph-Text Joint Representation Learning for Text Generation from Knowledge Graphs](https://arxiv.org/abs/2106.10502v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/thu-coai/JointGT)",
+        "n": "JointGT (BART)",
+        "d": "2021-06-19",
+        "m1": "30.02",
+        "m2": "32.05",
+        "m3": "55.6"
+      },
+      {
+        "p": "[JointGT: Graph-Text Joint Representation Learning for Text Generation from Knowledge Graphs](https://arxiv.org/abs/2106.10502v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/thu-coai/JointGT)",
+        "n": "BART",
+        "d": "2021-06-19",
+        "m1": "29.61",
+        "m2": "31.48",
+        "m3": "55.42"
+      },
+      {
+        "p": "[Toward Subgraph-Guided Knowledge Graph Question Generation with Graph Neural Networks](https://arxiv.org/abs/2004.06015v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/hugochan/Graph2Seq-for-KGQG)",
+        "n": "SOTA-NPT",
+        "d": "2020-04-13",
+        "m1": "29.45",
+        "m2": "30.96",
+        "m3": "55.45"
+      },
+      {
+        "p": "[JointGT: Graph-Text Joint Representation Learning for Text Generation from Knowledge Graphs](https://arxiv.org/abs/2106.10502v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/thu-coai/JointGT)",
+        "n": "JointGT (T5)",
+        "d": "2021-06-19",
+        "m1": "28.95",
+        "m2": "31.29",
+        "m3": "54.47"
+      },
+      {
+        "p": "[JointGT: Graph-Text Joint Representation Learning for Text Generation from Knowledge Graphs](https://arxiv.org/abs/2106.10502v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/thu-coai/JointGT)",
+        "n": "T5",
+        "d": "2021-06-19",
+        "m1": "28.78",
+        "m2": "30.55",
+        "m3": "55.12"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

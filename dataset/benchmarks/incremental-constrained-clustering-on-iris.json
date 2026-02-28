@@ -1,0 +1,109 @@
+{
+  "title": "incremental-constrained-clustering-on-iris",
+  "task-hierarchy": [
+    "Constrained Clustering",
+    "Incremental Constrained Clustering"
+  ],
+  "dataset-info": {
+    "link": "https://archive.ics.uci.edu/ml/datasets/iris"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AUBC-ARI (quality)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "AUBC-ARI (similarity)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Incremental Constrained Clustering by Minimal Weighted Modification](https://drops.dagstuhl.de/opus/volltexte/2023/19047)",
+        "c": "[&check;&nbsp;Link](https://github.com/aymericb213/IAC)",
+        "n": "IAC+NPU",
+        "d": "2023-09-22",
+        "m1": "0.941±0.007",
+        "m2": "0.668±0.02"
+      },
+      {
+        "p": "[Incremental Constrained Clustering by Minimal Weighted Modification](https://drops.dagstuhl.de/opus/volltexte/2023/19047)",
+        "c": "[&check;&nbsp;Link](https://github.com/aymericb213/IAC)",
+        "n": "MPCK-Means+NPU",
+        "d": "2023-09-22",
+        "m1": "0.928±0.015",
+        "m2": "0.584±0.027"
+      },
+      {
+        "p": "[Incremental Constrained Clustering by Minimal Weighted Modification](https://drops.dagstuhl.de/opus/volltexte/2023/19047)",
+        "c": "[&check;&nbsp;Link](https://github.com/aymericb213/IAC)",
+        "n": "COP-KMeans+NPU",
+        "d": "2023-09-22",
+        "m1": "0.88±0.016",
+        "m2": "0.432±0.029"
+      },
+      {
+        "p": "[Incremental Constrained Clustering by Minimal Weighted Modification](https://drops.dagstuhl.de/opus/volltexte/2023/19047)",
+        "c": "[&check;&nbsp;Link](https://github.com/aymericb213/IAC)",
+        "n": "PCK-Means+NPU",
+        "d": "2023-09-22",
+        "m1": "0.876±0.018",
+        "m2": "0.398±0.029"
+      },
+      {
+        "p": "[Incremental Constrained Clustering by Minimal Weighted Modification](https://drops.dagstuhl.de/opus/volltexte/2023/19047)",
+        "c": "[&check;&nbsp;Link](https://github.com/aymericb213/IAC)",
+        "n": "IAC+Random",
+        "d": "2023-09-22",
+        "m1": "0.816±0.014",
+        "m2": "0.605±0.016"
+      },
+      {
+        "p": "[Incremental Constrained Clustering by Minimal Weighted Modification](https://drops.dagstuhl.de/opus/volltexte/2023/19047)",
+        "c": "[&check;&nbsp;Link](https://github.com/aymericb213/IAC)",
+        "n": "MPCK-Means+Random",
+        "d": "2023-09-22",
+        "m1": "0.783±0.025",
+        "m2": "0.472±0.024"
+      },
+      {
+        "p": "[Incremental Constrained Clustering by Minimal Weighted Modification](https://drops.dagstuhl.de/opus/volltexte/2023/19047)",
+        "c": "[&check;&nbsp;Link](https://github.com/aymericb213/IAC)",
+        "n": "COP-KMeans+Random",
+        "d": "2023-09-22",
+        "m1": "0.712±0.012",
+        "m2": "0.309±0.004"
+      },
+      {
+        "p": "[Incremental Constrained Clustering by Minimal Weighted Modification](https://drops.dagstuhl.de/opus/volltexte/2023/19047)",
+        "c": "[&check;&nbsp;Link](https://github.com/aymericb213/IAC)",
+        "n": "PCK-Means+Random",
+        "d": "2023-09-22",
+        "m1": "0.695±0.018",
+        "m2": "0.271±0.008"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

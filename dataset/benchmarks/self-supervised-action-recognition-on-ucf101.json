@@ -1,0 +1,521 @@
+{
+  "title": "self-supervised-action-recognition-on-ucf101",
+  "task-hierarchy": [
+    "Action Recognition",
+    "Self-Supervised Action Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://www.crcv.ucf.edu/data/UCF101.php"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "3-fold Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Pre-Training Dataset",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Frozen",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "split-1  Top-1 Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[VideoMAE V2: Scaling Video Masked Autoencoders with Dual Masking](https://arxiv.org/abs/2303.16727v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/OpenGVLab/VideoMAEv2)",
+        "n": "VideoMAE V2-g",
+        "d": "2023-03-29",
+        "m1": "99.6"
+      },
+      {
+        "p": "[Masked Video Distillation: Rethinking Masked Feature Modeling for Self-supervised Video Representation Learning](https://arxiv.org/abs/2212.04500v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/ruiwang2021/mvd)",
+        "n": "MVD (ViT-B)",
+        "d": "2022-12-08",
+        "m1": "97.5",
+        "m2": "Kinetics400",
+        "m3": "false"
+      },
+      {
+        "p": "[A Large-Scale Analysis on Self-Supervised Video Representation Learning](https://arxiv.org/abs/2306.06010v2)",
+        "c": "",
+        "n": "SSL-KD (R21D-18)",
+        "d": "2023-06-09",
+        "m1": "97.3",
+        "m2": "Kinetics400",
+        "m3": "false"
+      },
+      {
+        "p": "[Masked Motion Encoding for Self-Supervised Video Representation Learning](https://arxiv.org/abs/2210.06096v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/XinyuSun/M3Video)",
+        "n": "M3Video",
+        "d": "2022-10-12",
+        "m1": "96.5",
+        "m2": "Kinetics400",
+        "m3": "false"
+      },
+      {
+        "p": "[A Large-Scale Study on Unsupervised Spatiotemporal Representation Learning](https://arxiv.org/abs/2104.14558v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/SlowFast)",
+        "n": "pBYOL",
+        "d": "2021-04-29",
+        "m1": "96.3",
+        "m2": "Kinetics400",
+        "m3": "false"
+      },
+      {
+        "p": "[VideoMAE: Masked Autoencoders are Data-Efficient Learners for Self-Supervised Video Pre-Training](https://arxiv.org/abs/2203.12602v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "VideoMAE",
+        "d": "2022-03-23",
+        "m1": "96.1",
+        "m2": "Kinetics400",
+        "m3": "false"
+      },
+      {
+        "p": "[Similarity Contrastive Estimation for Image and Video Soft Contrastive Self-Supervised Learning](https://arxiv.org/abs/2212.11187v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/juliendenize/eztorch)",
+        "n": "SCE (R3D-50)",
+        "d": "2022-12-21",
+        "m1": "95.3",
+        "m2": "Kinetics400",
+        "m3": "false"
+      },
+      {
+        "p": "[Self-Supervised MultiModal Versatile Networks](https://arxiv.org/abs/2006.16228v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/deepmind/deepmind-research/tree/master/mmv)",
+        "n": "MMV TSM-50x2",
+        "d": "2020-06-29",
+        "m1": "95.2",
+        "m2": "Audioset + Howto100M",
+        "m3": "false"
+      },
+      {
+        "p": "[XKD: Cross-modal Knowledge Distillation with Domain Alignment for Video Representation Learning](https://arxiv.org/abs/2211.13929v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/pritamqu/XKD)",
+        "n": "XKD (ViT-B/112/16)",
+        "d": "2022-11-25",
+        "m1": "94.1",
+        "m2": "Kinetics400"
+      },
+      {
+        "p": "[Spatiotemporal Contrastive Video Representation Learning](https://arxiv.org/abs/2008.03800v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/official/projects/video_ssl)",
+        "n": "CVRL (R3D-152 2x; K600)",
+        "d": "2020-08-09",
+        "m1": "93.9",
+        "m2": "Kinetics600",
+        "m3": "false"
+      },
+      {
+        "p": "[RSPNet: Relative Speed Perception for Unsupervised Video Representation Learning](https://arxiv.org/abs/2011.07949v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/PeihaoChen/RSPNet)",
+        "n": "RSPNet",
+        "d": "2020-10-27",
+        "m1": "93.7",
+        "m2": "Kinetics400",
+        "m3": "false"
+      },
+      {
+        "p": "[Spatiotemporal Contrastive Video Representation Learning](https://arxiv.org/abs/2008.03800v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/official/projects/video_ssl)",
+        "n": "CVRL (R3D-50; K600)",
+        "d": "2020-08-09",
+        "m1": "93.4",
+        "m2": "Kinetics600",
+        "m3": "false"
+      },
+      {
+        "p": "[EVEREST: Efficient Masked Video Autoencoder by Removing Redundant Spatiotemporal Tokens](https://arxiv.org/abs/2211.10636v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/sunilhoho/everest)",
+        "n": "VideoMS (ViT-B)",
+        "d": "2022-11-19",
+        "m1": "93.4",
+        "m2": "no extra data",
+        "m3": "false"
+      },
+      {
+        "p": "[XKD: Cross-modal Knowledge Distillation with Domain Alignment for Video Representation Learning](https://arxiv.org/abs/2211.13929v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/pritamqu/XKD)",
+        "n": "XKD-Modality-Agnostic (ViT-B/112/16)",
+        "d": "2022-11-25",
+        "m1": "93.4"
+      },
+      {
+        "p": "[Broaden Your Views for Self-Supervised Video Learning](https://arxiv.org/abs/2103.16559v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/deepmind/brave)",
+        "n": "BraVe:V-FA (TSM-50x2)",
+        "d": "2021-03-30",
+        "m1": "93.1",
+        "m3": "false"
+      },
+      {
+        "p": "[Self-Supervised Audio-Visual Representation Learning with Relaxed Cross-Modal Synchronicity](https://arxiv.org/abs/2111.05329v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/pritamqu/CrissCross)",
+        "n": "CrissCross (AudioSet)",
+        "d": "2021-11-09",
+        "m1": "92.4",
+        "m2": "AudioSet",
+        "m3": "false"
+      },
+      {
+        "p": "[Spatiotemporal Contrastive Video Representation Learning](https://arxiv.org/abs/2008.03800v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/official/projects/video_ssl)",
+        "n": "CVRL (R3D-50; K400)",
+        "d": "2020-08-09",
+        "m1": "92.2",
+        "m2": "Kinetics400",
+        "m3": "false"
+      },
+      {
+        "p": "[Audio-Visual Instance Discrimination with Cross-Modal Agreement](https://arxiv.org/abs/2004.12943v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/AVID-CMA)",
+        "n": "AVID+CMA (Modified R2+1D-18 on Audioset)",
+        "d": "2020-04-27",
+        "m1": "91.5",
+        "m2": "Audioset (Audio+Video)",
+        "m3": "false"
+      },
+      {
+        "p": "[Self-Supervised Audio-Visual Representation Learning with Relaxed Cross-Modal Synchronicity](https://arxiv.org/abs/2111.05329v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/pritamqu/CrissCross)",
+        "n": "CrissCross (Kinetics400)",
+        "d": "2021-11-09",
+        "m1": "91.5",
+        "m2": "Kinetics400",
+        "m3": "false"
+      },
+      {
+        "p": "[VideoMAE: Masked Autoencoders are Data-Efficient Learners for Self-Supervised Video Pre-Training](https://arxiv.org/abs/2203.12602v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "VideoMAE(no extra data)",
+        "d": "2022-03-23",
+        "m1": "91.3",
+        "m2": "no extra data",
+        "m3": "false"
+      },
+      {
+        "p": "[Audio-Visual Instance Discrimination with Cross-Modal Agreement](https://arxiv.org/abs/2004.12943v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/AVID-CMA)",
+        "n": "AVID (Modified R2+1D-18 on Audioset)",
+        "d": "2020-04-27",
+        "m1": "91.0",
+        "m2": "Audioset (Audio+Video)",
+        "m3": "false"
+      },
+      {
+        "p": "[Self-supervised Video Representation Learning with Cross-Stream Prototypical Contrasting](https://arxiv.org/abs/2106.10137v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/martinetoering/ViCC)",
+        "n": "ViCC (S3D; R+F)",
+        "d": "2021-06-18",
+        "m1": "90.5",
+        "m2": "UCF101",
+        "m3": "false"
+      },
+      {
+        "p": "[Self-supervised Video Representation Learning with Cross-Stream Prototypical Contrasting](https://arxiv.org/abs/2106.10137v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/martinetoering/ViCC)",
+        "n": "ViCC (S3D; RGB)",
+        "d": "2021-06-18",
+        "m1": "88.8",
+        "m2": "UCF101",
+        "m3": "false"
+      },
+      {
+        "p": "[Self-supervised Video Representation Learning with Cross-Stream Prototypical Contrasting](https://arxiv.org/abs/2106.10137v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/martinetoering/ViCC)",
+        "n": "ViCC (R2+1D; R+F)",
+        "d": "2021-06-18",
+        "m1": "88.8",
+        "m2": "UCF101",
+        "m3": "false"
+      },
+      {
+        "p": "[Self-Supervised Audio-Visual Representation Learning with Relaxed Cross-Modal Synchronicity](https://arxiv.org/abs/2111.05329v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/pritamqu/CrissCross)",
+        "n": "CrissCross (Kinetics-Sound)",
+        "d": "2021-11-09",
+        "m1": "88.3",
+        "m2": "Kinetics-Sound",
+        "m3": "false"
+      },
+      {
+        "p": "[Audio-Visual Instance Discrimination with Cross-Modal Agreement](https://arxiv.org/abs/2004.12943v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/AVID-CMA)",
+        "n": "AVID+CMA (Modified R2+1D-18 on Kinetics)",
+        "d": "2020-04-27",
+        "m1": "87.5",
+        "m2": "Kinetics400 (Audio+Video)",
+        "m3": "false"
+      },
+      {
+        "p": "[Audio-Visual Instance Discrimination with Cross-Modal Agreement](https://arxiv.org/abs/2004.12943v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/AVID-CMA)",
+        "n": "AVID (Modified R2+1D-18 on Kinetics)",
+        "d": "2020-04-27",
+        "m1": "86.9",
+        "m2": "Kinetics400 (Audio+Video)",
+        "m3": "false"
+      },
+      {
+        "p": "[Self-Supervised Video Representation Learning with Meta-Contrastive Network](https://arxiv.org/abs/2108.08426v2)",
+        "c": "",
+        "n": "MCN (R3D-18; RGB)",
+        "d": "2021-08-19",
+        "m1": "85.4"
+      },
+      {
+        "p": "[Self-Supervised Video Representation Learning with Meta-Contrastive Network](https://arxiv.org/abs/2108.08426v2)",
+        "c": "",
+        "n": "MCN (R2+1D; RGB)",
+        "d": "2021-08-19",
+        "m1": "84.8"
+      },
+      {
+        "p": "[Self-supervised Video Representation Learning with Cross-Stream Prototypical Contrasting](https://arxiv.org/abs/2106.10137v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/martinetoering/ViCC)",
+        "n": "ViCC (R2+1D; RGB)",
+        "d": "2021-06-18",
+        "m1": "82.8",
+        "m2": "UCF101",
+        "m3": "false"
+      },
+      {
+        "p": "[TCLR: Temporal Contrastive Learning for Video Representation](https://arxiv.org/abs/2101.07974v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/DAVEISHAN/TCLR)",
+        "n": "TCLR (R3D-18)",
+        "d": "2021-01-20",
+        "m1": "82.4",
+        "m2": "UCF101",
+        "m3": "false"
+      },
+      {
+        "p": "[Pretext-Contrastive Learning: Toward Good Practices in Self-supervised Video Representation Leaning](https://arxiv.org/abs/2010.15464v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/BestJuly/Pretext-Contrastive-Learning)",
+        "n": "PCL (ResNet-18)",
+        "d": "2020-10-29",
+        "m1": "82.3",
+        "m2": "UCF101",
+        "m3": "false"
+      },
+      {
+        "p": "[Video Representation Learning by Dense Predictive Coding](https://arxiv.org/abs/1909.04656v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/TengdaHan/DPC)",
+        "n": "DPC (Modified 3D Resnet-34)",
+        "d": "2019-09-10",
+        "m1": "75.7",
+        "m2": "Kinetics400",
+        "m3": "false"
+      },
+      {
+        "p": "[Self-supervised Co-training for Video Representation Learning](https://arxiv.org/abs/2010.09709v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/TengdaHan/CoCLR)",
+        "n": "CoCLR",
+        "d": "2020-10-19",
+        "m1": "74.5",
+        "m3": "false"
+      },
+      {
+        "p": "[Self-supervised Video Representation Learning Using Inter-intra Contrastive Framework](https://arxiv.org/abs/2008.02531v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/BestJuly/Inter-intra-video-contrastive-learning)",
+        "n": "IIC (R3D)",
+        "d": "2020-08-06",
+        "m1": "74.4",
+        "m2": "UCF101",
+        "m3": "false"
+      },
+      {
+        "p": "[Self-supervised Video Representation Learning with Cross-Stream Prototypical Contrasting](https://arxiv.org/abs/2106.10137v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/martinetoering/ViCC)",
+        "n": "ViCC (S3D; RGB)",
+        "d": "2021-06-18",
+        "m1": "72.2",
+        "m2": "UCF101",
+        "m3": "true"
+      },
+      {
+        "p": "[Temporally Coherent Embeddings for Self-Supervised Video Representation Learning](https://arxiv.org/abs/2004.02753v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/csiro-robotics/TCE)",
+        "n": "TCE (ResNet-50)",
+        "d": "2020-03-21",
+        "m1": "71.2",
+        "m2": "Kinetics400",
+        "m3": "false"
+      },
+      {
+        "p": "[Temporally Coherent Embeddings for Self-Supervised Video Representation Learning](https://arxiv.org/abs/2004.02753v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/csiro-robotics/TCE)",
+        "n": "TCE (ResNet-18, Split 1)",
+        "d": "2020-03-21",
+        "m1": "68.8",
+        "m2": "Kinetics400",
+        "m3": "false"
+      },
+      {
+        "p": "[Video Representation Learning by Dense Predictive Coding](https://arxiv.org/abs/1909.04656v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/TengdaHan/DPC)",
+        "n": "DPC (3D ResNet-18)",
+        "d": "2019-09-10",
+        "m1": "68.2",
+        "m2": "Kinetics400",
+        "m3": "false"
+      },
+      {
+        "p": "[Temporally Coherent Embeddings for Self-Supervised Video Representation Learning](https://arxiv.org/abs/2004.02753v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/csiro-robotics/TCE)",
+        "n": "TCE (ResNet18, Split 1)",
+        "d": "2020-03-21",
+        "m1": "68.2",
+        "m2": "UCF101",
+        "m3": "false"
+      },
+      {
+        "p": "[Video Cloze Procedure for Self-Supervised Spatio-Temporal Learning](https://arxiv.org/abs/2001.00294v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/BestJuly/VCP)",
+        "n": "VCP (R3D)",
+        "d": "2020-01-02",
+        "m1": "66",
+        "m2": "UCF101",
+        "m3": "false"
+      },
+      {
+        "p": "[Self-Supervised Video Representation Learning with Space-Time Cubic Puzzles](http://arxiv.org/abs/1811.09795v1)",
+        "c": "",
+        "n": "3D Cubic Puzzles (3D ResNet-18)",
+        "d": "2018-11-24",
+        "m1": "65.8",
+        "m2": "Kinetics400",
+        "m3": "false"
+      },
+      {
+        "p": "[Self-Supervised Spatiotemporal Learning via Video Clip Order Prediction](http://openaccess.thecvf.com/content_CVPR_2019/html/Xu_Self-Supervised_Spatiotemporal_Learning_via_Video_Clip_Order_Prediction_CVPR_2019_paper.html)",
+        "c": "",
+        "n": "Video Clip Ordering (R3D)",
+        "d": "2019-06-01",
+        "m1": "64.9",
+        "m2": "UCF101",
+        "m3": "false"
+      },
+      {
+        "p": "[Skip-Clip: Self-Supervised Spatiotemporal Representation Learning by Future Clip Order Ranking](https://arxiv.org/abs/1910.12770v1)",
+        "c": "",
+        "n": "Skip-Clip (3D ResNet-18)",
+        "d": "2019-10-28",
+        "m1": "64.4",
+        "m2": "UCF101",
+        "m3": "false"
+      },
+      {
+        "p": "[Self-Supervised Spatiotemporal Feature Learning via Video Rotation Prediction](http://arxiv.org/abs/1811.11387v2)",
+        "c": "",
+        "n": "3D RotNet (3D ResNet-18)",
+        "d": "2018-11-28",
+        "m1": "62.9",
+        "m2": "Kinetics400",
+        "m3": "false"
+      },
+      {
+        "p": "[Video Representation Learning by Dense Predictive Coding](https://arxiv.org/abs/1909.04656v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/TengdaHan/DPC)",
+        "n": "DPC (3D ResNet-18, Split 1)",
+        "d": "2019-09-10",
+        "m1": "60.6",
+        "m2": "UCF101",
+        "m3": "false"
+      },
+      {
+        "p": "[Self-Supervised Video Representation Learning With Odd-One-Out Networks](http://arxiv.org/abs/1611.06646v4)",
+        "c": "",
+        "n": "O3N (AlexNet)",
+        "d": "2016-11-21",
+        "m1": "60.3",
+        "m2": "UCF101",
+        "m3": "false"
+      },
+      {
+        "p": "[Contrastive Multiview Coding](https://arxiv.org/abs/1906.05849v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/HobbitLong/PyContrast)",
+        "n": "Contrastive Multiview Coding (CaffeNet x2)",
+        "d": "2019-06-13",
+        "m1": "59.1",
+        "m2": "UCF101",
+        "m3": "false"
+      },
+      {
+        "p": "[Self-supervised Spatio-temporal Representation Learning for Videos by Predicting Motion and Appearance Statistics](http://arxiv.org/abs/1904.03597v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/laura-wang/video_repres_mas)",
+        "n": "Motion & Appearance (C3D)",
+        "d": "2019-04-07",
+        "m1": "58.8",
+        "m2": "UCF101",
+        "m3": "false"
+      },
+      {
+        "p": "[Learning and Using the Arrow of Time](http://openaccess.thecvf.com/content_cvpr_2018/html/Wei_Learning_and_Using_CVPR_2018_paper.html)",
+        "c": "",
+        "n": "Arrow of Time (AlexNet)",
+        "d": "2018-06-01",
+        "m1": "55.3",
+        "m2": "UCF101",
+        "m3": "false"
+      },
+      {
+        "p": "[Generating Videos with Scene Dynamics](http://arxiv.org/abs/1609.02612v3)",
+        "c": "",
+        "n": "VideoGan (C3D)",
+        "d": "2016-09-08",
+        "m1": "52.1",
+        "m2": "UCF101",
+        "m3": "false"
+      },
+      {
+        "p": "[Shuffle and Learn: Unsupervised Learning using Temporal Order Verification](http://arxiv.org/abs/1603.08561v2)",
+        "c": "",
+        "n": "Shuffle and Learn (AlexNet)",
+        "d": "2016-03-28",
+        "m1": "50.9",
+        "m2": "UCF101",
+        "m3": "false"
+      },
+      {
+        "p": "[SLIC: Self-Supervised Learning with Iterative Clustering for Human Action Videos](https://arxiv.org/abs/2206.12534v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/rvl-lab-utoronto/video_similarity_search)",
+        "n": "SLIC (R3D-18)",
+        "d": "2022-06-25",
+        "m2": "UCF101",
+        "m3": "false",
+        "m4": "83.2"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

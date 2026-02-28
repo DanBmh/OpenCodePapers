@@ -1,0 +1,120 @@
+{
+  "title": "code-generation-on-codecontests",
+  "task-hierarchy": [
+    "Code Generation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/deepmind/code_contests/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Test Set pass@1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Test Set pass@5",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Val Set pass@1",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Val Set pass@5",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Execution Guided Line-by-Line Code Generation](https://arxiv.org/abs/2506.10948v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/boazlavon/eg_cfg)",
+        "n": "EG-CFG (DeepSeek-V3-0324)",
+        "d": "2025-06-12",
+        "m1": "58.18"
+      },
+      {
+        "p": "[Planning-Driven Programming: A Large Language Model Programming Workflow](https://arxiv.org/abs/2411.14503v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/you68681/lpw)",
+        "n": "LPW (GPT-4o)",
+        "d": "2024-11-21",
+        "m1": "34.7"
+      },
+      {
+        "p": "[MapCoder: Multi-Agent Code Generation for Competitive Problem Solving](https://arxiv.org/abs/2405.11403v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/md-ashraful-pramanik/mapcoder)",
+        "n": "MapCoder (GPT-4)",
+        "d": "2024-05-18",
+        "m1": "28.5",
+        "m2": "35.2",
+        "m3": "28.5"
+      },
+      {
+        "p": "[CODESIM: Multi-Agent Code Generation and Problem Solving through Simulation-Driven Planning and Debugging](https://arxiv.org/abs/2502.05664v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/kagnlp/CodeGenerator)",
+        "n": "CodeSim (GPT4)",
+        "d": "2025-02-08",
+        "m1": "28.4"
+      },
+      {
+        "p": "[MoTCoder: Elevating Large Language Models with Modular of Thought for Challenging Programming Tasks](https://arxiv.org/abs/2312.15960v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/dvlab-research/motcoder)",
+        "n": "MoTCoder-15B",
+        "d": "2023-12-26",
+        "m1": "26.34",
+        "m3": "20.35"
+      },
+      {
+        "p": "[MoTCoder: Elevating Large Language Models with Modular of Thought for Challenging Programming Tasks](https://arxiv.org/abs/2312.15960v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/dvlab-research/motcoder)",
+        "n": "MoTCoder-7B-v1.5",
+        "d": "2023-12-26",
+        "m1": "20.77",
+        "m3": "16.72"
+      },
+      {
+        "p": "[CodeChain: Towards Modular Code Generation Through Chain of Self-revisions with Representative Sub-modules](https://arxiv.org/abs/2310.08992v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/SalesforceAIResearch/CodeChain)",
+        "n": "CodeChain + WizardCoder-15B",
+        "d": "2023-10-13",
+        "m1": "2.35",
+        "m2": "3.29",
+        "m3": "2.48",
+        "m4": "3.30"
+      },
+      {
+        "p": "[WizardCoder: Empowering Code Large Language Models with Evol-Instruct](https://arxiv.org/abs/2306.08568v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/nlpxucan/wizardlm)",
+        "n": "WizardCoder-15B",
+        "d": "2023-06-14",
+        "m1": "1.11",
+        "m2": "3.18",
+        "m3": "1.98",
+        "m4": "3.27"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

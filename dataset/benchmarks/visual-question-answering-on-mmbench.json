@@ -1,0 +1,74 @@
+{
+  "title": "visual-question-answering-on-mmbench",
+  "task-hierarchy": [
+    "Visual Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://opencompass.org.cn/mmbench"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "GPT-3.5 score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Mixture-of-Subspaces in Low-Rank Adaptation](https://arxiv.org/abs/2406.11909v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/wutaiqiang/moslora)",
+        "n": "LLaVA-InternLM2-ViT + MoSLoRA",
+        "d": "2024-06-16",
+        "m1": "73.8"
+      },
+      {
+        "p": "[CuMo: Scaling Multimodal LLM with Co-Upcycled Mixture-of-Experts](https://arxiv.org/abs/2405.05949v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/shi-labs/cumo)",
+        "n": "CuMo-7B",
+        "d": "2024-05-09",
+        "m1": "73.0"
+      },
+      {
+        "p": "[Mixture-of-Subspaces in Low-Rank Adaptation](https://arxiv.org/abs/2406.11909v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/wutaiqiang/moslora)",
+        "n": "LLaVA-LLaMA3-8B-ViT + MoSLoRA",
+        "d": "2024-06-16",
+        "m1": "73.0"
+      },
+      {
+        "p": "[Video-LaVIT: Unified Video-Language Pre-training with Decoupled Visual-Motional Tokenization](https://arxiv.org/abs/2402.03161v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/jy0205/lavit)",
+        "n": "Video-LaVIT",
+        "d": "2024-02-05",
+        "m1": "67.3"
+      },
+      {
+        "p": "[DreamLLM: Synergistic Multimodal Comprehension and Creation](https://arxiv.org/abs/2309.11499v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/RunpeiDong/DreamLLM)",
+        "n": "DreamLLM-7B",
+        "d": "2023-09-20",
+        "m1": "49.9"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

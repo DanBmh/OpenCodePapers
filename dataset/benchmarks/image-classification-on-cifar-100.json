@@ -1,0 +1,1554 @@
+{
+  "title": "image-classification-on-cifar-100",
+  "task-hierarchy": [
+    "Image Classification"
+  ],
+  "dataset-info": {
+    "link": "https://www.cs.toronto.edu/~kriz/cifar.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Percentage correct",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "PARAMS",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Top 1 Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Sharpness-Aware Minimization for Efficiently Improving Generalization](https://arxiv.org/abs/2010.01412v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/davda54/sam)",
+        "n": "EffNet-L2 (SAM)",
+        "d": "2020-10-03",
+        "m1": "96.08"
+      },
+      {
+        "p": "[ML-Decoder: Scalable and Versatile Classification Head](https://arxiv.org/abs/2111.12933v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/alibaba-miil/ml_decoder)",
+        "n": "Swin-L + ML-Decoder",
+        "d": "2021-11-25",
+        "m1": "95.1"
+      },
+      {
+        "p": "[An Evolutionary Approach to Dynamic Introduction of Tasks in Large-scale Multitask Learning Systems](https://arxiv.org/abs/2205.12755v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research/tree/master/muNet)",
+        "n": "µ2Net (ViT-L/16)",
+        "d": "2022-05-25",
+        "m1": "94.95"
+      },
+      {
+        "p": "[ImageNet-21K Pretraining for the Masses](https://arxiv.org/abs/2104.10972v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/Alibaba-MIIL/ImageNet21K)",
+        "n": "ViT-B-16 (ImageNet-21K-P pretrain)",
+        "d": "2021-04-22",
+        "m1": "94.2"
+      },
+      {
+        "p": "[CvT: Introducing Convolutions to Vision Transformers](https://arxiv.org/abs/2103.15808v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "CvT-W24",
+        "d": "2021-03-29",
+        "m1": "94.09"
+      },
+      {
+        "p": "[Perturbated Gradients Updating within Unit Space for Deep Learning](https://arxiv.org/abs/2110.00199v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/hanktseng131415go/pugd)",
+        "n": "ViT-B/16 (PUGD)",
+        "d": "2021-10-01",
+        "m1": "93.95"
+      },
+      {
+        "p": "[An Algorithm for Routing Vectors in Sequences](https://arxiv.org/abs/2211.11754v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/glassroom/heinsen_routing)",
+        "n": "Heinsen Routing + BEiT-large 16 224",
+        "d": "2022-11-20",
+        "m1": "93.8",
+        "m2": "309.8M"
+      },
+      {
+        "p": "[Big Transfer (BiT): General Visual Representation Learning](https://arxiv.org/abs/1912.11370v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/big_transfer)",
+        "n": "BiT-L (ResNet)",
+        "d": "2019-12-24",
+        "m1": "93.51"
+      },
+      {
+        "p": "[Reduction of Class Activation Uncertainty with Background Information](https://arxiv.org/abs/2305.03238v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/dipuk0506/SpinalNet)",
+        "n": "VIT-L/16 (Spinal FC, Background)",
+        "d": "2023-05-05",
+        "m1": "93.31"
+      },
+      {
+        "p": "[Going deeper with Image Transformers](https://arxiv.org/abs/2103.17239v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "n": "CaiT-M-36 U 224",
+        "d": "2021-03-31",
+        "m1": "93.1"
+      },
+      {
+        "p": "[Three things everyone should know about Vision Transformers](https://arxiv.org/abs/2203.09795v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "n": "ViT-L (attn fine-tune)",
+        "d": "2022-03-18",
+        "m1": "93.0"
+      },
+      {
+        "p": "[TResNet: High Performance GPU-Dedicated Architecture](https://arxiv.org/abs/2003.13630v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "n": "TResNet-L-V2",
+        "d": "2020-03-30",
+        "m1": "92.6"
+      },
+      {
+        "p": "[EfficientNetV2: Smaller Models and Faster Training](https://arxiv.org/abs/2104.00298v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "n": "EfficientNetV2-L",
+        "d": "2021-04-01",
+        "m1": "92.3"
+      },
+      {
+        "p": "[EfficientNetV2: Smaller Models and Faster Training](https://arxiv.org/abs/2104.00298v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "n": "EfficientNetV2-M",
+        "d": "2021-04-01",
+        "m1": "92.2"
+      },
+      {
+        "p": "[Big Transfer (BiT): General Visual Representation Learning](https://arxiv.org/abs/1912.11370v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/big_transfer)",
+        "n": "BiT-M (ResNet)",
+        "d": "2019-12-24",
+        "m1": "92.17"
+      },
+      {
+        "p": "[Incorporating Convolution Designs into Visual Transformers](https://arxiv.org/abs/2103.11816v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/rishikksh20/CeiT-pytorch)",
+        "n": "CeiT-S",
+        "d": "2021-03-22",
+        "m1": "91.8"
+      },
+      {
+        "p": "[Incorporating Convolution Designs into Visual Transformers](https://arxiv.org/abs/2103.11816v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/rishikksh20/CeiT-pytorch)",
+        "n": "CeiT-S (384 finetune resolution)",
+        "d": "2021-03-22",
+        "m1": "91.8"
+      },
+      {
+        "p": "[EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks](https://arxiv.org/abs/1905.11946v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/ultralytics/yolov5)",
+        "n": "EfficientNet-B7",
+        "d": "2019-05-28",
+        "m1": "91.7",
+        "m2": "64M"
+      },
+      {
+        "p": "[EfficientNetV2: Smaller Models and Faster Training](https://arxiv.org/abs/2104.00298v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "n": "EfficientNetV2-S",
+        "d": "2021-04-01",
+        "m1": "91.5"
+      },
+      {
+        "p": "[GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism](https://arxiv.org/abs/1811.06965v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/lingvo)",
+        "n": "GPIPE",
+        "d": "2018-11-16",
+        "m1": "91.3"
+      },
+      {
+        "p": "[Transformer in Transformer](https://arxiv.org/abs/2103.00112v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models/blob/master/timm/models/tnt.py)",
+        "n": "TNT-B",
+        "d": "2021-02-27",
+        "m1": "91.1",
+        "m2": "65.6M"
+      },
+      {
+        "p": "[Training data-efficient image transformers & distillation through attention](https://arxiv.org/abs/2012.12877v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "DeiT-B",
+        "d": "2020-12-23",
+        "m1": "90.8",
+        "m2": "86M"
+      },
+      {
+        "p": "[Global Filter Networks for Image Classification](https://arxiv.org/abs/2107.00645v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/raoyongming/GFNet)",
+        "n": "GFNet-H-B",
+        "d": "2021-07-01",
+        "m1": "90.3",
+        "m2": "54M"
+      },
+      {
+        "p": "[Rethinking Recurrent Neural Networks and Other Improvements for Image Classification](https://arxiv.org/abs/2007.15161v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/leonlha/e2e-3m)",
+        "n": "E2E-3M",
+        "d": "2020-07-30",
+        "m1": "90.27"
+      },
+      {
+        "p": "[Bamboo: Building Mega-Scale Vision Dataset Continually with Human-Machine Synergy](https://arxiv.org/abs/2203.07845v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/zhangyuanhan-ai/bamboo)",
+        "n": "Bamboo (ViT-B/16)",
+        "d": "2022-03-15",
+        "m1": "90.2"
+      },
+      {
+        "p": "[ASAM: Adaptive Sharpness-Aware Minimization for Scale-Invariant Learning of Deep Neural Networks](https://arxiv.org/abs/2102.11600v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/davda54/sam)",
+        "n": "PyramidNet-272 (ASAM)",
+        "d": "2021-02-23",
+        "m1": "89.90"
+      },
+      {
+        "p": "[Sharpness-Aware Minimization for Efficiently Improving Generalization](https://arxiv.org/abs/2010.01412v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/davda54/sam)",
+        "n": "PyramidNet (SAM)",
+        "d": "2020-10-03",
+        "m1": "89.7"
+      },
+      {
+        "p": "[Not All Images are Worth 16x16 Words: Dynamic Transformers for Efficient Image Recognition](https://arxiv.org/abs/2105.15075v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/blackfeather-wang/Dynamic-Vision-Transformer)",
+        "n": "DVT (T2T-ViT-24)",
+        "d": "2021-05-31",
+        "m1": "89.63"
+      },
+      {
+        "p": "[ResMLP: Feedforward networks for image classification with data-efficient training](https://arxiv.org/abs/2105.03404v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "n": "ResMLP-24",
+        "d": "2021-05-07",
+        "m1": "89.5"
+      },
+      {
+        "p": "[Towards Better Accuracy-efficiency Trade-offs: Divide and Co-training](https://arxiv.org/abs/2011.14660v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/freeformrobotics/divide-and-co-training)",
+        "n": "PyramidNet-272, S=4",
+        "d": "2020-11-30",
+        "m1": "89.46",
+        "m2": "32.8M"
+      },
+      {
+        "p": "[Incorporating Convolution Designs into Visual Transformers](https://arxiv.org/abs/2103.11816v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/rishikksh20/CeiT-pytorch)",
+        "n": "CeiT-T",
+        "d": "2021-03-22",
+        "m1": "89.4"
+      },
+      {
+        "p": "[AutoAugment: Learning Augmentation Policies from Data](http://arxiv.org/abs/1805.09501v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/research/autoaugment)",
+        "n": "PyramidNet+ShakeDrop",
+        "d": "2018-05-24",
+        "m1": "89.3"
+      },
+      {
+        "p": "[When Vision Transformers Outperform ResNets without Pre-training or Strong Data Augmentations](https://arxiv.org/abs/2106.01548v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/vision_transformer)",
+        "n": "ViT-B/16- SAM",
+        "d": "2021-06-03",
+        "m1": "89.1"
+      },
+      {
+        "p": "[ConvMLP: Hierarchical Convolutional MLPs for Vision](https://arxiv.org/abs/2109.04454v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/BR-IDL/PaddleViT/tree/develop/image_classification)",
+        "n": "ConvMLP-M",
+        "d": "2021-09-09",
+        "m1": "89.1"
+      },
+      {
+        "p": "[ConvMLP: Hierarchical Convolutional MLPs for Vision](https://arxiv.org/abs/2109.04454v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/BR-IDL/PaddleViT/tree/develop/image_classification)",
+        "n": "ConvMLP-L",
+        "d": "2021-09-09",
+        "m1": "88.6"
+      },
+      {
+        "p": "[Effect of Pre-Training Scale on Intra- and Inter-Domain Full and Few-Shot Transfer Learning for Natural and Medical X-Ray Chest Images](https://arxiv.org/abs/2106.00116v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/SLAMPAI/large-scale-pretraining-transfer)",
+        "n": "ResNet-152x4-AGC (ImageNet-21K)",
+        "d": "2021-05-31",
+        "m1": "88.54"
+      },
+      {
+        "p": "[ColorNet: Investigating the importance of color spaces for image classification](http://arxiv.org/abs/1902.00267v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/kini5gowda/ColorNet)",
+        "n": "ColorNet",
+        "d": "2019-02-01",
+        "m1": "88.4",
+        "m2": "19.0M"
+      },
+      {
+        "p": "[Fast AutoAugment](https://arxiv.org/abs/1905.00397v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/kakaobrain/fast-autoaugment)",
+        "n": "PyramidNet+ShakeDrop (Fast AA)",
+        "d": "2019-05-01",
+        "m1": "88.3"
+      },
+      {
+        "p": "[Neural Architecture Transfer](https://arxiv.org/abs/2005.05859v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/human-analysis/neural-architecture-transfer)",
+        "n": "NAT-M4",
+        "d": "2020-05-12",
+        "m1": "88.3",
+        "m2": "9.0M"
+      },
+      {
+        "p": "[Incorporating Convolution Designs into Visual Transformers](https://arxiv.org/abs/2103.11816v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/rishikksh20/CeiT-pytorch)",
+        "n": "CeiT-T (384 finetune resolution)",
+        "d": "2021-03-22",
+        "m1": "88"
+      },
+      {
+        "p": "[Neural Architecture Transfer](https://arxiv.org/abs/2005.05859v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/human-analysis/neural-architecture-transfer)",
+        "n": "NAT-M3",
+        "d": "2020-05-12",
+        "m1": "87.7",
+        "m2": "7.8M"
+      },
+      {
+        "p": "[When Vision Transformers Outperform ResNets without Pre-training or Strong Data Augmentations](https://arxiv.org/abs/2106.01548v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/vision_transformer)",
+        "n": "ViT-S/16- SAM",
+        "d": "2021-06-03",
+        "m1": "87.6"
+      },
+      {
+        "p": "[Neural Architecture Transfer](https://arxiv.org/abs/2005.05859v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/human-analysis/neural-architecture-transfer)",
+        "n": "NAT-M2",
+        "d": "2020-05-12",
+        "m1": "87.5",
+        "m2": "6.4M"
+      },
+      {
+        "p": "[PSO-Convolutional Neural Networks with Heterogeneous Learning Rate](https://arxiv.org/abs/2205.10456v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/leonlha/pso-convnet-dynamics)",
+        "n": "Dynamics 1",
+        "d": "2022-05-20",
+        "m1": "87.48"
+      },
+      {
+        "p": "[Towards Better Accuracy-efficiency Trade-offs: Divide and Co-training](https://arxiv.org/abs/2011.14660v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/freeformrobotics/divide-and-co-training)",
+        "n": "DenseNet-BC-190, S=4",
+        "d": "2020-11-30",
+        "m1": "87.44",
+        "m2": "26.3M"
+      },
+      {
+        "p": "[ConvMLP: Hierarchical Convolutional MLPs for Vision](https://arxiv.org/abs/2109.04454v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/BR-IDL/PaddleViT/tree/develop/image_classification)",
+        "n": "ConvMLP-S",
+        "d": "2021-09-09",
+        "m1": "87.4"
+      },
+      {
+        "p": "[ResMLP: Feedforward networks for image classification with data-efficient training](https://arxiv.org/abs/2105.03404v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "n": "ResMLP-12",
+        "d": "2021-05-07",
+        "m1": "87.0"
+      },
+      {
+        "p": "[Towards Better Accuracy-efficiency Trade-offs: Divide and Co-training](https://arxiv.org/abs/2011.14660v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/freeformrobotics/divide-and-co-training)",
+        "n": "WRN-40-10, S=4",
+        "d": "2020-11-30",
+        "m1": "86.90"
+      },
+      {
+        "p": "[ResNet strikes back: An improved training procedure in timm](https://arxiv.org/abs/2110.00476v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "n": "ResNet50 (A1)",
+        "d": "2021-10-01",
+        "m1": "86.9",
+        "m2": "25M"
+      },
+      {
+        "p": "[MixMo: Mixing Multiple Inputs for Multiple Outputs via Deep Subnetworks](https://arxiv.org/abs/2103.06132v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/alexrame/mixmo-pytorch)",
+        "n": "WRN-28-10 * 3",
+        "d": "2021-03-10",
+        "m1": "86.81"
+      },
+      {
+        "p": "[Regularizing Neural Networks via Adversarial Model Perturbation](https://arxiv.org/abs/2010.04925v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/hiyouga/AMP-Regularizer)",
+        "n": "PyramidNet + AA (AMP)",
+        "d": "2020-10-10",
+        "m1": "86.64"
+      },
+      {
+        "p": "[Self-Knowledge Distillation with Progressive Refinement of Targets](https://arxiv.org/abs/2006.12000v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/lgcnsai/ps-kd-pytorch)",
+        "n": "PyramidNet-200 + Shakedrop + Cutmix + PS-KD",
+        "d": "2020-06-22",
+        "m1": "86.41"
+      },
+      {
+        "p": "[When Vision Transformers Outperform ResNets without Pre-training or Strong Data Augmentations](https://arxiv.org/abs/2106.01548v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/vision_transformer)",
+        "n": "Mixer-B/16- SAM",
+        "d": "2021-06-03",
+        "m1": "86.4"
+      },
+      {
+        "p": "[Deep Feature Response Discriminative Calibration](https://arxiv.org/abs/2411.13582v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/tcmyxc/rescnet)",
+        "n": "ResCNet-50",
+        "d": "2024-11-16",
+        "m1": "86.31"
+      },
+      {
+        "p": "[CutMix: Regularization Strategy to Train Strong Classifiers with Localizable Features](https://arxiv.org/abs/1905.04899v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "n": "PyramidNet-200 + Shakedrop + Cutmix",
+        "d": "2019-05-13",
+        "m1": "86.19"
+      },
+      {
+        "p": "[MUXConv: Information Multiplexing in Convolutional Neural Networks](https://arxiv.org/abs/2003.13880v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/human-analysis/MUXConv)",
+        "n": "MUXNet-m",
+        "d": "2020-03-31",
+        "m1": "86.1",
+        "m2": "2.1M"
+      },
+      {
+        "p": "[Neural Architecture Transfer](https://arxiv.org/abs/2005.05859v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/human-analysis/neural-architecture-transfer)",
+        "n": "NAT-M1",
+        "d": "2020-05-12",
+        "m1": "86.0",
+        "m2": "3.8M"
+      },
+      {
+        "p": "[MixMo: Mixing Multiple Inputs for Multiple Outputs via Deep Subnetworks](https://arxiv.org/abs/2103.06132v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/alexrame/mixmo-pytorch)",
+        "n": "WRN-28-10",
+        "d": "2021-03-10",
+        "m1": "85.77"
+      },
+      {
+        "p": "[Towards Better Accuracy-efficiency Trade-offs: Divide and Co-training](https://arxiv.org/abs/2011.14660v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/freeformrobotics/divide-and-co-training)",
+        "n": "WRN-28-10, S=4",
+        "d": "2020-11-30",
+        "m1": "85.74"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "WRN-28-8 (SAMix+DM)",
+        "d": null,
+        "m1": "85.59"
+      },
+      {
+        "p": "[Boosting Discriminative Visual Representation Learning with Scenario-Agnostic Mixup](https://arxiv.org/abs/2111.15454v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/Westlake-AI/openmixup)",
+        "n": "WRN-28-8 +SAMix",
+        "d": "2021-11-30",
+        "m1": "85.50"
+      },
+      {
+        "p": "[Improving Neural Architecture Search Image Classifiers via Ensemble Learning](http://arxiv.org/abs/1903.06236v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/adanet)",
+        "n": "ASANas",
+        "d": "2019-03-14",
+        "m1": "85.42"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "WRN-28-8 (AutoMix+DM)",
+        "d": null,
+        "m1": "85.38"
+      },
+      {
+        "p": "[SparseSwin: Swin Transformer with Sparse Transformer Block](https://arxiv.org/abs/2309.05224v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/krisnapinasthika/sparseswin)",
+        "n": "SparseSwin",
+        "d": "2023-09-11",
+        "m1": "85.35",
+        "m2": "17.58M"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "WRN-28-8 (PuzzleMix+DM)",
+        "d": null,
+        "m1": "85.25"
+      },
+      {
+        "p": "[When Vision Transformers Outperform ResNets without Pre-training or Strong Data Augmentations](https://arxiv.org/abs/2106.01548v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/vision_transformer)",
+        "n": "ResNet-50-SAM",
+        "d": "2021-06-03",
+        "m1": "85.2"
+      },
+      {
+        "p": "[AutoMix: Unveiling the Power of Mixup for Stronger Classifiers](https://arxiv.org/abs/2103.13027v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/Westlake-AI/openmixup)",
+        "n": "WRN-28-8 +AutoMix",
+        "d": "2021-03-24",
+        "m1": "85.16"
+      },
+      {
+        "p": "[WaveMix: A Resource-efficient Neural Network for Image Analysis](https://arxiv.org/abs/2205.14375v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/pranavphoenix/WaveMix)",
+        "n": "WaveMixLite-256/7",
+        "d": "2022-05-28",
+        "m1": "85.09"
+      },
+      {
+        "p": "[Linear Attention with Global Context: A Multipole Attention Mechanism for Vision and Physics](https://arxiv.org/abs/2507.02748v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/AlexColagrande/MANO)",
+        "n": "MANO-tiny",
+        "d": "2025-07-03",
+        "m1": "85.08"
+      },
+      {
+        "p": "[Neural networks with late-phase weights](https://arxiv.org/abs/2007.12927v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/google/uncertainty-baselines)",
+        "n": "WRN 28-14",
+        "d": "2020-07-25",
+        "m1": "85.00"
+      },
+      {
+        "p": "[Expeditious Saliency-guided Mix-up through Random Gradient Thresholding](https://arxiv.org/abs/2212.04875v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/minhlong94/random-mixup)",
+        "n": "R-Mix (WideResNet 28-10)",
+        "d": "2022-12-09",
+        "m1": "85"
+      },
+      {
+        "p": "[EEEA-Net: An Early Exit Evolutionary Neural Architecture Search](https://arxiv.org/abs/2108.06156v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/chakkritte/eeea-net)",
+        "n": "EEEA-Net-C (b=5)+ CO",
+        "d": "2021-08-13",
+        "m1": "84.98"
+      },
+      {
+        "p": "[Expeditious Saliency-guided Mix-up through Random Gradient Thresholding](https://arxiv.org/abs/2212.04875v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/minhlong94/random-mixup)",
+        "n": "RL-Mix (WideResNet 28-10)",
+        "d": "2022-12-09",
+        "m1": "84.9"
+      },
+      {
+        "p": "[Automatic Data Augmentation via Invariance-Constrained Learning](https://arxiv.org/abs/2209.15031v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/ihounie/daug)",
+        "n": "Wide-ResNet-28-10",
+        "d": "2022-09-29",
+        "m1": "84.89"
+      },
+      {
+        "p": "[Squeeze-and-Excitation Networks](https://arxiv.org/abs/1709.01507v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleOCR)",
+        "n": "SENet + ShakeEven + Cutout",
+        "d": "2017-09-05",
+        "m1": "84.59"
+      },
+      {
+        "p": "[Boosting Discriminative Visual Representation Learning with Scenario-Agnostic Mixup](https://arxiv.org/abs/2111.15454v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/Westlake-AI/openmixup)",
+        "n": "ResNeXt-50(32x4d) + SAMix",
+        "d": "2021-11-30",
+        "m1": "84.42"
+      },
+      {
+        "p": "[Non-convex Learning via Replica Exchange Stochastic Gradient MCMC](https://arxiv.org/abs/2008.05367v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/gaoliyao/Replica_Exchange_Stochastic_Gradient_MCMC)",
+        "n": "WRN-28-10 with reSGHMC",
+        "d": "2020-08-12",
+        "m1": "84.38"
+      },
+      {
+        "p": "[Averaging Weights Leads to Wider Optima and Better Generalization](http://arxiv.org/abs/1803.05407v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/timgaripov/swa)",
+        "n": "PyramidNet-272 + SWA",
+        "d": "2018-03-14",
+        "m1": "84.16"
+      },
+      {
+        "p": "[Puzzle Mix: Exploiting Saliency and Local Statistics for Optimal Mixup](https://arxiv.org/abs/2009.06962v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/snu-mllab/PuzzleMix)",
+        "n": "WRN28-10",
+        "d": "2020-09-15",
+        "m1": "84.05"
+      },
+      {
+        "p": "[Gated Convolutional Networks with Hybrid Connectivity for Image Classification](https://arxiv.org/abs/1908.09699v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/winycg/HCGNet)",
+        "n": "HCGNet-A3",
+        "d": "2019-08-26",
+        "m1": "84.04",
+        "m2": "11.4M"
+      },
+      {
+        "p": "[Expeditious Saliency-guided Mix-up through Random Gradient Thresholding](https://arxiv.org/abs/2212.04875v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/minhlong94/random-mixup)",
+        "n": "WideResNet 28-10 + CutMix (OneCycleLR scheduler)",
+        "d": "2022-12-09",
+        "m1": "83.97"
+      },
+      {
+        "p": "[FMix: Enhancing Mixed Sample Data Augmentation](https://arxiv.org/abs/2002.12047v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleClas)",
+        "n": "DenseNet-BC-190 + FMix",
+        "d": "2020-02-27",
+        "m1": "83.95"
+      },
+      {
+        "p": "[Oriented Response Networks](http://arxiv.org/abs/1701.01833v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/ZhouYanzhao/ORN)",
+        "n": "ORN",
+        "d": "2017-01-07",
+        "m1": "83.85"
+      },
+      {
+        "p": "[Grafit: Learning fine-grained image representations with coarse labels](https://arxiv.org/abs/2011.12982v1)",
+        "c": "",
+        "n": "Grafit (ResNet-50)",
+        "d": "2020-11-25",
+        "m1": "83.7"
+      },
+      {
+        "p": "[AutoMix: Unveiling the Power of Mixup for Stronger Classifiers](https://arxiv.org/abs/2103.13027v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/Westlake-AI/openmixup)",
+        "n": "ResNeXt-50(32x4d) + AutoMix",
+        "d": "2021-03-24",
+        "m1": "83.64"
+      },
+      {
+        "p": "[TokenMixup: Efficient Attention-guided Token-level Data Augmentation for Transformers](https://arxiv.org/abs/2210.07562v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/mlvlab/tokenmixup)",
+        "n": "CCT-7/3x1+HTM+VTM",
+        "d": "2022-10-14",
+        "m1": "83.57"
+      },
+      {
+        "p": "[Gated Convolutional Networks with Hybrid Connectivity for Image Classification](https://arxiv.org/abs/1908.09699v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/winycg/HCGNet)",
+        "n": "HCGNet-A2",
+        "d": "2019-08-26",
+        "m1": "83.46",
+        "m2": "3.1M"
+      },
+      {
+        "p": "[Res2Net: A New Multi-scale Backbone Architecture](https://arxiv.org/abs/1904.01169v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "n": "Res2NeXt-29",
+        "d": "2019-04-02",
+        "m1": "83.44"
+      },
+      {
+        "p": "[mixup: Beyond Empirical Risk Minimization](http://arxiv.org/abs/1710.09412v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "n": "DenseNet-BC-190 + Mixup",
+        "d": "2017-10-25",
+        "m1": "83.20"
+      },
+      {
+        "p": "[Contextual Classification Using Self-Supervised Auxiliary Models for Deep Neural Networks](https://arxiv.org/abs/2101.03057v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Engler93/Self-Supervised-Autogenous-Learning)",
+        "n": "SSAL-DenseNet 190-40",
+        "d": "2021-01-07",
+        "m1": "83.2"
+      },
+      {
+        "p": "[EnAET: A Self-Trained framework for Semi-Supervised and Supervised Learning with Ensemble Transformations](https://arxiv.org/abs/1911.09265v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/maple-research-lab/EnAET)",
+        "n": "EnAET",
+        "d": "2019-11-21",
+        "m1": "83.13"
+      },
+      {
+        "p": "[Neural networks with late-phase weights](https://arxiv.org/abs/2007.12927v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/google/uncertainty-baselines)",
+        "n": "WRN 28-10",
+        "d": "2020-07-25",
+        "m1": "83.06"
+      },
+      {
+        "p": "[Expeditious Saliency-guided Mix-up through Random Gradient Thresholding](https://arxiv.org/abs/2212.04875v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/minhlong94/random-mixup)",
+        "n": "R-Mix (ResNeXt 29-4-24)",
+        "d": "2022-12-09",
+        "m1": "83.02"
+      },
+      {
+        "p": "[Single-bit-per-weight deep convolutional neural networks without batch-normalization layers for embedded systems](https://arxiv.org/abs/1907.06916v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/McDonnell-Lab/1-bit-per-weight)",
+        "n": "Wide ResNet+Cutout+no BN scale/offset learning",
+        "d": "2019-07-16",
+        "m1": "82.95"
+      },
+      {
+        "p": "[Non-convex Learning via Replica Exchange Stochastic Gradient MCMC](https://arxiv.org/abs/2008.05367v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/gaoliyao/Replica_Exchange_Stochastic_Gradient_MCMC)",
+        "n": "WRN-16-8 with reSGHMC",
+        "d": "2020-08-12",
+        "m1": "82.95"
+      },
+      {
+        "p": "[Densely Connected Convolutional Networks](http://arxiv.org/abs/1608.06993v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/pytorch/vision)",
+        "n": "DenseNet-BC",
+        "d": "2016-08-25",
+        "m1": "82.82"
+      },
+      {
+        "p": "[ANDHRA Bandersnatch: Training Neural Networks to Predict Parallel Realities](https://arxiv.org/abs/2411.19213v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/dvssajay/New_World)",
+        "n": "ABNet-2G-R3-Combined",
+        "d": "2024-11-28",
+        "m1": "82.784"
+      },
+      {
+        "p": "[Escaping the Big Data Paradigm with Compact Transformers](https://arxiv.org/abs/2104.05704v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/keras-team/keras-io/blob/master/examples/vision/cct.py)",
+        "n": "CCT-7/3x1*",
+        "d": "2021-04-12",
+        "m1": "82.72"
+      },
+      {
+        "p": "[EXACT: How to Train Your Accuracy](https://arxiv.org/abs/2205.09615v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/tinkoff-ai/exact)",
+        "n": "EXACT (WRN-28-10)",
+        "d": "2022-05-19",
+        "m1": "82.68"
+      },
+      {
+        "p": "[Selective Kernel Networks](http://arxiv.org/abs/1903.06586v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "n": "SKNet-29 (ResNeXt-29, 16×32d)",
+        "d": "2019-03-15",
+        "m1": "82.67"
+      },
+      {
+        "p": "[Densely Connected Convolutional Networks](http://arxiv.org/abs/1608.06993v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/pytorch/vision)",
+        "n": "DenseNet",
+        "d": "2016-08-25",
+        "m1": "82.62"
+      },
+      {
+        "p": "[Learning Implicitly Recurrent CNNs Through Parameter Sharing](http://arxiv.org/abs/1902.09701v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/lolemacs/soft-sharing)",
+        "n": "Shared WRN",
+        "d": "2019-02-26",
+        "m1": "82.57"
+      },
+      {
+        "p": "[Nested Hierarchical Transformer: Towards Accurate, Data-Efficient and Interpretable Visual Understanding](https://arxiv.org/abs/2105.12723v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "n": "Transformer local-attention (NesT-B)",
+        "d": "2021-05-26",
+        "m1": "82.56"
+      },
+      {
+        "p": "[Expeditious Saliency-guided Mix-up through Random Gradient Thresholding](https://arxiv.org/abs/2212.04875v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/minhlong94/random-mixup)",
+        "n": "RL-Mix (ResNeXt 29-4-24)",
+        "d": "2022-12-09",
+        "m1": "82.43"
+      },
+      {
+        "p": "[When Vision Transformers Outperform ResNets without Pre-training or Strong Data Augmentations](https://arxiv.org/abs/2106.01548v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/vision_transformer)",
+        "n": "Mixer-S/16- SAM",
+        "d": "2021-06-03",
+        "m1": "82.4"
+      },
+      {
+        "p": "[Expeditious Saliency-guided Mix-up through Random Gradient Thresholding](https://arxiv.org/abs/2212.04875v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/minhlong94/random-mixup)",
+        "n": "R-Mix (WideResNet 16-8)",
+        "d": "2022-12-09",
+        "m1": "82.32"
+      },
+      {
+        "p": "[Expeditious Saliency-guided Mix-up through Random Gradient Thresholding](https://arxiv.org/abs/2212.04875v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/minhlong94/random-mixup)",
+        "n": "ResNeXt 29-4-24 + CutMix (OneCycleLR scheduler)",
+        "d": "2022-12-09",
+        "m1": "82.3"
+      },
+      {
+        "p": "[Attend and Rectify: a Gated Attention Mechanism for Fine-Grained Recovery](http://arxiv.org/abs/1807.07320v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/prlz77/attend-and-rectify)",
+        "n": "WARN",
+        "d": "2018-07-19",
+        "m1": "82.18"
+      },
+      {
+        "p": "[Expeditious Saliency-guided Mix-up through Random Gradient Thresholding](https://arxiv.org/abs/2212.04875v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/minhlong94/random-mixup)",
+        "n": "RL-Mix (WideResNet 16-8)",
+        "d": "2022-12-09",
+        "m1": "82.16"
+      },
+      {
+        "p": "[Averaging Weights Leads to Wider Optima and Better Generalization](http://arxiv.org/abs/1803.05407v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/timgaripov/swa)",
+        "n": "WRN+SWA",
+        "d": "2018-03-14",
+        "m1": "82.15"
+      },
+      {
+        "p": "[Manifold Mixup: Better Representations by Interpolating Hidden States](https://arxiv.org/abs/1806.05236v7)",
+        "c": "[&check;&nbsp;Link](https://github.com/Westlake-AI/openmixup)",
+        "n": "Manifold Mixup",
+        "d": "2018-06-13",
+        "m1": "81.96"
+      },
+      {
+        "p": "[Gated Convolutional Networks with Hybrid Connectivity for Image Classification](https://arxiv.org/abs/1908.09699v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/winycg/HCGNet)",
+        "n": "HCGNet-A1",
+        "d": "2019-08-26",
+        "m1": "81.87",
+        "m2": "1.1M"
+      },
+      {
+        "p": "[Expeditious Saliency-guided Mix-up through Random Gradient Thresholding](https://arxiv.org/abs/2212.04875v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/minhlong94/random-mixup)",
+        "n": "WideResNet 16-8 + CutMix (OneCycleLR scheduler)",
+        "d": "2022-12-09",
+        "m1": "81.79"
+      },
+      {
+        "p": "[Learning Identity Mappings with Residual Gates](http://arxiv.org/abs/1611.01260v2)",
+        "c": "",
+        "n": "Residual Gates + WRN",
+        "d": "2016-11-04",
+        "m1": "81.73"
+      },
+      {
+        "p": "[Revisiting a kNN-based Image Classification System with High-capacity Storage](https://arxiv.org/abs/2204.01186v2)",
+        "c": "",
+        "n": "kNN-CLIP",
+        "d": "2022-04-03",
+        "m1": "81.7"
+      },
+      {
+        "p": "[Attention Augmented Convolutional Networks](https://arxiv.org/abs/1904.09925v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/leaderj1001/Attention-Augmented-Conv2d)",
+        "n": "AA-Wide-ResNet",
+        "d": "2019-04-22",
+        "m1": "81.6"
+      },
+      {
+        "p": "[PDO-eConvs: Partial Differential Operator Based Equivariant Convolutions](https://arxiv.org/abs/2007.10408v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/shenzy08/PDO-eConvs)",
+        "n": "PDO-eConv (p8, 4.6M)",
+        "d": "2020-07-20",
+        "m1": "81.6"
+      },
+      {
+        "p": "[Vision Models Are More Robust And Fair When Pretrained On Uncurated Images Without Supervision](https://arxiv.org/abs/2202.08360v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/vissl)",
+        "n": "SEER (RegNet10B)",
+        "d": "2022-02-16",
+        "m1": "81.53"
+      },
+      {
+        "p": "[Expeditious Saliency-guided Mix-up through Random Gradient Thresholding](https://arxiv.org/abs/2212.04875v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/minhlong94/random-mixup)",
+        "n": "R-Mix (PreActResNet-18)",
+        "d": "2022-12-09",
+        "m1": "81.49"
+      },
+      {
+        "p": "[On the Performance Analysis of Momentum Method: A Frequency Domain Perspective](https://arxiv.org/abs/2411.19671v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/yinleung/FSGDM)",
+        "n": "ResNet50 (FSGDM)",
+        "d": "2024-11-29",
+        "m1": "81.44"
+      },
+      {
+        "p": "[Automatic Data Augmentation via Invariance-Constrained Learning](https://arxiv.org/abs/2209.15031v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/ihounie/daug)",
+        "n": "Wide-ResNet-40-2",
+        "d": "2022-09-29",
+        "m1": "81.19"
+      },
+      {
+        "p": "[Wide Residual Networks](http://arxiv.org/abs/1605.07146v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/research/autoaugment)",
+        "n": "Wide ResNet",
+        "d": "2016-05-23",
+        "m1": "81.15"
+      },
+      {
+        "p": "[Deep Competitive Pathway Networks](http://arxiv.org/abs/1709.10282v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/JiaRenChang/CoPaNet)",
+        "n": "CoPaNet-R-164",
+        "d": "2017-09-29",
+        "m1": "81.10"
+      },
+      {
+        "p": "[ANDHRA Bandersnatch: Training Neural Networks to Predict Parallel Realities](https://arxiv.org/abs/2411.19213v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/dvssajay/New_World)",
+        "n": "ABNet-2G-R3",
+        "d": "2024-11-28",
+        "m1": "80.830"
+      },
+      {
+        "p": "[Expeditious Saliency-guided Mix-up through Random Gradient Thresholding](https://arxiv.org/abs/2212.04875v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/minhlong94/random-mixup)",
+        "n": "RL-Mix (PreActResNet-18)",
+        "d": "2022-12-09",
+        "m1": "80.75"
+      },
+      {
+        "p": "[Expeditious Saliency-guided Mix-up through Random Gradient Thresholding](https://arxiv.org/abs/2212.04875v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/minhlong94/random-mixup)",
+        "n": "PreActResNet-18 + CutMix (OneCycleLR scheduler)",
+        "d": "2022-12-09",
+        "m1": "80.6"
+      },
+      {
+        "p": "[Gated Attention Coding for Training High-performance and Efficient Spiking Neural Networks](https://arxiv.org/abs/2308.06582v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/bollossom/GAC)",
+        "n": "GAC-SNN",
+        "d": "2023-08-12",
+        "m1": "80.45"
+      },
+      {
+        "p": "[ANDHRA Bandersnatch: Training Neural Networks to Predict Parallel Realities](https://arxiv.org/abs/2411.19213v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/dvssajay/New_World)",
+        "n": "ABNet-2G-R2",
+        "d": "2024-11-28",
+        "m1": "80.354"
+      },
+      {
+        "p": "[Towards Principled Design of Deep Convolutional Networks: Introducing SimpNet](http://arxiv.org/abs/1802.06205v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Coderx7/SimpNet)",
+        "n": "SimpleNetv2",
+        "d": "2018-02-17",
+        "m1": "80.29"
+      },
+      {
+        "p": "[UPANets: Learning from the Universal Pixel Attention Networks](https://arxiv.org/abs/2103.08640v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/hanktseng131415go/UPANets)",
+        "n": "UPANets",
+        "d": "2021-03-15",
+        "m1": "80.29"
+      },
+      {
+        "p": "[SageMix: Saliency-Guided Mixup for Point Clouds](https://arxiv.org/abs/2210.06944v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/mlvlab/SageMix)",
+        "n": "PreActResNet-18 + SageMix",
+        "d": "2022-10-13",
+        "m1": "80.16"
+      },
+      {
+        "p": "[Non-convex Learning via Replica Exchange Stochastic Gradient MCMC](https://arxiv.org/abs/2008.05367v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/gaoliyao/Replica_Exchange_Stochastic_Gradient_MCMC)",
+        "n": "ResNet56 with reSGHMC",
+        "d": "2020-08-12",
+        "m1": "80.14"
+      },
+      {
+        "p": "[PDO-eConvs: Partial Differential Operator Based Equivariant Convolutions](https://arxiv.org/abs/2007.10408v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/shenzy08/PDO-eConvs)",
+        "n": "PDO-eConv (p8, 2.62M)",
+        "d": "2020-07-20",
+        "m1": "79.99"
+      },
+      {
+        "p": "[Training Neural Networks with Local Error Signals](https://arxiv.org/abs/1901.06656v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/anokland/local-loss)",
+        "n": "VGG11B(3x) + LocalLearning",
+        "d": "2019-01-20",
+        "m1": "79.9"
+      },
+      {
+        "p": "[With a Little Help from My Friends: Nearest-Neighbor Contrastive Learning of Visual Representations](https://arxiv.org/abs/2104.14548v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/lightly-ai/lightly)",
+        "n": "NNCLR",
+        "d": "2021-04-29",
+        "m1": "79"
+      },
+      {
+        "p": "[ANDHRA Bandersnatch: Training Neural Networks to Predict Parallel Realities](https://arxiv.org/abs/2411.19213v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/dvssajay/New_World)",
+        "n": "ABNet-2G-R1",
+        "d": "2024-11-28",
+        "m1": "78.792"
+      },
+      {
+        "p": "[Regularizing Neural Networks via Adversarial Model Perturbation](https://arxiv.org/abs/2010.04925v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/hiyouga/AMP-Regularizer)",
+        "n": "PreActResNet18 (AMP)",
+        "d": "2020-10-10",
+        "m1": "78.49"
+      },
+      {
+        "p": "[Lets keep it simple, Using simple architectures to outperform deeper and more complex architectures](https://arxiv.org/abs/1608.06037v8)",
+        "c": "[&check;&nbsp;Link](https://github.com/Coderx7/SimpleNet)",
+        "n": "SimpleNetv1",
+        "d": "2016-08-22",
+        "m1": "78.37"
+      },
+      {
+        "p": "[Pre-training of Lightweight Vision Transformers on Small Datasets with Minimally Scaled Images](https://arxiv.org/abs/2402.03752v1)",
+        "c": "",
+        "n": "ViT (lightweight, MAE pre-trained)",
+        "d": "2024-02-06",
+        "m1": "78.27",
+        "m2": "3.64M"
+      },
+      {
+        "p": "[Augmenting Deep Classifiers with Polynomial Neural Networks](https://arxiv.org/abs/2104.07916v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/grigorisg9gr/polynomials-for-augmenting-nns)",
+        "n": "PDC",
+        "d": "2021-04-16",
+        "m1": "77.9"
+      },
+      {
+        "p": "[Rethinking Depthwise Separable Convolutions: How Intra-Kernel Correlations Lead to Improved MobileNets](https://arxiv.org/abs/2003.13549v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/zeiss-microscopy/BSConv)",
+        "n": "MobileNetV3-large x1.0 (BSConv-U)",
+        "d": "2020-03-30",
+        "m1": "77.7"
+      },
+      {
+        "p": "[Escaping the Big Data Paradigm with Compact Transformers](https://arxiv.org/abs/2104.05704v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/keras-team/keras-io/blob/master/examples/vision/cct.py)",
+        "n": "CCT-6/3x1",
+        "d": "2021-04-12",
+        "m1": "77.31",
+        "m2": "3.17M"
+      },
+      {
+        "p": "[Identity Mappings in Deep Residual Networks](http://arxiv.org/abs/1603.05027v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/research/slim)",
+        "n": "ResNet-1001",
+        "d": "2016-03-16",
+        "m1": "77.3"
+      },
+      {
+        "p": "[Large-Scale Evolution of Image Classifiers](http://arxiv.org/abs/1703.01041v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/marijnvk/LargeScaleEvolution)",
+        "n": "Evolution",
+        "d": "2017-03-03",
+        "m1": "77"
+      },
+      {
+        "p": "[DIANet: Dense-and-Implicit Attention Network](https://arxiv.org/abs/1905.10671v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/osmr/imgclsmob)",
+        "n": "DIANet",
+        "d": "2019-05-25",
+        "m1": "76.98"
+      },
+      {
+        "p": "[Encoding the latent posterior of Bayesian Neural Networks for uncertainty quantification](https://arxiv.org/abs/2012.02818v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/ENSTA-U2IS-AI/torch-uncertainty)",
+        "n": "LP-BNN (ours) + cutout",
+        "d": "2020-12-04",
+        "m1": "76.85"
+      },
+      {
+        "p": "[Learning Class Unique Features in Fine-Grained Visual Classification](https://arxiv.org/abs/2011.10951v2)",
+        "c": "",
+        "n": "ResNet-18+MM+FRL",
+        "d": "2020-11-22",
+        "m1": "76.64"
+      },
+      {
+        "p": "[Non-convex Learning via Replica Exchange Stochastic Gradient MCMC](https://arxiv.org/abs/2008.05367v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/gaoliyao/Replica_Exchange_Stochastic_Gradient_MCMC)",
+        "n": "ResNet32 with reSGHMC",
+        "d": "2020-08-12",
+        "m1": "76.55"
+      },
+      {
+        "p": "[Momentum Residual Neural Networks](https://arxiv.org/abs/2102.07870v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/michaelsdr/momentumnet)",
+        "n": "MomentumNet",
+        "d": "2021-02-15",
+        "m1": "76.38"
+      },
+      {
+        "p": "[Spatially-sparse convolutional neural networks](http://arxiv.org/abs/1409.6070v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/SparseConvNet)",
+        "n": "SSCNN",
+        "d": "2014-09-22",
+        "m1": "75.7"
+      },
+      {
+        "p": "[Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)](http://arxiv.org/abs/1511.07289v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/tree/main/Fast_and_Accurate_Deep_Network_Learning_by_Exponential_Linear_Units_ELUs)",
+        "n": "Exponential Linear Units",
+        "d": "2015-11-23",
+        "m1": "75.7"
+      },
+      {
+        "p": "[CNN Filter DB: An Empirical Investigation of Trained Convolutional Filters](https://arxiv.org/abs/2203.15331v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/paulgavrikov/cnn-filter-db)",
+        "n": "ResNet-9",
+        "d": "2022-03-29",
+        "m1": "75.59"
+      },
+      {
+        "p": "[Deep Networks with Stochastic Depth](http://arxiv.org/abs/1603.09382v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "n": "Stochastic Depth",
+        "d": "2016-03-30",
+        "m1": "75.42"
+      },
+      {
+        "p": "[Mish: A Self Regularized Non-Monotonic Activation Function](https://arxiv.org/abs/1908.08681v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/addons)",
+        "n": "ResNet v2-110 (Mish activation)",
+        "d": "2019-08-23",
+        "m1": "74.41"
+      },
+      {
+        "p": "[Differentiable Spike: Rethinking Gradient-Descent for Training Spiking Neural Networks](http://proceedings.neurips.cc/paper/2021/hash/c4ca4238a0b923820dcc509a6f75849b-Abstract.html)",
+        "c": "",
+        "n": "Dspike (ResNet-18)",
+        "d": "2021-12-01",
+        "m1": "74.24"
+      },
+      {
+        "p": "[Non-convex Learning via Replica Exchange Stochastic Gradient MCMC](https://arxiv.org/abs/2008.05367v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/gaoliyao/Replica_Exchange_Stochastic_Gradient_MCMC)",
+        "n": "ResNet20 with reSGHMC",
+        "d": "2020-08-12",
+        "m1": "74.14"
+      },
+      {
+        "p": "[MixMatch: A Holistic Approach to Semi-Supervised Learning](https://arxiv.org/abs/1905.02249v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/mixmatch)",
+        "n": "MixMatch",
+        "d": "2019-05-06",
+        "m1": "74.1"
+      },
+      {
+        "p": "[Beta-Rank: A Robust Convolutional Filter Pruning Method For Imbalanced Medical Image Analysis](https://arxiv.org/abs/2304.07461v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/mohofar/beta-rank)",
+        "n": "Beta-Rank",
+        "d": "2023-04-15",
+        "m1": "74.01",
+        "m3": "74.01"
+      },
+      {
+        "p": "[How to Use Dropout Correctly on Residual Networks with Batch Normalization](https://arxiv.org/abs/2302.06112v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/kmbmjn/DropoutCorrectly)",
+        "n": "PreResNet-110",
+        "d": "2023-02-13",
+        "m1": "73.98"
+      },
+      {
+        "p": "[ANDHRA Bandersnatch: Training Neural Networks to Predict Parallel Realities](https://arxiv.org/abs/2411.19213v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/dvssajay/New_World)",
+        "n": "ABNet-2G-R0",
+        "d": "2024-11-28",
+        "m1": "73.930"
+      },
+      {
+        "p": "[Fractional Max-Pooling](http://arxiv.org/abs/1412.6071v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/SparseConvNet)",
+        "n": "Fractional MP",
+        "d": "2014-12-18",
+        "m1": "73.6"
+      },
+      {
+        "p": "[Deep Residual Networks with Exponential Linear Unit](http://arxiv.org/abs/1604.04112v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/Amihaeseisergiu/Cifar-10-ResNet-ELU-Cutout)",
+        "n": "ResNet+ELU",
+        "d": "2016-04-14",
+        "m1": "73.5"
+      },
+      {
+        "p": "[PDO-eConvs: Partial Differential Operator Based Equivariant Convolutions](https://arxiv.org/abs/2007.10408v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/shenzy08/PDO-eConvs)",
+        "n": "PDO-eConv (p6m,0.37M)",
+        "d": "2020-07-20",
+        "m1": "73"
+      },
+      {
+        "p": "[Stochastic Optimization of Plain Convolutional Neural Networks with Simple methods](https://arxiv.org/abs/2001.08856v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/junaidaliop/MNIST-SOPCNN)",
+        "n": "SOPCNN",
+        "d": "2020-01-24",
+        "m1": "72.96",
+        "m2": "4,252,298"
+      },
+      {
+        "p": "[PDO-eConvs: Partial Differential Operator Based Equivariant Convolutions](https://arxiv.org/abs/2007.10408v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/shenzy08/PDO-eConvs)",
+        "n": "PDO-eConv (p6,0.36M)",
+        "d": "2020-07-20",
+        "m1": "72.87"
+      },
+      {
+        "p": "[Scalable Bayesian Optimization Using Deep Neural Networks](http://arxiv.org/abs/1502.05700v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/automl/pybnn)",
+        "n": "Tuned CNN",
+        "d": "2015-02-19",
+        "m1": "72.6"
+      },
+      {
+        "p": "[Stochastic Subsampling With Average Pooling](https://arxiv.org/abs/2409.16630v1)",
+        "c": "",
+        "n": "ResNet-110 (SAP)",
+        "d": "2024-09-25",
+        "m1": "72.537"
+      },
+      {
+        "p": "[Competitive Multi-scale Convolution](http://arxiv.org/abs/1511.05635v1)",
+        "c": "",
+        "n": "CMsC",
+        "d": "2015-11-18",
+        "m1": "72.4"
+      },
+      {
+        "p": "[All you need is a good init](http://arxiv.org/abs/1511.06422v7)",
+        "c": "[&check;&nbsp;Link](https://github.com/ducha-aiki/LSUVinit)",
+        "n": "Fitnet4-LSUV",
+        "d": "2015-11-19",
+        "m1": "72.3"
+      },
+      {
+        "p": "[How transfer learning is used in generative models for image classification: improved accuracy](https://link.springer.com/article/10.1007/s11760-024-03673-5)",
+        "c": "[&check;&nbsp;Link](https://github.com/DanialEbrahimzadeh/cifar100_gan)",
+        "n": "GAN+ResNet",
+        "d": "2024-12-09",
+        "m1": "71.52"
+      },
+      {
+        "p": "[Grouped Pointwise Convolutions Reduce Parameters in Convolutional Neural Networks](https://www.researchgate.net/publication/360226228_Grouped_Pointwise_Convolutions_Reduce_Parameters_in_Convolutional_Neural_Networks)",
+        "c": "[&check;&nbsp;Link](https://github.com/joaopauloschuler/k-neural-api)",
+        "n": "kMobileNet V3 Large 16ch",
+        "d": "2022-06-30",
+        "m1": "71.36",
+        "m2": "0.52M"
+      },
+      {
+        "p": "[Batch-normalized Maxout Network in Network](http://arxiv.org/abs/1511.02583v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/JohnBensen1000/machine_learning)",
+        "n": "BNM NiN",
+        "d": "2015-11-09",
+        "m1": "71.1"
+      },
+      {
+        "p": "[Online Training Through Time for Spiking Neural Networks](https://arxiv.org/abs/2210.04195v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/pkuxmq/ottt-snn)",
+        "n": "OTTT",
+        "d": "2022-10-09",
+        "m1": "71.05"
+      },
+      {
+        "p": "[On the Importance of Normalisation Layers in Deep Learning with Piecewise Linear Activation Units](http://arxiv.org/abs/1508.00330v2)",
+        "c": "",
+        "n": "MIM",
+        "d": "2015-08-03",
+        "m1": "70.8"
+      },
+      {
+        "p": "[WaveMix: A Resource-efficient Neural Network for Image Analysis](https://arxiv.org/abs/2205.14375v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/pranavphoenix/WaveMix)",
+        "n": "WaveMix-Lite-256/7",
+        "d": "2022-05-28",
+        "m1": "70.20"
+      },
+      {
+        "p": "[IM-Loss: Information Maximization Loss for Spiking Neural Networks](https://openreview.net/forum?id=Jw34v_84m2b)",
+        "c": "",
+        "n": "IM-Loss (VGG-16)",
+        "d": "2022-10-31",
+        "m1": "70.18"
+      },
+      {
+        "p": "[Learning Activation Functions to Improve Deep Neural Networks](http://arxiv.org/abs/1412.6830v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/ForestAgostinelli/Learned-Activation-Functions-Source)",
+        "n": "NiN+APL",
+        "d": "2014-12-21",
+        "m1": "69.2"
+      },
+      {
+        "p": "[Stacked What-Where Auto-encoders](http://arxiv.org/abs/1506.02351v8)",
+        "c": "[&check;&nbsp;Link](https://github.com/isaacgerg/keras_odds_and_ends)",
+        "n": "SWWAE",
+        "d": "2015-06-08",
+        "m1": "69.1"
+      },
+      {
+        "p": "[Deep Convolutional Decision Jungle for Image Classification](http://arxiv.org/abs/1706.02003v2)",
+        "c": "",
+        "n": "NiN+Superclass+CDJ",
+        "d": "2017-06-06",
+        "m1": "69"
+      },
+      {
+        "p": "[Spectral Representations for Convolutional Neural Networks](http://arxiv.org/abs/1506.03767v1)",
+        "c": "",
+        "n": "Spectral Representations for Convolutional Neural Networks",
+        "d": "2015-06-11",
+        "m1": "68.4"
+      },
+      {
+        "p": "[\"BNN - BN = ?\": Training Binary Neural Networks without Batch Normalization](https://arxiv.org/abs/2104.08215v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/VITA-Group/BNN_NoBN)",
+        "n": "ReActNet-18",
+        "d": "2021-04-16",
+        "m1": "68.34"
+      },
+      {
+        "p": "[Training Very Deep Networks](http://arxiv.org/abs/1507.06228v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/LiyuanLucasLiu/LM-LSTM-CRF)",
+        "n": "VDN",
+        "d": "2015-07-22",
+        "m1": "67.8"
+      },
+      {
+        "p": "[Deep Convolutional Neural Networks as Generic Feature Extractors](http://arxiv.org/abs/1710.02286v1)",
+        "c": "",
+        "n": "DCNN+GFE",
+        "d": "2017-10-06",
+        "m1": "67.7"
+      },
+      {
+        "p": "[Generalizing Pooling Functions in Convolutional Neural Networks: Mixed, Gated, and Tree](http://arxiv.org/abs/1509.08985v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/cypw/DPNs)",
+        "n": "Tree+Max-Avg pooling",
+        "d": "2015-09-30",
+        "m1": "67.6"
+      },
+      {
+        "p": "[HD-CNN: Hierarchical Deep Convolutional Neural Network for Large Scale Visual Recognition](http://arxiv.org/abs/1410.0736v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/justinessert/hierarchical-deep-cnn)",
+        "n": "HD-CNN",
+        "d": "2014-10-03",
+        "m1": "67.4"
+      },
+      {
+        "p": "[Universum Prescription: Regularization using Unlabeled Data](http://arxiv.org/abs/1511.03719v7)",
+        "c": "",
+        "n": "Universum Prescription",
+        "d": "2015-11-11",
+        "m1": "67.2"
+      },
+      {
+        "p": "[ResNet50_on_Cifar_100_Without_Transfer_Learning](https://github.com/batuhan3526/ResNet50_on_Cifar_100_Without_Transfer_Learning/blob/master/abstract.txt)",
+        "c": "[&check;&nbsp;Link](https://github.com/batuhan3526/ResNet50_on_Cifar_100_Without_Transfer_Learning)",
+        "n": "ResNet50 Without Transfer Learning",
+        "d": "2020-08-03",
+        "m1": "67.060"
+      },
+      {
+        "p": "[Learning the Connections in Direct Feedback Alignment](https://openreview.net/forum?id=zgGmAx9ZcY)",
+        "c": "",
+        "n": "AlexNet (KP)",
+        "d": "2021-01-01",
+        "m1": "66.78"
+      },
+      {
+        "p": "[Striving for Simplicity: The All Convolutional Net](http://arxiv.org/abs/1412.6806v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/pytorch/captum)",
+        "n": "ACN",
+        "d": "2014-12-21",
+        "m1": "66.3"
+      },
+      {
+        "p": "[DLME: Deep Local-flatness Manifold Embedding](https://arxiv.org/abs/2207.03160v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Westlake-AI/openmixup)",
+        "n": "DLME (ResNet-18, linear)",
+        "d": "2022-07-07",
+        "m1": "66.1"
+      },
+      {
+        "p": "[FatNet: High Resolution Kernels for Classification Using Fully Convolutional Optical Neural Networks](https://arxiv.org/abs/2210.16914v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/riadibadulla/simulator)",
+        "n": "ResNet-18 (modified)",
+        "d": "2022-10-30",
+        "m1": "66"
+      },
+      {
+        "p": "[Deeply-Supervised Nets](http://arxiv.org/abs/1409.5185v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/ellisdg/3DUnetCNN)",
+        "n": "DSN",
+        "d": "2014-09-18",
+        "m1": "65.4"
+      },
+      {
+        "p": "[Network In Network](http://arxiv.org/abs/1312.4400v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/tree/main/Network_In_Network)",
+        "n": "NiN",
+        "d": "2013-12-16",
+        "m1": "64.3"
+      },
+      {
+        "p": "[Discriminative Transfer Learning with Tree-based Priors](http://papers.nips.cc/paper/5029-discriminative-transfer-learning-with-tree-based-priors)",
+        "c": "",
+        "n": "Tree Priors",
+        "d": "2013-12-01",
+        "m1": "63.2"
+      },
+      {
+        "p": "[Improving Deep Neural Networks with Probabilistic Maxout Units](http://arxiv.org/abs/1312.6116v2)",
+        "c": "",
+        "n": "DNN+Probabilistic Maxout",
+        "d": "2013-12-20",
+        "m1": "61.9"
+      },
+      {
+        "p": "[Maxout Networks](http://arxiv.org/abs/1302.4389v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/tree/main/Maxout_Networks)",
+        "n": "Maxout Network (k=2)",
+        "d": "2013-02-18",
+        "m1": "61.43"
+      },
+      {
+        "p": "[Unsharp Masking Layer: Injecting Prior Knowledge in Convolutional Networks for Image Classification](https://doi.org/10.1007/978-3-030-30508-6_1)",
+        "c": "[&check;&nbsp;Link](https://github.com/maeotaku/pytorch_usm)",
+        "n": "ResNet20+UnsharpMaskLayer",
+        "d": "2019-09-29",
+        "m1": "60.36"
+      },
+      {
+        "p": "[Convolutional Xformers for Vision](https://arxiv.org/abs/2201.10271v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/pranavphoenix/cxv)",
+        "n": "Convolutional Linear Transformer for Vision (CLTV)",
+        "d": "2022-01-25",
+        "m1": "60.11"
+      },
+      {
+        "p": "[FatNet: High Resolution Kernels for Classification Using Fully Convolutional Optical Neural Networks](https://arxiv.org/abs/2210.16914v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/riadibadulla/simulator)",
+        "n": "FatNet of ResNet-18",
+        "d": "2022-10-30",
+        "m1": "60"
+      },
+      {
+        "p": "[FatNet: High Resolution Kernels for Classification Using Fully Convolutional Optical Neural Networks](https://arxiv.org/abs/2210.16914v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/riadibadulla/simulator)",
+        "n": "Optical Simulation of FatNet",
+        "d": "2022-10-30",
+        "m1": "60"
+      },
+      {
+        "p": "[Empirical Evaluation of Rectified Activations in Convolutional Network](http://arxiv.org/abs/1505.00853v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/OsvaldN/APS360_Project)",
+        "n": "RReLU",
+        "d": "2015-05-05",
+        "m1": "59.8"
+      },
+      {
+        "p": "[Stochastic Pooling for Regularization of Deep Convolutional Neural Networks](http://arxiv.org/abs/1301.3557v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/szagoruyko/imagine-nn)",
+        "n": "Stochastic Pooling",
+        "d": "2013-01-16",
+        "m1": "57.5"
+      },
+      {
+        "p": "[How Important is Weight Symmetry in Backpropagation?](http://arxiv.org/abs/1510.05067v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/jsalbert/biotorch)",
+        "n": "Sign-symmetry",
+        "d": "2015-10-17",
+        "m1": "48.75"
+      },
+      {
+        "p": "[Learning the Connections in Direct Feedback Alignment](https://openreview.net/forum?id=zgGmAx9ZcY)",
+        "c": "",
+        "n": "AlexNet (DFA)",
+        "d": "2021-01-01",
+        "m1": "48.03"
+      },
+      {
+        "p": "[Sharpness-Aware Minimization for Efficiently Improving Generalization](https://arxiv.org/abs/2010.01412v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/davda54/sam)",
+        "n": "CNN39",
+        "d": "2020-10-03",
+        "m1": "42.64"
+      },
+      {
+        "p": "[Sharpness-Aware Minimization for Efficiently Improving Generalization](https://arxiv.org/abs/2010.01412v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/davda54/sam)",
+        "n": "CNN36",
+        "d": "2020-10-03",
+        "m1": "36.07"
+      },
+      {
+        "p": "[Sharpness-aware Quantization for Deep Neural Networks](https://arxiv.org/abs/2111.12273v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/ziplab/saq)",
+        "n": "CNN37",
+        "d": "2021-11-24",
+        "m1": "35.05"
+      },
+      {
+        "p": "[Learning the Connections in Direct Feedback Alignment](https://openreview.net/forum?id=zgGmAx9ZcY)",
+        "c": "",
+        "n": "AlexNet (FA)",
+        "d": "2021-01-01",
+        "m1": "19.49"
+      },
+      {
+        "p": "[Efficient Adaptive Ensembling for Image Classification](https://arxiv.org/abs/2206.07394v3)",
+        "c": "",
+        "n": "efficient adaptive ensembling",
+        "d": "2022-06-15",
+        "m3": "96.808"
+      },
+      {
+        "p": "[Label Ranker: Self-Aware Preference for Classification Label Position in Visual Masked Self-Supervised Pre-Trained Model](https://www.preprints.org/manuscript/202503.0003/v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Peihao-Xiang/Label-Ranker)",
+        "n": "Label-Ranker",
+        "d": "2025-03-03",
+        "m3": "90.82%"
+      },
+      {
+        "p": "[Performance of Gaussian Mixture Model Classifiers on Embedded Feature Spaces](https://arxiv.org/abs/2410.13421v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/cvmlmu/dgmmc)",
+        "n": "DGMMC-S",
+        "d": "2024-10-17",
+        "m4": "91.2"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

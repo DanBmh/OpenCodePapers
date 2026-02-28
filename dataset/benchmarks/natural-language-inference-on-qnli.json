@@ -1,0 +1,338 @@
+{
+  "title": "natural-language-inference-on-qnli",
+  "task-hierarchy": [
+    "Natural Language Inference"
+  ],
+  "dataset-info": {
+    "link": "https://gluebenchmark.com/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[ALBERT: A Lite BERT for Self-supervised Learning of Language Representations](https://arxiv.org/abs/1909.11942v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "ALBERT",
+        "d": "2019-09-26",
+        "m1": "99.2%"
+      },
+      {
+        "p": "[StructBERT: Incorporating Language Structures into Pre-training for Deep Language Understanding](https://arxiv.org/abs/1908.04577v3)",
+        "c": "",
+        "n": "StructBERTRoBERTa ensemble",
+        "d": "2019-08-13",
+        "m1": "99.2%"
+      },
+      {
+        "p": "[SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization](https://arxiv.org/abs/1911.03437v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/namisan/mt-dnn)",
+        "n": "ALICE",
+        "d": "2019-11-08",
+        "m1": "99.2%"
+      },
+      {
+        "p": "[SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization](https://arxiv.org/abs/1911.03437v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/namisan/mt-dnn)",
+        "n": "MT-DNN-SMART",
+        "d": "2019-11-08",
+        "m1": "99.2%"
+      },
+      {
+        "p": "[RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/abs/1907.11692v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "RoBERTa (ensemble)",
+        "d": "2019-07-26",
+        "m1": "98.9%"
+      },
+      {
+        "p": "[Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "T5-11B",
+        "d": "2019-10-23",
+        "m1": "96.7%"
+      },
+      {
+        "p": "[Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "T5-3B",
+        "d": "2019-10-23",
+        "m1": "96.3%"
+      },
+      {
+        "p": "[DeBERTaV3: Improving DeBERTa using ELECTRA-Style Pre-Training with Gradient-Disentangled Embedding Sharing](https://arxiv.org/abs/2111.09543v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/microsoft/DeBERTa)",
+        "n": "DeBERTaV3large",
+        "d": "2021-11-18",
+        "m1": "96%"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ELECTRA",
+        "d": null,
+        "m1": "95.4%"
+      },
+      {
+        "p": "[DeBERTa: Decoding-enhanced BERT with Disentangled Attention](https://arxiv.org/abs/2006.03654v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "DeBERTa (large)",
+        "d": "2020-06-05",
+        "m1": "95.3%"
+      },
+      {
+        "p": "[XLNet: Generalized Autoregressive Pretraining for Language Understanding](https://arxiv.org/abs/1906.08237v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "XLNet (single model)",
+        "d": "2019-06-19",
+        "m1": "94.9%"
+      },
+      {
+        "p": "[Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "T5-Large 770M",
+        "d": "2019-10-23",
+        "m1": "94.8%"
+      },
+      {
+        "p": "[LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale](https://arxiv.org/abs/2208.07339v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/timdettmers/bitsandbytes)",
+        "n": "RoBERTa-large 355M (MLP quantized vector-wise, fine-tuned)",
+        "d": "2022-08-15",
+        "m1": "94.7%"
+      },
+      {
+        "p": "[ERNIE 2.0: A Continual Pre-training Framework for Language Understanding](https://arxiv.org/abs/1907.12412v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/model_zoo/ernie-1.0)",
+        "n": "ERNIE 2.0 Large",
+        "d": "2019-07-29",
+        "m1": "94.6%"
+      },
+      {
+        "p": "[A Statistical Framework for Low-bitwidth Training of Deep Neural Networks](https://arxiv.org/abs/2010.14298v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/cjf00000/StatQuant)",
+        "n": "PSQ (Chen et al., 2020)",
+        "d": "2020-10-27",
+        "m1": "94.5"
+      },
+      {
+        "p": "[Entailment as Few-Shot Learner](https://arxiv.org/abs/2104.14690v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/examples/few_shot/efl)",
+        "n": "RoBERTa-large 355M + Entailment as Few-shot Learner",
+        "d": "2021-04-29",
+        "m1": "94.5%"
+      },
+      {
+        "p": "[SpanBERT: Improving Pre-training by Representing and Predicting Spans](https://arxiv.org/abs/1907.10529v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/SpanBERT)",
+        "n": "SpanBERT",
+        "d": "2019-07-24",
+        "m1": "94.3%"
+      },
+      {
+        "p": "[TRANS-BLSTM: Transformer with Bidirectional LSTM for Language Understanding](https://arxiv.org/abs/2003.07000v1)",
+        "c": "",
+        "n": "TRANS-BLSTM",
+        "d": "2020-03-16",
+        "m1": "94.08%"
+      },
+      {
+        "p": "[Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "T5-Base",
+        "d": "2019-10-23",
+        "m1": "93.7%"
+      },
+      {
+        "p": "[Adversarial Self-Attention for Language Understanding](https://arxiv.org/abs/2206.12608v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/gingasan/adversarialsa)",
+        "n": "ASA + RoBERTa",
+        "d": "2022-06-25",
+        "m1": "93.6%"
+      },
+      {
+        "p": "[CLEAR: Contrastive Learning for Sentence Representation](https://arxiv.org/abs/2012.15466v1)",
+        "c": "",
+        "n": "MLM+ subs+ del-span",
+        "d": "2020-12-31",
+        "m1": "93.4%"
+      },
+      {
+        "p": "[Q-BERT: Hessian Based Ultra Low Precision Quantization of BERT](https://arxiv.org/abs/1909.05840v2)",
+        "c": "",
+        "n": "Q-BERT (Shen et al., 2020)",
+        "d": "2019-09-12",
+        "m1": "93.0"
+      },
+      {
+        "p": "[Q8BERT: Quantized 8Bit BERT](https://arxiv.org/abs/1910.06188v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/NervanaSystems/nlp-architect/blob/master/nlp_architect/models/transformers/quantized_bert.py)",
+        "n": "Q8BERT (Zafrir et al., 2019)",
+        "d": "2019-10-14",
+        "m1": "93.0"
+      },
+      {
+        "p": "[ERNIE 2.0: A Continual Pre-training Framework for Language Understanding](https://arxiv.org/abs/1907.12412v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/model_zoo/ernie-1.0)",
+        "n": "ERNIE 2.0 Base",
+        "d": "2019-07-29",
+        "m1": "92.9%"
+      },
+      {
+        "p": "[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "BERT-LARGE",
+        "d": "2018-10-11",
+        "m1": "92.7%"
+      },
+      {
+        "p": "[Big Bird: Transformers for Longer Sequences](https://arxiv.org/abs/2007.14062v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "BigBird",
+        "d": "2020-07-28",
+        "m1": "92.2%"
+      },
+      {
+        "p": "[RealFormer: Transformer Likes Residual Attention](https://arxiv.org/abs/2012.11747v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research)",
+        "n": "RealFormer",
+        "d": "2020-12-21",
+        "m1": "91.89%"
+      },
+      {
+        "p": "[Adversarial Self-Attention for Language Understanding](https://arxiv.org/abs/2206.12608v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/gingasan/adversarialsa)",
+        "n": "ASA + BERT-base",
+        "d": "2022-06-25",
+        "m1": "91.4%"
+      },
+      {
+        "p": "[ERNIE: Enhanced Language Representation with Informative Entities](https://arxiv.org/abs/1905.07129v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/thunlp/ERNIE)",
+        "n": "ERNIE",
+        "d": "2019-05-17",
+        "m1": "91.3%"
+      },
+      {
+        "p": "[data2vec: A General Framework for Self-supervised Learning in Speech, Vision and Language](https://arxiv.org/abs/2202.03555v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers/tree/main/src/transformers/models/data2vec)",
+        "n": "data2vec",
+        "d": "2022-02-07",
+        "m1": "91.1%"
+      },
+      {
+        "p": "[Charformer: Fast Character Transformers via Gradient-based Subword Tokenization](https://arxiv.org/abs/2106.12672v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research)",
+        "n": "Charformer-Tall",
+        "d": "2021-06-23",
+        "m1": "91.0%"
+      },
+      {
+        "p": "[How to Train BERT with an Academic Budget](https://arxiv.org/abs/2104.07705v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/peteriz/academic-budget-bert)",
+        "n": "24hBERT",
+        "d": "2021-04-15",
+        "m1": "90.6"
+      },
+      {
+        "p": "[SenseBERT: Driving Some Sense into BERT](https://arxiv.org/abs/1908.05646v2)",
+        "c": "",
+        "n": "SenseBERT-base 110M",
+        "d": "2019-08-15",
+        "m1": "90.6%"
+      },
+      {
+        "p": "[TinyBERT: Distilling BERT for Natural Language Understanding](https://arxiv.org/abs/1909.10351v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/paddlenlp/transformers/tinybert)",
+        "n": "TinyBERT-6 67M",
+        "d": "2019-09-23",
+        "m1": "90.4%"
+      },
+      {
+        "p": "[Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "T5-Small",
+        "d": "2019-10-23",
+        "m1": "90.3%"
+      },
+      {
+        "p": "[DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter](https://arxiv.org/abs/1910.01108v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "DistilBERT 66M",
+        "d": "2019-10-02",
+        "m1": "90.2%"
+      },
+      {
+        "p": "[SqueezeBERT: What can computer vision teach NLP about efficient neural networks?](https://arxiv.org/abs/2006.11316v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers/blob/main/src/transformers/models/squeezebert/modeling_squeezebert.py)",
+        "n": "SqueezeBERT",
+        "d": "2020-06-19",
+        "m1": "90.1%"
+      },
+      {
+        "p": "[Nyströmformer: A Nyström-Based Algorithm for Approximating Self-Attention](https://arxiv.org/abs/2102.03902v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/xformers)",
+        "n": "Nyströmformer",
+        "d": "2021-02-07",
+        "m1": "88.7%"
+      },
+      {
+        "p": "[TinyBERT: Distilling BERT for Natural Language Understanding](https://arxiv.org/abs/1909.10351v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/paddlenlp/transformers/tinybert)",
+        "n": "TinyBERT-4 14.5M",
+        "d": "2019-09-23",
+        "m1": "87.7%"
+      },
+      {
+        "p": "[FNet: Mixing Tokens with Fourier Transforms](https://arxiv.org/abs/2105.03824v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+        "n": "FNet-Large",
+        "d": "2021-05-09",
+        "m1": "85%"
+      },
+      {
+        "p": "[LM-CPPF: Paraphrasing-Guided Data Augmentation for Contrastive Prompt-Based Few-Shot Fine-Tuning](https://arxiv.org/abs/2305.18169v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/amirabaskohi/lm-cppf)",
+        "n": "LM-CPPF RoBERTa-base",
+        "d": "2023-05-29",
+        "m1": "70.2%"
+      },
+      {
+        "p": "[SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization](https://arxiv.org/abs/1911.03437v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/namisan/mt-dnn)",
+        "n": "SMART-BERT",
+        "d": "2019-11-08"
+      },
+      {
+        "p": "[SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization](https://arxiv.org/abs/1911.03437v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/namisan/mt-dnn)",
+        "n": "SMARTRoBERTa",
+        "d": "2019-11-08"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

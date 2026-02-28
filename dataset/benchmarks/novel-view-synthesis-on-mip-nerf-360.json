@@ -1,0 +1,181 @@
+{
+  "title": "novel-view-synthesis-on-mip-nerf-360",
+  "task-hierarchy": [
+    "Novel View Synthesis"
+  ],
+  "dataset-info": {
+    "link": "https://jonbarron.info/mipnerf360/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "LPIPS",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Size (MB)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[MVGS: Multi-view-regulated Gaussian Splatting for Novel View Synthesis](https://arxiv.org/abs/2410.02103v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/xiaobiaodu/MVGS)",
+        "n": "MVGS",
+        "d": "2024-10-02",
+        "m1": "0.171",
+        "m2": "29.82",
+        "m3": "0.877"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "RadSplat",
+        "d": null,
+        "m1": "0.171",
+        "m2": "28.14",
+        "m3": "0.843"
+      },
+      {
+        "p": "[LightGaussian: Unbounded 3D Gaussian Compression with 15x Reduction and 200+ FPS](https://arxiv.org/abs/2311.17245v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/VITA-Group/LightGaussian)",
+        "n": "LightGaussian",
+        "d": "2023-11-28",
+        "m1": "0.21",
+        "m2": "28.45",
+        "m3": "0.857"
+      },
+      {
+        "p": "[3DGEER: Exact and Efficient Volumetric Rendering with 3D Gaussians](https://arxiv.org/abs/2505.24053v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/zixunh/3DGEER)",
+        "n": "3DGEER",
+        "d": "2025-05-29",
+        "m1": "0.210",
+        "m2": "27.76",
+        "m3": "0.821"
+      },
+      {
+        "p": "[3D Gaussian Splatting for Real-Time Radiance Field Rendering](https://arxiv.org/abs/2308.04079v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/graphdeco-inria/gaussian-splatting)",
+        "n": "3D Gaussian Splatting",
+        "d": "2023-08-08",
+        "m1": "0.214",
+        "m2": "27.21",
+        "m3": "0.815"
+      },
+      {
+        "p": "[Compact 3D Scene Representation via Self-Organizing Gaussian Grids](https://arxiv.org/abs/2312.13299v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/uco3d)",
+        "n": "Self-Organizing Gaussians",
+        "d": "2023-12-19",
+        "m1": "0.22",
+        "m2": "27.64",
+        "m3": "0.864",
+        "m4": "40.3"
+      },
+      {
+        "p": "[CompGS: Smaller and Faster Gaussian Splatting with Vector Quantization](https://arxiv.org/abs/2311.18159v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/ucdvision/compact3d)",
+        "n": "Compact3D",
+        "d": "2023-11-30",
+        "m1": "0.228",
+        "m2": "27.16",
+        "m3": "0.808"
+      },
+      {
+        "p": "[HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression](https://arxiv.org/abs/2403.14530v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/yihangchen-ee/hac)",
+        "n": "HAC 3DGS",
+        "d": "2024-03-21",
+        "m1": "0.230",
+        "m2": "27.77",
+        "m3": "0.811"
+      },
+      {
+        "p": "[Compressed 3D Gaussian Splatting for Accelerated Novel View Synthesis](https://arxiv.org/abs/2401.02436v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/KeKsBoTer/c3dgs)",
+        "n": "Compressed 3D Gaussian Splatting",
+        "d": "2023-11-17",
+        "m1": "0.238",
+        "m2": "26.98",
+        "m3": "0.80"
+      },
+      {
+        "p": "[Compact 3D Gaussian Representation for Radiance Field](https://arxiv.org/abs/2311.13681v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/maincold2/Compact-3DGS)",
+        "n": "C3DGS",
+        "d": "2023-11-22",
+        "m1": "0.247",
+        "m2": "27.08",
+        "m3": "0.798"
+      },
+      {
+        "p": "[MobileNeRF: Exploiting the Polygon Rasterization Pipeline for Efficient Neural Field Rendering on Mobile Architectures](https://arxiv.org/abs/2208.00277v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/jax3d)",
+        "n": "NeRF++",
+        "d": "2022-07-30",
+        "m1": "0.427",
+        "m2": "22.76",
+        "m3": "0.548"
+      },
+      {
+        "p": "[MobileNeRF: Exploiting the Polygon Rasterization Pipeline for Efficient Neural Field Rendering on Mobile Architectures](https://arxiv.org/abs/2208.00277v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/jax3d)",
+        "n": "MobileNeRF",
+        "d": "2022-07-30",
+        "m1": "0.47",
+        "m2": "21.95",
+        "m3": "0.47"
+      },
+      {
+        "p": "[MobileNeRF: Exploiting the Polygon Rasterization Pipeline for Efficient Neural Field Rendering on Mobile Architectures](https://arxiv.org/abs/2208.00277v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/jax3d)",
+        "n": "NeRF",
+        "d": "2022-07-30",
+        "m1": "0.515",
+        "m2": "21.46",
+        "m3": "0.458"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Li Auto Inc.",
+        "d": null,
+        "m1": "NaN",
+        "m2": "Inf",
+        "m3": "Inf"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

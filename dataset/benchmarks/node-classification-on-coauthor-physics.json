@@ -1,0 +1,134 @@
+{
+  "title": "node-classification-on-coauthor-physics",
+  "task-hierarchy": [
+    "Node Classification"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Clarify Confused Nodes via Separated Learning](https://arxiv.org/abs/2306.02285v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/GISec-Team/NCGNN)",
+        "n": "NCSAGE",
+        "d": "2023-06-04",
+        "m1": "98.69 ± 0.26"
+      },
+      {
+        "p": "[Clarify Confused Nodes via Separated Learning](https://arxiv.org/abs/2306.02285v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/GISec-Team/NCGNN)",
+        "n": "NCGCN",
+        "d": "2023-06-04",
+        "m1": "98.63 ± 0.24"
+      },
+      {
+        "p": "[Classic GNNs are Strong Baselines: Reassessing GNNs for Node Classification](https://arxiv.org/abs/2406.08993v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/LUOyk1999/tunedGNN)",
+        "n": "GCN",
+        "d": "2024-06-13",
+        "m1": "97.46 ± 0.10"
+      },
+      {
+        "p": "[Inferring from References with Differences for Semi-Supervised Node Classification on Graphs](https://www.mdpi.com/2227-7390/10/8/1262/htm)",
+        "c": "[&check;&nbsp;Link](https://github.com/cf020031308/3ference)",
+        "n": "3ference",
+        "d": "2022-04-11",
+        "m1": "97.22%"
+      },
+      {
+        "p": "[Distilling Self-Knowledge From Contrastive Links to Classify Graph Nodes Without Passing Messages](https://arxiv.org/abs/2106.08541v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/cf020031308/LinkDist/blob/master/ogbn.py)",
+        "n": "CoLinkDist",
+        "d": "2021-06-16",
+        "m1": "97.05%"
+      },
+      {
+        "p": "[Mixture of Experts Meets Decoupled Message Passing: Towards General and Adaptive Node Classification](https://arxiv.org/abs/2412.08193v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/GISec-Team/GNNMoE)",
+        "n": "GNNMoE(GAT-like P)",
+        "d": "2024-12-11",
+        "m1": "97.05±0.19"
+      },
+      {
+        "p": "[Mixture of Experts Meets Decoupled Message Passing: Towards General and Adaptive Node Classification](https://arxiv.org/abs/2412.08193v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/GISec-Team/GNNMoE)",
+        "n": "GNNMoE(GCN-like P)",
+        "d": "2024-12-11",
+        "m1": "97.03±0.13"
+      },
+      {
+        "p": "[Distilling Self-Knowledge From Contrastive Links to Classify Graph Nodes Without Passing Messages](https://arxiv.org/abs/2106.08541v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/cf020031308/LinkDist/blob/master/ogbn.py)",
+        "n": "LinkDistMLP",
+        "d": "2021-06-16",
+        "m1": "96.91%"
+      },
+      {
+        "p": "[Exphormer: Sparse Transformers for Graphs](https://arxiv.org/abs/2303.06147v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/hamed1375/exphormer)",
+        "n": "Exphormer",
+        "d": "2023-03-10",
+        "m1": "96.89±0.09%"
+      },
+      {
+        "p": "[Distilling Self-Knowledge From Contrastive Links to Classify Graph Nodes Without Passing Messages](https://arxiv.org/abs/2106.08541v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/cf020031308/LinkDist/blob/master/ogbn.py)",
+        "n": "CoLinkDistMLP",
+        "d": "2021-06-16",
+        "m1": "96.87%"
+      },
+      {
+        "p": "[Distilling Self-Knowledge From Contrastive Links to Classify Graph Nodes Without Passing Messages](https://arxiv.org/abs/2106.08541v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/cf020031308/LinkDist/blob/master/ogbn.py)",
+        "n": "LinkDist",
+        "d": "2021-06-16",
+        "m1": "96.87%"
+      },
+      {
+        "p": "[Mixture of Experts Meets Decoupled Message Passing: Towards General and Adaptive Node Classification](https://arxiv.org/abs/2412.08193v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/GISec-Team/GNNMoE)",
+        "n": "GNNMoE(SAGE-like P)",
+        "d": "2024-12-11",
+        "m1": "96.81±0.22"
+      },
+      {
+        "p": "[GraphMix: Improved Training of GNNs for Semi-Supervised Learning](https://arxiv.org/abs/1909.11715v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/vikasverma1077/GraphMix)",
+        "n": "GraphMix (GCN)",
+        "d": "2019-09-25",
+        "m1": "94.49 ± 0.84"
+      },
+      {
+        "p": "[Towards Deeper Graph Neural Networks](https://arxiv.org/abs/2007.09296v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/dagnn)",
+        "n": "DAGNN (Ours)",
+        "d": "2020-07-18",
+        "m1": "94"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

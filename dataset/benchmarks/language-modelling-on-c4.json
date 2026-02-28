@@ -1,0 +1,118 @@
+{
+  "title": "language-modelling-on-c4",
+  "task-hierarchy": [
+    "Language Modelling"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/google-research/text-to-text-transfer-transformer#c4"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Perplexity",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "TPUv3 Hours",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Steps",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Primer: Searching for Efficient Transformers for Language Modeling](https://arxiv.org/abs/2109.08668v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+        "n": "Primer",
+        "d": "2021-09-17",
+        "m1": "12.35",
+        "m2": "17.3K",
+        "m3": "1M"
+      },
+      {
+        "p": "[LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale](https://arxiv.org/abs/2208.07339v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/timdettmers/bitsandbytes)",
+        "n": "Zeropoint LLM.int8 13B (vector-wise + decomp)",
+        "d": "2022-08-15",
+        "m1": "12.45"
+      },
+      {
+        "p": "[Primer: Searching for Efficient Transformers for Language Modeling](https://arxiv.org/abs/2109.08668v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+        "n": "T5++",
+        "d": "2021-09-17",
+        "m1": "12.69",
+        "m2": "16.5K",
+        "m3": "1M"
+      },
+      {
+        "p": "[Primer: Searching for Efficient Transformers for Language Modeling](https://arxiv.org/abs/2109.08668v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+        "n": "Original T5",
+        "d": "2021-09-17",
+        "m1": "13.25",
+        "m2": "15.7K",
+        "m3": "1M"
+      },
+      {
+        "p": "[LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale](https://arxiv.org/abs/2208.07339v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/timdettmers/bitsandbytes)",
+        "n": "LLM.float32 6.7B",
+        "d": "2022-08-15",
+        "m1": "13.3"
+      },
+      {
+        "p": "[LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale](https://arxiv.org/abs/2208.07339v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/timdettmers/bitsandbytes)",
+        "n": "LLM.float32 2.7B",
+        "d": "2022-08-15",
+        "m1": "14.43"
+      },
+      {
+        "p": "[N-Grammer: Augmenting Transformers with latent n-grams](https://arxiv.org/abs/2207.06366v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/lingvo)",
+        "n": "N-Grammer 343M",
+        "d": "2022-07-13",
+        "m1": "14.79"
+      },
+      {
+        "p": "[N-Grammer: Augmenting Transformers with latent n-grams](https://arxiv.org/abs/2207.06366v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/lingvo)",
+        "n": "N-Grammer 288M",
+        "d": "2022-07-13",
+        "m1": "15.01"
+      },
+      {
+        "p": "[LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale](https://arxiv.org/abs/2208.07339v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/timdettmers/bitsandbytes)",
+        "n": "LLM.float32 1.3B",
+        "d": "2022-08-15",
+        "m1": "15.91"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

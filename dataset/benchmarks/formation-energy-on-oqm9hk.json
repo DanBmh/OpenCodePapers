@@ -1,0 +1,68 @@
+{
+  "title": "formation-energy-on-oqm9hk",
+  "task-hierarchy": [
+    "Atomistic Description",
+    "Formation Energy"
+  ],
+  "dataset-info": {
+    "link": "https://doi.org/10.5281/zenodo.7124330"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MAE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[OQM9HK: A Large-Scale Graph Dataset for Machine Learning in Materials Science](https://www.researchgate.net/publication/364167371_OQM9HK_A_Large-Scale_Graph_Dataset_for_Machine_Learning_in_Materials_Science)",
+        "c": "[&check;&nbsp;Link](https://github.com/Tony-Y/cgnn)",
+        "n": "CGNN Full Ensemble",
+        "d": "2022-09-30",
+        "m1": "0.03433"
+      },
+      {
+        "p": "[OQM9HK: A Large-Scale Graph Dataset for Machine Learning in Materials Science](https://www.researchgate.net/publication/364167371_OQM9HK_A_Large-Scale_Graph_Dataset_for_Machine_Learning_in_Materials_Science)",
+        "c": "[&check;&nbsp;Link](https://github.com/Tony-Y/cgnn)",
+        "n": "CGNN Trio Ensemble",
+        "d": "2022-09-30",
+        "m1": "0.03658"
+      },
+      {
+        "p": "[OQM9HK: A Large-Scale Graph Dataset for Machine Learning in Materials Science](https://www.researchgate.net/publication/364167371_OQM9HK_A_Large-Scale_Graph_Dataset_for_Machine_Learning_in_Materials_Science)",
+        "c": "[&check;&nbsp;Link](https://github.com/Tony-Y/cgnn)",
+        "n": "CGNN",
+        "d": "2022-09-30",
+        "m1": "0.04249 ± 0.00037"
+      },
+      {
+        "p": "[SchNet: A continuous-filter convolutional neural network for modeling quantum interactions](http://arxiv.org/abs/1706.08566v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/atomistic-machine-learning/schnetpack)",
+        "n": "SchNet",
+        "d": "2017-06-26",
+        "m1": "0.31"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

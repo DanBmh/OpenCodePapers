@@ -1,0 +1,81 @@
+{
+  "title": "image-generation-on-cityscapes",
+  "task-hierarchy": [
+    "Image Generation"
+  ],
+  "dataset-info": {
+    "link": "https://www.cityscapes-dataset.com/dataset-overview/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "FID-10k-training-steps",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Projected GANs Converge Faster](https://arxiv.org/abs/2111.01007v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/autonomousvision/projected_gan)",
+        "n": "Projected GAN",
+        "d": "2021-11-01",
+        "m1": "3.41"
+      },
+      {
+        "p": "[Generative Adversarial Transformers](https://arxiv.org/abs/2103.01209v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/dorarad/gansformer)",
+        "n": "GANformer",
+        "d": "2021-03-01",
+        "m1": "5.7589"
+      },
+      {
+        "p": "[Generative Adversarial Transformers](https://arxiv.org/abs/2103.01209v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/dorarad/gansformer)",
+        "n": "StyleGAN2",
+        "d": "2021-03-01",
+        "m1": "8.35"
+      },
+      {
+        "p": "[Generative Adversarial Transformers](https://arxiv.org/abs/2103.01209v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/dorarad/gansformer)",
+        "n": "GAN",
+        "d": "2021-03-01",
+        "m1": "11.5652"
+      },
+      {
+        "p": "[Generative Adversarial Transformers](https://arxiv.org/abs/2103.01209v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/dorarad/gansformer)",
+        "n": "SAGAN",
+        "d": "2021-03-01",
+        "m1": "12.8077"
+      },
+      {
+        "p": "[Generative Adversarial Transformers](https://arxiv.org/abs/2103.01209v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/dorarad/gansformer)",
+        "n": "VQGAN",
+        "d": "2021-03-01",
+        "m1": "173.7971"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

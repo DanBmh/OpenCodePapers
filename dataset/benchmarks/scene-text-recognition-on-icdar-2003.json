@@ -1,0 +1,123 @@
+{
+  "title": "scene-text-recognition-on-icdar-2003",
+  "task-hierarchy": [
+    "Scene Text Recognition"
+  ],
+  "dataset-info": {
+    "link": "http://www.imglab.org/db/index.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Why You Should Try the Real Data for the Scene Text Recognition](https://arxiv.org/abs/2107.13938v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/openvinotoolkit/training_extensions)",
+        "n": "Yet Another Text Recognizer",
+        "d": "2021-07-29",
+        "m1": "97.1"
+      },
+      {
+        "p": "[Self-supervised Implicit Glyph Attention for Text Recognition](https://arxiv.org/abs/2203.03382v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/tongkunguan/siga)",
+        "n": "SIGA_T",
+        "d": "2022-03-07",
+        "m1": "97.0"
+      },
+      {
+        "p": "[On Recognizing Texts of Arbitrary Shapes with 2D Self-Attention](https://arxiv.org/abs/1910.04396v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Media-Smart/vedastr)",
+        "n": "SATRN",
+        "d": "2019-10-10",
+        "m1": "96.7"
+      },
+      {
+        "p": "[Decoupled Attention Network for Text Recognition](https://arxiv.org/abs/1912.10205v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/topdu/openocr)",
+        "n": "DAN",
+        "d": "2019-12-21",
+        "m1": "95.0"
+      },
+      {
+        "p": "[SAFL: A Self-Attention Scene Text Recognizer with Focal Loss](https://arxiv.org/abs/2201.00132v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ICMLA-SAFL/SAFL_pytorch)",
+        "n": "SAFL",
+        "d": "2022-01-01",
+        "m1": "95.0"
+      },
+      {
+        "p": "[Revisiting Classification Perspective on Scene Text Recognition](https://arxiv.org/abs/2102.10884v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/Media-Smart/vedastr)",
+        "n": "CSTR",
+        "d": "2021-02-22",
+        "m1": "94.8"
+      },
+      {
+        "p": "[What Is Wrong With Scene Text Recognition Model Comparisons? Dataset and Model Analysis](https://arxiv.org/abs/1904.01906v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/clovaai/deep-text-recognition-benchmark)",
+        "n": "Baek et al.",
+        "d": "2019-04-03",
+        "m1": "94.4"
+      },
+      {
+        "p": "[Vision Transformer for Fast and Efficient Scene Text Recognition](https://arxiv.org/abs/2105.08582v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleOCR)",
+        "n": "ViTSTR",
+        "d": "2021-05-18",
+        "m1": "94.3"
+      },
+      {
+        "p": "[AON: Towards Arbitrarily-Oriented Text Recognition](http://arxiv.org/abs/1711.04226v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/huizhang0110/AON)",
+        "n": "AON",
+        "d": "2017-11-12",
+        "m1": "91.5"
+      },
+      {
+        "p": "[Robust Scene Text Recognition with Automatic Rectification](http://arxiv.org/abs/1603.03915v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleOCR)",
+        "n": "RARE",
+        "d": "2016-03-12",
+        "m1": "90.1"
+      },
+      {
+        "p": "[Star-net: A spatial attention residue network for scene text recognition.](http://www.bmva.org/bmvc/2016/papers/paper043/paper043.pdf)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleOCR)",
+        "n": "STAR-Net",
+        "d": "2016-09-20",
+        "m1": "89.9"
+      },
+      {
+        "p": "[An End-to-End Trainable Neural Network for Image-based Sequence Recognition and Its Application to Scene Text Recognition](http://arxiv.org/abs/1507.05717v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleOCR)",
+        "n": "CRNN",
+        "d": "2015-07-21",
+        "m1": "89.4"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

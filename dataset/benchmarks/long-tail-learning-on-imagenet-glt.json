@@ -1,0 +1,79 @@
+{
+  "title": "long-tail-learning-on-imagenet-glt",
+  "task-hierarchy": [
+    "Generalized Few-Shot Learning",
+    "Long-tail Learning"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Invariant Feature Learning for Generalized Long-Tailed Classification](https://arxiv.org/abs/2207.09504v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/kaihuatang/generalized-long-tailed-benchmarks.pytorch)",
+        "n": "RIDE + IFL",
+        "d": "2022-07-19",
+        "m1": "45.64"
+      },
+      {
+        "p": "[Invariant Feature Learning for Generalized Long-Tailed Classification](https://arxiv.org/abs/2207.09504v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/kaihuatang/generalized-long-tailed-benchmarks.pytorch)",
+        "n": "RandAug + IFL",
+        "d": "2022-07-19",
+        "m1": "44.90"
+      },
+      {
+        "p": "[Invariant Feature Learning for Generalized Long-Tailed Classification](https://arxiv.org/abs/2207.09504v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/kaihuatang/generalized-long-tailed-benchmarks.pytorch)",
+        "n": "Logit-Adj + IFL",
+        "d": "2022-07-19",
+        "m1": "40.52"
+      },
+      {
+        "p": "[Invariant Feature Learning for Generalized Long-Tailed Classification](https://arxiv.org/abs/2207.09504v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/kaihuatang/generalized-long-tailed-benchmarks.pytorch)",
+        "n": "BLSoftmax + IFL",
+        "d": "2022-07-19",
+        "m1": "40.08"
+      },
+      {
+        "p": "[Invariant Feature Learning for Generalized Long-Tailed Classification](https://arxiv.org/abs/2207.09504v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/kaihuatang/generalized-long-tailed-benchmarks.pytorch)",
+        "n": "LDAM",
+        "d": "2022-07-19",
+        "m1": "38.54"
+      },
+      {
+        "p": "[Invariant Feature Learning for Generalized Long-Tailed Classification](https://arxiv.org/abs/2207.09504v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/kaihuatang/generalized-long-tailed-benchmarks.pytorch)",
+        "n": "cRT",
+        "d": "2022-07-19",
+        "m1": "37.57"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

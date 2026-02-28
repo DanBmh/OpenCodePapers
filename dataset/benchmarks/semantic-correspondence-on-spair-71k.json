@@ -1,0 +1,193 @@
+{
+  "title": "semantic-correspondence-on-spair-71k",
+  "task-hierarchy": [
+    "Semantic correspondence"
+  ],
+  "dataset-info": {
+    "link": "http://cvlab.postech.ac.kr/research/SPair-71k/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PCK",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Telling Left from Right: Identifying Geometry-Aware Semantic Correspondence](https://arxiv.org/abs/2311.17034v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Junyi42/geoaware-sc)",
+        "n": "GeoAware-SC (Supervised, AP-10K P.T.)",
+        "d": "2023-11-28",
+        "m1": "85.6"
+      },
+      {
+        "p": "[Semantic Correspondence: Unified Benchmarking and a Strong Baseline](https://arxiv.org/abs/2505.18060v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Visual-AI/Semantic-Correspondence)",
+        "n": "DINOv2",
+        "d": "2025-05-23",
+        "m1": "85.2"
+      },
+      {
+        "p": "[Telling Left from Right: Identifying Geometry-Aware Semantic Correspondence](https://arxiv.org/abs/2311.17034v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Junyi42/geoaware-sc)",
+        "n": "GeoAware-SC (Supervised)",
+        "d": "2023-11-28",
+        "m1": "82.9"
+      },
+      {
+        "p": "[A Tale of Two Features: Stable Diffusion Complements DINO for Zero-Shot Semantic Correspondence](https://arxiv.org/abs/2305.15347v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Junyi42/sd-dino)",
+        "n": "SD+DINO (Supervised)",
+        "d": "2023-05-24",
+        "m1": "74.6"
+      },
+      {
+        "p": "[CleanDIFT: Diffusion Features without Noise](https://arxiv.org/abs/2412.03439v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/CompVis/cleandift)",
+        "n": "GeoAware-SC + CleanDIFT (Zero-Shot)",
+        "d": "2024-12-04",
+        "m1": "70.0"
+      },
+      {
+        "p": "[Telling Left from Right: Identifying Geometry-Aware Semantic Correspondence](https://arxiv.org/abs/2311.17034v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Junyi42/geoaware-sc)",
+        "n": "GeoAware-SC (Zero-Shot)",
+        "d": "2023-11-28",
+        "m1": "68.5"
+      },
+      {
+        "p": "[CleanDIFT: Diffusion Features without Noise](https://arxiv.org/abs/2412.03439v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/CompVis/cleandift)",
+        "n": "SD+DINO + CleanDIFT (Zero-Shot)",
+        "d": "2024-12-04",
+        "m1": "64.8"
+      },
+      {
+        "p": "[Integrative Feature and Cost Aggregation with Transformers for Dense Correspondence](https://arxiv.org/abs/2209.08742v2)",
+        "c": "",
+        "n": "IFCAT",
+        "d": "2022-09-19",
+        "m1": "64.4"
+      },
+      {
+        "p": "[A Tale of Two Features: Stable Diffusion Complements DINO for Zero-Shot Semantic Correspondence](https://arxiv.org/abs/2305.15347v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Junyi42/sd-dino)",
+        "n": "SD+DINO (Zero-shot)",
+        "d": "2023-05-24",
+        "m1": "64.0"
+      },
+      {
+        "p": "[CleanDIFT: Diffusion Features without Noise](https://arxiv.org/abs/2412.03439v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/CompVis/cleandift)",
+        "n": "DIFT + CleanDIFT (Zero-Shot)",
+        "d": "2024-12-04",
+        "m1": "61.4"
+      },
+      {
+        "p": "[CATs++: Boosting Cost Aggregation with Convolutions and Transformers](https://arxiv.org/abs/2202.06817v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/KU-CVLAB/CATs-PlusPlus)",
+        "n": "CATs++",
+        "d": "2022-02-14",
+        "m1": "59.8"
+      },
+      {
+        "p": "[Cost Aggregation with 4D Convolutional Swin Transformer for Few-Shot Segmentation](https://arxiv.org/abs/2207.10866v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Seokju-Cho/Volumetric-Aggregation-Transformer)",
+        "n": "VAT (ECCV)",
+        "d": "2022-07-22",
+        "m1": "55.5"
+      },
+      {
+        "p": "[Cost Aggregation Is All You Need for Few-Shot Segmentation](https://arxiv.org/abs/2112.11685v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Seokju-Cho/Volumetric-Aggregation-Transformer)",
+        "n": "VAT",
+        "d": "2021-12-22",
+        "m1": "54.2"
+      },
+      {
+        "p": "[TransforMatcher: Match-to-Match Attention for Semantic Correspondence](https://arxiv.org/abs/2205.11634v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/wookiekim/transformatcher)",
+        "n": "TransforMatcher",
+        "d": "2022-05-23",
+        "m1": "53.7"
+      },
+      {
+        "p": "[Multi-scale Matching Networks for Semantic Correspondence](https://arxiv.org/abs/2108.00211v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/wintersun661/MMNet)",
+        "n": "MMNet",
+        "d": "2021-07-31",
+        "m1": "50.4"
+      },
+      {
+        "p": "[CATs: Cost Aggregation Transformers for Visual Correspondence](https://arxiv.org/abs/2106.02520v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/SunghwanHong/Cost-Aggregation-transformers)",
+        "n": "CATs",
+        "d": "2021-06-04",
+        "m1": "49.9"
+      },
+      {
+        "p": "[Convolutional Hough Matching Networks](https://arxiv.org/abs/2103.16831v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/juhongm999/chm)",
+        "n": "CHM",
+        "d": "2021-03-31",
+        "m1": "46.3"
+      },
+      {
+        "p": "[Unsupervised Semantic Correspondence Using Stable Diffusion](https://arxiv.org/abs/2305.15581v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/ubc-vision/LDM_correspondences)",
+        "n": "LDMCorrespondences",
+        "d": "2023-05-24",
+        "m1": "45.4"
+      },
+      {
+        "p": "[Learning to Compose Hypercolumns for Visual Correspondence](https://arxiv.org/abs/2007.10587v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/juhongm999/dhpf)",
+        "n": "DHPF",
+        "d": "2020-07-21",
+        "m1": "37.3"
+      },
+      {
+        "p": "[Semantic Correspondence as an Optimal Transport Problem](http://openaccess.thecvf.com/content_CVPR_2020/html/Liu_Semantic_Correspondence_as_an_Optimal_Transport_Problem_CVPR_2020_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/csyanbin/SCOT)",
+        "n": "SCOT",
+        "d": "2020-06-01",
+        "m1": "35.6"
+      },
+      {
+        "p": "[Correspondence Networks with Adaptive Neighbourhood Consensus](https://arxiv.org/abs/2003.12059v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ActiveVisionLab/ANCNet)",
+        "n": "ANCNet",
+        "d": "2020-03-26",
+        "m1": "30.1"
+      },
+      {
+        "p": "[Hyperpixel Flow: Semantic Correspondence with Multi-layer Neural Features](https://arxiv.org/abs/1908.06537v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/juhongm999/hpf)",
+        "n": "HPF",
+        "d": "2019-08-18",
+        "m1": "28.2"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "title": "multi-label-classification-on-pascal-voc-2007",
+  "task-hierarchy": [
+    "Multi-Label Classification"
+  ],
+  "dataset-info": {
+    "link": "http://host.robots.ox.ac.uk/pascal/VOC/voc2007/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Query2Label: A Simple Transformer Way to Multi-Label Classification](https://arxiv.org/abs/2107.10834v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/SlongLiu/query2labels)",
+        "n": "Q2L-CvT(ImageNet-21K pretrained, resolution 384)",
+        "d": "2021-07-22",
+        "m1": "97.3"
+      },
+      {
+        "p": "[Query2Label: A Simple Transformer Way to Multi-Label Classification](https://arxiv.org/abs/2107.10834v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/SlongLiu/query2labels)",
+        "n": "Q2L-TResL(ImageNet-21K pretrained, resolution 448)",
+        "d": "2021-07-22",
+        "m1": "96.9"
+      },
+      {
+        "p": "[GKGNet: Group K-Nearest Neighbor based Graph Convolutional Network for Multi-Label Image Recognition](https://arxiv.org/abs/2308.14378v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/jin-s13/gkgnet)",
+        "n": "GKGNet",
+        "d": "2023-08-28",
+        "m1": "96.8"
+      },
+      {
+        "p": "[Combining Metric Learning and Attention Heads For Accurate and Efficient Multilabel Image Classification](https://arxiv.org/abs/2209.06585v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/openvinotoolkit/deep-object-reid)",
+        "n": "MLD-TResNetL-AAM (resolution 448, pretrain from OpenImages V6)",
+        "d": "2022-09-14",
+        "m1": "96.70"
+      },
+      {
+        "p": "[M3TR: Multi-modal Multi-label Recognition with Transformer](https://dl.acm.org/doi/10.1145/3474085.3475191)",
+        "c": "[&check;&nbsp;Link](https://github.com/iCVTEAM/M3TR)",
+        "n": "M3TR(448×448)",
+        "d": "2021-10-01",
+        "m1": "96.5"
+      },
+      {
+        "p": "[Query2Label: A Simple Transformer Way to Multi-Label Classification](https://arxiv.org/abs/2107.10834v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/SlongLiu/query2labels)",
+        "n": "Q2L-TResL(resolution 448)",
+        "d": "2021-07-22",
+        "m1": "96.1"
+      },
+      {
+        "p": "[Multi-layered Semantic Representation Network for Multi-label Image Classification](https://arxiv.org/abs/2106.11596v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/chehao2628/MSRN)",
+        "n": "MSRN(pretrain from MS-COCO)",
+        "d": "2021-06-22",
+        "m1": "96.0"
+      },
+      {
+        "p": "[Asymmetric Loss For Multi-Label Classification](https://arxiv.org/abs/2009.14119v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/Alibaba-MIIL/ASL)",
+        "n": "TResNet-L (resolution 448, pretrain from MS-COCO)",
+        "d": "2020-09-29",
+        "m1": "95.8"
+      },
+      {
+        "p": "[Learning Semantic-Specific Graph Representation for Multi-Label Image Recognition](https://arxiv.org/abs/1908.07325v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/HCPLab-SYSU/SSGRL)",
+        "n": "SSGRL (pretrain from MS-COCO)",
+        "d": "2019-08-20",
+        "m1": "95.0"
+      },
+      {
+        "p": "[Transformer-based Dual Relation Graph for Multi-label Image Recognition](https://arxiv.org/abs/2110.04722v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/iCVTEAM/TDRG)",
+        "n": "TDRG-R101(448×448)",
+        "d": "2021-10-10",
+        "m1": "95.0"
+      },
+      {
+        "p": "[Learning to Discover Multi-Class Attentional Regions for Multi-Label Image Recognition](https://arxiv.org/abs/2007.01755v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/gaobb/MCAR)",
+        "n": "MCAR (ResNet101, 448x448)",
+        "d": "2020-07-03",
+        "m1": "94.8"
+      },
+      {
+        "p": "[Asymmetric Loss For Multi-Label Classification](https://arxiv.org/abs/2009.14119v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/Alibaba-MIIL/ASL)",
+        "n": "TResNet-L (resolution 448, pretrain from ImageNet)",
+        "d": "2020-09-29",
+        "m1": "94.6"
+      },
+      {
+        "p": "[Multi-Label Image Recognition with Graph Convolutional Networks](http://arxiv.org/abs/1904.03582v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/megvii-research/ml-gcn)",
+        "n": "ML-GCN (pretrain from ImageNet)",
+        "d": "2019-04-07",
+        "m1": "94.0"
+      },
+      {
+        "p": "[Learning Semantic-Specific Graph Representation for Multi-Label Image Recognition](https://arxiv.org/abs/1908.07325v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/HCPLab-SYSU/SSGRL)",
+        "n": "SSGRL (pretrain from ImageNet)",
+        "d": "2019-08-20",
+        "m1": "93.4"
+      },
+      {
+        "p": "[Deep Label Distribution Learning with Label Ambiguity](http://arxiv.org/abs/1611.01731v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/gaobb/DLDL)",
+        "n": "Ours PF-DLDL",
+        "d": "2016-11-06",
+        "m1": "93.4"
+      },
+      {
+        "p": "[ImageNet-21K Pretraining for the Masses](https://arxiv.org/abs/2104.10972v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/Alibaba-MIIL/ImageNet21K)",
+        "n": "ViT-B-16 (ImageNet-21K pretrained)",
+        "d": "2021-04-22",
+        "m1": "93.1"
+      },
+      {
+        "p": "[Exploit Bounding Box Annotations for Multi-label Object Recognition](http://arxiv.org/abs/1504.05843v2)",
+        "c": "",
+        "n": "FeV+LV  (pretrain from ImageNet)",
+        "d": "2015-04-22",
+        "m1": "92.0"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

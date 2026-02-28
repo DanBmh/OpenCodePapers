@@ -1,0 +1,228 @@
+{
+  "title": "visual-question-answering-vqa-on-vlm2-bench",
+  "task-hierarchy": [
+    "Visual Question Answering (VQA)"
+  ],
+  "dataset-info": {
+    "link": "https://vlm2-bench.github.io/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "GC-mat",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "GC-trk",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "OC-cpr",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "OC-cnt",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "OC-grp",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "PC-cpr",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "PC-cnt",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "PC-grp",
+        "sortable": "true"
+      },
+      {
+        "key": "m9",
+        "label": "PC-VID",
+        "sortable": "true"
+      },
+      {
+        "key": "m10",
+        "label": "Average Score on VLM2-bench (9 subtasks)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[GPT-4o System Card](https://arxiv.org/abs/2410.21276v1)",
+        "c": "",
+        "n": "GPT-4o",
+        "d": "2024-10-25",
+        "m1": "37.45",
+        "m2": "39.27",
+        "m3": "74.17",
+        "m4": "80.62",
+        "m5": "57.50",
+        "m6": "50.00",
+        "m7": "90.50",
+        "m8": "47.00",
+        "m9": "66.75",
+        "m10": "60.36"
+      },
+      {
+        "p": "[Qwen2.5-VL Technical Report](https://arxiv.org/abs/2502.13923v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/qwenlm/qwen2-vl)",
+        "n": "Qwen2.5-VL-7B",
+        "d": "2025-02-19",
+        "m1": "35.91",
+        "m2": "43.38",
+        "m3": "71.39",
+        "m4": "41.72",
+        "m5": "47.50",
+        "m6": "80.00",
+        "m7": "57.98",
+        "m8": "69.00",
+        "m9": "46.50",
+        "m10": "54.82"
+      },
+      {
+        "p": "[Expanding Performance Boundaries of Open-Source Multimodal Models with Model, Data, and Test-Time Scaling](https://arxiv.org/abs/2412.05271v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internvl)",
+        "n": "InternVL2.5-26B",
+        "d": "2024-12-06",
+        "m1": "30.50",
+        "m2": "30.59",
+        "m3": "43.33",
+        "m4": "51.48",
+        "m5": "52.50",
+        "m6": "59.50",
+        "m7": "59.70",
+        "m8": "61.00",
+        "m9": "21.75",
+        "m10": "45.59"
+      },
+      {
+        "p": "[Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution](https://arxiv.org/abs/2409.12191v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/qwenlm/qwen2-vl)",
+        "n": "Qwen2-VL-7B",
+        "d": "2024-09-18",
+        "m1": "27.80",
+        "m2": "19.18",
+        "m3": "68.06",
+        "m4": "45.99",
+        "m5": "35.00",
+        "m6": "61.50",
+        "m7": "58.59",
+        "m8": "49.00",
+        "m9": "16.25",
+        "m10": "42.37"
+      },
+      {
+        "p": "[Expanding Performance Boundaries of Open-Source Multimodal Models with Model, Data, and Test-Time Scaling](https://arxiv.org/abs/2412.05271v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internvl)",
+        "n": "InternVL2.5-8B",
+        "d": "2024-12-06",
+        "m1": "21.24",
+        "m2": "26.03",
+        "m3": "53.33",
+        "m4": "55.23",
+        "m5": "46.50",
+        "m6": "51.50",
+        "m7": "60.00",
+        "m8": "52.00",
+        "m9": "5.25",
+        "m10": "41.23"
+      },
+      {
+        "p": "[Video Instruction Tuning With Synthetic Data](https://arxiv.org/abs/2410.02713v2)",
+        "c": "",
+        "n": "LLaVA-Video-7B",
+        "d": "2024-10-03",
+        "m1": "18.53",
+        "m2": "12.79",
+        "m3": "54.72",
+        "m4": "62.47",
+        "m5": "28.50",
+        "m6": "62.00",
+        "m7": "66.91",
+        "m8": "25.00",
+        "m9": "59.00",
+        "m10": "43.32"
+      },
+      {
+        "p": "[mPLUG-Owl3: Towards Long Image-Sequence Understanding in Multi-Modal Large Language Models](https://arxiv.org/abs/2408.04840v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/x-plug/mplug-owl)",
+        "n": "mPLUG-Owl3-7B",
+        "d": "2024-08-09",
+        "m1": "17.37",
+        "m2": "18.26",
+        "m3": "49.17",
+        "m4": "62.97",
+        "m5": "31.00",
+        "m6": "63.50",
+        "m7": "58.86",
+        "m8": "26.00",
+        "m9": "13.50",
+        "m10": "37.85"
+      },
+      {
+        "p": "[LLaVA-OneVision: Easy Visual Task Transfer](https://arxiv.org/abs/2408.03326v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/evolvinglmms-lab/lmms-eval)",
+        "n": "LLaVA-OneVision-7B",
+        "d": "2024-08-06",
+        "m1": "16.60",
+        "m2": "13.70",
+        "m3": "47.22",
+        "m4": "56.17",
+        "m5": "27.50",
+        "m6": "62.00",
+        "m7": "46.67",
+        "m8": "37.00",
+        "m9": "47.25",
+        "m10": "39.35"
+      },
+      {
+        "p": "[Long Context Transfer from Language to Vision](https://arxiv.org/abs/2406.16852v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/jzhang38/EasyContext)",
+        "n": "LongVA-7B",
+        "d": "2024-06-24",
+        "m1": "14.29",
+        "m2": "19.18",
+        "m3": "26.67",
+        "m4": "42.53",
+        "m5": "18.50",
+        "m6": "21.50",
+        "m7": "38.90",
+        "m8": "18.00",
+        "m9": "3.75",
+        "m10": "22.59"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

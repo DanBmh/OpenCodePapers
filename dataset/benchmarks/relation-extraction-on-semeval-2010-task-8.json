@@ -1,0 +1,256 @@
+{
+  "title": "relation-extraction-on-semeval-2010-task-8",
+  "task-hierarchy": [
+    "Relation Extraction"
+  ],
+  "dataset-info": {
+    "link": "http://www.kozareva.com/downloads.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Relation Classification as Two-way Span-Prediction](https://arxiv.org/abs/2010.04829v2)",
+        "c": "",
+        "n": "SP",
+        "d": "2020-10-09",
+        "m1": "91.9"
+      },
+      {
+        "p": "[Representation Iterative Fusion based on Heterogeneous Graph Neural Network for Joint Entity and Relation Extraction](https://www.sciencedirect.com/science/article/pii/S0950705121001519)",
+        "c": "[&check;&nbsp;Link](https://github.com/zhao9797/RIFRE)",
+        "n": "RIFRE",
+        "d": "2021-05-08",
+        "m1": "91.3"
+      },
+      {
+        "p": "[Downstream Model Design of Pre-trained Language Model for Relation Extraction Task](https://arxiv.org/abs/2004.03786v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/slczgwh/REDN)",
+        "n": "REDN",
+        "d": "2020-04-08",
+        "m1": "91"
+      },
+      {
+        "p": "[SPOT: Knowledge-Enhanced Language Representations for Information Extraction](https://arxiv.org/abs/2208.09625v2)",
+        "c": "",
+        "n": "SPOT",
+        "d": "2022-08-20",
+        "m1": "90.6"
+      },
+      {
+        "p": "[Reviewing Labels: Label Graph Network with Top-k Prediction Set for Relation Extraction](https://arxiv.org/abs/2212.14270v1)",
+        "c": "",
+        "n": "KLG",
+        "d": "2022-12-29",
+        "m1": "90.5"
+      },
+      {
+        "p": "[Sequence Generation with Label Augmentation for Relation Extraction](https://arxiv.org/abs/2212.14266v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/pkuserc/rela)",
+        "n": "RELA",
+        "d": "2022-12-29",
+        "m1": "90.4"
+      },
+      {
+        "p": "[Enhancing Relation Extraction Using Syntactic Indicators and Sentential Contexts](https://arxiv.org/abs/1912.01858v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/taoqiongxing/Enhancing-Relation-Extraction-using-Syntactic-Indicators-and-Sentential-Contexts)",
+        "n": "Skeleton-Aware BERT",
+        "d": "2019-12-04",
+        "m1": "90.36"
+      },
+      {
+        "p": "[KnowPrompt: Knowledge-aware Prompt-tuning with Synergistic Optimization for Relation Extraction](https://arxiv.org/abs/2104.07650v7)",
+        "c": "[&check;&nbsp;Link](https://github.com/zjunlp/KnowPrompt)",
+        "n": "KnowPrompt",
+        "d": "2021-04-15",
+        "m1": "90.3"
+      },
+      {
+        "p": "[SPOT: Knowledge-Enhanced Language Representations for Information Extraction](https://arxiv.org/abs/2208.09625v2)",
+        "c": "",
+        "n": "LUKE",
+        "d": "2022-08-20",
+        "m1": "90.3"
+      },
+      {
+        "p": "[Improving Relation Classification by Entity Pair Graph](http://proceedings.mlr.press/v101/zhao19a.html)",
+        "c": "",
+        "n": "EPGNN",
+        "d": "2019-11-17",
+        "m1": "90.2"
+      },
+      {
+        "p": "[Improving Relation Extraction through Syntax-induced Pre-training with Dependency Masking](https://aclanthology.org/2022.findings-acl.147)",
+        "c": "[&check;&nbsp;Link](https://github.com/synlp/RE-DMP)",
+        "n": "RE-DMP + XLNet",
+        "d": null,
+        "m1": "89.90"
+      },
+      {
+        "p": "[Dependency-driven Relation Extraction with Attentive Graph Convolutional Networks](https://aclanthology.org/2021.acl-long.344)",
+        "c": "[&check;&nbsp;Link](https://github.com/cuhksz-nlp/re-agcn)",
+        "n": "A-GCN + BERT",
+        "d": "2021-08-01",
+        "m1": "89.85"
+      },
+      {
+        "p": "[Matching the Blanks: Distributional Similarity for Relation Learning](https://arxiv.org/abs/1906.03158v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/plkmo/BERT-Relation-Extraction)",
+        "n": "BERTEM+MTB",
+        "d": "2019-06-07",
+        "m1": "89.5"
+      },
+      {
+        "p": "[SPOT: Knowledge-Enhanced Language Representations for Information Extraction](https://arxiv.org/abs/2208.09625v2)",
+        "c": "",
+        "n": "BERT",
+        "d": "2022-08-20",
+        "m1": "89.4"
+      },
+      {
+        "p": "[Enriching Pre-trained Language Model with Entity Information for Relation Classification](https://arxiv.org/abs/1905.08284v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/monologg/R-BERT)",
+        "n": "R-BERT",
+        "d": "2019-05-20",
+        "m1": "89.25"
+      },
+      {
+        "p": "[SPOT: Knowledge-Enhanced Language Representations for Information Extraction](https://arxiv.org/abs/2208.09625v2)",
+        "c": "",
+        "n": "CorefBERT",
+        "d": "2022-08-20",
+        "m1": "89.2"
+      },
+      {
+        "p": "[Knowledge Enhanced Contextual Word Representations](https://arxiv.org/abs/1909.04164v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/allenai/kb)",
+        "n": "KnowBert-W+W",
+        "d": "2019-09-09",
+        "m1": "89.1"
+      },
+      {
+        "p": "[SPOT: Knowledge-Enhanced Language Representations for Information Extraction](https://arxiv.org/abs/2208.09625v2)",
+        "c": "",
+        "n": "KnowBERT",
+        "d": "2022-08-20",
+        "m1": "89.1"
+      },
+      {
+        "p": "[Extracting Multiple-Relations in One-Pass with Pre-Trained Transformers](https://arxiv.org/abs/1902.01030v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/helloeve/mre-in-one-pass)",
+        "n": "Entity-Aware BERT",
+        "d": "2019-02-04",
+        "m1": "89.0"
+      },
+      {
+        "p": "[SPOT: Knowledge-Enhanced Language Representations for Information Extraction](https://arxiv.org/abs/2208.09625v2)",
+        "c": "",
+        "n": "SpanBERT",
+        "d": "2022-08-20",
+        "m1": "88.8"
+      },
+      {
+        "p": "[SPOT: Knowledge-Enhanced Language Representations for Information Extraction](https://arxiv.org/abs/2208.09625v2)",
+        "c": "",
+        "n": "RoBERTa",
+        "d": "2022-08-20",
+        "m1": "88.7"
+      },
+      {
+        "p": "[Relation Classification via Multi-Level Attention CNNs](https://aclanthology.org/P16-1123)",
+        "c": "",
+        "n": "Att-Pooling-CNN",
+        "d": "2016-08-01",
+        "m1": "88.0"
+      },
+      {
+        "p": "[Generalizing Natural Language Analysis through Span-relation Representations](https://arxiv.org/abs/1911.03822v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/jzbjyb/SpanRel)",
+        "n": "SpanRel",
+        "d": "2019-11-10",
+        "m1": "87.4"
+      },
+      {
+        "p": "[Improving Relation Extraction by Pre-trained Language Representations](https://arxiv.org/abs/1906.03088v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/DFKI-NLP/TRE)",
+        "n": "TRE",
+        "d": "2019-06-07",
+        "m1": "87.1"
+      },
+      {
+        "p": "[Semantic Relation Classification via Bidirectional LSTM Networks with Entity-aware Attention using Latent Entity Typing](http://arxiv.org/abs/1901.08163v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/roomylee/entity-aware-relation-classification)",
+        "n": "Entity Attention Bi-LSTM",
+        "d": "2019-01-23",
+        "m1": "85.2"
+      },
+      {
+        "p": "[Attention-Based Convolutional Neural Network for Semantic Relation Extraction](https://aclanthology.org/C16-1238)",
+        "c": "[&check;&nbsp;Link](https://github.com/onehaitao/Attention-CNN-relation-extraction)",
+        "n": "Attention CNN",
+        "d": "2016-12-01",
+        "m1": "84.3"
+      },
+      {
+        "p": "[Classifying Relations by Ranking with Convolutional Neural Networks](http://arxiv.org/abs/1504.06580v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/onehaitao/CR-CNN-relation-extraction)",
+        "n": "CR-CNN",
+        "d": "2015-04-24",
+        "m1": "84.1"
+      },
+      {
+        "p": "[Attention-Based Bidirectional Long Short-Term Memory Networks for Relation Classification](https://aclanthology.org/P16-2034)",
+        "c": "[&check;&nbsp;Link](https://github.com/onehaitao/Att-BLSTM-relation-extraction)",
+        "n": "Attention Bi-LSTM",
+        "d": "2016-08-01",
+        "m1": "84.0"
+      },
+      {
+        "p": "[Relation Classification via Convolutional Deep Neural Network](https://aclanthology.org/C14-1220)",
+        "c": "[&check;&nbsp;Link](https://github.com/onehaitao/CNN-relation-extraction)",
+        "n": "CNN",
+        "d": "2014-08-01",
+        "m1": "82.7"
+      },
+      {
+        "p": "[Bidirectional Long Short-Term Memory Networks for Relation Classification](https://aclanthology.org/Y15-1009)",
+        "c": "",
+        "n": "Bi-LSTM",
+        "d": "2015-10-01",
+        "m1": "82.7"
+      },
+      {
+        "p": "[Improving Relation Extraction by Pre-trained Language Representations](https://arxiv.org/abs/1906.03088v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/DFKI-NLP/TRE)",
+        "n": "TRE",
+        "d": "2019-06-07",
+        "m1": "87:1"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

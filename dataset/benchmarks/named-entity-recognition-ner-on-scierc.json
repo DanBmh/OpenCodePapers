@@ -1,0 +1,88 @@
+{
+  "title": "named-entity-recognition-ner-on-scierc",
+  "task-hierarchy": [
+    "Named Entity Recognition (NER)"
+  ],
+  "dataset-info": {
+    "link": "http://nlp.cs.washington.edu/sciIE/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[SciDeBERTa: Learning DeBERTa for Science Technology Documents and Fine-Tuning Information Extraction Tasks](https://ieeexplore.ieee.org/abstract/document/9791256)",
+        "c": "[&check;&nbsp;Link](https://github.com/Eunhui-Kim/SciDeBERTa-Fine-Tuning)",
+        "n": "SciDeBERTa v2",
+        "d": "2022-06-08",
+        "m1": "72.4"
+      },
+      {
+        "p": "[Span-based Joint Entity and Relation Extraction with Transformer Pre-training](https://arxiv.org/abs/1909.07755v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/markus-eberts/spert)",
+        "n": "SpERT",
+        "d": "2019-09-17",
+        "m1": "70.33"
+      },
+      {
+        "p": "[A Robust and Domain-Adaptive Approach for Low-Resource Named Entity Recognition](https://arxiv.org/abs/2101.00388v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/houking-can/RDANER)",
+        "n": "RDANER",
+        "d": "2021-01-02",
+        "m1": "68.96"
+      },
+      {
+        "p": "[A Frustratingly Easy Approach for Entity and Relation Extraction](https://arxiv.org/abs/2010.12812v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/princeton-nlp/PURE)",
+        "n": "Ours: cross-sentence",
+        "d": "2020-10-24",
+        "m1": "68.2"
+      },
+      {
+        "p": "[SciBERT: A Pretrained Language Model for Scientific Text](https://arxiv.org/abs/1903.10676v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/allenai/scibert)",
+        "n": "SciBERT (SciVocab)",
+        "d": "2019-03-26",
+        "m1": "67.57"
+      },
+      {
+        "p": "[SciBERT: A Pretrained Language Model for Scientific Text](https://arxiv.org/abs/1903.10676v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/allenai/scibert)",
+        "n": "SciBERT (Base Vocab)",
+        "d": "2019-03-26",
+        "m1": "65.24"
+      },
+      {
+        "p": "[Multi-Task Identification of Entities, Relations, and Coreference for Scientific Knowledge Graph Construction](http://arxiv.org/abs/1808.09602v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/luanyi/DyGIE)",
+        "n": "SCIIE",
+        "d": "2018-08-29",
+        "m1": "64.20"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

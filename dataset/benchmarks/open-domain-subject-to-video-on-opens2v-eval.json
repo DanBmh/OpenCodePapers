@@ -1,0 +1,215 @@
+{
+  "title": "open-domain-subject-to-video-on-opens2v-eval",
+  "task-hierarchy": [
+    "Image to Video Generation",
+    "Open-Domain Subject-to-Video"
+  ],
+  "dataset-info": {
+    "link": "https://pku-yuangroup.github.io/OpenS2V-Nexus/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Total Score",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Venue",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Aesthetics",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Motion",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "FaceSim",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "GmeScore",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "NexusScore",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "NaturalScore",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Identity-Preserving Text-to-Video Generation by Frequency Decomposition](https://arxiv.org/abs/2411.17440v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/PKU-YuanGroup/ConsisID)",
+        "n": "Kling 1.6",
+        "d": "2024-11-26",
+        "m1": "0.5446",
+        "m2": "Close-Source",
+        "m3": "0.4460",
+        "m4": "0.4160",
+        "m5": "0.4010",
+        "m6": "0.6620",
+        "m7": "0.4592",
+        "m8": "0.7906"
+      },
+      {
+        "p": "[VACE: All-in-One Video Creation and Editing](https://arxiv.org/abs/2503.07598v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/wan-video/wan2.1)",
+        "n": "Wan2.1-VACE-14B",
+        "d": "2025-03-10",
+        "m1": "0.5287",
+        "m2": "Open-Source",
+        "m3": "0.4721",
+        "m4": "0.1502",
+        "m5": "0.5509",
+        "m6": "0.6727",
+        "m7": "0.4420",
+        "m8": "0.7278"
+      },
+      {
+        "p": "[Phantom: Subject-consistent video generation via cross-modal alignment](https://arxiv.org/abs/2502.11079v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/phantom-video/phantom)",
+        "n": "Phantom-Wan-14B",
+        "d": "2025-02-16",
+        "m1": "0.5232",
+        "m2": "Open-Source",
+        "m3": "0.4639",
+        "m4": "0.3342",
+        "m5": "0.5148",
+        "m6": "0.7065",
+        "m7": "0.3743",
+        "m8": "0.6866"
+      },
+      {
+        "p": "[Phantom: Subject-consistent video generation via cross-modal alignment](https://arxiv.org/abs/2502.11079v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/phantom-video/phantom)",
+        "n": "Phantom-Wan-1.3B",
+        "d": "2025-02-16",
+        "m1": "0.5071",
+        "m2": "Open-Source",
+        "m3": "0.4667",
+        "m4": "0.1429",
+        "m5": "0.4855",
+        "m6": "0.6942",
+        "m7": "0.4244",
+        "m8": "0.7026"
+      },
+      {
+        "p": "[SkyReels-A2: Compose Anything in Video Diffusion Transformers](https://arxiv.org/abs/2504.02436v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/skyworkai/skyreels-a2)",
+        "n": "SkyReels-A2-Wan2.1-14B-Preview",
+        "d": "2025-04-03",
+        "m1": "0.4961",
+        "m2": "Open-Source",
+        "m3": "0.3940",
+        "m4": "0.2560",
+        "m5": "0.4595",
+        "m6": "0.6454",
+        "m7": "0.4377",
+        "m8": "0.6722"
+      },
+      {
+        "p": "[Identity-Preserving Text-to-Video Generation by Frequency Decomposition](https://arxiv.org/abs/2411.17440v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/PKU-YuanGroup/ConsisID)",
+        "n": "Pika 2.1",
+        "d": "2024-11-26",
+        "m1": "0.4888",
+        "m2": "Close-Source",
+        "m3": "0.4687",
+        "m4": "0.2470",
+        "m5": "0.3080",
+        "m6": "0.6921",
+        "m7": "0.4541",
+        "m8": "0.6979"
+      },
+      {
+        "p": "[MAGREF: Masked Guidance for Any-Reference Video Generation](https://arxiv.org/abs/2505.23742v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/magref-video/magref)",
+        "n": "MAGREF-480P",
+        "d": "2025-05-29",
+        "m1": "0.4793",
+        "m2": "Open-Source",
+        "m3": "0.4502",
+        "m4": "0.2181",
+        "m5": "0.3083",
+        "m6": "0.7047",
+        "m7": "0.4304",
+        "m8": "0.6949"
+      },
+      {
+        "p": "[Identity-Preserving Text-to-Video Generation by Frequency Decomposition](https://arxiv.org/abs/2411.17440v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/PKU-YuanGroup/ConsisID)",
+        "n": "Vidu 2.0",
+        "d": "2024-11-26",
+        "m1": "0.4759",
+        "m2": "Close-Source",
+        "m3": "0.4147",
+        "m4": "0.1352",
+        "m5": "0.3511",
+        "m6": "0.6757",
+        "m7": "0.4355",
+        "m8": "0.7144"
+      },
+      {
+        "p": "[VACE: All-in-One Video Creation and Editing](https://arxiv.org/abs/2503.07598v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/wan-video/wan2.1)",
+        "n": "Wan2.1-VACE-1.3B",
+        "d": "2025-03-10",
+        "m1": "0.4553",
+        "m2": "Open-Source",
+        "m3": "0.4824",
+        "m4": "0.1883",
+        "m5": "0.2058",
+        "m6": "0.7126",
+        "m7": "0.3795",
+        "m8": "0.7178"
+      },
+      {
+        "p": "[VACE: All-in-One Video Creation and Editing](https://arxiv.org/abs/2503.07598v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/wan-video/wan2.1)",
+        "n": "Wan2.1-VACE-1.3B-Preview",
+        "d": "2025-03-10",
+        "m1": "0.4395",
+        "m2": "Open-Source",
+        "m3": "0.4727",
+        "m4": "0.1203",
+        "m5": "0.1658",
+        "m6": "0.7138",
+        "m7": "0.4004",
+        "m8": "0.7056"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

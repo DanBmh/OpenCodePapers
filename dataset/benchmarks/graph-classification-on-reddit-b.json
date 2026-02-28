@@ -1,0 +1,130 @@
+{
+  "title": "graph-classification-on-reddit-b",
+  "task-hierarchy": [
+    "Classification",
+    "Graph Classification"
+  ],
+  "dataset-info": {
+    "link": "https://ls11-www.cs.tu-dortmund.de/staff/morris/graphkerneldatasets"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Accuracy (10-fold)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Walking Out of the Weisfeiler Leman Hierarchy: Graph Learning Beyond Message Passing](https://arxiv.org/abs/2102.08786v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/toenshoff/CRaWl)",
+        "n": "CRaWl",
+        "d": "2021-02-17",
+        "m1": "93.15"
+      },
+      {
+        "p": "[Improving Attention Mechanism in Graph Neural Networks via Cardinality Preservation](https://arxiv.org/abs/1907.02204v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/zetayue/CPA)",
+        "n": "GAT-GC (f-Scaled)",
+        "d": "2019-07-04",
+        "m1": "92.57"
+      },
+      {
+        "p": "[How Powerful are Graph Neural Networks?](http://arxiv.org/abs/1810.00826v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/mxnet/gin)",
+        "n": "GIN-0",
+        "d": "2018-10-01",
+        "m1": "92.4"
+      },
+      {
+        "p": "[Fast Graph Representation Learning with PyTorch Geometric](http://arxiv.org/abs/1903.02428v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/rusty1s/pytorch_geometric)",
+        "n": "DiffPool",
+        "d": "2019-03-06",
+        "m1": "92.1"
+      },
+      {
+        "p": "[Wasserstein Embedding for Graph Learning](https://arxiv.org/abs/2006.09430v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/navid-naderi/WEGL)",
+        "n": "WEGL",
+        "d": "2020-06-16",
+        "m1": "92"
+      },
+      {
+        "p": "[Strengthening structural baselines for graph classification using Local Topological Profile](https://arxiv.org/abs/2305.00724v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/j-adamczyk/ltp)",
+        "n": "Local Topological Profile (LTP)",
+        "d": "2023-05-01",
+        "m1": "91.1 ± 1.0",
+        "m2": "91.1 ± 1.0"
+      },
+      {
+        "p": "[A Novel Higher-order Weisfeiler-Lehman Graph Convolution](https://arxiv.org/abs/2007.00346v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Cortys/master-thesis)",
+        "n": "2-WL-GNN",
+        "d": "2020-07-01",
+        "m1": "89.4"
+      },
+      {
+        "p": "[Weisfeiler and Leman go sparse: Towards scalable higher-order graph embeddings](https://arxiv.org/abs/1904.01543v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/chrsmrrs/sparsewl)",
+        "n": "δ-2-LWL",
+        "d": "2019-04-02",
+        "m1": "89.0"
+      },
+      {
+        "p": "[Hierarchical Representation Learning in Graph Neural Networks with Node Decimation Pooling](https://arxiv.org/abs/1910.11436v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/danielegrattarola/decimation-pooling)",
+        "n": "NDP",
+        "d": "2019-10-24",
+        "m1": "84.3"
+      },
+      {
+        "p": "[A Fair Comparison of Graph Neural Networks for Graph Classification](https://arxiv.org/abs/1912.09893v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/diningphil/gnn-comparison)",
+        "n": "GraphSAGE",
+        "d": "2019-12-20",
+        "m1": "84.3"
+      },
+      {
+        "p": "[Rep the Set: Neural Networks for Learning Set Representations](https://arxiv.org/abs/1904.01962v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/giannisnik/repset)",
+        "n": "ApproxRepSet",
+        "d": "2019-04-03",
+        "m1": "80.3"
+      },
+      {
+        "p": "[Graph-level Representation Learning with Joint-Embedding Predictive Architectures](https://arxiv.org/abs/2309.16014v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/geriskenderi/graph-jepa)",
+        "n": "Graph-JEPA",
+        "d": "2023-09-27",
+        "m1": "56.73"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

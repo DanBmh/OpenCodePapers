@@ -1,0 +1,57 @@
+{
+  "title": "image-generation-on-ffhq-128-x-128",
+  "task-hierarchy": [
+    "Image Generation"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "FID",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Input Perturbation Reduces Exposure Bias in Diffusion Models](https://arxiv.org/abs/2301.11706v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/forever208/ddpm-ip)",
+        "n": "DDPM-IP",
+        "d": "2023-01-27",
+        "m1": "2.98"
+      },
+      {
+        "p": "[Anycost GANs for Interactive Image Synthesis and Editing](https://arxiv.org/abs/2103.03243v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/mit-han-lab/anycost-gan)",
+        "n": "Anycost GAN",
+        "d": "2021-03-04",
+        "m1": "3.98"
+      },
+      {
+        "p": "[Efficient generative adversarial networks using linear additive-attention Transformers](https://arxiv.org/abs/2401.09596v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/milmor/ladagan)",
+        "n": "LadaGAN",
+        "d": "2024-01-17",
+        "m1": "4.48"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

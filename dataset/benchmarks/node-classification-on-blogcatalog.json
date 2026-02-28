@@ -1,0 +1,90 @@
+{
+  "title": "node-classification-on-blogcatalog",
+  "task-hierarchy": [
+    "Node Classification"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Macro-F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Macro F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Micro F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[struc2vec: Learning Node Representations from Structural Identity](http://arxiv.org/abs/1704.03165v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/shenweichen/GraphEmbedding)",
+        "n": "Struc2vec",
+        "d": "2017-04-11",
+        "m1": "22.80%",
+        "m2": "0.216"
+      },
+      {
+        "p": "[DeepWalk: Online Learning of Social Representations](http://arxiv.org/abs/1403.6652v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleRec/tree/master/models/recall/deepwalk)",
+        "n": "DeepWalk",
+        "d": "2014-03-26",
+        "m1": "22.5%",
+        "m2": "0.214"
+      },
+      {
+        "p": "[LINE: Large-scale Information Network Embedding](http://arxiv.org/abs/1503.03578v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/shenweichen/GraphEmbedding)",
+        "n": "LINE",
+        "d": "2015-03-12",
+        "m1": "20.50%",
+        "m2": "0.192"
+      },
+      {
+        "p": "[GraRep: Learning Graph Representations with Global Structural Information](https://www.researchgate.net/publication/301417811_GraRep)",
+        "c": "[&check;&nbsp;Link](https://github.com/benedekrozemberczki/karateclub)",
+        "n": "GraRep",
+        "d": "2015-10-17",
+        "m2": "0.3093"
+      },
+      {
+        "p": "[Bridging the Gap between Community and Node Representations: Graph Embedding via Community Detection](https://arxiv.org/abs/1912.08808v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/eXascaleInfolab/daor)",
+        "n": "DAOR",
+        "d": "2019-12-17",
+        "m3": "17.25",
+        "m4": "33.05"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "title": "multimodal-intent-recognition-on-mmdialog",
+  "task-hierarchy": [
+    "Intent Recognition",
+    "Multimodal Intent Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/victorsungo/MMDialog"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[PaCE: Unified Multi-modal Dialogue Pre-training with Progressive and Compositional Experts](https://arxiv.org/abs/2305.14839v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/pace)",
+        "n": "PaCE",
+        "d": "2023-05-24",
+        "m1": "77.6"
+      },
+      {
+        "p": "[MMDialog: A Large-scale Multi-turn Dialogue Dataset Towards Multi-modal Open-domain Conversation](https://arxiv.org/abs/2211.05719v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/victorsungo/mmdialog)",
+        "n": "Divter",
+        "d": "2022-11-10",
+        "m1": "75.5"
+      },
+      {
+        "p": "[MMDialog: A Large-scale Multi-turn Dialogue Dataset Towards Multi-modal Open-domain Conversation](https://arxiv.org/abs/2211.05719v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/victorsungo/mmdialog)",
+        "n": "DE++",
+        "d": "2022-11-10",
+        "m1": "59.0"
+      },
+      {
+        "p": "[ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision](https://arxiv.org/abs/2102.03334v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "ViLT",
+        "d": "2021-02-05",
+        "m1": "55.8"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

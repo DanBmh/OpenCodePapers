@@ -1,0 +1,105 @@
+{
+  "title": "object-tracking-on-fe108",
+  "task-hierarchy": [
+    "Object Tracking"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Success Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Averaged Precision",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Cross-modal Orthogonal High-rank Augmentation for RGB-Event Transformer-trackers](https://arxiv.org/abs/2307.04129v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/zhu-zhiyu/nvs_solver)",
+        "n": "HR-MonTrack-Base",
+        "d": "2023-07-09",
+        "m1": "68.5",
+        "m2": "96.2"
+      },
+      {
+        "p": "[Cross-modal Orthogonal High-rank Augmentation for RGB-Event Transformer-trackers](https://arxiv.org/abs/2307.04129v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/zhu-zhiyu/nvs_solver)",
+        "n": "HR-MonTrack-Tiny",
+        "d": "2023-07-09",
+        "m1": "66.3",
+        "m2": "95.3"
+      },
+      {
+        "p": "[Object Tracking by Jointly Exploiting Frame and Event Domain](https://arxiv.org/abs/2109.09052v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Jee-King/ICCV2021_Event_Frame_Tracking)",
+        "n": "Multi-modal",
+        "d": "2021-09-19",
+        "m1": "63.4",
+        "m2": "92.4"
+      },
+      {
+        "p": "[Probabilistic Regression for Visual Tracking](https://arxiv.org/abs/2003.12565v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmtracking)",
+        "n": "PrDiMP",
+        "d": "2020-03-27",
+        "m1": "59.0",
+        "m2": "87.7"
+      },
+      {
+        "p": "[Learning Discriminative Model Prediction for Tracking](https://arxiv.org/abs/1904.07220v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/visionml/pytracking)",
+        "n": "DiMP",
+        "d": "2019-04-15",
+        "m1": "57.1",
+        "m2": "85.1"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "MonTrack",
+        "d": null,
+        "m1": "54.9",
+        "m2": "85.9"
+      },
+      {
+        "p": "[ATOM: Accurate Tracking by Overlap Maximization](http://arxiv.org/abs/1811.07628v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/visionml/pytracking)",
+        "n": "ATOM",
+        "d": "2018-11-19",
+        "m1": "46.5",
+        "m2": "71.3"
+      },
+      {
+        "p": "[Know Your Surroundings: Exploiting Scene Information for Object Tracking](https://arxiv.org/abs/2003.11014v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/visionml/pytracking)",
+        "n": "KYS",
+        "d": "2020-03-24",
+        "m1": "26.6",
+        "m2": "41.0"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

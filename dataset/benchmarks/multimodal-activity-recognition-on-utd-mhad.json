@@ -1,0 +1,75 @@
+{
+  "title": "multimodal-activity-recognition-on-utd-mhad",
+  "task-hierarchy": [
+    "Activity Recognition",
+    "Multimodal Activity Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://www.utdallas.edu/~kehtar/UTD-MHAD.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy (CS)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Recognizing Human Actions as the Evolution of Pose Estimation Maps](http://openaccess.thecvf.com/content_cvpr_2018/html/Liu_Recognizing_Human_Actions_CVPR_2018_paper.html)",
+        "c": "",
+        "n": "PoseMap",
+        "d": "2018-06-01",
+        "m1": "94.5"
+      },
+      {
+        "p": "[Gimme Signals: Discriminative signal encoding for multimodal activity recognition](https://arxiv.org/abs/2003.06156v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/raphaelmemmesheimer/gimme_signals_action_recognition)",
+        "n": "Gimme Signals (Skeleton, AIS)",
+        "d": "2020-03-13",
+        "m1": "93.33"
+      },
+      {
+        "p": "[Bayesian Hierarchical Dynamic Model for Human Action Recognition](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhao_Bayesian_Hierarchical_Dynamic_Model_for_Human_Action_Recognition_CVPR_2019_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/rort1989/HDM)",
+        "n": "HDM-BG",
+        "d": "2019-06-01",
+        "m1": "92.8"
+      },
+      {
+        "p": "[Action Machine: Rethinking Action Recognition in Trimmed Videos](http://arxiv.org/abs/1812.05770v2)",
+        "c": "",
+        "n": "Action Machine",
+        "d": "2018-12-14",
+        "m1": "92.5"
+      },
+      {
+        "p": "[STAR-Net: Action Recognition using Spatio-Temporal Activation Reprojection](http://arxiv.org/abs/1902.10024v1)",
+        "c": "",
+        "n": "STAR-Net",
+        "d": "2019-02-26",
+        "m1": "90"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

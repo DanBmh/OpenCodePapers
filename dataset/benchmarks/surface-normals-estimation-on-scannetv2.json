@@ -1,0 +1,84 @@
+{
+  "title": "surface-normals-estimation-on-scannetv2",
+  "task-hierarchy": [
+    "Surface Normals Estimation"
+  ],
+  "dataset-info": {
+    "link": "http://www.scan-net.org/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "% < 11.25",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "% < 22.5",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "% < 30",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Mean Angle Error",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Metric3Dv2: A Versatile Monocular Geometric Foundation Model for Zero-shot Metric Depth and Surface Normal Estimation](https://arxiv.org/abs/2404.15506v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/yvanyin/metric3d)",
+        "n": "Metric3Dv2 (g2, In-domain)",
+        "d": "2024-03-22",
+        "m1": "77.8",
+        "m2": "90.1",
+        "m3": "93.5",
+        "m4": "9.2"
+      },
+      {
+        "p": "[Estimating and Exploiting the Aleatoric Uncertainty in Surface Normal Estimation](https://arxiv.org/abs/2109.09881v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/baegwangbin/surface_normal_uncertainty)",
+        "n": "Bae et al.",
+        "d": "2021-09-20",
+        "m1": "71.1",
+        "m2": "85.4",
+        "m3": "89.8",
+        "m4": "11.8"
+      },
+      {
+        "p": "[Floors are Flat: Leveraging Semantics for Real-Time Surface Normal Prediction](https://arxiv.org/abs/1906.06792v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/StevenHickson/CreateNormals)",
+        "n": "Floors are Flat",
+        "d": "2019-06-16",
+        "m1": "50.9",
+        "m2": "65.2",
+        "m3": "70",
+        "m4": "28"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

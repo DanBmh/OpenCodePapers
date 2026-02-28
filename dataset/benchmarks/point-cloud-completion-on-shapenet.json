@@ -1,0 +1,146 @@
+{
+  "title": "point-cloud-completion-on-shapenet",
+  "task-hierarchy": [
+    "Point Cloud Completion"
+  ],
+  "dataset-info": {
+    "link": "https://www.shapenet.org/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Chamfer Distance",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "F-Score@1%",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Earth Mover's Distance",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Frechet Point cloud Distance",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Chamfer Distance L2",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Orthogonal Dictionary Guided Shape Completion Network for Point Cloud](https://ojs.aaai.org/index.php/AAAI/article/view/27845)",
+        "c": "[&check;&nbsp;Link](https://github.com/corecai163/ODGNet)",
+        "n": "ODGNet",
+        "d": "2023-03-24",
+        "m1": "6.50",
+        "m2": "0.833"
+      },
+      {
+        "p": "[AdaPoinTr: Diverse Point Cloud Completion with Adaptive Geometry-Aware Transformers](https://arxiv.org/abs/2301.04545v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/yuxumin/PoinTr)",
+        "n": "AdaPoinTr",
+        "d": "2023-01-11",
+        "m1": "6.53",
+        "m2": "0.845"
+      },
+      {
+        "p": "[Parametric Surface Constrained Upsampler Network for Point Cloud](https://arxiv.org/abs/2303.08240v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/corecai163/pscu)",
+        "n": "PSCU",
+        "d": "2023-03-14",
+        "m1": "7.04"
+      },
+      {
+        "p": "[Learning Geometric Transformation for Point Cloud Completion](https://link.springer.com/article/10.1007/s11263-023-01820-y)",
+        "c": "[&check;&nbsp;Link](https://github.com/ivislabhit/gtnet)",
+        "n": "GTNet",
+        "d": "2023-06-08",
+        "m1": "7.15"
+      },
+      {
+        "p": "[Snowflake Point Deconvolution for Point Cloud Completion and Generation with Skip-Transformer](https://arxiv.org/abs/2202.09367v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/allenxiangx/snowflakenet)",
+        "n": "SnowFlakeNet",
+        "d": "2022-02-18",
+        "m1": "7.21"
+      },
+      {
+        "p": "[GRNet: Gridding Residual Network for Dense Point Cloud Completion](https://arxiv.org/abs/2006.03761v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/hzxie/GRNet)",
+        "n": "GRNet",
+        "d": "2020-06-06",
+        "m1": "8.81",
+        "m2": "0.708",
+        "m5": "2.723"
+      },
+      {
+        "p": "[PCN: Point Completion Network](https://arxiv.org/abs/1808.00671v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/vinits5/learning3d)",
+        "n": "PCN",
+        "d": "2018-08-02",
+        "m1": "9.636",
+        "m2": "0.695",
+        "m5": "4.016"
+      },
+      {
+        "p": "[Morphing and Sampling Network for Dense Point Cloud Completion](https://arxiv.org/abs/1912.00280v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Colin97/MSN-Point-Cloud-Completion)",
+        "n": "MSN",
+        "d": "2019-11-30",
+        "m1": "9.969",
+        "m2": "0.705",
+        "m5": "4.758"
+      },
+      {
+        "p": "[Pointer Networks](http://arxiv.org/abs/1506.03134v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/devsisters/pointer-network-tensorflow)",
+        "n": "TestNet",
+        "d": "2015-06-09",
+        "m1": "100"
+      },
+      {
+        "p": "[PoinTr: Diverse Point Cloud Completion with Geometry-Aware Transformers](https://arxiv.org/abs/2108.08839v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/yuxumin/PoinTr)",
+        "n": "PoinTr",
+        "d": "2021-08-19",
+        "m2": "0.748",
+        "m5": "8.38"
+      },
+      {
+        "p": "[Style-based Point Generator with Adversarial Rendering for Point Cloud Completion](https://arxiv.org/abs/2103.02535v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/microsoft/SpareNet)",
+        "n": "SpareNet",
+        "d": "2021-03-03",
+        "m3": "1.862",
+        "m4": "0.645"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

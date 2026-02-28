@@ -1,0 +1,57 @@
+{
+  "title": "keyphrase-extraction-on-inspec",
+  "task-hierarchy": [
+    "Keyphrase Extraction"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1@10",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Attention-Seeker: Dynamic Self-Attention Scoring for Unsupervised Keyphrase Extraction](https://arxiv.org/abs/2409.10907v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/EruM16/Attention-Seeker)",
+        "n": "Attention-Seeker",
+        "d": "2024-09-17",
+        "m1": "40.14"
+      },
+      {
+        "p": "[PromptRank: Unsupervised Keyphrase Extraction Using Prompt](https://arxiv.org/abs/2305.04490v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/nku-hlt/promptrank)",
+        "n": "PromptRank",
+        "d": "2023-05-08",
+        "m1": "37.88"
+      },
+      {
+        "p": "[PatternRank: Leveraging Pretrained Language Models and Part of Speech for Unsupervised Keyphrase Extraction](https://arxiv.org/abs/2210.05245v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/timschopf/keyphrasevectorizers)",
+        "n": "PatternRank",
+        "d": "2022-10-11",
+        "m1": "30.99"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

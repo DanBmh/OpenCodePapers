@@ -1,0 +1,67 @@
+{
+  "title": "visual-question-answering-vqa-on-ai2d",
+  "task-hierarchy": [
+    "Visual Question Answering (VQA)"
+  ],
+  "dataset-info": {
+    "link": "https://allenai.org/data/diagrams"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "EM",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Omni-SMoLA: Boosting Generalist Multimodal Models with Soft Mixture of Low-rank Experts](https://arxiv.org/abs/2312.00968v2)",
+        "c": "",
+        "n": "SMoLA-PaLI-X Specialist Model",
+        "d": "2023-12-01",
+        "m1": "82.5"
+      },
+      {
+        "p": "[Omni-SMoLA: Boosting Generalist Multimodal Models with Soft Mixture of Low-rank Experts](https://arxiv.org/abs/2312.00968v2)",
+        "c": "",
+        "n": "SMoLA-PaLI-X Generalist Model",
+        "d": "2023-12-01",
+        "m1": "81.4"
+      },
+      {
+        "p": "[Gemini: A Family of Highly Capable Multimodal Models](https://arxiv.org/abs/2312.11805v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/valdecy/pybibx)",
+        "n": "Gemini Ultra",
+        "d": "2023-12-19",
+        "m1": "79.5"
+      },
+      {
+        "p": "[DUBLIN -- Document Understanding By Language-Image Network](https://arxiv.org/abs/2305.14218v4)",
+        "c": "",
+        "n": "DUBLIN",
+        "d": "2023-05-23",
+        "m1": "51.11"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

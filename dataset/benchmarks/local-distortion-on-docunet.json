@@ -1,0 +1,74 @@
+{
+  "title": "local-distortion-on-docunet",
+  "task-hierarchy": [
+    "Local Distortion"
+  ],
+  "dataset-info": {
+    "link": "https://www3.cs.stonybrook.edu/~cvl/docunet.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "LD",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Deep Unrestricted Document Image Rectification](https://arxiv.org/abs/2304.08796v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/fh2019ustc/doctr-plus)",
+        "n": "DocTr++",
+        "d": "2023-04-18",
+        "m1": "7.52"
+      },
+      {
+        "p": "[DewarpNet: Single-Image Document Unwarping With Stacked 3D and 2D Regression Networks](http://openaccess.thecvf.com/content_ICCV_2019/html/Das_DewarpNet_Single-Image_Document_Unwarping_With_Stacked_3D_and_2D_Regression_ICCV_2019_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/cvlab-stonybrook/DewarpNet)",
+        "n": "DewarpNet",
+        "d": "2019-10-01",
+        "m1": "8.98"
+      },
+      {
+        "p": "[Revisiting Document Image Dewarping by Grid Regularization](https://arxiv.org/abs/2203.16850v1)",
+        "c": "",
+        "n": "Ours",
+        "d": "2022-03-31",
+        "m1": "9.36"
+      },
+      {
+        "p": "[A Gated and Bifurcated Stacked U-Net Module for Document Image Dewarping](https://arxiv.org/abs/2007.09824v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/DVLP-CMATERJU/RectiNet)",
+        "n": "RectiNet",
+        "d": "2020-07-20",
+        "m1": "13.2"
+      },
+      {
+        "p": "[DocUNet: Document Image Unwarping via a Stacked U-Net](http://openaccess.thecvf.com/content_cvpr_2018/html/Ma_DocUNet_Document_Image_CVPR_2018_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/teresasun/docUnet.pytorch)",
+        "n": "DocUNet",
+        "d": "2018-06-01",
+        "m1": "14.08"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

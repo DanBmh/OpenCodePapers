@@ -1,0 +1,160 @@
+{
+  "title": "image-retrieval-on-flickr30k",
+  "task-hierarchy": [
+    "Image Retrieval"
+  ],
+  "dataset-info": {
+    "link": "https://shannon.cs.illinois.edu/DenotationGraph/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Recall@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Recall@5",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Recall@1",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Recall@Sum",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Image-to-text R@1",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "Image-to-text R@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "Image-to-text R@5",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "QPS",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "BLIP-2 ViT-G (zero-shot, 1K test set)",
+        "d": "2023-01-30",
+        "m1": "98.9",
+        "m2": "98.1",
+        "m3": "89.7"
+      },
+      {
+        "p": "[BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "BLIP-2 ViT-L (zero-shot, 1K test set)",
+        "d": "2023-01-30",
+        "m1": "98.9",
+        "m2": "97.6",
+        "m3": "88.6"
+      },
+      {
+        "p": "[HADA: A Graph-based Amalgamation Framework in Image-text Retrieval](https://arxiv.org/abs/2301.04742v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/m2man/hada)",
+        "n": "HADA",
+        "d": "2023-01-11",
+        "m1": "98.02",
+        "m2": "95.94",
+        "m3": "81.36"
+      },
+      {
+        "p": "[MaMMUT: A Simple Architecture for Joint Learning for MultiModal Tasks](https://arxiv.org/abs/2303.16839v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/lucidrains/mammut-pytorch)",
+        "n": "MaMMUT (ours)",
+        "d": "2023-03-29",
+        "m1": "98",
+        "m2": "96",
+        "m3": "82.5",
+        "m5": "94.9",
+        "m6": "99.9",
+        "m7": "99.5"
+      },
+      {
+        "p": "[HADA: A Graph-based Amalgamation Framework in Image-text Retrieval](https://arxiv.org/abs/2301.04742v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/m2man/hada)",
+        "n": "ALBEF",
+        "d": "2023-01-11",
+        "m1": "97.72",
+        "m2": "95.3",
+        "m3": "79.76"
+      },
+      {
+        "p": "[HADA: A Graph-based Amalgamation Framework in Image-text Retrieval](https://arxiv.org/abs/2301.04742v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/m2man/hada)",
+        "n": "UNITER",
+        "d": "2023-01-11",
+        "m1": "96.76",
+        "m2": "94.08",
+        "m3": "75.56"
+      },
+      {
+        "p": "[A Deep Local and Global Scene-Graph Matching for Image-Text Retrieval](https://arxiv.org/abs/2106.02400v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/m2man/LGSGM)",
+        "n": "LGSGM",
+        "d": "2021-06-04",
+        "m1": "90.2",
+        "m2": "84.1",
+        "m3": "57.4",
+        "m4": "231.7"
+      },
+      {
+        "p": "[A Deep Local and Global Scene-Graph Matching for Image-Text Retrieval](https://arxiv.org/abs/2106.02400v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/m2man/LGSGM)",
+        "n": "GSMN",
+        "d": "2021-06-04",
+        "m1": "89",
+        "m2": "82.3",
+        "m4": "228.7"
+      },
+      {
+        "p": "[VisualSparta: An Embarrassingly Simple Approach to Large-scale Text-to-Image Search with Weighted Bag-of-words](https://arxiv.org/abs/2101.00265v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/soco-ai/SF-QA)",
+        "n": "VisualSparta",
+        "d": "2021-01-01",
+        "m1": "88.1",
+        "m2": "82.0",
+        "m3": "57.4",
+        "m8": "451.4"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

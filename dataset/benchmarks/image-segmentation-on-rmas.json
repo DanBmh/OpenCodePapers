@@ -1,0 +1,94 @@
+{
+  "title": "image-segmentation-on-rmas",
+  "task-hierarchy": [
+    "Image Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/zhenqifu/MASNet"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "S-measure",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "E-measure",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "MAE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[MAS-SAM: Segment Any Marine Animal with Aggregated Features](https://arxiv.org/abs/2404.15700v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/drchip61/mas-sam)",
+        "n": "MAS-SAM",
+        "d": "2024-04-24",
+        "m1": "0.742",
+        "m2": "0.865",
+        "m3": "0.948",
+        "m4": "0.021"
+      },
+      {
+        "p": "[SAM2-UNet: Segment Anything 2 Makes Strong Encoder for Natural and Medical Image Segmentation](https://arxiv.org/abs/2408.08870v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/wzh0120/sam2-unet)",
+        "n": "SAM2-UNet",
+        "d": "2024-08-16",
+        "m1": "0.738",
+        "m2": "0.874",
+        "m3": "0.944",
+        "m4": "0.022"
+      },
+      {
+        "p": "[MASNet: A Robust Deep Marine Animal Segmentation Network](https://ieeexplore.ieee.org/document/10113781)",
+        "c": "[&check;&nbsp;Link](https://github.com/zhenqifu/MASNet)",
+        "n": "MASNet",
+        "d": "2023-05-01",
+        "m1": "0.731",
+        "m2": "0.862",
+        "m3": "0.920",
+        "m4": "0.024"
+      },
+      {
+        "p": "[Zoom In and Out: A Mixed-scale Triplet Network for Camouflaged Object Detection](https://arxiv.org/abs/2203.02688v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/lartpang/zoomnet)",
+        "n": "ZoomNet",
+        "d": "2022-03-05",
+        "m1": "0.728",
+        "m2": "0.855",
+        "m3": "0.915",
+        "m4": "0.022"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

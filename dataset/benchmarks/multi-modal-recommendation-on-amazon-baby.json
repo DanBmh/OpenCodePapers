@@ -1,0 +1,110 @@
+{
+  "title": "multi-modal-recommendation-on-amazon-baby",
+  "task-hierarchy": [
+    "Recommendation Systems",
+    "Multi-modal Recommendation"
+  ],
+  "dataset-info": {
+    "link": "https://cseweb.ucsd.edu/~jmcauley/datasets/amazon/links.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "NDCG@20",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Modality-Independent Graph Neural Networks with Global Transformers for Multimodal Recommendation](https://arxiv.org/abs/2412.13994v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/crawlscript/mig-gt)",
+        "n": "MIG-GT",
+        "d": "2024-12-18",
+        "m1": "0.0452"
+      },
+      {
+        "p": "[A Tale of Two Graphs: Freezing and Denoising Graph Structures for Multimodal Recommendation](https://arxiv.org/abs/2211.06924v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/enoche/freedom)",
+        "n": "FREEDOM",
+        "d": "2022-11-13",
+        "m1": "0.0424"
+      },
+      {
+        "p": "[Mining Latent Structures for Multimedia Recommendation](https://arxiv.org/abs/2104.09036v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/CRIPAC-DIG/LATTICE)",
+        "n": "LATTICE",
+        "d": "2021-04-19",
+        "m1": "0.0370"
+      },
+      {
+        "p": "[GRCN: Graph-Refined Convolutional Network for Multimedia Recommendation with Implicit Feedback](https://arxiv.org/abs/2111.02036v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/weiyinwei/grcn)",
+        "n": "GRCN",
+        "d": "2021-11-03",
+        "m1": "0.0358"
+      },
+      {
+        "p": "[Self-Supervised Learning for Multimedia Recommendation](https://ieeexplore.ieee.org/document/9811387)",
+        "c": "[&check;&nbsp;Link](https://github.com/zltao/slmrec)",
+        "n": "SLMRec",
+        "d": "2022-06-30",
+        "m1": "0.0354"
+      },
+      {
+        "p": "[DualGNN: Dual Graph Neural Network for Multimedia Recommendation](https://ieeexplore.ieee.org/document/9662655)",
+        "c": "[&check;&nbsp;Link](https://github.com/wqf321/dualgnn)",
+        "n": "DualGNN",
+        "d": "2021-12-24",
+        "m1": "0.0352"
+      },
+      {
+        "p": "[MGDCF: Distance Learning via Markov Graph Diffusion for Neural Collaborative Filtering](https://arxiv.org/abs/2204.02338v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/CrawlScript/Torch-MGDCF)",
+        "n": "MGDN",
+        "d": "2022-04-05",
+        "m1": "0.0346"
+      },
+      {
+        "p": "[LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation](https://arxiv.org/abs/2002.02126v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/microsoft/recommenders)",
+        "n": "LightGCN",
+        "d": "2020-02-06",
+        "m1": "0.0328"
+      },
+      {
+        "p": "[VBPR: Visual Bayesian Personalized Ranking from Implicit Feedback](http://arxiv.org/abs/1510.01784v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/weiyinwei/mmgcn)",
+        "n": "VBPR",
+        "d": "2015-10-06",
+        "m1": "0.0284"
+      },
+      {
+        "p": "[MMGCN: Multi-modal Graph Convolution Network for Personalized Recommendation of Micro-video](https://dl.acm.org/doi/abs/10.1145/3343031.3351034)",
+        "c": "[&check;&nbsp;Link](https://github.com/weiyinwei/mmgcn)",
+        "n": "MMGCN",
+        "d": "2019-10-19",
+        "m1": "0.0282"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

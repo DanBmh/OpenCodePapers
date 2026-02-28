@@ -1,0 +1,232 @@
+{
+  "title": "math-word-problem-solving-on-svamp",
+  "task-hierarchy": [
+    "Mathematical Reasoning",
+    "Math Word Problem Solving"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/arkilpatel/SVAMP"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Execution Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Teaching-Inspired Integrated Prompting Framework: A Novel Approach for Enhancing Reasoning in Large Language Models](https://arxiv.org/abs/2410.08068v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/sallytan13/teaching-inspired-prompting)",
+        "n": "GPT-4 (Teaching-Inspired)",
+        "d": "2024-10-10",
+        "m1": "93.9"
+      },
+      {
+        "p": "[Automatic Model Selection with Large Language Models for Reasoning](https://arxiv.org/abs/2305.14333v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/xuzhao0/model-selection-reasoning)",
+        "n": "GPT-4 (Model Selection)",
+        "d": "2023-05-23",
+        "m1": "93.7"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Qwen2(CoT + Code Interpreter)",
+        "d": null,
+        "m1": "92.3"
+      },
+      {
+        "p": "[Progressive-Hint Prompting Improves Reasoning in Large Language Models](https://arxiv.org/abs/2304.09797v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/chuanyang-Zheng/Progressive-Hint)",
+        "n": "GPT-4 (PHP)",
+        "d": "2023-04-19",
+        "m1": "91.9"
+      },
+      {
+        "p": "[OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset](https://arxiv.org/abs/2402.10176v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/kipok/nemo-skills)",
+        "n": "OpenMath-CodeLlama-70B (w/ code)",
+        "d": "2024-02-15",
+        "m1": "87.8"
+      },
+      {
+        "p": "[MathCoder: Seamless Code Integration in LLMs for Enhanced Mathematical Reasoning](https://arxiv.org/abs/2310.03731v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/mathllm/mathcoder)",
+        "n": "MathCoder-L-70B",
+        "d": "2023-10-05",
+        "m1": "84.9"
+      },
+      {
+        "p": "[Does ChatGPT Comprehend the Place Value in Numbers When Solving Math Word Problems?](https://openreview.net/forum?id=1YiIUJH14U)",
+        "c": "[&check;&nbsp;Link](https://github.com/ajs7270/placevalue-benchmark)",
+        "n": "PoT_Eng (self-consistency @ 5)",
+        "d": "2023-06-03",
+        "m1": "83.70"
+      },
+      {
+        "p": "[Does ChatGPT Comprehend the Place Value in Numbers When Solving Math Word Problems?](https://openreview.net/forum?id=1YiIUJH14U)",
+        "c": "[&check;&nbsp;Link](https://github.com/ajs7270/placevalue-benchmark)",
+        "n": "CoT_Eng (self-consistency @ 5)",
+        "d": "2023-06-03",
+        "m1": "82.50"
+      },
+      {
+        "p": "[An Empirical Study of Data Ability Boundary in LLMs' Math Reasoning](https://arxiv.org/abs/2403.00799v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/cyzhh/MMOS)",
+        "n": "MMOS-CODE-34B(0-shot)",
+        "d": "2024-02-23",
+        "m1": "80.6"
+      },
+      {
+        "p": "[An Empirical Study of Data Ability Boundary in LLMs' Math Reasoning](https://arxiv.org/abs/2403.00799v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/cyzhh/MMOS)",
+        "n": "MMOS-DeepSeekMath-7B(0-shot)",
+        "d": "2024-02-23",
+        "m1": "79.3"
+      },
+      {
+        "p": "[An Empirical Study of Data Ability Boundary in LLMs' Math Reasoning](https://arxiv.org/abs/2403.00799v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/cyzhh/MMOS)",
+        "n": "MMOS-CODE-7B(0-shot)",
+        "d": "2024-02-23",
+        "m1": "76.4"
+      },
+      {
+        "p": "[Llama 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/abs/2307.09288v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/llama)",
+        "n": "LLaMA 2-Chat",
+        "d": "2023-07-18",
+        "m1": "69.2"
+      },
+      {
+        "p": "[Math Word Problem Solving by Generating Linguistic Variants of Problem Statements](https://arxiv.org/abs/2306.13899v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/starscream-11813/variational-mathematical-reasoning)",
+        "n": "DeBERTa",
+        "d": "2023-06-24",
+        "m1": "63.5",
+        "m2": "63.5"
+      },
+      {
+        "p": "[Large Language Models are Zero-Shot Reasoners](https://arxiv.org/abs/2205.11916v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/kojima-takeshi188/zero_shot_cot)",
+        "n": "PaLM (zero-shot, CoT)",
+        "d": "2022-05-24",
+        "m1": "62.1"
+      },
+      {
+        "p": "[Large Language Models are Zero-Shot Reasoners](https://arxiv.org/abs/2205.11916v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/kojima-takeshi188/zero_shot_cot)",
+        "n": "PaLM (zero-shot)",
+        "d": "2022-05-24",
+        "m1": "58.8"
+      },
+      {
+        "p": "[Frugal LMs Trained to Invoke Symbolic Solvers Achieve Parameter-Efficient Arithmetic Reasoning](https://arxiv.org/abs/2312.05571v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/joykirat18/syrelm)",
+        "n": "SYRELM (Vicuna 13B)",
+        "d": "2023-12-09",
+        "m1": "56.65"
+      },
+      {
+        "p": "[ATHENA: Mathematical Reasoning with Thought Expansion](https://arxiv.org/abs/2311.01036v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/the-jb/athena-math)",
+        "n": "ATHENA (roberta-large)",
+        "d": "2023-11-02",
+        "m1": "54.8"
+      },
+      {
+        "p": "[Learning Multi-Step Reasoning by Solving Arithmetic Tasks](https://arxiv.org/abs/2306.01707v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/TianduoWang/MsAT)",
+        "n": "MsAT-DeductReasoner",
+        "d": "2023-06-02",
+        "m1": "48.9"
+      },
+      {
+        "p": "[Learning to Reason Deductively: Math Word Problem Solving as Complex Relation Extraction](https://arxiv.org/abs/2203.10316v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/allanj/deductive-mwp)",
+        "n": "Roberta-DeductReasoner",
+        "d": "2022-03-19",
+        "m1": "47.3"
+      },
+      {
+        "p": "[ATHENA: Mathematical Reasoning with Thought Expansion](https://arxiv.org/abs/2311.01036v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/the-jb/athena-math)",
+        "n": "ATHENA (roberta-base)",
+        "d": "2023-11-02",
+        "m1": "45.6"
+      },
+      {
+        "p": "[Are NLP Models really able to Solve Simple Math Word Problems?](https://arxiv.org/abs/2103.07191v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/arkilpatel/SVAMP)",
+        "n": "Graph2Tree with RoBERTa",
+        "d": "2021-03-12",
+        "m1": "43.8",
+        "m2": "43.8"
+      },
+      {
+        "p": "[Are NLP Models really able to Solve Simple Math Word Problems?](https://arxiv.org/abs/2103.07191v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/arkilpatel/SVAMP)",
+        "n": "GTS with RoBERTa",
+        "d": "2021-03-12",
+        "m1": "41.0",
+        "m2": "41.0"
+      },
+      {
+        "p": "[Are NLP Models really able to Solve Simple Math Word Problems?](https://arxiv.org/abs/2103.07191v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/arkilpatel/SVAMP)",
+        "n": "LSTM Seq2Seq with RoBERTa",
+        "d": "2021-03-12",
+        "m1": "40.3",
+        "m2": "40.3"
+      },
+      {
+        "p": "[Frugal LMs Trained to Invoke Symbolic Solvers Achieve Parameter-Efficient Arithmetic Reasoning](https://arxiv.org/abs/2312.05571v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/joykirat18/syrelm)",
+        "n": "SYRELM (GPT-J)",
+        "d": "2023-12-09",
+        "m1": "40.1"
+      },
+      {
+        "p": "[Are NLP Models really able to Solve Simple Math Word Problems?](https://arxiv.org/abs/2103.07191v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/arkilpatel/SVAMP)",
+        "n": "Transformer with RoBERTa",
+        "d": "2021-03-12",
+        "m1": "38.9",
+        "m2": "38.9"
+      },
+      {
+        "p": "[Achieving >97% on GSM8K: Deeply Understanding the Problems Makes LLMs Better Solvers for Math Word Problems](https://arxiv.org/abs/2404.14963v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/whu-zqh/dup)",
+        "n": "GPT-4 DUP",
+        "d": "2024-04-23",
+        "m2": "94.2"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

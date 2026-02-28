@@ -1,0 +1,60 @@
+{
+  "title": "adversarial-defense-on-imagenet",
+  "task-hierarchy": [
+    "Adversarial Defense"
+  ],
+  "dataset-info": {
+    "link": "https://image-net.org/index.php"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[NOMARO: Defending against Adversarial Attacks by NOMA-Inspired Reconstruction Operation](https://ieeexplore.ieee.org/document/9650591)",
+        "c": "[&check;&nbsp;Link](https://github.com/as791/NOMARO_defense)",
+        "n": "ResNet101",
+        "d": "2021-12-14",
+        "m1": "99.8%"
+      },
+      {
+        "p": "[NOMARO: Defending against Adversarial Attacks by NOMA-Inspired Reconstruction Operation](https://ieeexplore.ieee.org/document/9650591)",
+        "c": "[&check;&nbsp;Link](https://github.com/as791/NOMARO_defense)",
+        "n": "InceptionV3",
+        "d": "2021-12-14",
+        "m1": "98.6%"
+      },
+      {
+        "p": "[Feature Denoising for Improving Adversarial Robustness](http://arxiv.org/abs/1812.03411v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/ImageNet-Adversarial-Training)",
+        "n": "Feature Denoising",
+        "d": "2018-12-09",
+        "m1": "49.5%"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

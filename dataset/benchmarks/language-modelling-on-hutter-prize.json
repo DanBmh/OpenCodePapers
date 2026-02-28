@@ -1,0 +1,186 @@
+{
+  "title": "language-modelling-on-hutter-prize",
+  "task-hierarchy": [
+    "Language Modelling"
+  ],
+  "dataset-info": {
+    "link": "http://prize.hutter1.net/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Bit per Character (BPC)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Number of params",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Dynamic Evaluation of Transformer Language Models](http://arxiv.org/abs/1904.08378v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/benkrause/dynamiceval-transformer)",
+        "n": "Transformer-XL + RMS dynamic eval",
+        "d": "2019-04-17",
+        "m1": "0.94",
+        "m2": "277M"
+      },
+      {
+        "p": "[Compressive Transformers for Long-Range Sequence Modelling](https://arxiv.org/abs/1911.05507v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+        "n": "Compressive Transformer",
+        "d": "2019-11-13",
+        "m1": "0.97"
+      },
+      {
+        "p": "[Mogrifier LSTM](https://arxiv.org/abs/1909.01792v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/deepmind/lamb)",
+        "n": "Mogrifier LSTM + dynamic eval",
+        "d": "2019-09-04",
+        "m1": "0.988",
+        "m2": "96M"
+      },
+      {
+        "p": "[Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context](https://arxiv.org/abs/1901.02860v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "24-layer Transformer-XL",
+        "d": "2019-01-09",
+        "m1": "0.99",
+        "m2": "277M"
+      },
+      {
+        "p": "[Longformer: The Long-Document Transformer](https://arxiv.org/abs/2004.05150v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "Longformer Large",
+        "d": "2020-04-10",
+        "m1": "0.99",
+        "m2": "102M"
+      },
+      {
+        "p": "[Longformer: The Long-Document Transformer](https://arxiv.org/abs/2004.05150v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "Longformer Small",
+        "d": "2020-04-10",
+        "m1": "1.00",
+        "m2": "41M"
+      },
+      {
+        "p": "[Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context](https://arxiv.org/abs/1901.02860v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "18-layer Transformer-XL",
+        "d": "2019-01-09",
+        "m1": "1.03",
+        "m2": "88M"
+      },
+      {
+        "p": "[Character-Level Language Modeling with Deeper Self-Attention](http://arxiv.org/abs/1808.04444v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/code-prediction-transformer)",
+        "n": "64-layer Character Transformer Model",
+        "d": "2018-08-09",
+        "m1": "1.06",
+        "m2": "235M"
+      },
+      {
+        "p": "[Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context](https://arxiv.org/abs/1901.02860v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "12-layer Transformer-XL",
+        "d": "2019-01-09",
+        "m1": "1.06",
+        "m2": "41M"
+      },
+      {
+        "p": "[Dynamic Evaluation of Neural Sequence Models](http://arxiv.org/abs/1709.07432v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/benkrause/dynamic-evaluation)",
+        "n": "mLSTM + dynamic eval",
+        "d": "2017-09-21",
+        "m1": "1.08",
+        "m2": "46M"
+      },
+      {
+        "p": "[Character-Level Language Modeling with Deeper Self-Attention](http://arxiv.org/abs/1808.04444v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/code-prediction-transformer)",
+        "n": "12-layer Character Transformer Model",
+        "d": "2018-08-09",
+        "m1": "1.11",
+        "m2": "44M"
+      },
+      {
+        "p": "[Mogrifier LSTM](https://arxiv.org/abs/1909.01792v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/deepmind/lamb)",
+        "n": "Mogrifier LSTM",
+        "d": "2019-09-04",
+        "m1": "1.122",
+        "m2": "96M"
+      },
+      {
+        "p": "[An Analysis of Neural Language Modeling at Multiple Scales](http://arxiv.org/abs/1803.08240v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/salesforce/awd-lstm-lm)",
+        "n": "3-layer AWD-LSTM",
+        "d": "2018-03-22",
+        "m1": "1.232",
+        "m2": "47M"
+      },
+      {
+        "p": "[Multiplicative LSTM for sequence modelling](http://arxiv.org/abs/1609.07959v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/astakara48/python_project)",
+        "n": "Large mLSTM +emb +WN +VD",
+        "d": "2016-09-26",
+        "m1": "1.24",
+        "m2": "46M"
+      },
+      {
+        "p": "[Fast-Slow Recurrent Neural Networks](http://arxiv.org/abs/1705.08639v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/amujika/Fast-Slow-LSTM)",
+        "n": "Large FS-LSTM-4",
+        "d": "2017-05-24",
+        "m1": "1.245",
+        "m2": "47M"
+      },
+      {
+        "p": "[Recurrent Highway Networks](http://arxiv.org/abs/1607.03474v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+        "n": "Large RHN",
+        "d": "2016-07-12",
+        "m1": "1.27",
+        "m2": "46M"
+      },
+      {
+        "p": "[Fast-Slow Recurrent Neural Networks](http://arxiv.org/abs/1705.08639v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/amujika/Fast-Slow-LSTM)",
+        "n": "FS-LSTM-4",
+        "d": "2017-05-24",
+        "m1": "1.277",
+        "m2": "27M"
+      },
+      {
+        "p": "[Recurrent Highway Networks](http://arxiv.org/abs/1607.03474v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+        "n": "RHN - depth 5 [zilly2016recurrent]",
+        "d": "2016-07-12",
+        "m1": "1.31"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

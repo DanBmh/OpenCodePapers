@@ -1,0 +1,71 @@
+{
+  "title": "continual-learning-on-imagenet-50-5-tasks",
+  "task-hierarchy": [
+    "Continual Learning"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Understanding Catastrophic Forgetting and Remembering in Continual Learning with Optimal Relevance Mapping](https://arxiv.org/abs/2102.11343v1)",
+        "c": "[&check;&nbsp;Link](https://gitlab.com/prakhark2/relevance-mapping-networks)",
+        "n": "RMN",
+        "d": "2021-02-22",
+        "m1": "68.1"
+      },
+      {
+        "p": "[EXTENDING CONDITIONAL CONVOLUTION STRUCTURES FOR ENHANCING MULTITASKING CONTINUAL LEARNING](http://www.apsipa.org/proceedings/2020/pdfs/0001605.pdf)",
+        "c": "[&check;&nbsp;Link](https://github.com/ivclab/CondConvContinual)",
+        "n": "CondConvContinual",
+        "d": "2020-12-07",
+        "m1": "61.32"
+      },
+      {
+        "p": "[Conditional Channel Gated Networks for Task-Aware Continual Learning](https://arxiv.org/abs/2004.00070v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/lit-leo/cgate)",
+        "n": "CCGN",
+        "d": "2020-03-31",
+        "m1": "35.24"
+      },
+      {
+        "p": "[Learning to Remember: A Synaptic Plasticity Driven Framework for Continual Learning](https://arxiv.org/abs/1904.03137v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/SAP/machine-learning-dgm)",
+        "n": "DGMw",
+        "d": "2019-04-05",
+        "m1": "17.82"
+      },
+      {
+        "p": "[Learning to Remember: A Synaptic Plasticity Driven Framework for Continual Learning](https://arxiv.org/abs/1904.03137v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/SAP/machine-learning-dgm)",
+        "n": "DGMa",
+        "d": "2019-04-05",
+        "m1": "15.16"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

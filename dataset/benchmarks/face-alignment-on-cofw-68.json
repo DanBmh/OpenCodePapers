@@ -1,0 +1,103 @@
+{
+  "title": "face-alignment-on-cofw-68",
+  "task-hierarchy": [
+    "3D Face Reconstruction",
+    "Facial Recognition and Modelling",
+    "Face Alignment"
+  ],
+  "dataset-info": {
+    "link": "http://www.vision.caltech.edu/xpburgos/ICCV13/#dataset"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "NME (inter-ocular)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "NME (box)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "AUC@7 (box)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Shape Preserving Facial Landmarks with Graph Attention Networks](https://arxiv.org/abs/2210.07233v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/andresprados/spiga)",
+        "n": "SPIGA",
+        "d": "2022-10-13",
+        "m1": "3.93",
+        "m2": "2.52",
+        "m3": "64.1"
+      },
+      {
+        "p": "[Sparse Local Patch Transformer for Robust Face Alignment and Landmarks Inherent Relation Learning](https://arxiv.org/abs/2203.06541v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/jiahao-uts/slpt-master)",
+        "n": "SPLT",
+        "d": "2022-03-13",
+        "m1": "4.10"
+      },
+      {
+        "p": "[Occlusion-Robust Face Alignment Using a Viewpoint-Invariant Hierarchical Network Architecture](http://openaccess.thecvf.com//content/CVPR2022/html/Zhu_Occlusion-Robust_Face_Alignment_Using_a_Viewpoint-Invariant_Hierarchical_Network_Architecture_CVPR_2022_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/zhuccly/glomface-face-alignment)",
+        "n": "GlomFace",
+        "d": "2022-01-01",
+        "m1": "4.21"
+      },
+      {
+        "p": "[Structured Landmark Detection via Topology-Adapting Deep Graph Learning](https://arxiv.org/abs/2004.08190v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/Weijian-li/unsupervised_inter_intra_landmark)",
+        "n": "SLD",
+        "d": "2020-04-17",
+        "m1": "4.22"
+      },
+      {
+        "p": "[Improving Robustness of Facial Landmark Detection by Defending Against Adversarial Attacks](http://openaccess.thecvf.com//content/ICCV2021/html/Zhu_Improving_Robustness_of_Facial_Landmark_Detection_by_Defending_Against_Adversarial_ICCV_2021_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/zhuccly/saat)",
+        "n": "HG×1+SAAT",
+        "d": "2021-01-01",
+        "m1": "4.61"
+      },
+      {
+        "p": "[Deep High-Resolution Representation Learning for Visual Recognition](https://arxiv.org/abs/1908.07919v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection)",
+        "n": "HRNetV2-W18",
+        "d": "2019-08-20",
+        "m1": "5.06"
+      },
+      {
+        "p": "[LUVLi Face Alignment: Estimating Landmarks' Location, Uncertainty, and Visibility Likelihood](https://arxiv.org/abs/2004.02980v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/abhi1kumar/LUVLi)",
+        "n": "LUVLi",
+        "d": "2020-04-06",
+        "m2": "2.75",
+        "m3": "60.8"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

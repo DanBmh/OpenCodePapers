@@ -1,0 +1,101 @@
+{
+  "title": "multimodal-intent-recognition-on-photochat",
+  "task-hierarchy": [
+    "Intent Recognition",
+    "Multimodal Intent Recognition"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Precision",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Recall",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[PaCE: Unified Multi-modal Dialogue Pre-training with Progressive and Compositional Experts](https://arxiv.org/abs/2305.14839v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/pace)",
+        "n": "PaCE",
+        "d": "2023-05-24",
+        "m1": "63.8",
+        "m2": "63.3",
+        "m3": "68"
+      },
+      {
+        "p": "[Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "T5-3B",
+        "d": "2019-10-23",
+        "m1": "58.9",
+        "m2": "54.1",
+        "m3": "64.6"
+      },
+      {
+        "p": "[Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "T5-base",
+        "d": "2019-10-23",
+        "m1": "58.1",
+        "m2": "58.2",
+        "m3": "57.9"
+      },
+      {
+        "p": "[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "BERT",
+        "d": "2018-10-11",
+        "m1": "53.2",
+        "m2": "56.1",
+        "m3": "50.6"
+      },
+      {
+        "p": "[ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision](https://arxiv.org/abs/2102.03334v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "ViLT",
+        "d": "2021-02-05",
+        "m1": "52.4",
+        "m2": "55.4",
+        "m3": "58.9"
+      },
+      {
+        "p": "[ALBERT: A Lite BERT for Self-supervised Learning of Language Representations](https://arxiv.org/abs/1909.11942v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "ALBERT-base",
+        "d": "2019-09-26",
+        "m1": "52.2",
+        "m2": "44.8",
+        "m3": "62.7"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "title": "personalized-image-generation-on-dreambench",
+  "task-hierarchy": [
+    "Personalized Image Generation"
+  ],
+  "dataset-info": {
+    "link": "https://dreambooth.github.io"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Overall (CP * PF)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Concept Preservation (CP)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Prompt Following (PF)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation](https://arxiv.org/abs/2208.12242v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/ppdiffusers/examples/dreambooth)",
+        "n": "DreamBooth LoRA SDXL v1.0",
+        "d": "2022-08-25",
+        "m1": "0.517",
+        "m2": "0.598",
+        "m3": "0.865"
+      },
+      {
+        "p": "[IP-Adapter: Text Compatible Image Prompt Adapter for Text-to-Image Diffusion Models](https://arxiv.org/abs/2308.06721v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/tencent-ailab/ip-adapter)",
+        "n": "IP-Adapter ViT-G SDXL v1.0",
+        "d": "2023-08-13",
+        "m1": "0.380",
+        "m2": "0.593",
+        "m3": "0.640"
+      },
+      {
+        "p": "[Generative Multimodal Models are In-Context Learners](https://arxiv.org/abs/2312.13286v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/baaivision/emu)",
+        "n": "Emu2 SDXL v1.0",
+        "d": "2023-12-20",
+        "m1": "0.364",
+        "m2": "0.528",
+        "m3": "0.690"
+      },
+      {
+        "p": "[DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation](https://arxiv.org/abs/2208.12242v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/ppdiffusers/examples/dreambooth)",
+        "n": "DreamBooth SD v1.5",
+        "d": "2022-08-25",
+        "m1": "0.356",
+        "m2": "0.494",
+        "m3": "0.721"
+      },
+      {
+        "p": "[IP-Adapter: Text Compatible Image Prompt Adapter for Text-to-Image Diffusion Models](https://arxiv.org/abs/2308.06721v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/tencent-ailab/ip-adapter)",
+        "n": "IP-Adapter-Plus ViT-H SDXL v1.0",
+        "d": "2023-08-13",
+        "m1": "0.344",
+        "m2": "0.833",
+        "m3": "0.413"
+      },
+      {
+        "p": "[BLIP-Diffusion: Pre-trained Subject Representation for Controllable Text-to-Image Generation and Editing](https://arxiv.org/abs/2305.14720v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/salesforce/lavis)",
+        "n": "BLIP-Diffusion SD v1.5",
+        "d": "2023-05-24",
+        "m1": "0.271",
+        "m2": "0.547",
+        "m3": "0.495"
+      },
+      {
+        "p": "[An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion](https://arxiv.org/abs/2208.01618v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/cloneofsimo/lora)",
+        "n": "Textual Inversion SD v1.5",
+        "d": "2022-08-02",
+        "m1": "0.236",
+        "m2": "0.378",
+        "m3": "0.624"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

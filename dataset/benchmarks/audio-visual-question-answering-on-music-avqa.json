@@ -1,0 +1,81 @@
+{
+  "title": "audio-visual-question-answering-on-music-avqa",
+  "task-hierarchy": [
+    "Audio-visual Question Answering"
+  ],
+  "dataset-info": {
+    "link": "http://gewu-lab.github.io/MUSIC-AVQA/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Acc",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[VAST: A Vision-Audio-Subtitle-Text Omni-Modality Foundation Model and Dataset](https://arxiv.org/abs/2305.18500v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/TXH-mercury/VALOR)",
+        "n": "VAST",
+        "d": "2023-05-29",
+        "m1": "80.7"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "CoQo(Internvideo2)",
+        "d": null,
+        "m1": "79.6"
+      },
+      {
+        "p": "[VALOR: Vision-Audio-Language Omni-Perception Pretraining Model and Dataset](https://arxiv.org/abs/2304.08345v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/TXH-mercury/VALOR)",
+        "n": "VALOR",
+        "d": "2023-04-17",
+        "m1": "78.9"
+      },
+      {
+        "p": "[CAD -- Contextual Multi-modal Alignment for Dynamic AVQA](https://arxiv.org/abs/2310.16754v2)",
+        "c": "",
+        "n": "CAD",
+        "d": "2023-10-25",
+        "m1": "78.26"
+      },
+      {
+        "p": "[Vision Transformers are Parameter-Efficient Audio-Visual Learners](https://arxiv.org/abs/2212.07983v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/GenjiB/LAVISH)",
+        "n": "LAVISH",
+        "d": "2022-12-15",
+        "m1": "77.08"
+      },
+      {
+        "p": "[Learning to Answer Questions in Dynamic Audio-Visual Scenarios](https://arxiv.org/abs/2203.14072v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/GeWu-Lab/MUSIC-AVQA)",
+        "n": "ST-AVQA",
+        "d": "2022-03-26",
+        "m1": "71.52"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

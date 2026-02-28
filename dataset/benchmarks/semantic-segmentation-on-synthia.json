@@ -1,0 +1,60 @@
+{
+  "title": "semantic-segmentation-on-synthia",
+  "task-hierarchy": [
+    "Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://synthia-dataset.net/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[CGA-Net: Category Guided Aggregation for Point Cloud Semantic Segmentation](http://openaccess.thecvf.com//content/CVPR2021/html/Lu_CGA-Net_Category_Guided_Aggregation_for_Point_Cloud_Semantic_Segmentation_CVPR_2021_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/MCG-NJU/CGA-Net)",
+        "n": "CGA-Net",
+        "d": "2021-06-19",
+        "m1": "83.8"
+      },
+      {
+        "p": "[MRFP: Learning Generalizable Semantic Segmentation from Sim-2-Real with Multi-Resolution Feature Perturbation](https://arxiv.org/abs/2311.18331v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/airl-iisc/MRFP)",
+        "n": "MRFP+(Ours) Resnet50",
+        "d": "2023-11-30",
+        "m1": "30.22"
+      },
+      {
+        "p": "[MRFP: Learning Generalizable Semantic Segmentation from Sim-2-Real with Multi-Resolution Feature Perturbation](https://arxiv.org/abs/2311.18331v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/airl-iisc/MRFP)",
+        "n": "Resnet50",
+        "d": "2023-11-30",
+        "m1": "25.84"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

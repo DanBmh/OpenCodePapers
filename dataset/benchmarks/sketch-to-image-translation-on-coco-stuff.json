@@ -1,0 +1,68 @@
+{
+  "title": "sketch-to-image-translation-on-coco-stuff",
+  "task-hierarchy": [
+    "Sketch-to-Image Translation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/nightrome/cocostuff"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "FID",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "FID-C",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Pretraining is All You Need for Image-to-Image Translation](https://arxiv.org/abs/2205.12952v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/PITI-Synthesis/PITI)",
+        "n": "PITI",
+        "d": "2022-05-25",
+        "m1": "18.5",
+        "m2": "7.6"
+      },
+      {
+        "p": "[High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs](http://arxiv.org/abs/1711.11585v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/NVIDIA/pix2pixHD)",
+        "n": "Pix2PixHD",
+        "d": "2017-11-30",
+        "m1": "38.7",
+        "m2": "27.1"
+      },
+      {
+        "p": "[Semantic Image Synthesis with Spatially-Adaptive Normalization](https://arxiv.org/abs/1903.07291v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/NVlabs/SPADE)",
+        "n": "SPADE",
+        "d": "2019-03-18",
+        "m1": "89.2",
+        "m2": "48.9"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "title": "face-alignment-on-cofw-68-300wlp",
+  "task-hierarchy": [
+    "3D Face Reconstruction",
+    "Facial Recognition and Modelling",
+    "Face Alignment"
+  ],
+  "dataset-info": {
+    "link": "http://www.vision.caltech.edu/xpburgos/ICCV13/#dataset"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "NME (box)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "AUC@7",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Subpixel Heatmap Regression for Facial Landmark Localization](https://arxiv.org/abs/2111.02360v1)",
+        "c": "",
+        "n": "SH-FAN",
+        "d": "2021-11-03",
+        "m1": "2.47",
+        "m2": "64.9"
+      },
+      {
+        "p": "[LUVLi Face Alignment: Estimating Landmarks' Location, Uncertainty, and Visibility Likelihood](https://arxiv.org/abs/2004.02980v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/abhi1kumar/LUVLi)",
+        "n": "LUVLI",
+        "d": "2020-04-06",
+        "m1": "2.57",
+        "m2": "63.4"
+      },
+      {
+        "p": "[Face Alignment With Kernel Density Deep Neural Network](http://openaccess.thecvf.com/content_ICCV_2019/html/Chen_Face_Alignment_With_Kernel_Density_Deep_Neural_Network_ICCV_2019_paper.html)",
+        "c": "",
+        "n": "KDN",
+        "d": "2019-10-01",
+        "m1": "2.73",
+        "m2": "60.1"
+      },
+      {
+        "p": "[How far are we from solving the 2D & 3D Face Alignment problem? (and a dataset of 230,000 3D facial landmarks)](http://arxiv.org/abs/1703.07332v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/1adrianb/face-alignment)",
+        "n": "2D-FAN",
+        "d": "2017-03-21",
+        "m1": "2.95",
+        "m2": "57.5"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

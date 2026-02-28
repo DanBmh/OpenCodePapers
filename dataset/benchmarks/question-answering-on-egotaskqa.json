@@ -1,0 +1,67 @@
+{
+  "title": "question-answering-on-egotaskqa",
+  "task-hierarchy": [
+    "Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://sites.google.com/view/egotaskqa"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Direct",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[EgoVLPv2: Egocentric Video-Language Pre-training with Fusion in the Backbone](https://arxiv.org/abs/2307.05463v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/EgoVLPv2)",
+        "n": "EgoVLPv2",
+        "d": "2023-07-11",
+        "m1": "46.26"
+      },
+      {
+        "p": "[Glance and Focus: Memory Prompting for Multi-Event Video Question Answering](https://arxiv.org/abs/2401.01529v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/byz0e/glance-focus)",
+        "n": "GF(sup)",
+        "d": "2024-01-03",
+        "m1": "44.27"
+      },
+      {
+        "p": "[Glance and Focus: Memory Prompting for Multi-Event Video Question Answering](https://arxiv.org/abs/2401.01529v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/byz0e/glance-focus)",
+        "n": "GF(uns)",
+        "d": "2024-01-03",
+        "m1": "43.06"
+      },
+      {
+        "p": "[Egocentric Video-Language Pretraining](https://arxiv.org/abs/2206.01670v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/showlab/egovlp)",
+        "n": "EgoVLP",
+        "d": "2022-06-03",
+        "m1": "42.51"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

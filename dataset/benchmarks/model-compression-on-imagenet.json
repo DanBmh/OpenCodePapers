@@ -1,0 +1,123 @@
+{
+  "title": "model-compression-on-imagenet",
+  "task-hierarchy": [
+    "Model Compression"
+  ],
+  "dataset-info": {
+    "link": "https://image-net.org/index.php"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Top-1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Learned Step Size Quantization](https://arxiv.org/abs/1902.08153v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/zhutmost/lsq-net)",
+        "n": "ADLIK-MO-ResNet50+W4A4",
+        "d": "2019-02-21",
+        "m1": "77.878"
+      },
+      {
+        "p": "[Learned Step Size Quantization](https://arxiv.org/abs/1902.08153v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/zhutmost/lsq-net)",
+        "n": "ADLIK-MO-ResNet50+W3A4",
+        "d": "2019-02-21",
+        "m1": "77.34"
+      },
+      {
+        "p": "[R2 Loss: Range Restriction Loss for Model Compression and Quantization](https://arxiv.org/abs/2303.08253v2)",
+        "c": "",
+        "n": "ResNet-18 + 4bit-1dim model compression using DKM",
+        "d": "2023-03-14",
+        "m1": "70.52"
+      },
+      {
+        "p": "[R2 Loss: Range Restriction Loss for Model Compression and Quantization](https://arxiv.org/abs/2303.08253v2)",
+        "c": "",
+        "n": "MobileNet-v1 + 4bit-1dim model compression using DKM",
+        "d": "2023-03-14",
+        "m1": "69.63"
+      },
+      {
+        "p": "[R2 Loss: Range Restriction Loss for Model Compression and Quantization](https://arxiv.org/abs/2303.08253v2)",
+        "c": "",
+        "n": "ResNet-18 + 2bit-1dim model compression using DKM",
+        "d": "2023-03-14",
+        "m1": "68.63"
+      },
+      {
+        "p": "[R2 Loss: Range Restriction Loss for Model Compression and Quantization](https://arxiv.org/abs/2303.08253v2)",
+        "c": "",
+        "n": "MobileNet-v1 + 2bit-1dim model compression using DKM",
+        "d": "2023-03-14",
+        "m1": "67.62"
+      },
+      {
+        "p": "[R2 Loss: Range Restriction Loss for Model Compression and Quantization](https://arxiv.org/abs/2303.08253v2)",
+        "c": "",
+        "n": "ResNet-18 + 4bit-4dim model compression using DKM",
+        "d": "2023-03-14",
+        "m1": "66.1"
+      },
+      {
+        "p": "[R2 Loss: Range Restriction Loss for Model Compression and Quantization](https://arxiv.org/abs/2303.08253v2)",
+        "c": "",
+        "n": "ResNet-18 + 2bit-2dim model compression using DKM",
+        "d": "2023-03-14",
+        "m1": "64.7"
+      },
+      {
+        "p": "[R2 Loss: Range Restriction Loss for Model Compression and Quantization](https://arxiv.org/abs/2303.08253v2)",
+        "c": "",
+        "n": "MobileNet-v1 + 4bit-4dim model compression using DKM",
+        "d": "2023-03-14",
+        "m1": "61.4"
+      },
+      {
+        "p": "[R2 Loss: Range Restriction Loss for Model Compression and Quantization](https://arxiv.org/abs/2303.08253v2)",
+        "c": "",
+        "n": "ResNet-18 + 1bit-1dim model compression using DKM",
+        "d": "2023-03-14",
+        "m1": "59.7"
+      },
+      {
+        "p": "[R2 Loss: Range Restriction Loss for Model Compression and Quantization](https://arxiv.org/abs/2303.08253v2)",
+        "c": "",
+        "n": "MobileNet-v1 + 2bit-2dim model compression using DKM",
+        "d": "2023-03-14",
+        "m1": "53.99"
+      },
+      {
+        "p": "[R2 Loss: Range Restriction Loss for Model Compression and Quantization](https://arxiv.org/abs/2303.08253v2)",
+        "c": "",
+        "n": "MobileNet-v1 + 1bit-1dim model compression using DKM",
+        "d": "2023-03-14",
+        "m1": "52.58"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

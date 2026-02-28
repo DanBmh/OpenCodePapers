@@ -1,0 +1,76 @@
+{
+  "title": "panoptic-segmentation-on-pastis",
+  "task-hierarchy": [
+    "Panoptic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/VSainteuf/pastis-benchmark"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PQ",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "RQ",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "SQ",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Revisiting the Encoding of Satellite Image Time Series](https://arxiv.org/abs/2305.02086v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/TotalVariation/Exchanger4SITS)",
+        "n": "Exchanger+Mask2Former",
+        "d": "2023-05-03",
+        "m1": "52.6",
+        "m2": "61.6",
+        "m3": "84.6"
+      },
+      {
+        "p": "[Revisiting the Encoding of Satellite Image Time Series](https://arxiv.org/abs/2305.02086v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/TotalVariation/Exchanger4SITS)",
+        "n": "Exchanger+Unet+PaPs",
+        "d": "2023-05-03",
+        "m1": "47.8",
+        "m2": "58.9",
+        "m3": "80.3"
+      },
+      {
+        "p": "[Panoptic Segmentation of Satellite Image Time Series with Convolutional Temporal Attention Networks](https://arxiv.org/abs/2107.07933v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/VSainteuf/utae-paps)",
+        "n": "U-TAE + PaPs",
+        "d": "2021-07-16",
+        "m1": "40.4",
+        "m2": "49.2",
+        "m3": "81.3"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

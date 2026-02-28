@@ -1,0 +1,132 @@
+{
+  "title": "vehicle-re-identification-on-vehicleid-medium",
+  "task-hierarchy": [
+    "Vehicle Re-Identification"
+  ],
+  "dataset-info": {
+    "link": "https://www.pkuml.org/resources/pku-vehicleid.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Rank-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Rank-5",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Rank1",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Rank5",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Recall@k Surrogate Loss with Large Batches and Similarity Mixup](https://arxiv.org/abs/2108.11179v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/yash0307/RecallatK_surrogate)",
+        "n": "Recall@k Surrogate loss (ViT-B/16)",
+        "d": "2021-08-25",
+        "m1": "95.2",
+        "m2": "97.2"
+      },
+      {
+        "p": "[Recall@k Surrogate Loss with Large Batches and Similarity Mixup](https://arxiv.org/abs/2108.11179v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/yash0307/RecallatK_surrogate)",
+        "n": "Recall@k Surrogate loss (ResNet-50)",
+        "d": "2021-08-25",
+        "m1": "94.6",
+        "m2": "96.9"
+      },
+      {
+        "p": "[Rethinking the Optimization of Average Precision: Only Penalizing Negative Instances before Positive Ones is Enough](https://arxiv.org/abs/2102.04640v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/interestingzhuo/pnploss)",
+        "n": "PNP Loss",
+        "d": "2021-02-09",
+        "m1": "94.2",
+        "m2": "96.9"
+      },
+      {
+        "p": "[Relation Preserving Triplet Mining for Stabilising the Triplet Loss in Re-identification Systems](https://arxiv.org/abs/2110.07933v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/adhirajghosh/rptm_reid)",
+        "n": "RPTM",
+        "d": "2021-10-15",
+        "m1": "93.3",
+        "m2": "96.5",
+        "m5": "81.2"
+      },
+      {
+        "p": "[Smooth-AP: Smoothing the Path Towards Large-Scale Image Retrieval](https://arxiv.org/abs/2007.12163v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Andrew-Brown1/Smooth_AP)",
+        "n": "Smooth-AP",
+        "d": "2020-07-23",
+        "m1": "93.3",
+        "m2": "96.4"
+      },
+      {
+        "p": "[AttributeNet: Attribute Enhanced Vehicle Re-Identification](https://arxiv.org/abs/2102.03898v2)",
+        "c": "",
+        "n": "ANet",
+        "d": "2021-02-07",
+        "m1": "82.8",
+        "m2": "96.2",
+        "m3": "82.8",
+        "m4": "96.2"
+      },
+      {
+        "p": "[VehicleNet: Learning Robust Feature Representation for Vehicle Re-identification](https://arxiv.org/abs/2004.06305)",
+        "c": "[&check;&nbsp;Link](https://github.com/layumi/Person_reID_baseline_pytorch)",
+        "n": "vehiclenet",
+        "d": "2020-08-07",
+        "m1": "81.35"
+      },
+      {
+        "p": "[Counterfactual Attention Learning for Fine-Grained Visual Categorization and Re-identification](https://arxiv.org/abs/2108.08728v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/raoyongming/CAL)",
+        "n": "CAL",
+        "d": "2021-08-19",
+        "m1": "78.2",
+        "m5": "83.8"
+      },
+      {
+        "p": "[Vehicle Re-identification Using Quadruple Directional Deep Learning Features](http://arxiv.org/abs/1811.05163v1)",
+        "c": "",
+        "n": "QD-DLF",
+        "d": "2018-11-13",
+        "m5": "74.63"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

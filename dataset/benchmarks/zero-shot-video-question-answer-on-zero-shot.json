@@ -1,0 +1,68 @@
+{
+  "title": "zero-shot-video-question-answer-on-zero-shot",
+  "task-hierarchy": [
+    "Video Question Answering",
+    "Zero-Shot Video Question Answer"
+  ],
+  "dataset-info": {
+    "link": "https://longvideobench.github.io/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy (% )",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context](https://arxiv.org/abs/2403.05530v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/dlvuldet/primevul)",
+        "n": "Gemini 1.5 Pro",
+        "d": "2024-03-08",
+        "m1": "66.7"
+      },
+      {
+        "p": "[Video-RAG: Visually-aligned Retrieval-Augmented Long Video Comprehension](https://arxiv.org/abs/2411.13093v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/leon1207/video-rag-master)",
+        "n": "Video-RAG (based on LLaVA-Video)",
+        "d": "2024-11-20",
+        "m1": "65.4"
+      },
+      {
+        "p": "[GPT-4o: Visual perception performance of multimodal large language models in piglet activity understanding](https://arxiv.org/abs/2406.09781v1)",
+        "c": "",
+        "n": "GPT-4o",
+        "d": "2024-06-14",
+        "m1": "64.0"
+      },
+      {
+        "p": "[Video Instruction Tuning With Synthetic Data](https://arxiv.org/abs/2410.02713v2)",
+        "c": "",
+        "n": "LLaVA-Video",
+        "d": "2024-10-03",
+        "m1": "61.9"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

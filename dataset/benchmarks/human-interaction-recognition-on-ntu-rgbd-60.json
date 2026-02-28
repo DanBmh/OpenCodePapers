@@ -1,0 +1,86 @@
+{
+  "title": "human-interaction-recognition-on-ntu-rgbd-60",
+  "task-hierarchy": [
+    "Action Recognition",
+    "3D Action Recognition",
+    "Human Interaction Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/shahroudy/NTURGB-D"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy (Cross-Subject)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Accuracy (Cross-View)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[SkateFormer: Skeletal-Temporal Transformer for Human Action Recognition](https://arxiv.org/abs/2403.09508v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/KAIST-VICLab/SkateFormer)",
+        "n": "SkateFormer",
+        "d": "2024-03-14",
+        "m1": "97.1",
+        "m2": "99.3"
+      },
+      {
+        "p": "[CHASE: Learning Convex Hull Adaptive Shift for Skeleton-based Multi-Entity Action Recognition](https://arxiv.org/abs/2410.07153v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Necolizer/CHASE)",
+        "n": "CHASE(CTR-GCN)",
+        "d": "2024-10-09",
+        "m1": "96.5",
+        "m2": "98.8"
+      },
+      {
+        "p": "[SkeleTR: Towards Skeleton-based Action Recognition in the Wild](http://openaccess.thecvf.com//content/ICCV2023/html/Duan_SkeleTR_Towards_Skeleton-based_Action_Recognition_in_the_Wild_ICCV_2023_paper.html)",
+        "c": "",
+        "n": "SkeleTR",
+        "d": "2023-01-01",
+        "m1": "94.9",
+        "m2": "97.7"
+      },
+      {
+        "p": "[IGFormer: Interaction Graph Transformer for Skeleton-based Human Interaction Recognition](https://arxiv.org/abs/2207.12100v1)",
+        "c": "",
+        "n": "IGFormer",
+        "d": "2022-07-25",
+        "m1": "93.6",
+        "m2": "96.5"
+      },
+      {
+        "p": "[Interaction Relational Network for Mutual Action Recognition](https://arxiv.org/abs/1910.04963v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/mauriciolp/inter-rel-net)",
+        "n": "LSTM-IRN'fc1inter+intra",
+        "d": "2019-10-11",
+        "m1": "90.5",
+        "m2": "93.5"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

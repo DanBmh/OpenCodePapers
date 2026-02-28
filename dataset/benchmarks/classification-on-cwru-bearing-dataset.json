@@ -1,0 +1,67 @@
+{
+  "title": "classification-on-cwru-bearing-dataset",
+  "task-hierarchy": [
+    "Classification"
+  ],
+  "dataset-info": {
+    "link": "https://engineering.case.edu/bearingdatacenter/apparatus-and-procedures"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "10 fold Cross validation",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Mixmamba-fewshot: mamba and attention mixer-based method with few-shot learning for bearing fault diagnosis](https://link.springer.com/article/10.1007/s10489-025-06361-0)",
+        "c": "[&check;&nbsp;Link](https://github.com/linhthan216/MixMamba-Fewshot)",
+        "n": "MixMamba-Fewshot",
+        "d": "2025-02-27",
+        "m1": "99.93"
+      },
+      {
+        "p": "[Few-Shot Bearing Fault Diagnosis Via Ensembling Transformer-Based Model With Mahalanobis Distance Metric Learning From Multiscale Features](https://ieeexplore.ieee.org/document/10478558)",
+        "c": "[&check;&nbsp;Link](https://github.com/HungVu307/Few-shot-via-ensembling-Transformer-with-Mahalanobis-distance)",
+        "n": "Few-shot Transformer Covariance",
+        "d": "2024-03-25",
+        "m1": "99.86"
+      },
+      {
+        "p": "[Bearing Fault Diagnosis Base on Multi-scale CNN and LSTM Model](https://link.springer.com/article/10.1007/s10845-020-01600-2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Xiaohan-Chen/bear_fault_diagnosis)",
+        "n": "MCNN-LSTM",
+        "d": "2020-06-05",
+        "m1": "98.46"
+      },
+      {
+        "p": "[FaultNet: A Deep Convolutional Neural Network for bearing fault classification](https://arxiv.org/abs/2010.02146v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/BaratiLab/FaultNet)",
+        "n": "CNN",
+        "d": "2020-10-05",
+        "m1": "7"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "title": "visual-object-tracking-on-didi",
+  "task-hierarchy": [
+    "Visual Object Tracking"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/jovanavidenovic/DAM4SAM"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Tracking quality",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[A Distractor-Aware Memory for Visual Object Tracking with SAM2](https://arxiv.org/abs/2411.17576v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/jovanavidenovic/dam4sam)",
+        "n": "DAM4SAM",
+        "d": "2024-11-26",
+        "m1": "0.694"
+      },
+      {
+        "p": "[SAMURAI: Adapting Segment Anything Model for Zero-Shot Visual Tracking with Motion-Aware Memory](https://arxiv.org/abs/2411.11922v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/yangchris11/samurai)",
+        "n": "SAMURAI",
+        "d": "2024-11-18",
+        "m1": "0.680"
+      },
+      {
+        "p": "[SAM 2: Segment Anything in Images and Videos](https://arxiv.org/abs/2408.00714v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/segment-anything)",
+        "n": "SAM2.1",
+        "d": "2024-08-01",
+        "m1": "0.649"
+      },
+      {
+        "p": "[SAM2Long: Enhancing SAM 2 for Long Video Segmentation with a Training-Free Memory Tree](https://arxiv.org/abs/2410.16268v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/mark12ding/sam2long)",
+        "n": "SAM2.1Long",
+        "d": "2024-10-21",
+        "m1": "0.646"
+      },
+      {
+        "p": "[ODTrack: Online Dense Temporal Token Learning for Visual Tracking](https://arxiv.org/abs/2401.01686v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/gxnu-zhonglab/odtrack)",
+        "n": "ODTrack",
+        "d": "2024-01-03",
+        "m1": "0.608"
+      },
+      {
+        "p": "[Putting the Object Back into Video Object Segmentation](https://arxiv.org/abs/2310.12982v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/hkchengrex/Cutie)",
+        "n": "Cutie",
+        "d": "2023-10-19",
+        "m1": "0.575"
+      },
+      {
+        "p": "[AOT: Appearance Optimal Transport Based Identity Swapping for Forgery Detection](https://arxiv.org/abs/2011.02674v1)",
+        "c": "",
+        "n": "AOT",
+        "d": "2020-11-05",
+        "m1": "0.541"
+      },
+      {
+        "p": "[Autoregressive Queries for Adaptive Tracking with Spatio-TemporalTransformers](https://arxiv.org/abs/2403.10574v1)",
+        "c": "",
+        "n": "AQATrack",
+        "d": "2024-03-15",
+        "m1": "0.535"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "SeqTrack",
+        "d": null,
+        "m1": "0.529"
+      },
+      {
+        "p": "[Learning Target Candidate Association to Keep Track of What Not to Track](https://arxiv.org/abs/2103.16556v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/visionml/pytracking)",
+        "n": "KeepTrack",
+        "d": "2021-03-30",
+        "m1": "0.502"
+      },
+      {
+        "p": "[Transformer Tracking](https://arxiv.org/abs/2103.15436v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/chenxin-dlut/TransT)",
+        "n": "TransT",
+        "d": "2021-03-29",
+        "m1": "0.465"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

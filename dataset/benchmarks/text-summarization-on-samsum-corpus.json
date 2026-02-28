@@ -1,0 +1,161 @@
+{
+  "title": "text-summarization-on-samsum-corpus",
+  "task-hierarchy": [
+    "Text Summarization"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/src/1911.12237v2/anc"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "ROUGE-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "ROUGE-2",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "ROUGE-L",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "BertScoreF1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[OmniVec2 - A Novel Transformer based Network for Large Scale Multimodal and Multitask Learning](http://openaccess.thecvf.com//content/CVPR2024/html/Srivastava_OmniVec2_-_A_Novel_Transformer_based_Network_for_Large_Scale_CVPR_2024_paper.html)",
+        "c": "",
+        "n": "OmniVec2",
+        "d": "2024-01-01",
+        "m1": "59.1",
+        "m2": "34.1",
+        "m3": "63.7",
+        "m4": "65.1"
+      },
+      {
+        "p": "[Instructive Dialogue Summarization with Query Aggregations](https://arxiv.org/abs/2310.10981v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/BinWang28/InstructDS)",
+        "n": "InstructDS",
+        "d": "2023-10-17",
+        "m1": "55.3",
+        "m2": "31.3",
+        "m3": "46.7",
+        "m4": "55.5"
+      },
+      {
+        "p": "[Momentum Calibration for Text Generation](https://arxiv.org/abs/2212.04257v1)",
+        "c": "",
+        "n": "MoCa",
+        "d": "2022-12-08",
+        "m1": "55.13",
+        "m2": "30.57",
+        "m3": "50.88"
+      },
+      {
+        "p": "[Calibrating Sequence likelihood Improves Conditional Language Generation](https://arxiv.org/abs/2210.00045v1)",
+        "c": "",
+        "n": "PEGASUS 2B + SliC",
+        "d": "2022-09-30",
+        "m1": "54.37",
+        "m2": "29.88",
+        "m3": "45.89"
+      },
+      {
+        "p": "[Topic-Aware Contrastive Learning for Abstractive Dialogue Summarization](https://arxiv.org/abs/2109.04994v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/junpliu/condigsum)",
+        "n": "ConDigSum",
+        "d": "2021-09-10",
+        "m1": "54.3",
+        "m2": "29.3",
+        "m3": "45.2",
+        "m4": "54"
+      },
+      {
+        "p": "[Mind the Gap! Injecting Commonsense Knowledge for Abstractive Dialogue Summarization](https://arxiv.org/abs/2209.00930v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/SeungoneKim/SICK_Summarization)",
+        "n": "SICK",
+        "d": "2022-09-02",
+        "m1": "53.73",
+        "m2": "28.81",
+        "m3": "49.5",
+        "m4": "71.92"
+      },
+      {
+        "p": "[Hierarchical Learning for Generation with Long Source Sequences](https://arxiv.org/abs/2104.07545v2)",
+        "c": "",
+        "n": "HAT-CNNDM",
+        "d": "2021-04-15",
+        "m1": "53.01",
+        "m2": "28.27"
+      },
+      {
+        "p": "[Topic-Aware Contrastive Learning for Abstractive Dialogue Summarization](https://arxiv.org/abs/2109.04994v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/junpliu/condigsum)",
+        "n": "BART-Large",
+        "d": "2021-09-10",
+        "m1": "52.6",
+        "m2": "27",
+        "m3": "42.1",
+        "m4": "52.1"
+      },
+      {
+        "p": "[CriSPO: Multi-Aspect Critique-Suggestion-guided Automatic Prompt Optimization for Text Generation](https://arxiv.org/abs/2410.02748v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/amazon-science/crispo)",
+        "n": "CriSPO 3-shot",
+        "d": "2024-10-03",
+        "m1": "47.2",
+        "m2": "20.8",
+        "m3": "38.2"
+      },
+      {
+        "p": "[Salient Information Prompting to Steer Content in Prompt-based Abstractive Summarization](https://arxiv.org/abs/2410.02741v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/amazon-science/SigExt)",
+        "n": "Mistral 7B + SigExt",
+        "d": "2024-10-03",
+        "m1": "44.1",
+        "m3": "33.9"
+      },
+      {
+        "p": "[Hierarchical Learning for Generation with Long Source Sequences](https://arxiv.org/abs/2104.07545v2)",
+        "c": "",
+        "n": "HAT-CNNDM RL",
+        "d": "2021-04-15",
+        "m3": "48.84"
+      },
+      {
+        "p": "[Hierarchical Prompting Taxonomy: A Universal Evaluation Framework for Large Language Models Aligned with Human Cognitive Principles](https://arxiv.org/abs/2406.12644v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/devichand579/HPT)",
+        "n": "GPT-4o (HPT)",
+        "d": "2024-06-18",
+        "m3": "30"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

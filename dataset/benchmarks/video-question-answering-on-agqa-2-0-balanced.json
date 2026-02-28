@@ -1,0 +1,92 @@
+{
+  "title": "video-question-answering-on-agqa-2-0-balanced",
+  "task-hierarchy": [
+    "Video Question Answering"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Average Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Glance and Focus: Memory Prompting for Multi-Event Video Question Answering](https://arxiv.org/abs/2401.01529v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/byz0e/glance-focus)",
+        "n": "GF (sup) - Faster RCNN",
+        "d": "2024-01-03",
+        "m1": "55.08"
+      },
+      {
+        "p": "[MIST: Multi-modal Iterative Spatial-Temporal Transformer for Long-form Video Question Answering](https://arxiv.org/abs/2212.09522v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/showlab/mist)",
+        "n": "MIST - CLIP",
+        "d": "2022-12-19",
+        "m1": "54.39"
+      },
+      {
+        "p": "[Glance and Focus: Memory Prompting for Multi-Event Video Question Answering](https://arxiv.org/abs/2401.01529v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/byz0e/glance-focus)",
+        "n": "GF (uns) - S3D",
+        "d": "2024-01-03",
+        "m1": "53.33"
+      },
+      {
+        "p": "[SViTT: Temporal Learning of Sparse Video-Text Transformers](https://arxiv.org/abs/2304.08809v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jerryyli/svitt)",
+        "n": "SViTT",
+        "d": "2023-04-18",
+        "m1": "52.7"
+      },
+      {
+        "p": "[MIST: Multi-modal Iterative Spatial-Temporal Transformer for Long-form Video Question Answering](https://arxiv.org/abs/2212.09522v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/showlab/mist)",
+        "n": "MIST - AIO",
+        "d": "2022-12-19",
+        "m1": "50.96"
+      },
+      {
+        "p": "[Learning Situation Hyper-Graphs for Video Question Answering](https://arxiv.org/abs/2304.08682v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/aurooj/shg-vqa)",
+        "n": "SHG-VQA (trained from scratch)",
+        "d": "2023-04-18",
+        "m1": "49.2"
+      },
+      {
+        "p": "[Glance and Focus: Memory Prompting for Multi-Event Video Question Answering](https://arxiv.org/abs/2401.01529v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/byz0e/glance-focus)",
+        "n": "AIO - ViT",
+        "d": "2024-01-03",
+        "m1": "48.59"
+      },
+      {
+        "p": "[MMTF: Multi-Modal Temporal Fusion for Commonsense Video Question Answering](https://openaccess.thecvf.com/content/ICCV2023W/VLAR/html/Ahmad_MMTF_Multi-Modal_Temporal_Fusion_for_Commonsense_Video_Question_Answering_ICCVW_2023_paper.html)",
+        "c": "",
+        "n": "MMTF",
+        "d": "2023-10-06",
+        "m1": "44.36"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

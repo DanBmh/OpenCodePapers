@@ -1,0 +1,95 @@
+{
+  "title": "3d-object-reconstruction-from-a-single-image-1",
+  "task-hierarchy": [
+    "3D Object Reconstruction",
+    "3D Object Reconstruction From A Single Image"
+  ],
+  "dataset-info": {
+    "link": "http://buff.is.tue.mpg.de/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Point-to-surface distance (cm)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Chamfer (cm)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Surface normal consistency",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[PIFuHD: Multi-Level Pixel-Aligned Implicit Function for High-Resolution 3D Human Digitization](https://arxiv.org/abs/2004.00452v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/pifuhd)",
+        "n": "ML-PIFu (end-to-end)",
+        "d": "2020-04-01",
+        "m1": "0.25",
+        "m2": "1.525",
+        "m3": "0.22"
+      },
+      {
+        "p": "[ARCH++: Animation-Ready Clothed Human Reconstruction Revisited](https://arxiv.org/abs/2108.07845v4)",
+        "c": "",
+        "n": "ARCH++",
+        "d": "2021-08-17",
+        "m1": "0.58",
+        "m2": "0.61",
+        "m3": "0.03"
+      },
+      {
+        "p": "[ARCH: Animatable Reconstruction of Clothed Humans](https://arxiv.org/abs/2004.04572v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/kuangzijian/drifu-for-animals)",
+        "n": "ARCH",
+        "d": "2020-04-08",
+        "m1": "0.82",
+        "m2": "0.87",
+        "m3": "0.04"
+      },
+      {
+        "p": "[PIFu: Pixel-Aligned Implicit Function for High-Resolution Clothed Human Digitization](https://arxiv.org/abs/1905.05172v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/shunsukesaito/PIFu)",
+        "n": "PIFu",
+        "d": "2019-05-13",
+        "m1": "1.15",
+        "m2": "1.14",
+        "m3": "0.0928"
+      },
+      {
+        "p": "[PIFuHD: Multi-Level Pixel-Aligned Implicit Function for High-Resolution 3D Human Digitization](https://arxiv.org/abs/2004.00452v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/pifuhd)",
+        "n": "ML-PIFu (alternate)",
+        "d": "2020-04-01",
+        "m1": "1.63",
+        "m2": "1.73",
+        "m3": "0.133"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

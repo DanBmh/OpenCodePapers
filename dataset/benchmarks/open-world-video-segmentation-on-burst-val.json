@@ -1,0 +1,77 @@
+{
+  "title": "open-world-video-segmentation-on-burst-val",
+  "task-hierarchy": [
+    "Video Segmentation",
+    "Open-World Video Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/Ali2500/BURST-benchmark"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "OWTA (all)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "OWTA (com)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "OWTA (unc)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Tracking Anything with Decoupled Video Segmentation](https://arxiv.org/abs/2309.03903v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/hkchengrex/Tracking-Anything-with-DEVA)",
+        "n": "DEVA (Mask2Former)",
+        "d": "2023-09-07",
+        "m1": "69.9",
+        "m2": "75.2",
+        "m3": "41.5"
+      },
+      {
+        "p": "[Tracking Anything with Decoupled Video Segmentation](https://arxiv.org/abs/2309.03903v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/hkchengrex/Tracking-Anything-with-DEVA)",
+        "n": "DEVA (EntitySeg)",
+        "d": "2023-09-07",
+        "m1": "69.5",
+        "m2": "73.3",
+        "m3": "50.5"
+      },
+      {
+        "p": "[Opening Up Open World Tracking](http://openaccess.thecvf.com//content/CVPR2022/html/Liu_Opening_Up_Open_World_Tracking_CVPR_2022_paper.html)",
+        "c": "",
+        "n": "OWTB",
+        "d": "2022-01-01",
+        "m1": "55.8",
+        "m2": "59.8",
+        "m3": "38.8"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

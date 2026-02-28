@@ -1,0 +1,74 @@
+{
+  "title": "holdout-set-on-xview3-sar",
+  "task-hierarchy": [
+    "Holdout Set"
+  ],
+  "dataset-info": {
+    "link": "https://iuu.xview.us/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Aggregate xView3 Score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[xView3-SAR: Detecting Dark Fishing Activity Using Synthetic Aperture Radar Imagery](https://arxiv.org/abs/2206.00897v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/diux-xview/xview3-reference)",
+        "n": "BloodAxe, 1st place xView3 prize challenge",
+        "d": "2022-06-02",
+        "m1": "0.6177"
+      },
+      {
+        "p": "[xView3-SAR: Detecting Dark Fishing Activity Using Synthetic Aperture Radar Imagery](https://arxiv.org/abs/2206.00897v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/diux-xview/xview3-reference)",
+        "n": "selim_sef, 2nd place xView3 prize challenge",
+        "d": "2022-06-02",
+        "m1": "0.6047"
+      },
+      {
+        "p": "[xView3-SAR: Detecting Dark Fishing Activity Using Synthetic Aperture Radar Imagery](https://arxiv.org/abs/2206.00897v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/diux-xview/xview3-reference)",
+        "n": "Tumen, 3rd place xView3 prize challenge",
+        "d": "2022-06-02",
+        "m1": "0.5805"
+      },
+      {
+        "p": "[xView3-SAR: Detecting Dark Fishing Activity Using Synthetic Aperture Radar Imagery](https://arxiv.org/abs/2206.00897v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/diux-xview/xview3-reference)",
+        "n": "Skylight at AI2, 4th place xView3 prize challenge",
+        "d": "2022-06-02",
+        "m1": "0.5777"
+      },
+      {
+        "p": "[xView3-SAR: Detecting Dark Fishing Activity Using Synthetic Aperture Radar Imagery](https://arxiv.org/abs/2206.00897v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/diux-xview/xview3-reference)",
+        "n": "Kohei, 5th place xView3 prize challenge",
+        "d": "2022-06-02",
+        "m1": "0.5717"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

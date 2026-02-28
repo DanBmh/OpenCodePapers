@@ -1,0 +1,77 @@
+{
+  "title": "chinese-word-segmentation-on-pku",
+  "task-hierarchy": [
+    "Chinese",
+    "Chinese Word Segmentation"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Precision",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Recall",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Unsupervised Boundary-Aware Language Model Pretraining for Chinese Sequence Labeling](https://arxiv.org/abs/2210.15231v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/modelscope/modelscope)",
+        "n": "BABERT-LE",
+        "d": "2022-10-27",
+        "m1": "96.84"
+      },
+      {
+        "p": "[Glyce: Glyph-vectors for Chinese Character Representations](https://arxiv.org/abs/1901.10125v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/ShannonAI/glyce)",
+        "n": "Glyce + BERT",
+        "d": "2019-01-29",
+        "m1": "96.7",
+        "m2": "97.1",
+        "m3": "96.4"
+      },
+      {
+        "p": "[Unsupervised Boundary-Aware Language Model Pretraining for Chinese Sequence Labeling](https://arxiv.org/abs/2210.15231v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/modelscope/modelscope)",
+        "n": "BABERT",
+        "d": "2022-10-27",
+        "m1": "96.70"
+      },
+      {
+        "p": "[Improving Chinese Word Segmentation with Wordhood Memory Networks](https://aclanthology.org/2020.acl-main.734)",
+        "c": "[&check;&nbsp;Link](https://github.com/SVAIGBA/WMSeg)",
+        "n": "WMSeg + ZEN",
+        "d": "2020-07-01",
+        "m1": "96.53"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

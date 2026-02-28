@@ -1,0 +1,58 @@
+{
+  "title": "text-classification-on-bala-copa",
+  "task-hierarchy": [
+    "Classification",
+    "Text Classification"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[CAPO: Cost-Aware Prompt Optimization](https://arxiv.org/abs/2504.16005v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/finitearth/promptolution)",
+        "n": "Qwen2.5-32B + CAPO",
+        "d": "2025-04-22",
+        "m1": "98.47"
+      },
+      {
+        "p": "[CAPO: Cost-Aware Prompt Optimization](https://arxiv.org/abs/2504.16005v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/finitearth/promptolution)",
+        "n": "Llama-3.3-70B + CAPO",
+        "d": "2025-04-22",
+        "m1": "98.27"
+      },
+      {
+        "p": "[CAPO: Cost-Aware Prompt Optimization](https://arxiv.org/abs/2504.16005v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/finitearth/promptolution)",
+        "n": "Mistral-Small-24B + CAPO",
+        "d": "2025-04-22",
+        "m1": "95.13"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "title": "carla-map-leaderboard-on-carla",
+  "task-hierarchy": [
+    "Autonomous Driving",
+    "CARLA MAP Leaderboard"
+  ],
+  "dataset-info": {
+    "link": "https://carla.org/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Driving score",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Route completion",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Infraction penalty",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Hidden Biases of End-to-End Driving Models](https://arxiv.org/abs/2306.07957v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/autonomousvision/carla_garage)",
+        "n": "Map TF++",
+        "d": "2023-06-13",
+        "m1": "61.17",
+        "m2": "81.81",
+        "m3": "0.70"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "MMFN+ (TPlanner)",
+        "d": null,
+        "m1": "59.85",
+        "m2": "82.81",
+        "m3": "0.71"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "VinFast - PaaS",
+        "d": null,
+        "m1": "48.24",
+        "m2": "60.58",
+        "m3": "0.84"
+      },
+      {
+        "p": "[GRI: General Reinforced Imitation and its Application to Vision-Based Autonomous Driving](https://arxiv.org/abs/2111.08575v2)",
+        "c": "",
+        "n": "GRI-based DRL",
+        "d": "2021-11-16",
+        "m1": "33.785",
+        "m2": "57.442",
+        "m3": "0.568"
+      },
+      {
+        "p": "[MMFN: Multi-Modal-Fusion-Net for End-to-End Driving](https://arxiv.org/abs/2207.00186v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Kin-Zhang/mmfn)",
+        "n": "MMFN",
+        "d": "2022-07-01",
+        "m1": "22.80",
+        "m2": "47.22",
+        "m3": "0.63"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Techs4AgeCar+",
+        "d": null,
+        "m1": "18.75",
+        "m2": "75.11",
+        "m3": "0.28"
+      },
+      {
+        "p": "[Pylot: A Modular Platform for Exploring Latency-Accuracy Tradeoffs in Autonomous Vehicles](https://www.ionelgog.org/data/papers/2021-icra-pylot.pdf)",
+        "c": "[&check;&nbsp;Link](https://github.com/erdos-project/pylot)",
+        "n": "Pylot",
+        "d": "2021-05-30",
+        "m1": "16.7",
+        "m2": "48.63",
+        "m3": "0.5"
+      },
+      {
+        "p": "[A Software Architecture for Autonomous Vehicles: Team LRM-B Entry in the First CARLA Autonomous Driving Challenge](https://arxiv.org/abs/2010.12598v1)",
+        "c": "",
+        "n": "CaRINA",
+        "d": "2020-10-23",
+        "m1": "15.55",
+        "m2": "40.63",
+        "m3": "0.47"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

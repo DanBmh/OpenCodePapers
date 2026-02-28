@@ -1,0 +1,88 @@
+{
+  "title": "3d-open-vocabulary-instance-segmentation-on-1",
+  "task-hierarchy": [
+    "3D Open-Vocabulary Instance Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/facebookresearch/Replica-Dataset"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Open-YOLO 3D: Towards Fast and Accurate Open-Vocabulary 3D Instance Segmentation](https://arxiv.org/abs/2406.02548v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/aminebdj/openyolo3d)",
+        "n": "Open-YOLO 3D",
+        "d": "2024-06-04",
+        "m1": "23.7"
+      },
+      {
+        "p": "[OpenIns3D: Snap and Lookup for 3D Open-vocabulary Instance Segmentation](https://arxiv.org/abs/2309.00616v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/Pointcept/OpenIns3D)",
+        "n": "OpenIns3D (with rgbd)",
+        "d": "2023-09-01",
+        "m1": "21.1"
+      },
+      {
+        "p": "[Open3DIS: Open-Vocabulary 3D Instance Segmentation with 2D Mask Guidance](https://arxiv.org/abs/2312.10671v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/VinAIResearch/Open3DIS)",
+        "n": "Open3DIS",
+        "d": "2023-12-17",
+        "m1": "18.1"
+      },
+      {
+        "p": "[OpenIns3D: Snap and Lookup for 3D Open-vocabulary Instance Segmentation](https://arxiv.org/abs/2309.00616v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/Pointcept/OpenIns3D)",
+        "n": "OpenIns3D",
+        "d": "2023-09-01",
+        "m1": "15.4"
+      },
+      {
+        "p": "[OpenMask3D: Open-Vocabulary 3D Instance Segmentation](https://arxiv.org/abs/2306.13631v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/OpenMask3D/openmask3d)",
+        "n": "OpenMask3D",
+        "d": "2023-06-23",
+        "m1": "13.1"
+      },
+      {
+        "p": "[OVIR-3D: Open-Vocabulary 3D Instance Retrieval Without Training on 3D Data](https://arxiv.org/abs/2311.02873v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/shiyoung77/ovir-3d)",
+        "n": "OVIR-3D",
+        "d": "2023-11-06",
+        "m1": "11.1"
+      },
+      {
+        "p": "[OpenScene: 3D Scene Understanding with Open Vocabularies](https://arxiv.org/abs/2211.15654v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/pengsongyou/openscene)",
+        "n": "OpenScene + Mask3D",
+        "d": "2022-11-28",
+        "m1": "10.9"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

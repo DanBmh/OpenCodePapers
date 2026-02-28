@@ -1,0 +1,67 @@
+{
+  "title": "parameter-efficient-fine-tuning-on-boolq",
+  "task-hierarchy": [
+    "parameter-efficient fine-tuning"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/google-research-datasets/boolean-questions"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy (% )",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/qwenlm/qwen)",
+        "n": "LLaMA2-7b",
+        "d": "2023-05-23",
+        "m1": "82.63"
+      },
+      {
+        "p": "[GIFT-SW: Gaussian noise Injected Fine-Tuning of Salient Weights for LLMs](https://arxiv.org/abs/2408.15300v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/On-Point-RND/GIFT_SW)",
+        "n": "LLaMA2-7b",
+        "d": "2024-08-27",
+        "m1": "82.63"
+      },
+      {
+        "p": "[DoRA: Weight-Decomposed Low-Rank Adaptation](https://arxiv.org/abs/2402.09353v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/NVlabs/DoRA)",
+        "n": "LLaMA2-7b",
+        "d": "2024-02-14",
+        "m1": "81.93"
+      },
+      {
+        "p": "[LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+        "n": "LLaMA2-7b",
+        "d": "2021-06-17",
+        "m1": "80.28"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "title": "few-shot-object-detection-on-ms-coco-10-shot",
+  "task-hierarchy": [
+    "Object Detection",
+    "Few-Shot Object Detection"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[No time to train! Training-Free Reference-Based Instance Segmentation](https://arxiv.org/abs/2507.02798v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/miquel-espinosa/no-time-to-train)",
+        "n": "Training-free",
+        "d": "2025-07-03",
+        "m1": "36.6"
+      },
+      {
+        "p": "[Cross-Domain Few-Shot Object Detection via Enhanced Open-Set Object Detector](https://arxiv.org/abs/2402.03094v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/lovelyqian/CDFSOD-benchmark)",
+        "n": "CD-ViTO",
+        "d": "2024-02-05",
+        "m1": "35.3"
+      },
+      {
+        "p": "[Detect Everything with Few Examples](https://arxiv.org/abs/2309.12969v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/mlzxy/devit)",
+        "n": "DE-ViT",
+        "d": "2023-09-22",
+        "m1": "34.0"
+      },
+      {
+        "p": "[Balanced ID-OOD tradeoff transfer makes query based detectors good few shot learners](https://www.sciencedirect.com/science/article/pii/S2667295224000400)",
+        "c": "",
+        "n": "BIOT",
+        "d": "2024-05-23",
+        "m1": "26.3"
+      },
+      {
+        "p": "[Re-Scoring Using Image-Language Similarity for Few-Shot Object Detection](https://arxiv.org/abs/2311.00278v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/INFINIQ-AI1/RISF)",
+        "n": "RISF (SWIN-Large)",
+        "d": "2023-11-01",
+        "m1": "25.5"
+      },
+      {
+        "p": "[DETReg: Unsupervised Pretraining with Region Priors for Object Detection](https://arxiv.org/abs/2106.04550v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/amirbar/detreg)",
+        "n": "DETReg-ft-full DDETR",
+        "d": "2021-06-08",
+        "m1": "25"
+      },
+      {
+        "p": "[Integrally Migrating Pre-trained Transformer Encoder-decoders for Visual Object Detection](https://arxiv.org/abs/2205.09613v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/yuhongtian17/spatial-transform-decoupling)",
+        "n": "imTED+ViT-B",
+        "d": "2022-05-19",
+        "m1": "22.5"
+      },
+      {
+        "p": "[Hierarchical Attention Network for Few-Shot Object Detection via Meta-Contrastive Learning](https://arxiv.org/abs/2208.07039v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/infinity7428/hANMCL)",
+        "n": "hANMCL",
+        "d": "2022-08-15",
+        "m1": "22.4"
+      },
+      {
+        "p": "[Re-Scoring Using Image-Language Similarity for Few-Shot Object Detection](https://arxiv.org/abs/2311.00278v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/INFINIQ-AI1/RISF)",
+        "n": "RISF (Resnet-101)",
+        "d": "2023-11-01",
+        "m1": "21.9"
+      },
+      {
+        "p": "[Decoupling Classifier for Boosting Few-shot Object Detection and Instance Segmentation](https://arxiv.org/abs/2505.14239v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/gaobb/DCFS)",
+        "n": "DCFS",
+        "d": "2025-05-20",
+        "m1": "19.5"
+      },
+      {
+        "p": "[CFA: Constraint-based Finetuning Approach for Generalized Few-Shot Object Detection](https://arxiv.org/abs/2204.05220v1)",
+        "c": "",
+        "n": "CFA-DeFRCN",
+        "d": "2022-04-11",
+        "m1": "19.1"
+      },
+      {
+        "p": "[Dual-Awareness Attention for Few-Shot Object Detection](https://arxiv.org/abs/2102.12152v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/Tung-I/Dual-awareness-Attention-for-Few-shot-Object-Detection)",
+        "n": "DAnA-FasterRCNN",
+        "d": "2021-02-24",
+        "m1": "18.6"
+      },
+      {
+        "p": "[DeFRCN: Decoupled Faster R-CNN for Few-Shot Object Detection](https://arxiv.org/abs/2108.09017v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/er-muyue/defrcn)",
+        "n": "DeFRCN",
+        "d": "2021-08-20",
+        "m1": "18.5"
+      },
+      {
+        "p": "[Meta-DETR: Image-Level Few-Shot Object Detection with Inter-Class Correlation Exploitation](https://arxiv.org/abs/2103.11731v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/ZhangGongjie/Meta-DETR)",
+        "n": "Meta-DETR (Multi-Scale Feature)",
+        "d": "2021-03-22",
+        "m1": "17.8"
+      },
+      {
+        "p": "[Meta-DETR: Image-Level Few-Shot Object Detection with Inter-Class Correlation Exploitation](https://arxiv.org/abs/2103.11731v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/ZhangGongjie/Meta-DETR)",
+        "n": "Meta-DETR (Single-Scale Feature)",
+        "d": "2021-03-22",
+        "m1": "16.7"
+      },
+      {
+        "p": "[Towards Discriminative and Transferable One-Stage Few-Shot Object Detectors](https://arxiv.org/abs/2210.05783v1)",
+        "c": "",
+        "n": "FSRN (RetinaNet)",
+        "d": "2022-10-11",
+        "m1": "15.8"
+      },
+      {
+        "p": "[Beyond Max-Margin: Class Margin Equilibrium for Few-shot Object Detection](https://arxiv.org/abs/2103.04612v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/Bohao-Lee/CME)",
+        "n": "CME",
+        "d": "2021-03-08",
+        "m1": "15.1"
+      },
+      {
+        "p": "[Integrally Migrating Pre-trained Transformer Encoder-decoders for Visual Object Detection](https://arxiv.org/abs/2205.09613v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/yuhongtian17/spatial-transform-decoupling)",
+        "n": "imTED+ViT-S",
+        "d": "2022-05-19",
+        "m1": "15.0"
+      },
+      {
+        "p": "[Few-Shot Object Detection by Attending to Per-Sample-Prototype](https://arxiv.org/abs/2109.07734v1)",
+        "c": "",
+        "n": "FSDetView + PSP",
+        "d": "2021-09-16",
+        "m1": "13.4"
+      },
+      {
+        "p": "[Instant Response Few-shot Object Detection with Meta Strategy and Explicit Localization Inference](https://arxiv.org/abs/2110.13377v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/16337093/PnP-FSOD)",
+        "n": "PnP-FSOD + CT",
+        "d": "2021-10-26",
+        "m1": "13.3"
+      },
+      {
+        "p": "[Few-Shot Object Detection and Viewpoint Estimation for Objects in the Wild](https://arxiv.org/abs/2007.12107v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/YoungXIAO13/FewShotDetection)",
+        "n": "FSDetView",
+        "d": "2020-07-23",
+        "m1": "12.5"
+      },
+      {
+        "p": "[Instant Response Few-shot Object Detection with Meta Strategy and Explicit Localization Inference](https://arxiv.org/abs/2110.13377v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/16337093/PnP-FSOD)",
+        "n": "PnP-FSOD",
+        "d": "2021-10-26",
+        "m1": "12.5"
+      },
+      {
+        "p": "[Semantic Relation Reasoning for Shot-Stable Few-Shot Object Detection](https://arxiv.org/abs/2103.01903v2)",
+        "c": "",
+        "n": "SSR-FSD",
+        "d": "2021-03-02",
+        "m1": "11.3"
+      },
+      {
+        "p": "[Few-Shot Object Detection with Attention-RPN and Multi-Relation Detector](https://arxiv.org/abs/1908.01998v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/fanq15/Few-Shot-Object-Detection-Dataset)",
+        "n": "FSOD",
+        "d": "2019-08-06",
+        "m1": "11.1"
+      },
+      {
+        "p": "[FSCE: Few-Shot Object Detection via Contrastive Proposal Encoding](https://arxiv.org/abs/2103.05950v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/megvii-research/fsce)",
+        "n": "FSCE",
+        "d": "2021-03-10",
+        "m1": "11.1"
+      },
+      {
+        "p": "[Universal-Prototype Enhancing for Few-Shot Object Detection](https://arxiv.org/abs/2103.01077v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/amingwu/up-fsod)",
+        "n": "FSOD(Universal-Prototype)",
+        "d": "2021-03-01",
+        "m1": "11.0"
+      },
+      {
+        "p": "[Frustratingly Simple Few-Shot Object Detection](https://arxiv.org/abs/2003.06957v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ucbdrive/few-shot-object-detection)",
+        "n": "TFA(w/cos)",
+        "d": "2020-03-16",
+        "m1": "10.0"
+      },
+      {
+        "p": "[Frustratingly Simple Few-Shot Object Detection](https://arxiv.org/abs/2003.06957v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ucbdrive/few-shot-object-detection)",
+        "n": "TFA(w/fc)",
+        "d": "2020-03-16",
+        "m1": "10.0"
+      },
+      {
+        "p": "[Multi-Scale Positive Sample Refinement for Few-Shot Object Detection](https://arxiv.org/abs/2007.09384v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/er-muyue/defrcn)",
+        "n": "MPSR",
+        "d": "2020-07-18",
+        "m1": "9.8"
+      },
+      {
+        "p": "[Meta R-CNN: Towards General Solver for Instance-Level Low-Shot Learning](http://openaccess.thecvf.com/content_ICCV_2019/html/Yan_Meta_R-CNN_Towards_General_Solver_for_Instance-Level_Low-Shot_Learning_ICCV_2019_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/yanxp/MetaR-CNN)",
+        "n": "Meta R-CNN",
+        "d": "2019-10-01",
+        "m1": "8.7"
+      },
+      {
+        "p": "[Meta-Learning to Detect Rare Objects](http://openaccess.thecvf.com/content_ICCV_2019/html/Wang_Meta-Learning_to_Detect_Rare_Objects_ICCV_2019_paper.html)",
+        "c": "",
+        "n": "MetaDet",
+        "d": "2019-10-01",
+        "m1": "7.1"
+      },
+      {
+        "p": "[Few-shot Object Detection via Feature Reweighting](https://arxiv.org/abs/1812.01866v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/bingykang/Fewshot_Detection)",
+        "n": "MetaYOLO",
+        "d": "2018-12-05",
+        "m1": "5.6"
+      },
+      {
+        "p": "[LSTD: A Low-Shot Transfer Detector for Object Detection](http://arxiv.org/abs/1803.01529v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Cassie94/LSTD)",
+        "n": "LSTD (YOLO)",
+        "d": "2018-03-05",
+        "m1": "3.2"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

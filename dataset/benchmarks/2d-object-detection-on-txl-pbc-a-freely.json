@@ -1,0 +1,71 @@
+{
+  "title": "2d-object-detection-on-txl-pbc-a-freely",
+  "task-hierarchy": [
+    "2D Object Detection"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mAP50",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[TXL-PBC: a freely accessible labeled peripheral blood cell dataset](https://arxiv.org/abs/2407.13214v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/lugan113/TXL-PBC_Dataset)",
+        "n": "yolov5n",
+        "d": "2024-07-18",
+        "m1": "0.958"
+      },
+      {
+        "p": "[TXL-PBC: a freely accessible labeled peripheral blood cell dataset](https://arxiv.org/abs/2407.13214v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/lugan113/TXL-PBC_Dataset)",
+        "n": "yolov8n",
+        "d": "2024-07-18",
+        "m1": "0.97"
+      },
+      {
+        "p": "[TXL-PBC: a freely accessible labeled peripheral blood cell dataset](https://arxiv.org/abs/2407.13214v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/lugan113/TXL-PBC_Dataset)",
+        "n": "yolov5s",
+        "d": "2024-07-18",
+        "m1": "0.97"
+      },
+      {
+        "p": "[TXL-PBC: a freely accessible labeled peripheral blood cell dataset](https://arxiv.org/abs/2407.13214v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/lugan113/TXL-PBC_Dataset)",
+        "n": "yolov8m",
+        "d": "2024-07-18",
+        "m1": "0.974"
+      },
+      {
+        "p": "[TXL-PBC: a freely accessible labeled peripheral blood cell dataset](https://arxiv.org/abs/2407.13214v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/lugan113/TXL-PBC_Dataset)",
+        "n": "yolov8s",
+        "d": "2024-07-18",
+        "m1": "0.977"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

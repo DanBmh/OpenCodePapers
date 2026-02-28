@@ -1,0 +1,138 @@
+{
+  "title": "line-segment-detection-on-wireframe-dataset",
+  "task-hierarchy": [
+    "Line Segment Detection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/huangkuns/wireframe"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "sAP5",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "sAP10",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "sAP15",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "FH",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[ELSD: Efficient Line Segment Detector and Descriptor](https://arxiv.org/abs/2104.14205v1)",
+        "c": "",
+        "n": "ELSD",
+        "d": "2021-04-29",
+        "m1": "64.3",
+        "m2": "68.9",
+        "m3": "70.9",
+        "m4": "83.1"
+      },
+      {
+        "p": "[Fully Convolutional Line Parsing](https://arxiv.org/abs/2104.11207v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/279_F-Clip)",
+        "n": "F-Clip",
+        "d": "2021-04-22",
+        "m1": "64.3",
+        "m2": "68.3"
+      },
+      {
+        "p": "[Deep Hough-Transform Line Priors](https://arxiv.org/abs/2007.09493v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/yanconglin/Deep-Hough-Transform-Line-Priors)",
+        "n": "HT-HAWP",
+        "d": "2020-07-18",
+        "m1": "62.9",
+        "m2": "66.6"
+      },
+      {
+        "p": "[Holistically-Attracted Wireframe Parsing](https://arxiv.org/abs/2003.01663v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/cherubicXN/hawp)",
+        "n": "HAWP",
+        "d": "2020-03-03",
+        "m1": "62.5",
+        "m2": "66.5",
+        "m3": "68.2",
+        "m4": "83.1"
+      },
+      {
+        "p": "[End-to-End Wireframe Parsing](https://arxiv.org/abs/1905.03246v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/zhou13/lcnn)",
+        "n": "L-CNN",
+        "d": "2019-05-08",
+        "m1": "58.9",
+        "m2": "62.9",
+        "m3": "64.7"
+      },
+      {
+        "p": "[TP-LSD: Tri-Points Based Line Segment Detector](https://arxiv.org/abs/2009.05505v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/siyuada7/tp-lsd)",
+        "n": "TP-LSD",
+        "d": "2020-09-11",
+        "m1": "57.6",
+        "m2": "57.2"
+      },
+      {
+        "p": "[Towards Light-weight and Real-time Line Segment Detection](https://arxiv.org/abs/2106.00186v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/navervision/mlsd)",
+        "n": "M-LSD",
+        "d": "2021-06-01",
+        "m1": "56.4",
+        "m2": "62.1",
+        "m4": "80"
+      },
+      {
+        "p": "[MCMLSD: A Dynamic Programming Approach to Line Segment Detection](http://openaccess.thecvf.com/content_cvpr_2017/html/Almazan_MCMLSD_A_Dynamic_CVPR_2017_paper.html)",
+        "c": "",
+        "n": "MCMLSD",
+        "d": "2017-07-01",
+        "m1": "7.6",
+        "m2": "10.4"
+      },
+      {
+        "p": "[ULSD: Unified Line Segment Detection across Pinhole, Fisheye, and Spherical Cameras](https://arxiv.org/abs/2011.03174v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/lh9171338/ULSD-ISPRS)",
+        "n": "ULSD",
+        "d": "2020-11-06",
+        "m2": "66.4"
+      },
+      {
+        "p": "[LSDNet: Trainable Modification of LSD Algorithm for Real-Time Line Segment Detection](https://arxiv.org/abs/2209.04642v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/iitpvisionlab/LSDNet)",
+        "n": "LSDNet",
+        "d": "2022-09-10",
+        "m4": "77.5"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

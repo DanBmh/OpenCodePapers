@@ -1,0 +1,148 @@
+{
+  "title": "stereotypical-bias-analysis-on-crows-pairs",
+  "task-hierarchy": [
+    "Stereotypical Bias Analysis"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/nyu-mll/crows-pairs"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Gender",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Religion",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Race/Color",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Sexual Orientation",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Age",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "Nationality",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "Disability",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "Physical Appearance",
+        "sortable": "true"
+      },
+      {
+        "key": "m9",
+        "label": "Socioeconomic status",
+        "sortable": "true"
+      },
+      {
+        "key": "m10",
+        "label": "Overall",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Galactica: A Large Language Model for Science](https://arxiv.org/abs/2211.09085v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/paperswithcode/galai)",
+        "n": "GAL 120B",
+        "d": "2022-11-16",
+        "m1": "51.9",
+        "m2": "51.9",
+        "m3": "59.9",
+        "m4": "77.4",
+        "m5": "69",
+        "m6": "51.6",
+        "m7": "66.7",
+        "m8": "58.7",
+        "m9": "65.7",
+        "m10": "60.5"
+      },
+      {
+        "p": "[OPT: Open Pre-trained Transformer Language Models](https://arxiv.org/abs/2205.01068v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/metaseq)",
+        "n": "GPT-3",
+        "d": "2022-05-02",
+        "m1": "62.6",
+        "m2": "62.6",
+        "m3": "64.7",
+        "m4": "76.2",
+        "m5": "64.4",
+        "m6": "61.6",
+        "m7": "76.7",
+        "m8": "74.6",
+        "m9": "73.8",
+        "m10": "67.2"
+      },
+      {
+        "p": "[OPT: Open Pre-trained Transformer Language Models](https://arxiv.org/abs/2205.01068v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/metaseq)",
+        "n": "OPT-175B",
+        "d": "2022-05-02",
+        "m1": "65.7",
+        "m2": "65.7",
+        "m3": "68.6",
+        "m4": "78.6",
+        "m5": "67.8",
+        "m6": "62.9",
+        "m7": "76.7",
+        "m8": "76.2",
+        "m9": "76.2",
+        "m10": "69.5"
+      },
+      {
+        "p": "[LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "LLaMA 65B",
+        "d": "2023-02-27",
+        "m1": "70.6",
+        "m2": "70.6",
+        "m3": "57.0",
+        "m4": "81.0",
+        "m5": "70.1",
+        "m6": "64.2",
+        "m7": "66.7",
+        "m8": "77.8",
+        "m9": "71.5",
+        "m10": "66.6"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

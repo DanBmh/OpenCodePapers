@@ -1,0 +1,90 @@
+{
+  "title": "blood-pressure-estimation-on-mimic-iii",
+  "task-hierarchy": [
+    "Medical waveform analysis",
+    "Electrocardiography (ECG)",
+    "ECG Classification",
+    "Photoplethysmography (PPG)",
+    "Blood pressure estimation"
+  ],
+  "dataset-info": {
+    "link": "https://mimic.physionet.org/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MAE for SBP [mmHg]",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "MAE for DBP [mmHg]",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Mean Squared Error",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "MAE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Long-term Blood Pressure Prediction with Deep Recurrent Neural Networks](http://arxiv.org/abs/1705.04524v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/psu1/DeepRNN)",
+        "n": "Deep RNN",
+        "d": "2017-05-12",
+        "m1": "8.54",
+        "m2": "6.7"
+      },
+      {
+        "p": "[Blood Pressure Estimation from Photoplethysmogram Using a Spectro-Temporal Deep Neural Network](https://doi.org/10.3390/s19153420)",
+        "c": "",
+        "n": "ResNet (raw PPG + PPG’ + PPG”, with personalization)",
+        "d": "2019-08-04",
+        "m1": "9.43",
+        "m2": "6.88"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Random Forest (features, with personalization)",
+        "d": null,
+        "m1": "13.62",
+        "m2": "11.73"
+      },
+      {
+        "p": "[Domain Knowledge Integrated CNN-xLSTM-xAtt Network with Multi Stream Feature Fusion for Cuffless Blood Pressure Estimation from Photoplethysmography Signals](https://kwnsfk27.r.eu-west-1.awstrack.me/L0/https:%2F%2Fauthors.elsevier.com%2Fc%2F1l6MV_LnESZKxl/1/01020196dba1b04f-e32a503b-d6b3-4c59-96fd-3c64076ae0e1-000000/VlXteY78VEhGn9zPa4TQ9A_Mq98=426)",
+        "c": "[&check;&nbsp;Link](https://github.com/MSA-Rafi/Domain-Knowledge-Integrated-CNN-xLSTM-xAtt-Multi-Stream-Feature-Fusion-Cuffless-BP-Estimation-PPG)",
+        "n": "Domain Knowledge Integrated CNN-xLSTM-xAtt Nrtwork",
+        "d": "2025-05-13",
+        "m3": "0.05%",
+        "m4": "1.40%"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

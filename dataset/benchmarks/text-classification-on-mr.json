@@ -1,0 +1,110 @@
+{
+  "title": "text-classification-on-mr",
+  "task-hierarchy": [
+    "Classification",
+    "Text Classification"
+  ],
+  "dataset-info": {
+    "link": "http://www.cs.cornell.edu/people/pabo/movie-review-data/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Vector of Locally-Aggregated Word Embeddings (VLAWE): A Novel Document-level Representation](https://arxiv.org/abs/1902.08850v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/raduionescu/vlawe-boswe)",
+        "n": "VLAWE",
+        "d": "2019-02-23",
+        "m1": "93.3"
+      },
+      {
+        "p": "[Transformers are Short Text Classifiers: A Study of Inductive Short Text Classifiers on Benchmarks and Real-world Datasets](https://arxiv.org/abs/2211.16878v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/FKarl/short-text-classification)",
+        "n": "DeBERTa",
+        "d": "2022-11-30",
+        "m1": "90.21"
+      },
+      {
+        "p": "[BertGCN: Transductive Text Classification by Combining GCN and BERT](https://arxiv.org/abs/2105.05727v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/ZeroRin/BertGCN)",
+        "n": "RoBERTaGCN",
+        "d": "2021-05-12",
+        "m1": "89.7"
+      },
+      {
+        "p": "[Transformers are Short Text Classifiers: A Study of Inductive Short Text Classifiers on Benchmarks and Real-world Datasets](https://arxiv.org/abs/2211.16878v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/FKarl/short-text-classification)",
+        "n": "ERNIE 2.0 (optimized)",
+        "d": "2022-11-30",
+        "m1": "89.53"
+      },
+      {
+        "p": "[Transformers are Short Text Classifiers: A Study of Inductive Short Text Classifiers on Benchmarks and Real-world Datasets](https://arxiv.org/abs/2211.16878v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/FKarl/short-text-classification)",
+        "n": "RoBERTa",
+        "d": "2022-11-30",
+        "m1": "89.42"
+      },
+      {
+        "p": "[Transformers are Short Text Classifiers: A Study of Inductive Short Text Classifiers on Benchmarks and Real-world Datasets](https://arxiv.org/abs/2211.16878v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/FKarl/short-text-classification)",
+        "n": "ERNIE 2.0",
+        "d": "2022-11-30",
+        "m1": "88.97"
+      },
+      {
+        "p": "[Transformers are Short Text Classifiers: A Study of Inductive Short Text Classifiers on Benchmarks and Real-world Datasets](https://arxiv.org/abs/2211.16878v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/FKarl/short-text-classification)",
+        "n": "BERT",
+        "d": "2022-11-30",
+        "m1": "86.94"
+      },
+      {
+        "p": "[Transformers are Short Text Classifiers: A Study of Inductive Short Text Classifiers on Benchmarks and Real-world Datasets](https://arxiv.org/abs/2211.16878v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/FKarl/short-text-classification)",
+        "n": "ALBERTv2",
+        "d": "2022-11-30",
+        "m1": "86.02"
+      },
+      {
+        "p": "[Transformers are Short Text Classifiers: A Study of Inductive Short Text Classifiers on Benchmarks and Real-world Datasets](https://arxiv.org/abs/2211.16878v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/FKarl/short-text-classification)",
+        "n": "DistilBERT",
+        "d": "2022-11-30",
+        "m1": "85.31"
+      },
+      {
+        "p": "[Simple Spectral Graph Convolution](https://openreview.net/forum?id=CYO5T-YjWZV)",
+        "c": "[&check;&nbsp;Link](https://github.com/allenhaozhu/SSGC)",
+        "n": "SSGC",
+        "d": "2021-01-01",
+        "m1": "76.7"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "title": "motion-synthesis-on-lafan1",
+  "task-hierarchy": [
+    "3D Human Pose Tracking",
+    "Motion Synthesis"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/ubisoft/ubisoft-laforge-animation-dataset"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "L2Q@5",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "L2Q@15",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "L2Q@30",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "L2P@5",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "L2P@15",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "L2P@30",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "NPSS@5",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "NPSS@15",
+        "sortable": "true"
+      },
+      {
+        "key": "m9",
+        "label": "NPSS@30",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Motion Inbetweening via Deep $Δ$-Interpolator](https://arxiv.org/abs/2201.06701v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/boreshkinai/delta-interpolator)",
+        "n": "$\\Delta$-interpolator",
+        "d": "2022-01-18",
+        "m1": "0.11",
+        "m2": "0.32",
+        "m3": "0.57",
+        "m4": "0.13",
+        "m5": "0.47",
+        "m6": "1.00",
+        "m7": "0.0014",
+        "m8": "0.0217",
+        "m9": "0.1217"
+      },
+      {
+        "p": "[Single-Shot Motion Completion with Transformer](https://arxiv.org/abs/2103.00776v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/FuxiCV/SSMCT)",
+        "n": "SSMCT",
+        "d": "2021-03-01",
+        "m1": "0.14",
+        "m2": "0.36",
+        "m3": "0.61",
+        "m4": "0.22",
+        "m5": "0.56",
+        "m6": "1.1",
+        "m7": "0.0016",
+        "m8": "0.0234",
+        "m9": "0.1222"
+      },
+      {
+        "p": "[Robust Motion In-betweening](https://arxiv.org/abs/2102.04942v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ubisoftinc/Ubisoft-LaForge-Animation-Dataset)",
+        "n": "TG-complete",
+        "d": "2021-02-09",
+        "m1": "0.17",
+        "m2": "0.42",
+        "m3": "0.69",
+        "m4": "0.23",
+        "m5": "0.65",
+        "m6": "1.28",
+        "m7": "0.002",
+        "m8": "0.0258",
+        "m9": "0.1328"
+      },
+      {
+        "p": "[Task-Generic Hierarchical Human Motion Prior using VAEs](https://arxiv.org/abs/2106.04004v1)",
+        "c": "",
+        "n": "HM-VAE",
+        "d": "2021-06-07",
+        "m1": "0.24",
+        "m2": "0.54",
+        "m3": "0.94"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

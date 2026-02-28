@@ -1,0 +1,306 @@
+{
+  "title": "image-generation-on-lsun-bedroom-256-x-256",
+  "task-hierarchy": [
+    "Image Generation"
+  ],
+  "dataset-info": {
+    "link": "https://www.yf.io/p/lsun"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "FID",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "FD",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Precision",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Recall",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "FID-10k-training-steps",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "NFE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Diffusion-GAN: Training GANs with Diffusion](https://arxiv.org/abs/2206.02262v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/Zhendong-Wang/Diffusion-GAN)",
+        "n": "Diffusion ProjectedGAN",
+        "d": "2022-06-05",
+        "m1": "1.43"
+      },
+      {
+        "p": "[Projected GANs Converge Faster](https://arxiv.org/abs/2111.01007v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/autonomousvision/projected_gan)",
+        "n": "Projected GAN",
+        "d": "2021-11-01",
+        "m1": "1.52",
+        "m5": "1.52"
+      },
+      {
+        "p": "[Truncated Diffusion Probabilistic Models and Diffusion-based Adversarial Auto-Encoders](https://arxiv.org/abs/2202.09671v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/jegzheng/truncated-diffusion-probabilistic-models)",
+        "n": "TDPM+ (TTrunc=99)",
+        "d": "2022-02-19",
+        "m1": "1.88",
+        "m6": "100"
+      },
+      {
+        "p": "[Diffusion Models Beat GANs on Image Synthesis](https://arxiv.org/abs/2105.05233v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/openai/guided-diffusion)",
+        "n": "ADM (dropout)",
+        "d": "2021-05-11",
+        "m1": "1.90"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "StyleGAN",
+        "d": null,
+        "m1": "2.56"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Patch Diffusion",
+        "d": null,
+        "m1": "2.75"
+      },
+      {
+        "p": "[Unleashing Transformers: Parallel Token Prediction with Discrete Absorbing Diffusion for Fast High-Resolution Image Generation from Vector-Quantized Codes](https://arxiv.org/abs/2111.12701v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/samb-t/unleashing-transformers)",
+        "n": "Unleashing Transformers",
+        "d": "2021-11-24",
+        "m1": "3.64"
+      },
+      {
+        "p": "[Diffusion-GAN: Training GANs with Diffusion](https://arxiv.org/abs/2206.02262v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/Zhendong-Wang/Diffusion-GAN)",
+        "n": "Diffusion StyleGAN2",
+        "d": "2022-06-05",
+        "m1": "3.65"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "iDDPM",
+        "d": null,
+        "m1": "4.54"
+      },
+      {
+        "p": "[Soft Truncation: A Universal Training Technique of Score-based Diffusion Model for High Precision Score Estimation](https://arxiv.org/abs/2106.05527v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/Kim-Dongjun/Soft-Truncation)",
+        "n": "UDM (RVE) + ST",
+        "d": "2021-06-10",
+        "m1": "4.57"
+      },
+      {
+        "p": "[Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+        "n": "Denoising Diffusion Probabilistic Model (large)",
+        "d": "2020-06-19",
+        "m1": "4.9"
+      },
+      {
+        "p": "[Flow Matching in Latent Space](https://arxiv.org/abs/2307.08698v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/vinairesearch/lfm)",
+        "n": "LFM",
+        "d": "2023-07-17",
+        "m1": "4.92"
+      },
+      {
+        "p": "[Pseudo Numerical Methods for Diffusion Models on Manifolds](https://arxiv.org/abs/2202.09778v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/sanster/lama-cleaner)",
+        "n": "PNDM",
+        "d": "2022-02-20",
+        "m1": "5.68"
+      },
+      {
+        "p": "[Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+        "n": "Denoising Diffusion Probabilistic Model",
+        "d": "2020-06-19",
+        "m1": "6.36"
+      },
+      {
+        "p": "[Sliced Wasserstein Generative Models](http://arxiv.org/abs/1904.05408v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/musikisomorphie/swd)",
+        "n": "PG-SWGAN",
+        "d": "2019-04-10",
+        "m1": "8.0"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Consistency",
+        "d": null,
+        "m1": "8.27"
+      },
+      {
+        "p": "[Progressive Growing of GANs for Improved Quality, Stability, and Variation](http://arxiv.org/abs/1710.10196v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/tkarras/progressive_growing_of_gans)",
+        "n": "PGGAN",
+        "d": "2017-10-27",
+        "m1": "8.34"
+      },
+      {
+        "p": "[Self-Supervised GANs via Auxiliary Rotation Loss](http://arxiv.org/abs/1811.11212v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/google/compare_gan)",
+        "n": "SS-GAN (sBN)",
+        "d": "2018-11-27",
+        "m1": "13.3"
+      },
+      {
+        "p": "[StackGAN++: Realistic Image Synthesis with Stacked Generative Adversarial Networks](http://arxiv.org/abs/1710.10916v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/hanzhanggit/StackGAN)",
+        "n": "StackGAN-v2",
+        "d": "2017-10-19",
+        "m1": "35.61"
+      },
+      {
+        "p": "[Diffusion Models Beat GANs on Image Synthesis](https://arxiv.org/abs/2105.05233v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/openai/guided-diffusion)",
+        "n": "ADM (dropout, DINOv2)",
+        "d": "2021-05-11",
+        "m2": "59.64",
+        "m3": "0.85",
+        "m4": "0.75"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "iDDPM (DINOv2)",
+        "d": null,
+        "m2": "166.19",
+        "m3": "0.83",
+        "m4": "0.64"
+      },
+      {
+        "p": "[Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+        "n": "Denoising Diffusion Probabilistic Model (large, DINOv2)",
+        "d": "2020-06-19",
+        "m2": "229.76",
+        "m3": "0.79",
+        "m4": "0.61"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "StyleGAN (DINOv2)",
+        "d": null,
+        "m2": "239.79",
+        "m3": "0.85",
+        "m4": "0.41"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Consistency (DINOv2)",
+        "d": null,
+        "m2": "428.99",
+        "m3": "0.83",
+        "m4": "0.23"
+      },
+      {
+        "p": "[Unleashing Transformers: Parallel Token Prediction with Discrete Absorbing Diffusion for Fast High-Resolution Image Generation from Vector-Quantized Codes](https://arxiv.org/abs/2111.12701v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/samb-t/unleashing-transformers)",
+        "n": "Unleashing Transformers (DINOv2)",
+        "d": "2021-11-24",
+        "m2": "440.04",
+        "m3": "0.78",
+        "m4": "0.41"
+      },
+      {
+        "p": "[Diffusion-GAN: Training GANs with Diffusion](https://arxiv.org/abs/2206.02262v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/Zhendong-Wang/Diffusion-GAN)",
+        "n": "Diffusion ProjectedGAN (DINOv2)",
+        "d": "2022-06-05",
+        "m2": "547.61",
+        "m3": "0.79",
+        "m4": "0.28"
+      },
+      {
+        "p": "[Projected GANs Converge Faster](https://arxiv.org/abs/2111.01007v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/autonomousvision/projected_gan)",
+        "n": "Projected GAN (DINOv2)",
+        "d": "2021-11-01",
+        "m2": "636.35",
+        "m3": "0.80",
+        "m4": "0.23"
+      },
+      {
+        "p": "[Generative Adversarial Transformers](https://arxiv.org/abs/2103.01209v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/dorarad/gansformer)",
+        "n": "GANformer",
+        "d": "2021-03-01",
+        "m5": "6.5085"
+      },
+      {
+        "p": "[Generative Adversarial Transformers](https://arxiv.org/abs/2103.01209v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/dorarad/gansformer)",
+        "n": "StyleGAN2",
+        "d": "2021-03-01",
+        "m5": "11.5255"
+      },
+      {
+        "p": "[Generative Adversarial Transformers](https://arxiv.org/abs/2103.01209v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/dorarad/gansformer)",
+        "n": "GAN",
+        "d": "2021-03-01",
+        "m5": "12.1567"
+      },
+      {
+        "p": "[Generative Adversarial Transformers](https://arxiv.org/abs/2103.01209v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/dorarad/gansformer)",
+        "n": "SAGAN",
+        "d": "2021-03-01",
+        "m5": "14.0595"
+      },
+      {
+        "p": "[Generative Adversarial Transformers](https://arxiv.org/abs/2103.01209v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/dorarad/gansformer)",
+        "n": "VQGAN",
+        "d": "2021-03-01",
+        "m5": "59.6333"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "title": "gesture-generation-on-ted-gesture-dataset",
+  "task-hierarchy": [
+    "3D Shape Generation",
+    "Gesture Generation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/youngwoo-yoon/youtube-gesture-dataset"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "FGD",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[AQ-GT: a Temporally Aligned and Quantized GRU-Transformer for Co-Speech Gesture Synthesis](https://arxiv.org/abs/2305.01241v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/hvoss-techfak/AQGT)",
+        "n": "AQ-GT",
+        "d": "2023-05-02",
+        "m1": "1.612"
+      },
+      {
+        "p": "[Rhythmic Gesticulator: Rhythm-Aware Co-Speech Gesture Synthesis with Hierarchical Neural Embeddings](https://arxiv.org/abs/2210.01448v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/aubrey-ao/humanbehavioranimation)",
+        "n": "Rhythmic Gesticulator",
+        "d": "2022-10-04",
+        "m1": "2.04"
+      },
+      {
+        "p": "[Learning Hierarchical Cross-Modal Association for Co-Speech Gesture Generation](https://arxiv.org/abs/2203.13161v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/alvinliu0/HA2G)",
+        "n": "HA2G",
+        "d": "2022-03-24",
+        "m1": "3.072"
+      },
+      {
+        "p": "[Speech2AffectiveGestures: Synthesizing Co-Speech Gestures with Generative Adversarial Affective Expression Learning](https://arxiv.org/abs/2108.00262v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/UttaranB127/speech2affective_gestures)",
+        "n": "Speech2AffectiveGestures",
+        "d": "2021-07-31",
+        "m1": "3.54"
+      },
+      {
+        "p": "[Speech Gesture Generation from the Trimodal Context of Text, Audio, and Speaker Identity](https://arxiv.org/abs/2009.02119v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ai4r/Gesture-Generation-from-Trimodal-Context)",
+        "n": "Trimodal",
+        "d": "2020-09-04",
+        "m1": "3.729"
+      },
+      {
+        "p": "[SEEG: Semantic Energized Co-Speech Gesture Generation](http://openaccess.thecvf.com//content/CVPR2022/html/Liang_SEEG_Semantic_Energized_Co-Speech_Gesture_Generation_CVPR_2022_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/akira-l/seeg)",
+        "n": "SEEG",
+        "d": "2022-01-01",
+        "m1": "3.751"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

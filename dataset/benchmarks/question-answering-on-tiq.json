@@ -1,0 +1,102 @@
+{
+  "title": "question-answering-on-tiq",
+  "task-hierarchy": [
+    "Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://faith.mpi-inf.mpg.de/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "P@1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Faithful Temporal Question Answering over Heterogeneous Sources](https://arxiv.org/abs/2402.15400v1)",
+        "c": "",
+        "n": "FAITH",
+        "d": "2024-02-23",
+        "m1": "49.1"
+      },
+      {
+        "p": "[Explainable Conversational Question Answering over Heterogeneous Sources via Iterative Graph Neural Networks](https://arxiv.org/abs/2305.01548v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/philippchr/explaignn)",
+        "n": "Explaignn",
+        "d": "2023-05-02",
+        "m1": "44.6"
+      },
+      {
+        "p": "[UniK-QA: Unified Representations of Structured and Unstructured Knowledge for Open-Domain Question Answering](https://arxiv.org/abs/2012.14610v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/UniK-QA)",
+        "n": "Unik-Qa",
+        "d": "2020-12-29",
+        "m1": "42.5"
+      },
+      {
+        "p": "[GPT-4 Technical Report](https://arxiv.org/abs/2303.08774v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/openai/evals)",
+        "n": "Gpt-4",
+        "d": "2023-03-15",
+        "m1": "28.6"
+      },
+      {
+        "p": "[UNIQORN: Unified Question Answering over RDF Knowledge Graphs and Natural Language Text](https://arxiv.org/abs/2108.08614v9)",
+        "c": "[&check;&nbsp;Link](https://github.com/ajesujoba/UNIQORN)",
+        "n": "Uniqorn",
+        "d": "2021-08-19",
+        "m1": "23.7"
+      },
+      {
+        "p": "[Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ggml-org/llama.cpp)",
+        "n": "InstructGpt",
+        "d": "2022-03-04",
+        "m1": "23.6"
+      },
+      {
+        "p": "[Complex Temporal Question Answering on Knowledge Graphs](https://arxiv.org/abs/2109.08935v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/zhenjia2017/exaqt)",
+        "n": "Exaqt",
+        "d": "2021-09-18",
+        "m1": "23.2"
+      },
+      {
+        "p": "[TempoQR: Temporal Question Reasoning over Knowledge Graphs](https://arxiv.org/abs/2112.05785v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/cmavro/tempoqr)",
+        "n": "TempoQR",
+        "d": "2021-12-10",
+        "m1": "1.1"
+      },
+      {
+        "p": "[Question Answering Over Temporal Knowledge Graphs](https://arxiv.org/abs/2106.01515v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/apoorvumang/CronKGQA)",
+        "n": "CronKGQA",
+        "d": "2021-06-03",
+        "m1": "0.6"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

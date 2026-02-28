@@ -1,0 +1,81 @@
+{
+  "title": "text-classification-on-dodf-data",
+  "task-hierarchy": [
+    "Text Classification"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Average F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Weighted F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Inferring the source of official texts: can SVM beat ULMFiT?](https://cic.unb.br/~teodecampos/KnEDLe/propor2020/luz_de_araujo_etal_propor2020.pdf)",
+        "c": "[&check;&nbsp;Link](https://github.com/peluz/kneedle-exploration)",
+        "n": "ULMFiT (pre-trained vocab, no gradual unfreezing)",
+        "d": "2020-03-02",
+        "m1": "0.8918",
+        "m2": "0.9257"
+      },
+      {
+        "p": "[Inferring the source of official texts: can SVM beat ULMFiT?](https://cic.unb.br/~teodecampos/KnEDLe/propor2020/luz_de_araujo_etal_propor2020.pdf)",
+        "c": "[&check;&nbsp;Link](https://github.com/peluz/kneedle-exploration)",
+        "n": "SVM + word counts (pre-trained vocab)",
+        "d": "2020-03-02",
+        "m1": "0.8782",
+        "m2": "0.9049"
+      },
+      {
+        "p": "[Inferring the source of official texts: can SVM beat ULMFiT?](https://cic.unb.br/~teodecampos/KnEDLe/propor2020/luz_de_araujo_etal_propor2020.pdf)",
+        "c": "[&check;&nbsp;Link](https://github.com/peluz/kneedle-exploration)",
+        "n": "SVM + tf-idf (no pre-trained vocab)",
+        "d": "2020-03-02",
+        "m1": "0.8755",
+        "m2": "0.8917"
+      },
+      {
+        "p": "[Inferring the source of official texts: can SVM beat ULMFiT?](https://cic.unb.br/~teodecampos/KnEDLe/propor2020/luz_de_araujo_etal_propor2020.pdf)",
+        "c": "[&check;&nbsp;Link](https://github.com/peluz/kneedle-exploration)",
+        "n": "ULMFiT (no pre-trained vocab)",
+        "d": "2020-03-02",
+        "m1": "0.8469",
+        "m2": "0.8974"
+      },
+      {
+        "p": "[Inferring the source of official texts: can SVM beat ULMFiT?](https://cic.unb.br/~teodecampos/KnEDLe/propor2020/luz_de_araujo_etal_propor2020.pdf)",
+        "c": "[&check;&nbsp;Link](https://github.com/peluz/kneedle-exploration)",
+        "n": "ULMFiT (pre-trained vocab)",
+        "d": "2020-03-02",
+        "m1": "0.8374",
+        "m2": "0.9088"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

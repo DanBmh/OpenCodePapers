@@ -1,0 +1,158 @@
+{
+  "title": "scene-text-recognition-on-iiit5k",
+  "task-hierarchy": [
+    "Scene Text Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://cvit.iiit.ac.in/research/projects/cvit-projects/the-iiit-5k-word-dataset"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[CLIP4STR: A Simple Baseline for Scene Text Recognition with Pre-trained Vision-Language Model](https://arxiv.org/abs/2305.14014v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/VamosC/CLIP4STR)",
+        "n": "CLIP4STR-L (DataComp-1B)",
+        "d": "2023-05-23",
+        "m1": "99.6"
+      },
+      {
+        "p": "[DTrOCR: Decoder-only Transformer for Optical Character Recognition](https://arxiv.org/abs/2308.15996v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/arvindrajan92/DTrOCR)",
+        "n": "DTrOCR 105M",
+        "d": "2023-08-30",
+        "m1": "99.6"
+      },
+      {
+        "p": "[CLIP4STR: A Simple Baseline for Scene Text Recognition with Pre-trained Vision-Language Model](https://arxiv.org/abs/2305.14014v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/VamosC/CLIP4STR)",
+        "n": "CLIP4STR-L",
+        "d": "2023-05-23",
+        "m1": "99.5"
+      },
+      {
+        "p": "[CLIP4STR: A Simple Baseline for Scene Text Recognition with Pre-trained Vision-Language Model](https://arxiv.org/abs/2305.14014v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/VamosC/CLIP4STR)",
+        "n": "CLIP4STR-B (DataComp-1B)",
+        "d": "2023-05-23",
+        "m1": "99.5"
+      },
+      {
+        "p": "[Context Perception Parallel Decoder for Scene Text Recognition](https://arxiv.org/abs/2307.12270v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleOCR)",
+        "n": "CPPD",
+        "d": "2023-07-23",
+        "m1": "99.3"
+      },
+      {
+        "p": "[CLIP4STR: A Simple Baseline for Scene Text Recognition with Pre-trained Vision-Language Model](https://arxiv.org/abs/2305.14014v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/VamosC/CLIP4STR)",
+        "n": "CLIP4STR-B",
+        "d": "2023-05-23",
+        "m1": "99.2"
+      },
+      {
+        "p": "[Scene Text Recognition with Permuted Autoregressive Sequence Models](https://arxiv.org/abs/2207.06966v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/topdu/openocr)",
+        "n": "PARSeq",
+        "d": "2022-07-14",
+        "m1": "99.1±0.1"
+      },
+      {
+        "p": "[Multi-Granularity Prediction for Scene Text Recognition](https://arxiv.org/abs/2209.03592v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/alibabaresearch/advancedliteratemachinery)",
+        "n": "MGP-STR",
+        "d": "2022-09-08",
+        "m1": "98.8"
+      },
+      {
+        "p": "[Self-supervised Character-to-Character Distillation for Text Recognition](https://arxiv.org/abs/2211.00288v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/tongkunguan/ccd)",
+        "n": "CCD-ViT-Small(ARD_2.8M)",
+        "d": "2022-11-01",
+        "m1": "98.0"
+      },
+      {
+        "p": "[Self-supervised Character-to-Character Distillation for Text Recognition](https://arxiv.org/abs/2211.00288v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/tongkunguan/ccd)",
+        "n": "CCD-ViT-Base(ARD_2.8M)",
+        "d": "2022-11-01",
+        "m1": "98.0"
+      },
+      {
+        "p": "[Visual Semantics Allow for Textual Reasoning Better in Scene Text Recognition](https://arxiv.org/abs/2112.12916v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/adeline-cs/GTR)",
+        "n": "S-GTR",
+        "d": "2021-12-24",
+        "m1": "97.5"
+      },
+      {
+        "p": "[DiffusionSTR: Diffusion Model for Scene Text Recognition](https://arxiv.org/abs/2306.16707v1)",
+        "c": "",
+        "n": "DiffusionSTR",
+        "d": "2023-06-29",
+        "m1": "97.3"
+      },
+      {
+        "p": "[Self-supervised Character-to-Character Distillation for Text Recognition](https://arxiv.org/abs/2211.00288v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/tongkunguan/ccd)",
+        "n": "CCD-ViT-Tiny(ARD_2.8M)",
+        "d": "2022-11-01",
+        "m1": "97.1"
+      },
+      {
+        "p": "[Self-supervised Implicit Glyph Attention for Text Recognition](https://arxiv.org/abs/2203.03382v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/tongkunguan/siga)",
+        "n": "SIGA_S",
+        "d": "2022-03-07",
+        "m1": "96.9"
+      },
+      {
+        "p": "[Multi-modal Text Recognition Networks: Interactive Enhancements between Visual and Semantic Features](https://arxiv.org/abs/2111.15263v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/topdu/openocr)",
+        "n": "MATRN",
+        "d": "2021-11-30",
+        "m1": "96.6"
+      },
+      {
+        "p": "[CDistNet: Perceiving Multi-Domain Character Distance for Robust Text Recognition](https://arxiv.org/abs/2111.11011v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/topdu/openocr)",
+        "n": "CDistNet (Ours)",
+        "d": "2021-11-22",
+        "m1": "96.57"
+      },
+      {
+        "p": "[Look Back Again: Dual Parallel Attention Network for Accurate and Robust Scene Text Recognition](https://dl.acm.org/doi/10.1145/3460426.3463674)",
+        "c": "[&check;&nbsp;Link](https://github.com/siddagra/DPAN-look-back-Again-Dual-Parallel-Attention-Network-for-Accurate-and-Robust-Scene-Text-Recognition)",
+        "n": "DPAN",
+        "d": "2021-08-01",
+        "m1": "96.2"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

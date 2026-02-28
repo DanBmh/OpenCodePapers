@@ -1,0 +1,90 @@
+{
+  "title": "point-cloud-registration-on-rotkitti",
+  "task-hierarchy": [
+    "3D Point Cloud Interpolation",
+    "Point Cloud Registration"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "RR@(1.5,0.3)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "RR@(1,0.1)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[UMERegRobust -- Universal Manifold Embedding Compatible Features for Robust Point Cloud Registration](https://arxiv.org/abs/2408.12380v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/yuvalh9/umeregrobust)",
+        "n": "UMERegRobust",
+        "d": "2024-08-22",
+        "m1": "81.1",
+        "m2": "73.3"
+      },
+      {
+        "p": "[GeoTransformer: Fast and Robust Point Cloud Registration with Geometric Transformer](https://arxiv.org/abs/2308.03768v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/qinzheng93/geotransformer)",
+        "n": "GeoTransformer",
+        "d": "2023-07-25",
+        "m1": "78.5",
+        "m2": "50.1"
+      },
+      {
+        "p": "[CoFiNet: Reliable Coarse-to-fine Correspondences for Robust PointCloud Registration](https://openreview.net/forum?id=HhUmPH22Vpn)",
+        "c": "[&check;&nbsp;Link](https://github.com/haoyu94/coarse-to-fine-correspondences)",
+        "n": "CoFiNet",
+        "d": "2021-05-21",
+        "m1": "62.5",
+        "m2": "30.1"
+      },
+      {
+        "p": "[PREDATOR: Registration of 3D Point Clouds with Low Overlap](https://arxiv.org/abs/2011.13005v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/qinzheng93/geotransformer)",
+        "n": "PREDATOR",
+        "d": "2020-11-25",
+        "m1": "41.6",
+        "m2": "35.0"
+      },
+      {
+        "p": "[Density-invariant Features for Distant Point Cloud Registration](https://arxiv.org/abs/2307.09788v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/liuquan98/gcl)",
+        "n": "GCL",
+        "d": "2023-07-19",
+        "m1": "40.1",
+        "m2": "28.8"
+      },
+      {
+        "p": "[Fully Convolutional Geometric Features](https://github.com/chrischoy/FCGF)",
+        "c": "[&check;&nbsp;Link](https://github.com/chrischoy/FCGF)",
+        "n": "FCGF",
+        "d": "2019-10-27",
+        "m1": "11.6",
+        "m2": "3.6"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "title": "visual-question-answering-on-figureqa-test-1",
+  "task-hierarchy": [
+    "Visual Question Answering (VQA)"
+  ],
+  "dataset-info": {
+    "link": "https://www.microsoft.com/en-us/research/project/figureqa-dataset/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "1:1 Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Answering Questions about Data Visualizations using Efficient Bimodal Fusion](https://arxiv.org/abs/1908.01801v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/kushalkafle/PREFIL)",
+        "n": "PReFIL",
+        "d": "2019-08-05",
+        "m1": "94.88"
+      },
+      {
+        "p": "[Classification-Regression for Chart Comprehension](https://arxiv.org/abs/2111.14792v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/levymsn/cqa-crct)",
+        "n": "CRCT",
+        "d": "2021-11-29",
+        "m1": "94.23"
+      },
+      {
+        "p": "[FigureQA: An Annotated Figure Dataset for Visual Reasoning](http://arxiv.org/abs/1710.07300v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/vmichals/FigureQA-baseline)",
+        "n": "RN",
+        "d": "2017-10-19",
+        "m1": "76.52"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "title": "2d-object-detection-on-dronevehicle",
+  "task-hierarchy": [
+    "2D Object Detection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/VisDrone/DroneVehicle"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "test/mAP50",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "test/mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Val/mAP50",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Weakly Misalignment-free Adaptive Feature Alignment for UAVs-based Multimodal Object Detection](http://openaccess.thecvf.com//content/CVPR2024/html/Chen_Weakly_Misalignment-free_Adaptive_Feature_Alignment_for_UAVs-based_Multimodal_Object_Detection_CVPR_2024_paper.html)",
+        "c": "",
+        "n": "OAFA",
+        "d": "2024-01-01",
+        "m1": "79.4"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "CALNet",
+        "d": null,
+        "m1": "75.4",
+        "m3": "76.4"
+      },
+      {
+        "p": "[$\\mathbf{C}^2$Former: Calibrated and Complementary Transformer for RGB-Infrared Object Detection](https://arxiv.org/abs/2306.16175v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/yuanmaoxun/c2former)",
+        "n": "C2Former",
+        "d": "2023-06-28",
+        "m1": "72.8",
+        "m2": "42.8",
+        "m3": "74.2"
+      },
+      {
+        "p": "[Target-aware Dual Adversarial Learning and a Multi-scenario Multi-Modality Benchmark to Fuse Infrared and Visible for Object Detection](https://arxiv.org/abs/2203.16220v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/JinyuanLiu-CV/TarDAL)",
+        "n": "TarDAL",
+        "d": "2022-03-30",
+        "m1": "72.6",
+        "m2": "43.3"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "GLFNet",
+        "d": null,
+        "m1": "71.4",
+        "m2": "42.9"
+      },
+      {
+        "p": "[Translation, Scale and Rotation: Cross-Modal Alignment Meets RGB-Infrared Vehicle Detection](https://arxiv.org/abs/2209.13801v1)",
+        "c": "",
+        "n": "TSFADet",
+        "d": "2022-09-28",
+        "m1": "70.4",
+        "m3": "73.1"
+      },
+      {
+        "p": "[Drone-based RGB-Infrared Cross-Modality Vehicle Detection via Uncertainty-Aware Learning](https://arxiv.org/abs/2003.02437v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/VisDrone/DroneVehicle)",
+        "n": "UA-CMDet",
+        "d": "2020-03-05",
+        "m1": "64.0",
+        "m2": "40.1"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "CAGTDet",
+        "d": null,
+        "m3": "74.6"
+      },
+      {
+        "p": "[Weakly Aligned Cross-Modal Learning for Multispectral Pedestrian Detection](https://arxiv.org/abs/1901.02645v2)",
+        "c": "",
+        "n": "AR-CNN",
+        "d": "2019-01-09",
+        "m3": "71.6"
+      },
+      {
+        "p": "[CIAN: Cross-Image Affinity Net for Weakly Supervised Semantic Segmentation](https://arxiv.org/abs/1811.10842v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/js-fan/CIAN)",
+        "n": "CIAN",
+        "d": "2018-11-27",
+        "m3": "70.2"
+      },
+      {
+        "p": "[Multispectral Deep Neural Networks for Pedestrian Detection](http://arxiv.org/abs/1611.02644v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/SoonminHwang/rgbt-ped-detection)",
+        "n": " HalfwayFusion",
+        "d": "2016-11-08",
+        "m3": "68.2"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

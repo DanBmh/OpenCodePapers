@@ -1,0 +1,109 @@
+{
+  "title": "visual-question-answering-on-benchlmm",
+  "task-hierarchy": [
+    "Visual Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://aifeg.github.io/BenchLMM/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "GPT-3.5 score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[GPT-4 Technical Report](https://arxiv.org/abs/2303.08774v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/openai/evals)",
+        "n": "GPT-4V",
+        "d": "2023-03-15",
+        "m1": "58.37"
+      },
+      {
+        "p": "[SPHINX: The Joint Mixing of Weights, Tasks, and Visual Embeddings for Multi-modal Large Language Models](https://arxiv.org/abs/2311.07575v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/alpha-vllm/llama2-accessory)",
+        "n": "Sphinx-V2-1K",
+        "d": "2023-11-13",
+        "m1": "57.43"
+      },
+      {
+        "p": "[Improved Baselines with Visual Instruction Tuning](https://arxiv.org/abs/2310.03744v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "LLaVA-1.5-13B",
+        "d": "2023-10-05",
+        "m1": "55.53"
+      },
+      {
+        "p": "[Visual Instruction Tuning](https://arxiv.org/abs/2304.08485v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "LLaVA-1.5-7B",
+        "d": "2023-04-17",
+        "m1": "46.83"
+      },
+      {
+        "p": "[InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning](https://arxiv.org/abs/2305.06500v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/salesforce/lavis)",
+        "n": "InstructBLIP-13B",
+        "d": "2023-05-11",
+        "m1": "45.03"
+      },
+      {
+        "p": "[InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning](https://arxiv.org/abs/2305.06500v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/salesforce/lavis)",
+        "n": "InstructBLIP-7B",
+        "d": "2023-05-11",
+        "m1": "44.63"
+      },
+      {
+        "p": "[Visual Instruction Tuning](https://arxiv.org/abs/2304.08485v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "LLaVA-1-13B",
+        "d": "2023-04-17",
+        "m1": "43.50"
+      },
+      {
+        "p": "[Otter: A Multi-Modal Model with In-Context Instruction Tuning](https://arxiv.org/abs/2305.03726v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/luodian/otter)",
+        "n": "Otter-7B",
+        "d": "2023-05-05",
+        "m1": "39.13"
+      },
+      {
+        "p": "[MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models](https://arxiv.org/abs/2304.10592v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/vision-cair/minigpt-4)",
+        "n": "MiniGPT4-13B",
+        "d": "2023-04-20",
+        "m1": "34.93"
+      },
+      {
+        "p": "[MiniGPT-v2: large language model as a unified interface for vision-language multi-task learning](https://arxiv.org/abs/2310.09478v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/vision-cair/minigpt-4)",
+        "n": "MiniGPTv2-7B",
+        "d": "2023-10-14",
+        "m1": "30.1"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "title": "visual-reasoning-on-vsr",
+  "task-hierarchy": [
+    "Visual Reasoning"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/cambridgeltl/visual-spatial-reasoning"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Visual Spatial Reasoning](https://arxiv.org/abs/2205.00363v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/cambridgeltl/visual-spatial-reasoning)",
+        "n": "LXMERT",
+        "d": "2022-04-30",
+        "m1": "70.1"
+      },
+      {
+        "p": "[Visual Spatial Reasoning](https://arxiv.org/abs/2205.00363v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/cambridgeltl/visual-spatial-reasoning)",
+        "n": "ViLT",
+        "d": "2022-04-30",
+        "m1": "69.3"
+      },
+      {
+        "p": "[Visual Spatial Reasoning](https://arxiv.org/abs/2205.00363v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/cambridgeltl/visual-spatial-reasoning)",
+        "n": "CLIP (finetuned)",
+        "d": "2022-04-30",
+        "m1": "65.1"
+      },
+      {
+        "p": "[Visual Spatial Reasoning](https://arxiv.org/abs/2205.00363v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/cambridgeltl/visual-spatial-reasoning)",
+        "n": "CLIP (frozen)",
+        "d": "2022-04-30",
+        "m1": "56.0"
+      },
+      {
+        "p": "[Visual Spatial Reasoning](https://arxiv.org/abs/2205.00363v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/cambridgeltl/visual-spatial-reasoning)",
+        "n": "VisualBERT",
+        "d": "2022-04-30",
+        "m1": "55.2"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

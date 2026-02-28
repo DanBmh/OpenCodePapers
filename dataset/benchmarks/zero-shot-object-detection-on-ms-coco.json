@@ -1,0 +1,114 @@
+{
+  "title": "zero-shot-object-detection-on-ms-coco",
+  "task-hierarchy": [
+    "Object Detection",
+    "Zero-Shot Object Detection"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Recall",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[UniFa: A unified feature hallucination framework for any-shot object detection](https://www.sciencedirect.com/science/article/abs/pii/S0167865525000194)",
+        "c": "",
+        "n": "UniFa",
+        "d": "2025-03-01",
+        "m1": "26.00",
+        "m2": "69.10"
+      },
+      {
+        "p": "[SeeDS: Semantic Separable Diffusion Synthesizer for Zero-shot Food Detection](https://arxiv.org/abs/2310.04689v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/lancezpf/seeds)",
+        "n": "SeeDS",
+        "d": "2023-10-07",
+        "m1": "20.6",
+        "m2": "64"
+      },
+      {
+        "p": "[Resolving Semantic Confusions for Improved Zero-Shot Detection](https://arxiv.org/abs/2212.06097v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/sandipan211/ZSD-SC-Resolver)",
+        "n": "ZSD-SCR",
+        "d": "2022-12-12",
+        "m1": "20.10",
+        "m2": "65.10"
+      },
+      {
+        "p": "[Robust Region Feature Synthesizer for Zero-Shot Object Detection](https://arxiv.org/abs/2201.00103v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/HPL123/RRFS)",
+        "n": "ZSD-RRFS",
+        "d": "2022-01-01",
+        "m1": "19.8",
+        "m2": "62.3"
+      },
+      {
+        "p": "[Semantics-Guided Contrastive Network for Zero-Shot Object detection](https://arxiv.org/abs/2109.06062v2)",
+        "c": "",
+        "n": "ContrastZSD",
+        "d": "2021-09-04",
+        "m1": "18.60",
+        "m2": "59.50"
+      },
+      {
+        "p": "[Synthesizing the Unseen for Zero-shot Object Detection](https://arxiv.org/abs/2010.09425v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/nasir6/zero_shot_detection)",
+        "n": "SUZOD",
+        "d": "2020-10-19",
+        "m1": "17.30",
+        "m2": "61.40"
+      },
+      {
+        "p": "[From Node to Graph: Joint Reasoning on Visual-Semantic Relational Graph for Zero-Shot Detection](https://ieeexplore.ieee.org/document/9706663)",
+        "c": "[&check;&nbsp;Link](https://github.com/witnessai/GRAN)",
+        "n": "GRAN",
+        "d": "2022-02-15",
+        "m1": "14.90",
+        "m2": "62.70"
+      },
+      {
+        "p": "[Background Learnable Cascade for Zero-Shot Object Detection](https://arxiv.org/abs/2010.04502v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/zhengye1995/BLC)",
+        "n": "BLC",
+        "d": "2020-10-09",
+        "m1": "14.70",
+        "m2": "54.68"
+      },
+      {
+        "p": "[Polarity Loss for Zero-shot Object Detection](https://arxiv.org/abs/1811.08982v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/KennithLi/Awesome-Zero-Shot-Object-Detection)",
+        "n": "ZSD-Polarity Loss",
+        "d": "2018-11-22",
+        "m1": "12.62",
+        "m2": "43.56"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "title": "image-super-resolution-on-set14-3x-upscaling",
+  "task-hierarchy": [
+    "Image Super-Resolution"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/jbhuang0604/SelfExSR"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Hierarchical Information Flow for Generalized Efficient Image Restoration](https://arxiv.org/abs/2411.18588v1)",
+        "c": "",
+        "n": "Hi-IR-L",
+        "d": "2024-11-27",
+        "m1": "31.55",
+        "m2": "0.8616"
+      },
+      {
+        "p": "[HMANet: Hybrid Multi-Axis Aggregation Network for Image Super-Resolution](https://arxiv.org/abs/2405.05001v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/korouuuuu/hma)",
+        "n": "HMA†",
+        "d": "2024-05-08",
+        "m1": "31.47",
+        "m2": "0.8585"
+      },
+      {
+        "p": "[Activating More Pixels in Image Super-Resolution Transformer](https://arxiv.org/abs/2205.04437v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/xpixelgroup/hat)",
+        "n": "HAT-L",
+        "d": "2022-05-09",
+        "m1": "31.47",
+        "m2": "0.8584"
+      },
+      {
+        "p": "[SwinFIR: Revisiting the SwinIR with Fast Fourier Convolution and Improved Training for Image Super-Resolution](https://arxiv.org/abs/2208.11247v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/Zdafeng/SwinFIR)",
+        "n": "HAT_FIR",
+        "d": "2022-08-24",
+        "m1": "31.37"
+      },
+      {
+        "p": "[Activating More Pixels in Image Super-Resolution Transformer](https://arxiv.org/abs/2205.04437v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/xpixelgroup/hat)",
+        "n": "HAT",
+        "d": "2022-05-09",
+        "m1": "31.33",
+        "m2": "0.8576"
+      },
+      {
+        "p": "[SwinFIR: Revisiting the SwinIR with Fast Fourier Convolution and Improved Training for Image Super-Resolution](https://arxiv.org/abs/2208.11247v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/Zdafeng/SwinFIR)",
+        "n": "SwinFIR",
+        "d": "2022-08-24",
+        "m1": "31.24",
+        "m2": "0.8566"
+      },
+      {
+        "p": "[Channel-Partitioned Windowed Attention And Frequency Learning for Single Image Super-Resolution](https://arxiv.org/abs/2407.16232v2)",
+        "c": "",
+        "n": "CPAT+",
+        "d": "2024-07-23",
+        "m1": "31.19",
+        "m2": "0.8559"
+      },
+      {
+        "p": "[Channel-Partitioned Windowed Attention And Frequency Learning for Single Image Super-Resolution](https://arxiv.org/abs/2407.16232v2)",
+        "c": "",
+        "n": "CPAT",
+        "d": "2024-07-23",
+        "m1": "31.15",
+        "m2": "0.8557"
+      },
+      {
+        "p": "[Pre-Trained Image Processing Transformer](https://arxiv.org/abs/2012.00364v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/huawei-noah/Pretrained-IPT)",
+        "n": "IPT",
+        "d": "2020-12-01",
+        "m1": "30.85"
+      },
+      {
+        "p": "[Densely Residual Laplacian Super-Resolution](https://arxiv.org/abs/1906.12021v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/saeed-anwar/DRLN)",
+        "n": "DRLN+",
+        "d": "2019-06-28",
+        "m1": "30.8",
+        "m2": "0.8498"
+      },
+      {
+        "p": "[Local Texture Estimator for Implicit Representation Function](https://arxiv.org/abs/2111.08918v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/jaewon-lee-b/lte)",
+        "n": "LTE",
+        "d": "2021-11-17",
+        "m1": "30.8"
+      },
+      {
+        "p": "[Single Image Super-Resolution via a Holistic Attention Network](https://arxiv.org/abs/2008.08767v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/wwlCape/HAN)",
+        "n": "HAN+",
+        "d": "2020-08-20",
+        "m1": "30.79",
+        "m2": "0.8487"
+      },
+      {
+        "p": "[Image Super-Resolution with Cross-Scale Non-Local Attention and Exhaustive Self-Exemplars Mining](https://arxiv.org/abs/2006.01424v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/SHI-Labs/Cross-Scale-Non-Local-Attention)",
+        "n": "CSNLN",
+        "d": "2020-06-02",
+        "m1": "30.66",
+        "m2": "0.8482"
+      },
+      {
+        "p": "[Resolution Enhancement Processing on Low Quality Images Using Swin Transformer Based on Interval Dense Connection Strategy](https://arxiv.org/abs/2303.09190v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/rubbbbbbbbby/swinoir)",
+        "n": "SwinOIR",
+        "d": "2023-03-16",
+        "m1": "30.65",
+        "m2": "0.8493"
+      },
+      {
+        "p": "[ML-CrAIST: Multi-scale Low-high Frequency Information-based Cross black Attention with Image Super-resolving Transformer](https://arxiv.org/abs/2408.09940v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/alik033/ml-craist)",
+        "n": "ML-CrAIST",
+        "d": "2024-08-19",
+        "m1": "30.39",
+        "m2": "0.8488"
+      },
+      {
+        "p": "[Lightweight Image Super-Resolution with Information Multi-distillation Network](https://arxiv.org/abs/1909.11856v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Zheng222/IMDN)",
+        "n": "IMDN",
+        "d": "2019-09-26",
+        "m1": "30.32"
+      },
+      {
+        "p": "[ML-CrAIST: Multi-scale Low-high Frequency Information-based Cross black Attention with Image Super-resolving Transformer](https://arxiv.org/abs/2408.09940v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/alik033/ml-craist)",
+        "n": "ML-CrAIST-Li",
+        "d": "2024-08-19",
+        "m1": "30.23",
+        "m2": "0.8474"
+      },
+      {
+        "p": "[Multi-level Wavelet-CNN for Image Restoration](http://arxiv.org/abs/1805.07071v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/lpj0/MWCNN)",
+        "n": "MWCNN",
+        "d": "2018-05-18",
+        "m1": "30.16"
+      },
+      {
+        "p": "[Feedback Network for Image Super-Resolution](https://arxiv.org/abs/1903.09814v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Paper99/SRFBN_CVPR19)",
+        "n": "SRFBN",
+        "d": "2019-03-23",
+        "m1": "30.1"
+      },
+      {
+        "p": "[LCSCNet: Linear Compressing Based Skip-Connecting Network for Image Super-Resolution](https://arxiv.org/abs/1909.03573v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/XuechenZhang123/LCSC)",
+        "n": "LCSCNet",
+        "d": "2019-09-09",
+        "m1": "29.87"
+      },
+      {
+        "p": "[Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising](http://arxiv.org/abs/1608.03981v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/cszn/DnCNN)",
+        "n": "DnCNN-3",
+        "d": "2016-08-13",
+        "m1": "29.81"
+      },
+      {
+        "p": "[Image Restoration Using Convolutional Auto-encoders with Symmetric Skip Connections](http://arxiv.org/abs/1606.08921v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/titu1994/Image-Super-Resolution)",
+        "n": "RED30",
+        "d": "2016-06-29",
+        "m1": "29.61",
+        "m2": "0.8341"
+      },
+      {
+        "p": "[Sequential Hierarchical Learning with Distribution Transformation for Image Super-Resolution](https://arxiv.org/abs/2007.09552v4)",
+        "c": "",
+        "n": "PMRN+",
+        "d": "2020-07-19",
+        "m1": "29.24",
+        "m2": "0.8087"
+      },
+      {
+        "p": "[Learning Deep CNN Denoiser Prior for Image Restoration](http://arxiv.org/abs/1704.03264v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/cszn/ircnn)",
+        "n": "Deep CNN Denoiser",
+        "d": "2017-04-11",
+        "m1": "27.72"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "title": "visual-place-recognition-on-oxford-robotcar-4",
+  "task-hierarchy": [
+    "Visual Place Recognition"
+  ],
+  "dataset-info": {
+    "link": "http://robotcar-dataset.robots.ox.ac.uk/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Recall@1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[AnyLoc: Towards Universal Visual Place Recognition](https://arxiv.org/abs/2308.00688v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/AnyLoc/AnyLoc)",
+        "n": "AnyLoc-VLAD-DINOv2",
+        "d": "2023-08-01",
+        "m1": "98.95"
+      },
+      {
+        "p": "[Rethinking Visual Geo-localization for Large-Scale Applications](https://arxiv.org/abs/2204.02287v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/gmberton/cosplace)",
+        "n": "CosPlace",
+        "d": "2022-04-05",
+        "m1": "91.10"
+      },
+      {
+        "p": "[MixVPR: Feature Mixing for Visual Place Recognition](https://arxiv.org/abs/2303.02190v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/amaralibey/mixvpr)",
+        "n": "MixVPR",
+        "d": "2023-03-03",
+        "m1": "90.05"
+      },
+      {
+        "p": "[NetVLAD: CNN architecture for weakly supervised place recognition](http://arxiv.org/abs/1511.07247v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/Relja/netvlad)",
+        "n": "NetVLAD",
+        "d": "2015-11-23",
+        "m1": "52.88"
+      },
+      {
+        "p": "[DINOv2: Learning Robust Visual Features without Supervision](https://arxiv.org/abs/2304.07193v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "DINOv2",
+        "d": "2023-04-14",
+        "m1": "39.79"
+      },
+      {
+        "p": "[AnyLoc: Towards Universal Visual Place Recognition](https://arxiv.org/abs/2308.00688v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/AnyLoc/AnyLoc)",
+        "n": "CLIP",
+        "d": "2023-08-01",
+        "m1": "34.55"
+      },
+      {
+        "p": "[Emerging Properties in Self-Supervised Vision Transformers](https://arxiv.org/abs/2104.14294v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/dino)",
+        "n": "DINO",
+        "d": "2021-04-29",
+        "m1": "15.71"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

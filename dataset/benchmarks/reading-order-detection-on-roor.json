@@ -1,0 +1,67 @@
+{
+  "title": "reading-order-detection-on-roor",
+  "task-hierarchy": [
+    "Reading Order Detection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/chongzhangFDU/ROOR-Datasets"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Segment-level F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Modeling Layout Reading Order as Ordering Relations for Visually-rich Document Understanding](https://arxiv.org/abs/2409.19672v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/chongzhangFDU/ROOR)",
+        "n": "LayoutLMv3-GlobalPointer (large)",
+        "d": "2024-09-29",
+        "m1": "82.38"
+      },
+      {
+        "p": "[Modeling Layout Reading Order as Ordering Relations for Visually-rich Document Understanding](https://arxiv.org/abs/2409.19672v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/chongzhangFDU/ROOR)",
+        "n": "LayoutLMv3-GlobalPointer (base)",
+        "d": "2024-09-29",
+        "m1": "68.60"
+      },
+      {
+        "p": "[Reading Order Matters: Information Extraction from Visually-rich Documents by Token Path Prediction](https://arxiv.org/abs/2310.11016v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/chongzhangfdu/tpp)",
+        "n": "TPP (LayoutLMv3-base)",
+        "d": "2023-10-17",
+        "m1": "42.96"
+      },
+      {
+        "p": "[LayoutReader: Pre-training of Text and Layout for Reading Order Detection](https://arxiv.org/abs/2108.11591v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/microsoft/unilm)",
+        "n": "LayoutReader",
+        "d": "2021-08-26",
+        "m1": "9.44"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

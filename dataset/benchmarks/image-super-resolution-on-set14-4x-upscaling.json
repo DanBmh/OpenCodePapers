@@ -1,0 +1,885 @@
+{
+  "title": "image-super-resolution-on-set14-4x-upscaling",
+  "task-hierarchy": [
+    "Image Super-Resolution"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/jbhuang0604/SelfExSR"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "MOS",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "LPIPS",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "DISTS",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[DRCT: Saving Image Super-resolution away from Information Bottleneck](https://arxiv.org/abs/2404.00722v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/ming053l/drct)",
+        "n": "DRCT-L",
+        "d": "2024-03-31",
+        "m1": "29.54",
+        "m2": "0.8025"
+      },
+      {
+        "p": "[HMANet: Hybrid Multi-Axis Aggregation Network for Image Super-Resolution](https://arxiv.org/abs/2405.05001v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/korouuuuu/hma)",
+        "n": "HMA†",
+        "d": "2024-05-08",
+        "m1": "29.51",
+        "m2": "0.8019"
+      },
+      {
+        "p": "[Hierarchical Information Flow for Generalized Efficient Image Restoration](https://arxiv.org/abs/2411.18588v1)",
+        "c": "",
+        "n": "Hi-IR-L",
+        "d": "2024-11-27",
+        "m1": "29.49",
+        "m2": "0.8041"
+      },
+      {
+        "p": "[Activating More Pixels in Image Super-Resolution Transformer](https://arxiv.org/abs/2205.04437v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/xpixelgroup/hat)",
+        "n": "HAT-L",
+        "d": "2022-05-09",
+        "m1": "29.47",
+        "m2": "0.8015"
+      },
+      {
+        "p": "[SwinFIR: Revisiting the SwinIR with Fast Fourier Convolution and Improved Training for Image Super-Resolution](https://arxiv.org/abs/2208.11247v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/Zdafeng/SwinFIR)",
+        "n": "HAT_FIR",
+        "d": "2022-08-24",
+        "m1": "29.44"
+      },
+      {
+        "p": "[DRCT: Saving Image Super-resolution away from Information Bottleneck](https://arxiv.org/abs/2404.00722v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/ming053l/drct)",
+        "n": "DRCT",
+        "d": "2024-03-31",
+        "m1": "29.40",
+        "m2": "0.8003"
+      },
+      {
+        "p": "[Activating More Pixels in Image Super-Resolution Transformer](https://arxiv.org/abs/2205.04437v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/xpixelgroup/hat)",
+        "n": "HAT",
+        "d": "2022-05-09",
+        "m1": "29.38",
+        "m2": "0.8001"
+      },
+      {
+        "p": "[Channel-Partitioned Windowed Attention And Frequency Learning for Single Image Super-Resolution](https://arxiv.org/abs/2407.16232v2)",
+        "c": "",
+        "n": "CPAT+",
+        "d": "2024-07-23",
+        "m1": "29.36",
+        "m2": "0.7996"
+      },
+      {
+        "p": "[SwinFIR: Revisiting the SwinIR with Fast Fourier Convolution and Improved Training for Image Super-Resolution](https://arxiv.org/abs/2208.11247v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/Zdafeng/SwinFIR)",
+        "n": "SwinFIR",
+        "d": "2022-08-24",
+        "m1": "29.36",
+        "m2": "0.7993"
+      },
+      {
+        "p": "[Channel-Partitioned Windowed Attention And Frequency Learning for Single Image Super-Resolution](https://arxiv.org/abs/2407.16232v2)",
+        "c": "",
+        "n": "CPAT",
+        "d": "2024-07-23",
+        "m1": "29.34",
+        "m2": "0.7991"
+      },
+      {
+        "p": "[CFAT: Unleashing Triangular Windows for Image Super-resolution](http://openaccess.thecvf.com//content/CVPR2024/html/Ray_CFAT_Unleashing_Triangular_Windows_for_Image_Super-resolution_CVPR_2024_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/rayabhisek123/cfat)",
+        "n": "CFAT",
+        "d": "2024-01-01",
+        "m1": "29.30",
+        "m2": "0.7985"
+      },
+      {
+        "p": "[Dual Aggregation Transformer for Image Super-Resolution](https://arxiv.org/abs/2308.03364v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/zhengchen1999/dat)",
+        "n": "DAT+",
+        "d": "2023-08-07",
+        "m1": "29.29",
+        "m2": "0.7983"
+      },
+      {
+        "p": "[Progressive Focused Transformer for Single Image Super-Resolution](https://arxiv.org/abs/2503.20337v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/labshuhanggu/pft-sr)",
+        "n": "PFT",
+        "d": "2025-03-26",
+        "m1": "29.29",
+        "m2": "0.7978"
+      },
+      {
+        "p": "[Recursive Generalization Transformer for Image Super-Resolution](https://arxiv.org/abs/2303.06373v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/zhengchen1999/rgt)",
+        "n": "RGT+",
+        "d": "2023-03-11",
+        "m1": "29.28",
+        "m2": "0.7979"
+      },
+      {
+        "p": "[MaIR: A Locality- and Continuity-Preserving Mamba for Image Restoration](https://arxiv.org/abs/2412.20066v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/XLearning-SCU/2025-CVPR-MaIR)",
+        "n": "MaIR+",
+        "d": "2024-12-28",
+        "m1": "29.28",
+        "m2": "0.7974"
+      },
+      {
+        "p": "[Transcending the Limit of Local Window: Advanced Super-Resolution Transformer with Adaptive Token Dictionary](https://arxiv.org/abs/2401.08209v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/labshuhanggu/adaptive-token-dictionary)",
+        "n": "ATD",
+        "d": "2024-01-16",
+        "m1": "29.24",
+        "m2": "0.7974"
+      },
+      {
+        "p": "[Dual Aggregation Transformer for Image Super-Resolution](https://arxiv.org/abs/2308.03364v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/zhengchen1999/dat)",
+        "n": "DAT",
+        "d": "2023-08-07",
+        "m1": "29.23",
+        "m2": "0.7973"
+      },
+      {
+        "p": "[Recursive Generalization Transformer for Image Super-Resolution](https://arxiv.org/abs/2303.06373v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/zhengchen1999/rgt)",
+        "n": "RGT",
+        "d": "2023-03-11",
+        "m1": "29.23",
+        "m2": "0.7972"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Contrast",
+        "d": null,
+        "m1": "29.20",
+        "m2": "0.7973"
+      },
+      {
+        "p": "[MambaIR: A Simple Baseline for Image Restoration with State-Space Model](https://arxiv.org/abs/2402.15648v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/csguoh/mambair)",
+        "n": "MambaIR",
+        "d": "2024-02-23",
+        "m1": "29.20",
+        "m2": "0.7961"
+      },
+      {
+        "p": "[MaIR: A Locality- and Continuity-Preserving Mamba for Image Restoration](https://arxiv.org/abs/2412.20066v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/XLearning-SCU/2025-CVPR-MaIR)",
+        "n": "MaIR",
+        "d": "2024-12-28",
+        "m1": "29.2",
+        "m2": "0.7958"
+      },
+      {
+        "p": "[SwinIR: Image Restoration Using Swin Transformer](https://arxiv.org/abs/2108.10257v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/XPixelGroup/BasicSR)",
+        "n": "SwinIR",
+        "d": "2021-08-23",
+        "m1": "29.15",
+        "m2": "0.7958"
+      },
+      {
+        "p": "[Multi-scale Attention Network for Single Image Super-Resolution](https://arxiv.org/abs/2209.14145v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/icandle/MAN)",
+        "n": "MAN+",
+        "d": "2022-09-28",
+        "m1": "29.12",
+        "m2": "0.7941"
+      },
+      {
+        "p": "[BAM: A Balanced Attention Mechanism for Single Image Super Resolution](https://arxiv.org/abs/2104.07566v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/dandingbudanding/BAM)",
+        "n": "DRLN-BAM",
+        "d": "2021-04-15",
+        "m1": "29.08",
+        "m2": "0.7925"
+      },
+      {
+        "p": "[Multi-scale Attention Network for Single Image Super-Resolution](https://arxiv.org/abs/2209.14145v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/icandle/MAN)",
+        "n": "MAN",
+        "d": "2022-09-28",
+        "m1": "29.07",
+        "m2": "0.7934"
+      },
+      {
+        "p": "[Local Texture Estimator for Implicit Representation Function](https://arxiv.org/abs/2111.08918v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/jaewon-lee-b/lte)",
+        "n": "LTE",
+        "d": "2021-11-17",
+        "m1": "29.06"
+      },
+      {
+        "p": "[Second-Order Attention Network for Single Image Super-Resolution](http://openaccess.thecvf.com/content_CVPR_2019/html/Dai_Second-Order_Attention_Network_for_Single_Image_Super-Resolution_CVPR_2019_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/daitao/SAN)",
+        "n": "SAN",
+        "d": "2019-06-01",
+        "m1": "29.05",
+        "m2": "0.7921"
+      },
+      {
+        "p": "[Deep Back-Projection Networks for Single Image Super-resolution](https://arxiv.org/abs/1904.05677v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/alterzero/DBPN-Pytorch)",
+        "n": "DBPN-RES-MR64-3",
+        "d": "2019-04-04",
+        "m1": "29.03",
+        "m2": "0.791"
+      },
+      {
+        "p": "[Densely Residual Laplacian Super-Resolution](https://arxiv.org/abs/1906.12021v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/saeed-anwar/DRLN)",
+        "n": "DRLN+",
+        "d": "2019-06-28",
+        "m1": "29.02",
+        "m2": "0.7914"
+      },
+      {
+        "p": "[ESRGAN: Enhanced Super-Resolution Generative Adversarial Networks](http://arxiv.org/abs/1809.00219v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/eriklindernoren/PyTorch-GAN)",
+        "n": "SRGAN + Residual-in-Residual Dense Block",
+        "d": "2018-09-01",
+        "m1": "28.99",
+        "m2": "0.7917"
+      },
+      {
+        "p": "[Single Image Super-Resolution via a Holistic Attention Network](https://arxiv.org/abs/2008.08767v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/wwlCape/HAN)",
+        "n": "HAN+",
+        "d": "2020-08-20",
+        "m1": "28.99",
+        "m2": "0.7907"
+      },
+      {
+        "p": "[Image Reconstruction with Predictive Filter Flow](http://arxiv.org/abs/1811.11482v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/aimerykong/predictive-filter-flow)",
+        "n": "PFF",
+        "d": "2018-11-28",
+        "m1": "28.98",
+        "m2": "0.7904"
+      },
+      {
+        "p": "[Efficient Long-Range Attention Network for Image Super-resolution](https://arxiv.org/abs/2203.06697v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/xindongzhang/elan)",
+        "n": "ELAN",
+        "d": "2022-03-13",
+        "m1": "28.96",
+        "m2": "0.7914"
+      },
+      {
+        "p": "[Image Super-Resolution with Cross-Scale Non-Local Attention and Exhaustive Self-Exemplars Mining](https://arxiv.org/abs/2006.01424v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/SHI-Labs/Cross-Scale-Non-Local-Attention)",
+        "n": "CSNLN",
+        "d": "2020-06-02",
+        "m1": "28.95",
+        "m2": "0.7888"
+      },
+      {
+        "p": "[Progressive Perception-Oriented Network for Single Image Super-Resolution](https://arxiv.org/abs/1907.10399v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Zheng222/PPON)",
+        "n": "RFN",
+        "d": "2019-07-24",
+        "m1": "28.95"
+      },
+      {
+        "p": "[Image Super-Resolution via Attention based Back Projection Networks](https://arxiv.org/abs/1910.04476v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Holmes-Alan/ABPN)",
+        "n": "ABPN",
+        "d": "2019-10-10",
+        "m1": "28.94",
+        "m2": "0.789"
+      },
+      {
+        "p": "[A Fully Progressive Approach to Single-Image Super-Resolution](http://arxiv.org/abs/1804.02900v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/fperazzi/proSR)",
+        "n": "ProSR",
+        "d": "2018-04-09",
+        "m1": "28.94"
+      },
+      {
+        "p": "[Resolution Enhancement Processing on Low Quality Images Using Swin Transformer Based on Interval Dense Connection Strategy](https://arxiv.org/abs/2303.09190v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/rubbbbbbbbby/swinoir)",
+        "n": "SwinOIR",
+        "d": "2023-03-16",
+        "m1": "28.92",
+        "m2": "0.7892"
+      },
+      {
+        "p": "[Image Super-Resolution Using Very Deep Residual Channel Attention Networks](http://arxiv.org/abs/1807.02758v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/yulunzhang/RCAN)",
+        "n": "RCAN",
+        "d": "2018-07-08",
+        "m1": "28.87",
+        "m2": "0.7889"
+      },
+      {
+        "p": "[HiT-SR: Hierarchical Transformer for Efficient Image Super-Resolution](https://arxiv.org/abs/2407.05878v1)",
+        "c": "",
+        "n": "HiT-SRF",
+        "d": "2024-07-08",
+        "m1": "28.87",
+        "m2": "0.7880"
+      },
+      {
+        "p": "[Exploring Frequency-Inspired Optimization in Transformer for Efficient Single Image Super-Resolution](https://arxiv.org/abs/2308.05022v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/avc2-uestc/craft-sr)",
+        "n": "CRAFT",
+        "d": "2023-08-09",
+        "m1": "28.85",
+        "m2": "0.7872"
+      },
+      {
+        "p": "[Gated Multiple Feedback Network for Image Super-Resolution](https://arxiv.org/abs/1907.04253v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/liqilei/GMFN)",
+        "n": "GMFN",
+        "d": "2019-07-09",
+        "m1": "28.84",
+        "m2": "0.7888"
+      },
+      {
+        "p": "[HiT-SR: Hierarchical Transformer for Efficient Image Super-Resolution](https://arxiv.org/abs/2407.05878v1)",
+        "c": "",
+        "n": "HiT-SiR",
+        "d": "2024-07-08",
+        "m1": "28.84",
+        "m2": "0.7873"
+      },
+      {
+        "p": "[HiT-SR: Hierarchical Transformer for Efficient Image Super-Resolution](https://arxiv.org/abs/2407.05878v1)",
+        "c": "",
+        "n": "HiT-SNG",
+        "d": "2024-07-08",
+        "m1": "28.83",
+        "m2": "0.7873"
+      },
+      {
+        "p": "[CAMixerSR: Only Details Need More \"Attention\"](https://arxiv.org/abs/2402.19289v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/icandle/camixersr)",
+        "n": "CAMixerSR",
+        "d": "2024-02-29",
+        "m1": "28.82",
+        "m2": "0.7870"
+      },
+      {
+        "p": "[Deep Back-Projection Networks For Super-Resolution](http://arxiv.org/abs/1803.02735v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/sanghyun-son/EDSR-PyTorch)",
+        "n": "D-DBPN",
+        "d": "2018-03-07",
+        "m1": "28.82",
+        "m2": "0.786"
+      },
+      {
+        "p": "[Residual Dense Network for Image Super-Resolution](http://arxiv.org/abs/1802.08797v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/idealo/image-super-resolution)",
+        "n": "RDN",
+        "d": "2018-02-24",
+        "m1": "28.81",
+        "m2": "0.7871"
+      },
+      {
+        "p": "[Feedback Network for Image Super-Resolution](https://arxiv.org/abs/1903.09814v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Paper99/SRFBN_CVPR19)",
+        "n": "SRFBN",
+        "d": "2019-03-23",
+        "m1": "28.81",
+        "m2": "0.7868"
+      },
+      {
+        "p": "[Enhanced Deep Residual Networks for Single Image Super-Resolution](http://arxiv.org/abs/1707.02921v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/sanghyun-son/EDSR-PyTorch)",
+        "n": "EDSR",
+        "d": "2017-07-10",
+        "m1": "28.80",
+        "m2": "0.7876"
+      },
+      {
+        "p": "[Data Upcycling Knowledge Distillation for Image Super-Resolution](https://arxiv.org/abs/2309.14162v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/yun224/dukd)",
+        "n": "DUKD",
+        "d": "2023-09-25",
+        "m1": "28.80",
+        "m2": "0.7866"
+      },
+      {
+        "p": "[Beyond Deep Residual Learning for Image Restoration: Persistent Homology-Guided Manifold Simplification](http://arxiv.org/abs/1611.06345v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/iorism/CNN)",
+        "n": "Manifold Simplification",
+        "d": "2016-11-19",
+        "m1": "28.80",
+        "m2": "0.7856"
+      },
+      {
+        "p": "[Efficient Long-Range Attention Network for Image Super-resolution](https://arxiv.org/abs/2203.06697v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/xindongzhang/elan)",
+        "n": "ELAN-light",
+        "d": "2022-03-13",
+        "m1": "28.78",
+        "m2": "0.7858"
+      },
+      {
+        "p": "[Transforming Image Super-Resolution: A ConvFormer-based Efficient Approach](https://arxiv.org/abs/2401.05633v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/aitical/cfsr)",
+        "n": "CFSR",
+        "d": "2024-01-11",
+        "m1": "28.73",
+        "m2": "0.7842"
+      },
+      {
+        "p": "[Hierarchical Back Projection Network for Image Super-Resolution](https://arxiv.org/abs/1906.06874v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Holmes-Alan/HBPN)",
+        "n": "HBPN",
+        "d": "2019-06-17",
+        "m1": "28.67",
+        "m2": "0.785"
+      },
+      {
+        "p": "[Swift Parameter-free Attention Network for Efficient Super-Resolution](https://arxiv.org/abs/2311.12770v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/hongyuanyu/span)",
+        "n": "SPAN",
+        "d": "2023-11-21",
+        "m1": "28.66",
+        "m2": "0.7834"
+      },
+      {
+        "p": "[Spatially-Adaptive Feature Modulation for Efficient Image Super-Resolution](https://arxiv.org/abs/2302.13800v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/sunny2109/safmn)",
+        "n": "SAFMN",
+        "d": "2023-02-27",
+        "m1": "28.60",
+        "m2": "0.7813"
+      },
+      {
+        "p": "[Fast, Accurate, and Lightweight Super-Resolution with Cascading Residual Network](http://arxiv.org/abs/1803.08664v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/nmhkahn/CARN-pytorch)",
+        "n": "CARN",
+        "d": "2018-03-23",
+        "m1": "28.60",
+        "m2": "0.7806"
+      },
+      {
+        "p": "[Lightweight Image Super-Resolution with Information Multi-distillation Network](https://arxiv.org/abs/1909.11856v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Zheng222/IMDN)",
+        "n": "IMDN",
+        "d": "2019-09-26",
+        "m1": "28.58"
+      },
+      {
+        "p": "[Lightweight and Efficient Image Super-Resolution with Block State-based Recursive Network](http://arxiv.org/abs/1811.12546v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/idearibosome/tf-bsrn-sr)",
+        "n": "BSRN",
+        "d": "2018-11-30",
+        "m1": "28.56",
+        "m2": "0.7803"
+      },
+      {
+        "p": "[MAMNet: Multi-path Adaptive Modulation Network for Image Super-Resolution](https://arxiv.org/abs/1811.12043v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/S-aiueo32/SRRAM)",
+        "n": "SRRAM",
+        "d": "2018-11-29",
+        "m1": "28.54",
+        "m2": "0.7800"
+      },
+      {
+        "p": "[ML-CrAIST: Multi-scale Low-high Frequency Information-based Cross black Attention with Image Super-resolving Transformer](https://arxiv.org/abs/2408.09940v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/alik033/ml-craist)",
+        "n": "ML-CrAIST",
+        "d": "2024-08-19",
+        "m1": "28.53",
+        "m2": "0.7895"
+      },
+      {
+        "p": "[Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network](http://arxiv.org/abs/1609.04802v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/research/gan)",
+        "n": "SRResNet",
+        "d": "2016-09-15",
+        "m1": "28.49",
+        "m2": "0.8184",
+        "m3": "2.98"
+      },
+      {
+        "p": "[Cascade Convolutional Neural Network for Image Super-Resolution](https://arxiv.org/abs/2008.10329v2)",
+        "c": "",
+        "n": "CSRCNN",
+        "d": "2020-08-24",
+        "m1": "28.47",
+        "m2": "0.7720"
+      },
+      {
+        "p": "[Lightweight image super-resolution with enhanced CNN](https://arxiv.org/abs/2007.04344v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/hellloxiaotian/LESRCNN)",
+        "n": "LESRCNN",
+        "d": "2020-07-08",
+        "m1": "28.44",
+        "m2": "0.7772"
+      },
+      {
+        "p": "[Lightweight image super-resolution with enhanced CNN](https://arxiv.org/abs/2007.04344v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/hellloxiaotian/LESRCNN)",
+        "n": "LESRCNN-S",
+        "d": "2020-07-08",
+        "m1": "28.43",
+        "m2": "0.7776"
+      },
+      {
+        "p": "[EnhanceNet: Single Image Super-Resolution Through Automated Texture Synthesis](http://arxiv.org/abs/1612.07919v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/msmsajjadi/EnhanceNet-Code)",
+        "n": "ENet-E",
+        "d": "2016-12-23",
+        "m1": "28.42",
+        "m2": "0.7774"
+      },
+      {
+        "p": "[Multi-level Wavelet-CNN for Image Restoration](http://arxiv.org/abs/1805.07071v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/lpj0/MWCNN)",
+        "n": "MWCNN",
+        "d": "2018-05-18",
+        "m1": "28.41",
+        "m2": "0.7816"
+      },
+      {
+        "p": "[ML-CrAIST: Multi-scale Low-high Frequency Information-based Cross black Attention with Image Super-resolving Transformer](https://arxiv.org/abs/2408.09940v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/alik033/ml-craist)",
+        "n": "ML-CrAIST-Li",
+        "d": "2024-08-19",
+        "m1": "28.4",
+        "m2": "0.7863"
+      },
+      {
+        "p": "[Image super-resolution via dynamic network](https://arxiv.org/abs/2310.10413v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/hellloxiaotian/dsrnet)",
+        "n": "DSRNet",
+        "d": "2023-10-16",
+        "m1": "28.38",
+        "m2": "0.7760"
+      },
+      {
+        "p": "[Non-Local Recurrent Network for Image Restoration](http://arxiv.org/abs/1806.02919v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Ding-Liu/NLRN)",
+        "n": "NLRN",
+        "d": "2018-06-07",
+        "m1": "28.36",
+        "m2": "0.7745"
+      },
+      {
+        "p": "[Learning a Single Convolutional Super-Resolution Network for Multiple Degradations](http://arxiv.org/abs/1712.06116v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/cszn/SRMD)",
+        "n": "SRMDNF",
+        "d": "2017-12-17",
+        "m1": "28.35",
+        "m2": "0.777"
+      },
+      {
+        "p": "[SESR: Single Image Super Resolution with Recursive Squeeze and Excitation Networks](http://arxiv.org/abs/1801.10319v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/opteroncx/SESR)",
+        "n": "SESR",
+        "d": "2018-01-31",
+        "m1": "28.32",
+        "m2": "0.784"
+      },
+      {
+        "p": "[Efficient Image Super-Resolution via Symmetric Visual Attention Network](https://arxiv.org/abs/2401.08913v1)",
+        "c": "",
+        "n": "SVAN",
+        "d": "2024-01-17",
+        "m1": "28.30",
+        "m2": "0.7736"
+      },
+      {
+        "p": "[Image Super-Resolution via RL-CSC: When Residual Learning Meets Convolutional Sparse Coding](http://arxiv.org/abs/1812.11950v1)",
+        "c": "",
+        "n": "RL-CSC",
+        "d": "2018-12-31",
+        "m1": "28.29",
+        "m2": "0.7741"
+      },
+      {
+        "p": "[MemNet: A Persistent Memory Network for Image Restoration](http://arxiv.org/abs/1708.02209v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/tyshiwo/MemNet)",
+        "n": "MemNet",
+        "d": "2017-08-07",
+        "m1": "28.26",
+        "m2": "0.7723"
+      },
+      {
+        "p": "[Fast and Accurate Single Image Super-Resolution via Information Distillation Network](http://arxiv.org/abs/1803.09454v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Zheng222/IDN-Caffe)",
+        "n": "IDN",
+        "d": "2018-03-26",
+        "m1": "28.25",
+        "m2": "0.773"
+      },
+      {
+        "p": "[Deep Laplacian Pyramid Networks for Fast and Accurate Super-Resolution](http://arxiv.org/abs/1704.03915v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/nhatsmrt/superres)",
+        "n": "LapSR",
+        "d": "2017-04-12",
+        "m1": "28.19",
+        "m2": "0.772"
+      },
+      {
+        "p": "[EXTRACTER: Efficient Texture Matching with Attention and Gradient Enhancing for Large Scale Image Super Resolution](https://arxiv.org/abs/2310.01379v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/esteban-rs/extracter)",
+        "n": "Extracter-rec",
+        "d": "2023-10-02",
+        "m1": "28.09",
+        "m2": "0.782"
+      },
+      {
+        "p": "[Image Super-Resolution via Dual-State Recurrent Networks](http://arxiv.org/abs/1805.02704v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/WeiHan3/dsrn)",
+        "n": "DSRN",
+        "d": "2018-05-07",
+        "m1": "28.07",
+        "m2": "0.770"
+      },
+      {
+        "p": "[Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising](http://arxiv.org/abs/1608.03981v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/cszn/DnCNN)",
+        "n": "DnCNN-3",
+        "d": "2016-08-13",
+        "m1": "28.04",
+        "m2": "0.7672"
+      },
+      {
+        "p": "[Deeply-Recursive Convolutional Network for Image Super-Resolution](http://arxiv.org/abs/1511.04491v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/jiny2001/deeply-recursive-cnn-tf)",
+        "n": "DRCN",
+        "d": "2015-11-14",
+        "m1": "28.02",
+        "m2": "0.8074",
+        "m3": "2.84"
+      },
+      {
+        "p": "[\"Zero-Shot\" Super-Resolution using Deep Internal Learning](http://arxiv.org/abs/1712.06087v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/assafshocher/ZSSR)",
+        "n": "ZSSR",
+        "d": "2017-12-17",
+        "m1": "28.01",
+        "m2": "0.7651"
+      },
+      {
+        "p": "[Seven ways to improve example-based single image super resolution](http://arxiv.org/abs/1511.02228v1)",
+        "c": "",
+        "n": "IA",
+        "d": "2015-11-06",
+        "m1": "27.88"
+      },
+      {
+        "p": "[Image Restoration Using Convolutional Auto-encoders with Symmetric Skip Connections](http://arxiv.org/abs/1606.08921v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/titu1994/Image-Super-Resolution)",
+        "n": "RED30",
+        "d": "2016-06-29",
+        "m1": "27.86",
+        "m2": "0.7718"
+      },
+      {
+        "p": "[Single Image Super-Resolution with Dilated Convolution based Multi-Scale Information Learning Inception Module](http://arxiv.org/abs/1707.07128v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/wzhshi/MSSRNet)",
+        "n": "MSSRNet",
+        "d": "2017-07-22",
+        "m1": "27.83",
+        "m2": "0.7631"
+      },
+      {
+        "p": "[Sequential Hierarchical Learning with Distribution Transformation for Image Super-Resolution](https://arxiv.org/abs/2007.09552v4)",
+        "c": "",
+        "n": "PMRN+",
+        "d": "2020-07-19",
+        "m1": "27.72",
+        "m2": "0.7405"
+      },
+      {
+        "p": "[Trainable Nonlinear Reaction Diffusion: A Flexible Framework for Fast and Effective Image Restoration](http://arxiv.org/abs/1508.02848v2)",
+        "c": "",
+        "n": "TNRD",
+        "d": "2015-08-12",
+        "m1": "27.68"
+      },
+      {
+        "p": "[Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network](http://arxiv.org/abs/1609.05158v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/alexjc/neural-enhance)",
+        "n": "ESPCN",
+        "d": "2016-09-16",
+        "m1": "27.66",
+        "m2": "0.8004",
+        "m3": "2.52"
+      },
+      {
+        "p": "[DeepRED: Deep Image Prior Powered by RED](https://arxiv.org/abs/1903.10176v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/GaryMataev/DeepRED)",
+        "n": "DeepRED",
+        "d": "2019-03-25",
+        "m1": "27.63"
+      },
+      {
+        "p": "[Deep Learning-based Image Super-Resolution Considering Quantitative and Perceptual Quality](http://arxiv.org/abs/1809.04789v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/idearibosome/tf-perceptual-eusr)",
+        "n": "4PP-EUSR",
+        "d": "2018-09-13",
+        "m1": "27.6222",
+        "m2": "0.7419"
+      },
+      {
+        "p": "[Learning Deep CNN Denoiser Prior for Image Restoration](http://arxiv.org/abs/1704.03264v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/cszn/ircnn)",
+        "n": "Deep CNN Denoiser",
+        "d": "2017-04-11",
+        "m1": "27.59"
+      },
+      {
+        "p": "[Detail-revealing Deep Video Super-resolution](http://arxiv.org/abs/1704.02738v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jiangsutx/SPMC_VideoSR)",
+        "n": "SPMC",
+        "d": "2017-04-10",
+        "m1": "27.57",
+        "m2": "0.76"
+      },
+      {
+        "p": "[Image Super-Resolution Using Deep Convolutional Networks](http://arxiv.org/abs/1501.00092v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/nagadomi/waifu2x)",
+        "n": "SRCNN",
+        "d": "2014-12-31",
+        "m1": "27.5",
+        "m2": "0.7513"
+      },
+      {
+        "p": "[Image Super-resolution via Feature-augmented Random Forest](http://arxiv.org/abs/1712.05248v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/HarleyHK/FARF)",
+        "n": "FAFR*",
+        "d": "2017-12-14",
+        "m1": "27.48"
+      },
+      {
+        "p": "[Auto-Encoded Supervision for Perceptual Image Super-Resolution](https://arxiv.org/abs/2412.00124v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/2minkyulee/aesop-auto-encoded-supervision-for-perceptual-image-super-resolution)",
+        "n": "AESOP",
+        "d": "2024-11-28",
+        "m1": "27.421",
+        "m2": "0.7438",
+        "m4": "0.1027",
+        "m5": "0.0819"
+      },
+      {
+        "p": "[Joint Maximum Purity Forest with Application to Image Super-Resolution](http://arxiv.org/abs/1708.09200v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/HarleyHK/JMPF)",
+        "n": "JMPF+",
+        "d": "2017-08-30",
+        "m1": "27.37"
+      },
+      {
+        "p": "[Structure-Preserving Super Resolution with Gradient Guidance](https://arxiv.org/abs/2003.13081v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Maclory/SPSR)",
+        "n": "SPSR",
+        "d": "2020-03-29",
+        "m1": "26.64",
+        "m2": "0.7930"
+      },
+      {
+        "p": "[Deep Mean-Shift Priors for Image Restoration](http://arxiv.org/abs/1709.03749v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/siavashbigdeli/DMSP)",
+        "n": "Deep Mean-Shift Priors",
+        "d": "2017-09-12",
+        "m1": "26.22"
+      },
+      {
+        "p": "[Recovering Realistic Texture in Image Super-resolution by Deep Spatial Feature Transform](http://arxiv.org/abs/1804.02815v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/xinntao/BasicSR)",
+        "n": "SFT-GAN",
+        "d": "2018-04-09",
+        "m1": "26.13",
+        "m2": "0.694"
+      },
+      {
+        "p": "[Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network](http://arxiv.org/abs/1609.04802v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/research/gan)",
+        "n": "SRGAN",
+        "d": "2016-09-15",
+        "m1": "25.99",
+        "m2": "0.7397",
+        "m3": "3.72"
+      },
+      {
+        "p": "[Edge-Informed Single Image Super-Resolution](https://arxiv.org/abs/1909.05305v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/knazeri/edge-informed-sisr)",
+        "n": "Edge-informed SR",
+        "d": "2019-09-11",
+        "m1": "25.19",
+        "m2": "0.894"
+      },
+      {
+        "p": "[Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network](http://arxiv.org/abs/1609.04802v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/research/gan)",
+        "n": "nearest neighbors",
+        "d": "2016-09-15",
+        "m1": "24.64",
+        "m2": "0.71",
+        "m3": "1.2"
+      },
+      {
+        "p": "[Progressive Perception-Oriented Network for Single Image Super-Resolution](https://arxiv.org/abs/1907.10399v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Zheng222/PPON)",
+        "n": "S-RFN",
+        "d": "2019-07-24",
+        "m2": "0.7946"
+      },
+      {
+        "p": "[Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network](http://arxiv.org/abs/1609.04802v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/research/gan)",
+        "n": "bicubic",
+        "d": "2016-09-15",
+        "m2": "0.7486",
+        "m3": "1.8"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

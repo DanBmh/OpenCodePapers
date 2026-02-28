@@ -1,0 +1,163 @@
+{
+  "title": "deblurring-on-realblur-j-trained-on-gopro",
+  "task-hierarchy": [
+    "Blind Image Deblurring",
+    "Deblurring"
+  ],
+  "dataset-info": {
+    "link": "http://cg.postech.ac.kr/research/realblur/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR (sRGB)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM (sRGB)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[AdaRevD: Adaptive Patch Exiting Reversible Decoder Pushes the Limit of Image Deblurring](https://arxiv.org/abs/2406.09135v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/invokerer/deeprft)",
+        "n": "AdaRevD",
+        "d": "2024-06-13",
+        "m1": "30.12",
+        "m2": "0.894"
+      },
+      {
+        "p": "[Self-Supervised Non-Uniform Kernel Estimation With Flow-Based Motion Prior for Blind Image Deblurring](http://openaccess.thecvf.com//content/CVPR2023/html/Fang_Self-Supervised_Non-Uniform_Kernel_Estimation_With_Flow-Based_Motion_Prior_for_Blind_CVPR_2023_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/fangzhenxuan/ufpdeblur)",
+        "n": "UFPNet",
+        "d": "2023-01-01",
+        "m1": "29.87",
+        "m2": "0.884"
+      },
+      {
+        "p": "[Learning Enriched Features via Selective State Spaces Model for Efficient Image Deblurring](https://arxiv.org/abs/2403.20106v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Tombs98/ALGNet)",
+        "n": "ALGNet",
+        "d": "2024-03-29",
+        "m1": "29.12",
+        "m2": "0.886"
+      },
+      {
+        "p": "[Uformer: A General U-Shaped Transformer for Image Restoration](https://arxiv.org/abs/2106.03106v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/ZhendongWang6/Uformer)",
+        "n": "Uformer-B",
+        "d": "2021-06-06",
+        "m1": "29.06",
+        "m2": "0.884"
+      },
+      {
+        "p": "[DeblurDiNAT: A Compact Model with Exceptional Generalization and Visual Fidelity on Unseen Domains](https://arxiv.org/abs/2403.13163v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/hanzhouliu/deblurdinat)",
+        "n": "DeblurDiNAT-L",
+        "d": "2024-03-19",
+        "m1": "28.98",
+        "m2": "0.885"
+      },
+      {
+        "p": "[Restormer: Efficient Transformer for High-Resolution Image Restoration](https://arxiv.org/abs/2111.09881v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/swz30/restormer)",
+        "n": "Restormer",
+        "d": "2021-11-18",
+        "m1": "28.96",
+        "m2": "0.879"
+      },
+      {
+        "p": "[Intriguing Findings of Frequency Selection for Image Deblurring](https://arxiv.org/abs/2111.11745v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/invokerer/deeprft)",
+        "n": "DeepRFT+",
+        "d": "2021-11-23",
+        "m1": "28.88",
+        "m2": "0.880"
+      },
+      {
+        "p": "[MAXIM: Multi-Axis MLP for Image Processing](https://arxiv.org/abs/2201.02973v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/maxim)",
+        "n": "MAXIM",
+        "d": "2022-01-09",
+        "m1": "28.83",
+        "m2": "0.875"
+      },
+      {
+        "p": "[MSSNet: Multi-Scale-Stage Network for Single Image Deblurring](https://arxiv.org/abs/2202.09652v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/kky7/MSSNet)",
+        "n": "MSSNet",
+        "d": "2022-02-19",
+        "m1": "28.79",
+        "m2": "0.879"
+      },
+      {
+        "p": "[Multi-Stage Progressive Image Restoration](https://arxiv.org/abs/2102.02808v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/swz30/restormer)",
+        "n": "MPRNet",
+        "d": "2021-02-04",
+        "m1": "28.70",
+        "m2": "0.873"
+      },
+      {
+        "p": "[DeblurGAN-v2: Deblurring (Orders-of-Magnitude) Faster and Better](https://arxiv.org/abs/1908.03826v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/kritiksoman/GIMP-ML)",
+        "n": "DeblurGAN-v2",
+        "d": "2019-08-10",
+        "m1": "28.70",
+        "m2": "0.866"
+      },
+      {
+        "p": "[Scale-recurrent Network for Deep Image Deblurring](http://arxiv.org/abs/1802.01770v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jiangsutx/SRN-Deblur)",
+        "n": "SRN",
+        "d": "2018-02-06",
+        "m1": "28.56"
+      },
+      {
+        "p": "[Blind Image Deblurring Using Dark Channel Prior](http://openaccess.thecvf.com/content_cvpr_2016/html/Pan_Blind_Image_Deblurring_CVPR_2016_paper.html)",
+        "c": "",
+        "n": "Pan et al",
+        "d": "2016-06-01",
+        "m1": "27.22",
+        "m2": "0.790"
+      },
+      {
+        "p": "[Deblurring Low-light Images with Light Streaks](http://openaccess.thecvf.com/content_cvpr_2014/html/Hu_Deblurring_Low-light_Images_2014_CVPR_paper.html)",
+        "c": "",
+        "n": "Hu et al",
+        "d": "2014-06-01",
+        "m1": "26.41",
+        "m2": "0.803"
+      },
+      {
+        "p": "[DeblurGAN: Blind Motion Deblurring Using Conditional Adversarial Networks](http://arxiv.org/abs/1711.07064v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/KupynOrest/DeblurGAN)",
+        "n": "DeblurGAN",
+        "d": "2017-11-19",
+        "m2": "0.834"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

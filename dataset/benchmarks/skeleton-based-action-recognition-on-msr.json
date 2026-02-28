@@ -1,0 +1,66 @@
+{
+  "title": "skeleton-based-action-recognition-on-msr",
+  "task-hierarchy": [
+    "Action Recognition",
+    "3D Action Recognition",
+    "Skeleton Based Action Recognition"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Distribution of Action Movements (DAM): A Descriptor for Human Action Recognition](https://arxiv.org/abs/2310.17421v1)",
+        "c": "",
+        "n": "Distribution of Action Movements + SVM",
+        "d": "2023-10-26",
+        "m1": "94%"
+      },
+      {
+        "p": "[Subspace Clustering for Action Recognition with Covariance Representations and Temporal Pruning](https://arxiv.org/abs/2006.11812v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/IIT-PAVIS/subspace-clustering-action-recognition)",
+        "n": "Temporal K-Means Clustering + Temporal Subspace Clustering",
+        "d": "2020-06-21",
+        "m1": "88.51%"
+      },
+      {
+        "p": "[Bayesian Hierarchical Dynamic Model for Human Action Recognition](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhao_Bayesian_Hierarchical_Dynamic_Model_for_Human_Action_Recognition_CVPR_2019_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/rort1989/HDM)",
+        "n": "HDM-BG",
+        "d": "2019-06-01",
+        "m1": "86.1%"
+      },
+      {
+        "p": "[Graph Based Skeleton Modeling for Human Activity Analysis](https://doi.org/10.1109/ICIP.2019.8803186)",
+        "c": "",
+        "n": "GFT",
+        "d": "2019-08-26",
+        "m1": "74%"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

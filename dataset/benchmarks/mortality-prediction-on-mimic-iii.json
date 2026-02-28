@@ -1,0 +1,163 @@
+{
+  "title": "mortality-prediction-on-mimic-iii",
+  "task-hierarchy": [
+    "Medical waveform analysis",
+    "Electrocardiography (ECG)",
+    "Mortality Prediction"
+  ],
+  "dataset-info": {
+    "link": "https://mimic.physionet.org/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1 score",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Precision",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Recall",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Early hospital mortality prediction using vital signals](http://arxiv.org/abs/1803.06589v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/RezaSadeghiWSU/Early-Hospital-Mortality-Prediction-using-Vital-Signals)",
+        "n": "Random Forest",
+        "d": "2018-03-18",
+        "m1": "0.97",
+        "m2": "0.97",
+        "m3": "0.97"
+      },
+      {
+        "p": "[Early hospital mortality prediction using vital signals](http://arxiv.org/abs/1803.06589v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/RezaSadeghiWSU/Early-Hospital-Mortality-Prediction-using-Vital-Signals)",
+        "n": "Gaussian SVM",
+        "d": "2018-03-18",
+        "m1": "0.96",
+        "m2": "0.95",
+        "m3": "0.96"
+      },
+      {
+        "p": "[Early hospital mortality prediction using vital signals](http://arxiv.org/abs/1803.06589v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/RezaSadeghiWSU/Early-Hospital-Mortality-Prediction-using-Vital-Signals)",
+        "n": "Decision Tree",
+        "d": "2018-03-18",
+        "m1": "0.91",
+        "m2": "0.90",
+        "m3": "0.92"
+      },
+      {
+        "p": "[Early hospital mortality prediction using vital signals](http://arxiv.org/abs/1803.06589v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/RezaSadeghiWSU/Early-Hospital-Mortality-Prediction-using-Vital-Signals)",
+        "n": "Boosted Trees",
+        "d": "2018-03-18",
+        "m1": "0.87",
+        "m2": "0.91",
+        "m3": "0.83"
+      },
+      {
+        "p": "[Early hospital mortality prediction using vital signals](http://arxiv.org/abs/1803.06589v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/RezaSadeghiWSU/Early-Hospital-Mortality-Prediction-using-Vital-Signals)",
+        "n": "K-NN",
+        "d": "2018-03-18",
+        "m1": "0.82",
+        "m2": "0.80",
+        "m3": "0.85"
+      },
+      {
+        "p": "[Early hospital mortality prediction using vital signals](http://arxiv.org/abs/1803.06589v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/RezaSadeghiWSU/Early-Hospital-Mortality-Prediction-using-Vital-Signals)",
+        "n": "Logistic regression",
+        "d": "2018-03-18",
+        "m1": "0.72",
+        "m2": "0.77",
+        "m3": "0.67"
+      },
+      {
+        "p": "[Early hospital mortality prediction using vital signals](http://arxiv.org/abs/1803.06589v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/RezaSadeghiWSU/Early-Hospital-Mortality-Prediction-using-Vital-Signals)",
+        "n": "Linear Discriminant",
+        "d": "2018-03-18",
+        "m1": "0.71",
+        "m2": "0.78",
+        "m3": "0.66"
+      },
+      {
+        "p": "[Early hospital mortality prediction using vital signals](http://arxiv.org/abs/1803.06589v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/RezaSadeghiWSU/Early-Hospital-Mortality-Prediction-using-Vital-Signals)",
+        "n": "Linear SVM",
+        "d": "2018-03-18",
+        "m1": "0.70",
+        "m2": "0.80",
+        "m3": "0.63"
+      },
+      {
+        "p": "[MeDAL: Medical Abbreviation Disambiguation Dataset for Natural Language Understanding Pretraining](https://arxiv.org/abs/2012.13978v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/mcGill-NLP/medal)",
+        "n": "ELECTRA (pretrained)",
+        "d": "2020-12-27",
+        "m4": "0.8443"
+      },
+      {
+        "p": "[MeDAL: Medical Abbreviation Disambiguation Dataset for Natural Language Understanding Pretraining](https://arxiv.org/abs/2012.13978v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/mcGill-NLP/medal)",
+        "n": "ELECTRA (from scratch)",
+        "d": "2020-12-27",
+        "m4": "0.8325"
+      },
+      {
+        "p": "[MeDAL: Medical Abbreviation Disambiguation Dataset for Natural Language Understanding Pretraining](https://arxiv.org/abs/2012.13978v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/mcGill-NLP/medal)",
+        "n": "LSTM+SA (pretrained)",
+        "d": "2020-12-27",
+        "m4": "0.8298"
+      },
+      {
+        "p": "[MeDAL: Medical Abbreviation Disambiguation Dataset for Natural Language Understanding Pretraining](https://arxiv.org/abs/2012.13978v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/mcGill-NLP/medal)",
+        "n": "LSTM (pretrained)",
+        "d": "2020-12-27",
+        "m4": "0.828"
+      },
+      {
+        "p": "[MeDAL: Medical Abbreviation Disambiguation Dataset for Natural Language Understanding Pretraining](https://arxiv.org/abs/2012.13978v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/mcGill-NLP/medal)",
+        "n": "LSTM+SA (from scratch)",
+        "d": "2020-12-27",
+        "m4": "0.7996"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

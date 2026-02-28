@@ -1,0 +1,175 @@
+{
+  "title": "aspect-based-sentiment-analysis-absa-on-aste",
+  "task-hierarchy": [
+    "Aspect-Based Sentiment Analysis (ABSA)"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1 (L14)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "F1(R14)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "F1 (R15)",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "F1 (R16)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[MvP: Multi-view Prompting Improves Aspect Sentiment Tuple Prediction](https://arxiv.org/abs/2305.12627v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ZubinGou/multi-view-prompting)",
+        "n": "MvP (multi-task)",
+        "d": "2023-05-22",
+        "m1": "65.30",
+        "m2": "76.30",
+        "m3": "69.44",
+        "m4": "73.10"
+      },
+      {
+        "p": "[ASTE Transformer Modelling Dependencies in Aspect-Sentiment Triplet Extraction](https://arxiv.org/abs/2409.15202v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/naiwo/aste-transformer)",
+        "n": "ASTE-Transformer",
+        "d": "2024-09-23",
+        "m1": "64.90",
+        "m2": "76.06",
+        "m3": "72.10",
+        "m4": "76.19"
+      },
+      {
+        "p": "[Seq2Path: Generating Sentiment Tuples as Paths of a Tree](https://aclanthology.org/2022.findings-acl.174)",
+        "c": "",
+        "n": "Seq2Path",
+        "d": null,
+        "m1": "64.82",
+        "m2": "75.52",
+        "m3": "65.88",
+        "m4": "72.87"
+      },
+      {
+        "p": "[MvP: Multi-view Prompting Improves Aspect Sentiment Tuple Prediction](https://arxiv.org/abs/2305.12627v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ZubinGou/multi-view-prompting)",
+        "n": "MvP",
+        "d": "2023-05-22",
+        "m1": "63.33",
+        "m2": "74.05",
+        "m3": "65.89",
+        "m4": "73.48"
+      },
+      {
+        "p": "[Unified Structure Generation for Universal Information Extraction](https://arxiv.org/abs/2203.12277v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/universal-ie/UIE)",
+        "n": "UIE",
+        "d": "2022-03-23",
+        "m1": "62.94",
+        "m2": "72.55",
+        "m3": "64.41",
+        "m4": "72.86"
+      },
+      {
+        "p": "[Generative Data Augmentation for Aspect Sentiment Quad Prediction](https://aclanthology.org/2023.starsem-1.12/)",
+        "c": "[&check;&nbsp;Link](https://github.com/AnWang-AI/AugABSA)",
+        "n": "AugABSA",
+        "d": "2023-07-01",
+        "m1": "62.66",
+        "m2": "73.76",
+        "m3": "65.80",
+        "m4": "74.23"
+      },
+      {
+        "p": "[LEGO-ABSA: A Prompt-based Task Assemblable Unified Generative Framework for Multi-task Aspect-based Sentiment Analysis](https://aclanthology.org/2022.coling-1.610)",
+        "c": "",
+        "n": "LEGO-ABSA (multi-task)",
+        "d": null,
+        "m1": "62.20",
+        "m2": "73.70",
+        "m3": "64.40",
+        "m4": "69.90"
+      },
+      {
+        "p": "[Improving Aspect Sentiment Quad Prediction via Template-Order Data Augmentation](https://arxiv.org/abs/2210.10291v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/hmt2014/aspectquad)",
+        "n": "DLO",
+        "d": "2022-10-19",
+        "m1": "61.46",
+        "m2": "72.39",
+        "m3": "64.26",
+        "m4": "73.03"
+      },
+      {
+        "p": "[Aspect Sentiment Quad Prediction as Paraphrase Generation](https://arxiv.org/abs/2110.00796v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/isakzhang/absa-quad)",
+        "n": "Paraphrase",
+        "d": "2021-10-02",
+        "m1": "61.13",
+        "m2": "72.03",
+        "m3": "62.56",
+        "m4": "71.70"
+      },
+      {
+        "p": "[Learning Span-Level Interactions for Aspect Sentiment Triplet Extraction](https://arxiv.org/abs/2107.12214v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/chiayewken/Span-ASTE)",
+        "n": "Span-ASTE",
+        "d": "2021-07-26",
+        "m1": "59.38",
+        "m2": "71.85",
+        "m3": "63.27",
+        "m4": "70.26"
+      },
+      {
+        "p": "[Towards Generative Aspect-Based Sentiment Analysis](https://aclanthology.org/2021.acl-short.64/)",
+        "c": "[&check;&nbsp;Link](https://github.com/IsakZhang/Generative-ABSA)",
+        "n": "GAS",
+        "d": "2021-08-01",
+        "m1": "58.19",
+        "m2": "70.52",
+        "m3": "60.23",
+        "m4": "69.05"
+      },
+      {
+        "p": "[MvP: Multi-view Prompting Improves Aspect Sentiment Tuple Prediction](https://arxiv.org/abs/2305.12627v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ZubinGou/multi-view-prompting)",
+        "n": "ChatGPT (gpt-3.5-turbo, few-shot)",
+        "d": "2023-05-22",
+        "m1": "38.12"
+      },
+      {
+        "p": "[MvP: Multi-view Prompting Improves Aspect Sentiment Tuple Prediction](https://arxiv.org/abs/2305.12627v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ZubinGou/multi-view-prompting)",
+        "n": "ChatGPT (gpt-3.5-turbo, zero-shot)",
+        "d": "2023-05-22",
+        "m1": "36.05"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

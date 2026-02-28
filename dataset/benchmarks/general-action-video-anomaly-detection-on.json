@@ -1,0 +1,68 @@
+{
+  "title": "general-action-video-anomaly-detection-on",
+  "task-hierarchy": [
+    "Semi-supervised Anomaly Detection",
+    "General Action Video Anomaly Detection"
+  ],
+  "dataset-info": {
+    "link": "https://developer.qualcomm.com/software/ai-datasets/something-something"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Avg. ROC-AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Architecture",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Approaches Toward Physical and General Video Anomaly Detection](https://arxiv.org/abs/2112.07661v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/laurarkart/Physical-Anomalous-Trajectory-or-Motion-PHANTOM-Dataset)",
+        "n": "Pooled Image Level kNN",
+        "d": "2021-12-14",
+        "m1": "0.58",
+        "m2": "ViT"
+      },
+      {
+        "p": "[Learning Memory-guided Normality for Anomaly Detection](https://arxiv.org/abs/2003.13228v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/cvlab-yonsei/MNAD)",
+        "n": "MNAD",
+        "d": "2020-03-30",
+        "m1": "0.52"
+      },
+      {
+        "p": "[Approaches Toward Physical and General Video Anomaly Detection](https://arxiv.org/abs/2112.07661v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/laurarkart/Physical-Anomalous-Trajectory-or-Motion-PHANTOM-Dataset)",
+        "n": "Video Level features kNN",
+        "d": "2021-12-14",
+        "m1": "0.52",
+        "m2": "TimeSformer"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

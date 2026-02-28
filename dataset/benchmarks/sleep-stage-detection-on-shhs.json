@@ -1,0 +1,138 @@
+{
+  "title": "sleep-stage-detection-on-shhs",
+  "task-hierarchy": [
+    "Sleep Stage Detection"
+  ],
+  "dataset-info": {
+    "link": "https://sleepdata.org/datasets/shhs"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Cohen's Kappa",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Macro-F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Toward Foundational Model for Sleep Analysis Using a Multimodal Hybrid Self-Supervised Learning Framework](https://arxiv.org/abs/2502.17481v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/dlcjfgmlnasa/SynthSleepNet)",
+        "n": "SynthSleepNet (EEG2+EOG2+EMG1)",
+        "d": "2025-02-18",
+        "m1": "89.89%",
+        "m2": "0.860",
+        "m3": "0.845"
+      },
+      {
+        "p": "[CoRe-Sleep: A Multimodal Fusion Framework for Time Series Robust to Imperfect Modalities](https://arxiv.org/abs/2304.06485v1)",
+        "c": "",
+        "n": "CoRe-Sleep (EEG-EOG)",
+        "d": "2023-03-27",
+        "m1": "89.5%",
+        "m2": "0.853",
+        "m3": "0.823"
+      },
+      {
+        "p": "[Toward Foundational Model for Sleep Analysis Using a Multimodal Hybrid Self-Supervised Learning Framework](https://arxiv.org/abs/2502.17481v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/dlcjfgmlnasa/SynthSleepNet)",
+        "n": "SynthSleepNet (EEG1+EOG1+EMG1)",
+        "d": "2025-02-18",
+        "m1": "89.28%",
+        "m2": "0.850",
+        "m3": "0.835"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "XSleepNet2 (EEG, EOG, EMG)",
+        "d": null,
+        "m1": "89.1%",
+        "m2": "0.847",
+        "m3": "0.823"
+      },
+      {
+        "p": "[MC2SleepNet: Multi-modal Cross-masking with Contrastive Learning for Sleep Stage Classification](https://arxiv.org/abs/2502.17470v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/younghoonNa/MC2SleepNet)",
+        "n": "MC2SleepNet 50% Masking (C4-A1 only)",
+        "d": "2025-02-13",
+        "m1": "88.6%",
+        "m2": "0.841",
+        "m3": "0.821"
+      },
+      {
+        "p": "[MC2SleepNet: Multi-modal Cross-masking with Contrastive Learning for Sleep Stage Classification](https://arxiv.org/abs/2502.17470v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/younghoonNa/MC2SleepNet)",
+        "n": "MC2SleepNet 15% Masking (C4-A1 only)",
+        "d": "2025-02-13",
+        "m1": "88.5%",
+        "m2": "0.840",
+        "m3": "0.823"
+      },
+      {
+        "p": "[Toward Foundational Model for Sleep Analysis Using a Multimodal Hybrid Self-Supervised Learning Framework](https://arxiv.org/abs/2502.17481v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/dlcjfgmlnasa/SynthSleepNet)",
+        "n": "SynthSleepNet (EEG1+EOG1)",
+        "d": "2025-02-18",
+        "m1": "88.31%",
+        "m2": "0.840",
+        "m3": "0.820"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "CoRe-Sleep (EEG)",
+        "d": null,
+        "m1": "88.2%",
+        "m2": "0.834",
+        "m3": "0.808"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "SleePyCo (C4-A1 only)",
+        "d": null,
+        "m1": "87.9%",
+        "m2": "0.830",
+        "m3": "0.807"
+      },
+      {
+        "p": "[NeuroNet: A Novel Hybrid Self-Supervised Learning Framework for Sleep Stage Classification Using Single-Channel EEG](https://arxiv.org/abs/2404.17585v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/dlcjfgmlnasa/NeuroNet)",
+        "n": "NeuroNet (C4-A1 only)",
+        "d": "2024-04-10",
+        "m1": "86.88%",
+        "m3": "0.812"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

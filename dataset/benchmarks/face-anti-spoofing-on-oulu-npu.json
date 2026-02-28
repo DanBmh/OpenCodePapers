@@ -1,0 +1,74 @@
+{
+  "title": "face-anti-spoofing-on-oulu-npu",
+  "task-hierarchy": [
+    "Depth And Camera Motion",
+    "Face Anti-Spoofing"
+  ],
+  "dataset-info": {
+    "link": "https://sites.google.com/site/oulunpudatabase/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "ACER",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "HTER",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Bi-FPNFAS: Bi-Directional Feature Pyramid Network for Pixel-Wise Face Anti-Spoofing by Leveraging Fourier Spectra](https://www.mdpi.com/1424-8220/21/8/2799/htm)",
+        "c": "[&check;&nbsp;Link](https://github.com/FaceOnLive/Face-Liveness-Detection-SDK-Linux)",
+        "n": "Bi-FPNFAS",
+        "d": "2021-04-15",
+        "m1": "2.92"
+      },
+      {
+        "p": "[Generalizable Method for Face Anti-Spoofing with Semi-Supervised Learning](https://arxiv.org/abs/2206.06510v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/FaceOnLive/Face-Liveness-Detection-SDK-Linux)",
+        "n": "Entry-V2",
+        "d": "2022-06-13",
+        "m1": "3.2",
+        "m2": "2.6"
+      },
+      {
+        "p": "[A-DeepPixBis: Attentional Angular Margin for Face Anti-Spoofing](https://ieeexplore.ieee.org/abstract/document/9363382)",
+        "c": "",
+        "n": "A-DeepPixBis",
+        "d": "2021-03-01",
+        "m1": "5.22"
+      },
+      {
+        "p": "[Searching Central Difference Convolutional Networks for Face Anti-Spoofing](https://arxiv.org/abs/2003.04092v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ZitongYu/CDCN)",
+        "n": "CDCN",
+        "d": "2020-03-09",
+        "m1": "6.9"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

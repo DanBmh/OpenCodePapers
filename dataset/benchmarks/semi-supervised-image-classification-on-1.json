@@ -1,0 +1,534 @@
+{
+  "title": "semi-supervised-image-classification-on-1",
+  "task-hierarchy": [
+    "Semi-Supervised Image Classification"
+  ],
+  "dataset-info": {
+    "link": "https://image-net.org/index.php"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Top 1 Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Top 5 Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Number of params",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Simple Semi-supervised Knowledge Distillation from Vision-Language Models via $\\mathbf{\\texttt{D}}$ual-$\\mathbf{\\texttt{H}}$ead $\\mathbf{\\texttt{O}}$ptimization](https://arxiv.org/abs/2505.07675v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/erjui/DHO)",
+        "n": "DHO (ViT-Large)",
+        "d": "2025-05-12",
+        "m1": "84.6%"
+      },
+      {
+        "p": "[Learning Customized Visual Models with Retrieval-Augmented Knowledge](https://arxiv.org/abs/2301.07094v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/microsoft/react)",
+        "n": "REACT (ViT-Large)",
+        "d": "2023-01-17",
+        "m1": "81.6%"
+      },
+      {
+        "p": "[Simple Semi-supervised Knowledge Distillation from Vision-Language Models via $\\mathbf{\\texttt{D}}$ual-$\\mathbf{\\texttt{H}}$ead $\\mathbf{\\texttt{O}}$ptimization](https://arxiv.org/abs/2505.07675v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/erjui/DHO)",
+        "n": "DHO (ViT-Base)",
+        "d": "2025-05-12",
+        "m1": "81.6%"
+      },
+      {
+        "p": "[Meta Co-Training: Two Views are Better than One](https://arxiv.org/abs/2311.18083v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/jayrothenberger/meta-co-training)",
+        "n": "Meta Co-Training",
+        "d": "2023-11-29",
+        "m1": "80.7%"
+      },
+      {
+        "p": "[SST: Self-training with Self-adaptive Thresholding for Semi-supervised Learning](https://arxiv.org/abs/2506.00467v1)",
+        "c": "",
+        "n": "Semi-SST (ViT-Huge)",
+        "d": "2025-05-31",
+        "m1": "80.7%"
+      },
+      {
+        "p": "[SST: Self-training with Self-adaptive Thresholding for Semi-supervised Learning](https://arxiv.org/abs/2506.00467v1)",
+        "c": "",
+        "n": "Super-SST (ViT-Huge)",
+        "d": "2025-05-31",
+        "m1": "80.3%"
+      },
+      {
+        "p": "[Semi-supervised Vision Transformers at Scale](https://arxiv.org/abs/2208.05688v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/amazon-science/semi-vit)",
+        "n": "Semi-ViT (ViT-Huge)",
+        "d": "2022-08-11",
+        "m1": "80%",
+        "m2": "93.1"
+      },
+      {
+        "p": "[Semi-supervised Vision Transformers at Scale](https://arxiv.org/abs/2208.05688v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/amazon-science/semi-vit)",
+        "n": "Semi-ViT (ViT-Large)",
+        "d": "2022-08-11",
+        "m1": "77.3%"
+      },
+      {
+        "p": "[SST: Self-training with Self-adaptive Thresholding for Semi-supervised Learning](https://arxiv.org/abs/2506.00467v1)",
+        "c": "",
+        "n": "Super-SST (ViT-Small distilled)",
+        "d": "2025-05-31",
+        "m1": "76.9%"
+      },
+      {
+        "p": "[Big Self-Supervised Models are Strong Semi-Supervised Learners](https://arxiv.org/abs/2006.10029v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/simclr)",
+        "n": "SimCLRv2 self-distilled (ResNet-152 x3, SK)",
+        "d": "2020-06-17",
+        "m1": "76.6%",
+        "m2": "93.4%"
+      },
+      {
+        "p": "[Big Self-Supervised Models are Strong Semi-Supervised Learners](https://arxiv.org/abs/2006.10029v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/simclr)",
+        "n": "SimCLRv2 distilled (ResNet-50 x2, SK)",
+        "d": "2020-06-17",
+        "m1": "75.9%",
+        "m2": "93.0%"
+      },
+      {
+        "p": "[Masked Siamese Networks for Label-Efficient Learning](https://arxiv.org/abs/2204.07141v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/lightly-ai/lightly)",
+        "n": "MSN (ViT-B/4)",
+        "d": "2022-04-14",
+        "m1": "75.7%"
+      },
+      {
+        "p": "[Big Self-Supervised Models are Strong Semi-Supervised Learners](https://arxiv.org/abs/2006.10029v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/simclr)",
+        "n": "SimCLRv2 (ResNet-152 x3, SK)",
+        "d": "2020-06-17",
+        "m1": "74.9%",
+        "m2": "92.3%"
+      },
+      {
+        "p": "[Big Self-Supervised Models are Strong Semi-Supervised Learners](https://arxiv.org/abs/2006.10029v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/simclr)",
+        "n": "SimCLRv2 distilled (ResNet-50)",
+        "d": "2020-06-17",
+        "m1": "73.9%",
+        "m2": "91.5%"
+      },
+      {
+        "p": "[SimMatchV2: Semi-Supervised Learning with Graph Consistency](https://arxiv.org/abs/2308.06692v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/kylezheng1997/simmatch)",
+        "n": "SimMatchV2 (ResNet-50)",
+        "d": "2023-08-13",
+        "m1": "71.9%"
+      },
+      {
+        "p": "[SST: Self-training with Self-adaptive Thresholding for Semi-supervised Learning](https://arxiv.org/abs/2506.00467v1)",
+        "c": "",
+        "n": "Semi-SST (ViT-Small)",
+        "d": "2025-05-31",
+        "m1": "71.4%"
+      },
+      {
+        "p": "[Debiased Learning from Naturally Imbalanced Pseudo-Labels](https://arxiv.org/abs/2201.01490v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/frank-xwang/debiased-pseudo-labeling)",
+        "n": "DebiasPL (ResNet-50)",
+        "d": "2022-01-05",
+        "m1": "71.3%"
+      },
+      {
+        "p": "[Bootstrap your own latent: A new approach to self-supervised Learning](https://arxiv.org/abs/2006.07733v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/deepmind/deepmind-research/tree/master/byol)",
+        "n": "BYOL (ResNet-200 x2)",
+        "d": "2020-06-13",
+        "m1": "71.2%",
+        "m2": "89.5%"
+      },
+      {
+        "p": "[Semi-supervised Vision Transformers at Scale](https://arxiv.org/abs/2208.05688v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/amazon-science/semi-vit)",
+        "n": "Semi-ViT (ViT-Base)",
+        "d": "2022-08-11",
+        "m1": "71%"
+      },
+      {
+        "p": "[SST: Self-training with Self-adaptive Thresholding for Semi-supervised Learning](https://arxiv.org/abs/2506.00467v1)",
+        "c": "",
+        "n": "Super-SST (ViT-Small)",
+        "d": "2025-05-31",
+        "m1": "70.4%"
+      },
+      {
+        "p": "[Semi-Supervised Learning of Visual Features by Non-Parametrically Predicting View Assignments with Support Samples](https://arxiv.org/abs/2104.13963v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/suncet)",
+        "n": "PAWS (ResNet-50 4x)",
+        "d": "2021-04-28",
+        "m1": "69.9%"
+      },
+      {
+        "p": "[Semi-Supervised Learning of Visual Features by Non-Parametrically Predicting View Assignments with Support Samples](https://arxiv.org/abs/2104.13963v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/suncet)",
+        "n": "PAWS (ResNet-50 2x)",
+        "d": "2021-04-28",
+        "m1": "69.6%"
+      },
+      {
+        "p": "[Bootstrap your own latent: A new approach to self-supervised Learning](https://arxiv.org/abs/2006.07733v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/deepmind/deepmind-research/tree/master/byol)",
+        "n": "BYOL (ResNet-50 x4)",
+        "d": "2020-06-13",
+        "m1": "69.1%",
+        "m2": "87.9%"
+      },
+      {
+        "p": "[Debiasing, calibrating, and improving Semi-supervised Learning performance via simple Ensemble Projector](https://arxiv.org/abs/2310.15764v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/beandkay/epass)",
+        "n": "SimMatch + EPASS (ResNet-50)",
+        "d": "2023-10-24",
+        "m1": "68.6%",
+        "m2": "87.6"
+      },
+      {
+        "p": "[Debiasing, calibrating, and improving Semi-supervised Learning performance via simple Ensemble Projector](https://arxiv.org/abs/2310.15764v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/beandkay/epass)",
+        "n": "CoMatch + EPASS (ResNet-50)",
+        "d": "2023-10-24",
+        "m1": "67.4%",
+        "m2": "87.3"
+      },
+      {
+        "p": "[Self-Supervised Learning by Estimating Twin Class Distributions](https://arxiv.org/abs/2110.07402v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/bytedance/TWIST)",
+        "n": "TWIST (ResNet-50 x2)",
+        "d": "2021-10-14",
+        "m1": "67.2%",
+        "m2": "88.2%"
+      },
+      {
+        "p": "[SimMatch: Semi-supervised Learning with Similarity Matching](https://arxiv.org/abs/2203.06915v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/kylezheng1997/simmatch)",
+        "n": "SimMatch (ResNet-50)",
+        "d": "2022-03-14",
+        "m1": "67.2%"
+      },
+      {
+        "p": "[CoMatch: Semi-supervised Learning with Contrastive Graph Regularization](https://arxiv.org/abs/2011.11183v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/salesforce/CoMatch)",
+        "n": "CoMatch (w. MoCo v2)",
+        "d": "2020-11-23",
+        "m1": "67.1%",
+        "m2": "87.1%"
+      },
+      {
+        "p": "[Semi-Supervised Learning of Visual Features by Non-Parametrically Predicting View Assignments with Support Samples](https://arxiv.org/abs/2104.13963v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/suncet)",
+        "n": "PAWS (ResNet-50)",
+        "d": "2021-04-28",
+        "m1": "66.5%"
+      },
+      {
+        "p": "[Big Self-Supervised Models are Strong Semi-Supervised Learners](https://arxiv.org/abs/2006.10029v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/simclr)",
+        "n": "SimCLRv2 (ResNet-50 ×2)",
+        "d": "2020-06-17",
+        "m1": "66.3%",
+        "m2": "87.4%"
+      },
+      {
+        "p": "[Weakly Supervised Contrastive Learning](https://arxiv.org/abs/2110.04770v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/KyleZheng1997/WCL)",
+        "n": "WCL (ResNet-50)",
+        "d": "2021-10-10",
+        "m1": "65.0%",
+        "m2": "86.3%"
+      },
+      {
+        "p": "[Boosting Contrastive Self-Supervised Learning with False Negative Cancellation](https://arxiv.org/abs/2011.11765v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/fnc)",
+        "n": "FNC (ResNet-50)",
+        "d": "2020-11-23",
+        "m1": "63.7%",
+        "m2": "85.3%"
+      },
+      {
+        "p": "[A Simple Framework for Contrastive Learning of Visual Representations](https://arxiv.org/abs/2002.05709v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/official/vision/beta/projects/simclr)",
+        "n": "SimCLR (ResNet-50 4×)",
+        "d": "2020-02-13",
+        "m1": "63.0%",
+        "m2": "85.8%"
+      },
+      {
+        "p": "[Exponential Moving Average Normalization for Self-supervised and Semi-supervised Learning](https://arxiv.org/abs/2101.08482v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/amazon-research/exponential-moving-average-normalization)",
+        "n": "FixMatch-EMAN",
+        "d": "2021-01-21",
+        "m1": "63%"
+      },
+      {
+        "p": "[Vision Models Are More Robust And Fair When Pretrained On Uncurated Images Without Supervision](https://arxiv.org/abs/2202.08360v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/vissl)",
+        "n": "SEER (RegNet10B)",
+        "d": "2022-02-16",
+        "m1": "62.4%"
+      },
+      {
+        "p": "[Bootstrap your own latent: A new approach to self-supervised Learning](https://arxiv.org/abs/2006.07733v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/deepmind/deepmind-research/tree/master/byol)",
+        "n": "BYOL (ResNet-50 x2)",
+        "d": "2020-06-13",
+        "m1": "62.2%",
+        "m2": "84.1%"
+      },
+      {
+        "p": "[iBOT: Image BERT Pre-Training with Online Tokenizer](https://arxiv.org/abs/2111.07832v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/bytedance/ibot)",
+        "n": "iBOT (ViT-S/16)",
+        "d": "2021-11-15",
+        "m1": "61.9%"
+      },
+      {
+        "p": "[Self-supervised Pretraining of Visual Features in the Wild](https://arxiv.org/abs/2103.01988v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/vissl)",
+        "n": "SEER Large (RegNetY-256GF)",
+        "d": "2021-03-02",
+        "m1": "60.5%"
+      },
+      {
+        "p": "[SemiReward: A General Reward Model for Semi-supervised Learning](https://arxiv.org/abs/2310.03013v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Westlake-AI/SemiReward)",
+        "n": "SemiReward",
+        "d": "2023-10-04",
+        "m1": "59.64%"
+      },
+      {
+        "p": "[A Simple Framework for Contrastive Learning of Visual Representations](https://arxiv.org/abs/2002.05709v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/official/vision/beta/projects/simclr)",
+        "n": "SimCLR (ResNet-50 2×)",
+        "d": "2020-02-13",
+        "m1": "58.5%",
+        "m2": "83.0%"
+      },
+      {
+        "p": "[Pushing the limits of self-supervised ResNets: Can we outperform supervised learning without labels on ImageNet?](https://arxiv.org/abs/2201.05119v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-deepmind/relicv2)",
+        "n": "RELICv2",
+        "d": "2022-01-13",
+        "m1": "58.1%",
+        "m2": "81.3"
+      },
+      {
+        "p": "[Big Self-Supervised Models are Strong Semi-Supervised Learners](https://arxiv.org/abs/2006.10029v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/simclr)",
+        "n": "SimCLRv2 (ResNet-50)",
+        "d": "2020-06-17",
+        "m1": "57.9%",
+        "m2": "82.5%"
+      },
+      {
+        "p": "[Self-supervised Pretraining of Visual Features in the Wild](https://arxiv.org/abs/2103.01988v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/vissl)",
+        "n": "SEER Small (RegNetY-128GF)",
+        "d": "2021-03-02",
+        "m1": "57.5%"
+      },
+      {
+        "p": "[With a Little Help from My Friends: Nearest-Neighbor Contrastive Learning of Visual Representations](https://arxiv.org/abs/2104.14548v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/lightly-ai/lightly)",
+        "n": "NNCLR (ResNet-50)",
+        "d": "2021-04-29",
+        "m1": "56.4%",
+        "m2": "80.7"
+      },
+      {
+        "p": "[VNE: An Effective Method for Improving Deep Representation by Manipulating Eigenvalue Distribution](https://arxiv.org/abs/2304.01434v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jaeill/CVPR23-VNE)",
+        "n": "I-VNE+ (ResNet-50)",
+        "d": "2023-04-04",
+        "m1": "55.8",
+        "m2": "81.0"
+      },
+      {
+        "p": "[Barlow Twins: Self-Supervised Learning via Redundancy Reduction](https://arxiv.org/abs/2103.03230v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/lightly-ai/lightly)",
+        "n": "Barlow Twins (ResNet-50)",
+        "d": "2021-03-04",
+        "m1": "55%",
+        "m2": "79.2"
+      },
+      {
+        "p": "[VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning](https://arxiv.org/abs/2105.04906v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/lightly-ai/lightly)",
+        "n": "VICREG (Resnet-50)",
+        "d": "2021-05-11",
+        "m1": "54.8%",
+        "m2": "79.4%"
+      },
+      {
+        "p": "[Unsupervised Learning of Visual Features by Contrasting Cluster Assignments](https://arxiv.org/abs/2006.09882v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection)",
+        "n": "SwAV (ResNet-50)",
+        "d": "2020-06-17",
+        "m1": "53.9%",
+        "m2": "78.5"
+      },
+      {
+        "p": "[Bootstrap your own latent: A new approach to self-supervised Learning](https://arxiv.org/abs/2006.07733v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/deepmind/deepmind-research/tree/master/byol)",
+        "n": "BYOL (ResNet-50)",
+        "d": "2020-06-13",
+        "m1": "53.2%",
+        "m2": "78.4%"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "CPC v2 (ResNet-161)",
+        "d": null,
+        "m1": "52.7%",
+        "m2": "77.9%"
+      },
+      {
+        "p": "[SynCo: Synthetic Hard Negatives in Contrastive Learning for Better Unsupervised Visual Representations](https://arxiv.org/abs/2410.02401v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/giakoumoglou/synco)",
+        "n": "SynCo (ResNet-50) 800ep",
+        "d": "2024-10-03",
+        "m1": "50.8%",
+        "m2": "77.5%",
+        "m3": "24M"
+      },
+      {
+        "p": "[A Simple Framework for Contrastive Learning of Visual Representations](https://arxiv.org/abs/2002.05709v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/official/vision/beta/projects/simclr)",
+        "n": "SimCLR (ResNet-50)",
+        "d": "2020-02-13",
+        "m1": "48.3%",
+        "m2": "75.5%"
+      },
+      {
+        "p": "[SCAN: Learning to Classify Images without Labels](https://arxiv.org/abs/2005.12320v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/wvangansbeke/Unsupervised-Classification)",
+        "n": "SCAN (ResNet-50|Unsupervised)",
+        "d": "2020-05-25",
+        "m1": "39.90%",
+        "m2": "60.0%"
+      },
+      {
+        "p": "[OBoW: Online Bag-of-Visual-Words Generation for Self-Supervised Learning](https://arxiv.org/abs/2012.11552v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/valeoai/obow)",
+        "n": "OBoW (ResNet-50)",
+        "d": "2020-12-21",
+        "m2": "82.9%"
+      },
+      {
+        "p": "[Prototypical Contrastive Learning of Unsupervised Representations](https://arxiv.org/abs/2005.04966v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/salesforce/PCL)",
+        "n": "PCL (ResNet-50)",
+        "d": "2020-05-11",
+        "m2": "75.6%"
+      },
+      {
+        "p": "[Representation Learning with Contrastive Predictive Coding](http://arxiv.org/abs/1807.03748v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/RElbers/info-nce-pytorch)",
+        "n": "CPC",
+        "d": "2018-07-10",
+        "m2": "64.03%"
+      },
+      {
+        "p": "[Large Scale Adversarial Representation Learning](https://arxiv.org/abs/1907.02544v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/lukemelas/unsupervised-image-segmentation)",
+        "n": "BigBiGAN (RevNet-50 ×4, BN+CReLU)",
+        "d": "2019-07-04",
+        "m2": "55.2%"
+      },
+      {
+        "p": "[S4L: Self-Supervised Semi-Supervised Learning](https://arxiv.org/abs/1905.03670v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/s4l)",
+        "n": "Rotation (joint training) ",
+        "d": "2019-05-09",
+        "m2": "53.37%"
+      },
+      {
+        "p": "[S4L: Self-Supervised Semi-Supervised Learning](https://arxiv.org/abs/1905.03670v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/s4l)",
+        "n": "Pseudolabeling",
+        "d": "2019-05-09",
+        "m2": "51.56%"
+      },
+      {
+        "p": "[S4L: Self-Supervised Semi-Supervised Learning](https://arxiv.org/abs/1905.03670v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/s4l)",
+        "n": "Exemplar (joint training)",
+        "d": "2019-05-09",
+        "m2": "47.02%"
+      },
+      {
+        "p": "[S4L: Self-Supervised Semi-Supervised Learning](https://arxiv.org/abs/1905.03670v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/s4l)",
+        "n": "VAT + Entropy Minimization",
+        "d": "2019-05-09",
+        "m2": "46.96%"
+      },
+      {
+        "p": "[S4L: Self-Supervised Semi-Supervised Learning](https://arxiv.org/abs/1905.03670v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/s4l)",
+        "n": "Rotation",
+        "d": "2019-05-09",
+        "m2": "45.11%"
+      },
+      {
+        "p": "[S4L: Self-Supervised Semi-Supervised Learning](https://arxiv.org/abs/1905.03670v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/s4l)",
+        "n": "Exemplar",
+        "d": "2019-05-09",
+        "m2": "44.90%"
+      },
+      {
+        "p": "[S4L: Self-Supervised Semi-Supervised Learning](https://arxiv.org/abs/1905.03670v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/s4l)",
+        "n": "VAT",
+        "d": "2019-05-09",
+        "m2": "44.05%"
+      },
+      {
+        "p": "[Unsupervised Feature Learning via Non-Parametric Instance Discrimination](http://openaccess.thecvf.com/content_cvpr_2018/html/Wu_Unsupervised_Feature_Learning_CVPR_2018_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmselfsup)",
+        "n": "Instance Discrimination (ResNet-50)",
+        "d": "2018-06-01",
+        "m2": "39.20%"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

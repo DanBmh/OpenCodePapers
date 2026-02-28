@@ -1,0 +1,153 @@
+{
+  "title": "speaker-identification-on-voxceleb1",
+  "task-hierarchy": [
+    "Speaker Identification"
+  ],
+  "dataset-info": {
+    "link": "https://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox1.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Top-1 (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Top-5 (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Number of Params",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Masked Modeling Duo: Towards a Universal Audio Pre-training Framework](https://arxiv.org/abs/2404.06095v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/nttcslab/m2d)",
+        "n": "MSM-MAE",
+        "d": "2024-04-09",
+        "m1": "96.6",
+        "m4": "96.6"
+      },
+      {
+        "p": "[Masked Modeling Duo: Towards a Universal Audio Pre-training Framework](https://arxiv.org/abs/2404.06095v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/nttcslab/m2d)",
+        "n": "M2D/0.6",
+        "d": "2024-04-09",
+        "m1": "96.5",
+        "m4": "96.5"
+      },
+      {
+        "p": "[Masked Modeling Duo: Towards a Universal Audio Pre-training Framework](https://arxiv.org/abs/2404.06095v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/nttcslab/m2d)",
+        "n": "M2D/0.7",
+        "d": "2024-04-09",
+        "m1": "96.3",
+        "m4": "96.3"
+      },
+      {
+        "p": "[Masked Autoencoders that Listen](https://arxiv.org/abs/2207.06405v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/multimodal)",
+        "n": "AudioMAE (local)",
+        "d": "2022-07-13",
+        "m1": "94.8",
+        "m4": "94.8"
+      },
+      {
+        "p": "[Masked Modeling Duo: Learning Representations by Encouraging Both Networks to Model the Input](https://arxiv.org/abs/2210.14648v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/nttcslab/m2d)",
+        "n": "M2D ratio=0.6",
+        "d": "2022-10-26",
+        "m1": "94.8",
+        "m4": "94.8"
+      },
+      {
+        "p": "[ATST: Audio Representation Learning with Teacher-Student Transformer](https://arxiv.org/abs/2204.12076v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/Audio-WestlakeU/ATST-SED)",
+        "n": "ATST Base (ours)",
+        "d": "2022-04-26",
+        "m1": "94.3",
+        "m4": "94.3"
+      },
+      {
+        "p": "[Masked Autoencoders that Listen](https://arxiv.org/abs/2207.06405v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/multimodal)",
+        "n": "AudioMAE (global)",
+        "d": "2022-07-13",
+        "m1": "94.1",
+        "m4": "94.1"
+      },
+      {
+        "p": "[AutoSpeech: Neural Architecture Search for Speaker Recognition](https://arxiv.org/abs/2005.03215v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/VITA-Group/AutoSpeech)",
+        "n": "AutoSpeech (N=8,C=128)",
+        "d": "2020-05-07",
+        "m1": "87.66",
+        "m2": "96.01",
+        "m3": "18M",
+        "m4": "87.66"
+      },
+      {
+        "p": "[SSAST: Self-Supervised Audio Spectrogram Transformer](https://arxiv.org/abs/2110.09784v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/YuanGongND/ast)",
+        "n": "SSAST-FRAME",
+        "d": "2021-10-19",
+        "m1": "80.8",
+        "m4": "80.8"
+      },
+      {
+        "p": "[SSAMBA: Self-Supervised Audio Representation Learning with Mamba State Space Model](https://arxiv.org/abs/2405.11831v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/siavashshams/ssamba)",
+        "n": "SSAMBA",
+        "d": "2024-05-20",
+        "m1": "70.1",
+        "m3": "99M",
+        "m4": "70.1"
+      },
+      {
+        "p": "[SSAST: Self-Supervised Audio Spectrogram Transformer](https://arxiv.org/abs/2110.09784v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/YuanGongND/ast)",
+        "n": "SSAST-PATCH",
+        "d": "2021-10-19",
+        "m1": "64.2",
+        "m4": "64.2"
+      },
+      {
+        "p": "[Contrastive Learning of General-Purpose Audio Representations](https://arxiv.org/abs/2010.10915v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research/tree/master/cola)",
+        "n": "COLA",
+        "d": "2020-10-21",
+        "m1": "37.7",
+        "m4": "37.7"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

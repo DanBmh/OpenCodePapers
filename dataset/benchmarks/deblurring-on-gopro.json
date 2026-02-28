@@ -1,0 +1,490 @@
+{
+  "title": "deblurring-on-gopro",
+  "task-hierarchy": [
+    "Blind Image Deblurring",
+    "Deblurring"
+  ],
+  "dataset-info": {
+    "link": "https://seungjunnah.github.io/Datasets/gopro"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Blur-aware Spatio-temporal Sparse Transformer for Video Deblurring](https://arxiv.org/abs/2406.07551v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/huicongzhang/bsstnet)",
+        "n": "BSSTNet",
+        "d": "2024-06-11",
+        "m1": "35.98",
+        "m2": "0.9792"
+      },
+      {
+        "p": "[A Simple Baseline for Video Restoration with Grouped Spatial-temporal Shift](https://arxiv.org/abs/2206.10810v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/dasongli1/shift-net)",
+        "n": "GShift-Net",
+        "d": "2022-06-22",
+        "m1": "35.88",
+        "m2": "0.979"
+      },
+      {
+        "p": "[Deformable Convolutions and LSTM-based Flexible Event Frame Fusion Network for Motion Deblurring](https://arxiv.org/abs/2306.00834v1)",
+        "c": "",
+        "n": "DLEFNet",
+        "d": "2023-06-01",
+        "m1": "35.61",
+        "m2": "0.973"
+      },
+      {
+        "p": "[Event-Based Fusion for Motion Deblurring with Cross-modal Attention](https://arxiv.org/abs/2112.00167v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/AHupuJR/EFNet)",
+        "n": "EFNet",
+        "d": "2021-11-30",
+        "m1": "35.46",
+        "m2": "0.972"
+      },
+      {
+        "p": "[Neural Image Re-Exposure](https://arxiv.org/abs/2305.13593v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/zhangxydlut/Neural-Image-Re-Exposure)",
+        "n": "NIRE",
+        "d": "2023-05-23",
+        "m1": "35.03",
+        "m2": "0.973"
+      },
+      {
+        "p": "[VRT: A Video Restoration Transformer](https://arxiv.org/abs/2201.12288v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/jingyunliang/vrt)",
+        "n": "VRT",
+        "d": "2022-01-28",
+        "m1": "34.81",
+        "m2": "0.9724"
+      },
+      {
+        "p": "[AdaRevD: Adaptive Patch Exiting Reversible Decoder Pushes the Limit of Image Deblurring](https://arxiv.org/abs/2406.09135v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/invokerer/deeprft)",
+        "n": "AdaRevD",
+        "d": "2024-06-13",
+        "m1": "34.6",
+        "m2": "0.972"
+      },
+      {
+        "p": "[Learning Truncated Causal History Model for Video Restoration](https://arxiv.org/abs/2410.03936v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Ascend-Research/Turtle)",
+        "n": "Turtle",
+        "d": "2024-10-04",
+        "m1": "34.5",
+        "m2": "0.972"
+      },
+      {
+        "p": "[ID-Blau: Image Deblurring by Implicit Diffusion-based reBLurring AUgmentation](https://arxiv.org/abs/2312.10998v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/plusgood-steven/id-blau)",
+        "n": "ID-Blau (FFTformer)",
+        "d": "2023-12-18",
+        "m1": "34.36",
+        "m2": "0.970"
+      },
+      {
+        "p": "[XYScanNet: A State Space Model for Single Image Deblurring](https://arxiv.org/abs/2412.10338v3)",
+        "c": "",
+        "n": "XYScanNet",
+        "d": "2024-12-13",
+        "m1": "33.91",
+        "m2": "0.968"
+      },
+      {
+        "p": "[Motion Aware Double Attention Network for Dynamic Scene Deblurring](https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/html/Yang_Motion_Aware_Double_Attention_Network_for_Dynamic_Scene_Deblurring_CVPRW_2022_paper.html)",
+        "c": "",
+        "n": "MADANet",
+        "d": "2020-06-19",
+        "m1": "33.84",
+        "m2": "0.964"
+      },
+      {
+        "p": "[Efficient Multi-scale Network with Learnable Discrete Wavelet Transform for Blind Motion Deblurring](https://arxiv.org/abs/2401.00027v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/thqiu0419/mlwnet)",
+        "n": "MLWNet",
+        "d": "2023-12-29",
+        "m1": "33.83",
+        "m2": "0.968"
+      },
+      {
+        "p": "[Improving Image Restoration by Revisiting Global Information Aggregation](https://arxiv.org/abs/2112.04491v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/megvii-research/NAFNet)",
+        "n": "RNN-MBP-Local",
+        "d": "2021-12-08",
+        "m1": "33.8",
+        "m2": "0.966"
+      },
+      {
+        "p": "[Simple Baselines for Image Restoration](https://arxiv.org/abs/2204.04676v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/megvii-research/NAFNet)",
+        "n": "NAFNet",
+        "d": "2022-04-10",
+        "m1": "33.69",
+        "m2": "0.967"
+      },
+      {
+        "p": "[ID-Blau: Image Deblurring by Implicit Diffusion-based reBLurring AUgmentation](https://arxiv.org/abs/2312.10998v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/plusgood-steven/id-blau)",
+        "n": "ID-Blau (Stripformer)",
+        "d": "2023-12-18",
+        "m1": "33.66",
+        "m2": "0.966"
+      },
+      {
+        "p": "[DeblurDiNAT: A Compact Model with Exceptional Generalization and Visual Fidelity on Unseen Domains](https://arxiv.org/abs/2403.13163v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/hanzhouliu/deblurdinat)",
+        "n": "DeblurDiNAT-L",
+        "d": "2024-03-19",
+        "m1": "33.63",
+        "m2": "0.967"
+      },
+      {
+        "p": "[Improving Image Restoration by Revisiting Global Information Aggregation](https://arxiv.org/abs/2112.04491v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/megvii-research/NAFNet)",
+        "n": "Restormer-Local",
+        "d": "2021-12-08",
+        "m1": "33.57",
+        "m2": "0.966"
+      },
+      {
+        "p": "[Intriguing Findings of Frequency Selection for Image Deblurring](https://arxiv.org/abs/2111.11745v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/invokerer/deeprft)",
+        "n": "DeepRFT+",
+        "d": "2021-11-23",
+        "m1": "33.52",
+        "m2": "0.965"
+      },
+      {
+        "p": "[ID-Blau: Image Deblurring by Implicit Diffusion-based reBLurring AUgmentation](https://arxiv.org/abs/2312.10998v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/plusgood-steven/id-blau)",
+        "n": "ID-Blau (Restormer)",
+        "d": "2023-12-18",
+        "m1": "33.51",
+        "m2": "0.965"
+      },
+      {
+        "p": "[MSSNet: Multi-Scale-Stage Network for Single Image Deblurring](https://arxiv.org/abs/2202.09652v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/kky7/MSSNet)",
+        "n": "MSSNet-large",
+        "d": "2022-02-19",
+        "m1": "33.39",
+        "m2": "0.964"
+      },
+      {
+        "p": "[Deep Recurrent Neural Network with Multi-scale Bi-directional Propagation for Video Deblurring](https://arxiv.org/abs/2112.05150v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/xjtu-cvlab-lowlevel/rnn-mbp)",
+        "n": "RNN-MBP",
+        "d": "2021-12-09",
+        "m1": "33.32",
+        "m2": "0.9627"
+      },
+      {
+        "p": "[Improving Image Restoration by Revisiting Global Information Aggregation](https://arxiv.org/abs/2112.04491v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/megvii-research/NAFNet)",
+        "n": "MPRNet-local",
+        "d": "2021-12-08",
+        "m1": "33.31",
+        "m2": "0.964"
+      },
+      {
+        "p": "[Selective Frequency Network for Image Restoration](https://openreview.net/forum?id=tyZ1ChGZIKO)",
+        "c": "[&check;&nbsp;Link](https://github.com/c-yn/SFNet)",
+        "n": "SFNet",
+        "d": "2023-04-13",
+        "m1": "33.27",
+        "m2": "0.963"
+      },
+      {
+        "p": "[Improving Image Restoration by Revisiting Global Information Aggregation](https://arxiv.org/abs/2112.04491v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/megvii-research/NAFNet)",
+        "n": "HINet-local",
+        "d": "2021-12-08",
+        "m1": "33.08",
+        "m2": "0.962"
+      },
+      {
+        "p": "[Stripformer: Strip Transformer for Fast Image Deblurring](https://arxiv.org/abs/2204.04627v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/pp00704831/Stripformer-ECCV-2022-)",
+        "n": "Stripformer",
+        "d": "2022-04-10",
+        "m1": "33.08",
+        "m2": "0.962"
+      },
+      {
+        "p": "[Flow-Guided Sparse Transformer for Video Deblurring](https://arxiv.org/abs/2201.01893v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/linjing7/VR-Baseline)",
+        "n": "FGST",
+        "d": "2022-01-06",
+        "m1": "33.03",
+        "m2": "0.964"
+      },
+      {
+        "p": "[MSSNet: Multi-Scale-Stage Network for Single Image Deblurring](https://arxiv.org/abs/2202.09652v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/kky7/MSSNet)",
+        "n": "MSSNet",
+        "d": "2022-02-19",
+        "m1": "33.01",
+        "m2": "0.961"
+      },
+      {
+        "p": "[Uformer: A General U-Shaped Transformer for Image Restoration](https://arxiv.org/abs/2106.03106v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/ZhendongWang6/Uformer)",
+        "n": "Uformer-B",
+        "d": "2021-06-06",
+        "m1": "32.97",
+        "m2": "0.967"
+      },
+      {
+        "p": "[Restormer: Efficient Transformer for High-Resolution Image Restoration](https://arxiv.org/abs/2111.09881v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/swz30/restormer)",
+        "n": "Restormer",
+        "d": "2021-11-18",
+        "m1": "32.92",
+        "m2": "0.961"
+      },
+      {
+        "p": "[MAXIM: Multi-Axis MLP for Image Processing](https://arxiv.org/abs/2201.02973v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/maxim)",
+        "n": "MAXIM-3S",
+        "d": "2022-01-09",
+        "m1": "32.86"
+      },
+      {
+        "p": "[HINet: Half Instance Normalization Network for Image Restoration](https://arxiv.org/abs/2105.06086v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/megvii-model/HINet)",
+        "n": "HINet",
+        "d": "2021-05-13",
+        "m1": "32.71"
+      },
+      {
+        "p": "[Rethinking Coarse-to-Fine Approach in Single Image Deblurring](https://arxiv.org/abs/2108.05054v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/chosj95/mimo-unet)",
+        "n": "MIMO-UNet++",
+        "d": "2021-08-11",
+        "m1": "32.68",
+        "m2": "0.959"
+      },
+      {
+        "p": "[Multi-Stage Progressive Image Restoration](https://arxiv.org/abs/2102.02808v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/swz30/restormer)",
+        "n": "MPRNet",
+        "d": "2021-02-04",
+        "m1": "32.66",
+        "m2": "0.959"
+      },
+      {
+        "p": "[BANet: Blur-aware Attention Networks for Dynamic Scene Deblurring](https://arxiv.org/abs/2101.07518v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/pp00704831/banet)",
+        "n": "BANet",
+        "d": "2021-01-19",
+        "m1": "32.54",
+        "m2": "0.957"
+      },
+      {
+        "p": "[Spatio-Temporal Deformable Attention Network for Video Deblurring](https://arxiv.org/abs/2207.10852v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/huicongzhang/stdan)",
+        "n": "STDAN",
+        "d": "2022-07-22",
+        "m1": "32.29",
+        "m2": "0.9313"
+      },
+      {
+        "p": "[Blur More To Deblur Better: Multi-Blur2Deblur For Efficient Video Deblurring](https://arxiv.org/abs/2012.12507v1)",
+        "c": "",
+        "n": "MB2D",
+        "d": "2020-12-23",
+        "m1": "32.16",
+        "m2": "0.953"
+      },
+      {
+        "p": "[Motion Deblurring with an Adaptive Network](https://arxiv.org/abs/1903.11394v4)",
+        "c": "",
+        "n": "RADNet",
+        "d": "2019-03-25",
+        "m1": "32.15",
+        "m2": "0.9560"
+      },
+      {
+        "p": "[Spatially-Attentive Patch-Hierarchical Network for Adaptive Motion Deblurring](https://arxiv.org/abs/2004.05343v1)",
+        "c": "",
+        "n": "SAPHNet",
+        "d": "2020-04-11",
+        "m1": "32.02",
+        "m2": "0.953"
+      },
+      {
+        "p": "[MSSNet: Multi-Scale-Stage Network for Single Image Deblurring](https://arxiv.org/abs/2202.09652v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/kky7/MSSNet)",
+        "n": "MSSNet-small",
+        "d": "2022-02-19",
+        "m1": "32.02",
+        "m2": "0.953"
+      },
+      {
+        "p": "[Unsupervised Flow-Aligned Sequence-to-Sequence Learning for Video Restoration](https://arxiv.org/abs/2205.10195v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/linjing7/VR-Baseline)",
+        "n": "S2SVR",
+        "d": "2022-05-20",
+        "m1": "31.82",
+        "m2": "0.923"
+      },
+      {
+        "p": "[Learning Event-Based Motion Deblurring](https://arxiv.org/abs/2004.05794v1)",
+        "c": "",
+        "n": "Learning Event-Based Motion Deblurring",
+        "d": "2020-04-13",
+        "m1": "31.79",
+        "m2": "0.949"
+      },
+      {
+        "p": "[Cascaded Deep Video Deblurring Using Temporal Sharpness Prior](https://arxiv.org/abs/2004.02501v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/csbhr/CDVD-TSP)",
+        "n": "CDVD-TSP",
+        "d": "2020-04-06",
+        "m1": "31.67",
+        "m2": "0.9279"
+      },
+      {
+        "p": "[Dynamic Scene Deblurring With Parameter Selective Sharing and Nested Skip Connections](http://openaccess.thecvf.com/content_CVPR_2019/html/Gao_Dynamic_Scene_Deblurring_With_Parameter_Selective_Sharing_and_Nested_Skip_CVPR_2019_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/firenxygao/deblur)",
+        "n": "SRN+PSS+NSC",
+        "d": "2019-06-01",
+        "m1": "31.58",
+        "m2": "0.9478"
+      },
+      {
+        "p": "[Deep Stacked Hierarchical Multi-patch Network for Image Deblurring](http://arxiv.org/abs/1904.03468v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/HongguangZhang/DMPHN-cvpr19-master)",
+        "n": "DMPHN",
+        "d": "2019-04-06",
+        "m1": "31.50",
+        "m2": " 0.9483"
+      },
+      {
+        "p": "[Multi-Temporal Recurrent Neural Networks For Progressive Non-Uniform Single Image Deblurring With Incremental Temporal Training](https://arxiv.org/abs/1911.07410v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Dong1P/MTRNN)",
+        "n": "MT-RNN",
+        "d": "2019-11-18",
+        "m1": "31.15",
+        "m2": "0.945"
+      },
+      {
+        "p": "[Dark and Bright Channel Prior Embedded Network for Dynamic Scene Deblurring](https://ieeexplore.ieee.org/document/9097949)",
+        "c": "[&check;&nbsp;Link](https://github.com/csjcai/DBCPeNet)",
+        "n": "DBCPeNet",
+        "d": "2020-05-21",
+        "m1": "31.10",
+        "m2": "0.945"
+      },
+      {
+        "p": "[Deblurring by Realistic Blurring](https://arxiv.org/abs/2004.01860v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/HDCVLab/Deblurring-by-Realistic-Blurring)",
+        "n": "DBGAN",
+        "d": "2020-04-04",
+        "m1": "31.10",
+        "m2": "0.9424"
+      },
+      {
+        "p": "[Real-world Video Deblurring: A Benchmark Dataset and An Efficient Recurrent Neural Network](https://arxiv.org/abs/2106.16028v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/zzh-tech/ESTRNN)",
+        "n": "ESTRNN",
+        "d": "2021-06-30",
+        "m1": "31.07",
+        "m2": "0.9023"
+      },
+      {
+        "p": "[Bringing Alive Blurred Moments](http://arxiv.org/abs/1804.02913v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/anshulbshah/Blurred-Image-to-Video)",
+        "n": "Blurred-Image-to-Video",
+        "d": "2018-04-09",
+        "m1": "30.58",
+        "m2": "0.941"
+      },
+      {
+        "p": "[DeblurGAN-v2: Deblurring (Orders-of-Magnitude) Faster and Better](https://arxiv.org/abs/1908.03826v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/kritiksoman/GIMP-ML)",
+        "n": "DeblurGAN-v2",
+        "d": "2019-08-10",
+        "m1": "29.55",
+        "m2": "0.934"
+      },
+      {
+        "p": "[Deep Multi-scale Convolutional Neural Network for Dynamic Scene Deblurring](http://arxiv.org/abs/1612.02177v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/SeungjunNah/DeepDeblur-PyTorch)",
+        "n": "Nah et al",
+        "d": "2016-12-07",
+        "m1": "29.08",
+        "m2": "0.9135"
+      },
+      {
+        "p": "[Application of Ghost-DeblurGAN to Fiducial Marker Detection](https://arxiv.org/abs/2109.03379v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/York-SDCNLab/Ghost-DeblurGAN)",
+        "n": "Ghost-DeblurGAN",
+        "d": "2021-09-08",
+        "m1": "28.75",
+        "m2": "0.919"
+      },
+      {
+        "p": "[Spatio-Temporal Filter Adaptive Network for Video Deblurring](https://arxiv.org/abs/1904.12257v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/sczhou/STFAN)",
+        "n": "STFAN",
+        "d": "2019-04-28",
+        "m1": "28.59",
+        "m2": "0.861"
+      },
+      {
+        "p": "[DeblurGAN-v2: Deblurring (Orders-of-Magnitude) Faster and Better](https://arxiv.org/abs/1908.03826v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/kritiksoman/GIMP-ML)",
+        "n": "DeblurGANv2-MobileNet",
+        "d": "2019-08-10",
+        "m1": "28.17",
+        "m2": "0.925"
+      },
+      {
+        "p": "[DeblurGAN-v2: Deblurring (Orders-of-Magnitude) Faster and Better](https://arxiv.org/abs/1908.03826v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/kritiksoman/GIMP-ML)",
+        "n": "DeblurGANv2-MobileNet-DSC",
+        "d": "2019-08-10",
+        "m1": "28.03",
+        "m2": "0.922"
+      },
+      {
+        "p": "[Scale-recurrent Network for Deep Image Deblurring](http://arxiv.org/abs/1802.01770v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jiangsutx/SRN-Deblur)",
+        "n": "SRN",
+        "d": "2018-02-06",
+        "m2": "0.9342"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

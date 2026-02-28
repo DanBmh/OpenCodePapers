@@ -1,0 +1,180 @@
+{
+  "title": "molecular-property-prediction-on-tox21-1",
+  "task-hierarchy": [
+    "Atomistic Description",
+    "Molecular Property Prediction"
+  ],
+  "dataset-info": {
+    "link": "http://bioinf.jku.at/research/DeepTox/tox21.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "ROC-AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Integrating convolutional layers and biformer network with forward-forward and backpropagation training](https://www.nature.com/articles/s41598-025-92218-y#Abs1)",
+        "c": "[&check;&nbsp;Link](https://github.com/akianfar/Deep-CBN)",
+        "n": "Deep-CBN",
+        "d": "2025-02-28",
+        "m1": "92.4"
+      },
+      {
+        "p": "[BioAct-Het: A Heterogeneous Siamese Neural Network for Bioactivity Prediction Using Novel Bioactivity Representatio](https://pubs.acs.org/doi/full/10.1021/acsomega.3c05778)",
+        "c": "[&check;&nbsp;Link](https://github.com/CBRC-lab/BioAct-Het)",
+        "n": "BioAct-Het",
+        "d": "2023-10-15",
+        "m1": "89.80"
+      },
+      {
+        "p": "[Low Data Drug Discovery with One-shot Learning](http://arxiv.org/abs/1611.03199v1)",
+        "c": "",
+        "n": "IterRefLSTM",
+        "d": "2016-11-10",
+        "m1": "83.00"
+      },
+      {
+        "p": "[Pre-training Graph Neural Networks on Molecules by Using Subgraph-Conditioned Graph Information Bottleneck](https://arxiv.org/abs/2412.15589)",
+        "c": "[&check;&nbsp;Link](https://github.com/NSLab-CUK/S-CGIB)",
+        "n": "S-CGIB",
+        "d": "2025-02-20",
+        "m1": "80.94±0.17"
+      },
+      {
+        "p": "[Uni-Mol: A Universal 3D Molecular Representation Learning Framework](https://chemrxiv.org/engage/chemrxiv/article-details/628e5b4d5d948517f5ce6d72)",
+        "c": "[&check;&nbsp;Link](https://github.com/dptech-corp/Uni-Mol)",
+        "n": "Uni-Mol",
+        "d": "2022-09-08",
+        "m1": "79.6"
+      },
+      {
+        "p": "[Galactica: A Large Language Model for Science](https://arxiv.org/abs/2211.09085v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/paperswithcode/galai)",
+        "n": "Uni-Mol",
+        "d": "2022-11-16",
+        "m1": "79.6"
+      },
+      {
+        "p": "[ChemRL-GEM: Geometry Enhanced Molecular Representation Learning for Property Prediction](https://arxiv.org/abs/2106.06130v4)",
+        "c": "",
+        "n": "ChemRL-GEM",
+        "d": "2021-06-11",
+        "m1": "78.1"
+      },
+      {
+        "p": "[Strategies for Pre-training Graph Neural Networks](https://arxiv.org/abs/1905.12265v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/snap-stanford/pretrain-gnns)",
+        "n": "PretrainGNN",
+        "d": "2019-05-29",
+        "m1": "78.1"
+      },
+      {
+        "p": "[AutoGluon-Tabular: Robust and Accurate AutoML for Structured Data](https://arxiv.org/abs/2003.06505v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/autogluon/autogluon)",
+        "n": "Autogluon",
+        "d": "2020-03-13",
+        "m1": "77.84"
+      },
+      {
+        "p": "[MolXPT: Wrapping Molecules with Text for Generative Pre-training](https://arxiv.org/abs/2305.10688v2)",
+        "c": "[&check;&nbsp;Link](https://huggingface.co/zequnl/molxpt)",
+        "n": "MolXPT",
+        "d": "2023-05-18",
+        "m1": "77.1"
+      },
+      {
+        "p": "[Analyzing Learned Molecular Representations for Property Prediction](https://arxiv.org/abs/1904.01561v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/swansonk14/chemprop)",
+        "n": "D-MPNN",
+        "d": "2019-04-02",
+        "m1": "75.9"
+      },
+      {
+        "p": "[N-Gram Graph: Simple Unsupervised Representation for Graphs, with Applications to Molecules](https://arxiv.org/abs/1806.09206v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/chao1224/n_gram_graph)",
+        "n": "N-GramXGB",
+        "d": "2018-06-24",
+        "m1": "75.8"
+      },
+      {
+        "p": "[N-Gram Graph: Simple Unsupervised Representation for Graphs, with Applications to Molecules](https://arxiv.org/abs/1806.09206v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/chao1224/n_gram_graph)",
+        "n": "N-GramRF",
+        "d": "2018-06-24",
+        "m1": "74.3"
+      },
+      {
+        "p": "[Self-Supervised Graph Transformer on Large-Scale Molecular Data](https://arxiv.org/abs/2007.02835v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/deepchem/deepchem)",
+        "n": "GROVER (base)",
+        "d": "2020-06-18",
+        "m1": "74.3"
+      },
+      {
+        "p": "[Self-Supervised Graph Transformer on Large-Scale Molecular Data](https://arxiv.org/abs/2007.02835v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/deepchem/deepchem)",
+        "n": "GROVER (large)",
+        "d": "2020-06-18",
+        "m1": "73.5"
+      },
+      {
+        "p": "[Galactica: A Large Language Model for Science](https://arxiv.org/abs/2211.09085v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/paperswithcode/galai)",
+        "n": "GAL 120B",
+        "d": "2022-11-16",
+        "m1": "68.9"
+      },
+      {
+        "p": "[Galactica: A Large Language Model for Science](https://arxiv.org/abs/2211.09085v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/paperswithcode/galai)",
+        "n": "GAL 30B",
+        "d": "2022-11-16",
+        "m1": "68.5"
+      },
+      {
+        "p": "[Galactica: A Large Language Model for Science](https://arxiv.org/abs/2211.09085v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/paperswithcode/galai)",
+        "n": "GAL 6.7B",
+        "d": "2022-11-16",
+        "m1": "63.9"
+      },
+      {
+        "p": "[Galactica: A Large Language Model for Science](https://arxiv.org/abs/2211.09085v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/paperswithcode/galai)",
+        "n": "GAL 1.3B",
+        "d": "2022-11-16",
+        "m1": "60.6"
+      },
+      {
+        "p": "[Galactica: A Large Language Model for Science](https://arxiv.org/abs/2211.09085v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/paperswithcode/galai)",
+        "n": "GAL 125M",
+        "d": "2022-11-16",
+        "m1": "54.3"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

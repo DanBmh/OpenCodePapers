@@ -1,0 +1,149 @@
+{
+  "title": "camouflaged-object-segmentation-on-pcod-1200",
+  "task-hierarchy": [
+    "Object Detection",
+    "Camouflaged Object Segmentation"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "S-Measure",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[CMX: Cross-Modal Fusion for RGB-X Semantic Segmentation with Transformers](https://arxiv.org/abs/2203.04838v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/huaaaliu/rgbx_semantic_segmentation)",
+        "n": "CMX",
+        "d": "2022-03-09",
+        "m1": "0.922"
+      },
+      {
+        "p": "[Glass Segmentation Using Intensity and Spectral Polarization Cues](http://openaccess.thecvf.com//content/CVPR2022/html/Mei_Glass_Segmentation_Using_Intensity_and_Spectral_Polarization_Cues_CVPR_2022_paper.html)",
+        "c": "",
+        "n": "PGSNet",
+        "d": "2022-01-01",
+        "m1": "0.916"
+      },
+      {
+        "p": "[PraNet: Parallel Reverse Attention Network for Polyp Segmentation](https://arxiv.org/abs/2006.11392v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/DengPingFan/PraNet)",
+        "n": "PraNet",
+        "d": "2020-06-13",
+        "m1": "0.904"
+      },
+      {
+        "p": "[Zoom In and Out: A Mixed-scale Triplet Network for Camouflaged Object Detection](https://arxiv.org/abs/2203.02688v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/lartpang/zoomnet)",
+        "n": "ZoomNet",
+        "d": "2022-03-05",
+        "m1": "0.897"
+      },
+      {
+        "p": "[Camouflaged Object Detection via Context-aware Cross-level Fusion](https://arxiv.org/abs/2207.13362v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/thograce/C2FNet)",
+        "n": "C2FNet-V2",
+        "d": "2022-07-27",
+        "m1": "0.895"
+      },
+      {
+        "p": "[Context-aware Cross-level Fusion Network for Camouflaged Object Detection](https://arxiv.org/abs/2105.12555v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/thograce/bgnet)",
+        "n": "C2FNet",
+        "d": "2021-05-26",
+        "m1": "0.893"
+      },
+      {
+        "p": "[Simultaneously Localize, Segment and Rank the Camouflaged Objects](https://arxiv.org/abs/2103.04011v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/JingZhang617/COD-Rank-Localize-and-Segment)",
+        "n": "LSR",
+        "d": "2021-03-06",
+        "m1": "0.888"
+      },
+      {
+        "p": "[F3Net: Fusion, Feedback and Focus for Salient Object Detection](https://arxiv.org/abs/1911.11445v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/weijun88/F3Net)",
+        "n": "F3Net",
+        "d": "2019-11-26",
+        "m1": "0.885"
+      },
+      {
+        "p": "[Concealed Object Detection](https://arxiv.org/abs/2102.10274v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/GewelsJI/SINet-V2)",
+        "n": "SINet-V2",
+        "d": "2021-02-20",
+        "m1": "0.882"
+      },
+      {
+        "p": "[Camouflaged Object Segmentation with Distraction Mining](https://arxiv.org/abs/2104.10475v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Mhaiyang/CVPR2021_PFNet)",
+        "n": "PFNet",
+        "d": "2021-04-21",
+        "m1": "0.873"
+      },
+      {
+        "p": "[Camouflaged Object Detection](http://openaccess.thecvf.com/content_CVPR_2020/html/Fan_Camouflaged_Object_Detection_CVPR_2020_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/DengPingFan/SINet)",
+        "n": "SINet-V1",
+        "d": "2020-06-01",
+        "m1": "0.862"
+      },
+      {
+        "p": "[EGNet: Edge Guidance Network for Salient Object Detection](http://openaccess.thecvf.com/content_ICCV_2019/html/Zhao_EGNet_Edge_Guidance_Network_for_Salient_Object_Detection_ICCV_2019_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/mindspore-ai/models/tree/master/research/cv/EGnet)",
+        "n": "EGNet",
+        "d": "2019-10-01",
+        "m1": "0.861"
+      },
+      {
+        "p": "[Cascaded Partial Decoder for Fast and Accurate Salient Object Detection](http://arxiv.org/abs/1904.08739v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/wuzhe71/CPD)",
+        "n": "CPD",
+        "d": "2019-04-18",
+        "m1": "0.855"
+      },
+      {
+        "p": "[BASNet: Boundary-Aware Salient Object Detection](http://openaccess.thecvf.com/content_CVPR_2019/html/Qin_BASNet_Boundary-Aware_Salient_Object_Detection_CVPR_2019_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/NathanUA/BASNet)",
+        "n": "BASNet",
+        "d": "2019-06-01",
+        "m1": "0.837"
+      },
+      {
+        "p": "[Fast Camouflaged Object Detection via Edge-based Reversible Re-calibration Network](https://arxiv.org/abs/2111.03216v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/gewelsji/errnet)",
+        "n": "ERRNet",
+        "d": "2021-11-05",
+        "m1": "0.833"
+      },
+      {
+        "p": "[UNet++: A Nested U-Net Architecture for Medical Image Segmentation](http://arxiv.org/abs/1807.10165v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/qubvel/segmentation_models.pytorch)",
+        "n": "UNet++",
+        "d": "2018-07-18",
+        "m1": "0.801"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

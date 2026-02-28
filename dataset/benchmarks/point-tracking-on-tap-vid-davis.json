@@ -1,0 +1,73 @@
+{
+  "title": "point-tracking-on-tap-vid-davis",
+  "task-hierarchy": [
+    "Point Tracking"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Average Jaccard",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Average PCK",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Occlusion Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Local All-Pair Correspondence for Point Tracking](https://arxiv.org/abs/2407.15420v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/cvlab-kaist/locotrack)",
+        "n": "LocoTrack-B",
+        "d": "2024-07-22",
+        "m1": "69.4",
+        "m2": "81.3",
+        "m3": "88.6"
+      },
+      {
+        "p": "[BootsTAP: Bootstrapped Training for Tracking-Any-Point](https://arxiv.org/abs/2402.00847v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-deepmind/tapnet)",
+        "n": "BootsTAPIR",
+        "d": "2024-02-01",
+        "m1": "66.2",
+        "m2": "78.1",
+        "m3": "91"
+      },
+      {
+        "p": "[CoTracker: It is Better to Track Together](https://arxiv.org/abs/2307.07635v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/co-tracker)",
+        "n": "CoTracker",
+        "d": "2023-07-14",
+        "m1": "65.9",
+        "m2": "79.4",
+        "m3": "89.9"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

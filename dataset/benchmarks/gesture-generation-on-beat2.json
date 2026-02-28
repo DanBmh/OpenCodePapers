@@ -1,0 +1,138 @@
+{
+  "title": "gesture-generation-on-beat2",
+  "task-hierarchy": [
+    "3D Shape Generation",
+    "Gesture Generation"
+  ],
+  "dataset-info": {
+    "link": "https://pantomatrix.github.io/EMAGE/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "FGD",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Intentional Gesture: Deliver Your Intentions with Gestures for Speech](https://arxiv.org/abs/2505.15197v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/andypinxinliu/Intentional-Gesture)",
+        "n": "Intentional Gesture",
+        "d": "2025-05-21",
+        "m1": "0.3790"
+      },
+      {
+        "p": "[GestureLSM: Latent Shortcut based Co-Speech Gesture Generation with Spatial-Temporal Modeling](https://arxiv.org/abs/2501.18898v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/andypinxinliu/GestureLSM)",
+        "n": "GestureLSM",
+        "d": "2025-01-31",
+        "m1": "0.4040"
+      },
+      {
+        "p": "[SemTalk: Holistic Co-speech Motion Generation with Frame-level Semantic Emphasis](https://arxiv.org/abs/2412.16563v2)",
+        "c": "",
+        "n": "SemTalk",
+        "d": "2024-12-21",
+        "m1": "0.4278"
+      },
+      {
+        "p": "[Contextual Gesture: Co-Speech Gesture Video Generation through Context-aware Gesture Representation](https://arxiv.org/abs/2502.07239v1)",
+        "c": "",
+        "n": "Contexual Gesture",
+        "d": "2025-02-11",
+        "m1": "0.4434"
+      },
+      {
+        "p": "[EchoMask: Speech-Queried Attention-based Mask Modeling for Holistic Co-Speech Motion Generation](https://arxiv.org/abs/2504.09209v2)",
+        "c": "",
+        "n": "EchoMask",
+        "d": "2025-04-12",
+        "m1": "0.4623"
+      },
+      {
+        "p": "[Enabling Synergistic Full-Body Control in Prompt-Based Co-Speech Motion Generation](https://arxiv.org/abs/2410.00464v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/RobinWitch/SynTalker)",
+        "n": "Syntalker",
+        "d": "2024-10-01",
+        "m1": "0.4687"
+      },
+      {
+        "p": "[MambaTalk: Efficient Holistic Gesture Synthesis with Selective State Space Models](https://arxiv.org/abs/2403.09471v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/kkakkkka/MambaTalk)",
+        "n": "MambaTalk",
+        "d": "2024-03-14",
+        "m1": "0.5366"
+      },
+      {
+        "p": "[EMAGE: Towards Unified Holistic Co-Speech Gesture Generation via Expressive Masked Audio Gesture Modeling](https://arxiv.org/abs/2401.00374v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/PantoMatrix/PantoMatrix)",
+        "n": "EMAGE",
+        "d": "2023-12-31",
+        "m1": "0.5512"
+      },
+      {
+        "p": "[Generating Holistic 3D Human Motion from Speech](https://arxiv.org/abs/2212.04420v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/yhw-yhw/talkshow)",
+        "n": "TalkShow",
+        "d": "2022-12-08",
+        "m1": "0.6209"
+      },
+      {
+        "p": "[BEAT: A Large-Scale Semantic and Emotional Multi-Modal Dataset for Conversational Gestures Synthesis](https://arxiv.org/abs/2203.05297v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/PantoMatrix/PantoMatrix)",
+        "n": "CaMN",
+        "d": "2022-03-10",
+        "m1": "0.6644"
+      },
+      {
+        "p": "[Learning Speech-driven 3D Conversational Gestures from Video](https://arxiv.org/abs/2102.06837v1)",
+        "c": "",
+        "n": "Habibie",
+        "d": "2021-02-13",
+        "m1": "0.9040"
+      },
+      {
+        "p": "[Learning Hierarchical Cross-Modal Association for Co-Speech Gesture Generation](https://arxiv.org/abs/2203.13161v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/alvinliu0/HA2G)",
+        "n": "HA2G",
+        "d": "2022-03-24",
+        "m1": "1.232"
+      },
+      {
+        "p": "[Speech Gesture Generation from the Trimodal Context of Text, Audio, and Speaker Identity](https://arxiv.org/abs/2009.02119v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ai4r/Gesture-Generation-from-Trimodal-Context)",
+        "n": "Trimodal",
+        "d": "2020-09-04",
+        "m1": "1.241"
+      },
+      {
+        "p": "[Learning Individual Styles of Conversational Gesture](https://arxiv.org/abs/1906.04160v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/amirbar/speech2gesture)",
+        "n": "S2G",
+        "d": "2019-06-10",
+        "m1": "2.815"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

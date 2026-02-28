@@ -1,0 +1,76 @@
+{
+  "title": "video-reconstruction-on-mvsec",
+  "task-hierarchy": [
+    "Video Reconstruction"
+  ],
+  "dataset-info": {
+    "link": "https://daniilidis-group.github.io/mvsec/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Mean Squared Error",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "LPIPS",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[HyperE2VID: Improving Event-Based Video Reconstruction via Hypernetworks](https://arxiv.org/abs/2305.06382v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/ercanburak/HyperE2VID)",
+        "n": "HyperE2VID",
+        "d": "2023-05-10",
+        "m1": "0.076",
+        "m2": "0.476"
+      },
+      {
+        "p": "[Event-Based Video Reconstruction Using Transformer](http://openaccess.thecvf.com//content/ICCV2021/html/Weng_Event-Based_Video_Reconstruction_Using_Transformer_ICCV_2021_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/warranweng/et-net)",
+        "n": "ET-Net",
+        "d": "2021-01-01",
+        "m1": "0.107",
+        "m2": "0.489"
+      },
+      {
+        "p": "[Reducing the Sim-to-Real Gap for Event Cameras](https://arxiv.org/abs/2003.09078v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/TimoStoff/event_cnn_minimal)",
+        "n": "E2VID+",
+        "d": "2020-03-20",
+        "m1": "0.132",
+        "m2": "0.514"
+      },
+      {
+        "p": "[High Speed and High Dynamic Range Video with an Event Camera](https://arxiv.org/abs/1906.07165v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/uzh-rpg/rpg_e2vid)",
+        "n": "E2VID",
+        "d": "2019-06-15",
+        "m1": "0.225",
+        "m2": "0.644"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

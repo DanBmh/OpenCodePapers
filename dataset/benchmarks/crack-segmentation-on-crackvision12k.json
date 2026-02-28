@@ -1,0 +1,68 @@
+{
+  "title": "crack-segmentation-on-crackvision12k",
+  "task-hierarchy": [
+    "Semantic Segmentation",
+    "Crack Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://rdr.ucl.ac.uk/articles/dataset/CrackVision12K/26946472?file=49023628"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Hybrid-Segmentor: A Hybrid Approach to Automated Fine-Grained Crack Segmentation in Civil Infrastructure](https://arxiv.org/abs/2409.02866v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/junegoo94/Hybrid-Segmentor)",
+        "n": "Hybrid-Segmentor",
+        "d": "2024-09-04",
+        "m1": "0.62982"
+      },
+      {
+        "p": "[U-Net: Convolutional Networks for Biomedical Image Segmentation](http://arxiv.org/abs/1505.04597v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+        "n": "UNet",
+        "d": "2015-05-18",
+        "m1": "0.60333"
+      },
+      {
+        "p": "[Fully Convolutional Networks for Semantic Segmentation](http://arxiv.org/abs/1411.4038v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/pochih/fcn-pytorch)",
+        "n": "FCN",
+        "d": "2014-11-14",
+        "m1": "0.59842"
+      },
+      {
+        "p": "[SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers](https://arxiv.org/abs/2105.15203v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "SegFormer",
+        "d": "2021-05-31",
+        "m1": "0.57969"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

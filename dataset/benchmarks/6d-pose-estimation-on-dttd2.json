@@ -1,0 +1,131 @@
+{
+  "title": "6d-pose-estimation-on-dttd2",
+  "task-hierarchy": [
+    "Pose Estimation",
+    "6D Pose Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://openark-berkeley.github.io/DTTDNet/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "ADD AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "ADD-S AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "AR CoU",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "AR CH",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "AR pCH",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Robust 6DoF Pose Estimation Against Depth Noise and a Comprehensive Evaluation on a Mobile Dataset](https://arxiv.org/abs/2309.13570v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/augcog/dttdv1)",
+        "n": "DTTDNet",
+        "d": "2023-09-24",
+        "m1": "73.99",
+        "m2": "88.10"
+      },
+      {
+        "p": "[MegaPose: 6D Pose Estimation of Novel Objects via Render & Compare](https://arxiv.org/abs/2212.06870v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/megapose6d/megapose6d)",
+        "n": "MegaPose-RGBD (refined)",
+        "d": "2022-12-13",
+        "m1": "49.02",
+        "m2": "62.44",
+        "m3": "17.73",
+        "m4": "8.77",
+        "m5": "57"
+      },
+      {
+        "p": "[BundleSDF: Neural 6-DoF Tracking and 3D Reconstruction of Unknown Objects](https://arxiv.org/abs/2303.14158v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/NVlabs/BundleSDF)",
+        "n": "BundleSDF",
+        "d": "2023-03-24",
+        "m1": "46.86",
+        "m2": "55.74"
+      },
+      {
+        "p": "[ES6D: A Computation Efficient and Symmetry-Aware 6D Pose Regression Framework](https://arxiv.org/abs/2204.01080v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ganwanshui/es6d)",
+        "n": "ES6D",
+        "d": "2022-04-03",
+        "m1": "13.25",
+        "m2": "37.38"
+      },
+      {
+        "p": "[6D Object Pose Tracking in Internet Videos for Robotic Manipulation](https://arxiv.org/abs/2503.10307v1)",
+        "c": "",
+        "n": "6D OBJECT POSE TRACKING IN INTERNET VIDEOS\nFOR ROBOTIC MANIPULATION",
+        "d": "2025-03-13",
+        "m3": "52.10",
+        "m4": "12.68",
+        "m5": "76.54"
+      },
+      {
+        "p": "[GigaPose: Fast and Robust Novel Object Pose Estimation via One Correspondence](https://arxiv.org/abs/2311.14155v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/nv-nguyen/gigapose)",
+        "n": "GigaPose",
+        "d": "2023-11-23",
+        "m3": "39.32",
+        "m4": "12.16",
+        "m5": "74"
+      },
+      {
+        "p": "[FoundPose: Unseen Object Pose Estimation with Foundation Features](https://arxiv.org/abs/2311.18809v2)",
+        "c": "",
+        "n": "FoundPose",
+        "d": "2023-11-30",
+        "m3": "31.32",
+        "m4": "11.41",
+        "m5": "69.44"
+      },
+      {
+        "p": "[MegaPose: 6D Pose Estimation of Novel Objects via Render & Compare](https://arxiv.org/abs/2212.06870v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/megapose6d/megapose6d)",
+        "n": "MegaPose-RGBD (Coarse)",
+        "d": "2022-12-13",
+        "m3": "13.72",
+        "m4": "6.67",
+        "m5": "58.05"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

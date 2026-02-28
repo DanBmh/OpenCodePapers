@@ -1,0 +1,83 @@
+{
+  "title": "visual-question-answering-on-vqa-v2-test-std-1",
+  "task-hierarchy": [
+    "Visual Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://visualqa.org/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "number",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "other",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "overall",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "yes/no",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[LXMERT Model Compression for Visual Question Answering](https://arxiv.org/abs/2310.15325v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ghazaleh-mahmoodi/lxmert_compression)",
+        "n": "LXMERT (low-magnitude pruning)",
+        "d": "2023-10-23",
+        "m1": "70.87"
+      },
+      {
+        "p": "[OFA: Unifying Architectures, Tasks, and Modalities Through a Simple Sequence-to-Sequence Learning Framework](https://arxiv.org/abs/2202.03052v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/modelscope/modelscope)",
+        "n": "OFA",
+        "d": "2022-02-07",
+        "m2": "71.44",
+        "m3": "73.35",
+        "m4": "81.98",
+        "m5": "94.66"
+      },
+      {
+        "p": "[Florence: A New Foundation Model for Computer Vision](https://arxiv.org/abs/2111.11432v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/microsoft/unicl)",
+        "n": "Florence",
+        "d": "2021-11-22",
+        "m4": "80.36"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

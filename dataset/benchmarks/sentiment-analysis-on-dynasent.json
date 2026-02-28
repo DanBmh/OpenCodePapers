@@ -1,0 +1,128 @@
+{
+  "title": "sentiment-analysis-on-dynasent",
+  "task-hierarchy": [
+    "Sentiment Analysis"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/cgpotts/dynasent"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Macro F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "10 fold Cross validation",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[ELECTRA and GPT-4o: Cost-Effective Partners for Sentiment Analysis](https://arxiv.org/abs/2501.00062v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/jbeno/sentiment)",
+        "n": "GPT-4o Fine-Tuned (Minimal)",
+        "d": "2024-12-29",
+        "m1": "89"
+      },
+      {
+        "p": "[ELECTRA and GPT-4o: Cost-Effective Partners for Sentiment Analysis](https://arxiv.org/abs/2501.00062v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/jbeno/sentiment)",
+        "n": "GPT-4o-mini Fine-Tuned",
+        "d": "2024-12-29",
+        "m1": "86.9"
+      },
+      {
+        "p": "[ELECTRA and GPT-4o: Cost-Effective Partners for Sentiment Analysis](https://arxiv.org/abs/2501.00062v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/jbeno/sentiment)",
+        "n": "GPT-4o + ELECTRA Large FT (Prompt, Label, Examples)",
+        "d": "2024-12-29",
+        "m1": "81.53"
+      },
+      {
+        "p": "[ELECTRA and GPT-4o: Cost-Effective Partners for Sentiment Analysis](https://arxiv.org/abs/2501.00062v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/jbeno/sentiment)",
+        "n": "GPT-4o (Prompt)",
+        "d": "2024-12-29",
+        "m1": "80.22"
+      },
+      {
+        "p": "[ELECTRA and GPT-4o: Cost-Effective Partners for Sentiment Analysis](https://arxiv.org/abs/2501.00062v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/jbeno/sentiment)",
+        "n": "GPT-4o-mini + ELECTRA Large FT (Prompt, Label, Probabilities)",
+        "d": "2024-12-29",
+        "m1": "79.72"
+      },
+      {
+        "p": "[ELECTRA and GPT-4o: Cost-Effective Partners for Sentiment Analysis](https://arxiv.org/abs/2501.00062v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/jbeno/sentiment)",
+        "n": "GPT-4o-mini + ELECTRA Large FT (Prompt, Label)",
+        "d": "2024-12-29",
+        "m1": "77.94"
+      },
+      {
+        "p": "[ELECTRA and GPT-4o: Cost-Effective Partners for Sentiment Analysis](https://arxiv.org/abs/2501.00062v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/jbeno/sentiment)",
+        "n": "GPT-4o + ELECTRA Large FT",
+        "d": "2024-12-29",
+        "m1": "77.69"
+      },
+      {
+        "p": "[ELECTRA and GPT-4o: Cost-Effective Partners for Sentiment Analysis](https://arxiv.org/abs/2501.00062v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/jbeno/sentiment)",
+        "n": "GPT-4o-mini (Prompt)",
+        "d": "2024-12-29",
+        "m1": "77.35"
+      },
+      {
+        "p": "[ELECTRA and GPT-4o: Cost-Effective Partners for Sentiment Analysis](https://arxiv.org/abs/2501.00062v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/jbeno/sentiment)",
+        "n": "ELECTRA Large Fine-Tuned",
+        "d": "2024-12-29",
+        "m1": "76.29"
+      },
+      {
+        "p": "[ELECTRA and GPT-4o: Cost-Effective Partners for Sentiment Analysis](https://arxiv.org/abs/2501.00062v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/jbeno/sentiment)",
+        "n": "GPT-4o-mini + ELECTRA Base FT",
+        "d": "2024-12-29",
+        "m1": "76.19"
+      },
+      {
+        "p": "[ELECTRA and GPT-4o: Cost-Effective Partners for Sentiment Analysis](https://arxiv.org/abs/2501.00062v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/jbeno/sentiment)",
+        "n": "ELECTRA Base Fine-Tuned",
+        "d": "2024-12-29",
+        "m1": "71.83"
+      },
+      {
+        "p": "[Arabic Multi-Dialect Segmentation: bi-LSTM-CRF vs. SVM](http://arxiv.org/abs/1708.05891v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/qcri/dialectal_arabic_tools)",
+        "n": "SVM",
+        "d": "2017-08-19",
+        "m2": "1"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "title": "small-data-image-classification-on-cifar-10",
+  "task-hierarchy": [
+    "Image Classification",
+    "Small Data Image Classification"
+  ],
+  "dataset-info": {
+    "link": "https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[ChimeraMix: Image Classification on Small Datasets via Masked Feature Mixing](https://arxiv.org/abs/2202.11616v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/creinders/chimeramix)",
+        "n": "ChimeraMix+AutoAugment",
+        "d": "2022-02-23",
+        "m1": "70.09"
+      },
+      {
+        "p": "[ChimeraMix: Image Classification on Small Datasets via Masked Feature Mixing](https://arxiv.org/abs/2202.11616v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/creinders/chimeramix)",
+        "n": "ChimeraMix",
+        "d": "2022-02-23",
+        "m1": "67.3"
+      },
+      {
+        "p": "[Parametric Scattering Networks](https://arxiv.org/abs/2107.09539v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/bentherien/ParametricScatteringNetworks)",
+        "n": "LearnableScatteringNetwork+WRN",
+        "d": "2021-07-20",
+        "m1": "63.13"
+      },
+      {
+        "p": "[Parametric Scattering Networks](https://arxiv.org/abs/2107.09539v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/bentherien/ParametricScatteringNetworks)",
+        "n": "WRN",
+        "d": "2021-07-20",
+        "m1": "62.97"
+      },
+      {
+        "p": "[Parametric Scattering Networks](https://arxiv.org/abs/2107.09539v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/bentherien/ParametricScatteringNetworks)",
+        "n": "FixedScatteringNetwork+WRN",
+        "d": "2021-07-20",
+        "m1": "61.66"
+      },
+      {
+        "p": "[Generative Latent Implicit Conditional Optimization when Learning from Small Sample](https://arxiv.org/abs/2003.14297v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/IdanAzuri/glico-learning-small-sample)",
+        "n": "GLICO",
+        "d": "2020-03-31",
+        "m1": "56.22"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

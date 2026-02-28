@@ -1,0 +1,67 @@
+{
+  "title": "program-repair-on-deepfix",
+  "task-hierarchy": [
+    "Program Repair"
+  ],
+  "dataset-info": {
+    "link": "https://bitbucket.org/iiscseal/deepfix"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Average Success Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Break-It-Fix-It: Unsupervised Learning for Program Repair](https://arxiv.org/abs/2106.06600v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/michiyasunaga/bifi)",
+        "n": "DrRepair + BIFI",
+        "d": "2021-06-11",
+        "m1": "71.7"
+      },
+      {
+        "p": "[Graph-based, Self-Supervised Program Repair from Diagnostic Feedback](https://arxiv.org/abs/2005.10636v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/michiyasunaga/DrRepair)",
+        "n": "DrRepair",
+        "d": "2020-05-20",
+        "m1": "68.2"
+      },
+      {
+        "p": "[SampleFix: Learning to Generate Functionally Diverse Fixes](https://arxiv.org/abs/1906.10502v3)",
+        "c": "",
+        "n": "SampleFix",
+        "d": "2019-06-24",
+        "m1": "45.3"
+      },
+      {
+        "p": "[Deep Reinforcement Learning for Programming Language Correction](http://arxiv.org/abs/1801.10467v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/terne/dtuproject)",
+        "n": "RLAssist",
+        "d": "2018-01-31",
+        "m1": "26.6"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "title": "panoptic-segmentation-on-cityscapes-test",
+  "task-hierarchy": [
+    "Panoptic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://www.cityscapes-dataset.com/dataset-overview/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PQ",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[OneFormer: One Transformer to Rule Universal Image Segmentation](https://arxiv.org/abs/2211.06220v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "OneFormer (ConvNeXt-L, single-scale, Mapillary Vistas-Pretrained)",
+        "d": "2022-11-10",
+        "m1": "68.0"
+      },
+      {
+        "p": "[Scaling Wide Residual Networks for Panoptic Segmentation](https://arxiv.org/abs/2011.11675v2)",
+        "c": "",
+        "n": "Panoptic-DeepLab (SWideRNet [1, 1, 4.5], Mapillary, multi-scale)",
+        "d": "2020-11-23",
+        "m1": "67.8"
+      },
+      {
+        "p": "[EfficientPS: Efficient Panoptic Segmentation](https://arxiv.org/abs/2004.02307v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/DeepSceneSeg/EfficientPS)",
+        "n": "EfficientPS",
+        "d": "2020-04-05",
+        "m1": "67.1"
+      },
+      {
+        "p": "[Axial-DeepLab: Stand-Alone Axial-Attention for Panoptic Segmentation](https://arxiv.org/abs/2003.07853v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/The-AI-Summer/self_attention)",
+        "n": "Axial-DeepLab-XL (Mapillary Vistas, multi-scale)",
+        "d": "2020-03-17",
+        "m1": "66.6"
+      },
+      {
+        "p": "[kMaX-DeepLab: k-means Mask Transformer](https://arxiv.org/abs/2207.04044v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/deeplab2)",
+        "n": "kMaX-DeepLab (single-scale)",
+        "d": "2022-07-08",
+        "m1": "66.2"
+      },
+      {
+        "p": "[Panoptic-DeepLab: A Simple, Strong, and Fast Baseline for Bottom-Up Panoptic Segmentation](https://arxiv.org/abs/1911.10194v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/official/projects/panoptic)",
+        "n": "Panoptic-Deeplab",
+        "d": "2019-11-22",
+        "m1": "65.5"
+      },
+      {
+        "p": "[EfficientPS: Efficient Panoptic Segmentation](https://arxiv.org/abs/2004.02307v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/DeepSceneSeg/EfficientPS)",
+        "n": "EfficientPS (Cityscapes-fine)",
+        "d": "2020-04-05",
+        "m1": "62.9"
+      },
+      {
+        "p": "[SOGNet: Scene Overlap Graph Network for Panoptic Segmentation](https://arxiv.org/abs/1911.07527v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/LaoYang1994/SOGNet)",
+        "n": "SOGNet (ResNet-50)",
+        "d": "2019-11-18",
+        "m1": "60"
+      },
+      {
+        "p": "[Combinatorial Optimization for Panoptic Segmentation: A Fully Differentiable Approach](https://arxiv.org/abs/2106.03188v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/LPMP/LPMP)",
+        "n": "COPS (ResNet-50)",
+        "d": "2021-06-06",
+        "m1": "60"
+      },
+      {
+        "p": "[Pixelwise Instance Segmentation with a Dynamically Instantiated Network](http://arxiv.org/abs/1704.02386v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/hmph/dynamically-instantiated-network)",
+        "n": "Dynamically Instantiated Network",
+        "d": "2017-04-07",
+        "m1": "55.4"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

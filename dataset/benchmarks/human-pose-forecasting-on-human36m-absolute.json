@@ -1,0 +1,194 @@
+{
+  "title": "human-pose-forecasting-on-human36m-absolute",
+  "task-hierarchy": [
+    "Pose Estimation",
+    "Human Pose Forecasting"
+  ],
+  "dataset-info": {
+    "link": "https://gitlab.com/Percipiote/Scriboora#data"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Average MPJPE (mm) @ 1000 ms",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Scriboora: Rethinking Human Pose Forecasting](https://arxiv.org/pdf/2511.15565)",
+        "c": "[&check;&nbsp;Link](https://gitlab.com/Percipiote/Scriboora)",
+        "n": "MotionConformer",
+        "d": "2025-11-19",
+        "m1": "143"
+      },
+      {
+        "p": "[Conformer: Convolution-augmented Transformer for Speech Recognition](https://arxiv.org/pdf/2005.08100)",
+        "c": "[&check;&nbsp;Link](https://gitlab.com/Percipiote/Scriboora)",
+        "n": "Conformer",
+        "d": "2020-05-16",
+        "m1": "147"
+      },
+      {
+        "p": "[EqMotion: Equivariant Multi-agent Motion Prediction with Invariant Interaction Reasoning](https://arxiv.org/abs/2303.10876v2)",
+        "c": "[&check;&nbsp;Link](https://gitlab.com/Percipiote/PoseForecastWrappers)",
+        "n": "EqMotion",
+        "d": "2023-03-20",
+        "m1": "148"
+      },
+      {
+        "p": "[Squeezeformer: An Efficient Transformer for Automatic Speech Recognition](https://proceedings.neurips.cc/paper_files/paper/2022/file/3ccf6da39eeb8fefc8bbb1b0124adbd1-Paper-Conference.pdf)",
+        "c": "[&check;&nbsp;Link](https://gitlab.com/Percipiote/Scriboora)",
+        "n": "Squeezeformer",
+        "d": "2022-10-31",
+        "m1": "149"
+      },
+      {
+        "p": "[Efficient Multi-Person Motion Prediction by Lightweight Spatial and Temporal Interactions](https://openaccess.thecvf.com/content/ICCV2025/papers/Zheng_Efficient_Multi-Person_Motion_Prediction_by_Lightweight_Spatial_and_Temporal_Interactions_ICCV_2025_paper.pdf)",
+        "c": "[&check;&nbsp;Link](https://gitlab.com/Percipiote/PoseForecastWrappers)",
+        "n": "EMPMP",
+        "d": "2025-10-19",
+        "m1": "150"
+      },
+      {
+        "p": "[Multi-person Pose Forecasting with Individual Interaction Perceptron and Prior Learning](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/02808.pdf)",
+        "c": "[&check;&nbsp;Link](https://gitlab.com/Percipiote/PoseForecastWrappers)",
+        "n": "IAFormer",
+        "d": "2024-09-30",
+        "m1": "158"
+      },
+      {
+        "p": "[DeformMLP: Dynamic Large-Scale Receptive Field MLP Networks for Human Motion Prediction](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10447880)",
+        "c": "[&check;&nbsp;Link](https://gitlab.com/Percipiote/PoseForecastWrappers)",
+        "n": "DeformMLP",
+        "d": "2024-04-14",
+        "m1": "159"
+      },
+      {
+        "p": "[Joint-Relation Transformer for Multi-Person Motion Prediction](https://openaccess.thecvf.com/content/ICCV2023/papers/Xu_Joint-Relation_Transformer_for_Multi-Person_Motion_Prediction_ICCV_2023_paper.pdf)",
+        "c": "[&check;&nbsp;Link](https://gitlab.com/Percipiote/PoseForecastWrappers)",
+        "n": "JRTransformer",
+        "d": "2023-08-09",
+        "m1": "159"
+      },
+      {
+        "p": "[Auxiliary Tasks Benefit 3D Skeleton-based Human Motion Prediction](https://arxiv.org/abs/2308.08942v1)",
+        "c": "[&check;&nbsp;Link](https://gitlab.com/Percipiote/PoseForecastWrappers)",
+        "n": "AuxFormer",
+        "d": "2023-08-17",
+        "m1": "164"
+      },
+      {
+        "p": "[Quartznet: Deep Automatic Speech Recognition with 1D Time-Channel Separable Convolutions](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9053889)",
+        "c": "[&check;&nbsp;Link](https://gitlab.com/Percipiote/Scriboora)",
+        "n": "Quartznet",
+        "d": "2020-05-04",
+        "m1": "168"
+      },
+      {
+        "p": "[MotionMixer: MLP-based 3D Human Body Pose Forecasting](https://arxiv.org/abs/2207.00499v1)",
+        "c": "[&check;&nbsp;Link](https://gitlab.com/Percipiote/PoseForecastWrappers)",
+        "n": "MotionMixer",
+        "d": "2022-07-01",
+        "m1": "168"
+      },
+      {
+        "p": "[GCNext: Towards the Unity of Graph Convolutions for Human Motion Prediction](https://arxiv.org/abs/2312.11850v1)",
+        "c": "[&check;&nbsp;Link](https://gitlab.com/Percipiote/PoseForecastWrappers)",
+        "n": "GCNext",
+        "d": "2023-12-19",
+        "m1": "175"
+      },
+      {
+        "p": "[Back to MLP: A Simple Baseline for Human Motion Prediction](https://arxiv.org/abs/2207.01567v3)",
+        "c": "[&check;&nbsp;Link](https://gitlab.com/Percipiote/PoseForecastWrappers)",
+        "n": "siMLPe",
+        "d": "2022-07-04",
+        "m1": "178"
+      },
+      {
+        "p": "[SoMoFormer: Multi-Person Pose Forecasting with Transformers](https://arxiv.org/pdf/2208.14023)",
+        "c": "[&check;&nbsp;Link](https://gitlab.com/Percipiote/PoseForecastWrappers)",
+        "n": "SoMoFormer",
+        "d": "2022-08-30",
+        "m1": "179"
+      },
+      {
+        "p": "[A generic diffusion-based approach for 3D human pose prediction in the wild](https://arxiv.org/pdf/2210.05669)",
+        "c": "[&check;&nbsp;Link](https://gitlab.com/Percipiote/PoseForecastWrappers)",
+        "n": "DePOSit",
+        "d": "2022-10-11",
+        "m1": "197"
+      },
+      {
+        "p": "[Deep Speech: Scaling up end-to-end speech recognition](https://arxiv.org/pdf/1412.5567)",
+        "c": "[&check;&nbsp;Link](https://gitlab.com/Percipiote/Scriboora)",
+        "n": "DeepSpeech",
+        "d": "2014-12-17",
+        "m1": "198"
+      },
+      {
+        "p": "[History Repeats Itself: Human Motion Prediction via Motion Attention](https://arxiv.org/pdf/2007.11755)",
+        "c": "[&check;&nbsp;Link](https://gitlab.com/Percipiote/PoseForecastWrappers)",
+        "n": "HisRepItself",
+        "d": "2020-11-13",
+        "m1": "233"
+      },
+      {
+        "p": "[Skeleton-Parted Graph Scattering Networks for 3D Human Motion Prediction](https://arxiv.org/pdf/2208.00368)",
+        "c": "[&check;&nbsp;Link](https://gitlab.com/Percipiote/PoseForecastWrappers)",
+        "n": "SPGSN",
+        "d": "2022-11-11",
+        "m1": "262"
+      },
+      {
+        "p": "[Space-Time-Separable Graph Convolutional Network for Pose Forecasting](https://arxiv.org/abs/2110.04573v1)",
+        "c": "[&check;&nbsp;Link](https://gitlab.com/Percipiote/PoseForecastWrappers)",
+        "n": "STS-GCN",
+        "d": "2021-10-09",
+        "m1": "275"
+      },
+      {
+        "p": "[Gradient multi-foci networks for 3D skeleton-based human motion prediction](https://link.springer.com/article/10.1007/s00521-024-09817-5)",
+        "c": "[&check;&nbsp;Link](https://gitlab.com/Percipiote/PoseForecastWrappers)",
+        "n": "GMFnet",
+        "d": "2024-05-09",
+        "m1": "279"
+      },
+      {
+        "p": "[Progressively Generating Better Initial Guesses Towards Next Stages for High-Quality Human Motion Prediction](https://arxiv.org/abs/2203.16051v1)",
+        "c": "[&check;&nbsp;Link](https://gitlab.com/Percipiote/PoseForecastWrappers)",
+        "n": "PGBIG",
+        "d": "2022-03-30",
+        "m1": "279"
+      },
+      {
+        "p": "[Trajectory-Aware Body Interaction Transformer for Multi-Person Pose Forecasting](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_Trajectory-Aware_Body_Interaction_Transformer_for_Multi-Person_Pose_Forecasting_CVPR_2023_paper.pdf)",
+        "c": "[&check;&nbsp;Link](https://gitlab.com/Percipiote/PoseForecastWrappers)",
+        "n": "TBiFormer",
+        "d": "2023-06-18",
+        "m1": "301"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

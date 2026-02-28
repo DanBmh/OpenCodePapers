@@ -1,0 +1,208 @@
+{
+  "title": "visual-place-recognition-on-mapillary-val",
+  "task-hierarchy": [
+    "Visual Place Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://www.mapillary.com/dataset/vistas?lat=20&lng=0&z=1.5&pKey=pBBmjuJ8yU1r2ROYRzWmFg"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Recall@1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Recall@5",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Recall@10",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Query-Based Adaptive Aggregation for Multi-Dataset Joint Training Toward Universal Visual Place Recognition](https://arxiv.org/abs/2507.03831v1)",
+        "c": "",
+        "n": "QAA-DINOv2-B-8192",
+        "d": "2025-07-04",
+        "m1": "97.6"
+      },
+      {
+        "p": "[Pair-VPR: Place-Aware Pre-training and Contrastive Pair Classification for Visual Place Recognition with Vision Transformers](https://arxiv.org/abs/2410.06614v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/csiro-robotics/Pair-VPR)",
+        "n": "Pair-VPR-p",
+        "d": "2024-10-09",
+        "m1": "95.4",
+        "m2": "97.3",
+        "m3": "97.7"
+      },
+      {
+        "p": "[BoQ: A Place is Worth a Bag of Learnable Queries](https://arxiv.org/abs/2405.07364v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/amaralibey/bag-of-queries)",
+        "n": "BoQ",
+        "d": "2024-05-12",
+        "m1": "93.8",
+        "m2": "96.8",
+        "m3": "97"
+      },
+      {
+        "p": "[Pair-VPR: Place-Aware Pre-training and Contrastive Pair Classification for Visual Place Recognition with Vision Transformers](https://arxiv.org/abs/2410.06614v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/csiro-robotics/Pair-VPR)",
+        "n": "Pair-VPR-s",
+        "d": "2024-10-09",
+        "m1": "93.7",
+        "m2": "97.2",
+        "m3": "97.3"
+      },
+      {
+        "p": "[Focus on Local: Finding Reliable Discriminative Regions for Visual Place Recognition](https://arxiv.org/abs/2504.09881v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/chenshunpeng/FoL)",
+        "n": "FoL",
+        "d": "2025-04-14",
+        "m1": "93.5",
+        "m2": "96.9",
+        "m3": "97.6"
+      },
+      {
+        "p": "[Focus on Local: Finding Reliable Discriminative Regions for Visual Place Recognition](https://arxiv.org/abs/2504.09881v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/chenshunpeng/FoL)",
+        "n": "FoL-global",
+        "d": "2025-04-14",
+        "m1": "93.1",
+        "m2": "96.9",
+        "m3": "97.4"
+      },
+      {
+        "p": "[EffoVPR: Effective Foundation Model Utilization for Visual Place Recognition](https://arxiv.org/abs/2405.18065v2)",
+        "c": "",
+        "n": "EffoVPR",
+        "d": "2024-05-28",
+        "m1": "92.8",
+        "m2": "97.2",
+        "m3": "97.4"
+      },
+      {
+        "p": "[Optimal Transport Aggregation for Visual Place Recognition](https://arxiv.org/abs/2311.15937v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/serizba/salad)",
+        "n": "DINOv2 SALAD",
+        "d": "2023-11-27",
+        "m1": "92.2",
+        "m2": "96.4",
+        "m3": "97"
+      },
+      {
+        "p": "[BoQ: A Place is Worth a Bag of Learnable Queries](https://arxiv.org/abs/2405.07364v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/amaralibey/bag-of-queries)",
+        "n": "BoQ (ResNet-50)",
+        "d": "2024-05-12",
+        "m1": "91.2",
+        "m2": "95.3",
+        "m3": "96.1"
+      },
+      {
+        "p": "[Towards Seamless Adaptation of Pre-trained Models for Visual Place Recognition](https://arxiv.org/abs/2402.14505v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/Lu-Feng/SelaVPR)",
+        "n": "SelaVPR",
+        "d": "2024-02-22",
+        "m1": "90.8",
+        "m2": "96.4",
+        "m3": "97.2"
+      },
+      {
+        "p": "[MixVPR: Feature Mixing for Visual Place Recognition](https://arxiv.org/abs/2303.02190v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/amaralibey/mixvpr)",
+        "n": "MixVPR",
+        "d": "2023-03-03",
+        "m1": "88.2",
+        "m2": "93.1",
+        "m3": "94.3"
+      },
+      {
+        "p": "[Rethinking Visual Geo-localization for Large-Scale Applications](https://arxiv.org/abs/2204.02287v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/gmberton/cosplace)",
+        "n": "CosPlace (ResNet-101 2048-D)",
+        "d": "2022-04-05",
+        "m1": "86.7",
+        "m2": "92.1",
+        "m3": "93.4"
+      },
+      {
+        "p": "[GSV-Cities: Toward Appropriate Supervised Visual Place Recognition](https://arxiv.org/abs/2210.10239v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/amaralibey/gsv-cities)",
+        "n": "Conv-AP",
+        "d": "2022-10-19",
+        "m1": "83.4",
+        "m2": "90.5",
+        "m3": "92.3"
+      },
+      {
+        "p": "[Global Proxy-based Hard Mining for Visual Place Recognition](https://arxiv.org/abs/2302.14217v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/amaralibey/gpm)",
+        "n": "NetVLAD (with GPM)",
+        "d": "2023-02-28",
+        "m1": "82.0",
+        "m2": "90.4",
+        "m3": "91.4"
+      },
+      {
+        "p": "[Generalized Contrastive Optimization of Siamese Networks for Place Recognition](https://arxiv.org/abs/2103.06638v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/marialeyvallina/generalized_contrastive_loss)",
+        "n": "ResNeXt GCL + PCA",
+        "d": "2021-03-11",
+        "m1": "80.9",
+        "m2": "90.7",
+        "m3": "92.6"
+      },
+      {
+        "p": "[Patch-NetVLAD: Multi-Scale Fusion of Locally-Global Descriptors for Place Recognition](https://arxiv.org/abs/2103.01486v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/QVPR/Patch-NetVLAD)",
+        "n": "Patch-NetVLAD",
+        "d": "2021-03-02",
+        "m1": "79.5",
+        "m2": "86.2",
+        "m3": "87.7"
+      },
+      {
+        "p": "[Generalized Contrastive Optimization of Siamese Networks for Place Recognition](https://arxiv.org/abs/2103.06638v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/marialeyvallina/generalized_contrastive_loss)",
+        "n": "ResNeXt GCL",
+        "d": "2021-03-11",
+        "m1": "75.5",
+        "m2": "86.1",
+        "m3": "88.5"
+      },
+      {
+        "p": "[Rethinking Visual Geo-localization for Large-Scale Applications](https://arxiv.org/abs/2204.02287v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/gmberton/cosplace)",
+        "n": "CosPlace",
+        "d": "2022-04-05",
+        "m2": "89.9",
+        "m3": "91.8"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

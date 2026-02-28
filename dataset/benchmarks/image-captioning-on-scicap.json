@@ -1,0 +1,102 @@
+{
+  "title": "image-captioning-on-scicap",
+  "task-hierarchy": [
+    "Image Captioning"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/tingyaohsu/SciCap"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "BLEU-4",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[SciCap: Generating Captions for Scientific Figures](https://arxiv.org/abs/2110.11624v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/tingyaohsu/scicap)",
+        "n": "CNN+LSTM (Vision only, First sentence)",
+        "d": "2021-10-22",
+        "m1": "0.0219"
+      },
+      {
+        "p": "[SciCap: Generating Captions for Scientific Figures](https://arxiv.org/abs/2110.11624v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/tingyaohsu/scicap)",
+        "n": "CNN+LSTM (Text only, First sentence)",
+        "d": "2021-10-22",
+        "m1": "0.0213"
+      },
+      {
+        "p": "[SciCap: Generating Captions for Scientific Figures](https://arxiv.org/abs/2110.11624v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/tingyaohsu/scicap)",
+        "n": "CNN+LSTM (Text only, Single-Sent Caption)",
+        "d": "2021-10-22",
+        "m1": "0.0212"
+      },
+      {
+        "p": "[SciCap: Generating Captions for Scientific Figures](https://arxiv.org/abs/2110.11624v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/tingyaohsu/scicap)",
+        "n": "CNN+LSTM (Vision only, Single-Sent Caption)",
+        "d": "2021-10-22",
+        "m1": "0.0207"
+      },
+      {
+        "p": "[SciCap: Generating Captions for Scientific Figures](https://arxiv.org/abs/2110.11624v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/tingyaohsu/scicap)",
+        "n": "CNN+LSTM (Vision + Text, First sentence)",
+        "d": "2021-10-22",
+        "m1": "0.0205"
+      },
+      {
+        "p": "[SciCap: Generating Captions for Scientific Figures](https://arxiv.org/abs/2110.11624v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/tingyaohsu/scicap)",
+        "n": "CNN+LSTM (Vision + Text, Single-Sent Caption)",
+        "d": "2021-10-22",
+        "m1": "0.0202"
+      },
+      {
+        "p": "[SciCap: Generating Captions for Scientific Figures](https://arxiv.org/abs/2110.11624v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/tingyaohsu/scicap)",
+        "n": "CNN+LSTM (Vision only, Caption w/ <=100 words)",
+        "d": "2021-10-22",
+        "m1": "0.0172"
+      },
+      {
+        "p": "[SciCap: Generating Captions for Scientific Figures](https://arxiv.org/abs/2110.11624v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/tingyaohsu/scicap)",
+        "n": "CNN+LSTM (Vision + Text, Caption w/ <=100 words)",
+        "d": "2021-10-22",
+        "m1": "0.0168"
+      },
+      {
+        "p": "[SciCap: Generating Captions for Scientific Figures](https://arxiv.org/abs/2110.11624v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/tingyaohsu/scicap)",
+        "n": "CNN+LSTM (Text only, Caption w/ <=100 words)",
+        "d": "2021-10-22",
+        "m1": "0.0165"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

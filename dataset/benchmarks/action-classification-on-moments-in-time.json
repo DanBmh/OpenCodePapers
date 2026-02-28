@@ -1,0 +1,262 @@
+{
+  "title": "action-classification-on-moments-in-time",
+  "task-hierarchy": [
+    "Video",
+    "Action Classification"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Top 1 Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Top 5 Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[OmniVec2 - A Novel Transformer based Network for Large Scale Multimodal and Multitask Learning](http://openaccess.thecvf.com//content/CVPR2024/html/Srivastava_OmniVec2_-_A_Novel_Transformer_based_Network_for_Large_Scale_CVPR_2024_paper.html)",
+        "c": "",
+        "n": "OmniVec2",
+        "d": "2024-01-01",
+        "m1": "53.1"
+      },
+      {
+        "p": "[InternVideo2: Scaling Foundation Models for Multimodal Video Understanding](https://arxiv.org/abs/2403.15377v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internvideo)",
+        "n": "InternVideo2-1B",
+        "d": "2024-03-22",
+        "m1": "50.9"
+      },
+      {
+        "p": "[Unmasked Teacher: Towards Training-Efficient Video Foundation Models](https://arxiv.org/abs/2303.16058v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/opengvlab/unmasked_teacher)",
+        "n": "UMT-L (ViT-L/16)",
+        "d": "2023-03-28",
+        "m1": "48.7",
+        "m2": "78.2"
+      },
+      {
+        "p": "[UniFormerV2: Spatiotemporal Learning by Arming Image ViTs with Video UniFormer](https://openreview.net/forum?id=d77RVuVg-Mf)",
+        "c": "[&check;&nbsp;Link](https://github.com/OpenGVLab/UniFormerV2)",
+        "n": "UniFormerV2-L",
+        "d": "2022-09-22",
+        "m1": "47.8",
+        "m2": "76.9"
+      },
+      {
+        "p": "[Multiview Transformers for Video Recognition](https://arxiv.org/abs/2201.04288v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/scenic)",
+        "n": "MTV-H (WTS 60M)",
+        "d": "2022-01-12",
+        "m1": "47.2",
+        "m2": "75.7"
+      },
+      {
+        "p": "[Co-training Transformer with Videos and Images Improves Action Recognition](https://arxiv.org/abs/2112.07175v1)",
+        "c": "",
+        "n": "CoVeR(JFT-3B)",
+        "d": "2021-12-14",
+        "m1": "46.1",
+        "m2": "75.4"
+      },
+      {
+        "p": "[Co-training Transformer with Videos and Images Improves Action Recognition](https://arxiv.org/abs/2112.07175v1)",
+        "c": "",
+        "n": "CoVeR(JFT-300M)",
+        "d": "2021-12-14",
+        "m1": "45.0",
+        "m2": "73.9"
+      },
+      {
+        "p": "[VATT: Transformers for Multimodal Self-Supervised Learning from Raw Video, Audio and Text](https://arxiv.org/abs/2104.11178v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research/tree/master/vatt)",
+        "n": "VATT-Large",
+        "d": "2021-04-22",
+        "m1": "41.1",
+        "m2": "67.7"
+      },
+      {
+        "p": "[MoViNets: Mobile Video Networks for Efficient Video Recognition](https://arxiv.org/abs/2103.11511v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+        "n": "MoViNet-A6",
+        "d": "2021-03-21",
+        "m1": "40.2"
+      },
+      {
+        "p": "[MoViNets: Mobile Video Networks for Efficient Video Recognition](https://arxiv.org/abs/2103.11511v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+        "n": "MoViNet-A5",
+        "d": "2021-03-21",
+        "m1": "39.1"
+      },
+      {
+        "p": "[MoViNets: Mobile Video Networks for Efficient Video Recognition](https://arxiv.org/abs/2103.11511v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+        "n": "MoViNet-A4",
+        "d": "2021-03-21",
+        "m1": "37.9"
+      },
+      {
+        "p": "[Video Transformer Network](https://arxiv.org/abs/2102.00719v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/bomri/SlowFast/blob/master/projects/vtn/README.md)",
+        "n": "VTN",
+        "d": "2021-02-01",
+        "m1": "37.4",
+        "m2": "65.4"
+      },
+      {
+        "p": "[Attention Bottlenecks for Multimodal Fusion](https://arxiv.org/abs/2107.00135v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/scenic/tree/main/scenic/projects/mbt)",
+        "n": "MBT (AV)",
+        "d": "2021-06-30",
+        "m1": "37.3",
+        "m2": "61.2"
+      },
+      {
+        "p": "[MoViNets: Mobile Video Networks for Efficient Video Recognition](https://arxiv.org/abs/2103.11511v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+        "n": "MoViNet-A3",
+        "d": "2021-03-21",
+        "m1": "35.6"
+      },
+      {
+        "p": "[MoViNets: Mobile Video Networks for Efficient Video Recognition](https://arxiv.org/abs/2103.11511v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+        "n": "MoViNet-A2",
+        "d": "2021-03-21",
+        "m1": "34.3"
+      },
+      {
+        "p": "[AssembleNet: Searching for Multi-Stream Neural Connectivity in Video Architectures](https://arxiv.org/abs/1905.13209v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/official/vision/beta/projects/assemblenet)",
+        "n": "AssembleNet",
+        "d": "2019-05-30",
+        "m1": "34.27%",
+        "m2": "62.71%"
+      },
+      {
+        "p": "[Learn to cycle: Time-consistent feature discovery for action recognition](https://arxiv.org/abs/2006.08247v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/alexandrosstergiou/Squeeze-and-Recursion-Temporal-Gates/blob/master/train_model.py)",
+        "n": "SRTG r3d-101",
+        "d": "2020-06-15",
+        "m1": "33.56",
+        "m2": "58.49"
+      },
+      {
+        "p": "[Collaborative Spatiotemporal Feature Learning for Video Action Recognition](http://openaccess.thecvf.com/content_CVPR_2019/html/Li_Collaborative_Spatiotemporal_Feature_Learning_for_Video_Action_Recognition_CVPR_2019_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/hikvision-research/cost)",
+        "n": "CoST (ResNet-101, 32 frames)",
+        "d": "2019-06-01",
+        "m1": "32.4%",
+        "m2": "60.0%"
+      },
+      {
+        "p": "[MoViNets: Mobile Video Networks for Efficient Video Recognition](https://arxiv.org/abs/2103.11511v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+        "n": "MoViNet-A1",
+        "d": "2021-03-21",
+        "m1": "32.0"
+      },
+      {
+        "p": "[Evolving Space-Time Neural Architectures for Videos](https://arxiv.org/abs/1811.10636v2)",
+        "c": "",
+        "n": "EvaNet",
+        "d": "2018-11-26",
+        "m1": "31.8%"
+      },
+      {
+        "p": "[Learn to cycle: Time-consistent feature discovery for action recognition](https://arxiv.org/abs/2006.08247v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/alexandrosstergiou/Squeeze-and-Recursion-Temporal-Gates/blob/master/train_model.py)",
+        "n": "SRTG r(2+1)d-50",
+        "d": "2020-06-15",
+        "m1": "31.60",
+        "m2": "56.80"
+      },
+      {
+        "p": "[Learn to cycle: Time-consistent feature discovery for action recognition](https://arxiv.org/abs/2006.08247v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/alexandrosstergiou/Squeeze-and-Recursion-Temporal-Gates/blob/master/train_model.py)",
+        "n": "SRTG r3d-50",
+        "d": "2020-06-15",
+        "m1": "30.72",
+        "m2": "55.65"
+      },
+      {
+        "p": "[Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset](http://arxiv.org/abs/1705.07750v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmaction2)",
+        "n": "I3D",
+        "d": "2017-05-22",
+        "m1": "29.51%",
+        "m2": "56.06%"
+      },
+      {
+        "p": "[Learn to cycle: Time-consistent feature discovery for action recognition](https://arxiv.org/abs/2006.08247v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/alexandrosstergiou/Squeeze-and-Recursion-Temporal-Gates/blob/master/train_model.py)",
+        "n": "SRTG r(2+1)d-34",
+        "d": "2020-06-15",
+        "m1": "28.97",
+        "m2": "54.18"
+      },
+      {
+        "p": "[Learn to cycle: Time-consistent feature discovery for action recognition](https://arxiv.org/abs/2006.08247v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/alexandrosstergiou/Squeeze-and-Recursion-Temporal-Gates/blob/master/train_model.py)",
+        "n": "SRTG r3d-34",
+        "d": "2020-06-15",
+        "m1": "28.55",
+        "m2": "52.35"
+      },
+      {
+        "p": "[Temporal Relational Reasoning in Videos](http://arxiv.org/abs/1711.08496v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/metalbubble/TRN-pytorch)",
+        "n": "TRN-Multiscale",
+        "d": "2017-11-22",
+        "m1": "28.27",
+        "m2": "53.87"
+      },
+      {
+        "p": "[MoViNets: Mobile Video Networks for Efficient Video Recognition](https://arxiv.org/abs/2103.11511v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+        "n": "MoViNet-A0",
+        "d": "2021-03-21",
+        "m1": "27.5"
+      },
+      {
+        "p": "[ViViT: A Video Vision Transformer](https://arxiv.org/abs/2103.15691v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/scenic)",
+        "n": "ViViT-L/16x2",
+        "d": "2021-03-29",
+        "m2": "64.9"
+      },
+      {
+        "p": "[Temporal Segment Networks for Action Recognition in Videos](http://arxiv.org/abs/1705.02953v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmaction2)",
+        "n": "TSN-2Stream",
+        "d": "2017-05-08",
+        "m2": "50.10%"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

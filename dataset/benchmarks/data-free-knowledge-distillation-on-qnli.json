@@ -1,0 +1,67 @@
+{
+  "title": "data-free-knowledge-distillation-on-qnli",
+  "task-hierarchy": [
+    "Data-free Knowledge Distillation"
+  ],
+  "dataset-info": {
+    "link": "https://gluebenchmark.com/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[GOLD: Generalized Knowledge Distillation via Out-of-Distribution-Guided Language Data Generation](https://arxiv.org/abs/2403.19754v1)",
+        "c": "",
+        "n": "GOLD (T5-base)",
+        "d": "2024-03-28",
+        "m1": "91.7"
+      },
+      {
+        "p": "[ZeroGen: Efficient Zero-shot Learning via Dataset Generation](https://arxiv.org/abs/2202.07922v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/sumilergao/sungen)",
+        "n": "ZeroGen (T5-base)",
+        "d": "2022-02-16",
+        "m1": "88.5"
+      },
+      {
+        "p": "[ProGen: Progressive Zero-shot Dataset Generation via In-context Feedback](https://arxiv.org/abs/2210.12329v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/hkunlp/progen)",
+        "n": "ProGen (T5-base)",
+        "d": "2022-10-22",
+        "m1": "85.9"
+      },
+      {
+        "p": "[Prompt2Model: Generating Deployable Models from Natural Language Instructions](https://arxiv.org/abs/2308.12261v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/neulab/prompt2model)",
+        "n": "Prompt2Model (T5-base)",
+        "d": "2023-08-23",
+        "m1": "62.2"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

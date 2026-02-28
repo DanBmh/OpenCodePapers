@@ -1,0 +1,69 @@
+{
+  "title": "3d-object-classification-on-modelnet10",
+  "task-hierarchy": [
+    "3D Point Cloud Reconstruction",
+    "3D Point Cloud Classification",
+    "3D Object Classification"
+  ],
+  "dataset-info": {
+    "link": "https://modelnet.cs.princeton.edu/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[PolyNet: Polynomial Neural Network for 3D Shape Recognition with PolyShape Representation](https://arxiv.org/abs/2110.07882v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/myavartanoo/PolyNet_PyTorch)",
+        "n": "PolyNet",
+        "d": "2021-10-15",
+        "m1": "94.93"
+      },
+      {
+        "p": "[Orientation-boosted Voxel Nets for 3D Object Recognition](http://arxiv.org/abs/1604.03351v2)",
+        "c": "",
+        "n": "ORION",
+        "d": "2016-04-12",
+        "m1": "93.8"
+      },
+      {
+        "p": "[General-Purpose Deep Point Cloud Feature Extractor](https://ieeexplore.ieee.org/abstract/document/8354322)",
+        "c": "[&check;&nbsp;Link](https://github.com/WDot/G3DNet)",
+        "n": "G3DNet-18 SVM, Fine-Tuned, Vote",
+        "d": "2018-03-12",
+        "m1": "93.1"
+      },
+      {
+        "p": "[Dynamic Edge-Conditioned Filters in Convolutional Neural Networks on Graphs](http://arxiv.org/abs/1704.02901v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/rusty1s/pytorch_cluster)",
+        "n": "ECC (12 votes)",
+        "d": "2017-04-10",
+        "m1": "90"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

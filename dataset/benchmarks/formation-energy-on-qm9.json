@@ -1,0 +1,166 @@
+{
+  "title": "formation-energy-on-qm9",
+  "task-hierarchy": [
+    "Atomistic Description",
+    "Formation Energy"
+  ],
+  "dataset-info": {
+    "link": "http://quantum-machine.org/datasets/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MAE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[TensorNet: Cartesian Tensor Representations for Efficient Learning of Molecular Potentials](https://arxiv.org/abs/2306.06482v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/torchmd/torchmd-net)",
+        "n": "TensorNet",
+        "d": "2023-06-10",
+        "m1": "0.09"
+      },
+      {
+        "p": "[Wigner kernels: body-ordered equivariant machine learning without a basis](https://arxiv.org/abs/2303.04124v1)",
+        "c": "",
+        "n": "Wigner Kernels",
+        "d": "2023-03-07",
+        "m1": "0.100 ± 0.003"
+      },
+      {
+        "p": "[A Universal Framework for Accurate and Efficient Geometric Deep Learning of Molecular Systems](https://arxiv.org/abs/2311.11228v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/XieResearchGroup/Physics-aware-Multiplex-GNN)",
+        "n": "PAMNet",
+        "d": "2023-11-19",
+        "m1": "0.136"
+      },
+      {
+        "p": "[Molecular Mechanics-Driven Graph Neural Network with Multiplex Graph for Molecular Structures](https://arxiv.org/abs/2011.07457v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/zetayue/MXMNet)",
+        "n": "MXMNet",
+        "d": "2020-11-15",
+        "m1": "0.137"
+      },
+      {
+        "p": "[Heterogeneous Molecular Graph Neural Networks for Predicting Molecule Properties](https://arxiv.org/abs/2009.12710v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/shuix007/HMGNN)",
+        "n": "HMGNN",
+        "d": "2020-09-26",
+        "m1": "0.138"
+      },
+      {
+        "p": "[PhysNet: A Neural Network for Predicting Energies, Forces, Dipole Moments and Partial Charges](http://arxiv.org/abs/1902.08408v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/MMunibas/PhysNet)",
+        "n": "PhysNet-ens5",
+        "d": "2019-02-22",
+        "m1": "0.14"
+      },
+      {
+        "p": "[Transferable Multi-level Attention Neural Network for Accurate Prediction of Quantum Chemistry Properties via Multi-task Learning](https://doi.org/10.26434/chemrxiv.12588170.v1)",
+        "c": "",
+        "n": "DeepMoleNet",
+        "d": "2020-06-30",
+        "m1": "0.141"
+      },
+      {
+        "p": "[Linear-scaling kernels for protein sequences and small molecules outperform deep learning while providing uncertainty quantitation and improved interpretability](https://arxiv.org/abs/2302.03294v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/jlparki/xgpr)",
+        "n": "xGPR -- Gaussian process, graph convolution kernel",
+        "d": "2023-02-07",
+        "m1": "0.167"
+      },
+      {
+        "p": "[Directional Message Passing for Molecular Graphs](https://arxiv.org/abs/2003.03123v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/dimenet)",
+        "n": "DimeNet",
+        "d": "2020-03-06",
+        "m1": "0.185"
+      },
+      {
+        "p": "[PhysNet: A Neural Network for Predicting Energies, Forces, Dipole Moments and Partial Charges](http://arxiv.org/abs/1902.08408v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/MMunibas/PhysNet)",
+        "n": "PhysNet",
+        "d": "2019-02-22",
+        "m1": "0.19"
+      },
+      {
+        "p": "[Graph Networks as a Universal Machine Learning Framework for Molecules and Crystals](http://arxiv.org/abs/1812.05055v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/materialsvirtuallab/megnet)",
+        "n": "MEGNet-Full",
+        "d": "2018-12-12",
+        "m1": "0.21"
+      },
+      {
+        "p": "[Neural Message Passing with Edge Updates for Predicting Properties of Molecules and Materials](http://arxiv.org/abs/1806.03146v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/nrel/m2p)",
+        "n": "SchNet-edge-update",
+        "d": "2018-06-08",
+        "m1": "0.242"
+      },
+      {
+        "p": "[Hierarchical modeling of molecular energies using a deep neural network](http://arxiv.org/abs/1710.00017v1)",
+        "c": "",
+        "n": "HIP-NN",
+        "d": "2017-09-29",
+        "m1": "0.256"
+      },
+      {
+        "p": "[Graph Networks as a Universal Machine Learning Framework for Molecules and Crystals](http://arxiv.org/abs/1812.05055v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/materialsvirtuallab/megnet)",
+        "n": "MEGNet-simple",
+        "d": "2018-12-12",
+        "m1": "0.28"
+      },
+      {
+        "p": "[Atomistic Line Graph Neural Network for Improved Materials Property Predictions](https://arxiv.org/abs/2106.01829v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/usnistgov/alignn)",
+        "n": "ALIGNN",
+        "d": "2021-06-03",
+        "m1": "0.30"
+      },
+      {
+        "p": "[Neural Message Passing with Edge Updates for Predicting Properties of Molecules and Materials](http://arxiv.org/abs/1806.03146v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/nrel/m2p)",
+        "n": "SchNet",
+        "d": "2018-06-08",
+        "m1": "0.314"
+      },
+      {
+        "p": "[Neural Message Passing for Quantum Chemistry](http://arxiv.org/abs/1704.01212v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Microsoft/gated-graph-neural-network-samples)",
+        "n": "MPNN",
+        "d": "2017-04-04",
+        "m1": "0.49"
+      },
+      {
+        "p": "[Machine learning prediction errors better than DFT accuracy](https://arxiv.org/abs/1702.05532)",
+        "c": "",
+        "n": "HDAD+KRR",
+        "d": "2017-02-17",
+        "m1": "0.58"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

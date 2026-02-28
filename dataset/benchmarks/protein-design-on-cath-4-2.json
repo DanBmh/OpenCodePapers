@@ -1,0 +1,108 @@
+{
+  "title": "protein-design-on-cath-4-2",
+  "task-hierarchy": [
+    "Protein Design"
+  ],
+  "dataset-info": {
+    "link": "https://cathdb.info/wiki/doku/?id=index"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Perplexity",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Sequence Recovery %(All)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Knowledge-Design: Pushing the Limit of Protein Design via Knowledge Refinement](https://arxiv.org/abs/2305.15151v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/A4Bio/OpenCPD)",
+        "n": "Knowledge-Design",
+        "d": "2023-05-20",
+        "m1": "3.46",
+        "m2": "60.77"
+      },
+      {
+        "p": "[Knowledge-Design: Pushing the Limit of Protein Design via Knowledge Refinement](https://arxiv.org/abs/2305.15151v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/A4Bio/OpenCPD)",
+        "n": "PiFold",
+        "d": "2023-05-20",
+        "m1": "4.55",
+        "m2": "51.66"
+      },
+      {
+        "p": "[Knowledge-Design: Pushing the Limit of Protein Design via Knowledge Refinement](https://arxiv.org/abs/2305.15151v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/A4Bio/OpenCPD)",
+        "n": "ProteinMPNN",
+        "d": "2023-05-20",
+        "m1": "4.61",
+        "m2": "45.96"
+      },
+      {
+        "p": "[Knowledge-Design: Pushing the Limit of Protein Design via Knowledge Refinement](https://arxiv.org/abs/2305.15151v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/A4Bio/OpenCPD)",
+        "n": "GVP",
+        "d": "2023-05-20",
+        "m1": "5.36",
+        "m2": "39.47"
+      },
+      {
+        "p": "[Knowledge-Design: Pushing the Limit of Protein Design via Knowledge Refinement](https://arxiv.org/abs/2305.15151v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/A4Bio/OpenCPD)",
+        "n": "GCA",
+        "d": "2023-05-20",
+        "m1": "6.05",
+        "m2": "37.64"
+      },
+      {
+        "p": "[Knowledge-Design: Pushing the Limit of Protein Design via Knowledge Refinement](https://arxiv.org/abs/2305.15151v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/A4Bio/OpenCPD)",
+        "n": "AlphaDesign",
+        "d": "2023-05-20",
+        "m1": "6.3",
+        "m2": "41.31"
+      },
+      {
+        "p": "[Knowledge-Design: Pushing the Limit of Protein Design via Knowledge Refinement](https://arxiv.org/abs/2305.15151v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/A4Bio/OpenCPD)",
+        "n": "StructGNN",
+        "d": "2023-05-20",
+        "m1": "6.4",
+        "m2": "35.91"
+      },
+      {
+        "p": "[Knowledge-Design: Pushing the Limit of Protein Design via Knowledge Refinement](https://arxiv.org/abs/2305.15151v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/A4Bio/OpenCPD)",
+        "n": "GraphTrans",
+        "d": "2023-05-20",
+        "m1": "6.63",
+        "m2": "35.82"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "title": "visual-reasoning-on-bongard-openworld",
+  "task-hierarchy": [
+    "Visual Reasoning"
+  ],
+  "dataset-info": {
+    "link": "https://joyjayng.github.io/Bongard-OpenWorld.github.io/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "2-Class Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[A Cognitive Paradigm Approach to Probe the Perception-Reasoning Interface in VLMs](https://arxiv.org/abs/2501.13620v5)",
+        "c": "",
+        "n": "Gemini-2.0 + CA",
+        "d": "2025-01-23",
+        "m1": "93.6"
+      },
+      {
+        "p": "[A Cognitive Paradigm Approach to Probe the Perception-Reasoning Interface in VLMs](https://arxiv.org/abs/2501.13620v5)",
+        "c": "",
+        "n": "GPT-4o + CA",
+        "d": "2025-01-23",
+        "m1": "92.8"
+      },
+      {
+        "p": "[Bongard-OpenWorld: Few-Shot Reasoning for Free-form Visual Concepts in the Real World](https://arxiv.org/abs/2310.10207v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/joyjayng/Bongard-OpenWorld)",
+        "n": "Human",
+        "d": "2023-10-16",
+        "m1": "91.0"
+      },
+      {
+        "p": "[Bongard-OpenWorld: Few-Shot Reasoning for Free-form Visual Concepts in the Real World](https://arxiv.org/abs/2310.10207v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/joyjayng/Bongard-OpenWorld)",
+        "n": "SNAIL",
+        "d": "2023-10-16",
+        "m1": "64.0"
+      },
+      {
+        "p": "[Bongard-OpenWorld: Few-Shot Reasoning for Free-form Visual Concepts in the Real World](https://arxiv.org/abs/2310.10207v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/joyjayng/Bongard-OpenWorld)",
+        "n": "InstructBLIP + GPT-4",
+        "d": "2023-10-16",
+        "m1": "63.8"
+      },
+      {
+        "p": "[Bongard-OpenWorld: Few-Shot Reasoning for Free-form Visual Concepts in the Real World](https://arxiv.org/abs/2310.10207v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/joyjayng/Bongard-OpenWorld)",
+        "n": "BLIP-2 + ChatGPT (Fine-tuned)",
+        "d": "2023-10-16",
+        "m1": "63.3"
+      },
+      {
+        "p": "[Bongard-OpenWorld: Few-Shot Reasoning for Free-form Visual Concepts in the Real World](https://arxiv.org/abs/2310.10207v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/joyjayng/Bongard-OpenWorld)",
+        "n": "InstructBLIP + ChatGPT + Neuro-Symbolic",
+        "d": "2023-10-16",
+        "m1": "55.5"
+      },
+      {
+        "p": "[Bongard-OpenWorld: Few-Shot Reasoning for Free-form Visual Concepts in the Real World](https://arxiv.org/abs/2310.10207v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/joyjayng/Bongard-OpenWorld)",
+        "n": "ChatCaptioner + ChatGPT",
+        "d": "2023-10-16",
+        "m1": "49.3"
+      },
+      {
+        "p": "[Bongard-OpenWorld: Few-Shot Reasoning for Free-form Visual Concepts in the Real World](https://arxiv.org/abs/2310.10207v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/joyjayng/Bongard-OpenWorld)",
+        "n": "Otter",
+        "d": "2023-10-16",
+        "m1": "49.3"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

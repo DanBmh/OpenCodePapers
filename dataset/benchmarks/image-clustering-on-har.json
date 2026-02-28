@@ -1,0 +1,68 @@
+{
+  "title": "image-clustering-on-har",
+  "task-hierarchy": [
+    "Image Clustering"
+  ],
+  "dataset-info": {
+    "link": "http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "NMI",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Deep Fair Clustering via Maximizing and Minimizing Mutual Information: Theory, Algorithm and Metric](https://arxiv.org/abs/2209.12396v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/PengxinZeng/2023-CVPR-FCMI)",
+        "n": "FCMI",
+        "d": "2022-09-26",
+        "m1": "0.882",
+        "m2": "0.807"
+      },
+      {
+        "p": "[N2D: (Not Too) Deep Clustering via Clustering the Local Manifold of an Autoencoded Embedding](https://arxiv.org/abs/1908.05968v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/rymc/n2d)",
+        "n": "N2D (UMAP)",
+        "d": "2019-08-16",
+        "m1": "0.801",
+        "m2": "0.683"
+      },
+      {
+        "p": "[Efficient Deep Clustering of Human Activities and How to Improve Evaluation](https://arxiv.org/abs/2209.08335v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Lou1sM/HAR)",
+        "n": "Selective HAR Clustering",
+        "d": "2022-09-17",
+        "m1": "0.753",
+        "m2": "0.760"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

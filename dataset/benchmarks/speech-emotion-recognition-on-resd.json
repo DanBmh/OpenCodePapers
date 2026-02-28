@@ -1,0 +1,76 @@
+{
+  "title": "speech-emotion-recognition-on-resd",
+  "task-hierarchy": [
+    "Speech Emotion Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://huggingface.co/datasets/Aniemore/resd_annotated"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Weighted Accuracy (WA)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Unweighted Accuracy (UA)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Weighted F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[emotion2vec: Self-Supervised Pre-Training for Speech Emotion Representation](https://arxiv.org/abs/2312.15185v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/alibaba-damo-academy/FunASR)",
+        "n": "emotion2vec+base",
+        "d": "2023-12-23",
+        "m1": "79.4",
+        "m2": "79.8",
+        "m3": "79.4"
+      },
+      {
+        "p": "[emotion2vec: Self-Supervised Pre-Training for Speech Emotion Representation](https://arxiv.org/abs/2312.15185v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/alibaba-damo-academy/FunASR)",
+        "n": "emotion2vec+large",
+        "d": "2023-12-23",
+        "m1": "69.5",
+        "m2": "69.1",
+        "m3": "68.8"
+      },
+      {
+        "p": "[emotion2vec: Self-Supervised Pre-Training for Speech Emotion Representation](https://arxiv.org/abs/2312.15185v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/alibaba-damo-academy/FunASR)",
+        "n": "emotion2vec",
+        "d": "2023-12-23",
+        "m1": "64.75",
+        "m2": "65.04",
+        "m3": "64.53"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

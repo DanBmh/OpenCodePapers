@@ -1,0 +1,85 @@
+{
+  "title": "action-recognition-in-videos-on-pku-mmd",
+  "task-hierarchy": [
+    "Action Recognition",
+    "Action Recognition In Videos"
+  ],
+  "dataset-info": {
+    "link": "https://www.icst.pku.edu.cn/struct/Projects/PKUMMD.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "X-Sub",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "X-View",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[A Dense-Sparse Complementary Network for Human Action Recognition based on RGB and Skeleton Modalities](https://www.sciencedirect.com/science/article/pii/S0957417423035637)",
+        "c": "[&check;&nbsp;Link](https://github.com/Maxchengqin/DSCNet)",
+        "n": "DSCNet (RGB + Pose)",
+        "d": "2023-12-28",
+        "m1": "97.4",
+        "m2": "98.8"
+      },
+      {
+        "p": "[MMNet: A Model-Based Multimodal Network for Human Action Recognition in RGB-D Videos](https://ieeexplore.ieee.org/abstract/document/9782511)",
+        "c": "[&check;&nbsp;Link](https://github.com/bruceyo/MMNet)",
+        "n": "MMNet",
+        "d": "2022-05-26",
+        "m1": "97.4",
+        "m2": "98.6"
+      },
+      {
+        "p": "[EPAM-Net: An Efficient Pose-driven Attention-guided Multimodal Network for Video Action Recognition](https://arxiv.org/abs/2408.05421v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ahmed-nady/multimodal-action-recognition)",
+        "n": "EPAM-Net",
+        "d": "2024-08-10",
+        "m1": "96.2",
+        "m2": "98.4"
+      },
+      {
+        "p": "[Multimodal Fusion via Teacher-Student Network for Indoor Action Recognition](https://ojs.aaai.org/index.php/AAAI/article/view/16430)",
+        "c": "[&check;&nbsp;Link](https://github.com/bruceyo/TSMF)",
+        "n": "TSMF",
+        "d": "2021-05-18",
+        "m1": "95.8",
+        "m2": "97.8"
+      },
+      {
+        "p": "[DVANet: Disentangling View and Action Features for Multi-View Action Recognition](https://arxiv.org/abs/2312.05719v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/NyleSiddiqui/MultiView_Actions)",
+        "n": "DVANet (RGB only)",
+        "d": "2023-12-10",
+        "m1": "95.8",
+        "m2": "95.2"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

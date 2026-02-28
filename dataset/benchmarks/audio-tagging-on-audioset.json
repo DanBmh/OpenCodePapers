@@ -1,0 +1,116 @@
+{
+  "title": "audio-tagging-on-audioset",
+  "task-hierarchy": [
+    "Audio Tagging"
+  ],
+  "dataset-info": {
+    "link": "https://research.google.com/audioset/index.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mean average precision",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Contrastive Audio-Visual Masked Autoencoder](https://arxiv.org/abs/2210.07839v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/yuangongnd/cav-mae)",
+        "n": "CAV-MAE (Audio-Visual)",
+        "d": "2022-10-02",
+        "m1": "0.512"
+      },
+      {
+        "p": "[Efficient Large-scale Audio Tagging via Transformer-to-CNN Knowledge Distillation](https://arxiv.org/abs/2211.04772v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/fschmid56/efficientat)",
+        "n": "mn40_as (Ensemble)",
+        "d": "2022-11-09",
+        "m1": "0.498"
+      },
+      {
+        "p": "[Efficient Training of Audio Transformers with Patchout](https://arxiv.org/abs/2110.05069v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/kkoutini/passt)",
+        "n": "PaSST",
+        "d": "2021-10-11",
+        "m1": "0.496"
+      },
+      {
+        "p": "[Dynamic Convolutional Neural Networks as Efficient Pre-trained Audio Models](https://arxiv.org/abs/2310.15648v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/fschmid56/efficientat)",
+        "n": "DyMN-L (Audio-Only, Single)",
+        "d": "2023-10-24",
+        "m1": "0.490"
+      },
+      {
+        "p": "[AST: Audio Spectrogram Transformer](https://arxiv.org/abs/2104.01778v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/YuanGongND/ast)",
+        "n": "Audio Spectrogram Transformer",
+        "d": "2021-04-05",
+        "m1": "0.485"
+      },
+      {
+        "p": "[Efficient Large-scale Audio Tagging via Transformer-to-CNN Knowledge Distillation](https://arxiv.org/abs/2211.04772v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/fschmid56/efficientat)",
+        "n": "mn40_as (Single)",
+        "d": "2022-11-09",
+        "m1": "0.483"
+      },
+      {
+        "p": "[PSLA: Improving Audio Tagging with Pretraining, Sampling, Labeling, and Aggregation](https://arxiv.org/abs/2102.01243v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/YuanGongND/psla)",
+        "n": "PSLA",
+        "d": "2021-02-02",
+        "m1": "0.474"
+      },
+      {
+        "p": "[Zero-shot Audio Source Separation through Query-based Learning from Weakly-labeled Data](https://arxiv.org/abs/2112.07891v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/RetroCirce/Zero_Shot_Audio_Source_Separation)",
+        "n": "ST-SED",
+        "d": "2021-12-15",
+        "m1": "0.467"
+      },
+      {
+        "p": "[Contrastive Audio-Visual Masked Autoencoder](https://arxiv.org/abs/2210.07839v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/yuangongnd/cav-mae)",
+        "n": "CAV-MAE (Audio-Only)",
+        "d": "2022-10-02",
+        "m1": "0.466"
+      },
+      {
+        "p": "[ERANNs: Efficient Residual Audio Neural Networks for Audio Pattern Recognition](https://arxiv.org/abs/2106.01621v7)",
+        "c": "",
+        "n": "ERANN-1-6",
+        "d": "2021-06-03",
+        "m1": "0.450"
+      },
+      {
+        "p": "[PANNs: Large-Scale Pretrained Audio Neural Networks for Audio Pattern Recognition](http://arxiv.org/abs/1912.10211v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleSpeech)",
+        "n": "CNN14",
+        "d": "2020-08-23",
+        "m1": "0.431"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

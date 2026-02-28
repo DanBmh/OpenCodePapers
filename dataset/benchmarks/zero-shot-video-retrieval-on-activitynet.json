@@ -1,0 +1,193 @@
+{
+  "title": "zero-shot-video-retrieval-on-activitynet",
+  "task-hierarchy": [
+    "Zero-Shot Video Retrieval"
+  ],
+  "dataset-info": {
+    "link": "http://activity-net.org/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "text-to-video R@1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "text-to-video R@5",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "text-to-video R@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "video-to-text R@1",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "video-to-text R@5",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "video-to-text R@10",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[InternVideo2: Scaling Foundation Models for Multimodal Video Understanding](https://arxiv.org/abs/2403.15377v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internvideo)",
+        "n": "InternVideo2-6B",
+        "d": "2024-03-22",
+        "m1": "63.2",
+        "m2": "85.6",
+        "m3": "92.5",
+        "m4": "56.5",
+        "m5": "82.8",
+        "m6": "90.3"
+      },
+      {
+        "p": "[InternVideo2: Scaling Foundation Models for Multimodal Video Understanding](https://arxiv.org/abs/2403.15377v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internvideo)",
+        "n": "InternVideo2-1B",
+        "d": "2024-03-22",
+        "m1": "60.4",
+        "m2": "83.9",
+        "m3": "90.8",
+        "m4": "54.8",
+        "m5": "81.5",
+        "m6": "89.5"
+      },
+      {
+        "p": "[Gramian Multimodal Representation Learning and Alignment](https://arxiv.org/abs/2412.11959v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ispamm/GRAM)",
+        "n": "GRAM",
+        "d": "2024-12-16",
+        "m1": "59.0",
+        "m3": "91.2",
+        "m4": "50.9",
+        "m6": "85.8"
+      },
+      {
+        "p": "[Unmasked Teacher: Towards Training-Efficient Video Foundation Models](https://arxiv.org/abs/2303.16058v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/opengvlab/unmasked_teacher)",
+        "n": "UMT-L (ViT-L/16)",
+        "d": "2023-03-28",
+        "m1": "42.8",
+        "m2": "69.6",
+        "m3": "79.8",
+        "m4": "40.7",
+        "m5": "67.6",
+        "m6": "78.6"
+      },
+      {
+        "p": "[vid-TLDR: Training Free Token merging for Light-weight Video Transformer](https://arxiv.org/abs/2403.13347v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/mlvlab/vid-tldr)",
+        "n": "vid-TLDR (UMT-L)",
+        "d": "2024-03-20",
+        "m1": "42.8",
+        "m2": "69.4",
+        "m3": "79.6",
+        "m4": "41.2",
+        "m5": "68.2",
+        "m6": "79.1"
+      },
+      {
+        "p": "[LanguageBind: Extending Video-Language Pretraining to N-modality by Language-based Semantic Alignment](https://arxiv.org/abs/2310.01852v7)",
+        "c": "[&check;&nbsp;Link](https://github.com/PKU-YuanGroup/Video-LLaVA)",
+        "n": "LanguageBind(ViT-H/14)",
+        "d": "2023-10-03",
+        "m1": "41.0",
+        "m2": "68.4",
+        "m3": "80.0",
+        "m4": "39.1",
+        "m5": "69.8",
+        "m6": "81.1"
+      },
+      {
+        "p": "[LanguageBind: Extending Video-Language Pretraining to N-modality by Language-based Semantic Alignment](https://arxiv.org/abs/2310.01852v7)",
+        "c": "[&check;&nbsp;Link](https://github.com/PKU-YuanGroup/Video-LLaVA)",
+        "n": "LanguageBind(ViT-L/14)",
+        "d": "2023-10-03",
+        "m1": "38.4",
+        "m2": "66.6",
+        "m3": "77.9",
+        "m4": "35.7",
+        "m5": "65.8",
+        "m6": "77.8"
+      },
+      {
+        "p": "[BT-Adapter: Video Conversation is Feasible Without Video Instruction Tuning](https://arxiv.org/abs/2309.15785v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/farewellthree/BT-Adapter)",
+        "n": "BT-Adapter",
+        "d": "2023-09-27",
+        "m1": "37.0",
+        "m2": "66.7",
+        "m3": "78.9"
+      },
+      {
+        "p": "[VideoCoCa: Video-Text Modeling with Zero-Shot Transfer from Contrastive Captioners](https://arxiv.org/abs/2212.04979v3)",
+        "c": "",
+        "n": "VideoCoCa",
+        "d": "2022-12-09",
+        "m1": "34.5",
+        "m2": "63.2",
+        "m3": "76.6",
+        "m4": "33.0",
+        "m5": "61.6",
+        "m6": "75.3"
+      },
+      {
+        "p": "[Revealing Single Frame Bias for Video-and-Language Learning](https://arxiv.org/abs/2206.03428v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jayleicn/ClipBERT)",
+        "n": "Singularity-temporal-5M",
+        "d": "2022-06-07",
+        "m1": "30.8",
+        "m2": "55.9",
+        "m3": "66.3"
+      },
+      {
+        "p": "[InternVideo: General Video Foundation Models via Generative and Discriminative Learning](https://arxiv.org/abs/2212.03191v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internvideo)",
+        "n": "InternVideo",
+        "d": "2022-12-06",
+        "m1": "30.7",
+        "m4": "31.4"
+      },
+      {
+        "p": "[Revealing Single Frame Bias for Video-and-Language Learning](https://arxiv.org/abs/2206.03428v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jayleicn/ClipBERT)",
+        "n": "Singularity-temporal-17M",
+        "d": "2022-06-07",
+        "m1": "30.6",
+        "m2": "55.6",
+        "m3": "66.9"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "title": "multi-object-tracking-on-jrdb",
+  "task-hierarchy": [
+    "Object Tracking",
+    "Multi-Object Tracking"
+  ],
+  "dataset-info": {
+    "link": "https://jrdb.stanford.edu/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "HOTA",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Omnidirectional Multi-Object Tracking](https://arxiv.org/abs/2503.04565v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/xifen523/omnitrack)",
+        "n": "OmniTrack",
+        "d": "2025-03-06",
+        "m1": "26.92"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "OC-SORT",
+        "d": null,
+        "m1": "25.04"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "HybridSORT",
+        "d": null,
+        "m1": "25.01"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ByteTrack",
+        "d": null,
+        "m1": "25.00"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "SORT",
+        "d": null,
+        "m1": "23.49"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Bot-SORT",
+        "d": null,
+        "m1": "22.90"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "DeepSORT",
+        "d": null,
+        "m1": "22.15"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "DiffMOT",
+        "d": null,
+        "m1": "19.96"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "TrackFormer",
+        "d": null,
+        "m1": "19.16"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "MOTRv2",
+        "d": null,
+        "m1": "18.22"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

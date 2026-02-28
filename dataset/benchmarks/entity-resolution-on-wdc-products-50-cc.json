@@ -1,0 +1,67 @@
+{
+  "title": "entity-resolution-on-wdc-products-50-cc",
+  "task-hierarchy": [
+    "Entity Resolution"
+  ],
+  "dataset-info": {
+    "link": "http://webdatacommons.org/largescaleproductcorpus/wdc-products/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1 (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[WDC Products: A Multi-Dimensional Entity Matching Benchmark](https://arxiv.org/abs/2301.09521v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/wbsg-uni-mannheim/wdcproducts)",
+        "n": "RoBERTa-base",
+        "d": "2023-01-23",
+        "m1": "71.14"
+      },
+      {
+        "p": "[WDC Products: A Multi-Dimensional Entity Matching Benchmark](https://arxiv.org/abs/2301.09521v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/wbsg-uni-mannheim/wdcproducts)",
+        "n": "Ditto",
+        "d": "2023-01-23",
+        "m1": "70.66"
+      },
+      {
+        "p": "[WDC Products: A Multi-Dimensional Entity Matching Benchmark](https://arxiv.org/abs/2301.09521v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/wbsg-uni-mannheim/wdcproducts)",
+        "n": "HG",
+        "d": "2023-01-23",
+        "m1": "68.74"
+      },
+      {
+        "p": "[WDC Products: A Multi-Dimensional Entity Matching Benchmark](https://arxiv.org/abs/2301.09521v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/wbsg-uni-mannheim/wdcproducts)",
+        "n": "RoBERTa-SupCon",
+        "d": "2023-01-23",
+        "m1": "57.23"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

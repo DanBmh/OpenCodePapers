@@ -1,0 +1,171 @@
+{
+  "title": "human-pose-forecasting-on-amass",
+  "task-hierarchy": [
+    "Pose Estimation",
+    "Human Pose Forecasting"
+  ],
+  "dataset-info": {
+    "link": "https://amass.is.tue.mpg.de/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Average MPJPE (mm) 1000 msec",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "FDE@1000ms (mm)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "FDE@560ms (mm)",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "FDE@720ms (mm)",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "FDE@880ms (mm)",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "ADE",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "FDE",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "APD",
+        "sortable": "true"
+      },
+      {
+        "key": "m9",
+        "label": "APDE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Space-Time-Separable Graph Convolutional Network for Pose Forecasting](https://arxiv.org/abs/2110.04573v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/fraluca/stsgcn)",
+        "n": "STS-GCN",
+        "d": "2021-10-09",
+        "m1": "45.5"
+      },
+      {
+        "p": "[GCNext: Towards the Unity of Graph Convolutions for Human Motion Prediction](https://arxiv.org/abs/2312.11850v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/bradleywang0416/gcnext)",
+        "n": "GCNext",
+        "d": "2023-12-19",
+        "m1": "65.3"
+      },
+      {
+        "p": "[Towards Accurate Human Motion Prediction via Iterative Refinement](https://arxiv.org/abs/2305.04443v1)",
+        "c": "",
+        "n": "Sun et al.",
+        "d": "2023-05-08",
+        "m1": "65.4"
+      },
+      {
+        "p": "[Back to MLP: A Simple Baseline for Human Motion Prediction](https://arxiv.org/abs/2207.01567v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/dulucas/simlpe)",
+        "n": "siMLPe",
+        "d": "2022-07-04",
+        "m1": "65.7"
+      },
+      {
+        "p": "[AnyPose: Anytime 3D Human Pose Forecasting via Neural Ordinary Differential Equations](https://arxiv.org/abs/2309.04840v1)",
+        "c": "",
+        "n": "AnyPose1",
+        "d": "2023-09-09",
+        "m1": "91.7"
+      },
+      {
+        "p": "[A generic diffusion-based approach for 3D human pose prediction in the wild](https://arxiv.org/abs/2210.05669v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/vita-epfl/deposit)",
+        "n": "TCD",
+        "d": "2022-10-11",
+        "m2": "66.7",
+        "m3": "49.8",
+        "m4": "54.5",
+        "m5": "60.1"
+      },
+      {
+        "p": "[TransFusion: A Practical and Effective Transformer-based Diffusion Model for 3D Human Motion Prediction](https://arxiv.org/abs/2307.16106v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/sibotian96/TransFusion)",
+        "n": "TransFusion",
+        "d": "2023-07-30",
+        "m6": "0.508",
+        "m7": "0.568",
+        "m8": "8.853"
+      },
+      {
+        "p": "[BeLFusion: Latent Diffusion for Behavior-Driven Human Motion Prediction](https://arxiv.org/abs/2211.14304v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/BarqueroGerman/BeLFusion)",
+        "n": "BeLFusion",
+        "d": "2022-11-25",
+        "m6": "0.513",
+        "m7": "0.560",
+        "m8": "9.376",
+        "m9": "1.977"
+      },
+      {
+        "p": "[Generating Smooth Pose Sequences for Diverse Human Motion Prediction](https://arxiv.org/abs/2108.08422v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/wei-mao-2019/gsps)",
+        "n": "GSPS",
+        "d": "2021-08-19",
+        "m6": "0.563",
+        "m7": "0.613",
+        "m8": "12.465"
+      },
+      {
+        "p": "[DLow: Diversifying Latent Flows for Diverse Human Motion Prediction](https://arxiv.org/abs/2003.08386v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Khrylx/DLow)",
+        "n": "Dlow",
+        "d": "2020-03-18",
+        "m6": "0.590",
+        "m7": "0.612",
+        "m8": "13.170"
+      },
+      {
+        "p": "[The Pose Knows: Video Forecasting by Generating Pose Futures](http://arxiv.org/abs/1705.00053v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/KMarino/MMD_evalcode)",
+        "n": "ThePoseKnows",
+        "d": "2017-04-28",
+        "m6": "0.656",
+        "m7": "0.675",
+        "m8": "9.283"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

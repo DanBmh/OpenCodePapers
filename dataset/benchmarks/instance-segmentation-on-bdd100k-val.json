@@ -1,0 +1,67 @@
+{
+  "title": "instance-segmentation-on-bdd100k-val",
+  "task-hierarchy": [
+    "Instance Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://www.bdd100k.com/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Mask Transfiner for High-Quality Instance Segmentation](https://arxiv.org/abs/2111.13673v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/SysCV/transfiner)",
+        "n": "Mask Transfiner",
+        "d": "2021-11-26",
+        "m1": "23.6"
+      },
+      {
+        "p": "[Deep High-Resolution Representation Learning for Visual Recognition](https://arxiv.org/abs/1908.07919v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection)",
+        "n": "HRNet",
+        "d": "2019-08-20",
+        "m1": "22.5"
+      },
+      {
+        "p": "[Mask R-CNN](http://arxiv.org/abs/1703.06870v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/official/vision)",
+        "n": "Mask R-CNN",
+        "d": "2017-03-20",
+        "m1": "20.5"
+      },
+      {
+        "p": "[Cascade R-CNN: High Quality Object Detection and Instance Segmentation](https://arxiv.org/abs/1906.09756v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection)",
+        "n": "Cascade Mask R-CNN",
+        "d": "2019-06-24",
+        "m1": "19.8"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

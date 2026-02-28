@@ -1,0 +1,67 @@
+{
+  "title": "video-anomaly-detection-on-ubnormal",
+  "task-hierarchy": [
+    "Video Anomaly Detection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/lilygeorgescu/UBnormal/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[AnyAnomaly: Zero-Shot Customizable Video Anomaly Detection with LVLM](https://arxiv.org/abs/2503.04504v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/SkiddieAhn/Paper-AnyAnomaly)",
+        "n": "AnyAnomaly",
+        "d": "2025-03-06",
+        "m1": "74.5%"
+      },
+      {
+        "p": "[MULDE: Multiscale Log-Density Estimation via Denoising Score Matching for Video Anomaly Detection](https://arxiv.org/abs/2403.14497v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jakubmicorek/MULDE-Multiscale-Log-Density-Estimation-via-Denoising-Score-Matching-for-Video-Anomaly-Detection)",
+        "n": "MULDE-frame-centric-micro-one-class-classification",
+        "d": "2024-03-21",
+        "m1": "72.8%"
+      },
+      {
+        "p": "[Follow the Rules: Reasoning for Video Anomaly Detection with Large Language Models](https://arxiv.org/abs/2407.10299v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Yuchen413/AnomalyRuler)",
+        "n": "AnomalyRuler",
+        "d": "2024-07-14",
+        "m1": "71.9%"
+      },
+      {
+        "p": "[Holistic Representation Learning for Multitask Trajectory Anomaly Detection](https://arxiv.org/abs/2311.01851v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/alexandrosstergiou/TrajREC)",
+        "n": "TrajREC",
+        "d": "2023-11-03",
+        "m1": "68%"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

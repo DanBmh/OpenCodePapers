@@ -1,0 +1,172 @@
+{
+  "title": "grammatical-error-correction-on-bea-2019-test",
+  "task-hierarchy": [
+    "Grammatical Error Correction"
+  ],
+  "dataset-info": {
+    "link": "https://www.cl.cam.ac.uk/research/nl/bea2019st/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F0.5",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Pillars of Grammatical Error Correction: Comprehensive Inspection Of Contemporary Approaches In The Era of Large Language Models](https://arxiv.org/abs/2404.14914v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/grammarly/pillars-of-gec)",
+        "n": "Majority-voting ensemble on best 7 models",
+        "d": "2024-04-23",
+        "m1": "81.4"
+      },
+      {
+        "p": "[System Combination via Quality Estimation for Grammatical Error Correction](https://arxiv.org/abs/2310.14947v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/nusnlp/greco)",
+        "n": "GRECO (voting+ESC)",
+        "d": "2023-10-23",
+        "m1": "80.84"
+      },
+      {
+        "p": "[Frustratingly Easy System Combination for Grammatical Error Correction](https://aclanthology.org/2022.naacl-main.143)",
+        "c": "[&check;&nbsp;Link](https://github.com/nusnlp/esc)",
+        "n": "ESC",
+        "d": null,
+        "m1": "79.90"
+      },
+      {
+        "p": "[RedPenNet for Grammatical Error Correction: Outputs to Tokens, Attentions to Spans](https://arxiv.org/abs/2309.10898v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/webspellchecker/unlp-2023-shared-task)",
+        "n": "RedPenNet",
+        "d": "2023-09-19",
+        "m1": "77.60"
+      },
+      {
+        "p": "[Improved grammatical error correction by ranking elementary edits](https://openreview.net/forum?id=bg470UXkLqF)",
+        "c": "[&check;&nbsp;Link](https://github.com/AlexeySorokin/EditScorer)",
+        "n": "clang_large_ft2-gector",
+        "d": "2021-11-16",
+        "m1": "77.1"
+      },
+      {
+        "p": "[Unsupervised Grammatical Error Correction Rivaling Supervised Methods](https://aclanthology.org/2023.emnlp-main.185.pdf)",
+        "c": "[&check;&nbsp;Link](https://github.com/nusnlp/ugec)",
+        "n": "Unsupervised GEC + cLang8",
+        "d": "2023-12-06",
+        "m1": "76.5"
+      },
+      {
+        "p": "[Ensembling and Knowledge Distilling of Large Sequence Taggers for Grammatical Error Correction](https://arxiv.org/abs/2203.13064v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/makstarnavskyi/gector-large)",
+        "n": "DeBERTa + RoBERTa + XLNet",
+        "d": "2022-03-24",
+        "m1": "76.05"
+      },
+      {
+        "p": "[Efficient and Interpretable Grammatical Error Correction with Mixture of Experts](https://arxiv.org/abs/2410.23507v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/nusnlp/moece)",
+        "n": "MoECE",
+        "d": "2024-10-30",
+        "m1": "74.07"
+      },
+      {
+        "p": "[GECToR -- Grammatical Error Correction: Tag, Not Rewrite](https://arxiv.org/abs/2005.12592v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/grammarly/gector)",
+        "n": "Sequence tagging + token-level transformations + two-stage fine-tuning (+RoBERTa, XLNet)",
+        "d": "2020-05-26",
+        "m1": "73.7"
+      },
+      {
+        "p": "[Learning to combine Grammatical Error Corrections](https://arxiv.org/abs/1906.03897v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/IBM/learning-to-combine-grammatical-error-corrections)",
+        "n": "BEA Combination",
+        "d": "2019-06-10",
+        "m1": "73.2"
+      },
+      {
+        "p": "[Improving Seq2Seq Grammatical Error Correction via Decoding Interventions](https://arxiv.org/abs/2310.14534v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Jacob-Zhou/gecdi)",
+        "n": "GEC-DI (LM+GED)",
+        "d": "2023-10-23",
+        "m1": "73.1"
+      },
+      {
+        "p": "[LM-Critic: Language Models for Unsupervised Grammatical Error Correction](https://arxiv.org/abs/2109.06822v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/grammarly/gector)",
+        "n": "LM-Critic",
+        "d": "2021-09-14",
+        "m1": "72.9"
+      },
+      {
+        "p": "[GECToR -- Grammatical Error Correction: Tag, Not Rewrite](https://arxiv.org/abs/2005.12592v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/grammarly/gector)",
+        "n": "Sequence tagging + token-level transformations + two-stage fine-tuning (+XLNet)",
+        "d": "2020-05-26",
+        "m1": "72.4"
+      },
+      {
+        "p": "[An Empirical Study of Incorporating Pseudo Data into Grammatical Error Correction](https://arxiv.org/abs/1909.00502v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/butsugiri/gec-pseudodata)",
+        "n": "Transformer + Pre-train with Pseudo Data",
+        "d": "2019-09-02",
+        "m1": "70.2"
+      },
+      {
+        "p": "[Encoder-Decoder Models Can Benefit from Pre-trained Masked Language Models in Grammatical Error Correction](https://arxiv.org/abs/2005.00987v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/kanekomasahiro/bert-gec)",
+        "n": "Transformer + Pre-train with Pseudo Data (+BERT)",
+        "d": "2020-05-03",
+        "m1": "69.8"
+      },
+      {
+        "p": "[Neural Grammatical Error Correction Systems with Unsupervised Pre-training on Synthetic Data](https://aclanthology.org/W19-4427)",
+        "c": "[&check;&nbsp;Link](https://github.com/grammatical/pretraining-bea2019)",
+        "n": "Transformer",
+        "d": "2019-08-01",
+        "m1": "69.5"
+      },
+      {
+        "p": "[A Neural Grammatical Error Correction System Built On Better Pre-training and Sequential Transfer Learning](https://arxiv.org/abs/1907.01256v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/kakaobrain/helo-word)",
+        "n": "Transformer",
+        "d": "2019-07-02",
+        "m1": "69.0"
+      },
+      {
+        "p": "[Neural Quality Estimation with Multiple Hypotheses for Grammatical Error Correction](https://arxiv.org/abs/2105.04443v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/thunlp/VERNet)",
+        "n": "VERNet",
+        "d": "2021-05-10",
+        "m1": "68.9"
+      },
+      {
+        "p": "[The LAIX Systems in the BEA-2019 GEC Shared Task](https://aclanthology.org/W19-4416)",
+        "c": "",
+        "n": "Ensemble of models",
+        "d": "2019-08-01",
+        "m1": "66.78"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

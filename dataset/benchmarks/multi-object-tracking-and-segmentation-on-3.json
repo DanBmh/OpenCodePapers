@@ -1,0 +1,95 @@
+{
+  "title": "multi-object-tracking-and-segmentation-on-3",
+  "task-hierarchy": [
+    "Multi-Object Tracking and Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://www.bdd100k.com/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mMOTSA",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Universal Instance Perception as Object Discovery and Retrieval](https://arxiv.org/abs/2303.06674v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/MasterBin-IIAU/UNINEXT)",
+        "n": "UNINEXT-H",
+        "d": "2023-03-12",
+        "m1": "35.7"
+      },
+      {
+        "p": "[Towards Grand Unification of Object Tracking](https://arxiv.org/abs/2207.07078v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/masterbin-iiau/unicorn)",
+        "n": "Unicorn",
+        "d": "2022-07-14",
+        "m1": "29.6"
+      },
+      {
+        "p": "[Prototypical Cross-Attention Networks for Multiple Object Tracking and Segmentation](https://arxiv.org/abs/2106.11958v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/SysCV/pcan)",
+        "n": "PCAN",
+        "d": "2021-06-22",
+        "m1": "27.4"
+      },
+      {
+        "p": "[Prototypical Cross-Attention Networks for Multiple Object Tracking and Segmentation](https://arxiv.org/abs/2106.11958v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/SysCV/pcan)",
+        "n": "QDTrack-mots-fix",
+        "d": "2021-06-22",
+        "m1": "23.5"
+      },
+      {
+        "p": "[Prototypical Cross-Attention Networks for Multiple Object Tracking and Segmentation](https://arxiv.org/abs/2106.11958v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/SysCV/pcan)",
+        "n": "QDTrack-mots",
+        "d": "2021-06-22",
+        "m1": "22.5"
+      },
+      {
+        "p": "[Prototypical Cross-Attention Networks for Multiple Object Tracking and Segmentation](https://arxiv.org/abs/2106.11958v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/SysCV/pcan)",
+        "n": "MaskTrackRCNN",
+        "d": "2021-06-22",
+        "m1": "12.3"
+      },
+      {
+        "p": "[Prototypical Cross-Attention Networks for Multiple Object Tracking and Segmentation](https://arxiv.org/abs/2106.11958v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/SysCV/pcan)",
+        "n": "STEm-Seg",
+        "d": "2021-06-22",
+        "m1": "12.2"
+      },
+      {
+        "p": "[Prototypical Cross-Attention Networks for Multiple Object Tracking and Segmentation](https://arxiv.org/abs/2106.11958v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/SysCV/pcan)",
+        "n": "SortIoU",
+        "d": "2021-06-22",
+        "m1": "10.3"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

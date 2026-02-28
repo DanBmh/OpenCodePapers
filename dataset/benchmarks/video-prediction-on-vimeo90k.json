@@ -1,0 +1,68 @@
+{
+  "title": "video-prediction-on-vimeo90k",
+  "task-hierarchy": [
+    "Video Prediction"
+  ],
+  "dataset-info": {
+    "link": "http://toflow.csail.mit.edu/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "LPIPS",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "MS-SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "OPT",
+        "d": null,
+        "m1": "0.0359",
+        "m2": "0.9675"
+      },
+      {
+        "p": "[A Dynamic Multi-Scale Voxel Flow Network for Video Prediction](https://arxiv.org/abs/2303.09875v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/megvii-research/CVPR2023-DMVFN)",
+        "n": "DMVFN",
+        "d": "2023-03-17",
+        "m1": "0.0369",
+        "m2": "0.9701"
+      },
+      {
+        "p": "[Video Frame Synthesis using Deep Voxel Flow](http://arxiv.org/abs/1702.02463v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/liuziwei7/voxel-flow)",
+        "n": "DVF",
+        "d": "2017-02-08",
+        "m1": "0.0773",
+        "m2": "0.9211"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

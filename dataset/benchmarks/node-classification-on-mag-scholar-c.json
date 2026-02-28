@@ -1,0 +1,64 @@
+{
+  "title": "node-classification-on-mag-scholar-c",
+  "task-hierarchy": [
+    "Node Classification"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[GRAND+: Scalable Graph Random Neural Networks](https://arxiv.org/abs/2203.06389v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/wzfhaha/grand-plus)",
+        "n": "FastGCN",
+        "d": "2022-03-12",
+        "m1": "64.3"
+      },
+      {
+        "p": "[GRAND+: Scalable Graph Random Neural Networks](https://arxiv.org/abs/2203.06389v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/wzfhaha/grand-plus)",
+        "n": "PPRGo",
+        "d": "2022-03-12",
+        "m1": "72.9"
+      },
+      {
+        "p": "[GRAND+: Scalable Graph Random Neural Networks](https://arxiv.org/abs/2203.06389v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/wzfhaha/grand-plus)",
+        "n": "GraphSAINT",
+        "d": "2022-03-12",
+        "m1": "75.0"
+      },
+      {
+        "p": "[GRAND+: Scalable Graph Random Neural Networks](https://arxiv.org/abs/2203.06389v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/wzfhaha/grand-plus)",
+        "n": "GRAND+",
+        "d": "2022-03-12",
+        "m1": "80.0"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

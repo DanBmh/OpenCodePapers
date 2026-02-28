@@ -1,0 +1,65 @@
+{
+  "title": "information-retrieval-on-ms-marco",
+  "task-hierarchy": [
+    "Information Retrieval"
+  ],
+  "dataset-info": {
+    "link": "https://microsoft.github.io/msmarco/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Time (ms)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "MRR@10",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Dimension Reduction for Efficient Dense Retrieval via Conditional Autoencoder](https://arxiv.org/abs/2205.03284v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/neuir/conae)",
+        "n": "ConAE-128",
+        "d": "2022-05-06",
+        "m1": "0.3245"
+      },
+      {
+        "p": "[Dimension Reduction for Efficient Dense Retrieval via Conditional Autoencoder](https://arxiv.org/abs/2205.03284v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/neuir/conae)",
+        "n": "ConAE-256",
+        "d": "2022-05-06",
+        "m1": "0.3294"
+      },
+      {
+        "p": "[RetroMAE v2: Duplex Masked Auto-Encoder For Pre-Training Retrieval-Oriented Language Models](https://arxiv.org/abs/2211.08769v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/staoxiao/retromae)",
+        "n": "RetroMAE v2",
+        "d": "2022-11-16",
+        "m2": "42.58"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

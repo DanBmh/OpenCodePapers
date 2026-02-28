@@ -1,0 +1,94 @@
+{
+  "title": "person-re-identification-on-esports-sensors",
+  "task-hierarchy": [
+    "Person Re-Identification"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/smerdov/eSports_Sensors_Dataset"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "LogLoss",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "ROC AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Collection and Validation of Psychophysiological Data from Professional and Amateur Players: a Multimodal eSports Dataset](https://arxiv.org/abs/2011.00958v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/smerdov/eSports_Sensors_Dataset)",
+        "n": "Random Forest",
+        "d": "2020-11-02",
+        "m1": "52.1",
+        "m2": "0.01617",
+        "m3": "0.919"
+      },
+      {
+        "p": "[Collection and Validation of Psychophysiological Data from Professional and Amateur Players: a Multimodal eSports Dataset](https://arxiv.org/abs/2011.00958v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/smerdov/eSports_Sensors_Dataset)",
+        "n": "Logistic Regression",
+        "d": "2020-11-02",
+        "m1": "48.8",
+        "m2": "0.01615",
+        "m3": "0.884"
+      },
+      {
+        "p": "[Collection and Validation of Psychophysiological Data from Professional and Amateur Players: a Multimodal eSports Dataset](https://arxiv.org/abs/2011.00958v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/smerdov/eSports_Sensors_Dataset)",
+        "n": "SVM",
+        "d": "2020-11-02",
+        "m1": "45",
+        "m2": "0.01588",
+        "m3": "0.89"
+      },
+      {
+        "p": "[Collection and Validation of Psychophysiological Data from Professional and Amateur Players: a Multimodal eSports Dataset](https://arxiv.org/abs/2011.00958v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/smerdov/eSports_Sensors_Dataset)",
+        "n": "KNN",
+        "d": "2020-11-02",
+        "m1": "41.5",
+        "m2": "0.05735",
+        "m3": "0.84"
+      },
+      {
+        "p": "[Collection and Validation of Psychophysiological Data from Professional and Amateur Players: a Multimodal eSports Dataset](https://arxiv.org/abs/2011.00958v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/smerdov/eSports_Sensors_Dataset)",
+        "n": "Random Guess",
+        "d": "2020-11-02",
+        "m1": "10",
+        "m2": "0.02303",
+        "m3": "0.5"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

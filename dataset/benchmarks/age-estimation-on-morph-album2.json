@@ -1,0 +1,108 @@
+{
+  "title": "age-estimation-on-morph-album2",
+  "task-hierarchy": [
+    "Age Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://uncw.edu/oic/tech/morph.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MAE",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "CS",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Hierarchical Attention-based Age Estimation and Bias Estimation](https://arxiv.org/abs/2103.09882v2)",
+        "c": "",
+        "n": "Hierarchical Attention-based Age Estimation (RS)",
+        "d": "2021-03-17",
+        "m1": "1.13"
+      },
+      {
+        "p": "[MetaAge: Meta-Learning Personalized Age Estimators](https://arxiv.org/abs/2207.05288v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Li-Wanhua/MetaAge)",
+        "n": "MataAge",
+        "d": "2022-07-12",
+        "m1": "1.81"
+      },
+      {
+        "p": "[Learning Expectation of Label Distribution for Facial Age and Attractiveness Estimation](https://arxiv.org/abs/2007.01771v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/gaobb/DLDL-v2)",
+        "n": "DLDL-v2 (ThinAgeNet)",
+        "d": "2020-07-03",
+        "m1": "1.969"
+      },
+      {
+        "p": "[Moving Window Regression: A Novel Approach to Ordinal Regression](https://arxiv.org/abs/2203.13122v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/nhshin-mcl/mwr)",
+        "n": "MWR",
+        "d": "2022-03-24",
+        "m1": "2.00",
+        "m2": "95.0"
+      },
+      {
+        "p": "[Deep Label Distribution Learning with Label Ambiguity](http://arxiv.org/abs/1611.01731v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/gaobb/DLDL)",
+        "n": "DLDL+VGG-Face",
+        "d": "2016-11-06",
+        "m1": "2.42±0.01"
+      },
+      {
+        "p": "[Deep Label Distribution Learning with Label Ambiguity](http://arxiv.org/abs/1611.01731v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/gaobb/DLDL)",
+        "n": "DLDL+VGG-Face (KL, Max)3",
+        "d": "2016-11-06",
+        "m1": "2.42"
+      },
+      {
+        "p": "[Quantifying Facial Age by Posterior of Age Comparisons](http://arxiv.org/abs/1708.09687v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/zyx2012/Age_estimation_BMVC2017)",
+        "n": "MegaAge (w. IMDB-WIKI)",
+        "d": "2017-08-31",
+        "m1": "2.52"
+      },
+      {
+        "p": "[Hierarchical Attention-based Age Estimation and Bias Estimation](https://arxiv.org/abs/2103.09882v2)",
+        "c": "",
+        "n": "Hierarchical Attention-based Age Estimation (SE)",
+        "d": "2021-03-17",
+        "m1": "2.53"
+      },
+      {
+        "p": "[Rank consistent ordinal regression for neural networks with application to age estimation](https://arxiv.org/abs/1901.07884v7)",
+        "c": "[&check;&nbsp;Link](https://github.com/Raschka-research-group/coral-cnn)",
+        "n": "CORAL",
+        "d": "2019-01-20",
+        "m1": "2.59"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

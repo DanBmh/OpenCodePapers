@@ -1,0 +1,68 @@
+{
+  "title": "2d-object-detection-on-scoraldet-dataset-1",
+  "task-hierarchy": [
+    "2D Object Detection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/RDXiaoLu/SCoralDet-Dataset.git"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mAP50",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[A Diffusion Model and Knowledge Distillation Framework for Robust Coral Detection in Complex Underwater Environments](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5084496)",
+        "c": "[&check;&nbsp;Link](https://github.com/RDXiaoLu/MambaCoral-DiffDet)",
+        "n": "MambaCoral-DiffDet",
+        "d": "2025-01-06",
+        "m1": "84.3",
+        "m2": "56.6"
+      },
+      {
+        "p": "[SCoralDet: Efficient real-time underwater soft coral detection with YOLO](https://www.sciencedirect.com/science/article/pii/S1574954124004795)",
+        "c": "[&check;&nbsp;Link](https://github.com/RDXiaoLu/SCoralDet-Dataset)",
+        "n": "SCoralDet",
+        "d": "2024-12-16",
+        "m1": "80.19",
+        "m2": "53.2"
+      },
+      {
+        "p": "[Underwater Soft Coral Detection: SCoralNet for Accurate and Efficient Annotation.](https://www.iaeng.org/IJCS/issues_v51/issue_9/IJCS_51_9_01.pdf)",
+        "c": "",
+        "n": "SCoralNet",
+        "d": "2024-08-01",
+        "m1": "-",
+        "m2": "53.9"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

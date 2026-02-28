@@ -1,0 +1,60 @@
+{
+  "title": "code-generation-on-taco-code",
+  "task-hierarchy": [
+    "Code Generation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/FlagOpen/TACO/tree/main"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "easy pass@1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[TACO: Topics in Algorithmic COde generation dataset](https://arxiv.org/abs/2312.14852v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/flagopen/taco)",
+        "n": "GPT-4",
+        "d": "2023-12-22",
+        "m1": "31.50%"
+      },
+      {
+        "p": "[TACO: Topics in Algorithmic COde generation dataset](https://arxiv.org/abs/2312.14852v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/flagopen/taco)",
+        "n": "Starcoder-15.5B",
+        "d": "2023-12-22",
+        "m1": "11.6%"
+      },
+      {
+        "p": "[TACO: Topics in Algorithmic COde generation dataset](https://arxiv.org/abs/2312.14852v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/flagopen/taco)",
+        "n": "CodeLlama-7B-Python",
+        "d": "2023-12-22",
+        "m1": "9.32%"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "title": "video-semantic-segmentation-on-lars",
+  "task-hierarchy": [
+    "2D Semantic Segmentation",
+    "Scene Parsing",
+    "Scene Understanding",
+    "Video Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://lojzezust.github.io/lars-dataset/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Q",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "μ",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[LaRS: A Diverse Panoptic Maritime Obstacle Detection Dataset and Benchmark](https://arxiv.org/abs/2308.09618v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/lojzezust/lars_evaluator)",
+        "n": "WaSR-T (ResNet-101)",
+        "d": "2023-08-18",
+        "m1": "60.1",
+        "m2": "62.1",
+        "m3": "71.1",
+        "m4": "96.7"
+      },
+      {
+        "p": "[LaRS: A Diverse Panoptic Maritime Obstacle Detection Dataset and Benchmark](https://arxiv.org/abs/2308.09618v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/lojzezust/lars_evaluator)",
+        "n": "TMANet (ResNet-50)",
+        "d": "2023-08-18",
+        "m1": "57.5",
+        "m2": "61.1",
+        "m3": "77.1",
+        "m4": "94.1"
+      },
+      {
+        "p": "[LaRS: A Diverse Panoptic Maritime Obstacle Detection Dataset and Benchmark](https://arxiv.org/abs/2308.09618v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/lojzezust/lars_evaluator)",
+        "n": "CSANet (ResNet-101)",
+        "d": "2023-08-18",
+        "m1": "49.1",
+        "m2": "52.1",
+        "m3": "63.7",
+        "m4": "94.2"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

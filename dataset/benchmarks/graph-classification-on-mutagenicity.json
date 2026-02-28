@@ -1,0 +1,75 @@
+{
+  "title": "graph-classification-on-mutagenicity",
+  "task-hierarchy": [
+    "Classification",
+    "Graph Classification"
+  ],
+  "dataset-info": {
+    "link": "https://ls11-www.cs.tu-dortmund.de/staff/morris/graphkerneldatasets"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[TREE-G: Decision Trees Contesting Graph Neural Networks](https://arxiv.org/abs/2207.02760v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/mayabechlerspeicher/tree-g)",
+        "n": "TREE-G",
+        "d": "2022-07-06",
+        "m1": "83"
+      },
+      {
+        "p": "[Hierarchical Graph Pooling with Structure Learning](https://arxiv.org/abs/1911.05954v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/hgp_sl)",
+        "n": "HGP-SL",
+        "d": "2019-11-14",
+        "m1": "82.15"
+      },
+      {
+        "p": "[Pre-training Graph Neural Networks on Molecules by Using Subgraph-Conditioned Graph Information Bottleneck](https://arxiv.org/abs/2412.15589)",
+        "c": "[&check;&nbsp;Link](https://github.com/NSLab-CUK/S-CGIB)",
+        "n": "S-CGIB",
+        "d": "2025-02-20",
+        "m1": "81.12±0.90"
+      },
+      {
+        "p": "[Maximum Entropy Weighted Independent Set Pooling for Graph Neural Networks](https://arxiv.org/abs/2107.01410v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/mewispool/mewispool)",
+        "n": "MEWISPool",
+        "d": "2021-07-03",
+        "m1": "80.66"
+      },
+      {
+        "p": "[Hierarchical Representation Learning in Graph Neural Networks with Node Decimation Pooling](https://arxiv.org/abs/1910.11436v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/danielegrattarola/decimation-pooling)",
+        "n": "NDP",
+        "d": "2019-10-24",
+        "m1": "78.1"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

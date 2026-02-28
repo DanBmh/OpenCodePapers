@@ -1,0 +1,330 @@
+{
+  "title": "task-1-grouping-on-ocw",
+  "task-hierarchy": [
+    "Constrained Clustering",
+    "Only Connect Walls Dataset Task 1 (Grouping)"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/TaatiTeam/OCW"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": " Wasserstein Distance (WD)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "# Correct Groups",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Fowlkes Mallows Score (FMS)",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Adjusted Rand Index (ARI)",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Adjusted Mutual Information (AMI)",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "# Solved Walls",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "Wasserstein Distance (WD)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[GPT-4 Technical Report](https://arxiv.org/abs/2303.08774v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/openai/evals)",
+        "n": "GPT-4 (5-shot)",
+        "d": "2023-03-15",
+        "m1": "72.9",
+        "m2": "269",
+        "m3": "43.4",
+        "m4": "29.1",
+        "m5": "32.8 ",
+        "m6": "7"
+      },
+      {
+        "p": "[GPT-4 Technical Report](https://arxiv.org/abs/2303.08774v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/openai/evals)",
+        "n": "GPT-4 (1-shot)",
+        "d": "2023-03-15",
+        "m1": "73.4",
+        "m2": "262",
+        "m3": "43.7",
+        "m4": "29.7",
+        "m5": " 33.5",
+        "m6": " 4"
+      },
+      {
+        "p": "[GPT-4 Technical Report](https://arxiv.org/abs/2303.08774v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/openai/evals)",
+        "n": "GPT-4 (100-shot)",
+        "d": "2023-03-15",
+        "m1": "73.6",
+        "m2": "249",
+        "m3": " 42.8",
+        "m4": " 28.5",
+        "m5": " 32.3",
+        "m6": "3"
+      },
+      {
+        "p": "[GPT-4 Technical Report](https://arxiv.org/abs/2303.08774v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/openai/evals)",
+        "n": "GPT-4 (3-shot)",
+        "d": "2023-03-15",
+        "m1": "73.7",
+        "m2": "272",
+        "m3": "43.9",
+        "m4": "29.9",
+        "m5": "33.6",
+        "m6": "5"
+      },
+      {
+        "p": "[GPT-4 Technical Report](https://arxiv.org/abs/2303.08774v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/openai/evals)",
+        "n": "GPT-4 (0-shot)",
+        "d": "2023-03-15",
+        "m1": "75.8",
+        "m2": "239",
+        "m3": "41.5",
+        "m4": "27.2",
+        "m5": "30.7",
+        "m6": "6"
+      },
+      {
+        "p": "[GPT-4 Technical Report](https://arxiv.org/abs/2303.08774v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/openai/evals)",
+        "n": "GPT-3.5-turbo (5-shot)",
+        "d": "2023-03-15",
+        "m1": "80.6",
+        "m2": "149",
+        "m3": " 37.3",
+        "m4": " 22.0",
+        "m5": " 25.4",
+        "m6": "2"
+      },
+      {
+        "p": "[GPT-4 Technical Report](https://arxiv.org/abs/2303.08774v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/openai/evals)",
+        "n": "GPT-3.5-turbo (3-shot)",
+        "d": "2023-03-15",
+        "m1": "80.9",
+        "m2": "140",
+        "m3": "36.8",
+        "m4": "21.3",
+        "m5": "24.7",
+        "m6": "0"
+      },
+      {
+        "p": "[GPT-4 Technical Report](https://arxiv.org/abs/2303.08774v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/openai/evals)",
+        "n": "GPT-3.5-turbo (10-shot)",
+        "d": "2023-03-15",
+        "m1": "81.2",
+        "m2": "137",
+        "m3": "36.1",
+        "m4": "20.4",
+        "m5": " 24.0",
+        "m6": "2"
+      },
+      {
+        "p": "[GPT-4 Technical Report](https://arxiv.org/abs/2303.08774v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/openai/evals)",
+        "n": "GPT-3.5-turbo (1-shot)",
+        "d": "2023-03-15",
+        "m1": "82.3",
+        "m2": "123",
+        "m3": " 34.4",
+        "m4": " 18.2",
+        "m5": " 21.2",
+        "m6": "0"
+      },
+      {
+        "p": "[GPT-4 Technical Report](https://arxiv.org/abs/2303.08774v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/openai/evals)",
+        "n": "GPT-3.5-turbo (0-shot)",
+        "d": "2023-03-15",
+        "m1": "82.5",
+        "m2": "114",
+        "m3": " 34.0",
+        "m4": " 18.4",
+        "m5": "21.6",
+        "m6": "0"
+      },
+      {
+        "p": "[Text Embeddings by Weakly-Supervised Contrastive Pre-training](https://arxiv.org/abs/2212.03533v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/microsoft/unilm)",
+        "n": "E5 (BASE)",
+        "d": "2022-12-07",
+        "m1": "83.8 ± .6",
+        "m2": "89 ± 6",
+        "m3": "33.1 ± .3",
+        "m4": " 16.3 ± .4",
+        "m5": "19.5 ± .4",
+        "m6": " 1 ± 0"
+      },
+      {
+        "p": "[Learning Word Vectors for 157 Languages](http://arxiv.org/abs/1802.06893v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/dzieciou/lemmatizer-pl)",
+        "n": "FastText (Crawl)",
+        "d": "2018-02-19",
+        "m1": "84.2 ± .5",
+        "m2": "80 ± 4",
+        "m3": "32.1 ± .3",
+        "m4": "15.2 ± .3",
+        "m5": "18.4 ± .4",
+        "m6": "0 ± 0"
+      },
+      {
+        "p": "[Text Embeddings by Weakly-Supervised Contrastive Pre-training](https://arxiv.org/abs/2212.03533v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/microsoft/unilm)",
+        "n": "E5 (LARGE)",
+        "d": "2022-12-07",
+        "m1": "84.4 ± .7",
+        "m2": "76 ± 5",
+        "m3": "32.3 ± .4",
+        "m4": "15.4 ± .5",
+        "m5": "18.5 ± .6",
+        "m6": "0 ± 0"
+      },
+      {
+        "p": "[GloVe: Global Vectors for Word Representation](https://aclanthology.org/D14-1162)",
+        "c": "[&check;&nbsp;Link](https://github.com/stanfordnlp/GloVe)",
+        "n": "GloVe",
+        "d": "2014-10-01",
+        "m1": "84.9 ± .4",
+        "m2": "68 ± 4",
+        "m3": " 31.5 ± .3",
+        "m4": "14.4 ± .3",
+        "m5": "17.6 ± .4",
+        "m6": "0 ± 0"
+      },
+      {
+        "p": "[Learning Word Vectors for 157 Languages](http://arxiv.org/abs/1802.06893v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/dzieciou/lemmatizer-pl)",
+        "n": "FastText (News)",
+        "d": "2018-02-19",
+        "m1": "85.5 ± .5",
+        "m2": "62 ± 3",
+        "m3": "30.4 ± .2",
+        "m4": "13.0 ± .2",
+        "m5": " 15.8 ± .3",
+        "m6": "0 ± 0"
+      },
+      {
+        "p": "[MPNet: Masked and Permuted Pre-training for Language Understanding](https://arxiv.org/abs/2004.09297v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "all-mpnet (BASE)",
+        "d": "2020-04-20",
+        "m1": "86.3 ± .4",
+        "m2": " 50 ± 4",
+        "m3": "29.4 ± .3",
+        "m4": " 11.7 ± .4",
+        "m5": "14.3 ± .5",
+        "m6": "0 ± 0"
+      },
+      {
+        "p": "[Pre-Training of Deep Bidirectional Protein Sequence Representations with Structural Information](https://arxiv.org/abs/1912.05625v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/mswzeus/PLUS)",
+        "n": "BERT (LARGE)",
+        "d": "2019-11-25",
+        "m1": "88.3 ± .5",
+        "m2": "33 ± 2",
+        "m3": " 26.5 ± .2",
+        "m4": "8.2 ± .3",
+        "m5": "10.3 ± .3",
+        "m6": "0 ± 0"
+      },
+      {
+        "p": "[Pre-Training of Deep Bidirectional Protein Sequence Representations with Structural Information](https://arxiv.org/abs/1912.05625v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/mswzeus/PLUS)",
+        "n": "BERT (BASE)",
+        "d": "2019-11-25",
+        "m1": "89.5 ± .4",
+        "m2": "22 ± 2",
+        "m3": "25.1 ± .2",
+        "m4": "6.4 ± .3",
+        "m5": "8.1 ± .4",
+        "m6": "0 ± 0"
+      },
+      {
+        "p": "[Large Language Models are Fixated by Red Herrings: Exploring Creative Problem Solving and Einstellung Effect using the Only Connect Wall Dataset](https://arxiv.org/abs/2306.11167v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/taatiteam/ocw)",
+        "n": "Human Performance",
+        "d": "2023-06-19",
+        "m2": "1405",
+        "m6": "285"
+      },
+      {
+        "p": "[Deep contextualized word representations](http://arxiv.org/abs/1802.05365v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/flairNLP/flair)",
+        "n": "ELMo (LARGE)",
+        "d": "2018-02-15",
+        "m2": "55 ± 4",
+        "m3": "29.5 ± .3",
+        "m4": "11.8 ± .4",
+        "m5": "14.5 ± .4",
+        "m6": "0 ± 0",
+        "m7": "86.3 ± .6"
+      },
+      {
+        "p": "[DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter](https://arxiv.org/abs/1910.01108v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "DistilBERT (BASE)",
+        "d": "2019-10-02",
+        "m2": "49 ± 4",
+        "m3": "29.1 ± .2",
+        "m4": "11.3 ± .3",
+        "m5": " 14.0 ± .3",
+        "m6": "0 ± 0",
+        "m7": "86.7 ± .6"
+      },
+      {
+        "p": "[RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/abs/1907.11692v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "RoBERTa (LARGE)",
+        "d": "2019-07-26",
+        "m2": "29 ± 3",
+        "m3": " 26.7 ± .2",
+        "m4": " 8.4 ± .3",
+        "m5": "9.4 ± .4",
+        "m6": "0 ± 0",
+        "m7": "88.4 ± .4"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

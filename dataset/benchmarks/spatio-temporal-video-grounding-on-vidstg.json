@@ -1,0 +1,100 @@
+{
+  "title": "spatio-temporal-video-grounding-on-vidstg",
+  "task-hierarchy": [
+    "Spatio-Temporal Video Grounding"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/Guaranteer/VidSTG-Dataset"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Declarative m_vIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Declarative vIoU@0.3",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Declarative vIoU@0.5",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Interrogative m_vIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Interrogative vIoU@0.3",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "Interrogative vIoU@0.5",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Knowing Your Target: Target-Aware Transformer Makes Better Spatio-Temporal Video Grounding](https://arxiv.org/abs/2502.11168v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/HengLan/TA-STVG)",
+        "n": "TA-STVG",
+        "d": "2025-02-16",
+        "m1": "34.4",
+        "m2": "48.2",
+        "m3": "33.5",
+        "m4": "29.5",
+        "m5": "41.5",
+        "m6": "28.0"
+      },
+      {
+        "p": "[Context-Guided Spatio-Temporal Video Grounding](https://arxiv.org/abs/2401.01578v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/henglan/cgstvg)",
+        "n": "CG-STVG",
+        "d": "2024-01-03",
+        "m1": "34.0",
+        "m2": "47.7",
+        "m3": "33.1",
+        "m4": "29.0",
+        "m5": "40.5",
+        "m6": "27.5"
+      },
+      {
+        "p": "[TubeDETR: Spatio-Temporal Video Grounding with Transformers](https://arxiv.org/abs/2203.16434v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/antoyang/TubeDETR)",
+        "n": "TubeDETR",
+        "d": "2022-03-30",
+        "m1": "30.4",
+        "m2": "42.5",
+        "m3": "28.2",
+        "m4": "25.7",
+        "m5": "35.7",
+        "m6": "23.2"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "title": "graph-ranking-on-ogbg-molfreesolv",
+  "task-hierarchy": [
+    "Graph Ranking"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Kendall's Tau",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Ranking Structured Objects with Graph Neural Networks](https://arxiv.org/abs/2104.08869v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Cortys/rankgnn)",
+        "n": "2-WL-GNN + Utility Regression",
+        "d": "2021-04-18",
+        "m1": "0.379"
+      },
+      {
+        "p": "[Ranking Structured Objects with Graph Neural Networks](https://arxiv.org/abs/2104.08869v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Cortys/rankgnn)",
+        "n": "2-WL-GNN + Rank Regression",
+        "d": "2021-04-18",
+        "m1": "0.524"
+      },
+      {
+        "p": "[Ranking Structured Objects with Graph Neural Networks](https://arxiv.org/abs/2104.08869v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Cortys/rankgnn)",
+        "n": "2-WL-GNN + DirectRanker",
+        "d": "2021-04-18",
+        "m1": "0.525"
+      },
+      {
+        "p": "[Ranking Structured Objects with Graph Neural Networks](https://arxiv.org/abs/2104.08869v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Cortys/rankgnn)",
+        "n": "2-WL-GNN + CmpNN",
+        "d": "2021-04-18",
+        "m1": "0.527"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

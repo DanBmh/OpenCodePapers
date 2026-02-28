@@ -1,0 +1,95 @@
+{
+  "title": "entity-linking-on-ec-funsd",
+  "task-hierarchy": [
+    "Entity Linking"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/chongzhangFDU/ROOR-Datasets"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Modeling Layout Reading Order as Ordering Relations for Visually-rich Document Understanding](https://arxiv.org/abs/2409.19672v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/chongzhangFDU/ROOR)",
+        "n": "RORE (GeoLayoutLM)",
+        "d": "2024-09-29",
+        "m1": "87.42"
+      },
+      {
+        "p": "[Rethinking the Evaluation of Pre-trained Text-and-Layout Models from an Entity-Centric Perspective](https://arxiv.org/abs/2402.02379v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/chongzhangFDU/ROOR)",
+        "n": "GeoLayoutLM",
+        "d": "2024-02-04",
+        "m1": "86.18"
+      },
+      {
+        "p": "[Modeling Layout Reading Order as Ordering Relations for Visually-rich Document Understanding](https://arxiv.org/abs/2409.19672v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/chongzhangFDU/ROOR)",
+        "n": "RORE (LayoutLMv3-large)",
+        "d": "2024-09-29",
+        "m1": "79.33"
+      },
+      {
+        "p": "[Rethinking the Evaluation of Pre-trained Text-and-Layout Models from an Entity-Centric Perspective](https://arxiv.org/abs/2402.02379v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/chongzhangFDU/ROOR)",
+        "n": "LayoutLMv3 (large)",
+        "d": "2024-02-04",
+        "m1": "78.14"
+      },
+      {
+        "p": "[LayoutLMv3: Pre-training for Document AI with Unified Text and Image Masking](https://arxiv.org/abs/2204.08387v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "LayoutLMv3 (large)",
+        "d": "2022-04-18",
+        "m1": "78.14"
+      },
+      {
+        "p": "[Modeling Layout Reading Order as Ordering Relations for Visually-rich Document Understanding](https://arxiv.org/abs/2409.19672v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/chongzhangFDU/ROOR)",
+        "n": "RORE (LayoutLMv3-base)",
+        "d": "2024-09-29",
+        "m1": "73.64"
+      },
+      {
+        "p": "[Rethinking the Evaluation of Pre-trained Text-and-Layout Models from an Entity-Centric Perspective](https://arxiv.org/abs/2402.02379v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/chongzhangFDU/ROOR)",
+        "n": "LayoutLMv3 (base)",
+        "d": "2024-02-04",
+        "m1": "67.47"
+      },
+      {
+        "p": "[LayoutLMv3: Pre-training for Document AI with Unified Text and Image Masking](https://arxiv.org/abs/2204.08387v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "LayoutLMv3 (base)",
+        "d": "2022-04-18",
+        "m1": "67.47"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

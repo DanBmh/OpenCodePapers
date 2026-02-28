@@ -1,0 +1,302 @@
+{
+  "title": "lidar-semantic-segmentation-on-nuscenes",
+  "task-hierarchy": [
+    "LIDAR Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://www.nuscenes.org/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "test mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "val mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[DINO in the Room: Leveraging 2D Foundation Models for 3D Segmentation](https://arxiv.org/abs/2503.18944v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/VisualComputingInstitute/DITR)",
+        "n": "DITR",
+        "d": "2025-03-24",
+        "m1": "0.851",
+        "m2": "0.842"
+      },
+      {
+        "p": "[Point Transformer V3: Simpler, Faster, Stronger](https://arxiv.org/abs/2312.10035v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Pointcept/Pointcept)",
+        "n": "PTv3 + PPT",
+        "d": "2023-12-15",
+        "m1": "0.830",
+        "m2": "0.812"
+      },
+      {
+        "p": "[Point Transformer V2: Grouped Vector Attention and Partition-based Pooling](https://arxiv.org/abs/2210.05666v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Pointcept/Pointcept)",
+        "n": "PTv2",
+        "d": "2022-10-11",
+        "m1": "0.826",
+        "m2": "0.802"
+      },
+      {
+        "p": "[FRNet: Frustum-Range Networks for Scalable LiDAR Segmentation](https://arxiv.org/abs/2312.04484v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/ldkong1205/Robo3D)",
+        "n": "FRNet",
+        "d": "2023-12-07",
+        "m1": "0.825",
+        "m2": "0.790"
+      },
+      {
+        "p": "[Spherical Transformer for LiDAR-based 3D Recognition](https://arxiv.org/abs/2303.12766v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/dvlab-research/sphereformer)",
+        "n": "SphereFormer",
+        "d": "2023-03-22",
+        "m1": "0.819",
+        "m2": "0.795"
+      },
+      {
+        "p": "[Searching Efficient 3D Architectures with Sparse Point-Voxel Convolution](https://arxiv.org/abs/2007.16100v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Pointcept/Pointcept)",
+        "n": "SPVCNN++",
+        "d": "2020-07-31",
+        "m1": "0.811"
+      },
+      {
+        "p": "[2DPASS: 2D Priors Assisted Semantic Segmentation on LiDAR Point Clouds](https://arxiv.org/abs/2207.04397v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/yanx27/2dpass)",
+        "n": "2DPASS",
+        "d": "2022-07-10",
+        "m1": "0.81"
+      },
+      {
+        "p": "[Rethinking Range View Representation for LiDAR Segmentation](https://arxiv.org/abs/2303.05367v3)",
+        "c": "",
+        "n": "RangeFormer",
+        "d": "2023-03-09",
+        "m1": "0.81"
+      },
+      {
+        "p": "[SFPNet: Sparse Focal Point Network for Semantic Segmentation on General LiDAR Point Clouds](https://arxiv.org/abs/2407.11569v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Cavendish518/SFPNet)",
+        "n": "SFPNet",
+        "d": "2024-07-16",
+        "m1": "0.802",
+        "m2": "0.801"
+      },
+      {
+        "p": "[Learning 3D Semantic Segmentation with only 2D Image Supervision](https://arxiv.org/abs/2110.11325v1)",
+        "c": "",
+        "n": "2D3DNet",
+        "d": "2021-10-21",
+        "m1": "0.80"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "GU-Net",
+        "d": null,
+        "m1": "0.80"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "DRINet++: Efficient Voxel-as-point Point Cloud Segmentation",
+        "d": null,
+        "m1": "0.80"
+      },
+      {
+        "p": "[(AF)2-S3Net: Attentive Feature Fusion with Adaptive Feature Selection for Sparse Semantic Segmentation Network](https://arxiv.org/abs/2102.04530v1)",
+        "c": "",
+        "n": "AF2S3Net",
+        "d": "2021-02-08",
+        "m1": "0.78"
+      },
+      {
+        "p": "[Cylinder3D: An Effective 3D Framework for Driving-scene LiDAR Semantic Segmentation](https://arxiv.org/abs/2008.01550v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/xinge008/Cylinder3D)",
+        "n": "Cylinder3D++",
+        "d": "2020-08-04",
+        "m1": "0.78"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "CPFusion",
+        "d": null,
+        "m1": "0.78"
+      },
+      {
+        "p": "[Searching Efficient 3D Architectures with Sparse Point-Voxel Convolution](https://arxiv.org/abs/2007.16100v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Pointcept/Pointcept)",
+        "n": "SPVNAS",
+        "d": "2020-07-31",
+        "m1": "0.77"
+      },
+      {
+        "p": "[AMVNet: Assertion-based Multi-View Fusion Network for LiDAR Semantic Segmentation](https://arxiv.org/abs/2012.04934v1)",
+        "c": "",
+        "n": "AMVNet",
+        "d": "2020-12-09",
+        "m1": "0.77"
+      },
+      {
+        "p": "[Cylindrical and Asymmetrical 3D Convolution Networks for LiDAR Segmentation](https://arxiv.org/abs/2011.10033v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/xinge008/Cylinder3D)",
+        "n": "Cylinder3D+InstanceAug",
+        "d": "2020-11-19",
+        "m1": "0.77"
+      },
+      {
+        "p": "[EPMF: Efficient Perception-aware Multi-sensor Fusion for 3D Semantic Segmentation](https://arxiv.org/abs/2106.15277v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/ICEORY/PMF)",
+        "n": "PMF-ResNet50",
+        "d": "2021-06-21",
+        "m1": "0.77"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "LIFusion",
+        "d": null,
+        "m1": "0.76"
+      },
+      {
+        "p": "[GFNet: Geometric Flow Network for 3D Point Cloud Semantic Segmentation](https://arxiv.org/abs/2207.02605v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/haibo-qiu/gfnet)",
+        "n": "GFNet",
+        "d": "2022-07-06",
+        "m1": "0.76"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "OrangeNet",
+        "d": null,
+        "m1": "0.75"
+      },
+      {
+        "p": "[Sparse Single Sweep LiDAR Point Cloud Segmentation via Learning Contextual Shape Priors from Scene Completion](https://arxiv.org/abs/2012.03762v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/yanx27/JS3C-Net)",
+        "n": "JS3C-Net",
+        "d": "2020-12-07",
+        "m1": "0.74"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Open_world_incremental",
+        "d": null,
+        "m1": "0.74"
+      },
+      {
+        "p": "[PolarStream: Streaming Lidar Object Detection and Segmentation with Polar Pillars](https://arxiv.org/abs/2106.07545v2)",
+        "c": "",
+        "n": "PolarStream-1",
+        "d": "2021-06-14",
+        "m1": "0.73"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "DB-Unet",
+        "d": null,
+        "m1": "0.70"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Vis-PolarNet",
+        "d": null,
+        "m1": "0.70"
+      },
+      {
+        "p": "[PolarNet: An Improved Grid Representation for Online LiDAR Point Clouds Semantic Segmentation](https://arxiv.org/abs/2003.14032v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/edwardzhou130/PolarSeg)",
+        "n": "PolarNet",
+        "d": "2020-03-31",
+        "m1": "0.69"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "EfficientLPS",
+        "d": null,
+        "m1": "0.68"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Camera-LiDAR Fusion + HTC + Map",
+        "d": null,
+        "m1": "0.44"
+      },
+      {
+        "p": "[Serialized Point Mamba: A Serialized Point Cloud Mamba Segmentation Model](https://arxiv.org/abs/2407.12319v1)",
+        "c": "",
+        "n": "Serialized Piont Mamba",
+        "d": "2024-07-17",
+        "m2": "0.806"
+      },
+      {
+        "p": "[LSK3DNet: Towards Effective and Efficient 3D Perception with Large Sparse Kernels](https://arxiv.org/abs/2403.15173v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/fengzicai/lsk3dnet)",
+        "n": "LSK3DNet",
+        "d": "2024-03-22",
+        "m2": "0.801"
+      },
+      {
+        "p": "[Using a Waffle Iron for Automotive Point Cloud Semantic Segmentation](https://arxiv.org/abs/2301.10100v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/valeoai/waffleiron)",
+        "n": "WaffleIron",
+        "d": "2023-01-24",
+        "m2": "0.791"
+      },
+      {
+        "p": "[OA-CNNs: Omni-Adaptive Sparse CNNs for 3D Semantic Segmentation](https://arxiv.org/abs/2403.14418v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Pointcept/Pointcept)",
+        "n": "OA-CNNs",
+        "d": "2024-03-21",
+        "m2": "0.789"
+      },
+      {
+        "p": "[Towards Large-scale 3D Representation Learning with Multi-dataset Point Prompt Training](https://arxiv.org/abs/2308.09718v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Pointcept/Pointcept)",
+        "n": "PPT+SparseUNet",
+        "d": "2023-08-18",
+        "m2": "0.786"
+      },
+      {
+        "p": "[Point-to-Voxel Knowledge Distillation for LiDAR Semantic Segmentation](https://arxiv.org/abs/2206.02099v1)",
+        "c": "",
+        "n": "Point-to-Voxel KD",
+        "d": "2022-06-05",
+        "m2": "0.760"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

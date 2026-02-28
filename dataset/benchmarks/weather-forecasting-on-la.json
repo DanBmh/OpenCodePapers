@@ -1,0 +1,73 @@
+{
+  "title": "weather-forecasting-on-la",
+  "task-hierarchy": [
+    "Weather Forecasting"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MSE (t+1)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "MSE (t+6)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Climate modeling with neural advection–diffusion equation](https://link.springer.com/article/10.1007/s10115-023-01829-2)",
+        "c": "[&check;&nbsp;Link](https://github.com/hwangyong753/NADE)",
+        "n": "NADE",
+        "d": "2023-01-31",
+        "m1": "0.1415 ± 0.0213",
+        "m2": "0.7195 ± 0.0575"
+      },
+      {
+        "p": "[Adaptive Graph Convolutional Recurrent Network for Traffic Forecasting](https://arxiv.org/abs/2007.02842v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/benedekrozemberczki/pytorch_geometric_temporal)",
+        "n": "AGCRN",
+        "d": "2020-07-06",
+        "m1": "0.2289 ± 0.0327",
+        "m2": "0.8412 ± 1.1162"
+      },
+      {
+        "p": "[Climate Modeling with Neural Diffusion Equations](https://arxiv.org/abs/2111.06011v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jeehyunhwang/neural-diffusion-equation)",
+        "n": "NDE",
+        "d": "2021-11-11",
+        "m1": "0.2621 ± 0.0026",
+        "m2": "0.7594 ± 0.0225"
+      },
+      {
+        "p": "[Neural Dynamics on Complex Networks](https://arxiv.org/abs/1908.06491v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/calvin-zcx/ndcn)",
+        "n": "NDCN",
+        "d": "2019-08-18",
+        "m1": "0.5380 ± 0.0469",
+        "m2": "1.2588 ± 0.0654"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

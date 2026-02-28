@@ -1,0 +1,128 @@
+{
+  "title": "saliency-prediction-on-salicon",
+  "task-hierarchy": [
+    "Few-Shot Transfer Learning for Saliency Prediction",
+    "Saliency Prediction"
+  ],
+  "dataset-info": {
+    "link": "http://salicon.net/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "CC",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "KLD",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "NSS",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "SIM",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "sAUC",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "IG",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[SUM: Saliency Unification through Mamba for Visual Attention Modeling](https://arxiv.org/abs/2406.17815v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Arhosseini77/SUM)",
+        "n": "SUM",
+        "d": "2024-06-25",
+        "m1": "0.876",
+        "m2": "0.909",
+        "m3": "0.192",
+        "m4": "1.981",
+        "m5": "0.804"
+      },
+      {
+        "p": "[SalNAS: Efficient Saliency-prediction Neural Architecture Search with self-knowledge distillation](https://arxiv.org/abs/2407.20062v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/chakkritte/SalNAS)",
+        "n": "SalNAS-XL + Self-KD",
+        "d": "2024-07-29",
+        "m1": "0.870",
+        "m2": "0.909",
+        "m3": "0.195",
+        "m4": "2.019",
+        "m5": "0.796",
+        "m6": "0.749",
+        "m7": "0.913"
+      },
+      {
+        "p": "[TempSAL - Uncovering Temporal Information for Deep Saliency Prediction](http://openaccess.thecvf.com//content/CVPR2023/html/Aydemir_TempSAL_-_Uncovering_Temporal_Information_for_Deep_Saliency_Prediction_CVPR_2023_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/IVRL/Tempsal)",
+        "n": "TempSAL",
+        "d": "2023-01-01",
+        "m1": "0.869",
+        "m2": "0.911",
+        "m3": "0.195",
+        "m4": "1.967",
+        "m5": "0.800",
+        "m6": "0.745"
+      },
+      {
+        "p": "[MDS-ViTNet: Improving saliency prediction for Eye-Tracking with Vision Transformer](https://arxiv.org/abs/2405.19501v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ignatpolezhaev/mds-vitnet)",
+        "n": "MDS-ViTNet",
+        "d": "2024-05-29",
+        "m1": "0.8684",
+        "m2": "0.8980",
+        "m3": "0.2127",
+        "m5": " 0.7887"
+      },
+      {
+        "p": "[TranSalNet: Towards perceptually relevant visual saliency prediction](https://arxiv.org/abs/2110.03593v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/ljovo/transalnet)",
+        "n": "TranSalNet",
+        "d": "2021-10-07",
+        "m1": "0.868",
+        "m2": "0.907",
+        "m3": "0.373",
+        "m4": "2.014",
+        "m5": "0.803",
+        "m6": "0.747"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

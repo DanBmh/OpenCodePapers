@@ -1,0 +1,68 @@
+{
+  "title": "hyper-relational-extraction-on-hyperred",
+  "task-hierarchy": [
+    "Relation Extraction",
+    "Hyper-Relational Extraction"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/declare-lab/HyperRED"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Avg. F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Text2NKG: Fine-Grained N-ary Relation Extraction for N-ary relational Knowledge Graph Construction](https://arxiv.org/abs/2310.05185v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/lhrlab/text2nkg)",
+        "n": "Text2NKG",
+        "d": "2023-10-08",
+        "m1": "83.81"
+      },
+      {
+        "p": "[A Dataset for Hyper-Relational Extraction and a Cube-Filling Approach](https://arxiv.org/abs/2211.10018v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/declare-lab/hyperred)",
+        "n": "CubeRE",
+        "d": "2022-11-18",
+        "m1": "65.04"
+      },
+      {
+        "p": "[A Dataset for Hyper-Relational Extraction and a Cube-Filling Approach](https://arxiv.org/abs/2211.10018v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/declare-lab/hyperred)",
+        "n": "Pipeline Baseline",
+        "d": "2022-11-18",
+        "m1": "62.75"
+      },
+      {
+        "p": "[A Dataset for Hyper-Relational Extraction and a Cube-Filling Approach](https://arxiv.org/abs/2211.10018v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/declare-lab/hyperred)",
+        "n": "Generative Baseline",
+        "d": "2022-11-18",
+        "m1": "62.03"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

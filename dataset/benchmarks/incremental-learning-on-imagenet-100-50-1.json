@@ -1,0 +1,57 @@
+{
+  "title": "incremental-learning-on-imagenet-100-50-1",
+  "task-hierarchy": [
+    "Incremental Learning"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Average Incremental Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[RMM: Reinforced Memory Management for Class-Incremental Learning](https://arxiv.org/abs/2301.05792v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/g-u-n/pycil)",
+        "n": "RMM (ResNet-18)",
+        "d": "2023-01-14",
+        "m1": "76.54"
+      },
+      {
+        "p": "[FOSTER: Feature Boosting and Compression for Class-Incremental Learning](https://arxiv.org/abs/2204.04662v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/g-u-n/pycil)",
+        "n": "FOSTER",
+        "d": "2022-04-10",
+        "m1": "69.34"
+      },
+      {
+        "p": "[PODNet: Pooled Outputs Distillation for Small-Tasks Incremental Learning](https://arxiv.org/abs/2004.13513v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/g-u-n/pycil)",
+        "n": "PODNet",
+        "d": "2020-04-28",
+        "m1": "67.28"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

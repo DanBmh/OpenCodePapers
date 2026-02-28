@@ -1,0 +1,61 @@
+{
+  "title": "action-classification-on-wigesture",
+  "task-hierarchy": [
+    "Video",
+    "Action Classification"
+  ],
+  "dataset-info": {
+    "link": "http://www.sdp8.net/Dataset?id=5d4ee7ca-d0b0-45e3-9510-abb6e9cdebf9"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy (% )",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Mining Limited Data Sufficiently: A BERT-inspired Approach for CSI Time Series Application in Wireless Communication and Sensing](https://arxiv.org/abs/2412.06861v1)",
+        "c": "",
+        "n": "CSI-BERT2",
+        "d": "2024-12-09",
+        "m1": "99.48"
+      },
+      {
+        "p": "[CrossFi: A Cross Domain Wi-Fi Sensing Framework Based on Siamese Network](https://arxiv.org/abs/2408.10919v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/RS2002/CrossFi)",
+        "n": "CrossFi",
+        "d": "2024-08-20",
+        "m1": "98.17"
+      },
+      {
+        "p": "[Finding the Missing Data: A BERT-inspired Approach Against Package Loss in Wireless Sensing](https://arxiv.org/abs/2403.12400v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/rs2002/csi-bert)",
+        "n": "CSI-BERT",
+        "d": "2024-03-19",
+        "m1": "76.91"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

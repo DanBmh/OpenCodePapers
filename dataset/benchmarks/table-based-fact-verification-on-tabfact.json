@@ -1,0 +1,159 @@
+{
+  "title": "table-based-fact-verification-on-tabfact",
+  "task-hierarchy": [
+    "Table-based Fact Verification"
+  ],
+  "dataset-info": {
+    "link": "https://tabfact.github.io/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Test",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Val",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[ARTEMIS-DA: An Advanced Reasoning and Transformation Engine for Multi-Step Insight Synthesis in Data Analytics](https://arxiv.org/abs/2412.14146v3)",
+        "c": "",
+        "n": "ARTEMIS-DA",
+        "d": "2024-12-18",
+        "m1": "93.1"
+      },
+      {
+        "p": "[Large Language Models are Versatile Decomposers: Decompose Evidence and Questions for Table-based Reasoning](https://arxiv.org/abs/2301.13808v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/alibabaresearch/damo-convai)",
+        "n": "Dater",
+        "d": "2023-01-31",
+        "m1": "93.0"
+      },
+      {
+        "p": "[PASTA: Table-Operations Aware Fact Verification via Sentence-Table Cloze Pre-training](https://arxiv.org/abs/2211.02816v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ruc-datalab/PASTA)",
+        "n": "PASTA",
+        "d": "2022-11-05",
+        "m1": "89.3",
+        "m2": "89.2"
+      },
+      {
+        "p": "[Chain-of-Table: Evolving Tables in the Reasoning Chain for Table Understanding](https://arxiv.org/abs/2401.04398v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/cyqiq/multicot)",
+        "n": "Chain-of-Table",
+        "d": "2024-01-09",
+        "m1": "86.61",
+        "m2": "-"
+      },
+      {
+        "p": "[Binding Language Models in Symbolic Languages](https://arxiv.org/abs/2210.02875v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/xlang-ai/binder)",
+        "n": "Binder",
+        "d": "2022-10-06",
+        "m1": "86.0",
+        "m2": "-"
+      },
+      {
+        "p": "[Efficient Prompting for LLM-based Generative Internet of Things](https://arxiv.org/abs/2406.10382v3)",
+        "c": "",
+        "n": "Tab-PoT",
+        "d": "2024-06-14",
+        "m1": "85.77"
+      },
+      {
+        "p": "[ReasTAP: Injecting Table Reasoning Skills During Pre-training via Synthetic Reasoning Examples](https://arxiv.org/abs/2210.12374v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/yale-lily/reastap)",
+        "n": "ReasTAP-Large",
+        "d": "2022-10-22",
+        "m1": "84.9",
+        "m2": "84.6"
+      },
+      {
+        "p": "[TAPEX: Table Pre-training via Learning a Neural SQL Executor](https://arxiv.org/abs/2107.07653v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/microsoft/Table-Pretraining)",
+        "n": "TAPEX-Large",
+        "d": "2021-07-16",
+        "m1": "84.2",
+        "m2": "84.6"
+      },
+      {
+        "p": "[UnifiedSKG: Unifying and Multi-Tasking Structured Knowledge Grounding with Text-to-Text Language Models](https://arxiv.org/abs/2201.05966v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/hkunlp/unifiedskg)",
+        "n": "T5-3b(UnifiedSKG)",
+        "d": "2022-01-16",
+        "m1": "83.68",
+        "m2": "83.97"
+      },
+      {
+        "p": "[Table-based Fact Verification with Salience-aware Learning](https://arxiv.org/abs/2109.04053v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/luka-group/salience-aware-learning)",
+        "n": "Salience-aware TAPAS",
+        "d": "2021-09-09",
+        "m1": "82.1",
+        "m2": "82.7"
+      },
+      {
+        "p": "[Understanding tables with intermediate pre-training](https://arxiv.org/abs/2010.00571v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/tapas)",
+        "n": "TAPAS-Large classifier with Counterfactual + Synthetic pre-training",
+        "d": "2020-10-01",
+        "m1": "81.0",
+        "m2": "81.0"
+      },
+      {
+        "p": "[TabSQLify: Enhancing Reasoning Capabilities of LLMs Through Table Decomposition](https://arxiv.org/abs/2404.10150v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/mahadi-nahid/tabsqlify)",
+        "n": "TabSQLify (col+row)",
+        "d": "2024-04-15",
+        "m1": "79.5"
+      },
+      {
+        "p": "[NormTab: Improving Symbolic Reasoning in LLMs Through Tabular Data Normalization](https://arxiv.org/abs/2406.17961v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/mahadi-nahid/NormTab)",
+        "n": "NormTab (Targeted) + SQL",
+        "d": "2024-06-25",
+        "m1": "68.90"
+      },
+      {
+        "p": "[TabFact: A Large-scale Dataset for Table-based Fact Verification](https://arxiv.org/abs/1909.02164v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/wenhuchen/Table-Fact-Checking)",
+        "n": "Table-BERT-Horizontal-T+F-Template",
+        "d": "2019-09-05",
+        "m1": "65.12",
+        "m2": "66.1"
+      },
+      {
+        "p": "[TabFact: A Large-scale Dataset for Table-based Fact Verification](https://arxiv.org/abs/1909.02164v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/wenhuchen/Table-Fact-Checking)",
+        "n": "BERT classifier w/o Table",
+        "d": "2019-09-05",
+        "m1": "50.5",
+        "m2": "50.9"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

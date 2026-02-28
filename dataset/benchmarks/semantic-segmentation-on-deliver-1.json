@@ -1,0 +1,108 @@
+{
+  "title": "semantic-segmentation-on-deliver-1",
+  "task-hierarchy": [
+    "Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://jamycheung.github.io/DELIVER.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "test mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[CAFuser: Condition-Aware Multimodal Fusion for Robust Semantic Perception of Driving Scenes](https://arxiv.org/abs/2410.10791v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/timbroed/cafuser)",
+        "n": "CAFuser",
+        "d": "2024-10-14",
+        "m1": "67.8",
+        "m2": "55.6"
+      },
+      {
+        "p": "[GeminiFusion: Efficient Pixel-wise Multimodal Fusion for Vision Transformer](https://arxiv.org/abs/2406.01210v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/jiadingcn/geminifusion)",
+        "n": "GeminiFusion",
+        "d": "2024-06-03",
+        "m1": "66.9"
+      },
+      {
+        "p": "[Delivering Arbitrary-Modal Semantic Segmentation](https://arxiv.org/abs/2303.01480v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jamycheung/DELIVER)",
+        "n": "CMNeXt (RGB-D-E-LiDAR)",
+        "d": "2023-03-02",
+        "m1": "66.30"
+      },
+      {
+        "p": "[Delivering Arbitrary-Modal Semantic Segmentation](https://arxiv.org/abs/2303.01480v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jamycheung/DELIVER)",
+        "n": "CMNeXt (RGB-D-LiDAR)",
+        "d": "2023-03-02",
+        "m1": "65.50"
+      },
+      {
+        "p": "[Delivering Arbitrary-Modal Semantic Segmentation](https://arxiv.org/abs/2303.01480v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jamycheung/DELIVER)",
+        "n": "CMNeXt (RGB-D-Event)",
+        "d": "2023-03-02",
+        "m1": "64.44"
+      },
+      {
+        "p": "[Delivering Arbitrary-Modal Semantic Segmentation](https://arxiv.org/abs/2303.01480v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jamycheung/DELIVER)",
+        "n": "CMNeXt (RGB-Depth)",
+        "d": "2023-03-02",
+        "m1": "63.58"
+      },
+      {
+        "p": "[Delivering Arbitrary-Modal Semantic Segmentation](https://arxiv.org/abs/2303.01480v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jamycheung/DELIVER)",
+        "n": "CMNeXt (RGB-LiDAR)",
+        "d": "2023-03-02",
+        "m1": "58.04"
+      },
+      {
+        "p": "[Delivering Arbitrary-Modal Semantic Segmentation](https://arxiv.org/abs/2303.01480v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jamycheung/DELIVER)",
+        "n": "CMNeXt (RGB-Event)",
+        "d": "2023-03-02",
+        "m1": "57.48"
+      },
+      {
+        "p": "[SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers](https://arxiv.org/abs/2105.15203v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "SegFormer",
+        "d": "2021-05-31",
+        "m1": "57.20"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

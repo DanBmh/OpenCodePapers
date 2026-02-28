@@ -1,0 +1,449 @@
+{
+  "title": "scene-text-detection-on-icdar-2015",
+  "task-hierarchy": [
+    "Scene Text Detection"
+  ],
+  "dataset-info": {
+    "link": "https://iapr.org/archives/icdar2015/index.html%3Fp=254.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F-Measure",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Precision",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Recall",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "FPS",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[TextFuseNet: Scene Text Detection with Richer Fused Features](https://doi.org/10.24963/ijcai.2020/72)",
+        "c": "[&check;&nbsp;Link](https://github.com/ying09/TextFuseNet)",
+        "n": "TextFuseNet (ResNeXt-101)",
+        "d": "2020-05-17",
+        "m1": "92.23",
+        "m2": "93.96",
+        "m3": "90.56"
+      },
+      {
+        "p": "[Convolutional Character Networks](https://arxiv.org/abs/1910.07954v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/MalongTech/research-charnet)",
+        "n": "CharNet H-88 (multi-scale)",
+        "d": "2019-10-17",
+        "m1": "91.55",
+        "m2": "92.65",
+        "m3": "90.47"
+      },
+      {
+        "p": "[Convolutional Character Networks](https://arxiv.org/abs/1910.07954v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/MalongTech/research-charnet)",
+        "n": "CharNet H-88 (single-scale)",
+        "d": "2019-10-17",
+        "m1": "90.97",
+        "m2": "89.99",
+        "m3": "91.98"
+      },
+      {
+        "p": "[Convolutional Character Networks](https://arxiv.org/abs/1910.07954v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/MalongTech/research-charnet)",
+        "n": "CharNet H-50 (multi-scale)",
+        "d": "2019-10-17",
+        "m1": "90.16",
+        "m2": "90.9",
+        "m3": "89.44"
+      },
+      {
+        "p": "[Exploring the Capacity of an Orderless Box Discretization Network for Multi-orientation Scene Text Detection](https://arxiv.org/abs/1912.09629v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/Yuliang-Liu/Box_Discretization_Network)",
+        "n": "SBD",
+        "d": "2019-12-20",
+        "m1": "90.1",
+        "m2": "92.1",
+        "m3": "88.2"
+      },
+      {
+        "p": "[Convolutional Character Networks](https://arxiv.org/abs/1910.07954v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/MalongTech/research-charnet)",
+        "n": "CharNet H-57 (multi-scale)",
+        "d": "2019-10-17",
+        "m1": "90.06",
+        "m2": "91.43",
+        "m3": "88.74"
+      },
+      {
+        "p": "[FOTS: Fast Oriented Text Spotting with a Unified Network](http://arxiv.org/abs/1801.01671v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/jiangxiluning/FOTS.PyTorch)",
+        "n": "FOTS MS",
+        "d": "2018-01-05",
+        "m1": "89.84",
+        "m2": "91.85",
+        "m3": "87.92"
+      },
+      {
+        "p": "[Convolutional Character Networks](https://arxiv.org/abs/1910.07954v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/MalongTech/research-charnet)",
+        "n": "CharNet H-50 (single-scale)",
+        "d": "2019-10-17",
+        "m1": "89.7",
+        "m2": "91.15",
+        "m3": "88.3"
+      },
+      {
+        "p": "[Convolutional Character Networks](https://arxiv.org/abs/1910.07954v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/MalongTech/research-charnet)",
+        "n": "CharNet H-57 (single-scale)",
+        "d": "2019-10-17",
+        "m1": "89.66",
+        "m2": "88.88",
+        "m3": "90.45"
+      },
+      {
+        "p": "[Pyramid Mask Text Detector](http://arxiv.org/abs/1903.11800v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jjprincess/PMTD)",
+        "n": "PMTD",
+        "d": "2019-03-28",
+        "m1": "89.33",
+        "m2": "91.3",
+        "m3": "87.43"
+      },
+      {
+        "p": "[Geometry Normalization Networks for Accurate Scene Text Detection](https://arxiv.org/abs/1909.00794v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/bigvideoresearch/GNNets)",
+        "n": "GNNets",
+        "d": "2019-09-02",
+        "m1": "88.52",
+        "m2": "90.41",
+        "m3": "86.71"
+      },
+      {
+        "p": "[FOTS: Fast Oriented Text Spotting with a Unified Network](http://arxiv.org/abs/1801.01671v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/jiangxiluning/FOTS.PyTorch)",
+        "n": "FOTS",
+        "d": "2018-01-05",
+        "m1": "87.99",
+        "m2": "91",
+        "m3": "85.17"
+      },
+      {
+        "p": "[Real-time Scene Text Detection with Differentiable Binarization](https://arxiv.org/abs/1911.08947v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleOCR)",
+        "n": "DB-ResNet-50 (1152)",
+        "d": "2019-11-20",
+        "m1": "87.3",
+        "m2": "91.8",
+        "m3": "83.2"
+      },
+      {
+        "p": "[Real-Time Scene Text Detection with Differentiable Binarization and Adaptive Scale Fusion](https://arxiv.org/abs/2202.10304v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleOCR)",
+        "n": "DBNet++ (ResNet-50) (1152)",
+        "d": "2022-02-21",
+        "m1": "87.3",
+        "m2": "90.9",
+        "m3": "83.9",
+        "m5": "10"
+      },
+      {
+        "p": "[Scene Text Detection with Supervised Pyramid Context Network](http://arxiv.org/abs/1811.08605v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/AirBernard/Scene-Text-Detection-with-SPCNET)",
+        "n": "SPCNET",
+        "d": "2018-11-21",
+        "m1": "87.2",
+        "m2": "88.7",
+        "m3": "85.8"
+      },
+      {
+        "p": "[FAST: Faster Arbitrarily-Shaped Text Detector with Minimalist Kernel Representation](https://arxiv.org/abs/2111.02394v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/whai362/pan_pp.pytorch)",
+        "n": "FAST-B-1280",
+        "d": "2021-11-03",
+        "m1": "87.1",
+        "m2": "89.7",
+        "m3": "84.6",
+        "m5": "15.7"
+      },
+      {
+        "p": "[Shape Robust Text Detection with Progressive Scale Expansion Network](http://arxiv.org/abs/1806.02559v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/whai362/PSENet)",
+        "n": "PSENet-1s",
+        "d": "2018-06-07",
+        "m1": "87.1",
+        "m2": "88.7",
+        "m3": "85.5"
+      },
+      {
+        "p": "[A Single-Shot Arbitrarily-Shaped Text Detector based on Context Attended Multi-Task Learning](https://arxiv.org/abs/1908.05498v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleOCR)",
+        "n": "SAST",
+        "d": "2019-08-15",
+        "m1": "86.91",
+        "m2": "86.72",
+        "m3": "87.09"
+      },
+      {
+        "p": "[Character Region Awareness for Text Detection](http://arxiv.org/abs/1904.01941v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/JaidedAI/EasyOCR)",
+        "n": "CRAFT",
+        "d": "2019-04-03",
+        "m1": "86.9",
+        "m2": "89.8",
+        "m3": "84.3"
+      },
+      {
+        "p": "[FAST: Faster Arbitrarily-Shaped Text Detector with Minimalist Kernel Representation](https://arxiv.org/abs/2111.02394v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/whai362/pan_pp.pytorch)",
+        "n": "FAST-B-896",
+        "d": "2021-11-03",
+        "m1": "86.3",
+        "m2": "89.2",
+        "m3": "83.6",
+        "m5": "31.8"
+      },
+      {
+        "p": "[Mask TextSpotter: An End-to-End Trainable Neural Network for Spotting Text with Arbitrary Shapes](http://arxiv.org/abs/1807.02242v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/lvpengyuan/masktextspotter.caffe2)",
+        "n": "Mask TextSpotter",
+        "d": "2018-07-06",
+        "m1": "86",
+        "m2": "91.6",
+        "m3": "81"
+      },
+      {
+        "p": "[Mask R-CNN with Pyramid Attention Network for Scene Text Detection](http://arxiv.org/abs/1811.09058v1)",
+        "c": "",
+        "n": "PAN",
+        "d": "2018-11-22",
+        "m1": "85.9",
+        "m2": "90.8",
+        "m3": "81.5"
+      },
+      {
+        "p": "[Shape Robust Text Detection with Progressive Scale Expansion Network](https://arxiv.org/abs/1903.12473v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleOCR)",
+        "n": "PSENet-1s",
+        "d": "2019-03-28",
+        "m1": "85.7",
+        "m2": "86.9",
+        "m3": "84.5"
+      },
+      {
+        "p": "[FAST: Faster Arbitrarily-Shaped Text Detector with Minimalist Kernel Representation](https://arxiv.org/abs/2111.02394v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/whai362/pan_pp.pytorch)",
+        "n": "FAST-B-736",
+        "d": "2021-11-03",
+        "m1": "84.7",
+        "m2": "88.0",
+        "m3": "81.7",
+        "m5": "42.7"
+      },
+      {
+        "p": "[Detecting Multi-Oriented Text with Corner-based Region Proposals](https://arxiv.org/abs/1804.02690v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/xhzdeng/crpn)",
+        "n": "Corner-based Region Proposals",
+        "d": "2018-04-08",
+        "m1": "84.5",
+        "m2": "88.7",
+        "m3": "80.7"
+      },
+      {
+        "p": "[PixelLink: Detecting Scene Text via Instance Segmentation](http://arxiv.org/abs/1801.01315v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ZJULearning/pixel_link)",
+        "n": "SLPR",
+        "d": "2018-01-04",
+        "m1": "84.5",
+        "m2": "85.5",
+        "m3": "83.6"
+      },
+      {
+        "p": "[Multi-Oriented Scene Text Detection via Corner Localization and Region Segmentation](http://arxiv.org/abs/1802.08948v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/lvpengyuan/corner)",
+        "n": "Corner Localization (multi-scale)",
+        "d": "2018-02-25",
+        "m1": "84.3",
+        "m2": "89.5",
+        "m3": "79.7"
+      },
+      {
+        "p": "[Fused Text Segmentation Networks for Multi-oriented Scene Text Detection](http://arxiv.org/abs/1709.03272v4)",
+        "c": "",
+        "n": "FTSN + MNMS",
+        "d": "2017-09-11",
+        "m1": "84.1",
+        "m2": "88.6",
+        "m3": "80"
+      },
+      {
+        "p": "[TextSnake: A Flexible Representation for Detecting Text of Arbitrary Shapes](https://arxiv.org/abs/1807.01544v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmocr)",
+        "n": "PixelLink+VGG16 2s",
+        "d": "2018-07-04",
+        "m1": "83.7",
+        "m2": "85.5",
+        "m3": "82"
+      },
+      {
+        "p": "[Real-Time Scene Text Detection with Differentiable Binarization and Adaptive Scale Fusion](https://arxiv.org/abs/2202.10304v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleOCR)",
+        "n": "DBNet++ (ResNet-18) (736)",
+        "d": "2022-02-21",
+        "m1": "83.1",
+        "m2": "90.1",
+        "m3": "77.2",
+        "m5": "44"
+      },
+      {
+        "p": "[TextBoxes++: A Single-Shot Oriented Scene Text Detector](http://arxiv.org/abs/1801.02765v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/MhLiao/TextBoxes_plusplus)",
+        "n": "Quad_MS",
+        "d": "2018-01-09",
+        "m1": "82.9",
+        "m2": "87.8",
+        "m3": "78.5"
+      },
+      {
+        "p": "[FAST: Faster Arbitrarily-Shaped Text Detector with Minimalist Kernel Representation](https://arxiv.org/abs/2111.02394v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/whai362/pan_pp.pytorch)",
+        "n": "FAST-S-736",
+        "d": "2021-11-03",
+        "m1": "82.9",
+        "m2": "86.3",
+        "m3": "79.8",
+        "m5": "53.9"
+      },
+      {
+        "p": "[EAST: An Efficient and Accurate Scene Text Detector](http://arxiv.org/abs/1704.03155v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleOCR)",
+        "n": "PAN",
+        "d": "2017-04-11",
+        "m1": "82.9",
+        "m2": "84",
+        "m3": "81.9"
+      },
+      {
+        "p": "[Efficient and Accurate Arbitrary-Shaped Text Detection with Pixel Aggregation Network](https://arxiv.org/abs/1908.05900v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmocr)",
+        "n": "TextSnake",
+        "d": "2019-08-16",
+        "m1": "82.6",
+        "m2": "84.9",
+        "m3": "80.4"
+      },
+      {
+        "p": "[FAST: Faster Arbitrarily-Shaped Text Detector with Minimalist Kernel Representation](https://arxiv.org/abs/2111.02394v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/whai362/pan_pp.pytorch)",
+        "n": "FAST-T-736",
+        "d": "2021-11-03",
+        "m1": "81.7",
+        "m2": "86",
+        "m3": "77.9",
+        "m5": "60.9"
+      },
+      {
+        "p": "[Single Shot Text Detector with Regional Attention](http://arxiv.org/abs/1709.00138v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/BestSonny/SSTD)",
+        "n": "EAST + PVANET2x RBOX (multi-scale)",
+        "d": "2017-09-01",
+        "m1": "80.7",
+        "m2": "83.3",
+        "m3": "78.3"
+      },
+      {
+        "p": "[EAST: An Efficient and Accurate Scene Text Detector](http://arxiv.org/abs/1704.03155v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleOCR)",
+        "n": "EAST + PVANET2x RBOX (single-scale)",
+        "d": "2017-04-11",
+        "m1": "78.2",
+        "m2": "83.6",
+        "m3": "73.5"
+      },
+      {
+        "p": "[Detecting Oriented Text in Natural Images by Linking Segments](http://arxiv.org/abs/1703.06520v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/dengdan/seglink)",
+        "n": "WordSup (VGG16-synth-icdar)",
+        "d": "2017-03-19",
+        "m1": "78.2",
+        "m2": "79.3",
+        "m3": "77.0"
+      },
+      {
+        "p": "[WordSup: Exploiting Word Annotations for Character based Text Detection](http://arxiv.org/abs/1708.06720v1)",
+        "c": "",
+        "n": "SSTD",
+        "d": "2017-08-22",
+        "m1": "77",
+        "m2": "80",
+        "m3": "73"
+      },
+      {
+        "p": "[Multi-Oriented Text Detection with Fully Convolutional Networks](http://arxiv.org/abs/1604.04018v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/stupidZZ/FCN_Text)",
+        "n": "SegLink",
+        "d": "2016-04-14",
+        "m1": "75",
+        "m2": "73.1",
+        "m3": "76.8"
+      },
+      {
+        "p": "[PGNet: Real-time Arbitrarily-Shaped Text Spotting with Point Gathering Network](https://arxiv.org/abs/2104.05458v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleOCR)",
+        "n": "MCLAB_FCN",
+        "d": "2021-04-12",
+        "m1": "53.6",
+        "m2": "70.8",
+        "m3": "43.0"
+      },
+      {
+        "p": "[PGNet: Real-time Arbitrarily-Shaped Text Spotting with Point Gathering Network](https://arxiv.org/abs/2104.05458v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleOCR)",
+        "n": "PGNet-A",
+        "d": "2021-04-12",
+        "m4": "62.3"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "PGNet-E",
+        "d": null,
+        "m4": "57.4"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

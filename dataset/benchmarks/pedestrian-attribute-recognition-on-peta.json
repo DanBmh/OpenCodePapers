@@ -1,0 +1,81 @@
+{
+  "title": "pedestrian-attribute-recognition-on-peta",
+  "task-hierarchy": [
+    "Pedestrian Attribute Recognition"
+  ],
+  "dataset-info": {
+    "link": "http://mmlab.ie.cuhk.edu.hk/projects/PETA.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[UniHCP: A Unified Model for Human-Centric Perceptions](https://arxiv.org/abs/2303.02936v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/opengvlab/unihcp)",
+        "n": "UniHCP (FT)",
+        "d": "2023-03-06",
+        "m1": "88.78%"
+      },
+      {
+        "p": "[C2T-Net: Channel-Aware Cross-Fused Transformer-Style Networks for Pedestrian Attribute Recognition](https://openaccess.thecvf.com/content/WACV2024W/RWS/html/Bui_C2T-Net_Channel-Aware_Cross-Fused_Transformer-Style_Networks_for_Pedestrian_Attribute_Recognition_WACVW_2024_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/caodoanh2001/upar_challenge)",
+        "n": "C2T-Net",
+        "d": "2023-12-26",
+        "m1": "88.20%"
+      },
+      {
+        "p": "[Improving Pedestrian Attribute Recognition With Weakly-Supervised Multi-Scale Attribute-Specific Localization](https://arxiv.org/abs/1910.04562v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/chufengt/alm-pedestrian-attribute)",
+        "n": "Attribute-Specific Localization",
+        "d": "2019-10-10",
+        "m1": "79.52%"
+      },
+      {
+        "p": "[Rethinking of Pedestrian Attribute Recognition: Realistic Datasets with Efficient Method](https://arxiv.org/abs/2005.11909v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/valencebond/Rethinking_of_PAR)",
+        "n": "ALM[tang2019Improving] (ICCV19)",
+        "d": "2020-05-25",
+        "m1": "79.52%"
+      },
+      {
+        "p": "[Rethinking of Pedestrian Attribute Recognition: Realistic Datasets with Efficient Method](https://arxiv.org/abs/2005.11909v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/valencebond/Rethinking_of_PAR)",
+        "n": "strongbaseline",
+        "d": "2020-05-25",
+        "m1": "79.14%"
+      },
+      {
+        "p": "[HydraPlus-Net: Attentive Deep Features for Pedestrian Analysis](http://arxiv.org/abs/1709.09930v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/xh-liu/HydraPlus-Net)",
+        "n": "HP-net",
+        "d": "2017-09-28",
+        "m1": "76.13%"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "title": "grammatical-error-correction-on-falko-merlin",
+  "task-hierarchy": [
+    "Grammatical Error Correction"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F0.5",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[To Err Is Human, but Llamas Can Learn It Too](https://arxiv.org/abs/2403.05493v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/TartuNLP/gec-llm)",
+        "n": "Llama + 1M BT + gold",
+        "d": "2024-03-08",
+        "m1": "76.75"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "mT5-based multimodal MoE",
+        "d": null,
+        "m1": "76.3"
+      },
+      {
+        "p": "[A Simple Recipe for Multilingual Grammatical Error Correction](https://arxiv.org/abs/2106.03830v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research-datasets/clang8)",
+        "n": "gT5 xxl",
+        "d": "2021-06-07",
+        "m1": "75.96"
+      },
+      {
+        "p": "[Grammatical Error Correction in Low-Resource Scenarios](https://arxiv.org/abs/1910.00353v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/ufal/low-resource-gec-wnut2019)",
+        "n": "Transformer",
+        "d": "2019-10-01",
+        "m1": "73.71"
+      },
+      {
+        "p": "[Grammatical Error Correction in Low-Resource Scenarios](https://arxiv.org/abs/1910.00353v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/ufal/low-resource-gec-wnut2019)",
+        "n": "Transformer - synthetic pretrain only",
+        "d": "2019-10-01",
+        "m1": "51.41"
+      },
+      {
+        "p": "[Using Wikipedia Edits in Low Resource Grammatical Error Correction](https://aclanthology.org/W18-6111)",
+        "c": "[&check;&nbsp;Link](https://github.com/adrianeboyd/boyd-wnut2018)",
+        "n": "Multilayer Convolutional Encoder-Decoder",
+        "d": "2018-11-01",
+        "m1": "43.35"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

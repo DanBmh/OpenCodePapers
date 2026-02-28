@@ -1,0 +1,93 @@
+{
+  "title": "fraud-detection-on-elliptic-dataset",
+  "task-hierarchy": [
+    "Active Speaker Detection",
+    "Fraud Detection"
+  ],
+  "dataset-info": {
+    "link": "https://www.kaggle.com/datasets/ellipticco/elliptic-data-set"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "AUPRC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Network Analytics for Anti-Money Laundering -- A Systematic Literature Review and Experimental Evaluation](https://arxiv.org/abs/2405.19383v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/B-Deprez/AML_Network)",
+        "n": "GCN",
+        "d": "2024-05-29",
+        "m1": "0.8329",
+        "m2": "0.5946"
+      },
+      {
+        "p": "[Network Analytics for Anti-Money Laundering -- A Systematic Literature Review and Experimental Evaluation](https://arxiv.org/abs/2405.19383v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/B-Deprez/AML_Network)",
+        "n": "GraphSAGE",
+        "d": "2024-05-29",
+        "m1": "0.8279",
+        "m2": "0.6312"
+      },
+      {
+        "p": "[Network Analytics for Anti-Money Laundering -- A Systematic Literature Review and Experimental Evaluation](https://arxiv.org/abs/2405.19383v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/B-Deprez/AML_Network)",
+        "n": "GAT",
+        "d": "2024-05-29",
+        "m1": "0.8102",
+        "m2": "0.5886"
+      },
+      {
+        "p": "[Network Analytics for Anti-Money Laundering -- A Systematic Literature Review and Experimental Evaluation](https://arxiv.org/abs/2405.19383v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/B-Deprez/AML_Network)",
+        "n": "GIN",
+        "d": "2024-05-29",
+        "m1": "0.8089",
+        "m2": "0.5517"
+      },
+      {
+        "p": "[Network Analytics for Anti-Money Laundering -- A Systematic Literature Review and Experimental Evaluation](https://arxiv.org/abs/2405.19383v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/B-Deprez/AML_Network)",
+        "n": "Node2vec",
+        "d": "2024-05-29",
+        "m1": "0.5263",
+        "m2": "0.0594"
+      },
+      {
+        "p": "[Network Analytics for Anti-Money Laundering -- A Systematic Literature Review and Experimental Evaluation](https://arxiv.org/abs/2405.19383v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/B-Deprez/AML_Network)",
+        "n": "Deepwalk",
+        "d": "2024-05-29",
+        "m1": "0.4500",
+        "m2": "0.0488"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

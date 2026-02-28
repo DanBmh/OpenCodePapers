@@ -1,0 +1,74 @@
+{
+  "title": "sign-language-recognition-on-lsa64",
+  "task-hierarchy": [
+    "Sign Language Recognition"
+  ],
+  "dataset-info": {
+    "link": "http://facundoq.github.io/datasets/lsa64/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Sign Pose-Based Transformer for Word-Level Sign Language Recognition](https://openaccess.thecvf.com/content/WACV2022W/HADCV/html/Bohacek_Sign_Pose-Based_Transformer_for_Word-Level_Sign_Language_Recognition_WACVW_2022_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/matyasbohacek/spoter)",
+        "n": "SPOTER",
+        "d": "2022-01-04",
+        "m1": "100"
+      },
+      {
+        "p": "[Siformer: Feature-isolated Transformer for Efficient Skeleton-based Sign Language Recognition](https://arxiv.org/abs/2503.20436v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/mpuu00001/Siformer)",
+        "n": "Siformer",
+        "d": "2025-03-26",
+        "m1": "99.84"
+      },
+      {
+        "p": "[Hierarchical Windowed Graph Attention Network and a Large Scale Dataset for Isolated Indian Sign Language Recognition](https://arxiv.org/abs/2407.14224v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/suvajit-patra/sl-hwgat)",
+        "n": "HWGAT",
+        "d": "2024-07-19",
+        "m1": "98.59"
+      },
+      {
+        "p": "[Sign Language Recognition Without Frame-Sequencing Constraints: A Proof of Concept on the Argentinian Sign Language](https://link.springer.com/chapter/10.1007/978-3-319-47955-2_28)",
+        "c": "",
+        "n": "Bag of words fusion of hand pose/movement/position",
+        "d": "2016-10-14",
+        "m1": "97"
+      },
+      {
+        "p": "[Spatial Attention-Based 3D Graph Convolutional Neural Network for Sign Language Recognition](https://www.mdpi.com/1424-8220/22/12/4558)",
+        "c": "",
+        "n": "3DGCN",
+        "d": "2022-06-16",
+        "m1": "94.84"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

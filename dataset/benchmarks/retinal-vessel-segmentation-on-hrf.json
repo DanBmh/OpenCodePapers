@@ -1,0 +1,117 @@
+{
+  "title": "retinal-vessel-segmentation-on-hrf",
+  "task-hierarchy": [
+    "Retinal Vessel Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://www5.cs.fau.de/research/data/fundus-images/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "F1 score",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "MCC",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "1:1 Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "Acc",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "Average IOU",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "DSC",
+        "sortable": "true"
+      },
+      {
+        "key": "m9",
+        "label": "Sensitivity",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Full-scale Representation Guided Network for Retinal Vessel Segmentation](https://arxiv.org/abs/2501.18921v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/zombasy/fsg-net-pytorch)",
+        "n": "FSG-Net",
+        "d": "2025-01-31",
+        "m1": "0.9874",
+        "m2": "0.8156",
+        "m3": "0.8012",
+        "m4": "0.8308",
+        "m6": "0.9710",
+        "m9": "0.8361"
+      },
+      {
+        "p": "[Dual encoding feature filtering generalized attention UNET for retinal vessel segmentation](https://arxiv.org/abs/2506.02312v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/TauhidScu/DEFFA-Unet)",
+        "n": "DEFFA-Unet",
+        "d": "2025-06-02",
+        "m1": "0.9845",
+        "m3": "0.8012",
+        "m5": "0.9723",
+        "m7": "0.7089",
+        "m8": "0.8289"
+      },
+      {
+        "p": "[Deep Vessel Segmentation By Learning Graphical Connectivity](http://arxiv.org/abs/1806.02279v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/syshin1014/VGN)",
+        "n": "VGN",
+        "d": "2018-06-06",
+        "m1": "0.9838",
+        "m2": "0.8151"
+      },
+      {
+        "p": "[Resolution-Aware Design of Atrous Rates for Semantic Segmentation Networks](https://arxiv.org/abs/2307.14179v1)",
+        "c": "",
+        "n": "U-Net ASPP",
+        "d": "2023-07-26",
+        "m4": "0.8966"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "title": "table-retrieval-on-statcan-dialogue-dataset",
+  "task-hierarchy": [
+    "Retrieval",
+    "Table Retrieval"
+  ],
+  "dataset-info": {
+    "link": "https://mcgill-nlp.github.io/statcan-dialogue-dataset/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Recall@10",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[The StatCan Dialogue Dataset: Retrieving Data Tables through Conversations with Genuine Intents](https://arxiv.org/abs/2304.01412v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/McGill-NLP/statcan-dialogue-dataset)",
+        "n": "DPR (retrieving basic info + member items)",
+        "d": "2023-04-03",
+        "m1": "46.2"
+      },
+      {
+        "p": "[The StatCan Dialogue Dataset: Retrieving Data Tables through Conversations with Genuine Intents](https://arxiv.org/abs/2304.01412v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/McGill-NLP/statcan-dialogue-dataset)",
+        "n": "DPR (retrieving basic info)",
+        "d": "2023-04-03",
+        "m1": "45.0"
+      },
+      {
+        "p": "[The StatCan Dialogue Dataset: Retrieving Data Tables through Conversations with Genuine Intents](https://arxiv.org/abs/2304.01412v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/McGill-NLP/statcan-dialogue-dataset)",
+        "n": "DPR (retrieving title)",
+        "d": "2023-04-03",
+        "m1": "43.8"
+      },
+      {
+        "p": "[The StatCan Dialogue Dataset: Retrieving Data Tables through Conversations with Genuine Intents](https://arxiv.org/abs/2304.01412v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/McGill-NLP/statcan-dialogue-dataset)",
+        "n": "TAPAS-NQ (retrieving truncated table)",
+        "d": "2023-04-03",
+        "m1": "30.0"
+      },
+      {
+        "p": "[The StatCan Dialogue Dataset: Retrieving Data Tables through Conversations with Genuine Intents](https://arxiv.org/abs/2304.01412v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/McGill-NLP/statcan-dialogue-dataset)",
+        "n": "TAPAS (retrieving truncated table)",
+        "d": "2023-04-03",
+        "m1": "22.1"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

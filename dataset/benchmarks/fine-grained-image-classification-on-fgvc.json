@@ -1,0 +1,470 @@
+{
+  "title": "fine-grained-image-classification-on-fgvc",
+  "task-hierarchy": [
+    "Fine-Grained Image Classification"
+  ],
+  "dataset-info": {
+    "link": "https://www.robots.ox.ac.uk/~vgg/data/fgvc-aircraft/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Top-1 Error Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "FLOPS",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "PARAMS",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Top-1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Interweaving Insights: High-Order Feature Interaction for Fine-Grained Visual Recognition](https://link.springer.com/article/10.1007/s11263-024-02260-y)",
+        "c": "[&check;&nbsp;Link](https://github.com/arindam-1991/i2-hofi)",
+        "n": "I2-HOFI",
+        "d": "2024-10-20",
+        "m1": "96.42%"
+      },
+      {
+        "p": "[SR-GNN: Spatial Relation-aware Graph Neural Network for Fine-Grained Image Categorization](https://arxiv.org/abs/2209.02109v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ardhendubehera/sr-gnn)",
+        "n": "SR-GNN",
+        "d": "2022-09-05",
+        "m1": "95.4",
+        "m3": "9.8",
+        "m4": "30.9"
+      },
+      {
+        "p": "[Non-binary deep transfer learning for image classification](https://arxiv.org/abs/2107.08585v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/XuyangSHEN/Non-binary-deep-transfer-learning-for-image-classification)",
+        "n": "Inceptionv4",
+        "d": "2021-07-19",
+        "m1": "95.11"
+      },
+      {
+        "p": "[Context-aware Attentional Pooling (CAP) for Fine-grained Visual Classification](https://arxiv.org/abs/2101.06635v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ArdhenduBehera/cap)",
+        "n": "CAP",
+        "d": "2021-01-17",
+        "m1": "94.9%",
+        "m4": "34.2"
+      },
+      {
+        "p": "[Multi-branch and Multi-scale Attention Learning for Fine-Grained Visual Categorization](https://arxiv.org/abs/2003.09150v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/ZF1044404254/TBMSL-Net)",
+        "n": "TBMSL-Net",
+        "d": "2020-03-20",
+        "m1": "94.7%"
+      },
+      {
+        "p": "[Learn from Each Other to Classify Better: Cross-layer Mutual Attention Learning for Fine-grained Visual Classification](https://www.sciencedirect.com/science/article/pii/S0031320323002509)",
+        "c": "[&check;&nbsp;Link](https://github.com/Dichao-Liu/CMAL)",
+        "n": "CMAL-Net",
+        "d": "2023-03-22",
+        "m1": "94.7%"
+      },
+      {
+        "p": "[Context-Semantic Quality Awareness Network for Fine-Grained Visual Categorization](https://arxiv.org/abs/2403.10298v1)",
+        "c": "",
+        "n": "CSQA-Net",
+        "d": "2024-03-15",
+        "m1": "94.7%"
+      },
+      {
+        "p": "[Part-guided Relational Transformers for Fine-grained Visual Recognition](https://arxiv.org/abs/2212.13685v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/icvteam/part)",
+        "n": "PART",
+        "d": "2022-12-28",
+        "m1": "94.6%"
+      },
+      {
+        "p": "[Alignment Enhancement Network for Fine-grained Visual Categorization](https://dl.acm.org/doi/abs/10.1145/3446208)",
+        "c": "",
+        "n": "AENet",
+        "d": "2021-03-01",
+        "m1": "94.5%"
+      },
+      {
+        "p": "[Advancing Fine-Grained Classification by Structure and Subject Preserving Augmentation](https://arxiv.org/abs/2406.14551v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/eyalmichaeli/saspa-aug)",
+        "n": "SaSPA + CAL",
+        "d": "2024-06-20",
+        "m1": "94.5"
+      },
+      {
+        "p": "[Counterfactual Attention Learning for Fine-Grained Visual Categorization and Re-identification](https://arxiv.org/abs/2108.08728v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/raoyongming/CAL)",
+        "n": "CAL",
+        "d": "2021-08-19",
+        "m1": "94.2"
+      },
+      {
+        "p": "[Universal Fine-grained Visual Categorization by Concept Guided Learning](https://ieeexplore.ieee.org/document/10829548)",
+        "c": "[&check;&nbsp;Link](https://github.com/biqiwhu/cgl)",
+        "n": "CGL",
+        "d": "2025-01-06",
+        "m1": "94.2%"
+      },
+      {
+        "p": "[Fine-Grained Visual Classification with Efficient End-to-end Localization](https://arxiv.org/abs/2005.05123v1)",
+        "c": "",
+        "n": "AttNet & AffNet",
+        "d": "2020-05-11",
+        "m1": "94.1%"
+      },
+      {
+        "p": "[Re-rank Coarse Classification with Local Region Enhanced Features for Fine-Grained Image Recognition](https://arxiv.org/abs/2102.09875v1)",
+        "c": "",
+        "n": "CCFR",
+        "d": "2021-02-19",
+        "m1": "94.1%"
+      },
+      {
+        "p": "[Learning Class Unique Features in Fine-Grained Visual Classification](https://arxiv.org/abs/2011.10951v2)",
+        "c": "",
+        "n": "DenseNet161+MM+FRL",
+        "d": "2020-11-22",
+        "m1": "94.0 %"
+      },
+      {
+        "p": "[Learning Attentive Pairwise Interaction for Fine-Grained Classification](https://arxiv.org/abs/2002.10191v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/PeiqinZhuang/API-Net)",
+        "n": "API-Net",
+        "d": "2020-02-24",
+        "m1": "93.9%"
+      },
+      {
+        "p": "[Weakly Supervised Fine-Grained Image Classification via Guassian Mixture Model Oriented Discriminative Learning](http://openaccess.thecvf.com/content_CVPR_2020/html/Wang_Weakly_Supervised_Fine-Grained_Image_Classification_via_Guassian_Mixture_Model_Oriented_CVPR_2020_paper.html)",
+        "c": "",
+        "n": "DF-GMM",
+        "d": "2020-06-01",
+        "m1": "93.8%"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "CMN",
+        "d": null,
+        "m1": "93.8%"
+      },
+      {
+        "p": "[Your \"Flamingo\" is My \"Bird\": Fine-Grained, or Not](https://arxiv.org/abs/2011.09040v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/PRIS-CV/Fine-Grained-or-Not)",
+        "n": "Multi Granularity",
+        "d": "2020-11-18",
+        "m1": "93.6%"
+      },
+      {
+        "p": "[Fine-grained Recognition: Accounting for Subtle Differences between Similar Classes](https://arxiv.org/abs/1912.06842v1)",
+        "c": "",
+        "n": "DB",
+        "d": "2019-12-14",
+        "m1": "93.5%"
+      },
+      {
+        "p": "[Fine-Grained Visual Classification with Batch Confusion Norm](https://arxiv.org/abs/1910.12423)",
+        "c": "",
+        "n": "BCN",
+        "d": "2019-10-28",
+        "m1": "93.5%"
+      },
+      {
+        "p": "[ELoPE: Fine-Grained Visual Classification with Efficient Localization, Pooling and Embedding](https://arxiv.org/abs/1911.07344v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/rwth-i6/fgvc/tree/master/elope_torch)",
+        "n": "ELoPE",
+        "d": "2019-11-17",
+        "m1": "93.5%"
+      },
+      {
+        "p": "[On the Eigenvalues of Global Covariance Pooling for Fine-grained Visual Recognition](https://arxiv.org/abs/2205.13282v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/KingJamesSong/DifferentiableSVD)",
+        "n": "SEB+EfficientNet-B5",
+        "d": "2022-05-26",
+        "m1": "93.5"
+      },
+      {
+        "p": "[Grad-CAM guided channel-spatial attention module for fine-grained visual classification](https://arxiv.org/abs/2101.09666v1)",
+        "c": "",
+        "n": "Grad-CAM",
+        "d": "2021-01-24",
+        "m1": "93.42%"
+      },
+      {
+        "p": "[Fine-Grained Visual Classification via Progressive Multi-Granularity Training of Jigsaw Patches](https://arxiv.org/abs/2003.03836v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/PRIS-CV/PMG-Progressive-Multi-Granularity-Training)",
+        "n": "PMG",
+        "d": "2020-03-08",
+        "m1": "93.4%"
+      },
+      {
+        "p": "[Channel Interaction Networks for Fine-Grained Image Categorization](https://arxiv.org/abs/2003.05235v1)",
+        "c": "",
+        "n": "CIN",
+        "d": "2020-03-11",
+        "m1": "93.3%"
+      },
+      {
+        "p": "[Dual Cross-Attention Learning for Fine-Grained Visual Categorization and Object Re-Identification](https://arxiv.org/abs/2205.02151v1)",
+        "c": "",
+        "n": "DCAL",
+        "d": "2022-05-04",
+        "m1": "93.3%"
+      },
+      {
+        "p": "[Graph-propagation based Correlation Learning for Weakly Supervised Fine-grained Image Classification](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-WangZ.4646.pdf)",
+        "c": "",
+        "n": "GCL",
+        "d": "2020-02-14",
+        "m1": "93.2%"
+      },
+      {
+        "p": "[Attribute Mix: Semantic Data Augmentation for Fine Grained Recognition](https://arxiv.org/abs/2004.02684v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Westlake-AI/openmixup)",
+        "n": "Mix+",
+        "d": "2020-04-06",
+        "m1": "93.1%"
+      },
+      {
+        "p": "[Fine-Grained Visual Classification using Self Assessment Classifier](https://arxiv.org/abs/2205.10529v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/aioz-ai/sac)",
+        "n": "ViT-SAC",
+        "d": "2022-05-21",
+        "m1": "93.1%"
+      },
+      {
+        "p": "[See Better Before Looking Closer: Weakly Supervised Data Augmentation Network for Fine-Grained Visual Classification](http://arxiv.org/abs/1901.09891v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/wvinzh/WS_DAN_PyTorch)",
+        "n": "WS-DAN",
+        "d": "2019-01-26",
+        "m1": "93.0%"
+      },
+      {
+        "p": "[The Devil is in the Channels: Mutual-Channel Loss for Fine-Grained Image Classification](https://arxiv.org/abs/2002.04264v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/frgfm/Holocron)",
+        "n": "MC Loss (B-CNN)",
+        "d": "2020-02-11",
+        "m1": "92.9%"
+      },
+      {
+        "p": "[EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks](https://arxiv.org/abs/1905.11946v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/ultralytics/yolov5)",
+        "n": "EfficientNet-B7",
+        "d": "2019-05-28",
+        "m1": "92.9"
+      },
+      {
+        "p": "[Penalizing the Hard Example But Not Too Much: A Strong Baseline for Fine-Grained Visual Classification](https://ieeexplore.ieee.org/abstract/document/9956020)",
+        "c": "[&check;&nbsp;Link](https://github.com/akira-l/mhem)",
+        "n": "MHEM (strong ResNet50 baseline)",
+        "d": "2022-11-21",
+        "m1": "92.9%"
+      },
+      {
+        "p": "[Selective Sparse Sampling for Fine-Grained Image Recognition](http://openaccess.thecvf.com/content_ICCV_2019/html/Ding_Selective_Sparse_Sampling_for_Fine-Grained_Image_Recognition_ICCV_2019_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/Yao-DD/S3N)",
+        "n": "S3N",
+        "d": "2019-10-01",
+        "m1": "92.8%"
+      },
+      {
+        "p": "[Progressive Co-Attention Network for Fine-grained Visual Classification](https://arxiv.org/abs/2101.08527v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/PRIS-CV/PCA-Net)",
+        "n": "PCA",
+        "d": "2021-01-21",
+        "m1": "92.8%"
+      },
+      {
+        "p": "[Cross-X Learning for Fine-Grained Visual Categorization](https://arxiv.org/abs/1909.04412v1)",
+        "c": "",
+        "n": "Cross-X",
+        "d": "2019-09-10",
+        "m1": "92.7%"
+      },
+      {
+        "p": "[Look-into-Object: Self-supervised Structure Modeling for Object Recognition](https://arxiv.org/abs/2003.14142v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/JDAI-CV/DCL)",
+        "n": "LIO/ResNet-50 (multi-stage)",
+        "d": "2020-03-31",
+        "m1": "92.7%"
+      },
+      {
+        "p": "[A Simple Episodic Linear Probe Improves Visual Recognition in the Wild](http://openaccess.thecvf.com//content/CVPR2022/html/Liang_A_Simple_Episodic_Linear_Probe_Improves_Visual_Recognition_in_the_CVPR_2022_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/JDAI-CV/DCL)",
+        "n": "ELP",
+        "d": "2022-01-01",
+        "m1": "92.7"
+      },
+      {
+        "p": "[AutoAugment: Learning Augmentation Policies from Data](http://arxiv.org/abs/1805.09501v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/research/autoaugment)",
+        "n": "AutoAugment",
+        "d": "2018-05-24",
+        "m1": "92.67%",
+        "m2": "7.33"
+      },
+      {
+        "p": "[Compounding the Performance Improvements of Assembled Techniques in a Convolutional Neural Network](https://arxiv.org/abs/2001.06268v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/clovaai/assembled-cnn)",
+        "n": "Assemble-ResNet-FGVC-50",
+        "d": "2020-01-17",
+        "m1": "92.4"
+      },
+      {
+        "p": "[Attention Convolutional Binary Neural Tree for Fine-Grained Visual Categorization](https://arxiv.org/abs/1909.11378v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/FlyingMoon-GitHub/ACNet)",
+        "n": "ACNet",
+        "d": "2019-09-25",
+        "m1": "92.4%"
+      },
+      {
+        "p": "[Learning Semantically Enhanced Feature for Fine-Grained Image Classification](https://arxiv.org/abs/2006.13457v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/cswluo/SEF)",
+        "n": "SEF",
+        "d": "2020-06-24",
+        "m1": "92.1%"
+      },
+      {
+        "p": "[Learning a Discriminative Filter Bank within a CNN for Fine-grained Recognition](http://arxiv.org/abs/1611.09932v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/jobinkv/Ongoing)",
+        "n": "DFB-CNN",
+        "d": "2016-11-29",
+        "m1": "92.0%"
+      },
+      {
+        "p": "[Towards Faster Training of Global Covariance Pooling Networks by Iterative Matrix Square Root Normalization](http://arxiv.org/abs/1712.01034v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/osmr/imgclsmob)",
+        "n": "MPN-COV",
+        "d": "2017-12-04",
+        "m1": "91.4%"
+      },
+      {
+        "p": "[Learning to Navigate for Fine-grained Classification](http://arxiv.org/abs/1809.00287v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/osmr/imgclsmob)",
+        "n": "NTS-Net (K=4)",
+        "d": "2018-09-02",
+        "m1": "91.4%"
+      },
+      {
+        "p": "[Neural Architecture Transfer](https://arxiv.org/abs/2005.05859v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/human-analysis/neural-architecture-transfer)",
+        "n": "NAT-M4",
+        "d": "2020-05-12",
+        "m1": "90.8%",
+        "m3": "581M",
+        "m4": "5.3M"
+      },
+      {
+        "p": "[Neural Architecture Transfer](https://arxiv.org/abs/2005.05859v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/human-analysis/neural-architecture-transfer)",
+        "n": "NAT-M3",
+        "d": "2020-05-12",
+        "m1": "90.1%",
+        "m3": "388M",
+        "m4": "5.1M"
+      },
+      {
+        "p": "[Learning Multi-Attention Convolutional Neural Network for Fine-Grained Image Recognition](http://openaccess.thecvf.com/content_iccv_2017/html/Zheng_Learning_Multi-Attention_Convolutional_ICCV_2017_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/minfengUCAS/Muti-Attention-CNN)",
+        "n": "MACNN",
+        "d": "2017-10-01",
+        "m1": "89.9"
+      },
+      {
+        "p": "[Neural Architecture Transfer](https://arxiv.org/abs/2005.05859v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/human-analysis/neural-architecture-transfer)",
+        "n": "NAT-M2",
+        "d": "2020-05-12",
+        "m1": "89.0%",
+        "m3": "235M",
+        "m4": "3.4M"
+      },
+      {
+        "p": "[Exploring Localization for Self-supervised Fine-grained Contrastive Learning](https://arxiv.org/abs/2106.15788v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/Westlake-AI/openmixup)",
+        "n": "BYOL+CVSA (ResNet-50)",
+        "d": "2021-06-30",
+        "m1": "87.27"
+      },
+      {
+        "p": "[Neural Architecture Transfer](https://arxiv.org/abs/2005.05859v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/human-analysis/neural-architecture-transfer)",
+        "n": "NAT-M1",
+        "d": "2020-05-12",
+        "m1": "87.0%",
+        "m3": "175M",
+        "m4": "3.2M"
+      },
+      {
+        "p": "[With a Little Help from My Friends: Nearest-Neighbor Contrastive Learning of Visual Representations](https://arxiv.org/abs/2104.14548v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/lightly-ai/lightly)",
+        "n": "NNCLR",
+        "d": "2021-04-29",
+        "m1": "64.1"
+      },
+      {
+        "p": "[Vision Models Are More Robust And Fair When Pretrained On Uncurated Images Without Supervision](https://arxiv.org/abs/2202.08360v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/vissl)",
+        "n": "SEER (RegNet10B)",
+        "d": "2022-02-16",
+        "m1": "54.82%"
+      },
+      {
+        "p": "[Your Diffusion Model is Secretly a Zero-Shot Classifier](https://arxiv.org/abs/2303.16203v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/diffusion-classifier/diffusion-classifier)",
+        "n": "Diffusion Classifier (zero-shot)",
+        "d": "2023-03-28",
+        "m1": "26.4"
+      },
+      {
+        "p": "[Sharpness-Aware Minimization for Efficiently Improving Generalization](https://arxiv.org/abs/2010.01412v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/davda54/sam)",
+        "n": "EffNet-L2 (SAM)",
+        "d": "2020-10-03",
+        "m2": "4.82"
+      },
+      {
+        "p": "[Domain Adaptive Transfer Learning on Visual Attention Aware Data Augmentation for Fine-grained Visual Categorization](https://arxiv.org/abs/2010.03071v1)",
+        "c": "",
+        "n": "ImageNet + iNat on WS-DAN",
+        "d": "2020-10-06",
+        "m5": "91.5"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

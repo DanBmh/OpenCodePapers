@@ -1,0 +1,102 @@
+{
+  "title": "relation-extraction-on-re-tacred",
+  "task-hierarchy": [
+    "Relation Extraction"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/gstoica27/Re-TACRED"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Improving Sentence-Level Relation Extraction through Curriculum Learning](https://arxiv.org/abs/2107.09332v2)",
+        "c": "",
+        "n": "EXOBRAIN",
+        "d": "2021-07-20",
+        "m1": "91.4"
+      },
+      {
+        "p": "[An Improved Baseline for Sentence-level Relation Extraction](https://arxiv.org/abs/2102.01373v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/wzhouad/RE_improved_baseline)",
+        "n": "RoBERTa-large-typed-marker",
+        "d": "2021-02-02",
+        "m1": "91.1"
+      },
+      {
+        "p": "[Generative Prompt Tuning for Relation Classification](https://arxiv.org/abs/2210.12435v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/hanjiale/genpt)",
+        "n": "GenPT (RoBERTa)",
+        "d": "2022-10-22",
+        "m1": "91.1"
+      },
+      {
+        "p": "[REBEL: Relation Extraction By End-to-end Language generation](https://github.com/Babelscape/rebel)",
+        "c": "[&check;&nbsp;Link](https://github.com/Babelscape/rebel)",
+        "n": "REBEL (no entity type marker)",
+        "d": "2021-10-29",
+        "m1": "90.4"
+      },
+      {
+        "p": "[SpanBERT: Improving Pre-training by Representing and Predicting Spans](https://arxiv.org/abs/1907.10529v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/SpanBERT)",
+        "n": "SpanBERT",
+        "d": "2019-07-24",
+        "m1": "85.3"
+      },
+      {
+        "p": "[Graph Convolution over Pruned Dependency Trees Improves Relation Extraction](http://arxiv.org/abs/1809.10185v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/qipeng/gcn-over-pruned-trees)",
+        "n": "C-GCN",
+        "d": "2018-09-26",
+        "m1": "80.3"
+      },
+      {
+        "p": "[Position-aware Attention and Supervised Data Improve Slot Filling](https://aclanthology.org/D17-1004)",
+        "c": "[&check;&nbsp;Link](https://github.com/yuhaozhang/tacred-relation)",
+        "n": "PA-LSTM",
+        "d": "2017-09-01",
+        "m1": "79.4"
+      },
+      {
+        "p": "[Retrieval-Augmented Generation-based Relation Extraction](https://arxiv.org/abs/2404.13397v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/sefeoglu/rag4re)",
+        "n": "RAG4RE",
+        "d": "2024-04-20",
+        "m1": "73.3"
+      },
+      {
+        "p": "[Aligning Instruction Tasks Unlocks Large Language Models as Zero-Shot Relation Extractors](https://arxiv.org/abs/2305.11159v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/osu-nlp-group/qa4re)",
+        "n": "LLM-QA4RE (XXLarge)",
+        "d": "2023-05-18",
+        "m1": "66.5"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

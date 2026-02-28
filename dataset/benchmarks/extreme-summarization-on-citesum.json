@@ -1,0 +1,130 @@
+{
+  "title": "extreme-summarization-on-citesum",
+  "task-hierarchy": [
+    "Extreme Summarization"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/morningmoni/CiteSum"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "ROUGE-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "ROUGE-2",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "ROUGE-L",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[CiteSum: Citation Text-guided Scientific Extreme Summarization and Domain Adaptation with Limited Supervision](https://arxiv.org/abs/2205.06207v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/morningmoni/citesum)",
+        "n": "EXT-ORACLE",
+        "d": "2022-05-12",
+        "m1": "44.17",
+        "m2": "27.22",
+        "m3": "38.32"
+      },
+      {
+        "p": "[CiteSum: Citation Text-guided Scientific Extreme Summarization and Domain Adaptation with Limited Supervision](https://arxiv.org/abs/2205.06207v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/morningmoni/citesum)",
+        "n": "BART-large (s=abs+title, t=TLDR)",
+        "d": "2022-05-12",
+        "m1": "42.02",
+        "m2": "19.44",
+        "m3": "33.78"
+      },
+      {
+        "p": "[CiteSum: Citation Text-guided Scientific Extreme Summarization and Domain Adaptation with Limited Supervision](https://arxiv.org/abs/2205.06207v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/morningmoni/citesum)",
+        "n": "BART-large (s=abs+disci, t=TLDR)",
+        "d": "2022-05-12",
+        "m1": "42.01",
+        "m2": "19.34",
+        "m3": "33.72"
+      },
+      {
+        "p": "[CiteSum: Citation Text-guided Scientific Extreme Summarization and Domain Adaptation with Limited Supervision](https://arxiv.org/abs/2205.06207v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/morningmoni/citesum)",
+        "n": "BART-large (s=abs, t= TLDR/Title/Disci)",
+        "d": "2022-05-12",
+        "m1": "41.89",
+        "m2": "19.51",
+        "m3": "33.73"
+      },
+      {
+        "p": "[CiteSum: Citation Text-guided Scientific Extreme Summarization and Domain Adaptation with Limited Supervision](https://arxiv.org/abs/2205.06207v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/morningmoni/citesum)",
+        "n": "BART-large (s=abs, t=TLDR)",
+        "d": "2022-05-12",
+        "m1": "41.86",
+        "m2": "19.36",
+        "m3": "33.72"
+      },
+      {
+        "p": "[CiteSum: Citation Text-guided Scientific Extreme Summarization and Domain Adaptation with Limited Supervision](https://arxiv.org/abs/2205.06207v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/morningmoni/citesum)",
+        "n": "BART-large (s=abs, t=TLDR/title)",
+        "d": "2022-05-12",
+        "m1": "41.85",
+        "m2": "19.21",
+        "m3": " 33.42"
+      },
+      {
+        "p": "[CiteSum: Citation Text-guided Scientific Extreme Summarization and Domain Adaptation with Limited Supervision](https://arxiv.org/abs/2205.06207v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/morningmoni/citesum)",
+        "n": "PEGASUS (s=abs, t=TLDR)",
+        "d": "2022-05-12",
+        "m1": "41.56",
+        "m2": "18.63",
+        "m3": " 33.45"
+      },
+      {
+        "p": "[CiteSum: Citation Text-guided Scientific Extreme Summarization and Domain Adaptation with Limited Supervision](https://arxiv.org/abs/2205.06207v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/morningmoni/citesum)",
+        "n": "EXT-HEURISTIC",
+        "d": "2022-05-12",
+        "m1": "29.32",
+        "m2": "12.53",
+        "m3": "23.99"
+      },
+      {
+        "p": "[CiteSum: Citation Text-guided Scientific Extreme Summarization and Domain Adaptation with Limited Supervision](https://arxiv.org/abs/2205.06207v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/morningmoni/citesum)",
+        "n": "EXT-LEAD",
+        "d": "2022-05-12",
+        "m1": "21.94",
+        "m2": "7.35",
+        "m3": "17.36"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

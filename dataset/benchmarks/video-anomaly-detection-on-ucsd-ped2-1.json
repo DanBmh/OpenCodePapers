@@ -1,0 +1,60 @@
+{
+  "title": "video-anomaly-detection-on-ucsd-ped2-1",
+  "task-hierarchy": [
+    "Video Anomaly Detection"
+  ],
+  "dataset-info": {
+    "link": "http://www.svcl.ucsd.edu/projects/anomaly/dataset.htm"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[MULDE: Multiscale Log-Density Estimation via Denoising Score Matching for Video Anomaly Detection](https://arxiv.org/abs/2403.14497v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jakubmicorek/MULDE-Multiscale-Log-Density-Estimation-via-Denoising-Score-Matching-for-Video-Anomaly-Detection)",
+        "n": "MULDE-object-centric-micro",
+        "d": "2024-03-21",
+        "m1": "99.7%"
+      },
+      {
+        "p": "[VADMamba: Exploring State Space Models for Fast Video Anomaly Detection](https://arxiv.org/abs/2503.21169v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jLooo/VADMamba)",
+        "n": "VADMamba",
+        "d": "2025-03-27",
+        "m1": "98.5%"
+      },
+      {
+        "p": "[Follow the Rules: Reasoning for Video Anomaly Detection with Large Language Models](https://arxiv.org/abs/2407.10299v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Yuchen413/AnomalyRuler)",
+        "n": "AnomalyRuler",
+        "d": "2024-07-14",
+        "m1": "97.9%"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

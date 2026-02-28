@@ -1,0 +1,74 @@
+{
+  "title": "semantic-segmentation-on-shapenet",
+  "task-hierarchy": [
+    "Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://www.shapenet.org/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Mean IoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[PatchFormer: An Efficient Point Transformer with Patch Attention](https://arxiv.org/abs/2111.00207v3)",
+        "c": "",
+        "n": "PatchFormer",
+        "d": "2021-10-30",
+        "m1": "86.5%"
+      },
+      {
+        "p": "[SGPN: Similarity Group Proposal Network for 3D Point Cloud Instance Segmentation](https://arxiv.org/abs/1711.08588v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/laughtervv/SGPN)",
+        "n": "SGPN",
+        "d": "2017-11-23",
+        "m1": "85.8%"
+      },
+      {
+        "p": "[JSNet: Joint Instance and Semantic Segmentation of 3D Point Clouds](https://arxiv.org/abs/1912.09654v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/dlinzhao/JSNet)",
+        "n": "JSNet",
+        "d": "2019-12-20",
+        "m1": "85.8%"
+      },
+      {
+        "p": "[Point-PlaneNet: Plane kernel based convolutional neural network for point clouds analysis](https://www.sciencedirect.com/science/article/abs/pii/S1051200419301873)",
+        "c": "[&check;&nbsp;Link](https://github.com/moeinp70/Point-Planenet)",
+        "n": "Point-PlaneNet",
+        "d": "2020-05-01",
+        "m1": "85.1"
+      },
+      {
+        "p": "[PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space](http://arxiv.org/abs/1706.02413v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/yanx27/Pointnet_Pointnet2_pytorch)",
+        "n": "PointNet++",
+        "d": "2017-06-07",
+        "m1": "84.6%"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

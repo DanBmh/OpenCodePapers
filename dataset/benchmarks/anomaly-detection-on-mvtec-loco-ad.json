@@ -1,0 +1,432 @@
+{
+  "title": "anomaly-detection-on-mvtec-loco-ad",
+  "task-hierarchy": [
+    "Anomaly Detection"
+  ],
+  "dataset-info": {
+    "link": "https://www.mvtec.com/company/research/datasets/mvtec-loco"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Avg. Detection AUROC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Detection AUROC (only logical)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Detection AUROC (only structural)",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Segmentation AU-sPRO (until FPR 5%)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[CSAD: Unsupervised Component Segmentation for Logical Anomaly Detection](https://arxiv.org/abs/2408.15628v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Tokichan/CSAD)",
+        "n": "CSAD",
+        "d": "2024-08-28",
+        "m1": "95.3",
+        "m2": "96.7",
+        "m3": "94.0"
+      },
+      {
+        "p": "[Few Shot Part Segmentation Reveals Compositional Logic for Industrial Anomaly Detection](https://arxiv.org/abs/2312.13783v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/oopil/PSAD_logical_anomaly_detection)",
+        "n": "PSAD",
+        "d": "2023-12-21",
+        "m1": "94.9",
+        "m2": "98.1",
+        "m3": "91.6"
+      },
+      {
+        "p": "[PUAD: Frustratingly Simple Method for Robust Anomaly Detection](https://arxiv.org/abs/2402.15143v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/LeapMind/PUAD)",
+        "n": "PUAD-M",
+        "d": "2024-02-23",
+        "m1": "94.4",
+        "m2": "93.7",
+        "m3": "95.9"
+      },
+      {
+        "p": "[Set Features for Anomaly Detection](https://arxiv.org/abs/2311.14773v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/NivC/SINBAD)",
+        "n": "SINBAD+EfficientAD",
+        "d": "2023-11-24",
+        "m1": "94.2",
+        "m2": "95.8",
+        "m3": "94.2"
+      },
+      {
+        "p": "[PUAD: Frustratingly Simple Method for Robust Anomaly Detection](https://arxiv.org/abs/2402.15143v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/LeapMind/PUAD)",
+        "n": "PUAD-S",
+        "d": "2024-02-23",
+        "m1": "93.1",
+        "m2": "92.0",
+        "m3": "94.1"
+      },
+      {
+        "p": "[EfficientAD: Accurate Visual Anomaly Detection at Millisecond-Level Latencies](https://arxiv.org/abs/2303.14535v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/openvinotoolkit/anomalib)",
+        "n": "EfficientAD-M",
+        "d": "2023-03-25",
+        "m1": "90.7",
+        "m2": "86.8",
+        "m3": "94.7",
+        "m4": "79.8"
+      },
+      {
+        "p": "[SAM-LAD: Segment Anything Model Meets Zero-Shot Logic Anomaly Detection](https://arxiv.org/abs/2406.00625v3)",
+        "c": "",
+        "n": "SAM-LAD",
+        "d": "2024-06-02",
+        "m1": "90.7",
+        "m4": "83.2"
+      },
+      {
+        "p": "[SLSG: Industrial Image Anomaly Detection by Learning Better Feature Embeddings and One-Class Classification](https://arxiv.org/abs/2305.00398v1)",
+        "c": "",
+        "n": "SLSG",
+        "d": "2023-04-30",
+        "m1": "90.3",
+        "m2": "89.6",
+        "m3": "91.4",
+        "m4": "67.3"
+      },
+      {
+        "p": "[Component-aware anomaly detection framework for adjustable and logical industrial visual inspection](https://arxiv.org/abs/2305.08509v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/liutongkun/comad)",
+        "n": "ComAD+PatchCore",
+        "d": "2023-05-15",
+        "m1": "90.1",
+        "m2": "89.4",
+        "m3": "90.9"
+      },
+      {
+        "p": "[EfficientAD: Accurate Visual Anomaly Detection at Millisecond-Level Latencies](https://arxiv.org/abs/2303.14535v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/openvinotoolkit/anomalib)",
+        "n": "EfficientAD-S",
+        "d": "2023-03-25",
+        "m1": "90.0",
+        "m2": "85.8",
+        "m3": "94.1",
+        "m4": "77.8"
+      },
+      {
+        "p": "[Component-aware anomaly detection framework for adjustable and logical industrial visual inspection](https://arxiv.org/abs/2305.08509v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/liutongkun/comad)",
+        "n": "ComAD+AST",
+        "d": "2023-05-15",
+        "m1": "89.8",
+        "m2": "90.1",
+        "m3": "89.4"
+      },
+      {
+        "p": "[Set Features for Anomaly Detection](https://arxiv.org/abs/2311.14773v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/NivC/SINBAD)",
+        "n": "SINBAD Ens",
+        "d": "2023-11-24",
+        "m1": "88.3",
+        "m2": "91.2",
+        "m3": "85.5"
+      },
+      {
+        "p": "[Component-aware anomaly detection framework for adjustable and logical industrial visual inspection](https://arxiv.org/abs/2305.08509v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/liutongkun/comad)",
+        "n": "ComAD+RD4AD",
+        "d": "2023-05-15",
+        "m1": "88.2",
+        "m2": "87.5",
+        "m3": "88.8"
+      },
+      {
+        "p": "[Hard-normal Example-aware Template Mutual Matching for Industrial Anomaly Detection](https://arxiv.org/abs/2303.16191v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/NarcissusEx/HETMM)",
+        "n": "HETMM",
+        "d": "2023-03-28",
+        "m1": "88.1",
+        "m2": "83.2",
+        "m3": "92.9"
+      },
+      {
+        "p": "[Component-aware anomaly detection framework for adjustable and logical industrial visual inspection](https://arxiv.org/abs/2305.08509v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/liutongkun/comad)",
+        "n": "ComAD+DRAEM",
+        "d": "2023-05-15",
+        "m1": "87.9",
+        "m2": "85.9",
+        "m3": "89.9"
+      },
+      {
+        "p": "[Generating and Reweighting Dense Contrastive Patterns for Unsupervised Anomaly Detection](https://arxiv.org/abs/2312.15911v1)",
+        "c": "",
+        "n": "GRAD",
+        "d": "2023-12-26",
+        "m1": "87.5"
+      },
+      {
+        "p": "[Set Features for Fine-grained Anomaly Detection](https://arxiv.org/abs/2302.12245v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/NivC/SINBAD)",
+        "n": "SINBAD",
+        "d": "2023-02-23",
+        "m1": "86.8",
+        "m2": "88.9",
+        "m3": "84.7"
+      },
+      {
+        "p": "[Template-guided Hierarchical Feature Restoration for Anomaly Detection](http://openaccess.thecvf.com//content/ICCV2023/html/Guo_Template-guided_Hierarchical_Feature_Restoration_for_Anomaly_Detection_ICCV_2023_paper.html)",
+        "c": "",
+        "n": "THFR",
+        "d": "2023-01-01",
+        "m1": "86.0",
+        "m2": "85.2",
+        "m3": "86.7",
+        "m4": "74.1"
+      },
+      {
+        "p": "[LADMIM: Logical Anomaly Detection with Masked Image Modeling in Discrete Latent Space](https://arxiv.org/abs/2410.10234v1)",
+        "c": "",
+        "n": "LADMIM",
+        "d": "2024-10-14",
+        "m1": "86.0",
+        "m2": "83.1",
+        "m3": "90.3"
+      },
+      {
+        "p": "[Contextual Affinity Distillation for Image Anomaly Detection](https://arxiv.org/abs/2307.03101v1)",
+        "c": "",
+        "n": "DSKD",
+        "d": "2023-07-06",
+        "m1": "84.0",
+        "m2": "81.2",
+        "m3": "86.9",
+        "m4": "73.0"
+      },
+      {
+        "p": "[Visual Anomaly Detection via Dual-Attention Transformer and Discriminative Flow](https://arxiv.org/abs/2303.17882v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/hmyao22/DADF)",
+        "n": "DADF",
+        "d": "2023-03-31",
+        "m1": "83.7",
+        "m2": "79.2",
+        "m3": "88.2",
+        "m4": "67.4"
+      },
+      {
+        "p": "[Beyond Dents and Scratches: Logical Constraints in Unsupervised Anomaly Detection and Localization](https://link.springer.com/article/10.1007/s11263-022-01578-9)",
+        "c": "",
+        "n": "GCAD",
+        "d": "2022-02-22",
+        "m1": "83.3",
+        "m2": "86.0",
+        "m3": "80.6",
+        "m4": "70.1"
+      },
+      {
+        "p": "[Learning Global-Local Correspondence with Semantic Bottleneck for Logical Anomaly Detection](https://arxiv.org/abs/2303.05768v2)",
+        "c": "",
+        "n": "GLCF",
+        "d": "2023-03-10",
+        "m1": "83.1",
+        "m2": "82.4",
+        "m3": "83.8",
+        "m4": "70.3"
+      },
+      {
+        "p": "[DSR -- A dual subspace re-projection network for surface anomaly detection](https://arxiv.org/abs/2208.01521v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/vitjanz/dsr_anomaly_detection)",
+        "n": "DSR",
+        "d": "2022-08-02",
+        "m1": "82.6",
+        "m2": "75.0",
+        "m3": "90.2",
+        "m4": "58.5"
+      },
+      {
+        "p": "[Component-aware anomaly detection framework for adjustable and logical industrial visual inspection](https://arxiv.org/abs/2305.08509v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/liutongkun/comad)",
+        "n": "ComAD",
+        "d": "2023-05-15",
+        "m1": "81.2",
+        "m2": "87.7",
+        "m3": "74.6"
+      },
+      {
+        "p": "[Towards Total Recall in Industrial Anomaly Detection](https://arxiv.org/abs/2106.08265v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/openvinotoolkit/anomalib)",
+        "n": "PatchCore",
+        "d": "2021-06-15",
+        "m1": "80.3",
+        "m2": "75.8",
+        "m4": "39.7"
+      },
+      {
+        "p": "[Towards Total Recall in Industrial Anomaly Detection](https://arxiv.org/abs/2106.08265v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/openvinotoolkit/anomalib)",
+        "n": "PatchCore Ensemble",
+        "d": "2021-06-15",
+        "m1": "79.4",
+        "m2": "71.0",
+        "m3": "87.7",
+        "m4": "36.5"
+      },
+      {
+        "p": "[FastFlow: Unsupervised Anomaly Detection and Localization via 2D Normalizing Flows](https://arxiv.org/abs/2111.07677v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/openvinotoolkit/anomalib/tree/main/src/anomalib/models/fastflow)",
+        "n": "FastFlow",
+        "d": "2021-11-15",
+        "m1": "79.2",
+        "m2": "75.5",
+        "m3": "82.9",
+        "m4": "56.8"
+      },
+      {
+        "p": "[Anomaly Detection via Reverse Distillation from One-Class Embedding](https://arxiv.org/abs/2201.10703v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/openvinotoolkit/anomalib/tree/development/anomalib/models/reverse_distillation)",
+        "n": "RD4AD",
+        "d": "2022-01-26",
+        "m1": "78.7",
+        "m2": "69.4",
+        "m3": "88.0",
+        "m4": "63.7"
+      },
+      {
+        "p": "[SimpleNet: A Simple Network for Image Anomaly Detection and Localization](https://arxiv.org/abs/2303.15140v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/donaldrr/simplenet)",
+        "n": "SimpleNet",
+        "d": "2023-03-27",
+        "m1": "77.6",
+        "m2": "71.5",
+        "m3": "83.7",
+        "m4": "36.3"
+      },
+      {
+        "p": "[Uninformed Students: Student-Teacher Anomaly Detection with Discriminative Latent Embeddings](https://arxiv.org/abs/1911.02357v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/denguir/student-teacher-anomaly-detection)",
+        "n": "Student-Teacher",
+        "d": "2019-11-06",
+        "m1": "77.3",
+        "m2": "66.4",
+        "m3": "88.3"
+      },
+      {
+        "p": "[MuSc: Zero-Shot Industrial Anomaly Classification and Segmentation with Mutual Scoring of the Unlabeled Images](https://arxiv.org/abs/2401.16753v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/xrli-U/MuSc)",
+        "n": "MuSc (zero-shot)",
+        "d": "2024-01-30",
+        "m1": "75.9",
+        "m2": "67.47",
+        "m3": "84.3",
+        "m4": "63.04"
+      },
+      {
+        "p": "[DRAEM -- A discriminatively trained reconstruction embedding for surface anomaly detection](https://arxiv.org/abs/2108.07610v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/openvinotoolkit/anomalib/tree/development/anomalib/models/draem)",
+        "n": "DRAEM",
+        "d": "2021-08-17",
+        "m1": "73.6",
+        "m2": "72.8",
+        "m3": "74.4",
+        "m4": "42.6"
+      },
+      {
+        "p": "[Sub-Image Anomaly Detection with Deep Pyramid Correspondences](https://arxiv.org/abs/2005.02357v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/byungjae89/SPADE-pytorch)",
+        "n": "SPADE",
+        "d": "2020-05-05",
+        "m1": "68.9",
+        "m2": "70.9",
+        "m3": "66.8",
+        "m4": "45.1"
+      },
+      {
+        "p": "[Learning Memory-guided Normality for Anomaly Detection](https://arxiv.org/abs/2003.13228v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/cvlab-yonsei/MNAD)",
+        "n": "MNAD",
+        "d": "2020-03-30",
+        "m1": "65.1",
+        "m2": "60.0",
+        "m3": "70.2",
+        "m4": "33.9"
+      },
+      {
+        "p": "[f-AnoGAN: Fast Unsupervised Anomaly Detection with Generative Adversarial Networks](https://www.sciencedirect.com/science/article/abs/pii/S1361841518302640)",
+        "c": "[&check;&nbsp;Link](https://github.com/tSchlegl/f-AnoGAN)",
+        "n": "f-AnoGAN",
+        "d": "2019-01-30",
+        "m1": "64.2",
+        "m2": "65.8",
+        "m3": "62.7",
+        "m4": "33.4"
+      },
+      {
+        "p": "[Beyond Dents and Scratches: Logical Constraints in Unsupervised Anomaly Detection and Localization](https://link.springer.com/article/10.1007/s11263-022-01578-9)",
+        "c": "",
+        "n": "Variation Model",
+        "d": "2022-02-22",
+        "m1": "57.7",
+        "m2": "56.5",
+        "m3": "58.9",
+        "m4": "22.5"
+      },
+      {
+        "p": "[Beyond Dents and Scratches: Logical Constraints in Unsupervised Anomaly Detection and Localization](https://link.springer.com/article/10.1007/s11263-022-01578-9)",
+        "c": "",
+        "n": "L2AE",
+        "d": "2022-02-22",
+        "m1": "57.3",
+        "m2": "58.1",
+        "m3": "56.5",
+        "m4": "37.8"
+      },
+      {
+        "p": "[Auto-Encoding Variational Bayes](http://arxiv.org/abs/1312.6114v10)",
+        "c": "[&check;&nbsp;Link](https://github.com/microsoft/recommenders)",
+        "n": "VAE",
+        "d": "2013-12-20",
+        "m1": "54.3",
+        "m2": "53.8",
+        "m3": "54.8",
+        "m4": "38.2"
+      },
+      {
+        "p": "[Asymmetric Student-Teacher Networks for Industrial Anomaly Detection](https://arxiv.org/abs/2210.07829v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/marco-rudolph/ast)",
+        "n": "AST",
+        "d": "2022-10-14",
+        "m2": "79.7",
+        "m3": "87.1",
+        "m4": "42.7"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

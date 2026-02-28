@@ -1,0 +1,83 @@
+{
+  "title": "generalized-zero-shot-skeletal-action-1",
+  "task-hierarchy": [
+    "Action Recognition",
+    "3D Action Recognition",
+    "Generalized Zero Shot skeletal action recognition"
+  ],
+  "dataset-info": {
+    "link": "http://rose1.ntu.edu.sg/Datasets/actionRecognition.asp"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Harmonic Mean (10 unseen classes)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Harmonic Mean (24 unseen classes)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Random Split Harmonic Mean",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[SA-DVAE: Improving Zero-Shot Skeleton-Based Action Recognition by Disentangled Variational Autoencoders](https://arxiv.org/abs/2407.13460v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/pha123661/SA-DVAE)",
+        "n": "SA-DVAE",
+        "d": "2024-07-18",
+        "m1": "60.42",
+        "m2": "44.50",
+        "m3": "47.54"
+      },
+      {
+        "p": "[Multi-Semantic Fusion Model for Generalized Zero-Shot Skeleton-Based Action Recognition](https://arxiv.org/abs/2309.09592v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/EHZ9NIWI7/MSF-GZSSAR)",
+        "n": "MSF-GZSSAR",
+        "d": "2023-09-18",
+        "m1": "57.40",
+        "m2": "52.40"
+      },
+      {
+        "p": "[Syntactically Guided Generative Embeddings for Zero-Shot Skeleton Action Recognition](https://arxiv.org/abs/2101.11530v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/skelemoa/synse-zsl)",
+        "n": "SynSE",
+        "d": "2021-01-27",
+        "m1": "54.94",
+        "m2": "41.04"
+      },
+      {
+        "p": "[SA-DVAE: Improving Zero-Shot Skeleton-Based Action Recognition by Disentangled Variational Autoencoders](https://arxiv.org/abs/2407.13460v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/pha123661/SA-DVAE)",
+        "n": "SA-DVAE + augmented text",
+        "d": "2024-07-18",
+        "m3": "50.72"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

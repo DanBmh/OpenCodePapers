@@ -1,0 +1,79 @@
+{
+  "title": "density-estimation-on-caltech-101",
+  "task-hierarchy": [
+    "Density Estimation"
+  ],
+  "dataset-info": {
+    "link": "http://www.vision.caltech.edu/Image_Datasets/Caltech101/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Negative ELBO",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "NLL",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "MMD-L2",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "COV-L2",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Block Neural Autoregressive Flow](http://arxiv.org/abs/1904.04676v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/nicola-decao/BNAF)",
+        "n": "B-NAF",
+        "d": "2019-04-09",
+        "m1": "94.91",
+        "m2": "105.42"
+      },
+      {
+        "p": "[FFJORD: Free-form Continuous Dynamics for Scalable Reversible Generative Models](http://arxiv.org/abs/1810.01367v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/rtqichen/ffjord)",
+        "n": "FFJORD",
+        "d": "2018-10-02",
+        "m1": "104.03",
+        "m3": "18.6",
+        "m4": "98.8%"
+      },
+      {
+        "p": "[PaddingFlow: Improving Normalizing Flows with Padding-Dimensional Noise](https://arxiv.org/abs/2403.08216v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/adamqlmeng/paddingflow)",
+        "n": "PaddingFlow",
+        "d": "2024-03-13",
+        "m3": "17.9",
+        "m4": "98.7%"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

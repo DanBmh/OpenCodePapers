@@ -1,0 +1,158 @@
+{
+  "title": "semantic-segmentation-on-kitti-360",
+  "task-hierarchy": [
+    "Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "http://www.cvlibs.net/datasets/kitti-360/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Depth Matters: Exploring Deep Interactions of RGB-D for Semantic Segmentation in Traffic Scenes](https://arxiv.org/abs/2409.07995v1)",
+        "c": "",
+        "n": "DiPFormer",
+        "d": "2024-09-12",
+        "m1": "68.74"
+      },
+      {
+        "p": "[Delivering Arbitrary-Modal Semantic Segmentation](https://arxiv.org/abs/2303.01480v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jamycheung/DELIVER)",
+        "n": "CMNeXt (RGB-D-E-LiDAR)",
+        "d": "2023-03-02",
+        "m1": "67.84"
+      },
+      {
+        "p": "[HSPFormer: Hierarchical Spatial Perception Transformer for Semantic Segmentation](https://doi.org/10.1109/TITS.2025.3525542)",
+        "c": "[&check;&nbsp;Link](https://github.com/SY-Ch/HSPFormer)",
+        "n": "HSPFormer-DBS(RGB-Depth)",
+        "d": "2025-01-16",
+        "m1": "67.32"
+      },
+      {
+        "p": "[HSPFormer: Hierarchical Spatial Perception Transformer for Semantic Segmentation](https://doi.org/10.1109/TITS.2025.3525542)",
+        "c": "[&check;&nbsp;Link](https://github.com/SY-Ch/HSPFormer)",
+        "n": "HSPFormer-UFS(RGB)",
+        "d": "2025-01-16",
+        "m1": "66.82"
+      },
+      {
+        "p": "[CMX: Cross-Modal Fusion for RGB-X Semantic Segmentation with Transformers](https://arxiv.org/abs/2203.04838v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/huaaaliu/rgbx_semantic_segmentation)",
+        "n": "CMX (RGB-Depth)",
+        "d": "2022-03-09",
+        "m1": "64.43"
+      },
+      {
+        "p": "[CMX: Cross-Modal Fusion for RGB-X Semantic Segmentation with Transformers](https://arxiv.org/abs/2203.04838v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/huaaaliu/rgbx_semantic_segmentation)",
+        "n": "CMX (RGB-LiDAR)",
+        "d": "2022-03-09",
+        "m1": "64.31"
+      },
+      {
+        "p": "[ACNet: Attention Based Network to Exploit Complementary Features for RGBD Semantic Segmentation](https://arxiv.org/abs/1905.10089v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/anheidelonghu/ACNet)",
+        "n": "ACNet (ResNet50)",
+        "d": "2019-05-24",
+        "m1": "61.57"
+      },
+      {
+        "p": "[Multimodal Token Fusion for Vision Transformers](https://arxiv.org/abs/2204.08721v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/huawei-noah/noah-research/tree/master/TokenFusion)",
+        "n": "TokenFusion (RGB-Depth)",
+        "d": "2022-04-19",
+        "m1": "57.44"
+      },
+      {
+        "p": "[ISSAFE: Improving Semantic Segmentation in Accidents by Fusing Event-based Data](https://arxiv.org/abs/2008.08974v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/jamycheung/ISSAFE)",
+        "n": "ISSAFE (ResNet50)",
+        "d": "2020-08-20",
+        "m1": "56.64"
+      },
+      {
+        "p": "[Multi-Modal Fusion Transformer for End-to-End Autonomous Driving](https://arxiv.org/abs/2104.09224v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/autonomousvision/transfuser)",
+        "n": "TransFuser (RGB-LiDAR)",
+        "d": "2021-04-19",
+        "m1": "56.57"
+      },
+      {
+        "p": "[Multimodal Token Fusion for Vision Transformers](https://arxiv.org/abs/2204.08721v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/huawei-noah/noah-research/tree/master/TokenFusion)",
+        "n": "TokenFusion (RGB-LiDAR)",
+        "d": "2022-04-19",
+        "m1": "54.55"
+      },
+      {
+        "p": "[EPMF: Efficient Perception-aware Multi-sensor Fusion for 3D Semantic Segmentation](https://arxiv.org/abs/2106.15277v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/ICEORY/PMF)",
+        "n": "PMF (RGB-LiDAR)",
+        "d": "2021-06-21",
+        "m1": "54.48"
+      },
+      {
+        "p": "[ISSAFE: Improving Semantic Segmentation in Accidents by Fusing Event-based Data](https://arxiv.org/abs/2008.08974v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/jamycheung/ISSAFE)",
+        "n": "ISSAFE (ResNet18)",
+        "d": "2020-08-20",
+        "m1": "53.95"
+      },
+      {
+        "p": "[HRFuser: A Multi-resolution Sensor Fusion Architecture for 2D Object Detection](https://arxiv.org/abs/2206.15157v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/timbroed/hrfuser)",
+        "n": "HRFuser (RGB-D-LiDAR)",
+        "d": "2022-06-30",
+        "m1": "52.61"
+      },
+      {
+        "p": "[HRFuser: A Multi-resolution Sensor Fusion Architecture for 2D Object Detection](https://arxiv.org/abs/2206.15157v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/timbroed/hrfuser)",
+        "n": "HRFuser (RGB-Depth)",
+        "d": "2022-06-30",
+        "m1": "49.32"
+      },
+      {
+        "p": "[HRFuser: A Multi-resolution Sensor Fusion Architecture for 2D Object Detection](https://arxiv.org/abs/2206.15157v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/timbroed/hrfuser)",
+        "n": "HRFuser (RGB-LiDAR)",
+        "d": "2022-06-30",
+        "m1": "48.74"
+      },
+      {
+        "p": "[Glass Segmentation Using Intensity and Spectral Polarization Cues](http://openaccess.thecvf.com//content/CVPR2022/html/Mei_Glass_Segmentation_Using_Intensity_and_Spectral_Polarization_Cues_CVPR_2022_paper.html)",
+        "c": "",
+        "n": "PGSNet (RGB-D-LiDAR)",
+        "d": "2022-01-01",
+        "m1": "48.51"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

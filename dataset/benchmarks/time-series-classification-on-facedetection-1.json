@@ -1,0 +1,57 @@
+{
+  "title": "time-series-classification-on-facedetection-1",
+  "task-hierarchy": [
+    "Time Series Classification"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Improving Position Encoding of Transformers for Multivariate Time Series Classification](https://arxiv.org/abs/2305.16642v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/navidfoumani/convtran)",
+        "n": "ConvTran",
+        "d": "2023-05-26",
+        "m1": "0.6722"
+      },
+      {
+        "p": "[Disjoint-CNN for Multivariate Time Series Classification](https://ieeexplore.ieee.org/abstract/document/9679860)",
+        "c": "[&check;&nbsp;Link](https://github.com/Navidfoumani/Disjoint-CNN)",
+        "n": "Disjoint-CNN",
+        "d": "2022-01-20",
+        "m1": "0.5667"
+      },
+      {
+        "p": "[TSEM: Temporally Weighted Spatiotemporal Explainable Neural Network for Multivariate Time Series](https://arxiv.org/abs/2205.13012v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/a11to1n3/tsem)",
+        "n": "TSEM",
+        "d": "2022-05-25",
+        "m1": "0.513"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

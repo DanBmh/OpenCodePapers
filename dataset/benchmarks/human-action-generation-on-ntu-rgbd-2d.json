@@ -1,0 +1,104 @@
+{
+  "title": "human-action-generation-on-ntu-rgbd-2d",
+  "task-hierarchy": [
+    "Human action generation"
+  ],
+  "dataset-info": {
+    "link": "https://rose1.ntu.edu.sg/dataset/actionRecognition/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MMDa (CS)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "MMDs (CS)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "MMDa (CV)",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "MMDs (CV)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Generative Adversarial Graph Convolutional Networks for Human Action Synthesis](https://arxiv.org/abs/2110.11191v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/degardinbruno/kinetic-gan)",
+        "n": "Kinetic-GAN",
+        "d": "2021-10-21",
+        "m1": "0.256",
+        "m2": "0.273",
+        "m3": "0.295",
+        "m4": "0.310"
+      },
+      {
+        "p": "[Structure-Aware Human-Action Generation](https://arxiv.org/abs/2007.01971v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/PingYu-iris/SA-GCN)",
+        "n": "SA-GCN",
+        "d": "2020-07-04",
+        "m1": "0.285",
+        "m2": "0.299",
+        "m3": "0.316",
+        "m4": "0.335"
+      },
+      {
+        "p": "[Conditional Generative Adversarial Nets](https://arxiv.org/abs/1411.1784v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/tree/main/Conditional_Generative_Adversarial_Nets)",
+        "n": "c-GAN",
+        "d": "2014-11-06",
+        "m1": "0.334",
+        "m2": "0.354",
+        "m3": "0.365",
+        "m4": "0.373"
+      },
+      {
+        "p": "[Learning Diverse Stochastic Human-Action Generators by Learning Smooth Latent Transitions](https://arxiv.org/abs/1912.10150v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/zheshiyige/Learning-Diverse-Stochastic-Human-Action-Generators-by-Learning-Smooth-Latent-Transitions)",
+        "n": "c-SkeletonGAN",
+        "d": "2019-12-21",
+        "m1": "0.338",
+        "m2": "0.402",
+        "m3": "0.371",
+        "m4": "0.398"
+      },
+      {
+        "p": "[Deep Video Generation, Prediction and Completion of Human Action Sequences](http://arxiv.org/abs/1711.08682v3)",
+        "c": "",
+        "n": "SkeletonGAN",
+        "d": "2017-11-23",
+        "m1": "0.698",
+        "m2": "0.788",
+        "m3": "0.999",
+        "m4": "1.311"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

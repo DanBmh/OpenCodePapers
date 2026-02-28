@@ -1,0 +1,242 @@
+{
+  "title": "person-re-identification-on-mars",
+  "task-hierarchy": [
+    "Person Re-Identification"
+  ],
+  "dataset-info": {
+    "link": "http://zheng-lab.cecs.anu.edu.au/Project/project_mars.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Rank-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Rank-5",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Rank-10",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Rank-20",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Video Person Re-ID: Fantastic Techniques and Where to Find Them](https://arxiv.org/abs/1912.05295v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ppriyank/Video-Person-Re-ID-Fantastic-Techniques-and-Where-to-Find-Them)",
+        "n": "B-BOT + OSM + CL Centers* (Re-rank)",
+        "d": "2019-11-21",
+        "m1": "88.5"
+      },
+      {
+        "p": "[Dense Interaction Learning for Video-based Person Re-identification](https://arxiv.org/abs/2103.09013v3)",
+        "c": "",
+        "n": "DenseIL",
+        "d": "2021-03-16",
+        "m1": "87",
+        "m2": "90.8",
+        "m3": "97.1",
+        "m5": "98.8"
+      },
+      {
+        "p": "[Multi-direction and Multi-scale Pyramid in Transformer for Video-based Pedestrian Retrieval](https://arxiv.org/abs/2202.06014)",
+        "c": "[&check;&nbsp;Link](https://github.com/deropty/PiT)",
+        "n": "PiT",
+        "d": "2022-02-12",
+        "m1": "86.8",
+        "m2": "90.22",
+        "m3": "97.23",
+        "m4": "98.04"
+      },
+      {
+        "p": "[Fine-Grained Re-Identification](https://arxiv.org/abs/2011.13475v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/ppriyank/Video-Person-Re-ID-Fantastic-Techniques-and-Where-to-Find-Them)",
+        "n": "FGReID",
+        "d": "2020-11-26",
+        "m1": "86.2",
+        "m2": "89.6",
+        "m3": "97.0",
+        "m5": "98.8"
+      },
+      {
+        "p": "[Spatio-Temporal Representation Factorization for Video-based Person Re-Identification](https://arxiv.org/abs/2107.11878v2)",
+        "c": "",
+        "n": "STRF",
+        "d": "2021-07-25",
+        "m1": "86.10",
+        "m2": "90.30 "
+      },
+      {
+        "p": "[Learning Multi-Granular Hypergraphs for Video-Based Person Re-Identification](https://arxiv.org/abs/2104.14913v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/daodaofr/hypergraph_reid)",
+        "n": "mgh",
+        "d": "2021-04-30",
+        "m1": "85.8",
+        "m2": "90.0",
+        "m3": "96.7",
+        "m5": "98.5"
+      },
+      {
+        "p": "[Pyramid Spatial-Temporal Aggregation for Video-Based Person Re-Identification](http://openaccess.thecvf.com//content/ICCV2021/html/Wang_Pyramid_Spatial-Temporal_Aggregation_for_Video-Based_Person_Re-Identification_ICCV_2021_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/WangYQ9/VideoReID_PSTA)",
+        "n": "PSTA",
+        "d": "2021-01-01",
+        "m1": "85.8"
+      },
+      {
+        "p": "[Video-based Person Re-identification with Spatial and Temporal Memory Networks](https://arxiv.org/abs/2108.09039v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/cvlab-yonsei/STMN)",
+        "n": "STMN",
+        "d": "2021-08-20",
+        "m1": "84.5",
+        "m2": "90.5"
+      },
+      {
+        "p": "[Robust Re-Identification by Multiple Views Knowledge Distillation](https://arxiv.org/abs/2007.04174v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/aimagelab/VKD)",
+        "n": "VKD (ResVKD-50bam)",
+        "d": "2020-07-08",
+        "m1": "83.1",
+        "m2": "89.4",
+        "m3": "96.8"
+      },
+      {
+        "p": "[Video Person Re-ID: Fantastic Techniques and Where to Find Them](https://arxiv.org/abs/1912.05295v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ppriyank/Video-Person-Re-ID-Fantastic-Techniques-and-Where-to-Find-Them)",
+        "n": "B-BOT + Attention and CL loss*",
+        "d": "2019-11-21",
+        "m1": "82.9"
+      },
+      {
+        "p": "[Spatially and Temporally Efficient Non-local Attention Network for Video-based Person Re-Identification](https://arxiv.org/abs/1908.01683v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jackie840129/STE-NVAN)",
+        "n": "NVAN",
+        "d": "2019-08-05",
+        "m1": "82.8",
+        "m2": "90"
+      },
+      {
+        "p": "[Adaptive Graph Representation Learning for Video Person Re-identification](https://arxiv.org/abs/1909.02240v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/weleen/AGRL.pytorch)",
+        "n": "AGRL",
+        "d": "2019-09-05",
+        "m1": "81.1",
+        "m2": "89.8",
+        "m4": "96.1",
+        "m5": "97.6"
+      },
+      {
+        "p": "[Cloth-Changing Person Re-identification from A Single Image with Gait Prediction and Regularization](https://arxiv.org/abs/2103.15537v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/jinx-USTC/GI-ReID)",
+        "n": "Baseline + GS + SC (ours)",
+        "d": "2021-03-29",
+        "m1": "80.41",
+        "m2": "88.32"
+      },
+      {
+        "p": "[In Defense of the Triplet Loss for Person Re-Identification](http://arxiv.org/abs/1703.07737v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/layumi/Person_reID_baseline_pytorch)",
+        "n": "TriNet (RK)",
+        "d": "2017-03-22",
+        "m1": "77.43",
+        "m2": "81.21",
+        "m3": "90.76"
+      },
+      {
+        "p": "[In Defense of the Triplet Loss for Person Re-Identification](http://arxiv.org/abs/1703.07737v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/layumi/Person_reID_baseline_pytorch)",
+        "n": "LuNet (RK)",
+        "d": "2017-03-22",
+        "m1": "73.68",
+        "m2": "78.48",
+        "m3": "88.74"
+      },
+      {
+        "p": "[Temporal Knowledge Propagation for Image-to-Video Person Re-identification](https://arxiv.org/abs/1908.03885v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/guxinqian/TKP)",
+        "n": "TKP",
+        "d": "2019-08-11",
+        "m1": "73.3",
+        "m2": "84",
+        "m3": "93.7",
+        "m4": "95.7"
+      },
+      {
+        "p": "[A Pose-Sensitive Embedding for Person Re-Identification with Expanded Cross Neighborhood Re-Ranking](http://arxiv.org/abs/1711.10378v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/pse-ecn/pose-sensitive-embedding)",
+        "n": "PSE+ ECN (rank-dist)",
+        "d": "2017-11-28",
+        "m1": "71.8",
+        "m2": "76.7"
+      },
+      {
+        "p": "[In Defense of the Triplet Loss for Person Re-Identification](http://arxiv.org/abs/1703.07737v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/layumi/Person_reID_baseline_pytorch)",
+        "n": "TriNet",
+        "d": "2017-03-22",
+        "m1": "67.70",
+        "m2": "79.80",
+        "m3": "91.36"
+      },
+      {
+        "p": "[In Defense of the Triplet Loss for Person Re-Identification](http://arxiv.org/abs/1703.07737v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/layumi/Person_reID_baseline_pytorch)",
+        "n": "LuNet",
+        "d": "2017-03-22",
+        "m1": "60.48",
+        "m2": "75.56",
+        "m3": "89.70"
+      },
+      {
+        "p": "[Unsupervised Tracklet Person Re-Identification](http://arxiv.org/abs/1903.00535v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/liminxian/DukeMTMC-SI-Tracklet)",
+        "n": "UTAL",
+        "d": "2019-03-01",
+        "m1": "35.2",
+        "m2": "49.9",
+        "m4": "66.4",
+        "m5": "77.8"
+      },
+      {
+        "p": "[Video Person Re-ID: Fantastic Techniques and Where to Find Them](https://arxiv.org/abs/1912.05295v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ppriyank/Video-Person-Re-ID-Fantastic-Techniques-and-Where-to-Find-Them)",
+        "n": "B-BOT + Attention and CL loss",
+        "d": "2019-11-21",
+        "m2": "88.6"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

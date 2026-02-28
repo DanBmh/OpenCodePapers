@@ -1,0 +1,120 @@
+{
+  "title": "speech-recognition-on-swb_hub_500-wer",
+  "task-hierarchy": [
+    "Speech Recognition"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Percentage error",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[On the limit of English conversational speech recognition](https://arxiv.org/abs/2105.00982v1)",
+        "c": "",
+        "n": "IBM (LSTM+Conformer encoder-decoder)",
+        "d": "2021-05-03",
+        "m1": "6.8"
+      },
+      {
+        "p": "[Single headed attention based sequence-to-sequence model for state-of-the-art results on Switchboard](https://arxiv.org/abs/2001.07263v3)",
+        "c": "",
+        "n": "IBM (LSTM encoder-decoder)",
+        "d": "2020-01-20",
+        "m1": "7.8"
+      },
+      {
+        "p": "[English Conversational Telephone Speech Recognition by Humans and Machines](http://arxiv.org/abs/1703.02136v1)",
+        "c": "",
+        "n": "ResNet + BiLSTMs acoustic model",
+        "d": "2017-03-06",
+        "m1": "10.3"
+      },
+      {
+        "p": "[The Microsoft 2016 Conversational Speech Recognition System](http://arxiv.org/abs/1609.03528v2)",
+        "c": "",
+        "n": "VGG/Resnet/LACE/BiLSTM acoustic model trained on SWB+Fisher+CH, N-gram + RNNLM language model trained on Switchboard+Fisher+Gigaword+Broadcast",
+        "d": "2016-09-12",
+        "m1": "11.9"
+      },
+      {
+        "p": "[The IBM 2016 English Conversational Telephone Speech Recognition System](http://arxiv.org/abs/1604.08242v2)",
+        "c": "",
+        "n": "RNN + VGG + LSTM acoustic model trained on SWB+Fisher+CH, N-gram + \"model M\" + NNLM language model",
+        "d": "2016-04-27",
+        "m1": "12.2"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "HMM-BLSTM trained with MMI + data augmentation (speed) + iVectors + 3 regularizations + Fisher",
+        "d": null,
+        "m1": "13"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "HMM-TDNN trained with MMI + data augmentation (speed) + iVectors + 3 regularizations + Fisher (10% / 15.1% respectively trained on SWBD only)",
+        "d": null,
+        "m1": "13.3"
+      },
+      {
+        "p": "[Deep Speech: Scaling up end-to-end speech recognition](http://arxiv.org/abs/1412.5567v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/mozilla/STT)",
+        "n": "CNN + Bi-RNN + CTC (speech to letters), 25.9% WER if trainedonlyon SWB",
+        "d": "2014-12-17",
+        "m1": "16"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "HMM-TDNN + iVectors",
+        "d": null,
+        "m1": "17.1"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "HMM-DNN +sMBR",
+        "d": null,
+        "m1": "18.4"
+      },
+      {
+        "p": "[Building DNN Acoustic Models for Large Vocabulary Speech Recognition](http://arxiv.org/abs/1406.7806v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/pannous/caffe-speech-recognition)",
+        "n": "DNN + Dropout",
+        "d": "2014-06-30",
+        "m1": "19.1"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "HMM-TDNN + pNorm + speed up/down speech",
+        "d": null,
+        "m1": "19.3"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

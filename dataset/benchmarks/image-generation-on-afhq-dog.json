@@ -1,0 +1,118 @@
+{
+  "title": "image-generation-on-afhq-dog",
+  "task-hierarchy": [
+    "Image Generation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/clovaai/stargan-v2"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "FID",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "clean-FID",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "clean-KID",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "MAE Signature",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "MAE log-signature",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "RMSE Signature",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "RMSE log-signature",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Projected GANs Converge Faster](https://arxiv.org/abs/2111.01007v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/autonomousvision/projected_gan)",
+        "n": "Projected GAN",
+        "d": "2021-11-01",
+        "m1": "4.52"
+      },
+      {
+        "p": "[Ensembling Off-the-shelf Models for GAN Training](https://arxiv.org/abs/2112.09130v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/nupurkmr9/vision-aided-gan)",
+        "n": "Vision-aided GAN",
+        "d": "2021-12-16",
+        "m1": "4.60",
+        "m2": "4.73 ± .02",
+        "m3": "0.38 ± .01"
+      },
+      {
+        "p": "[Diffusion-GAN: Training GANs with Diffusion](https://arxiv.org/abs/2206.02262v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/Zhendong-Wang/Diffusion-GAN)",
+        "n": "Diffusion InsGen",
+        "d": "2022-06-05",
+        "m1": "4.83"
+      },
+      {
+        "p": "[Training Generative Adversarial Networks with Limited Data](https://arxiv.org/abs/2006.06676v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/NVlabs/stylegan2-ada-pytorch)",
+        "n": "StyleGAN2-ADA",
+        "d": "2020-06-11",
+        "m1": "7.41",
+        "m2": "7.61 ± .02",
+        "m3": "1.28 ± .02"
+      },
+      {
+        "p": "[DDMI: Domain-Agnostic Latent Diffusion Models for Synthesizing High-Quality Implicit Neural Representations](https://arxiv.org/abs/2401.12517v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/mlvlab/DDMI)",
+        "n": "DDMI",
+        "d": "2024-01-23",
+        "m1": "8.54"
+      },
+      {
+        "p": "[Signature and Log-signature for the Study of Empirical Distributions Generated with GANs](https://arxiv.org/abs/2203.03226v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/decurtoydiaz/signatures)",
+        "n": "Stylegan2-ada (NVIDIA pre-trained)",
+        "d": "2022-03-07",
+        "m4": "30441",
+        "m5": "24612",
+        "m6": "38861",
+        "m7": "31686"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

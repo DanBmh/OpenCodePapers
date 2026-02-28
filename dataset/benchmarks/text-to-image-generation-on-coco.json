@@ -1,0 +1,598 @@
+{
+  "title": "text-to-image-generation-on-coco",
+  "task-hierarchy": [
+    "Text-to-Image Generation"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "FID",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Inception score",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "FID-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "FID-2",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "FID-4",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "FID-8",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "SOA-C",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "Zero shot FID",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Data Extrapolation for Text-to-image Generation on Small Datasets](https://arxiv.org/abs/2410.01638v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/senmaoy/RAT-Diffusion)",
+        "n": "RAT-Diffusion",
+        "d": "2024-10-02",
+        "m1": "5.00"
+      },
+      {
+        "p": "[Re-Imagen: Retrieval-Augmented Text-to-Image Generator](https://arxiv.org/abs/2209.14491v3)",
+        "c": "",
+        "n": "Re-Imagen (Finetuned)",
+        "d": "2022-09-29",
+        "m1": "5.25"
+      },
+      {
+        "p": "[All are Worth Words: A ViT Backbone for Diffusion Models](https://arxiv.org/abs/2209.12152v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/baofff/U-ViT)",
+        "n": "U-ViT-S/2-Deep",
+        "d": "2022-09-25",
+        "m1": "5.48"
+      },
+      {
+        "p": "[GLIGEN: Open-Set Grounded Text-to-Image Generation](https://arxiv.org/abs/2301.07093v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/gligen/GLIGEN)",
+        "n": "GLIGEN (fine-tuned, Detection + Caption data)",
+        "d": "2023-01-17",
+        "m1": "5.61"
+      },
+      {
+        "p": "[GLIGEN: Open-Set Grounded Text-to-Image Generation](https://arxiv.org/abs/2301.07093v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/gligen/GLIGEN)",
+        "n": "GLIGEN (fine-tuned, Detection data only)",
+        "d": "2023-01-17",
+        "m1": "5.82"
+      },
+      {
+        "p": "[All are Worth Words: A ViT Backbone for Diffusion Models](https://arxiv.org/abs/2209.12152v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/baofff/U-ViT)",
+        "n": "U-ViT-S/2",
+        "d": "2022-09-25",
+        "m1": "5.95"
+      },
+      {
+        "p": "[Improving Diffusion-Based Image Synthesis with Context Prediction](https://arxiv.org/abs/2401.02015v1)",
+        "c": "",
+        "n": "ConPreDiff",
+        "d": "2024-01-04",
+        "m1": "6.21",
+        "m8": "6.21"
+      },
+      {
+        "p": "[Truncated Diffusion Probabilistic Models and Diffusion-based Adversarial Auto-Encoders](https://arxiv.org/abs/2202.09671v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/jegzheng/truncated-diffusion-probabilistic-models)",
+        "n": "TLDM",
+        "d": "2022-02-19",
+        "m1": "6.29"
+      },
+      {
+        "p": "[GLIGEN: Open-Set Grounded Text-to-Image Generation](https://arxiv.org/abs/2301.07093v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/gligen/GLIGEN)",
+        "n": "GLIGEN (fine-tuned, Grounding data)",
+        "d": "2023-01-17",
+        "m1": "6.38"
+      },
+      {
+        "p": "[RAPHAEL: Text-to-Image Generation via Large Mixture of Diffusion Paths](https://arxiv.org/abs/2305.18295v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/lucidrains/soft-moe-pytorch)",
+        "n": "RAPHAEL (zero-shot)",
+        "d": "2023-05-29",
+        "m1": "6.61"
+      },
+      {
+        "p": "[ERNIE-ViLG 2.0: Improving Text-to-Image Diffusion Model with Knowledge-Enhanced Mixture-of-Denoising-Experts](https://arxiv.org/abs/2210.15257v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/pipelines/examples/text_to_image)",
+        "n": "ERNIE-ViLG 2.0 (zero-shot)",
+        "d": "2022-10-27",
+        "m1": "6.75"
+      },
+      {
+        "p": "[Re-Imagen: Retrieval-Augmented Text-to-Image Generator](https://arxiv.org/abs/2209.14491v3)",
+        "c": "",
+        "n": "Re-Imagen",
+        "d": "2022-09-29",
+        "m1": "6.88"
+      },
+      {
+        "p": "[eDiff-I: Text-to-Image Diffusion Models with an Ensemble of Expert Denoisers](https://arxiv.org/abs/2211.01324v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/cloneofsimo/paint-with-words-sd)",
+        "n": "eDiff-I (zero-shot)",
+        "d": "2022-11-02",
+        "m1": "6.95"
+      },
+      {
+        "p": "[Swinv2-Imagen: Hierarchical Vision Transformer Diffusion Models for Text-to-Image Generation](https://arxiv.org/abs/2210.09549v1)",
+        "c": "",
+        "n": "Swinv2-Imagen",
+        "d": "2022-10-18",
+        "m1": "7.21",
+        "m2": "31.46"
+      },
+      {
+        "p": "[Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding](https://arxiv.org/abs/2205.11487v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/lucidrains/imagen-pytorch)",
+        "n": "Imagen (zero-shot)",
+        "d": "2022-05-23",
+        "m1": "7.27"
+      },
+      {
+        "p": "[Scaling up GANs for Text-to-Image Synthesis](https://arxiv.org/abs/2303.05511v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/lucidrains/gigagan-pytorch)",
+        "n": "GigaGAN (Zero-shot, 64x64)",
+        "d": "2023-03-09",
+        "m1": "7.28"
+      },
+      {
+        "p": "[StyleGAN-T: Unlocking the Power of GANs for Fast Large-Scale Text-to-Image Synthesis](https://arxiv.org/abs/2301.09515v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/autonomousvision/stylegan-t)",
+        "n": "StyleGAN-T (Zero-shot, 64x64)",
+        "d": "2023-01-23",
+        "m1": "7.3"
+      },
+      {
+        "p": "[Make-A-Scene: Scene-Based Text-to-Image Generation with Human Priors](https://arxiv.org/abs/2203.13131v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/CasualGANPapers/Make-A-Scene)",
+        "n": "Make-a-Scene (unfiltered)",
+        "d": "2022-03-24",
+        "m1": "7.55"
+      },
+      {
+        "p": "[Kandinsky: an Improved Text-to-Image Synthesis with Image Prior and Latent Diffusion](https://arxiv.org/abs/2310.03502v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ai-forever/Kandinsky-2)",
+        "n": "Kandinsky",
+        "d": "2023-10-05",
+        "m1": "8.03"
+      },
+      {
+        "p": "[LAFITE: Towards Language-Free Training for Text-to-Image Generation](https://arxiv.org/abs/2111.13792v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/drboog/Lafite)",
+        "n": "Lafite",
+        "d": "2021-11-27",
+        "m1": "8.12",
+        "m2": "32.34",
+        "m7": "61.09"
+      },
+      {
+        "p": "[Long and Short Guidance in Score identity Distillation for One-Step Text-to-Image Generation](https://arxiv.org/abs/2406.01561v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/mingyuanzhou/sid)",
+        "n": "SiD-LSG (Data-free distillation, zero-shot FID)",
+        "d": "2024-06-03",
+        "m1": "8.15",
+        "m8": "8.15"
+      },
+      {
+        "p": "[Simple diffusion: End-to-end diffusion for high resolution images](https://arxiv.org/abs/2301.11093v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/fashn-AI/tryondiffusion)",
+        "n": "simple diffusion (U-ViT)",
+        "d": "2023-01-26",
+        "m1": "8.3"
+      },
+      {
+        "p": "[Scaling up GANs for Text-to-Image Synthesis](https://arxiv.org/abs/2303.05511v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/lucidrains/gigagan-pytorch)",
+        "n": "GigaGAN (Zero-shot, 256x256)",
+        "d": "2023-03-09",
+        "m1": "9.09"
+      },
+      {
+        "p": "[NÜWA: Visual Synthesis Pre-training for Neural visUal World creAtion](https://arxiv.org/abs/2111.12417v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/lucidrains/nuwa-pytorch)",
+        "n": "XMC-GAN (256 x 256)",
+        "d": "2021-11-24",
+        "m1": "9.3",
+        "m2": "30.5"
+      },
+      {
+        "p": "[Cross-Modal Contrastive Learning for Text-to-Image Generation](https://arxiv.org/abs/2101.04702v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/xmcgan_image_generation)",
+        "n": "XMC-GAN",
+        "d": "2021-01-12",
+        "m1": "9.33"
+      },
+      {
+        "p": "[Hierarchical Text-Conditional Image Generation with CLIP Latents](https://arxiv.org/abs/2204.06125v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/lucidrains/DALLE2-pytorch)",
+        "n": "DALL-E 2",
+        "d": "2022-04-13",
+        "m1": "10.39"
+      },
+      {
+        "p": "[Shifted Diffusion for Text-to-image Generation](https://arxiv.org/abs/2211.15388v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/drboog/Shifted_Diffusion)",
+        "n": "Corgi-Semi",
+        "d": "2022-11-24",
+        "m1": "10.6"
+      },
+      {
+        "p": "[Shifted Diffusion for Text-to-image Generation](https://arxiv.org/abs/2211.15388v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/drboog/Shifted_Diffusion)",
+        "n": "Corgi",
+        "d": "2022-11-24",
+        "m1": "10.88"
+      },
+      {
+        "p": "[TR0N: Translator Networks for 0-Shot Plug-and-Play Conditional Generation](https://arxiv.org/abs/2304.13742v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/layer6ai-labs/fusemix)",
+        "n": "TR0N (StyleGAN-XL, LAION2BCLIP, BLIP-2, zero-shot)",
+        "d": "2023-04-26",
+        "m1": "10.9"
+      },
+      {
+        "p": "[Make-A-Scene: Scene-Based Text-to-Image Generation with Human Priors](https://arxiv.org/abs/2203.13131v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/CasualGANPapers/Make-A-Scene)",
+        "n": "Make-a-Scene (unfiltered)",
+        "d": "2022-03-24",
+        "m1": "11.84"
+      },
+      {
+        "p": "[GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models](https://arxiv.org/abs/2112.10741v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/openai/glide-text2im)",
+        "n": "GLIDE (zero-shot)",
+        "d": "2021-12-20",
+        "m1": "12.24"
+      },
+      {
+        "p": "[KNN-Diffusion: Image Generation via Large-Scale Retrieval](https://arxiv.org/abs/2204.02849v2)",
+        "c": "",
+        "n": "KNN-Diffusion",
+        "d": "2022-04-06",
+        "m1": "12.5"
+      },
+      {
+        "p": "[GALIP: Generative Adversarial CLIPs for Text-to-Image Synthesis](https://arxiv.org/abs/2301.12959v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/tobran/DF-GAN)",
+        "n": "GALIP (CC12m)",
+        "d": "2023-01-30",
+        "m1": "12.54"
+      },
+      {
+        "p": "[High-Resolution Image Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2112.10752v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/compvis/stable-diffusion)",
+        "n": "Latent Diffusion (LDM-KL-8-G)",
+        "d": "2021-12-20",
+        "m1": "12.63"
+      },
+      {
+        "p": "[Retrieval-Augmented Multimodal Language Modeling](https://arxiv.org/abs/2211.12561v2)",
+        "c": "",
+        "n": "Stable Diffusion",
+        "d": "2022-11-22",
+        "m1": "12.63"
+      },
+      {
+        "p": "[NÜWA: Visual Synthesis Pre-training for Neural visUal World creAtion](https://arxiv.org/abs/2111.12417v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/lucidrains/nuwa-pytorch)",
+        "n": "NÜWA (256 x 256)",
+        "d": "2021-11-24",
+        "m1": "12.9",
+        "m2": " 27.2"
+      },
+      {
+        "p": "[Vector Quantized Diffusion Model for Text-to-Image Synthesis](https://arxiv.org/abs/2111.14822v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/microsoft/vq-diffusion)",
+        "n": "VQ-Diffusion-F",
+        "d": "2021-11-29",
+        "m1": "13.86"
+      },
+      {
+        "p": "[StyleGAN-T: Unlocking the Power of GANs for Fast Large-Scale Text-to-Image Synthesis](https://arxiv.org/abs/2301.09515v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/autonomousvision/stylegan-t)",
+        "n": "StyleGAN-T (Zero-shot, 256x256)",
+        "d": "2023-01-23",
+        "m1": "13.9"
+      },
+      {
+        "p": "[Recurrent Affine Transformation for Text-to-image Synthesis](https://arxiv.org/abs/2204.10482v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/senmaoy/recurrent-affine-transformation-for-text-to-image-synthesis)",
+        "n": "RAT-GAN",
+        "d": "2022-04-22",
+        "m1": "14.6"
+      },
+      {
+        "p": "[ERNIE-ViLG: Unified Generative Pre-training for Bidirectional Vision-Language Generation](https://arxiv.org/abs/2112.15283v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/pipelines/examples/text_to_image)",
+        "n": "ERNIE-ViLG",
+        "d": "2021-12-31",
+        "m1": "14.7"
+      },
+      {
+        "p": "[Retrieval-Augmented Multimodal Language Modeling](https://arxiv.org/abs/2211.12561v2)",
+        "c": "",
+        "n": "RA-CM3 (2.7B)",
+        "d": "2022-11-22",
+        "m1": "15.7"
+      },
+      {
+        "p": "[CogView2: Faster and Better Text-to-Image Generation via Hierarchical Transformers](https://arxiv.org/abs/2204.14217v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/thudm/cogview2)",
+        "n": "CogView2(6B, Finetuned)",
+        "d": "2022-04-28",
+        "m1": "17.7"
+      },
+      {
+        "p": "[Vector Quantized Diffusion Model for Text-to-Image Synthesis](https://arxiv.org/abs/2111.14822v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/microsoft/vq-diffusion)",
+        "n": "VQ-Diffusion-B",
+        "d": "2021-11-29",
+        "m1": "19.75"
+      },
+      {
+        "p": "[Improving Text-to-Image Synthesis Using Contrastive Learning](https://arxiv.org/abs/2107.02423v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/huiyegit/T2I_CL)",
+        "n": "DM-GAN+CL",
+        "d": "2021-07-06",
+        "m1": "20.79",
+        "m2": "33.34"
+      },
+      {
+        "p": "[FuseDream: Training-Free Text-to-Image Generation with Improved CLIP+GAN Space Optimization](https://arxiv.org/abs/2112.01573v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/gnobitab/fusedream)",
+        "n": "FuseDream (few-shot, k=5)",
+        "d": "2021-12-02",
+        "m1": "21.16",
+        "m2": "34.26"
+      },
+      {
+        "p": "[FuseDream: Training-Free Text-to-Image Generation with Improved CLIP+GAN Space Optimization](https://arxiv.org/abs/2112.01573v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/gnobitab/fusedream)",
+        "n": "FuseDream (k=5, 256)",
+        "d": "2021-12-02",
+        "m1": "21.16",
+        "m2": "34.26"
+      },
+      {
+        "p": "[FuseDream: Training-Free Text-to-Image Generation with Improved CLIP+GAN Space Optimization](https://arxiv.org/abs/2112.01573v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/gnobitab/fusedream)",
+        "n": "FuseDream (k=10, 256)",
+        "d": "2021-12-02",
+        "m1": "21.89",
+        "m2": "34.67"
+      },
+      {
+        "p": "[Improving Text-to-Image Synthesis Using Contrastive Learning](https://arxiv.org/abs/2107.02423v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/huiyegit/T2I_CL)",
+        "n": "AttnGAN+CL",
+        "d": "2021-07-06",
+        "m1": "23.93",
+        "m2": "25.70"
+      },
+      {
+        "p": "[CogView2: Faster and Better Text-to-Image Generation via Hierarchical Transformers](https://arxiv.org/abs/2204.14217v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/thudm/cogview2)",
+        "n": "CogView2(6B, Finetuned)",
+        "d": "2022-04-28",
+        "m1": "24"
+      },
+      {
+        "p": "[Semantic Object Accuracy for Generative Text-to-Image Synthesis](https://arxiv.org/abs/1910.13321v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/tohinz/multiple-objects-gan)",
+        "n": "OP-GAN",
+        "d": "2019-10-29",
+        "m1": "24.70",
+        "m2": "27.88",
+        "m7": "35.85"
+      },
+      {
+        "p": "[NÜWA: Visual Synthesis Pre-training for Neural visUal World creAtion](https://arxiv.org/abs/2111.12417v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/lucidrains/nuwa-pytorch)",
+        "n": "DM-GAN (256 x 256)",
+        "d": "2021-11-24",
+        "m1": " 26.0",
+        "m2": "32.2"
+      },
+      {
+        "p": "[LAFITE: Towards Language-Free Training for Text-to-Image Generation](https://arxiv.org/abs/2111.13792v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/drboog/Lafite)",
+        "n": "Lafite (zero-shot)",
+        "d": "2021-11-27",
+        "m1": "26.94",
+        "m2": "26.02",
+        "m3": "22.97",
+        "m4": "18.70",
+        "m5": "15.72",
+        "m6": "14.79"
+      },
+      {
+        "p": "[CogView: Mastering Text-to-Image Generation via Transformers](https://arxiv.org/abs/2105.13290v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/thudm/visualglm-6b)",
+        "n": "CogView",
+        "d": "2021-05-26",
+        "m1": "27.1",
+        "m2": "18.2",
+        "m3": "19.4",
+        "m4": "13.9",
+        "m5": "19.4",
+        "m6": "23.6"
+      },
+      {
+        "p": "[NÜWA: Visual Synthesis Pre-training for Neural visUal World creAtion](https://arxiv.org/abs/2111.12417v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/lucidrains/nuwa-pytorch)",
+        "n": "CogView (256 x 256)",
+        "d": "2021-11-24",
+        "m1": " 27.1",
+        "m2": "18.2"
+      },
+      {
+        "p": "[NÜWA: Visual Synthesis Pre-training for Neural visUal World creAtion](https://arxiv.org/abs/2111.12417v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/lucidrains/nuwa-pytorch)",
+        "n": "DALL-E (256 x 256)",
+        "d": "2021-11-24",
+        "m1": "27.5",
+        "m2": "17.9"
+      },
+      {
+        "p": "[Retrieval-Augmented Multimodal Language Modeling](https://arxiv.org/abs/2211.12561v2)",
+        "c": "",
+        "n": "DALL-E (12B)",
+        "d": "2022-11-22",
+        "m1": "28"
+      },
+      {
+        "p": "[VICTR: Visual Information Captured Text Representation for Text-to-Image Multimodal Tasks](https://arxiv.org/abs/2010.03182v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/usydnlp/VICTR)",
+        "n": "AttnGAN + VICTR",
+        "d": "2020-10-07",
+        "m1": "29.26",
+        "m2": "28.18"
+      },
+      {
+        "p": "[Retrieval-Augmented Multimodal Language Modeling](https://arxiv.org/abs/2211.12561v2)",
+        "c": "",
+        "n": "Vanilla CM3",
+        "d": "2022-11-22",
+        "m1": "29.5"
+      },
+      {
+        "p": "[VICTR: Visual Information Captured Text Representation for Text-to-Image Multimodal Tasks](https://arxiv.org/abs/2010.03182v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/usydnlp/VICTR)",
+        "n": "DM-GAN + VICTR",
+        "d": "2020-10-07",
+        "m1": "32.37",
+        "m2": "32.37"
+      },
+      {
+        "p": "[DM-GAN: Dynamic Memory Generative Adversarial Networks for Text-to-Image Synthesis](http://arxiv.org/abs/1904.01310v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/MinfengZhu/DM-GAN)",
+        "n": "DM-GAN",
+        "d": "2019-04-02",
+        "m1": "32.64",
+        "m2": "30.49",
+        "m7": "33.44"
+      },
+      {
+        "p": "[Generating Multiple Objects at Spatially Distinct Locations](http://arxiv.org/abs/1901.00686v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/tohinz/multiple-objects-gan)",
+        "n": "AttnGAN + OP",
+        "d": "2019-01-03",
+        "m1": "33.35",
+        "m2": "24.76",
+        "m7": "25.46"
+      },
+      {
+        "p": "[NÜWA: Visual Synthesis Pre-training for Neural visUal World creAtion](https://arxiv.org/abs/2111.12417v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/lucidrains/nuwa-pytorch)",
+        "n": "AttnGAN (256 x 256)",
+        "d": "2021-11-24",
+        "m1": " 35.2",
+        "m2": "23.3"
+      },
+      {
+        "p": "[L-Verse: Bidirectional Generation Between Image and Text](https://arxiv.org/abs/2111.11133v10)",
+        "c": "[&check;&nbsp;Link](https://github.com/tgisaturday/L-Verse)",
+        "n": "L-Verse-CC",
+        "d": "2021-11-22",
+        "m1": "37.2",
+        "m3": "31.6",
+        "m4": "25.7",
+        "m5": "21.4",
+        "m6": "21.1"
+      },
+      {
+        "p": "[L-Verse: Bidirectional Generation Between Image and Text](https://arxiv.org/abs/2111.11133v10)",
+        "c": "[&check;&nbsp;Link](https://github.com/tgisaturday/L-Verse)",
+        "n": "L-Verse",
+        "d": "2021-11-22",
+        "m1": "45.8",
+        "m3": "41.9",
+        "m4": "35.5",
+        "m5": "30.2",
+        "m6": "29.83"
+      },
+      {
+        "p": "[Generating Multiple Objects at Spatially Distinct Locations](http://arxiv.org/abs/1901.00686v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/tohinz/multiple-objects-gan)",
+        "n": "StackGAN + OP",
+        "d": "2019-01-03",
+        "m1": "55.30",
+        "m2": "12.12"
+      },
+      {
+        "p": "[StackGAN++: Realistic Image Synthesis with Stacked Generative Adversarial Networks](http://arxiv.org/abs/1710.10916v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/hanzhanggit/StackGAN)",
+        "n": "StackGAN-v1",
+        "d": "2017-10-19",
+        "m1": "74.05",
+        "m2": "8.45"
+      },
+      {
+        "p": "[NÜWA: Visual Synthesis Pre-training for Neural visUal World creAtion](https://arxiv.org/abs/2111.12417v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/lucidrains/nuwa-pytorch)",
+        "n": "DF-GAN (256 x 256)",
+        "d": "2021-11-24",
+        "m2": "18.7"
+      },
+      {
+        "p": "[VICTR: Visual Information Captured Text Representation for Text-to-Image Multimodal Tasks](https://arxiv.org/abs/2010.03182v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/usydnlp/VICTR)",
+        "n": "StackGAN + VICTR",
+        "d": "2020-10-07",
+        "m2": "10.38"
+      },
+      {
+        "p": "[ChatPainter: Improving Text to Image Generation using Dialogue](http://arxiv.org/abs/1802.08216v1)",
+        "c": "",
+        "n": "ChatPainter",
+        "d": "2018-02-22",
+        "m2": "9.74"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

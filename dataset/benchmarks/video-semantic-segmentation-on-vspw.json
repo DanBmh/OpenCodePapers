@@ -1,0 +1,77 @@
+{
+  "title": "video-semantic-segmentation-on-vspw",
+  "task-hierarchy": [
+    "2D Semantic Segmentation",
+    "Scene Parsing",
+    "Scene Understanding",
+    "Video Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://www.vspwdataset.com/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[DVIS++: Improved Decoupled Framework for Universal Video Segmentation](https://arxiv.org/abs/2312.13305v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/zhang-tao-whu/DVIS_Plus)",
+        "n": "DVIS++(VIT-L)",
+        "d": "2023-12-20",
+        "m1": "63.8"
+      },
+      {
+        "p": "[UniVS: Unified and Universal Video Segmentation with Prompts as Queries](https://arxiv.org/abs/2402.18115v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/minghanli/univs)",
+        "n": "UniVS(Swin-L)",
+        "d": "2024-02-28",
+        "m1": "59.8"
+      },
+      {
+        "p": "[Tube-Link: A Flexible Cross Tube Framework for Universal Video Segmentation](https://arxiv.org/abs/2303.12782v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/lxtgh/tube-link)",
+        "n": "Tube-Link(Swin-large)",
+        "d": "2023-03-22",
+        "m1": "59.6"
+      },
+      {
+        "p": "[Mining Relations among Cross-Frame Affinities for Video Semantic Segmentation](https://arxiv.org/abs/2207.10436v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/guoleisun/vss-mrcfa)",
+        "n": "MRCFA(MiT-B5)",
+        "d": "2022-07-21",
+        "m1": "49.9"
+      },
+      {
+        "p": "[Learning Local and Global Temporal Contexts for Video Semantic Segmentation](https://arxiv.org/abs/2204.03330v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/guoleisun/vss-cffm)",
+        "n": "CFFM(MiT-B5)",
+        "d": "2022-04-07",
+        "m1": "49.3"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "title": "lesion-segmentation-on-ph2",
+  "task-hierarchy": [
+    "Medical Image Segmentation",
+    "Lesion Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://link.springer.com/chapter/10.1007/978-3-319-46466-4_13"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Dice Score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[IARS SegNet: Interpretable Attention Residual Skip connection SegNet for melanoma segmentation](https://arxiv.org/abs/2310.20292v1)",
+        "c": "",
+        "n": "IARS SegNet",
+        "d": "2023-10-31",
+        "m1": "0.9712"
+      },
+      {
+        "p": "[MobileUNETR: A Lightweight End-To-End Hybrid Vision Transformer For Efficient Medical Image Segmentation](https://arxiv.org/abs/2409.03062v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/osupcvlab/mobileunetr)",
+        "n": "MobileUNETR",
+        "d": "2024-09-04",
+        "m1": "0.9570"
+      },
+      {
+        "p": "[DermoSegDiff: A Boundary-aware Segmentation Diffusion Model for Skin Lesion Delineation](https://arxiv.org/abs/2308.02959v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/mindflow-institue/dermosegdiff)",
+        "n": "DermoSegDiff-B",
+        "d": "2023-08-05",
+        "m1": "0.9467"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

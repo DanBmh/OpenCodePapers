@@ -1,0 +1,61 @@
+{
+  "title": "skin-lesion-classification-on-pad-ufes-20",
+  "task-hierarchy": [
+    "Skin",
+    "Skin Lesion Classification"
+  ],
+  "dataset-info": {
+    "link": "https://data.mendeley.com/datasets/zr7vgbcyr2/1"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Balanced Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[LiwTERM: A Lightweight Transformer-Based Model for Dermatological Multimodal Lesion Detection](https://ieeexplore.ieee.org/document/10716324/authors#authors)",
+        "c": "[&check;&nbsp;Link](https://github.com/luisouza/liwterm)",
+        "n": "LiwTERM model",
+        "d": "2024-10-18",
+        "m1": "0.74"
+      },
+      {
+        "p": "[An Attention-Based Mechanism to Combine Images and Metadata in Deep Learning Models Applied to Skin Cancer Classification](https://ieeexplore.ieee.org/document/9364366)",
+        "c": "",
+        "n": "CNN + Metablock",
+        "d": "2021-02-26",
+        "m1": "0.77"
+      },
+      {
+        "p": "[A deep learning based multimodal fusion model for skin lesion diagnosis using smartphone collected clinical images and metadata](https://www.frontiersin.org/journals/surgery/articles/10.3389/fsurg.2022.1029991/full)",
+        "c": "",
+        "n": "ViT+ Multimodality Cross-Attention Module",
+        "d": "2022-10-04",
+        "m1": "0.775"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

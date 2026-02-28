@@ -1,0 +1,279 @@
+{
+  "title": "trajectory-prediction-on-stanford-drone",
+  "task-hierarchy": [
+    "Trajectory Prediction"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "ADE-8/12 @K = 20",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "FDE-8/12 @K= 20",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "ADE (8/12) @K=5",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "FDE(8/12) @K=5",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "ADE (in world coordinates)",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "FDE (in world coordinates)",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "AMD",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "AMV",
+        "sortable": "true"
+      },
+      {
+        "key": "m9",
+        "label": "Avg AMD/AMV 8/12",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Human Trajectory Prediction via Neural Social Physics](https://arxiv.org/abs/2207.10435v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/realcrane/human-trajectory-prediction-via-neural-social-physics)",
+        "n": "NSP-SFM",
+        "d": "2022-07-21",
+        "m1": "6.52",
+        "m2": "10.61"
+      },
+      {
+        "p": "[End-to-End Trajectory Distribution Prediction Based on Occupancy Grid Maps](https://arxiv.org/abs/2203.16910v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/kguo-cs/tdor)",
+        "n": "TDOR",
+        "d": "2022-03-31",
+        "m1": "6.77",
+        "m2": "10.46"
+      },
+      {
+        "p": "[Progressive Pretext Task Learning for Human Trajectory Prediction](https://arxiv.org/abs/2407.11588v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/isee-laboratory/ppt)",
+        "n": "PPT",
+        "d": "2024-07-16",
+        "m1": "7.03",
+        "m2": "10.65"
+      },
+      {
+        "p": "[View Vertically: A Hierarchical Network for Trajectory Prediction via Fourier Spectrums](https://arxiv.org/abs/2110.07288v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/cocoon2wong/Vertical)",
+        "n": "V^2-Net",
+        "d": "2021-10-14",
+        "m1": "7.12",
+        "m2": "11.39"
+      },
+      {
+        "p": "[From Goals, Waypoints & Paths To Long Term Human Trajectory Forecasting](https://arxiv.org/abs/2012.01526v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/harshayugirase/human-path-prediction)",
+        "n": "Y-Net",
+        "d": "2020-12-02",
+        "m1": "7.85",
+        "m2": "11.85"
+      },
+      {
+        "p": "[SMEMO: Social Memory for Trajectory Forecasting](https://arxiv.org/abs/2203.12446v2)",
+        "c": "",
+        "n": "SMEMO",
+        "d": "2022-03-23",
+        "m1": "8.11",
+        "m2": "13.06",
+        "m3": "11.64",
+        "m4": "21.12"
+      },
+      {
+        "p": "[Remember Intentions: Retrospective-Memory-based Trajectory Prediction](https://arxiv.org/abs/2203.11474v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/mediabrain-sjtu/memonet)",
+        "n": "MemoNet",
+        "d": "2022-03-22",
+        "m1": "8.56",
+        "m2": "12.66"
+      },
+      {
+        "p": "[MANTRA: Memory Augmented Networks for Multiple Trajectory Prediction](https://arxiv.org/abs/2006.03340v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Marchetz/MANTRA-CVPR20)",
+        "n": "MANTRA",
+        "d": "2020-06-05",
+        "m1": "8.96",
+        "m2": "17.76",
+        "m3": "13.51",
+        "m4": "27.34"
+      },
+      {
+        "p": "[It Is Not the Journey but the Destination: Endpoint Conditioned Trajectory Prediction](https://arxiv.org/abs/2004.02025v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/harshayugirase/human-path-prediction)",
+        "n": "PECNet",
+        "d": "2020-04-04",
+        "m1": "9.96",
+        "m2": "15.88"
+      },
+      {
+        "p": "[SimAug: Learning Robust Representations from 3D Simulation for Pedestrian Trajectory Prediction in Unseen Cameras](https://arxiv.org/abs/2004.02022v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/JunweiLiang/Multiverse/tree/master/SimAug)",
+        "n": "SimAug",
+        "d": "2020-04-04",
+        "m1": "10.27",
+        "m2": "19.71"
+      },
+      {
+        "p": "[Trajectory Forecasts in Unknown Environments Conditioned on Grid-Based Plans](https://arxiv.org/abs/2001.00735v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/nachiket92/P2T)",
+        "n": "P2TIRL",
+        "d": "2020-01-03",
+        "m1": "12.58",
+        "m2": "22.07"
+      },
+      {
+        "p": "[Conditional Flow Variational Autoencoders for Structured Sequence Prediction](https://arxiv.org/abs/1908.09008v3)",
+        "c": "",
+        "n": "CF-VAE",
+        "d": "2019-08-24",
+        "m1": "12.60",
+        "m2": "22.30"
+      },
+      {
+        "p": "[EvolveGraph: Multi-Agent Trajectory Prediction with Dynamic Relational Reasoning](https://arxiv.org/abs/2003.13924v4)",
+        "c": "",
+        "n": "EvolveGraph",
+        "d": "2020-03-31",
+        "m1": "13.9",
+        "m2": "22.9"
+      },
+      {
+        "p": "[The Garden of Forking Paths: Towards Multi-Future Trajectory Prediction](https://arxiv.org/abs/1912.06445v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/JunweiLiang/Multiverse)",
+        "n": "Multiverse",
+        "d": "2019-12-13",
+        "m1": "14.78",
+        "m2": "27.09"
+      },
+      {
+        "p": "[Conditional Generative Neural System for Probabilistic Trajectory Prediction](https://arxiv.org/abs/1905.01631v2)",
+        "c": "",
+        "n": "CGNS",
+        "d": "2019-05-05",
+        "m1": "15.6",
+        "m2": "28.2"
+      },
+      {
+        "p": "[SoPhie: An Attentive GAN for Predicting Paths Compliant to Social and Physical Constraints](http://arxiv.org/abs/1806.01482v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/coolsunxu/sophie)",
+        "n": "Sophie",
+        "d": "2018-06-05",
+        "m1": "16.27",
+        "m2": "29.38"
+      },
+      {
+        "p": "[DESIRE: Distant Future Prediction in Dynamic Scenes with Interacting Agents](http://arxiv.org/abs/1704.04394v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/yadrimz/DESIRE)",
+        "n": "DESIRE",
+        "d": "2017-04-14",
+        "m1": "19.25",
+        "m2": "34.05",
+        "m3": "19.25",
+        "m4": "34.05"
+      },
+      {
+        "p": "[Social GAN: Socially Acceptable Trajectories with Generative Adversarial Networks](http://arxiv.org/abs/1803.10892v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/agrimgupta92/sgan)",
+        "n": "Social GAN",
+        "d": "2018-03-29",
+        "m1": "27.23",
+        "m2": "41.44",
+        "m3": "27.25",
+        "m4": "41.44"
+      },
+      {
+        "p": "[TNT: Target-driveN Trajectory Prediction](https://arxiv.org/abs/2008.08294v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/henry1iu/tnt-trajectory-predition)",
+        "n": "TNT",
+        "d": "2020-08-19",
+        "m3": "12.23",
+        "m4": "21.16"
+      },
+      {
+        "p": "[SoPhie: An Attentive GAN for Predicting Paths Compliant to Social and Physical Constraints](http://arxiv.org/abs/1806.01482v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/coolsunxu/sophie)",
+        "n": "SoPhie",
+        "d": "2018-06-05",
+        "m3": "16.27",
+        "m4": "29.38"
+      },
+      {
+        "p": "[Social LSTM: Human Trajectory Prediction in Crowded Spaces](http://openaccess.thecvf.com/content_cvpr_2016/html/Alahi_Social_LSTM_Human_CVPR_2016_paper.html)",
+        "c": "",
+        "n": "Social LSTM",
+        "d": "2016-06-01",
+        "m3": "31.19",
+        "m4": "56.97"
+      },
+      {
+        "p": "[Social-Implicit: Rethinking Trajectory Prediction Evaluation and The Effectiveness of Implicit Maximum Likelihood Estimation](https://arxiv.org/abs/2203.03057v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/abduallahmohamed/social-implicit)",
+        "n": "Social-Implicit",
+        "d": "2022-03-06",
+        "m5": "0.47",
+        "m6": "0.89",
+        "m7": "2.83",
+        "m8": "0.077",
+        "m9": "1.45"
+      },
+      {
+        "p": "[DAG-Net: Double Attentive Graph Neural Network for Trajectory Forecasting](https://arxiv.org/abs/2005.12661v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/alexmonti19/dagnet)",
+        "n": "DAG-Net",
+        "d": "2020-05-26",
+        "m5": "0.54",
+        "m6": "1.05"
+      },
+      {
+        "p": "[Social Ways: Learning Multi-Modal Distributions of Pedestrian Trajectories with GANs](http://arxiv.org/abs/1904.09507v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/amiryanj/socialways)",
+        "n": "Social-Ways",
+        "d": "2019-04-20",
+        "m5": "0.62",
+        "m6": "1.16"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

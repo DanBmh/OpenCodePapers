@@ -1,0 +1,81 @@
+{
+  "title": "code-generation-on-conala-ext",
+  "task-hierarchy": [
+    "Code Generation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/gabeorlanski/stackoverflow-encourages-cheating"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "BLEU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Reading StackOverflow Encourages Cheating: Adding Question Text Improves Extractive Code Generation](https://arxiv.org/abs/2106.04447v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/gabeorlanski/stackoverflow-encourages-cheating)",
+        "n": "BART W/ Mined",
+        "d": "2021-06-08",
+        "m1": "35.32"
+      },
+      {
+        "p": "[Reading StackOverflow Encourages Cheating: Adding Question Text Improves Extractive Code Generation](https://arxiv.org/abs/2106.04447v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/gabeorlanski/stackoverflow-encourages-cheating)",
+        "n": "BART Base",
+        "d": "2021-06-08",
+        "m1": "34.35"
+      },
+      {
+        "p": "[Incorporating External Knowledge through Pre-training for Natural Language to Code Generation](https://arxiv.org/abs/2004.09015v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/neulab/external-knowledge-codegen)",
+        "n": "External Knowledge With API + Reranking",
+        "d": "2020-04-20",
+        "m1": "20.54"
+      },
+      {
+        "p": "[Incorporating External Knowledge through Pre-training for Natural Language to Code Generation](https://arxiv.org/abs/2004.09015v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/neulab/external-knowledge-codegen)",
+        "n": "External Knowledge With API",
+        "d": "2020-04-20",
+        "m1": "20.37"
+      },
+      {
+        "p": "[Reranking for Neural Semantic Parsing](https://aclanthology.org/P19-1447)",
+        "c": "",
+        "n": "Reranker",
+        "d": "2019-07-01",
+        "m1": "19.85"
+      },
+      {
+        "p": "[TRANX: A Transition-based Neural Abstract Syntax Parser for Semantic Parsing and Code Generation](http://arxiv.org/abs/1810.02720v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/pcyin/tranX)",
+        "n": "TranX",
+        "d": "2018-10-05",
+        "m1": "18.85"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

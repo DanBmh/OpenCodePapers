@@ -1,0 +1,68 @@
+{
+  "title": "instance-segmentation-on-oodis",
+  "task-hierarchy": [
+    "Instance Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://kumuji.github.io/oodis_website/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AP",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "AP50",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[UGainS: Uncertainty Guided Anomaly Instance Segmentation](https://arxiv.org/abs/2308.02046v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/kumuji/ugains)",
+        "n": "UGainS",
+        "d": "2023-08-03",
+        "m1": "25.19",
+        "m2": "42.81"
+      },
+      {
+        "p": "[Unmasking Anomalies in Road-Scene Segmentation](https://arxiv.org/abs/2307.13316v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/shyam671/mask2anomaly-unmasking-anomalies-in-road-scene-segmentation)",
+        "n": "Mask2Anomaly",
+        "d": "2023-07-25",
+        "m1": "13.73",
+        "m2": "24.30"
+      },
+      {
+        "p": "[Segmenting Known Objects and Unseen Unknowns without Prior Knowledge](https://arxiv.org/abs/2209.05407v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/RuiZhou-cn/U3HS)",
+        "n": "U3HS",
+        "d": "2022-09-12",
+        "m1": "0.18",
+        "m2": "0.62"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "title": "face-identification-on-ijb-a",
+  "task-hierarchy": [
+    "3D Face Reconstruction",
+    "Facial Recognition and Modelling",
+    "Face Identification"
+  ],
+  "dataset-info": {
+    "link": "https://www.nist.gov/programs-projects/face-challenges"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Inclusive normalization of face images to passport format](https://arxiv.org/abs/2312.14544v1)",
+        "c": "",
+        "n": "StyleFNM",
+        "d": "2023-12-22",
+        "m1": "94.90%"
+      },
+      {
+        "p": "[Pose-Robust Face Recognition via Deep Residual Equivariant Mapping](http://arxiv.org/abs/1803.00839v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/penincillin/DREAM)",
+        "n": "Deep Residual Equivariant Mapping",
+        "d": "2018-03-02",
+        "m1": "94.60%"
+      },
+      {
+        "p": "[FacePoseNet: Making a Case for Landmark-Free Face Alignment](http://arxiv.org/abs/1708.07517v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/fengju514/Expression-Net)",
+        "n": "FPN",
+        "d": "2017-08-24",
+        "m1": "91.4%"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

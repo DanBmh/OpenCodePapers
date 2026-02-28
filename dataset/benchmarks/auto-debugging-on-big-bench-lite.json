@@ -1,0 +1,60 @@
+{
+  "title": "auto-debugging-on-big-bench-lite",
+  "task-hierarchy": [
+    "Auto Debugging"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/google/BIG-bench"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Exact string match",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[PaLM: Scaling Language Modeling with Pathways](https://arxiv.org/abs/2204.02311v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/lucidrains/CoCa-pytorch)",
+        "n": "PaLM 62B (few-shot, k=5)",
+        "d": "2022-04-05",
+        "m1": "38.2"
+      },
+      {
+        "p": "[PaLM: Scaling Language Modeling with Pathways](https://arxiv.org/abs/2204.02311v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/lucidrains/CoCa-pytorch)",
+        "n": "PaLM 540B (few-shot, k=5)",
+        "d": "2022-04-05",
+        "m1": "38.2"
+      },
+      {
+        "p": "[PaLM: Scaling Language Modeling with Pathways](https://arxiv.org/abs/2204.02311v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/lucidrains/CoCa-pytorch)",
+        "n": "PaLM 8B (few-shot, k=5)",
+        "d": "2022-04-05",
+        "m1": "14.7"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

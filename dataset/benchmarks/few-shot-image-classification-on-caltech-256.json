@@ -1,0 +1,60 @@
+{
+  "title": "few-shot-image-classification-on-caltech-256",
+  "task-hierarchy": [
+    "Few-Shot Image Classification"
+  ],
+  "dataset-info": {
+    "link": "http://www.vision.caltech.edu/Image_Datasets/Caltech256/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Unsupervised Learning using Pretrained CNN and Associative Memory Bank](http://arxiv.org/abs/1805.01033v1)",
+        "c": "",
+        "n": "UL-Hopfield (ULH)",
+        "d": "2018-05-02",
+        "m1": "74.7"
+      },
+      {
+        "p": "[Delta-encoder: an effective sample synthesis method for few-shot object recognition](http://arxiv.org/abs/1806.04734v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/EliSchwartz/DeltaEncoder)",
+        "n": "Delta-encoder",
+        "d": "2018-06-12",
+        "m1": "73.2"
+      },
+      {
+        "p": "[MergedNET: A simple approach for one-shot learning in siamese networks based on similarity layers](https://doi.org/10.1016/j.neucom.2022.08.070)",
+        "c": "[&check;&nbsp;Link](https://github.com/Amotica/MergedNET)",
+        "n": "MergedNet-Max",
+        "d": "2022-10-14",
+        "m1": "65.77"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

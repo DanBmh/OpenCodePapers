@@ -1,0 +1,120 @@
+{
+  "title": "image-to-text-retrieval-on-coco",
+  "task-hierarchy": [
+    "Image-to-Text Retrieval"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Recall@1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Recall@5",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Recall@10",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "BLIP-2 (ViT-G, fine-tuned)",
+        "d": "2023-01-30",
+        "m1": "85.4",
+        "m2": "97.0",
+        "m3": "98.5"
+      },
+      {
+        "p": "[ONE-PEACE: Exploring One General Representation Model Toward Unlimited Modalities](https://arxiv.org/abs/2305.11172v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/modelscope/modelscope)",
+        "n": "ONE-PEACE (ViT-G, w/o ranking)",
+        "d": "2023-05-18",
+        "m1": "84.1",
+        "m2": "96.3",
+        "m3": "98.3"
+      },
+      {
+        "p": "[BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "BLIP-2 (ViT-L, fine-tuned)",
+        "d": "2023-01-30",
+        "m1": "83.5",
+        "m2": "96.0",
+        "m3": "98.0"
+      },
+      {
+        "p": "[Learning Relation Alignment for Calibrated Cross-modal Retrieval](https://arxiv.org/abs/2105.13868v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/lancopku/IAIS)",
+        "n": "IAIS",
+        "d": "2021-05-28",
+        "m1": "67.78",
+        "m2": "89.7",
+        "m3": "94.48"
+      },
+      {
+        "p": "[Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/openai/CLIP)",
+        "n": "CLIP (zero-shot)",
+        "d": "2021-02-26",
+        "m1": "58.4",
+        "m2": "81.5",
+        "m3": "88.1"
+      },
+      {
+        "p": "[FLAVA: A Foundational Language And Vision Alignment Model](https://arxiv.org/abs/2112.04482v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/multimodal)",
+        "n": "FLAVA (ViT-B, zero-shot)",
+        "d": "2021-12-08",
+        "m1": "42.74",
+        "m2": "76.76"
+      },
+      {
+        "p": "[Oscar: Object-Semantics Aligned Pre-training for Vision-Language Tasks](https://arxiv.org/abs/2004.06165v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/rmokady/clip_prefix_caption)",
+        "n": "Oscar",
+        "d": "2020-04-13",
+        "m3": "99.8"
+      },
+      {
+        "p": "[Unicoder-VL: A Universal Encoder for Vision and Language by Cross-modal Pre-training](https://arxiv.org/abs/1908.06066v3)",
+        "c": "",
+        "n": "Unicoder-VL",
+        "d": "2019-08-16",
+        "m3": "97.2"
+      },
+      {
+        "p": "[Deep Visual-Semantic Alignments for Generating Image Descriptions](http://arxiv.org/abs/1412.2306v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/VinitSR7/Image-Caption-Generation)",
+        "n": "DVSA",
+        "d": "2014-12-07",
+        "m3": "74.8"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

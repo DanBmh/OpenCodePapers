@@ -1,0 +1,220 @@
+{
+  "title": "crowd-counting-on-ucf-qnrf",
+  "task-hierarchy": [
+    "Crowds",
+    "Crowd Counting"
+  ],
+  "dataset-info": {
+    "link": "https://www.crcv.ucf.edu/data/ucf-qnrf/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MAE",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "RMSE",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "MSE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[EBC-ZIP: Improving Blockwise Crowd Counting with Zero-Inflated Poisson Regression](https://arxiv.org/abs/2506.19955v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/yiming-m/ebc-zip)",
+        "n": "EBC-ZIP-B",
+        "d": "2025-06-24",
+        "m1": "69.46",
+        "m2": "121.88"
+      },
+      {
+        "p": "[CLIP-EBC: CLIP Can Count Accurately through Enhanced Blockwise Classification](https://arxiv.org/abs/2403.09281v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/Yiming-M/CLIP-EBC)",
+        "n": "DMCount-EBC (16, dynamic)",
+        "d": "2024-03-14",
+        "m1": "75.90",
+        "m2": "130.48"
+      },
+      {
+        "p": "[CLIP-EBC: CLIP Can Count Accurately through Enhanced Blockwise Classification](https://arxiv.org/abs/2403.09281v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/Yiming-M/CLIP-EBC)",
+        "n": "DMCount-EBC (32, dynamic)",
+        "d": "2024-03-14",
+        "m1": "76.06",
+        "m2": "127.72"
+      },
+      {
+        "p": "[CLIP-EBC: CLIP Can Count Accurately through Enhanced Blockwise Classification](https://arxiv.org/abs/2403.09281v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/Yiming-M/CLIP-EBC)",
+        "n": "DMCount-EBC",
+        "d": "2024-03-14",
+        "m1": "77.2",
+        "m2": "130.4"
+      },
+      {
+        "p": "[CLIP-EBC: CLIP Can Count Accurately through Enhanced Blockwise Classification](https://arxiv.org/abs/2403.09281v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/Yiming-M/CLIP-EBC)",
+        "n": "CSRNet-EBC",
+        "d": "2024-03-14",
+        "m1": "79.3",
+        "m2": "135.8"
+      },
+      {
+        "p": "[Improving Point-based Crowd Counting and Localization Based on Auxiliary Point Guidance](https://arxiv.org/abs/2405.10589v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/AaronCIH/APGCC)",
+        "n": "APGCC",
+        "d": "2024-05-17",
+        "m1": "80.1",
+        "m3": "136.6"
+      },
+      {
+        "p": "[CLIP-EBC: CLIP Can Count Accurately through Enhanced Blockwise Classification](https://arxiv.org/abs/2403.09281v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/Yiming-M/CLIP-EBC)",
+        "n": "CLIP-EBC (ViT-B/16)",
+        "d": "2024-03-14",
+        "m1": "80.3",
+        "m2": "139.3"
+      },
+      {
+        "p": "[CLIP-EBC: CLIP Can Count Accurately through Enhanced Blockwise Classification](https://arxiv.org/abs/2403.09281v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/Yiming-M/CLIP-EBC)",
+        "n": "CLIP-EBC (ResNet50)",
+        "d": "2024-03-14",
+        "m1": "80.5",
+        "m2": "136.6"
+      },
+      {
+        "p": "[Rethinking Spatial Invariance of Convolutional Networks for Object Counting](https://arxiv.org/abs/2206.05253v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/zhiqic/rethinking-counting)",
+        "n": "GauNet (ResNet-50)",
+        "d": "2022-06-10",
+        "m1": "81.6"
+      },
+      {
+        "p": "[Crowd Counting and Individual Localization Using Pseudo Square Label](https://ieeexplore.ieee.org/document/10530038)",
+        "c": "",
+        "n": "PSL-Net",
+        "d": "2024-05-13",
+        "m1": "85.5",
+        "m2": "144.4"
+      },
+      {
+        "p": "[Distribution Matching for Crowd Counting](https://arxiv.org/abs/2009.13077v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/cvlab-stonybrook/DM-Count)",
+        "n": "DM-Count",
+        "d": "2020-09-28",
+        "m1": "85.6"
+      },
+      {
+        "p": "[Encoder-Decoder Based Convolutional Neural Networks with Multi-Scale-Aware Modules for Crowd Counting](https://arxiv.org/abs/2003.05586v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/Pongpisit-Thanasutives/Variations-of-SFANet-for-Crowd-Counting)",
+        "n": "M-SFANet",
+        "d": "2020-03-12",
+        "m1": "85.6"
+      },
+      {
+        "p": "[Crowd Counting via Segmentation Guided Attention Networks and Curriculum Loss](https://arxiv.org/abs/1911.07990v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/hellowangqian/sganet-crowd-counting)",
+        "n": "SGANet + CL",
+        "d": "2019-11-18",
+        "m1": "87.6"
+      },
+      {
+        "p": "[Crowd Counting via Segmentation Guided Attention Networks and Curriculum Loss](https://arxiv.org/abs/1911.07990v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/hellowangqian/sganet-crowd-counting)",
+        "n": "SGANet",
+        "d": "2019-11-18",
+        "m1": "89.1"
+      },
+      {
+        "p": "[Context-Aware Crowd Counting](http://arxiv.org/abs/1811.10452v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/weizheliu/Context-Aware-Crowd-Counting)",
+        "n": "CAN",
+        "d": "2018-11-26",
+        "m1": "107"
+      },
+      {
+        "p": "[Composition Loss for Counting, Density Map Estimation and Localization in Dense Crowds](http://arxiv.org/abs/1808.01050v1)",
+        "c": "",
+        "n": "Idrees et al.",
+        "d": "2018-08-02",
+        "m1": "132"
+      },
+      {
+        "p": "[Densely Connected Convolutional Networks](http://arxiv.org/abs/1608.06993v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/pytorch/vision)",
+        "n": "Densenet201",
+        "d": "2016-08-25",
+        "m1": "163"
+      },
+      {
+        "p": "[Deep Residual Learning for Image Recognition](http://arxiv.org/abs/1512.03385v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/research/deeplab)",
+        "n": "Resnet101",
+        "d": "2015-12-10",
+        "m1": "190"
+      },
+      {
+        "p": "[Switching Convolutional Neural Network for Crowd Counting](http://arxiv.org/abs/1708.00199v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/val-iisc/crowd-counting-scnn)",
+        "n": "Switch-CNN",
+        "d": "2017-08-01",
+        "m1": "228"
+      },
+      {
+        "p": "[CNN-based Cascaded Multi-task Learning of High-level Prior and Density Estimation for Crowd Counting](http://arxiv.org/abs/1707.09605v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/svishwa/crowdcount-cascaded-mtl)",
+        "n": "Cascaded-MTL",
+        "d": "2017-07-30",
+        "m1": "252"
+      },
+      {
+        "p": "[SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation](http://arxiv.org/abs/1511.00561v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleSeg)",
+        "n": "Encoder-Decoder",
+        "d": "2015-11-02",
+        "m1": "270"
+      },
+      {
+        "p": "[Single-Image Crowd Counting via Multi-Column Convolutional Neural Network](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Zhang_Single-Image_Crowd_Counting_CVPR_2016_paper.pdf)",
+        "c": "[&check;&nbsp;Link](https://github.com/svishwa/crowdcount-mcnn)",
+        "n": "MCNN",
+        "d": "2016-01-01",
+        "m1": "277"
+      },
+      {
+        "p": "[Multi-source Multi-scale Counting in Extremely Dense Crowd Images](http://openaccess.thecvf.com/content_cvpr_2013/html/Idrees_Multi-source_Multi-scale_Counting_2013_CVPR_paper.html)",
+        "c": "",
+        "n": "Idrees et al.",
+        "d": "2013-06-01",
+        "m1": "315"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "title": "aspect-oriented-opinion-extraction-on-semeval",
+  "task-hierarchy": [
+    "Aspect-Based Sentiment Analysis (ABSA)",
+    "Aspect-oriented  Opinion Extraction"
+  ],
+  "dataset-info": {
+    "link": "https://alt.qcri.org/semeval2014/task4/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Restaurant 2014 (F1)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Laptop 2014 (F1)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Restaurant 2015 (F1)",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Restaurant 2016 (F1)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[A Unified Generative Framework for Aspect-Based Sentiment Analysis](https://arxiv.org/abs/2106.04300v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/yhcc/BARTABSA)",
+        "n": "BARTABSA",
+        "d": "2021-06-08",
+        "m1": "85.38",
+        "m2": "80.55",
+        "m3": "80.52",
+        "m4": "87.92"
+      },
+      {
+        "p": "[A Joint Training Dual-MRC Framework for Aspect Based Sentiment Analysis](https://arxiv.org/abs/2101.00816v2)",
+        "c": "",
+        "n": "Dual-MRC",
+        "d": "2021-01-04",
+        "m1": "83.73",
+        "m2": "79.90",
+        "m3": "74.50",
+        "m4": "83.33"
+      },
+      {
+        "p": "[Introducing Syntactic Structures into Target Opinion Word Extraction with Deep Learning](https://arxiv.org/abs/2010.13378v1)",
+        "c": "",
+        "n": "ONG",
+        "d": "2020-10-26",
+        "m1": "82.33",
+        "m2": "75.77",
+        "m3": "78.81",
+        "m4": "86.01"
+      },
+      {
+        "p": "[Latent Opinions Transfer Network for Target-Oriented Opinion Words Extraction](https://arxiv.org/abs/2001.01989v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/1429904852/LOTN)",
+        "n": "LOTN",
+        "d": "2020-01-07",
+        "m1": "82.21",
+        "m2": "72.02",
+        "m3": "73.29",
+        "m4": "83.62"
+      },
+      {
+        "p": "[Target-oriented Opinion Words Extraction with Target-fused Neural Sequence Labeling](https://aclanthology.org/N19-1259)",
+        "c": "[&check;&nbsp;Link](https://github.com/NJUNLP/TOWE)",
+        "n": "IOG",
+        "d": "2019-06-01",
+        "m1": "80.02",
+        "m2": "71.35",
+        "m3": "73.25",
+        "m4": "81.69"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

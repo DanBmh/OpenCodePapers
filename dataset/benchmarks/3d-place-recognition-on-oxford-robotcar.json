@@ -1,0 +1,122 @@
+{
+  "title": "3d-place-recognition-on-oxford-robotcar",
+  "task-hierarchy": [
+    "Visual Place Recognition",
+    "3D Place Recognition"
+  ],
+  "dataset-info": {
+    "link": "http://robotcar-dataset.robots.ox.ac.uk/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AR@1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "AR@1%",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[CrossLoc3D: Aerial-Ground Cross-Source 3D Place Recognition](https://arxiv.org/abs/2303.17778v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/rayguan97/crossloc3d)",
+        "n": "CrossLoc3D",
+        "d": "2023-03-31",
+        "m1": "94.36",
+        "m2": "98.59"
+      },
+      {
+        "p": "[SVT-Net: Super Light-Weight Sparse Voxel Transformer for Large Scale Place Recognition](https://arxiv.org/abs/2105.00149v4)",
+        "c": "",
+        "n": "SVT-Net",
+        "d": "2021-05-01",
+        "m1": "93.7",
+        "m2": "97.8"
+      },
+      {
+        "p": "[Pyramid Point Cloud Transformer for Large-Scale Place Recognition](http://openaccess.thecvf.com//content/ICCV2021/html/Hui_Pyramid_Point_Cloud_Transformer_for_Large-Scale_Place_Recognition_ICCV_2021_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/fpthink/ppt-net)",
+        "n": "PPT-Net",
+        "d": "2021-01-01",
+        "m1": "93.5",
+        "m2": "98.1"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Minkloc3D",
+        "d": null,
+        "m1": "93.0",
+        "m2": "97.9"
+      },
+      {
+        "p": "[LPD-Net: 3D Point Cloud Learning for Large-Scale Place Recognition and Environment Analysis](https://arxiv.org/abs/1812.07050v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Suoivy/LPD-net)",
+        "n": "LPD-Net",
+        "d": "2018-12-11",
+        "m1": "86.3",
+        "m2": "94.9"
+      },
+      {
+        "p": "[MinkLoc3D-SI: 3D LiDAR place recognition with sparse convolutions, spherical coordinates, and intensity](https://arxiv.org/abs/2112.06539v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/kamilzywanowski/minkloc3d-si)",
+        "n": "Minkloc3D-S",
+        "d": "2021-12-13",
+        "m1": "82.0",
+        "m2": "93.1"
+      },
+      {
+        "p": "[DH3D: Deep Hierarchical 3D Descriptors for Robust Large-Scale 6DoF Relocalization](https://arxiv.org/abs/2007.09217v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/JuanDuGit/DH3D)",
+        "n": "DH3D",
+        "d": "2020-07-17",
+        "m1": "74.2",
+        "m2": "85.3"
+      },
+      {
+        "p": "[SOE-Net: A Self-Attention and Orientation Encoding Network for Point Cloud based Place Recognition](https://arxiv.org/abs/2011.12430v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Yan-Xia/SOE-Net)",
+        "n": "soe-net",
+        "d": "2020-11-24",
+        "m2": "96.4"
+      },
+      {
+        "p": "[PCAN: 3D Attention Map Learning Using Contextual Information for Point Cloud Based Retrieval](http://arxiv.org/abs/1904.09793v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/XLechter/PCAN)",
+        "n": "PCAN",
+        "d": "2019-04-22",
+        "m2": "83.8"
+      },
+      {
+        "p": "[PointNetVLAD: Deep Point Cloud Based Retrieval for Large-Scale Place Recognition](http://arxiv.org/abs/1804.03492v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/mikacuy/pointnetvlad)",
+        "n": "pointnetvlad",
+        "d": "2018-04-10",
+        "m2": "80.3"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

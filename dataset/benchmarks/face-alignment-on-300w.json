@@ -1,0 +1,539 @@
+{
+  "title": "face-alignment-on-300w",
+  "task-hierarchy": [
+    "3D Face Reconstruction",
+    "Facial Recognition and Modelling",
+    "Face Alignment"
+  ],
+  "dataset-info": {
+    "link": "https://ibug.doc.ic.ac.uk/resources/300-W/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "NME_inter-ocular (%, Full)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "NME_inter-ocular (%, Common)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "NME_inter-ocular (%, Challenge)",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "NME_inter-pupil (%, Full)",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "NME_inter-pupil (%, Common)",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "NME_inter-pupil (%, Challenge)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[STAR Loss: Reducing Semantic Ambiguity in Facial Landmark Detection](https://arxiv.org/abs/2306.02763v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/zhenglinzhou/star)",
+        "n": "STAR",
+        "d": "2023-06-05",
+        "m1": "2.87",
+        "m2": "2.52",
+        "m3": "4.32",
+        "m4": "4.03",
+        "m5": "3.5",
+        "m6": "6.22"
+      },
+      {
+        "p": "[FreeEnricher: Enriching Face Landmarks without Additional Cost](https://arxiv.org/abs/2212.09525v1)",
+        "c": "",
+        "n": "ADNet-FE5",
+        "d": "2022-12-19",
+        "m1": "2.87"
+      },
+      {
+        "p": "[General Facial Representation Learning in a Visual-Linguistic Manner](https://arxiv.org/abs/2112.03109v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/FacePerceiver/FaRL)",
+        "n": "FaRL-B (epoch 64)",
+        "d": "2021-12-06",
+        "m1": "2.88",
+        "m2": "2.50",
+        "m3": "4.42",
+        "m4": "4.05",
+        "m5": "3.46",
+        "m6": "6.38"
+      },
+      {
+        "p": "[Fiducial Focus Augmentation for Facial Landmark Detection](https://arxiv.org/abs/2402.15044v1)",
+        "c": "",
+        "n": "FiFA",
+        "d": "2024-02-23",
+        "m1": "2.89",
+        "m2": "2.51",
+        "m3": "4.47"
+      },
+      {
+        "p": "[ADNet: Leveraging Error-Bias Towards Normal Direction in Face Alignment](https://arxiv.org/abs/2109.05721v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/huangyangyu/ADNet)",
+        "n": "ADNet",
+        "d": "2021-09-13",
+        "m1": "2.93",
+        "m2": "2.53",
+        "m3": "4.58",
+        "m4": "4.08",
+        "m5": "3.51",
+        "m6": "6.47"
+      },
+      {
+        "p": "[General Facial Representation Learning in a Visual-Linguistic Manner](https://arxiv.org/abs/2112.03109v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/FacePerceiver/FaRL)",
+        "n": "FaRL-B (epoch 16)",
+        "d": "2021-12-06",
+        "m1": "2.93",
+        "m2": "2.56",
+        "m3": "4.45",
+        "m4": "4.11",
+        "m5": "3.53",
+        "m6": "6.42"
+      },
+      {
+        "p": "[PropagationNet: Propagate Points to Curve to Learn Structure Information](https://arxiv.org/abs/2006.14308v1)",
+        "c": "",
+        "n": "PropNet",
+        "d": "2020-06-25",
+        "m1": "2.93",
+        "m2": "2.67",
+        "m3": "3.99",
+        "m4": "4.1",
+        "m5": "3.7",
+        "m6": "5.75"
+      },
+      {
+        "p": "[Subpixel Heatmap Regression for Facial Landmark Localization](https://arxiv.org/abs/2111.02360v1)",
+        "c": "",
+        "n": "SHR-FAN",
+        "d": "2021-11-03",
+        "m1": "2.94",
+        "m2": "2.61",
+        "m3": "4.13"
+      },
+      {
+        "p": "[Towards Accurate Facial Landmark Detection via Cascaded Transformers](https://arxiv.org/abs/2208.10808v1)",
+        "c": "",
+        "n": "DTLD+",
+        "d": "2022-08-23",
+        "m1": "2.96",
+        "m2": "2.6",
+        "m3": "4.48"
+      },
+      {
+        "p": "[Shape Preserving Facial Landmarks with Graph Attention Networks](https://arxiv.org/abs/2210.07233v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/andresprados/spiga)",
+        "n": "SPIGA",
+        "d": "2022-10-13",
+        "m1": "2.99",
+        "m2": "2.59",
+        "m3": "4.66",
+        "m4": "4.20",
+        "m5": "3.59",
+        "m6": "6.73"
+      },
+      {
+        "p": "[Adaptive Wing Loss for Robust Face Alignment via Heatmap Regression](https://arxiv.org/abs/1904.07399v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/emilianavt/OpenSeeFace)",
+        "n": "AWing",
+        "d": "2019-04-16",
+        "m1": "3.07",
+        "m2": "2.72",
+        "m3": "4.52",
+        "m4": "4.31",
+        "m5": "3.77",
+        "m6": "6.52"
+      },
+      {
+        "p": "[HIH: Towards More Accurate Face Alignment via Heatmap in Heatmap](https://arxiv.org/abs/2104.03100v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/starhiking/HeatmapInHeatmap)",
+        "n": "HIH",
+        "d": "2021-04-07",
+        "m1": "3.09",
+        "m2": "2.65",
+        "m3": "4.89"
+      },
+      {
+        "p": "[When Liebig's Barrel Meets Facial Landmark Detection: A Practical Model](https://arxiv.org/abs/2105.13150v2)",
+        "c": "",
+        "n": "BarrelNet (ResNet-101)",
+        "d": "2021-05-27",
+        "m1": "3.09",
+        "m2": "2.73",
+        "m3": "4.6"
+      },
+      {
+        "p": "[Efficient and Accurate Face Alignment by Global Regression and Cascaded Local Refinement](http://openaccess.thecvf.com/content_CVPRW_2019/html/AMFG/Su_Efficient_and_Accurate_Face_Alignment_by_Global_Regression_and_Cascaded_CVPRW_2019_paper.html)",
+        "c": "",
+        "n": "GRegNet + LRefNet",
+        "d": "2019-06-16",
+        "m1": "3.12",
+        "m2": "2.71",
+        "m3": "4.78",
+        "m4": "4.37",
+        "m5": "3.76",
+        "m6": "6.89"
+      },
+      {
+        "p": "[Face Alignment using a 3D Deeply-initialized Ensemble of Regression Trees](https://arxiv.org/abs/1902.01831v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/bobetocalo/bobetocalo_eccv18)",
+        "n": "3DDE",
+        "d": "2019-02-05",
+        "m1": "3.13",
+        "m2": "2.69",
+        "m3": "4.92",
+        "m4": "4.39",
+        "m5": "3.73",
+        "m6": "7.10"
+      },
+      {
+        "p": "[ATF: Towards Robust Face Alignment via Leveraging Similarity and Diversity across Different Datasets](https://dl.acm.org/doi/10.1145/3394171.3414037)",
+        "c": "[&check;&nbsp;Link](https://github.com/starhiking/ATF)",
+        "n": "ATF",
+        "d": "2020-10-12",
+        "m1": "3.17",
+        "m2": "2.75",
+        "m3": "4.89"
+      },
+      {
+        "p": "[Sparse Local Patch Transformer for Robust Face Alignment and Landmarks Inherent Relation Learning](https://arxiv.org/abs/2203.06541v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/jiahao-uts/slpt-master)",
+        "n": "SLPT",
+        "d": "2022-03-13",
+        "m1": "3.17",
+        "m2": "2.75",
+        "m3": "4.90"
+      },
+      {
+        "p": "[Pixel-in-Pixel Net: Towards Efficient Facial Landmark Detection in the Wild](https://arxiv.org/abs/2003.03771v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/jhb86253817/PIPNet)",
+        "n": "PIPNet (ResNet-101)",
+        "d": "2020-03-08",
+        "m1": "3.19",
+        "m2": "2.78",
+        "m3": "4.89"
+      },
+      {
+        "p": "[A Deeply-initialized Coarse-to-fine Ensemble of Regression Trees for Face Alignment](http://openaccess.thecvf.com/content_ECCV_2018/html/Roberto_Valle_A_Deeply-initialized_Coarse-to-fine_ECCV_2018_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/bobetocalo/bobetocalo_eccv18)",
+        "n": "DCFE",
+        "d": "2018-09-01",
+        "m1": "3.24",
+        "m2": "2.76",
+        "m3": "5.22",
+        "m4": "4.55",
+        "m5": "3.83",
+        "m6": "7.54"
+      },
+      {
+        "p": "[Learning Robust Facial Landmark Detection via Hierarchical Structured Ensemble](http://openaccess.thecvf.com/content_ICCV_2019/html/Zou_Learning_Robust_Facial_Landmark_Detection_via_Hierarchical_Structured_Ensemble_ICCV_2019_paper.html)",
+        "c": "",
+        "n": "HG-HSLE",
+        "d": "2019-10-01",
+        "m1": "3.28",
+        "m2": "2.85",
+        "m3": "5.03"
+      },
+      {
+        "p": "[Fast and Accurate: Structure Coherence Component for Face Alignment](https://arxiv.org/abs/2006.11697v1)",
+        "c": "",
+        "n": "SCC",
+        "d": "2020-06-21",
+        "m1": "3.28",
+        "m2": "2.88",
+        "m3": "4.93"
+      },
+      {
+        "p": "[Cascade of Encoder-Decoder CNNs with Learned Coordinates Regressor for Robust Facial Landmarks Detection](https://doi.org/10.1016/j.patrec.2019.10.012)",
+        "c": "[&check;&nbsp;Link](https://github.com/bobetocalo/bobetocalo_prl19)",
+        "n": "CHR2C",
+        "d": "2019-10-15",
+        "m1": "3.3",
+        "m2": "2.85",
+        "m3": "5.15",
+        "m4": "4.64",
+        "m5": "3.96",
+        "m6": "7.44"
+      },
+      {
+        "p": "[Deep Structured Prediction for Facial Landmark Detection](https://arxiv.org/abs/2010.09035v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/lisha-chen/Deep-structured-facial-landmark-detection)",
+        "n": "CNN-CRF",
+        "d": "2020-10-18",
+        "m1": "3.30",
+        "m2": "2.93",
+        "m3": "4.84",
+        "m4": "4.63",
+        "m5": "4.06",
+        "m6": "6.98"
+      },
+      {
+        "p": "[High-Resolution Representations for Labeling Pixels and Regions](http://arxiv.org/abs/1904.04514v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleDetection)",
+        "n": "HR-Net",
+        "d": "2019-04-09",
+        "m1": "3.32",
+        "m2": "2.87",
+        "m3": "5.15"
+      },
+      {
+        "p": "[Deep High-Resolution Representation Learning for Visual Recognition](https://arxiv.org/abs/1908.07919v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection)",
+        "n": "HRNet",
+        "d": "2019-08-20",
+        "m1": "3.32",
+        "m2": "2.87",
+        "m3": "5.15"
+      },
+      {
+        "p": "[DeCaFA: Deep Convolutional Cascade for Face Alignment In The Wild](http://arxiv.org/abs/1904.02549v1)",
+        "c": "",
+        "n": "DeCaFA",
+        "d": "2019-04-04",
+        "m1": "3.39",
+        "m2": "2.93",
+        "m3": "5.26"
+      },
+      {
+        "p": "[Exploring StyleGAN Latent Space for Face Alignment with Limited Training Data](https://hal.archives-ouvertes.fr/INRIA/hal-03778322v1)",
+        "c": "",
+        "n": "FASE",
+        "d": "2022-09-16",
+        "m1": "3.42",
+        "m2": "2.97",
+        "m3": "5.30"
+      },
+      {
+        "p": "[Deep Alignment Network: A convolutional neural network for robust face alignment](http://arxiv.org/abs/1706.01789v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/MarekKowalski/DeepAlignmentNetwork)",
+        "n": "DAN-Menpo",
+        "d": "2017-06-06",
+        "m1": "3.44",
+        "m2": "3.09",
+        "m3": "4.88",
+        "m4": "4.83",
+        "m5": "4.29",
+        "m6": "7.05"
+      },
+      {
+        "p": "[Look at Boundary: A Boundary-Aware Face Alignment Algorithm](http://arxiv.org/abs/1805.10483v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmpose)",
+        "n": "LAB",
+        "d": "2018-05-26",
+        "m1": "3.49",
+        "m2": "2.98",
+        "m3": "5.19",
+        "m4": "4.12",
+        "m5": "3.42",
+        "m6": "6.98"
+      },
+      {
+        "p": "[LDDMM-Face: Large Deformation Diffeomorphic Metric Learning for Flexible and Consistent Face Alignment](https://arxiv.org/abs/2108.00690v1)",
+        "c": "",
+        "n": "LDDMM-Face",
+        "d": "2021-08-02",
+        "m1": "3.53",
+        "m2": "3.07",
+        "m3": "5.4"
+      },
+      {
+        "p": "[AnchorFace: An Anchor-based Facial Landmark Detector Across Large Poses](https://arxiv.org/abs/2007.03221v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/nothingelse92/AnchorFace)",
+        "n": "AnchorFace",
+        "d": "2020-07-07",
+        "m1": "3.72",
+        "m2": "3.12",
+        "m3": "6.19"
+      },
+      {
+        "p": "[ACR Loss: Adaptive Coordinate-based Regression Loss for Face Alignment](https://arxiv.org/abs/2203.15835v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/aliprf/acr-loss)",
+        "n": "EF-3ACR",
+        "d": "2022-03-29",
+        "m1": "3.75",
+        "m2": "3.36",
+        "m3": "5.36"
+      },
+      {
+        "p": "[3FabRec: Fast Few-shot Face alignment by Reconstruction](https://arxiv.org/abs/1911.10448v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/browatbn2/3FabRec)",
+        "n": "3FabRec",
+        "d": "2019-11-24",
+        "m1": "3.82",
+        "m2": "3.36",
+        "m3": "5.74"
+      },
+      {
+        "p": "[Aggregation via Separation: Boosting Facial Landmark Detector with Semi-Supervised Style Translation](https://arxiv.org/abs/1908.06440v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/thesouthfrog/stylealign)",
+        "n": "AVS",
+        "d": "2019-08-18",
+        "m1": "3.86",
+        "m2": "3.21",
+        "m3": "6.49"
+      },
+      {
+        "p": "[SCAF: Skip-Connections in Auto-encoder for Face alignment with few annotated data](https://link.springer.com/chapter/10.1007/978-3-031-06427-2_36)",
+        "c": "",
+        "n": "SCAF",
+        "d": "2022-05-15",
+        "m1": "3.95",
+        "m2": "3.48",
+        "m3": "5.83"
+      },
+      {
+        "p": "[Style Aggregated Network for Facial Landmark Detection](http://arxiv.org/abs/1803.04108v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/D-X-Y/SAN)",
+        "n": "SAN",
+        "d": "2018-03-12",
+        "m1": "3.98",
+        "m2": "3.34",
+        "m3": "6.60"
+      },
+      {
+        "p": "[Laplace Landmark Localization](https://arxiv.org/abs/1903.11633v2)",
+        "c": "",
+        "n": "LaplaceKL",
+        "d": "2019-03-27",
+        "m1": "4.01",
+        "m2": "3.28",
+        "m3": "7.01"
+      },
+      {
+        "p": "[Facial Landmark Points Detection Using Knowledge Distillation-Based Neural Networks](https://arxiv.org/abs/2111.07047v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/aliprf/kd-loss)",
+        "n": "MobileNetV2+KD-Loss",
+        "d": "2021-11-13",
+        "m1": "4.06",
+        "m2": "3.56",
+        "m3": "6.13"
+      },
+      {
+        "p": "[Robust Facial Landmark Detection via Occlusion-Adaptive Deep Networks](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhu_Robust_Facial_Landmark_Detection_via_Occlusion-Adaptive_Deep_Networks_CVPR_2019_paper.html)",
+        "c": "",
+        "n": "ODN",
+        "d": "2019-06-01",
+        "m1": "4.17",
+        "m2": "3.56",
+        "m3": "6.67"
+      },
+      {
+        "p": "[ASMNet: a Lightweight Deep Neural Network for Face Alignment and Pose Estimation](https://arxiv.org/abs/2103.00119v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/aliprf/ASMNet)",
+        "n": "MobileNetV2",
+        "d": "2021-02-27",
+        "m1": "4.59",
+        "m2": "3.88",
+        "m3": "7.35"
+      },
+      {
+        "p": "[Improving Landmark Localization with Semi-Supervised Learning](http://arxiv.org/abs/1709.01591v7)",
+        "c": "",
+        "n": "RCN",
+        "d": "2017-09-05",
+        "m1": "4.90",
+        "m2": "4.20",
+        "m3": "7.78"
+      },
+      {
+        "p": "[ASMNet: a Lightweight Deep Neural Network for Face Alignment and Pose Estimation](https://arxiv.org/abs/2103.00119v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/aliprf/ASMNet)",
+        "n": "ASMNet",
+        "d": "2021-02-27",
+        "m1": "5.50",
+        "m2": "4.82",
+        "m3": "8.2"
+      },
+      {
+        "p": "[Face Alignment in Full Pose Range: A 3D Total Solution](http://arxiv.org/abs/1804.01005v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/cleardusk/3DDFA)",
+        "n": "3DDFA",
+        "d": "2018-04-02",
+        "m1": "5.63",
+        "m2": "5.09",
+        "m3": "8.07",
+        "m4": "7.01",
+        "m5": "6.15",
+        "m6": "10.59"
+      },
+      {
+        "p": "[3D face reconstruction with dense landmarks](https://arxiv.org/abs/2204.02776v2)",
+        "c": "",
+        "n": "DenseLandmarks (GNLL)",
+        "d": "2022-04-06",
+        "m2": "3.03",
+        "m3": "4.8"
+      },
+      {
+        "p": "[Fake It Till You Make It: Face analysis in the wild using synthetic data alone](https://arxiv.org/abs/2109.15102v2)",
+        "c": "",
+        "n": "FakeIt",
+        "d": "2021-09-30",
+        "m2": "3.09",
+        "m3": "4.86"
+      },
+      {
+        "p": "[Semantic Alignment: Finding Semantically Consistent Ground-truth for Facial Landmark Detection](http://arxiv.org/abs/1903.10661v1)",
+        "c": "",
+        "n": "HGs + SA + Norm + GHCU",
+        "d": "2019-03-26",
+        "m4": "4.02",
+        "m5": "3.45",
+        "m6": "6.38"
+      },
+      {
+        "p": "[Wing Loss for Robust Facial Landmark Localisation with Convolutional Neural Networks](http://arxiv.org/abs/1711.06753v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmpose)",
+        "n": "Wing",
+        "d": "2017-11-17",
+        "m4": "4.04",
+        "m5": "3.27",
+        "m6": "7.18"
+      },
+      {
+        "p": "[Facial Landmarks Detection by Self-Iterative Regression based Landmarks-Attention Network](http://arxiv.org/abs/1803.06598v1)",
+        "c": "",
+        "n": "SIR-LAN",
+        "d": "2018-03-18",
+        "m4": "5.04",
+        "m5": "4.29",
+        "m6": "8.14"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

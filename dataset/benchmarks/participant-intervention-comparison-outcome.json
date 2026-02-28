@@ -1,0 +1,71 @@
+{
+  "title": "participant-intervention-comparison-outcome",
+  "task-hierarchy": [
+    "Participant Intervention Comparison Outcome Extraction"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[VarMAE: Pre-training of Variational Masked Autoencoder for Domain-adaptive Language Understanding](https://arxiv.org/abs/2211.00430v1)",
+        "c": "",
+        "n": "VarMAE",
+        "d": "2022-11-01",
+        "m1": "76.01"
+      },
+      {
+        "p": "[Domain-Specific Language Model Pretraining for Biomedical Natural Language Processing](https://arxiv.org/abs/2007.15779v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/bionlu-coling2024/biomed-ner-intent_detection)",
+        "n": "PubMedBERT uncased",
+        "d": "2020-07-31",
+        "m1": "73.38"
+      },
+      {
+        "p": "[SciBERT: A Pretrained Language Model for Scientific Text](https://arxiv.org/abs/1903.10676v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/allenai/scibert)",
+        "n": "SciBERT (SciVocab)",
+        "d": "2019-03-26",
+        "m1": "71.18"
+      },
+      {
+        "p": "[SciBERT: A Pretrained Language Model for Scientific Text](https://arxiv.org/abs/1903.10676v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/allenai/scibert)",
+        "n": "SciBERT (Base Vocab)",
+        "d": "2019-03-26",
+        "m1": "70.82"
+      },
+      {
+        "p": "[A Corpus with Multi-Level Annotations of Patients, Interventions and Outcomes to Support Language Processing for Medical Literature](http://arxiv.org/abs/1806.04185v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/devkotasabin/EBM-NLP)",
+        "n": "bi-LSTM",
+        "d": "2018-06-11",
+        "m1": "66.30"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

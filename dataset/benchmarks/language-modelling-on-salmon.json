@@ -1,0 +1,206 @@
+{
+  "title": "language-modelling-on-salmon",
+  "task-hierarchy": [
+    "Language Modelling"
+  ],
+  "dataset-info": {
+    "link": "https://pages.cs.huji.ac.il/adiyoss-lab/salmon/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Sentiment Consistency",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Speaker Consistency",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Gender Consistency",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Background (Domain) Consistency",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Background (Random) Consistency",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "Room Consistency",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "Sentiment Alignment",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "Background Alignment",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Spirit LM: Interleaved Spoken and Written Language Model](https://arxiv.org/abs/2402.05755v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/spiritlm)",
+        "n": "Spirit-LM (Expr.)",
+        "d": "2024-02-08",
+        "m1": "73.5",
+        "m2": "81.0",
+        "m3": "85.0",
+        "m4": "55.0",
+        "m5": "64.0",
+        "m6": "54.5",
+        "m7": "52.0",
+        "m8": "59.5"
+      },
+      {
+        "p": "[LAST: Language Model Aware Speech Tokenization](https://arxiv.org/abs/2409.03701v2)",
+        "c": "",
+        "n": "LAST 1.3B",
+        "d": "2024-09-05",
+        "m1": "65.0",
+        "m2": "64.5",
+        "m3": "68.5",
+        "m4": "56.0",
+        "m5": "61.0",
+        "m6": "62.5",
+        "m7": "53.5",
+        "m8": "53.0"
+      },
+      {
+        "p": "[LAST: Language Model Aware Speech Tokenization](https://arxiv.org/abs/2409.03701v2)",
+        "c": "",
+        "n": "LAST 350M",
+        "d": "2024-09-05",
+        "m1": "64.0",
+        "m2": "63.0",
+        "m3": "70.5",
+        "m4": "55.5",
+        "m5": "60.5",
+        "m6": "61.0",
+        "m7": "51.5",
+        "m8": "54.5"
+      },
+      {
+        "p": "[Textually Pretrained Speech Language Models](https://arxiv.org/abs/2305.13009v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/slp-rl/spokenstorycloze)",
+        "n": "TWIST 7B",
+        "d": "2023-05-22",
+        "m1": "61.5",
+        "m2": "71.0",
+        "m3": "70.0",
+        "m4": "55.0",
+        "m5": "60.5",
+        "m6": "62.0",
+        "m7": "51.5",
+        "m8": "54.5"
+      },
+      {
+        "p": "[Textually Pretrained Speech Language Models](https://arxiv.org/abs/2305.13009v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/slp-rl/spokenstorycloze)",
+        "n": "TWIST 1.3B",
+        "d": "2023-05-22",
+        "m1": "61.5",
+        "m2": "69.0",
+        "m3": "69.5",
+        "m4": "55.5",
+        "m5": "60.5",
+        "m6": "59.0",
+        "m7": "53.0",
+        "m8": "56.5"
+      },
+      {
+        "p": "[Textually Pretrained Speech Language Models](https://arxiv.org/abs/2305.13009v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/slp-rl/spokenstorycloze)",
+        "n": "TWIST 350M",
+        "d": "2023-05-22",
+        "m1": "59.0",
+        "m2": "69.5",
+        "m3": "68.0",
+        "m4": "54.0",
+        "m5": "61.5",
+        "m6": "59.0",
+        "m7": "51.5",
+        "m8": "56.5"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "TASLM 1B (token)",
+        "d": null,
+        "m1": "59.0",
+        "m2": "68.0",
+        "m3": "70.5",
+        "m6": "61.0"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "TASLM 1B (embedding)",
+        "d": null,
+        "m1": "57.5",
+        "m2": "67.0",
+        "m3": "75.5",
+        "m6": "50.0"
+      },
+      {
+        "p": "[Spirit LM: Interleaved Spoken and Written Language Model](https://arxiv.org/abs/2402.05755v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/spiritlm)",
+        "n": "Spirit-LM (base)",
+        "d": "2024-02-08",
+        "m1": "54.5",
+        "m2": "69.5",
+        "m3": "67.0",
+        "m4": "53.5",
+        "m5": "55.5",
+        "m6": "54.5",
+        "m7": "48.0",
+        "m8": "51.5"
+      },
+      {
+        "p": "[Text-Free Prosody-Aware Generative Spoken Language Modeling](https://arxiv.org/abs/2109.03264v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/pytorch/fairseq)",
+        "n": "pGSLM",
+        "d": "2021-09-07",
+        "m1": "40.5",
+        "m2": "83.0",
+        "m3": "88.5",
+        "m4": "57.0",
+        "m5": "66.0",
+        "m6": "53.5",
+        "m7": "55.5",
+        "m8": "53.5"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

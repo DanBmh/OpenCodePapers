@@ -1,0 +1,93 @@
+{
+  "title": "emotion-cause-extraction-on-ece",
+  "task-hierarchy": [
+    "Emotion Recognition",
+    "Emotion Cause Extraction"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[UECA-Prompt: Universal Prompt for Emotion Cause Analysis](https://aclanthology.org/2022.coling-1.613)",
+        "c": "[&check;&nbsp;Link](https://github.com/yajus/ueca-prompt)",
+        "n": "UECA-Prompt",
+        "d": null,
+        "m1": "84.40"
+      },
+      {
+        "p": "[A Knowledge Regularized Hierarchical Approach for Emotion Cause Analysis](https://aclanthology.org/D19-1563)",
+        "c": "",
+        "n": "RHNN",
+        "d": "2019-11-01",
+        "m1": "79.14"
+      },
+      {
+        "p": "[Bidirectional Hierarchical Attention Networks based on Document-level Context for Emotion Cause Extraction](https://aclanthology.org/2021.findings-emnlp.51)",
+        "c": "",
+        "n": "EF-BHA",
+        "d": null,
+        "m1": "78.68"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "FSS-GCN",
+        "d": null,
+        "m1": "78.61"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "MANN",
+        "d": null,
+        "m1": "77.06"
+      },
+      {
+        "p": "[RTHN: A RNN-Transformer Hierarchical Network for Emotion Cause Extraction](https://arxiv.org/abs/1906.01236v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/NUSTM/RTHN)",
+        "n": "RTHN",
+        "d": "2019-06-04",
+        "m1": "76.77"
+      },
+      {
+        "p": "[From Independent Prediction to Re-ordered Prediction: Integrating Relative Position and Global Label Information to Emotion Cause Identification](https://arxiv.org/abs/1906.01230v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/NUSTM/PAEDGL)",
+        "n": "PAE-DGL",
+        "d": "2019-06-04",
+        "m1": "72.42"
+      },
+      {
+        "p": "[A Question Answering Approach to Emotion Cause Extraction](http://arxiv.org/abs/1708.05482v2)",
+        "c": "",
+        "n": "ConvMS-Memnet",
+        "d": "2017-08-18",
+        "m1": "69.55"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

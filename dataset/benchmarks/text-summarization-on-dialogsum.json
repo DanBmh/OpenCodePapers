@@ -1,0 +1,93 @@
+{
+  "title": "text-summarization-on-dialogsum",
+  "task-hierarchy": [
+    "Text Summarization"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/cylnlp/DialogSum"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Rouge1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Rouge2",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "RougeL",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "BertScore",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Instructive Dialogue Summarization with Query Aggregations](https://arxiv.org/abs/2310.10981v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/BinWang28/InstructDS)",
+        "n": "InstructDS",
+        "d": "2023-10-17",
+        "m1": "47.8",
+        "m2": "22.2",
+        "m3": "39.4"
+      },
+      {
+        "p": "[OmniVec2 - A Novel Transformer based Network for Large Scale Multimodal and Multitask Learning](http://openaccess.thecvf.com//content/CVPR2024/html/Srivastava_OmniVec2_-_A_Novel_Transformer_based_Network_for_Large_Scale_CVPR_2024_paper.html)",
+        "c": "",
+        "n": "OmniVec2",
+        "d": "2024-01-01",
+        "m1": "47.6",
+        "m2": "22.1",
+        "m3": "41.4",
+        "m4": "72.8"
+      },
+      {
+        "p": "[OmniVec: Learning robust representations with cross modal sharing](https://arxiv.org/abs/2311.05709v1)",
+        "c": "",
+        "n": "OmniVec",
+        "d": "2023-11-07",
+        "m1": "46.91",
+        "m2": "21.22",
+        "m3": "40.19",
+        "m4": "71.91"
+      },
+      {
+        "p": "[Mind the Gap! Injecting Commonsense Knowledge for Abstractive Dialogue Summarization](https://arxiv.org/abs/2209.00930v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/SeungoneKim/SICK_Summarization)",
+        "n": "SICK",
+        "d": "2022-09-02",
+        "m1": "46.26",
+        "m2": "20.95",
+        "m3": "41.05",
+        "m4": "71.30"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

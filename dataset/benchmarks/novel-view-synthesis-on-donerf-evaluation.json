@@ -1,0 +1,81 @@
+{
+  "title": "novel-view-synthesis-on-donerf-evaluation",
+  "task-hierarchy": [
+    "Novel View Synthesis"
+  ],
+  "dataset-info": {
+    "link": "https://repository.tugraz.at/records/jjs3x-4f133"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[HyperReel: High-Fidelity 6-DoF Video with Ray-Conditioned Sampling](https://arxiv.org/abs/2301.02238v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/hyperreel)",
+        "n": "HyperReel",
+        "d": "2023-01-05",
+        "m1": "35.1"
+      },
+      {
+        "p": "[HyperReel: High-Fidelity 6-DoF Video with Ray-Conditioned Sampling](https://arxiv.org/abs/2301.02238v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/hyperreel)",
+        "n": "Instant NGP",
+        "d": "2023-01-05",
+        "m1": "33.1"
+      },
+      {
+        "p": "[HyperReel: High-Fidelity 6-DoF Video with Ray-Conditioned Sampling](https://arxiv.org/abs/2301.02238v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/hyperreel)",
+        "n": "NeRF",
+        "d": "2023-01-05",
+        "m1": "30.9"
+      },
+      {
+        "p": "[HyperReel: High-Fidelity 6-DoF Video with Ray-Conditioned Sampling](https://arxiv.org/abs/2301.02238v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/hyperreel)",
+        "n": "AdaNeRF",
+        "d": "2023-01-05",
+        "m1": "30.9"
+      },
+      {
+        "p": "[HyperReel: High-Fidelity 6-DoF Video with Ray-Conditioned Sampling](https://arxiv.org/abs/2301.02238v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/hyperreel)",
+        "n": "DoNeRF",
+        "d": "2023-01-05",
+        "m1": "30.8"
+      },
+      {
+        "p": "[HyperReel: High-Fidelity 6-DoF Video with Ray-Conditioned Sampling](https://arxiv.org/abs/2301.02238v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/hyperreel)",
+        "n": "TermiNeRF",
+        "d": "2023-01-05",
+        "m1": "29.8"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

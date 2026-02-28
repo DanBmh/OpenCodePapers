@@ -1,0 +1,145 @@
+{
+  "title": "hate-speech-detection-on-ethos-binary",
+  "task-hierarchy": [
+    "Hate Speech Detection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/intelligence-csd-auth-gr/Ethos-Hate-Speech-Dataset"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1-score",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Classification Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Precision",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Hate speech detection using static BERT embeddings](https://arxiv.org/abs/2106.15537v1)",
+        "c": "",
+        "n": "BiLSTM + static BE",
+        "d": "2021-06-29",
+        "m1": "0.7971",
+        "m2": "0.8015",
+        "m3": "0.8037"
+      },
+      {
+        "p": "[ETHOS: an Online Hate Speech Detection Dataset](https://arxiv.org/abs/2006.08328v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/intelligence-csd-auth-gr/Ethos-Hate-Speech-Dataset)",
+        "n": "BERT",
+        "d": "2020-06-11",
+        "m1": "0.7883",
+        "m2": "0.7664",
+        "m3": "79.17"
+      },
+      {
+        "p": "[ETHOS: an Online Hate Speech Detection Dataset](https://arxiv.org/abs/2006.08328v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/intelligence-csd-auth-gr/Ethos-Hate-Speech-Dataset)",
+        "n": "BiLSTM+Attention+FT",
+        "d": "2020-06-11",
+        "m1": "0.768",
+        "m2": "0.7734",
+        "m3": "77.76"
+      },
+      {
+        "p": "[OPT: Open Pre-trained Transformer Language Models](https://arxiv.org/abs/2205.01068v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/metaseq)",
+        "n": "OPT-175B (few-shot)",
+        "d": "2022-05-02",
+        "m1": "0.759"
+      },
+      {
+        "p": "[ETHOS: an Online Hate Speech Detection Dataset](https://arxiv.org/abs/2006.08328v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/intelligence-csd-auth-gr/Ethos-Hate-Speech-Dataset)",
+        "n": "CNN+Attention+FT+GV",
+        "d": "2020-06-11",
+        "m1": "0.7441",
+        "m2": "0.7515",
+        "m3": "74.92"
+      },
+      {
+        "p": "[OPT: Open Pre-trained Transformer Language Models](https://arxiv.org/abs/2205.01068v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/metaseq)",
+        "n": "OPT-175B (one-shot)",
+        "d": "2022-05-02",
+        "m1": "0.713"
+      },
+      {
+        "p": "[OPT: Open Pre-trained Transformer Language Models](https://arxiv.org/abs/2205.01068v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/metaseq)",
+        "n": "OPT-175B (zero-shot)",
+        "d": "2022-05-02",
+        "m1": "0.667"
+      },
+      {
+        "p": "[ETHOS: an Online Hate Speech Detection Dataset](https://arxiv.org/abs/2006.08328v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/intelligence-csd-auth-gr/Ethos-Hate-Speech-Dataset)",
+        "n": "SVM",
+        "d": "2020-06-11",
+        "m1": "0.6607",
+        "m2": "0.6643",
+        "m3": "66.47"
+      },
+      {
+        "p": "[ETHOS: an Online Hate Speech Detection Dataset](https://arxiv.org/abs/2006.08328v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/intelligence-csd-auth-gr/Ethos-Hate-Speech-Dataset)",
+        "n": "Random Forests",
+        "d": "2020-06-11",
+        "m1": "0.6441",
+        "m2": "0.6504",
+        "m3": "64.69"
+      },
+      {
+        "p": "[OPT: Open Pre-trained Transformer Language Models](https://arxiv.org/abs/2205.01068v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/metaseq)",
+        "n": "Davinci (zero-shot)",
+        "d": "2022-05-02",
+        "m1": "0.628"
+      },
+      {
+        "p": "[OPT: Open Pre-trained Transformer Language Models](https://arxiv.org/abs/2205.01068v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/metaseq)",
+        "n": "Davinci (one-shot)",
+        "d": "2022-05-02",
+        "m1": "0.616"
+      },
+      {
+        "p": "[OPT: Open Pre-trained Transformer Language Models](https://arxiv.org/abs/2205.01068v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/metaseq)",
+        "n": "Davinci (few-shot)",
+        "d": "2022-05-02",
+        "m1": "0.354"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "title": "traffic-prediction-on-pemsd7",
+  "task-hierarchy": [
+    "Traffic Prediction"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "12 steps MAE",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "12 steps MAPE",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "12 steps RMSE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Spatial-Temporal-Decoupled Masked Pre-training for Spatiotemporal Forecasting](https://arxiv.org/abs/2312.00516v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/jimmy-7664/std-mae)",
+        "n": "STD-MAE",
+        "d": "2023-12-01",
+        "m1": "18.31",
+        "m2": "7.72",
+        "m3": "31.07"
+      },
+      {
+        "p": "[STAEformer: Spatio-Temporal Adaptive Embedding Makes Vanilla Transformer SOTA for Traffic Forecasting](https://arxiv.org/abs/2308.10425v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/xdzhelheim/staeformer)",
+        "n": "STAEformer",
+        "d": "2023-08-21",
+        "m1": "19.14",
+        "m2": "8.01",
+        "m3": "32.60"
+      },
+      {
+        "p": "[Pattern-Matching Dynamic Memory Network for Dual-Mode Traffic Prediction](https://arxiv.org/abs/2408.07100v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/wengwenchao123/PM-DMNet)",
+        "n": "PM-DMNet(R)",
+        "d": "2024-08-12",
+        "m1": "19.18",
+        "m2": "7.95",
+        "m3": "33.15"
+      },
+      {
+        "p": "[Pattern-Matching Dynamic Memory Network for Dual-Mode Traffic Prediction](https://arxiv.org/abs/2408.07100v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/wengwenchao123/PM-DMNet)",
+        "n": "PM-DMNet(P)",
+        "d": "2024-08-12",
+        "m1": "19.35",
+        "m2": "8.05",
+        "m3": "33.33"
+      },
+      {
+        "p": "[A Decomposition Dynamic graph convolutional recurrent network for traffic forecasting](https://www.sciencedirect.com/science/article/abs/pii/S0031320323003710)",
+        "c": "[&check;&nbsp;Link](https://github.com/wengwenchao123/DDGCRN)",
+        "n": "DDGCRN",
+        "d": "2023-05-01",
+        "m1": "19.79"
+      },
+      {
+        "p": "[PDFormer: Propagation Delay-Aware Dynamic Long-Range Transformer for Traffic Flow Prediction](https://arxiv.org/abs/2301.07945v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/BUAABIGSCity/PDFormer)",
+        "n": "PDFormer",
+        "d": "2023-01-19",
+        "m1": "19.832"
+      },
+      {
+        "p": "[Graph Neural Rough Differential Equations for Traffic Forecasting](https://arxiv.org/abs/2303.10909v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/jeongwhanchoi/STG-NCDE)",
+        "n": "STG-NRDE",
+        "d": "2023-03-20",
+        "m1": "20.45",
+        "m2": "8.65",
+        "m3": "33.73"
+      },
+      {
+        "p": "[Graph Neural Controlled Differential Equations for Traffic Forecasting](https://arxiv.org/abs/2112.03558v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jeongwhanchoi/STG-NCDE)",
+        "n": "STG-NCDE",
+        "d": "2021-12-07",
+        "m1": "20.53",
+        "m2": "8.8",
+        "m3": "33.84"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

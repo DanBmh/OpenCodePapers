@@ -1,0 +1,202 @@
+{
+  "title": "image-generation-on-celeba-hq-256x256",
+  "task-hierarchy": [
+    "Image Generation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/tkarras/progressive_growing_of_gans"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "FID",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "bits/dimension",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Recall",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "NFE",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Precision",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "clean-FID",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Relay Diffusion: Unifying diffusion process across resolutions for image synthesis](https://arxiv.org/abs/2309.03350v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/THUDM/RelayDiffusion)",
+        "n": "RDM",
+        "d": "2023-09-04",
+        "m1": "3.15",
+        "m3": "0.55",
+        "m5": "0.77"
+      },
+      {
+        "p": "[StyleSwin: Transformer-based GAN for High-resolution Image Generation](https://arxiv.org/abs/2112.10762v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/microsoft/StyleSwin)",
+        "n": "StyleSwin",
+        "d": "2021-12-20",
+        "m1": "3.25"
+      },
+      {
+        "p": "[High-Resolution Image Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2112.10752v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/compvis/stable-diffusion)",
+        "n": "LDM-4",
+        "d": "2021-12-20",
+        "m1": "5.11"
+      },
+      {
+        "p": "[Flow Matching in Latent Space](https://arxiv.org/abs/2307.08698v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/vinairesearch/lfm)",
+        "n": "LFM",
+        "d": "2023-07-17",
+        "m1": "5.26"
+      },
+      {
+        "p": "[A High-Quality Robust Diffusion Framework for Corrupted Dataset](https://arxiv.org/abs/2311.17101v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/VinAIResearch/RDUOT)",
+        "n": "RDUOT",
+        "d": "2023-11-28",
+        "m1": "5.6",
+        "m3": "0.38"
+      },
+      {
+        "p": "[Wavelet Diffusion Models are fast and scalable Image Generators](https://arxiv.org/abs/2211.16152v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/vinairesearch/wavediff)",
+        "n": "WaveDiff",
+        "d": "2022-11-29",
+        "m1": "5.94",
+        "m3": "0.37",
+        "m4": "2"
+      },
+      {
+        "p": "[Soft Truncation: A Universal Training Technique of Score-based Diffusion Model for High Precision Score Estimation](https://arxiv.org/abs/2106.05527v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/Kim-Dongjun/Soft-Truncation)",
+        "n": "UNCSN++ (RVE) + ST",
+        "d": "2021-06-10",
+        "m1": "7.16"
+      },
+      {
+        "p": "[Score-based Generative Modeling in Latent Space](https://arxiv.org/abs/2106.05931v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/NVlabs/LSGM)",
+        "n": "LSGM",
+        "d": "2021-06-10",
+        "m1": "7.22"
+      },
+      {
+        "p": "[Tackling the Generative Learning Trilemma with Denoising Diffusion GANs](https://arxiv.org/abs/2112.07804v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/NVlabs/denoising-diffusion-gan)",
+        "n": "DDGAN",
+        "d": "2021-12-15",
+        "m1": "7.64"
+      },
+      {
+        "p": "[DDMI: Domain-Agnostic Latent Diffusion Models for Synthesizing High-Quality Implicit Neural Representations](https://arxiv.org/abs/2401.12517v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/mlvlab/DDMI)",
+        "n": "DDMI",
+        "d": "2024-01-23",
+        "m1": "8.73"
+      },
+      {
+        "p": "[Learning Latent Space Hierarchical EBM Diffusion Models](https://arxiv.org/abs/2405.13910v2)",
+        "c": "",
+        "n": "Diffusion-JEBM",
+        "d": "2024-05-22",
+        "m1": "8.78"
+      },
+      {
+        "p": "[Learning Joint Latent Space EBM Prior Model for Multi-layer Generator](https://arxiv.org/abs/2306.06323v2)",
+        "c": "",
+        "n": "Joint-EBM",
+        "d": "2023-06-10",
+        "m1": "9.89"
+      },
+      {
+        "p": "[Taming Transformers for High-Resolution Image Synthesis](https://arxiv.org/abs/2012.09841v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/CompVis/taming-transformers)",
+        "n": "VQGAN+Transformer",
+        "d": "2020-12-17",
+        "m1": "10.2"
+      },
+      {
+        "p": "[Dual Contradistinctive Generative Autoencoder](https://arxiv.org/abs/2011.10063v1)",
+        "c": "",
+        "n": "DC-VAE",
+        "d": "2020-11-19",
+        "m1": "15.81"
+      },
+      {
+        "p": "[Learning Energy-based Model via Dual-MCMC Teaching](https://arxiv.org/abs/2312.02469v1)",
+        "c": "",
+        "n": "Dual-MCMC EBM",
+        "d": "2023-12-05",
+        "m1": "15.89"
+      },
+      {
+        "p": "[VAEBM: A Symbiosis between Variational Autoencoders and Energy-based Models](https://arxiv.org/abs/2010.00654v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/NVlabs/VAEBM)",
+        "n": "VAEBM",
+        "d": "2020-10-01",
+        "m1": "20.38"
+      },
+      {
+        "p": "[Glow: Generative Flow with Invertible 1x1 Convolutions](http://arxiv.org/abs/1807.03039v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/openai/glow)",
+        "n": "GLOW",
+        "d": "2018-07-09",
+        "m1": "68.93"
+      },
+      {
+        "p": "[How to train your neural ODE: the world of Jacobian and kinetic regularization](https://arxiv.org/abs/2002.02798v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/cfinlay/ffjord-rnode)",
+        "n": "RNODE",
+        "d": "2020-02-07",
+        "m2": "1.04"
+      },
+      {
+        "p": "[Bellman Optimal Stepsize Straightening of Flow-Matching Models](https://arxiv.org/abs/2312.16414v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/nguyenngocbaocmt02/boss)",
+        "n": "BOSS",
+        "d": "2023-12-27",
+        "m6": "20.13"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

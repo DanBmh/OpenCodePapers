@@ -1,0 +1,120 @@
+{
+  "title": "recommendation-systems-on-redial",
+  "task-hierarchy": [
+    "Recommendation Systems"
+  ],
+  "dataset-info": {
+    "link": "https://redialdata.github.io/website/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Recall@1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Recall@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Recall@50",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Knowledge Graphs and Pre-trained Language Models enhanced Representation Learning for Conversational Recommender Systems](https://arxiv.org/abs/2312.10967v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/icedpanda/KERL)",
+        "n": "KERL",
+        "d": "2023-12-18",
+        "m1": "0.056",
+        "m2": "0.217",
+        "m3": "0.426"
+      },
+      {
+        "p": "[C2-CRS: Coarse-to-Fine Contrastive Learning for Conversational Recommender System](https://arxiv.org/abs/2201.02732v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/rucaibox/wsdm2022-c2crs)",
+        "n": "C2CRS",
+        "d": "2022-01-04",
+        "m1": "0.053",
+        "m2": "0.233",
+        "m3": "0.407"
+      },
+      {
+        "p": "[Towards Unified Conversational Recommender Systems via Knowledge-Enhanced Prompt Learning](https://arxiv.org/abs/2206.09363v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/rucaibox/unicrs)",
+        "n": "UniCRS",
+        "d": "2022-06-19",
+        "m1": "0.051",
+        "m2": "0.224",
+        "m3": "0.428"
+      },
+      {
+        "p": "[CRFR: Improving Conversational Recommender Systems via Flexible Fragments Reasoning on Knowledge Graphs](https://aclanthology.org/2021.emnlp-main.355)",
+        "c": "",
+        "n": "CRFR",
+        "d": null,
+        "m1": "0.04",
+        "m2": "0.202",
+        "m3": "0.399"
+      },
+      {
+        "p": "[CR-Walker: Tree-Structured Graph Reasoning and Dialog Acts for Conversational Recommendation](https://arxiv.org/abs/2010.10333v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/truthless11/CR-Walker)",
+        "n": "CR-Walker",
+        "d": "2020-10-20",
+        "m1": "0.04",
+        "m2": "0.187",
+        "m3": "0.376"
+      },
+      {
+        "p": "[Improving Conversational Recommender Systems via Knowledge Graph based Semantic Fusion](https://arxiv.org/abs/2007.04032v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Lancelot39/KGSF)",
+        "n": "KGSF",
+        "d": "2020-07-08",
+        "m1": "0.039",
+        "m2": "0.183",
+        "m3": "0.378"
+      },
+      {
+        "p": "[Towards Knowledge-Based Recommender Dialog System](https://arxiv.org/abs/1908.05391v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/THUDM/KBRD)",
+        "n": "KBRD",
+        "d": "2019-08-15",
+        "m1": "0.03",
+        "m2": "0.163",
+        "m3": "0.338"
+      },
+      {
+        "p": "[User-Centric Conversational Recommendation with Multi-Aspect User Modeling](https://arxiv.org/abs/2204.09263v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/lisk123/uccr)",
+        "n": "UCCR",
+        "d": "2022-04-20",
+        "m2": "0.2161",
+        "m3": "0.4258"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

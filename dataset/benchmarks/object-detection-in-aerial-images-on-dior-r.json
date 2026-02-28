@@ -1,0 +1,100 @@
+{
+  "title": "object-detection-in-aerial-images-on-dior-r",
+  "task-hierarchy": [
+    "Object Detection",
+    "Object Detection In Aerial Images"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[MTP: Advancing Remote Sensing Foundation Model via Multi-Task Pretraining](https://arxiv.org/abs/2403.13430v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/vitae-transformer/mtp)",
+        "n": "MAE+MTP(ViT-L+RVSA)",
+        "d": "2024-03-20",
+        "m1": "74.54"
+      },
+      {
+        "p": "[A Billion-scale Foundation Model for Remote Sensing Images](https://arxiv.org/abs/2304.05215v4)",
+        "c": "",
+        "n": "ViT-G12X4",
+        "d": "2023-04-11",
+        "m1": "73.60"
+      },
+      {
+        "p": "[MTP: Advancing Remote Sensing Foundation Model via Multi-Task Pretraining](https://arxiv.org/abs/2403.13430v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/vitae-transformer/mtp)",
+        "n": "IMP+MTP(InternImage-XL)",
+        "d": "2024-03-20",
+        "m1": "72.17"
+      },
+      {
+        "p": "[MTP: Advancing Remote Sensing Foundation Model via Multi-Task Pretraining](https://arxiv.org/abs/2403.13430v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/vitae-transformer/mtp)",
+        "n": "MAE+MTP(ViT-B+RVSA)",
+        "d": "2024-03-20",
+        "m1": "71.29"
+      },
+      {
+        "p": "[Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model](https://arxiv.org/abs/2208.03987v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/vitae-transformer/vitae-transformer-remote-sensing)",
+        "n": "ViTAE-B + RVSA-ORCN",
+        "d": "2022-08-08",
+        "m1": "71.05"
+      },
+      {
+        "p": "[Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model](https://arxiv.org/abs/2208.03987v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/vitae-transformer/vitae-transformer-remote-sensing)",
+        "n": "ViT-B + RVSA-ORCN",
+        "d": "2022-08-08",
+        "m1": "70.85"
+      },
+      {
+        "p": "[LWGANet: A Lightweight Group Attention Backbone for Remote Sensing Visual Tasks](https://arxiv.org/abs/2501.10040v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/lwcver/lwganet)",
+        "n": "LWGANet L2",
+        "d": "2025-01-17",
+        "m1": "68.53"
+      },
+      {
+        "p": "[LEGNet: Lightweight Edge-Gaussian Driven Network for Low-Quality Remote Sensing Image Object Detection](https://arxiv.org/abs/2503.14012v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/lwcver/legnet)",
+        "n": "LEGNet-S",
+        "d": "2025-03-18",
+        "m1": "68.40"
+      },
+      {
+        "p": "[DecoupleNet: A Lightweight Backbone Network With Efficient Feature Decoupling for Remote Sensing Visual Tasks](https://ieeexplore.ieee.org/document/10685518)",
+        "c": "[&check;&nbsp;Link](https://github.com/lwCVer/DecoupleNet)",
+        "n": "DecoupleNet D2",
+        "d": "2024-09-23",
+        "m1": "67.08"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

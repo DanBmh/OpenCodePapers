@@ -1,0 +1,96 @@
+{
+  "title": "click-through-rate-prediction-on-ipinyou",
+  "task-hierarchy": [
+    "Click-Through Rate Prediction"
+  ],
+  "dataset-info": {
+    "link": "https://contest.ipinyou.com/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "LogLoss",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Product-based Neural Networks for User Response Prediction](http://arxiv.org/abs/1611.00144v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/shenweichen/DeepCTR)",
+        "n": "OPNN",
+        "d": "2016-11-01",
+        "m1": "0.8174"
+      },
+      {
+        "p": "[Product-based Neural Networks for User Response Prediction](http://arxiv.org/abs/1611.00144v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/shenweichen/DeepCTR)",
+        "n": "IPNN",
+        "d": "2016-11-01",
+        "m1": "0.7914"
+      },
+      {
+        "p": "[FCN: Fusing Exponential and Linear Cross Network for Click-Through Rate Prediction](https://arxiv.org/abs/2407.13349v7)",
+        "c": "[&check;&nbsp;Link](https://github.com/reczoo/FuxiCTR)",
+        "n": "FCN",
+        "d": "2024-07-18",
+        "m1": "0.7856",
+        "m2": "0.005535"
+      },
+      {
+        "p": "[Memorize, Factorize, or be Naïve: Learning Optimal Feature Interaction Methods for CTR Prediction](https://arxiv.org/abs/2108.01265v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/fuyuanlyu/OptInter)",
+        "n": "OptInter",
+        "d": "2021-08-03",
+        "m1": "0.7825",
+        "m2": "0.005604"
+      },
+      {
+        "p": "[Memorize, Factorize, or be Naïve: Learning Optimal Feature Interaction Methods for CTR Prediction](https://arxiv.org/abs/2108.01265v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/fuyuanlyu/OptInter)",
+        "n": "OptInter-M",
+        "d": "2021-08-03",
+        "m1": "0.7800",
+        "m2": "0.00564"
+      },
+      {
+        "p": "[Product-based Neural Networks for User Response Prediction](http://arxiv.org/abs/1611.00144v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/shenweichen/DeepCTR)",
+        "n": "PNN*",
+        "d": "2016-11-01",
+        "m1": "0.7661"
+      },
+      {
+        "p": "[Deep Learning over Multi-field Categorical Data: A Case Study on User Response Prediction](http://arxiv.org/abs/1601.02376v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/shenweichen/DeepCTR)",
+        "n": "FNN",
+        "d": "2016-01-11",
+        "m1": "0.7619"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

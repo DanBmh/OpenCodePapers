@@ -1,0 +1,98 @@
+{
+  "title": "speech-emotion-recognition-on-ravdess",
+  "task-hierarchy": [
+    "Speech Emotion Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://zenodo.org/record/1188976#.YFZuJ0j7SL8"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "F1 Score",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Precision",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Recall",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[A vector quantized masked autoencoder for speech emotion recognition](https://arxiv.org/abs/2304.11117v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/samsad35/VQ-MAE-S-code)",
+        "n": "VQ-MAE-S-12 (Frame) + Query2Emo",
+        "d": "2023-04-21",
+        "m1": "84.1",
+        "m5": "0.844"
+      },
+      {
+        "p": "[Shallow over Deep Neural Networks: A empirical analysis for human emotion classification using audio data](https://link.springer.com/chapter/10.1007/978-3-030-76736-5_13)",
+        "c": "",
+        "n": "CNN-X  (Shallow CNN)",
+        "d": "2020-07-03",
+        "m1": "82.99%",
+        "m2": "0.82",
+        "m3": "0.82",
+        "m4": "0.82"
+      },
+      {
+        "p": "[A proposal for Multimodal Emotion Recognition using aural transformers and Action Units on RAVDESS dataset](https://www.mdpi.com/2076-3417/12/1/327)",
+        "c": "[&check;&nbsp;Link](https://github.com/cristinalunaj/MMEmotionRecognition)",
+        "n": "xlsr-Wav2Vec2.0(FineTuning)",
+        "d": "2021-12-30",
+        "m1": "81.82%"
+      },
+      {
+        "p": "[Multimodal Emotion Recognition on RAVDESS Dataset Using Transfer Learning](https://www.mdpi.com/1424-8220/21/22/7665/htm)",
+        "c": "",
+        "n": "CNN-14 (Fine-Tuning)",
+        "d": "2021-11-18",
+        "m1": "76.58%"
+      },
+      {
+        "p": "[Multimodal Emotion Recognition on RAVDESS Dataset Using Transfer Learning](https://www.mdpi.com/1424-8220/21/22/7665/htm)",
+        "c": "",
+        "n": "AlexNet (FineTuning)",
+        "d": "2021-11-18",
+        "m1": "61.67%"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

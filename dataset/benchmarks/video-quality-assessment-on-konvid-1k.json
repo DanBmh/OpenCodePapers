@@ -1,0 +1,188 @@
+{
+  "title": "video-quality-assessment-on-konvid-1k",
+  "task-hierarchy": [
+    "Video",
+    "Video Understanding",
+    "Video Quality Assessment"
+  ],
+  "dataset-info": {
+    "link": "http://database.mmsp-kn.de/konvid-1k-database.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PLCC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Exploring Video Quality Assessment on User Generated Contents from Aesthetic and Technical Perspectives](https://arxiv.org/abs/2211.04894v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/vqassessment/dover)",
+        "n": "DOVER (end-to-end)",
+        "d": "2022-11-09",
+        "m1": "0.905"
+      },
+      {
+        "p": "[Neighbourhood Representative Sampling for Efficient End-to-end Video Quality Assessment](https://arxiv.org/abs/2210.05357v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/timothyhtimothy/fast-vqa)",
+        "n": "FasterVQA (fine-tuned)",
+        "d": "2022-10-11",
+        "m1": "0.898"
+      },
+      {
+        "p": "[Exploring Video Quality Assessment on User Generated Contents from Aesthetic and Technical Perspectives](https://arxiv.org/abs/2211.04894v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/vqassessment/dover)",
+        "n": "DOVER (head-only)",
+        "d": "2022-11-09",
+        "m1": "0.894"
+      },
+      {
+        "p": "[FAST-VQA: Efficient End-to-end Video Quality Assessment with Fragment Sampling](https://arxiv.org/abs/2207.02595v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/VQAssessment/FAST-VQA-and-FasterVQA)",
+        "n": "FAST-VQA (finetuned on KonViD-1k)",
+        "d": "2022-07-06",
+        "m1": "0.892"
+      },
+      {
+        "p": "[ReLaX-VQA: Residual Fragment and Layer Stack Extraction for Enhancing Video Quality Assessment](https://arxiv.org/abs/2407.11496v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/xinyiw915/relax-vqa)",
+        "n": "ReLaX-VQA (finetuned on KoNViD-1k)",
+        "d": "2024-07-16",
+        "m1": "0.8668"
+      },
+      {
+        "p": "[A Deep Learning based No-reference Quality Assessment Model for UGC Videos](https://arxiv.org/abs/2204.14047v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/sunwei925/SimpleVQA)",
+        "n": "SimpleVQA",
+        "d": "2022-04-29",
+        "m1": "0.860"
+      },
+      {
+        "p": "[DisCoVQA: Temporal Distortion-Content Transformers for Video Quality Assessment](https://arxiv.org/abs/2206.09853v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/QualityAssessment/DisCoVQA)",
+        "n": "DisCoVQA",
+        "d": "2022-06-20",
+        "m1": "0.860"
+      },
+      {
+        "p": "[HVS Revisited: A Comprehensive Video Quality Assessment Framework](https://arxiv.org/abs/2210.04158v1)",
+        "c": "",
+        "n": "HVS-5M",
+        "d": "2022-10-09",
+        "m1": "0.8562"
+      },
+      {
+        "p": "[FAST-VQA: Efficient End-to-end Video Quality Assessment with Fragment Sampling](https://arxiv.org/abs/2207.02595v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/VQAssessment/FAST-VQA-and-FasterVQA)",
+        "n": "FAST-VQA (trained on LSVQ only)",
+        "d": "2022-07-06",
+        "m1": "0.855"
+      },
+      {
+        "p": "[CONVIQT: Contrastive Video Quality Estimator](https://arxiv.org/abs/2206.14713v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/pavancm/conviqt)",
+        "n": "CONVIQT",
+        "d": "2022-06-29",
+        "m1": "0.849"
+      },
+      {
+        "p": "[ReLaX-VQA: Residual Fragment and Layer Stack Extraction for Enhancing Video Quality Assessment](https://arxiv.org/abs/2407.11496v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/xinyiw915/relax-vqa)",
+        "n": "ReLaX-VQA",
+        "d": "2024-07-16",
+        "m1": "0.8473"
+      },
+      {
+        "p": "[ReLaX-VQA: Residual Fragment and Layer Stack Extraction for Enhancing Video Quality Assessment](https://arxiv.org/abs/2407.11496v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/xinyiw915/relax-vqa)",
+        "n": "ReLaX-VQA (trained on LSVQ only)",
+        "d": "2024-07-16",
+        "m1": "0.8427"
+      },
+      {
+        "p": "[Image Quality Assessment using Contrastive Learning](https://arxiv.org/abs/2110.13266v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/pavancm/contrique)",
+        "n": "CONTRIQUE",
+        "d": "2021-10-25",
+        "m1": "0.842"
+      },
+      {
+        "p": "[2BiVQA: Double Bi-LSTM based Video Quality Assessment of UGC Videos](https://arxiv.org/abs/2208.14774v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/atelili/2bivqa)",
+        "n": "2BiVQA",
+        "d": "2022-08-31",
+        "m1": "0.835"
+      },
+      {
+        "p": "[Blindly Assess Quality of In-the-Wild Videos via Quality-aware Pre-training and Motion Perception](https://arxiv.org/abs/2108.08505v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/zwx8981/tcsvt-2022-bvqa)",
+        "n": "BVQA-2022",
+        "d": "2021-08-19",
+        "m1": "0.834"
+      },
+      {
+        "p": "[RAPIQUE: Rapid and Accurate Video Quality Prediction of User Generated Content](https://arxiv.org/abs/2101.10955v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/vztu/RAPIQUE)",
+        "n": "RAPIQUE",
+        "d": "2021-01-26",
+        "m1": "0.8175"
+      },
+      {
+        "p": "[UGC-VQA: Benchmarking Blind Video Quality Assessment for User Generated Content](https://arxiv.org/abs/2005.14354v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/tu184044109/VIDEVAL_release)",
+        "n": "VIDEVAL",
+        "d": "2020-05-29",
+        "m1": "0.7803"
+      },
+      {
+        "p": "[Quality Assessment of In-the-Wild Videos](https://arxiv.org/abs/1908.00375v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/lidq92/VSFA)",
+        "n": "VSFA",
+        "d": "2019-08-01",
+        "m1": "0.7754"
+      },
+      {
+        "p": "[Patch-VQ: 'Patching Up' the Video Quality Problem](https://arxiv.org/abs/2011.13544v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/baidut/PatchVQ)",
+        "n": "PVQ",
+        "d": "2020-11-27",
+        "m1": "0.770 "
+      },
+      {
+        "p": "[Two-Level Approach for No-Reference Consumer Video Quality Assessment](https://ieeexplore.ieee.org/abstract/document/8742797)",
+        "c": "[&check;&nbsp;Link](https://github.com/jarikorhonen/nr-vqa-consumervideo)",
+        "n": "TLVQM",
+        "d": "2019-06-20",
+        "m1": "0.7688"
+      },
+      {
+        "p": "[ChipQA: No-Reference Video Quality Prediction via Space-Time Chips](https://arxiv.org/abs/2109.08726v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/JoshuaEbenezer/ChipQA)",
+        "n": "ChipQA",
+        "d": "2021-09-17",
+        "m1": "0.7625"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

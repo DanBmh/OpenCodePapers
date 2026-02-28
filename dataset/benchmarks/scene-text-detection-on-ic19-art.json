@@ -1,0 +1,64 @@
+{
+  "title": "scene-text-detection-on-ic19-art",
+  "task-hierarchy": [
+    "Scene Text Detection"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "H-Mean",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[MixNet: Toward Accurate Detection of Challenging Scene Text in the Wild](https://arxiv.org/abs/2308.12817v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/D641593/MixNet)",
+        "n": "MixNet",
+        "d": "2023-08-23",
+        "m1": "79.7"
+      },
+      {
+        "p": "[SRFormer: Text Detection Transformer with Incorporated Segmentation and Regression](https://arxiv.org/abs/2308.10531v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/opendrivelab/elm)",
+        "n": "SRFormer (ResNet-50)",
+        "d": "2023-08-21",
+        "m1": "79.3"
+      },
+      {
+        "p": "[TextFuseNet: Scene Text Detection with Richer Fused Features](https://doi.org/10.24963/ijcai.2020/72)",
+        "c": "[&check;&nbsp;Link](https://github.com/ying09/TextFuseNet)",
+        "n": "TextFuseNet (ResNeXt-101)",
+        "d": "2020-05-17",
+        "m1": "78.6"
+      },
+      {
+        "p": "[DPText-DETR: Towards Better Scene Text Detection with Dynamic Points in Transformer](https://arxiv.org/abs/2207.04491v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/ymy-k/dptext-detr)",
+        "n": "DPText-DETR (ResNet-50)",
+        "d": "2022-07-10",
+        "m1": "78.1"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

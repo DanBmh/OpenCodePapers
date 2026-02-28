@@ -1,0 +1,83 @@
+{
+  "title": "3d-object-detection-from-stereo-images-on-2",
+  "task-hierarchy": [
+    "Object Detection",
+    "3D Object Detection",
+    "3D Object Detection From Stereo Images"
+  ],
+  "dataset-info": {
+    "link": "http://www.cvlibs.net/datasets/kitti/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AP50",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[DSGN++: Exploiting Visual-Spatial Relation for Stereo-based 3D Detectors](https://arxiv.org/abs/2204.03039v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/chenyilun95/dsgn2)",
+        "n": "DSGN++",
+        "d": "2022-04-06",
+        "m1": "32.74"
+      },
+      {
+        "p": "[LIGA-Stereo: Learning LiDAR Geometry Aware Representations for Stereo-based 3D Detector](https://arxiv.org/abs/2108.08258v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/xy-guo/LIGA-Stereo)",
+        "n": "LIGA-Stereo",
+        "d": "2021-08-18",
+        "m1": "30.00"
+      },
+      {
+        "p": "[Disp R-CNN: Stereo 3D Object Detection via Shape Prior Guided Instance Disparity Estimation](https://arxiv.org/abs/2004.03572v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/zju3dv/disprcnn)",
+        "n": "Disp R-CNN",
+        "d": "2020-04-07",
+        "m1": "25.80"
+      },
+      {
+        "p": "[Confidence Guided Stereo 3D Object Detection with Split Depth Estimation](https://arxiv.org/abs/2003.05505v1)",
+        "c": "",
+        "n": "CG-Stereo",
+        "d": "2020-03-11",
+        "m1": "24.31"
+      },
+      {
+        "p": "[YOLOStereo3D: A Step Back to 2D for Efficient Stereo 3D Detection](https://arxiv.org/abs/2103.09422v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Owen-Liuyuxuan/visualDet3D)",
+        "n": "YoLoStereo3D",
+        "d": "2021-03-17",
+        "m1": "19.75"
+      },
+      {
+        "p": "[DSGN: Deep Stereo Geometry Network for 3D Object Detection](https://arxiv.org/abs/2001.03398v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/chenyilun95/DSGN)",
+        "n": "DSGN",
+        "d": "2020-01-10",
+        "m1": "15.55"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

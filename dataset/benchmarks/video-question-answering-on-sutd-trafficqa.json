@@ -1,0 +1,90 @@
+{
+  "title": "video-question-answering-on-sutd-trafficqa",
+  "task-hierarchy": [
+    "Video Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://sutdcv.github.io/SUTD-TrafficQA"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "1/4",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "1/2",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "CFMMC-Align",
+        "d": null,
+        "m1": "50.2"
+      },
+      {
+        "p": "[Tem-adapter: Adapting Image-Text Pretraining for Video Question Answer](https://arxiv.org/abs/2308.08414v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/xliu443/tem-adapter)",
+        "n": "Tem-adapter",
+        "d": "2023-08-16",
+        "m1": "46.0"
+      },
+      {
+        "p": "[SUTD-TrafficQA: A Question Answering Benchmark and an Efficient Network for Video Reasoning over Traffic Events](https://arxiv.org/abs/2103.15538v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/SUTDCV/SUTD-TrafficQA)",
+        "n": "Eclipse",
+        "d": "2021-03-29",
+        "m1": "37.05",
+        "m2": "64.77"
+      },
+      {
+        "p": "[Hierarchical Conditional Relation Networks for Video Question Answering](https://arxiv.org/abs/2002.10698v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/thaolmk54/hcrn-videoqa)",
+        "n": "HCRN",
+        "d": "2020-02-25",
+        "m1": "36.49",
+        "m2": "63.79"
+      },
+      {
+        "p": "[TVQA: Localized, Compositional Video Question Answering](https://arxiv.org/abs/1809.01696v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/jayleicn/TVQA)",
+        "n": "TVQA",
+        "d": "2018-09-05",
+        "m1": "35.16",
+        "m2": "63.15"
+      },
+      {
+        "p": "[Exploring Models and Data for Image Question Answering](http://arxiv.org/abs/1505.02074v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/renmengye/imageqa-public)",
+        "n": "VIS+LST",
+        "d": "2015-05-08",
+        "m1": "29.91",
+        "m2": "54.25"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

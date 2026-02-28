@@ -1,0 +1,103 @@
+{
+  "title": "time-series-forecasting-on-electricity-720",
+  "task-hierarchy": [
+    "Time Series Analysis",
+    "Time Series Forecasting"
+  ],
+  "dataset-info": {
+    "link": "https://archive.ics.uci.edu/dataset/321/electricityloaddiagrams20112014"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MSE",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "MAE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Mixture-of-Linear-Experts for Long-term Time Series Forecasting](https://arxiv.org/abs/2312.06786v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/rogerni/mole)",
+        "n": "MoLE-RMLP",
+        "d": "2023-12-11",
+        "m1": "0.178"
+      },
+      {
+        "p": "[Mixture-of-Linear-Experts for Long-term Time Series Forecasting](https://arxiv.org/abs/2312.06786v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/rogerni/mole)",
+        "n": "MoLE-DLinear",
+        "d": "2023-12-11",
+        "m1": "0.18"
+      },
+      {
+        "p": "[PRformer: Pyramidal Recurrent Transformer for Multivariate Time Series Forecasting](https://arxiv.org/abs/2408.10483v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/usualheart/prformer)",
+        "n": "PRformer",
+        "d": "2024-08-20",
+        "m1": "0.185"
+      },
+      {
+        "p": "[xPatch: Dual-Stream Time Series Forecasting with Exponential Seasonal-Trend Decomposition](https://arxiv.org/abs/2412.17323v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/stitsyuk/xpatch)",
+        "n": "xPatch",
+        "d": "2024-12-23",
+        "m1": "0.190",
+        "m2": "0.281"
+      },
+      {
+        "p": "[A Time Series is Worth 64 Words: Long-term Forecasting with Transformers](https://arxiv.org/abs/2211.14730v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/timeseriesAI/tsai)",
+        "n": "PatchTST/64",
+        "d": "2022-11-27",
+        "m1": "0.197"
+      },
+      {
+        "p": "[Disentangled Interpretable Representation for Efficient Long-term Time Series Forecasting](https://arxiv.org/abs/2411.17257v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/wintertee/dipe-linear)",
+        "n": "DiPE-Linear",
+        "d": "2024-11-26",
+        "m1": "0.198"
+      },
+      {
+        "p": "[Are Transformers Effective for Time Series Forecasting?](https://arxiv.org/abs/2205.13504v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/cure-lab/DLinear)",
+        "n": "DLinear",
+        "d": "2022-05-26",
+        "m1": "0.203"
+      },
+      {
+        "p": "[Time Evidence Fusion Network: Multi-source View in Long-Term Time Series Forecasting](https://arxiv.org/abs/2405.06419v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/WenjieDu/PyPOTS)",
+        "n": "TEFN",
+        "d": "2024-05-10",
+        "m1": "0.253",
+        "m2": "0.325"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

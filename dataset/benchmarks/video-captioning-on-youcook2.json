@@ -1,0 +1,199 @@
+{
+  "title": "video-captioning-on-youcook2",
+  "task-hierarchy": [
+    "Video Captioning"
+  ],
+  "dataset-info": {
+    "link": "http://youcook2.eecs.umich.edu/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "BLEU-4",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "BLEU-3",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "CIDEr",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "ROUGE-L",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "METEOR",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[VAST: A Vision-Audio-Subtitle-Text Omni-Modality Foundation Model and Dataset](https://arxiv.org/abs/2305.18500v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/TXH-mercury/VALOR)",
+        "n": "VAST",
+        "d": "2023-05-29",
+        "m1": "18.2",
+        "m3": "1.99"
+      },
+      {
+        "p": "[MELTR: Meta Loss Transformer for Learning to Fine-tune Video Foundation Models](https://arxiv.org/abs/2303.13009v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/mlvlab/MELTR)",
+        "n": "UniVL + MELTR",
+        "d": "2023-03-23",
+        "m1": "17.92",
+        "m2": "24.12",
+        "m3": "1.90",
+        "m4": "47.04",
+        "m5": "22.56"
+      },
+      {
+        "p": "[UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation](https://arxiv.org/abs/2002.06353v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/microsoft/UniVL)",
+        "n": "UniVL",
+        "d": "2020-02-15",
+        "m1": "17.35",
+        "m2": "23.87",
+        "m3": "1.81",
+        "m4": "46.52",
+        "m5": "22.35"
+      },
+      {
+        "p": "[VideoCoCa: Video-Text Modeling with Zero-Shot Transfer from Contrastive Captioners](https://arxiv.org/abs/2212.04979v3)",
+        "c": "",
+        "n": "VideoCoCa",
+        "d": "2022-12-09",
+        "m1": "14.2",
+        "m3": "1.28",
+        "m4": "37.7"
+      },
+      {
+        "p": "[VLM: Task-agnostic Video-Language Model Pre-training for Video Understanding](https://arxiv.org/abs/2105.09996v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/pytorch/fairseq)",
+        "n": "VLM",
+        "d": "2021-05-20",
+        "m1": "12.27",
+        "m2": "17.78",
+        "m3": "1.3869",
+        "m4": "41.51",
+        "m5": "18.22"
+      },
+      {
+        "p": "[Multimodal Pretraining for Dense Video Captioning](https://arxiv.org/abs/2011.11760v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research-datasets/Video-Timeline-Tags-ViTT)",
+        "n": "E2vidD6-MASSvid-BiD",
+        "d": "2020-11-10",
+        "m1": "12.04",
+        "m3": "1.22",
+        "m4": "39.03",
+        "m5": "18.32"
+      },
+      {
+        "p": "[Text with Knowledge Graph Augmented Transformer for Video Captioning](https://arxiv.org/abs/2303.12423v2)",
+        "c": "",
+        "n": "TextKG",
+        "d": "2023-03-22",
+        "m1": "11.7",
+        "m3": "1.33",
+        "m4": "40.2",
+        "m5": "14.8"
+      },
+      {
+        "p": "[COOT: Cooperative Hierarchical Transformer for Video-Text Representation Learning](https://arxiv.org/abs/2011.00597v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/gingsi/coot-videotext)",
+        "n": "COOT",
+        "d": "2020-11-01",
+        "m1": "11.30",
+        "m2": "17.97",
+        "m3": "0.57",
+        "m4": "37.94",
+        "m5": "19.85"
+      },
+      {
+        "p": "[COSA: Concatenated Sample Pretrained Vision-Language Foundation Model](https://arxiv.org/abs/2306.09085v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/txh-mercury/cosa)",
+        "n": "COSA",
+        "d": "2023-06-15",
+        "m1": "10.1",
+        "m3": "1.31"
+      },
+      {
+        "p": "[HowToCaption: Prompting LLMs to Transform Video Annotations at Scale](https://arxiv.org/abs/2310.04900v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/ninatu/howtocaption)",
+        "n": "HowToCaption",
+        "d": "2023-10-07",
+        "m1": "8.8",
+        "m3": "116.4",
+        "m4": "37.3",
+        "m5": "15.9"
+      },
+      {
+        "p": "[OmniVL:One Foundation Model for Image-Language and Video-Language Tasks](https://arxiv.org/abs/2209.07526v2)",
+        "c": "",
+        "n": "OmniVL",
+        "d": "2022-09-15",
+        "m1": "8.72",
+        "m2": "12.87",
+        "m3": "1.16",
+        "m4": "36.09",
+        "m5": "14.83"
+      },
+      {
+        "p": "[End-to-End Dense Video Captioning with Masked Transformer](http://arxiv.org/abs/1804.00819v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/salesforce/densecap)",
+        "n": "Zhou",
+        "d": "2018-04-03",
+        "m1": "4.38",
+        "m2": "7.53",
+        "m3": "0.38",
+        "m4": "27.44",
+        "m5": "11.55"
+      },
+      {
+        "p": "[VideoBERT: A Joint Model for Video and Language Representation Learning](https://arxiv.org/abs/1904.01766v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/ammesatyajit/VideoBERT)",
+        "n": "VideoBERT + S3D",
+        "d": "2019-04-03",
+        "m1": "4.33",
+        "m2": "7.59",
+        "m3": "0.55",
+        "m4": "28.80",
+        "m5": "11.94"
+      },
+      {
+        "p": "[MA-LMM: Memory-Augmented Large Multimodal Model for Long-Term Video Understanding](https://arxiv.org/abs/2404.05726v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/boheumd/MA-LMM)",
+        "n": "MA-LMM",
+        "d": "2024-04-08",
+        "m3": "1.31",
+        "m5": "17.6"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

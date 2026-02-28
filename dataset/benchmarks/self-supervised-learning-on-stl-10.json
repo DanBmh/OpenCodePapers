@@ -1,0 +1,60 @@
+{
+  "title": "self-supervised-learning-on-stl-10",
+  "task-hierarchy": [
+    "Self-Supervised Learning"
+  ],
+  "dataset-info": {
+    "link": "https://cs.stanford.edu/~acoates/stl10/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Guarding Barlow Twins Against Overfitting with Mixed Samples](https://arxiv.org/abs/2312.02151v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/wgcban/mix-bt)",
+        "n": "ResNet50",
+        "d": "2023-12-04",
+        "m1": "91.70"
+      },
+      {
+        "p": "[Guarding Barlow Twins Against Overfitting with Mixed Samples](https://arxiv.org/abs/2312.02151v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/wgcban/mix-bt)",
+        "n": "ResNet18",
+        "d": "2023-12-04",
+        "m1": "91.02"
+      },
+      {
+        "p": "[MV-MR: multi-views and multi-representations for self-supervised learning and knowledge distillation](https://arxiv.org/abs/2303.12130v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/vkinakh/mv-mr)",
+        "n": "MV-MR",
+        "d": "2023-03-21",
+        "m1": "89.67"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "title": "image-classification-on-inaturalist",
+  "task-hierarchy": [
+    "Image Classification"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/visipedia/inat_comp/tree/master/2017"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Top 1 Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Top 5 Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Top 3 Error",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Overall",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Multimodal Autoregressive Pre-training of Large Vision Encoders](https://arxiv.org/abs/2411.14402v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/apple/ml-aim)",
+        "n": "AIMv2-3B (448 res)",
+        "d": "2024-11-21",
+        "m1": "85.9"
+      },
+      {
+        "p": "[Hiera: A Hierarchical Vision Transformer without the Bells-and-Whistles](https://arxiv.org/abs/2306.00989v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/pytorch-image-models)",
+        "n": "Hiera-H (448px)",
+        "d": "2023-06-01",
+        "m1": "83.8"
+      },
+      {
+        "p": "[Masked Autoencoders Are Scalable Vision Learners](https://arxiv.org/abs/2111.06377v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/mae)",
+        "n": "MAE (ViT-H, 448)",
+        "d": "2021-11-11",
+        "m1": "83.4"
+      },
+      {
+        "p": "[MetaFormer: A Unified Meta Framework for Fine-Grained Recognition](https://arxiv.org/abs/2203.02751v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/dqshuai/metaformer)",
+        "n": "MetaFormer\n(MetaFormer-2,384,extra_info)",
+        "d": "2022-03-05",
+        "m1": "83.4%"
+      },
+      {
+        "p": "[Multimodal Autoregressive Pre-training of Large Vision Encoders](https://arxiv.org/abs/2411.14402v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/apple/ml-aim)",
+        "n": "AIMv2-3B",
+        "d": "2024-11-21",
+        "m1": "81.5"
+      },
+      {
+        "p": "[ViT-NeT: Interpretable Vision Transformers with Neural Tree Decoder](https://proceedings.mlr.press/v162/kim22g/kim22g.pdf)",
+        "c": "[&check;&nbsp;Link](https://github.com/jumpsnack/ViT-NeT)",
+        "n": "ViT-NeT\n(SwinV2-B)",
+        "d": "2022-07-17",
+        "m1": "81.2"
+      },
+      {
+        "p": "[MetaFormer: A Unified Meta Framework for Fine-Grained Recognition](https://arxiv.org/abs/2203.02751v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/dqshuai/metaformer)",
+        "n": "MetaFormer\n(MetaFormer-2,384)",
+        "d": "2022-03-05",
+        "m1": "80.4%"
+      },
+      {
+        "p": "[Multimodal Autoregressive Pre-training of Large Vision Encoders](https://arxiv.org/abs/2411.14402v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/apple/ml-aim)",
+        "n": "AIMv2-1B",
+        "d": "2024-11-21",
+        "m1": "79.7"
+      },
+      {
+        "p": "[Multimodal Autoregressive Pre-training of Large Vision Encoders](https://arxiv.org/abs/2411.14402v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/apple/ml-aim)",
+        "n": "AIMv2-H",
+        "d": "2024-11-21",
+        "m1": "77.9"
+      },
+      {
+        "p": "[Multimodal Autoregressive Pre-training of Large Vision Encoders](https://arxiv.org/abs/2411.14402v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/apple/ml-aim)",
+        "n": "AIMv2-L",
+        "d": "2024-11-21",
+        "m1": "76"
+      },
+      {
+        "p": "[Fixing the train-test resolution discrepancy](https://arxiv.org/abs/1906.06423v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/FixRes)",
+        "n": "FixSENet-154",
+        "d": "2019-06-14",
+        "m1": "75.4"
+      },
+      {
+        "p": "[On the Eigenvalues of Global Covariance Pooling for Fine-grained Visual Recognition](https://arxiv.org/abs/2205.13282v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/KingJamesSong/DifferentiableSVD)",
+        "n": "SEB+EfficientNet-B5",
+        "d": "2022-05-26",
+        "m1": "72.3"
+      },
+      {
+        "p": "[TransFG: A Transformer Architecture for Fine-grained Recognition](https://arxiv.org/abs/2103.07976v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/TACJu/TransFG)",
+        "n": "TransFG",
+        "d": "2021-03-14",
+        "m1": "71.7"
+      },
+      {
+        "p": "[The iNaturalist Species Classification and Detection Dataset](http://arxiv.org/abs/1707.06642v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+        "n": "IncResNetV2 SE",
+        "d": "2017-07-20",
+        "m1": "67.3%",
+        "m2": "87.5%"
+      },
+      {
+        "p": "[SpineNet: Learning Scale-Permuted Backbone for Recognition and Localization](https://arxiv.org/abs/1912.05027v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/official/vision/beta/modeling/backbones)",
+        "n": "SpineNet-143",
+        "d": "2019-12-10",
+        "m1": "63.6%",
+        "m2": "84.8%"
+      },
+      {
+        "p": "[MetaSAug: Meta Semantic Augmentation for Long-Tailed Visual Recognition](https://arxiv.org/abs/2103.12579v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/BIT-DA/MetaSAug)",
+        "n": "MetaSAug",
+        "d": "2021-03-23",
+        "m1": "63.28%"
+      },
+      {
+        "p": "[Graph-RISE: Graph-Regularized Image Semantic Embedding](http://arxiv.org/abs/1902.10814v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/neural-structured-learning)",
+        "n": "Graph-RISE (40M)",
+        "d": "2019-02-14",
+        "m1": "31.12%",
+        "m2": "52.76%"
+      },
+      {
+        "p": "[Deep CNNs Meet Global Covariance Pooling: Better Representation and Generalization](https://arxiv.org/abs/1904.06836v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/jiangtaoxie/fast-MPN-COV)",
+        "n": "iSQRT-COV-Net",
+        "d": "2019-04-15",
+        "m3": "14.625"
+      },
+      {
+        "p": "[DeiT-LT Distillation Strikes Back for Vision Transformer Training on Long-Tailed Datasets](https://arxiv.org/abs/2404.02900v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/val-iisc/DeiT-LT)",
+        "n": "b_22DeiT-LT(ours)",
+        "d": "2024-04-03",
+        "m4": "75.1"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

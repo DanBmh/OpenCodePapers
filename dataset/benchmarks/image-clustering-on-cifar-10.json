@@ -1,0 +1,477 @@
+{
+  "title": "image-clustering-on-cifar-10",
+  "task-hierarchy": [
+    "Image Clustering"
+  ],
+  "dataset-info": {
+    "link": "https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "NMI",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "ARI",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Train set",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Backbone",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Let Go of Your Labels with Unsupervised Transfer](https://arxiv.org/abs/2406.07236v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/mlbio-epfl/turtle)",
+        "n": "TURTLE (CLIP + DINOv2)",
+        "d": "2024-06-11",
+        "m1": "0.995",
+        "m2": "0.985",
+        "m3": "0.989"
+      },
+      {
+        "p": "[Deep Clustering via Probabilistic Ratio-Cut Optimization](https://arxiv.org/abs/2502.03405)",
+        "c": "[&check;&nbsp;Link](https://github.com/ayghri/prcut)",
+        "n": "PRCut (CLIP)",
+        "d": "2025-02-01",
+        "m1": "0.975",
+        "m2": "0.934"
+      },
+      {
+        "p": "[Exploring a Principled Framework for Deep Subspace Clustering](https://arxiv.org/abs/2503.17288v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/mengxianghan123/PRO-DSC)",
+        "n": "PRO-DSC",
+        "d": "2025-03-21",
+        "m1": "0.972",
+        "m2": "0.928"
+      },
+      {
+        "p": "[Exploring the Limits of Deep Image Clustering using Pretrained Models](https://arxiv.org/abs/2303.17896v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/HHU-MMBS/TEMI-official-BMVC2023)",
+        "n": "TEMI CLIP ViT-L (openai)",
+        "d": "2023-03-31",
+        "m1": "0.969",
+        "m2": "0.926",
+        "m3": "0.932",
+        "m4": "Train",
+        "m5": "ViT-L"
+      },
+      {
+        "p": "[Deep Online Probability Aggregation Clustering](https://arxiv.org/abs/2407.05246v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/aomandechenai/deep-probability-aggregation-clustering)",
+        "n": "DPAC",
+        "d": "2024-07-07",
+        "m1": "0.934",
+        "m2": "0.87",
+        "m3": "0.866",
+        "m5": "ResNet-34"
+      },
+      {
+        "p": "[The Balanced-Pairwise-Affinities Feature Transform](https://arxiv.org/abs/2407.01467v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/danielshalam/bpa)",
+        "n": "SPICE-BPA",
+        "d": "2024-06-25",
+        "m1": "0.933",
+        "m2": "0.870",
+        "m3": "0.866",
+        "m5": "ResNet-18"
+      },
+      {
+        "p": "[Stable Cluster Discrimination for Deep Clustering](https://arxiv.org/abs/2311.14310v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/idstcv/secu)",
+        "n": "SeCu",
+        "d": "2023-11-24",
+        "m1": "0.93",
+        "m2": "0.861",
+        "m3": "0.857",
+        "m4": "Train",
+        "m5": "ResNet-18"
+      },
+      {
+        "p": "[Image Clustering with External Guidance](https://arxiv.org/abs/2310.11989v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/xlearning-scu/2024-icml-tac)",
+        "n": "TAC",
+        "d": "2023-10-18",
+        "m1": "0.919",
+        "m2": "0.833",
+        "m3": "0.831"
+      },
+      {
+        "p": "[SPICE: Semantic Pseudo-labeling for Image Clustering](https://arxiv.org/abs/2103.09382v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/niuchuangnn/SPICE)",
+        "n": "SPICE*",
+        "d": "2021-03-17",
+        "m1": "0.918",
+        "m2": "0.850",
+        "m3": "0.836",
+        "m4": "Train",
+        "m5": "ResNet-18"
+      },
+      {
+        "p": "[Breaking the Reclustering Barrier in Centroid-based Deep Clustering](https://arxiv.org/abs/2411.02275v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/probabilistic-and-interactive-ml/breaking-the-reclustering-barrier)",
+        "n": "DCN+BRB",
+        "d": "2024-11-04",
+        "m1": "0.912",
+        "m2": "0.837",
+        "m3": "0.824",
+        "m4": "Train",
+        "m5": "ResNet-18"
+      },
+      {
+        "p": "[Breaking the Reclustering Barrier in Centroid-based Deep Clustering](https://arxiv.org/abs/2411.02275v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/probabilistic-and-interactive-ml/breaking-the-reclustering-barrier)",
+        "n": "IDEC+BRB",
+        "d": "2024-11-04",
+        "m1": "0.907",
+        "m2": "0.833",
+        "m3": "0.818",
+        "m4": "Train",
+        "m5": "ResNet-18"
+      },
+      {
+        "p": "[Breaking the Reclustering Barrier in Centroid-based Deep Clustering](https://arxiv.org/abs/2411.02275v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/probabilistic-and-interactive-ml/breaking-the-reclustering-barrier)",
+        "n": "DEC+BRB",
+        "d": "2024-11-04",
+        "m1": "0.906",
+        "m2": "0.826",
+        "m3": "0.812",
+        "m4": "Train",
+        "m5": "ResNet-18"
+      },
+      {
+        "p": "[Improving Unsupervised Image Clustering With Robust Learning](https://arxiv.org/abs/2012.11150v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/deu30303/RUC)",
+        "n": "RUC",
+        "d": "2020-12-21",
+        "m1": "0.903",
+        "m5": "ResNet-18"
+      },
+      {
+        "p": "[Information Maximization Clustering via Multi-View Self-Labelling](https://arxiv.org/abs/2103.07368v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/foiv0s/imc-swav-pub)",
+        "n": "IMC-SwAV (Best)",
+        "d": "2021-03-12",
+        "m1": "0.897",
+        "m2": "0.818",
+        "m3": "0.8",
+        "m4": "Train",
+        "m5": "ResNet-18"
+      },
+      {
+        "p": "[Information Maximization Clustering via Multi-View Self-Labelling](https://arxiv.org/abs/2103.07368v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/foiv0s/imc-swav-pub)",
+        "n": "IMC-SwAV (Avg+-)",
+        "d": "2021-03-12",
+        "m1": "0.891",
+        "m2": "0.811",
+        "m3": "0.79",
+        "m4": "Train",
+        "m5": "ResNet-18"
+      },
+      {
+        "p": "[Twin Contrastive Learning for Online Clustering](https://arxiv.org/abs/2210.11680v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Yunfan-Li/Twin-Contrastive-Learning)",
+        "n": "TCL",
+        "d": "2022-10-21",
+        "m1": "0.887",
+        "m2": "0.819",
+        "m3": "0.780",
+        "m4": "Train",
+        "m5": "ResNet-34"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "HUME",
+        "d": null,
+        "m1": "0.884",
+        "m3": "0.776",
+        "m4": "Train",
+        "m5": "ResNet-18"
+      },
+      {
+        "p": "[SCAN: Learning to Classify Images without Labels](https://arxiv.org/abs/2005.12320v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/wvangansbeke/Unsupervised-Classification)",
+        "n": "SCAN",
+        "d": "2020-05-25",
+        "m1": "0.883",
+        "m2": "0.797",
+        "m3": "0.772",
+        "m4": "Train",
+        "m5": "ResNet-18"
+      },
+      {
+        "p": "[SCAN: Learning to Classify Images without Labels](https://arxiv.org/abs/2005.12320v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/wvangansbeke/Unsupervised-Classification)",
+        "n": "SCAN (Avg)",
+        "d": "2020-05-25",
+        "m1": "0.876",
+        "m2": "0.787",
+        "m3": "0.758",
+        "m4": "Train",
+        "m5": "ResNet-18"
+      },
+      {
+        "p": "[Unsupervised Visual Representation Learning by Online Constrained K-Means](https://arxiv.org/abs/2105.11527v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/idstcv/coke)",
+        "n": "CoKe",
+        "d": "2021-05-24",
+        "m1": "0.857",
+        "m2": "0.766",
+        "m3": "0.732",
+        "m4": "Train",
+        "m5": "ResNet-18"
+      },
+      {
+        "p": "[Dataset Summarization by K Principal Concepts](https://arxiv.org/abs/2104.03952v2)",
+        "c": "",
+        "n": "Single-Noun Prior",
+        "d": "2021-04-08",
+        "m1": "0.853",
+        "m2": "0.731",
+        "m3": "0.702",
+        "m4": "Train+Test",
+        "m5": "ViT-B-32"
+      },
+      {
+        "p": "[Representation Learning for Clustering via Building Consensus](https://arxiv.org/abs/2105.01289v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/JayanthRR/ConCURL_NCE)",
+        "n": "ConCURL",
+        "d": "2021-05-04",
+        "m1": "0.846",
+        "m2": "0.762",
+        "m3": "0.715",
+        "m4": "Train"
+      },
+      {
+        "p": "[Improving Image Clustering with Artifacts Attenuation via Inference-Time Attention Engineering](https://arxiv.org/abs/2410.04801v1)",
+        "c": "",
+        "n": "ITAE",
+        "d": "2024-10-07",
+        "m1": "0.8449",
+        "m2": "0.8682",
+        "m3": "0.7946",
+        "m4": "Test",
+        "m5": "ViT-B/14"
+      },
+      {
+        "p": "[Contrastive Hierarchical Clustering](https://arxiv.org/abs/2303.03389v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/michalznalezniak/contrastive-hierarchical-clustering)",
+        "n": "CoHiClust",
+        "d": "2023-03-03",
+        "m1": "0.839",
+        "m2": "0.779",
+        "m3": "0.731",
+        "m4": "Train",
+        "m5": "ResNet-50"
+      },
+      {
+        "p": "[C3: Cross-instance guided Contrastive Clustering](https://arxiv.org/abs/2211.07136v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/Armanfard-Lab/C3)",
+        "n": "C3",
+        "d": "2022-11-14",
+        "m1": "0.838",
+        "m2": "0.748",
+        "m3": "0.707"
+      },
+      {
+        "p": "[Multi-Modal Deep Clustering: Unsupervised Partitioning of Images](https://arxiv.org/abs/1912.02678v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/guysrn/mmdc)",
+        "n": "MMDC",
+        "d": "2019-12-05",
+        "m1": "0.820",
+        "m2": "0.703",
+        "m5": "ResNet18"
+      },
+      {
+        "p": "[Clustering-friendly Representation Learning via Instance Discrimination and Feature Decorrelation](https://arxiv.org/abs/2106.00131v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/TTN-YKK/Clustering_friendly_representation_learning)",
+        "n": "IDFD",
+        "d": "2021-05-31",
+        "m1": "0.815",
+        "m2": "0.711",
+        "m3": "0.663",
+        "m4": "Train+Test",
+        "m5": "ResNet-18"
+      },
+      {
+        "p": "[Mitigating Embedding and Class Assignment Mismatch in Unsupervised Image Classification](https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/4802_ECCV_2020_paper.php)",
+        "c": "[&check;&nbsp;Link](https://github.com/dscig/TwoStageUC)",
+        "n": "TSUC",
+        "d": null,
+        "m1": "0.81",
+        "m2": "-",
+        "m3": "-",
+        "m4": "Train",
+        "m5": "ResNet-18"
+      },
+      {
+        "p": "[Contrastive Clustering](https://arxiv.org/abs/2009.09687v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Yunfan-Li/Contrastive-Clustering)",
+        "n": "CC",
+        "d": "2020-09-21",
+        "m1": "0.79",
+        "m2": "0.705",
+        "m3": "0.637",
+        "m4": "Train+Test",
+        "m5": "ResNet34"
+      },
+      {
+        "p": "[DHOG: Deep Hierarchical Object Grouping](https://arxiv.org/abs/2003.08821v1)",
+        "c": "",
+        "n": "DHOG",
+        "d": "2020-03-13",
+        "m1": "0.666",
+        "m2": "0.585",
+        "m3": "0.492",
+        "m4": "Train+Test",
+        "m5": "ResNet-18"
+      },
+      {
+        "p": "[Deep Comprehensive Correlation Mining for Image Clustering](https://arxiv.org/abs/1904.06925v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/Cory-M/DCCM)",
+        "n": "DCCM",
+        "d": "2019-04-15",
+        "m1": "0.623",
+        "m2": "0.496",
+        "m3": "0.408",
+        "m4": "Train+Test",
+        "m5": "AlexNet"
+      },
+      {
+        "p": "[Invariant Information Clustering for Unsupervised Image Classification and Segmentation](https://arxiv.org/abs/1807.06653v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/xu-ji/IIC)",
+        "n": "IIC",
+        "d": "2018-07-17",
+        "m1": "0.617",
+        "m2": "0.511",
+        "m3": "0.411",
+        "m4": "Train+Test",
+        "m5": "ResNet-34"
+      },
+      {
+        "p": "[Deep Adaptive Image Clustering](http://openaccess.thecvf.com/content_iccv_2017/html/Chang_Deep_Adaptive_Image_ICCV_2017_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/vector-1127/DAC)",
+        "n": "DAC",
+        "d": "2017-10-01",
+        "m1": "0.522",
+        "m2": "0.4",
+        "m3": "0.301",
+        "m4": "Train+Test",
+        "m5": "ConvNet"
+      },
+      {
+        "p": "[Deep Clustering for Unsupervised Learning of Visual Features](http://arxiv.org/abs/1807.05520v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/deepcluster)",
+        "n": "DeepCluster",
+        "d": "2018-07-15",
+        "m1": "0.374",
+        "m2": "-",
+        "m3": "-",
+        "m4": "Train+Test",
+        "m5": "ResNet-34"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ADC",
+        "d": null,
+        "m1": "0.325",
+        "m2": "-",
+        "m3": "-",
+        "m4": "Train+Test",
+        "m5": "ResNet"
+      },
+      {
+        "p": "[Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](http://arxiv.org/abs/1511.06434v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/blob/master/research/slim/nets/dcgan.py)",
+        "n": "GAN",
+        "d": "2015-11-19",
+        "m1": "0.315",
+        "m2": "0.265",
+        "m3": "0.176",
+        "m4": "Train+Test",
+        "m5": "GAN"
+      },
+      {
+        "p": "[Unsupervised Deep Embedding for Clustering Analysis](http://arxiv.org/abs/1511.06335v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/piiswrong/dec)",
+        "n": "DEC",
+        "d": "2015-11-19",
+        "m1": "0.301",
+        "m2": "0.25",
+        "m3": "0.161",
+        "m4": "Train+Test",
+        "m5": "Custom"
+      },
+      {
+        "p": "[Auto-Encoding Variational Bayes](http://arxiv.org/abs/1312.6114v10)",
+        "c": "[&check;&nbsp;Link](https://github.com/microsoft/recommenders)",
+        "n": "VAE",
+        "d": "2013-12-20",
+        "m1": "0.291",
+        "m2": "0.245",
+        "m3": "0.168",
+        "m4": "Train+Test",
+        "m5": "VAE"
+      },
+      {
+        "p": "[Joint Unsupervised Learning of Deep Representations and Image Clusters](http://arxiv.org/abs/1604.03628v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/jwyang/jule.torch)",
+        "n": "JULE",
+        "d": "2016-04-13",
+        "m1": "0.272",
+        "m2": "0.192",
+        "m3": "0.138",
+        "m4": "Train+Test"
+      },
+      {
+        "p": "[Exploring the Limits of Deep Image Clustering using Pretrained Models](https://arxiv.org/abs/2303.17896v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/HHU-MMBS/TEMI-official-BMVC2023)",
+        "n": "TEMI DINO ViT-B",
+        "d": "2023-03-31",
+        "m1": "0.94.5",
+        "m2": "0.886",
+        "m3": "0.885",
+        "m4": "Train",
+        "m5": "ViT-B"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "title": "semantic-parsing-on-atis",
+  "task-hierarchy": [
+    "Semantic Parsing"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/howl-anderson/ATIS_dataset/blob/master/README.en-US.md"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[PhraseTransformer: An Incorporation of Local Context Information into Sequence-to-sequence Semantic Parsing](https://link.springer.com/article/10.1007/s10489-022-04246-0)",
+        "c": "[&check;&nbsp;Link](https://github.com/phuongnm94/PhraseTransformer)",
+        "n": "PhraseTransformer",
+        "d": "2022-11-29",
+        "m1": "90.4"
+      },
+      {
+        "p": "[TRANX: A Transition-based Neural Abstract Syntax Parser for Semantic Parsing and Code Generation](http://arxiv.org/abs/1810.02720v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/pcyin/tranX)",
+        "n": "Tranx",
+        "d": "2018-10-05",
+        "m1": "86.2"
+      },
+      {
+        "p": "[Abstract Syntax Networks for Code Generation and Semantic Parsing](http://arxiv.org/abs/1704.07535v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/xiye17/torchASN)",
+        "n": "ASN (Rabinovich et al., 2017)",
+        "d": "2017-04-25",
+        "m1": "85.3"
+      },
+      {
+        "p": "[Type-Driven Incremental Semantic Parsing with Polymorphism](http://arxiv.org/abs/1411.5379v3)",
+        "c": "",
+        "n": "ZH15 (Zhao and Huang, 2015)",
+        "d": "2014-11-19",
+        "m1": "84.2"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

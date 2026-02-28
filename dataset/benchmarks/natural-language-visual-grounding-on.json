@@ -1,0 +1,162 @@
+{
+  "title": "natural-language-visual-grounding-on",
+  "task-hierarchy": [
+    "Natural Language Visual Grounding"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents](https://arxiv.org/abs/2410.05243v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/OSU-NLP-Group/UGround)",
+        "n": "UGround-V1-7B",
+        "d": "2024-10-07",
+        "m1": "86.34"
+      },
+      {
+        "p": "[Aguvis: Unified Pure Vision Agents for Autonomous GUI Interaction](https://arxiv.org/abs/2412.04454v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/xlang-ai/aguvis)",
+        "n": "Aguvis-7B",
+        "d": "2024-12-05",
+        "m1": "83.0"
+      },
+      {
+        "p": "[OS-ATLAS: A Foundation Action Model for Generalist GUI Agents](https://arxiv.org/abs/2410.23218v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/njucckevin/seeclick)",
+        "n": "OS-Atlas-Base-7B",
+        "d": "2024-10-30",
+        "m1": "82.47"
+      },
+      {
+        "p": "[Aria-UI: Visual Grounding for GUI Instructions](https://arxiv.org/abs/2412.16256v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ariaui/aria-ui)",
+        "n": "Aria-UI",
+        "d": "2024-12-20",
+        "m1": "81.1"
+      },
+      {
+        "p": "[Aguvis: Unified Pure Vision Agents for Autonomous GUI Interaction](https://arxiv.org/abs/2412.04454v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/xlang-ai/aguvis)",
+        "n": "Aguvis-G-7B",
+        "d": "2024-12-05",
+        "m1": "81.0"
+      },
+      {
+        "p": "[Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents](https://arxiv.org/abs/2410.05243v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/OSU-NLP-Group/UGround)",
+        "n": "UGround-V1-2B",
+        "d": "2024-10-07",
+        "m1": "77.67"
+      },
+      {
+        "p": "[ShowUI: One Vision-Language-Action Model for GUI Visual Agent](https://arxiv.org/abs/2411.17465v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/showlab/showui)",
+        "n": "ShowUI",
+        "d": "2024-11-26",
+        "m1": "75.1"
+      },
+      {
+        "p": "[ShowUI: One Vision-Language-Action Model for GUI Visual Agent](https://arxiv.org/abs/2411.17465v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/showlab/showui)",
+        "n": "ShowUI-G",
+        "d": "2024-11-26",
+        "m1": "75.0"
+      },
+      {
+        "p": "[Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents](https://arxiv.org/abs/2410.05243v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/OSU-NLP-Group/UGround)",
+        "n": "UGround",
+        "d": "2024-10-07",
+        "m1": "73.3"
+      },
+      {
+        "p": "[OmniParser for Pure Vision Based GUI Agent](https://arxiv.org/abs/2408.00203v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/microsoft/omniparser)",
+        "n": "OmniParser",
+        "d": "2024-08-01",
+        "m1": "73.0"
+      },
+      {
+        "p": "[OS-ATLAS: A Foundation Action Model for Generalist GUI Agents](https://arxiv.org/abs/2410.23218v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/njucckevin/seeclick)",
+        "n": "OS-Atlas-Base-4B",
+        "d": "2024-10-30",
+        "m1": "68.0"
+      },
+      {
+        "p": "[SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents](https://arxiv.org/abs/2401.10935v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/njucckevin/seeclick)",
+        "n": "SeeClick",
+        "d": "2024-01-17",
+        "m1": "53.4"
+      },
+      {
+        "p": "[CogAgent: A Visual Language Model for GUI Agents](https://arxiv.org/abs/2312.08914v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/thudm/cogvlm)",
+        "n": "CogAgent",
+        "d": "2023-12-14",
+        "m1": "47.4"
+      },
+      {
+        "p": "[Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution](https://arxiv.org/abs/2409.12191v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/qwenlm/qwen2-vl)",
+        "n": "Qwen2-VL-7B",
+        "d": "2024-09-18",
+        "m1": "42.1"
+      },
+      {
+        "p": "[GUICourse: From General Vision Language Models to Versatile GUI Agents](https://arxiv.org/abs/2406.11317v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/yiye3/guicourse)",
+        "n": "Qwen-GUI",
+        "d": "2024-06-17",
+        "m1": "28.6"
+      },
+      {
+        "p": "[MiniGPT-v2: large language model as a unified interface for vision-language multi-task learning](https://arxiv.org/abs/2310.09478v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/vision-cair/minigpt-4)",
+        "n": "MiniGPT-v2",
+        "d": "2023-10-14",
+        "m1": "5.7"
+      },
+      {
+        "p": "[Groma: Localized Visual Tokenization for Grounding Multimodal Large Language Models](https://arxiv.org/abs/2404.13013v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/FoundationVision/Groma)",
+        "n": "Groma",
+        "d": "2024-04-19",
+        "m1": "5.2"
+      },
+      {
+        "p": "[Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond](https://arxiv.org/abs/2308.12966v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/qwenlm/qwen-vl)",
+        "n": "Qwen-VL",
+        "d": "2023-08-24",
+        "m1": "5.2"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,1849 @@
+{
+  "title": "multi-label-classification-on-chexpert",
+  "task-hierarchy": [
+    "Multi-Label Classification"
+  ],
+  "dataset-info": {
+    "link": "https://stanfordmlgroup.github.io/competitions/chexpert/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AVERAGE AUC ON 14 LABEL",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "NUM RADS BELOW CURVE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Category-Wise Fine-Tuning for Image Multi-label Classification with Partial Labels](https://link.springer.com/chapter/10.1007/978-981-99-8145-8_26)",
+        "c": "[&check;&nbsp;Link](https://github.com/maxium0526/category-wise-fine-tuning)",
+        "n": "CFT (ensemble) Macao Polytechnic University",
+        "d": "2023-11-27",
+        "m1": "0.933"
+      },
+      {
+        "p": "[Large-scale Robust Deep AUC Maximization: A New Surrogate Loss and Empirical Studies on Medical Image Classification](https://arxiv.org/abs/2012.03173v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Optimization-AI/LibAUC)",
+        "n": "DeepAUC-v1",
+        "d": "2020-12-06",
+        "m1": "0.930",
+        "m2": "2.800"
+      },
+      {
+        "p": "[Interpreting chest X-rays via CNNs that exploit hierarchical disease dependencies and uncertainty labels](https://arxiv.org/abs/1911.06475v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/thanhtran98/chexpert_pytorch_base)",
+        "n": "Hierarchical-Learning-V1 (ensemble)",
+        "d": "2019-11-15",
+        "m1": "0.930",
+        "m2": "2.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "YWW(ensemble)",
+        "d": null,
+        "m1": "0.929",
+        "m2": "2.800"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Conditional-Training-LSR",
+        "d": null,
+        "m1": "0.929",
+        "m2": "2.600"
+      },
+      {
+        "p": "[Interpreting chest X-rays via CNNs that exploit hierarchical disease dependencies and uncertainty labels](https://arxiv.org/abs/1911.06475v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/thanhtran98/chexpert_pytorch_base)",
+        "n": "Hierarchical-Learning-V4 (ensemble)",
+        "d": "2019-11-15",
+        "m1": "0.929",
+        "m2": "2.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Conditional-Training-LSR-V1",
+        "d": null,
+        "m1": "0.929",
+        "m2": "2.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Hierarchical-Learning-V0 (ensemble)",
+        "d": null,
+        "m1": "0.929",
+        "m2": "2.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Multi-Stage-Learning-CNN-V3 (ensemble)",
+        "d": null,
+        "m1": "0.928",
+        "m2": "2.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "DeepCNNsGM(ensemble)",
+        "d": null,
+        "m1": "0.928",
+        "m2": "2.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "inisis",
+        "d": null,
+        "m1": "0.927",
+        "m2": "3.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "DeepCNNs(ensemble)",
+        "d": null,
+        "m1": "0.927",
+        "m2": "2.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "SenseXDR",
+        "d": null,
+        "m1": "0.927",
+        "m2": "2.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ihil (ensemble)",
+        "d": null,
+        "m1": "0.927",
+        "m2": "2.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "JF aboy ensemble_V2 JF HEALTHCARE https://github.com/deadpoppy/CheXpert-Challeng",
+        "d": null,
+        "m1": "0.926",
+        "m2": "3.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "DRNet (ensemble)",
+        "d": null,
+        "m1": "0.926",
+        "m2": "2.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "yw",
+        "d": null,
+        "m1": "0.926",
+        "m2": "2.600"
+      },
+      {
+        "p": "[Anatomy-XNet: An Anatomy Aware Convolutional Neural Network for Thoracic Disease Classification in Chest X-rays](https://arxiv.org/abs/2106.05915v3)",
+        "c": "",
+        "n": "Anatomy-XNet-V1",
+        "d": "2021-06-10",
+        "m1": "0.926",
+        "m2": "2.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "hoanganh_VB_ensemble3",
+        "d": null,
+        "m1": "0.925",
+        "m2": "2.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "alimebkovk",
+        "d": null,
+        "m1": "0.925",
+        "m2": "2.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "uest",
+        "d": null,
+        "m1": "0.924",
+        "m2": "2.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Hoang_VB_ensemble31_v",
+        "d": null,
+        "m1": "0.924",
+        "m2": "2.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "tedtt",
+        "d": null,
+        "m1": "0.924",
+        "m2": "2.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "as-hust-v3",
+        "d": null,
+        "m1": "0.924",
+        "m2": "2.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "hoanganh_VB_VN",
+        "d": null,
+        "m1": "0.924",
+        "m2": "2.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Hierarchical-CNN-Ensemble-V1 (ensemble)",
+        "d": null,
+        "m1": "0.924",
+        "m2": "2.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "DE_APR ensemble ltt",
+        "d": null,
+        "m1": "0.923",
+        "m2": "2.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "DE_APR_N ensemble ltt",
+        "d": null,
+        "m1": "0.923",
+        "m2": "2.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Multi-Stage-Learning-CNN-V2 (ensemble)",
+        "d": null,
+        "m1": "0.923",
+        "m2": "2.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Weighted-CNN(ensemble)",
+        "d": null,
+        "m1": "0.923",
+        "m2": "2.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "hoanganhcnu_ensemble27_v",
+        "d": null,
+        "m1": "0.923",
+        "m2": "2.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "YJ&&YWW :https://github.com/inisis/chexper",
+        "d": null,
+        "m1": "0.923",
+        "m2": "2.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "as-hust-v1",
+        "d": null,
+        "m1": "0.923",
+        "m2": "2.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Maxium (ensemble)",
+        "d": null,
+        "m1": "0.923",
+        "m2": "2.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "as-hust-v2",
+        "d": null,
+        "m1": "0.922",
+        "m2": "2.800"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Average-CNN(ensemble)",
+        "d": null,
+        "m1": "0.922",
+        "m2": "2.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "MaxAUC",
+        "d": null,
+        "m1": "0.922",
+        "m2": "2.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "zjr(ensembel)",
+        "d": null,
+        "m1": "0.921",
+        "m2": "2.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "SuperCNNv3",
+        "d": null,
+        "m1": "0.921",
+        "m2": "2.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "hyc",
+        "d": null,
+        "m1": "0.921",
+        "m2": "2.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "hoangnguyenkcv1",
+        "d": null,
+        "m1": "0.921",
+        "m2": "2.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "{\"submit_id\": \"0x3c7b0af1b5784c159daf259c58543aa3\", \"predict_id\": \"0x67b23473183f4f43afa3b37edbc5d7fe\", \"submitter_id\": \"0x30db016ad564455ba055eb7f7f4402ac\"",
+        "d": null,
+        "m1": "0.920",
+        "m2": "2.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "HOANG_VB_VN_2",
+        "d": null,
+        "m1": "0.920",
+        "m2": "2.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BDNB",
+        "d": null,
+        "m1": "0.919",
+        "m2": "2.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "JF Coolver ensemble",
+        "d": null,
+        "m1": "0.919",
+        "m2": "2.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "thang ensemble colo",
+        "d": null,
+        "m1": "0.919",
+        "m2": "2.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "hoangnn9 ensemble VBV",
+        "d": null,
+        "m1": "0.919",
+        "m2": "2.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "JF aboy ensemble_V1 JF HEALTHCARE https://github.com/deadpoppy/CheXpert-Challeng",
+        "d": null,
+        "m1": "0.919",
+        "m2": "2.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "{\"submit_id\": \"0x33aeb0f2525e482a886196c273bdf1ba\", \"predict_id\": \"0xff2f60907da8440d98ff17f0af749535\", \"submitter_id\": \"0x0b382a226d4548c9b441f19b1907fe0f\"",
+        "d": null,
+        "m1": "0.919",
+        "m2": "2.200"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "brian-baseline-v2",
+        "d": null,
+        "m1": "0.919",
+        "m2": "2.200"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "DE_JUN4_RS_EN ensemble LTT",
+        "d": null,
+        "m1": "0.918",
+        "m2": "2.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Mehdi_You (ensemble)",
+        "d": null,
+        "m1": "0.918",
+        "m2": "2.600"
+      },
+      {
+        "p": "[Category-Wise Fine-Tuning for Image Multi-label Classification with Partial Labels](https://link.springer.com/chapter/10.1007/978-981-99-8145-8_26)",
+        "c": "[&check;&nbsp;Link](https://github.com/maxium0526/category-wise-fine-tuning)",
+        "n": "A Good Model (single model) Macao Polytechnic University",
+        "d": "2023-11-27",
+        "m1": "0.918",
+        "m2": "2.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "A Good Model (single model)",
+        "d": null,
+        "m1": "0.918",
+        "m2": "2.600"
+      },
+      {
+        "p": "[Anatomy-XNet: An Anatomy Aware Convolutional Neural Network for Thoracic Disease Classification in Chest X-rays](https://arxiv.org/abs/2106.05915v3)",
+        "c": "",
+        "n": "Anatomy-XNet (ensemble)",
+        "d": "2021-06-10",
+        "m1": "0.917",
+        "m2": "2.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Ensemble_v2",
+        "d": null,
+        "m1": "0.917",
+        "m2": "2.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Deep-CNNs-V1",
+        "d": null,
+        "m1": "0.917",
+        "m2": "2.200"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "vdn6 ensemble ltt",
+        "d": null,
+        "m1": "0.917",
+        "m2": "2.200"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Overfit ensemble OTH-A",
+        "d": null,
+        "m1": "0.917",
+        "m2": "2.200"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "thangbk(ensemble)",
+        "d": null,
+        "m1": "0.917",
+        "m2": "2.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "desmond",
+        "d": null,
+        "m1": "0.916",
+        "m2": "2.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "DE_JUN1_RS_EN ensemble LTT",
+        "d": null,
+        "m1": "0.916",
+        "m2": "2.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "DE_JUN3_RS_EN ensemble LTT",
+        "d": null,
+        "m1": "0.916",
+        "m2": "2.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "{\"submit_id\": \"0x57dc2989f0474ca095d0841df09cfb18\", \"predict_id\": \"0xd43bcf7d4c9b467894db2b274b18794e\", \"submitter_id\": \"0x30db016ad564455ba055eb7f7f4402ac\"",
+        "d": null,
+        "m1": "0.916",
+        "m2": "2.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ATT-AW-v1",
+        "d": null,
+        "m1": "0.916",
+        "m2": "2.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "{\"submit_id\": \"0xeb9c9e79ed9e4410a2a37d62322f4585\", \"predict_id\": \"0x735b718280b14e83895decbc31641f87\", \"submitter_id\": \"0x30db016ad564455ba055eb7f7f4402ac\"",
+        "d": null,
+        "m1": "0.916",
+        "m2": "2.200"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Multi-Stage-Learning-CNN-V0",
+        "d": null,
+        "m1": "0.916",
+        "m2": "2.200"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "TGNB",
+        "d": null,
+        "m1": "0.915",
+        "m2": "2.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ensemble SN",
+        "d": null,
+        "m1": "0.915",
+        "m2": "2.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "zhangjingyan",
+        "d": null,
+        "m1": "0.915",
+        "m2": "2.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Deadpoppy Ensemble",
+        "d": null,
+        "m1": "0.915",
+        "m2": "2.200"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "hoangnguyenkcv-ensemble28",
+        "d": null,
+        "m1": "0.915",
+        "m2": "2.200"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "DE_JUN2_RS_EN ensemble LTT",
+        "d": null,
+        "m1": "0.914",
+        "m2": "2.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "GRNB",
+        "d": null,
+        "m1": "0.914",
+        "m2": "2.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Deep-CNNs (ensemble)",
+        "d": null,
+        "m1": "0.914",
+        "m2": "2.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Sky-Model",
+        "d": null,
+        "m1": "0.913",
+        "m2": "2.200"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "JF Deadpoppy",
+        "d": null,
+        "m1": "0.913",
+        "m2": "2.200"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "YWW-YJ:https://github.com/inisis/chexper",
+        "d": null,
+        "m1": "0.913",
+        "m2": "2.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "zjy",
+        "d": null,
+        "m1": "0.912",
+        "m2": "2.200"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "WL_Baseline (ensemble)",
+        "d": null,
+        "m1": "0.912",
+        "m2": "2.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "KCV-CNN-ensemble-CN",
+        "d": null,
+        "m1": "0.911",
+        "m2": "2.200"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "songta",
+        "d": null,
+        "m1": "0.911",
+        "m2": "2.200"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "bhtrun",
+        "d": null,
+        "m1": "0.911",
+        "m2": "2.200"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "anatomy_xnet_v1 (single model)",
+        "d": null,
+        "m1": "0.911",
+        "m2": "2.200"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "DS_APR_N single model ltt",
+        "d": null,
+        "m1": "0.911",
+        "m2": "2.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "DS_APR single model LTT",
+        "d": null,
+        "m1": "0.911",
+        "m2": "2.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "brian-baseline",
+        "d": null,
+        "m1": "0.911",
+        "m2": "2.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ensemble SNU",
+        "d": null,
+        "m1": "0.910",
+        "m2": "2.200"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "HinaNetV2 (ensemble)",
+        "d": null,
+        "m1": "0.909",
+        "m2": "2.200"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "KD-Prune10 (Single model)",
+        "d": null,
+        "m1": "0.909",
+        "m2": "2.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "G_Mans_ensembl",
+        "d": null,
+        "m1": "0.909",
+        "m2": "1.800"
+      },
+      {
+        "p": "[Masks and Manuscripts: Advancing Medical Pre-training with End-to-End Masking and Narrative Structuring](https://arxiv.org/abs/2407.16264v1)",
+        "c": "",
+        "n": "Masks and Manuscripts",
+        "d": "2024-07-23",
+        "m1": "0.909"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "guran_ri",
+        "d": null,
+        "m1": "0.908",
+        "m2": "2.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "vdnnn (ensemble)",
+        "d": null,
+        "m1": "0.908",
+        "m2": "1.800"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BAAZT",
+        "d": null,
+        "m1": "0.908",
+        "m2": "1.800"
+      },
+      {
+        "p": "[CheXpert: A Large Chest Radiograph Dataset with Uncertainty Labels and Expert Comparison](http://arxiv.org/abs/1901.07031v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/stanfordmlgroup/chexpert-labeler)",
+        "n": "Stanford Baseline (ensemble)",
+        "d": "2019-01-21",
+        "m1": "0.907",
+        "m2": "1.800"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "vbn (single model)",
+        "d": null,
+        "m1": "0.907",
+        "m2": "1.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "muti_base (ensemble)",
+        "d": null,
+        "m1": "0.907",
+        "m2": "1.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Z_Ensemble_V",
+        "d": null,
+        "m1": "0.907",
+        "m2": "1.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "{ForwardModelEnsembleCorrected} (ensemble)",
+        "d": null,
+        "m1": "0.906",
+        "m2": "1.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "LBC-v2 (ensemble)",
+        "d": null,
+        "m1": "0.906",
+        "m2": "1.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "LBC-v2",
+        "d": null,
+        "m1": "0.906",
+        "m2": "1.600"
+      },
+      {
+        "p": "[Image Projective Transformation Rectification with Synthetic Data for Smartphone-captured Chest X-ray Photos Classification](https://arxiv.org/abs/2210.05954v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/maxium0526/ptrn)",
+        "n": "LBC-v2 (ensemble)",
+        "d": "2022-10-12",
+        "m1": "0.906",
+        "m2": "1.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Multi-CNN",
+        "d": null,
+        "m1": "0.905",
+        "m2": "2.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "hy",
+        "d": null,
+        "m1": "0.905",
+        "m2": "1.800"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ForwardMECorrectedFull (ensemble)",
+        "d": null,
+        "m1": "0.905",
+        "m2": "1.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "JustAnotherDensenet",
+        "d": null,
+        "m1": "0.904",
+        "m2": "1.200"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Orlando (single model)",
+        "d": null,
+        "m1": "0.903",
+        "m2": "1.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Max (single model)",
+        "d": null,
+        "m1": "0.902",
+        "m2": "2.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "DeepLungsEnsemble",
+        "d": null,
+        "m1": "0.902",
+        "m2": "1.800"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Ensemble_v1",
+        "d": null,
+        "m1": "0.901",
+        "m2": "1.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Nakajima_ayas",
+        "d": null,
+        "m1": "0.901",
+        "m2": "1.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "MLC11 NotDense (single-model)",
+        "d": null,
+        "m1": "0.900",
+        "m2": "1.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "vn_2 single_model ltt",
+        "d": null,
+        "m1": "0.900",
+        "m2": "1.200"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "{AVG_MAX}(ensemble)",
+        "d": null,
+        "m1": "0.899",
+        "m2": "2.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Z_Ensemble_",
+        "d": null,
+        "m1": "0.899",
+        "m2": "1.800"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "llllldz",
+        "d": null,
+        "m1": "0.899",
+        "m2": "1.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "DiseaseNet Samg2003 single model, UIUC, http://sambhavgupta.com",
+        "d": null,
+        "m1": "0.899",
+        "m2": "1.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "DiseaseNet Samg2003 single model, DPS RKP, http://sambhavgupta.co",
+        "d": null,
+        "m1": "0.899",
+        "m2": "1.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "LBC-v0",
+        "d": null,
+        "m1": "0.899",
+        "m2": "1.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "LBC-v0 (ensemble)",
+        "d": null,
+        "m1": "0.899",
+        "m2": "1.400"
+      },
+      {
+        "p": "[Image Projective Transformation Rectification with Synthetic Data for Smartphone-captured Chest X-ray Photos Classification](https://arxiv.org/abs/2210.05954v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/maxium0526/ptrn)",
+        "n": "LBC-v0 (ensemble)",
+        "d": "2022-10-12",
+        "m1": "0.899",
+        "m2": "1.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BUA",
+        "d": null,
+        "m1": "0.898",
+        "m2": "1.800"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "G_Mans_v2 (single model): LibAUC + coat_mini",
+        "d": null,
+        "m1": "0.898",
+        "m2": "1.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ljc226",
+        "d": null,
+        "m1": "0.898",
+        "m2": "1.200"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ForwardModelEnsemble (ensemble)",
+        "d": null,
+        "m1": "0.897",
+        "m2": "1.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "NewTrickTest (ensemble)",
+        "d": null,
+        "m1": "0.897",
+        "m2": "1.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "AccidentNet v1 (single model)",
+        "d": null,
+        "m1": "0.897",
+        "m2": "1.200"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ylz-v01",
+        "d": null,
+        "m1": "0.896",
+        "m2": "1.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ldz",
+        "d": null,
+        "m1": "0.896",
+        "m2": "1.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Densenet",
+        "d": null,
+        "m1": "0.896",
+        "m2": "1.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Stellarium-CheXpert-Local (single model)",
+        "d": null,
+        "m1": "0.896",
+        "m2": "1.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Stellarium-CheXpert-Local",
+        "d": null,
+        "m1": "0.896",
+        "m2": "1.400"
+      },
+      {
+        "p": "[Image Projective Transformation Rectification with Synthetic Data for Smartphone-captured Chest X-ray Photos Classification](https://arxiv.org/abs/2210.05954v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/maxium0526/ptrn)",
+        "n": "Stellarium-CheXpert-Local",
+        "d": "2022-10-12",
+        "m1": "0.896",
+        "m2": "1.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Deadpoppy Single",
+        "d": null,
+        "m1": "0.895",
+        "m2": "1.800"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "adoudo",
+        "d": null,
+        "m1": "0.895",
+        "m2": "1.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "{koala-large} (single model)",
+        "d": null,
+        "m1": "0.895",
+        "m2": "1.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "MVD121",
+        "d": null,
+        "m1": "0.895",
+        "m2": "1.200"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "hust(single model)",
+        "d": null,
+        "m1": "0.895",
+        "m2": "1.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "MM1",
+        "d": null,
+        "m1": "0.894",
+        "m2": "1.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "hycN",
+        "d": null,
+        "m1": "0.894",
+        "m2": "1.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "zhujier",
+        "d": null,
+        "m1": "0.894",
+        "m2": "1.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "U-Random-Ind (single)",
+        "d": null,
+        "m1": "0.894",
+        "m2": "1.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "HybridModelEnsemble (ensemble)",
+        "d": null,
+        "m1": "0.892",
+        "m2": "1.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "MVD121-320",
+        "d": null,
+        "m1": "0.891",
+        "m2": "1.200"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ylz-v02",
+        "d": null,
+        "m1": "0.891",
+        "m2": "1.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "pause",
+        "d": null,
+        "m1": "0.890",
+        "m2": "1.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Overfit ensemble OT",
+        "d": null,
+        "m1": "0.890",
+        "m2": "1.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Haruka_Hamasak",
+        "d": null,
+        "m1": "0.890",
+        "m2": "0.800"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "DenseNet169 at 320x320 (single model)",
+        "d": null,
+        "m1": "0.889",
+        "m2": "1.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "LR-baseline (ensemble)",
+        "d": null,
+        "m1": "0.889",
+        "m2": "1.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "DataAugFTW (single model)",
+        "d": null,
+        "m1": "0.888",
+        "m2": "1.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "{koala} (single model)",
+        "d": null,
+        "m1": "0.888",
+        "m2": "1.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Xception (single model)",
+        "d": null,
+        "m1": "0.887",
+        "m2": "1.200"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Stellarium (single model)",
+        "d": null,
+        "m1": "0.887",
+        "m2": "1.200"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Stellarium",
+        "d": null,
+        "m1": "0.887",
+        "m2": "1.200"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "pm_rn50_0.15pp",
+        "d": null,
+        "m1": "0.887",
+        "m2": "1.200"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "baseline3",
+        "d": null,
+        "m1": "0.886",
+        "m2": "1.200"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "PrateekMunja",
+        "d": null,
+        "m1": "0.886",
+        "m2": "1.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "MVR50",
+        "d": null,
+        "m1": "0.886",
+        "m2": "0.800"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "MNet-Fix (Single Model)",
+        "d": null,
+        "m1": "0.884",
+        "m2": "1.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Coolver XH",
+        "d": null,
+        "m1": "0.884",
+        "m2": "0.800"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Naive Densenet",
+        "d": null,
+        "m1": "0.883",
+        "m2": "1.200"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "mhealth_buet (single model)",
+        "d": null,
+        "m1": "0.883",
+        "m2": "0.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Aoitori (single model)",
+        "d": null,
+        "m1": "0.882",
+        "m2": "0.800"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "{chexpert-classifier}(single model)",
+        "d": null,
+        "m1": "0.882",
+        "m2": "0.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "DearBrave (single model)",
+        "d": null,
+        "m1": "0.882",
+        "m2": "0.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "AccidentNet V2 (single model)",
+        "d": null,
+        "m1": "0.881",
+        "m2": "1.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "{densenet} (single model)",
+        "d": null,
+        "m1": "0.880",
+        "m2": "1.200"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Yoake (single model)",
+        "d": null,
+        "m1": "0.879",
+        "m2": "0.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "MLC11 Baseline (single-model)",
+        "d": null,
+        "m1": "0.878",
+        "m2": "0.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "DenseNet",
+        "d": null,
+        "m1": "0.876",
+        "m2": "1.200"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "HCL1 (single model)",
+        "d": null,
+        "m1": "0.876",
+        "m2": "1.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "MLGCN (single model)",
+        "d": null,
+        "m1": "0.875",
+        "m2": "1.200"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "GCN_densenet121-single mode",
+        "d": null,
+        "m1": "0.875",
+        "m2": "1.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "GreenTeaCalpis (single model)",
+        "d": null,
+        "m1": "0.873",
+        "m2": "0.800"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Multi-CNN (ensemble)",
+        "d": null,
+        "m1": "0.873",
+        "m2": "0.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BASELINE ResNet50",
+        "d": null,
+        "m1": "0.871",
+        "m2": "0.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "baseline1 (single model)",
+        "d": null,
+        "m1": "0.868",
+        "m2": "0.800"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Baseline DenseNet161",
+        "d": null,
+        "m1": "0.868",
+        "m2": "0.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "DSENet",
+        "d": null,
+        "m1": "0.865",
+        "m2": "0.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Densenet-Basic Single NUS",
+        "d": null,
+        "m1": "0.863",
+        "m2": "0.800"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "KD_Mobilenet (single model)",
+        "d": null,
+        "m1": "0.862",
+        "m2": "0.800"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "{GoDense} (single model)",
+        "d": null,
+        "m1": "0.861",
+        "m2": "1.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "inceptionv3_single_NN",
+        "d": null,
+        "m1": "0.861",
+        "m2": "0.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "MLKD (Single model)",
+        "d": null,
+        "m1": "0.860",
+        "m2": "0.800"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BASELINE Acorn",
+        "d": null,
+        "m1": "0.860",
+        "m2": "0.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ErrorNet (single model)",
+        "d": null,
+        "m1": "0.859",
+        "m2": "0.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "SleepNet (single model)",
+        "d": null,
+        "m1": "0.859",
+        "m2": "0.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "baseline2",
+        "d": null,
+        "m1": "0.858",
+        "m2": "1.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "UMLS_CLIP (single model)",
+        "d": null,
+        "m1": "0.858",
+        "m2": "0.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "haw02 (single model)",
+        "d": null,
+        "m1": "0.854",
+        "m2": "0.800"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "CombinedTrainDenseNet121 (single model)",
+        "d": null,
+        "m1": "0.853",
+        "m2": "0.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "rayOfLightSingle (Single Model)",
+        "d": null,
+        "m1": "0.851",
+        "m2": "0.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Model_Team_34 (single model)",
+        "d": null,
+        "m1": "0.850",
+        "m2": "0.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Test model habbe",
+        "d": null,
+        "m1": "0.850",
+        "m2": "0.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "model2_DenseNet121",
+        "d": null,
+        "m1": "0.848",
+        "m2": "0.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Baseline",
+        "d": null,
+        "m1": "0.848",
+        "m2": "0.200"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "HinaNet (single model)",
+        "d": null,
+        "m1": "0.844",
+        "m2": "0.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "singlehead_models (single model combined)",
+        "d": null,
+        "m1": "0.842",
+        "m2": "0.200"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "mwowra-conditional (single)",
+        "d": null,
+        "m1": "0.840",
+        "m2": "0.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "multihead_model (one model for all pathologies)",
+        "d": null,
+        "m1": "0.838",
+        "m2": "0.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "mobilenet (single model)",
+        "d": null,
+        "m1": "0.837",
+        "m2": "0.200"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Grp12BigCNN",
+        "d": null,
+        "m1": "0.835",
+        "m2": "0.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "MLC9_Densenet (single model)",
+        "d": null,
+        "m1": "0.834",
+        "m2": "0.400"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Grp12v2USup2OSamp (ensemble)",
+        "d": null,
+        "m1": "0.830",
+        "m2": "0.200"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "DNET121-single",
+        "d": null,
+        "m1": "0.822",
+        "m2": "0.000"
+      },
+      {
+        "p": "[CheXclusion: Fairness gaps in deep chest X-ray classifiers](https://arxiv.org/abs/2003.00827v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/LalehSeyyed/CheXclusion)",
+        "n": "DensNet121",
+        "d": "2020-02-14",
+        "m1": "0.805"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "G_Mans_v1 (single model):",
+        "d": null,
+        "m1": "0.797",
+        "m2": "0.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "12ASLv2(single)",
+        "d": null,
+        "m1": "0.769",
+        "m2": "0.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "DenseNet121 (single model)",
+        "d": null,
+        "m1": "0.760",
+        "m2": "0.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "12ASLv1(single)",
+        "d": null,
+        "m1": "0.736",
+        "m2": "0.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "haw-baseline (single model)",
+        "d": null,
+        "m1": "0.732",
+        "m2": "0.600"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "rayOfLight (ensemble)",
+        "d": null,
+        "m1": "0.727",
+        "m2": "0.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BASELINE DenseNet121",
+        "d": null,
+        "m1": "0.724",
+        "m2": "0.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Chest-x-ray classification using",
+        "d": null,
+        "m1": "0.618",
+        "m2": "0.200"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BME_Final_v2",
+        "d": null,
+        "m1": "0.615",
+        "m2": "0.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "{densenet121}{single model",
+        "d": null,
+        "m1": "0.606",
+        "m2": "0.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "autobot",
+        "d": null,
+        "m1": "0.606",
+        "m2": "0.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "{MLC02_DenseNet121}",
+        "d": null,
+        "m1": "0.575",
+        "m2": "0.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "efficiantB5 (single model)",
+        "d": null,
+        "m1": "0.531",
+        "m2": "0.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "apalepu1",
+        "d": null,
+        "m1": "0.524",
+        "m2": "0.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Erdem (single)",
+        "d": null,
+        "m1": "0.500",
+        "m2": "0.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Adalab Standard (Single Model)",
+        "d": null,
+        "m1": "0.481",
+        "m2": "0.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Adalab Standard (single model)",
+        "d": null,
+        "m1": "0.481",
+        "m2": "0.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "zeroshot_medclip_baseline (ensemble)",
+        "d": null,
+        "m1": "0.479",
+        "m2": "0.000"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

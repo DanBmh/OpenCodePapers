@@ -1,0 +1,68 @@
+{
+  "title": "multibehavior-recommendation-on-yelp",
+  "task-hierarchy": [
+    "Recommendation Systems",
+    "Multibehavior Recommendation"
+  ],
+  "dataset-info": {
+    "link": "https://www.yelp.com/dataset"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "HR@10",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[HMAR: Hierarchical Masked Attention for Multi-Behaviour Recommendation](https://arxiv.org/abs/2405.09638v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/shereen-elsayed/hmar)",
+        "n": "HMAR",
+        "d": "2024-04-29",
+        "m1": "0.9015"
+      },
+      {
+        "p": "[Multi-Behavioral Sequential Recommendation](https://dl.acm.org/doi/abs/10.1145/3640457.3688166)",
+        "c": "[&check;&nbsp;Link](https://github.com/Shereen-Elsayed/MBSRec)",
+        "n": "MBSRec",
+        "d": "2024-10-08",
+        "m1": "0.898"
+      },
+      {
+        "p": "[HMAR: Hierarchical Masked Attention for Multi-Behaviour Recommendation](https://arxiv.org/abs/2405.09638v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/shereen-elsayed/hmar)",
+        "n": "MBHT",
+        "d": "2024-04-29",
+        "m1": "0.8850"
+      },
+      {
+        "p": "[HMAR: Hierarchical Masked Attention for Multi-Behaviour Recommendation](https://arxiv.org/abs/2405.09638v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/shereen-elsayed/hmar)",
+        "n": "MB-STR",
+        "d": "2024-04-29",
+        "m1": "0.882"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

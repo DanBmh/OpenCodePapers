@@ -1,0 +1,155 @@
+{
+  "title": "image-classification-on-coloninst-v1-seen",
+  "task-hierarchy": [
+    "Image Classification"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuray",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Frontiers in Intelligent Colonoscopy](https://arxiv.org/abs/2410.17241v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/ai4colonoscopy/intelliscope)",
+        "n": "ColonGPT (w/ LoRA, w/o extra data)",
+        "d": "2024-10-22",
+        "m1": "94.06"
+      },
+      {
+        "p": "[LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day](https://arxiv.org/abs/2306.00890v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/microsoft/LLaVA-Med)",
+        "n": "LLaVA-Med-v1.0 (w/o LoRA, w/ extra data)",
+        "d": "2023-06-01",
+        "m1": "93.84"
+      },
+      {
+        "p": "[MobileVLM : A Fast, Strong and Open Vision Language Assistant for Mobile Devices](https://arxiv.org/abs/2312.16886v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/meituan-automl/mobilevlm)",
+        "n": "MobileVLM-1.7B (w/ LoRA, w/ extra data)",
+        "d": "2023-12-28",
+        "m1": "93.64"
+      },
+      {
+        "p": "[LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day](https://arxiv.org/abs/2306.00890v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/microsoft/LLaVA-Med)",
+        "n": "LLaVA-Med-v1.5 (w/ LoRA, w/o extra data)",
+        "d": "2023-06-01",
+        "m1": "93.62"
+      },
+      {
+        "p": "[LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day](https://arxiv.org/abs/2306.00890v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/microsoft/LLaVA-Med)",
+        "n": "LLaVA-Med-v1.0 (w/o LoRA, w/o extra data)",
+        "d": "2023-06-01",
+        "m1": "93.52"
+      },
+      {
+        "p": "[Improved Baselines with Visual Instruction Tuning](https://arxiv.org/abs/2310.03744v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "LLaVA-v1.5 (w/ LoRA, w/ extra data)",
+        "d": "2023-10-05",
+        "m1": "93.33"
+      },
+      {
+        "p": "[Mini-Gemini: Mining the Potential of Multi-modality Vision Language Models](https://arxiv.org/abs/2403.18814v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/dvlab-research/MGM)",
+        "n": "MGM-2B (w/o LoRA, w/ extra data)",
+        "d": "2024-03-27",
+        "m1": "93.24"
+      },
+      {
+        "p": "[MobileVLM : A Fast, Strong and Open Vision Language Assistant for Mobile Devices](https://arxiv.org/abs/2312.16886v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/meituan-automl/mobilevlm)",
+        "n": "MobileVLM-1.7B (w/o LoRA, w/ extra data)",
+        "d": "2023-12-28",
+        "m1": "93.02"
+      },
+      {
+        "p": "[Improved Baselines with Visual Instruction Tuning](https://arxiv.org/abs/2310.03744v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "LLaVA-v1.5 (w/ LoRA, w/o extra data)",
+        "d": "2023-10-05",
+        "m1": "92.97"
+      },
+      {
+        "p": "[Mini-Gemini: Mining the Potential of Multi-modality Vision Language Models](https://arxiv.org/abs/2403.18814v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/dvlab-research/MGM)",
+        "n": "MGM-2B (w/o LoRA, w/o extra data)",
+        "d": "2024-03-27",
+        "m1": "92.97"
+      },
+      {
+        "p": "[Efficient Multimodal Learning from Data-centric Perspective](https://arxiv.org/abs/2402.11530v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/baai-dcai/bunny)",
+        "n": "Bunny-v1.0-3B (w/ LoRA, w/ extra data)",
+        "d": "2024-02-18",
+        "m1": "92.47"
+      },
+      {
+        "p": "[MiniGPT-v2: large language model as a unified interface for vision-language multi-task learning](https://arxiv.org/abs/2310.09478v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/vision-cair/minigpt-4)",
+        "n": "MiniGPT-v2 (w/ LoRA, w/o extra data)",
+        "d": "2023-10-14",
+        "m1": "91.49"
+      },
+      {
+        "p": "[Efficient Multimodal Learning from Data-centric Perspective](https://arxiv.org/abs/2402.11530v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/baai-dcai/bunny)",
+        "n": "Bunny-v1.0-3B (w/ LoRA, w/o extra data)",
+        "d": "2024-02-18",
+        "m1": "91.16"
+      },
+      {
+        "p": "[MiniGPT-v2: large language model as a unified interface for vision-language multi-task learning](https://arxiv.org/abs/2310.09478v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/vision-cair/minigpt-4)",
+        "n": "MiniGPT-v2 (w/ LoRA, w/ extra data)",
+        "d": "2023-10-14",
+        "m1": "90.00"
+      },
+      {
+        "p": "[Visual Instruction Tuning](https://arxiv.org/abs/2304.08485v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "LLaVA-v1 (w/ LoRA, w/ extra data)",
+        "d": "2023-04-17",
+        "m1": "89.61"
+      },
+      {
+        "p": "[Visual Instruction Tuning](https://arxiv.org/abs/2304.08485v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "LLaVA-v1 (w/ LoRA, w/o extra data)",
+        "d": "2023-04-17",
+        "m1": "87.86"
+      },
+      {
+        "p": "[LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day](https://arxiv.org/abs/2306.00890v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/microsoft/LLaVA-Med)",
+        "n": "LLaVA-Med-v1.5 (w/ LoRA, w/ extra data)",
+        "d": "2023-06-01",
+        "m1": "87.22"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

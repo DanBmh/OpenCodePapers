@@ -1,0 +1,112 @@
+{
+  "title": "graph-clustering-on-pubmed",
+  "task-hierarchy": [
+    "Graph Clustering"
+  ],
+  "dataset-info": {
+    "link": "https://linqs.org/datasets/#pubmed-diabetes"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "ACC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "NMI",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "ARI",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "F score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Rethinking Graph Auto-Encoder Models for Attributed Graph Clustering](https://arxiv.org/abs/2107.08562v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/nairouz/R-GAE)",
+        "n": "R-GMM-VGAE",
+        "d": "2021-07-19",
+        "m1": "74.0",
+        "m2": "33.4",
+        "m3": "37.9"
+      },
+      {
+        "p": "[RWR-GAE: Random Walk Regularization for Graph Auto Encoders](https://arxiv.org/abs/1908.04003v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/MysteryVaibhav/DW-GAE)",
+        "n": "RWR-VGAE",
+        "d": "2019-08-12",
+        "m1": "73.6",
+        "m2": "34.6"
+      },
+      {
+        "p": "[RWR-GAE: Random Walk Regularization for Graph Auto Encoders](https://arxiv.org/abs/1908.04003v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/MysteryVaibhav/DW-GAE)",
+        "n": "RWR-GAE",
+        "d": "2019-08-12",
+        "m1": "72.6",
+        "m2": "35.5"
+      },
+      {
+        "p": "[Rethinking Graph Auto-Encoder Models for Attributed Graph Clustering](https://arxiv.org/abs/2107.08562v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/nairouz/R-GAE)",
+        "n": "R-DGAE",
+        "d": "2021-07-19",
+        "m1": "71.4",
+        "m2": "34.4",
+        "m3": "34.6"
+      },
+      {
+        "p": "[Attributed Graph Clustering via Adaptive Graph Convolution](https://arxiv.org/abs/1906.01210v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/karenlatong/AGC-master)",
+        "n": "AGC",
+        "d": "2019-06-04",
+        "m1": "69.78",
+        "m2": "31.59"
+      },
+      {
+        "p": "[Variational Graph Auto-Encoders](http://arxiv.org/abs/1611.07308v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/vgae)",
+        "n": "VGAE",
+        "d": "2016-11-21",
+        "m1": "65.48"
+      },
+      {
+        "p": "[GSCAN: Graph Stability Clustering for Applications With Noise Using Edge-Aware Excess-of-Mass](https://proceedings.mlr.press/v231/harari24a.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/GraphEoM/GSCAN)",
+        "n": "DAEGC+GSCAN†",
+        "d": "2024-04-17",
+        "m2": "31.7",
+        "m3": "31.0",
+        "m4": "67.6"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

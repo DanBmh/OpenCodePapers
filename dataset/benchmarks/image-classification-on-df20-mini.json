@@ -1,0 +1,209 @@
+{
+  "title": "image-classification-on-df20-mini",
+  "task-hierarchy": [
+    "Image Classification"
+  ],
+  "dataset-info": {
+    "link": "https://sites.google.com/view/danish-fungi-dataset"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Top-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Top-3",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "F1 - macro",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Danish Fungi 2020 -- Not Just Another Image Recognition Dataset](https://arxiv.org/abs/2103.10107v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/picekl/DanishFungiDataset)",
+        "n": "ViT-Large/16 (384)",
+        "d": "2021-03-18",
+        "m1": "75.85",
+        "m2": "89.95",
+        "m3": "0.669"
+      },
+      {
+        "p": "[Danish Fungi 2020 -- Not Just Another Image Recognition Dataset](https://arxiv.org/abs/2103.10107v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/picekl/DanishFungiDataset)",
+        "n": "ViT-Base/16 (384)",
+        "d": "2021-03-18",
+        "m1": "74.23",
+        "m2": "89.12",
+        "m3": "0.639"
+      },
+      {
+        "p": "[Danish Fungi 2020 -- Not Just Another Image Recognition Dataset](https://arxiv.org/abs/2103.10107v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/picekl/DanishFungiDataset)",
+        "n": "SE-ResNeXt-101-32x4d",
+        "d": "2021-03-18",
+        "m1": "72.23"
+      },
+      {
+        "p": "[Danish Fungi 2020 -- Not Just Another Image Recognition Dataset](https://arxiv.org/abs/2103.10107v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/picekl/DanishFungiDataset)",
+        "n": "ViT-Large/16 (224)",
+        "d": "2021-03-18",
+        "m1": "71.04",
+        "m2": "86.15",
+        "m3": "0.603"
+      },
+      {
+        "p": "[Danish Fungi 2020 -- Not Just Another Image Recognition Dataset](https://arxiv.org/abs/2103.10107v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/picekl/DanishFungiDataset)",
+        "n": "EfficientNet-B3 (299)",
+        "d": "2021-03-18",
+        "m1": "69.59",
+        "m2": "85.55",
+        "m3": "0.59"
+      },
+      {
+        "p": "[Danish Fungi 2020 -- Not Just Another Image Recognition Dataset](https://arxiv.org/abs/2103.10107v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/picekl/DanishFungiDataset)",
+        "n": "SE-ResNeXt-101-32x4d (224)",
+        "d": "2021-03-18",
+        "m1": "68.87",
+        "m2": "85.14",
+        "m3": "0.585"
+      },
+      {
+        "p": "[Danish Fungi 2020 -- Not Just Another Image Recognition Dataset](https://arxiv.org/abs/2103.10107v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/picekl/DanishFungiDataset)",
+        "n": "EfficientNet-B5 (299)",
+        "d": "2021-03-18",
+        "m1": "68.76",
+        "m2": "85"
+      },
+      {
+        "p": "[Danish Fungi 2020 -- Not Just Another Image Recognition Dataset](https://arxiv.org/abs/2103.10107v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/picekl/DanishFungiDataset)",
+        "n": "ResNet-50 (299)",
+        "d": "2021-03-18",
+        "m1": "68.49",
+        "m2": "85.22"
+      },
+      {
+        "p": "[Danish Fungi 2020 -- Not Just Another Image Recognition Dataset](https://arxiv.org/abs/2103.10107v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/picekl/DanishFungiDataset)",
+        "n": "EfficientNet-B1 (299)",
+        "d": "2021-03-18",
+        "m1": "68.35",
+        "m2": "84.67"
+      },
+      {
+        "p": "[Danish Fungi 2020 -- Not Just Another Image Recognition Dataset](https://arxiv.org/abs/2103.10107v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/picekl/DanishFungiDataset)",
+        "n": "EfficientNet-B0 (299)",
+        "d": "2021-03-18",
+        "m1": "67.94",
+        "m2": "85.71",
+        "m3": "0.567"
+      },
+      {
+        "p": "[Danish Fungi 2020 -- Not Just Another Image Recognition Dataset](https://arxiv.org/abs/2103.10107v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/picekl/DanishFungiDataset)",
+        "n": "Inception-V4 (299)",
+        "d": "2021-03-18",
+        "m1": "67.45",
+        "m2": "82.78"
+      },
+      {
+        "p": "[Danish Fungi 2020 -- Not Just Another Image Recognition Dataset](https://arxiv.org/abs/2103.10107v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/picekl/DanishFungiDataset)",
+        "n": "EfficientNet-B3 (224)",
+        "d": "2021-03-18",
+        "m1": "67.39",
+        "m2": "83.74",
+        "m3": "0.55"
+      },
+      {
+        "p": "[Danish Fungi 2020 -- Not Just Another Image Recognition Dataset](https://arxiv.org/abs/2103.10107v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/picekl/DanishFungiDataset)",
+        "n": "Inception-V3 (299)",
+        "d": "2021-03-18",
+        "m1": "65.91",
+        "m2": "82.97",
+        "m3": "0.535"
+      },
+      {
+        "p": "[Danish Fungi 2020 -- Not Just Another Image Recognition Dataset](https://arxiv.org/abs/2103.10107v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/picekl/DanishFungiDataset)",
+        "n": "EfficientNet-B0 (224)",
+        "d": "2021-03-18",
+        "m1": "65.66",
+        "m2": "83.65",
+        "m3": "0.531"
+      },
+      {
+        "p": "[Danish Fungi 2020 -- Not Just Another Image Recognition Dataset](https://arxiv.org/abs/2103.10107v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/picekl/DanishFungiDataset)",
+        "n": "MobileNet-V2 (299)",
+        "d": "2021-03-18",
+        "m1": "65.58"
+      },
+      {
+        "p": "[Danish Fungi 2020 -- Not Just Another Image Recognition Dataset](https://arxiv.org/abs/2103.10107v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/picekl/DanishFungiDataset)",
+        "n": "Inception-ResNet-V2 (299)",
+        "d": "2021-03-18",
+        "m1": "64.67",
+        "m2": "81.42"
+      },
+      {
+        "p": "[Danish Fungi 2020 -- Not Just Another Image Recognition Dataset](https://arxiv.org/abs/2103.10107v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/picekl/DanishFungiDataset)",
+        "n": "ResNet-18",
+        "d": "2021-03-18",
+        "m1": "62.91",
+        "m2": "81.65",
+        "m3": "0.514"
+      },
+      {
+        "p": "[Danish Fungi 2020 -- Not Just Another Image Recognition Dataset](https://arxiv.org/abs/2103.10107v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/picekl/DanishFungiDataset)",
+        "n": "SE-ResNeXt-101-32x4d (299)",
+        "d": "2021-03-18",
+        "m2": "87.28",
+        "m3": "0.62"
+      },
+      {
+        "p": "[Danish Fungi 2020 -- Not Just Another Image Recognition Dataset](https://arxiv.org/abs/2103.10107v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/picekl/DanishFungiDataset)",
+        "n": "ResNet-34 (299)",
+        "d": "2021-03-18",
+        "m2": "83.52",
+        "m3": "0.559"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

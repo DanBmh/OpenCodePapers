@@ -1,0 +1,208 @@
+{
+  "title": "text-classification-on-ag-news",
+  "task-hierarchy": [
+    "Classification",
+    "Text Classification"
+  ],
+  "dataset-info": {
+    "link": "http://groups.di.unipi.it/~gulli/AG_corpus_of_news_articles.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Error",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[XLNet: Generalized Autoregressive Pretraining for Language Understanding](https://arxiv.org/abs/1906.08237v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "XLNet",
+        "d": "2019-06-19",
+        "m1": "4.45"
+      },
+      {
+        "p": "[How to Fine-Tune BERT for Text Classification?](https://arxiv.org/abs/1905.05583v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/xuyige/BERT4doc-Classification)",
+        "n": "BERT-ITPT-FiT",
+        "d": "2019-05-14",
+        "m1": "4.8"
+      },
+      {
+        "p": "[Revisiting LSTM Networks for Semi-Supervised Text Classification via Mixed Objective Function](https://arxiv.org/abs/2009.04007v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/DevSinghSachan/ssl_text_classification)",
+        "n": "L MIXED",
+        "d": "2020-09-08",
+        "m1": "4.95"
+      },
+      {
+        "p": "[Universal Language Model Fine-tuning for Text Classification](http://arxiv.org/abs/1801.06146v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/fastai/fastai)",
+        "n": "ULMFiT",
+        "d": "2018-01-18",
+        "m1": "5.01"
+      },
+      {
+        "p": "[Disconnected Recurrent Neural Networks for Text Categorization](https://aclanthology.org/P18-1215)",
+        "c": "",
+        "n": "DRNN",
+        "d": "2018-07-01",
+        "m1": "5.53"
+      },
+      {
+        "p": "[Learning to Remember More with Less Memorization](http://arxiv.org/abs/1901.01347v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/thaihungle/UW-DNC)",
+        "n": "DNC+CUW",
+        "d": "2019-01-05",
+        "m1": "6.10"
+      },
+      {
+        "p": "[Sampling Bias in Deep Active Classification: An Empirical Study](https://arxiv.org/abs/1909.09389v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Xtra-Computing/thundersvm)",
+        "n": "ULMFiT (Small data)",
+        "d": "2019-09-20",
+        "m1": "6.3"
+      },
+      {
+        "p": "[Supervised and Semi-Supervised Text Categorization using LSTM for Region Embeddings](http://arxiv.org/abs/1602.02373v2)",
+        "c": "",
+        "n": "CNN",
+        "d": "2016-02-07",
+        "m1": "6.57"
+      },
+      {
+        "p": "[Deep Pyramid Convolutional Neural Networks for Text Categorization](https://aclanthology.org/P17-1052)",
+        "c": "[&check;&nbsp;Link](https://github.com/Cheneng/DPCNN)",
+        "n": "DPCNN",
+        "d": "2017-07-01",
+        "m1": "6.87"
+      },
+      {
+        "p": "[Explicit Interaction Model towards Text Classification](http://arxiv.org/abs/1811.09386v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/NonvolatileMemory/AAAI_2019_EXAM)",
+        "n": "EXAM",
+        "d": "2018-11-23",
+        "m1": "7"
+      },
+      {
+        "p": "[Baseline Needs More Love: On Simple Word-Embedding-Based Models and Associated Pooling Mechanisms](http://arxiv.org/abs/1805.09843v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/dinghanshen/SWEM)",
+        "n": "SWEM-concat",
+        "d": "2018-05-24",
+        "m1": "7.34"
+      },
+      {
+        "p": "[Investigating Capsule Networks with Dynamic Routing for Text Classification](http://arxiv.org/abs/1804.00538v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/andyweizhao/capsule_text_classification)",
+        "n": "Capsule-B ",
+        "d": "2018-03-29",
+        "m1": "7.4"
+      },
+      {
+        "p": "[Bag of Tricks for Efficient Text Classification](http://arxiv.org/abs/1607.01759v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/fastText)",
+        "n": "fastText",
+        "d": "2016-07-06",
+        "m1": "7.5"
+      },
+      {
+        "p": "[Joint Embedding of Words and Labels for Text Classification](http://arxiv.org/abs/1805.04174v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/guoyinwang/LEAM)",
+        "n": "LEAM",
+        "d": "2018-05-10",
+        "m1": "7.55"
+      },
+      {
+        "p": "[Compositional Coding Capsule Network with K-Means Routing for Text Classification](https://arxiv.org/abs/1810.09177v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/leftthomas/CCCapsNet)",
+        "n": "CCCapsNet",
+        "d": "2018-10-22",
+        "m1": "7.61"
+      },
+      {
+        "p": "[On Tree-Based Neural Sentence Modeling](http://arxiv.org/abs/1808.09644v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ExplorerFreda/TreeEnc)",
+        "n": "Balanced+bi-leaf-RNN",
+        "d": "2018-08-29",
+        "m1": "7.9"
+      },
+      {
+        "p": "[Very Deep Convolutional Networks for Text Classification](http://arxiv.org/abs/1606.01781v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/dongjun-Lee/text-classification-models-tf)",
+        "n": "VDCN",
+        "d": "2016-06-06",
+        "m1": "8.67"
+      },
+      {
+        "p": "[Squeezed Very Deep Convolutional Neural Networks for Text Classification](http://arxiv.org/abs/1901.09821v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/lazarotm/SVDCNN)",
+        "n": "SVDCNN",
+        "d": "2019-01-28",
+        "m1": "9.45"
+      },
+      {
+        "p": "[Character-level Convolutional Networks for Text Classification](http://arxiv.org/abs/1509.01626v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/makcedward/nlpaug)",
+        "n": "Char-level CNN",
+        "d": "2015-09-04",
+        "m1": "9.51"
+      },
+      {
+        "p": "[Abstractive Text Classification Using Sequence-to-convolution Neural Networks](https://arxiv.org/abs/1805.07745v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/tgisaturday/Seq2CNN)",
+        "n": "Seq2CNN with GWS(50)",
+        "d": "2018-05-20",
+        "m1": "9.64"
+      },
+      {
+        "p": "[CAPO: Cost-Aware Prompt Optimization](https://arxiv.org/abs/2504.16005v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/finitearth/promptolution)",
+        "n": "Llama-3.3-70B + CAPO",
+        "d": "2025-04-22",
+        "m1": "11.2"
+      },
+      {
+        "p": "[CAPO: Cost-Aware Prompt Optimization](https://arxiv.org/abs/2504.16005v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/finitearth/promptolution)",
+        "n": "Qwen2.5-32B + CAPO",
+        "d": "2025-04-22",
+        "m1": "12.93"
+      },
+      {
+        "p": "[Task-oriented Word Embedding for Text Classification](https://aclanthology.org/C18-1172)",
+        "c": "[&check;&nbsp;Link](https://github.com/qianliu0708/ToWE)",
+        "n": "ToWE-SG",
+        "d": "2018-08-01",
+        "m1": "14.0"
+      },
+      {
+        "p": "[CAPO: Cost-Aware Prompt Optimization](https://arxiv.org/abs/2504.16005v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/finitearth/promptolution)",
+        "n": "Mistral-Small-24B + CAPO",
+        "d": "2025-04-22",
+        "m1": "15.7"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

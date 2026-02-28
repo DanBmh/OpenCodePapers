@@ -1,0 +1,115 @@
+{
+  "title": "image-based-localization-on-vigor-cross-area",
+  "task-hierarchy": [
+    "Object Localization",
+    "Image-Based Localization"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/Jeff-Zilence/VIGOR"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Recall@1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Recall@5",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Recall@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Recall@1%",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Hit Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[CV-Cities: Advancing Cross-View Geo-Localization in Global Cities](https://arxiv.org/abs/2411.12431v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/gaoshuang98/cvcities)",
+        "n": "CV-Cities",
+        "d": "2024-11-19",
+        "m1": "64.61",
+        "m2": "87.48",
+        "m3": "91.20",
+        "m4": "98.63",
+        "m5": "75.97"
+      },
+      {
+        "p": "[Sample4Geo: Hard Negative Sampling For Cross-View Geo-Localisation](https://arxiv.org/abs/2303.11851v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Skyy93/Sample4Geo)",
+        "n": "Sample4Geo",
+        "d": "2023-03-21",
+        "m1": "61.70",
+        "m2": "83.50",
+        "m3": "88.00",
+        "m4": "98.17",
+        "m5": "69.87"
+      },
+      {
+        "p": "[Simple, Effective and General: A New Backbone for Cross-view Image Geo-localization](https://arxiv.org/abs/2302.01572v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/yanghongji2007/saig)",
+        "n": "SAIG-D",
+        "d": "2023-02-03",
+        "m1": "33.05",
+        "m2": "55.94",
+        "m3": "-",
+        "m4": "94.64",
+        "m5": "36.71"
+      },
+      {
+        "p": "[TransGeo: Transformer Is All You Need for Cross-view Image Geo-localization](https://arxiv.org/abs/2204.00097v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jeff-zilence/transgeo2022)",
+        "n": "TransGeo",
+        "d": "2022-03-31",
+        "m1": "18.99",
+        "m2": "38.24",
+        "m3": "46.91",
+        "m4": "88.94",
+        "m5": "21.21"
+      },
+      {
+        "p": "[Spatial-Aware Feature Aggregation for Image based Cross-View Geo-Localization](http://papers.nips.cc/paper/9199-spatial-aware-feature-aggregation-for-image-based-cross-view-geo-localization)",
+        "c": "[&check;&nbsp;Link](https://github.com/shiyujiao/SAFA)",
+        "n": "SAFA",
+        "d": "2019-12-01",
+        "m1": "8.20",
+        "m2": "19.59",
+        "m3": "26.36",
+        "m4": "77.61",
+        "m5": "8.85"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "title": "multivariate-time-series-imputation-on",
+  "task-hierarchy": [
+    "Feature Engineering",
+    "Imputation",
+    "Multivariate Time Series Imputation"
+  ],
+  "dataset-info": {
+    "link": "https://archive.ics.uci.edu/ml/datasets/Beijing+Multi-Site+Air-Quality+Data"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MAE (PM2.5)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Filling the G_ap_s: Multivariate Time Series Imputation by Graph Neural Networks](https://arxiv.org/abs/2108.00298v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/torchspatiotemporal/tsl)",
+        "n": "GRIN",
+        "d": "2021-07-31",
+        "m1": "10.51"
+      },
+      {
+        "p": "[BRITS: Bidirectional Recurrent Imputation for Time Series](http://arxiv.org/abs/1805.10572v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/WenjieDu/PyPOTS)",
+        "n": "BRITS",
+        "d": "2018-05-27",
+        "m1": "11.56"
+      },
+      {
+        "p": "[ST-MVL: Filling Missing Values in Geo-Sensory Time Series Data](https://www.microsoft.com/en-us/research/publication/st-mvl-filling-missing-values-in-geo-sensory-time-series-data/)",
+        "c": "",
+        "n": "STMVL",
+        "d": "2016-07-09",
+        "m1": "12.12"
+      },
+      {
+        "p": "[Estimating Missing Data in Temporal Data Streams Using Multi-directional Recurrent Neural Networks](http://arxiv.org/abs/1711.08742v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/WenjieDu/PyPOTS)",
+        "n": "M-RNN",
+        "d": "2017-11-23",
+        "m1": "14.24"
+      },
+      {
+        "p": "[imputeTS: Time Series Missing Value Imputation in R](http://doi.org/10.32614/RJ-2017-009)",
+        "c": "[&check;&nbsp;Link](https://github.com/SteffenMoritz/imputeTS)",
+        "n": "ImputeTS",
+        "d": "2017-06-01",
+        "m1": "19.58"
+      },
+      {
+        "p": "[Multiple imputation using chained equations: issues and guidance for practice](https://doi.org/10.1002/sim.4067)",
+        "c": "[&check;&nbsp;Link](https://github.com/stefvanbuuren/mice)",
+        "n": "MICE",
+        "d": "2010-11-30",
+        "m1": "27.42"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

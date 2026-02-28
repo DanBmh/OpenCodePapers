@@ -1,0 +1,155 @@
+{
+  "title": "image-to-text-retrieval-on-flickr30k",
+  "task-hierarchy": [
+    "Image-to-Text Retrieval"
+  ],
+  "dataset-info": {
+    "link": "https://shannon.cs.illinois.edu/DenotationGraph/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Recall@1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Recall@5",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Recall@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Recall@Sum",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[InternVL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks](https://arxiv.org/abs/2312.14238v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internvl)",
+        "n": "InternVL-G-FT (finetuned, w/o ranking)",
+        "d": "2023-12-21",
+        "m1": "97.9",
+        "m2": "100",
+        "m3": "100"
+      },
+      {
+        "p": "[BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "BLIP-2 ViT-G (zero-shot, 1K test set)",
+        "d": "2023-01-30",
+        "m1": "97.6",
+        "m2": "100",
+        "m3": "100"
+      },
+      {
+        "p": "[ONE-PEACE: Exploring One General Representation Model Toward Unlimited Modalities](https://arxiv.org/abs/2305.11172v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/modelscope/modelscope)",
+        "n": "ONE-PEACE (finetuned, w/o ranking)",
+        "d": "2023-05-18",
+        "m1": "97.6",
+        "m2": "100",
+        "m3": "100"
+      },
+      {
+        "p": "[InternVL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks](https://arxiv.org/abs/2312.14238v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internvl)",
+        "n": "InternVL-C-FT (finetuned, w/o ranking)",
+        "d": "2023-12-21",
+        "m1": "97.2",
+        "m2": "100",
+        "m3": "100"
+      },
+      {
+        "p": "[BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "BLIP-2 ViT-L (zero-shot, 1K test set)",
+        "d": "2023-01-30",
+        "m1": "96.9",
+        "m2": "100",
+        "m3": "100"
+      },
+      {
+        "p": "[ERNIE-ViL 2.0: Multi-view Contrastive Learning for Image-Text Pre-training](https://arxiv.org/abs/2209.15270v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/ERNIE)",
+        "n": "ERNIE-ViL 2.0",
+        "d": "2022-09-30",
+        "m1": "96.1",
+        "m2": "99.9",
+        "m3": "100.0"
+      },
+      {
+        "p": "[Align before Fuse: Vision and Language Representation Learning with Momentum Distillation](https://arxiv.org/abs/2107.07651v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/salesforce/lavis)",
+        "n": "ALBEF",
+        "d": "2021-07-16",
+        "m1": "95.9",
+        "m2": "99.8",
+        "m3": "100.0"
+      },
+      {
+        "p": "[HADA: A Graph-based Amalgamation Framework in Image-text Retrieval](https://arxiv.org/abs/2301.04742v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/m2man/hada)",
+        "n": "ALBEF",
+        "d": "2023-01-11",
+        "m1": "92.6",
+        "m2": "99.3",
+        "m3": "99.9"
+      },
+      {
+        "p": "[HADA: A Graph-based Amalgamation Framework in Image-text Retrieval](https://arxiv.org/abs/2301.04742v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/m2man/hada)",
+        "n": "UNITER",
+        "d": "2023-01-11",
+        "m1": "87.3",
+        "m2": "98",
+        "m3": "99.2"
+      },
+      {
+        "p": "[A Deep Local and Global Scene-Graph Matching for Image-Text Retrieval](https://arxiv.org/abs/2106.02400v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/m2man/LGSGM)",
+        "n": "GSMN",
+        "d": "2021-06-04",
+        "m1": "76.4",
+        "m2": "94.3",
+        "m3": "97.3",
+        "m4": "268"
+      },
+      {
+        "p": "[A Deep Local and Global Scene-Graph Matching for Image-Text Retrieval](https://arxiv.org/abs/2106.02400v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/m2man/LGSGM)",
+        "n": "LGSGM",
+        "d": "2021-06-04",
+        "m1": "71",
+        "m2": "91.9",
+        "m3": "96.1",
+        "m4": "259"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

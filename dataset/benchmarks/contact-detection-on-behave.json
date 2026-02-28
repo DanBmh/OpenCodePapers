@@ -1,0 +1,76 @@
+{
+  "title": "contact-detection-on-behave",
+  "task-hierarchy": [
+    "Contact Detection"
+  ],
+  "dataset-info": {
+    "link": "http://virtualhumans.mpi-inf.mpg.de/behave"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Precision",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Recall",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Joint Reconstruction of 3D Human and Object via Contact-Based Refinement Transformer](https://arxiv.org/abs/2404.04819v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/dqj5182/contho_release)",
+        "n": "CONTHO",
+        "d": "2024-04-07",
+        "m1": "0.754",
+        "m2": "0.587"
+      },
+      {
+        "p": "[DECO: Dense Estimation of 3D Human-Scene Contact In The Wild](https://arxiv.org/abs/2309.15273v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/sha2nkt/deco)",
+        "n": "DECO",
+        "d": "2023-09-26",
+        "m1": "0.638",
+        "m2": "0.337"
+      },
+      {
+        "p": "[Capturing and Inferring Dense Full-Body Human-Scene Contact](https://arxiv.org/abs/2206.09553v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/paulchhuang/bstro)",
+        "n": "BSTRO",
+        "d": "2022-06-20",
+        "m1": "0.615",
+        "m2": "0.527"
+      },
+      {
+        "p": "[Populating 3D Scenes by Learning Human-Scene Interaction](https://arxiv.org/abs/2012.11581v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/mohamedhassanmus/POSA)",
+        "n": "POSA",
+        "d": "2020-12-21",
+        "m1": "0.514",
+        "m2": "0.587"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

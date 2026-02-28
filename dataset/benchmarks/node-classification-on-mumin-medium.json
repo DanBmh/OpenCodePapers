@@ -1,0 +1,76 @@
+{
+  "title": "node-classification-on-mumin-medium",
+  "task-hierarchy": [
+    "Node Classification"
+  ],
+  "dataset-info": {
+    "link": "https://mumin-dataset.github.io/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Claim Classification Macro-F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Tweet Classification Macro-F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[MuMiN: A Large-Scale Multilingual Multimodal Fact-Checked Misinformation Social Network Dataset](https://arxiv.org/abs/2202.11684v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/MuMiN-dataset/mumin-build)",
+        "n": "HeteroGraphSAGE",
+        "d": "2022-02-23",
+        "m1": "0.5770",
+        "m2": "0.5410"
+      },
+      {
+        "p": "[MuMiN: A Large-Scale Multilingual Multimodal Fact-Checked Misinformation Social Network Dataset](https://arxiv.org/abs/2202.11684v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/MuMiN-dataset/mumin-build)",
+        "n": "LaBSE",
+        "d": "2022-02-23",
+        "m1": "0.5585",
+        "m2": "0.5745"
+      },
+      {
+        "p": "[MuMiN: A Large-Scale Multilingual Multimodal Fact-Checked Misinformation Social Network Dataset](https://arxiv.org/abs/2202.11684v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/MuMiN-dataset/mumin-build)",
+        "n": "Majority class",
+        "d": "2022-02-23",
+        "m1": "0.4806",
+        "m2": "0.4856"
+      },
+      {
+        "p": "[MuMiN: A Large-Scale Multilingual Multimodal Fact-Checked Misinformation Social Network Dataset](https://arxiv.org/abs/2202.11684v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/MuMiN-dataset/mumin-build)",
+        "n": "Random",
+        "d": "2022-02-23",
+        "m1": "0.3896",
+        "m2": "0.3772"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

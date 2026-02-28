@@ -1,0 +1,103 @@
+{
+  "title": "emotion-recognition-in-conversation-on-ec",
+  "task-hierarchy": [
+    "Emotion Recognition",
+    "Emotion Recognition in Conversation"
+  ],
+  "dataset-info": {
+    "link": "https://competitions.codalab.org/competitions/19790"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Micro-F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[NELEC at SemEval-2019 Task 3: Think Twice Before Going Deep](http://arxiv.org/abs/1904.03223v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/iamgroot42/nelec)",
+        "n": "NELEC",
+        "d": "2019-04-05",
+        "m1": "0.7765"
+      },
+      {
+        "p": "[SymantoResearch at SemEval-2019 Task 3: Combined Neural Models for Emotion Classification in Human-Chatbot Conversations](https://aclanthology.org/S19-2057)",
+        "c": "",
+        "n": "OUT2 + IN3 + USE + BERT",
+        "d": "2019-06-01",
+        "m1": "0.7731"
+      },
+      {
+        "p": "[ANA at SemEval-2019 Task 3: Contextual Emotion detection in Conversations through hierarchical LSTMs and BERT](https://arxiv.org/abs/1904.00132v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/chenyangh/SemEval2019Task3)",
+        "n": "HRLCE + BERT",
+        "d": "2019-03-30",
+        "m1": "0.7709"
+      },
+      {
+        "p": "[ConSSED at SemEval-2019 Task 3: Configurable Semantic and Sentiment Emotion Detector](https://aclanthology.org/S19-2027)",
+        "c": "[&check;&nbsp;Link](https://github.com/rafalposwiata/conssed)",
+        "n": "ConSSED",
+        "d": "2019-06-01",
+        "m1": "0.7664"
+      },
+      {
+        "p": "[Attention-based Modeling for Emotion Detection and Classification in Textual Conversations](https://arxiv.org/abs/1906.07020v1)",
+        "c": "",
+        "n": "Attention-based Modeling",
+        "d": "2019-06-14",
+        "m1": "0.7582"
+      },
+      {
+        "p": "[SNU IDS at SemEval-2019 Task 3: Addressing Training-Test Class Distribution Mismatch in Conversational Classification](https://aclanthology.org/S19-2054)",
+        "c": "[&check;&nbsp;Link](https://github.com/baaesh/semeval19_task3)",
+        "n": "Oversampling",
+        "d": "2019-06-01",
+        "m1": "0.758"
+      },
+      {
+        "p": "[Emotion Recognition in Conversation: Research Challenges, Datasets, and Recent Advances](https://arxiv.org/abs/1905.02947v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/SenticNet/conv-emotion)",
+        "n": "DialogueRNN",
+        "d": "2019-05-08",
+        "m1": "0.758"
+      },
+      {
+        "p": "[Knowledge-Enriched Transformer for Emotion Detection in Textual Conversations](https://arxiv.org/abs/1909.10681v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/zhongpeixiang/KET)",
+        "n": "KET",
+        "d": "2019-09-24",
+        "m1": "0.7413"
+      },
+      {
+        "p": "[Neural Feature Extraction for Contextual Emotion Detection](https://aclanthology.org/R19-1091)",
+        "c": "",
+        "n": "GRU + SVM",
+        "d": "2019-09-01",
+        "m1": "0.6993"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

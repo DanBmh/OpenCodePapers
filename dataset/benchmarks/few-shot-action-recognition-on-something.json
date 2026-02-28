@@ -1,0 +1,75 @@
+{
+  "title": "few-shot-action-recognition-on-something",
+  "task-hierarchy": [
+    "Action Recognition",
+    "Few Shot Action Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/ffmpbgrnn/CMN/tree/master/smsm-100"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "1:1 Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Hybrid Relation Guided Set Matching for Few-shot Action Recognition](https://arxiv.org/abs/2204.13423v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/alibaba-mmai-research/HyRSM)",
+        "n": "HyRSM",
+        "d": "2022-04-28",
+        "m1": "69.0"
+      },
+      {
+        "p": "[Spatio-temporal Relation Modeling for Few-shot Action Recognition](https://arxiv.org/abs/2112.05132v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Anirudh257/strm)",
+        "n": "STRM",
+        "d": "2021-12-09",
+        "m1": "68.1"
+      },
+      {
+        "p": "[Temporal-Relational CrossTransformers for Few-Shot Action Recognition](https://arxiv.org/abs/2101.06184v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/tobyperrett/trx)",
+        "n": "TRX",
+        "d": "2021-01-15",
+        "m1": "64.6"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "HF-AR",
+        "d": null,
+        "m1": "55.1"
+      },
+      {
+        "p": "[Few-Shot Video Classification via Temporal Alignment](https://arxiv.org/abs/1906.11415v1)",
+        "c": "",
+        "n": "OTAM",
+        "d": "2019-06-27",
+        "m1": "52.3"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

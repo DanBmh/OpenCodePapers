@@ -1,0 +1,109 @@
+{
+  "title": "emotion-recognition-in-conversation-on-emowoz",
+  "task-hierarchy": [
+    "Emotion Recognition",
+    "Emotion Recognition in Conversation"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Macro F1 (w/o Neutral)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Weighted F1 (w/o Neutral)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Macro F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Weighted F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[EmoWOZ: A Large-Scale Corpus and Labelling Scheme for Emotion Recognition in Task-Oriented Dialogue Systems](https://arxiv.org/abs/2109.04919v2)",
+        "c": "[&check;&nbsp;Link](https://gitlab.cs.uni-duesseldorf.de/general/dsml/emowoz-public)",
+        "n": "COSMIC",
+        "d": "2021-09-10",
+        "m1": "56.34",
+        "m2": "77.09",
+        "m3": "61.12",
+        "m4": "85.94"
+      },
+      {
+        "p": "[EmoWOZ: A Large-Scale Corpus and Labelling Scheme for Emotion Recognition in Task-Oriented Dialogue Systems](https://arxiv.org/abs/2109.04919v2)",
+        "c": "[&check;&nbsp;Link](https://gitlab.cs.uni-duesseldorf.de/general/dsml/emowoz-public)",
+        "n": "ContextBERT",
+        "d": "2021-09-10",
+        "m1": "54.30",
+        "m2": "79.67",
+        "m3": "59.79",
+        "m4": "88.33"
+      },
+      {
+        "p": "[EmoWOZ: A Large-Scale Corpus and Labelling Scheme for Emotion Recognition in Task-Oriented Dialogue Systems](https://arxiv.org/abs/2109.04919v2)",
+        "c": "[&check;&nbsp;Link](https://gitlab.cs.uni-duesseldorf.de/general/dsml/emowoz-public)",
+        "n": "DialogueRNN-BERT",
+        "d": "2021-09-10",
+        "m1": "52.15",
+        "m2": "75.50",
+        "m3": "57.10",
+        "m4": "83.41"
+      },
+      {
+        "p": "[EmoWOZ: A Large-Scale Corpus and Labelling Scheme for Emotion Recognition in Task-Oriented Dialogue Systems](https://arxiv.org/abs/2109.04919v2)",
+        "c": "[&check;&nbsp;Link](https://gitlab.cs.uni-duesseldorf.de/general/dsml/emowoz-public)",
+        "n": "BERT",
+        "d": "2021-09-10",
+        "m1": "50.14",
+        "m2": "73.55",
+        "m3": "55.80",
+        "m4": "84.83"
+      },
+      {
+        "p": "[EmoWOZ: A Large-Scale Corpus and Labelling Scheme for Emotion Recognition in Task-Oriented Dialogue Systems](https://arxiv.org/abs/2109.04919v2)",
+        "c": "[&check;&nbsp;Link](https://gitlab.cs.uni-duesseldorf.de/general/dsml/emowoz-public)",
+        "n": "DialogueRNN-GloVe",
+        "d": "2021-09-10",
+        "m1": "40.14",
+        "m2": "74.56",
+        "m3": "46.33",
+        "m4": "80.76"
+      },
+      {
+        "p": "[Context-Dependent Embedding Utterance Representations for Emotion Recognition in Conversations](https://arxiv.org/abs/2304.08216v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/patricia-pereira/cd-erc)",
+        "n": "CD-ERC",
+        "d": "2023-04-17",
+        "m3": "65.33"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

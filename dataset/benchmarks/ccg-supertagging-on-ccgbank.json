@@ -1,0 +1,92 @@
+{
+  "title": "ccg-supertagging-on-ccgbank",
+  "task-hierarchy": [
+    "CCG Supertagging"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Geometry-Aware Supertagging with Heterogeneous Dynamic Convolutions](https://arxiv.org/abs/2203.12235v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/konstantinoskokos/spindle)",
+        "n": "Heterogeneous Dynamic Convolutions",
+        "d": "2022-03-23",
+        "m1": "96.29"
+      },
+      {
+        "p": "[Supertagging Combinatory Categorial Grammar with Attentive Graph Convolutional Networks](https://arxiv.org/abs/2010.06115v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/cuhksz-nlp/NeST-CCG)",
+        "n": "NeST-CCG + BERT",
+        "d": "2020-10-13",
+        "m1": "96.25"
+      },
+      {
+        "p": "[Semi-Supervised Sequence Modeling with Cross-View Training](http://arxiv.org/abs/1809.08370v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+        "n": "CVT + Multi-task + Large",
+        "d": "2018-09-22",
+        "m1": "96.1"
+      },
+      {
+        "p": "[LSTM CCG Parsing](https://aclanthology.org/N16-1026)",
+        "c": "",
+        "n": "Lewis et al.",
+        "d": "2016-06-01",
+        "m1": "94.7"
+      },
+      {
+        "p": "[Hierarchically-Refined Label Attention Network for Sequence Labeling](https://arxiv.org/abs/1908.08676v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/Nealcly/LAN)",
+        "n": "BiLSTM-LAN",
+        "d": "2019-08-23",
+        "m1": "94.7"
+      },
+      {
+        "p": "[Supertagging With LSTMs](https://aclanthology.org/N16-1027)",
+        "c": "",
+        "n": "Vaswani et al.",
+        "d": "2016-06-01",
+        "m1": "94.24"
+      },
+      {
+        "p": "[Deep multi-task learning with low level tasks supervised at lower layers](https://aclanthology.org/P16-2038)",
+        "c": "",
+        "n": "Low supervision",
+        "d": "2016-08-01",
+        "m1": "93.26"
+      },
+      {
+        "p": "[CCG Supertagging with a Recurrent Neural Network](https://aclanthology.org/P15-2041)",
+        "c": "",
+        "n": "Xu et al.",
+        "d": "2015-07-01",
+        "m1": "93.00"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

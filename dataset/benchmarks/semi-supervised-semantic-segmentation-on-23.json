@@ -1,0 +1,145 @@
+{
+  "title": "semi-supervised-semantic-segmentation-on-23",
+  "task-hierarchy": [
+    "Semantic Segmentation",
+    "Semi-Supervised Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/ouenal/scribblekitti"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU (1% Labels)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "mIoU (10% Labels)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "mIoU (20% Labels)",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "mIoU (50% Labels)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[LaserMix for Semi-Supervised LiDAR Semantic Segmentation](https://arxiv.org/abs/2207.00026v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/ldkong1205/LaserMix)",
+        "n": "LaserMix (Voxel)",
+        "d": "2022-06-30",
+        "m1": "44.2",
+        "m2": "53.7",
+        "m3": "55.1",
+        "m4": "56.8"
+      },
+      {
+        "p": "[Mean teachers are better role models: Weight-averaged consistency targets improve semi-supervised deep learning results](http://arxiv.org/abs/1703.01780v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/CuriousAI/mean-teacher)",
+        "n": "MeanTeacher (Voxel)",
+        "d": "2017-03-06",
+        "m1": "41.0",
+        "m2": "50.1",
+        "m3": "52.8",
+        "m4": "53.9"
+      },
+      {
+        "p": "[Cylindrical and Asymmetrical 3D Convolution Networks for LiDAR Segmentation](https://arxiv.org/abs/2011.10033v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/xinge008/Cylinder3D)",
+        "n": "Sup.-only (Voxel)",
+        "d": "2020-11-19",
+        "m1": "39.2",
+        "m2": "48.0",
+        "m3": "52.1",
+        "m4": "53.8"
+      },
+      {
+        "p": "[LaserMix for Semi-Supervised LiDAR Semantic Segmentation](https://arxiv.org/abs/2207.00026v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/ldkong1205/LaserMix)",
+        "n": "LaserMix (Range View)",
+        "d": "2022-06-30",
+        "m1": "38.3",
+        "m2": "54.4",
+        "m3": "55.6",
+        "m4": "58.7"
+      },
+      {
+        "p": "[Semi-supervised semantic segmentation needs strong, varied perturbations](https://arxiv.org/abs/1906.01916v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/ZHKKKe/PixelSSL)",
+        "n": "CutMix-Seg (Range View)",
+        "d": "2019-06-05",
+        "m1": "36.7",
+        "m2": "50.7",
+        "m3": "52.9",
+        "m4": "54.3"
+      },
+      {
+        "p": "[Unsupervised Domain Adaptation for Semantic Segmentation via Class-Balanced Self-Training](http://openaccess.thecvf.com/content_ECCV_2018/html/Yang_Zou_Unsupervised_Domain_Adaptation_ECCV_2018_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/yzou2/CBST)",
+        "n": "CBST (Range View)",
+        "d": "2018-09-01",
+        "m1": "35.7",
+        "m2": "50.7",
+        "m3": "52.7",
+        "m4": "54.6"
+      },
+      {
+        "p": "[Mean teachers are better role models: Weight-averaged consistency targets improve semi-supervised deep learning results](http://arxiv.org/abs/1703.01780v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/CuriousAI/mean-teacher)",
+        "n": "MeanTeacher (Range View)",
+        "d": "2017-03-06",
+        "m1": "34.2",
+        "m2": "49.8",
+        "m3": "51.6",
+        "m4": "53.3"
+      },
+      {
+        "p": "[Semi-Supervised Semantic Segmentation with Cross Pseudo Supervision](https://arxiv.org/abs/2106.01226v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/charlesCXK/TorchSemiSeg)",
+        "n": "CPS (Range View)",
+        "d": "2021-06-02",
+        "m1": "33.7",
+        "m2": "50.0",
+        "m3": "52.8",
+        "m4": "54.6"
+      },
+      {
+        "p": "[FIDNet: LiDAR Point Cloud Semantic Segmentation with Fully Interpolation Decoding](https://arxiv.org/abs/2109.03787v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/placeforyiming/iros21-fidnet-semantickitti)",
+        "n": "Sup.-only (Range View)",
+        "d": "2021-09-08",
+        "m1": "33.1",
+        "m2": "47.7",
+        "m3": "49.9",
+        "m4": "52.5"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

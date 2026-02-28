@@ -1,0 +1,156 @@
+{
+  "title": "relation-extraction-on-ace-2004",
+  "task-hierarchy": [
+    "Relation Extraction"
+  ],
+  "dataset-info": {
+    "link": "https://catalog.ldc.upenn.edu/LDC2005T09"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "RE+ Micro F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "RE Micro F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "NER Micro F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Cross Sentence",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Packed Levitated Marker for Entity and Relation Extraction](https://arxiv.org/abs/2109.06067v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/tomaarsen/spanmarkerner)",
+        "n": "PL-Marker",
+        "d": "2021-09-13",
+        "m1": "66.5",
+        "m2": "69.7",
+        "m3": "90.4",
+        "m4": "Yes"
+      },
+      {
+        "p": "[A Partition Filter Network for Joint Entity and Relation Extraction](https://arxiv.org/abs/2108.12202v8)",
+        "c": "[&check;&nbsp;Link](https://github.com/Coopercoppers/PFN)",
+        "n": "PFN",
+        "d": "2021-08-27",
+        "m1": "62.5",
+        "m3": "89.3",
+        "m4": "No"
+      },
+      {
+        "p": "[A Frustratingly Easy Approach for Entity and Relation Extraction](https://arxiv.org/abs/2010.12812v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/princeton-nlp/PURE)",
+        "n": "Ours: cross-sentence ALB",
+        "d": "2020-10-24",
+        "m1": "62.2",
+        "m2": "66.1",
+        "m3": "90.3",
+        "m4": "Yes"
+      },
+      {
+        "p": "[Two are Better than One: Joint Entity and Relation Extraction with Table-Sequence Encoders](https://arxiv.org/abs/2010.03851v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/LorrinWWW/two-are-better-than-one)",
+        "n": "Table-Sequence",
+        "d": "2020-10-08",
+        "m1": "59.6",
+        "m2": "63.3",
+        "m3": "88.6",
+        "m4": "No"
+      },
+      {
+        "p": "[Entity-Relation Extraction as Multi-Turn Question Answering](https://arxiv.org/abs/1905.05529v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/ShannonAI/Entity-Relation-As-Multi-Turn-QA)",
+        "n": "Multi-turn QA",
+        "d": "2019-05-14",
+        "m1": "49.4",
+        "m3": "83.6",
+        "m4": "No"
+      },
+      {
+        "p": "[End-to-End Relation Extraction using LSTMs on Sequences and Tree Structures](http://arxiv.org/abs/1601.00770v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/tticoin/LSTM-ER)",
+        "n": "SPTree",
+        "d": "2016-01-05",
+        "m1": "48.4",
+        "m3": "81.8",
+        "m4": "No"
+      },
+      {
+        "p": "[Adversarial training for multi-context joint entity and relation extraction](http://arxiv.org/abs/1808.06876v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/bekou/multihead_joint_entity_relation_extraction)",
+        "n": "multi-head + AT",
+        "d": "2018-08-21",
+        "m1": "47.45",
+        "m3": "81.64",
+        "m4": "No"
+      },
+      {
+        "p": "[Joint entity recognition and relation extraction as a multi-head selection problem](http://arxiv.org/abs/1804.07847v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/bekou/multihead_joint_entity_relation_extraction)",
+        "n": "multi-head",
+        "d": "2018-04-20",
+        "m1": "47.14",
+        "m3": "81.16",
+        "m4": "No"
+      },
+      {
+        "p": "[Going out on a limb: Joint Extraction of Entity Mentions and Relations without Dependency Trees](https://aclanthology.org/P17-1085)",
+        "c": "",
+        "n": "Attention",
+        "d": "2017-07-01",
+        "m1": "45.7",
+        "m3": "79.6",
+        "m4": "No"
+      },
+      {
+        "p": "[Incremental Joint Extraction of Entity Mentions and Relations](https://aclanthology.org/P14-1038)",
+        "c": "",
+        "n": "Joint w/ Global",
+        "d": "2014-06-01",
+        "m1": "45.3",
+        "m3": "79.7",
+        "m4": "No"
+      },
+      {
+        "p": "[A General Framework for Information Extraction using Dynamic Span Graphs](http://arxiv.org/abs/1904.03296v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/luanyi/DyGIE)",
+        "n": "DyGIE",
+        "d": "2019-04-05",
+        "m2": "59.7",
+        "m3": "87.4",
+        "m4": "Yes"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

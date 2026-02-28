@@ -1,0 +1,237 @@
+{
+  "title": "3d-multi-person-pose-estimation-on-shelf",
+  "task-hierarchy": [
+    "Pose Estimation",
+    "3D Human Pose Estimation",
+    "3D Multi-Person Pose Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://campar.in.tum.de/Chair/MultiHumanPose"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PCP3D",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "MPJPE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[RapidPoseTriangulation: Multi-view Multi-person Whole-body Human Pose Triangulation in a Millisecond](https://arxiv.org/abs/2503.21692v1)",
+        "c": "[&check;&nbsp;Link](https://gitlab.com/Percipiote/RapidPoseTriangulation)",
+        "n": "RapidPoseTriangulation (with corrected labels)",
+        "d": "2025-03-27",
+        "m1": "100",
+        "m2": "47.5"
+      },
+      {
+        "p": "[Multi-person Physics-based Pose Estimation for Combat Sports](https://arxiv.org/abs/2504.08175v1)",
+        "c": "",
+        "n": "Feiz et al. (Kinematics)",
+        "d": "2025-04-11",
+        "m1": "98.6"
+      },
+      {
+        "p": "[QuickPose: Real-time Multi-view Multi-person Pose Estimation in Crowded Scenes](https://dl.acm.org/doi/abs/10.1145/3528233.3530746)",
+        "c": "",
+        "n": "QuickPose",
+        "d": "2022-07-22",
+        "m1": "98.1"
+      },
+      {
+        "p": "[Lightweight Multi-person Total Motion Capture Using Sparse Multi-view Cameras](https://arxiv.org/abs/2108.10378v1)",
+        "c": "",
+        "n": "Zhang et al.",
+        "d": "2021-08-23",
+        "m1": "98.1"
+      },
+      {
+        "p": "[Multi-View Multi-Person 3D Pose Estimation with Plane Sweep Stereo](https://arxiv.org/abs/2104.02273v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jiahaoLjh/PlaneSweepPose)",
+        "n": "PlaneSweepPose",
+        "d": "2021-04-06",
+        "m1": "97.9"
+      },
+      {
+        "p": "[TesseTrack: End-to-End Learnable Multi-Person Articulated 3D Pose Tracking](http://www.cs.cmu.edu/~ILIM/projects/IM/TesseTrack/)",
+        "c": "",
+        "n": "TesseTrack (correct)",
+        "d": "2021-06-16",
+        "m1": "97.9"
+      },
+      {
+        "p": "[Graph-Based 3D Multi-Person Pose Estimation Using Multi-View Images](https://arxiv.org/abs/2109.05885v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/wusize/multiview_pose)",
+        "n": "PRGN",
+        "d": "2021-09-13",
+        "m1": "97.7"
+      },
+      {
+        "p": "[A Unified Multi-view Multi-person Tracking Framework](https://arxiv.org/abs/2302.03820v1)",
+        "c": "",
+        "n": "UTTM",
+        "d": "2023-02-08",
+        "m1": "97.7"
+      },
+      {
+        "p": "[4D Association Graph for Realtime Multi-person Motion Capture Using Multiple Video Cameras](https://arxiv.org/abs/2002.12625v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/zhangyux15/4d_association)",
+        "n": "4D Association Pose",
+        "d": "2020-02-28",
+        "m1": "97.6"
+      },
+      {
+        "p": "[Faster VoxelPose: Real-time 3D Human Pose Estimation by Orthographic Projection](https://arxiv.org/abs/2207.10955v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/AlvinYH/Faster-VoxelPose)",
+        "n": "Faster VoxelPose",
+        "d": "2022-07-22",
+        "m1": "97.6"
+      },
+      {
+        "p": "[Real-Time Multi-View 3D Human Pose Estimation using Semantic Feedback to Smart Edge Sensors](https://arxiv.org/abs/2106.14729v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/AIS-Bonn/SmartEdgeSensor3DHumanPose)",
+        "n": "SmartEdgeSensor",
+        "d": "2021-06-28",
+        "m1": "97.4"
+      },
+      {
+        "p": "[Direct Multi-view Multi-person 3D Pose Estimation](https://arxiv.org/abs/2111.04076v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/openxrlab/xrmocap)",
+        "n": "MvP",
+        "d": "2021-11-07",
+        "m1": "97.4"
+      },
+      {
+        "p": "[End-to-end Dynamic Matching Network for Multi-view Multi-person 3d Pose Estimation](https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/6258_ECCV_2020_paper.php)",
+        "c": "",
+        "n": "Huang et al.",
+        "d": null,
+        "m1": "97.4"
+      },
+      {
+        "p": "[Part-Aware Measurement for Robust Multi-View Multi-Human 3D Pose Estimation and Tracking](https://arxiv.org/abs/2106.11589v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ivclab/Part-Aware_Measurement_for_3D_Pose_Estimation_and_Tracking)",
+        "n": "Part-aware Pose",
+        "d": "2021-06-22",
+        "m1": "97.39"
+      },
+      {
+        "p": "[VTP: Volumetric Transformer for Multi-view Multi-person 3D Pose Estimation](https://arxiv.org/abs/2205.12602v1)",
+        "c": "",
+        "n": "VTP",
+        "d": "2022-05-25",
+        "m1": "97.3",
+        "m2": "56.3"
+      },
+      {
+        "p": "[VoxelTrack: Multi-Person 3D Human Pose Estimation and Tracking in the Wild](https://arxiv.org/abs/2108.02452v1)",
+        "c": "",
+        "n": "VoxelTrack",
+        "d": "2021-08-05",
+        "m1": "97.1"
+      },
+      {
+        "p": "[VoxelPose: Towards Multi-Camera 3D Human Pose Estimation in Wild Environment](https://arxiv.org/abs/2004.06239v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmpose)",
+        "n": "VoxelPose",
+        "d": "2020-04-13",
+        "m1": "97"
+      },
+      {
+        "p": "[Fast and Robust Multi-Person 3D Pose Estimation from Multiple Views](http://arxiv.org/abs/1901.04111v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/zju3dv/EasyMocap)",
+        "n": "MVPose",
+        "d": "2019-01-14",
+        "m1": "96.9"
+      },
+      {
+        "p": "[Shape-aware Multi-Person Pose Estimation from Multi-View Images](https://arxiv.org/abs/2110.02330v1)",
+        "c": "",
+        "n": "Multi Person Pose",
+        "d": "2021-10-05",
+        "m1": "96.9"
+      },
+      {
+        "p": "[Cross-View Tracking for Multi-Human 3D Pose Estimation at over 100 FPS](https://arxiv.org/abs/2003.03972v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/longcw/crossview_3d_pose_tracking)",
+        "n": "crossview_3d_pose_tracking",
+        "d": "2020-03-09",
+        "m1": "96.8"
+      },
+      {
+        "p": "[Cross-View Tracking for Multi-Human 3D Pose Estimation at over 100 FPS](https://arxiv.org/abs/2003.03972v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/longcw/crossview_3d_pose_tracking)",
+        "n": "Cross-View",
+        "d": "2020-03-09",
+        "m1": "96.8"
+      },
+      {
+        "p": "[Iterative Greedy Matching for 3D Human Pose Tracking from Multiple Views](https://arxiv.org/abs/2101.09745v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jutanke/mv3dpose)",
+        "n": "Tanke and Gall",
+        "d": "2021-01-24",
+        "m1": "96.0"
+      },
+      {
+        "p": "[Light3DPose: Real-time Multi-Person 3D PoseEstimation from Multiple Views](https://arxiv.org/abs/2004.02688v1)",
+        "c": "",
+        "n": "Light3DPose",
+        "d": "2020-04-06",
+        "m1": "89.8"
+      },
+      {
+        "p": "[Multiple human 3d pose estimation from multiview images](https://link.springer.com/article/10.1007/s11042-017-5133-8)",
+        "c": "",
+        "n": "Ershadi-Nasab model",
+        "d": "2017-09-04",
+        "m1": "88"
+      },
+      {
+        "p": "[3D Pictorial Structures Revisited: Multiple Human Pose Estimation](https://ieeexplore.ieee.org/document/7360209/authors#authors)",
+        "c": "",
+        "n": "Belagiannis model v.3",
+        "d": "2016-10-01",
+        "m1": "77.5"
+      },
+      {
+        "p": "[Multiple human pose estimation with temporally consistent 3d pictorial structures](http://campar.in.tum.de/pub/belagiannis2014eccvChalearn/belagiannis2014eccvChalearn.pdf)",
+        "c": "",
+        "n": "Belagiannis model v.2",
+        "d": "2014-09-06",
+        "m1": "76"
+      },
+      {
+        "p": "[3D Pictorial Structures for Multiple Human Pose Estimation](http://openaccess.thecvf.com/content_cvpr_2014/html/Belagiannis_3D_Pictorial_Structures_2014_CVPR_paper.html)",
+        "c": "",
+        "n": "Belagiannis model v.1",
+        "d": "2014-06-01",
+        "m1": "71.4"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

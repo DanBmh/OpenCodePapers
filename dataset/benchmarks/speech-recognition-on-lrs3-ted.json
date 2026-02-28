@@ -1,0 +1,67 @@
+{
+  "title": "speech-recognition-on-lrs3-ted",
+  "task-hierarchy": [
+    "Speech Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://www.robots.ox.ac.uk/~vgg/data/lip_reading/lrs3.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Word Error Rate (WER)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Whisper-Flamingo: Integrating Visual Features into Whisper for Audio-Visual Speech Recognition and Translation](https://arxiv.org/abs/2406.10082v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/roudimit/whisper-flamingo)",
+        "n": "Whisper",
+        "d": "2024-06-14",
+        "m1": "0.68"
+      },
+      {
+        "p": "[Large Language Models are Strong Audio-Visual Speech Recognition Learners](https://arxiv.org/abs/2409.12319v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/umbertocappellazzo/llama-avsr)",
+        "n": "Llama-AVSR",
+        "d": "2024-09-18",
+        "m1": "0.81"
+      },
+      {
+        "p": "[Learning Audio-Visual Speech Representation by Masked Multimodal Cluster Prediction](https://arxiv.org/abs/2201.02184v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/av_hubert)",
+        "n": "AV-HuBERT Large",
+        "d": "2022-01-05",
+        "m1": "1.3"
+      },
+      {
+        "p": "[Jointly Learning Visual and Auditory Speech Representations from Raw Data](https://arxiv.org/abs/2212.06246v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/ahaliassos/raven)",
+        "n": "RAVEn Large",
+        "d": "2022-12-12",
+        "m1": "1.4"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

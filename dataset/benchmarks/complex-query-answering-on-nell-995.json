@@ -1,0 +1,163 @@
+{
+  "title": "complex-query-answering-on-nell-995",
+  "task-hierarchy": [
+    "Inductive knowledge graph completion",
+    "Large Language Model",
+    "Knowledge Graphs",
+    "Complex Query Answering"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MRR 1p",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "MRR 2i",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "MRR 2p",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "MRR 2u",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "MRR 3i",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "MRR 3p",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "MRR ip",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "MRR pi",
+        "sortable": "true"
+      },
+      {
+        "key": "m9",
+        "label": "MRR up",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Answering Complex Logical Queries on Knowledge Graphs via Query Computation Tree Optimization](https://arxiv.org/abs/2212.09567v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/bys0318/qto)",
+        "n": "QTO",
+        "d": "2022-12-19",
+        "m1": "0.607",
+        "m2": "0.425",
+        "m3": "0.241",
+        "m4": "0.204",
+        "m5": "0.506",
+        "m6": "0.216",
+        "m7": "0.265",
+        "m8": "0.313",
+        "m9": "0.179"
+      },
+      {
+        "p": "[Complex Query Answering with Neural Link Predictors](https://arxiv.org/abs/2011.03459v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/uclnlp/cqd)",
+        "n": "CQD",
+        "d": "2020-11-06",
+        "m1": "0.604",
+        "m2": "0.436",
+        "m7": "0.256"
+      },
+      {
+        "p": "[Adapting Neural Link Predictors for Data-Efficient Complex Query Answering](https://arxiv.org/abs/2301.12313v3)",
+        "c": "",
+        "n": "CQDA",
+        "d": "2023-01-29",
+        "m1": "0.604",
+        "m2": "0.434",
+        "m3": "0.229",
+        "m4": "0.200",
+        "m5": "0.526",
+        "m6": "0.167",
+        "m7": "0.264",
+        "m8": "0.321",
+        "m9": "0.170"
+      },
+      {
+        "p": "[Neural-Symbolic Models for Logical Queries on Knowledge Graphs](https://arxiv.org/abs/2205.10128v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/DeepGraphLearning/GNN-QE)",
+        "n": "GNN-QE",
+        "d": "2022-05-16",
+        "m1": "0.533",
+        "m2": "0.424",
+        "m3": "0.189",
+        "m4": "0.159",
+        "m5": "0.525",
+        "m6": "0.149",
+        "m7": "0.189",
+        "m8": "0.308",
+        "m9": "0.126"
+      },
+      {
+        "p": "[Beta Embeddings for Multi-Hop Logical Reasoning in Knowledge Graphs](https://arxiv.org/abs/2010.11465v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/snap-stanford/KGReasoning)",
+        "n": "BetaE",
+        "d": "2020-10-22",
+        "m1": "0.53",
+        "m2": "0.376",
+        "m3": "0.13",
+        "m4": "0.122",
+        "m5": "0.475",
+        "m6": "0.114",
+        "m7": "0.143",
+        "m8": "0.241",
+        "m9": "0.085"
+      },
+      {
+        "p": "[Query2box: Reasoning over Knowledge Graphs in Vector Space using Box Embeddings](https://arxiv.org/abs/2002.05969v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/snap-stanford/KGReasoning)",
+        "n": "Q2B",
+        "d": "2020-02-14",
+        "m1": "0.422",
+        "m2": "0.333",
+        "m3": "0.140",
+        "m4": "0.113",
+        "m5": "0.445",
+        "m6": "0.112",
+        "m7": "0.168",
+        "m8": "0.224",
+        "m9": "0.1103"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

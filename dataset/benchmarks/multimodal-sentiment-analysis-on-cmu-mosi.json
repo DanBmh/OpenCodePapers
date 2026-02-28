@@ -1,0 +1,192 @@
+{
+  "title": "multimodal-sentiment-analysis-on-cmu-mosi",
+  "task-hierarchy": [
+    "Sentiment Analysis",
+    "Multimodal Sentiment Analysis"
+  ],
+  "dataset-info": {
+    "link": "http://multicomp.cs.cmu.edu/resources/cmu-mosi-dataset/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Acc-7",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Acc-2",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Corr",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "MAE",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "F1-score (Weighted)",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "Acc-5",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Multimodal Multi-loss Fusion Network for Sentiment Analysis](https://arxiv.org/abs/2308.00264v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/zehuiwu/MMML)",
+        "n": "MMML",
+        "d": "2023-08-01",
+        "m1": "90.35",
+        "m2": "52.72",
+        "m3": "90.35",
+        "m4": "0.8824",
+        "m5": "0.5573",
+        "m7": "60.01"
+      },
+      {
+        "p": "[10,000+ Times Accelerated Robust Subset Selection (ARSS)](http://arxiv.org/abs/1409.3660v4)",
+        "c": "",
+        "n": "MCEN",
+        "d": "2014-09-12",
+        "m1": "87.48",
+        "m2": "50.58",
+        "m3": "87.35",
+        "m4": "0.813",
+        "m5": "0.678",
+        "m7": "58.02"
+      },
+      {
+        "p": "[UniMSE: Towards Unified Multimodal Sentiment Analysis and Emotion Recognition](https://arxiv.org/abs/2211.11256v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/lemei/unimse)",
+        "n": "UniMSE",
+        "d": "2022-11-21",
+        "m1": "86.42",
+        "m2": "48.68",
+        "m3": "86.9",
+        "m4": "0.809",
+        "m5": "0.691"
+      },
+      {
+        "p": "[MELTR: Meta Loss Transformer for Learning to Fine-tune Video Foundation Models](https://arxiv.org/abs/2303.13009v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/mlvlab/MELTR)",
+        "n": "UniVL + MELTR",
+        "d": "2023-03-23",
+        "m1": "85.4",
+        "m3": "85.3",
+        "m4": "0.789",
+        "m5": "0.759"
+      },
+      {
+        "p": "[TEASEL: A Transformer-Based Speech-Prefixed Language Model](https://arxiv.org/abs/2109.05522v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/tjdevWorks/TEASEL)",
+        "n": "TEASEL",
+        "d": "2021-09-12",
+        "m1": "85",
+        "m2": "47.52",
+        "m3": "87.5",
+        "m4": "0.836",
+        "m5": "0.64"
+      },
+      {
+        "p": "[Adversarial Multimodal Domain Transfer for Video-Level Sentiment Analysis](https://ieeexplore.ieee.org/abstract/document/9772490)",
+        "c": "",
+        "n": "VAE-AMDT",
+        "d": "2022-05-11",
+        "m1": "84.2",
+        "m3": "84.3",
+        "m5": "0.716"
+      },
+      {
+        "p": "[Improving Multimodal Fusion with Hierarchical Mutual Information Maximization for Multimodal Sentiment Analysis](https://arxiv.org/abs/2109.00412v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/declare-lab/multimodal-deep-learning)",
+        "n": "MMIM",
+        "d": "2021-09-01",
+        "m1": "84",
+        "m2": "46.65",
+        "m3": "84.14",
+        "m4": "0.8",
+        "m5": "0.7"
+      },
+      {
+        "p": "[Improving Multimodal Fusion with Hierarchical Mutual Information Maximization for Multimodal Sentiment Analysis](https://arxiv.org/abs/2109.00412v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/declare-lab/multimodal-deep-learning)",
+        "n": "self-M",
+        "d": "2021-09-01",
+        "m1": "82.68",
+        "m2": "45.79",
+        "m3": "82.54",
+        "m4": "0.795",
+        "m5": "0.712"
+      },
+      {
+        "p": "[Improving Multimodal Fusion with Hierarchical Mutual Information Maximization for Multimodal Sentiment Analysis](https://arxiv.org/abs/2109.00412v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/declare-lab/multimodal-deep-learning)",
+        "n": "MAG-BERT*",
+        "d": "2021-09-01",
+        "m1": "82.5",
+        "m2": "43.62",
+        "m3": "82.37",
+        "m4": "0.781",
+        "m5": "0.727"
+      },
+      {
+        "p": "[Learning Language-guided Adaptive Hyper-modality Representation for Multimodal Sentiment Analysis](https://arxiv.org/abs/2310.05804v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Haoyu-ha/ALMT)",
+        "n": "ALMT",
+        "d": "2023-10-09",
+        "m2": "49.42",
+        "m4": "0.805",
+        "m5": "0.683",
+        "m7": "56.41"
+      },
+      {
+        "p": "[Speech-Text Dialog Pre-training for Spoken Dialog Understanding with Explicit Cross-Modal Alignment](https://arxiv.org/abs/2305.11579v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/alibabaresearch/damo-convai)",
+        "n": "SPECTRA",
+        "d": "2023-05-19",
+        "m3": "87.5"
+      },
+      {
+        "p": "[TransModality: An End2End Fusion Method with Transformer for Multimodal Sentiment Analysis](https://arxiv.org/abs/2009.02902v2)",
+        "c": "",
+        "n": "Tri-TransModality",
+        "d": "2020-09-07",
+        "m6": "82.71"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

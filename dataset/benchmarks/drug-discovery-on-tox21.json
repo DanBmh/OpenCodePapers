@@ -1,0 +1,116 @@
+{
+  "title": "drug-discovery-on-tox21",
+  "task-hierarchy": [
+    "Drug Discovery"
+  ],
+  "dataset-info": {
+    "link": "http://bioinf.jku.at/research/DeepTox/tox21.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Structure to Property: Chemical Element Embeddings and a Deep Learning Approach for Accurate Prediction of Chemical Properties](https://arxiv.org/abs/2309.09355v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/dmamur/elembert)",
+        "n": "elEmBERT-V1",
+        "d": "2023-09-17",
+        "m1": "0.961"
+      },
+      {
+        "p": "[Perforated Backpropagation: A Neuroscience Inspired Extension to Artificial Neural Networks](https://arxiv.org/abs/2501.18018v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/PerforatedAI/PerforatedAI-API)",
+        "n": "TrimNet + Perforated Backpropagation",
+        "d": "2025-01-29",
+        "m1": "0.885"
+      },
+      {
+        "p": "[All SMILES Variational Autoencoder](https://arxiv.org/abs/1905.13343v2)",
+        "c": "",
+        "n": "SSVAE with multiple SMILES",
+        "d": "2019-05-30",
+        "m1": "0.871"
+      },
+      {
+        "p": "[ToxicBlend: Virtual Screening of Toxic Compounds with Ensemble Predictors](http://arxiv.org/abs/1806.04449v1)",
+        "c": "",
+        "n": "Ensemble predictor",
+        "d": "2018-06-12",
+        "m1": "0.862"
+      },
+      {
+        "p": "[TrimNet: learning molecular representation from triplet messages for biomedicine](https://doi.org/10.1093/bib/bbaa266)",
+        "c": "[&check;&nbsp;Link](https://github.com/yvquanli/TrimNet)",
+        "n": "TrimNet",
+        "d": "2020-11-04",
+        "m1": "0.860"
+      },
+      {
+        "p": "[Learning Graph-Level Representation for Drug Discovery](http://arxiv.org/abs/1709.03741v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/microljy/graph_level_drug_discovery)",
+        "n": "GraphConv + dummy super node",
+        "d": "2017-09-12",
+        "m1": "0.854"
+      },
+      {
+        "p": "[Convolutional Networks on Graphs for Learning Molecular Fingerprints](http://arxiv.org/abs/1509.09292v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/HIPS/neural-fingerprint)",
+        "n": "GraphConv",
+        "d": "2015-09-30",
+        "m1": "0.846"
+      },
+      {
+        "p": "[Self-Normalizing Neural Networks](http://arxiv.org/abs/1706.02515v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/bioinf-jku/SNNs)",
+        "n": "SNN (SELU Network)",
+        "d": "2017-06-08",
+        "m1": "0.845"
+      },
+      {
+        "p": "[Strategies for Pre-training Graph Neural Networks](https://arxiv.org/abs/1905.12265v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/snap-stanford/pretrain-gnns)",
+        "n": "ContextPred",
+        "d": "2019-05-29",
+        "m1": "0.781"
+      },
+      {
+        "p": "[GIT-Mol: A Multi-modal Large Language Model for Molecular Science with Graph, Image, and Text](https://arxiv.org/abs/2308.06911v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/ai-hpc-research-team/git-mol)",
+        "n": "GIT-Mol(G+S)",
+        "d": "2023-08-14",
+        "m1": "0.759"
+      },
+      {
+        "p": "[Relational Pooling for Graph Representations](https://arxiv.org/abs/1903.02541v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/PurdueMINDS/RelationalPooling)",
+        "n": "RNN-DFS",
+        "d": "2019-03-06",
+        "m1": "0.748"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

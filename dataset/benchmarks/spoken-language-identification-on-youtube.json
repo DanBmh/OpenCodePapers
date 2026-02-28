@@ -1,0 +1,80 @@
+{
+  "title": "spoken-language-identification-on-youtube",
+  "task-hierarchy": [
+    "Dialogue Understanding",
+    "Spoken Language Understanding",
+    "Spoken language identification"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy ",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "F1 Score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Is Attention always needed? A Case Study on Language Identification from Speech](https://arxiv.org/abs/2110.03427v3)",
+        "c": "",
+        "n": "CRNN",
+        "d": "2021-10-05",
+        "m1": "0.967"
+      },
+      {
+        "p": "[Is Attention always needed? A Case Study on Language Identification from Speech](https://arxiv.org/abs/2110.03427v3)",
+        "c": "",
+        "n": "CRNN Attention",
+        "d": "2021-10-05",
+        "m1": "0.966"
+      },
+      {
+        "p": "[Language Identification Using Deep Convolutional Recurrent Neural Networks](http://arxiv.org/abs/1708.04811v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/HPI-DeepLearning/crnn-lid)",
+        "n": "Inception-v3 CRNN",
+        "d": "2017-08-16",
+        "m1": "0.96",
+        "m2": "0.96"
+      },
+      {
+        "p": "[Is Attention always needed? A Case Study on Language Identification from Speech](https://arxiv.org/abs/2110.03427v3)",
+        "c": "",
+        "n": "CNN",
+        "d": "2021-10-05",
+        "m1": "0.948"
+      },
+      {
+        "p": "[Language Identification Using Deep Convolutional Recurrent Neural Networks](http://arxiv.org/abs/1708.04811v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/HPI-DeepLearning/crnn-lid)",
+        "n": "CRNN",
+        "d": "2017-08-16",
+        "m1": "0.91",
+        "m2": "0.91"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

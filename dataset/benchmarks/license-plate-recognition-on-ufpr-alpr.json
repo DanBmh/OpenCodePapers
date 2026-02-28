@@ -1,0 +1,61 @@
+{
+  "title": "license-plate-recognition-on-ufpr-alpr",
+  "task-hierarchy": [
+    "Image Recognition",
+    "License Plate Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://web.inf.ufpr.br/vri/databases/ufpr-alpr/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Rank-1 Recognition Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Character Time-series Matching For Robust License Plate Recognition](https://arxiv.org/abs/2307.11336v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/chequanghuy/Character-Time-series-Matching)",
+        "n": "Character Time-series Matching For Robust License Plate Recognition",
+        "d": "2023-07-21",
+        "m1": "96.7"
+      },
+      {
+        "p": "[An Efficient and Layout-Independent Automatic License Plate Recognition System Based on the YOLO detector](https://arxiv.org/abs/1909.01754v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/brightyoun/TITS-LPST)",
+        "n": "YOLOv2 + Fast-YOLOv2 + CR-NET",
+        "d": "2019-09-04",
+        "m1": "90"
+      },
+      {
+        "p": "[A Robust Real-Time Automatic License Plate Recognition Based on the YOLO Detector](http://arxiv.org/abs/1802.09567v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/ikigai-aa/Automatic-License-Plate-Recognition)",
+        "n": "YOLOv2 + Fast-YOLOv2 + CR-NET",
+        "d": "2018-02-26",
+        "m1": "64.89"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "title": "2d-human-pose-estimation-on-coco-wholebody-1",
+  "task-hierarchy": [
+    "2D Human Pose Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/jin-s13/COCO-WholeBody"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "WB",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "body",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "foot",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "face",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "hand",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[RTMW: Real-Time Multi-Person 2D and 3D Whole-body Pose Estimation](https://arxiv.org/abs/2407.08634v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmpose)",
+        "n": "RTMW-x",
+        "d": "2024-07-11",
+        "m1": "70.2",
+        "m2": "76.3",
+        "m3": "79.6",
+        "m4": "88.4",
+        "m5": "66.4"
+      },
+      {
+        "p": "[PCNet: a human pose compensation network based on incremental learning for sports actions estimation](https://link.springer.com/content/pdf/10.1007/s40747-024-01647-1.pdf)",
+        "c": "",
+        "n": "PCNet",
+        "d": "2024-11-11",
+        "m1": "66.4",
+        "m2": "76.9",
+        "m3": "65.3",
+        "m4": "89.7",
+        "m5": "65.6"
+      },
+      {
+        "p": "[ZoomNAS: Searching for Whole-body Human Pose Estimation in the Wild](https://arxiv.org/abs/2208.11547v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jin-s13/COCO-WholeBody)",
+        "n": "ZoomNAS (V1.0 data)",
+        "d": "2022-08-23",
+        "m1": "65.4",
+        "m2": "74.0",
+        "m3": "61.7",
+        "m4": "88.9",
+        "m5": "62.5"
+      },
+      {
+        "p": "[RTMPose: Real-Time Multi-Person Pose Estimation based on MMPose](https://arxiv.org/abs/2303.07399v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmpose)",
+        "n": "RTMPose",
+        "d": "2023-03-13",
+        "m1": "65.3",
+        "m2": "71.4",
+        "m3": "69.2",
+        "m4": "88.9",
+        "m5": "59.0"
+      },
+      {
+        "p": "[Not All Tokens Are Equal: Human-centric Visual Analysis via Token Clustering Transformer](https://arxiv.org/abs/2204.08680v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/zengwang430521/tcformer)",
+        "n": "TCFormer",
+        "d": "2022-04-19",
+        "m1": "64.2",
+        "m2": "71.8",
+        "m3": "74.4",
+        "m4": "79.0",
+        "m5": "61.4"
+      },
+      {
+        "p": "[ZoomNAS: Searching for Whole-body Human Pose Estimation in the Wild](https://arxiv.org/abs/2208.11547v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jin-s13/COCO-WholeBody)",
+        "n": "ZoomNet (V1.0 data)",
+        "d": "2022-08-23",
+        "m1": "63.0",
+        "m2": "74.5",
+        "m3": "60.9",
+        "m4": "88.0",
+        "m5": "57.9"
+      },
+      {
+        "p": "[Sapiens: Foundation for Human Vision Models](https://arxiv.org/abs/2408.12569v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/sapiens)",
+        "n": "Sapiens-0.3B",
+        "d": "2024-08-22",
+        "m1": "62.0",
+        "m2": "66.4",
+        "m3": "67.3",
+        "m4": "87.1",
+        "m5": "58.1"
+      },
+      {
+        "p": "[ViTPose++: Vision Transformer for Generic Body Pose Estimation](https://arxiv.org/abs/2212.04246v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "n": "ViTPose+-H",
+        "d": "2022-12-07",
+        "m1": "61.2",
+        "m2": "75.9",
+        "m3": "77.9",
+        "m4": "63.3",
+        "m5": "54.7"
+      },
+      {
+        "p": "[Keypoint Communities](https://arxiv.org/abs/2110.00988v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/duncanzauss/keypoint_communities)",
+        "n": "Zauss et al.",
+        "d": "2021-10-03",
+        "m1": "60.4",
+        "m2": "69.6",
+        "m3": "63.4",
+        "m4": "85.0",
+        "m5": "52.9"
+      },
+      {
+        "p": "[RTMW: Real-Time Multi-Person 2D and 3D Whole-body Pose Estimation](https://arxiv.org/abs/2407.08634v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmpose)",
+        "n": "RTMW-m",
+        "d": "2024-07-11",
+        "m1": "58",
+        "m2": "67.6",
+        "m3": "67.1",
+        "m4": "78.3",
+        "m5": "49.1"
+      },
+      {
+        "p": "[Whole-Body Human Pose Estimation in the Wild](https://arxiv.org/abs/2007.11858v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmpose)",
+        "n": "ZoomNet (V0.5 data)",
+        "d": "2020-07-23",
+        "m1": "54.1",
+        "m2": "74.3",
+        "m3": "79.8",
+        "m4": "62.3",
+        "m5": "40.1"
+      },
+      {
+        "p": "[Deep High-Resolution Representation Learning for Human Pose Estimation](http://arxiv.org/abs/1902.09212v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection)",
+        "n": "HRNet",
+        "d": "2019-02-25",
+        "m1": "43.2",
+        "m2": "65.9",
+        "m3": "31.4",
+        "m4": " 52.3",
+        "m5": "30.0"
+      },
+      {
+        "p": "[HPRNet: Hierarchical Point Regression for Whole-Body Human Pose Estimation](https://arxiv.org/abs/2106.04269v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/nerminsamet/HPRNet)",
+        "n": "HPRNet",
+        "d": "2021-06-08",
+        "m1": "34.8",
+        "m2": "59.4",
+        "m3": "53.0",
+        "m4": "75.4",
+        "m5": "50.4"
+      },
+      {
+        "p": "[Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields](http://arxiv.org/abs/1611.08050v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/CMU-Perceptual-Computing-Lab/openpose)",
+        "n": "OpenPose",
+        "d": "2016-11-24",
+        "m1": "33.8",
+        "m2": "56.3",
+        "m3": "53.2",
+        "m4": "48.2",
+        "m5": "19.8"
+      },
+      {
+        "p": "[Associative Embedding: End-to-End Learning for Joint Detection and Grouping](http://arxiv.org/abs/1611.05424v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmpose)",
+        "n": "AE",
+        "d": "2016-11-16",
+        "m1": "27.4",
+        "m2": "40.5",
+        "m3": "7.7",
+        "m4": "47.7",
+        "m5": "34.1"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

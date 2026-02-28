@@ -1,0 +1,143 @@
+{
+  "title": "inductive-link-prediction-on-wikidata5m-si",
+  "task-hierarchy": [
+    "Link Prediction",
+    "Inductive Link Prediction"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/uma-pi1/wikidata5m-si"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "0-shot MRR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "1-shot MRR",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "10-shot MRR",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[A Benchmark for Semi-Inductive Link Prediction in Knowledge Graphs](https://arxiv.org/abs/2310.11917v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/uma-pi1/wikidata5m-si)",
+        "n": "KGT5 (descriptions)",
+        "d": "2023-10-18",
+        "m1": "0.470"
+      },
+      {
+        "p": "[A Benchmark for Semi-Inductive Link Prediction in Knowledge Graphs](https://arxiv.org/abs/2310.11917v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/uma-pi1/wikidata5m-si)",
+        "n": "KGT5-context (descriptions)",
+        "d": "2023-10-18",
+        "m1": "0.417",
+        "m2": "0.420",
+        "m3": "0.437"
+      },
+      {
+        "p": "[A Benchmark for Semi-Inductive Link Prediction in Knowledge Graphs](https://arxiv.org/abs/2310.11917v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/uma-pi1/wikidata5m-si)",
+        "n": "SimKGC (descriptions)",
+        "d": "2023-10-18",
+        "m1": "0.403"
+      },
+      {
+        "p": "[A Benchmark for Semi-Inductive Link Prediction in Knowledge Graphs](https://arxiv.org/abs/2310.11917v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/uma-pi1/wikidata5m-si)",
+        "n": "KGT5 (mentions)",
+        "d": "2023-10-18",
+        "m1": "0.31"
+      },
+      {
+        "p": "[A Benchmark for Semi-Inductive Link Prediction in Knowledge Graphs](https://arxiv.org/abs/2310.11917v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/uma-pi1/wikidata5m-si)",
+        "n": "SimKGC (mentions)",
+        "d": "2023-10-18",
+        "m1": "0.22"
+      },
+      {
+        "p": "[A Benchmark for Semi-Inductive Link Prediction in Knowledge Graphs](https://arxiv.org/abs/2310.11917v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/uma-pi1/wikidata5m-si)",
+        "n": "ComplEx + Bias * FoldIn",
+        "d": "2023-10-18",
+        "m1": "0.124"
+      },
+      {
+        "p": "[A Benchmark for Semi-Inductive Link Prediction in Knowledge Graphs](https://arxiv.org/abs/2310.11917v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/uma-pi1/wikidata5m-si)",
+        "n": "HittER",
+        "d": "2023-10-18",
+        "m1": "0.019",
+        "m2": "0.105",
+        "m3": "0.221"
+      },
+      {
+        "p": "[A Benchmark for Semi-Inductive Link Prediction in Knowledge Graphs](https://arxiv.org/abs/2310.11917v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/uma-pi1/wikidata5m-si)",
+        "n": "DistMult + ERAvg (descriptions)",
+        "d": "2023-10-18",
+        "m2": "0.278",
+        "m3": "0.292"
+      },
+      {
+        "p": "[A Benchmark for Semi-Inductive Link Prediction in Knowledge Graphs](https://arxiv.org/abs/2310.11917v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/uma-pi1/wikidata5m-si)",
+        "n": "KGT5-context (mentions)",
+        "d": "2023-10-18",
+        "m2": "0.217",
+        "m3": "0.311"
+      },
+      {
+        "p": "[A Benchmark for Semi-Inductive Link Prediction in Knowledge Graphs](https://arxiv.org/abs/2310.11917v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/uma-pi1/wikidata5m-si)",
+        "n": "DistMult + ERAvg (mentions)",
+        "d": "2023-10-18",
+        "m2": "0.187",
+        "m3": "0.28"
+      },
+      {
+        "p": "[A Benchmark for Semi-Inductive Link Prediction in Knowledge Graphs](https://arxiv.org/abs/2310.11917v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/uma-pi1/wikidata5m-si)",
+        "n": "DistMult + ERAvg",
+        "d": "2023-10-18",
+        "m2": "0.171",
+        "m3": "0.333"
+      },
+      {
+        "p": "[A Benchmark for Semi-Inductive Link Prediction in Knowledge Graphs](https://arxiv.org/abs/2310.11917v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/uma-pi1/wikidata5m-si)",
+        "n": "ComplEx + Bias + Fold in",
+        "d": "2023-10-18",
+        "m2": "0.151",
+        "m3": "0.206"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

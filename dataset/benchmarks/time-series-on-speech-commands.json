@@ -1,0 +1,86 @@
+{
+  "title": "time-series-on-speech-commands",
+  "task-hierarchy": [
+    "Time Series Analysis"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/1804.03209"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "% Test Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "% Test Accuracy (Raw Data)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[SepTr: Separable Transformer for Audio Spectrogram Processing](https://arxiv.org/abs/2203.09581v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/ristea/septr)",
+        "n": "SepTr",
+        "d": "2022-03-17",
+        "m1": "98.51"
+      },
+      {
+        "p": "[AST: Audio Spectrogram Transformer](https://arxiv.org/abs/2104.01778v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/YuanGongND/ast)",
+        "n": "ViT",
+        "d": "2021-04-05",
+        "m1": "98.11"
+      },
+      {
+        "p": "[FlexConv: Continuous Kernel Convolutions with Differentiable Kernel Sizes](https://arxiv.org/abs/2110.08059v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/rjbruin/flexconv)",
+        "n": "FlexTCN-4",
+        "d": "2021-10-15",
+        "m1": "97.73"
+      },
+      {
+        "p": "[MatchboxNet: 1D Time-Channel Separable Convolutional Neural Network Architecture for Speech Commands Recognition](http://arxiv.org/abs/2004.08531v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research/tree/master/kws_streaming)",
+        "n": "MatchboxNet",
+        "d": "2020-04-21",
+        "m1": "97.40"
+      },
+      {
+        "p": "[CKConv: Continuous Kernel Convolution For Sequential Data](https://arxiv.org/abs/2102.02611v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/dwromero/ckconv)",
+        "n": "CKCNN (100k)",
+        "d": "2021-02-04",
+        "m1": "95.27"
+      },
+      {
+        "p": "[FlexConv: Continuous Kernel Convolutions with Differentiable Kernel Sizes](https://arxiv.org/abs/2110.08059v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/rjbruin/flexconv)",
+        "n": "FlexTCN-6",
+        "d": "2021-10-15",
+        "m2": "91.73"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

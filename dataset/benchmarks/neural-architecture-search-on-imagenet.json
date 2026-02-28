@@ -1,0 +1,1285 @@
+{
+  "title": "neural-architecture-search-on-imagenet",
+  "task-hierarchy": [
+    "AutoML",
+    "Neural Architecture Search"
+  ],
+  "dataset-info": {
+    "link": "https://image-net.org/index.php"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Top-1 Error Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Params",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "MACs",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "FLOPs",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[DeepMAD: Mathematical Architecture Design for Deep Convolutional Neural Network](https://arxiv.org/abs/2303.02165v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/alibaba/lightweight-neural-architecture-search)",
+        "n": "DeepMAD-50M",
+        "d": "2023-03-05",
+        "m1": "16.1",
+        "m2": "83.9",
+        "m3": "50M",
+        "m5": "8.7G"
+      },
+      {
+        "p": "[Zen-NAS: A Zero-Shot NAS for High-Performance Deep Image Recognition](https://arxiv.org/abs/2102.01063v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/alibaba/lightweight-neural-architecture-search)",
+        "n": "ZenNAS (1.2ms)",
+        "d": "2021-02-01",
+        "m1": "16.4",
+        "m2": "83.6",
+        "m3": "180M",
+        "m5": "22G"
+      },
+      {
+        "p": "[GPUNet: Searching the Deployable Convolution Neural Networks for GPUs](https://arxiv.org/abs/2205.00841v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/NVIDIA/DeepLearningExamples)",
+        "n": "GPUNet-D3",
+        "d": "2022-04-26",
+        "m1": "16.4",
+        "m3": "19M",
+        "m5": "15.6G"
+      },
+      {
+        "p": "[GPUNet: Searching the Deployable Convolution Neural Networks for GPUs](https://arxiv.org/abs/2205.00841v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/NVIDIA/DeepLearningExamples)",
+        "n": "GPUNet-D1",
+        "d": "2022-04-26",
+        "m1": "17.5",
+        "m3": "10.6M",
+        "m5": "3.66G"
+      },
+      {
+        "p": "[FBNetV3: Joint Architecture-Recipe Search using Predictor Pretraining](https://arxiv.org/abs/2006.02049v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "n": "FBNetV3-G",
+        "d": "2020-06-03",
+        "m1": "17.7",
+        "m2": "82.3",
+        "m4": "2.0G"
+      },
+      {
+        "p": "[BossNAS: Exploring Hybrid CNN-transformers with Block-wisely Self-supervised Neural Architecture Search](https://arxiv.org/abs/2103.12424v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/changlin31/BossNAS)",
+        "n": "BossNet-T1+",
+        "d": "2021-03-23",
+        "m1": "17.8",
+        "m2": "82.2",
+        "m4": "10.5G"
+      },
+      {
+        "p": "[NASViT: Neural Architecture Search for Efficient Vision Transformers with Gradient Conflict aware Supernet Training](https://openreview.net/forum?id=Qaw16njk6L)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/NASViT)",
+        "n": "NASViT-A5",
+        "d": "2021-09-29",
+        "m1": "18.2",
+        "m2": "81.8",
+        "m5": "757M"
+      },
+      {
+        "p": "[FBNetV5: Neural Architecture Search for Multiple Tasks in One Run](https://arxiv.org/abs/2111.10007v3)",
+        "c": "",
+        "n": "FBNetV5",
+        "d": "2021-11-19",
+        "m1": "18.2",
+        "m5": "726M"
+      },
+      {
+        "p": "[FBNetV5: Neural Architecture Search for Multiple Tasks in One Run](https://arxiv.org/abs/2111.10007v3)",
+        "c": "",
+        "n": "FBNetV5-A-CLS",
+        "d": "2021-11-19",
+        "m1": "18.3",
+        "m2": "81.7",
+        "m5": "685M"
+      },
+      {
+        "p": "[NASViT: Neural Architecture Search for Efficient Vision Transformers with Gradient Conflict aware Supernet Training](https://openreview.net/forum?id=Qaw16njk6L)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/NASViT)",
+        "n": "NASViT-A4",
+        "d": "2021-09-29",
+        "m1": "18.6",
+        "m2": "81.4",
+        "m5": "591M"
+      },
+      {
+        "p": "[NASViT: Neural Architecture Search for Efficient Vision Transformers with Gradient Conflict aware Supernet Training](https://openreview.net/forum?id=Qaw16njk6L)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/NASViT)",
+        "n": "NASViT-A3",
+        "d": "2021-09-29",
+        "m1": "19.0",
+        "m2": "81.0",
+        "m5": "528M"
+      },
+      {
+        "p": "[AlphaNet: Improved Training of Supernets with Alpha-Divergence](https://arxiv.org/abs/2102.07954v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/AttentiveNAS)",
+        "n": "AlphaNet-A6",
+        "d": "2021-02-16",
+        "m1": "19.2",
+        "m2": "80.8",
+        "m5": "709M"
+      },
+      {
+        "p": "[UniNet: Unified Architecture Search with Convolution, Transformer, and MLP](https://arxiv.org/abs/2207.05420v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/sense-x/tokenmix)",
+        "n": "UniNet-B0",
+        "d": "2022-07-12",
+        "m1": "19.2",
+        "m3": "11.5M",
+        "m5": "555M"
+      },
+      {
+        "p": "[AlphaNet: Improved Training of Supernets with Alpha-Divergence](https://arxiv.org/abs/2102.07954v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/AttentiveNAS)",
+        "n": "AlphaNet-A5 (base)",
+        "d": "2021-02-16",
+        "m1": "19.4",
+        "m2": "80.6",
+        "m5": "596M"
+      },
+      {
+        "p": "[Neural Architecture Transfer](https://arxiv.org/abs/2005.05859v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/human-analysis/neural-architecture-transfer)",
+        "n": "NAT-M4",
+        "d": "2020-05-12",
+        "m1": "19.5",
+        "m2": "80.5",
+        "m3": "9.1M",
+        "m4": "600M"
+      },
+      {
+        "p": "[NASViT: Neural Architecture Search for Efficient Vision Transformers with Gradient Conflict aware Supernet Training](https://openreview.net/forum?id=Qaw16njk6L)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/NASViT)",
+        "n": "NASViT-A2",
+        "d": "2021-09-29",
+        "m1": "19.5",
+        "m2": "80.5",
+        "m5": "421M"
+      },
+      {
+        "p": "[NSGANetV2: Evolutionary Multi-Objective Surrogate-Assisted Neural Architecture Search](https://arxiv.org/abs/2007.10396v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/mikelzc1990/nsganetv2)",
+        "n": "NSGANetV2-xl",
+        "d": "2020-07-20",
+        "m1": "19.6",
+        "m2": "80.4",
+        "m3": "8.7M",
+        "m4": "593M"
+      },
+      {
+        "p": "[FBNetV3: Joint Architecture-Recipe Search using Predictor Pretraining](https://arxiv.org/abs/2006.02049v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "n": "FBNetV3-E",
+        "d": "2020-06-03",
+        "m1": "19.6",
+        "m2": "80.4",
+        "m4": "752M"
+      },
+      {
+        "p": "[AlphaNet: Improved Training of Supernets with Alpha-Divergence](https://arxiv.org/abs/2102.07954v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/AttentiveNAS)",
+        "n": "AlphaNet-A5 (small)",
+        "d": "2021-02-16",
+        "m1": "19.7",
+        "m2": "80.3",
+        "m5": "491M"
+      },
+      {
+        "p": "[ISyNet: Convolutional Neural Networks design for AI accelerator](https://arxiv.org/abs/2109.01932v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/mindspore-ai/models/tree/master/research/cv/ISyNet)",
+        "n": "ISyNet-N3",
+        "d": "2021-09-04",
+        "m1": "19.84"
+      },
+      {
+        "p": "[HardCoRe-NAS: Hard Constrained diffeRentiable Neural Architecture Search](https://arxiv.org/abs/2102.11646v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Alibaba-MIIL/HardCoReNAS)",
+        "n": "HardcoreNAS_E_KD",
+        "d": "2021-02-23",
+        "m1": "19.9",
+        "m2": "80.1",
+        "m4": "330M"
+      },
+      {
+        "p": "[AttentiveNAS: Improving Neural Architecture Search via Attentive Sampling](https://arxiv.org/abs/2011.09011v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/AttentiveNAS)",
+        "n": "AttentiveNAS-A5",
+        "d": "2020-11-18",
+        "m1": "19.9",
+        "m2": "80.1",
+        "m4": "491M"
+      },
+      {
+        "p": "[AlphaNet: Improved Training of Supernets with Alpha-Divergence](https://arxiv.org/abs/2102.07954v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/AttentiveNAS)",
+        "n": "AlphaNet-A4",
+        "d": "2021-02-16",
+        "m1": "20.0",
+        "m2": "80.0",
+        "m5": "444M"
+      },
+      {
+        "p": "[Neural Architecture Transfer](https://arxiv.org/abs/2005.05859v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/human-analysis/neural-architecture-transfer)",
+        "n": "NAT-M3",
+        "d": "2020-05-12",
+        "m1": "20.1",
+        "m2": "79.9",
+        "m3": "9.1M",
+        "m4": "490M"
+      },
+      {
+        "p": "[AttentiveNAS: Improving Neural Architecture Search via Attentive Sampling](https://arxiv.org/abs/2011.09011v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/AttentiveNAS)",
+        "n": "AttentiveNAS-A4",
+        "d": "2020-11-18",
+        "m1": "20.2",
+        "m2": "79.8",
+        "m4": "444M"
+      },
+      {
+        "p": "[SEDONA: Search for Decoupled Neural Networks toward Greedy Block-wise Learning](https://openreview.net/forum?id=XLfdzwNKzch)",
+        "c": "[&check;&nbsp;Link](https://github.com/mjpyeon/sedona)",
+        "n": "SEDONA (ResNet-152 Aux. Ens., K=4)",
+        "d": "2021-01-01",
+        "m1": "20.2"
+      },
+      {
+        "p": "[NASViT: Neural Architecture Search for Efficient Vision Transformers with Gradient Conflict aware Supernet Training](https://openreview.net/forum?id=Qaw16njk6L)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/NASViT)",
+        "n": "NASViT-A1",
+        "d": "2021-09-29",
+        "m1": "20.3",
+        "m2": "79.7",
+        "m5": "309M"
+      },
+      {
+        "p": "[GPUNet: Searching the Deployable Convolution Neural Networks for GPUs](https://arxiv.org/abs/2205.00841v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/NVIDIA/DeepLearningExamples)",
+        "n": "GPUNet-D0",
+        "d": "2022-04-26",
+        "m1": "20.3",
+        "m3": "6.2M",
+        "m5": "720M"
+      },
+      {
+        "p": "[FBNetV3: Joint Architecture-Recipe Search using Predictor Pretraining](https://arxiv.org/abs/2006.02049v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "n": "FBNetV3-C",
+        "d": "2020-06-03",
+        "m1": "20.4",
+        "m2": "79.6",
+        "m4": "544M"
+      },
+      {
+        "p": "[BigNAS: Scaling Up Neural Architecture Search with Big Single-Stage Models](https://arxiv.org/abs/2003.11142v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/GAIA-vision/GAIA-cv)",
+        "n": "BigNASModel-L",
+        "d": "2020-03-24",
+        "m1": "20.5",
+        "m2": "79.5",
+        "m3": "6.4M",
+        "m4": "586M"
+      },
+      {
+        "p": "[HardCoRe-NAS: Hard Constrained diffeRentiable Neural Architecture Search](https://arxiv.org/abs/2102.11646v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Alibaba-MIIL/HardCoReNAS)",
+        "n": "HardcoreNAS_D_KD",
+        "d": "2021-02-23",
+        "m1": "20.5",
+        "m2": "79.5",
+        "m4": "290M"
+      },
+      {
+        "p": "[ISyNet: Convolutional Neural Networks design for AI accelerator](https://arxiv.org/abs/2109.01932v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/mindspore-ai/models/tree/master/research/cv/ISyNet)",
+        "n": "ISyNet-N2",
+        "d": "2021-09-04",
+        "m1": "20.59"
+      },
+      {
+        "p": "[AlphaNet: Improved Training of Supernets with Alpha-Divergence](https://arxiv.org/abs/2102.07954v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/AttentiveNAS)",
+        "n": "AlphaNet-A3",
+        "d": "2021-02-16",
+        "m1": "20.6",
+        "m2": "79.4",
+        "m5": "357M"
+      },
+      {
+        "p": "[AlphaNet: Improved Training of Supernets with Alpha-Divergence](https://arxiv.org/abs/2102.07954v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/AttentiveNAS)",
+        "n": "AlphaNet-A2",
+        "d": "2021-02-16",
+        "m1": "20.8",
+        "m2": "79.2",
+        "m5": "317M"
+      },
+      {
+        "p": "[NSGANetV2: Evolutionary Multi-Objective Surrogate-Assisted Neural Architecture Search](https://arxiv.org/abs/2007.10396v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/mikelzc1990/nsganetv2)",
+        "n": "NSGANetV2-l",
+        "d": "2020-07-20",
+        "m1": "20.9",
+        "m2": "79.1",
+        "m3": "8.0M",
+        "m4": "400M"
+      },
+      {
+        "p": "[AttentiveNAS: Improving Neural Architecture Search via Attentive Sampling](https://arxiv.org/abs/2011.09011v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/AttentiveNAS)",
+        "n": "AttentiveNAS-A3",
+        "d": "2020-11-18",
+        "m1": "20.9",
+        "m2": "79.1",
+        "m4": "357M"
+      },
+      {
+        "p": "[AlphaNet: Improved Training of Supernets with Alpha-Divergence](https://arxiv.org/abs/2102.07954v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/AttentiveNAS)",
+        "n": "AlphaNet-A1",
+        "d": "2021-02-16",
+        "m1": "21.0",
+        "m2": "79.0",
+        "m5": "279M"
+      },
+      {
+        "p": "[SEDONA: Search for Decoupled Neural Networks toward Greedy Block-wise Learning](https://openreview.net/forum?id=XLfdzwNKzch)",
+        "c": "[&check;&nbsp;Link](https://github.com/mjpyeon/sedona)",
+        "n": "SEDONA (ResNet-152, K=4)",
+        "d": "2021-01-01",
+        "m1": "21.09"
+      },
+      {
+        "p": "[BigNAS: Scaling Up Neural Architecture Search with Big Single-Stage Models](https://arxiv.org/abs/2003.11142v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/GAIA-vision/GAIA-cv)",
+        "n": "BigNASModel-M",
+        "d": "2020-03-24",
+        "m1": "21.1",
+        "m2": "78.9",
+        "m3": "5.5M",
+        "m4": "418M"
+      },
+      {
+        "p": "[HardCoRe-NAS: Hard Constrained diffeRentiable Neural Architecture Search](https://arxiv.org/abs/2102.11646v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Alibaba-MIIL/HardCoReNAS)",
+        "n": "HardcoreNAS_C_KD",
+        "d": "2021-02-23",
+        "m1": "21.1",
+        "m2": "78.9",
+        "m4": "270M"
+      },
+      {
+        "p": "[HardCoRe-NAS: Hard Constrained diffeRentiable Neural Architecture Search](https://arxiv.org/abs/2102.11646v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Alibaba-MIIL/HardCoReNAS)",
+        "n": "HardcoreNAS_B_KD",
+        "d": "2021-02-23",
+        "m1": "21.2",
+        "m2": "78.8",
+        "m4": "250M"
+      },
+      {
+        "p": "[AttentiveNAS: Improving Neural Architecture Search via Attentive Sampling](https://arxiv.org/abs/2011.09011v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/AttentiveNAS)",
+        "n": "AttentiveNAS-A2",
+        "d": "2020-11-18",
+        "m1": "21.2",
+        "m2": "78.8",
+        "m4": "317M"
+      },
+      {
+        "p": "[$μ$DARTS: Model Uncertainty-Aware Differentiable Architecture Search](https://arxiv.org/abs/2107.11500v2)",
+        "c": "",
+        "n": "μDARTS",
+        "d": "2021-07-24",
+        "m1": "21.24",
+        "m2": "78.76",
+        "m3": "602M"
+      },
+      {
+        "p": "[Neural Architecture Transfer](https://arxiv.org/abs/2005.05859v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/human-analysis/neural-architecture-transfer)",
+        "n": "NAT-M2",
+        "d": "2020-05-12",
+        "m1": "21.4",
+        "m2": "78.6",
+        "m3": "7.7M",
+        "m4": "312M"
+      },
+      {
+        "p": "[LayerNAS: Neural Architecture Search in Polynomial Complexity](https://arxiv.org/abs/2304.11517v1)",
+        "c": "",
+        "n": "LayerNAS-600M",
+        "d": "2023-04-23",
+        "m1": "21.4",
+        "m3": "9.7M",
+        "m4": "627M"
+      },
+      {
+        "p": "[ISyNet: Convolutional Neural Networks design for AI accelerator](https://arxiv.org/abs/2109.01932v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/mindspore-ai/models/tree/master/research/cv/ISyNet)",
+        "n": "ISyNet-N1-S3",
+        "d": "2021-09-04",
+        "m1": "21.45"
+      },
+      {
+        "p": "[Blockwisely Supervised Neural Architecture Search with Knowledge Distillation](https://arxiv.org/abs/1911.13053v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/changlin31/DNA)",
+        "n": "DNA-d",
+        "d": "2019-11-29",
+        "m1": "21.6",
+        "m2": "78.4",
+        "m3": "6.4M",
+        "m5": "611M"
+      },
+      {
+        "p": "[AttentiveNAS: Improving Neural Architecture Search via Attentive Sampling](https://arxiv.org/abs/2011.09011v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/AttentiveNAS)",
+        "n": "AttentiveNAS-A1",
+        "d": "2020-11-18",
+        "m1": "21.6",
+        "m2": "78.4",
+        "m4": "279M"
+      },
+      {
+        "p": "[NSGANetV2: Evolutionary Multi-Objective Surrogate-Assisted Neural Architecture Search](https://arxiv.org/abs/2007.10396v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/mikelzc1990/nsganetv2)",
+        "n": "NSGANetV2-m",
+        "d": "2020-07-20",
+        "m1": "21.7",
+        "m2": "78.3",
+        "m3": "7.7M",
+        "m4": "312M"
+      },
+      {
+        "p": "[HardCoRe-NAS: Hard Constrained diffeRentiable Neural Architecture Search](https://arxiv.org/abs/2102.11646v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Alibaba-MIIL/HardCoReNAS)",
+        "n": "HardcoreNAS_A_KD",
+        "d": "2021-02-23",
+        "m1": "21.7",
+        "m2": "78.3",
+        "m4": "220M"
+      },
+      {
+        "p": "[NASViT: Neural Architecture Search for Efficient Vision Transformers with Gradient Conflict aware Supernet Training](https://openreview.net/forum?id=Qaw16njk6L)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/NASViT)",
+        "n": "NASViT-A0",
+        "d": "2021-09-29",
+        "m1": "21.8",
+        "m2": "78.2",
+        "m5": "208M"
+      },
+      {
+        "p": "[HardCoRe-NAS: Hard Constrained diffeRentiable Neural Architecture Search](https://arxiv.org/abs/2102.11646v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Alibaba-MIIL/HardCoReNAS)",
+        "n": "HardcoreNAS_F",
+        "d": "2021-02-23",
+        "m1": "21.9",
+        "m2": "78.1",
+        "m4": "340M"
+      },
+      {
+        "p": "[FBNetV3: Joint Architecture-Recipe Search using Predictor Pretraining](https://arxiv.org/abs/2006.02049v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "n": "FBNetV3-A",
+        "d": "2020-06-03",
+        "m1": "22.0",
+        "m2": "78.0",
+        "m4": "343M"
+      },
+      {
+        "p": "[Noisy Differentiable Architecture Search](https://arxiv.org/abs/2005.03566v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/xiaomi-automl/NoisyDARTS)",
+        "n": "NoisyDARTS-A",
+        "d": "2020-05-07",
+        "m1": "22.1",
+        "m2": "77.9",
+        "m3": "5.5M",
+        "m4": "449M"
+      },
+      {
+        "p": "[AlphaNet: Improved Training of Supernets with Alpha-Divergence](https://arxiv.org/abs/2102.07954v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/AttentiveNAS)",
+        "n": "AlphaNet-A0",
+        "d": "2021-02-16",
+        "m1": "22.1",
+        "m2": "77.9",
+        "m5": "203M"
+      },
+      {
+        "p": "[HardCoRe-NAS: Hard Constrained diffeRentiable Neural Architecture Search](https://arxiv.org/abs/2102.11646v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Alibaba-MIIL/HardCoReNAS)",
+        "n": "HardcoreNAS_E",
+        "d": "2021-02-23",
+        "m1": "22.1",
+        "m2": "77.9",
+        "m4": "330M"
+      },
+      {
+        "p": "[ISyNet: Convolutional Neural Networks design for AI accelerator](https://arxiv.org/abs/2109.01932v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/mindspore-ai/models/tree/master/research/cv/ISyNet)",
+        "n": "ISyNet-N1-S2",
+        "d": "2021-09-04",
+        "m1": "22.15"
+      },
+      {
+        "p": "[Blockwisely Supervised Neural Architecture Search with Knowledge Distillation](https://arxiv.org/abs/1911.13053v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/changlin31/DNA)",
+        "n": "DNA-c",
+        "d": "2019-11-29",
+        "m1": "22.2",
+        "m2": "77.8",
+        "m3": "5.3M",
+        "m5": "466M"
+      },
+      {
+        "p": "[Zen-NAS: A Zero-Shot NAS for High-Performance Deep Image Recognition](https://arxiv.org/abs/2102.01063v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/alibaba/lightweight-neural-architecture-search)",
+        "n": "ZenNAS (0.1ms)",
+        "d": "2021-02-01",
+        "m1": "22.2",
+        "m2": "77.8",
+        "m3": "30.1",
+        "m5": "1.7G"
+      },
+      {
+        "p": "[Neural Architecture Search for Lightweight Non-Local Networks](https://arxiv.org/abs/2004.01961v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/LiYingwei/AutoNL)",
+        "n": "AutoNL-L",
+        "d": "2020-04-04",
+        "m1": "22.3",
+        "m2": "77.7"
+      },
+      {
+        "p": "[AtomNAS: Fine-Grained End-to-End Neural Architecture Search](https://arxiv.org/abs/1912.09640v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/meijieru/AtomNAS)",
+        "n": "AtomNAS-C+†",
+        "d": "2019-12-20",
+        "m1": "22.4",
+        "m2": "77.6",
+        "m3": "5.9M",
+        "m4": "363M"
+      },
+      {
+        "p": "[Neural Architecture Transfer](https://arxiv.org/abs/2005.05859v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/human-analysis/neural-architecture-transfer)",
+        "n": "NAT-M1",
+        "d": "2020-05-12",
+        "m1": "22.5",
+        "m2": "77.5",
+        "m3": "6.0M",
+        "m4": "225M"
+      },
+      {
+        "p": "[Blockwisely Supervised Neural Architecture Search with Knowledge Distillation](https://arxiv.org/abs/1911.13053v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/changlin31/DNA)",
+        "n": "DNA-b",
+        "d": "2019-11-29",
+        "m1": "22.5",
+        "m2": "77.5",
+        "m3": "4.9M",
+        "m5": "406M"
+      },
+      {
+        "p": "[NSGANetV2: Evolutionary Multi-Objective Surrogate-Assisted Neural Architecture Search](https://arxiv.org/abs/2007.10396v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/mikelzc1990/nsganetv2)",
+        "n": "NSGANetV2-s",
+        "d": "2020-07-20",
+        "m1": "22.6",
+        "m2": "77.4",
+        "m3": "6.1M",
+        "m4": "225M"
+      },
+      {
+        "p": "[HardCoRe-NAS: Hard Constrained diffeRentiable Neural Architecture Search](https://arxiv.org/abs/2102.11646v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Alibaba-MIIL/HardCoReNAS)",
+        "n": "HardcoreNAS_D",
+        "d": "2021-02-23",
+        "m1": "22.6",
+        "m2": "77.4",
+        "m4": "290M"
+      },
+      {
+        "p": "[AttentiveNAS: Improving Neural Architecture Search via Attentive Sampling](https://arxiv.org/abs/2011.09011v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/AttentiveNAS)",
+        "n": "AttentiveNAS-A0",
+        "d": "2020-11-18",
+        "m1": "22.7",
+        "m2": "77.3",
+        "m4": "203M"
+      },
+      {
+        "p": "[ISyNet: Convolutional Neural Networks design for AI accelerator](https://arxiv.org/abs/2109.01932v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/mindspore-ai/models/tree/master/research/cv/ISyNet)",
+        "n": "ISyNet-N1-S1",
+        "d": "2021-09-04",
+        "m1": "22.7"
+      },
+      {
+        "p": "[AtomNAS: Fine-Grained End-to-End Neural Architecture Search](https://arxiv.org/abs/1912.09640v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/meijieru/AtomNAS)",
+        "n": "AtomNAS-B+†",
+        "d": "2019-12-20",
+        "m1": "22.8",
+        "m2": "77.2",
+        "m3": "5.5M",
+        "m4": "329M"
+      },
+      {
+        "p": "[FBNetV5: Neural Architecture Search for Multiple Tasks in One Run](https://arxiv.org/abs/2111.10007v3)",
+        "c": "",
+        "n": "FBNetV5-AR-CLS",
+        "d": "2021-11-19",
+        "m1": "22.8",
+        "m2": "77.2",
+        "m5": "215M"
+      },
+      {
+        "p": "[FBNetV2: Differentiable Neural Architecture Search for Spatial and Channel Dimensions](https://arxiv.org/abs/2004.05565v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/mobile-vision)",
+        "n": "FBNetV2-L1",
+        "d": "2020-04-12",
+        "m1": "22.8",
+        "m2": "77.2",
+        "m4": "325M"
+      },
+      {
+        "p": "[Fair DARTS: Eliminating Unfair Advantages in Differentiable Architecture Search](https://arxiv.org/abs/1911.12126v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/xiaomi-automl/fairdarts)",
+        "n": "FairDARTS-C",
+        "d": "2019-11-27",
+        "m1": "22.8",
+        "m4": "386M"
+      },
+      {
+        "p": "[GreedyNAS: Towards Fast One-Shot NAS with Greedy Supernet](https://arxiv.org/abs/2003.11236v1)",
+        "c": "",
+        "n": "GreedyNAS-A",
+        "d": "2020-03-25",
+        "m1": "22.9",
+        "m2": "77.1",
+        "m3": "6.5M"
+      },
+      {
+        "p": "[Blockwisely Supervised Neural Architecture Search with Knowledge Distillation](https://arxiv.org/abs/1911.13053v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/changlin31/DNA)",
+        "n": "DNA-a",
+        "d": "2019-11-29",
+        "m1": "22.9",
+        "m2": "77.1",
+        "m3": "4.2M",
+        "m5": "348M"
+      },
+      {
+        "p": "[HardCoRe-NAS: Hard Constrained diffeRentiable Neural Architecture Search](https://arxiv.org/abs/2102.11646v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Alibaba-MIIL/HardCoReNAS)",
+        "n": "HardcoreNAS_C",
+        "d": "2021-02-23",
+        "m1": "22.9",
+        "m2": "77.1",
+        "m4": "270M"
+      },
+      {
+        "p": "[LayerNAS: Neural Architecture Search in Polynomial Complexity](https://arxiv.org/abs/2304.11517v1)",
+        "c": "",
+        "n": "LayerNAS-300M",
+        "d": "2023-04-23",
+        "m1": "22.9",
+        "m3": "5.2M",
+        "m4": "322M"
+      },
+      {
+        "p": "[SCARLET-NAS: Bridging the Gap between Stability and Scalability in Weight-sharing Neural Architecture Search](https://arxiv.org/abs/1908.06022v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/xiaomi-automl/SCARLET-NAS)",
+        "n": "SCARLET-A",
+        "d": "2019-08-16",
+        "m1": "23.1",
+        "m2": "76.9",
+        "m3": "6.7M",
+        "m4": "365M"
+      },
+      {
+        "p": "[Once-for-All: Train One Network and Specialize it for Efficient Deployment](https://arxiv.org/abs/1908.09791v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/mit-han-lab/once-for-all)",
+        "n": "OFA w/ PS #75",
+        "d": "2019-08-26",
+        "m1": "23.1",
+        "m2": "76.9",
+        "m4": "230M"
+      },
+      {
+        "p": "[ISyNet: Convolutional Neural Networks design for AI accelerator](https://arxiv.org/abs/2109.01932v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/mindspore-ai/models/tree/master/research/cv/ISyNet)",
+        "n": "ISyNet-N1",
+        "d": "2021-09-04",
+        "m1": "23.16"
+      },
+      {
+        "p": "[GreedyNAS: Towards Fast One-Shot NAS with Greedy Supernet](https://arxiv.org/abs/2003.11236v1)",
+        "c": "",
+        "n": "GreedyNAS-B",
+        "d": "2020-03-25",
+        "m1": "23.2",
+        "m2": "76.8",
+        "m3": "5.2M"
+      },
+      {
+        "p": "[MUXConv: Information Multiplexing in Convolutional Neural Networks](https://arxiv.org/abs/2003.13880v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/human-analysis/MUXConv)",
+        "n": "MUXNet-l",
+        "d": "2020-03-31",
+        "m1": "23.4",
+        "m2": "76.6",
+        "m3": "4.0M",
+        "m4": "318M"
+      },
+      {
+        "p": "[Accuracy Prediction with Non-neural Model for Neural Architecture Search](https://arxiv.org/abs/2007.04785v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/renqianluo/GBDT-NAS)",
+        "n": "GBDT-NAS-3S",
+        "d": "2020-07-09",
+        "m1": "23.5",
+        "m2": "76.5",
+        "m3": "6.4M",
+        "m4": "577M"
+      },
+      {
+        "p": "[BigNAS: Scaling Up Neural Architecture Search with Big Single-Stage Models](https://arxiv.org/abs/2003.11142v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/GAIA-vision/GAIA-cv)",
+        "n": "BigNASModel-S",
+        "d": "2020-03-24",
+        "m1": "23.5",
+        "m2": "76.5",
+        "m3": "4.5M",
+        "m4": "242M"
+      },
+      {
+        "p": "[Semi-Supervised Neural Architecture Search](https://arxiv.org/abs/2002.10389v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/renqianluo/SemiNAS)",
+        "n": "SemiNAS",
+        "d": "2020-02-24",
+        "m1": "23.5",
+        "m2": "76.5"
+      },
+      {
+        "p": "[Neural Architecture Search for Lightweight Non-Local Networks](https://arxiv.org/abs/2004.01961v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/LiYingwei/AutoNL)",
+        "n": "AutoNL-S",
+        "d": "2020-04-04",
+        "m1": "23.5",
+        "m2": "76.5"
+      },
+      {
+        "p": "[HardCoRe-NAS: Hard Constrained diffeRentiable Neural Architecture Search](https://arxiv.org/abs/2102.11646v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Alibaba-MIIL/HardCoReNAS)",
+        "n": "HardcoreNAS_B",
+        "d": "2021-02-23",
+        "m1": "23.5",
+        "m2": "76.5",
+        "m4": "250M"
+      },
+      {
+        "p": "[SCARLET-NAS: Bridging the Gap between Stability and Scalability in Weight-sharing Neural Architecture Search](https://arxiv.org/abs/1908.06022v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/xiaomi-automl/SCARLET-NAS)",
+        "n": "SCARLET-B",
+        "d": "2019-08-16",
+        "m1": "23.7",
+        "m2": "76.3",
+        "m3": "6.5M",
+        "m4": "329M"
+      },
+      {
+        "p": "[AtomNAS: Fine-Grained End-to-End Neural Architecture Search](https://arxiv.org/abs/1912.09640v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/meijieru/AtomNAS)",
+        "n": "AtomNAS-A+†",
+        "d": "2019-12-20",
+        "m1": "23.7",
+        "m2": "76.3",
+        "m3": "4.7M",
+        "m4": "260M"
+      },
+      {
+        "p": "[DrNAS: Dirichlet Neural Architecture Search](https://arxiv.org/abs/2006.10355v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/xiangning-chen/DrNAS)",
+        "n": "DrNAS",
+        "d": "2020-06-18",
+        "m1": "23.7",
+        "m3": "5.7M"
+      },
+      {
+        "p": "[GreedyNAS: Towards Fast One-Shot NAS with Greedy Supernet](https://arxiv.org/abs/2003.11236v1)",
+        "c": "",
+        "n": "GreedyNAS-C",
+        "d": "2020-03-25",
+        "m1": "23.8",
+        "m2": "76.2",
+        "m3": "4.7M"
+      },
+      {
+        "p": "[EEEA-Net: An Early Exit Evolutionary Neural Architecture Search](https://arxiv.org/abs/2108.06156v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/chakkritte/eeea-net)",
+        "n": "EEEA-Net-C2 (b=7) (our)",
+        "d": "2021-08-13",
+        "m1": "23.8",
+        "m2": "76.2"
+      },
+      {
+        "p": "[MSR-DARTS: Minimum Stable Rank of Differentiable Architecture Search](https://arxiv.org/abs/2009.09209v2)",
+        "c": "",
+        "n": "MSR-DARTS (CIFAR-10)",
+        "d": "2020-09-19",
+        "m1": "23.9",
+        "m2": "76.1",
+        "m3": "5.6M",
+        "m4": "632M"
+      },
+      {
+        "p": "[Shapley-NAS: Discovering Operation Contribution for Neural Architecture Search](https://arxiv.org/abs/2206.09811v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/euphoria16/shapley-nas)",
+        "n": "Shapley-NAS",
+        "d": "2022-06-20",
+        "m1": "23.9",
+        "m3": "5.4M",
+        "m4": "582M"
+      },
+      {
+        "p": "[$β$-DARTS: Beta-Decay Regularization for Differentiable Architecture Search](https://arxiv.org/abs/2203.01665v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Sunshine-Ye/Beta-DARTS)",
+        "n": "b-DARTS (CIFAR-10)",
+        "d": "2022-03-03",
+        "m1": "23.9"
+      },
+      {
+        "p": "[Densely Connected Search Space for More Flexible Neural Architecture Search](https://arxiv.org/abs/1906.09607v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/JaminFong/DenseNAS)",
+        "n": "DenseNAS-Large",
+        "d": "2019-06-23",
+        "m1": "23.9",
+        "m5": "479M"
+      },
+      {
+        "p": "[sharpDARTS: Faster and More Accurate Differentiable Architecture Search](http://arxiv.org/abs/1903.09900v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ahundt/sharpDARTS)",
+        "n": "sharpDARTS",
+        "d": "2019-03-23",
+        "m1": "24.0",
+        "m2": "76.0",
+        "m3": "8.3M",
+        "m4": "950M"
+      },
+      {
+        "p": "[FBNetV2: Differentiable Neural Architecture Search for Spatial and Channel Dimensions](https://arxiv.org/abs/2004.05565v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/mobile-vision)",
+        "n": "FBNetV2-F4",
+        "d": "2020-04-12",
+        "m1": "24.0",
+        "m2": "76.0",
+        "m4": "238M"
+      },
+      {
+        "p": "[Geometry-Aware Gradient Algorithms for Neural Architecture Search](https://arxiv.org/abs/2004.07802v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/liamcli/gaea_release)",
+        "n": "GAEA PC-DARTS",
+        "d": "2020-04-16",
+        "m1": "24",
+        "m3": "5.6"
+      },
+      {
+        "p": "[A Generic Graph-based Neural Architecture Encoding Scheme for Predictor-based NAS](https://arxiv.org/abs/2004.01899v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/walkerning/aw_nas)",
+        "n": "GATES",
+        "d": "2020-04-04",
+        "m1": "24.1",
+        "m2": "75.9",
+        "m3": "5.6M"
+      },
+      {
+        "p": "[SGAS: Sequential Greedy Architecture Search](https://arxiv.org/abs/1912.00195v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/lightaime/sgas)",
+        "n": "SGAS",
+        "d": "2019-11-30",
+        "m1": "24.1",
+        "m2": "75.9",
+        "m3": "5.4M",
+        "m4": "598M"
+      },
+      {
+        "p": "[DU-DARTS: Decreasing the Uncertainty of Differentiable Architecture Search](https://www.bmvc2021-virtualconference.com/conference/papers/paper_0209.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/ShunLu91/DU-DARTS)",
+        "n": "DU-DARTS",
+        "d": "2021-11-23",
+        "m1": "24.1",
+        "m2": "75.9",
+        "m3": "5.3M"
+      },
+      {
+        "p": "[HardCoRe-NAS: Hard Constrained diffeRentiable Neural Architecture Search](https://arxiv.org/abs/2102.11646v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Alibaba-MIIL/HardCoReNAS)",
+        "n": "HardcoreNAS_A",
+        "d": "2021-02-23",
+        "m1": "24.1",
+        "m2": "75.9",
+        "m4": "220M"
+      },
+      {
+        "p": "[PC-DARTS: Partial Channel Connections for Memory-Efficient Architecture Search](https://arxiv.org/abs/1907.05737v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/yuhuixu1993/PC-DARTS)",
+        "n": "PC-DARTS (ImageNet)",
+        "d": "2019-07-12",
+        "m1": "24.2",
+        "m2": "75.8",
+        "m3": "5.3M",
+        "m4": "597M"
+      },
+      {
+        "p": "[SCARLET-NAS: Bridging the Gap between Stability and Scalability in Weight-sharing Neural Architecture Search](https://arxiv.org/abs/1908.06022v6)",
+        "c": "[&check;&nbsp;Link](https://github.com/xiaomi-automl/SCARLET-NAS)",
+        "n": "SCARLET-C",
+        "d": "2019-08-16",
+        "m1": "24.4",
+        "m2": "75.6",
+        "m3": "6.0M",
+        "m4": "280M"
+      },
+      {
+        "p": "[Evolving Neural Architecture Using One Shot Model](https://arxiv.org/abs/2012.12540v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/nightstorm0909/EvNAS)",
+        "n": "EvNAS-B",
+        "d": "2020-12-23",
+        "m1": "24.4",
+        "m2": "75.6",
+        "m3": "5.3",
+        "m4": "599"
+      },
+      {
+        "p": "[Evolving Neural Architecture Using One Shot Model](https://arxiv.org/abs/2012.12540v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/nightstorm0909/EvNAS)",
+        "n": "EvNAS-A",
+        "d": "2020-12-23",
+        "m1": "24.4",
+        "m2": "75.6",
+        "m3": "5.1",
+        "m4": "570"
+      },
+      {
+        "p": "[LayerNAS: Neural Architecture Search in Polynomial Complexity](https://arxiv.org/abs/2304.11517v1)",
+        "c": "",
+        "n": "LayerNAS-220M",
+        "d": "2023-04-23",
+        "m1": "24.4",
+        "m3": "5.1M",
+        "m4": "229M"
+      },
+      {
+        "p": "[AlphaX: eXploring Neural Architectures with Deep Neural Networks and Monte Carlo Tree Search](https://arxiv.org/abs/1903.11059v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/linnanwang/AlphaX-NASBench101)",
+        "n": "AlphaX-1",
+        "d": "2019-03-26",
+        "m1": "24.5",
+        "m2": "75.5",
+        "m3": "5.4M"
+      },
+      {
+        "p": "[ISyNet: Convolutional Neural Networks design for AI accelerator](https://arxiv.org/abs/2109.01932v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/mindspore-ai/models/tree/master/research/cv/ISyNet)",
+        "n": "ISyNet-N0",
+        "d": "2021-09-04",
+        "m1": "24.55"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Evo-NAS",
+        "d": null,
+        "m1": "24.57",
+        "m2": "75.43"
+      },
+      {
+        "p": "[FairNAS: Rethinking Evaluation Fairness of Weight Sharing Neural Architecture Search](https://arxiv.org/abs/1907.01845v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/xiaomi-automl/FairNAS)",
+        "n": "FairNAS-A",
+        "d": "2019-07-03",
+        "m1": "24.7",
+        "m2": "75.34",
+        "m3": "4.6M",
+        "m4": "388M"
+      },
+      {
+        "p": "[MUXConv: Information Multiplexing in Convolutional Neural Networks](https://arxiv.org/abs/2003.13880v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/human-analysis/MUXConv)",
+        "n": "MUXNet-m",
+        "d": "2020-03-31",
+        "m1": "24.7",
+        "m2": "75.3",
+        "m3": "3.4M",
+        "m4": "218M"
+      },
+      {
+        "p": "[iDARTS: Improving DARTS by Node Normalization and Decorrelation Discretization](https://arxiv.org/abs/2108.11014v1)",
+        "c": "",
+        "n": "iDARTS (ImageNet)",
+        "d": "2021-08-25",
+        "m1": "24.7",
+        "m3": "5.1M",
+        "m4": "568M"
+      },
+      {
+        "p": "[ProxylessNAS: Direct Neural Architecture Search on Target Task and Hardware](http://arxiv.org/abs/1812.00332v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/osmr/imgclsmob)",
+        "n": "ProxylesNAS",
+        "d": "2018-12-02",
+        "m1": "24.9",
+        "m2": "75.1",
+        "m3": "5.1M",
+        "m4": "581M"
+      },
+      {
+        "p": "[FairNAS: Rethinking Evaluation Fairness of Weight Sharing Neural Architecture Search](https://arxiv.org/abs/1907.01845v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/xiaomi-automl/FairNAS)",
+        "n": "FairNAS-B",
+        "d": "2019-07-03",
+        "m1": "24.9",
+        "m2": "75.1",
+        "m3": "4.5M",
+        "m4": "345M"
+      },
+      {
+        "p": "[Evolving Neural Architecture Using One Shot Model](https://arxiv.org/abs/2012.12540v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/nightstorm0909/EvNAS)",
+        "n": "EvNAS-C",
+        "d": "2020-12-23",
+        "m1": "25.1",
+        "m2": "74.9",
+        "m3": "4.9",
+        "m4": "547"
+      },
+      {
+        "p": "[sharpDARTS: Faster and More Accurate Differentiable Architecture Search](http://arxiv.org/abs/1903.09900v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ahundt/sharpDARTS)",
+        "n": "SharpSepConvDARTS",
+        "d": "2019-03-23",
+        "m1": "25.1",
+        "m2": "74.1",
+        "m3": "4.9M",
+        "m4": "573M"
+      },
+      {
+        "p": "[iDARTS: Improving DARTS by Node Normalization and Decorrelation Discretization](https://arxiv.org/abs/2108.11014v1)",
+        "c": "",
+        "n": "iDARTS (CIFAR-10)",
+        "d": "2021-08-25",
+        "m1": "25.2",
+        "m3": "5.1M",
+        "m4": "578M"
+      },
+      {
+        "p": "[Exploring Randomly Wired Neural Networks for Image Recognition](http://arxiv.org/abs/1904.01569v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/pycls)",
+        "n": "RandWire-WS (small)",
+        "d": "2019-04-02",
+        "m1": "25.3",
+        "m3": "5.6M",
+        "m5": "583M"
+      },
+      {
+        "p": "[FairNAS: Rethinking Evaluation Fairness of Weight Sharing Neural Architecture Search](https://arxiv.org/abs/1907.01845v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/xiaomi-automl/FairNAS)",
+        "n": "FairNAS-C",
+        "d": "2019-07-03",
+        "m1": "25.4",
+        "m2": "74.69",
+        "m3": "4.4M",
+        "m4": "321M"
+      },
+      {
+        "p": "[EEEA-Net: An Early Exit Evolutionary Neural Architecture Search](https://arxiv.org/abs/2108.06156v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/chakkritte/eeea-net)",
+        "n": "EEEA-Net-C1 (b=7) (our)",
+        "d": "2021-08-13",
+        "m1": "25.7",
+        "m2": "74.3"
+      },
+      {
+        "p": "[MemNAS: Memory-Efficient Neural Architecture Search With Grow-Trim Learning](http://openaccess.thecvf.com/content_CVPR_2020/html/Liu_MemNAS_Memory-Efficient_Neural_Architecture_Search_With_Grow-Trim_Learning_CVPR_2020_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/MemNAS/MemNAS)",
+        "n": "MemNAS",
+        "d": "2020-06-01",
+        "m1": "25.9",
+        "m2": "74.1"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "GDAS",
+        "d": null,
+        "m1": "26.0",
+        "m2": "74.0",
+        "m3": "5.3",
+        "m4": "581"
+      },
+      {
+        "p": "[How does topology of neural architectures impact gradient propagation and model performance?](https://openaccess.thecvf.com/content/CVPR2021/html/Bhardwaj_How_Does_Topology_Influence_Gradient_Propagation_and_Model_Performance_of_CVPR_2021_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/SLDGroup/NN_Mass)",
+        "n": "NN-MASS-B",
+        "d": "2021-06-16",
+        "m1": "26.7",
+        "m2": "73.3",
+        "m3": "3.7M",
+        "m4": "393M",
+        "m5": "393M"
+      },
+      {
+        "p": "[DARTS: Differentiable Architecture Search](http://arxiv.org/abs/1806.09055v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research/tree/master/enas_lm)",
+        "n": "DARTS",
+        "d": "2018-06-24",
+        "m1": "26.7",
+        "m2": "73.3",
+        "m3": "4.9",
+        "m4": "595M"
+      },
+      {
+        "p": "[FBNetV2: Differentiable Neural Architecture Search for Spatial and Channel Dimensions](https://arxiv.org/abs/2004.05565v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/mobile-vision)",
+        "n": "FBNetV2-F3",
+        "d": "2020-04-12",
+        "m1": "26.8",
+        "m2": "73.2",
+        "m4": "126M"
+      },
+      {
+        "p": "[How does topology of neural architectures impact gradient propagation and model performance?](https://openaccess.thecvf.com/content/CVPR2021/html/Bhardwaj_How_Does_Topology_Influence_Gradient_Propagation_and_Model_Performance_of_CVPR_2021_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/SLDGroup/NN_Mass)",
+        "n": "NN-MASS-A",
+        "d": "2021-06-16",
+        "m1": "27.1",
+        "m2": "72.9",
+        "m3": "2.3M",
+        "m4": "200M",
+        "m5": "200M"
+      },
+      {
+        "p": "[MUXConv: Information Multiplexing in Convolutional Neural Networks](https://arxiv.org/abs/2003.13880v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/human-analysis/MUXConv)",
+        "n": "MUXNet-s",
+        "d": "2020-03-31",
+        "m1": "28.4",
+        "m2": "71.6",
+        "m3": "2.4M",
+        "m4": "117M"
+      },
+      {
+        "p": "[Optimizing Neural Architecture Search using Limited GPU Time in a Dynamic Search Space: A Gene Expression Programming Approach](https://arxiv.org/abs/2005.07669v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/hieule88/geneNas)",
+        "n": "NASGEP",
+        "d": "2020-05-15",
+        "m1": "29.51",
+        "m2": "70.49"
+      },
+      {
+        "p": "[LayerNAS: Neural Architecture Search in Polynomial Complexity](https://arxiv.org/abs/2304.11517v1)",
+        "c": "",
+        "n": "LayerNAS-60M",
+        "d": "2023-04-23",
+        "m1": "31",
+        "m3": "3.7M",
+        "m4": "61M"
+      },
+      {
+        "p": "[FBNetV2: Differentiable Neural Architecture Search for Spatial and Channel Dimensions](https://arxiv.org/abs/2004.05565v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/mobile-vision)",
+        "n": "FBNetV2-F1",
+        "d": "2020-04-12",
+        "m1": "31.7",
+        "m2": "68.3",
+        "m4": "56M"
+      },
+      {
+        "p": "[MUXConv: Information Multiplexing in Convolutional Neural Networks](https://arxiv.org/abs/2003.13880v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/human-analysis/MUXConv)",
+        "n": "MUXNet-xs",
+        "d": "2020-03-31",
+        "m1": "33.3",
+        "m2": "66.7",
+        "m3": "1.8M",
+        "m4": "66M"
+      },
+      {
+        "p": "[Single Path One-Shot Neural Architecture Search with Uniform Sampling](https://arxiv.org/abs/1904.00420v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmrazor)",
+        "n": "SPOS (ProxylessNAS (GPU) latency)",
+        "d": "2019-03-31",
+        "m2": "75.3",
+        "m4": "465M"
+      },
+      {
+        "p": "[Single Path One-Shot Neural Architecture Search with Uniform Sampling](https://arxiv.org/abs/1904.00420v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmrazor)",
+        "n": "SPOS (FBNet-C latency)",
+        "d": "2019-03-31",
+        "m2": "75.1",
+        "m4": "375M"
+      },
+      {
+        "p": "[Single Path One-Shot Neural Architecture Search with Uniform Sampling](https://arxiv.org/abs/1904.00420v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmrazor)",
+        "n": "SPOS (block search + channel search)",
+        "d": "2019-03-31",
+        "m2": "74.7",
+        "m4": "328M"
+      },
+      {
+        "p": "[Progressive Neural Architecture Search](http://arxiv.org/abs/1712.00559v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/research/deeplab)",
+        "n": "PNAS",
+        "d": "2017-12-02",
+        "m3": "5.1"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

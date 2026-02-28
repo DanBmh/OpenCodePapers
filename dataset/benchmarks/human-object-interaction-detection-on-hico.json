@@ -1,0 +1,458 @@
+{
+  "title": "human-object-interaction-detection-on-hico",
+  "task-hierarchy": [
+    "Human-Object Interaction Detection"
+  ],
+  "dataset-info": {
+    "link": "https://umich-ywchao-hico.github.io/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Time Per Frame (ms)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Detection: Full (mAP@0.5)",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Detection: Non-Rare (mAP@0.5)",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Detection: Rare (mAP@0.5)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Dynamic Scene Understanding from Vision-Language Representations](https://arxiv.org/abs/2501.11653v3)",
+        "c": "",
+        "n": "Ours (PViC+)",
+        "d": "2025-01-20",
+        "m1": "46.49"
+      },
+      {
+        "p": "[RLIPv2: Fast Scaling of Relational Language-Image Pre-training](https://arxiv.org/abs/2308.09351v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jacobyuan7/rlipv2)",
+        "n": "RLIPv2 (Swin-L)",
+        "d": "2023-08-18",
+        "m1": "45.09"
+      },
+      {
+        "p": "[Exploring Predicate Visual Context in Detecting Human-Object Interactions](https://arxiv.org/abs/2308.06202v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/fredzzhang/pvic)",
+        "n": "PViC-SwinL",
+        "d": "2023-08-11",
+        "m1": "44.32"
+      },
+      {
+        "p": "[Focusing on what to decode and what to train: SOV Decoding with Specific Target Guided DeNoising and Vision Language Advisor](https://arxiv.org/abs/2307.02291v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/cjw2021/sov-stg)",
+        "n": "SOV-STG (Swin-L)",
+        "d": "2023-07-05",
+        "m1": "43.35"
+      },
+      {
+        "p": "[Boosting Human-Object Interaction Detection with Text-to-Image Diffusion Model](https://arxiv.org/abs/2305.12252v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/IDEA-Research/DiffHOI)",
+        "n": "DiffHOI",
+        "d": "2023-05-20",
+        "m1": "41.50"
+      },
+      {
+        "p": "[ViPLO: Vision Transformer based Pose-Conditioned Self-Loop Graph for Human-Object Interaction Detection](https://arxiv.org/abs/2304.08114v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jeeseung-park/viplo)",
+        "n": "ViPLO",
+        "d": "2023-04-17",
+        "m1": "37.22"
+      },
+      {
+        "p": "[FGAHOI: Fine-Grained Anchors for Human-Object Interaction Detection](https://arxiv.org/abs/2301.04019v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/xiaomabufei/fgahoi)",
+        "n": "FGAHOI",
+        "d": "2023-01-08",
+        "m1": "37.18"
+      },
+      {
+        "p": "[ERNet: Efficient and Reliable Human-Object Interaction Detection](https://ieeexplore.ieee.org/abstract/document/10026602)",
+        "c": "[&check;&nbsp;Link](https://github.com/Monash-CyPhi-AI-Research-Lab/ernet)",
+        "n": "ERNet",
+        "d": "2023-01-26",
+        "m1": "36.89"
+      },
+      {
+        "p": "[Category Query Learning for Human-Object Interaction Classification](https://arxiv.org/abs/2303.14005v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/charles-xie/cql)",
+        "n": "CQL+GEN-VLKT-L",
+        "d": "2023-03-24",
+        "m1": "36.03"
+      },
+      {
+        "p": "[QAHOI: Query-Based Anchors for Human-Object Interaction Detection](https://arxiv.org/abs/2112.08647v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/cjw2021/QAHOI)",
+        "n": "QAHOI (Swin-L)",
+        "d": "2021-12-16",
+        "m1": "35.78"
+      },
+      {
+        "p": "[Category Query Learning for Human-Object Interaction Classification](https://arxiv.org/abs/2303.14005v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/charles-xie/cql)",
+        "n": "CQL+GEN-VLKT-B",
+        "d": "2023-03-24",
+        "m1": "35.36"
+      },
+      {
+        "p": "[Mining Cross-Person Cues for Body-Part Interactiveness Learning in HOI Detection](https://arxiv.org/abs/2207.14192v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/enlighten0707/body-part-map-for-interactiveness)",
+        "n": "Body Part Interactiveness",
+        "d": "2022-07-28",
+        "m1": "35.15"
+      },
+      {
+        "p": "[GEN-VLKT: Simplify Association and Enhance Interaction Understanding for HOI Detection](https://arxiv.org/abs/2203.13954v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/yueliao/gen-vlkt)",
+        "n": "GEN-VLKT-R101",
+        "d": "2022-03-26",
+        "m1": "34.95"
+      },
+      {
+        "p": "[Unseen No More: Unlocking the Potential of CLIP for Generative Zero-shot HOI Detection](https://arxiv.org/abs/2408.05974v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/soberguo/hoigen)",
+        "n": "HOIGen",
+        "d": "2024-08-12",
+        "m1": "34.84",
+        "m3": "34.84",
+        "m4": "34.94",
+        "m5": "34.52"
+      },
+      {
+        "p": "[Exploring Predicate Visual Context in Detecting Human-Object Interactions](https://arxiv.org/abs/2308.06202v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/fredzzhang/pvic)",
+        "n": "PViC-R50",
+        "d": "2023-08-11",
+        "m1": "34.69"
+      },
+      {
+        "p": "[HOICLIP: Efficient Knowledge Transfer for HOI Detection with Vision-Language Models](https://arxiv.org/abs/2303.15786v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/artanic30/hoiclip)",
+        "n": "HOICLIP",
+        "d": "2023-03-28",
+        "m1": "34.69"
+      },
+      {
+        "p": "[Relational Context Learning for Human-Object Interaction Detection](https://arxiv.org/abs/2304.04997v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/OreoChocolate/MUREN)",
+        "n": "MUREN",
+        "d": "2023-04-11",
+        "m1": "32.87"
+      },
+      {
+        "p": "[RLIP: Relational Language-Image Pre-training for Human-Object Interaction Detection](https://arxiv.org/abs/2209.01814v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/jacobyuan7/rlipv2)",
+        "n": "RLIP-ParSe (ResNet-50)",
+        "d": "2022-09-05",
+        "m1": "32.84"
+      },
+      {
+        "p": "[RLIP: Relational Language-Image Pre-training for Human-Object Interaction Detection](https://arxiv.org/abs/2209.01814v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/jacobyuan7/rlipv2)",
+        "n": "ParSe (ResNet-101)",
+        "d": "2022-09-05",
+        "m1": "32.76"
+      },
+      {
+        "p": "[Efficient Two-Stage Detection of Human-Object Interactions with a Novel Unary-Pairwise Transformer](https://arxiv.org/abs/2112.01838v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/fredzzhang/upt)",
+        "n": "UPT-R101-DC5",
+        "d": "2021-12-03",
+        "m1": "32.62",
+        "m2": "124"
+      },
+      {
+        "p": "[The Overlooked Classifier in Human-Object Interaction Recognition](https://arxiv.org/abs/2112.06392v2)",
+        "c": "",
+        "n": "DEFR",
+        "d": "2021-12-13",
+        "m1": "32.35"
+      },
+      {
+        "p": "[Efficient Two-Stage Detection of Human-Object Interactions with a Novel Unary-Pairwise Transformer](https://arxiv.org/abs/2112.01838v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/fredzzhang/upt)",
+        "n": "UPT-R101",
+        "d": "2021-12-03",
+        "m1": "32.31",
+        "m2": "61"
+      },
+      {
+        "p": "[Exploring Structure-aware Transformer over Interaction Proposals for Human-Object Interaction Detection](https://arxiv.org/abs/2206.06291v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/zyong812/stip)",
+        "n": "STIP (ResNet-50)",
+        "d": "2022-06-13",
+        "m1": "32.22",
+        "m2": "74"
+      },
+      {
+        "p": "[Mining the Benefits of Two-stage and One-stage HOI Detection](https://arxiv.org/abs/2108.05077v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/YueLiao/CDN)",
+        "n": "CDN (ResNet101)",
+        "d": "2021-08-11",
+        "m1": "32.07"
+      },
+      {
+        "p": "[Efficient Two-Stage Detection of Human-Object Interactions with a Novel Unary-Pairwise Transformer](https://arxiv.org/abs/2112.01838v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/fredzzhang/upt)",
+        "n": "UPT-R50",
+        "d": "2021-12-03",
+        "m1": "31.66",
+        "m2": "42"
+      },
+      {
+        "p": "[Detecting Human-Object Interactions with Object-Guided Cross-Modal Calibrated Semantics](https://arxiv.org/abs/2202.00259v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jacobyuan7/ocn-hoi-benchmark)",
+        "n": "OCN (ResNet101)",
+        "d": "2022-02-01",
+        "m1": "31.43"
+      },
+      {
+        "p": "[QPIC: Query-Based Pairwise Human-Object Interaction Detection with Image-Wide Contextual Information](https://arxiv.org/abs/2103.05399v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/hitachi-rd-cv/qpic)",
+        "n": "QPIC (ResNet101)",
+        "d": "2021-03-09",
+        "m1": "29.90",
+        "m2": "63"
+      },
+      {
+        "p": "[Consistency Learning via Decoding Path Augmentation for Transformers in Human Object Interaction Detection](https://arxiv.org/abs/2204.04836v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/mlvlab/cpchoi)",
+        "n": "QPIC + CPC",
+        "d": "2022-04-11",
+        "m1": "29.63"
+      },
+      {
+        "p": "[Spatially Conditioned Graphs for Detecting Human-Object Interactions](https://arxiv.org/abs/2012.06060v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/fredzzhang/spatially-conditioned-graphs)",
+        "n": "SCG (DETR-R101)",
+        "d": "2020-12-11",
+        "m1": "29.26"
+      },
+      {
+        "p": "[QPIC: Query-Based Pairwise Human-Object Interaction Detection with Image-Wide Contextual Information](https://arxiv.org/abs/2103.05399v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/hitachi-rd-cv/qpic)",
+        "n": "QPIC (ResNet50)",
+        "d": "2021-03-09",
+        "m1": "29.07",
+        "m2": "46"
+      },
+      {
+        "p": "[Reformulating HOI Detection as Adaptive Set Prediction](https://arxiv.org/abs/2103.05983v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/yoyomimi/AS-Net)",
+        "n": "AS-Net (ResNet50)",
+        "d": "2021-03-10",
+        "m1": "28.87",
+        "m2": "71"
+      },
+      {
+        "p": "[End-to-End Human Object Interaction Detection with HOI Transformer](https://arxiv.org/abs/2103.04503v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/bbepoch/HoiTransformer)",
+        "n": "HOITrans(ResNet101)",
+        "d": "2021-03-08",
+        "m1": "26.61"
+      },
+      {
+        "p": "[HOI Analysis: Integrating and Decomposing Human-Object Interaction](https://arxiv.org/abs/2010.16219v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/DirtyHarryLYL/HAKE-Action-Torch)",
+        "n": "IDN (finetuned detector)",
+        "d": "2020-10-30",
+        "m1": "26.29"
+      },
+      {
+        "p": "[Consistency Learning via Decoding Path Augmentation for Transformers in Human Object Interaction Detection](https://arxiv.org/abs/2204.04836v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/mlvlab/cpchoi)",
+        "n": "HOTR + CPC",
+        "d": "2022-04-11",
+        "m1": "26.16"
+      },
+      {
+        "p": "[ConsNet: Learning Consistency Graph for Zero-Shot Human-Object Interaction Detection](https://arxiv.org/abs/2008.06254v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/yeliudev/ConsNet)",
+        "n": "ConsNet-F (ResNet-50)",
+        "d": "2020-08-14",
+        "m1": "25.94"
+      },
+      {
+        "p": "[DRG: Dual Relation Graph for Human-Object Interaction Detection](https://arxiv.org/abs/2008.11714v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/vt-vl-lab/DRG)",
+        "n": "DRG",
+        "d": "2020-08-26",
+        "m1": "24.53"
+      },
+      {
+        "p": "[End-to-End Human Object Interaction Detection with HOI Transformer](https://arxiv.org/abs/2103.04503v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/bbepoch/HoiTransformer)",
+        "n": "HOITrans(ResNet50)",
+        "d": "2021-03-08",
+        "m1": "23.46"
+      },
+      {
+        "p": "[HOTR: End-to-End Human-Object Interaction Detection with Transformers](https://arxiv.org/abs/2104.13682v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/kakaobrain/HOTR)",
+        "n": "HOTR",
+        "d": "2021-04-28",
+        "m1": "23.46"
+      },
+      {
+        "p": "[HOI Analysis: Integrating and Decomposing Human-Object Interaction](https://arxiv.org/abs/2010.16219v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/DirtyHarryLYL/HAKE-Action-Torch)",
+        "n": "IDN (COCO detector)",
+        "d": "2020-10-30",
+        "m1": "23.36"
+      },
+      {
+        "p": "[PaStaNet: Toward Human Activity Knowledge Engine](https://arxiv.org/abs/2004.00945v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/DirtyHarryLYL/HAKE-Action-Torch)",
+        "n": "PaStaNet",
+        "d": "2020-04-02",
+        "m1": "22.65"
+      },
+      {
+        "p": "[Polysemy Deciphering Network for Robust Human-Object Interaction Detection](https://arxiv.org/abs/2008.02918v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/MuchHair/PD-Net)",
+        "n": "PD-Net",
+        "d": "2020-08-07",
+        "m1": "22.37"
+      },
+      {
+        "p": "[ConsNet: Learning Consistency Graph for Zero-Shot Human-Object Interaction Detection](https://arxiv.org/abs/2008.06254v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/yeliudev/ConsNet)",
+        "n": "ConsNet (ResNet-50)",
+        "d": "2020-08-14",
+        "m1": "22.15"
+      },
+      {
+        "p": "[ACP++: Action Co-occurrence Priors for Human-Object Interaction Detection](https://arxiv.org/abs/2109.04047v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Dong-JinKim/ActionCooccurrencePriors)",
+        "n": "ACP++",
+        "d": "2021-09-09",
+        "m1": "22.11"
+      },
+      {
+        "p": "[PPDM: Parallel Point Detection and Matching for Real-time Human-Object Interaction Detection](https://arxiv.org/abs/1912.12898v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/YueLiao/PPDM)",
+        "n": "PPDM",
+        "d": "2019-12-30",
+        "m1": "21.92",
+        "m2": "71"
+      },
+      {
+        "p": "[DIRV: Dense Interaction Region Voting for End-to-End Human-Object Interaction Detection](https://arxiv.org/abs/2010.01005v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/MVIG-SJTU/DIRV)",
+        "n": "DIRV",
+        "d": "2020-10-02",
+        "m1": "21.81",
+        "m2": "68"
+      },
+      {
+        "p": "[Detailed 2D-3D Joint Representation for Human-Object Interaction](https://arxiv.org/abs/2004.08154v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/DirtyHarryLYL/DJ-RN)",
+        "n": "DJ-RN",
+        "d": "2020-04-17",
+        "m1": "21.34"
+      },
+      {
+        "p": "[Pose-based Modular Network for Human-Object Interaction Detection](https://arxiv.org/abs/2008.02042v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/birlrobotics/PMN)",
+        "n": "PMN",
+        "d": "2020-08-05",
+        "m1": "21.21"
+      },
+      {
+        "p": "[Transferable Interactiveness Knowledge for Human-Object Interaction Detection](https://arxiv.org/abs/2101.10292v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)",
+        "n": "TIN (TIPAMI)",
+        "d": "2021-01-25",
+        "m1": "20.93"
+      },
+      {
+        "p": "[Detecting Human-Object Interactions with Action Co-occurrence Priors](https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/3850_ECCV_2020_paper.php)",
+        "c": "[&check;&nbsp;Link](https://github.com/Dong-JinKim/ActionCooccurrencePriors)",
+        "n": "ACP",
+        "d": null,
+        "m1": "20.59"
+      },
+      {
+        "p": "[VSGNet: Spatial Attention Network for Detecting Human Object Interactions Using Graph Convolutions](https://arxiv.org/abs/2003.05541v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/ASMIftekhar/VSGNet)",
+        "n": "VSGNet",
+        "d": "2020-03-11",
+        "m1": "19.8"
+      },
+      {
+        "p": "[Transferable Interactiveness Knowledge for Human-Object Interaction Detection](https://arxiv.org/abs/1811.08264v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)",
+        "n": "TIN (Interactiveness)",
+        "d": "2018-11-20",
+        "m1": "17.54",
+        "m2": "512"
+      },
+      {
+        "p": "[Transferable Interactiveness Knowledge for Human-Object Interaction Detection](https://arxiv.org/abs/1811.08264v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)",
+        "n": "TIN (CVPR)",
+        "d": "2018-11-20",
+        "m1": "17.22"
+      },
+      {
+        "p": "[iCAN: Instance-Centric Attention Network for Human-Object Interaction Detection](http://arxiv.org/abs/1808.10437v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/vt-vl-lab/iCAN)",
+        "n": "iCAN",
+        "d": "2018-08-30",
+        "m1": "14.84"
+      },
+      {
+        "p": "[Learning Human-Object Interactions by Graph Parsing Neural Networks](http://arxiv.org/abs/1808.07962v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/SiyuanQi/gpnn)",
+        "n": "GPNN",
+        "d": "2018-08-23",
+        "m1": "13.11"
+      },
+      {
+        "p": "[Detecting and Recognizing Human-Object Interactions](http://arxiv.org/abs/1704.07333v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/detectron)",
+        "n": "InteractNet",
+        "d": "2017-04-24",
+        "m1": "9.94",
+        "m2": "145"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

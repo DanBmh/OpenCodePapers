@@ -1,0 +1,117 @@
+{
+  "title": "3d-object-detection-on-nuscenes-camera-radar",
+  "task-hierarchy": [
+    "Object Detection",
+    "3D Object Detection"
+  ],
+  "dataset-info": {
+    "link": "https://www.nuscenes.org/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "NDS",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[SpaRC: Sparse Radar-Camera Fusion for 3D Object Detection](https://arxiv.org/abs/2411.19860v1)",
+        "c": "",
+        "n": "SpaRC",
+        "d": "2024-11-29",
+        "m1": "69.9"
+      },
+      {
+        "p": "[RCBEVDet++: Toward High-accuracy Radar-Camera Fusion 3D Perception Network](https://arxiv.org/abs/2409.04979v1)",
+        "c": "",
+        "n": "RCBEVDet++",
+        "d": "2024-09-08",
+        "m1": "68.7"
+      },
+      {
+        "p": "[Unleashing HyDRa: Hybrid Fusion, Depth Consistency and Radar for Unified 3D Perception](https://arxiv.org/abs/2403.07746v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/phi-wol/hydra)",
+        "n": "HyDRa",
+        "d": "2024-03-12",
+        "m1": "64.2"
+      },
+      {
+        "p": "[RCBEVDet: Radar-camera Fusion in Bird's Eye View for 3D Object Detection](https://arxiv.org/abs/2403.16440v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/vdigpku/rcbevdet)",
+        "n": "RCBEVDet",
+        "d": "2024-03-25",
+        "m1": "63.9"
+      },
+      {
+        "p": "[CRN: Camera Radar Net for Accurate, Robust, Efficient 3D Perception](https://arxiv.org/abs/2304.00670v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/youngskkim/CRN)",
+        "n": "CRN",
+        "d": "2023-04-03",
+        "m1": "62.4"
+      },
+      {
+        "p": "[RCM-Fusion: Radar-Camera Multi-Level Fusion for 3D Object Detection](https://arxiv.org/abs/2307.10249v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/mjseong0414/RCM-Fusion)",
+        "n": "RCM-Fusion",
+        "d": "2023-07-17",
+        "m1": "58.7"
+      },
+      {
+        "p": "[X3KD: Knowledge Distillation Across Modalities, Tasks and Stages for Multi-Camera 3D Object Detection](http://openaccess.thecvf.com//content/CVPR2023/html/Klingner_X3KD_Knowledge_Distillation_Across_Modalities_Tasks_and_Stages_for_Multi-Camera_CVPR_2023_paper.html)",
+        "c": "",
+        "n": "X3KD",
+        "d": "2023-01-01",
+        "m1": "55.3"
+      },
+      {
+        "p": "[CRAFT: Camera-Radar 3D Object Detection with Spatio-Contextual Fusion Transformer](https://arxiv.org/abs/2209.06535v2)",
+        "c": "",
+        "n": "CRAFT",
+        "d": "2022-09-14",
+        "m1": "52.3"
+      },
+      {
+        "p": "[MVFusion: Multi-View 3D Object Detection with Semantic-aligned Radar and Camera Fusion](https://arxiv.org/abs/2302.10511v1)",
+        "c": "",
+        "n": "MVFusion",
+        "d": "2023-02-21",
+        "m1": "51.7"
+      },
+      {
+        "p": "[ClusterFusion: Leveraging Radar Spatial Features for Radar-Camera 3D Object Detection in Autonomous Vehicles](https://arxiv.org/abs/2309.03734v2)",
+        "c": "",
+        "n": "ClusterFusion",
+        "d": "2023-09-07",
+        "m1": "48.7"
+      },
+      {
+        "p": "[CenterFusion: Center-based Radar and Camera Fusion for 3D Object Detection](https://arxiv.org/abs/2011.04841v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/mrnabati/CenterFusion)",
+        "n": "CenterFusion",
+        "d": "2020-11-10",
+        "m1": "44.9"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

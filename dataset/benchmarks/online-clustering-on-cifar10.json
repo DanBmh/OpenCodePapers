@@ -1,0 +1,77 @@
+{
+  "title": "online-clustering-on-cifar10",
+  "task-hierarchy": [
+    "Image Clustering",
+    "Online Clustering"
+  ],
+  "dataset-info": {
+    "link": "https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "online NMI",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "online ACC",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "online ARI",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Hard Regularization to Prevent Deep Online Clustering Collapse without Data Augmentation](https://arxiv.org/abs/2303.16521v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/lou1sm/online_hard_clustering)",
+        "n": "OHC",
+        "d": "2023-03-29",
+        "m1": "10.5",
+        "m2": "21.7",
+        "m3": "5.4"
+      },
+      {
+        "p": "[Deep clustering with concrete k-means](https://arxiv.org/abs/1910.08031v1)",
+        "c": "",
+        "n": "CKM",
+        "d": "2019-10-17",
+        "m1": "2.8",
+        "m2": "15.2",
+        "m3": "1.4"
+      },
+      {
+        "p": "[Deep Robust Clustering by Contrastive Learning](https://arxiv.org/abs/2008.03030v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/mynameischaos/GCC)",
+        "n": "DRC",
+        "d": "2020-08-07",
+        "m1": "1.1",
+        "m2": "11.8",
+        "m3": "0.3"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

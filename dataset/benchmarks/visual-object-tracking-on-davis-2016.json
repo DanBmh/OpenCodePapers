@@ -1,0 +1,941 @@
+{
+  "title": "visual-object-tracking-on-davis-2016",
+  "task-hierarchy": [
+    "Semi-Supervised Video Object Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://davischallenge.org/davis2016/code.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "J&F",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Jaccard (Mean)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Jaccard (Recall)",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Jaccard (Decay)",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "F-measure (Mean)",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "F-measure (Recall)",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "F-measure (Decay)",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "Speed (FPS)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Look Before You Match: Instance Understanding Matters in Video Object Segmentation](https://arxiv.org/abs/2212.06826v1)",
+        "c": "",
+        "n": "ISVOS (BL30K, MS)",
+        "d": "2022-12-13",
+        "m1": "93.4",
+        "m2": "92.5",
+        "m5": "94.2"
+      },
+      {
+        "p": "[XMem: Long-Term Video Object Segmentation with an Atkinson-Shiffrin Memory Model](https://arxiv.org/abs/2207.07115v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/hkchengrex/XMem)",
+        "n": "XMem (BL30K, MS)",
+        "d": "2022-07-14",
+        "m1": "93.3",
+        "m2": "92.2",
+        "m5": "94.4"
+      },
+      {
+        "p": "[Scalable Video Object Segmentation with Identification Mechanism](https://arxiv.org/abs/2203.11442v8)",
+        "c": "[&check;&nbsp;Link](https://github.com/yoxu515/aot-benchmark)",
+        "n": "SwinB-AOTv2-L (MS)",
+        "d": "2022-03-22",
+        "m1": "93.0",
+        "m2": "91.6",
+        "m5": "94.4",
+        "m8": "1.3"
+      },
+      {
+        "p": "[Scalable Video Object Segmentation with Identification Mechanism](https://arxiv.org/abs/2203.11442v8)",
+        "c": "[&check;&nbsp;Link](https://github.com/yoxu515/aot-benchmark)",
+        "n": "SwinB-AOST (L'=3, MS)",
+        "d": "2022-03-22",
+        "m1": "93.0",
+        "m2": "91.5",
+        "m5": "94.5",
+        "m8": "1.3"
+      },
+      {
+        "p": "[Decoupling Features in Hierarchical Propagation for Video Object Segmentation](https://arxiv.org/abs/2210.09782v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/yoxu515/aot-benchmark)",
+        "n": "SwinB-DeAOT-L",
+        "d": "2022-10-18",
+        "m1": "92.9",
+        "m2": "91.1",
+        "m5": "94.7",
+        "m8": "15.4"
+      },
+      {
+        "p": "[XMem: Long-Term Video Object Segmentation with an Atkinson-Shiffrin Memory Model](https://arxiv.org/abs/2207.07115v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/hkchengrex/XMem)",
+        "n": "XMem (MS)",
+        "d": "2022-07-14",
+        "m1": "92.7",
+        "m2": "92.0",
+        "m5": "93.5"
+      },
+      {
+        "p": "[Scalable Video Object Segmentation with Identification Mechanism](https://arxiv.org/abs/2203.11442v8)",
+        "c": "[&check;&nbsp;Link](https://github.com/yoxu515/aot-benchmark)",
+        "n": "SwinB-AOTv2-L",
+        "d": "2022-03-22",
+        "m1": "92.4",
+        "m2": "90.6",
+        "m5": "94.1",
+        "m8": "12.0"
+      },
+      {
+        "p": "[Scalable Video Object Segmentation with Identification Mechanism](https://arxiv.org/abs/2203.11442v8)",
+        "c": "[&check;&nbsp;Link](https://github.com/yoxu515/aot-benchmark)",
+        "n": "SwinB-AOST (L'=3)",
+        "d": "2022-03-22",
+        "m1": "92.4",
+        "m2": "90.5",
+        "m5": "94.2",
+        "m8": "12.0"
+      },
+      {
+        "p": "[Decoupling Features in Hierarchical Propagation for Video Object Segmentation](https://arxiv.org/abs/2210.09782v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/yoxu515/aot-benchmark)",
+        "n": "R50-DeAOT-L",
+        "d": "2022-10-18",
+        "m1": "92.3",
+        "m2": "90.5",
+        "m5": "94.0",
+        "m8": "27.0"
+      },
+      {
+        "p": "[Scalable Video Object Segmentation with Identification Mechanism](https://arxiv.org/abs/2203.11442v8)",
+        "c": "[&check;&nbsp;Link](https://github.com/yoxu515/aot-benchmark)",
+        "n": "R50-AOST (L'=3)",
+        "d": "2022-03-22",
+        "m1": "92.1",
+        "m2": "90.6",
+        "m5": "93.6",
+        "m8": "17.5"
+      },
+      {
+        "p": "[Associating Objects with Transformers for Video Object Segmentation](https://arxiv.org/abs/2106.02638v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/yoxu515/aot-benchmark)",
+        "n": "SwinB-AOT-L",
+        "d": "2021-06-04",
+        "m1": "92.0",
+        "m2": "90.7",
+        "m5": "93.3",
+        "m8": "12.1"
+      },
+      {
+        "p": "[XMem: Long-Term Video Object Segmentation with an Atkinson-Shiffrin Memory Model](https://arxiv.org/abs/2207.07115v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/hkchengrex/XMem)",
+        "n": "XMem (BL30K)",
+        "d": "2022-07-14",
+        "m1": "92.0",
+        "m2": "90.7",
+        "m5": "93.2",
+        "m8": "29.6"
+      },
+      {
+        "p": "[Learning Quality-aware Dynamic Memory for Video Object Segmentation](https://arxiv.org/abs/2207.07922v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/workforai/qdmn)",
+        "n": "QDMN",
+        "d": "2022-07-16",
+        "m1": "92.0",
+        "m2": "90.7",
+        "m5": "93.2"
+      },
+      {
+        "p": "[Scalable Video Object Segmentation with Identification Mechanism](https://arxiv.org/abs/2203.11442v8)",
+        "c": "[&check;&nbsp;Link](https://github.com/yoxu515/aot-benchmark)",
+        "n": "R50-AOST (L'=2)",
+        "d": "2022-03-22",
+        "m1": "92.0",
+        "m2": "90.5",
+        "m5": "93.4",
+        "m8": "24.3"
+      },
+      {
+        "p": "[Decoupling Features in Hierarchical Propagation for Video Object Segmentation](https://arxiv.org/abs/2210.09782v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/yoxu515/aot-benchmark)",
+        "n": "DeAOT-L",
+        "d": "2022-10-18",
+        "m1": "92.0",
+        "m2": "90.3",
+        "m5": "93.7",
+        "m8": "28.5"
+      },
+      {
+        "p": "[TrickVOS: A Bag of Tricks for Video Object Segmentation](https://arxiv.org/abs/2306.15377v2)",
+        "c": "",
+        "n": "STCN + TrickVOS (PT)",
+        "d": "2023-06-27",
+        "m1": "91.8",
+        "m2": "90.5",
+        "m5": "93.1"
+      },
+      {
+        "p": "[Region Aware Video Object Segmentation with Deep Motion Modeling](https://arxiv.org/abs/2207.10258v1)",
+        "c": "",
+        "n": "RAVOS",
+        "d": "2022-07-21",
+        "m1": "91.7",
+        "m2": "90.8",
+        "m5": "92.6",
+        "m8": "58"
+      },
+      {
+        "p": "[Rethinking Space-Time Networks with Improved Memory Coverage for Efficient Video Object Segmentation](https://arxiv.org/abs/2106.05210v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/hkchengrex/STCN)",
+        "n": "STCN",
+        "d": "2021-06-09",
+        "m1": "91.7",
+        "m2": "90.4",
+        "m3": "98.1",
+        "m4": "4.1",
+        "m5": "93.0",
+        "m6": "97.1",
+        "m7": "4.3",
+        "m8": "26.9"
+      },
+      {
+        "p": "[XMem: Long-Term Video Object Segmentation with an Atkinson-Shiffrin Memory Model](https://arxiv.org/abs/2207.07115v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/hkchengrex/XMem)",
+        "n": "XMem",
+        "d": "2022-07-14",
+        "m1": "91.5",
+        "m2": "90.4",
+        "m5": "92.7",
+        "m8": "29.6"
+      },
+      {
+        "p": "[MobileVOS: Real-Time Video Object Segmentation Contrastive Learning meets Knowledge Distillation](https://arxiv.org/abs/2303.07815v1)",
+        "c": "",
+        "n": "MobileVOS (BL30K)",
+        "d": "2023-03-14",
+        "m1": "91.4",
+        "m2": "90.3",
+        "m5": "92.6",
+        "m8": "100.1"
+      },
+      {
+        "p": "[Associating Objects with Transformers for Video Object Segmentation](https://arxiv.org/abs/2106.02638v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/yoxu515/aot-benchmark)",
+        "n": "R50-AOT-L",
+        "d": "2021-06-04",
+        "m1": "91.1",
+        "m2": "90.1",
+        "m5": "92.1",
+        "m8": "18.0"
+      },
+      {
+        "p": "[Modular Interactive Video Object Segmentation: Interaction-to-Mask, Propagation and Difference-Aware Fusion](https://arxiv.org/abs/2103.07941v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/hkchengrex/MiVOS)",
+        "n": "MiVOS",
+        "d": "2021-03-14",
+        "m1": "91.0",
+        "m2": "89.7",
+        "m3": "97.5",
+        "m4": "6.6",
+        "m5": "92.4",
+        "m6": "96.4",
+        "m7": "5.1",
+        "m8": "16.9"
+      },
+      {
+        "p": "[Decoupling Features in Hierarchical Propagation for Video Object Segmentation](https://arxiv.org/abs/2210.09782v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/yoxu515/aot-benchmark)",
+        "n": "DeAOT-B",
+        "d": "2022-10-18",
+        "m1": "91.0",
+        "m2": "89.4",
+        "m5": "92.5",
+        "m8": "40.9"
+      },
+      {
+        "p": "[Hierarchical Memory Matching Network for Video Object Segmentation](https://arxiv.org/abs/2109.11404v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/hongje/hmmn)",
+        "n": "HMMN",
+        "d": "2021-09-23",
+        "m1": "90.8",
+        "m2": "89.6",
+        "m5": "92.0"
+      },
+      {
+        "p": "[XMem: Long-Term Video Object Segmentation with an Atkinson-Shiffrin Memory Model](https://arxiv.org/abs/2207.07115v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/hkchengrex/XMem)",
+        "n": "XMem (DAVIS+YouTubeVOS only)",
+        "d": "2022-07-14",
+        "m1": "90.8",
+        "m2": "89.6",
+        "m5": "91.9",
+        "m8": "29.6"
+      },
+      {
+        "p": "[MobileVOS: Real-Time Video Object Segmentation Contrastive Learning meets Knowledge Distillation](https://arxiv.org/abs/2303.07815v1)",
+        "c": "",
+        "n": "MobileVOS",
+        "d": "2023-03-14",
+        "m1": "90.6",
+        "m2": "89.7",
+        "m5": "91.6",
+        "m8": "100.1"
+      },
+      {
+        "p": "[Reliable Propagation-Correction Modulation for Video Object Segmentation](https://arxiv.org/abs/2112.02853v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/jerryx1110/rpcmvos)",
+        "n": "RPCMVOS",
+        "d": "2021-12-06",
+        "m1": "90.6",
+        "m2": "87.1",
+        "m5": "94"
+      },
+      {
+        "p": "[Kernelized Memory Network for Video Object Segmentation](https://arxiv.org/abs/2007.08270v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/hkchengrex/Mask-Propagation)",
+        "n": "KMN",
+        "d": "2020-07-16",
+        "m1": "90.5",
+        "m2": "89.5",
+        "m5": "91.5"
+      },
+      {
+        "p": "[Associating Objects with Transformers for Video Object Segmentation](https://arxiv.org/abs/2106.02638v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/yoxu515/aot-benchmark)",
+        "n": "AOT-L",
+        "d": "2021-06-04",
+        "m1": "90.4",
+        "m2": "89.6",
+        "m5": "91.1",
+        "m8": "18.7"
+      },
+      {
+        "p": "[Scalable Video Object Segmentation with Identification Mechanism](https://arxiv.org/abs/2203.11442v8)",
+        "c": "[&check;&nbsp;Link](https://github.com/yoxu515/aot-benchmark)",
+        "n": "R50-AOST (L'=1)",
+        "d": "2022-03-22",
+        "m1": "90.3",
+        "m2": "89.6",
+        "m5": "90.9",
+        "m8": "37.4"
+      },
+      {
+        "p": "[Associating Objects with Transformers for Video Object Segmentation](https://arxiv.org/abs/2106.02638v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/yoxu515/aot-benchmark)",
+        "n": "AOT-L",
+        "d": "2021-06-04",
+        "m1": "89.9",
+        "m2": "88.7",
+        "m5": "91.1",
+        "m8": "29.6"
+      },
+      {
+        "p": "[Collaborative Video Object Segmentation by Multi-Scale Foreground-Background Integration](https://arxiv.org/abs/2010.06349v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/z-x-yang/CFBI)",
+        "n": "CFBI+",
+        "d": "2020-10-13",
+        "m1": "89.9",
+        "m2": "88.7",
+        "m5": "91.1"
+      },
+      {
+        "p": "[Video Object Segmentation using Space-Time Memory Networks](https://arxiv.org/abs/1904.00607v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/seoungwugoh/STM)",
+        "n": "STM",
+        "d": "2019-04-01",
+        "m1": "89.4",
+        "m2": "88.7",
+        "m3": "97.4",
+        "m4": "5.0",
+        "m5": "90.1",
+        "m6": "95.2",
+        "m7": "4.2"
+      },
+      {
+        "p": "[Associating Objects with Transformers for Video Object Segmentation](https://arxiv.org/abs/2106.02638v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/yoxu515/aot-benchmark)",
+        "n": "AOT-S",
+        "d": "2021-06-04",
+        "m1": "89.4",
+        "m2": "88.6",
+        "m5": "90.2",
+        "m8": "40.0"
+      },
+      {
+        "p": "[Collaborative Video Object Segmentation by Foreground-Background Integration](https://arxiv.org/abs/2003.08333v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleVideo/blob/develop/docs/en/model_zoo/segmentation/cfbi.md)",
+        "n": "CFBI",
+        "d": "2020-03-18",
+        "m1": "89.4",
+        "m2": "88.3",
+        "m5": "90.5"
+      },
+      {
+        "p": "[TrickVOS: A Bag of Tricks for Video Object Segmentation](https://arxiv.org/abs/2306.15377v2)",
+        "c": "",
+        "n": "Lightweight TrickVOS (PT)",
+        "d": "2023-06-27",
+        "m1": "89.3",
+        "m2": "88.7",
+        "m5": "89.9",
+        "m8": "86.4"
+      },
+      {
+        "p": "[Decoupling Features in Hierarchical Propagation for Video Object Segmentation](https://arxiv.org/abs/2210.09782v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/yoxu515/aot-benchmark)",
+        "n": "DeAOT-S",
+        "d": "2022-10-18",
+        "m1": "89.3",
+        "m2": "87.6",
+        "m5": "90.9",
+        "m8": "49.2"
+      },
+      {
+        "p": "[Decoupling Features in Hierarchical Propagation for Video Object Segmentation](https://arxiv.org/abs/2210.09782v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/yoxu515/aot-benchmark)",
+        "n": "DeAOT-T",
+        "d": "2022-10-18",
+        "m1": "88.9",
+        "m2": "87.8",
+        "m5": "89.9",
+        "m8": "63.5"
+      },
+      {
+        "p": "[Efficient Regional Memory Network for Video Object Segmentation](https://arxiv.org/abs/2103.12934v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/hzxie/RMNet)",
+        "n": "RMNet",
+        "d": "2021-03-24",
+        "m1": "88.8",
+        "m2": "88.9",
+        "m5": "88.7"
+      },
+      {
+        "p": "[MHP-VOS: Multiple Hypotheses Propagation for Video Object Segmentation](http://arxiv.org/abs/1904.08141v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/shuangjiexu/MHP-VOS)",
+        "n": "MHP-VOS",
+        "d": "2019-04-17",
+        "m1": "88.55",
+        "m2": "87.6",
+        "m3": "97.3",
+        "m4": "6.9",
+        "m5": "89.5",
+        "m6": "95.5",
+        "m7": "9.0"
+      },
+      {
+        "p": "[SWEM: Towards Real-Time Video Object Segmentation with Sequential Weighted Expectation-Maximization](https://arxiv.org/abs/2208.10128v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/lmm077/SWEM)",
+        "n": "SWEM (val)",
+        "d": "2022-08-22",
+        "m1": "88.1",
+        "m2": "87.3",
+        "m5": "89.0",
+        "m8": "36"
+      },
+      {
+        "p": "[XMem: Long-Term Video Object Segmentation with an Atkinson-Shiffrin Memory Model](https://arxiv.org/abs/2207.07115v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/hkchengrex/XMem)",
+        "n": "XMem (DAVIS only)",
+        "d": "2022-07-14",
+        "m1": "87.8",
+        "m2": "86.7",
+        "m5": "88.9",
+        "m8": "29.6"
+      },
+      {
+        "p": "[RANet: Ranking Attention Network for Fast Video Object Segmentation](https://arxiv.org/abs/1908.06647v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/Storife/RANet)",
+        "n": "RANet+ (online learning)",
+        "d": "2019-08-19",
+        "m1": "87.1",
+        "m2": "86.6",
+        "m3": "97",
+        "m4": "7.4",
+        "m5": "87.6",
+        "m6": "96.1",
+        "m7": "8.2"
+      },
+      {
+        "p": "[Make One-Shot Video Object Segmentation Efficient Again](https://arxiv.org/abs/2012.01866v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/timmeinhardt/trackformer)",
+        "n": "e-OSVOS",
+        "d": "2020-12-03",
+        "m1": "86.8",
+        "m2": "86.6",
+        "m4": "4.5",
+        "m5": "87.0"
+      },
+      {
+        "p": "[Associating Objects with Transformers for Video Object Segmentation](https://arxiv.org/abs/2106.02638v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/yoxu515/aot-benchmark)",
+        "n": "AOT-T",
+        "d": "2021-06-04",
+        "m1": "86.8",
+        "m2": "86.1",
+        "m5": "87.4",
+        "m8": "51.4"
+      },
+      {
+        "p": "[PReMVOS: Proposal-generation, Refinement and Merging for Video Object Segmentation](http://arxiv.org/abs/1807.09190v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/JonathonLuiten/PReMVOS)",
+        "n": "PReMVOS",
+        "d": "2018-07-24",
+        "m1": "86.75",
+        "m2": "84.9",
+        "m3": "96.1",
+        "m4": "8.8",
+        "m5": "88.6",
+        "m6": "94.7",
+        "m7": "9.8"
+      },
+      {
+        "p": "[Video Object Segmentation Without Temporal Information](http://arxiv.org/abs/1709.06031v2)",
+        "c": "",
+        "n": "OSVOS-S",
+        "d": "2017-09-18",
+        "m1": "86.55",
+        "m2": "85.6",
+        "m3": "96.8",
+        "m4": "5.5",
+        "m5": "87.5",
+        "m6": "95.9",
+        "m7": "8.2"
+      },
+      {
+        "p": "[LSMVOS: Long-Short-Term Similarity Matching for Video Object](https://arxiv.org/abs/2009.00771v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/wudao001/LSMVOS)",
+        "n": "LSMVOS",
+        "d": "2020-09-02",
+        "m1": "86.5",
+        "m2": "85.7",
+        "m3": "97.1",
+        "m4": "5.1",
+        "m5": "87.3",
+        "m6": "96.1",
+        "m7": "4.9"
+      },
+      {
+        "p": "[Separable Structure Modeling for Semi-supervised Video Object Segmentation](https://ieeexplore.ieee.org/document/9356697)",
+        "c": "[&check;&nbsp;Link](https://github.com/li-plus/SSM-VOS)",
+        "n": "SSM-VOS",
+        "d": "2021-02-18",
+        "m1": "85.9",
+        "m2": "86.2",
+        "m3": "97.1",
+        "m4": "5.3",
+        "m5": "85.6",
+        "m6": "92.3",
+        "m7": "5.6",
+        "m8": "36.5"
+      },
+      {
+        "p": "[Online Adaptation of Convolutional Neural Networks for Video Object Segmentation](http://arxiv.org/abs/1706.09364v2)",
+        "c": "",
+        "n": "OnAVOS",
+        "d": "2017-06-28",
+        "m1": "85.5",
+        "m2": "86.1",
+        "m3": "96.1",
+        "m4": "5.2",
+        "m5": "84.9",
+        "m6": "89.7",
+        "m7": "5.8"
+      },
+      {
+        "p": "[RANet: Ranking Attention Network for Fast Video Object Segmentation](https://arxiv.org/abs/1908.06647v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/Storife/RANet)",
+        "n": "RANet",
+        "d": "2019-08-19",
+        "m1": "85.45",
+        "m2": "85.5",
+        "m3": "97.2",
+        "m4": "6.2",
+        "m5": "85.4",
+        "m6": "94.9",
+        "m7": "5.1"
+      },
+      {
+        "p": "[CNN in MRF: Video Object Segmentation via Inference in A CNN-Based Higher-Order Spatio-Temporal MRF](http://arxiv.org/abs/1803.09453v1)",
+        "c": "",
+        "n": "CINM",
+        "d": "2018-03-26",
+        "m1": "84.2",
+        "m2": "83.4",
+        "m3": "94.9",
+        "m4": "12.3",
+        "m5": "85.0",
+        "m6": "92.1",
+        "m7": "14.7"
+      },
+      {
+        "p": "[Spatiotemporal CNN for Video Object Segmentation](http://arxiv.org/abs/1904.02363v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/longyin880815/STCNN)",
+        "n": "Spatiotemporal CNN",
+        "d": "2019-04-04",
+        "m1": "83.8",
+        "m2": "83.8",
+        "m5": "83.8"
+      },
+      {
+        "p": "[Video Object Segmentation with Language Referring Expressions](http://arxiv.org/abs/1803.08006v3)",
+        "c": "",
+        "n": "VOSwL",
+        "d": "2018-03-21",
+        "m1": "83.65",
+        "m2": "83.1",
+        "m3": "95.7",
+        "m4": "6.9",
+        "m5": "84.2",
+        "m6": "93.9",
+        "m7": "8.6"
+      },
+      {
+        "p": "[Lucid Data Dreaming for Video Object Segmentation](http://arxiv.org/abs/1703.09554v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/omkar13/MaskTrack)",
+        "n": "Lucid",
+        "d": "2017-03-28",
+        "m1": "82.95",
+        "m2": "83.9",
+        "m3": "95.0",
+        "m4": "9.1",
+        "m5": "82.0",
+        "m6": "88.1",
+        "m7": "9.7"
+      },
+      {
+        "p": "[A Generative Appearance Model for End-to-end Video Object Segmentation](http://arxiv.org/abs/1811.11611v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/joakimjohnander/agame-vos)",
+        "n": "AGAME",
+        "d": "2018-11-28",
+        "m1": "81.85",
+        "m2": "81.5",
+        "m3": "93.6",
+        "m4": "9.4",
+        "m5": "82.2",
+        "m6": "90.3",
+        "m7": "9.8"
+      },
+      {
+        "p": "[Fast Video Object Segmentation by Reference-Guided Mask Propagation](http://openaccess.thecvf.com/content_cvpr_2018/html/Oh_Fast_Video_Object_CVPR_2018_paper.html)",
+        "c": "[&check;&nbsp;Link](https://github.com/seoungwugoh/RGMP)",
+        "n": "RGMP",
+        "d": "2018-06-01",
+        "m1": "81.75",
+        "m2": "81.5",
+        "m3": "91.7",
+        "m4": "10.9",
+        "m5": "82.0",
+        "m6": "90.8",
+        "m7": "10.1"
+      },
+      {
+        "p": "[Learning Fast and Robust Target Models for Video Object Segmentation](https://arxiv.org/abs/2003.00908v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/andr345/frtm-vos)",
+        "n": "FRTM (val)",
+        "d": "2020-02-27",
+        "m1": "81.7",
+        "m8": "21.9"
+      },
+      {
+        "p": "[FEELVOS: Fast End-to-End Embedding Learning for Video Object Segmentation](http://arxiv.org/abs/1902.09513v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+        "n": "FEELVOS",
+        "d": "2019-02-25",
+        "m1": "81.65",
+        "m2": "81.1",
+        "m3": "90.5",
+        "m4": "13.7",
+        "m5": "82.2",
+        "m6": "86.6",
+        "m7": "14.1"
+      },
+      {
+        "p": "[CRVOS: Clue Refining Network for Video Object Segmentation](https://arxiv.org/abs/2002.03651v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/saswat0/CRVOS)",
+        "n": "CRVOS",
+        "d": "2020-02-10",
+        "m1": "81.6",
+        "m2": "82.2",
+        "m3": "93.9",
+        "m4": "10.0",
+        "m5": "81.0",
+        "m6": "90.3",
+        "m7": "8.8"
+      },
+      {
+        "p": "[Fast and Accurate Online Video Object Segmentation via Tracking Parts](http://arxiv.org/abs/1806.02323v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/guanfuchen/video_obj)",
+        "n": "FAVOS",
+        "d": "2018-06-06",
+        "m1": "80.95",
+        "m2": "82.4",
+        "m3": "96.5",
+        "m4": "4.5",
+        "m5": "79.5",
+        "m6": "89.4",
+        "m7": "5.5"
+      },
+      {
+        "p": "[One-Shot Video Object Segmentation](http://arxiv.org/abs/1611.05198v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/kmaninis/OSVOS-PyTorch)",
+        "n": "OSVOS",
+        "d": "2016-11-16",
+        "m1": "80.2",
+        "m2": "79.8",
+        "m3": "93.6",
+        "m4": "14.9",
+        "m5": "80.6",
+        "m6": "92.6",
+        "m7": "15.0"
+      },
+      {
+        "p": "[Siam R-CNN: Visual Tracking by Re-Detection](https://arxiv.org/abs/1911.12836v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/VisualComputingInstitute/SiamR-CNN)",
+        "n": "Siam R-CNN",
+        "d": "2019-11-28",
+        "m1": "78.6",
+        "m2": "76.8",
+        "m3": "86.4",
+        "m4": "2.2",
+        "m5": "80.4",
+        "m6": "87.6",
+        "m7": "4.0"
+      },
+      {
+        "p": "[An Efficient 3D CNN for Action/Object Segmentation in Video](https://arxiv.org/abs/1907.08895v1)",
+        "c": "",
+        "n": "Hou et al.",
+        "d": "2019-07-21",
+        "m1": "77.75",
+        "m2": "78.3",
+        "m3": "91.1",
+        "m4": "2.3",
+        "m5": "77.2",
+        "m6": "84.7",
+        "m7": "4.9"
+      },
+      {
+        "p": "[Learning Video Object Segmentation from Static Images](http://arxiv.org/abs/1612.02646v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/omkar13/MaskTrack)",
+        "n": "MSK",
+        "d": "2016-12-08",
+        "m1": "77.55",
+        "m2": "79.7",
+        "m3": "93.1",
+        "m4": "8.9",
+        "m5": "75.4",
+        "m6": "87.1",
+        "m7": "9.0"
+      },
+      {
+        "p": "[Blazingly Fast Video Object Segmentation with Pixel-Wise Metric Learning](http://arxiv.org/abs/1804.03131v1)",
+        "c": "",
+        "n": "PML",
+        "d": "2018-04-09",
+        "m1": "77.4",
+        "m2": "75.5",
+        "m3": "89.6",
+        "m4": "8.5",
+        "m5": "79.3",
+        "m6": "93.4",
+        "m7": "7.8"
+      },
+      {
+        "p": "[SegFlow: Joint Learning for Video Object Segmentation and Optical Flow](http://arxiv.org/abs/1709.06750v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/JingchunCheng/SegFlow)",
+        "n": "SFL",
+        "d": "2017-09-20",
+        "m1": "76.05",
+        "m2": "76.1",
+        "m3": "90.6",
+        "m4": "12.1",
+        "m5": "76.0",
+        "m6": "85.5",
+        "m7": "10.4"
+      },
+      {
+        "p": "[Efficient Video Object Segmentation via Network Modulation](http://arxiv.org/abs/1802.01218v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/linjieyangsc/video_seg)",
+        "n": "OSMN",
+        "d": "2018-02-04",
+        "m1": "73.45",
+        "m2": "74.0",
+        "m3": "87.6",
+        "m4": "9.0",
+        "m5": "72.9",
+        "m6": "84.0",
+        "m7": "10.6"
+      },
+      {
+        "p": "[Online Video Object Segmentation via Convolutional Trident Network](http://openaccess.thecvf.com/content_cvpr_2017/html/Jang_Online_Video_Object_CVPR_2017_paper.html)",
+        "c": "",
+        "n": "CTN",
+        "d": "2017-07-01",
+        "m1": "71.4",
+        "m2": "73.5",
+        "m3": "87.4",
+        "m4": "15.6",
+        "m5": "69.3",
+        "m6": "79.6",
+        "m7": "12.9"
+      },
+      {
+        "p": "[Fast Online Object Tracking and Segmentation: A Unifying Approach](https://arxiv.org/abs/1812.05050v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/foolwood/SiamMask)",
+        "n": "SiamMask",
+        "d": "2018-12-12",
+        "m1": "69.75",
+        "m2": "71.7",
+        "m3": "86.8",
+        "m4": "3.0",
+        "m5": "67.8",
+        "m6": "79.8",
+        "m7": "2.1"
+      },
+      {
+        "p": "[Fast Video Object Segmentation With Temporal Aggregation Network and Dynamic Template Matching](https://arxiv.org/abs/2007.05687v1)",
+        "c": "",
+        "n": "RGMP (val)",
+        "d": "2020-07-11",
+        "m1": "68.8",
+        "m2": "68.6",
+        "m5": "68.9"
+      },
+      {
+        "p": "[Video Propagation Networks](http://arxiv.org/abs/1612.05478v3)",
+        "c": "",
+        "n": "VPN",
+        "d": "2016-12-16",
+        "m1": "67.9",
+        "m2": "70.2",
+        "m3": "82.3",
+        "m4": "12.4",
+        "m5": "65.6",
+        "m6": "69.0",
+        "m7": "14.4"
+      },
+      {
+        "p": "[Pixel-Level Matching for Video Object Segmentation using Convolutional Neural Networks](http://arxiv.org/abs/1708.05137v1)",
+        "c": "",
+        "n": "PLM",
+        "d": "2017-08-17",
+        "m1": "66.35",
+        "m2": "70.2",
+        "m3": "86.3",
+        "m4": "11.2",
+        "m5": "62.5",
+        "m6": "73.2",
+        "m7": "14.7"
+      },
+      {
+        "p": "[Video Segmentation via Object Flow](http://openaccess.thecvf.com/content_cvpr_2016/html/Tsai_Video_Segmentation_via_CVPR_2016_paper.html)",
+        "c": "",
+        "n": "OFL",
+        "d": "2016-06-01",
+        "m1": "65.7",
+        "m2": "68.0",
+        "m3": "75.6",
+        "m4": "26.4",
+        "m5": "63.4",
+        "m6": "70.4",
+        "m7": "27.2"
+      },
+      {
+        "p": "[Learning Video Object Segmentation from Unlabeled Videos](https://arxiv.org/abs/2003.05020v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/carrierlxk/MuG)",
+        "n": "MuG-W",
+        "d": "2020-03-10",
+        "m1": "64.65",
+        "m2": "65.7",
+        "m3": "77.7",
+        "m4": "26.4",
+        "m5": "63.6",
+        "m6": "67.7",
+        "m7": "27.2"
+      },
+      {
+        "p": "[Bilateral Space Video Segmentation](http://openaccess.thecvf.com/content_cvpr_2016/html/Maerki_Bilateral_Space_Video_CVPR_2016_paper.html)",
+        "c": "",
+        "n": "BVS",
+        "d": "2016-06-01",
+        "m1": "59.4",
+        "m2": "60.0",
+        "m3": "66.9",
+        "m4": "28.9",
+        "m5": "58.8",
+        "m6": "67.9",
+        "m7": "21.3"
+      },
+      {
+        "p": "[Fully Connected Object Proposals for Video Segmentation](http://openaccess.thecvf.com/content_iccv_2015/html/Perazzi_Fully_Connected_Object_ICCV_2015_paper.html)",
+        "c": "",
+        "n": "FCP",
+        "d": "2015-12-01",
+        "m1": "53.8",
+        "m2": "58.4",
+        "m3": "71.5",
+        "m4": "-2.0",
+        "m5": "49.2",
+        "m6": "49.5",
+        "m7": "-1.1"
+      },
+      {
+        "p": "[A 3D Convolutional Approach to Spectral Object Segmentation in Space and Time](https://arxiv.org/abs/1907.02731v5)",
+        "c": "[&check;&nbsp;Link](https://github.com/bit-ml/sfseg)",
+        "n": "SFSeg over OnAVOS",
+        "d": "2019-07-05",
+        "m2": "86.3"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

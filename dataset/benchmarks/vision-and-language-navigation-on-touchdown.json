@@ -1,0 +1,123 @@
+{
+  "title": "vision-and-language-navigation-on-touchdown",
+  "task-hierarchy": [
+    "Vision and Language Navigation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/lil-lab/touchdown"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Task Completion (TC)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[FLAME: Learning to Navigate with Multimodal LLM in Urban Environments](https://arxiv.org/abs/2408.11051v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/xyz9911/FLAME)",
+        "n": "FLAME",
+        "d": "2024-08-20",
+        "m1": "40.20"
+      },
+      {
+        "p": "[Analyzing Generalization of Vision and Language Navigation to Unseen Outdoor Areas](https://arxiv.org/abs/2203.13838v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/raphael-sch/map2seq_vln)",
+        "n": "ORAR + junction type + heading delta",
+        "d": "2022-03-25",
+        "m1": "29.1"
+      },
+      {
+        "p": "[Analyzing Generalization of Vision and Language Navigation to Unseen Outdoor Areas](https://arxiv.org/abs/2203.13838v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/raphael-sch/map2seq_vln)",
+        "n": "ORAR",
+        "d": "2022-03-25",
+        "m1": "24.2"
+      },
+      {
+        "p": "[Learning to Stop: A Simple yet Effective Approach to Urban Vision-Language Navigation](https://arxiv.org/abs/2009.13112v3)",
+        "c": "",
+        "n": "ARC + L2STOP",
+        "d": "2020-09-28",
+        "m1": "16.68"
+      },
+      {
+        "p": "[Multimodal Text Style Transfer for Outdoor Vision-and-Language Navigation](https://arxiv.org/abs/2007.00229v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/VegB/VLN-Transformer)",
+        "n": "VLN Transformer +M-50 +style",
+        "d": "2020-07-01",
+        "m1": "16.2"
+      },
+      {
+        "p": "[Multimodal Text Style Transfer for Outdoor Vision-and-Language Navigation](https://arxiv.org/abs/2007.00229v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/VegB/VLN-Transformer)",
+        "n": "VLN Transformer",
+        "d": "2020-07-01",
+        "m1": "14.9"
+      },
+      {
+        "p": "[Learning to Stop: A Simple yet Effective Approach to Urban Vision-Language Navigation](https://arxiv.org/abs/2009.13112v3)",
+        "c": "",
+        "n": "ARC",
+        "d": "2020-09-28",
+        "m1": "14.13"
+      },
+      {
+        "p": "[Retouchdown: Adding Touchdown to StreetLearn as a Shareable Resource for Language Grounding Tasks in Street View](https://arxiv.org/abs/2001.03671v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/clic-lab/touchdown)",
+        "n": "Retouch-RConcat",
+        "d": "2020-01-10",
+        "m1": "12.8"
+      },
+      {
+        "p": "[Multimodal Text Style Transfer for Outdoor Vision-and-Language Navigation](https://arxiv.org/abs/2007.00229v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/VegB/VLN-Transformer)",
+        "n": "Gated Attention (GA)",
+        "d": "2020-07-01",
+        "m1": "11.9"
+      },
+      {
+        "p": "[Multimodal Text Style Transfer for Outdoor Vision-and-Language Navigation](https://arxiv.org/abs/2007.00229v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/VegB/VLN-Transformer)",
+        "n": "RConcat",
+        "d": "2020-07-01",
+        "m1": "11.8"
+      },
+      {
+        "p": "[Touchdown: Natural Language Navigation and Spatial Reasoning in Visual Street Environments](https://arxiv.org/abs/1811.12354v7)",
+        "c": "[&check;&nbsp;Link](https://github.com/lil-lab/touchdown)",
+        "n": "RConcat",
+        "d": "2018-11-29",
+        "m1": "10.7"
+      },
+      {
+        "p": "[Touchdown: Natural Language Navigation and Spatial Reasoning in Visual Street Environments](https://arxiv.org/abs/1811.12354v7)",
+        "c": "[&check;&nbsp;Link](https://github.com/lil-lab/touchdown)",
+        "n": "Gated Attention (GA)",
+        "d": "2018-11-29",
+        "m1": "5.5"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}

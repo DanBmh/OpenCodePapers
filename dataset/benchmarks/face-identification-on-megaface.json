@@ -1,0 +1,129 @@
+{
+  "title": "face-identification-on-megaface",
+  "task-hierarchy": [
+    "3D Face Reconstruction",
+    "Facial Recognition and Modelling",
+    "Face Identification"
+  ],
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[Unified Negative Pair Generation toward Well-discriminative Feature Space for Face Recognition](https://arxiv.org/abs/2203.11593v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/tomas-gajarsky/facetorch)",
+        "n": "Cos+UNPG",
+        "d": "2022-03-22",
+        "m1": "99.27%"
+      },
+      {
+        "p": "[Partial FC: Training 10 Million Identities on a Single Machine](https://arxiv.org/abs/2010.05222v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/deepinsight/insightface)",
+        "n": "PartialFC + Glint360K + R100",
+        "d": "2020-10-11",
+        "m1": "99.10%"
+      },
+      {
+        "p": "[Unified Negative Pair Generation toward Well-discriminative Feature Space for Face Recognition](https://arxiv.org/abs/2203.11593v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/tomas-gajarsky/facetorch)",
+        "n": "Arc+UNPG",
+        "d": "2022-03-22",
+        "m1": "98.82%"
+      },
+      {
+        "p": "[Deep Polynomial Neural Networks](https://arxiv.org/abs/2006.13026v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/Faceplugin-ltd/FaceRecognition-Android)",
+        "n": "Prodpoly",
+        "d": "2020-06-20",
+        "m1": "98.78%"
+      },
+      {
+        "p": "[GhostFaceNets: Lightweight Face Recognition Model From Cheap Operations](https://ieeexplore.ieee.org/document/10098610)",
+        "c": "[&check;&nbsp;Link](https://github.com/serengil/deepface)",
+        "n": "GhostFaceNetV2-1",
+        "d": "2023-04-10",
+        "m1": "98.64%"
+      },
+      {
+        "p": "[ArcFace: Additive Angular Margin Loss for Deep Face Recognition](https://arxiv.org/abs/1801.07698v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/deepinsight/insightface)",
+        "n": "ArcFace + MS1MV2 + R100 + R",
+        "d": "2018-01-23",
+        "m1": "98.35%"
+      },
+      {
+        "p": "[Unified Negative Pair Generation toward Well-discriminative Feature Space for Face Recognition](https://arxiv.org/abs/2203.11593v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/tomas-gajarsky/facetorch)",
+        "n": "Mag+UNPG",
+        "d": "2022-03-22",
+        "m1": "98.03%"
+      },
+      {
+        "p": "[Support Vector Guided Softmax Loss for Face Recognition](http://arxiv.org/abs/1812.11317v1)",
+        "c": "[&check;&nbsp;Link](https://github.com/Recognito-Vision/Linux-FaceRecognition-FaceLivenessDetection)",
+        "n": "SV-AM-Softmax",
+        "d": "2018-12-29",
+        "m1": "97.2%"
+      },
+      {
+        "p": "[CosFace: Large Margin Cosine Loss for Deep Face Recognition](http://arxiv.org/abs/1801.09414v2)",
+        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleClas)",
+        "n": "CosFace",
+        "d": "2018-01-29",
+        "m1": "82.72%"
+      },
+      {
+        "p": "[SphereFace: Deep Hypersphere Embedding for Face Recognition](http://arxiv.org/abs/1704.08063v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/wy1iu/sphereface)",
+        "n": "SphereFace (3-patch ensemble)",
+        "d": "2017-04-26",
+        "m1": "75.766%"
+      },
+      {
+        "p": "[A Light CNN for Deep Face Representation with Noisy Labels](http://arxiv.org/abs/1511.02683v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/AlfredXiangWu/LightCNN)",
+        "n": "Light CNN-29",
+        "d": "2015-11-09",
+        "m1": "73.749%"
+      },
+      {
+        "p": "[SphereFace: Deep Hypersphere Embedding for Face Recognition](http://arxiv.org/abs/1704.08063v4)",
+        "c": "[&check;&nbsp;Link](https://github.com/wy1iu/sphereface)",
+        "n": "SphereFace (single model)",
+        "d": "2017-04-26",
+        "m1": "72.729%"
+      },
+      {
+        "p": "[FaceNet: A Unified Embedding for Face Recognition and Clustering](http://arxiv.org/abs/1503.03832v3)",
+        "c": "[&check;&nbsp;Link](https://github.com/serengil/deepface)",
+        "n": "FaceNet",
+        "d": "2015-03-12",
+        "m1": "70.49%"
+      }
+    ],
+    "markdown": "true",
+    "caption": "Check out how to [contribute](https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md) new results."
+  }
+}
