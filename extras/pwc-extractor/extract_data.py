@@ -5,9 +5,6 @@ import os
 # ==================================================================================================
 
 
-cont_url = (
-    "https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md"
-)
 row_template = {
     "fields": [
         {"key": "p", "label": "Paper"},
@@ -19,21 +16,7 @@ row_template = {
         {"key": "d", "label": "ReleaseDate", "sortable": "true"},
     ],
     "items": [],
-    "markdown": "true",
-    "caption": f"Check out how to [contribute]({cont_url}) new results.",
 }
-
-file_template = """# {}
-
-[Dataset Link]({}) \\
-Task Hierarchy: {}
-
-<br>
-
-```json:table
-{}
-```
-"""
 
 task_name_replacers = {
     "1 Image, 2*2 Stitchi": "",
@@ -170,19 +153,24 @@ def main():
             et["data_url"] = ""
 
     # Build files
-    path = "../../dataset/benchmarks/{}.md"
+    path = "../../dataset/benchmarks_json/{}.json"
     os.makedirs(os.path.dirname(path), exist_ok=True)
     for et in data_et:
         sdata = build_sota_data(et["sota"])
         name = et["bench_url"].replace("https://paperswithcode.com/sota/", "")
 
-        fdata = file_template.format(
-            name, et["data_url"], et["task_hierarchy"], json.dumps(sdata, indent=2)
-        )
+        fdata = {
+            "title": name,
+            "task-hierarchy": et["task_hierarchy"],
+            "dataset-info": {
+                "link": et["data_url"]
+            },
+            "benchmark": sdata
+        }
 
         fpath = path.format(name)
         with open(fpath, "w", encoding="utf-8") as f:
-            f.write(fdata)
+            json.dump(fdata, f, indent=2, ensure_ascii=False)
 
 
 # ==================================================================================================
