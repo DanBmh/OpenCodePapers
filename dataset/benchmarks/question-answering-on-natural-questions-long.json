@@ -38,93 +38,132 @@
     ],
     "items": [
       {
-        "p": "[Learning Dense Representations of Phrases at Scale](https://arxiv.org/abs/2012.12624v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/princeton-nlp/SimCSE)",
+        "p": {
+          "name": "Learning Dense Representations of Phrases at Scale",
+          "link": "https://arxiv.org/abs/2012.12624v3"
+        },
+        "c": "https://github.com/princeton-nlp/SimCSE",
         "n": "DensePhrases",
         "d": "2020-12-23",
         "m1": "79.6",
         "m2": "71.9"
       },
       {
-        "p": "[Cluster-Former: Clustering-based Sparse Transformer for Long-Range Dependency Encoding](https://arxiv.org/abs/2009.06097v2)",
+        "p": {
+          "name": "Cluster-Former: Clustering-based Sparse Transformer for Long-Range Dependency Encoding",
+          "link": "https://arxiv.org/abs/2009.06097v2"
+        },
         "c": "",
         "n": "Cluster-Former (#C=512)",
         "d": "2020-09-13",
         "m1": "76.5"
       },
       {
-        "p": "[Reformer: The Efficient Transformer](https://arxiv.org/abs/2001.04451v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "Reformer: The Efficient Transformer",
+          "link": "https://arxiv.org/abs/2001.04451v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "Locality-Sensitive Hashing",
         "d": "2020-01-13",
         "m1": "75.5"
       },
       {
-        "p": "[Generating Long Sequences with Sparse Transformers](http://arxiv.org/abs/1904.10509v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/mistralai/mistral-src)",
+        "p": {
+          "name": "Generating Long Sequences with Sparse Transformers",
+          "link": "http://arxiv.org/abs/1904.10509v1"
+        },
+        "c": "https://github.com/mistralai/mistral-src",
         "n": "Sparse Attention",
         "d": "2019-04-23",
         "m1": "74.5"
       },
       {
-        "p": "[Frustratingly Easy Natural Question Answering](https://arxiv.org/abs/1909.05286v1)",
+        "p": {
+          "name": "Frustratingly Easy Natural Question Answering",
+          "link": "https://arxiv.org/abs/1909.05286v1"
+        },
         "c": "",
         "n": "BERTwwm + SQuAD 2",
         "d": "2019-09-11",
         "m1": "68.2"
       },
       {
-        "p": "[A BERT Baseline for the Natural Questions](https://arxiv.org/abs/1901.08634v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/language)",
+        "p": {
+          "name": "A BERT Baseline for the Natural Questions",
+          "link": "https://arxiv.org/abs/1901.08634v3"
+        },
+        "c": "https://github.com/google-research/language",
         "n": "BERTjoint",
         "d": "2019-01-24",
         "m1": "64.7"
       },
       {
-        "p": "[Natural Questions: a Benchmark for Question Answering Research](https://ai.google/research/pubs/pub47761)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/language)",
+        "p": {
+          "name": "Natural Questions: a Benchmark for Question Answering Research",
+          "link": "https://ai.google/research/pubs/pub47761"
+        },
+        "c": "https://github.com/google-research/language",
         "n": "DecAtt + DocReader",
         "d": "2019-06-01",
         "m1": "54.8"
       },
       {
-        "p": "[Reading Wikipedia to Answer Open-Domain Questions](http://arxiv.org/abs/1704.00051v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/ParlAI)",
+        "p": {
+          "name": "Reading Wikipedia to Answer Open-Domain Questions",
+          "link": "http://arxiv.org/abs/1704.00051v2"
+        },
+        "c": "https://github.com/facebookresearch/ParlAI",
         "n": "DrQA",
         "d": "2017-03-31",
         "m1": "46.1"
       },
       {
-        "p": "[0.8% Nyquist computational ghost imaging via non-experimental deep learning](https://arxiv.org/abs/2108.07673v1)",
+        "p": {
+          "name": "0.8% Nyquist computational ghost imaging via non-experimental deep learning",
+          "link": "https://arxiv.org/abs/2108.07673v1"
+        },
         "c": "",
         "n": "FiE",
         "d": "2021-08-17",
         "m2": "58.4"
       },
       {
-        "p": "[R2-D2: A Modular Baseline for Open-Domain Question Answering](https://arxiv.org/abs/2109.03502v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/KNOT-FIT-BUT/R2-D2)",
+        "p": {
+          "name": "R2-D2: A Modular Baseline for Open-Domain Question Answering",
+          "link": "https://arxiv.org/abs/2109.03502v1"
+        },
+        "c": "https://github.com/KNOT-FIT-BUT/R2-D2",
         "n": "R2-D2 \\w HN-DPR",
         "d": "2021-09-08",
         "m2": "55.9"
       },
       {
-        "p": "[UniK-QA: Unified Representations of Structured and Unstructured Knowledge for Open-Domain Question Answering](https://arxiv.org/abs/2012.14610v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/UniK-QA)",
+        "p": {
+          "name": "UniK-QA: Unified Representations of Structured and Unstructured Knowledge for Open-Domain Question Answering",
+          "link": "https://arxiv.org/abs/2012.14610v3"
+        },
+        "c": "https://github.com/facebookresearch/UniK-QA",
         "n": "UniK-QA",
         "d": "2020-12-29",
         "m2": "54.9"
       },
       {
-        "p": "[UnitedQA: A Hybrid Approach for Open Domain Question Answering](https://arxiv.org/abs/2101.00178v2)",
+        "p": {
+          "name": "UnitedQA: A Hybrid Approach for Open Domain Question Answering",
+          "link": "https://arxiv.org/abs/2101.00178v2"
+        },
         "c": "",
         "n": "UnitedQA (Hybrid)",
         "d": "2021-01-01",
         "m2": "54.7"
       },
       {
-        "p": "[Efficient Passage Retrieval with Hashing for Open-domain Question Answering](https://arxiv.org/abs/2106.00882v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/studio-ousia/bpr)",
+        "p": {
+          "name": "Efficient Passage Retrieval with Hashing for Open-domain Question Answering",
+          "link": "https://arxiv.org/abs/2106.00882v1"
+        },
+        "c": "https://github.com/studio-ousia/bpr",
         "n": "BPR (linear scan; l=1000)",
         "d": "2021-06-02",
         "m2": "41.6"

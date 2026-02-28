@@ -38,32 +38,44 @@
     ],
     "items": [
       {
-        "p": "[Instance-Conditioned GAN](https://arxiv.org/abs/2109.05070v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/ic_gan)",
+        "p": {
+          "name": "Instance-Conditioned GAN",
+          "link": "https://arxiv.org/abs/2109.05070v2"
+        },
+        "c": "https://github.com/facebookresearch/ic_gan",
         "n": "IC-GAN + DA",
         "d": "2021-09-10",
         "m1": "6.7",
         "m2": "45.9±0.3"
       },
       {
-        "p": "[Instance Selection for GANs](https://arxiv.org/abs/2007.15255v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/snap-research/3dgp)",
+        "p": {
+          "name": "Instance Selection for GANs",
+          "link": "https://arxiv.org/abs/2007.15255v2"
+        },
+        "c": "https://github.com/snap-research/3dgp",
         "n": "SAGAN + instance selection",
         "d": "2020-07-30",
         "m1": "9.07",
         "m2": "37.1"
       },
       {
-        "p": "[Feature Quantization Improves GAN Training](https://arxiv.org/abs/2004.02088v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/YangNaruto/FQ-GAN)",
+        "p": {
+          "name": "Feature Quantization Improves GAN Training",
+          "link": "https://arxiv.org/abs/2004.02088v2"
+        },
+        "c": "https://github.com/YangNaruto/FQ-GAN",
         "n": "FQ-GAN",
         "d": "2020-04-05",
         "m1": "9.67",
         "m2": "25.96"
       },
       {
-        "p": "[Instance-Conditioned GAN](https://arxiv.org/abs/2109.05070v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/ic_gan)",
+        "p": {
+          "name": "Instance-Conditioned GAN",
+          "link": "https://arxiv.org/abs/2109.05070v2"
+        },
+        "c": "https://github.com/facebookresearch/ic_gan",
         "n": "BigGAN* [Brock et al.] +DA",
         "d": "2021-09-10",
         "m1": "10.2±0.1",

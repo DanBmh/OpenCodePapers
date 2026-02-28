@@ -73,8 +73,11 @@
     ],
     "items": [
       {
-        "p": "[Enhancing VAEs for Collaborative Filtering: Flexible Priors & Gating Mechanisms](https://arxiv.org/abs/1911.00936v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/psywaves/EVCF)",
+        "p": {
+          "name": "Enhancing VAEs for Collaborative Filtering: Flexible Priors & Gating Mechanisms",
+          "link": "https://arxiv.org/abs/1911.00936v1"
+        },
+        "c": "https://github.com/psywaves/EVCF",
         "n": "H+Vamp Gated",
         "d": "2019-11-03",
         "m1": "0.40861",
@@ -82,8 +85,11 @@
         "m4": "0.46252"
       },
       {
-        "p": "[RecVAE: a New Variational Autoencoder for Top-N Recommendations with Implicit Feedback](https://arxiv.org/abs/1912.11160v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/ilya-shenbin/RecVAE)",
+        "p": {
+          "name": "RecVAE: a New Variational Autoencoder for Top-N Recommendations with Implicit Feedback",
+          "link": "https://arxiv.org/abs/1912.11160v1"
+        },
+        "c": "https://github.com/ilya-shenbin/RecVAE",
         "n": "RecVAE",
         "d": "2019-12-24",
         "m1": "0.394",
@@ -91,8 +97,11 @@
         "m4": "0.452"
       },
       {
-        "p": "[Embarrassingly Shallow Autoencoders for Sparse Data](https://arxiv.org/abs/1905.03375v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/PreferredAI/cornac)",
+        "p": {
+          "name": "Embarrassingly Shallow Autoencoders for Sparse Data",
+          "link": "https://arxiv.org/abs/1905.03375v1"
+        },
+        "c": "https://github.com/PreferredAI/cornac",
         "n": "EASE",
         "d": "2019-05-08",
         "m1": "0.393",
@@ -100,8 +109,11 @@
         "m4": "0.445"
       },
       {
-        "p": "[Towards Amortized Ranking-Critical Training for Collaborative Filtering](https://arxiv.org/abs/1906.04281v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/samlobel/RaCT_CF)",
+        "p": {
+          "name": "Towards Amortized Ranking-Critical Training for Collaborative Filtering",
+          "link": "https://arxiv.org/abs/1906.04281v2"
+        },
+        "c": "https://github.com/samlobel/RaCT_CF",
         "n": "RaCT",
         "d": "2019-06-10",
         "m1": "0.392",
@@ -109,8 +121,11 @@
         "m4": " 0.450"
       },
       {
-        "p": "[Variational Autoencoders for Collaborative Filtering](http://arxiv.org/abs/1802.05814v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/microsoft/recommenders)",
+        "p": {
+          "name": "Variational Autoencoders for Collaborative Filtering",
+          "link": "http://arxiv.org/abs/1802.05814v1"
+        },
+        "c": "https://github.com/microsoft/recommenders",
         "n": "Mult-VAE PR",
         "d": "2018-02-16",
         "m1": "0.386",
@@ -118,8 +133,11 @@
         "m4": "0.444"
       },
       {
-        "p": "[Variational Autoencoders for Collaborative Filtering](http://arxiv.org/abs/1802.05814v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/microsoft/recommenders)",
+        "p": {
+          "name": "Variational Autoencoders for Collaborative Filtering",
+          "link": "http://arxiv.org/abs/1802.05814v1"
+        },
+        "c": "https://github.com/microsoft/recommenders",
         "n": "Mult-DAE",
         "d": "2018-02-16",
         "m1": "0.380",
@@ -127,8 +145,11 @@
         "m4": "0.438"
       },
       {
-        "p": "[Infinite Recommendation Networks: A Data-Centric Approach](https://arxiv.org/abs/2206.02626v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/Guang000/Awesome-Dataset-Distillation)",
+        "p": {
+          "name": "Infinite Recommendation Networks: A Data-Centric Approach",
+          "link": "https://arxiv.org/abs/2206.02626v3"
+        },
+        "c": "https://github.com/Guang000/Awesome-Dataset-Distillation",
         "n": "∞-AE",
         "d": "2022-06-03",
         "m1": "0.3659",
@@ -139,24 +160,33 @@
         "m9": "0.5088"
       },
       {
-        "p": "[Latent Relational Metric Learning via Memory-based Attention for Collaborative Ranking](http://arxiv.org/abs/1707.05176v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/vanzytay/WWW2018_LRML)",
+        "p": {
+          "name": "Latent Relational Metric Learning via Memory-based Attention for Collaborative Ranking",
+          "link": "http://arxiv.org/abs/1707.05176v3"
+        },
+        "c": "https://github.com/vanzytay/WWW2018_LRML",
         "n": "LRML",
         "d": "2017-07-17",
         "m2": "0.3578",
         "m7": "0.5371"
       },
       {
-        "p": "[Collaborative Metric Learning](https://ylongqi.com/publication/www17b/)",
-        "c": "[&check;&nbsp;Link](https://github.com/changun/CollMetric)",
+        "p": {
+          "name": "Collaborative Metric Learning",
+          "link": "https://ylongqi.com/publication/www17b/"
+        },
+        "c": "https://github.com/changun/CollMetric",
         "n": "CML",
         "d": "2017-04-01",
         "m2": "0.2948",
         "m7": "0.4612"
       },
       {
-        "p": "[Collaborative Similarity Embedding for Recommender Systems](http://arxiv.org/abs/1902.06188v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/cnclabs/smore)",
+        "p": {
+          "name": "Collaborative Similarity Embedding for Recommender Systems",
+          "link": "http://arxiv.org/abs/1902.06188v2"
+        },
+        "c": "https://github.com/cnclabs/smore",
         "n": "RATE-CSE",
         "d": "2019-02-17",
         "m7": "0.2014",

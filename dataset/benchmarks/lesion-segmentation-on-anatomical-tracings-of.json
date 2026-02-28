@@ -49,7 +49,10 @@
     ],
     "items": [
       {
-        "p": "[Mutual gain adaptive network for segmenting brain stroke lesions](https://www.sciencedirect.com/science/article/pii/S1568494622006299#sec4)",
+        "p": {
+          "name": "Mutual gain adaptive network for segmenting brain stroke lesions",
+          "link": "https://www.sciencedirect.com/science/article/pii/S1568494622006299#sec4"
+        },
         "c": "",
         "n": "MGA-Net",
         "d": "2022-08-27",
@@ -58,8 +61,11 @@
         "m3": "0.4525"
       },
       {
-        "p": "[X-Net: Brain Stroke Lesion Segmentation Based on Depthwise Separable Convolution and Long-range Dependencies](https://arxiv.org/abs/1907.07000v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/Andrewsher/X-Net)",
+        "p": {
+          "name": "X-Net: Brain Stroke Lesion Segmentation Based on Depthwise Separable Convolution and Long-range Dependencies",
+          "link": "https://arxiv.org/abs/1907.07000v2"
+        },
+        "c": "https://github.com/Andrewsher/X-Net",
         "n": "X-Net",
         "d": "2019-07-16",
         "m1": "0.3723",
@@ -68,8 +74,11 @@
         "m4": "0.4867"
       },
       {
-        "p": "[Road Extraction by Deep Residual U-Net](http://arxiv.org/abs/1711.10684v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/rishikksh20/ResUnet)",
+        "p": {
+          "name": "Road Extraction by Deep Residual U-Net",
+          "link": "http://arxiv.org/abs/1711.10684v1"
+        },
+        "c": "https://github.com/rishikksh20/ResUnet",
         "n": "ResUNet",
         "d": "2017-11-29",
         "m1": "0.3549",
@@ -78,8 +87,11 @@
         "m4": "0.4702"
       },
       {
-        "p": "[SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation](http://arxiv.org/abs/1511.00561v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleSeg)",
+        "p": {
+          "name": "SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation",
+          "link": "http://arxiv.org/abs/1511.00561v3"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
         "n": "SegNet",
         "d": "2015-11-02",
         "m1": "0.1911",

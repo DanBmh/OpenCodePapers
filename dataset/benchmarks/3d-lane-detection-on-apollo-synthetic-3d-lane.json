@@ -54,7 +54,10 @@
     ],
     "items": [
       {
-        "p": "[LaneCPP: Continuous 3D Lane Detection using Physical Priors](https://arxiv.org/abs/2406.08381v1)",
+        "p": {
+          "name": "LaneCPP: Continuous 3D Lane Detection using Physical Priors",
+          "link": "https://arxiv.org/abs/2406.08381v1"
+        },
         "c": "",
         "n": "LaneCPP",
         "d": "2024-06-12",
@@ -65,7 +68,10 @@
         "m5": "0.206"
       },
       {
-        "p": "[BEV-LaneDet: a Simple and Effective 3D Lane Detection Baseline](https://arxiv.org/abs/2210.06006v3)",
+        "p": {
+          "name": "BEV-LaneDet: a Simple and Effective 3D Lane Detection Baseline",
+          "link": "https://arxiv.org/abs/2210.06006v3"
+        },
         "c": "",
         "n": "BEV-LaneDet",
         "d": "2022-10-12",
@@ -76,7 +82,10 @@
         "m5": "0.216"
       },
       {
-        "p": "[CurveFormer: 3D Lane Detection by Curve Propagation with Curve Queries and Attention](https://arxiv.org/abs/2209.07989v2)",
+        "p": {
+          "name": "CurveFormer: 3D Lane Detection by Curve Propagation with Curve Queries and Attention",
+          "link": "https://arxiv.org/abs/2209.07989v2"
+        },
         "c": "",
         "n": "CurveFormer",
         "d": "2022-09-16",
@@ -87,8 +96,11 @@
         "m5": "0.219"
       },
       {
-        "p": "[Anchor3DLane: Learning to Regress 3D Anchors for Monocular 3D Lane Detection](https://arxiv.org/abs/2301.02371v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/tusen-ai/anchor3dlane)",
+        "p": {
+          "name": "Anchor3DLane: Learning to Regress 3D Anchors for Monocular 3D Lane Detection",
+          "link": "https://arxiv.org/abs/2301.02371v2"
+        },
+        "c": "https://github.com/tusen-ai/anchor3dlane",
         "n": "Anchor3DLane",
         "d": "2023-01-06",
         "m1": "95.6",
@@ -98,8 +110,11 @@
         "m5": "0.223"
       },
       {
-        "p": "[Anchor3DLane: Learning to Regress 3D Anchors for Monocular 3D Lane Detection](https://arxiv.org/abs/2301.02371v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/tusen-ai/anchor3dlane)",
+        "p": {
+          "name": "Anchor3DLane: Learning to Regress 3D Anchors for Monocular 3D Lane Detection",
+          "link": "https://arxiv.org/abs/2301.02371v2"
+        },
+        "c": "https://github.com/tusen-ai/anchor3dlane",
         "n": "Anchor3DLane† (iterative regression)",
         "d": "2023-01-06",
         "m1": "95.4",
@@ -109,8 +124,11 @@
         "m5": "0.220"
       },
       {
-        "p": "[PersFormer: 3D Lane Detection via Perspective Transformer and the OpenLane Benchmark](https://arxiv.org/abs/2203.11089v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/OpenDriveLab/OpenLane)",
+        "p": {
+          "name": "PersFormer: 3D Lane Detection via Perspective Transformer and the OpenLane Benchmark",
+          "link": "https://arxiv.org/abs/2203.11089v3"
+        },
+        "c": "https://github.com/OpenDriveLab/OpenLane",
         "n": "PersFormer",
         "d": "2022-03-21",
         "m1": "92.9",
@@ -120,7 +138,10 @@
         "m5": "0.234"
       },
       {
-        "p": "[Reconstruct from Top View: A 3D Lane Detection Approach based on Geometry Structure Prior](https://openaccess.thecvf.com/content/CVPR2022W/WAD/papers/Li_Reconstruct_From_Top_View_A_3D_Lane_Detection_Approach_Based_CVPRW_2022_paper.pdf)",
+        "p": {
+          "name": "Reconstruct from Top View: A 3D Lane Detection Approach based on Geometry Structure Prior",
+          "link": "https://openaccess.thecvf.com/content/CVPR2022W/WAD/papers/Li_Reconstruct_From_Top_View_A_3D_Lane_Detection_Approach_Based_CVPRW_2022_paper.pdf"
+        },
         "c": "",
         "n": "Reconstruct from Top View",
         "d": "2022-06-20",
@@ -131,8 +152,11 @@
         "m5": "0.213"
       },
       {
-        "p": "[Learning to Predict 3D Lane Shape and Camera Pose from a Single Image via Geometry Constraints](https://arxiv.org/abs/2112.15351v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/liuruijin17/clgo)",
+        "p": {
+          "name": "Learning to Predict 3D Lane Shape and Camera Pose from a Single Image via Geometry Constraints",
+          "link": "https://arxiv.org/abs/2112.15351v1"
+        },
+        "c": "https://github.com/liuruijin17/clgo",
         "n": "CLGo",
         "d": "2021-12-31",
         "m1": "91.9",
@@ -142,8 +166,11 @@
         "m5": "0.25"
       },
       {
-        "p": "[Gen-LaneNet: A Generalized and Scalable Approach for 3D Lane Detection](https://arxiv.org/abs/2003.10656v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/yuliangguo/Pytorch_Generalized_3D_Lane_Detection)",
+        "p": {
+          "name": "Gen-LaneNet: A Generalized and Scalable Approach for 3D Lane Detection",
+          "link": "https://arxiv.org/abs/2003.10656v1"
+        },
+        "c": "https://github.com/yuliangguo/Pytorch_Generalized_3D_Lane_Detection",
         "n": "Gen-LaneNet",
         "d": "2020-03-24",
         "m1": "88.1",
@@ -153,8 +180,11 @@
         "m5": "0.214"
       },
       {
-        "p": "[3D-LaneNet: End-to-End 3D Multiple Lane Detection](https://arxiv.org/abs/1811.10203v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/yuliangguo/Pytorch_Generalized_3D_Lane_Detection)",
+        "p": {
+          "name": "3D-LaneNet: End-to-End 3D Multiple Lane Detection",
+          "link": "https://arxiv.org/abs/1811.10203v3"
+        },
+        "c": "https://github.com/yuliangguo/Pytorch_Generalized_3D_Lane_Detection",
         "n": "3D-LaneNet",
         "d": "2018-11-26",
         "m1": "86.4",

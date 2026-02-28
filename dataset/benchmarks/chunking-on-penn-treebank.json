@@ -34,35 +34,50 @@
     ],
     "items": [
       {
-        "p": "[Automated Concatenation of Embeddings for Structured Prediction](https://arxiv.org/abs/2010.05006v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/Alibaba-NLP/ACE)",
+        "p": {
+          "name": "Automated Concatenation of Embeddings for Structured Prediction",
+          "link": "https://arxiv.org/abs/2010.05006v4"
+        },
+        "c": "https://github.com/Alibaba-NLP/ACE",
         "n": "ACE",
         "d": "2020-10-10",
         "m1": "97.3"
       },
       {
-        "p": "[Contextual String Embeddings for Sequence Labeling](https://aclanthology.org/C18-1139)",
-        "c": "[&check;&nbsp;Link](https://github.com/zalandoresearch/flair)",
+        "p": {
+          "name": "Contextual String Embeddings for Sequence Labeling",
+          "link": "https://aclanthology.org/C18-1139"
+        },
+        "c": "https://github.com/zalandoresearch/flair",
         "n": "Flair embeddings",
         "d": "2018-08-01",
         "m1": "96.72"
       },
       {
-        "p": "[A Joint Many-Task Model: Growing a Neural Network for Multiple NLP Tasks](http://arxiv.org/abs/1611.01587v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/rubythonode/joint-many-task-model)",
+        "p": {
+          "name": "A Joint Many-Task Model: Growing a Neural Network for Multiple NLP Tasks",
+          "link": "http://arxiv.org/abs/1611.01587v5"
+        },
+        "c": "https://github.com/rubythonode/joint-many-task-model",
         "n": "JMT",
         "d": "2016-11-05",
         "m1": "95.77"
       },
       {
-        "p": "[Deep multi-task learning with low level tasks supervised at lower layers](https://aclanthology.org/P16-2038)",
+        "p": {
+          "name": "Deep multi-task learning with low level tasks supervised at lower layers",
+          "link": "https://aclanthology.org/P16-2038"
+        },
         "c": "",
         "n": "Low supervision",
         "d": "2016-08-01",
         "m1": "95.57"
       },
       {
-        "p": "[Learning Better Internal Structure of Words for Sequence Labeling](http://arxiv.org/abs/1810.12443v1)",
+        "p": {
+          "name": "Learning Better Internal Structure of Words for Sequence Labeling",
+          "link": "http://arxiv.org/abs/1810.12443v1"
+        },
         "c": "",
         "n": "IntNet + BiLSTM-CRF",
         "d": "2018-10-29",
@@ -76,15 +91,21 @@
         "m1": "95.15"
       },
       {
-        "p": "[NCRF++: An Open-source Neural Sequence Labeling Toolkit](http://arxiv.org/abs/1806.05626v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/jiesutd/PyTorchSeqLabel)",
+        "p": {
+          "name": "NCRF++: An Open-source Neural Sequence Labeling Toolkit",
+          "link": "http://arxiv.org/abs/1806.05626v2"
+        },
+        "c": "https://github.com/jiesutd/PyTorchSeqLabel",
         "n": "NCRF++",
         "d": "2018-06-14",
         "m1": "95.06"
       },
       {
-        "p": "[Bidirectional LSTM-CRF Models for Sequence Tagging](http://arxiv.org/abs/1508.01991v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/determined22/zh-ner-tf)",
+        "p": {
+          "name": "Bidirectional LSTM-CRF Models for Sequence Tagging",
+          "link": "http://arxiv.org/abs/1508.01991v1"
+        },
+        "c": "https://github.com/determined22/zh-ner-tf",
         "n": "BI-LSTM-CRF (Senna) (ours)",
         "d": "2015-08-09",
         "m1": "94.46"

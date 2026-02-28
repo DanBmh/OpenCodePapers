@@ -48,8 +48,11 @@
     ],
     "items": [
       {
-        "p": "[Re2G: Retrieve, Rerank, Generate](https://arxiv.org/abs/2207.06300v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/ibm/kgi-slot-filling)",
+        "p": {
+          "name": "Re2G: Retrieve, Rerank, Generate",
+          "link": "https://arxiv.org/abs/2207.06300v1"
+        },
+        "c": "https://github.com/ibm/kgi-slot-filling",
         "n": "Re2G",
         "d": "2022-07-13",
         "m1": "78.53",
@@ -108,8 +111,11 @@
         "m4": "69.68"
       },
       {
-        "p": "[KILT: a Benchmark for Knowledge Intensive Language Tasks](https://arxiv.org/abs/2009.02252v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/KILT)",
+        "p": {
+          "name": "KILT: a Benchmark for Knowledge Intensive Language Tasks",
+          "link": "https://arxiv.org/abs/2009.02252v4"
+        },
+        "c": "https://github.com/facebookresearch/KILT",
         "n": "RAG",
         "d": "2020-09-04",
         "m1": "53.45",
@@ -208,8 +214,11 @@
         "m4": "78.93"
       },
       {
-        "p": "[KILT: a Benchmark for Knowledge Intensive Language Tasks](https://arxiv.org/abs/2009.02252v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/KILT)",
+        "p": {
+          "name": "KILT: a Benchmark for Knowledge Intensive Language Tasks",
+          "link": "https://arxiv.org/abs/2009.02252v4"
+        },
+        "c": "https://github.com/facebookresearch/KILT",
         "n": "T5-base",
         "d": "2020-09-04",
         "m1": "0.0",

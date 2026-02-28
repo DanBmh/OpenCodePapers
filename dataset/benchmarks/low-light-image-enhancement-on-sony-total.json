@@ -44,8 +44,11 @@
     ],
     "items": [
       {
-        "p": "[You Only Need One Color Space: An Efficient Network for Low-light Image Enhancement](https://arxiv.org/abs/2402.05809v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/fediory/hvi-cidnet)",
+        "p": {
+          "name": "You Only Need One Color Space: An Efficient Network for Low-light Image Enhancement",
+          "link": "https://arxiv.org/abs/2402.05809v3"
+        },
+        "c": "https://github.com/fediory/hvi-cidnet",
         "n": "CIDNet",
         "d": "2024-02-08",
         "m1": "22.904",
@@ -53,8 +56,11 @@
         "m3": "0.411"
       },
       {
-        "p": "[LEDNet: Joint Low-light Enhancement and Deblurring in the Dark](https://arxiv.org/abs/2202.03373v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/sczhou/LEDNet)",
+        "p": {
+          "name": "LEDNet: Joint Low-light Enhancement and Deblurring in the Dark",
+          "link": "https://arxiv.org/abs/2202.03373v2"
+        },
+        "c": "https://github.com/sczhou/LEDNet",
         "n": "LEDNet",
         "d": "2022-02-07",
         "m1": "20.830",
@@ -62,8 +68,11 @@
         "m3": "0.471"
       },
       {
-        "p": "[Low-Light Image Enhancement with Normalizing Flow](https://arxiv.org/abs/2109.05923v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/wyf0912/LLFlow)",
+        "p": {
+          "name": "Low-Light Image Enhancement with Normalizing Flow",
+          "link": "https://arxiv.org/abs/2109.05923v1"
+        },
+        "c": "https://github.com/wyf0912/LLFlow",
         "n": "LLFlow",
         "d": "2021-09-13",
         "m1": "16.226",

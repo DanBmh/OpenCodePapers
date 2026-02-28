@@ -78,7 +78,10 @@
     ],
     "items": [
       {
-        "p": "[HyperML: A Boosting Metric Learning Approach in Hyperbolic Space for Recommender Systems](https://arxiv.org/abs/1809.01703v3)",
+        "p": {
+          "name": "HyperML: A Boosting Metric Learning Approach in Hyperbolic Space for Recommender Systems",
+          "link": "https://arxiv.org/abs/1809.01703v3"
+        },
         "c": "",
         "n": "HyperML",
         "d": "2018-09-05",
@@ -86,16 +89,22 @@
         "m7": "0.8736"
       },
       {
-        "p": "[Latent Relational Metric Learning via Memory-based Attention for Collaborative Ranking](http://arxiv.org/abs/1707.05176v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/vanzytay/WWW2018_LRML)",
+        "p": {
+          "name": "Latent Relational Metric Learning via Memory-based Attention for Collaborative Ranking",
+          "link": "http://arxiv.org/abs/1707.05176v3"
+        },
+        "c": "https://github.com/vanzytay/WWW2018_LRML",
         "n": "LRML",
         "d": "2017-07-17",
         "m1": "0.6152",
         "m7": "0.8447"
       },
       {
-        "p": "[Collaborative Metric Learning](https://ylongqi.com/publication/www17b/)",
-        "c": "[&check;&nbsp;Link](https://github.com/changun/CollMetric)",
+        "p": {
+          "name": "Collaborative Metric Learning",
+          "link": "https://ylongqi.com/publication/www17b/"
+        },
+        "c": "https://github.com/changun/CollMetric",
         "n": "CML",
         "d": "2017-04-01",
         "m1": "0.5301",
@@ -104,16 +113,22 @@
         "m7": "0.7764"
       },
       {
-        "p": "[Hierarchical Gating Networks for Sequential Recommendation](https://arxiv.org/abs/1906.09217v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/allenjack/HGN)",
+        "p": {
+          "name": "Hierarchical Gating Networks for Sequential Recommendation",
+          "link": "https://arxiv.org/abs/1906.09217v1"
+        },
+        "c": "https://github.com/allenjack/HGN",
         "n": "HGN",
         "d": "2019-06-21",
         "m1": "0.1195",
         "m2": "0.1255"
       },
       {
-        "p": "[Knowledge-aware Graph Neural Networks with Label Smoothness Regularization for Recommender Systems](https://arxiv.org/abs/1905.04413v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/hwwang55/KGNN-LS)",
+        "p": {
+          "name": "Knowledge-aware Graph Neural Networks with Label Smoothness Regularization for Recommender Systems",
+          "link": "https://arxiv.org/abs/1905.04413v3"
+        },
+        "c": "https://github.com/hwwang55/KGNN-LS",
         "n": "KGNN-LS",
         "d": "2019-05-11",
         "m2": "0.155",
@@ -122,15 +137,21 @@
         "m10": "0.043"
       },
       {
-        "p": "[Multi-Gradient Descent for Multi-Objective Recommender Systems](https://arxiv.org/abs/2001.00846v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/swisscom/ai-research-mamo-framework)",
+        "p": {
+          "name": "Multi-Gradient Descent for Multi-Objective Recommender Systems",
+          "link": "https://arxiv.org/abs/2001.00846v3"
+        },
+        "c": "https://github.com/swisscom/ai-research-mamo-framework",
         "n": "Multi-Gradient Descent",
         "d": "2019-12-09",
         "m3": "0.418"
       },
       {
-        "p": "[RecVAE: a New Variational Autoencoder for Top-N Recommendations with Implicit Feedback](https://arxiv.org/abs/1912.11160v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/ilya-shenbin/RecVAE)",
+        "p": {
+          "name": "RecVAE: a New Variational Autoencoder for Top-N Recommendations with Implicit Feedback",
+          "link": "https://arxiv.org/abs/1912.11160v1"
+        },
+        "c": "https://github.com/ilya-shenbin/RecVAE",
         "n": "RecVAE",
         "d": "2019-12-24",
         "m3": "0.414",
@@ -138,8 +159,11 @@
         "m5": "0.442"
       },
       {
-        "p": "[Deep Variational Autoencoder with Shallow Parallel Path for Top-N Recommendation (VASP)](https://arxiv.org/abs/2102.05774v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/zombak79/vasp)",
+        "p": {
+          "name": "Deep Variational Autoencoder with Shallow Parallel Path for Top-N Recommendation (VASP)",
+          "link": "https://arxiv.org/abs/2102.05774v1"
+        },
+        "c": "https://github.com/zombak79/vasp",
         "n": "VASP",
         "d": "2021-02-10",
         "m3": "0.414",
@@ -147,8 +171,11 @@
         "m5": "0.448"
       },
       {
-        "p": "[Enhancing VAEs for Collaborative Filtering: Flexible Priors & Gating Mechanisms](https://arxiv.org/abs/1911.00936v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/psywaves/EVCF)",
+        "p": {
+          "name": "Enhancing VAEs for Collaborative Filtering: Flexible Priors & Gating Mechanisms",
+          "link": "https://arxiv.org/abs/1911.00936v1"
+        },
+        "c": "https://github.com/psywaves/EVCF",
         "n": "H+Vamp Gated",
         "d": "2019-11-03",
         "m3": "0.41308",
@@ -156,8 +183,11 @@
         "m5": "0.44522"
       },
       {
-        "p": "[Towards Amortized Ranking-Critical Training for Collaborative Filtering](https://arxiv.org/abs/1906.04281v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/samlobel/RaCT_CF)",
+        "p": {
+          "name": "Towards Amortized Ranking-Critical Training for Collaborative Filtering",
+          "link": "https://arxiv.org/abs/1906.04281v2"
+        },
+        "c": "https://github.com/samlobel/RaCT_CF",
         "n": "RaCT",
         "d": "2019-06-10",
         "m3": "0.403",
@@ -165,8 +195,11 @@
         "m5": "0.434"
       },
       {
-        "p": "[Variational Autoencoders for Collaborative Filtering](http://arxiv.org/abs/1802.05814v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/microsoft/recommenders)",
+        "p": {
+          "name": "Variational Autoencoders for Collaborative Filtering",
+          "link": "http://arxiv.org/abs/1802.05814v1"
+        },
+        "c": "https://github.com/microsoft/recommenders",
         "n": "Mult-VAE PR",
         "d": "2018-02-16",
         "m3": "0.395",
@@ -174,8 +207,11 @@
         "m5": "0.426"
       },
       {
-        "p": "[Embarrassingly Shallow Autoencoders for Sparse Data](https://arxiv.org/abs/1905.03375v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/PreferredAI/cornac)",
+        "p": {
+          "name": "Embarrassingly Shallow Autoencoders for Sparse Data",
+          "link": "https://arxiv.org/abs/1905.03375v1"
+        },
+        "c": "https://github.com/PreferredAI/cornac",
         "n": "EASE",
         "d": "2019-05-08",
         "m3": "0.391",
@@ -183,8 +219,11 @@
         "m5": "0.420"
       },
       {
-        "p": "[Variational Autoencoders for Collaborative Filtering](http://arxiv.org/abs/1802.05814v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/microsoft/recommenders)",
+        "p": {
+          "name": "Variational Autoencoders for Collaborative Filtering",
+          "link": "http://arxiv.org/abs/1802.05814v1"
+        },
+        "c": "https://github.com/microsoft/recommenders",
         "n": "Mult-DAE",
         "d": "2018-02-16",
         "m3": "0.387",
@@ -192,40 +231,55 @@
         "m5": "0.419"
       },
       {
-        "p": "[Lightweight representation learning for efficient and scalable recommendation](https://arxiv.org/abs/2101.00870v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/criteo/deepr)",
+        "p": {
+          "name": "Lightweight representation learning for efficient and scalable recommendation",
+          "link": "https://arxiv.org/abs/2101.00870v2"
+        },
+        "c": "https://github.com/criteo/deepr",
         "n": "LED",
         "d": "2021-01-04",
         "m3": "0.375",
         "m4": "0.516"
       },
       {
-        "p": "[Actions Speak Louder than Words: Trillion-Parameter Sequential Transducers for Generative Recommendations](https://arxiv.org/abs/2402.17152v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/generative-recommenders)",
+        "p": {
+          "name": "Actions Speak Louder than Words: Trillion-Parameter Sequential Transducers for Generative Recommendations",
+          "link": "https://arxiv.org/abs/2402.17152v3"
+        },
+        "c": "https://github.com/facebookresearch/generative-recommenders",
         "n": "HSTU",
         "d": "2024-02-27",
         "m8": "0.3556",
         "m9": "0.2098"
       },
       {
-        "p": "[Self-Attentive Sequential Recommendation](http://arxiv.org/abs/1808.09781v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/microsoft/recommenders)",
+        "p": {
+          "name": "Self-Attentive Sequential Recommendation",
+          "link": "http://arxiv.org/abs/1808.09781v1"
+        },
+        "c": "https://github.com/microsoft/recommenders",
         "n": "SASRec",
         "d": "2018-08-20",
         "m8": "0.2889",
         "m9": "0.1621"
       },
       {
-        "p": "[BERT4Rec: Sequential Recommendation with Bidirectional Encoder Representations from Transformer](https://arxiv.org/abs/1904.06690v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleRec/tree/master/models/rank/bert4rec)",
+        "p": {
+          "name": "BERT4Rec: Sequential Recommendation with Bidirectional Encoder Representations from Transformer",
+          "link": "https://arxiv.org/abs/1904.06690v2"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleRec/tree/master/models/rank/bert4rec",
         "n": "BERT4Rec",
         "d": "2019-04-14",
         "m8": "0.2816",
         "m9": "0.1703"
       },
       {
-        "p": "[Session-based Recommendations with Recurrent Neural Networks](http://arxiv.org/abs/1511.06939v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/microsoft/recommenders)",
+        "p": {
+          "name": "Session-based Recommendations with Recurrent Neural Networks",
+          "link": "http://arxiv.org/abs/1511.06939v4"
+        },
+        "c": "https://github.com/microsoft/recommenders",
         "n": "GRU4Rec",
         "d": "2015-11-21",
         "m8": "0.2813",

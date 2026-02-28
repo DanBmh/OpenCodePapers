@@ -33,8 +33,11 @@
     ],
     "items": [
       {
-        "p": "[Mistral 7B](https://arxiv.org/abs/2310.06825v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/mistralai/mistral-src)",
+        "p": {
+          "name": "Mistral 7B",
+          "link": "https://arxiv.org/abs/2310.06825v1"
+        },
+        "c": "https://github.com/mistralai/mistral-src",
         "n": "Mistral-IT-v02-7B-32k",
         "d": "2023-10-10",
         "m1": "0.4703"
@@ -47,29 +50,41 @@
         "m1": "0.4197"
       },
       {
-        "p": "[Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/ggml-org/llama.cpp)",
+        "p": {
+          "name": "Language Models are Few-Shot Learners",
+          "link": "https://arxiv.org/abs/2005.14165v4"
+        },
+        "c": "https://github.com/ggml-org/llama.cpp",
         "n": "GPT-3.5-Turbo-0613-16k",
         "d": "2020-05-28",
         "m1": "0.3304"
       },
       {
-        "p": "[The Llama 3 Herd of Models](https://arxiv.org/abs/2407.21783v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/zhuzilin/ring-flash-attention)",
+        "p": {
+          "name": "The Llama 3 Herd of Models",
+          "link": "https://arxiv.org/abs/2407.21783v3"
+        },
+        "c": "https://github.com/zhuzilin/ring-flash-attention",
         "n": "Llama-3-IT-8B-8k",
         "d": "2024-07-31",
         "m1": "0.3112"
       },
       {
-        "p": "[GPT-4 Technical Report](https://arxiv.org/abs/2303.08774v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/openai/evals)",
+        "p": {
+          "name": "GPT-4 Technical Report",
+          "link": "https://arxiv.org/abs/2303.08774v5"
+        },
+        "c": "https://github.com/openai/evals",
         "n": "GPT-4o-2024-08-06",
         "d": "2023-03-15",
         "m1": "0.3087"
       },
       {
-        "p": "[The Llama 3 Herd of Models](https://arxiv.org/abs/2407.21783v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/zhuzilin/ring-flash-attention)",
+        "p": {
+          "name": "The Llama 3 Herd of Models",
+          "link": "https://arxiv.org/abs/2407.21783v3"
+        },
+        "c": "https://github.com/zhuzilin/ring-flash-attention",
         "n": "Llama-3-IT-8B-32k",
         "d": "2024-07-31",
         "m1": "0.2881"

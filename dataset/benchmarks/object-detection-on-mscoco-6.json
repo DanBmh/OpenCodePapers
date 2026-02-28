@@ -38,8 +38,11 @@
     ],
     "items": [
       {
-        "p": "[PP-PicoDet: A Better Real-Time Object Detector on Mobile Devices](https://arxiv.org/abs/2111.00902v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleDetection)",
+        "p": {
+          "name": "PP-PicoDet: A Better Real-Time Object Detector on Mobile Devices",
+          "link": "https://arxiv.org/abs/2111.00902v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
         "n": "PP-PicoDet-L",
         "d": "2021-11-01",
         "m1": "40.9"
@@ -80,7 +83,10 @@
         "m1": "25.3"
       },
       {
-        "p": "[ScaleDet: A Scalable Multi-Dataset Object Detector](https://arxiv.org/abs/2306.04849v1)",
+        "p": {
+          "name": "ScaleDet: A Scalable Multi-Dataset Object Detector",
+          "link": "https://arxiv.org/abs/2306.04849v1"
+        },
         "c": "",
         "n": "ScaleDet",
         "d": "2023-06-08",

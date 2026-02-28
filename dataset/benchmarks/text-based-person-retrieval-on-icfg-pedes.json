@@ -68,16 +68,22 @@
     ],
     "items": [
       {
-        "p": "[Towards Unified Text-based Person Retrieval: A Large-scale Multi-Attribute and Language Search Benchmark](https://arxiv.org/abs/2306.02898v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/Shuyu-XJTU/APTM)",
+        "p": {
+          "name": "Towards Unified Text-based Person Retrieval: A Large-scale Multi-Attribute and Language Search Benchmark",
+          "link": "https://arxiv.org/abs/2306.02898v4"
+        },
+        "c": "https://github.com/Shuyu-XJTU/APTM",
         "n": "APTM",
         "d": "2023-06-05",
         "m1": "68.51",
         "m5": "41.22"
       },
       {
-        "p": "[From Data Deluge to Data Curation: A Filtering-WoRA Paradigm for Efficient Text-based Person Search](https://arxiv.org/abs/2404.10292v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/JT-Sun/Filtering-WoRA)",
+        "p": {
+          "name": "From Data Deluge to Data Curation: A Filtering-WoRA Paradigm for Efficient Text-based Person Search",
+          "link": "https://arxiv.org/abs/2404.10292v3"
+        },
+        "c": "https://github.com/JT-Sun/Filtering-WoRA",
         "n": "Filtering-WoRA(Small)",
         "d": "2024-04-16",
         "m1": "68.35",
@@ -86,8 +92,11 @@
         "m5": "42.60"
       },
       {
-        "p": "[Noisy-Correspondence Learning for Text-to-Image Person Re-identification](https://arxiv.org/abs/2308.09911v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/QinYang79/RDE)",
+        "p": {
+          "name": "Noisy-Correspondence Learning for Text-to-Image Person Re-identification",
+          "link": "https://arxiv.org/abs/2308.09911v3"
+        },
+        "c": "https://github.com/QinYang79/RDE",
         "n": "RDE",
         "d": "2023-08-19",
         "m1": "67.68",
@@ -97,8 +106,11 @@
         "m6": "7.87"
       },
       {
-        "p": "[MARS: Paying more attention to visual attributes for text-based person search](https://arxiv.org/abs/2407.04287v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/ergastialex/mars)",
+        "p": {
+          "name": "MARS: Paying more attention to visual attributes for text-based person search",
+          "link": "https://arxiv.org/abs/2407.04287v1"
+        },
+        "c": "https://github.com/ergastialex/mars",
         "n": "MARS",
         "d": "2024-07-05",
         "m1": "67.60",
@@ -107,8 +119,11 @@
         "m5": "44.93"
       },
       {
-        "p": "[RaSa: Relation and Sensitivity Aware Representation Learning for Text-based Person Search](https://arxiv.org/abs/2305.13653v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/flame-chasers/rasa)",
+        "p": {
+          "name": "RaSa: Relation and Sensitivity Aware Representation Learning for Text-based Person Search",
+          "link": "https://arxiv.org/abs/2305.13653v1"
+        },
+        "c": "https://github.com/flame-chasers/rasa",
         "n": "RaSa",
         "d": "2023-05-23",
         "m1": "65.28",
@@ -117,8 +132,11 @@
         "m5": "41.29"
       },
       {
-        "p": "[An Empirical Study of CLIP for Text-based Person Search](https://arxiv.org/abs/2308.10045v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/flame-chasers/tbps-clip)",
+        "p": {
+          "name": "An Empirical Study of CLIP for Text-based Person Search",
+          "link": "https://arxiv.org/abs/2308.10045v2"
+        },
+        "c": "https://github.com/flame-chasers/tbps-clip",
         "n": "TBPS-CLIP (ViT-B/16)",
         "d": "2023-08-19",
         "m1": "65.05",
@@ -127,8 +145,11 @@
         "m5": "39.83"
       },
       {
-        "p": "[PLIP: Language-Image Pre-training for Person Representation Learning](https://arxiv.org/abs/2305.08386v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/zplusdragon/plip)",
+        "p": {
+          "name": "PLIP: Language-Image Pre-training for Person Representation Learning",
+          "link": "https://arxiv.org/abs/2305.08386v2"
+        },
+        "c": "https://github.com/zplusdragon/plip",
         "n": "PLIP-RN50",
         "d": "2023-05-15",
         "m1": "64.25",
@@ -136,8 +157,11 @@
         "m4": "86.32"
       },
       {
-        "p": "[Cross-Modal Implicit Relation Reasoning and Aligning for Text-to-Image Person Retrieval](https://arxiv.org/abs/2303.12501v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/anosorae/irra)",
+        "p": {
+          "name": "Cross-Modal Implicit Relation Reasoning and Aligning for Text-to-Image Person Retrieval",
+          "link": "https://arxiv.org/abs/2303.12501v1"
+        },
+        "c": "https://github.com/anosorae/irra",
         "n": "IRRA",
         "d": "2023-03-22",
         "m1": "63.46",
@@ -147,7 +171,10 @@
         "m6": "7.93"
       },
       {
-        "p": "[VGSG: Vision-Guided Semantic-Group Network for Text-based Person Search](https://arxiv.org/abs/2311.07514v1)",
+        "p": {
+          "name": "VGSG: Vision-Guided Semantic-Group Network for Text-based Person Search",
+          "link": "https://arxiv.org/abs/2311.07514v1"
+        },
         "c": "",
         "n": "VGSG (ViT-Base)",
         "d": "2023-11-13",
@@ -156,21 +183,30 @@
         "m4": "84.36"
       },
       {
-        "p": "[A Simple and Robust Correlation Filtering Method for Text-based Person Search](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136950719.pdf)",
-        "c": "[&check;&nbsp;Link](https://github.com/Suo-Wei/SRCF)",
+        "p": {
+          "name": "A Simple and Robust Correlation Filtering Method for Text-based Person Search",
+          "link": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136950719.pdf"
+        },
+        "c": "https://github.com/Suo-Wei/SRCF",
         "n": "SRCF",
         "d": "2022-11-04",
         "m1": "57.18"
       },
       {
-        "p": "[Semantically Self-Aligned Network for Text-to-Image Part-aware Person Re-identification](https://arxiv.org/abs/2107.12666v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/zifyloo/SSAN)",
+        "p": {
+          "name": "Semantically Self-Aligned Network for Text-to-Image Part-aware Person Re-identification",
+          "link": "https://arxiv.org/abs/2107.12666v2"
+        },
+        "c": "https://github.com/zifyloo/SSAN",
         "n": "SSAN",
         "d": "2021-07-27",
         "m1": "54.23"
       },
       {
-        "p": "[Cross-Modal Adaptive Dual Association for Text-to-Image Person Retrieval](https://arxiv.org/abs/2312.01745v1)",
+        "p": {
+          "name": "Cross-Modal Adaptive Dual Association for Text-to-Image Person Retrieval",
+          "link": "https://arxiv.org/abs/2312.01745v1"
+        },
         "c": "",
         "n": "CADA",
         "d": "2023-12-04",

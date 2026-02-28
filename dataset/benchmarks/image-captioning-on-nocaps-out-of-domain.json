@@ -68,8 +68,11 @@
     ],
     "items": [
       {
-        "p": "[PaLI: A Jointly-Scaled Multilingual Language-Image Model](https://arxiv.org/abs/2209.06794v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/big_vision)",
+        "p": {
+          "name": "PaLI: A Jointly-Scaled Multilingual Language-Image Model",
+          "link": "https://arxiv.org/abs/2209.06794v4"
+        },
+        "c": "https://github.com/google-research/big_vision",
         "n": "PaLI",
         "d": "2022-09-14",
         "m1": "126.67",
@@ -82,8 +85,11 @@
         "m8": "15.49"
       },
       {
-        "p": "[GIT: A Generative Image-to-text Transformer for Vision and Language](https://arxiv.org/abs/2205.14100v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/microsoft/GenerativeImage2Text)",
+        "p": {
+          "name": "GIT: A Generative Image-to-text Transformer for Vision and Language",
+          "link": "https://arxiv.org/abs/2205.14100v5"
+        },
+        "c": "https://github.com/microsoft/GenerativeImage2Text",
         "n": "GIT2, Single Model",
         "d": "2022-05-27",
         "m1": "122.27",
@@ -96,8 +102,11 @@
         "m8": "15.62"
       },
       {
-        "p": "[GIT: A Generative Image-to-text Transformer for Vision and Language](https://arxiv.org/abs/2205.14100v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/microsoft/GenerativeImage2Text)",
+        "p": {
+          "name": "GIT: A Generative Image-to-text Transformer for Vision and Language",
+          "link": "https://arxiv.org/abs/2205.14100v5"
+        },
+        "c": "https://github.com/microsoft/GenerativeImage2Text",
         "n": "GIT, Single Model",
         "d": "2022-05-27",
         "m1": "122.04",
@@ -124,7 +133,10 @@
         "m8": "15.13"
       },
       {
-        "p": "[VIVO: Visual Vocabulary Pre-Training for Novel Object Captioning](https://arxiv.org/abs/2009.13682v2)",
+        "p": {
+          "name": "VIVO: Visual Vocabulary Pre-Training for Novel Object Captioning",
+          "link": "https://arxiv.org/abs/2009.13682v2"
+        },
         "c": "",
         "n": "Microsoft Cognitive Services team",
         "d": "2020-09-28",
@@ -138,8 +150,11 @@
         "m8": "13.74"
       },
       {
-        "p": "[SimVLM: Simple Visual Language Model Pretraining with Weak Supervision](https://arxiv.org/abs/2108.10904v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/yulong-XJTU/SimVLM)",
+        "p": {
+          "name": "SimVLM: Simple Visual Language Model Pretraining with Weak Supervision",
+          "link": "https://arxiv.org/abs/2108.10904v3"
+        },
+        "c": "https://github.com/yulong-XJTU/SimVLM",
         "n": "Single Model",
         "d": "2021-08-24",
         "m1": "109.49",
@@ -264,8 +279,11 @@
         "m8": "12.14"
       },
       {
-        "p": "[VinVL: Revisiting Visual Representations in Vision-Language Models](https://arxiv.org/abs/2101.00529v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/microsoft/Oscar)",
+        "p": {
+          "name": "VinVL: Revisiting Visual Representations in Vision-Language Models",
+          "link": "https://arxiv.org/abs/2101.00529v2"
+        },
+        "c": "https://github.com/microsoft/Oscar",
         "n": "VinVL (Microsoft Cognitive Services + MSR)",
         "d": "2021-01-02",
         "m1": "78.01",
@@ -320,8 +338,11 @@
         "m8": "9.72"
       },
       {
-        "p": "[GRIT: Faster and Better Image captioning Transformer Using Dual Visual Features](https://arxiv.org/abs/2207.09666v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/davidnvq/grit)",
+        "p": {
+          "name": "GRIT: Faster and Better Image captioning Transformer Using Dual Visual Features",
+          "link": "https://arxiv.org/abs/2207.09666v1"
+        },
+        "c": "https://github.com/davidnvq/grit",
         "n": "GRIT (zero-shot, no CBS, no VL pretraining, single model)",
         "d": "2022-07-20",
         "m1": "72.6",
@@ -440,16 +461,22 @@
         "m8": "9.9"
       },
       {
-        "p": "[ClipCap: CLIP Prefix for Image Captioning](https://arxiv.org/abs/2111.09734v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/rmokady/clip_prefix_caption)",
+        "p": {
+          "name": "ClipCap: CLIP Prefix for Image Captioning",
+          "link": "https://arxiv.org/abs/2111.09734v1"
+        },
+        "c": "https://github.com/rmokady/clip_prefix_caption",
         "n": "ClipCap (MLP + GPT2 tuning)",
         "d": "2021-11-18",
         "m1": "49.35",
         "m8": "9.7"
       },
       {
-        "p": "[ClipCap: CLIP Prefix for Image Captioning](https://arxiv.org/abs/2111.09734v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/rmokady/clip_prefix_caption)",
+        "p": {
+          "name": "ClipCap: CLIP Prefix for Image Captioning",
+          "link": "https://arxiv.org/abs/2111.09734v1"
+        },
+        "c": "https://github.com/rmokady/clip_prefix_caption",
         "n": "ClipCap (Transformer)",
         "d": "2021-11-18",
         "m1": "49.14",

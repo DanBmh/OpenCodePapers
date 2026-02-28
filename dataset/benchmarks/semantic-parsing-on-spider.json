@@ -33,71 +33,101 @@
     ],
     "items": [
       {
-        "p": "[RESDSQL: Decoupling Schema Linking and Skeleton Parsing for Text-to-SQL](https://arxiv.org/abs/2302.05965v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/ruckbreasoning/resdsql)",
+        "p": {
+          "name": "RESDSQL: Decoupling Schema Linking and Skeleton Parsing for Text-to-SQL",
+          "link": "https://arxiv.org/abs/2302.05965v3"
+        },
+        "c": "https://github.com/ruckbreasoning/resdsql",
         "n": "RESDSQL-3B + NatSQL",
         "d": "2023-02-12",
         "m1": "84.1"
       },
       {
-        "p": "[LEVER: Learning to Verify Language-to-Code Generation with Execution](https://arxiv.org/abs/2302.08468v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/niansong1996/lever)",
+        "p": {
+          "name": "LEVER: Learning to Verify Language-to-Code Generation with Execution",
+          "link": "https://arxiv.org/abs/2302.08468v3"
+        },
+        "c": "https://github.com/niansong1996/lever",
         "n": "code-davinci-002 175B (LEVER)",
         "d": "2023-02-16",
         "m1": "81.9"
       },
       {
-        "p": "[RASAT: Integrating Relational Structures into Pretrained Seq2Seq Model for Text-to-SQL](https://arxiv.org/abs/2205.06983v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/lumia-group/rasat)",
+        "p": {
+          "name": "RASAT: Integrating Relational Structures into Pretrained Seq2Seq Model for Text-to-SQL",
+          "link": "https://arxiv.org/abs/2205.06983v2"
+        },
+        "c": "https://github.com/lumia-group/rasat",
         "n": "RASAT+PICARD",
         "d": "2022-05-14",
         "m1": "75.5"
       },
       {
-        "p": "[Graphix-T5: Mixing Pre-Trained Transformers with Graph-Aware Layers for Text-to-SQL Parsing](https://arxiv.org/abs/2301.07507v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/graphix)",
+        "p": {
+          "name": "Graphix-T5: Mixing Pre-Trained Transformers with Graph-Aware Layers for Text-to-SQL Parsing",
+          "link": "https://arxiv.org/abs/2301.07507v1"
+        },
+        "c": "https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/graphix",
         "n": "Graphix-3B + PICARD",
         "d": "2023-01-18",
         "m1": "74.0"
       },
       {
-        "p": "[PICARD: Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Models](https://arxiv.org/abs/2109.05093v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/servicenow/picard)",
+        "p": {
+          "name": "PICARD: Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Models",
+          "link": "https://arxiv.org/abs/2109.05093v1"
+        },
+        "c": "https://github.com/servicenow/picard",
         "n": "T5-3B + PICARD",
         "d": "2021-09-10",
         "m1": "71.9 "
       },
       {
-        "p": "[SADGA: Structure-Aware Dual Graph Aggregation Network for Text-to-SQL](https://arxiv.org/abs/2111.00653v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/dmirlab-group/sadga)",
+        "p": {
+          "name": "SADGA: Structure-Aware Dual Graph Aggregation Network for Text-to-SQL",
+          "link": "https://arxiv.org/abs/2111.00653v3"
+        },
+        "c": "https://github.com/dmirlab-group/sadga",
         "n": "SADGA + GAP",
         "d": "2021-11-01",
         "m1": "70.1"
       },
       {
-        "p": "[Learning Contextual Representations for Semantic Parsing with Generation-Augmented Pre-Training](https://arxiv.org/abs/2012.10309v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/awslabs/gap-text2sql)",
+        "p": {
+          "name": "Learning Contextual Representations for Semantic Parsing with Generation-Augmented Pre-Training",
+          "link": "https://arxiv.org/abs/2012.10309v1"
+        },
+        "c": "https://github.com/awslabs/gap-text2sql",
         "n": "RATSQL + GAP",
         "d": "2020-12-18",
         "m1": "69.7"
       },
       {
-        "p": "[GraPPa: Grammar-Augmented Pre-Training for Table Semantic Parsing](https://arxiv.org/abs/2009.13845v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/taoyds/grappa)",
+        "p": {
+          "name": "GraPPa: Grammar-Augmented Pre-Training for Table Semantic Parsing",
+          "link": "https://arxiv.org/abs/2009.13845v2"
+        },
+        "c": "https://github.com/taoyds/grappa",
         "n": "RATSQL + Grammar-Augmented Pre-Training",
         "d": "2020-09-29",
         "m1": "69.6"
       },
       {
-        "p": "[RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers](https://arxiv.org/abs/1911.04942v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/examples/text_to_sql/RAT-SQL)",
+        "p": {
+          "name": "RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers",
+          "link": "https://arxiv.org/abs/1911.04942v5"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleNLP/tree/develop/examples/text_to_sql/RAT-SQL",
         "n": "RATSQL + BERT",
         "d": "2019-11-10",
         "m1": "65.6"
       },
       {
-        "p": "[Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task](http://arxiv.org/abs/1809.08887v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/taoyds/spider)",
+        "p": {
+          "name": "Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task",
+          "link": "http://arxiv.org/abs/1809.08887v5"
+        },
+        "c": "https://github.com/taoyds/spider",
         "n": "Exact Set Matching",
         "d": "2018-09-24",
         "m1": "19.7"

@@ -44,8 +44,11 @@
     ],
     "items": [
       {
-        "p": "[Multi-conditioned Graph Diffusion for Neural Architecture Search](https://arxiv.org/abs/2403.06020v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/rohanasthana/dinas)",
+        "p": {
+          "name": "Multi-conditioned Graph Diffusion for Neural Architecture Search",
+          "link": "https://arxiv.org/abs/2403.06020v2"
+        },
+        "c": "https://github.com/rohanasthana/dinas",
         "n": "DiNAS",
         "d": "2024-03-09",
         "m1": "94.37",
@@ -53,70 +56,97 @@
         "m3": "15.36"
       },
       {
-        "p": "[Shapley-NAS: Discovering Operation Contribution for Neural Architecture Search](https://arxiv.org/abs/2206.09811v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/euphoria16/shapley-nas)",
+        "p": {
+          "name": "Shapley-NAS: Discovering Operation Contribution for Neural Architecture Search",
+          "link": "https://arxiv.org/abs/2206.09811v1"
+        },
+        "c": "https://github.com/euphoria16/shapley-nas",
         "n": "Shapley-NAS",
         "d": "2022-06-20",
         "m1": "94.37",
         "m2": "91.61"
       },
       {
-        "p": "[Learning Where To Look -- Generative NAS is Surprisingly Efficient](https://arxiv.org/abs/2203.08734v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/jovitalukasik/AG-Net)",
+        "p": {
+          "name": "Learning Where To Look -- Generative NAS is Surprisingly Efficient",
+          "link": "https://arxiv.org/abs/2203.08734v2"
+        },
+        "c": "https://github.com/jovitalukasik/AG-Net",
         "n": "AG-Net",
         "d": "2022-03-16",
         "m1": "94.37",
         "m2": "91.61"
       },
       {
-        "p": "[$β$-DARTS: Beta-Decay Regularization for Differentiable Architecture Search](https://arxiv.org/abs/2203.01665v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/Sunshine-Ye/Beta-DARTS)",
+        "p": {
+          "name": "$β$-DARTS: Beta-Decay Regularization for Differentiable Architecture Search",
+          "link": "https://arxiv.org/abs/2203.01665v2"
+        },
+        "c": "https://github.com/Sunshine-Ye/Beta-DARTS",
         "n": "β-DARTS",
         "d": "2022-03-03",
         "m1": "94.36",
         "m2": "91.55"
       },
       {
-        "p": "[DrNAS: Dirichlet Neural Architecture Search](https://arxiv.org/abs/2006.10355v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/xiangning-chen/DrNAS)",
+        "p": {
+          "name": "DrNAS: Dirichlet Neural Architecture Search",
+          "link": "https://arxiv.org/abs/2006.10355v4"
+        },
+        "c": "https://github.com/xiangning-chen/DrNAS",
         "n": "DrNAS",
         "d": "2020-06-18",
         "m1": "94.36",
         "m2": "91.55"
       },
       {
-        "p": "[$Λ$-DARTS: Mitigating Performance Collapse by Harmonizing Operation Selection among Cells](https://arxiv.org/abs/2210.07998v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/dr-faustus/lambda-darts)",
+        "p": {
+          "name": "$Λ$-DARTS: Mitigating Performance Collapse by Harmonizing Operation Selection among Cells",
+          "link": "https://arxiv.org/abs/2210.07998v2"
+        },
+        "c": "https://github.com/dr-faustus/lambda-darts",
         "n": "Λ-DARTS",
         "d": "2022-10-14",
         "m1": "94.36",
         "m2": "91.55"
       },
       {
-        "p": "[IS-DARTS: Stabilizing DARTS through Precise Measurement on Candidate Importance](https://arxiv.org/abs/2312.12648v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/hy-he/is-darts)",
+        "p": {
+          "name": "IS-DARTS: Stabilizing DARTS through Precise Measurement on Candidate Importance",
+          "link": "https://arxiv.org/abs/2312.12648v1"
+        },
+        "c": "https://github.com/hy-he/is-darts",
         "n": "IS-DARTS",
         "d": "2023-12-19",
         "m1": " 94.36",
         "m2": "91.55"
       },
       {
-        "p": "[CR-LSO: Convex Neural Architecture Optimization in the Latent Space of Graph Variational Autoencoder with Input Convex Neural Networks](https://arxiv.org/abs/2211.05950v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/raoxuan-1998/cr-lso)",
+        "p": {
+          "name": "CR-LSO: Convex Neural Architecture Optimization in the Latent Space of Graph Variational Autoencoder with Input Convex Neural Networks",
+          "link": "https://arxiv.org/abs/2211.05950v1"
+        },
+        "c": "https://github.com/raoxuan-1998/cr-lso",
         "n": "CR-LSO",
         "d": "2022-11-11",
         "m1": "94.35",
         "m2": "91.54"
       },
       {
-        "p": "[When NAS Meets Trees: An Efficient Algorithm for Neural Architecture Search](https://arxiv.org/abs/2204.04918v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/guochengqian/tnas)",
+        "p": {
+          "name": "When NAS Meets Trees: An Efficient Algorithm for Neural Architecture Search",
+          "link": "https://arxiv.org/abs/2204.04918v1"
+        },
+        "c": "https://github.com/guochengqian/tnas",
         "n": "TNAS",
         "d": "2022-04-11",
         "m1": "94.35"
       },
       {
-        "p": "[BaLeNAS: Differentiable Architecture Search via the Bayesian Learning Rule](https://arxiv.org/abs/2111.13204v1)",
+        "p": {
+          "name": "BaLeNAS: Differentiable Architecture Search via the Bayesian Learning Rule",
+          "link": "https://arxiv.org/abs/2111.13204v1"
+        },
         "c": "",
         "n": "BaLeNAS-TF",
         "d": "2021-11-25",
@@ -124,15 +154,21 @@
         "m2": "91.52"
       },
       {
-        "p": "[Generalized Global Ranking-Aware Neural Architecture Ranker for Efficient Image Classifier Search](https://arxiv.org/abs/2201.12725v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/albertipot/nar)",
+        "p": {
+          "name": "Generalized Global Ranking-Aware Neural Architecture Ranker for Efficient Image Classifier Search",
+          "link": "https://arxiv.org/abs/2201.12725v2"
+        },
+        "c": "https://github.com/albertipot/nar",
         "n": "NAR",
         "d": "2022-01-30",
         "m1": "94.33",
         "m2": "91.44"
       },
       {
-        "p": "[$α$ DARTS Once More: Enhancing Differentiable Architecture Search by Masked Image Modeling](https://arxiv.org/abs/2211.10105v1)",
+        "p": {
+          "name": "$α$ DARTS Once More: Enhancing Differentiable Architecture Search by Masked Image Modeling",
+          "link": "https://arxiv.org/abs/2211.10105v1"
+        },
         "c": "",
         "n": "α-DARTS",
         "d": "2022-11-18",
@@ -140,7 +176,10 @@
         "m2": "91.49"
       },
       {
-        "p": "[Differentiable Architecture Search with Random Features](https://arxiv.org/abs/2208.08835v1)",
+        "p": {
+          "name": "Differentiable Architecture Search with Random Features",
+          "link": "https://arxiv.org/abs/2208.08835v1"
+        },
         "c": "",
         "n": "RF-DARTS",
         "d": "2022-08-18",
@@ -148,8 +187,11 @@
         "m2": "91.3"
       },
       {
-        "p": "[Does Unsupervised Architecture Representation Learning Help Neural Architecture Search?](https://arxiv.org/abs/2006.06936v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/MSU-MLSys-Lab/arch2vec)",
+        "p": {
+          "name": "Does Unsupervised Architecture Representation Learning Help Neural Architecture Search?",
+          "link": "https://arxiv.org/abs/2006.06936v2"
+        },
+        "c": "https://github.com/MSU-MLSys-Lab/arch2vec",
         "n": "arch2vec",
         "d": "2020-06-12",
         "m1": "94.18",
@@ -157,8 +199,11 @@
         "m3": "12000"
       },
       {
-        "p": "[Generic Neural Architecture Search via Regression](https://arxiv.org/abs/2108.01899v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/leeyeehoo/GenNAS)",
+        "p": {
+          "name": "Generic Neural Architecture Search via Regression",
+          "link": "https://arxiv.org/abs/2108.01899v2"
+        },
+        "c": "https://github.com/leeyeehoo/GenNAS",
         "n": "GenNAS",
         "d": "2021-08-04",
         "m1": "94.18",
@@ -166,14 +211,20 @@
         "m3": "1080"
       },
       {
-        "p": "[Geometry-Aware Gradient Algorithms for Neural Architecture Search](https://arxiv.org/abs/2004.07802v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/liamcli/gaea_release)",
+        "p": {
+          "name": "Geometry-Aware Gradient Algorithms for Neural Architecture Search",
+          "link": "https://arxiv.org/abs/2004.07802v5"
+        },
+        "c": "https://github.com/liamcli/gaea_release",
         "n": "GAEA DARTS (ERM)",
         "d": "2020-04-16",
         "m1": "94.1"
       },
       {
-        "p": "[PRE-NAS: Predictor-assisted Evolutionary Neural Architecture Search](https://arxiv.org/abs/2204.12726v1)",
+        "p": {
+          "name": "PRE-NAS: Predictor-assisted Evolutionary Neural Architecture Search",
+          "link": "https://arxiv.org/abs/2204.12726v1"
+        },
         "c": "",
         "n": "PRE-NAS",
         "d": "2022-04-27",
@@ -181,15 +232,21 @@
         "m2": "91.37"
       },
       {
-        "p": "[Cyclic Differentiable Architecture Search](https://arxiv.org/abs/2006.10724v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/microsoft/cream)",
+        "p": {
+          "name": "Cyclic Differentiable Architecture Search",
+          "link": "https://arxiv.org/abs/2006.10724v4"
+        },
+        "c": "https://github.com/microsoft/cream",
         "n": "CDARTS",
         "d": "2020-06-18",
         "m1": "94.02",
         "m2": "91.12"
       },
       {
-        "p": "[Guided Evolutionary Neural Architecture Search With Efficient Performance Estimation](https://arxiv.org/abs/2208.06475v1)",
+        "p": {
+          "name": "Guided Evolutionary Neural Architecture Search With Efficient Performance Estimation",
+          "link": "https://arxiv.org/abs/2208.06475v1"
+        },
         "c": "",
         "n": "GAE",
         "d": "2022-07-22",
@@ -197,16 +254,22 @@
         "m2": "91.26"
       },
       {
-        "p": "[DU-DARTS: Decreasing the Uncertainty of Differentiable Architecture Search](https://www.bmvc2021-virtualconference.com/conference/papers/paper_0209.html)",
-        "c": "[&check;&nbsp;Link](https://github.com/ShunLu91/DU-DARTS)",
+        "p": {
+          "name": "DU-DARTS: Decreasing the Uncertainty of Differentiable Architecture Search",
+          "link": "https://www.bmvc2021-virtualconference.com/conference/papers/paper_0209.html"
+        },
+        "c": "https://github.com/ShunLu91/DU-DARTS",
         "n": "DU-DARTS",
         "d": "2021-11-23",
         "m1": " 93.86",
         "m2": "91.21"
       },
       {
-        "p": "[DARTS-: Robustly Stepping out of Performance Collapse Without Indicators](https://arxiv.org/abs/2009.01027v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/Meituan-AutoML/DARTS-)",
+        "p": {
+          "name": "DARTS-: Robustly Stepping out of Performance Collapse Without Indicators",
+          "link": "https://arxiv.org/abs/2009.01027v2"
+        },
+        "c": "https://github.com/Meituan-AutoML/DARTS-",
         "n": "DARTS-",
         "d": "2020-09-02",
         "m1": "93.80",
@@ -214,8 +277,11 @@
         "m3": "11520"
       },
       {
-        "p": "[Searching for A Robust Neural Architecture in Four GPU Hours](https://arxiv.org/abs/1910.04465v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/D-X-Y/GDAS)",
+        "p": {
+          "name": "Searching for A Robust Neural Architecture in Four GPU Hours",
+          "link": "https://arxiv.org/abs/1910.04465v2"
+        },
+        "c": "https://github.com/D-X-Y/GDAS",
         "n": "GDAS",
         "d": "2019-10-10",
         "m1": "93.61",
@@ -223,23 +289,32 @@
         "m3": "28926"
       },
       {
-        "p": "[iDARTS: Differentiable Architecture Search with Stochastic Implicit Gradients](https://arxiv.org/abs/2106.10784v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/MiaoZhang0525/iDARTS)",
+        "p": {
+          "name": "iDARTS: Differentiable Architecture Search with Stochastic Implicit Gradients",
+          "link": "https://arxiv.org/abs/2106.10784v1"
+        },
+        "c": "https://github.com/MiaoZhang0525/iDARTS",
         "n": "iDARTS",
         "d": "2021-06-21",
         "m1": "93.58",
         "m2": "89.86"
       },
       {
-        "p": "[KNAS: Green Neural Architecture Search](https://arxiv.org/abs/2111.13293v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/jingjing-nlp/knas)",
+        "p": {
+          "name": "KNAS: Green Neural Architecture Search",
+          "link": "https://arxiv.org/abs/2111.13293v1"
+        },
+        "c": "https://github.com/jingjing-nlp/knas",
         "n": "KNAS (k=40)",
         "d": "2021-11-26",
         "m1": "93.43"
       },
       {
-        "p": "[FairNAS: Rethinking Evaluation Fairness of Weight Sharing Neural Architecture Search](https://arxiv.org/abs/1907.01845v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/xiaomi-automl/FairNAS)",
+        "p": {
+          "name": "FairNAS: Rethinking Evaluation Fairness of Weight Sharing Neural Architecture Search",
+          "link": "https://arxiv.org/abs/1907.01845v5"
+        },
+        "c": "https://github.com/xiaomi-automl/FairNAS",
         "n": "FairNAS",
         "d": "2019-07-03",
         "m1": "93.23",
@@ -247,24 +322,33 @@
         "m3": "9845"
       },
       {
-        "p": "[NAS-LID: Efficient Neural Architecture Search with Local Intrinsic Dimension](https://arxiv.org/abs/2211.12759v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/marsggbo/nas-lid)",
+        "p": {
+          "name": "NAS-LID: Efficient Neural Architecture Search with Local Intrinsic Dimension",
+          "link": "https://arxiv.org/abs/2211.12759v2"
+        },
+        "c": "https://github.com/marsggbo/nas-lid",
         "n": "NAS-LID+RSPS",
         "d": "2022-11-23",
         "m1": "92.9",
         "m2": "89.74"
       },
       {
-        "p": "[SNAS: Stochastic Neural Architecture Search](https://arxiv.org/abs/1812.09926v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/SNAS-Series/SNAS-Series)",
+        "p": {
+          "name": "SNAS: Stochastic Neural Architecture Search",
+          "link": "https://arxiv.org/abs/1812.09926v3"
+        },
+        "c": "https://github.com/SNAS-Series/SNAS-Series",
         "n": "SNAS",
         "d": "2018-12-24",
         "m1": "92.77",
         "m2": "90.10"
       },
       {
-        "p": "[EPE-NAS: Efficient Performance Estimation Without Training for Neural Architecture Search](https://arxiv.org/abs/2102.08099v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/VascoLopes/EPENAS)",
+        "p": {
+          "name": "EPE-NAS: Efficient Performance Estimation Without Training for Neural Architecture Search",
+          "link": "https://arxiv.org/abs/2102.08099v1"
+        },
+        "c": "https://github.com/VascoLopes/EPENAS",
         "n": "EPE-NAS (N=10)",
         "d": "2021-02-16",
         "m1": "92.63",
@@ -272,8 +356,11 @@
         "m3": "2.3"
       },
       {
-        "p": "[EPE-NAS: Efficient Performance Estimation Without Training for Neural Architecture Search](https://arxiv.org/abs/2102.08099v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/VascoLopes/EPENAS)",
+        "p": {
+          "name": "EPE-NAS: Efficient Performance Estimation Without Training for Neural Architecture Search",
+          "link": "https://arxiv.org/abs/2102.08099v1"
+        },
+        "c": "https://github.com/VascoLopes/EPENAS",
         "n": "EPE-NAS (N=500)",
         "d": "2021-02-16",
         "m1": "92.27",
@@ -281,8 +368,11 @@
         "m3": "105.8"
       },
       {
-        "p": "[EPE-NAS: Efficient Performance Estimation Without Training for Neural Architecture Search](https://arxiv.org/abs/2102.08099v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/VascoLopes/EPENAS)",
+        "p": {
+          "name": "EPE-NAS: Efficient Performance Estimation Without Training for Neural Architecture Search",
+          "link": "https://arxiv.org/abs/2102.08099v1"
+        },
+        "c": "https://github.com/VascoLopes/EPENAS",
         "n": "EPE-NAS (N=100)",
         "d": "2021-02-16",
         "m1": "91.59",
@@ -290,8 +380,11 @@
         "m3": "20.5"
       },
       {
-        "p": "[EPE-NAS: Efficient Performance Estimation Without Training for Neural Architecture Search](https://arxiv.org/abs/2102.08099v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/VascoLopes/EPENAS)",
+        "p": {
+          "name": "EPE-NAS: Efficient Performance Estimation Without Training for Neural Architecture Search",
+          "link": "https://arxiv.org/abs/2102.08099v1"
+        },
+        "c": "https://github.com/VascoLopes/EPENAS",
         "n": "EPE-NAS (N=1000)",
         "d": "2021-02-16",
         "m1": "91.31",
@@ -299,8 +392,11 @@
         "m3": "206.2"
       },
       {
-        "p": "[Random Search and Reproducibility for Neural Architecture Search](https://arxiv.org/abs/1902.07638v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/microsoft/nn-meter)",
+        "p": {
+          "name": "Random Search and Reproducibility for Neural Architecture Search",
+          "link": "https://arxiv.org/abs/1902.07638v3"
+        },
+        "c": "https://github.com/microsoft/nn-meter",
         "n": "RSPS",
         "d": "2019-02-20",
         "m1": "87.66",
@@ -326,7 +422,10 @@
         "m3": "10890"
       },
       {
-        "p": "[Efficient Neural Architecture Search via Parameters Sharing](https://icml.cc/Conferences/2018/Schedule?showEvent=2247)",
+        "p": {
+          "name": "Efficient Neural Architecture Search via Parameters Sharing",
+          "link": "https://icml.cc/Conferences/2018/Schedule?showEvent=2247"
+        },
         "c": "",
         "n": "ENAS",
         "d": "2018-07-01",
@@ -344,7 +443,10 @@
         "m3": "29902"
       },
       {
-        "p": "[CATCH: Context-based Meta Reinforcement Learning for Transferrable Architecture Search](https://arxiv.org/abs/2007.09380v3)",
+        "p": {
+          "name": "CATCH: Context-based Meta Reinforcement Learning for Transferrable Architecture Search",
+          "link": "https://arxiv.org/abs/2007.09380v3"
+        },
         "c": "",
         "n": "CATCH-meta",
         "d": "2020-07-18",

@@ -48,8 +48,11 @@
     ],
     "items": [
       {
-        "p": "[OneFormer: One Transformer to Rule Universal Image Segmentation](https://arxiv.org/abs/2211.06220v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "OneFormer: One Transformer to Rule Universal Image Segmentation",
+          "link": "https://arxiv.org/abs/2211.06220v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "OneFormer (InternImage-H, emb_dim=1024, single-scale, 896x896, COCO-Pretrained)",
         "d": "2022-11-10",
         "m1": "44.2",
@@ -58,22 +61,31 @@
         "m4": "23.7"
       },
       {
-        "p": "[A Simple Framework for Open-Vocabulary Segmentation and Detection](https://arxiv.org/abs/2303.08131v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/microsoft/X-Decoder)",
+        "p": {
+          "name": "A Simple Framework for Open-Vocabulary Segmentation and Detection",
+          "link": "https://arxiv.org/abs/2303.08131v3"
+        },
+        "c": "https://github.com/microsoft/X-Decoder",
         "n": "OpenSeeD",
         "d": "2023-03-14",
         "m1": "42.6"
       },
       {
-        "p": "[The Missing Point in Vision Transformers for Universal Image Segmentation](https://arxiv.org/abs/2505.19795v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/sajjad-sh33/vit-p)",
+        "p": {
+          "name": "The Missing Point in Vision Transformers for Universal Image Segmentation",
+          "link": "https://arxiv.org/abs/2505.19795v1"
+        },
+        "c": "https://github.com/sajjad-sh33/vit-p",
         "n": "ViT-P (OneFormer, DiNAT-L, single-scale, 1280x1280, COCO_pretrain)",
         "d": "2025-05-26",
         "m1": "40.7"
       },
       {
-        "p": "[OneFormer: One Transformer to Rule Universal Image Segmentation](https://arxiv.org/abs/2211.06220v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "OneFormer: One Transformer to Rule Universal Image Segmentation",
+          "link": "https://arxiv.org/abs/2211.06220v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "OneFormer (DiNAT-L, single-scale, 1280x1280, COCO-pretrain)",
         "d": "2022-11-10",
         "m1": "40.2",
@@ -82,8 +94,11 @@
         "m4": "19.2"
       },
       {
-        "p": "[Generalized Decoding for Pixel, Image, and Language](https://arxiv.org/abs/2212.11270v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/microsoft/X-Decoder)",
+        "p": {
+          "name": "Generalized Decoding for Pixel, Image, and Language",
+          "link": "https://arxiv.org/abs/2212.11270v1"
+        },
+        "c": "https://github.com/microsoft/X-Decoder",
         "n": "X-Decoder (Davit-d5, Deform, single-scale, 1280x1280)",
         "d": "2022-12-21",
         "m1": "38.7",
@@ -92,36 +107,51 @@
         "m4": "18.9"
       },
       {
-        "p": "[The Missing Point in Vision Transformers for Universal Image Segmentation](https://arxiv.org/abs/2505.19795v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/sajjad-sh33/vit-p)",
+        "p": {
+          "name": "The Missing Point in Vision Transformers for Universal Image Segmentation",
+          "link": "https://arxiv.org/abs/2505.19795v1"
+        },
+        "c": "https://github.com/sajjad-sh33/vit-p",
         "n": "ViT-P (OneFormer, DiNAT-L, single-scale, 1280x1280)",
         "d": "2025-05-26",
         "m1": "37.8"
       },
       {
-        "p": "[OneFormer: One Transformer to Rule Universal Image Segmentation](https://arxiv.org/abs/2211.06220v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "OneFormer: One Transformer to Rule Universal Image Segmentation",
+          "link": "https://arxiv.org/abs/2211.06220v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "OneFormer (DiNAT-L, single-scale)",
         "d": "2022-11-10",
         "m1": "36.0"
       },
       {
-        "p": "[OneFormer: One Transformer to Rule Universal Image Segmentation](https://arxiv.org/abs/2211.06220v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "OneFormer: One Transformer to Rule Universal Image Segmentation",
+          "link": "https://arxiv.org/abs/2211.06220v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "OneFormer (Swin-L, single-scale)",
         "d": "2022-11-10",
         "m1": "35.9"
       },
       {
-        "p": "[Generalized Decoding for Pixel, Image, and Language](https://arxiv.org/abs/2212.11270v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/microsoft/X-Decoder)",
+        "p": {
+          "name": "Generalized Decoding for Pixel, Image, and Language",
+          "link": "https://arxiv.org/abs/2212.11270v1"
+        },
+        "c": "https://github.com/microsoft/X-Decoder",
         "n": "X-Decoder (L)",
         "d": "2022-12-21",
         "m1": "35.8"
       },
       {
-        "p": "[Dilated Neighborhood Attention Transformer](https://arxiv.org/abs/2209.15001v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "Dilated Neighborhood Attention Transformer",
+          "link": "https://arxiv.org/abs/2209.15001v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "DiNAT-L (Mask2Former, single-scale)",
         "d": "2022-09-29",
         "m1": "35.4",
@@ -130,8 +160,11 @@
         "m4": "16.3"
       },
       {
-        "p": "[Masked-attention Mask Transformer for Universal Image Segmentation](https://arxiv.org/abs/2112.01527v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "Masked-attention Mask Transformer for Universal Image Segmentation",
+          "link": "https://arxiv.org/abs/2112.01527v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "Mask2Former (Swin-L, single-scale)",
         "d": "2021-12-02",
         "m1": "34.9",
@@ -140,8 +173,11 @@
         "m4": "16.3"
       },
       {
-        "p": "[Masked-attention Mask Transformer for Universal Image Segmentation](https://arxiv.org/abs/2112.01527v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "Masked-attention Mask Transformer for Universal Image Segmentation",
+          "link": "https://arxiv.org/abs/2112.01527v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "Mask2Former (Swin-L + FAPN)",
         "d": "2021-12-02",
         "m1": "33.4",
@@ -150,16 +186,22 @@
         "m4": "14.6"
       },
       {
-        "p": "[Masked-attention Mask Transformer for Universal Image Segmentation](https://arxiv.org/abs/2112.01527v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "Masked-attention Mask Transformer for Universal Image Segmentation",
+          "link": "https://arxiv.org/abs/2112.01527v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "Mask2Former (ResNet50)",
         "d": "2021-12-02",
         "m1": "26.4",
         "m4": "10.4"
       },
       {
-        "p": "[Masked-attention Mask Transformer for Universal Image Segmentation](https://arxiv.org/abs/2112.01527v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "Masked-attention Mask Transformer for Universal Image Segmentation",
+          "link": "https://arxiv.org/abs/2112.01527v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "Mask2Former (ResNet-50)",
         "d": "2021-12-02",
         "m2": "43.1",

@@ -54,8 +54,11 @@
     ],
     "items": [
       {
-        "p": "[A generic diffusion-based approach for 3D human pose prediction in the wild](https://arxiv.org/abs/2210.05669v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/vita-epfl/deposit)",
+        "p": {
+          "name": "A generic diffusion-based approach for 3D human pose prediction in the wild",
+          "link": "https://arxiv.org/abs/2210.05669v2"
+        },
+        "c": "https://github.com/vita-epfl/deposit",
         "n": "TCD",
         "d": "2022-10-11",
         "m1": "6764",
@@ -63,8 +66,11 @@
         "m3": "215"
       },
       {
-        "p": "[Diverse Human Motion Prediction via Gumbel-Softmax Sampling from an Auxiliary Space](https://arxiv.org/abs/2207.07351v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/droliven/diverse_sampling)",
+        "p": {
+          "name": "Diverse Human Motion Prediction via Gumbel-Softmax Sampling from an Auxiliary Space",
+          "link": "https://arxiv.org/abs/2207.07351v1"
+        },
+        "c": "https://github.com/droliven/diverse_sampling",
         "n": "DHMP",
         "d": "2022-07-15",
         "m1": "6109",
@@ -74,8 +80,11 @@
         "m5": "316"
       },
       {
-        "p": "[Diverse Human Motion Prediction Guided by Multi-Level Spatial-Temporal Anchors](https://arxiv.org/abs/2302.04860v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/sirui-xu/stars)",
+        "p": {
+          "name": "Diverse Human Motion Prediction Guided by Multi-Level Spatial-Temporal Anchors",
+          "link": "https://arxiv.org/abs/2302.04860v1"
+        },
+        "c": "https://github.com/sirui-xu/stars",
         "n": "STARS",
         "d": "2023-02-09",
         "m1": "6031",
@@ -85,8 +94,11 @@
         "m5": "321"
       },
       {
-        "p": "[Generating Smooth Pose Sequences for Diverse Human Motion Prediction](https://arxiv.org/abs/2108.08422v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/wei-mao-2019/gsps)",
+        "p": {
+          "name": "Generating Smooth Pose Sequences for Diverse Human Motion Prediction",
+          "link": "https://arxiv.org/abs/2108.08422v3"
+        },
+        "c": "https://github.com/wei-mao-2019/gsps",
         "n": "GSPS",
         "d": "2021-08-19",
         "m1": "5825",
@@ -94,7 +106,10 @@
         "m3": "244"
       },
       {
-        "p": "[Diverse Trajectory Forecasting with Determinantal Point Processes](https://arxiv.org/abs/1907.04967v2)",
+        "p": {
+          "name": "Diverse Trajectory Forecasting with Determinantal Point Processes",
+          "link": "https://arxiv.org/abs/1907.04967v2"
+        },
         "c": "",
         "n": "DSF",
         "d": "2019-07-11",
@@ -103,8 +118,11 @@
         "m3": "290"
       },
       {
-        "p": "[Accurate and Diverse Sampling of Sequences based on a \"Best of Many\" Sample Objective](http://arxiv.org/abs/1806.07772v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/apratimbhattacharyya18/CGM_BestOfMany)",
+        "p": {
+          "name": "Accurate and Diverse Sampling of Sequences based on a \"Best of Many\" Sample Objective",
+          "link": "http://arxiv.org/abs/1806.07772v2"
+        },
+        "c": "https://github.com/apratimbhattacharyya18/CGM_BestOfMany",
         "n": "BoM",
         "d": "2018-06-20",
         "m1": "2846",
@@ -112,8 +130,11 @@
         "m3": "279"
       },
       {
-        "p": "[Deep Unsupervised Clustering with Gaussian Mixture Variational Autoencoders](http://arxiv.org/abs/1611.02648v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/Nat-D/GMVAE)",
+        "p": {
+          "name": "Deep Unsupervised Clustering with Gaussian Mixture Variational Autoencoders",
+          "link": "http://arxiv.org/abs/1611.02648v2"
+        },
+        "c": "https://github.com/Nat-D/GMVAE",
         "n": "GMVAE",
         "d": "2016-11-08",
         "m1": "2443",
@@ -121,8 +142,11 @@
         "m3": "345"
       },
       {
-        "p": "[The Pose Knows: Video Forecasting by Generating Pose Futures](http://arxiv.org/abs/1705.00053v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/KMarino/MMD_evalcode)",
+        "p": {
+          "name": "The Pose Knows: Video Forecasting by Generating Pose Futures",
+          "link": "http://arxiv.org/abs/1705.00053v1"
+        },
+        "c": "https://github.com/KMarino/MMD_evalcode",
         "n": "Pose-Knows",
         "d": "2017-04-28",
         "m1": "2308",
@@ -130,8 +154,11 @@
         "m3": "296"
       },
       {
-        "p": "[HP-GAN: Probabilistic 3D human motion prediction via GAN](http://arxiv.org/abs/1711.09561v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/ebarsoum/hpgan)",
+        "p": {
+          "name": "HP-GAN: Probabilistic 3D human motion prediction via GAN",
+          "link": "http://arxiv.org/abs/1711.09561v1"
+        },
+        "c": "https://github.com/ebarsoum/hpgan",
         "n": "HP-GAN",
         "d": "2017-11-27",
         "m1": "1139",
@@ -139,8 +166,11 @@
         "m3": "749"
       },
       {
-        "p": "[TransFusion: A Practical and Effective Transformer-based Diffusion Model for 3D Human Motion Prediction](https://arxiv.org/abs/2307.16106v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/sibotian96/TransFusion)",
+        "p": {
+          "name": "TransFusion: A Practical and Effective Transformer-based Diffusion Model for 3D Human Motion Prediction",
+          "link": "https://arxiv.org/abs/2307.16106v1"
+        },
+        "c": "https://github.com/sibotian96/TransFusion",
         "n": "TransFusion",
         "d": "2023-07-30",
         "m1": "1031",
@@ -150,8 +180,11 @@
         "m5": "427"
       },
       {
-        "p": "[MT-VAE: Learning Motion Transformations to Generate Multimodal Human Dynamics](http://arxiv.org/abs/1808.04545v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/xcyan/eccv18_mtvae)",
+        "p": {
+          "name": "MT-VAE: Learning Motion Transformations to Generate Multimodal Human Dynamics",
+          "link": "http://arxiv.org/abs/1808.04545v1"
+        },
+        "c": "https://github.com/xcyan/eccv18_mtvae",
         "n": "MT-VAE",
         "d": "2018-08-14",
         "m1": "21",

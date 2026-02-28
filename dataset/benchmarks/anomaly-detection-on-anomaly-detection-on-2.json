@@ -38,7 +38,10 @@
     ],
     "items": [
       {
-        "p": "[Out-of-Distribution Detection Without Class Labels](https://arxiv.org/abs/2112.07662v2)",
+        "p": {
+          "name": "Out-of-Distribution Detection Without Class Labels",
+          "link": "https://arxiv.org/abs/2112.07662v2"
+        },
         "c": "",
         "n": "PsudoLabels CLIP ViT",
         "d": "2021-12-14",
@@ -46,15 +49,21 @@
         "m2": "ViT"
       },
       {
-        "p": "[CSI: Novelty Detection via Contrastive Learning on Distributionally Shifted Instances](https://arxiv.org/abs/2007.08176v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/alinlab/CSI)",
+        "p": {
+          "name": "CSI: Novelty Detection via Contrastive Learning on Distributionally Shifted Instances",
+          "link": "https://arxiv.org/abs/2007.08176v2"
+        },
+        "c": "https://github.com/alinlab/CSI",
         "n": "CSI",
         "d": "2020-07-16",
         "m1": "94.7",
         "m2": "ResNet-18"
       },
       {
-        "p": "[Deep Nearest Neighbor Anomaly Detection](https://arxiv.org/abs/2002.10445v1)",
+        "p": {
+          "name": "Deep Nearest Neighbor Anomaly Detection",
+          "link": "https://arxiv.org/abs/2002.10445v1"
+        },
         "c": "",
         "n": "DN2 CLIP ViT",
         "d": "2020-02-24",
@@ -62,16 +71,22 @@
         "m2": "ViT"
       },
       {
-        "p": "[Classification-Based Anomaly Detection for General Data](https://arxiv.org/abs/2005.02359v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/xuhongzuo/DeepOD)",
+        "p": {
+          "name": "Classification-Based Anomaly Detection for General Data",
+          "link": "https://arxiv.org/abs/2005.02359v1"
+        },
+        "c": "https://github.com/xuhongzuo/DeepOD",
         "n": "GOAD",
         "d": "2020-05-05",
         "m1": "92.8",
         "m2": "ResNet-18"
       },
       {
-        "p": "[Using Self-Supervised Learning Can Improve Model Robustness and Uncertainty](https://arxiv.org/abs/1906.12340v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/hendrycks/ss-ood)",
+        "p": {
+          "name": "Using Self-Supervised Learning Can Improve Model Robustness and Uncertainty",
+          "link": "https://arxiv.org/abs/1906.12340v2"
+        },
+        "c": "https://github.com/hendrycks/ss-ood",
         "n": "ROT+Trans",
         "d": "2019-06-28",
         "m1": "86.3",

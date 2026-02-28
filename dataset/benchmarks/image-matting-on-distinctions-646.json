@@ -53,8 +53,11 @@
     ],
     "items": [
       {
-        "p": "[Diffusion for Natural Image Matting](https://arxiv.org/abs/2312.05915v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/yihanhu-2022/diffmatte)",
+        "p": {
+          "name": "Diffusion for Natural Image Matting",
+          "link": "https://arxiv.org/abs/2312.05915v2"
+        },
+        "c": "https://github.com/yihanhu-2022/diffmatte",
         "n": "DiffMatte",
         "d": "2023-12-10",
         "m1": "15.50",
@@ -64,8 +67,11 @@
         "m5": "√"
       },
       {
-        "p": "[ViTMatte: Boosting Image Matting with Pretrained Plain Vision Transformers](https://arxiv.org/abs/2305.15272v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "ViTMatte: Boosting Image Matting with Pretrained Plain Vision Transformers",
+          "link": "https://arxiv.org/abs/2305.15272v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "ViTMatte",
         "d": "2023-05-24",
         "m1": "17.05",
@@ -75,8 +81,11 @@
         "m5": "√"
       },
       {
-        "p": "[Dual-Context Aggregation for Universal Image Matting](https://arxiv.org/abs/2402.18109v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/windaway/dcam)",
+        "p": {
+          "name": "Dual-Context Aggregation for Universal Image Matting",
+          "link": "https://arxiv.org/abs/2402.18109v1"
+        },
+        "c": "https://github.com/windaway/dcam",
         "n": "DCAM",
         "d": "2024-02-28",
         "m1": "31.27",
@@ -86,8 +95,11 @@
         "m5": "×"
       },
       {
-        "p": "[PP-Matting: High-Accuracy Natural Image Matting](https://arxiv.org/abs/2204.09433v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleSeg)",
+        "p": {
+          "name": "PP-Matting: High-Accuracy Natural Image Matting",
+          "link": "https://arxiv.org/abs/2204.09433v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
         "n": "PP-Matting",
         "d": "2022-04-20",
         "m1": "40.69",

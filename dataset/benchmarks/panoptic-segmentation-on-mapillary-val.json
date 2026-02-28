@@ -48,8 +48,11 @@
     ],
     "items": [
       {
-        "p": "[OneFormer: One Transformer to Rule Universal Image Segmentation](https://arxiv.org/abs/2211.06220v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "OneFormer: One Transformer to Rule Universal Image Segmentation",
+          "link": "https://arxiv.org/abs/2211.06220v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "OneFormer (DiNAT-L, single-scale)",
         "d": "2022-11-10",
         "m1": "46.7",
@@ -58,8 +61,11 @@
         "m4": "40.5"
       },
       {
-        "p": "[OneFormer: One Transformer to Rule Universal Image Segmentation](https://arxiv.org/abs/2211.06220v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "OneFormer: One Transformer to Rule Universal Image Segmentation",
+          "link": "https://arxiv.org/abs/2211.06220v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "OneFormer (ConvNeXt-L, single-scale)",
         "d": "2022-11-10",
         "m1": "46.4",
@@ -68,8 +74,11 @@
         "m4": "40.6"
       },
       {
-        "p": "[Fully Convolutional Networks for Panoptic Segmentation](https://arxiv.org/abs/2012.00720v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/dvlab-research/panopticfcn)",
+        "p": {
+          "name": "Fully Convolutional Networks for Panoptic Segmentation",
+          "link": "https://arxiv.org/abs/2012.00720v2"
+        },
+        "c": "https://github.com/dvlab-research/panopticfcn",
         "n": "Panoptic FCN* (Swin-L, single-scale)",
         "d": "2020-12-01",
         "m1": "45.7",
@@ -77,7 +86,10 @@
         "m4": "40.8"
       },
       {
-        "p": "[Scaling Wide Residual Networks for Panoptic Segmentation](https://arxiv.org/abs/2011.11675v2)",
+        "p": {
+          "name": "Scaling Wide Residual Networks for Panoptic Segmentation",
+          "link": "https://arxiv.org/abs/2011.11675v2"
+        },
         "c": "",
         "n": "Panoptic-DeepLab (SWideRNet-(1, 1, 4.5), multi-scale)",
         "d": "2020-11-23",
@@ -87,8 +99,11 @@
         "m4": "39.3"
       },
       {
-        "p": "[Intra-Batch Supervision for Panoptic Segmentation on High-Resolution Images](https://arxiv.org/abs/2304.08222v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/DdeGeus/Mask2Former-IBS)",
+        "p": {
+          "name": "Intra-Batch Supervision for Panoptic Segmentation on High-Resolution Images",
+          "link": "https://arxiv.org/abs/2304.08222v1"
+        },
+        "c": "https://github.com/DdeGeus/Mask2Former-IBS",
         "n": "Mask2Former + Intra-Batch Supervision (ResNet-50)",
         "d": "2023-04-17",
         "m1": "42.2",
@@ -96,8 +111,11 @@
         "m4": "34.9"
       },
       {
-        "p": "[Axial-DeepLab: Stand-Alone Axial-Attention for Panoptic Segmentation](https://arxiv.org/abs/2003.07853v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/The-AI-Summer/self_attention)",
+        "p": {
+          "name": "Axial-DeepLab: Stand-Alone Axial-Attention for Panoptic Segmentation",
+          "link": "https://arxiv.org/abs/2003.07853v2"
+        },
+        "c": "https://github.com/The-AI-Summer/self_attention",
         "n": "Axial-DeepLab-L (multi-scale)",
         "d": "2020-03-17",
         "m1": "41.1",
@@ -106,21 +124,30 @@
         "m4": "33.4"
       },
       {
-        "p": "[EfficientPS: Efficient Panoptic Segmentation](https://arxiv.org/abs/2004.02307v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/DeepSceneSeg/EfficientPS)",
+        "p": {
+          "name": "EfficientPS: Efficient Panoptic Segmentation",
+          "link": "https://arxiv.org/abs/2004.02307v3"
+        },
+        "c": "https://github.com/DeepSceneSeg/EfficientPS",
         "n": "EfficientPS",
         "d": "2020-04-05",
         "m1": "40.6"
       },
       {
-        "p": "[Panoptic-DeepLab: A Simple, Strong, and Fast Baseline for Bottom-Up Panoptic Segmentation](https://arxiv.org/abs/1911.10194v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/official/projects/panoptic)",
+        "p": {
+          "name": "Panoptic-DeepLab: A Simple, Strong, and Fast Baseline for Bottom-Up Panoptic Segmentation",
+          "link": "https://arxiv.org/abs/1911.10194v3"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/official/projects/panoptic",
         "n": "Panoptic-DeepLab (X71)",
         "d": "2019-11-22",
         "m1": "40.5"
       },
       {
-        "p": "[AdaptIS: Adaptive Instance Selection Network](https://arxiv.org/abs/1909.07829v1)",
+        "p": {
+          "name": "AdaptIS: Adaptive Instance Selection Network",
+          "link": "https://arxiv.org/abs/1909.07829v1"
+        },
         "c": "",
         "n": "AdaptIS (ResNeXt-101)",
         "d": "2019-09-17",
@@ -128,30 +155,42 @@
         "m2": "56.8"
       },
       {
-        "p": "[Fully Convolutional Networks for Panoptic Segmentation](https://arxiv.org/abs/2012.00720v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/dvlab-research/panopticfcn)",
+        "p": {
+          "name": "Fully Convolutional Networks for Panoptic Segmentation",
+          "link": "https://arxiv.org/abs/2012.00720v2"
+        },
+        "c": "https://github.com/dvlab-research/panopticfcn",
         "n": "Panoptic FCN* (ResNet-FPN)",
         "d": "2020-12-01",
         "m1": "36.9",
         "m4": "32.9"
       },
       {
-        "p": "[Panoptic Segmentation with a Joint Semantic and Instance Segmentation Network](http://arxiv.org/abs/1809.02110v2)",
+        "p": {
+          "name": "Panoptic Segmentation with a Joint Semantic and Instance Segmentation Network",
+          "link": "http://arxiv.org/abs/1809.02110v2"
+        },
         "c": "",
         "n": "JSIS-Net (ResNet-50)",
         "d": "2018-09-06",
         "m1": "17.6"
       },
       {
-        "p": "[Hierarchical Multi-Scale Attention for Semantic Segmentation](https://arxiv.org/abs/2005.10821v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleSeg)",
+        "p": {
+          "name": "Hierarchical Multi-Scale Attention for Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2005.10821v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
         "n": "HRNet-OCR (Hierarchical Multi-Scale Attention)",
         "d": "2020-05-21",
         "m1": "17.6"
       },
       {
-        "p": "[Fully Convolutional Networks for Panoptic Segmentation](https://arxiv.org/abs/2012.00720v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/dvlab-research/panopticfcn)",
+        "p": {
+          "name": "Fully Convolutional Networks for Panoptic Segmentation",
+          "link": "https://arxiv.org/abs/2012.00720v2"
+        },
+        "c": "https://github.com/dvlab-research/panopticfcn",
         "n": "Panoptic FCN* (ResNet-50-FPN)",
         "d": "2020-12-01",
         "m3": "42.3"

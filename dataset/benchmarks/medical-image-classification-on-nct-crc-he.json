@@ -48,8 +48,11 @@
     ],
     "items": [
       {
-        "p": "[EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks](https://arxiv.org/abs/1905.11946v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/ultralytics/yolov5)",
+        "p": {
+          "name": "EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks",
+          "link": "https://arxiv.org/abs/1905.11946v5"
+        },
+        "c": "https://github.com/ultralytics/yolov5",
         "n": "Efficientnet-b0",
         "d": "2019-05-28",
         "m1": "95.59",
@@ -58,8 +61,11 @@
         "m4": "99.45"
       },
       {
-        "p": "[ResNet strikes back: An improved training procedure in timm](https://arxiv.org/abs/2110.00476v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "p": {
+          "name": "ResNet strikes back: An improved training procedure in timm",
+          "link": "https://arxiv.org/abs/2110.00476v1"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
         "n": "ResNeXt-50-32x4d",
         "d": "2021-10-01",
         "m1": "95.46",
@@ -68,8 +74,11 @@
         "m4": "99.43"
       },
       {
-        "p": "[RegNet: Self-Regulated Network for Image Classification](https://arxiv.org/abs/2101.00590v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/keras-team/keras)",
+        "p": {
+          "name": "RegNet: Self-Regulated Network for Image Classification",
+          "link": "https://arxiv.org/abs/2101.00590v1"
+        },
+        "c": "https://github.com/keras-team/keras",
         "n": "RegNetY-3.2GF",
         "d": "2021-01-03",
         "m1": "95.42",
@@ -78,8 +87,11 @@
         "m4": "99.43"
       },
       {
-        "p": "[Deep Residual Learning for Image Recognition](http://arxiv.org/abs/1512.03385v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/research/deeplab)",
+        "p": {
+          "name": "Deep Residual Learning for Image Recognition",
+          "link": "http://arxiv.org/abs/1512.03385v1"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/research/deeplab",
         "n": "ResNet-50",
         "d": "2015-12-10",
         "m1": "94.72",
@@ -88,8 +100,11 @@
         "m4": "99.34"
       },
       {
-        "p": "[Densely Connected Convolutional Networks](http://arxiv.org/abs/1608.06993v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/pytorch/vision)",
+        "p": {
+          "name": "Densely Connected Convolutional Networks",
+          "link": "http://arxiv.org/abs/1608.06993v5"
+        },
+        "c": "https://github.com/pytorch/vision",
         "n": "DenseNet-169",
         "d": "2016-08-25",
         "m1": "94.41",
@@ -98,8 +113,11 @@
         "m4": "99.30"
       },
       {
-        "p": "[Res2Net: A New Multi-scale Backbone Architecture](https://arxiv.org/abs/1904.01169v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "p": {
+          "name": "Res2Net: A New Multi-scale Backbone Architecture",
+          "link": "https://arxiv.org/abs/1904.01169v3"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
         "n": "Res2Net-50",
         "d": "2019-04-02",
         "m1": "93.37",
@@ -108,8 +126,11 @@
         "m4": "99.17"
       },
       {
-        "p": "[Deep Residual Learning for Image Recognition](http://arxiv.org/abs/1512.03385v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/research/deeplab)",
+        "p": {
+          "name": "Deep Residual Learning for Image Recognition",
+          "link": "http://arxiv.org/abs/1512.03385v1"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/research/deeplab",
         "n": "ResNet-18",
         "d": "2015-12-10",
         "m1": "92.66",

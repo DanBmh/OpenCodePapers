@@ -48,8 +48,11 @@
     ],
     "items": [
       {
-        "p": "[Autoregressive Entity Retrieval](https://arxiv.org/abs/2010.00904v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/GENRE)",
+        "p": {
+          "name": "Autoregressive Entity Retrieval",
+          "link": "https://arxiv.org/abs/2010.00904v3"
+        },
+        "c": "https://github.com/facebookresearch/GENRE",
         "n": "GENRE",
         "d": "2020-10-02",
         "m1": "71.22",
@@ -68,8 +71,11 @@
         "m4": "68.77"
       },
       {
-        "p": "[KILT: a Benchmark for Knowledge Intensive Language Tasks](https://arxiv.org/abs/2009.02252v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/KILT)",
+        "p": {
+          "name": "KILT: a Benchmark for Knowledge Intensive Language Tasks",
+          "link": "https://arxiv.org/abs/2009.02252v4"
+        },
+        "c": "https://github.com/facebookresearch/KILT",
         "n": "T5-base",
         "d": "2020-09-04",
         "m1": "49.29",

@@ -112,12 +112,8 @@ def build_sota_data(data: dict):
     items = []
     for row in data["rows"]:
         item = {
-            "p": f"[{row['paper_title']}]({row['paper_url']})",
-            "c": (
-                f"[&check;&nbsp;Link]({row['code_links'][0]['url']})"
-                if len(row["code_links"]) > 0
-                else ""
-            ),
+            "p": {"name": row["paper_title"], "link": row["paper_url"]},
+            "c": (row["code_links"][0]["url"] if len(row["code_links"]) > 0 else ""),
             "n": row["model_name"],
             "d": row["paper_date"],
         }
@@ -162,10 +158,8 @@ def main():
         fdata = {
             "title": name,
             "task-hierarchy": et["task_hierarchy"],
-            "dataset-info": {
-                "link": et["data_url"]
-            },
-            "benchmark": sdata
+            "dataset-info": {"link": et["data_url"]},
+            "benchmark": sdata,
         }
 
         fpath = path.format(name)

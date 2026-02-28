@@ -44,8 +44,11 @@
     ],
     "items": [
       {
-        "p": "[Multi-Instance Pose Networks: Rethinking Top-Down Pose Estimation](https://arxiv.org/abs/2101.11223v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/rawalkhirodkar/MIPNet)",
+        "p": {
+          "name": "Multi-Instance Pose Networks: Rethinking Top-Down Pose Estimation",
+          "link": "https://arxiv.org/abs/2101.11223v3"
+        },
+        "c": "https://github.com/rawalkhirodkar/MIPNet",
         "n": "MIPNet (gt-bb)",
         "d": "2021-01-27",
         "m1": "89.7",
@@ -53,8 +56,11 @@
         "m3": "74.1"
       },
       {
-        "p": "[I^2R-Net: Intra- and Inter-Human Relation Network for Multi-Person Pose Estimation](https://arxiv.org/abs/2206.10892v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/leijue222/Intra-and-Inter-Human-Relation-Network-for-MPEE)",
+        "p": {
+          "name": "I^2R-Net: Intra- and Inter-Human Relation Network for Multi-Person Pose Estimation",
+          "link": "https://arxiv.org/abs/2206.10892v2"
+        },
+        "c": "https://github.com/leijue222/Intra-and-Inter-Human-Relation-Network-for-MPEE",
         "n": "I²R-Net (1st stage:TransPose-H)",
         "d": "2022-06-22",
         "m1": "85",
@@ -62,16 +68,22 @@
         "m3": "67.8"
       },
       {
-        "p": "[TransPose: Keypoint Localization via Transformer](https://arxiv.org/abs/2012.14214v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/yangsenius/TransPose)",
+        "p": {
+          "name": "TransPose: Keypoint Localization via Transformer",
+          "link": "https://arxiv.org/abs/2012.14214v5"
+        },
+        "c": "https://github.com/yangsenius/TransPose",
         "n": "TransPose-H",
         "d": "2020-12-28",
         "m1": "82.7",
         "m2": "67.1"
       },
       {
-        "p": "[HRFormer: High-Resolution Transformer for Dense Prediction](https://arxiv.org/abs/2110.09408v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/HRNet/HRFormer)",
+        "p": {
+          "name": "HRFormer: High-Resolution Transformer for Dense Prediction",
+          "link": "https://arxiv.org/abs/2110.09408v3"
+        },
+        "c": "https://github.com/HRNet/HRFormer",
         "n": "HRFormer-B",
         "d": "2021-10-18",
         "m1": "81.4",
@@ -79,8 +91,11 @@
         "m3": "62.1"
       },
       {
-        "p": "[Single-Stage Multi-Person Pose Machines](https://arxiv.org/abs/1908.09220v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/murdockhou/Single-Stage-Multi-person-Pose-Machines)",
+        "p": {
+          "name": "Single-Stage Multi-Person Pose Machines",
+          "link": "https://arxiv.org/abs/1908.09220v1"
+        },
+        "c": "https://github.com/murdockhou/Single-Stage-Multi-person-Pose-Machines",
         "n": "SPM",
         "d": "2019-08-24",
         "m1": "67.5",
@@ -88,8 +103,11 @@
         "m3": "47.6"
       },
       {
-        "p": "[CrowdPose: Efficient Crowded Scenes Pose Estimation and A New Benchmark](http://arxiv.org/abs/1812.00324v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmpose)",
+        "p": {
+          "name": "CrowdPose: Efficient Crowded Scenes Pose Estimation and A New Benchmark",
+          "link": "http://arxiv.org/abs/1812.00324v2"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
         "n": "CrowdPose",
         "d": "2018-12-02",
         "m1": "40.8",
@@ -97,8 +115,11 @@
         "m3": "27.5"
       },
       {
-        "p": "[Simple Baselines for Human Pose Estimation and Tracking](http://arxiv.org/abs/1804.06208v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleDetection)",
+        "p": {
+          "name": "Simple Baselines for Human Pose Estimation and Tracking",
+          "link": "http://arxiv.org/abs/1804.06208v2"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
         "n": "SimplePose",
         "d": "2018-04-17",
         "m1": "37.4",
@@ -106,8 +127,11 @@
         "m3": "24.1"
       },
       {
-        "p": "[Mask R-CNN](http://arxiv.org/abs/1703.06870v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/official/vision)",
+        "p": {
+          "name": "Mask R-CNN",
+          "link": "http://arxiv.org/abs/1703.06870v3"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/official/vision",
         "n": "Mask R-CNN",
         "d": "2017-03-20",
         "m1": "33.2",

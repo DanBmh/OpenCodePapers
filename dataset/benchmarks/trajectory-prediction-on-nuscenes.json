@@ -58,8 +58,11 @@
     ],
     "items": [
       {
-        "p": "[UniTraj: A Unified Framework for Scalable Vehicle Trajectory Prediction](https://arxiv.org/abs/2403.15098v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/vita-epfl/unitraj)",
+        "p": {
+          "name": "UniTraj: A Unified Framework for Scalable Vehicle Trajectory Prediction",
+          "link": "https://arxiv.org/abs/2403.15098v3"
+        },
+        "c": "https://github.com/vita-epfl/unitraj",
         "n": "UniTraj (MTR)",
         "d": "2024-03-22",
         "m1": "0.96",
@@ -70,8 +73,11 @@
         "m6": "0.07"
       },
       {
-        "p": "[SemanticFormer: Holistic and Semantic Traffic Scene Representation for Trajectory Prediction using Knowledge Graphs](https://arxiv.org/abs/2404.19379v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/boschresearch/nuscenes_knowledge_graph)",
+        "p": {
+          "name": "SemanticFormer: Holistic and Semantic Traffic Scene Representation for Trajectory Prediction using Knowledge Graphs",
+          "link": "https://arxiv.org/abs/2404.19379v3"
+        },
+        "c": "https://github.com/boschresearch/nuscenes_knowledge_graph",
         "n": "SemanticFormer",
         "d": "2024-04-30",
         "m1": "1.14",
@@ -82,7 +88,10 @@
         "m6": "0.03"
       },
       {
-        "p": "[CASPNet++: Joint Multi-Agent Motion Prediction](https://arxiv.org/abs/2308.07751v1)",
+        "p": {
+          "name": "CASPNet++: Joint Multi-Agent Motion Prediction",
+          "link": "https://arxiv.org/abs/2308.07751v1"
+        },
         "c": "",
         "n": "CASPNet++",
         "d": "2023-08-15",
@@ -94,7 +103,10 @@
         "m6": "0.01"
       },
       {
-        "p": "[Leveraging Future Relationship Reasoning for Vehicle Trajectory Prediction](https://arxiv.org/abs/2305.14715v1)",
+        "p": {
+          "name": "Leveraging Future Relationship Reasoning for Vehicle Trajectory Prediction",
+          "link": "https://arxiv.org/abs/2305.14715v1"
+        },
         "c": "",
         "n": "FRM",
         "d": "2023-05-24",
@@ -118,8 +130,11 @@
         "m6": "0.06"
       },
       {
-        "p": "[Multimodal Trajectory Prediction Conditioned on Lane-Graph Traversals](https://arxiv.org/abs/2106.15004v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/nachiket92/PGP)",
+        "p": {
+          "name": "Multimodal Trajectory Prediction Conditioned on Lane-Graph Traversals",
+          "link": "https://arxiv.org/abs/2106.15004v2"
+        },
+        "c": "https://github.com/nachiket92/PGP",
         "n": "PGP",
         "d": "2021-06-28",
         "m1": "1.27",
@@ -130,7 +145,10 @@
         "m6": "0.03"
       },
       {
-        "p": "[Context-Aware Scene Prediction Network (CASPNet)](https://arxiv.org/abs/2201.06933v1)",
+        "p": {
+          "name": "Context-Aware Scene Prediction Network (CASPNet)",
+          "link": "https://arxiv.org/abs/2201.06933v1"
+        },
         "c": "",
         "n": "CASPNet_v2",
         "d": "2022-01-18",
@@ -142,7 +160,10 @@
         "m6": "0.01"
       },
       {
-        "p": "[THOMAS: Trajectory Heatmap Output with learned Multi-Agent Sampling](https://arxiv.org/abs/2110.06607v3)",
+        "p": {
+          "name": "THOMAS: Trajectory Heatmap Output with learned Multi-Agent Sampling",
+          "link": "https://arxiv.org/abs/2110.06607v3"
+        },
         "c": "",
         "n": "THOMAS",
         "d": "2021-10-13",
@@ -190,7 +211,10 @@
         "m6": "0.02"
       },
       {
-        "p": "[GOHOME: Graph-Oriented Heatmap Output for future Motion Estimation](https://arxiv.org/abs/2109.01827v4)",
+        "p": {
+          "name": "GOHOME: Graph-Oriented Heatmap Output for future Motion Estimation",
+          "link": "https://arxiv.org/abs/2109.01827v4"
+        },
         "c": "",
         "n": "GOHOME",
         "d": "2021-09-04",
@@ -202,8 +226,11 @@
         "m6": "0.04"
       },
       {
-        "p": "[Trajectory Forecasts in Unknown Environments Conditioned on Grid-Based Plans](https://arxiv.org/abs/2001.00735v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/nachiket92/P2T)",
+        "p": {
+          "name": "Trajectory Forecasts in Unknown Environments Conditioned on Grid-Based Plans",
+          "link": "https://arxiv.org/abs/2001.00735v2"
+        },
+        "c": "https://github.com/nachiket92/P2T",
         "n": "P2T",
         "d": "2020-01-03",
         "m1": "1.45",
@@ -298,16 +325,22 @@
         "m6": "0.04"
       },
       {
-        "p": "[AgentFormer: Agent-Aware Transformers for Socio-Temporal Multi-Agent Forecasting](https://arxiv.org/abs/2103.14023v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/Khrylx/AgentFormer)",
+        "p": {
+          "name": "AgentFormer: Agent-Aware Transformers for Socio-Temporal Multi-Agent Forecasting",
+          "link": "https://arxiv.org/abs/2103.14023v3"
+        },
+        "c": "https://github.com/Khrylx/AgentFormer",
         "n": "AgentFormer",
         "d": "2021-03-25",
         "m1": "1.86",
         "m2": "1.45"
       },
       {
-        "p": "[Trajectron++: Dynamically-Feasible Trajectory Forecasting With Heterogeneous Data](https://arxiv.org/abs/2001.03093v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/StanfordASL/Trajectron-plus-plus)",
+        "p": {
+          "name": "Trajectron++: Dynamically-Feasible Trajectory Forecasting With Heterogeneous Data",
+          "link": "https://arxiv.org/abs/2001.03093v5"
+        },
+        "c": "https://github.com/StanfordASL/Trajectron-plus-plus",
         "n": "Trajectron++",
         "d": "2020-01-09",
         "m1": "1.88",

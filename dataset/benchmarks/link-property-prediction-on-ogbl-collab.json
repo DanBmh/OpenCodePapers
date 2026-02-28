@@ -48,7 +48,10 @@
     ],
     "items": [
       {
-        "p": "[Edge2Node: Reducing Edge Prediction to Node Classification](https://arxiv.org/abs/2311.02921v3)",
+        "p": {
+          "name": "Edge2Node: Reducing Edge Prediction to Node Classification",
+          "link": "https://arxiv.org/abs/2311.02921v3"
+        },
         "c": "",
         "n": "E2N",
         "d": "2023-11-06",
@@ -68,7 +71,10 @@
         "m4": "1064446212"
       },
       {
-        "p": "[GIDN: A Lightweight Graph Inception Diffusion Network for High-efficient Link Prediction](https://arxiv.org/abs/2210.01301v3)",
+        "p": {
+          "name": "GIDN: A Lightweight Graph Inception Diffusion Network for High-efficient Link Prediction",
+          "link": "https://arxiv.org/abs/2210.01301v3"
+        },
         "c": "",
         "n": "GIDN@YITU",
         "d": "2022-10-04",
@@ -88,8 +94,11 @@
         "m4": "34980864"
       },
       {
-        "p": "[Pairwise Learning for Neural Link Prediction](https://arxiv.org/abs/2112.02936v6)",
-        "c": "[&check;&nbsp;Link](https://github.com/zhitao-wang/PLNLP)",
+        "p": {
+          "name": "Pairwise Learning for Neural Link Prediction",
+          "link": "https://arxiv.org/abs/2112.02936v6"
+        },
+        "c": "https://github.com/zhitao-wang/PLNLP",
         "n": "PLNLP (random walk aug.)",
         "d": "2021-12-06",
         "m1": "0.7059 ± 0.0029",
@@ -108,8 +117,11 @@
         "m4": "30191104"
       },
       {
-        "p": "[Global Attention Improves Graph Networks Generalization](https://arxiv.org/abs/2006.07846v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/omri1348/LRGA)",
+        "p": {
+          "name": "Global Attention Improves Graph Networks Generalization",
+          "link": "https://arxiv.org/abs/2006.07846v2"
+        },
+        "c": "https://github.com/omri1348/LRGA",
         "n": "PLNLP+ LRGA",
         "d": "2020-06-14",
         "m1": "0.6909 ± 0.0055",
@@ -118,8 +130,11 @@
         "m4": "35200656"
       },
       {
-        "p": "[Pairwise Learning for Neural Link Prediction](https://arxiv.org/abs/2112.02936v6)",
-        "c": "[&check;&nbsp;Link](https://github.com/zhitao-wang/PLNLP)",
+        "p": {
+          "name": "Pairwise Learning for Neural Link Prediction",
+          "link": "https://arxiv.org/abs/2112.02936v6"
+        },
+        "c": "https://github.com/zhitao-wang/PLNLP",
         "n": "PLNLP (val as input)",
         "d": "2021-12-06",
         "m1": "0.6872 ± 0.0052",
@@ -128,8 +143,11 @@
         "m4": "35112192"
       },
       {
-        "p": "[Reconsidering the Performance of GAE in Link Prediction](https://arxiv.org/abs/2411.03845v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/GraphPKU/Refined-GAE)",
+        "p": {
+          "name": "Reconsidering the Performance of GAE in Link Prediction",
+          "link": "https://arxiv.org/abs/2411.03845v1"
+        },
+        "c": "https://github.com/GraphPKU/Refined-GAE",
         "n": "Refined-GAE",
         "d": "2024-11-06",
         "m1": "0.6816 ± 0.0041",
@@ -148,8 +166,11 @@
         "m4": "483363845"
       },
       {
-        "p": "[Simplifying Subgraph Representation Learning for Scalable Link Prediction](https://arxiv.org/abs/2301.12562v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/venomouscyanide/s3grl)",
+        "p": {
+          "name": "Simplifying Subgraph Representation Learning for Scalable Link Prediction",
+          "link": "https://arxiv.org/abs/2301.12562v4"
+        },
+        "c": "https://github.com/venomouscyanide/s3grl",
         "n": "S3GRL (PoS Plus)",
         "d": "2023-01-29",
         "m1": "0.6683 ± 0.0030",
@@ -178,8 +199,11 @@
         "m4": "1184867"
       },
       {
-        "p": "[Edge Proposal Sets for Link Prediction](https://arxiv.org/abs/2106.15810v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/sangyx/gtrick/tree/main/benchmark/pyg)",
+        "p": {
+          "name": "Edge Proposal Sets for Link Prediction",
+          "link": "https://arxiv.org/abs/2106.15810v1"
+        },
+        "c": "https://github.com/sangyx/gtrick/tree/main/benchmark/pyg",
         "n": "Adamic Adar+Edge Proposal Set",
         "d": "2021-06-30",
         "m1": "0.6548 ± 0.0000",
@@ -188,8 +212,11 @@
         "m4": "0"
       },
       {
-        "p": "[Labeling Trick: A Theory of Using Graph Neural Networks for Multi-Node Representation Learning](https://arxiv.org/abs/2010.16103v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/seal)",
+        "p": {
+          "name": "Labeling Trick: A Theory of Using Graph Neural Networks for Multi-Node Representation Learning",
+          "link": "https://arxiv.org/abs/2010.16103v5"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/seal",
         "n": "SEAL-nofeat (val as input)",
         "d": "2020-10-30",
         "m1": "0.6474 ± 0.0043",
@@ -218,8 +245,11 @@
         "m4": "0"
       },
       {
-        "p": "[Labeling Trick: A Theory of Using Graph Neural Networks for Multi-Node Representation Learning](https://arxiv.org/abs/2010.16103v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/seal)",
+        "p": {
+          "name": "Labeling Trick: A Theory of Using Graph Neural Networks for Multi-Node Representation Learning",
+          "link": "https://arxiv.org/abs/2010.16103v5"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/seal",
         "n": "SEAL-nofeat",
         "d": "2020-10-30",
         "m1": "0.5471 ± 0.0049",
@@ -228,8 +258,11 @@
         "m4": "501570"
       },
       {
-        "p": "[Inductive Representation Learning on Large Graphs](http://arxiv.org/abs/1706.02216v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/pyg-team/pytorch_geometric/blob/master/torch_geometric/nn/models/basic_gnn.py)",
+        "p": {
+          "name": "Inductive Representation Learning on Large Graphs",
+          "link": "http://arxiv.org/abs/1706.02216v4"
+        },
+        "c": "https://github.com/pyg-team/pytorch_geometric/blob/master/torch_geometric/nn/models/basic_gnn.py",
         "n": "GraphSAGE  (val as input)",
         "d": "2017-06-07",
         "m1": "0.5463 ± 0.0112",
@@ -238,7 +271,10 @@
         "m4": "460289"
       },
       {
-        "p": "[Network In Graph Neural Network](https://arxiv.org/abs/2111.11638v1)",
+        "p": {
+          "name": "Network In Graph Neural Network",
+          "link": "https://arxiv.org/abs/2111.11638v1"
+        },
         "c": "",
         "n": "NGNN + GraphSAGE",
         "d": "2021-11-23",
@@ -248,7 +284,10 @@
         "m4": "591873"
       },
       {
-        "p": "[Network In Graph Neural Network](https://arxiv.org/abs/2111.11638v1)",
+        "p": {
+          "name": "Network In Graph Neural Network",
+          "link": "https://arxiv.org/abs/2111.11638v1"
+        },
         "c": "",
         "n": "NGNN + GCN",
         "d": "2021-11-23",
@@ -258,8 +297,11 @@
         "m4": "428033"
       },
       {
-        "p": "[DeeperGCN: All You Need to Train Deeper GCNs](https://arxiv.org/abs/2006.07739v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/deepergcn)",
+        "p": {
+          "name": "DeeperGCN: All You Need to Train Deeper GCNs",
+          "link": "https://arxiv.org/abs/2006.07739v1"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/deepergcn",
         "n": "DeeperGCN",
         "d": "2020-06-13",
         "m1": "0.5273 ± 0.0047",
@@ -268,8 +310,11 @@
         "m4": "117383"
       },
       {
-        "p": "[Global Attention Improves Graph Networks Generalization](https://arxiv.org/abs/2006.07846v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/omri1348/LRGA)",
+        "p": {
+          "name": "Global Attention Improves Graph Networks Generalization",
+          "link": "https://arxiv.org/abs/2006.07846v2"
+        },
+        "c": "https://github.com/omri1348/LRGA",
         "n": "LRGA + GCN",
         "d": "2020-06-14",
         "m1": "0.5221 ± 0.0072",
@@ -278,8 +323,11 @@
         "m4": "1069489"
       },
       {
-        "p": "[On the effect of the average clustering coefficient on topology-based link prediction in featureless graphs](https://arxiv.org/abs/2501.06721v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/rafiepour/ClusteringEffect)",
+        "p": {
+          "name": "On the effect of the average clustering coefficient on topology-based link prediction in featureless graphs",
+          "link": "https://arxiv.org/abs/2501.06721v1"
+        },
+        "c": "https://github.com/rafiepour/ClusteringEffect",
         "n": "Jaccard Index",
         "d": "2025-01-12",
         "m1": "0.5050 ± 0.0000",
@@ -288,8 +336,11 @@
         "m4": "0"
       },
       {
-        "p": "[DeepWalk: Online Learning of Social Representations](http://arxiv.org/abs/1403.6652v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleRec/tree/master/models/recall/deepwalk)",
+        "p": {
+          "name": "DeepWalk: Online Learning of Social Representations",
+          "link": "http://arxiv.org/abs/1403.6652v2"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleRec/tree/master/models/recall/deepwalk",
         "n": "DeepWalk",
         "d": "2014-03-26",
         "m1": "0.5037 ± 0.0034",
@@ -298,8 +349,11 @@
         "m4": "61390187"
       },
       {
-        "p": "[node2vec: Scalable Feature Learning for Networks](http://arxiv.org/abs/1607.00653v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/node2vec)",
+        "p": {
+          "name": "node2vec: Scalable Feature Learning for Networks",
+          "link": "http://arxiv.org/abs/1607.00653v1"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/node2vec",
         "n": "Node2vec",
         "d": "2016-07-03",
         "m1": "0.4888 ± 0.0054",
@@ -308,8 +362,11 @@
         "m4": "30322945"
       },
       {
-        "p": "[Inductive Representation Learning on Large Graphs](http://arxiv.org/abs/1706.02216v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/pyg-team/pytorch_geometric/blob/master/torch_geometric/nn/models/basic_gnn.py)",
+        "p": {
+          "name": "Inductive Representation Learning on Large Graphs",
+          "link": "http://arxiv.org/abs/1706.02216v4"
+        },
+        "c": "https://github.com/pyg-team/pytorch_geometric/blob/master/torch_geometric/nn/models/basic_gnn.py",
         "n": "GraphSAGE",
         "d": "2017-06-07",
         "m1": "0.4810 ± 0.0081",
@@ -318,8 +375,11 @@
         "m4": "460289"
       },
       {
-        "p": "[Semi-Supervised Classification with Graph Convolutional Networks](http://arxiv.org/abs/1609.02907v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/mxnet/gcn)",
+        "p": {
+          "name": "Semi-Supervised Classification with Graph Convolutional Networks",
+          "link": "http://arxiv.org/abs/1609.02907v4"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/mxnet/gcn",
         "n": "GCN (val as input)",
         "d": "2016-09-09",
         "m1": "0.4714 ± 0.0145",
@@ -328,15 +388,21 @@
         "m4": "296449"
       },
       {
-        "p": "[VQ-GNN: A Universal Framework to Scale up Graph Neural Networks using Vector Quantization](https://arxiv.org/abs/2110.14363v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/devnkong/VQ-GNN)",
+        "p": {
+          "name": "VQ-GNN: A Universal Framework to Scale up Graph Neural Networks using Vector Quantization",
+          "link": "https://arxiv.org/abs/2110.14363v1"
+        },
+        "c": "https://github.com/devnkong/VQ-GNN",
         "n": "VQ-GNN (SAGE-Mean)",
         "d": "2021-10-27",
         "m1": "0.4673 ± 0.0164 ."
       },
       {
-        "p": "[Semi-Supervised Classification with Graph Convolutional Networks](http://arxiv.org/abs/1609.02907v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/mxnet/gcn)",
+        "p": {
+          "name": "Semi-Supervised Classification with Graph Convolutional Networks",
+          "link": "http://arxiv.org/abs/1609.02907v4"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/mxnet/gcn",
         "n": "GCN",
         "d": "2016-09-09",
         "m1": "0.4475 ± 0.0107",
@@ -345,22 +411,31 @@
         "m4": "296449"
       },
       {
-        "p": "[VQ-GNN: A Universal Framework to Scale up Graph Neural Networks using Vector Quantization](https://arxiv.org/abs/2110.14363v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/devnkong/VQ-GNN)",
+        "p": {
+          "name": "VQ-GNN: A Universal Framework to Scale up Graph Neural Networks using Vector Quantization",
+          "link": "https://arxiv.org/abs/2110.14363v1"
+        },
+        "c": "https://github.com/devnkong/VQ-GNN",
         "n": "VQ-GNN (GCN)",
         "d": "2021-10-27",
         "m1": "0.4316 ± 0.0134"
       },
       {
-        "p": "[VQ-GNN: A Universal Framework to Scale up Graph Neural Networks using Vector Quantization](https://arxiv.org/abs/2110.14363v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/devnkong/VQ-GNN)",
+        "p": {
+          "name": "VQ-GNN: A Universal Framework to Scale up Graph Neural Networks using Vector Quantization",
+          "link": "https://arxiv.org/abs/2110.14363v1"
+        },
+        "c": "https://github.com/devnkong/VQ-GNN",
         "n": "VQ-GNN (GAT)",
         "d": "2021-10-27",
         "m1": "0.4102 ± 0.0099"
       },
       {
-        "p": "[Open Graph Benchmark: Datasets for Machine Learning on Graphs](https://arxiv.org/abs/2005.00687v7)",
-        "c": "[&check;&nbsp;Link](https://github.com/snap-stanford/ogb)",
+        "p": {
+          "name": "Open Graph Benchmark: Datasets for Machine Learning on Graphs",
+          "link": "https://arxiv.org/abs/2005.00687v7"
+        },
+        "c": "https://github.com/snap-stanford/ogb",
         "n": "Matrix Factorization",
         "d": "2020-05-02",
         "m1": "0.3886 ± 0.0029",
@@ -369,8 +444,11 @@
         "m4": "60514049"
       },
       {
-        "p": "[Inductive Representation Learning on Large Graphs](http://arxiv.org/abs/1706.02216v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/pyg-team/pytorch_geometric/blob/master/torch_geometric/nn/models/basic_gnn.py)",
+        "p": {
+          "name": "Inductive Representation Learning on Large Graphs",
+          "link": "http://arxiv.org/abs/1706.02216v4"
+        },
+        "c": "https://github.com/pyg-team/pytorch_geometric/blob/master/torch_geometric/nn/models/basic_gnn.py",
         "n": "GraphSAGE (val as input)",
         "d": "2017-06-07",
         "m4": "460289"

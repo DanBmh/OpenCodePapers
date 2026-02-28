@@ -44,8 +44,11 @@
     ],
     "items": [
       {
-        "p": "[FOCUS: Towards Universal Foreground Segmentation](https://arxiv.org/abs/2501.05238v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/geshang777/FOCUS)",
+        "p": {
+          "name": "FOCUS: Towards Universal Foreground Segmentation",
+          "link": "https://arxiv.org/abs/2501.05238v1"
+        },
+        "c": "https://github.com/geshang777/FOCUS",
         "n": "FOCUS",
         "d": "2025-01-09",
         "m1": "0.912",
@@ -53,8 +56,11 @@
         "m3": "0.025"
       },
       {
-        "p": "[Bilateral Reference for High-Resolution Dichotomous Image Segmentation](https://arxiv.org/abs/2401.03407v6)",
-        "c": "[&check;&nbsp;Link](https://github.com/zhengpeng7/birefnet)",
+        "p": {
+          "name": "Bilateral Reference for High-Resolution Dichotomous Image Segmentation",
+          "link": "https://arxiv.org/abs/2401.03407v6"
+        },
+        "c": "https://github.com/zhengpeng7/birefnet",
         "n": "BiRefNet",
         "d": "2024-01-07",
         "m1": "0.904",
@@ -62,8 +68,11 @@
         "m3": "0.030"
       },
       {
-        "p": "[ZoomNeXt: A Unified Collaborative Pyramid Network for Camouflaged Object Detection](https://arxiv.org/abs/2310.20208v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/lartpang/zoomnext)",
+        "p": {
+          "name": "ZoomNeXt: A Unified Collaborative Pyramid Network for Camouflaged Object Detection",
+          "link": "https://arxiv.org/abs/2310.20208v4"
+        },
+        "c": "https://github.com/lartpang/zoomnext",
         "n": "ZoomNeXt-PVTv2-B5",
         "d": "2023-10-31",
         "m1": "0.889",
@@ -71,8 +80,11 @@
         "m3": "0.041"
       },
       {
-        "p": "[ZoomNeXt: A Unified Collaborative Pyramid Network for Camouflaged Object Detection](https://arxiv.org/abs/2310.20208v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/lartpang/zoomnext)",
+        "p": {
+          "name": "ZoomNeXt: A Unified Collaborative Pyramid Network for Camouflaged Object Detection",
+          "link": "https://arxiv.org/abs/2310.20208v4"
+        },
+        "c": "https://github.com/lartpang/zoomnext",
         "n": "ZoomNeXt-PVTv2-B4",
         "d": "2023-10-31",
         "m1": "0.888",
@@ -80,8 +92,11 @@
         "m3": "0.04"
       },
       {
-        "p": "[Explicit Visual Prompting for Universal Foreground Segmentations](https://arxiv.org/abs/2305.18476v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/nifangbaage/explict-visual-prompt)",
+        "p": {
+          "name": "Explicit Visual Prompting for Universal Foreground Segmentations",
+          "link": "https://arxiv.org/abs/2305.18476v1"
+        },
+        "c": "https://github.com/nifangbaage/explict-visual-prompt",
         "n": "EVPv2",
         "d": "2023-05-29",
         "m1": "0.848",
@@ -89,8 +104,11 @@
         "m3": "0.058"
       },
       {
-        "p": "[Explicit Visual Prompting for Low-Level Structure Segmentations](https://arxiv.org/abs/2303.10883v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/nifangbaage/explicit-visual-prompt)",
+        "p": {
+          "name": "Explicit Visual Prompting for Low-Level Structure Segmentations",
+          "link": "https://arxiv.org/abs/2303.10883v2"
+        },
+        "c": "https://github.com/nifangbaage/explicit-visual-prompt",
         "n": "EVPv1",
         "d": "2023-03-20",
         "m1": "0.846",
@@ -98,8 +116,11 @@
         "m3": "0.059"
       },
       {
-        "p": "[ZoomNeXt: A Unified Collaborative Pyramid Network for Camouflaged Object Detection](https://arxiv.org/abs/2310.20208v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/lartpang/zoomnext)",
+        "p": {
+          "name": "ZoomNeXt: A Unified Collaborative Pyramid Network for Camouflaged Object Detection",
+          "link": "https://arxiv.org/abs/2310.20208v4"
+        },
+        "c": "https://github.com/lartpang/zoomnext",
         "n": "ZoomNeXt-ResNet-50",
         "d": "2023-10-31",
         "m1": "0.833",
@@ -107,8 +128,11 @@
         "m3": "0.065"
       },
       {
-        "p": "[Concealed Object Detection](https://arxiv.org/abs/2102.10274v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/GewelsJI/SINet-V2)",
+        "p": {
+          "name": "Concealed Object Detection",
+          "link": "https://arxiv.org/abs/2102.10274v2"
+        },
+        "c": "https://github.com/GewelsJI/SINet-V2",
         "n": "SINet-V2",
         "d": "2021-02-20",
         "m1": "0.820",
@@ -116,7 +140,10 @@
         "m3": "0.070"
       },
       {
-        "p": "[MirrorNet: Bio-Inspired Camouflaged Object Segmentation](https://arxiv.org/abs/2007.12881v3)",
+        "p": {
+          "name": "MirrorNet: Bio-Inspired Camouflaged Object Segmentation",
+          "link": "https://arxiv.org/abs/2007.12881v3"
+        },
         "c": "",
         "n": "MirrorNet-ResNeXt152",
         "d": "2020-07-25",
@@ -125,8 +152,11 @@
         "m3": "0.077"
       },
       {
-        "p": "[PraNet: Parallel Reverse Attention Network for Polyp Segmentation](https://arxiv.org/abs/2006.11392v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/DengPingFan/PraNet)",
+        "p": {
+          "name": "PraNet: Parallel Reverse Attention Network for Polyp Segmentation",
+          "link": "https://arxiv.org/abs/2006.11392v4"
+        },
+        "c": "https://github.com/DengPingFan/PraNet",
         "n": "PraNet",
         "d": "2020-06-13",
         "m1": "0.769",
@@ -134,8 +164,11 @@
         "m3": "0.094"
       },
       {
-        "p": "[Camouflaged Object Detection](http://openaccess.thecvf.com/content_CVPR_2020/html/Fan_Camouflaged_Object_Detection_CVPR_2020_paper.html)",
-        "c": "[&check;&nbsp;Link](https://github.com/DengPingFan/SINet)",
+        "p": {
+          "name": "Camouflaged Object Detection",
+          "link": "http://openaccess.thecvf.com/content_CVPR_2020/html/Fan_Camouflaged_Object_Detection_CVPR_2020_paper.html"
+        },
+        "c": "https://github.com/DengPingFan/SINet",
         "n": "SINet",
         "d": "2020-06-01",
         "m1": "0.751",
@@ -143,8 +176,11 @@
         "m3": "0.100"
       },
       {
-        "p": "[EGNet: Edge Guidance Network for Salient Object Detection](http://openaccess.thecvf.com/content_ICCV_2019/html/Zhao_EGNet_Edge_Guidance_Network_for_Salient_Object_Detection_ICCV_2019_paper.html)",
-        "c": "[&check;&nbsp;Link](https://github.com/mindspore-ai/models/tree/master/research/cv/EGnet)",
+        "p": {
+          "name": "EGNet: Edge Guidance Network for Salient Object Detection",
+          "link": "http://openaccess.thecvf.com/content_ICCV_2019/html/Zhao_EGNet_Edge_Guidance_Network_for_Salient_Object_Detection_ICCV_2019_paper.html"
+        },
+        "c": "https://github.com/mindspore-ai/models/tree/master/research/cv/EGnet",
         "n": "EGNet",
         "d": "2019-10-01",
         "m1": "0.732",
@@ -152,8 +188,11 @@
         "m3": "0.104"
       },
       {
-        "p": "[BASNet: Boundary-Aware Salient Object Detection](http://openaccess.thecvf.com/content_CVPR_2019/html/Qin_BASNet_Boundary-Aware_Salient_Object_Detection_CVPR_2019_paper.html)",
-        "c": "[&check;&nbsp;Link](https://github.com/NathanUA/BASNet)",
+        "p": {
+          "name": "BASNet: Boundary-Aware Salient Object Detection",
+          "link": "http://openaccess.thecvf.com/content_CVPR_2019/html/Qin_BASNet_Boundary-Aware_Salient_Object_Detection_CVPR_2019_paper.html"
+        },
+        "c": "https://github.com/NathanUA/BASNet",
         "n": "BASNet",
         "d": "2019-06-01",
         "m1": "0.618",
@@ -161,8 +200,11 @@
         "m3": "0.159"
       },
       {
-        "p": "[Improving existing segmentators performance with zero-shot segmentators](https://www.preprints.org/manuscript/202307.1729/v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/LorisNanni/Improving-existing-segmentators-performance-with-zero-shot-segmentators)",
+        "p": {
+          "name": "Improving existing segmentators performance with zero-shot segmentators",
+          "link": "https://www.preprints.org/manuscript/202307.1729/v1"
+        },
+        "c": "https://github.com/LorisNanni/Improving-existing-segmentators-performance-with-zero-shot-segmentators",
         "n": "SAMFusion",
         "d": "2023-07-26",
         "m2": "0.833",

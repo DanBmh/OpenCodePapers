@@ -33,106 +33,151 @@
     ],
     "items": [
       {
-        "p": "[An MRC Framework for Semantic Role Labeling](https://arxiv.org/abs/2109.06660v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/shannonai/mrc-srl)",
+        "p": {
+          "name": "An MRC Framework for Semantic Role Labeling",
+          "link": "https://arxiv.org/abs/2109.06660v2"
+        },
+        "c": "https://github.com/shannonai/mrc-srl",
         "n": "MRC-SRL",
         "d": "2021-09-14",
         "m1": "90.0"
       },
       {
-        "p": "[Syntax-driven Approach for Semantic Role Labeling](https://aclanthology.org/2022.lrec-1.772)",
-        "c": "[&check;&nbsp;Link](https://github.com/synlp/srl-mm)",
+        "p": {
+          "name": "Syntax-driven Approach for Semantic Role Labeling",
+          "link": "https://aclanthology.org/2022.lrec-1.772"
+        },
+        "c": "https://github.com/synlp/srl-mm",
         "n": "SRL-MM + XLNet",
         "d": null,
         "m1": "89.80"
       },
       {
-        "p": "[Semantic Role Labeling as Dependency Parsing: Exploring Latent Tree Structures Inside Arguments](https://arxiv.org/abs/2110.06865v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/yzhangcs/crfsrl)",
+        "p": {
+          "name": "Semantic Role Labeling as Dependency Parsing: Exploring Latent Tree Structures Inside Arguments",
+          "link": "https://arxiv.org/abs/2110.06865v2"
+        },
+        "c": "https://github.com/yzhangcs/crfsrl",
         "n": "CRF2o + RoBERTa",
         "d": "2021-10-13",
         "m1": "89.54"
       },
       {
-        "p": "[Better Combine Them Together! Integrating Syntactic Constituency and Dependency Representations for Semantic Role Labeling](https://aclanthology.org/2021.findings-acl.49)",
-        "c": "[&check;&nbsp;Link](https://github.com/scofield7419/hesyfu)",
+        "p": {
+          "name": "Better Combine Them Together! Integrating Syntactic Constituency and Dependency Representations for Semantic Role Labeling",
+          "link": "https://aclanthology.org/2021.findings-acl.49"
+        },
+        "c": "https://github.com/scofield7419/hesyfu",
         "n": "HeSyFu",
         "d": null,
         "m1": "89.04"
       },
       {
-        "p": "[Semantic Role Labeling as Dependency Parsing: Exploring Latent Tree Structures Inside Arguments](https://arxiv.org/abs/2110.06865v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/yzhangcs/crfsrl)",
+        "p": {
+          "name": "Semantic Role Labeling as Dependency Parsing: Exploring Latent Tree Structures Inside Arguments",
+          "link": "https://arxiv.org/abs/2110.06865v2"
+        },
+        "c": "https://github.com/yzhangcs/crfsrl",
         "n": "CRF2o + BERT",
         "d": "2021-10-13",
         "m1": "89.03"
       },
       {
-        "p": "[Syntax-Aware Graph-to-Graph Transformer for Semantic Role Labelling](https://arxiv.org/abs/2104.07704v2)",
+        "p": {
+          "name": "Syntax-Aware Graph-to-Graph Transformer for Semantic Role Labelling",
+          "link": "https://arxiv.org/abs/2104.07704v2"
+        },
         "c": "",
         "n": "Mohammadshahi and Henderson (2021)",
         "d": "2021-04-15",
         "m1": "88.93"
       },
       {
-        "p": "[A Span Selection Model for Semantic Role Labeling](http://arxiv.org/abs/1810.02245v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/hiroki13/span-based-srl)",
+        "p": {
+          "name": "A Span Selection Model for Semantic Role Labeling",
+          "link": "http://arxiv.org/abs/1810.02245v1"
+        },
+        "c": "https://github.com/hiroki13/span-based-srl",
         "n": "BiLSTM-Span (Ensemble, predicates given)",
         "d": "2018-10-04",
         "m1": "88.5"
       },
       {
-        "p": "[Semantic Role Labeling as Dependency Parsing: Exploring Latent Tree Structures Inside Arguments](https://arxiv.org/abs/2110.06865v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/yzhangcs/crfsrl)",
+        "p": {
+          "name": "Semantic Role Labeling as Dependency Parsing: Exploring Latent Tree Structures Inside Arguments",
+          "link": "https://arxiv.org/abs/2110.06865v2"
+        },
+        "c": "https://github.com/yzhangcs/crfsrl",
         "n": "CRF2o",
         "d": "2021-10-13",
         "m1": "87.87"
       },
       {
-        "p": "[Dependency or Span, End-to-End Uniform Semantic Role Labeling](http://arxiv.org/abs/1901.05280v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/bcmi220/unisrl)",
+        "p": {
+          "name": "Dependency or Span, End-to-End Uniform Semantic Role Labeling",
+          "link": "http://arxiv.org/abs/1901.05280v1"
+        },
+        "c": "https://github.com/bcmi220/unisrl",
         "n": "Li et al. (2019) (Ensemble)",
         "d": "2019-01-16",
         "m1": "87.7"
       },
       {
-        "p": "[A Span Selection Model for Semantic Role Labeling](http://arxiv.org/abs/1810.02245v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/hiroki13/span-based-srl)",
+        "p": {
+          "name": "A Span Selection Model for Semantic Role Labeling",
+          "link": "http://arxiv.org/abs/1810.02245v1"
+        },
+        "c": "https://github.com/hiroki13/span-based-srl",
         "n": "BiLSTM-Span",
         "d": "2018-10-04",
         "m1": "87.6"
       },
       {
-        "p": "[Dependency or Span, End-to-End Uniform Semantic Role Labeling](http://arxiv.org/abs/1901.05280v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/bcmi220/unisrl)",
+        "p": {
+          "name": "Dependency or Span, End-to-End Uniform Semantic Role Labeling",
+          "link": "http://arxiv.org/abs/1901.05280v1"
+        },
+        "c": "https://github.com/bcmi220/unisrl",
         "n": "Li et al. (2019) + ELMo",
         "d": "2019-01-16",
         "m1": "86.3"
       },
       {
-        "p": "[Linguistically-Informed Self-Attention for Semantic Role Labeling](http://arxiv.org/abs/1804.08199v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/strubell/LISA)",
+        "p": {
+          "name": "Linguistically-Informed Self-Attention for Semantic Role Labeling",
+          "link": "http://arxiv.org/abs/1804.08199v3"
+        },
+        "c": "https://github.com/strubell/LISA",
         "n": "LISA",
         "d": "2018-04-23",
         "m1": "86.04"
       },
       {
-        "p": "[Jointly Predicting Predicates and Arguments in Neural Semantic Role Labeling](http://arxiv.org/abs/1805.04787v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/luheng/lsgn)",
+        "p": {
+          "name": "Jointly Predicting Predicates and Arguments in Neural Semantic Role Labeling",
+          "link": "http://arxiv.org/abs/1805.04787v2"
+        },
+        "c": "https://github.com/luheng/lsgn",
         "n": "He et al. (2018) + ELMo",
         "d": "2018-05-12",
         "m1": "86.0"
       },
       {
-        "p": "[Dependency or Span, End-to-End Uniform Semantic Role Labeling](http://arxiv.org/abs/1901.05280v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/bcmi220/unisrl)",
+        "p": {
+          "name": "Dependency or Span, End-to-End Uniform Semantic Role Labeling",
+          "link": "http://arxiv.org/abs/1901.05280v1"
+        },
+        "c": "https://github.com/bcmi220/unisrl",
         "n": "Li et al. (2019)",
         "d": "2019-01-16",
         "m1": "83.0"
       },
       {
-        "p": "[Jointly Predicting Predicates and Arguments in Neural Semantic Role Labeling](http://arxiv.org/abs/1805.04787v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/luheng/lsgn)",
+        "p": {
+          "name": "Jointly Predicting Predicates and Arguments in Neural Semantic Role Labeling",
+          "link": "http://arxiv.org/abs/1805.04787v2"
+        },
+        "c": "https://github.com/luheng/lsgn",
         "n": "He et al. (2018)",
         "d": "2018-05-12",
         "m1": "82.5"

@@ -48,8 +48,11 @@
     ],
     "items": [
       {
-        "p": "[Estimated Audio-Caption Correspondences Improve Language-Based Audio Retrieval](https://arxiv.org/abs/2408.11641v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/optimusprimus/salsa)",
+        "p": {
+          "name": "Estimated Audio-Caption Correspondences Improve Language-Based Audio Retrieval",
+          "link": "https://arxiv.org/abs/2408.11641v1"
+        },
+        "c": "https://github.com/optimusprimus/salsa",
         "n": "PaSST-RoBERTa & Estimated Audio–Caption Correspondences",
         "d": "2024-08-21",
         "m1": "27.69",
@@ -58,15 +61,21 @@
         "m4": "40.14"
       },
       {
-        "p": "[InternVideo2: Scaling Foundation Models for Multimodal Video Understanding](https://arxiv.org/abs/2403.15377v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internvideo)",
+        "p": {
+          "name": "InternVideo2: Scaling Foundation Models for Multimodal Video Understanding",
+          "link": "https://arxiv.org/abs/2403.15377v4"
+        },
+        "c": "https://github.com/opengvlab/internvideo",
         "n": "InternVideo2-6B",
         "d": "2024-03-22",
         "m1": "27.2"
       },
       {
-        "p": "[VAST: A Vision-Audio-Subtitle-Text Omni-Modality Foundation Model and Dataset](https://arxiv.org/abs/2305.18500v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/TXH-mercury/VALOR)",
+        "p": {
+          "name": "VAST: A Vision-Audio-Subtitle-Text Omni-Modality Foundation Model and Dataset",
+          "link": "https://arxiv.org/abs/2305.18500v2"
+        },
+        "c": "https://github.com/TXH-mercury/VALOR",
         "n": "VAST",
         "d": "2023-05-29",
         "m1": "26.9",
@@ -74,8 +83,11 @@
         "m3": "66.1"
       },
       {
-        "p": "[Advancing Natural-Language Based Audio Retrieval with PaSST and Large Audio-Caption Data Sets](https://arxiv.org/abs/2308.04258v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/optimusprimus/dcase2023_task6b)",
+        "p": {
+          "name": "Advancing Natural-Language Based Audio Retrieval with PaSST and Large Audio-Caption Data Sets",
+          "link": "https://arxiv.org/abs/2308.04258v1"
+        },
+        "c": "https://github.com/optimusprimus/dcase2023_task6b",
         "n": "PaSST–RoBERTa & GPT-augment",
         "d": "2023-08-08",
         "m1": "26.07",
@@ -84,8 +96,11 @@
         "m4": "38.56"
       },
       {
-        "p": "[ONE-PEACE: Exploring One General Representation Model Toward Unlimited Modalities](https://arxiv.org/abs/2305.11172v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/modelscope/modelscope)",
+        "p": {
+          "name": "ONE-PEACE: Exploring One General Representation Model Toward Unlimited Modalities",
+          "link": "https://arxiv.org/abs/2305.11172v1"
+        },
+        "c": "https://github.com/modelscope/modelscope",
         "n": "ONE-PEACE",
         "d": "2023-05-18",
         "m1": "22.4",
@@ -93,8 +108,11 @@
         "m3": "62.7"
       },
       {
-        "p": "[VALOR: Vision-Audio-Language Omni-Perception Pretraining Model and Dataset](https://arxiv.org/abs/2304.08345v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/TXH-mercury/VALOR)",
+        "p": {
+          "name": "VALOR: Vision-Audio-Language Omni-Perception Pretraining Model and Dataset",
+          "link": "https://arxiv.org/abs/2304.08345v2"
+        },
+        "c": "https://github.com/TXH-mercury/VALOR",
         "n": "VALOR",
         "d": "2023-04-17",
         "m1": "17.5",
@@ -102,48 +120,66 @@
         "m3": "55.3"
       },
       {
-        "p": "[Audio Retrieval with Natural Language Queries](https://arxiv.org/abs/2105.02192v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/oncescuandreea/audio-retrieval)",
+        "p": {
+          "name": "Audio Retrieval with Natural Language Queries",
+          "link": "https://arxiv.org/abs/2105.02192v2"
+        },
+        "c": "https://github.com/oncescuandreea/audio-retrieval",
         "n": "CE (pretraining:AudioCaps)",
         "d": "2021-05-05",
         "m1": "9.6±0.3\t",
         "m3": "40.1±0.7\t"
       },
       {
-        "p": "[Audio Retrieval with Natural Language Queries](https://arxiv.org/abs/2105.02192v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/oncescuandreea/audio-retrieval)",
+        "p": {
+          "name": "Audio Retrieval with Natural Language Queries",
+          "link": "https://arxiv.org/abs/2105.02192v2"
+        },
+        "c": "https://github.com/oncescuandreea/audio-retrieval",
         "n": "MoEE (pretraining:AudioCaps)",
         "d": "2021-05-05",
         "m1": "8.6±0.4\t",
         "m3": "39.3±0.7\t"
       },
       {
-        "p": "[Audio Retrieval with Natural Language Queries](https://arxiv.org/abs/2105.02192v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/oncescuandreea/audio-retrieval)",
+        "p": {
+          "name": "Audio Retrieval with Natural Language Queries",
+          "link": "https://arxiv.org/abs/2105.02192v2"
+        },
+        "c": "https://github.com/oncescuandreea/audio-retrieval",
         "n": "CE",
         "d": "2021-05-05",
         "m1": "6.7±0.4\t",
         "m3": "33.2±0.3\t"
       },
       {
-        "p": "[Audio Retrieval with Natural Language Queries: A Benchmark Study](https://arxiv.org/abs/2112.09418v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/akoepke/audio-retrieval-benchmark)",
+        "p": {
+          "name": "Audio Retrieval with Natural Language Queries: A Benchmark Study",
+          "link": "https://arxiv.org/abs/2112.09418v2"
+        },
+        "c": "https://github.com/akoepke/audio-retrieval-benchmark",
         "n": "MMT",
         "d": "2021-12-17",
         "m1": "6.5±0.6",
         "m3": "32.8±2.1"
       },
       {
-        "p": "[Audio Retrieval with Natural Language Queries: A Benchmark Study](https://arxiv.org/abs/2112.09418v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/akoepke/audio-retrieval-benchmark)",
+        "p": {
+          "name": "Audio Retrieval with Natural Language Queries: A Benchmark Study",
+          "link": "https://arxiv.org/abs/2112.09418v2"
+        },
+        "c": "https://github.com/akoepke/audio-retrieval-benchmark",
         "n": "CE(pretraining:SoundDescs)",
         "d": "2021-12-17",
         "m1": "6.4±0.5",
         "m3": "32.5±1.7"
       },
       {
-        "p": "[Audio Retrieval with Natural Language Queries](https://arxiv.org/abs/2105.02192v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/oncescuandreea/audio-retrieval)",
+        "p": {
+          "name": "Audio Retrieval with Natural Language Queries",
+          "link": "https://arxiv.org/abs/2105.02192v2"
+        },
+        "c": "https://github.com/oncescuandreea/audio-retrieval",
         "n": "MoEE",
         "d": "2021-05-05",
         "m1": "6.0±0.1\t",

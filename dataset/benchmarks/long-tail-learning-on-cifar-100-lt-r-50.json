@@ -34,176 +34,251 @@
     ],
     "items": [
       {
-        "p": "[Long-Tail Learning with Foundation Model: Heavy Fine-Tuning Hurts](https://arxiv.org/abs/2309.10019v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/shijxcs/lift)",
+        "p": {
+          "name": "Long-Tail Learning with Foundation Model: Heavy Fine-Tuning Hurts",
+          "link": "https://arxiv.org/abs/2309.10019v3"
+        },
+        "c": "https://github.com/shijxcs/lift",
         "n": "LIFT (ViT-B/16, ImageNet-21K pre-training)",
         "d": "2023-09-18",
         "m1": "9.8"
       },
       {
-        "p": "[LPT: Long-tailed Prompt Tuning for Image Classification](https://arxiv.org/abs/2210.01033v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/dongsky/lpt)",
+        "p": {
+          "name": "LPT: Long-tailed Prompt Tuning for Image Classification",
+          "link": "https://arxiv.org/abs/2210.01033v2"
+        },
+        "c": "https://github.com/dongsky/lpt",
         "n": "LPT",
         "d": "2022-10-03",
         "m1": "10"
       },
       {
-        "p": "[Visual Prompt Tuning](https://arxiv.org/abs/2203.12119v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/KMnP/vpt)",
+        "p": {
+          "name": "Visual Prompt Tuning",
+          "link": "https://arxiv.org/abs/2203.12119v2"
+        },
+        "c": "https://github.com/KMnP/vpt",
         "n": "VPT",
         "d": "2022-03-23",
         "m1": "15.2"
       },
       {
-        "p": "[Long-Tail Learning with Foundation Model: Heavy Fine-Tuning Hurts](https://arxiv.org/abs/2309.10019v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/shijxcs/lift)",
+        "p": {
+          "name": "Long-Tail Learning with Foundation Model: Heavy Fine-Tuning Hurts",
+          "link": "https://arxiv.org/abs/2309.10019v3"
+        },
+        "c": "https://github.com/shijxcs/lift",
         "n": "LIFT (ViT-B/16, CLIP)",
         "d": "2023-09-18",
         "m1": "16.9"
       },
       {
-        "p": "[Escaping Saddle Points for Effective Generalization on Class-Imbalanced Data](https://arxiv.org/abs/2212.13827v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/val-iisc/saddle-longtail)",
+        "p": {
+          "name": "Escaping Saddle Points for Effective Generalization on Class-Imbalanced Data",
+          "link": "https://arxiv.org/abs/2212.13827v1"
+        },
+        "c": "https://github.com/val-iisc/saddle-longtail",
         "n": "GLMC + SAM",
         "d": "2022-12-28",
         "m1": "34.72"
       },
       {
-        "p": "[Global and Local Mixture Consistency Cumulative Learning for Long-tailed Visual Recognitions](https://arxiv.org/abs/2305.08661v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/ynu-yangpeng/GLMC)",
+        "p": {
+          "name": "Global and Local Mixture Consistency Cumulative Learning for Long-tailed Visual Recognitions",
+          "link": "https://arxiv.org/abs/2305.08661v1"
+        },
+        "c": "https://github.com/ynu-yangpeng/GLMC",
         "n": "GLMC (ResNet-34, channel x4)",
         "d": "2023-05-15",
         "m1": "36.15"
       },
       {
-        "p": "[SURE: SUrvey REcipes for building reliable and robust deep networks](https://arxiv.org/abs/2403.00543v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/YutingLi0606/SURE)",
+        "p": {
+          "name": "SURE: SUrvey REcipes for building reliable and robust deep networks",
+          "link": "https://arxiv.org/abs/2403.00543v1"
+        },
+        "c": "https://github.com/YutingLi0606/SURE",
         "n": "SURE(ResNet-32)",
         "d": "2024-03-01",
         "m1": "36.87"
       },
       {
-        "p": "[DeiT-LT Distillation Strikes Back for Vision Transformer Training on Long-Tailed Datasets](https://arxiv.org/abs/2404.02900v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/val-iisc/DeiT-LT)",
+        "p": {
+          "name": "DeiT-LT Distillation Strikes Back for Vision Transformer Training on Long-Tailed Datasets",
+          "link": "https://arxiv.org/abs/2404.02900v1"
+        },
+        "c": "https://github.com/val-iisc/DeiT-LT",
         "n": "DeiT-LT",
         "d": "2024-04-03",
         "m1": "39.5"
       },
       {
-        "p": "[MDCS: More Diverse Experts with Consistency Self-distillation for Long-tailed Recognition](https://arxiv.org/abs/2308.09922v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/fistyee/mdcs)",
+        "p": {
+          "name": "MDCS: More Diverse Experts with Consistency Self-distillation for Long-tailed Recognition",
+          "link": "https://arxiv.org/abs/2308.09922v2"
+        },
+        "c": "https://github.com/fistyee/mdcs",
         "n": "MDCS",
         "d": "2023-08-19",
         "m1": "39.9"
       },
       {
-        "p": "[Pure Noise to the Rescue of Insufficient Data: Improving Imbalanced Classification by Training on Random Noise Images](https://arxiv.org/abs/2112.08810v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/shiranzada/pure-noise)",
+        "p": {
+          "name": "Pure Noise to the Rescue of Insufficient Data: Improving Imbalanced Classification by Training on Random Noise Images",
+          "link": "https://arxiv.org/abs/2112.08810v2"
+        },
+        "c": "https://github.com/shiranzada/pure-noise",
         "n": "OPeN (WideResNet-28-10)",
         "d": "2021-12-16",
         "m1": "40.2"
       },
       {
-        "p": "[Long-Tailed Recognition by Mutual Information Maximization between Latent Features and Ground-Truth Labels](https://arxiv.org/abs/2305.01160v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/bluecdm/Long-tailed-recognition)",
+        "p": {
+          "name": "Long-Tailed Recognition by Mutual Information Maximization between Latent Features and Ground-Truth Labels",
+          "link": "https://arxiv.org/abs/2305.01160v3"
+        },
+        "c": "https://github.com/bluecdm/Long-tailed-recognition",
         "n": "GML (ResNet-32)",
         "d": "2023-05-02",
         "m1": "41.9"
       },
       {
-        "p": "[Learning Prototype Classifiers for Long-Tailed Recognition](https://arxiv.org/abs/2302.00491v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/saurabhsharma1993/prototype-classifier-ltr)",
+        "p": {
+          "name": "Learning Prototype Classifiers for Long-Tailed Recognition",
+          "link": "https://arxiv.org/abs/2302.00491v3"
+        },
+        "c": "https://github.com/saurabhsharma1993/prototype-classifier-ltr",
         "n": "PC",
         "d": "2023-02-01",
         "m1": "42.25"
       },
       {
-        "p": "[Long-Tailed Recognition via Weight Balancing](https://arxiv.org/abs/2203.14197v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/shadealsha/ltr-weight-balancing)",
+        "p": {
+          "name": "Long-Tailed Recognition via Weight Balancing",
+          "link": "https://arxiv.org/abs/2203.14197v1"
+        },
+        "c": "https://github.com/shadealsha/ltr-weight-balancing",
         "n": "LTR-weight-balancing",
         "d": "2022-03-27",
         "m1": "42.29"
       },
       {
-        "p": "[Enhanced Long-Tailed Recognition with Contrastive CutMix Augmentation](https://arxiv.org/abs/2407.04911v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/panhaulin/concutmix)",
+        "p": {
+          "name": "Enhanced Long-Tailed Recognition with Contrastive CutMix Augmentation",
+          "link": "https://arxiv.org/abs/2407.04911v1"
+        },
+        "c": "https://github.com/panhaulin/concutmix",
         "n": "ConCutMix",
         "d": "2024-07-06",
         "m1": "42.6\t"
       },
       {
-        "p": "[Difficulty-Net: Learning to Predict Difficulty for Long-Tailed Recognition](https://arxiv.org/abs/2209.02960v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/hitachi-rd-cv/Difficulty_Net)",
+        "p": {
+          "name": "Difficulty-Net: Learning to Predict Difficulty for Long-Tailed Recognition",
+          "link": "https://arxiv.org/abs/2209.02960v1"
+        },
+        "c": "https://github.com/hitachi-rd-cv/Difficulty_Net",
         "n": "Difficulty-Net",
         "d": "2022-09-07",
         "m1": "43.1"
       },
       {
-        "p": "[Nested Collaborative Learning for Long-Tailed Visual Recognition](https://arxiv.org/abs/2203.15359v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/bazinga699/ncl)",
+        "p": {
+          "name": "Nested Collaborative Learning for Long-Tailed Visual Recognition",
+          "link": "https://arxiv.org/abs/2203.15359v2"
+        },
+        "c": "https://github.com/bazinga699/ncl",
         "n": "NCL(ResNet32)",
         "d": "2022-03-29",
         "m1": "43.2"
       },
       {
-        "p": "[Balanced Contrastive Learning for Long-Tailed Visual Recognition](https://arxiv.org/abs/2207.09052v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/flamiezhu/bcl)",
+        "p": {
+          "name": "Balanced Contrastive Learning for Long-Tailed Visual Recognition",
+          "link": "https://arxiv.org/abs/2207.09052v3"
+        },
+        "c": "https://github.com/flamiezhu/bcl",
         "n": "BCL(ResNet-32)",
         "d": "2022-07-19",
         "m1": "43.4"
       },
       {
-        "p": "[Self-Supervised Aggregation of Diverse Experts for Test-Agnostic Long-Tailed Recognition](https://arxiv.org/abs/2107.09249v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/vanint/sade-agnosticlt)",
+        "p": {
+          "name": "Self-Supervised Aggregation of Diverse Experts for Test-Agnostic Long-Tailed Recognition",
+          "link": "https://arxiv.org/abs/2107.09249v4"
+        },
+        "c": "https://github.com/vanint/sade-agnosticlt",
         "n": "TADE",
         "d": "2021-07-20",
         "m1": "46.1"
       },
       {
-        "p": "[Long-tailed Visual Recognition via Gaussian Clouded Logit Adjustment](https://arxiv.org/abs/2305.11733v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/keke921/gclloss)",
+        "p": {
+          "name": "Long-tailed Visual Recognition via Gaussian Clouded Logit Adjustment",
+          "link": "https://arxiv.org/abs/2305.11733v1"
+        },
+        "c": "https://github.com/keke921/gclloss",
         "n": "GCL",
         "d": "2023-05-19",
         "m1": "46.4"
       },
       {
-        "p": "[Improving Calibration for Long-Tailed Recognition](https://arxiv.org/abs/2104.00466v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/Jia-Research-Lab/MiSLAS)",
+        "p": {
+          "name": "Improving Calibration for Long-Tailed Recognition",
+          "link": "https://arxiv.org/abs/2104.00466v1"
+        },
+        "c": "https://github.com/Jia-Research-Lab/MiSLAS",
         "n": "MiSLAS",
         "d": "2021-04-01",
         "m1": "47.7"
       },
       {
-        "p": "[MetaSAug: Meta Semantic Augmentation for Long-Tailed Visual Recognition](https://arxiv.org/abs/2103.12579v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/BIT-DA/MetaSAug)",
+        "p": {
+          "name": "MetaSAug: Meta Semantic Augmentation for Long-Tailed Visual Recognition",
+          "link": "https://arxiv.org/abs/2103.12579v3"
+        },
+        "c": "https://github.com/BIT-DA/MetaSAug",
         "n": "MetaSAug-LDAM",
         "d": "2021-03-23",
         "m1": "47.73"
       },
       {
-        "p": "[Feature Generation for Long-tail Classification](https://arxiv.org/abs/2111.05956v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/rahulvigneswaran/tailcalibx)",
+        "p": {
+          "name": "Feature Generation for Long-tail Classification",
+          "link": "https://arxiv.org/abs/2111.05956v1"
+        },
+        "c": "https://github.com/rahulvigneswaran/tailcalibx",
         "n": "CBD+TailCalibX",
         "d": "2021-11-10",
         "m1": "49.1"
       },
       {
-        "p": "[Contrastive Learning based Hybrid Networks for Long-Tailed Image Classification](https://arxiv.org/abs/2103.14267v1)",
+        "p": {
+          "name": "Contrastive Learning based Hybrid Networks for Long-Tailed Image Classification",
+          "link": "https://arxiv.org/abs/2103.14267v1"
+        },
         "c": "",
         "n": "Hybrid-PSC",
         "d": "2021-03-26",
         "m1": "51.07"
       },
       {
-        "p": "[RSG: A Simple but Effective Module for Learning Imbalanced Datasets](https://arxiv.org/abs/2106.09859v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/Jianf-Wang/RSG)",
+        "p": {
+          "name": "RSG: A Simple but Effective Module for Learning Imbalanced Datasets",
+          "link": "https://arxiv.org/abs/2106.09859v1"
+        },
+        "c": "https://github.com/Jianf-Wang/RSG",
         "n": "LDAM-DRW-RSG",
         "d": "2021-06-18",
         "m1": "51.5"
       },
       {
-        "p": "[Rethinking the Value of Labels for Improving Class-Imbalanced Learning](https://arxiv.org/abs/2006.07529v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/YyzHarry/imbalanced-semi-self)",
+        "p": {
+          "name": "Rethinking the Value of Labels for Improving Class-Imbalanced Learning",
+          "link": "https://arxiv.org/abs/2006.07529v2"
+        },
+        "c": "https://github.com/YyzHarry/imbalanced-semi-self",
         "n": "LDAM-DRW + SSP",
         "d": "2020-06-13",
         "m1": "52.89"

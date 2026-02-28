@@ -44,83 +44,116 @@
     ],
     "items": [
       {
-        "p": "[xPatch: Dual-Stream Time Series Forecasting with Exponential Seasonal-Trend Decomposition](https://arxiv.org/abs/2412.17323v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/stitsyuk/xpatch)",
+        "p": {
+          "name": "xPatch: Dual-Stream Time Series Forecasting with Exponential Seasonal-Trend Decomposition",
+          "link": "https://arxiv.org/abs/2412.17323v2"
+        },
+        "c": "https://github.com/stitsyuk/xpatch",
         "n": "xPatch",
         "d": "2024-12-23",
         "m1": "0.291",
         "m2": "0.315"
       },
       {
-        "p": "[Disentangled Interpretable Representation for Efficient Long-term Time Series Forecasting](https://arxiv.org/abs/2411.17257v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/wintertee/dipe-linear)",
+        "p": {
+          "name": "Disentangled Interpretable Representation for Efficient Long-term Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2411.17257v1"
+        },
+        "c": "https://github.com/wintertee/dipe-linear",
         "n": "DiPE-Linear",
         "d": "2024-11-26",
         "m1": "0.306"
       },
       {
-        "p": "[SegRNN: Segment Recurrent Neural Network for Long-Term Time Series Forecasting](https://arxiv.org/abs/2308.11200v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/thuml/Time-Series-Library)",
+        "p": {
+          "name": "SegRNN: Segment Recurrent Neural Network for Long-Term Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2308.11200v1"
+        },
+        "c": "https://github.com/thuml/Time-Series-Library",
         "n": "SegRNN",
         "d": "2023-08-22",
         "m1": "0.31",
         "m2": "0.32"
       },
       {
-        "p": "[Revisiting Long-term Time Series Forecasting: An Investigation on Linear Mapping](https://arxiv.org/abs/2305.10721v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/plumprc/rtsf)",
+        "p": {
+          "name": "Revisiting Long-term Time Series Forecasting: An Investigation on Linear Mapping",
+          "link": "https://arxiv.org/abs/2305.10721v1"
+        },
+        "c": "https://github.com/plumprc/rtsf",
         "n": "RLinear-CI",
         "d": "2023-05-18",
         "m1": "0.314",
         "m3": "0.327"
       },
       {
-        "p": "[Mixture-of-Linear-Experts for Long-term Time Series Forecasting](https://arxiv.org/abs/2312.06786v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/rogerni/mole)",
+        "p": {
+          "name": "Mixture-of-Linear-Experts for Long-term Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2312.06786v3"
+        },
+        "c": "https://github.com/rogerni/mole",
         "n": "MoLE-DLinear",
         "d": "2023-12-11",
         "m1": "0.314"
       },
       {
-        "p": "[A Time Series is Worth 64 Words: Long-term Forecasting with Transformers](https://arxiv.org/abs/2211.14730v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/timeseriesAI/tsai)",
+        "p": {
+          "name": "A Time Series is Worth 64 Words: Long-term Forecasting with Transformers",
+          "link": "https://arxiv.org/abs/2211.14730v2"
+        },
+        "c": "https://github.com/timeseriesAI/tsai",
         "n": "PatchTST/64",
         "d": "2022-11-27",
         "m1": "0.314"
       },
       {
-        "p": "[TSMixer: Lightweight MLP-Mixer Model for Multivariate Time Series Forecasting](https://arxiv.org/abs/2306.09364v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/ibm/tsfm)",
+        "p": {
+          "name": "TSMixer: Lightweight MLP-Mixer Model for Multivariate Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2306.09364v4"
+        },
+        "c": "https://github.com/ibm/tsfm",
         "n": "TSMixer",
         "d": "2023-06-14",
         "m1": "0.316",
         "m2": "0.333"
       },
       {
-        "p": "[Are Transformers Effective for Time Series Forecasting?](https://arxiv.org/abs/2205.13504v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/cure-lab/DLinear)",
+        "p": {
+          "name": "Are Transformers Effective for Time Series Forecasting?",
+          "link": "https://arxiv.org/abs/2205.13504v3"
+        },
+        "c": "https://github.com/cure-lab/DLinear",
         "n": "DLinear",
         "d": "2022-05-26",
         "m1": "0.323"
       },
       {
-        "p": "[PRformer: Pyramidal Recurrent Transformer for Multivariate Time Series Forecasting](https://arxiv.org/abs/2408.10483v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/usualheart/prformer)",
+        "p": {
+          "name": "PRformer: Pyramidal Recurrent Transformer for Multivariate Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2408.10483v1"
+        },
+        "c": "https://github.com/usualheart/prformer",
         "n": "PRformer",
         "d": "2024-08-20",
         "m1": "0.326"
       },
       {
-        "p": "[Revisiting Long-term Time Series Forecasting: An Investigation on Linear Mapping](https://arxiv.org/abs/2305.10721v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/plumprc/rtsf)",
+        "p": {
+          "name": "Revisiting Long-term Time Series Forecasting: An Investigation on Linear Mapping",
+          "link": "https://arxiv.org/abs/2305.10721v1"
+        },
+        "c": "https://github.com/plumprc/rtsf",
         "n": "RLinear",
         "d": "2023-05-18",
         "m1": "0.329",
         "m2": "0.339"
       },
       {
-        "p": "[Time Evidence Fusion Network: Multi-source View in Long-Term Time Series Forecasting](https://arxiv.org/abs/2405.06419v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/WenjieDu/PyPOTS)",
+        "p": {
+          "name": "Time Evidence Fusion Network: Multi-source View in Long-Term Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2405.06419v3"
+        },
+        "c": "https://github.com/WenjieDu/PyPOTS",
         "n": "TEFN",
         "d": "2024-05-10",
         "m1": "0.352",

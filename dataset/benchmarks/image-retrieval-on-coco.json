@@ -48,8 +48,11 @@
     ],
     "items": [
       {
-        "p": "[BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
+          "link": "https://arxiv.org/abs/2301.12597v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "BLIP-2 ViT-G (fine-tuned)",
         "d": "2023-01-30",
         "m1": "68.3",
@@ -57,8 +60,11 @@
         "m3": "92.6"
       },
       {
-        "p": "[VisualSparta: An Embarrassingly Simple Approach to Large-scale Text-to-Image Search with Weighted Bag-of-words](https://arxiv.org/abs/2101.00265v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/soco-ai/SF-QA)",
+        "p": {
+          "name": "VisualSparta: An Embarrassingly Simple Approach to Large-scale Text-to-Image Search with Weighted Bag-of-words",
+          "link": "https://arxiv.org/abs/2101.00265v2"
+        },
+        "c": "https://github.com/soco-ai/SF-QA",
         "n": "VisualSparta",
         "d": "2021-01-01",
         "m1": "68.2",
@@ -67,8 +73,11 @@
         "m4": "451.4"
       },
       {
-        "p": "[BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
+          "link": "https://arxiv.org/abs/2301.12597v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "BLIP-2 ViT-L (fine-tuned)",
         "d": "2023-01-30",
         "m1": "66.3",
@@ -76,24 +85,33 @@
         "m3": "91.8"
       },
       {
-        "p": "[FLAVA: A Foundational Language And Vision Alignment Model](https://arxiv.org/abs/2112.04482v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/multimodal)",
+        "p": {
+          "name": "FLAVA: A Foundational Language And Vision Alignment Model",
+          "link": "https://arxiv.org/abs/2112.04482v3"
+        },
+        "c": "https://github.com/facebookresearch/multimodal",
         "n": "FLAVA (zero-shot)",
         "d": "2021-12-08",
         "m1": "38.38",
         "m2": "67.47"
       },
       {
-        "p": "[FLAVA: A Foundational Language And Vision Alignment Model](https://arxiv.org/abs/2112.04482v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/multimodal)",
+        "p": {
+          "name": "FLAVA: A Foundational Language And Vision Alignment Model",
+          "link": "https://arxiv.org/abs/2112.04482v3"
+        },
+        "c": "https://github.com/facebookresearch/multimodal",
         "n": "CLIP (zero-shot)",
         "d": "2021-12-08",
         "m1": "33.29",
         "m2": "62.47"
       },
       {
-        "p": "[Oscar: Object-Semantics Aligned Pre-training for Vision-Language Tasks](https://arxiv.org/abs/2004.06165v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/rmokady/clip_prefix_caption)",
+        "p": {
+          "name": "Oscar: Object-Semantics Aligned Pre-training for Vision-Language Tasks",
+          "link": "https://arxiv.org/abs/2004.06165v5"
+        },
+        "c": "https://github.com/rmokady/clip_prefix_caption",
         "n": "Oscar",
         "d": "2020-04-13",
         "m3": "98.3"

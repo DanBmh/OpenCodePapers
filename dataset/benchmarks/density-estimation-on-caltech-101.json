@@ -48,16 +48,22 @@
     ],
     "items": [
       {
-        "p": "[Block Neural Autoregressive Flow](http://arxiv.org/abs/1904.04676v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/nicola-decao/BNAF)",
+        "p": {
+          "name": "Block Neural Autoregressive Flow",
+          "link": "http://arxiv.org/abs/1904.04676v1"
+        },
+        "c": "https://github.com/nicola-decao/BNAF",
         "n": "B-NAF",
         "d": "2019-04-09",
         "m1": "94.91",
         "m2": "105.42"
       },
       {
-        "p": "[FFJORD: Free-form Continuous Dynamics for Scalable Reversible Generative Models](http://arxiv.org/abs/1810.01367v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/rtqichen/ffjord)",
+        "p": {
+          "name": "FFJORD: Free-form Continuous Dynamics for Scalable Reversible Generative Models",
+          "link": "http://arxiv.org/abs/1810.01367v3"
+        },
+        "c": "https://github.com/rtqichen/ffjord",
         "n": "FFJORD",
         "d": "2018-10-02",
         "m1": "104.03",
@@ -65,8 +71,11 @@
         "m4": "98.8%"
       },
       {
-        "p": "[PaddingFlow: Improving Normalizing Flows with Padding-Dimensional Noise](https://arxiv.org/abs/2403.08216v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/adamqlmeng/paddingflow)",
+        "p": {
+          "name": "PaddingFlow: Improving Normalizing Flows with Padding-Dimensional Noise",
+          "link": "https://arxiv.org/abs/2403.08216v2"
+        },
+        "c": "https://github.com/adamqlmeng/paddingflow",
         "n": "PaddingFlow",
         "d": "2024-03-13",
         "m3": "17.9",

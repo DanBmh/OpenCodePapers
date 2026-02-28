@@ -43,7 +43,10 @@
     ],
     "items": [
       {
-        "p": "[Multi-Task Learning with LLMs for Implicit Sentiment Analysis: Data-level and Task-level Automatic Weight Learning](https://arxiv.org/abs/2412.09046v1)",
+        "p": {
+          "name": "Multi-Task Learning with LLMs for Implicit Sentiment Analysis: Data-level and Task-level Automatic Weight Learning",
+          "link": "https://arxiv.org/abs/2412.09046v1"
+        },
         "c": "",
         "n": "MT-ISA",
         "d": "2024-12-12",
@@ -52,7 +55,10 @@
         "m3": "85.74"
       },
       {
-        "p": "[RVISA: Reasoning and Verification for Implicit Sentiment Analysis](https://arxiv.org/abs/2407.02340v1)",
+        "p": {
+          "name": "RVISA: Reasoning and Verification for Implicit Sentiment Analysis",
+          "link": "https://arxiv.org/abs/2407.02340v1"
+        },
         "c": "",
         "n": "RVISA",
         "d": "2024-07-02",
@@ -61,8 +67,11 @@
         "m3": "86.68"
       },
       {
-        "p": "[LSA: Modeling Aspect Sentiment Coherency via Local Sentiment Aggregation](https://arxiv.org/abs/2110.08604v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/yangheng95/PyABSA/blob/release/demos/aspect_polarity_classification/run_fast_lsa_deberta_large.py)",
+        "p": {
+          "name": "LSA: Modeling Aspect Sentiment Coherency via Local Sentiment Aggregation",
+          "link": "https://arxiv.org/abs/2110.08604v4"
+        },
+        "c": "https://github.com/yangheng95/PyABSA/blob/release/demos/aspect_polarity_classification/run_fast_lsa_deberta_large.py",
         "n": "LSA+DeBERTa-V3-Large",
         "d": "2021-10-16",
         "m1": "88.27",
@@ -70,8 +79,11 @@
         "m3": "86.21"
       },
       {
-        "p": "[Masking The Bias : From Echo Chambers to Large Scale Aspect-Based Sentiment Analysis](https://avesis.metu.edu.tr/yayin/7ffc1425-5d2a-486b-944a-2f8b39e7ca33/masking-the-bias-from-echo-chambers-to-large-scale-aspect-based-sentiment-analysis)",
-        "c": "[&check;&nbsp;Link](https://github.com/tweetpie/masked-absa)",
+        "p": {
+          "name": "Masking The Bias : From Echo Chambers to Large Scale Aspect-Based Sentiment Analysis",
+          "link": "https://avesis.metu.edu.tr/yayin/7ffc1425-5d2a-486b-944a-2f8b39e7ca33/masking-the-bias-from-echo-chambers-to-large-scale-aspect-based-sentiment-analysis"
+        },
+        "c": "https://github.com/tweetpie/masked-absa",
         "n": "MaskedABSA",
         "d": "2024-09-02",
         "m1": "86.95",
@@ -79,8 +91,11 @@
         "m3": "86.24"
       },
       {
-        "p": "[A Multi-task Learning Model for Chinese-oriented Aspect Polarity Classification and Aspect Term Extraction](https://arxiv.org/abs/1912.07976v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/yangheng95/LC-ABSA)",
+        "p": {
+          "name": "A Multi-task Learning Model for Chinese-oriented Aspect Polarity Classification and Aspect Term Extraction",
+          "link": "https://arxiv.org/abs/1912.07976v3"
+        },
+        "c": "https://github.com/yangheng95/LC-ABSA",
         "n": "LCF-ATEPC",
         "d": "2019-12-17",
         "m1": "86.24",
@@ -88,8 +103,11 @@
         "m3": "82.29"
       },
       {
-        "p": "[Towards Unifying the Label Space for Aspect- and Sentence-based Sentiment Analysis](https://arxiv.org/abs/2203.07090v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/yiming-zh/DPL)",
+        "p": {
+          "name": "Towards Unifying the Label Space for Aspect- and Sentence-based Sentiment Analysis",
+          "link": "https://arxiv.org/abs/2203.07090v1"
+        },
+        "c": "https://github.com/yiming-zh/DPL",
         "n": "DPL-BERT",
         "d": "2022-03-14",
         "m1": "85.75",
@@ -97,8 +115,11 @@
         "m3": "81.96"
       },
       {
-        "p": "[Does syntax matter? A strong baseline for Aspect-based Sentiment Analysis with RoBERTa](https://arxiv.org/abs/2104.04986v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/ROGERDJQ/RoBERTaABSA)",
+        "p": {
+          "name": "Does syntax matter? A strong baseline for Aspect-based Sentiment Analysis with RoBERTa",
+          "link": "https://arxiv.org/abs/2104.04986v1"
+        },
+        "c": "https://github.com/ROGERDJQ/RoBERTaABSA",
         "n": "RoBERTa+MLP",
         "d": "2021-04-11",
         "m1": "85.58",
@@ -106,8 +127,11 @@
         "m3": "83.78"
       },
       {
-        "p": "[Understand me, if you refer to Aspect Knowledge: Knowledge-aware Gated Recurrent Memory Network](https://arxiv.org/abs/2108.02352v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/XingBowen714/KaGRMN-DSG_ABSA)",
+        "p": {
+          "name": "Understand me, if you refer to Aspect Knowledge: Knowledge-aware Gated Recurrent Memory Network",
+          "link": "https://arxiv.org/abs/2108.02352v3"
+        },
+        "c": "https://github.com/XingBowen714/KaGRMN-DSG_ABSA",
         "n": "KaGRMN-DSG",
         "d": "2021-08-05",
         "m1": "84.61",
@@ -115,8 +139,11 @@
         "m3": "81.87"
       },
       {
-        "p": "[You Only Read Once: Constituency-Oriented Relational Graph Convolutional Network for Multi-Aspect Multi-Sentiment Classification](https://ojs.aaai.org/index.php/AAAI/article/view/29945)",
-        "c": "[&check;&nbsp;Link](https://github.com/gdufsnlp/YORO)",
+        "p": {
+          "name": "You Only Read Once: Constituency-Oriented Relational Graph Convolutional Network for Multi-Aspect Multi-Sentiment Classification",
+          "link": "https://ojs.aaai.org/index.php/AAAI/article/view/29945"
+        },
+        "c": "https://github.com/gdufsnlp/YORO",
         "n": "YORO",
         "d": "2024-03-24",
         "m1": "84.48",
@@ -124,8 +151,11 @@
         "m3": "81.82"
       },
       {
-        "p": "[Adapt or Get Left Behind: Domain Adaptation through BERT Language Model Finetuning for Aspect-Target Sentiment Classification](https://arxiv.org/abs/1908.11860v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/yangheng95/LC-ABSA)",
+        "p": {
+          "name": "Adapt or Get Left Behind: Domain Adaptation through BERT Language Model Finetuning for Aspect-Target Sentiment Classification",
+          "link": "https://arxiv.org/abs/1908.11860v2"
+        },
+        "c": "https://github.com/yangheng95/LC-ABSA",
         "n": "BERT-ADA",
         "d": "2019-08-30",
         "m1": "84.06",
@@ -133,8 +163,11 @@
         "m3": "80.23"
       },
       {
-        "p": "[Investigating Typed Syntactic Dependencies for Targeted Sentiment Classification Using Graph Attention Neural Network](https://arxiv.org/abs/2002.09685v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/muyeby/RGAT-ABSA)",
+        "p": {
+          "name": "Investigating Typed Syntactic Dependencies for Targeted Sentiment Classification Using Graph Attention Neural Network",
+          "link": "https://arxiv.org/abs/2002.09685v3"
+        },
+        "c": "https://github.com/muyeby/RGAT-ABSA",
         "n": "RGAT+",
         "d": "2020-02-22",
         "m1": "83.92",
@@ -142,8 +175,11 @@
         "m3": "81.25"
       },
       {
-        "p": "[Improving BERT Performance for Aspect-Based Sentiment Analysis](https://arxiv.org/abs/2010.11731v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/IMPLabUniPr/BERT-for-ABSA)",
+        "p": {
+          "name": "Improving BERT Performance for Aspect-Based Sentiment Analysis",
+          "link": "https://arxiv.org/abs/2010.11731v2"
+        },
+        "c": "https://github.com/IMPLabUniPr/BERT-for-ABSA",
         "n": "PH-SUM",
         "d": "2020-10-22",
         "m1": "82.96",
@@ -151,8 +187,11 @@
         "m3": "79.55"
       },
       {
-        "p": "[Adversarial Training for Aspect-Based Sentiment Analysis with BERT](https://arxiv.org/abs/2001.11316v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/IMPLabUniPr/Adversarial-Training-for-ABSA)",
+        "p": {
+          "name": "Adversarial Training for Aspect-Based Sentiment Analysis with BERT",
+          "link": "https://arxiv.org/abs/2001.11316v4"
+        },
+        "c": "https://github.com/IMPLabUniPr/Adversarial-Training-for-ABSA",
         "n": "BAT",
         "d": "2020-01-30",
         "m1": "82.69",
@@ -160,8 +199,11 @@
         "m3": "79.35"
       },
       {
-        "p": "[Modeling Sentiment Dependencies with Graph Convolutional Networks for Aspect-level Sentiment Classification](https://arxiv.org/abs/1906.04501v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/Pinlong-Zhao/SDGCN)",
+        "p": {
+          "name": "Modeling Sentiment Dependencies with Graph Convolutional Networks for Aspect-level Sentiment Classification",
+          "link": "https://arxiv.org/abs/1906.04501v1"
+        },
+        "c": "https://github.com/Pinlong-Zhao/SDGCN",
         "n": "SDGCN-BERT",
         "d": "2019-06-11",
         "m1": "82.46",
@@ -169,8 +211,11 @@
         "m3": "81.35"
       },
       {
-        "p": "[Attentional Encoder Network for Targeted Sentiment Classification](http://arxiv.org/abs/1902.09314v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/songyouwei/ABSA-PyTorch)",
+        "p": {
+          "name": "Attentional Encoder Network for Targeted Sentiment Classification",
+          "link": "http://arxiv.org/abs/1902.09314v2"
+        },
+        "c": "https://github.com/songyouwei/ABSA-PyTorch",
         "n": "BERT-SPC",
         "d": "2019-02-25",
         "m1": "81.73",
@@ -178,8 +223,11 @@
         "m3": "78.99"
       },
       {
-        "p": "[Attentional Encoder Network for Targeted Sentiment Classification](http://arxiv.org/abs/1902.09314v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/songyouwei/ABSA-PyTorch)",
+        "p": {
+          "name": "Attentional Encoder Network for Targeted Sentiment Classification",
+          "link": "http://arxiv.org/abs/1902.09314v2"
+        },
+        "c": "https://github.com/songyouwei/ABSA-PyTorch",
         "n": "AEN-BERT",
         "d": "2019-02-25",
         "m1": "81.53",
@@ -187,8 +235,11 @@
         "m3": "79.93"
       },
       {
-        "p": "[BERT Post-Training for Review Reading Comprehension and Aspect-based Sentiment Analysis](https://arxiv.org/abs/1904.02232v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/howardhsu/BERT-for-RRC-ABSA)",
+        "p": {
+          "name": "BERT Post-Training for Review Reading Comprehension and Aspect-based Sentiment Analysis",
+          "link": "https://arxiv.org/abs/1904.02232v2"
+        },
+        "c": "https://github.com/howardhsu/BERT-for-RRC-ABSA",
         "n": "BERT-PT",
         "d": "2019-04-03",
         "m1": "81.51",
@@ -196,8 +247,11 @@
         "m3": "78.07"
       },
       {
-        "p": "[InstructABSA: Instruction Learning for Aspect Based Sentiment Analysis](https://arxiv.org/abs/2302.08624v6)",
-        "c": "[&check;&nbsp;Link](https://github.com/kevinscaria/instructabsa)",
+        "p": {
+          "name": "InstructABSA: Instruction Learning for Aspect Based Sentiment Analysis",
+          "link": "https://arxiv.org/abs/2302.08624v6"
+        },
+        "c": "https://github.com/kevinscaria/instructabsa",
         "n": "InstructABSA",
         "d": "2023-02-16",
         "m1": "81.5",
@@ -205,8 +259,11 @@
         "m3": "80.56"
       },
       {
-        "p": "[Aspect Based Sentiment Analysis with Aspect-Specific Opinion Spans](https://arxiv.org/abs/2010.02696v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/xuuuluuu/Aspect-Sentiment-Classification)",
+        "p": {
+          "name": "Aspect Based Sentiment Analysis with Aspect-Specific Opinion Spans",
+          "link": "https://arxiv.org/abs/2010.02696v2"
+        },
+        "c": "https://github.com/xuuuluuu/Aspect-Sentiment-Classification",
         "n": "MCRF-SA",
         "d": "2020-10-06",
         "m1": "80.25",
@@ -214,8 +271,11 @@
         "m3": "77.64"
       },
       {
-        "p": "[Hierarchical Attention Based Position-Aware Network for Aspect-Level Sentiment Analysis](https://aclanthology.org/K18-1018)",
-        "c": "[&check;&nbsp;Link](https://github.com/DUT-LiuYang/Aspect-Sentiment-Analysis)",
+        "p": {
+          "name": "Hierarchical Attention Based Position-Aware Network for Aspect-Level Sentiment Analysis",
+          "link": "https://aclanthology.org/K18-1018"
+        },
+        "c": "https://github.com/DUT-LiuYang/Aspect-Sentiment-Analysis",
         "n": "HAPN",
         "d": "2018-10-01",
         "m1": "79.75",
@@ -223,8 +283,11 @@
         "m3": "77.27"
       },
       {
-        "p": "[An Interactive Multi-Task Learning Network for End-to-End Aspect-Based Sentiment Analysis](https://arxiv.org/abs/1906.06906v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/lixin4ever/BERT-E2E-ABSA)",
+        "p": {
+          "name": "An Interactive Multi-Task Learning Network for End-to-End Aspect-Based Sentiment Analysis",
+          "link": "https://arxiv.org/abs/1906.06906v1"
+        },
+        "c": "https://github.com/lixin4ever/BERT-E2E-ABSA",
         "n": "IMN",
         "d": "2019-06-17",
         "m1": "79.63",
@@ -232,8 +295,11 @@
         "m3": "75.36"
       },
       {
-        "p": "[Progressive Self-Supervised Attention Learning for Aspect-Level Sentiment Analysis](https://arxiv.org/abs/1906.01213v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/DeepLearnXMU/PSSAttention)",
+        "p": {
+          "name": "Progressive Self-Supervised Attention Learning for Aspect-Level Sentiment Analysis",
+          "link": "https://arxiv.org/abs/1906.01213v3"
+        },
+        "c": "https://github.com/DeepLearnXMU/PSSAttention",
         "n": "TNet-ATT(+AS)",
         "d": "2019-06-04",
         "m1": "79.58",
@@ -241,8 +307,11 @@
         "m3": "77.62"
       },
       {
-        "p": "[Exploiting Coarse-to-Fine Task Transfer for Aspect-level Sentiment Classification](http://arxiv.org/abs/1811.10999v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/hsqmlzno1/MGAN)",
+        "p": {
+          "name": "Exploiting Coarse-to-Fine Task Transfer for Aspect-level Sentiment Classification",
+          "link": "http://arxiv.org/abs/1811.10999v1"
+        },
+        "c": "https://github.com/hsqmlzno1/MGAN",
         "n": "MGAN",
         "d": "2018-11-16",
         "m1": "78.85",
@@ -250,8 +319,11 @@
         "m3": "76.21"
       },
       {
-        "p": "[Transformation Networks for Target-Oriented Sentiment Classification](http://arxiv.org/abs/1805.01086v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/lixin4ever/TNet)",
+        "p": {
+          "name": "Transformation Networks for Target-Oriented Sentiment Classification",
+          "link": "http://arxiv.org/abs/1805.01086v1"
+        },
+        "c": "https://github.com/lixin4ever/TNet",
         "n": "TNet-LF",
         "d": "2018-05-03",
         "m1": "78.4",
@@ -259,8 +331,11 @@
         "m3": "76.01"
       },
       {
-        "p": "[Learning Latent Opinions for Aspect-Level Sentiment Classification](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewPaper/17327)",
-        "c": "[&check;&nbsp;Link](https://github.com/berlino/SA-Sent)",
+        "p": {
+          "name": "Learning Latent Opinions for Aspect-Level Sentiment Classification",
+          "link": "https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewPaper/17327"
+        },
+        "c": "https://github.com/berlino/SA-Sent",
         "n": "SA-LSTM-P",
         "d": "2018-04-01",
         "m1": "78.35",
@@ -268,8 +343,11 @@
         "m3": "75.1"
       },
       {
-        "p": "[Multi-grained Attention Network for Aspect-Level Sentiment Classification](https://aclanthology.org/D18-1380)",
-        "c": "[&check;&nbsp;Link](https://github.com/mindspore-courses/ABSA-MindSpore)",
+        "p": {
+          "name": "Multi-grained Attention Network for Aspect-Level Sentiment Classification",
+          "link": "https://aclanthology.org/D18-1380"
+        },
+        "c": "https://github.com/mindspore-courses/ABSA-MindSpore",
         "n": "MGAN",
         "d": "2018-10-01",
         "m1": "78.32",
@@ -277,8 +355,11 @@
         "m3": "75.39"
       },
       {
-        "p": "[Left-Center-Right Separated Neural Network for Aspect-based Sentiment Analysis with Rotatory Attention](http://arxiv.org/abs/1802.00892v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/NUSTM/ABSC)",
+        "p": {
+          "name": "Left-Center-Right Separated Neural Network for Aspect-based Sentiment Analysis with Rotatory Attention",
+          "link": "http://arxiv.org/abs/1802.00892v1"
+        },
+        "c": "https://github.com/NUSTM/ABSC",
         "n": "LCR-Rot",
         "d": "2018-02-03",
         "m1": "78.29",
@@ -286,7 +367,10 @@
         "m3": "75.24"
       },
       {
-        "p": "[Variational Semi-supervised Aspect-term Sentiment Analysis via Transformer](https://arxiv.org/abs/1810.10437v3)",
+        "p": {
+          "name": "Variational Semi-supervised Aspect-term Sentiment Analysis via Transformer",
+          "link": "https://arxiv.org/abs/1810.10437v3"
+        },
         "c": "",
         "n": "BILSTM-ATT-G (TSSVAE)",
         "d": "2018-10-24",
@@ -295,7 +379,10 @@
         "m3": "75.34"
       },
       {
-        "p": "[Aspect-Based Sentiment Analysis Using Bitmask Bidirectional Long Short Term Memory Networks](https://aaai.org/ocs/index.php/FLAIRS/FLAIRS18/paper/view/17646)",
+        "p": {
+          "name": "Aspect-Based Sentiment Analysis Using Bitmask Bidirectional Long Short Term Memory Networks",
+          "link": "https://aaai.org/ocs/index.php/FLAIRS/FLAIRS18/paper/view/17646"
+        },
         "c": "",
         "n": "BBLSTM-SL",
         "d": "2018-05-01",
@@ -304,8 +391,11 @@
         "m3": "74.9"
       },
       {
-        "p": "[Aspect Level Sentiment Classification with Attention-over-Attention Neural Networks](http://arxiv.org/abs/1804.06536v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/songyouwei/ABSA-PyTorch)",
+        "p": {
+          "name": "Aspect Level Sentiment Classification with Attention-over-Attention Neural Networks",
+          "link": "http://arxiv.org/abs/1804.06536v1"
+        },
+        "c": "https://github.com/songyouwei/ABSA-PyTorch",
         "n": "AOA",
         "d": "2018-04-18",
         "m1": "77.85",
@@ -313,8 +403,11 @@
         "m3": "74.5"
       },
       {
-        "p": "[A Position-aware Bidirectional Attention Network for Aspect-level Sentiment Analysis](https://aclanthology.org/C18-1066)",
-        "c": "[&check;&nbsp;Link](https://github.com/hiyouga/PBAN-PyTorch)",
+        "p": {
+          "name": "A Position-aware Bidirectional Attention Network for Aspect-level Sentiment Analysis",
+          "link": "https://aclanthology.org/C18-1066"
+        },
+        "c": "https://github.com/hiyouga/PBAN-PyTorch",
         "n": "PBAN",
         "d": "2018-08-01",
         "m1": "77.64",
@@ -322,8 +415,11 @@
         "m3": "74.12"
       },
       {
-        "p": "[Recurrent Attention Network on Memory for Aspect Sentiment Analysis](https://aclanthology.org/D17-1047)",
-        "c": "[&check;&nbsp;Link](https://github.com/songyouwei/ABSA-PyTorch)",
+        "p": {
+          "name": "Recurrent Attention Network on Memory for Aspect Sentiment Analysis",
+          "link": "https://aclanthology.org/D17-1047"
+        },
+        "c": "https://github.com/songyouwei/ABSA-PyTorch",
         "n": "RAM",
         "d": "2017-09-01",
         "m1": "77.36",
@@ -331,8 +427,11 @@
         "m3": "74.49"
       },
       {
-        "p": "[Attentional Encoder Network for Targeted Sentiment Classification](http://arxiv.org/abs/1902.09314v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/songyouwei/ABSA-PyTorch)",
+        "p": {
+          "name": "Attentional Encoder Network for Targeted Sentiment Classification",
+          "link": "http://arxiv.org/abs/1902.09314v2"
+        },
+        "c": "https://github.com/songyouwei/ABSA-PyTorch",
         "n": "AEN-GloVe",
         "d": "2019-02-25",
         "m1": "77.25",
@@ -340,8 +439,11 @@
         "m3": "73.51"
       },
       {
-        "p": "[IARM: Inter-Aspect Relation Modeling with Memory Networks in Aspect-Based Sentiment Analysis](https://aclanthology.org/D18-1377)",
-        "c": "[&check;&nbsp;Link](https://github.com/senticnet/IARM)",
+        "p": {
+          "name": "IARM: Inter-Aspect Relation Modeling with Memory Networks in Aspect-Based Sentiment Analysis",
+          "link": "https://aclanthology.org/D18-1377"
+        },
+        "c": "https://github.com/senticnet/IARM",
         "n": "IARM",
         "d": "2018-10-01",
         "m1": "77.02",
@@ -349,8 +451,11 @@
         "m3": "73.8"
       },
       {
-        "p": "[Aspect Level Sentiment Classification with Deep Memory Network](http://arxiv.org/abs/1605.08900v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/songyouwei/ABSA-PyTorch)",
+        "p": {
+          "name": "Aspect Level Sentiment Classification with Deep Memory Network",
+          "link": "http://arxiv.org/abs/1605.08900v2"
+        },
+        "c": "https://github.com/songyouwei/ABSA-PyTorch",
         "n": "MemNet",
         "d": "2016-05-28",
         "m1": "76.58",
@@ -358,7 +463,10 @@
         "m3": "72.21"
       },
       {
-        "p": "[Effective Attention Modeling for Aspect-Level Sentiment Classification](https://aclanthology.org/C18-1096)",
+        "p": {
+          "name": "Effective Attention Modeling for Aspect-Level Sentiment Classification",
+          "link": "https://aclanthology.org/C18-1096"
+        },
         "c": "",
         "n": "LSTM+SynATT+TarRep",
         "d": "2018-08-01",
@@ -367,8 +475,11 @@
         "m3": "71.94"
       },
       {
-        "p": "[Interactive Attention Networks for Aspect-Level Sentiment Classification](http://arxiv.org/abs/1709.00893v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/songyouwei/ABSA-PyTorch)",
+        "p": {
+          "name": "Interactive Attention Networks for Aspect-Level Sentiment Classification",
+          "link": "http://arxiv.org/abs/1709.00893v1"
+        },
+        "c": "https://github.com/songyouwei/ABSA-PyTorch",
         "n": "IAN",
         "d": "2017-09-04",
         "m1": "75.35",
@@ -376,7 +487,10 @@
         "m3": "72.10"
       },
       {
-        "p": "[Target-Sensitive Memory Networks for Aspect Sentiment Classification](https://aclanthology.org/P18-1088)",
+        "p": {
+          "name": "Target-Sensitive Memory Networks for Aspect Sentiment Classification",
+          "link": "https://aclanthology.org/P18-1088"
+        },
         "c": "",
         "n": "JCI (hops)",
         "d": "2018-07-01",
@@ -385,8 +499,11 @@
         "m3": "71.79"
       },
       {
-        "p": "[Exploiting Document Knowledge for Aspect-level Sentiment Classification](http://arxiv.org/abs/1806.04346v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/ruidan/Aspect-level-sentiment)",
+        "p": {
+          "name": "Exploiting Document Knowledge for Aspect-level Sentiment Classification",
+          "link": "http://arxiv.org/abs/1806.04346v1"
+        },
+        "c": "https://github.com/ruidan/Aspect-level-sentiment",
         "n": "PRET+MULT",
         "d": "2018-06-12",
         "m1": "75.13",
@@ -394,7 +511,10 @@
         "m3": "71.15"
       },
       {
-        "p": "[Parameterized Convolutional Neural Networks for Aspect Level Sentiment Classification](https://arxiv.org/abs/1909.06276v1)",
+        "p": {
+          "name": "Parameterized Convolutional Neural Networks for Aspect Level Sentiment Classification",
+          "link": "https://arxiv.org/abs/1909.06276v1"
+        },
         "c": "",
         "n": "PF-CNN",
         "d": "2019-09-13",
@@ -403,7 +523,10 @@
         "m3": "70.06"
       },
       {
-        "p": "[Target-Sensitive Memory Networks for Aspect Sentiment Classification](https://aclanthology.org/P18-1088)",
+        "p": {
+          "name": "Target-Sensitive Memory Networks for Aspect Sentiment Classification",
+          "link": "https://aclanthology.org/P18-1088"
+        },
         "c": "",
         "n": "NP (hops) ",
         "d": "2018-07-01",
@@ -412,8 +535,11 @@
         "m3": "72.43"
       },
       {
-        "p": "[Attention-based LSTM for Aspect-level Sentiment Classification](https://aclanthology.org/D16-1058)",
-        "c": "[&check;&nbsp;Link](https://github.com/microsoft/qlib/blob/main/qlib/contrib/model/pytorch_alstm.py)",
+        "p": {
+          "name": "Attention-based LSTM for Aspect-level Sentiment Classification",
+          "link": "https://aclanthology.org/D16-1058"
+        },
+        "c": "https://github.com/microsoft/qlib/blob/main/qlib/contrib/model/pytorch_alstm.py",
         "n": "ATAE-LSTM ",
         "d": "2016-11-01",
         "m1": "72.95",
@@ -421,8 +547,11 @@
         "m3": "68.70"
       },
       {
-        "p": "[Effective LSTMs for Target-Dependent Sentiment Classification](http://arxiv.org/abs/1512.01100v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/songyouwei/ABSA-PyTorch)",
+        "p": {
+          "name": "Effective LSTMs for Target-Dependent Sentiment Classification",
+          "link": "http://arxiv.org/abs/1512.01100v2"
+        },
+        "c": "https://github.com/songyouwei/ABSA-PyTorch",
         "n": "TD-LSTM",
         "d": "2015-12-03",
         "m1": "71.88",
@@ -430,37 +559,52 @@
         "m3": "68.13"
       },
       {
-        "p": "[Does BERT Understand Sentiment? Leveraging Comparisons Between Contextual and Non-Contextual Embeddings to Improve Aspect-Based Sentiment Models](https://arxiv.org/abs/2011.11673v1)",
+        "p": {
+          "name": "Does BERT Understand Sentiment? Leveraging Comparisons Between Contextual and Non-Contextual Embeddings to Improve Aspect-Based Sentiment Models",
+          "link": "https://arxiv.org/abs/2011.11673v1"
+        },
         "c": "",
         "n": "BERT-IL Finetuned",
         "d": "2020-11-23",
         "m2": "86.20"
       },
       {
-        "p": "[Attention and Lexicon Regularized LSTM for Aspect-based Sentiment Analysis](https://aclanthology.org/P19-2035)",
-        "c": "[&check;&nbsp;Link](https://github.com/LingxB/atlx)",
+        "p": {
+          "name": "Attention and Lexicon Regularized LSTM for Aspect-based Sentiment Analysis",
+          "link": "https://aclanthology.org/P19-2035"
+        },
+        "c": "https://github.com/LingxB/atlx",
         "n": "ATLX-Ent",
         "d": "2019-07-01",
         "m2": "82.86"
       },
       {
-        "p": "[Attention and Lexicon Regularized LSTM for Aspect-based Sentiment Analysis](https://aclanthology.org/P19-2035)",
-        "c": "[&check;&nbsp;Link](https://github.com/LingxB/atlx)",
+        "p": {
+          "name": "Attention and Lexicon Regularized LSTM for Aspect-based Sentiment Analysis",
+          "link": "https://aclanthology.org/P19-2035"
+        },
+        "c": "https://github.com/LingxB/atlx",
         "n": "ATLX",
         "d": "2019-07-01",
         "m2": "82.62"
       },
       {
-        "p": "[Transformation Networks for Target-Oriented Sentiment Classification](http://arxiv.org/abs/1805.01086v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/lixin4ever/TNet)",
+        "p": {
+          "name": "Transformation Networks for Target-Oriented Sentiment Classification",
+          "link": "http://arxiv.org/abs/1805.01086v1"
+        },
+        "c": "https://github.com/lixin4ever/TNet",
         "n": "TNet",
         "d": "2018-05-03",
         "m2": "80.79",
         "m3": "76.01"
       },
       {
-        "p": "[Aspect-based Sentiment Analysis using BERT with Disentangled Attention](https://research.latinxinai.org/papers/icml/2021/pdf/paper_28.pdf)",
-        "c": "[&check;&nbsp;Link](https://github.com/huberemanuel/ABSA-DeBERTa)",
+        "p": {
+          "name": "Aspect-based Sentiment Analysis using BERT with Disentangled Attention",
+          "link": "https://research.latinxinai.org/papers/icml/2021/pdf/paper_28.pdf"
+        },
+        "c": "https://github.com/huberemanuel/ABSA-DeBERTa",
         "n": "ABSA-DeBERTa",
         "d": "2021-07-18",
         "m1": "86,11",

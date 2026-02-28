@@ -63,7 +63,10 @@
     ],
     "items": [
       {
-        "p": "[Unlocking Pre-trained Image Backbones for Semantic Image Synthesis](https://arxiv.org/abs/2312.13314v2)",
+        "p": {
+          "name": "Unlocking Pre-trained Image Backbones for Semantic Image Synthesis",
+          "link": "https://arxiv.org/abs/2312.13314v2"
+        },
         "c": "",
         "n": "DP-SIMS (ConvNext-L)",
         "d": "2023-12-20",
@@ -71,16 +74,22 @@
         "m2": "38.2"
       },
       {
-        "p": "[Dual Pyramid Generative Adversarial Networks for Semantic Image Synthesis](https://arxiv.org/abs/2210.04085v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/sj-li/dp_gan)",
+        "p": {
+          "name": "Dual Pyramid Generative Adversarial Networks for Semantic Image Synthesis",
+          "link": "https://arxiv.org/abs/2210.04085v1"
+        },
+        "c": "https://github.com/sj-li/dp_gan",
         "n": "DP-GAN",
         "d": "2022-10-08",
         "m1": "73.6",
         "m2": "44.1"
       },
       {
-        "p": "[You Only Need Adversarial Supervision for Semantic Image Synthesis](https://arxiv.org/abs/2012.04781v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/boschresearch/OASIS)",
+        "p": {
+          "name": "You Only Need Adversarial Supervision for Semantic Image Synthesis",
+          "link": "https://arxiv.org/abs/2012.04781v3"
+        },
+        "c": "https://github.com/boschresearch/OASIS",
         "n": "OASIS",
         "d": "2020-12-08",
         "m1": "69.3",
@@ -88,8 +97,11 @@
         "m7": "0.275"
       },
       {
-        "p": "[SESAME: Semantic Editing of Scenes by Adding, Manipulating or Erasing Objects](https://arxiv.org/abs/2004.04977v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/vglsd/OpenSESAME)",
+        "p": {
+          "name": "SESAME: Semantic Editing of Scenes by Adding, Manipulating or Erasing Objects",
+          "link": "https://arxiv.org/abs/2004.04977v2"
+        },
+        "c": "https://github.com/vglsd/OpenSESAME",
         "n": "SPADE + SESAME",
         "d": "2020-04-10",
         "m1": "66",
@@ -97,8 +109,11 @@
         "m6": "82.5%"
       },
       {
-        "p": "[Learning to Predict Layout-to-image Conditional Convolutions for Semantic Image Synthesis](https://arxiv.org/abs/1910.06809v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/xh-liu/CC-FPSE)",
+        "p": {
+          "name": "Learning to Predict Layout-to-image Conditional Convolutions for Semantic Image Synthesis",
+          "link": "https://arxiv.org/abs/1910.06809v3"
+        },
+        "c": "https://github.com/xh-liu/CC-FPSE",
         "n": "CC-FPSE",
         "d": "2019-10-15",
         "m1": "65.5",
@@ -107,8 +122,11 @@
         "m7": "0.073"
       },
       {
-        "p": "[Focal Frequency Loss for Image Reconstruction and Synthesis](https://arxiv.org/abs/2012.12821v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/EndlessSora/focal-frequency-loss)",
+        "p": {
+          "name": "Focal Frequency Loss for Image Reconstruction and Synthesis",
+          "link": "https://arxiv.org/abs/2012.12821v3"
+        },
+        "c": "https://github.com/EndlessSora/focal-frequency-loss",
         "n": "SPADE + FFL",
         "d": "2020-12-23",
         "m1": "64.2",
@@ -116,7 +134,10 @@
         "m6": "82.5%"
       },
       {
-        "p": "[Improving Augmentation and Evaluation Schemes for Semantic Image Synthesis](https://arxiv.org/abs/2011.12636v3)",
+        "p": {
+          "name": "Improving Augmentation and Evaluation Schemes for Semantic Image Synthesis",
+          "link": "https://arxiv.org/abs/2011.12636v3"
+        },
         "c": "",
         "n": "CC-FPSE-AUG",
         "d": "2020-11-25",
@@ -125,8 +146,11 @@
         "m3": "93.5"
       },
       {
-        "p": "[Semantic Image Synthesis with Spatially-Adaptive Normalization](https://arxiv.org/abs/1903.07291v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/NVlabs/SPADE)",
+        "p": {
+          "name": "Semantic Image Synthesis with Spatially-Adaptive Normalization",
+          "link": "https://arxiv.org/abs/1903.07291v2"
+        },
+        "c": "https://github.com/NVlabs/SPADE",
         "n": "SPADE",
         "d": "2019-03-18",
         "m1": "62.3",
@@ -134,8 +158,11 @@
         "m6": "81.9%"
       },
       {
-        "p": "[High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs](http://arxiv.org/abs/1711.11585v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/NVIDIA/pix2pixHD)",
+        "p": {
+          "name": "High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs",
+          "link": "http://arxiv.org/abs/1711.11585v2"
+        },
+        "c": "https://github.com/NVIDIA/pix2pixHD",
         "n": "pix2pixHD",
         "d": "2017-11-30",
         "m1": "58.3",
@@ -143,7 +170,10 @@
         "m6": "81.4%"
       },
       {
-        "p": "[Improving Augmentation and Evaluation Schemes for Semantic Image Synthesis](https://arxiv.org/abs/2011.12636v3)",
+        "p": {
+          "name": "Improving Augmentation and Evaluation Schemes for Semantic Image Synthesis",
+          "link": "https://arxiv.org/abs/2011.12636v3"
+        },
         "c": "",
         "n": "Pix2PixHD-AUG",
         "d": "2020-11-25",
@@ -152,7 +182,10 @@
         "m3": "92.7"
       },
       {
-        "p": "[Photographic Image Synthesis with Cascaded Refinement Networks](http://arxiv.org/abs/1707.09405v1)",
+        "p": {
+          "name": "Photographic Image Synthesis with Cascaded Refinement Networks",
+          "link": "http://arxiv.org/abs/1707.09405v1"
+        },
         "c": "",
         "n": "CRN",
         "d": "2017-07-28",
@@ -161,8 +194,11 @@
         "m6": "77.1%"
       },
       {
-        "p": "[Semi-parametric Image Synthesis](http://arxiv.org/abs/1804.10992v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/xjqicuhk/SIMS)",
+        "p": {
+          "name": "Semi-parametric Image Synthesis",
+          "link": "http://arxiv.org/abs/1804.10992v1"
+        },
+        "c": "https://github.com/xjqicuhk/SIMS",
         "n": "SIMS",
         "d": "2018-04-29",
         "m1": "47.2",
@@ -170,31 +206,43 @@
         "m6": "75.5%"
       },
       {
-        "p": "[USIS: Unsupervised Semantic Image Synthesis](https://arxiv.org/abs/2109.14715v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/GeorgeEskandar/USIS-Unsupervised-Semantic-Image-Synthesis)",
+        "p": {
+          "name": "USIS: Unsupervised Semantic Image Synthesis",
+          "link": "https://arxiv.org/abs/2109.14715v1"
+        },
+        "c": "https://github.com/GeorgeEskandar/USIS-Unsupervised-Semantic-Image-Synthesis",
         "n": "USIS",
         "d": "2021-09-29",
         "m1": "44.78",
         "m2": "53.67"
       },
       {
-        "p": "[Wavelet-based Unsupervised Label-to-Image Translation](https://arxiv.org/abs/2305.09647v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/GeorgeEskandar/USIS-Unsupervised-Semantic-Image-Synthesis)",
+        "p": {
+          "name": "Wavelet-based Unsupervised Label-to-Image Translation",
+          "link": "https://arxiv.org/abs/2305.09647v1"
+        },
+        "c": "https://github.com/GeorgeEskandar/USIS-Unsupervised-Semantic-Image-Synthesis",
         "n": "USIS-Wavelet",
         "d": "2023-05-16",
         "m1": "42.32",
         "m2": "50.14"
       },
       {
-        "p": "[Semantic Bottleneck Scene Generation](https://arxiv.org/abs/1911.11357v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/azadis/SB-GAN)",
+        "p": {
+          "name": "Semantic Bottleneck Scene Generation",
+          "link": "https://arxiv.org/abs/1911.11357v1"
+        },
+        "c": "https://github.com/azadis/SB-GAN",
         "n": "SB-GAN",
         "d": "2019-11-26",
         "m2": "60.39"
       },
       {
-        "p": "[Image-to-Image Translation with Conditional Adversarial Networks](http://arxiv.org/abs/1611.07004v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/research/gan)",
+        "p": {
+          "name": "Image-to-Image Translation with Conditional Adversarial Networks",
+          "link": "http://arxiv.org/abs/1611.07004v3"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/research/gan",
         "n": "pix2pix",
         "d": "2016-11-21",
         "m4": "0.18",
@@ -203,8 +251,11 @@
         "m7": "0"
       },
       {
-        "p": "[Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks](https://arxiv.org/abs/1703.10593v7)",
-        "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+        "p": {
+          "name": "Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks",
+          "link": "https://arxiv.org/abs/1703.10593v7"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
         "n": "CycleGAN",
         "d": "2017-03-30",
         "m4": " 0.11",
@@ -212,8 +263,11 @@
         "m6": "52%"
       },
       {
-        "p": "[Coupled Generative Adversarial Networks](http://arxiv.org/abs/1606.07536v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/eriklindernoren/PyTorch-GAN)",
+        "p": {
+          "name": "Coupled Generative Adversarial Networks",
+          "link": "http://arxiv.org/abs/1606.07536v2"
+        },
+        "c": "https://github.com/eriklindernoren/PyTorch-GAN",
         "n": "CoGAN",
         "d": "2016-06-24",
         "m4": "0.06",
@@ -221,8 +275,11 @@
         "m6": "40%"
       },
       {
-        "p": "[Learning from Simulated and Unsupervised Images through Adversarial Training](http://arxiv.org/abs/1612.07828v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/carpedm20/simulated-unsupervised-tensorflow)",
+        "p": {
+          "name": "Learning from Simulated and Unsupervised Images through Adversarial Training",
+          "link": "http://arxiv.org/abs/1612.07828v2"
+        },
+        "c": "https://github.com/carpedm20/simulated-unsupervised-tensorflow",
         "n": "SimGAN",
         "d": "2016-12-22",
         "m4": "0.04",
@@ -230,8 +287,11 @@
         "m6": "20%"
       },
       {
-        "p": "[Adversarially Learned Inference](http://arxiv.org/abs/1606.00704v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/tree/main/Adversarially_Learned_Inference)",
+        "p": {
+          "name": "Adversarially Learned Inference",
+          "link": "http://arxiv.org/abs/1606.00704v3"
+        },
+        "c": "https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/tree/main/Adversarially_Learned_Inference",
         "n": "BiGAN",
         "d": "2016-06-02",
         "m4": " 0.02",
@@ -239,8 +299,11 @@
         "m6": "19%"
       },
       {
-        "p": "[Diverse Semantic Image Synthesis via Probability Distribution Modeling](https://arxiv.org/abs/2103.06878v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/tzt101/INADE)",
+        "p": {
+          "name": "Diverse Semantic Image Synthesis via Probability Distribution Modeling",
+          "link": "https://arxiv.org/abs/2103.06878v1"
+        },
+        "c": "https://github.com/tzt101/INADE",
         "n": "INADE",
         "d": "2021-03-11",
         "m7": "0.248"

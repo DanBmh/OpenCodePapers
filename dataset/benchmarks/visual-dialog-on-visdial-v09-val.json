@@ -54,8 +54,11 @@
     ],
     "items": [
       {
-        "p": "[Factor Graph Attention](https://arxiv.org/abs/1904.05880v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/idansc/fga)",
+        "p": {
+          "name": "Factor Graph Attention",
+          "link": "https://arxiv.org/abs/1904.05880v3"
+        },
+        "c": "https://github.com/idansc/fga",
         "n": "9xFGA (VGG)",
         "d": "2019-04-11",
         "m1": "68.92",
@@ -65,8 +68,11 @@
         "m5": "3.39"
       },
       {
-        "p": "[Dual Attention Networks for Visual Reference Resolution in Visual Dialog](https://arxiv.org/abs/1902.09368v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/gicheonkang/DAN-VisDial)",
+        "p": {
+          "name": "Dual Attention Networks for Visual Reference Resolution in Visual Dialog",
+          "link": "https://arxiv.org/abs/1902.09368v3"
+        },
+        "c": "https://github.com/gicheonkang/DAN-VisDial",
         "n": "DAN",
         "d": "2019-02-25",
         "m1": "66.38",
@@ -76,8 +82,11 @@
         "m5": "4.04"
       },
       {
-        "p": "[Visual Coreference Resolution in Visual Dialog using Neural Module Networks](http://arxiv.org/abs/1809.01816v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/corefnmn)",
+        "p": {
+          "name": "Visual Coreference Resolution in Visual Dialog using Neural Module Networks",
+          "link": "http://arxiv.org/abs/1809.01816v1"
+        },
+        "c": "https://github.com/facebookresearch/corefnmn",
         "n": "CorefNMN (ResNet-152)",
         "d": "2018-09-06",
         "m1": "64.1",
@@ -87,7 +96,10 @@
         "m5": "4.45"
       },
       {
-        "p": "[Are You Talking to Me? Reasoned Visual Dialog Generation through Adversarial Learning](http://arxiv.org/abs/1711.07613v1)",
+        "p": {
+          "name": "Are You Talking to Me? Reasoned Visual Dialog Generation through Adversarial Learning",
+          "link": "http://arxiv.org/abs/1711.07613v1"
+        },
         "c": "",
         "n": "CoAtt",
         "d": "2017-11-21",
@@ -98,8 +110,11 @@
         "m5": "4.47"
       },
       {
-        "p": "[Visual Coreference Resolution in Visual Dialog using Neural Module Networks](http://arxiv.org/abs/1809.01816v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/corefnmn)",
+        "p": {
+          "name": "Visual Coreference Resolution in Visual Dialog using Neural Module Networks",
+          "link": "http://arxiv.org/abs/1809.01816v1"
+        },
+        "c": "https://github.com/facebookresearch/corefnmn",
         "n": "CorefNMN",
         "d": "2018-09-06",
         "m1": "63.6",
@@ -109,8 +124,11 @@
         "m5": "4.53"
       },
       {
-        "p": "[DualVD: An Adaptive Dual Encoding Model for Deep Visual Understanding in Visual Dialogue](https://arxiv.org/abs/1911.07251v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/JXZe/DualVD)",
+        "p": {
+          "name": "DualVD: An Adaptive Dual Encoding Model for Deep Visual Understanding in Visual Dialogue",
+          "link": "https://arxiv.org/abs/1911.07251v1"
+        },
+        "c": "https://github.com/JXZe/DualVD",
         "n": "DualVD",
         "d": "2019-11-17",
         "m1": "62.94",
@@ -120,7 +138,10 @@
         "m5": "4.17"
       },
       {
-        "p": "[Two can play this Game: Visual Dialog with Discriminative Question Generation and Answering](http://arxiv.org/abs/1803.11186v1)",
+        "p": {
+          "name": "Two can play this Game: Visual Dialog with Discriminative Question Generation and Answering",
+          "link": "http://arxiv.org/abs/1803.11186v1"
+        },
         "c": "",
         "n": "SF-QIH-se-2",
         "d": "2018-03-29",
@@ -131,8 +152,11 @@
         "m5": "4.70"
       },
       {
-        "p": "[Best of Both Worlds: Transferring Knowledge from Discriminative Learning to a Generative Visual Dialog Model](http://arxiv.org/abs/1706.01554v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/jiasenlu/visDial.pytorch)",
+        "p": {
+          "name": "Best of Both Worlds: Transferring Knowledge from Discriminative Learning to a Generative Visual Dialog Model",
+          "link": "http://arxiv.org/abs/1706.01554v2"
+        },
+        "c": "https://github.com/jiasenlu/visDial.pytorch",
         "n": "HCIAE-NP-ATT",
         "d": "2017-06-05",
         "m1": "62.22",
@@ -142,8 +166,11 @@
         "m5": "4.81"
       },
       {
-        "p": "[Hierarchical Question-Image Co-Attention for Visual Question Answering](http://arxiv.org/abs/1606.00061v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/jiasenlu/HieCoAttenVQA)",
+        "p": {
+          "name": "Hierarchical Question-Image Co-Attention for Visual Question Answering",
+          "link": "http://arxiv.org/abs/1606.00061v5"
+        },
+        "c": "https://github.com/jiasenlu/HieCoAttenVQA",
         "n": "HieCoAtt-QI",
         "d": "2016-05-31",
         "m1": "57.88",
@@ -153,7 +180,10 @@
         "m5": "5.84"
       },
       {
-        "p": "[Making History Matter: History-Advantage Sequence Training for Visual Dialog](http://arxiv.org/abs/1902.09326v3)",
+        "p": {
+          "name": "Making History Matter: History-Advantage Sequence Training for Visual Dialog",
+          "link": "http://arxiv.org/abs/1902.09326v3"
+        },
         "c": "",
         "n": "HACAN",
         "d": "2019-02-25",
@@ -164,8 +194,11 @@
         "m5": "3.97"
       },
       {
-        "p": "[Multi-View Attention Network for Visual Dialog](https://arxiv.org/abs/2004.14025v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/taesunwhang/MVAN-VisDial)",
+        "p": {
+          "name": "Multi-View Attention Network for Visual Dialog",
+          "link": "https://arxiv.org/abs/2004.14025v3"
+        },
+        "c": "https://github.com/taesunwhang/MVAN-VisDial",
         "n": "MVAN",
         "d": "2020-04-29",
         "m1": "0.6765",
@@ -175,8 +208,11 @@
         "m5": "3.73"
       },
       {
-        "p": "[Iterative Context-Aware Graph Inference for Visual Dialog](https://arxiv.org/abs/2004.02194v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/wh0330/CAG_VisDial)",
+        "p": {
+          "name": "Iterative Context-Aware Graph Inference for Visual Dialog",
+          "link": "https://arxiv.org/abs/2004.02194v1"
+        },
+        "c": "https://github.com/wh0330/CAG_VisDial",
         "n": "CAG",
         "d": "2020-04-05",
         "m1": "0.6756",
@@ -186,8 +222,11 @@
         "m5": "3.75"
       },
       {
-        "p": "[Recursive Visual Attention in Visual Dialog](http://arxiv.org/abs/1812.02664v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/yuleiniu/rva)",
+        "p": {
+          "name": "Recursive Visual Attention in Visual Dialog",
+          "link": "http://arxiv.org/abs/1812.02664v2"
+        },
+        "c": "https://github.com/yuleiniu/rva",
         "n": "RVA",
         "d": "2018-12-06",
         "m1": "0.6634",
@@ -197,8 +236,11 @@
         "m5": "3.93"
       },
       {
-        "p": "[Reasoning Visual Dialogs with Structural and Partial Observations](https://arxiv.org/abs/1904.05548v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/zilongzheng/visdial-gnn)",
+        "p": {
+          "name": "Reasoning Visual Dialogs with Structural and Partial Observations",
+          "link": "https://arxiv.org/abs/1904.05548v2"
+        },
+        "c": "https://github.com/zilongzheng/visdial-gnn",
         "n": "GNN",
         "d": "2019-04-11",
         "m1": "0.6285",
@@ -208,8 +250,11 @@
         "m5": "4.57"
       },
       {
-        "p": "[Visual Dialog](http://arxiv.org/abs/1611.08669v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/ParlAI)",
+        "p": {
+          "name": "Visual Dialog",
+          "link": "http://arxiv.org/abs/1611.08669v5"
+        },
+        "c": "https://github.com/facebookresearch/ParlAI",
         "n": "MN-QIH-D",
         "d": "2016-11-26",
         "m1": "0.5965",
@@ -219,8 +264,11 @@
         "m5": "5.46"
       },
       {
-        "p": "[Visual Dialog](http://arxiv.org/abs/1611.08669v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/ParlAI)",
+        "p": {
+          "name": "Visual Dialog",
+          "link": "http://arxiv.org/abs/1611.08669v5"
+        },
+        "c": "https://github.com/facebookresearch/ParlAI",
         "n": "HRE-QIH-D",
         "d": "2016-11-26",
         "m1": "0.5846",
@@ -230,8 +278,11 @@
         "m5": "5.72"
       },
       {
-        "p": "[Visual Dialog](http://arxiv.org/abs/1611.08669v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/ParlAI)",
+        "p": {
+          "name": "Visual Dialog",
+          "link": "http://arxiv.org/abs/1611.08669v5"
+        },
+        "c": "https://github.com/facebookresearch/ParlAI",
         "n": "HRE-QIH-D",
         "d": "2016-11-26",
         "m1": "0.5807",
@@ -241,7 +292,10 @@
         "m5": "5.78"
       },
       {
-        "p": "[Visual Reference Resolution using Attention Memory for Visual Dialog](http://arxiv.org/abs/1709.07992v3)",
+        "p": {
+          "name": "Visual Reference Resolution using Attention Memory for Visual Dialog",
+          "link": "http://arxiv.org/abs/1709.07992v3"
+        },
         "c": "",
         "n": "AMEM",
         "d": "2017-09-23",

@@ -39,30 +39,42 @@
     ],
     "items": [
       {
-        "p": "[An end-to-end attention-based approach for learning on graphs](https://arxiv.org/abs/2402.10793v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/davidbuterez/edge-set-attention)",
+        "p": {
+          "name": "An end-to-end attention-based approach for learning on graphs",
+          "link": "https://arxiv.org/abs/2402.10793v2"
+        },
+        "c": "https://github.com/davidbuterez/edge-set-attention",
         "n": "ESA (Edge set attention, no positional encodings)",
         "d": "2024-02-16",
         "m1": "94.800±0.424",
         "m2": "0.935±0.005"
       },
       {
-        "p": "[Unlocking the Potential of Classic GNNs for Graph-level Tasks: Simple Architectures Meet Excellence](https://arxiv.org/abs/2502.09263v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/LUOyk1999/GNNPlus)",
+        "p": {
+          "name": "Unlocking the Potential of Classic GNNs for Graph-level Tasks: Simple Architectures Meet Excellence",
+          "link": "https://arxiv.org/abs/2502.09263v1"
+        },
+        "c": "https://github.com/LUOyk1999/GNNPlus",
         "n": "GatedGCN+",
         "d": "2025-02-13",
         "m1": "94.600±0.570"
       },
       {
-        "p": "[Exphormer: Sparse Transformers for Graphs](https://arxiv.org/abs/2303.06147v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/hamed1375/exphormer)",
+        "p": {
+          "name": "Exphormer: Sparse Transformers for Graphs",
+          "link": "https://arxiv.org/abs/2303.06147v2"
+        },
+        "c": "https://github.com/hamed1375/exphormer",
         "n": "Exphormer",
         "d": "2023-03-10",
         "m1": "94.02±0.209"
       },
       {
-        "p": "[Recipe for a General, Powerful, Scalable Graph Transformer](https://arxiv.org/abs/2205.12454v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/rampasek/GraphGPS)",
+        "p": {
+          "name": "Recipe for a General, Powerful, Scalable Graph Transformer",
+          "link": "https://arxiv.org/abs/2205.12454v4"
+        },
+        "c": "https://github.com/rampasek/GraphGPS",
         "n": "GPS",
         "d": "2022-05-25",
         "m1": "93.36 ± 0.6"

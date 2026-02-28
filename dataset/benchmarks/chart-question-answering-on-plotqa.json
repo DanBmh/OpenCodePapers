@@ -33,43 +33,61 @@
     ],
     "items": [
       {
-        "p": "[Synthesize Step-by-Step: Tools Templates and LLMs as Data Generators for Reasoning-Based Chart VQA](http://openaccess.thecvf.com//content/CVPR2024/html/Li_Synthesize_Step-by-Step_Tools_Templates_and_LLMs_as_Data_Generators_for_CVPR_2024_paper.html)",
+        "p": {
+          "name": "Synthesize Step-by-Step: Tools Templates and LLMs as Data Generators for Reasoning-Based Chart VQA",
+          "link": "http://openaccess.thecvf.com//content/CVPR2024/html/Li_Synthesize_Step-by-Step_Tools_Templates_and_LLMs_as_Data_Generators_for_CVPR_2024_paper.html"
+        },
         "c": "",
         "n": "MatCha4096 + LaMenDa",
         "d": "2024-01-01",
         "m1": "92.89"
       },
       {
-        "p": "[MatCha: Enhancing Visual Language Pretraining with Math Reasoning and Chart Derendering](https://arxiv.org/abs/2212.09662v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "MatCha: Enhancing Visual Language Pretraining with Math Reasoning and Chart Derendering",
+          "link": "https://arxiv.org/abs/2212.09662v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "MatCha",
         "d": "2022-12-19",
         "m1": "91.5"
       },
       {
-        "p": "[DePlot: One-shot visual language reasoning by plot-to-table translation](https://arxiv.org/abs/2212.10505v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "DePlot: One-shot visual language reasoning by plot-to-table translation",
+          "link": "https://arxiv.org/abs/2212.10505v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "DePlot+FlanPaLM+Codex\n(PoT Self-Consistency)",
         "d": "2022-12-20",
         "m1": "66.6"
       },
       {
-        "p": "[ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning](https://arxiv.org/abs/2203.10244v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/vis-nlp/chartqa)",
+        "p": {
+          "name": "ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning",
+          "link": "https://arxiv.org/abs/2203.10244v1"
+        },
+        "c": "https://github.com/vis-nlp/chartqa",
         "n": "VL-T5-OCR",
         "d": "2022-03-19",
         "m1": "66.0"
       },
       {
-        "p": "[Classification-Regression for Chart Comprehension](https://arxiv.org/abs/2111.14792v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/levymsn/cqa-crct)",
+        "p": {
+          "name": "Classification-Regression for Chart Comprehension",
+          "link": "https://arxiv.org/abs/2111.14792v2"
+        },
+        "c": "https://github.com/levymsn/cqa-crct",
         "n": "CRCT",
         "d": "2021-11-29",
         "m1": "55.7"
       },
       {
-        "p": "[ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning](https://arxiv.org/abs/2203.10244v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/vis-nlp/chartqa)",
+        "p": {
+          "name": "ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning",
+          "link": "https://arxiv.org/abs/2203.10244v1"
+        },
+        "c": "https://github.com/vis-nlp/chartqa",
         "n": "VisionTapas-OCR",
         "d": "2022-03-19",
         "m1": "53.9"

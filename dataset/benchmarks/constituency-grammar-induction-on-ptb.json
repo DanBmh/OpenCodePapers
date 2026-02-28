@@ -49,60 +49,84 @@
     ],
     "items": [
       {
-        "p": "[Ensemble Distillation for Unsupervised Constituency Parsing](https://arxiv.org/abs/2310.01717v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/manga-uofa/ed4ucp)",
+        "p": {
+          "name": "Ensemble Distillation for Unsupervised Constituency Parsing",
+          "link": "https://arxiv.org/abs/2310.01717v2"
+        },
+        "c": "https://github.com/manga-uofa/ed4ucp",
         "n": "Ensemble (Generative MBR)",
         "d": "2023-10-03",
         "m1": "70.4",
         "m2": "71.9"
       },
       {
-        "p": "[Structural Optimization Ambiguity and Simplicity Bias in Unsupervised Neural Grammar Induction](https://arxiv.org/abs/2407.16181v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/GIST-IRR/Parse-Focusing)",
+        "p": {
+          "name": "Structural Optimization Ambiguity and Simplicity Bias in Unsupervised Neural Grammar Induction",
+          "link": "https://arxiv.org/abs/2407.16181v1"
+        },
+        "c": "https://github.com/GIST-IRR/Parse-Focusing",
         "n": "Parse-Focused (NT=4500)",
         "d": "2024-07-23",
         "m1": "69.6",
         "m2": "70.3"
       },
       {
-        "p": "[Structural Optimization Ambiguity and Simplicity Bias in Unsupervised Neural Grammar Induction](https://arxiv.org/abs/2407.16181v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/GIST-IRR/Parse-Focusing)",
+        "p": {
+          "name": "Structural Optimization Ambiguity and Simplicity Bias in Unsupervised Neural Grammar Induction",
+          "link": "https://arxiv.org/abs/2407.16181v1"
+        },
+        "c": "https://github.com/GIST-IRR/Parse-Focusing",
         "n": "Parse-Focused (NT=30)",
         "d": "2024-07-23",
         "m1": "67.4",
         "m2": "68.4"
       },
       {
-        "p": "[Improving Unsupervised Constituency Parsing via Maximizing Semantic Information](https://arxiv.org/abs/2410.02558v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/junjiechen-chris/improving-unsupervised-constituency-parsing-via-maximizing-semantic-information)",
+        "p": {
+          "name": "Improving Unsupervised Constituency Parsing via Maximizing Semantic Information",
+          "link": "https://arxiv.org/abs/2410.02558v2"
+        },
+        "c": "https://github.com/junjiechen-chris/improving-unsupervised-constituency-parsing-via-maximizing-semantic-information",
         "n": "SemInfo-SCPCFG (1024NT)",
         "d": "2024-10-03",
         "m1": "66.92"
       },
       {
-        "p": "[Ensemble Distillation for Unsupervised Constituency Parsing](https://arxiv.org/abs/2310.01717v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/manga-uofa/ed4ucp)",
+        "p": {
+          "name": "Ensemble Distillation for Unsupervised Constituency Parsing",
+          "link": "https://arxiv.org/abs/2310.01717v2"
+        },
+        "c": "https://github.com/manga-uofa/ed4ucp",
         "n": "Ensemble (Selective MBR)",
         "d": "2023-10-03",
         "m1": "66.2"
       },
       {
-        "p": "[Augmenting Transformers with Recursively Composed Multi-grained Representations](https://arxiv.org/abs/2309.16319v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/ant-research/structuredlm_rtdt)",
+        "p": {
+          "name": "Augmenting Transformers with Recursively Composed Multi-grained Representations",
+          "link": "https://arxiv.org/abs/2309.16319v2"
+        },
+        "c": "https://github.com/ant-research/structuredlm_rtdt",
         "n": "ReCAT",
         "d": "2023-09-28",
         "m1": "65.0"
       },
       {
-        "p": "[Dynamic Programming in Rank Space: Scaling Structured Inference with Low-Rank HMMs and PCFGs](https://arxiv.org/abs/2205.00484v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/sustcsonglin/TN-PCFG)",
+        "p": {
+          "name": "Dynamic Programming in Rank Space: Scaling Structured Inference with Low-Rank HMMs and PCFGs",
+          "link": "https://arxiv.org/abs/2205.00484v1"
+        },
+        "c": "https://github.com/sustcsonglin/TN-PCFG",
         "n": "DP in rank space",
         "d": "2022-05-01",
         "m1": "64.1"
       },
       {
-        "p": "[Co-training an Unsupervised Constituency Parser with Weak Supervision](https://arxiv.org/abs/2110.02283v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/Nickil21/weakly-supervised-parsing)",
+        "p": {
+          "name": "Co-training an Unsupervised Constituency Parser with Weak Supervision",
+          "link": "https://arxiv.org/abs/2110.02283v2"
+        },
+        "c": "https://github.com/Nickil21/weakly-supervised-parsing",
         "n": "inside-outside co-training + weak supervision",
         "d": "2021-10-05",
         "m1": "63.1",
@@ -110,30 +134,42 @@
         "m3": "74.2"
       },
       {
-        "p": "[On Eliciting Syntax from Language Models via Hashing](https://arxiv.org/abs/2410.04074v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/speedcell4/parserker)",
+        "p": {
+          "name": "On Eliciting Syntax from Language Models via Hashing",
+          "link": "https://arxiv.org/abs/2410.04074v1"
+        },
+        "c": "https://github.com/speedcell4/parserker",
         "n": "Hashing (Parserker 2)",
         "d": "2024-10-05",
         "m1": "62.4",
         "m2": "64.1"
       },
       {
-        "p": "[Neural Bi-Lexicalized PCFG Induction](https://arxiv.org/abs/2105.15021v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/sustcsonglin/TN-PCFG)",
+        "p": {
+          "name": "Neural Bi-Lexicalized PCFG Induction",
+          "link": "https://arxiv.org/abs/2105.15021v1"
+        },
+        "c": "https://github.com/sustcsonglin/TN-PCFG",
         "n": "NBL-PCFG",
         "d": "2021-05-31",
         "m1": "60.4"
       },
       {
-        "p": "[PCFGs Can Do Better: Inducing Probabilistic Context-Free Grammars with Many Symbols](https://arxiv.org/abs/2104.13727v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/sustcsonglin/TN-PCFG)",
+        "p": {
+          "name": "PCFGs Can Do Better: Inducing Probabilistic Context-Free Grammars with Many Symbols",
+          "link": "https://arxiv.org/abs/2104.13727v1"
+        },
+        "c": "https://github.com/sustcsonglin/TN-PCFG",
         "n": "TN-PCFG (p=500)",
         "d": "2021-04-28",
         "m1": "57.7",
         "m2": "61.4"
       },
       {
-        "p": "[Unsupervised Parsing with S-DIORA: Single Tree Encoding for Deep Inside-Outside Recursive Autoencoders](https://aclanthology.org/2020.emnlp-main.392)",
+        "p": {
+          "name": "Unsupervised Parsing with S-DIORA: Single Tree Encoding for Deep Inside-Outside Recursive Autoencoders",
+          "link": "https://aclanthology.org/2020.emnlp-main.392"
+        },
         "c": "",
         "n": "S-DIORA",
         "d": null,
@@ -142,15 +178,21 @@
         "m4": "71.8"
       },
       {
-        "p": "[Fast-R2D2: A Pretrained Recursive Neural Network based on Pruned CKY for Grammar Induction and Text Representation](https://arxiv.org/abs/2203.00281v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/alipay/StructuredLM_RTDT)",
+        "p": {
+          "name": "Fast-R2D2: A Pretrained Recursive Neural Network based on Pruned CKY for Grammar Induction and Text Representation",
+          "link": "https://arxiv.org/abs/2203.00281v3"
+        },
+        "c": "https://github.com/alipay/StructuredLM_RTDT",
         "n": "Fast-R2D2",
         "d": "2022-03-01",
         "m1": "57.2"
       },
       {
-        "p": "[Unsupervised Latent Tree Induction with Deep Inside-Outside Recursive Auto-Encoders](https://aclanthology.org/N19-1116)",
-        "c": "[&check;&nbsp;Link](https://github.com/iesl/diora)",
+        "p": {
+          "name": "Unsupervised Latent Tree Induction with Deep Inside-Outside Recursive Auto-Encoders",
+          "link": "https://aclanthology.org/N19-1116"
+        },
+        "c": "https://github.com/iesl/diora",
         "n": "DIORA (+PP)",
         "d": "2019-06-01",
         "m1": "55.7",
@@ -158,8 +200,11 @@
         "m4": "60.55"
       },
       {
-        "p": "[Compound Probabilistic Context-Free Grammars for Grammar Induction](https://arxiv.org/abs/1906.10225v9)",
-        "c": "[&check;&nbsp;Link](https://github.com/harvardnlp/compound-pcfg)",
+        "p": {
+          "name": "Compound Probabilistic Context-Free Grammars for Grammar Induction",
+          "link": "https://arxiv.org/abs/1906.10225v9"
+        },
+        "c": "https://github.com/harvardnlp/compound-pcfg",
         "n": "Compound PCFG",
         "d": "2019-06-24",
         "m1": "55.2",
@@ -167,23 +212,32 @@
         "m4": "68.8"
       },
       {
-        "p": "[Generative Pretrained Structured Transformers: Unsupervised Syntactic Language Models at Scale](https://arxiv.org/abs/2403.08293v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/ant-research/structuredlm_rtdt)",
+        "p": {
+          "name": "Generative Pretrained Structured Transformers: Unsupervised Syntactic Language Models at Scale",
+          "link": "https://arxiv.org/abs/2403.08293v3"
+        },
+        "c": "https://github.com/ant-research/structuredlm_rtdt",
         "n": "GPST(left to right parsing)",
         "d": "2024-03-13",
         "m1": "55.2"
       },
       {
-        "p": "[Compound Probabilistic Context-Free Grammars for Grammar Induction](https://arxiv.org/abs/1906.10225v9)",
-        "c": "[&check;&nbsp;Link](https://github.com/harvardnlp/compound-pcfg)",
+        "p": {
+          "name": "Compound Probabilistic Context-Free Grammars for Grammar Induction",
+          "link": "https://arxiv.org/abs/1906.10225v9"
+        },
+        "c": "https://github.com/harvardnlp/compound-pcfg",
         "n": "Neural PCFG",
         "d": "2019-06-24",
         "m1": "50.8",
         "m2": "52.6"
       },
       {
-        "p": "[Unsupervised Latent Tree Induction with Deep Inside-Outside Recursive Auto-Encoders](https://aclanthology.org/N19-1116)",
-        "c": "[&check;&nbsp;Link](https://github.com/iesl/diora)",
+        "p": {
+          "name": "Unsupervised Latent Tree Induction with Deep Inside-Outside Recursive Auto-Encoders",
+          "link": "https://aclanthology.org/N19-1116"
+        },
+        "c": "https://github.com/iesl/diora",
         "n": "DIORA",
         "d": "2019-06-01",
         "m1": "48.9",
@@ -192,24 +246,33 @@
         "m4": "68.5"
       },
       {
-        "p": "[Ordered Neurons: Integrating Tree Structures into Recurrent Neural Networks](https://arxiv.org/abs/1810.09536v6)",
-        "c": "[&check;&nbsp;Link](https://github.com/yikangshen/Ordered-Neurons)",
+        "p": {
+          "name": "Ordered Neurons: Integrating Tree Structures into Recurrent Neural Networks",
+          "link": "https://arxiv.org/abs/1810.09536v6"
+        },
+        "c": "https://github.com/yikangshen/Ordered-Neurons",
         "n": "ON-LSTM (tuned)",
         "d": "2018-10-22",
         "m1": "48.1",
         "m2": "50.0"
       },
       {
-        "p": "[Unsupervised Learning of Syntactic Structure with Invertible Neural Projections](http://arxiv.org/abs/1808.09111v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/jxhe/struct-learning-with-flow)",
+        "p": {
+          "name": "Unsupervised Learning of Syntactic Structure with Invertible Neural Projections",
+          "link": "http://arxiv.org/abs/1808.09111v1"
+        },
+        "c": "https://github.com/jxhe/struct-learning-with-flow",
         "n": "DMV + invertible projector",
         "d": "2018-08-28",
         "m1": "47.9",
         "m3": "60.2"
       },
       {
-        "p": "[Ordered Neurons: Integrating Tree Structures into Recurrent Neural Networks](https://arxiv.org/abs/1810.09536v6)",
-        "c": "[&check;&nbsp;Link](https://github.com/yikangshen/Ordered-Neurons)",
+        "p": {
+          "name": "Ordered Neurons: Integrating Tree Structures into Recurrent Neural Networks",
+          "link": "https://arxiv.org/abs/1810.09536v6"
+        },
+        "c": "https://github.com/yikangshen/Ordered-Neurons",
         "n": "ON-LSTM",
         "d": "2018-10-22",
         "m1": "47.7",
@@ -218,23 +281,32 @@
         "m4": "66.8"
       },
       {
-        "p": "[Neural Language Modeling by Jointly Learning Syntax and Lexicon](http://arxiv.org/abs/1711.02013v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/nyu-mll/PRPN-Analysis)",
+        "p": {
+          "name": "Neural Language Modeling by Jointly Learning Syntax and Lexicon",
+          "link": "http://arxiv.org/abs/1711.02013v2"
+        },
+        "c": "https://github.com/nyu-mll/PRPN-Analysis",
         "n": "PRPN (tuned)",
         "d": "2017-11-02",
         "m1": "47.3",
         "m2": "47.9"
       },
       {
-        "p": "[Unsupervised Recurrent Neural Network Grammars](https://arxiv.org/abs/1904.03746v6)",
-        "c": "[&check;&nbsp;Link](https://github.com/harvardnlp/urnng)",
+        "p": {
+          "name": "Unsupervised Recurrent Neural Network Grammars",
+          "link": "https://arxiv.org/abs/1904.03746v6"
+        },
+        "c": "https://github.com/harvardnlp/urnng",
         "n": "URNNG",
         "d": "2019-04-07",
         "m2": "52.4"
       },
       {
-        "p": "[Neural Language Modeling by Jointly Learning Syntax and Lexicon](http://arxiv.org/abs/1711.02013v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/nyu-mll/PRPN-Analysis)",
+        "p": {
+          "name": "Neural Language Modeling by Jointly Learning Syntax and Lexicon",
+          "link": "http://arxiv.org/abs/1711.02013v2"
+        },
+        "c": "https://github.com/nyu-mll/PRPN-Analysis",
         "n": "PRPN",
         "d": "2017-11-02",
         "m2": "38.1"

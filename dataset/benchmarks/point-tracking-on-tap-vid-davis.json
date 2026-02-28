@@ -43,8 +43,11 @@
     ],
     "items": [
       {
-        "p": "[Local All-Pair Correspondence for Point Tracking](https://arxiv.org/abs/2407.15420v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/cvlab-kaist/locotrack)",
+        "p": {
+          "name": "Local All-Pair Correspondence for Point Tracking",
+          "link": "https://arxiv.org/abs/2407.15420v1"
+        },
+        "c": "https://github.com/cvlab-kaist/locotrack",
         "n": "LocoTrack-B",
         "d": "2024-07-22",
         "m1": "69.4",
@@ -52,8 +55,11 @@
         "m3": "88.6"
       },
       {
-        "p": "[BootsTAP: Bootstrapped Training for Tracking-Any-Point](https://arxiv.org/abs/2402.00847v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-deepmind/tapnet)",
+        "p": {
+          "name": "BootsTAP: Bootstrapped Training for Tracking-Any-Point",
+          "link": "https://arxiv.org/abs/2402.00847v2"
+        },
+        "c": "https://github.com/google-deepmind/tapnet",
         "n": "BootsTAPIR",
         "d": "2024-02-01",
         "m1": "66.2",
@@ -61,8 +67,11 @@
         "m3": "91"
       },
       {
-        "p": "[CoTracker: It is Better to Track Together](https://arxiv.org/abs/2307.07635v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/co-tracker)",
+        "p": {
+          "name": "CoTracker: It is Better to Track Together",
+          "link": "https://arxiv.org/abs/2307.07635v3"
+        },
+        "c": "https://github.com/facebookresearch/co-tracker",
         "n": "CoTracker",
         "d": "2023-07-14",
         "m1": "65.9",

@@ -86,8 +86,11 @@
         "m2": "92.899"
       },
       {
-        "p": "[Retrospective Reader for Machine Reading Comprehension](https://arxiv.org/abs/2001.09694v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/cooelf/AwesomeMRC)",
+        "p": {
+          "name": "Retrospective Reader for Machine Reading Comprehension",
+          "link": "https://arxiv.org/abs/2001.09694v4"
+        },
+        "c": "https://github.com/cooelf/AwesomeMRC",
         "n": "Retro-Reader (ensemble)",
         "d": "2020-01-27",
         "m1": "90.578",
@@ -182,8 +185,11 @@
         "m2": "92.580"
       },
       {
-        "p": "[Retrospective Reader for Machine Reading Comprehension](https://arxiv.org/abs/2001.09694v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/cooelf/AwesomeMRC)",
+        "p": {
+          "name": "Retrospective Reader for Machine Reading Comprehension",
+          "link": "https://arxiv.org/abs/2001.09694v4"
+        },
+        "c": "https://github.com/cooelf/AwesomeMRC",
         "n": "Retro-Reader on ALBERT (ensemble)",
         "d": "2020-01-27",
         "m1": "90.115",
@@ -246,8 +252,11 @@
         "m2": "92.180"
       },
       {
-        "p": "[ALBERT: A Lite BERT for Self-supervised Learning of Language Representations](https://arxiv.org/abs/1909.11942v6)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "link": "https://arxiv.org/abs/1909.11942v6"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "ALBERT (ensemble model)",
         "d": "2019-09-26",
         "m1": "89.731",
@@ -262,8 +271,11 @@
         "m2": "92.226"
       },
       {
-        "p": "[Retrospective Reader for Machine Reading Comprehension](https://arxiv.org/abs/2001.09694v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/cooelf/AwesomeMRC)",
+        "p": {
+          "name": "Retrospective Reader for Machine Reading Comprehension",
+          "link": "https://arxiv.org/abs/2001.09694v4"
+        },
+        "c": "https://github.com/cooelf/AwesomeMRC",
         "n": "Retro-Reader on ELECTRA (single model)",
         "d": "2020-01-27",
         "m1": "89.562",
@@ -534,8 +546,11 @@
         "m2": "90.939"
       },
       {
-        "p": "[SG-Net: Syntax-Guided Machine Reading Comprehension](https://arxiv.org/abs/1908.05147v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/cooelf/SG-Net)",
+        "p": {
+          "name": "SG-Net: Syntax-Guided Machine Reading Comprehension",
+          "link": "https://arxiv.org/abs/1908.05147v3"
+        },
+        "c": "https://github.com/cooelf/SG-Net",
         "n": "XLNet + SG-Net Verifier (ensemble)",
         "d": "2019-08-14",
         "m1": "88.174",
@@ -550,8 +565,11 @@
         "m2": "91.419"
       },
       {
-        "p": "[Retrospective Reader for Machine Reading Comprehension](https://arxiv.org/abs/2001.09694v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/cooelf/AwesomeMRC)",
+        "p": {
+          "name": "Retrospective Reader for Machine Reading Comprehension",
+          "link": "https://arxiv.org/abs/2001.09694v4"
+        },
+        "c": "https://github.com/cooelf/AwesomeMRC",
         "n": "Retro-Reader on ALBERT (single model)",
         "d": "2020-01-27",
         "m1": "88.107",
@@ -566,8 +584,11 @@
         "m2": "90.902"
       },
       {
-        "p": "[ALBERT: A Lite BERT for Self-supervised Learning of Language Representations](https://arxiv.org/abs/1909.11942v6)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "link": "https://arxiv.org/abs/1909.11942v6"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "ALBERT (single model)",
         "d": "2019-09-26",
         "m1": "88.107",
@@ -614,8 +635,11 @@
         "m2": "90.645"
       },
       {
-        "p": "[DeBERTa: Decoding-enhanced BERT with Disentangled Attention](https://arxiv.org/abs/2006.03654v6)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "DeBERTa: Decoding-enhanced BERT with Disentangled Attention",
+          "link": "https://arxiv.org/abs/2006.03654v6"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "DeBERTalarge",
         "d": "2020-06-05",
         "m1": "88.0",
@@ -646,8 +670,11 @@
         "m2": "90.818"
       },
       {
-        "p": "[XLNet: Generalized Autoregressive Pretraining for Language Understanding](https://arxiv.org/abs/1906.08237v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+          "link": "https://arxiv.org/abs/1906.08237v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "XLNet (single model)",
         "d": "2019-06-19",
         "m1": "87.926",
@@ -702,16 +729,22 @@
         "m2": "90.163"
       },
       {
-        "p": "[LUKE: Deep Contextualized Entity Representations with Entity-aware Self-attention](https://arxiv.org/abs/2010.01057v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "LUKE: Deep Contextualized Entity Representations with Entity-aware Self-attention",
+          "link": "https://arxiv.org/abs/2010.01057v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "LUKE (single model)",
         "d": "2020-10-02",
         "m1": "87.429",
         "m2": "90.163"
       },
       {
-        "p": "[SG-Net: Syntax-Guided Machine Reading Comprehension](https://arxiv.org/abs/1908.05147v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/cooelf/SG-Net)",
+        "p": {
+          "name": "SG-Net: Syntax-Guided Machine Reading Comprehension",
+          "link": "https://arxiv.org/abs/1908.05147v3"
+        },
+        "c": "https://github.com/cooelf/SG-Net",
         "n": "XLNet + SG-Net Verifier++ (single model)",
         "d": "2019-08-14",
         "m1": "87.238",
@@ -750,8 +783,11 @@
         "m2": "90.037"
       },
       {
-        "p": "[RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/abs/1907.11692v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "link": "https://arxiv.org/abs/1907.11692v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "RoBERTa (single model)",
         "d": "2019-07-26",
         "m1": "86.820",
@@ -854,8 +890,11 @@
         "m2": "88.848"
       },
       {
-        "p": "[SG-Net: Syntax-Guided Machine Reading Comprehension](https://arxiv.org/abs/1908.05147v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/cooelf/SG-Net)",
+        "p": {
+          "name": "SG-Net: Syntax-Guided Machine Reading Comprehension",
+          "link": "https://arxiv.org/abs/1908.05147v3"
+        },
+        "c": "https://github.com/cooelf/SG-Net",
         "n": "SG-Net (ensemble)",
         "d": "2019-08-14",
         "m1": "86.211",
@@ -878,16 +917,22 @@
         "m2": "88.886"
       },
       {
-        "p": "[Semantics-aware BERT for Language Understanding](https://arxiv.org/abs/1909.02209v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/cooelf/SemBERT)",
+        "p": {
+          "name": "Semantics-aware BERT for Language Understanding",
+          "link": "https://arxiv.org/abs/1909.02209v3"
+        },
+        "c": "https://github.com/cooelf/SemBERT",
         "n": "SemBERT(ensemble)",
         "d": "2019-09-05",
         "m1": "86.166",
         "m2": "88.886"
       },
       {
-        "p": "[Semantics-aware BERT for Language Understanding](https://arxiv.org/abs/1909.02209v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/cooelf/SemBERT)",
+        "p": {
+          "name": "Semantics-aware BERT for Language Understanding",
+          "link": "https://arxiv.org/abs/1909.02209v3"
+        },
+        "c": "https://github.com/cooelf/SemBERT",
         "n": "SemBERT (ensemble)",
         "d": "2019-09-05",
         "m1": "86.166",
@@ -990,8 +1035,11 @@
         "m2": "88.400"
       },
       {
-        "p": "[SpanBERT: Improving Pre-training by Representing and Predicting Spans](https://arxiv.org/abs/1907.10529v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/SpanBERT)",
+        "p": {
+          "name": "SpanBERT: Improving Pre-training by Representing and Predicting Spans",
+          "link": "https://arxiv.org/abs/1907.10529v3"
+        },
+        "c": "https://github.com/facebookresearch/SpanBERT",
         "n": "SpanBERT",
         "d": "2019-07-24",
         "m1": "85.7",
@@ -1014,8 +1062,11 @@
         "m2": "87.926"
       },
       {
-        "p": "[SG-Net: Syntax-Guided Machine Reading Comprehension](https://arxiv.org/abs/1908.05147v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/cooelf/SG-Net)",
+        "p": {
+          "name": "SG-Net: Syntax-Guided Machine Reading Comprehension",
+          "link": "https://arxiv.org/abs/1908.05147v3"
+        },
+        "c": "https://github.com/cooelf/SG-Net",
         "n": "SG-Net (single model)",
         "d": "2019-08-14",
         "m1": "85.229",
@@ -1086,8 +1137,11 @@
         "m2": "87.864"
       },
       {
-        "p": "[Semantics-aware BERT for Language Understanding](https://arxiv.org/abs/1909.02209v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/cooelf/SemBERT)",
+        "p": {
+          "name": "Semantics-aware BERT for Language Understanding",
+          "link": "https://arxiv.org/abs/1909.02209v3"
+        },
+        "c": "https://github.com/cooelf/SemBERT",
         "n": "SemBERT (single model)",
         "d": "2019-09-05",
         "m1": "84.800",
@@ -1982,7 +2036,10 @@
         "m2": "75.513"
       },
       {
-        "p": "[Read + Verify: Machine Reading Comprehension with Unanswerable Questions](http://arxiv.org/abs/1808.05759v5)",
+        "p": {
+          "name": "Read + Verify: Machine Reading Comprehension with Unanswerable Questions",
+          "link": "http://arxiv.org/abs/1808.05759v5"
+        },
         "c": "",
         "n": "Reinforced Mnemonic Reader + Answer Verifier (single model)",
         "d": "2018-08-17",
@@ -2014,16 +2071,22 @@
         "m2": "74.434"
       },
       {
-        "p": "[U-Net: Machine Reading Comprehension with Unanswerable Questions](http://arxiv.org/abs/1810.06638v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/FudanNLP/UNet)",
+        "p": {
+          "name": "U-Net: Machine Reading Comprehension with Unanswerable Questions",
+          "link": "http://arxiv.org/abs/1810.06638v1"
+        },
+        "c": "https://github.com/FudanNLP/UNet",
         "n": "Unet (ensemble)",
         "d": "2018-10-12",
         "m1": "71.417",
         "m2": "74.869"
       },
       {
-        "p": "[Stochastic Answer Networks for Machine Reading Comprehension](http://arxiv.org/abs/1712.03556v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/kevinduh/san_mrc)",
+        "p": {
+          "name": "Stochastic Answer Networks for Machine Reading Comprehension",
+          "link": "http://arxiv.org/abs/1712.03556v2"
+        },
+        "c": "https://github.com/kevinduh/san_mrc",
         "n": "SAN (ensemble model)",
         "d": "2017-12-10",
         "m1": "71.316",
@@ -2046,8 +2109,11 @@
         "m2": "74.449"
       },
       {
-        "p": "[FusionNet: Fusing via Fully-Aware Attention with Application to Machine Comprehension](http://arxiv.org/abs/1711.07341v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/momohuang/FusionNet-NLI)",
+        "p": {
+          "name": "FusionNet: Fusing via Fully-Aware Attention with Application to Machine Comprehension",
+          "link": "http://arxiv.org/abs/1711.07341v2"
+        },
+        "c": "https://github.com/momohuang/FusionNet-NLI",
         "n": "FusionNet++ (ensemble)",
         "d": "2017-11-16",
         "m1": "70.300",
@@ -2086,8 +2152,11 @@
         "m2": "71.662"
       },
       {
-        "p": "[Stochastic Answer Networks for Machine Reading Comprehension](http://arxiv.org/abs/1712.03556v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/kevinduh/san_mrc)",
+        "p": {
+          "name": "Stochastic Answer Networks for Machine Reading Comprehension",
+          "link": "http://arxiv.org/abs/1712.03556v2"
+        },
+        "c": "https://github.com/kevinduh/san_mrc",
         "n": "SAN (single model)",
         "d": "2017-12-10",
         "m1": "68.653",
@@ -2158,8 +2227,11 @@
         "m2": "69.206"
       },
       {
-        "p": "[Deep contextualized word representations](http://arxiv.org/abs/1802.05365v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/flairNLP/flair)",
+        "p": {
+          "name": "Deep contextualized word representations",
+          "link": "http://arxiv.org/abs/1802.05365v2"
+        },
+        "c": "https://github.com/flairNLP/flair",
         "n": "BiDAF + Self Attention + ELMo (single model)",
         "d": "2018-02-15",
         "m1": "63.372",
@@ -2302,22 +2374,31 @@
         "m2": "3.971"
       },
       {
-        "p": "[LUKE: Deep Contextualized Entity Representations with Entity-aware Self-attention](https://arxiv.org/abs/2010.01057v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "LUKE: Deep Contextualized Entity Representations with Entity-aware Self-attention",
+          "link": "https://arxiv.org/abs/2010.01057v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "LUKE 483M",
         "d": "2020-10-02",
         "m2": "90.2"
       },
       {
-        "p": "[Ensemble ALBERT on SQuAD 2.0](https://arxiv.org/abs/2110.09665v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/Shilun-Allan-Li/Ensemble-ALBERT-on-SQuAD-2.0)",
+        "p": {
+          "name": "Ensemble ALBERT on SQuAD 2.0",
+          "link": "https://arxiv.org/abs/2110.09665v1"
+        },
+        "c": "https://github.com/Shilun-Allan-Li/Ensemble-ALBERT-on-SQuAD-2.0",
         "n": "Ensemble ALBERT",
         "d": "2021-10-19",
         "m2": "90.123"
       },
       {
-        "p": "[Pay Attention to MLPs](https://arxiv.org/abs/2105.08050v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+        "p": {
+          "name": "Pay Attention to MLPs",
+          "link": "https://arxiv.org/abs/2105.08050v2"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
         "n": "gMLP-large",
         "d": "2021-05-17",
         "m2": "78.3"

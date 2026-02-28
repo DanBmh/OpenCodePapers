@@ -33,21 +33,30 @@
     ],
     "items": [
       {
-        "p": "[LATTE: Lattice ATTentive Encoding for Character-based Word Segmentation](https://www.jstage.jst.go.jp/article/jnlp/30/2/30_456/_article/-char/ja)",
-        "c": "[&check;&nbsp;Link](https://github.com/tchayintr/latte-ptm-ws)",
+        "p": {
+          "name": "LATTE: Lattice ATTentive Encoding for Character-based Word Segmentation",
+          "link": "https://www.jstage.jst.go.jp/article/jnlp/30/2/30_456/_article/-char/ja"
+        },
+        "c": "https://github.com/tchayintr/latte-ptm-ws",
         "n": "LATTE (Linguistic units, lattices, PTMs, GNNs)",
         "d": "2023-06-01",
         "m1": "0.9936"
       },
       {
-        "p": "[Incorporating Word Attention into Character-Based Word Segmentation](https://aclanthology.org/N19-1276)",
-        "c": "[&check;&nbsp;Link](https://github.com/shigashiyama/seikanlp)",
+        "p": {
+          "name": "Incorporating Word Attention into Character-Based Word Segmentation",
+          "link": "https://aclanthology.org/N19-1276"
+        },
+        "c": "https://github.com/shigashiyama/seikanlp",
         "n": "Word Attention",
         "d": "2019-06-01",
         "m1": "0.9893"
       },
       {
-        "p": "[Long Short-Term Memory for Japanese Word Segmentation](http://arxiv.org/abs/1709.08011v3)",
+        "p": {
+          "name": "Long Short-Term Memory for Japanese Word Segmentation",
+          "link": "http://arxiv.org/abs/1709.08011v3"
+        },
         "c": "",
         "n": "LSTM",
         "d": "2017-09-23",

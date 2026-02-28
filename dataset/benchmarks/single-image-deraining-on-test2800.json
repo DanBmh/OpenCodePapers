@@ -39,54 +39,75 @@
     ],
     "items": [
       {
-        "p": "[KBNet: Kernel Basis Network for Image Restoration](https://arxiv.org/abs/2303.02881v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/zhangyi-3/kbnet)",
+        "p": {
+          "name": "KBNet: Kernel Basis Network for Image Restoration",
+          "link": "https://arxiv.org/abs/2303.02881v1"
+        },
+        "c": "https://github.com/zhangyi-3/kbnet",
         "n": "KBNet",
         "d": "2023-03-06",
         "m1": "34.19",
         "m2": "0.944"
       },
       {
-        "p": "[Restormer: Efficient Transformer for High-Resolution Image Restoration](https://arxiv.org/abs/2111.09881v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/swz30/restormer)",
+        "p": {
+          "name": "Restormer: Efficient Transformer for High-Resolution Image Restoration",
+          "link": "https://arxiv.org/abs/2111.09881v2"
+        },
+        "c": "https://github.com/swz30/restormer",
         "n": "Restormer",
         "d": "2021-11-18",
         "m1": "34.18",
         "m2": "0.944"
       },
       {
-        "p": "[HINet: Half Instance Normalization Network for Image Restoration](https://arxiv.org/abs/2105.06086v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/megvii-model/HINet)",
+        "p": {
+          "name": "HINet: Half Instance Normalization Network for Image Restoration",
+          "link": "https://arxiv.org/abs/2105.06086v2"
+        },
+        "c": "https://github.com/megvii-model/HINet",
         "n": "HINet",
         "d": "2021-05-13",
         "m1": "33.91",
         "m2": "0.941"
       },
       {
-        "p": "[MAXIM: Multi-Axis MLP for Image Processing](https://arxiv.org/abs/2201.02973v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/maxim)",
+        "p": {
+          "name": "MAXIM: Multi-Axis MLP for Image Processing",
+          "link": "https://arxiv.org/abs/2201.02973v2"
+        },
+        "c": "https://github.com/google-research/maxim",
         "n": "MAXIM",
         "d": "2022-01-09",
         "m1": "33.80"
       },
       {
-        "p": "[Multi-Stage Progressive Image Restoration](https://arxiv.org/abs/2102.02808v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/swz30/restormer)",
+        "p": {
+          "name": "Multi-Stage Progressive Image Restoration",
+          "link": "https://arxiv.org/abs/2102.02808v2"
+        },
+        "c": "https://github.com/swz30/restormer",
         "n": "MPRNet",
         "d": "2021-02-04",
         "m1": "33.64",
         "m2": "0.938"
       },
       {
-        "p": "[Multi-Scale Progressive Fusion Network for Single Image Deraining](https://arxiv.org/abs/2003.10985v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/kuijiang94/mspfn)",
+        "p": {
+          "name": "Multi-Scale Progressive Fusion Network for Single Image Deraining",
+          "link": "https://arxiv.org/abs/2003.10985v2"
+        },
+        "c": "https://github.com/kuijiang94/mspfn",
         "n": "MSPFN",
         "d": "2020-03-24",
         "m1": "32.82",
         "m2": "0.930"
       },
       {
-        "p": "[Recurrent Squeeze-and-Excitation Context Aggregation Net for Single Image Deraining](http://arxiv.org/abs/1807.05698v2)",
+        "p": {
+          "name": "Recurrent Squeeze-and-Excitation Context Aggregation Net for Single Image Deraining",
+          "link": "http://arxiv.org/abs/1807.05698v2"
+        },
         "c": "",
         "n": "RESCAN",
         "d": "2018-07-16",
@@ -94,40 +115,55 @@
         "m2": "0.904"
       },
       {
-        "p": "[Uncertainty Guided Multi-Scale Residual Learning-using a Cycle Spinning CNN for Single Image De-Raining](https://arxiv.org/abs/1906.11129v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/rajeevyasarla/UMRL--using-Cycle-Spinning)",
+        "p": {
+          "name": "Uncertainty Guided Multi-Scale Residual Learning-using a Cycle Spinning CNN for Single Image De-Raining",
+          "link": "https://arxiv.org/abs/1906.11129v1"
+        },
+        "c": "https://github.com/rajeevyasarla/UMRL--using-Cycle-Spinning",
         "n": "UMRL",
         "d": "2019-06-12",
         "m1": "29.97",
         "m2": "0.905"
       },
       {
-        "p": "[Density-aware Single Image De-raining using a Multi-stream Dense Network](http://arxiv.org/abs/1802.07412v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/hezhangsprinter/DID-MDN)",
+        "p": {
+          "name": "Density-aware Single Image De-raining using a Multi-stream Dense Network",
+          "link": "http://arxiv.org/abs/1802.07412v1"
+        },
+        "c": "https://github.com/hezhangsprinter/DID-MDN",
         "n": "DIDMDN",
         "d": "2018-02-21",
         "m1": "28.13",
         "m2": "0.867"
       },
       {
-        "p": "[Semi-supervised Transfer Learning for Image Rain Removal](http://arxiv.org/abs/1807.11078v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/wwzjer/Semi-supervised-IRR)",
+        "p": {
+          "name": "Semi-supervised Transfer Learning for Image Rain Removal",
+          "link": "http://arxiv.org/abs/1807.11078v2"
+        },
+        "c": "https://github.com/wwzjer/Semi-supervised-IRR",
         "n": "SEMI",
         "d": "2018-07-29",
         "m1": "24.43",
         "m2": "0.782"
       },
       {
-        "p": "[Clearing the Skies: A deep network architecture for single-image rain removal](http://arxiv.org/abs/1609.02087v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/jinnovation/rainy-image-dataset)",
+        "p": {
+          "name": "Clearing the Skies: A deep network architecture for single-image rain removal",
+          "link": "http://arxiv.org/abs/1609.02087v2"
+        },
+        "c": "https://github.com/jinnovation/rainy-image-dataset",
         "n": "DerainNet",
         "d": "2016-09-07",
         "m1": "24.31",
         "m2": "0.861"
       },
       {
-        "p": "[Progressive Image Deraining Networks: A Better and Simpler Baseline](https://arxiv.org/abs/1901.09221v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/csdwren/PReNet)",
+        "p": {
+          "name": "Progressive Image Deraining Networks: A Better and Simpler Baseline",
+          "link": "https://arxiv.org/abs/1901.09221v3"
+        },
+        "c": "https://github.com/csdwren/PReNet",
         "n": "PreNet",
         "d": "2019-01-26",
         "m2": "0.916"

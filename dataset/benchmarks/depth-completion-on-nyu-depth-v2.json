@@ -38,15 +38,21 @@
     ],
     "items": [
       {
-        "p": "[Non-Local Spatial Propagation Network for Depth Completion](https://arxiv.org/abs/2007.10042v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/zzangjinsun/NLSPN_ECCV20)",
+        "p": {
+          "name": "Non-Local Spatial Propagation Network for Depth Completion",
+          "link": "https://arxiv.org/abs/2007.10042v1"
+        },
+        "c": "https://github.com/zzangjinsun/NLSPN_ECCV20",
         "n": "NLSPN",
         "d": "2020-07-20",
         "m1": "0.092",
         "m2": "0.012"
       },
       {
-        "p": "[On Deep Learning Techniques to Boost Monocular Depth Estimation for Autonomous Navigation](https://arxiv.org/abs/2010.06626v2)",
+        "p": {
+          "name": "On Deep Learning Techniques to Boost Monocular Depth Estimation for Autonomous Navigation",
+          "link": "https://arxiv.org/abs/2010.06626v2"
+        },
         "c": "",
         "n": "DSN",
         "d": "2020-10-13",
@@ -54,8 +60,11 @@
         "m2": "0.012"
       },
       {
-        "p": "[Struct-MDC: Mesh-Refined Unsupervised Depth Completion Leveraging Structural Regularities from Visual SLAM](https://arxiv.org/abs/2204.13877v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/url-kaist/Struct-MDC)",
+        "p": {
+          "name": "Struct-MDC: Mesh-Refined Unsupervised Depth Completion Leveraging Structural Regularities from Visual SLAM",
+          "link": "https://arxiv.org/abs/2204.13877v1"
+        },
+        "c": "https://github.com/url-kaist/Struct-MDC",
         "n": "Struct-MDC",
         "d": "2022-04-29",
         "m1": "0.142"

@@ -48,8 +48,11 @@
     ],
     "items": [
       {
-        "p": "[Transformers Meet Directed Graphs](https://arxiv.org/abs/2302.00049v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/deepmind/digraph_transformer)",
+        "p": {
+          "name": "Transformers Meet Directed Graphs",
+          "link": "https://arxiv.org/abs/2302.00049v3"
+        },
+        "c": "https://github.com/deepmind/digraph_transformer",
         "n": "SAT++ with Magnetic Laplacian",
         "d": "2023-01-31",
         "m1": "0.2222 ± 0.0010",
@@ -68,8 +71,11 @@
         "m4": "14378069"
       },
       {
-        "p": "[Transformers over Directed Acyclic Graphs](https://arxiv.org/abs/2210.13148v6)",
-        "c": "[&check;&nbsp;Link](https://github.com/LUOyk1999/DAGformer)",
+        "p": {
+          "name": "Transformers over Directed Acyclic Graphs",
+          "link": "https://arxiv.org/abs/2210.13148v6"
+        },
+        "c": "https://github.com/LUOyk1999/DAGformer",
         "n": "DAGformer",
         "d": "2022-10-24",
         "m1": "0.2018 ± 0.0021",
@@ -78,8 +84,11 @@
         "m4": "14952882"
       },
       {
-        "p": "[Structure-Aware Transformer for Graph Representation Learning](https://arxiv.org/abs/2202.03036v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/BorgwardtLab/SAT)",
+        "p": {
+          "name": "Structure-Aware Transformer for Graph Representation Learning",
+          "link": "https://arxiv.org/abs/2202.03036v3"
+        },
+        "c": "https://github.com/BorgwardtLab/SAT",
         "n": "SAT",
         "d": "2022-02-07",
         "m1": "0.1937 ± 0.0028",
@@ -88,16 +97,22 @@
         "m4": "15734000"
       },
       {
-        "p": "[Unlocking the Potential of Classic GNNs for Graph-level Tasks: Simple Architectures Meet Excellence](https://arxiv.org/abs/2502.09263v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/LUOyk1999/GNNPlus)",
+        "p": {
+          "name": "Unlocking the Potential of Classic GNNs for Graph-level Tasks: Simple Architectures Meet Excellence",
+          "link": "https://arxiv.org/abs/2502.09263v1"
+        },
+        "c": "https://github.com/LUOyk1999/GNNPlus",
         "n": "GatedGCN+",
         "d": "2025-02-13",
         "m1": "0.1896 ± 0.0024",
         "m3": "0.1742 ± 0.0027"
       },
       {
-        "p": "[Recipe for a General, Powerful, Scalable Graph Transformer](https://arxiv.org/abs/2205.12454v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/rampasek/GraphGPS)",
+        "p": {
+          "name": "Recipe for a General, Powerful, Scalable Graph Transformer",
+          "link": "https://arxiv.org/abs/2205.12454v4"
+        },
+        "c": "https://github.com/rampasek/GraphGPS",
         "n": "GPS",
         "d": "2022-05-25",
         "m1": "0.1894",
@@ -136,8 +151,11 @@
         "m4": "35246814"
       },
       {
-        "p": "[Directed Acyclic Graph Neural Networks](https://arxiv.org/abs/2101.07965v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/vthost/DAGNN)",
+        "p": {
+          "name": "Directed Acyclic Graph Neural Networks",
+          "link": "https://arxiv.org/abs/2101.07965v3"
+        },
+        "c": "https://github.com/vthost/DAGNN",
         "n": "DAGNN",
         "d": "2021-01-20",
         "m1": "0.1751 ± 0.0049",
@@ -154,8 +172,11 @@
         "m4": "7563746"
       },
       {
-        "p": "[Do We Need Anisotropic Graph Neural Networks?](https://arxiv.org/abs/2104.01481v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/pyg-team/pytorch_geometric)",
+        "p": {
+          "name": "Do We Need Anisotropic Graph Neural Networks?",
+          "link": "https://arxiv.org/abs/2104.01481v5"
+        },
+        "c": "https://github.com/pyg-team/pytorch_geometric",
         "n": "EGC-M (No Edge Features)",
         "d": "2021-04-03",
         "m1": "0.1595 ± 0.0019",
@@ -164,8 +185,11 @@
         "m4": "10986002"
       },
       {
-        "p": "[Semi-Supervised Classification with Graph Convolutional Networks](http://arxiv.org/abs/1609.02907v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/mxnet/gcn)",
+        "p": {
+          "name": "Semi-Supervised Classification with Graph Convolutional Networks",
+          "link": "http://arxiv.org/abs/1609.02907v4"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/mxnet/gcn",
         "n": "GCN+virtual node",
         "d": "2016-09-09",
         "m1": "0.1595 ± 0.0018",
@@ -174,8 +198,11 @@
         "m4": "12484310"
       },
       {
-        "p": "[How Powerful are Graph Neural Networks?](http://arxiv.org/abs/1810.00826v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/mxnet/gin)",
+        "p": {
+          "name": "How Powerful are Graph Neural Networks?",
+          "link": "http://arxiv.org/abs/1810.00826v3"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/mxnet/gin",
         "n": "GIN+virtual node",
         "d": "2018-10-01",
         "m1": "0.1581 ± 0.0026",
@@ -184,8 +211,11 @@
         "m4": "13841815"
       },
       {
-        "p": "[Do We Need Anisotropic Graph Neural Networks?](https://arxiv.org/abs/2104.01481v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/pyg-team/pytorch_geometric)",
+        "p": {
+          "name": "Do We Need Anisotropic Graph Neural Networks?",
+          "link": "https://arxiv.org/abs/2104.01481v5"
+        },
+        "c": "https://github.com/pyg-team/pytorch_geometric",
         "n": "PNA (No Edge Features)",
         "d": "2021-04-03",
         "m1": "0.1570 ± 0.0032",
@@ -194,8 +224,11 @@
         "m4": "10992050"
       },
       {
-        "p": "[Graph Attention Networks](http://arxiv.org/abs/1710.10903v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+        "p": {
+          "name": "Graph Attention Networks",
+          "link": "http://arxiv.org/abs/1710.10903v3"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
         "n": "GAT",
         "d": "2017-10-30",
         "m1": "0.1569 ± 0.0010",
@@ -204,8 +237,11 @@
         "m4": "11030210"
       },
       {
-        "p": "[Do We Need Anisotropic Graph Neural Networks?](https://arxiv.org/abs/2104.01481v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/pyg-team/pytorch_geometric)",
+        "p": {
+          "name": "Do We Need Anisotropic Graph Neural Networks?",
+          "link": "https://arxiv.org/abs/2104.01481v5"
+        },
+        "c": "https://github.com/pyg-team/pytorch_geometric",
         "n": "MPNN-Max (No Edge Features)",
         "d": "2021-04-03",
         "m1": "0.1552 ± 0.0022",
@@ -214,8 +250,11 @@
         "m4": "10971506"
       },
       {
-        "p": "[Do We Need Anisotropic Graph Neural Networks?](https://arxiv.org/abs/2104.01481v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/pyg-team/pytorch_geometric)",
+        "p": {
+          "name": "Do We Need Anisotropic Graph Neural Networks?",
+          "link": "https://arxiv.org/abs/2104.01481v5"
+        },
+        "c": "https://github.com/pyg-team/pytorch_geometric",
         "n": "EGC-S (No Edge Features)",
         "d": "2021-04-03",
         "m1": "0.1528 ± 0.0025",
@@ -224,8 +263,11 @@
         "m4": "11156530"
       },
       {
-        "p": "[Semi-Supervised Classification with Graph Convolutional Networks](http://arxiv.org/abs/1609.02907v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/mxnet/gcn)",
+        "p": {
+          "name": "Semi-Supervised Classification with Graph Convolutional Networks",
+          "link": "http://arxiv.org/abs/1609.02907v4"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/mxnet/gcn",
         "n": "GCN",
         "d": "2016-09-09",
         "m1": "0.1507 ± 0.0018",
@@ -234,8 +276,11 @@
         "m4": "11033210"
       },
       {
-        "p": "[How Powerful are Graph Neural Networks?](http://arxiv.org/abs/1810.00826v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/mxnet/gin)",
+        "p": {
+          "name": "How Powerful are Graph Neural Networks?",
+          "link": "http://arxiv.org/abs/1810.00826v3"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/mxnet/gin",
         "n": "GIN",
         "d": "2018-10-01",
         "m1": "0.1495 ± 0.0023",
@@ -244,8 +289,11 @@
         "m4": "12390715"
       },
       {
-        "p": "[Hierarchical Graph Representation Learning with Differentiable Pooling](http://arxiv.org/abs/1806.08804v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/diffpool)",
+        "p": {
+          "name": "Hierarchical Graph Representation Learning with Differentiable Pooling",
+          "link": "http://arxiv.org/abs/1806.08804v4"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/diffpool",
         "n": "DiffPool w/ graphSAGE",
         "d": "2018-06-22",
         "m1": "0.1401 ± 0.0012",

@@ -43,171 +43,240 @@
     ],
     "items": [
       {
-        "p": "[Principal Neighbourhood Aggregation for Graph Nets](https://arxiv.org/abs/2004.05718v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/rusty1s/pytorch_geometric)",
+        "p": {
+          "name": "Principal Neighbourhood Aggregation for Graph Nets",
+          "link": "https://arxiv.org/abs/2004.05718v5"
+        },
+        "c": "https://github.com/rusty1s/pytorch_geometric",
         "n": "PNA",
         "d": "2020-04-12",
         "m1": "0.520±0.011",
         "m2": "0.830±0.007"
       },
       {
-        "p": "[How Attentive are Graph Attention Networks?](https://arxiv.org/abs/2105.14491v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+        "p": {
+          "name": "How Attentive are Graph Attention Networks?",
+          "link": "https://arxiv.org/abs/2105.14491v3"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
         "n": "GATv2",
         "d": "2021-05-30",
         "m1": "0.534±0.014",
         "m2": "0.821±0.009"
       },
       {
-        "p": "[Graph Attention Networks](http://arxiv.org/abs/1710.10903v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+        "p": {
+          "name": "Graph Attention Networks",
+          "link": "http://arxiv.org/abs/1710.10903v3"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
         "n": "GAT",
         "d": "2017-10-30",
         "m1": "0.536±0.020",
         "m2": "0.820±0.014"
       },
       {
-        "p": "[How Powerful are Graph Neural Networks?](http://arxiv.org/abs/1810.00826v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/mxnet/gin)",
+        "p": {
+          "name": "How Powerful are Graph Neural Networks?",
+          "link": "http://arxiv.org/abs/1810.00826v3"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/mxnet/gin",
         "n": "GIN",
         "d": "2018-10-01",
         "m1": "0.537±0.010",
         "m2": "0.819±0.007"
       },
       {
-        "p": "[An end-to-end attention-based approach for learning on graphs](https://arxiv.org/abs/2402.10793v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/davidbuterez/edge-set-attention)",
+        "p": {
+          "name": "An end-to-end attention-based approach for learning on graphs",
+          "link": "https://arxiv.org/abs/2402.10793v2"
+        },
+        "c": "https://github.com/davidbuterez/edge-set-attention",
         "n": "ESA (Edge set attention, no positional encodings)",
         "d": "2024-02-16",
         "m1": "0.552±0.012",
         "m2": "0.809±0.008"
       },
       {
-        "p": "[DropGNN: Random Dropouts Increase the Expressiveness of Graph Neural Networks](https://arxiv.org/abs/2111.06283v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/karolismart/dropgnn)",
+        "p": {
+          "name": "DropGNN: Random Dropouts Increase the Expressiveness of Graph Neural Networks",
+          "link": "https://arxiv.org/abs/2111.06283v1"
+        },
+        "c": "https://github.com/karolismart/dropgnn",
         "n": "DropGIN",
         "d": "2021-11-11",
         "m1": "0.552±0.012",
         "m2": "0.809±0.008"
       },
       {
-        "p": "[Semi-Supervised Classification with Graph Convolutional Networks](http://arxiv.org/abs/1609.02907v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/mxnet/gcn)",
+        "p": {
+          "name": "Semi-Supervised Classification with Graph Convolutional Networks",
+          "link": "http://arxiv.org/abs/1609.02907v4"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/mxnet/gcn",
         "n": "GCN",
         "d": "2016-09-09",
         "m1": "0.565±0.011",
         "m2": "0.800±0.008"
       },
       {
-        "p": "[Recipe for a General, Powerful, Scalable Graph Transformer](https://arxiv.org/abs/2205.12454v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/rampasek/GraphGPS)",
+        "p": {
+          "name": "Recipe for a General, Powerful, Scalable Graph Transformer",
+          "link": "https://arxiv.org/abs/2205.12454v4"
+        },
+        "c": "https://github.com/rampasek/GraphGPS",
         "n": "GraphGPS",
         "d": "2022-05-25",
         "m1": "0.579±0.006",
         "m2": "0.790±0.004"
       },
       {
-        "p": "[Optimal Transport Graph Neural Networks](https://arxiv.org/abs/2006.04804v6)",
-        "c": "[&check;&nbsp;Link](https://github.com/benatorc/OTGNN)",
+        "p": {
+          "name": "Optimal Transport Graph Neural Networks",
+          "link": "https://arxiv.org/abs/2006.04804v6"
+        },
+        "c": "https://github.com/benatorc/OTGNN",
         "n": "ProtoS-L2",
         "d": "2020-06-08",
         "m1": "0.580"
       },
       {
-        "p": "[Molecule Property Prediction Based on Spatial Graph Embedding](https://doi.org/10.1021/acs.jcim.9b00410)",
-        "c": "[&check;&nbsp;Link](https://github.com/wxfsd/C-SGEN)",
+        "p": {
+          "name": "Molecule Property Prediction Based on Spatial Graph Embedding",
+          "link": "https://doi.org/10.1021/acs.jcim.9b00410"
+        },
+        "c": "https://github.com/wxfsd/C-SGEN",
         "n": "C-SGEN+ Fingerprint",
         "d": "2019-08-22",
         "m1": "0.650"
       },
       {
-        "p": "[Convolutional Networks on Graphs for Learning Molecular Fingerprints](http://arxiv.org/abs/1509.09292v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/HIPS/neural-fingerprint)",
+        "p": {
+          "name": "Convolutional Networks on Graphs for Learning Molecular Fingerprints",
+          "link": "http://arxiv.org/abs/1509.09292v2"
+        },
+        "c": "https://github.com/HIPS/neural-fingerprint",
         "n": "GC",
         "d": "2015-09-30",
         "m1": "0.655"
       },
       {
-        "p": "[Molecular Graph Convolutions: Moving Beyond Fingerprints](http://arxiv.org/abs/1603.00856v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/VEK239/StructGNN-lipophilicity)",
+        "p": {
+          "name": "Molecular Graph Convolutions: Moving Beyond Fingerprints",
+          "link": "http://arxiv.org/abs/1603.00856v3"
+        },
+        "c": "https://github.com/VEK239/StructGNN-lipophilicity",
         "n": "Weave",
         "d": "2016-03-02",
         "m1": "0.715"
       },
       {
-        "p": "[Neural Message Passing for Quantum Chemistry](http://arxiv.org/abs/1704.01212v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/Microsoft/gated-graph-neural-network-samples)",
+        "p": {
+          "name": "Neural Message Passing for Quantum Chemistry",
+          "link": "http://arxiv.org/abs/1704.01212v2"
+        },
+        "c": "https://github.com/Microsoft/gated-graph-neural-network-samples",
         "n": "MPNN",
         "d": "2017-04-04",
         "m1": "0.719"
       },
       {
-        "p": "[Do Transformers Really Perform Bad for Graph Representation?](https://arxiv.org/abs/2106.05234v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/microsoft/Graphormer)",
+        "p": {
+          "name": "Do Transformers Really Perform Bad for Graph Representation?",
+          "link": "https://arxiv.org/abs/2106.05234v5"
+        },
+        "c": "https://github.com/microsoft/Graphormer",
         "n": "Graphormer",
         "d": "2021-06-09",
         "m1": "0.791±0.048",
         "m2": "0.607±0.048"
       },
       {
-        "p": "[Molecular Property Prediction: A Multilevel Quantum Interactions Modeling Perspective](https://arxiv.org/abs/1906.11081v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/awslabs/dgl-lifesci/blob/master/python/dgllife/model/model_zoo/mgcn_predictor.py)",
+        "p": {
+          "name": "Molecular Property Prediction: A Multilevel Quantum Interactions Modeling Perspective",
+          "link": "https://arxiv.org/abs/1906.11081v1"
+        },
+        "c": "https://github.com/awslabs/dgl-lifesci/blob/master/python/dgllife/model/model_zoo/mgcn_predictor.py",
         "n": "XGBoost",
         "d": "2019-06-25",
         "m1": "0.799"
       },
       {
-        "p": "[Pure Transformers are Powerful Graph Learners](https://arxiv.org/abs/2207.02505v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/jw9730/tokengt)",
+        "p": {
+          "name": "Pure Transformers are Powerful Graph Learners",
+          "link": "https://arxiv.org/abs/2207.02505v2"
+        },
+        "c": "https://github.com/jw9730/tokengt",
         "n": "TokenGT",
         "d": "2022-07-06",
         "m1": "0.852±0.023",
         "m2": "0.545±0.024"
       },
       {
-        "p": "[Molecular Property Prediction: A Multilevel Quantum Interactions Modeling Perspective](https://arxiv.org/abs/1906.11081v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/awslabs/dgl-lifesci/blob/master/python/dgllife/model/model_zoo/mgcn_predictor.py)",
+        "p": {
+          "name": "Molecular Property Prediction: A Multilevel Quantum Interactions Modeling Perspective",
+          "link": "https://arxiv.org/abs/1906.11081v1"
+        },
+        "c": "https://github.com/awslabs/dgl-lifesci/blob/master/python/dgllife/model/model_zoo/mgcn_predictor.py",
         "n": "RF",
         "d": "2019-06-25",
         "m1": "0.876"
       },
       {
-        "p": "[Graph Neural Networks with convolutional ARMA filters](https://arxiv.org/abs/1901.01343v7)",
-        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/arma)",
+        "p": {
+          "name": "Graph Neural Networks with convolutional ARMA filters",
+          "link": "https://arxiv.org/abs/1901.01343v7"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/arma",
         "n": "ARMA",
         "d": "2019-01-05",
         "m1": "0.894"
       },
       {
-        "p": "[Attention-based Graph Neural Network for Semi-supervised Learning](http://arxiv.org/abs/1803.03735v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/dawnranger/pytorch-AGNN)",
+        "p": {
+          "name": "Attention-based Graph Neural Network for Semi-supervised Learning",
+          "link": "http://arxiv.org/abs/1803.03735v1"
+        },
+        "c": "https://github.com/dawnranger/pytorch-AGNN",
         "n": "AGNN",
         "d": "2018-03-10",
         "m1": "0.963"
       },
       {
-        "p": "[Simplifying Graph Convolutional Networks](https://arxiv.org/abs/1902.07153v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/sgc)",
+        "p": {
+          "name": "Simplifying Graph Convolutional Networks",
+          "link": "https://arxiv.org/abs/1902.07153v2"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/sgc",
         "n": "SGC",
         "d": "2019-02-19",
         "m1": "0.998"
       },
       {
-        "p": "[CensNet: Convolution with Edge-Node Switching in Graph Neural Networks](https://doi.org/10.24963/ijcai.2019/369)",
+        "p": {
+          "name": "CensNet: Convolution with Edge-Node Switching in Graph Neural Networks",
+          "link": "https://doi.org/10.24963/ijcai.2019/369"
+        },
         "c": "",
         "n": "CensNet",
         "d": "2019-08-10",
         "m3": "0.93"
       },
       {
-        "p": "[CensNet: Convolution with Edge-Node Switching in Graph Neural Networks](https://doi.org/10.24963/ijcai.2019/369)",
+        "p": {
+          "name": "CensNet: Convolution with Edge-Node Switching in Graph Neural Networks",
+          "link": "https://doi.org/10.24963/ijcai.2019/369"
+        },
         "c": "",
         "n": "Logistic Regression",
         "d": "2019-08-10",
         "m3": "1.15"
       },
       {
-        "p": "[CensNet: Convolution with Edge-Node Switching in Graph Neural Networks](https://doi.org/10.24963/ijcai.2019/369)",
+        "p": {
+          "name": "CensNet: Convolution with Edge-Node Switching in Graph Neural Networks",
+          "link": "https://doi.org/10.24963/ijcai.2019/369"
+        },
         "c": "",
         "n": "Random Forests",
         "d": "2019-08-10",

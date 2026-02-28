@@ -34,274 +34,391 @@
     ],
     "items": [
       {
-        "p": "[First return, then explore](https://arxiv.org/abs/2004.12919v6)",
-        "c": "[&check;&nbsp;Link](https://github.com/uber-research/go-explore)",
+        "p": {
+          "name": "First return, then explore",
+          "link": "https://arxiv.org/abs/2004.12919v6"
+        },
+        "c": "https://github.com/uber-research/go-explore",
         "n": "Go-Explore",
         "d": "2020-04-27",
         "m1": "197376"
       },
       {
-        "p": "[Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model](https://arxiv.org/abs/1911.08265v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/werner-duvaud/muzero-general)",
+        "p": {
+          "name": "Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model",
+          "link": "https://arxiv.org/abs/1911.08265v2"
+        },
+        "c": "https://github.com/werner-duvaud/muzero-general",
         "n": "MuZero",
         "d": "2019-11-19",
         "m1": "85932.60"
       },
       {
-        "p": "[Agent57: Outperforming the Atari Human Benchmark](https://arxiv.org/abs/2003.13350v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/michaelnny/deep_rl_zoo)",
+        "p": {
+          "name": "Agent57: Outperforming the Atari Human Benchmark",
+          "link": "https://arxiv.org/abs/2003.13350v1"
+        },
+        "c": "https://github.com/michaelnny/deep_rl_zoo",
         "n": "Agent57",
         "d": "2020-03-30",
         "m1": "61507.83"
       },
       {
-        "p": "[Distributed Prioritized Experience Replay](http://arxiv.org/abs/1803.00933v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/ray-project/ray/tree/master/rllib)",
+        "p": {
+          "name": "Distributed Prioritized Experience Replay",
+          "link": "http://arxiv.org/abs/1803.00933v1"
+        },
+        "c": "https://github.com/ray-project/ray/tree/master/rllib",
         "n": "Ape-X",
         "d": "2018-03-02",
         "m1": "57196.7"
       },
       {
-        "p": "[Recurrent Experience Replay in Distributed Reinforcement Learning](https://openreview.net/forum?id=r1lyTjAqYX)",
-        "c": "[&check;&nbsp;Link](https://github.com/opendilab/DI-engine/blob/main/ding/policy/r2d2.py)",
+        "p": {
+          "name": "Recurrent Experience Replay in Distributed Reinforcement Learning",
+          "link": "https://openreview.net/forum?id=r1lyTjAqYX"
+        },
+        "c": "https://github.com/opendilab/DI-engine/blob/main/ding/policy/r2d2.py",
         "n": "R2D2",
         "d": "2019-05-01",
         "m1": "53318.7"
       },
       {
-        "p": "[DNA: Proximal Policy Optimization with a Dual Network Architecture](https://arxiv.org/abs/2206.10027v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/maitchison/PPO)",
+        "p": {
+          "name": "DNA: Proximal Policy Optimization with a Dual Network Architecture",
+          "link": "https://arxiv.org/abs/2206.10027v2"
+        },
+        "c": "https://github.com/maitchison/PPO",
         "n": "DNA",
         "d": "2022-06-20",
         "m1": "19789"
       },
       {
-        "p": "[Generalized Data Distribution Iteration](https://arxiv.org/abs/2206.03192v4)",
+        "p": {
+          "name": "Generalized Data Distribution Iteration",
+          "link": "https://arxiv.org/abs/2206.03192v4"
+        },
         "c": "",
         "n": "GDI-H3",
         "d": "2022-06-07",
         "m1": "14649"
       },
       {
-        "p": "[Fully Parameterized Quantile Function for Distributional Reinforcement Learning](https://arxiv.org/abs/1911.02140v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/opendilab/DI-engine)",
+        "p": {
+          "name": "Fully Parameterized Quantile Function for Distributional Reinforcement Learning",
+          "link": "https://arxiv.org/abs/1911.02140v3"
+        },
+        "c": "https://github.com/opendilab/DI-engine",
         "n": "FQF",
         "d": "2019-11-05",
         "m1": "12422.2"
       },
       {
-        "p": "[GDI: Rethinking What Makes Reinforcement Learning Different From Supervised Learning](https://arxiv.org/abs/2106.06232v6)",
+        "p": {
+          "name": "GDI: Rethinking What Makes Reinforcement Learning Different From Supervised Learning",
+          "link": "https://arxiv.org/abs/2106.06232v6"
+        },
         "c": "",
         "n": "GDI-I3",
         "d": "2021-06-11",
         "m1": "7607"
       },
       {
-        "p": "[Generalized Data Distribution Iteration](https://arxiv.org/abs/2206.03192v4)",
+        "p": {
+          "name": "Generalized Data Distribution Iteration",
+          "link": "https://arxiv.org/abs/2206.03192v4"
+        },
         "c": "",
         "n": "GDI-I3",
         "d": "2022-06-07",
         "m1": "7607"
       },
       {
-        "p": "[Dueling Network Architectures for Deep Reinforcement Learning](http://arxiv.org/abs/1511.06581v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+        "p": {
+          "name": "Dueling Network Architectures for Deep Reinforcement Learning",
+          "link": "http://arxiv.org/abs/1511.06581v3"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
         "n": "Prior+Duel noop",
         "d": "2015-11-20",
         "m1": "3409.0"
       },
       {
-        "p": "[Distributional Reinforcement Learning with Quantile Regression](http://arxiv.org/abs/1710.10044v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/DLR-RM/stable-baselines3)",
+        "p": {
+          "name": "Distributional Reinforcement Learning with Quantile Regression",
+          "link": "http://arxiv.org/abs/1710.10044v1"
+        },
+        "c": "https://github.com/DLR-RM/stable-baselines3",
         "n": "QR-DQN-1",
         "d": "2017-10-27",
         "m1": "3117"
       },
       {
-        "p": "[Online and Offline Reinforcement Learning by Planning with a Learned Model](https://arxiv.org/abs/2104.06294v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/DHDev0/Muzero-unplugged)",
+        "p": {
+          "name": "Online and Offline Reinforcement Learning by Planning with a Learned Model",
+          "link": "https://arxiv.org/abs/2104.06294v1"
+        },
+        "c": "https://github.com/DHDev0/Muzero-unplugged",
         "n": "MuZero (Res2 Adam)",
         "d": "2021-04-13",
         "m1": "2705.82"
       },
       {
-        "p": "[Train a Real-world Local Path Planner in One Hour via Partially Decoupled Reinforcement Learning and Vectorized Diversity](https://arxiv.org/abs/2305.04180v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/xinjinghao/color)",
+        "p": {
+          "name": "Train a Real-world Local Path Planner in One Hour via Partially Decoupled Reinforcement Learning and Vectorized Diversity",
+          "link": "https://arxiv.org/abs/2305.04180v3"
+        },
+        "c": "https://github.com/xinjinghao/color",
         "n": "ASL DDQN",
         "d": "2023-05-07",
         "m1": "2597.2"
       },
       {
-        "p": "[The Reactor: A fast and sample-efficient Actor-Critic agent for Reinforcement Learning](http://arxiv.org/abs/1704.04651v2)",
+        "p": {
+          "name": "The Reactor: A fast and sample-efficient Actor-Critic agent for Reinforcement Learning",
+          "link": "http://arxiv.org/abs/1704.04651v2"
+        },
         "c": "",
         "n": "Reactor 500M",
         "d": "2017-04-15",
         "m1": "2303.1"
       },
       {
-        "p": "[Deep Reinforcement Learning with Double Q-learning](http://arxiv.org/abs/1509.06461v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+        "p": {
+          "name": "Deep Reinforcement Learning with Double Q-learning",
+          "link": "http://arxiv.org/abs/1509.06461v3"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
         "n": "Prior+Duel hs",
         "d": "2015-09-22",
         "m1": "2178.6"
       },
       {
-        "p": "[Noisy Networks for Exploration](https://arxiv.org/abs/1706.10295v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/opendilab/DI-engine)",
+        "p": {
+          "name": "Noisy Networks for Exploration",
+          "link": "https://arxiv.org/abs/1706.10295v3"
+        },
+        "c": "https://github.com/opendilab/DI-engine",
         "n": "NoisyNet-Dueling",
         "d": "2017-06-30",
         "m1": "1896"
       },
       {
-        "p": "[IMPALA: Scalable Distributed Deep-RL with Importance Weighted Actor-Learner Architectures](http://arxiv.org/abs/1802.01561v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/ray-project/ray/tree/master/rllib)",
+        "p": {
+          "name": "IMPALA: Scalable Distributed Deep-RL with Importance Weighted Actor-Learner Architectures",
+          "link": "http://arxiv.org/abs/1802.01561v3"
+        },
+        "c": "https://github.com/ray-project/ray/tree/master/rllib",
         "n": "IMPALA (deep)",
         "d": "2018-02-05",
         "m1": "1852.70"
       },
       {
-        "p": "[A Distributional Perspective on Reinforcement Learning](http://arxiv.org/abs/1707.06887v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/Horizon)",
+        "p": {
+          "name": "A Distributional Perspective on Reinforcement Learning",
+          "link": "http://arxiv.org/abs/1707.06887v1"
+        },
+        "c": "https://github.com/facebookresearch/Horizon",
         "n": "C51 noop",
         "d": "2017-07-21",
         "m1": "1645.0"
       },
       {
-        "p": "[Dueling Network Architectures for Deep Reinforcement Learning](http://arxiv.org/abs/1511.06581v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+        "p": {
+          "name": "Dueling Network Architectures for Deep Reinforcement Learning",
+          "link": "http://arxiv.org/abs/1511.06581v3"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
         "n": "Duel noop",
         "d": "2015-11-20",
         "m1": "1472.6"
       },
       {
-        "p": "[Asynchronous Methods for Deep Reinforcement Learning](http://arxiv.org/abs/1602.01783v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/ray-project/ray/tree/master/rllib)",
+        "p": {
+          "name": "Asynchronous Methods for Deep Reinforcement Learning",
+          "link": "http://arxiv.org/abs/1602.01783v2"
+        },
+        "c": "https://github.com/ray-project/ray/tree/master/rllib",
         "n": "A3C FF (1 day) hs",
         "d": "2016-02-04",
         "m1": "1433.4"
       },
       {
-        "p": "[Increasing the Action Gap: New Operators for Reinforcement Learning](http://arxiv.org/abs/1512.04860v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/janhuenermann/neurojs)",
+        "p": {
+          "name": "Increasing the Action Gap: New Operators for Reinforcement Learning",
+          "link": "http://arxiv.org/abs/1512.04860v1"
+        },
+        "c": "https://github.com/janhuenermann/neurojs",
         "n": "Persistent AL",
         "d": "2015-12-15",
         "m1": "1328.25"
       },
       {
-        "p": "[Prioritized Experience Replay](http://arxiv.org/abs/1511.05952v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+        "p": {
+          "name": "Prioritized Experience Replay",
+          "link": "http://arxiv.org/abs/1511.05952v4"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
         "n": "Prior noop",
         "d": "2015-11-18",
         "m1": "1305.6"
       },
       {
-        "p": "[Dueling Network Architectures for Deep Reinforcement Learning](http://arxiv.org/abs/1511.06581v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+        "p": {
+          "name": "Dueling Network Architectures for Deep Reinforcement Learning",
+          "link": "http://arxiv.org/abs/1511.06581v3"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
         "n": "DDQN (tuned) noop",
         "d": "2015-11-20",
         "m1": "1225.4"
       },
       {
-        "p": "[Learning values across many orders of magnitude](http://arxiv.org/abs/1602.07714v2)",
+        "p": {
+          "name": "Learning values across many orders of magnitude",
+          "link": "http://arxiv.org/abs/1602.07714v2"
+        },
         "c": "",
         "n": "DDQN+Pop-Art noop",
         "d": "2016-02-24",
         "m1": "1199.6"
       },
       {
-        "p": "[Evolving simple programs for playing Atari games](http://arxiv.org/abs/1806.05695v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/ShuhuaGao/gpFlappyBird)",
+        "p": {
+          "name": "Evolving simple programs for playing Atari games",
+          "link": "http://arxiv.org/abs/1806.05695v1"
+        },
+        "c": "https://github.com/ShuhuaGao/gpFlappyBird",
         "n": "CGP",
         "d": "2018-06-14",
         "m1": "1138"
       },
       {
-        "p": "[Implicit Quantile Networks for Distributional Reinforcement Learning](http://arxiv.org/abs/1806.06923v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/opendilab/DI-engine/blob/main/ding/policy/iqn.py)",
+        "p": {
+          "name": "Implicit Quantile Networks for Distributional Reinforcement Learning",
+          "link": "http://arxiv.org/abs/1806.06923v1"
+        },
+        "c": "https://github.com/opendilab/DI-engine/blob/main/ding/policy/iqn.py",
         "n": "IQN",
         "d": "2018-06-14",
         "m1": "1053"
       },
       {
-        "p": "[Deep Reinforcement Learning with Double Q-learning](http://arxiv.org/abs/1509.06461v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+        "p": {
+          "name": "Deep Reinforcement Learning with Double Q-learning",
+          "link": "http://arxiv.org/abs/1509.06461v3"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
         "n": "DDQN (tuned) hs",
         "d": "2015-09-22",
         "m1": "1011.1"
       },
       {
-        "p": "[Dueling Network Architectures for Deep Reinforcement Learning](http://arxiv.org/abs/1511.06581v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+        "p": {
+          "name": "Dueling Network Architectures for Deep Reinforcement Learning",
+          "link": "http://arxiv.org/abs/1511.06581v3"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
         "n": "Duel hs",
         "d": "2015-11-20",
         "m1": "910.6"
       },
       {
-        "p": "[Prioritized Experience Replay](http://arxiv.org/abs/1511.05952v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+        "p": {
+          "name": "Prioritized Experience Replay",
+          "link": "http://arxiv.org/abs/1511.05952v4"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
         "n": "Prior hs",
         "d": "2015-11-18",
         "m1": "865.9"
       },
       {
-        "p": "[Asynchronous Methods for Deep Reinforcement Learning](http://arxiv.org/abs/1602.01783v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/ray-project/ray/tree/master/rllib)",
+        "p": {
+          "name": "Asynchronous Methods for Deep Reinforcement Learning",
+          "link": "http://arxiv.org/abs/1602.01783v2"
+        },
+        "c": "https://github.com/ray-project/ray/tree/master/rllib",
         "n": "A3C LSTM hs",
         "d": "2016-02-04",
         "m1": "862.2"
       },
       {
-        "p": "[Asynchronous Methods for Deep Reinforcement Learning](http://arxiv.org/abs/1602.01783v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/ray-project/ray/tree/master/rllib)",
+        "p": {
+          "name": "Asynchronous Methods for Deep Reinforcement Learning",
+          "link": "http://arxiv.org/abs/1602.01783v2"
+        },
+        "c": "https://github.com/ray-project/ray/tree/master/rllib",
         "n": "A3C FF hs",
         "d": "2016-02-04",
         "m1": "817.9"
       },
       {
-        "p": "[Mastering Atari with Discrete World Models](https://arxiv.org/abs/2010.02193v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/opendilab/DI-engine)",
+        "p": {
+          "name": "Mastering Atari with Discrete World Models",
+          "link": "https://arxiv.org/abs/2010.02193v4"
+        },
+        "c": "https://github.com/opendilab/DI-engine",
         "n": "DreamerV2",
         "d": "2020-10-05",
         "m1": "810"
       },
       {
-        "p": "[Increasing the Action Gap: New Operators for Reinforcement Learning](http://arxiv.org/abs/1512.04860v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/janhuenermann/neurojs)",
+        "p": {
+          "name": "Increasing the Action Gap: New Operators for Reinforcement Learning",
+          "link": "http://arxiv.org/abs/1512.04860v1"
+        },
+        "c": "https://github.com/janhuenermann/neurojs",
         "n": "Advantage Learning",
         "d": "2015-12-15",
         "m1": "747.26"
       },
       {
-        "p": "[Evolution Strategies as a Scalable Alternative to Reinforcement Learning](http://arxiv.org/abs/1703.03864v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/ray-project/ray/tree/master/rllib)",
+        "p": {
+          "name": "Evolution Strategies as a Scalable Alternative to Reinforcement Learning",
+          "link": "http://arxiv.org/abs/1703.03864v2"
+        },
+        "c": "https://github.com/ray-project/ray/tree/master/rllib",
         "n": "ES FF (1 hour) noop",
         "d": "2017-03-10",
         "m1": "686.0"
       },
       {
-        "p": "[The Arcade Learning Environment: An Evaluation Platform for General Agents](http://arxiv.org/abs/1207.4708v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/mgbellemare/Arcade-Learning-Environment)",
+        "p": {
+          "name": "The Arcade Learning Environment: An Evaluation Platform for General Agents",
+          "link": "http://arxiv.org/abs/1207.4708v2"
+        },
+        "c": "https://github.com/mgbellemare/Arcade-Learning-Environment",
         "n": "Best Baseline",
         "d": "2012-07-19",
         "m1": "670"
       },
       {
-        "p": "[Deep Reinforcement Learning with Double Q-learning](http://arxiv.org/abs/1509.06461v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+        "p": {
+          "name": "Deep Reinforcement Learning with Double Q-learning",
+          "link": "http://arxiv.org/abs/1509.06461v3"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
         "n": "DQN noop",
         "d": "2015-09-22",
         "m1": "585.6"
       },
       {
-        "p": "[The Arcade Learning Environment: An Evaluation Platform for General Agents](http://arxiv.org/abs/1207.4708v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/mgbellemare/Arcade-Learning-Environment)",
+        "p": {
+          "name": "The Arcade Learning Environment: An Evaluation Platform for General Agents",
+          "link": "http://arxiv.org/abs/1207.4708v2"
+        },
+        "c": "https://github.com/mgbellemare/Arcade-Learning-Environment",
         "n": "Best Learner",
         "d": "2012-07-19",
         "m1": "501.3"
       },
       {
-        "p": "[Deep Reinforcement Learning with Double Q-learning](http://arxiv.org/abs/1509.06461v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+        "p": {
+          "name": "Deep Reinforcement Learning with Double Q-learning",
+          "link": "http://arxiv.org/abs/1509.06461v3"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
         "n": "DQN hs",
         "d": "2015-09-22",
         "m1": "493.4"

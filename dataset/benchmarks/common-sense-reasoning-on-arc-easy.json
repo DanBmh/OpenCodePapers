@@ -33,330 +33,471 @@
     ],
     "items": [
       {
-        "p": "[ST-MoE: Designing Stable and Transferable Sparse Expert Models](https://arxiv.org/abs/2202.08906v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/mesh)",
+        "p": {
+          "name": "ST-MoE: Designing Stable and Transferable Sparse Expert Models",
+          "link": "https://arxiv.org/abs/2202.08906v2"
+        },
+        "c": "https://github.com/tensorflow/mesh",
         "n": "ST-MoE-32B 269B (fine-tuned)",
         "d": "2022-02-17",
         "m1": "95.2"
       },
       {
-        "p": "[Mixture-of-Subspaces in Low-Rank Adaptation](https://arxiv.org/abs/2406.11909v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/wutaiqiang/moslora)",
+        "p": {
+          "name": "Mixture-of-Subspaces in Low-Rank Adaptation",
+          "link": "https://arxiv.org/abs/2406.11909v3"
+        },
+        "c": "https://github.com/wutaiqiang/moslora",
         "n": "LLaMA 3 8B+MoSLoRA (fine-tuned)",
         "d": "2024-06-16",
         "m1": "90.5"
       },
       {
-        "p": "[PaLM 2 Technical Report](https://arxiv.org/abs/2305.10403v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/eternityyw/tram-benchmark)",
+        "p": {
+          "name": "PaLM 2 Technical Report",
+          "link": "https://arxiv.org/abs/2305.10403v3"
+        },
+        "c": "https://github.com/eternityyw/tram-benchmark",
         "n": "PaLM 2-L (1-shot)",
         "d": "2023-05-17",
         "m1": "89.7"
       },
       {
-        "p": "[PaLM 2 Technical Report](https://arxiv.org/abs/2305.10403v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/eternityyw/tram-benchmark)",
+        "p": {
+          "name": "PaLM 2 Technical Report",
+          "link": "https://arxiv.org/abs/2305.10403v3"
+        },
+        "c": "https://github.com/eternityyw/tram-benchmark",
         "n": "PaLM 2-M (1-shot)",
         "d": "2023-05-17",
         "m1": "88.0"
       },
       {
-        "p": "[MixLoRA: Enhancing Large Language Models Fine-Tuning with LoRA-based Mixture of Experts](https://arxiv.org/abs/2404.15159v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/TUDB-Labs/MixLoRA)",
+        "p": {
+          "name": "MixLoRA: Enhancing Large Language Models Fine-Tuning with LoRA-based Mixture of Experts",
+          "link": "https://arxiv.org/abs/2404.15159v3"
+        },
+        "c": "https://github.com/TUDB-Labs/MixLoRA",
         "n": "LLaMA-3 8B + MixLoRA",
         "d": "2024-04-22",
         "m1": "86.5"
       },
       {
-        "p": "[Parameter-Efficient Sparsity Crafting from Dense to Mixture-of-Experts for Instruction Tuning on General Tasks](https://arxiv.org/abs/2401.02731v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/wuhy68/parameter-efficient-moe)",
+        "p": {
+          "name": "Parameter-Efficient Sparsity Crafting from Dense to Mixture-of-Experts for Instruction Tuning on General Tasks",
+          "link": "https://arxiv.org/abs/2401.02731v4"
+        },
+        "c": "https://github.com/wuhy68/parameter-efficient-moe",
         "n": "Camelidae-8×34B",
         "d": "2024-01-05",
         "m1": "86.2"
       },
       {
-        "p": "[PaLM 2 Technical Report](https://arxiv.org/abs/2305.10403v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/eternityyw/tram-benchmark)",
+        "p": {
+          "name": "PaLM 2 Technical Report",
+          "link": "https://arxiv.org/abs/2305.10403v3"
+        },
+        "c": "https://github.com/eternityyw/tram-benchmark",
         "n": "PaLM 2-S (1-shot)",
         "d": "2023-05-17",
         "m1": "85.6"
       },
       {
-        "p": "[Stay on topic with Classifier-Free Guidance](https://arxiv.org/abs/2306.17806v1)",
+        "p": {
+          "name": "Stay on topic with Classifier-Free Guidance",
+          "link": "https://arxiv.org/abs/2306.17806v1"
+        },
         "c": "",
         "n": "LLaMA 65B + CFG (0-shot)",
         "d": "2023-06-30",
         "m1": "84.2"
       },
       {
-        "p": "[Galactica: A Large Language Model for Science](https://arxiv.org/abs/2211.09085v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/paperswithcode/galai)",
+        "p": {
+          "name": "Galactica: A Large Language Model for Science",
+          "link": "https://arxiv.org/abs/2211.09085v1"
+        },
+        "c": "https://github.com/paperswithcode/galai",
         "n": "GAL 120B (0-shot)",
         "d": "2022-11-16",
         "m1": "83.8"
       },
       {
-        "p": "[MixLoRA: Enhancing Large Language Models Fine-Tuning with LoRA-based Mixture of Experts](https://arxiv.org/abs/2404.15159v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/TUDB-Labs/MixLoRA)",
+        "p": {
+          "name": "MixLoRA: Enhancing Large Language Models Fine-Tuning with LoRA-based Mixture of Experts",
+          "link": "https://arxiv.org/abs/2404.15159v3"
+        },
+        "c": "https://github.com/TUDB-Labs/MixLoRA",
         "n": "LLaMA-2 13B + MixLoRA",
         "d": "2024-04-22",
         "m1": "83.5"
       },
       {
-        "p": "[Stay on topic with Classifier-Free Guidance](https://arxiv.org/abs/2306.17806v1)",
+        "p": {
+          "name": "Stay on topic with Classifier-Free Guidance",
+          "link": "https://arxiv.org/abs/2306.17806v1"
+        },
         "c": "",
         "n": "LLaMA 30B + CFG (0-shot)",
         "d": "2023-06-30",
         "m1": "83.2"
       },
       {
-        "p": "[Mixtral of Experts](https://arxiv.org/abs/2401.04088v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/jingyaogong/minimind)",
+        "p": {
+          "name": "Mixtral of Experts",
+          "link": "https://arxiv.org/abs/2401.04088v1"
+        },
+        "c": "https://github.com/jingyaogong/minimind",
         "n": "Mixtral 8x7B (0-shot)",
         "d": "2024-01-08",
         "m1": "83.1"
       },
       {
-        "p": "[Finetuned Language Models Are Zero-Shot Learners](https://arxiv.org/abs/2109.01652v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/hiyouga/llama-efficient-tuning)",
+        "p": {
+          "name": "Finetuned Language Models Are Zero-Shot Learners",
+          "link": "https://arxiv.org/abs/2109.01652v5"
+        },
+        "c": "https://github.com/hiyouga/llama-efficient-tuning",
         "n": "FLAN 137B (few-shot, k=14)",
         "d": "2021-09-03",
         "m1": "80.7"
       },
       {
-        "p": "[Mixtral of Experts](https://arxiv.org/abs/2401.04088v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/jingyaogong/minimind)",
+        "p": {
+          "name": "Mixtral of Experts",
+          "link": "https://arxiv.org/abs/2401.04088v1"
+        },
+        "c": "https://github.com/jingyaogong/minimind",
         "n": "Mistral 7B (0-shot)",
         "d": "2024-01-08",
         "m1": "80.5"
       },
       {
-        "p": "[LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "LLaMA: Open and Efficient Foundation Language Models",
+          "link": "https://arxiv.org/abs/2302.13971v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "LLaMA 33B (0-shot)",
         "d": "2023-02-27",
         "m1": "80.0"
       },
       {
-        "p": "[Mistral 7B](https://arxiv.org/abs/2310.06825v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/mistralai/mistral-src)",
+        "p": {
+          "name": "Mistral 7B",
+          "link": "https://arxiv.org/abs/2310.06825v1"
+        },
+        "c": "https://github.com/mistralai/mistral-src",
         "n": "Mistral 7B (0-shot)",
         "d": "2023-10-10",
         "m1": "80.0"
       },
       {
-        "p": "[Finetuned Language Models Are Zero-Shot Learners](https://arxiv.org/abs/2109.01652v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/hiyouga/llama-efficient-tuning)",
+        "p": {
+          "name": "Finetuned Language Models Are Zero-Shot Learners",
+          "link": "https://arxiv.org/abs/2109.01652v5"
+        },
+        "c": "https://github.com/hiyouga/llama-efficient-tuning",
         "n": "FLAN 137B (0-shot)",
         "d": "2021-09-03",
         "m1": "79.6"
       },
       {
-        "p": "[Stay on topic with Classifier-Free Guidance](https://arxiv.org/abs/2306.17806v1)",
+        "p": {
+          "name": "Stay on topic with Classifier-Free Guidance",
+          "link": "https://arxiv.org/abs/2306.17806v1"
+        },
         "c": "",
         "n": "LLaMA 13B + CFG (0-shot)",
         "d": "2023-06-30",
         "m1": "79.1"
       },
       {
-        "p": "[LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "LLaMA: Open and Efficient Foundation Language Models",
+          "link": "https://arxiv.org/abs/2302.13971v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "LLaMA 65B (0-shot)",
         "d": "2023-02-27",
         "m1": "78.9"
       },
       {
-        "p": "[MixLoRA: Enhancing Large Language Models Fine-Tuning with LoRA-based Mixture of Experts](https://arxiv.org/abs/2404.15159v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/TUDB-Labs/MixLoRA)",
+        "p": {
+          "name": "MixLoRA: Enhancing Large Language Models Fine-Tuning with LoRA-based Mixture of Experts",
+          "link": "https://arxiv.org/abs/2404.15159v3"
+        },
+        "c": "https://github.com/TUDB-Labs/MixLoRA",
         "n": "LLaMA-2 7B + MixLoRA",
         "d": "2024-04-22",
         "m1": "77.7"
       },
       {
-        "p": "[Textbooks Are All You Need II: phi-1.5 technical report](https://arxiv.org/abs/2309.05463v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/knowlab/bi-weekly-paper-presentation)",
+        "p": {
+          "name": "Textbooks Are All You Need II: phi-1.5 technical report",
+          "link": "https://arxiv.org/abs/2309.05463v1"
+        },
+        "c": "https://github.com/knowlab/bi-weekly-paper-presentation",
         "n": "phi-1.5-web 1.3B (0-shot)",
         "d": "2023-09-11",
         "m1": "76.1"
       },
       {
-        "p": "[BloombergGPT: A Large Language Model for Finance](https://arxiv.org/abs/2303.17564v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/yangletliu/finlora)",
+        "p": {
+          "name": "BloombergGPT: A Large Language Model for Finance",
+          "link": "https://arxiv.org/abs/2303.17564v3"
+        },
+        "c": "https://github.com/yangletliu/finlora",
         "n": "BLOOM 176B (1-shot)",
         "d": "2023-03-30",
         "m1": "75.93"
       },
       {
-        "p": "[ST-MoE: Designing Stable and Transferable Sparse Expert Models](https://arxiv.org/abs/2202.08906v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/mesh)",
+        "p": {
+          "name": "ST-MoE: Designing Stable and Transferable Sparse Expert Models",
+          "link": "https://arxiv.org/abs/2202.08906v2"
+        },
+        "c": "https://github.com/tensorflow/mesh",
         "n": "ST-MoE-L 4.1B (fine-tuned)",
         "d": "2022-02-17",
         "m1": "75.4"
       },
       {
-        "p": "[GLaM: Efficient Scaling of Language Models with Mixture-of-Experts](https://arxiv.org/abs/2112.06905v2)",
+        "p": {
+          "name": "GLaM: Efficient Scaling of Language Models with Mixture-of-Experts",
+          "link": "https://arxiv.org/abs/2112.06905v2"
+        },
         "c": "",
         "n": "GLaM (64B/64E) (5-shot)",
         "d": "2021-12-13",
         "m1": "74.8"
       },
       {
-        "p": "[LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "LLaMA: Open and Efficient Foundation Language Models",
+          "link": "https://arxiv.org/abs/2302.13971v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "LLaMA 13B (0-shot)",
         "d": "2023-02-27",
         "m1": "74.8"
       },
       {
-        "p": "[BloombergGPT: A Large Language Model for Finance](https://arxiv.org/abs/2303.17564v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/yangletliu/finlora)",
+        "p": {
+          "name": "BloombergGPT: A Large Language Model for Finance",
+          "link": "https://arxiv.org/abs/2303.17564v3"
+        },
+        "c": "https://github.com/yangletliu/finlora",
         "n": "Bloomberg GPT 50B (1-shot)",
         "d": "2023-03-30",
         "m1": "73.99"
       },
       {
-        "p": "[LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "LLaMA: Open and Efficient Foundation Language Models",
+          "link": "https://arxiv.org/abs/2302.13971v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "LLaMA 7B (0-shot)",
         "d": "2023-02-27",
         "m1": "72.8"
       },
       {
-        "p": "[Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling](https://arxiv.org/abs/2304.01373v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/Lightning-AI/lit-gpt)",
+        "p": {
+          "name": "Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling",
+          "link": "https://arxiv.org/abs/2304.01373v2"
+        },
+        "c": "https://github.com/Lightning-AI/lit-gpt",
         "n": "Pythia 12B (5-shot)",
         "d": "2023-04-03",
         "m1": "71.5"
       },
       {
-        "p": "[BloombergGPT: A Large Language Model for Finance](https://arxiv.org/abs/2303.17564v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/yangletliu/finlora)",
+        "p": {
+          "name": "BloombergGPT: A Large Language Model for Finance",
+          "link": "https://arxiv.org/abs/2303.17564v3"
+        },
+        "c": "https://github.com/yangletliu/finlora",
         "n": "OPT 66B (1-shot)",
         "d": "2023-03-30",
         "m1": "71.25"
       },
       {
-        "p": "[Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/ggml-org/llama.cpp)",
+        "p": {
+          "name": "Language Models are Few-Shot Learners",
+          "link": "https://arxiv.org/abs/2005.14165v4"
+        },
+        "c": "https://github.com/ggml-org/llama.cpp",
         "n": "GPT-3 175B (1 shot)",
         "d": "2020-05-28",
         "m1": "71.2"
       },
       {
-        "p": "[SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot](https://arxiv.org/abs/2301.00774v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/nvidia/tensorrt-model-optimizer)",
+        "p": {
+          "name": "SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot",
+          "link": "https://arxiv.org/abs/2301.00774v3"
+        },
+        "c": "https://github.com/nvidia/tensorrt-model-optimizer",
         "n": "OPT-175B",
         "d": "2023-01-02",
         "m1": "71.04"
       },
       {
-        "p": "[BloombergGPT: A Large Language Model for Finance](https://arxiv.org/abs/2303.17564v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/yangletliu/finlora)",
+        "p": {
+          "name": "BloombergGPT: A Large Language Model for Finance",
+          "link": "https://arxiv.org/abs/2303.17564v3"
+        },
+        "c": "https://github.com/yangletliu/finlora",
         "n": "GPT-NeoX 20B (1-shot)",
         "d": "2023-03-30",
         "m1": "70.79"
       },
       {
-        "p": "[Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling](https://arxiv.org/abs/2304.01373v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/Lightning-AI/lit-gpt)",
+        "p": {
+          "name": "Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling",
+          "link": "https://arxiv.org/abs/2304.01373v2"
+        },
+        "c": "https://github.com/Lightning-AI/lit-gpt",
         "n": "Pythia 12B (0-shot)",
         "d": "2023-04-03",
         "m1": "70.2"
       },
       {
-        "p": "[UL2: Unifying Language Learning Paradigms](https://arxiv.org/abs/2205.05131v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research)",
+        "p": {
+          "name": "UL2: Unifying Language Learning Paradigms",
+          "link": "https://arxiv.org/abs/2205.05131v3"
+        },
+        "c": "https://github.com/google-research/google-research",
         "n": "UL2 20B (chain-of-thought + self-consistency)",
         "d": "2022-05-10",
         "m1": "69.8"
       },
       {
-        "p": "[Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/state-spaces/mamba)",
+        "p": {
+          "name": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
+          "link": "https://arxiv.org/abs/2312.00752v2"
+        },
+        "c": "https://github.com/state-spaces/mamba",
         "n": "Mamba-2.8B (0-shot)",
         "d": "2023-12-01",
         "m1": "69.7"
       },
       {
-        "p": "[SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot](https://arxiv.org/abs/2301.00774v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/nvidia/tensorrt-model-optimizer)",
+        "p": {
+          "name": "SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot",
+          "link": "https://arxiv.org/abs/2301.00774v3"
+        },
+        "c": "https://github.com/nvidia/tensorrt-model-optimizer",
         "n": "SparseGPT 175B (50% sparsity)",
         "d": "2023-01-02",
         "m1": "69.65"
       },
       {
-        "p": "[Galactica: A Large Language Model for Science](https://arxiv.org/abs/2211.09085v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/paperswithcode/galai)",
+        "p": {
+          "name": "Galactica: A Large Language Model for Science",
+          "link": "https://arxiv.org/abs/2211.09085v1"
+        },
+        "c": "https://github.com/paperswithcode/galai",
         "n": "GPT-3 (zero-shot)",
         "d": "2022-11-16",
         "m1": "68.8"
       },
       {
-        "p": "[Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/ggml-org/llama.cpp)",
+        "p": {
+          "name": "Language Models are Few-Shot Learners",
+          "link": "https://arxiv.org/abs/2005.14165v4"
+        },
+        "c": "https://github.com/ggml-org/llama.cpp",
         "n": "GPT-3 175B (0-shot)",
         "d": "2020-05-28",
         "m1": "68.8"
       },
       {
-        "p": "[SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot](https://arxiv.org/abs/2301.00774v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/nvidia/tensorrt-model-optimizer)",
+        "p": {
+          "name": "SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot",
+          "link": "https://arxiv.org/abs/2301.00774v3"
+        },
+        "c": "https://github.com/nvidia/tensorrt-model-optimizer",
         "n": "SparseGPT (175B, 4:8 Sparsity)",
         "d": "2023-01-02",
         "m1": "68.35"
       },
       {
-        "p": "[GLaM: Efficient Scaling of Language Models with Mixture-of-Experts](https://arxiv.org/abs/2112.06905v2)",
+        "p": {
+          "name": "GLaM: Efficient Scaling of Language Models with Mixture-of-Experts",
+          "link": "https://arxiv.org/abs/2112.06905v2"
+        },
         "c": "",
         "n": "GLaM 64B/64E (0-shot)",
         "d": "2021-12-13",
         "m1": "68.0"
       },
       {
-        "p": "[SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot](https://arxiv.org/abs/2301.00774v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/nvidia/tensorrt-model-optimizer)",
+        "p": {
+          "name": "SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot",
+          "link": "https://arxiv.org/abs/2301.00774v3"
+        },
+        "c": "https://github.com/nvidia/tensorrt-model-optimizer",
         "n": "SparseGPT 175B (2:4 sparsity)",
         "d": "2023-01-02",
         "m1": "67.08"
       },
       {
-        "p": "[Stay on topic with Classifier-Free Guidance](https://arxiv.org/abs/2306.17806v1)",
+        "p": {
+          "name": "Stay on topic with Classifier-Free Guidance",
+          "link": "https://arxiv.org/abs/2306.17806v1"
+        },
         "c": "",
         "n": "LLaMA 7B + CFG (0-shot)",
         "d": "2023-06-30",
         "m1": "58.9"
       },
       {
-        "p": "[Galactica: A Large Language Model for Science](https://arxiv.org/abs/2211.09085v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/paperswithcode/galai)",
+        "p": {
+          "name": "Galactica: A Large Language Model for Science",
+          "link": "https://arxiv.org/abs/2211.09085v1"
+        },
+        "c": "https://github.com/paperswithcode/galai",
         "n": "BLOOM (5-shot)",
         "d": "2022-11-16",
         "m1": "40.7"
       },
       {
-        "p": "[UL2: Unifying Language Learning Paradigms](https://arxiv.org/abs/2205.05131v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research)",
+        "p": {
+          "name": "UL2: Unifying Language Learning Paradigms",
+          "link": "https://arxiv.org/abs/2205.05131v3"
+        },
+        "c": "https://github.com/google-research/google-research",
         "n": "UL2 20B (chain-of-thought)",
         "d": "2022-05-10",
         "m1": "38.4"
       },
       {
-        "p": "[Galactica: A Large Language Model for Science](https://arxiv.org/abs/2211.09085v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/paperswithcode/galai)",
+        "p": {
+          "name": "Galactica: A Large Language Model for Science",
+          "link": "https://arxiv.org/abs/2211.09085v1"
+        },
+        "c": "https://github.com/paperswithcode/galai",
         "n": "OPT (5-shot)",
         "d": "2022-11-16",
         "m1": "37.4"
       },
       {
-        "p": "[UL2: Unifying Language Learning Paradigms](https://arxiv.org/abs/2205.05131v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research)",
+        "p": {
+          "name": "UL2: Unifying Language Learning Paradigms",
+          "link": "https://arxiv.org/abs/2205.05131v3"
+        },
+        "c": "https://github.com/google-research/google-research",
         "n": "UL2 20B (0-shot)",
         "d": "2022-05-10",
         "m1": "32.2"
       },
       {
-        "p": "[SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot](https://arxiv.org/abs/2301.00774v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/nvidia/tensorrt-model-optimizer)",
+        "p": {
+          "name": "SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot",
+          "link": "https://arxiv.org/abs/2301.00774v3"
+        },
+        "c": "https://github.com/nvidia/tensorrt-model-optimizer",
         "n": "OPT 175B (50% Sparsity)",
         "d": "2023-01-02",
         "m1": "28.03"

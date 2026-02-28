@@ -33,84 +33,120 @@
     ],
     "items": [
       {
-        "p": "[SpeechStew: Simply Mix All Available Speech Recognition Data to Train One Large Neural Network](https://arxiv.org/abs/2104.02133v3)",
+        "p": {
+          "name": "SpeechStew: Simply Mix All Available Speech Recognition Data to Train One Large Neural Network",
+          "link": "https://arxiv.org/abs/2104.02133v3"
+        },
         "c": "",
         "n": "Speechstew 100M",
         "d": "2021-04-05",
         "m1": "1.3"
       },
       {
-        "p": "[BigSSL: Exploring the Frontier of Large-Scale Semi-Supervised Learning for Automatic Speech Recognition](https://arxiv.org/abs/2109.13226v3)",
+        "p": {
+          "name": "BigSSL: Exploring the Frontier of Large-Scale Semi-Supervised Learning for Automatic Speech Recognition",
+          "link": "https://arxiv.org/abs/2109.13226v3"
+        },
         "c": "",
         "n": "ConformerXXL-P",
         "d": "2021-09-27",
         "m1": "1.3"
       },
       {
-        "p": "[Generative Speech Recognition Error Correction with Large Language Models and Task-Activating Prompting](https://arxiv.org/abs/2309.15649v2)",
+        "p": {
+          "name": "Generative Speech Recognition Error Correction with Large Language Models and Task-Activating Prompting",
+          "link": "https://arxiv.org/abs/2309.15649v2"
+        },
         "c": "",
         "n": "Task activating prompting generative correction",
         "d": "2023-09-27",
         "m1": "2.11"
       },
       {
-        "p": "[It's Never Too Late: Fusing Acoustic Information into Large Language Models for Automatic Speech Recognition](https://arxiv.org/abs/2402.05457v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/Hypotheses-Paradise/UADF)",
+        "p": {
+          "name": "It's Never Too Late: Fusing Acoustic Information into Large Language Models for Automatic Speech Recognition",
+          "link": "https://arxiv.org/abs/2402.05457v1"
+        },
+        "c": "https://github.com/Hypotheses-Paradise/UADF",
         "n": "RobustGER",
         "d": "2024-02-08",
         "m1": "2.2"
       },
       {
-        "p": "[Purely sequence-trained neural networks for ASR based on lattice-free MMI](https://www.danielpovey.com/files/2016_interspeech_mmi.pdf)",
+        "p": {
+          "name": "Purely sequence-trained neural networks for ASR based on lattice-free MMI",
+          "link": "https://www.danielpovey.com/files/2016_interspeech_mmi.pdf"
+        },
         "c": "",
         "n": "tdnn + chain",
         "d": "2016-09-08",
         "m1": "2.32"
       },
       {
-        "p": "[Efficient Neural Architecture Search for End-to-end Speech Recognition via Straight-Through Gradients](https://arxiv.org/abs/2011.05649v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/thu-spmi/ST-NAS)",
+        "p": {
+          "name": "Efficient Neural Architecture Search for End-to-end Speech Recognition via Straight-Through Gradients",
+          "link": "https://arxiv.org/abs/2011.05649v1"
+        },
+        "c": "https://github.com/thu-spmi/ST-NAS",
         "n": "CTC-CRF ST-NAS",
         "d": "2020-11-11",
         "m1": "2.77"
       },
       {
-        "p": "[End-to-end speech recognition using lattice-free MMI](https://www.isca-speech.org/archive/Interspeech_2018/abstracts/1423.html)",
+        "p": {
+          "name": "End-to-end speech recognition using lattice-free MMI",
+          "link": "https://www.isca-speech.org/archive/Interspeech_2018/abstracts/1423.html"
+        },
         "c": "",
         "n": "End-to-end LF-MMI",
         "d": "2018-09-06",
         "m1": "3.0"
       },
       {
-        "p": "[Relaxed Attention: A Simple Method to Boost Performance of End-to-End Automatic Speech Recognition](https://arxiv.org/abs/2107.01275v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/freewym/espresso)",
+        "p": {
+          "name": "Relaxed Attention: A Simple Method to Boost Performance of End-to-End Automatic Speech Recognition",
+          "link": "https://arxiv.org/abs/2107.01275v2"
+        },
+        "c": "https://github.com/freewym/espresso",
         "n": "Transformer with Relaxed Attention",
         "d": "2021-07-02",
         "m1": "3.19"
       },
       {
-        "p": "[CAT: A CTC-CRF based ASR Toolkit Bridging the Hybrid and the End-to-end Approaches towards Data Efficiency and Low Latency](https://arxiv.org/abs/2005.13326v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/thu-spmi/cat)",
+        "p": {
+          "name": "CAT: A CTC-CRF based ASR Toolkit Bridging the Hybrid and the End-to-end Approaches towards Data Efficiency and Low Latency",
+          "link": "https://arxiv.org/abs/2005.13326v2"
+        },
+        "c": "https://github.com/thu-spmi/cat",
         "n": "CTC-CRF VGG-BLSTM",
         "d": "2020-05-27",
         "m1": "3.2"
       },
       {
-        "p": "[Espresso: A Fast End-to-end Neural Speech Recognition Toolkit](https://arxiv.org/abs/1909.08723v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/freewym/espresso)",
+        "p": {
+          "name": "Espresso: A Fast End-to-end Neural Speech Recognition Toolkit",
+          "link": "https://arxiv.org/abs/1909.08723v3"
+        },
+        "c": "https://github.com/freewym/espresso",
         "n": "Espresso",
         "d": "2019-09-18",
         "m1": "3.4"
       },
       {
-        "p": "[Deep Recurrent Neural Networks for Acoustic Modelling](http://arxiv.org/abs/1504.01482v1)",
+        "p": {
+          "name": "Deep Recurrent Neural Networks for Acoustic Modelling",
+          "link": "http://arxiv.org/abs/1504.01482v1"
+        },
         "c": "",
         "n": "TC-DNN-BLSTM-DNN",
         "d": "2015-04-07",
         "m1": "3.5"
       },
       {
-        "p": "[Fully Convolutional Speech Recognition](http://arxiv.org/abs/1812.06864v2)",
+        "p": {
+          "name": "Fully Convolutional Speech Recognition",
+          "link": "http://arxiv.org/abs/1812.06864v2"
+        },
         "c": "",
         "n": "Convolutional Speech Recognition",
         "d": "2018-12-17",
@@ -124,15 +160,21 @@
         "m1": "3.6"
       },
       {
-        "p": "[Deep Speech 2: End-to-End Speech Recognition in English and Mandarin](http://arxiv.org/abs/1512.02595v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/research/deep_speech)",
+        "p": {
+          "name": "Deep Speech 2: End-to-End Speech Recognition in English and Mandarin",
+          "link": "http://arxiv.org/abs/1512.02595v1"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/research/deep_speech",
         "n": "Deep Speech 2",
         "d": "2015-12-08",
         "m1": "3.60"
       },
       {
-        "p": "[CRF-based Single-stage Acoustic Modeling with CTC Topology](https://ieeexplore.ieee.org/document/8682256)",
-        "c": "[&check;&nbsp;Link](https://github.com/thu-spmi/cat)",
+        "p": {
+          "name": "CRF-based Single-stage Acoustic Modeling with CTC Topology",
+          "link": "https://ieeexplore.ieee.org/document/8682256"
+        },
+        "c": "https://github.com/thu-spmi/cat",
         "n": "CTC-CRF 4gram-LM",
         "d": "2019-04-16",
         "m1": "3.79"
@@ -145,8 +187,11 @@
         "m1": "5.6"
       },
       {
-        "p": "[Jasper: An End-to-End Convolutional Neural Acoustic Model](https://arxiv.org/abs/1904.03288v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/osmr/imgclsmob)",
+        "p": {
+          "name": "Jasper: An End-to-End Convolutional Neural Acoustic Model",
+          "link": "https://arxiv.org/abs/1904.03288v3"
+        },
+        "c": "https://github.com/osmr/imgclsmob",
         "n": "Jasper 10x3",
         "d": "2019-04-05",
         "m1": "6.9"

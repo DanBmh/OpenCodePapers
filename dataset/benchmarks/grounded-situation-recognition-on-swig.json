@@ -58,7 +58,10 @@
     ],
     "items": [
       {
-        "p": "[Dynamic Scene Understanding from Vision-Language Representations](https://arxiv.org/abs/2501.11653v3)",
+        "p": {
+          "name": "Dynamic Scene Understanding from Vision-Language Representations",
+          "link": "https://arxiv.org/abs/2501.11653v3"
+        },
         "c": "",
         "n": "Ours (CoFormer+)",
         "d": "2025-01-20",
@@ -68,8 +71,11 @@
         "m5": "58.23"
       },
       {
-        "p": "[ClipSitu: Effectively Leveraging CLIP for Conditional Predictions in Situation Recognition](https://arxiv.org/abs/2307.00586v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/LUNAProject22/CLIPSitu)",
+        "p": {
+          "name": "ClipSitu: Effectively Leveraging CLIP for Conditional Predictions in Situation Recognition",
+          "link": "https://arxiv.org/abs/2307.00586v3"
+        },
+        "c": "https://github.com/LUNAProject22/CLIPSitu",
         "n": "ClipSitu",
         "d": "2023-07-02",
         "m1": "58.19",
@@ -80,8 +86,11 @@
         "m6": "68.42"
       },
       {
-        "p": "[Collaborative Transformers for Grounded Situation Recognition](https://arxiv.org/abs/2203.16518v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/towhee-io/towhee/tree/main/towhee/models/coformer)",
+        "p": {
+          "name": "Collaborative Transformers for Grounded Situation Recognition",
+          "link": "https://arxiv.org/abs/2203.16518v1"
+        },
+        "c": "https://github.com/towhee-io/towhee/tree/main/towhee/models/coformer",
         "n": "CoFormer",
         "d": "2022-03-30",
         "m1": "44.66",
@@ -92,8 +101,11 @@
         "m6": "57.76"
       },
       {
-        "p": "[Rethinking the Two-Stage Framework for Grounded Situation Recognition](https://arxiv.org/abs/2112.05375v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/kellyiss/situformer)",
+        "p": {
+          "name": "Rethinking the Two-Stage Framework for Grounded Situation Recognition",
+          "link": "https://arxiv.org/abs/2112.05375v1"
+        },
+        "c": "https://github.com/kellyiss/situformer",
         "n": "SituFormer",
         "d": "2021-12-10",
         "m1": "44.2",
@@ -104,7 +116,10 @@
         "m6": "55.75"
       },
       {
-        "p": "[Mixture-Kernel Graph Attention Network for Situation Recognition](http://openaccess.thecvf.com/content_ICCV_2019/html/Suhail_Mixture-Kernel_Graph_Attention_Network_for_Situation_Recognition_ICCV_2019_paper.html)",
+        "p": {
+          "name": "Mixture-Kernel Graph Attention Network for Situation Recognition",
+          "link": "http://openaccess.thecvf.com/content_ICCV_2019/html/Suhail_Mixture-Kernel_Graph_Attention_Network_for_Situation_Recognition_ICCV_2019_paper.html"
+        },
         "c": "",
         "n": "Kernel GraphNet",
         "d": "2019-10-01",
@@ -114,8 +129,11 @@
         "m6": "55.62"
       },
       {
-        "p": "[Grounded Situation Recognition with Transformers](https://arxiv.org/abs/2111.10135v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/jhcho99/gsrtr)",
+        "p": {
+          "name": "Grounded Situation Recognition with Transformers",
+          "link": "https://arxiv.org/abs/2111.10135v1"
+        },
+        "c": "https://github.com/jhcho99/gsrtr",
         "n": "GSRTR",
         "d": "2021-11-19",
         "m1": "40.63",
@@ -126,8 +144,11 @@
         "m6": "54.13"
       },
       {
-        "p": "[Grounded Situation Recognition](https://arxiv.org/abs/2003.12058v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/allenai/swig)",
+        "p": {
+          "name": "Grounded Situation Recognition",
+          "link": "https://arxiv.org/abs/2003.12058v1"
+        },
+        "c": "https://github.com/allenai/swig",
         "n": "JSL",
         "d": "2020-03-26",
         "m1": "39.94",
@@ -138,8 +159,11 @@
         "m6": "51.88"
       },
       {
-        "p": "[Grounded Situation Recognition](https://arxiv.org/abs/2003.12058v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/allenai/swig)",
+        "p": {
+          "name": "Grounded Situation Recognition",
+          "link": "https://arxiv.org/abs/2003.12058v1"
+        },
+        "c": "https://github.com/allenai/swig",
         "n": "ISL",
         "d": "2020-03-26",
         "m1": "39.36",
@@ -150,8 +174,11 @@
         "m6": "50.16"
       },
       {
-        "p": "[Attention-Based Context Aware Reasoning for Situation Recognition](http://openaccess.thecvf.com/content_CVPR_2020/html/Cooray_Attention-Based_Context_Aware_Reasoning_for_Situation_Recognition_CVPR_2020_paper.html)",
-        "c": "[&check;&nbsp;Link](https://github.com/thilinicooray/context-aware-reasoning-for-sr)",
+        "p": {
+          "name": "Attention-Based Context Aware Reasoning for Situation Recognition",
+          "link": "http://openaccess.thecvf.com/content_CVPR_2020/html/Cooray_Attention-Based_Context_Aware_Reasoning_for_Situation_Recognition_CVPR_2020_paper.html"
+        },
+        "c": "https://github.com/thilinicooray/context-aware-reasoning-for-sr",
         "n": "CAQ + RE-VGG",
         "d": "2020-06-01",
         "m1": "38.19",
@@ -160,8 +187,11 @@
         "m6": "50.21"
       },
       {
-        "p": "[Situation Recognition with Graph Neural Networks](http://arxiv.org/abs/1708.04320v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/thilinicooray/context-aware-reasoning-for-sr)",
+        "p": {
+          "name": "Situation Recognition with Graph Neural Networks",
+          "link": "http://arxiv.org/abs/1708.04320v1"
+        },
+        "c": "https://github.com/thilinicooray/context-aware-reasoning-for-sr",
         "n": "GraphNet",
         "d": "2017-08-14",
         "m1": "36.72",
@@ -170,7 +200,10 @@
         "m6": "45.39"
       },
       {
-        "p": "[Recurrent Models for Situation Recognition](http://arxiv.org/abs/1703.06233v2)",
+        "p": {
+          "name": "Recurrent Models for Situation Recognition",
+          "link": "http://arxiv.org/abs/1703.06233v2"
+        },
         "c": "",
         "n": "RNN + Fusion",
         "d": "2017-03-18",
@@ -180,8 +213,11 @@
         "m6": "46.88"
       },
       {
-        "p": "[Commonly Uncommon: Semantic Sparsity in Situation Recognition](http://arxiv.org/abs/1612.00901v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/my89/imSitu)",
+        "p": {
+          "name": "Commonly Uncommon: Semantic Sparsity in Situation Recognition",
+          "link": "http://arxiv.org/abs/1612.00901v1"
+        },
+        "c": "https://github.com/my89/imSitu",
         "n": "CRF + Aug",
         "d": "2016-12-03",
         "m1": "34.12",
@@ -190,8 +226,11 @@
         "m6": "46.88"
       },
       {
-        "p": "[Situation Recognition: Visual Semantic Role Labeling for Image Understanding](http://openaccess.thecvf.com/content_cvpr_2016/html/Yatskar_Situation_Recognition_Visual_CVPR_2016_paper.html)",
-        "c": "[&check;&nbsp;Link](https://github.com/my89/imSitu)",
+        "p": {
+          "name": "Situation Recognition: Visual Semantic Role Labeling for Image Understanding",
+          "link": "http://openaccess.thecvf.com/content_cvpr_2016/html/Yatskar_Situation_Recognition_Visual_CVPR_2016_paper.html"
+        },
+        "c": "https://github.com/my89/imSitu",
         "n": "CRF",
         "d": "2016-06-01",
         "m1": "32.34",

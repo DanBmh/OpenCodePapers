@@ -50,8 +50,11 @@
     ],
     "items": [
       {
-        "p": "[PieAPP: Perceptual Image-Error Assessment through Pairwise Preference](http://arxiv.org/abs/1806.02067v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/prashnani/PerceptualImageError)",
+        "p": {
+          "name": "PieAPP: Perceptual Image-Error Assessment through Pairwise Preference",
+          "link": "http://arxiv.org/abs/1806.02067v1"
+        },
+        "c": "https://github.com/prashnani/PerceptualImageError",
         "n": "PieAPP",
         "d": "2018-06-06",
         "m1": "0.75215",
@@ -60,8 +63,11 @@
         "m4": "FR"
       },
       {
-        "p": "[Q-Align: Teaching LMMs for Visual Scoring via Discrete Text-Defined Levels](https://arxiv.org/abs/2312.17090v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/q-future/q-align)",
+        "p": {
+          "name": "Q-Align: Teaching LMMs for Visual Scoring via Discrete Text-Defined Levels",
+          "link": "https://arxiv.org/abs/2312.17090v1"
+        },
+        "c": "https://github.com/q-future/q-align",
         "n": "Q-Align (IQA)",
         "d": "2023-12-28",
         "m1": "0.75088",
@@ -70,8 +76,11 @@
         "m4": "NR"
       },
       {
-        "p": "[Q-Align: Teaching LMMs for Visual Scoring via Discrete Text-Defined Levels](https://arxiv.org/abs/2312.17090v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/q-future/q-align)",
+        "p": {
+          "name": "Q-Align: Teaching LMMs for Visual Scoring via Discrete Text-Defined Levels",
+          "link": "https://arxiv.org/abs/2312.17090v1"
+        },
+        "c": "https://github.com/q-future/q-align",
         "n": "Q-Align (VQA)",
         "d": "2023-12-28",
         "m1": "0.71812",
@@ -80,8 +89,11 @@
         "m4": "NR"
       },
       {
-        "p": "[From Patches to Pictures (PaQ-2-PiQ): Mapping the Perceptual Space of Picture Quality](https://arxiv.org/abs/1912.10088v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/baidut/PaQ-2-PiQ)",
+        "p": {
+          "name": "From Patches to Pictures (PaQ-2-PiQ): Mapping the Perceptual Space of Picture Quality",
+          "link": "https://arxiv.org/abs/1912.10088v1"
+        },
+        "c": "https://github.com/baidut/PaQ-2-PiQ",
         "n": "PaQ-2-PiQ",
         "d": "2019-12-20",
         "m1": "0.71167",
@@ -90,8 +102,11 @@
         "m4": "NR"
       },
       {
-        "p": "[Blind Image Quality Assessment Using A Deep Bilinear Convolutional Neural Network](https://arxiv.org/abs/1907.02665v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/zwx8981/DBCNN-PyTorch)",
+        "p": {
+          "name": "Blind Image Quality Assessment Using A Deep Bilinear Convolutional Neural Network",
+          "link": "https://arxiv.org/abs/1907.02665v1"
+        },
+        "c": "https://github.com/zwx8981/DBCNN-PyTorch",
         "n": "DBCNN",
         "d": "2019-07-05",
         "m1": "0.68621",
@@ -100,8 +115,11 @@
         "m4": "NR"
       },
       {
-        "p": "[MUSIQ: Multi-scale Image Quality Transformer](https://arxiv.org/abs/2108.05997v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research/tree/master/musiq)",
+        "p": {
+          "name": "MUSIQ: Multi-scale Image Quality Transformer",
+          "link": "https://arxiv.org/abs/2108.05997v1"
+        },
+        "c": "https://github.com/google-research/google-research/tree/master/musiq",
         "n": "MUSIQ\ntrained on PaQ-2-PiQ",
         "d": "2021-08-12",
         "m1": "0.67746",
@@ -110,8 +128,11 @@
         "m4": "NR"
       },
       {
-        "p": "[Learning a No-Reference Quality Metric for Single-Image Super-Resolution](http://arxiv.org/abs/1612.05890v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/ryanxingql/image-quality-assessment-toolbox)",
+        "p": {
+          "name": "Learning a No-Reference Quality Metric for Single-Image Super-Resolution",
+          "link": "http://arxiv.org/abs/1612.05890v1"
+        },
+        "c": "https://github.com/ryanxingql/image-quality-assessment-toolbox",
         "n": "Ma-Metric",
         "d": "2016-12-18",
         "m1": "0.67362",
@@ -120,8 +141,11 @@
         "m4": "NR"
       },
       {
-        "p": "[MANIQA: Multi-dimension Attention Network for No-Reference Image Quality Assessment](https://arxiv.org/abs/2204.08958v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/iigroup/maniqa)",
+        "p": {
+          "name": "MANIQA: Multi-dimension Attention Network for No-Reference Image Quality Assessment",
+          "link": "https://arxiv.org/abs/2204.08958v2"
+        },
+        "c": "https://github.com/iigroup/maniqa",
         "n": "MANIQA",
         "d": "2022-04-19",
         "m1": "0.66613",
@@ -130,8 +154,11 @@
         "m4": "NR"
       },
       {
-        "p": "[Exploring CLIP for Assessing the Look and Feel of Images](https://arxiv.org/abs/2207.12396v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/iceclear/clip-iqa)",
+        "p": {
+          "name": "Exploring CLIP for Assessing the Look and Feel of Images",
+          "link": "https://arxiv.org/abs/2207.12396v2"
+        },
+        "c": "https://github.com/iceclear/clip-iqa",
         "n": "ClipIQA+ ResNet50",
         "d": "2022-07-25",
         "m1": "0.65713",
@@ -140,8 +167,11 @@
         "m4": "NR"
       },
       {
-        "p": "[MUSIQ: Multi-scale Image Quality Transformer](https://arxiv.org/abs/2108.05997v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research/tree/master/musiq)",
+        "p": {
+          "name": "MUSIQ: Multi-scale Image Quality Transformer",
+          "link": "https://arxiv.org/abs/2108.05997v1"
+        },
+        "c": "https://github.com/google-research/google-research/tree/master/musiq",
         "n": "MUSIQ\ntrained on SPAQ",
         "d": "2021-08-12",
         "m1": "0.64927",
@@ -150,8 +180,11 @@
         "m4": "NR"
       },
       {
-        "p": "[TOPIQ: A Top-down Approach from Semantics to Distortions for Image Quality Assessment](https://arxiv.org/abs/2308.03060v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/chaofengc/iqa-pytorch)",
+        "p": {
+          "name": "TOPIQ: A Top-down Approach from Semantics to Distortions for Image Quality Assessment",
+          "link": "https://arxiv.org/abs/2308.03060v1"
+        },
+        "c": "https://github.com/chaofengc/iqa-pytorch",
         "n": "TOPIQ\ntrained on SPAQ (NR)",
         "d": "2023-08-06",
         "m1": "0.64923",
@@ -160,8 +193,11 @@
         "m4": "NR"
       },
       {
-        "p": "[MUSIQ: Multi-scale Image Quality Transformer](https://arxiv.org/abs/2108.05997v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research/tree/master/musiq)",
+        "p": {
+          "name": "MUSIQ: Multi-scale Image Quality Transformer",
+          "link": "https://arxiv.org/abs/2108.05997v1"
+        },
+        "c": "https://github.com/google-research/google-research/tree/master/musiq",
         "n": "MUSIQ\ntrained on KONIQ",
         "d": "2021-08-12",
         "m1": "0.64589",
@@ -170,8 +206,11 @@
         "m4": "NR"
       },
       {
-        "p": "[Norm-in-Norm Loss with Faster Convergence and Better Performance for Image Quality Assessment](https://arxiv.org/abs/2008.03889v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/lidq92/LinearityIQA)",
+        "p": {
+          "name": "Norm-in-Norm Loss with Faster Convergence and Better Performance for Image Quality Assessment",
+          "link": "https://arxiv.org/abs/2008.03889v1"
+        },
+        "c": "https://github.com/lidq92/LinearityIQA",
         "n": "Linearity (Norm-in-Norm Loss)",
         "d": "2020-08-10",
         "m1": "0.64382",
@@ -180,8 +219,11 @@
         "m4": "NR"
       },
       {
-        "p": "[TOPIQ: A Top-down Approach from Semantics to Distortions for Image Quality Assessment](https://arxiv.org/abs/2308.03060v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/chaofengc/iqa-pytorch)",
+        "p": {
+          "name": "TOPIQ: A Top-down Approach from Semantics to Distortions for Image Quality Assessment",
+          "link": "https://arxiv.org/abs/2308.03060v1"
+        },
+        "c": "https://github.com/chaofengc/iqa-pytorch",
         "n": "TOPIQ",
         "d": "2023-08-06",
         "m1": "0.62715",
@@ -190,8 +232,11 @@
         "m4": "NR"
       },
       {
-        "p": "[No-Reference Image Quality Assessment via Transformers, Relative Ranking, and Self-Consistency](https://arxiv.org/abs/2108.06858v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/isalirezag/tres)",
+        "p": {
+          "name": "No-Reference Image Quality Assessment via Transformers, Relative Ranking, and Self-Consistency",
+          "link": "https://arxiv.org/abs/2108.06858v2"
+        },
+        "c": "https://github.com/isalirezag/tres",
         "n": "TReS\ntrained on KONIQ",
         "d": "2021-08-16",
         "m1": "0.62578",
@@ -200,8 +245,11 @@
         "m4": "NR"
       },
       {
-        "p": "[No-Reference Image Quality Assessment via Transformers, Relative Ranking, and Self-Consistency](https://arxiv.org/abs/2108.06858v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/isalirezag/tres)",
+        "p": {
+          "name": "No-Reference Image Quality Assessment via Transformers, Relative Ranking, and Self-Consistency",
+          "link": "https://arxiv.org/abs/2108.06858v2"
+        },
+        "c": "https://github.com/isalirezag/tres",
         "n": "TReS",
         "d": "2021-08-16",
         "m1": "0.62496",
@@ -210,8 +258,11 @@
         "m4": "NR"
       },
       {
-        "p": "[Exploring CLIP for Assessing the Look and Feel of Images](https://arxiv.org/abs/2207.12396v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/iceclear/clip-iqa)",
+        "p": {
+          "name": "Exploring CLIP for Assessing the Look and Feel of Images",
+          "link": "https://arxiv.org/abs/2207.12396v2"
+        },
+        "c": "https://github.com/iceclear/clip-iqa",
         "n": "ClipIQA",
         "d": "2022-07-25",
         "m1": "0.60808",
@@ -230,8 +281,11 @@
         "m4": "FR"
       },
       {
-        "p": "[Unified Quality Assessment of In-the-Wild Videos with Mixed Datasets Training](https://arxiv.org/abs/2011.04263v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/lidq92/MDTVSFA)",
+        "p": {
+          "name": "Unified Quality Assessment of In-the-Wild Videos with Mixed Datasets Training",
+          "link": "https://arxiv.org/abs/2011.04263v2"
+        },
+        "c": "https://github.com/lidq92/MDTVSFA",
         "n": "MDTVSFA",
         "d": "2020-11-09",
         "m1": "0.60193",
@@ -240,8 +294,11 @@
         "m4": "NR"
       },
       {
-        "p": "[Blindly Assess Image Quality in the Wild Guided by a Self-Adaptive Hyper Network](http://openaccess.thecvf.com/content_CVPR_2020/html/Su_Blindly_Assess_Image_Quality_in_the_Wild_Guided_by_a_CVPR_2020_paper.html)",
-        "c": "[&check;&nbsp;Link](https://github.com/SSL92/hyperIQA)",
+        "p": {
+          "name": "Blindly Assess Image Quality in the Wild Guided by a Self-Adaptive Hyper Network",
+          "link": "http://openaccess.thecvf.com/content_CVPR_2020/html/Su_Blindly_Assess_Image_Quality_in_the_Wild_Guided_by_a_CVPR_2020_paper.html"
+        },
+        "c": "https://github.com/SSL92/hyperIQA",
         "n": "HyperIQA",
         "d": "2020-06-01",
         "m1": "0.59883",
@@ -250,8 +307,11 @@
         "m4": "NR"
       },
       {
-        "p": "[TOPIQ: A Top-down Approach from Semantics to Distortions for Image Quality Assessment](https://arxiv.org/abs/2308.03060v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/chaofengc/iqa-pytorch)",
+        "p": {
+          "name": "TOPIQ: A Top-down Approach from Semantics to Distortions for Image Quality Assessment",
+          "link": "https://arxiv.org/abs/2308.03060v1"
+        },
+        "c": "https://github.com/chaofengc/iqa-pytorch",
         "n": "TOPIQ FACE",
         "d": "2023-08-06",
         "m1": "0.59564",
@@ -260,8 +320,11 @@
         "m4": "NR"
       },
       {
-        "p": "[ERQA: Edge-Restoration Quality Assessment for Video Super-Resolution](https://arxiv.org/abs/2110.09992v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/msu-video-group/erqa)",
+        "p": {
+          "name": "ERQA: Edge-Restoration Quality Assessment for Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2110.09992v2"
+        },
+        "c": "https://github.com/msu-video-group/erqa",
         "n": "ERQA",
         "d": "2021-10-19",
         "m1": "0.59345",
@@ -270,8 +333,11 @@
         "m4": "FR"
       },
       {
-        "p": "[TOPIQ: A Top-down Approach from Semantics to Distortions for Image Quality Assessment](https://arxiv.org/abs/2308.03060v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/chaofengc/iqa-pytorch)",
+        "p": {
+          "name": "TOPIQ: A Top-down Approach from Semantics to Distortions for Image Quality Assessment",
+          "link": "https://arxiv.org/abs/2308.03060v1"
+        },
+        "c": "https://github.com/chaofengc/iqa-pytorch",
         "n": "TOPIQ",
         "d": "2023-08-06",
         "m1": "0.57341",
@@ -280,8 +346,11 @@
         "m4": "FR"
       },
       {
-        "p": "[Shift-tolerant Perceptual Similarity Metric](https://arxiv.org/abs/2207.13686v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/abhijay9/shifttolerant-lpips)",
+        "p": {
+          "name": "Shift-tolerant Perceptual Similarity Metric",
+          "link": "https://arxiv.org/abs/2207.13686v1"
+        },
+        "c": "https://github.com/abhijay9/shifttolerant-lpips",
         "n": "ST-LPIPS (VGG)",
         "d": "2022-07-27",
         "m1": "0.57336",
@@ -290,8 +359,11 @@
         "m4": "FR"
       },
       {
-        "p": "[Exploring CLIP for Assessing the Look and Feel of Images](https://arxiv.org/abs/2207.12396v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/iceclear/clip-iqa)",
+        "p": {
+          "name": "Exploring CLIP for Assessing the Look and Feel of Images",
+          "link": "https://arxiv.org/abs/2207.12396v2"
+        },
+        "c": "https://github.com/iceclear/clip-iqa",
         "n": "ClipIQA+",
         "d": "2022-07-25",
         "m1": "0.56875",
@@ -300,8 +372,11 @@
         "m4": "NR"
       },
       {
-        "p": "[MUSIQ: Multi-scale Image Quality Transformer](https://arxiv.org/abs/2108.05997v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research/tree/master/musiq)",
+        "p": {
+          "name": "MUSIQ: Multi-scale Image Quality Transformer",
+          "link": "https://arxiv.org/abs/2108.05997v1"
+        },
+        "c": "https://github.com/google-research/google-research/tree/master/musiq",
         "n": "MUSIQ\ntrained on AVA",
         "d": "2021-08-12",
         "m1": "0.56152",
@@ -310,8 +385,11 @@
         "m4": "NR"
       },
       {
-        "p": "[TOPIQ: A Top-down Approach from Semantics to Distortions for Image Quality Assessment](https://arxiv.org/abs/2308.03060v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/chaofengc/iqa-pytorch)",
+        "p": {
+          "name": "TOPIQ: A Top-down Approach from Semantics to Distortions for Image Quality Assessment",
+          "link": "https://arxiv.org/abs/2308.03060v1"
+        },
+        "c": "https://github.com/chaofengc/iqa-pytorch",
         "n": "TOPIQ\ntrained on PIPAL",
         "d": "2023-08-06",
         "m1": "0.55568",
@@ -320,8 +398,11 @@
         "m4": "FR"
       },
       {
-        "p": "[The Unreasonable Effectiveness of Deep Features as a Perceptual Metric](http://arxiv.org/abs/1801.03924v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/bytedance/LatentSync)",
+        "p": {
+          "name": "The Unreasonable Effectiveness of Deep Features as a Perceptual Metric",
+          "link": "http://arxiv.org/abs/1801.03924v2"
+        },
+        "c": "https://github.com/bytedance/LatentSync",
         "n": "LPIPS (Alex)",
         "d": "2018-01-11",
         "m1": "0.54461",
@@ -330,8 +411,11 @@
         "m4": "FR"
       },
       {
-        "p": "[Quality Assessment of In-the-Wild Videos](https://arxiv.org/abs/1908.00375v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/lidq92/VSFA)",
+        "p": {
+          "name": "Quality Assessment of In-the-Wild Videos",
+          "link": "https://arxiv.org/abs/1908.00375v3"
+        },
+        "c": "https://github.com/lidq92/VSFA",
         "n": "VSFA",
         "d": "2019-08-01",
         "m1": "0.53652",
@@ -340,8 +424,11 @@
         "m4": "NR"
       },
       {
-        "p": "[Shift-tolerant Perceptual Similarity Metric](https://arxiv.org/abs/2207.13686v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/abhijay9/shifttolerant-lpips)",
+        "p": {
+          "name": "Shift-tolerant Perceptual Similarity Metric",
+          "link": "https://arxiv.org/abs/2207.13686v1"
+        },
+        "c": "https://github.com/abhijay9/shifttolerant-lpips",
         "n": "ST-LPIPS (Alex)",
         "d": "2022-07-27",
         "m1": "0.53473",
@@ -350,8 +437,11 @@
         "m4": "FR"
       },
       {
-        "p": "[Image Quality Assessment: Unifying Structure and Texture Similarity](https://arxiv.org/abs/2004.07728v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/dingkeyan93/DISTS)",
+        "p": {
+          "name": "Image Quality Assessment: Unifying Structure and Texture Similarity",
+          "link": "https://arxiv.org/abs/2004.07728v3"
+        },
+        "c": "https://github.com/dingkeyan93/DISTS",
         "n": "DISTS",
         "d": "2020-04-16",
         "m1": "0.53346",
@@ -360,8 +450,11 @@
         "m4": "FR"
       },
       {
-        "p": "[The Unreasonable Effectiveness of Deep Features as a Perceptual Metric](http://arxiv.org/abs/1801.03924v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/bytedance/LatentSync)",
+        "p": {
+          "name": "The Unreasonable Effectiveness of Deep Features as a Perceptual Metric",
+          "link": "http://arxiv.org/abs/1801.03924v2"
+        },
+        "c": "https://github.com/bytedance/LatentSync",
         "n": "LPIPS (VGG)",
         "d": "2018-01-11",
         "m1": "0.52868",
@@ -370,8 +463,11 @@
         "m4": "FR"
       },
       {
-        "p": "[The 2018 PIRM Challenge on Perceptual Image Super-resolution](http://arxiv.org/abs/1809.07517v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/alterzero/DBPN-Pytorch)",
+        "p": {
+          "name": "The 2018 PIRM Challenge on Perceptual Image Super-resolution",
+          "link": "http://arxiv.org/abs/1809.07517v3"
+        },
+        "c": "https://github.com/alterzero/DBPN-Pytorch",
         "n": "PI",
         "d": "2018-09-20",
         "m1": "0.52319",
@@ -380,7 +476,10 @@
         "m4": "NR"
       },
       {
-        "p": "[Locally Adaptive Structure and Texture Similarity for Image Quality Assessment](https://arxiv.org/abs/2110.08521v1)",
+        "p": {
+          "name": "Locally Adaptive Structure and Texture Similarity for Image Quality Assessment",
+          "link": "https://arxiv.org/abs/2110.08521v1"
+        },
         "c": "",
         "n": "A-DISTS",
         "d": "2021-10-16",
@@ -390,8 +489,11 @@
         "m4": "FR"
       },
       {
-        "p": "[TOPIQ: A Top-down Approach from Semantics to Distortions for Image Quality Assessment](https://arxiv.org/abs/2308.03060v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/chaofengc/iqa-pytorch)",
+        "p": {
+          "name": "TOPIQ: A Top-down Approach from Semantics to Distortions for Image Quality Assessment",
+          "link": "https://arxiv.org/abs/2308.03060v1"
+        },
+        "c": "https://github.com/chaofengc/iqa-pytorch",
         "n": "TOPIQ (IAA)",
         "d": "2023-08-06",
         "m1": "0.51687",
@@ -400,8 +502,11 @@
         "m4": "NR"
       },
       {
-        "p": "[Q-Align: Teaching LMMs for Visual Scoring via Discrete Text-Defined Levels](https://arxiv.org/abs/2312.17090v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/q-future/q-align)",
+        "p": {
+          "name": "Q-Align: Teaching LMMs for Visual Scoring via Discrete Text-Defined Levels",
+          "link": "https://arxiv.org/abs/2312.17090v1"
+        },
+        "c": "https://github.com/q-future/q-align",
         "n": "Q-Align (IAA)",
         "d": "2023-12-28",
         "m1": "0.51521",
@@ -410,8 +515,11 @@
         "m4": "NR"
       },
       {
-        "p": "[Exploring CLIP for Assessing the Look and Feel of Images](https://arxiv.org/abs/2207.12396v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/iceclear/clip-iqa)",
+        "p": {
+          "name": "Exploring CLIP for Assessing the Look and Feel of Images",
+          "link": "https://arxiv.org/abs/2207.12396v2"
+        },
+        "c": "https://github.com/iceclear/clip-iqa",
         "n": "ClipIQA+ ViT-L-14",
         "d": "2022-07-25",
         "m1": "0.49881",
@@ -420,8 +528,11 @@
         "m4": "NR"
       },
       {
-        "p": "[No-Reference Image Quality Assessment via Transformers, Relative Ranking, and Self-Consistency](https://arxiv.org/abs/2108.06858v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/isalirezag/tres)",
+        "p": {
+          "name": "No-Reference Image Quality Assessment via Transformers, Relative Ranking, and Self-Consistency",
+          "link": "https://arxiv.org/abs/2108.06858v2"
+        },
+        "c": "https://github.com/isalirezag/tres",
         "n": "TReS\ntrained on FLIVE",
         "d": "2021-08-16",
         "m1": "0.48882",
@@ -460,8 +571,11 @@
         "m4": "FR"
       },
       {
-        "p": "[TOPIQ: A Top-down Approach from Semantics to Distortions for Image Quality Assessment](https://arxiv.org/abs/2308.03060v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/chaofengc/iqa-pytorch)",
+        "p": {
+          "name": "TOPIQ: A Top-down Approach from Semantics to Distortions for Image Quality Assessment",
+          "link": "https://arxiv.org/abs/2308.03060v1"
+        },
+        "c": "https://github.com/chaofengc/iqa-pytorch",
         "n": "TOPIQ + Res50 (IAA)",
         "d": "2023-08-06",
         "m1": "0.36204",
@@ -470,7 +584,10 @@
         "m4": "NR"
       },
       {
-        "p": "[FSIM: A Feature Similarity Index for Image Quality Assessment](https://ieeexplore.ieee.org/document/5705575)",
+        "p": {
+          "name": "FSIM: A Feature Similarity Index for Image Quality Assessment",
+          "link": "https://ieeexplore.ieee.org/document/5705575"
+        },
         "c": "",
         "n": "FSIM",
         "d": "2011-01-31",
@@ -490,8 +607,11 @@
         "m4": "FR"
       },
       {
-        "p": "[TOPIQ: A Top-down Approach from Semantics to Distortions for Image Quality Assessment](https://arxiv.org/abs/2308.03060v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/chaofengc/iqa-pytorch)",
+        "p": {
+          "name": "TOPIQ: A Top-down Approach from Semantics to Distortions for Image Quality Assessment",
+          "link": "https://arxiv.org/abs/2308.03060v1"
+        },
+        "c": "https://github.com/chaofengc/iqa-pytorch",
         "n": "TOPIQ\ntrained on FLIVE",
         "d": "2023-08-06",
         "m1": "0.34092",
@@ -500,8 +620,11 @@
         "m4": "NR"
       },
       {
-        "p": "[VILA: Learning Image Aesthetics from User Comments with Vision-Language Pretraining](https://arxiv.org/abs/2303.14302v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research)",
+        "p": {
+          "name": "VILA: Learning Image Aesthetics from User Comments with Vision-Language Pretraining",
+          "link": "https://arxiv.org/abs/2303.14302v2"
+        },
+        "c": "https://github.com/google-research/google-research",
         "n": "VILA",
         "d": "2023-03-24",
         "m1": "0.33728",
@@ -520,8 +643,11 @@
         "m4": "NR"
       },
       {
-        "p": "[No-Reference Image Quality Assessment in the Spatial Domain](https://ieeexplore.ieee.org/document/6272356)",
-        "c": "[&check;&nbsp;Link](https://github.com/utlive/BRISQUE)",
+        "p": {
+          "name": "No-Reference Image Quality Assessment in the Spatial Domain",
+          "link": "https://ieeexplore.ieee.org/document/6272356"
+        },
+        "c": "https://github.com/utlive/BRISQUE",
         "n": "BRISQUE",
         "d": "2012-08-17",
         "m1": "0.32327",
@@ -530,8 +656,11 @@
         "m4": "NR"
       },
       {
-        "p": "[NIMA: Neural Image Assessment](http://arxiv.org/abs/1709.05424v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/idealo/image-quality-assessment)",
+        "p": {
+          "name": "NIMA: Neural Image Assessment",
+          "link": "http://arxiv.org/abs/1709.05424v2"
+        },
+        "c": "https://github.com/idealo/image-quality-assessment",
         "n": "NIMA",
         "d": "2017-09-15",
         "m1": "0.25887",
@@ -540,8 +669,11 @@
         "m4": "NR"
       },
       {
-        "p": "[Multiscale structural similarity for image quality assessment](https://ieeexplore.ieee.org/document/1292216)",
-        "c": "[&check;&nbsp;Link](https://github.com/VainF/pytorch-msssim)",
+        "p": {
+          "name": "Multiscale structural similarity for image quality assessment",
+          "link": "https://ieeexplore.ieee.org/document/1292216"
+        },
+        "c": "https://github.com/VainF/pytorch-msssim",
         "n": "MS-SSIM Fast",
         "d": "2004-05-04",
         "m1": "0.24422",
@@ -550,8 +682,11 @@
         "m4": "FR"
       },
       {
-        "p": "[Multiscale structural similarity for image quality assessment](https://ieeexplore.ieee.org/document/1292216)",
-        "c": "[&check;&nbsp;Link](https://github.com/VainF/pytorch-msssim)",
+        "p": {
+          "name": "Multiscale structural similarity for image quality assessment",
+          "link": "https://ieeexplore.ieee.org/document/1292216"
+        },
+        "c": "https://github.com/VainF/pytorch-msssim",
         "n": "MS-SSIM Precise",
         "d": "2004-05-04",
         "m1": "0.23108",
@@ -560,7 +695,10 @@
         "m4": "FR"
       },
       {
-        "p": "[Image quality assessment: from error visibility to structural similarity](https://ieeexplore.ieee.org/document/1284395)",
+        "p": {
+          "name": "Image quality assessment: from error visibility to structural similarity",
+          "link": "https://ieeexplore.ieee.org/document/1284395"
+        },
         "c": "",
         "n": "SSIM",
         "d": "2004-04-13",
@@ -570,8 +708,11 @@
         "m4": "FR"
       },
       {
-        "p": "[Multiscale structural similarity for image quality assessment](https://ieeexplore.ieee.org/document/1292216)",
-        "c": "[&check;&nbsp;Link](https://github.com/VainF/pytorch-msssim)",
+        "p": {
+          "name": "Multiscale structural similarity for image quality assessment",
+          "link": "https://ieeexplore.ieee.org/document/1292216"
+        },
+        "c": "https://github.com/VainF/pytorch-msssim",
         "n": "MS-SSIM Superfast",
         "d": "2004-05-04",
         "m1": "0.21604",
@@ -630,8 +771,11 @@
         "m4": "FR"
       },
       {
-        "p": "[Multiscale structural similarity for image quality assessment](https://ieeexplore.ieee.org/document/1292216)",
-        "c": "[&check;&nbsp;Link](https://github.com/VainF/pytorch-msssim)",
+        "p": {
+          "name": "Multiscale structural similarity for image quality assessment",
+          "link": "https://ieeexplore.ieee.org/document/1292216"
+        },
+        "c": "https://github.com/VainF/pytorch-msssim",
         "n": "MS-SSIM",
         "d": "2004-05-04",
         "m1": "0.11017",

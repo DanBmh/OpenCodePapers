@@ -34,29 +34,41 @@
     ],
     "items": [
       {
-        "p": "[End-to-end Spoken Conversational Question Answering: Task, Dataset and Model](https://arxiv.org/abs/2204.14272v1)",
+        "p": {
+          "name": "End-to-end Spoken Conversational Question Answering: Task, Dataset and Model",
+          "link": "https://arxiv.org/abs/2204.14272v1"
+        },
         "c": "",
         "n": "ALBERT",
         "d": "2022-04-29",
         "m1": "77.1"
       },
       {
-        "p": "[SpeechBERT: An Audio-and-text Jointly Learned Language Model for End-to-end Spoken Question Answering](https://arxiv.org/abs/1910.11559v4)",
+        "p": {
+          "name": "SpeechBERT: An Audio-and-text Jointly Learned Language Model for End-to-end Spoken Question Answering",
+          "link": "https://arxiv.org/abs/1910.11559v4"
+        },
         "c": "",
         "n": "SpeechBERT",
         "d": "2019-10-25",
         "m1": "71.75"
       },
       {
-        "p": "[Mitigating the Impact of Speech Recognition Errors on Spoken Question Answering by Adversarial Domain Adaptation](http://arxiv.org/abs/1904.07904v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/chia-hsuan-lee/spoken-squad)",
+        "p": {
+          "name": "Mitigating the Impact of Speech Recognition Errors on Spoken Question Answering by Adversarial Domain Adaptation",
+          "link": "http://arxiv.org/abs/1904.07904v1"
+        },
+        "c": "https://github.com/chia-hsuan-lee/spoken-squad",
         "n": "QANet + GAN",
         "d": "2019-04-16",
         "m1": "63.11"
       },
       {
-        "p": "[Spoken SQuAD: A Study of Mitigating the Impact of Speech Recognition Errors on Listening Comprehension](http://arxiv.org/abs/1804.00320v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/chia-hsuan-lee/spoken-squad)",
+        "p": {
+          "name": "Spoken SQuAD: A Study of Mitigating the Impact of Speech Recognition Errors on Listening Comprehension",
+          "link": "http://arxiv.org/abs/1804.00320v1"
+        },
+        "c": "https://github.com/chia-hsuan-lee/spoken-squad",
         "n": "Baseline",
         "d": "2018-04-01",
         "m1": "58.71"

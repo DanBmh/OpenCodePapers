@@ -45,22 +45,31 @@
         "m1": "77.1±0.1"
       },
       {
-        "p": "[GPT-4 Technical Report](https://arxiv.org/abs/2303.08774v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/openai/evals)",
+        "p": {
+          "name": "GPT-4 Technical Report",
+          "link": "https://arxiv.org/abs/2303.08774v5"
+        },
+        "c": "https://github.com/openai/evals",
         "n": "GPT-4o (gpt-4o-2024-11-20)",
         "d": "2023-03-15",
         "m1": "72.1±0.2"
       },
       {
-        "p": "[Claude 3.5 Sonnet Model Card Addendum](https://www-cdn.anthropic.com/fed9cc193a14b84131812372d8d5857f8f304c52/Model_Card_Claude_3_Addendum.pdf)",
+        "p": {
+          "name": "Claude 3.5 Sonnet Model Card Addendum",
+          "link": "https://www-cdn.anthropic.com/fed9cc193a14b84131812372d8d5857f8f304c52/Model_Card_Claude_3_Addendum.pdf"
+        },
         "c": "",
         "n": "Claude 3.5 Sonnet  (claude-3-5-sonnet-20240620)",
         "d": "2024-06-24",
         "m1": "71.8±0.2"
       },
       {
-        "p": "[GPT-4 Technical Report](https://arxiv.org/abs/2303.08774v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/openai/evals)",
+        "p": {
+          "name": "GPT-4 Technical Report",
+          "link": "https://arxiv.org/abs/2303.08774v5"
+        },
+        "c": "https://github.com/openai/evals",
         "n": "GPT-4o (gpt-4o-2024-05-13)",
         "d": "2023-03-15",
         "m1": "71.0±0.2"
@@ -74,30 +83,42 @@
         "m2": "76B"
       },
       {
-        "p": "[Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context](https://arxiv.org/abs/2403.05530v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/dlvuldet/primevul)",
+        "p": {
+          "name": "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context",
+          "link": "https://arxiv.org/abs/2403.05530v5"
+        },
+        "c": "https://github.com/dlvuldet/primevul",
         "n": "Gemini 1.5 Pro",
         "d": "2024-03-08",
         "m1": "66.9±0.2"
       },
       {
-        "p": "[Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution](https://arxiv.org/abs/2409.12191v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/qwenlm/qwen2-vl)",
+        "p": {
+          "name": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+          "link": "https://arxiv.org/abs/2409.12191v2"
+        },
+        "c": "https://github.com/qwenlm/qwen2-vl",
         "n": "Qwen2-VL-72B (qwen-vl-max-0809)",
         "d": "2024-09-18",
         "m1": "66.9±0.3",
         "m2": "72B"
       },
       {
-        "p": "[GPT-4 Technical Report](https://arxiv.org/abs/2303.08774v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/openai/evals)",
+        "p": {
+          "name": "GPT-4 Technical Report",
+          "link": "https://arxiv.org/abs/2303.08774v5"
+        },
+        "c": "https://github.com/openai/evals",
         "n": "gpt-4o-mini-2024-07-18",
         "d": "2023-03-15",
         "m1": "66.8±0.3"
       },
       {
-        "p": "[GPT-4 Technical Report](https://arxiv.org/abs/2303.08774v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/openai/evals)",
+        "p": {
+          "name": "GPT-4 Technical Report",
+          "link": "https://arxiv.org/abs/2303.08774v5"
+        },
+        "c": "https://github.com/openai/evals",
         "n": "GPT-4 Turbo (gpt-4-0125-preview)",
         "d": "2023-03-15",
         "m1": "66.3±0.2"
@@ -111,15 +132,21 @@
         "m2": "40B"
       },
       {
-        "p": "[Gemini: A Family of Highly Capable Multimodal Models](https://arxiv.org/abs/2312.11805v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/valdecy/pybibx)",
+        "p": {
+          "name": "Gemini: A Family of Highly Capable Multimodal Models",
+          "link": "https://arxiv.org/abs/2312.11805v5"
+        },
+        "c": "https://github.com/valdecy/pybibx",
         "n": "Gemini Pro Vision",
         "d": "2023-12-19",
         "m1": "57.2±0.2"
       },
       {
-        "p": "[Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond](https://arxiv.org/abs/2308.12966v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/qwenlm/qwen-vl)",
+        "p": {
+          "name": "Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond",
+          "link": "https://arxiv.org/abs/2308.12966v3"
+        },
+        "c": "https://github.com/qwenlm/qwen-vl",
         "n": "Qwen-VL-Max",
         "d": "2023-08-24",
         "m1": "55.8±0.2"
@@ -132,8 +159,11 @@
         "m1": "55.8±0.2"
       },
       {
-        "p": "[How Far Are We to GPT-4V? Closing the Gap to Commercial Multimodal Models with Open-Source Suites](https://arxiv.org/abs/2404.16821v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internvl)",
+        "p": {
+          "name": "How Far Are We to GPT-4V? Closing the Gap to Commercial Multimodal Models with Open-Source Suites",
+          "link": "https://arxiv.org/abs/2404.16821v2"
+        },
+        "c": "https://github.com/opengvlab/internvl",
         "n": "InternVL-Chat-V1-5",
         "d": "2024-04-25",
         "m1": "51.5±0.2"
@@ -154,60 +184,84 @@
         "m1": "45.5±0.1"
       },
       {
-        "p": "[CogVLM: Visual Expert for Pretrained Language Models](https://arxiv.org/abs/2311.03079v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/thudm/cogvlm)",
+        "p": {
+          "name": "CogVLM: Visual Expert for Pretrained Language Models",
+          "link": "https://arxiv.org/abs/2311.03079v2"
+        },
+        "c": "https://github.com/thudm/cogvlm",
         "n": "CogVLM-Chat",
         "d": "2023-11-06",
         "m1": "45.1±0.2"
       },
       {
-        "p": "[InternLM-XComposer2: Mastering Free-form Text-Image Composition and Comprehension in Vision-Language Large Model](https://arxiv.org/abs/2401.16420v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/internlm/internlm-xcomposer)",
+        "p": {
+          "name": "InternLM-XComposer2: Mastering Free-form Text-Image Composition and Comprehension in Vision-Language Large Model",
+          "link": "https://arxiv.org/abs/2401.16420v1"
+        },
+        "c": "https://github.com/internlm/internlm-xcomposer",
         "n": "IXC2-VL-7B",
         "d": "2024-01-29",
         "m1": "42.5±0.3"
       },
       {
-        "p": "[Generative Multimodal Models are In-Context Learners](https://arxiv.org/abs/2312.13286v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/baaivision/emu)",
+        "p": {
+          "name": "Generative Multimodal Models are In-Context Learners",
+          "link": "https://arxiv.org/abs/2312.13286v2"
+        },
+        "c": "https://github.com/baaivision/emu",
         "n": "Emu2-Chat",
         "d": "2023-12-20",
         "m1": "38.0±0.1"
       },
       {
-        "p": "[CogAgent: A Visual Language Model for GUI Agents](https://arxiv.org/abs/2312.08914v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/thudm/cogvlm)",
+        "p": {
+          "name": "CogAgent: A Visual Language Model for GUI Agents",
+          "link": "https://arxiv.org/abs/2312.08914v3"
+        },
+        "c": "https://github.com/thudm/cogvlm",
         "n": "CogAgent-Chat",
         "d": "2023-12-14",
         "m1": "34.7±0.2"
       },
       {
-        "p": "[Improved Baselines with Visual Instruction Tuning](https://arxiv.org/abs/2310.03744v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "Improved Baselines with Visual Instruction Tuning",
+          "link": "https://arxiv.org/abs/2310.03744v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "LLaVA-v1.5-13B",
         "d": "2023-10-05",
         "m1": "33.2±0.1",
         "m2": "13B"
       },
       {
-        "p": "[Improved Baselines with Visual Instruction Tuning](https://arxiv.org/abs/2310.03744v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "Improved Baselines with Visual Instruction Tuning",
+          "link": "https://arxiv.org/abs/2310.03744v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "LLaVA-v1.5-7B",
         "d": "2023-10-05",
         "m1": "28.3±0.2",
         "m2": "7B"
       },
       {
-        "p": "[MIMIC-IT: Multi-Modal In-Context Instruction Tuning](https://arxiv.org/abs/2306.05425v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/luodian/otter)",
+        "p": {
+          "name": "MIMIC-IT: Multi-Modal In-Context Instruction Tuning",
+          "link": "https://arxiv.org/abs/2306.05425v1"
+        },
+        "c": "https://github.com/luodian/otter",
         "n": "Otter-9B",
         "d": "2023-06-08",
         "m1": "23.2±0.1",
         "m2": "9B"
       },
       {
-        "p": "[OpenFlamingo: An Open-Source Framework for Training Large Autoregressive Vision-Language Models](https://arxiv.org/abs/2308.01390v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/mlfoundations/open_flamingo)",
+        "p": {
+          "name": "OpenFlamingo: An Open-Source Framework for Training Large Autoregressive Vision-Language Models",
+          "link": "https://arxiv.org/abs/2308.01390v2"
+        },
+        "c": "https://github.com/mlfoundations/open_flamingo",
         "n": "OpenFlamingo-9B",
         "d": "2023-08-02",
         "m1": "17.6±0.2",

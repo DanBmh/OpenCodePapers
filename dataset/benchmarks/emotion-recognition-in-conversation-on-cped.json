@@ -39,79 +39,109 @@
     ],
     "items": [
       {
-        "p": "[CPED: A Large-Scale Chinese Personalized and Emotional Dialogue Dataset for Conversational AI](https://arxiv.org/abs/2205.14727v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/scutcyr/CPED)",
+        "p": {
+          "name": "CPED: A Large-Scale Chinese Personalized and Emotional Dialogue Dataset for Conversational AI",
+          "link": "https://arxiv.org/abs/2205.14727v1"
+        },
+        "c": "https://github.com/scutcyr/CPED",
         "n": "BERT+AVG+MLP",
         "d": "2022-05-29",
         "m1": "51.50",
         "m2": "48.02"
       },
       {
-        "p": "[DialogXL: All-in-One XLNet for Multi-Party Conversation Emotion Recognition](https://arxiv.org/abs/2012.08695v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/shenwzh3/DialogXL)",
+        "p": {
+          "name": "DialogXL: All-in-One XLNet for Multi-Party Conversation Emotion Recognition",
+          "link": "https://arxiv.org/abs/2012.08695v1"
+        },
+        "c": "https://github.com/shenwzh3/DialogXL",
         "n": "DialogXL",
         "d": "2020-12-16",
         "m1": "51.24",
         "m2": "46.96"
       },
       {
-        "p": "[Context-Dependent Sentiment Analysis in User-Generated Videos](https://aclanthology.org/P17-1081)",
-        "c": "[&check;&nbsp;Link](https://github.com/soujanyaporia/multimodal-sentiment-analysis)",
+        "p": {
+          "name": "Context-Dependent Sentiment Analysis in User-Generated Videos",
+          "link": "https://aclanthology.org/P17-1081"
+        },
+        "c": "https://github.com/soujanyaporia/multimodal-sentiment-analysis",
         "n": "bcLSTM",
         "d": "2017-07-01",
         "m1": "49.65",
         "m2": "45.40"
       },
       {
-        "p": "[Recurrent Convolutional Neural Networks for Text Classification](https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/download/9745/9552)",
-        "c": "[&check;&nbsp;Link](https://github.com/mindspore-ai/models/blob/master/research/nlp/textrcnn)",
+        "p": {
+          "name": "Recurrent Convolutional Neural Networks for Text Classification",
+          "link": "https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/download/9745/9552"
+        },
+        "c": "https://github.com/mindspore-ai/models/blob/master/research/nlp/textrcnn",
         "n": "TextRCNN",
         "d": "2015-01-01",
         "m1": "49.13",
         "m2": "37.95"
       },
       {
-        "p": "[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "link": "https://arxiv.org/abs/1810.04805v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "BERT_{utt}",
         "d": "2018-10-11",
         "m1": "48.96",
         "m2": "45.18"
       },
       {
-        "p": "[Convolutional Neural Networks for Sentence Classification](http://arxiv.org/abs/1408.5882v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/examples/sentiment_analysis/textcnn)",
+        "p": {
+          "name": "Convolutional Neural Networks for Sentence Classification",
+          "link": "http://arxiv.org/abs/1408.5882v2"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleNLP/tree/develop/examples/sentiment_analysis/textcnn",
         "n": "TextCNN",
         "d": "2014-08-25",
         "m1": "48.90",
         "m2": "34.37"
       },
       {
-        "p": "[Bag of Tricks for Efficient Text Classification](http://arxiv.org/abs/1607.01759v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/fastText)",
+        "p": {
+          "name": "Bag of Tricks for Efficient Text Classification",
+          "link": "http://arxiv.org/abs/1607.01759v3"
+        },
+        "c": "https://github.com/facebookresearch/fastText",
         "n": "FastText",
         "d": "2016-07-06",
         "m1": "48.62",
         "m2": "30.33"
       },
       {
-        "p": "[DialogueRNN: An Attentive RNN for Emotion Detection in Conversations](https://arxiv.org/abs/1811.00405v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/SenticNet/conv-emotion)",
+        "p": {
+          "name": "DialogueRNN: An Attentive RNN for Emotion Detection in Conversations",
+          "link": "https://arxiv.org/abs/1811.00405v4"
+        },
+        "c": "https://github.com/SenticNet/conv-emotion",
         "n": "DialogueRNN",
         "d": "2018-11-01",
         "m1": "48.57",
         "m2": "44.11"
       },
       {
-        "p": "[EmoBERTa: Speaker-Aware Emotion Recognition in Conversation with RoBERTa](https://arxiv.org/abs/2108.12009v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/tae898/erc)",
+        "p": {
+          "name": "EmoBERTa: Speaker-Aware Emotion Recognition in Conversation with RoBERTa",
+          "link": "https://arxiv.org/abs/2108.12009v1"
+        },
+        "c": "https://github.com/tae898/erc",
         "n": "EmoBERTa",
         "d": "2021-08-26",
         "m1": "48.09",
         "m2": "44.60"
       },
       {
-        "p": "[Recurrent Neural Network for Text Classification with Multi-Task Learning](http://arxiv.org/abs/1605.05101v1)",
+        "p": {
+          "name": "Recurrent Neural Network for Text Classification with Multi-Task Learning",
+          "link": "http://arxiv.org/abs/1605.05101v1"
+        },
         "c": "",
         "n": "TextRNN",
         "d": "2016-05-17",
@@ -119,8 +149,11 @@
         "m2": "37.07"
       },
       {
-        "p": "[DialogueGCN: A Graph Convolutional Neural Network for Emotion Recognition in Conversation](https://arxiv.org/abs/1908.11540v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/SenticNet/conv-emotion)",
+        "p": {
+          "name": "DialogueGCN: A Graph Convolutional Neural Network for Emotion Recognition in Conversation",
+          "link": "https://arxiv.org/abs/1908.11540v1"
+        },
+        "c": "https://github.com/SenticNet/conv-emotion",
         "n": "DialogueGCN",
         "d": "2019-08-30",
         "m1": "47.69",

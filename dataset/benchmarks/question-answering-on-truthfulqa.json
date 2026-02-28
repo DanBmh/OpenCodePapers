@@ -78,38 +78,53 @@
     ],
     "items": [
       {
-        "p": "[GPT-4 Technical Report](https://arxiv.org/abs/2303.08774v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/openai/evals)",
+        "p": {
+          "name": "GPT-4 Technical Report",
+          "link": "https://arxiv.org/abs/2303.08774v5"
+        },
+        "c": "https://github.com/openai/evals",
         "n": "GPT-4 (RLHF)",
         "d": "2023-03-15",
         "m1": "0.59"
       },
       {
-        "p": "[TruthX: Alleviating Hallucinations by Editing Large Language Models in Truthful Space](https://arxiv.org/abs/2402.17811v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/ictnlp/truthx)",
+        "p": {
+          "name": "TruthX: Alleviating Hallucinations by Editing Large Language Models in Truthful Space",
+          "link": "https://arxiv.org/abs/2402.17811v2"
+        },
+        "c": "https://github.com/ictnlp/truthx",
         "n": "Mistral-7B-Instruct-v0.2 + TruthX",
         "d": "2024-02-27",
         "m1": "0.56",
         "m2": "0.75"
       },
       {
-        "p": "[TruthX: Alleviating Hallucinations by Editing Large Language Models in Truthful Space](https://arxiv.org/abs/2402.17811v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/ictnlp/truthx)",
+        "p": {
+          "name": "TruthX: Alleviating Hallucinations by Editing Large Language Models in Truthful Space",
+          "link": "https://arxiv.org/abs/2402.17811v2"
+        },
+        "c": "https://github.com/ictnlp/truthx",
         "n": "LLaMa-2-7B-Chat + TruthX",
         "d": "2024-02-27",
         "m1": "0.54",
         "m2": "0.74"
       },
       {
-        "p": "[Representation Engineering: A Top-Down Approach to AI Transparency](https://arxiv.org/abs/2310.01405v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/andyzoujm/representation-engineering)",
+        "p": {
+          "name": "Representation Engineering: A Top-Down Approach to AI Transparency",
+          "link": "https://arxiv.org/abs/2310.01405v4"
+        },
+        "c": "https://github.com/andyzoujm/representation-engineering",
         "n": "LLaMA-2-Chat-13B + Representation Control (Contrast Vector)",
         "d": "2023-10-02",
         "m1": "0.54"
       },
       {
-        "p": "[Representation Engineering: A Top-Down Approach to AI Transparency](https://arxiv.org/abs/2310.01405v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/andyzoujm/representation-engineering)",
+        "p": {
+          "name": "Representation Engineering: A Top-Down Approach to AI Transparency",
+          "link": "https://arxiv.org/abs/2310.01405v4"
+        },
+        "c": "https://github.com/andyzoujm/representation-engineering",
         "n": "LLaMA-2-Chat-7B + Representation Control (Contrast Vector)",
         "d": "2023-10-02",
         "m1": "0.48"
@@ -133,8 +148,11 @@
         "m4": "97.7"
       },
       {
-        "p": "[Scaling Language Models: Methods, Analysis & Insights from Training Gopher](https://arxiv.org/abs/2112.11446v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/allenai/dolma)",
+        "p": {
+          "name": "Scaling Language Models: Methods, Analysis & Insights from Training Gopher",
+          "link": "https://arxiv.org/abs/2112.11446v2"
+        },
+        "c": "https://github.com/allenai/dolma",
         "n": "Gopher 280B (zero-shot, Our Prompt + Choices)",
         "d": "2021-12-08",
         "m1": "0.295"
@@ -149,43 +167,61 @@
         "m4": "93.8"
       },
       {
-        "p": "[Galactica: A Large Language Model for Science](https://arxiv.org/abs/2211.09085v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/paperswithcode/galai)",
+        "p": {
+          "name": "Galactica: A Large Language Model for Science",
+          "link": "https://arxiv.org/abs/2211.09085v1"
+        },
+        "c": "https://github.com/paperswithcode/galai",
         "n": "GAL 120B",
         "d": "2022-11-16",
         "m1": "0.26"
       },
       {
-        "p": "[Scaling Language Models: Methods, Analysis & Insights from Training Gopher](https://arxiv.org/abs/2112.11446v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/allenai/dolma)",
+        "p": {
+          "name": "Scaling Language Models: Methods, Analysis & Insights from Training Gopher",
+          "link": "https://arxiv.org/abs/2112.11446v2"
+        },
+        "c": "https://github.com/allenai/dolma",
         "n": "Gopher 7.1 (zero-shot, QA prompts)",
         "d": "2021-12-08",
         "m1": "0.25"
       },
       {
-        "p": "[Galactica: A Large Language Model for Science](https://arxiv.org/abs/2211.09085v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/paperswithcode/galai)",
+        "p": {
+          "name": "Galactica: A Large Language Model for Science",
+          "link": "https://arxiv.org/abs/2211.09085v1"
+        },
+        "c": "https://github.com/paperswithcode/galai",
         "n": "GAL 30B",
         "d": "2022-11-16",
         "m1": "0.24"
       },
       {
-        "p": "[Scaling Language Models: Methods, Analysis & Insights from Training Gopher](https://arxiv.org/abs/2112.11446v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/allenai/dolma)",
+        "p": {
+          "name": "Scaling Language Models: Methods, Analysis & Insights from Training Gopher",
+          "link": "https://arxiv.org/abs/2112.11446v2"
+        },
+        "c": "https://github.com/allenai/dolma",
         "n": "Gopher 7.1B (zero-shot, Our Prompt + Choices)",
         "d": "2021-12-08",
         "m1": "0.23"
       },
       {
-        "p": "[Scaling Language Models: Methods, Analysis & Insights from Training Gopher](https://arxiv.org/abs/2112.11446v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/allenai/dolma)",
+        "p": {
+          "name": "Scaling Language Models: Methods, Analysis & Insights from Training Gopher",
+          "link": "https://arxiv.org/abs/2112.11446v2"
+        },
+        "c": "https://github.com/allenai/dolma",
         "n": "Gopher 1.4 (zero-shot, QA prompts)",
         "d": "2021-12-08",
         "m1": "0.23"
       },
       {
-        "p": "[TruthfulQA: Measuring How Models Mimic Human Falsehoods](https://arxiv.org/abs/2109.07958v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/sylinrl/truthfulqa)",
+        "p": {
+          "name": "TruthfulQA: Measuring How Models Mimic Human Falsehoods",
+          "link": "https://arxiv.org/abs/2109.07958v2"
+        },
+        "c": "https://github.com/sylinrl/truthfulqa",
         "n": "GPT-2 1.5B",
         "d": "2021-09-08",
         "m1": "0.22",
@@ -198,15 +234,21 @@
         "m8": "-4.91"
       },
       {
-        "p": "[Scaling Language Models: Methods, Analysis & Insights from Training Gopher](https://arxiv.org/abs/2112.11446v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/allenai/dolma)",
+        "p": {
+          "name": "Scaling Language Models: Methods, Analysis & Insights from Training Gopher",
+          "link": "https://arxiv.org/abs/2112.11446v2"
+        },
+        "c": "https://github.com/allenai/dolma",
         "n": "Gopher 1.4B (zero-shot, Our Prompt + Choices)",
         "d": "2021-12-08",
         "m1": "0.217"
       },
       {
-        "p": "[TruthfulQA: Measuring How Models Mimic Human Falsehoods](https://arxiv.org/abs/2109.07958v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/sylinrl/truthfulqa)",
+        "p": {
+          "name": "TruthfulQA: Measuring How Models Mimic Human Falsehoods",
+          "link": "https://arxiv.org/abs/2109.07958v2"
+        },
+        "c": "https://github.com/sylinrl/truthfulqa",
         "n": "GPT-3 175B",
         "d": "2021-09-08",
         "m1": "0.21",
@@ -219,15 +261,21 @@
         "m8": "-17.38"
       },
       {
-        "p": "[Galactica: A Large Language Model for Science](https://arxiv.org/abs/2211.09085v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/paperswithcode/galai)",
+        "p": {
+          "name": "Galactica: A Large Language Model for Science",
+          "link": "https://arxiv.org/abs/2211.09085v1"
+        },
+        "c": "https://github.com/paperswithcode/galai",
         "n": "OPT 175B",
         "d": "2022-11-16",
         "m1": "0.21"
       },
       {
-        "p": "[TruthfulQA: Measuring How Models Mimic Human Falsehoods](https://arxiv.org/abs/2109.07958v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/sylinrl/truthfulqa)",
+        "p": {
+          "name": "TruthfulQA: Measuring How Models Mimic Human Falsehoods",
+          "link": "https://arxiv.org/abs/2109.07958v2"
+        },
+        "c": "https://github.com/sylinrl/truthfulqa",
         "n": "GPT-J 6B",
         "d": "2021-09-08",
         "m1": "0.20",
@@ -240,8 +288,11 @@
         "m8": "-7.58"
       },
       {
-        "p": "[TruthfulQA: Measuring How Models Mimic Human Falsehoods](https://arxiv.org/abs/2109.07958v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/sylinrl/truthfulqa)",
+        "p": {
+          "name": "TruthfulQA: Measuring How Models Mimic Human Falsehoods",
+          "link": "https://arxiv.org/abs/2109.07958v2"
+        },
+        "c": "https://github.com/sylinrl/truthfulqa",
         "n": "UnifiedQA 3B",
         "d": "2021-09-08",
         "m1": "0.19",
@@ -254,95 +305,134 @@
         "m8": "-0.16"
       },
       {
-        "p": "[Galactica: A Large Language Model for Science](https://arxiv.org/abs/2211.09085v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/paperswithcode/galai)",
+        "p": {
+          "name": "Galactica: A Large Language Model for Science",
+          "link": "https://arxiv.org/abs/2211.09085v1"
+        },
+        "c": "https://github.com/paperswithcode/galai",
         "n": "GAL 125M",
         "d": "2022-11-16",
         "m1": "0.19"
       },
       {
-        "p": "[Galactica: A Large Language Model for Science](https://arxiv.org/abs/2211.09085v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/paperswithcode/galai)",
+        "p": {
+          "name": "Galactica: A Large Language Model for Science",
+          "link": "https://arxiv.org/abs/2211.09085v1"
+        },
+        "c": "https://github.com/paperswithcode/galai",
         "n": "GAL 1.3B",
         "d": "2022-11-16",
         "m1": "0.19"
       },
       {
-        "p": "[Galactica: A Large Language Model for Science](https://arxiv.org/abs/2211.09085v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/paperswithcode/galai)",
+        "p": {
+          "name": "Galactica: A Large Language Model for Science",
+          "link": "https://arxiv.org/abs/2211.09085v1"
+        },
+        "c": "https://github.com/paperswithcode/galai",
         "n": "GAL 6.7B",
         "d": "2022-11-16",
         "m1": "0.19"
       },
       {
-        "p": "[Scaling Language Models: Methods, Analysis & Insights from Training Gopher](https://arxiv.org/abs/2112.11446v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/allenai/dolma)",
+        "p": {
+          "name": "Scaling Language Models: Methods, Analysis & Insights from Training Gopher",
+          "link": "https://arxiv.org/abs/2112.11446v2"
+        },
+        "c": "https://github.com/allenai/dolma",
         "n": "Gopher 280B (zero-shot, QA prompts)",
         "d": "2021-12-08",
         "m1": "0. 27"
       },
       {
-        "p": "[LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "LLaMA: Open and Efficient Foundation Language Models",
+          "link": "https://arxiv.org/abs/2302.13971v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "LLaMA 65B",
         "d": "2023-02-27",
         "m3": "57",
         "m4": "53"
       },
       {
-        "p": "[LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "LLaMA: Open and Efficient Foundation Language Models",
+          "link": "https://arxiv.org/abs/2302.13971v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "LLaMA 33B",
         "d": "2023-02-27",
         "m3": "52",
         "m4": "48"
       },
       {
-        "p": "[LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "LLaMA: Open and Efficient Foundation Language Models",
+          "link": "https://arxiv.org/abs/2302.13971v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "LLaMA 13B",
         "d": "2023-02-27",
         "m3": "47",
         "m4": "41"
       },
       {
-        "p": "[LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "LLaMA: Open and Efficient Foundation Language Models",
+          "link": "https://arxiv.org/abs/2302.13971v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "LLaMA 7B",
         "d": "2023-02-27",
         "m3": "33",
         "m4": "29"
       },
       {
-        "p": "[Chain-of-Action: Faithful and Multimodal Question Answering through Large Language Models](https://arxiv.org/abs/2403.17359v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/MAGICS-LAB/Chain-of-Actions)",
+        "p": {
+          "name": "Chain-of-Action: Faithful and Multimodal Question Answering through Large Language Models",
+          "link": "https://arxiv.org/abs/2403.17359v1"
+        },
+        "c": "https://github.com/MAGICS-LAB/Chain-of-Actions",
         "n": "CoA",
         "d": "2024-03-26",
         "m9": "67.3"
       },
       {
-        "p": "[Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/ysymyth/tree-of-thought-llm)",
+        "p": {
+          "name": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+          "link": "https://arxiv.org/abs/2305.10601v2"
+        },
+        "c": "https://github.com/ysymyth/tree-of-thought-llm",
         "n": "ToT",
         "d": "2023-05-17",
         "m9": "66.6"
       },
       {
-        "p": "[Chain-of-Action: Faithful and Multimodal Question Answering through Large Language Models](https://arxiv.org/abs/2403.17359v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/MAGICS-LAB/Chain-of-Actions)",
+        "p": {
+          "name": "Chain-of-Action: Faithful and Multimodal Question Answering through Large Language Models",
+          "link": "https://arxiv.org/abs/2403.17359v1"
+        },
+        "c": "https://github.com/MAGICS-LAB/Chain-of-Actions",
         "n": "CoA w/o actions",
         "d": "2024-03-26",
         "m9": "63.3"
       },
       {
-        "p": "[Automatic Chain of Thought Prompting in Large Language Models](https://arxiv.org/abs/2210.03493v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/microsoft/guidance)",
+        "p": {
+          "name": "Automatic Chain of Thought Prompting in Large Language Models",
+          "link": "https://arxiv.org/abs/2210.03493v1"
+        },
+        "c": "https://github.com/microsoft/guidance",
         "n": "Auto-CoT",
         "d": "2022-10-07",
         "m9": "42.2"
       },
       {
-        "p": "[SHAKTI: A 2.5 Billion Parameter Small Language Model Optimized for Edge AI and Low-Resource Environments](https://arxiv.org/abs/2410.11331v1)",
+        "p": {
+          "name": "SHAKTI: A 2.5 Billion Parameter Small Language Model Optimized for Edge AI and Low-Resource Environments",
+          "link": "https://arxiv.org/abs/2410.11331v1"
+        },
         "c": "",
         "n": "Shakti-LLM (2.5B)",
         "d": "2024-10-15",

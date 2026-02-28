@@ -63,103 +63,142 @@
     ],
     "items": [
       {
-        "p": "[Outer Product-based Neural Collaborative Filtering](http://arxiv.org/abs/1808.03912v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/duxy-me/ConvNCF)",
+        "p": {
+          "name": "Outer Product-based Neural Collaborative Filtering",
+          "link": "http://arxiv.org/abs/1808.03912v1"
+        },
+        "c": "https://github.com/duxy-me/ConvNCF",
         "n": "ConvNCF",
         "d": "2018-08-12",
         "m1": "0.6019"
       },
       {
-        "p": "[Neighborhood-Enhanced Supervised Contrastive Learning for Collaborative Filtering](https://arxiv.org/abs/2402.11523v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/PeiJieSun/NESCL)",
+        "p": {
+          "name": "Neighborhood-Enhanced Supervised Contrastive Learning for Collaborative Filtering",
+          "link": "https://arxiv.org/abs/2402.11523v1"
+        },
+        "c": "https://github.com/PeiJieSun/NESCL",
         "n": "NESCL",
         "d": "2024-02-18",
         "m1": "0.1617",
         "m2": "0.1917"
       },
       {
-        "p": "[Why is Normalization Necessary for Linear Recommenders?](https://arxiv.org/abs/2504.05805v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/psm1206/dan)",
+        "p": {
+          "name": "Why is Normalization Necessary for Linear Recommenders?",
+          "link": "https://arxiv.org/abs/2504.05805v2"
+        },
+        "c": "https://github.com/psm1206/dan",
         "n": "RLAE-DAN",
         "d": "2025-04-08",
         "m1": "0.1605",
         "m2": "0.1922"
       },
       {
-        "p": "[Blurring-Sharpening Process Models for Collaborative Filtering](https://arxiv.org/abs/2211.09324v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/jeongwhanchoi/bspm)",
+        "p": {
+          "name": "Blurring-Sharpening Process Models for Collaborative Filtering",
+          "link": "https://arxiv.org/abs/2211.09324v2"
+        },
+        "c": "https://github.com/jeongwhanchoi/bspm",
         "n": "BSPM-EM",
         "d": "2022-11-17",
         "m1": "0.1597",
         "m2": "0.1920"
       },
       {
-        "p": "[MGDCF: Distance Learning via Markov Graph Diffusion for Neural Collaborative Filtering](https://arxiv.org/abs/2204.02338v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/CrawlScript/Torch-MGDCF)",
+        "p": {
+          "name": "MGDCF: Distance Learning via Markov Graph Diffusion for Neural Collaborative Filtering",
+          "link": "https://arxiv.org/abs/2204.02338v2"
+        },
+        "c": "https://github.com/CrawlScript/Torch-MGDCF",
         "n": "MGDCF",
         "d": "2022-04-05",
         "m1": "0.1589",
         "m2": "0.1864"
       },
       {
-        "p": "[UltraGCN: Ultra Simplification of Graph Convolutional Networks for Recommendation](https://arxiv.org/abs/2110.15114v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/reczoo/RecZoo/tree/main/matching/gnn/UltraGCN)",
+        "p": {
+          "name": "UltraGCN: Ultra Simplification of Graph Convolutional Networks for Recommendation",
+          "link": "https://arxiv.org/abs/2110.15114v2"
+        },
+        "c": "https://github.com/reczoo/RecZoo/tree/main/matching/gnn/UltraGCN",
         "n": "Emb-GCN",
         "d": "2021-10-28",
         "m1": "0.1580",
         "m2": "0.1862"
       },
       {
-        "p": "[LT-OCF: Learnable-Time ODE-based Collaborative Filtering](https://arxiv.org/abs/2108.06208v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/jeongwhanchoi/lt-ocf)",
+        "p": {
+          "name": "LT-OCF: Learnable-Time ODE-based Collaborative Filtering",
+          "link": "https://arxiv.org/abs/2108.06208v3"
+        },
+        "c": "https://github.com/jeongwhanchoi/lt-ocf",
         "n": "LT-OCF",
         "d": "2021-08-08",
         "m1": "0.1574",
         "m2": "0.1875"
       },
       {
-        "p": "[Blurring-Sharpening Process Models for Collaborative Filtering](https://arxiv.org/abs/2211.09324v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/jeongwhanchoi/bspm)",
+        "p": {
+          "name": "Blurring-Sharpening Process Models for Collaborative Filtering",
+          "link": "https://arxiv.org/abs/2211.09324v2"
+        },
+        "c": "https://github.com/jeongwhanchoi/bspm",
         "n": "BSPM-LM",
         "d": "2022-11-17",
         "m1": "0.157",
         "m2": "0.1901"
       },
       {
-        "p": "[SimpleX: A Simple and Strong Baseline for Collaborative Filtering](https://arxiv.org/abs/2109.12613v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/reczoo/RecZoo/tree/main/matching/cf/SimpleX)",
+        "p": {
+          "name": "SimpleX: A Simple and Strong Baseline for Collaborative Filtering",
+          "link": "https://arxiv.org/abs/2109.12613v3"
+        },
+        "c": "https://github.com/reczoo/RecZoo/tree/main/matching/cf/SimpleX",
         "n": "SimpleX",
         "d": "2021-09-26",
         "m1": "0.1557",
         "m2": "0.1872"
       },
       {
-        "p": "[LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation](https://arxiv.org/abs/2002.02126v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/microsoft/recommenders)",
+        "p": {
+          "name": "LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation",
+          "link": "https://arxiv.org/abs/2002.02126v4"
+        },
+        "c": "https://github.com/microsoft/recommenders",
         "n": "LightGCN",
         "d": "2020-02-06",
         "m1": "0.1554",
         "m2": "0.1830"
       },
       {
-        "p": "[Sapling Similarity: a performing and interpretable memory-based tool for recommendation](https://arxiv.org/abs/2210.07039v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/giamba95/saplingsimilarity)",
+        "p": {
+          "name": "Sapling Similarity: a performing and interpretable memory-based tool for recommendation",
+          "link": "https://arxiv.org/abs/2210.07039v2"
+        },
+        "c": "https://github.com/giamba95/saplingsimilarity",
         "n": "SSCF",
         "d": "2022-10-13",
         "m1": "0.1390",
         "m2": "0.1775"
       },
       {
-        "p": "[Neural Graph Collaborative Filtering](https://arxiv.org/abs/1905.08108v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/NGCF)",
+        "p": {
+          "name": "Neural Graph Collaborative Filtering",
+          "link": "https://arxiv.org/abs/1905.08108v2"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/NGCF",
         "n": "NGCF",
         "d": "2019-05-20",
         "m1": "0.1327",
         "m2": "0.1570"
       },
       {
-        "p": "[SVD-AE: Simple Autoencoders for Collaborative Filtering](https://arxiv.org/abs/2405.04746v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/seoyoungh/svd-ae)",
+        "p": {
+          "name": "SVD-AE: Simple Autoencoders for Collaborative Filtering",
+          "link": "https://arxiv.org/abs/2405.04746v1"
+        },
+        "c": "https://github.com/seoyoungh/svd-ae",
         "n": "SVD-AE",
         "d": "2024-05-08",
         "m3": "0.144",

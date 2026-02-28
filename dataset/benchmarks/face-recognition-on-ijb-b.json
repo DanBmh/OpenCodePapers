@@ -60,8 +60,11 @@
     ],
     "items": [
       {
-        "p": "[Controllable and Guided Face Synthesis for Unconstrained Face Recognition](https://arxiv.org/abs/2207.10180v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/Faceplugin-ltd/FaceRecognition-Android)",
+        "p": {
+          "name": "Controllable and Guided Face Synthesis for Unconstrained Face Recognition",
+          "link": "https://arxiv.org/abs/2207.10180v1"
+        },
+        "c": "https://github.com/Faceplugin-ltd/FaceRecognition-Android",
         "n": "ArcFace+CSFM",
         "d": "2022-07-20",
         "m1": "0.9496",
@@ -71,23 +74,32 @@
         "m6": "0.9095"
       },
       {
-        "p": "[AdaFace: Quality Adaptive Margin for Face Recognition](https://arxiv.org/abs/2204.00964v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/mk-minchul/adaface)",
+        "p": {
+          "name": "AdaFace: Quality Adaptive Margin for Face Recognition",
+          "link": "https://arxiv.org/abs/2204.00964v2"
+        },
+        "c": "https://github.com/mk-minchul/adaface",
         "n": "ArcFace + MS1MV2 + R100",
         "d": "2022-04-03",
         "m1": "0.9450",
         "m6": "0.8933"
       },
       {
-        "p": "[ElasticFace: Elastic Margin Loss for Deep Face Recognition](https://arxiv.org/abs/2109.09416v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/fdbtrs/ElasticFace)",
+        "p": {
+          "name": "ElasticFace: Elastic Margin Loss for Deep Face Recognition",
+          "link": "https://arxiv.org/abs/2109.09416v4"
+        },
+        "c": "https://github.com/fdbtrs/ElasticFace",
         "n": "ElasticFace-Cos",
         "d": "2021-09-20",
         "m3": "0.953"
       },
       {
-        "p": "[AdaFace: Quality Adaptive Margin for Face Recognition](https://arxiv.org/abs/2204.00964v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/mk-minchul/adaface)",
+        "p": {
+          "name": "AdaFace: Quality Adaptive Margin for Face Recognition",
+          "link": "https://arxiv.org/abs/2204.00964v2"
+        },
+        "c": "https://github.com/mk-minchul/adaface",
         "n": "AdaFace + MS1MV3 + R100",
         "d": "2022-04-03",
         "m3": "0.9425"

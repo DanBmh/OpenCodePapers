@@ -39,15 +39,21 @@
     ],
     "items": [
       {
-        "p": "[Mean Deviation Similarity Index: Efficient and Reliable Full-Reference Image Quality Evaluator](http://arxiv.org/abs/1608.07433v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/photosynthesis-team/piq)",
+        "p": {
+          "name": "Mean Deviation Similarity Index: Efficient and Reliable Full-Reference Image Quality Evaluator",
+          "link": "http://arxiv.org/abs/1608.07433v4"
+        },
+        "c": "https://github.com/photosynthesis-team/piq",
         "n": "MDSI",
         "d": "2016-08-26",
         "m1": "0.8806",
         "m2": "0.8802"
       },
       {
-        "p": "[SR-SIM: A fast and high performance IQA index based on spectral residual](https://www.semanticscholar.org/paper/SR-SIM%3A-A-fast-and-high-performance-IQA-index-based-Zhang-Li/9f962cbb9c51e5d2827e495cbb30abcf3c41ecc1)",
+        "p": {
+          "name": "SR-SIM: A fast and high performance IQA index based on spectral residual",
+          "link": "https://www.semanticscholar.org/paper/SR-SIM%3A-A-fast-and-high-performance-IQA-index-based-Zhang-Li/9f962cbb9c51e5d2827e495cbb30abcf3c41ecc1"
+        },
         "c": "",
         "n": "SR-SIM",
         "d": "2012-09-01",
@@ -55,7 +61,10 @@
         "m2": "0.8732"
       },
       {
-        "p": "[FSIM: A Feature Similarity Index for Image Quality Assessment](https://ieeexplore.ieee.org/document/5705575)",
+        "p": {
+          "name": "FSIM: A Feature Similarity Index for Image Quality Assessment",
+          "link": "https://ieeexplore.ieee.org/document/5705575"
+        },
         "c": "",
         "n": "FSIMc",
         "d": "2011-01-31",
@@ -63,7 +72,10 @@
         "m2": "0.8738"
       },
       {
-        "p": "[VSI: A Visual Saliency-Induced Index for Perceptual Image Quality Assessment](https://ieeexplore.ieee.org/document/6873260)",
+        "p": {
+          "name": "VSI: A Visual Saliency-Induced Index for Perceptual Image Quality Assessment",
+          "link": "https://ieeexplore.ieee.org/document/6873260"
+        },
         "c": "",
         "n": "VSI",
         "d": "2014-08-07",
@@ -71,7 +83,10 @@
         "m2": "0.8726"
       },
       {
-        "p": "[Most Apparent Distortion: Full-Reference Image Quality Assessment and the Role of Strategy](https://www.researchgate.net/publication/220050520_Most_apparent_distortion_Full-reference_image_quality_assessment_and_the_role_of_strategy)",
+        "p": {
+          "name": "Most Apparent Distortion: Full-Reference Image Quality Assessment and the Role of Strategy",
+          "link": "https://www.researchgate.net/publication/220050520_Most_apparent_distortion_Full-reference_image_quality_assessment_and_the_role_of_strategy"
+        },
         "c": "",
         "n": "MAD",
         "d": "2010-01-01",
@@ -79,7 +94,10 @@
         "m2": "0.8677"
       },
       {
-        "p": "[A Haar Wavelet-Based Perceptual Similarity Index for Image Quality Assessment](http://arxiv.org/abs/1607.06140v4)",
+        "p": {
+          "name": "A Haar Wavelet-Based Perceptual Similarity Index for Image Quality Assessment",
+          "link": "http://arxiv.org/abs/1607.06140v4"
+        },
         "c": "",
         "n": "HaarPSI",
         "d": "2016-07-20",
@@ -87,7 +105,10 @@
         "m2": "0.8526"
       },
       {
-        "p": "[Information Content Weighting for Perceptual Image Quality Assessment](https://ieeexplore.ieee.org/document/5635337)",
+        "p": {
+          "name": "Information Content Weighting for Perceptual Image Quality Assessment",
+          "link": "https://ieeexplore.ieee.org/document/5635337"
+        },
         "c": "",
         "n": "IW-SSIM",
         "d": "2011-05-01",
@@ -95,7 +116,10 @@
         "m2": "0.8300"
       },
       {
-        "p": "[Gradient Magnitude Similarity Deviation: A Highly Efficient Perceptual Image Quality Index](http://arxiv.org/abs/1308.3052v2)",
+        "p": {
+          "name": "Gradient Magnitude Similarity Deviation: A Highly Efficient Perceptual Image Quality Index",
+          "link": "http://arxiv.org/abs/1308.3052v2"
+        },
         "c": "",
         "n": "GMSD",
         "d": "2013-08-14",
@@ -103,7 +127,10 @@
         "m2": "0.8234"
       },
       {
-        "p": "[Sparse Feature Fidelity for Perceptual Image Quality Assessment](https://ieeexplore.ieee.org/document/6525380/authors#authors)",
+        "p": {
+          "name": "Sparse Feature Fidelity for Perceptual Image Quality Assessment",
+          "link": "https://ieeexplore.ieee.org/document/6525380/authors#authors"
+        },
         "c": "",
         "n": "SFF",
         "d": "2013-10-01",
@@ -111,7 +138,10 @@
         "m2": "0.8179"
       },
       {
-        "p": "[Image information and visual quality](https://ieeexplore.ieee.org/document/1576816)",
+        "p": {
+          "name": "Image information and visual quality",
+          "link": "https://ieeexplore.ieee.org/document/1576816"
+        },
         "c": "",
         "n": "VIF",
         "d": "2006-02-01",
@@ -119,8 +149,11 @@
         "m2": "0.7423"
       },
       {
-        "p": "[Multiscale structural similarity for image quality assessment](https://ieeexplore.ieee.org/document/1292216)",
-        "c": "[&check;&nbsp;Link](https://github.com/VainF/pytorch-msssim)",
+        "p": {
+          "name": "Multiscale structural similarity for image quality assessment",
+          "link": "https://ieeexplore.ieee.org/document/1292216"
+        },
+        "c": "https://github.com/VainF/pytorch-msssim",
         "n": "MS-SSIM",
         "d": "2004-05-04",
         "m1": "0.7247",

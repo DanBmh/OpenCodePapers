@@ -44,7 +44,10 @@
     ],
     "items": [
       {
-        "p": "[CADGL: Context-Aware Deep Graph Learning for Predicting Drug-Drug Interactions](https://arxiv.org/abs/2403.17210v2)",
+        "p": {
+          "name": "CADGL: Context-Aware Deep Graph Learning for Predicting Drug-Drug Interactions",
+          "link": "https://arxiv.org/abs/2403.17210v2"
+        },
         "c": "",
         "n": "Ours (CADGL)",
         "d": "2024-03-25",
@@ -53,8 +56,11 @@
         "m3": "97.79"
       },
       {
-        "p": "[SSI–DDI: Substructure–Substructure Interactions for Drug–Drug Interaction Prediction](https://academic.oup.com/bib/article-abstract/22/6/bbab133/6265181?redirectedFrom=fulltext)",
-        "c": "[&check;&nbsp;Link](https://github.com/AstraZeneca/chemicalx)",
+        "p": {
+          "name": "SSI–DDI: Substructure–Substructure Interactions for Drug–Drug Interaction Prediction",
+          "link": "https://academic.oup.com/bib/article-abstract/22/6/bbab133/6265181?redirectedFrom=fulltext"
+        },
+        "c": "https://github.com/AstraZeneca/chemicalx",
         "n": "SSI-DDI",
         "d": "2021-11-07",
         "m1": "98.95",
@@ -62,8 +68,11 @@
         "m3": "96.38"
       },
       {
-        "p": "[Drug-Drug Adverse Effect Prediction with Graph Co-Attention](http://arxiv.org/abs/1905.00534v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/AstraZeneca/chemicalx)",
+        "p": {
+          "name": "Drug-Drug Adverse Effect Prediction with Graph Co-Attention",
+          "link": "http://arxiv.org/abs/1905.00534v1"
+        },
+        "c": "https://github.com/AstraZeneca/chemicalx",
         "n": "MHCA-DDI",
         "d": "2019-05-02",
         "m1": "86.33",

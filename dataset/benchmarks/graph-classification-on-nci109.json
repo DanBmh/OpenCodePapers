@@ -34,266 +34,380 @@
     ],
     "items": [
       {
-        "p": "[Learning metrics for persistence-based summaries and applications for graph classification](https://arxiv.org/abs/1904.12189v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/topology474/WKPI)",
+        "p": {
+          "name": "Learning metrics for persistence-based summaries and applications for graph classification",
+          "link": "https://arxiv.org/abs/1904.12189v2"
+        },
+        "c": "https://github.com/topology474/WKPI",
         "n": "WKPI-kcenters",
         "d": "2019-04-27",
         "m1": "87.3"
       },
       {
-        "p": "[On Valid Optimal Assignment Kernels and Applications to Graph Classification](http://arxiv.org/abs/1606.01141v3)",
+        "p": {
+          "name": "On Valid Optimal Assignment Kernels and Applications to Graph Classification",
+          "link": "http://arxiv.org/abs/1606.01141v3"
+        },
         "c": "",
         "n": "WL-OA",
         "d": "2016-06-03",
         "m1": "86.3"
       },
       {
-        "p": "[An end-to-end attention-based approach for learning on graphs](https://arxiv.org/abs/2402.10793v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/davidbuterez/edge-set-attention)",
+        "p": {
+          "name": "An end-to-end attention-based approach for learning on graphs",
+          "link": "https://arxiv.org/abs/2402.10793v2"
+        },
+        "c": "https://github.com/davidbuterez/edge-set-attention",
         "n": "ESA (Edge set attention, no positional encodings)",
         "d": "2024-02-16",
         "m1": "84.976±0.551"
       },
       {
-        "p": "[Weisfeiler and Leman go sparse: Towards scalable higher-order graph embeddings](https://arxiv.org/abs/1904.01543v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/chrsmrrs/sparsewl)",
+        "p": {
+          "name": "Weisfeiler and Leman go sparse: Towards scalable higher-order graph embeddings",
+          "link": "https://arxiv.org/abs/1904.01543v3"
+        },
+        "c": "https://github.com/chrsmrrs/sparsewl",
         "n": "δ-2-LWL",
         "d": "2019-04-02",
         "m1": "84.7"
       },
       {
-        "p": "[CIN++: Enhancing Topological Message Passing](https://arxiv.org/abs/2306.03561v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/twitter-research/cwn)",
+        "p": {
+          "name": "CIN++: Enhancing Topological Message Passing",
+          "link": "https://arxiv.org/abs/2306.03561v1"
+        },
+        "c": "https://github.com/twitter-research/cwn",
         "n": "CIN++",
         "d": "2023-06-06",
         "m1": "84.5"
       },
       {
-        "p": "[How Powerful are Graph Neural Networks?](http://arxiv.org/abs/1810.00826v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/mxnet/gin)",
+        "p": {
+          "name": "How Powerful are Graph Neural Networks?",
+          "link": "http://arxiv.org/abs/1810.00826v3"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/mxnet/gin",
         "n": "GIN",
         "d": "2018-10-01",
         "m1": "84.155±0.812"
       },
       {
-        "p": "[Weisfeiler and Lehman Go Paths: Learning Topological Features via Path Complexes](https://arxiv.org/abs/2308.06838v6)",
+        "p": {
+          "name": "Weisfeiler and Lehman Go Paths: Learning Topological Features via Path Complexes",
+          "link": "https://arxiv.org/abs/2308.06838v6"
+        },
         "c": "",
         "n": "PIN",
         "d": "2023-08-13",
         "m1": "84.0"
       },
       {
-        "p": "[DropGNN: Random Dropouts Increase the Expressiveness of Graph Neural Networks](https://arxiv.org/abs/2111.06283v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/karolismart/dropgnn)",
+        "p": {
+          "name": "DropGNN: Random Dropouts Increase the Expressiveness of Graph Neural Networks",
+          "link": "https://arxiv.org/abs/2111.06283v1"
+        },
+        "c": "https://github.com/karolismart/dropgnn",
         "n": "DropGIN",
         "d": "2021-11-11",
         "m1": "83.961±1.141"
       },
       {
-        "p": "[A New Perspective on the Effects of Spectrum in Graph Neural Networks](https://arxiv.org/abs/2112.07160v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/qslim/gnn-spectrum)",
+        "p": {
+          "name": "A New Perspective on the Effects of Spectrum in Graph Neural Networks",
+          "link": "https://arxiv.org/abs/2112.07160v2"
+        },
+        "c": "https://github.com/qslim/gnn-spectrum",
         "n": "Spec-GN",
         "d": "2021-12-14",
         "m1": "83.62"
       },
       {
-        "p": "[Cell Attention Networks](https://arxiv.org/abs/2209.08179v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/lrnzgiusti/can)",
+        "p": {
+          "name": "Cell Attention Networks",
+          "link": "https://arxiv.org/abs/2209.08179v1"
+        },
+        "c": "https://github.com/lrnzgiusti/can",
         "n": "CAN",
         "d": "2022-09-16",
         "m1": "83.6"
       },
       {
-        "p": "[Propagation kernels: efficient graph kernels from propagated information](https://doi.org/10.1007/s10994-015-5517-9)",
-        "c": "[&check;&nbsp;Link](https://github.com/marionmari/propagation_kernels)",
+        "p": {
+          "name": "Propagation kernels: efficient graph kernels from propagated information",
+          "link": "https://doi.org/10.1007/s10994-015-5517-9"
+        },
+        "c": "https://github.com/marionmari/propagation_kernels",
         "n": "Propagation kernels (pk)",
         "d": "2019-02-01",
         "m1": "83.5"
       },
       {
-        "p": "[Principal Neighbourhood Aggregation for Graph Nets](https://arxiv.org/abs/2004.05718v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/rusty1s/pytorch_geometric)",
+        "p": {
+          "name": "Principal Neighbourhood Aggregation for Graph Nets",
+          "link": "https://arxiv.org/abs/2004.05718v5"
+        },
+        "c": "https://github.com/rusty1s/pytorch_geometric",
         "n": "PNA",
         "d": "2020-04-12",
         "m1": "83.382±1.045"
       },
       {
-        "p": "[Semi-Supervised Classification with Graph Convolutional Networks](http://arxiv.org/abs/1609.02907v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/mxnet/gcn)",
+        "p": {
+          "name": "Semi-Supervised Classification with Graph Convolutional Networks",
+          "link": "http://arxiv.org/abs/1609.02907v4"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/mxnet/gcn",
         "n": "GCN",
         "d": "2016-09-09",
         "m1": "83.140±1.248"
       },
       {
-        "p": "[How Attentive are Graph Attention Networks?](https://arxiv.org/abs/2105.14491v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+        "p": {
+          "name": "How Attentive are Graph Attention Networks?",
+          "link": "https://arxiv.org/abs/2105.14491v3"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
         "n": "GATv2",
         "d": "2021-05-30",
         "m1": "83.092±0.764"
       },
       {
-        "p": "[Gaussian-Induced Convolution for Graphs](http://arxiv.org/abs/1811.04393v1)",
+        "p": {
+          "name": "Gaussian-Induced Convolution for Graphs",
+          "link": "http://arxiv.org/abs/1811.04393v1"
+        },
         "c": "",
         "n": "GIC",
         "d": "2018-11-11",
         "m1": "82.86"
       },
       {
-        "p": "[Graph Attention Networks](http://arxiv.org/abs/1710.10903v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+        "p": {
+          "name": "Graph Attention Networks",
+          "link": "http://arxiv.org/abs/1710.10903v3"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
         "n": "GAT",
         "d": "2017-10-30",
         "m1": "82.560±0.601"
       },
       {
-        "p": "[Provably Powerful Graph Networks](https://arxiv.org/abs/1905.11136v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/hadarser/ProvablyPowerfulGraphNetworks_torch)",
+        "p": {
+          "name": "Provably Powerful Graph Networks",
+          "link": "https://arxiv.org/abs/1905.11136v4"
+        },
+        "c": "https://github.com/hadarser/ProvablyPowerfulGraphNetworks_torch",
         "n": "PPGN",
         "d": "2019-05-27",
         "m1": "82.23"
       },
       {
-        "p": "[Dynamic Edge-Conditioned Filters in Convolutional Neural Networks on Graphs](http://arxiv.org/abs/1704.02901v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/rusty1s/pytorch_cluster)",
+        "p": {
+          "name": "Dynamic Edge-Conditioned Filters in Convolutional Neural Networks on Graphs",
+          "link": "http://arxiv.org/abs/1704.02901v3"
+        },
+        "c": "https://github.com/rusty1s/pytorch_cluster",
         "n": "ECC (5 scores)",
         "d": "2017-04-10",
         "m1": "82.14"
       },
       {
-        "p": "[Spectral Multigraph Networks for Discovering and Fusing Relationships in Molecules](http://arxiv.org/abs/1811.09595v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/bknyaz/graph_nn)",
+        "p": {
+          "name": "Spectral Multigraph Networks for Discovering and Fusing Relationships in Molecules",
+          "link": "http://arxiv.org/abs/1811.09595v1"
+        },
+        "c": "https://github.com/bknyaz/graph_nn",
         "n": "Multigraph ChebNet",
         "d": "2018-11-23",
         "m1": "82.0"
       },
       {
-        "p": "[Recipe for a General, Powerful, Scalable Graph Transformer](https://arxiv.org/abs/2205.12454v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/rampasek/GraphGPS)",
+        "p": {
+          "name": "Recipe for a General, Powerful, Scalable Graph Transformer",
+          "link": "https://arxiv.org/abs/2205.12454v4"
+        },
+        "c": "https://github.com/rampasek/GraphGPS",
         "n": "GraphGPS",
         "d": "2022-05-25",
         "m1": "81.256±0.501"
       },
       {
-        "p": "[Hierarchical Graph Pooling with Structure Learning](https://arxiv.org/abs/1911.05954v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/hgp_sl)",
+        "p": {
+          "name": "Hierarchical Graph Pooling with Structure Learning",
+          "link": "https://arxiv.org/abs/1911.05954v3"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/hgp_sl",
         "n": "HGP-SL",
         "d": "2019-11-14",
         "m1": "80.67"
       },
       {
-        "p": "[When Work Matters: Transforming Classical Network Structures to Graph CNN](http://arxiv.org/abs/1807.02653v1)",
+        "p": {
+          "name": "When Work Matters: Transforming Classical Network Structures to Graph CNN",
+          "link": "http://arxiv.org/abs/1807.02653v1"
+        },
         "c": "",
         "n": "G_DenseNet",
         "d": "2018-07-07",
         "m1": "80.66"
       },
       {
-        "p": "[Pre-training Graph Neural Networks on Molecules by Using Subgraph-Conditioned Graph Information Bottleneck](https://arxiv.org/abs/2412.15589)",
-        "c": "[&check;&nbsp;Link](https://github.com/NSLab-CUK/S-CGIB)",
+        "p": {
+          "name": "Pre-training Graph Neural Networks on Molecules by Using Subgraph-Conditioned Graph Information Bottleneck",
+          "link": "https://arxiv.org/abs/2412.15589"
+        },
+        "c": "https://github.com/NSLab-CUK/S-CGIB",
         "n": "S-CGIB",
         "d": "2025-02-20",
         "m1": "77.54±1.51"
       },
       {
-        "p": "[Graph isomorphism UNet](https://www.sciencedirect.com/science/article/abs/pii/S0957417423017827#preview-section-abstract)",
-        "c": "[&check;&nbsp;Link](https://github.com/aramiracle/GIUNet)",
+        "p": {
+          "name": "Graph isomorphism UNet",
+          "link": "https://www.sciencedirect.com/science/article/abs/pii/S0957417423017827#preview-section-abstract"
+        },
+        "c": "https://github.com/aramiracle/GIUNet",
         "n": "GIUNet",
         "d": "2023-08-23",
         "m1": "77"
       },
       {
-        "p": "[Relational Reasoning Over Spatial-Temporal Graphs for Video Summarization](https://ieeexplore.ieee.org/abstract/document/9750933)",
+        "p": {
+          "name": "Relational Reasoning Over Spatial-Temporal Graphs for Video Summarization",
+          "link": "https://ieeexplore.ieee.org/abstract/document/9750933"
+        },
         "c": "",
         "n": "SAEPool_h",
         "d": "2022-04-06",
         "m1": "75.85"
       },
       {
-        "p": "[Transitivity-Preserving Graph Representation Learning for Bridging Local Connectivity and Role-based Similarity](https://arxiv.org/abs/2308.09517v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/nslab-cuk/unified-graph-transformer)",
+        "p": {
+          "name": "Transitivity-Preserving Graph Representation Learning for Bridging Local Connectivity and Role-based Similarity",
+          "link": "https://arxiv.org/abs/2308.09517v1"
+        },
+        "c": "https://github.com/nslab-cuk/unified-graph-transformer",
         "n": "UGT",
         "d": "2023-08-18",
         "m1": "75.45±1.26"
       },
       {
-        "p": "[Graph Convolutional Networks with EigenPooling](https://arxiv.org/abs/1904.13107v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/alge24/eigenpooling)",
+        "p": {
+          "name": "Graph Convolutional Networks with EigenPooling",
+          "link": "https://arxiv.org/abs/1904.13107v2"
+        },
+        "c": "https://github.com/alge24/eigenpooling",
         "n": "EigenGCN-3",
         "d": "2019-04-30",
         "m1": "74.90"
       },
       {
-        "p": "[Do Transformers Really Perform Bad for Graph Representation?](https://arxiv.org/abs/2106.05234v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/microsoft/Graphormer)",
+        "p": {
+          "name": "Do Transformers Really Perform Bad for Graph Representation?",
+          "link": "https://arxiv.org/abs/2106.05234v5"
+        },
+        "c": "https://github.com/microsoft/Graphormer",
         "n": "Graphormer",
         "d": "2021-06-09",
         "m1": "74.879±1.183"
       },
       {
-        "p": "[Unsupervised Inductive Graph-Level Representation Learning via Graph-Graph Proximity](https://arxiv.org/abs/1904.01098v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/yunshengb/UGraphEmb)",
+        "p": {
+          "name": "Unsupervised Inductive Graph-Level Representation Learning via Graph-Graph Proximity",
+          "link": "https://arxiv.org/abs/1904.01098v2"
+        },
+        "c": "https://github.com/yunshengb/UGraphEmb",
         "n": "UGraphEmb-F",
         "d": "2019-04-01",
         "m1": "74.48"
       },
       {
-        "p": "[graph2vec: Learning Distributed Representations of Graphs](http://arxiv.org/abs/1707.05005v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/benedekrozemberczki/karateclub)",
+        "p": {
+          "name": "graph2vec: Learning Distributed Representations of Graphs",
+          "link": "http://arxiv.org/abs/1707.05005v1"
+        },
+        "c": "https://github.com/benedekrozemberczki/karateclub",
         "n": "Graph2Vec",
         "d": "2017-07-17",
         "m1": "74.26"
       },
       {
-        "p": "[Self-Attention Graph Pooling](https://arxiv.org/abs/1904.08082v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/sagpool)",
+        "p": {
+          "name": "Self-Attention Graph Pooling",
+          "link": "https://arxiv.org/abs/1904.08082v4"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/sagpool",
         "n": "SAGPool_g",
         "d": "2019-04-17",
         "m1": "74.06"
       },
       {
-        "p": "[Multi-hop Attention-based Graph Pooling: A Personalized PageRank Perspective](https://ieeexplore.ieee.org/document/10454077)",
-        "c": "[&check;&nbsp;Link](https://github.com/p-haddadian/MAGPool)",
+        "p": {
+          "name": "Multi-hop Attention-based Graph Pooling: A Personalized PageRank Perspective",
+          "link": "https://ieeexplore.ieee.org/document/10454077"
+        },
+        "c": "https://github.com/p-haddadian/MAGPool",
         "n": "MAGPool",
         "d": "2024-03-04",
         "m1": "73.43%"
       },
       {
-        "p": "[Pure Transformers are Powerful Graph Learners](https://arxiv.org/abs/2207.02505v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/jw9730/tokengt)",
+        "p": {
+          "name": "Pure Transformers are Powerful Graph Learners",
+          "link": "https://arxiv.org/abs/2207.02505v2"
+        },
+        "c": "https://github.com/jw9730/tokengt",
         "n": "TokenGT",
         "d": "2022-07-06",
         "m1": "72.077±1.883"
       },
       {
-        "p": "[Subgraph Networks with Application to Structural Feature Space Expansion](https://arxiv.org/abs/1903.09022v3)",
+        "p": {
+          "name": "Subgraph Networks with Application to Structural Feature Space Expansion",
+          "link": "https://arxiv.org/abs/1903.09022v3"
+        },
         "c": "",
         "n": "Deep WL SGN(0,1,2)",
         "d": "2019-03-21",
         "m1": "71.06"
       },
       {
-        "p": "[ASAP: Adaptive Structure Aware Pooling for Learning Hierarchical Graph Representations](https://arxiv.org/abs/1911.07979v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/malllabiisc/ASAP)",
+        "p": {
+          "name": "ASAP: Adaptive Structure Aware Pooling for Learning Hierarchical Graph Representations",
+          "link": "https://arxiv.org/abs/1911.07979v3"
+        },
+        "c": "https://github.com/malllabiisc/ASAP",
         "n": "ASAP",
         "d": "2019-11-18",
         "m1": "70.07"
       },
       {
-        "p": "[Unsupervised Inductive Graph-Level Representation Learning via Graph-Graph Proximity](https://arxiv.org/abs/1904.01098v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/yunshengb/UGraphEmb)",
+        "p": {
+          "name": "Unsupervised Inductive Graph-Level Representation Learning via Graph-Graph Proximity",
+          "link": "https://arxiv.org/abs/1904.01098v2"
+        },
+        "c": "https://github.com/yunshengb/UGraphEmb",
         "n": "UGraphEmb",
         "d": "2019-04-01",
         "m1": "69.17"
       },
       {
-        "p": "[Self-Attention Graph Pooling](https://arxiv.org/abs/1904.08082v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/sagpool)",
+        "p": {
+          "name": "Self-Attention Graph Pooling",
+          "link": "https://arxiv.org/abs/1904.08082v4"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/sagpool",
         "n": "SAGPool_h",
         "d": "2019-04-17",
         "m1": "67.86"
       },
       {
-        "p": "[Capsule Neural Networks for Graph Classification using Explicit Tensorial Graph Representations](http://arxiv.org/abs/1902.08399v1)",
+        "p": {
+          "name": "Capsule Neural Networks for Graph Classification using Explicit Tensorial Graph Representations",
+          "link": "http://arxiv.org/abs/1902.08399v1"
+        },
         "c": "",
         "n": "BC + Capsules",
         "d": "2019-02-22",

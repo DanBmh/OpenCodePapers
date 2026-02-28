@@ -74,8 +74,11 @@
     ],
     "items": [
       {
-        "p": "[Learning Delicate Local Representations for Multi-Person Pose Estimation](https://arxiv.org/abs/2003.04030v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmpose)",
+        "p": {
+          "name": "Learning Delicate Local Representations for Multi-Person Pose Estimation",
+          "link": "https://arxiv.org/abs/2003.04030v3"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
         "n": "4×RSN-50",
         "d": "2020-03-09",
         "m1": "82.6",
@@ -89,8 +92,11 @@
         "m9": "88.7"
       },
       {
-        "p": "[Rethinking on Multi-Stage Networks for Human Pose Estimation](https://arxiv.org/abs/1901.00148v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmpose)",
+        "p": {
+          "name": "Rethinking on Multi-Stage Networks for Human Pose Estimation",
+          "link": "https://arxiv.org/abs/1901.00148v4"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
         "n": "MSPN+*",
         "d": "2019-01-01",
         "m1": "82.2",
@@ -104,8 +110,11 @@
         "m9": "83.2"
       },
       {
-        "p": "[Simple Baselines for Human Pose Estimation and Tracking](http://arxiv.org/abs/1804.06208v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleDetection)",
+        "p": {
+          "name": "Simple Baselines for Human Pose Estimation and Tracking",
+          "link": "http://arxiv.org/abs/1804.06208v2"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
         "n": "Simple Base+*",
         "d": "2018-04-17",
         "m1": "80.5",
@@ -119,8 +128,11 @@
         "m9": "82.9"
       },
       {
-        "p": "[Cascaded Pyramid Network for Multi-Person Pose Estimation](http://arxiv.org/abs/1711.07319v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/chenyilun95/tf-cpn)",
+        "p": {
+          "name": "Cascaded Pyramid Network for Multi-Person Pose Estimation",
+          "link": "http://arxiv.org/abs/1711.07319v2"
+        },
+        "c": "https://github.com/chenyilun95/tf-cpn",
         "n": "CPN+",
         "d": "2017-11-20",
         "m1": "78.7",
@@ -134,8 +146,11 @@
         "m9": "78.1"
       },
       {
-        "p": "[Mask R-CNN](http://arxiv.org/abs/1703.06870v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/official/vision)",
+        "p": {
+          "name": "Mask R-CNN",
+          "link": "http://arxiv.org/abs/1703.06870v3"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/official/vision",
         "n": "Mask R-CNN*",
         "d": "2017-03-20",
         "m1": "75.4",
@@ -149,7 +164,10 @@
         "m9": "76.8"
       },
       {
-        "p": "[Towards Accurate Multi-person Pose Estimation in the Wild](http://arxiv.org/abs/1701.01779v2)",
+        "p": {
+          "name": "Towards Accurate Multi-person Pose Estimation in the Wild",
+          "link": "http://arxiv.org/abs/1701.01779v2"
+        },
         "c": "",
         "n": "G-RMI*",
         "d": "2017-01-06",
@@ -164,16 +182,22 @@
         "m9": "74.5"
       },
       {
-        "p": "[Detect-and-Track: Efficient Pose Estimation in Videos](http://arxiv.org/abs/1712.09184v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/DetectAndTrack)",
+        "p": {
+          "name": "Detect-and-Track: Efficient Pose Estimation in Videos",
+          "link": "http://arxiv.org/abs/1712.09184v2"
+        },
+        "c": "https://github.com/facebookresearch/DetectAndTrack",
         "n": "Girdhar et al.",
         "d": "2017-12-26",
         "m1": "70.2",
         "m2": "60.7"
       },
       {
-        "p": "[Pose Flow: Efficient Online Pose Tracking](http://arxiv.org/abs/1802.00977v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/YuliangXiu/PoseFlow)",
+        "p": {
+          "name": "Pose Flow: Efficient Online Pose Tracking",
+          "link": "http://arxiv.org/abs/1802.00977v2"
+        },
+        "c": "https://github.com/YuliangXiu/PoseFlow",
         "n": "Xiu et al.",
         "d": "2018-02-03",
         "m1": "67.5",

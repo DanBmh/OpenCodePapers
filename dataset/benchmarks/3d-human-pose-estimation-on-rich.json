@@ -49,7 +49,10 @@
     ],
     "items": [
       {
-        "p": "[UPose3D: Uncertainty-Aware 3D Human Pose Estimation with Cross-View and Temporal Cues](https://arxiv.org/abs/2404.14634v3)",
+        "p": {
+          "name": "UPose3D: Uncertainty-Aware 3D Human Pose Estimation with Cross-View and Temporal Cues",
+          "link": "https://arxiv.org/abs/2404.14634v3"
+        },
         "c": "",
         "n": "UPose3D (eval only)",
         "d": "2024-04-23",
@@ -57,7 +60,10 @@
         "m3": "32"
       },
       {
-        "p": "[SkelFormer: Markerless 3D Pose and Shape Estimation using Skeletal Transformers](https://arxiv.org/abs/2404.12625v1)",
+        "p": {
+          "name": "SkelFormer: Markerless 3D Pose and Shape Estimation using Skeletal Transformers",
+          "link": "https://arxiv.org/abs/2404.12625v1"
+        },
         "c": "",
         "n": "SkelFormer (HRNet - eval only)",
         "d": "2024-04-19",
@@ -66,7 +72,10 @@
         "m3": "35.6"
       },
       {
-        "p": "[3D Human Pose Estimation via Intuitive Physics](https://arxiv.org/abs/2303.18246v3)",
+        "p": {
+          "name": "3D Human Pose Estimation via Intuitive Physics",
+          "link": "https://arxiv.org/abs/2303.18246v3"
+        },
         "c": "",
         "n": "IPMAN-R",
         "d": "2023-03-31",
@@ -76,8 +85,11 @@
         "m4": "71.2%"
       },
       {
-        "p": "[WHAM: Reconstructing World-grounded Humans with Accurate 3D Motion](https://arxiv.org/abs/2312.07531v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/yohanshin/WHAM)",
+        "p": {
+          "name": "WHAM: Reconstructing World-grounded Humans with Accurate 3D Motion",
+          "link": "https://arxiv.org/abs/2312.07531v2"
+        },
+        "c": "https://github.com/yohanshin/WHAM",
         "n": "WHAM (ViT)",
         "d": "2023-12-12",
         "m1": "80",

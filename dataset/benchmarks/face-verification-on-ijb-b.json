@@ -55,8 +55,11 @@
     ],
     "items": [
       {
-        "p": "[QMagFace: Simple and Accurate Quality-Aware Face Recognition](https://arxiv.org/abs/2111.13475v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/pterhoer/QMagFace)",
+        "p": {
+          "name": "QMagFace: Simple and Accurate Quality-Aware Face Recognition",
+          "link": "https://arxiv.org/abs/2111.13475v3"
+        },
+        "c": "https://github.com/pterhoer/QMagFace",
         "n": "QMagFace",
         "d": "2021-11-26",
         "m1": "97.72%",
@@ -65,8 +68,11 @@
         "m5": "94.7"
       },
       {
-        "p": "[Unified Negative Pair Generation toward Well-discriminative Feature Space for Face Recognition](https://arxiv.org/abs/2203.11593v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/tomas-gajarsky/facetorch)",
+        "p": {
+          "name": "Unified Negative Pair Generation toward Well-discriminative Feature Space for Face Recognition",
+          "link": "https://arxiv.org/abs/2203.11593v2"
+        },
+        "c": "https://github.com/tomas-gajarsky/facetorch",
         "n": "Arc+UNPG",
         "d": "2022-03-22",
         "m1": "97.7%",
@@ -74,8 +80,11 @@
         "m3": "95.04"
       },
       {
-        "p": "[Unified Negative Pair Generation toward Well-discriminative Feature Space for Face Recognition](https://arxiv.org/abs/2203.11593v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/tomas-gajarsky/facetorch)",
+        "p": {
+          "name": "Unified Negative Pair Generation toward Well-discriminative Feature Space for Face Recognition",
+          "link": "https://arxiv.org/abs/2203.11593v2"
+        },
+        "c": "https://github.com/tomas-gajarsky/facetorch",
         "n": "Mag+UNPG",
         "d": "2022-03-22",
         "m1": "97.63%",
@@ -83,8 +92,11 @@
         "m3": "95.21"
       },
       {
-        "p": "[Unified Negative Pair Generation toward Well-discriminative Feature Space for Face Recognition](https://arxiv.org/abs/2203.11593v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/tomas-gajarsky/facetorch)",
+        "p": {
+          "name": "Unified Negative Pair Generation toward Well-discriminative Feature Space for Face Recognition",
+          "link": "https://arxiv.org/abs/2203.11593v2"
+        },
+        "c": "https://github.com/tomas-gajarsky/facetorch",
         "n": "Cos+UNPG",
         "d": "2022-03-22",
         "m1": "97.36%",
@@ -92,30 +104,42 @@
         "m3": "94.99"
       },
       {
-        "p": "[FacePoseNet: Making a Case for Landmark-Free Face Alignment](http://arxiv.org/abs/1708.07517v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/fengju514/Expression-Net)",
+        "p": {
+          "name": "FacePoseNet: Making a Case for Landmark-Free Face Alignment",
+          "link": "http://arxiv.org/abs/1708.07517v2"
+        },
+        "c": "https://github.com/fengju514/Expression-Net",
         "n": "FPN",
         "d": "2017-08-24",
         "m1": "96.5%"
       },
       {
-        "p": "[GhostVLAD for set-based face recognition](http://arxiv.org/abs/1810.09951v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/keetsky/Net_ghostVLAD-pytorch)",
+        "p": {
+          "name": "GhostVLAD for set-based face recognition",
+          "link": "http://arxiv.org/abs/1810.09951v1"
+        },
+        "c": "https://github.com/keetsky/Net_ghostVLAD-pytorch",
         "n": "SE-GV-3-g2",
         "d": "2018-10-23",
         "m1": "96.4%"
       },
       {
-        "p": "[VGGFace2: A dataset for recognising faces across pose and age](http://arxiv.org/abs/1710.08092v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/deepinsight/insightface)",
+        "p": {
+          "name": "VGGFace2: A dataset for recognising faces across pose and age",
+          "link": "http://arxiv.org/abs/1710.08092v2"
+        },
+        "c": "https://github.com/deepinsight/insightface",
         "n": "VGGFace2_ft",
         "d": "2017-10-23",
         "m1": "95.6%",
         "m2": "90.8"
       },
       {
-        "p": "[Cluster and Aggregate: Face Recognition with Large Probe Set](https://arxiv.org/abs/2210.10864v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/mk-minchul/caface)",
+        "p": {
+          "name": "Cluster and Aggregate: Face Recognition with Large Probe Set",
+          "link": "https://arxiv.org/abs/2210.10864v3"
+        },
+        "c": "https://github.com/mk-minchul/caface",
         "n": "CAFace+AdaFace (WebFace4M)",
         "d": "2022-10-19",
         "m2": "96.91",
@@ -123,29 +147,41 @@
         "m4": "92.29"
       },
       {
-        "p": "[Killing Two Birds with One Stone:Efficient and Robust Training of Face Recognition CNNs by Partial FC](https://arxiv.org/abs/2203.15565v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/deepinsight/insightface)",
+        "p": {
+          "name": "Killing Two Birds with One Stone:Efficient and Robust Training of Face Recognition CNNs by Partial FC",
+          "link": "https://arxiv.org/abs/2203.15565v1"
+        },
+        "c": "https://github.com/deepinsight/insightface",
         "n": "PartialFC(WebFace42M)",
         "d": "2022-03-28",
         "m3": "96.71"
       },
       {
-        "p": "[AdaFace: Quality Adaptive Margin for Face Recognition](https://arxiv.org/abs/2204.00964v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/mk-minchul/adaface)",
+        "p": {
+          "name": "AdaFace: Quality Adaptive Margin for Face Recognition",
+          "link": "https://arxiv.org/abs/2204.00964v2"
+        },
+        "c": "https://github.com/mk-minchul/adaface",
         "n": "AdaFace (WebFace4M)",
         "d": "2022-04-03",
         "m3": "96.03"
       },
       {
-        "p": "[AdaFace: Quality Adaptive Margin for Face Recognition](https://arxiv.org/abs/2204.00964v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/mk-minchul/adaface)",
+        "p": {
+          "name": "AdaFace: Quality Adaptive Margin for Face Recognition",
+          "link": "https://arxiv.org/abs/2204.00964v2"
+        },
+        "c": "https://github.com/mk-minchul/adaface",
         "n": "AdaFace (MS1MV3)",
         "d": "2022-04-03",
         "m3": "95.84"
       },
       {
-        "p": "[AdaFace: Quality Adaptive Margin for Face Recognition](https://arxiv.org/abs/2204.00964v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/mk-minchul/adaface)",
+        "p": {
+          "name": "AdaFace: Quality Adaptive Margin for Face Recognition",
+          "link": "https://arxiv.org/abs/2204.00964v2"
+        },
+        "c": "https://github.com/mk-minchul/adaface",
         "n": "AdaFace (MS1MV2)",
         "d": "2022-04-03",
         "m3": "95.67"

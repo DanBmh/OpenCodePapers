@@ -33,22 +33,31 @@
     ],
     "items": [
       {
-        "p": "[System Combination via Quality Estimation for Grammatical Error Correction](https://arxiv.org/abs/2310.14947v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/nusnlp/greco)",
+        "p": {
+          "name": "System Combination via Quality Estimation for Grammatical Error Correction",
+          "link": "https://arxiv.org/abs/2310.14947v1"
+        },
+        "c": "https://github.com/nusnlp/greco",
         "n": "GRECO (vote+ESC)",
         "d": "2023-10-23",
         "m1": "85.21"
       },
       {
-        "p": "[Near Human-Level Performance in Grammatical Error Correction with Hybrid Machine Translation](http://arxiv.org/abs/1804.05945v1)",
+        "p": {
+          "name": "Near Human-Level Performance in Grammatical Error Correction with Hybrid Machine Translation",
+          "link": "http://arxiv.org/abs/1804.05945v1"
+        },
         "c": "",
         "n": "SMT + BiGRU",
         "d": "2018-04-16",
         "m1": "72.04 "
       },
       {
-        "p": "[A Multilayer Convolutional Encoder-Decoder Neural Network for Grammatical Error Correction](http://arxiv.org/abs/1801.08831v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/nusnlp/mlconvgec2018)",
+        "p": {
+          "name": "A Multilayer Convolutional Encoder-Decoder Neural Network for Grammatical Error Correction",
+          "link": "http://arxiv.org/abs/1801.08831v1"
+        },
+        "c": "https://github.com/nusnlp/mlconvgec2018",
         "n": "CNN Seq2Seq",
         "d": "2018-01-26",
         "m1": "70.14"

@@ -33,267 +33,381 @@
     ],
     "items": [
       {
-        "p": "[An Empirical Study of Scaling Law for OCR](https://arxiv.org/abs/2401.00028v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/large-ocr-model/large-ocr-model.github.io)",
+        "p": {
+          "name": "An Empirical Study of Scaling Law for OCR",
+          "link": "https://arxiv.org/abs/2401.00028v3"
+        },
+        "c": "https://github.com/large-ocr-model/large-ocr-model.github.io",
         "n": "CLIP4STR-L*",
         "d": "2023-12-29",
         "m1": "99.42"
       },
       {
-        "p": "[DTrOCR: Decoder-only Transformer for Optical Character Recognition](https://arxiv.org/abs/2308.15996v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/arvindrajan92/DTrOCR)",
+        "p": {
+          "name": "DTrOCR: Decoder-only Transformer for Optical Character Recognition",
+          "link": "https://arxiv.org/abs/2308.15996v1"
+        },
+        "c": "https://github.com/arvindrajan92/DTrOCR",
         "n": "DTrOCR 105M",
         "d": "2023-08-30",
         "m1": "99.4"
       },
       {
-        "p": "[CLIP4STR: A Simple Baseline for Scene Text Recognition with Pre-trained Vision-Language Model](https://arxiv.org/abs/2305.14014v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/VamosC/CLIP4STR)",
+        "p": {
+          "name": "CLIP4STR: A Simple Baseline for Scene Text Recognition with Pre-trained Vision-Language Model",
+          "link": "https://arxiv.org/abs/2305.14014v4"
+        },
+        "c": "https://github.com/VamosC/CLIP4STR",
         "n": "CLIP4STR-L (DataComp-1B)",
         "d": "2023-05-23",
         "m1": "99.0"
       },
       {
-        "p": "[Multi-Granularity Prediction for Scene Text Recognition](https://arxiv.org/abs/2209.03592v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/alibabaresearch/advancedliteratemachinery)",
+        "p": {
+          "name": "Multi-Granularity Prediction for Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2209.03592v2"
+        },
+        "c": "https://github.com/alibabaresearch/advancedliteratemachinery",
         "n": "MGP-STR",
         "d": "2022-09-08",
         "m1": "98.5"
       },
       {
-        "p": "[CLIP4STR: A Simple Baseline for Scene Text Recognition with Pre-trained Vision-Language Model](https://arxiv.org/abs/2305.14014v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/VamosC/CLIP4STR)",
+        "p": {
+          "name": "CLIP4STR: A Simple Baseline for Scene Text Recognition with Pre-trained Vision-Language Model",
+          "link": "https://arxiv.org/abs/2305.14014v4"
+        },
+        "c": "https://github.com/VamosC/CLIP4STR",
         "n": "CLIP4STR-L",
         "d": "2023-05-23",
         "m1": "98.5"
       },
       {
-        "p": "[Scene Text Recognition with Permuted Autoregressive Sequence Models](https://arxiv.org/abs/2207.06966v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/topdu/openocr)",
+        "p": {
+          "name": "Scene Text Recognition with Permuted Autoregressive Sequence Models",
+          "link": "https://arxiv.org/abs/2207.06966v1"
+        },
+        "c": "https://github.com/topdu/openocr",
         "n": "PARSeq",
         "d": "2022-07-14",
         "m1": "98.4±0.2"
       },
       {
-        "p": "[Self-supervised Character-to-Character Distillation for Text Recognition](https://arxiv.org/abs/2211.00288v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/tongkunguan/ccd)",
+        "p": {
+          "name": "Self-supervised Character-to-Character Distillation for Text Recognition",
+          "link": "https://arxiv.org/abs/2211.00288v4"
+        },
+        "c": "https://github.com/tongkunguan/ccd",
         "n": "CCD-ViT-Base(ARD_2.8M)",
         "d": "2022-11-01",
         "m1": "98.3"
       },
       {
-        "p": "[Self-supervised Character-to-Character Distillation for Text Recognition](https://arxiv.org/abs/2211.00288v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/tongkunguan/ccd)",
+        "p": {
+          "name": "Self-supervised Character-to-Character Distillation for Text Recognition",
+          "link": "https://arxiv.org/abs/2211.00288v4"
+        },
+        "c": "https://github.com/tongkunguan/ccd",
         "n": "CCD-ViT-Small(ARD_2.8M)",
         "d": "2022-11-01",
         "m1": "98.3"
       },
       {
-        "p": "[CLIP4STR: A Simple Baseline for Scene Text Recognition with Pre-trained Vision-Language Model](https://arxiv.org/abs/2305.14014v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/VamosC/CLIP4STR)",
+        "p": {
+          "name": "CLIP4STR: A Simple Baseline for Scene Text Recognition with Pre-trained Vision-Language Model",
+          "link": "https://arxiv.org/abs/2305.14014v4"
+        },
+        "c": "https://github.com/VamosC/CLIP4STR",
         "n": "CLIP4STR-B",
         "d": "2023-05-23",
         "m1": "98.3"
       },
       {
-        "p": "[Multi-modal Text Recognition Networks: Interactive Enhancements between Visual and Semantic Features](https://arxiv.org/abs/2111.15263v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/topdu/openocr)",
+        "p": {
+          "name": "Multi-modal Text Recognition Networks: Interactive Enhancements between Visual and Semantic Features",
+          "link": "https://arxiv.org/abs/2111.15263v3"
+        },
+        "c": "https://github.com/topdu/openocr",
         "n": "MATRN",
         "d": "2021-11-30",
         "m1": "97.9"
       },
       {
-        "p": "[Visual Semantics Allow for Textual Reasoning Better in Scene Text Recognition](https://arxiv.org/abs/2112.12916v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/adeline-cs/GTR)",
+        "p": {
+          "name": "Visual Semantics Allow for Textual Reasoning Better in Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2112.12916v1"
+        },
+        "c": "https://github.com/adeline-cs/GTR",
         "n": "S-GTR",
         "d": "2021-12-24",
         "m1": "97.8"
       },
       {
-        "p": "[Self-supervised Implicit Glyph Attention for Text Recognition](https://arxiv.org/abs/2203.03382v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/tongkunguan/siga)",
+        "p": {
+          "name": "Self-supervised Implicit Glyph Attention for Text Recognition",
+          "link": "https://arxiv.org/abs/2203.03382v4"
+        },
+        "c": "https://github.com/tongkunguan/siga",
         "n": "SIGA_T",
         "d": "2022-03-07",
         "m1": "97.8"
       },
       {
-        "p": "[Look Back Again: Dual Parallel Attention Network for Accurate and Robust Scene Text Recognition](https://dl.acm.org/doi/10.1145/3460426.3463674)",
-        "c": "[&check;&nbsp;Link](https://github.com/siddagra/DPAN-look-back-Again-Dual-Parallel-Attention-Network-for-Accurate-and-Robust-Scene-Text-Recognition)",
+        "p": {
+          "name": "Look Back Again: Dual Parallel Attention Network for Accurate and Robust Scene Text Recognition",
+          "link": "https://dl.acm.org/doi/10.1145/3460426.3463674"
+        },
+        "c": "https://github.com/siddagra/DPAN-look-back-Again-Dual-Parallel-Attention-Network-for-Accurate-and-Robust-Scene-Text-Recognition",
         "n": "DPAN",
         "d": "2021-08-01",
         "m1": "97.7"
       },
       {
-        "p": "[CDistNet: Perceiving Multi-Domain Character Distance for Robust Text Recognition](https://arxiv.org/abs/2111.11011v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/topdu/openocr)",
+        "p": {
+          "name": "CDistNet: Perceiving Multi-Domain Character Distance for Robust Text Recognition",
+          "link": "https://arxiv.org/abs/2111.11011v5"
+        },
+        "c": "https://github.com/topdu/openocr",
         "n": "CDistNet (Ours)",
         "d": "2021-11-22",
         "m1": "97.67"
       },
       {
-        "p": "[Self-supervised Character-to-Character Distillation for Text Recognition](https://arxiv.org/abs/2211.00288v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/tongkunguan/ccd)",
+        "p": {
+          "name": "Self-supervised Character-to-Character Distillation for Text Recognition",
+          "link": "https://arxiv.org/abs/2211.00288v4"
+        },
+        "c": "https://github.com/tongkunguan/ccd",
         "n": "CCD-ViT-Tiny(ARD_2.8M)",
         "d": "2022-11-01",
         "m1": "97.5"
       },
       {
-        "p": "[SVTR: Scene Text Recognition with a Single Visual Model](https://arxiv.org/abs/2205.00159v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleOCR)",
+        "p": {
+          "name": "SVTR: Scene Text Recognition with a Single Visual Model",
+          "link": "https://arxiv.org/abs/2205.00159v2"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleOCR",
         "n": "SVTR-L (Large)",
         "d": "2022-04-30",
         "m1": "97.2"
       },
       {
-        "p": "[SVTR: Scene Text Recognition with a Single Visual Model](https://arxiv.org/abs/2205.00159v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleOCR)",
+        "p": {
+          "name": "SVTR: Scene Text Recognition with a Single Visual Model",
+          "link": "https://arxiv.org/abs/2205.00159v2"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleOCR",
         "n": "SVTR-B (Base)",
         "d": "2022-04-30",
         "m1": "97.1"
       },
       {
-        "p": "[DiffusionSTR: Diffusion Model for Scene Text Recognition](https://arxiv.org/abs/2306.16707v1)",
+        "p": {
+          "name": "DiffusionSTR: Diffusion Model for Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2306.16707v1"
+        },
         "c": "",
         "n": "DiffusionSTR",
         "d": "2023-06-29",
         "m1": "97.1"
       },
       {
-        "p": "[Why You Should Try the Real Data for the Scene Text Recognition](https://arxiv.org/abs/2107.13938v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/openvinotoolkit/training_extensions)",
+        "p": {
+          "name": "Why You Should Try the Real Data for the Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2107.13938v1"
+        },
+        "c": "https://github.com/openvinotoolkit/training_extensions",
         "n": "Yet Another Text Recognizer",
         "d": "2021-07-29",
         "m1": "96.8"
       },
       {
-        "p": "[SVTR: Scene Text Recognition with a Single Visual Model](https://arxiv.org/abs/2205.00159v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleOCR)",
+        "p": {
+          "name": "SVTR: Scene Text Recognition with a Single Visual Model",
+          "link": "https://arxiv.org/abs/2205.00159v2"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleOCR",
         "n": "SVTR-T (Tiny)",
         "d": "2022-04-30",
         "m1": "96.3"
       },
       {
-        "p": "[SVTR: Scene Text Recognition with a Single Visual Model](https://arxiv.org/abs/2205.00159v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleOCR)",
+        "p": {
+          "name": "SVTR: Scene Text Recognition with a Single Visual Model",
+          "link": "https://arxiv.org/abs/2205.00159v2"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleOCR",
         "n": "SVTR-S (Small)",
         "d": "2022-04-30",
         "m1": "95.7"
       },
       {
-        "p": "[Towards Accurate Scene Text Recognition with Semantic Reasoning Networks](https://arxiv.org/abs/2003.12294v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleOCR)",
+        "p": {
+          "name": "Towards Accurate Scene Text Recognition with Semantic Reasoning Networks",
+          "link": "https://arxiv.org/abs/2003.12294v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleOCR",
         "n": "SRN",
         "d": "2020-03-27",
         "m1": "95.5"
       },
       {
-        "p": "[Representation and Correlation Enhanced Encoder-Decoder Framework for Scene Text Recognition](https://arxiv.org/abs/2106.06960v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/Mona9955/RCEED-ICDAR2021)",
+        "p": {
+          "name": "Representation and Correlation Enhanced Encoder-Decoder Framework for Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2106.06960v2"
+        },
+        "c": "https://github.com/Mona9955/RCEED-ICDAR2021",
         "n": "RCEED",
         "d": "2021-06-13",
         "m1": "94.7"
       },
       {
-        "p": "[On Recognizing Texts of Arbitrary Shapes with 2D Self-Attention](https://arxiv.org/abs/1910.04396v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/Media-Smart/vedastr)",
+        "p": {
+          "name": "On Recognizing Texts of Arbitrary Shapes with 2D Self-Attention",
+          "link": "https://arxiv.org/abs/1910.04396v1"
+        },
+        "c": "https://github.com/Media-Smart/vedastr",
         "n": "SATRN",
         "d": "2019-10-10",
         "m1": "94.1"
       },
       {
-        "p": "[Decoupled Attention Network for Text Recognition](https://arxiv.org/abs/1912.10205v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/topdu/openocr)",
+        "p": {
+          "name": "Decoupled Attention Network for Text Recognition",
+          "link": "https://arxiv.org/abs/1912.10205v1"
+        },
+        "c": "https://github.com/topdu/openocr",
         "n": "DAN",
         "d": "2019-12-21",
         "m1": "93.9"
       },
       {
-        "p": "[Revisiting Classification Perspective on Scene Text Recognition](https://arxiv.org/abs/2102.10884v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/Media-Smart/vedastr)",
+        "p": {
+          "name": "Revisiting Classification Perspective on Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2102.10884v3"
+        },
+        "c": "https://github.com/Media-Smart/vedastr",
         "n": "CSTR",
         "d": "2021-02-22",
         "m1": "93.2"
       },
       {
-        "p": "[TextScanner: Reading Characters in Order for Robust Scene Text Recognition](https://arxiv.org/abs/1912.12422v2)",
+        "p": {
+          "name": "TextScanner: Reading Characters in Order for Robust Scene Text Recognition",
+          "link": "https://arxiv.org/abs/1912.12422v2"
+        },
         "c": "",
         "n": "TextScanner",
         "d": "2019-12-28",
         "m1": "92.9"
       },
       {
-        "p": "[SEED: Semantics Enhanced Encoder-Decoder Framework for Scene Text Recognition](https://arxiv.org/abs/2005.10977v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleOCR)",
+        "p": {
+          "name": "SEED: Semantics Enhanced Encoder-Decoder Framework for Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2005.10977v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleOCR",
         "n": "SEED",
         "d": "2020-05-22",
         "m1": "92.8"
       },
       {
-        "p": "[SAFL: A Self-Attention Scene Text Recognizer with Focal Loss](https://arxiv.org/abs/2201.00132v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/ICMLA-SAFL/SAFL_pytorch)",
+        "p": {
+          "name": "SAFL: A Self-Attention Scene Text Recognizer with Focal Loss",
+          "link": "https://arxiv.org/abs/2201.00132v1"
+        },
+        "c": "https://github.com/ICMLA-SAFL/SAFL_pytorch",
         "n": "SAFL",
         "d": "2022-01-01",
         "m1": "92.8"
       },
       {
-        "p": "[Vision Transformer for Fast and Efficient Scene Text Recognition](https://arxiv.org/abs/2105.08582v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleOCR)",
+        "p": {
+          "name": "Vision Transformer for Fast and Efficient Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2105.08582v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleOCR",
         "n": "ViTSTR",
         "d": "2021-05-18",
         "m1": "92.4"
       },
       {
-        "p": "[What Is Wrong With Scene Text Recognition Model Comparisons? Dataset and Model Analysis](https://arxiv.org/abs/1904.01906v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/clovaai/deep-text-recognition-benchmark)",
+        "p": {
+          "name": "What Is Wrong With Scene Text Recognition Model Comparisons? Dataset and Model Analysis",
+          "link": "https://arxiv.org/abs/1904.01906v4"
+        },
+        "c": "https://github.com/clovaai/deep-text-recognition-benchmark",
         "n": "Baek et al.",
         "d": "2019-04-03",
         "m1": "92.3"
       },
       {
-        "p": "[ASTER: An Attentional Scene Text Recognizer with Flexible Rectification](http://122.205.5.5:8071/UpLoadFiles/Papers/ASTER_PAMI18.pdf)",
-        "c": "[&check;&nbsp;Link](https://github.com/bgshih/aster)",
+        "p": {
+          "name": "ASTER: An Attentional Scene Text Recognizer with Flexible Rectification",
+          "link": "http://122.205.5.5:8071/UpLoadFiles/Papers/ASTER_PAMI18.pdf"
+        },
+        "c": "https://github.com/bgshih/aster",
         "n": "ASTER",
         "d": "2018-06-25",
         "m1": "91.8"
       },
       {
-        "p": "[Scene Text Recognition from Two-Dimensional Perspective](http://arxiv.org/abs/1809.06508v2)",
+        "p": {
+          "name": "Scene Text Recognition from Two-Dimensional Perspective",
+          "link": "http://arxiv.org/abs/1809.06508v2"
+        },
         "c": "",
         "n": "CA-FCN",
         "d": "2018-09-18",
         "m1": "91.5"
       },
       {
-        "p": "[Show, Attend and Read: A Simple and Strong Baseline for Irregular Text Recognition](http://arxiv.org/abs/1811.00751v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleOCR)",
+        "p": {
+          "name": "Show, Attend and Read: A Simple and Strong Baseline for Irregular Text Recognition",
+          "link": "http://arxiv.org/abs/1811.00751v2"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleOCR",
         "n": "SAR",
         "d": "2018-11-02",
         "m1": "91.0"
       },
       {
-        "p": "[Star-net: A spatial attention residue network for scene text recognition.](http://www.bmva.org/bmvc/2016/papers/paper043/paper043.pdf)",
-        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleOCR)",
+        "p": {
+          "name": "Star-net: A spatial attention residue network for scene text recognition.",
+          "link": "http://www.bmva.org/bmvc/2016/papers/paper043/paper043.pdf"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleOCR",
         "n": "STAR-Net",
         "d": "2016-09-20",
         "m1": "89.1"
       },
       {
-        "p": "[Robust Scene Text Recognition with Automatic Rectification](http://arxiv.org/abs/1603.03915v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleOCR)",
+        "p": {
+          "name": "Robust Scene Text Recognition with Automatic Rectification",
+          "link": "http://arxiv.org/abs/1603.03915v2"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleOCR",
         "n": "RARE",
         "d": "2016-03-12",
         "m1": "88.6"
       },
       {
-        "p": "[An End-to-End Trainable Neural Network for Image-based Sequence Recognition and Its Application to Scene Text Recognition](http://arxiv.org/abs/1507.05717v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleOCR)",
+        "p": {
+          "name": "An End-to-End Trainable Neural Network for Image-based Sequence Recognition and Its Application to Scene Text Recognition",
+          "link": "http://arxiv.org/abs/1507.05717v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleOCR",
         "n": "CRNN",
         "d": "2015-07-21",
         "m1": "86.7"
       },
       {
-        "p": "[Synthetic Data and Artificial Neural Networks for Natural Scene Text Recognition](http://arxiv.org/abs/1406.2227v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/bupt-ai-cz/Meta-SelfLearning)",
+        "p": {
+          "name": "Synthetic Data and Artificial Neural Networks for Natural Scene Text Recognition",
+          "link": "http://arxiv.org/abs/1406.2227v4"
+        },
+        "c": "https://github.com/bupt-ai-cz/Meta-SelfLearning",
         "n": "CHAR",
         "d": "2014-06-09",
         "m1": "79.5"

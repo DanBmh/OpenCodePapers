@@ -68,8 +68,11 @@
     ],
     "items": [
       {
-        "p": "[DVIS-DAQ: Improving Video Segmentation via Dynamic Anchor Queries](https://arxiv.org/abs/2404.00086v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/zhang-tao-whu/DVIS)",
+        "p": {
+          "name": "DVIS-DAQ: Improving Video Segmentation via Dynamic Anchor Queries",
+          "link": "https://arxiv.org/abs/2404.00086v5"
+        },
+        "c": "https://github.com/zhang-tao-whu/DVIS",
         "n": "DVIS-DAQ(VIT-L, Offline)",
         "d": "2024-03-29",
         "m1": "57.1",
@@ -77,8 +80,11 @@
         "m3": "62.9"
       },
       {
-        "p": "[Context-Aware Video Instance Segmentation](https://arxiv.org/abs/2407.03010v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/Seung-Hun-Lee/CAVIS)",
+        "p": {
+          "name": "Context-Aware Video Instance Segmentation",
+          "link": "https://arxiv.org/abs/2407.03010v1"
+        },
+        "c": "https://github.com/Seung-Hun-Lee/CAVIS",
         "n": "CAVIS(VIT-L, Offline)",
         "d": "2024-07-03",
         "m1": "57.1",
@@ -88,8 +94,11 @@
         "m8": "61.8"
       },
       {
-        "p": "[DVIS++: Improved Decoupled Framework for Universal Video Segmentation](https://arxiv.org/abs/2312.13305v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/zhang-tao-whu/DVIS_Plus)",
+        "p": {
+          "name": "DVIS++: Improved Decoupled Framework for Universal Video Segmentation",
+          "link": "https://arxiv.org/abs/2312.13305v1"
+        },
+        "c": "https://github.com/zhang-tao-whu/DVIS_Plus",
         "n": "DVIS++(VIT-L,Offline)",
         "d": "2023-12-20",
         "m1": "53.4",
@@ -97,16 +106,22 @@
         "m3": "58.5"
       },
       {
-        "p": "[General Object Foundation Model for Images and Videos at Scale](https://arxiv.org/abs/2312.09158v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/FoundationVision/GLEE)",
+        "p": {
+          "name": "General Object Foundation Model for Images and Videos at Scale",
+          "link": "https://arxiv.org/abs/2312.09158v1"
+        },
+        "c": "https://github.com/FoundationVision/GLEE",
         "n": "GLEE-Pro",
         "d": "2023-12-14",
         "m1": "50.4",
         "m3": "55.5"
       },
       {
-        "p": "[DVIS: Decoupled Video Instance Segmentation Framework](https://arxiv.org/abs/2306.03413v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/zhang-tao-whu/DVIS)",
+        "p": {
+          "name": "DVIS: Decoupled Video Instance Segmentation Framework",
+          "link": "https://arxiv.org/abs/2306.03413v3"
+        },
+        "c": "https://github.com/zhang-tao-whu/DVIS",
         "n": "DVIS(Swin-L, Offline)",
         "d": "2023-06-06",
         "m1": "49.9",
@@ -116,8 +131,11 @@
         "m8": "55.3"
       },
       {
-        "p": "[DVIS++: Improved Decoupled Framework for Universal Video Segmentation](https://arxiv.org/abs/2312.13305v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/zhang-tao-whu/DVIS_Plus)",
+        "p": {
+          "name": "DVIS++: Improved Decoupled Framework for Universal Video Segmentation",
+          "link": "https://arxiv.org/abs/2312.13305v1"
+        },
+        "c": "https://github.com/zhang-tao-whu/DVIS_Plus",
         "n": "DVIS++(VIT-L, Online)",
         "d": "2023-12-20",
         "m1": "49.6",
@@ -130,8 +148,11 @@
         "m8": "54.6"
       },
       {
-        "p": "[Universal Instance Perception as Object Discovery and Retrieval](https://arxiv.org/abs/2303.06674v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/MasterBin-IIAU/UNINEXT)",
+        "p": {
+          "name": "Universal Instance Perception as Object Discovery and Retrieval",
+          "link": "https://arxiv.org/abs/2303.06674v2"
+        },
+        "c": "https://github.com/MasterBin-IIAU/UNINEXT",
         "n": "UNINEXT (ViT-H, Online)",
         "d": "2023-03-12",
         "m1": "49.0",
@@ -139,8 +160,11 @@
         "m3": "52.2"
       },
       {
-        "p": "[DVIS: Decoupled Video Instance Segmentation Framework](https://arxiv.org/abs/2306.03413v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/zhang-tao-whu/DVIS)",
+        "p": {
+          "name": "DVIS: Decoupled Video Instance Segmentation Framework",
+          "link": "https://arxiv.org/abs/2306.03413v3"
+        },
+        "c": "https://github.com/zhang-tao-whu/DVIS",
         "n": "DVIS(Swin-L, Online)",
         "d": "2023-06-06",
         "m1": "47.1",
@@ -150,8 +174,11 @@
         "m8": "52.5"
       },
       {
-        "p": "[CTVIS: Consistent Training for Online Video Instance Segmentation](https://arxiv.org/abs/2307.12616v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/kainingying/ctvis)",
+        "p": {
+          "name": "CTVIS: Consistent Training for Online Video Instance Segmentation",
+          "link": "https://arxiv.org/abs/2307.12616v1"
+        },
+        "c": "https://github.com/kainingying/ctvis",
         "n": "CTVIS (Swin-L)",
         "d": "2023-07-24",
         "m1": "46.9",
@@ -161,7 +188,10 @@
         "m5": "52.1"
       },
       {
-        "p": "[RefineVIS: Video Instance Segmentation with Temporal Attention Refinement](https://arxiv.org/abs/2306.04774v1)",
+        "p": {
+          "name": "RefineVIS: Video Instance Segmentation with Temporal Attention Refinement",
+          "link": "https://arxiv.org/abs/2306.04774v1"
+        },
         "c": "",
         "n": "RefineVIS (Swin-L, offline)",
         "d": "2023-06-07",
@@ -172,8 +202,11 @@
         "m8": "51.2"
       },
       {
-        "p": "[GRAtt-VIS: Gated Residual Attention for Auto Rectifying Video Instance Segmentation](https://arxiv.org/abs/2305.17096v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/tanveer81/grattvis)",
+        "p": {
+          "name": "GRAtt-VIS: Gated Residual Attention for Auto Rectifying Video Instance Segmentation",
+          "link": "https://arxiv.org/abs/2305.17096v1"
+        },
+        "c": "https://github.com/tanveer81/grattvis",
         "n": "GRAtt-VIS (Swin-L)",
         "d": "2023-05-26",
         "m1": "45.7",
@@ -183,8 +216,11 @@
         "m8": "49.4"
       },
       {
-        "p": "[A Generalized Framework for Video Instance Segmentation](https://arxiv.org/abs/2211.08834v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/miranheo/genvis)",
+        "p": {
+          "name": "A Generalized Framework for Video Instance Segmentation",
+          "link": "https://arxiv.org/abs/2211.08834v2"
+        },
+        "c": "https://github.com/miranheo/genvis",
         "n": "GenVIS (Swin-L)",
         "d": "2022-11-16",
         "m1": "45.4",
@@ -194,7 +230,10 @@
         "m8": "49.0"
       },
       {
-        "p": "[NOVIS: A Case for End-to-End Near-Online Video Instance Segmentation](https://arxiv.org/abs/2308.15266v2)",
+        "p": {
+          "name": "NOVIS: A Case for End-to-End Near-Online Video Instance Segmentation",
+          "link": "https://arxiv.org/abs/2308.15266v2"
+        },
         "c": "",
         "n": "NOVIS (Swin-L)",
         "d": "2023-08-29",
@@ -205,8 +244,11 @@
         "m8": "46.9"
       },
       {
-        "p": "[TarViS: A Unified Approach for Target-based Video Segmentation](https://arxiv.org/abs/2301.02657v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/Ali2500/TarViS)",
+        "p": {
+          "name": "TarViS: A Unified Approach for Target-based Video Segmentation",
+          "link": "https://arxiv.org/abs/2301.02657v2"
+        },
+        "c": "https://github.com/Ali2500/TarViS",
         "n": "TarViS (Swin-L)",
         "d": "2023-01-06",
         "m1": "43.2",
@@ -216,8 +258,11 @@
         "m8": "50.4"
       },
       {
-        "p": "[MDQE: Mining Discriminative Query Embeddings to Segment Occluded Instances on Challenging Videos](https://arxiv.org/abs/2303.14395v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/minghanli/mdqe_cvpr2023)",
+        "p": {
+          "name": "MDQE: Mining Discriminative Query Embeddings to Segment Occluded Instances on Challenging Videos",
+          "link": "https://arxiv.org/abs/2303.14395v1"
+        },
+        "c": "https://github.com/minghanli/mdqe_cvpr2023",
         "n": "MDQE(SwinL)",
         "d": "2023-03-25",
         "m1": "42.6",
@@ -230,8 +275,11 @@
         "m8": "46.5"
       },
       {
-        "p": "[In Defense of Online Models for Video Instance Segmentation](https://arxiv.org/abs/2207.10661v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/wjf5203/vnext)",
+        "p": {
+          "name": "In Defense of Online Models for Video Instance Segmentation",
+          "link": "https://arxiv.org/abs/2207.10661v1"
+        },
+        "c": "https://github.com/wjf5203/vnext",
         "n": "IDOL (Swin-L)",
         "d": "2022-07-21",
         "m1": "42.6",
@@ -241,8 +289,11 @@
         "m8": "49.6"
       },
       {
-        "p": "[Robust Online Video Instance Segmentation with Track Queries](https://arxiv.org/abs/2211.09108v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/zitongzhan/mmtracking/tree/zitongzhan/rovis/configs/vis/rovis)",
+        "p": {
+          "name": "Robust Online Video Instance Segmentation with Track Queries",
+          "link": "https://arxiv.org/abs/2211.09108v1"
+        },
+        "c": "https://github.com/zitongzhan/mmtracking/tree/zitongzhan/rovis/configs/vis/rovis",
         "n": "ROVIS (Swin-L)",
         "d": "2022-11-16",
         "m1": "42.6",
@@ -252,15 +303,21 @@
         "m8": "49.1"
       },
       {
-        "p": "[UniVS: Unified and Universal Video Segmentation with Prompts as Queries](https://arxiv.org/abs/2402.18115v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/minghanli/univs)",
+        "p": {
+          "name": "UniVS: Unified and Universal Video Segmentation with Prompts as Queries",
+          "link": "https://arxiv.org/abs/2402.18115v2"
+        },
+        "c": "https://github.com/minghanli/univs",
         "n": "UniVS(Swin-L)",
         "d": "2024-02-28",
         "m1": "41.7"
       },
       {
-        "p": "[DVIS++: Improved Decoupled Framework for Universal Video Segmentation](https://arxiv.org/abs/2312.13305v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/zhang-tao-whu/DVIS_Plus)",
+        "p": {
+          "name": "DVIS++: Improved Decoupled Framework for Universal Video Segmentation",
+          "link": "https://arxiv.org/abs/2312.13305v1"
+        },
+        "c": "https://github.com/zhang-tao-whu/DVIS_Plus",
         "n": "DVIS++(R50, Offline)",
         "d": "2023-12-20",
         "m1": "41.2",
@@ -270,8 +327,11 @@
         "m8": "47.3"
       },
       {
-        "p": "[BoxVIS: Video Instance Segmentation with Box Annotations](https://arxiv.org/abs/2303.14618v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/minghanli/boxvis)",
+        "p": {
+          "name": "BoxVIS: Video Instance Segmentation with Box Annotations",
+          "link": "https://arxiv.org/abs/2303.14618v2"
+        },
+        "c": "https://github.com/minghanli/boxvis",
         "n": "BoxVIS(Swin-L & Box-sup)",
         "d": "2023-03-26",
         "m1": "40.6",
@@ -282,8 +342,11 @@
         "m7": "59.4"
       },
       {
-        "p": "[MinVIS: A Minimal Video Instance Segmentation Framework without Video-based Training](https://arxiv.org/abs/2208.02245v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/nvlabs/minvis)",
+        "p": {
+          "name": "MinVIS: A Minimal Video Instance Segmentation Framework without Video-based Training",
+          "link": "https://arxiv.org/abs/2208.02245v1"
+        },
+        "c": "https://github.com/nvlabs/minvis",
         "n": "MinVIS (Swin-L)",
         "d": "2022-08-03",
         "m1": "39.4",
@@ -293,8 +356,11 @@
         "m8": "43.3"
       },
       {
-        "p": "[DVIS++: Improved Decoupled Framework for Universal Video Segmentation](https://arxiv.org/abs/2312.13305v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/zhang-tao-whu/DVIS_Plus)",
+        "p": {
+          "name": "DVIS++: Improved Decoupled Framework for Universal Video Segmentation",
+          "link": "https://arxiv.org/abs/2312.13305v1"
+        },
+        "c": "https://github.com/zhang-tao-whu/DVIS_Plus",
         "n": "DVIS++(R50, Online)",
         "d": "2023-12-20",
         "m1": "37.2",
@@ -304,8 +370,11 @@
         "m8": "42.9"
       },
       {
-        "p": "[GRAtt-VIS: Gated Residual Attention for Auto Rectifying Video Instance Segmentation](https://arxiv.org/abs/2305.17096v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/tanveer81/grattvis)",
+        "p": {
+          "name": "GRAtt-VIS: Gated Residual Attention for Auto Rectifying Video Instance Segmentation",
+          "link": "https://arxiv.org/abs/2305.17096v1"
+        },
+        "c": "https://github.com/tanveer81/grattvis",
         "n": "GRAtt-VIS (ResNet-50)",
         "d": "2023-05-26",
         "m1": "36.2",
@@ -315,8 +384,11 @@
         "m8": "40.1"
       },
       {
-        "p": "[CTVIS: Consistent Training for Online Video Instance Segmentation](https://arxiv.org/abs/2307.12616v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/kainingying/ctvis)",
+        "p": {
+          "name": "CTVIS: Consistent Training for Online Video Instance Segmentation",
+          "link": "https://arxiv.org/abs/2307.12616v1"
+        },
+        "c": "https://github.com/kainingying/ctvis",
         "n": "CTVIS (ResNet-50)",
         "d": "2023-07-24",
         "m1": "35.5",
@@ -326,8 +398,11 @@
         "m5": "41.9"
       },
       {
-        "p": "[DeVIS: Making Deformable Transformers Work for Video Instance Segmentation](https://arxiv.org/abs/2207.11103v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/acaelles97/devis)",
+        "p": {
+          "name": "DeVIS: Making Deformable Transformers Work for Video Instance Segmentation",
+          "link": "https://arxiv.org/abs/2207.11103v1"
+        },
+        "c": "https://github.com/acaelles97/devis",
         "n": "DeVIS (Swin-L)",
         "d": "2022-07-22",
         "m1": "35.5",
@@ -337,8 +412,11 @@
         "m8": "39.8"
       },
       {
-        "p": "[Universal Instance Perception as Object Discovery and Retrieval](https://arxiv.org/abs/2303.06674v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/MasterBin-IIAU/UNINEXT)",
+        "p": {
+          "name": "Universal Instance Perception as Object Discovery and Retrieval",
+          "link": "https://arxiv.org/abs/2303.06674v2"
+        },
+        "c": "https://github.com/MasterBin-IIAU/UNINEXT",
         "n": "UNINEXT (ResNet-50, Online)",
         "d": "2023-03-12",
         "m1": "34.0",
@@ -346,8 +424,11 @@
         "m3": "35.6"
       },
       {
-        "p": "[TarViS: A Unified Approach for Target-based Video Segmentation](https://arxiv.org/abs/2301.02657v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/Ali2500/TarViS)",
+        "p": {
+          "name": "TarViS: A Unified Approach for Target-based Video Segmentation",
+          "link": "https://arxiv.org/abs/2301.02657v2"
+        },
+        "c": "https://github.com/Ali2500/TarViS",
         "n": "TarViS  (Swin-T)",
         "d": "2023-01-06",
         "m1": "34.0",
@@ -357,7 +438,10 @@
         "m8": "40.9"
       },
       {
-        "p": "[NOVIS: A Case for End-to-End Near-Online Video Instance Segmentation](https://arxiv.org/abs/2308.15266v2)",
+        "p": {
+          "name": "NOVIS: A Case for End-to-End Near-Online Video Instance Segmentation",
+          "link": "https://arxiv.org/abs/2308.15266v2"
+        },
         "c": "",
         "n": "NOVIS (ResNet-50)",
         "d": "2023-08-29",
@@ -368,8 +452,11 @@
         "m8": "37.1"
       },
       {
-        "p": "[TarViS: A Unified Approach for Target-based Video Segmentation](https://arxiv.org/abs/2301.02657v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/Ali2500/TarViS)",
+        "p": {
+          "name": "TarViS: A Unified Approach for Target-based Video Segmentation",
+          "link": "https://arxiv.org/abs/2301.02657v2"
+        },
+        "c": "https://github.com/Ali2500/TarViS",
         "n": "TarViS (ResNet-50)",
         "d": "2023-01-06",
         "m1": "31.1",
@@ -379,8 +466,11 @@
         "m8": "39.9"
       },
       {
-        "p": "[In Defense of Online Models for Video Instance Segmentation](https://arxiv.org/abs/2207.10661v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/wjf5203/vnext)",
+        "p": {
+          "name": "In Defense of Online Models for Video Instance Segmentation",
+          "link": "https://arxiv.org/abs/2207.10661v1"
+        },
+        "c": "https://github.com/wjf5203/vnext",
         "n": "IDOL (ResNet-50)",
         "d": "2022-07-21",
         "m1": "30.2",
@@ -390,8 +480,11 @@
         "m8": "37.5"
       },
       {
-        "p": "[Tube-Link: A Flexible Cross Tube Framework for Universal Video Segmentation](https://arxiv.org/abs/2303.12782v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/lxtgh/tube-link)",
+        "p": {
+          "name": "Tube-Link: A Flexible Cross Tube Framework for Universal Video Segmentation",
+          "link": "https://arxiv.org/abs/2303.12782v3"
+        },
+        "c": "https://github.com/lxtgh/tube-link",
         "n": "Tube-Link(ResNet-50)",
         "d": "2023-03-22",
         "m1": "29.5",
@@ -401,8 +494,11 @@
         "m8": "34.5"
       },
       {
-        "p": "[VITA: Video Instance Segmentation via Object Token Association](https://arxiv.org/abs/2206.04403v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/sukjunhwang/vita)",
+        "p": {
+          "name": "VITA: Video Instance Segmentation via Object Token Association",
+          "link": "https://arxiv.org/abs/2206.04403v2"
+        },
+        "c": "https://github.com/sukjunhwang/vita",
         "n": "VITA (Swin-L)",
         "d": "2022-06-09",
         "m1": "27.7",
@@ -412,8 +508,11 @@
         "m8": "33.0"
       },
       {
-        "p": "[DeVIS: Making Deformable Transformers Work for Video Instance Segmentation](https://arxiv.org/abs/2207.11103v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/acaelles97/devis)",
+        "p": {
+          "name": "DeVIS: Making Deformable Transformers Work for Video Instance Segmentation",
+          "link": "https://arxiv.org/abs/2207.11103v1"
+        },
+        "c": "https://github.com/acaelles97/devis",
         "n": "DeVIS (ResNet-50)",
         "d": "2022-07-22",
         "m1": "23.7",
@@ -423,8 +522,11 @@
         "m8": "28.9"
       },
       {
-        "p": "[InstanceFormer: An Online Video Instance Segmentation Framework](https://arxiv.org/abs/2208.10547v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/rajatkoner08/instanceformer)",
+        "p": {
+          "name": "InstanceFormer: An Online Video Instance Segmentation Framework",
+          "link": "https://arxiv.org/abs/2208.10547v1"
+        },
+        "c": "https://github.com/rajatkoner08/instanceformer",
         "n": "InstanceFormer (Swin-L)",
         "d": "2022-08-22",
         "m1": "22.8",
@@ -434,8 +536,11 @@
         "m8": "29.3"
       },
       {
-        "p": "[InstanceFormer: An Online Video Instance Segmentation Framework](https://arxiv.org/abs/2208.10547v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/rajatkoner08/instanceformer)",
+        "p": {
+          "name": "InstanceFormer: An Online Video Instance Segmentation Framework",
+          "link": "https://arxiv.org/abs/2208.10547v1"
+        },
+        "c": "https://github.com/rajatkoner08/instanceformer",
         "n": "InstanceFormer(ResNet-50)",
         "d": "2022-08-22",
         "m1": "20.0",
@@ -445,8 +550,11 @@
         "m8": "27.1"
       },
       {
-        "p": "[Crossover Learning for Fast Online Video Instance Segmentation](https://arxiv.org/abs/2104.05970v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/hustvl/CrossVIS)",
+        "p": {
+          "name": "Crossover Learning for Fast Online Video Instance Segmentation",
+          "link": "https://arxiv.org/abs/2104.05970v1"
+        },
+        "c": "https://github.com/hustvl/CrossVIS",
         "n": "CrossVIS (ResNet-50, calibration)",
         "d": "2021-04-13",
         "m1": "18.1",
@@ -454,8 +562,11 @@
         "m3": "16.9"
       },
       {
-        "p": "[Temporally Efficient Vision Transformer for Video Instance Segmentation](https://arxiv.org/abs/2204.08412v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/hustvl/QueryInst)",
+        "p": {
+          "name": "Temporally Efficient Vision Transformer for Video Instance Segmentation",
+          "link": "https://arxiv.org/abs/2204.08412v1"
+        },
+        "c": "https://github.com/hustvl/QueryInst",
         "n": "TeViT (ResNet-50)",
         "d": "2022-04-18",
         "m1": "17.4",
@@ -463,8 +574,11 @@
         "m3": "15.0"
       },
       {
-        "p": "[Spatial Feature Calibration and Temporal Fusion for Effective One-stage Video Instance Segmentation](https://arxiv.org/abs/2104.05606v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/MinghanLi/STMask)",
+        "p": {
+          "name": "Spatial Feature Calibration and Temporal Fusion for Effective One-stage Video Instance Segmentation",
+          "link": "https://arxiv.org/abs/2104.05606v1"
+        },
+        "c": "https://github.com/MinghanLi/STMask",
         "n": "STMask(R101-DCN-FPN)",
         "d": "2021-04-06",
         "m1": "17.3",
@@ -477,8 +591,11 @@
         "m8": "23.1"
       },
       {
-        "p": "[Mask2Former for Video Instance Segmentation](https://arxiv.org/abs/2112.10764v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "Mask2Former for Video Instance Segmentation",
+          "link": "https://arxiv.org/abs/2112.10764v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "Mask2Former-VIS",
         "d": "2021-12-20",
         "m1": "16.6",
@@ -488,7 +605,10 @@
         "m8": "24.7"
       },
       {
-        "p": "[STC: Spatio-Temporal Contrastive Learning for Video Instance Segmentation](https://arxiv.org/abs/2202.03747v2)",
+        "p": {
+          "name": "STC: Spatio-Temporal Contrastive Learning for Video Instance Segmentation",
+          "link": "https://arxiv.org/abs/2202.03747v2"
+        },
         "c": "",
         "n": "STC (ResNet-50)",
         "d": "2022-02-08",
@@ -497,8 +617,11 @@
         "m3": "13.4"
       },
       {
-        "p": "[Occluded Video Instance Segmentation: A Benchmark](https://arxiv.org/abs/2102.01558v6)",
-        "c": "[&check;&nbsp;Link](https://github.com/haochenheheda/lvvis)",
+        "p": {
+          "name": "Occluded Video Instance Segmentation: A Benchmark",
+          "link": "https://arxiv.org/abs/2102.01558v6"
+        },
+        "c": "https://github.com/haochenheheda/lvvis",
         "n": "CMaskTrack R-CNN (ResNet-50)",
         "d": "2021-02-02",
         "m1": "15.4",
@@ -509,8 +632,11 @@
         "m7": "28.6"
       },
       {
-        "p": "[D2Conv3D: Dynamic Dilated Convolutions for Object Segmentation in Videos](https://openaccess.thecvf.com/content/WACV2022/html/Schmidt_D2Conv3D_Dynamic_Dilated_Convolutions_for_Object_Segmentation_in_Videos_WACV_2022_paper.html)",
-        "c": "[&check;&nbsp;Link](https://github.com/schmiddo/d2conv3d)",
+        "p": {
+          "name": "D2Conv3D: Dynamic Dilated Convolutions for Object Segmentation in Videos",
+          "link": "https://openaccess.thecvf.com/content/WACV2022/html/Schmidt_D2Conv3D_Dynamic_Dilated_Convolutions_for_Object_Segmentation_in_Videos_WACV_2022_paper.html"
+        },
+        "c": "https://github.com/schmiddo/d2conv3d",
         "n": "D2Conv3D (ResNet-50)",
         "d": "2021-11-15",
         "m1": "15.2",
@@ -518,8 +644,11 @@
         "m3": "13.7"
       },
       {
-        "p": "[Crossover Learning for Fast Online Video Instance Segmentation](https://arxiv.org/abs/2104.05970v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/hustvl/CrossVIS)",
+        "p": {
+          "name": "Crossover Learning for Fast Online Video Instance Segmentation",
+          "link": "https://arxiv.org/abs/2104.05970v1"
+        },
+        "c": "https://github.com/hustvl/CrossVIS",
         "n": "CrossVIS (ResNet-50)",
         "d": "2021-04-13",
         "m1": "14.9",
@@ -527,8 +656,11 @@
         "m3": "12.1"
       },
       {
-        "p": "[Occluded Video Instance Segmentation: A Benchmark](https://arxiv.org/abs/2102.01558v6)",
-        "c": "[&check;&nbsp;Link](https://github.com/haochenheheda/lvvis)",
+        "p": {
+          "name": "Occluded Video Instance Segmentation: A Benchmark",
+          "link": "https://arxiv.org/abs/2102.01558v6"
+        },
+        "c": "https://github.com/haochenheheda/lvvis",
         "n": "CSipMask (ResNet-50)",
         "d": "2021-02-02",
         "m1": "14.3",

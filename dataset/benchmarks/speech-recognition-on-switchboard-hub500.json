@@ -33,77 +33,110 @@
     ],
     "items": [
       {
-        "p": "[On the limit of English conversational speech recognition](https://arxiv.org/abs/2105.00982v1)",
+        "p": {
+          "name": "On the limit of English conversational speech recognition",
+          "link": "https://arxiv.org/abs/2105.00982v1"
+        },
         "c": "",
         "n": "IBM (LSTM+Conformer encoder-decoder)",
         "d": "2021-05-03",
         "m1": "4.3"
       },
       {
-        "p": "[Single headed attention based sequence-to-sequence model for state-of-the-art results on Switchboard](https://arxiv.org/abs/2001.07263v3)",
+        "p": {
+          "name": "Single headed attention based sequence-to-sequence model for state-of-the-art results on Switchboard",
+          "link": "https://arxiv.org/abs/2001.07263v3"
+        },
         "c": "",
         "n": "IBM (LSTM encoder-decoder)",
         "d": "2020-01-20",
         "m1": "4.7"
       },
       {
-        "p": "[English Conversational Telephone Speech Recognition by Humans and Machines](http://arxiv.org/abs/1703.02136v1)",
+        "p": {
+          "name": "English Conversational Telephone Speech Recognition by Humans and Machines",
+          "link": "http://arxiv.org/abs/1703.02136v1"
+        },
         "c": "",
         "n": "ResNet + BiLSTMs acoustic model",
         "d": "2017-03-06",
         "m1": "5.5"
       },
       {
-        "p": "[Achieving Human Parity in Conversational Speech Recognition](http://arxiv.org/abs/1610.05256v2)",
+        "p": {
+          "name": "Achieving Human Parity in Conversational Speech Recognition",
+          "link": "http://arxiv.org/abs/1610.05256v2"
+        },
         "c": "",
         "n": "Microsoft 2016b",
         "d": "2016-10-17",
         "m1": "5.8"
       },
       {
-        "p": "[The Microsoft 2016 Conversational Speech Recognition System](http://arxiv.org/abs/1609.03528v2)",
+        "p": {
+          "name": "The Microsoft 2016 Conversational Speech Recognition System",
+          "link": "http://arxiv.org/abs/1609.03528v2"
+        },
         "c": "",
         "n": "Microsoft 2016",
         "d": "2016-09-12",
         "m1": "6.2"
       },
       {
-        "p": "[The Microsoft 2016 Conversational Speech Recognition System](http://arxiv.org/abs/1609.03528v2)",
+        "p": {
+          "name": "The Microsoft 2016 Conversational Speech Recognition System",
+          "link": "http://arxiv.org/abs/1609.03528v2"
+        },
         "c": "",
         "n": "VGG/Resnet/LACE/BiLSTM acoustic model trained on SWB+Fisher+CH, N-gram + RNNLM language model trained on Switchboard+Fisher+Gigaword+Broadcast",
         "d": "2016-09-12",
         "m1": "6.3"
       },
       {
-        "p": "[The IBM 2016 English Conversational Telephone Speech Recognition System](http://arxiv.org/abs/1604.08242v2)",
+        "p": {
+          "name": "The IBM 2016 English Conversational Telephone Speech Recognition System",
+          "link": "http://arxiv.org/abs/1604.08242v2"
+        },
         "c": "",
         "n": "RNN + VGG + LSTM acoustic model trained on SWB+Fisher+CH, N-gram + \"model M\" + NNLM language model",
         "d": "2016-04-27",
         "m1": "6.6"
       },
       {
-        "p": "[Achieving Human Parity in Conversational Speech Recognition](http://arxiv.org/abs/1610.05256v2)",
+        "p": {
+          "name": "Achieving Human Parity in Conversational Speech Recognition",
+          "link": "http://arxiv.org/abs/1610.05256v2"
+        },
         "c": "",
         "n": "CNN-LSTM",
         "d": "2016-10-17",
         "m1": "6.6"
       },
       {
-        "p": "[The IBM 2016 English Conversational Telephone Speech Recognition System](http://arxiv.org/abs/1604.08242v2)",
+        "p": {
+          "name": "The IBM 2016 English Conversational Telephone Speech Recognition System",
+          "link": "http://arxiv.org/abs/1604.08242v2"
+        },
         "c": "",
         "n": "IBM 2016",
         "d": "2016-04-27",
         "m1": "6.9"
       },
       {
-        "p": "[The Microsoft 2016 Conversational Speech Recognition System](http://arxiv.org/abs/1609.03528v2)",
+        "p": {
+          "name": "The Microsoft 2016 Conversational Speech Recognition System",
+          "link": "http://arxiv.org/abs/1609.03528v2"
+        },
         "c": "",
         "n": "RNNLM",
         "d": "2016-09-12",
         "m1": "6.9"
       },
       {
-        "p": "[The IBM 2015 English Conversational Telephone Speech Recognition System](http://arxiv.org/abs/1505.05899v1)",
+        "p": {
+          "name": "The IBM 2015 English Conversational Telephone Speech Recognition System",
+          "link": "http://arxiv.org/abs/1505.05899v1"
+        },
         "c": "",
         "n": "IBM 2015",
         "d": "2015-05-21",
@@ -145,7 +178,10 @@
         "m1": "11.5"
       },
       {
-        "p": "[Very Deep Multilingual Convolutional Neural Networks for LVCSR](http://arxiv.org/abs/1509.08967v2)",
+        "p": {
+          "name": "Very Deep Multilingual Convolutional Neural Networks for LVCSR",
+          "link": "http://arxiv.org/abs/1509.08967v2"
+        },
         "c": "",
         "n": "Deep CNN (10 conv, 4 FC layers), multi-scale feature maps",
         "d": "2015-09-29",
@@ -166,15 +202,21 @@
         "m1": "12.6"
       },
       {
-        "p": "[Deep Speech: Scaling up end-to-end speech recognition](http://arxiv.org/abs/1412.5567v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/mozilla/STT)",
+        "p": {
+          "name": "Deep Speech: Scaling up end-to-end speech recognition",
+          "link": "http://arxiv.org/abs/1412.5567v2"
+        },
+        "c": "https://github.com/mozilla/STT",
         "n": "Deep Speech + FSH",
         "d": "2014-12-17",
         "m1": "12.6"
       },
       {
-        "p": "[Deep Speech: Scaling up end-to-end speech recognition](http://arxiv.org/abs/1412.5567v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/mozilla/STT)",
+        "p": {
+          "name": "Deep Speech: Scaling up end-to-end speech recognition",
+          "link": "http://arxiv.org/abs/1412.5567v2"
+        },
+        "c": "https://github.com/mozilla/STT",
         "n": "CNN + Bi-RNN + CTC (speech to letters), 25.9% WER if trainedonlyon SWB",
         "d": "2014-12-17",
         "m1": "12.6"
@@ -208,15 +250,21 @@
         "m1": "12.9"
       },
       {
-        "p": "[Building DNN Acoustic Models for Large Vocabulary Speech Recognition](http://arxiv.org/abs/1406.7806v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/pannous/caffe-speech-recognition)",
+        "p": {
+          "name": "Building DNN Acoustic Models for Large Vocabulary Speech Recognition",
+          "link": "http://arxiv.org/abs/1406.7806v2"
+        },
+        "c": "https://github.com/pannous/caffe-speech-recognition",
         "n": "DNN + Dropout",
         "d": "2014-06-30",
         "m1": "15"
       },
       {
-        "p": "[Building DNN Acoustic Models for Large Vocabulary Speech Recognition](http://arxiv.org/abs/1406.7806v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/pannous/caffe-speech-recognition)",
+        "p": {
+          "name": "Building DNN Acoustic Models for Large Vocabulary Speech Recognition",
+          "link": "http://arxiv.org/abs/1406.7806v2"
+        },
+        "c": "https://github.com/pannous/caffe-speech-recognition",
         "n": "DNN",
         "d": "2014-06-30",
         "m1": "16"
@@ -236,8 +284,11 @@
         "m1": "18.5"
       },
       {
-        "p": "[Deep Speech: Scaling up end-to-end speech recognition](http://arxiv.org/abs/1412.5567v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/mozilla/STT)",
+        "p": {
+          "name": "Deep Speech: Scaling up end-to-end speech recognition",
+          "link": "http://arxiv.org/abs/1412.5567v2"
+        },
+        "c": "https://github.com/mozilla/STT",
         "n": "Deep Speech",
         "d": "2014-12-17",
         "m1": "20"

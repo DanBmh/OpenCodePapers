@@ -53,65 +53,92 @@
     ],
     "items": [
       {
-        "p": "[FMix: Enhancing Mixed Sample Data Augmentation](https://arxiv.org/abs/2002.12047v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleClas)",
+        "p": {
+          "name": "FMix: Enhancing Mixed Sample Data Augmentation",
+          "link": "https://arxiv.org/abs/2002.12047v3"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleClas",
         "n": "PreAct-ResNet18 + FMix",
         "d": "2020-02-27",
         "m1": "3.64"
       },
       {
-        "p": "[Random Erasing Data Augmentation](http://arxiv.org/abs/1708.04896v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "p": {
+          "name": "Random Erasing Data Augmentation",
+          "link": "http://arxiv.org/abs/1708.04896v2"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
         "n": "Random Erasing",
         "d": "2017-08-16",
         "m1": "3.65"
       },
       {
-        "p": "[Rethinking Recurrent Neural Networks and Other Improvements for Image Classification](https://arxiv.org/abs/2007.15161v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/leonlha/e2e-3m)",
+        "p": {
+          "name": "Rethinking Recurrent Neural Networks and Other Improvements for Image Classification",
+          "link": "https://arxiv.org/abs/2007.15161v3"
+        },
+        "c": "https://github.com/leonlha/e2e-3m",
         "n": "E2E-3M",
         "d": "2020-07-30",
         "m1": "4.08"
       },
       {
-        "p": "[Training Neural Networks with Local Error Signals](https://arxiv.org/abs/1901.06656v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/anokland/local-loss)",
+        "p": {
+          "name": "Training Neural Networks with Local Error Signals",
+          "link": "https://arxiv.org/abs/1901.06656v2"
+        },
+        "c": "https://github.com/anokland/local-loss",
         "n": "VGG8B(2x) + LocalLearning + CO",
         "d": "2019-01-20",
         "m1": "4.14"
       },
       {
-        "p": "[CNN Filter DB: An Empirical Investigation of Trained Convolutional Filters](https://arxiv.org/abs/2203.15331v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/paulgavrikov/cnn-filter-db)",
+        "p": {
+          "name": "CNN Filter DB: An Empirical Investigation of Trained Convolutional Filters",
+          "link": "https://arxiv.org/abs/2203.15331v2"
+        },
+        "c": "https://github.com/paulgavrikov/cnn-filter-db",
         "n": "Inception v3",
         "d": "2022-03-29",
         "m1": "5.56",
         "m2": "94.44"
       },
       {
-        "p": "[WaveMix: A Resource-efficient Neural Network for Image Analysis](https://arxiv.org/abs/2205.14375v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/pranavphoenix/WaveMix)",
+        "p": {
+          "name": "WaveMix: A Resource-efficient Neural Network for Image Analysis",
+          "link": "https://arxiv.org/abs/2205.14375v5"
+        },
+        "c": "https://github.com/pranavphoenix/WaveMix",
         "n": "WaveMixLite",
         "d": "2022-05-28",
         "m1": "5.68"
       },
       {
-        "p": "[Preventing Manifold Intrusion with Locality: Local Mixup](https://arxiv.org/abs/2201.04368v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/raphael-baena/Local-Mixup)",
+        "p": {
+          "name": "Preventing Manifold Intrusion with Locality: Local Mixup",
+          "link": "https://arxiv.org/abs/2201.04368v1"
+        },
+        "c": "https://github.com/raphael-baena/Local-Mixup",
         "n": "Local Mixup DenseNet",
         "d": "2022-01-12",
         "m1": "5.97"
       },
       {
-        "p": "[TextCaps : Handwritten Character Recognition with Very Small Datasets](http://arxiv.org/abs/1904.08095v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/vinojjayasundara/textcaps)",
+        "p": {
+          "name": "TextCaps : Handwritten Character Recognition with Very Small Datasets",
+          "link": "http://arxiv.org/abs/1904.08095v1"
+        },
+        "c": "https://github.com/vinojjayasundara/textcaps",
         "n": "TextCaps",
         "d": "2019-04-17",
         "m1": "6.29"
       },
       {
-        "p": "[Learning local discrete features in explainable-by-design convolutional neural networks](https://arxiv.org/abs/2411.00139v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/pikaplan/LearnExplaiNet)",
+        "p": {
+          "name": "Learning local discrete features in explainable-by-design convolutional neural networks",
+          "link": "https://arxiv.org/abs/2411.00139v1"
+        },
+        "c": "https://github.com/pikaplan/LearnExplaiNet",
         "n": "R-ExplaiNet-26",
         "d": "2024-10-31",
         "m1": "6.55",
@@ -119,15 +146,21 @@
         "m3": "892362"
       },
       {
-        "p": "[Vision Eagle Attention: a new lens for advancing image classification](https://arxiv.org/abs/2411.10564v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/MahmudulHasan11085/Vision-Eagle-Attention)",
+        "p": {
+          "name": "Vision Eagle Attention: a new lens for advancing image classification",
+          "link": "https://arxiv.org/abs/2411.10564v2"
+        },
+        "c": "https://github.com/MahmudulHasan11085/Vision-Eagle-Attention",
         "n": "ResNet-18 + Vision Eagle Attention",
         "d": "2024-11-15",
         "m1": "6.70",
         "m2": "93.30"
       },
       {
-        "p": "[Spike time displacement based error backpropagation in convolutional spiking neural networks](https://arxiv.org/abs/2108.13621v1)",
+        "p": {
+          "name": "Spike time displacement based error backpropagation in convolutional spiking neural networks",
+          "link": "https://arxiv.org/abs/2108.13621v1"
+        },
         "c": "",
         "n": "StiDi-BP in R-CSNN",
         "d": "2021-08-31",
@@ -135,23 +168,32 @@
         "m2": "92.8"
       },
       {
-        "p": "[NeuPDE: Neural Network Based Ordinary and Partial Differential Equations for Modeling Time-Dependent Data](https://arxiv.org/abs/1908.03190v1)",
+        "p": {
+          "name": "NeuPDE: Neural Network Based Ordinary and Partial Differential Equations for Modeling Time-Dependent Data",
+          "link": "https://arxiv.org/abs/1908.03190v1"
+        },
         "c": "",
         "n": "NeuPDE",
         "d": "2019-08-08",
         "m1": "7.6"
       },
       {
-        "p": "[Star algorithm for NN ensembling](https://arxiv.org/abs/2206.00255v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/mordiggian174/star-ensembling)",
+        "p": {
+          "name": "Star algorithm for NN ensembling",
+          "link": "https://arxiv.org/abs/2206.00255v1"
+        },
+        "c": "https://github.com/mordiggian174/star-ensembling",
         "n": "Star Algorithm on LeNet",
         "d": "2022-06-01",
         "m1": "7.7",
         "m2": "92.3"
       },
       {
-        "p": "[Vision Eagle Attention: a new lens for advancing image classification](https://arxiv.org/abs/2411.10564v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/MahmudulHasan11085/Vision-Eagle-Attention)",
+        "p": {
+          "name": "Vision Eagle Attention: a new lens for advancing image classification",
+          "link": "https://arxiv.org/abs/2411.10564v2"
+        },
+        "c": "https://github.com/MahmudulHasan11085/Vision-Eagle-Attention",
         "n": "ResNet-18",
         "d": "2024-11-15",
         "m1": "7.72",
@@ -167,8 +209,11 @@
         "m3": "35978"
       },
       {
-        "p": "[The Convolutional Tsetlin Machine](https://arxiv.org/abs/1905.09688v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/cair/TsetlinMachine)",
+        "p": {
+          "name": "The Convolutional Tsetlin Machine",
+          "link": "https://arxiv.org/abs/1905.09688v5"
+        },
+        "c": "https://github.com/cair/TsetlinMachine",
         "n": "CTM-8000 (Convolutional Tsetlin Machine)",
         "d": "2019-05-23",
         "m1": "8.5",
@@ -176,7 +221,10 @@
         "m3": "527250"
       },
       {
-        "p": "[Parametric Matrix Models](https://arxiv.org/abs/2401.11694v6)",
+        "p": {
+          "name": "Parametric Matrix Models",
+          "link": "https://arxiv.org/abs/2401.11694v6"
+        },
         "c": "",
         "n": "Convolutional PMM (Parametric Matrix Model)",
         "d": "2024-01-22",
@@ -185,8 +233,11 @@
         "m3": "278280"
       },
       {
-        "p": "[Towards Physical Plausibility in Neuroevolution Systems](https://arxiv.org/abs/2401.17733v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/rodriguesGabriel/energize)",
+        "p": {
+          "name": "Towards Physical Plausibility in Neuroevolution Systems",
+          "link": "https://arxiv.org/abs/2401.17733v1"
+        },
+        "c": "https://github.com/rodriguesGabriel/energize",
         "n": "DENSER",
         "d": "2024-01-31",
         "m1": "9.6",
@@ -194,15 +245,21 @@
         "m5": "97.8"
       },
       {
-        "p": "[Online Training Through Time for Spiking Neural Networks](https://arxiv.org/abs/2210.04195v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/pkuxmq/ottt-snn)",
+        "p": {
+          "name": "Online Training Through Time for Spiking Neural Networks",
+          "link": "https://arxiv.org/abs/2210.04195v2"
+        },
+        "c": "https://github.com/pkuxmq/ottt-snn",
         "n": "OTTT",
         "d": "2022-10-09",
         "m1": "9.6"
       },
       {
-        "p": "[Towards Physical Plausibility in Neuroevolution Systems](https://arxiv.org/abs/2401.17733v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/rodriguesGabriel/energize)",
+        "p": {
+          "name": "Towards Physical Plausibility in Neuroevolution Systems",
+          "link": "https://arxiv.org/abs/2401.17733v1"
+        },
+        "c": "https://github.com/rodriguesGabriel/energize",
         "n": "ENERGIZE",
         "d": "2024-01-31",
         "m1": "9.8",
@@ -210,7 +267,10 @@
         "m5": "71.92"
       },
       {
-        "p": "[Parametric Matrix Models](https://arxiv.org/abs/2401.11694v6)",
+        "p": {
+          "name": "Parametric Matrix Models",
+          "link": "https://arxiv.org/abs/2401.11694v6"
+        },
         "c": "",
         "n": "PMM (Parametric Matrix Model)",
         "d": "2024-01-22",
@@ -219,8 +279,11 @@
         "m3": "16744"
       },
       {
-        "p": "[The Convolutional Tsetlin Machine](https://arxiv.org/abs/1905.09688v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/cair/TsetlinMachine)",
+        "p": {
+          "name": "The Convolutional Tsetlin Machine",
+          "link": "https://arxiv.org/abs/1905.09688v5"
+        },
+        "c": "https://github.com/cair/TsetlinMachine",
         "n": "CTM-250 (Convolutional Tsetlin Machine)",
         "d": "2019-05-23",
         "m1": "11.75",
@@ -228,80 +291,113 @@
         "m3": "31750"
       },
       {
-        "p": "[A Single Graph Convolution Is All You Need: Efficient Grayscale Image Classification](https://arxiv.org/abs/2402.00564v6)",
-        "c": "[&check;&nbsp;Link](https://github.com/geccoproject/gecco)",
+        "p": {
+          "name": "A Single Graph Convolution Is All You Need: Efficient Grayscale Image Classification",
+          "link": "https://arxiv.org/abs/2402.00564v6"
+        },
+        "c": "https://github.com/geccoproject/gecco",
         "n": "GECCO",
         "d": "2024-02-01",
         "m1": "11.91",
         "m2": "88.09"
       },
       {
-        "p": "[Personalized Federated Learning with Hidden Information on Personalized Prior](https://arxiv.org/abs/2211.10684v2)",
+        "p": {
+          "name": "Personalized Federated Learning with Hidden Information on Personalized Prior",
+          "link": "https://arxiv.org/abs/2211.10684v2"
+        },
         "c": "",
         "n": "pFedBreD_ns_mg",
         "d": "2022-11-19",
         "m2": "99.06"
       },
       {
-        "p": "[LR-Net: A Block-based Convolutional Neural Network for Low-Resolution Image Classification](https://arxiv.org/abs/2207.09531v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/AshkanGanj/Block-Based-ImageClassification-Architecture)",
+        "p": {
+          "name": "LR-Net: A Block-based Convolutional Neural Network for Low-Resolution Image Classification",
+          "link": "https://arxiv.org/abs/2207.09531v5"
+        },
+        "c": "https://github.com/AshkanGanj/Block-Based-ImageClassification-Architecture",
         "n": "LR-Net",
         "d": "2022-07-19",
         "m2": "95.03"
       },
       {
-        "p": "[TMComposites: Plug-and-Play Collaboration Between Specialized Tsetlin Machines](https://arxiv.org/abs/2309.04801v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/cair/plug-and-play-collaboration-between-specialized-tsetlin-machines)",
+        "p": {
+          "name": "TMComposites: Plug-and-Play Collaboration Between Specialized Tsetlin Machines",
+          "link": "https://arxiv.org/abs/2309.04801v2"
+        },
+        "c": "https://github.com/cair/plug-and-play-collaboration-between-specialized-tsetlin-machines",
         "n": "Tsetlin Machine Composites",
         "d": "2023-09-09",
         "m2": "93.0"
       },
       {
-        "p": "[Learning in Wilson-Cowan model for metapopulation](https://arxiv.org/abs/2406.16453v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/raffaelemarino/learning_in_wilsoncowan)",
+        "p": {
+          "name": "Learning in Wilson-Cowan model for metapopulation",
+          "link": "https://arxiv.org/abs/2406.16453v2"
+        },
+        "c": "https://github.com/raffaelemarino/learning_in_wilsoncowan",
         "n": "CNN+ Wilson-Cowan model RNN",
         "d": "2024-06-24",
         "m2": "91.35"
       },
       {
-        "p": "[Robust and accelerated single-spike spiking neural network training with applicability to challenging temporal tasks](https://arxiv.org/abs/2205.15286v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/webstorms/fastsnn)",
+        "p": {
+          "name": "Robust and accelerated single-spike spiking neural network training with applicability to challenging temporal tasks",
+          "link": "https://arxiv.org/abs/2205.15286v2"
+        },
+        "c": "https://github.com/webstorms/fastsnn",
         "n": "FastSNN (CNN)",
         "d": "2022-05-30",
         "m2": "90.57"
       },
       {
-        "p": "[Robust and accelerated single-spike spiking neural network training with applicability to challenging temporal tasks](https://arxiv.org/abs/2205.15286v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/webstorms/fastsnn)",
+        "p": {
+          "name": "Robust and accelerated single-spike spiking neural network training with applicability to challenging temporal tasks",
+          "link": "https://arxiv.org/abs/2205.15286v2"
+        },
+        "c": "https://github.com/webstorms/fastsnn",
         "n": "FastSNN (MLP)",
         "d": "2022-05-30",
         "m2": "89.05"
       },
       {
-        "p": "[Learning in Wilson-Cowan model for metapopulation](https://arxiv.org/abs/2406.16453v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/raffaelemarino/learning_in_wilsoncowan)",
+        "p": {
+          "name": "Learning in Wilson-Cowan model for metapopulation",
+          "link": "https://arxiv.org/abs/2406.16453v2"
+        },
+        "c": "https://github.com/raffaelemarino/learning_in_wilsoncowan",
         "n": "Wilson-Cowan model RNN",
         "d": "2024-06-24",
         "m2": "88.39"
       },
       {
-        "p": "[Sparse Spiking Gradient Descent](https://arxiv.org/abs/2105.08810v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/npvoid/SparseSpikingBackprop)",
+        "p": {
+          "name": "Sparse Spiking Gradient Descent",
+          "link": "https://arxiv.org/abs/2105.08810v2"
+        },
+        "c": "https://github.com/npvoid/SparseSpikingBackprop",
         "n": "Sparse Spiking Gradient Descent (CNN)",
         "d": "2021-05-18",
         "m2": "86.7"
       },
       {
-        "p": "[Improving k-Means Clustering Performance with Disentangled Internal Representations](https://arxiv.org/abs/2006.04535v1)",
-        "c": "[&check;&nbsp;Link](https://gitlab.com/afagarap/pt-snnl)",
+        "p": {
+          "name": "Improving k-Means Clustering Performance with Disentangled Internal Representations",
+          "link": "https://arxiv.org/abs/2006.04535v1"
+        },
+        "c": "https://gitlab.com/afagarap/pt-snnl",
         "n": "SNNL-5",
         "d": "2020-06-05",
         "m2": "84.4",
         "m4": "76.2"
       },
       {
-        "p": "[Real-valued continued fraction of straight lines](https://arxiv.org/abs/2412.16191v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/grasshopper14/Continued-fraction-of-straight-lines/blob/main/continued_fraction_reg.py)",
+        "p": {
+          "name": "Real-valued continued fraction of straight lines",
+          "link": "https://arxiv.org/abs/2412.16191v1"
+        },
+        "c": "https://github.com/grasshopper14/Continued-fraction-of-straight-lines/blob/main/continued_fraction_reg.py",
         "n": "Continued fraction of straight lines",
         "d": "2024-12-16",
         "m2": "84.12",
@@ -309,8 +405,11 @@
         "m4": "74.4"
       },
       {
-        "p": "[Sparse Spiking Gradient Descent](https://arxiv.org/abs/2105.08810v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/npvoid/SparseSpikingBackprop)",
+        "p": {
+          "name": "Sparse Spiking Gradient Descent",
+          "link": "https://arxiv.org/abs/2105.08810v2"
+        },
+        "c": "https://github.com/npvoid/SparseSpikingBackprop",
         "n": "Sparse Spiking Gradient Descent (MLP)",
         "d": "2021-05-18",
         "m2": "82.7"

@@ -88,16 +88,22 @@
     ],
     "items": [
       {
-        "p": "[Vid2Seq: Large-Scale Pretraining of a Visual Language Model for Dense Video Captioning](https://arxiv.org/abs/2302.14115v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/scenic/tree/main/scenic/projects/vid2seq)",
+        "p": {
+          "name": "Vid2Seq: Large-Scale Pretraining of a Visual Language Model for Dense Video Captioning",
+          "link": "https://arxiv.org/abs/2302.14115v2"
+        },
+        "c": "https://github.com/google-research/scenic/tree/main/scenic/projects/vid2seq",
         "n": "Vid2Seq",
         "d": "2023-02-27",
         "m1": "17",
         "m4": "28"
       },
       {
-        "p": "[Global Object Proposals for Improving Multi-Sentence Video Descriptions](https://ieeexplore.ieee.org/document/9533883)",
-        "c": "[&check;&nbsp;Link](https://github.com/cskanani/global_object_proposals)",
+        "p": {
+          "name": "Global Object Proposals for Improving Multi-Sentence Video Descriptions",
+          "link": "https://ieeexplore.ieee.org/document/9533883"
+        },
+        "c": "https://github.com/cskanani/global_object_proposals",
         "n": "ADV-INF + Global",
         "d": "2021-07-18",
         "m1": "16.36",
@@ -108,15 +114,21 @@
         "m8": "0.05"
       },
       {
-        "p": "[Team RUC_AIM3 Technical Report at Activitynet 2020 Task 2: Exploring Sequential Events Detection for Dense Video Captioning](https://arxiv.org/abs/2006.07896v1)",
+        "p": {
+          "name": "Team RUC_AIM3 Technical Report at Activitynet 2020 Task 2: Exploring Sequential Events Detection for Dense Video Captioning",
+          "link": "https://arxiv.org/abs/2006.07896v1"
+        },
         "c": "",
         "n": "Bi-directional+intra captioning",
         "d": "2020-06-14",
         "m1": "11.28"
       },
       {
-        "p": "[Learning Grounded Vision-Language Representation for Versatile Understanding in Untrimmed Videos](https://arxiv.org/abs/2303.06378v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/zjr2000/gvl)",
+        "p": {
+          "name": "Learning Grounded Vision-Language Representation for Versatile Understanding in Untrimmed Videos",
+          "link": "https://arxiv.org/abs/2303.06378v2"
+        },
+        "c": "https://github.com/zjr2000/gvl",
         "n": "GVL",
         "d": "2023-03-11",
         "m1": "10.03",
@@ -124,15 +136,21 @@
         "m5": "7.11"
       },
       {
-        "p": "[Dense-Captioning Events in Videos: SYSU Submission to ActivityNet Challenge 2020](https://arxiv.org/abs/2006.11693v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/ttengwang/dense-video-captioning-pytorch)",
+        "p": {
+          "name": "Dense-Captioning Events in Videos: SYSU Submission to ActivityNet Challenge 2020",
+          "link": "https://arxiv.org/abs/2006.11693v2"
+        },
+        "c": "https://github.com/ttengwang/dense-video-captioning-pytorch",
         "n": "TSRM-CMG-HRNN+SCST",
         "d": "2020-06-21",
         "m1": "9.71"
       },
       {
-        "p": "[End-to-End Dense Video Captioning with Parallel Decoding](https://arxiv.org/abs/2108.07781v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/ttengwang/pdvc)",
+        "p": {
+          "name": "End-to-End Dense Video Captioning with Parallel Decoding",
+          "link": "https://arxiv.org/abs/2108.07781v2"
+        },
+        "c": "https://github.com/ttengwang/pdvc",
         "n": "PDVC (TSP features, no SCST)",
         "d": "2021-08-17",
         "m1": "9.03",
@@ -141,8 +159,11 @@
         "m5": "6.05"
       },
       {
-        "p": "[TSP: Temporally-Sensitive Pretraining of Video Encoders for Localization Tasks](https://arxiv.org/abs/2011.11479v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/HumamAlwassel/TSP)",
+        "p": {
+          "name": "TSP: Temporally-Sensitive Pretraining of Video Encoders for Localization Tasks",
+          "link": "https://arxiv.org/abs/2011.11479v3"
+        },
+        "c": "https://github.com/HumamAlwassel/TSP",
         "n": "TSP",
         "d": "2020-11-23",
         "m1": "8.75",
@@ -150,8 +171,11 @@
         "m3": "2.02"
       },
       {
-        "p": "[Do You Remember? Dense Video Captioning with Cross-Modal Memory Retrieval](https://arxiv.org/abs/2404.07610v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/ailab-kyunghee/cm2_dvc)",
+        "p": {
+          "name": "Do You Remember? Dense Video Captioning with Cross-Modal Memory Retrieval",
+          "link": "https://arxiv.org/abs/2404.07610v1"
+        },
+        "c": "https://github.com/ailab-kyunghee/cm2_dvc",
         "n": "CM²",
         "d": "2024-04-11",
         "m1": "8.55",
@@ -163,8 +187,11 @@
         "m12": "53.71"
       },
       {
-        "p": "[A Better Use of Audio-Visual Cues: Dense Video Captioning with Bi-modal Transformer](https://arxiv.org/abs/2005.08271v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/v-iashin/video_features)",
+        "p": {
+          "name": "A Better Use of Audio-Visual Cues: Dense Video Captioning with Bi-modal Transformer",
+          "link": "https://arxiv.org/abs/2005.08271v2"
+        },
+        "c": "https://github.com/v-iashin/video_features",
         "n": "BMT",
         "d": "2020-05-17",
         "m1": "8.44",
@@ -172,7 +199,10 @@
         "m3": "1.88"
       },
       {
-        "p": "[iPerceive: Applying Common-Sense Reasoning to Multi-Modal Dense Video Captioning and Video Question Answering](https://arxiv.org/abs/2011.07735v1)",
+        "p": {
+          "name": "iPerceive: Applying Common-Sense Reasoning to Multi-Modal Dense Video Captioning and Video Question Answering",
+          "link": "https://arxiv.org/abs/2011.07735v1"
+        },
         "c": "",
         "n": "iPerceive (Chadha et al., 2020)",
         "d": "2020-11-16",
@@ -181,8 +211,11 @@
         "m3": "1.29"
       },
       {
-        "p": "[Multi-modal Dense Video Captioning](https://arxiv.org/abs/2003.07758v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/v-iashin/video_features)",
+        "p": {
+          "name": "Multi-modal Dense Video Captioning",
+          "link": "https://arxiv.org/abs/2003.07758v2"
+        },
+        "c": "https://github.com/v-iashin/video_features",
         "n": "MDVC",
         "d": "2020-03-17",
         "m1": "7.31",
@@ -190,8 +223,11 @@
         "m3": "1.07"
       },
       {
-        "p": "[VTimeLLM: Empower LLM to Grasp Video Moments](https://arxiv.org/abs/2311.18445v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/huangb23/vtimellm)",
+        "p": {
+          "name": "VTimeLLM: Empower LLM to Grasp Video Moments",
+          "link": "https://arxiv.org/abs/2311.18445v1"
+        },
+        "c": "https://github.com/huangb23/vtimellm",
         "n": "VTimeLLM",
         "d": "2023-11-30",
         "m4": "27.6",

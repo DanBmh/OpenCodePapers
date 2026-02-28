@@ -48,15 +48,21 @@
     ],
     "items": [
       {
-        "p": "[CMX: Cross-Modal Fusion for RGB-X Semantic Segmentation with Transformers](https://arxiv.org/abs/2203.04838v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/huaaaliu/rgbx_semantic_segmentation)",
+        "p": {
+          "name": "CMX: Cross-Modal Fusion for RGB-X Semantic Segmentation with Transformers",
+          "link": "https://arxiv.org/abs/2203.04838v5"
+        },
+        "c": "https://github.com/huaaaliu/rgbx_semantic_segmentation",
         "n": "CMX",
         "d": "2022-03-09",
         "m1": "61.3%"
       },
       {
-        "p": "[PanopticNDT: Efficient and Robust Panoptic Mapping](https://arxiv.org/abs/2309.13635v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/tui-nicr/emsanet)",
+        "p": {
+          "name": "PanopticNDT: Efficient and Robust Panoptic Mapping",
+          "link": "https://arxiv.org/abs/2309.13635v2"
+        },
+        "c": "https://github.com/tui-nicr/emsanet",
         "n": "EMSANet (2x ResNet-34 NBt1D, PanopticNDT version)",
         "d": "2023-09-24",
         "m1": "60.0%",
@@ -64,71 +70,101 @@
         "m4": "70.99%"
       },
       {
-        "p": "[RFBNet: Deep Multimodal Networks with Residual Fusion Blocks for RGB-D Semantic Segmentation](https://arxiv.org/abs/1907.00135v2)",
+        "p": {
+          "name": "RFBNet: Deep Multimodal Networks with Residual Fusion Blocks for RGB-D Semantic Segmentation",
+          "link": "https://arxiv.org/abs/1907.00135v2"
+        },
         "c": "",
         "n": "RFBNet",
         "d": "2019-06-29",
         "m1": "59.2%"
       },
       {
-        "p": "[Self-Supervised Model Adaptation for Multimodal Semantic Segmentation](https://arxiv.org/abs/1808.03833v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/DeepSceneSeg/SSMA)",
+        "p": {
+          "name": "Self-Supervised Model Adaptation for Multimodal Semantic Segmentation",
+          "link": "https://arxiv.org/abs/1808.03833v3"
+        },
+        "c": "https://github.com/DeepSceneSeg/SSMA",
         "n": "SSMA",
         "d": "2018-08-11",
         "m1": "57.7"
       },
       {
-        "p": "[Efficient Multi-Task Scene Analysis with RGB-D Transformers](https://arxiv.org/abs/2306.05242v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/tui-nicr/nicr-scene-analysis-datasets)",
+        "p": {
+          "name": "Efficient Multi-Task Scene Analysis with RGB-D Transformers",
+          "link": "https://arxiv.org/abs/2306.05242v1"
+        },
+        "c": "https://github.com/tui-nicr/nicr-scene-analysis-datasets",
         "n": "EMSAFormer",
         "d": "2023-06-08",
         "m1": "56.4%"
       },
       {
-        "p": "[Self-Supervised Model Adaptation for Multimodal Semantic Segmentation](https://arxiv.org/abs/1808.03833v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/DeepSceneSeg/SSMA)",
+        "p": {
+          "name": "Self-Supervised Model Adaptation for Multimodal Semantic Segmentation",
+          "link": "https://arxiv.org/abs/1808.03833v3"
+        },
+        "c": "https://github.com/DeepSceneSeg/SSMA",
         "n": "AdapNet++",
         "d": "2018-08-11",
         "m1": "50.3"
       },
       {
-        "p": "[3DMV: Joint 3D-Multi-View Prediction for 3D Semantic Scene Segmentation](http://arxiv.org/abs/1803.10409v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/angeladai/3DMV)",
+        "p": {
+          "name": "3DMV: Joint 3D-Multi-View Prediction for 3D Semantic Scene Segmentation",
+          "link": "http://arxiv.org/abs/1803.10409v1"
+        },
+        "c": "https://github.com/angeladai/3DMV",
         "n": "3DMV (2d proj)",
         "d": "2018-03-28",
         "m1": "49.8%"
       },
       {
-        "p": "[MSeg: A Composite Dataset for Multi-domain Semantic Segmentation](https://arxiv.org/abs/2112.13762v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/mseg-dataset/mseg-semantic)",
+        "p": {
+          "name": "MSeg: A Composite Dataset for Multi-domain Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2112.13762v1"
+        },
+        "c": "https://github.com/mseg-dataset/mseg-semantic",
         "n": "MSeg1080_RVC",
         "d": "2021-12-27",
         "m1": "48.5%"
       },
       {
-        "p": "[Pyramid Scene Parsing Network](http://arxiv.org/abs/1612.01105v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+        "p": {
+          "name": "Pyramid Scene Parsing Network",
+          "link": "http://arxiv.org/abs/1612.01105v2"
+        },
+        "c": "https://github.com/tensorflow/models",
         "n": "PSPNet",
         "d": "2016-12-04",
         "m1": "47.5%"
       },
       {
-        "p": "[ENet: A Deep Neural Network Architecture for Real-Time Semantic Segmentation](http://arxiv.org/abs/1606.02147v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleSeg)",
+        "p": {
+          "name": "ENet: A Deep Neural Network Architecture for Real-Time Semantic Segmentation",
+          "link": "http://arxiv.org/abs/1606.02147v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
         "n": "ENet",
         "d": "2016-06-07",
         "m1": "37.6%"
       },
       {
-        "p": "[ScanNet: Richly-annotated 3D Reconstructions of Indoor Scenes](http://arxiv.org/abs/1702.04405v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/suryanshkumar/online-joint-depthfusion-and-semantic)",
+        "p": {
+          "name": "ScanNet: Richly-annotated 3D Reconstructions of Indoor Scenes",
+          "link": "http://arxiv.org/abs/1702.04405v2"
+        },
+        "c": "https://github.com/suryanshkumar/online-joint-depthfusion-and-semantic",
         "n": "ScanNet (2d proj)",
         "d": "2017-02-14",
         "m1": "33.0%"
       },
       {
-        "p": "[Floors are Flat: Leveraging Semantics for Real-Time Surface Normal Prediction](https://arxiv.org/abs/1906.06792v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/StevenHickson/CreateNormals)",
+        "p": {
+          "name": "Floors are Flat: Leveraging Semantics for Real-Time Surface Normal Prediction",
+          "link": "https://arxiv.org/abs/1906.06792v1"
+        },
+        "c": "https://github.com/StevenHickson/CreateNormals",
         "n": "Floors are Flat",
         "d": "2019-06-16",
         "m2": "65.6"

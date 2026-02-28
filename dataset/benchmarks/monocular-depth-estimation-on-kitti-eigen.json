@@ -69,8 +69,11 @@
     ],
     "items": [
       {
-        "p": "[SPIdepth: Strengthened Pose Information for Self-supervised Monocular Depth Estimation](https://arxiv.org/abs/2404.12501v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/Lavreniuk/SPIdepth)",
+        "p": {
+          "name": "SPIdepth: Strengthened Pose Information for Self-supervised Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2404.12501v3"
+        },
+        "c": "https://github.com/Lavreniuk/SPIdepth",
         "n": "SPIDepth",
         "d": "2024-04-18",
         "m1": "0.029",
@@ -82,8 +85,11 @@
         "m7": "1.000"
       },
       {
-        "p": "[UniK3D: Universal Camera Monocular 3D Estimation](https://arxiv.org/abs/2503.16591v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/lpiccinelli-eth/UniK3D)",
+        "p": {
+          "name": "UniK3D: Universal Camera Monocular 3D Estimation",
+          "link": "https://arxiv.org/abs/2503.16591v1"
+        },
+        "c": "https://github.com/lpiccinelli-eth/UniK3D",
         "n": "UniK3D (FT, metric)",
         "d": "2025-03-20",
         "m1": "0.037",
@@ -94,8 +100,11 @@
         "m7": "0.999"
       },
       {
-        "p": "[UniDepthV2: Universal Monocular Metric Depth Estimation Made Simpler](https://arxiv.org/abs/2502.20110v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/lpiccinelli-eth/unidepth)",
+        "p": {
+          "name": "UniDepthV2: Universal Monocular Metric Depth Estimation Made Simpler",
+          "link": "https://arxiv.org/abs/2502.20110v1"
+        },
+        "c": "https://github.com/lpiccinelli-eth/unidepth",
         "n": "UniDepthV2 (FT, metric)",
         "d": "2025-02-27",
         "m1": "0.037",
@@ -106,8 +115,11 @@
         "m7": "0.999"
       },
       {
-        "p": "[Metric3Dv2: A Versatile Monocular Geometric Foundation Model for Zero-shot Metric Depth and Surface Normal Estimation](https://arxiv.org/abs/2404.15506v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/yvanyin/metric3d)",
+        "p": {
+          "name": "Metric3Dv2: A Versatile Monocular Geometric Foundation Model for Zero-shot Metric Depth and Surface Normal Estimation",
+          "link": "https://arxiv.org/abs/2404.15506v4"
+        },
+        "c": "https://github.com/yvanyin/metric3d",
         "n": "Metric3Dv2 (g2, FT, 80m, flip_aug_test)",
         "d": "2024-03-22",
         "m1": "0.039",
@@ -118,8 +130,11 @@
         "m7": "1.000"
       },
       {
-        "p": "[LightedDepth: Video Depth Estimation in Light of Limited Inference View Angles](http://openaccess.thecvf.com//content/CVPR2023/html/Zhu_LightedDepth_Video_Depth_Estimation_in_Light_of_Limited_Inference_View_CVPR_2023_paper.html)",
-        "c": "[&check;&nbsp;Link](https://github.com/shngjz/lighteddepth)",
+        "p": {
+          "name": "LightedDepth: Video Depth Estimation in Light of Limited Inference View Angles",
+          "link": "http://openaccess.thecvf.com//content/CVPR2023/html/Zhu_LightedDepth_Video_Depth_Estimation_in_Light_of_Limited_Inference_View_CVPR_2023_paper.html"
+        },
+        "c": "https://github.com/shngjz/lighteddepth",
         "n": "LightedDepth (Video Method)",
         "d": "2023-01-01",
         "m1": "0.041",
@@ -131,7 +146,10 @@
         "m7": "0.999"
       },
       {
-        "p": "[FutureDepth: Learning to Predict the Future Improves Video Depth Estimation](https://arxiv.org/abs/2403.12953v2)",
+        "p": {
+          "name": "FutureDepth: Learning to Predict the Future Improves Video Depth Estimation",
+          "link": "https://arxiv.org/abs/2403.12953v2"
+        },
         "c": "",
         "n": "FutureDepth",
         "d": "2024-03-19",
@@ -145,8 +163,11 @@
         "m8": "0.117"
       },
       {
-        "p": "[UniDepth: Universal Monocular Metric Depth Estimation](https://arxiv.org/abs/2403.18913v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/lpiccinelli-eth/unidepth)",
+        "p": {
+          "name": "UniDepth: Universal Monocular Metric Depth Estimation",
+          "link": "https://arxiv.org/abs/2403.18913v1"
+        },
+        "c": "https://github.com/lpiccinelli-eth/unidepth",
         "n": "UniDepth (Zero-shot)",
         "d": "2024-03-27",
         "m1": "0.042",
@@ -157,8 +178,11 @@
         "m7": "0.999"
       },
       {
-        "p": "[SQLdepth: Generalizable Self-Supervised Fine-Structured Monocular Depth Estimation](https://arxiv.org/abs/2309.00526v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/hisfog/SfMNeXt-Impl)",
+        "p": {
+          "name": "SQLdepth: Generalizable Self-Supervised Fine-Structured Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2309.00526v1"
+        },
+        "c": "https://github.com/hisfog/SfMNeXt-Impl",
         "n": "SQLdepth (ConvNeXt-L)",
         "d": "2023-09-01",
         "m1": "0.043",
@@ -170,8 +194,11 @@
         "m7": "0.999"
       },
       {
-        "p": "[Adaptive Fusion of Single-View and Multi-View Depth for Autonomous Driving](https://arxiv.org/abs/2403.07535v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/junda24/afnet)",
+        "p": {
+          "name": "Adaptive Fusion of Single-View and Multi-View Depth for Autonomous Driving",
+          "link": "https://arxiv.org/abs/2403.07535v1"
+        },
+        "c": "https://github.com/junda24/afnet",
         "n": "AFNet",
         "d": "2024-03-12",
         "m1": "0.044",
@@ -183,8 +210,11 @@
         "m7": "0.999"
       },
       {
-        "p": "[Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data](https://arxiv.org/abs/2401.10891v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/LiheYoung/Depth-Anything)",
+        "p": {
+          "name": "Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data",
+          "link": "https://arxiv.org/abs/2401.10891v2"
+        },
+        "c": "https://github.com/LiheYoung/Depth-Anything",
         "n": "Depth Anything",
         "d": "2024-01-19",
         "m1": "0.046",
@@ -196,8 +226,11 @@
         "m7": "1.000"
       },
       {
-        "p": "[Harnessing Diffusion Models for Visual Perception with Meta Prompts](https://arxiv.org/abs/2312.14733v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/fudan-zvg/meta-prompts)",
+        "p": {
+          "name": "Harnessing Diffusion Models for Visual Perception with Meta Prompts",
+          "link": "https://arxiv.org/abs/2312.14733v1"
+        },
+        "c": "https://github.com/fudan-zvg/meta-prompts",
         "n": "MetaPrompt-SD",
         "d": "2023-12-22",
         "m1": "0.047",
@@ -209,8 +242,11 @@
         "m7": "1.000"
       },
       {
-        "p": "[ECoDepth: Effective Conditioning of Diffusion Models for Monocular Depth Estimation](https://arxiv.org/abs/2403.18807v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/aradhye2002/ecodepth)",
+        "p": {
+          "name": "ECoDepth: Effective Conditioning of Diffusion Models for Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2403.18807v4"
+        },
+        "c": "https://github.com/aradhye2002/ecodepth",
         "n": "ECoDepth",
         "d": "2024-03-27",
         "m1": "0.048",
@@ -222,8 +258,11 @@
         "m7": "1.000"
       },
       {
-        "p": "[ScaleDepth: Decomposing Metric Depth Estimation into Scale Prediction and Relative Depth Estimation](https://arxiv.org/abs/2407.08187v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/RuijieZhu94/mmdepth/blob/main/projects/ScaleDepth/README.md)",
+        "p": {
+          "name": "ScaleDepth: Decomposing Metric Depth Estimation into Scale Prediction and Relative Depth Estimation",
+          "link": "https://arxiv.org/abs/2407.08187v1"
+        },
+        "c": "https://github.com/RuijieZhu94/mmdepth/blob/main/projects/ScaleDepth/README.md",
         "n": "ScaleDepth-K",
         "d": "2024-07-11",
         "m1": "0.048",
@@ -235,8 +274,11 @@
         "m7": "1.000"
       },
       {
-        "p": "[EVP: Enhanced Visual Perception using Inverse Multi-Attentive Feature Refinement and Regularized Image-Text Alignment](https://arxiv.org/abs/2312.08548v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/lavreniuk/evp)",
+        "p": {
+          "name": "EVP: Enhanced Visual Perception using Inverse Multi-Attentive Feature Refinement and Regularized Image-Text Alignment",
+          "link": "https://arxiv.org/abs/2312.08548v1"
+        },
+        "c": "https://github.com/lavreniuk/evp",
         "n": "EVP",
         "d": "2023-12-13",
         "m1": "0.048",
@@ -248,8 +290,11 @@
         "m7": "1.000"
       },
       {
-        "p": "[GEDepth: Ground Embedding for Monocular Depth Estimation](https://arxiv.org/abs/2309.09975v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/qcraftai/gedepth)",
+        "p": {
+          "name": "GEDepth: Ground Embedding for Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2309.09975v1"
+        },
+        "c": "https://github.com/qcraftai/gedepth",
         "n": "GEDepth",
         "d": "2023-09-18",
         "m1": "0.048",
@@ -261,7 +306,10 @@
         "m7": "0.9993"
       },
       {
-        "p": "[MAMo: Leveraging Memory and Attention for Monocular Video Depth Estimation](https://arxiv.org/abs/2307.14336v3)",
+        "p": {
+          "name": "MAMo: Leveraging Memory and Attention for Monocular Video Depth Estimation",
+          "link": "https://arxiv.org/abs/2307.14336v3"
+        },
         "c": "",
         "n": "MAMo",
         "d": "2023-07-26",
@@ -274,8 +322,11 @@
         "m7": "0.9995"
       },
       {
-        "p": "[Revealing the Dark Secrets of Masked Image Modeling](https://arxiv.org/abs/2205.13543v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/SwinTransformer/MIM-Depth-Estimation)",
+        "p": {
+          "name": "Revealing the Dark Secrets of Masked Image Modeling",
+          "link": "https://arxiv.org/abs/2205.13543v2"
+        },
+        "c": "https://github.com/SwinTransformer/MIM-Depth-Estimation",
         "n": "SwinV2-L 1K-MIM",
         "d": "2022-05-26",
         "m1": "0.050",
@@ -287,8 +338,11 @@
         "m7": "1.000"
       },
       {
-        "p": "[IEBins: Iterative Elastic Bins for Monocular Depth Estimation](https://arxiv.org/abs/2309.14137v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/shuweishao/iebins)",
+        "p": {
+          "name": "IEBins: Iterative Elastic Bins for Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2309.14137v1"
+        },
+        "c": "https://github.com/shuweishao/iebins",
         "n": "IEBins",
         "d": "2023-09-25",
         "m1": "0.050",
@@ -300,8 +354,11 @@
         "m7": "0.999"
       },
       {
-        "p": "[NDDepth: Normal-Distance Assisted Monocular Depth Estimation](https://arxiv.org/abs/2309.10592v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/ShuweiShao/NDDepth)",
+        "p": {
+          "name": "NDDepth: Normal-Distance Assisted Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2309.10592v2"
+        },
+        "c": "https://github.com/ShuweiShao/NDDepth",
         "n": "NDDepth",
         "d": "2023-09-19",
         "m1": "0.050",
@@ -313,8 +370,11 @@
         "m7": "0.999"
       },
       {
-        "p": "[URCDC-Depth: Uncertainty Rectified Cross-Distillation with CutFlip for Monocular Depth Estimation](https://arxiv.org/abs/2302.08149v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/shuweishao/urcdc-depth)",
+        "p": {
+          "name": "URCDC-Depth: Uncertainty Rectified Cross-Distillation with CutFlip for Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2302.08149v2"
+        },
+        "c": "https://github.com/shuweishao/urcdc-depth",
         "n": "URCDC-Depth",
         "d": "2023-02-16",
         "m1": "0.050",
@@ -326,8 +386,11 @@
         "m7": "0.999"
       },
       {
-        "p": "[iDisc: Internal Discretization for Monocular Depth Estimation](https://arxiv.org/abs/2304.06334v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/lpiccinelli-eth/unidepth)",
+        "p": {
+          "name": "iDisc: Internal Discretization for Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2304.06334v1"
+        },
+        "c": "https://github.com/lpiccinelli-eth/unidepth",
         "n": "iDisc",
         "d": "2023-04-13",
         "m1": "0.050",
@@ -339,8 +402,11 @@
         "m7": "0.999"
       },
       {
-        "p": "[DDP: Diffusion Model for Dense Visual Prediction](https://arxiv.org/abs/2303.17559v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/jiyuanfeng/ddp)",
+        "p": {
+          "name": "DDP: Diffusion Model for Dense Visual Prediction",
+          "link": "https://arxiv.org/abs/2303.17559v2"
+        },
+        "c": "https://github.com/jiyuanfeng/ddp",
         "n": "DDP (Swin-L, step-3)",
         "d": "2023-03-30",
         "m1": "0.050",
@@ -352,7 +418,10 @@
         "m7": "0.999"
       },
       {
-        "p": "[Analysis of NaN Divergence in Training Monocular Depth Estimation Model](https://arxiv.org/abs/2311.03938v1)",
+        "p": {
+          "name": "Analysis of NaN Divergence in Training Monocular Depth Estimation Model",
+          "link": "https://arxiv.org/abs/2311.03938v1"
+        },
         "c": "",
         "n": "MIM-Swin-V2",
         "d": "2023-11-07",
@@ -365,8 +434,11 @@
         "m7": "0.9994"
       },
       {
-        "p": "[Attention Attention Everywhere: Monocular Depth Prediction with Skip Attention](https://arxiv.org/abs/2210.09071v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/ashutosh1807/pixelformer)",
+        "p": {
+          "name": "Attention Attention Everywhere: Monocular Depth Prediction with Skip Attention",
+          "link": "https://arxiv.org/abs/2210.09071v1"
+        },
+        "c": "https://github.com/ashutosh1807/pixelformer",
         "n": "PixelFormer",
         "d": "2022-10-17",
         "m1": "0.051",
@@ -378,8 +450,11 @@
         "m7": "0.999"
       },
       {
-        "p": "[Revealing the Dark Secrets of Masked Image Modeling](https://arxiv.org/abs/2205.13543v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/SwinTransformer/MIM-Depth-Estimation)",
+        "p": {
+          "name": "Revealing the Dark Secrets of Masked Image Modeling",
+          "link": "https://arxiv.org/abs/2205.13543v2"
+        },
+        "c": "https://github.com/SwinTransformer/MIM-Depth-Estimation",
         "n": "SwinV2-B 1K-MIM",
         "d": "2022-05-26",
         "m1": "0.052",
@@ -391,8 +466,11 @@
         "m7": "0.999"
       },
       {
-        "p": "[BinsFormer: Revisiting Adaptive Bins for Monocular Depth Estimation](https://arxiv.org/abs/2204.00987v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/zhyever/monocular-depth-estimation-toolbox)",
+        "p": {
+          "name": "BinsFormer: Revisiting Adaptive Bins for Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2204.00987v1"
+        },
+        "c": "https://github.com/zhyever/monocular-depth-estimation-toolbox",
         "n": "BinsFormer",
         "d": "2022-04-03",
         "m1": "0.052",
@@ -404,8 +482,11 @@
         "m7": "0.999"
       },
       {
-        "p": "[NeW CRFs: Neural Window Fully-connected CRFs for Monocular Depth Estimation](https://arxiv.org/abs/2203.01502v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/aliyun/NeWCRFs)",
+        "p": {
+          "name": "NeW CRFs: Neural Window Fully-connected CRFs for Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2203.01502v2"
+        },
+        "c": "https://github.com/aliyun/NeWCRFs",
         "n": "NeWCRFs",
         "d": "2022-03-03",
         "m1": "0.052",
@@ -417,8 +498,11 @@
         "m7": "0.999"
       },
       {
-        "p": "[DepthFormer: Exploiting Long-Range Correlation and Local Information for Accurate Monocular Depth Estimation](https://arxiv.org/abs/2203.14211v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/zhyever/Monocular-Depth-Estimation-Toolbox/tree/main/configs/depthformer)",
+        "p": {
+          "name": "DepthFormer: Exploiting Long-Range Correlation and Local Information for Accurate Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2203.14211v1"
+        },
+        "c": "https://github.com/zhyever/Monocular-Depth-Estimation-Toolbox/tree/main/configs/depthformer",
         "n": "DepthFormer",
         "d": "2022-03-27",
         "m1": "0.052",
@@ -430,8 +514,11 @@
         "m7": "0.999"
       },
       {
-        "p": "[Monocular Depth Estimation through Virtual-world Supervision and Real-world SfM Self-Supervision](https://arxiv.org/abs/2103.12209v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/HMRC-AEL/MonoDEVSNet)",
+        "p": {
+          "name": "Monocular Depth Estimation through Virtual-world Supervision and Real-world SfM Self-Supervision",
+          "link": "https://arxiv.org/abs/2103.12209v3"
+        },
+        "c": "https://github.com/HMRC-AEL/MonoDEVSNet",
         "n": "MonoDELSNet",
         "d": "2021-03-22",
         "m1": "0.053",
@@ -443,8 +530,11 @@
         "m7": "0.999"
       },
       {
-        "p": "[Deep Two-View Structure-from-Motion Revisited](https://arxiv.org/abs/2104.00556v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/jytime/Deep-SfM-Revisited)",
+        "p": {
+          "name": "Deep Two-View Structure-from-Motion Revisited",
+          "link": "https://arxiv.org/abs/2104.00556v1"
+        },
+        "c": "https://github.com/jytime/Deep-SfM-Revisited",
         "n": "SfM-Revisited",
         "d": "2021-04-01",
         "m1": "0.055",
@@ -452,8 +542,11 @@
         "m3": "0.224"
       },
       {
-        "p": "[D-Net: A Generalised and Optimised Deep Network for Monocular Depth Estimation](https://ieeexplore.ieee.org/document/9551940)",
-        "c": "[&check;&nbsp;Link](https://github.com/Joshuat38/D-Net)",
+        "p": {
+          "name": "D-Net: A Generalised and Optimised Deep Network for Monocular Depth Estimation",
+          "link": "https://ieeexplore.ieee.org/document/9551940"
+        },
+        "c": "https://github.com/Joshuat38/D-Net",
         "n": "D-Net",
         "d": "2021-09-29",
         "m1": "0.056",
@@ -465,8 +558,11 @@
         "m7": "0.999"
       },
       {
-        "p": "[Global-Local Path Networks for Monocular Depth Estimation with Vertical CutDepth](https://arxiv.org/abs/2201.07436v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "Global-Local Path Networks for Monocular Depth Estimation with Vertical CutDepth",
+          "link": "https://arxiv.org/abs/2201.07436v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "GLPDepth",
         "d": "2022-01-19",
         "m1": "0.057",
@@ -477,7 +573,10 @@
         "m7": "0.999"
       },
       {
-        "p": "[NVS-MonoDepth: Improving Monocular Depth Prediction with Novel View Synthesis](https://arxiv.org/abs/2112.12577v1)",
+        "p": {
+          "name": "NVS-MonoDepth: Improving Monocular Depth Prediction with Novel View Synthesis",
+          "link": "https://arxiv.org/abs/2112.12577v1"
+        },
         "c": "",
         "n": "NVS-MonoDepth",
         "d": "2021-12-22",
@@ -485,8 +584,11 @@
         "m2": "2.702"
       },
       {
-        "p": "[Depthformer : Multiscale Vision Transformer For Monocular Depth Estimation With Local Global Information Fusion](https://arxiv.org/abs/2207.04535v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/ashutosh1807/depthformer)",
+        "p": {
+          "name": "Depthformer : Multiscale Vision Transformer For Monocular Depth Estimation With Local Global Information Fusion",
+          "link": "https://arxiv.org/abs/2207.04535v2"
+        },
+        "c": "https://github.com/ashutosh1807/depthformer",
         "n": "Depthformer",
         "d": "2022-07-10",
         "m1": "0.058",
@@ -498,8 +600,11 @@
         "m7": "0.999"
       },
       {
-        "p": "[AdaBins: Depth Estimation using Adaptive Bins](https://arxiv.org/abs/2011.14141v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/shariqfarooq123/AdaBins)",
+        "p": {
+          "name": "AdaBins: Depth Estimation using Adaptive Bins",
+          "link": "https://arxiv.org/abs/2011.14141v1"
+        },
+        "c": "https://github.com/shariqfarooq123/AdaBins",
         "n": "AdaBins",
         "d": "2020-11-28",
         "m1": "0.058",
@@ -510,8 +615,11 @@
         "m7": "0.999"
       },
       {
-        "p": "[Metric3D: Towards Zero-shot Metric 3D Prediction from A Single Image](https://arxiv.org/abs/2307.10984v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/yvanyin/metric3d)",
+        "p": {
+          "name": "Metric3D: Towards Zero-shot Metric 3D Prediction from A Single Image",
+          "link": "https://arxiv.org/abs/2307.10984v1"
+        },
+        "c": "https://github.com/yvanyin/metric3d",
         "n": "Metric3D (zero-shot)",
         "d": "2023-07-20",
         "m1": "0.058",
@@ -521,8 +629,11 @@
         "m7": "0.999"
       },
       {
-        "p": "[Monocular Depth Estimation Using Laplacian Pyramid-Based Depth Residuals](https://ieeexplore.ieee.org/document/9316778)",
-        "c": "[&check;&nbsp;Link](https://github.com/tjqansthd/LapDepth-release)",
+        "p": {
+          "name": "Monocular Depth Estimation Using Laplacian Pyramid-Based Depth Residuals",
+          "link": "https://ieeexplore.ieee.org/document/9316778"
+        },
+        "c": "https://github.com/tjqansthd/LapDepth-release",
         "n": "LapDepth",
         "d": "2021-01-08",
         "m1": "0.059",
@@ -533,8 +644,11 @@
         "m7": "0.999"
       },
       {
-        "p": "[Vision Transformers for Dense Prediction](https://arxiv.org/abs/2103.13413v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "Vision Transformers for Dense Prediction",
+          "link": "https://arxiv.org/abs/2103.13413v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "DPT-Hybrid",
         "d": "2021-03-24",
         "m1": "0.062",
@@ -545,15 +659,21 @@
         "m7": "0.999"
       },
       {
-        "p": "[From Big to Small: Multi-Scale Local Planar Guidance for Monocular Depth Estimation](https://arxiv.org/abs/1907.10326v6)",
-        "c": "[&check;&nbsp;Link](https://github.com/cleinc/bts)",
+        "p": {
+          "name": "From Big to Small: Multi-Scale Local Planar Guidance for Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/1907.10326v6"
+        },
+        "c": "https://github.com/cleinc/bts",
         "n": "BTS",
         "d": "2019-07-24",
         "m1": "0.064"
       },
       {
-        "p": "[DINOv2: Learning Robust Visual Features without Supervision](https://arxiv.org/abs/2304.07193v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "DINOv2: Learning Robust Visual Features without Supervision",
+          "link": "https://arxiv.org/abs/2304.07193v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "DINOv2 (ViT-g/14 frozen, w/ DPT decoder)",
         "d": "2023-04-14",
         "m1": "0.0652",
@@ -565,16 +685,22 @@
         "m7": "0.9993"
       },
       {
-        "p": "[LightDepth: A Resource Efficient Depth Estimation Approach for Dealing with Ground Truth Sparsity via Curriculum Learning](https://arxiv.org/abs/2211.08608v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/fatemehkarimii/lightdepth)",
+        "p": {
+          "name": "LightDepth: A Resource Efficient Depth Estimation Approach for Dealing with Ground Truth Sparsity via Curriculum Learning",
+          "link": "https://arxiv.org/abs/2211.08608v2"
+        },
+        "c": "https://github.com/fatemehkarimii/lightdepth",
         "n": "LightDepth",
         "d": "2022-11-16",
         "m1": "0.070",
         "m2": "2.923"
       },
       {
-        "p": "[Deep Ordinal Regression Network for Monocular Depth Estimation](http://arxiv.org/abs/1806.02446v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/hufu6371/DORN)",
+        "p": {
+          "name": "Deep Ordinal Regression Network for Monocular Depth Estimation",
+          "link": "http://arxiv.org/abs/1806.02446v1"
+        },
+        "c": "https://github.com/hufu6371/DORN",
         "n": "DORN",
         "d": "2018-06-06",
         "m1": "0.072",
@@ -585,38 +711,53 @@
         "m7": "0.994"
       },
       {
-        "p": "[Enforcing geometric constraints of virtual normal for depth prediction](https://arxiv.org/abs/1907.12209v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/aim-uofa/AdelaiDepth)",
+        "p": {
+          "name": "Enforcing geometric constraints of virtual normal for depth prediction",
+          "link": "https://arxiv.org/abs/1907.12209v2"
+        },
+        "c": "https://github.com/aim-uofa/AdelaiDepth",
         "n": "VNL",
         "d": "2019-07-29",
         "m1": "0.072"
       },
       {
-        "p": "[PrimeDepth: Efficient Monocular Depth Estimation with a Stable Diffusion Preimage](https://arxiv.org/abs/2409.09144v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/vislearn/PrimeDepth)",
+        "p": {
+          "name": "PrimeDepth: Efficient Monocular Depth Estimation with a Stable Diffusion Preimage",
+          "link": "https://arxiv.org/abs/2409.09144v1"
+        },
+        "c": "https://github.com/vislearn/PrimeDepth",
         "n": "PrimeDepth + Depth Anything",
         "d": "2024-09-13",
         "m1": "0.073",
         "m5": "0.953"
       },
       {
-        "p": "[On Deep Learning Techniques to Boost Monocular Depth Estimation for Autonomous Navigation](https://arxiv.org/abs/2010.06626v2)",
+        "p": {
+          "name": "On Deep Learning Techniques to Boost Monocular Depth Estimation for Autonomous Navigation",
+          "link": "https://arxiv.org/abs/2010.06626v2"
+        },
         "c": "",
         "n": "DSN",
         "d": "2020-10-13",
         "m1": "0.075"
       },
       {
-        "p": "[PrimeDepth: Efficient Monocular Depth Estimation with a Stable Diffusion Preimage](https://arxiv.org/abs/2409.09144v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/vislearn/PrimeDepth)",
+        "p": {
+          "name": "PrimeDepth: Efficient Monocular Depth Estimation with a Stable Diffusion Preimage",
+          "link": "https://arxiv.org/abs/2409.09144v1"
+        },
+        "c": "https://github.com/vislearn/PrimeDepth",
         "n": "PrimeDepth",
         "d": "2024-09-13",
         "m1": "0.079",
         "m5": "0.937"
       },
       {
-        "p": "[Focal-WNet: An Architecture Unifying Convolution and Attention for Depth Estimation](https://ieeexplore.ieee.org/abstract/document/9824488)",
-        "c": "[&check;&nbsp;Link](https://github.com/Goubeast/Focal-WNet)",
+        "p": {
+          "name": "Focal-WNet: An Architecture Unifying Convolution and Attention for Depth Estimation",
+          "link": "https://ieeexplore.ieee.org/abstract/document/9824488"
+        },
+        "c": "https://github.com/Goubeast/Focal-WNet",
         "n": "Focal-WNet",
         "d": "2022-07-18",
         "m1": "0.082",
@@ -627,16 +768,22 @@
         "m7": "0.997"
       },
       {
-        "p": "[DepthMaster: Taming Diffusion Models for Monocular Depth Estimation](https://arxiv.org/abs/2501.02576v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/indu1ge/DepthMaster)",
+        "p": {
+          "name": "DepthMaster: Taming Diffusion Models for Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2501.02576v1"
+        },
+        "c": "https://github.com/indu1ge/DepthMaster",
         "n": "DepthMaster",
         "d": "2025-01-05",
         "m1": "0.082",
         "m5": "0.937"
       },
       {
-        "p": "[Manydepth2: Motion-Aware Self-Supervised Multi-Frame Monocular Depth Estimation in Dynamic Scenes](https://arxiv.org/abs/2312.15268v8)",
-        "c": "[&check;&nbsp;Link](https://github.com/kaichen-z/rad)",
+        "p": {
+          "name": "Manydepth2: Motion-Aware Self-Supervised Multi-Frame Monocular Depth Estimation in Dynamic Scenes",
+          "link": "https://arxiv.org/abs/2312.15268v8"
+        },
+        "c": "https://github.com/kaichen-z/rad",
         "n": "Manydepth2",
         "d": "2023-12-23",
         "m1": "0.091",
@@ -648,64 +795,91 @@
         "m7": "0.984"
       },
       {
-        "p": "[Enhancing self-supervised monocular depth estimation with traditional visual odometry](https://arxiv.org/abs/1908.03127v2)",
+        "p": {
+          "name": "Enhancing self-supervised monocular depth estimation with traditional visual odometry",
+          "link": "https://arxiv.org/abs/1908.03127v2"
+        },
         "c": "",
         "n": "VOMonodepth",
         "d": "2019-08-08",
         "m1": "0.091"
       },
       {
-        "p": "[High Quality Monocular Depth Estimation via Transfer Learning](http://arxiv.org/abs/1812.11941v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/ialhashim/DenseDepth)",
+        "p": {
+          "name": "High Quality Monocular Depth Estimation via Transfer Learning",
+          "link": "http://arxiv.org/abs/1812.11941v2"
+        },
+        "c": "https://github.com/ialhashim/DenseDepth",
         "n": "DenseDepth",
         "d": "2018-12-31",
         "m1": "0.093"
       },
       {
-        "p": "[Single View Stereo Matching](http://arxiv.org/abs/1803.02612v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/lawy623/SVS)",
+        "p": {
+          "name": "Single View Stereo Matching",
+          "link": "http://arxiv.org/abs/1803.02612v2"
+        },
+        "c": "https://github.com/lawy623/SVS",
         "n": "SVS",
         "d": "2018-03-07",
         "m1": "0.094"
       },
       {
-        "p": "[Learning monocular depth estimation infusing traditional stereo knowledge](http://arxiv.org/abs/1904.04144v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/fabiotosi92/monoResMatch-Tensorflow)",
+        "p": {
+          "name": "Learning monocular depth estimation infusing traditional stereo knowledge",
+          "link": "http://arxiv.org/abs/1904.04144v1"
+        },
+        "c": "https://github.com/fabiotosi92/monoResMatch-Tensorflow",
         "n": "monoResMatch",
         "d": "2019-04-08",
         "m1": "0.096"
       },
       {
-        "p": "[Semi-Supervised Monocular Depth Estimation with Left-Right Consistency Using Deep Neural Network](https://arxiv.org/abs/1905.07542v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/jahaniam/semidepth)",
+        "p": {
+          "name": "Semi-Supervised Monocular Depth Estimation with Left-Right Consistency Using Deep Neural Network",
+          "link": "https://arxiv.org/abs/1905.07542v1"
+        },
+        "c": "https://github.com/jahaniam/semidepth",
         "n": "SemiDepth",
         "d": "2019-05-18",
         "m1": "0.096"
       },
       {
-        "p": "[Monocular Depth Estimation by Learning from Heterogeneous Datasets](http://arxiv.org/abs/1803.08018v2)",
+        "p": {
+          "name": "Monocular Depth Estimation by Learning from Heterogeneous Datasets",
+          "link": "http://arxiv.org/abs/1803.08018v2"
+        },
         "c": "",
         "n": "CFA",
         "d": "2018-03-21",
         "m1": "0.096"
       },
       {
-        "p": "[Self-Supervised Monocular Depth Hints](https://arxiv.org/abs/1909.09051v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/nianticlabs/depth-hints)",
+        "p": {
+          "name": "Self-Supervised Monocular Depth Hints",
+          "link": "https://arxiv.org/abs/1909.09051v1"
+        },
+        "c": "https://github.com/nianticlabs/depth-hints",
         "n": "Depth Hints",
         "d": "2019-09-19",
         "m1": "0.096"
       },
       {
-        "p": "[Structure-Attentioned Memory Network for Monocular Depth Estimation](https://arxiv.org/abs/1909.04594v1)",
+        "p": {
+          "name": "Structure-Attentioned Memory Network for Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/1909.04594v1"
+        },
         "c": "",
         "n": "SOM",
         "d": "2019-09-10",
         "m1": "0.097"
       },
       {
-        "p": "[Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation](https://arxiv.org/abs/2312.02145v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/prs-eth/marigold)",
+        "p": {
+          "name": "Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2312.02145v2"
+        },
+        "c": "https://github.com/prs-eth/marigold",
         "n": "Marigold",
         "d": "2023-12-04",
         "m1": "0.099",
@@ -716,8 +890,11 @@
         "m7": "0.996"
       },
       {
-        "p": "[GCNDepth: Self-supervised Monocular Depth Estimation based on Graph Convolutional Network](https://arxiv.org/abs/2112.06782v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/arminmasoumian/gcndepth)",
+        "p": {
+          "name": "GCNDepth: Self-supervised Monocular Depth Estimation based on Graph Convolutional Network",
+          "link": "https://arxiv.org/abs/2112.06782v1"
+        },
+        "c": "https://github.com/arminmasoumian/gcndepth",
         "n": "GCNDepth",
         "d": "2021-12-13",
         "m1": "0.104",
@@ -728,29 +905,41 @@
         "m7": "0.984"
       },
       {
-        "p": "[Digging Into Self-Supervised Monocular Depth Estimation](https://arxiv.org/abs/1806.01260v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/nianticlabs/monodepth2)",
+        "p": {
+          "name": "Digging Into Self-Supervised Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/1806.01260v4"
+        },
+        "c": "https://github.com/nianticlabs/monodepth2",
         "n": "monodepth2 M",
         "d": "2018-06-04",
         "m1": "0.106"
       },
       {
-        "p": "[Single Image Depth Estimation Trained via Depth from Defocus Cues](https://arxiv.org/abs/2001.05036v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/shirgur/UnsupervisedDepthFromFocus)",
+        "p": {
+          "name": "Single Image Depth Estimation Trained via Depth from Defocus Cues",
+          "link": "https://arxiv.org/abs/2001.05036v1"
+        },
+        "c": "https://github.com/shirgur/UnsupervisedDepthFromFocus",
         "n": "DeepLabV3+ (F10)",
         "d": "2020-01-14",
         "m1": "0.110"
       },
       {
-        "p": "[DiPE: Deeper into Photometric Errors for Unsupervised Learning of Depth and Ego-motion from Monocular Videos](https://arxiv.org/abs/2003.01360v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/HalleyJiang/DiPE)",
+        "p": {
+          "name": "DiPE: Deeper into Photometric Errors for Unsupervised Learning of Depth and Ego-motion from Monocular Videos",
+          "link": "https://arxiv.org/abs/2003.01360v3"
+        },
+        "c": "https://github.com/HalleyJiang/DiPE",
         "n": "DiPE",
         "d": "2020-03-03",
         "m1": "0.112"
       },
       {
-        "p": "[Toward Hierarchical Self-Supervised Monocular Absolute Depth Estimation for Autonomous Driving Applications](https://arxiv.org/abs/2004.05560v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/TJ-IPLab/DNet)",
+        "p": {
+          "name": "Toward Hierarchical Self-Supervised Monocular Absolute Depth Estimation for Autonomous Driving Applications",
+          "link": "https://arxiv.org/abs/2004.05560v2"
+        },
+        "c": "https://github.com/TJ-IPLab/DNet",
         "n": "DNet",
         "d": "2020-04-12",
         "m1": "0.113",
@@ -761,15 +950,21 @@
         "m7": "0.981"
       },
       {
-        "p": "[Learn Stereo, Infer Mono: Siamese Networks for Self-Supervised, Monocular, Depth Estimation](http://arxiv.org/abs/1905.00401v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/mtngld/lsim)",
+        "p": {
+          "name": "Learn Stereo, Infer Mono: Siamese Networks for Self-Supervised, Monocular, Depth Estimation",
+          "link": "http://arxiv.org/abs/1905.00401v1"
+        },
+        "c": "https://github.com/mtngld/lsim",
         "n": "LSIM",
         "d": "2019-05-01",
         "m1": "0.113"
       },
       {
-        "p": "[Unsupervised Scale-consistent Depth Learning from Video](https://arxiv.org/abs/2105.11610v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/JiawangBian/SC-SfMLearner-Release)",
+        "p": {
+          "name": "Unsupervised Scale-consistent Depth Learning from Video",
+          "link": "https://arxiv.org/abs/2105.11610v1"
+        },
+        "c": "https://github.com/JiawangBian/SC-SfMLearner-Release",
         "n": "SC-Depth (ResNet 50)",
         "d": "2021-05-25",
         "m1": "0.114",
@@ -780,15 +975,21 @@
         "m7": "0.982"
       },
       {
-        "p": "[Towards Scene Understanding: Unsupervised Monocular Depth Estimation With Semantic-Aware Representation](http://openaccess.thecvf.com/content_CVPR_2019/html/Chen_Towards_Scene_Understanding_Unsupervised_Monocular_Depth_Estimation_With_Semantic-Aware_Representation_CVPR_2019_paper.html)",
+        "p": {
+          "name": "Towards Scene Understanding: Unsupervised Monocular Depth Estimation With Semantic-Aware Representation",
+          "link": "http://openaccess.thecvf.com/content_CVPR_2019/html/Chen_Towards_Scene_Understanding_Unsupervised_Monocular_Depth_Estimation_With_Semantic-Aware_Representation_CVPR_2019_paper.html"
+        },
         "c": "",
         "n": "SemanticAware",
         "d": "2019-06-01",
         "m1": "0.118"
       },
       {
-        "p": "[Unsupervised Scale-consistent Depth Learning from Video](https://arxiv.org/abs/2105.11610v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/JiawangBian/SC-SfMLearner-Release)",
+        "p": {
+          "name": "Unsupervised Scale-consistent Depth Learning from Video",
+          "link": "https://arxiv.org/abs/2105.11610v1"
+        },
+        "c": "https://github.com/JiawangBian/SC-SfMLearner-Release",
         "n": "SC-Depth (ResNet18)",
         "d": "2021-05-25",
         "m1": "0.119",
@@ -799,86 +1000,122 @@
         "m7": "0.981"
       },
       {
-        "p": "[3D Packing for Self-Supervised Monocular Depth Estimation](https://arxiv.org/abs/1905.02693v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/TRI-ML/packnet-sfm)",
+        "p": {
+          "name": "3D Packing for Self-Supervised Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/1905.02693v4"
+        },
+        "c": "https://github.com/TRI-ML/packnet-sfm",
         "n": "PackNet-SfM",
         "d": "2019-05-06",
         "m1": "0.12"
       },
       {
-        "p": "[Learning monocular depth estimation with unsupervised trinocular assumptions](http://arxiv.org/abs/1808.01606v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/mattpoggi/3net)",
+        "p": {
+          "name": "Learning monocular depth estimation with unsupervised trinocular assumptions",
+          "link": "http://arxiv.org/abs/1808.01606v1"
+        },
+        "c": "https://github.com/mattpoggi/3net",
         "n": "3Net",
         "d": "2018-08-05",
         "m1": "0.126"
       },
       {
-        "p": "[Unsupervised Scale-consistent Depth and Ego-motion Learning from Monocular Video](https://arxiv.org/abs/1908.10553v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/JiawangBian/SC-SfMLearner-Release)",
+        "p": {
+          "name": "Unsupervised Scale-consistent Depth and Ego-motion Learning from Monocular Video",
+          "link": "https://arxiv.org/abs/1908.10553v2"
+        },
+        "c": "https://github.com/JiawangBian/SC-SfMLearner-Release",
         "n": "SC-SfMLearner_CS+K",
         "d": "2019-08-28",
         "m1": "0.128"
       },
       {
-        "p": "[Self-supervised Learning for Single View Depth and Surface Normal Estimation](http://arxiv.org/abs/1903.00112v1)",
+        "p": {
+          "name": "Self-supervised Learning for Single View Depth and Surface Normal Estimation",
+          "link": "http://arxiv.org/abs/1903.00112v1"
+        },
         "c": "",
         "n": "SelfDepthNorm",
         "d": "2019-03-01",
         "m1": "0.133"
       },
       {
-        "p": "[SIGNet: Semantic Instance Aided Unsupervised 3D Geometry Perception](http://arxiv.org/abs/1812.05642v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/mengyuest/SIGNet)",
+        "p": {
+          "name": "SIGNet: Semantic Instance Aided Unsupervised 3D Geometry Perception",
+          "link": "http://arxiv.org/abs/1812.05642v2"
+        },
+        "c": "https://github.com/mengyuest/SIGNet",
         "n": "SIGNet",
         "d": "2018-12-13",
         "m1": "0.133"
       },
       {
-        "p": "[Depth Prediction Without the Sensors: Leveraging Structure for Unsupervised Learning from Monocular Videos](http://arxiv.org/abs/1811.06152v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/research/struct2depth)",
+        "p": {
+          "name": "Depth Prediction Without the Sensors: Leveraging Structure for Unsupervised Learning from Monocular Videos",
+          "link": "http://arxiv.org/abs/1811.06152v1"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/research/struct2depth",
         "n": "struct2depth",
         "d": "2018-11-15",
         "m1": "0.135"
       },
       {
-        "p": "[Unsupervised Scale-consistent Depth and Ego-motion Learning from Monocular Video](https://arxiv.org/abs/1908.10553v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/JiawangBian/SC-SfMLearner-Release)",
+        "p": {
+          "name": "Unsupervised Scale-consistent Depth and Ego-motion Learning from Monocular Video",
+          "link": "https://arxiv.org/abs/1908.10553v2"
+        },
+        "c": "https://github.com/JiawangBian/SC-SfMLearner-Release",
         "n": "SC-SfMLearner",
         "d": "2019-08-28",
         "m1": "0.137"
       },
       {
-        "p": "[Competitive Collaboration: Joint Unsupervised Learning of Depth, Camera Motion, Optical Flow and Motion Segmentation](http://arxiv.org/abs/1805.09806v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/anuragranj/cc)",
+        "p": {
+          "name": "Competitive Collaboration: Joint Unsupervised Learning of Depth, Camera Motion, Optical Flow and Motion Segmentation",
+          "link": "http://arxiv.org/abs/1805.09806v3"
+        },
+        "c": "https://github.com/anuragranj/cc",
         "n": "CC",
         "d": "2018-05-24",
         "m1": "0.140"
       },
       {
-        "p": "[Scaling up Multi-domain Semantic Segmentation with Sentence Embeddings](https://arxiv.org/abs/2202.02002v2)",
+        "p": {
+          "name": "Scaling up Multi-domain Semantic Segmentation with Sentence Embeddings",
+          "link": "https://arxiv.org/abs/2202.02002v2"
+        },
         "c": "",
         "n": "SIW",
         "d": "2022-02-04",
         "m1": "0.14"
       },
       {
-        "p": "[Learning to Recover 3D Scene Shape from a Single Image](https://arxiv.org/abs/2012.09365v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/aim-uofa/AdelaiDepth)",
+        "p": {
+          "name": "Learning to Recover 3D Scene Shape from a Single Image",
+          "link": "https://arxiv.org/abs/2012.09365v1"
+        },
+        "c": "https://github.com/aim-uofa/AdelaiDepth",
         "n": "LeReS",
         "d": "2020-12-17",
         "m1": "0.149",
         "m5": "0.784"
       },
       {
-        "p": "[Geometry-Aware Symmetric Domain Adaptation for Monocular Depth Estimation](http://arxiv.org/abs/1904.01870v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/sshan-zhao/GASDA)",
+        "p": {
+          "name": "Geometry-Aware Symmetric Domain Adaptation for Monocular Depth Estimation",
+          "link": "http://arxiv.org/abs/1904.01870v1"
+        },
+        "c": "https://github.com/sshan-zhao/GASDA",
         "n": "GASDA",
         "d": "2019-04-03",
         "m1": "0.149"
       },
       {
-        "p": "[Veritatem Dies Aperit- Temporally Consistent Depth Prediction Enabled by a Multi-Task Geometric and Semantic Scene Understanding Approach](https://arxiv.org/abs/1903.10764v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/atapour/temporal-depth-segmentation)",
+        "p": {
+          "name": "Veritatem Dies Aperit- Temporally Consistent Depth Prediction Enabled by a Multi-Task Geometric and Semantic Scene Understanding Approach",
+          "link": "https://arxiv.org/abs/1903.10764v2"
+        },
+        "c": "https://github.com/atapour/temporal-depth-segmentation",
         "n": "VDA",
         "d": "2019-03-26",
         "m1": "0.193"

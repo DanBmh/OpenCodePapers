@@ -58,8 +58,11 @@
     ],
     "items": [
       {
-        "p": "[Vision Grid Transformer for Document Layout Analysis](https://arxiv.org/abs/2308.14978v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/alibabaresearch/advancedliteratemachinery)",
+        "p": {
+          "name": "Vision Grid Transformer for Document Layout Analysis",
+          "link": "https://arxiv.org/abs/2308.14978v1"
+        },
+        "c": "https://github.com/alibabaresearch/advancedliteratemachinery",
         "n": "VGT",
         "d": "2023-08-29",
         "m1": "0.962",
@@ -70,7 +73,10 @@
         "m6": "0.971"
       },
       {
-        "p": "[Transformer-based Approach for Document Understanding](https://ieeexplore.ieee.org/abstract/document/9897491)",
+        "p": {
+          "name": "Transformer-based Approach for Document Understanding",
+          "link": "https://ieeexplore.ieee.org/abstract/document/9897491"
+        },
         "c": "",
         "n": "TRDLU",
         "d": "2022-10-16",
@@ -82,8 +88,11 @@
         "m6": "0.966"
       },
       {
-        "p": "[VSR: A Unified Framework for Document Layout Analysis combining Vision, Semantics and Relations](https://arxiv.org/abs/2105.06220v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/hikopensource/davar-lab-ocr)",
+        "p": {
+          "name": "VSR: A Unified Framework for Document Layout Analysis combining Vision, Semantics and Relations",
+          "link": "https://arxiv.org/abs/2105.06220v1"
+        },
+        "c": "https://github.com/hikopensource/davar-lab-ocr",
         "n": "VSR",
         "d": "2021-05-13",
         "m1": "0.957",
@@ -94,7 +103,10 @@
         "m6": "0.964"
       },
       {
-        "p": "[Bridging the Performance Gap between DETR and R-CNN for Graphical Object Detection in Document Images](https://arxiv.org/abs/2306.13526v1)",
+        "p": {
+          "name": "Bridging the Performance Gap between DETR and R-CNN for Graphical Object Detection in Document Images",
+          "link": "https://arxiv.org/abs/2306.13526v1"
+        },
         "c": "",
         "n": "DETR",
         "d": "2023-06-23",
@@ -106,8 +118,11 @@
         "m6": "0.975"
       },
       {
-        "p": "[LayoutLMv3: Pre-training for Document AI with Unified Text and Image Masking](https://arxiv.org/abs/2204.08387v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "LayoutLMv3: Pre-training for Document AI with Unified Text and Image Masking",
+          "link": "https://arxiv.org/abs/2204.08387v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "LayoutLMv3-B",
         "d": "2022-04-18",
         "m1": "0.951",
@@ -118,7 +133,10 @@
         "m6": "0.970"
       },
       {
-        "p": "[DoPTA: Improving Document Layout Analysis using Patch-Text Alignment](https://arxiv.org/abs/2412.12902v1)",
+        "p": {
+          "name": "DoPTA: Improving Document Layout Analysis using Patch-Text Alignment",
+          "link": "https://arxiv.org/abs/2412.12902v1"
+        },
         "c": "",
         "n": "DoPTA",
         "d": "2024-12-17",
@@ -130,8 +148,11 @@
         "m6": "0.970"
       },
       {
-        "p": "[DiT: Self-supervised Pre-training for Document Image Transformer](https://arxiv.org/abs/2203.02378v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "DiT: Self-supervised Pre-training for Document Image Transformer",
+          "link": "https://arxiv.org/abs/2203.02378v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "DiT-L",
         "d": "2022-03-04",
         "m1": "0.949",
@@ -142,7 +163,10 @@
         "m6": "0.972"
       },
       {
-        "p": "[Unified Pretraining Framework for Document Understanding](https://arxiv.org/abs/2204.10939v2)",
+        "p": {
+          "name": "Unified Pretraining Framework for Document Understanding",
+          "link": "https://arxiv.org/abs/2204.10939v2"
+        },
         "c": "",
         "n": "UDoc",
         "d": "2022-04-22",
@@ -154,8 +178,11 @@
         "m6": "0.964"
       },
       {
-        "p": "[Vision Grid Transformer for Document Layout Analysis](https://arxiv.org/abs/2308.14978v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/alibabaresearch/advancedliteratemachinery)",
+        "p": {
+          "name": "Vision Grid Transformer for Document Layout Analysis",
+          "link": "https://arxiv.org/abs/2308.14978v1"
+        },
+        "c": "https://github.com/alibabaresearch/advancedliteratemachinery",
         "n": "ResNext-101-32×8d",
         "d": "2023-08-29",
         "m1": "0.935",
@@ -166,8 +193,11 @@
         "m6": "0.968"
       },
       {
-        "p": "[Training data-efficient image transformers & distillation through attention](https://arxiv.org/abs/2012.12877v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "Training data-efficient image transformers & distillation through attention",
+          "link": "https://arxiv.org/abs/2012.12877v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "DeiT-B",
         "d": "2020-12-23",
         "m1": "0.932",
@@ -178,8 +208,11 @@
         "m6": "0.957"
       },
       {
-        "p": "[BEiT: BERT Pre-Training of Image Transformers](https://arxiv.org/abs/2106.08254v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "BEiT: BERT Pre-Training of Image Transformers",
+          "link": "https://arxiv.org/abs/2106.08254v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "BEiT-B",
         "d": "2021-06-15",
         "m1": "0.931",
@@ -190,8 +223,11 @@
         "m6": " 0.957"
       },
       {
-        "p": "[PubLayNet: largest dataset ever for document layout analysis](https://arxiv.org/abs/1908.07836v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/ibm-aur-nlp/PubLayNet)",
+        "p": {
+          "name": "PubLayNet: largest dataset ever for document layout analysis",
+          "link": "https://arxiv.org/abs/1908.07836v1"
+        },
+        "c": "https://github.com/ibm-aur-nlp/PubLayNet",
         "n": "Mask RCNN",
         "d": "2019-08-16",
         "m1": "0.910",
@@ -202,8 +238,11 @@
         "m6": "0.949"
       },
       {
-        "p": "[PubLayNet: largest dataset ever for document layout analysis](https://arxiv.org/abs/1908.07836v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/ibm-aur-nlp/PubLayNet)",
+        "p": {
+          "name": "PubLayNet: largest dataset ever for document layout analysis",
+          "link": "https://arxiv.org/abs/1908.07836v1"
+        },
+        "c": "https://github.com/ibm-aur-nlp/PubLayNet",
         "n": "Faster RCNN",
         "d": "2019-08-16",
         "m1": "0.902",
@@ -214,8 +253,11 @@
         "m6": "0.937"
       },
       {
-        "p": "[A Graphical Approach to Document Layout Analysis](https://arxiv.org/abs/2308.02051v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/ivanstepanovftw/glam)",
+        "p": {
+          "name": "A Graphical Approach to Document Layout Analysis",
+          "link": "https://arxiv.org/abs/2308.02051v1"
+        },
+        "c": "https://github.com/ivanstepanovftw/glam",
         "n": "GLAM",
         "d": "2023-08-03",
         "m1": "0.722",
@@ -226,8 +268,11 @@
         "m6": "0.206"
       },
       {
-        "p": "[CDeC-Net: Composite Deformable Cascade Network for Table Detection in Document Images](https://arxiv.org/abs/2008.10831v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/mdv3101/CDeCNet)",
+        "p": {
+          "name": "CDeC-Net: Composite Deformable Cascade Network for Table Detection in Document Images",
+          "link": "https://arxiv.org/abs/2008.10831v1"
+        },
+        "c": "https://github.com/mdv3101/CDeCNet",
         "n": "CDeC-Net",
         "d": "2020-08-25",
         "m5": "0.978"

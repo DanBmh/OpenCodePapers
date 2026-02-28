@@ -43,43 +43,61 @@
     ],
     "items": [
       {
-        "p": "[PaGoDA: Progressive Growing of a One-Step Generator from a Low-Resolution Diffusion Teacher](https://arxiv.org/abs/2405.14822v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/sony/pagoda)",
+        "p": {
+          "name": "PaGoDA: Progressive Growing of a One-Step Generator from a Low-Resolution Diffusion Teacher",
+          "link": "https://arxiv.org/abs/2405.14822v2"
+        },
+        "c": "https://github.com/sony/pagoda",
         "n": "PaGoDA",
         "d": "2024-05-23",
         "m1": "0.79"
       },
       {
-        "p": "[StyleGAN-XL: Scaling StyleGAN to Large Diverse Datasets](https://arxiv.org/abs/2202.00273v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/autonomousvision/stylegan-xl)",
+        "p": {
+          "name": "StyleGAN-XL: Scaling StyleGAN to Large Diverse Datasets",
+          "link": "https://arxiv.org/abs/2202.00273v2"
+        },
+        "c": "https://github.com/autonomousvision/stylegan-xl",
         "n": "StyleGAN-XL",
         "d": "2022-02-01",
         "m1": "1.10"
       },
       {
-        "p": "[The GAN is dead; long live the GAN! A Modern GAN Baseline](https://arxiv.org/abs/2501.05441v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/brownvc/r3gan)",
+        "p": {
+          "name": "The GAN is dead; long live the GAN! A Modern GAN Baseline",
+          "link": "https://arxiv.org/abs/2501.05441v1"
+        },
+        "c": "https://github.com/brownvc/r3gan",
         "n": "R3GAN",
         "d": "2025-01-09",
         "m1": "1.27"
       },
       {
-        "p": "[Input Perturbation Reduces Exposure Bias in Diffusion Models](https://arxiv.org/abs/2301.11706v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/forever208/ddpm-ip)",
+        "p": {
+          "name": "Input Perturbation Reduces Exposure Bias in Diffusion Models",
+          "link": "https://arxiv.org/abs/2301.11706v3"
+        },
+        "c": "https://github.com/forever208/ddpm-ip",
         "n": "DDPM-IP",
         "d": "2023-01-27",
         "m1": "2.66"
       },
       {
-        "p": "[Flow Matching for Generative Modeling](https://arxiv.org/abs/2210.02747v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/shivammehta25/Matcha-TTS)",
+        "p": {
+          "name": "Flow Matching for Generative Modeling",
+          "link": "https://arxiv.org/abs/2210.02747v2"
+        },
+        "c": "https://github.com/shivammehta25/Matcha-TTS",
         "n": "FM",
         "d": "2022-10-06",
         "m1": "5.02",
         "m2": "3.53"
       },
       {
-        "p": "[Beyond Masked and Unmasked: Discrete Diffusion Models via Partial Masking](https://arxiv.org/abs/2505.18495v1)",
+        "p": {
+          "name": "Beyond Masked and Unmasked: Discrete Diffusion Models via Partial Masking",
+          "link": "https://arxiv.org/abs/2505.18495v1"
+        },
         "c": "",
         "n": "MDM-Prime",
         "d": "2025-05-24",
@@ -87,7 +105,10 @@
         "m3": "11.65"
       },
       {
-        "p": "[Beyond Masked and Unmasked: Discrete Diffusion Models via Partial Masking](https://arxiv.org/abs/2505.18495v1)",
+        "p": {
+          "name": "Beyond Masked and Unmasked: Discrete Diffusion Models via Partial Masking",
+          "link": "https://arxiv.org/abs/2505.18495v1"
+        },
         "c": "",
         "n": "MDM",
         "d": "2025-05-24",
@@ -95,8 +116,11 @@
         "m3": "11.60"
       },
       {
-        "p": "[Soft Truncation: A Universal Training Technique of Score-based Diffusion Model for High Precision Score Estimation](https://arxiv.org/abs/2106.05527v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/Kim-Dongjun/Soft-Truncation)",
+        "p": {
+          "name": "Soft Truncation: A Universal Training Technique of Score-based Diffusion Model for High Precision Score Estimation",
+          "link": "https://arxiv.org/abs/2106.05527v5"
+        },
+        "c": "https://github.com/Kim-Dongjun/Soft-Truncation",
         "n": "DDPM++ (VP, NLL) + ST",
         "d": "2021-06-10",
         "m1": "8.42",
@@ -104,30 +128,42 @@
         "m3": "11.82"
       },
       {
-        "p": "[Improved Techniques for Maximum Likelihood Estimation for Diffusion ODEs](https://arxiv.org/abs/2305.03935v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/thu-ml/i-dode)",
+        "p": {
+          "name": "Improved Techniques for Maximum Likelihood Estimation for Diffusion ODEs",
+          "link": "https://arxiv.org/abs/2305.03935v4"
+        },
+        "c": "https://github.com/thu-ml/i-dode",
         "n": "i-DODE",
         "d": "2023-05-06",
         "m1": "9.09",
         "m2": "3.43"
       },
       {
-        "p": "[Self-supervised GAN: Analysis and Improvement with Multi-class Minimax Game](https://arxiv.org/abs/1911.06997v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/tntrung/msgan)",
+        "p": {
+          "name": "Self-supervised GAN: Analysis and Improvement with Multi-class Minimax Game",
+          "link": "https://arxiv.org/abs/1911.06997v2"
+        },
+        "c": "https://github.com/tntrung/msgan",
         "n": "MSGAN",
         "d": "2019-11-16",
         "m1": "12.3"
       },
       {
-        "p": "[Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+        "p": {
+          "name": "Denoising Diffusion Probabilistic Models",
+          "link": "https://arxiv.org/abs/2006.11239v2"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
         "n": "DDPM",
         "d": "2020-06-19",
         "m1": "16.18",
         "m2": "3.89"
       },
       {
-        "p": "[Neural Diffusion Models](https://arxiv.org/abs/2310.08337v3)",
+        "p": {
+          "name": "Neural Diffusion Models",
+          "link": "https://arxiv.org/abs/2310.08337v3"
+        },
         "c": "",
         "n": "NDM",
         "d": "2023-10-12",
@@ -135,163 +171,232 @@
         "m2": "3.55"
       },
       {
-        "p": "[On Investigating the Conservative Property of Score-Based Generative Models](https://arxiv.org/abs/2209.12753v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/chen-hao-chao/qcsbm)",
+        "p": {
+          "name": "On Investigating the Conservative Property of Score-Based Generative Models",
+          "link": "https://arxiv.org/abs/2209.12753v3"
+        },
+        "c": "https://github.com/chen-hao-chao/qcsbm",
         "n": "QC-NCSN++",
         "d": "2022-09-26",
         "m1": "19.62",
         "m3": "9.94"
       },
       {
-        "p": "[Neural Flow Diffusion Models: Learnable Forward Process for Improved Diffusion Modelling](https://arxiv.org/abs/2404.12940v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/GrigoryBartosh/neural_diffusion)",
+        "p": {
+          "name": "Neural Flow Diffusion Models: Learnable Forward Process for Improved Diffusion Modelling",
+          "link": "https://arxiv.org/abs/2404.12940v2"
+        },
+        "c": "https://github.com/GrigoryBartosh/neural_diffusion",
         "n": "NFDM",
         "d": "2024-04-19",
         "m2": "3.34"
       },
       {
-        "p": "[Generative Modeling with Bayesian Sample Inference](https://arxiv.org/abs/2502.07580v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/martenlienen/bsi)",
+        "p": {
+          "name": "Generative Modeling with Bayesian Sample Inference",
+          "link": "https://arxiv.org/abs/2502.07580v2"
+        },
+        "c": "https://github.com/martenlienen/bsi",
         "n": "BSI",
         "d": "2025-02-11",
         "m2": "3.44"
       },
       {
-        "p": "[Densely connected normalizing flows](https://arxiv.org/abs/2106.04627v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/matejgrcic/DenseFlow)",
+        "p": {
+          "name": "Densely connected normalizing flows",
+          "link": "https://arxiv.org/abs/2106.04627v3"
+        },
+        "c": "https://github.com/matejgrcic/DenseFlow",
         "n": "DenseFlow-74-10",
         "d": "2021-06-08",
         "m2": "3.63"
       },
       {
-        "p": "[Variational Diffusion Models](https://arxiv.org/abs/2107.00630v6)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/vdm)",
+        "p": {
+          "name": "Variational Diffusion Models",
+          "link": "https://arxiv.org/abs/2107.00630v6"
+        },
+        "c": "https://github.com/google-research/vdm",
         "n": "VDM",
         "d": "2021-07-01",
         "m2": "3.72"
       },
       {
-        "p": "[Hierarchical Transformers Are More Efficient Language Models](https://arxiv.org/abs/2110.13711v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+        "p": {
+          "name": "Hierarchical Transformers Are More Efficient Language Models",
+          "link": "https://arxiv.org/abs/2110.13711v2"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
         "n": "Hourglass",
         "d": "2021-10-26",
         "m2": "3.74"
       },
       {
-        "p": "[Reflected Diffusion Models](https://arxiv.org/abs/2304.04740v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/louaaron/Reflected-Diffusion)",
+        "p": {
+          "name": "Reflected Diffusion Models",
+          "link": "https://arxiv.org/abs/2304.04740v3"
+        },
+        "c": "https://github.com/louaaron/Reflected-Diffusion",
         "n": "Reflected Diffusion",
         "d": "2023-04-10",
         "m2": "3.74"
       },
       {
-        "p": "[Maximum Likelihood Training of Score-Based Diffusion Models](https://arxiv.org/abs/2101.09258v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/yang-song/score_flow)",
+        "p": {
+          "name": "Maximum Likelihood Training of Score-Based Diffusion Models",
+          "link": "https://arxiv.org/abs/2101.09258v4"
+        },
+        "c": "https://github.com/yang-song/score_flow",
         "n": "ScoreFlow",
         "d": "2021-01-22",
         "m2": "3.76"
       },
       {
-        "p": "[Image Transformer](http://arxiv.org/abs/1802.05751v3)",
+        "p": {
+          "name": "Image Transformer",
+          "link": "http://arxiv.org/abs/1802.05751v3"
+        },
         "c": "",
         "n": "Image Transformer",
         "d": "2018-02-15",
         "m2": "3.77"
       },
       {
-        "p": "[Preventing Posterior Collapse with delta-VAEs](http://arxiv.org/abs/1901.03416v1)",
+        "p": {
+          "name": "Preventing Posterior Collapse with delta-VAEs",
+          "link": "http://arxiv.org/abs/1901.03416v1"
+        },
         "c": "",
         "n": "δ-VAE",
         "d": "2019-01-10",
         "m2": "3.77"
       },
       {
-        "p": "[Multi-Resolution Continuous Normalizing Flows](https://arxiv.org/abs/2106.08462v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/voletiv/mrcnf)",
+        "p": {
+          "name": "Multi-Resolution Continuous Normalizing Flows",
+          "link": "https://arxiv.org/abs/2106.08462v5"
+        },
+        "c": "https://github.com/voletiv/mrcnf",
         "n": "MRCNF",
         "d": "2021-06-15",
         "m2": "3.77"
       },
       {
-        "p": "[Very Deep VAEs Generalize Autoregressive Models and Can Outperform Them on Images](https://arxiv.org/abs/2011.10650v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/openai/vdvae)",
+        "p": {
+          "name": "Very Deep VAEs Generalize Autoregressive Models and Can Outperform Them on Images",
+          "link": "https://arxiv.org/abs/2011.10650v2"
+        },
+        "c": "https://github.com/openai/vdvae",
         "n": "Very Deep VAE",
         "d": "2020-11-20",
         "m2": "3.8"
       },
       {
-        "p": "[Conditional Image Generation with PixelCNN Decoders](http://arxiv.org/abs/1606.05328v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/openai/pixel-cnn)",
+        "p": {
+          "name": "Conditional Image Generation with PixelCNN Decoders",
+          "link": "http://arxiv.org/abs/1606.05328v2"
+        },
+        "c": "https://github.com/openai/pixel-cnn",
         "n": "Gated PixelCNN",
         "d": "2016-06-16",
         "m2": "3.83"
       },
       {
-        "p": "[Generating High Fidelity Images with Subscale Pixel Networks and Multidimensional Upscaling](http://arxiv.org/abs/1812.01608v1)",
+        "p": {
+          "name": "Generating High Fidelity Images with Subscale Pixel Networks and Multidimensional Upscaling",
+          "link": "http://arxiv.org/abs/1812.01608v1"
+        },
         "c": "",
         "n": "SPN Menick and Kalchbrenner (2019)",
         "d": "2018-12-04",
         "m2": "3.85"
       },
       {
-        "p": "[Flow++: Improving Flow-Based Generative Models with Variational Dequantization and Architecture Design](https://arxiv.org/abs/1902.00275v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/aravind0706/flowpp)",
+        "p": {
+          "name": "Flow++: Improving Flow-Based Generative Models with Variational Dequantization and Architecture Design",
+          "link": "https://arxiv.org/abs/1902.00275v2"
+        },
+        "c": "https://github.com/aravind0706/flowpp",
         "n": "Flow++",
         "d": "2019-02-01",
         "m2": "3.86"
       },
       {
-        "p": "[Pixel Recurrent Neural Networks](http://arxiv.org/abs/1601.06759v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/EugenHotaj/pytorch-generative/blob/master/pytorch_generative/models/autoregressive/pixel_cnn.py)",
+        "p": {
+          "name": "Pixel Recurrent Neural Networks",
+          "link": "http://arxiv.org/abs/1601.06759v3"
+        },
+        "c": "https://github.com/EugenHotaj/pytorch-generative/blob/master/pytorch_generative/models/autoregressive/pixel_cnn.py",
         "n": "PixelRNN",
         "d": "2016-01-25",
         "m2": "3.86"
       },
       {
-        "p": "[NVAE: A Deep Hierarchical Variational Autoencoder](https://arxiv.org/abs/2007.03898v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/NVlabs/NVAE)",
+        "p": {
+          "name": "NVAE: A Deep Hierarchical Variational Autoencoder",
+          "link": "https://arxiv.org/abs/2007.03898v3"
+        },
+        "c": "https://github.com/NVlabs/NVAE",
         "n": "NVAE w/ flow",
         "d": "2020-07-08",
         "m2": "3.92"
       },
       {
-        "p": "[Augmented Normalizing Flows: Bridging the Gap Between Generative Flows and Latent Variable Models](https://arxiv.org/abs/2002.07101v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/mj-will/augmented-flows)",
+        "p": {
+          "name": "Augmented Normalizing Flows: Bridging the Gap Between Generative Flows and Latent Variable Models",
+          "link": "https://arxiv.org/abs/2002.07101v1"
+        },
+        "c": "https://github.com/mj-will/augmented-flows",
         "n": "ANF Huang et al. (2020)",
         "d": "2020-02-17",
         "m2": "3.92"
       },
       {
-        "p": "[BIVA: A Very Deep Hierarchy of Latent Variables for Generative Modeling](https://arxiv.org/abs/1902.02102v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/vlievin/biva-pytorch)",
+        "p": {
+          "name": "BIVA: A Very Deep Hierarchy of Latent Variables for Generative Modeling",
+          "link": "https://arxiv.org/abs/1902.02102v3"
+        },
+        "c": "https://github.com/vlievin/biva-pytorch",
         "n": "BIVA Maaloe et al. (2019)",
         "d": "2019-02-06",
         "m2": "3.96"
       },
       {
-        "p": "[Residual Flows for Invertible Generative Modeling](https://arxiv.org/abs/1906.02735v6)",
-        "c": "[&check;&nbsp;Link](https://github.com/rtqichen/residual-flows)",
+        "p": {
+          "name": "Residual Flows for Invertible Generative Modeling",
+          "link": "https://arxiv.org/abs/1906.02735v6"
+        },
+        "c": "https://github.com/rtqichen/residual-flows",
         "n": "Residual Flow",
         "d": "2019-06-06",
         "m2": "4.01"
       },
       {
-        "p": "[MintNet: Building Invertible Neural Networks with Masked Convolutions](https://arxiv.org/abs/1907.07945v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/ermongroup/mintnet)",
+        "p": {
+          "name": "MintNet: Building Invertible Neural Networks with Masked Convolutions",
+          "link": "https://arxiv.org/abs/1907.07945v2"
+        },
+        "c": "https://github.com/ermongroup/mintnet",
         "n": "MintNet",
         "d": "2019-07-18",
         "m2": "4.06"
       },
       {
-        "p": "[Glow: Generative Flow with Invertible 1x1 Convolutions](http://arxiv.org/abs/1807.03039v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/openai/glow)",
+        "p": {
+          "name": "Glow: Generative Flow with Invertible 1x1 Convolutions",
+          "link": "http://arxiv.org/abs/1807.03039v2"
+        },
+        "c": "https://github.com/openai/glow",
         "n": "Glow (Kingma and Dhariwal, 2018)",
         "d": "2018-07-09",
         "m2": "4.09"
       },
       {
-        "p": "[Density estimation using Real NVP](http://arxiv.org/abs/1605.08803v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+        "p": {
+          "name": "Density estimation using Real NVP",
+          "link": "http://arxiv.org/abs/1605.08803v3"
+        },
+        "c": "https://github.com/tensorflow/models",
         "n": "Real NVP (Dinh et al., 2017)",
         "d": "2016-05-27",
         "m2": "4.28"

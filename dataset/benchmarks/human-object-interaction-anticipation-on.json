@@ -43,7 +43,10 @@
     ],
     "items": [
       {
-        "p": "[HOI4ABOT: Human-Object Interaction Anticipation for Human Intention Reading Collaborative roBOTs](https://arxiv.org/abs/2309.16524v2)",
+        "p": {
+          "name": "HOI4ABOT: Human-Object Interaction Anticipation for Human Intention Reading Collaborative roBOTs",
+          "link": "https://arxiv.org/abs/2309.16524v2"
+        },
         "c": "",
         "n": "HOI4ABOT",
         "d": "2023-09-28",
@@ -52,8 +55,11 @@
         "m3": "34.07"
       },
       {
-        "p": "[Human-Object Interaction Prediction in Videos through Gaze Following](https://arxiv.org/abs/2306.03597v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/nizhf/hoi-prediction-gaze-transformer)",
+        "p": {
+          "name": "Human-Object Interaction Prediction in Videos through Gaze Following",
+          "link": "https://arxiv.org/abs/2306.03597v1"
+        },
+        "c": "https://github.com/nizhf/hoi-prediction-gaze-transformer",
         "n": "ST-GAZE",
         "d": "2023-06-06",
         "m1": "37.59",
@@ -61,8 +67,11 @@
         "m3": "32.75"
       },
       {
-        "p": "[ST-HOI: A Spatial-Temporal Baseline for Human-Object Interaction Detection in Videos](https://arxiv.org/abs/2105.11731v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/coldmanck/VidHOI)",
+        "p": {
+          "name": "ST-HOI: A Spatial-Temporal Baseline for Human-Object Interaction Detection in Videos",
+          "link": "https://arxiv.org/abs/2105.11731v2"
+        },
+        "c": "https://github.com/coldmanck/VidHOI",
         "n": "STTRAN",
         "d": "2021-05-25",
         "m1": "29.09",

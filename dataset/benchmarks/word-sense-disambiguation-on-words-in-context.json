@@ -33,260 +33,371 @@
     ],
     "items": [
       {
-        "p": "[Fine-Tuning Pre-trained Language Model with Weak Supervision: A Contrastive-Regularized Self-Training Approach](https://arxiv.org/abs/2010.07835v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/yueyu1030/COSINE)",
+        "p": {
+          "name": "Fine-Tuning Pre-trained Language Model with Weak Supervision: A Contrastive-Regularized Self-Training Approach",
+          "link": "https://arxiv.org/abs/2010.07835v3"
+        },
+        "c": "https://github.com/yueyu1030/COSINE",
         "n": "COSINE + Transductive Learning",
         "d": "2020-10-15",
         "m1": "85.3"
       },
       {
-        "p": "[PaLM: Scaling Language Modeling with Pathways](https://arxiv.org/abs/2204.02311v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/lucidrains/CoCa-pytorch)",
+        "p": {
+          "name": "PaLM: Scaling Language Modeling with Pathways",
+          "link": "https://arxiv.org/abs/2204.02311v5"
+        },
+        "c": "https://github.com/lucidrains/CoCa-pytorch",
         "n": "PaLM 540B (finetuned) ",
         "d": "2022-04-05",
         "m1": "78.8"
       },
       {
-        "p": "[ST-MoE: Designing Stable and Transferable Sparse Expert Models](https://arxiv.org/abs/2202.08906v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/mesh)",
+        "p": {
+          "name": "ST-MoE: Designing Stable and Transferable Sparse Expert Models",
+          "link": "https://arxiv.org/abs/2202.08906v2"
+        },
+        "c": "https://github.com/tensorflow/mesh",
         "n": "ST-MoE-32B 269B (fine-tuned)",
         "d": "2022-02-17",
         "m1": "77.7"
       },
       {
-        "p": "[DeBERTa: Decoding-enhanced BERT with Disentangled Attention](https://arxiv.org/abs/2006.03654v6)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "DeBERTa: Decoding-enhanced BERT with Disentangled Attention",
+          "link": "https://arxiv.org/abs/2006.03654v6"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "DeBERTa-Ensemble",
         "d": "2020-06-05",
         "m1": "77.5"
       },
       {
-        "p": "[Toward Efficient Language Model Pretraining and Downstream Adaptation via Self-Evolution: A Case Study on SuperGLUE](https://arxiv.org/abs/2212.01853v1)",
+        "p": {
+          "name": "Toward Efficient Language Model Pretraining and Downstream Adaptation via Self-Evolution: A Case Study on SuperGLUE",
+          "link": "https://arxiv.org/abs/2212.01853v1"
+        },
         "c": "",
         "n": "Vega v2 6B (fine-tuned)",
         "d": "2022-12-04",
         "m1": "77.4"
       },
       {
-        "p": "[UL2: Unifying Language Learning Paradigms](https://arxiv.org/abs/2205.05131v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research)",
+        "p": {
+          "name": "UL2: Unifying Language Learning Paradigms",
+          "link": "https://arxiv.org/abs/2205.05131v3"
+        },
+        "c": "https://github.com/google-research/google-research",
         "n": "UL2 20B (fine-tuned)",
         "d": "2022-05-10",
         "m1": "77.3"
       },
       {
-        "p": "[Toward Efficient Language Model Pretraining and Downstream Adaptation via Self-Evolution: A Case Study on SuperGLUE](https://arxiv.org/abs/2212.01853v1)",
+        "p": {
+          "name": "Toward Efficient Language Model Pretraining and Downstream Adaptation via Self-Evolution: A Case Study on SuperGLUE",
+          "link": "https://arxiv.org/abs/2212.01853v1"
+        },
         "c": "",
         "n": "Turing NLR v5 XXL 5.4B (fine-tuned)",
         "d": "2022-12-04",
         "m1": "77.1"
       },
       {
-        "p": "[Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+          "link": "https://arxiv.org/abs/1910.10683v4"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "T5-XXL 11B",
         "d": "2019-10-23",
         "m1": "76.9"
       },
       {
-        "p": "[DeBERTa: Decoding-enhanced BERT with Disentangled Attention](https://arxiv.org/abs/2006.03654v6)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "DeBERTa: Decoding-enhanced BERT with Disentangled Attention",
+          "link": "https://arxiv.org/abs/2006.03654v6"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "DeBERTa-1.5B",
         "d": "2020-06-05",
         "m1": "76.4"
       },
       {
-        "p": "[ST-MoE: Designing Stable and Transferable Sparse Expert Models](https://arxiv.org/abs/2202.08906v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/mesh)",
+        "p": {
+          "name": "ST-MoE: Designing Stable and Transferable Sparse Expert Models",
+          "link": "https://arxiv.org/abs/2202.08906v2"
+        },
+        "c": "https://github.com/tensorflow/mesh",
         "n": "ST-MoE-L 4.1B (fine-tuned)",
         "d": "2022-02-17",
         "m1": "74"
       },
       {
-        "p": "[SenseBERT: Driving Some Sense into BERT](https://arxiv.org/abs/1908.05646v2)",
+        "p": {
+          "name": "SenseBERT: Driving Some Sense into BERT",
+          "link": "https://arxiv.org/abs/1908.05646v2"
+        },
         "c": "",
         "n": "SenseBERT-large 340M",
         "d": "2019-08-15",
         "m1": "72.1"
       },
       {
-        "p": "[SenseBERT: Driving Some Sense into BERT](https://arxiv.org/abs/1908.05646v2)",
+        "p": {
+          "name": "SenseBERT: Driving Some Sense into BERT",
+          "link": "https://arxiv.org/abs/1908.05646v2"
+        },
         "c": "",
         "n": "SenseBERT-base 110M",
         "d": "2019-08-15",
         "m1": "70.3"
       },
       {
-        "p": "[PaLM 2 Technical Report](https://arxiv.org/abs/2305.10403v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/eternityyw/tram-benchmark)",
+        "p": {
+          "name": "PaLM 2 Technical Report",
+          "link": "https://arxiv.org/abs/2305.10403v3"
+        },
+        "c": "https://github.com/eternityyw/tram-benchmark",
         "n": "PaLM 2-L (one-shot)",
         "d": "2023-05-17",
         "m1": "66.8"
       },
       {
-        "p": "[WiC: the Word-in-Context Dataset for Evaluating Context-Sensitive Meaning Representations](http://arxiv.org/abs/1808.09121v3)",
+        "p": {
+          "name": "WiC: the Word-in-Context Dataset for Evaluating Context-Sensitive Meaning Representations",
+          "link": "http://arxiv.org/abs/1808.09121v3"
+        },
         "c": "",
         "n": "BERT-large 340M",
         "d": "2018-08-28",
         "m1": "65.5"
       },
       {
-        "p": "[LaMini-LM: A Diverse Herd of Distilled Models from Large-Scale Instructions](https://arxiv.org/abs/2304.14402v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/mbzuai-nlp/lamini-lm)",
+        "p": {
+          "name": "LaMini-LM: A Diverse Herd of Distilled Models from Large-Scale Instructions",
+          "link": "https://arxiv.org/abs/2304.14402v3"
+        },
+        "c": "https://github.com/mbzuai-nlp/lamini-lm",
         "n": "FLAN-T5-Large 783M",
         "d": "2023-04-27",
         "m1": "64.7"
       },
       {
-        "p": "[LaMini-LM: A Diverse Herd of Distilled Models from Large-Scale Instructions](https://arxiv.org/abs/2304.14402v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/mbzuai-nlp/lamini-lm)",
+        "p": {
+          "name": "LaMini-LM: A Diverse Herd of Distilled Models from Large-Scale Instructions",
+          "link": "https://arxiv.org/abs/2304.14402v3"
+        },
+        "c": "https://github.com/mbzuai-nlp/lamini-lm",
         "n": "LaMini-F-T5 783M",
         "d": "2023-04-27",
         "m1": "63.8"
       },
       {
-        "p": "[WiC: the Word-in-Context Dataset for Evaluating Context-Sensitive Meaning Representations](http://arxiv.org/abs/1808.09121v3)",
+        "p": {
+          "name": "WiC: the Word-in-Context Dataset for Evaluating Context-Sensitive Meaning Representations",
+          "link": "http://arxiv.org/abs/1808.09121v3"
+        },
         "c": "",
         "n": "Context2vec",
         "d": "2018-08-28",
         "m1": "59.3"
       },
       {
-        "p": "[WiC: the Word-in-Context Dataset for Evaluating Context-Sensitive Meaning Representations](http://arxiv.org/abs/1808.09121v3)",
+        "p": {
+          "name": "WiC: the Word-in-Context Dataset for Evaluating Context-Sensitive Meaning Representations",
+          "link": "http://arxiv.org/abs/1808.09121v3"
+        },
         "c": "",
         "n": "DeConf",
         "d": "2018-08-28",
         "m1": "58.7"
       },
       {
-        "p": "[WiC: the Word-in-Context Dataset for Evaluating Context-Sensitive Meaning Representations](http://arxiv.org/abs/1808.09121v3)",
+        "p": {
+          "name": "WiC: the Word-in-Context Dataset for Evaluating Context-Sensitive Meaning Representations",
+          "link": "http://arxiv.org/abs/1808.09121v3"
+        },
         "c": "",
         "n": "SW2V",
         "d": "2018-08-28",
         "m1": "58.1"
       },
       {
-        "p": "[WiC: the Word-in-Context Dataset for Evaluating Context-Sensitive Meaning Representations](http://arxiv.org/abs/1808.09121v3)",
+        "p": {
+          "name": "WiC: the Word-in-Context Dataset for Evaluating Context-Sensitive Meaning Representations",
+          "link": "http://arxiv.org/abs/1808.09121v3"
+        },
         "c": "",
         "n": "ElMo",
         "d": "2018-08-28",
         "m1": "57.7"
       },
       {
-        "p": "[The CoT Collection: Improving Zero-shot and Few-shot Learning of Language Models via Chain-of-Thought Fine-Tuning](https://arxiv.org/abs/2305.14045v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/kaistai/cot-collection)",
+        "p": {
+          "name": "The CoT Collection: Improving Zero-shot and Few-shot Learning of Language Models via Chain-of-Thought Fine-Tuning",
+          "link": "https://arxiv.org/abs/2305.14045v2"
+        },
+        "c": "https://github.com/kaistai/cot-collection",
         "n": "T0-3B (CoT fine-tuned)",
         "d": "2023-05-23",
         "m1": "56.7"
       },
       {
-        "p": "[N-Grammer: Augmenting Transformers with latent n-grams](https://arxiv.org/abs/2207.06366v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/lingvo)",
+        "p": {
+          "name": "N-Grammer: Augmenting Transformers with latent n-grams",
+          "link": "https://arxiv.org/abs/2207.06366v1"
+        },
+        "c": "https://github.com/tensorflow/lingvo",
         "n": "N-Grammer 343M",
         "d": "2022-07-13",
         "m1": "56.1"
       },
       {
-        "p": "[AlexaTM 20B: Few-Shot Learning Using a Large-Scale Multilingual Seq2Seq Model](https://arxiv.org/abs/2208.01448v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/amazon-science/alexa-teacher-models)",
+        "p": {
+          "name": "AlexaTM 20B: Few-Shot Learning Using a Large-Scale Multilingual Seq2Seq Model",
+          "link": "https://arxiv.org/abs/2208.01448v2"
+        },
+        "c": "https://github.com/amazon-science/alexa-teacher-models",
         "n": "AlexaTM 20B",
         "d": "2022-08-02",
         "m1": "53.3"
       },
       {
-        "p": "[WiC: the Word-in-Context Dataset for Evaluating Context-Sensitive Meaning Representations](http://arxiv.org/abs/1808.09121v3)",
+        "p": {
+          "name": "WiC: the Word-in-Context Dataset for Evaluating Context-Sensitive Meaning Representations",
+          "link": "http://arxiv.org/abs/1808.09121v3"
+        },
         "c": "",
         "n": "Sentence LSTM",
         "d": "2018-08-28",
         "m1": "53.1"
       },
       {
-        "p": "[Exploring the Benefits of Training Expert Language Models over Instruction Tuning](https://arxiv.org/abs/2302.03202v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/joeljang/rlphf)",
+        "p": {
+          "name": "Exploring the Benefits of Training Expert Language Models over Instruction Tuning",
+          "link": "https://arxiv.org/abs/2302.03202v2"
+        },
+        "c": "https://github.com/joeljang/rlphf",
         "n": "RoE-3B",
         "d": "2023-02-07",
         "m1": "52.97"
       },
       {
-        "p": "[LaMini-LM: A Diverse Herd of Distilled Models from Large-Scale Instructions](https://arxiv.org/abs/2304.14402v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/mbzuai-nlp/lamini-lm)",
+        "p": {
+          "name": "LaMini-LM: A Diverse Herd of Distilled Models from Large-Scale Instructions",
+          "link": "https://arxiv.org/abs/2304.14402v3"
+        },
+        "c": "https://github.com/mbzuai-nlp/lamini-lm",
         "n": "LaMini-GPT 1.5B",
         "d": "2023-04-27",
         "m1": "52.4"
       },
       {
-        "p": "[Knowledge-in-Context: Towards Knowledgeable Semi-Parametric Language Models](https://arxiv.org/abs/2210.16433v3)",
+        "p": {
+          "name": "Knowledge-in-Context: Towards Knowledgeable Semi-Parametric Language Models",
+          "link": "https://arxiv.org/abs/2210.16433v3"
+        },
         "c": "",
         "n": "KiC-770M",
         "d": "2022-10-28",
         "m1": "52.40"
       },
       {
-        "p": "[PaLM 2 Technical Report](https://arxiv.org/abs/2305.10403v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/eternityyw/tram-benchmark)",
+        "p": {
+          "name": "PaLM 2 Technical Report",
+          "link": "https://arxiv.org/abs/2305.10403v3"
+        },
+        "c": "https://github.com/eternityyw/tram-benchmark",
         "n": "PaLM 2-M (one-shot)",
         "d": "2023-05-17",
         "m1": "52.0"
       },
       {
-        "p": "[Hungry Hungry Hippos: Towards Language Modeling with State Space Models](https://arxiv.org/abs/2212.14052v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/hazyresearch/safari)",
+        "p": {
+          "name": "Hungry Hungry Hippos: Towards Language Modeling with State Space Models",
+          "link": "https://arxiv.org/abs/2212.14052v3"
+        },
+        "c": "https://github.com/hazyresearch/safari",
         "n": "Hybrid H3 125M (0-shot, logit scoring)",
         "d": "2022-12-28",
         "m1": "51.4"
       },
       {
-        "p": "[Hungry Hungry Hippos: Towards Language Modeling with State Space Models](https://arxiv.org/abs/2212.14052v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/hazyresearch/safari)",
+        "p": {
+          "name": "Hungry Hungry Hippos: Towards Language Modeling with State Space Models",
+          "link": "https://arxiv.org/abs/2212.14052v3"
+        },
+        "c": "https://github.com/hazyresearch/safari",
         "n": "Hybrid H3 125M (0-shot, rank classification)",
         "d": "2022-12-28",
         "m1": "51.4"
       },
       {
-        "p": "[PaLM 2 Technical Report](https://arxiv.org/abs/2305.10403v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/eternityyw/tram-benchmark)",
+        "p": {
+          "name": "PaLM 2 Technical Report",
+          "link": "https://arxiv.org/abs/2305.10403v3"
+        },
+        "c": "https://github.com/eternityyw/tram-benchmark",
         "n": "PaLM 2-S (one-shot)",
         "d": "2023-05-17",
         "m1": "50.6"
       },
       {
-        "p": "[LaMini-LM: A Diverse Herd of Distilled Models from Large-Scale Instructions](https://arxiv.org/abs/2304.14402v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/mbzuai-nlp/lamini-lm)",
+        "p": {
+          "name": "LaMini-LM: A Diverse Herd of Distilled Models from Large-Scale Instructions",
+          "link": "https://arxiv.org/abs/2304.14402v3"
+        },
+        "c": "https://github.com/mbzuai-nlp/lamini-lm",
         "n": "LaMini-T5 738M",
         "d": "2023-04-27",
         "m1": "50.5"
       },
       {
-        "p": "[Guess the Instruction! Flipped Learning Makes Language Models Stronger Zero-Shot Learners](https://arxiv.org/abs/2210.02969v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/seonghyeonye/flipped-learning)",
+        "p": {
+          "name": "Guess the Instruction! Flipped Learning Makes Language Models Stronger Zero-Shot Learners",
+          "link": "https://arxiv.org/abs/2210.02969v4"
+        },
+        "c": "https://github.com/seonghyeonye/flipped-learning",
         "n": "Flipped-3B",
         "d": "2022-10-06",
         "m1": "50.42"
       },
       {
-        "p": "[LaMini-LM: A Diverse Herd of Distilled Models from Large-Scale Instructions](https://arxiv.org/abs/2304.14402v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/mbzuai-nlp/lamini-lm)",
+        "p": {
+          "name": "LaMini-LM: A Diverse Herd of Distilled Models from Large-Scale Instructions",
+          "link": "https://arxiv.org/abs/2304.14402v3"
+        },
+        "c": "https://github.com/mbzuai-nlp/lamini-lm",
         "n": "GPT-2-XL 1.5B",
         "d": "2023-04-27",
         "m1": "49.8"
       },
       {
-        "p": "[UL2: Unifying Language Learning Paradigms](https://arxiv.org/abs/2205.05131v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research)",
+        "p": {
+          "name": "UL2: Unifying Language Learning Paradigms",
+          "link": "https://arxiv.org/abs/2205.05131v3"
+        },
+        "c": "https://github.com/google-research/google-research",
         "n": "UL2 20B (0-shot)",
         "d": "2022-05-10",
         "m1": "49.8"
       },
       {
-        "p": "[Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/ggml-org/llama.cpp)",
+        "p": {
+          "name": "Language Models are Few-Shot Learners",
+          "link": "https://arxiv.org/abs/2005.14165v4"
+        },
+        "c": "https://github.com/ggml-org/llama.cpp",
         "n": "GPT-3 175B (few-shot, k=32)",
         "d": "2020-05-28",
         "m1": "49.4"
       },
       {
-        "p": "[Hungry Hungry Hippos: Towards Language Modeling with State Space Models](https://arxiv.org/abs/2212.14052v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/hazyresearch/safari)",
+        "p": {
+          "name": "Hungry Hungry Hippos: Towards Language Modeling with State Space Models",
+          "link": "https://arxiv.org/abs/2212.14052v3"
+        },
+        "c": "https://github.com/hazyresearch/safari",
         "n": "Hybrid H3 125M (3-shot, logit scoring)",
         "d": "2022-12-28",
         "m1": "49.1"

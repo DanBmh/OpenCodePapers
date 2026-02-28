@@ -78,8 +78,11 @@
     ],
     "items": [
       {
-        "p": "[GPT-4 Technical Report](https://arxiv.org/abs/2303.08774v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/openai/evals)",
+        "p": {
+          "name": "GPT-4 Technical Report",
+          "link": "https://arxiv.org/abs/2303.08774v5"
+        },
+        "c": "https://github.com/openai/evals",
         "n": "GPT-4-Turbo-1106",
         "d": "2023-03-15",
         "m1": "74.0",
@@ -94,8 +97,11 @@
         "m10": "0.0"
       },
       {
-        "p": "[GPT-4 Technical Report](https://arxiv.org/abs/2303.08774v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/openai/evals)",
+        "p": {
+          "name": "GPT-4 Technical Report",
+          "link": "https://arxiv.org/abs/2303.08774v5"
+        },
+        "c": "https://github.com/openai/evals",
         "n": "GPT-4-Turbo-0125",
         "d": "2023-03-15",
         "m1": "73.5",
@@ -138,8 +144,11 @@
         "m7": "2.5"
       },
       {
-        "p": "[InternLM2 Technical Report](https://arxiv.org/abs/2403.17297v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/internlm/internlm)",
+        "p": {
+          "name": "InternLM2 Technical Report",
+          "link": "https://arxiv.org/abs/2403.17297v1"
+        },
+        "c": "https://github.com/internlm/internlm",
         "n": "InternLM2-7b",
         "d": "2024-03-26",
         "m1": "58.6",
@@ -154,8 +163,11 @@
         "m10": "0.0"
       },
       {
-        "p": "[Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena](https://arxiv.org/abs/2306.05685v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/lm-sys/fastchat)",
+        "p": {
+          "name": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+          "link": "https://arxiv.org/abs/2306.05685v4"
+        },
+        "c": "https://github.com/lm-sys/fastchat",
         "n": "Vicuna-13b-v1.5-16k",
         "d": "2023-06-09",
         "m1": "53.4",
@@ -167,8 +179,11 @@
         "m7": "0.9"
       },
       {
-        "p": "[GLM-130B: An Open Bilingual Pre-trained Model](https://arxiv.org/abs/2210.02414v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/thudm/chatglm2-6b)",
+        "p": {
+          "name": "GLM-130B: An Open Bilingual Pre-trained Model",
+          "link": "https://arxiv.org/abs/2210.02414v2"
+        },
+        "c": "https://github.com/thudm/chatglm2-6b",
         "n": "ChatGLM3-6b-32k",
         "d": "2022-10-05",
         "m1": "39.8",
@@ -180,8 +195,11 @@
         "m7": "0.5"
       },
       {
-        "p": "[Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena](https://arxiv.org/abs/2306.05685v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/lm-sys/fastchat)",
+        "p": {
+          "name": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+          "link": "https://arxiv.org/abs/2306.05685v4"
+        },
+        "c": "https://github.com/lm-sys/fastchat",
         "n": "Vicuna-7b-v1.5-16k",
         "d": "2023-06-09",
         "m1": "37.0",
@@ -193,8 +211,11 @@
         "m7": "1.0"
       },
       {
-        "p": "[Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena](https://arxiv.org/abs/2306.05685v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/lm-sys/fastchat)",
+        "p": {
+          "name": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+          "link": "https://arxiv.org/abs/2306.05685v4"
+        },
+        "c": "https://github.com/lm-sys/fastchat",
         "n": "LongChat-7b-v1.5-32k",
         "d": "2023-06-09",
         "m1": "32.4",
@@ -206,8 +227,11 @@
         "m7": "0.8"
       },
       {
-        "p": "[GLM-130B: An Open Bilingual Pre-trained Model](https://arxiv.org/abs/2210.02414v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/thudm/chatglm2-6b)",
+        "p": {
+          "name": "GLM-130B: An Open Bilingual Pre-trained Model",
+          "link": "https://arxiv.org/abs/2210.02414v2"
+        },
+        "c": "https://github.com/thudm/chatglm2-6b",
         "n": "ChatGLM2-6b-32k",
         "d": "2022-10-05",
         "m1": "31.2",

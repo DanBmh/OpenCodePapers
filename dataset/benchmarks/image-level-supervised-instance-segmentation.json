@@ -49,8 +49,11 @@
     ],
     "items": [
       {
-        "p": "[WeakSAM: Segment Anything Meets Weakly-supervised Instance-level Recognition](https://arxiv.org/abs/2402.14812v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/hustvl/weaksam)",
+        "p": {
+          "name": "WeakSAM: Segment Anything Meets Weakly-supervised Instance-level Recognition",
+          "link": "https://arxiv.org/abs/2402.14812v2"
+        },
+        "c": "https://github.com/hustvl/weaksam",
         "n": "WeakSAM-Mask2Former (with SAM)",
         "d": "2024-02-22",
         "m1": "64.4",
@@ -59,8 +62,11 @@
         "m4": "45.3"
       },
       {
-        "p": "[WeakSAM: Segment Anything Meets Weakly-supervised Instance-level Recognition](https://arxiv.org/abs/2402.14812v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/hustvl/weaksam)",
+        "p": {
+          "name": "WeakSAM: Segment Anything Meets Weakly-supervised Instance-level Recognition",
+          "link": "https://arxiv.org/abs/2402.14812v2"
+        },
+        "c": "https://github.com/hustvl/weaksam",
         "n": "WeakSAM-Mask RCNN (with SAM)",
         "d": "2024-02-22",
         "m1": "59.6",
@@ -69,8 +75,11 @@
         "m4": "36.2"
       },
       {
-        "p": "[Complete Instances Mining for Weakly Supervised Instance Segmentation](https://arxiv.org/abs/2402.07633v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/ZechengLi19/CIM)",
+        "p": {
+          "name": "Complete Instances Mining for Weakly Supervised Instance Segmentation",
+          "link": "https://arxiv.org/abs/2402.07633v1"
+        },
+        "c": "https://github.com/ZechengLi19/CIM",
         "n": "CIM + Mask R-CNN",
         "d": "2024-02-12",
         "m1": "55.9",
@@ -79,8 +88,11 @@
         "m4": "30.9"
       },
       {
-        "p": "[Complete Instances Mining for Weakly Supervised Instance Segmentation](https://arxiv.org/abs/2402.07633v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/ZechengLi19/CIM)",
+        "p": {
+          "name": "Complete Instances Mining for Weakly Supervised Instance Segmentation",
+          "link": "https://arxiv.org/abs/2402.07633v1"
+        },
+        "c": "https://github.com/ZechengLi19/CIM",
         "n": "CIM",
         "d": "2024-02-12",
         "m1": "51.1",
@@ -89,8 +101,11 @@
         "m4": "26.1"
       },
       {
-        "p": "[Beyond Semantic to Instance Segmentation: Weakly-Supervised Instance Segmentation via Semantic Knowledge Transfer and Self-Refinement](https://arxiv.org/abs/2109.09477v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/clovaai/BESTIE)",
+        "p": {
+          "name": "Beyond Semantic to Instance Segmentation: Weakly-Supervised Instance Segmentation via Semantic Knowledge Transfer and Self-Refinement",
+          "link": "https://arxiv.org/abs/2109.09477v3"
+        },
+        "c": "https://github.com/clovaai/BESTIE",
         "n": "BESTIE (proposal-free)",
         "d": "2021-09-20",
         "m1": "51.0",
@@ -99,7 +114,10 @@
         "m4": "26.6"
       },
       {
-        "p": "[Weakly Supervised Instance Segmentation by Learning Annotation Consistent Instances](https://arxiv.org/abs/2007.09397v1)",
+        "p": {
+          "name": "Weakly Supervised Instance Segmentation by Learning Annotation Consistent Instances",
+          "link": "https://arxiv.org/abs/2007.09397v1"
+        },
         "c": "",
         "n": "Arun et al.",
         "d": "2020-07-18",
@@ -109,24 +127,33 @@
         "m4": "28.5"
       },
       {
-        "p": "[Leveraging Instance-, Image- and Dataset-Level Information for Weakly Supervised Instance Segmentation](https://ieeexplore.ieee.org/abstract/document/9193980)",
-        "c": "[&check;&nbsp;Link](https://github.com/yun-liu/LIID)",
+        "p": {
+          "name": "Leveraging Instance-, Image- and Dataset-Level Information for Weakly Supervised Instance Segmentation",
+          "link": "https://ieeexplore.ieee.org/abstract/document/9193980"
+        },
+        "c": "https://github.com/yun-liu/LIID",
         "n": "LIID",
         "d": "2020-09-10",
         "m1": "48.4",
         "m4": "24.9"
       },
       {
-        "p": "[Weakly Supervised Learning of Instance Segmentation with Inter-pixel Relations](https://arxiv.org/abs/1904.05044v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/jiwoon-ahn/irn)",
+        "p": {
+          "name": "Weakly Supervised Learning of Instance Segmentation with Inter-pixel Relations",
+          "link": "https://arxiv.org/abs/1904.05044v3"
+        },
+        "c": "https://github.com/jiwoon-ahn/irn",
         "n": "IRN (proposal-free)",
         "d": "2019-04-10",
         "m1": "46.7",
         "m3": "23.5"
       },
       {
-        "p": "[Where are the Masks: Instance Segmentation with Image-level Supervision](https://arxiv.org/abs/1907.01430v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/ElementAI/wise_ils)",
+        "p": {
+          "name": "Where are the Masks: Instance Segmentation with Image-level Supervision",
+          "link": "https://arxiv.org/abs/1907.01430v1"
+        },
+        "c": "https://github.com/ElementAI/wise_ils",
         "n": "WISE",
         "d": "2019-07-02",
         "m1": "41.7",
@@ -134,7 +161,10 @@
         "m4": "23.7"
       },
       {
-        "p": "[Weakly Supervised Instance Segmentation by Deep Community Learning](https://arxiv.org/abs/2001.11207v3)",
+        "p": {
+          "name": "Weakly Supervised Instance Segmentation by Deep Community Learning",
+          "link": "https://arxiv.org/abs/2001.11207v3"
+        },
         "c": "",
         "n": "CL",
         "d": "2020-01-30",
@@ -143,7 +173,10 @@
         "m4": "12.3"
       },
       {
-        "p": "[Label-PEnet: Sequential Label Propagation and Enhancement Networks for Weakly Supervised Instance Segmentation](https://arxiv.org/abs/1910.02624v3)",
+        "p": {
+          "name": "Label-PEnet: Sequential Label Propagation and Enhancement Networks for Weakly Supervised Instance Segmentation",
+          "link": "https://arxiv.org/abs/1910.02624v3"
+        },
         "c": "",
         "n": "Label-PEnet",
         "d": "2019-10-07",
@@ -152,7 +185,10 @@
         "m4": "12.9"
       },
       {
-        "p": "[Learning Instance Activation Maps for Weakly Supervised Instance Segmentation](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhu_Learning_Instance_Activation_Maps_for_Weakly_Supervised_Instance_Segmentation_CVPR_2019_paper.html)",
+        "p": {
+          "name": "Learning Instance Activation Maps for Weakly Supervised Instance Segmentation",
+          "link": "http://openaccess.thecvf.com/content_CVPR_2019/html/Zhu_Learning_Instance_Activation_Maps_for_Weakly_Supervised_Instance_Segmentation_CVPR_2019_paper.html"
+        },
         "c": "",
         "n": "IAM",
         "d": "2019-06-01",
@@ -161,8 +197,11 @@
         "m4": "11.9"
       },
       {
-        "p": "[Weakly Supervised Instance Segmentation using Class Peak Response](http://arxiv.org/abs/1804.00880v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/ZhouYanzhao/PRM)",
+        "p": {
+          "name": "Weakly Supervised Instance Segmentation using Class Peak Response",
+          "link": "http://arxiv.org/abs/1804.00880v1"
+        },
+        "c": "https://github.com/ZhouYanzhao/PRM",
         "n": "PRM",
         "d": "2018-04-03",
         "m1": "26.8",

@@ -65,8 +65,11 @@
     ],
     "items": [
       {
-        "p": "[MMT: Image-guided Story Ending Generation with Multimodal Memory Transformer](https://dl.acm.org/doi/abs/10.1145/3503161.3548022)",
-        "c": "[&check;&nbsp;Link](https://github.com/LivXue/MMT)",
+        "p": {
+          "name": "MMT: Image-guided Story Ending Generation with Multimodal Memory Transformer",
+          "link": "https://dl.acm.org/doi/abs/10.1145/3503161.3548022"
+        },
+        "c": "https://github.com/LivXue/MMT",
         "n": "MMT",
         "d": "2022-10-10",
         "m1": "18.52",
@@ -78,7 +81,10 @@
         "m7": "20.99"
       },
       {
-        "p": "[IgSEG: Image-guided Story Ending Generation](https://aclanthology.org/2021.findings-acl.274)",
+        "p": {
+          "name": "IgSEG: Image-guided Story Ending Generation",
+          "link": "https://aclanthology.org/2021.findings-acl.274"
+        },
         "c": "",
         "n": "MGCL",
         "d": null,
@@ -91,8 +97,11 @@
         "m7": "20.30"
       },
       {
-        "p": "[Attention Is All You Need](https://arxiv.org/abs/1706.03762v7)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "Attention Is All You Need",
+          "link": "https://arxiv.org/abs/1706.03762v7"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "Transformer",
         "d": "2017-06-12",
         "m1": "15.35",
@@ -104,8 +113,11 @@
         "m7": "19.16"
       },
       {
-        "p": "[Effective Approaches to Attention-based Neural Machine Translation](http://arxiv.org/abs/1508.04025v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/philipperemy/keras-attention-mechanism)",
+        "p": {
+          "name": "Effective Approaches to Attention-based Neural Machine Translation",
+          "link": "http://arxiv.org/abs/1508.04025v5"
+        },
+        "c": "https://github.com/philipperemy/keras-attention-mechanism",
         "n": "Seq2Seq",
         "d": "2015-08-17",
         "m1": "14.21",

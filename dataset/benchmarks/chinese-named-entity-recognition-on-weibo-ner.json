@@ -59,64 +59,91 @@
     ],
     "items": [
       {
-        "p": "[Improving Named Entity Recognition by External Context Retrieving and Cooperative Learning](https://arxiv.org/abs/2105.03654v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/modelscope/adaseq)",
+        "p": {
+          "name": "Improving Named Entity Recognition by External Context Retrieving and Cooperative Learning",
+          "link": "https://arxiv.org/abs/2105.03654v3"
+        },
+        "c": "https://github.com/modelscope/adaseq",
         "n": "BERT-CRF (Replicated in AdaSeq)",
         "d": "2021-05-08",
         "m1": "72.77"
       },
       {
-        "p": "[Boundary Smoothing for Named Entity Recognition](https://arxiv.org/abs/2204.12031v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/syuoni/eznlp)",
+        "p": {
+          "name": "Boundary Smoothing for Named Entity Recognition",
+          "link": "https://arxiv.org/abs/2204.12031v1"
+        },
+        "c": "https://github.com/syuoni/eznlp",
         "n": "Baseline + BS",
         "d": "2022-04-26",
         "m1": "72.66"
       },
       {
-        "p": "[Supplementary Features of BiLSTM for Enhanced Sequence Labeling](https://arxiv.org/abs/2305.19928v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/conglei2xu/global-context-mechanism)",
+        "p": {
+          "name": "Supplementary Features of BiLSTM for Enhanced Sequence Labeling",
+          "link": "https://arxiv.org/abs/2305.19928v4"
+        },
+        "c": "https://github.com/conglei2xu/global-context-mechanism",
         "n": "BERT-BiLSTM-context",
         "d": "2023-05-31",
         "m1": "72.08"
       },
       {
-        "p": "[FGN: Fusion Glyph Network for Chinese Named Entity Recognition](https://arxiv.org/abs/2001.05272v6)",
-        "c": "[&check;&nbsp;Link](https://github.com/AidenHuen/FGN-NER)",
+        "p": {
+          "name": "FGN: Fusion Glyph Network for Chinese Named Entity Recognition",
+          "link": "https://arxiv.org/abs/2001.05272v6"
+        },
+        "c": "https://github.com/AidenHuen/FGN-NER",
         "n": "FGN",
         "d": "2020-01-15",
         "m1": "71.25"
       },
       {
-        "p": "[Named Entity Recognition for Social Media Texts with Semantic Augmentation](https://arxiv.org/abs/2010.15458v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/cuhksz-nlp/SANER)",
+        "p": {
+          "name": "Named Entity Recognition for Social Media Texts with Semantic Augmentation",
+          "link": "https://arxiv.org/abs/2010.15458v1"
+        },
+        "c": "https://github.com/cuhksz-nlp/SANER",
         "n": "SA-NER",
         "d": "2020-10-29",
         "m1": "69.8"
       },
       {
-        "p": "[Improving Named Entity Recognition with Attentive Ensemble of Syntactic Information](https://arxiv.org/abs/2010.15466v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/cuhksz-nlp/AESINER)",
+        "p": {
+          "name": "Improving Named Entity Recognition with Attentive Ensemble of Syntactic Information",
+          "link": "https://arxiv.org/abs/2010.15466v1"
+        },
+        "c": "https://github.com/cuhksz-nlp/AESINER",
         "n": "AESINER",
         "d": "2020-10-29",
         "m1": "69.78"
       },
       {
-        "p": "[Locate and Label: A Two-stage Identifier for Nested Named Entity Recognition](https://arxiv.org/abs/2105.06804v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/tricktreat/locate-and-label)",
+        "p": {
+          "name": "Locate and Label: A Two-stage Identifier for Nested Named Entity Recognition",
+          "link": "https://arxiv.org/abs/2105.06804v2"
+        },
+        "c": "https://github.com/tricktreat/locate-and-label",
         "n": "Locate and Label",
         "d": "2021-05-14",
         "m1": "69.16"
       },
       {
-        "p": "[FLAT: Chinese NER Using Flat-Lattice Transformer](https://arxiv.org/abs/2004.11795v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/LeeSureman/Flat-Lattice-Transformer)",
+        "p": {
+          "name": "FLAT: Chinese NER Using Flat-Lattice Transformer",
+          "link": "https://arxiv.org/abs/2004.11795v2"
+        },
+        "c": "https://github.com/LeeSureman/Flat-Lattice-Transformer",
         "n": "FLAT+BERT",
         "d": "2020-04-24",
         "m1": "68.55"
       },
       {
-        "p": "[Glyce: Glyph-vectors for Chinese Character Representations](https://arxiv.org/abs/1901.10125v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/ShannonAI/glyce)",
+        "p": {
+          "name": "Glyce: Glyph-vectors for Chinese Character Representations",
+          "link": "https://arxiv.org/abs/1901.10125v5"
+        },
+        "c": "https://github.com/ShannonAI/glyce",
         "n": "Glyce + BERT",
         "d": "2019-01-29",
         "m1": "67.6",
@@ -124,22 +151,31 @@
         "m3": "67.71"
       },
       {
-        "p": "[SLK-NER: Exploiting Second-order Lexicon Knowledge for Chinese NER](https://arxiv.org/abs/2007.08416v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/zerohd4869/SLK-NER)",
+        "p": {
+          "name": "SLK-NER: Exploiting Second-order Lexicon Knowledge for Chinese NER",
+          "link": "https://arxiv.org/abs/2007.08416v1"
+        },
+        "c": "https://github.com/zerohd4869/SLK-NER",
         "n": "SLK-NER",
         "d": "2020-07-16",
         "m1": "64"
       },
       {
-        "p": "[Leverage Lexical Knowledge for Chinese Named Entity Recognition via Collaborative Graph Network](https://aclanthology.org/D19-1396)",
-        "c": "[&check;&nbsp;Link](https://github.com/DianboWork/Graph4CNER)",
+        "p": {
+          "name": "Leverage Lexical Knowledge for Chinese Named Entity Recognition via Collaborative Graph Network",
+          "link": "https://aclanthology.org/D19-1396"
+        },
+        "c": "https://github.com/DianboWork/Graph4CNER",
         "n": "Collaborative Graph Network",
         "d": "2019-11-01",
         "m1": "63.09"
       },
       {
-        "p": "[NFLAT: Non-Flat-Lattice Transformer for Chinese Named Entity Recognition](https://arxiv.org/abs/2205.05832v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/codermusou/nflat4cner)",
+        "p": {
+          "name": "NFLAT: Non-Flat-Lattice Transformer for Chinese Named Entity Recognition",
+          "link": "https://arxiv.org/abs/2205.05832v3"
+        },
+        "c": "https://github.com/codermusou/nflat4cner",
         "n": "NFLAT",
         "d": "2022-05-12",
         "m1": "61.94",
@@ -147,43 +183,61 @@
         "m3": "63.76"
       },
       {
-        "p": "[Simplify the Usage of Lexicon in Chinese NER](https://arxiv.org/abs/1908.05969v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/v-mipeng/LexiconAugmentedNER)",
+        "p": {
+          "name": "Simplify the Usage of Lexicon in Chinese NER",
+          "link": "https://arxiv.org/abs/1908.05969v2"
+        },
+        "c": "https://github.com/v-mipeng/LexiconAugmentedNER",
         "n": "LSTM + Lexicon augment",
         "d": "2019-08-16",
         "m1": "61.24"
       },
       {
-        "p": "[FLAT: Chinese NER Using Flat-Lattice Transformer](https://arxiv.org/abs/2004.11795v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/LeeSureman/Flat-Lattice-Transformer)",
+        "p": {
+          "name": "FLAT: Chinese NER Using Flat-Lattice Transformer",
+          "link": "https://arxiv.org/abs/2004.11795v2"
+        },
+        "c": "https://github.com/LeeSureman/Flat-Lattice-Transformer",
         "n": "FLAT",
         "d": "2020-04-24",
         "m1": "60.32"
       },
       {
-        "p": "[Chinese NER Using Lattice LSTM](http://arxiv.org/abs/1805.02023v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/jiesutd/LatticeLSTM)",
+        "p": {
+          "name": "Chinese NER Using Lattice LSTM",
+          "link": "http://arxiv.org/abs/1805.02023v4"
+        },
+        "c": "https://github.com/jiesutd/LatticeLSTM",
         "n": "Lattice",
         "d": "2018-05-05",
         "m1": "58.79"
       },
       {
-        "p": "[TENER: Adapting Transformer Encoder for Named Entity Recognition](https://arxiv.org/abs/1911.04474v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/HIT-SCIR/ltp)",
+        "p": {
+          "name": "TENER: Adapting Transformer Encoder for Named Entity Recognition",
+          "link": "https://arxiv.org/abs/1911.04474v3"
+        },
+        "c": "https://github.com/HIT-SCIR/ltp",
         "n": "TENER",
         "d": "2019-11-10",
         "m1": "58.17"
       },
       {
-        "p": "[Adversarial Transfer Learning for Chinese Named Entity Recognition with Self-Attention Mechanism](https://aclanthology.org/D18-1017)",
-        "c": "[&check;&nbsp;Link](https://github.com/CPF-NLPR/AT4ChineseNER)",
+        "p": {
+          "name": "Adversarial Transfer Learning for Chinese Named Entity Recognition with Self-Attention Mechanism",
+          "link": "https://aclanthology.org/D18-1017"
+        },
+        "c": "https://github.com/CPF-NLPR/AT4ChineseNER",
         "n": "BiLSTM+CRF+adversarial+self-attention",
         "d": "2018-10-01",
         "m1": "53.08"
       },
       {
-        "p": "[CAN-NER: Convolutional Attention Network for Chinese Named Entity Recognition](https://arxiv.org/abs/1904.02141v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/microsoft/vert-papers/tree/master/papers/CAN-NER)",
+        "p": {
+          "name": "CAN-NER: Convolutional Attention Network for Chinese Named Entity Recognition",
+          "link": "https://arxiv.org/abs/1904.02141v3"
+        },
+        "c": "https://github.com/microsoft/vert-papers/tree/master/papers/CAN-NER",
         "n": "CAN-NER Model",
         "d": "2019-04-03",
         "m4": "55.38",

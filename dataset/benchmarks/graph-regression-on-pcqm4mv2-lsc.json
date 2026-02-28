@@ -38,155 +38,215 @@
     ],
     "items": [
       {
-        "p": "[An end-to-end attention-based approach for learning on graphs](https://arxiv.org/abs/2402.10793v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/davidbuterez/edge-set-attention)",
+        "p": {
+          "name": "An end-to-end attention-based approach for learning on graphs",
+          "link": "https://arxiv.org/abs/2402.10793v2"
+        },
+        "c": "https://github.com/davidbuterez/edge-set-attention",
         "n": "ESA (Edge set attention, no positional encodings)",
         "d": "2024-02-16",
         "m1": "0.0235",
         "m2": "N/A"
       },
       {
-        "p": "[Global Self-Attention as a Replacement for Graph Convolution](https://arxiv.org/abs/2108.03348v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/shamim-hussain/egt_pytorch)",
+        "p": {
+          "name": "Global Self-Attention as a Replacement for Graph Convolution",
+          "link": "https://arxiv.org/abs/2108.03348v3"
+        },
+        "c": "https://github.com/shamim-hussain/egt_pytorch",
         "n": "EGT + Triangular Attention",
         "d": "2021-08-07",
         "m1": "0.0671",
         "m2": "0.0683"
       },
       {
-        "p": "[Triplet Interaction Improves Graph Transformers: Accurate Molecular Graph Learning with Triplet Graph Transformers](https://arxiv.org/abs/2402.04538v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/shamim-hussain/egt_pytorch)",
+        "p": {
+          "name": "Triplet Interaction Improves Graph Transformers: Accurate Molecular Graph Learning with Triplet Graph Transformers",
+          "link": "https://arxiv.org/abs/2402.04538v2"
+        },
+        "c": "https://github.com/shamim-hussain/egt_pytorch",
         "n": "TGT-At",
         "d": "2024-02-07",
         "m1": "0.0671",
         "m2": "0.0683"
       },
       {
-        "p": "[Highly Accurate Quantum Chemical Property Prediction with Uni-Mol+](https://arxiv.org/abs/2303.16982v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/deepmodeling/Uni-Mol)",
+        "p": {
+          "name": "Highly Accurate Quantum Chemical Property Prediction with Uni-Mol+",
+          "link": "https://arxiv.org/abs/2303.16982v2"
+        },
+        "c": "https://github.com/deepmodeling/Uni-Mol",
         "n": "Uni-Mol+",
         "d": "2023-03-16",
         "m1": "0.0693",
         "m2": "0.0705"
       },
       {
-        "p": "[One Transformer Can Understand Both 2D & 3D Molecular Data](https://arxiv.org/abs/2210.01765v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/lsj2408/Transformer-M)",
+        "p": {
+          "name": "One Transformer Can Understand Both 2D & 3D Molecular Data",
+          "link": "https://arxiv.org/abs/2210.01765v4"
+        },
+        "c": "https://github.com/lsj2408/Transformer-M",
         "n": "Transformer-M",
         "d": "2022-10-04",
         "m1": "0.0772",
         "m2": "0.0782"
       },
       {
-        "p": "[Graph Propagation Transformer for Graph Representation Learning](https://arxiv.org/abs/2305.11424v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/czczup/gptrans)",
+        "p": {
+          "name": "Graph Propagation Transformer for Graph Representation Learning",
+          "link": "https://arxiv.org/abs/2305.11424v3"
+        },
+        "c": "https://github.com/czczup/gptrans",
         "n": "GPTrans-L",
         "d": "2023-05-19",
         "m1": "0.0809",
         "m2": "0.0821"
       },
       {
-        "p": "[Topology-Informed Graph Transformer](https://arxiv.org/abs/2402.02005v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/leemingo/tigt)",
+        "p": {
+          "name": "Topology-Informed Graph Transformer",
+          "link": "https://arxiv.org/abs/2402.02005v1"
+        },
+        "c": "https://github.com/leemingo/tigt",
         "n": "TIGT",
         "d": "2024-02-03",
         "m1": "0.0826"
       },
       {
-        "p": "[Graph Propagation Transformer for Graph Representation Learning](https://arxiv.org/abs/2305.11424v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/czczup/gptrans)",
+        "p": {
+          "name": "Graph Propagation Transformer for Graph Representation Learning",
+          "link": "https://arxiv.org/abs/2305.11424v3"
+        },
+        "c": "https://github.com/czczup/gptrans",
         "n": "GPTrans-T",
         "d": "2023-05-19",
         "m1": "0.0833",
         "m2": "0.0842"
       },
       {
-        "p": "[Recipe for a General, Powerful, Scalable Graph Transformer](https://arxiv.org/abs/2205.12454v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/rampasek/GraphGPS)",
+        "p": {
+          "name": "Recipe for a General, Powerful, Scalable Graph Transformer",
+          "link": "https://arxiv.org/abs/2205.12454v4"
+        },
+        "c": "https://github.com/rampasek/GraphGPS",
         "n": "GPS",
         "d": "2022-05-25",
         "m1": "0.0852",
         "m2": "0.0862"
       },
       {
-        "p": "[Global Self-Attention as a Replacement for Graph Convolution](https://arxiv.org/abs/2108.03348v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/shamim-hussain/egt_pytorch)",
+        "p": {
+          "name": "Global Self-Attention as a Replacement for Graph Convolution",
+          "link": "https://arxiv.org/abs/2108.03348v3"
+        },
+        "c": "https://github.com/shamim-hussain/egt_pytorch",
         "n": "EGT",
         "d": "2021-08-07",
         "m1": "0.0857",
         "m2": "0.0862"
       },
       {
-        "p": "[Graph Inductive Biases in Transformers without Message Passing](https://arxiv.org/abs/2305.17589v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/liamma/grit)",
+        "p": {
+          "name": "Graph Inductive Biases in Transformers without Message Passing",
+          "link": "https://arxiv.org/abs/2305.17589v1"
+        },
+        "c": "https://github.com/liamma/grit",
         "n": "GRIT",
         "d": "2023-05-27",
         "m1": "0.0859"
       },
       {
-        "p": "[Graph Convolutions Enrich the Self-Attention in Transformers!](https://arxiv.org/abs/2312.04234v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/jeongwhanchoi/gfsa)",
+        "p": {
+          "name": "Graph Convolutions Enrich the Self-Attention in Transformers!",
+          "link": "https://arxiv.org/abs/2312.04234v5"
+        },
+        "c": "https://github.com/jeongwhanchoi/gfsa",
         "n": "Graphormer + GFSA",
         "d": "2023-12-07",
         "m1": "0.0860"
       },
       {
-        "p": "[Do Transformers Really Perform Bad for Graph Representation?](https://arxiv.org/abs/2106.05234v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/microsoft/Graphormer)",
+        "p": {
+          "name": "Do Transformers Really Perform Bad for Graph Representation?",
+          "link": "https://arxiv.org/abs/2106.05234v5"
+        },
+        "c": "https://github.com/microsoft/Graphormer",
         "n": "Graphormer",
         "d": "2021-06-09",
         "m1": "0.0864",
         "m2": "-"
       },
       {
-        "p": "[The Information Pathways Hypothesis: Transformers are Dynamic Self-Ensembles](https://arxiv.org/abs/2306.01705v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/shamim-hussain/ssa)",
+        "p": {
+          "name": "The Information Pathways Hypothesis: Transformers are Dynamic Self-Ensembles",
+          "link": "https://arxiv.org/abs/2306.01705v1"
+        },
+        "c": "https://github.com/shamim-hussain/ssa",
         "n": "EGT+SSA+Self-ensemble",
         "d": "2023-06-02",
         "m1": "0.0865"
       },
       {
-        "p": "[GRPE: Relative Positional Encoding for Graph Transformer](https://arxiv.org/abs/2201.12787v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/lenscloth/grpe)",
+        "p": {
+          "name": "GRPE: Relative Positional Encoding for Graph Transformer",
+          "link": "https://arxiv.org/abs/2201.12787v3"
+        },
+        "c": "https://github.com/lenscloth/grpe",
         "n": "GRPE-Large",
         "d": "2022-01-30",
         "m1": "0.0867",
         "m2": "0.0876"
       },
       {
-        "p": "[The Information Pathways Hypothesis: Transformers are Dynamic Self-Ensembles](https://arxiv.org/abs/2306.01705v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/shamim-hussain/ssa)",
+        "p": {
+          "name": "The Information Pathways Hypothesis: Transformers are Dynamic Self-Ensembles",
+          "link": "https://arxiv.org/abs/2306.01705v1"
+        },
+        "c": "https://github.com/shamim-hussain/ssa",
         "n": "EGT+SSA",
         "d": "2023-06-02",
         "m1": "0.0876"
       },
       {
-        "p": "[Pure Transformers are Powerful Graph Learners](https://arxiv.org/abs/2207.02505v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/jw9730/tokengt)",
+        "p": {
+          "name": "Pure Transformers are Powerful Graph Learners",
+          "link": "https://arxiv.org/abs/2207.02505v2"
+        },
+        "c": "https://github.com/jw9730/tokengt",
         "n": "TokenGT",
         "d": "2022-07-06",
         "m1": "0.0910",
         "m2": "0.0919"
       },
       {
-        "p": "[How Powerful are Graph Neural Networks?](http://arxiv.org/abs/1810.00826v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/mxnet/gin)",
+        "p": {
+          "name": "How Powerful are Graph Neural Networks?",
+          "link": "http://arxiv.org/abs/1810.00826v3"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/mxnet/gin",
         "n": "GIN",
         "d": "2018-10-01",
         "m1": "0.1195",
         "m2": "0.1218"
       },
       {
-        "p": "[Semi-Supervised Classification with Graph Convolutional Networks](http://arxiv.org/abs/1609.02907v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/mxnet/gcn)",
+        "p": {
+          "name": "Semi-Supervised Classification with Graph Convolutional Networks",
+          "link": "http://arxiv.org/abs/1609.02907v4"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/mxnet/gcn",
         "n": "GCN",
         "d": "2016-09-09",
         "m1": "0.1379",
         "m2": "0.1398"
       },
       {
-        "p": "[OGB-LSC: A Large-Scale Challenge for Machine Learning on Graphs](https://arxiv.org/abs/2103.09430v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/dmlc/dgl/tree/master/examples/pytorch/ogb_lsc)",
+        "p": {
+          "name": "OGB-LSC: A Large-Scale Challenge for Machine Learning on Graphs",
+          "link": "https://arxiv.org/abs/2103.09430v3"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/ogb_lsc",
         "n": "MLP-Fingerprint",
         "d": "2021-03-17",
         "m1": "0.1753",

@@ -49,8 +49,11 @@
     ],
     "items": [
       {
-        "p": "[PRIMERA: Pyramid-based Masked Sentence Pre-training for Multi-document Summarization](https://arxiv.org/abs/2110.08499v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/allenai/primer)",
+        "p": {
+          "name": "PRIMERA: Pyramid-based Masked Sentence Pre-training for Multi-document Summarization",
+          "link": "https://arxiv.org/abs/2110.08499v2"
+        },
+        "c": "https://github.com/allenai/primer",
         "n": "PRIMER",
         "d": "2021-10-16",
         "m1": "49.9",
@@ -58,8 +61,11 @@
         "m4": "25.9"
       },
       {
-        "p": "[LongT5: Efficient Text-To-Text Transformer for Long Sequences](https://arxiv.org/abs/2112.07916v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/longt5)",
+        "p": {
+          "name": "LongT5: Efficient Text-To-Text Transformer for Long Sequences",
+          "link": "https://arxiv.org/abs/2112.07916v2"
+        },
+        "c": "https://github.com/google-research/longt5",
         "n": "LongT5",
         "d": "2021-12-15",
         "m1": "48.17",
@@ -67,7 +73,10 @@
         "m3": "24.94"
       },
       {
-        "p": "[Multi-Document Summarization withDeterminantal Point Process Attention](https://www.jair.org/index.php/jair/article/view/12522/26693)",
+        "p": {
+          "name": "Multi-Document Summarization withDeterminantal Point Process Attention",
+          "link": "https://www.jair.org/index.php/jair/article/view/12522/26693"
+        },
         "c": "",
         "n": "CTF+DPP",
         "d": "2021-07-13",
@@ -76,8 +85,11 @@
         "m3": "19.19"
       },
       {
-        "p": "[Bottom-Up Abstractive Summarization](http://arxiv.org/abs/1808.10792v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/sebastianGehrmann/bottom-up-summary)",
+        "p": {
+          "name": "Bottom-Up Abstractive Summarization",
+          "link": "http://arxiv.org/abs/1808.10792v2"
+        },
+        "c": "https://github.com/sebastianGehrmann/bottom-up-summary",
         "n": "CopyTransformer",
         "d": "2018-08-31",
         "m1": "43.57",
@@ -85,8 +97,11 @@
         "m3": "17.37"
       },
       {
-        "p": "[Multi-News: a Large-Scale Multi-Document Summarization Dataset and Abstractive Hierarchical Model](https://arxiv.org/abs/1906.01749v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/Alex-Fabbri/Multi-News)",
+        "p": {
+          "name": "Multi-News: a Large-Scale Multi-Document Summarization Dataset and Abstractive Hierarchical Model",
+          "link": "https://arxiv.org/abs/1906.01749v3"
+        },
+        "c": "https://github.com/Alex-Fabbri/Multi-News",
         "n": "Hi-MAP",
         "d": "2019-06-04",
         "m1": "43.47",
@@ -94,8 +109,11 @@
         "m3": "17.41"
       },
       {
-        "p": "[Bottom-Up Abstractive Summarization](http://arxiv.org/abs/1808.10792v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/sebastianGehrmann/bottom-up-summary)",
+        "p": {
+          "name": "Bottom-Up Abstractive Summarization",
+          "link": "http://arxiv.org/abs/1808.10792v2"
+        },
+        "c": "https://github.com/sebastianGehrmann/bottom-up-summary",
         "n": "PG-BRNN",
         "d": "2018-08-31",
         "m1": "42.80",

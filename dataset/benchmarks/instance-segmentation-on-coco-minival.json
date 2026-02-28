@@ -73,8 +73,11 @@
     ],
     "items": [
       {
-        "p": "[DETRs with Collaborative Hybrid Assignments Training](https://arxiv.org/abs/2211.12860v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection)",
+        "p": {
+          "name": "DETRs with Collaborative Hybrid Assignments Training",
+          "link": "https://arxiv.org/abs/2211.12860v5"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
         "n": "Co-DETR",
         "d": "2022-11-22",
         "m1": "56.6",
@@ -85,15 +88,21 @@
         "m6": "38.9"
       },
       {
-        "p": "[ViT-CoMer: Vision Transformer with Convolutional Multi-scale Feature Interaction for Dense Predictions](https://openreview.net/forum?id=srPMwpkWbR&invitationId=thecvf.com/CVPR/2024/Conference/Submission1221/-/Camera_Ready_Revision&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3Dthecvf.com%2FCVPR%2F2024%2FConference%2FAuthors%23author-tasks))",
-        "c": "[&check;&nbsp;Link](https://github.com/Traffic-X/ViT-CoMer)",
+        "p": {
+          "name": "ViT-CoMer: Vision Transformer with Convolutional Multi-scale Feature Interaction for Dense Predictions",
+          "link": "https://openreview.net/forum?id=srPMwpkWbR&invitationId=thecvf.com/CVPR/2024/Conference/Submission1221/-/Camera_Ready_Revision&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3Dthecvf.com%2FCVPR%2F2024%2FConference%2FAuthors%23author-tasks"
+        },
+        "c": "https://github.com/Traffic-X/ViT-CoMer",
         "n": "ViT-CoMer-L (Mask RCNN, DINOv2)",
         "d": "2024-03-13",
         "m1": "55.9"
       },
       {
-        "p": "[InternImage: Exploring Large-Scale Vision Foundation Models with Deformable Convolutions](https://arxiv.org/abs/2211.05778v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internimage)",
+        "p": {
+          "name": "InternImage: Exploring Large-Scale Vision Foundation Models with Deformable Convolutions",
+          "link": "https://arxiv.org/abs/2211.05778v4"
+        },
+        "c": "https://github.com/opengvlab/internimage",
         "n": "InternImage-H",
         "d": "2022-11-10",
         "m1": "55.4",
@@ -104,8 +113,11 @@
         "m6": "37.9"
       },
       {
-        "p": "[EVA: Exploring the Limits of Masked Visual Representation Learning at Scale](https://arxiv.org/abs/2211.07636v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "p": {
+          "name": "EVA: Exploring the Limits of Masked Visual Representation Learning at Scale",
+          "link": "https://arxiv.org/abs/2211.07636v2"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
         "n": "EVA",
         "d": "2022-11-14",
         "m1": "55.0",
@@ -116,7 +128,10 @@
         "m6": "37.6"
       },
       {
-        "p": "[Mask Frozen-DETR: High Quality Instance Segmentation with One GPU](https://arxiv.org/abs/2308.03747v1)",
+        "p": {
+          "name": "Mask Frozen-DETR: High Quality Instance Segmentation with One GPU",
+          "link": "https://arxiv.org/abs/2308.03747v1"
+        },
         "c": "",
         "n": "Mask Frozen-DETR",
         "d": "2023-08-07",
@@ -128,177 +143,252 @@
         "m6": "37.2"
       },
       {
-        "p": "[Mask DINO: Towards A Unified Transformer-based Framework for Object Detection and Segmentation](https://arxiv.org/abs/2206.02777v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleDetection)",
+        "p": {
+          "name": "Mask DINO: Towards A Unified Transformer-based Framework for Object Detection and Segmentation",
+          "link": "https://arxiv.org/abs/2206.02777v3"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
         "n": "MasK DINO (SwinL, multi-scale)",
         "d": "2022-06-06",
         "m1": "54.5"
       },
       {
-        "p": "[Vision Transformer Adapter for Dense Predictions](https://arxiv.org/abs/2205.08534v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/czczup/vit-adapter)",
+        "p": {
+          "name": "Vision Transformer Adapter for Dense Predictions",
+          "link": "https://arxiv.org/abs/2205.08534v4"
+        },
+        "c": "https://github.com/czczup/vit-adapter",
         "n": "ViT-Adapter-L (HTC++, BEiTv2, O365, multi-scale)",
         "d": "2022-05-17",
         "m1": "54.2"
       },
       {
-        "p": "[General Object Foundation Model for Images and Videos at Scale](https://arxiv.org/abs/2312.09158v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/FoundationVision/GLEE)",
+        "p": {
+          "name": "General Object Foundation Model for Images and Videos at Scale",
+          "link": "https://arxiv.org/abs/2312.09158v1"
+        },
+        "c": "https://github.com/FoundationVision/GLEE",
         "n": "GLEE-Pro",
         "d": "2023-12-14",
         "m1": "54.2"
       },
       {
-        "p": "[Swin Transformer V2: Scaling Up Capacity and Resolution](https://arxiv.org/abs/2111.09883v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "p": {
+          "name": "Swin Transformer V2: Scaling Up Capacity and Resolution",
+          "link": "https://arxiv.org/abs/2111.09883v2"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
         "n": "SwinV2-G (HTC++)",
         "d": "2021-11-18",
         "m1": "53.7"
       },
       {
-        "p": "[Exploring Plain Vision Transformer Backbones for Object Detection](https://arxiv.org/abs/2203.16527v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/detectron2/tree/main/projects/ViTDet)",
+        "p": {
+          "name": "Exploring Plain Vision Transformer Backbones for Object Detection",
+          "link": "https://arxiv.org/abs/2203.16527v2"
+        },
+        "c": "https://github.com/facebookresearch/detectron2/tree/main/projects/ViTDet",
         "n": "ViTDet, ViT-H Cascade (multiscale)",
         "d": "2022-03-30",
         "m1": "53.1"
       },
       {
-        "p": "[General Object Foundation Model for Images and Videos at Scale](https://arxiv.org/abs/2312.09158v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/FoundationVision/GLEE)",
+        "p": {
+          "name": "General Object Foundation Model for Images and Videos at Scale",
+          "link": "https://arxiv.org/abs/2312.09158v1"
+        },
+        "c": "https://github.com/FoundationVision/GLEE",
         "n": "GLEE-Plus",
         "d": "2023-12-14",
         "m1": "53.0"
       },
       {
-        "p": "[Mask DINO: Towards A Unified Transformer-based Framework for Object Detection and Segmentation](https://arxiv.org/abs/2206.02777v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleDetection)",
+        "p": {
+          "name": "Mask DINO: Towards A Unified Transformer-based Framework for Object Detection and Segmentation",
+          "link": "https://arxiv.org/abs/2206.02777v3"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
         "n": "Mask DINO (SwinL)",
         "d": "2022-06-06",
         "m1": "52.6"
       },
       {
-        "p": "[End-to-End Semi-Supervised Object Detection with Soft Teacher](https://arxiv.org/abs/2106.09018v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/microsoft/SoftTeacher)",
+        "p": {
+          "name": "End-to-End Semi-Supervised Object Detection with Soft Teacher",
+          "link": "https://arxiv.org/abs/2106.09018v3"
+        },
+        "c": "https://github.com/microsoft/SoftTeacher",
         "n": "Soft Teacher + Swin-L(HTC++, multi-scale)",
         "d": "2021-06-16",
         "m1": "52.5"
       },
       {
-        "p": "[Vision Transformer Adapter for Dense Predictions](https://arxiv.org/abs/2205.08534v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/czczup/vit-adapter)",
+        "p": {
+          "name": "Vision Transformer Adapter for Dense Predictions",
+          "link": "https://arxiv.org/abs/2205.08534v4"
+        },
+        "c": "https://github.com/czczup/vit-adapter",
         "n": "ViT-Adapter-L (HTC++, BEiTv2 pretrain, multi-scale)",
         "d": "2022-05-17",
         "m1": "52.5"
       },
       {
-        "p": "[Vision Transformer Adapter for Dense Predictions](https://arxiv.org/abs/2205.08534v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/czczup/vit-adapter)",
+        "p": {
+          "name": "Vision Transformer Adapter for Dense Predictions",
+          "link": "https://arxiv.org/abs/2205.08534v4"
+        },
+        "c": "https://github.com/czczup/vit-adapter",
         "n": "ViT-Adapter-L (HTC++, BEiT pretrain, multi-scale)",
         "d": "2022-05-17",
         "m1": "52.2"
       },
       {
-        "p": "[Exploring Plain Vision Transformer Backbones for Object Detection](https://arxiv.org/abs/2203.16527v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/detectron2/tree/main/projects/ViTDet)",
+        "p": {
+          "name": "Exploring Plain Vision Transformer Backbones for Object Detection",
+          "link": "https://arxiv.org/abs/2203.16527v2"
+        },
+        "c": "https://github.com/facebookresearch/detectron2/tree/main/projects/ViTDet",
         "n": "ViTDet, ViT-H Cascade",
         "d": "2022-03-30",
         "m1": "52"
       },
       {
-        "p": "[End-to-End Semi-Supervised Object Detection with Soft Teacher](https://arxiv.org/abs/2106.09018v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/microsoft/SoftTeacher)",
+        "p": {
+          "name": "End-to-End Semi-Supervised Object Detection with Soft Teacher",
+          "link": "https://arxiv.org/abs/2106.09018v3"
+        },
+        "c": "https://github.com/microsoft/SoftTeacher",
         "n": "Soft Teacher + Swin-L(HTC++, single-scale)",
         "d": "2021-06-16",
         "m1": "51.9"
       },
       {
-        "p": "[CBNet: A Composite Backbone Network Architecture for Object Detection](https://arxiv.org/abs/2107.00420v7)",
-        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleDetection)",
+        "p": {
+          "name": "CBNet: A Composite Backbone Network Architecture for Object Detection",
+          "link": "https://arxiv.org/abs/2107.00420v7"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
         "n": "CBNetV2 (Dual-Swin-L HTC, multi-scale)",
         "d": "2021-07-01",
         "m1": "51.8"
       },
       {
-        "p": "[Could Giant Pretrained Image Models Extract Universal Representations?](https://arxiv.org/abs/2211.02043v1)",
+        "p": {
+          "name": "Could Giant Pretrained Image Models Extract Universal Representations?",
+          "link": "https://arxiv.org/abs/2211.02043v1"
+        },
         "c": "",
         "n": "Frozen Backbone, SwinV2-G-ext22K (HTC)",
         "d": "2022-11-03",
         "m1": "51.6"
       },
       {
-        "p": "[CBNet: A Composite Backbone Network Architecture for Object Detection](https://arxiv.org/abs/2107.00420v7)",
-        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleDetection)",
+        "p": {
+          "name": "CBNet: A Composite Backbone Network Architecture for Object Detection",
+          "link": "https://arxiv.org/abs/2107.00420v7"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
         "n": "CBNetV2 (Dual-Swin-L HTC, multi-scale)",
         "d": "2021-07-01",
         "m1": "51"
       },
       {
-        "p": "[Focal Self-attention for Local-Global Interactions in Vision Transformers](https://arxiv.org/abs/2107.00641v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/BR-IDL/PaddleViT/tree/develop/image_classification/Focal_Transformer)",
+        "p": {
+          "name": "Focal Self-attention for Local-Global Interactions in Vision Transformers",
+          "link": "https://arxiv.org/abs/2107.00641v1"
+        },
+        "c": "https://github.com/BR-IDL/PaddleViT/tree/develop/image_classification/Focal_Transformer",
         "n": "Focal-L (HTC++, multi-scale)",
         "d": "2021-07-01",
         "m1": "50.9"
       },
       {
-        "p": "[Dilated Neighborhood Attention Transformer](https://arxiv.org/abs/2209.15001v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "Dilated Neighborhood Attention Transformer",
+          "link": "https://arxiv.org/abs/2209.15001v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "DiNAT-L (single-scale, Mask2Former)",
         "d": "2022-09-29",
         "m1": "50.8",
         "m2": "75.0"
       },
       {
-        "p": "[MViTv2: Improved Multiscale Vision Transformers for Classification and Detection](https://arxiv.org/abs/2112.01526v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "p": {
+          "name": "MViTv2: Improved Multiscale Vision Transformers for Classification and Detection",
+          "link": "https://arxiv.org/abs/2112.01526v2"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
         "n": "MViTv2-L (Cascade Mask R-CNN, multi-scale, IN21k pre-train)",
         "d": "2021-12-02",
         "m1": "50.5"
       },
       {
-        "p": "[Swin Transformer: Hierarchical Vision Transformer using Shifted Windows](https://arxiv.org/abs/2103.14030v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+          "link": "https://arxiv.org/abs/2103.14030v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "Swin-L (HTC++, multi scale)",
         "d": "2021-03-25",
         "m1": "50.4"
       },
       {
-        "p": "[MOAT: Alternating Mobile Convolution and Attention Brings Strong Vision Models](https://arxiv.org/abs/2210.01820v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/deeplab2)",
+        "p": {
+          "name": "MOAT: Alternating Mobile Convolution and Attention Brings Strong Vision Models",
+          "link": "https://arxiv.org/abs/2210.01820v2"
+        },
+        "c": "https://github.com/google-research/deeplab2",
         "n": "MOAT-3 (IN-22K pretraining, single-scale)",
         "d": "2022-10-04",
         "m1": "50.3"
       },
       {
-        "p": "[Masked-attention Mask Transformer for Universal Image Segmentation](https://arxiv.org/abs/2112.01527v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "Masked-attention Mask Transformer for Universal Image Segmentation",
+          "link": "https://arxiv.org/abs/2112.01527v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "Mask2Former (Swin-L)",
         "d": "2021-12-02",
         "m1": "50.1"
       },
       {
-        "p": "[Swin Transformer: Hierarchical Vision Transformer using Shifted Windows](https://arxiv.org/abs/2103.14030v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+          "link": "https://arxiv.org/abs/2103.14030v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "Swin-L (HTC++, single scale)",
         "d": "2021-03-25",
         "m1": "49.5"
       },
       {
-        "p": "[MOAT: Alternating Mobile Convolution and Attention Brings Strong Vision Models](https://arxiv.org/abs/2210.01820v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/deeplab2)",
+        "p": {
+          "name": "MOAT: Alternating Mobile Convolution and Attention Brings Strong Vision Models",
+          "link": "https://arxiv.org/abs/2210.01820v2"
+        },
+        "c": "https://github.com/google-research/deeplab2",
         "n": "MOAT-2 (IN-22K pretraining, single-scale)",
         "d": "2022-10-04",
         "m1": "49.3"
       },
       {
-        "p": "[MOAT: Alternating Mobile Convolution and Attention Brings Strong Vision Models](https://arxiv.org/abs/2210.01820v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/deeplab2)",
+        "p": {
+          "name": "MOAT: Alternating Mobile Convolution and Attention Brings Strong Vision Models",
+          "link": "https://arxiv.org/abs/2210.01820v2"
+        },
+        "c": "https://github.com/google-research/deeplab2",
         "n": "MOAT-1 (IN-1K pretraining, single-scale)",
         "d": "2022-10-04",
         "m1": "49.0"
       },
       {
-        "p": "[Instances as Queries](https://arxiv.org/abs/2105.01928v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection)",
+        "p": {
+          "name": "Instances as Queries",
+          "link": "https://arxiv.org/abs/2105.01928v3"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
         "n": "QueryInst (single scale)",
         "d": "2021-05-05",
         "m1": "48.9",
@@ -309,15 +399,21 @@
         "m6": "30.8"
       },
       {
-        "p": "[Simple Copy-Paste is a Strong Data Augmentation Method for Instance Segmentation](https://arxiv.org/abs/2012.07177v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleOCR)",
+        "p": {
+          "name": "Simple Copy-Paste is a Strong Data Augmentation Method for Instance Segmentation",
+          "link": "https://arxiv.org/abs/2012.07177v2"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleOCR",
         "n": "Cascade Eff-B7 NAS-FPN (1280, self-training Copy Paste, single-scale)",
         "d": "2020-12-13",
         "m1": "48.9"
       },
       {
-        "p": "[InternImage: Exploring Large-Scale Vision Foundation Models with Deformable Convolutions](https://arxiv.org/abs/2211.05778v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internimage)",
+        "p": {
+          "name": "InternImage: Exploring Large-Scale Vision Foundation Models with Deformable Convolutions",
+          "link": "https://arxiv.org/abs/2211.05778v4"
+        },
+        "c": "https://github.com/opengvlab/internimage",
         "n": "InternImage-XL",
         "d": "2022-11-10",
         "m1": "48.8",
@@ -325,22 +421,31 @@
         "m8": "387"
       },
       {
-        "p": "[X-Paste: Revisiting Scalable Copy-Paste for Instance Segmentation using CLIP and StableDiffusion](https://arxiv.org/abs/2212.03863v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/aim-uofa/DiverGen)",
+        "p": {
+          "name": "X-Paste: Revisiting Scalable Copy-Paste for Instance Segmentation using CLIP and StableDiffusion",
+          "link": "https://arxiv.org/abs/2212.03863v2"
+        },
+        "c": "https://github.com/aim-uofa/DiverGen",
         "n": "CenterNet2 (Swin-L w/ X-Paste + Copy-Paste)",
         "d": "2022-12-07",
         "m1": "48.8"
       },
       {
-        "p": "[Hiera: A Hierarchical Vision Transformer without the Bells-and-Whistles](https://arxiv.org/abs/2306.00989v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/pytorch-image-models)",
+        "p": {
+          "name": "Hiera: A Hierarchical Vision Transformer without the Bells-and-Whistles",
+          "link": "https://arxiv.org/abs/2306.00989v1"
+        },
+        "c": "https://github.com/huggingface/pytorch-image-models",
         "n": "Heira-L",
         "d": "2023-06-01",
         "m1": "48.6"
       },
       {
-        "p": "[InternImage: Exploring Large-Scale Vision Foundation Models with Deformable Convolutions](https://arxiv.org/abs/2211.05778v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internimage)",
+        "p": {
+          "name": "InternImage: Exploring Large-Scale Vision Foundation Models with Deformable Convolutions",
+          "link": "https://arxiv.org/abs/2211.05778v4"
+        },
+        "c": "https://github.com/opengvlab/internimage",
         "n": "InternImage-L",
         "d": "2022-11-10",
         "m1": "48.5",
@@ -349,93 +454,132 @@
         "m9": "56.1"
       },
       {
-        "p": "[MViTv2: Improved Multiscale Vision Transformers for Classification and Detection](https://arxiv.org/abs/2112.01526v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "p": {
+          "name": "MViTv2: Improved Multiscale Vision Transformers for Classification and Detection",
+          "link": "https://arxiv.org/abs/2112.01526v2"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
         "n": "MViTv2-H (Cascade Mask R-CNN, single-scale, IN21k pre-train)",
         "d": "2021-12-02",
         "m1": "48.5"
       },
       {
-        "p": "[General Object Foundation Model for Images and Videos at Scale](https://arxiv.org/abs/2312.09158v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/FoundationVision/GLEE)",
+        "p": {
+          "name": "General Object Foundation Model for Images and Videos at Scale",
+          "link": "https://arxiv.org/abs/2312.09158v1"
+        },
+        "c": "https://github.com/FoundationVision/GLEE",
         "n": "GLEE-Lite",
         "d": "2023-12-14",
         "m1": "48.4"
       },
       {
-        "p": "[MOAT: Alternating Mobile Convolution and Attention Brings Strong Vision Models](https://arxiv.org/abs/2210.01820v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/deeplab2)",
+        "p": {
+          "name": "MOAT: Alternating Mobile Convolution and Attention Brings Strong Vision Models",
+          "link": "https://arxiv.org/abs/2210.01820v2"
+        },
+        "c": "https://github.com/google-research/deeplab2",
         "n": "MOAT-0 (IN-1K pretraining, single-scale)",
         "d": "2022-10-04",
         "m1": "47.4"
       },
       {
-        "p": "[MViTv2: Improved Multiscale Vision Transformers for Classification and Detection](https://arxiv.org/abs/2112.01526v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "p": {
+          "name": "MViTv2: Improved Multiscale Vision Transformers for Classification and Detection",
+          "link": "https://arxiv.org/abs/2112.01526v2"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
         "n": "MViTv2-L (Cascade Mask R-CNN, single-scale)",
         "d": "2021-12-02",
         "m1": "47.1"
       },
       {
-        "p": "[MPViT: Multi-Path Vision Transformer for Dense Prediction](https://arxiv.org/abs/2112.11010v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/towhee-io/towhee)",
+        "p": {
+          "name": "MPViT: Multi-Path Vision Transformer for Dense Prediction",
+          "link": "https://arxiv.org/abs/2112.11010v2"
+        },
+        "c": "https://github.com/towhee-io/towhee",
         "n": "MPViT-B (Cascade Mask R-CNN, multi-scale, IN1k pre-train)",
         "d": "2021-12-21",
         "m1": "47.0"
       },
       {
-        "p": "[MOAT: Alternating Mobile Convolution and Attention Brings Strong Vision Models](https://arxiv.org/abs/2210.01820v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/deeplab2)",
+        "p": {
+          "name": "MOAT: Alternating Mobile Convolution and Attention Brings Strong Vision Models",
+          "link": "https://arxiv.org/abs/2210.01820v2"
+        },
+        "c": "https://github.com/google-research/deeplab2",
         "n": "tiny-MOAT-3 (IN-1K pretraining, single-scale)",
         "d": "2022-10-04",
         "m1": "47.0"
       },
       {
-        "p": "[Simple Copy-Paste is a Strong Data Augmentation Method for Instance Segmentation](https://arxiv.org/abs/2012.07177v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleOCR)",
+        "p": {
+          "name": "Simple Copy-Paste is a Strong Data Augmentation Method for Instance Segmentation",
+          "link": "https://arxiv.org/abs/2012.07177v2"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleOCR",
         "n": "Cascade Eff-B7 NAS-FPN (1280)",
         "d": "2020-12-13",
         "m1": "46.8"
       },
       {
-        "p": "[ResNeSt: Split-Attention Networks](https://arxiv.org/abs/2004.08955v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "p": {
+          "name": "ResNeSt: Split-Attention Networks",
+          "link": "https://arxiv.org/abs/2004.08955v2"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
         "n": "ResNeSt-200 (multi-scale)",
         "d": "2020-04-19",
         "m1": "46.25"
       },
       {
-        "p": "[MViTv2: Improved Multiscale Vision Transformers for Classification and Detection](https://arxiv.org/abs/2112.01526v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "p": {
+          "name": "MViTv2: Improved Multiscale Vision Transformers for Classification and Detection",
+          "link": "https://arxiv.org/abs/2112.01526v2"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
         "n": "MViT-L (Mask R-CNN, single-scale)",
         "d": "2021-12-02",
         "m1": "46.2"
       },
       {
-        "p": "[SpineNet: Learning Scale-Permuted Backbone for Recognition and Localization](https://arxiv.org/abs/1912.05027v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/official/vision/beta/modeling/backbones)",
+        "p": {
+          "name": "SpineNet: Learning Scale-Permuted Backbone for Recognition and Localization",
+          "link": "https://arxiv.org/abs/1912.05027v3"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/official/vision/beta/modeling/backbones",
         "n": "RetinaNet (SpineNet-190, 1536x1536)",
         "d": "2019-12-10",
         "m1": "46.1"
       },
       {
-        "p": "[MPViT: Multi-Path Vision Transformer for Dense Prediction](https://arxiv.org/abs/2112.11010v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/towhee-io/towhee)",
+        "p": {
+          "name": "MPViT: Multi-Path Vision Transformer for Dense Prediction",
+          "link": "https://arxiv.org/abs/2112.11010v2"
+        },
+        "c": "https://github.com/towhee-io/towhee",
         "n": "MPViT-B (Cascade R-CNN, sinlge-scale, IN-1K pre-train)",
         "d": "2021-12-21",
         "m1": "45.8"
       },
       {
-        "p": "[Multi-Scale Vision Longformer: A New Vision Transformer for High-Resolution Image Encoding](https://arxiv.org/abs/2103.15358v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/microsoft/esvit)",
+        "p": {
+          "name": "Multi-Scale Vision Longformer: A New Vision Transformer for High-Resolution Image Encoding",
+          "link": "https://arxiv.org/abs/2103.15358v2"
+        },
+        "c": "https://github.com/microsoft/esvit",
         "n": "Mask R-CNN (ViL Base, multi-scale, 3x lr)",
         "d": "2021-03-29",
         "m1": "45.7",
         "m3": "49.9"
       },
       {
-        "p": "[Multi-Scale Vision Longformer: A New Vision Transformer for High-Resolution Image Encoding](https://arxiv.org/abs/2103.15358v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/microsoft/esvit)",
+        "p": {
+          "name": "Multi-Scale Vision Longformer: A New Vision Transformer for High-Resolution Image Encoding",
+          "link": "https://arxiv.org/abs/2103.15358v2"
+        },
+        "c": "https://github.com/microsoft/esvit",
         "n": "Mask R-CNN (ViL Base, 1x lr)",
         "d": "2021-03-29",
         "m1": "45.1",
@@ -443,15 +587,21 @@
         "m3": "49.3"
       },
       {
-        "p": "[MOAT: Alternating Mobile Convolution and Attention Brings Strong Vision Models](https://arxiv.org/abs/2210.01820v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/deeplab2)",
+        "p": {
+          "name": "MOAT: Alternating Mobile Convolution and Attention Brings Strong Vision Models",
+          "link": "https://arxiv.org/abs/2210.01820v2"
+        },
+        "c": "https://github.com/google-research/deeplab2",
         "n": "tiny-MOAT-2 (IN-1K pretraining, single-scale)",
         "d": "2022-10-04",
         "m1": "45.0"
       },
       {
-        "p": "[Global Context Networks](https://arxiv.org/abs/2012.13375v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "p": {
+          "name": "Global Context Networks",
+          "link": "https://arxiv.org/abs/2012.13375v1"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
         "n": "GCNet (ResNeXt-101 + DCN + cascade + GC r4)",
         "d": "2020-12-24",
         "m1": "44.7",
@@ -459,15 +609,21 @@
         "m3": "48.4"
       },
       {
-        "p": "[MOAT: Alternating Mobile Convolution and Attention Brings Strong Vision Models](https://arxiv.org/abs/2210.01820v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/deeplab2)",
+        "p": {
+          "name": "MOAT: Alternating Mobile Convolution and Attention Brings Strong Vision Models",
+          "link": "https://arxiv.org/abs/2210.01820v2"
+        },
+        "c": "https://github.com/google-research/deeplab2",
         "n": "tiny-MOAT-1 (IN-1K pretraining, single-scale)",
         "d": "2022-10-04",
         "m1": "44.6"
       },
       {
-        "p": "[InternImage: Exploring Large-Scale Vision Foundation Models with Deformable Convolutions](https://arxiv.org/abs/2211.05778v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internimage)",
+        "p": {
+          "name": "InternImage: Exploring Large-Scale Vision Foundation Models with Deformable Convolutions",
+          "link": "https://arxiv.org/abs/2211.05778v4"
+        },
+        "c": "https://github.com/opengvlab/internimage",
         "n": "InternImage-S",
         "d": "2022-11-10",
         "m1": "44.5",
@@ -476,15 +632,21 @@
         "m9": "49.7"
       },
       {
-        "p": "[ResNeSt: Split-Attention Networks](https://arxiv.org/abs/2004.08955v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "p": {
+          "name": "ResNeSt: Split-Attention Networks",
+          "link": "https://arxiv.org/abs/2004.08955v2"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
         "n": "ResNeSt-200-DCN (single-scale)",
         "d": "2020-04-19",
         "m1": "44.5"
       },
       {
-        "p": "[ELSA: Enhanced Local Self-Attention for Vision Transformer](https://arxiv.org/abs/2112.12786v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/damo-cv/elsa)",
+        "p": {
+          "name": "ELSA: Enhanced Local Self-Attention for Vision Transformer",
+          "link": "https://arxiv.org/abs/2112.12786v1"
+        },
+        "c": "https://github.com/damo-cv/elsa",
         "n": "ELSA-S (Cascade Mask RCNN)",
         "d": "2021-12-23",
         "m1": "44.4",
@@ -492,29 +654,41 @@
         "m3": "47.8"
       },
       {
-        "p": "[Bottleneck Transformers for Visual Recognition](https://arxiv.org/abs/2101.11605v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "p": {
+          "name": "Bottleneck Transformers for Visual Recognition",
+          "link": "https://arxiv.org/abs/2101.11605v2"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
         "n": "BoTNet 200 (Mask R-CNN, single scale, 72 epochs)",
         "d": "2021-01-27",
         "m1": "44.4"
       },
       {
-        "p": "[DaViT: Dual Attention Vision Transformers](https://arxiv.org/abs/2204.03645v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "p": {
+          "name": "DaViT: Dual Attention Vision Transformers",
+          "link": "https://arxiv.org/abs/2204.03645v1"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
         "n": "DaViT-T (Mask R-CNN, 36 epochs)",
         "d": "2022-04-07",
         "m1": "44.3"
       },
       {
-        "p": "[ResNeSt: Split-Attention Networks](https://arxiv.org/abs/2004.08955v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "p": {
+          "name": "ResNeSt: Split-Attention Networks",
+          "link": "https://arxiv.org/abs/2004.08955v2"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
         "n": "ResNeSt-200 (single-scale)",
         "d": "2020-04-19",
         "m1": "44.21"
       },
       {
-        "p": "[InternImage: Exploring Large-Scale Vision Foundation Models with Deformable Convolutions](https://arxiv.org/abs/2211.05778v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internimage)",
+        "p": {
+          "name": "InternImage: Exploring Large-Scale Vision Foundation Models with Deformable Convolutions",
+          "link": "https://arxiv.org/abs/2211.05778v4"
+        },
+        "c": "https://github.com/opengvlab/internimage",
         "n": "InternImage-T",
         "d": "2022-11-10",
         "m1": "43.7",
@@ -523,29 +697,41 @@
         "m9": "49.1"
       },
       {
-        "p": "[Bottleneck Transformers for Visual Recognition](https://arxiv.org/abs/2101.11605v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "p": {
+          "name": "Bottleneck Transformers for Visual Recognition",
+          "link": "https://arxiv.org/abs/2101.11605v2"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
         "n": "BoTNet 152 (Mask R-CNN, single scale, 72 epochs)",
         "d": "2021-01-27",
         "m1": "43.7"
       },
       {
-        "p": "[XCiT: Cross-Covariance Image Transformers](https://arxiv.org/abs/2106.09681v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "p": {
+          "name": "XCiT: Cross-Covariance Image Transformers",
+          "link": "https://arxiv.org/abs/2106.09681v2"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
         "n": "XCiT-M24/8",
         "d": "2021-06-17",
         "m1": "43.7"
       },
       {
-        "p": "[MOAT: Alternating Mobile Convolution and Attention Brings Strong Vision Models](https://arxiv.org/abs/2210.01820v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/deeplab2)",
+        "p": {
+          "name": "MOAT: Alternating Mobile Convolution and Attention Brings Strong Vision Models",
+          "link": "https://arxiv.org/abs/2210.01820v2"
+        },
+        "c": "https://github.com/google-research/deeplab2",
         "n": "tiny-MOAT-0 (IN-1K pretraining, single-scale)",
         "d": "2022-10-04",
         "m1": "43.3"
       },
       {
-        "p": "[ELSA: Enhanced Local Self-Attention for Vision Transformer](https://arxiv.org/abs/2112.12786v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/damo-cv/elsa)",
+        "p": {
+          "name": "ELSA: Enhanced Local Self-Attention for Vision Transformer",
+          "link": "https://arxiv.org/abs/2112.12786v1"
+        },
+        "c": "https://github.com/damo-cv/elsa",
         "n": "ELSA-S (Mask RCNN)",
         "d": "2021-12-23",
         "m1": "43.0",
@@ -553,71 +739,101 @@
         "m3": "46.4"
       },
       {
-        "p": "[XCiT: Cross-Covariance Image Transformers](https://arxiv.org/abs/2106.09681v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "p": {
+          "name": "XCiT: Cross-Covariance Image Transformers",
+          "link": "https://arxiv.org/abs/2106.09681v2"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
         "n": "XCiT-S24/8",
         "d": "2021-06-17",
         "m1": "43.0"
       },
       {
-        "p": "[CenterMask : Real-Time Anchor-Free Instance Segmentation](https://arxiv.org/abs/1911.06667v6)",
-        "c": "[&check;&nbsp;Link](https://github.com/youngwanLEE/centermask2)",
+        "p": {
+          "name": "CenterMask : Real-Time Anchor-Free Instance Segmentation",
+          "link": "https://arxiv.org/abs/1911.06667v6"
+        },
+        "c": "https://github.com/youngwanLEE/centermask2",
         "n": "CenterMask-VoVNetV2-99 (multi-scale)",
         "d": "2019-11-15",
         "m1": "42.5"
       },
       {
-        "p": "[ResNeSt: Split-Attention Networks](https://arxiv.org/abs/2004.08955v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "p": {
+          "name": "ResNeSt: Split-Attention Networks",
+          "link": "https://arxiv.org/abs/2004.08955v2"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
         "n": "ResNeSt-101 (single-scale)",
         "d": "2020-04-19",
         "m1": "41.56"
       },
       {
-        "p": "[Scaling up Multi-domain Semantic Segmentation with Sentence Embeddings](https://arxiv.org/abs/2202.02002v2)",
+        "p": {
+          "name": "Scaling up Multi-domain Semantic Segmentation with Sentence Embeddings",
+          "link": "https://arxiv.org/abs/2202.02002v2"
+        },
         "c": "",
         "n": "SIW",
         "d": "2022-02-04",
         "m1": "41.4"
       },
       {
-        "p": "[Res2Net: A New Multi-scale Backbone Architecture](https://arxiv.org/abs/1904.01169v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "p": {
+          "name": "Res2Net: A New Multi-scale Backbone Architecture",
+          "link": "https://arxiv.org/abs/1904.01169v3"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
         "n": "Res2Net-101+HTC",
         "d": "2019-04-02",
         "m1": "41.3"
       },
       {
-        "p": "[Deep High-Resolution Representation Learning for Human Pose Estimation](http://arxiv.org/abs/1902.09212v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection)",
+        "p": {
+          "name": "Deep High-Resolution Representation Learning for Human Pose Estimation",
+          "link": "http://arxiv.org/abs/1902.09212v1"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
         "n": "HTC (HRNetV2p-W48)",
         "d": "2019-02-25",
         "m1": "41.0"
       },
       {
-        "p": "[Deep High-Resolution Representation Learning for Visual Recognition](https://arxiv.org/abs/1908.07919v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection)",
+        "p": {
+          "name": "Deep High-Resolution Representation Learning for Visual Recognition",
+          "link": "https://arxiv.org/abs/1908.07919v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
         "n": "HTC (HRNetV2p-W48)",
         "d": "2019-08-20",
         "m1": "41.0"
       },
       {
-        "p": "[GCNet: Non-local Networks Meet Squeeze-Excitation Networks and Beyond](http://arxiv.org/abs/1904.11492v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection)",
+        "p": {
+          "name": "GCNet: Non-local Networks Meet Squeeze-Excitation Networks and Beyond",
+          "link": "http://arxiv.org/abs/1904.11492v1"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
         "n": "GCNet (ResNeXt-101 + DCN + cascade + GC r16)",
         "d": "2019-04-25",
         "m1": "40.9"
       },
       {
-        "p": "[Bottleneck Transformers for Visual Recognition](https://arxiv.org/abs/2101.11605v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "p": {
+          "name": "Bottleneck Transformers for Visual Recognition",
+          "link": "https://arxiv.org/abs/2101.11605v2"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
         "n": "BoTNet 50 (72 epochs)",
         "d": "2021-01-27",
         "m1": "40.7"
       },
       {
-        "p": "[Recursively Refined R-CNN: Instance Segmentation with Self-RoI Rebalancing](https://arxiv.org/abs/2104.01329v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/IMPLabUniPr/mmdetection)",
+        "p": {
+          "name": "Recursively Refined R-CNN: Instance Segmentation with Self-RoI Rebalancing",
+          "link": "https://arxiv.org/abs/2104.01329v2"
+        },
+        "c": "https://github.com/IMPLabUniPr/mmdetection",
         "n": "R3-CNN (ResNet-50-FPN, DCN)",
         "d": "2021-04-03",
         "m1": "40.4",
@@ -628,15 +844,21 @@
         "m6": "22.3"
       },
       {
-        "p": "[Non-local Neural Networks](http://arxiv.org/abs/1711.07971v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/detectron)",
+        "p": {
+          "name": "Non-local Neural Networks",
+          "link": "http://arxiv.org/abs/1711.07971v3"
+        },
+        "c": "https://github.com/facebookresearch/detectron",
         "n": "Mask R-CNN (ResNext-152, +1 NL)",
         "d": "2017-11-21",
         "m1": "40.3"
       },
       {
-        "p": "[Attentive Normalization](https://arxiv.org/abs/1908.01259v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/iVMCL/AOGNet-v2)",
+        "p": {
+          "name": "Attentive Normalization",
+          "link": "https://arxiv.org/abs/1908.01259v3"
+        },
+        "c": "https://github.com/iVMCL/AOGNet-v2",
         "n": "Mask R-CNN-FPN (AOGNet-40M)",
         "d": "2019-08-04",
         "m1": "40.2",
@@ -644,8 +866,11 @@
         "m3": "43.3"
       },
       {
-        "p": "[Recursively Refined R-CNN: Instance Segmentation with Self-RoI Rebalancing](https://arxiv.org/abs/2104.01329v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/IMPLabUniPr/mmdetection)",
+        "p": {
+          "name": "Recursively Refined R-CNN: Instance Segmentation with Self-RoI Rebalancing",
+          "link": "https://arxiv.org/abs/2104.01329v2"
+        },
+        "c": "https://github.com/IMPLabUniPr/mmdetection",
         "n": "R3-CNN (ResNet-50-FPN, GC-Net)",
         "d": "2021-04-03",
         "m1": "40.2",
@@ -655,15 +880,21 @@
         "m6": "22.6"
       },
       {
-        "p": "[CenterMask : Real-Time Anchor-Free Instance Segmentation](https://arxiv.org/abs/1911.06667v6)",
-        "c": "[&check;&nbsp;Link](https://github.com/youngwanLEE/centermask2)",
+        "p": {
+          "name": "CenterMask : Real-Time Anchor-Free Instance Segmentation",
+          "link": "https://arxiv.org/abs/1911.06667v6"
+        },
+        "c": "https://github.com/youngwanLEE/centermask2",
         "n": "CenterMask-VoVNetV2-99-3x",
         "d": "2019-11-15",
         "m1": "40.2"
       },
       {
-        "p": "[Recursively Refined R-CNN: Instance Segmentation with Self-RoI Rebalancing](https://arxiv.org/abs/2104.01329v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/IMPLabUniPr/mmdetection)",
+        "p": {
+          "name": "Recursively Refined R-CNN: Instance Segmentation with Self-RoI Rebalancing",
+          "link": "https://arxiv.org/abs/2104.01329v2"
+        },
+        "c": "https://github.com/IMPLabUniPr/mmdetection",
         "n": "R3-CNN (ResNet-50-FPN, GRoIE)",
         "d": "2021-04-03",
         "m1": "39.1",
@@ -674,15 +905,21 @@
         "m6": "20.7"
       },
       {
-        "p": "[Mask Scoring R-CNN](http://arxiv.org/abs/1903.00241v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection)",
+        "p": {
+          "name": "Mask Scoring R-CNN",
+          "link": "http://arxiv.org/abs/1903.00241v1"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
         "n": "Mask Scoring R-CNN (ResNet-101-FPN-DCN)",
         "d": "2019-03-01",
         "m1": "39.1"
       },
       {
-        "p": "[Micro-Batch Training with Batch-Channel Normalization and Weight Standardization](https://arxiv.org/abs/1903.10520v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+        "p": {
+          "name": "Micro-Batch Training with Batch-Channel Normalization and Weight Standardization",
+          "link": "https://arxiv.org/abs/1903.10520v2"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
         "n": "Mask R-CNN-FPN (ResNeXt-101, GN+WS)",
         "d": "2019-03-25",
         "m1": "38.34",
@@ -693,8 +930,11 @@
         "m6": "18.32"
       },
       {
-        "p": "[Recursively Refined R-CNN: Instance Segmentation with Self-RoI Rebalancing](https://arxiv.org/abs/2104.01329v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/IMPLabUniPr/mmdetection)",
+        "p": {
+          "name": "Recursively Refined R-CNN: Instance Segmentation with Self-RoI Rebalancing",
+          "link": "https://arxiv.org/abs/2104.01329v2"
+        },
+        "c": "https://github.com/IMPLabUniPr/mmdetection",
         "n": "R3-CNN (ResNet-50-FPN)",
         "d": "2021-04-03",
         "m1": "38.2",
@@ -705,29 +945,41 @@
         "m6": "20.4"
       },
       {
-        "p": "[Hybrid Task Cascade for Instance Segmentation](http://arxiv.org/abs/1901.07518v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection)",
+        "p": {
+          "name": "Hybrid Task Cascade for Instance Segmentation",
+          "link": "http://arxiv.org/abs/1901.07518v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
         "n": "HTC (ResNet-50)",
         "d": "2019-01-22",
         "m1": "38.2"
       },
       {
-        "p": "[Mask Scoring R-CNN](http://arxiv.org/abs/1903.00241v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection)",
+        "p": {
+          "name": "Mask Scoring R-CNN",
+          "link": "http://arxiv.org/abs/1903.00241v1"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
         "n": "Mask Scoring R-CNN (ResNet-101 FPN)",
         "d": "2019-03-01",
         "m1": "38.2"
       },
       {
-        "p": "[Path Aggregation Network for Instance Segmentation](http://arxiv.org/abs/1803.01534v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/ultralytics/yolov5)",
+        "p": {
+          "name": "Path Aggregation Network for Instance Segmentation",
+          "link": "http://arxiv.org/abs/1803.01534v4"
+        },
+        "c": "https://github.com/ultralytics/yolov5",
         "n": "PANet (ResNet-50)",
         "d": "2018-03-05",
         "m1": "37.8"
       },
       {
-        "p": "[A novel Region of Interest Extraction Layer for Instance Segmentation](https://arxiv.org/abs/2004.13665v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection)",
+        "p": {
+          "name": "A novel Region of Interest Extraction Layer for Instance Segmentation",
+          "link": "https://arxiv.org/abs/2004.13665v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
         "n": "GCnet (ResNet-50-FPN, GRoIE)",
         "d": "2020-04-28",
         "m1": "37.2",
@@ -738,7 +990,10 @@
         "m6": "20.2"
       },
       {
-        "p": "[X-volution: On the unification of convolution and self-attention](https://arxiv.org/abs/2106.02253v2)",
+        "p": {
+          "name": "X-volution: On the unification of convolution and self-attention",
+          "link": "https://arxiv.org/abs/2106.02253v2"
+        },
         "c": "",
         "n": "Mask R-CNN (FPN, X-volution, SA)",
         "d": "2021-06-04",
@@ -748,22 +1003,31 @@
         "m6": "19.2"
       },
       {
-        "p": "[Non-local Neural Networks](http://arxiv.org/abs/1711.07971v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/detectron)",
+        "p": {
+          "name": "Non-local Neural Networks",
+          "link": "http://arxiv.org/abs/1711.07971v3"
+        },
+        "c": "https://github.com/facebookresearch/detectron",
         "n": "Mask R-CNN (ResNet-101, +1 NL)",
         "d": "2017-11-21",
         "m1": "37.1"
       },
       {
-        "p": "[Mask Scoring R-CNN](http://arxiv.org/abs/1903.00241v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection)",
+        "p": {
+          "name": "Mask Scoring R-CNN",
+          "link": "http://arxiv.org/abs/1903.00241v1"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
         "n": "Mask Scoring R-CNN (ResNet-50 FPN)",
         "d": "2019-03-01",
         "m1": "36.0"
       },
       {
-        "p": "[A novel Region of Interest Extraction Layer for Instance Segmentation](https://arxiv.org/abs/2004.13665v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection)",
+        "p": {
+          "name": "A novel Region of Interest Extraction Layer for Instance Segmentation",
+          "link": "https://arxiv.org/abs/2004.13665v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
         "n": "Mask R-CNN (ResNet-50-FPN, GRoIE)",
         "d": "2020-04-28",
         "m1": "35.8",
@@ -774,8 +1038,11 @@
         "m6": "19.1"
       },
       {
-        "p": "[Res2Net: A New Multi-scale Backbone Architecture](https://arxiv.org/abs/1904.01169v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "p": {
+          "name": "Res2Net: A New Multi-scale Backbone Architecture",
+          "link": "https://arxiv.org/abs/1904.01169v3"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
         "n": "Faster R-CNN (Res2Net-50)",
         "d": "2019-04-02",
         "m1": "35.6",
@@ -785,29 +1052,41 @@
         "m6": "15.7"
       },
       {
-        "p": "[Non-local Neural Networks](http://arxiv.org/abs/1711.07971v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/detectron)",
+        "p": {
+          "name": "Non-local Neural Networks",
+          "link": "http://arxiv.org/abs/1711.07971v3"
+        },
+        "c": "https://github.com/facebookresearch/detectron",
         "n": "Mask R-CNN (ResNet-50, +1 NL)",
         "d": "2017-11-21",
         "m1": "35.5"
       },
       {
-        "p": "[Adaptively Connected Neural Networks](http://arxiv.org/abs/1904.03579v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/wanggrun/Adaptively-Connected-Neural-Networks)",
+        "p": {
+          "name": "Adaptively Connected Neural Networks",
+          "link": "http://arxiv.org/abs/1904.03579v1"
+        },
+        "c": "https://github.com/wanggrun/Adaptively-Connected-Neural-Networks",
         "n": "Mask R-CNN (ResNet-50, ACNet)",
         "d": "2019-04-07",
         "m1": "35.2"
       },
       {
-        "p": "[YOLACT: Real-time Instance Segmentation](https://arxiv.org/abs/1904.02689v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection)",
+        "p": {
+          "name": "YOLACT: Real-time Instance Segmentation",
+          "link": "https://arxiv.org/abs/1904.02689v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
         "n": "YOLACT-550 (ResNet-50)",
         "d": "2019-04-04",
         "m1": "29.9"
       },
       {
-        "p": "[InternImage: Exploring Large-Scale Vision Foundation Models with Deformable Convolutions](https://arxiv.org/abs/2211.05778v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internimage)",
+        "p": {
+          "name": "InternImage: Exploring Large-Scale Vision Foundation Models with Deformable Convolutions",
+          "link": "https://arxiv.org/abs/2211.05778v4"
+        },
+        "c": "https://github.com/opengvlab/internimage",
         "n": "InternImage-B",
         "d": "2022-11-10",
         "m7": "501",

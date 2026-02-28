@@ -69,8 +69,11 @@
     ],
     "items": [
       {
-        "p": "[Are you sure it’s an artifact? Artifact detection and uncertainty quantification in histological images](https://www.sciencedirect.com/science/article/pii/S0895611123001398)",
-        "c": "[&check;&nbsp;Link](https://github.com/NeelKanwal/Vision-Transformers-for-Small-Histological-Datasets-Learned-Through-Knowledge-Distillation)",
+        "p": {
+          "name": "Are you sure it’s an artifact? Artifact detection and uncertainty quantification in histological images",
+          "link": "https://www.sciencedirect.com/science/article/pii/S0895611123001398"
+        },
+        "c": "https://github.com/NeelKanwal/Vision-Transformers-for-Small-Histological-Datasets-Learned-Through-Knowledge-Distillation",
         "n": "DKL_101010",
         "d": "2023-12-23",
         "m1": "0.990",
@@ -79,16 +82,22 @@
         "m5": "0.995"
       },
       {
-        "p": "[Quantifying the effect of color processing on blood and damaged tissue detection in Whole Slide Images](https://ieeexplore.ieee.org/abstract/document/9816283/authors#authors)",
-        "c": "[&check;&nbsp;Link](https://github.com/NeelKanwal/Quantifying-the-effect-of-color-processing-on-blood-and-damaged-tissue-detection)",
+        "p": {
+          "name": "Quantifying the effect of color processing on blood and damaged tissue detection in Whole Slide Images",
+          "link": "https://ieeexplore.ieee.org/abstract/document/9816283/authors#authors"
+        },
+        "c": "https://github.com/NeelKanwal/Quantifying-the-effect-of-color-processing-on-blood-and-damaged-tissue-detection",
         "n": "VGG16-TL",
         "d": "2022-09-26",
         "m1": "0.98",
         "m2": "0.997"
       },
       {
-        "p": "[Vision Transformers for Small Histological Datasets Learned through Knowledge Distillation](https://arxiv.org/abs/2305.17370v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/NeelKanwal/Vision-Transformers-for-Small-Histological-Datasets-Learned-Through-Knowledge-Distillation)",
+        "p": {
+          "name": "Vision Transformers for Small Histological Datasets Learned through Knowledge Distillation",
+          "link": "https://arxiv.org/abs/2305.17370v1"
+        },
+        "c": "https://github.com/NeelKanwal/Vision-Transformers-for-Small-Histological-Datasets-Learned-Through-Knowledge-Distillation",
         "n": "KD-based ViT-Tiny",
         "d": "2023-05-27",
         "m1": "0.911",
@@ -96,16 +105,22 @@
         "m7": "0.961"
       },
       {
-        "p": "[Quantifying the effect of color processing on blood and damaged tissue detection in Whole Slide Images](https://ieeexplore.ieee.org/abstract/document/9816283/authors#authors)",
-        "c": "[&check;&nbsp;Link](https://github.com/NeelKanwal/Quantifying-the-effect-of-color-processing-on-blood-and-damaged-tissue-detection)",
+        "p": {
+          "name": "Quantifying the effect of color processing on blood and damaged tissue detection in Whole Slide Images",
+          "link": "https://ieeexplore.ieee.org/abstract/document/9816283/authors#authors"
+        },
+        "c": "https://github.com/NeelKanwal/Quantifying-the-effect-of-color-processing-on-blood-and-damaged-tissue-detection",
         "n": "MobileNet-TL",
         "d": "2022-09-26",
         "m1": "0.81",
         "m2": "0.89"
       },
       {
-        "p": "[Equipping Computational Pathology Systems with Artifact Processing Pipelines: A Showcase for Computation and Performance Trade-offs](https://arxiv.org/abs/2403.07743v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/neelkanwal/equipping-computational-pathology-systems-with-artifact-processing-pipeline)",
+        "p": {
+          "name": "Equipping Computational Pathology Systems with Artifact Processing Pipelines: A Showcase for Computation and Performance Trade-offs",
+          "link": "https://arxiv.org/abs/2403.07743v3"
+        },
+        "c": "https://github.com/neelkanwal/equipping-computational-pathology-systems-with-artifact-processing-pipeline",
         "n": "DCNN-based MoE",
         "d": "2024-03-12",
         "m3": "97.82",

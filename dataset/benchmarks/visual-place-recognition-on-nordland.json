@@ -43,14 +43,20 @@
     ],
     "items": [
       {
-        "p": "[Query-Based Adaptive Aggregation for Multi-Dataset Joint Training Toward Universal Visual Place Recognition](https://arxiv.org/abs/2507.03831v1)",
+        "p": {
+          "name": "Query-Based Adaptive Aggregation for Multi-Dataset Joint Training Toward Universal Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2507.03831v1"
+        },
         "c": "",
         "n": "QAA-DINOv2-B-8192",
         "d": "2025-07-04",
         "m1": "96.7"
       },
       {
-        "p": "[EffoVPR: Effective Foundation Model Utilization for Visual Place Recognition](https://arxiv.org/abs/2405.18065v2)",
+        "p": {
+          "name": "EffoVPR: Effective Foundation Model Utilization for Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2405.18065v2"
+        },
         "c": "",
         "n": "EffoVPR",
         "d": "2024-05-28",
@@ -58,8 +64,11 @@
         "m2": "98.6"
       },
       {
-        "p": "[Focus on Local: Finding Reliable Discriminative Regions for Visual Place Recognition](https://arxiv.org/abs/2504.09881v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/chenshunpeng/FoL)",
+        "p": {
+          "name": "Focus on Local: Finding Reliable Discriminative Regions for Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2504.09881v1"
+        },
+        "c": "https://github.com/chenshunpeng/FoL",
         "n": "FoL",
         "d": "2025-04-14",
         "m1": "92.6",
@@ -67,8 +76,11 @@
         "m3": "98.0"
       },
       {
-        "p": "[BoQ: A Place is Worth a Bag of Learnable Queries](https://arxiv.org/abs/2405.07364v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/amaralibey/bag-of-queries)",
+        "p": {
+          "name": "BoQ: A Place is Worth a Bag of Learnable Queries",
+          "link": "https://arxiv.org/abs/2405.07364v3"
+        },
+        "c": "https://github.com/amaralibey/bag-of-queries",
         "n": "BoQ",
         "d": "2024-05-12",
         "m1": "90.6",
@@ -76,8 +88,11 @@
         "m3": "97.5"
       },
       {
-        "p": "[Focus on Local: Finding Reliable Discriminative Regions for Visual Place Recognition](https://arxiv.org/abs/2504.09881v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/chenshunpeng/FoL)",
+        "p": {
+          "name": "Focus on Local: Finding Reliable Discriminative Regions for Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2504.09881v1"
+        },
+        "c": "https://github.com/chenshunpeng/FoL",
         "n": "FoL-global",
         "d": "2025-04-14",
         "m1": "87.8",
@@ -85,63 +100,87 @@
         "m3": "96.4"
       },
       {
-        "p": "[Towards Seamless Adaptation of Pre-trained Models for Visual Place Recognition](https://arxiv.org/abs/2402.14505v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/Lu-Feng/SelaVPR)",
+        "p": {
+          "name": "Towards Seamless Adaptation of Pre-trained Models for Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2402.14505v3"
+        },
+        "c": "https://github.com/Lu-Feng/SelaVPR",
         "n": "SelaVPR",
         "d": "2024-02-22",
         "m1": "86.6",
         "m2": "94.0"
       },
       {
-        "p": "[Optimal Transport Aggregation for Visual Place Recognition](https://arxiv.org/abs/2311.15937v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/serizba/salad)",
+        "p": {
+          "name": "Optimal Transport Aggregation for Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2311.15937v2"
+        },
+        "c": "https://github.com/serizba/salad",
         "n": "DINOv2 SALAD (1-frame thr.)",
         "d": "2023-11-27",
         "m1": "85.2",
         "m2": "98.5"
       },
       {
-        "p": "[BoQ: A Place is Worth a Bag of Learnable Queries](https://arxiv.org/abs/2405.07364v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/amaralibey/bag-of-queries)",
+        "p": {
+          "name": "BoQ: A Place is Worth a Bag of Learnable Queries",
+          "link": "https://arxiv.org/abs/2405.07364v3"
+        },
+        "c": "https://github.com/amaralibey/bag-of-queries",
         "n": "BoQ (ResNet-50)",
         "d": "2024-05-12",
         "m1": "83.1"
       },
       {
-        "p": "[MixVPR: Feature Mixing for Visual Place Recognition](https://arxiv.org/abs/2303.02190v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/amaralibey/mixvpr)",
+        "p": {
+          "name": "MixVPR: Feature Mixing for Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2303.02190v1"
+        },
+        "c": "https://github.com/amaralibey/mixvpr",
         "n": "MixVPR",
         "d": "2023-03-03",
         "m1": "76.0",
         "m2": "89.2"
       },
       {
-        "p": "[Patch-NetVLAD: Multi-Scale Fusion of Locally-Global Descriptors for Place Recognition](https://arxiv.org/abs/2103.01486v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/QVPR/Patch-NetVLAD)",
+        "p": {
+          "name": "Patch-NetVLAD: Multi-Scale Fusion of Locally-Global Descriptors for Place Recognition",
+          "link": "https://arxiv.org/abs/2103.01486v1"
+        },
+        "c": "https://github.com/QVPR/Patch-NetVLAD",
         "n": "Patch-NetVLAD",
         "d": "2021-03-02",
         "m1": "58.4",
         "m2": "74.6"
       },
       {
-        "p": "[Global Proxy-based Hard Mining for Visual Place Recognition](https://arxiv.org/abs/2302.14217v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/amaralibey/gpm)",
+        "p": {
+          "name": "Global Proxy-based Hard Mining for Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2302.14217v1"
+        },
+        "c": "https://github.com/amaralibey/gpm",
         "n": "NetVLAD (with GPM)",
         "d": "2023-02-28",
         "m1": "44.9",
         "m2": "50.2"
       },
       {
-        "p": "[GSV-Cities: Toward Appropriate Supervised Visual Place Recognition](https://arxiv.org/abs/2210.10239v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/amaralibey/gsv-cities)",
+        "p": {
+          "name": "GSV-Cities: Toward Appropriate Supervised Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2210.10239v1"
+        },
+        "c": "https://github.com/amaralibey/gsv-cities",
         "n": "Conv-AP",
         "d": "2022-10-19",
         "m1": "38.5",
         "m2": "53.9"
       },
       {
-        "p": "[A Hierarchical Dual Model of Environment- and Place-Specific Utility for Visual Place Recognition](https://arxiv.org/abs/2107.02440v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/Nik-V9/HEAPUtil)",
+        "p": {
+          "name": "A Hierarchical Dual Model of Environment- and Place-Specific Utility for Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2107.02440v1"
+        },
+        "c": "https://github.com/Nik-V9/HEAPUtil",
         "n": "HEAPUtil",
         "d": "2021-07-06",
         "m1": "38.2",

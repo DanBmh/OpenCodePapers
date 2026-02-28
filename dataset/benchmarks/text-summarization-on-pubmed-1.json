@@ -43,8 +43,11 @@
     ],
     "items": [
       {
-        "p": "[Long Document Summarization with Top-down and Bottom-up Inference](https://arxiv.org/abs/2203.07586v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/lllyasviel/framepack)",
+        "p": {
+          "name": "Long Document Summarization with Top-down and Bottom-up Inference",
+          "link": "https://arxiv.org/abs/2203.07586v1"
+        },
+        "c": "https://github.com/lllyasviel/framepack",
         "n": "Top Down Transformer (AdaPool) (464M)",
         "d": "2022-03-15",
         "m1": "51.05",
@@ -52,7 +55,10 @@
         "m3": "46.47"
       },
       {
-        "p": "[Scaling Up Summarization: Leveraging Large Language Models for Long Text Extractive Summarization](https://arxiv.org/abs/2408.15801v1)",
+        "p": {
+          "name": "Scaling Up Summarization: Leveraging Large Language Models for Long Text Extractive Summarization",
+          "link": "https://arxiv.org/abs/2408.15801v1"
+        },
         "c": "",
         "n": "eyeglaxs",
         "d": "2024-08-28",
@@ -61,15 +67,21 @@
         "m3": "45.96"
       },
       {
-        "p": "[Adapting Pretrained Text-to-Text Models for Long Text Sequences](https://arxiv.org/abs/2209.10052v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/bart_ls)",
+        "p": {
+          "name": "Adapting Pretrained Text-to-Text Models for Long Text Sequences",
+          "link": "https://arxiv.org/abs/2209.10052v2"
+        },
+        "c": "https://github.com/facebookresearch/bart_ls",
         "n": "BART-LS",
         "d": "2022-09-21",
         "m1": "50.3"
       },
       {
-        "p": "[LongT5: Efficient Text-To-Text Transformer for Long Sequences](https://arxiv.org/abs/2112.07916v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/longt5)",
+        "p": {
+          "name": "LongT5: Efficient Text-To-Text Transformer for Long Sequences",
+          "link": "https://arxiv.org/abs/2112.07916v2"
+        },
+        "c": "https://github.com/google-research/longt5",
         "n": "LongT5",
         "d": "2021-12-15",
         "m1": "50.23",
@@ -77,8 +89,11 @@
         "m3": "46.67"
       },
       {
-        "p": "[GoSum: Extractive Summarization of Long Documents by Reinforcement Learning and Graph Organized discourse state](https://arxiv.org/abs/2211.10247v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/Eulring/GoSum)",
+        "p": {
+          "name": "GoSum: Extractive Summarization of Long Documents by Reinforcement Learning and Graph Organized discourse state",
+          "link": "https://arxiv.org/abs/2211.10247v2"
+        },
+        "c": "https://github.com/Eulring/GoSum",
         "n": "GoSum (extractive)",
         "d": "2022-11-18",
         "m1": "49.83",
@@ -86,8 +101,11 @@
         "m3": "45.10"
       },
       {
-        "p": "[Toward Unifying Text Segmentation and Long Document Summarization](https://arxiv.org/abs/2210.16422v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/tencent-ailab/lodoss)",
+        "p": {
+          "name": "Toward Unifying Text Segmentation and Long Document Summarization",
+          "link": "https://arxiv.org/abs/2210.16422v1"
+        },
+        "c": "https://github.com/tencent-ailab/lodoss",
         "n": "Lodoss-full-large (extractive)",
         "d": "2022-10-28",
         "m1": "49.38",
@@ -95,8 +113,11 @@
         "m3": "44.84"
       },
       {
-        "p": "[MemSum: Extractive Summarization of Long Documents Using Multi-Step Episodic Markov Decision Processes](https://arxiv.org/abs/2107.08929v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/nianlonggu/memsum)",
+        "p": {
+          "name": "MemSum: Extractive Summarization of Long Documents Using Multi-Step Episodic Markov Decision Processes",
+          "link": "https://arxiv.org/abs/2107.08929v2"
+        },
+        "c": "https://github.com/nianlonggu/memsum",
         "n": "MemSum (extractive)",
         "d": "2021-07-19",
         "m1": "49.25",
@@ -104,8 +125,11 @@
         "m3": "44.42"
       },
       {
-        "p": "[Toward Unifying Text Segmentation and Long Document Summarization](https://arxiv.org/abs/2210.16422v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/tencent-ailab/lodoss)",
+        "p": {
+          "name": "Toward Unifying Text Segmentation and Long Document Summarization",
+          "link": "https://arxiv.org/abs/2210.16422v1"
+        },
+        "c": "https://github.com/tencent-ailab/lodoss",
         "n": "Lodoss-full-base (extractive)",
         "d": "2022-10-28",
         "m1": "48.93",
@@ -113,7 +137,10 @@
         "m3": "44.40"
       },
       {
-        "p": "[Hierarchical Learning for Generation with Long Source Sequences](https://arxiv.org/abs/2104.07545v2)",
+        "p": {
+          "name": "Hierarchical Learning for Generation with Long Source Sequences",
+          "link": "https://arxiv.org/abs/2104.07545v2"
+        },
         "c": "",
         "n": "HAT-BART",
         "d": "2021-04-15",
@@ -122,7 +149,10 @@
         "m3": "36.69"
       },
       {
-        "p": "[GRETEL: Graph Contrastive Topic Enhanced Language Model for Long Document Extractive Summarization](https://arxiv.org/abs/2208.09982v1)",
+        "p": {
+          "name": "GRETEL: Graph Contrastive Topic Enhanced Language Model for Long Document Extractive Summarization",
+          "link": "https://arxiv.org/abs/2208.09982v1"
+        },
         "c": "",
         "n": "GRETEL",
         "d": "2022-08-21",
@@ -131,16 +161,22 @@
         "m3": "43.16"
       },
       {
-        "p": "[Sparsifying Transformer Models with Trainable Representation Pooling](https://arxiv.org/abs/2009.05169v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/applicaai/pyramidions)",
+        "p": {
+          "name": "Sparsifying Transformer Models with Trainable Representation Pooling",
+          "link": "https://arxiv.org/abs/2009.05169v4"
+        },
+        "c": "https://github.com/applicaai/pyramidions",
         "n": "DeepPyramidion",
         "d": "2020-09-10",
         "m1": "47.81",
         "m2": "21.14"
       },
       {
-        "p": "[Factorizing Content and Budget Decisions in Abstractive Summarization of Long Documents](https://arxiv.org/abs/2205.12486v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/thefonseca/factorsum)",
+        "p": {
+          "name": "Factorizing Content and Budget Decisions in Abstractive Summarization of Long Documents",
+          "link": "https://arxiv.org/abs/2205.12486v2"
+        },
+        "c": "https://github.com/thefonseca/factorsum",
         "n": "FactorSum",
         "d": "2022-05-25",
         "m1": "47.5",
@@ -148,7 +184,10 @@
         "m3": "43.76"
       },
       {
-        "p": "[HiStruct+: Improving Extractive Text Summarization with Hierarchical Structure Information](https://arxiv.org/abs/2203.09629v1)",
+        "p": {
+          "name": "HiStruct+: Improving Extractive Text Summarization with Hierarchical Structure Information",
+          "link": "https://arxiv.org/abs/2203.09629v1"
+        },
         "c": "",
         "n": "HiStruct+",
         "d": "2022-03-17",
@@ -157,8 +196,11 @@
         "m3": "42.11"
       },
       {
-        "p": "[A Divide-and-Conquer Approach to the Summarization of Long Documents](https://arxiv.org/abs/2004.06190v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/AlexGidiotis/DANCER-summ)",
+        "p": {
+          "name": "A Divide-and-Conquer Approach to the Summarization of Long Documents",
+          "link": "https://arxiv.org/abs/2004.06190v3"
+        },
+        "c": "https://github.com/AlexGidiotis/DANCER-summ",
         "n": "DANCER PEGASUS",
         "d": "2020-04-13",
         "m1": "46.34",
@@ -166,8 +208,11 @@
         "m3": "42.42"
       },
       {
-        "p": "[Big Bird: Transformers for Longer Sequences](https://arxiv.org/abs/2007.14062v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "Big Bird: Transformers for Longer Sequences",
+          "link": "https://arxiv.org/abs/2007.14062v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "BigBird-Pegasus",
         "d": "2020-07-28",
         "m1": "46.32",
@@ -175,8 +220,11 @@
         "m3": "42.33"
       },
       {
-        "p": "[Systematically Exploring Redundancy Reduction in Summarizing Long Documents](https://arxiv.org/abs/2012.00052v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/Wendy-Xiao/redundancy_reduction_longdoc)",
+        "p": {
+          "name": "Systematically Exploring Redundancy Reduction in Summarizing Long Documents",
+          "link": "https://arxiv.org/abs/2012.00052v1"
+        },
+        "c": "https://github.com/Wendy-Xiao/redundancy_reduction_longdoc",
         "n": "ExtSum-LG+MMR-Select+",
         "d": "2020-11-30",
         "m1": "45.39",
@@ -184,8 +232,11 @@
         "m3": "40.99"
       },
       {
-        "p": "[Systematically Exploring Redundancy Reduction in Summarizing Long Documents](https://arxiv.org/abs/2012.00052v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/Wendy-Xiao/redundancy_reduction_longdoc)",
+        "p": {
+          "name": "Systematically Exploring Redundancy Reduction in Summarizing Long Documents",
+          "link": "https://arxiv.org/abs/2012.00052v1"
+        },
+        "c": "https://github.com/Wendy-Xiao/redundancy_reduction_longdoc",
         "n": "ExtSum-LG+RdLoss",
         "d": "2020-11-30",
         "m1": "45.3",
@@ -193,30 +244,42 @@
         "m3": "40.95"
       },
       {
-        "p": "[PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization](https://arxiv.org/abs/1912.08777v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization",
+          "link": "https://arxiv.org/abs/1912.08777v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "PEGASUS",
         "d": "2019-12-18",
         "m1": "45.09"
       },
       {
-        "p": "[On Extractive and Abstractive Neural Document Summarization with Transformer Language Models](https://arxiv.org/abs/1909.03186v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/Bread-and-Code/Text-Summarization)",
+        "p": {
+          "name": "On Extractive and Abstractive Neural Document Summarization with Transformer Language Models",
+          "link": "https://arxiv.org/abs/1909.03186v2"
+        },
+        "c": "https://github.com/Bread-and-Code/Text-Summarization",
         "n": "Sent-CLF",
         "d": "2019-09-07",
         "m1": "45.01"
       },
       {
-        "p": "[Extractive Summarization of Long Documents by Combining Global and Local Context](https://arxiv.org/abs/1909.08089v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/Wendy-Xiao/Extsumm_local_global_context)",
+        "p": {
+          "name": "Extractive Summarization of Long Documents by Combining Global and Local Context",
+          "link": "https://arxiv.org/abs/1909.08089v1"
+        },
+        "c": "https://github.com/Wendy-Xiao/Extsumm_local_global_context",
         "n": "ExtSum-LG",
         "d": "2019-09-17",
         "m1": "44.81",
         "m2": "19.74"
       },
       {
-        "p": "[A Divide-and-Conquer Approach to the Summarization of Long Documents](https://arxiv.org/abs/2004.06190v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/AlexGidiotis/DANCER-summ)",
+        "p": {
+          "name": "A Divide-and-Conquer Approach to the Summarization of Long Documents",
+          "link": "https://arxiv.org/abs/2004.06190v3"
+        },
+        "c": "https://github.com/AlexGidiotis/DANCER-summ",
         "n": "DANCER LSTM",
         "d": "2020-04-13",
         "m1": "44.09",
@@ -224,8 +287,11 @@
         "m3": "40.27"
       },
       {
-        "p": "[A Divide-and-Conquer Approach to the Summarization of Long Documents](https://arxiv.org/abs/2004.06190v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/AlexGidiotis/DANCER-summ)",
+        "p": {
+          "name": "A Divide-and-Conquer Approach to the Summarization of Long Documents",
+          "link": "https://arxiv.org/abs/2004.06190v3"
+        },
+        "c": "https://github.com/AlexGidiotis/DANCER-summ",
         "n": "DANCER RUM",
         "d": "2020-04-13",
         "m1": "43.98",
@@ -233,15 +299,21 @@
         "m3": "40.25"
       },
       {
-        "p": "[On Extractive and Abstractive Neural Document Summarization with Transformer Language Models](https://arxiv.org/abs/1909.03186v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/Bread-and-Code/Text-Summarization)",
+        "p": {
+          "name": "On Extractive and Abstractive Neural Document Summarization with Transformer Language Models",
+          "link": "https://arxiv.org/abs/1909.03186v2"
+        },
+        "c": "https://github.com/Bread-and-Code/Text-Summarization",
         "n": "Sent-PTR",
         "d": "2019-09-07",
         "m1": "43.3"
       },
       {
-        "p": "[GenCompareSum: a hybrid unsupervised summarization method using salience](https://aclanthology.org/2022.bionlp-1.22)",
-        "c": "[&check;&nbsp;Link](https://github.com/jbshp/gencomparesum)",
+        "p": {
+          "name": "GenCompareSum: a hybrid unsupervised summarization method using salience",
+          "link": "https://aclanthology.org/2022.bionlp-1.22"
+        },
+        "c": "https://github.com/jbshp/gencomparesum",
         "n": "GenCompareSum",
         "d": null,
         "m1": "42.10",
@@ -249,15 +321,21 @@
         "m3": "38.25"
       },
       {
-        "p": "[On Extractive and Abstractive Neural Document Summarization with Transformer Language Models](https://arxiv.org/abs/1909.03186v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/Bread-and-Code/Text-Summarization)",
+        "p": {
+          "name": "On Extractive and Abstractive Neural Document Summarization with Transformer Language Models",
+          "link": "https://arxiv.org/abs/1909.03186v2"
+        },
+        "c": "https://github.com/Bread-and-Code/Text-Summarization",
         "n": "TLM-I+E",
         "d": "2019-09-07",
         "m1": "41.43"
       },
       {
-        "p": "[Extractive Summarization as Text Matching](https://arxiv.org/abs/2004.08795v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/maszhongming/MatchSum)",
+        "p": {
+          "name": "Extractive Summarization as Text Matching",
+          "link": "https://arxiv.org/abs/2004.08795v1"
+        },
+        "c": "https://github.com/maszhongming/MatchSum",
         "n": "MatchSum (BERT-base)",
         "d": "2020-04-19",
         "m1": "41.21",
@@ -265,15 +343,21 @@
         "m3": "36.75"
       },
       {
-        "p": "[A Discourse-Aware Attention Model for Abstractive Summarization of Long Documents](http://arxiv.org/abs/1804.05685v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/acohan/long-summarization)",
+        "p": {
+          "name": "A Discourse-Aware Attention Model for Abstractive Summarization of Long Documents",
+          "link": "http://arxiv.org/abs/1804.05685v2"
+        },
+        "c": "https://github.com/acohan/long-summarization",
         "n": "Discourse",
         "d": "2018-04-16",
         "m1": "38.93"
       },
       {
-        "p": "[Fastformer: Additive Attention Can Be All You Need](https://arxiv.org/abs/2108.09084v6)",
-        "c": "[&check;&nbsp;Link](https://github.com/keonlee9420/Comprehensive-Transformer-TTS)",
+        "p": {
+          "name": "Fastformer: Additive Attention Can Be All You Need",
+          "link": "https://arxiv.org/abs/2108.09084v6"
+        },
+        "c": "https://github.com/keonlee9420/Comprehensive-Transformer-TTS",
         "n": "Fastformer",
         "d": "2021-08-20",
         "m1": "38.09",
@@ -281,8 +365,11 @@
         "m3": "34.81"
       },
       {
-        "p": "[Get To The Point: Summarization with Pointer-Generator Networks](http://arxiv.org/abs/1704.04368v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/examples/text_summarization/pointer_summarizer)",
+        "p": {
+          "name": "Get To The Point: Summarization with Pointer-Generator Networks",
+          "link": "http://arxiv.org/abs/1704.04368v2"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleNLP/tree/develop/examples/text_summarization/pointer_summarizer",
         "n": "Pntr-Gen-Seq2Seq",
         "d": "2017-04-14",
         "m1": "35.86"

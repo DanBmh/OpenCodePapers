@@ -53,22 +53,31 @@
     ],
     "items": [
       {
-        "p": "[SemAttNet: Towards Attention-based Semantic Aware Guided Depth Completion](https://arxiv.org/abs/2204.13635v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/danishnazir/SemAttNet)",
+        "p": {
+          "name": "SemAttNet: Towards Attention-based Semantic Aware Guided Depth Completion",
+          "link": "https://arxiv.org/abs/2204.13635v1"
+        },
+        "c": "https://github.com/danishnazir/SemAttNet",
         "n": "SemAttNet",
         "d": "2022-04-28",
         "m1": "709.41"
       },
       {
-        "p": "[RigNet: Repetitive Image Guided Network for Depth Completion](https://arxiv.org/abs/2107.13802v5)",
+        "p": {
+          "name": "RigNet: Repetitive Image Guided Network for Depth Completion",
+          "link": "https://arxiv.org/abs/2107.13802v5"
+        },
         "c": "",
         "n": "RigNet",
         "d": "2021-07-29",
         "m1": "713.44"
       },
       {
-        "p": "[PENet: Towards Precise and Efficient Image Guided Depth Completion](https://arxiv.org/abs/2103.00783v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/JUGGHM/PENet_ICRA2021)",
+        "p": {
+          "name": "PENet: Towards Precise and Efficient Image Guided Depth Completion",
+          "link": "https://arxiv.org/abs/2103.00783v3"
+        },
+        "c": "https://github.com/JUGGHM/PENet_ICRA2021",
         "n": "PENet",
         "d": "2021-03-01",
         "m1": "730.08",
@@ -78,8 +87,11 @@
         "m5": "32"
       },
       {
-        "p": "[Non-Local Spatial Propagation Network for Depth Completion](https://arxiv.org/abs/2007.10042v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/zzangjinsun/NLSPN_ECCV20)",
+        "p": {
+          "name": "Non-Local Spatial Propagation Network for Depth Completion",
+          "link": "https://arxiv.org/abs/2007.10042v1"
+        },
+        "c": "https://github.com/zzangjinsun/NLSPN_ECCV20",
         "n": "NLSPN",
         "d": "2020-07-20",
         "m1": "741.68",
@@ -89,8 +101,11 @@
         "m5": "220"
       },
       {
-        "p": "[Sparse and noisy LiDAR completion with RGB guidance and uncertainty](http://arxiv.org/abs/1902.05356v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/wvangansbeke/Sparse-Depth-Completion)",
+        "p": {
+          "name": "Sparse and noisy LiDAR completion with RGB guidance and uncertainty",
+          "link": "http://arxiv.org/abs/1902.05356v1"
+        },
+        "c": "https://github.com/wvangansbeke/Sparse-Depth-Completion",
         "n": "FusionNet (RGB_guide&certainty)",
         "d": "2019-02-14",
         "m1": "772.87",
@@ -100,7 +115,10 @@
         "m5": "20"
       },
       {
-        "p": "[DVMN: Dense Validity Mask Network for Depth Completion](https://arxiv.org/abs/2107.06709v1)",
+        "p": {
+          "name": "DVMN: Dense Validity Mask Network for Depth Completion",
+          "link": "https://arxiv.org/abs/2107.06709v1"
+        },
         "c": "",
         "n": "DVMN",
         "d": "2021-07-14",
@@ -110,8 +128,11 @@
         "m4": "0.94"
       },
       {
-        "p": "[Confidence Propagation through CNNs for Guided Sparse Depth Regression](https://arxiv.org/abs/1811.01791v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/abdo-eldesokey/nconv)",
+        "p": {
+          "name": "Confidence Propagation through CNNs for Guided Sparse Depth Regression",
+          "link": "https://arxiv.org/abs/1811.01791v2"
+        },
+        "c": "https://github.com/abdo-eldesokey/nconv",
         "n": "NConv-CNN-L2",
         "d": "2018-11-05",
         "m1": "830",
@@ -119,8 +140,11 @@
         "m5": "20"
       },
       {
-        "p": "[Confidence Propagation through CNNs for Guided Sparse Depth Regression](https://arxiv.org/abs/1811.01791v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/abdo-eldesokey/nconv)",
+        "p": {
+          "name": "Confidence Propagation through CNNs for Guided Sparse Depth Regression",
+          "link": "https://arxiv.org/abs/1811.01791v2"
+        },
+        "c": "https://github.com/abdo-eldesokey/nconv",
         "n": "NConv-CNN-L1",
         "d": "2018-11-05",
         "m1": "859",
@@ -128,7 +152,10 @@
         "m5": "20"
       },
       {
-        "p": "[Sparse and Dense Data with CNNs: Depth Completion and Semantic Segmentation](http://arxiv.org/abs/1808.00769v2)",
+        "p": {
+          "name": "Sparse and Dense Data with CNNs: Depth Completion and Semantic Segmentation",
+          "link": "http://arxiv.org/abs/1808.00769v2"
+        },
         "c": "",
         "n": "Spade-RGBsD",
         "d": "2018-08-02",
@@ -137,7 +164,10 @@
         "m5": "70"
       },
       {
-        "p": "[HMS-Net: Hierarchical Multi-scale Sparsity-invariant Network for Sparse Depth Completion](https://arxiv.org/abs/1808.08685v2)",
+        "p": {
+          "name": "HMS-Net: Hierarchical Multi-scale Sparsity-invariant Network for Sparse Depth Completion",
+          "link": "https://arxiv.org/abs/1808.08685v2"
+        },
         "c": "",
         "n": "HMS-Net",
         "d": "2018-08-27",
@@ -145,7 +175,10 @@
         "m2": "258"
       },
       {
-        "p": "[Sparse and Dense Data with CNNs: Depth Completion and Semantic Segmentation](http://arxiv.org/abs/1808.00769v2)",
+        "p": {
+          "name": "Sparse and Dense Data with CNNs: Depth Completion and Semantic Segmentation",
+          "link": "http://arxiv.org/abs/1808.00769v2"
+        },
         "c": "",
         "n": "Spade-sD",
         "d": "2018-08-02",
@@ -154,8 +187,11 @@
         "m5": "40"
       },
       {
-        "p": "[Unsupervised Depth Completion with Calibrated Backprojection Layers](https://arxiv.org/abs/2108.10531v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/alexklwong/calibrated-backprojection-network)",
+        "p": {
+          "name": "Unsupervised Depth Completion with Calibrated Backprojection Layers",
+          "link": "https://arxiv.org/abs/2108.10531v2"
+        },
+        "c": "https://github.com/alexklwong/calibrated-backprojection-network",
         "n": "KBNet",
         "d": "2021-08-24",
         "m1": "1069.47",
@@ -165,8 +201,11 @@
         "m5": "16"
       },
       {
-        "p": "[Learning Topology from Synthetic Data for Unsupervised Depth Completion](https://arxiv.org/abs/2106.02994v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/alexklwong/learning-topology-synthetic-data)",
+        "p": {
+          "name": "Learning Topology from Synthetic Data for Unsupervised Depth Completion",
+          "link": "https://arxiv.org/abs/2106.02994v3"
+        },
+        "c": "https://github.com/alexklwong/learning-topology-synthetic-data",
         "n": "ScaffNet-FusionNet",
         "d": "2021-06-06",
         "m1": "1121.93",
@@ -175,8 +214,11 @@
         "m4": "1.15"
       },
       {
-        "p": "[Unsupervised Depth Completion from Visual Inertial Odometry](https://arxiv.org/abs/1905.08616v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/alexklwong/unsupervised-depth-completion-visual-inertial-odometry)",
+        "p": {
+          "name": "Unsupervised Depth Completion from Visual Inertial Odometry",
+          "link": "https://arxiv.org/abs/1905.08616v4"
+        },
+        "c": "https://github.com/alexklwong/unsupervised-depth-completion-visual-inertial-odometry",
         "n": "VOICED",
         "d": "2019-05-15",
         "m1": "1169.97",
@@ -186,8 +228,11 @@
         "m5": "20"
       },
       {
-        "p": "[Confidence Propagation through CNNs for Guided Sparse Depth Regression](https://arxiv.org/abs/1811.01791v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/abdo-eldesokey/nconv)",
+        "p": {
+          "name": "Confidence Propagation through CNNs for Guided Sparse Depth Regression",
+          "link": "https://arxiv.org/abs/1811.01791v2"
+        },
+        "c": "https://github.com/abdo-eldesokey/nconv",
         "n": "NConv-CNN",
         "d": "2018-11-05",
         "m1": "1268",
@@ -195,8 +240,11 @@
         "m5": "10"
       },
       {
-        "p": "[Sparsity Invariant CNNs](http://arxiv.org/abs/1708.06500v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/PeterTor/sparse_convolution)",
+        "p": {
+          "name": "Sparsity Invariant CNNs",
+          "link": "http://arxiv.org/abs/1708.06500v2"
+        },
+        "c": "https://github.com/PeterTor/sparse_convolution",
         "n": "SparseConvs",
         "d": "2017-08-22",
         "m1": "1601",

@@ -58,36 +58,51 @@
     ],
     "items": [
       {
-        "p": "[Input Perturbation Reduces Exposure Bias in Diffusion Models](https://arxiv.org/abs/2301.11706v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/forever208/ddpm-ip)",
+        "p": {
+          "name": "Input Perturbation Reduces Exposure Bias in Diffusion Models",
+          "link": "https://arxiv.org/abs/2301.11706v3"
+        },
+        "c": "https://github.com/forever208/ddpm-ip",
         "n": "DDPM-IP",
         "d": "2023-01-27",
         "m1": "1.27"
       },
       {
-        "p": "[Refining Generative Process with Discriminator Guidance in Score-based Diffusion Models](https://arxiv.org/abs/2211.17091v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/alsdudrla10/DG)",
+        "p": {
+          "name": "Refining Generative Process with Discriminator Guidance in Score-based Diffusion Models",
+          "link": "https://arxiv.org/abs/2211.17091v4"
+        },
+        "c": "https://github.com/alsdudrla10/DG",
         "n": "STDDPM-G++",
         "d": "2022-11-28",
         "m1": "1.34"
       },
       {
-        "p": "[Compensation Sampling for Improved Convergence in Diffusion Models](https://arxiv.org/abs/2312.06285v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/hotfinda/Compensation-sampling)",
+        "p": {
+          "name": "Compensation Sampling for Improved Convergence in Diffusion Models",
+          "link": "https://arxiv.org/abs/2312.06285v1"
+        },
+        "c": "https://github.com/hotfinda/Compensation-sampling",
         "n": "PDM+CS",
         "d": "2023-12-11",
         "m1": "1.38"
       },
       {
-        "p": "[Diffusion-GAN: Training GANs with Diffusion](https://arxiv.org/abs/2206.02262v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/Zhendong-Wang/Diffusion-GAN)",
+        "p": {
+          "name": "Diffusion-GAN: Training GANs with Diffusion",
+          "link": "https://arxiv.org/abs/2206.02262v4"
+        },
+        "c": "https://github.com/Zhendong-Wang/Diffusion-GAN",
         "n": "Diffusion StyleGAN2",
         "d": "2022-06-05",
         "m1": "1.69"
       },
       {
-        "p": "[Maximum Likelihood Training of Implicit Nonlinear Diffusion Models](https://arxiv.org/abs/2205.13699v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/byeonghu-na/INDM)",
+        "p": {
+          "name": "Maximum Likelihood Training of Implicit Nonlinear Diffusion Models",
+          "link": "https://arxiv.org/abs/2205.13699v3"
+        },
+        "c": "https://github.com/byeonghu-na/INDM",
         "n": "INDM (VP, FID)",
         "d": "2022-05-27",
         "m1": "1.75"
@@ -100,95 +115,134 @@
         "m1": "1.77"
       },
       {
-        "p": "[Efficient generative adversarial networks using linear additive-attention Transformers](https://arxiv.org/abs/2401.09596v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/milmor/ladagan)",
+        "p": {
+          "name": "Efficient generative adversarial networks using linear additive-attention Transformers",
+          "link": "https://arxiv.org/abs/2401.09596v4"
+        },
+        "c": "https://github.com/milmor/ladagan",
         "n": "LadaGAN",
         "d": "2024-01-17",
         "m1": "1.81"
       },
       {
-        "p": "[Soft Diffusion: Score Matching for General Corruptions](https://arxiv.org/abs/2209.05442v2)",
+        "p": {
+          "name": "Soft Diffusion: Score Matching for General Corruptions",
+          "link": "https://arxiv.org/abs/2209.05442v2"
+        },
         "c": "",
         "n": "Soft Diffusion (Blur + Noise)",
         "d": "2022-09-12",
         "m1": "1.85"
       },
       {
-        "p": "[Soft Truncation: A Universal Training Technique of Score-based Diffusion Model for High Precision Score Estimation](https://arxiv.org/abs/2106.05527v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/Kim-Dongjun/Soft-Truncation)",
+        "p": {
+          "name": "Soft Truncation: A Universal Training Technique of Score-based Diffusion Model for High Precision Score Estimation",
+          "link": "https://arxiv.org/abs/2106.05527v5"
+        },
+        "c": "https://github.com/Kim-Dongjun/Soft-Truncation",
         "n": "DDPM++ (VP, FID) + ST",
         "d": "2021-06-10",
         "m1": "1.9",
         "m2": "2.1"
       },
       {
-        "p": "[Enhancing GANs with MMD Neural Architecture Search, PMish Activation Function, and Adaptive Rank Decomposition](https://ieeexplore.ieee.org/document/10732016)",
-        "c": "[&check;&nbsp;Link](https://github.com/PrasannaPulakurthi/MMD-PMish-NAS)",
+        "p": {
+          "name": "Enhancing GANs with MMD Neural Architecture Search, PMish Activation Function, and Adaptive Rank Decomposition",
+          "link": "https://ieeexplore.ieee.org/document/10732016"
+        },
+        "c": "https://github.com/PrasannaPulakurthi/MMD-PMish-NAS",
         "n": "MMD-PMish-NAS",
         "d": "2024-10-23",
         "m1": "1.92",
         "m6": "6.67"
       },
       {
-        "p": "[SciRE-Solver: Accelerating Diffusion Models Sampling by Score-integrand Solver with Recursive Difference](https://arxiv.org/abs/2308.07896v3)",
+        "p": {
+          "name": "SciRE-Solver: Accelerating Diffusion Models Sampling by Score-integrand Solver with Recursive Difference",
+          "link": "https://arxiv.org/abs/2308.07896v3"
+        },
         "c": "",
         "n": "SciRE-Solver",
         "d": "2023-08-15",
         "m1": "2.02"
       },
       {
-        "p": "[Enhancing GANs with MMD Neural Architecture Search, PMish Activation Function, and Adaptive Rank Decomposition](https://ieeexplore.ieee.org/document/10732016)",
-        "c": "[&check;&nbsp;Link](https://github.com/PrasannaPulakurthi/MMD-PMish-NAS)",
+        "p": {
+          "name": "Enhancing GANs with MMD Neural Architecture Search, PMish Activation Function, and Adaptive Rank Decomposition",
+          "link": "https://ieeexplore.ieee.org/document/10732016"
+        },
+        "c": "https://github.com/PrasannaPulakurthi/MMD-PMish-NAS",
         "n": "MMD-PMish-NAS (Compressed)",
         "d": "2024-10-23",
         "m1": "2.03",
         "m6": "3.04"
       },
       {
-        "p": "[Learning Stackable and Skippable LEGO Bricks for Efficient, Reconfigurable, and Variable-Resolution Diffusion Modeling](https://arxiv.org/abs/2310.06389v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/JegZheng/LEGODiffusion)",
+        "p": {
+          "name": "Learning Stackable and Skippable LEGO Bricks for Efficient, Reconfigurable, and Variable-Resolution Diffusion Modeling",
+          "link": "https://arxiv.org/abs/2310.06389v3"
+        },
+        "c": "https://github.com/JegZheng/LEGODiffusion",
         "n": "LEGO",
         "d": "2023-10-10",
         "m1": "2.09"
       },
       {
-        "p": "[Compensation Sampling for Improved Convergence in Diffusion Models](https://arxiv.org/abs/2312.06285v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/hotfinda/Compensation-sampling)",
+        "p": {
+          "name": "Compensation Sampling for Improved Convergence in Diffusion Models",
+          "link": "https://arxiv.org/abs/2312.06285v1"
+        },
+        "c": "https://github.com/hotfinda/Compensation-sampling",
         "n": "DDIM+CS",
         "d": "2023-12-11",
         "m1": "2.11"
       },
       {
-        "p": "[Maximum Likelihood Training of Implicit Nonlinear Diffusion Models](https://arxiv.org/abs/2205.13699v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/byeonghu-na/INDM)",
+        "p": {
+          "name": "Maximum Likelihood Training of Implicit Nonlinear Diffusion Models",
+          "link": "https://arxiv.org/abs/2205.13699v3"
+        },
+        "c": "https://github.com/byeonghu-na/INDM",
         "n": "INDM (VE, FID)",
         "d": "2022-05-27",
         "m1": "2.54"
       },
       {
-        "p": "[Pseudo Numerical Methods for Diffusion Models on Manifolds](https://arxiv.org/abs/2202.09778v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/sanster/lama-cleaner)",
+        "p": {
+          "name": "Pseudo Numerical Methods for Diffusion Models on Manifolds",
+          "link": "https://arxiv.org/abs/2202.09778v2"
+        },
+        "c": "https://github.com/sanster/lama-cleaner",
         "n": "PNDM",
         "d": "2022-02-20",
         "m1": "2.71"
       },
       {
-        "p": "[Soft Truncation: A Universal Training Technique of Score-based Diffusion Model for High Precision Score Estimation](https://arxiv.org/abs/2106.05527v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/Kim-Dongjun/Soft-Truncation)",
+        "p": {
+          "name": "Soft Truncation: A Universal Training Technique of Score-based Diffusion Model for High Precision Score Estimation",
+          "link": "https://arxiv.org/abs/2106.05527v5"
+        },
+        "c": "https://github.com/Kim-Dongjun/Soft-Truncation",
         "n": "DDPM++ (VP, NLL) + ST",
         "d": "2021-06-10",
         "m1": "2.9",
         "m2": "1.96"
       },
       {
-        "p": "[Blackout Diffusion: Generative Diffusion Models in Discrete-State Spaces](https://arxiv.org/abs/2305.11089v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/lanl/blackout-diffusion)",
+        "p": {
+          "name": "Blackout Diffusion: Generative Diffusion Models in Discrete-State Spaces",
+          "link": "https://arxiv.org/abs/2305.11089v1"
+        },
+        "c": "https://github.com/lanl/blackout-diffusion",
         "n": "Blackout Diffusion",
         "d": "2023-05-18",
         "m1": "3.22"
       },
       {
-        "p": "[Optimal Budgeted Rejection Sampling for Generative Models](https://arxiv.org/abs/2311.00460v2)",
+        "p": {
+          "name": "Optimal Budgeted Rejection Sampling for Generative Models",
+          "link": "https://arxiv.org/abs/2311.00460v2"
+        },
         "c": "",
         "n": "BigGAN-OBRS",
         "d": "2023-11-01",
@@ -197,29 +251,41 @@
         "m4": "0.65"
       },
       {
-        "p": "[DiffuseVAE: Efficient, Controllable and High-Fidelity Generation from Low-Dimensional Latents](https://arxiv.org/abs/2201.00308v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/kpandey008/DiffuseVAE)",
+        "p": {
+          "name": "DiffuseVAE: Efficient, Controllable and High-Fidelity Generation from Low-Dimensional Latents",
+          "link": "https://arxiv.org/abs/2201.00308v3"
+        },
+        "c": "https://github.com/kpandey008/DiffuseVAE",
         "n": "DiffuseVAE",
         "d": "2022-01-02",
         "m1": "3.97"
       },
       {
-        "p": "[A Contrastive Learning Approach for Training Variational Autoencoder Priors](https://arxiv.org/abs/2010.02917v3)",
+        "p": {
+          "name": "A Contrastive Learning Approach for Training Variational Autoencoder Priors",
+          "link": "https://arxiv.org/abs/2010.02917v3"
+        },
         "c": "",
         "n": "NCP-VAE",
         "d": "2020-10-06",
         "m1": "5.25"
       },
       {
-        "p": "[Class-Continuous Conditional Generative Neural Radiance Field](https://arxiv.org/abs/2301.00950v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/tom919654/C3G-NeRF)",
+        "p": {
+          "name": "Class-Continuous Conditional Generative Neural Radiance Field",
+          "link": "https://arxiv.org/abs/2301.00950v3"
+        },
+        "c": "https://github.com/tom919654/C3G-NeRF",
         "n": "C^3G-NeRF",
         "d": "2023-01-03",
         "m1": "5.6"
       },
       {
-        "p": "[Learning Energy-Based Models by Diffusion Recovery Likelihood](https://arxiv.org/abs/2012.08125v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/ruiqigao/recovery_likelihood)",
+        "p": {
+          "name": "Learning Energy-Based Models by Diffusion Recovery Likelihood",
+          "link": "https://arxiv.org/abs/2012.08125v2"
+        },
+        "c": "https://github.com/ruiqigao/recovery_likelihood",
         "n": "EBM-DRL (T6)",
         "d": "2020-12-15",
         "m1": "5.98"
@@ -234,43 +300,61 @@
         "m4": "0.56"
       },
       {
-        "p": "[High-Resolution Deep Convolutional Generative Adversarial Networks](http://arxiv.org/abs/1711.06491v12)",
-        "c": "[&check;&nbsp;Link](https://github.com/curto2/c)",
+        "p": {
+          "name": "High-Resolution Deep Convolutional Generative Adversarial Networks",
+          "link": "http://arxiv.org/abs/1711.06491v12"
+        },
+        "c": "https://github.com/curto2/c",
         "n": "HDCGAN",
         "d": "2017-11-17",
         "m1": "8.44"
       },
       {
-        "p": "[Continuous-Time Functional Diffusion Processes](https://arxiv.org/abs/2303.00800v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/giulio98/functional-diffusion-processes)",
+        "p": {
+          "name": "Continuous-Time Functional Diffusion Processes",
+          "link": "https://arxiv.org/abs/2303.00800v3"
+        },
+        "c": "https://github.com/giulio98/functional-diffusion-processes",
         "n": "FDP(UViT)",
         "d": "2023-03-01",
         "m1": "11",
         "m5": "6.55"
       },
       {
-        "p": "[Flow Contrastive Estimation of Energy-Based Models](https://arxiv.org/abs/1912.00589v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/ilkhem/icebeem)",
+        "p": {
+          "name": "Flow Contrastive Estimation of Energy-Based Models",
+          "link": "https://arxiv.org/abs/1912.00589v2"
+        },
+        "c": "https://github.com/ilkhem/icebeem",
         "n": "FCE",
         "d": "2019-12-02",
         "m1": "12.21"
       },
       {
-        "p": "[TransGAN: Two Pure Transformers Can Make One Strong GAN, and That Can Scale Up](https://arxiv.org/abs/2102.07074v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/VITA-Group/TransGAN)",
+        "p": {
+          "name": "TransGAN: Two Pure Transformers Can Make One Strong GAN, and That Can Scale Up",
+          "link": "https://arxiv.org/abs/2102.07074v4"
+        },
+        "c": "https://github.com/VITA-Group/TransGAN",
         "n": "TransGAN-XL",
         "d": "2021-02-14",
         "m1": "12.23"
       },
       {
-        "p": "[CLR-GAN: Improving GANs Stability and Quality via Consistent Latent Representation and Reconstruction](https://link.springer.com/chapter/10.1007/978-3-031-73232-4_12)",
-        "c": "[&check;&nbsp;Link](https://github.com/Petecheco/CLR-GAN)",
+        "p": {
+          "name": "CLR-GAN: Improving GANs Stability and Quality via Consistent Latent Representation and Reconstruction",
+          "link": "https://link.springer.com/chapter/10.1007/978-3-031-73232-4_12"
+        },
+        "c": "https://github.com/Petecheco/CLR-GAN",
         "n": "CLR-GAN",
         "d": "2024-09-30",
         "m1": "13.63"
       },
       {
-        "p": "[DuelGAN: A Duel Between Two Discriminators Stabilizes the GAN Training](https://arxiv.org/abs/2101.07524v3)",
+        "p": {
+          "name": "DuelGAN: A Duel Between Two Discriminators Stabilizes the GAN Training",
+          "link": "https://arxiv.org/abs/2101.07524v3"
+        },
         "c": "",
         "n": "PeerGAN",
         "d": "2021-01-19",
@@ -286,58 +370,82 @@
         "m4": "0.26"
       },
       {
-        "p": "[Escaping from Collapsing Modes in a Constrained Space](http://arxiv.org/abs/1808.07258v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/chang810249/BEGAN-CS)",
+        "p": {
+          "name": "Escaping from Collapsing Modes in a Constrained Space",
+          "link": "http://arxiv.org/abs/1808.07258v1"
+        },
+        "c": "https://github.com/chang810249/BEGAN-CS",
         "n": "BEGAN-CS",
         "d": "2018-08-22",
         "m1": "34.136"
       },
       {
-        "p": "[Continuous-Time Functional Diffusion Processes](https://arxiv.org/abs/2303.00800v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/giulio98/functional-diffusion-processes)",
+        "p": {
+          "name": "Continuous-Time Functional Diffusion Processes",
+          "link": "https://arxiv.org/abs/2303.00800v3"
+        },
+        "c": "https://github.com/giulio98/functional-diffusion-processes",
         "n": "FDP(MLP)",
         "d": "2023-03-01",
         "m1": "35",
         "m5": "12.44"
       },
       {
-        "p": "[Probabilistic Autoencoder](https://arxiv.org/abs/2006.05479v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/VMBoehm/PAE)",
+        "p": {
+          "name": "Probabilistic Autoencoder",
+          "link": "https://arxiv.org/abs/2006.05479v4"
+        },
+        "c": "https://github.com/VMBoehm/PAE",
         "n": "PAE",
         "d": "2020-06-09",
         "m1": "49.2"
       },
       {
-        "p": "[Feature Alignment as a Generative Process](https://arxiv.org/abs/2106.12562v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/tiago939/feature_alignment)",
+        "p": {
+          "name": "Feature Alignment as a Generative Process",
+          "link": "https://arxiv.org/abs/2106.12562v2"
+        },
+        "c": "https://github.com/tiago939/feature_alignment",
         "n": "Feature Alignment",
         "d": "2021-06-23",
         "m1": "128.35"
       },
       {
-        "p": "[Efficient-VDVAE: Less is more](https://arxiv.org/abs/2203.13751v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/Rayhane-mamah/Efficient-VDVAE)",
+        "p": {
+          "name": "Efficient-VDVAE: Less is more",
+          "link": "https://arxiv.org/abs/2203.13751v2"
+        },
+        "c": "https://github.com/Rayhane-mamah/Efficient-VDVAE",
         "n": "Efficient-VDVAE",
         "d": "2022-03-25",
         "m2": "1.83"
       },
       {
-        "p": "[Consistency Regularization for Variational Auto-Encoders](https://arxiv.org/abs/2105.14859v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/sinhasam/crvae)",
+        "p": {
+          "name": "Consistency Regularization for Variational Auto-Encoders",
+          "link": "https://arxiv.org/abs/2105.14859v2"
+        },
+        "c": "https://github.com/sinhasam/crvae",
         "n": "CR-NVAE",
         "d": "2021-05-31",
         "m2": "1.86"
       },
       {
-        "p": "[Soft Truncation: A Universal Training Technique of Score-based Diffusion Model for High Precision Score Estimation](https://arxiv.org/abs/2106.05527v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/Kim-Dongjun/Soft-Truncation)",
+        "p": {
+          "name": "Soft Truncation: A Universal Training Technique of Score-based Diffusion Model for High Precision Score Estimation",
+          "link": "https://arxiv.org/abs/2106.05527v5"
+        },
+        "c": "https://github.com/Kim-Dongjun/Soft-Truncation",
         "n": "UNCSN++ (RVE) + ST",
         "d": "2021-06-10",
         "m2": "1.97"
       },
       {
-        "p": "[Densely connected normalizing flows](https://arxiv.org/abs/2106.04627v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/matejgrcic/DenseFlow)",
+        "p": {
+          "name": "Densely connected normalizing flows",
+          "link": "https://arxiv.org/abs/2106.04627v3"
+        },
+        "c": "https://github.com/matejgrcic/DenseFlow",
         "n": "DenseFlow-74-10",
         "d": "2021-06-08",
         "m2": "1.99"

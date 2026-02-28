@@ -38,44 +38,62 @@
     ],
     "items": [
       {
-        "p": "[PaLM: Scaling Language Modeling with Pathways](https://arxiv.org/abs/2204.02311v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/lucidrains/CoCa-pytorch)",
+        "p": {
+          "name": "PaLM: Scaling Language Modeling with Pathways",
+          "link": "https://arxiv.org/abs/2204.02311v5"
+        },
+        "c": "https://github.com/lucidrains/CoCa-pytorch",
         "n": "PaLM-540B (Few-Shot)",
         "d": "2022-04-05",
         "m1": "89.7"
       },
       {
-        "p": "[PaLM 2 Technical Report](https://arxiv.org/abs/2305.10403v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/eternityyw/tram-benchmark)",
+        "p": {
+          "name": "PaLM 2 Technical Report",
+          "link": "https://arxiv.org/abs/2305.10403v3"
+        },
+        "c": "https://github.com/eternityyw/tram-benchmark",
         "n": "PaLM 2-L (one-shot)",
         "d": "2023-05-17",
         "m1": "86.9"
       },
       {
-        "p": "[Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/ggml-org/llama.cpp)",
+        "p": {
+          "name": "Language Models are Few-Shot Learners",
+          "link": "https://arxiv.org/abs/2005.14165v4"
+        },
+        "c": "https://github.com/ggml-org/llama.cpp",
         "n": "GPT-3 175B (Few-Shot)",
         "d": "2020-05-28",
         "m1": "86.4",
         "m2": "1.92"
       },
       {
-        "p": "[Stay on topic with Classifier-Free Guidance](https://arxiv.org/abs/2306.17806v1)",
+        "p": {
+          "name": "Stay on topic with Classifier-Free Guidance",
+          "link": "https://arxiv.org/abs/2306.17806v1"
+        },
         "c": "",
         "n": "LLaMA-65B+CFG (Zero-Shot)",
         "d": "2023-06-30",
         "m1": "84.0"
       },
       {
-        "p": "[Stay on topic with Classifier-Free Guidance](https://arxiv.org/abs/2306.17806v1)",
+        "p": {
+          "name": "Stay on topic with Classifier-Free Guidance",
+          "link": "https://arxiv.org/abs/2306.17806v1"
+        },
         "c": "",
         "n": "LLaMA-30B+CFG (zero-shot)",
         "d": "2023-06-30",
         "m1": "83.9"
       },
       {
-        "p": "[PaLM 2 Technical Report](https://arxiv.org/abs/2305.10403v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/eternityyw/tram-benchmark)",
+        "p": {
+          "name": "PaLM 2 Technical Report",
+          "link": "https://arxiv.org/abs/2305.10403v3"
+        },
+        "c": "https://github.com/eternityyw/tram-benchmark",
         "n": "PaLM 2-M (one-shot)",
         "d": "2023-05-17",
         "m1": "83.7"
@@ -88,115 +106,163 @@
         "m1": "82.33"
       },
       {
-        "p": "[Stay on topic with Classifier-Free Guidance](https://arxiv.org/abs/2306.17806v1)",
+        "p": {
+          "name": "Stay on topic with Classifier-Free Guidance",
+          "link": "https://arxiv.org/abs/2306.17806v1"
+        },
         "c": "",
         "n": "LLaMA-13B+CFG (zero-shot)",
         "d": "2023-06-30",
         "m1": "82.2"
       },
       {
-        "p": "[PaLM: Scaling Language Modeling with Pathways](https://arxiv.org/abs/2204.02311v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/lucidrains/CoCa-pytorch)",
+        "p": {
+          "name": "PaLM: Scaling Language Modeling with Pathways",
+          "link": "https://arxiv.org/abs/2204.02311v5"
+        },
+        "c": "https://github.com/lucidrains/CoCa-pytorch",
         "n": "PaLM-540B (One-Shot)",
         "d": "2022-04-05",
         "m1": "81.8"
       },
       {
-        "p": "[GLaM: Efficient Scaling of Language Models with Mixture-of-Experts](https://arxiv.org/abs/2112.06905v2)",
+        "p": {
+          "name": "GLaM: Efficient Scaling of Language Models with Mixture-of-Experts",
+          "link": "https://arxiv.org/abs/2112.06905v2"
+        },
         "c": "",
         "n": "GLaM 62B/64E (One-Shot)",
         "d": "2021-12-13",
         "m1": "80.9"
       },
       {
-        "p": "[PaLM 2 Technical Report](https://arxiv.org/abs/2305.10403v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/eternityyw/tram-benchmark)",
+        "p": {
+          "name": "PaLM 2 Technical Report",
+          "link": "https://arxiv.org/abs/2305.10403v3"
+        },
+        "c": "https://github.com/eternityyw/tram-benchmark",
         "n": "PaLM 2-S (one-shot)",
         "d": "2023-05-17",
         "m1": "80.7"
       },
       {
-        "p": "[GLM-130B: An Open Bilingual Pre-trained Model](https://arxiv.org/abs/2210.02414v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/thudm/chatglm2-6b)",
+        "p": {
+          "name": "GLM-130B: An Open Bilingual Pre-trained Model",
+          "link": "https://arxiv.org/abs/2210.02414v2"
+        },
+        "c": "https://github.com/thudm/chatglm2-6b",
         "n": "GLM-130B (bidirectional attention)",
         "d": "2022-10-05",
         "m1": "80.2"
       },
       {
-        "p": "[SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot](https://arxiv.org/abs/2301.00774v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/nvidia/tensorrt-model-optimizer)",
+        "p": {
+          "name": "SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot",
+          "link": "https://arxiv.org/abs/2301.00774v3"
+        },
+        "c": "https://github.com/nvidia/tensorrt-model-optimizer",
         "n": "SparseGPT (175B, 2:4 Sparsity)",
         "d": "2023-01-02",
         "m1": "79.47"
       },
       {
-        "p": "[SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot](https://arxiv.org/abs/2301.00774v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/nvidia/tensorrt-model-optimizer)",
+        "p": {
+          "name": "SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot",
+          "link": "https://arxiv.org/abs/2301.00774v3"
+        },
+        "c": "https://github.com/nvidia/tensorrt-model-optimizer",
         "n": "SparseGPT (175B, 4:8 Sparsity)",
         "d": "2023-01-02",
         "m1": "78.77"
       },
       {
-        "p": "[PaLM: Scaling Language Modeling with Pathways](https://arxiv.org/abs/2204.02311v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/lucidrains/CoCa-pytorch)",
+        "p": {
+          "name": "PaLM: Scaling Language Modeling with Pathways",
+          "link": "https://arxiv.org/abs/2204.02311v5"
+        },
+        "c": "https://github.com/lucidrains/CoCa-pytorch",
         "n": "PaLM-540B (Zero-Shot)",
         "d": "2022-04-05",
         "m1": "77.9"
       },
       {
-        "p": "[Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/karpathy/llama2.c)",
+        "p": {
+          "name": "Training Compute-Optimal Large Language Models",
+          "link": "https://arxiv.org/abs/2203.15556v1"
+        },
+        "c": "https://github.com/karpathy/llama2.c",
         "n": "Chinchilla (Zero-Shot)",
         "d": "2022-03-29",
         "m1": "77.7"
       },
       {
-        "p": "[SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot](https://arxiv.org/abs/2301.00774v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/nvidia/tensorrt-model-optimizer)",
+        "p": {
+          "name": "SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot",
+          "link": "https://arxiv.org/abs/2301.00774v3"
+        },
+        "c": "https://github.com/nvidia/tensorrt-model-optimizer",
         "n": "SparseGPT (175B, 50% Sparsity)",
         "d": "2023-01-02",
         "m1": "76.51"
       },
       {
-        "p": "[Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/ggml-org/llama.cpp)",
+        "p": {
+          "name": "Language Models are Few-Shot Learners",
+          "link": "https://arxiv.org/abs/2005.14165v4"
+        },
+        "c": "https://github.com/ggml-org/llama.cpp",
         "n": "GPT-3 175B (Zero-Shot)",
         "d": "2020-05-28",
         "m1": "76.2",
         "m2": "3.00"
       },
       {
-        "p": "[SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot](https://arxiv.org/abs/2301.00774v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/nvidia/tensorrt-model-optimizer)",
+        "p": {
+          "name": "SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot",
+          "link": "https://arxiv.org/abs/2301.00774v3"
+        },
+        "c": "https://github.com/nvidia/tensorrt-model-optimizer",
         "n": "OPT-175B",
         "d": "2023-01-02",
         "m1": "75.59"
       },
       {
-        "p": "[Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/ggml-org/llama.cpp)",
+        "p": {
+          "name": "Language Models are Few-Shot Learners",
+          "link": "https://arxiv.org/abs/2005.14165v4"
+        },
+        "c": "https://github.com/ggml-org/llama.cpp",
         "n": "GPT-3 13B (Zero-Shot)",
         "d": "2020-05-28",
         "m1": "72.5",
         "m2": "3.56"
       },
       {
-        "p": "[GLM: General Language Model Pretraining with Autoregressive Blank Infilling](https://arxiv.org/abs/2103.10360v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/thudm/chatglm2-6b)",
+        "p": {
+          "name": "GLM: General Language Model Pretraining with Autoregressive Blank Infilling",
+          "link": "https://arxiv.org/abs/2103.10360v2"
+        },
+        "c": "https://github.com/thudm/chatglm2-6b",
         "n": "GLM-XXLarge (bidirectional)",
         "d": "2021-03-18",
         "m1": "72.35"
       },
       {
-        "p": "[Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling](https://arxiv.org/abs/2304.01373v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/Lightning-AI/lit-gpt)",
+        "p": {
+          "name": "Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling",
+          "link": "https://arxiv.org/abs/2304.01373v2"
+        },
+        "c": "https://github.com/Lightning-AI/lit-gpt",
         "n": "Pythia 12B (0-shot)",
         "d": "2023-04-03",
         "m1": "70.46"
       },
       {
-        "p": "[Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/ggml-org/llama.cpp)",
+        "p": {
+          "name": "Language Models are Few-Shot Learners",
+          "link": "https://arxiv.org/abs/2005.14165v4"
+        },
+        "c": "https://github.com/ggml-org/llama.cpp",
         "n": "GPT-3 6.7B (Zero-Shot)",
         "d": "2020-05-28",
         "m1": "70.3",
@@ -211,95 +277,134 @@
         "m2": "3.99"
       },
       {
-        "p": "[Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/state-spaces/mamba)",
+        "p": {
+          "name": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
+          "link": "https://arxiv.org/abs/2312.00752v2"
+        },
+        "c": "https://github.com/state-spaces/mamba",
         "n": "Mamba-2.8B",
         "d": "2023-12-01",
         "m1": "69.2",
         "m2": "4.23"
       },
       {
-        "p": "[Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling](https://arxiv.org/abs/2304.01373v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/Lightning-AI/lit-gpt)",
+        "p": {
+          "name": "Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling",
+          "link": "https://arxiv.org/abs/2304.01373v2"
+        },
+        "c": "https://github.com/Lightning-AI/lit-gpt",
         "n": "Pythia 6.9B (0-shot)",
         "d": "2023-04-03",
         "m1": "67.28"
       },
       {
-        "p": "[GLM: General Language Model Pretraining with Autoregressive Blank Infilling](https://arxiv.org/abs/2103.10360v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/thudm/chatglm2-6b)",
+        "p": {
+          "name": "GLM: General Language Model Pretraining with Autoregressive Blank Infilling",
+          "link": "https://arxiv.org/abs/2103.10360v2"
+        },
+        "c": "https://github.com/thudm/chatglm2-6b",
         "n": "GLM-XXLarge (unidirectional)",
         "d": "2021-03-18",
         "m1": "67.18"
       },
       {
-        "p": "[Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/ggml-org/llama.cpp)",
+        "p": {
+          "name": "Language Models are Few-Shot Learners",
+          "link": "https://arxiv.org/abs/2005.14165v4"
+        },
+        "c": "https://github.com/ggml-org/llama.cpp",
         "n": "GPT-3 2.7B (Zero-Shot)",
         "d": "2020-05-28",
         "m1": "67.1",
         "m2": "4.60"
       },
       {
-        "p": "[Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "Language Models are Unsupervised Multitask Learners",
+          "link": "https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "GPT-2 1.5B (Zero Shot)",
         "d": "2019-02-14",
         "m1": "63.24",
         "m2": "8.63"
       },
       {
-        "p": "[Universal Transformers](http://arxiv.org/abs/1807.03819v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/tensor2tensor)",
+        "p": {
+          "name": "Universal Transformers",
+          "link": "http://arxiv.org/abs/1807.03819v3"
+        },
+        "c": "https://github.com/tensorflow/tensor2tensor",
         "n": "Universal Transformer (w/ dynamic halting)",
         "d": "2018-07-10",
         "m1": "56.25"
       },
       {
-        "p": "[Residual Shuffle-Exchange Networks for Fast Processing of Long Sequences](https://arxiv.org/abs/2004.04662v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/LUMII-Syslab/RSE)",
+        "p": {
+          "name": "Residual Shuffle-Exchange Networks for Fast Processing of Long Sequences",
+          "link": "https://arxiv.org/abs/2004.04662v4"
+        },
+        "c": "https://github.com/LUMII-Syslab/RSE",
         "n": "Residual Shuffle-Exchange network",
         "d": "2020-04-06",
         "m1": "54.34"
       },
       {
-        "p": "[Broad Context Language Modeling as Reading Comprehension](http://arxiv.org/abs/1610.08431v3)",
+        "p": {
+          "name": "Broad Context Language Modeling as Reading Comprehension",
+          "link": "http://arxiv.org/abs/1610.08431v3"
+        },
         "c": "",
         "n": "Gated-Attention Reader (+ features)",
         "d": "2016-10-26",
         "m1": "49.0"
       },
       {
-        "p": "[SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot](https://arxiv.org/abs/2301.00774v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/nvidia/tensorrt-model-optimizer)",
+        "p": {
+          "name": "SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot",
+          "link": "https://arxiv.org/abs/2301.00774v3"
+        },
+        "c": "https://github.com/nvidia/tensorrt-model-optimizer",
         "n": "OPT-175B (50% Sparsity)",
         "d": "2023-01-02",
         "m1": "0.02"
       },
       {
-        "p": "[Test-Time Training with Self-Supervision for Generalization under Distribution Shifts](https://arxiv.org/abs/1909.13231v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/yueatsprograms/ttt_cifar_release)",
+        "p": {
+          "name": "Test-Time Training with Self-Supervision for Generalization under Distribution Shifts",
+          "link": "https://arxiv.org/abs/1909.13231v3"
+        },
+        "c": "https://github.com/yueatsprograms/ttt_cifar_release",
         "n": "test",
         "d": "2019-09-29",
         "m1": "0.01"
       },
       {
-        "p": "[Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling](https://arxiv.org/abs/2304.01373v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/Lightning-AI/lit-gpt)",
+        "p": {
+          "name": "Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling",
+          "link": "https://arxiv.org/abs/2304.01373v2"
+        },
+        "c": "https://github.com/Lightning-AI/lit-gpt",
         "n": "Pythia 12B(Zero-Shot)",
         "d": "2023-04-03",
         "m2": "3.92"
       },
       {
-        "p": "[Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling](https://arxiv.org/abs/2304.01373v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/Lightning-AI/lit-gpt)",
+        "p": {
+          "name": "Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling",
+          "link": "https://arxiv.org/abs/2304.01373v2"
+        },
+        "c": "https://github.com/Lightning-AI/lit-gpt",
         "n": "Pythia 6.9B(Zero-Shot)",
         "d": "2023-04-03",
         "m2": "4.45"
       },
       {
-        "p": "[Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, A Large-Scale Generative Language Model](https://arxiv.org/abs/2201.11990v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/microsoft/DeepSpeed)",
+        "p": {
+          "name": "Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, A Large-Scale Generative Language Model",
+          "link": "https://arxiv.org/abs/2201.11990v3"
+        },
+        "c": "https://github.com/microsoft/DeepSpeed",
         "n": "Megatron-Turing NLG 530B (Few-Shot)",
         "d": "2022-01-28",
         "m1": "Megatron-Turing NLG 530B (Few-Shot)"

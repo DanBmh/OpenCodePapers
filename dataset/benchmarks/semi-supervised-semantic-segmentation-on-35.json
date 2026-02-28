@@ -34,22 +34,31 @@
     ],
     "items": [
       {
-        "p": "[Semi-Supervised Semantic Segmentation via Adaptive Equalization Learning](https://arxiv.org/abs/2110.05474v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/hzhupku/semiseg-ael)",
+        "p": {
+          "name": "Semi-Supervised Semantic Segmentation via Adaptive Equalization Learning",
+          "link": "https://arxiv.org/abs/2110.05474v1"
+        },
+        "c": "https://github.com/hzhupku/semiseg-ael",
         "n": "AEL (DeepLab v3+ with ResNet-101 pretraind on ImageNet-1K)",
         "d": "2021-10-11",
         "m1": "74.28"
       },
       {
-        "p": "[Dense FixMatch: a simple semi-supervised learning method for pixel-wise prediction tasks](https://arxiv.org/abs/2210.09919v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/miquelmarti/DenseFixMatch)",
+        "p": {
+          "name": "Dense FixMatch: a simple semi-supervised learning method for pixel-wise prediction tasks",
+          "link": "https://arxiv.org/abs/2210.09919v1"
+        },
+        "c": "https://github.com/miquelmarti/DenseFixMatch",
         "n": "Dense FixMatch (DeepLabv3+ ResNet-101, over-sampling, single pass eval)",
         "d": "2022-10-18",
         "m1": "66.97"
       },
       {
-        "p": "[Dense FixMatch: a simple semi-supervised learning method for pixel-wise prediction tasks](https://arxiv.org/abs/2210.09919v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/miquelmarti/DenseFixMatch)",
+        "p": {
+          "name": "Dense FixMatch: a simple semi-supervised learning method for pixel-wise prediction tasks",
+          "link": "https://arxiv.org/abs/2210.09919v1"
+        },
+        "c": "https://github.com/miquelmarti/DenseFixMatch",
         "n": "Dense FixMatch (DeepLabv3+ ResNet-50, over-sampling, single-pass eval)",
         "d": "2022-10-18",
         "m1": "65.81"

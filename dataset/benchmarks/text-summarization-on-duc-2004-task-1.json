@@ -43,8 +43,11 @@
     ],
     "items": [
       {
-        "p": "[Rethinking Perturbations in Encoder-Decoders for Fast Training](https://arxiv.org/abs/2104.01853v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/takase/rethink_perturbations)",
+        "p": {
+          "name": "Rethinking Perturbations in Encoder-Decoders for Fast Training",
+          "link": "https://arxiv.org/abs/2104.01853v1"
+        },
+        "c": "https://github.com/takase/rethink_perturbations",
         "n": "Transformer+WDrop",
         "d": "2021-04-05",
         "m1": "33.06",
@@ -52,8 +55,11 @@
         "m3": "28.51"
       },
       {
-        "p": "[Positional Encoding to Control Output Sequence Length](http://arxiv.org/abs/1904.07418v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/takase/control-length)",
+        "p": {
+          "name": "Positional Encoding to Control Output Sequence Length",
+          "link": "http://arxiv.org/abs/1904.07418v1"
+        },
+        "c": "https://github.com/takase/control-length",
         "n": "Transformer+LRPE+PE+Re-ranking+Ensemble",
         "d": "2019-04-16",
         "m1": "32.85",
@@ -61,8 +67,11 @@
         "m3": "28.52"
       },
       {
-        "p": "[All Word Embeddings from One Embedding](https://arxiv.org/abs/2004.12073v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/takase/alone_seq2seq)",
+        "p": {
+          "name": "All Word Embeddings from One Embedding",
+          "link": "https://arxiv.org/abs/2004.12073v3"
+        },
+        "c": "https://github.com/takase/alone_seq2seq",
         "n": "Transformer+LRPE+PE+ALONE+Re-ranking",
         "d": "2020-04-25",
         "m1": "32.57",
@@ -70,7 +79,10 @@
         "m3": "28.24"
       },
       {
-        "p": "[Cutting-off Redundant Repeating Generations for Neural Abstractive Summarization](http://arxiv.org/abs/1701.00138v2)",
+        "p": {
+          "name": "Cutting-off Redundant Repeating Generations for Neural Abstractive Summarization",
+          "link": "http://arxiv.org/abs/1701.00138v2"
+        },
         "c": "",
         "n": "EndDec+WFE",
         "d": "2016-12-31",
@@ -79,8 +91,11 @@
         "m3": "27.8"
       },
       {
-        "p": "[Deep Recurrent Generative Decoder for Abstractive Text Summarization](http://arxiv.org/abs/1708.00625v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/toru34/li_emnlp_2017)",
+        "p": {
+          "name": "Deep Recurrent Generative Decoder for Abstractive Text Summarization",
+          "link": "http://arxiv.org/abs/1708.00625v1"
+        },
+        "c": "https://github.com/toru34/li_emnlp_2017",
         "n": "DRGD",
         "d": "2017-08-02",
         "m1": "31.79",
@@ -88,7 +103,10 @@
         "m3": "27.48"
       },
       {
-        "p": "[A Reinforced Topic-Aware Convolutional Sequence-to-Sequence Model for Abstractive Text Summarization](https://arxiv.org/abs/1805.03616v3)",
+        "p": {
+          "name": "A Reinforced Topic-Aware Convolutional Sequence-to-Sequence Model for Abstractive Text Summarization",
+          "link": "https://arxiv.org/abs/1805.03616v3"
+        },
         "c": "",
         "n": "Reinforced-Topic-ConvS2S",
         "d": "2018-05-09",
@@ -97,7 +115,10 @@
         "m3": "27.68"
       },
       {
-        "p": "[Ensure the Correctness of the Summary: Incorporate Entailment Knowledge into Abstractive Sentence Summarization](https://aclanthology.org/C18-1121)",
+        "p": {
+          "name": "Ensure the Correctness of the Summary: Incorporate Entailment Knowledge into Abstractive Sentence Summarization",
+          "link": "https://aclanthology.org/C18-1121"
+        },
         "c": "",
         "n": "Seq2seq + selective + MTL + ERAM",
         "d": "2018-08-01",
@@ -106,8 +127,11 @@
         "m3": "25.24"
       },
       {
-        "p": "[Selective Encoding for Abstractive Sentence Summarization](http://arxiv.org/abs/1704.07073v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/magic282/SEASS)",
+        "p": {
+          "name": "Selective Encoding for Abstractive Sentence Summarization",
+          "link": "http://arxiv.org/abs/1704.07073v1"
+        },
+        "c": "https://github.com/magic282/SEASS",
         "n": "SEASS",
         "d": "2017-04-24",
         "m1": "29.21",
@@ -115,7 +139,10 @@
         "m3": "25.51"
       },
       {
-        "p": "[Abstractive Sentence Summarization with Attentive Recurrent Neural Networks](https://aclanthology.org/N16-1012)",
+        "p": {
+          "name": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks",
+          "link": "https://aclanthology.org/N16-1012"
+        },
         "c": "",
         "n": "RAS-Elman",
         "d": "2016-06-01",
@@ -124,8 +151,11 @@
         "m3": "24.06"
       },
       {
-        "p": "[Abstractive Text Summarization Using Sequence-to-Sequence RNNs and Beyond](http://arxiv.org/abs/1602.06023v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/theamrzaki/text_summurization_abstractive_methods)",
+        "p": {
+          "name": "Abstractive Text Summarization Using Sequence-to-Sequence RNNs and Beyond",
+          "link": "http://arxiv.org/abs/1602.06023v5"
+        },
+        "c": "https://github.com/theamrzaki/text_summurization_abstractive_methods",
         "n": "words-lvt5k-1sent",
         "d": "2016-02-19",
         "m1": "28.61",
@@ -133,8 +163,11 @@
         "m3": "25.24"
       },
       {
-        "p": "[A Neural Attention Model for Abstractive Sentence Summarization](http://arxiv.org/abs/1509.00685v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/research/textsum)",
+        "p": {
+          "name": "A Neural Attention Model for Abstractive Sentence Summarization",
+          "link": "http://arxiv.org/abs/1509.00685v2"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/research/textsum",
         "n": "Abs+",
         "d": "2015-09-02",
         "m1": "28.18",
@@ -142,15 +175,21 @@
         "m3": "23.81"
       },
       {
-        "p": "[Sample Efficient Text Summarization Using a Single Pre-Trained Transformer](https://arxiv.org/abs/1905.08836v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/tensor2tensor)",
+        "p": {
+          "name": "Sample Efficient Text Summarization Using a Single Pre-Trained Transformer",
+          "link": "https://arxiv.org/abs/1905.08836v1"
+        },
+        "c": "https://github.com/tensorflow/tensor2tensor",
         "n": "Transformer LM",
         "d": "2019-05-21",
         "m2": "17.74"
       },
       {
-        "p": "[A Neural Attention Model for Abstractive Sentence Summarization](http://arxiv.org/abs/1509.00685v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/research/textsum)",
+        "p": {
+          "name": "A Neural Attention Model for Abstractive Sentence Summarization",
+          "link": "http://arxiv.org/abs/1509.00685v2"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/research/textsum",
         "n": "ABS",
         "d": "2015-09-02",
         "m3": "22.05"

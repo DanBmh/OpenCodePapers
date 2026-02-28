@@ -48,8 +48,11 @@
     ],
     "items": [
       {
-        "p": "[Packed Levitated Marker for Entity and Relation Extraction](https://arxiv.org/abs/2109.06067v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/tomaarsen/spanmarkerner)",
+        "p": {
+          "name": "Packed Levitated Marker for Entity and Relation Extraction",
+          "link": "https://arxiv.org/abs/2109.06067v5"
+        },
+        "c": "https://github.com/tomaarsen/spanmarkerner",
         "n": "PL-Marker",
         "d": "2021-09-13",
         "m1": "66.5",
@@ -58,8 +61,11 @@
         "m4": "Yes"
       },
       {
-        "p": "[A Partition Filter Network for Joint Entity and Relation Extraction](https://arxiv.org/abs/2108.12202v8)",
-        "c": "[&check;&nbsp;Link](https://github.com/Coopercoppers/PFN)",
+        "p": {
+          "name": "A Partition Filter Network for Joint Entity and Relation Extraction",
+          "link": "https://arxiv.org/abs/2108.12202v8"
+        },
+        "c": "https://github.com/Coopercoppers/PFN",
         "n": "PFN",
         "d": "2021-08-27",
         "m1": "62.5",
@@ -67,8 +73,11 @@
         "m4": "No"
       },
       {
-        "p": "[A Frustratingly Easy Approach for Entity and Relation Extraction](https://arxiv.org/abs/2010.12812v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/princeton-nlp/PURE)",
+        "p": {
+          "name": "A Frustratingly Easy Approach for Entity and Relation Extraction",
+          "link": "https://arxiv.org/abs/2010.12812v2"
+        },
+        "c": "https://github.com/princeton-nlp/PURE",
         "n": "Ours: cross-sentence ALB",
         "d": "2020-10-24",
         "m1": "62.2",
@@ -77,8 +86,11 @@
         "m4": "Yes"
       },
       {
-        "p": "[Two are Better than One: Joint Entity and Relation Extraction with Table-Sequence Encoders](https://arxiv.org/abs/2010.03851v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/LorrinWWW/two-are-better-than-one)",
+        "p": {
+          "name": "Two are Better than One: Joint Entity and Relation Extraction with Table-Sequence Encoders",
+          "link": "https://arxiv.org/abs/2010.03851v1"
+        },
+        "c": "https://github.com/LorrinWWW/two-are-better-than-one",
         "n": "Table-Sequence",
         "d": "2020-10-08",
         "m1": "59.6",
@@ -87,8 +99,11 @@
         "m4": "No"
       },
       {
-        "p": "[Entity-Relation Extraction as Multi-Turn Question Answering](https://arxiv.org/abs/1905.05529v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/ShannonAI/Entity-Relation-As-Multi-Turn-QA)",
+        "p": {
+          "name": "Entity-Relation Extraction as Multi-Turn Question Answering",
+          "link": "https://arxiv.org/abs/1905.05529v4"
+        },
+        "c": "https://github.com/ShannonAI/Entity-Relation-As-Multi-Turn-QA",
         "n": "Multi-turn QA",
         "d": "2019-05-14",
         "m1": "49.4",
@@ -96,8 +111,11 @@
         "m4": "No"
       },
       {
-        "p": "[End-to-End Relation Extraction using LSTMs on Sequences and Tree Structures](http://arxiv.org/abs/1601.00770v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/tticoin/LSTM-ER)",
+        "p": {
+          "name": "End-to-End Relation Extraction using LSTMs on Sequences and Tree Structures",
+          "link": "http://arxiv.org/abs/1601.00770v3"
+        },
+        "c": "https://github.com/tticoin/LSTM-ER",
         "n": "SPTree",
         "d": "2016-01-05",
         "m1": "48.4",
@@ -105,8 +123,11 @@
         "m4": "No"
       },
       {
-        "p": "[Adversarial training for multi-context joint entity and relation extraction](http://arxiv.org/abs/1808.06876v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/bekou/multihead_joint_entity_relation_extraction)",
+        "p": {
+          "name": "Adversarial training for multi-context joint entity and relation extraction",
+          "link": "http://arxiv.org/abs/1808.06876v3"
+        },
+        "c": "https://github.com/bekou/multihead_joint_entity_relation_extraction",
         "n": "multi-head + AT",
         "d": "2018-08-21",
         "m1": "47.45",
@@ -114,8 +135,11 @@
         "m4": "No"
       },
       {
-        "p": "[Joint entity recognition and relation extraction as a multi-head selection problem](http://arxiv.org/abs/1804.07847v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/bekou/multihead_joint_entity_relation_extraction)",
+        "p": {
+          "name": "Joint entity recognition and relation extraction as a multi-head selection problem",
+          "link": "http://arxiv.org/abs/1804.07847v3"
+        },
+        "c": "https://github.com/bekou/multihead_joint_entity_relation_extraction",
         "n": "multi-head",
         "d": "2018-04-20",
         "m1": "47.14",
@@ -123,7 +147,10 @@
         "m4": "No"
       },
       {
-        "p": "[Going out on a limb: Joint Extraction of Entity Mentions and Relations without Dependency Trees](https://aclanthology.org/P17-1085)",
+        "p": {
+          "name": "Going out on a limb: Joint Extraction of Entity Mentions and Relations without Dependency Trees",
+          "link": "https://aclanthology.org/P17-1085"
+        },
         "c": "",
         "n": "Attention",
         "d": "2017-07-01",
@@ -132,7 +159,10 @@
         "m4": "No"
       },
       {
-        "p": "[Incremental Joint Extraction of Entity Mentions and Relations](https://aclanthology.org/P14-1038)",
+        "p": {
+          "name": "Incremental Joint Extraction of Entity Mentions and Relations",
+          "link": "https://aclanthology.org/P14-1038"
+        },
         "c": "",
         "n": "Joint w/ Global",
         "d": "2014-06-01",
@@ -141,8 +171,11 @@
         "m4": "No"
       },
       {
-        "p": "[A General Framework for Information Extraction using Dynamic Span Graphs](http://arxiv.org/abs/1904.03296v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/luanyi/DyGIE)",
+        "p": {
+          "name": "A General Framework for Information Extraction using Dynamic Span Graphs",
+          "link": "http://arxiv.org/abs/1904.03296v1"
+        },
+        "c": "https://github.com/luanyi/DyGIE",
         "n": "DyGIE",
         "d": "2019-04-05",
         "m2": "59.7",

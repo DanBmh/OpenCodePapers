@@ -48,15 +48,21 @@
     ],
     "items": [
       {
-        "p": "[Video Person Re-ID: Fantastic Techniques and Where to Find Them](https://arxiv.org/abs/1912.05295v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/ppriyank/Video-Person-Re-ID-Fantastic-Techniques-and-Where-to-Find-Them)",
+        "p": {
+          "name": "Video Person Re-ID: Fantastic Techniques and Where to Find Them",
+          "link": "https://arxiv.org/abs/1912.05295v1"
+        },
+        "c": "https://github.com/ppriyank/Video-Person-Re-ID-Fantastic-Techniques-and-Where-to-Find-Them",
         "n": "B-BOT + Attention and CL loss*",
         "d": "2019-11-21",
         "m1": "96.6"
       },
       {
-        "p": "[Fine-Grained Re-Identification](https://arxiv.org/abs/2011.13475v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/ppriyank/Video-Person-Re-ID-Fantastic-Techniques-and-Where-to-Find-Them)",
+        "p": {
+          "name": "Fine-Grained Re-Identification",
+          "link": "https://arxiv.org/abs/2011.13475v2"
+        },
+        "c": "https://github.com/ppriyank/Video-Person-Re-ID-Fantastic-Techniques-and-Where-to-Find-Them",
         "n": "FGReID",
         "d": "2020-11-26",
         "m1": "96.1",
@@ -65,8 +71,11 @@
         "m4": "99.9"
       },
       {
-        "p": "[Adaptive Graph Representation Learning for Video Person Re-identification](https://arxiv.org/abs/1909.02240v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/weleen/AGRL.pytorch)",
+        "p": {
+          "name": "Adaptive Graph Representation Learning for Video Person Re-identification",
+          "link": "https://arxiv.org/abs/1909.02240v2"
+        },
+        "c": "https://github.com/weleen/AGRL.pytorch",
         "n": "AGRL",
         "d": "2019-09-05",
         "m1": "93.1",
@@ -74,7 +83,10 @@
         "m4": "98.7"
       },
       {
-        "p": "[Video Person Re-Identification With Competitive Snippet-Similarity Aggregation and Co-Attentive Snippet Embedding](http://openaccess.thecvf.com/content_cvpr_2018/html/Chen_Video_Person_Re-Identification_CVPR_2018_paper.html)",
+        "p": {
+          "name": "Video Person Re-Identification With Competitive Snippet-Similarity Aggregation and Co-Attentive Snippet Embedding",
+          "link": "http://openaccess.thecvf.com/content_cvpr_2018/html/Chen_Video_Person_Re-Identification_CVPR_2018_paper.html"
+        },
         "c": "",
         "n": "Snippet (Supervised)",
         "d": "2018-06-01",
@@ -83,8 +95,11 @@
         "m3": "99.3"
       },
       {
-        "p": "[Exploiting Robust Unsupervised Video Person Re-identification](https://arxiv.org/abs/2111.05170v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/deropty/uPMnet)",
+        "p": {
+          "name": "Exploiting Robust Unsupervised Video Person Re-identification",
+          "link": "https://arxiv.org/abs/2111.05170v3"
+        },
+        "c": "https://github.com/deropty/uPMnet",
         "n": "uPMnet",
         "d": "2021-11-09",
         "m1": "92.0",
@@ -92,8 +107,11 @@
         "m3": "97.7"
       },
       {
-        "p": "[Deep Association Learning for Unsupervised Video Person Re-identification](http://arxiv.org/abs/1808.07301v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/yanbeic/Deep-Association-Learning)",
+        "p": {
+          "name": "Deep Association Learning for Unsupervised Video Person Re-identification",
+          "link": "http://arxiv.org/abs/1808.07301v1"
+        },
+        "c": "https://github.com/yanbeic/Deep-Association-Learning",
         "n": "DAL",
         "d": "2018-08-22",
         "m1": "85.3",
@@ -101,7 +119,10 @@
         "m3": "97.0"
       },
       {
-        "p": "[Stepwise Metric Promotion for Unsupervised Video Person Re-Identification](http://openaccess.thecvf.com/content_iccv_2017/html/Liu_Stepwise_Metric_Promotion_ICCV_2017_paper.html)",
+        "p": {
+          "name": "Stepwise Metric Promotion for Unsupervised Video Person Re-Identification",
+          "link": "http://openaccess.thecvf.com/content_iccv_2017/html/Liu_Stepwise_Metric_Promotion_ICCV_2017_paper.html"
+        },
         "c": "",
         "n": "SMP*",
         "d": "2017-10-01",
@@ -110,7 +131,10 @@
         "m3": "95.6"
       },
       {
-        "p": "[Dynamic Label Graph Matching for Unsupervised Video Re-Identification](http://arxiv.org/abs/1709.09297v1)",
+        "p": {
+          "name": "Dynamic Label Graph Matching for Unsupervised Video Re-Identification",
+          "link": "http://arxiv.org/abs/1709.09297v1"
+        },
         "c": "",
         "n": "DGM+MLAPG+",
         "d": "2017-09-27",
@@ -119,7 +143,10 @@
         "m3": "92.5"
       },
       {
-        "p": "[Dynamic Label Graph Matching for Unsupervised Video Re-Identification](http://arxiv.org/abs/1709.09297v1)",
+        "p": {
+          "name": "Dynamic Label Graph Matching for Unsupervised Video Re-Identification",
+          "link": "http://arxiv.org/abs/1709.09297v1"
+        },
         "c": "",
         "n": "DGM+IDE+",
         "d": "2017-09-27",
@@ -128,8 +155,11 @@
         "m3": "81.3"
       },
       {
-        "p": "[Unsupervised Tracklet Person Re-Identification](http://arxiv.org/abs/1903.00535v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/liminxian/DukeMTMC-SI-Tracklet)",
+        "p": {
+          "name": "Unsupervised Tracklet Person Re-Identification",
+          "link": "http://arxiv.org/abs/1903.00535v1"
+        },
+        "c": "https://github.com/liminxian/DukeMTMC-SI-Tracklet",
         "n": "UTAL",
         "d": "2019-03-01",
         "m1": "54.7",
@@ -137,7 +167,10 @@
         "m3": "83.1"
       },
       {
-        "p": "[Robust Anchor Embedding for Unsupervised Video Person Re-Identification in the Wild](http://openaccess.thecvf.com/content_ECCV_2018/html/Mang_YE_Robust_Anchor_Embedding_ECCV_2018_paper.html)",
+        "p": {
+          "name": "Robust Anchor Embedding for Unsupervised Video Person Re-Identification in the Wild",
+          "link": "http://openaccess.thecvf.com/content_ECCV_2018/html/Mang_YE_Robust_Anchor_Embedding_ECCV_2018_paper.html"
+        },
         "c": "",
         "n": "RACE+",
         "d": "2018-09-01",
@@ -146,7 +179,10 @@
         "m3": "79.4"
       },
       {
-        "p": "[Unsupervised Person Re-identification by Deep Learning Tracklet Association](http://arxiv.org/abs/1809.02874v1)",
+        "p": {
+          "name": "Unsupervised Person Re-identification by Deep Learning Tracklet Association",
+          "link": "http://arxiv.org/abs/1809.02874v1"
+        },
         "c": "",
         "n": "TAUDL",
         "d": "2018-09-08",
@@ -155,7 +191,10 @@
         "m3": "78.7"
       },
       {
-        "p": "[Domain Adaptation through Synthesis for Unsupervised Person Re-identification](http://arxiv.org/abs/1804.10094v1)",
+        "p": {
+          "name": "Domain Adaptation through Synthesis for Unsupervised Person Re-identification",
+          "link": "http://arxiv.org/abs/1804.10094v1"
+        },
         "c": "",
         "n": "DASy*",
         "d": "2018-04-26",

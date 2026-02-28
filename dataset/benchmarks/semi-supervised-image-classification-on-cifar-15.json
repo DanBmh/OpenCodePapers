@@ -33,22 +33,31 @@
     ],
     "items": [
       {
-        "p": "[MutexMatch: Semi-Supervised Learning with Mutex-Based Consistency Regularization](https://arxiv.org/abs/2203.14316v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/NJUyued/MutexMatch4SSL)",
+        "p": {
+          "name": "MutexMatch: Semi-Supervised Learning with Mutex-Based Consistency Regularization",
+          "link": "https://arxiv.org/abs/2203.14316v2"
+        },
+        "c": "https://github.com/NJUyued/MutexMatch4SSL",
         "n": "MutexMatch (k=0.6C)",
         "d": "2022-03-27",
         "m1": "7.77"
       },
       {
-        "p": "[CoMatch: Semi-supervised Learning with Contrastive Graph Regularization](https://arxiv.org/abs/2011.11183v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/salesforce/CoMatch)",
+        "p": {
+          "name": "CoMatch: Semi-supervised Learning with Contrastive Graph Regularization",
+          "link": "https://arxiv.org/abs/2011.11183v2"
+        },
+        "c": "https://github.com/salesforce/CoMatch",
         "n": "CoMatch (SimCLR)",
         "d": "2020-11-23",
         "m1": "12.33±8.47"
       },
       {
-        "p": "[Boosting the Performance of Semi-Supervised Learning with Unsupervised Clustering](https://arxiv.org/abs/2012.00504v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/boazlern/SSClustering)",
+        "p": {
+          "name": "Boosting the Performance of Semi-Supervised Learning with Unsupervised Clustering",
+          "link": "https://arxiv.org/abs/2012.00504v1"
+        },
+        "c": "https://github.com/boazlern/SSClustering",
         "n": "Semi-MMDC",
         "d": "2020-12-01",
         "m1": "28.1±5.5"

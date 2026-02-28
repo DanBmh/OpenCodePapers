@@ -34,8 +34,11 @@
     ],
     "items": [
       {
-        "p": "[DTP-Net: A convolutional neural network model to predict threshold for localizing the lesions on dermatological macro-images](https://www.sciencedirect.com/science/article/pii/S0010482522006047)",
-        "c": "[&check;&nbsp;Link](https://github.com/VipinBioLab/DTP-Net)",
+        "p": {
+          "name": "DTP-Net: A convolutional neural network model to predict threshold for localizing the lesions on dermatological macro-images",
+          "link": "https://www.sciencedirect.com/science/article/pii/S0010482522006047"
+        },
+        "c": "https://github.com/VipinBioLab/DTP-Net",
         "n": "DTP-Net",
         "d": "2022-07-12",
         "m1": "0.884 ±0.100"

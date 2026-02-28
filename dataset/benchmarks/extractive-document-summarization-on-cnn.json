@@ -43,7 +43,10 @@
     ],
     "items": [
       {
-        "p": "[Neural Extractive Summarization with Hierarchical Attentive Heterogeneous Graph Network](https://aclanthology.org/2020.emnlp-main.295)",
+        "p": {
+          "name": "Neural Extractive Summarization with Hierarchical Attentive Heterogeneous Graph Network",
+          "link": "https://aclanthology.org/2020.emnlp-main.295"
+        },
         "c": "",
         "n": "HAHSum",
         "d": null,
@@ -61,8 +64,11 @@
         "m3": "40.287"
       },
       {
-        "p": "[Extractive Summarization as Text Matching](https://arxiv.org/abs/2004.08795v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/maszhongming/MatchSum)",
+        "p": {
+          "name": "Extractive Summarization as Text Matching",
+          "link": "https://arxiv.org/abs/2004.08795v1"
+        },
+        "c": "https://github.com/maszhongming/MatchSum",
         "n": "MatchSum",
         "d": "2020-04-19",
         "m1": "44.41",
@@ -70,8 +76,11 @@
         "m3": "40.55"
       },
       {
-        "p": "[Align and Attend: Multimodal Summarization with Dual Contrastive Losses](https://arxiv.org/abs/2303.07284v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/boheumd/A2Summ)",
+        "p": {
+          "name": "Align and Attend: Multimodal Summarization with Dual Contrastive Losses",
+          "link": "https://arxiv.org/abs/2303.07284v3"
+        },
+        "c": "https://github.com/boheumd/A2Summ",
         "n": "A2Summ",
         "d": "2023-03-13",
         "m1": "44.11",
@@ -79,7 +88,10 @@
         "m3": "35.92"
       },
       {
-        "p": "[Considering Nested Tree Structure in Sentence Extractive Summarization with Pre-trained Transformer](https://aclanthology.org/2021.emnlp-main.330)",
+        "p": {
+          "name": "Considering Nested Tree Structure in Sentence Extractive Summarization with Pre-trained Transformer",
+          "link": "https://aclanthology.org/2021.emnlp-main.330"
+        },
         "c": "",
         "n": "NeRoBERTa",
         "d": null,
@@ -88,7 +100,10 @@
         "m3": "40.20"
       },
       {
-        "p": "[Summary Level Training of Sentence Rewriting for Abstractive Summarization](https://arxiv.org/abs/1909.08752v3)",
+        "p": {
+          "name": "Summary Level Training of Sentence Rewriting for Abstractive Summarization",
+          "link": "https://arxiv.org/abs/1909.08752v3"
+        },
         "c": "",
         "n": "BERT-ext + RL",
         "d": "2019-09-19",
@@ -97,8 +112,11 @@
         "m3": "39.11"
       },
       {
-        "p": "[Searching for Effective Neural Extractive Summarization: What Works and What's Next](https://arxiv.org/abs/1907.03491v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/maszhongming/Effective_Extractive_Summarization)",
+        "p": {
+          "name": "Searching for Effective Neural Extractive Summarization: What Works and What's Next",
+          "link": "https://arxiv.org/abs/1907.03491v1"
+        },
+        "c": "https://github.com/maszhongming/Effective_Extractive_Summarization",
         "n": "PNBERT",
         "d": "2019-07-08",
         "m1": "42.69",
@@ -106,7 +124,10 @@
         "m3": "38.85"
       },
       {
-        "p": "[HIBERT: Document Level Pre-training of Hierarchical Bidirectional Transformers for Document Summarization](https://arxiv.org/abs/1905.06566v1)",
+        "p": {
+          "name": "HIBERT: Document Level Pre-training of Hierarchical Bidirectional Transformers for Document Summarization",
+          "link": "https://arxiv.org/abs/1905.06566v1"
+        },
         "c": "",
         "n": "HIBERT",
         "d": "2019-05-16",
@@ -115,8 +136,11 @@
         "m3": "38.83"
       },
       {
-        "p": "[Reading Like HER: Human Reading Inspired Extractive Summarization](https://aclanthology.org/D19-1300)",
-        "c": "[&check;&nbsp;Link](https://github.com/LLluoling/HER)",
+        "p": {
+          "name": "Reading Like HER: Human Reading Inspired Extractive Summarization",
+          "link": "https://aclanthology.org/D19-1300"
+        },
+        "c": "https://github.com/LLluoling/HER",
         "n": "HER",
         "d": "2019-11-01",
         "m1": "42.3",
@@ -124,8 +148,11 @@
         "m3": "37.9"
       },
       {
-        "p": "[Neural Document Summarization by Jointly Learning to Score and Select Sentences](http://arxiv.org/abs/1807.02305v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/magic282/NeuSum)",
+        "p": {
+          "name": "Neural Document Summarization by Jointly Learning to Score and Select Sentences",
+          "link": "http://arxiv.org/abs/1807.02305v1"
+        },
+        "c": "https://github.com/magic282/NeuSum",
         "n": "NeuSUM",
         "d": "2018-07-06",
         "m1": "41.59",
@@ -133,8 +160,11 @@
         "m3": "37.98"
       },
       {
-        "p": "[BanditSum: Extractive Summarization as a Contextual Bandit](https://arxiv.org/abs/1809.09672v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/yuedongP/BanditSum)",
+        "p": {
+          "name": "BanditSum: Extractive Summarization as a Contextual Bandit",
+          "link": "https://arxiv.org/abs/1809.09672v3"
+        },
+        "c": "https://github.com/yuedongP/BanditSum",
         "n": "BanditSum",
         "d": "2018-09-25",
         "m1": "41.5",
@@ -142,7 +172,10 @@
         "m3": "37.6"
       },
       {
-        "p": "[Neural Latent Extractive Document Summarization](http://arxiv.org/abs/1808.07187v2)",
+        "p": {
+          "name": "Neural Latent Extractive Document Summarization",
+          "link": "http://arxiv.org/abs/1808.07187v2"
+        },
         "c": "",
         "n": "Latent",
         "d": "2018-08-22",
@@ -151,8 +184,11 @@
         "m3": "37.54"
       },
       {
-        "p": "[Get To The Point: Summarization with Pointer-Generator Networks](http://arxiv.org/abs/1704.04368v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/examples/text_summarization/pointer_summarizer)",
+        "p": {
+          "name": "Get To The Point: Summarization with Pointer-Generator Networks",
+          "link": "http://arxiv.org/abs/1704.04368v2"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleNLP/tree/develop/examples/text_summarization/pointer_summarizer",
         "n": "Lead-3 baseline",
         "d": "2017-04-14",
         "m1": "40.34",
@@ -160,8 +196,11 @@
         "m3": "36.57"
       },
       {
-        "p": "[Ranking Sentences for Extractive Summarization with Reinforcement Learning](http://arxiv.org/abs/1802.08636v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/shashiongithub/Refresh)",
+        "p": {
+          "name": "Ranking Sentences for Extractive Summarization with Reinforcement Learning",
+          "link": "http://arxiv.org/abs/1802.08636v2"
+        },
+        "c": "https://github.com/shashiongithub/Refresh",
         "n": "REFRESH",
         "d": "2018-02-23",
         "m1": "40.0",
@@ -169,8 +208,11 @@
         "m3": "36.6"
       },
       {
-        "p": "[Iterative Document Representation Learning Towards Summarization with Polishing](https://arxiv.org/abs/1809.10324v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/yingtaomj/Iterative-Document-Representation-Learning-Towards-Summarization-with-Polishing)",
+        "p": {
+          "name": "Iterative Document Representation Learning Towards Summarization with Polishing",
+          "link": "https://arxiv.org/abs/1809.10324v2"
+        },
+        "c": "https://github.com/yingtaomj/Iterative-Document-Representation-Learning-Towards-Summarization-with-Polishing",
         "n": "ITS",
         "d": "2018-09-27",
         "m1": "30.80",

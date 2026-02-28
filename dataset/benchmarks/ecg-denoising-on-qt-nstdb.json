@@ -50,8 +50,11 @@
     ],
     "items": [
       {
-        "p": "[MECG-E: Mamba-based ECG Enhancer for Baseline Wander Removal](https://arxiv.org/abs/2409.18828v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/khhungg/MECG-E)",
+        "p": {
+          "name": "MECG-E: Mamba-based ECG Enhancer for Baseline Wander Removal",
+          "link": "https://arxiv.org/abs/2409.18828v2"
+        },
+        "c": "https://github.com/khhungg/MECG-E",
         "n": "MECG-E",
         "d": "2024-09-27",
         "m1": "3.445 ±6.493",
@@ -60,8 +63,11 @@
         "m4": "0.936 ±0.077"
       },
       {
-        "p": "[DeScoD-ECG: Deep Score-Based Diffusion Model for ECG Baseline Wander and Noise Removal](https://arxiv.org/abs/2208.00542v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/huayuliarizona/score-based-ecg-denoising)",
+        "p": {
+          "name": "DeScoD-ECG: Deep Score-Based Diffusion Model for ECG Baseline Wander and Noise Removal",
+          "link": "https://arxiv.org/abs/2208.00542v2"
+        },
+        "c": "https://github.com/huayuliarizona/score-based-ecg-denoising",
         "n": "DeScoD-ECG",
         "d": "2022-07-31",
         "m1": "3.800 ±6.227",
@@ -70,8 +76,11 @@
         "m4": "0.926 ±0.086"
       },
       {
-        "p": "[DeepFilter: an ECG baseline wander removal filter using deep learning techniques](https://arxiv.org/abs/2101.03423v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/fperdigon/DeepFilter)",
+        "p": {
+          "name": "DeepFilter: an ECG baseline wander removal filter using deep learning techniques",
+          "link": "https://arxiv.org/abs/2101.03423v2"
+        },
+        "c": "https://github.com/fperdigon/DeepFilter",
         "n": "DeepFilter",
         "d": "2021-01-09",
         "m1": "5.302 ±8.400",
@@ -80,8 +89,11 @@
         "m4": "0.895 ±0.101"
       },
       {
-        "p": "[Deep Recurrent Neural Networks for ECG Signal Denoising](http://arxiv.org/abs/1807.11551v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/fperdigon/DeepFilter)",
+        "p": {
+          "name": "Deep Recurrent Neural Networks for ECG Signal Denoising",
+          "link": "http://arxiv.org/abs/1807.11551v3"
+        },
+        "c": "https://github.com/fperdigon/DeepFilter",
         "n": "DRNN",
         "d": "2018-07-30",
         "m1": "11.492 ±15.536",

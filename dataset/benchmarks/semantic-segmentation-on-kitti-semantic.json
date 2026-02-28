@@ -48,15 +48,21 @@
     ],
     "items": [
       {
-        "p": "[Spherical Transformer for LiDAR-based 3D Recognition](https://arxiv.org/abs/2303.12766v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/dvlab-research/sphereformer)",
+        "p": {
+          "name": "Spherical Transformer for LiDAR-based 3D Recognition",
+          "link": "https://arxiv.org/abs/2303.12766v1"
+        },
+        "c": "https://github.com/dvlab-research/sphereformer",
         "n": "RPVNet [xu2021rpvnet]",
         "d": "2023-03-22",
         "m1": "80.7"
       },
       {
-        "p": "[Improving Semantic Segmentation via Video Propagation and Label Relaxation](https://arxiv.org/abs/1812.01593v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/NVIDIA/semantic-segmentation)",
+        "p": {
+          "name": "Improving Semantic Segmentation via Video Propagation and Label Relaxation",
+          "link": "https://arxiv.org/abs/1812.01593v3"
+        },
+        "c": "https://github.com/NVIDIA/semantic-segmentation",
         "n": "DeepLabV3Plus + SDCNetAug",
         "d": "2018-12-04",
         "m1": "72.83",
@@ -65,36 +71,51 @@
         "m4": "48.68"
       },
       {
-        "p": "[In-Place Activated BatchNorm for Memory-Optimized Training of DNNs](http://arxiv.org/abs/1712.02616v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/mapillary/inplace_abn)",
+        "p": {
+          "name": "In-Place Activated BatchNorm for Memory-Optimized Training of DNNs",
+          "link": "http://arxiv.org/abs/1712.02616v3"
+        },
+        "c": "https://github.com/mapillary/inplace_abn",
         "n": "MapillaryAI",
         "d": "2017-12-07",
         "m1": "69.56"
       },
       {
-        "p": "[Scaling up Multi-domain Semantic Segmentation with Sentence Embeddings](https://arxiv.org/abs/2202.02002v2)",
+        "p": {
+          "name": "Scaling up Multi-domain Semantic Segmentation with Sentence Embeddings",
+          "link": "https://arxiv.org/abs/2202.02002v2"
+        },
         "c": "",
         "n": "SIW",
         "d": "2022-02-04",
         "m1": "68.9"
       },
       {
-        "p": "[Training of Convolutional Networks on Multiple Heterogeneous Datasets for Street Scene Semantic Segmentation](http://arxiv.org/abs/1803.05675v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/pmeletis/IV2018-hierarchical-semantic-segmentation-for-heterogeneous-datasets)",
+        "p": {
+          "name": "Training of Convolutional Networks on Multiple Heterogeneous Datasets for Street Scene Semantic Segmentation",
+          "link": "http://arxiv.org/abs/1803.05675v2"
+        },
+        "c": "https://github.com/pmeletis/IV2018-hierarchical-semantic-segmentation-for-heterogeneous-datasets",
         "n": "AHiSS",
         "d": "2018-03-15",
         "m1": "61.24"
       },
       {
-        "p": "[SegStereo: Exploiting Semantic Information for Disparity Estimation](http://arxiv.org/abs/1807.11699v1)",
+        "p": {
+          "name": "SegStereo: Exploiting Semantic Information for Disparity Estimation",
+          "link": "http://arxiv.org/abs/1807.11699v1"
+        },
         "c": "",
         "n": "SegStereo",
         "d": "2018-07-31",
         "m1": "59.10"
       },
       {
-        "p": "[Pixel-wise Attentional Gating for Parsimonious Pixel Labeling](http://arxiv.org/abs/1805.01556v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/aimerykong/Pixel-Attentional-Gating)",
+        "p": {
+          "name": "Pixel-wise Attentional Gating for Parsimonious Pixel Labeling",
+          "link": "http://arxiv.org/abs/1805.01556v2"
+        },
+        "c": "https://github.com/aimerykong/Pixel-Attentional-Gating",
         "n": "APMoE_seg",
         "d": "2018-05-03",
         "m1": "47.96"

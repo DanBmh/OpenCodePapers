@@ -33,29 +33,41 @@
     ],
     "items": [
       {
-        "p": "[PaLM: Scaling Language Modeling with Pathways](https://arxiv.org/abs/2204.02311v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/lucidrains/CoCa-pytorch)",
+        "p": {
+          "name": "PaLM: Scaling Language Modeling with Pathways",
+          "link": "https://arxiv.org/abs/2204.02311v5"
+        },
+        "c": "https://github.com/lucidrains/CoCa-pytorch",
         "n": "PaLM-540B (few-shot, k=5)",
         "d": "2022-04-05",
         "m1": "73.9"
       },
       {
-        "p": "[Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/karpathy/llama2.c)",
+        "p": {
+          "name": "Training Compute-Optimal Large Language Models",
+          "link": "https://arxiv.org/abs/2203.15556v1"
+        },
+        "c": "https://github.com/karpathy/llama2.c",
         "n": "Chinchilla-70B (few-shot, k=5)",
         "d": "2022-03-29",
         "m1": "68.3"
       },
       {
-        "p": "[PaLM: Scaling Language Modeling with Pathways](https://arxiv.org/abs/2204.02311v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/lucidrains/CoCa-pytorch)",
+        "p": {
+          "name": "PaLM: Scaling Language Modeling with Pathways",
+          "link": "https://arxiv.org/abs/2204.02311v5"
+        },
+        "c": "https://github.com/lucidrains/CoCa-pytorch",
         "n": "PaLM-62B (few-shot, k=5)",
         "d": "2022-04-05",
         "m1": "65.4"
       },
       {
-        "p": "[Scaling Language Models: Methods, Analysis & Insights from Training Gopher](https://arxiv.org/abs/2112.11446v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/allenai/dolma)",
+        "p": {
+          "name": "Scaling Language Models: Methods, Analysis & Insights from Training Gopher",
+          "link": "https://arxiv.org/abs/2112.11446v2"
+        },
+        "c": "https://github.com/allenai/dolma",
         "n": "Gopher-280B (few-shot, k=5)",
         "d": "2021-12-08",
         "m1": "61.0"

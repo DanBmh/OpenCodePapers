@@ -49,8 +49,11 @@
     ],
     "items": [
       {
-        "p": "[Semantic Image Matting](https://arxiv.org/abs/2104.08201v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/nowsyn/SIM)",
+        "p": {
+          "name": "Semantic Image Matting",
+          "link": "https://arxiv.org/abs/2104.08201v1"
+        },
+        "c": "https://github.com/nowsyn/SIM",
         "n": "SIM",
         "d": "2021-04-16",
         "m1": "20.83",
@@ -59,8 +62,11 @@
         "m4": "27.87"
       },
       {
-        "p": "[Natural Image Matting via Guided Contextual Attention](https://arxiv.org/abs/2001.04069v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/Yaoyi-Li/GCA-Matting)",
+        "p": {
+          "name": "Natural Image Matting via Guided Contextual Attention",
+          "link": "https://arxiv.org/abs/2001.04069v1"
+        },
+        "c": "https://github.com/Yaoyi-Li/GCA-Matting",
         "n": "GCA",
         "d": "2020-01-13",
         "m1": "36.03",
@@ -69,8 +75,11 @@
         "m4": "39.28"
       },
       {
-        "p": "[Deep Image Matting](http://arxiv.org/abs/1703.03872v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleSeg)",
+        "p": {
+          "name": "Deep Image Matting",
+          "link": "http://arxiv.org/abs/1703.03872v3"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
         "n": "DIM",
         "d": "2017-03-10",
         "m1": "46.26",
@@ -79,8 +88,11 @@
         "m4": "48.07"
       },
       {
-        "p": "[Indices Matter: Learning to Index for Deep Image Matting](https://arxiv.org/abs/1908.00672v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/poppinace/indexnet_matting)",
+        "p": {
+          "name": "Indices Matter: Learning to Index for Deep Image Matting",
+          "link": "https://arxiv.org/abs/1908.00672v1"
+        },
+        "c": "https://github.com/poppinace/indexnet_matting",
         "n": "IndexNet",
         "d": "2019-08-02",
         "m1": "48.77",

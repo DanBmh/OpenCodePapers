@@ -7,37 +7,6 @@ from datetime import datetime
 
 # ==================================================================================================
 
-MD_LINK_RE = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
-
-# ==================================================================================================
-
-
-def _preserve_whitelisted_entities(s: str) -> str:
-    """Undo escaping for a few safe named entities often used in your data."""
-    return (
-        s.replace("&amp;check;", "&check;")
-        .replace("&amp;nbsp;", "&nbsp;")
-        .replace("&amp;times;", "&times;")
-    )
-
-
-# ==================================================================================================
-
-
-def md_links_to_html(s: str) -> str:
-    """Convert [text](url) to <a> while preserving whitelisted HTML entities in 'text'."""
-
-    def _repl(m):
-        text = html.escape(m.group(1), quote=True)
-        text = _preserve_whitelisted_entities(text)  # allow &check; &nbsp; etc.
-        url = html.escape(m.group(2), quote=True)
-        return f'<a href="{url}" target="_blank" rel="noopener noreferrer">{text}</a>'
-
-    return MD_LINK_RE.sub(_repl, s)
-
-
-# ==================================================================================================
-
 
 def parse_json(json_path: str):
     """Load benchmark data from JSON file."""
@@ -115,7 +84,6 @@ def to_date_iso(val):
 def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
     fields = table_spec.get("fields", [])
     items = table_spec.get("items", [])
-    caption = table_spec.get("caption", "")
 
     # Field metadata
     columns = []
@@ -150,10 +118,20 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
             raw = row.get(key, "")
             # Display
             if isinstance(raw, str):
-                cell_html = md_links_to_html(raw)
-                if cell_html == raw:  # no link converted
+                # Special handling for code links ("c" field)
+                if key == "c" and raw.strip():
+                    url = html.escape(raw, quote=True)
+                    cell_html = f'<a href="{url}" target="_blank" rel="noopener noreferrer">&check;&nbsp;Link</a>'
+                else:
                     cell_html = html.escape(raw)
-                cell_html = _preserve_whitelisted_entities(cell_html)
+            elif isinstance(raw, dict):
+                # Handle paper link dict {"name": "...", "link": "..."}
+                if key == "p" and "name" in raw and "link" in raw:
+                    name = html.escape(raw["name"])
+                    link = html.escape(raw["link"], quote=True)
+                    cell_html = f'<a href="{link}" target="_blank" rel="noopener noreferrer">{name}</a>'
+                else:
+                    cell_html = html.escape(str(raw))
             elif raw is None:
                 cell_html = ""
             else:
@@ -179,7 +157,7 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
             tds.append(f"<td{attr}>{cell_html}</td>")
 
         raw_code = row.get("c", "")
-        has_code = bool(isinstance(raw_code, str) and "](" in raw_code)
+        has_code = bool(isinstance(raw_code, str) and raw_code.strip())
 
         # Chart series
         if date_key:

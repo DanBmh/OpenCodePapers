@@ -43,8 +43,11 @@
     ],
     "items": [
       {
-        "p": "[CodeXGLUE: A Machine Learning Benchmark Dataset for Code Understanding and Generation](https://arxiv.org/abs/2102.04664v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/microsoft/CodeXGLUE)",
+        "p": {
+          "name": "CodeXGLUE: A Machine Learning Benchmark Dataset for Code Understanding and Generation",
+          "link": "https://arxiv.org/abs/2102.04664v2"
+        },
+        "c": "https://github.com/microsoft/CodeXGLUE",
         "n": "CodeGPT-adapted",
         "d": "2021-02-09",
         "m1": "75.11",
@@ -52,16 +55,22 @@
         "m3": "69.84"
       },
       {
-        "p": "[CodeT5+: Open Code Large Language Models for Code Understanding and Generation](https://arxiv.org/abs/2305.07922v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/salesforce/codet5)",
+        "p": {
+          "name": "CodeT5+: Open Code Large Language Models for Code Understanding and Generation",
+          "link": "https://arxiv.org/abs/2305.07922v2"
+        },
+        "c": "https://github.com/salesforce/codet5",
         "n": "CodeT5+ 770M",
         "d": "2023-05-13",
         "m2": "44.86",
         "m3": "74.22"
       },
       {
-        "p": "[CodeT5+: Open Code Large Language Models for Code Understanding and Generation](https://arxiv.org/abs/2305.07922v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/salesforce/codet5)",
+        "p": {
+          "name": "CodeT5+: Open Code Large Language Models for Code Understanding and Generation",
+          "link": "https://arxiv.org/abs/2305.07922v2"
+        },
+        "c": "https://github.com/salesforce/codet5",
         "n": "CodeT5+ 220M",
         "d": "2023-05-13",
         "m2": "43.42",

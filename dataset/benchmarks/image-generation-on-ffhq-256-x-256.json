@@ -63,22 +63,31 @@
     ],
     "items": [
       {
-        "p": "[SAN: Inducing Metrizability of GAN with Discriminative Normalized Linear Layer](https://arxiv.org/abs/2301.12811v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/sony/san)",
+        "p": {
+          "name": "SAN: Inducing Metrizability of GAN with Discriminative Normalized Linear Layer",
+          "link": "https://arxiv.org/abs/2301.12811v4"
+        },
+        "c": "https://github.com/sony/san",
         "n": "StyleSAN-XL",
         "d": "2023-01-30",
         "m1": "1.68"
       },
       {
-        "p": "[StyleNAT: Giving Each Head a New Perspective](https://arxiv.org/abs/2211.05770v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/SHI-Labs/Neighborhood-Attention-Transformer)",
+        "p": {
+          "name": "StyleNAT: Giving Each Head a New Perspective",
+          "link": "https://arxiv.org/abs/2211.05770v2"
+        },
+        "c": "https://github.com/SHI-Labs/Neighborhood-Attention-Transformer",
         "n": "StyleNAT",
         "d": "2022-11-10",
         "m1": "2.05"
       },
       {
-        "p": "[Exposing flaws of generative model evaluation metrics and their unfair treatment of diffusion models](https://arxiv.org/abs/2306.04675v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/layer6ai-labs/dgm-eval)",
+        "p": {
+          "name": "Exposing flaws of generative model evaluation metrics and their unfair treatment of diffusion models",
+          "link": "https://arxiv.org/abs/2306.04675v2"
+        },
+        "c": "https://github.com/layer6ai-labs/dgm-eval",
         "n": "StyleNAT (Exposing)",
         "d": "2023-06-07",
         "m1": "2.11",
@@ -89,15 +98,21 @@
         "m7": "0.71"
       },
       {
-        "p": "[StyleGAN-XL: Scaling StyleGAN to Large Diverse Datasets](https://arxiv.org/abs/2202.00273v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/autonomousvision/stylegan-xl)",
+        "p": {
+          "name": "StyleGAN-XL: Scaling StyleGAN to Large Diverse Datasets",
+          "link": "https://arxiv.org/abs/2202.00273v2"
+        },
+        "c": "https://github.com/autonomousvision/stylegan-xl",
         "n": "StyleGAN-XL",
         "d": "2022-02-01",
         "m1": "2.19"
       },
       {
-        "p": "[Exposing flaws of generative model evaluation metrics and their unfair treatment of diffusion models](https://arxiv.org/abs/2306.04675v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/layer6ai-labs/dgm-eval)",
+        "p": {
+          "name": "Exposing flaws of generative model evaluation metrics and their unfair treatment of diffusion models",
+          "link": "https://arxiv.org/abs/2306.04675v2"
+        },
+        "c": "https://github.com/layer6ai-labs/dgm-eval",
         "n": "StyleGAN-XL (Exposing)",
         "d": "2023-06-07",
         "m1": "2.26",
@@ -108,43 +123,61 @@
         "m7": "0.63"
       },
       {
-        "p": "[Compensation Sampling for Improved Convergence in Diffusion Models](https://arxiv.org/abs/2312.06285v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/hotfinda/Compensation-sampling)",
+        "p": {
+          "name": "Compensation Sampling for Improved Convergence in Diffusion Models",
+          "link": "https://arxiv.org/abs/2312.06285v1"
+        },
+        "c": "https://github.com/hotfinda/Compensation-sampling",
         "n": "PDM+CS",
         "d": "2023-12-11",
         "m1": "2.57"
       },
       {
-        "p": "[Improved Transformer for High-Resolution GANs](https://arxiv.org/abs/2106.07631v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/hit-gan)",
+        "p": {
+          "name": "Improved Transformer for High-Resolution GANs",
+          "link": "https://arxiv.org/abs/2106.07631v3"
+        },
+        "c": "https://github.com/google-research/hit-gan",
         "n": "HiT-L",
         "d": "2021-06-14",
         "m1": "2.58"
       },
       {
-        "p": "[Polynomial Implicit Neural Representations For Large Diverse Datasets](https://arxiv.org/abs/2303.11424v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/rajhans0/poly_inr)",
+        "p": {
+          "name": "Polynomial Implicit Neural Representations For Large Diverse Datasets",
+          "link": "https://arxiv.org/abs/2303.11424v1"
+        },
+        "c": "https://github.com/rajhans0/poly_inr",
         "n": "Poly-INR",
         "d": "2023-03-20",
         "m1": "2.72"
       },
       {
-        "p": "[The GAN is dead; long live the GAN! A Modern GAN Baseline](https://arxiv.org/abs/2501.05441v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/brownvc/r3gan)",
+        "p": {
+          "name": "The GAN is dead; long live the GAN! A Modern GAN Baseline",
+          "link": "https://arxiv.org/abs/2501.05441v1"
+        },
+        "c": "https://github.com/brownvc/r3gan",
         "n": "R3GAN",
         "d": "2025-01-09",
         "m1": "2.75"
       },
       {
-        "p": "[StyleSwin: Transformer-based GAN for High-resolution Image Generation](https://arxiv.org/abs/2112.10762v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/microsoft/StyleSwin)",
+        "p": {
+          "name": "StyleSwin: Transformer-based GAN for High-resolution Image Generation",
+          "link": "https://arxiv.org/abs/2112.10762v2"
+        },
+        "c": "https://github.com/microsoft/StyleSwin",
         "n": "StyleSwin",
         "d": "2021-12-20",
         "m1": "2.81"
       },
       {
-        "p": "[Exposing flaws of generative model evaluation metrics and their unfair treatment of diffusion models](https://arxiv.org/abs/2306.04675v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/layer6ai-labs/dgm-eval)",
+        "p": {
+          "name": "Exposing flaws of generative model evaluation metrics and their unfair treatment of diffusion models",
+          "link": "https://arxiv.org/abs/2306.04675v2"
+        },
+        "c": "https://github.com/layer6ai-labs/dgm-eval",
         "n": "StyleSwin (Exposing)",
         "d": "2023-06-07",
         "m1": "2.89",
@@ -155,36 +188,51 @@
         "m7": "0.64"
       },
       {
-        "p": "[Improved Transformer for High-Resolution GANs](https://arxiv.org/abs/2106.07631v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/hit-gan)",
+        "p": {
+          "name": "Improved Transformer for High-Resolution GANs",
+          "link": "https://arxiv.org/abs/2106.07631v3"
+        },
+        "c": "https://github.com/google-research/hit-gan",
         "n": "HiT-B",
         "d": "2021-06-14",
         "m1": "2.95"
       },
       {
-        "p": "[Improved Transformer for High-Resolution GANs](https://arxiv.org/abs/2106.07631v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/hit-gan)",
+        "p": {
+          "name": "Improved Transformer for High-Resolution GANs",
+          "link": "https://arxiv.org/abs/2106.07631v3"
+        },
+        "c": "https://github.com/google-research/hit-gan",
         "n": "HiT-S",
         "d": "2021-06-14",
         "m1": "3.06"
       },
       {
-        "p": "[Data-Efficient Instance Generation from Instance Discrimination](https://arxiv.org/abs/2106.04566v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/genforce/insgen)",
+        "p": {
+          "name": "Data-Efficient Instance Generation from Instance Discrimination",
+          "link": "https://arxiv.org/abs/2106.04566v1"
+        },
+        "c": "https://github.com/genforce/insgen",
         "n": "InsGen",
         "d": "2021-06-08",
         "m1": "3.31"
       },
       {
-        "p": "[Anycost GANs for Interactive Image Synthesis and Editing](https://arxiv.org/abs/2103.03243v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/mit-han-lab/anycost-gan)",
+        "p": {
+          "name": "Anycost GANs for Interactive Image Synthesis and Editing",
+          "link": "https://arxiv.org/abs/2103.03243v1"
+        },
+        "c": "https://github.com/mit-han-lab/anycost-gan",
         "n": "Anycost GAN",
         "d": "2021-03-04",
         "m1": "3.35"
       },
       {
-        "p": "[CLR-GAN: Improving GANs Stability and Quality via Consistent Latent Representation and Reconstruction](https://link.springer.com/chapter/10.1007/978-3-031-73232-4_12)",
-        "c": "[&check;&nbsp;Link](https://github.com/Petecheco/CLR-GAN)",
+        "p": {
+          "name": "CLR-GAN: Improving GANs Stability and Quality via Consistent Latent Representation and Reconstruction",
+          "link": "https://link.springer.com/chapter/10.1007/978-3-031-73232-4_12"
+        },
+        "c": "https://github.com/Petecheco/CLR-GAN",
         "n": "CLR-GAN",
         "d": "2024-09-30",
         "m1": "3.37",
@@ -192,8 +240,11 @@
         "m4": "0.44"
       },
       {
-        "p": "[Projected GANs Converge Faster](https://arxiv.org/abs/2111.01007v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/autonomousvision/projected_gan)",
+        "p": {
+          "name": "Projected GANs Converge Faster",
+          "link": "https://arxiv.org/abs/2111.01007v1"
+        },
+        "c": "https://github.com/autonomousvision/projected_gan",
         "n": "Projected-GAN (Official)",
         "d": "2021-11-01",
         "m1": "3.39",
@@ -201,8 +252,11 @@
         "m4": "0.464"
       },
       {
-        "p": "[Exposing flaws of generative model evaluation metrics and their unfair treatment of diffusion models](https://arxiv.org/abs/2306.04675v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/layer6ai-labs/dgm-eval)",
+        "p": {
+          "name": "Exposing flaws of generative model evaluation metrics and their unfair treatment of diffusion models",
+          "link": "https://arxiv.org/abs/2306.04675v2"
+        },
+        "c": "https://github.com/layer6ai-labs/dgm-eval",
         "n": "InsGen (Exposing)",
         "d": "2023-06-07",
         "m1": "3.46",
@@ -212,22 +266,31 @@
         "m7": "0.51"
       },
       {
-        "p": "[Regularizing Generative Adversarial Networks under Limited Data](https://arxiv.org/abs/2104.03310v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/google/lecam-gan)",
+        "p": {
+          "name": "Regularizing Generative Adversarial Networks under Limited Data",
+          "link": "https://arxiv.org/abs/2104.03310v1"
+        },
+        "c": "https://github.com/google/lecam-gan",
         "n": "LeCAM (StyleGAN2 + ADA)",
         "d": "2021-04-07",
         "m1": "3.49"
       },
       {
-        "p": "[Training Generative Adversarial Networks with Limited Data](https://arxiv.org/abs/2006.06676v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/NVlabs/stylegan2-ada-pytorch)",
+        "p": {
+          "name": "Training Generative Adversarial Networks with Limited Data",
+          "link": "https://arxiv.org/abs/2006.06676v2"
+        },
+        "c": "https://github.com/NVlabs/stylegan2-ada-pytorch",
         "n": "StyleGAN2 + ADA",
         "d": "2020-06-11",
         "m1": "3.62"
       },
       {
-        "p": "[Exposing flaws of generative model evaluation metrics and their unfair treatment of diffusion models](https://arxiv.org/abs/2306.04675v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/layer6ai-labs/dgm-eval)",
+        "p": {
+          "name": "Exposing flaws of generative model evaluation metrics and their unfair treatment of diffusion models",
+          "link": "https://arxiv.org/abs/2306.04675v2"
+        },
+        "c": "https://github.com/layer6ai-labs/dgm-eval",
         "n": "Projected-GAN (Exposing)",
         "d": "2023-06-07",
         "m1": "4.29",
@@ -238,36 +301,51 @@
         "m7": "0.30"
       },
       {
-        "p": "[Image Generators with Conditionally-Independent Pixel Synthesis](https://arxiv.org/abs/2011.13775v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/saic-mdal/CIPS)",
+        "p": {
+          "name": "Image Generators with Conditionally-Independent Pixel Synthesis",
+          "link": "https://arxiv.org/abs/2011.13775v1"
+        },
+        "c": "https://github.com/saic-mdal/CIPS",
         "n": "CIPS",
         "d": "2020-11-27",
         "m1": "4.38"
       },
       {
-        "p": "[Flow Matching in Latent Space](https://arxiv.org/abs/2307.08698v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/vinairesearch/lfm)",
+        "p": {
+          "name": "Flow Matching in Latent Space",
+          "link": "https://arxiv.org/abs/2307.08698v1"
+        },
+        "c": "https://github.com/vinairesearch/lfm",
         "n": "LFM",
         "d": "2023-07-17",
         "m1": "4.55"
       },
       {
-        "p": "[Adversarial Generation of Continuous Images](https://arxiv.org/abs/2011.12026v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/universome/inr-gan)",
+        "p": {
+          "name": "Adversarial Generation of Continuous Images",
+          "link": "https://arxiv.org/abs/2011.12026v2"
+        },
+        "c": "https://github.com/universome/inr-gan",
         "n": "INR-GAN-bil",
         "d": "2020-11-24",
         "m1": "4.95"
       },
       {
-        "p": "[SWAGAN: A Style-based Wavelet-driven Generative Model](https://arxiv.org/abs/2102.06108v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/rinongal/swagan)",
+        "p": {
+          "name": "SWAGAN: A Style-based Wavelet-driven Generative Model",
+          "link": "https://arxiv.org/abs/2102.06108v1"
+        },
+        "c": "https://github.com/rinongal/swagan",
         "n": "SWAGAN-Bi",
         "d": "2021-02-11",
         "m1": "5.22"
       },
       {
-        "p": "[Exposing flaws of generative model evaluation metrics and their unfair treatment of diffusion models](https://arxiv.org/abs/2306.04675v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/layer6ai-labs/dgm-eval)",
+        "p": {
+          "name": "Exposing flaws of generative model evaluation metrics and their unfair treatment of diffusion models",
+          "link": "https://arxiv.org/abs/2306.04675v2"
+        },
+        "c": "https://github.com/layer6ai-labs/dgm-eval",
         "n": "StyleGAN2-ada (Exposing)",
         "d": "2023-06-07",
         "m1": "5.30",
@@ -278,43 +356,61 @@
         "m7": "0.39"
       },
       {
-        "p": "[Soft Truncation: A Universal Training Technique of Score-based Diffusion Model for High Precision Score Estimation](https://arxiv.org/abs/2106.05527v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/Kim-Dongjun/Soft-Truncation)",
+        "p": {
+          "name": "Soft Truncation: A Universal Training Technique of Score-based Diffusion Model for High Precision Score Estimation",
+          "link": "https://arxiv.org/abs/2106.05527v5"
+        },
+        "c": "https://github.com/Kim-Dongjun/Soft-Truncation",
         "n": "UDM (RVE) + ST",
         "d": "2021-06-10",
         "m1": "5.54"
       },
       {
-        "p": "[Unleashing Transformers: Parallel Token Prediction with Discrete Absorbing Diffusion for Fast High-Resolution Image Generation from Vector-Quantized Codes](https://arxiv.org/abs/2111.12701v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/samb-t/unleashing-transformers)",
+        "p": {
+          "name": "Unleashing Transformers: Parallel Token Prediction with Discrete Absorbing Diffusion for Fast High-Resolution Image Generation from Vector-Quantized Codes",
+          "link": "https://arxiv.org/abs/2111.12701v1"
+        },
+        "c": "https://github.com/samb-t/unleashing-transformers",
         "n": "Unleashing Transformers",
         "d": "2021-11-24",
         "m1": "6.11"
       },
       {
-        "p": "[Generative Adversarial Transformers](https://arxiv.org/abs/2103.01209v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/dorarad/gansformer)",
+        "p": {
+          "name": "Generative Adversarial Transformers",
+          "link": "https://arxiv.org/abs/2103.01209v4"
+        },
+        "c": "https://github.com/dorarad/gansformer",
         "n": "GANFormer",
         "d": "2021-03-01",
         "m1": "7.42"
       },
       {
-        "p": "[A U-Net Based Discriminator for Generative Adversarial Networks](https://arxiv.org/abs/2002.12655v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/boschresearch/unetgan)",
+        "p": {
+          "name": "A U-Net Based Discriminator for Generative Adversarial Networks",
+          "link": "https://arxiv.org/abs/2002.12655v2"
+        },
+        "c": "https://github.com/boschresearch/unetgan",
         "n": "U-Net GAN",
         "d": "2020-02-28",
         "m1": "7.48"
       },
       {
-        "p": "[Compositional Transformers for Scene Generation](http://proceedings.neurips.cc/paper/2021/hash/4eff0720836a198b6174eecf02cbfdbf-Abstract.html)",
-        "c": "[&check;&nbsp;Link](https://github.com/dorarad/gansformer)",
+        "p": {
+          "name": "Compositional Transformers for Scene Generation",
+          "link": "http://proceedings.neurips.cc/paper/2021/hash/4eff0720836a198b6174eecf02cbfdbf-Abstract.html"
+        },
+        "c": "https://github.com/dorarad/gansformer",
         "n": "GANFormer2",
         "d": "2021-12-01",
         "m1": "7.77"
       },
       {
-        "p": "[Exposing flaws of generative model evaluation metrics and their unfair treatment of diffusion models](https://arxiv.org/abs/2306.04675v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/layer6ai-labs/dgm-eval)",
+        "p": {
+          "name": "Exposing flaws of generative model evaluation metrics and their unfair treatment of diffusion models",
+          "link": "https://arxiv.org/abs/2306.04675v2"
+        },
+        "c": "https://github.com/layer6ai-labs/dgm-eval",
         "n": "LDM (Exposing)",
         "d": "2023-06-07",
         "m1": "8.11",
@@ -332,8 +428,11 @@
         "m1": "8.11"
       },
       {
-        "p": "[Exposing flaws of generative model evaluation metrics and their unfair treatment of diffusion models](https://arxiv.org/abs/2306.04675v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/layer6ai-labs/dgm-eval)",
+        "p": {
+          "name": "Exposing flaws of generative model evaluation metrics and their unfair treatment of diffusion models",
+          "link": "https://arxiv.org/abs/2306.04675v2"
+        },
+        "c": "https://github.com/layer6ai-labs/dgm-eval",
         "n": "Unleash-Trans (Exposing)",
         "d": "2023-06-07",
         "m1": "9.02",
@@ -344,36 +443,51 @@
         "m7": "0.53"
       },
       {
-        "p": "[Taming Transformers for High-Resolution Image Synthesis](https://arxiv.org/abs/2012.09841v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/CompVis/taming-transformers)",
+        "p": {
+          "name": "Taming Transformers for High-Resolution Image Synthesis",
+          "link": "https://arxiv.org/abs/2012.09841v3"
+        },
+        "c": "https://github.com/CompVis/taming-transformers",
         "n": "VQGAN+Transformer",
         "d": "2020-12-17",
         "m1": "9.6"
       },
       {
-        "p": "[A U-Net Based Discriminator for Generative Adversarial Networks](https://arxiv.org/abs/2002.12655v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/boschresearch/unetgan)",
+        "p": {
+          "name": "A U-Net Based Discriminator for Generative Adversarial Networks",
+          "link": "https://arxiv.org/abs/2002.12655v2"
+        },
+        "c": "https://github.com/boschresearch/unetgan",
         "n": "BigGAN",
         "d": "2020-02-28",
         "m1": "11.48"
       },
       {
-        "p": "[Gotta Go Fast When Generating Data with Score-Based Models](https://arxiv.org/abs/2105.14080v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/AlexiaJM/score_sde_fast_sampling)",
+        "p": {
+          "name": "Gotta Go Fast When Generating Data with Score-Based Models",
+          "link": "https://arxiv.org/abs/2105.14080v1"
+        },
+        "c": "https://github.com/AlexiaJM/score_sde_fast_sampling",
         "n": "VE (erel=0.01)",
         "d": "2021-05-28",
         "m1": "15.67"
       },
       {
-        "p": "[Gotta Go Fast When Generating Data with Score-Based Models](https://arxiv.org/abs/2105.14080v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/AlexiaJM/score_sde_fast_sampling)",
+        "p": {
+          "name": "Gotta Go Fast When Generating Data with Score-Based Models",
+          "link": "https://arxiv.org/abs/2105.14080v1"
+        },
+        "c": "https://github.com/AlexiaJM/score_sde_fast_sampling",
         "n": "VE (erel=0.02)",
         "d": "2021-05-28",
         "m1": "15.67"
       },
       {
-        "p": "[Exposing flaws of generative model evaluation metrics and their unfair treatment of diffusion models](https://arxiv.org/abs/2306.04675v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/layer6ai-labs/dgm-eval)",
+        "p": {
+          "name": "Exposing flaws of generative model evaluation metrics and their unfair treatment of diffusion models",
+          "link": "https://arxiv.org/abs/2306.04675v2"
+        },
+        "c": "https://github.com/layer6ai-labs/dgm-eval",
         "n": "Efficient-vdVAE (Exposing)",
         "d": "2023-06-07",
         "m1": "34.88",
@@ -384,8 +498,11 @@
         "m7": "0.54"
       },
       {
-        "p": "[Efficient-VDVAE: Less is more](https://arxiv.org/abs/2203.13751v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/Rayhane-mamah/Efficient-VDVAE)",
+        "p": {
+          "name": "Efficient-VDVAE: Less is more",
+          "link": "https://arxiv.org/abs/2203.13751v2"
+        },
+        "c": "https://github.com/Rayhane-mamah/Efficient-VDVAE",
         "n": "Efficient-VDVAE",
         "d": "2022-03-25",
         "m1": "34.88",
@@ -401,8 +518,11 @@
         "m4": "0.76"
       },
       {
-        "p": "[StyleNAT: Giving Each Head a New Perspective](https://arxiv.org/abs/2211.05770v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/SHI-Labs/Neighborhood-Attention-Transformer)",
+        "p": {
+          "name": "StyleNAT: Giving Each Head a New Perspective",
+          "link": "https://arxiv.org/abs/2211.05770v2"
+        },
+        "c": "https://github.com/SHI-Labs/Neighborhood-Attention-Transformer",
         "n": "StyleNAT (DINOv2)",
         "d": "2022-11-10",
         "m2": "229.72",
@@ -410,8 +530,11 @@
         "m4": "0.41"
       },
       {
-        "p": "[StyleGAN-XL: Scaling StyleGAN to Large Diverse Datasets](https://arxiv.org/abs/2202.00273v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/autonomousvision/stylegan-xl)",
+        "p": {
+          "name": "StyleGAN-XL: Scaling StyleGAN to Large Diverse Datasets",
+          "link": "https://arxiv.org/abs/2202.00273v2"
+        },
+        "c": "https://github.com/autonomousvision/stylegan-xl",
         "n": "StyleGAN-XL (DINOv2)",
         "d": "2022-02-01",
         "m2": "240.07",
@@ -419,8 +542,11 @@
         "m4": "0.43"
       },
       {
-        "p": "[StyleSwin: Transformer-based GAN for High-resolution Image Generation](https://arxiv.org/abs/2112.10762v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/microsoft/StyleSwin)",
+        "p": {
+          "name": "StyleSwin: Transformer-based GAN for High-resolution Image Generation",
+          "link": "https://arxiv.org/abs/2112.10762v2"
+        },
+        "c": "https://github.com/microsoft/StyleSwin",
         "n": "StyleSwin (DINOv2)",
         "d": "2021-12-20",
         "m2": "300.18",
@@ -428,8 +554,11 @@
         "m4": "0.28"
       },
       {
-        "p": "[Unleashing Transformers: Parallel Token Prediction with Discrete Absorbing Diffusion for Fast High-Resolution Image Generation from Vector-Quantized Codes](https://arxiv.org/abs/2111.12701v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/samb-t/unleashing-transformers)",
+        "p": {
+          "name": "Unleashing Transformers: Parallel Token Prediction with Discrete Absorbing Diffusion for Fast High-Resolution Image Generation from Vector-Quantized Codes",
+          "link": "https://arxiv.org/abs/2111.12701v1"
+        },
+        "c": "https://github.com/samb-t/unleashing-transformers",
         "n": "Unleashing Transformers (DINOv2)",
         "d": "2021-11-24",
         "m2": "393.45",
@@ -437,8 +566,11 @@
         "m4": "0.24"
       },
       {
-        "p": "[Data-Efficient Instance Generation from Instance Discrimination](https://arxiv.org/abs/2106.04566v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/genforce/insgen)",
+        "p": {
+          "name": "Data-Efficient Instance Generation from Instance Discrimination",
+          "link": "https://arxiv.org/abs/2106.04566v1"
+        },
+        "c": "https://github.com/genforce/insgen",
         "n": "InsGen (DINOv2)",
         "d": "2021-06-08",
         "m2": "436.26",
@@ -446,8 +578,11 @@
         "m4": "0.13"
       },
       {
-        "p": "[Efficient-VDVAE: Less is more](https://arxiv.org/abs/2203.13751v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/Rayhane-mamah/Efficient-VDVAE)",
+        "p": {
+          "name": "Efficient-VDVAE: Less is more",
+          "link": "https://arxiv.org/abs/2203.13751v2"
+        },
+        "c": "https://github.com/Rayhane-mamah/Efficient-VDVAE",
         "n": "Efficient-VDVAE (DINOv2)",
         "d": "2022-03-25",
         "m2": "514.16",
@@ -455,8 +590,11 @@
         "m4": "0.14"
       },
       {
-        "p": "[Training Generative Adversarial Networks with Limited Data](https://arxiv.org/abs/2006.06676v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/NVlabs/stylegan2-ada-pytorch)",
+        "p": {
+          "name": "Training Generative Adversarial Networks with Limited Data",
+          "link": "https://arxiv.org/abs/2006.06676v2"
+        },
+        "c": "https://github.com/NVlabs/stylegan2-ada-pytorch",
         "n": "StyleGAN2 + ADA (DINOv2)",
         "d": "2020-06-11",
         "m2": "514.78",
@@ -473,15 +611,21 @@
         "m4": "0.07"
       },
       {
-        "p": "[Very Deep VAEs Generalize Autoregressive Models and Can Outperform Them on Images](https://arxiv.org/abs/2011.10650v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/openai/vdvae)",
+        "p": {
+          "name": "Very Deep VAEs Generalize Autoregressive Models and Can Outperform Them on Images",
+          "link": "https://arxiv.org/abs/2011.10650v2"
+        },
+        "c": "https://github.com/openai/vdvae",
         "n": "Very Deep VAE",
         "d": "2020-11-20",
         "m5": "0.61"
       },
       {
-        "p": "[NVAE: A Deep Hierarchical Variational Autoencoder](https://arxiv.org/abs/2007.03898v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/NVlabs/NVAE)",
+        "p": {
+          "name": "NVAE: A Deep Hierarchical Variational Autoencoder",
+          "link": "https://arxiv.org/abs/2007.03898v3"
+        },
+        "c": "https://github.com/NVlabs/NVAE",
         "n": "NVAE w/ flow",
         "d": "2020-07-08",
         "m5": "0.69"

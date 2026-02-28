@@ -33,183 +33,261 @@
     ],
     "items": [
       {
-        "p": "[Maverick: Efficient and Accurate Coreference Resolution Defying Recent Trends](https://arxiv.org/abs/2407.21489v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/sapienzanlp/maverick-coref)",
+        "p": {
+          "name": "Maverick: Efficient and Accurate Coreference Resolution Defying Recent Trends",
+          "link": "https://arxiv.org/abs/2407.21489v1"
+        },
+        "c": "https://github.com/sapienzanlp/maverick-coref",
         "n": "Maverick_mes",
         "d": "2024-07-31",
         "m1": "83.6"
       },
       {
-        "p": "[Coreference Resolution through a seq2seq Transition-Based System](https://arxiv.org/abs/2211.12142v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research)",
+        "p": {
+          "name": "Coreference Resolution through a seq2seq Transition-Based System",
+          "link": "https://arxiv.org/abs/2211.12142v1"
+        },
+        "c": "https://github.com/google-research/google-research",
         "n": "seq2seq",
         "d": "2022-11-22",
         "m1": "83.3"
       },
       {
-        "p": "[Autoregressive Structured Prediction with Language Models](https://arxiv.org/abs/2210.14698v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/lyutyuh/asp)",
+        "p": {
+          "name": "Autoregressive Structured Prediction with Language Models",
+          "link": "https://arxiv.org/abs/2210.14698v2"
+        },
+        "c": "https://github.com/lyutyuh/asp",
         "n": "ASP+T0-3B",
         "d": "2022-10-26",
         "m1": "82.3"
       },
       {
-        "p": "[CAW-coref: Conjunction-Aware Word-level Coreference Resolution](https://arxiv.org/abs/2310.06165v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/kareldo/wl-coref)",
+        "p": {
+          "name": "CAW-coref: Conjunction-Aware Word-level Coreference Resolution",
+          "link": "https://arxiv.org/abs/2310.06165v2"
+        },
+        "c": "https://github.com/kareldo/wl-coref",
         "n": "caw-coref + RoBERTa",
         "d": "2023-10-09",
         "m1": "81.6"
       },
       {
-        "p": "[LingMess: Linguistically Informed Multi Expert Scorers for Coreference Resolution](https://arxiv.org/abs/2205.12644v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/shon-otmazgin/fastcoref)",
+        "p": {
+          "name": "LingMess: Linguistically Informed Multi Expert Scorers for Coreference Resolution",
+          "link": "https://arxiv.org/abs/2205.12644v3"
+        },
+        "c": "https://github.com/shon-otmazgin/fastcoref",
         "n": "LingMess",
         "d": "2022-05-25",
         "m1": "81.4"
       },
       {
-        "p": "[Word-Level Coreference Resolution](https://arxiv.org/abs/2109.04127v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/vdobrovolskii/wl-coref)",
+        "p": {
+          "name": "Word-Level Coreference Resolution",
+          "link": "https://arxiv.org/abs/2109.04127v1"
+        },
+        "c": "https://github.com/vdobrovolskii/wl-coref",
         "n": "wl-coref + RoBERTa",
         "d": "2021-09-09",
         "m1": "81"
       },
       {
-        "p": "[Efficient and Interpretable Neural Models for Entity Tracking](https://arxiv.org/abs/2208.14252v1)",
+        "p": {
+          "name": "Efficient and Interpretable Neural Models for Entity Tracking",
+          "link": "https://arxiv.org/abs/2208.14252v1"
+        },
         "c": "",
         "n": "U-MEM + Longformer",
         "d": "2022-08-30",
         "m1": "80.9"
       },
       {
-        "p": "[On Generalization in Coreference Resolution](https://arxiv.org/abs/2109.09667v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/shtoshni/fast-coref)",
+        "p": {
+          "name": "On Generalization in Coreference Resolution",
+          "link": "https://arxiv.org/abs/2109.09667v1"
+        },
+        "c": "https://github.com/shtoshni/fast-coref",
         "n": "longdoc S (OntoNotes + 60k pseudo-singletons)",
         "d": "2021-09-20",
         "m1": "80.6"
       },
       {
-        "p": "[Graph Refinement for Coreference Resolution](https://arxiv.org/abs/2203.16574v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/idiap/g2g-transformer)",
+        "p": {
+          "name": "Graph Refinement for Coreference Resolution",
+          "link": "https://arxiv.org/abs/2203.16574v1"
+        },
+        "c": "https://github.com/idiap/g2g-transformer",
         "n": "G2GT SpanBERT-large reduced",
         "d": "2022-03-30",
         "m1": "80.5"
       },
       {
-        "p": "[Graph Refinement for Coreference Resolution](https://arxiv.org/abs/2203.16574v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/idiap/g2g-transformer)",
+        "p": {
+          "name": "Graph Refinement for Coreference Resolution",
+          "link": "https://arxiv.org/abs/2203.16574v1"
+        },
+        "c": "https://github.com/idiap/g2g-transformer",
         "n": "G2GT SpanBERT-large overlap",
         "d": "2022-03-30",
         "m1": "80.2"
       },
       {
-        "p": "[SpanBERT: Improving Pre-training by Representing and Predicting Spans](https://arxiv.org/abs/1907.10529v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/SpanBERT)",
+        "p": {
+          "name": "SpanBERT: Improving Pre-training by Representing and Predicting Spans",
+          "link": "https://arxiv.org/abs/1907.10529v3"
+        },
+        "c": "https://github.com/facebookresearch/SpanBERT",
         "n": "SpanBERT",
         "d": "2019-07-24",
         "m1": "79.6"
       },
       {
-        "p": "[Learning to Ignore: Long Document Coreference with Bounded Memory Neural Networks](https://arxiv.org/abs/2010.02807v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/shtoshni/fast-coref)",
+        "p": {
+          "name": "Learning to Ignore: Long Document Coreference with Bounded Memory Neural Networks",
+          "link": "https://arxiv.org/abs/2010.02807v3"
+        },
+        "c": "https://github.com/shtoshni/fast-coref",
         "n": "U-MEM* + SpanBERT",
         "d": "2020-10-06",
         "m1": "79.6"
       },
       {
-        "p": "[On Generalization in Coreference Resolution](https://arxiv.org/abs/2109.09667v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/shtoshni/fast-coref)",
+        "p": {
+          "name": "On Generalization in Coreference Resolution",
+          "link": "https://arxiv.org/abs/2109.09667v1"
+        },
+        "c": "https://github.com/shtoshni/fast-coref",
         "n": "longdoc S (ON + PreCo + LitBank + 30k pseudo-singletons)",
         "d": "2021-09-20",
         "m1": "79.6"
       },
       {
-        "p": "[On Generalization in Coreference Resolution](https://arxiv.org/abs/2109.09667v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/shtoshni/fast-coref)",
+        "p": {
+          "name": "On Generalization in Coreference Resolution",
+          "link": "https://arxiv.org/abs/2109.09667v1"
+        },
+        "c": "https://github.com/shtoshni/fast-coref",
         "n": "longdoc S (OntoNotes + PreCo + LitBank)",
         "d": "2021-09-20",
         "m1": "79.2"
       },
       {
-        "p": "[BERT for Coreference Resolution: Baselines and Analysis](https://arxiv.org/abs/1908.09091v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/mandarjoshi90/coref)",
+        "p": {
+          "name": "BERT for Coreference Resolution: Baselines and Analysis",
+          "link": "https://arxiv.org/abs/1908.09091v4"
+        },
+        "c": "https://github.com/mandarjoshi90/coref",
         "n": "BERT-large",
         "d": "2019-08-24",
         "m1": "76.9"
       },
       {
-        "p": "[Coreference Resolution with Entity Equalization](https://aclanthology.org/P19-1066)",
-        "c": "[&check;&nbsp;Link](https://github.com/kkjawz/coref-ee)",
+        "p": {
+          "name": "Coreference Resolution with Entity Equalization",
+          "link": "https://aclanthology.org/P19-1066"
+        },
+        "c": "https://github.com/kkjawz/coref-ee",
         "n": "BERT + EE",
         "d": "2019-07-01",
         "m1": "76.61"
       },
       {
-        "p": "[BERT for Coreference Resolution: Baselines and Analysis](https://arxiv.org/abs/1908.09091v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/mandarjoshi90/coref)",
+        "p": {
+          "name": "BERT for Coreference Resolution: Baselines and Analysis",
+          "link": "https://arxiv.org/abs/1908.09091v4"
+        },
+        "c": "https://github.com/mandarjoshi90/coref",
         "n": "BERT-base",
         "d": "2019-08-24",
         "m1": "73.9"
       },
       {
-        "p": "[End-to-end Deep Reinforcement Learning Based Coreference Resolution](https://aclanthology.org/P19-1064)",
+        "p": {
+          "name": "End-to-end Deep Reinforcement Learning Based Coreference Resolution",
+          "link": "https://aclanthology.org/P19-1064"
+        },
         "c": "",
         "n": "Reinforced + ELMo",
         "d": "2019-07-01",
         "m1": "73.8"
       },
       {
-        "p": "[Higher-order Coreference Resolution with Coarse-to-fine Inference](http://arxiv.org/abs/1804.05392v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/kentonl/e2e-coref)",
+        "p": {
+          "name": "Higher-order Coreference Resolution with Coarse-to-fine Inference",
+          "link": "http://arxiv.org/abs/1804.05392v1"
+        },
+        "c": "https://github.com/kentonl/e2e-coref",
         "n": "c2f-coref",
         "d": "2018-04-15",
         "m1": "73.0"
       },
       {
-        "p": "[Higher-order Coreference Resolution with Coarse-to-fine Inference](http://arxiv.org/abs/1804.05392v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/kentonl/e2e-coref)",
+        "p": {
+          "name": "Higher-order Coreference Resolution with Coarse-to-fine Inference",
+          "link": "http://arxiv.org/abs/1804.05392v1"
+        },
+        "c": "https://github.com/kentonl/e2e-coref",
         "n": "e2e-coref + ELMo + hyperparameter tuning",
         "d": "2018-04-15",
         "m1": "72.3"
       },
       {
-        "p": "[Deep contextualized word representations](http://arxiv.org/abs/1802.05365v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/flairNLP/flair)",
+        "p": {
+          "name": "Deep contextualized word representations",
+          "link": "http://arxiv.org/abs/1802.05365v2"
+        },
+        "c": "https://github.com/flairNLP/flair",
         "n": "e2e-coref + ELMo",
         "d": "2018-02-15",
         "m1": "70.4"
       },
       {
-        "p": "[Learning Word Representations with Cross-Sentence Dependency for End-to-End Co-reference Resolution](https://aclanthology.org/D18-1518)",
-        "c": "[&check;&nbsp;Link](https://github.com/luohongyin/coatt-coref)",
+        "p": {
+          "name": "Learning Word Representations with Cross-Sentence Dependency for End-to-End Co-reference Resolution",
+          "link": "https://aclanthology.org/D18-1518"
+        },
+        "c": "https://github.com/luohongyin/coatt-coref",
         "n": "E2E-CR + ASL",
         "d": "2018-10-01",
         "m1": "67.8"
       },
       {
-        "p": "[End-to-end Neural Coreference Resolution](http://arxiv.org/abs/1707.07045v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/kentonl/e2e-coref)",
+        "p": {
+          "name": "End-to-end Neural Coreference Resolution",
+          "link": "http://arxiv.org/abs/1707.07045v2"
+        },
+        "c": "https://github.com/kentonl/e2e-coref",
         "n": "e2e-coref",
         "d": "2017-07-21",
         "m1": "67.2"
       },
       {
-        "p": "[Deep Reinforcement Learning for Mention-Ranking Coreference Models](http://arxiv.org/abs/1609.08667v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/clarkkev/deep-coref)",
+        "p": {
+          "name": "Deep Reinforcement Learning for Mention-Ranking Coreference Models",
+          "link": "http://arxiv.org/abs/1609.08667v3"
+        },
+        "c": "https://github.com/clarkkev/deep-coref",
         "n": "Reward Rescaling",
         "d": "2016-09-27",
         "m1": "65.73"
       },
       {
-        "p": "[Improving Coreference Resolution by Learning Entity-Level Distributed Representations](http://arxiv.org/abs/1606.01323v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/clarkkev/deep-coref)",
+        "p": {
+          "name": "Improving Coreference Resolution by Learning Entity-Level Distributed Representations",
+          "link": "http://arxiv.org/abs/1606.01323v2"
+        },
+        "c": "https://github.com/clarkkev/deep-coref",
         "n": "NN Cluster Ranker",
         "d": "2016-06-04",
         "m1": "65.29"
       },
       {
-        "p": "[Learning Global Features for Coreference Resolution](http://arxiv.org/abs/1604.03035v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/swiseman/nn_coref)",
+        "p": {
+          "name": "Learning Global Features for Coreference Resolution",
+          "link": "http://arxiv.org/abs/1604.03035v1"
+        },
+        "c": "https://github.com/swiseman/nn_coref",
         "n": "Global",
         "d": "2016-04-11",
         "m1": "64.21"

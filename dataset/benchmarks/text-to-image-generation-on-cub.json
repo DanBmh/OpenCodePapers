@@ -38,22 +38,31 @@
     ],
     "items": [
       {
-        "p": "[Data Extrapolation for Text-to-image Generation on Small Datasets](https://arxiv.org/abs/2410.01638v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/senmaoy/RAT-Diffusion)",
+        "p": {
+          "name": "Data Extrapolation for Text-to-image Generation on Small Datasets",
+          "link": "https://arxiv.org/abs/2410.01638v1"
+        },
+        "c": "https://github.com/senmaoy/RAT-Diffusion",
         "n": "RAT-Diffusion",
         "d": "2024-10-02",
         "m1": "6.36",
         "m2": "6.56"
       },
       {
-        "p": "[Truncated Diffusion Probabilistic Models and Diffusion-based Adversarial Auto-Encoders](https://arxiv.org/abs/2202.09671v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/jegzheng/truncated-diffusion-probabilistic-models)",
+        "p": {
+          "name": "Truncated Diffusion Probabilistic Models and Diffusion-based Adversarial Auto-Encoders",
+          "link": "https://arxiv.org/abs/2202.09671v4"
+        },
+        "c": "https://github.com/jegzheng/truncated-diffusion-probabilistic-models",
         "n": "TLDM",
         "d": "2022-02-19",
         "m1": "6.72"
       },
       {
-        "p": "[Swinv2-Imagen: Hierarchical Vision Transformer Diffusion Models for Text-to-Image Generation](https://arxiv.org/abs/2210.09549v1)",
+        "p": {
+          "name": "Swinv2-Imagen: Hierarchical Vision Transformer Diffusion Models for Text-to-Image Generation",
+          "link": "https://arxiv.org/abs/2210.09549v1"
+        },
         "c": "",
         "n": "Swinv2-Imagen",
         "d": "2022-10-18",
@@ -61,83 +70,116 @@
         "m2": "8.44"
       },
       {
-        "p": "[GALIP: Generative Adversarial CLIPs for Text-to-Image Synthesis](https://arxiv.org/abs/2301.12959v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/tobran/DF-GAN)",
+        "p": {
+          "name": "GALIP: Generative Adversarial CLIPs for Text-to-Image Synthesis",
+          "link": "https://arxiv.org/abs/2301.12959v1"
+        },
+        "c": "https://github.com/tobran/DF-GAN",
         "n": "GALIP",
         "d": "2023-01-30",
         "m1": "10.08"
       },
       {
-        "p": "[Recurrent Affine Transformation for Text-to-image Synthesis](https://arxiv.org/abs/2204.10482v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/senmaoy/recurrent-affine-transformation-for-text-to-image-synthesis)",
+        "p": {
+          "name": "Recurrent Affine Transformation for Text-to-image Synthesis",
+          "link": "https://arxiv.org/abs/2204.10482v1"
+        },
+        "c": "https://github.com/senmaoy/recurrent-affine-transformation-for-text-to-image-synthesis",
         "n": "RAT-GAN",
         "d": "2022-04-22",
         "m1": "10.21",
         "m2": "5.36"
       },
       {
-        "p": "[Vector Quantized Diffusion Model for Text-to-Image Synthesis](https://arxiv.org/abs/2111.14822v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/microsoft/vq-diffusion)",
+        "p": {
+          "name": "Vector Quantized Diffusion Model for Text-to-Image Synthesis",
+          "link": "https://arxiv.org/abs/2111.14822v3"
+        },
+        "c": "https://github.com/microsoft/vq-diffusion",
         "n": "VQ-Diffusion-F",
         "d": "2021-11-29",
         "m1": "10.32"
       },
       {
-        "p": "[LAFITE: Towards Language-Free Training for Text-to-Image Generation](https://arxiv.org/abs/2111.13792v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/drboog/Lafite)",
+        "p": {
+          "name": "LAFITE: Towards Language-Free Training for Text-to-Image Generation",
+          "link": "https://arxiv.org/abs/2111.13792v3"
+        },
+        "c": "https://github.com/drboog/Lafite",
         "n": "Lafite",
         "d": "2021-11-27",
         "m1": "10.48",
         "m2": "5.97"
       },
       {
-        "p": "[Vector Quantized Diffusion Model for Text-to-Image Synthesis](https://arxiv.org/abs/2111.14822v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/microsoft/vq-diffusion)",
+        "p": {
+          "name": "Vector Quantized Diffusion Model for Text-to-Image Synthesis",
+          "link": "https://arxiv.org/abs/2111.14822v3"
+        },
+        "c": "https://github.com/microsoft/vq-diffusion",
         "n": "VQ-Diffusion-B",
         "d": "2021-11-29",
         "m1": "11.94"
       },
       {
-        "p": "[Vector Quantized Diffusion Model for Text-to-Image Synthesis](https://arxiv.org/abs/2111.14822v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/microsoft/vq-diffusion)",
+        "p": {
+          "name": "Vector Quantized Diffusion Model for Text-to-Image Synthesis",
+          "link": "https://arxiv.org/abs/2111.14822v3"
+        },
+        "c": "https://github.com/microsoft/vq-diffusion",
         "n": "VQ-Diffusion-S",
         "d": "2021-11-29",
         "m1": "12.97"
       },
       {
-        "p": "[Improving Text-to-Image Synthesis Using Contrastive Learning](https://arxiv.org/abs/2107.02423v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/huiyegit/T2I_CL)",
+        "p": {
+          "name": "Improving Text-to-Image Synthesis Using Contrastive Learning",
+          "link": "https://arxiv.org/abs/2107.02423v2"
+        },
+        "c": "https://github.com/huiyegit/T2I_CL",
         "n": "DM-GAN+CL",
         "d": "2021-07-06",
         "m1": "14.38",
         "m2": "4.77"
       },
       {
-        "p": "[StackGAN++: Realistic Image Synthesis with Stacked Generative Adversarial Networks](http://arxiv.org/abs/1710.10916v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/hanzhanggit/StackGAN)",
+        "p": {
+          "name": "StackGAN++: Realistic Image Synthesis with Stacked Generative Adversarial Networks",
+          "link": "http://arxiv.org/abs/1710.10916v3"
+        },
+        "c": "https://github.com/hanzhanggit/StackGAN",
         "n": "StackGAN-v2",
         "d": "2017-10-19",
         "m1": "15.3",
         "m2": "3.82"
       },
       {
-        "p": "[Improving Text-to-Image Synthesis Using Contrastive Learning](https://arxiv.org/abs/2107.02423v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/huiyegit/T2I_CL)",
+        "p": {
+          "name": "Improving Text-to-Image Synthesis Using Contrastive Learning",
+          "link": "https://arxiv.org/abs/2107.02423v2"
+        },
+        "c": "https://github.com/huiyegit/T2I_CL",
         "n": "AttnGAN+CL",
         "d": "2021-07-06",
         "m1": "16.34",
         "m2": "4.42"
       },
       {
-        "p": "[StackGAN++: Realistic Image Synthesis with Stacked Generative Adversarial Networks](http://arxiv.org/abs/1710.10916v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/hanzhanggit/StackGAN)",
+        "p": {
+          "name": "StackGAN++: Realistic Image Synthesis with Stacked Generative Adversarial Networks",
+          "link": "http://arxiv.org/abs/1710.10916v3"
+        },
+        "c": "https://github.com/hanzhanggit/StackGAN",
         "n": "StackGAN-v1",
         "d": "2017-10-19",
         "m1": "51.89",
         "m2": "3.7"
       },
       {
-        "p": "[Learning What and Where to Draw](http://arxiv.org/abs/1610.02454v1)",
+        "p": {
+          "name": "Learning What and Where to Draw",
+          "link": "http://arxiv.org/abs/1610.02454v1"
+        },
         "c": "",
         "n": "GAWWN",
         "d": "2016-10-08",
@@ -145,8 +187,11 @@
         "m2": "3.62"
       },
       {
-        "p": "[DF-GAN: A Simple and Effective Baseline for Text-to-Image Synthesis](https://arxiv.org/abs/2008.05865v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/tobran/DF-GAN)",
+        "p": {
+          "name": "DF-GAN: A Simple and Effective Baseline for Text-to-Image Synthesis",
+          "link": "https://arxiv.org/abs/2008.05865v4"
+        },
+        "c": "https://github.com/tobran/DF-GAN",
         "n": "DF-GAN",
         "d": "2020-08-13",
         "m2": "4.86"
@@ -159,29 +204,41 @@
         "m2": "4.77"
       },
       {
-        "p": "[Controllable Text-to-Image Generation](https://arxiv.org/abs/1909.07083v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/mrlibw/ControlGAN)",
+        "p": {
+          "name": "Controllable Text-to-Image Generation",
+          "link": "https://arxiv.org/abs/1909.07083v2"
+        },
+        "c": "https://github.com/mrlibw/ControlGAN",
         "n": "Attention-driven Generator (perceptual loss)",
         "d": "2019-09-16",
         "m2": "4.58"
       },
       {
-        "p": "[MirrorGAN: Learning Text-to-image Generation by Redescription](http://arxiv.org/abs/1903.05854v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/komiya-m/MirrorGAN)",
+        "p": {
+          "name": "MirrorGAN: Learning Text-to-image Generation by Redescription",
+          "link": "http://arxiv.org/abs/1903.05854v1"
+        },
+        "c": "https://github.com/komiya-m/MirrorGAN",
         "n": "MirrorGAN",
         "d": "2019-03-14",
         "m2": "4.56"
       },
       {
-        "p": "[AttnGAN: Fine-Grained Text to Image Generation with Attentional Generative Adversarial Networks](http://arxiv.org/abs/1711.10485v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/taoxugit/AttnGAN)",
+        "p": {
+          "name": "AttnGAN: Fine-Grained Text to Image Generation with Attentional Generative Adversarial Networks",
+          "link": "http://arxiv.org/abs/1711.10485v1"
+        },
+        "c": "https://github.com/taoxugit/AttnGAN",
         "n": "AttnGAN",
         "d": "2017-11-28",
         "m2": "4.36"
       },
       {
-        "p": "[StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks](http://arxiv.org/abs/1612.03242v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/hanzhanggit/StackGAN)",
+        "p": {
+          "name": "StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks",
+          "link": "http://arxiv.org/abs/1612.03242v2"
+        },
+        "c": "https://github.com/hanzhanggit/StackGAN",
         "n": "StackGAN",
         "d": "2016-12-10",
         "m2": "3.7"

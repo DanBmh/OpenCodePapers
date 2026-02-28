@@ -54,15 +54,21 @@
     ],
     "items": [
       {
-        "p": "[Parameter-Efficient Fine-Tuning in Spectral Domain for Point Cloud Learning](https://arxiv.org/abs/2410.08114v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/jerryfeng2003/pointgst)",
+        "p": {
+          "name": "Parameter-Efficient Fine-Tuning in Spectral Domain for Point Cloud Learning",
+          "link": "https://arxiv.org/abs/2410.08114v1"
+        },
+        "c": "https://github.com/jerryfeng2003/pointgst",
         "n": "PointGST",
         "d": "2024-10-10",
         "m1": "95.3"
       },
       {
-        "p": "[Mamba3D: Enhancing Local Features for 3D Point Cloud Analysis via State Space Model](https://arxiv.org/abs/2404.14966v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/xhanxu/Mamba3D)",
+        "p": {
+          "name": "Mamba3D: Enhancing Local Features for 3D Point Cloud Analysis via State Space Model",
+          "link": "https://arxiv.org/abs/2404.14966v2"
+        },
+        "c": "https://github.com/xhanxu/Mamba3D",
         "n": "Mamba3D + Point-MAE",
         "d": "2024-04-23",
         "m1": "95.1",
@@ -70,8 +76,11 @@
         "m4": "3.9G"
       },
       {
-        "p": "[ShapeLLM: Universal 3D Object Understanding for Embodied Interaction](https://arxiv.org/abs/2402.17766v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/qizekun/ShapeLLM)",
+        "p": {
+          "name": "ShapeLLM: Universal 3D Object Understanding for Embodied Interaction",
+          "link": "https://arxiv.org/abs/2402.17766v3"
+        },
+        "c": "https://github.com/qizekun/ShapeLLM",
         "n": "ReCon++",
         "d": "2024-02-27",
         "m1": "95.0"
@@ -84,38 +93,53 @@
         "m1": "94.9"
       },
       {
-        "p": "[Point2Vec for Self-Supervised Representation Learning on Point Clouds](https://arxiv.org/abs/2303.16570v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/kabouzeid/point2vec)",
+        "p": {
+          "name": "Point2Vec for Self-Supervised Representation Learning on Point Clouds",
+          "link": "https://arxiv.org/abs/2303.16570v2"
+        },
+        "c": "https://github.com/kabouzeid/point2vec",
         "n": "point2vec",
         "d": "2023-03-29",
         "m1": "94.8",
         "m2": "92.0"
       },
       {
-        "p": "[ULIP: Learning a Unified Representation of Language, Images, and Point Clouds for 3D Understanding](https://arxiv.org/abs/2212.05171v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/salesforce/ulip)",
+        "p": {
+          "name": "ULIP: Learning a Unified Representation of Language, Images, and Point Clouds for 3D Understanding",
+          "link": "https://arxiv.org/abs/2212.05171v4"
+        },
+        "c": "https://github.com/salesforce/ulip",
         "n": "ULIP + PointMLP",
         "d": "2022-12-10",
         "m1": "94.7",
         "m2": "92.4"
       },
       {
-        "p": "[Contrast with Reconstruct: Contrastive 3D Representation Learning Guided by Generative Pretraining](https://arxiv.org/abs/2302.02318v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/qizekun/ReCon)",
+        "p": {
+          "name": "Contrast with Reconstruct: Contrastive 3D Representation Learning Guided by Generative Pretraining",
+          "link": "https://arxiv.org/abs/2302.02318v2"
+        },
+        "c": "https://github.com/qizekun/ReCon",
         "n": "ReCon",
         "d": "2023-02-05",
         "m1": "94.7"
       },
       {
-        "p": "[Asymmetric Dual Self-Distillation for 3D Self-Supervised Representation Learning](https://arxiv.org/abs/2506.21724v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/RFLeijenaar/AsymDSD)",
+        "p": {
+          "name": "Asymmetric Dual Self-Distillation for 3D Self-Supervised Representation Learning",
+          "link": "https://arxiv.org/abs/2506.21724v1"
+        },
+        "c": "https://github.com/RFLeijenaar/AsymDSD",
         "n": "AsymDSD-B* (no voting)",
         "d": "2025-06-26",
         "m1": "94.7"
       },
       {
-        "p": "[Surface Representation for Point Clouds](https://arxiv.org/abs/2205.05740v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/hancyran/RepSurf)",
+        "p": {
+          "name": "Surface Representation for Point Clouds",
+          "link": "https://arxiv.org/abs/2205.05740v2"
+        },
+        "c": "https://github.com/hancyran/RepSurf",
         "n": "RepSurf-U",
         "d": "2022-05-11",
         "m1": "94.7",
@@ -123,38 +147,53 @@
         "m4": "0.81G"
       },
       {
-        "p": "[Rethinking the compositionality of point clouds through regularization in the hyperbolic space](https://arxiv.org/abs/2209.10318v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/diegovalsesia/hycore)",
+        "p": {
+          "name": "Rethinking the compositionality of point clouds through regularization in the hyperbolic space",
+          "link": "https://arxiv.org/abs/2209.10318v1"
+        },
+        "c": "https://github.com/diegovalsesia/hycore",
         "n": "PointMLP+HyCoRe",
         "d": "2022-09-21",
         "m1": "94.5",
         "m2": "91.9"
       },
       {
-        "p": "[Rethinking Network Design and Local Geometry in Point Cloud: A Simple Residual MLP Framework](https://arxiv.org/abs/2202.07123v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/ma-xu/pointmlp-pytorch)",
+        "p": {
+          "name": "Rethinking Network Design and Local Geometry in Point Cloud: A Simple Residual MLP Framework",
+          "link": "https://arxiv.org/abs/2202.07123v2"
+        },
+        "c": "https://github.com/ma-xu/pointmlp-pytorch",
         "n": "PointMLP",
         "d": "2022-02-15",
         "m1": "94.5",
         "m2": "91.4"
       },
       {
-        "p": "[Towards Compact 3D Representations via Point Feature Enhancement Masked Autoencoders](https://arxiv.org/abs/2312.10726v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/zyh16143998882/aaai24-pointfemae)",
+        "p": {
+          "name": "Towards Compact 3D Representations via Point Feature Enhancement Masked Autoencoders",
+          "link": "https://arxiv.org/abs/2312.10726v1"
+        },
+        "c": "https://github.com/zyh16143998882/aaai24-pointfemae",
         "n": "Point-FEMAE",
         "d": "2023-12-17",
         "m1": "94.5"
       },
       {
-        "p": "[Rethinking Masked Representation Learning for 3D Point Cloud Understanding](https://ieeexplore.ieee.org/document/10815033)",
-        "c": "[&check;&nbsp;Link](https://github.com/OpenSpaceAI/OTMae3D)",
+        "p": {
+          "name": "Rethinking Masked Representation Learning for 3D Point Cloud Understanding",
+          "link": "https://ieeexplore.ieee.org/document/10815033"
+        },
+        "c": "https://github.com/OpenSpaceAI/OTMae3D",
         "n": "OTMae3D",
         "d": "2024-12-26",
         "m1": "94.5"
       },
       {
-        "p": "[Let Images Give You More:Point Cloud Cross-Modal Training for Shape Analysis](https://arxiv.org/abs/2210.04208v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/yanx27/2dpass)",
+        "p": {
+          "name": "Let Images Give You More:Point Cloud Cross-Modal Training for Shape Analysis",
+          "link": "https://arxiv.org/abs/2210.04208v1"
+        },
+        "c": "https://github.com/yanx27/2dpass",
         "n": "PointNet2+PointCMT",
         "d": "2022-10-09",
         "m1": "94.4",
@@ -162,87 +201,123 @@
         "m3": "1.62M"
       },
       {
-        "p": "[Instance-aware Dynamic Prompt Tuning for Pre-trained Point Cloud Models](https://arxiv.org/abs/2304.07221v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/zyh16143998882/iccv23-idpt)",
+        "p": {
+          "name": "Instance-aware Dynamic Prompt Tuning for Pre-trained Point Cloud Models",
+          "link": "https://arxiv.org/abs/2304.07221v2"
+        },
+        "c": "https://github.com/zyh16143998882/iccv23-idpt",
         "n": "IDPT",
         "d": "2023-04-14",
         "m1": "94.4"
       },
       {
-        "p": "[Rethinking Masked Representation Learning for 3D Point Cloud Understanding](https://ieeexplore.ieee.org/document/10815033)",
-        "c": "[&check;&nbsp;Link](https://github.com/OpenSpaceAI/OTMae3D)",
+        "p": {
+          "name": "Rethinking Masked Representation Learning for 3D Point Cloud Understanding",
+          "link": "https://ieeexplore.ieee.org/document/10815033"
+        },
+        "c": "https://github.com/OpenSpaceAI/OTMae3D",
         "n": "OTMae3D (w/o Voting)",
         "d": "2024-12-26",
         "m1": "94.3"
       },
       {
-        "p": "[Implicit Autoencoder for Point-Cloud Self-Supervised Representation Learning](https://arxiv.org/abs/2201.00785v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/simingyan/iae)",
+        "p": {
+          "name": "Implicit Autoencoder for Point-Cloud Self-Supervised Representation Learning",
+          "link": "https://arxiv.org/abs/2201.00785v5"
+        },
+        "c": "https://github.com/simingyan/iae",
         "n": "IAE + DGCNN",
         "d": "2022-01-03",
         "m1": "94.2",
         "m2": "91.6"
       },
       {
-        "p": "[Point Transformer V2: Grouped Vector Attention and Partition-based Pooling](https://arxiv.org/abs/2210.05666v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/Pointcept/Pointcept)",
+        "p": {
+          "name": "Point Transformer V2: Grouped Vector Attention and Partition-based Pooling",
+          "link": "https://arxiv.org/abs/2210.05666v2"
+        },
+        "c": "https://github.com/Pointcept/Pointcept",
         "n": "PTv2",
         "d": "2022-10-11",
         "m1": "94.2",
         "m2": "91.6"
       },
       {
-        "p": "[Walk in the Cloud: Learning Curves for Point Clouds Shape Analysis](https://arxiv.org/abs/2105.01288v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/vinits5/learning3d)",
+        "p": {
+          "name": "Walk in the Cloud: Learning Curves for Point Clouds Shape Analysis",
+          "link": "https://arxiv.org/abs/2105.01288v2"
+        },
+        "c": "https://github.com/vinits5/learning3d",
         "n": "CurveNet",
         "d": "2021-05-04",
         "m1": "94.2"
       },
       {
-        "p": "[ExpPoint-MAE: Better interpretability and performance for self-supervised point cloud transformers](https://arxiv.org/abs/2306.10798v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/vvrpanda/exppoint-mae)",
+        "p": {
+          "name": "ExpPoint-MAE: Better interpretability and performance for self-supervised point cloud transformers",
+          "link": "https://arxiv.org/abs/2306.10798v3"
+        },
+        "c": "https://github.com/vvrpanda/exppoint-mae",
         "n": "ExpPoint-MAE",
         "d": "2023-06-19",
         "m1": "94.2"
       },
       {
-        "p": "[PCP-MAE: Learning to Predict Centers for Point Masked Autoencoders](https://arxiv.org/abs/2408.08753v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/aHapBean/PCP-MAE)",
+        "p": {
+          "name": "PCP-MAE: Learning to Predict Centers for Point Masked Autoencoders",
+          "link": "https://arxiv.org/abs/2408.08753v2"
+        },
+        "c": "https://github.com/aHapBean/PCP-MAE",
         "n": "PCP-MAE",
         "d": "2024-08-16",
         "m1": "94.2"
       },
       {
-        "p": "[Learning Inner-Group Relations on Point Clouds](https://arxiv.org/abs/2108.12468v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/hancyran/RPNet)",
+        "p": {
+          "name": "Learning Inner-Group Relations on Point Clouds",
+          "link": "https://arxiv.org/abs/2108.12468v1"
+        },
+        "c": "https://github.com/hancyran/RPNet",
         "n": "RPNet",
         "d": "2021-08-27",
         "m1": "94.1"
       },
       {
-        "p": "[ULIP: Learning a Unified Representation of Language, Images, and Point Clouds for 3D Understanding](https://arxiv.org/abs/2212.05171v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/salesforce/ulip)",
+        "p": {
+          "name": "ULIP: Learning a Unified Representation of Language, Images, and Point Clouds for 3D Understanding",
+          "link": "https://arxiv.org/abs/2212.05171v4"
+        },
+        "c": "https://github.com/salesforce/ulip",
         "n": "ULIP + PointBERT",
         "d": "2022-12-10",
         "m1": "94.1"
       },
       {
-        "p": "[Regress Before Construct: Regress Autoencoder for Point Cloud Self-supervised Learning](https://arxiv.org/abs/2310.03670v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/liuyyy111/point-rae)",
+        "p": {
+          "name": "Regress Before Construct: Regress Autoencoder for Point Cloud Self-supervised Learning",
+          "link": "https://arxiv.org/abs/2310.03670v1"
+        },
+        "c": "https://github.com/liuyyy111/point-rae",
         "n": "Point-RAE",
         "d": "2023-09-25",
         "m1": "94.1"
       },
       {
-        "p": "[Point-JEPA: A Joint Embedding Predictive Architecture for Self-Supervised Learning on Point Cloud](https://arxiv.org/abs/2404.16432v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/Ayumu-J-S/Point-JEPA)",
+        "p": {
+          "name": "Point-JEPA: A Joint Embedding Predictive Architecture for Self-Supervised Learning on Point Cloud",
+          "link": "https://arxiv.org/abs/2404.16432v5"
+        },
+        "c": "https://github.com/Ayumu-J-S/Point-JEPA",
         "n": "Point-JEPA (voting)",
         "d": "2024-04-25",
         "m1": "94.1±0.1"
       },
       {
-        "p": "[Decoupled Local Aggregation for Point Cloud Learning](https://arxiv.org/abs/2308.16532v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/matrix-asc/dela)",
+        "p": {
+          "name": "Decoupled Local Aggregation for Point Cloud Learning",
+          "link": "https://arxiv.org/abs/2308.16532v1"
+        },
+        "c": "https://github.com/matrix-asc/dela",
         "n": "DeLA",
         "d": "2023-08-31",
         "m1": "94.0",
@@ -251,16 +326,22 @@
         "m4": "1.44G"
       },
       {
-        "p": "[P2P: Tuning Pre-trained Image Models for Point Cloud Analysis with Point-to-Pixel Prompting](https://arxiv.org/abs/2208.02812v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/wangzy22/P2P)",
+        "p": {
+          "name": "P2P: Tuning Pre-trained Image Models for Point Cloud Analysis with Point-to-Pixel Prompting",
+          "link": "https://arxiv.org/abs/2208.02812v2"
+        },
+        "c": "https://github.com/wangzy22/P2P",
         "n": "P2P",
         "d": "2022-08-04",
         "m1": "94.0",
         "m2": "91.6"
       },
       {
-        "p": "[PointNeXt: Revisiting PointNet++ with Improved Training and Scaling Strategies](https://arxiv.org/abs/2206.04670v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/guochengqian/pointnext)",
+        "p": {
+          "name": "PointNeXt: Revisiting PointNet++ with Improved Training and Scaling Strategies",
+          "link": "https://arxiv.org/abs/2206.04670v2"
+        },
+        "c": "https://github.com/guochengqian/pointnext",
         "n": "PointNeXt",
         "d": "2022-06-09",
         "m1": "94.0",
@@ -269,42 +350,60 @@
         "m4": "6.5G"
       },
       {
-        "p": "[PVT: Point-Voxel Transformer for Point Cloud Learning](https://arxiv.org/abs/2108.06076v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/HaochengWan/PVT)",
+        "p": {
+          "name": "PVT: Point-Voxel Transformer for Point Cloud Learning",
+          "link": "https://arxiv.org/abs/2108.06076v4"
+        },
+        "c": "https://github.com/HaochengWan/PVT",
         "n": "Point Voxel Transformer",
         "d": "2021-08-13",
         "m1": "94.0"
       },
       {
-        "p": "[Masked Autoencoders for Point Cloud Self-supervised Learning](https://arxiv.org/abs/2203.06604v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/Pang-Yatian/Point-MAE)",
+        "p": {
+          "name": "Masked Autoencoders for Point Cloud Self-supervised Learning",
+          "link": "https://arxiv.org/abs/2203.06604v2"
+        },
+        "c": "https://github.com/Pang-Yatian/Point-MAE",
         "n": "Point-MAE",
         "d": "2022-03-13",
         "m1": "94.0"
       },
       {
-        "p": "[Point-M2AE: Multi-scale Masked Autoencoders for Hierarchical Point Cloud Pre-training](https://arxiv.org/abs/2205.14401v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/zrrskywalker/i2p-mae)",
+        "p": {
+          "name": "Point-M2AE: Multi-scale Masked Autoencoders for Hierarchical Point Cloud Pre-training",
+          "link": "https://arxiv.org/abs/2205.14401v2"
+        },
+        "c": "https://github.com/zrrskywalker/i2p-mae",
         "n": "Point-M2AE",
         "d": "2022-05-28",
         "m1": "94.0"
       },
       {
-        "p": "[ModelNet-O: A Large-Scale Synthetic Dataset for Occlusion-Aware Point Cloud Classification](https://arxiv.org/abs/2401.08210v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/fanglaosi/pointmls)",
+        "p": {
+          "name": "ModelNet-O: A Large-Scale Synthetic Dataset for Occlusion-Aware Point Cloud Classification",
+          "link": "https://arxiv.org/abs/2401.08210v1"
+        },
+        "c": "https://github.com/fanglaosi/pointmls",
         "n": "PointMLS",
         "d": "2024-01-16",
         "m1": "94.0"
       },
       {
-        "p": "[3D-JEPA: A Joint Embedding Predictive Architecture for 3D Self-Supervised Representation Learning](https://arxiv.org/abs/2409.15803v1)",
+        "p": {
+          "name": "3D-JEPA: A Joint Embedding Predictive Architecture for 3D Self-Supervised Representation Learning",
+          "link": "https://arxiv.org/abs/2409.15803v1"
+        },
         "c": "",
         "n": "3D-JEPA",
         "d": "2024-09-24",
         "m1": "94.0"
       },
       {
-        "p": "[MKConv: Multidimensional Feature Representation for Point Cloud Analysis](https://arxiv.org/abs/2107.12655v3)",
+        "p": {
+          "name": "MKConv: Multidimensional Feature Representation for Point Cloud Analysis",
+          "link": "https://arxiv.org/abs/2107.12655v3"
+        },
         "c": "",
         "n": "MKConv",
         "d": "2021-07-27",
@@ -312,136 +411,190 @@
         "m3": "5.63M"
       },
       {
-        "p": "[Revisiting Point Cloud Classification with a Simple and Effective Baseline](https://openreview.net/forum?id=XwATtbX3oCz)",
-        "c": "[&check;&nbsp;Link](https://github.com/princeton-vl/SimpleView)",
+        "p": {
+          "name": "Revisiting Point Cloud Classification with a Simple and Effective Baseline",
+          "link": "https://openreview.net/forum?id=XwATtbX3oCz"
+        },
+        "c": "https://github.com/princeton-vl/SimpleView",
         "n": "SimpleView",
         "d": "2021-01-01",
         "m1": "93.9",
         "m2": "91.8"
       },
       {
-        "p": "[PAConv: Position Adaptive Convolution with Dynamic Kernel Assembling on Point Clouds](https://arxiv.org/abs/2103.14635v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/Paddle3D)",
+        "p": {
+          "name": "PAConv: Position Adaptive Convolution with Dynamic Kernel Assembling on Point Clouds",
+          "link": "https://arxiv.org/abs/2103.14635v2"
+        },
+        "c": "https://github.com/PaddlePaddle/Paddle3D",
         "n": "PAConv",
         "d": "2021-03-26",
         "m1": "93.9"
       },
       {
-        "p": "[Revisiting Point Cloud Shape Classification with a Simple and Effective Baseline](https://arxiv.org/abs/2106.05304v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/jiachens/ModelNet40-C)",
+        "p": {
+          "name": "Revisiting Point Cloud Shape Classification with a Simple and Effective Baseline",
+          "link": "https://arxiv.org/abs/2106.05304v1"
+        },
+        "c": "https://github.com/jiachens/ModelNet40-C",
         "n": "SimpleView-DGCNN",
         "d": "2021-06-09",
         "m1": "93.9"
       },
       {
-        "p": "[Positional Prompt Tuning for Efficient 3D Representation Learning](https://arxiv.org/abs/2408.11567v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/zsc000722/ppt)",
+        "p": {
+          "name": "Positional Prompt Tuning for Efficient 3D Representation Learning",
+          "link": "https://arxiv.org/abs/2408.11567v1"
+        },
+        "c": "https://github.com/zsc000722/ppt",
         "n": "PointMAE+PPT",
         "d": "2024-08-21",
         "m1": "93.88"
       },
       {
-        "p": "[MVTN: Multi-View Transformation Network for 3D Shape Recognition](https://arxiv.org/abs/2011.13244v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/ajhamdi/MVTN)",
+        "p": {
+          "name": "MVTN: Multi-View Transformation Network for 3D Shape Recognition",
+          "link": "https://arxiv.org/abs/2011.13244v3"
+        },
+        "c": "https://github.com/ajhamdi/MVTN",
         "n": "MVTN",
         "d": "2020-11-26",
         "m1": "93.8",
         "m2": "92.2"
       },
       {
-        "p": "[FG-Net: Fast Large-Scale LiDAR Point Clouds Understanding Network Leveraging Correlated Feature Mining and Geometric-Aware Modelling](https://arxiv.org/abs/2012.09439v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/KangchengLiu/Feature-Geometric-Net-FG-Net)",
+        "p": {
+          "name": "FG-Net: Fast Large-Scale LiDAR Point Clouds Understanding Network Leveraging Correlated Feature Mining and Geometric-Aware Modelling",
+          "link": "https://arxiv.org/abs/2012.09439v2"
+        },
+        "c": "https://github.com/KangchengLiu/Feature-Geometric-Net-FG-Net",
         "n": "Feature Geometric Net (FG-Net)",
         "d": "2020-12-17",
         "m1": "93.8",
         "m2": "91.1"
       },
       {
-        "p": "[Geometric Back-projection Network for Point Cloud Classification](https://arxiv.org/abs/1911.12885v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/ShiQiu0419/GFNet)",
+        "p": {
+          "name": "Geometric Back-projection Network for Point Cloud Classification",
+          "link": "https://arxiv.org/abs/1911.12885v5"
+        },
+        "c": "https://github.com/ShiQiu0419/GFNet",
         "n": "GBNet",
         "d": "2019-11-28",
         "m1": "93.8",
         "m2": "91.0"
       },
       {
-        "p": "[DeltaConv: Anisotropic Operators for Geometric Deep Learning on Point Clouds](https://arxiv.org/abs/2111.08799v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/rubenwiersma/deltaconv)",
+        "p": {
+          "name": "DeltaConv: Anisotropic Operators for Geometric Deep Learning on Point Clouds",
+          "link": "https://arxiv.org/abs/2111.08799v5"
+        },
+        "c": "https://github.com/rubenwiersma/deltaconv",
         "n": "DeltaConv",
         "d": "2021-11-16",
         "m1": "93.8",
         "m5": "91.2"
       },
       {
-        "p": "[Learning Geometry-Disentangled Representation for Complementary Understanding of 3D Object Point Cloud](https://arxiv.org/abs/2012.10921v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/mutianxu/GDANet)",
+        "p": {
+          "name": "Learning Geometry-Disentangled Representation for Complementary Understanding of 3D Object Point Cloud",
+          "link": "https://arxiv.org/abs/2012.10921v3"
+        },
+        "c": "https://github.com/mutianxu/GDANet",
         "n": "GDANet",
         "d": "2020-12-20",
         "m1": "93.8"
       },
       {
-        "p": "[Point-BERT: Pre-training 3D Point Cloud Transformers with Masked Point Modeling](https://arxiv.org/abs/2111.14819v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/julie-tang00/point-bert)",
+        "p": {
+          "name": "Point-BERT: Pre-training 3D Point Cloud Transformers with Masked Point Modeling",
+          "link": "https://arxiv.org/abs/2111.14819v2"
+        },
+        "c": "https://github.com/julie-tang00/point-bert",
         "n": "Point-BERT",
         "d": "2021-11-29",
         "m1": "93.8"
       },
       {
-        "p": "[Attention-based Point Cloud Edge Sampling](https://arxiv.org/abs/2302.14673v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/JunweiZheng93/APES)",
+        "p": {
+          "name": "Attention-based Point Cloud Edge Sampling",
+          "link": "https://arxiv.org/abs/2302.14673v2"
+        },
+        "c": "https://github.com/JunweiZheng93/APES",
         "n": "APES (global-based downsample)",
         "d": "2023-02-28",
         "m1": "93.8"
       },
       {
-        "p": "[Point-JEPA: A Joint Embedding Predictive Architecture for Self-Supervised Learning on Point Cloud](https://arxiv.org/abs/2404.16432v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/Ayumu-J-S/Point-JEPA)",
+        "p": {
+          "name": "Point-JEPA: A Joint Embedding Predictive Architecture for Self-Supervised Learning on Point Cloud",
+          "link": "https://arxiv.org/abs/2404.16432v5"
+        },
+        "c": "https://github.com/Ayumu-J-S/Point-JEPA",
         "n": "Point-JEPA (no voting)",
         "d": "2024-04-25",
         "m1": "93.8±0.2"
       },
       {
-        "p": "[Parameter is Not All You Need: Starting from Non-Parametric Networks for 3D Point Cloud Analysis](https://arxiv.org/abs/2303.08134v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/zrrskywalker/point-nn)",
+        "p": {
+          "name": "Parameter is Not All You Need: Starting from Non-Parametric Networks for 3D Point Cloud Analysis",
+          "link": "https://arxiv.org/abs/2303.08134v2"
+        },
+        "c": "https://github.com/zrrskywalker/point-nn",
         "n": "Point-PN",
         "d": "2023-03-14",
         "m1": "93.8",
         "m3": "0.8M"
       },
       {
-        "p": "[PointSCNet: Point Cloud Structure and Correlation Learning Based on Space Filling Curve-Guided Sampling](https://arxiv.org/abs/2202.10251v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/Chenguoz/PointSCNet)",
+        "p": {
+          "name": "PointSCNet: Point Cloud Structure and Correlation Learning Based on Space Filling Curve-Guided Sampling",
+          "link": "https://arxiv.org/abs/2202.10251v2"
+        },
+        "c": "https://github.com/Chenguoz/PointSCNet",
         "n": "PointSCNet",
         "d": "2022-02-21",
         "m1": "93.7",
         "m2": "91.4"
       },
       {
-        "p": "[PRA-Net: Point Relation-Aware Network for 3D Point Cloud Analysis](https://arxiv.org/abs/2112.04903v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/xiwuchen/pra-net)",
+        "p": {
+          "name": "PRA-Net: Point Relation-Aware Network for 3D Point Cloud Analysis",
+          "link": "https://arxiv.org/abs/2112.04903v1"
+        },
+        "c": "https://github.com/xiwuchen/pra-net",
         "n": "PRA-Net",
         "d": "2021-12-09",
         "m1": "93.7",
         "m2": "91.2"
       },
       {
-        "p": "[Point Transformer](https://arxiv.org/abs/2012.09164v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/Pointcept/Pointcept)",
+        "p": {
+          "name": "Point Transformer",
+          "link": "https://arxiv.org/abs/2012.09164v2"
+        },
+        "c": "https://github.com/Pointcept/Pointcept",
         "n": "PointTransformer",
         "d": "2020-12-16",
         "m1": "93.7",
         "m2": "90.6"
       },
       {
-        "p": "[DualMLP: a two-stream fusion model for 3D point cloud classification](https://link.springer.com/article/10.1007/s00371-023-03114-3)",
-        "c": "[&check;&nbsp;Link](https://github.com/snehaputul/DualMLP)",
+        "p": {
+          "name": "DualMLP: a two-stream fusion model for 3D point cloud classification",
+          "link": "https://link.springer.com/article/10.1007/s00371-023-03114-3"
+        },
+        "c": "https://github.com/snehaputul/DualMLP",
         "n": "DualMLP",
         "d": "2023-10-10",
         "m1": "93.7"
       },
       {
-        "p": "[PointMixer: MLP-Mixer for Point Cloud Understanding](https://arxiv.org/abs/2111.11187v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/lifebeyondexpectations/eccv22-pointmixer)",
+        "p": {
+          "name": "PointMixer: MLP-Mixer for Point Cloud Understanding",
+          "link": "https://arxiv.org/abs/2111.11187v5"
+        },
+        "c": "https://github.com/lifebeyondexpectations/eccv22-pointmixer",
         "n": "PointMixer",
         "d": "2021-11-22",
         "m1": "93.6",
@@ -449,8 +602,11 @@
         "m3": "6.5M"
       },
       {
-        "p": "[DeepGCNs: Making GCNs Go as Deep as CNNs](https://arxiv.org/abs/1910.06849v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/lightaime/deep_gcns_torch/tree/master/examples/ogb)",
+        "p": {
+          "name": "DeepGCNs: Making GCNs Go as Deep as CNNs",
+          "link": "https://arxiv.org/abs/1910.06849v3"
+        },
+        "c": "https://github.com/lightaime/deep_gcns_torch/tree/master/examples/ogb",
         "n": "DeepGCN",
         "d": "2019-10-15",
         "m1": "93.6",
@@ -458,99 +614,138 @@
         "m3": "2.2M"
       },
       {
-        "p": "[LCPFormer: Towards Effective 3D Point Cloud Analysis via Local Context Propagation in Transformers](https://arxiv.org/abs/2210.12755v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/zhh6425/LocalContextPropagation)",
+        "p": {
+          "name": "LCPFormer: Towards Effective 3D Point Cloud Analysis via Local Context Propagation in Transformers",
+          "link": "https://arxiv.org/abs/2210.12755v2"
+        },
+        "c": "https://github.com/zhh6425/LocalContextPropagation",
         "n": "LCPFormer",
         "d": "2022-10-23",
         "m1": "93.6",
         "m2": "90.7"
       },
       {
-        "p": "[SageMix: Saliency-Guided Mixup for Point Clouds](https://arxiv.org/abs/2210.06944v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/mlvlab/SageMix)",
+        "p": {
+          "name": "SageMix: Saliency-Guided Mixup for Point Clouds",
+          "link": "https://arxiv.org/abs/2210.06944v1"
+        },
+        "c": "https://github.com/mlvlab/SageMix",
         "n": "DGCNN + SageMix",
         "d": "2022-10-13",
         "m1": "93.6"
       },
       {
-        "p": "[PointVector: A Vector Representation In Point Cloud Analysis](https://arxiv.org/abs/2205.10528v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/guochengqian/openpoints/blob/master/models/backbone/pointvector.py)",
+        "p": {
+          "name": "PointVector: A Vector Representation In Point Cloud Analysis",
+          "link": "https://arxiv.org/abs/2205.10528v3"
+        },
+        "c": "https://github.com/guochengqian/openpoints/blob/master/models/backbone/pointvector.py",
         "n": "PointVector-S",
         "d": "2022-05-21",
         "m1": "93.5",
         "m2": "91"
       },
       {
-        "p": "[Regularization Strategy for Point Cloud via Rigidly Mixed Sample](https://arxiv.org/abs/2102.01929v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/dogyoonlee/RSMix-official)",
+        "p": {
+          "name": "Regularization Strategy for Point Cloud via Rigidly Mixed Sample",
+          "link": "https://arxiv.org/abs/2102.01929v3"
+        },
+        "c": "https://github.com/dogyoonlee/RSMix-official",
         "n": "RSMix",
         "d": "2021-02-03",
         "m1": "93.5"
       },
       {
-        "p": "[Point Cloud Classification Using Content-based Transformer via Clustering in Feature Space](https://arxiv.org/abs/2303.04599v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/yahuiliu99/pointcont)",
+        "p": {
+          "name": "Point Cloud Classification Using Content-based Transformer via Clustering in Feature Space",
+          "link": "https://arxiv.org/abs/2303.04599v1"
+        },
+        "c": "https://github.com/yahuiliu99/pointcont",
         "n": "PointConT",
         "d": "2023-03-08",
         "m1": "93.5"
       },
       {
-        "p": "[Attention-based Point Cloud Edge Sampling](https://arxiv.org/abs/2302.14673v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/JunweiZheng93/APES)",
+        "p": {
+          "name": "Attention-based Point Cloud Edge Sampling",
+          "link": "https://arxiv.org/abs/2302.14673v2"
+        },
+        "c": "https://github.com/JunweiZheng93/APES",
         "n": "APES (local-based downsample)",
         "d": "2023-02-28",
         "m1": "93.5"
       },
       {
-        "p": "[DSPoint: Dual-scale Point Cloud Recognition with High-frequency Fusion](https://arxiv.org/abs/2111.10332v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/adonis-galaxy/dspoint)",
+        "p": {
+          "name": "DSPoint: Dual-scale Point Cloud Recognition with High-frequency Fusion",
+          "link": "https://arxiv.org/abs/2111.10332v4"
+        },
+        "c": "https://github.com/adonis-galaxy/dspoint",
         "n": "DSPoint",
         "d": "2021-11-19",
         "m1": "93.5",
         "m3": "1.16M"
       },
       {
-        "p": "[ULIP: Learning a Unified Representation of Language, Images, and Point Clouds for 3D Understanding](https://arxiv.org/abs/2212.05171v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/salesforce/ulip)",
+        "p": {
+          "name": "ULIP: Learning a Unified Representation of Language, Images, and Point Clouds for 3D Understanding",
+          "link": "https://arxiv.org/abs/2212.05171v4"
+        },
+        "c": "https://github.com/salesforce/ulip",
         "n": "ULIP + PointNet++(ssg)",
         "d": "2022-12-10",
         "m1": "93.4",
         "m2": "91.2"
       },
       {
-        "p": "[PointCutMix: Regularization Strategy for Point Cloud Classification](https://arxiv.org/abs/2101.01461v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/jiachens/ModelNet40-C)",
+        "p": {
+          "name": "PointCutMix: Regularization Strategy for Point Cloud Classification",
+          "link": "https://arxiv.org/abs/2101.01461v2"
+        },
+        "c": "https://github.com/jiachens/ModelNet40-C",
         "n": "PointCutmix",
         "d": "2021-01-05",
         "m1": "93.4"
       },
       {
-        "p": "[3D Medical Point Transformer: Introducing Convolution to Attention Networks for Medical Point Cloud Analysis](https://arxiv.org/abs/2112.04863v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/crane-papercode/3dmedpt)",
+        "p": {
+          "name": "3D Medical Point Transformer: Introducing Convolution to Attention Networks for Medical Point Cloud Analysis",
+          "link": "https://arxiv.org/abs/2112.04863v2"
+        },
+        "c": "https://github.com/crane-papercode/3dmedpt",
         "n": "3DMedPT",
         "d": "2021-12-09",
         "m1": "93.4",
         "m3": "1.54M"
       },
       {
-        "p": "[Self-supervised Point Cloud Representation Learning via Separating Mixed Shapes](https://arxiv.org/abs/2109.00452v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/cyysc1998/3D-Pretraining)",
+        "p": {
+          "name": "Self-supervised Point Cloud Representation Learning via Separating Mixed Shapes",
+          "link": "https://arxiv.org/abs/2109.00452v3"
+        },
+        "c": "https://github.com/cyysc1998/3D-Pretraining",
         "n": "DGCNN + MD",
         "d": "2021-09-01",
         "m1": "93.39",
         "m2": "89.88"
       },
       {
-        "p": "[Self-supervised Point Cloud Representation Learning via Separating Mixed Shapes](https://arxiv.org/abs/2109.00452v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/cyysc1998/3D-Pretraining)",
+        "p": {
+          "name": "Self-supervised Point Cloud Representation Learning via Separating Mixed Shapes",
+          "link": "https://arxiv.org/abs/2109.00452v3"
+        },
+        "c": "https://github.com/cyysc1998/3D-Pretraining",
         "n": "OGNet + MD",
         "d": "2021-09-01",
         "m1": "93.31",
         "m2": "90.71"
       },
       {
-        "p": "[Parameter-Efficient Person Re-identification in the 3D Space](https://arxiv.org/abs/2006.04569v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/layumi/person-reid-3d)",
+        "p": {
+          "name": "Parameter-Efficient Person Re-identification in the 3D Space",
+          "link": "https://arxiv.org/abs/2006.04569v3"
+        },
+        "c": "https://github.com/layumi/person-reid-3d",
         "n": "OG-Net-Small",
         "d": "2020-06-08",
         "m1": "93.3",
@@ -558,52 +753,73 @@
         "m3": "1.22M"
       },
       {
-        "p": "[Advanced Feature Learning on Point Clouds using Multi-resolution Features and Learnable Pooling](https://arxiv.org/abs/2205.09962v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/LongerVision/PointStack)",
+        "p": {
+          "name": "Advanced Feature Learning on Point Clouds using Multi-resolution Features and Learnable Pooling",
+          "link": "https://arxiv.org/abs/2205.09962v1"
+        },
+        "c": "https://github.com/LongerVision/PointStack",
         "n": "PointStack",
         "d": "2022-05-20",
         "m1": "93.3",
         "m2": "89.6"
       },
       {
-        "p": "[SageMix: Saliency-Guided Mixup for Point Clouds](https://arxiv.org/abs/2210.06944v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/mlvlab/SageMix)",
+        "p": {
+          "name": "SageMix: Saliency-Guided Mixup for Point Clouds",
+          "link": "https://arxiv.org/abs/2210.06944v1"
+        },
+        "c": "https://github.com/mlvlab/SageMix",
         "n": "PointNet++ + SageMix",
         "d": "2022-10-13",
         "m1": "93.3"
       },
       {
-        "p": "[PointASNL: Robust Point Clouds Processing using Nonlocal Neural Networks with Adaptive Sampling](https://arxiv.org/abs/2003.00492v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/yanx27/PointASNL)",
+        "p": {
+          "name": "PointASNL: Robust Point Clouds Processing using Nonlocal Neural Networks with Adaptive Sampling",
+          "link": "https://arxiv.org/abs/2003.00492v3"
+        },
+        "c": "https://github.com/yanx27/PointASNL",
         "n": "PointASNL",
         "d": "2020-03-01",
         "m1": "93.2"
       },
       {
-        "p": "[PCT: Point cloud transformer](https://arxiv.org/abs/2012.09688v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/qq456cvb/Point-Transformers)",
+        "p": {
+          "name": "PCT: Point cloud transformer",
+          "link": "https://arxiv.org/abs/2012.09688v4"
+        },
+        "c": "https://github.com/qq456cvb/Point-Transformers",
         "n": "Point Cloud Transformer",
         "d": "2020-12-17",
         "m1": "93.2",
         "m3": "2.88M"
       },
       {
-        "p": "[Dense-Resolution Network for Point Cloud Classification and Segmentation](https://arxiv.org/abs/2005.06734v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/ShiQiu0419/DRNet)",
+        "p": {
+          "name": "Dense-Resolution Network for Point Cloud Classification and Segmentation",
+          "link": "https://arxiv.org/abs/2005.06734v2"
+        },
+        "c": "https://github.com/ShiQiu0419/DRNet",
         "n": "DRNet",
         "d": "2020-05-14",
         "m1": "93.1"
       },
       {
-        "p": "[ShellNet: Efficient Point Cloud Convolutional Neural Networks using Concentric Shells Statistics](https://arxiv.org/abs/1908.06295v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/hkust-vgd/shellnet)",
+        "p": {
+          "name": "ShellNet: Efficient Point Cloud Convolutional Neural Networks using Concentric Shells Statistics",
+          "link": "https://arxiv.org/abs/1908.06295v1"
+        },
+        "c": "https://github.com/hkust-vgd/shellnet",
         "n": "ShellNet",
         "d": "2019-08-17",
         "m1": "93.1"
       },
       {
-        "p": "[Spatio-temporal Self-Supervised Representation Learning for 3D Point Clouds](https://arxiv.org/abs/2109.00179v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/yichen928/STRL)",
+        "p": {
+          "name": "Spatio-temporal Self-Supervised Representation Learning for 3D Point Clouds",
+          "link": "https://arxiv.org/abs/2109.00179v1"
+        },
+        "c": "https://github.com/yichen928/STRL",
         "n": "STRL + DGCNN",
         "d": "2021-09-01",
         "m1": "93.1"
@@ -616,14 +832,20 @@
         "m1": "93.1"
       },
       {
-        "p": "[AdaCrossNet: Adaptive Dynamic Loss Weighting for Cross-Modal Contrastive Point Cloud Learning](https://inass.org/wp-content/uploads/2024/10/2025022911-2.pdf)",
-        "c": "[&check;&nbsp;Link](https://github.com/virgantara/AdaCrossNet)",
+        "p": {
+          "name": "AdaCrossNet: Adaptive Dynamic Loss Weighting for Cross-Modal Contrastive Point Cloud Learning",
+          "link": "https://inass.org/wp-content/uploads/2024/10/2025022911-2.pdf"
+        },
+        "c": "https://github.com/virgantara/AdaCrossNet",
         "n": "AdaCrossNet",
         "d": "2025-01-02",
         "m1": "93.1"
       },
       {
-        "p": "[PointManifold: Using Manifold Learning for Point Cloud Classification](https://arxiv.org/abs/2010.07215v2)",
+        "p": {
+          "name": "PointManifold: Using Manifold Learning for Point Cloud Classification",
+          "link": "https://arxiv.org/abs/2010.07215v2"
+        },
         "c": "",
         "n": "PointManifold",
         "d": "2020-10-14",
@@ -631,15 +853,21 @@
         "m2": "90.4"
       },
       {
-        "p": "[Interpolated Convolutional Networks for 3D Point Cloud Understanding](https://arxiv.org/abs/1908.04512v1)",
+        "p": {
+          "name": "Interpolated Convolutional Networks for 3D Point Cloud Understanding",
+          "link": "https://arxiv.org/abs/1908.04512v1"
+        },
         "c": "",
         "n": "InterpCNN",
         "d": "2019-08-13",
         "m1": "93.0"
       },
       {
-        "p": "[Dynamic Graph CNN for Learning on Point Clouds](https://arxiv.org/abs/1801.07829v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/WangYueFt/dgcnn)",
+        "p": {
+          "name": "Dynamic Graph CNN for Learning on Point Clouds",
+          "link": "https://arxiv.org/abs/1801.07829v2"
+        },
+        "c": "https://github.com/WangYueFt/dgcnn",
         "n": "DGCNN",
         "d": "2018-01-24",
         "m1": "92.9",
@@ -647,193 +875,274 @@
         "m3": "1.81M"
       },
       {
-        "p": "[KPConv: Flexible and Deformable Convolution for Point Clouds](https://arxiv.org/abs/1904.08889v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/isl-org/Open3D-ML)",
+        "p": {
+          "name": "KPConv: Flexible and Deformable Convolution for Point Clouds",
+          "link": "https://arxiv.org/abs/1904.08889v2"
+        },
+        "c": "https://github.com/isl-org/Open3D-ML",
         "n": "KPConv",
         "d": "2019-04-18",
         "m1": "92.9"
       },
       {
-        "p": "[Relation-Shape Convolutional Neural Network for Point Cloud Analysis](https://arxiv.org/abs/1904.07601v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/Yochengliu/Relation-Shape-CNN)",
+        "p": {
+          "name": "Relation-Shape Convolutional Neural Network for Point Cloud Analysis",
+          "link": "https://arxiv.org/abs/1904.07601v3"
+        },
+        "c": "https://github.com/Yochengliu/Relation-Shape-CNN",
         "n": "RS-CNN",
         "d": "2019-04-16",
         "m1": "92.9"
       },
       {
-        "p": "[ASSANet: An Anisotropic Separable Set Abstraction for Efficient Point Cloud Representation Learning](https://arxiv.org/abs/2110.10538v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/guochengqian/assanet)",
+        "p": {
+          "name": "ASSANet: An Anisotropic Separable Set Abstraction for Efficient Point Cloud Representation Learning",
+          "link": "https://arxiv.org/abs/2110.10538v2"
+        },
+        "c": "https://github.com/guochengqian/assanet",
         "n": "ASSANet",
         "d": "2021-10-20",
         "m1": "92.9"
       },
       {
-        "p": "[Point-M2AE: Multi-scale Masked Autoencoders for Hierarchical Point Cloud Pre-training](https://arxiv.org/abs/2205.14401v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/zrrskywalker/i2p-mae)",
+        "p": {
+          "name": "Point-M2AE: Multi-scale Masked Autoencoders for Hierarchical Point Cloud Pre-training",
+          "link": "https://arxiv.org/abs/2205.14401v2"
+        },
+        "c": "https://github.com/zrrskywalker/i2p-mae",
         "n": "Point-M2AE-SVM",
         "d": "2022-05-28",
         "m1": "92.9"
       },
       {
-        "p": "[Point Transformer](https://arxiv.org/abs/2011.00931v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/qq456cvb/Point-Transformers)",
+        "p": {
+          "name": "Point Transformer",
+          "link": "https://arxiv.org/abs/2011.00931v2"
+        },
+        "c": "https://github.com/qq456cvb/Point-Transformers",
         "n": "Point Transformer",
         "d": "2020-11-02",
         "m1": "92.8"
       },
       {
-        "p": "[A-CNN: Annularly Convolutional Neural Networks on Point Clouds](http://arxiv.org/abs/1904.08017v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/artemkomarichev/a-cnn)",
+        "p": {
+          "name": "A-CNN: Annularly Convolutional Neural Networks on Point Clouds",
+          "link": "http://arxiv.org/abs/1904.08017v1"
+        },
+        "c": "https://github.com/artemkomarichev/a-cnn",
         "n": "A-CNN",
         "d": "2019-04-16",
         "m1": "92.6"
       },
       {
-        "p": "[Point2Sequence: Learning the Shape Representation of 3D Point Clouds with an Attention-based Sequence to Sequence Network](http://arxiv.org/abs/1811.02565v2)",
+        "p": {
+          "name": "Point2Sequence: Learning the Shape Representation of 3D Point Clouds with an Attention-based Sequence to Sequence Network",
+          "link": "http://arxiv.org/abs/1811.02565v2"
+        },
         "c": "",
         "n": "P2Sequence",
         "d": "2018-11-06",
         "m1": "92.6"
       },
       {
-        "p": "[Points to Patches: Enabling the Use of Self-Attention for 3D Shape Recognition](https://arxiv.org/abs/2204.03957v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/axeber01/point-tnt)",
+        "p": {
+          "name": "Points to Patches: Enabling the Use of Self-Attention for 3D Shape Recognition",
+          "link": "https://arxiv.org/abs/2204.03957v1"
+        },
+        "c": "https://github.com/axeber01/point-tnt",
         "n": "Point-TnT",
         "d": "2022-04-08",
         "m1": "92.6",
         "m3": "3.9M"
       },
       {
-        "p": "[PointConv: Deep Convolutional Networks on 3D Point Clouds](https://arxiv.org/abs/1811.07246v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/vinits5/learning3d)",
+        "p": {
+          "name": "PointConv: Deep Convolutional Networks on 3D Point Clouds",
+          "link": "https://arxiv.org/abs/1811.07246v3"
+        },
+        "c": "https://github.com/vinits5/learning3d",
         "n": "PointConv",
         "d": "2018-11-17",
         "m1": "92.5"
       },
       {
-        "p": "[PolyNet: Polynomial Neural Network for 3D Shape Recognition with PolyShape Representation](https://arxiv.org/abs/2110.07882v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/myavartanoo/PolyNet_PyTorch)",
+        "p": {
+          "name": "PolyNet: Polynomial Neural Network for 3D Shape Recognition with PolyShape Representation",
+          "link": "https://arxiv.org/abs/2110.07882v1"
+        },
+        "c": "https://github.com/myavartanoo/PolyNet_PyTorch",
         "n": "PolyNet",
         "d": "2021-10-15",
         "m1": "92.42"
       },
       {
-        "p": "[SpiderCNN: Deep Learning on Point Sets with Parameterized Convolutional Filters](http://arxiv.org/abs/1803.11527v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/xyf513/SpiderCNN)",
+        "p": {
+          "name": "SpiderCNN: Deep Learning on Point Sets with Parameterized Convolutional Filters",
+          "link": "http://arxiv.org/abs/1803.11527v3"
+        },
+        "c": "https://github.com/xyf513/SpiderCNN",
         "n": "SpiderCNN",
         "d": "2018-03-30",
         "m1": "92.4"
       },
       {
-        "p": "[Point Convolutional Neural Networks by Extension Operators](http://arxiv.org/abs/1803.10091v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/matanatz/pcnn)",
+        "p": {
+          "name": "Point Convolutional Neural Networks by Extension Operators",
+          "link": "http://arxiv.org/abs/1803.10091v1"
+        },
+        "c": "https://github.com/matanatz/pcnn",
         "n": "PCNN",
         "d": "2018-03-27",
         "m1": "92.3"
       },
       {
-        "p": "[PointCNN: Convolution On X-Transformed Points](http://papers.nips.cc/paper/7362-pointcnn-convolution-on-x-transformed-points)",
-        "c": "[&check;&nbsp;Link](https://github.com/yangyanli/PointCNN)",
+        "p": {
+          "name": "PointCNN: Convolution On X-Transformed Points",
+          "link": "http://papers.nips.cc/paper/7362-pointcnn-convolution-on-x-transformed-points"
+        },
+        "c": "https://github.com/yangyanli/PointCNN",
         "n": "PointCNN",
         "d": "2018-12-01",
         "m1": "92.2"
       },
       {
-        "p": "[Point-PlaneNet: Plane kernel based convolutional neural network for point clouds analysis](https://www.sciencedirect.com/science/article/abs/pii/S1051200419301873)",
-        "c": "[&check;&nbsp;Link](https://github.com/moeinp70/Point-Planenet)",
+        "p": {
+          "name": "Point-PlaneNet: Plane kernel based convolutional neural network for point clouds analysis",
+          "link": "https://www.sciencedirect.com/science/article/abs/pii/S1051200419301873"
+        },
+        "c": "https://github.com/moeinp70/Point-Planenet",
         "n": "Point-PlaneNet",
         "d": "2020-05-01",
         "m1": "92.1",
         "m2": "90.5"
       },
       {
-        "p": "[Local Spectral Graph Convolution for Point Set Feature Learning](http://arxiv.org/abs/1803.05827v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/fate3439/LocalSpecGCN)",
+        "p": {
+          "name": "Local Spectral Graph Convolution for Point Set Feature Learning",
+          "link": "http://arxiv.org/abs/1803.05827v1"
+        },
+        "c": "https://github.com/fate3439/LocalSpecGCN",
         "n": "SpecGCN",
         "d": "2018-03-15",
         "m1": "92.1"
       },
       {
-        "p": "[Dynamic Local Geometry Capture in 3D PointCloud Classification](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9565556)",
-        "c": "[&check;&nbsp;Link](https://github.com/VimsLab/DynamicScale)",
+        "p": {
+          "name": "Dynamic Local Geometry Capture in 3D PointCloud Classification",
+          "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9565556"
+        },
+        "c": "https://github.com/VimsLab/DynamicScale",
         "n": "DynamicScale",
         "d": "2021-10-19",
         "m1": "92.1"
       },
       {
-        "p": "[PointGrid: A Deep Network for 3D Shape Understanding](http://openaccess.thecvf.com/content_cvpr_2018/html/Le_PointGrid_A_Deep_CVPR_2018_paper.html)",
-        "c": "[&check;&nbsp;Link](https://github.com/trucleduc/PointGrid)",
+        "p": {
+          "name": "PointGrid: A Deep Network for 3D Shape Understanding",
+          "link": "http://openaccess.thecvf.com/content_cvpr_2018/html/Le_PointGrid_A_Deep_CVPR_2018_paper.html"
+        },
+        "c": "https://github.com/trucleduc/PointGrid",
         "n": "PointGrid",
         "d": "2018-06-01",
         "m1": "92.0"
       },
       {
-        "p": "[Escape from Cells: Deep Kd-Networks for the Recognition of 3D Point Cloud Models](http://arxiv.org/abs/1704.01222v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/fxia22/kdnet.pytorch)",
+        "p": {
+          "name": "Escape from Cells: Deep Kd-Networks for the Recognition of 3D Point Cloud Models",
+          "link": "http://arxiv.org/abs/1704.01222v2"
+        },
+        "c": "https://github.com/fxia22/kdnet.pytorch",
         "n": "Kd-Net",
         "d": "2017-04-04",
         "m1": "91.8"
       },
       {
-        "p": "[General-Purpose Deep Point Cloud Feature Extractor](https://ieeexplore.ieee.org/abstract/document/8354322)",
-        "c": "[&check;&nbsp;Link](https://github.com/WDot/G3DNet)",
+        "p": {
+          "name": "General-Purpose Deep Point Cloud Feature Extractor",
+          "link": "https://ieeexplore.ieee.org/abstract/document/8354322"
+        },
+        "c": "https://github.com/WDot/G3DNet",
         "n": "G3DNet-18 MLP, Fine-Tuned, Vote",
         "d": "2018-03-12",
         "m1": "91.7"
       },
       {
-        "p": "[3D Point Cloud Classification and Segmentation using 3D Modified Fisher Vector Representation for Convolutional Neural Networks](http://arxiv.org/abs/1711.08241v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/sitzikbs/3DmFV-Net)",
+        "p": {
+          "name": "3D Point Cloud Classification and Segmentation using 3D Modified Fisher Vector Representation for Convolutional Neural Networks",
+          "link": "http://arxiv.org/abs/1711.08241v1"
+        },
+        "c": "https://github.com/sitzikbs/3DmFV-Net",
         "n": "3DMFV-Net",
         "d": "2017-11-22",
         "m1": "91.6"
       },
       {
-        "p": "[CrossMoCo: Multi-modal Momentum Contrastive Learning for Point Cloud](https://ieeexplore.ieee.org/abstract/document/10229841)",
-        "c": "[&check;&nbsp;Link](https://github.com/snehaputul/CrossMoCo)",
+        "p": {
+          "name": "CrossMoCo: Multi-modal Momentum Contrastive Learning for Point Cloud",
+          "link": "https://ieeexplore.ieee.org/abstract/document/10229841"
+        },
+        "c": "https://github.com/snehaputul/CrossMoCo",
         "n": "CrossMoCo",
         "d": "2023-06-08",
         "m1": "91.49"
       },
       {
-        "p": "[SO-Net: Self-Organizing Network for Point Cloud Analysis](http://arxiv.org/abs/1803.04249v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/lijx10/SO-Net)",
+        "p": {
+          "name": "SO-Net: Self-Organizing Network for Point Cloud Analysis",
+          "link": "http://arxiv.org/abs/1803.04249v4"
+        },
+        "c": "https://github.com/lijx10/SO-Net",
         "n": "SO-Net",
         "d": "2018-03-12",
         "m1": "90.9"
       },
       {
-        "p": "[PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space](http://arxiv.org/abs/1706.02413v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/yanx27/Pointnet_Pointnet2_pytorch)",
+        "p": {
+          "name": "PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space",
+          "link": "http://arxiv.org/abs/1706.02413v1"
+        },
+        "c": "https://github.com/yanx27/Pointnet_Pointnet2_pytorch",
         "n": "PointNet++",
         "d": "2017-06-07",
         "m1": "90.7",
         "m3": "1.74M"
       },
       {
-        "p": "[Escape from Cells: Deep Kd-Networks for the Recognition of 3D Point Cloud Models](http://arxiv.org/abs/1704.01222v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/fxia22/kdnet.pytorch)",
+        "p": {
+          "name": "Escape from Cells: Deep Kd-Networks for the Recognition of 3D Point Cloud Models",
+          "link": "http://arxiv.org/abs/1704.01222v2"
+        },
+        "c": "https://github.com/fxia22/kdnet.pytorch",
         "n": "Kd-net",
         "d": "2017-04-04",
         "m1": "90.6"
       },
       {
-        "p": "[SageMix: Saliency-Guided Mixup for Point Clouds](https://arxiv.org/abs/2210.06944v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/mlvlab/SageMix)",
+        "p": {
+          "name": "SageMix: Saliency-Guided Mixup for Point Clouds",
+          "link": "https://arxiv.org/abs/2210.06944v1"
+        },
+        "c": "https://github.com/mlvlab/SageMix",
         "n": "PointNet + SageMix",
         "d": "2022-10-13",
         "m1": "90.3"
       },
       {
-        "p": "[Multi-view Convolutional Neural Networks for 3D Shape Recognition](http://arxiv.org/abs/1505.00880v3)",
+        "p": {
+          "name": "Multi-view Convolutional Neural Networks for 3D Shape Recognition",
+          "link": "http://arxiv.org/abs/1505.00880v3"
+        },
         "c": "",
         "n": "MVCNN",
         "d": "2015-05-05",
         "m1": "90.1"
       },
       {
-        "p": "[PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation](http://arxiv.org/abs/1612.00593v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/charlesq34/pointnet)",
+        "p": {
+          "name": "PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation",
+          "link": "http://arxiv.org/abs/1612.00593v2"
+        },
+        "c": "https://github.com/charlesq34/pointnet",
         "n": "PointNet",
         "d": "2016-12-02",
         "m1": "89.2",
@@ -841,44 +1150,62 @@
         "m3": "3.47M"
       },
       {
-        "p": "[Volumetric and Multi-View CNNs for Object Classification on 3D Data](http://arxiv.org/abs/1604.03265v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/charlesq34/3dcnn.torch)",
+        "p": {
+          "name": "Volumetric and Multi-View CNNs for Object Classification on 3D Data",
+          "link": "http://arxiv.org/abs/1604.03265v2"
+        },
+        "c": "https://github.com/charlesq34/3dcnn.torch",
         "n": "Subvolume",
         "d": "2016-04-12",
         "m1": "89.2"
       },
       {
-        "p": "[Dynamic Edge-Conditioned Filters in Convolutional Neural Networks on Graphs](http://arxiv.org/abs/1704.02901v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/rusty1s/pytorch_cluster)",
+        "p": {
+          "name": "Dynamic Edge-Conditioned Filters in Convolutional Neural Networks on Graphs",
+          "link": "http://arxiv.org/abs/1704.02901v3"
+        },
+        "c": "https://github.com/rusty1s/pytorch_cluster",
         "n": "ECC",
         "d": "2017-04-10",
         "m1": "87.4",
         "m2": "83.2"
       },
       {
-        "p": "[Generative and Discriminative Voxel Modeling with Convolutional Neural Networks](http://arxiv.org/abs/1608.04236v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/ajbrock/Generative-and-Discriminative-Voxel-Modeling)",
+        "p": {
+          "name": "Generative and Discriminative Voxel Modeling with Convolutional Neural Networks",
+          "link": "http://arxiv.org/abs/1608.04236v2"
+        },
+        "c": "https://github.com/ajbrock/Generative-and-Discriminative-Voxel-Modeling",
         "n": "VRN (multiple views)",
         "d": "2016-08-15",
         "m2": "91.33"
       },
       {
-        "p": "[Generative and Discriminative Voxel Modeling with Convolutional Neural Networks](http://arxiv.org/abs/1608.04236v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/ajbrock/Generative-and-Discriminative-Voxel-Modeling)",
+        "p": {
+          "name": "Generative and Discriminative Voxel Modeling with Convolutional Neural Networks",
+          "link": "http://arxiv.org/abs/1608.04236v2"
+        },
+        "c": "https://github.com/ajbrock/Generative-and-Discriminative-Voxel-Modeling",
         "n": "VRN (single view)",
         "d": "2016-08-15",
         "m2": "88.98"
       },
       {
-        "p": "[3D ShapeNets: A Deep Representation for Volumetric Shapes](http://arxiv.org/abs/1406.5670v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/zhirongw/3DShapeNets)",
+        "p": {
+          "name": "3D ShapeNets: A Deep Representation for Volumetric Shapes",
+          "link": "http://arxiv.org/abs/1406.5670v3"
+        },
+        "c": "https://github.com/zhirongw/3DShapeNets",
         "n": "3DShapeNets",
         "d": "2014-06-22",
         "m2": "77.3"
       },
       {
-        "p": "[Perceiver: General Perception with Iterative Attention](https://arxiv.org/abs/2103.03206v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/deepmind/deepmind-research/tree/master/perceiver)",
+        "p": {
+          "name": "Perceiver: General Perception with Iterative Attention",
+          "link": "https://arxiv.org/abs/2103.03206v2"
+        },
+        "c": "https://github.com/deepmind/deepmind-research/tree/master/perceiver",
         "n": "Perceiver",
         "d": "2021-03-04",
         "m2": "14.3"

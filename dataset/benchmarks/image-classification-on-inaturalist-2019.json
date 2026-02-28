@@ -38,159 +38,225 @@
     ],
     "items": [
       {
-        "p": "[Hiera: A Hierarchical Vision Transformer without the Bells-and-Whistles](https://arxiv.org/abs/2306.00989v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/pytorch-image-models)",
+        "p": {
+          "name": "Hiera: A Hierarchical Vision Transformer without the Bells-and-Whistles",
+          "link": "https://arxiv.org/abs/2306.00989v1"
+        },
+        "c": "https://github.com/huggingface/pytorch-image-models",
         "n": "Hiera-H (448px)",
         "d": "2023-06-01",
         "m1": "88.5"
       },
       {
-        "p": "[Masked Autoencoders Are Scalable Vision Learners](https://arxiv.org/abs/2111.06377v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/mae)",
+        "p": {
+          "name": "Masked Autoencoders Are Scalable Vision Learners",
+          "link": "https://arxiv.org/abs/2111.06377v2"
+        },
+        "c": "https://github.com/facebookresearch/mae",
         "n": "MAE (ViT-H, 448)",
         "d": "2021-11-11",
         "m1": "88.3"
       },
       {
-        "p": "[Grafit: Learning fine-grained image representations with coarse labels](https://arxiv.org/abs/2011.12982v1)",
+        "p": {
+          "name": "Grafit: Learning fine-grained image representations with coarse labels",
+          "link": "https://arxiv.org/abs/2011.12982v1"
+        },
         "c": "",
         "n": "Grafit (RegnetY 8GF)",
         "d": "2020-11-25",
         "m1": "84.1"
       },
       {
-        "p": "[MixMAE: Mixed and Masked Autoencoder for Efficient Pretraining of Hierarchical Vision Transformers](https://arxiv.org/abs/2205.13137v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/sense-x/mixmim)",
+        "p": {
+          "name": "MixMAE: Mixed and Masked Autoencoder for Efficient Pretraining of Hierarchical Vision Transformers",
+          "link": "https://arxiv.org/abs/2205.13137v4"
+        },
+        "c": "https://github.com/sense-x/mixmim",
         "n": "MixMIM-L",
         "d": "2022-05-26",
         "m1": "83.9"
       },
       {
-        "p": "[DenseNets Reloaded: Paradigm Shift Beyond ResNets and ViTs](https://arxiv.org/abs/2403.19588v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/pytorch-image-models)",
+        "p": {
+          "name": "DenseNets Reloaded: Paradigm Shift Beyond ResNets and ViTs",
+          "link": "https://arxiv.org/abs/2403.19588v2"
+        },
+        "c": "https://github.com/huggingface/pytorch-image-models",
         "n": "RDNet-L (224 res, IN-1K pretrained)",
         "d": "2024-03-28",
         "m1": "83.7",
         "m2": "186M"
       },
       {
-        "p": "[DenseNets Reloaded: Paradigm Shift Beyond ResNets and ViTs](https://arxiv.org/abs/2403.19588v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/pytorch-image-models)",
+        "p": {
+          "name": "DenseNets Reloaded: Paradigm Shift Beyond ResNets and ViTs",
+          "link": "https://arxiv.org/abs/2403.19588v2"
+        },
+        "c": "https://github.com/huggingface/pytorch-image-models",
         "n": "RDNet-B (224 res, IN-1K pretrained)",
         "d": "2024-03-28",
         "m1": "83.5",
         "m2": "87M"
       },
       {
-        "p": "[DenseNets Reloaded: Paradigm Shift Beyond ResNets and ViTs](https://arxiv.org/abs/2403.19588v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/pytorch-image-models)",
+        "p": {
+          "name": "DenseNets Reloaded: Paradigm Shift Beyond ResNets and ViTs",
+          "link": "https://arxiv.org/abs/2403.19588v2"
+        },
+        "c": "https://github.com/huggingface/pytorch-image-models",
         "n": "RDNet-S (224 res, IN-1K pretrained)",
         "d": "2024-03-28",
         "m1": "82.9",
         "m2": "50M"
       },
       {
-        "p": "[Conviformers: Convolutionally guided Vision Transformer](https://arxiv.org/abs/2208.08900v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/vaishnavmohit/Conviformer)",
+        "p": {
+          "name": "Conviformers: Convolutionally guided Vision Transformer",
+          "link": "https://arxiv.org/abs/2208.08900v2"
+        },
+        "c": "https://github.com/vaishnavmohit/Conviformer",
         "n": "Conviformer-B",
         "d": "2022-08-17",
         "m1": "82.85"
       },
       {
-        "p": "[Incorporating Convolution Designs into Visual Transformers](https://arxiv.org/abs/2103.11816v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/rishikksh20/CeiT-pytorch)",
+        "p": {
+          "name": "Incorporating Convolution Designs into Visual Transformers",
+          "link": "https://arxiv.org/abs/2103.11816v2"
+        },
+        "c": "https://github.com/rishikksh20/CeiT-pytorch",
         "n": "CeiT-S (384 finetune resolution)",
         "d": "2021-03-22",
         "m1": "82.7"
       },
       {
-        "p": "[Going deeper with Image Transformers](https://arxiv.org/abs/2103.17239v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "p": {
+          "name": "Going deeper with Image Transformers",
+          "link": "https://arxiv.org/abs/2103.17239v2"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
         "n": "CaiT-M-36 U 224",
         "d": "2021-03-31",
         "m1": "81.8"
       },
       {
-        "p": "[DenseNets Reloaded: Paradigm Shift Beyond ResNets and ViTs](https://arxiv.org/abs/2403.19588v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/pytorch-image-models)",
+        "p": {
+          "name": "DenseNets Reloaded: Paradigm Shift Beyond ResNets and ViTs",
+          "link": "https://arxiv.org/abs/2403.19588v2"
+        },
+        "c": "https://github.com/huggingface/pytorch-image-models",
         "n": "RDNet-T (224 res, IN-1K pretrained)",
         "d": "2024-03-28",
         "m1": "81.2",
         "m2": "24M"
       },
       {
-        "p": "[Incorporating Convolution Designs into Visual Transformers](https://arxiv.org/abs/2103.11816v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/rishikksh20/CeiT-pytorch)",
+        "p": {
+          "name": "Incorporating Convolution Designs into Visual Transformers",
+          "link": "https://arxiv.org/abs/2103.11816v2"
+        },
+        "c": "https://github.com/rishikksh20/CeiT-pytorch",
         "n": "CeiT-S",
         "d": "2021-03-22",
         "m1": "78.9"
       },
       {
-        "p": "[Incorporating Convolution Designs into Visual Transformers](https://arxiv.org/abs/2103.11816v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/rishikksh20/CeiT-pytorch)",
+        "p": {
+          "name": "Incorporating Convolution Designs into Visual Transformers",
+          "link": "https://arxiv.org/abs/2103.11816v2"
+        },
+        "c": "https://github.com/rishikksh20/CeiT-pytorch",
         "n": "CeiT-T (384 finetune resolution)",
         "d": "2021-03-22",
         "m1": "77.9"
       },
       {
-        "p": "[ResNet strikes back: An improved training procedure in timm](https://arxiv.org/abs/2110.00476v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "p": {
+          "name": "ResNet strikes back: An improved training procedure in timm",
+          "link": "https://arxiv.org/abs/2110.00476v1"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
         "n": "ResNet50 (A2)",
         "d": "2021-10-01",
         "m1": "75.0"
       },
       {
-        "p": "[LeViT: a Vision Transformer in ConvNet's Clothing for Faster Inference](https://arxiv.org/abs/2104.01136v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "LeViT: a Vision Transformer in ConvNet's Clothing for Faster Inference",
+          "link": "https://arxiv.org/abs/2104.01136v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "LeViT-384",
         "d": "2021-04-02",
         "m1": "74.3"
       },
       {
-        "p": "[Incorporating Convolution Designs into Visual Transformers](https://arxiv.org/abs/2103.11816v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/rishikksh20/CeiT-pytorch)",
+        "p": {
+          "name": "Incorporating Convolution Designs into Visual Transformers",
+          "link": "https://arxiv.org/abs/2103.11816v2"
+        },
+        "c": "https://github.com/rishikksh20/CeiT-pytorch",
         "n": "CeiT-T",
         "d": "2021-03-22",
         "m1": "72.8"
       },
       {
-        "p": "[ResMLP: Feedforward networks for image classification with data-efficient training](https://arxiv.org/abs/2105.03404v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "p": {
+          "name": "ResMLP: Feedforward networks for image classification with data-efficient training",
+          "link": "https://arxiv.org/abs/2105.03404v2"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
         "n": "ResMLP-24",
         "d": "2021-05-07",
         "m1": "72.5"
       },
       {
-        "p": "[LeViT: a Vision Transformer in ConvNet's Clothing for Faster Inference](https://arxiv.org/abs/2104.01136v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "LeViT: a Vision Transformer in ConvNet's Clothing for Faster Inference",
+          "link": "https://arxiv.org/abs/2104.01136v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "LeViT-256",
         "d": "2021-04-02",
         "m1": "72.3"
       },
       {
-        "p": "[ResMLP: Feedforward networks for image classification with data-efficient training](https://arxiv.org/abs/2105.03404v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "p": {
+          "name": "ResMLP: Feedforward networks for image classification with data-efficient training",
+          "link": "https://arxiv.org/abs/2105.03404v2"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
         "n": "ResMLP-12",
         "d": "2021-05-07",
         "m1": "71.0"
       },
       {
-        "p": "[LeViT: a Vision Transformer in ConvNet's Clothing for Faster Inference](https://arxiv.org/abs/2104.01136v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "LeViT: a Vision Transformer in ConvNet's Clothing for Faster Inference",
+          "link": "https://arxiv.org/abs/2104.01136v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "LeViT-192",
         "d": "2021-04-02",
         "m1": "70.8"
       },
       {
-        "p": "[LeViT: a Vision Transformer in ConvNet's Clothing for Faster Inference](https://arxiv.org/abs/2104.01136v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "LeViT: a Vision Transformer in ConvNet's Clothing for Faster Inference",
+          "link": "https://arxiv.org/abs/2104.01136v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "LeViT-128",
         "d": "2021-04-02",
         "m1": "68.4"
       },
       {
-        "p": "[LeViT: a Vision Transformer in ConvNet's Clothing for Faster Inference](https://arxiv.org/abs/2104.01136v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "LeViT: a Vision Transformer in ConvNet's Clothing for Faster Inference",
+          "link": "https://arxiv.org/abs/2104.01136v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "LeViT-128S",
         "d": "2021-04-02",
         "m1": "66.5"

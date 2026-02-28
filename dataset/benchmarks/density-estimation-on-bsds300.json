@@ -58,15 +58,21 @@
     ],
     "items": [
       {
-        "p": "[Transformation Autoregressive Networks](http://arxiv.org/abs/1801.09819v5)",
+        "p": {
+          "name": "Transformation Autoregressive Networks",
+          "link": "http://arxiv.org/abs/1801.09819v5"
+        },
         "c": "",
         "n": "TAN",
         "d": "2018-01-30",
         "m1": "159.8"
       },
       {
-        "p": "[FFJORD: Free-form Continuous Dynamics for Scalable Reversible Generative Models](http://arxiv.org/abs/1810.01367v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/rtqichen/ffjord)",
+        "p": {
+          "name": "FFJORD: Free-form Continuous Dynamics for Scalable Reversible Generative Models",
+          "link": "http://arxiv.org/abs/1810.01367v3"
+        },
+        "c": "https://github.com/rtqichen/ffjord",
         "n": "FFJORD",
         "d": "2018-10-02",
         "m1": "157.4",
@@ -77,22 +83,31 @@
         "m6": "0.0227"
       },
       {
-        "p": "[Block Neural Autoregressive Flow](http://arxiv.org/abs/1904.04676v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/nicola-decao/BNAF)",
+        "p": {
+          "name": "Block Neural Autoregressive Flow",
+          "link": "http://arxiv.org/abs/1904.04676v1"
+        },
+        "c": "https://github.com/nicola-decao/BNAF",
         "n": "B-NAF",
         "d": "2019-04-09",
         "m1": "157.36"
       },
       {
-        "p": "[Masked Autoregressive Flow for Density Estimation](http://arxiv.org/abs/1705.07057v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/probability)",
+        "p": {
+          "name": "Masked Autoregressive Flow for Density Estimation",
+          "link": "http://arxiv.org/abs/1705.07057v4"
+        },
+        "c": "https://github.com/tensorflow/probability",
         "n": "MADE MoG",
         "d": "2017-05-19",
         "m1": "153.71"
       },
       {
-        "p": "[PaddingFlow: Improving Normalizing Flows with Padding-Dimensional Noise](https://arxiv.org/abs/2403.08216v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/adamqlmeng/paddingflow)",
+        "p": {
+          "name": "PaddingFlow: Improving Normalizing Flows with Padding-Dimensional Noise",
+          "link": "https://arxiv.org/abs/2403.08216v2"
+        },
+        "c": "https://github.com/adamqlmeng/paddingflow",
         "n": "PaddingFlow",
         "d": "2024-03-13",
         "m3": "0.495",

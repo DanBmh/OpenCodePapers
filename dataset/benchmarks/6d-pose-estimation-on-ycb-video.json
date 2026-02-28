@@ -54,8 +54,11 @@
     ],
     "items": [
       {
-        "p": "[PoET: Pose Estimation Transformer for Single-View, Multi-Object 6D Pose Estimation](https://arxiv.org/abs/2211.14125v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/aau-cns/poet)",
+        "p": {
+          "name": "PoET: Pose Estimation Transformer for Single-View, Multi-Object 6D Pose Estimation",
+          "link": "https://arxiv.org/abs/2211.14125v1"
+        },
+        "c": "https://github.com/aau-cns/poet",
         "n": "PoET",
         "d": "2022-11-25",
         "m1": "70.1",
@@ -63,16 +66,22 @@
         "m5": "87.1"
       },
       {
-        "p": "[Occlusion-Robust Object Pose Estimation with Holistic Representation](https://arxiv.org/abs/2110.11636v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/bochenys/rope)",
+        "p": {
+          "name": "Occlusion-Robust Object Pose Estimation with Holistic Representation",
+          "link": "https://arxiv.org/abs/2110.11636v1"
+        },
+        "c": "https://github.com/bochenys/rope",
         "n": "ROPE",
         "d": "2021-10-22",
         "m1": "66.59",
         "m4": "79.88"
       },
       {
-        "p": "[PoseCNN: A Convolutional Neural Network for 6D Object Pose Estimation in Cluttered Scenes](http://arxiv.org/abs/1711.00199v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/yuxng/PoseCNN)",
+        "p": {
+          "name": "PoseCNN: A Convolutional Neural Network for 6D Object Pose Estimation in Cluttered Scenes",
+          "link": "http://arxiv.org/abs/1711.00199v3"
+        },
+        "c": "https://github.com/yuxng/PoseCNN",
         "n": "PoseCNN",
         "d": "2017-11-01",
         "m1": "53.7",
@@ -80,16 +89,22 @@
         "m3": "75.9"
       },
       {
-        "p": "[Segmentation-driven 6D Object Pose Estimation](http://arxiv.org/abs/1812.02541v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/cvlab-epfl/segmentation-driven-pose)",
+        "p": {
+          "name": "Segmentation-driven 6D Object Pose Estimation",
+          "link": "http://arxiv.org/abs/1812.02541v3"
+        },
+        "c": "https://github.com/cvlab-epfl/segmentation-driven-pose",
         "n": "SegDriven",
         "d": "2018-12-06",
         "m1": "39",
         "m2": "39.0%"
       },
       {
-        "p": "[PVNet: Pixel-wise Voting Network for 6DoF Pose Estimation](http://arxiv.org/abs/1812.11788v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/zju3dv/pvnet)",
+        "p": {
+          "name": "PVNet: Pixel-wise Voting Network for 6DoF Pose Estimation",
+          "link": "http://arxiv.org/abs/1812.11788v1"
+        },
+        "c": "https://github.com/zju3dv/pvnet",
         "n": "PVNet",
         "d": "2018-12-31",
         "m4": "73.4%"

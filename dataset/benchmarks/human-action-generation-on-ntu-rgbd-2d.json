@@ -48,8 +48,11 @@
     ],
     "items": [
       {
-        "p": "[Generative Adversarial Graph Convolutional Networks for Human Action Synthesis](https://arxiv.org/abs/2110.11191v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/degardinbruno/kinetic-gan)",
+        "p": {
+          "name": "Generative Adversarial Graph Convolutional Networks for Human Action Synthesis",
+          "link": "https://arxiv.org/abs/2110.11191v3"
+        },
+        "c": "https://github.com/degardinbruno/kinetic-gan",
         "n": "Kinetic-GAN",
         "d": "2021-10-21",
         "m1": "0.256",
@@ -58,8 +61,11 @@
         "m4": "0.310"
       },
       {
-        "p": "[Structure-Aware Human-Action Generation](https://arxiv.org/abs/2007.01971v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/PingYu-iris/SA-GCN)",
+        "p": {
+          "name": "Structure-Aware Human-Action Generation",
+          "link": "https://arxiv.org/abs/2007.01971v3"
+        },
+        "c": "https://github.com/PingYu-iris/SA-GCN",
         "n": "SA-GCN",
         "d": "2020-07-04",
         "m1": "0.285",
@@ -68,8 +74,11 @@
         "m4": "0.335"
       },
       {
-        "p": "[Conditional Generative Adversarial Nets](https://arxiv.org/abs/1411.1784v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/tree/main/Conditional_Generative_Adversarial_Nets)",
+        "p": {
+          "name": "Conditional Generative Adversarial Nets",
+          "link": "https://arxiv.org/abs/1411.1784v1"
+        },
+        "c": "https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/tree/main/Conditional_Generative_Adversarial_Nets",
         "n": "c-GAN",
         "d": "2014-11-06",
         "m1": "0.334",
@@ -78,8 +87,11 @@
         "m4": "0.373"
       },
       {
-        "p": "[Learning Diverse Stochastic Human-Action Generators by Learning Smooth Latent Transitions](https://arxiv.org/abs/1912.10150v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/zheshiyige/Learning-Diverse-Stochastic-Human-Action-Generators-by-Learning-Smooth-Latent-Transitions)",
+        "p": {
+          "name": "Learning Diverse Stochastic Human-Action Generators by Learning Smooth Latent Transitions",
+          "link": "https://arxiv.org/abs/1912.10150v1"
+        },
+        "c": "https://github.com/zheshiyige/Learning-Diverse-Stochastic-Human-Action-Generators-by-Learning-Smooth-Latent-Transitions",
         "n": "c-SkeletonGAN",
         "d": "2019-12-21",
         "m1": "0.338",
@@ -88,7 +100,10 @@
         "m4": "0.398"
       },
       {
-        "p": "[Deep Video Generation, Prediction and Completion of Human Action Sequences](http://arxiv.org/abs/1711.08682v3)",
+        "p": {
+          "name": "Deep Video Generation, Prediction and Completion of Human Action Sequences",
+          "link": "http://arxiv.org/abs/1711.08682v3"
+        },
         "c": "",
         "n": "SkeletonGAN",
         "d": "2017-11-23",

@@ -33,36 +33,51 @@
     ],
     "items": [
       {
-        "p": "[ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning](https://arxiv.org/abs/2203.10244v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/vis-nlp/chartqa)",
+        "p": {
+          "name": "ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning",
+          "link": "https://arxiv.org/abs/2203.10244v1"
+        },
+        "c": "https://github.com/vis-nlp/chartqa",
         "n": "crct - baseline",
         "d": "2022-03-19",
         "m1": "0.178733575026565"
       },
       {
-        "p": "[PlotQA: Reasoning over Scientific Plots](https://arxiv.org/abs/1909.00997v3)",
+        "p": {
+          "name": "PlotQA: Reasoning over Scientific Plots",
+          "link": "https://arxiv.org/abs/1909.00997v3"
+        },
         "c": "",
         "n": "vlt5 - baseline",
         "d": "2019-09-03",
         "m1": "0.18800146654481"
       },
       {
-        "p": "[RealCQA: Scientific Chart Question Answering as a Test-bed for First-Order Logic](https://arxiv.org/abs/2308.01979v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/cse-ai-lab/RealCQA)",
+        "p": {
+          "name": "RealCQA: Scientific Chart Question Answering as a Test-bed for First-Order Logic",
+          "link": "https://arxiv.org/abs/2308.01979v1"
+        },
+        "c": "https://github.com/cse-ai-lab/RealCQA",
         "n": "crct- 11th ep FineTune",
         "d": "2023-08-03",
         "m1": "0.239897973990427"
       },
       {
-        "p": "[MatCha: Enhancing Visual Language Pretraining with Math Reasoning and Chart Derendering](https://arxiv.org/abs/2212.09662v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "MatCha: Enhancing Visual Language Pretraining with Math Reasoning and Chart Derendering",
+          "link": "https://arxiv.org/abs/2212.09662v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "Matcha-chartQA",
         "d": "2022-12-19",
         "m1": "0.259728175283818"
       },
       {
-        "p": "[RealCQA: Scientific Chart Question Answering as a Test-bed for First-Order Logic](https://arxiv.org/abs/2308.01979v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/cse-ai-lab/RealCQA)",
+        "p": {
+          "name": "RealCQA: Scientific Chart Question Answering as a Test-bed for First-Order Logic",
+          "link": "https://arxiv.org/abs/2308.01979v1"
+        },
+        "c": "https://github.com/cse-ai-lab/RealCQA",
         "n": "vlt5 - 11th ep FineTune",
         "d": "2023-08-03",
         "m1": "0.310618012706403"

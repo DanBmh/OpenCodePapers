@@ -53,8 +53,11 @@
     ],
     "items": [
       {
-        "p": "[Metric3Dv2: A Versatile Monocular Geometric Foundation Model for Zero-shot Metric Depth and Surface Normal Estimation](https://arxiv.org/abs/2404.15506v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/yvanyin/metric3d)",
+        "p": {
+          "name": "Metric3Dv2: A Versatile Monocular Geometric Foundation Model for Zero-shot Metric Depth and Surface Normal Estimation",
+          "link": "https://arxiv.org/abs/2404.15506v4"
+        },
+        "c": "https://github.com/yvanyin/metric3d",
         "n": "Metric3Dv2(L, FT)",
         "d": "2024-03-22",
         "m1": "68.8",
@@ -64,8 +67,11 @@
         "m5": "19.2"
       },
       {
-        "p": "[PolyMaX: General Dense Prediction with Mask Transformer](https://arxiv.org/abs/2311.05770v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/deeplab2)",
+        "p": {
+          "name": "PolyMaX: General Dense Prediction with Mask Transformer",
+          "link": "https://arxiv.org/abs/2311.05770v1"
+        },
+        "c": "https://github.com/google-research/deeplab2",
         "n": "PolyMaX(ConvNeXt-L)",
         "d": "2023-11-09",
         "m1": "65.66",
@@ -75,8 +81,11 @@
         "m5": "20.4"
       },
       {
-        "p": "[iDisc: Internal Discretization for Monocular Depth Estimation](https://arxiv.org/abs/2304.06334v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/lpiccinelli-eth/unidepth)",
+        "p": {
+          "name": "iDisc: Internal Discretization for Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2304.06334v1"
+        },
+        "c": "https://github.com/lpiccinelli-eth/unidepth",
         "n": "iDisc",
         "d": "2023-04-13",
         "m1": "63.8",
@@ -86,8 +95,11 @@
         "m5": "22.8"
       },
       {
-        "p": "[Estimating and Exploiting the Aleatoric Uncertainty in Surface Normal Estimation](https://arxiv.org/abs/2109.09881v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/baegwangbin/surface_normal_uncertainty)",
+        "p": {
+          "name": "Estimating and Exploiting the Aleatoric Uncertainty in Surface Normal Estimation",
+          "link": "https://arxiv.org/abs/2109.09881v1"
+        },
+        "c": "https://github.com/baegwangbin/surface_normal_uncertainty",
         "n": "Bae et al.",
         "d": "2021-09-20",
         "m1": "62.2",
@@ -97,16 +109,22 @@
         "m5": "23.5"
       },
       {
-        "p": "[Fine-Tuning Image-Conditional Diffusion Models is Easier than You Think](https://arxiv.org/abs/2409.11355v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/VisualComputingInstitute/diffusion-e2e-ft)",
+        "p": {
+          "name": "Fine-Tuning Image-Conditional Diffusion Models is Easier than You Think",
+          "link": "https://arxiv.org/abs/2409.11355v1"
+        },
+        "c": "https://github.com/VisualComputingInstitute/diffusion-e2e-ft",
         "n": "Marigold + E2E FT(zero-shot)",
         "d": "2024-09-17",
         "m1": "61.4",
         "m4": "16.2"
       },
       {
-        "p": "[Floors are Flat: Leveraging Semantics for Real-Time Surface Normal Prediction](https://arxiv.org/abs/1906.06792v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/StevenHickson/CreateNormals)",
+        "p": {
+          "name": "Floors are Flat: Leveraging Semantics for Real-Time Surface Normal Prediction",
+          "link": "https://arxiv.org/abs/1906.06792v1"
+        },
+        "c": "https://github.com/StevenHickson/CreateNormals",
         "n": "Floors are Flat",
         "d": "2019-06-16",
         "m1": "59.5",

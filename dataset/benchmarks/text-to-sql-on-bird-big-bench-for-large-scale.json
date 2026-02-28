@@ -43,8 +43,11 @@
     ],
     "items": [
       {
-        "p": "[A Preview of XiYan-SQL: A Multi-Generator Ensemble Framework for Text-to-SQL](https://arxiv.org/abs/2411.08599v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/XGenerationLab/XiYan-SQL)",
+        "p": {
+          "name": "A Preview of XiYan-SQL: A Multi-Generator Ensemble Framework for Text-to-SQL",
+          "link": "https://arxiv.org/abs/2411.08599v3"
+        },
+        "c": "https://github.com/XGenerationLab/XiYan-SQL",
         "n": "XiYan-SQL",
         "d": "2024-11-13",
         "m1": "75.63",
@@ -59,7 +62,10 @@
         "m2": "74.32"
       },
       {
-        "p": "[CHASE-SQL: Multi-Path Reasoning and Preference Optimized Candidate Selection in Text-to-SQL](https://arxiv.org/abs/2410.01943v1)",
+        "p": {
+          "name": "CHASE-SQL: Multi-Path Reasoning and Preference Optimized Candidate Selection in Text-to-SQL",
+          "link": "https://arxiv.org/abs/2410.01943v1"
+        },
         "c": "",
         "n": "CHASE-SQL + Gemini",
         "d": "2024-10-02",
@@ -83,7 +89,10 @@
         "m2": "69.3"
       },
       {
-        "p": "[The Death of Schema Linking? Text-to-SQL in the Age of Well-Reasoned Language Models](https://arxiv.org/abs/2408.07702v2)",
+        "p": {
+          "name": "The Death of Schema Linking? Text-to-SQL in the Age of Well-Reasoned Language Models",
+          "link": "https://arxiv.org/abs/2408.07702v2"
+        },
         "c": "",
         "n": "Distillery + GPT-4o",
         "d": "2024-08-14",
@@ -139,8 +148,11 @@
         "m2": "65.38"
       },
       {
-        "p": "[CHESS: Contextual Harnessing for Efficient SQL Synthesis](https://arxiv.org/abs/2405.16755v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/shayantalaei/chess)",
+        "p": {
+          "name": "CHESS: Contextual Harnessing for Efficient SQL Synthesis",
+          "link": "https://arxiv.org/abs/2405.16755v3"
+        },
+        "c": "https://github.com/shayantalaei/chess",
         "n": "CHESS",
         "d": "2024-05-27",
         "m1": "66.69",
@@ -251,8 +263,11 @@
         "m2": "58.47"
       },
       {
-        "p": "[MAC-SQL: A Multi-Agent Collaborative Framework for Text-to-SQL](https://arxiv.org/abs/2312.11242v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/wbbeyourself/mac-sql)",
+        "p": {
+          "name": "MAC-SQL: A Multi-Agent Collaborative Framework for Text-to-SQL",
+          "link": "https://arxiv.org/abs/2312.11242v5"
+        },
+        "c": "https://github.com/wbbeyourself/mac-sql",
         "n": "MAC-SQL + GPT-4",
         "d": "2023-12-18",
         "m1": "59.59",
@@ -267,32 +282,44 @@
         "m2": "57.17"
       },
       {
-        "p": "[Text-to-SQL Empowered by Large Language Models: A Benchmark Evaluation](https://arxiv.org/abs/2308.15363v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/beachwang/dail-sql)",
+        "p": {
+          "name": "Text-to-SQL Empowered by Large Language Models: A Benchmark Evaluation",
+          "link": "https://arxiv.org/abs/2308.15363v4"
+        },
+        "c": "https://github.com/beachwang/dail-sql",
         "n": "DAIL-SQL + GPT-4",
         "d": "2023-08-29",
         "m1": "57.41",
         "m2": "54.76"
       },
       {
-        "p": "[DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction](https://arxiv.org/abs/2304.11015v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/mohammadrezapourreza/few-shot-nl2sql-with-prompting)",
+        "p": {
+          "name": "DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction",
+          "link": "https://arxiv.org/abs/2304.11015v3"
+        },
+        "c": "https://github.com/mohammadrezapourreza/few-shot-nl2sql-with-prompting",
         "n": "DIN-SQL + GPT-4",
         "d": "2023-04-21",
         "m1": "55.90",
         "m2": "50.72"
       },
       {
-        "p": "[Can LLMs Effectively Leverage Graph Structural Information through Prompts, and Why?](https://arxiv.org/abs/2309.16595v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/CurryTang/Graph-LLM)",
+        "p": {
+          "name": "Can LLMs Effectively Leverage Graph Structural Information through Prompts, and Why?",
+          "link": "https://arxiv.org/abs/2309.16595v4"
+        },
+        "c": "https://github.com/CurryTang/Graph-LLM",
         "n": "GPT-4 (Baseline)",
         "d": "2023-09-28",
         "m1": "54.89",
         "m2": "46.35"
       },
       {
-        "p": "[Can LLMs Effectively Leverage Graph Structural Information through Prompts, and Why?](https://arxiv.org/abs/2309.16595v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/CurryTang/Graph-LLM)",
+        "p": {
+          "name": "Can LLMs Effectively Leverage Graph Structural Information through Prompts, and Why?",
+          "link": "https://arxiv.org/abs/2309.16595v4"
+        },
+        "c": "https://github.com/CurryTang/Graph-LLM",
         "n": "Claude-2 (Baseline)",
         "d": "2023-09-28",
         "m1": "49.02",
@@ -307,40 +334,55 @@
         "m2": "37.68"
       },
       {
-        "p": "[Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs](https://arxiv.org/abs/2305.03111v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/bird-bench/mini_dev)",
+        "p": {
+          "name": "Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs",
+          "link": "https://arxiv.org/abs/2305.03111v3"
+        },
+        "c": "https://github.com/bird-bench/mini_dev",
         "n": "CoT + ChatGPT",
         "d": "2023-05-04",
         "m1": "40.08",
         "m2": "36.64"
       },
       {
-        "p": "[Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs](https://arxiv.org/abs/2305.03111v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/bird-bench/mini_dev)",
+        "p": {
+          "name": "Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs",
+          "link": "https://arxiv.org/abs/2305.03111v3"
+        },
+        "c": "https://github.com/bird-bench/mini_dev",
         "n": "ChatGPT (Baseline)",
         "d": "2023-05-04",
         "m1": "39.30",
         "m2": "37.22"
       },
       {
-        "p": "[Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs](https://arxiv.org/abs/2305.03111v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/bird-bench/mini_dev)",
+        "p": {
+          "name": "Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs",
+          "link": "https://arxiv.org/abs/2305.03111v3"
+        },
+        "c": "https://github.com/bird-bench/mini_dev",
         "n": "Codex (Baseline)",
         "d": "2023-05-04",
         "m1": "36.47",
         "m2": "34.35"
       },
       {
-        "p": "[Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs](https://arxiv.org/abs/2305.03111v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/bird-bench/mini_dev)",
+        "p": {
+          "name": "Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs",
+          "link": "https://arxiv.org/abs/2305.03111v3"
+        },
+        "c": "https://github.com/bird-bench/mini_dev",
         "n": "Palm-2 (Baseline)",
         "d": "2023-05-04",
         "m1": "33.04",
         "m2": "27.38"
       },
       {
-        "p": "[MSc-SQL: Multi-Sample Critiquing Small Language Models For Text-To-SQL Translation](https://arxiv.org/abs/2410.12916v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/layer6ai-labs/msc-sql)",
+        "p": {
+          "name": "MSc-SQL: Multi-Sample Critiquing Small Language Models For Text-To-SQL Translation",
+          "link": "https://arxiv.org/abs/2410.12916v1"
+        },
+        "c": "https://github.com/layer6ai-labs/msc-sql",
         "n": "MSc-SQL",
         "d": "2024-10-16",
         "m2": "65.6"
@@ -353,15 +395,21 @@
         "m2": "64.62"
       },
       {
-        "p": "[Knowledge-to-SQL: Enhancing SQL Generation with Data Expert LLM](https://arxiv.org/abs/2402.11517v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/Rcrossmeister/Knowledge-to-SQL)",
+        "p": {
+          "name": "Knowledge-to-SQL: Enhancing SQL Generation with Data Expert LLM",
+          "link": "https://arxiv.org/abs/2402.11517v3"
+        },
+        "c": "https://github.com/Rcrossmeister/Knowledge-to-SQL",
         "n": "DELLM + MAC-SQL",
         "d": "2024-02-18",
         "m2": "48.92"
       },
       {
-        "p": "[Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs](https://arxiv.org/abs/2305.03111v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/bird-bench/mini_dev)",
+        "p": {
+          "name": "Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs",
+          "link": "https://arxiv.org/abs/2305.03111v3"
+        },
+        "c": "https://github.com/bird-bench/mini_dev",
         "n": "Human Performance",
         "d": "2023-05-04",
         "m3": "92.96"

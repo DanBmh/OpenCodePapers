@@ -43,8 +43,11 @@
     ],
     "items": [
       {
-        "p": "[SleePyCo: Automatic Sleep Scoring with Feature Pyramid and Contrastive Learning](https://arxiv.org/abs/2209.09452v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/gist-ailab/sleepyco)",
+        "p": {
+          "name": "SleePyCo: Automatic Sleep Scoring with Feature Pyramid and Contrastive Learning",
+          "link": "https://arxiv.org/abs/2209.09452v1"
+        },
+        "c": "https://github.com/gist-ailab/sleepyco",
         "n": "SleePyCo (Fpz-Cz only)",
         "d": "2022-09-20",
         "m1": "86.8%",
@@ -52,8 +55,11 @@
         "m3": "0.812"
       },
       {
-        "p": "[Do Not Sleep on Traditional Machine Learning: Simple and Interpretable Techniques Are Competitive to Deep Learning for Sleep Scoring](https://arxiv.org/abs/2207.07753v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/predict-idlab/sleep-linear)",
+        "p": {
+          "name": "Do Not Sleep on Traditional Machine Learning: Simple and Interpretable Techniques Are Competitive to Deep Learning for Sleep Scoring",
+          "link": "https://arxiv.org/abs/2207.07753v3"
+        },
+        "c": "https://github.com/predict-idlab/sleep-linear",
         "n": "CatBoost",
         "d": "2022-07-15",
         "m1": "86.6%",
@@ -61,8 +67,11 @@
         "m3": "0.810"
       },
       {
-        "p": "[XSleepNet: Multi-View Sequential Model for Automatic Sleep Staging](https://arxiv.org/abs/2007.05492v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/pquochuy/xsleepnet)",
+        "p": {
+          "name": "XSleepNet: Multi-View Sequential Model for Automatic Sleep Staging",
+          "link": "https://arxiv.org/abs/2007.05492v4"
+        },
+        "c": "https://github.com/pquochuy/xsleepnet",
         "n": "XSleepNet (EEG, EOG)",
         "d": "2020-07-08",
         "m1": "86.4%",
@@ -70,8 +79,11 @@
         "m3": "0.809"
       },
       {
-        "p": "[Do Not Sleep on Traditional Machine Learning: Simple and Interpretable Techniques Are Competitive to Deep Learning for Sleep Scoring](https://arxiv.org/abs/2207.07753v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/predict-idlab/sleep-linear)",
+        "p": {
+          "name": "Do Not Sleep on Traditional Machine Learning: Simple and Interpretable Techniques Are Competitive to Deep Learning for Sleep Scoring",
+          "link": "https://arxiv.org/abs/2207.07753v3"
+        },
+        "c": "https://github.com/predict-idlab/sleep-linear",
         "n": "Linear model",
         "d": "2022-07-15",
         "m1": "86.3%",
@@ -79,15 +91,21 @@
         "m3": "0.805"
       },
       {
-        "p": "[Intra- and Inter-epoch Temporal Context Network (IITNet) Using Sub-epoch Features for Automatic Sleep Scoring on Raw Single-channel EEG](https://arxiv.org/abs/1902.06562v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/gist-ailab/IITNet-official)",
+        "p": {
+          "name": "Intra- and Inter-epoch Temporal Context Network (IITNet) Using Sub-epoch Features for Automatic Sleep Scoring on Raw Single-channel EEG",
+          "link": "https://arxiv.org/abs/1902.06562v2"
+        },
+        "c": "https://github.com/gist-ailab/IITNet-official",
         "n": "IITNet CRNN (Fpz-Cz only)",
         "d": "2019-02-18",
         "m1": "84.0%"
       },
       {
-        "p": "[DeepSleepNet: a Model for Automatic Sleep Stage Scoring based on Raw Single-Channel EEG](http://arxiv.org/abs/1703.04046v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/akaraspt/deepsleepnet)",
+        "p": {
+          "name": "DeepSleepNet: a Model for Automatic Sleep Stage Scoring based on Raw Single-Channel EEG",
+          "link": "http://arxiv.org/abs/1703.04046v2"
+        },
+        "c": "https://github.com/akaraspt/deepsleepnet",
         "n": "DeepSleepNet",
         "d": "2017-03-12",
         "m1": "82%",
@@ -95,14 +113,20 @@
         "m3": "0.769"
       },
       {
-        "p": "[Joint Classification and Prediction CNN Framework for Automatic Sleep Stage Classification](http://arxiv.org/abs/1805.06546v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/pquochuy/MultitaskSleepNet)",
+        "p": {
+          "name": "Joint Classification and Prediction CNN Framework for Automatic Sleep Stage Classification",
+          "link": "http://arxiv.org/abs/1805.06546v3"
+        },
+        "c": "https://github.com/pquochuy/MultitaskSleepNet",
         "n": "Multitask 1-max CNN",
         "d": "2018-05-16",
         "m1": "81.9%"
       },
       {
-        "p": "[Deep Convolutional Neural Networks for Interpretable Analysis of EEG Sleep Stage Scoring](http://arxiv.org/abs/1710.00633v1)",
+        "p": {
+          "name": "Deep Convolutional Neural Networks for Interpretable Analysis of EEG Sleep Stage Scoring",
+          "link": "http://arxiv.org/abs/1710.00633v1"
+        },
         "c": "",
         "n": "Deep CNN with\ntransfer-learning",
         "d": "2017-10-02",

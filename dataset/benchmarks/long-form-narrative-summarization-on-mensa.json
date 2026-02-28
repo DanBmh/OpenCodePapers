@@ -49,7 +49,10 @@
     ],
     "items": [
       {
-        "p": "[NexusSum: Hierarchical LLM Agents for Long-Form Narrative Summarization](https://arxiv.org/abs/2505.24575v1)",
+        "p": {
+          "name": "NexusSum: Hierarchical LLM Agents for Long-Form Narrative Summarization",
+          "link": "https://arxiv.org/abs/2505.24575v1"
+        },
         "c": "",
         "n": "NexusSum (Mistral Large)",
         "d": "2025-05-30",
@@ -59,15 +62,21 @@
         "m4": "19.23"
       },
       {
-        "p": "[End-to-End Long Document Summarization using Gradient Caching](https://arxiv.org/abs/2501.01805v1)",
+        "p": {
+          "name": "End-to-End Long Document Summarization using Gradient Caching",
+          "link": "https://arxiv.org/abs/2501.01805v1"
+        },
         "c": "",
         "n": "CachED (BART Large)",
         "d": "2025-01-03",
         "m1": "64.6"
       },
       {
-        "p": "[Agent-as-Judge for Factual Summarization of Long Narratives](https://arxiv.org/abs/2501.09993v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/yeonseokjeong/narrativefactscore)",
+        "p": {
+          "name": "Agent-as-Judge for Factual Summarization of Long Narratives",
+          "link": "https://arxiv.org/abs/2501.09993v1"
+        },
+        "c": "https://github.com/yeonseokjeong/narrativefactscore",
         "n": "Hierarchically Merging and Agent Refinement",
         "d": "2025-01-17",
         "m1": "60.22",
@@ -76,35 +85,50 @@
         "m4": "18.62"
       },
       {
-        "p": "[End-to-End Long Document Summarization using Gradient Caching](https://arxiv.org/abs/2501.01805v1)",
+        "p": {
+          "name": "End-to-End Long Document Summarization using Gradient Caching",
+          "link": "https://arxiv.org/abs/2501.01805v1"
+        },
         "c": "",
         "n": "Unlimiformer (BART Base)",
         "d": "2025-01-03",
         "m1": "58.7"
       },
       {
-        "p": "[End-to-End Long Document Summarization using Gradient Caching](https://arxiv.org/abs/2501.01805v1)",
+        "p": {
+          "name": "End-to-End Long Document Summarization using Gradient Caching",
+          "link": "https://arxiv.org/abs/2501.01805v1"
+        },
         "c": "",
         "n": "SLED (BART Large)",
         "d": "2025-01-03",
         "m1": "58.3"
       },
       {
-        "p": "[Select and Summarize: Scene Saliency for Movie Script Summarization](https://arxiv.org/abs/2404.03561v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/saxenarohit/select_summ)",
+        "p": {
+          "name": "Select and Summarize: Scene Saliency for Movie Script Summarization",
+          "link": "https://arxiv.org/abs/2404.03561v1"
+        },
+        "c": "https://github.com/saxenarohit/select_summ",
         "n": "SELECT & SUMM (LED)",
         "d": "2024-04-04",
         "m1": "57.46"
       },
       {
-        "p": "[Select and Summarize: Scene Saliency for Movie Script Summarization](https://arxiv.org/abs/2404.03561v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/saxenarohit/select_summ)",
+        "p": {
+          "name": "Select and Summarize: Scene Saliency for Movie Script Summarization",
+          "link": "https://arxiv.org/abs/2404.03561v1"
+        },
+        "c": "https://github.com/saxenarohit/select_summ",
         "n": "Two-Stage Heuristic (LED Large)",
         "d": "2024-04-04",
         "m1": "56.34"
       },
       {
-        "p": "[NexusSum: Hierarchical LLM Agents for Long-Form Narrative Summarization](https://arxiv.org/abs/2505.24575v1)",
+        "p": {
+          "name": "NexusSum: Hierarchical LLM Agents for Long-Form Narrative Summarization",
+          "link": "https://arxiv.org/abs/2505.24575v1"
+        },
         "c": "",
         "n": "Zero-Shot (Mistral Large)",
         "d": "2025-05-30",
@@ -114,15 +138,21 @@
         "m4": "21.52"
       },
       {
-        "p": "[End-to-End Long Document Summarization using Gradient Caching](https://arxiv.org/abs/2501.01805v1)",
+        "p": {
+          "name": "End-to-End Long Document Summarization using Gradient Caching",
+          "link": "https://arxiv.org/abs/2501.01805v1"
+        },
         "c": "",
         "n": "Zero-Shot (GPT-4o)",
         "d": "2025-01-03",
         "m1": "52.8"
       },
       {
-        "p": "[Select and Summarize: Scene Saliency for Movie Script Summarization](https://arxiv.org/abs/2404.03561v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/saxenarohit/select_summ)",
+        "p": {
+          "name": "Select and Summarize: Scene Saliency for Movie Script Summarization",
+          "link": "https://arxiv.org/abs/2404.03561v1"
+        },
+        "c": "https://github.com/saxenarohit/select_summ",
         "n": "SUMM-N Multi Stage",
         "d": "2024-04-04",
         "m1": "40.87"

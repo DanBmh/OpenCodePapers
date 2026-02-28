@@ -33,29 +33,41 @@
     ],
     "items": [
       {
-        "p": "[GOLD: Generalized Knowledge Distillation via Out-of-Distribution-Guided Language Data Generation](https://arxiv.org/abs/2403.19754v1)",
+        "p": {
+          "name": "GOLD: Generalized Knowledge Distillation via Out-of-Distribution-Guided Language Data Generation",
+          "link": "https://arxiv.org/abs/2403.19754v1"
+        },
         "c": "",
         "n": "GOLD (T5-base)",
         "d": "2024-03-28",
         "m1": "91.7"
       },
       {
-        "p": "[ZeroGen: Efficient Zero-shot Learning via Dataset Generation](https://arxiv.org/abs/2202.07922v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/sumilergao/sungen)",
+        "p": {
+          "name": "ZeroGen: Efficient Zero-shot Learning via Dataset Generation",
+          "link": "https://arxiv.org/abs/2202.07922v2"
+        },
+        "c": "https://github.com/sumilergao/sungen",
         "n": "ZeroGen (T5-base)",
         "d": "2022-02-16",
         "m1": "88.5"
       },
       {
-        "p": "[ProGen: Progressive Zero-shot Dataset Generation via In-context Feedback](https://arxiv.org/abs/2210.12329v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/hkunlp/progen)",
+        "p": {
+          "name": "ProGen: Progressive Zero-shot Dataset Generation via In-context Feedback",
+          "link": "https://arxiv.org/abs/2210.12329v1"
+        },
+        "c": "https://github.com/hkunlp/progen",
         "n": "ProGen (T5-base)",
         "d": "2022-10-22",
         "m1": "85.9"
       },
       {
-        "p": "[Prompt2Model: Generating Deployable Models from Natural Language Instructions](https://arxiv.org/abs/2308.12261v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/neulab/prompt2model)",
+        "p": {
+          "name": "Prompt2Model: Generating Deployable Models from Natural Language Instructions",
+          "link": "https://arxiv.org/abs/2308.12261v1"
+        },
+        "c": "https://github.com/neulab/prompt2model",
         "n": "Prompt2Model (T5-base)",
         "d": "2023-08-23",
         "m1": "62.2"

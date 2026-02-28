@@ -49,8 +49,11 @@
     ],
     "items": [
       {
-        "p": "[Packed Levitated Marker for Entity and Relation Extraction](https://arxiv.org/abs/2109.06067v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/tomaarsen/spanmarkerner)",
+        "p": {
+          "name": "Packed Levitated Marker for Entity and Relation Extraction",
+          "link": "https://arxiv.org/abs/2109.06067v5"
+        },
+        "c": "https://github.com/tomaarsen/spanmarkerner",
         "n": "PL-Marker",
         "d": "2021-09-13",
         "m1": "53.2",
@@ -59,16 +62,22 @@
         "m4": "Yes"
       },
       {
-        "p": "[A Trigger-Sense Memory Flow Framework for Joint Entity and Relation Extraction](https://arxiv.org/abs/2101.10213v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/tricktreat/trimf)",
+        "p": {
+          "name": "A Trigger-Sense Memory Flow Framework for Joint Entity and Relation Extraction",
+          "link": "https://arxiv.org/abs/2101.10213v3"
+        },
+        "c": "https://github.com/tricktreat/trimf",
         "n": "TriMF",
         "d": "2021-01-25",
         "m1": "52.44",
         "m2": "70.17"
       },
       {
-        "p": "[Joint Entity and Relation Extraction from Scientific Documents: Role of Linguistic Information and Entity Types](http://ceur-ws.org/Vol-3004/paper2.pdf)",
-        "c": "[&check;&nbsp;Link](https://github.com/dksanyal/SpERT.PL)",
+        "p": {
+          "name": "Joint Entity and Relation Extraction from Scientific Documents: Role of Linguistic Information and Entity Types",
+          "link": "http://ceur-ws.org/Vol-3004/paper2.pdf"
+        },
+        "c": "https://github.com/dksanyal/SpERT.PL",
         "n": "SpERT.PL (SciBERT)",
         "d": "2021-09-30",
         "m1": "51.25",
@@ -76,8 +85,11 @@
         "m4": "No"
       },
       {
-        "p": "[Span-based Joint Entity and Relation Extraction with Transformer Pre-training](https://arxiv.org/abs/1909.07755v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/markus-eberts/spert)",
+        "p": {
+          "name": "Span-based Joint Entity and Relation Extraction with Transformer Pre-training",
+          "link": "https://arxiv.org/abs/1909.07755v4"
+        },
+        "c": "https://github.com/markus-eberts/spert",
         "n": "SpERT (with overlap)",
         "d": "2019-09-17",
         "m1": "50.84",
@@ -85,8 +97,11 @@
         "m4": "No"
       },
       {
-        "p": "[A Frustratingly Easy Approach for Entity and Relation Extraction](https://arxiv.org/abs/2010.12812v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/princeton-nlp/PURE)",
+        "p": {
+          "name": "A Frustratingly Easy Approach for Entity and Relation Extraction",
+          "link": "https://arxiv.org/abs/2010.12812v2"
+        },
+        "c": "https://github.com/princeton-nlp/PURE",
         "n": "Ours: cross-sentence",
         "d": "2020-10-24",
         "m1": "50.1",
@@ -95,8 +110,11 @@
         "m4": "Yes"
       },
       {
-        "p": "[Entity, Relation, and Event Extraction with Contextualized Span Representations](https://arxiv.org/abs/1909.03546v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/dwadden/dygiepp)",
+        "p": {
+          "name": "Entity, Relation, and Event Extraction with Contextualized Span Representations",
+          "link": "https://arxiv.org/abs/1909.03546v2"
+        },
+        "c": "https://github.com/dwadden/dygiepp",
         "n": "DyGIE++",
         "d": "2019-09-08",
         "m1": "48.40",
@@ -104,8 +122,11 @@
         "m4": "Yes"
       },
       {
-        "p": "[A General Framework for Information Extraction using Dynamic Span Graphs](http://arxiv.org/abs/1904.03296v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/luanyi/DyGIE)",
+        "p": {
+          "name": "A General Framework for Information Extraction using Dynamic Span Graphs",
+          "link": "http://arxiv.org/abs/1904.03296v1"
+        },
+        "c": "https://github.com/luanyi/DyGIE",
         "n": "DyGIE",
         "d": "2019-04-05",
         "m1": "41.6",
@@ -113,8 +134,11 @@
         "m4": "Yes"
       },
       {
-        "p": "[Multi-Task Identification of Entities, Relations, and Coreference for Scientific Knowledge Graph Construction](http://arxiv.org/abs/1808.09602v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/luanyi/DyGIE)",
+        "p": {
+          "name": "Multi-Task Identification of Entities, Relations, and Coreference for Scientific Knowledge Graph Construction",
+          "link": "http://arxiv.org/abs/1808.09602v1"
+        },
+        "c": "https://github.com/luanyi/DyGIE",
         "n": "SciIE",
         "d": "2018-08-29",
         "m1": "39.30",
@@ -122,15 +146,21 @@
         "m4": "No"
       },
       {
-        "p": "[Span-based Joint Entity and Relation Extraction with Transformer Pre-training](https://arxiv.org/abs/1909.07755v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/markus-eberts/spert)",
+        "p": {
+          "name": "Span-based Joint Entity and Relation Extraction with Transformer Pre-training",
+          "link": "https://arxiv.org/abs/1909.07755v4"
+        },
+        "c": "https://github.com/markus-eberts/spert",
         "n": "SpERT",
         "d": "2019-09-17",
         "m2": "70.33",
         "m4": "No"
       },
       {
-        "p": "[A Multi-Gate Encoder for Joint Entity and Relation Extraction](https://aclanthology.org/2022.ccl-1.75)",
+        "p": {
+          "name": "A Multi-Gate Encoder for Joint Entity and Relation Extraction",
+          "link": "https://aclanthology.org/2022.ccl-1.75"
+        },
         "c": "",
         "n": "MGE",
         "d": null,
@@ -139,8 +169,11 @@
         "m4": "No"
       },
       {
-        "p": "[A Partition Filter Network for Joint Entity and Relation Extraction](https://arxiv.org/abs/2108.12202v8)",
-        "c": "[&check;&nbsp;Link](https://github.com/Coopercoppers/PFN)",
+        "p": {
+          "name": "A Partition Filter Network for Joint Entity and Relation Extraction",
+          "link": "https://arxiv.org/abs/2108.12202v8"
+        },
+        "c": "https://github.com/Coopercoppers/PFN",
         "n": "PFN",
         "d": "2021-08-27",
         "m2": "66.8",

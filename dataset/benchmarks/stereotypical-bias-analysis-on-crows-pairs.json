@@ -78,8 +78,11 @@
     ],
     "items": [
       {
-        "p": "[Galactica: A Large Language Model for Science](https://arxiv.org/abs/2211.09085v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/paperswithcode/galai)",
+        "p": {
+          "name": "Galactica: A Large Language Model for Science",
+          "link": "https://arxiv.org/abs/2211.09085v1"
+        },
+        "c": "https://github.com/paperswithcode/galai",
         "n": "GAL 120B",
         "d": "2022-11-16",
         "m1": "51.9",
@@ -94,8 +97,11 @@
         "m10": "60.5"
       },
       {
-        "p": "[OPT: Open Pre-trained Transformer Language Models](https://arxiv.org/abs/2205.01068v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/metaseq)",
+        "p": {
+          "name": "OPT: Open Pre-trained Transformer Language Models",
+          "link": "https://arxiv.org/abs/2205.01068v4"
+        },
+        "c": "https://github.com/facebookresearch/metaseq",
         "n": "GPT-3",
         "d": "2022-05-02",
         "m1": "62.6",
@@ -110,8 +116,11 @@
         "m10": "67.2"
       },
       {
-        "p": "[OPT: Open Pre-trained Transformer Language Models](https://arxiv.org/abs/2205.01068v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/metaseq)",
+        "p": {
+          "name": "OPT: Open Pre-trained Transformer Language Models",
+          "link": "https://arxiv.org/abs/2205.01068v4"
+        },
+        "c": "https://github.com/facebookresearch/metaseq",
         "n": "OPT-175B",
         "d": "2022-05-02",
         "m1": "65.7",
@@ -126,8 +135,11 @@
         "m10": "69.5"
       },
       {
-        "p": "[LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "LLaMA: Open and Efficient Foundation Language Models",
+          "link": "https://arxiv.org/abs/2302.13971v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "LLaMA 65B",
         "d": "2023-02-27",
         "m1": "70.6",

@@ -33,43 +33,61 @@
     ],
     "items": [
       {
-        "p": "[Neural Quality Estimation with Multiple Hypotheses for Grammatical Error Correction](https://arxiv.org/abs/2105.04443v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/thunlp/VERNet)",
+        "p": {
+          "name": "Neural Quality Estimation with Multiple Hypotheses for Grammatical Error Correction",
+          "link": "https://arxiv.org/abs/2105.04443v1"
+        },
+        "c": "https://github.com/thunlp/VERNet",
         "n": "VERNet",
         "d": "2021-05-10",
         "m1": "62.1"
       },
       {
-        "p": "[Encoder-Decoder Models Can Benefit from Pre-trained Masked Language Models in Grammatical Error Correction](https://arxiv.org/abs/2005.00987v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/kanekomasahiro/bert-gec)",
+        "p": {
+          "name": "Encoder-Decoder Models Can Benefit from Pre-trained Masked Language Models in Grammatical Error Correction",
+          "link": "https://arxiv.org/abs/2005.00987v2"
+        },
+        "c": "https://github.com/kanekomasahiro/bert-gec",
         "n": "Transformer + Pre-train with Pseudo Data + BERT",
         "d": "2020-05-03",
         "m1": "62.0"
       },
       {
-        "p": "[Near Human-Level Performance in Grammatical Error Correction with Hybrid Machine Translation](http://arxiv.org/abs/1804.05945v1)",
+        "p": {
+          "name": "Near Human-Level Performance in Grammatical Error Correction with Hybrid Machine Translation",
+          "link": "http://arxiv.org/abs/1804.05945v1"
+        },
         "c": "",
         "n": "SMT + BiGRU",
         "d": "2018-04-16",
         "m1": "61.5"
       },
       {
-        "p": "[Improving Grammatical Error Correction via Pre-Training a Copy-Augmented Architecture with Unlabeled Data](https://arxiv.org/abs/1903.00138v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/zhawe01/fairseq-gec)",
+        "p": {
+          "name": "Improving Grammatical Error Correction via Pre-Training a Copy-Augmented Architecture with Unlabeled Data",
+          "link": "https://arxiv.org/abs/1903.00138v3"
+        },
+        "c": "https://github.com/zhawe01/fairseq-gec",
         "n": "Copy-augmented Model (4 Ensemble +Denoising Autoencoder)",
         "d": "2019-03-01",
         "m1": "61.0"
       },
       {
-        "p": "[Approaching Neural Grammatical Error Correction as a Low-Resource Machine Translation Task](http://arxiv.org/abs/1804.05940v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/grammatical/neural-naacl2018)",
+        "p": {
+          "name": "Approaching Neural Grammatical Error Correction as a Low-Resource Machine Translation Task",
+          "link": "http://arxiv.org/abs/1804.05940v1"
+        },
+        "c": "https://github.com/grammatical/neural-naacl2018",
         "n": "Transformer",
         "d": "2018-04-16",
         "m1": "59.9"
       },
       {
-        "p": "[A Multilayer Convolutional Encoder-Decoder Neural Network for Grammatical Error Correction](http://arxiv.org/abs/1801.08831v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/nusnlp/mlconvgec2018)",
+        "p": {
+          "name": "A Multilayer Convolutional Encoder-Decoder Neural Network for Grammatical Error Correction",
+          "link": "http://arxiv.org/abs/1801.08831v1"
+        },
+        "c": "https://github.com/nusnlp/mlconvgec2018",
         "n": "CNN Seq2Seq",
         "d": "2018-01-26",
         "m1": "57.47"

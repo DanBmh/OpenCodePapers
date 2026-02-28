@@ -48,7 +48,10 @@
     ],
     "items": [
       {
-        "p": "[Simpler Diffusion (SiD2): 1.5 FID on ImageNet512 with pixel-space diffusion](https://arxiv.org/abs/2410.19324v2)",
+        "p": {
+          "name": "Simpler Diffusion (SiD2): 1.5 FID on ImageNet512 with pixel-space diffusion",
+          "link": "https://arxiv.org/abs/2410.19324v2"
+        },
         "c": "",
         "n": "SiD2",
         "d": "2024-10-25",
@@ -57,22 +60,31 @@
         "m4": "11"
       },
       {
-        "p": "[Photorealistic Video Generation with Diffusion Models](https://arxiv.org/abs/2312.06662v1)",
+        "p": {
+          "name": "Photorealistic Video Generation with Diffusion Models",
+          "link": "https://arxiv.org/abs/2312.06662v1"
+        },
         "c": "",
         "n": "W.A.L.T.-L",
         "d": "2023-12-11",
         "m1": "3.3"
       },
       {
-        "p": "[Language Model Beats Diffusion -- Tokenizer is Key to Visual Generation](https://arxiv.org/abs/2310.05737v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/jy0205/Pyramid-Flow)",
+        "p": {
+          "name": "Language Model Beats Diffusion -- Tokenizer is Key to Visual Generation",
+          "link": "https://arxiv.org/abs/2310.05737v3"
+        },
+        "c": "https://github.com/jy0205/Pyramid-Flow",
         "n": "MAGVIT-v2",
         "d": "2023-10-09",
         "m1": "4.3±0.1"
       },
       {
-        "p": "[LARP: Tokenizing Videos with a Learned Autoregressive Generative Prior](https://arxiv.org/abs/2410.21264v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/hywang66/LARP)",
+        "p": {
+          "name": "LARP: Tokenizing Videos with a Learned Autoregressive Generative Prior",
+          "link": "https://arxiv.org/abs/2410.21264v1"
+        },
+        "c": "https://github.com/hywang66/LARP",
         "n": "LARP",
         "d": "2024-10-28",
         "m1": "5.1",
@@ -80,8 +92,11 @@
         "m4": "11"
       },
       {
-        "p": "[MAGVIT: Masked Generative Video Transformer](https://arxiv.org/abs/2212.05199v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/magvit)",
+        "p": {
+          "name": "MAGVIT: Masked Generative Video Transformer",
+          "link": "https://arxiv.org/abs/2212.05199v2"
+        },
+        "c": "https://github.com/google-research/magvit",
         "n": "MAGVIT (-L-FP)",
         "d": "2022-12-10",
         "m1": "9.9±0.3",
@@ -89,24 +104,33 @@
         "m4": "11"
       },
       {
-        "p": "[Scalable Adaptive Computation for Iterative Generation](https://arxiv.org/abs/2212.11972v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/pix2seq)",
+        "p": {
+          "name": "Scalable Adaptive Computation for Iterative Generation",
+          "link": "https://arxiv.org/abs/2212.11972v2"
+        },
+        "c": "https://github.com/google-research/pix2seq",
         "n": "RIN (1000 steps)",
         "d": "2022-12-22",
         "m1": "10.8",
         "m2": "17.7"
       },
       {
-        "p": "[Scalable Adaptive Computation for Iterative Generation](https://arxiv.org/abs/2212.11972v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/pix2seq)",
+        "p": {
+          "name": "Scalable Adaptive Computation for Iterative Generation",
+          "link": "https://arxiv.org/abs/2212.11972v2"
+        },
+        "c": "https://github.com/google-research/pix2seq",
         "n": "RIN (400 steps)",
         "d": "2022-12-22",
         "m1": "11.5",
         "m2": "17.7"
       },
       {
-        "p": "[Diffusion Models for Video Prediction and Infilling](https://arxiv.org/abs/2206.07696v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/Tobi-r9/RaMViD)",
+        "p": {
+          "name": "Diffusion Models for Video Prediction and Infilling",
+          "link": "https://arxiv.org/abs/2206.07696v3"
+        },
+        "c": "https://github.com/Tobi-r9/RaMViD",
         "n": "RaMViD",
         "d": "2022-06-15",
         "m1": "16.46",
@@ -114,8 +138,11 @@
         "m4": "11"
       },
       {
-        "p": "[MAGVIT: Masked Generative Video Transformer](https://arxiv.org/abs/2212.05199v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/magvit)",
+        "p": {
+          "name": "MAGVIT: Masked Generative Video Transformer",
+          "link": "https://arxiv.org/abs/2212.05199v2"
+        },
+        "c": "https://github.com/google-research/magvit",
         "n": "MAGVIT (-B-FP)",
         "d": "2022-12-10",
         "m1": "24.5±0.9",
@@ -123,7 +150,10 @@
         "m4": "11"
       },
       {
-        "p": "[Transformation-based Adversarial Video Prediction on Large-Scale Data](https://arxiv.org/abs/2003.04035v3)",
+        "p": {
+          "name": "Transformation-based Adversarial Video Prediction on Large-Scale Data",
+          "link": "https://arxiv.org/abs/2003.04035v3"
+        },
         "c": "",
         "n": "TriVD-GAN-FP",
         "d": "2020-03-09",
@@ -133,15 +163,21 @@
         "m4": "11"
       },
       {
-        "p": "[OmniTokenizer: A Joint Image-Video Tokenizer for Visual Generation](https://arxiv.org/abs/2406.09399v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/foundationvision/omnitokenizer)",
+        "p": {
+          "name": "OmniTokenizer: A Joint Image-Video Tokenizer for Visual Generation",
+          "link": "https://arxiv.org/abs/2406.09399v1"
+        },
+        "c": "https://github.com/foundationvision/omnitokenizer",
         "n": "OmniTokenizer-AR",
         "d": "2024-06-13",
         "m1": "32.9"
       },
       {
-        "p": "[CCVS: Context-aware Controllable Video Synthesis](https://arxiv.org/abs/2107.08037v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/16lemoing/ccvs)",
+        "p": {
+          "name": "CCVS: Context-aware Controllable Video Synthesis",
+          "link": "https://arxiv.org/abs/2107.08037v2"
+        },
+        "c": "https://github.com/16lemoing/ccvs",
         "n": "CCVS",
         "d": "2021-07-16",
         "m1": "55±1",
@@ -149,8 +185,11 @@
         "m4": "11"
       },
       {
-        "p": "[Predicting Video with VQVAE](https://arxiv.org/abs/2103.01950v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/mattiasxu/Video-VQVAE)",
+        "p": {
+          "name": "Predicting Video with VQVAE",
+          "link": "https://arxiv.org/abs/2103.01950v1"
+        },
+        "c": "https://github.com/mattiasxu/Video-VQVAE",
         "n": "Video VQ-VAE FVD",
         "d": "2021-03-02",
         "m1": "64.30±2.04",
@@ -158,8 +197,11 @@
         "m4": "12"
       },
       {
-        "p": "[Adversarial Video Generation on Complex Datasets](https://arxiv.org/abs/1907.06571v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/Harrypotterrrr/DVD-GAN)",
+        "p": {
+          "name": "Adversarial Video Generation on Complex Datasets",
+          "link": "https://arxiv.org/abs/1907.06571v2"
+        },
+        "c": "https://github.com/Harrypotterrrr/DVD-GAN",
         "n": "DVD-GAN-FP",
         "d": "2019-07-15",
         "m1": "69.15±0.78",
@@ -167,8 +209,11 @@
         "m4": "11"
       },
       {
-        "p": "[Scaling Autoregressive Video Models](https://arxiv.org/abs/1906.02634v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/rakhimovv/lvt)",
+        "p": {
+          "name": "Scaling Autoregressive Video Models",
+          "link": "https://arxiv.org/abs/1906.02634v3"
+        },
+        "c": "https://github.com/rakhimovv/lvt",
         "n": "Video Transformer",
         "d": "2019-06-06",
         "m1": "170±5",
@@ -176,8 +221,11 @@
         "m4": "11"
       },
       {
-        "p": "[Latent Video Transformer](https://arxiv.org/abs/2006.10704v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/rakhimovv/lvt)",
+        "p": {
+          "name": "Latent Video Transformer",
+          "link": "https://arxiv.org/abs/2006.10704v1"
+        },
+        "c": "https://github.com/rakhimovv/lvt",
         "n": "LVT",
         "d": "2020-06-18",
         "m1": "224.73",

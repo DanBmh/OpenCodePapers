@@ -43,8 +43,11 @@
     ],
     "items": [
       {
-        "p": "[Echoes from Alexandria: A Large Resource for Multilingual Book Summarization](https://arxiv.org/abs/2306.04334v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/babelscape/echoes-from-alexandria)",
+        "p": {
+          "name": "Echoes from Alexandria: A Large Resource for Multilingual Book Summarization",
+          "link": "https://arxiv.org/abs/2306.04334v1"
+        },
+        "c": "https://github.com/babelscape/echoes-from-alexandria",
         "n": "Echoes-Extractive-Abstractive",
         "d": "2023-06-07",
         "m1": "42.13",
@@ -52,15 +55,21 @@
         "m3": "16.75"
       },
       {
-        "p": "[Adapting Pretrained Text-to-Text Models for Long Text Sequences](https://arxiv.org/abs/2209.10052v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/bart_ls)",
+        "p": {
+          "name": "Adapting Pretrained Text-to-Text Models for Long Text Sequences",
+          "link": "https://arxiv.org/abs/2209.10052v2"
+        },
+        "c": "https://github.com/facebookresearch/bart_ls",
         "n": "BART-LS",
         "d": "2022-09-21",
         "m1": "38.5"
       },
       {
-        "p": "[Long Document Summarization with Top-down and Bottom-up Inference](https://arxiv.org/abs/2203.07586v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/lllyasviel/framepack)",
+        "p": {
+          "name": "Long Document Summarization with Top-down and Bottom-up Inference",
+          "link": "https://arxiv.org/abs/2203.07586v1"
+        },
+        "c": "https://github.com/lllyasviel/framepack",
         "n": "Top Down Transformer (AdaPool) (464M)",
         "d": "2022-03-15",
         "m1": "38.3"

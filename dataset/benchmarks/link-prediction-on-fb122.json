@@ -48,8 +48,11 @@
     ],
     "items": [
       {
-        "p": "[Probabilistic Case-based Reasoning for Open-World Knowledge Graph Completion](https://arxiv.org/abs/2010.03548v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/ameyagodbole/Prob-CBR)",
+        "p": {
+          "name": "Probabilistic Case-based Reasoning for Open-World Knowledge Graph Completion",
+          "link": "https://arxiv.org/abs/2010.03548v2"
+        },
+        "c": "https://github.com/ameyagodbole/Prob-CBR",
         "n": "Prob-CBR",
         "d": "2020-10-07",
         "m1": "74.2",
@@ -58,8 +61,11 @@
         "m4": "72.7"
       },
       {
-        "p": "[RotatE: Knowledge Graph Embedding by Relational Rotation in Complex Space](http://arxiv.org/abs/1902.10197v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/pyg-team/pytorch_geometric/blob/master/torch_geometric/nn/kge/rotate.py)",
+        "p": {
+          "name": "RotatE: Knowledge Graph Embedding by Relational Rotation in Complex Space",
+          "link": "http://arxiv.org/abs/1902.10197v1"
+        },
+        "c": "https://github.com/pyg-team/pytorch_geometric/blob/master/torch_geometric/nn/kge/rotate.py",
         "n": "RotatE",
         "d": "2019-02-26",
         "m1": "70.8",
@@ -68,8 +74,11 @@
         "m4": "67.8"
       },
       {
-        "p": "[Differentiable Reasoning on Large Knowledge Bases and Natural Language](https://arxiv.org/abs/1912.10824v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/uclnlp/ntp)",
+        "p": {
+          "name": "Differentiable Reasoning on Large Knowledge Bases and Natural Language",
+          "link": "https://arxiv.org/abs/1912.10824v1"
+        },
+        "c": "https://github.com/uclnlp/ntp",
         "n": "GNTPs",
         "d": "2019-12-17",
         "m1": "69.2",
@@ -78,8 +87,11 @@
         "m4": "67.8"
       },
       {
-        "p": "[Complex Embeddings for Simple Link Prediction](http://arxiv.org/abs/1606.06357v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/pyg-team/pytorch_geometric/blob/2947af7733d87315a9218a0bfabbfda10b595f0e/torch_geometric/nn/kge/complex.py)",
+        "p": {
+          "name": "Complex Embeddings for Simple Link Prediction",
+          "link": "http://arxiv.org/abs/1606.06357v1"
+        },
+        "c": "https://github.com/pyg-team/pytorch_geometric/blob/2947af7733d87315a9218a0bfabbfda10b595f0e/torch_geometric/nn/kge/complex.py",
         "n": "ComplEx",
         "d": "2016-06-20",
         "m1": "67.3",
@@ -88,8 +100,11 @@
         "m4": "64.1"
       },
       {
-        "p": "[Translating Embeddings for Modeling Multi-relational Data](http://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-relational-data)",
-        "c": "[&check;&nbsp;Link](https://github.com/pyg-team/pytorch_geometric/blob/master/torch_geometric/nn/kge/transe.py)",
+        "p": {
+          "name": "Translating Embeddings for Modeling Multi-relational Data",
+          "link": "http://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-relational-data"
+        },
+        "c": "https://github.com/pyg-team/pytorch_geometric/blob/master/torch_geometric/nn/kge/transe.py",
         "n": "TransE",
         "d": "2013-12-01",
         "m1": "58.9",

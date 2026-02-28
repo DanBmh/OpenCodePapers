@@ -43,456 +43,651 @@
     ],
     "items": [
       {
-        "p": "[VPNeXt -- Rethinking Dense Decoding for Plain Vision Transformer](https://arxiv.org/abs/2502.16654v1)",
+        "p": {
+          "name": "VPNeXt -- Rethinking Dense Decoding for Plain Vision Transformer",
+          "link": "https://arxiv.org/abs/2502.16654v1"
+        },
         "c": "",
         "n": "VPNeXt",
         "d": "2025-02-23",
         "m1": "71.1"
       },
       {
-        "p": "[Minimalist and High-Performance Semantic Segmentation with Plain Vision Transformers](https://arxiv.org/abs/2310.12755v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/ydhonghit/plainseg)",
+        "p": {
+          "name": "Minimalist and High-Performance Semantic Segmentation with Plain Vision Transformers",
+          "link": "https://arxiv.org/abs/2310.12755v1"
+        },
+        "c": "https://github.com/ydhonghit/plainseg",
         "n": "PlainSeg (EVA-02-L)",
         "d": "2023-10-19",
         "m1": "71.0"
       },
       {
-        "p": "[InternImage: Exploring Large-Scale Vision Foundation Models with Deformable Convolutions](https://arxiv.org/abs/2211.05778v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/opengvlab/internimage)",
+        "p": {
+          "name": "InternImage: Exploring Large-Scale Vision Foundation Models with Deformable Convolutions",
+          "link": "https://arxiv.org/abs/2211.05778v4"
+        },
+        "c": "https://github.com/opengvlab/internimage",
         "n": "InternImage-H",
         "d": "2022-11-10",
         "m1": "70.3"
       },
       {
-        "p": "[Representation Separation for Semantic Segmentation with Vision Transformers](https://arxiv.org/abs/2212.13764v1)",
+        "p": {
+          "name": "Representation Separation for Semantic Segmentation with Vision Transformers",
+          "link": "https://arxiv.org/abs/2212.13764v1"
+        },
         "c": "",
         "n": "RSSeg-ViT-L (BEiT pretrain)",
         "d": "2022-12-28",
         "m1": "68.9"
       },
       {
-        "p": "[Vision Transformer Adapter for Dense Predictions](https://arxiv.org/abs/2205.08534v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/czczup/vit-adapter)",
+        "p": {
+          "name": "Vision Transformer Adapter for Dense Predictions",
+          "link": "https://arxiv.org/abs/2205.08534v4"
+        },
+        "c": "https://github.com/czczup/vit-adapter",
         "n": "ViT-Adapter-L (Mask2Former, BEiT pretrain)",
         "d": "2022-05-17",
         "m1": "68.2"
       },
       {
-        "p": "[Vision Transformer Adapter for Dense Predictions](https://arxiv.org/abs/2205.08534v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/czczup/vit-adapter)",
+        "p": {
+          "name": "Vision Transformer Adapter for Dense Predictions",
+          "link": "https://arxiv.org/abs/2205.08534v4"
+        },
+        "c": "https://github.com/czczup/vit-adapter",
         "n": "ViT-Adapter-L (UperNet, BEiT pretrain)",
         "d": "2022-05-17",
         "m1": "67.5"
       },
       {
-        "p": "[Representation Separation for Semantic Segmentation with Vision Transformers](https://arxiv.org/abs/2212.13764v1)",
+        "p": {
+          "name": "Representation Separation for Semantic Segmentation with Vision Transformers",
+          "link": "https://arxiv.org/abs/2212.13764v1"
+        },
         "c": "",
         "n": "RSSeg-ViT-L",
         "d": "2022-12-28",
         "m1": "67.5"
       },
       {
-        "p": "[SegViT: Semantic Segmentation with Plain Vision Transformers](https://arxiv.org/abs/2210.05844v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/zbwxp/SegVit)",
+        "p": {
+          "name": "SegViT: Semantic Segmentation with Plain Vision Transformers",
+          "link": "https://arxiv.org/abs/2210.05844v2"
+        },
+        "c": "https://github.com/zbwxp/SegVit",
         "n": "SegViT (ours)",
         "d": "2022-10-12",
         "m1": "65.3"
       },
       {
-        "p": "[CAR: Class-aware Regularizations for Semantic Segmentation](https://arxiv.org/abs/2203.07160v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/edwardyehuang/CAR)",
+        "p": {
+          "name": "CAR: Class-aware Regularizations for Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2203.07160v2"
+        },
+        "c": "https://github.com/edwardyehuang/CAR",
         "n": "CAA + CAR (ConvNeXt-Large + JPU)",
         "d": "2022-03-14",
         "m1": "64.1"
       },
       {
-        "p": "[Efficient Self-Ensemble for Semantic Segmentation](https://arxiv.org/abs/2111.13280v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/WalBouss/SenFormer)",
+        "p": {
+          "name": "Efficient Self-Ensemble for Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2111.13280v2"
+        },
+        "c": "https://github.com/WalBouss/SenFormer",
         "n": "SenFormer (Swin-L)",
         "d": "2021-11-26",
         "m1": "64.0"
       },
       {
-        "p": "[Sequential Ensembling for Semantic Segmentation](https://arxiv.org/abs/2210.05387v1)",
+        "p": {
+          "name": "Sequential Ensembling for Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2210.05387v1"
+        },
         "c": "",
         "n": "Sequential Ensemble (Segformer + HRNet)",
         "d": "2022-10-08",
         "m1": "62.1"
       },
       {
-        "p": "[Channelized Axial Attention for Semantic Segmentation -- Considering Channel Relation within Spatial Attention for Semantic Segmentation](https://arxiv.org/abs/2101.07434v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/edwardyehuang/CAA)",
+        "p": {
+          "name": "Channelized Axial Attention for Semantic Segmentation -- Considering Channel Relation within Spatial Attention for Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2101.07434v5"
+        },
+        "c": "https://github.com/edwardyehuang/CAA",
         "n": "CAA + Simple decoder (Efficientnet-B7)",
         "d": "2021-01-19",
         "m1": "60.5"
       },
       {
-        "p": "[Vision Transformers for Dense Prediction](https://arxiv.org/abs/2103.13413v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "Vision Transformers for Dense Prediction",
+          "link": "https://arxiv.org/abs/2103.13413v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "DPT-Hybrid",
         "d": "2021-03-24",
         "m1": "60.46"
       },
       {
-        "p": "[Channelized Axial Attention for Semantic Segmentation -- Considering Channel Relation within Spatial Attention for Semantic Segmentation](https://arxiv.org/abs/2101.07434v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/edwardyehuang/CAA)",
+        "p": {
+          "name": "Channelized Axial Attention for Semantic Segmentation -- Considering Channel Relation within Spatial Attention for Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2101.07434v5"
+        },
+        "c": "https://github.com/edwardyehuang/CAA",
         "n": "CAA (Efficientnet-B7)",
         "d": "2021-01-19",
         "m1": "60.1"
       },
       {
-        "p": "[Segmentation Transformer: Object-Contextual Representations for Semantic Segmentation](https://arxiv.org/abs/1909.11065v6)",
-        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmsegmentation)",
+        "p": {
+          "name": "Segmentation Transformer: Object-Contextual Representations for Semantic Segmentation",
+          "link": "https://arxiv.org/abs/1909.11065v6"
+        },
+        "c": "https://github.com/open-mmlab/mmsegmentation",
         "n": "HRNetV2 + OCR + RMI (PaddleClas pretrained)",
         "d": "2019-09-24",
         "m1": "59.6"
       },
       {
-        "p": "[Segmenter: Transformer for Semantic Segmentation](https://arxiv.org/abs/2105.05633v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleSeg)",
+        "p": {
+          "name": "Segmenter: Transformer for Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2105.05633v3"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
         "n": "Seg-L-Mask/16",
         "d": "2021-05-12",
         "m1": "59.0"
       },
       {
-        "p": "[ResNeSt: Split-Attention Networks](https://arxiv.org/abs/2004.08955v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "p": {
+          "name": "ResNeSt: Split-Attention Networks",
+          "link": "https://arxiv.org/abs/2004.08955v2"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
         "n": "ResNeSt-269",
         "d": "2020-04-19",
         "m1": "58.9"
       },
       {
-        "p": "[Rethinking Decoders for Transformer-based Semantic Segmentation: A Compression Perspective](https://arxiv.org/abs/2411.03033v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/qishuaiwen/depict)",
+        "p": {
+          "name": "Rethinking Decoders for Transformer-based Semantic Segmentation: A Compression Perspective",
+          "link": "https://arxiv.org/abs/2411.03033v3"
+        },
+        "c": "https://github.com/qishuaiwen/depict",
         "n": "DEPICT-SA (ViT-L multi-scale)",
         "d": "2024-11-05",
         "m1": "58.6"
       },
       {
-        "p": "[ResNeSt: Split-Attention Networks](https://arxiv.org/abs/2004.08955v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "p": {
+          "name": "ResNeSt: Split-Attention Networks",
+          "link": "https://arxiv.org/abs/2004.08955v2"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
         "n": "ResNeSt-200",
         "d": "2020-04-19",
         "m1": "58.4"
       },
       {
-        "p": "[Rethinking Decoders for Transformer-based Semantic Segmentation: A Compression Perspective](https://arxiv.org/abs/2411.03033v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/qishuaiwen/depict)",
+        "p": {
+          "name": "Rethinking Decoders for Transformer-based Semantic Segmentation: A Compression Perspective",
+          "link": "https://arxiv.org/abs/2411.03033v3"
+        },
+        "c": "https://github.com/qishuaiwen/depict",
         "n": "DEPICT-SA (ViT-L single-scale)",
         "d": "2024-11-05",
         "m1": "57.9"
       },
       {
-        "p": "[CondNet: Conditional Classifier for Scene Segmentation](https://arxiv.org/abs/2109.10322v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/sithu31296/semantic-segmentation)",
+        "p": {
+          "name": "CondNet: Conditional Classifier for Scene Segmentation",
+          "link": "https://arxiv.org/abs/2109.10322v1"
+        },
+        "c": "https://github.com/sithu31296/semantic-segmentation",
         "n": "CondNet(ResNest-101)",
         "d": "2021-09-21",
         "m1": "57"
       },
       {
-        "p": "[Efficient Self-Ensemble for Semantic Segmentation](https://arxiv.org/abs/2111.13280v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/WalBouss/SenFormer)",
+        "p": {
+          "name": "Efficient Self-Ensemble for Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2111.13280v2"
+        },
+        "c": "https://github.com/WalBouss/SenFormer",
         "n": "SenFormer (ResNet-101)",
         "d": "2021-11-26",
         "m1": "56.6"
       },
       {
-        "p": "[ResNeSt: Split-Attention Networks](https://arxiv.org/abs/2004.08955v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/rwightman/pytorch-image-models)",
+        "p": {
+          "name": "ResNeSt: Split-Attention Networks",
+          "link": "https://arxiv.org/abs/2004.08955v2"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
         "n": "ResNeSt-101",
         "d": "2020-04-19",
         "m1": "56.5"
       },
       {
-        "p": "[Segmentation Transformer: Object-Contextual Representations for Semantic Segmentation](https://arxiv.org/abs/1909.11065v6)",
-        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmsegmentation)",
+        "p": {
+          "name": "Segmentation Transformer: Object-Contextual Representations for Semantic Segmentation",
+          "link": "https://arxiv.org/abs/1909.11065v6"
+        },
+        "c": "https://github.com/open-mmlab/mmsegmentation",
         "n": "OCR (HRNetV2-W48)",
         "d": "2019-09-24",
         "m1": "56.2"
       },
       {
-        "p": "[Generalized Parametric Contrastive Learning](https://arxiv.org/abs/2209.12400v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/dvlab-research/parametric-contrastive-learning)",
+        "p": {
+          "name": "Generalized Parametric Contrastive Learning",
+          "link": "https://arxiv.org/abs/2209.12400v2"
+        },
+        "c": "https://github.com/dvlab-research/parametric-contrastive-learning",
         "n": "GPaCo (ResNet101)",
         "d": "2022-09-26",
         "m1": "56.2"
       },
       {
-        "p": "[CondNet: Conditional Classifier for Scene Segmentation](https://arxiv.org/abs/2109.10322v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/sithu31296/semantic-segmentation)",
+        "p": {
+          "name": "CondNet: Conditional Classifier for Scene Segmentation",
+          "link": "https://arxiv.org/abs/2109.10322v1"
+        },
+        "c": "https://github.com/sithu31296/semantic-segmentation",
         "n": "CondNet(ResNet-101)",
         "d": "2021-09-21",
         "m1": "56.0"
       },
       {
-        "p": "[Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective with Transformers](https://arxiv.org/abs/2012.15840v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleSeg)",
+        "p": {
+          "name": "Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective with Transformers",
+          "link": "https://arxiv.org/abs/2012.15840v3"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
         "n": "SETR-MLA (16, 80k, MS)",
         "d": "2020-12-31",
         "m1": "55.83"
       },
       {
-        "p": "[DCNAS: Densely Connected Neural Architecture Search for Semantic Image Segmentation](https://arxiv.org/abs/2003.11883v2)",
+        "p": {
+          "name": "DCNAS: Densely Connected Neural Architecture Search for Semantic Image Segmentation",
+          "link": "https://arxiv.org/abs/2003.11883v2"
+        },
         "c": "",
         "n": "DCNAS",
         "d": "2020-03-26",
         "m1": "55.6"
       },
       {
-        "p": "[Scene Segmentation with Dual Relation-aware Attention Network](https://ieeexplore.ieee.org/document/9154612)",
-        "c": "[&check;&nbsp;Link](https://github.com/junfu1115/DRAN)",
+        "p": {
+          "name": "Scene Segmentation with Dual Relation-aware Attention Network",
+          "link": "https://ieeexplore.ieee.org/document/9154612"
+        },
+        "c": "https://github.com/junfu1115/DRAN",
         "n": "DRAN(ResNet-101)",
         "d": "2020-08-05",
         "m1": "55.4%"
       },
       {
-        "p": "[Disentangled Non-Local Neural Networks](https://arxiv.org/abs/2006.06668v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmsegmentation)",
+        "p": {
+          "name": "Disentangled Non-Local Neural Networks",
+          "link": "https://arxiv.org/abs/2006.06668v2"
+        },
+        "c": "https://github.com/open-mmlab/mmsegmentation",
         "n": "DNL",
         "d": "2020-06-11",
         "m1": "55.3"
       },
       {
-        "p": "[Is Attention Better Than Matrix Decomposition?](https://arxiv.org/abs/2109.04553v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/Gsunshine/Enjoy-Hamburger)",
+        "p": {
+          "name": "Is Attention Better Than Matrix Decomposition?",
+          "link": "https://arxiv.org/abs/2109.04553v2"
+        },
+        "c": "https://github.com/Gsunshine/Enjoy-Hamburger",
         "n": "HamNet (ResNet-101)",
         "d": "2021-09-09",
         "m1": "55.2"
       },
       {
-        "p": "[Channelized Axial Attention for Semantic Segmentation -- Considering Channel Relation within Spatial Attention for Semantic Segmentation](https://arxiv.org/abs/2101.07434v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/edwardyehuang/CAA)",
+        "p": {
+          "name": "Channelized Axial Attention for Semantic Segmentation -- Considering Channel Relation within Spatial Attention for Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2101.07434v5"
+        },
+        "c": "https://github.com/edwardyehuang/CAA",
         "n": "CAA (ResNet-101)",
         "d": "2021-01-19",
         "m1": "55.0"
       },
       {
-        "p": "[Segmentation Transformer: Object-Contextual Representations for Semantic Segmentation](https://arxiv.org/abs/1909.11065v6)",
-        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmsegmentation)",
+        "p": {
+          "name": "Segmentation Transformer: Object-Contextual Representations for Semantic Segmentation",
+          "link": "https://arxiv.org/abs/1909.11065v6"
+        },
+        "c": "https://github.com/open-mmlab/mmsegmentation",
         "n": "OCR (ResNet-101)",
         "d": "2019-09-24",
         "m1": "54.8"
       },
       {
-        "p": "[Scaling up Multi-domain Semantic Segmentation with Sentence Embeddings](https://arxiv.org/abs/2202.02002v2)",
+        "p": {
+          "name": "Scaling up Multi-domain Semantic Segmentation with Sentence Embeddings",
+          "link": "https://arxiv.org/abs/2202.02002v2"
+        },
         "c": "",
         "n": "SIW(Segformer-B5)",
         "d": "2022-02-04",
         "m1": "54.2"
       },
       {
-        "p": "[Co-Occurrent Features in Semantic Segmentation](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Co-Occurrent_Features_in_Semantic_Segmentation_CVPR_2019_paper.html)",
-        "c": "[&check;&nbsp;Link](https://github.com/zhanghang1989/PyTorch-Encoding)",
+        "p": {
+          "name": "Co-Occurrent Features in Semantic Segmentation",
+          "link": "http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Co-Occurrent_Features_in_Semantic_Segmentation_CVPR_2019_paper.html"
+        },
+        "c": "https://github.com/zhanghang1989/PyTorch-Encoding",
         "n": "CFNet (ResNet-101)",
         "d": "2019-06-01",
         "m1": "54.0"
       },
       {
-        "p": "[Deep High-Resolution Representation Learning for Visual Recognition](https://arxiv.org/abs/1908.07919v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection)",
+        "p": {
+          "name": "Deep High-Resolution Representation Learning for Visual Recognition",
+          "link": "https://arxiv.org/abs/1908.07919v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
         "n": "CFNet (ResNet-101)",
         "d": "2019-08-20",
         "m1": "54.0"
       },
       {
-        "p": "[Deep High-Resolution Representation Learning for Visual Recognition](https://arxiv.org/abs/1908.07919v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmdetection)",
+        "p": {
+          "name": "Deep High-Resolution Representation Learning for Visual Recognition",
+          "link": "https://arxiv.org/abs/1908.07919v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
         "n": "HRNetV2 HRNetV2-W48",
         "d": "2019-08-20",
         "m1": "54"
       },
       {
-        "p": "[Context Prior for Scene Segmentation](https://arxiv.org/abs/2004.01547v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/ycszen/ContextPrior)",
+        "p": {
+          "name": "Context Prior for Scene Segmentation",
+          "link": "https://arxiv.org/abs/2004.01547v1"
+        },
+        "c": "https://github.com/ycszen/ContextPrior",
         "n": "CPN(ResNet-101)",
         "d": "2020-04-03",
         "m1": "53.9"
       },
       {
-        "p": "[Location-aware Upsampling for Semantic Segmentation](https://arxiv.org/abs/1911.05250v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/HolmesShuan/Location-aware-Upsampling-for-Semantic-Segmentation)",
+        "p": {
+          "name": "Location-aware Upsampling for Semantic Segmentation",
+          "link": "https://arxiv.org/abs/1911.05250v2"
+        },
+        "c": "https://github.com/HolmesShuan/Location-aware-Upsampling-for-Semantic-Segmentation",
         "n": "LaU-regression-loss (ResNet-101)",
         "d": "2019-11-13",
         "m1": "53.9"
       },
       {
-        "p": "[Dual Graph Convolutional Network for Semantic Segmentation](https://arxiv.org/abs/1909.06121v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/lxtGH/GALD-DGCNet)",
+        "p": {
+          "name": "Dual Graph Convolutional Network for Semantic Segmentation",
+          "link": "https://arxiv.org/abs/1909.06121v3"
+        },
+        "c": "https://github.com/lxtGH/GALD-DGCNet",
         "n": "DGCNet (MS, ResNet-101)",
         "d": "2019-09-13",
         "m1": "53.7"
       },
       {
-        "p": "[Boundary-Aware Feature Propagation for Scene Segmentation](https://arxiv.org/abs/1909.00179v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/henghuiding/BFP)",
+        "p": {
+          "name": "Boundary-Aware Feature Propagation for Scene Segmentation",
+          "link": "https://arxiv.org/abs/1909.00179v1"
+        },
+        "c": "https://github.com/henghuiding/BFP",
         "n": "BFP",
         "d": "2019-08-31",
         "m1": "53.6"
       },
       {
-        "p": "[Semantic Correlation Promoted Shape-Variant Context for Segmentation](https://arxiv.org/abs/1909.02651v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/henghuiding/SVC)",
+        "p": {
+          "name": "Semantic Correlation Promoted Shape-Variant Context for Segmentation",
+          "link": "https://arxiv.org/abs/1909.02651v1"
+        },
+        "c": "https://github.com/henghuiding/SVC",
         "n": "SVCNet (ResNet-101)",
         "d": "2019-09-05",
         "m1": "53.2"
       },
       {
-        "p": "[FastFCN: Rethinking Dilated Convolution in the Backbone for Semantic Segmentation](http://arxiv.org/abs/1903.11816v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleSeg)",
+        "p": {
+          "name": "FastFCN: Rethinking Dilated Convolution in the Backbone for Semantic Segmentation",
+          "link": "http://arxiv.org/abs/1903.11816v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
         "n": "Joint Pyramid Upsampling + EncNet",
         "d": "2019-03-28",
         "m1": "53.1"
       },
       {
-        "p": "[Expectation-Maximization Attention Networks for Semantic Segmentation](https://arxiv.org/abs/1907.13426v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmsegmentation)",
+        "p": {
+          "name": "Expectation-Maximization Attention Networks for Semantic Segmentation",
+          "link": "https://arxiv.org/abs/1907.13426v2"
+        },
+        "c": "https://github.com/open-mmlab/mmsegmentation",
         "n": "EMANet",
         "d": "2019-07-31",
         "m1": "53.1"
       },
       {
-        "p": "[Asymmetric Non-local Neural Networks for Semantic Segmentation](https://arxiv.org/abs/1908.07678v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmsegmentation)",
+        "p": {
+          "name": "Asymmetric Non-local Neural Networks for Semantic Segmentation",
+          "link": "https://arxiv.org/abs/1908.07678v5"
+        },
+        "c": "https://github.com/open-mmlab/mmsegmentation",
         "n": "Asymmetric ALNN",
         "d": "2019-08-21",
         "m1": "52.8"
       },
       {
-        "p": "[CASSOD-Net: Cascaded and Separable Structures of Dilated Convolution for Embedded Vision Systems and Applications](https://arxiv.org/abs/2104.14126v1)",
+        "p": {
+          "name": "CASSOD-Net: Cascaded and Separable Structures of Dilated Convolution for Embedded Vision Systems and Applications",
+          "link": "https://arxiv.org/abs/2104.14126v1"
+        },
         "c": "",
         "n": "CASSOD",
         "d": "2021-04-29",
         "m1": "52.76"
       },
       {
-        "p": "[Dual Attention Network for Scene Segmentation](http://arxiv.org/abs/1809.02983v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/xmu-xiaoma666/External-Attention-pytorch)",
+        "p": {
+          "name": "Dual Attention Network for Scene Segmentation",
+          "link": "http://arxiv.org/abs/1809.02983v4"
+        },
+        "c": "https://github.com/xmu-xiaoma666/External-Attention-pytorch",
         "n": "DANet (ResNet-101)",
         "d": "2018-09-09",
         "m1": "52.6"
       },
       {
-        "p": "[Scene Parsing via Integrated Classification Model and Variance-Based Regularization](http://openaccess.thecvf.com/content_CVPR_2019/html/Shi_Scene_Parsing_via_Integrated_Classification_Model_and_Variance-Based_Regularization_CVPR_2019_paper.html)",
-        "c": "[&check;&nbsp;Link](https://github.com/shihengcan/ICM-matcaffe)",
+        "p": {
+          "name": "Scene Parsing via Integrated Classification Model and Variance-Based Regularization",
+          "link": "http://openaccess.thecvf.com/content_CVPR_2019/html/Shi_Scene_Parsing_via_Integrated_Classification_Model_and_Variance-Based_Regularization_CVPR_2019_paper.html"
+        },
+        "c": "https://github.com/shihengcan/ICM-matcaffe",
         "n": "ICM",
         "d": "2019-06-01",
         "m1": "52.60"
       },
       {
-        "p": "[Decoders Matter for Semantic Segmentation: Data-Dependent Decoding Enables Flexible Feature Aggregation](http://arxiv.org/abs/1903.02120v3)",
+        "p": {
+          "name": "Decoders Matter for Semantic Segmentation: Data-Dependent Decoding Enables Flexible Feature Aggregation",
+          "link": "http://arxiv.org/abs/1903.02120v3"
+        },
         "c": "",
         "n": "DUpsampling",
         "d": "2019-03-05",
         "m1": "52.5"
       },
       {
-        "p": "[Context Encoding for Semantic Segmentation](http://arxiv.org/abs/1803.08904v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmsegmentation)",
+        "p": {
+          "name": "Context Encoding for Semantic Segmentation",
+          "link": "http://arxiv.org/abs/1803.08904v1"
+        },
+        "c": "https://github.com/open-mmlab/mmsegmentation",
         "n": "EncNet (ResNet-101)",
         "d": "2018-03-23",
         "m1": "51.7"
       },
       {
-        "p": "[Co-Occurrent Features in Semantic Segmentation](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Co-Occurrent_Features_in_Semantic_Segmentation_CVPR_2019_paper.html)",
-        "c": "[&check;&nbsp;Link](https://github.com/zhanghang1989/PyTorch-Encoding)",
+        "p": {
+          "name": "Co-Occurrent Features in Semantic Segmentation",
+          "link": "http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Co-Occurrent_Features_in_Semantic_Segmentation_CVPR_2019_paper.html"
+        },
+        "c": "https://github.com/zhanghang1989/PyTorch-Encoding",
         "n": "CFNet (ResNet-50)",
         "d": "2019-06-01",
         "m1": "51.5"
       },
       {
-        "p": "[Wider or Deeper: Revisiting the ResNet Model for Visual Recognition](http://arxiv.org/abs/1611.10080v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/itijyou/ademxapp)",
+        "p": {
+          "name": "Wider or Deeper: Revisiting the ResNet Model for Visual Recognition",
+          "link": "http://arxiv.org/abs/1611.10080v1"
+        },
+        "c": "https://github.com/itijyou/ademxapp",
         "n": "ResNet-38",
         "d": "2016-11-30",
         "m1": "48.1"
       },
       {
-        "p": "[Pyramid Scene Parsing Network](http://arxiv.org/abs/1612.01105v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+        "p": {
+          "name": "Pyramid Scene Parsing Network",
+          "link": "http://arxiv.org/abs/1612.01105v2"
+        },
+        "c": "https://github.com/tensorflow/models",
         "n": "PSPNet (ResNet-101)",
         "d": "2016-12-04",
         "m1": "47.8"
       },
       {
-        "p": "[RefineNet: Multi-Path Refinement Networks for High-Resolution Semantic Segmentation](http://arxiv.org/abs/1611.06612v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/guosheng/refinenet)",
+        "p": {
+          "name": "RefineNet: Multi-Path Refinement Networks for High-Resolution Semantic Segmentation",
+          "link": "http://arxiv.org/abs/1611.06612v3"
+        },
+        "c": "https://github.com/guosheng/refinenet",
         "n": "RefineNet",
         "d": "2016-11-20",
         "m1": "47.3"
       },
       {
-        "p": "[DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs](http://arxiv.org/abs/1606.00915v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/research/deeplab)",
+        "p": {
+          "name": "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs",
+          "link": "http://arxiv.org/abs/1606.00915v2"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/research/deeplab",
         "n": "DeepLabV2",
         "d": "2016-06-02",
         "m1": "45.7"
       },
       {
-        "p": "[Bridging Category-level and Instance-level Semantic Image Segmentation](http://arxiv.org/abs/1605.06885v1)",
+        "p": {
+          "name": "Bridging Category-level and Instance-level Semantic Image Segmentation",
+          "link": "http://arxiv.org/abs/1605.06885v1"
+        },
         "c": "",
         "n": "VeryDeep",
         "d": "2016-05-23",
         "m1": "44.5"
       },
       {
-        "p": "[Efficient piecewise training of deep structured models for semantic segmentation](http://arxiv.org/abs/1504.01013v4)",
+        "p": {
+          "name": "Efficient piecewise training of deep structured models for semantic segmentation",
+          "link": "http://arxiv.org/abs/1504.01013v4"
+        },
         "c": "",
         "n": "Piecewise",
         "d": "2015-04-04",
         "m1": "43.3"
       },
       {
-        "p": "[Efficient Yet Deep Convolutional Neural Networks for Semantic Segmentation](http://arxiv.org/abs/1707.08254v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/SharifAmit/DilatedFCNSegmentation)",
+        "p": {
+          "name": "Efficient Yet Deep Convolutional Neural Networks for Semantic Segmentation",
+          "link": "http://arxiv.org/abs/1707.08254v3"
+        },
+        "c": "https://github.com/SharifAmit/DilatedFCNSegmentation",
         "n": "Dilated-FCN2s",
         "d": "2017-07-26",
         "m1": "42.6"
       },
       {
-        "p": "[Higher Order Conditional Random Fields in Deep Neural Networks](http://arxiv.org/abs/1511.08119v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/torrvision/caffe-tvg)",
+        "p": {
+          "name": "Higher Order Conditional Random Fields in Deep Neural Networks",
+          "link": "http://arxiv.org/abs/1511.08119v4"
+        },
+        "c": "https://github.com/torrvision/caffe-tvg",
         "n": "HO CRF",
         "d": "2015-11-25",
         "m1": "41.3"
       },
       {
-        "p": "[BoxSup: Exploiting Bounding Boxes to Supervise Convolutional Networks for Semantic Segmentation](http://arxiv.org/abs/1503.01640v2)",
+        "p": {
+          "name": "BoxSup: Exploiting Bounding Boxes to Supervise Convolutional Networks for Semantic Segmentation",
+          "link": "http://arxiv.org/abs/1503.01640v2"
+        },
         "c": "",
         "n": "BoxSup",
         "d": "2015-03-05",
         "m1": "40.5"
       },
       {
-        "p": "[ParseNet: Looking Wider to See Better](http://arxiv.org/abs/1506.04579v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/research/deeplab)",
+        "p": {
+          "name": "ParseNet: Looking Wider to See Better",
+          "link": "http://arxiv.org/abs/1506.04579v2"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/research/deeplab",
         "n": "ParseNet",
         "d": "2015-06-15",
         "m1": "40.4"
       },
       {
-        "p": "[Conditional Random Fields as Recurrent Neural Networks](http://arxiv.org/abs/1502.03240v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/torrvision/crfasrnn)",
+        "p": {
+          "name": "Conditional Random Fields as Recurrent Neural Networks",
+          "link": "http://arxiv.org/abs/1502.03240v3"
+        },
+        "c": "https://github.com/torrvision/crfasrnn",
         "n": "CRF-RNN",
         "d": "2015-02-11",
         "m1": "39.3"
       },
       {
-        "p": "[Fully Convolutional Networks for Semantic Segmentation](http://arxiv.org/abs/1411.4038v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/pochih/fcn-pytorch)",
+        "p": {
+          "name": "Fully Convolutional Networks for Semantic Segmentation",
+          "link": "http://arxiv.org/abs/1411.4038v2"
+        },
+        "c": "https://github.com/pochih/fcn-pytorch",
         "n": "FCN-8s",
         "d": "2014-11-14",
         "m1": "37.8"
       },
       {
-        "p": "[Convolutional Feature Masking for Joint Object and Stuff Segmentation](http://arxiv.org/abs/1412.1283v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/daijifeng001/MNC)",
+        "p": {
+          "name": "Convolutional Feature Masking for Joint Object and Stuff Segmentation",
+          "link": "http://arxiv.org/abs/1412.1283v4"
+        },
+        "c": "https://github.com/daijifeng001/MNC",
         "n": "CFM",
         "d": "2014-12-03",
         "m1": "34.4"
       },
       {
-        "p": "[Region-based semantic segmentation with end-to-end training](http://arxiv.org/abs/1607.07671v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/nightrome/matconvnet-calvin)",
+        "p": {
+          "name": "Region-based semantic segmentation with end-to-end training",
+          "link": "http://arxiv.org/abs/1607.07671v1"
+        },
+        "c": "https://github.com/nightrome/matconvnet-calvin",
         "n": "RBE2E",
         "d": "2016-07-26",
         "m1": "32.5",
@@ -500,8 +695,11 @@
         "m3": "62.4"
       },
       {
-        "p": "[SegCLIP: Patch Aggregation with Learnable Centers for Open-Vocabulary Semantic Segmentation](https://arxiv.org/abs/2211.14813v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/arrowluo/segclip)",
+        "p": {
+          "name": "SegCLIP: Patch Aggregation with Learnable Centers for Open-Vocabulary Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2211.14813v2"
+        },
+        "c": "https://github.com/arrowluo/segclip",
         "n": "SegCLIP",
         "d": "2022-11-27",
         "m1": "24.7"

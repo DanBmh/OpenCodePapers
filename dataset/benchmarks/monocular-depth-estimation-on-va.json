@@ -49,8 +49,11 @@
     ],
     "items": [
       {
-        "p": "[Toward Practical Monocular Indoor Depth Estimation](https://arxiv.org/abs/2112.02306v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/DistDepth)",
+        "p": {
+          "name": "Toward Practical Monocular Indoor Depth Estimation",
+          "link": "https://arxiv.org/abs/2112.02306v2"
+        },
+        "c": "https://github.com/facebookresearch/DistDepth",
         "n": "DistDepth",
         "d": "2021-12-04",
         "m1": "0.374",
@@ -59,8 +62,11 @@
         "m4": "0.175"
       },
       {
-        "p": "[Self-Supervised Monocular Depth Hints](https://arxiv.org/abs/1909.09051v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/nianticlabs/depth-hints)",
+        "p": {
+          "name": "Self-Supervised Monocular Depth Hints",
+          "link": "https://arxiv.org/abs/1909.09051v1"
+        },
+        "c": "https://github.com/nianticlabs/depth-hints",
         "n": "Depth Hints",
         "d": "2019-09-19",
         "m1": "0.427",
@@ -69,8 +75,11 @@
         "m4": "0.197"
       },
       {
-        "p": "[Digging Into Self-Supervised Monocular Depth Estimation](https://arxiv.org/abs/1806.01260v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/nianticlabs/monodepth2)",
+        "p": {
+          "name": "Digging Into Self-Supervised Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/1806.01260v4"
+        },
+        "c": "https://github.com/nianticlabs/monodepth2",
         "n": "MonoDepth2",
         "d": "2018-06-04",
         "m1": "0.432",

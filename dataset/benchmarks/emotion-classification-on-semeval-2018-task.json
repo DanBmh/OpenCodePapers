@@ -45,8 +45,11 @@
     ],
     "items": [
       {
-        "p": "[SpanEmo: Casting Multi-label Emotion Classification as Span-prediction](https://arxiv.org/abs/2101.10038v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/hasanhuz/SpanEmo)",
+        "p": {
+          "name": "SpanEmo: Casting Multi-label Emotion Classification as Span-prediction",
+          "link": "https://arxiv.org/abs/2101.10038v1"
+        },
+        "c": "https://github.com/hasanhuz/SpanEmo",
         "n": "SpanEmo",
         "d": "2021-01-25",
         "m1": "0.601",
@@ -54,7 +57,10 @@
         "m3": "0.578"
       },
       {
-        "p": "[Improving Multi-label Emotion Classification by Integrating both General and Domain-specific Knowledge](https://aclanthology.org/D19-5541)",
+        "p": {
+          "name": "Improving Multi-label Emotion Classification by Integrating both General and Domain-specific Knowledge",
+          "link": "https://aclanthology.org/D19-5541"
+        },
         "c": "",
         "n": "BERT+DK",
         "d": "2019-11-01",
@@ -63,7 +69,10 @@
         "m3": "0.549"
       },
       {
-        "p": "[EmoGraph: Capturing Emotion Correlations using Graph Networks](https://arxiv.org/abs/2008.09378v1)",
+        "p": {
+          "name": "EmoGraph: Capturing Emotion Correlations using Graph Networks",
+          "link": "https://arxiv.org/abs/2008.09378v1"
+        },
         "c": "",
         "n": "BERT-GCN",
         "d": "2020-08-21",
@@ -72,8 +81,11 @@
         "m3": "0.563"
       },
       {
-        "p": "[Practical Text Classification With Large Pre-Trained Language Models](http://arxiv.org/abs/1812.01207v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/NVIDIA/sentiment-discovery)",
+        "p": {
+          "name": "Practical Text Classification With Large Pre-Trained Language Models",
+          "link": "http://arxiv.org/abs/1812.01207v1"
+        },
+        "c": "https://github.com/NVIDIA/sentiment-discovery",
         "n": "Transformer (finetune)",
         "d": "2018-12-04",
         "m3": "0.561"

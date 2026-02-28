@@ -43,42 +43,60 @@
     ],
     "items": [
       {
-        "p": "[Beyond Characters: Subword-level Morpheme Segmentation](https://aclanthology.org/2022.sigmorphon-1.14)",
+        "p": {
+          "name": "Beyond Characters: Subword-level Morpheme Segmentation",
+          "link": "https://aclanthology.org/2022.sigmorphon-1.14"
+        },
         "c": "",
         "n": "Subword-ULM transformer (DeepSPIN-3; soft-attention, 1-5 entmax)",
         "d": null,
         "m1": "97.29"
       },
       {
-        "p": "[Beyond Characters: Subword-level Morpheme Segmentation](https://aclanthology.org/2022.sigmorphon-1.14)",
+        "p": {
+          "name": "Beyond Characters: Subword-level Morpheme Segmentation",
+          "link": "https://aclanthology.org/2022.sigmorphon-1.14"
+        },
         "c": "",
         "n": "Char LSTM (DeepSPIN-2; soft-attention, 1-5 entmax)",
         "d": null,
         "m1": "97.15"
       },
       {
-        "p": "[CLUZH at SIGMORPHON 2022 Shared Tasks on Morpheme Segmentation and Inflection Generation](https://aclanthology.org/2022.sigmorphon-1.21)",
-        "c": "[&check;&nbsp;Link](https://github.com/slvnwhrl/il-reimplementation)",
+        "p": {
+          "name": "CLUZH at SIGMORPHON 2022 Shared Tasks on Morpheme Segmentation and Inflection Generation",
+          "link": "https://aclanthology.org/2022.sigmorphon-1.21"
+        },
+        "c": "https://github.com/slvnwhrl/il-reimplementation",
         "n": "Ensemble of hard-attention transducers (CLUZH)",
         "d": null,
         "m1": "96.85"
       },
       {
-        "p": "[Beyond Characters: Subword-level Morpheme Segmentation](https://aclanthology.org/2022.sigmorphon-1.14)",
+        "p": {
+          "name": "Beyond Characters: Subword-level Morpheme Segmentation",
+          "link": "https://aclanthology.org/2022.sigmorphon-1.14"
+        },
         "c": "",
         "n": "Char LSTM (DeepSPIN-1; soft-attention)",
         "d": null,
         "m1": "96.32"
       },
       {
-        "p": "[SIGMORPHON 2022 Shared Task on Morpheme Segmentation Submission Description: Sequence Labelling for Word-Level Morpheme Segmentation](https://aclanthology.org/2022.sigmorphon-1.13)",
+        "p": {
+          "name": "SIGMORPHON 2022 Shared Task on Morpheme Segmentation Submission Description: Sequence Labelling for Word-Level Morpheme Segmentation",
+          "link": "https://aclanthology.org/2022.sigmorphon-1.13"
+        },
         "c": "",
         "n": "BiLSTM for seq labelling (Tü_Seg-1)",
         "d": null,
         "m1": "96.06"
       },
       {
-        "p": "[Morfessor-enriched features and multilingual training for canonical morphological segmentation](https://aclanthology.org/2022.sigmorphon-1.16)",
+        "p": {
+          "name": "Morfessor-enriched features and multilingual training for canonical morphological segmentation",
+          "link": "https://aclanthology.org/2022.sigmorphon-1.16"
+        },
         "c": "",
         "n": "Bidirectional GRU + Morfessor features (AUUH_F)",
         "d": null,
@@ -87,15 +105,21 @@
         "m3": "36.35"
       },
       {
-        "p": "[JB132 submission to the SIGMORPHON 2022 Shared Task 3 on Morphological Segmentation](https://aclanthology.org/2022.sigmorphon-1.17)",
+        "p": {
+          "name": "JB132 submission to the SIGMORPHON 2022 Shared Task 3 on Morphological Segmentation",
+          "link": "https://aclanthology.org/2022.sigmorphon-1.17"
+        },
         "c": "",
         "n": "HMM (JB132; trained w EM)",
         "d": null,
         "m1": "58.39"
       },
       {
-        "p": "[The SIGMORPHON 2022 Shared Task on Morpheme Segmentation](https://arxiv.org/abs/2206.07615v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/sigmorphon/2022segmentationst)",
+        "p": {
+          "name": "The SIGMORPHON 2022 Shared Task on Morpheme Segmentation",
+          "link": "https://arxiv.org/abs/2206.07615v1"
+        },
+        "c": "https://github.com/sigmorphon/2022segmentationst",
         "n": "Morfessor2",
         "d": "2022-06-15",
         "m1": "25.57",
@@ -103,8 +127,11 @@
         "m3": "12.08"
       },
       {
-        "p": "[The SIGMORPHON 2022 Shared Task on Morpheme Segmentation](https://arxiv.org/abs/2206.07615v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/sigmorphon/2022segmentationst)",
+        "p": {
+          "name": "The SIGMORPHON 2022 Shared Task on Morpheme Segmentation",
+          "link": "https://arxiv.org/abs/2206.07615v1"
+        },
+        "c": "https://github.com/sigmorphon/2022segmentationst",
         "n": "ULM",
         "d": "2022-06-15",
         "m1": "20.61",
@@ -112,8 +139,11 @@
         "m3": "14.28"
       },
       {
-        "p": "[The SIGMORPHON 2022 Shared Task on Morpheme Segmentation](https://arxiv.org/abs/2206.07615v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/sigmorphon/2022segmentationst)",
+        "p": {
+          "name": "The SIGMORPHON 2022 Shared Task on Morpheme Segmentation",
+          "link": "https://arxiv.org/abs/2206.07615v1"
+        },
+        "c": "https://github.com/sigmorphon/2022segmentationst",
         "n": "WordPiece",
         "d": "2022-06-15",
         "m1": "15.89",
@@ -121,7 +151,10 @@
         "m3": "17.54"
       },
       {
-        "p": "[Morfessor-enriched features and multilingual training for canonical morphological segmentation](https://aclanthology.org/2022.sigmorphon-1.16)",
+        "p": {
+          "name": "Morfessor-enriched features and multilingual training for canonical morphological segmentation",
+          "link": "https://aclanthology.org/2022.sigmorphon-1.16"
+        },
         "c": "",
         "n": "AUUH_B",
         "d": null,
@@ -129,7 +162,10 @@
         "m3": "3.50"
       },
       {
-        "p": "[Morfessor-enriched features and multilingual training for canonical morphological segmentation](https://aclanthology.org/2022.sigmorphon-1.16)",
+        "p": {
+          "name": "Morfessor-enriched features and multilingual training for canonical morphological segmentation",
+          "link": "https://aclanthology.org/2022.sigmorphon-1.16"
+        },
         "c": "",
         "n": "AUUH_A",
         "d": null,
@@ -137,31 +173,43 @@
         "m3": "4.08"
       },
       {
-        "p": "[CLUZH at SIGMORPHON 2022 Shared Tasks on Morpheme Segmentation and Inflection Generation](https://aclanthology.org/2022.sigmorphon-1.21)",
-        "c": "[&check;&nbsp;Link](https://github.com/slvnwhrl/il-reimplementation)",
+        "p": {
+          "name": "CLUZH at SIGMORPHON 2022 Shared Tasks on Morpheme Segmentation and Inflection Generation",
+          "link": "https://aclanthology.org/2022.sigmorphon-1.21"
+        },
+        "c": "https://github.com/slvnwhrl/il-reimplementation",
         "n": "CLUZH-3",
         "d": null,
         "m2": "88.14",
         "m3": "5.58"
       },
       {
-        "p": "[CLUZH at SIGMORPHON 2022 Shared Tasks on Morpheme Segmentation and Inflection Generation](https://aclanthology.org/2022.sigmorphon-1.21)",
-        "c": "[&check;&nbsp;Link](https://github.com/slvnwhrl/il-reimplementation)",
+        "p": {
+          "name": "CLUZH at SIGMORPHON 2022 Shared Tasks on Morpheme Segmentation and Inflection Generation",
+          "link": "https://aclanthology.org/2022.sigmorphon-1.21"
+        },
+        "c": "https://github.com/slvnwhrl/il-reimplementation",
         "n": "CLUZH-2",
         "d": null,
         "m2": "87.93",
         "m3": "5.62"
       },
       {
-        "p": "[CLUZH at SIGMORPHON 2022 Shared Tasks on Morpheme Segmentation and Inflection Generation](https://aclanthology.org/2022.sigmorphon-1.21)",
-        "c": "[&check;&nbsp;Link](https://github.com/slvnwhrl/il-reimplementation)",
+        "p": {
+          "name": "CLUZH at SIGMORPHON 2022 Shared Tasks on Morpheme Segmentation and Inflection Generation",
+          "link": "https://aclanthology.org/2022.sigmorphon-1.21"
+        },
+        "c": "https://github.com/slvnwhrl/il-reimplementation",
         "n": "CLUZH-1",
         "d": null,
         "m2": "87.68",
         "m3": "5.69"
       },
       {
-        "p": "[SIGMORPHON 2022 Shared Task on Morpheme Segmentation Submission Description: Sequence Labelling for Word-Level Morpheme Segmentation](https://aclanthology.org/2022.sigmorphon-1.13)",
+        "p": {
+          "name": "SIGMORPHON 2022 Shared Task on Morpheme Segmentation Submission Description: Sequence Labelling for Word-Level Morpheme Segmentation",
+          "link": "https://aclanthology.org/2022.sigmorphon-1.13"
+        },
         "c": "",
         "n": "BiLSTM for seq labelling (Tü_Seg-2)",
         "d": null,
@@ -169,7 +217,10 @@
         "m3": "4.71"
       },
       {
-        "p": "[Morfessor-enriched features and multilingual training for canonical morphological segmentation](https://aclanthology.org/2022.sigmorphon-1.16)",
+        "p": {
+          "name": "Morfessor-enriched features and multilingual training for canonical morphological segmentation",
+          "link": "https://aclanthology.org/2022.sigmorphon-1.16"
+        },
         "c": "",
         "n": "AUUH_E",
         "d": null,
@@ -177,7 +228,10 @@
         "m3": "31.05"
       },
       {
-        "p": "[Morfessor-enriched features and multilingual training for canonical morphological segmentation](https://aclanthology.org/2022.sigmorphon-1.16)",
+        "p": {
+          "name": "Morfessor-enriched features and multilingual training for canonical morphological segmentation",
+          "link": "https://aclanthology.org/2022.sigmorphon-1.16"
+        },
         "c": "",
         "n": "AUUH_D",
         "d": null,
@@ -185,7 +239,10 @@
         "m3": "36.38"
       },
       {
-        "p": "[Morfessor-enriched features and multilingual training for canonical morphological segmentation](https://aclanthology.org/2022.sigmorphon-1.16)",
+        "p": {
+          "name": "Morfessor-enriched features and multilingual training for canonical morphological segmentation",
+          "link": "https://aclanthology.org/2022.sigmorphon-1.16"
+        },
         "c": "",
         "n": "AUUH_C",
         "d": null,

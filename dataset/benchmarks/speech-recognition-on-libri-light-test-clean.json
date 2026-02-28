@@ -43,37 +43,52 @@
     ],
     "items": [
       {
-        "p": "[wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations](https://arxiv.org/abs/2006.11477v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations",
+          "link": "https://arxiv.org/abs/2006.11477v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "wav2vec 2.0 Large-10h-LV-60k",
         "d": "2020-06-20",
         "m1": "2.5"
       },
       {
-        "p": "[Libri-Light: A Benchmark for ASR with Limited or No Supervision](https://arxiv.org/abs/1912.07875v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/libri-light)",
+        "p": {
+          "name": "Libri-Light: A Benchmark for ASR with Limited or No Supervision",
+          "link": "https://arxiv.org/abs/1912.07875v1"
+        },
+        "c": "https://github.com/facebookresearch/libri-light",
         "n": "TDS 60k pseudo-label + CTC fine-tuning + 4gram-LM",
         "d": "2019-12-17",
         "m1": "29.3"
       },
       {
-        "p": "[Libri-Light: A Benchmark for ASR with Limited or No Supervision](https://arxiv.org/abs/1912.07875v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/libri-light)",
+        "p": {
+          "name": "Libri-Light: A Benchmark for ASR with Limited or No Supervision",
+          "link": "https://arxiv.org/abs/1912.07875v1"
+        },
+        "c": "https://github.com/facebookresearch/libri-light",
         "n": "CPC unlab-60k+train-10h CPC pretrain + CTC fine-tuning + 4gram-LM",
         "d": "2019-12-17",
         "m1": "43.9"
       },
       {
-        "p": "[Libri-Light: A Benchmark for ASR with Limited or No Supervision](https://arxiv.org/abs/1912.07875v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/libri-light)",
+        "p": {
+          "name": "Libri-Light: A Benchmark for ASR with Limited or No Supervision",
+          "link": "https://arxiv.org/abs/1912.07875v1"
+        },
+        "c": "https://github.com/facebookresearch/libri-light",
         "n": "CPC unlab-60k",
         "d": "2019-12-17",
         "m2": "7.56",
         "m3": "5.83"
       },
       {
-        "p": "[Improving Unsupervised Sparsespeech Acoustic Models with Categorical Reparameterization](https://arxiv.org/abs/2005.14578v1)",
-        "c": "[&check;&nbsp;Link](https://gitlab.com/milde/sparsespeech)",
+        "p": {
+          "name": "Improving Unsupervised Sparsespeech Acoustic Models with Categorical Reparameterization",
+          "link": "https://arxiv.org/abs/2005.14578v1"
+        },
+        "c": "https://gitlab.com/milde/sparsespeech",
         "n": "S6000h-n42-τ2 → 0.1",
         "d": "2020-05-29",
         "m2": "13.53",

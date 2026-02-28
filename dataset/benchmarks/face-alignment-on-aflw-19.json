@@ -50,7 +50,10 @@
     ],
     "items": [
       {
-        "p": "[Fiducial Focus Augmentation for Facial Landmark Detection](https://arxiv.org/abs/2402.15044v1)",
+        "p": {
+          "name": "Fiducial Focus Augmentation for Facial Landmark Detection",
+          "link": "https://arxiv.org/abs/2402.15044v1"
+        },
         "c": "",
         "n": "FiFA",
         "d": "2024-02-23",
@@ -60,8 +63,11 @@
         "m4": "81.8"
       },
       {
-        "p": "[General Facial Representation Learning in a Visual-Linguistic Manner](https://arxiv.org/abs/2112.03109v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/FacePerceiver/FaRL)",
+        "p": {
+          "name": "General Facial Representation Learning in a Visual-Linguistic Manner",
+          "link": "https://arxiv.org/abs/2112.03109v3"
+        },
+        "c": "https://github.com/FacePerceiver/FaRL",
         "n": "FaRL-B (epoch 16)",
         "d": "2021-12-06",
         "m1": "0.943",
@@ -70,7 +76,10 @@
         "m4": "81.3"
       },
       {
-        "p": "[Exploring StyleGAN Latent Space for Face Alignment with Limited Training Data](https://hal.archives-ouvertes.fr/INRIA/hal-03778322v1)",
+        "p": {
+          "name": "Exploring StyleGAN Latent Space for Face Alignment with Limited Training Data",
+          "link": "https://hal.archives-ouvertes.fr/INRIA/hal-03778322v1"
+        },
         "c": "",
         "n": "FASE",
         "d": "2022-09-16",
@@ -80,15 +89,21 @@
         "m4": "79.1"
       },
       {
-        "p": "[Look at Boundary: A Boundary-Aware Face Alignment Algorithm](http://arxiv.org/abs/1805.10483v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmpose)",
+        "p": {
+          "name": "Look at Boundary: A Boundary-Aware Face Alignment Algorithm",
+          "link": "http://arxiv.org/abs/1805.10483v1"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
         "n": "LAB (w/ B)",
         "d": "2018-05-26",
         "m1": "1.25",
         "m2": "1.14"
       },
       {
-        "p": "[Subpixel Heatmap Regression for Facial Landmark Localization](https://arxiv.org/abs/2111.02360v1)",
+        "p": {
+          "name": "Subpixel Heatmap Regression for Facial Landmark Localization",
+          "link": "https://arxiv.org/abs/2111.02360v1"
+        },
         "c": "",
         "n": "SHR-FAN",
         "d": "2021-11-03",
@@ -98,14 +113,20 @@
         "m4": "70.0"
       },
       {
-        "p": "[Towards Accurate Facial Landmark Detection via Cascaded Transformers](https://arxiv.org/abs/2208.10808v1)",
+        "p": {
+          "name": "Towards Accurate Facial Landmark Detection via Cascaded Transformers",
+          "link": "https://arxiv.org/abs/2208.10808v1"
+        },
         "c": "",
         "n": "DTLD+",
         "d": "2022-08-23",
         "m1": "1.37"
       },
       {
-        "p": "[Robust Face Alignment by Multi-order High-precision Hourglass Network](https://arxiv.org/abs/2010.08722v1)",
+        "p": {
+          "name": "Robust Face Alignment by Multi-order High-precision Hourglass Network",
+          "link": "https://arxiv.org/abs/2010.08722v1"
+        },
         "c": "",
         "n": "MHHN",
         "d": "2020-10-17",
@@ -113,8 +134,11 @@
         "m2": "1.19"
       },
       {
-        "p": "[LUVLi Face Alignment: Estimating Landmarks' Location, Uncertainty, and Visibility Likelihood](https://arxiv.org/abs/2004.02980v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/abhi1kumar/LUVLi)",
+        "p": {
+          "name": "LUVLi Face Alignment: Estimating Landmarks' Location, Uncertainty, and Visibility Likelihood",
+          "link": "https://arxiv.org/abs/2004.02980v1"
+        },
+        "c": "https://github.com/abhi1kumar/LUVLi",
         "n": "LUVLi",
         "d": "2020-04-06",
         "m1": "1.39",
@@ -123,45 +147,63 @@
         "m4": "68.0"
       },
       {
-        "p": "[Pixel-in-Pixel Net: Towards Efficient Facial Landmark Detection in the Wild](https://arxiv.org/abs/2003.03771v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/jhb86253817/PIPNet)",
+        "p": {
+          "name": "Pixel-in-Pixel Net: Towards Efficient Facial Landmark Detection in the Wild",
+          "link": "https://arxiv.org/abs/2003.03771v3"
+        },
+        "c": "https://github.com/jhb86253817/PIPNet",
         "n": "PIPNet (ResNet-101)",
         "d": "2020-03-08",
         "m1": "1.42"
       },
       {
-        "p": "[Pre-training strategies and datasets for facial representation learning](https://arxiv.org/abs/2103.16554v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/tomas-gajarsky/facetorch)",
+        "p": {
+          "name": "Pre-training strategies and datasets for facial representation learning",
+          "link": "https://arxiv.org/abs/2103.16554v2"
+        },
+        "c": "https://github.com/tomas-gajarsky/facetorch",
         "n": "VGG-F",
         "d": "2021-03-30",
         "m1": "1.55"
       },
       {
-        "p": "[ATF: Towards Robust Face Alignment via Leveraging Similarity and Diversity across Different Datasets](https://dl.acm.org/doi/10.1145/3394171.3414037)",
-        "c": "[&check;&nbsp;Link](https://github.com/starhiking/ATF)",
+        "p": {
+          "name": "ATF: Towards Robust Face Alignment via Leveraging Similarity and Diversity across Different Datasets",
+          "link": "https://dl.acm.org/doi/10.1145/3394171.3414037"
+        },
+        "c": "https://github.com/starhiking/ATF",
         "n": "ATF",
         "d": "2020-10-12",
         "m1": "1.55"
       },
       {
-        "p": "[AnchorFace: An Anchor-based Facial Landmark Detector Across Large Poses](https://arxiv.org/abs/2007.03221v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/nothingelse92/AnchorFace)",
+        "p": {
+          "name": "AnchorFace: An Anchor-based Facial Landmark Detector Across Large Poses",
+          "link": "https://arxiv.org/abs/2007.03221v3"
+        },
+        "c": "https://github.com/nothingelse92/AnchorFace",
         "n": "AnchorFace",
         "d": "2020-07-07",
         "m1": "1.56",
         "m2": "1.38"
       },
       {
-        "p": "[High-Resolution Representations for Labeling Pixels and Regions](http://arxiv.org/abs/1904.04514v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/PaddlePaddle/PaddleDetection)",
+        "p": {
+          "name": "High-Resolution Representations for Labeling Pixels and Regions",
+          "link": "http://arxiv.org/abs/1904.04514v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
         "n": "HR-Net",
         "d": "2019-04-09",
         "m1": "1.57",
         "m2": "1.46"
       },
       {
-        "p": "[Wing Loss for Robust Facial Landmark Localisation with Convolutional Neural Networks](http://arxiv.org/abs/1711.06753v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmpose)",
+        "p": {
+          "name": "Wing Loss for Robust Facial Landmark Localisation with Convolutional Neural Networks",
+          "link": "http://arxiv.org/abs/1711.06753v5"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
         "n": "Wing",
         "d": "2017-11-17",
         "m1": "1.65",
@@ -169,23 +211,32 @@
         "m4": "53.5"
       },
       {
-        "p": "[Look at Boundary: A Boundary-Aware Face Alignment Algorithm](http://arxiv.org/abs/1805.10483v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/open-mmlab/mmpose)",
+        "p": {
+          "name": "Look at Boundary: A Boundary-Aware Face Alignment Algorithm",
+          "link": "http://arxiv.org/abs/1805.10483v1"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
         "n": "LAB (w/o B)",
         "d": "2018-05-26",
         "m1": "1.85",
         "m2": "1.62"
       },
       {
-        "p": "[Direct Shape Regression Networks for End-to-End Face Alignment](http://openaccess.thecvf.com/content_cvpr_2018/html/Miao_Direct_Shape_Regression_CVPR_2018_paper.html)",
+        "p": {
+          "name": "Direct Shape Regression Networks for End-to-End Face Alignment",
+          "link": "http://openaccess.thecvf.com/content_cvpr_2018/html/Miao_Direct_Shape_Regression_CVPR_2018_paper.html"
+        },
         "c": "",
         "n": "DSRN",
         "d": "2018-06-01",
         "m1": "1.86"
       },
       {
-        "p": "[Style Aggregated Network for Facial Landmark Detection](http://arxiv.org/abs/1803.04108v4)",
-        "c": "[&check;&nbsp;Link](https://github.com/D-X-Y/SAN)",
+        "p": {
+          "name": "Style Aggregated Network for Facial Landmark Detection",
+          "link": "http://arxiv.org/abs/1803.04108v4"
+        },
+        "c": "https://github.com/D-X-Y/SAN",
         "n": "SAN",
         "d": "2018-03-12",
         "m1": "1.91",
@@ -194,7 +245,10 @@
         "m4": "54.0"
       },
       {
-        "p": "[Dynamic Attention-controlled Cascaded Shape Regression Exploiting Training Data Augmentation and Fuzzy-set Sample Weighting](http://arxiv.org/abs/1611.05396v2)",
+        "p": {
+          "name": "Dynamic Attention-controlled Cascaded Shape Regression Exploiting Training Data Augmentation and Fuzzy-set Sample Weighting",
+          "link": "http://arxiv.org/abs/1611.05396v2"
+        },
         "c": "",
         "n": "DAC-CSR",
         "d": "2016-11-16",
@@ -202,7 +256,10 @@
         "m2": "1.81"
       },
       {
-        "p": "[Unconstrained Face Alignment via Cascaded Compositional Learning](http://openaccess.thecvf.com/content_cvpr_2016/html/Zhu_Unconstrained_Face_Alignment_CVPR_2016_paper.html)",
+        "p": {
+          "name": "Unconstrained Face Alignment via Cascaded Compositional Learning",
+          "link": "http://openaccess.thecvf.com/content_cvpr_2016/html/Zhu_Unconstrained_Face_Alignment_CVPR_2016_paper.html"
+        },
         "c": "",
         "n": "CCL",
         "d": "2016-06-01",
@@ -210,29 +267,41 @@
         "m2": "2.17"
       },
       {
-        "p": "[Face alignment by coarse-to-fine shape searching](https://www.cv-foundation.org/openaccess/content_cvpr_2015/html/Zhu_Face_Alignment_by_2015_CVPR_paper.html)",
-        "c": "[&check;&nbsp;Link](https://github.com/zhusz/CVPR15-CFSS)",
+        "p": {
+          "name": "Face alignment by coarse-to-fine shape searching",
+          "link": "https://www.cv-foundation.org/openaccess/content_cvpr_2015/html/Zhu_Face_Alignment_by_2015_CVPR_paper.html"
+        },
+        "c": "https://github.com/zhusz/CVPR15-CFSS",
         "n": "CFSS",
         "d": "2015-06-07",
         "m1": "3.92",
         "m2": "2.68"
       },
       {
-        "p": "[3FabRec: Fast Few-shot Face alignment by Reconstruction](https://arxiv.org/abs/1911.10448v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/browatbn2/3FabRec)",
+        "p": {
+          "name": "3FabRec: Fast Few-shot Face alignment by Reconstruction",
+          "link": "https://arxiv.org/abs/1911.10448v2"
+        },
+        "c": "https://github.com/browatbn2/3FabRec",
         "n": "3FabRec",
         "d": "2019-11-24",
         "m3": "1.84"
       },
       {
-        "p": "[Laplace Landmark Localization](https://arxiv.org/abs/1903.11633v2)",
+        "p": {
+          "name": "Laplace Landmark Localization",
+          "link": "https://arxiv.org/abs/1903.11633v2"
+        },
         "c": "",
         "n": "LLL",
         "d": "2019-03-27",
         "m3": "1.97"
       },
       {
-        "p": "[Face Alignment With Kernel Density Deep Neural Network](http://openaccess.thecvf.com/content_ICCV_2019/html/Chen_Face_Alignment_With_Kernel_Density_Deep_Neural_Network_ICCV_2019_paper.html)",
+        "p": {
+          "name": "Face Alignment With Kernel Density Deep Neural Network",
+          "link": "http://openaccess.thecvf.com/content_ICCV_2019/html/Chen_Face_Alignment_With_Kernel_Density_Deep_Neural_Network_ICCV_2019_paper.html"
+        },
         "c": "",
         "n": "KDN",
         "d": "2019-10-01",

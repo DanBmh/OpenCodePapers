@@ -34,22 +34,31 @@
     ],
     "items": [
       {
-        "p": "[GPT-4o as the Gold Standard: A Scalable and General Purpose Approach to Filter Language Model Pretraining Data](https://arxiv.org/abs/2410.02755v3)",
+        "p": {
+          "name": "GPT-4o as the Gold Standard: A Scalable and General Purpose Approach to Filter Language Model Pretraining Data",
+          "link": "https://arxiv.org/abs/2410.02755v3"
+        },
         "c": "",
         "n": "GPT-4 o1(300b)",
         "d": "2024-10-03",
         "m1": "87"
       },
       {
-        "p": "[Llama 3 Meets MoE: Efficient Upcycling](https://arxiv.org/abs/2412.09952v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/NVIDIA/NeMo)",
+        "p": {
+          "name": "Llama 3 Meets MoE: Efficient Upcycling",
+          "link": "https://arxiv.org/abs/2412.09952v1"
+        },
+        "c": "https://github.com/NVIDIA/NeMo",
         "n": "Llama 3.1 (405B)",
         "d": "2024-12-13",
         "m1": "86.6"
       },
       {
-        "p": "[Llama 3 Meets MoE: Efficient Upcycling](https://arxiv.org/abs/2412.09952v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/NVIDIA/NeMo)",
+        "p": {
+          "name": "Llama 3 Meets MoE: Efficient Upcycling",
+          "link": "https://arxiv.org/abs/2412.09952v1"
+        },
+        "c": "https://github.com/NVIDIA/NeMo",
         "n": "Llama 3.1 (70B)",
         "d": "2024-12-13",
         "m1": "86.0"
@@ -62,7 +71,10 @@
         "m1": "83.7"
       },
       {
-        "p": "[The Claude 3 Model Family: Opus, Sonnet, Haiku](https://www.anthropic.com/news/claude-3-family)",
+        "p": {
+          "name": "The Claude 3 Model Family: Opus, Sonnet, Haiku",
+          "link": "https://www.anthropic.com/news/claude-3-family"
+        },
         "c": "",
         "n": "Claude 3 Sonnet (5-shot)",
         "d": "2024-03-04",
@@ -76,105 +88,150 @@
         "m1": "77.5"
       },
       {
-        "p": "[The Claude 3 Model Family: Opus, Sonnet, Haiku](https://www.anthropic.com/news/claude-3-family)",
+        "p": {
+          "name": "The Claude 3 Model Family: Opus, Sonnet, Haiku",
+          "link": "https://www.anthropic.com/news/claude-3-family"
+        },
         "c": "",
         "n": "Claude 3 Haiku (5-shot)",
         "d": "2024-03-04",
         "m1": "75.2"
       },
       {
-        "p": "[The Llama 3 Herd of Models](https://arxiv.org/abs/2407.21783v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/zhuzilin/ring-flash-attention)",
+        "p": {
+          "name": "The Llama 3 Herd of Models",
+          "link": "https://arxiv.org/abs/2407.21783v3"
+        },
+        "c": "https://github.com/zhuzilin/ring-flash-attention",
         "n": "DBRX Instruct 132B (5-shot)",
         "d": "2024-07-31",
         "m1": "73.7"
       },
       {
-        "p": "[Scaling Instruction-Finetuned Language Models](https://arxiv.org/abs/2210.11416v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/flan)",
+        "p": {
+          "name": "Scaling Instruction-Finetuned Language Models",
+          "link": "https://arxiv.org/abs/2210.11416v5"
+        },
+        "c": "https://github.com/google-research/flan",
         "n": "llama 2(65b)",
         "d": "2022-10-20",
         "m1": "73.5"
       },
       {
-        "p": "[The Llama 3 Herd of Models](https://arxiv.org/abs/2407.21783v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/zhuzilin/ring-flash-attention)",
+        "p": {
+          "name": "The Llama 3 Herd of Models",
+          "link": "https://arxiv.org/abs/2407.21783v3"
+        },
+        "c": "https://github.com/zhuzilin/ring-flash-attention",
         "n": "Llama 3.1 8B (CoT)",
         "d": "2024-07-31",
         "m1": "73.0"
       },
       {
-        "p": "[Mixtral of Experts](https://arxiv.org/abs/2401.04088v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/jingyaogong/minimind)",
+        "p": {
+          "name": "Mixtral of Experts",
+          "link": "https://arxiv.org/abs/2401.04088v1"
+        },
+        "c": "https://github.com/jingyaogong/minimind",
         "n": "Mixtral 8x7B (5-shot)",
         "d": "2024-01-08",
         "m1": "70.6"
       },
       {
-        "p": "[GPT-4 Technical Report](https://arxiv.org/abs/2303.08774v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/openai/evals)",
+        "p": {
+          "name": "GPT-4 Technical Report",
+          "link": "https://arxiv.org/abs/2303.08774v5"
+        },
+        "c": "https://github.com/openai/evals",
         "n": "GPT-3.5 Turbo",
         "d": "2023-03-15",
         "m1": "70.0"
       },
       {
-        "p": "[LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "LLaMA: Open and Efficient Foundation Language Models",
+          "link": "https://arxiv.org/abs/2302.13971v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "LLaMA 65B (fine-tuned)",
         "d": "2023-02-27",
         "m1": "68.9"
       },
       {
-        "p": "[Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/karpathy/llama2.c)",
+        "p": {
+          "name": "Training Compute-Optimal Large Language Models",
+          "link": "https://arxiv.org/abs/2203.15556v1"
+        },
+        "c": "https://github.com/karpathy/llama2.c",
         "n": "chatgpt/gpt3.5(20B)",
         "d": "2022-03-29",
         "m1": "67.5"
       },
       {
-        "p": "[LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "LLaMA: Open and Efficient Foundation Language Models",
+          "link": "https://arxiv.org/abs/2302.13971v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "LLaMA 65B (5-shot)",
         "d": "2023-02-27",
         "m1": "63.4"
       },
       {
-        "p": "[Llama 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/abs/2307.09288v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/llama)",
+        "p": {
+          "name": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+          "link": "https://arxiv.org/abs/2307.09288v2"
+        },
+        "c": "https://github.com/facebookresearch/llama",
         "n": "LLaMA 2 34B (5-shot)",
         "d": "2023-07-18",
         "m1": "62.6"
       },
       {
-        "p": "[Mixtral of Experts](https://arxiv.org/abs/2401.04088v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/jingyaogong/minimind)",
+        "p": {
+          "name": "Mixtral of Experts",
+          "link": "https://arxiv.org/abs/2401.04088v1"
+        },
+        "c": "https://github.com/jingyaogong/minimind",
         "n": "Mistral 7B (5-shot)",
         "d": "2024-01-08",
         "m1": "62.5"
       },
       {
-        "p": "[Mistral 7B](https://arxiv.org/abs/2310.06825v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/mistralai/mistral-src)",
+        "p": {
+          "name": "Mistral 7B",
+          "link": "https://arxiv.org/abs/2310.06825v1"
+        },
+        "c": "https://github.com/mistralai/mistral-src",
         "n": "Mistral 7B (5-shot)",
         "d": "2023-10-10",
         "m1": "60.1"
       },
       {
-        "p": "[Scaling Instruction-Finetuned Language Models](https://arxiv.org/abs/2210.11416v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/flan)",
+        "p": {
+          "name": "Scaling Instruction-Finetuned Language Models",
+          "link": "https://arxiv.org/abs/2210.11416v5"
+        },
+        "c": "https://github.com/google-research/flan",
         "n": "GPT-3 Davinci 175B (CoT)",
         "d": "2022-10-20",
         "m1": "59.5"
       },
       {
-        "p": "[LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "LLaMA: Open and Efficient Foundation Language Models",
+          "link": "https://arxiv.org/abs/2302.13971v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "LLaMA 33B (5-shot)",
         "d": "2023-02-27",
         "m1": "57.8"
       },
       {
-        "p": "[The Falcon Series of Open Language Models](https://arxiv.org/abs/2311.16867v2)",
+        "p": {
+          "name": "The Falcon Series of Open Language Models",
+          "link": "https://arxiv.org/abs/2311.16867v2"
+        },
         "c": "",
         "n": "Falcon 40B",
         "d": "2023-11-28",
@@ -188,127 +245,181 @@
         "m1": "56.7"
       },
       {
-        "p": "[Llama 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/abs/2307.09288v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/llama)",
+        "p": {
+          "name": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+          "link": "https://arxiv.org/abs/2307.09288v2"
+        },
+        "c": "https://github.com/facebookresearch/llama",
         "n": "LLaMA 2 13B (5-shot)",
         "d": "2023-07-18",
         "m1": "54.8"
       },
       {
-        "p": "[Branch-Train-MiX: Mixing Expert LLMs into a Mixture-of-Experts LLM](https://arxiv.org/abs/2403.07816v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/Leeroo-AI/mergoo)",
+        "p": {
+          "name": "Branch-Train-MiX: Mixing Expert LLMs into a Mixture-of-Experts LLM",
+          "link": "https://arxiv.org/abs/2403.07816v1"
+        },
+        "c": "https://github.com/Leeroo-AI/mergoo",
         "n": "Branch-Train-MiX 4x7B (sampling top-1 experts)",
         "d": "2024-03-12",
         "m1": "53.2"
       },
       {
-        "p": "[Galactica: A Large Language Model for Science](https://arxiv.org/abs/2211.09085v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/paperswithcode/galai)",
+        "p": {
+          "name": "Galactica: A Large Language Model for Science",
+          "link": "https://arxiv.org/abs/2211.09085v1"
+        },
+        "c": "https://github.com/paperswithcode/galai",
         "n": "GAL 120B (zero-shot)",
         "d": "2022-11-16",
         "m1": "52.6"
       },
       {
-        "p": "[Atlas: Few-shot Learning with Retrieval Augmented Language Models](https://arxiv.org/abs/2208.03299v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/atlas)",
+        "p": {
+          "name": "Atlas: Few-shot Learning with Retrieval Augmented Language Models",
+          "link": "https://arxiv.org/abs/2208.03299v3"
+        },
+        "c": "https://github.com/facebookresearch/atlas",
         "n": "Atlas (5-shot)",
         "d": "2022-08-05",
         "m1": "47.9"
       },
       {
-        "p": "[Scaling Instruction-Finetuned Language Models](https://arxiv.org/abs/2210.11416v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/flan)",
+        "p": {
+          "name": "Scaling Instruction-Finetuned Language Models",
+          "link": "https://arxiv.org/abs/2210.11416v5"
+        },
+        "c": "https://github.com/google-research/flan",
         "n": "Flan-T5-XL 3B (CoT)",
         "d": "2022-10-20",
         "m1": "45.5"
       },
       {
-        "p": "[Llama 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/abs/2307.09288v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/llama)",
+        "p": {
+          "name": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+          "link": "https://arxiv.org/abs/2307.09288v2"
+        },
+        "c": "https://github.com/facebookresearch/llama",
         "n": "LLaMA 2 7B (5-shot)",
         "d": "2023-07-18",
         "m1": "45.3"
       },
       {
-        "p": "[Scaling Instruction-Finetuned Language Models](https://arxiv.org/abs/2210.11416v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/flan)",
+        "p": {
+          "name": "Scaling Instruction-Finetuned Language Models",
+          "link": "https://arxiv.org/abs/2210.11416v5"
+        },
+        "c": "https://github.com/google-research/flan",
         "n": "Flan-T5-Large 780M",
         "d": "2022-10-20",
         "m1": "45.1"
       },
       {
-        "p": "[GLM-130B: An Open Bilingual Pre-trained Model](https://arxiv.org/abs/2210.02414v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/thudm/chatglm2-6b)",
+        "p": {
+          "name": "GLM-130B: An Open Bilingual Pre-trained Model",
+          "link": "https://arxiv.org/abs/2210.02414v2"
+        },
+        "c": "https://github.com/thudm/chatglm2-6b",
         "n": "GLM-130B",
         "d": "2022-10-05",
         "m1": "44.8"
       },
       {
-        "p": "[Scaling Instruction-Finetuned Language Models](https://arxiv.org/abs/2210.11416v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/flan)",
+        "p": {
+          "name": "Scaling Instruction-Finetuned Language Models",
+          "link": "https://arxiv.org/abs/2210.11416v5"
+        },
+        "c": "https://github.com/google-research/flan",
         "n": "Flan-T5-Large 780M (CoT)",
         "d": "2022-10-20",
         "m1": "40.5"
       },
       {
-        "p": "[Scaling Instruction-Finetuned Language Models](https://arxiv.org/abs/2210.11416v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/flan)",
+        "p": {
+          "name": "Scaling Instruction-Finetuned Language Models",
+          "link": "https://arxiv.org/abs/2210.11416v5"
+        },
+        "c": "https://github.com/google-research/flan",
         "n": "GPT-3 Davinci 175B (5-shot)",
         "d": "2022-10-20",
         "m1": "39.7"
       },
       {
-        "p": "[BloombergGPT: A Large Language Model for Finance](https://arxiv.org/abs/2303.17564v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/yangletliu/finlora)",
+        "p": {
+          "name": "BloombergGPT: A Large Language Model for Finance",
+          "link": "https://arxiv.org/abs/2303.17564v3"
+        },
+        "c": "https://github.com/yangletliu/finlora",
         "n": "Bloomberg GPT 50B (5-shot)",
         "d": "2023-03-30",
         "m1": "39.2"
       },
       {
-        "p": "[UL2: Unifying Language Learning Paradigms](https://arxiv.org/abs/2205.05131v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/google-research)",
+        "p": {
+          "name": "UL2: Unifying Language Learning Paradigms",
+          "link": "https://arxiv.org/abs/2205.05131v3"
+        },
+        "c": "https://github.com/google-research/google-research",
         "n": "UL2 20B (5-shot)",
         "d": "2022-05-10",
         "m1": "39.2"
       },
       {
-        "p": "[BloombergGPT: A Large Language Model for Finance](https://arxiv.org/abs/2303.17564v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/yangletliu/finlora)",
+        "p": {
+          "name": "BloombergGPT: A Large Language Model for Finance",
+          "link": "https://arxiv.org/abs/2303.17564v3"
+        },
+        "c": "https://github.com/yangletliu/finlora",
         "n": "BLOOM 176B (5-shot)",
         "d": "2023-03-30",
         "m1": "39.1"
       },
       {
-        "p": "[Textbooks Are All You Need II: phi-1.5 technical report](https://arxiv.org/abs/2309.05463v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/knowlab/bi-weekly-paper-presentation)",
+        "p": {
+          "name": "Textbooks Are All You Need II: phi-1.5 technical report",
+          "link": "https://arxiv.org/abs/2309.05463v1"
+        },
+        "c": "https://github.com/knowlab/bi-weekly-paper-presentation",
         "n": "phi-1.5-web 1.3B",
         "d": "2023-09-11",
         "m1": "37.9"
       },
       {
-        "p": "[BloombergGPT: A Large Language Model for Finance](https://arxiv.org/abs/2303.17564v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/yangletliu/finlora)",
+        "p": {
+          "name": "BloombergGPT: A Large Language Model for Finance",
+          "link": "https://arxiv.org/abs/2303.17564v3"
+        },
+        "c": "https://github.com/yangletliu/finlora",
         "n": "OPT 66B (5-shot)",
         "d": "2023-03-30",
         "m1": "36"
       },
       {
-        "p": "[Scaling Instruction-Finetuned Language Models](https://arxiv.org/abs/2210.11416v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/flan)",
+        "p": {
+          "name": "Scaling Instruction-Finetuned Language Models",
+          "link": "https://arxiv.org/abs/2210.11416v5"
+        },
+        "c": "https://github.com/google-research/flan",
         "n": "Flan-T5-Base 250M",
         "d": "2022-10-20",
         "m1": "35.9"
       },
       {
-        "p": "[Scaling Instruction-Finetuned Language Models](https://arxiv.org/abs/2210.11416v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/flan)",
+        "p": {
+          "name": "Scaling Instruction-Finetuned Language Models",
+          "link": "https://arxiv.org/abs/2210.11416v5"
+        },
+        "c": "https://github.com/google-research/flan",
         "n": "Flan-T5-Base 250M (CoT)",
         "d": "2022-10-20",
         "m1": "33.7"
       },
       {
-        "p": "[GPT-NeoX-20B: An Open-Source Autoregressive Language Model](https://arxiv.org/abs/2204.06745v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/labmlai/annotated_deep_learning_paper_implementations)",
+        "p": {
+          "name": "GPT-NeoX-20B: An Open-Source Autoregressive Language Model",
+          "link": "https://arxiv.org/abs/2204.06745v1"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
         "n": "GPT-NeoX 20B (5-shot)",
         "d": "2022-04-14",
         "m1": "33.6"
@@ -321,21 +432,30 @@
         "m1": "31"
       },
       {
-        "p": "[MiLe Loss: a New Loss for Mitigating the Bias of Learning Difficulties in Generative Language Models](https://arxiv.org/abs/2310.19531v6)",
-        "c": "[&check;&nbsp;Link](https://github.com/suu990901/LLaMA-InfoEntropy-Loss)",
+        "p": {
+          "name": "MiLe Loss: a New Loss for Mitigating the Bias of Learning Difficulties in Generative Language Models",
+          "link": "https://arxiv.org/abs/2310.19531v6"
+        },
+        "c": "https://github.com/suu990901/LLaMA-InfoEntropy-Loss",
         "n": "LLaMA7B-MiLe-Loss(5-shot)",
         "d": "2023-10-30",
         "m1": "29.68"
       },
       {
-        "p": "[Scaling Instruction-Finetuned Language Models](https://arxiv.org/abs/2210.11416v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/flan)",
+        "p": {
+          "name": "Scaling Instruction-Finetuned Language Models",
+          "link": "https://arxiv.org/abs/2210.11416v5"
+        },
+        "c": "https://github.com/google-research/flan",
         "n": "Flan-T5-Small 80M",
         "d": "2022-10-20",
         "m1": "28.7"
       },
       {
-        "p": "[The Falcon Series of Open Language Models](https://arxiv.org/abs/2311.16867v2)",
+        "p": {
+          "name": "The Falcon Series of Open Language Models",
+          "link": "https://arxiv.org/abs/2311.16867v2"
+        },
         "c": "",
         "n": "Falcon 7B (5-shot)",
         "d": "2023-11-28",

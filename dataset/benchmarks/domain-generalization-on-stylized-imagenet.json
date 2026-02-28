@@ -33,22 +33,31 @@
     ],
     "items": [
       {
-        "p": "[Enhance the Visual Representation via Discrete Adversarial Training](https://arxiv.org/abs/2209.07735v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/alibaba/easyrobust/tree/main/examples/imageclassification/imagenet/dat)",
+        "p": {
+          "name": "Enhance the Visual Representation via Discrete Adversarial Training",
+          "link": "https://arxiv.org/abs/2209.07735v1"
+        },
+        "c": "https://github.com/alibaba/easyrobust/tree/main/examples/imageclassification/imagenet/dat",
         "n": "MAE+DAT (ViT-H)",
         "d": "2022-09-16",
         "m1": "32.77"
       },
       {
-        "p": "[Improving Vision Transformers by Revisiting High-frequency Components](https://arxiv.org/abs/2204.00993v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/jiawangbai/HAT)",
+        "p": {
+          "name": "Improving Vision Transformers by Revisiting High-frequency Components",
+          "link": "https://arxiv.org/abs/2204.00993v3"
+        },
+        "c": "https://github.com/jiawangbai/HAT",
         "n": "VOLO-D5+HAT",
         "d": "2022-04-03",
         "m1": "25.9"
       },
       {
-        "p": "[Discrete Representations Strengthen Vision Transformer Robustness](https://arxiv.org/abs/2111.10493v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/alibaba/easyrobust/tree/main/examples/imageclassification/imagenet/drvit)",
+        "p": {
+          "name": "Discrete Representations Strengthen Vision Transformer Robustness",
+          "link": "https://arxiv.org/abs/2111.10493v2"
+        },
+        "c": "https://github.com/alibaba/easyrobust/tree/main/examples/imageclassification/imagenet/drvit",
         "n": "DiscreteViT",
         "d": "2021-11-20",
         "m1": "22.19"

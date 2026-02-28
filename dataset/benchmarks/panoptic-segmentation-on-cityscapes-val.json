@@ -63,8 +63,11 @@
     ],
     "items": [
       {
-        "p": "[The Missing Point in Vision Transformers for Universal Image Segmentation](https://arxiv.org/abs/2505.19795v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/sajjad-sh33/vit-p)",
+        "p": {
+          "name": "The Missing Point in Vision Transformers for Universal Image Segmentation",
+          "link": "https://arxiv.org/abs/2505.19795v1"
+        },
+        "c": "https://github.com/sajjad-sh33/vit-p",
         "n": "ViT-P (OneFormer, InternImage-H)",
         "d": "2025-05-26",
         "m1": "70.8",
@@ -72,8 +75,11 @@
         "m5": "50.6"
       },
       {
-        "p": "[OneFormer: One Transformer to Rule Universal Image Segmentation](https://arxiv.org/abs/2211.06220v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "OneFormer: One Transformer to Rule Universal Image Segmentation",
+          "link": "https://arxiv.org/abs/2211.06220v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "OneFormer (ConvNeXt-L, single-scale, 512x1024, Mapillary Vistas-pretrained)",
         "d": "2022-11-10",
         "m1": "70.1",
@@ -83,7 +89,10 @@
         "m5": "48.7"
       },
       {
-        "p": "[Scaling Wide Residual Networks for Panoptic Segmentation](https://arxiv.org/abs/2011.11675v2)",
+        "p": {
+          "name": "Scaling Wide Residual Networks for Panoptic Segmentation",
+          "link": "https://arxiv.org/abs/2011.11675v2"
+        },
         "c": "",
         "n": "Panoptic-DeepLab (SWideRNet [1, 1, 4.5], Mapillary Vistas, multi-scale)",
         "d": "2020-11-23",
@@ -92,8 +101,11 @@
         "m5": "46.8"
       },
       {
-        "p": "[OneFormer: One Transformer to Rule Universal Image Segmentation](https://arxiv.org/abs/2211.06220v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "OneFormer: One Transformer to Rule Universal Image Segmentation",
+          "link": "https://arxiv.org/abs/2211.06220v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "OneFormer (ConvNeXt-L, single-scale)",
         "d": "2022-11-10",
         "m1": "68.51",
@@ -101,8 +113,11 @@
         "m5": "46.5"
       },
       {
-        "p": "[Axial-DeepLab: Stand-Alone Axial-Attention for Panoptic Segmentation](https://arxiv.org/abs/2003.07853v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/The-AI-Summer/self_attention)",
+        "p": {
+          "name": "Axial-DeepLab: Stand-Alone Axial-Attention for Panoptic Segmentation",
+          "link": "https://arxiv.org/abs/2003.07853v2"
+        },
+        "c": "https://github.com/The-AI-Summer/self_attention",
         "n": "Axial-DeepLab-XL (Mapillary Vistas, multi-scale)",
         "d": "2020-03-17",
         "m1": "68.5",
@@ -110,7 +125,10 @@
         "m5": " 44.2"
       },
       {
-        "p": "[Scaling Wide Residual Networks for Panoptic Segmentation](https://arxiv.org/abs/2011.11675v2)",
+        "p": {
+          "name": "Scaling Wide Residual Networks for Panoptic Segmentation",
+          "link": "https://arxiv.org/abs/2011.11675v2"
+        },
         "c": "",
         "n": "Panoptic-DeepLab (SWideRNet [1, 1, 4.5], Mapillary Vistas, single-scale)",
         "d": "2020-11-23",
@@ -119,8 +137,11 @@
         "m5": "42.8"
       },
       {
-        "p": "[OneFormer: One Transformer to Rule Universal Image Segmentation](https://arxiv.org/abs/2211.06220v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "OneFormer: One Transformer to Rule Universal Image Segmentation",
+          "link": "https://arxiv.org/abs/2211.06220v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "OneFormer (ConvNeXt-XL, single-scale)",
         "d": "2022-11-10",
         "m1": "68.4",
@@ -128,8 +149,11 @@
         "m5": "46.7"
       },
       {
-        "p": "[kMaX-DeepLab: k-means Mask Transformer](https://arxiv.org/abs/2207.04044v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/google-research/deeplab2)",
+        "p": {
+          "name": "kMaX-DeepLab: k-means Mask Transformer",
+          "link": "https://arxiv.org/abs/2207.04044v5"
+        },
+        "c": "https://github.com/google-research/deeplab2",
         "n": "kMaX-DeepLab (single-scale)",
         "d": "2022-07-08",
         "m1": "68.4",
@@ -137,8 +161,11 @@
         "m5": "44.0"
       },
       {
-        "p": "[AutoFocusFormer: Image Segmentation off the Grid](https://arxiv.org/abs/2304.12406v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/apple/ml-autofocusformer)",
+        "p": {
+          "name": "AutoFocusFormer: Image Segmentation off the Grid",
+          "link": "https://arxiv.org/abs/2304.12406v2"
+        },
+        "c": "https://github.com/apple/ml-autofocusformer",
         "n": "AFF-Base (single-scale, point-based Mask2Former)",
         "d": "2023-04-24",
         "m1": "67.7",
@@ -148,8 +175,11 @@
         "m5": "46.2"
       },
       {
-        "p": "[OneFormer: One Transformer to Rule Universal Image Segmentation](https://arxiv.org/abs/2211.06220v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "OneFormer: One Transformer to Rule Universal Image Segmentation",
+          "link": "https://arxiv.org/abs/2211.06220v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "OneFormer (DiNAT-L, single-scale)",
         "d": "2022-11-10",
         "m1": "67.6",
@@ -157,8 +187,11 @@
         "m5": "45.6"
       },
       {
-        "p": "[EfficientPS: Efficient Panoptic Segmentation](https://arxiv.org/abs/2004.02307v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/DeepSceneSeg/EfficientPS)",
+        "p": {
+          "name": "EfficientPS: Efficient Panoptic Segmentation",
+          "link": "https://arxiv.org/abs/2004.02307v3"
+        },
+        "c": "https://github.com/DeepSceneSeg/EfficientPS",
         "n": "EfficientPS",
         "d": "2020-04-05",
         "m1": "67.5",
@@ -168,8 +201,11 @@
         "m5": "43.5"
       },
       {
-        "p": "[Dilated Neighborhood Attention Transformer](https://arxiv.org/abs/2209.15001v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "Dilated Neighborhood Attention Transformer",
+          "link": "https://arxiv.org/abs/2209.15001v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "DiNAT-L (Mask2Former)",
         "d": "2022-09-29",
         "m1": "67.2",
@@ -177,8 +213,11 @@
         "m5": "44.5"
       },
       {
-        "p": "[OneFormer: One Transformer to Rule Universal Image Segmentation](https://arxiv.org/abs/2211.06220v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "OneFormer: One Transformer to Rule Universal Image Segmentation",
+          "link": "https://arxiv.org/abs/2211.06220v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "OneFormer (Swin-L, single-scale)",
         "d": "2022-11-10",
         "m1": "67.2",
@@ -186,8 +225,11 @@
         "m5": "45.6"
       },
       {
-        "p": "[AutoFocusFormer: Image Segmentation off the Grid](https://arxiv.org/abs/2304.12406v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/apple/ml-autofocusformer)",
+        "p": {
+          "name": "AutoFocusFormer: Image Segmentation off the Grid",
+          "link": "https://arxiv.org/abs/2304.12406v2"
+        },
+        "c": "https://github.com/apple/ml-autofocusformer",
         "n": "AFF-Small (single-scale, point-based Mask2Former)",
         "d": "2023-04-24",
         "m1": "66.9",
@@ -197,8 +239,11 @@
         "m5": "44.2"
       },
       {
-        "p": "[Masked-attention Mask Transformer for Universal Image Segmentation](https://arxiv.org/abs/2112.01527v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/huggingface/transformers)",
+        "p": {
+          "name": "Masked-attention Mask Transformer for Universal Image Segmentation",
+          "link": "https://arxiv.org/abs/2112.01527v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
         "n": "Mask2Former (Swin-L)",
         "d": "2021-12-02",
         "m1": "66.6",
@@ -206,8 +251,11 @@
         "m5": "43.6"
       },
       {
-        "p": "[EfficientPS: Efficient Panoptic Segmentation](https://arxiv.org/abs/2004.02307v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/DeepSceneSeg/EfficientPS)",
+        "p": {
+          "name": "EfficientPS: Efficient Panoptic Segmentation",
+          "link": "https://arxiv.org/abs/2004.02307v3"
+        },
+        "c": "https://github.com/DeepSceneSeg/EfficientPS",
         "n": "EfficientPS (Cityscapes-fine)",
         "d": "2020-04-05",
         "m1": "64.9",
@@ -217,16 +265,22 @@
         "m5": "39.1"
       },
       {
-        "p": "[CMT-DeepLab: Clustering Mask Transformers for Panoptic Segmentation](https://arxiv.org/abs/2206.08948v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/bytedance/kmax-deeplab)",
+        "p": {
+          "name": "CMT-DeepLab: Clustering Mask Transformers for Panoptic Segmentation",
+          "link": "https://arxiv.org/abs/2206.08948v1"
+        },
+        "c": "https://github.com/bytedance/kmax-deeplab",
         "n": "CMT-DeepLab (MaX-S, single-scale, IN-1K)",
         "d": "2022-06-17",
         "m1": "64.6",
         "m4": "81.4"
       },
       {
-        "p": "[Panoptic-DeepLab: A Simple, Strong, and Fast Baseline for Bottom-Up Panoptic Segmentation](https://arxiv.org/abs/1911.10194v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/official/projects/panoptic)",
+        "p": {
+          "name": "Panoptic-DeepLab: A Simple, Strong, and Fast Baseline for Bottom-Up Panoptic Segmentation",
+          "link": "https://arxiv.org/abs/1911.10194v3"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/official/projects/panoptic",
         "n": "Panoptic-DeepLab (X71)",
         "d": "2019-11-22",
         "m1": "64.1",
@@ -234,8 +288,11 @@
         "m5": "38.5"
       },
       {
-        "p": "[Intra-Batch Supervision for Panoptic Segmentation on High-Resolution Images](https://arxiv.org/abs/2304.08222v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/DdeGeus/Mask2Former-IBS)",
+        "p": {
+          "name": "Intra-Batch Supervision for Panoptic Segmentation on High-Resolution Images",
+          "link": "https://arxiv.org/abs/2304.08222v1"
+        },
+        "c": "https://github.com/DdeGeus/Mask2Former-IBS",
         "n": "Mask2Former + Intra-Batch Supervision (ResNet-50)",
         "d": "2023-04-17",
         "m1": "62.4",
@@ -243,8 +300,11 @@
         "m3": "54.7"
       },
       {
-        "p": "[Combinatorial Optimization for Panoptic Segmentation: A Fully Differentiable Approach](https://arxiv.org/abs/2106.03188v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/LPMP/LPMP)",
+        "p": {
+          "name": "Combinatorial Optimization for Panoptic Segmentation: A Fully Differentiable Approach",
+          "link": "https://arxiv.org/abs/2106.03188v3"
+        },
+        "c": "https://github.com/LPMP/LPMP",
         "n": "COPS (ResNet-50)",
         "d": "2021-06-06",
         "m1": "62.1",
@@ -254,7 +314,10 @@
         "m5": "34.1"
       },
       {
-        "p": "[AdaptIS: Adaptive Instance Selection Network](https://arxiv.org/abs/1909.07829v1)",
+        "p": {
+          "name": "AdaptIS: Adaptive Instance Selection Network",
+          "link": "https://arxiv.org/abs/1909.07829v1"
+        },
         "c": "",
         "n": "AdaptIS (ResNeXt-101)",
         "d": "2019-09-17",
@@ -265,8 +328,11 @@
         "m5": "36.3"
       },
       {
-        "p": "[UPSNet: A Unified Panoptic Segmentation Network](http://arxiv.org/abs/1901.03784v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/uber-research/UPSNet)",
+        "p": {
+          "name": "UPSNet: A Unified Panoptic Segmentation Network",
+          "link": "http://arxiv.org/abs/1901.03784v2"
+        },
+        "c": "https://github.com/uber-research/UPSNet",
         "n": "UPSNet (ResNet-101, multiscale)",
         "d": "2019-01-12",
         "m1": "61.8",
@@ -276,16 +342,22 @@
         "m5": "39.0"
       },
       {
-        "p": "[Fully Convolutional Networks for Panoptic Segmentation](https://arxiv.org/abs/2012.00720v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/dvlab-research/panopticfcn)",
+        "p": {
+          "name": "Fully Convolutional Networks for Panoptic Segmentation",
+          "link": "https://arxiv.org/abs/2012.00720v2"
+        },
+        "c": "https://github.com/dvlab-research/panopticfcn",
         "n": "Panoptic FCN* (ResNet-FPN)",
         "d": "2020-12-01",
         "m1": "61.4",
         "m3": "54.8"
       },
       {
-        "p": "[Panoptic Segmentation](http://arxiv.org/abs/1801.00868v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/cocodataset/panopticapi)",
+        "p": {
+          "name": "Panoptic Segmentation",
+          "link": "http://arxiv.org/abs/1801.00868v3"
+        },
+        "c": "https://github.com/cocodataset/panopticapi",
         "n": "MRCNN + PSPNet (ResNet-101)",
         "d": "2018-01-03",
         "m1": "61.2",
@@ -294,7 +366,10 @@
         "m5": "36.4"
       },
       {
-        "p": "[AdaptIS: Adaptive Instance Selection Network](https://arxiv.org/abs/1909.07829v1)",
+        "p": {
+          "name": "AdaptIS: Adaptive Instance Selection Network",
+          "link": "https://arxiv.org/abs/1909.07829v1"
+        },
         "c": "",
         "n": "AdaptIS (ResNet-101)",
         "d": "2019-09-17",
@@ -305,8 +380,11 @@
         "m5": "33.9"
       },
       {
-        "p": "[UPSNet: A Unified Panoptic Segmentation Network](http://arxiv.org/abs/1901.03784v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/uber-research/UPSNet)",
+        "p": {
+          "name": "UPSNet: A Unified Panoptic Segmentation Network",
+          "link": "http://arxiv.org/abs/1901.03784v2"
+        },
+        "c": "https://github.com/uber-research/UPSNet",
         "n": "UPSNet (ResNet-101)",
         "d": "2019-01-12",
         "m1": "60.5",
@@ -316,7 +394,10 @@
         "m5": "37.8"
       },
       {
-        "p": "[Learning to Fuse Things and Stuff](https://arxiv.org/abs/1812.01192v2)",
+        "p": {
+          "name": "Learning to Fuse Things and Stuff",
+          "link": "https://arxiv.org/abs/1812.01192v2"
+        },
         "c": "",
         "n": "TASCNet (ResNet-50, multi-scale)",
         "d": "2018-12-04",
@@ -327,8 +408,11 @@
         "m5": "39"
       },
       {
-        "p": "[UPSNet: A Unified Panoptic Segmentation Network](http://arxiv.org/abs/1901.03784v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/uber-research/UPSNet)",
+        "p": {
+          "name": "UPSNet: A Unified Panoptic Segmentation Network",
+          "link": "http://arxiv.org/abs/1901.03784v2"
+        },
+        "c": "https://github.com/uber-research/UPSNet",
         "n": "UPSNet (ResNet-50)",
         "d": "2019-01-12",
         "m1": "59.3",
@@ -338,7 +422,10 @@
         "m5": "33.3"
       },
       {
-        "p": "[Learning to Fuse Things and Stuff](https://arxiv.org/abs/1812.01192v2)",
+        "p": {
+          "name": "Learning to Fuse Things and Stuff",
+          "link": "https://arxiv.org/abs/1812.01192v2"
+        },
         "c": "",
         "n": "TASCNet (ResNet-50)",
         "d": "2018-12-04",
@@ -349,7 +436,10 @@
         "m5": "37.6"
       },
       {
-        "p": "[Attention-guided Unified Network for Panoptic Segmentation](http://arxiv.org/abs/1812.03904v2)",
+        "p": {
+          "name": "Attention-guided Unified Network for Panoptic Segmentation",
+          "link": "http://arxiv.org/abs/1812.03904v2"
+        },
         "c": "",
         "n": "AUNet (ResNet-101-FPN)",
         "d": "2018-12-10",
@@ -360,7 +450,10 @@
         "m5": "34.4"
       },
       {
-        "p": "[AdaptIS: Adaptive Instance Selection Network](https://arxiv.org/abs/1909.07829v1)",
+        "p": {
+          "name": "AdaptIS: Adaptive Instance Selection Network",
+          "link": "https://arxiv.org/abs/1909.07829v1"
+        },
         "c": "",
         "n": "AdaptIS (ResNet-50)",
         "d": "2019-09-17",
@@ -371,8 +464,11 @@
         "m5": "32.3"
       },
       {
-        "p": "[Panoptic Feature Pyramid Networks](http://arxiv.org/abs/1901.02446v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/detectron2)",
+        "p": {
+          "name": "Panoptic Feature Pyramid Networks",
+          "link": "http://arxiv.org/abs/1901.02446v2"
+        },
+        "c": "https://github.com/facebookresearch/detectron2",
         "n": "Panoptic FPN (ResNet-101)",
         "d": "2019-01-08",
         "m1": "58.1",
@@ -382,15 +478,21 @@
         "m5": "33.0"
       },
       {
-        "p": "[DeeperLab: Single-Shot Image Parser](http://arxiv.org/abs/1902.05093v2)",
+        "p": {
+          "name": "DeeperLab: Single-Shot Image Parser",
+          "link": "http://arxiv.org/abs/1902.05093v2"
+        },
         "c": "",
         "n": "DeeperLab (Xception-71)",
         "d": "2019-02-13",
         "m1": "56.5"
       },
       {
-        "p": "[Weakly- and Semi-Supervised Panoptic Segmentation](http://arxiv.org/abs/1808.03575v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/qizhuli/Weakly-Supervised-Panoptic-Segmentation)",
+        "p": {
+          "name": "Weakly- and Semi-Supervised Panoptic Segmentation",
+          "link": "http://arxiv.org/abs/1808.03575v3"
+        },
+        "c": "https://github.com/qizhuli/Weakly-Supervised-Panoptic-Segmentation",
         "n": "Dynamically Instantiated Network (ResNet-101)",
         "d": "2018-08-10",
         "m1": "53.8",
@@ -400,23 +502,32 @@
         "m5": "28.6"
       },
       {
-        "p": "[Fully Convolutional Networks for Panoptic Segmentation](https://arxiv.org/abs/2012.00720v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/dvlab-research/panopticfcn)",
+        "p": {
+          "name": "Fully Convolutional Networks for Panoptic Segmentation",
+          "link": "https://arxiv.org/abs/2012.00720v2"
+        },
+        "c": "https://github.com/dvlab-research/panopticfcn",
         "n": "Panoptic FCN* (Swin-L, Cityscapes-fine)",
         "d": "2020-12-01",
         "m2": " 70.6",
         "m3": "59.5"
       },
       {
-        "p": "[Fully Convolutional Networks for Panoptic Segmentation](https://arxiv.org/abs/2012.00720v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/dvlab-research/panopticfcn)",
+        "p": {
+          "name": "Fully Convolutional Networks for Panoptic Segmentation",
+          "link": "https://arxiv.org/abs/2012.00720v2"
+        },
+        "c": "https://github.com/dvlab-research/panopticfcn",
         "n": "Panoptic FCN* (ResNet-50-FPN)",
         "d": "2020-12-01",
         "m2": "66.6"
       },
       {
-        "p": "[Mask R-CNN](http://arxiv.org/abs/1703.06870v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models/tree/master/official/vision)",
+        "p": {
+          "name": "Mask R-CNN",
+          "link": "http://arxiv.org/abs/1703.06870v3"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/official/vision",
         "n": "Mask R-CNN+COCO",
         "d": "2017-03-20",
         "m3": "54.0"

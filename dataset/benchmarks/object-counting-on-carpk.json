@@ -38,71 +38,98 @@
     ],
     "items": [
       {
-        "p": "[An Accurate Car Counting in Aerial Images Based on Convolutional Neural Networks](https://link.springer.com/article/10.1007%2Fs12652-021-03377-5)",
-        "c": "[&check;&nbsp;Link](https://github.com/ekilic/Heatmap-Learner-CNN-for-Object-Counting)",
+        "p": {
+          "name": "An Accurate Car Counting in Aerial Images Based on Convolutional Neural Networks",
+          "link": "https://link.springer.com/article/10.1007%2Fs12652-021-03377-5"
+        },
+        "c": "https://github.com/ekilic/Heatmap-Learner-CNN-for-Object-Counting",
         "n": "HLCNN",
         "d": "2021-07-13",
         "m1": "2.12",
         "m2": "3.02"
       },
       {
-        "p": "[Car Object Counting and Position Estimation via Extension of the CLIP-EBC Framework](https://arxiv.org/abs/2507.08240v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/jungseoik/CLIP-LOCAR)",
+        "p": {
+          "name": "Car Object Counting and Position Estimation via Extension of the CLIP-EBC Framework",
+          "link": "https://arxiv.org/abs/2507.08240v1"
+        },
+        "c": "https://github.com/jungseoik/CLIP-LOCAR",
         "n": "CLIP-LOCAR",
         "d": "2025-07-11",
         "m1": "4.01",
         "m2": "6.02"
       },
       {
-        "p": "[Few-shot Object Counting with Similarity-Aware Feature Enhancement](https://arxiv.org/abs/2201.08959v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/zhiyuanyou/SAFECount)",
+        "p": {
+          "name": "Few-shot Object Counting with Similarity-Aware Feature Enhancement",
+          "link": "https://arxiv.org/abs/2201.08959v5"
+        },
+        "c": "https://github.com/zhiyuanyou/SAFECount",
         "n": "SAFECount",
         "d": "2022-01-22",
         "m1": "5.33",
         "m2": "7.04"
       },
       {
-        "p": "[CounTR: Transformer-based Generalised Visual Counting](https://arxiv.org/abs/2208.13721v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/Verg-Avesta/CounTR)",
+        "p": {
+          "name": "CounTR: Transformer-based Generalised Visual Counting",
+          "link": "https://arxiv.org/abs/2208.13721v3"
+        },
+        "c": "https://github.com/Verg-Avesta/CounTR",
         "n": "CounTR",
         "d": "2022-08-29",
         "m1": "5.75",
         "m2": "7.45"
       },
       {
-        "p": "[Represent, Compare, and Learn: A Similarity-Aware Framework for Class-Agnostic Counting](https://arxiv.org/abs/2203.08354v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/flyinglynx/Bilinear-Matching-Network)",
+        "p": {
+          "name": "Represent, Compare, and Learn: A Similarity-Aware Framework for Class-Agnostic Counting",
+          "link": "https://arxiv.org/abs/2203.08354v1"
+        },
+        "c": "https://github.com/flyinglynx/Bilinear-Matching-Network",
         "n": "BMNet+",
         "d": "2022-03-16",
         "m1": "5.76",
         "m2": "7.83"
       },
       {
-        "p": "[VLCounter: Text-aware Visual Representation for Zero-Shot Object Counting](https://arxiv.org/abs/2312.16580v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/seunggu0305/vlcounter)",
+        "p": {
+          "name": "VLCounter: Text-aware Visual Representation for Zero-Shot Object Counting",
+          "link": "https://arxiv.org/abs/2312.16580v2"
+        },
+        "c": "https://github.com/seunggu0305/vlcounter",
         "n": "VLCounter",
         "d": "2023-12-27",
         "m1": "6.46",
         "m2": "8.68"
       },
       {
-        "p": "[Precise Detection in Densely Packed Scenes](http://arxiv.org/abs/1904.00853v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/eg4000/SKU110K_CVPR19)",
+        "p": {
+          "name": "Precise Detection in Densely Packed Scenes",
+          "link": "http://arxiv.org/abs/1904.00853v3"
+        },
+        "c": "https://github.com/eg4000/SKU110K_CVPR19",
         "n": "Soft-IoU + EM-Merger unit",
         "d": "2019-04-01",
         "m1": "6.77",
         "m2": "8.52"
       },
       {
-        "p": "[Open-world Text-specified Object Counting](https://arxiv.org/abs/2306.01851v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/niki-amini-naieni/countx)",
+        "p": {
+          "name": "Open-world Text-specified Object Counting",
+          "link": "https://arxiv.org/abs/2306.01851v2"
+        },
+        "c": "https://github.com/niki-amini-naieni/countx",
         "n": "CounTX (uses arbitrary text input to specify object to count, used \"the cars\" for CARPK)",
         "d": "2023-06-02",
         "m1": "8.13",
         "m2": "10.87"
       },
       {
-        "p": "[Drone-based Object Counting by Spatially Regularized Regional Proposal Network](http://arxiv.org/abs/1707.05972v3)",
+        "p": {
+          "name": "Drone-based Object Counting by Spatially Regularized Regional Proposal Network",
+          "link": "http://arxiv.org/abs/1707.05972v3"
+        },
         "c": "",
         "n": "RetinaNet (2018)",
         "d": "2017-07-19",
@@ -110,7 +137,10 @@
         "m2": "22.30"
       },
       {
-        "p": "[A Large Contextual Dataset for Classification, Detection and Counting of Cars with Deep Learning](http://arxiv.org/abs/1609.04453v1)",
+        "p": {
+          "name": "A Large Contextual Dataset for Classification, Detection and Counting of Cars with Deep Learning",
+          "link": "http://arxiv.org/abs/1609.04453v1"
+        },
         "c": "",
         "n": "One-Look Regression (2016)",
         "d": "2016-09-14",
@@ -118,7 +148,10 @@
         "m2": "36.73"
       },
       {
-        "p": "[Drone-based Object Counting by Spatially Regularized Regional Proposal Network](http://arxiv.org/abs/1707.05972v3)",
+        "p": {
+          "name": "Drone-based Object Counting by Spatially Regularized Regional Proposal Network",
+          "link": "http://arxiv.org/abs/1707.05972v3"
+        },
         "c": "",
         "n": "LPN Counting (2017)",
         "d": "2017-07-19",
@@ -126,31 +159,43 @@
         "m2": "34.46"
       },
       {
-        "p": "[Focal Loss for Dense Object Detection](http://arxiv.org/abs/1708.02002v2)",
-        "c": "[&check;&nbsp;Link](https://github.com/tensorflow/models)",
+        "p": {
+          "name": "Focal Loss for Dense Object Detection",
+          "link": "http://arxiv.org/abs/1708.02002v2"
+        },
+        "c": "https://github.com/tensorflow/models",
         "n": "RetinaNet (2018)",
         "d": "2017-08-07",
         "m1": "24.58"
       },
       {
-        "p": "[Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks](http://arxiv.org/abs/1506.01497v3)",
-        "c": "[&check;&nbsp;Link](https://github.com/facebookresearch/detectron2)",
+        "p": {
+          "name": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+          "link": "http://arxiv.org/abs/1506.01497v3"
+        },
+        "c": "https://github.com/facebookresearch/detectron2",
         "n": "Faster R-CNN (2015)",
         "d": "2015-06-04",
         "m1": "39.88",
         "m2": "47.67"
       },
       {
-        "p": "[YOLO9000: Better, Faster, Stronger](http://arxiv.org/abs/1612.08242v1)",
-        "c": "[&check;&nbsp;Link](https://github.com/AlexeyAB/darknet)",
+        "p": {
+          "name": "YOLO9000: Better, Faster, Stronger",
+          "link": "http://arxiv.org/abs/1612.08242v1"
+        },
+        "c": "https://github.com/AlexeyAB/darknet",
         "n": "YOLO9000opt (2017)",
         "d": "2016-12-25",
         "m1": "130.40",
         "m2": "172.46"
       },
       {
-        "p": "[You Only Look Once: Unified, Real-Time Object Detection](http://arxiv.org/abs/1506.02640v5)",
-        "c": "[&check;&nbsp;Link](https://github.com/AlexeyAB/darknet)",
+        "p": {
+          "name": "You Only Look Once: Unified, Real-Time Object Detection",
+          "link": "http://arxiv.org/abs/1506.02640v5"
+        },
+        "c": "https://github.com/AlexeyAB/darknet",
         "n": "YOLO (2016)",
         "d": "2015-06-08",
         "m1": "156.00",
