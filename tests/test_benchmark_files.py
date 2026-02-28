@@ -38,7 +38,7 @@ def check_dataset_link(data: dict, path: Path):
         return [f"{path}: Missing 'dataset-info.link' key in JSON."]
     if not isinstance(dataset_info["link"], str):
         return [
-            f"{path}: 'dataset-info.link' must be a string, got {type(dataset_info['link']).__name__}."
+            f"{path}: 'Dataset Link must be a string, got {type(dataset_info['link']).__name__}."
         ]
 
     return []
@@ -93,6 +93,82 @@ def check_benchmark_structure(data: dict, path: Path):
         errors.append(f"{path}: Missing 'benchmark.items' key.")
     elif not isinstance(benchmark["items"], list):
         errors.append(f"{path}: 'benchmark.items' must be a list.")
+
+    # Check that fields contain ["p", "c", "n", "d"] in some order and at least one metric
+    if "fields" in benchmark and isinstance(benchmark["fields"], list):
+        field_keys = [f.get("key") for f in benchmark["fields"] if isinstance(f, dict)]
+        required_keys = {"p", "c", "n", "d"}
+        if not required_keys.issubset(field_keys):
+            errors.append(
+                f"{path}: 'benchmark.fields' must contain entries with keys: {required_keys}."
+            )
+        if len(field_keys) <= 4:
+            errors.append(
+                f"{path}: 'benchmark.fields' must contain at least one field for metrics."
+            )
+
+    # Check that items contain ["p", "c", "n", "d"] in some order and at least one metric
+    if "items" in benchmark and isinstance(benchmark["items"], list):
+        for idx, item in enumerate(benchmark["items"]):
+            if not isinstance(item, dict):
+                errors.append(
+                    f"{path}: 'benchmark.items[{idx}]' must be a JSON object."
+                )
+                continue
+
+            item_keys = set(item.keys())
+            required_keys = {"p", "c", "n", "d"}
+            if not required_keys.issubset(item_keys):
+                errors.append(
+                    f"{path}: 'benchmark.items[{idx}]' must contain keys: {required_keys}."
+                )
+            metric_keys = [k for k in item_keys if k.startswith("m")]
+            if not metric_keys:
+                errors.append(
+                    f"{path}: 'benchmark.items[{idx}]' must contain at least one metric field"
+                )
+
+    # Check that "p" field has "name" and "link" and both are not empty
+    if "items" in benchmark and isinstance(benchmark["items"], list):
+        for idx, item in enumerate(benchmark["items"]):
+            if not isinstance(item, dict):
+                continue
+            if "p" in item and isinstance(item["p"], dict):
+                p = item["p"]
+                if "name" not in p or "link" not in p:
+                    errors.append(
+                        f"{path}: 'benchmark.items[{idx}].p' must contain 'name' and 'link' keys."
+                    )
+                else:
+                    if not p["name"]:
+                        errors.append(
+                            f"{path}: 'benchmark.items[{idx}].p.name' must not be empty."
+                        )
+                    if not p["link"]:
+                        errors.append(
+                            f"{path}: 'benchmark.items[{idx}].p.link' must not be empty."
+                        )
+
+    # Check that paper and code links are valid URLs if they are not empty
+    url_pattern = re.compile(
+        r"^(https?://)?([a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}(:\d+)?(/.*)?$"
+    )
+    if "items" in benchmark and isinstance(benchmark["items"], list):
+        for idx, item in enumerate(benchmark["items"]):
+            if not isinstance(item, dict):
+                continue
+            if "p" in item and isinstance(item["p"], dict):
+                link = item["p"].get("link", "")
+                if link and not url_pattern.match(link):
+                    errors.append(
+                        f"{path}: 'benchmark.items[{idx}].p.link' is not a valid URL: {link!r}"
+                    )
+            if "c" in item and isinstance(item["c"], str):
+                code_link = item["c"]
+                if code_link and not url_pattern.match(code_link):
+                    errors.append(
+                        f"{path}: 'benchmark.items[{idx}].c' is not a valid URL: {code_link!r}"
+                    )
 
     return errors
 
@@ -150,7 +226,7 @@ def check_malicious_injections(data: dict, path: Path):
 
 def main() -> int:
 
-    JSON_DIR = "../dataset/benchmarks/"
+    JSON_DIR = "dataset/benchmarks/"
 
     root = Path(JSON_DIR).resolve()
     if not root.exists() or not root.is_dir():
