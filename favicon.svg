@@ -1,0 +1,48 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="128"
+  height="128"
+  viewBox="0 0 24 24"
+  fill="none"
+  role="img"
+  aria-label="OpenCodePapers">
+
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#9333ea" />
+    </linearGradient>
+  </defs>
+
+  <!-- Thick outline -->
+  <rect x="2.2" y="2.2" width="19.6" height="19.6" rx="3"
+    stroke="url(#bg)"
+    stroke-width="2"
+    fill="none" />
+
+  <!-- Bold brackets -->
+  <path d="M9 5.8 L7.2 9 L9 12.2"
+    stroke="url(#bg)"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round" />
+  <path d="M15 5.8 L16.8 9 L15 12.2"
+    stroke="url(#bg)"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round" />
+
+  <!-- OCP text -->
+  <text
+    x="12"
+    y="19"
+    text-anchor="middle"
+    font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji"
+    font-size="6"
+    font-weight="900"
+    letter-spacing="0.25"
+    fill="url(#bg)">
+    OCP
+  </text>
+
+</svg>

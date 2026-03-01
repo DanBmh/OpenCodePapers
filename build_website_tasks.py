@@ -1,6 +1,7 @@
 import argparse
 import json
 import os
+import shutil
 
 # ==================================================================================================
 
@@ -10,6 +11,7 @@ HTML_SCAFFOLD = r"""<!DOCTYPE html>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>OpenCodePapers</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
 <style>
   :root {
     --bg: #ffffff;
@@ -363,9 +365,19 @@ def main():
     out_dir = os.path.dirname(os.path.abspath(args.output))
     if out_dir and not os.path.isdir(out_dir):
         os.makedirs(out_dir, exist_ok=True)
-
     with open(args.output, "w", encoding="utf-8") as f:
         f.write(html)
+
+    # Copy favicon to public/
+    root_dir = os.path.abspath(os.path.dirname(__file__))
+    src_fav = os.path.join(root_dir, "favicon.svg")
+    dest_dir = os.path.join(root_dir, "public")
+    if os.path.isfile(src_fav):
+      os.makedirs(dest_dir, exist_ok=True)
+      try:
+        shutil.copy2(src_fav, os.path.join(dest_dir, "favicon.svg"))
+      except Exception:
+        pass
 
     print(f"[info] Generated {args.output}")
 

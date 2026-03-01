@@ -276,6 +276,7 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
 <head>
 <meta charset="utf-8">
 <title>OpenCodePapers</title>
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <style>
   :root {{
