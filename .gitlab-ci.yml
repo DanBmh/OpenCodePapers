@@ -41,6 +41,9 @@ testing_image:
         - tests/dockerfile
         - .gitlab-ci.yml
         - pyproject.toml
+    - if: '$CI_PIPELINE_SOURCE != "schedule"'
+      when: manual
+      allow_failure: true
     - when: never
   script:
     # Build image, using layers=false squashes only new layers,
