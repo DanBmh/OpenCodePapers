@@ -1,0 +1,69 @@
+{
+  "title": "few-shot-semantic-segmentation-on-fss-1000",
+  "task-hierarchy": [
+    "Meta-Learning",
+    "Few-Shot Learning",
+    "Few-Shot Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/HKUSTCV/FSS-1000"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Mean IoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Language-driven Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2201.03546v2"
+        },
+        "c": "https://github.com/isl-org/lang-seg",
+        "n": "LSeg",
+        "d": "2022-01-10",
+        "m1": "87.8"
+      },
+      {
+        "p": {
+          "name": "On the Texture Bias for Few-Shot CNN Segmentation",
+          "link": "https://arxiv.org/abs/2003.04052v3"
+        },
+        "c": "https://github.com/rezazad68/fewshot-segmentation",
+        "n": "DoG-BConvLSTM",
+        "d": "2020-03-09",
+        "m1": "83.36"
+      },
+      {
+        "p": {
+          "name": "Meta-Learning Initializations for Image Segmentation",
+          "link": "https://arxiv.org/abs/1912.06290v4"
+        },
+        "c": "https://github.com/ml4ai/mliis",
+        "n": "EfficientLab",
+        "d": "2019-12-13",
+        "m1": "82.78"
+      }
+    ]
+  }
+}

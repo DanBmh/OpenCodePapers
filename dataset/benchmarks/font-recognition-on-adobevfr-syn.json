@@ -1,0 +1,112 @@
+{
+  "title": "font-recognition-on-adobevfr-syn",
+  "task-hierarchy": [
+    "Font Recognition"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Top 1 Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Top 5 Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Top-1 Error Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Top 5 Error Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DeepFont: Identify Your Font from An Image",
+          "link": "http://arxiv.org/abs/1507.03196v1"
+        },
+        "c": "https://github.com/robinreni96/Font_Recognition-DeepFont",
+        "n": "DeepFont (S)",
+        "d": "2015-07-12",
+        "m1": "98.97",
+        "m2": "100",
+        "m3": "1.03",
+        "m4": "0"
+      },
+      {
+        "p": {
+          "name": "HENet: Forcing a Network to Think More for Font Recognition",
+          "link": "https://arxiv.org/abs/2110.10872v1"
+        },
+        "c": "https://github.com/PhamQuocHuy1101/transfer-learning-template/blob/master/network/henet.py",
+        "n": "HENet (ResNet18+HE Block)",
+        "d": "2021-10-21",
+        "m1": "98.23",
+        "m2": "99.98"
+      },
+      {
+        "p": {
+          "name": "DeepFont: Identify Your Font from An Image",
+          "link": "http://arxiv.org/abs/1507.03196v1"
+        },
+        "c": "https://github.com/robinreni96/Font_Recognition-DeepFont",
+        "n": "DeepFont (CAE_FR)",
+        "d": "2015-07-12",
+        "m1": "93.42",
+        "m2": "100",
+        "m3": "6.58",
+        "m4": "0"
+      },
+      {
+        "p": {
+          "name": "DeepFont: Identify Your Font from An Image",
+          "link": "http://arxiv.org/abs/1507.03196v1"
+        },
+        "c": "https://github.com/robinreni96/Font_Recognition-DeepFont",
+        "n": "DeepFont (F)",
+        "d": "2015-07-12",
+        "m1": "92.6",
+        "m2": "100",
+        "m3": "7.4",
+        "m4": "0"
+      },
+      {
+        "p": {
+          "name": "FONTNET: On-Device Font Understanding and Prediction Pipeline",
+          "link": "https://arxiv.org/abs/2103.16150v1"
+        },
+        "c": "",
+        "n": "FCN",
+        "d": "2021-03-30",
+        "m1": "78.2"
+      }
+    ]
+  }
+}

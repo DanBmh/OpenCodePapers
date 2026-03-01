@@ -1,0 +1,86 @@
+{
+  "title": "twitter-bot-detection-on-mgtab",
+  "task-hierarchy": [
+    "Twitter Bot Detection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/GraphDetec/MGTAB"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Acc",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MGTAB: A Multi-Relational Graph-Based Twitter Account Detection Benchmark",
+          "link": "https://arxiv.org/abs/2301.01123v2"
+        },
+        "c": "https://github.com/graphdetec/mgtab",
+        "n": "RGT",
+        "d": "2023-01-03",
+        "m1": "92.1",
+        "m2": "90.4"
+      },
+      {
+        "p": {
+          "name": "MGTAB: A Multi-Relational Graph-Based Twitter Account Detection Benchmark",
+          "link": "https://arxiv.org/abs/2301.01123v2"
+        },
+        "c": "https://github.com/graphdetec/mgtab",
+        "n": "BotRGCN",
+        "d": "2023-01-03",
+        "m1": "89.6",
+        "m2": "87.2"
+      },
+      {
+        "p": {
+          "name": "MGTAB: A Multi-Relational Graph-Based Twitter Account Detection Benchmark",
+          "link": "https://arxiv.org/abs/2301.01123v2"
+        },
+        "c": "https://github.com/graphdetec/mgtab",
+        "n": "GAT",
+        "d": "2023-01-03",
+        "m1": "87",
+        "m2": "82.3"
+      },
+      {
+        "p": {
+          "name": "MGTAB: A Multi-Relational Graph-Based Twitter Account Detection Benchmark",
+          "link": "https://arxiv.org/abs/2301.01123v2"
+        },
+        "c": "https://github.com/graphdetec/mgtab",
+        "n": "GCN",
+        "d": "2023-01-03",
+        "m1": "85.8",
+        "m2": "78.3"
+      }
+    ]
+  }
+}

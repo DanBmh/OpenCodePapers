@@ -1,0 +1,283 @@
+{
+  "title": "few-shot-text-classification-on-raft",
+  "task-hierarchy": [
+    "Classification",
+    "Text Classification",
+    "Few-Shot Text Classification"
+  ],
+  "dataset-info": {
+    "link": "https://raft.elicit.org/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Avg",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "ADE",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "B77",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "NIS",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "OSE",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": " Over",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "SOT",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "SRI",
+        "sortable": "true"
+      },
+      {
+        "key": "m9",
+        "label": "TAI",
+        "sortable": "true"
+      },
+      {
+        "key": "m10",
+        "label": "ToS",
+        "sortable": "true"
+      },
+      {
+        "key": "m11",
+        "label": "TEH",
+        "sortable": "true"
+      },
+      {
+        "key": "m12",
+        "label": "TC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Few-Shot Parameter-Efficient Fine-Tuning is Better and Cheaper than In-Context Learning",
+          "link": "https://arxiv.org/abs/2205.05638v2"
+        },
+        "c": "https://github.com/kohakublueleaf/lycoris",
+        "n": "T-Few",
+        "d": "2022-05-11",
+        "m1": "0.758",
+        "m2": "0.804",
+        "m3": "0.695",
+        "m4": "0.833",
+        "m5": "0.676",
+        "m6": "0.95",
+        "m7": "0.915",
+        "m8": "0.508",
+        "m9": "0.736",
+        "m10": "0.75",
+        "m11": "0.586",
+        "m12": "0.879"
+      },
+      {
+        "p": {
+          "name": "RAFT: A Real-World Few-Shot Text Classification Benchmark",
+          "link": "https://arxiv.org/abs/2109.14076v3"
+        },
+        "c": "https://github.com/oughtinc/raft-baselines",
+        "n": "Human (crowdsourced)",
+        "d": "2021-09-28",
+        "m1": "0.735",
+        "m2": "0.830",
+        "m3": "0.607",
+        "m4": "0.857",
+        "m5": "0.646",
+        "m6": "0.917",
+        "m7": "0.908",
+        "m8": "0.468",
+        "m9": "0.609",
+        "m10": "0.627",
+        "m11": "0.722",
+        "m12": "0.897"
+      },
+      {
+        "p": {
+          "name": "RAFT: A Real-World Few-Shot Text Classification Benchmark",
+          "link": "https://arxiv.org/abs/2109.14076v3"
+        },
+        "c": "https://github.com/oughtinc/raft-baselines",
+        "n": "GPT-3",
+        "d": "2021-09-28",
+        "m1": "0.627",
+        "m2": "0.686",
+        "m3": "0.299",
+        "m4": "0.679",
+        "m5": "0.431",
+        "m6": "0.937",
+        "m7": "0.769",
+        "m8": "0.516",
+        "m9": "0.656",
+        "m10": "0.574",
+        "m11": "0.526",
+        "m12": "0.821"
+      },
+      {
+        "p": {
+          "name": "RAFT: A Real-World Few-Shot Text Classification Benchmark",
+          "link": "https://arxiv.org/abs/2109.14076v3"
+        },
+        "c": "https://github.com/oughtinc/raft-baselines",
+        "n": "AdaBoost",
+        "d": "2021-09-28",
+        "m1": "0.514",
+        "m2": "0.543",
+        "m3": "0.023",
+        "m4": "0.626",
+        "m5": "0.475",
+        "m6": "0.838",
+        "m7": "0.455",
+        "m8": "0.506",
+        "m9": "0.556",
+        "m10": "0.560",
+        "m11": "0.443",
+        "m12": "0.625"
+      },
+      {
+        "p": {
+          "name": "RAFT: A Real-World Few-Shot Text Classification Benchmark",
+          "link": "https://arxiv.org/abs/2109.14076v3"
+        },
+        "c": "https://github.com/oughtinc/raft-baselines",
+        "n": "GPT-Neo",
+        "d": "2021-09-28",
+        "m1": "0.481",
+        "m2": "0.452",
+        "m3": "0.149",
+        "m4": "0.408",
+        "m5": "0.343",
+        "m6": "0.681",
+        "m7": "0.406",
+        "m8": "0.493",
+        "m9": "0.605",
+        "m10": "0.565",
+        "m11": "0.554",
+        "m12": "0.636"
+      },
+      {
+        "p": {
+          "name": "RAFT: A Real-World Few-Shot Text Classification Benchmark",
+          "link": "https://arxiv.org/abs/2109.14076v3"
+        },
+        "c": "https://github.com/oughtinc/raft-baselines",
+        "n": "GPT-2",
+        "d": "2021-09-28",
+        "m1": "0.458",
+        "m2": "0.600",
+        "m3": "0.121",
+        "m4": "0.561",
+        "m5": "0.245",
+        "m6": "0.498",
+        "m7": "0.380",
+        "m8": "0.492",
+        "m9": "0.612",
+        "m10": "0.498",
+        "m11": "0.311",
+        "m12": "0.723"
+      },
+      {
+        "p": {
+          "name": "RAFT: A Real-World Few-Shot Text Classification Benchmark",
+          "link": "https://arxiv.org/abs/2109.14076v3"
+        },
+        "c": "https://github.com/oughtinc/raft-baselines",
+        "n": "BART MNLI zero-shot",
+        "d": "2021-09-28",
+        "m1": "0.382",
+        "m2": "0.234",
+        "m3": "0.332",
+        "m4": "0.615",
+        "m5": "0.360",
+        "m6": "0.462",
+        "m7": "0.644",
+        "m8": "0.026",
+        "m9": "0.469",
+        "m10": "0.122",
+        "m11": "0.543",
+        "m12": "0.400"
+      },
+      {
+        "p": {
+          "name": "RAFT: A Real-World Few-Shot Text Classification Benchmark",
+          "link": "https://arxiv.org/abs/2109.14076v3"
+        },
+        "c": "https://github.com/oughtinc/raft-baselines",
+        "n": "Plurality-class",
+        "d": "2021-09-28",
+        "m1": "0.331",
+        "m2": "0.446",
+        "m3": "0.000",
+        "m4": "0.353",
+        "m5": "0.164",
+        "m6": "0.337",
+        "m7": "0.271",
+        "m8": "0.493",
+        "m9": "0.344",
+        "m10": "0.471",
+        "m11": "0.366",
+        "m12": "0.391"
+      },
+      {
+        "p": {
+          "name": "RAFT: A Real-World Few-Shot Text Classification Benchmark",
+          "link": "https://arxiv.org/abs/2109.14076v3"
+        },
+        "c": "https://github.com/oughtinc/raft-baselines",
+        "n": "GPT-3 zero-shot",
+        "d": "2021-09-28",
+        "m1": "0.292",
+        "m2": "0.163",
+        "m3": "0.000",
+        "m4": "0.572",
+        "m5": "0.323",
+        "m6": "0.378",
+        "m7": "0.628",
+        "m8": "0.027",
+        "m9": "0.362",
+        "m10": "0.164",
+        "m11": "0.303",
+        "m12": "0.290"
+      }
+    ]
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "title": "salient-object-detection-on-pascal-s-1",
+  "task-hierarchy": [
+    "Salient Object Detection"
+  ],
+  "dataset-info": {
+    "link": "http://cbs.ic.gatech.edu/salobj/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "S-measure",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "E-measure",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "MAE",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "max_F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "FOCUS: Towards Universal Foreground Segmentation",
+          "link": "https://arxiv.org/abs/2501.05238v1"
+        },
+        "c": "https://github.com/geshang777/FOCUS",
+        "n": "FOCUS",
+        "d": "2025-01-09",
+        "m1": "0.898",
+        "m2": "0.942",
+        "m3": "0.036"
+      },
+      {
+        "p": {
+          "name": "SAM2-UNet: Segment Anything 2 Makes Strong Encoder for Natural and Medical Image Segmentation",
+          "link": "https://arxiv.org/abs/2408.08870v1"
+        },
+        "c": "https://github.com/wzh0120/sam2-unet",
+        "n": "SAM2-UNet",
+        "d": "2024-08-16",
+        "m1": "0.894",
+        "m2": "0.931",
+        "m3": "0.043"
+      },
+      {
+        "p": {
+          "name": "Explicit Visual Prompting for Universal Foreground Segmentations",
+          "link": "https://arxiv.org/abs/2305.18476v1"
+        },
+        "c": "https://github.com/nifangbaage/explict-visual-prompt",
+        "n": "EVPv2",
+        "d": "2023-05-29",
+        "m1": "0.879",
+        "m2": "0.917",
+        "m3": "0.053",
+        "m4": "0.869"
+      },
+      {
+        "p": {
+          "name": "Explicit Visual Prompting for Low-Level Structure Segmentations",
+          "link": "https://arxiv.org/abs/2303.10883v2"
+        },
+        "c": "https://github.com/nifangbaage/explicit-visual-prompt",
+        "n": "EVPv1",
+        "d": "2023-03-20",
+        "m1": "0.878",
+        "m2": "0.917",
+        "m3": "0.054",
+        "m4": "0.872"
+      },
+      {
+        "p": {
+          "name": "SelfReformer: Self-Refined Network with Transformer for Salient Object Detection",
+          "link": "https://arxiv.org/abs/2205.11283v4"
+        },
+        "c": "https://github.com/BarCodeReader/SelfReformer",
+        "n": "SelfReformer-Swin",
+        "d": "2022-05-23",
+        "m1": "0.877",
+        "m2": "0.874",
+        "m3": "0.049",
+        "m4": "0.896"
+      },
+      {
+        "p": {
+          "name": "SelfReformer: Self-Refined Network with Transformer for Salient Object Detection",
+          "link": "https://arxiv.org/abs/2205.11283v4"
+        },
+        "c": "https://github.com/BarCodeReader/SelfReformer",
+        "n": "SelfReformer",
+        "d": "2022-05-23",
+        "m1": "0.874",
+        "m2": "0.872",
+        "m3": "0.050",
+        "m4": "0.894"
+      },
+      {
+        "p": {
+          "name": "Label Decoupling Framework for Salient Object Detection",
+          "link": "https://arxiv.org/abs/2008.11048v1"
+        },
+        "c": "https://github.com/weijun88/LDF",
+        "n": "LDF(ours)",
+        "d": "2020-08-25",
+        "m1": "0.856",
+        "m2": "0.865",
+        "m3": "0.059",
+        "m4": "0.874"
+      },
+      {
+        "p": {
+          "name": "F3Net: Fusion, Feedback and Focus for Salient Object Detection",
+          "link": "https://arxiv.org/abs/1911.11445v1"
+        },
+        "c": "https://github.com/weijun88/F3Net",
+        "n": "F3Net",
+        "d": "2019-11-26",
+        "m1": "0.854",
+        "m2": "0.858",
+        "m3": "0.061",
+        "m4": "0.871"
+      },
+      {
+        "p": {
+          "name": "Recursive Contour Saliency Blending Network for Accurate Salient Object Detection",
+          "link": "https://arxiv.org/abs/2105.13865v3"
+        },
+        "c": "https://github.com/BarCodeReader/RCSB-PyTorch",
+        "n": "RCSB",
+        "d": "2021-05-28",
+        "m1": "0.854",
+        "m2": "0.853",
+        "m3": "0.059",
+        "m4": "0.875"
+      },
+      {
+        "p": {
+          "name": "U$^2$-Net: Going Deeper with Nested U-Structure for Salient Object Detection",
+          "link": "https://arxiv.org/abs/2005.09007v3"
+        },
+        "c": "https://github.com/xuebinqin/U-2-Net",
+        "n": "F3Net",
+        "d": "2020-05-18",
+        "m1": "0.831",
+        "m3": "0.086",
+        "m4": "0.768"
+      }
+    ]
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "title": "novel-view-synthesis-on-tanks-and-temples",
+  "task-hierarchy": [
+    "Novel View Synthesis"
+  ],
+  "dataset-info": {
+    "link": "https://www.tanksandtemples.org/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "LPIPS",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Size (MB)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "From NeRFLiX to NeRFLiX++: A General NeRF-Agnostic Restorer Paradigm",
+          "link": "https://arxiv.org/abs/2306.06388v3"
+        },
+        "c": "https://github.com/redrock303/NeRFLiX_CPVR2023",
+        "n": "TensoRF + NeRFLiX++",
+        "d": "2023-06-10",
+        "m1": "29.24"
+      },
+      {
+        "p": {
+          "name": "NeRFLiX: High-Quality Neural View Synthesis by Learning a Degradation-Driven Inter-viewpoint MiXer",
+          "link": "https://arxiv.org/abs/2303.06919v2"
+        },
+        "c": "https://github.com/redrock303/NeRFLiX_CPVR2023",
+        "n": "TensoRF + NeRFLiX",
+        "d": "2023-03-13",
+        "m1": "28.94",
+        "m2": "0.93"
+      },
+      {
+        "p": {
+          "name": "NeRFLiX: High-Quality Neural View Synthesis by Learning a Degradation-Driven Inter-viewpoint MiXer",
+          "link": "https://arxiv.org/abs/2303.06919v2"
+        },
+        "c": "https://github.com/redrock303/NeRFLiX_CPVR2023",
+        "n": "Plenoxels + NeRFLiX",
+        "d": "2023-03-13",
+        "m1": "28.61"
+      },
+      {
+        "p": {
+          "name": "Compact 3D Scene Representation via Self-Organizing Gaussian Grids",
+          "link": "https://arxiv.org/abs/2312.13299v2"
+        },
+        "c": "https://github.com/facebookresearch/uco3d",
+        "n": "Self-Organizing Gaussians",
+        "d": "2023-12-19",
+        "m1": "25.63",
+        "m3": "0.208",
+        "m4": "21.4"
+      },
+      {
+        "p": {
+          "name": "HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression",
+          "link": "https://arxiv.org/abs/2403.14530v3"
+        },
+        "c": "https://github.com/yihangchen-ee/hac",
+        "n": "HAC 3DGS",
+        "d": "2024-03-21",
+        "m1": "24.40",
+        "m2": "0.853",
+        "m3": "0.177"
+      },
+      {
+        "p": {
+          "name": "CompGS: Smaller and Faster Gaussian Splatting with Vector Quantization",
+          "link": "https://arxiv.org/abs/2311.18159v3"
+        },
+        "c": "https://github.com/ucdvision/compact3d",
+        "n": "Compact3D",
+        "d": "2023-11-30",
+        "m1": "23.47",
+        "m2": "0.840",
+        "m3": "0.188"
+      },
+      {
+        "p": {
+          "name": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
+          "link": "https://arxiv.org/abs/2308.04079v1"
+        },
+        "c": "https://github.com/graphdeco-inria/gaussian-splatting",
+        "n": "3D Gaussian Splatting",
+        "d": "2023-08-08",
+        "m1": "23.14",
+        "m2": "0.841",
+        "m3": "0.183"
+      },
+      {
+        "p": {
+          "name": "Mip-NeRF 360: Unbounded Anti-Aliased Neural Radiance Fields",
+          "link": "https://arxiv.org/abs/2111.12077v3"
+        },
+        "c": "https://github.com/kakaobrain/NeRF-Factory",
+        "n": "Mip-NERF 360",
+        "d": "2021-11-23",
+        "m1": "19.65",
+        "m2": "0.731",
+        "m3": "0.28"
+      },
+      {
+        "p": {
+          "name": "Compact 3D Gaussian Representation for Radiance Field",
+          "link": "https://arxiv.org/abs/2311.13681v2"
+        },
+        "c": "https://github.com/maincold2/Compact-3DGS",
+        "n": "C3DGS",
+        "d": "2023-11-22",
+        "m1": "0.2332",
+        "m2": "0.831",
+        "m3": "0.201"
+      },
+      {
+        "p": {
+          "name": "NeRFLiX: High-Quality Neural View Synthesis by Learning a Degradation-Driven Inter-viewpoint MiXer",
+          "link": "https://arxiv.org/abs/2303.06919v2"
+        },
+        "c": "https://github.com/redrock303/NeRFLiX_CPVR2023",
+        "n": "DIVeR + NeRFLiX",
+        "d": "2023-03-13",
+        "m2": "0.924"
+      }
+    ]
+  }
+}

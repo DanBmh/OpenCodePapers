@@ -1,0 +1,97 @@
+{
+  "title": "image-registration-on-fire",
+  "task-hierarchy": [
+    "Image Registration"
+  ],
+  "dataset-info": {
+    "link": "https://projects.ics.forth.gr/cvrl/fire/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mAUC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Reverse Knowledge Distillation: Training a Large Model using a Small One for Retinal Image Matching on Limited Data",
+          "link": "https://arxiv.org/abs/2307.10698v2"
+        },
+        "c": "https://github.com/SaharAlmahfouzNasser/MeDAL-Retina",
+        "n": "LKRetina",
+        "d": "2023-07-20",
+        "m1": "0.761"
+      },
+      {
+        "p": {
+          "name": "Semi-Supervised Keypoint Detector and Descriptor for Retinal Image Matching",
+          "link": "https://arxiv.org/abs/2207.07932v1"
+        },
+        "c": "https://github.com/ruc-aimc-lab/superretina",
+        "n": "SuperRetina",
+        "d": "2022-07-16",
+        "m1": "0.755"
+      },
+      {
+        "p": {
+          "name": "Semi-Supervised Keypoint Detector and Descriptor for Retinal Image Matching",
+          "link": "https://arxiv.org/abs/2207.07932v1"
+        },
+        "c": "https://github.com/ruc-aimc-lab/superretina",
+        "n": "REMPE, JBHI 2020",
+        "d": "2022-07-16",
+        "m1": "0.72"
+      },
+      {
+        "p": {
+          "name": "GLAMpoints: Greedily Learned Accurate Match points",
+          "link": "https://arxiv.org/abs/1908.06812v3"
+        },
+        "c": "https://github.com/PruneTruong/GLAMpoints_pytorch",
+        "n": "GLAMpoints, ICCV 2019",
+        "d": "2019-08-19",
+        "m1": "0.622"
+      },
+      {
+        "p": {
+          "name": "Distinctive Image Features from Scale-Invariant Keypoints",
+          "link": "https://www.cs.ubc.ca/~lowe/papers/ijcv04.pdf"
+        },
+        "c": "https://github.com/kornia/kornia/blob/master/kornia/feature/siftdesc.py",
+        "n": "SIFT",
+        "d": "2004-01-05",
+        "m1": "0.573"
+      },
+      {
+        "p": {
+          "name": "Semi-Supervised Keypoint Detector and Descriptor for Retinal Image Matching",
+          "link": "https://arxiv.org/abs/2207.07932v1"
+        },
+        "c": "https://github.com/ruc-aimc-lab/superretina",
+        "n": "PBO, ICIP 2010",
+        "d": "2022-07-16",
+        "m1": "0.552"
+      }
+    ]
+  }
+}

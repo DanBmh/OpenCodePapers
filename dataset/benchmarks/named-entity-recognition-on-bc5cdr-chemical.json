@@ -1,0 +1,167 @@
+{
+  "title": "named-entity-recognition-on-bc5cdr-chemical",
+  "task-hierarchy": [
+    "Named Entity Recognition (NER)"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/JHnlp/BioCreative-V-CDR-Corpus"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Biomedical Named Entity Recognition at Scale",
+          "link": "https://arxiv.org/abs/2011.06315v1"
+        },
+        "c": "https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/1.4.Biomedical_NER_SparkNLP_paper_reproduce.ipynb",
+        "n": "Spark NLP",
+        "d": "2020-11-12",
+        "m1": "94.88"
+      },
+      {
+        "p": {
+          "name": "SciFive: a text-to-text transformer model for biomedical literature",
+          "link": "https://arxiv.org/abs/2106.03598v1"
+        },
+        "c": "https://github.com/justinphan3110/SciFive",
+        "n": "SciFive-Large",
+        "d": "2021-05-28",
+        "m1": "94.76"
+      },
+      {
+        "p": {
+          "name": "Hero-Gang Neural Model For Named Entity Recognition",
+          "link": "https://arxiv.org/abs/2205.07177v1"
+        },
+        "c": "https://github.com/jinpeng01/hgn",
+        "n": "HGN",
+        "d": "2022-05-15",
+        "m1": "94.59"
+      },
+      {
+        "p": {
+          "name": "On the Effectiveness of Compact Biomedical Transformers",
+          "link": "https://arxiv.org/abs/2209.03182v1"
+        },
+        "c": "https://github.com/nlpie-research/compact-biomedical-transformers",
+        "n": "DistilBioBERT",
+        "d": "2022-09-07",
+        "m1": "94.53"
+      },
+      {
+        "p": {
+          "name": "On the Effectiveness of Compact Biomedical Transformers",
+          "link": "https://arxiv.org/abs/2209.03182v1"
+        },
+        "c": "https://github.com/nlpie-research/compact-biomedical-transformers",
+        "n": "BioDistilBERT",
+        "d": "2022-09-07",
+        "m1": "94.48"
+      },
+      {
+        "p": {
+          "name": "On the Effectiveness of Compact Biomedical Transformers",
+          "link": "https://arxiv.org/abs/2209.03182v1"
+        },
+        "c": "https://github.com/nlpie-research/compact-biomedical-transformers",
+        "n": "CompactBioBERT",
+        "d": "2022-09-07",
+        "m1": "94.31"
+      },
+      {
+        "p": {
+          "name": "On the Effectiveness of Compact Biomedical Transformers",
+          "link": "https://arxiv.org/abs/2209.03182v1"
+        },
+        "c": "https://github.com/nlpie-research/compact-biomedical-transformers",
+        "n": "BioMobileBERT",
+        "d": "2022-09-07",
+        "m1": "94.23"
+      },
+      {
+        "p": {
+          "name": "Improving Biomedical Named Entity Recognition with Syntactic Information",
+          "link": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03834-6"
+        },
+        "c": "https://github.com/cuhk-nlp/BioKMNER",
+        "n": "BioKMNER + BioBERT",
+        "d": "2020-11-25",
+        "m1": "94.22"
+      },
+      {
+        "p": {
+          "name": "LinkBERT: Pretraining Language Models with Document Links",
+          "link": "https://arxiv.org/abs/2203.15827v1"
+        },
+        "c": "https://github.com/michiyasunaga/LinkBERT",
+        "n": "BioLinkBERT (large)",
+        "d": "2022-03-29",
+        "m1": "94.04"
+      },
+      {
+        "p": {
+          "name": "Transfer Learning in Biomedical Natural Language Processing: An Evaluation of BERT and ELMo on Ten Benchmarking Datasets",
+          "link": "https://arxiv.org/abs/1906.05474v2"
+        },
+        "c": "https://github.com/ncbi-nlp/NCBI_BERT",
+        "n": "NCBI_BERT(base) (P)",
+        "d": "2019-06-13",
+        "m1": "93.5"
+      },
+      {
+        "p": {
+          "name": "Improving Biomedical Pretrained Language Models with Knowledge",
+          "link": "https://arxiv.org/abs/2104.10344v1"
+        },
+        "c": "https://github.com/GanjinZero/KeBioLM",
+        "n": "KeBioLM",
+        "d": "2021-04-21",
+        "m1": "93.3"
+      },
+      {
+        "p": {
+          "name": "BioMegatron: Larger Biomedical Domain Language Model",
+          "link": "https://arxiv.org/abs/2010.06060v2"
+        },
+        "c": "https://github.com/NVIDIA/NeMo",
+        "n": "BioMegatron",
+        "d": "2020-10-12",
+        "m1": "92.9"
+      },
+      {
+        "p": {
+          "name": "An attention-based BiLSTM-CRF approach to document-level chemical named entity recognition",
+          "link": "https://doi.org/10.1093/bioinformatics/btx761"
+        },
+        "c": "https://github.com/lingluodlut/Att-ChemdNER",
+        "n": "Att-BiLSTM-CRF",
+        "d": "2019-04-15",
+        "m1": "92.57"
+      }
+    ]
+  }
+}

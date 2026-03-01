@@ -1,0 +1,83 @@
+{
+  "title": "image-classification-on-oracle-mnist",
+  "task-hierarchy": [
+    "Image Classification"
+  ],
+  "dataset-info": {
+    "link": "https://paperswithcode.com/paper/oracle-mnist-a-realistic-image-dataset-for"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Trainable Parameters",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Vision Eagle Attention: a new lens for advancing image classification",
+          "link": "https://arxiv.org/abs/2411.10564v2"
+        },
+        "c": "https://github.com/MahmudulHasan11085/Vision-Eagle-Attention",
+        "n": "ResNet-18 + Vision Eagle Attention",
+        "d": "2024-11-15",
+        "m1": "97.20"
+      },
+      {
+        "p": {
+          "name": "Learning local discrete features in explainable-by-design convolutional neural networks",
+          "link": "https://arxiv.org/abs/2411.00139v1"
+        },
+        "c": "https://github.com/pikaplan/LearnExplaiNet",
+        "n": "R-ExplaiNet-26",
+        "d": "2024-10-31",
+        "m1": "96.93",
+        "m2": "892362"
+      },
+      {
+        "p": {
+          "name": "Vision Eagle Attention: a new lens for advancing image classification",
+          "link": "https://arxiv.org/abs/2411.10564v2"
+        },
+        "c": "https://github.com/MahmudulHasan11085/Vision-Eagle-Attention",
+        "n": "ResNet-18",
+        "d": "2024-11-15",
+        "m1": "96.77"
+      },
+      {
+        "p": {
+          "name": "LR-Net: A Block-based Convolutional Neural Network for Low-Resolution Image Classification",
+          "link": "https://arxiv.org/abs/2207.09531v5"
+        },
+        "c": "https://github.com/AshkanGanj/Block-Based-ImageClassification-Architecture",
+        "n": "LR-Net",
+        "d": "2022-07-19",
+        "m1": "95.13"
+      }
+    ]
+  }
+}

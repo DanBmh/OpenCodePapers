@@ -1,0 +1,114 @@
+{
+  "title": "traffic-prediction-on-bjtaxi",
+  "task-hierarchy": [
+    "Traffic Prediction"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MAE @ in",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "MAE @ out",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "MAPE (%) @ in",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "MAPE (%) @ out",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Spatio-Temporal Self-Supervised Learning for Traffic Flow Prediction",
+          "link": "https://arxiv.org/abs/2212.04475v2"
+        },
+        "c": "https://github.com/echo-ji/st-ssl",
+        "n": "ST-SSL",
+        "d": "2022-12-07",
+        "m1": "11.31",
+        "m2": "11.4",
+        "m3": "15.03",
+        "m4": "15.19"
+      },
+      {
+        "p": {
+          "name": "Adaptive Graph Convolutional Recurrent Network for Traffic Forecasting",
+          "link": "https://arxiv.org/abs/2007.02842v2"
+        },
+        "c": "https://github.com/benedekrozemberczki/pytorch_geometric_temporal",
+        "n": "AGCRN",
+        "d": "2020-07-06",
+        "m1": "12.30",
+        "m2": "12.38",
+        "m3": "15.61",
+        "m4": "15.75"
+      },
+      {
+        "p": {
+          "name": "Spatial-Temporal Synchronous Graph Convolutional Networks: A New Framework for Spatial-Temporal Network Data Forecasting",
+          "link": "https://aaai.org/ojs/index.php/AAAI/article/view/5438"
+        },
+        "c": "https://github.com/Davidham3/STSGCN",
+        "n": "STSGCN",
+        "d": "2020-04-03",
+        "m1": "12.72",
+        "m2": "12.79",
+        "m3": "17.22",
+        "m4": "17.35"
+      },
+      {
+        "p": {
+          "name": "Spatial-Temporal Fusion Graph Neural Networks for Traffic Flow Forecasting",
+          "link": "https://arxiv.org/abs/2012.09641v2"
+        },
+        "c": "https://github.com/MengzhangLI/STFGNN",
+        "n": "STFGNN",
+        "d": "2020-12-15",
+        "m1": "13.83",
+        "m2": "13.89",
+        "m3": "19.29",
+        "m4": "19.41"
+      },
+      {
+        "p": {
+          "name": "Does Vector Quantization Fail in Spatio-Temporal Forecasting? Exploring a Differentiable Sparse Soft-Vector Quantization Approach",
+          "link": "https://arxiv.org/abs/2312.03406v4"
+        },
+        "c": "https://github.com/Pachark/SVQ-Forecasting",
+        "n": "SimVP+SVQ (Learnable)",
+        "d": "2023-12-06",
+        "m1": "14.64"
+      }
+    ]
+  }
+}

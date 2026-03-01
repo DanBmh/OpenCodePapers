@@ -1,0 +1,257 @@
+{
+  "title": "image-classification-on-omnibenchmark",
+  "task-hierarchy": [
+    "Image Classification"
+  ],
+  "dataset-info": {
+    "link": "https://zhangyuanhan-ai.github.io/OmniBenchmark/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Average Top-1 Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Neural Prompt Search",
+          "link": "https://arxiv.org/abs/2206.04673v2"
+        },
+        "c": "https://github.com/ZhangYuanhan-AI/NOAH",
+        "n": "NOAH-ViTB/16",
+        "d": "2022-06-09",
+        "m1": "47.6"
+      },
+      {
+        "p": {
+          "name": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+          "link": "https://arxiv.org/abs/2103.14030v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "SwinTransformer",
+        "d": "2021-03-25",
+        "m1": "46.4"
+      },
+      {
+        "p": {
+          "name": "Bamboo: Building Mega-Scale Vision Dataset Continually with Human-Machine Synergy",
+          "link": "https://arxiv.org/abs/2203.07845v2"
+        },
+        "c": "https://github.com/zhangyuanhan-ai/bamboo",
+        "n": "Bamboo-R50",
+        "d": "2022-03-15",
+        "m1": "45.4"
+      },
+      {
+        "p": {
+          "name": "Parameter-Efficient Transfer Learning for NLP",
+          "link": "https://arxiv.org/abs/1902.00751v2"
+        },
+        "c": "https://github.com/Adapter-Hub/adapter-transformers",
+        "n": "Adapter-ViTB/16",
+        "d": "2019-02-02",
+        "m1": "44.5"
+      },
+      {
+        "p": {
+          "name": "Learning Transferable Visual Models From Natural Language Supervision",
+          "link": "https://arxiv.org/abs/2103.00020v1"
+        },
+        "c": "https://github.com/openai/CLIP",
+        "n": "CLIP-RN50",
+        "d": "2021-02-26",
+        "m1": "42.1"
+      },
+      {
+        "p": {
+          "name": "Billion-scale semi-supervised learning for image classification",
+          "link": "http://arxiv.org/abs/1905.00546v1"
+        },
+        "c": "https://github.com/facebookresearch/semi-supervised-ImageNet1K-models",
+        "n": "IG-1B",
+        "d": "2019-05-02",
+        "m1": "40.4"
+      },
+      {
+        "p": {
+          "name": "Big Transfer (BiT): General Visual Representation Learning",
+          "link": "https://arxiv.org/abs/1912.11370v3"
+        },
+        "c": "https://github.com/google-research/big_transfer",
+        "n": "BiT-M",
+        "d": "2019-12-24",
+        "m1": "40.4"
+      },
+      {
+        "p": {
+          "name": "Emerging Properties in Self-Supervised Vision Transformers",
+          "link": "https://arxiv.org/abs/2104.14294v2"
+        },
+        "c": "https://github.com/facebookresearch/dino",
+        "n": "DINO",
+        "d": "2021-04-29",
+        "m1": "38.9"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Learning of Visual Features by Contrasting Cluster Assignments",
+          "link": "https://arxiv.org/abs/2006.09882v5"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "SwAV",
+        "d": "2020-06-17",
+        "m1": "38.3"
+      },
+      {
+        "p": {
+          "name": "Deep Residual Learning for Image Recognition",
+          "link": "http://arxiv.org/abs/1512.03385v1"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/research/deeplab",
+        "n": "ResNet-101",
+        "d": "2015-12-10",
+        "m1": "37.4"
+      },
+      {
+        "p": {
+          "name": "MEAL V2: Boosting Vanilla ResNet-50 to 80%+ Top-1 Accuracy on ImageNet without Tricks",
+          "link": "https://arxiv.org/abs/2009.08453v2"
+        },
+        "c": "https://github.com/szq0214/MEAL-V2",
+        "n": "MEAL-V2",
+        "d": "2020-09-17",
+        "m1": "36.6"
+      },
+      {
+        "p": {
+          "name": "MoPro: Webly Supervised Learning with Momentum Prototypes",
+          "link": "https://arxiv.org/abs/2009.07995v1"
+        },
+        "c": "https://github.com/salesforce/MoPro",
+        "n": "MoPro-V2",
+        "d": "2020-09-17",
+        "m1": "36.1"
+      },
+      {
+        "p": {
+          "name": "EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks",
+          "link": "https://arxiv.org/abs/1905.11946v5"
+        },
+        "c": "https://github.com/ultralytics/yolov5",
+        "n": "EfficientNetB4",
+        "d": "2019-05-28",
+        "m1": "35.8"
+      },
+      {
+        "p": {
+          "name": "Momentum Contrast for Unsupervised Visual Representation Learning",
+          "link": "https://arxiv.org/abs/1911.05722v3"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "MoCoV2",
+        "d": "2019-11-13",
+        "m1": "34.8"
+      },
+      {
+        "p": {
+          "name": "Deep Residual Learning for Image Recognition",
+          "link": "http://arxiv.org/abs/1512.03385v1"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/research/deeplab",
+        "n": "ResNet-50",
+        "d": "2015-12-10",
+        "m1": "34.3"
+      },
+      {
+        "p": {
+          "name": "Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning",
+          "link": "http://arxiv.org/abs/1602.07261v2"
+        },
+        "c": "https://github.com/tensorflow/models",
+        "n": "InceptionV4",
+        "d": "2016-02-23",
+        "m1": "32.3"
+      },
+      {
+        "p": {
+          "name": "MLP-Mixer: An all-MLP Architecture for Vision",
+          "link": "https://arxiv.org/abs/2105.01601v4"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+        "n": "MLP-Mixer",
+        "d": "2021-05-04",
+        "m1": "32.2"
+      },
+      {
+        "p": {
+          "name": "Manifold Mixup: Better Representations by Interpolating Hidden States",
+          "link": "https://arxiv.org/abs/1806.05236v7"
+        },
+        "c": "https://github.com/Westlake-AI/openmixup",
+        "n": "Manifold",
+        "d": "2018-06-13",
+        "m1": "31.6"
+      },
+      {
+        "p": {
+          "name": "CutMix: Regularization Strategy to Train Strong Classifiers with Localizable Features",
+          "link": "https://arxiv.org/abs/1905.04899v2"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "CutMix",
+        "d": "2019-05-13",
+        "m1": "31.1"
+      },
+      {
+        "p": {
+          "name": "Re-labeling ImageNet: from Single to Multi-Labels, from Global to Localized Labels",
+          "link": "https://arxiv.org/abs/2101.05022v2"
+        },
+        "c": "https://github.com/naver-ai/relabel_imagenet",
+        "n": "ReLabel",
+        "d": "2021-01-13",
+        "m1": "30.8"
+      },
+      {
+        "p": {
+          "name": "Masked Autoencoders Are Scalable Vision Learners",
+          "link": "https://arxiv.org/abs/2111.06377v2"
+        },
+        "c": "https://github.com/facebookresearch/mae",
+        "n": "MAE",
+        "d": "2021-11-11",
+        "m1": "30.6"
+      },
+      {
+        "p": {
+          "name": "BEiT: BERT Pre-Training of Image Transformers",
+          "link": "https://arxiv.org/abs/2106.08254v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "BeiT",
+        "d": "2021-06-15",
+        "m1": "30.1"
+      }
+    ]
+  }
+}

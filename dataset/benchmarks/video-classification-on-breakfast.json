@@ -1,0 +1,127 @@
+{
+  "title": "video-classification-on-breakfast",
+  "task-hierarchy": [
+    "Video Classification"
+  ],
+  "dataset-info": {
+    "link": "https://serre-lab.clps.brown.edu/resource/breakfast-actions-dataset/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "HERMES: temporal-coHERent long-forM understanding with Episodes and Semantics",
+          "link": "https://arxiv.org/abs/2408.17443v3"
+        },
+        "c": "https://github.com/joslefaure/HERMES",
+        "n": "HERMES",
+        "d": "2024-08-30",
+        "m1": "95.2"
+      },
+      {
+        "p": {
+          "name": "MA-LMM: Memory-Augmented Large Multimodal Model for Long-Term Video Understanding",
+          "link": "https://arxiv.org/abs/2404.05726v2"
+        },
+        "c": "https://github.com/boheumd/MA-LMM",
+        "n": "MA-LMM",
+        "d": "2024-04-08",
+        "m1": "93.0"
+      },
+      {
+        "p": {
+          "name": "Selective Structured State-Spaces for Long-Form Video Understanding",
+          "link": "https://arxiv.org/abs/2303.14526v1"
+        },
+        "c": "",
+        "n": "S5",
+        "d": "2023-03-25",
+        "m1": "90.7"
+      },
+      {
+        "p": {
+          "name": "Efficient Movie Scene Detection using State-Space Transformers",
+          "link": "https://arxiv.org/abs/2212.14427v2"
+        },
+        "c": "https://github.com/md-mohaiminul/trans4mer",
+        "n": "TranS4mer",
+        "d": "2022-12-29",
+        "m1": "90.27"
+      },
+      {
+        "p": {
+          "name": "Learning To Recognize Procedural Activities with Distant Supervision",
+          "link": "https://arxiv.org/abs/2201.10990v3"
+        },
+        "c": "https://github.com/facebookresearch/video-distant-supervision",
+        "n": "D-Sprv.",
+        "d": "2022-01-26",
+        "m1": "89.9"
+      },
+      {
+        "p": {
+          "name": "Long Movie Clip Classification with State-Space Video Models",
+          "link": "https://arxiv.org/abs/2204.01692v3"
+        },
+        "c": "https://github.com/md-mohaiminul/ViS4mer",
+        "n": "ViS4mer",
+        "d": "2022-04-04",
+        "m1": "88.2"
+      },
+      {
+        "p": {
+          "name": "Graph-Based High-Order Relation Modeling for Long-Term Action Recognition",
+          "link": "http://openaccess.thecvf.com//content/CVPR2021/html/Zhou_Graph-Based_High-Order_Relation_Modeling_for_Long-Term_Action_Recognition_CVPR_2021_paper.html"
+        },
+        "c": "",
+        "n": "GHRM",
+        "d": "2021-06-19",
+        "m1": "75.5"
+      },
+      {
+        "p": {
+          "name": "Timeception for Complex Action Recognition",
+          "link": "http://arxiv.org/abs/1812.01289v2"
+        },
+        "c": "https://github.com/noureldien/timeception",
+        "n": "Timeception",
+        "d": "2018-12-04",
+        "m1": "71.3"
+      },
+      {
+        "p": {
+          "name": "VideoGraph: Recognizing Minutes-Long Human Activities in Videos",
+          "link": "https://arxiv.org/abs/1905.05143v2"
+        },
+        "c": "",
+        "n": "VideoGraph",
+        "d": "2019-05-13",
+        "m1": "69.5"
+      }
+    ]
+  }
+}

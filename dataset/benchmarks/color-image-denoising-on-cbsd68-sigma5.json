@@ -1,0 +1,75 @@
+{
+  "title": "color-image-denoising-on-cbsd68-sigma5",
+  "task-hierarchy": [
+    "3D Architecture",
+    "Denoising",
+    "Color Image Denoising"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/clausmichele/CBSD68-dataset"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Blind Universal Bayesian Image Denoising with Gaussian Noise Level Learning",
+          "link": "https://arxiv.org/abs/1907.03029v2"
+        },
+        "c": "https://github.com/majedelhelou/BUIFD",
+        "n": "CBUIFD75",
+        "d": "2019-07-05",
+        "m1": "40.05"
+      },
+      {
+        "p": {
+          "name": "Hypernetwork-Based Adaptive Image Restoration",
+          "link": "https://arxiv.org/abs/2206.05970v3"
+        },
+        "c": "https://github.com/ifryed/HyperRes",
+        "n": "HyperRes",
+        "d": "2022-06-13",
+        "m1": "39.96",
+        "m2": "0.98"
+      },
+      {
+        "p": {
+          "name": "ViDeNN: Deep Blind Video Denoising",
+          "link": "http://arxiv.org/abs/1904.10898v1"
+        },
+        "c": "https://github.com/clausmichele/ViDeNN",
+        "n": "Spatial-CNN",
+        "d": "2019-04-24",
+        "m1": "39.73"
+      }
+    ]
+  }
+}

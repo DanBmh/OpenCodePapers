@@ -1,0 +1,98 @@
+{
+  "title": "3d-semantic-segmentation-on-partnet",
+  "task-hierarchy": [
+    "Semantic Segmentation",
+    "3D Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://cs.stanford.edu/~kaichun/partnet/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIOU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Cross-Shape Attention for Part Segmentation of 3D Point Clouds",
+          "link": "https://arxiv.org/abs/2003.09053v6"
+        },
+        "c": "https://github.com/marios2019/CSN",
+        "n": "CSN",
+        "d": "2020-03-20",
+        "m1": "62.1"
+      },
+      {
+        "p": {
+          "name": "Unsupervised 3D Learning for Shape Analysis via Multiresolution Instance Discrimination",
+          "link": "https://arxiv.org/abs/2008.01068v2"
+        },
+        "c": "https://github.com/Microsoft/O-CNN",
+        "n": "MID-Net",
+        "d": "2020-08-03",
+        "m1": "60.8"
+      },
+      {
+        "p": {
+          "name": "FG-Net: Fast Large-Scale LiDAR Point Clouds Understanding Network Leveraging Correlated Feature Mining and Geometric-Aware Modelling",
+          "link": "https://arxiv.org/abs/2012.09439v2"
+        },
+        "c": "https://github.com/KangchengLiu/Feature-Geometric-Net-FG-Net",
+        "n": "FG-Net",
+        "d": "2020-12-17",
+        "m1": "58.2"
+      },
+      {
+        "p": {
+          "name": "A Closer Look at Local Aggregation Operators in Point Cloud Analysis",
+          "link": "https://arxiv.org/abs/2007.01294v1"
+        },
+        "c": "https://github.com/zeliu98/CloserLook3D",
+        "n": "closerlook3D",
+        "d": "2020-07-02",
+        "m1": "53.8"
+      },
+      {
+        "p": {
+          "name": "DeepGCNs: Making GCNs Go as Deep as CNNs",
+          "link": "https://arxiv.org/abs/1910.06849v3"
+        },
+        "c": "https://github.com/lightaime/deep_gcns_torch/tree/master/examples/ogb",
+        "n": "DeepGCN",
+        "d": "2019-10-15",
+        "m1": "45.1"
+      },
+      {
+        "p": {
+          "name": "PartNet: A Large-scale Benchmark for Fine-grained and Hierarchical Part-level 3D Object Understanding",
+          "link": "http://arxiv.org/abs/1812.02713v1"
+        },
+        "c": "https://github.com/yangyanli/PointCNN",
+        "n": "PartNet",
+        "d": "2018-12-06",
+        "m1": "43.2"
+      }
+    ]
+  }
+}

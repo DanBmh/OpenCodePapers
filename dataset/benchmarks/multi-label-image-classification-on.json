@@ -1,0 +1,162 @@
+{
+  "title": "multi-label-image-classification-on",
+  "task-hierarchy": [
+    "Image Classification",
+    "Multi-Label Image Classification"
+  ],
+  "dataset-info": {
+    "link": "http://bigearth.net/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mAP (micro)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "mAP (macro)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "FScore",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "official split",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SSL4EO-S12: A Large-Scale Multi-Modal, Multi-Temporal Dataset for Self-Supervised Learning in Earth Observation",
+          "link": "https://arxiv.org/abs/2211.07044v2"
+        },
+        "c": "https://github.com/zhu-xlab/ssl4eo-s12",
+        "n": "MoCo-v2 (ResNet50, fine tune)",
+        "d": "2022-11-13",
+        "m1": "91.8",
+        "m4": "No"
+      },
+      {
+        "p": {
+          "name": "SSL4EO-S12: A Large-Scale Multi-Modal, Multi-Temporal Dataset for Self-Supervised Learning in Earth Observation",
+          "link": "https://arxiv.org/abs/2211.07044v2"
+        },
+        "c": "https://github.com/zhu-xlab/ssl4eo-s12",
+        "n": "MoCo-v3 (ViT-S/16, fine tune)",
+        "d": "2022-11-13",
+        "m1": "89.9",
+        "m4": "No"
+      },
+      {
+        "p": {
+          "name": "Self-supervised Learning in Remote Sensing: A Review",
+          "link": "https://arxiv.org/abs/2206.13188v2"
+        },
+        "c": "https://github.com/zhu-xlab/ssl4eo-review",
+        "n": "MoCo-v2 (ResNet18, fine tune)",
+        "d": "2022-06-27",
+        "m1": "89.3",
+        "m4": "No"
+      },
+      {
+        "p": {
+          "name": "SSL4EO-S12: A Large-Scale Multi-Modal, Multi-Temporal Dataset for Self-Supervised Learning in Earth Observation",
+          "link": "https://arxiv.org/abs/2211.07044v2"
+        },
+        "c": "https://github.com/zhu-xlab/ssl4eo-s12",
+        "n": "MAE (ViT-S/16, fine tune)",
+        "d": "2022-11-13",
+        "m1": "88.9",
+        "m4": "No"
+      },
+      {
+        "p": {
+          "name": "Extending global-local view alignment for self-supervised learning with remote sensing imagery",
+          "link": "https://arxiv.org/abs/2303.06670v2"
+        },
+        "c": "https://github.com/wennyxy/dino-mc",
+        "n": "DINO-MC",
+        "d": "2023-03-12",
+        "m1": "88.75",
+        "m4": "No"
+      },
+      {
+        "p": {
+          "name": "In-domain representation learning for remote sensing",
+          "link": "https://arxiv.org/abs/1911.06721v1"
+        },
+        "c": "https://github.com/google-research/google-research/tree/master/remote_sensing_representations",
+        "n": "ResNet50",
+        "d": "2019-11-15",
+        "m2": "75.36"
+      },
+      {
+        "p": {
+          "name": "Benchmarking and scaling of deep learning models for land cover image classification",
+          "link": "https://arxiv.org/abs/2111.09451v3"
+        },
+        "c": "https://github.com/orion-ai-lab/efficientbigearthnet",
+        "n": "WideResNet-B5-ECA",
+        "d": "2021-11-18",
+        "m3": "79",
+        "m4": "Yes"
+      },
+      {
+        "p": {
+          "name": "Benchmarking and scaling of deep learning models for land cover image classification",
+          "link": "https://arxiv.org/abs/2111.09451v3"
+        },
+        "c": "https://github.com/orion-ai-lab/efficientbigearthnet",
+        "n": "ViTM/20",
+        "d": "2021-11-18",
+        "m3": "77.1",
+        "m4": "Yes"
+      },
+      {
+        "p": {
+          "name": "Benchmarking and scaling of deep learning models for land cover image classification",
+          "link": "https://arxiv.org/abs/2111.09451v3"
+        },
+        "c": "https://github.com/orion-ai-lab/efficientbigearthnet",
+        "n": "ResNet50",
+        "d": "2021-11-18",
+        "m3": "76.8",
+        "m4": "Yes"
+      },
+      {
+        "p": {
+          "name": "Benchmarking and scaling of deep learning models for land cover image classification",
+          "link": "https://arxiv.org/abs/2111.09451v3"
+        },
+        "c": "https://github.com/orion-ai-lab/efficientbigearthnet",
+        "n": "MLPMixer",
+        "d": "2021-11-18",
+        "m3": "75.2",
+        "m4": "Yes"
+      }
+    ]
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "title": "temporal-tagging-on-tempeval-3",
+  "task-hierarchy": [
+    "Temporal Information Extraction",
+    "Temporal Tagging"
+  ],
+  "dataset-info": {
+    "link": "https://aclanthology.org/S13-2001/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": " Strict Detection (Pr.)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": " Strict Detection (Re.)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Strict Detection (F1)",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Relaxed Detection (Pr.)",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Relaxed Detection (Re.)",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "Relaxed Detection (F1)",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "Type",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "BERT got a Date: Introducing Transformers to Temporal Tagging",
+          "link": "https://arxiv.org/abs/2109.14927v3"
+        },
+        "c": "https://github.com/satya77/Transformer_Temporal_Tagger",
+        "n": "R2R",
+        "d": "2021-09-30",
+        "m1": "96.37",
+        "m2": "96.37",
+        "m3": "96.37",
+        "m4": "100",
+        "m5": "100",
+        "m6": "100",
+        "m7": "90.43"
+      },
+      {
+        "p": {
+          "name": "BERT got a Date: Introducing Transformers to Temporal Tagging",
+          "link": "https://arxiv.org/abs/2109.14927v3"
+        },
+        "c": "https://github.com/satya77/Transformer_Temporal_Tagger",
+        "n": "B2B",
+        "d": "2021-09-30",
+        "m1": "94.11",
+        "m2": "81.01",
+        "m3": "87.07",
+        "m4": "100",
+        "m5": "86.09",
+        "m6": "92.52",
+        "m7": "83.79"
+      },
+      {
+        "p": {
+          "name": "BERT got a Date: Introducing Transformers to Temporal Tagging",
+          "link": "https://arxiv.org/abs/2109.14927v3"
+        },
+        "c": "https://github.com/satya77/Transformer_Temporal_Tagger",
+        "n": "DateBERT",
+        "d": "2021-09-30",
+        "m1": "82.72",
+        "m2": "85.79",
+        "m3": " 84.21",
+        "m4": "90.95",
+        "m5": "94.35",
+        "m6": "92.60",
+        "m7": "86.21"
+      },
+      {
+        "p": {
+          "name": "BERT got a Date: Introducing Transformers to Temporal Tagging",
+          "link": "https://arxiv.org/abs/2109.14927v3"
+        },
+        "c": "https://github.com/satya77/Transformer_Temporal_Tagger",
+        "n": "BERT-base",
+        "d": "2021-09-30",
+        "m1": "81.83",
+        "m2": "79.56",
+        "m3": "80.67",
+        "m4": "91.37",
+        "m5": "88.84",
+        "m6": "90.08",
+        "m7": "82.00"
+      },
+      {
+        "p": {
+          "name": "Adversarial Alignment of Multilingual Models for Extracting Temporal Expressions from Text",
+          "link": "https://arxiv.org/abs/2005.09392v1"
+        },
+        "c": "",
+        "n": "Lange et al.",
+        "d": "2020-05-19",
+        "m8": "74.8"
+      }
+    ]
+  }
+}

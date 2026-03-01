@@ -1,0 +1,102 @@
+{
+  "title": "image-classification-on-oxford-iiit-pets-1",
+  "task-hierarchy": [
+    "Image Classification"
+  ],
+  "dataset-info": {
+    "link": "https://www.robots.ox.ac.uk/~vgg/data/pets/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Per-Class Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Incorporating Convolution Designs into Visual Transformers",
+          "link": "https://arxiv.org/abs/2103.11816v2"
+        },
+        "c": "https://github.com/rishikksh20/CeiT-pytorch",
+        "n": "CeiT-S (384 finetune resolution)",
+        "d": "2021-03-22",
+        "m1": "94.9"
+      },
+      {
+        "p": {
+          "name": "CvT: Introducing Convolutions to Vision Transformers",
+          "link": "https://arxiv.org/abs/2103.15808v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "CvT-W24",
+        "d": "2021-03-29",
+        "m1": "94.73"
+      },
+      {
+        "p": {
+          "name": "Incorporating Convolution Designs into Visual Transformers",
+          "link": "https://arxiv.org/abs/2103.11816v2"
+        },
+        "c": "https://github.com/rishikksh20/CeiT-pytorch",
+        "n": "CeiT-S",
+        "d": "2021-03-22",
+        "m1": "94.6"
+      },
+      {
+        "p": {
+          "name": "Incorporating Convolution Designs into Visual Transformers",
+          "link": "https://arxiv.org/abs/2103.11816v2"
+        },
+        "c": "https://github.com/rishikksh20/CeiT-pytorch",
+        "n": "CeiT-T (384 finetune resolution)",
+        "d": "2021-03-22",
+        "m1": "94.5"
+      },
+      {
+        "p": {
+          "name": "Incorporating Convolution Designs into Visual Transformers",
+          "link": "https://arxiv.org/abs/2103.11816v2"
+        },
+        "c": "https://github.com/rishikksh20/CeiT-pytorch",
+        "n": "CeiT-T",
+        "d": "2021-03-22",
+        "m1": "93.8"
+      },
+      {
+        "p": {
+          "name": "Your Diffusion Model is Secretly a Zero-Shot Classifier",
+          "link": "https://arxiv.org/abs/2303.16203v3"
+        },
+        "c": "https://github.com/diffusion-classifier/diffusion-classifier",
+        "n": "Diffusion Classifier (zero-shot)",
+        "d": "2023-03-28",
+        "m2": "87.3"
+      }
+    ]
+  }
+}

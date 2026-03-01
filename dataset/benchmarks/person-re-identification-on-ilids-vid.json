@@ -1,0 +1,172 @@
+{
+  "title": "person-re-identification-on-ilids-vid",
+  "task-hierarchy": [
+    "Person Re-Identification"
+  ],
+  "dataset-info": {
+    "link": "http://www.eecs.qmul.ac.uk/~xiatian/downloads_qmul_iLIDS-VID_ReID_dataset.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Rank-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Rank-5",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Rank-10",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Rank-20",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "GAF-Net: Video-Based Person Re-Identification via Appearance and Gait Recognitions",
+          "link": "https://www.scitepress.org/Link.aspx?doi=10.5220/0012364200003660"
+        },
+        "c": "https://github.com/Moncef-Bj/GAF-Net-for-Video-Based-Person-Re-Identification",
+        "n": "GAF-Net",
+        "d": "2024-02-27",
+        "m1": "93.07",
+        "m2": "99.27",
+        "m3": "99.74",
+        "m4": "99.94"
+      },
+      {
+        "p": {
+          "name": "Multi-direction and Multi-scale Pyramid in Transformer for Video-based Pedestrian Retrieval",
+          "link": "https://arxiv.org/abs/2202.06014"
+        },
+        "c": "https://github.com/deropty/PiT",
+        "n": "PiT",
+        "d": "2022-02-12",
+        "m1": "92.07",
+        "m2": "98.93",
+        "m3": "99.80",
+        "m4": "100"
+      },
+      {
+        "p": {
+          "name": "Fine-Grained Re-Identification",
+          "link": "https://arxiv.org/abs/2011.13475v2"
+        },
+        "c": "https://github.com/ppriyank/Video-Person-Re-ID-Fantastic-Techniques-and-Where-to-Find-Them",
+        "n": "FGReID",
+        "d": "2020-11-26",
+        "m1": "91.5",
+        "m2": "99.2",
+        "m3": "99.8",
+        "m4": "100"
+      },
+      {
+        "p": {
+          "name": "Pyramid Spatial-Temporal Aggregation for Video-Based Person Re-Identification",
+          "link": "http://openaccess.thecvf.com//content/ICCV2021/html/Wang_Pyramid_Spatial-Temporal_Aggregation_for_Video-Based_Person_Re-Identification_ICCV_2021_paper.html"
+        },
+        "c": "https://github.com/WangYQ9/VideoReID_PSTA",
+        "n": "PSTA",
+        "d": "2021-01-01",
+        "m1": "91.5"
+      },
+      {
+        "p": {
+          "name": "Spatio-Temporal Representation Factorization for Video-based Person Re-Identification",
+          "link": "https://arxiv.org/abs/2107.11878v2"
+        },
+        "c": "",
+        "n": "STRF",
+        "d": "2021-07-25",
+        "m1": "89.3"
+      },
+      {
+        "p": {
+          "name": "Learning Multi-Granular Hypergraphs for Video-Based Person Re-Identification",
+          "link": "https://arxiv.org/abs/2104.14913v1"
+        },
+        "c": "https://github.com/daodaofr/hypergraph_reid",
+        "n": "MGH",
+        "d": "2021-04-30",
+        "m1": "85.6",
+        "m2": "97.1",
+        "m3": "99.5"
+      },
+      {
+        "p": {
+          "name": "Adaptive Graph Representation Learning for Video Person Re-identification",
+          "link": "https://arxiv.org/abs/1909.02240v2"
+        },
+        "c": "https://github.com/weleen/AGRL.pytorch",
+        "n": "AGRL",
+        "d": "2019-09-05",
+        "m1": "83.7",
+        "m3": "95.4",
+        "m4": "99.5"
+      },
+      {
+        "p": {
+          "name": "Exploiting Robust Unsupervised Video Person Re-identification",
+          "link": "https://arxiv.org/abs/2111.05170v3"
+        },
+        "c": "https://github.com/deropty/uPMnet",
+        "n": "uPMnet",
+        "d": "2021-11-09",
+        "m1": "63.1",
+        "m2": "81.9",
+        "m4": "92.5"
+      },
+      {
+        "p": {
+          "name": "Temporal Knowledge Propagation for Image-to-Video Person Re-identification",
+          "link": "https://arxiv.org/abs/1908.03885v3"
+        },
+        "c": "https://github.com/guxinqian/TKP",
+        "n": "TKP",
+        "d": "2019-08-11",
+        "m1": "54.6",
+        "m2": "79.4",
+        "m3": "86.9",
+        "m4": "93.5"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Tracklet Person Re-Identification",
+          "link": "http://arxiv.org/abs/1903.00535v1"
+        },
+        "c": "https://github.com/liminxian/DukeMTMC-SI-Tracklet",
+        "n": "UTAL",
+        "d": "2019-03-01",
+        "m1": "35.1",
+        "m2": "59",
+        "m4": "83.8"
+      }
+    ]
+  }
+}

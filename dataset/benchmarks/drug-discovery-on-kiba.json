@@ -1,0 +1,86 @@
+{
+  "title": "drug-discovery-on-kiba",
+  "task-hierarchy": [
+    "Drug Discovery"
+  ],
+  "dataset-info": {
+    "link": "https://tdcommons.ai/multi_pred_tasks/dti/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "CI",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "MSE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SSM-DTA: Breaking the Barriers of Data Scarcity in Drug-Target Affinity Prediction",
+          "link": "https://arxiv.org/abs/2206.09818v3"
+        },
+        "c": "https://github.com/qizhipei/ssm-dta",
+        "n": "SMT-DTA",
+        "d": "2022-06-20",
+        "m1": "0.894",
+        "m2": "0.154"
+      },
+      {
+        "p": {
+          "name": "DeepPurpose: a Deep Learning Library for Drug-Target Interaction Prediction",
+          "link": "https://arxiv.org/abs/2004.08919v3"
+        },
+        "c": "https://github.com/kexinhuang12345/DeepPurpose",
+        "n": "DeepPurpose",
+        "d": "2020-04-19",
+        "m1": "0.872",
+        "m2": "0.178"
+      },
+      {
+        "p": {
+          "name": "DeepDTA: Deep Drug-Target Binding Affinity Prediction",
+          "link": "http://arxiv.org/abs/1801.10193v2"
+        },
+        "c": "https://github.com/kexinhuang12345/DeepPurpose",
+        "n": "DeepDTA",
+        "d": "2018-01-30",
+        "m1": "0.863",
+        "m2": "0.194"
+      },
+      {
+        "p": {
+          "name": "GraphDTA: prediction of drug–target binding affinity using graph convolutional networks",
+          "link": "https://www.biorxiv.org/content/10.1101/684662v3"
+        },
+        "c": "https://github.com/thinng/GraphDTA",
+        "n": "GraphDTA",
+        "d": "2019-07-02",
+        "m1": "0.862",
+        "m2": "0.183"
+      }
+    ]
+  }
+}

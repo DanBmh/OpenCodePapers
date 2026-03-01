@@ -1,0 +1,263 @@
+{
+  "title": "text-spotting-on-icdar-2015",
+  "task-hierarchy": [
+    "Text Spotting"
+  ],
+  "dataset-info": {
+    "link": "https://iapr.org/archives/icdar2015/index.html%3Fp=254.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F-measure (%) - Strong Lexicon",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "F-measure (%) - Weak Lexicon",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "F-measure (%) - Generic Lexicon",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Towards Unified Scene Text Spotting based on Sequence Generation",
+          "link": "https://arxiv.org/abs/2304.03435v1"
+        },
+        "c": "https://github.com/clovaai/units",
+        "n": "UNITS",
+        "d": "2023-04-07",
+        "m1": "89.0",
+        "m2": "84.1",
+        "m3": "80.3"
+      },
+      {
+        "p": {
+          "name": "DeepSolo: Let Transformer Decoder with Explicit Points Solo for Text Spotting",
+          "link": "https://arxiv.org/abs/2211.10772v4"
+        },
+        "c": "https://github.com/vitae-transformer/deepsolo",
+        "n": "DeepSolo (ViTAEv2-S, TextOCR)",
+        "d": "2022-11-19",
+        "m1": "88.1",
+        "m2": "83.9",
+        "m3": "79.5"
+      },
+      {
+        "p": {
+          "name": "DeepSolo: Let Transformer Decoder with Explicit Points Solo for Text Spotting",
+          "link": "https://arxiv.org/abs/2211.10772v4"
+        },
+        "c": "https://github.com/vitae-transformer/deepsolo",
+        "n": "DeepSolo(ResNet-50, TextOCR)",
+        "d": "2022-11-19",
+        "m1": "88.0",
+        "m2": "83.5",
+        "m3": "79.1"
+      },
+      {
+        "p": {
+          "name": "DeepSolo: Let Transformer Decoder with Explicit Points Solo for Text Spotting",
+          "link": "https://arxiv.org/abs/2211.10772v4"
+        },
+        "c": "https://github.com/vitae-transformer/deepsolo",
+        "n": "DeepSolo(ResNet-50)",
+        "d": "2022-11-19",
+        "m1": "86.8",
+        "m2": "81.9",
+        "m3": "76.9"
+      },
+      {
+        "p": {
+          "name": "Single Shot Self-Reliant Scene Text Spotter by Decoupled yet Collaborative Detection and Recognition",
+          "link": "https://arxiv.org/abs/2207.07253v4"
+        },
+        "c": "https://github.com/wjj1106/SRSTS",
+        "n": "SRTS",
+        "d": "2022-07-15",
+        "m1": "85.6",
+        "m2": "81.7",
+        "m3": "74.5"
+      },
+      {
+        "p": {
+          "name": "Text Spotting Transformers",
+          "link": "https://arxiv.org/abs/2204.01918v1"
+        },
+        "c": "https://github.com/mlpc-ucsd/testr",
+        "n": "TESTR",
+        "d": "2022-04-05",
+        "m1": "85.2",
+        "m2": "79.4",
+        "m3": "73.6"
+      },
+      {
+        "p": {
+          "name": "A3S: Adversarial learning of semantic representations for Scene-Text Spotting",
+          "link": "https://arxiv.org/abs/2302.10641v1"
+        },
+        "c": "",
+        "n": "A3S",
+        "d": "2023-02-21",
+        "m1": "84.8",
+        "m2": "83.7",
+        "m3": "79.6"
+      },
+      {
+        "p": {
+          "name": "GLASS: Global to Local Attention for Scene-Text Spotting",
+          "link": "https://arxiv.org/abs/2208.03364v1"
+        },
+        "c": "https://github.com/amazon-science/glass-text-spotting",
+        "n": "GLASS",
+        "d": "2022-08-05",
+        "m1": "84.7",
+        "m2": "80.1",
+        "m3": "76.3"
+      },
+      {
+        "p": {
+          "name": "SwinTextSpotter: Scene Text Spotting via Better Synergy between Text Detection and Text Recognition",
+          "link": "https://arxiv.org/abs/2203.10209v1"
+        },
+        "c": "https://github.com/mxin262/swintextspotter",
+        "n": "SwinTextSpotter",
+        "d": "2022-03-19",
+        "m1": "83.9",
+        "m2": "77.3",
+        "m3": "70.5"
+      },
+      {
+        "p": {
+          "name": "FOTS: Fast Oriented Text Spotting with a Unified Network",
+          "link": "http://arxiv.org/abs/1801.01671v2"
+        },
+        "c": "https://github.com/jiangxiluning/FOTS.PyTorch",
+        "n": "FOTS",
+        "d": "2018-01-05",
+        "m1": "83.6",
+        "m2": "74.5",
+        "m3": "62.2"
+      },
+      {
+        "p": {
+          "name": "PGNet: Real-time Arbitrarily-Shaped Text Spotting with Point Gathering Network",
+          "link": "https://arxiv.org/abs/2104.05458v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleOCR",
+        "n": "PGNet",
+        "d": "2021-04-12",
+        "m1": "83.3",
+        "m2": "78.3",
+        "m3": "63.5"
+      },
+      {
+        "p": {
+          "name": "Mask TextSpotter v3: Segmentation Proposal Network for Robust Scene Text Spotting",
+          "link": "https://arxiv.org/abs/2007.09482v1"
+        },
+        "c": "https://github.com/MhLiao/MaskTextSpotterV3",
+        "n": "MaskTextSpotter v3",
+        "d": "2020-07-18",
+        "m1": "83.3",
+        "m2": "78.1",
+        "m3": "74.2"
+      },
+      {
+        "p": {
+          "name": "ABCNet v2: Adaptive Bezier-Curve Network for Real-time End-to-end Text Spotting",
+          "link": "https://arxiv.org/abs/2105.03620v3"
+        },
+        "c": "https://github.com/Yuliang-Liu/ABCNet_Chinese",
+        "n": "ABCNet v2",
+        "d": "2021-05-08",
+        "m1": "82.7",
+        "m2": "78.5",
+        "m3": "73.0"
+      },
+      {
+        "p": {
+          "name": "TextDragon: An End-to-End Framework for Arbitrary Shaped Text Spotting",
+          "link": "http://openaccess.thecvf.com/content_ICCV_2019/html/Feng_TextDragon_An_End-to-End_Framework_for_Arbitrary_Shaped_Text_Spotting_ICCV_2019_paper.html"
+        },
+        "c": "",
+        "n": "TextDragon",
+        "d": "2019-10-01",
+        "m1": "82.5",
+        "m2": "78.3",
+        "m3": "65.2"
+      },
+      {
+        "p": {
+          "name": "SPTS v2: Single-Point Scene Text Spotting",
+          "link": "https://arxiv.org/abs/2301.01635v4"
+        },
+        "c": "https://github.com/shannanyinxiang/spts",
+        "n": "SPTS v2",
+        "d": "2023-01-04",
+        "m1": "82.3",
+        "m2": "77.7",
+        "m3": "72.6"
+      },
+      {
+        "p": {
+          "name": "MANGO: A Mask Attention Guided One-Stage Scene Text Spotter",
+          "link": "https://arxiv.org/abs/2012.04350v2"
+        },
+        "c": "https://github.com/hikopensource/davar-lab-ocr",
+        "n": "MANGO",
+        "d": "2020-12-08",
+        "m1": "81.8",
+        "m2": "78.9",
+        "m3": "67.3"
+      },
+      {
+        "p": {
+          "name": "Text Perceptron: Towards End-to-End Arbitrary-Shaped Text Spotting",
+          "link": "https://arxiv.org/abs/2002.06820v2"
+        },
+        "c": "https://github.com/hikopensource/davar-lab-ocr",
+        "n": "TextPerceptron",
+        "d": "2020-02-17",
+        "m1": "80.5",
+        "m2": "76.6",
+        "m3": "65.1"
+      },
+      {
+        "p": {
+          "name": "SPTS: Single-Point Text Spotting",
+          "link": "https://arxiv.org/abs/2112.07917v6"
+        },
+        "c": "https://github.com/shannanyinxiang/spts",
+        "n": "SPTS",
+        "d": "2021-12-15",
+        "m1": "77.5",
+        "m2": "70.2",
+        "m3": "65.8"
+      }
+    ]
+  }
+}

@@ -1,0 +1,372 @@
+{
+  "title": "anomaly-detection-on-shanghaitech",
+  "task-hierarchy": [
+    "Anomaly Detection"
+  ],
+  "dataset-info": {
+    "link": "https://svip-lab.github.io/dataset/campus_dataset.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "RBDC",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "TBDC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Divide and Conquer in Video Anomaly Detection: A Comprehensive Review and New Approach",
+          "link": "https://arxiv.org/abs/2309.14622v2"
+        },
+        "c": "https://github.com/XiaoJian923/Divide-and-Conquer",
+        "n": "DAC(STG-NF + Jigsaw)",
+        "d": "2023-09-26",
+        "m1": "87.72%"
+      },
+      {
+        "p": {
+          "name": "MULDE: Multiscale Log-Density Estimation via Denoising Score Matching for Video Anomaly Detection",
+          "link": "https://arxiv.org/abs/2403.14497v1"
+        },
+        "c": "https://github.com/jakubmicorek/MULDE-Multiscale-Log-Density-Estimation-via-Denoising-Score-Matching-for-Video-Anomaly-Detection",
+        "n": "MULDE-object-centric-micro",
+        "d": "2024-03-21",
+        "m1": "86.7%"
+      },
+      {
+        "p": {
+          "name": "An Attribute-based Method for Video Anomaly Detection",
+          "link": "https://arxiv.org/abs/2212.00789v2"
+        },
+        "c": "https://github.com/openvinotoolkit/anomalib/tree/main/src/anomalib/models/ai_vad",
+        "n": "AI-VAD",
+        "d": "2022-12-01",
+        "m1": "85.94%"
+      },
+      {
+        "p": {
+          "name": "Normalizing Flows for Human Pose Anomaly Detection",
+          "link": "https://arxiv.org/abs/2211.10946v2"
+        },
+        "c": "https://github.com/orhir/stg-nf",
+        "n": "STG-NF",
+        "d": "2022-11-20",
+        "m1": "85.9%"
+      },
+      {
+        "p": {
+          "name": "Follow the Rules: Reasoning for Video Anomaly Detection with Large Language Models",
+          "link": "https://arxiv.org/abs/2407.10299v2"
+        },
+        "c": "https://github.com/Yuchen413/AnomalyRuler",
+        "n": "AnomalyRuler",
+        "d": "2024-07-14",
+        "m1": "85.2%"
+      },
+      {
+        "p": {
+          "name": "VideoPatchCore: An Effective Method to Memorize Normality for Video Anomaly Detection",
+          "link": "https://arxiv.org/abs/2409.16225v5"
+        },
+        "c": "https://github.com/SkiddieAhn/Paper-VideoPatchCore",
+        "n": "VideoPatchCore",
+        "d": "2024-09-24",
+        "m1": "85.1%"
+      },
+      {
+        "p": {
+          "name": "Video Anomaly Detection by Solving Decoupled Spatio-Temporal Jigsaw Puzzles",
+          "link": "https://arxiv.org/abs/2207.10172v2"
+        },
+        "c": "https://github.com/gdwang08/jigsaw-vad",
+        "n": "Jigsaw-VAD",
+        "d": "2022-07-20",
+        "m1": "84.3%"
+      },
+      {
+        "p": {
+          "name": "SSMTL++: Revisiting Self-Supervised Multi-Task Learning for Video Anomaly Detection",
+          "link": "https://arxiv.org/abs/2207.08003v4"
+        },
+        "c": "",
+        "n": "SSMTL++v2",
+        "d": "2022-07-16",
+        "m1": "83.8%",
+        "m2": "47.10",
+        "m3": "85.60"
+      },
+      {
+        "p": {
+          "name": "UBnormal: New Benchmark for Supervised Open-Set Video Anomaly Detection",
+          "link": "https://arxiv.org/abs/2111.08644v3"
+        },
+        "c": "https://github.com/lilygeorgescu/ubnormal",
+        "n": "SSMTL+UBnormal",
+        "d": "2021-11-16",
+        "m1": "83.7%",
+        "m2": "47.15",
+        "m3": "86.15"
+      },
+      {
+        "p": {
+          "name": "Context Recovery and Knowledge Retrieval: A Novel Two-Stream Framework for Video Anomaly Detection",
+          "link": "https://arxiv.org/abs/2209.02899v1"
+        },
+        "c": "https://github.com/zugexiaodui/twostreamuvad",
+        "n": "two-stream",
+        "d": "2022-09-07",
+        "m1": "83.7%"
+      },
+      {
+        "p": {
+          "name": "Self-Supervised Masked Convolutional Transformer Block for Anomaly Detection",
+          "link": "https://arxiv.org/abs/2209.12148v2"
+        },
+        "c": "https://github.com/ristea/ssmctb",
+        "n": "SSMTL+++SSMCTB",
+        "d": "2022-09-25",
+        "m1": "83.6%",
+        "m2": "47.73",
+        "m3": "85.65"
+      },
+      {
+        "p": {
+          "name": "Self-Supervised Predictive Convolutional Attentive Block for Anomaly Detection",
+          "link": "https://arxiv.org/abs/2111.09099v6"
+        },
+        "c": "https://github.com/openvinotoolkit/anomalib/tree/main/anomalib/models/draem",
+        "n": "Background- Agnostic Framework+SSPCAB",
+        "d": "2021-11-17",
+        "m1": "83.6%"
+      },
+      {
+        "p": {
+          "name": "Regularity Learning via Explicit Distribution Modeling for Skeletal Video Anomaly Detection",
+          "link": "https://arxiv.org/abs/2112.03649v2"
+        },
+        "c": "https://github.com/Yui010206/MoPRL",
+        "n": "MoPRL",
+        "d": "2021-12-07",
+        "m1": "83.35"
+      },
+      {
+        "p": {
+          "name": "SSMTL++: Revisiting Self-Supervised Multi-Task Learning for Video Anomaly Detection",
+          "link": "https://arxiv.org/abs/2207.08003v4"
+        },
+        "c": "",
+        "n": "SSMTL++v1",
+        "d": "2022-07-16",
+        "m1": "82.9%",
+        "m2": "43.2",
+        "m3": "84.1"
+      },
+      {
+        "p": {
+          "name": "A Background-Agnostic Framework with Adversarial Training for Abnormal Event Detection in Video",
+          "link": "https://arxiv.org/abs/2008.12328v5"
+        },
+        "c": "https://github.com/m-3lab/awesome-visual-sensory-anomaly-detection",
+        "n": "Background-Agnostic Framework",
+        "d": "2020-08-27",
+        "m1": "82.7%"
+      },
+      {
+        "p": {
+          "name": "Anomaly Detection in Video via Self-Supervised and Multi-Task Learning",
+          "link": "https://arxiv.org/abs/2011.07491v3"
+        },
+        "c": "https://github.com/lilygeorgescu/AED-SSMTL",
+        "n": "SSMTL",
+        "d": "2020-11-15",
+        "m1": "82.4%"
+      },
+      {
+        "p": {
+          "name": "MULDE: Multiscale Log-Density Estimation via Denoising Score Matching for Video Anomaly Detection",
+          "link": "https://arxiv.org/abs/2403.14497v1"
+        },
+        "c": "https://github.com/jakubmicorek/MULDE-Multiscale-Log-Density-Estimation-via-Denoising-Score-Matching-for-Video-Anomaly-Detection",
+        "n": "MULDE-frame-centric-micro",
+        "d": "2024-03-21",
+        "m1": "81.3%"
+      },
+      {
+        "p": {
+          "name": "An Exploratory Study on Human-Centric Video Anomaly Detection through Variational Autoencoders and Trajectory Prediction",
+          "link": "https://arxiv.org/abs/2406.15395v1"
+        },
+        "c": "https://github.com/tecsar-uncc/tsgad",
+        "n": "TSGAD",
+        "d": "2024-04-29",
+        "m1": "80.6%"
+      },
+      {
+        "p": {
+          "name": "Diversity-Measurable Anomaly Detection",
+          "link": "https://arxiv.org/abs/2303.05047v1"
+        },
+        "c": "https://github.com/FlappyPeggy/DMAD",
+        "n": "DMAD",
+        "d": "2023-03-09",
+        "m1": "78.8%"
+      },
+      {
+        "p": {
+          "name": "Object-centric Auto-encoders and Dummy Anomalies for Abnormal Event Detection in Video",
+          "link": "http://arxiv.org/abs/1812.04960v2"
+        },
+        "c": "https://github.com/fjchange/object_centric_VAD",
+        "n": "Object-centric AE",
+        "d": "2018-12-11",
+        "m1": "78.7%"
+      },
+      {
+        "p": {
+          "name": "Spatio-temporal predictive tasks for abnormal event detection in videos",
+          "link": "https://arxiv.org/abs/2210.15741v2"
+        },
+        "c": "",
+        "n": "STPT",
+        "d": "2022-10-27",
+        "m1": "77.1%",
+        "m2": "51.6",
+        "m3": "84.6"
+      },
+      {
+        "p": {
+          "name": "EVAL: Explainable Video Anomaly Localization",
+          "link": "https://arxiv.org/abs/2212.07900v1"
+        },
+        "c": "",
+        "n": "EVAL",
+        "d": "2022-12-15",
+        "m1": "76.63%",
+        "m2": "59.21",
+        "m3": "89.44"
+      },
+      {
+        "p": {
+          "name": "Making Anomalies More Anomalous: Video Anomaly Detection Using a Novel Generator and Destroyer",
+          "link": "https://ieeexplore.ieee.org/document/10462109"
+        },
+        "c": "https://github.com/SkiddieAhn/Paper-Making-Anomalies-More-Anomalous",
+        "n": "MAMA",
+        "d": "2024-02-26",
+        "m1": "76.5%"
+      },
+      {
+        "p": {
+          "name": "STAN: Spatio-Temporal Adversarial Networks for Abnormal Event Detection",
+          "link": "http://arxiv.org/abs/1804.08381v1"
+        },
+        "c": "",
+        "n": "STAN",
+        "d": "2018-04-23",
+        "m1": "76.2%"
+      },
+      {
+        "p": {
+          "name": "Multi-timescale Trajectory Prediction for Abnormal Human Activity Detection",
+          "link": "https://arxiv.org/abs/1908.04321v1"
+        },
+        "c": "",
+        "n": "Multi-timescale Prediction",
+        "d": "2019-08-12",
+        "m1": "76.03%"
+      },
+      {
+        "p": {
+          "name": "Attention-based residual autoencoder for video anomaly detection",
+          "link": "https://link.springer.com/article/10.1007/s10489-022-03613-1"
+        },
+        "c": "https://github.com/vt-le/astnet",
+        "n": "ASTNet",
+        "d": "2022-05-25",
+        "m1": "73.6"
+      },
+      {
+        "p": {
+          "name": "Learning Regularity in Skeleton Trajectories for Anomaly Detection in Videos",
+          "link": "http://arxiv.org/abs/1903.03295v2"
+        },
+        "c": "https://github.com/RomeroBarata/skeleton_based_anomaly_detection",
+        "n": "MPED-RNN",
+        "d": "2019-03-08",
+        "m1": "73.40%"
+      },
+      {
+        "p": {
+          "name": "Any-Shot Sequential Anomaly Detection in Surveillance Videos",
+          "link": "https://arxiv.org/abs/2004.02072v1"
+        },
+        "c": "",
+        "n": "Any-Shot Sequential",
+        "d": "2020-04-05",
+        "m1": "71.6%"
+      },
+      {
+        "p": {
+          "name": "A Revisit of Sparse Coding Based Anomaly Detection in Stacked RNN Framework",
+          "link": "http://openaccess.thecvf.com/content_iccv_2017/html/Luo_A_Revisit_of_ICCV_2017_paper.html"
+        },
+        "c": "https://github.com/StevenLiuWen/sRNN_TSC_Anomaly_Detection",
+        "n": "Sparse Coding Stacked RNN",
+        "d": "2017-10-01",
+        "m1": "68.0%"
+      },
+      {
+        "p": {
+          "name": "Bounding Boxes and Probabilistic Graphical Models: Video Anomaly Detection Simplified",
+          "link": "https://arxiv.org/abs/2407.06000v2"
+        },
+        "c": "https://github.com/milestonesys-research/vad-with-pgms",
+        "n": "PGM",
+        "d": "2024-07-08",
+        "m1": "61.28%",
+        "m2": "45.40",
+        "m3": "81.87"
+      },
+      {
+        "p": {
+          "name": "Self-Supervised Predictive Convolutional Attentive Block for Anomaly Detection",
+          "link": "https://arxiv.org/abs/2111.09099v6"
+        },
+        "c": "https://github.com/openvinotoolkit/anomalib/tree/main/anomalib/models/draem",
+        "n": "HF2VAD+SSPCAB",
+        "d": "2021-11-17",
+        "m2": "45.45",
+        "m3": "84.50"
+      }
+    ]
+  }
+}

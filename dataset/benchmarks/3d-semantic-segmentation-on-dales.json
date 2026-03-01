@@ -1,0 +1,153 @@
+{
+  "title": "3d-semantic-segmentation-on-dales",
+  "task-hierarchy": [
+    "Semantic Segmentation",
+    "3D Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://udayton.edu/engineering/research/centers/vision_lab/research/was_data_analysis_and_processing/dale.php"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Overall Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Model size",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "KPConv: Flexible and Deformable Convolution for Point Clouds",
+          "link": "https://arxiv.org/abs/1904.08889v2"
+        },
+        "c": "https://github.com/isl-org/Open3D-ML",
+        "n": "KPConv",
+        "d": "2019-04-18",
+        "m1": "81.1",
+        "m2": "97.8",
+        "m3": "14M"
+      },
+      {
+        "p": {
+          "name": "Efficient 3D Semantic Segmentation with Superpoint Transformer",
+          "link": "https://arxiv.org/abs/2306.08045v2"
+        },
+        "c": "https://github.com/drprojects/superpoint_transformer",
+        "n": "Superpoint Transformer",
+        "d": "2023-06-13",
+        "m1": "79.6",
+        "m2": "97.5",
+        "m3": "212K"
+      },
+      {
+        "p": {
+          "name": "Human Vision Based 3D Point Cloud Semantic Segmentation of Large-Scale Outdoor Scene",
+          "link": "https://arxiv.org/abs/2301.12972v3"
+        },
+        "c": "https://github.com/Yacovitch/EyeNet",
+        "n": "EyeNet",
+        "d": "2023-01-30",
+        "m1": "79.6"
+      },
+      {
+        "p": {
+          "name": "Scalable 3D Panoptic Segmentation As Superpoint Graph Clustering",
+          "link": "https://arxiv.org/abs/2401.06704v2"
+        },
+        "c": "https://github.com/drprojects/superpoint_transformer",
+        "n": "SuperCluster",
+        "d": "2024-01-12",
+        "m1": "77.3",
+        "m3": "210M"
+      },
+      {
+        "p": {
+          "name": "PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space",
+          "link": "http://arxiv.org/abs/1706.02413v1"
+        },
+        "c": "https://github.com/yanx27/Pointnet_Pointnet2_pytorch",
+        "n": "PointNet++",
+        "d": "2017-06-07",
+        "m1": "68.3",
+        "m2": "95.7",
+        "m3": "3.0M"
+      },
+      {
+        "p": {
+          "name": "ConvPoint: Continuous Convolutions for Point Cloud Processing",
+          "link": "https://arxiv.org/abs/1904.02375v5"
+        },
+        "c": "https://github.com/aboulch/ConvPoint",
+        "n": "ConvPoint",
+        "d": "2019-04-04",
+        "m1": "67.4",
+        "m2": "97.2",
+        "m3": "4.7M"
+      },
+      {
+        "p": {
+          "name": "Large-scale Point Cloud Semantic Segmentation with Superpoint Graphs",
+          "link": "http://arxiv.org/abs/1711.09869v2"
+        },
+        "c": "https://github.com/loicland/superpoint_graph",
+        "n": "SPG",
+        "d": "2017-11-27",
+        "m1": "60.6",
+        "m2": "95.5",
+        "m3": "280K"
+      },
+      {
+        "p": {
+          "name": "PointCNN: Convolution On X-Transformed Points",
+          "link": "http://papers.nips.cc/paper/7362-pointcnn-convolution-on-x-transformed-points"
+        },
+        "c": "https://github.com/yangyanli/PointCNN",
+        "n": "PointCNN",
+        "d": "2018-12-01",
+        "m1": "58.4",
+        "m2": "97.2",
+        "m3": "N/A"
+      },
+      {
+        "p": {
+          "name": "ShellNet: Efficient Point Cloud Convolutional Neural Networks using Concentric Shells Statistics",
+          "link": "https://arxiv.org/abs/1908.06295v1"
+        },
+        "c": "https://github.com/hkust-vgd/shellnet",
+        "n": "ShellNet",
+        "d": "2019-08-17",
+        "m1": "57.4",
+        "m2": "96.4",
+        "m3": "N/A"
+      }
+    ]
+  }
+}

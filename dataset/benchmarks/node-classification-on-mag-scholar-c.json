@@ -1,0 +1,77 @@
+{
+  "title": "node-classification-on-mag-scholar-c",
+  "task-hierarchy": [
+    "Node Classification"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "GRAND+: Scalable Graph Random Neural Networks",
+          "link": "https://arxiv.org/abs/2203.06389v1"
+        },
+        "c": "https://github.com/wzfhaha/grand-plus",
+        "n": "FastGCN",
+        "d": "2022-03-12",
+        "m1": "64.3"
+      },
+      {
+        "p": {
+          "name": "GRAND+: Scalable Graph Random Neural Networks",
+          "link": "https://arxiv.org/abs/2203.06389v1"
+        },
+        "c": "https://github.com/wzfhaha/grand-plus",
+        "n": "PPRGo",
+        "d": "2022-03-12",
+        "m1": "72.9"
+      },
+      {
+        "p": {
+          "name": "GRAND+: Scalable Graph Random Neural Networks",
+          "link": "https://arxiv.org/abs/2203.06389v1"
+        },
+        "c": "https://github.com/wzfhaha/grand-plus",
+        "n": "GraphSAINT",
+        "d": "2022-03-12",
+        "m1": "75.0"
+      },
+      {
+        "p": {
+          "name": "GRAND+: Scalable Graph Random Neural Networks",
+          "link": "https://arxiv.org/abs/2203.06389v1"
+        },
+        "c": "https://github.com/wzfhaha/grand-plus",
+        "n": "GRAND+",
+        "d": "2022-03-12",
+        "m1": "80.0"
+      }
+    ]
+  }
+}

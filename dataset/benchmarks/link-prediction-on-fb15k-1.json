@@ -1,0 +1,193 @@
+{
+  "title": "link-prediction-on-fb15k-1",
+  "task-hierarchy": [
+    "Link Prediction"
+  ],
+  "dataset-info": {
+    "link": "https://www.microsoft.com/en-us/download/details.aspx?id=52312"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MRR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Hits@1",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Hits@3",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Hits@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "MR",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "MRR raw",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "Hits@5",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Canonical Tensor Decomposition for Knowledge Base Completion",
+          "link": "http://arxiv.org/abs/1806.07297v1"
+        },
+        "c": "https://github.com/facebookresearch/kbc",
+        "n": "ComplEx-N3 (reciprocal)",
+        "d": "2018-06-19",
+        "m1": "0.86",
+        "m4": "0.91"
+      },
+      {
+        "p": {
+          "name": "LineaRE: Simple but Powerful Knowledge Graph Embedding for Link Prediction",
+          "link": "https://arxiv.org/abs/2004.10037v2"
+        },
+        "c": "https://github.com/pengyanhui/LineaRE",
+        "n": "LineaRE",
+        "d": "2020-04-21",
+        "m1": "0.843",
+        "m2": "0.805",
+        "m3": "0.867",
+        "m4": "0.906",
+        "m5": "36"
+      },
+      {
+        "p": {
+          "name": "Multi-Partition Embedding Interaction with Block Term Format for Knowledge Graph Completion",
+          "link": "https://arxiv.org/abs/2006.16365v2"
+        },
+        "c": "https://github.com/tranhungnghiep/AnalyzeKGE",
+        "n": "MEI (small)",
+        "d": "2020-06-29",
+        "m1": "0.800",
+        "m2": "0.757",
+        "m3": "0.823",
+        "m4": "0.878"
+      },
+      {
+        "p": {
+          "name": "Augmenting Compositional Models for Knowledge Base Completion Using Gradient Representations",
+          "link": "https://arxiv.org/abs/1811.01062v2"
+        },
+        "c": "",
+        "n": "HHolE",
+        "d": "2018-11-02",
+        "m1": "0.796",
+        "m2": "0.727",
+        "m3": "0.848",
+        "m4": "0.901",
+        "m5": "21"
+      },
+      {
+        "p": {
+          "name": "PyTorch-BigGraph: A Large-scale Graph Embedding System",
+          "link": "http://arxiv.org/abs/1903.12287v3"
+        },
+        "c": "https://github.com/facebookresearch/PyTorch-BigGraph",
+        "n": "PyTorch BigGraph (ComplEx)",
+        "d": "2019-03-28",
+        "m1": "0.79",
+        "m4": "0.872",
+        "m6": "0.242"
+      },
+      {
+        "p": {
+          "name": "NSCaching: Simple and Efficient Negative Sampling for Knowledge Graph Embedding",
+          "link": "http://arxiv.org/abs/1812.06410v2"
+        },
+        "c": "https://github.com/yzhangee/NSCaching",
+        "n": "ComplEx NSCaching",
+        "d": "2018-12-16",
+        "m1": "0.7721",
+        "m4": "0.8682",
+        "m5": "82"
+      },
+      {
+        "p": {
+          "name": "Knowledge Graph Embedding with Iterative Guidance from Soft Rules",
+          "link": "http://arxiv.org/abs/1711.11231v1"
+        },
+        "c": "https://github.com/iieir-km/RUGE",
+        "n": "Rule-Guided Embedding",
+        "d": "2017-11-30",
+        "m1": "0.768",
+        "m2": "0.703",
+        "m3": "0.815",
+        "m4": "0.865",
+        "m7": "0.836"
+      },
+      {
+        "p": {
+          "name": "MDE: Multiple Distance Embeddings for Link Prediction in Knowledge Graphs",
+          "link": "https://arxiv.org/abs/1905.10702v8"
+        },
+        "c": "https://github.com/mlwin-de/MDE",
+        "n": "MDE",
+        "d": "2019-05-25",
+        "m1": "0.652",
+        "m4": "0.857",
+        "m5": "49"
+      },
+      {
+        "p": {
+          "name": "Holographic Embeddings of Knowledge Graphs",
+          "link": "http://arxiv.org/abs/1510.04935v2"
+        },
+        "c": "https://github.com/Accenture/AmpliGraph",
+        "n": "HolE",
+        "d": "2015-10-16",
+        "m1": "0.524",
+        "m2": "0.402",
+        "m3": "0.613",
+        "m4": "0.739"
+      },
+      {
+        "p": {
+          "name": "Efficient Parallel Translating Embedding For Knowledge Graphs",
+          "link": "http://arxiv.org/abs/1703.10316v4"
+        },
+        "c": "https://github.com/zdh2292390/ParTrans-X",
+        "n": "ParTransH",
+        "d": "2017-03-30",
+        "m4": "0.468",
+        "m5": "60"
+      }
+    ]
+  }
+}

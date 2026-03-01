@@ -1,0 +1,139 @@
+{
+  "title": "action-segmentation-on-jigsaws",
+  "task-hierarchy": [
+    "Action Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://cirl.lcsr.jhu.edu/research/hmm/datasets/jigsaws_release"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Edit Distance",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "F1@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "F1@25",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "F1@50",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Relational Graph Learning on Visual and Kinematics Embeddings for Accurate Gesture Recognition in Robotic Surgery",
+          "link": "https://arxiv.org/abs/2011.01619v2"
+        },
+        "c": "",
+        "n": "MRG-Net",
+        "d": "2020-11-03",
+        "m1": "89.3±5.2",
+        "m2": "87.9±4.2"
+      },
+      {
+        "p": {
+          "name": "Automatic Gesture Recognition in Robot-assisted Surgery with Reinforcement Learning and Tree Search",
+          "link": "https://arxiv.org/abs/2002.08718v1"
+        },
+        "c": "",
+        "n": "RL+Tree",
+        "d": "2020-02-20",
+        "m1": "88.53",
+        "m2": "81.67",
+        "m3": "92.68",
+        "m4": "90.99",
+        "m5": "83.15"
+      },
+      {
+        "p": {
+          "name": "Deep Reinforcement Learning for Surgical Gesture Segmentation and Classification",
+          "link": "http://arxiv.org/abs/1806.08089v1"
+        },
+        "c": "https://github.com/Finspire13/RL-Surgical-Gesture-Segmentation",
+        "n": "RL (full)",
+        "d": "2018-06-21",
+        "m1": "87.96",
+        "m2": "81.43",
+        "m3": "92.0",
+        "m4": "90.5",
+        "m5": "82.2"
+      },
+      {
+        "p": {
+          "name": "TricorNet: A Hybrid Temporal Convolutional and Recurrent Network for Video Action Segmentation",
+          "link": "http://arxiv.org/abs/1705.07818v1"
+        },
+        "c": "",
+        "n": "TricorNet",
+        "d": "2017-05-22",
+        "m1": "86.8",
+        "m2": "82.9"
+      },
+      {
+        "p": {
+          "name": "End-to-End Fine-Grained Action Segmentation and Recognition Using Conditional Random Field Models and Discriminative Sparse Coding",
+          "link": "http://arxiv.org/abs/1801.09571v1"
+        },
+        "c": "",
+        "n": "SDL+SC-CRF",
+        "d": "2018-01-29",
+        "m1": "86.21"
+      },
+      {
+        "p": {
+          "name": "Temporal Convolutional Networks: A Unified Approach to Action Segmentation",
+          "link": "http://arxiv.org/abs/1608.08242v1"
+        },
+        "c": "https://github.com/Around-30/Kaggle",
+        "n": "TCN",
+        "d": "2016-08-29",
+        "m1": "83.1",
+        "m2": "81.4"
+      },
+      {
+        "p": {
+          "name": "Segmental Spatiotemporal CNNs for Fine-grained Action Segmentation",
+          "link": "http://arxiv.org/abs/1602.02995v4"
+        },
+        "c": "",
+        "n": "ST-CNN+Seg",
+        "d": "2016-02-09",
+        "m1": "66.56",
+        "m2": "74.22"
+      }
+    ]
+  }
+}

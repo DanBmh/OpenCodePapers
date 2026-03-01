@@ -1,0 +1,157 @@
+{
+  "title": "anomaly-detection-on-fashion-mnist",
+  "task-hierarchy": [
+    "Anomaly Detection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/zalandoresearch/fashion-mnist"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "ROC AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "GAN-based Anomaly Detection in Imbalance Problems",
+          "link": "http://intlab.skuniv.ac.kr/paper/GAN-based_Anomaly_Detection_in_Imbalance_Problems.pdf"
+        },
+        "c": "",
+        "n": "GAN based Anomaly Detection in Imbalance Problems",
+        "d": "2020-08-28",
+        "m1": "98.6"
+      },
+      {
+        "p": {
+          "name": "PANDA: Adapting Pretrained Features for Anomaly Detection and Segmentation",
+          "link": "https://arxiv.org/abs/2010.05903v3"
+        },
+        "c": "https://github.com/talreiss/PANDA",
+        "n": "PANDA",
+        "d": "2020-10-12",
+        "m1": "95.6"
+      },
+      {
+        "p": {
+          "name": "Anomaly Detection via Reverse Distillation from One-Class Embedding",
+          "link": "https://arxiv.org/abs/2201.10703v2"
+        },
+        "c": "https://github.com/openvinotoolkit/anomalib/tree/development/anomalib/models/reverse_distillation",
+        "n": "Reverse Distillation",
+        "d": "2022-01-26",
+        "m1": "95.0"
+      },
+      {
+        "p": {
+          "name": "Deep One-Class Classification via Interpolated Gaussian Descriptor",
+          "link": "https://arxiv.org/abs/2101.10043v5"
+        },
+        "c": "https://github.com/tianyu0207/IGD",
+        "n": "IGD (pre-trained SSL)",
+        "d": "2021-01-25",
+        "m1": "94.41"
+      },
+      {
+        "p": {
+          "name": "Deep One-Class Classification via Interpolated Gaussian Descriptor",
+          "link": "https://arxiv.org/abs/2101.10043v5"
+        },
+        "c": "https://github.com/tianyu0207/IGD",
+        "n": "IGD (pre-trained ImageNet)",
+        "d": "2021-01-25",
+        "m1": "93.57"
+      },
+      {
+        "p": {
+          "name": "PANDA: Adapting Pretrained Features for Anomaly Detection and Segmentation",
+          "link": "https://arxiv.org/abs/2010.05903v3"
+        },
+        "c": "https://github.com/talreiss/PANDA",
+        "n": "Self-Supervised One-class SVM, RBF kernel",
+        "d": "2020-10-12",
+        "m1": "92.8"
+      },
+      {
+        "p": {
+          "name": "DASVDD: Deep Autoencoding Support Vector Data Descriptor for Anomaly Detection",
+          "link": "https://arxiv.org/abs/2106.05410v4"
+        },
+        "c": "https://github.com/Armanfard-Lab/DASVDD",
+        "n": "DASVDD",
+        "d": "2021-06-09",
+        "m1": "92.6"
+      },
+      {
+        "p": {
+          "name": "Shell Theory: A Statistical Model of Reality",
+          "link": "https://ieeexplore.ieee.org/document/9444188"
+        },
+        "c": "https://github.com/wen-yan-lin/shell-theory",
+        "n": "Shell-based Anomaly (supervised)",
+        "d": "2021-05-28",
+        "m1": "92.1"
+      },
+      {
+        "p": {
+          "name": "Deep One-Class Classification via Interpolated Gaussian Descriptor",
+          "link": "https://arxiv.org/abs/2101.10043v5"
+        },
+        "c": "https://github.com/tianyu0207/IGD",
+        "n": "IGD (scratch)",
+        "d": "2021-01-25",
+        "m1": "92.01"
+      },
+      {
+        "p": {
+          "name": "PANDA: Adapting Pretrained Features for Anomaly Detection and Segmentation",
+          "link": "https://arxiv.org/abs/2010.05903v3"
+        },
+        "c": "https://github.com/talreiss/PANDA",
+        "n": "PANDA-OE",
+        "d": "2020-10-12",
+        "m1": "91.8"
+      },
+      {
+        "p": {
+          "name": "PANDA: Adapting Pretrained Features for Anomaly Detection and Segmentation",
+          "link": "https://arxiv.org/abs/2010.05903v3"
+        },
+        "c": "https://github.com/talreiss/PANDA",
+        "n": "Self-Supervised DeepSVDD",
+        "d": "2020-10-12",
+        "m1": "84.8"
+      },
+      {
+        "p": {
+          "name": "P-KDGAN: Progressive Knowledge Distillation with GANs for One-class Novelty Detection",
+          "link": "https://arxiv.org/abs/2007.06963v2"
+        },
+        "c": "",
+        "n": "P-KDGAN",
+        "d": "2020-07-14",
+        "m1": "0.9293"
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "title": "image-classification-on-id-pattern-dataset",
+  "task-hierarchy": [
+    "Image Classification"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/DCorradetti/REDAI_Id_Pattern/blob/main/README.md"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Percentage correct",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Identification of Stone Deterioration Patterns with Large Multimodal Models",
+          "link": "https://arxiv.org/abs/2406.03207v1"
+        },
+        "c": "https://github.com/dcorradetti/redai_id_pattern",
+        "n": "Claude 3 Opus",
+        "d": "2024-06-05",
+        "m1": "24.3%"
+      },
+      {
+        "p": {
+          "name": "Identification of Stone Deterioration Patterns with Large Multimodal Models",
+          "link": "https://arxiv.org/abs/2406.03207v1"
+        },
+        "c": "https://github.com/dcorradetti/redai_id_pattern",
+        "n": "Gemini 1.5 Pro",
+        "d": "2024-06-05",
+        "m1": "39%"
+      },
+      {
+        "p": {
+          "name": "Identification of Stone Deterioration Patterns with Large Multimodal Models",
+          "link": "https://arxiv.org/abs/2406.03207v1"
+        },
+        "c": "https://github.com/dcorradetti/redai_id_pattern",
+        "n": "GPT-4omni",
+        "d": "2024-06-05",
+        "m1": "42.1%"
+      }
+    ]
+  }
+}

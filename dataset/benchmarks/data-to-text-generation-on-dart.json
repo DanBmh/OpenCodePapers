@@ -1,0 +1,105 @@
+{
+  "title": "data-to-text-generation-on-dart",
+  "task-hierarchy": [
+    "Data-to-Text Generation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/Yale-LILY/dart"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "BLEU",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "METEOR",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "FactSpotter",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "FactSpotter: Evaluating the Factual Faithfulness of Graph-to-Text Generation",
+          "link": "https://dumas.ccsd.cnrs.fr/INRIA-SACLAY/hal-04257838v1"
+        },
+        "c": "https://github.com/guihuzhang/FactSpotter",
+        "n": "T5B Baseline",
+        "d": "2023-10-25",
+        "m1": "48.47",
+        "m2": "40.74",
+        "m3": "96.65"
+      },
+      {
+        "p": {
+          "name": "FactSpotter: Evaluating the Factual Faithfulness of Graph-to-Text Generation",
+          "link": "https://dumas.ccsd.cnrs.fr/INRIA-SACLAY/hal-04257838v1"
+        },
+        "c": "https://github.com/guihuzhang/FactSpotter",
+        "n": "FactT5B",
+        "d": "2023-10-25",
+        "m1": "48.37",
+        "m2": "40.72",
+        "m3": "97.60"
+      },
+      {
+        "p": {
+          "name": "Self-training from Self-memory in Data-to-text Generation",
+          "link": "https://arxiv.org/abs/2401.10567v1"
+        },
+        "c": "https://github.com/hoangthangta/stsm",
+        "n": "self-mem + new data",
+        "d": "2024-01-19",
+        "m1": "47.76"
+      },
+      {
+        "p": {
+          "name": "FactSpotter: Evaluating the Factual Faithfulness of Graph-to-Text Generation",
+          "link": "https://dumas.ccsd.cnrs.fr/INRIA-SACLAY/hal-04257838v1"
+        },
+        "c": "https://github.com/guihuzhang/FactSpotter",
+        "n": "JointGT Baseline",
+        "d": "2023-10-25",
+        "m1": "47.51",
+        "m2": "40.43",
+        "m3": "95.86"
+      },
+      {
+        "p": {
+          "name": "FactSpotter: Evaluating the Factual Faithfulness of Graph-to-Text Generation",
+          "link": "https://dumas.ccsd.cnrs.fr/INRIA-SACLAY/hal-04257838v1"
+        },
+        "c": "https://github.com/guihuzhang/FactSpotter",
+        "n": "FactJointGT",
+        "d": "2023-10-25",
+        "m1": "47.39",
+        "m2": "40.32",
+        "m3": "97.25"
+      }
+    ]
+  }
+}

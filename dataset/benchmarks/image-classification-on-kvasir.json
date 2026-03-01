@@ -1,0 +1,75 @@
+{
+  "title": "image-classification-on-kvasir",
+  "task-hierarchy": [
+    "Image Classification"
+  ],
+  "dataset-info": {
+    "link": "https://datasets.simula.no/kvasir/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "HiFuse: Hierarchical Multi-Scale Feature Fusion Network for Medical Image Classification",
+          "link": "https://arxiv.org/abs/2209.10218v1"
+        },
+        "c": "https://github.com/huoxiangzuo/HiFuse",
+        "n": "HiFuse_Small",
+        "d": "2022-09-21",
+        "m1": "85",
+        "m2": "84.96"
+      },
+      {
+        "p": {
+          "name": "HiFuse: Hierarchical Multi-Scale Feature Fusion Network for Medical Image Classification",
+          "link": "https://arxiv.org/abs/2209.10218v1"
+        },
+        "c": "https://github.com/huoxiangzuo/HiFuse",
+        "n": "HiFuse_Tiny",
+        "d": "2022-09-21",
+        "m1": "84.85",
+        "m2": "84.89"
+      },
+      {
+        "p": {
+          "name": "HiFuse: Hierarchical Multi-Scale Feature Fusion Network for Medical Image Classification",
+          "link": "https://arxiv.org/abs/2209.10218v1"
+        },
+        "c": "https://github.com/huoxiangzuo/HiFuse",
+        "n": "HiFuse_Base",
+        "d": "2022-09-21",
+        "m1": "84.35",
+        "m2": "84.41"
+      }
+    ]
+  }
+}

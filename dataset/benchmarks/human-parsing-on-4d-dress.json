@@ -1,0 +1,108 @@
+{
+  "title": "human-parsing-on-4d-dress",
+  "task-hierarchy": [
+    "Human Parsing"
+  ],
+  "dataset-info": {
+    "link": "https://ait.ethz.ch/4d-dress"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mAcc",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Graphonomy: Universal Image Parsing via Graph Reasoning and Transfer",
+          "link": "https://arxiv.org/abs/2101.10620v1"
+        },
+        "c": "https://github.com/Gaoyiminggithub/Graphonomy",
+        "n": "Graphonomy_Inner",
+        "d": "2021-01-26",
+        "m1": "0.968",
+        "m2": "0.859"
+      },
+      {
+        "p": {
+          "name": "CDGNet: Class Distribution Guided Network for Human Parsing",
+          "link": "https://arxiv.org/abs/2111.14173v3"
+        },
+        "c": "https://github.com/tjpulkl/cdgnet",
+        "n": "CDGNet_Inner",
+        "d": "2021-11-28",
+        "m1": "0.922",
+        "m2": "0.853"
+      },
+      {
+        "p": {
+          "name": "Graphonomy: Universal Image Parsing via Graph Reasoning and Transfer",
+          "link": "https://arxiv.org/abs/2101.10620v1"
+        },
+        "c": "https://github.com/Gaoyiminggithub/Graphonomy",
+        "n": "Graphonomy_Outer",
+        "d": "2021-01-26",
+        "m1": "0.915",
+        "m2": "0.810"
+      },
+      {
+        "p": {
+          "name": "Self-Correction for Human Parsing",
+          "link": "https://arxiv.org/abs/1910.09777v1"
+        },
+        "c": "https://github.com/PeikeLi/Self-Correction-Human-Parsing",
+        "n": "SCHP_Inner",
+        "d": "2019-10-22",
+        "m1": "0.908",
+        "m2": "0.832"
+      },
+      {
+        "p": {
+          "name": "CDGNet: Class Distribution Guided Network for Human Parsing",
+          "link": "https://arxiv.org/abs/2111.14173v3"
+        },
+        "c": "https://github.com/tjpulkl/cdgnet",
+        "n": "CDGNet_Outer",
+        "d": "2021-11-28",
+        "m1": "0.887",
+        "m2": "0.790"
+      },
+      {
+        "p": {
+          "name": "Self-Correction for Human Parsing",
+          "link": "https://arxiv.org/abs/1910.09777v1"
+        },
+        "c": "https://github.com/PeikeLi/Self-Correction-Human-Parsing",
+        "n": "SCHP_Outer",
+        "d": "2019-10-22",
+        "m1": "0.863",
+        "m2": "0.768"
+      }
+    ]
+  }
+}

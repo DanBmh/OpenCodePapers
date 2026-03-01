@@ -1,0 +1,108 @@
+{
+  "title": "style-transfer-on-stylebench",
+  "task-hierarchy": [
+    "Drawing Pictures",
+    "Style Transfer"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/open-mmlab/StyleShot"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "CLIP Score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "StyleShot: A Snapshot on Any Style",
+          "link": "https://arxiv.org/abs/2407.01414v1"
+        },
+        "c": "https://github.com/open-mmlab/StyleShot",
+        "n": "StyleShot",
+        "d": "2024-07-01",
+        "m1": "0.660"
+      },
+      {
+        "p": {
+          "name": "Style Injection in Diffusion: A Training-free Approach for Adapting Large-scale Diffusion Models for Style Transfer",
+          "link": "https://arxiv.org/abs/2312.09008v2"
+        },
+        "c": "https://github.com/jiwoogit/StyleID",
+        "n": "StyleID",
+        "d": "2023-12-11",
+        "m1": "0.604"
+      },
+      {
+        "p": {
+          "name": "StyTr2: Image Style Transfer With Transformers",
+          "link": "http://openaccess.thecvf.com//content/CVPR2022/html/Deng_StyTr2_Image_Style_Transfer_With_Transformers_CVPR_2022_paper.html"
+        },
+        "c": "https://github.com/diyiiyiii/StyTR-2",
+        "n": "StrTR-2",
+        "d": "2022-01-01",
+        "m1": "0.586"
+      },
+      {
+        "p": {
+          "name": "Domain Enhanced Arbitrary Image Style Transfer via Contrastive Learning",
+          "link": "https://arxiv.org/abs/2205.09542v2"
+        },
+        "c": "https://github.com/zyxelsa/cast_pytorch",
+        "n": "CAST",
+        "d": "2022-05-19",
+        "m1": "0.575"
+      },
+      {
+        "p": {
+          "name": "AdaAttN: Revisit Attention Mechanism in Arbitrary Neural Style Transfer",
+          "link": "https://arxiv.org/abs/2108.03647v2"
+        },
+        "c": "https://github.com/huage001/adaattn",
+        "n": "AdaAttN",
+        "d": "2021-08-08",
+        "m1": "0.569"
+      },
+      {
+        "p": {
+          "name": "Inversion-Based Style Transfer with Diffusion Models",
+          "link": "https://arxiv.org/abs/2211.13203v3"
+        },
+        "c": "https://github.com/zyxelsa/InST",
+        "n": "InST",
+        "d": "2022-11-23",
+        "m1": "0.569"
+      },
+      {
+        "p": {
+          "name": "Exact Feature Distribution Matching for Arbitrary Style Transfer and Domain Generalization",
+          "link": "https://arxiv.org/abs/2203.07740v2"
+        },
+        "c": "https://github.com/ybzh/efdm",
+        "n": "EFDM",
+        "d": "2022-03-15",
+        "m1": "0.561"
+      }
+    ]
+  }
+}

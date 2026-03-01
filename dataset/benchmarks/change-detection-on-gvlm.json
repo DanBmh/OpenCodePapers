@@ -1,0 +1,77 @@
+{
+  "title": "change-detection-on-gvlm",
+  "task-hierarchy": [
+    "Change Detection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/zxk688/GVLM"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Be the Change You Want to See: Revisiting Remote Sensing Change Detection Practices",
+          "link": "https://arxiv.org/abs/2507.03367"
+        },
+        "c": "https://github.com/blaz-r/BTC-change-detection",
+        "n": "BTC",
+        "d": "2025-07-04",
+        "m1": "90.7"
+      },
+      {
+        "p": {
+          "name": "Seasonal Contrast: Unsupervised Pre-Training from Uncurated Remote Sensing Data",
+          "link": "https://arxiv.org/abs/2103.16607v2"
+        },
+        "c": "https://github.com/servicenow/seasonal-contrast",
+        "n": "SeCo",
+        "d": "2021-03-30",
+        "m1": "90.4"
+      },
+      {
+        "p": {
+          "name": "MTP: Advancing Remote Sensing Foundation Model via Multi-Task Pretraining",
+          "link": "https://arxiv.org/abs/2403.13430v2"
+        },
+        "c": "https://github.com/vitae-transformer/mtp",
+        "n": "MTP (ViT-B + RVSA)",
+        "d": "2024-03-20",
+        "m1": "89.9"
+      },
+      {
+        "p": {
+          "name": "Fully Convolutional Siamese Networks for Change Detection",
+          "link": "http://arxiv.org/abs/1810.08462v1"
+        },
+        "c": "https://github.com/likyoo/open-cd",
+        "n": "FC-Siam-diff",
+        "d": "2018-10-19",
+        "m1": "74.3"
+      }
+    ]
+  }
+}

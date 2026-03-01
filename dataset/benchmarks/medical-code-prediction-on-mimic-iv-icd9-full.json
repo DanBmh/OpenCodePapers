@@ -1,0 +1,128 @@
+{
+  "title": "medical-code-prediction-on-mimic-iv-icd9-full",
+  "task-hierarchy": [
+    "Multi-Label Classification",
+    "Medical Code Prediction"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Macro AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Micro AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "F1 Macro",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "F1 Micro",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Precision@8",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Mimic-IV-ICD: A new benchmark for eXtreme MultiLabel Classification",
+          "link": "https://arxiv.org/abs/2304.13998v1"
+        },
+        "c": "https://github.com/thomasnguyen92/MIMIC-IV-ICD-data-processing",
+        "n": "MSMN",
+        "d": "2023-04-27",
+        "m1": "96.79",
+        "m2": "99.56",
+        "m3": "13.94",
+        "m4": "61.15",
+        "m5": "68.89"
+      },
+      {
+        "p": {
+          "name": "Mimic-IV-ICD: A new benchmark for eXtreme MultiLabel Classification",
+          "link": "https://arxiv.org/abs/2304.13998v1"
+        },
+        "c": "https://github.com/thomasnguyen92/MIMIC-IV-ICD-data-processing",
+        "n": "PLM-ICD",
+        "d": "2023-04-27",
+        "m1": "96.61",
+        "m2": "99.53",
+        "m3": "14.40",
+        "m4": "62.45",
+        "m5": "70.34"
+      },
+      {
+        "p": {
+          "name": "Mimic-IV-ICD: A new benchmark for eXtreme MultiLabel Classification",
+          "link": "https://arxiv.org/abs/2304.13998v1"
+        },
+        "c": "https://github.com/thomasnguyen92/MIMIC-IV-ICD-data-processing",
+        "n": "Joint LAAT",
+        "d": "2023-04-27",
+        "m1": "95.57",
+        "m2": "99.49",
+        "m3": "14.17",
+        "m4": "60.37",
+        "m5": "67.46"
+      },
+      {
+        "p": {
+          "name": "Mimic-IV-ICD: A new benchmark for eXtreme MultiLabel Classification",
+          "link": "https://arxiv.org/abs/2304.13998v1"
+        },
+        "c": "https://github.com/thomasnguyen92/MIMIC-IV-ICD-data-processing",
+        "n": "LAAT",
+        "d": "2023-04-27",
+        "m1": "95.18",
+        "m2": "99.47",
+        "m3": "13.12",
+        "m4": "60.31",
+        "m5": "67.47"
+      },
+      {
+        "p": {
+          "name": "Mimic-IV-ICD: A new benchmark for eXtreme MultiLabel Classification",
+          "link": "https://arxiv.org/abs/2304.13998v1"
+        },
+        "c": "https://github.com/thomasnguyen92/MIMIC-IV-ICD-data-processing",
+        "n": "CAML",
+        "d": "2023-04-27",
+        "m1": "93.45",
+        "m2": "99.29",
+        "m3": "11.06",
+        "m4": "57.28",
+        "m5": "64.91"
+      }
+    ]
+  }
+}

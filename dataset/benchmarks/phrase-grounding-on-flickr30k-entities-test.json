@@ -1,0 +1,245 @@
+{
+  "title": "phrase-grounding-on-flickr30k-entities-test",
+  "task-hierarchy": [
+    "Phrase Grounding"
+  ],
+  "dataset-info": {
+    "link": "http://bryanplummer.com/Flickr30kEntities/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "R@1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "R@5",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "R@10",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "GLIPv2: Unifying Localization and Vision-Language Understanding",
+          "link": "https://arxiv.org/abs/2206.05836v2"
+        },
+        "c": "https://github.com/microsoft/GLIP",
+        "n": "GLIPv2",
+        "d": "2022-06-12",
+        "m1": "87.7"
+      },
+      {
+        "p": {
+          "name": "Coarse-to-Fine Vision-Language Pre-training with Fusion in the Backbone",
+          "link": "https://arxiv.org/abs/2206.07643v2"
+        },
+        "c": "https://github.com/microsoft/fiber",
+        "n": "FIBER-B",
+        "d": "2022-06-15",
+        "m1": "87.4",
+        "m2": "96.4",
+        "m3": "97.6"
+      },
+      {
+        "p": {
+          "name": "Grounded Language-Image Pre-training",
+          "link": "https://arxiv.org/abs/2112.03857v2"
+        },
+        "c": "https://github.com/microsoft/GLIP",
+        "n": "GLIP",
+        "d": "2021-12-07",
+        "m1": "87.1",
+        "m2": "96.9",
+        "m3": "98.1"
+      },
+      {
+        "p": {
+          "name": "PEVL: Position-enhanced Pre-training and Prompt Tuning for Vision-language Models",
+          "link": "https://arxiv.org/abs/2205.11169v2"
+        },
+        "c": "https://github.com/thunlp/pevl",
+        "n": "PEVL",
+        "d": "2022-05-23",
+        "m1": "84.4"
+      },
+      {
+        "p": {
+          "name": "MDETR -- Modulated Detection for End-to-End Multi-Modal Understanding",
+          "link": "https://arxiv.org/abs/2104.12763v2"
+        },
+        "c": "https://github.com/facebookresearch/multimodal",
+        "n": "MDETR-ENB5",
+        "d": "2021-04-26",
+        "m1": "84.3",
+        "m2": "93.9",
+        "m3": "95.8"
+      },
+      {
+        "p": {
+          "name": "Disentangled Motif-aware Graph Learning for Phrase Grounding",
+          "link": "https://arxiv.org/abs/2104.06008v1"
+        },
+        "c": "",
+        "n": "DIGN",
+        "d": "2021-04-13",
+        "m1": "78.73"
+      },
+      {
+        "p": {
+          "name": "Learning Cross-modal Context Graph for Visual Grounding",
+          "link": "https://arxiv.org/pdf/1911.09042.pdf"
+        },
+        "c": "https://github.com/youngfly11/LCMCG-PyTorch",
+        "n": "LCMCG",
+        "d": "2020-02-13",
+        "m1": "76.74"
+      },
+      {
+        "p": {
+          "name": "Phrase Grounding by Soft-Label Chain Conditional Random Field",
+          "link": "https://arxiv.org/abs/1909.00301v1"
+        },
+        "c": "https://github.com/liujch1998/SoftLabelCCRF",
+        "n": "Soft-Label Chain CRF (SL-CCRF)",
+        "d": "2019-09-01",
+        "m1": "74.69"
+      },
+      {
+        "p": {
+          "name": "Rethinking Diversified and Discriminative Proposal Generation for Visual Grounding",
+          "link": "http://arxiv.org/abs/1805.03508v1"
+        },
+        "c": "https://github.com/xiangchenchao/ddpn",
+        "n": "DDPN (ResNet-101)",
+        "d": "2018-05-09",
+        "m1": "73.3"
+      },
+      {
+        "p": {
+          "name": "VisualBERT: A Simple and Performant Baseline for Vision and Language",
+          "link": "https://arxiv.org/abs/1908.03557v1"
+        },
+        "c": "https://github.com/uclanlp/visualbert",
+        "n": "VisualBERT",
+        "d": "2019-08-09",
+        "m1": "71.33",
+        "m2": "84.98",
+        "m3": "86.51"
+      },
+      {
+        "p": {
+          "name": "Bilinear Attention Networks",
+          "link": "http://arxiv.org/abs/1805.07932v2"
+        },
+        "c": "https://github.com/facebookresearch/mmf",
+        "n": "BAN (Bottom-Up detector)",
+        "d": "2018-05-21",
+        "m1": "69.69",
+        "m2": "84.22",
+        "m3": "86.35"
+      },
+      {
+        "p": {
+          "name": "Multimodal Compact Bilinear Pooling for Visual Question Answering and Visual Grounding",
+          "link": "http://arxiv.org/abs/1606.01847v3"
+        },
+        "c": "https://github.com/Cadene/vqa.pytorch",
+        "n": "MCB",
+        "d": "2016-06-06",
+        "m1": "48.69"
+      },
+      {
+        "p": {
+          "name": "Grounding of Textual Phrases in Images by Reconstruction",
+          "link": "http://arxiv.org/abs/1511.03745v4"
+        },
+        "c": "https://github.com/akirafukui/vqa-mcb",
+        "n": "GroundeR 100.0% annot.",
+        "d": "2015-11-12",
+        "m1": "48.38"
+      },
+      {
+        "p": {
+          "name": "Learning Deep Structure-Preserving Image-Text Embeddings",
+          "link": "http://arxiv.org/abs/1511.06078v2"
+        },
+        "c": "",
+        "n": "DSPE",
+        "d": "2015-11-19",
+        "m1": "43.89",
+        "m2": "64.46",
+        "m3": "68.66"
+      },
+      {
+        "p": {
+          "name": "Flickr30k Entities: Collecting Region-to-Phrase Correspondences for Richer Image-to-Sentence Models",
+          "link": "http://arxiv.org/abs/1505.04870v4"
+        },
+        "c": "https://github.com/bryanplummer/flickr30k_entities",
+        "n": "CCA - Fast RCNN",
+        "d": "2015-05-19",
+        "m1": "41.77",
+        "m2": "64.52",
+        "m3": "70.77"
+      },
+      {
+        "p": {
+          "name": "Flickr30k Entities: Collecting Region-to-Phrase Correspondences for Richer Image-to-Sentence Models",
+          "link": "http://arxiv.org/abs/1505.04870v4"
+        },
+        "c": "https://github.com/bryanplummer/flickr30k_entities",
+        "n": "CCA - VGG19",
+        "d": "2015-05-19",
+        "m1": "30.83",
+        "m2": "58.01",
+        "m3": "67.15"
+      },
+      {
+        "p": {
+          "name": "Natural Language Object Retrieval",
+          "link": "http://arxiv.org/abs/1511.04164v3"
+        },
+        "c": "https://github.com/ronghanghu/natural-language-object-retrieval",
+        "n": "SCRC",
+        "d": "2015-11-13",
+        "m1": "27.8",
+        "m3": "62.9"
+      },
+      {
+        "p": {
+          "name": "Flickr30k Entities: Collecting Region-to-Phrase Correspondences for Richer Image-to-Sentence Models",
+          "link": "http://arxiv.org/abs/1505.04870v4"
+        },
+        "c": "https://github.com/bryanplummer/flickr30k_entities",
+        "n": "CCA",
+        "d": "2015-05-19",
+        "m1": "25.30",
+        "m3": "59.66"
+      }
+    ]
+  }
+}

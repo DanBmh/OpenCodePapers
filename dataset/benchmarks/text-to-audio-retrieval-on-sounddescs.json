@@ -1,0 +1,86 @@
+{
+  "title": "text-to-audio-retrieval-on-sounddescs",
+  "task-hierarchy": [
+    "Text to Audio Retrieval"
+  ],
+  "dataset-info": {
+    "link": "https://www.robots.ox.ac.uk/~vgg/research/audio-retrieval/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "R@1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "R@10",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Audio Retrieval with Natural Language Queries: A Benchmark Study",
+          "link": "https://arxiv.org/abs/2112.09418v2"
+        },
+        "c": "https://github.com/akoepke/audio-retrieval-benchmark",
+        "n": "CE",
+        "d": "2021-12-17",
+        "m1": "31.1±0.2",
+        "m2": "70.8±0.5"
+      },
+      {
+        "p": {
+          "name": "Audio Retrieval with Natural Language Queries: A Benchmark Study",
+          "link": "https://arxiv.org/abs/2112.09418v2"
+        },
+        "c": "https://github.com/akoepke/audio-retrieval-benchmark",
+        "n": "MoEE",
+        "d": "2021-12-17",
+        "m1": "30.8±0.7",
+        "m2": "70.9±0.5"
+      },
+      {
+        "p": {
+          "name": "Audio Retrieval with Natural Language Queries: A Benchmark Study",
+          "link": "https://arxiv.org/abs/2112.09418v2"
+        },
+        "c": "https://github.com/akoepke/audio-retrieval-benchmark",
+        "n": "MMT",
+        "d": "2021-12-17",
+        "m1": "30.7±0.4",
+        "m2": "72.7±0.8"
+      },
+      {
+        "p": {
+          "name": "Audio Retrieval with Natural Language Queries: A Benchmark Study",
+          "link": "https://arxiv.org/abs/2112.09418v2"
+        },
+        "c": "https://github.com/akoepke/audio-retrieval-benchmark",
+        "n": "CE(pretrained: AudioCaps)",
+        "d": "2021-12-17",
+        "m1": "23.3±0.7",
+        "m2": "63.9±0.5"
+      }
+    ]
+  }
+}

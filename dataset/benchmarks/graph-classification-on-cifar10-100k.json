@@ -1,0 +1,238 @@
+{
+  "title": "graph-classification-on-cifar10-100k",
+  "task-hierarchy": [
+    "Classification",
+    "Graph Classification"
+  ],
+  "dataset-info": {
+    "link": "https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Learning Long Range Dependencies on Graphs via Random Walks",
+          "link": "https://arxiv.org/abs/2406.03386v2"
+        },
+        "c": "https://github.com/borgwardtlab/neuralwalker",
+        "n": "NeuralWalker",
+        "d": "2024-06-05",
+        "m1": "80.027 ± 0.185"
+      },
+      {
+        "p": {
+          "name": "Unlocking the Potential of Classic GNNs for Graph-level Tasks: Simple Architectures Meet Excellence",
+          "link": "https://arxiv.org/abs/2502.09263v1"
+        },
+        "c": "https://github.com/LUOyk1999/GNNPlus",
+        "n": "GatedGCN+",
+        "d": "2025-02-13",
+        "m1": "77.218 ± 0.381"
+      },
+      {
+        "p": {
+          "name": "Recurrent Distance Filtering for Graph Representation Learning",
+          "link": "https://arxiv.org/abs/2312.01538v3"
+        },
+        "c": "https://github.com/skeletondyh/gred",
+        "n": "GRED",
+        "d": "2023-12-03",
+        "m1": "76.853±0.185"
+      },
+      {
+        "p": {
+          "name": "Graph Inductive Biases in Transformers without Message Passing",
+          "link": "https://arxiv.org/abs/2305.17589v1"
+        },
+        "c": "https://github.com/liamma/grit",
+        "n": "GRIT",
+        "d": "2023-05-27",
+        "m1": "76.468"
+      },
+      {
+        "p": {
+          "name": "Enhancing Graph Transformers with Hierarchical Distance Structural Encoding",
+          "link": "https://arxiv.org/abs/2308.11129v4"
+        },
+        "c": "https://github.com/luoyk1999/hdse",
+        "n": "GraphGPS + HDSE",
+        "d": "2023-08-22",
+        "m1": "76.180±0.277"
+      },
+      {
+        "p": {
+          "name": "An end-to-end attention-based approach for learning on graphs",
+          "link": "https://arxiv.org/abs/2402.10793v2"
+        },
+        "c": "https://github.com/davidbuterez/edge-set-attention",
+        "n": "ESA (Edge set attention, no positional encodings)",
+        "d": "2024-02-16",
+        "m1": "75.413±0.248"
+      },
+      {
+        "p": {
+          "name": "Exphormer: Sparse Transformers for Graphs",
+          "link": "https://arxiv.org/abs/2303.06147v2"
+        },
+        "c": "https://github.com/hamed1375/exphormer",
+        "n": "Exphormer",
+        "d": "2023-03-10",
+        "m1": "74.754±0.194"
+      },
+      {
+        "p": {
+          "name": "Topology-Informed Graph Transformer",
+          "link": "https://arxiv.org/abs/2402.02005v1"
+        },
+        "c": "https://github.com/leemingo/tigt",
+        "n": "TIGT",
+        "d": "2024-02-03",
+        "m1": "73.955"
+      },
+      {
+        "p": {
+          "name": "Automatic Relation-aware Graph Network Proliferation",
+          "link": "https://arxiv.org/abs/2205.15678v1"
+        },
+        "c": "https://github.com/phython96/ARGNP",
+        "n": "ARGNP",
+        "d": "2022-05-31",
+        "m1": "73.90"
+      },
+      {
+        "p": {
+          "name": "Directional Graph Networks",
+          "link": "https://arxiv.org/abs/2010.02863v4"
+        },
+        "c": "https://github.com/Saro00/DGN",
+        "n": "DGN",
+        "d": "2020-10-06",
+        "m1": "72.84"
+      },
+      {
+        "p": {
+          "name": "Recipe for a General, Powerful, Scalable Graph Transformer",
+          "link": "https://arxiv.org/abs/2205.12454v4"
+        },
+        "c": "https://github.com/rampasek/GraphGPS",
+        "n": "GPS",
+        "d": "2022-05-25",
+        "m1": "72.298"
+      },
+      {
+        "p": {
+          "name": "Principal Neighbourhood Aggregation for Graph Nets",
+          "link": "https://arxiv.org/abs/2004.05718v5"
+        },
+        "c": "https://github.com/rusty1s/pytorch_geometric",
+        "n": "PNA",
+        "d": "2020-04-12",
+        "m1": "70.47"
+      },
+      {
+        "p": {
+          "name": "Graph Transformers without Positional Encodings",
+          "link": "https://arxiv.org/abs/2401.17791v3"
+        },
+        "c": "",
+        "n": "EIGENFORMER",
+        "d": "2024-01-31",
+        "m1": "70.194"
+      },
+      {
+        "p": {
+          "name": "Residual Gated Graph ConvNets",
+          "link": "http://arxiv.org/abs/1711.07553v2"
+        },
+        "c": "https://github.com/xbresson/spatial_graph_convnets",
+        "n": "GatedGCN",
+        "d": "2017-11-20",
+        "m1": "69.37"
+      },
+      {
+        "p": {
+          "name": "Global Self-Attention as a Replacement for Graph Convolution",
+          "link": "https://arxiv.org/abs/2108.03348v3"
+        },
+        "c": "https://github.com/shamim-hussain/egt_pytorch",
+        "n": "EGT",
+        "d": "2021-08-07",
+        "m1": "68.702"
+      },
+      {
+        "p": {
+          "name": "Benchmarking Graph Neural Networks",
+          "link": "https://arxiv.org/abs/2003.00982v5"
+        },
+        "c": "https://github.com/graphdeeplearning/benchmarking-gnns",
+        "n": "GatedGCN",
+        "d": "2020-03-02",
+        "m1": "67.312"
+      },
+      {
+        "p": {
+          "name": "Inductive Representation Learning on Large Graphs",
+          "link": "http://arxiv.org/abs/1706.02216v4"
+        },
+        "c": "https://github.com/pyg-team/pytorch_geometric/blob/master/torch_geometric/nn/models/basic_gnn.py",
+        "n": "GraphSage",
+        "d": "2017-06-07",
+        "m1": "66.08"
+      },
+      {
+        "p": {
+          "name": "Graph Attention Networks",
+          "link": "http://arxiv.org/abs/1710.10903v3"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+        "n": "GAT",
+        "d": "2017-10-30",
+        "m1": "65.48"
+      },
+      {
+        "p": {
+          "name": "Geometric deep learning on graphs and manifolds using mixture model CNNs",
+          "link": "http://arxiv.org/abs/1611.08402v3"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/mxnet/monet",
+        "n": "MoNet",
+        "d": "2016-11-25",
+        "m1": "53.42"
+      },
+      {
+        "p": {
+          "name": "How Powerful are Graph Neural Networks?",
+          "link": "http://arxiv.org/abs/1810.00826v3"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/mxnet/gin",
+        "n": "GIN",
+        "d": "2018-10-01",
+        "m1": "53.28"
+      }
+    ]
+  }
+}

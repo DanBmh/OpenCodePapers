@@ -1,0 +1,69 @@
+{
+  "title": "facial-attribute-classification-on-bffhq",
+  "task-hierarchy": [
+    "3D Face Reconstruction",
+    "Facial Recognition and Modelling",
+    "Facial Attribute Classification"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Bias-Conflicting Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Discover and Mitigate Unknown Biases with Debiasing Alternate Networks",
+          "link": "https://arxiv.org/abs/2207.10077v2"
+        },
+        "c": "https://github.com/zhihengli-UR/DebiAN",
+        "n": "DebiAN",
+        "d": "2022-07-20",
+        "m1": "62.8"
+      },
+      {
+        "p": {
+          "name": "Training Debiased Subnetworks with Contrastive Weight Pruning",
+          "link": "https://arxiv.org/abs/2210.05247v3"
+        },
+        "c": "https://github.com/parkgeonyeong/dcwp",
+        "n": "DCWP",
+        "d": "2022-10-11",
+        "m1": "60.35"
+      },
+      {
+        "p": {
+          "name": "BiaSwap: Removing dataset bias with bias-tailored swapping augmentation",
+          "link": "https://arxiv.org/abs/2108.10008v1"
+        },
+        "c": "",
+        "n": "BiaSwap",
+        "d": "2021-08-23",
+        "m1": "58.87"
+      }
+    ]
+  }
+}

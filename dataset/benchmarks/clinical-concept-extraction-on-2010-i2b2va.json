@@ -1,0 +1,87 @@
+{
+  "title": "clinical-concept-extraction-on-2010-i2b2va",
+  "task-hierarchy": [
+    "Clinical Concept Extraction"
+  ],
+  "dataset-info": {
+    "link": "https://www.i2b2.org/NLP/Relations/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Exact Span F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Enhancing Clinical Concept Extraction with Contextual Embeddings",
+          "link": "https://arxiv.org/abs/1902.08691v4"
+        },
+        "c": "",
+        "n": "BERTlarge (MIMIC)",
+        "d": "2019-02-22",
+        "m1": "90.25"
+      },
+      {
+        "p": {
+          "name": "CharacterBERT: Reconciling ELMo and BERT for Word-Level Open-Vocabulary Representations From Characters",
+          "link": "https://arxiv.org/abs/2010.10392v3"
+        },
+        "c": "https://github.com/helboukkouri/character-bert",
+        "n": "CharacterBERT (base, medical)",
+        "d": "2020-10-20",
+        "m1": "89.24"
+      },
+      {
+        "p": {
+          "name": "Cost-effective Selection of Pretraining Data: A Case Study of Pretraining BERT on Social Media",
+          "link": "https://arxiv.org/abs/2010.01150v1"
+        },
+        "c": "",
+        "n": "ClinicalBERT",
+        "d": "2020-10-02",
+        "m1": "87.4"
+      },
+      {
+        "p": {
+          "name": "Embedding Strategies for Specialized Domains: Application to Clinical Entity Recognition",
+          "link": "https://aclanthology.org/P19-2041"
+        },
+        "c": "https://github.com/helboukkouri/acl_srw_2019",
+        "n": "ELMo (finetuned on i2b2) + word2vec (i2b2)",
+        "d": "2019-07-01",
+        "m1": "86.23"
+      },
+      {
+        "p": {
+          "name": "Machine-learned solutions for three stages of clinical information extraction: the state of the art at i2b2 2010",
+          "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3168309/"
+        },
+        "c": "",
+        "n": "deBruijn et al. (System 1.1)",
+        "d": "2011-05-12",
+        "m1": "85.23"
+      }
+    ]
+  }
+}

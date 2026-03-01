@@ -1,0 +1,147 @@
+{
+  "title": "cross-domain-few-shot-on-isic2018",
+  "task-hierarchy": [
+    "Cross-Domain Few-Shot"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "5 shot",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "StyleAdv: Meta Style Adversarial Training for Cross-Domain Few-Shot Learning",
+          "link": "https://arxiv.org/abs/2302.09309v2"
+        },
+        "c": "https://github.com/lovelyqian/styleadv-cdfsl",
+        "n": "StyleAdv-FT",
+        "d": "2023-02-18",
+        "m1": "53.05"
+      },
+      {
+        "p": {
+          "name": "Cross-Domain Few-Shot Classification via Adversarial Task Augmentation",
+          "link": "https://arxiv.org/abs/2104.14385v2"
+        },
+        "c": "https://github.com/Haoqing-Wang/CDFSL-ATA",
+        "n": "ATA-FT",
+        "d": "2021-04-29",
+        "m1": "49.79"
+      },
+      {
+        "p": {
+          "name": "A Broader Study of Cross-Domain Few-Shot Learning",
+          "link": "https://arxiv.org/abs/1912.07200v2"
+        },
+        "c": "https://github.com/IBM/cdfsl-benchmark",
+        "n": "BSCD-FSL",
+        "d": "2019-12-16",
+        "m1": "48.11"
+      },
+      {
+        "p": {
+          "name": "Improving Cross-domain Few-shot Classification with Multilayer Perceptron",
+          "link": "https://arxiv.org/abs/2312.09589v1"
+        },
+        "c": "https://github.com/BaiShuanghao/CDFSC-MLP",
+        "n": "RFS+MLP",
+        "d": "2023-12-15",
+        "m1": "46.33"
+      },
+      {
+        "p": {
+          "name": "Adversarial Feature Augmentation for Cross-domain Few-shot Classification",
+          "link": "https://arxiv.org/abs/2208.11021v1"
+        },
+        "c": "https://github.com/youthhoo/afa_for_few_shot_learning",
+        "n": "AFA",
+        "d": "2022-08-23",
+        "m1": "46.01"
+      },
+      {
+        "p": {
+          "name": "StyleAdv: Meta Style Adversarial Training for Cross-Domain Few-Shot Learning",
+          "link": "https://arxiv.org/abs/2302.09309v2"
+        },
+        "c": "https://github.com/lovelyqian/styleadv-cdfsl",
+        "n": "StyleAdv",
+        "d": "2023-02-18",
+        "m1": "45.77"
+      },
+      {
+        "p": {
+          "name": "Wave-SAN: Wavelet based Style Augmentation Network for Cross-Domain Few-Shot Learning",
+          "link": "https://arxiv.org/abs/2203.07656v1"
+        },
+        "c": "https://github.com/lovelyqian/wave-SAN-CDFSL",
+        "n": "wave-SAN",
+        "d": "2022-03-15",
+        "m1": "44.93"
+      },
+      {
+        "p": {
+          "name": "Cross-Domain Few-Shot Classification via Adversarial Task Augmentation",
+          "link": "https://arxiv.org/abs/2104.14385v2"
+        },
+        "c": "https://github.com/Haoqing-Wang/CDFSL-ATA",
+        "n": "ATA",
+        "d": "2021-04-29",
+        "m1": "44.91"
+      },
+      {
+        "p": {
+          "name": "Explanation-Guided Training for Cross-Domain Few-Shot Classification",
+          "link": "https://arxiv.org/abs/2007.08790v2"
+        },
+        "c": "https://github.com/SunJiamei/few-shot-lrp-guided",
+        "n": "LRP",
+        "d": "2020-07-17",
+        "m1": "44.14"
+      },
+      {
+        "p": {
+          "name": "Few-Shot Learning with Graph Neural Networks",
+          "link": "http://arxiv.org/abs/1711.04043v3"
+        },
+        "c": "https://github.com/vgsatorras/few-shot-gnn",
+        "n": "GNN",
+        "d": "2017-11-10",
+        "m1": "43.94"
+      },
+      {
+        "p": {
+          "name": "Cross-Domain Few-Shot Classification via Learned Feature-Wise Transformation",
+          "link": "https://arxiv.org/abs/2001.08735v3"
+        },
+        "c": "https://github.com/hytseng0509/CrossDomainFewShot",
+        "n": "FWT",
+        "d": "2020-01-23",
+        "m1": "43.17"
+      }
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "title": "panoptic-segmentation-on-scannet",
+  "task-hierarchy": [
+    "Panoptic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "http://www.scan-net.org/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PQ",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "PQ_th",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "PQ_st",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "OneFormer3D: One Transformer for Unified Point Cloud Segmentation",
+          "link": "https://arxiv.org/abs/2311.14405v1"
+        },
+        "c": "https://github.com/oneformer3d/oneformer3d",
+        "n": "OneFormer3D",
+        "d": "2023-11-24",
+        "m1": "71.2",
+        "m2": "69.6",
+        "m3": "86.1"
+      },
+      {
+        "p": {
+          "name": "Scalable 3D Panoptic Segmentation As Superpoint Graph Clustering",
+          "link": "https://arxiv.org/abs/2401.06704v2"
+        },
+        "c": "https://github.com/drprojects/superpoint_transformer",
+        "n": "SuperCluster",
+        "d": "2024-01-12",
+        "m1": "58.7",
+        "m2": "69.1",
+        "m3": "84.1"
+      },
+      {
+        "p": {
+          "name": "PanopticFusion: Online Volumetric Semantic Mapping at the Level of Stuff and Things",
+          "link": "https://arxiv.org/abs/1903.01177v2"
+        },
+        "c": "",
+        "n": "PanopticFusion",
+        "d": "2019-03-04",
+        "m1": "33.5",
+        "m2": "30.8",
+        "m3": "58.4"
+      },
+      {
+        "p": {
+          "name": "SceneGraphFusion: Incremental 3D Scene Graph Prediction from RGB-D Sequences",
+          "link": "https://arxiv.org/abs/2103.14898v3"
+        },
+        "c": "https://github.com/ShunChengWu/SceneGraphFusion",
+        "n": "SceneGraphFusion",
+        "d": "2021-03-27",
+        "m1": "31.5",
+        "m2": "30.2",
+        "m3": "43.4"
+      }
+    ]
+  }
+}

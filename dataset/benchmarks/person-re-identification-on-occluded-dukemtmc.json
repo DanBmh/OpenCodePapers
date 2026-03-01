@@ -1,0 +1,391 @@
+{
+  "title": "person-re-identification-on-occluded-dukemtmc",
+  "task-hierarchy": [
+    "Person Re-Identification"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/lightas/Occluded-DukeMTMC-Dataset"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": " Rank-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Keypoint Promptable Re-Identification",
+          "link": "https://arxiv.org/abs/2407.18112v1"
+        },
+        "c": "https://github.com/vlsomers/bpbreid",
+        "n": "KPR + SOLIDER",
+        "d": "2024-07-25",
+        "m1": "84.31",
+        "m2": "75.11"
+      },
+      {
+        "p": {
+          "name": "Keypoint Promptable Re-Identification",
+          "link": "https://arxiv.org/abs/2407.18112v1"
+        },
+        "c": "https://github.com/vlsomers/bpbreid",
+        "n": "KPR",
+        "d": "2024-07-25",
+        "m1": "79.83",
+        "m2": "67.13"
+      },
+      {
+        "p": {
+          "name": "PersonViT: Large-scale Self-supervised Vision Transformer for Person Re-Identification",
+          "link": "https://arxiv.org/abs/2408.05398v2"
+        },
+        "c": "https://github.com/hustvl/personvit",
+        "n": "PersonViT",
+        "d": "2024-08-10",
+        "m1": "79.8",
+        "m2": "72.2"
+      },
+      {
+        "p": {
+          "name": "DROP: Decouple Re-Identification and Human Parsing with Task-specific Features for Occluded Person Re-identification",
+          "link": "https://arxiv.org/abs/2401.18032v1"
+        },
+        "c": "https://github.com/shuguang-52/drop",
+        "n": "DROP",
+        "d": "2024-01-31",
+        "m1": "76.8",
+        "m2": "63.3"
+      },
+      {
+        "p": {
+          "name": "Body Part-Based Representation Learning for Occluded Person Re-Identification",
+          "link": "https://arxiv.org/abs/2211.03679v1"
+        },
+        "c": "https://github.com/vlsomers/bpbreid",
+        "n": "BPBreID",
+        "d": "2022-11-07",
+        "m1": "75.1",
+        "m2": "62.5"
+      },
+      {
+        "p": {
+          "name": "DDRN:a Data Distribution Reconstruction Network for Occluded Person Re-Identification",
+          "link": "https://arxiv.org/abs/2410.06600v1"
+        },
+        "c": "",
+        "n": "DDRN",
+        "d": "2024-10-09",
+        "m1": "71.3",
+        "m2": "62.4"
+      },
+      {
+        "p": {
+          "name": "Beyond Appearance: a Semantic Controllable Self-Supervised Learning Framework for Human-Centric Visual Tasks",
+          "link": "https://arxiv.org/abs/2303.17602v1"
+        },
+        "c": "https://github.com/modelscope/modelscope",
+        "n": "SOLIDER",
+        "d": "2023-03-30",
+        "m1": "71.2",
+        "m2": "61.9"
+      },
+      {
+        "p": {
+          "name": "DiP: Learning Discriminative Implicit Parts for Person Re-Identification",
+          "link": "https://arxiv.org/abs/2212.13906v2"
+        },
+        "c": "https://github.com/siyuch-fdu/DiP",
+        "n": "DiP (without RK)",
+        "d": "2022-12-24",
+        "m1": "71.1",
+        "m2": "63.1"
+      },
+      {
+        "p": {
+          "name": "Human Co-Parsing Guided Alignment for Occluded Person Re-identification",
+          "link": "https://shuguang-52.github.io/hcga/"
+        },
+        "c": "https://github.com/Vill-Lab/2022-TIP-HCGA",
+        "n": "HCGA",
+        "d": "2022-12-20",
+        "m1": "70.1",
+        "m2": "57.5"
+      },
+      {
+        "p": {
+          "name": "Dynamic Patch-aware Enrichment Transformer for Occluded Person Re-Identification",
+          "link": "https://arxiv.org/abs/2402.10435v1"
+        },
+        "c": "",
+        "n": "DPEFormer",
+        "d": "2024-02-16",
+        "m1": "69.9",
+        "m2": "58.9"
+      },
+      {
+        "p": {
+          "name": "Pose-guided Feature Disentangling for Occluded Person Re-identification Based on Transformer",
+          "link": "https://arxiv.org/abs/2112.02466v2"
+        },
+        "c": "https://github.com/WangTaoAs/PFD_Net",
+        "n": "PFD",
+        "d": "2021-12-05",
+        "m1": "69.5",
+        "m2": "61.8"
+      },
+      {
+        "p": {
+          "name": "Occluded Person Re-Identification With Single-Scale Global Representations",
+          "link": "http://openaccess.thecvf.com//content/ICCV2021/html/Yan_Occluded_Person_Re-Identification_With_Single-Scale_Global_Representations_ICCV_2021_paper.html"
+        },
+        "c": "",
+        "n": "SSGR",
+        "d": "2021-01-01",
+        "m1": "69.0",
+        "m2": "57.2"
+      },
+      {
+        "p": {
+          "name": "Template-Aware Transformer for Person Reidentification",
+          "link": "https://onlinelibrary.wiley.com/doi/10.1155/2022/8917964"
+        },
+        "c": "https://github.com/template-aware/TAT",
+        "n": "TAT",
+        "d": "2022-04-01",
+        "m1": "68.2",
+        "m2": "60.6"
+      },
+      {
+        "p": {
+          "name": "Feature Erasing and Diffusion Network for Occluded Person Re-Identification",
+          "link": "https://arxiv.org/abs/2112.08740v2"
+        },
+        "c": "https://github.com/ZacharyWang-007/FED-Occluded-ReID",
+        "n": "FED",
+        "d": "2021-12-16",
+        "m1": "68.1"
+      },
+      {
+        "p": {
+          "name": "CLIP-SCGI: Synthesized Caption-Guided Inversion for Person Re-Identification",
+          "link": "https://arxiv.org/abs/2410.09382v1"
+        },
+        "c": "",
+        "n": "CLIP-SCGI",
+        "d": "2024-10-12",
+        "m1": "67.5",
+        "m2": "59.2"
+      },
+      {
+        "p": {
+          "name": "TransReID: Transformer-based Object Re-Identification",
+          "link": "https://arxiv.org/abs/2102.04378v2"
+        },
+        "c": "https://github.com/heshuting555/TransReID",
+        "n": "TransReID",
+        "d": "2021-02-08",
+        "m1": "66.4",
+        "m2": "59.2"
+      },
+      {
+        "p": {
+          "name": "A Deep Hierarchical Feature Sparse Framework for Occluded Person Re-Identification",
+          "link": "https://arxiv.org/abs/2401.07469v1"
+        },
+        "c": "",
+        "n": "SUReID",
+        "d": "2024-01-15",
+        "m1": "65.8",
+        "m2": "54.9"
+      },
+      {
+        "p": {
+          "name": "Diverse Part Discovery: Occluded Person Re-identification with Part-Aware Transformer",
+          "link": "https://arxiv.org/abs/2106.04095v1"
+        },
+        "c": "",
+        "n": "PAT",
+        "d": "2021-06-08",
+        "m1": "64.5",
+        "m2": "53.6"
+      },
+      {
+        "p": {
+          "name": "Learning to Disentangle Scenes for Person Re-identification",
+          "link": "https://arxiv.org/abs/2111.05476v2"
+        },
+        "c": "https://github.com/deropty/LDS",
+        "n": "LDS",
+        "d": "2021-11-10",
+        "m1": "64.3",
+        "m2": "55.7"
+      },
+      {
+        "p": {
+          "name": "Pose-Guided Feature Learning with Knowledge Distillation for Occluded Person Re-Identification",
+          "link": "https://arxiv.org/abs/2108.00139v2"
+        },
+        "c": "",
+        "n": "PGFL",
+        "d": "2021-07-31",
+        "m1": "63.0",
+        "m2": "54.1"
+      },
+      {
+        "p": {
+          "name": "Identity-Guided Human Semantic Parsing for Person Re-Identification",
+          "link": "https://arxiv.org/abs/2007.13467v1"
+        },
+        "c": "https://github.com/CASIA-IVA-Lab/ISP-reID",
+        "n": "ISP",
+        "d": "2020-07-27",
+        "m1": "62.8",
+        "m2": "52.3"
+      },
+      {
+        "p": {
+          "name": "Occlude Them All: Occlusion-Aware Attention Network for Occluded Person Re-ID",
+          "link": "http://openaccess.thecvf.com//content/ICCV2021/html/Chen_Occlude_Them_All_Occlusion-Aware_Attention_Network_for_Occluded_Person_Re-ID_ICCV_2021_paper.html"
+        },
+        "c": "",
+        "n": "OAMN",
+        "d": "2021-01-01",
+        "m1": "62.6",
+        "m2": "46.1"
+      },
+      {
+        "p": {
+          "name": "PartFormer: Awakening Latent Diverse Representation from Vision Transformer for Object Re-Identification",
+          "link": "https://arxiv.org/abs/2408.16684v1"
+        },
+        "c": "",
+        "n": "PartFormer",
+        "d": "2024-08-29",
+        "m1": "62.5",
+        "m2": "70.2"
+      },
+      {
+        "p": {
+          "name": "Learning To Know Where To See: A Visibility-Aware Approach for Occluded Person Re-Identification",
+          "link": "http://openaccess.thecvf.com//content/ICCV2021/html/Yang_Learning_To_Know_Where_To_See_A_Visibility-Aware_Approach_for_ICCV_2021_paper.html"
+        },
+        "c": "",
+        "n": "VGTri",
+        "d": "2021-01-01",
+        "m1": "62.2",
+        "m2": "46.3"
+      },
+      {
+        "p": {
+          "name": "Holistic Guidance for Occluded Person Re-Identification",
+          "link": "https://arxiv.org/abs/2104.06524v2"
+        },
+        "c": "https://github.com/madhukiranets/holisitcguidanceoccreid2",
+        "n": "HG",
+        "d": "2021-04-13",
+        "m1": "61.4",
+        "m2": "50.5"
+      },
+      {
+        "p": {
+          "name": "PAFormer: Part Aware Transformer for Person Re-identification",
+          "link": "https://arxiv.org/abs/2408.05918v1"
+        },
+        "c": "",
+        "n": "PAFormer",
+        "d": "2024-08-12",
+        "m1": "60.4",
+        "m2": "66.4"
+      },
+      {
+        "p": {
+          "name": "Incremental Generative Occlusion Adversarial Suppression Network for Person ReID",
+          "link": "https://shuguang-52.github.io/igoas/"
+        },
+        "c": "https://github.com/Vill-Lab/2021-TIP-IGOAS",
+        "n": "IGOAS",
+        "d": "2021-04-06",
+        "m1": "60.1",
+        "m2": "49.4"
+      },
+      {
+        "p": {
+          "name": "MHSA-Net: Multi-Head Self-Attention Network for Occluded Person Re-Identification",
+          "link": "https://arxiv.org/abs/2008.04015v4"
+        },
+        "c": "https://github.com/hongchenphd/MHSA-Net",
+        "n": "MHSA-Net",
+        "d": "2020-08-10",
+        "m1": "59.7",
+        "m2": "44.8"
+      },
+      {
+        "p": {
+          "name": "High-Order Information Matters: Learning Relation and Topology for Occluded Person Re-Identification",
+          "link": "https://arxiv.org/abs/2003.08177v4"
+        },
+        "c": "https://github.com/wangguanan/light-reid",
+        "n": "HOReID",
+        "d": "2020-03-18",
+        "m1": "55.1",
+        "m2": "43.8"
+      },
+      {
+        "p": {
+          "name": "Pose-Guided Feature Alignment for Occluded Person Re-Identification",
+          "link": "http://openaccess.thecvf.com/content_ICCV_2019/html/Miao_Pose-Guided_Feature_Alignment_for_Occluded_Person_Re-Identification_ICCV_2019_paper.html"
+        },
+        "c": "https://github.com/lightas/ICCV19_Pose_Guided_Occluded_Person_ReID",
+        "n": "PGFA",
+        "d": "2019-10-01",
+        "m1": "51.4",
+        "m2": "37.3"
+      },
+      {
+        "p": {
+          "name": "Enhancing person re-identification via Uncertainty Feature Fusion Method and Auto-weighted Measure Combination",
+          "link": "https://arxiv.org/abs/2405.01101v5"
+        },
+        "c": "https://github.com/chequanghuy/Enhancing-Person-Re-Identification-via-UFFM-and-AMC",
+        "n": "CLIPReID-Baseline+UFFM+AMC",
+        "d": "2024-05-02",
+        "m2": "61.9"
+      },
+      {
+        "p": {
+          "name": "Enhancing person re-identification via Uncertainty Feature Fusion Method and Auto-weighted Measure Combination",
+          "link": "https://arxiv.org/abs/2405.01101v5"
+        },
+        "c": "https://github.com/chequanghuy/Enhancing-Person-Re-Identification-via-UFFM-and-AMC",
+        "n": "BoT+UFFM+AMC",
+        "d": "2024-05-02",
+        "m2": "61.0"
+      }
+    ]
+  }
+}

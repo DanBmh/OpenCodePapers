@@ -1,0 +1,87 @@
+{
+  "title": "anomaly-detection-on-insplad",
+  "task-hierarchy": [
+    "Anomaly Detection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/andreluizbvs/InsPLAD"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Detection AUROC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Attention Modules Improve Image-Level Anomaly Detection for Industrial Inspection: A DifferNet Case Study",
+          "link": "https://arxiv.org/abs/2311.02747v2"
+        },
+        "c": "https://github.com/andreluizbvs/insplad",
+        "n": "AttentDifferNet (SENet-AlexNet)",
+        "d": "2023-11-05",
+        "m1": "94.34"
+      },
+      {
+        "p": {
+          "name": "Same Same But DifferNet: Semi-Supervised Defect Detection with Normalizing Flows",
+          "link": "https://arxiv.org/abs/2008.12577v1"
+        },
+        "c": "https://github.com/marco-rudolph/differnet",
+        "n": "DifferNet",
+        "d": "2020-08-28",
+        "m1": "92.46"
+      },
+      {
+        "p": {
+          "name": "Attention Modules Improve Image-Level Anomaly Detection for Industrial Inspection: A DifferNet Case Study",
+          "link": "https://arxiv.org/abs/2311.02747v2"
+        },
+        "c": "https://github.com/andreluizbvs/insplad",
+        "n": "RD++ (CBAM-ResNet-18)",
+        "d": "2023-11-05",
+        "m1": "90.75"
+      },
+      {
+        "p": {
+          "name": "Attention Modules Improve Image-Level Anomaly Detection for Industrial Inspection: A DifferNet Case Study",
+          "link": "https://arxiv.org/abs/2311.02747v2"
+        },
+        "c": "https://github.com/andreluizbvs/insplad",
+        "n": "RD++ (SENet-ResNet-18)",
+        "d": "2023-11-05",
+        "m1": "90.32"
+      },
+      {
+        "p": {
+          "name": "Revisiting Reverse Distillation for Anomaly Detection",
+          "link": "http://openaccess.thecvf.com//content/CVPR2023/html/Tien_Revisiting_Reverse_Distillation_for_Anomaly_Detection_CVPR_2023_paper.html"
+        },
+        "c": "https://github.com/tientrandinh/revisiting-reverse-distillation",
+        "n": "RD++ (ResNet-18)",
+        "d": "2023-01-01",
+        "m1": "90.07"
+      }
+    ]
+  }
+}

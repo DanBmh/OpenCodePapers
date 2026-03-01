@@ -1,0 +1,87 @@
+{
+  "title": "knowledge-distillation-on-coco",
+  "task-hierarchy": [
+    "Knowledge Distillation"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": " box AP",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "mask AP",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Focal and Global Knowledge Distillation for Detectors",
+          "link": "https://arxiv.org/abs/2111.11837v2"
+        },
+        "c": "https://github.com/yzd-v/FGD",
+        "n": "ADLIK-Faster (T: Faster R-CNN vit-base S: Faster R-CNN deit-small)",
+        "d": "2021-11-23",
+        "m1": "47.6"
+      },
+      {
+        "p": {
+          "name": "Focal and Global Knowledge Distillation for Detectors",
+          "link": "https://arxiv.org/abs/2111.11837v2"
+        },
+        "c": "https://github.com/yzd-v/FGD",
+        "n": "ADLIK-Mask (T: Mask R-CNN vit-base S: Mask R-CNN deit-small)",
+        "d": "2021-11-23",
+        "m2": "42.4"
+      },
+      {
+        "p": {
+          "name": "Distilling Knowledge by Mimicking Features",
+          "link": "https://arxiv.org/abs/2011.01424v2"
+        },
+        "c": "https://github.com/DoctorKey/LSHFM.singleclassification",
+        "n": "LSHFM (T: ResNet101 S: ResNet50)",
+        "d": "2020-11-03",
+        "m3": "77.16"
+      },
+      {
+        "p": {
+          "name": "Distilling Knowledge by Mimicking Features",
+          "link": "https://arxiv.org/abs/2011.01424v2"
+        },
+        "c": "https://github.com/DoctorKey/LSHFM.singleclassification",
+        "n": "LSHFM (T: ResNet101 S: MobileNetV2)",
+        "d": "2020-11-03",
+        "m3": "73.73"
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "title": "node-classification-on-minesweeper",
+  "task-hierarchy": [
+    "Node Classification"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/yandex-research/heterophilous-graphs"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AUCROC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Classic GNNs are Strong Baselines: Reassessing GNNs for Node Classification",
+          "link": "https://arxiv.org/abs/2406.08993v2"
+        },
+        "c": "https://github.com/LUOyk1999/tunedGNN",
+        "n": "GCN",
+        "d": "2024-06-13",
+        "m1": "97.86 ± 0.24"
+      },
+      {
+        "p": {
+          "name": "Classic GNNs are Strong Baselines: Reassessing GNNs for Node Classification",
+          "link": "https://arxiv.org/abs/2406.08993v2"
+        },
+        "c": "https://github.com/LUOyk1999/tunedGNN",
+        "n": "GraphSAGE",
+        "d": "2024-06-13",
+        "m1": "97.77 ± 0.62"
+      },
+      {
+        "p": {
+          "name": "Classic GNNs are Strong Baselines: Reassessing GNNs for Node Classification",
+          "link": "https://arxiv.org/abs/2406.08993v2"
+        },
+        "c": "https://github.com/LUOyk1999/tunedGNN",
+        "n": "GAT",
+        "d": "2024-06-13",
+        "m1": "97.73 ± 0.73"
+      },
+      {
+        "p": {
+          "name": "Polynormer: Polynomial-Expressive Graph Transformer in Linear Time",
+          "link": "https://arxiv.org/abs/2403.01232v3"
+        },
+        "c": "https://github.com/cornell-zhang/Polynormer/tree/master/large_graph_exp",
+        "n": "Polynormer",
+        "d": "2024-03-02",
+        "m1": "97.46±0.36"
+      }
+    ]
+  }
+}

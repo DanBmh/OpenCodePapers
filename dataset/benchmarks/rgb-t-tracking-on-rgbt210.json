@@ -1,0 +1,249 @@
+{
+  "title": "rgb-t-tracking-on-rgbt210",
+  "task-hierarchy": [
+    "Visual Tracking",
+    "Rgb-T Tracking"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Precision",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Success",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "PromptTrack",
+        "d": null,
+        "m1": "90.6",
+        "m2": "66.1"
+      },
+      {
+        "p": {
+          "name": "MambaVT: Spatio-Temporal Contextual Modeling for robust RGB-T Tracking",
+          "link": "https://arxiv.org/abs/2408.07889v1"
+        },
+        "c": "https://github.com/laisimiao/MambaVT",
+        "n": "MambaVT-M256",
+        "d": "2024-08-15",
+        "m1": "88.5",
+        "m2": "64.4"
+      },
+      {
+        "p": {
+          "name": "Breaking Modality Gap in RGBT Tracking: Coupled Knowledge Distillation",
+          "link": "https://arxiv.org/abs/2410.11586v1"
+        },
+        "c": "https://github.com/multi-modality-tracking/ckd",
+        "n": "CKD",
+        "d": "2024-10-15",
+        "m1": "88.4",
+        "m2": "65.2"
+      },
+      {
+        "p": {
+          "name": "Breaking Shallow Limits: Task-Driven Pixel Fusion for Gap-free RGBT Tracking",
+          "link": "https://arxiv.org/abs/2503.11247v1"
+        },
+        "c": "",
+        "n": "TPF",
+        "d": "2025-03-14",
+        "m1": "88.0",
+        "m2": "63.8"
+      },
+      {
+        "p": {
+          "name": "MambaVT: Spatio-Temporal Contextual Modeling for robust RGB-T Tracking",
+          "link": "https://arxiv.org/abs/2408.07889v1"
+        },
+        "c": "https://github.com/laisimiao/MambaVT",
+        "n": "MambaVT-S256",
+        "d": "2024-08-15",
+        "m1": "88.0",
+        "m2": "63.7"
+      },
+      {
+        "p": {
+          "name": "Cross Fusion RGB-T Tracking with Bi-directional Adapter",
+          "link": "https://arxiv.org/abs/2408.16979v1"
+        },
+        "c": "",
+        "n": "CFBT",
+        "d": "2024-08-30",
+        "m1": "87.7",
+        "m2": "63.0"
+      },
+      {
+        "p": {
+          "name": "AFter: Attention-based Fusion Router for RGBT Tracking",
+          "link": "https://arxiv.org/abs/2405.02717v1"
+        },
+        "c": "https://github.com/alexadlu/after",
+        "n": "AFter",
+        "d": "2024-05-04",
+        "m1": "87.6",
+        "m2": "63.5"
+      },
+      {
+        "p": {
+          "name": "RGBT Tracking via All-layer Multimodal Interactions with Progressive Fusion Mamba",
+          "link": "https://arxiv.org/abs/2408.08827v2"
+        },
+        "c": "",
+        "n": "AINet-B384",
+        "d": "2024-08-16",
+        "m1": "87.5",
+        "m2": "64.8"
+      },
+      {
+        "p": {
+          "name": "RGB-T Tracking via Multi-Modal Mutual Prompt Learning",
+          "link": "https://arxiv.org/abs/2308.16386v1"
+        },
+        "c": "https://github.com/husteryoung/mplt",
+        "n": "MPLT",
+        "d": "2023-08-31",
+        "m1": "86.2",
+        "m2": "63.0"
+      },
+      {
+        "p": {
+          "name": "Transformer-based RGB-T Tracking with Channel and Spatial Feature Fusion",
+          "link": "https://arxiv.org/abs/2405.03177v2"
+        },
+        "c": "https://github.com/liyunfenglyf/cstnet",
+        "n": "CSTNet",
+        "d": "2024-05-06",
+        "m1": "86.0",
+        "m2": "63.5"
+      },
+      {
+        "p": {
+          "name": "Cross-modulated Attention Transformer for RGBT Tracking",
+          "link": "https://arxiv.org/abs/2408.02222v1"
+        },
+        "c": "",
+        "n": "CAFormer",
+        "d": "2024-08-05",
+        "m1": "85.6",
+        "m2": "63.2"
+      },
+      {
+        "p": {
+          "name": "Bridging Search Region Interaction With Template for RGB-T Tracking",
+          "link": "http://openaccess.thecvf.com//content/CVPR2023/html/Hui_Bridging_Search_Region_Interaction_With_Template_for_RGB-T_Tracking_CVPR_2023_paper.html"
+        },
+        "c": "https://github.com/ryanhtr/tbsi",
+        "n": "TBSI",
+        "d": "2023-01-01",
+        "m1": "85.3",
+        "m2": "62.5"
+      },
+      {
+        "p": {
+          "name": "Temporal Adaptive RGBT Tracking with Modality Prompt",
+          "link": "https://arxiv.org/abs/2401.01244v1"
+        },
+        "c": "",
+        "n": "TATrack",
+        "d": "2024-01-02",
+        "m1": "85.3",
+        "m2": "61.8"
+      },
+      {
+        "p": {
+          "name": "Middle Fusion and Multi-Stage, Multi-Form Prompts for Robust RGB-T Tracking",
+          "link": "https://arxiv.org/abs/2403.18193v2"
+        },
+        "c": "",
+        "n": "M3PT",
+        "d": "2024-03-27",
+        "m1": "83.9",
+        "m2": "60.8"
+      },
+      {
+        "p": {
+          "name": "Transformer RGBT Tracking with Spatio-Temporal Multimodal Tokens",
+          "link": "https://arxiv.org/abs/2401.01674v1"
+        },
+        "c": "",
+        "n": "STMT",
+        "d": "2024-01-03",
+        "m1": "83.0",
+        "m2": "59.5"
+      },
+      {
+        "p": {
+          "name": "Attribute-Based Progressive Fusion Network for RGBT Tracking",
+          "link": "https://ojs.aaai.org/index.php/AAAI/article/view/20187"
+        },
+        "c": "https://github.com/yangmengmeng1997/APFNet",
+        "n": "APFNet",
+        "d": "2022-01-26",
+        "m1": "79.9",
+        "m2": "54.9"
+      },
+      {
+        "p": {
+          "name": "Challenge-Aware RGBT Tracking",
+          "link": "https://arxiv.org/abs/2007.13143v1"
+        },
+        "c": "",
+        "n": "CAT",
+        "d": "2020-07-26",
+        "m1": "79.2",
+        "m2": "53.3"
+      },
+      {
+        "p": {
+          "name": "Multi-Modal Fusion for End-to-End RGB-T Tracking",
+          "link": "https://arxiv.org/abs/1908.11714v1"
+        },
+        "c": "https://github.com/zhanglichao/end2end_rgbt_tracking",
+        "n": "mfDiMP",
+        "d": "2019-08-30",
+        "m1": "78.6",
+        "m2": "55.5"
+      },
+      {
+        "p": {
+          "name": "Visible-Thermal UAV Tracking: A Large-Scale Benchmark and New Baseline",
+          "link": "https://arxiv.org/abs/2204.04120v1"
+        },
+        "c": "https://github.com/zhang-pengyu/HMFT",
+        "n": "HMFT",
+        "d": "2022-04-08",
+        "m1": "78.6",
+        "m2": "53.5"
+      }
+    ]
+  }
+}

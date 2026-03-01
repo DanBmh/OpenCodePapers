@@ -1,0 +1,78 @@
+{
+  "title": "one-shot-object-detection-on-coco",
+  "task-hierarchy": [
+    "Object Detection",
+    "One-Shot Object Detection"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AP 0.5",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Simple Open-Vocabulary Object Detection with Vision Transformers",
+          "link": "https://arxiv.org/abs/2205.06230v2"
+        },
+        "c": "https://github.com/google-research/scenic/tree/main/scenic/projects/owl_vit",
+        "n": "OWL-ViT (R50+H/32)",
+        "d": "2022-05-12",
+        "m1": "41.8"
+      },
+      {
+        "p": {
+          "name": "Detect Everything with Few Examples",
+          "link": "https://arxiv.org/abs/2309.12969v4"
+        },
+        "c": "https://github.com/mlzxy/devit",
+        "n": "DE-ViT",
+        "d": "2023-09-22",
+        "m1": "28.4"
+      },
+      {
+        "p": {
+          "name": "One-Shot Object Detection with Co-Attention and Co-Excitation",
+          "link": "https://arxiv.org/abs/1911.12529v1"
+        },
+        "c": "https://github.com/timy90022/One-Shot-Object-Detection",
+        "n": "One-Shot Object Detection",
+        "d": "2019-11-28",
+        "m1": "22.0"
+      },
+      {
+        "p": {
+          "name": "One-Shot Instance Segmentation",
+          "link": "https://arxiv.org/abs/1811.11507v2"
+        },
+        "c": "https://github.com/bethgelab/siamese-mask-rcnn",
+        "n": "Siamese Mask R-CNN",
+        "d": "2018-11-28",
+        "m1": "16.3"
+      }
+    ]
+  }
+}

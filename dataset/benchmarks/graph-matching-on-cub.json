@@ -1,0 +1,77 @@
+{
+  "title": "graph-matching-on-cub",
+  "task-hierarchy": [
+    "Graph Matching"
+  ],
+  "dataset-info": {
+    "link": "https://www.vision.caltech.edu/datasets/cub_200_2011/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1 score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Universe Points Representation Learning for Partial Multi-Graph Matching",
+          "link": "https://arxiv.org/abs/2212.00780v2"
+        },
+        "c": "",
+        "n": "URL",
+        "d": "2022-12-01",
+        "m1": "0.951"
+      },
+      {
+        "p": {
+          "name": "Learning Latent Partial Matchings with Gumbel-IPF Networks",
+          "link": "https://proceedings.mlr.press/v238/cohen-indelman24a.html"
+        },
+        "c": "https://github.com/HeddaCohenIndelman/Learning-Latent-Partial-Matchings-with-Gumbel-IPF-Networks",
+        "n": "GUMBEL-IPF",
+        "d": "2024-04-03",
+        "m1": "0.841"
+      },
+      {
+        "p": {
+          "name": "Combinatorial Learning of Robust Deep Graph Matching: an Embedding based Approach.",
+          "link": "https://ieeexplore.ieee.org/abstract/document/9128045"
+        },
+        "c": "https://github.com/Thinklab-SJTU/ThinkMatch",
+        "n": "IPCA-GM",
+        "d": "2020-06-29",
+        "m1": "0.832"
+      },
+      {
+        "p": {
+          "name": "Graduated Assignment for Joint Multi-Graph Matching and Clustering with Application to Unsupervised Graph Matching Network Learning",
+          "link": "http://proceedings.neurips.cc/paper/2020/hash/e6384711491713d29bc63fc5eeb5ba4f-Abstract.html"
+        },
+        "c": "https://github.com/Thinklab-SJTU/ThinkMatch",
+        "n": "GANN-MGM",
+        "d": "2020-12-01",
+        "m1": "0.826"
+      }
+    ]
+  }
+}

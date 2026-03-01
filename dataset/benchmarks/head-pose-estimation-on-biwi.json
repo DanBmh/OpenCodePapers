@@ -1,0 +1,385 @@
+{
+  "title": "head-pose-estimation-on-biwi",
+  "task-hierarchy": [
+    "Pose Estimation",
+    "Head Pose Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://www.kaggle.com/kmader/biwi-kinect-head-pose-database"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MAE (trained with other data)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "MAE (trained with BIWI data)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Geodesic Error (GE)",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "MAE-aligned (trained with other data)",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Geodesic Error - aligned (GE)",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "MAEV",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "MAE_t",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "6DoF Head Pose Estimation through Explicit Bidirectional Interaction with Face Geometry",
+          "link": "https://arxiv.org/abs/2407.14136v1"
+        },
+        "c": "https://github.com/asw91666/trg-release",
+        "n": "TRG (w/ 300WLP)",
+        "d": "2024-07-19",
+        "m1": "2.75",
+        "m5": "5.68",
+        "m7": "12.97"
+      },
+      {
+        "p": {
+          "name": "6DoF Head Pose Estimation through Explicit Bidirectional Interaction with Face Geometry",
+          "link": "https://arxiv.org/abs/2407.14136v1"
+        },
+        "c": "https://github.com/asw91666/trg-release",
+        "n": "TRG",
+        "d": "2024-07-19",
+        "m1": "2.89",
+        "m5": "5.35",
+        "m7": "14.31"
+      },
+      {
+        "p": {
+          "name": "Towards 3D Face Reconstruction in Perspective Projection: Estimating 6DoF Face Pose from Monocular Image",
+          "link": "https://arxiv.org/abs/2205.04126v2"
+        },
+        "c": "https://github.com/cbsropenproject/6dof_face",
+        "n": "PerspNet",
+        "d": "2022-05-09",
+        "m1": "2.95",
+        "m5": "5.5",
+        "m7": "19.09"
+      },
+      {
+        "p": {
+          "name": "Towards Robust and Unconstrained Full Range of Rotation Head Pose Estimation",
+          "link": "https://arxiv.org/abs/2309.07654v1"
+        },
+        "c": "https://github.com/thohemp/6drepnet360",
+        "n": "6DRepNet360",
+        "d": "2023-09-14",
+        "m1": "3.39",
+        "m6": "4.85"
+      },
+      {
+        "p": {
+          "name": "6D Rotation Representation For Unconstrained Head Pose Estimation",
+          "link": "https://arxiv.org/abs/2202.12555v2"
+        },
+        "c": "https://github.com/thohemp/6drepnet",
+        "n": "6DRepNet",
+        "d": "2022-02-25",
+        "m1": "3.47",
+        "m2": "2.66"
+      },
+      {
+        "p": {
+          "name": "WHENet: Real-time Fine-Grained Estimation for Wide Range Head Pose",
+          "link": "https://arxiv.org/abs/2005.10353v2"
+        },
+        "c": "https://github.com/sizhean/panohead",
+        "n": "WHENet-V",
+        "d": "2020-05-20",
+        "m1": "3.48"
+      },
+      {
+        "p": {
+          "name": "2D Image head pose estimation via latent space regression under occlusion settings",
+          "link": "https://arxiv.org/abs/2311.06038v1"
+        },
+        "c": "https://github.com/sipg-isr/Occlusion_HPE",
+        "n": "LSR",
+        "d": "2023-11-10",
+        "m1": "3.519"
+      },
+      {
+        "p": {
+          "name": "On the power of data augmentation for head pose estimation",
+          "link": "https://arxiv.org/abs/2407.05357v3"
+        },
+        "c": "https://github.com/opentrack/neuralnet-tracker-traincode",
+        "n": "OpNet",
+        "d": "2024-07-07",
+        "m1": "3.57",
+        "m3": "7.01",
+        "m4": "2.65",
+        "m5": "4.72"
+      },
+      {
+        "p": {
+          "name": "Multi-task head pose estimation in-the-wild",
+          "link": "https://arxiv.org/abs/2202.02299v1"
+        },
+        "c": "https://github.com/bobetocalo/bobetocalo_pami20",
+        "n": "MNN",
+        "d": "2020-12-22",
+        "m1": "3.66"
+      },
+      {
+        "p": {
+          "name": "img2pose: Face Alignment and Detection via 6DoF, Face Pose Estimation",
+          "link": "https://arxiv.org/abs/2012.07791v2"
+        },
+        "c": "https://github.com/vitoralbiero/img2pose",
+        "n": "img2pose",
+        "d": "2020-12-14",
+        "m1": "3.786",
+        "m3": "7.10",
+        "m4": "3.4",
+        "m5": "6.23"
+      },
+      {
+        "p": {
+          "name": "WHENet: Real-time Fine-Grained Estimation for Wide Range Head Pose",
+          "link": "https://arxiv.org/abs/2005.10353v2"
+        },
+        "c": "https://github.com/sizhean/panohead",
+        "n": "WHENet",
+        "d": "2020-05-20",
+        "m1": "3.81"
+      },
+      {
+        "p": {
+          "name": "On the representation and methodology for wide and short range head pose estimation",
+          "link": "https://arxiv.org/abs/2401.05807v1"
+        },
+        "c": "https://github.com/pcr-upm/opal23_headpose",
+        "n": "SRHP-6D",
+        "d": "2024-01-11",
+        "m1": "3.98",
+        "m3": "7.30",
+        "m4": "3.21",
+        "m5": "5.48"
+      },
+      {
+        "p": {
+          "name": "FSA-Net: Learning Fine-Grained Structure Aggregation for Head Pose Estimation From a Single Image",
+          "link": "http://openaccess.thecvf.com/content_CVPR_2019/html/Yang_FSA-Net_Learning_Fine-Grained_Structure_Aggregation_for_Head_Pose_Estimation_From_CVPR_2019_paper.html"
+        },
+        "c": "https://github.com/shamangary/FSA-Net",
+        "n": "FSA-Net (Caps-Fusion)",
+        "d": "2019-06-01",
+        "m1": "4.00",
+        "m3": "7.64",
+        "m4": "2.92",
+        "m5": "5.36"
+      },
+      {
+        "p": {
+          "name": "On the representation and methodology for wide and short range head pose estimation",
+          "link": "https://arxiv.org/abs/2401.05807v1"
+        },
+        "c": "https://github.com/pcr-upm/opal23_headpose",
+        "n": "SRHP-Euler",
+        "d": "2024-01-11",
+        "m1": "4.13",
+        "m3": "7.49",
+        "m4": "3.16",
+        "m5": "5.42"
+      },
+      {
+        "p": {
+          "name": "Deep Head Pose Estimation Using Synthetic Images and Partial Adversarial Domain Adaption for Continuous Label Spaces",
+          "link": "http://openaccess.thecvf.com/content_ICCV_2019/html/Kuhnke_Deep_Head_Pose_Estimation_Using_Synthetic_Images_and_Partial_Adversarial_ICCV_2019_paper.html"
+        },
+        "c": "",
+        "n": "PADACO",
+        "d": "2019-10-01",
+        "m1": "4.13"
+      },
+      {
+        "p": {
+          "name": "A Data-Driven Approach to Improve 3D Head-Pose Estimation",
+          "link": "https://link.springer.com/chapter/10.1007/978-3-030-90439-5_43"
+        },
+        "c": "",
+        "n": "DDD-Pose",
+        "d": "2022-01-01",
+        "m1": "4.52",
+        "m2": "2.80"
+      },
+      {
+        "p": {
+          "name": "img2pose: Face Alignment and Detection via 6DoF, Face Pose Estimation",
+          "link": "https://arxiv.org/abs/2012.07791v2"
+        },
+        "c": "https://github.com/vitoralbiero/img2pose",
+        "n": "RetinaFace R-50 (5 points)",
+        "d": "2020-12-14",
+        "m1": "4.578"
+      },
+      {
+        "p": {
+          "name": "Fine-Grained Head Pose Estimation Without Keypoints",
+          "link": "http://arxiv.org/abs/1710.00925v5"
+        },
+        "c": "https://github.com/natanielruiz/deep-head-pose",
+        "n": "hopenet",
+        "d": "2017-10-02",
+        "m1": "4.89",
+        "m3": "9.53",
+        "m4": "3.48",
+        "m5": "6.6"
+      },
+      {
+        "p": {
+          "name": "How far are we from solving the 2D & 3D Face Alignment problem? (and a dataset of 230,000 3D facial landmarks)",
+          "link": "http://arxiv.org/abs/1703.07332v3"
+        },
+        "c": "https://github.com/1adrianb/face-alignment",
+        "n": "FAN (12 points)",
+        "d": "2017-03-21",
+        "m1": "7.882"
+      },
+      {
+        "p": {
+          "name": "KEPLER: Keypoint and Pose Estimation of Unconstrained Faces by Learning Efficient H-CNN Regressors",
+          "link": "http://arxiv.org/abs/1702.05085v1"
+        },
+        "c": "",
+        "n": "KEPLER",
+        "d": "2017-02-16",
+        "m1": "13.852"
+      },
+      {
+        "p": {
+          "name": "Face Alignment Across Large Poses: A 3D Solution",
+          "link": "http://arxiv.org/abs/1511.07212v1"
+        },
+        "c": "",
+        "n": "3DDFA",
+        "d": "2015-11-23",
+        "m1": "19.068"
+      },
+      {
+        "p": {
+          "name": "Dynamic Facial Analysis: From Bayesian Filtering to Recurrent Neural Network",
+          "link": "http://openaccess.thecvf.com/content_cvpr_2017/html/Gu_Dynamic_Facial_Analysis_CVPR_2017_paper.html"
+        },
+        "c": "",
+        "n": "VGGNet-RNN",
+        "d": "2017-07-01",
+        "m2": "1.413"
+      },
+      {
+        "p": {
+          "name": "Deep Ordinal Regression with Label Diversity",
+          "link": "https://arxiv.org/abs/2006.15864v1"
+        },
+        "c": "https://github.com/axeber01/dold",
+        "n": "Direct Regression",
+        "d": "2020-06-29",
+        "m2": "2.54"
+      },
+      {
+        "p": {
+          "name": "Hybrid coarse-fine classification for head pose estimation",
+          "link": "https://arxiv.org/abs/1901.06778v2"
+        },
+        "c": "https://github.com/haofanwang/accurate-head-pose",
+        "n": "Hybrid Coarse-Fine",
+        "d": "2019-01-21",
+        "m2": "3.0174"
+      },
+      {
+        "p": {
+          "name": "An Effective Deep Network for Head Pose Estimation without Keypoints",
+          "link": "https://arxiv.org/abs/2210.13705v1"
+        },
+        "c": "",
+        "n": "EHPNet",
+        "d": "2022-10-25",
+        "m2": "3.43"
+      },
+      {
+        "p": {
+          "name": "DAD-3DHeads: A Large-scale Dense, Accurate and Diverse Dataset for 3D Head Alignment from a Single Image",
+          "link": "https://arxiv.org/abs/2204.03688v2"
+        },
+        "c": "https://github.com/PinataFarms/DAD-3DHeads",
+        "n": "DAD-3DNet",
+        "d": "2022-04-07",
+        "m2": "3.98"
+      },
+      {
+        "p": {
+          "name": "An Intuitive and Unconstrained 2D Cube Representation for Simultaneous Head Detection and Pose Estimation",
+          "link": "https://arxiv.org/abs/2212.03623v1"
+        },
+        "c": "",
+        "n": "2DCube",
+        "d": "2022-12-07",
+        "m2": "4.31"
+      },
+      {
+        "p": {
+          "name": "Fine-Grained Head Pose Estimation Without Keypoints",
+          "link": "http://arxiv.org/abs/1710.00925v5"
+        },
+        "c": "https://github.com/natanielruiz/deep-head-pose",
+        "n": "Multi-Loss ResNet50",
+        "d": "2017-10-02",
+        "m2": "4.895"
+      },
+      {
+        "p": {
+          "name": "Towards Robust and Unconstrained Full Range of Rotation Head Pose Estimation",
+          "link": "https://arxiv.org/abs/2309.07654v1"
+        },
+        "c": "https://github.com/thohemp/6drepnet360",
+        "n": "6DRepNet",
+        "d": "2023-09-14",
+        "m6": "5.32"
+      }
+    ]
+  }
+}

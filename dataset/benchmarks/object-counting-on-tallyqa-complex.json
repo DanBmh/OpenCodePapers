@@ -1,0 +1,105 @@
+{
+  "title": "object-counting-on-tallyqa-complex",
+  "task-hierarchy": [
+    "Object Counting"
+  ],
+  "dataset-info": {
+    "link": "http://www.manojacharya.com/tallyqa.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "RMSE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Omni-SMoLA: Boosting Generalist Multimodal Models with Soft Mixture of Low-rank Experts",
+          "link": "https://arxiv.org/abs/2312.00968v2"
+        },
+        "c": "",
+        "n": "SMoLA-PaLI-X Specialist",
+        "d": "2023-12-01",
+        "m1": "77.1"
+      },
+      {
+        "p": {
+          "name": "Visual Program Distillation: Distilling Tools and Programmatic Reasoning into Vision-Language Models",
+          "link": "https://arxiv.org/abs/2312.03052v2"
+        },
+        "c": "",
+        "n": "PaLI-X-VPD",
+        "d": "2023-12-05",
+        "m1": "76.6"
+      },
+      {
+        "p": {
+          "name": "Omni-SMoLA: Boosting Generalist Multimodal Models with Soft Mixture of Low-rank Experts",
+          "link": "https://arxiv.org/abs/2312.00968v2"
+        },
+        "c": "",
+        "n": "SMoLA-PaLI-X Generalist (0 shot)",
+        "d": "2023-12-01",
+        "m1": "70.7"
+      },
+      {
+        "p": {
+          "name": "MoVie: Revisiting Modulated Convolutions for Visual Counting and Beyond",
+          "link": "https://arxiv.org/abs/2004.11883v3"
+        },
+        "c": "https://github.com/facebookresearch/mmf/tree/master/projects/movie_mcan",
+        "n": "MoVie-ResNeXt",
+        "d": "2020-04-24",
+        "m1": "56.8",
+        "m2": "1.43"
+      },
+      {
+        "p": {
+          "name": "TallyQA: Answering Complex Counting Questions",
+          "link": "http://arxiv.org/abs/1810.12440v2"
+        },
+        "c": "https://github.com/manoja328/tallyqacode",
+        "n": "RCN",
+        "d": "2018-10-29",
+        "m1": "56.2",
+        "m2": "1.43"
+      },
+      {
+        "p": {
+          "name": "MoVie: Revisiting Modulated Convolutions for Visual Counting and Beyond",
+          "link": "https://arxiv.org/abs/2004.11883v3"
+        },
+        "c": "https://github.com/facebookresearch/mmf/tree/master/projects/movie_mcan",
+        "n": "MoVie",
+        "d": "2020-04-24",
+        "m1": "54.1",
+        "m2": "1.52"
+      }
+    ]
+  }
+}

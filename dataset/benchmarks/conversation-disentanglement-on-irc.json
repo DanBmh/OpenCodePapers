@@ -1,0 +1,127 @@
+{
+  "title": "conversation-disentanglement-on-irc",
+  "task-hierarchy": [
+    "Dialogue",
+    "Conversation Disentanglement"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/jkkummerfeld/irc-disentanglement"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "VI",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "1-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "P",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "R",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "F",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Pre-Trained and Attention-Based Neural Networks for Building Noetic Task-Oriented Dialogue Systems",
+          "link": "https://arxiv.org/abs/2004.01940v1"
+        },
+        "c": "",
+        "n": "BERT + BiLSTM",
+        "d": "2020-04-04",
+        "m1": "93.3",
+        "m3": "44.3",
+        "m4": "49.6",
+        "m5": "46.8"
+      },
+      {
+        "p": {
+          "name": "A Large-Scale Corpus for Conversation Disentanglement",
+          "link": "https://arxiv.org/abs/1810.11118v2"
+        },
+        "c": "https://github.com/jkkummerfeld/irc-disentanglement",
+        "n": "FF ensemble: Vote",
+        "d": "2018-10-25",
+        "m1": "91.5",
+        "m2": "76.0",
+        "m3": "36.3",
+        "m4": "39.7",
+        "m5": "38.0"
+      },
+      {
+        "p": {
+          "name": "A Large-Scale Corpus for Conversation Disentanglement",
+          "link": "https://arxiv.org/abs/1810.11118v2"
+        },
+        "c": "https://github.com/jkkummerfeld/irc-disentanglement",
+        "n": "Feedforward",
+        "d": "2018-10-25",
+        "m1": "91.3",
+        "m2": "75.6",
+        "m3": "34.6",
+        "m4": "38.0",
+        "m5": "36.2"
+      },
+      {
+        "p": {
+          "name": "You Talking to Me? A Corpus and Algorithm for Conversation Disentanglement",
+          "link": "https://aclanthology.org/P08-1095"
+        },
+        "c": "",
+        "n": "Linear",
+        "d": "2008-06-01",
+        "m1": "82.1",
+        "m2": "51.4",
+        "m3": "12.1",
+        "m4": "21.5",
+        "m5": "15.5"
+      },
+      {
+        "p": {
+          "name": "A Large-Scale Corpus for Conversation Disentanglement",
+          "link": "https://arxiv.org/abs/1810.11118v2"
+        },
+        "c": "https://github.com/jkkummerfeld/irc-disentanglement",
+        "n": "FF ensemble: Intersect",
+        "d": "2018-10-25",
+        "m1": "69.3",
+        "m2": "26.6",
+        "m3": "67.0",
+        "m4": "21.1",
+        "m5": "32.1"
+      }
+    ]
+  }
+}

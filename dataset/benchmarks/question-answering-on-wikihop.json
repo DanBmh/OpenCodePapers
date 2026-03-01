@@ -1,0 +1,127 @@
+{
+  "title": "question-answering-on-wikihop",
+  "task-hierarchy": [
+    "Question Answering"
+  ],
+  "dataset-info": {
+    "link": "http://qangaroo.cs.ucl.ac.uk/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Test",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Big Bird: Transformers for Longer Sequences",
+          "link": "https://arxiv.org/abs/2007.14062v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "BigBird-etc",
+        "d": "2020-07-28",
+        "m1": "82.3"
+      },
+      {
+        "p": {
+          "name": "Longformer: The Long-Document Transformer",
+          "link": "https://arxiv.org/abs/2004.05150v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Longformer-large",
+        "d": "2020-04-10",
+        "m1": "81.9"
+      },
+      {
+        "p": {
+          "name": "LUKE-Graph: A Transformer-based Approach with Gated Relational Graph Attention for Cloze-style Reading Comprehension",
+          "link": "https://arxiv.org/abs/2303.06675v1"
+        },
+        "c": "",
+        "n": "LUKE-Graph",
+        "d": "2023-03-12",
+        "m1": "81.0"
+      },
+      {
+        "p": {
+          "name": "Multi-hop Question Answering via Reasoning Chains",
+          "link": "https://arxiv.org/abs/1910.02610v2"
+        },
+        "c": "https://github.com/soujanyarbhat/aNswER_multirc",
+        "n": "MultiHop (Chen et al., [2019a])",
+        "d": "2019-10-07",
+        "m1": "76.5"
+      },
+      {
+        "p": {
+          "name": "Coarse-grain Fine-grain Coattention Network for Multi-evidence Question Answering",
+          "link": "https://arxiv.org/abs/1901.00603v2"
+        },
+        "c": "",
+        "n": "CFC",
+        "d": "2019-01-03",
+        "m1": "70.6"
+      },
+      {
+        "p": {
+          "name": "Exploring Graph-structured Passage Representation for Multi-hop Reading Comprehension with Graph Neural Networks",
+          "link": "http://arxiv.org/abs/1809.02040v1"
+        },
+        "c": "",
+        "n": "MHQA",
+        "d": "2018-09-06",
+        "m1": "65.4"
+      },
+      {
+        "p": {
+          "name": "Neural Models for Reasoning over Multiple Mentions using Coreference",
+          "link": "http://arxiv.org/abs/1804.05922v1"
+        },
+        "c": "",
+        "n": "Coref-GRU",
+        "d": "2018-04-16",
+        "m1": "59.3"
+      },
+      {
+        "p": {
+          "name": "Commonsense for Generative Multi-Hop Question Answering Tasks",
+          "link": "https://arxiv.org/abs/1809.06309v3"
+        },
+        "c": "https://github.com/yicheng-w/CommonSenseMultiHopQA",
+        "n": "MHPGM + NOIC",
+        "d": "2018-09-17",
+        "m1": "57.9"
+      },
+      {
+        "p": {
+          "name": "Constructing Datasets for Multi-hop Reading Comprehension Across Documents",
+          "link": "http://arxiv.org/abs/1710.06481v2"
+        },
+        "c": "",
+        "n": "BiDAF",
+        "d": "2017-10-17",
+        "m1": "42.9"
+      }
+    ]
+  }
+}

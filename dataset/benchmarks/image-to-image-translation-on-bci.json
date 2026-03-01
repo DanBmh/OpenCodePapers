@@ -1,0 +1,86 @@
+{
+  "title": "image-to-image-translation-on-bci",
+  "task-hierarchy": [
+    "Image-to-Image Translation"
+  ],
+  "dataset-info": {
+    "link": "https://bupt-ai-cz.github.io/BCI/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Average PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "BCI: Breast Cancer Immunohistochemical Image Generation through Pyramid Pix2pix",
+          "link": "https://arxiv.org/abs/2204.11425v2"
+        },
+        "c": "https://github.com/bupt-ai-cz/BCI",
+        "n": "pyramidpix2pix",
+        "d": "2022-04-25",
+        "m1": "21.160",
+        "m2": "0.477"
+      },
+      {
+        "p": {
+          "name": "BCI: Breast Cancer Immunohistochemical Image Generation through Pyramid Pix2pix",
+          "link": "https://arxiv.org/abs/2204.11425v2"
+        },
+        "c": "https://github.com/bupt-ai-cz/BCI",
+        "n": "pix2pixHD",
+        "d": "2022-04-25",
+        "m1": "19.634",
+        "m2": "0.471"
+      },
+      {
+        "p": {
+          "name": "BCI: Breast Cancer Immunohistochemical Image Generation through Pyramid Pix2pix",
+          "link": "https://arxiv.org/abs/2204.11425v2"
+        },
+        "c": "https://github.com/bupt-ai-cz/BCI",
+        "n": "pix2pix",
+        "d": "2022-04-25",
+        "m1": "19.328",
+        "m2": "0.440"
+      },
+      {
+        "p": {
+          "name": "BCI: Breast Cancer Immunohistochemical Image Generation through Pyramid Pix2pix",
+          "link": "https://arxiv.org/abs/2204.11425v2"
+        },
+        "c": "https://github.com/bupt-ai-cz/BCI",
+        "n": "cycleGAN",
+        "d": "2022-04-25",
+        "m1": "16.203",
+        "m2": "0.373"
+      }
+    ]
+  }
+}

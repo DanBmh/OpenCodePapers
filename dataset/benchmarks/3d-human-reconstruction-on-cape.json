@@ -1,0 +1,96 @@
+{
+  "title": "3d-human-reconstruction-on-cape",
+  "task-hierarchy": [
+    "Reconstruction",
+    "3D Human Reconstruction"
+  ],
+  "dataset-info": {
+    "link": "https://cape.is.tue.mpg.de/dataset.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Chamfer (cm)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "P2S (cm)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "NC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "ICON: Implicit Clothed humans Obtained from Normals",
+          "link": "https://arxiv.org/abs/2112.09127v2"
+        },
+        "c": "https://github.com/yuliangxiu/icon",
+        "n": "ICON",
+        "d": "2021-12-16",
+        "m1": "1.142",
+        "m2": "1.065",
+        "m3": "0.066"
+      },
+      {
+        "p": {
+          "name": "PaMIR: Parametric Model-Conditioned Implicit Representation for Image-based Human Reconstruction",
+          "link": "https://arxiv.org/abs/2007.03858v2"
+        },
+        "c": "https://github.com/ZhengZerong/PaMIR",
+        "n": "PaMIR",
+        "d": "2020-07-08",
+        "m1": "2.122",
+        "m2": "1.495",
+        "m3": "0.088"
+      },
+      {
+        "p": {
+          "name": "PIFuHD: Multi-Level Pixel-Aligned Implicit Function for High-Resolution 3D Human Digitization",
+          "link": "https://arxiv.org/abs/2004.00452v1"
+        },
+        "c": "https://github.com/facebookresearch/pifuhd",
+        "n": "PIFuHD",
+        "d": "2020-04-01",
+        "m1": "3.237",
+        "m2": "3.123",
+        "m3": "0.112"
+      },
+      {
+        "p": {
+          "name": "PIFu: Pixel-Aligned Implicit Function for High-Resolution Clothed Human Digitization",
+          "link": "https://arxiv.org/abs/1905.05172v3"
+        },
+        "c": "https://github.com/shunsukesaito/PIFu",
+        "n": "PIFu (THuman2.0)",
+        "d": "2019-05-13",
+        "m1": "3.573",
+        "m2": "1.483",
+        "m3": "0.186"
+      }
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "title": "thermal-image-segmentation-on-kp-day-night",
+  "task-hierarchy": [
+    "Semantic Segmentation",
+    "Scene Segmentation",
+    "Thermal Image Segmentation"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "HAPNet: Toward Superior RGB-Thermal Scene Parsing via Hybrid, Asymmetric, and Progressive Heterogeneous Feature Fusion",
+          "link": "https://arxiv.org/abs/2404.03527v2"
+        },
+        "c": "https://github.com/LiJiahang617/HAPNet",
+        "n": "HAPNet",
+        "d": "2024-04-04",
+        "m1": "57.6"
+      },
+      {
+        "p": {
+          "name": "Complementary Random Masking for RGB-Thermal Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2303.17386v2"
+        },
+        "c": "https://github.com/UkcheolShin/CRM_RGBTSeg",
+        "n": "CRM_RGBTSeg",
+        "d": "2023-03-30",
+        "m1": "55.2"
+      },
+      {
+        "p": {
+          "name": "CMX: Cross-Modal Fusion for RGB-X Semantic Segmentation with Transformers",
+          "link": "https://arxiv.org/abs/2203.04838v5"
+        },
+        "c": "https://github.com/huaaaliu/rgbx_semantic_segmentation",
+        "n": "CMX",
+        "d": "2022-03-09",
+        "m1": "46.2"
+      },
+      {
+        "p": {
+          "name": "RTFNet: RGB-Thermal Fusion Network for Semantic Segmentation of Urban Scenes",
+          "link": "https://ieeexplore.ieee.org/abstract/document/8666745"
+        },
+        "c": "https://github.com/yuxiangsun/RTFNet",
+        "n": "RTFNet",
+        "d": "2019-03-13",
+        "m1": "28.7"
+      },
+      {
+        "p": {
+          "name": "MFNet: Towards real-time semantic segmentation for autonomous vehicles with multi-spectral scenes",
+          "link": "https://ieeexplore.ieee.org/abstract/document/8206396"
+        },
+        "c": "",
+        "n": "MFNet",
+        "d": "2017-12-14",
+        "m1": "24.0"
+      }
+    ]
+  }
+}

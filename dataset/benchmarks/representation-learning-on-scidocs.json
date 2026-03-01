@@ -1,0 +1,107 @@
+{
+  "title": "representation-learning-on-scidocs",
+  "task-hierarchy": [
+    "Representation Learning"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/allenai/scidocs"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Avg.",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Neighborhood Contrastive Learning for Scientific Document Representations with Citation Embeddings",
+          "link": "https://arxiv.org/abs/2202.06671v2"
+        },
+        "c": "https://github.com/malteos/scincl",
+        "n": "SciNCL",
+        "d": "2022-02-14",
+        "m1": "81.8"
+      },
+      {
+        "p": {
+          "name": "SPECTER: Document-level Representation Learning using Citation-informed Transformers",
+          "link": "https://arxiv.org/abs/2004.07180v4"
+        },
+        "c": "https://github.com/allenai/specter",
+        "n": "SPECTER",
+        "d": "2020-04-15",
+        "m1": "80.0"
+      },
+      {
+        "p": {
+          "name": "SPECTER: Document-level Representation Learning using Citation-informed Transformers",
+          "link": "https://arxiv.org/abs/2004.07180v4"
+        },
+        "c": "https://github.com/allenai/specter",
+        "n": "Citeomatic",
+        "d": "2020-04-15",
+        "m1": "76.0"
+      },
+      {
+        "p": {
+          "name": "Neighborhood Contrastive Learning for Scientific Document Representations with Citation Embeddings",
+          "link": "https://arxiv.org/abs/2202.06671v2"
+        },
+        "c": "https://github.com/malteos/scincl",
+        "n": "Sci-DeCLUTR",
+        "d": "2022-02-14",
+        "m1": "66.6"
+      },
+      {
+        "p": {
+          "name": "SPECTER: Document-level Representation Learning using Citation-informed Transformers",
+          "link": "https://arxiv.org/abs/2004.07180v4"
+        },
+        "c": "https://github.com/allenai/specter",
+        "n": "SciBERT",
+        "d": "2020-04-15",
+        "m1": "59.6"
+      },
+      {
+        "p": {
+          "name": "BioBERT: a pre-trained biomedical language representation model for biomedical text mining",
+          "link": "https://arxiv.org/abs/1901.08746v4"
+        },
+        "c": "https://github.com/dmis-lab/biobert",
+        "n": "BioBERT",
+        "d": "2019-01-25",
+        "m1": "58.8"
+      },
+      {
+        "p": {
+          "name": "Neighborhood Contrastive Learning for Scientific Document Representations with Citation Embeddings",
+          "link": "https://arxiv.org/abs/2202.06671v2"
+        },
+        "c": "https://github.com/malteos/scincl",
+        "n": "CiteBERT",
+        "d": "2022-02-14",
+        "m1": "58.8"
+      }
+    ]
+  }
+}

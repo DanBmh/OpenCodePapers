@@ -1,0 +1,67 @@
+{
+  "title": "question-answering-on-vnhsge-english",
+  "task-hierarchy": [
+    "Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/Xdao85/VNHSGE"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "VNHSGE: VietNamese High School Graduation Examination Dataset for Large Language Models",
+          "link": "https://arxiv.org/abs/2305.12199v1"
+        },
+        "c": "https://github.com/xdao85/vnhsge",
+        "n": "Bing Chat",
+        "d": "2023-05-20",
+        "m1": "92.4"
+      },
+      {
+        "p": {
+          "name": "Performance Comparison of Large Language Models on VNHSGE English Dataset: OpenAI ChatGPT, Microsoft Bing Chat, and Google Bard",
+          "link": "https://arxiv.org/abs/2307.02288v3"
+        },
+        "c": "",
+        "n": "Bard",
+        "d": "2023-07-05",
+        "m1": "86"
+      },
+      {
+        "p": {
+          "name": "VNHSGE: VietNamese High School Graduation Examination Dataset for Large Language Models",
+          "link": "https://arxiv.org/abs/2305.12199v1"
+        },
+        "c": "https://github.com/xdao85/vnhsge",
+        "n": "ChatGPT",
+        "d": "2023-05-20",
+        "m1": "79.2"
+      }
+    ]
+  }
+}

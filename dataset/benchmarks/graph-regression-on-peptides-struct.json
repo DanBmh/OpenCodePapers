@@ -1,0 +1,427 @@
+{
+  "title": "graph-regression-on-peptides-struct",
+  "task-hierarchy": [
+    "Graph Regression"
+  ],
+  "dataset-info": {
+    "link": "http://github.com/vijaydwivedi75/lrgb"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MAE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "An end-to-end attention-based approach for learning on graphs",
+          "link": "https://arxiv.org/abs/2402.10793v2"
+        },
+        "c": "https://github.com/davidbuterez/edge-set-attention",
+        "n": "ESA + RWSE (Edge set attention, Random Walk Structural Encoding, tuned)",
+        "d": "2024-02-16",
+        "m1": "0.2393±0.0004"
+      },
+      {
+        "p": {
+          "name": "Next Level Message-Passing with Hierarchical Support Graphs",
+          "link": "https://arxiv.org/abs/2406.15852v2"
+        },
+        "c": "https://github.com/carlosinator/support-graphs",
+        "n": "GatedGCN-HSG",
+        "d": "2024-06-22",
+        "m1": "0.2421±0.0007"
+      },
+      {
+        "p": {
+          "name": "Unlocking the Potential of Classic GNNs for Graph-level Tasks: Simple Architectures Meet Excellence",
+          "link": "https://arxiv.org/abs/2502.09263v1"
+        },
+        "c": "https://github.com/LUOyk1999/GNNPlus",
+        "n": "GCN+",
+        "d": "2025-02-13",
+        "m1": "0.2421 ± 0.0016"
+      },
+      {
+        "p": {
+          "name": "Molecular Fingerprints Are Strong Models for Peptide Function Prediction",
+          "link": "https://arxiv.org/abs/2501.17901v1"
+        },
+        "c": "https://github.com/arch4ngel21/scikit-fingerprints",
+        "n": "ECFP + LightGBM",
+        "d": "2025-01-29",
+        "m1": "0.2432"
+      },
+      {
+        "p": {
+          "name": "Molecular Fingerprints Are Strong Models for Peptide Function Prediction",
+          "link": "https://arxiv.org/abs/2501.17901v1"
+        },
+        "c": "https://github.com/arch4ngel21/scikit-fingerprints",
+        "n": "TT + LightGBM",
+        "d": "2025-01-29",
+        "m1": "0.2438"
+      },
+      {
+        "p": {
+          "name": "A Generalization of ViT/MLP-Mixer to Graphs",
+          "link": "https://arxiv.org/abs/2212.13350v2"
+        },
+        "c": "https://github.com/XiaoxinHe/Graph-ViT-MLPMixer",
+        "n": "Graph ViT",
+        "d": "2022-12-27",
+        "m1": "0.2449±0.0016"
+      },
+      {
+        "p": {
+          "name": "Multiresolution Graph Transformers and Wavelet Positional Encoding for Learning Hierarchical Structures",
+          "link": "https://arxiv.org/abs/2302.08647v4"
+        },
+        "c": "https://github.com/vijaydwivedi75/lrgb",
+        "n": "MGT+WavePE",
+        "d": "2023-02-17",
+        "m1": "0.2453±0.0025"
+      },
+      {
+        "p": {
+          "name": "An end-to-end attention-based approach for learning on graphs",
+          "link": "https://arxiv.org/abs/2402.10793v2"
+        },
+        "c": "https://github.com/davidbuterez/edge-set-attention",
+        "n": "ESA (Edge set attention, no positional encodings, not tuned)",
+        "d": "2024-02-16",
+        "m1": "0.2453±0.0003"
+      },
+      {
+        "p": {
+          "name": "Molecular Fingerprints Are Strong Models for Peptide Function Prediction",
+          "link": "https://arxiv.org/abs/2501.17901v1"
+        },
+        "c": "https://github.com/arch4ngel21/scikit-fingerprints",
+        "n": "RDKit + LightGBM",
+        "d": "2025-01-29",
+        "m1": "0.2459"
+      },
+      {
+        "p": {
+          "name": "Graph Inductive Biases in Transformers without Message Passing",
+          "link": "https://arxiv.org/abs/2305.17589v1"
+        },
+        "c": "https://github.com/liamma/grit",
+        "n": "GRIT",
+        "d": "2023-05-27",
+        "m1": "0.2460±0.0012"
+      },
+      {
+        "p": {
+          "name": "Where Did the Gap Go? Reassessing the Long-Range Graph Benchmark",
+          "link": "https://arxiv.org/abs/2309.00367v2"
+        },
+        "c": "https://github.com/toenshoff/lrgb",
+        "n": "GCN-tuned",
+        "d": "2023-09-01",
+        "m1": "0.2460±0.0007"
+      },
+      {
+        "p": {
+          "name": "Diffusing Graph Attention",
+          "link": "https://arxiv.org/abs/2303.00613v1"
+        },
+        "c": "",
+        "n": "Graph Diffuser",
+        "d": "2023-03-01",
+        "m1": "0.2461±0.0010"
+      },
+      {
+        "p": {
+          "name": "Learning Long Range Dependencies on Graphs via Random Walks",
+          "link": "https://arxiv.org/abs/2406.03386v2"
+        },
+        "c": "https://github.com/borgwardtlab/neuralwalker",
+        "n": "NeuralWalker",
+        "d": "2024-06-05",
+        "m1": "0.2463 ± 0.0005"
+      },
+      {
+        "p": {
+          "name": "Where Did the Gap Go? Reassessing the Long-Range Graph Benchmark",
+          "link": "https://arxiv.org/abs/2309.00367v2"
+        },
+        "c": "https://github.com/toenshoff/lrgb",
+        "n": "GINE-tuned",
+        "d": "2023-09-01",
+        "m1": "0.2473±0.0017"
+      },
+      {
+        "p": {
+          "name": "A Generalization of ViT/MLP-Mixer to Graphs",
+          "link": "https://arxiv.org/abs/2212.13350v2"
+        },
+        "c": "https://github.com/XiaoxinHe/Graph-ViT-MLPMixer",
+        "n": "GraphMLPMixer",
+        "d": "2022-12-27",
+        "m1": "0.2475±0.0015"
+      },
+      {
+        "p": {
+          "name": "Where Did the Gap Go? Reassessing the Long-Range Graph Benchmark",
+          "link": "https://arxiv.org/abs/2309.00367v2"
+        },
+        "c": "https://github.com/toenshoff/lrgb",
+        "n": "GatedGCN-tuned",
+        "d": "2023-09-01",
+        "m1": "0.2477±0.0009"
+      },
+      {
+        "p": {
+          "name": "CKGConv: General Graph Convolution with Continuous Kernels",
+          "link": "https://arxiv.org/abs/2404.13604v2"
+        },
+        "c": "https://github.com/networkslab/ckgconv",
+        "n": "CKGCN",
+        "d": "2024-04-21",
+        "m1": "0.2477"
+      },
+      {
+        "p": {
+          "name": "Exphormer: Sparse Transformers for Graphs",
+          "link": "https://arxiv.org/abs/2303.06147v2"
+        },
+        "c": "https://github.com/hamed1375/exphormer",
+        "n": "Exphormer",
+        "d": "2023-03-10",
+        "m1": "0.2481±0.0007"
+      },
+      {
+        "p": {
+          "name": "Topology-Informed Graph Transformer",
+          "link": "https://arxiv.org/abs/2402.02005v1"
+        },
+        "c": "https://github.com/leemingo/tigt",
+        "n": "TIGT",
+        "d": "2024-02-03",
+        "m1": "0.2485"
+      },
+      {
+        "p": {
+          "name": "On the Connection Between MPNN and Graph Transformer",
+          "link": "https://arxiv.org/abs/2301.11956v4"
+        },
+        "c": "https://github.com/chen-cai-osu/mpnn-gt-connection",
+        "n": "GCN+virtual node",
+        "d": "2023-01-27",
+        "m1": "0.2488±0.0021"
+      },
+      {
+        "p": {
+          "name": "Pure Transformers are Powerful Graph Learners",
+          "link": "https://arxiv.org/abs/2207.02505v2"
+        },
+        "c": "https://github.com/jw9730/tokengt",
+        "n": "TokenGT",
+        "d": "2022-07-06",
+        "m1": "0.2489±0.0013"
+      },
+      {
+        "p": {
+          "name": "Recipe for a General, Powerful, Scalable Graph Transformer",
+          "link": "https://arxiv.org/abs/2205.12454v4"
+        },
+        "c": "https://github.com/rampasek/GraphGPS",
+        "n": "GPS",
+        "d": "2022-05-25",
+        "m1": "0.2500±0.0005"
+      },
+      {
+        "p": {
+          "name": "From Primes to Paths: Enabling Fast Multi-Relational Graph Analysis",
+          "link": "https://arxiv.org/abs/2411.11149v1"
+        },
+        "c": "https://github.com/kbogas/PAM_BoP",
+        "n": "BoP",
+        "d": "2024-11-17",
+        "m1": "0.25"
+      },
+      {
+        "p": {
+          "name": "Where Did the Gap Go? Reassessing the Long-Range Graph Benchmark",
+          "link": "https://arxiv.org/abs/2309.00367v2"
+        },
+        "c": "https://github.com/toenshoff/lrgb",
+        "n": "GPS-tuned",
+        "d": "2023-09-01",
+        "m1": "0.2509±0.0014"
+      },
+      {
+        "p": {
+          "name": "CIN++: Enhancing Topological Message Passing",
+          "link": "https://arxiv.org/abs/2306.03561v1"
+        },
+        "c": "https://github.com/twitter-research/cwn",
+        "n": "CIN++-500k",
+        "d": "2023-06-06",
+        "m1": "0.2523"
+      },
+      {
+        "p": {
+          "name": "Long Range Graph Benchmark",
+          "link": "https://arxiv.org/abs/2206.08164v4"
+        },
+        "c": "https://github.com/vijaydwivedi75/lrgb",
+        "n": "Transformer+LapPE",
+        "d": "2022-06-16",
+        "m1": "0.2529±0.0016"
+      },
+      {
+        "p": {
+          "name": "DRew: Dynamically Rewired Message Passing with Delay",
+          "link": "https://arxiv.org/abs/2305.08018v2"
+        },
+        "c": "https://github.com/bengutteridge/drew",
+        "n": "DRew-GCN+LapPE",
+        "d": "2023-05-13",
+        "m1": "0.2536±0.0015"
+      },
+      {
+        "p": {
+          "name": "Long Range Graph Benchmark",
+          "link": "https://arxiv.org/abs/2206.08164v4"
+        },
+        "c": "https://github.com/vijaydwivedi75/lrgb",
+        "n": "SAN+RWSE",
+        "d": "2022-06-16",
+        "m1": "0.2545±0.0012"
+      },
+      {
+        "p": {
+          "name": "Path Neural Networks: Expressive and Accurate Graph Neural Networks",
+          "link": "https://arxiv.org/abs/2306.05955v1"
+        },
+        "c": "https://github.com/gasmichel/pathnns_expressive",
+        "n": "PathNN",
+        "d": "2023-06-09",
+        "m1": "0.2545±0.0032"
+      },
+      {
+        "p": {
+          "name": "Learning Probabilistic Symmetrization for Architecture Agnostic Equivariance",
+          "link": "https://arxiv.org/abs/2306.02866v3"
+        },
+        "c": "https://github.com/jw9730/lps",
+        "n": "ViT-PS",
+        "d": "2023-06-05",
+        "m1": "0.2559"
+      },
+      {
+        "p": {
+          "name": "Neural Priority Queues for Graph Neural Networks",
+          "link": "https://arxiv.org/abs/2307.09660v1"
+        },
+        "c": "",
+        "n": "NPQ+GATv2",
+        "d": "2023-07-18",
+        "m1": "0.2589±0.0031"
+      },
+      {
+        "p": {
+          "name": "Graph Transformers without Positional Encodings",
+          "link": "https://arxiv.org/abs/2401.17791v3"
+        },
+        "c": "",
+        "n": "EIGENFORMER",
+        "d": "2024-01-31",
+        "m1": "0.2599"
+      },
+      {
+        "p": {
+          "name": "Long Range Graph Benchmark",
+          "link": "https://arxiv.org/abs/2206.08164v4"
+        },
+        "c": "https://github.com/vijaydwivedi75/lrgb",
+        "n": "SAN+LapPE",
+        "d": "2022-06-16",
+        "m1": "0.2683±0.0043"
+      },
+      {
+        "p": {
+          "name": "PANDA: Expanded Width-Aware Message Passing Beyond Rewiring",
+          "link": "https://arxiv.org/abs/2406.03671v2"
+        },
+        "c": "https://github.com/jeongwhanchoi/panda",
+        "n": "GCN + PANDA",
+        "d": "2024-06-06",
+        "m1": "0.3272±0.0001"
+      },
+      {
+        "p": {
+          "name": "Long Range Graph Benchmark",
+          "link": "https://arxiv.org/abs/2206.08164v4"
+        },
+        "c": "https://github.com/vijaydwivedi75/lrgb",
+        "n": "GatedGCN+RWSE",
+        "d": "2022-06-16",
+        "m1": "0.3357±0.0006"
+      },
+      {
+        "p": {
+          "name": "Long Range Graph Benchmark",
+          "link": "https://arxiv.org/abs/2206.08164v4"
+        },
+        "c": "https://github.com/vijaydwivedi75/lrgb",
+        "n": "GatedGCN",
+        "d": "2022-06-16",
+        "m1": "0.3420±0.0013"
+      },
+      {
+        "p": {
+          "name": "Simple and Deep Graph Convolutional Networks",
+          "link": "https://arxiv.org/abs/2007.02133v1"
+        },
+        "c": "https://github.com/chennnM/GCNII/tree/master/PyG/ogbn-arxiv",
+        "n": "GCNII",
+        "d": "2020-07-04",
+        "m1": "0.3471±0.0010"
+      },
+      {
+        "p": {
+          "name": "Long Range Graph Benchmark",
+          "link": "https://arxiv.org/abs/2206.08164v4"
+        },
+        "c": "https://github.com/vijaydwivedi75/lrgb",
+        "n": "GCN",
+        "d": "2022-06-16",
+        "m1": "0.3496±0.0013"
+      },
+      {
+        "p": {
+          "name": "Long Range Graph Benchmark",
+          "link": "https://arxiv.org/abs/2206.08164v4"
+        },
+        "c": "https://github.com/vijaydwivedi75/lrgb",
+        "n": "GINE",
+        "d": "2022-06-16",
+        "m1": "0.3547±0.0045"
+      }
+    ]
+  }
+}

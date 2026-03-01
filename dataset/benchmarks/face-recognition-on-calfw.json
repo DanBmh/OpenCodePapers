@@ -1,0 +1,69 @@
+{
+  "title": "face-recognition-on-calfw",
+  "task-hierarchy": [
+    "3D Face Reconstruction",
+    "Facial Recognition and Modelling",
+    "Face Recognition"
+  ],
+  "dataset-info": {
+    "link": "http://whdeng.cn/CALFW/index.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Deep Polynomial Neural Networks",
+          "link": "https://arxiv.org/abs/2006.13026v2"
+        },
+        "c": "https://github.com/Faceplugin-ltd/FaceRecognition-Android",
+        "n": "Prodpoly",
+        "d": "2020-06-20",
+        "m1": "0.96233"
+      },
+      {
+        "p": {
+          "name": "ElasticFace: Elastic Margin Loss for Deep Face Recognition",
+          "link": "https://arxiv.org/abs/2109.09416v4"
+        },
+        "c": "https://github.com/fdbtrs/ElasticFace",
+        "n": "ElasticFace-Arc",
+        "d": "2021-09-20",
+        "m1": "0.9617"
+      },
+      {
+        "p": {
+          "name": "GhostFaceNets: Lightweight Face Recognition Model From Cheap Operations",
+          "link": "https://ieeexplore.ieee.org/document/10098610"
+        },
+        "c": "https://github.com/serengil/deepface",
+        "n": "GhostFaceNetV2-1",
+        "d": "2023-04-10",
+        "m1": "0.9612"
+      }
+    ]
+  }
+}

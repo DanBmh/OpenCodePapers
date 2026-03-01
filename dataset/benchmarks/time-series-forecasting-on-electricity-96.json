@@ -1,0 +1,154 @@
+{
+  "title": "time-series-forecasting-on-electricity-96",
+  "task-hierarchy": [
+    "Time Series Analysis",
+    "Time Series Forecasting"
+  ],
+  "dataset-info": {
+    "link": "https://archive.ics.uci.edu/dataset/321/electricityloaddiagrams20112014"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MSE",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "MAE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "xPatch: Dual-Stream Time Series Forecasting with Exponential Seasonal-Trend Decomposition",
+          "link": "https://arxiv.org/abs/2412.17323v2"
+        },
+        "c": "https://github.com/stitsyuk/xpatch",
+        "n": "xPatch",
+        "d": "2024-12-23",
+        "m1": "0.126",
+        "m2": "0.217"
+      },
+      {
+        "p": {
+          "name": "CycleNet: Enhancing Time Series Forecasting through Modeling Periodic Patterns",
+          "link": "https://arxiv.org/abs/2409.18479v2"
+        },
+        "c": "https://github.com/ACAT-SCUT/CycleNet",
+        "n": "CycleNet",
+        "d": "2024-09-27",
+        "m1": "0.126",
+        "m2": "0.221"
+      },
+      {
+        "p": {
+          "name": "PRformer: Pyramidal Recurrent Transformer for Multivariate Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2408.10483v1"
+        },
+        "c": "https://github.com/usualheart/prformer",
+        "n": "PRformer",
+        "d": "2024-08-20",
+        "m1": "0.127"
+      },
+      {
+        "p": {
+          "name": "Mixture-of-Linear-Experts for Long-term Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2312.06786v3"
+        },
+        "c": "https://github.com/rogerni/mole",
+        "n": "MoLE-RMLP",
+        "d": "2023-12-11",
+        "m1": "0.129"
+      },
+      {
+        "p": {
+          "name": "A Time Series is Worth 64 Words: Long-term Forecasting with Transformers",
+          "link": "https://arxiv.org/abs/2211.14730v2"
+        },
+        "c": "https://github.com/timeseriesAI/tsai",
+        "n": "PatchTST/64",
+        "d": "2022-11-27",
+        "m1": "0.129"
+      },
+      {
+        "p": {
+          "name": "TSMixer: Lightweight MLP-Mixer Model for Multivariate Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2306.09364v4"
+        },
+        "c": "https://github.com/ibm/tsfm",
+        "n": "TSMixer",
+        "d": "2023-06-14",
+        "m1": "0.129"
+      },
+      {
+        "p": {
+          "name": "Mixture-of-Linear-Experts for Long-term Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2312.06786v3"
+        },
+        "c": "https://github.com/rogerni/mole",
+        "n": "MoLE-DLinear",
+        "d": "2023-12-11",
+        "m1": "0.131"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "GLinear",
+        "d": null,
+        "m1": "0.1313",
+        "m2": "0.2258"
+      },
+      {
+        "p": {
+          "name": "Disentangled Interpretable Representation for Efficient Long-term Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2411.17257v1"
+        },
+        "c": "https://github.com/wintertee/dipe-linear",
+        "n": "DiPE-Linear",
+        "d": "2024-11-26",
+        "m1": "0.132"
+      },
+      {
+        "p": {
+          "name": "Are Transformers Effective for Time Series Forecasting?",
+          "link": "https://arxiv.org/abs/2205.13504v3"
+        },
+        "c": "https://github.com/cure-lab/DLinear",
+        "n": "DLinear",
+        "d": "2022-05-26",
+        "m1": "0.14"
+      },
+      {
+        "p": {
+          "name": "Time Evidence Fusion Network: Multi-source View in Long-Term Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2405.06419v3"
+        },
+        "c": "https://github.com/WenjieDu/PyPOTS",
+        "n": "TEFN",
+        "d": "2024-05-10",
+        "m1": "0.197",
+        "m2": "0.273"
+      }
+    ]
+  }
+}

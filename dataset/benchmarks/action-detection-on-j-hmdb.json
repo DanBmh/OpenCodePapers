@@ -1,0 +1,249 @@
+{
+  "title": "action-detection-on-j-hmdb",
+  "task-hierarchy": [
+    "Action Detection"
+  ],
+  "dataset-info": {
+    "link": "http://jhmdb.is.tue.mpg.de/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Frame-mAP 0.5",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Video-mAP 0.2",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Video-mAP 0.5",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Scaling Open-Vocabulary Action Detection",
+          "link": "https://arxiv.org/abs/2504.03096v1"
+        },
+        "c": "https://github.com/siatheindochinese/sia_act_placeholder",
+        "n": "SiA",
+        "d": "2025-04-04",
+        "m1": "88.5"
+      },
+      {
+        "p": {
+          "name": "Holistic Interaction Transformer Network for Action Detection",
+          "link": "https://arxiv.org/abs/2210.12686v2"
+        },
+        "c": "https://github.com/joslefaure/hit",
+        "n": "HIT",
+        "d": "2022-10-23",
+        "m1": "83.8",
+        "m2": "89.7",
+        "m3": "88.1"
+      },
+      {
+        "p": {
+          "name": "Hierarchical Self-Attention Network for Action Localization in Videos",
+          "link": "http://openaccess.thecvf.com/content_ICCV_2019/html/Pramono_Hierarchical_Self-Attention_Network_for_Action_Localization_in_Videos_ICCV_2019_paper.html"
+        },
+        "c": "",
+        "n": "HISAN (VGG-16)",
+        "d": "2019-10-01",
+        "m1": "76.72",
+        "m2": "85.97",
+        "m3": "84.02"
+      },
+      {
+        "p": {
+          "name": "You Only Watch Once: A Unified CNN Architecture for Real-Time Spatiotemporal Action Localization",
+          "link": "https://arxiv.org/abs/1911.06644v5"
+        },
+        "c": "https://github.com/wei-tim/YOWO",
+        "n": "YOWO + LFB",
+        "d": "2019-11-15",
+        "m1": "75.7",
+        "m2": "88.3",
+        "m3": "85.9"
+      },
+      {
+        "p": {
+          "name": "You Only Watch Once: A Unified CNN Architecture for Real-Time Spatiotemporal Action Localization",
+          "link": "https://arxiv.org/abs/1911.06644v5"
+        },
+        "c": "https://github.com/wei-tim/YOWO",
+        "n": "YOWO",
+        "d": "2019-11-15",
+        "m1": "74.4",
+        "m2": "87.8",
+        "m3": "85.7"
+      },
+      {
+        "p": {
+          "name": "Actions as Moving Points",
+          "link": "https://arxiv.org/abs/2001.04608v3"
+        },
+        "c": "https://github.com/MCG-NJU/MOC-Detector",
+        "n": "MOC",
+        "d": "2020-01-14",
+        "m1": "74",
+        "m2": "80.7",
+        "m3": "80.5"
+      },
+      {
+        "p": {
+          "name": "AVA: A Video Dataset of Spatio-temporally Localized Atomic Visual Actions",
+          "link": "http://arxiv.org/abs/1705.08421v4"
+        },
+        "c": "https://github.com/tensorflow/models",
+        "n": "Faster-RCNN + two-stream I3D conv",
+        "d": "2017-05-23",
+        "m1": "73.3",
+        "m3": "78.6"
+      },
+      {
+        "p": {
+          "name": "TACNet: Transition-Aware Context Network for Spatio-Temporal Action Detection",
+          "link": "https://arxiv.org/abs/1905.13417v1"
+        },
+        "c": "",
+        "n": "TACNet",
+        "d": "2019-05-31",
+        "m1": "65.5",
+        "m2": "74.1",
+        "m3": "73.4"
+      },
+      {
+        "p": {
+          "name": "Tube Convolutional Neural Network (T-CNN) for Action Detection in Videos",
+          "link": "http://arxiv.org/abs/1703.10664v3"
+        },
+        "c": "https://github.com/cyberpunk317/Action_detection",
+        "n": "T-CNN",
+        "d": "2017-03-30",
+        "m1": "61.3",
+        "m2": "78.4",
+        "m3": "76.9"
+      },
+      {
+        "p": {
+          "name": "Multi-region two-stream R-CNN for action detection",
+          "link": "https://doi.org/10.1007/978-3-319-46493-0_45"
+        },
+        "c": "",
+        "n": "MR-TS R-CNN",
+        "d": "2016-09-17",
+        "m1": "58.5",
+        "m2": "74.3",
+        "m3": "73.09"
+      },
+      {
+        "p": {
+          "name": "Multi-region two-stream R-CNN for action detection",
+          "link": "https://doi.org/10.1007/978-3-319-46493-0_45"
+        },
+        "c": "",
+        "n": "TS R-CNN",
+        "d": "2016-09-17",
+        "m1": "56.9",
+        "m2": "71.1",
+        "m3": "70.6"
+      },
+      {
+        "p": {
+          "name": "Actionness Estimation Using Hybrid Fully Convolutional Networks",
+          "link": "http://arxiv.org/abs/1604.07279v1"
+        },
+        "c": "",
+        "n": "Actionness",
+        "d": "2016-04-25",
+        "m1": "39.9"
+      },
+      {
+        "p": {
+          "name": "Finding Action Tubes",
+          "link": "http://arxiv.org/abs/1411.6031v1"
+        },
+        "c": "https://github.com/JeffCHEN2017/WSSTG",
+        "n": "Action Tubes",
+        "d": "2014-11-21",
+        "m1": "36.2",
+        "m3": "53.3"
+      },
+      {
+        "p": {
+          "name": "Hierarchical Self-Attention Network for Action Localization in Videos",
+          "link": "http://openaccess.thecvf.com/content_ICCV_2019/html/Pramono_Hierarchical_Self-Attention_Network_for_Action_Localization_in_Videos_ICCV_2019_paper.html"
+        },
+        "c": "",
+        "n": "HISAN (ResNet-101 + FPN)",
+        "d": "2019-10-01",
+        "m2": "87.59",
+        "m3": "86.49"
+      },
+      {
+        "p": {
+          "name": "Finding Action Tubes with a Sparse-to-Dense Framework",
+          "link": "https://arxiv.org/abs/2008.13196v1"
+        },
+        "c": "",
+        "n": "DTS",
+        "d": "2020-08-30",
+        "m2": "76.1",
+        "m3": "74.3"
+      },
+      {
+        "p": {
+          "name": "Dance with Flow: Two-in-One Stream Action Detection",
+          "link": "https://arxiv.org/abs/1904.00696v3"
+        },
+        "c": "https://github.com/jiaozizhao/Two-in-One-ActionDetection",
+        "n": "Two-in-one Two Stream",
+        "d": "2019-04-01",
+        "m3": "74.74"
+      },
+      {
+        "p": {
+          "name": "Dance with Flow: Two-in-One Stream Action Detection",
+          "link": "https://arxiv.org/abs/1904.00696v3"
+        },
+        "c": "https://github.com/jiaozizhao/Two-in-One-ActionDetection",
+        "n": "Two-in-one",
+        "d": "2019-04-01",
+        "m3": "57.96"
+      },
+      {
+        "p": {
+          "name": "Actionness Estimation Using Hybrid Fully Convolutional Networks",
+          "link": "http://arxiv.org/abs/1604.07279v1"
+        },
+        "c": "",
+        "n": "Actionnness",
+        "d": "2016-04-25",
+        "m3": "56.4"
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "title": "pose-estimation-on-itop-top-view",
+  "task-hierarchy": [
+    "Pose Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://zenodo.org/record/3932973"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Mean mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DECA: Deep viewpoint-Equivariant human pose estimation using Capsule Autoencoders",
+          "link": "https://arxiv.org/abs/2108.08557v1"
+        },
+        "c": "https://github.com/mmlab-cv/deca",
+        "n": "DECA-D3",
+        "d": "2021-08-19",
+        "m1": "86.92"
+      },
+      {
+        "p": {
+          "name": "DECA: Deep viewpoint-Equivariant human pose estimation using Capsule Autoencoders",
+          "link": "https://arxiv.org/abs/2108.08557v1"
+        },
+        "c": "https://github.com/mmlab-cv/deca",
+        "n": "DECA-D3",
+        "d": "2021-08-19",
+        "m1": "86.92"
+      },
+      {
+        "p": {
+          "name": "V2V-PoseNet: Voxel-to-Voxel Prediction Network for Accurate 3D Hand and Human Pose Estimation from a Single Depth Map",
+          "link": "http://arxiv.org/abs/1711.07399v3"
+        },
+        "c": "https://github.com/mks0601/V2V-PoseNet_RELEASE",
+        "n": "V2V-PoseNet",
+        "d": "2017-11-20",
+        "m1": "83.44"
+      },
+      {
+        "p": {
+          "name": "Towards Viewpoint Invariant 3D Human Pose Estimation",
+          "link": "http://arxiv.org/abs/1603.07076v3"
+        },
+        "c": "https://github.com/mks0601/V2V-PoseNet_RELEASE",
+        "n": "Multi-task learning + viewpoint invariance",
+        "d": "2016-03-23",
+        "m1": "75.5"
+      },
+      {
+        "p": {
+          "name": "Towards Good Practices for Deep 3D Hand Pose Estimation",
+          "link": "http://arxiv.org/abs/1707.07248v1"
+        },
+        "c": "",
+        "n": "REN",
+        "d": "2017-07-23",
+        "m1": "75.5"
+      }
+    ]
+  }
+}

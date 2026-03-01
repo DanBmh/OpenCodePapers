@@ -1,0 +1,152 @@
+{
+  "title": "action-recognition-in-videos-on-sports-1m",
+  "task-hierarchy": [
+    "Activity Recognition",
+    "Action Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://cs.stanford.edu/people/karpathy/deepvideo/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Video hit@1 ",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Video hit@5",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Clip Hit@1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Video Classification with Channel-Separated Convolutional Networks",
+          "link": "https://arxiv.org/abs/1904.02811v4"
+        },
+        "c": "https://github.com/open-mmlab/mmaction2",
+        "n": "ip-CSN-152 (RGB)",
+        "d": "2019-04-04",
+        "m1": "75.5",
+        "m2": "92.8"
+      },
+      {
+        "p": {
+          "name": "Video Classification with Channel-Separated Convolutional Networks",
+          "link": "https://arxiv.org/abs/1904.02811v4"
+        },
+        "c": "https://github.com/open-mmlab/mmaction2",
+        "n": "ip-CSN-101 (RGB)",
+        "d": "2019-04-04",
+        "m1": "74.9",
+        "m2": "92.6"
+      },
+      {
+        "p": {
+          "name": "A Closer Look at Spatiotemporal Convolutions for Action Recognition",
+          "link": "http://arxiv.org/abs/1711.11248v3"
+        },
+        "c": "https://github.com/microsoft/computervision-recipes",
+        "n": "R[2+1]D-Two-Stream-32frame",
+        "d": "2017-11-30",
+        "m1": "73.3",
+        "m2": "91.9"
+      },
+      {
+        "p": {
+          "name": "A Closer Look at Spatiotemporal Convolutions for Action Recognition",
+          "link": "http://arxiv.org/abs/1711.11248v3"
+        },
+        "c": "https://github.com/microsoft/computervision-recipes",
+        "n": "R[2+1]D-RGB-32frame",
+        "d": "2017-11-30",
+        "m1": "73",
+        "m2": "91.5",
+        "m3": "57"
+      },
+      {
+        "p": {
+          "name": "Beyond Short Snippets: Deep Networks for Video Classification",
+          "link": "http://arxiv.org/abs/1503.08909v2"
+        },
+        "c": "https://github.com/shobrook/sequitur",
+        "n": "Conv pooling",
+        "d": "2015-03-31",
+        "m1": "71.7",
+        "m2": "90.4"
+      },
+      {
+        "p": {
+          "name": "A Closer Look at Spatiotemporal Convolutions for Action Recognition",
+          "link": "http://arxiv.org/abs/1711.11248v3"
+        },
+        "c": "https://github.com/microsoft/computervision-recipes",
+        "n": "R[2+1]D-Flow-32frame",
+        "d": "2017-11-30",
+        "m1": "68.4",
+        "m2": "88.7",
+        "m3": "46.4"
+      },
+      {
+        "p": {
+          "name": "Learning Spatio-Temporal Representation with Pseudo-3D Residual Networks",
+          "link": "http://arxiv.org/abs/1711.10305v1"
+        },
+        "c": "https://github.com/qijiezhao/pseudo-3d-pytorch",
+        "n": "P3D",
+        "d": "2017-11-28",
+        "m1": "66.4",
+        "m2": "87.4",
+        "m3": "47.9"
+      },
+      {
+        "p": {
+          "name": "Learning Spatiotemporal Features with 3D Convolutional Networks",
+          "link": "http://arxiv.org/abs/1412.0767v4"
+        },
+        "c": "https://github.com/open-mmlab/mmaction2",
+        "n": "C3D",
+        "d": "2014-12-02",
+        "m1": "61.1",
+        "m2": "85.5",
+        "m3": "46.1"
+      },
+      {
+        "p": {
+          "name": "Large-Scale Video Classification with Convolutional Neural Networks",
+          "link": "https://doi.org/10.1109/CVPR.2014.223"
+        },
+        "c": "https://github.com/lRomul/ball-action-spotting",
+        "n": "DeepVideo’s Slow Fusion",
+        "d": "2014-06-23",
+        "m1": "60.9",
+        "m2": "80.2",
+        "m3": "41.9"
+      }
+    ]
+  }
+}

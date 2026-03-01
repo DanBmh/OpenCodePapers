@@ -1,0 +1,672 @@
+{
+  "title": "temporal-action-localization-on-thumos14",
+  "task-hierarchy": [
+    "Action Localization",
+    "Temporal Action Localization"
+  ],
+  "dataset-info": {
+    "link": "http://crcv.ucf.edu/THUMOS14/home.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Avg mAP (0.3:0.7)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "mAP IOU@0.1",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "mAP IOU@0.2",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "mAP IOU@0.3",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "mAP IOU@0.4",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "mAP IOU@0.5",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "mAP IOU@0.6",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "mAP IOU@0.7",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "End-to-End Temporal Action Detection with 1B Parameters Across 1000 Frames",
+          "link": "https://arxiv.org/abs/2311.17241v2"
+        },
+        "c": "https://github.com/sming256/OpenTAD",
+        "n": "AdaTAD (VideoMAEv2-giant)",
+        "d": "2023-11-28",
+        "m1": "76.9",
+        "m4": "89.7",
+        "m5": "86.7",
+        "m6": "80.9",
+        "m7": "71.0",
+        "m8": "56.1"
+      },
+      {
+        "p": {
+          "name": "Enhancing Temporal Action Localization: Advanced S6 Modeling with Recurrent Mechanism",
+          "link": "https://arxiv.org/abs/2407.13078v1"
+        },
+        "c": "https://github.com/lsy0882/RDFA-S6",
+        "n": "RDFA-S6 (InternVideo2-6B)",
+        "d": "2024-07-18",
+        "m1": "74.2",
+        "m4": "88.7",
+        "m5": "84.6",
+        "m6": "78.2",
+        "m7": "66.6",
+        "m8": "51.9"
+      },
+      {
+        "p": {
+          "name": "Video Mamba Suite: State Space Model as a Versatile Alternative for Video Understanding",
+          "link": "https://arxiv.org/abs/2403.09626v1"
+        },
+        "c": "https://github.com/opengvlab/video-mamba-suite",
+        "n": "ActionMamba(InternVideo2-6B)",
+        "d": "2024-03-14",
+        "m1": "72.72",
+        "m4": "86.89",
+        "m5": "83.09",
+        "m6": "76.90",
+        "m7": "65.91",
+        "m8": "50.82"
+      },
+      {
+        "p": {
+          "name": "InternVideo2: Scaling Foundation Models for Multimodal Video Understanding",
+          "link": "https://arxiv.org/abs/2403.15377v4"
+        },
+        "c": "https://github.com/opengvlab/internvideo",
+        "n": "InternVideo2-6B",
+        "d": "2024-03-22",
+        "m1": "72.0"
+      },
+      {
+        "p": {
+          "name": "InternVideo: General Video Foundation Models via Generative and Discriminative Learning",
+          "link": "https://arxiv.org/abs/2212.03191v2"
+        },
+        "c": "https://github.com/opengvlab/internvideo",
+        "n": "ActionFormer (InternVideo features)",
+        "d": "2022-12-06",
+        "m1": "71.58"
+      },
+      {
+        "p": {
+          "name": "Temporal Action Localization with Enhanced Instant Discriminability",
+          "link": "https://arxiv.org/abs/2309.05590v1"
+        },
+        "c": "https://github.com/dingfengshi/tridet",
+        "n": "TriDet (VideoMAE v2-g feature)",
+        "d": "2023-09-11",
+        "m1": "70.1",
+        "m4": "84.8",
+        "m5": "80.0",
+        "m6": "73.3",
+        "m7": "63.8",
+        "m8": "48.8"
+      },
+      {
+        "p": {
+          "name": "InternVideo2: Scaling Foundation Models for Multimodal Video Understanding",
+          "link": "https://arxiv.org/abs/2403.15377v4"
+        },
+        "c": "https://github.com/opengvlab/internvideo",
+        "n": "InternVideo2-1B",
+        "d": "2024-03-22",
+        "m1": "69.8"
+      },
+      {
+        "p": {
+          "name": "VideoMAE V2: Scaling Video Masked Autoencoders with Dual Masking",
+          "link": "https://arxiv.org/abs/2303.16727v2"
+        },
+        "c": "https://github.com/OpenGVLab/VideoMAEv2",
+        "n": "ActionFormer (VideoMAE V2-g features)",
+        "d": "2023-03-29",
+        "m1": "69.6",
+        "m4": "84.0",
+        "m5": "79.6",
+        "m6": "73.0",
+        "m7": "63.5",
+        "m8": "47.7"
+      },
+      {
+        "p": {
+          "name": "TriDet: Temporal Action Detection with Relative Boundary Modeling",
+          "link": "https://arxiv.org/abs/2303.07347v2"
+        },
+        "c": "https://github.com/dingfengshi/tridet",
+        "n": "TriDet (I3D features)",
+        "d": "2023-03-13",
+        "m1": "69.3",
+        "m4": "83.6",
+        "m5": "80.1",
+        "m6": "72.9",
+        "m7": "62.4",
+        "m8": "47.4"
+      },
+      {
+        "p": {
+          "name": "Action Sensitivity Learning for Temporal Action Localization",
+          "link": "https://arxiv.org/abs/2305.15701v2"
+        },
+        "c": "",
+        "n": "ASL(I3D features)",
+        "d": "2023-05-25",
+        "m1": "67.9",
+        "m4": "83.1",
+        "m5": "79.0",
+        "m6": "71.7",
+        "m7": "59.7",
+        "m8": "45.8"
+      },
+      {
+        "p": {
+          "name": "TemporalMaxer: Maximize Temporal Context with only Max Pooling for Temporal Action Localization",
+          "link": "https://arxiv.org/abs/2303.09055v1"
+        },
+        "c": "https://github.com/tuantng/temporalmaxer",
+        "n": "TemporalMaxer (I3D features)",
+        "d": "2023-03-16",
+        "m1": "67.7",
+        "m4": "82.8",
+        "m5": "78.9",
+        "m6": "71.8",
+        "m7": "60.5",
+        "m8": "44.7"
+      },
+      {
+        "p": {
+          "name": "Dual DETRs for Multi-Label Temporal Action Detection",
+          "link": "https://arxiv.org/abs/2404.00653v1"
+        },
+        "c": "",
+        "n": "DualDETR (I3D features)",
+        "d": "2024-03-31",
+        "m1": "66.8",
+        "m4": "82.9",
+        "m5": "78.0",
+        "m6": "70.4",
+        "m7": "58.5",
+        "m8": "44.4"
+      },
+      {
+        "p": {
+          "name": "ActionFormer: Localizing Moments of Actions with Transformers",
+          "link": "https://arxiv.org/abs/2202.07925v2"
+        },
+        "c": "https://github.com/happyharrycn/actionformer_release",
+        "n": "ActionFormer (I3D features)",
+        "d": "2022-02-16",
+        "m1": "66.8",
+        "m4": "82.1",
+        "m5": "77.8",
+        "m6": "71.0",
+        "m7": "59.4",
+        "m8": "43.9"
+      },
+      {
+        "p": {
+          "name": "TadML: A fast temporal action detection with Mechanics-MLP",
+          "link": "https://arxiv.org/abs/2206.02997v2"
+        },
+        "c": "https://github.com/boneddeng/tadml",
+        "n": "TadML(two-stream)",
+        "d": "2022-06-07",
+        "m1": "59.70",
+        "m4": "73.29",
+        "m5": "69.73",
+        "m6": "62.53",
+        "m7": "53.36",
+        "m8": "39.60"
+      },
+      {
+        "p": {
+          "name": "BasicTAD: an Astounding RGB-Only Baseline for Temporal Action Detection",
+          "link": "https://arxiv.org/abs/2205.02717v3"
+        },
+        "c": "https://github.com/mcg-nju/basictad",
+        "n": "BasicTAD  (160,6,192,R50-SlowOnly)",
+        "d": "2022-05-05",
+        "m1": "59.6",
+        "m4": "75.5",
+        "m5": "70.8",
+        "m6": "63.5",
+        "m7": "50.9",
+        "m8": "37.4"
+      },
+      {
+        "p": {
+          "name": "End-to-end Temporal Action Detection with Transformer",
+          "link": "https://arxiv.org/abs/2106.10271v4"
+        },
+        "c": "https://github.com/xlliu7/TadTR",
+        "n": "TadTR",
+        "d": "2021-06-18",
+        "m1": "56.7",
+        "m4": "74.8",
+        "m5": "69.1",
+        "m6": "60.1",
+        "m7": "46.6",
+        "m8": "32.8"
+      },
+      {
+        "p": {
+          "name": "ReAct: Temporal Action Detection with Relational Queries",
+          "link": "https://arxiv.org/abs/2207.07097v1"
+        },
+        "c": "https://github.com/sssste/react",
+        "n": "ReAct (TSN features)",
+        "d": "2022-07-14",
+        "m1": "55.0",
+        "m4": "69.2",
+        "m5": "65.0",
+        "m6": "57.1",
+        "m7": "47.8",
+        "m8": "35.6"
+      },
+      {
+        "p": {
+          "name": "BasicTAD: an Astounding RGB-Only Baseline for Temporal Action Detection",
+          "link": "https://arxiv.org/abs/2205.02717v3"
+        },
+        "c": "https://github.com/mcg-nju/basictad",
+        "n": "BasicTAD  (112,3,96,R50-SlowOnly)",
+        "d": "2022-05-05",
+        "m1": "54.9",
+        "m4": "68.4",
+        "m5": "65.0",
+        "m6": "58.6",
+        "m7": "49.2",
+        "m8": "33.5"
+      },
+      {
+        "p": {
+          "name": "An Empirical Study of End-to-End Temporal Action Detection",
+          "link": "https://arxiv.org/abs/2204.02932v1"
+        },
+        "c": "https://github.com/xlliu7/E2E-TAD",
+        "n": "E2E-TAD (SlowFast R50+TadTR)",
+        "d": "2022-04-06",
+        "m1": "54.2",
+        "m4": "69.4",
+        "m5": "64.3",
+        "m6": "56.0",
+        "m7": "46.4",
+        "m8": "34.9"
+      },
+      {
+        "p": {
+          "name": "TadML: A fast temporal action detection with Mechanics-MLP",
+          "link": "https://arxiv.org/abs/2206.02997v2"
+        },
+        "c": "https://github.com/boneddeng/tadml",
+        "n": "TadML(rgb-only)",
+        "d": "2022-06-07",
+        "m1": "53.46",
+        "m4": "68.78",
+        "m5": "64.66",
+        "m6": "56.61",
+        "m7": "45.40",
+        "m8": "31.88"
+      },
+      {
+        "p": {
+          "name": "Multi-shot Temporal Event Localization: a Benchmark",
+          "link": "https://arxiv.org/abs/2012.09434v2"
+        },
+        "c": "https://github.com/xlliu7/muses",
+        "n": "MUSES",
+        "d": "2020-12-17",
+        "m1": "53.4",
+        "m4": "68.9",
+        "m5": "64.0",
+        "m6": "56.9",
+        "m7": "46.3",
+        "m8": "31.0"
+      },
+      {
+        "p": {
+          "name": "Hear Me Out: Fusional Approaches for Audio Augmented Temporal Action Localization",
+          "link": "https://arxiv.org/abs/2106.14118v4"
+        },
+        "c": "https://github.com/skelemoa/tal-hmo",
+        "n": "AVFusion",
+        "d": "2021-06-27",
+        "m1": "53.3",
+        "m4": "70.1",
+        "m5": "64.9",
+        "m6": "57.1",
+        "m7": "45.4",
+        "m8": "28.8"
+      },
+      {
+        "p": {
+          "name": "Proposal-Free Temporal Action Detection via Global Segmentation Mask Learning",
+          "link": "https://arxiv.org/abs/2207.06580v2"
+        },
+        "c": "https://github.com/sauradip/stale",
+        "n": "TAGS (I3D)",
+        "d": "2022-07-14",
+        "m1": "52.8",
+        "m4": "68.6",
+        "m5": "63.8",
+        "m6": "57.0",
+        "m7": "46.3",
+        "m8": "31.8"
+      },
+      {
+        "p": {
+          "name": "DCAN: Improving Temporal Action Detection via Dual Context Aggregation",
+          "link": "https://arxiv.org/abs/2112.03612v1"
+        },
+        "c": "https://github.com/cg1177/dcan",
+        "n": "DCAN (TSN features)",
+        "d": "2021-12-07",
+        "m1": "52.3",
+        "m4": "68.2",
+        "m5": "62.7",
+        "m6": "54.1",
+        "m7": "43.9",
+        "m8": "32.6"
+      },
+      {
+        "p": {
+          "name": "TSP: Temporally-Sensitive Pretraining of Video Encoders for Localization Tasks",
+          "link": "https://arxiv.org/abs/2011.11479v3"
+        },
+        "c": "https://github.com/HumamAlwassel/TSP",
+        "n": "TSP",
+        "d": "2020-11-23",
+        "m1": "50.46",
+        "m2": "74.02",
+        "m3": "72.29",
+        "m4": "69.1",
+        "m5": "63.3",
+        "m6": "53.5",
+        "m7": "40.4",
+        "m8": "26"
+      },
+      {
+        "p": {
+          "name": "Video Self-Stitching Graph Network for Temporal Action Localization",
+          "link": "https://arxiv.org/abs/2011.14598v4"
+        },
+        "c": "https://github.com/coolbay/VSGN",
+        "n": "VSGN",
+        "d": "2020-11-30",
+        "m1": "50.2",
+        "m4": "66.7",
+        "m5": "60.4",
+        "m6": "52.4",
+        "m7": "41.0",
+        "m8": "30.4"
+      },
+      {
+        "p": {
+          "name": "RGB Stream Is Enough for Temporal Action Detection",
+          "link": "https://arxiv.org/abs/2107.04362v1"
+        },
+        "c": "https://github.com/Media-Smart/vedatad",
+        "n": "DaoTAD",
+        "d": "2021-07-09",
+        "m1": "50.0",
+        "m4": "62.8",
+        "m5": "59.5",
+        "m6": "53.8",
+        "m7": "43.6",
+        "m8": "30.1"
+      },
+      {
+        "p": {
+          "name": "Decoupling Localization and Classification in Single Shot Temporal Action Detection",
+          "link": "http://arxiv.org/abs/1904.07442v1"
+        },
+        "c": "https://github.com/hypjudy/Decouple-SSAD",
+        "n": "Decouple-SSAD",
+        "d": "2019-04-16",
+        "m1": "42.0",
+        "m4": "60.2",
+        "m5": "54.1",
+        "m6": "44.2",
+        "m7": "32.3",
+        "m8": "19.1"
+      },
+      {
+        "p": {
+          "name": "Rethinking the Faster R-CNN Architecture for Temporal Action Localization",
+          "link": "http://arxiv.org/abs/1804.07667v1"
+        },
+        "c": "",
+        "n": "TAL-Net",
+        "d": "2018-04-20",
+        "m1": "39.8",
+        "m2": "59.8",
+        "m3": "57.1",
+        "m4": "53.2",
+        "m5": "48.5",
+        "m6": " 42.8",
+        "m7": "33.8",
+        "m8": "20.8"
+      },
+      {
+        "p": {
+          "name": "Graph Convolutional Module for Temporal Action Localization in Videos",
+          "link": "https://arxiv.org/abs/2112.00302v1"
+        },
+        "c": "",
+        "n": "GCM",
+        "d": "2021-12-01",
+        "m2": "72.5",
+        "m3": "70.9",
+        "m4": "66.5",
+        "m5": "60.8",
+        "m6": "51.9"
+      },
+      {
+        "p": {
+          "name": "Activity Graph Transformer for Temporal Action Localization",
+          "link": "https://arxiv.org/abs/2101.08540v2"
+        },
+        "c": "",
+        "n": "AGT (Ours)",
+        "d": "2021-01-21",
+        "m2": "72.1",
+        "m3": "69.8",
+        "m4": "65",
+        "m5": "58.1",
+        "m6": "50.2"
+      },
+      {
+        "p": {
+          "name": "Graph Convolutional Networks for Temporal Action Localization",
+          "link": "https://arxiv.org/abs/1909.03252v1"
+        },
+        "c": "https://github.com/Alvin-Zeng/PGCN",
+        "n": "P-GCN",
+        "d": "2019-09-07",
+        "m2": "69.5",
+        "m3": "67.8",
+        "m4": "63.6",
+        "m5": "57.8",
+        "m6": "49.1"
+      },
+      {
+        "p": {
+          "name": "Weakly Supervised Temporal Action Localization Using Deep Metric Learning",
+          "link": "https://arxiv.org/abs/2001.07793v1"
+        },
+        "c": "https://github.com/asrafulashiq/wsad",
+        "n": "DeepMetricLearner",
+        "d": "2020-01-21",
+        "m2": "62.3",
+        "m4": "46.8",
+        "m6": "29.6",
+        "m8": "9.7"
+      },
+      {
+        "p": {
+          "name": "Cascaded Boundary Regression for Temporal Action Detection",
+          "link": "http://arxiv.org/abs/1705.01180v1"
+        },
+        "c": "",
+        "n": "CBR-TS",
+        "d": "2017-05-02",
+        "m2": "60.1",
+        "m3": "56.7",
+        "m4": "50.1",
+        "m5": "41.3",
+        "m6": "31",
+        "m7": "19.1",
+        "m8": "9.9"
+      },
+      {
+        "p": {
+          "name": "R-C3D: Region Convolutional 3D Network for Temporal Activity Detection",
+          "link": "http://arxiv.org/abs/1703.07814v2"
+        },
+        "c": "https://github.com/VisionLearningGroup/R-C3D",
+        "n": "R-C3D",
+        "d": "2017-03-22",
+        "m2": "54.5",
+        "m3": "51.5",
+        "m4": "44.8",
+        "m5": "35.6",
+        "m6": "28.9"
+      },
+      {
+        "p": {
+          "name": "TURN TAP: Temporal Unit Regression Network for Temporal Action Proposals",
+          "link": "http://arxiv.org/abs/1703.06189v2"
+        },
+        "c": "https://github.com/jiyanggao/TURN-TAP",
+        "n": "TURN-FL-16 + S-CNN",
+        "d": "2017-03-17",
+        "m2": "54",
+        "m3": "50.9",
+        "m4": "44.1",
+        "m5": "34.9",
+        "m6": "25.6"
+      },
+      {
+        "p": {
+          "name": "End-to-end Learning of Action Detection from Frame Glimpses in Videos",
+          "link": "http://arxiv.org/abs/1511.06984v2"
+        },
+        "c": "https://github.com/syyeung/frameglimpses",
+        "n": "Yeung et al.",
+        "d": "2015-11-22",
+        "m2": "48.9",
+        "m3": "44.0",
+        "m4": "36.0",
+        "m5": "26.4",
+        "m6": "17.1"
+      },
+      {
+        "p": {
+          "name": "Temporal Action Localization in Untrimmed Videos via Multi-stage CNNs",
+          "link": "http://arxiv.org/abs/1601.02129v2"
+        },
+        "c": "https://github.com/zhengshou/scnn",
+        "n": "S-CNN",
+        "d": "2016-01-09",
+        "m2": "47.7",
+        "m3": "43.5",
+        "m4": "36.3",
+        "m5": "28.7",
+        "m6": "19"
+      },
+      {
+        "p": {
+          "name": "BSN: Boundary Sensitive Network for Temporal Action Proposal Generation",
+          "link": "http://arxiv.org/abs/1806.02964v3"
+        },
+        "c": "https://github.com/PaddlePaddle/models/tree/develop/PaddleCV/video/models/bsn",
+        "n": "BSN UNet",
+        "d": "2018-06-08",
+        "m4": "53.5",
+        "m5": "45",
+        "m6": "36.9",
+        "m7": "28.4",
+        "m8": "20"
+      },
+      {
+        "p": {
+          "name": "CDC: Convolutional-De-Convolutional Networks for Precise Temporal Action Localization in Untrimmed Videos",
+          "link": "http://arxiv.org/abs/1703.01515v2"
+        },
+        "c": "https://bitbucket.org/columbiadvmm/cdc",
+        "n": "CDC",
+        "d": "2017-03-04",
+        "m4": "40.1",
+        "m5": "29.4",
+        "m6": "23.3",
+        "m7": "13.1",
+        "m8": "7.9"
+      },
+      {
+        "p": {
+          "name": "G-TAD: Sub-Graph Localization for Temporal Action Detection",
+          "link": "https://arxiv.org/abs/1911.11462v2"
+        },
+        "c": "https://github.com/Frostinassiky/gtad",
+        "n": "G-TAD",
+        "d": "2019-11-26",
+        "m6": "40.2"
+      },
+      {
+        "p": {
+          "name": "BMN: Boundary-Matching Network for Temporal Action Proposal Generation",
+          "link": "https://arxiv.org/abs/1907.09702v1"
+        },
+        "c": "https://github.com/PaddlePaddle/models/tree/develop/PaddleCV/video/models/bmn",
+        "n": "BMN",
+        "d": "2019-07-23",
+        "m6": "32.2"
+      }
+    ]
+  }
+}

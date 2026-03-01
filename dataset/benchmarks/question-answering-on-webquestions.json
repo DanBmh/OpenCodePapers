@@ -1,0 +1,412 @@
+{
+  "title": "question-answering-on-webquestions",
+  "task-hierarchy": [
+    "Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://worksheets.codalab.org/worksheets/0xba659fe363cb46e7a505c5b6a774dc8a"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "EM",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Chain-of-Action: Faithful and Multimodal Question Answering through Large Language Models",
+          "link": "https://arxiv.org/abs/2403.17359v1"
+        },
+        "c": "https://github.com/MAGICS-LAB/Chain-of-Actions",
+        "n": "CoA",
+        "d": "2024-03-26",
+        "m1": "70.7"
+      },
+      {
+        "p": {
+          "name": "Chain-of-Action: Faithful and Multimodal Question Answering through Large Language Models",
+          "link": "https://arxiv.org/abs/2403.17359v1"
+        },
+        "c": "https://github.com/MAGICS-LAB/Chain-of-Actions",
+        "n": "CoA w/o actions",
+        "d": "2024-03-26",
+        "m1": "64.7"
+      },
+      {
+        "p": {
+          "name": "DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines",
+          "link": "https://arxiv.org/abs/2310.03714v1"
+        },
+        "c": "https://github.com/stanfordnlp/dsp",
+        "n": "DSP",
+        "d": "2023-10-05",
+        "m1": "59.4"
+      },
+      {
+        "p": {
+          "name": "Chain-of-Action: Faithful and Multimodal Question Answering through Large Language Models",
+          "link": "https://arxiv.org/abs/2403.17359v1"
+        },
+        "c": "https://github.com/MAGICS-LAB/Chain-of-Actions",
+        "n": "DSP",
+        "d": "2024-03-26",
+        "m1": "59.4"
+      },
+      {
+        "p": {
+          "name": "FiE: Building a Global Probability Space by Leveraging Early Fusion in Encoder for Open-Domain Question Answering",
+          "link": "https://arxiv.org/abs/2211.10147v1"
+        },
+        "c": "",
+        "n": "FiE+PAQ",
+        "d": "2022-11-18",
+        "m1": "56.3"
+      },
+      {
+        "p": {
+          "name": "FiE: Building a Global Probability Space by Leveraging Early Fusion in Encoder for Open-Domain Question Answering",
+          "link": "https://arxiv.org/abs/2211.10147v1"
+        },
+        "c": "",
+        "n": "FiE",
+        "d": "2022-11-18",
+        "m1": "52.4"
+      },
+      {
+        "p": {
+          "name": "FiDO: Fusion-in-Decoder optimized for stronger performance and faster inference",
+          "link": "https://arxiv.org/abs/2212.08153v2"
+        },
+        "c": "",
+        "n": "FiDO",
+        "d": "2022-12-15",
+        "m1": "51.1"
+      },
+      {
+        "p": {
+          "name": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+          "link": "https://arxiv.org/abs/2005.11401v4"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "RAG",
+        "d": "2020-05-22",
+        "m1": "45.2"
+      },
+      {
+        "p": {
+          "name": "Language Models are Few-Shot Learners",
+          "link": "https://arxiv.org/abs/2005.14165v4"
+        },
+        "c": "https://github.com/ggml-org/llama.cpp",
+        "n": "Few-shot",
+        "d": "2020-05-28",
+        "m1": "44.7"
+      },
+      {
+        "p": {
+          "name": "Chain-of-Action: Faithful and Multimodal Question Answering through Large Language Models",
+          "link": "https://arxiv.org/abs/2403.17359v1"
+        },
+        "c": "https://github.com/MAGICS-LAB/Chain-of-Actions",
+        "n": "Few-shot",
+        "d": "2024-03-26",
+        "m1": "44.7"
+      },
+      {
+        "p": {
+          "name": "PaLM: Scaling Language Modeling with Pathways",
+          "link": "https://arxiv.org/abs/2204.02311v5"
+        },
+        "c": "https://github.com/lucidrains/CoCa-pytorch",
+        "n": "PaLM-540B (Few-Shot)",
+        "d": "2022-04-05",
+        "m1": "43.5"
+      },
+      {
+        "p": {
+          "name": "Language Models are Unsupervised Multitask Learners",
+          "link": "https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Zero-shot",
+        "d": "2019-02-14",
+        "m1": "43"
+      },
+      {
+        "p": {
+          "name": "Chain-of-Action: Faithful and Multimodal Question Answering through Large Language Models",
+          "link": "https://arxiv.org/abs/2403.17359v1"
+        },
+        "c": "https://github.com/MAGICS-LAB/Chain-of-Actions",
+        "n": "Zero-shot",
+        "d": "2024-03-26",
+        "m1": "43"
+      },
+      {
+        "p": {
+          "name": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+          "link": "https://arxiv.org/abs/1910.10683v4"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "T5.1.1-XXL+SSM",
+        "d": "2019-10-23",
+        "m1": "42.8"
+      },
+      {
+        "p": {
+          "name": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+          "link": "https://arxiv.org/abs/2201.11903v6"
+        },
+        "c": "https://github.com/microsoft/guidance",
+        "n": "CoT",
+        "d": "2022-01-28",
+        "m1": "42.5"
+      },
+      {
+        "p": {
+          "name": "Chain-of-Action: Faithful and Multimodal Question Answering through Large Language Models",
+          "link": "https://arxiv.org/abs/2403.17359v1"
+        },
+        "c": "https://github.com/MAGICS-LAB/Chain-of-Actions",
+        "n": "CoT",
+        "d": "2024-03-26",
+        "m1": "42.5"
+      },
+      {
+        "p": {
+          "name": "Dense Passage Retrieval for Open-Domain Question Answering",
+          "link": "https://arxiv.org/abs/2004.04906v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "DPR",
+        "d": "2020-04-10",
+        "m1": "42.4"
+      },
+      {
+        "p": {
+          "name": "Language Models are Few-Shot Learners",
+          "link": "https://arxiv.org/abs/2005.14165v4"
+        },
+        "c": "https://github.com/ggml-org/llama.cpp",
+        "n": "GPT-3-175B (Few-Shot)",
+        "d": "2020-05-28",
+        "m1": "41.5"
+      },
+      {
+        "p": {
+          "name": "REALM: Retrieval-Augmented Language Model Pre-Training",
+          "link": "https://arxiv.org/abs/2002.08909v1"
+        },
+        "c": "https://github.com/deepset-ai/haystack",
+        "n": "REALM",
+        "d": "2020-02-10",
+        "m1": "40.7"
+      },
+      {
+        "p": {
+          "name": "ReAct: Synergizing Reasoning and Acting in Language Models",
+          "link": "https://arxiv.org/abs/2210.03629v3"
+        },
+        "c": "https://github.com/ysymyth/ReAct",
+        "n": "React",
+        "d": "2022-10-06",
+        "m1": "38.3"
+      },
+      {
+        "p": {
+          "name": "Chain-of-Action: Faithful and Multimodal Question Answering through Large Language Models",
+          "link": "https://arxiv.org/abs/2403.17359v1"
+        },
+        "c": "https://github.com/MAGICS-LAB/Chain-of-Actions",
+        "n": "React",
+        "d": "2024-03-26",
+        "m1": "38.3"
+      },
+      {
+        "p": {
+          "name": "Latent Retrieval for Weakly Supervised Open Domain Question Answering",
+          "link": "https://arxiv.org/abs/1906.00300v3"
+        },
+        "c": "https://github.com/google-research/language/tree/master/language/orqa",
+        "n": "ORQA",
+        "d": "2019-06-01",
+        "m1": "36.4"
+      },
+      {
+        "p": {
+          "name": "Measuring and Narrowing the Compositionality Gap in Language Models",
+          "link": "https://arxiv.org/abs/2210.03350v3"
+        },
+        "c": "https://github.com/ofirpress/self-ask",
+        "n": "Self-Ask",
+        "d": "2022-10-07",
+        "m1": "31.1"
+      },
+      {
+        "p": {
+          "name": "Chain-of-Action: Faithful and Multimodal Question Answering through Large Language Models",
+          "link": "https://arxiv.org/abs/2403.17359v1"
+        },
+        "c": "https://github.com/MAGICS-LAB/Chain-of-Actions",
+        "n": "Self-Ask",
+        "d": "2024-03-26",
+        "m1": "31.1"
+      },
+      {
+        "p": {
+          "name": "PaLM 2 Technical Report",
+          "link": "https://arxiv.org/abs/2305.10403v3"
+        },
+        "c": "https://github.com/eternityyw/tram-benchmark",
+        "n": "PaLM 2-L (one-shot)",
+        "d": "2023-05-17",
+        "m1": "28.2"
+      },
+      {
+        "p": {
+          "name": "PaLM 2 Technical Report",
+          "link": "https://arxiv.org/abs/2305.10403v3"
+        },
+        "c": "https://github.com/eternityyw/tram-benchmark",
+        "n": "PaLM 2-M (one-shot)",
+        "d": "2023-05-17",
+        "m1": "26.9"
+      },
+      {
+        "p": {
+          "name": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+          "link": "https://arxiv.org/abs/2305.10601v2"
+        },
+        "c": "https://github.com/ysymyth/tree-of-thought-llm",
+        "n": "ToT",
+        "d": "2023-05-17",
+        "m1": "26.3"
+      },
+      {
+        "p": {
+          "name": "Chain-of-Action: Faithful and Multimodal Question Answering through Large Language Models",
+          "link": "https://arxiv.org/abs/2403.17359v1"
+        },
+        "c": "https://github.com/MAGICS-LAB/Chain-of-Actions",
+        "n": "ToT",
+        "d": "2024-03-26",
+        "m1": "26.3"
+      },
+      {
+        "p": {
+          "name": "Language Models are Few-Shot Learners",
+          "link": "https://arxiv.org/abs/2005.14165v4"
+        },
+        "c": "https://github.com/ggml-org/llama.cpp",
+        "n": "GPT-3-175B (One-Shot)",
+        "d": "2020-05-28",
+        "m1": "25.3"
+      },
+      {
+        "p": {
+          "name": "PaLM: Scaling Language Modeling with Pathways",
+          "link": "https://arxiv.org/abs/2204.02311v5"
+        },
+        "c": "https://github.com/lucidrains/CoCa-pytorch",
+        "n": "PaLM-540B (One-Shot)",
+        "d": "2022-04-05",
+        "m1": "22.6"
+      },
+      {
+        "p": {
+          "name": "PaLM 2 Technical Report",
+          "link": "https://arxiv.org/abs/2305.10403v3"
+        },
+        "c": "https://github.com/eternityyw/tram-benchmark",
+        "n": "PaLM 2-S (one-shot)",
+        "d": "2023-05-17",
+        "m1": "21.8"
+      },
+      {
+        "p": {
+          "name": "GLaM: Efficient Scaling of Language Models with Mixture-of-Experts",
+          "link": "https://arxiv.org/abs/2112.06905v2"
+        },
+        "c": "",
+        "n": "GLaM 62B/64E (Zero-Shot)",
+        "d": "2021-12-13",
+        "m1": "15.5"
+      },
+      {
+        "p": {
+          "name": "Language Models are Few-Shot Learners",
+          "link": "https://arxiv.org/abs/2005.14165v4"
+        },
+        "c": "https://github.com/ggml-org/llama.cpp",
+        "n": "GPT-3-175B (Zero-Shot)",
+        "d": "2020-05-28",
+        "m1": "14.4"
+      },
+      {
+        "p": {
+          "name": "PaLM: Scaling Language Modeling with Pathways",
+          "link": "https://arxiv.org/abs/2204.02311v5"
+        },
+        "c": "https://github.com/lucidrains/CoCa-pytorch",
+        "n": "PaLM-540B (Zero-Shot)",
+        "d": "2022-04-05",
+        "m1": "10.6"
+      },
+      {
+        "p": {
+          "name": "Large-scale Simple Question Answering with Memory Networks",
+          "link": "http://arxiv.org/abs/1506.02075v1"
+        },
+        "c": "https://github.com/facebookresearch/ParlAI",
+        "n": "Memory Networks (ensemble)",
+        "d": "2015-06-05",
+        "m2": "42.2%"
+      },
+      {
+        "p": {
+          "name": "Question Answering with Subgraph Embeddings",
+          "link": "http://arxiv.org/abs/1406.3676v3"
+        },
+        "c": "https://github.com/gmtt/CSCI590",
+        "n": "Subgraph embeddings",
+        "d": "2014-06-14",
+        "m2": "39.2%"
+      },
+      {
+        "p": {
+          "name": "Open Question Answering with Weakly Supervised Embedding Models",
+          "link": "http://arxiv.org/abs/1404.4326v1"
+        },
+        "c": "",
+        "n": "Weakly Supervised Embeddings",
+        "d": "2014-04-16",
+        "m2": "29.7%"
+      }
+    ]
+  }
+}

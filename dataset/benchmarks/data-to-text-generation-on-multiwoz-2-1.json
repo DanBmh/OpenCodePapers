@@ -1,0 +1,88 @@
+{
+  "title": "data-to-text-generation-on-multiwoz-2-1",
+  "task-hierarchy": [
+    "Text Generation",
+    "Data-to-Text Generation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/budzianowski/multiwoz"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "BLEU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Text-to-Text Pre-Training for Data-to-Text Tasks",
+          "link": "https://arxiv.org/abs/2005.10433v3"
+        },
+        "c": "https://github.com/google-research-datasets/ToTTo",
+        "n": "T5-Base",
+        "d": "2020-05-21",
+        "m1": "35.1"
+      },
+      {
+        "p": {
+          "name": "Template Guided Text Generation for Task-Oriented Dialogue",
+          "link": "https://arxiv.org/abs/2004.15006v2"
+        },
+        "c": "",
+        "n": "T5-small",
+        "d": "2020-04-30",
+        "m1": "34.96"
+      },
+      {
+        "p": {
+          "name": "Template Guided Text Generation for Task-Oriented Dialogue",
+          "link": "https://arxiv.org/abs/2004.15006v2"
+        },
+        "c": "",
+        "n": "T2G2",
+        "d": "2020-04-30",
+        "m1": "34.91"
+      },
+      {
+        "p": {
+          "name": "Few-shot Natural Language Generation for Task-Oriented Dialog",
+          "link": "https://arxiv.org/abs/2002.12328v1"
+        },
+        "c": "https://github.com/pengbaolin/SC-GPT",
+        "n": "SC-GPT2",
+        "d": "2020-02-27",
+        "m1": "30.76"
+      },
+      {
+        "p": {
+          "name": "Semantically Conditioned Dialog Response Generation via Hierarchical Disentangled Self-Attention",
+          "link": "https://arxiv.org/abs/1905.12866v3"
+        },
+        "c": "https://github.com/budzianowski/multiwoz",
+        "n": "HDSA",
+        "d": "2019-05-30",
+        "m1": "26.48"
+      }
+    ]
+  }
+}

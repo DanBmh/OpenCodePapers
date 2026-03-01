@@ -1,0 +1,127 @@
+{
+  "title": "document-summarization-on-howsumm-method",
+  "task-hierarchy": [
+    "Document Summarization"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/odelliab/HowSumm"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "ROUGE-1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "HowSumm: A Multi-Document Summarization Dataset Derived from WikiHow Articles",
+          "link": "https://arxiv.org/abs/2110.03179v2"
+        },
+        "c": "https://github.com/odelliab/HowSumm",
+        "n": "LexRank (query: method + article + steps titles)",
+        "d": "2021-10-07",
+        "m1": "53.5"
+      },
+      {
+        "p": {
+          "name": "HowSumm: A Multi-Document Summarization Dataset Derived from WikiHow Articles",
+          "link": "https://arxiv.org/abs/2110.03179v2"
+        },
+        "c": "https://github.com/odelliab/HowSumm",
+        "n": "CES (query: method + article + steps titles)",
+        "d": "2021-10-07",
+        "m1": "52.2"
+      },
+      {
+        "p": {
+          "name": "HowSumm: A Multi-Document Summarization Dataset Derived from WikiHow Articles",
+          "link": "https://arxiv.org/abs/2110.03179v2"
+        },
+        "c": "https://github.com/odelliab/HowSumm",
+        "n": "GreedyRel (query: method + article + steps titles)",
+        "d": "2021-10-07",
+        "m1": "48.6"
+      },
+      {
+        "p": {
+          "name": "HowSumm: A Multi-Document Summarization Dataset Derived from WikiHow Articles",
+          "link": "https://arxiv.org/abs/2110.03179v2"
+        },
+        "c": "https://github.com/odelliab/HowSumm",
+        "n": "CES (query: method title)",
+        "d": "2021-10-07",
+        "m1": "48.4"
+      },
+      {
+        "p": {
+          "name": "HowSumm: A Multi-Document Summarization Dataset Derived from WikiHow Articles",
+          "link": "https://arxiv.org/abs/2110.03179v2"
+        },
+        "c": "https://github.com/odelliab/HowSumm",
+        "n": "CES (query: method + article titles)",
+        "d": "2021-10-07",
+        "m1": "48.3"
+      },
+      {
+        "p": {
+          "name": "HowSumm: A Multi-Document Summarization Dataset Derived from WikiHow Articles",
+          "link": "https://arxiv.org/abs/2110.03179v2"
+        },
+        "c": "https://github.com/odelliab/HowSumm",
+        "n": "LexRank (query: method title)",
+        "d": "2021-10-07",
+        "m1": "47.7"
+      },
+      {
+        "p": {
+          "name": "HowSumm: A Multi-Document Summarization Dataset Derived from WikiHow Articles",
+          "link": "https://arxiv.org/abs/2110.03179v2"
+        },
+        "c": "https://github.com/odelliab/HowSumm",
+        "n": "LexRank (query: method + article titles)",
+        "d": "2021-10-07",
+        "m1": "47.1"
+      },
+      {
+        "p": {
+          "name": "HowSumm: A Multi-Document Summarization Dataset Derived from WikiHow Articles",
+          "link": "https://arxiv.org/abs/2110.03179v2"
+        },
+        "c": "https://github.com/odelliab/HowSumm",
+        "n": "GreedyRel (query: method title)",
+        "d": "2021-10-07",
+        "m1": "43.4"
+      },
+      {
+        "p": {
+          "name": "HowSumm: A Multi-Document Summarization Dataset Derived from WikiHow Articles",
+          "link": "https://arxiv.org/abs/2110.03179v2"
+        },
+        "c": "https://github.com/odelliab/HowSumm",
+        "n": "GreedyRel (query: method + article titles)",
+        "d": "2021-10-07",
+        "m1": "42.3"
+      }
+    ]
+  }
+}

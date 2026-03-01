@@ -1,0 +1,80 @@
+{
+  "title": "lidar-semantic-segmentation-on-semantickitti",
+  "task-hierarchy": [
+    "LIDAR Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "http://www.semantic-kitti.org/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIOU",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "val mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "AF2S3Net",
+        "d": null,
+        "m1": "70.8%"
+      },
+      {
+        "p": {
+          "name": "SFPNet: Sparse Focal Point Network for Semantic Segmentation on General LiDAR Point Clouds",
+          "link": "https://arxiv.org/abs/2407.11569v1"
+        },
+        "c": "https://github.com/Cavendish518/SFPNet",
+        "n": "SFPNet",
+        "d": "2024-07-16",
+        "m1": "70.3%",
+        "m2": "69.2%"
+      },
+      {
+        "p": {
+          "name": "TFNet: Exploiting Temporal Cues for Fast and Accurate LiDAR Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2309.07849v3"
+        },
+        "c": "",
+        "n": "TFNet",
+        "d": "2023-09-14",
+        "m1": "66.1%"
+      },
+      {
+        "p": {
+          "name": "Multi Projection Fusion for Real-time Semantic Segmentation of 3D LiDAR Point Clouds",
+          "link": "https://arxiv.org/abs/2011.01974v2"
+        },
+        "c": "",
+        "n": "MPF",
+        "d": "2020-11-03",
+        "m1": "55.5%"
+      }
+    ]
+  }
+}

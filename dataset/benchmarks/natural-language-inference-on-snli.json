@@ -1,0 +1,1188 @@
+{
+  "title": "natural-language-inference-on-snli",
+  "task-hierarchy": [
+    "Natural Language Inference"
+  ],
+  "dataset-info": {
+    "link": "https://nlp.stanford.edu/projects/snli/."
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "% Test Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "% Train Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Parameters",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Dev Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "% Dev Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "First Train to Generate, then Generate to Train: UnitedSynT5 for Few-Shot NLI",
+          "link": "https://arxiv.org/abs/2412.09263v2"
+        },
+        "c": "",
+        "n": "UnitedSynT5 (3B)",
+        "d": "2024-12-12",
+        "m1": "94.7"
+      },
+      {
+        "p": {
+          "name": "First Train to Generate, then Generate to Train: UnitedSynT5 for Few-Shot NLI",
+          "link": "https://arxiv.org/abs/2412.09263v2"
+        },
+        "c": "",
+        "n": "UnitedSynT5 (335M)",
+        "d": "2024-12-12",
+        "m1": "93.5"
+      },
+      {
+        "p": {
+          "name": "Entailment as Few-Shot Learner",
+          "link": "https://arxiv.org/abs/2104.14690v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleNLP/tree/develop/examples/few_shot/efl",
+        "n": "Neural Tree Indexers for Text Understanding",
+        "d": "2021-04-29",
+        "m1": "93.1",
+        "m3": "355"
+      },
+      {
+        "p": {
+          "name": "Entailment as Few-Shot Learner",
+          "link": "https://arxiv.org/abs/2104.14690v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleNLP/tree/develop/examples/few_shot/efl",
+        "n": "EFL (Entailment as Few-shot Learner) + RoBERTa-large",
+        "d": "2021-04-29",
+        "m1": "93.1",
+        "m2": "?",
+        "m3": "355m"
+      },
+      {
+        "p": {
+          "name": "Self-Explaining Structures Improve NLP Models",
+          "link": "https://arxiv.org/abs/2012.01786v2"
+        },
+        "c": "https://github.com/ShannonAI/Self_Explaining_Structures_Improve_NLP_Models",
+        "n": "RoBERTa-large+Self-Explaining",
+        "d": "2020-12-03",
+        "m1": "92.3",
+        "m3": "340"
+      },
+      {
+        "p": {
+          "name": "Self-Explaining Structures Improve NLP Models",
+          "link": "https://arxiv.org/abs/2012.01786v2"
+        },
+        "c": "https://github.com/ShannonAI/Self_Explaining_Structures_Improve_NLP_Models",
+        "n": "RoBERTa-large + self-explaining layer",
+        "d": "2020-12-03",
+        "m1": "92.3",
+        "m2": "?",
+        "m3": "355m+"
+      },
+      {
+        "p": {
+          "name": "Conditionally Adaptive Multi-Task Learning: Improving Transfer Learning in NLP Using Fewer Parameters & Less Data",
+          "link": "https://arxiv.org/abs/2009.09139v3"
+        },
+        "c": "https://github.com/CAMTL/CA-MTL",
+        "n": "CA-MTL",
+        "d": "2020-09-19",
+        "m1": "92.1",
+        "m2": "92.6",
+        "m3": "340m"
+      },
+      {
+        "p": {
+          "name": "Semantics-aware BERT for Language Understanding",
+          "link": "https://arxiv.org/abs/1909.02209v3"
+        },
+        "c": "https://github.com/cooelf/SemBERT",
+        "n": "SemBERT",
+        "d": "2019-09-05",
+        "m1": "91.9",
+        "m2": "94.4",
+        "m3": "339m"
+      },
+      {
+        "p": {
+          "name": "SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization",
+          "link": "https://arxiv.org/abs/1911.03437v5"
+        },
+        "c": "https://github.com/namisan/mt-dnn",
+        "n": "MT-DNN-SMARTLARGEv0",
+        "d": "2019-11-08",
+        "m1": "91.7",
+        "m5": "92.6"
+      },
+      {
+        "p": {
+          "name": "Multi-Task Deep Neural Networks for Natural Language Understanding",
+          "link": "https://arxiv.org/abs/1901.11504v2"
+        },
+        "c": "https://github.com/namisan/mt-dnn",
+        "n": "MT-DNN",
+        "d": "2019-01-31",
+        "m1": "91.6",
+        "m2": "97.2",
+        "m3": "330m"
+      },
+      {
+        "p": {
+          "name": "Explicit Contextual Semantics for Text Comprehension",
+          "link": "https://arxiv.org/abs/1809.02794v3"
+        },
+        "c": "",
+        "n": "SJRC (BERT-Large +SRL)",
+        "d": "2018-09-08",
+        "m1": "91.3",
+        "m2": "95.7",
+        "m3": "308m"
+      },
+      {
+        "p": {
+          "name": "Multi-Task Deep Neural Networks for Natural Language Understanding",
+          "link": "https://arxiv.org/abs/1901.11504v2"
+        },
+        "c": "https://github.com/namisan/mt-dnn",
+        "n": "Ntumpha",
+        "d": "2019-01-31",
+        "m1": "90.5",
+        "m2": "99.1",
+        "m3": "220"
+      },
+      {
+        "p": {
+          "name": "Semantic Sentence Matching with Densely-connected Recurrent and Co-attentive Information",
+          "link": "http://arxiv.org/abs/1805.11360v2"
+        },
+        "c": "",
+        "n": "Densely-Connected Recurrent and Co-Attentive Network Ensemble",
+        "d": "2018-05-29",
+        "m1": "90.1",
+        "m2": "95.0",
+        "m3": "53.3m"
+      },
+      {
+        "p": {
+          "name": "What Do Questions Exactly Ask? MFAE: Duplicate Question Identification with Multi-Fusion Asking Emphasis",
+          "link": "https://epubs.siam.org/doi/10.1137/1.9781611976236.26"
+        },
+        "c": "https://github.com/rzhangpku/MFAE",
+        "n": "MFAE",
+        "d": "2020-05-07",
+        "m1": "90.07",
+        "m2": "93.18"
+      },
+      {
+        "p": {
+          "name": "Improving Language Understanding by Generative Pre-Training",
+          "link": "https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Fine-Tuned LM-Pretrained Transformer",
+        "d": "2018-06-11",
+        "m1": "89.9",
+        "m2": "96.6",
+        "m3": "85m"
+      },
+      {
+        "p": {
+          "name": "Discourse Marker Augmented Network with Reinforcement Learning for Natural Language Inference",
+          "link": "https://arxiv.org/abs/1907.09692v1"
+        },
+        "c": "https://github.com/ZJULearning/DMP",
+        "n": "300D DMAN Ensemble",
+        "d": "2019-07-23",
+        "m1": "89.6",
+        "m2": "96.1",
+        "m3": "79m"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "300D DMAN Ensemble",
+        "d": null,
+        "m1": "89.6",
+        "m2": "96.1",
+        "m3": "79m"
+      },
+      {
+        "p": {
+          "name": "Multiway Attention Networks for Modeling Sentence Pairs",
+          "link": "https://www.ijcai.org/proceedings/2018/0613"
+        },
+        "c": "https://github.com/zsweet/zsw_AI_model",
+        "n": "150D Multiway Attention Network Ensemble",
+        "d": "2018-07-01",
+        "m1": "89.4",
+        "m2": "95.5",
+        "m3": "58m"
+      },
+      {
+        "p": {
+          "name": "DR-BiLSTM: Dependent Reading Bidirectional LSTM for Natural Language Inference",
+          "link": "http://arxiv.org/abs/1802.05577v2"
+        },
+        "c": "",
+        "n": "450D DR-BiLSTM Ensemble",
+        "d": "2018-02-15",
+        "m1": "89.3",
+        "m2": "94.8",
+        "m3": "45m"
+      },
+      {
+        "p": {
+          "name": "Compare, Compress and Propagate: Enhancing Neural Architectures with Alignment Factorization for Natural Language Inference",
+          "link": "http://arxiv.org/abs/1801.00102v2"
+        },
+        "c": "",
+        "n": "300D CAFE Ensemble",
+        "d": "2017-12-30",
+        "m1": "89.3",
+        "m2": "92.5",
+        "m3": "17.5m"
+      },
+      {
+        "p": {
+          "name": "Deep contextualized word representations",
+          "link": "http://arxiv.org/abs/1802.05365v2"
+        },
+        "c": "https://github.com/flairNLP/flair",
+        "n": "ESIM + ELMo Ensemble",
+        "d": "2018-02-15",
+        "m1": "89.3",
+        "m2": "92.1",
+        "m3": "40m"
+      },
+      {
+        "p": {
+          "name": "Neural Natural Language Inference Models Enhanced with External Knowledge",
+          "link": "http://arxiv.org/abs/1711.04289v3"
+        },
+        "c": "https://github.com/lukecq1231/kim",
+        "n": "KIM Ensemble",
+        "d": "2017-11-12",
+        "m1": "89.1",
+        "m2": "93.6",
+        "m3": "43m"
+      },
+      {
+        "p": {
+          "name": "Explicit Contextual Semantics for Text Comprehension",
+          "link": "https://arxiv.org/abs/1809.02794v3"
+        },
+        "c": "",
+        "n": "SLRC",
+        "d": "2018-09-08",
+        "m1": "89.1",
+        "m2": "89.1",
+        "m3": "6.1m"
+      },
+      {
+        "p": {
+          "name": "Simple and Effective Text Matching with Richer Alignment Features",
+          "link": "https://arxiv.org/abs/1908.00300v1"
+        },
+        "c": "https://github.com/alibaba-edu/simple-effective-text-matching",
+        "n": "RE2",
+        "d": "2019-08-01",
+        "m1": "88.9",
+        "m2": "94.0",
+        "m3": "2.8m"
+      },
+      {
+        "p": {
+          "name": "Semantic Sentence Matching with Densely-connected Recurrent and Co-attentive Information",
+          "link": "http://arxiv.org/abs/1805.11360v2"
+        },
+        "c": "",
+        "n": "Densely-Connected Recurrent and Co-Attentive Network",
+        "d": "2018-05-29",
+        "m1": "88.9",
+        "m2": "93.1",
+        "m3": "6.7m"
+      },
+      {
+        "p": {
+          "name": "DEIM: An effective deep encoding and interaction model for sentence matching",
+          "link": "https://arxiv.org/abs/2203.10482v1"
+        },
+        "c": "",
+        "n": "DEIM",
+        "d": "2022-03-20",
+        "m1": "88.9",
+        "m2": "92.6",
+        "m3": "22m"
+      },
+      {
+        "p": {
+          "name": "Natural Language Inference over Interaction Space",
+          "link": "http://arxiv.org/abs/1709.04348v2"
+        },
+        "c": "https://github.com/YichenGong/Densely-Interactive-Inference-Network",
+        "n": "448D Densely Interactive Inference Network (DIIN, code) Ensemble",
+        "d": "2017-09-13",
+        "m1": "88.9",
+        "m2": "92.3",
+        "m3": "17m"
+      },
+      {
+        "p": {
+          "name": "Discourse Marker Augmented Network with Reinforcement Learning for Natural Language Inference",
+          "link": "https://arxiv.org/abs/1907.09692v1"
+        },
+        "c": "https://github.com/ZJULearning/DMP",
+        "n": "300D DMAN",
+        "d": "2019-07-23",
+        "m1": "88.8",
+        "m2": "95.4",
+        "m3": "9.2m"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "300D DMAN",
+        "d": null,
+        "m1": "88.8",
+        "m2": "95.4",
+        "m3": "9.2m"
+      },
+      {
+        "p": {
+          "name": "Bilateral Multi-Perspective Matching for Natural Language Sentences",
+          "link": "http://arxiv.org/abs/1702.03814v3"
+        },
+        "c": "https://github.com/google-research-datasets/paws",
+        "n": "BiMPM Ensemble",
+        "d": "2017-02-13",
+        "m1": "88.8",
+        "m2": "93.2",
+        "m3": "6.4m"
+      },
+      {
+        "p": {
+          "name": "Deep contextualized word representations",
+          "link": "http://arxiv.org/abs/1802.05365v2"
+        },
+        "c": "https://github.com/flairNLP/flair",
+        "n": "ESIM + ELMo",
+        "d": "2018-02-15",
+        "m1": "88.7",
+        "m2": "91.6",
+        "m3": "8.0m"
+      },
+      {
+        "p": {
+          "name": "Neural Natural Language Inference Models Enhanced with External Knowledge",
+          "link": "http://arxiv.org/abs/1711.04289v3"
+        },
+        "c": "https://github.com/lukecq1231/kim",
+        "n": "KIM",
+        "d": "2017-11-12",
+        "m1": "88.6",
+        "m2": "94.1",
+        "m3": "4.3m"
+      },
+      {
+        "p": {
+          "name": "Enhanced LSTM for Natural Language Inference",
+          "link": "http://arxiv.org/abs/1609.06038v3"
+        },
+        "c": "https://github.com/coetaur0/ESIM",
+        "n": "600D ESIM + 300D Syntactic TreeLSTM",
+        "d": "2016-09-20",
+        "m1": "88.6",
+        "m2": "93.5",
+        "m3": "7.7m"
+      },
+      {
+        "p": {
+          "name": "DR-BiLSTM: Dependent Reading Bidirectional LSTM for Natural Language Inference",
+          "link": "http://arxiv.org/abs/1802.05577v2"
+        },
+        "c": "",
+        "n": "450D DR-BiLSTM",
+        "d": "2018-02-15",
+        "m1": "88.5",
+        "m2": "94.1",
+        "m3": "7.5m"
+      },
+      {
+        "p": {
+          "name": "Stochastic Answer Networks for Natural Language Inference",
+          "link": "http://arxiv.org/abs/1804.07888v2"
+        },
+        "c": "https://github.com/kevinduh/san_mrc",
+        "n": "Stochastic Answer Network",
+        "d": "2018-04-21",
+        "m1": "88.5",
+        "m2": "93.3",
+        "m3": "3.5m"
+      },
+      {
+        "p": {
+          "name": "Compare, Compress and Propagate: Enhancing Neural Architectures with Alignment Factorization for Natural Language Inference",
+          "link": "http://arxiv.org/abs/1801.00102v2"
+        },
+        "c": "",
+        "n": "300D CAFE",
+        "d": "2017-12-30",
+        "m1": "88.5",
+        "m2": "89.8",
+        "m3": "4.7m"
+      },
+      {
+        "p": {
+          "name": "Multiway Attention Networks for Modeling Sentence Pairs",
+          "link": "https://www.ijcai.org/proceedings/2018/0613"
+        },
+        "c": "https://github.com/zsweet/zsw_AI_model",
+        "n": "150D Multiway Attention Network",
+        "d": "2018-07-01",
+        "m1": "88.3",
+        "m2": "94.5",
+        "m3": "14m"
+      },
+      {
+        "p": {
+          "name": "Learned in Translation: Contextualized Word Vectors",
+          "link": "http://arxiv.org/abs/1708.00107v2"
+        },
+        "c": "https://github.com/salesforce/cove",
+        "n": "Biattentive Classification Network + CoVe + Char",
+        "d": "2017-08-01",
+        "m1": "88.1",
+        "m2": "88.5",
+        "m3": "22m"
+      },
+      {
+        "p": {
+          "name": "Attention Boosted Sequential Inference Model",
+          "link": "http://arxiv.org/abs/1812.01840v2"
+        },
+        "c": "",
+        "n": "aESIM",
+        "d": "2018-12-05",
+        "m1": "88.1"
+      },
+      {
+        "p": {
+          "name": "Natural Language Inference over Interaction Space",
+          "link": "http://arxiv.org/abs/1709.04348v2"
+        },
+        "c": "https://github.com/YichenGong/Densely-Interactive-Inference-Network",
+        "n": "448D Densely Interactive Inference Network (DIIN, code)",
+        "d": "2017-09-13",
+        "m1": "88.0",
+        "m2": "91.2",
+        "m3": "4.4m"
+      },
+      {
+        "p": {
+          "name": "Enhanced LSTM for Natural Language Inference",
+          "link": "http://arxiv.org/abs/1609.06038v3"
+        },
+        "c": "https://github.com/coetaur0/ESIM",
+        "n": "Enhanced Sequential Inference Model (Chen et al., [2017a])",
+        "d": "2016-09-20",
+        "m1": "88.0"
+      },
+      {
+        "p": {
+          "name": "Bilateral Multi-Perspective Matching for Natural Language Sentences",
+          "link": "http://arxiv.org/abs/1702.03814v3"
+        },
+        "c": "https://github.com/google-research-datasets/paws",
+        "n": "BiMPM",
+        "d": "2017-02-13",
+        "m1": "87.5",
+        "m2": "90.9",
+        "m3": "1.6m"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "300D re-read LSTM",
+        "d": null,
+        "m1": "87.5",
+        "m2": "90.7",
+        "m3": "2.0m"
+      },
+      {
+        "p": {
+          "name": "Reading and Thinking: Re-read LSTM Unit for Textual Entailment Recognition",
+          "link": "https://aclanthology.org/C16-1270"
+        },
+        "c": "",
+        "n": "300D re-read LSTM",
+        "d": "2016-12-01",
+        "m1": "87.5",
+        "m2": "90.7",
+        "m3": "2.0m"
+      },
+      {
+        "p": {
+          "name": "Dynamic Self-Attention : Computing Attention over Words Dynamically for Sentence Embedding",
+          "link": "http://arxiv.org/abs/1808.07383v1"
+        },
+        "c": "https://github.com/dsindex/iclassifier",
+        "n": "2400D Multiple-Dynamic Self-Attention Model",
+        "d": "2018-08-22",
+        "m1": "87.4",
+        "m2": "89.0",
+        "m3": "7.0m"
+      },
+      {
+        "p": {
+          "name": "Neural Tree Indexers for Text Understanding",
+          "link": "http://arxiv.org/abs/1607.04492v2"
+        },
+        "c": "https://bitbucket.org/tsendeemts/nti",
+        "n": "300D Full tree matching NTI-SLSTM-LSTM w/ global attention",
+        "d": "2016-07-15",
+        "m1": "87.3",
+        "m2": "88.5",
+        "m3": "3.2m"
+      },
+      {
+        "p": {
+          "name": "Cell-aware Stacked LSTMs for Modeling Sentences",
+          "link": "https://arxiv.org/abs/1809.02279v2"
+        },
+        "c": "",
+        "n": "300D 2-layer Bi-CAS-LSTM",
+        "d": "2018-09-07",
+        "m1": "87"
+      },
+      {
+        "p": {
+          "name": "A Decomposable Attention Model for Natural Language Inference",
+          "link": "http://arxiv.org/abs/1606.01933v2"
+        },
+        "c": "https://github.com/dmlc/gluon-nlp",
+        "n": "200D decomposable attention feed-forward model with intra-sentence attention",
+        "d": "2016-06-06",
+        "m1": "86.8",
+        "m2": "90.5",
+        "m3": "580k"
+      },
+      {
+        "p": {
+          "name": "A Decomposable Attention Model for Natural Language Inference",
+          "link": "http://arxiv.org/abs/1606.01933v2"
+        },
+        "c": "https://github.com/dmlc/gluon-nlp",
+        "n": "200D decomposable attention model with intra-sentence attention",
+        "d": "2016-06-06",
+        "m1": "86.8",
+        "m2": "90.5",
+        "m3": "580k"
+      },
+      {
+        "p": {
+          "name": "Dynamic Self-Attention : Computing Attention over Words Dynamically for Sentence Embedding",
+          "link": "http://arxiv.org/abs/1808.07383v1"
+        },
+        "c": "https://github.com/dsindex/iclassifier",
+        "n": "600D Dynamic Self-Attention Model",
+        "d": "2018-08-22",
+        "m1": "86.8",
+        "m2": "87.3",
+        "m3": "2.1m"
+      },
+      {
+        "p": {
+          "name": "Parameter Re-Initialization through Cyclical Batch Size Schedules",
+          "link": "http://arxiv.org/abs/1812.01216v1"
+        },
+        "c": "",
+        "n": "CBS-1 + ESIM",
+        "d": "2018-12-04",
+        "m1": "86.73"
+      },
+      {
+        "p": {
+          "name": "Dynamic Meta-Embeddings for Improved Sentence Representations",
+          "link": "http://arxiv.org/abs/1804.07983v2"
+        },
+        "c": "https://github.com/facebookresearch/DME",
+        "n": "512D Dynamic Meta-Embeddings",
+        "d": "2018-04-21",
+        "m1": "86.7",
+        "m2": "91.6",
+        "m3": "9m"
+      },
+      {
+        "p": {
+          "name": "Enhancing Sentence Embedding with Generalized Pooling",
+          "link": "http://arxiv.org/abs/1806.09828v1"
+        },
+        "c": "https://github.com/lukecq1231/generalized-pooling",
+        "n": "600D BiLSTM with generalized pooling",
+        "d": "2018-06-26",
+        "m1": "86.6",
+        "m2": "94.9",
+        "m3": "65m"
+      },
+      {
+        "p": {
+          "name": "Sentence Embeddings in NLI with Iterative Refinement Encoders",
+          "link": "https://arxiv.org/abs/1808.08762v2"
+        },
+        "c": "https://github.com/Helsinki-NLP/HBMP",
+        "n": "600D Hierarchical BiLSTM with Max Pooling (HBMP, code)",
+        "d": "2018-08-27",
+        "m1": "86.6",
+        "m2": "89.9",
+        "m3": "22m"
+      },
+      {
+        "p": {
+          "name": "Semantic Sentence Matching with Densely-connected Recurrent and Co-attentive Information",
+          "link": "http://arxiv.org/abs/1805.11360v2"
+        },
+        "c": "",
+        "n": "Densely-Connected Recurrent and Co-Attentive Network (encoder)",
+        "d": "2018-05-29",
+        "m1": "86.5",
+        "m2": "91.4",
+        "m3": "5.6m"
+      },
+      {
+        "p": {
+          "name": "Reinforced Self-Attention Network: a Hybrid of Hard and Soft Attention for Sequence Modeling",
+          "link": "http://arxiv.org/abs/1801.10296v2"
+        },
+        "c": "https://github.com/taoshen58/DiSAN",
+        "n": "300D Reinforced Self-Attention Network",
+        "d": "2018-01-31",
+        "m1": "86.3",
+        "m2": "92.6",
+        "m3": "3.1m"
+      },
+      {
+        "p": {
+          "name": "Distance-based Self-Attention Network for Natural Language Inference",
+          "link": "http://arxiv.org/abs/1712.02047v1"
+        },
+        "c": "",
+        "n": "Distance-based Self-Attention Network",
+        "d": "2017-12-06",
+        "m1": "86.3",
+        "m2": "89.6",
+        "m3": "4.7m"
+      },
+      {
+        "p": {
+          "name": "A Decomposable Attention Model for Natural Language Inference",
+          "link": "http://arxiv.org/abs/1606.01933v2"
+        },
+        "c": "https://github.com/dmlc/gluon-nlp",
+        "n": "200D decomposable attention feed-forward model",
+        "d": "2016-06-06",
+        "m1": "86.3",
+        "m2": "89.5",
+        "m3": "380k"
+      },
+      {
+        "p": {
+          "name": "A Decomposable Attention Model for Natural Language Inference",
+          "link": "http://arxiv.org/abs/1606.01933v2"
+        },
+        "c": "https://github.com/dmlc/gluon-nlp",
+        "n": "200D decomposable attention model",
+        "d": "2016-06-06",
+        "m1": "86.3",
+        "m2": "89.5",
+        "m3": "380k"
+      },
+      {
+        "p": {
+          "name": "Long Short-Term Memory-Networks for Machine Reading",
+          "link": "http://arxiv.org/abs/1601.06733v7"
+        },
+        "c": "https://github.com/JRC1995/Abstractive-Summarization",
+        "n": "450D LSTMN with deep attention fusion",
+        "d": "2016-01-25",
+        "m1": "86.3",
+        "m2": "88.5",
+        "m3": "3.4m"
+      },
+      {
+        "p": {
+          "name": "Learning Natural Language Inference with LSTM",
+          "link": "http://arxiv.org/abs/1512.08849v2"
+        },
+        "c": "https://github.com/shuohangwang/SeqMatchSeq",
+        "n": "300D mLSTM word-by-word attention model",
+        "d": "2015-12-30",
+        "m1": "86.1",
+        "m2": "92.0",
+        "m3": "1.9m"
+      },
+      {
+        "p": {
+          "name": "Learning to Compose Task-Specific Tree Structures",
+          "link": "http://arxiv.org/abs/1707.02786v4"
+        },
+        "c": "https://github.com/jihunchoi/unsupervised-treelstm",
+        "n": "600D Gumbel TreeLSTM encoders",
+        "d": "2017-07-10",
+        "m1": "86.0",
+        "m2": "93.1",
+        "m3": "10m"
+      },
+      {
+        "p": {
+          "name": "Shortcut-Stacked Sentence Encoders for Multi-Domain Inference",
+          "link": "http://arxiv.org/abs/1708.02312v2"
+        },
+        "c": "https://github.com/easonnie/multiNLI_encoder",
+        "n": "600D Residual stacked encoders",
+        "d": "2017-08-07",
+        "m1": "86.0",
+        "m2": "91.0",
+        "m3": "29m"
+      },
+      {
+        "p": {
+          "name": "Star-Transformer",
+          "link": "https://arxiv.org/abs/1902.09113v3"
+        },
+        "c": "https://github.com/dmlc/dgl",
+        "n": "Star-Transformer (no cross sentence attention)",
+        "d": "2019-02-25",
+        "m1": "86.0"
+      },
+      {
+        "p": {
+          "name": "Compare, Compress and Propagate: Enhancing Neural Architectures with Alignment Factorization for Natural Language Inference",
+          "link": "http://arxiv.org/abs/1801.00102v2"
+        },
+        "c": "",
+        "n": "300D CAFE (no cross-sentence attention)",
+        "d": "2017-12-30",
+        "m1": "85.9",
+        "m2": "87.3",
+        "m3": "3.7m"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "1200D REGMAPR (Base+Reg)",
+        "d": null,
+        "m1": "85.9",
+        "m2": "–",
+        "m3": "–"
+      },
+      {
+        "p": {
+          "name": "Shortcut-Stacked Sentence Encoders for Multi-Domain Inference",
+          "link": "http://arxiv.org/abs/1708.02312v2"
+        },
+        "c": "https://github.com/easonnie/multiNLI_encoder",
+        "n": "300D Residual stacked encoders",
+        "d": "2017-08-07",
+        "m1": "85.7",
+        "m2": "89.8",
+        "m3": "9.7m"
+      },
+      {
+        "p": {
+          "name": "Long Short-Term Memory-Networks for Machine Reading",
+          "link": "http://arxiv.org/abs/1601.06733v7"
+        },
+        "c": "https://github.com/JRC1995/Abstractive-Summarization",
+        "n": "300D LSTMN with deep attention fusion",
+        "d": "2016-01-25",
+        "m1": "85.7",
+        "m2": "87.3",
+        "m3": "1.7m"
+      },
+      {
+        "p": {
+          "name": "Learning to Compose Task-Specific Tree Structures",
+          "link": "http://arxiv.org/abs/1707.02786v4"
+        },
+        "c": "https://github.com/jihunchoi/unsupervised-treelstm",
+        "n": "300D Gumbel TreeLSTM encoders",
+        "d": "2017-07-10",
+        "m1": "85.6",
+        "m2": "91.2",
+        "m3": "2.9m"
+      },
+      {
+        "p": {
+          "name": "DiSAN: Directional Self-Attention Network for RNN/CNN-Free Language Understanding",
+          "link": "http://arxiv.org/abs/1709.04696v3"
+        },
+        "c": "https://github.com/taoshen58/DiSAN",
+        "n": "300D Directional self-attention network encoders",
+        "d": "2017-09-14",
+        "m1": "85.6",
+        "m2": "91.1",
+        "m3": "2.4m"
+      },
+      {
+        "p": {
+          "name": "Recurrent Neural Network-Based Sentence Encoder with Gated Attention for Natural Language Inference",
+          "link": "http://arxiv.org/abs/1708.01353v1"
+        },
+        "c": "https://github.com/lukecq1231/enc_nli",
+        "n": "600D (300+300) Deep Gated Attn. BiLSTM encoders",
+        "d": "2017-08-04",
+        "m1": "85.5",
+        "m2": "90.5",
+        "m3": "12m"
+      },
+      {
+        "p": {
+          "name": "Neural Semantic Encoders",
+          "link": "http://arxiv.org/abs/1607.04315v3"
+        },
+        "c": "https://github.com/Smerity/keras_snli",
+        "n": "300D MMA-NSE encoders with attention",
+        "d": "2016-07-14",
+        "m1": "85.4",
+        "m2": "86.9",
+        "m3": "3.2m"
+      },
+      {
+        "p": {
+          "name": "Modelling Interaction of Sentence Pair with coupled-LSTMs",
+          "link": "http://arxiv.org/abs/1605.05573v2"
+        },
+        "c": "",
+        "n": "50D stacked TC-LSTMs",
+        "d": "2016-05-18",
+        "m1": "85.1",
+        "m2": "86.7",
+        "m3": "190k"
+      },
+      {
+        "p": {
+          "name": "Learning Natural Language Inference using Bidirectional LSTM model and Inner-Attention",
+          "link": "http://arxiv.org/abs/1605.09090v1"
+        },
+        "c": "https://github.com/Smerity/keras_snli",
+        "n": "600D (300+300) BiLSTM encoders with intra-attention and symbolic preproc.",
+        "d": "2016-05-30",
+        "m1": "85.0",
+        "m2": "85.9",
+        "m3": "2.8m"
+      },
+      {
+        "p": {
+          "name": "Combining Similarity Features and Deep Representation Learning for Stance Detection in the Context of Checking Fake News",
+          "link": "http://arxiv.org/abs/1811.00706v1"
+        },
+        "c": "https://github.com/imran3180/pytorch-nli",
+        "n": "Stacked Bi-LSTMs (shortcut connections, max-pooling)",
+        "d": "2018-11-02",
+        "m1": "84.8"
+      },
+      {
+        "p": {
+          "name": "Neural Semantic Encoders",
+          "link": "http://arxiv.org/abs/1607.04315v3"
+        },
+        "c": "https://github.com/Smerity/keras_snli",
+        "n": "300D NSE encoders",
+        "d": "2016-07-14",
+        "m1": "84.6",
+        "m2": "86.2",
+        "m3": "3.0m"
+      },
+      {
+        "p": {
+          "name": "Deep Fusion LSTMs for Text Semantic Matching",
+          "link": "https://aclanthology.org/P16-1098"
+        },
+        "c": "",
+        "n": "100D DF-LSTM",
+        "d": "2016-08-01",
+        "m1": "84.6",
+        "m2": "85.2",
+        "m3": "320k"
+      },
+      {
+        "p": {
+          "name": "Supervised Learning of Universal Sentence Representations from Natural Language Inference Data",
+          "link": "http://arxiv.org/abs/1705.02364v5"
+        },
+        "c": "https://github.com/facebookresearch/InferSent",
+        "n": "4096D BiLSTM with max-pooling",
+        "d": "2017-05-05",
+        "m1": "84.5",
+        "m2": "85.6",
+        "m3": "40m"
+      },
+      {
+        "p": {
+          "name": "Combining Similarity Features and Deep Representation Learning for Stance Detection in the Context of Checking Fake News",
+          "link": "http://arxiv.org/abs/1811.00706v1"
+        },
+        "c": "https://github.com/imran3180/pytorch-nli",
+        "n": "Bi-LSTM sentence encoder (max-pooling)",
+        "d": "2018-11-02",
+        "m1": "84.5"
+      },
+      {
+        "p": {
+          "name": "Combining Similarity Features and Deep Representation Learning for Stance Detection in the Context of Checking Fake News",
+          "link": "http://arxiv.org/abs/1811.00706v1"
+        },
+        "c": "https://github.com/imran3180/pytorch-nli",
+        "n": "Stacked Bi-LSTMs (shortcut connections, max-pooling, attention)",
+        "d": "2018-11-02",
+        "m1": "84.4"
+      },
+      {
+        "p": {
+          "name": "Learning Natural Language Inference using Bidirectional LSTM model and Inner-Attention",
+          "link": "http://arxiv.org/abs/1605.09090v1"
+        },
+        "c": "https://github.com/Smerity/keras_snli",
+        "n": "600D (300+300) BiLSTM encoders with intra-attention",
+        "d": "2016-05-30",
+        "m1": "84.2",
+        "m2": "84.5",
+        "m3": "2.8m"
+      },
+      {
+        "p": {
+          "name": "Baseline Needs More Love: On Simple Word-Embedding-Based Models and Associated Pooling Mechanisms",
+          "link": "http://arxiv.org/abs/1805.09843v1"
+        },
+        "c": "https://github.com/dinghanshen/SWEM",
+        "n": "SWEM-max",
+        "d": "2018-05-24",
+        "m1": "83.8"
+      },
+      {
+        "p": {
+          "name": "Reasoning about Entailment with Neural Attention",
+          "link": "http://arxiv.org/abs/1509.06664v4"
+        },
+        "c": "https://github.com/shyamupa/snli-entailment",
+        "n": "100D LSTMs w/ word-by-word attention",
+        "d": "2015-09-22",
+        "m1": "83.5",
+        "m2": "85.3",
+        "m3": "250k"
+      },
+      {
+        "p": {
+          "name": "Neural Tree Indexers for Text Understanding",
+          "link": "http://arxiv.org/abs/1607.04492v2"
+        },
+        "c": "https://bitbucket.org/tsendeemts/nti",
+        "n": "300D NTI-SLSTM-LSTM encoders",
+        "d": "2016-07-15",
+        "m1": "83.4",
+        "m2": "82.5",
+        "m3": "4.0m"
+      },
+      {
+        "p": {
+          "name": "Learning Natural Language Inference using Bidirectional LSTM model and Inner-Attention",
+          "link": "http://arxiv.org/abs/1605.09090v1"
+        },
+        "c": "https://github.com/Smerity/keras_snli",
+        "n": "600D (300+300) BiLSTM encoders",
+        "d": "2016-05-30",
+        "m1": "83.3",
+        "m2": "86.4",
+        "m3": "2.0m"
+      },
+      {
+        "p": {
+          "name": "A Fast Unified Model for Parsing and Sentence Understanding",
+          "link": "http://arxiv.org/abs/1603.06021v3"
+        },
+        "c": "https://github.com/stanfordnlp/spinn",
+        "n": "300D SPINN-PI encoders",
+        "d": "2016-03-19",
+        "m1": "83.2",
+        "m2": "89.2",
+        "m3": "3.7m"
+      },
+      {
+        "p": {
+          "name": "Natural Language Inference by Tree-Based Convolution and Heuristic Matching",
+          "link": "http://arxiv.org/abs/1512.08422v3"
+        },
+        "c": "",
+        "n": "300D Tree-based CNN encoders",
+        "d": "2015-12-28",
+        "m1": "82.1",
+        "m2": "83.3",
+        "m3": "3.5m"
+      },
+      {
+        "p": {
+          "name": "Order-Embeddings of Images and Language",
+          "link": "http://arxiv.org/abs/1511.06361v6"
+        },
+        "c": "https://github.com/ivendrov/order-embedding",
+        "n": "1024D GRU encoders w/ unsupervised 'skip-thoughts' pre-training",
+        "d": "2015-11-19",
+        "m1": "81.4",
+        "m2": "98.8",
+        "m3": "15m"
+      },
+      {
+        "p": {
+          "name": "DELTA: A DEep learning based Language Technology plAtform",
+          "link": "https://arxiv.org/abs/1908.01853v1"
+        },
+        "c": "https://github.com/didi/delta",
+        "n": "DELTA (LSTM)",
+        "d": "2019-08-02",
+        "m1": "80.7"
+      },
+      {
+        "p": {
+          "name": "A Fast Unified Model for Parsing and Sentence Understanding",
+          "link": "http://arxiv.org/abs/1603.06021v3"
+        },
+        "c": "https://github.com/stanfordnlp/spinn",
+        "n": "300D LSTM encoders",
+        "d": "2016-03-19",
+        "m1": "80.6",
+        "m2": "83.9",
+        "m3": "3.0m"
+      },
+      {
+        "p": {
+          "name": "A large annotated corpus for learning natural language inference",
+          "link": "http://arxiv.org/abs/1508.05326v1"
+        },
+        "c": "https://github.com/kawine/dataset_difficulty",
+        "n": "+ Unigram and bigram features",
+        "d": "2015-08-21",
+        "m1": "78.2",
+        "m2": "99.7",
+        "m3": ""
+      },
+      {
+        "p": {
+          "name": "A large annotated corpus for learning natural language inference",
+          "link": "http://arxiv.org/abs/1508.05326v1"
+        },
+        "c": "https://github.com/kawine/dataset_difficulty",
+        "n": "100D LSTM encoders",
+        "d": "2015-08-21",
+        "m1": "77.6",
+        "m2": "84.8",
+        "m3": "220k"
+      },
+      {
+        "p": {
+          "name": "A large annotated corpus for learning natural language inference",
+          "link": "http://arxiv.org/abs/1508.05326v1"
+        },
+        "c": "https://github.com/kawine/dataset_difficulty",
+        "n": "Unlexicalized features",
+        "d": "2015-08-21",
+        "m1": "50.4",
+        "m2": "49.4",
+        "m3": ""
+      },
+      {
+        "p": {
+          "name": "SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization",
+          "link": "https://arxiv.org/abs/1911.03437v5"
+        },
+        "c": "https://github.com/namisan/mt-dnn",
+        "n": "MT-DNN-SMART_100%ofTrainingData",
+        "d": "2019-11-08",
+        "m4": "91.6"
+      },
+      {
+        "p": {
+          "name": "SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization",
+          "link": "https://arxiv.org/abs/1911.03437v5"
+        },
+        "c": "https://github.com/namisan/mt-dnn",
+        "n": "MT-DNN-SMART_10%ofTrainingData",
+        "d": "2019-11-08",
+        "m4": "88.7"
+      },
+      {
+        "p": {
+          "name": "SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization",
+          "link": "https://arxiv.org/abs/1911.03437v5"
+        },
+        "c": "https://github.com/namisan/mt-dnn",
+        "n": "MT-DNN-SMART_1%ofTrainingData",
+        "d": "2019-11-08",
+        "m4": "86"
+      },
+      {
+        "p": {
+          "name": "SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization",
+          "link": "https://arxiv.org/abs/1911.03437v5"
+        },
+        "c": "https://github.com/namisan/mt-dnn",
+        "n": "MT-DNN-SMART_0.1%ofTrainingData",
+        "d": "2019-11-08",
+        "m4": "82.7"
+      },
+      {
+        "p": {
+          "name": "SplitEE: Early Exit in Deep Neural Networks with Split Computing",
+          "link": "https://arxiv.org/abs/2309.09195v1"
+        },
+        "c": "https://github.com/Div290/SplitEE/blob/main/README.md",
+        "n": "SplitEE-S",
+        "d": "2023-09-17",
+        "m6": "79.0"
+      }
+    ]
+  }
+}

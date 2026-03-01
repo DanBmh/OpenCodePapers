@@ -1,0 +1,141 @@
+{
+  "title": "text-spotting-on-inverse-text",
+  "task-hierarchy": [
+    "Text Spotting"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F-measure (%) - No Lexicon",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "F-measure (%) - Full Lexicon",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DeepSolo++: Let Transformer Decoder with Explicit Points Solo for Multilingual Text Spotting",
+          "link": "https://arxiv.org/abs/2305.19957v2"
+        },
+        "c": "https://github.com/vitae-transformer/deepsolo",
+        "n": "DeepSolo (ViTAEv2-S, TextOCR)",
+        "d": "2023-05-31",
+        "m1": "68.8",
+        "m2": "75.8"
+      },
+      {
+        "p": {
+          "name": "DeepSolo++: Let Transformer Decoder with Explicit Points Solo for Multilingual Text Spotting",
+          "link": "https://arxiv.org/abs/2305.19957v2"
+        },
+        "c": "https://github.com/vitae-transformer/deepsolo",
+        "n": "DeepSolo (ResNet-50, TextOCR)",
+        "d": "2023-05-31",
+        "m1": "64.6",
+        "m2": "71.2"
+      },
+      {
+        "p": {
+          "name": "SwinTextSpotter: Scene Text Spotting via Better Synergy between Text Detection and Text Recognition",
+          "link": "https://arxiv.org/abs/2203.10209v1"
+        },
+        "c": "https://github.com/mxin262/swintextspotter",
+        "n": "SwinTextSpotter",
+        "d": "2022-03-19",
+        "m1": "55.4",
+        "m2": "67.9"
+      },
+      {
+        "p": {
+          "name": "DeepSolo++: Let Transformer Decoder with Explicit Points Solo for Multilingual Text Spotting",
+          "link": "https://arxiv.org/abs/2305.19957v2"
+        },
+        "c": "https://github.com/vitae-transformer/deepsolo",
+        "n": "DeepSolo (ResNet-50)",
+        "d": "2023-05-31",
+        "m1": "48.5",
+        "m2": "53.9"
+      },
+      {
+        "p": {
+          "name": "Mask TextSpotter: An End-to-End Trainable Neural Network for Spotting Text with Arbitrary Shapes",
+          "link": "http://arxiv.org/abs/1807.02242v2"
+        },
+        "c": "https://github.com/lvpengyuan/masktextspotter.caffe2",
+        "n": "MaskTextSpotter v2",
+        "d": "2018-07-06",
+        "m1": "39.0",
+        "m2": "43.5"
+      },
+      {
+        "p": {
+          "name": "SPTS: Single-Point Text Spotting",
+          "link": "https://arxiv.org/abs/2112.07917v6"
+        },
+        "c": "https://github.com/shannanyinxiang/spts",
+        "n": "SPTS",
+        "d": "2021-12-15",
+        "m1": "38.3",
+        "m2": "46.2"
+      },
+      {
+        "p": {
+          "name": "ABCNet v2: Adaptive Bezier-Curve Network for Real-time End-to-end Text Spotting",
+          "link": "https://arxiv.org/abs/2105.03620v3"
+        },
+        "c": "https://github.com/Yuliang-Liu/ABCNet_Chinese",
+        "n": "ABCNet v2",
+        "d": "2021-05-08",
+        "m1": "34.5",
+        "m2": "47.4"
+      },
+      {
+        "p": {
+          "name": "Text Spotting Transformers",
+          "link": "https://arxiv.org/abs/2204.01918v1"
+        },
+        "c": "https://github.com/mlpc-ucsd/testr",
+        "n": "TESTR",
+        "d": "2022-04-05",
+        "m1": "34.2",
+        "m2": "41.6"
+      },
+      {
+        "p": {
+          "name": "ABCNet: Real-time Scene Text Spotting with Adaptive Bezier-Curve Network",
+          "link": "https://arxiv.org/abs/2002.10200v2"
+        },
+        "c": "https://github.com/aim-uofa/AdelaiDet",
+        "n": "ABCNet",
+        "d": "2020-02-24",
+        "m1": "22.2",
+        "m2": "34.3"
+      }
+    ]
+  }
+}

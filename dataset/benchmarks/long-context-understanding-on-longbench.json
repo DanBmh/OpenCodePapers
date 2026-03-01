@@ -1,0 +1,67 @@
+{
+  "title": "long-context-understanding-on-longbench",
+  "task-hierarchy": [
+    "Long-Context Understanding"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/THUDM/LongBench"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Average Score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "A Training-Free Length Extrapolation Approach for LLMs: Greedy Attention Logit Interpolation (GALI)",
+          "link": "https://arxiv.org/abs/2502.02659v1"
+        },
+        "c": "https://github.com/academycityl/gali",
+        "n": "GALI(Llama3-8b-ins-4k-to-16k)",
+        "d": "2025-02-04",
+        "m1": "46.22"
+      },
+      {
+        "p": {
+          "name": "A Training-Free Length Extrapolation Approach for LLMs: Greedy Attention Logit Interpolation (GALI)",
+          "link": "https://arxiv.org/abs/2502.02659v1"
+        },
+        "c": "https://github.com/academycityl/gali",
+        "n": "GALI(Llama3-8b-ins-8k-to-32k)",
+        "d": "2025-02-04",
+        "m1": "45.38"
+      },
+      {
+        "p": {
+          "name": "A Training-Free Length Extrapolation Approach for LLMs: Greedy Attention Logit Interpolation (GALI)",
+          "link": "https://arxiv.org/abs/2502.02659v1"
+        },
+        "c": "https://github.com/academycityl/gali",
+        "n": "GALI(Llama3-8b-ins-8k-to-16k)",
+        "d": "2025-02-04",
+        "m1": "45.17"
+      }
+    ]
+  }
+}

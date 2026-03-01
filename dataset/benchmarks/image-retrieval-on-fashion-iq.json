@@ -1,0 +1,267 @@
+{
+  "title": "image-retrieval-on-fashion-iq",
+  "task-hierarchy": [
+    "Image Retrieval"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/XiaoxiaoGuo/fashion-iq"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "(Recall@10+Recall@50)/2",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Recall@10",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "DQU-CIR",
+        "d": null,
+        "m1": "71.77",
+        "m2": "61.97"
+      },
+      {
+        "p": {
+          "name": "TMCIR: Token Merge Benefits Composed Image Retrieval",
+          "link": "https://arxiv.org/abs/2504.10995v1"
+        },
+        "c": "",
+        "n": "TMCIR",
+        "d": "2025-04-15",
+        "m1": "66.56",
+        "m2": "56.57"
+      },
+      {
+        "p": {
+          "name": "Improving Composed Image Retrieval via Contrastive Learning with Scaling Positives and Negatives",
+          "link": "https://arxiv.org/abs/2404.11317v2"
+        },
+        "c": "https://github.com/BUAADreamer/SPN4CIR",
+        "n": "SPN4CIR (SPRC)",
+        "d": "2024-04-17",
+        "m1": "66.41",
+        "m2": "56.37"
+      },
+      {
+        "p": {
+          "name": "Sentence-level Prompts Benefit Composed Image Retrieval",
+          "link": "https://arxiv.org/abs/2310.05473v1"
+        },
+        "c": "https://github.com/chunmeifeng/sprc",
+        "n": "SPRC",
+        "d": "2023-10-09",
+        "m1": "64.85",
+        "m2": "54.92"
+      },
+      {
+        "p": {
+          "name": "Candidate Set Re-ranking for Composed Image Retrieval with Dual Multi-modal Encoder",
+          "link": "https://arxiv.org/abs/2305.16304v3"
+        },
+        "c": "https://github.com/Cuberick-Orion/Bi-Blip4CIR",
+        "n": "Candidate Set Re-ranking",
+        "d": "2023-05-25",
+        "m1": "62.15",
+        "m2": "51.17"
+      },
+      {
+        "p": {
+          "name": "Ranking-aware Uncertainty for Text-guided Image Retrieval",
+          "link": "https://arxiv.org/abs/2308.08131v1"
+        },
+        "c": "",
+        "n": "RUTIR (BLIP B/16)",
+        "d": "2023-08-16",
+        "m1": "61.32"
+      },
+      {
+        "p": {
+          "name": "Data Roaming and Quality Assessment for Composed Image Retrieval",
+          "link": "https://arxiv.org/abs/2303.09429v2"
+        },
+        "c": "https://github.com/levymsn/LaSCo",
+        "n": "CASE",
+        "d": "2023-03-16",
+        "m1": "59.73",
+        "m2": "48.79"
+      },
+      {
+        "p": {
+          "name": "CaLa: Complementary Association Learning for Augmenting Composed Image Retrieval",
+          "link": "https://arxiv.org/abs/2405.19149v2"
+        },
+        "c": "https://github.com/chiangsonw/cala",
+        "n": "CaLa",
+        "d": "2024-05-29",
+        "m1": "57.96",
+        "m2": "46.69"
+      },
+      {
+        "p": {
+          "name": "Bi-directional Training for Composed Image Retrieval via Text Prompt Learning",
+          "link": "https://arxiv.org/abs/2303.16604v2"
+        },
+        "c": "https://github.com/Cuberick-Orion/Bi-Blip4CIR",
+        "n": "BLIP4CIR+Bi",
+        "d": "2023-03-29",
+        "m1": "55.4"
+      },
+      {
+        "p": {
+          "name": "Composed Image Retrieval using Contrastive Learning and Task-oriented CLIP-based Features",
+          "link": "https://arxiv.org/abs/2308.11485v1"
+        },
+        "c": "https://github.com/ABaldrati/CLIP4Cir",
+        "n": "CLIP4Cir (v3)",
+        "d": "2023-08-22",
+        "m1": "55.36"
+      },
+      {
+        "p": {
+          "name": "Ranking-aware Uncertainty for Text-guided Image Retrieval",
+          "link": "https://arxiv.org/abs/2308.08131v1"
+        },
+        "c": "",
+        "n": "RUTIR (CLIP ResNet50)",
+        "d": "2023-08-16",
+        "m1": "55.27"
+      },
+      {
+        "p": {
+          "name": "Collaborative Group: Composed Image Retrieval via Consensus Learning from Noisy Annotations",
+          "link": "https://arxiv.org/abs/2306.02092v2"
+        },
+        "c": "",
+        "n": "Css-Net",
+        "d": "2023-06-03",
+        "m1": "51.34"
+      },
+      {
+        "p": {
+          "name": "Composed Image Retrieval with Text Feedback via Multi-grained Uncertainty Regularization",
+          "link": "https://arxiv.org/abs/2211.07394v6"
+        },
+        "c": "https://github.com/Monoxide-Chen/uncertainty_retrieval",
+        "n": "MUR (4*ResNet50)",
+        "d": "2022-11-14",
+        "m1": "50.61"
+      },
+      {
+        "p": {
+          "name": "Conditioned and Composed Image Retrieval Combining and Partially Fine-Tuning CLIP-Based Features",
+          "link": "https://openaccess.thecvf.com/content/CVPR2022W/ODRUM/html/Baldrati_Conditioned_and_Composed_Image_Retrieval_Combining_and_Partially_Fine-Tuning_CLIP-Based_CVPRW_2022_paper.html"
+        },
+        "c": "https://github.com/ABaldrati/CLIP4Cir",
+        "n": "CLIP4Cir (v2)",
+        "d": "2022-06-19",
+        "m1": "50.03"
+      },
+      {
+        "p": {
+          "name": "Composed Image Retrieval with Text Feedback via Multi-grained Uncertainty Regularization",
+          "link": "https://arxiv.org/abs/2211.07394v6"
+        },
+        "c": "https://github.com/Monoxide-Chen/uncertainty_retrieval",
+        "n": "MUR",
+        "d": "2022-11-14",
+        "m1": "47.28"
+      },
+      {
+        "p": {
+          "name": "Effective Conditioned and Composed Image Retrieval Combining CLIP-Based Features",
+          "link": "http://openaccess.thecvf.com//content/CVPR2022/html/Baldrati_Effective_Conditioned_and_Composed_Image_Retrieval_Combining_CLIP-Based_Features_CVPR_2022_paper.html"
+        },
+        "c": "https://github.com/ABaldrati/CLIP4Cir",
+        "n": "CLIP4Cir",
+        "d": "2022-01-01",
+        "m1": "47.21"
+      },
+      {
+        "p": {
+          "name": "MegaPairs: Massive Data Synthesis For Universal Multimodal Retrieval",
+          "link": "https://arxiv.org/abs/2412.14475v1"
+        },
+        "c": "https://github.com/VectorSpaceLab/MegaPairs",
+        "n": "MMRet-MLLM",
+        "d": "2024-12-19",
+        "m1": "46.1",
+        "m2": "35.6"
+      },
+      {
+        "p": {
+          "name": "RTIC: Residual Learning for Text and Image Composition using Graph Convolutional Network",
+          "link": "https://arxiv.org/abs/2104.03015v3"
+        },
+        "c": "https://github.com/brandonhanx/compfashion",
+        "n": "RTIC-GCN",
+        "d": "2021-04-07",
+        "m1": "40.64"
+      },
+      {
+        "p": {
+          "name": "CoSMo: Content-Style Modulation for Image Retrieval With Text Feedback",
+          "link": "http://openaccess.thecvf.com//content/CVPR2021/html/Lee_CoSMo_Content-Style_Modulation_for_Image_Retrieval_With_Text_Feedback_CVPR_2021_paper.html"
+        },
+        "c": "https://github.com/postBG/CosMo.pytorch",
+        "n": "CoSMo",
+        "d": "2021-06-19",
+        "m1": "39.45"
+      },
+      {
+        "p": {
+          "name": "CurlingNet: Compositional Learning between Images and Text for Fashion IQ Data",
+          "link": "https://arxiv.org/abs/2003.12299v2"
+        },
+        "c": "https://github.com/nashory/rtic-gcn-pytorch",
+        "n": "CurlingNet",
+        "d": "2020-03-27",
+        "m1": "38.45"
+      },
+      {
+        "p": {
+          "name": "Image Search With Text Feedback by Visiolinguistic Attention Learning",
+          "link": "http://openaccess.thecvf.com/content_CVPR_2020/html/Chen_Image_Search_With_Text_Feedback_by_Visiolinguistic_Attention_Learning_CVPR_2020_paper.html"
+        },
+        "c": "https://github.com/yanbeic/VAL",
+        "n": "VAL w/ GloVe",
+        "d": "2020-06-01",
+        "m1": "35.38"
+      },
+      {
+        "p": {
+          "name": "Compositional Learning of Image-Text Query for Image Retrieval",
+          "link": "https://arxiv.org/abs/2006.11149v3"
+        },
+        "c": "https://github.com/ecom-research/ComposeAE",
+        "n": "ComposeAE",
+        "d": "2020-06-19",
+        "m1": "20.6"
+      }
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "title": "image-generation-on-stanford-cars",
+  "task-hierarchy": [
+    "Image Generation"
+  ],
+  "dataset-info": {
+    "link": "https://ai.stanford.edu/~jkrause/cars/car_dataset.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "FID",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Inception score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Projected GANs Converge Faster",
+          "link": "https://arxiv.org/abs/2111.01007v1"
+        },
+        "c": "https://github.com/autonomousvision/projected_gan",
+        "n": "Projected GANs",
+        "d": "2021-11-01",
+        "m1": "2.09"
+      },
+      {
+        "p": {
+          "name": "FineGAN: Unsupervised Hierarchical Disentanglement for Fine-Grained Object Generation and Discovery",
+          "link": "http://arxiv.org/abs/1811.11155v2"
+        },
+        "c": "https://github.com/kkanshul/finegan",
+        "n": "FineGAN",
+        "d": "2018-11-27",
+        "m1": "16.03",
+        "m2": "32.62"
+      },
+      {
+        "p": {
+          "name": "InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets",
+          "link": "http://arxiv.org/abs/1606.03657v1"
+        },
+        "c": "https://github.com/eriklindernoren/PyTorch-GAN",
+        "n": "InfoGAN",
+        "d": "2016-06-12",
+        "m1": "17.63",
+        "m2": "28.62"
+      },
+      {
+        "p": {
+          "name": "LR-GAN: Layered Recursive Generative Adversarial Networks for Image Generation",
+          "link": "http://arxiv.org/abs/1703.01560v3"
+        },
+        "c": "https://github.com/jwyang/lr-gan.pytorch",
+        "n": "LR-GAN",
+        "d": "2017-03-05",
+        "m1": "88.80",
+        "m2": "5.25"
+      }
+    ]
+  }
+}

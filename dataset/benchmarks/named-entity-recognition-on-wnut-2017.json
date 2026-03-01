@@ -1,0 +1,286 @@
+{
+  "title": "named-entity-recognition-on-wnut-2017",
+  "task-hierarchy": [
+    "Named Entity Recognition (NER)"
+  ],
+  "dataset-info": {
+    "link": "https://noisy-text.github.io/2017/emerging-rare-entities.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "F1 (surface form)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Precision",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Recall",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Improving Named Entity Recognition by External Context Retrieving and Cooperative Learning",
+          "link": "https://arxiv.org/abs/2105.03654v3"
+        },
+        "c": "https://github.com/modelscope/adaseq",
+        "n": "CL-KL",
+        "d": "2021-05-08",
+        "m1": "60.45"
+      },
+      {
+        "p": {
+          "name": "SubRegWeigh: Effective and Efficient Annotation Weighing with Subword Regularization",
+          "link": "https://arxiv.org/abs/2409.06216v2"
+        },
+        "c": "https://github.com/4ldk/SubRegWeigh",
+        "n": "RoBERTa + SubRegWeigh (K-means)",
+        "d": "2024-09-10",
+        "m1": "60.29"
+      },
+      {
+        "p": {
+          "name": "Improving Named Entity Recognition by External Context Retrieving and Cooperative Learning",
+          "link": "https://arxiv.org/abs/2105.03654v3"
+        },
+        "c": "https://github.com/modelscope/adaseq",
+        "n": "BERT-CRF (Replicated in AdaSeq)",
+        "d": "2021-05-08",
+        "m1": "59.69"
+      },
+      {
+        "p": {
+          "name": "Supplementary Features of BiLSTM for Enhanced Sequence Labeling",
+          "link": "https://arxiv.org/abs/2305.19928v4"
+        },
+        "c": "https://github.com/conglei2xu/global-context-mechanism",
+        "n": "RoBERTa-BiLSTM-context",
+        "d": "2023-05-31",
+        "m1": "59.61"
+      },
+      {
+        "p": {
+          "name": "Regularization for Long Named Entity Recognition",
+          "link": "https://arxiv.org/abs/2104.07249v2"
+        },
+        "c": "https://github.com/minstar/PMI",
+        "n": "BERT + RegLER",
+        "d": "2021-04-15",
+        "m1": "58.9"
+      },
+      {
+        "p": {
+          "name": "T-NER: An All-Round Python Library for Transformer-based Named Entity Recognition",
+          "link": "https://arxiv.org/abs/2209.12616v1"
+        },
+        "c": "https://github.com/asahi417/tner",
+        "n": "TNER -xlm-r-large",
+        "d": "2022-09-09",
+        "m1": "58.5"
+      },
+      {
+        "p": {
+          "name": "Hero-Gang Neural Model For Named Entity Recognition",
+          "link": "https://arxiv.org/abs/2205.07177v1"
+        },
+        "c": "https://github.com/jinpeng01/hgn",
+        "n": "HGN",
+        "d": "2022-05-15",
+        "m1": "57.41"
+      },
+      {
+        "p": {
+          "name": "Adversarial Self-Attention for Language Understanding",
+          "link": "https://arxiv.org/abs/2206.12608v3"
+        },
+        "c": "https://github.com/gingasan/adversarialsa",
+        "n": "ASA + RoBERTa",
+        "d": "2022-06-25",
+        "m1": "57.3"
+      },
+      {
+        "p": {
+          "name": "BERTweet: A pre-trained language model for English Tweets",
+          "link": "https://arxiv.org/abs/2005.10200v2"
+        },
+        "c": "https://github.com/VinAIResearch/BERTweet",
+        "n": "BERTweet",
+        "d": "2020-05-20",
+        "m1": "56.5"
+      },
+      {
+        "p": {
+          "name": "MINER: Improving Out-of-Vocabulary Named Entity Recognition from an Information Theoretic Perspective",
+          "link": "https://arxiv.org/abs/2204.04391v2"
+        },
+        "c": "https://github.com/beyonderxx/miner",
+        "n": "MINER",
+        "d": "2022-04-09",
+        "m1": "54.86"
+      },
+      {
+        "p": {
+          "name": "GoLLIE: Annotation Guidelines improve Zero-Shot Information-Extraction",
+          "link": "https://arxiv.org/abs/2310.03668v5"
+        },
+        "c": "https://github.com/hitz-zentroa/gollie",
+        "n": "GoLLIE",
+        "d": "2023-10-05",
+        "m1": "54.3"
+      },
+      {
+        "p": {
+          "name": "Robust Named Entity Recognition with Truecasing Pretraining",
+          "link": "https://arxiv.org/abs/1912.07095v1"
+        },
+        "c": "",
+        "n": "Truecase",
+        "d": "2019-12-15",
+        "m1": "52.3"
+      },
+      {
+        "p": {
+          "name": "Improving Named Entity Recognition with Attentive Ensemble of Syntactic Information",
+          "link": "https://arxiv.org/abs/2010.15466v1"
+        },
+        "c": "https://github.com/cuhksz-nlp/AESINER",
+        "n": "AESINER",
+        "d": "2020-10-29",
+        "m1": "50.68"
+      },
+      {
+        "p": {
+          "name": "InferNER: an attentive model leveraging the sentence-level information for Named Entity Recognition in Microblogs",
+          "link": "https://journals.flvc.org/FLAIRS/article/view/128538"
+        },
+        "c": "",
+        "n": "InferNER",
+        "d": "2021-04-18",
+        "m1": "50.52"
+      },
+      {
+        "p": {
+          "name": "Named Entity Recognition for Social Media Texts with Semantic Augmentation",
+          "link": "https://arxiv.org/abs/2010.15458v1"
+        },
+        "c": "https://github.com/cuhksz-nlp/SANER",
+        "n": "SA-NER",
+        "d": "2020-10-29",
+        "m1": "50.36"
+      },
+      {
+        "p": {
+          "name": "CrossWeigh: Training Named Entity Tagger from Imperfect Annotations",
+          "link": "https://arxiv.org/abs/1909.01441v1"
+        },
+        "c": "https://github.com/ZihanWangKi/CrossWeigh",
+        "n": "CrossWeigh + Pooled Flair",
+        "d": "2019-09-03",
+        "m1": "50.03"
+      },
+      {
+        "p": {
+          "name": "Adversarial Self-Attention for Language Understanding",
+          "link": "https://arxiv.org/abs/2206.12608v3"
+        },
+        "c": "https://github.com/gingasan/adversarialsa",
+        "n": "ASA + BERT-base",
+        "d": "2022-06-25",
+        "m1": "49.8"
+      },
+      {
+        "p": {
+          "name": "Modeling Noisiness to Recognize Named Entities using Multitask Neural Networks on Social Media",
+          "link": "https://arxiv.org/abs/1906.04129v1"
+        },
+        "c": "",
+        "n": "Aguilar et al.",
+        "d": "2019-06-10",
+        "m1": "45.55",
+        "m2": "40.24"
+      },
+      {
+        "p": {
+          "name": "Similarity Based Auxiliary Classifier for Named Entity Recognition",
+          "link": "https://aclanthology.org/D19-1105"
+        },
+        "c": "https://github.com/XiaoShiyuan/NCRF-SAC",
+        "n": "NeuralCRF+SAC",
+        "d": "2019-11-01",
+        "m1": "44.77"
+      },
+      {
+        "p": {
+          "name": "Why Attention? Analyze BiLSTM Deficiency and Its Remedies in the Case of NER",
+          "link": "https://arxiv.org/abs/1908.11046v3"
+        },
+        "c": "https://github.com/ckiplab/ckiptagger",
+        "n": "Cross-BiLSTM-CNN",
+        "d": "2019-08-29",
+        "m1": "42.85",
+        "m3": "58.28",
+        "m4": "33.92"
+      },
+      {
+        "p": {
+          "name": "Regularization for Long Named Entity Recognition",
+          "link": "https://arxiv.org/abs/2104.07249v2"
+        },
+        "c": "https://github.com/minstar/PMI",
+        "n": "BiLSTMCRFBP",
+        "d": "2021-04-15",
+        "m1": "42.3"
+      },
+      {
+        "p": {
+          "name": "A Multi-task Approach for Named Entity Recognition in Social Media Data",
+          "link": "https://arxiv.org/abs/1906.04135v1"
+        },
+        "c": "https://github.com/tavo91/NER-WNUT17",
+        "n": "UH-RiTUAL",
+        "d": "2019-06-10",
+        "m1": "41.86"
+      },
+      {
+        "p": {
+          "name": "Transfer Learning and Sentence Level Features for Named Entity Recognition on Tweets",
+          "link": "https://aclanthology.org/W17-4422"
+        },
+        "c": "",
+        "n": "SpinningBytes",
+        "d": "2017-09-01",
+        "m1": "40.78",
+        "m2": "39.33"
+      }
+    ]
+  }
+}

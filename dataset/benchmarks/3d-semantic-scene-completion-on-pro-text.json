@@ -1,0 +1,92 @@
+{
+  "title": "3d-semantic-scene-completion-on-pro-text",
+  "task-hierarchy": [
+    "3D Semantic Scene Completion"
+  ],
+  "dataset-info": {
+    "link": "https://lang-scene-synth.github.io/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "CD",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "CMD",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "LSDM",
+        "d": null,
+        "m1": "0.5160",
+        "m2": "0.5365",
+        "m3": "0.5906"
+      },
+      {
+        "p": {
+          "name": "MIME: Human-Aware 3D Scene Generation",
+          "link": "https://arxiv.org/abs/2212.04360v1"
+        },
+        "c": "",
+        "n": "MIME",
+        "d": "2022-12-08",
+        "m1": "0.0990",
+        "m2": "2.0493",
+        "m3": "1.3832"
+      },
+      {
+        "p": {
+          "name": "Scene Synthesis from Human Motion",
+          "link": "https://arxiv.org/abs/2301.01424v1"
+        },
+        "c": "",
+        "n": "SUMMON",
+        "d": "2023-01-04",
+        "m1": "0.0673",
+        "m2": "2.1437",
+        "m3": "1.3994"
+      },
+      {
+        "p": {
+          "name": "ATISS: Autoregressive Transformers for Indoor Scene Synthesis",
+          "link": "https://arxiv.org/abs/2110.03675v1"
+        },
+        "c": "https://github.com/nv-tlabs/atiss",
+        "n": "ATISS",
+        "d": "2021-10-07",
+        "m1": "0.0663",
+        "m2": "2.0756",
+        "m3": "1.4140"
+      }
+    ]
+  }
+}

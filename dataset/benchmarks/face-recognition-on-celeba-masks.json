@@ -1,0 +1,99 @@
+{
+  "title": "face-recognition-on-celeba-masks",
+  "task-hierarchy": [
+    "3D Face Reconstruction",
+    "Facial Recognition and Modelling",
+    "Face Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/securifai/masked_faces"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "A realistic approach to generate masked faces applied on two novel masked face recognition data sets",
+          "link": "https://arxiv.org/abs/2109.01745v5"
+        },
+        "c": "https://github.com/Faceplugin-ltd/FaceRecognition-Android",
+        "n": "Fine-tuned ArcFace",
+        "d": "2021-09-03",
+        "m1": "95.43"
+      },
+      {
+        "p": {
+          "name": "A realistic approach to generate masked faces applied on two novel masked face recognition data sets",
+          "link": "https://arxiv.org/abs/2109.01745v5"
+        },
+        "c": "https://github.com/Faceplugin-ltd/FaceRecognition-Android",
+        "n": "Fine-tuned FaceNet",
+        "d": "2021-09-03",
+        "m1": "93.58"
+      },
+      {
+        "p": {
+          "name": "ArcFace: Additive Angular Margin Loss for Deep Face Recognition",
+          "link": "https://arxiv.org/abs/1801.07698v4"
+        },
+        "c": "https://github.com/deepinsight/insightface",
+        "n": "ArcFace",
+        "d": "2018-01-23",
+        "m1": "91.78"
+      },
+      {
+        "p": {
+          "name": "A realistic approach to generate masked faces applied on two novel masked face recognition data sets",
+          "link": "https://arxiv.org/abs/2109.01745v5"
+        },
+        "c": "https://github.com/Faceplugin-ltd/FaceRecognition-Android",
+        "n": "Fine-tuned VGG-Face",
+        "d": "2021-09-03",
+        "m1": "91.51"
+      },
+      {
+        "p": {
+          "name": "FaceNet: A Unified Embedding for Face Recognition and Clustering",
+          "link": "http://arxiv.org/abs/1503.03832v3"
+        },
+        "c": "https://github.com/serengil/deepface",
+        "n": "FaceNet",
+        "d": "2015-03-12",
+        "m1": "90.96"
+      },
+      {
+        "p": {
+          "name": "Deep Face Recognition",
+          "link": "https://www.robots.ox.ac.uk/~vgg/publications/2015/Parkhi15/"
+        },
+        "c": "https://github.com/serengil/deepface",
+        "n": "VGG-Face",
+        "d": "2015-01-01",
+        "m1": "84.56"
+      }
+    ]
+  }
+}

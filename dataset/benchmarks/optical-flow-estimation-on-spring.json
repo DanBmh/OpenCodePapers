@@ -1,0 +1,147 @@
+{
+  "title": "optical-flow-estimation-on-spring",
+  "task-hierarchy": [
+    "Optical Flow Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://spring-benchmark.org/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "1px total",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MEMFOF: High-Resolution Training for Memory-Efficient Multi-Frame Optical Flow Estimation",
+          "link": "https://arxiv.org/abs/2506.23151v1"
+        },
+        "c": "https://github.com/msu-video-group/memfof",
+        "n": "MEMFOF",
+        "d": "2025-06-29",
+        "m1": "3.289"
+      },
+      {
+        "p": {
+          "name": "DPFlow: Adaptive Optical Flow Estimation with a Dual-Pyramid Framework",
+          "link": "https://arxiv.org/abs/2503.14880v1"
+        },
+        "c": "https://github.com/hmorimitsu/ptlflow",
+        "n": "DPFlow",
+        "d": "2025-03-19",
+        "m1": "3.442"
+      },
+      {
+        "p": {
+          "name": "Recurrent Partial Kernel Network for Efficient Optical Flow Estimation",
+          "link": "https://hmorimitsu.com/publication/2024-aaai-rpknet/"
+        },
+        "c": "https://github.com/hmorimitsu/ptlflow",
+        "n": "RPKNet",
+        "d": "2024-02-01",
+        "m1": "4.809"
+      },
+      {
+        "p": {
+          "name": "High Resolution Multi-Scale RAFT (Robust Vision Challenge 2022)",
+          "link": "https://arxiv.org/abs/2210.16900v1"
+        },
+        "c": "https://github.com/cv-stuttgart/MS_RAFT_plus",
+        "n": "MS-RAFT+",
+        "d": "2022-10-30",
+        "m1": "5.724"
+      },
+      {
+        "p": {
+          "name": "FlowFormer: A Transformer Architecture for Optical Flow",
+          "link": "https://arxiv.org/abs/2203.16194v4"
+        },
+        "c": "https://github.com/drinkingcoder/FlowFormer-Official",
+        "n": "FlowFormer",
+        "d": "2022-03-30",
+        "m1": "6.510"
+      },
+      {
+        "p": {
+          "name": "FlowNet 2.0: Evolution of Optical Flow Estimation with Deep Networks",
+          "link": "http://arxiv.org/abs/1612.01925v1"
+        },
+        "c": "https://github.com/NVIDIA/flownet2-pytorch",
+        "n": "FlowNet2",
+        "d": "2016-12-06",
+        "m1": "6.710"
+      },
+      {
+        "p": {
+          "name": "RAFT: Recurrent All-Pairs Field Transforms for Optical Flow",
+          "link": "https://arxiv.org/abs/2003.12039v3"
+        },
+        "c": "https://github.com/pytorch/vision",
+        "n": "RAFT",
+        "d": "2020-03-26",
+        "m1": "6.790"
+      },
+      {
+        "p": {
+          "name": "Learning to Estimate Hidden Motions with Global Motion Aggregation",
+          "link": "https://arxiv.org/abs/2104.02409v3"
+        },
+        "c": "https://github.com/open-mmlab/mmflow",
+        "n": "GMA",
+        "d": "2021-04-06",
+        "m1": "7.074"
+      },
+      {
+        "p": {
+          "name": "GMFlow: Learning Optical Flow via Global Matching",
+          "link": "https://arxiv.org/abs/2111.13680v4"
+        },
+        "c": "https://github.com/autonomousvision/unimatch",
+        "n": "GMFlow",
+        "d": "2021-11-26",
+        "m1": "10.355"
+      },
+      {
+        "p": {
+          "name": "Optical Flow Estimation using a Spatial Pyramid Network",
+          "link": "http://arxiv.org/abs/1611.00850v2"
+        },
+        "c": "https://github.com/philferriere/tfoptflow",
+        "n": "SPyNet",
+        "d": "2016-11-03",
+        "m1": "29.963"
+      },
+      {
+        "p": {
+          "name": "PWC-Net: CNNs for Optical Flow Using Pyramid, Warping, and Cost Volume",
+          "link": "http://arxiv.org/abs/1709.02371v3"
+        },
+        "c": "https://github.com/NVlabs/PWC-Net",
+        "n": "PWCNet",
+        "d": "2017-09-07",
+        "m1": "82.265"
+      }
+    ]
+  }
+}

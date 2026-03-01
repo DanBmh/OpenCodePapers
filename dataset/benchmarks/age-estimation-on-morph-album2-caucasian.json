@@ -1,0 +1,147 @@
+{
+  "title": "age-estimation-on-morph-album2-caucasian",
+  "task-hierarchy": [
+    "Age Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://uncw.edu/oic/tech/morph.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MAE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Moving Window Regression: A Novel Approach to Ordinal Regression",
+          "link": "https://arxiv.org/abs/2203.13122v1"
+        },
+        "c": "https://github.com/nhshin-mcl/mwr",
+        "n": "MWR",
+        "d": "2022-03-24",
+        "m1": "2.13"
+      },
+      {
+        "p": {
+          "name": "MetaAge: Meta-Learning Personalized Age Estimators",
+          "link": "https://arxiv.org/abs/2207.05288v1"
+        },
+        "c": "https://github.com/Li-Wanhua/MetaAge",
+        "n": "MetaAge",
+        "d": "2022-07-12",
+        "m1": "2.23"
+      },
+      {
+        "p": {
+          "name": "Deep Repulsive Clustering of Ordered Data Based on Order-Identity Decomposition",
+          "link": "https://openreview.net/forum?id=Yz-XtK5RBxB"
+        },
+        "c": "",
+        "n": "DRC-ORID",
+        "d": "2021-01-01",
+        "m1": "2.26"
+      },
+      {
+        "p": {
+          "name": "OrdinalCLIP: Learning Rank Prompts for Language-Guided Ordinal Regression",
+          "link": "https://arxiv.org/abs/2206.02338v2"
+        },
+        "c": "https://github.com/xk-huang/OrdinalCLIP",
+        "n": "OrdinalCLIP",
+        "d": "2022-06-06",
+        "m1": "2.32"
+      },
+      {
+        "p": {
+          "name": "Learning Probabilistic Ordinal Embeddings for Uncertainty-Aware Regression",
+          "link": "https://arxiv.org/abs/2103.13629v1"
+        },
+        "c": "https://github.com/Li-Wanhua/POEs",
+        "n": "POE",
+        "d": "2021-03-25",
+        "m1": "2.35"
+      },
+      {
+        "p": {
+          "name": "Adaptive Variance Based Label Distribution Learning For Facial Age Estimation",
+          "link": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/4328_ECCV_2020_paper.php"
+        },
+        "c": "",
+        "n": "AVDL",
+        "d": null,
+        "m1": "2.37"
+      },
+      {
+        "p": {
+          "name": "BridgeNet: A Continuity-Aware Probabilistic Network for Age Estimation",
+          "link": "http://arxiv.org/abs/1904.03358v1"
+        },
+        "c": "",
+        "n": "BridgeNet",
+        "d": "2019-04-06",
+        "m1": "2.38"
+      },
+      {
+        "p": {
+          "name": "Order Learning and Its Application to Age Estimation",
+          "link": "https://openreview.net/forum?id=HygsuaNFwr"
+        },
+        "c": "https://github.com/changsukim-ku/order-learning",
+        "n": "OL",
+        "d": "2020-05-01",
+        "m1": "2.41"
+      },
+      {
+        "p": {
+          "name": "Deep Expectation of Real and Apparent Age from a Single Image Without Facial Landmarks",
+          "link": "https://link.springer.com/article/10.1007/s11263-016-0940-3"
+        },
+        "c": "",
+        "n": "DEX",
+        "d": "2016-08-10",
+        "m1": "2.68"
+      },
+      {
+        "p": {
+          "name": "Deep Regression Forests for Age Estimation",
+          "link": "http://arxiv.org/abs/1712.07195v1"
+        },
+        "c": "https://github.com/shenwei1231/caffe-DeepRegressionForests",
+        "n": "DRFs",
+        "d": "2017-12-19",
+        "m1": "2.91"
+      },
+      {
+        "p": {
+          "name": "Label Distribution Learning Forests",
+          "link": "http://arxiv.org/abs/1702.06086v4"
+        },
+        "c": "",
+        "n": "dLDLF",
+        "d": "2017-02-20",
+        "m1": "3.02"
+      }
+    ]
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "title": "instance-segmentation-on-lvis-v1-0-val",
+  "task-hierarchy": [
+    "Instance Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://www.lvisdataset.org/dataset"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mask AP",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "mask APr",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DETRs with Collaborative Hybrid Assignments Training",
+          "link": "https://arxiv.org/abs/2211.12860v5"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "Co-DETR (single-scale)",
+        "d": "2022-11-22",
+        "m1": "60.7"
+      },
+      {
+        "p": {
+          "name": "EVA: Exploring the Limits of Masked Visual Representation Learning at Scale",
+          "link": "https://arxiv.org/abs/2211.07636v2"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "EVA",
+        "d": "2022-11-14",
+        "m1": "55.0"
+      },
+      {
+        "p": {
+          "name": "LVIS Challenge Track Technical Report 1st Place Solution: Distribution Balanced and Boundary Refinement for Large Vocabulary Instance Segmentation",
+          "link": "https://arxiv.org/abs/2111.02668v2"
+        },
+        "c": "",
+        "n": "HTC-ealrystop-ema",
+        "d": "2021-11-04",
+        "m1": "50.4"
+      },
+      {
+        "p": {
+          "name": "General Object Foundation Model for Images and Videos at Scale",
+          "link": "https://arxiv.org/abs/2312.09158v1"
+        },
+        "c": "https://github.com/FoundationVision/GLEE",
+        "n": "GLEE-Pro",
+        "d": "2023-12-14",
+        "m1": "49.9"
+      },
+      {
+        "p": {
+          "name": "Exploring Plain Vision Transformer Backbones for Object Detection",
+          "link": "https://arxiv.org/abs/2203.16527v2"
+        },
+        "c": "https://github.com/facebookresearch/detectron2/tree/main/projects/ViTDet",
+        "n": "ViTDet-H",
+        "d": "2022-03-30",
+        "m1": "48.1",
+        "m2": "36.9"
+      },
+      {
+        "p": {
+          "name": "Exploring Plain Vision Transformer Backbones for Object Detection",
+          "link": "https://arxiv.org/abs/2203.16527v2"
+        },
+        "c": "https://github.com/facebookresearch/detectron2/tree/main/projects/ViTDet",
+        "n": "ViTDet-L",
+        "d": "2022-03-30",
+        "m1": "46.0",
+        "m2": "34.3"
+      },
+      {
+        "p": {
+          "name": "DiverGen: Improving Instance Segmentation by Learning Wider Data Distribution with More Diverse Generative Data",
+          "link": "https://arxiv.org/abs/2405.10185v1"
+        },
+        "c": "https://github.com/aim-uofa/DiverGen",
+        "n": "DiverGen (Swin-L)",
+        "d": "2024-05-16",
+        "m1": "45.5",
+        "m2": "45.8"
+      },
+      {
+        "p": {
+          "name": "X-Paste: Revisiting Scalable Copy-Paste for Instance Segmentation using CLIP and StableDiffusion",
+          "link": "https://arxiv.org/abs/2212.03863v2"
+        },
+        "c": "https://github.com/aim-uofa/DiverGen",
+        "n": "CenterNet2 (Swin-L w/ X-Paste + Copy-Paste)",
+        "d": "2022-12-07",
+        "m1": "45.4",
+        "m2": "43.8"
+      },
+      {
+        "p": {
+          "name": "DiffusionInst: Diffusion Model for Instance Segmentation",
+          "link": "https://arxiv.org/abs/2212.02773v3"
+        },
+        "c": "https://github.com/chenhaoxing/DiffusionInst",
+        "n": "DiffusionInst-SwinL",
+        "d": "2022-12-06",
+        "m1": "38.6"
+      },
+      {
+        "p": {
+          "name": "Fractal Calibration for long-tailed object detection",
+          "link": "https://arxiv.org/abs/2410.11774v1"
+        },
+        "c": "https://github.com/kostas1515/FRACAL",
+        "n": "FRACAL-Swin-B",
+        "d": "2024-10-15",
+        "m1": "38.5",
+        "m2": "35.5"
+      },
+      {
+        "p": {
+          "name": "Simple Copy-Paste is a Strong Data Augmentation Method for Instance Segmentation",
+          "link": "https://arxiv.org/abs/2012.07177v2"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleOCR",
+        "n": "Eff-B7 NAS-FPN (1280, Copy-Paste pre-training))",
+        "d": "2020-12-13",
+        "m1": "38.1"
+      },
+      {
+        "p": {
+          "name": "DiffusionInst: Diffusion Model for Instance Segmentation",
+          "link": "https://arxiv.org/abs/2212.02773v3"
+        },
+        "c": "https://github.com/chenhaoxing/DiffusionInst",
+        "n": "DiffusionInst-SwinB",
+        "d": "2022-12-06",
+        "m1": "36"
+      },
+      {
+        "p": {
+          "name": "Fractal Calibration for long-tailed object detection",
+          "link": "https://arxiv.org/abs/2410.11774v1"
+        },
+        "c": "https://github.com/kostas1515/FRACAL",
+        "n": "FRACAL-SwinS",
+        "d": "2024-10-15",
+        "m1": "33.6",
+        "m2": "27.8"
+      },
+      {
+        "p": {
+          "name": "Fractal Calibration for long-tailed object detection",
+          "link": "https://arxiv.org/abs/2410.11774v1"
+        },
+        "c": "https://github.com/kostas1515/FRACAL",
+        "n": "FRACAL-SwinT",
+        "d": "2024-10-15",
+        "m1": "30.7",
+        "m2": "25.7"
+      },
+      {
+        "p": {
+          "name": "Adaptive Parametric Activation",
+          "link": "https://arxiv.org/abs/2407.08567v2"
+        },
+        "c": "https://github.com/kostas1515/aglu",
+        "n": "SE-R101-FPN-MaskRCNN-APA",
+        "d": "2024-07-11",
+        "m1": "30.7",
+        "m2": "23.6"
+      },
+      {
+        "p": {
+          "name": "Adaptive Parametric Activation",
+          "link": "https://arxiv.org/abs/2407.08567v2"
+        },
+        "c": "https://github.com/kostas1515/aglu",
+        "n": "SE-R50-FPN-MaskRCNN-APA",
+        "d": "2024-07-11",
+        "m1": "29.1",
+        "m2": "21.6"
+      },
+      {
+        "p": {
+          "name": "Long-tailed Instance Segmentation using Gumbel Optimized Loss",
+          "link": "https://arxiv.org/abs/2207.10936v2"
+        },
+        "c": "https://github.com/kostas1515/gol",
+        "n": "R101-FPN-MaskRCNN-GOL",
+        "d": "2022-07-22",
+        "m1": "29.0"
+      },
+      {
+        "p": {
+          "name": "Equalization Loss v2: A New Gradient Balance Approach for Long-tailed Object Detection",
+          "link": "https://arxiv.org/abs/2012.08548v2"
+        },
+        "c": "https://github.com/tztztztztz/eqlv2",
+        "n": "Cascade-R101-EQLv2",
+        "d": "2020-12-15",
+        "m1": "28.8"
+      },
+      {
+        "p": {
+          "name": "Exploring Classification Equilibrium in Long-Tailed Object Detection",
+          "link": "https://arxiv.org/abs/2108.07507v2"
+        },
+        "c": "https://github.com/fcjian/loce",
+        "n": "R101-MaskRCNN-LOCE",
+        "d": "2021-08-17",
+        "m1": "28"
+      },
+      {
+        "p": {
+          "name": "Long-tailed Instance Segmentation using Gumbel Optimized Loss",
+          "link": "https://arxiv.org/abs/2207.10936v2"
+        },
+        "c": "https://github.com/kostas1515/gol",
+        "n": "R50-FPN-MaskRCNN-GOL",
+        "d": "2022-07-22",
+        "m1": "27.7"
+      },
+      {
+        "p": {
+          "name": "Equalization Loss v2: A New Gradient Balance Approach for Long-tailed Object Detection",
+          "link": "https://arxiv.org/abs/2012.08548v2"
+        },
+        "c": "https://github.com/tztztztztz/eqlv2",
+        "n": "R101-FPN-MaskRCNN-EQLv2",
+        "d": "2020-12-15",
+        "m1": "27.5"
+      },
+      {
+        "p": {
+          "name": "DiffusionInst: Diffusion Model for Instance Segmentation",
+          "link": "https://arxiv.org/abs/2212.02773v3"
+        },
+        "c": "https://github.com/chenhaoxing/DiffusionInst",
+        "n": "DiffusionInst-ResNet101",
+        "d": "2022-12-06",
+        "m1": "27"
+      },
+      {
+        "p": {
+          "name": "Exploring Classification Equilibrium in Long-Tailed Object Detection",
+          "link": "https://arxiv.org/abs/2108.07507v2"
+        },
+        "c": "https://github.com/fcjian/loce",
+        "n": "R50-MaskRCNN-LOCE",
+        "d": "2021-08-17",
+        "m1": "26.6"
+      },
+      {
+        "p": {
+          "name": "Equalization Loss v2: A New Gradient Balance Approach for Long-tailed Object Detection",
+          "link": "https://arxiv.org/abs/2012.08548v2"
+        },
+        "c": "https://github.com/tztztztztz/eqlv2",
+        "n": "R50-FPN-MaskRCNN-EQLv2",
+        "d": "2020-12-15",
+        "m1": "23.7"
+      },
+      {
+        "p": {
+          "name": "DiffusionInst: Diffusion Model for Instance Segmentation",
+          "link": "https://arxiv.org/abs/2212.02773v3"
+        },
+        "c": "https://github.com/chenhaoxing/DiffusionInst",
+        "n": "DiffusionInst-ResNet50",
+        "d": "2022-12-06",
+        "m1": "22.3"
+      }
+    ]
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "title": "few-shot-instance-segmentation-on-camo-fs",
+  "task-hierarchy": [
+    "Image Segmentation",
+    "Few-shot Instance Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://www.kaggle.com/datasets/danhnt/camo-fs-dataset"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mask AP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "The Art of Camouflage: Few-Shot Learning for Animal Detection and Segmentation",
+          "link": "https://arxiv.org/abs/2304.07444v4"
+        },
+        "c": "https://github.com/danhntd/FS-CDIS",
+        "n": "FS-CDIS (M-RCNN+IMS 5-shot)",
+        "d": "2023-04-15",
+        "m1": "9.82"
+      },
+      {
+        "p": {
+          "name": "The Art of Camouflage: Few-Shot Learning for Animal Detection and Segmentation",
+          "link": "https://arxiv.org/abs/2304.07444v4"
+        },
+        "c": "https://github.com/danhntd/FS-CDIS",
+        "n": "FS-CDIS (MTFA+IMS 5-shot)",
+        "d": "2023-04-15",
+        "m1": "9.61"
+      },
+      {
+        "p": {
+          "name": "The Art of Camouflage: Few-Shot Learning for Animal Detection and Segmentation",
+          "link": "https://arxiv.org/abs/2304.07444v4"
+        },
+        "c": "https://github.com/danhntd/FS-CDIS",
+        "n": "FS-CDIS (M-RCNN+ITL 5-shot)",
+        "d": "2023-04-15",
+        "m1": "9.35"
+      },
+      {
+        "p": {
+          "name": "The Art of Camouflage: Few-Shot Learning for Animal Detection and Segmentation",
+          "link": "https://arxiv.org/abs/2304.07444v4"
+        },
+        "c": "https://github.com/danhntd/FS-CDIS",
+        "n": "FS-CDIS (iFS-RCNN+IMS 5-shot)",
+        "d": "2023-04-15",
+        "m1": "9.03"
+      },
+      {
+        "p": {
+          "name": "The Art of Camouflage: Few-Shot Learning for Animal Detection and Segmentation",
+          "link": "https://arxiv.org/abs/2304.07444v4"
+        },
+        "c": "https://github.com/danhntd/FS-CDIS",
+        "n": "FS-CDIS (M-RCNN+IMS 3-shot)",
+        "d": "2023-04-15",
+        "m1": "8.65"
+      },
+      {
+        "p": {
+          "name": "The Art of Camouflage: Few-Shot Learning for Animal Detection and Segmentation",
+          "link": "https://arxiv.org/abs/2304.07444v4"
+        },
+        "c": "https://github.com/danhntd/FS-CDIS",
+        "n": "FS-CDIS (Res101-MTFA+ITL 1-shot)",
+        "d": "2023-04-15",
+        "m1": "8.48"
+      },
+      {
+        "p": {
+          "name": "The Art of Camouflage: Few-Shot Learning for Animal Detection and Segmentation",
+          "link": "https://arxiv.org/abs/2304.07444v4"
+        },
+        "c": "https://github.com/danhntd/FS-CDIS",
+        "n": "FS-CDIS (M-RCNN+IMS 2-shot)",
+        "d": "2023-04-15",
+        "m1": "7.84"
+      },
+      {
+        "p": {
+          "name": "The Art of Camouflage: Few-Shot Learning for Animal Detection and Segmentation",
+          "link": "https://arxiv.org/abs/2304.07444v4"
+        },
+        "c": "https://github.com/danhntd/FS-CDIS",
+        "n": "FS-CDIS (MTFA+IMS 3-shot)",
+        "d": "2023-04-15",
+        "m1": "7.36"
+      },
+      {
+        "p": {
+          "name": "The Art of Camouflage: Few-Shot Learning for Animal Detection and Segmentation",
+          "link": "https://arxiv.org/abs/2304.07444v4"
+        },
+        "c": "https://github.com/danhntd/FS-CDIS",
+        "n": "FS-CDIS (MTFA+IMS 2-shot)",
+        "d": "2023-04-15",
+        "m1": "6.95"
+      },
+      {
+        "p": {
+          "name": "The Art of Camouflage: Few-Shot Learning for Animal Detection and Segmentation",
+          "link": "https://arxiv.org/abs/2304.07444v4"
+        },
+        "c": "https://github.com/danhntd/FS-CDIS",
+        "n": "FS-CDIS (iFS-RCNN+IMS 2-shot)",
+        "d": "2023-04-15",
+        "m1": "6.83"
+      },
+      {
+        "p": {
+          "name": "The Art of Camouflage: Few-Shot Learning for Animal Detection and Segmentation",
+          "link": "https://arxiv.org/abs/2304.07444v4"
+        },
+        "c": "https://github.com/danhntd/FS-CDIS",
+        "n": "FS-CDIS (iFS-RCNN+IMS 3-shot)",
+        "d": "2023-04-15",
+        "m1": "6.14"
+      },
+      {
+        "p": {
+          "name": "The Art of Camouflage: Few-Shot Learning for Animal Detection and Segmentation",
+          "link": "https://arxiv.org/abs/2304.07444v4"
+        },
+        "c": "https://github.com/danhntd/FS-CDIS",
+        "n": "FS-CDIS (M-RCNN+ITL 2-shot)",
+        "d": "2023-04-15",
+        "m1": "6.01"
+      },
+      {
+        "p": {
+          "name": "The Art of Camouflage: Few-Shot Learning for Animal Detection and Segmentation",
+          "link": "https://arxiv.org/abs/2304.07444v4"
+        },
+        "c": "https://github.com/danhntd/FS-CDIS",
+        "n": "FS-CDIS (MTFA+IMS 1-shot)",
+        "d": "2023-04-15",
+        "m1": "5.46"
+      },
+      {
+        "p": {
+          "name": "The Art of Camouflage: Few-Shot Learning for Animal Detection and Segmentation",
+          "link": "https://arxiv.org/abs/2304.07444v4"
+        },
+        "c": "https://github.com/danhntd/FS-CDIS",
+        "n": "FS-CDIS (M-RCNN+ITL 1-shot)",
+        "d": "2023-04-15",
+        "m1": "5.35"
+      },
+      {
+        "p": {
+          "name": "The Art of Camouflage: Few-Shot Learning for Animal Detection and Segmentation",
+          "link": "https://arxiv.org/abs/2304.07444v4"
+        },
+        "c": "https://github.com/danhntd/FS-CDIS",
+        "n": "FS-CDIS (iFS-RCNN+IMS 1-shot)",
+        "d": "2023-04-15",
+        "m1": "2.99"
+      }
+    ]
+  }
+}

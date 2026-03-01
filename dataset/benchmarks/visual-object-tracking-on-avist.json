@@ -1,0 +1,107 @@
+{
+  "title": "visual-object-tracking-on-avist",
+  "task-hierarchy": [
+    "Visual Object Tracking"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2208.06888"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Success Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Improving Visual Object Tracking through Visual Prompting",
+          "link": "https://arxiv.org/abs/2409.18901v1"
+        },
+        "c": "https://github.com/chenshihfang/GOT",
+        "n": "PiVOT-L",
+        "d": "2024-09-27",
+        "m1": "62.2"
+      },
+      {
+        "p": {
+          "name": "Unifying Visual and Vision-Language Tracking via Contrastive Learning",
+          "link": "https://arxiv.org/abs/2401.11228v1"
+        },
+        "c": "https://github.com/openspaceai/uvltrack",
+        "n": "UVLTrack-L",
+        "d": "2024-01-20",
+        "m1": "57.8"
+      },
+      {
+        "p": {
+          "name": "MixFormer: End-to-End Tracking with Iterative Mixed Attention",
+          "link": "https://arxiv.org/abs/2203.11082v2"
+        },
+        "c": "https://github.com/MCG-NJU/MixFormer",
+        "n": "MixFormerL-22k",
+        "d": "2022-03-21",
+        "m1": "56.0"
+      },
+      {
+        "p": {
+          "name": "Generalized Relation Modeling for Transformer Tracking",
+          "link": "https://arxiv.org/abs/2303.16580v3"
+        },
+        "c": "https://github.com/little-podi/grm",
+        "n": "GRM",
+        "d": "2023-03-29",
+        "m1": "54.5"
+      },
+      {
+        "p": {
+          "name": "Transforming Model Prediction for Tracking",
+          "link": "https://arxiv.org/abs/2203.11192v1"
+        },
+        "c": "https://github.com/visionml/pytracking",
+        "n": "ToMP",
+        "d": "2022-03-21",
+        "m1": "52.5"
+      },
+      {
+        "p": {
+          "name": "Learning Spatio-Temporal Transformer for Visual Tracking",
+          "link": "https://arxiv.org/abs/2103.17154v1"
+        },
+        "c": "https://github.com/researchmm/Stark",
+        "n": "STARK-ST-101",
+        "d": "2021-03-31",
+        "m1": "50.50"
+      },
+      {
+        "p": {
+          "name": "Transformer Tracking",
+          "link": "https://arxiv.org/abs/2103.15436v1"
+        },
+        "c": "https://github.com/chenxin-dlut/TransT",
+        "n": "TransT",
+        "d": "2021-03-29",
+        "m1": "49.03"
+      }
+    ]
+  }
+}

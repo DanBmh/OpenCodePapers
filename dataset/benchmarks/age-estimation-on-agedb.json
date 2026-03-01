@@ -1,0 +1,137 @@
+{
+  "title": "age-estimation-on-agedb",
+  "task-hierarchy": [
+    "Age Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://ibug.doc.ic.ac.uk/resources/agedb/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MAE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MiVOLO: Multi-input Transformer for Age and Gender Estimation",
+          "link": "https://arxiv.org/abs/2307.04616v2"
+        },
+        "c": "https://github.com/wildchlamydia/mivolo",
+        "n": "MiVOLO-D1",
+        "d": "2023-07-10",
+        "m1": "5.55"
+      },
+      {
+        "p": {
+          "name": "A Call to Reflect on Evaluation Practices for Age Estimation: Comparative Analysis of the State-of-the-Art and a Unified Benchmark",
+          "link": "https://arxiv.org/abs/2307.04570v3"
+        },
+        "c": "https://github.com/paplhjak/facial-age-estimation-benchmark",
+        "n": "FaRL+MLP",
+        "d": "2023-07-10",
+        "m1": "5.64"
+      },
+      {
+        "p": {
+          "name": "A Call to Reflect on Evaluation Practices for Age Estimation: Comparative Analysis of the State-of-the-Art and a Unified Benchmark",
+          "link": "https://arxiv.org/abs/2307.04570v3"
+        },
+        "c": "https://github.com/paplhjak/facial-age-estimation-benchmark",
+        "n": "ResNet-50-OR-CNN",
+        "d": "2023-07-10",
+        "m1": "5.78"
+      },
+      {
+        "p": {
+          "name": "A Call to Reflect on Evaluation Practices for Age Estimation: Comparative Analysis of the State-of-the-Art and a Unified Benchmark",
+          "link": "https://arxiv.org/abs/2307.04570v3"
+        },
+        "c": "https://github.com/paplhjak/facial-age-estimation-benchmark",
+        "n": "ResNet-50-DLDL",
+        "d": "2023-07-10",
+        "m1": "5.80"
+      },
+      {
+        "p": {
+          "name": "A Call to Reflect on Evaluation Practices for Age Estimation: Comparative Analysis of the State-of-the-Art and a Unified Benchmark",
+          "link": "https://arxiv.org/abs/2307.04570v3"
+        },
+        "c": "https://github.com/paplhjak/facial-age-estimation-benchmark",
+        "n": "ResNet-50-DLDL-v2",
+        "d": "2023-07-10",
+        "m1": "5.80"
+      },
+      {
+        "p": {
+          "name": "A Call to Reflect on Evaluation Practices for Age Estimation: Comparative Analysis of the State-of-the-Art and a Unified Benchmark",
+          "link": "https://arxiv.org/abs/2307.04570v3"
+        },
+        "c": "https://github.com/paplhjak/facial-age-estimation-benchmark",
+        "n": "ResNet-50-Cross-Entropy",
+        "d": "2023-07-10",
+        "m1": "5.81"
+      },
+      {
+        "p": {
+          "name": "A Call to Reflect on Evaluation Practices for Age Estimation: Comparative Analysis of the State-of-the-Art and a Unified Benchmark",
+          "link": "https://arxiv.org/abs/2307.04570v3"
+        },
+        "c": "https://github.com/paplhjak/facial-age-estimation-benchmark",
+        "n": "ResNet-50-SORD",
+        "d": "2023-07-10",
+        "m1": "5.81"
+      },
+      {
+        "p": {
+          "name": "A Call to Reflect on Evaluation Practices for Age Estimation: Comparative Analysis of the State-of-the-Art and a Unified Benchmark",
+          "link": "https://arxiv.org/abs/2307.04570v3"
+        },
+        "c": "https://github.com/paplhjak/facial-age-estimation-benchmark",
+        "n": "ResNet-50-Mean-Variance",
+        "d": "2023-07-10",
+        "m1": "5.85"
+      },
+      {
+        "p": {
+          "name": "A Call to Reflect on Evaluation Practices for Age Estimation: Comparative Analysis of the State-of-the-Art and a Unified Benchmark",
+          "link": "https://arxiv.org/abs/2307.04570v3"
+        },
+        "c": "https://github.com/paplhjak/facial-age-estimation-benchmark",
+        "n": "ResNet-50-Unimodal-Concentrated",
+        "d": "2023-07-10",
+        "m1": "5.90"
+      },
+      {
+        "p": {
+          "name": "A Call to Reflect on Evaluation Practices for Age Estimation: Comparative Analysis of the State-of-the-Art and a Unified Benchmark",
+          "link": "https://arxiv.org/abs/2307.04570v3"
+        },
+        "c": "https://github.com/paplhjak/facial-age-estimation-benchmark",
+        "n": "ResNet-50-Regression",
+        "d": "2023-07-10",
+        "m1": "6.23"
+      }
+    ]
+  }
+}

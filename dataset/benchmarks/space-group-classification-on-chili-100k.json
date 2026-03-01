@@ -1,0 +1,129 @@
+{
+  "title": "space-group-classification-on-chili-100k",
+  "task-hierarchy": [
+    "Classification",
+    "Graph Classification",
+    "Space group classification"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/UlrikFriisJensen/CHILI"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1-score (Weighted)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "CHILI: Chemically-Informed Large-scale Inorganic Nanomaterials Dataset for Advancing Graph Machine Learning",
+          "link": "https://arxiv.org/abs/2402.13221v2"
+        },
+        "c": "https://github.com/UlrikFriisJensen/CHILI",
+        "n": "EdgeCNN",
+        "d": "2024-02-20",
+        "m1": "0.158 +/- 0.035"
+      },
+      {
+        "p": {
+          "name": "CHILI: Chemically-Informed Large-scale Inorganic Nanomaterials Dataset for Advancing Graph Machine Learning",
+          "link": "https://arxiv.org/abs/2402.13221v2"
+        },
+        "c": "https://github.com/UlrikFriisJensen/CHILI",
+        "n": "PMLP",
+        "d": "2024-02-20",
+        "m1": "0.047 +/- 0.012"
+      },
+      {
+        "p": {
+          "name": "CHILI: Chemically-Informed Large-scale Inorganic Nanomaterials Dataset for Advancing Graph Machine Learning",
+          "link": "https://arxiv.org/abs/2402.13221v2"
+        },
+        "c": "https://github.com/UlrikFriisJensen/CHILI",
+        "n": "GraphSAGE",
+        "d": "2024-02-20",
+        "m1": "0.044 +/- 0.002"
+      },
+      {
+        "p": {
+          "name": "CHILI: Chemically-Informed Large-scale Inorganic Nanomaterials Dataset for Advancing Graph Machine Learning",
+          "link": "https://arxiv.org/abs/2402.13221v2"
+        },
+        "c": "https://github.com/UlrikFriisJensen/CHILI",
+        "n": "GAT",
+        "d": "2024-02-20",
+        "m1": "0.044 +/- 0.001"
+      },
+      {
+        "p": {
+          "name": "CHILI: Chemically-Informed Large-scale Inorganic Nanomaterials Dataset for Advancing Graph Machine Learning",
+          "link": "https://arxiv.org/abs/2402.13221v2"
+        },
+        "c": "https://github.com/UlrikFriisJensen/CHILI",
+        "n": "GCN",
+        "d": "2024-02-20",
+        "m1": "0.043 +/- 0.001"
+      },
+      {
+        "p": {
+          "name": "CHILI: Chemically-Informed Large-scale Inorganic Nanomaterials Dataset for Advancing Graph Machine Learning",
+          "link": "https://arxiv.org/abs/2402.13221v2"
+        },
+        "c": "https://github.com/UlrikFriisJensen/CHILI",
+        "n": "GraphUNet",
+        "d": "2024-02-20",
+        "m1": "0.043 +/- 0.000"
+      },
+      {
+        "p": {
+          "name": "CHILI: Chemically-Informed Large-scale Inorganic Nanomaterials Dataset for Advancing Graph Machine Learning",
+          "link": "https://arxiv.org/abs/2402.13221v2"
+        },
+        "c": "https://github.com/UlrikFriisJensen/CHILI",
+        "n": "GIN",
+        "d": "2024-02-20",
+        "m1": "0.043 +/- 0.000"
+      },
+      {
+        "p": {
+          "name": "CHILI: Chemically-Informed Large-scale Inorganic Nanomaterials Dataset for Advancing Graph Machine Learning",
+          "link": "https://arxiv.org/abs/2402.13221v2"
+        },
+        "c": "https://github.com/UlrikFriisJensen/CHILI",
+        "n": "Most Frequent Class",
+        "d": "2024-02-20",
+        "m1": "0.010"
+      },
+      {
+        "p": {
+          "name": "CHILI: Chemically-Informed Large-scale Inorganic Nanomaterials Dataset for Advancing Graph Machine Learning",
+          "link": "https://arxiv.org/abs/2402.13221v2"
+        },
+        "c": "https://github.com/UlrikFriisJensen/CHILI",
+        "n": "Random",
+        "d": "2024-02-20",
+        "m1": "0.002 +/- 0.001"
+      }
+    ]
+  }
+}

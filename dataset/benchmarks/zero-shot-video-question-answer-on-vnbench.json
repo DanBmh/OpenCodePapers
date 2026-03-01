@@ -1,0 +1,128 @@
+{
+  "title": "zero-shot-video-question-answer-on-vnbench",
+  "task-hierarchy": [
+    "Video Question Answering",
+    "Zero-Shot Video Question Answer"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/joez17/VideoNIAH"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "BIMBA: Selective-Scan Compression for Long-Range Video Question Answering",
+          "link": "https://arxiv.org/abs/2503.09590v1"
+        },
+        "c": "https://github.com/md-mohaiminul/BIMBA",
+        "n": "BIMBA-LLaVA-Qwen2-7B",
+        "d": "2025-03-12",
+        "m1": "77.88"
+      },
+      {
+        "p": {
+          "name": "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context",
+          "link": "https://arxiv.org/abs/2403.05530v5"
+        },
+        "c": "https://github.com/dlvuldet/primevul",
+        "n": "Gemini",
+        "d": "2024-03-08",
+        "m1": "66.7"
+      },
+      {
+        "p": {
+          "name": "LLaVA-OneVision: Easy Visual Task Transfer",
+          "link": "https://arxiv.org/abs/2408.03326v3"
+        },
+        "c": "https://github.com/evolvinglmms-lab/lmms-eval",
+        "n": "LLaVA-OneVision-72B",
+        "d": "2024-08-06",
+        "m1": "58.7"
+      },
+      {
+        "p": {
+          "name": "LLaVA-OneVision: Easy Visual Task Transfer",
+          "link": "https://arxiv.org/abs/2408.03326v3"
+        },
+        "c": "https://github.com/evolvinglmms-lab/lmms-eval",
+        "n": "LLaVA-OneVision-7B",
+        "d": "2024-08-06",
+        "m1": "51.8"
+      },
+      {
+        "p": {
+          "name": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+          "link": "https://arxiv.org/abs/2409.12191v2"
+        },
+        "c": "https://github.com/qwenlm/qwen2-vl",
+        "n": "Qwen2-VL-7B",
+        "d": "2024-09-18",
+        "m1": "33.9"
+      },
+      {
+        "p": {
+          "name": "LLaVA-NeXT-Interleave: Tackling Multi-image, Video, and 3D in Large Multimodal Models",
+          "link": "https://arxiv.org/abs/2407.07895v2"
+        },
+        "c": "https://github.com/LLaVA-VL/LLaVA-NeXT",
+        "n": "LLaVA-NeXT-Video-7B",
+        "d": "2024-07-10",
+        "m1": "20.1"
+      },
+      {
+        "p": {
+          "name": "VideoChat: Chat-Centric Video Understanding",
+          "link": "https://arxiv.org/abs/2305.06355v2"
+        },
+        "c": "https://github.com/opengvlab/ask-anything",
+        "n": "VideoChat2",
+        "d": "2023-05-10",
+        "m1": "12.4"
+      },
+      {
+        "p": {
+          "name": "VideoLLaMA 2: Advancing Spatial-Temporal Modeling and Audio Understanding in Video-LLMs",
+          "link": "https://arxiv.org/abs/2406.07476v3"
+        },
+        "c": "https://github.com/damo-nlp-sg/videollama2",
+        "n": "VideoLLaMA2",
+        "d": "2024-06-11",
+        "m1": "4.5"
+      },
+      {
+        "p": {
+          "name": "Video-ChatGPT: Towards Detailed Video Understanding via Large Vision and Language Models",
+          "link": "https://arxiv.org/abs/2306.05424v2"
+        },
+        "c": "https://github.com/mbzuai-oryx/video-chatgpt",
+        "n": "VideoChatGPT",
+        "d": "2023-06-08",
+        "m1": "4.1"
+      }
+    ]
+  }
+}

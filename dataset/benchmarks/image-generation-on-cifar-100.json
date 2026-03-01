@@ -1,0 +1,143 @@
+{
+  "title": "image-generation-on-cifar-100",
+  "task-hierarchy": [
+    "Image Generation"
+  ],
+  "dataset-info": {
+    "link": "https://www.cs.toronto.edu/~kriz/cifar.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "FID",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Inception Score",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Model Size (MB)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Regularizing Generative Adversarial Networks under Limited Data",
+          "link": "https://arxiv.org/abs/2104.03310v1"
+        },
+        "c": "https://github.com/google/lecam-gan",
+        "n": "LeCAM (StyleGAN2 + ADA)",
+        "d": "2021-04-07",
+        "m1": "2.99"
+      },
+      {
+        "p": {
+          "name": "Twin Auxilary Classifiers GAN",
+          "link": "http://papers.nips.cc/paper/8414-twin-auxilary-classifiers-gan"
+        },
+        "c": "https://github.com/batmanlab/twin_ac",
+        "n": "TAC-GAN",
+        "d": "2019-12-01",
+        "m1": "7.22"
+      },
+      {
+        "p": {
+          "name": "Enhancing GANs with MMD Neural Architecture Search, PMish Activation Function, and Adaptive Rank Decomposition",
+          "link": "https://ieeexplore.ieee.org/document/10732016"
+        },
+        "c": "https://github.com/PrasannaPulakurthi/MMD-PMish-NAS",
+        "n": "MMD-PMish-NAS",
+        "d": "2024-10-23",
+        "m1": "7.68",
+        "m2": "10.68",
+        "m3": "17.9"
+      },
+      {
+        "p": {
+          "name": "Enhancing GANs with MMD Neural Architecture Search, PMish Activation Function, and Adaptive Rank Decomposition",
+          "link": "https://ieeexplore.ieee.org/document/10732016"
+        },
+        "c": "https://github.com/PrasannaPulakurthi/MMD-PMish-NAS",
+        "n": "MMD-PMish-NAS (Compressed)",
+        "d": "2024-10-23",
+        "m1": "8.37",
+        "m2": "10.34",
+        "m3": "2.3"
+      },
+      {
+        "p": {
+          "name": "Regularizing Generative Adversarial Networks under Limited Data",
+          "link": "https://arxiv.org/abs/2104.03310v1"
+        },
+        "c": "https://github.com/google/lecam-gan",
+        "n": "LeCAM (BigGAN + DA)",
+        "d": "2021-04-07",
+        "m1": "11.2"
+      },
+      {
+        "p": {
+          "name": "Adaptive Weighted Discriminator for Training Generative Adversarial Networks",
+          "link": "https://arxiv.org/abs/2012.03149v2"
+        },
+        "c": "https://github.com/vasily789/adaptive-weighted-gans",
+        "n": "aw-AutoGAN",
+        "d": "2020-12-05",
+        "m1": "19",
+        "m2": "8.9"
+      },
+      {
+        "p": {
+          "name": "Adaptive Weighted Discriminator for Training Generative Adversarial Networks",
+          "link": "https://arxiv.org/abs/2012.03149v2"
+        },
+        "c": "https://github.com/vasily789/adaptive-weighted-gans",
+        "n": "aw-SN-GAN",
+        "d": "2020-12-05",
+        "m1": "19.08",
+        "m2": "8.31"
+      },
+      {
+        "p": {
+          "name": "Negative Data Augmentation",
+          "link": "https://arxiv.org/abs/2102.05113v1"
+        },
+        "c": "https://github.com/ermongroup/NDA",
+        "n": "",
+        "d": "2021-02-09",
+        "m1": "19.72"
+      },
+      {
+        "p": {
+          "name": "Self-supervised GAN: Analysis and Improvement with Multi-class Minimax Game",
+          "link": "https://arxiv.org/abs/1911.06997v2"
+        },
+        "c": "https://github.com/tntrung/msgan",
+        "n": "MSGAN",
+        "d": "2019-11-16",
+        "m1": "19.74"
+      }
+    ]
+  }
+}

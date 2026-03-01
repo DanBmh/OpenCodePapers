@@ -1,0 +1,78 @@
+{
+  "title": "3d-semantic-segmentation-on-rellis-3d-dataset",
+  "task-hierarchy": [
+    "Semantic Segmentation",
+    "3D Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/unmannedlab/RELLIS-3D"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Mean IoU (class)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Comparison of lidar semantic segmentation performance on the structured SemanticKITTI and off-road RELLIS-3D datasets",
+          "link": "https://doi.org/10.1007/s41315-024-00376-5"
+        },
+        "c": "",
+        "n": "Cylinder3D",
+        "d": "2024-08-20",
+        "m1": "46.07"
+      },
+      {
+        "p": {
+          "name": "RELLIS-3D Dataset: Data, Benchmarks and Analysis",
+          "link": "https://arxiv.org/abs/2011.12954v4"
+        },
+        "c": "https://github.com/unmannedlab/RELLIS-3D",
+        "n": "salsanext",
+        "d": "2020-11-17",
+        "m1": "43.07"
+      },
+      {
+        "p": {
+          "name": "Comparison of lidar semantic segmentation performance on the structured SemanticKITTI and off-road RELLIS-3D datasets",
+          "link": "https://doi.org/10.1007/s41315-024-00376-5"
+        },
+        "c": "",
+        "n": "Sphereformer",
+        "d": "2024-08-20",
+        "m1": "42.19"
+      },
+      {
+        "p": {
+          "name": "RELLIS-3D Dataset: Data, Benchmarks and Analysis",
+          "link": "https://arxiv.org/abs/2011.12954v4"
+        },
+        "c": "https://github.com/unmannedlab/RELLIS-3D",
+        "n": "kpconv",
+        "d": "2020-11-17",
+        "m1": "19.97"
+      }
+    ]
+  }
+}

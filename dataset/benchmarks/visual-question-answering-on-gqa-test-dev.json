@@ -1,0 +1,207 @@
+{
+  "title": "visual-question-answering-on-gqa-test-dev",
+  "task-hierarchy": [
+    "Visual Question Answering (VQA)"
+  ],
+  "dataset-info": {
+    "link": "https://cs.stanford.edu/people/dorarad/gqa/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Coarse-to-Fine Reasoning for Visual Question Answering",
+          "link": "https://arxiv.org/abs/2110.02526v2"
+        },
+        "c": "https://github.com/aioz-ai/cfr_vqa",
+        "n": "CFR",
+        "d": "2021-10-06",
+        "m1": "72.1"
+      },
+      {
+        "p": {
+          "name": "Visual Program Distillation: Distilling Tools and Programmatic Reasoning into Vision-Language Models",
+          "link": "https://arxiv.org/abs/2312.03052v2"
+        },
+        "c": "",
+        "n": "PaLI-X-VPD",
+        "d": "2023-12-05",
+        "m1": "67.3"
+      },
+      {
+        "p": {
+          "name": "CuMo: Scaling Multimodal LLM with Co-Upcycled Mixture-of-Experts",
+          "link": "https://arxiv.org/abs/2405.05949v1"
+        },
+        "c": "https://github.com/shi-labs/cumo",
+        "n": "CuMo-7B",
+        "d": "2024-05-09",
+        "m1": "64.9"
+      },
+      {
+        "p": {
+          "name": "Video-LaVIT: Unified Video-Language Pre-training with Decoupled Visual-Motional Tokenization",
+          "link": "https://arxiv.org/abs/2402.03161v3"
+        },
+        "c": "https://github.com/jy0205/lavit",
+        "n": "Video-LaVIT",
+        "d": "2024-02-05",
+        "m1": "64.4"
+      },
+      {
+        "p": {
+          "name": "Learning by Abstraction: The Neural State Machine",
+          "link": "https://arxiv.org/abs/1907.03950v4"
+        },
+        "c": "https://github.com/stanfordnlp/mac-network",
+        "n": "NSM",
+        "d": "2019-07-09",
+        "m1": "62.95"
+      },
+      {
+        "p": {
+          "name": "Lyrics: Boosting Fine-grained Language-Vision Alignment and Comprehension via Semantic-aware Visual Objects",
+          "link": "https://arxiv.org/abs/2312.05278v2"
+        },
+        "c": "",
+        "n": "Lyrics",
+        "d": "2023-12-08",
+        "m1": "62.4"
+      },
+      {
+        "p": {
+          "name": "LXMERT: Learning Cross-Modality Encoder Representations from Transformers",
+          "link": "https://arxiv.org/abs/1908.07490v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LXMERT (Pre-train + scratch)",
+        "d": "2019-08-20",
+        "m1": "60.0"
+      },
+      {
+        "p": {
+          "name": "Language-Conditioned Graph Networks for Relational Reasoning",
+          "link": "https://arxiv.org/abs/1905.04405v2"
+        },
+        "c": "https://github.com/ronghanghu/lcgn",
+        "n": "single-hop + LCGN (ours)",
+        "d": "2019-05-10",
+        "m1": "55.8"
+      },
+      {
+        "p": {
+          "name": "HYDRA: A Hyper Agent for Dynamic Compositional Visual Reasoning",
+          "link": "https://arxiv.org/abs/2403.12884v2"
+        },
+        "c": "https://github.com/ControlNet/HYDRA",
+        "n": "HYDRA",
+        "d": "2024-03-19",
+        "m1": "47.9"
+      },
+      {
+        "p": {
+          "name": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
+          "link": "https://arxiv.org/abs/2301.12597v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "BLIP-2 ViT-G FlanT5 XXL (zero-shot)",
+        "d": "2023-01-30",
+        "m1": "44.7"
+      },
+      {
+        "p": {
+          "name": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
+          "link": "https://arxiv.org/abs/2301.12597v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "BLIP-2 ViT-L FlanT5 XL (zero-shot)",
+        "d": "2023-01-30",
+        "m1": "44.4"
+      },
+      {
+        "p": {
+          "name": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
+          "link": "https://arxiv.org/abs/2301.12597v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "BLIP-2 ViT-G FlanT5 XL (zero-shot)",
+        "d": "2023-01-30",
+        "m1": "44.2"
+      },
+      {
+        "p": {
+          "name": "Plug-and-Play VQA: Zero-shot VQA by Conjoining Large Pretrained Models with Zero Training",
+          "link": "https://arxiv.org/abs/2210.08773v3"
+        },
+        "c": "https://github.com/salesforce/lavis",
+        "n": "PNP-VQA",
+        "d": "2022-10-17",
+        "m1": "41.9"
+      },
+      {
+        "p": {
+          "name": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
+          "link": "https://arxiv.org/abs/2301.12597v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "BLIP-2 ViT-G OPT 6.7B (zero-shot)",
+        "d": "2023-01-30",
+        "m1": "36.4"
+      },
+      {
+        "p": {
+          "name": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
+          "link": "https://arxiv.org/abs/2301.12597v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "BLIP-2 ViT-G OPT 2.7B (zero-shot)",
+        "d": "2023-01-30",
+        "m1": "34.6"
+      },
+      {
+        "p": {
+          "name": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
+          "link": "https://arxiv.org/abs/2301.12597v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "BLIP-2 ViT-L OPT 2.7B (zero-shot)",
+        "d": "2023-01-30",
+        "m1": "33.9"
+      },
+      {
+        "p": {
+          "name": "A Good Prompt Is Worth Millions of Parameters: Low-resource Prompt-based Learning for Vision-Language Models",
+          "link": "https://arxiv.org/abs/2110.08484v2"
+        },
+        "c": "https://github.com/woojeongjin/fewvlm",
+        "n": "FewVLM (zero-shot)",
+        "d": "2021-10-16",
+        "m1": "29.3"
+      }
+    ]
+  }
+}

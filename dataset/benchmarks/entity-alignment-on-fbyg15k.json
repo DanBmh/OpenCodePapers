@@ -1,0 +1,97 @@
+{
+  "title": "entity-alignment-on-fbyg15k",
+  "task-hierarchy": [
+    "Entity Alignment"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/nle-ml/mmkb"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Hits@1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MEAformer: Multi-modal Entity Alignment Transformer for Meta Modality Hybrid",
+          "link": "https://arxiv.org/abs/2212.14454v4"
+        },
+        "c": "https://github.com/zjukg/MEAformer",
+        "n": "MEAformer (seed 60%)",
+        "d": "2022-12-29",
+        "m1": "0.724"
+      },
+      {
+        "p": {
+          "name": "MEAformer: Multi-modal Entity Alignment Transformer for Meta Modality Hybrid",
+          "link": "https://arxiv.org/abs/2212.14454v4"
+        },
+        "c": "https://github.com/zjukg/MEAformer",
+        "n": "MEAformer (seed 60% w/o iter)",
+        "d": "2022-12-29",
+        "m1": "0.703"
+      },
+      {
+        "p": {
+          "name": "MEAformer: Multi-modal Entity Alignment Transformer for Meta Modality Hybrid",
+          "link": "https://arxiv.org/abs/2212.14454v4"
+        },
+        "c": "https://github.com/zjukg/MEAformer",
+        "n": "MEAformer (seed 40%)",
+        "d": "2022-12-29",
+        "m1": "0.612"
+      },
+      {
+        "p": {
+          "name": "MEAformer: Multi-modal Entity Alignment Transformer for Meta Modality Hybrid",
+          "link": "https://arxiv.org/abs/2212.14454v4"
+        },
+        "c": "https://github.com/zjukg/MEAformer",
+        "n": "MEAformer (seed 40% w/o iter)",
+        "d": "2022-12-29",
+        "m1": "0.560"
+      },
+      {
+        "p": {
+          "name": "MEAformer: Multi-modal Entity Alignment Transformer for Meta Modality Hybrid",
+          "link": "https://arxiv.org/abs/2212.14454v4"
+        },
+        "c": "https://github.com/zjukg/MEAformer",
+        "n": "MEAformer (seed 20%)",
+        "d": "2022-12-29",
+        "m1": "0.444"
+      },
+      {
+        "p": {
+          "name": "MEAformer: Multi-modal Entity Alignment Transformer for Meta Modality Hybrid",
+          "link": "https://arxiv.org/abs/2212.14454v4"
+        },
+        "c": "https://github.com/zjukg/MEAformer",
+        "n": "MEAformer (seed 20% w/o iter)",
+        "d": "2022-12-29",
+        "m1": "0.327"
+      }
+    ]
+  }
+}

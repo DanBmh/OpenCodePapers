@@ -1,0 +1,152 @@
+{
+  "title": "weather-forecasting-on-sd",
+  "task-hierarchy": [
+    "Weather Forecasting"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MSE (t+1)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "MSE (t+6)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Climate modeling with neural advection–diffusion equation",
+          "link": "https://link.springer.com/article/10.1007/s10115-023-01829-2"
+        },
+        "c": "https://github.com/hwangyong753/NADE",
+        "n": "NADE",
+        "d": "2023-01-31",
+        "m1": "0.1430 ± 0.0280",
+        "m2": "0.6516 ± 0.0657"
+      },
+      {
+        "p": {
+          "name": "Adaptive Graph Convolutional Recurrent Network for Traffic Forecasting",
+          "link": "https://arxiv.org/abs/2007.02842v2"
+        },
+        "c": "https://github.com/benedekrozemberczki/pytorch_geometric_temporal",
+        "n": "AGCRN",
+        "d": "2020-07-06",
+        "m1": "0.2010 ± 0.0188",
+        "m2": "1.0181 ± 0.1275"
+      },
+      {
+        "p": {
+          "name": "Climate Modeling with Neural Diffusion Equations",
+          "link": "https://arxiv.org/abs/2111.06011v1"
+        },
+        "c": "https://github.com/jeehyunhwang/neural-diffusion-equation",
+        "n": "NDE",
+        "d": "2021-11-11",
+        "m1": "0.3561 ± 0.0055",
+        "m2": "0.7301 ± 0.0048"
+      },
+      {
+        "p": {
+          "name": "Differentiable Physics-informed Graph Networks",
+          "link": "http://arxiv.org/abs/1902.02950v2"
+        },
+        "c": "https://github.com/sungyongs/dpgn",
+        "n": "DPGN",
+        "d": "2019-02-08",
+        "m1": "0.5149 ± 0.0831",
+        "m2": "0.6714 ± 0.1106"
+      },
+      {
+        "p": {
+          "name": "Neural Dynamics on Complex Networks",
+          "link": "https://arxiv.org/abs/1908.06491v2"
+        },
+        "c": "https://github.com/calvin-zcx/ndcn",
+        "n": "RNN-GNN",
+        "d": "2019-08-18",
+        "m1": "0.5291 ± 0.0578",
+        "m2": "0.7862 ± 0.0475"
+      },
+      {
+        "p": {
+          "name": "Neural Dynamics on Complex Networks",
+          "link": "https://arxiv.org/abs/1908.06491v2"
+        },
+        "c": "https://github.com/calvin-zcx/ndcn",
+        "n": "NDCN",
+        "d": "2019-08-18",
+        "m1": "0.5296 ± 0.0274",
+        "m2": "0.7542 ± 0.0730"
+      },
+      {
+        "p": {
+          "name": "Neural Dynamics on Complex Networks",
+          "link": "https://arxiv.org/abs/1908.06491v2"
+        },
+        "c": "https://github.com/calvin-zcx/ndcn",
+        "n": "GRU-GNN",
+        "d": "2019-08-18",
+        "m1": "0.5705 ± 0.0057",
+        "m2": "0.7414 ± 0.0294"
+      },
+      {
+        "p": {
+          "name": "Neural Dynamics on Complex Networks",
+          "link": "https://arxiv.org/abs/1908.06491v2"
+        },
+        "c": "https://github.com/calvin-zcx/ndcn",
+        "n": "LSTM-GNN",
+        "d": "2019-08-18",
+        "m1": "0.5754 ± 0.0180",
+        "m2": "0.7954 ± 0.0110"
+      },
+      {
+        "p": {
+          "name": "Graph networks as learnable physics engines for inference and control",
+          "link": "http://arxiv.org/abs/1806.01242v1"
+        },
+        "c": "https://github.com/fxia22/gn.pytorch",
+        "n": "GN-skip",
+        "d": "2018-06-04",
+        "m1": "0.6543 ± 0.1195",
+        "m2": "0.9872 ± 0.2425"
+      },
+      {
+        "p": {
+          "name": "Graph networks as learnable physics engines for inference and control",
+          "link": "http://arxiv.org/abs/1806.01242v1"
+        },
+        "c": "https://github.com/fxia22/gn.pytorch",
+        "n": "GN-only",
+        "d": "2018-06-04",
+        "m1": "0.7007 ± 0.0848",
+        "m2": "1.0422 ± 0.0673"
+      }
+    ]
+  }
+}

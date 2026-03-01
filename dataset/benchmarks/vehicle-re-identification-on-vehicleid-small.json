@@ -1,0 +1,201 @@
+{
+  "title": "vehicle-re-identification-on-vehicleid-small",
+  "task-hierarchy": [
+    "Vehicle Re-Identification"
+  ],
+  "dataset-info": {
+    "link": "https://www.pkuml.org/resources/pku-vehicleid.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Rank-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Rank-5",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Rank1",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Rank5",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Recall@k Surrogate Loss with Large Batches and Similarity Mixup",
+          "link": "https://arxiv.org/abs/2108.11179v2"
+        },
+        "c": "https://github.com/yash0307/RecallatK_surrogate",
+        "n": "Recall@k Surrogate loss (ViT-B/16)",
+        "d": "2021-08-25",
+        "m1": "96.2",
+        "m2": "98.0"
+      },
+      {
+        "p": {
+          "name": "Recall@k Surrogate Loss with Large Batches and Similarity Mixup",
+          "link": "https://arxiv.org/abs/2108.11179v2"
+        },
+        "c": "https://github.com/yash0307/RecallatK_surrogate",
+        "n": "Recall@k Surrogate loss (ResNet-50)",
+        "d": "2021-08-25",
+        "m1": "95.7",
+        "m2": "97.9"
+      },
+      {
+        "p": {
+          "name": "Rethinking the Optimization of Average Precision: Only Penalizing Negative Instances before Positive Ones is Enough",
+          "link": "https://arxiv.org/abs/2102.04640v4"
+        },
+        "c": "https://github.com/interestingzhuo/pnploss",
+        "n": "PNP Loss",
+        "d": "2021-02-09",
+        "m1": "95.5",
+        "m2": "97.8"
+      },
+      {
+        "p": {
+          "name": "Relation Preserving Triplet Mining for Stabilising the Triplet Loss in Re-identification Systems",
+          "link": "https://arxiv.org/abs/2110.07933v2"
+        },
+        "c": "https://github.com/adhirajghosh/rptm_reid",
+        "n": "RPTM",
+        "d": "2021-10-15",
+        "m1": "95.5",
+        "m2": "97.4",
+        "m5": "84.8"
+      },
+      {
+        "p": {
+          "name": "Smooth-AP: Smoothing the Path Towards Large-Scale Image Retrieval",
+          "link": "https://arxiv.org/abs/2007.12163v2"
+        },
+        "c": "https://github.com/Andrew-Brown1/Smooth_AP",
+        "n": "Smooth-AP",
+        "d": "2020-07-23",
+        "m1": "94.9",
+        "m2": "97.6"
+      },
+      {
+        "p": {
+          "name": "Strength in Diversity: Multi-Branch Representation Learning for Vehicle Re-Identification",
+          "link": "https://arxiv.org/abs/2310.01129v1"
+        },
+        "c": "https://github.com/videturfortuna/vehicle_reid_itsc2023",
+        "n": "MBR-4B (without RK)",
+        "d": "2023-10-02",
+        "m1": "88.3",
+        "m5": "92.5"
+      },
+      {
+        "p": {
+          "name": "AttributeNet: Attribute Enhanced Vehicle Re-Identification",
+          "link": "https://arxiv.org/abs/2102.03898v2"
+        },
+        "c": "",
+        "n": "ANet",
+        "d": "2021-02-07",
+        "m1": "87.9",
+        "m2": "97.8",
+        "m3": "87.9",
+        "m4": "97.8"
+      },
+      {
+        "p": {
+          "name": "CLIP-ReID: Exploiting Vision-Language Model for Image Re-Identification without Concrete Text Labels",
+          "link": "https://arxiv.org/abs/2211.13977v4"
+        },
+        "c": "https://github.com/mikel-brostrom/boxmot",
+        "n": "CLIP-ReID (without re-ranking)",
+        "d": "2022-11-25",
+        "m1": "85.5",
+        "m2": "97.2"
+      },
+      {
+        "p": {
+          "name": "VehicleNet: Learning Robust Feature Representation for Vehicle Re-identification",
+          "link": "https://arxiv.org/abs/2004.06305"
+        },
+        "c": "https://github.com/layumi/Person_reID_baseline_pytorch",
+        "n": "vehiclenet",
+        "d": "2020-08-07",
+        "m1": "83.64"
+      },
+      {
+        "p": {
+          "name": "Counterfactual Attention Learning for Fine-Grained Visual Categorization and Re-identification",
+          "link": "https://arxiv.org/abs/2108.08728v2"
+        },
+        "c": "https://github.com/raoyongming/CAL",
+        "n": "CAL",
+        "d": "2021-08-19",
+        "m1": "82.5",
+        "m5": "87.8"
+      },
+      {
+        "p": {
+          "name": "GiT: Graph Interactive Transformer for Vehicle Re-identification",
+          "link": "https://arxiv.org/abs/2107.05475v3"
+        },
+        "c": "",
+        "n": "GiT",
+        "d": "2021-07-12",
+        "m3": "84.65",
+        "m5": "90.12"
+      },
+      {
+        "p": {
+          "name": "Exploring Spatial Significance via Hybrid Pyramidal Graph Network for Vehicle Re-identification",
+          "link": "https://arxiv.org/abs/2005.14684v2"
+        },
+        "c": "https://github.com/muzishen/HPGN",
+        "n": "HPGN",
+        "d": "2020-05-29",
+        "m3": "83.91",
+        "m5": "89.6"
+      },
+      {
+        "p": {
+          "name": "Vehicle Re-identification Using Quadruple Directional Deep Learning Features",
+          "link": "http://arxiv.org/abs/1811.05163v1"
+        },
+        "c": "",
+        "n": "QD-DLF",
+        "d": "2018-11-13",
+        "m5": "76.54"
+      }
+    ]
+  }
+}

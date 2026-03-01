@@ -1,0 +1,75 @@
+{
+  "title": "image-captioning-on-object-halbench",
+  "task-hierarchy": [
+    "Image Captioning"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "chair_i",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "chair_s",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "RLHF-V: Towards Trustworthy MLLMs via Behavior Alignment from Fine-grained Correctional Human Feedback",
+          "link": "https://arxiv.org/abs/2312.00849v2"
+        },
+        "c": "https://github.com/openbmb/minicpm-v",
+        "n": "RLHF-V",
+        "d": "2023-12-01",
+        "m1": "7.5",
+        "m2": "12.2"
+      },
+      {
+        "p": {
+          "name": "RLAIF-V: Open-Source AI Feedback Leads to Super GPT-4V Trustworthiness",
+          "link": "https://arxiv.org/abs/2405.17220v2"
+        },
+        "c": "https://github.com/openbmb/minicpm-v",
+        "n": "RLAIF-V 7B",
+        "d": "2024-05-27",
+        "m1": "4.3",
+        "m2": "8.5"
+      },
+      {
+        "p": {
+          "name": "RLAIF-V: Open-Source AI Feedback Leads to Super GPT-4V Trustworthiness",
+          "link": "https://arxiv.org/abs/2405.17220v2"
+        },
+        "c": "https://github.com/openbmb/minicpm-v",
+        "n": "RLAIF-V 12B",
+        "d": "2024-05-27",
+        "m1": "1.8",
+        "m2": "3.3"
+      }
+    ]
+  }
+}

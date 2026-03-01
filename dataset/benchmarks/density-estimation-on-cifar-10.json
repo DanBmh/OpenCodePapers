@@ -1,0 +1,192 @@
+{
+  "title": "density-estimation-on-cifar-10",
+  "task-hierarchy": [
+    "Density Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "NLL (bits/dim)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Log-likelihood (nats)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Improved Techniques for Maximum Likelihood Estimation for Diffusion ODEs",
+          "link": "https://arxiv.org/abs/2305.03935v4"
+        },
+        "c": "https://github.com/thu-ml/i-dode",
+        "n": "i-DODE",
+        "d": "2023-05-06",
+        "m1": "2.42"
+      },
+      {
+        "p": {
+          "name": "Diffusion Models With Learned Adaptive Noise",
+          "link": "https://arxiv.org/abs/2312.13236v3"
+        },
+        "c": "https://github.com/s-sahoo/mulan",
+        "n": "MULAN",
+        "d": "2023-12-20",
+        "m1": "2.55"
+      },
+      {
+        "p": {
+          "name": "Generative Modeling with Bayesian Sample Inference",
+          "link": "https://arxiv.org/abs/2502.07580v2"
+        },
+        "c": "https://github.com/martenlienen/bsi",
+        "n": "BSI",
+        "d": "2025-02-11",
+        "m1": "2.64"
+      },
+      {
+        "p": {
+          "name": "Variational Diffusion Models",
+          "link": "https://arxiv.org/abs/2107.00630v6"
+        },
+        "c": "https://github.com/google-research/vdm",
+        "n": "VDM",
+        "d": "2021-07-01",
+        "m1": "2.65"
+      },
+      {
+        "p": {
+          "name": "Hierarchical VAE with a Diffusion-based VampPrior",
+          "link": "https://arxiv.org/abs/2412.01373v1"
+        },
+        "c": "https://github.com/akuzina/dvp_vae",
+        "n": "DVP-VAE",
+        "d": "2024-12-02",
+        "m1": "2.73"
+      },
+      {
+        "p": {
+          "name": "Image Transformer",
+          "link": "http://arxiv.org/abs/1802.05751v3"
+        },
+        "c": "",
+        "n": "Image Transformer",
+        "d": "2018-02-15",
+        "m1": "2.90"
+      },
+      {
+        "p": {
+          "name": "PixelCNN++: Improving the PixelCNN with Discretized Logistic Mixture Likelihood and Other Modifications",
+          "link": "http://arxiv.org/abs/1701.05517v1"
+        },
+        "c": "https://github.com/google/flax/tree/master/examples/pixelcnn",
+        "n": "Pixel CNN ++",
+        "d": "2017-01-19",
+        "m1": "2.92"
+      },
+      {
+        "p": {
+          "name": "Score-Based Generative Modeling through Stochastic Differential Equations",
+          "link": "https://arxiv.org/abs/2011.13456v2"
+        },
+        "c": "https://github.com/yang-song/score_sde_pytorch",
+        "n": "score SDE",
+        "d": "2020-11-26",
+        "m1": "2.99"
+      },
+      {
+        "p": {
+          "name": "Flow Matching for Generative Modeling",
+          "link": "https://arxiv.org/abs/2210.02747v2"
+        },
+        "c": "https://github.com/shivammehta25/Matcha-TTS",
+        "n": "Flow matching",
+        "d": "2022-10-06",
+        "m1": "2.99"
+      },
+      {
+        "p": {
+          "name": "Conditional Image Generation with PixelCNN Decoders",
+          "link": "http://arxiv.org/abs/1606.05328v2"
+        },
+        "c": "https://github.com/openai/pixel-cnn",
+        "n": "Pixel CNN",
+        "d": "2016-06-16",
+        "m1": "3.03"
+      },
+      {
+        "p": {
+          "name": "How to train your neural ODE: the world of Jacobian and kinetic regularization",
+          "link": "https://arxiv.org/abs/2002.02798v3"
+        },
+        "c": "https://github.com/cfinlay/ffjord-rnode",
+        "n": "RNODE",
+        "d": "2020-02-07",
+        "m1": "3.38"
+      },
+      {
+        "p": {
+          "name": "FFJORD: Free-form Continuous Dynamics for Scalable Reversible Generative Models",
+          "link": "http://arxiv.org/abs/1810.01367v3"
+        },
+        "c": "https://github.com/rtqichen/ffjord",
+        "n": "FFJORD",
+        "d": "2018-10-02",
+        "m1": "3.4"
+      },
+      {
+        "p": {
+          "name": "Multi-Resolution Continuous Normalizing Flows",
+          "link": "https://arxiv.org/abs/2106.08462v5"
+        },
+        "c": "https://github.com/voletiv/mrcnf",
+        "n": "MRCNF",
+        "d": "2021-06-15",
+        "m1": "3.54"
+      },
+      {
+        "p": {
+          "name": "Denoising Diffusion Probabilistic Models",
+          "link": "https://arxiv.org/abs/2006.11239v2"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+        "n": "DDPM",
+        "d": "2020-06-19",
+        "m1": "3.69"
+      },
+      {
+        "p": {
+          "name": "Masked Autoregressive Flow for Density Estimation",
+          "link": "http://arxiv.org/abs/1705.07057v4"
+        },
+        "c": "https://github.com/tensorflow/probability",
+        "n": "MAF",
+        "d": "2017-05-19",
+        "m2": "3049"
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "title": "edge-detection-on-brind",
+  "task-hierarchy": [
+    "2D Object Detection",
+    "Edge Detection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/MengyangPu/RINDNet"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "ODS",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Number of parameters (M)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "LDC: Lightweight Dense CNN for Edge Detection",
+          "link": "https://ieeexplore.ieee.org/document/9807316"
+        },
+        "c": "https://github.com/xavysp/LDC",
+        "n": "LDC",
+        "d": "2022-06-27",
+        "m1": "0.790",
+        "m2": "674K"
+      },
+      {
+        "p": {
+          "name": "Pixel Difference Networks for Efficient Edge Detection",
+          "link": "https://arxiv.org/abs/2108.07009v1"
+        },
+        "c": "https://github.com/hellozhuo/pidinet",
+        "n": "PiDiNet",
+        "d": "2021-08-16",
+        "m1": "0.789",
+        "m2": "710K"
+      },
+      {
+        "p": {
+          "name": "Bi-Directional Cascade Network for Perceptual Edge Detection",
+          "link": "http://arxiv.org/abs/1902.10903v1"
+        },
+        "c": "https://github.com/pkuCactus/BDCN",
+        "n": "BDCN",
+        "d": "2019-02-28",
+        "m1": "0.789",
+        "m2": "16M"
+      }
+    ]
+  }
+}

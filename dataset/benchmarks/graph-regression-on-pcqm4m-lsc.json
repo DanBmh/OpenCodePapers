@@ -1,0 +1,157 @@
+{
+  "title": "graph-regression-on-pcqm4m-lsc",
+  "task-hierarchy": [
+    "Graph Regression"
+  ],
+  "dataset-info": {
+    "link": "https://ogb.stanford.edu/kddcup2021/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Test MAE",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Validation MAE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Do Transformers Really Perform Bad for Graph Representation?",
+          "link": "https://arxiv.org/abs/2106.05234v5"
+        },
+        "c": "https://github.com/microsoft/Graphormer",
+        "n": "Graphormer ",
+        "d": "2021-06-09",
+        "m1": "13.28",
+        "m2": "0.1234"
+      },
+      {
+        "p": {
+          "name": "OGB-LSC: A Large-Scale Challenge for Machine Learning on Graphs",
+          "link": "https://arxiv.org/abs/2103.09430v3"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/ogb_lsc",
+        "n": "GIN-virtual",
+        "d": "2021-03-17",
+        "m1": "14.87",
+        "m2": "0.1396"
+      },
+      {
+        "p": {
+          "name": "OGB-LSC: A Large-Scale Challenge for Machine Learning on Graphs",
+          "link": "https://arxiv.org/abs/2103.09430v3"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/ogb_lsc",
+        "n": "GCN-Virtual",
+        "d": "2021-03-17",
+        "m1": "15.79",
+        "m2": "0.1536"
+      },
+      {
+        "p": {
+          "name": "OGB-LSC: A Large-Scale Challenge for Machine Learning on Graphs",
+          "link": "https://arxiv.org/abs/2103.09430v3"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/ogb_lsc",
+        "n": "GIN",
+        "d": "2021-03-17",
+        "m1": "16.78"
+      },
+      {
+        "p": {
+          "name": "OGB-LSC: A Large-Scale Challenge for Machine Learning on Graphs",
+          "link": "https://arxiv.org/abs/2103.09430v3"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/ogb_lsc",
+        "n": "GCN",
+        "d": "2021-03-17",
+        "m1": "18.38",
+        "m2": "0.1684"
+      },
+      {
+        "p": {
+          "name": "OGB-LSC: A Large-Scale Challenge for Machine Learning on Graphs",
+          "link": "https://arxiv.org/abs/2103.09430v3"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/ogb_lsc",
+        "n": "MLP-fingerprint",
+        "d": "2021-03-17",
+        "m1": "20.68",
+        "m2": "0.2044"
+      },
+      {
+        "p": {
+          "name": "O-GNN: Incorporating Ring Priors into Molecular Modeling",
+          "link": "https://openreview.net/forum?id=5cFfz6yMVPU"
+        },
+        "c": "https://github.com/O-GNN/O-GNN",
+        "n": "O-GNN",
+        "d": "2023-05-01",
+        "m2": "0.1148"
+      },
+      {
+        "p": {
+          "name": "Graph Propagation Transformer for Graph Representation Learning",
+          "link": "https://arxiv.org/abs/2305.11424v3"
+        },
+        "c": "https://github.com/czczup/gptrans",
+        "n": "GPTrans-L",
+        "d": "2023-05-19",
+        "m2": "0.1151"
+      },
+      {
+        "p": {
+          "name": "Graph Convolutions Enrich the Self-Attention in Transformers!",
+          "link": "https://arxiv.org/abs/2312.04234v5"
+        },
+        "c": "https://github.com/jeongwhanchoi/gfsa",
+        "n": "Graphormer + GFSA",
+        "d": "2023-12-07",
+        "m2": "0.1193"
+      },
+      {
+        "p": {
+          "name": "Global Self-Attention as a Replacement for Graph Convolution",
+          "link": "https://arxiv.org/abs/2108.03348v3"
+        },
+        "c": "https://github.com/shamim-hussain/egt_pytorch",
+        "n": "EGT",
+        "d": "2021-08-07",
+        "m2": "0.1224"
+      },
+      {
+        "p": {
+          "name": "Transformers Generalize DeepSets and Can be Extended to Graphs and Hypergraphs",
+          "link": "https://arxiv.org/abs/2110.14416v2"
+        },
+        "c": "https://github.com/jw9730/hot",
+        "n": "Higher-Order Transformer",
+        "d": "2021-10-27",
+        "m2": "0.1263"
+      }
+    ]
+  }
+}

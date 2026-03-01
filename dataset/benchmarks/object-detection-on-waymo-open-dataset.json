@@ -1,0 +1,97 @@
+{
+  "title": "object-detection-on-waymo-open-dataset",
+  "task-hierarchy": [
+    "Object Detection"
+  ],
+  "dataset-info": {
+    "link": "https://waymo.com/open"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AP/L2",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Latency, ms",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "2nd Place Solution for Waymo Open Dataset Challenge - Real-time 2D Object Detection",
+          "link": "https://arxiv.org/abs/2106.08713v1"
+        },
+        "c": "https://github.com/WongKinYiu/yolor",
+        "n": "LeapMotor_Det",
+        "d": "2021-06-16",
+        "m1": "70.41",
+        "m2": "6.16"
+      },
+      {
+        "p": {
+          "name": "2nd Place Solution for Waymo Open Dataset Challenge - Real-time 2D Object Detection",
+          "link": "https://arxiv.org/abs/2106.08713v1"
+        },
+        "c": "https://github.com/WongKinYiu/yolor",
+        "n": "YOLOR_TensorRT (Ours)",
+        "d": "2021-06-16",
+        "m1": "69.72",
+        "m2": "4.58"
+      },
+      {
+        "p": {
+          "name": "2nd Place Solution for Waymo Open Dataset Challenge - Real-time 2D Object Detection",
+          "link": "https://arxiv.org/abs/2106.08713v1"
+        },
+        "c": "https://github.com/WongKinYiu/yolor",
+        "n": "YOLOR_P6_TRT",
+        "d": "2021-06-16",
+        "m1": "69.56",
+        "m2": "3.74"
+      },
+      {
+        "p": {
+          "name": "2nd Place Solution for Waymo Open Dataset Challenge - Real-time 2D Object Detection",
+          "link": "https://arxiv.org/abs/2106.08713v1"
+        },
+        "c": "https://github.com/WongKinYiu/yolor",
+        "n": "dereyly_self_ensemble",
+        "d": "2021-06-16",
+        "m1": "65.65",
+        "m2": "6.87"
+      },
+      {
+        "p": {
+          "name": "2nd Place Solution for Waymo Open Dataset Challenge - Real-time 2D Object Detection",
+          "link": "https://arxiv.org/abs/2106.08713v1"
+        },
+        "c": "https://github.com/WongKinYiu/yolor",
+        "n": "YOLO_v5",
+        "d": "2021-06-16",
+        "m1": "64.14",
+        "m2": "3.81"
+      }
+    ]
+  }
+}

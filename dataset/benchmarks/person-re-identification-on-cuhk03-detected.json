@@ -1,0 +1,251 @@
+{
+  "title": "person-re-identification-on-cuhk03-detected",
+  "task-hierarchy": [
+    "Person Re-Identification"
+  ],
+  "dataset-info": {
+    "link": "http://www.ee.cuhk.edu.hk/~xgwang/CUHK_identification.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MAP",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Rank-1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Top-DB-Net: Top DropBlock for Activation Enhancement in Person Re-Identification",
+          "link": "https://arxiv.org/abs/2010.05435v1"
+        },
+        "c": "https://github.com/RQuispeC/top-dropblock",
+        "n": "Top-DB-Net + RK",
+        "d": "2020-10-12",
+        "m1": "86.9",
+        "m2": "85.7"
+      },
+      {
+        "p": {
+          "name": "DiP: Learning Discriminative Implicit Parts for Person Re-Identification",
+          "link": "https://arxiv.org/abs/2212.13906v2"
+        },
+        "c": "https://github.com/siyuch-fdu/DiP",
+        "n": "DiP (without RK)",
+        "d": "2022-12-24",
+        "m1": "83.1",
+        "m2": "85.4"
+      },
+      {
+        "p": {
+          "name": "Lightweight Multi-Branch Network for Person Re-Identification",
+          "link": "https://arxiv.org/abs/2101.10774v1"
+        },
+        "c": "https://github.com/mikel-brostrom/boxmot",
+        "n": "LightMBN (w/o ReRank)",
+        "d": "2021-01-26",
+        "m1": "82.4",
+        "m2": "84.9"
+      },
+      {
+        "p": {
+          "name": "Deep Miner: A Deep and Multi-branch Network which Mines Rich and Diverse Features for Person Re-identification",
+          "link": "https://arxiv.org/abs/2102.09321v1"
+        },
+        "c": "https://github.com/robin-schneider/cicy-fourfolds",
+        "n": "Deep Miner (w/o ReRank)",
+        "d": "2021-02-18",
+        "m1": "81.4",
+        "m2": "83.5"
+      },
+      {
+        "p": {
+          "name": "Multi-task Learning with Coarse Priors for Robust Part-aware Person Re-identification",
+          "link": "https://arxiv.org/abs/2003.08069v3"
+        },
+        "c": "https://github.com/WangKan0128/MPN",
+        "n": "MPN (without re-ranking)",
+        "d": "2020-03-18",
+        "m1": "79.1",
+        "m2": "83.4"
+      },
+      {
+        "p": {
+          "name": "Learning Diverse Features with Part-Level Resolution for Person Re-Identification",
+          "link": "https://arxiv.org/abs/2001.07442v1"
+        },
+        "c": "https://github.com/AI-NERC-NUPT/PLR-OSNet",
+        "n": "PLR-OSNet",
+        "d": "2020-01-21",
+        "m1": "77.2",
+        "m2": "80.4"
+      },
+      {
+        "p": {
+          "name": "Pyramidal Person Re-IDentification via Multi-Loss Dynamic Training",
+          "link": "https://arxiv.org/abs/1810.12193v3"
+        },
+        "c": "https://github.com/TencentYoutuResearch/PersonReID-Pyramid",
+        "n": "Pyramid (CVPR'19)",
+        "d": "2018-10-29",
+        "m1": "74.8",
+        "m2": "78.9"
+      },
+      {
+        "p": {
+          "name": "Top-DB-Net: Top DropBlock for Activation Enhancement in Person Re-Identification",
+          "link": "https://arxiv.org/abs/2010.05435v1"
+        },
+        "c": "https://github.com/RQuispeC/top-dropblock",
+        "n": "Top-DB-Net",
+        "d": "2020-10-12",
+        "m1": "74.2",
+        "m2": "77.3"
+      },
+      {
+        "p": {
+          "name": "Auto-ReID: Searching for a Part-aware ConvNet for Person Re-Identification",
+          "link": "https://arxiv.org/abs/1903.09776v4"
+        },
+        "c": "https://github.com/D-X-Y/GDAS",
+        "n": "Auto-ReID  (ICCV'19)",
+        "d": "2019-03-23",
+        "m1": "69.3",
+        "m2": "73.3"
+      },
+      {
+        "p": {
+          "name": "Omni-Scale Feature Learning for Person Re-Identification",
+          "link": "https://arxiv.org/abs/1905.00953v6"
+        },
+        "c": "https://github.com/mikel-brostrom/boxmot",
+        "n": "OSNet  (ICCV'19)",
+        "d": "2019-05-02",
+        "m1": "67.8",
+        "m2": "72.3"
+      },
+      {
+        "p": {
+          "name": "Learning Discriminative Features with Multiple Granularities for Person Re-Identification",
+          "link": "http://arxiv.org/abs/1804.01438v3"
+        },
+        "c": "https://github.com/seathiefwang/MGN-pytorch",
+        "n": "MGN (ACM MM'18)",
+        "d": "2018-04-04",
+        "m1": "66.0",
+        "m2": "68.0"
+      },
+      {
+        "p": {
+          "name": "Resource Aware Person Re-identification across Multiple Resolutions",
+          "link": "http://arxiv.org/abs/1805.08805v3"
+        },
+        "c": "https://github.com/mileyan/DARENet",
+        "n": "DaRe+RE (CVPR'18)",
+        "d": "2018-05-22",
+        "m1": "59.0",
+        "m2": "63.3"
+      },
+      {
+        "p": {
+          "name": "Harmonious Attention Network for Person Re-Identification",
+          "link": "http://arxiv.org/abs/1802.08122v1"
+        },
+        "c": "https://github.com/milkplz/keras-frcnn",
+        "n": "HA-CNN (CVPR'18)",
+        "d": "2018-02-22",
+        "m1": "38.6",
+        "m2": "41.7"
+      },
+      {
+        "p": {
+          "name": "SVDNet for Pedestrian Retrieval",
+          "link": "http://arxiv.org/abs/1703.05693v4"
+        },
+        "c": "",
+        "n": "SVDNet-ResNet50",
+        "d": "2017-03-16",
+        "m1": "37.3",
+        "m2": "41.5"
+      },
+      {
+        "p": {
+          "name": "Re-ranking Person Re-identification with k-reciprocal Encoding",
+          "link": "http://arxiv.org/abs/1701.08398v4"
+        },
+        "c": "",
+        "n": "IDE-R+XQDA",
+        "d": "2017-01-29",
+        "m1": "28.2",
+        "m2": "31.1"
+      },
+      {
+        "p": {
+          "name": "SVDNet for Pedestrian Retrieval",
+          "link": "http://arxiv.org/abs/1703.05693v4"
+        },
+        "c": "",
+        "n": "SVDNet-CaffeNet",
+        "d": "2017-03-16",
+        "m1": "24.9",
+        "m2": "27.7"
+      },
+      {
+        "p": {
+          "name": "Re-ranking Person Re-identification with k-reciprocal Encoding",
+          "link": "http://arxiv.org/abs/1701.08398v4"
+        },
+        "c": "",
+        "n": "IDE-R",
+        "d": "2017-01-29",
+        "m1": "19.7",
+        "m2": "21.3"
+      },
+      {
+        "p": {
+          "name": "Re-ranking Person Re-identification with k-reciprocal Encoding",
+          "link": "http://arxiv.org/abs/1701.08398v4"
+        },
+        "c": "",
+        "n": "IDE-C+XQDA",
+        "d": "2017-01-29",
+        "m1": "19.0",
+        "m2": "21.1"
+      },
+      {
+        "p": {
+          "name": "Re-ranking Person Re-identification with k-reciprocal Encoding",
+          "link": "http://arxiv.org/abs/1701.08398v4"
+        },
+        "c": "",
+        "n": "IDE-C",
+        "d": "2017-01-29",
+        "m1": "14.2",
+        "m2": "15.1"
+      }
+    ]
+  }
+}

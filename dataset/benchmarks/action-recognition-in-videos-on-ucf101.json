@@ -1,0 +1,955 @@
+{
+  "title": "action-recognition-in-videos-on-ucf101",
+  "task-hierarchy": [
+    "Action Recognition",
+    "Action Recognition In Videos"
+  ],
+  "dataset-info": {
+    "link": "https://www.crcv.ucf.edu/data/UCF101.php"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "3-fold Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Accuracy 20%Test",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Enhancing Video Transformers for Action Understanding with VLM-aided Training",
+          "link": "https://arxiv.org/abs/2403.16128v1"
+        },
+        "c": "",
+        "n": "FTP-UniFormerV2-L/14",
+        "d": "2024-03-24",
+        "m1": "99.7"
+      },
+      {
+        "p": {
+          "name": "VideoMAE V2: Scaling Video Masked Autoencoders with Dual Masking",
+          "link": "https://arxiv.org/abs/2303.16727v2"
+        },
+        "c": "https://github.com/OpenGVLab/VideoMAEv2",
+        "n": "VideoMAE V2-g",
+        "d": "2023-03-29",
+        "m1": "99.6"
+      },
+      {
+        "p": {
+          "name": "OmniVec: Learning robust representations with cross modal sharing",
+          "link": "https://arxiv.org/abs/2311.05709v1"
+        },
+        "c": "",
+        "n": "OmniVec",
+        "d": "2023-11-07",
+        "m1": "99.6"
+      },
+      {
+        "p": {
+          "name": "OmniVec2 - A Novel Transformer based Network for Large Scale Multimodal and Multitask Learning",
+          "link": "http://openaccess.thecvf.com//content/CVPR2024/html/Srivastava_OmniVec2_-_A_Novel_Transformer_based_Network_for_Large_Scale_CVPR_2024_paper.html"
+        },
+        "c": "",
+        "n": "OmniVec2",
+        "d": "2024-01-01",
+        "m1": "99.6"
+      },
+      {
+        "p": {
+          "name": "Bidirectional Cross-Modal Knowledge Exploration for Video Recognition with Pre-trained Vision-Language Models",
+          "link": "https://arxiv.org/abs/2301.00182v2"
+        },
+        "c": "https://github.com/whwu95/Cap4Video",
+        "n": "BIKE",
+        "d": "2022-12-31",
+        "m1": "98.8"
+      },
+      {
+        "p": {
+          "name": "SMART Frame Selection for Action Recognition",
+          "link": "https://arxiv.org/abs/2012.10671v1"
+        },
+        "c": "",
+        "n": "SMART",
+        "d": "2020-12-19",
+        "m1": "98.64"
+      },
+      {
+        "p": {
+          "name": "Omni-sourced Webly-supervised Learning for Video Recognition",
+          "link": "https://arxiv.org/abs/2003.13042v2"
+        },
+        "c": "https://github.com/open-mmlab/mmaction2",
+        "n": "OmniSource (SlowOnly-8x8-R101-RGB + I3D-Flow)",
+        "d": "2020-03-29",
+        "m1": "98.6"
+      },
+      {
+        "p": {
+          "name": "PERF-Net: Pose Empowered RGB-Flow Net",
+          "link": "https://arxiv.org/abs/2009.13087v2"
+        },
+        "c": "",
+        "n": "PERF-Net (multi-distilled S3D)",
+        "d": "2020-09-28",
+        "m1": "98.6"
+      },
+      {
+        "p": {
+          "name": "ZeroI2V: Zero-Cost Adaptation of Pre-trained Transformers from Image to Video",
+          "link": "https://arxiv.org/abs/2310.01324v2"
+        },
+        "c": "https://github.com/mcg-nju/zeroi2v",
+        "n": "ZeroI2V ViT-L/14",
+        "d": "2023-10-02",
+        "m1": "98.6"
+      },
+      {
+        "p": {
+          "name": "Learning Spatio-Temporal Representation with Local and Global Diffusion",
+          "link": "https://arxiv.org/abs/1906.05571v1"
+        },
+        "c": "",
+        "n": "LGD-3D Two-stream",
+        "d": "2019-06-13",
+        "m1": "98.2"
+      },
+      {
+        "p": {
+          "name": "Revisiting Classifier: Transferring Vision-Language Models for Video Recognition",
+          "link": "https://arxiv.org/abs/2207.01297v4"
+        },
+        "c": "https://github.com/whwu95/Cap4Video",
+        "n": "Text4Vis",
+        "d": "2022-07-04",
+        "m1": "98.2"
+      },
+      {
+        "p": {
+          "name": "Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset",
+          "link": "http://arxiv.org/abs/1705.07750v3"
+        },
+        "c": "https://github.com/open-mmlab/mmaction2",
+        "n": "Two-Stream I3D (Imagenet+Kinetics pre-training)",
+        "d": "2017-05-22",
+        "m1": "98.0"
+      },
+      {
+        "p": {
+          "name": "MARS: Motion-Augmented RGB Stream for Action Recognition",
+          "link": "http://openaccess.thecvf.com/content_CVPR_2019/html/Crasto_MARS_Motion-Augmented_RGB_Stream_for_Action_Recognition_CVPR_2019_paper.html"
+        },
+        "c": "https://github.com/craston/MARS",
+        "n": "MARS+RGB+Flow (64 frames, Kinetics pretrained)",
+        "d": "2019-06-01",
+        "m1": "97.8"
+      },
+      {
+        "p": {
+          "name": "Large Scale Holistic Video Understanding",
+          "link": "https://arxiv.org/abs/1904.11451v3"
+        },
+        "c": "https://github.com/holistic-video-understanding/HVU-Dataset",
+        "n": "HATNet (32 frames)",
+        "d": "2019-04-25",
+        "m1": "97.8"
+      },
+      {
+        "p": {
+          "name": "Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset",
+          "link": "http://arxiv.org/abs/1705.07750v3"
+        },
+        "c": "https://github.com/open-mmlab/mmaction2",
+        "n": "Two-Stream I3D (Kinetics pre-training)",
+        "d": "2017-05-22",
+        "m1": "97.8"
+      },
+      {
+        "p": {
+          "name": "Bubblenet: A Disperse Recurrent Structure To Recognize Activities",
+          "link": "https://ieeexplore.ieee.org/document/9190769"
+        },
+        "c": "",
+        "n": "BubbleNET",
+        "d": "2020-10-30",
+        "m1": "97.62"
+      },
+      {
+        "p": {
+          "name": "D3D: Distilled 3D Networks for Video Action Recognition",
+          "link": "http://arxiv.org/abs/1812.08249v2"
+        },
+        "c": "https://github.com/princeton-vl/d3dhelper",
+        "n": "D3D + D3D",
+        "d": "2018-12-19",
+        "m1": "97.6"
+      },
+      {
+        "p": {
+          "name": "Busy-Quiet Video Disentangling for Video Classification",
+          "link": "https://arxiv.org/abs/2103.15584v4"
+        },
+        "c": "https://github.com/guoxih/busy-quiet-net",
+        "n": "BQN",
+        "d": "2021-03-29",
+        "m1": "97.6"
+      },
+      {
+        "p": {
+          "name": "Cooperative Cross-Stream Network for Discriminative Action Representation",
+          "link": "https://arxiv.org/abs/1908.10136v1"
+        },
+        "c": "",
+        "n": "CCS + TSN (ImageNet+Kinetics pretrained)",
+        "d": "2019-08-27",
+        "m1": "97.4"
+      },
+      {
+        "p": {
+          "name": "A Closer Look at Spatiotemporal Convolutions for Action Recognition",
+          "link": "http://arxiv.org/abs/1711.11248v3"
+        },
+        "c": "https://github.com/microsoft/computervision-recipes",
+        "n": "R[2+1]D-TwoStream (Kinetics pretrained)",
+        "d": "2017-11-30",
+        "m1": "97.3"
+      },
+      {
+        "p": {
+          "name": "Contextual Action Cues from Camera Sensor for Multi-Stream Action Recognition",
+          "link": "https://doi.org/10.3390/s19061382"
+        },
+        "c": "",
+        "n": "Multi-stream I3D ",
+        "d": "2019-03-20",
+        "m1": "97.2"
+      },
+      {
+        "p": {
+          "name": "CA^2ST: Cross-Attention in Audio, Space, and Time for Holistic Video Recognition",
+          "link": "https://arxiv.org/abs/2503.23447v1"
+        },
+        "c": "",
+        "n": "CA2ST(B/16)",
+        "d": "2025-03-30",
+        "m1": "97.2"
+      },
+      {
+        "p": {
+          "name": "Hidden Two-Stream Convolutional Networks for Action Recognition",
+          "link": "http://arxiv.org/abs/1704.00389v4"
+        },
+        "c": "https://github.com/bryanyzhu/two-stream-pytorch",
+        "n": "Hidden Two-Stream",
+        "d": "2017-04-02",
+        "m1": "97.1"
+      },
+      {
+        "p": {
+          "name": "D3D: Distilled 3D Networks for Video Action Recognition",
+          "link": "http://arxiv.org/abs/1812.08249v2"
+        },
+        "c": "https://github.com/princeton-vl/d3dhelper",
+        "n": "D3D (Kinetics-600 pretraining)",
+        "d": "2018-12-19",
+        "m1": "97.1"
+      },
+      {
+        "p": {
+          "name": "Asymmetric Masked Distillation for Pre-Training Small Foundation Models",
+          "link": "https://arxiv.org/abs/2311.03149v2"
+        },
+        "c": "",
+        "n": "AMD(ViT-B/16)",
+        "d": "2023-11-06",
+        "m1": "97.1"
+      },
+      {
+        "p": {
+          "name": "D3D: Distilled 3D Networks for Video Action Recognition",
+          "link": "http://arxiv.org/abs/1812.08249v2"
+        },
+        "c": "https://github.com/princeton-vl/d3dhelper",
+        "n": "D3D (Kinetics-400 pretraining)",
+        "d": "2018-12-19",
+        "m1": "97"
+      },
+      {
+        "p": {
+          "name": "Learning Spatio-Temporal Representation with Local and Global Diffusion",
+          "link": "https://arxiv.org/abs/1906.05571v1"
+        },
+        "c": "",
+        "n": "LGD-3D RGB",
+        "d": "2019-06-13",
+        "m1": "97"
+      },
+      {
+        "p": {
+          "name": "An Image is Worth 16x16 Words, What is a Video Worth?",
+          "link": "https://arxiv.org/abs/2103.13915v2"
+        },
+        "c": "https://github.com/Alibaba-MIIL/STAM",
+        "n": "STAM-32 (ImageNet/Kinetics pretraining)",
+        "d": "2021-03-25",
+        "m1": "97"
+      },
+      {
+        "p": {
+          "name": "FASTER Recurrent Networks for Efficient Video Classification",
+          "link": "https://arxiv.org/abs/1906.04226v2"
+        },
+        "c": "",
+        "n": "FASTER32",
+        "d": "2019-06-10",
+        "m1": "96.9"
+      },
+      {
+        "p": {
+          "name": "A Closer Look at Spatiotemporal Convolutions for Action Recognition",
+          "link": "http://arxiv.org/abs/1711.11248v3"
+        },
+        "c": "https://github.com/microsoft/computervision-recipes",
+        "n": "R[2+1]D-RGB (Kinetics pretrained)",
+        "d": "2017-11-30",
+        "m1": "96.8"
+      },
+      {
+        "p": {
+          "name": "Rethinking Spatiotemporal Feature Learning: Speed-Accuracy Trade-offs in Video Classification",
+          "link": "http://arxiv.org/abs/1712.04851v2"
+        },
+        "c": "https://github.com/kylemin/S3D",
+        "n": "S3D-G (ImageNet, Kinetics-400 pretrained)",
+        "d": "2017-12-13",
+        "m1": "96.8"
+      },
+      {
+        "p": {
+          "name": "Learning Spatio-Temporal Representation with Local and Global Diffusion",
+          "link": "https://arxiv.org/abs/1906.05571v1"
+        },
+        "c": "",
+        "n": "LGD-3D Flow",
+        "d": "2019-06-13",
+        "m1": "96.8"
+      },
+      {
+        "p": {
+          "name": "Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset",
+          "link": "http://arxiv.org/abs/1705.07750v3"
+        },
+        "c": "https://github.com/open-mmlab/mmaction2",
+        "n": "Flow-I3D (Imagenet+Kinetics pre-training)",
+        "d": "2017-05-22",
+        "m1": "96.7"
+      },
+      {
+        "p": {
+          "name": "VidTr: Video Transformer Without Convolutions",
+          "link": "https://arxiv.org/abs/2104.11746v2"
+        },
+        "c": "",
+        "n": "VidTr-L",
+        "d": "2021-04-23",
+        "m1": "96.7"
+      },
+      {
+        "p": {
+          "name": "Two-Stream Video Classification with Cross-Modality Attention",
+          "link": "https://arxiv.org/abs/1908.00497v1"
+        },
+        "c": "",
+        "n": "CMA iter1-S",
+        "d": "2019-08-01",
+        "m1": "96.5"
+      },
+      {
+        "p": {
+          "name": "Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset",
+          "link": "http://arxiv.org/abs/1705.07750v3"
+        },
+        "c": "https://github.com/open-mmlab/mmaction2",
+        "n": "Flow-I3D (Kinetics pre-training)",
+        "d": "2017-05-22",
+        "m1": "96.5"
+      },
+      {
+        "p": {
+          "name": "DMC-Net: Generating Discriminative Motion Cues for Fast Compressed Video Action Recognition",
+          "link": "https://arxiv.org/abs/1901.03460v3"
+        },
+        "c": "",
+        "n": "I3D RGB + DMC-Net (I3D)",
+        "d": "2019-01-11",
+        "m1": "96.5"
+      },
+      {
+        "p": {
+          "name": "$A^2$-Nets: Double Attention Networks",
+          "link": "http://arxiv.org/abs/1810.11579v1"
+        },
+        "c": "",
+        "n": "A2-Net (ResNet-50)",
+        "d": "2018-10-27",
+        "m1": "96.4"
+      },
+      {
+        "p": {
+          "name": "Multi-Fiber Networks for Video Recognition",
+          "link": "http://arxiv.org/abs/1807.11195v3"
+        },
+        "c": "",
+        "n": "MF-Net, RGB only (ImageNet+Kinetics pretrained)",
+        "d": "2018-07-30",
+        "m1": "96.0"
+      },
+      {
+        "p": {
+          "name": "Optical Flow Guided Feature: A Fast and Robust Motion Representation for Video Action Recognition",
+          "link": "http://arxiv.org/abs/1711.11152v2"
+        },
+        "c": "https://github.com/kevin-ssy/Optical-Flow-Guided-Feature",
+        "n": "Optical Flow Guided Feature",
+        "d": "2017-11-29",
+        "m1": "96"
+      },
+      {
+        "p": {
+          "name": "MARS: Motion-Augmented RGB Stream for Action Recognition",
+          "link": "http://openaccess.thecvf.com/content_CVPR_2019/html/Crasto_MARS_Motion-Augmented_RGB_Stream_for_Action_Recognition_CVPR_2019_paper.html"
+        },
+        "c": "https://github.com/craston/MARS",
+        "n": "MARS+RGB+Flow (16 frames)",
+        "d": "2019-06-01",
+        "m1": "95.8"
+      },
+      {
+        "p": {
+          "name": "Attention Distillation for Learning Video Representations",
+          "link": "https://arxiv.org/abs/1904.03249v2"
+        },
+        "c": "",
+        "n": "Prob-Distill",
+        "d": "2019-04-05",
+        "m1": "95.7"
+      },
+      {
+        "p": {
+          "name": "Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset",
+          "link": "http://arxiv.org/abs/1705.07750v3"
+        },
+        "c": "https://github.com/open-mmlab/mmaction2",
+        "n": "RGB-I3D (Imagenet+Kinetics pre-training)",
+        "d": "2017-05-22",
+        "m1": "95.6"
+      },
+      {
+        "p": {
+          "name": "A Closer Look at Spatiotemporal Convolutions for Action Recognition",
+          "link": "http://arxiv.org/abs/1711.11248v3"
+        },
+        "c": "https://github.com/microsoft/computervision-recipes",
+        "n": "R[2+1]D-Flow (Kinetics pretrained)",
+        "d": "2017-11-30",
+        "m1": "95.5"
+      },
+      {
+        "p": {
+          "name": "End-to-End Learning of Motion Representation for Video Understanding",
+          "link": "http://arxiv.org/abs/1804.00413v1"
+        },
+        "c": "https://github.com/LijieFan/tvnet",
+        "n": "TVNet+IDT",
+        "d": "2018-04-02",
+        "m1": "95.4"
+      },
+      {
+        "p": {
+          "name": "Learning spatio-temporal representations with temporal squeeze pooling",
+          "link": "https://arxiv.org/abs/2002.04685v2"
+        },
+        "c": "",
+        "n": "TesNet (ImageNet pretrained)",
+        "d": "2020-02-11",
+        "m1": "95.2"
+      },
+      {
+        "p": {
+          "name": "I3D-LSTM: A New Model for Human Action Recognition",
+          "link": "https://doi.org/10.1088/1757-899X/569/3/032035"
+        },
+        "c": "https://github.com/Mind23-2/MindCode-101/tree/main/I3D",
+        "n": "I3D-LSTM",
+        "d": "2019-08-09",
+        "m1": "95.1"
+      },
+      {
+        "p": {
+          "name": "Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset",
+          "link": "http://arxiv.org/abs/1705.07750v3"
+        },
+        "c": "https://github.com/open-mmlab/mmaction2",
+        "n": "RGB-I3D (Kinetics pre-training)",
+        "d": "2017-05-22",
+        "m1": "95.1"
+      },
+      {
+        "p": {
+          "name": "A Closer Look at Spatiotemporal Convolutions for Action Recognition",
+          "link": "http://arxiv.org/abs/1711.11248v3"
+        },
+        "c": "https://github.com/microsoft/computervision-recipes",
+        "n": "R[2+1]D-TwoStream (Sports-1M pretrained)",
+        "d": "2017-11-30",
+        "m1": "95"
+      },
+      {
+        "p": {
+          "name": "LIGAR: Lightweight General-purpose Action Recognition",
+          "link": "https://arxiv.org/abs/2108.13153v1"
+        },
+        "c": "https://github.com/openvinotoolkit/training_extensions",
+        "n": "X3D MobileNet-V3 LGD-GC",
+        "d": "2021-08-30",
+        "m1": "94.85"
+      },
+      {
+        "p": {
+          "name": "Spatiotemporal Residual Networks for Video Action Recognition",
+          "link": "http://arxiv.org/abs/1611.02155v1"
+        },
+        "c": "https://github.com/feichtenhofer/st-resnet",
+        "n": "ST-ResNet + IDT",
+        "d": "2016-11-07",
+        "m1": "94.6"
+      },
+      {
+        "p": {
+          "name": "Can Spatiotemporal 3D CNNs Retrace the History of 2D CNNs and ImageNet?",
+          "link": "http://arxiv.org/abs/1711.09577v2"
+        },
+        "c": "https://github.com/kenshohara/3D-ResNets-PyTorch",
+        "n": "ResNeXt-101 (64f)",
+        "d": "2017-11-27",
+        "m1": "94.5"
+      },
+      {
+        "p": {
+          "name": "R-STAN: Residual Spatial-Temporal Attention Network for Action Recognition",
+          "link": "https://doi.org/10.1109/ACCESS.2019.2923651"
+        },
+        "c": "",
+        "n": "R-STAN-101",
+        "d": "2019-06-19",
+        "m1": "94.5"
+      },
+      {
+        "p": {
+          "name": "Temporal-Spatial Mapping for Action Recognition",
+          "link": "http://arxiv.org/abs/1809.03669v1"
+        },
+        "c": "",
+        "n": "TSN+TSM",
+        "d": "2018-09-11",
+        "m1": "94.3"
+      },
+      {
+        "p": {
+          "name": "Appearance-and-Relation Networks for Video Classification",
+          "link": "http://arxiv.org/abs/1711.09125v2"
+        },
+        "c": "https://github.com/wanglimin/ARTNet",
+        "n": "ARTNet w/ TSN",
+        "d": "2017-11-24",
+        "m1": "94.3"
+      },
+      {
+        "p": {
+          "name": "Temporal Segment Networks: Towards Good Practices for Deep Action Recognition",
+          "link": "http://arxiv.org/abs/1608.00859v1"
+        },
+        "c": "https://github.com/open-mmlab/mmaction2",
+        "n": "Temporal Segment Networks",
+        "d": "2016-08-02",
+        "m1": "94.2"
+      },
+      {
+        "p": {
+          "name": "TS-LSTM and Temporal-Inception: Exploiting Spatiotemporal Dynamics for Activity Recognition",
+          "link": "http://arxiv.org/abs/1703.10667v1"
+        },
+        "c": "https://github.com/jeffreyhuang1/two-stream-action-recognition",
+        "n": "TS-LSTM",
+        "d": "2017-03-30",
+        "m1": "94.1"
+      },
+      {
+        "p": {
+          "name": "Self-supervised Video Transformer",
+          "link": "https://arxiv.org/abs/2112.01514v2"
+        },
+        "c": "https://github.com/kahnchana/svt",
+        "n": "SVT",
+        "d": "2021-12-02",
+        "m1": "93.7"
+      },
+      {
+        "p": {
+          "name": "A Closer Look at Spatiotemporal Convolutions for Action Recognition",
+          "link": "http://arxiv.org/abs/1711.11248v3"
+        },
+        "c": "https://github.com/microsoft/computervision-recipes",
+        "n": "R[2+1]D-RGB (Sports-1M pretrained)",
+        "d": "2017-11-30",
+        "m1": "93.6"
+      },
+      {
+        "p": {
+          "name": "Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset",
+          "link": "http://arxiv.org/abs/1705.07750v3"
+        },
+        "c": "https://github.com/open-mmlab/mmaction2",
+        "n": "Two-stream I3D",
+        "d": "2017-05-22",
+        "m1": "93.4"
+      },
+      {
+        "p": {
+          "name": "A Closer Look at Spatiotemporal Convolutions for Action Recognition",
+          "link": "http://arxiv.org/abs/1711.11248v3"
+        },
+        "c": "https://github.com/microsoft/computervision-recipes",
+        "n": "R[2+1]D-Flow (Sports-1M pretrained)",
+        "d": "2017-11-30",
+        "m1": "93.3"
+      },
+      {
+        "p": {
+          "name": "VIMPAC: Video Pre-Training via Masked Token Prediction and Contrastive Learning",
+          "link": "https://arxiv.org/abs/2106.11250v1"
+        },
+        "c": "https://github.com/airsplay/vimpac",
+        "n": "VIMPAC",
+        "d": "2021-06-21",
+        "m1": "92.7"
+      },
+      {
+        "p": {
+          "name": "Convolutional Two-Stream Network Fusion for Video Action Recognition",
+          "link": "http://arxiv.org/abs/1604.06573v2"
+        },
+        "c": "https://github.com/feichtenhofer/twostreamfusion",
+        "n": "S:VGG-16, T:VGG-16 (ImageNet pretrain)",
+        "d": "2016-04-22",
+        "m1": "92.5"
+      },
+      {
+        "p": {
+          "name": "DMC-Net: Generating Discriminative Motion Cues for Fast Compressed Video Action Recognition",
+          "link": "https://arxiv.org/abs/1901.03460v3"
+        },
+        "c": "",
+        "n": "DMC-Net (I3D)",
+        "d": "2019-01-11",
+        "m1": "92.3"
+      },
+      {
+        "p": {
+          "name": "Dance with Flow: Two-in-One Stream Action Detection",
+          "link": "https://arxiv.org/abs/1904.00696v3"
+        },
+        "c": "https://github.com/jiaozizhao/Two-in-One-ActionDetection",
+        "n": "two-in-one two stream",
+        "d": "2019-04-01",
+        "m1": "92"
+      },
+      {
+        "p": {
+          "name": "Long-term Temporal Convolutions for Action Recognition",
+          "link": "http://arxiv.org/abs/1604.04494v2"
+        },
+        "c": "https://github.com/gulvarol/ltc",
+        "n": "LTC",
+        "d": "2016-04-15",
+        "m1": "91.7"
+      },
+      {
+        "p": {
+          "name": "R-STAN: Residual Spatial-Temporal Attention Network for Action Recognition",
+          "link": "https://doi.org/10.1109/ACCESS.2019.2923651"
+        },
+        "c": "",
+        "n": "R-STAN-50",
+        "d": "2019-06-19",
+        "m1": "91.5"
+      },
+      {
+        "p": {
+          "name": "Action Recognition with Trajectory-Pooled Deep-Convolutional Descriptors",
+          "link": "http://arxiv.org/abs/1505.04868v1"
+        },
+        "c": "https://github.com/damien911224/theWorldInSafety",
+        "n": "TDD + IDT",
+        "d": "2015-05-19",
+        "m1": "91.5"
+      },
+      {
+        "p": {
+          "name": "Towards Good Practices for Very Deep Two-Stream ConvNets",
+          "link": "http://arxiv.org/abs/1507.02159v1"
+        },
+        "c": "https://github.com/bryanyzhu/two-stream-pytorch",
+        "n": "Very deep two-stream ConvNet",
+        "d": "2015-07-08",
+        "m1": "91.4"
+      },
+      {
+        "p": {
+          "name": "Efficient Action Recognition Using Confidence Distillation",
+          "link": "https://arxiv.org/abs/2109.02137v2"
+        },
+        "c": "",
+        "n": "3D ResNeXt-101 + Confidence Distillation",
+        "d": "2021-09-05",
+        "m1": "91.2"
+      },
+      {
+        "p": {
+          "name": "Multi-region two-stream R-CNN for action detection",
+          "link": "https://doi.org/10.1007/978-3-319-46493-0_45"
+        },
+        "c": "",
+        "n": "MR Two-Sream R-CNN",
+        "d": "2016-09-17",
+        "m1": "91.1"
+      },
+      {
+        "p": {
+          "name": "Dynamic Image Networks for Action Recognition",
+          "link": "http://openaccess.thecvf.com/content_cvpr_2016/html/Bilen_Dynamic_Image_Networks_CVPR_2016_paper.html"
+        },
+        "c": "https://github.com/hbilen/dynamic-image-nets",
+        "n": "Dynamic Image Networks + IDT",
+        "d": "2016-06-01",
+        "m1": "89.1"
+      },
+      {
+        "p": {
+          "name": "Beyond Short Snippets: Deep Networks for Video Classification",
+          "link": "http://arxiv.org/abs/1503.08909v2"
+        },
+        "c": "https://github.com/shobrook/sequitur",
+        "n": "Two-stream+LSTM",
+        "d": "2015-03-31",
+        "m1": "88.6"
+      },
+      {
+        "p": {
+          "name": "Learning Spatio-Temporal Representation with Pseudo-3D Residual Networks",
+          "link": "http://arxiv.org/abs/1711.10305v1"
+        },
+        "c": "https://github.com/qijiezhao/pseudo-3d-pytorch",
+        "n": "P3D (ImageNet + Sports1M)",
+        "d": "2017-11-28",
+        "m1": "88.6"
+      },
+      {
+        "p": {
+          "name": "Two-Stream Convolutional Networks for Action Recognition in Videos",
+          "link": "http://arxiv.org/abs/1406.2199v2"
+        },
+        "c": "https://github.com/feichtenhofer/twostreamfusion",
+        "n": "Two-Stream (ImageNet pretrained)",
+        "d": "2014-06-09",
+        "m1": "88.0"
+      },
+      {
+        "p": {
+          "name": "Real-time Action Recognition with Enhanced Motion Vector CNNs",
+          "link": "http://arxiv.org/abs/1604.07669v1"
+        },
+        "c": "https://github.com/yjxiong/caffe",
+        "n": "MV-CNN",
+        "d": "2016-04-26",
+        "m1": "86.4"
+      },
+      {
+        "p": {
+          "name": "Video Action Recognition Collaborative Learning with Dynamics via PSO-ConvNet Transformer",
+          "link": "https://arxiv.org/abs/2302.09187v3"
+        },
+        "c": "https://github.com/leonlha/video-action-recognition-collaborative-learning-with-dynamics-via-pso-convnet-transformer",
+        "n": "Dynamics 2 for DenseNet-201 Transformer",
+        "d": "2023-02-17",
+        "m1": "86.1"
+      },
+      {
+        "p": {
+          "name": "DistInit: Learning Video Representations Without a Single Labeled Video",
+          "link": "https://arxiv.org/abs/1901.09244v2"
+        },
+        "c": "",
+        "n": "R(2+1)D-18 (DistInit pretraining)",
+        "d": "2019-01-26",
+        "m1": "85.8"
+      },
+      {
+        "p": {
+          "name": "ConvNet Architecture Search for Spatiotemporal Feature Learning",
+          "link": "http://arxiv.org/abs/1708.05038v1"
+        },
+        "c": "https://github.com/farazahmeds/Classification-of-brain-tumor-using-Spatiotemporal-models",
+        "n": "Res3D",
+        "d": "2017-08-16",
+        "m1": "85.8"
+      },
+      {
+        "p": {
+          "name": "ActionFlowNet: Learning Motion Representation for Action Recognition",
+          "link": "http://arxiv.org/abs/1612.03052v3"
+        },
+        "c": "",
+        "n": "ActionFlowNet",
+        "d": "2016-12-09",
+        "m1": "83.9"
+      },
+      {
+        "p": {
+          "name": "Learning Spatiotemporal Features with 3D Convolutional Networks",
+          "link": "http://arxiv.org/abs/1412.0767v4"
+        },
+        "c": "https://github.com/open-mmlab/mmaction2",
+        "n": "C3D",
+        "d": "2014-12-02",
+        "m1": "82.3"
+      },
+      {
+        "p": {
+          "name": "HalluciNet-ing Spatiotemporal Representations Using a 2D-CNN",
+          "link": "https://arxiv.org/abs/1912.04430v3"
+        },
+        "c": "https://github.com/ParitoshParmar/HalluciNet",
+        "n": "HalluciNet (ResNet-50)",
+        "d": "2019-12-10",
+        "m1": "79.83"
+      },
+      {
+        "p": {
+          "name": "VideoMoCo: Contrastive Video Representation Learning with Temporally Adversarial Examples",
+          "link": "https://arxiv.org/abs/2103.05905v2"
+        },
+        "c": "https://github.com/tinapan-pt/VideoMoCo",
+        "n": "R[2+1]D (VideoMoCo)",
+        "d": "2021-03-10",
+        "m1": "78.7"
+      },
+      {
+        "p": {
+          "name": "VideoMoCo: Contrastive Video Representation Learning with Temporally Adversarial Examples",
+          "link": "https://arxiv.org/abs/2103.05905v2"
+        },
+        "c": "https://github.com/tinapan-pt/VideoMoCo",
+        "n": "3D-ResNet-18 (VideoMoCo)",
+        "d": "2021-03-10",
+        "m1": "74.1"
+      },
+      {
+        "p": {
+          "name": "Large-Scale Video Classification with Convolutional Neural Networks",
+          "link": "https://doi.org/10.1109/CVPR.2014.223"
+        },
+        "c": "https://github.com/lRomul/ball-action-spotting",
+        "n": "Slow Fusion + Finetune top 3 layers",
+        "d": "2014-06-23",
+        "m1": "65.4"
+      },
+      {
+        "p": {
+          "name": "MLGCN: Multi-Laplacian Graph Convolutional Networks for Human Action Recognition",
+          "link": "https://bmvc2019.org/wp-content/uploads/papers/1103-paper.pdf"
+        },
+        "c": "",
+        "n": "MLGCN",
+        "d": "2019-09-11",
+        "m1": "63.27"
+      },
+      {
+        "p": {
+          "name": "Towards Universal Representation for Unseen Action Recognition",
+          "link": "http://arxiv.org/abs/1803.08460v1"
+        },
+        "c": "",
+        "n": "CD-UAR",
+        "d": "2018-03-22",
+        "m1": "42.5"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "SL",
+        "d": null,
+        "m1": "35.2"
+      },
+      {
+        "p": {
+          "name": "PoTion: Pose MoTion Representation for Action Recognition",
+          "link": "http://openaccess.thecvf.com/content_cvpr_2018/html/Choutas_PoTion_Pose_MoTion_CVPR_2018_paper.html"
+        },
+        "c": "",
+        "n": "I3D + PoTion",
+        "d": "2018-06-01",
+        "m1": "29.3"
+      },
+      {
+        "p": {
+          "name": "Federated Self-supervised Learning for Video Understanding",
+          "link": "https://arxiv.org/abs/2207.01975v2"
+        },
+        "c": "https://github.com/adap/flower",
+        "n": "R3D-18",
+        "d": "2022-07-05",
+        "m2": "73.16"
+      },
+      {
+        "p": {
+          "name": "Adaptive frame selection in two dimensional convolutional neural network action recognition",
+          "link": "https://ieeexplore.ieee.org/document/10044032"
+        },
+        "c": "https://github.com/Alirezarahnamaa/Adaptive-Frame-Selection-Algorithm",
+        "n": "ResNet50",
+        "d": "2022-12-28",
+        "m3": "98.05"
+      }
+    ]
+  }
+}

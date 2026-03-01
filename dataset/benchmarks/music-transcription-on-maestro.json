@@ -1,0 +1,127 @@
+{
+  "title": "music-transcription-on-maestro",
+  "task-hierarchy": [
+    "Music Transcription"
+  ],
+  "dataset-info": {
+    "link": "https://magenta.tensorflow.org/datasets/maestro"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Onset F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Scoring Time Intervals using Non-Hierarchical Transformer For Automatic Piano Transcription",
+          "link": "https://arxiv.org/abs/2404.09466v6"
+        },
+        "c": "https://github.com/yujia-yan/transkun",
+        "n": "Transkun V2 (SemiCRF)",
+        "d": "2024-04-15",
+        "m1": "98.32"
+      },
+      {
+        "p": {
+          "name": "Automatic Piano Transcription with Hierarchical Frequency-Time Transformer",
+          "link": "https://arxiv.org/abs/2307.04305v1"
+        },
+        "c": "https://github.com/sony/hft-transformer",
+        "n": "hFT-Transformer",
+        "d": "2023-07-10",
+        "m1": "97.44"
+      },
+      {
+        "p": {
+          "name": "Polyphonic Piano Music Transcription System Exploiting Mutual Correlations of Different Musical Note States",
+          "link": "https://ieeexplore.ieee.org/abstract/document/10589408"
+        },
+        "c": "",
+        "n": "Kim et al.",
+        "d": "2024-07-08",
+        "m1": "97.23"
+      },
+      {
+        "p": {
+          "name": "YourMT3+: Multi-instrument Music Transcription with Enhanced Transformer Architectures and Cross-dataset Stem Augmentation",
+          "link": "https://arxiv.org/abs/2407.04822v3"
+        },
+        "c": "https://github.com/mimbres/yourmt3",
+        "n": "YourMT3+ (YPTF.MoE+M) noPS",
+        "d": "2024-07-05",
+        "m1": "96.98"
+      },
+      {
+        "p": {
+          "name": "High-resolution Piano Transcription with Pedals by Regressing Onset and Offset Times",
+          "link": "https://arxiv.org/abs/2010.01815v3"
+        },
+        "c": "https://github.com/bytedance/piano_transcription",
+        "n": "Kong et al.",
+        "d": "2020-10-05",
+        "m1": "96.72"
+      },
+      {
+        "p": {
+          "name": "YourMT3+: Multi-instrument Music Transcription with Enhanced Transformer Architectures and Cross-dataset Stem Augmentation",
+          "link": "https://arxiv.org/abs/2407.04822v3"
+        },
+        "c": "https://github.com/mimbres/yourmt3",
+        "n": "YourMT3+ (YPTF.MoE+M)",
+        "d": "2024-07-05",
+        "m1": "96.52"
+      },
+      {
+        "p": {
+          "name": "Skipping the Frame-Level: Event-Based Piano Transcription With Neural Semi-CRFs",
+          "link": "http://proceedings.neurips.cc/paper/2021/hash/ac53fab47b547a0d47b77e424cf119ba-Abstract.html"
+        },
+        "c": "https://github.com/yujia-yan/skipping-the-frame-level",
+        "n": "Semi-CRF",
+        "d": "2021-12-01",
+        "m1": "96.11"
+      },
+      {
+        "p": {
+          "name": "MT3: Multi-Task Multitrack Music Transcription",
+          "link": "https://arxiv.org/abs/2111.03017v4"
+        },
+        "c": "https://github.com/magenta/mt3",
+        "n": "MT3 (single dataset)",
+        "d": "2021-11-04",
+        "m1": "88.0"
+      },
+      {
+        "p": {
+          "name": "MT3: Multi-Task Multitrack Music Transcription",
+          "link": "https://arxiv.org/abs/2111.03017v4"
+        },
+        "c": "https://github.com/magenta/mt3",
+        "n": "MT3 (multi dataset)",
+        "d": "2021-11-04",
+        "m1": "86.0"
+      }
+    ]
+  }
+}

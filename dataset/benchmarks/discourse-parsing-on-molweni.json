@@ -1,0 +1,116 @@
+{
+  "title": "discourse-parsing-on-molweni",
+  "task-hierarchy": [
+    "Discourse Parsing"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/HIT-SCIR/Molweni"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Link & Rel F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Link F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Multi-tasking Dialogue Comprehension with Discourse Parsing",
+          "link": "https://arxiv.org/abs/2110.03269v1"
+        },
+        "c": "https://github.com/21644h/DP_QA_joint_model",
+        "n": "DP",
+        "d": "2021-10-07",
+        "m1": "64.9",
+        "m2": "86.6"
+      },
+      {
+        "p": {
+          "name": "Structured Dialogue Discourse Parsing",
+          "link": "https://arxiv.org/abs/2306.15103v1"
+        },
+        "c": "https://github.com/chijames/structured_dialogue_discourse_parsing",
+        "n": "Structured",
+        "d": "2023-06-26",
+        "m1": "59.9",
+        "m2": "83.5"
+      },
+      {
+        "p": {
+          "name": "Speaker-Aware Discourse Parsing on Multi-Party Dialogues",
+          "link": "https://aclanthology.org/2022.coling-1.477"
+        },
+        "c": "https://github.com/yunan4nlp/sa-dpmd",
+        "n": "SSP-BERT + SCIJE",
+        "d": null,
+        "m1": "59.4",
+        "m2": "83.7"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "HG-MDP",
+        "d": null,
+        "m1": "58.5",
+        "m2": "81.5"
+      },
+      {
+        "p": {
+          "name": "A Structure Self-Aware Model for Discourse Parsing on Multi-Party Dialogues",
+          "link": "https://www.ijcai.org/proceedings/2021/543"
+        },
+        "c": "https://github.com/DeepLearnXMU/Structure-Self-Aware",
+        "n": "Struct-Aware",
+        "d": "2021-08-01",
+        "m1": "58.4",
+        "m2": "81.6"
+      },
+      {
+        "p": {
+          "name": "Improving Multi-Party Dialogue Discourse Parsing via Domain Integration",
+          "link": "https://arxiv.org/abs/2110.04526v1"
+        },
+        "c": "https://github.com/seq-to-mind/DDP_parsing",
+        "n": "Hierarchical",
+        "d": "2021-10-09",
+        "m1": "56.1",
+        "m2": "80.1"
+      },
+      {
+        "p": {
+          "name": "Molweni: A Challenge Multiparty Dialogues-based Machine Reading Comprehension Dataset with Discourse Structure",
+          "link": "https://arxiv.org/abs/2004.05080v3"
+        },
+        "c": "https://github.com/HIT-SCIR/Molweni",
+        "n": "Deep Sequential",
+        "d": "2020-04-10",
+        "m1": "54.8",
+        "m2": "78.1"
+      }
+    ]
+  }
+}

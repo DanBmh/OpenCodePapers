@@ -1,0 +1,271 @@
+{
+  "title": "link-prediction-on-pcqm-contact",
+  "task-hierarchy": [
+    "Link Prediction"
+  ],
+  "dataset-info": {
+    "link": "http://github.com/vijaydwivedi75/lrgb"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Hits@1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Hits@3",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Hits@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "MRR",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "MRR-ext-filtered",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Learning Probabilistic Symmetrization for Architecture Agnostic Equivariance",
+          "link": "https://arxiv.org/abs/2306.02866v3"
+        },
+        "c": "https://github.com/jw9730/lps",
+        "n": "ViT-PS",
+        "d": "2023-06-05",
+        "m1": "0.3287",
+        "m2": "0.6694",
+        "m3": "0.9526",
+        "m4": "0.5341"
+      },
+      {
+        "p": {
+          "name": "Diffusing Graph Attention",
+          "link": "https://arxiv.org/abs/2303.00613v1"
+        },
+        "c": "",
+        "n": "Graph Diffuser",
+        "d": "2023-03-01",
+        "m1": "0.1369±0.0012",
+        "m2": "0.4053±0.0011",
+        "m3": "0.8592±0.0007",
+        "m4": "0.3388±0.0011"
+      },
+      {
+        "p": {
+          "name": "Long Range Graph Benchmark",
+          "link": "https://arxiv.org/abs/2206.08164v4"
+        },
+        "c": "https://github.com/vijaydwivedi75/lrgb",
+        "n": "SAN+LapPE",
+        "d": "2022-06-16",
+        "m1": "0.1355±0.0017",
+        "m2": "0.4004±0.0021",
+        "m3": "0.8478±0.0044",
+        "m4": "0.3350±0.0003"
+      },
+      {
+        "p": {
+          "name": "Long Range Graph Benchmark",
+          "link": "https://arxiv.org/abs/2206.08164v4"
+        },
+        "c": "https://github.com/vijaydwivedi75/lrgb",
+        "n": "GINE",
+        "d": "2022-06-16",
+        "m1": "0.1337±0.0013",
+        "m2": "0.3642±0.0043",
+        "m3": "0.8147±0.0062",
+        "m4": "0.3180±0.0027"
+      },
+      {
+        "p": {
+          "name": "Simple and Deep Graph Convolutional Networks",
+          "link": "https://arxiv.org/abs/2007.02133v1"
+        },
+        "c": "https://github.com/chennnM/GCNII/tree/master/PyG/ogbn-arxiv",
+        "n": "GCNII",
+        "d": "2020-07-04",
+        "m1": "0.1325±0.0009",
+        "m2": "0.3607±0.0003",
+        "m3": "0.8116±0.0009",
+        "m4": "0.3161±0.0004"
+      },
+      {
+        "p": {
+          "name": "Long Range Graph Benchmark",
+          "link": "https://arxiv.org/abs/2206.08164v4"
+        },
+        "c": "https://github.com/vijaydwivedi75/lrgb",
+        "n": "GCN",
+        "d": "2022-06-16",
+        "m1": "0.1321±0.0007",
+        "m2": "0.3791±0.0004",
+        "m3": "0.8256±0.0006",
+        "m4": "0.3234±0.0006"
+      },
+      {
+        "p": {
+          "name": "Long Range Graph Benchmark",
+          "link": "https://arxiv.org/abs/2206.08164v4"
+        },
+        "c": "https://github.com/vijaydwivedi75/lrgb",
+        "n": "SAN+RWSE",
+        "d": "2022-06-16",
+        "m1": "0.1312±0.0016",
+        "m2": "0.4030±0.0008",
+        "m3": "0.8550±0.0024",
+        "m4": "0.3341±0.0006"
+      },
+      {
+        "p": {
+          "name": "Long Range Graph Benchmark",
+          "link": "https://arxiv.org/abs/2206.08164v4"
+        },
+        "c": "https://github.com/vijaydwivedi75/lrgb",
+        "n": "GatedGCN+RWSE",
+        "d": "2022-06-16",
+        "m1": "0.1288±0.0013",
+        "m2": "0.3808±0.0006",
+        "m3": "0.8517±0.0005",
+        "m4": "0.3242±0.0008"
+      },
+      {
+        "p": {
+          "name": "Long Range Graph Benchmark",
+          "link": "https://arxiv.org/abs/2206.08164v4"
+        },
+        "c": "https://github.com/vijaydwivedi75/lrgb",
+        "n": "GatedGCN",
+        "d": "2022-06-16",
+        "m1": "0.1279±0.0018",
+        "m2": "0.3783±0.0004",
+        "m3": "0.8433±0.0011",
+        "m4": "0.3218±0.0011"
+      },
+      {
+        "p": {
+          "name": "Long Range Graph Benchmark",
+          "link": "https://arxiv.org/abs/2206.08164v4"
+        },
+        "c": "https://github.com/vijaydwivedi75/lrgb",
+        "n": "Transformer+LapPE",
+        "d": "2022-06-16",
+        "m1": "0.1221±0.0011",
+        "m2": "0.3679±0.0033",
+        "m3": "0.8517±0.0039",
+        "m4": "0.3174±0.0020"
+      },
+      {
+        "p": {
+          "name": "Exphormer: Sparse Transformers for Graphs",
+          "link": "https://arxiv.org/abs/2303.06147v2"
+        },
+        "c": "https://github.com/hamed1375/exphormer",
+        "n": "Exphormer",
+        "d": "2023-03-10",
+        "m4": "0.3637±0.0020"
+      },
+      {
+        "p": {
+          "name": "Where Did the Gap Go? Reassessing the Long-Range Graph Benchmark",
+          "link": "https://arxiv.org/abs/2309.00367v2"
+        },
+        "c": "https://github.com/toenshoff/lrgb",
+        "n": "GINE-tuned",
+        "d": "2023-09-01",
+        "m4": "0.3509±0.0006",
+        "m5": "0.4617±0.0005"
+      },
+      {
+        "p": {
+          "name": "Where Did the Gap Go? Reassessing the Long-Range Graph Benchmark",
+          "link": "https://arxiv.org/abs/2309.00367v2"
+        },
+        "c": "https://github.com/toenshoff/lrgb",
+        "n": "GPS-tuned",
+        "d": "2023-09-01",
+        "m4": "0.3498±0.0005",
+        "m5": "0.4703±0.0014"
+      },
+      {
+        "p": {
+          "name": "Where Did the Gap Go? Reassessing the Long-Range Graph Benchmark",
+          "link": "https://arxiv.org/abs/2309.00367v2"
+        },
+        "c": "https://github.com/toenshoff/lrgb",
+        "n": "GatedGCN-tuned",
+        "d": "2023-09-01",
+        "m4": "0.3495±0.0010",
+        "m5": "0.4670±0.0004"
+      },
+      {
+        "p": {
+          "name": "DRew: Dynamically Rewired Message Passing with Delay",
+          "link": "https://arxiv.org/abs/2305.08018v2"
+        },
+        "c": "https://github.com/bengutteridge/drew",
+        "n": "DRew-GCN",
+        "d": "2023-05-13",
+        "m4": "0.3444±0.0017"
+      },
+      {
+        "p": {
+          "name": "Where Did the Gap Go? Reassessing the Long-Range Graph Benchmark",
+          "link": "https://arxiv.org/abs/2309.00367v2"
+        },
+        "c": "https://github.com/toenshoff/lrgb",
+        "n": "GCN-tuned",
+        "d": "2023-09-01",
+        "m4": "0.3424±0.0007",
+        "m5": "0.4526±0.0006"
+      },
+      {
+        "p": {
+          "name": "Recipe for a General, Powerful, Scalable Graph Transformer",
+          "link": "https://arxiv.org/abs/2205.12454v4"
+        },
+        "c": "https://github.com/rampasek/GraphGPS",
+        "n": "GPS",
+        "d": "2022-05-25",
+        "m4": "0.3337±0.0006"
+      },
+      {
+        "p": {
+          "name": "Learning Long Range Dependencies on Graphs via Random Walks",
+          "link": "https://arxiv.org/abs/2406.03386v2"
+        },
+        "c": "https://github.com/borgwardtlab/neuralwalker",
+        "n": "NeuralWalker",
+        "d": "2024-06-05",
+        "m5": "0.4707 ± 0.0007"
+      }
+    ]
+  }
+}

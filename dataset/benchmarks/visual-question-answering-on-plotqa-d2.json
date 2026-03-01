@@ -1,0 +1,77 @@
+{
+  "title": "visual-question-answering-on-plotqa-d2",
+  "task-hierarchy": [
+    "Visual Question Answering (VQA)"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/NiteshMethani/PlotQA"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "1:1 Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Synthesize Step-by-Step: Tools Templates and LLMs as Data Generators for Reasoning-Based Chart VQA",
+          "link": "http://openaccess.thecvf.com//content/CVPR2024/html/Li_Synthesize_Step-by-Step_Tools_Templates_and_LLMs_as_Data_Generators_for_CVPR_2024_paper.html"
+        },
+        "c": "",
+        "n": "MatCha4096 + LaMenDa",
+        "d": "2024-01-01",
+        "m1": "91.84"
+      },
+      {
+        "p": {
+          "name": "Classification-Regression for Chart Comprehension",
+          "link": "https://arxiv.org/abs/2111.14792v2"
+        },
+        "c": "https://github.com/levymsn/cqa-crct",
+        "n": "CRCT",
+        "d": "2021-11-29",
+        "m1": "34.44"
+      },
+      {
+        "p": {
+          "name": "PlotQA: Reasoning over Scientific Plots",
+          "link": "https://arxiv.org/abs/1909.00997v3"
+        },
+        "c": "",
+        "n": "PlotQA",
+        "d": "2019-09-03",
+        "m1": "22.52"
+      },
+      {
+        "p": {
+          "name": "Answering Questions about Data Visualizations using Efficient Bimodal Fusion",
+          "link": "https://arxiv.org/abs/1908.01801v2"
+        },
+        "c": "https://github.com/kushalkafle/PREFIL",
+        "n": "PReFIL",
+        "d": "2019-08-05",
+        "m1": "10.37"
+      }
+    ]
+  }
+}

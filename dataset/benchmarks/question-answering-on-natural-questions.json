@@ -1,0 +1,504 @@
+{
+  "title": "question-answering-on-natural-questions",
+  "task-hierarchy": [
+    "Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://ai.google.com/research/NaturalQuestions"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "EM",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Atlas: Few-shot Learning with Retrieval Augmented Language Models",
+          "link": "https://arxiv.org/abs/2208.03299v3"
+        },
+        "c": "https://github.com/facebookresearch/atlas",
+        "n": "Atlas (full, Wiki-dec-2018 index)",
+        "d": "2022-08-05",
+        "m1": "64.0"
+      },
+      {
+        "p": {
+          "name": "Atlas: Few-shot Learning with Retrieval Augmented Language Models",
+          "link": "https://arxiv.org/abs/2208.03299v3"
+        },
+        "c": "https://github.com/facebookresearch/atlas",
+        "n": "Atlas (full, Wiki-dec-2021+CC index)",
+        "d": "2022-08-05",
+        "m1": "60.4"
+      },
+      {
+        "p": {
+          "name": "Understand What LLM Needs: Dual Preference Alignment for Retrieval-Augmented Generation",
+          "link": "https://arxiv.org/abs/2406.18676v2"
+        },
+        "c": "https://github.com/dongguanting/dpa-rag",
+        "n": "DPA-RAG",
+        "d": "2024-06-26",
+        "m1": "59.19"
+      },
+      {
+        "p": {
+          "name": "FiE: Building a Global Probability Space by Leveraging Early Fusion in Encoder for Open-Domain Question Answering",
+          "link": "https://arxiv.org/abs/2211.10147v1"
+        },
+        "c": "",
+        "n": "FiE",
+        "d": "2022-11-18",
+        "m1": "58.4"
+      },
+      {
+        "p": {
+          "name": "R2-D2: A Modular Baseline for Open-Domain Question Answering",
+          "link": "https://arxiv.org/abs/2109.03502v1"
+        },
+        "c": "https://github.com/KNOT-FIT-BUT/R2-D2",
+        "n": "R2-D2 (full)",
+        "d": "2021-09-08",
+        "m1": "55.9"
+      },
+      {
+        "p": {
+          "name": "Retrieval as Attention: End-to-end Learning of Retrieval and Reading within a Single Transformer",
+          "link": "https://arxiv.org/abs/2212.02027v1"
+        },
+        "c": "https://github.com/jzbjyb/reatt",
+        "n": "ReAtt",
+        "d": "2022-12-05",
+        "m1": "54.7"
+      },
+      {
+        "p": {
+          "name": "Leveraging Passage Retrieval with Generative Models for Open Domain Question Answering",
+          "link": "https://arxiv.org/abs/2007.01282v2"
+        },
+        "c": "https://github.com/jhyuklee/DensePhrases",
+        "n": "FiD-KD (full)",
+        "d": "2020-07-02",
+        "m1": "54.7"
+      },
+      {
+        "p": {
+          "name": "RankRAG: Unifying Context Ranking with Retrieval-Augmented Generation in LLMs",
+          "link": "https://arxiv.org/abs/2407.02485v1"
+        },
+        "c": "",
+        "n": "RankRAG-llama3-70b (Zero-Shot, KILT)",
+        "d": "2024-07-02",
+        "m1": "54.2"
+      },
+      {
+        "p": {
+          "name": "End-to-End Training of Multi-Document Reader and Retriever for Open-Domain Question Answering",
+          "link": "https://arxiv.org/abs/2106.05346v2"
+        },
+        "c": "https://github.com/DevSinghSachan/emdr2",
+        "n": "EMDR^2",
+        "d": "2021-06-09",
+        "m1": "52.5"
+      },
+      {
+        "p": {
+          "name": "Leveraging Passage Retrieval with Generative Models for Open Domain Question Answering",
+          "link": "https://arxiv.org/abs/2007.01282v2"
+        },
+        "c": "https://github.com/jhyuklee/DensePhrases",
+        "n": "FID (full)",
+        "d": "2020-07-02",
+        "m1": "51.4"
+      },
+      {
+        "p": {
+          "name": "RankRAG: Unifying Context Ranking with Retrieval-Augmented Generation in LLMs",
+          "link": "https://arxiv.org/abs/2407.02485v1"
+        },
+        "c": "",
+        "n": "RankRAG-llama3-8b (Zero-Shot, KILT)",
+        "d": "2024-07-02",
+        "m1": "50.6"
+      },
+      {
+        "p": {
+          "name": "RankRAG: Unifying Context Ranking with Retrieval-Augmented Generation in LLMs",
+          "link": "https://arxiv.org/abs/2407.02485v1"
+        },
+        "c": "",
+        "n": "RankRAG-llama3-70b (Zero-Shot, DPR)",
+        "d": "2024-07-02",
+        "m1": "50.0"
+      },
+      {
+        "p": {
+          "name": "ChatQA: Surpassing GPT-4 on Conversational QA and RAG",
+          "link": "https://arxiv.org/abs/2401.10225v5"
+        },
+        "c": "",
+        "n": "ChatQA-1.5-llama3-70b (Zero-Shot, KILT)",
+        "d": "2024-01-18",
+        "m1": "47.0"
+      },
+      {
+        "p": {
+          "name": "RankRAG: Unifying Context Ranking with Retrieval-Augmented Generation in LLMs",
+          "link": "https://arxiv.org/abs/2407.02485v1"
+        },
+        "c": "",
+        "n": "RankRAG-llama3-8b (Zero-Shot, DPR)",
+        "d": "2024-07-02",
+        "m1": "46.1"
+      },
+      {
+        "p": {
+          "name": "Improving language models by retrieving from trillions of tokens",
+          "link": "https://arxiv.org/abs/2112.04426v3"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+        "n": "RETRO + DPR (full)",
+        "d": "2021-12-08",
+        "m1": "45.5"
+      },
+      {
+        "p": {
+          "name": "REPLUG: Retrieval-Augmented Black-Box Language Models",
+          "link": "https://arxiv.org/abs/2301.12652v4"
+        },
+        "c": "https://github.com/ruc-nlpir/flashrag",
+        "n": "code-davinci-002 175B + REPLUG LSR (few-shot)",
+        "d": "2023-01-30",
+        "m1": "45.5"
+      },
+      {
+        "p": {
+          "name": "Atlas: Few-shot Learning with Retrieval Augmented Language Models",
+          "link": "https://arxiv.org/abs/2208.03299v3"
+        },
+        "c": "https://github.com/facebookresearch/atlas",
+        "n": "Atlas (few-shot, k=64, Wiki-Dec-2018 index)",
+        "d": "2022-08-05",
+        "m1": "45.1"
+      },
+      {
+        "p": {
+          "name": "REPLUG: Retrieval-Augmented Black-Box Language Models",
+          "link": "https://arxiv.org/abs/2301.12652v4"
+        },
+        "c": "https://github.com/ruc-nlpir/flashrag",
+        "n": "code-davinci-002 175B + REPLUG (few-shot)",
+        "d": "2023-01-30",
+        "m1": "44.7"
+      },
+      {
+        "p": {
+          "name": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+          "link": "https://arxiv.org/abs/2005.11401v4"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "RAG",
+        "d": "2020-05-22",
+        "m1": "44.5"
+      },
+      {
+        "p": {
+          "name": "ChatQA: Surpassing GPT-4 on Conversational QA and RAG",
+          "link": "https://arxiv.org/abs/2401.10225v5"
+        },
+        "c": "",
+        "n": "ChatQA-1.5-llama3-8b (Zero-Shot, KILT)",
+        "d": "2024-01-18",
+        "m1": "42.7"
+      },
+      {
+        "p": {
+          "name": "Blended RAG: Improving RAG (Retriever-Augmented Generation) Accuracy with Semantic Search and Hybrid Query-Based Retrievers",
+          "link": "https://arxiv.org/abs/2404.07220v2"
+        },
+        "c": "https://github.com/ibm-ecosystem-engineering/blended-rag",
+        "n": "Blended RAG",
+        "d": "2024-03-22",
+        "m1": "42.63"
+      },
+      {
+        "p": {
+          "name": "Atlas: Few-shot Learning with Retrieval Augmented Language Models",
+          "link": "https://arxiv.org/abs/2208.03299v3"
+        },
+        "c": "https://github.com/facebookresearch/atlas",
+        "n": "Atlas (few-shot, k=64, Wiki-dec-2021+CC index)",
+        "d": "2022-08-05",
+        "m1": "42.4"
+      },
+      {
+        "p": {
+          "name": "Dense Passage Retrieval for Open-Domain Question Answering",
+          "link": "https://arxiv.org/abs/2004.04906v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "DPR",
+        "d": "2020-04-10",
+        "m1": "41.5"
+      },
+      {
+        "p": {
+          "name": "REALM: Retrieval-Augmented Language Model Pre-Training",
+          "link": "https://arxiv.org/abs/2002.08909v1"
+        },
+        "c": "https://github.com/deepset-ai/haystack",
+        "n": "REALM",
+        "d": "2020-02-10",
+        "m1": "40.4"
+      },
+      {
+        "p": {
+          "name": "LLaMA: Open and Efficient Foundation Language Models",
+          "link": "https://arxiv.org/abs/2302.13971v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LLaMA 65B (few-shot, k=64)",
+        "d": "2023-02-27",
+        "m1": "39.9"
+      },
+      {
+        "p": {
+          "name": "PaLM: Scaling Language Modeling with Pathways",
+          "link": "https://arxiv.org/abs/2204.02311v5"
+        },
+        "c": "https://github.com/lucidrains/CoCa-pytorch",
+        "n": "PaLM-540B (Few-Shot, k=64)",
+        "d": "2022-04-05",
+        "m1": "39.6"
+      },
+      {
+        "p": {
+          "name": "PaLM 2 Technical Report",
+          "link": "https://arxiv.org/abs/2305.10403v3"
+        },
+        "c": "https://github.com/eternityyw/tram-benchmark",
+        "n": "PaLM 2-L (one-shot)",
+        "d": "2023-05-17",
+        "m1": "37.5"
+      },
+      {
+        "p": {
+          "name": "Training Compute-Optimal Large Language Models",
+          "link": "https://arxiv.org/abs/2203.15556v1"
+        },
+        "c": "https://github.com/karpathy/llama2.c",
+        "n": "Chinchilla (few-shot, k=64)",
+        "d": "2022-03-29",
+        "m1": "35.5"
+      },
+      {
+        "p": {
+          "name": "LLaMA: Open and Efficient Foundation Language Models",
+          "link": "https://arxiv.org/abs/2302.13971v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LLaMA 65B (few-shot, k=5)",
+        "d": "2023-02-27",
+        "m1": "35.0"
+      },
+      {
+        "p": {
+          "name": "Search-o1: Agentic Search-Enhanced Large Reasoning Models",
+          "link": "https://arxiv.org/abs/2501.05366v1"
+        },
+        "c": "https://github.com/sunnynexus/search-o1",
+        "n": "Search-o1",
+        "d": "2025-01-09",
+        "m1": "34"
+      },
+      {
+        "p": {
+          "name": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+          "link": "https://arxiv.org/abs/2307.09288v2"
+        },
+        "c": "https://github.com/facebookresearch/llama",
+        "n": "LLaMA 2 70B (one-shot)",
+        "d": "2023-07-18",
+        "m1": "33.0"
+      },
+      {
+        "p": {
+          "name": "GLaM: Efficient Scaling of Language Models with Mixture-of-Experts",
+          "link": "https://arxiv.org/abs/2112.06905v2"
+        },
+        "c": "",
+        "n": "GLaM 62B/64E (Few-Shot)",
+        "d": "2021-12-13",
+        "m1": "32.5"
+      },
+      {
+        "p": {
+          "name": "PaLM 2 Technical Report",
+          "link": "https://arxiv.org/abs/2305.10403v3"
+        },
+        "c": "https://github.com/eternityyw/tram-benchmark",
+        "n": "PaLM 2-M (one-shot)",
+        "d": "2023-05-17",
+        "m1": "32.0"
+      },
+      {
+        "p": {
+          "name": "LLaMA: Open and Efficient Foundation Language Models",
+          "link": "https://arxiv.org/abs/2302.13971v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LLaMA 65B (one-shot)",
+        "d": "2023-02-27",
+        "m1": "31.0"
+      },
+      {
+        "p": {
+          "name": "Language Models are Few-Shot Learners",
+          "link": "https://arxiv.org/abs/2005.14165v4"
+        },
+        "c": "https://github.com/ggml-org/llama.cpp",
+        "n": "GPT-3 175B (Few-Shot, k=64)",
+        "d": "2020-05-28",
+        "m1": "29.9"
+      },
+      {
+        "p": {
+          "name": "PaLM: Scaling Language Modeling with Pathways",
+          "link": "https://arxiv.org/abs/2204.02311v5"
+        },
+        "c": "https://github.com/lucidrains/CoCa-pytorch",
+        "n": "PaLM-540B (One-Shot)",
+        "d": "2022-04-05",
+        "m1": "29.3"
+      },
+      {
+        "p": {
+          "name": "Mistral 7B",
+          "link": "https://arxiv.org/abs/2310.06825v1"
+        },
+        "c": "https://github.com/mistralai/mistral-src",
+        "n": "Mistral 7B (5-shot)",
+        "d": "2023-10-10",
+        "m1": "28.8"
+      },
+      {
+        "p": {
+          "name": "Scaling Language Models: Methods, Analysis & Insights from Training Gopher",
+          "link": "https://arxiv.org/abs/2112.11446v2"
+        },
+        "c": "https://github.com/allenai/dolma",
+        "n": "Gopher (few-shot, k=64)",
+        "d": "2021-12-08",
+        "m1": "28.2"
+      },
+      {
+        "p": {
+          "name": "GLaM: Efficient Scaling of Language Models with Mixture-of-Experts",
+          "link": "https://arxiv.org/abs/2112.06905v2"
+        },
+        "c": "",
+        "n": "GLaM 62B/64E (One-Shot)",
+        "d": "2021-12-13",
+        "m1": "26.3"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "LLaMA 7B (Contriever)",
+        "d": null,
+        "m1": "26.07"
+      },
+      {
+        "p": {
+          "name": "PaLM 2 Technical Report",
+          "link": "https://arxiv.org/abs/2305.10403v3"
+        },
+        "c": "https://github.com/eternityyw/tram-benchmark",
+        "n": "PaLM 2-S (one-shot)",
+        "d": "2023-05-17",
+        "m1": "25.3"
+      },
+      {
+        "p": {
+          "name": "LLaMA: Open and Efficient Foundation Language Models",
+          "link": "https://arxiv.org/abs/2302.13971v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LLaMA 33B (zero-shot)",
+        "d": "2023-02-27",
+        "m1": "24.9"
+      },
+      {
+        "p": {
+          "name": "GLaM: Efficient Scaling of Language Models with Mixture-of-Experts",
+          "link": "https://arxiv.org/abs/2112.06905v2"
+        },
+        "c": "",
+        "n": "GLaM 62B/64E (Zero-Shot)",
+        "d": "2021-12-13",
+        "m1": "24.7"
+      },
+      {
+        "p": {
+          "name": "PaLM: Scaling Language Modeling with Pathways",
+          "link": "https://arxiv.org/abs/2204.02311v5"
+        },
+        "c": "https://github.com/lucidrains/CoCa-pytorch",
+        "n": "PaLM-540B (Zero-Shot)",
+        "d": "2022-04-05",
+        "m1": "21.2"
+      },
+      {
+        "p": {
+          "name": "Ask Me Anything: A simple strategy for prompting language models",
+          "link": "https://arxiv.org/abs/2210.02441v3"
+        },
+        "c": "https://github.com/hazyresearch/ama_prompting",
+        "n": "Neo-6B (QA)",
+        "d": "2022-10-05",
+        "m1": "19.7"
+      },
+      {
+        "p": {
+          "name": "Ask Me Anything: A simple strategy for prompting language models",
+          "link": "https://arxiv.org/abs/2210.02441v3"
+        },
+        "c": "https://github.com/hazyresearch/ama_prompting",
+        "n": "Neo-6B (QA + WS)",
+        "d": "2022-10-05",
+        "m1": " 19.6"
+      },
+      {
+        "p": {
+          "name": "Ask Me Anything: A simple strategy for prompting language models",
+          "link": "https://arxiv.org/abs/2210.02441v3"
+        },
+        "c": "https://github.com/hazyresearch/ama_prompting",
+        "n": "Neo-6B (Few-Shot)",
+        "d": "2022-10-05",
+        "m1": "13.7"
+      }
+    ]
+  }
+}

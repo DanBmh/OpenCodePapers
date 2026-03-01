@@ -1,0 +1,64 @@
+{
+  "title": "speech-recognition-on-spgispeech",
+  "task-hierarchy": [
+    "Speech Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://datasets.kensho.com/datasets/scribe"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Word Error Rate (WER)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Icefall - zipformer transducer",
+        "d": null,
+        "m1": "2.35"
+      },
+      {
+        "p": {
+          "name": "Fast Conformer with Linearly Scalable Attention for Efficient Speech Recognition",
+          "link": "https://arxiv.org/abs/2305.05084v6"
+        },
+        "c": "",
+        "n": "parakeet-rnnt-1.1b",
+        "d": "2023-05-08",
+        "m1": "3.11"
+      },
+      {
+        "p": {
+          "name": "SPGISpeech: 5,000 hours of transcribed financial audio for fully formatted end-to-end speech recognition",
+          "link": "https://arxiv.org/abs/2104.02014v2"
+        },
+        "c": "https://github.com/espnet/espnet/tree/master/egs2/spgispeech/asr1",
+        "n": "Conformer",
+        "d": "2021-04-05",
+        "m1": "5.7"
+      }
+    ]
+  }
+}

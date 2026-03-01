@@ -1,0 +1,147 @@
+{
+  "title": "point-cloud-segmentation-on-pointcloud-c",
+  "task-hierarchy": [
+    "Point Cloud Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://pointcloud-c.github.io/home.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mean Corruption Error (mCE)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Learning Geometry-Disentangled Representation for Complementary Understanding of 3D Object Point Cloud",
+          "link": "https://arxiv.org/abs/2012.10921v3"
+        },
+        "c": "https://github.com/mutianxu/GDANet",
+        "n": "GDANet",
+        "d": "2020-12-20",
+        "m1": "0.923"
+      },
+      {
+        "p": {
+          "name": "Masked Autoencoders for Point Cloud Self-supervised Learning",
+          "link": "https://arxiv.org/abs/2203.06604v2"
+        },
+        "c": "https://github.com/Pang-Yatian/Point-MAE",
+        "n": "PointMAE",
+        "d": "2022-03-13",
+        "m1": "0.927"
+      },
+      {
+        "p": {
+          "name": "PAConv: Position Adaptive Convolution with Dynamic Kernel Assembling on Point Clouds",
+          "link": "https://arxiv.org/abs/2103.14635v2"
+        },
+        "c": "https://github.com/PaddlePaddle/Paddle3D",
+        "n": "PAConv",
+        "d": "2021-03-26",
+        "m1": "0.927"
+      },
+      {
+        "p": {
+          "name": "Rethinking Network Design and Local Geometry in Point Cloud: A Simple Residual MLP Framework",
+          "link": "https://arxiv.org/abs/2202.07123v2"
+        },
+        "c": "https://github.com/ma-xu/pointmlp-pytorch",
+        "n": "PointMLP",
+        "d": "2022-02-15",
+        "m1": "0.977"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Point Cloud Pre-Training via Occlusion Completion",
+          "link": "https://arxiv.org/abs/2010.01089v3"
+        },
+        "c": "https://github.com/hansen7/OcCo",
+        "n": "OcCo-DGCNN",
+        "d": "2020-10-02",
+        "m1": "0.977"
+      },
+      {
+        "p": {
+          "name": "Dynamic Graph CNN for Learning on Point Clouds",
+          "link": "https://arxiv.org/abs/1801.07829v2"
+        },
+        "c": "https://github.com/WangYueFt/dgcnn",
+        "n": "DGCNN",
+        "d": "2018-01-24",
+        "m1": "1.000"
+      },
+      {
+        "p": {
+          "name": "Point Transformer",
+          "link": "https://arxiv.org/abs/2012.09164v2"
+        },
+        "c": "https://github.com/Pointcept/Pointcept",
+        "n": "PointTransformers",
+        "d": "2020-12-16",
+        "m1": "1.049"
+      },
+      {
+        "p": {
+          "name": "PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space",
+          "link": "http://arxiv.org/abs/1706.02413v1"
+        },
+        "c": "https://github.com/yanx27/Pointnet_Pointnet2_pytorch",
+        "n": "PointNet++",
+        "d": "2017-06-07",
+        "m1": "1.112"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Point Cloud Pre-Training via Occlusion Completion",
+          "link": "https://arxiv.org/abs/2010.01089v3"
+        },
+        "c": "https://github.com/hansen7/OcCo",
+        "n": "OcCo-PointNet",
+        "d": "2020-10-02",
+        "m1": "1.130"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Point Cloud Pre-Training via Occlusion Completion",
+          "link": "https://arxiv.org/abs/2010.01089v3"
+        },
+        "c": "https://github.com/hansen7/OcCo",
+        "n": "OcCo-PCN",
+        "d": "2020-10-02",
+        "m1": "1.173"
+      },
+      {
+        "p": {
+          "name": "PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation",
+          "link": "http://arxiv.org/abs/1612.00593v2"
+        },
+        "c": "https://github.com/charlesq34/pointnet",
+        "n": "PointNet",
+        "d": "2016-12-02",
+        "m1": "1.178"
+      }
+    ]
+  }
+}

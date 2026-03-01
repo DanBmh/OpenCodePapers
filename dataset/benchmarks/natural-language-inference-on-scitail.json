@@ -1,0 +1,180 @@
+{
+  "title": "natural-language-inference-on-scitail",
+  "task-hierarchy": [
+    "Natural Language Inference"
+  ],
+  "dataset-info": {
+    "link": "https://allenai.org/data/scitail"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Dev Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "% Dev Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "% Test Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Conditionally Adaptive Multi-Task Learning: Improving Transfer Learning in NLP Using Fewer Parameters & Less Data",
+          "link": "https://arxiv.org/abs/2009.09139v3"
+        },
+        "c": "https://github.com/CAMTL/CA-MTL",
+        "n": "CA-MTL",
+        "d": "2020-09-19",
+        "m1": "96.8"
+      },
+      {
+        "p": {
+          "name": "Multi-Task Deep Neural Networks for Natural Language Understanding",
+          "link": "https://arxiv.org/abs/1901.11504v2"
+        },
+        "c": "https://github.com/namisan/mt-dnn",
+        "n": "MT-DNN",
+        "d": "2019-01-31",
+        "m1": "94.1"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Finetuned Transformer LM",
+        "d": null,
+        "m1": "88.3"
+      },
+      {
+        "p": {
+          "name": "Improving Language Understanding by Generative Pre-Training",
+          "link": "https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Finetuned Transformer LM",
+        "d": "2018-06-11",
+        "m1": "88.3"
+      },
+      {
+        "p": {
+          "name": "Sentence Embeddings in NLI with Iterative Refinement Encoders",
+          "link": "https://arxiv.org/abs/1808.08762v2"
+        },
+        "c": "https://github.com/Helsinki-NLP/HBMP",
+        "n": "Hierarchical BiLSTM Max Pooling",
+        "d": "2018-08-27",
+        "m1": "86.0"
+      },
+      {
+        "p": {
+          "name": "Simple and Effective Text Matching with Richer Alignment Features",
+          "link": "https://arxiv.org/abs/1908.00300v1"
+        },
+        "c": "https://github.com/alibaba-edu/simple-effective-text-matching",
+        "n": "RE2",
+        "d": "2019-08-01",
+        "m1": "86.0"
+      },
+      {
+        "p": {
+          "name": "Compare, Compress and Propagate: Enhancing Neural Architectures with Alignment Factorization for Natural Language Inference",
+          "link": "http://arxiv.org/abs/1801.00102v2"
+        },
+        "c": "",
+        "n": "CAFE",
+        "d": "2017-12-30",
+        "m1": "83.3"
+      },
+      {
+        "p": {
+          "name": "SplitEE: Early Exit in Deep Neural Networks with Split Computing",
+          "link": "https://arxiv.org/abs/2309.09195v1"
+        },
+        "c": "https://github.com/Div290/SplitEE/blob/main/README.md",
+        "n": "SplitEE-S",
+        "d": "2023-09-17",
+        "m1": "78.9"
+      },
+      {
+        "p": {
+          "name": "SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization",
+          "link": "https://arxiv.org/abs/1911.03437v5"
+        },
+        "c": "https://github.com/namisan/mt-dnn",
+        "n": "MT-DNN-SMART_100%ofTrainingData",
+        "d": "2019-11-08",
+        "m2": "96.1"
+      },
+      {
+        "p": {
+          "name": "SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization",
+          "link": "https://arxiv.org/abs/1911.03437v5"
+        },
+        "c": "https://github.com/namisan/mt-dnn",
+        "n": "MT-DNN-SMART_10%ofTrainingData",
+        "d": "2019-11-08",
+        "m2": "91.3"
+      },
+      {
+        "p": {
+          "name": "SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization",
+          "link": "https://arxiv.org/abs/1911.03437v5"
+        },
+        "c": "https://github.com/namisan/mt-dnn",
+        "n": "MT-DNN-SMART_1%ofTrainingData",
+        "d": "2019-11-08",
+        "m2": "88.6"
+      },
+      {
+        "p": {
+          "name": "SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization",
+          "link": "https://arxiv.org/abs/1911.03437v5"
+        },
+        "c": "https://github.com/namisan/mt-dnn",
+        "n": "MT-DNN-SMART_0.1%ofTrainingData",
+        "d": "2019-11-08",
+        "m2": "82.3"
+      },
+      {
+        "p": {
+          "name": "SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization",
+          "link": "https://arxiv.org/abs/1911.03437v5"
+        },
+        "c": "https://github.com/namisan/mt-dnn",
+        "n": "MT-DNN-SMARTLARGEv0",
+        "d": "2019-11-08",
+        "m3": "96.6",
+        "m4": "95.2"
+      }
+    ]
+  }
+}

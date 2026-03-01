@@ -1,0 +1,97 @@
+{
+  "title": "text-classification-on-svictor-type",
+  "task-hierarchy": [
+    "Text Classification"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Average F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Weighted F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "VICTOR: a Dataset for Brazilian Legal Documents Classification",
+          "link": "https://aclanthology.org/2020.lrec-1.181"
+        },
+        "c": "https://github.com/peluz/VICTOR-dataset",
+        "n": "CNN + CRF",
+        "d": "2020-05-01",
+        "m1": "0.7740",
+        "m2": "0.9533"
+      },
+      {
+        "p": {
+          "name": "VICTOR: a Dataset for Brazilian Legal Documents Classification",
+          "link": "https://aclanthology.org/2020.lrec-1.181"
+        },
+        "c": "https://github.com/peluz/VICTOR-dataset",
+        "n": "SVM",
+        "d": "2020-05-01",
+        "m1": "0.7632",
+        "m2": "0.9425"
+      },
+      {
+        "p": {
+          "name": "VICTOR: a Dataset for Brazilian Legal Documents Classification",
+          "link": "https://aclanthology.org/2020.lrec-1.181"
+        },
+        "c": "https://github.com/peluz/VICTOR-dataset",
+        "n": "CNN",
+        "d": "2020-05-01",
+        "m1": "0.7584",
+        "m2": "0.9472"
+      },
+      {
+        "p": {
+          "name": "VICTOR: a Dataset for Brazilian Legal Documents Classification",
+          "link": "https://aclanthology.org/2020.lrec-1.181"
+        },
+        "c": "https://github.com/peluz/VICTOR-dataset",
+        "n": "BiLSTM",
+        "d": "2020-05-01",
+        "m1": "0.7281",
+        "m2": "0.9465"
+      },
+      {
+        "p": {
+          "name": "VICTOR: a Dataset for Brazilian Legal Documents Classification",
+          "link": "https://aclanthology.org/2020.lrec-1.181"
+        },
+        "c": "https://github.com/peluz/VICTOR-dataset",
+        "n": "NB",
+        "d": "2020-05-01",
+        "m1": "0.5979",
+        "m2": "0.8893"
+      }
+    ]
+  }
+}

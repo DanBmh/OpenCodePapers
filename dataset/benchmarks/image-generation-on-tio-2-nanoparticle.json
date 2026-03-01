@@ -1,0 +1,67 @@
+{
+  "title": "image-generation-on-tio-2-nanoparticle",
+  "task-hierarchy": [
+    "Image Generation"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "FID",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "F-ANcGAN: An Attention-Enhanced Cycle Consistent Generative Adversarial Architecture for Synthetic Image Generation of Nanoparticles",
+          "link": "https://arxiv.org/abs/2505.18106v1"
+        },
+        "c": "https://github.com/Pal-kid404/F-ANcGAN",
+        "n": "F-ANcGAN",
+        "d": "2025-05-23",
+        "m1": "17.65"
+      },
+      {
+        "p": {
+          "name": "F-ANcGAN: An Attention-Enhanced Cycle Consistent Generative Adversarial Architecture for Synthetic Image Generation of Nanoparticles",
+          "link": "https://arxiv.org/abs/2505.18106v1"
+        },
+        "c": "https://github.com/Pal-kid404/F-ANcGAN",
+        "n": "Cycle GAN",
+        "d": "2025-05-23",
+        "m1": "52.01"
+      },
+      {
+        "p": {
+          "name": "F-ANcGAN: An Attention-Enhanced Cycle Consistent Generative Adversarial Architecture for Synthetic Image Generation of Nanoparticles",
+          "link": "https://arxiv.org/abs/2505.18106v1"
+        },
+        "c": "https://github.com/Pal-kid404/F-ANcGAN",
+        "n": "Generative Adversarial Network (GAN)",
+        "d": "2025-05-23",
+        "m1": "69.9"
+      }
+    ]
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "title": "anomaly-detection-on-ucsd-ped2",
+  "task-hierarchy": [
+    "Anomaly Detection"
+  ],
+  "dataset-info": {
+    "link": "http://www.svcl.ucsd.edu/projects/anomaly/dataset.htm"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "FPS",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Diversity-Measurable Anomaly Detection",
+          "link": "https://arxiv.org/abs/2303.05047v1"
+        },
+        "c": "https://github.com/FlappyPeggy/DMAD",
+        "n": "DMAD",
+        "d": "2023-03-09",
+        "m1": "99.7%"
+      },
+      {
+        "p": {
+          "name": "MULDE: Multiscale Log-Density Estimation via Denoising Score Matching for Video Anomaly Detection",
+          "link": "https://arxiv.org/abs/2403.14497v1"
+        },
+        "c": "https://github.com/jakubmicorek/MULDE-Multiscale-Log-Density-Estimation-via-Denoising-Score-Matching-for-Video-Anomaly-Detection",
+        "n": "MULDE-object-centric-micro",
+        "d": "2024-03-21",
+        "m1": "99.7%"
+      },
+      {
+        "p": {
+          "name": "Spatio-temporal predictive tasks for abnormal event detection in videos",
+          "link": "https://arxiv.org/abs/2210.15741v2"
+        },
+        "c": "",
+        "n": "STPT",
+        "d": "2022-10-27",
+        "m1": "98.9%"
+      },
+      {
+        "p": {
+          "name": "A Background-Agnostic Framework with Adversarial Training for Abnormal Event Detection in Video",
+          "link": "https://arxiv.org/abs/2008.12328v5"
+        },
+        "c": "https://github.com/m-3lab/awesome-visual-sensory-anomaly-detection",
+        "n": "Background-Agnostic",
+        "d": "2020-08-27",
+        "m1": "98.7%",
+        "m2": "24"
+      },
+      {
+        "p": {
+          "name": "Making Anomalies More Anomalous: Video Anomaly Detection Using a Novel Generator and Destroyer",
+          "link": "https://ieeexplore.ieee.org/document/10462109"
+        },
+        "c": "https://github.com/SkiddieAhn/Paper-Making-Anomalies-More-Anomalous",
+        "n": "MAMA",
+        "d": "2024-02-26",
+        "m1": "98.2%"
+      },
+      {
+        "p": {
+          "name": "Follow the Rules: Reasoning for Video Anomaly Detection with Large Language Models",
+          "link": "https://arxiv.org/abs/2407.10299v2"
+        },
+        "c": "https://github.com/Yuchen413/AnomalyRuler",
+        "n": "AnomalyRuler",
+        "d": "2024-07-14",
+        "m1": "97.9%"
+      },
+      {
+        "p": {
+          "name": "UniNet: A Contrastive Learning-guided Unified Framework with Feature Selection for Anomaly Detection",
+          "link": "https://pangdatangtt.github.io/#:~:text=guided%20anomaly%20discrimination.-,Abstract,-Anomaly%20detection%20(AD"
+        },
+        "c": "https://github.com/pangdatangtt/UniNet",
+        "n": "UniNet",
+        "d": "2025-02-28",
+        "m1": "97.9"
+      },
+      {
+        "p": {
+          "name": "VALD-GAN: video anomaly detection using latent discriminator augmented GAN",
+          "link": "https://doi.org/10.1007/s11760-023-02750-5"
+        },
+        "c": "",
+        "n": "VALD-GAN",
+        "d": "2023-10-18",
+        "m1": "97.74"
+      },
+      {
+        "p": {
+          "name": "STemGAN: spatio-temporal generative adversarial network for video anomaly detection",
+          "link": "https://doi.org/10.1007/s10489-023-04940-7"
+        },
+        "c": "",
+        "n": "STemGAN",
+        "d": "2023-09-22",
+        "m1": "97.5"
+      },
+      {
+        "p": {
+          "name": "Attention-based residual autoencoder for video anomaly detection",
+          "link": "https://link.springer.com/article/10.1007/s10489-022-03613-1"
+        },
+        "c": "https://github.com/vt-le/astnet",
+        "n": "ASTNet",
+        "d": "2022-05-25",
+        "m1": "97.4%"
+      },
+      {
+        "p": {
+          "name": "Context Recovery and Knowledge Retrieval: A Novel Two-Stream Framework for Video Anomaly Detection",
+          "link": "https://arxiv.org/abs/2209.02899v1"
+        },
+        "c": "https://github.com/zugexiaodui/twostreamuvad",
+        "n": "Two-stream",
+        "d": "2022-09-07",
+        "m1": "97.1%"
+      },
+      {
+        "p": {
+          "name": "FastAno: Fast Anomaly Detection via Spatio-temporal Patch Transformation",
+          "link": "https://arxiv.org/abs/2106.08613v4"
+        },
+        "c": "https://github.com/codnjsqkr/FastAno_official",
+        "n": "FastAno",
+        "d": "2021-06-16",
+        "m1": "96.3%",
+        "m2": "195"
+      },
+      {
+        "p": {
+          "name": "Self-Distilled Masked Auto-Encoders are Efficient Video Anomaly Detectors",
+          "link": "https://arxiv.org/abs/2306.12041v2"
+        },
+        "c": "https://github.com/ristea/aed-mae",
+        "n": "SD-MAE",
+        "d": "2023-06-21",
+        "m1": "95.4%",
+        "m2": "1655"
+      },
+      {
+        "p": {
+          "name": "Diversity-Measurable Anomaly Detection",
+          "link": "https://arxiv.org/abs/2303.05047v1"
+        },
+        "c": "https://github.com/FlappyPeggy/DMAD",
+        "n": "ConvVQ",
+        "d": "2023-03-09",
+        "m1": "90.2%"
+      }
+    ]
+  }
+}

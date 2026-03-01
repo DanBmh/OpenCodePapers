@@ -1,0 +1,79 @@
+{
+  "title": "video-quality-assessment-on-live-livestream",
+  "task-hierarchy": [
+    "Video",
+    "Video Understanding",
+    "Video Quality Assessment"
+  ],
+  "dataset-info": {
+    "link": "https://live.ece.utexas.edu/research/LIVE_APV_Study/apv_index.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "SRCC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "ChipQA: No-Reference Video Quality Prediction via Space-Time Chips",
+          "link": "https://arxiv.org/abs/2109.08726v1"
+        },
+        "c": "https://github.com/JoshuaEbenezer/ChipQA",
+        "n": "ChipQA",
+        "d": "2021-09-17",
+        "m1": "0.7575"
+      },
+      {
+        "p": {
+          "name": "No-Reference Video Quality Assessment Using Space-Time Chips",
+          "link": "http://arxiv.org/abs/2008.00031v3"
+        },
+        "c": "https://github.com/JoshuaEbenezer/ChipQA-0",
+        "n": "ChipQA-0",
+        "d": "2020-08-23",
+        "m1": "0.7513"
+      },
+      {
+        "p": {
+          "name": "Two-Level Approach for No-Reference Consumer Video Quality Assessment",
+          "link": "https://ieeexplore.ieee.org/abstract/document/8742797"
+        },
+        "c": "https://github.com/jarikorhonen/nr-vqa-consumervideo",
+        "n": "TLVQM",
+        "d": "2019-06-20",
+        "m1": "0.7503"
+      },
+      {
+        "p": {
+          "name": "RAPIQUE: Rapid and Accurate Video Quality Prediction of User Generated Content",
+          "link": "https://arxiv.org/abs/2101.10955v2"
+        },
+        "c": "https://github.com/vztu/RAPIQUE",
+        "n": "RAPIQUE",
+        "d": "2021-01-26",
+        "m1": "0.7424"
+      }
+    ]
+  }
+}

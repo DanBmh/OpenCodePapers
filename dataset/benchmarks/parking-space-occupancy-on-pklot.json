@@ -1,0 +1,72 @@
+{
+  "title": "parking-space-occupancy-on-pklot",
+  "task-hierarchy": [
+    "Parking Space Occupancy"
+  ],
+  "dataset-info": {
+    "link": "https://web.inf.ufpr.br/vri/databases/parking-lot-database/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Average-mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "F1-score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "T-YOLO: Tiny Vehicle Detection Based on YOLO and Multi-Scale Convolutional Neural Networks",
+          "link": "https://ieeexplore.ieee.org/document/9658533"
+        },
+        "c": "",
+        "n": "T-YOLO",
+        "d": "2021-12-01",
+        "m1": "0.9985"
+      },
+      {
+        "p": {
+          "name": "Revising deep learning methods in parking lot occupancy detection",
+          "link": "https://arxiv.org/abs/2306.04288v3"
+        },
+        "c": "https://github.com/eighonet/parking-research",
+        "n": "VGG-19",
+        "d": "2023-06-07",
+        "m2": "0.9988"
+      },
+      {
+        "p": {
+          "name": "Revising deep learning methods in parking lot occupancy detection",
+          "link": "https://arxiv.org/abs/2306.04288v3"
+        },
+        "c": "https://github.com/eighonet/parking-research",
+        "n": "ResNet50",
+        "d": "2023-06-07",
+        "m2": "0.9926"
+      }
+    ]
+  }
+}

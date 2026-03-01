@@ -1,0 +1,87 @@
+{
+  "title": "entity-alignment-on-dbp1m-de-en",
+  "task-hierarchy": [
+    "Entity Alignment"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Hit@1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "LightEA: A Scalable, Robust, and Interpretable Entity Alignment Framework via Three-view Label Propagation",
+          "link": "https://arxiv.org/abs/2210.10436v2"
+        },
+        "c": "https://github.com/THU-KEG/Entity_Alignment_Papers",
+        "n": "LightEA-I",
+        "d": "2022-10-19",
+        "m1": "0.289"
+      },
+      {
+        "p": {
+          "name": "ClusterEA: Scalable Entity Alignment with Stochastic Training and Normalized Mini-batch Similarities",
+          "link": "https://arxiv.org/abs/2205.10312v2"
+        },
+        "c": "https://github.com/joker-xii/clusterea",
+        "n": "ClusterEA-D",
+        "d": "2022-05-20",
+        "m1": "0.288"
+      },
+      {
+        "p": {
+          "name": "LightEA: A Scalable, Robust, and Interpretable Entity Alignment Framework via Three-view Label Propagation",
+          "link": "https://arxiv.org/abs/2210.10436v2"
+        },
+        "c": "https://github.com/THU-KEG/Entity_Alignment_Papers",
+        "n": "LightEA-B",
+        "d": "2022-10-19",
+        "m1": "0.262"
+      },
+      {
+        "p": {
+          "name": "ClusterEA: Scalable Entity Alignment with Stochastic Training and Normalized Mini-batch Similarities",
+          "link": "https://arxiv.org/abs/2205.10312v2"
+        },
+        "c": "https://github.com/joker-xii/clusterea",
+        "n": "ClusterEA-R",
+        "d": "2022-05-20",
+        "m1": "0.260"
+      },
+      {
+        "p": {
+          "name": "ClusterEA: Scalable Entity Alignment with Stochastic Training and Normalized Mini-batch Similarities",
+          "link": "https://arxiv.org/abs/2205.10312v2"
+        },
+        "c": "https://github.com/joker-xii/clusterea",
+        "n": "ClusterEA-G",
+        "d": "2022-05-20",
+        "m1": "0.100"
+      }
+    ]
+  }
+}

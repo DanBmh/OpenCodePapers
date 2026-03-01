@@ -1,0 +1,117 @@
+{
+  "title": "open-domain-question-answering-on-eli5",
+  "task-hierarchy": [
+    "Open-Domain Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://facebookresearch.github.io/ELI5/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Rouge-L",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Rouge-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Rouge-2",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Fourier Transformer: Fast Long Range Modeling by Removing Sequence Redundancy with FFT Operator",
+          "link": "https://arxiv.org/abs/2305.15099v2"
+        },
+        "c": "https://github.com/lumia-group/fouriertransformer",
+        "n": "Fourier Transformer",
+        "d": "2023-05-24",
+        "m1": "26.9"
+      },
+      {
+        "p": {
+          "name": "Closed-book Question Generation via Contrastive Learning",
+          "link": "https://arxiv.org/abs/2210.06781v2"
+        },
+        "c": "https://github.com/dongxiangjue/closed-book-question-generation-via-contrastive-learning",
+        "n": "QG",
+        "d": "2022-10-13",
+        "m1": "26.40",
+        "m2": "29.15",
+        "m3": "10.36"
+      },
+      {
+        "p": {
+          "name": "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+          "link": "https://arxiv.org/abs/1910.13461v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "BART",
+        "d": "2019-10-29",
+        "m1": "24.3",
+        "m2": "30.6",
+        "m3": "6.2"
+      },
+      {
+        "p": {
+          "name": "Using Local Knowledge Graph Construction to Scale Seq2Seq Models to Multi-Document Inputs",
+          "link": "https://arxiv.org/abs/1910.08435v1"
+        },
+        "c": "https://github.com/denisewong1/ASX300",
+        "n": "E-MCA",
+        "d": "2019-10-18",
+        "m1": "24.0",
+        "m2": "30.0",
+        "m3": "5.8"
+      },
+      {
+        "p": {
+          "name": "Reducing Transformer Depth on Demand with Structured Dropout",
+          "link": "https://arxiv.org/abs/1909.11556v1"
+        },
+        "c": "https://github.com/pytorch/fairseq",
+        "n": "Transformer Multitask + LayerDrop",
+        "d": "2019-09-25",
+        "m1": "23.4",
+        "m2": "29.4",
+        "m3": "5.5"
+      },
+      {
+        "p": {
+          "name": "Improving Conditioning in Context-Aware Sequence to Sequence Models",
+          "link": "https://arxiv.org/abs/1911.09728v1"
+        },
+        "c": "",
+        "n": "Multi-Inrerleave",
+        "d": "2019-11-21",
+        "m1": "14.63",
+        "m2": "23.32",
+        "m3": "4.79"
+      }
+    ]
+  }
+}

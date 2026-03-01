@@ -1,0 +1,74 @@
+{
+  "title": "time-series-forecasting-on-traffic-336",
+  "task-hierarchy": [
+    "Time Series Analysis",
+    "Time Series Forecasting"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MSE",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "MAE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "TSMixer: Lightweight MLP-Mixer Model for Multivariate Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2306.09364v4"
+        },
+        "c": "https://github.com/ibm/tsfm",
+        "n": "TSMixer",
+        "d": "2023-06-14",
+        "m1": "0.385"
+      },
+      {
+        "p": {
+          "name": "PRformer: Pyramidal Recurrent Transformer for Multivariate Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2408.10483v1"
+        },
+        "c": "https://github.com/usualheart/prformer",
+        "n": "PRformer",
+        "d": "2024-08-20",
+        "m1": "0.385"
+      },
+      {
+        "p": {
+          "name": "xPatch: Dual-Stream Time Series Forecasting with Exponential Seasonal-Trend Decomposition",
+          "link": "https://arxiv.org/abs/2412.17323v2"
+        },
+        "c": "https://github.com/stitsyuk/xpatch",
+        "n": "xPatch",
+        "d": "2024-12-23",
+        "m1": "0.388",
+        "m2": "0.243"
+      }
+    ]
+  }
+}

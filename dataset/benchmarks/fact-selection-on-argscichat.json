@@ -1,0 +1,77 @@
+{
+  "title": "fact-selection-on-argscichat",
+  "task-hierarchy": [
+    "Fact Selection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/federicoruggeri/argscichat_project"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Fact-F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "ArgSciChat: A Dataset for Argumentative Dialogues on Scientific Papers",
+          "link": "https://arxiv.org/abs/2202.06690v3"
+        },
+        "c": "https://github.com/ukplab/arxiv2022-argscichat",
+        "n": "TF-IDF",
+        "d": "2022-02-14",
+        "m1": "16.22"
+      },
+      {
+        "p": {
+          "name": "ArgSciChat: A Dataset for Argumentative Dialogues on Scientific Papers",
+          "link": "https://arxiv.org/abs/2202.06690v3"
+        },
+        "c": "https://github.com/ukplab/arxiv2022-argscichat",
+        "n": "S-BERT",
+        "d": "2022-02-14",
+        "m1": "13.65"
+      },
+      {
+        "p": {
+          "name": "ArgSciChat: A Dataset for Argumentative Dialogues on Scientific Papers",
+          "link": "https://arxiv.org/abs/2202.06690v3"
+        },
+        "c": "https://github.com/ukplab/arxiv2022-argscichat",
+        "n": "LED(Q,P)",
+        "d": "2022-02-14",
+        "m1": " 10.58"
+      },
+      {
+        "p": {
+          "name": "ArgSciChat: A Dataset for Argumentative Dialogues on Scientific Papers",
+          "link": "https://arxiv.org/abs/2202.06690v3"
+        },
+        "c": "https://github.com/ukplab/arxiv2022-argscichat",
+        "n": "LED(Q,P,H)",
+        "d": "2022-02-14",
+        "m1": " 8.50"
+      }
+    ]
+  }
+}

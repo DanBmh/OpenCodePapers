@@ -1,0 +1,88 @@
+{
+  "title": "hate-speech-detection-on-ethos-multilabel",
+  "task-hierarchy": [
+    "Abuse Detection",
+    "Hate Speech Detection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/intelligence-csd-auth-gr/Ethos-Hate-Speech-Dataset"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Hamming Loss",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "ETHOS: an Online Hate Speech Detection Dataset",
+          "link": "https://arxiv.org/abs/2006.08328v2"
+        },
+        "c": "https://github.com/intelligence-csd-auth-gr/Ethos-Hate-Speech-Dataset",
+        "n": "MLARAM",
+        "d": "2020-06-11",
+        "m1": "0.2948"
+      },
+      {
+        "p": {
+          "name": "ETHOS: an Online Hate Speech Detection Dataset",
+          "link": "https://arxiv.org/abs/2006.08328v2"
+        },
+        "c": "https://github.com/intelligence-csd-auth-gr/Ethos-Hate-Speech-Dataset",
+        "n": "MLkNN",
+        "d": "2020-06-11",
+        "m1": "0.1606"
+      },
+      {
+        "p": {
+          "name": "ETHOS: an Online Hate Speech Detection Dataset",
+          "link": "https://arxiv.org/abs/2006.08328v2"
+        },
+        "c": "https://github.com/intelligence-csd-auth-gr/Ethos-Hate-Speech-Dataset",
+        "n": "Binary Relevance",
+        "d": "2020-06-11",
+        "m1": "0.1395"
+      },
+      {
+        "p": {
+          "name": "ETHOS: an Online Hate Speech Detection Dataset",
+          "link": "https://arxiv.org/abs/2006.08328v2"
+        },
+        "c": "https://github.com/intelligence-csd-auth-gr/Ethos-Hate-Speech-Dataset",
+        "n": "Neural Classifier Chains",
+        "d": "2020-06-11",
+        "m1": "0.132"
+      },
+      {
+        "p": {
+          "name": "ETHOS: an Online Hate Speech Detection Dataset",
+          "link": "https://arxiv.org/abs/2006.08328v2"
+        },
+        "c": "https://github.com/intelligence-csd-auth-gr/Ethos-Hate-Speech-Dataset",
+        "n": "Neural Binary Relevance",
+        "d": "2020-06-11",
+        "m1": "0.1097"
+      }
+    ]
+  }
+}

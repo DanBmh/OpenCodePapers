@@ -1,0 +1,97 @@
+{
+  "title": "mathematical-reasoning-on-lila-iid",
+  "task-hierarchy": [
+    "Mathematical Reasoning"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Lila: A Unified Benchmark for Mathematical Reasoning",
+          "link": "https://arxiv.org/abs/2210.17517v2"
+        },
+        "c": "https://github.com/allenai/lila",
+        "n": "Codex (Few-Shot, 175B)",
+        "d": "2022-10-31",
+        "m1": "0.604"
+      },
+      {
+        "p": {
+          "name": "Lila: A Unified Benchmark for Mathematical Reasoning",
+          "link": "https://arxiv.org/abs/2210.17517v2"
+        },
+        "c": "https://github.com/allenai/lila",
+        "n": "Bhāskara-P (Fine-tuned, 2.7B)",
+        "d": "2022-10-31",
+        "m1": "0.48"
+      },
+      {
+        "p": {
+          "name": "Lila: A Unified Benchmark for Mathematical Reasoning",
+          "link": "https://arxiv.org/abs/2210.17517v2"
+        },
+        "c": "https://github.com/allenai/lila",
+        "n": "Neo-P (Fine-tuned, 2.7B)",
+        "d": "2022-10-31",
+        "m1": "0.394"
+      },
+      {
+        "p": {
+          "name": "Lila: A Unified Benchmark for Mathematical Reasoning",
+          "link": "https://arxiv.org/abs/2210.17517v2"
+        },
+        "c": "https://github.com/allenai/lila",
+        "n": "GPT-3 (Few-Shot, 175B)",
+        "d": "2022-10-31",
+        "m1": "0.384"
+      },
+      {
+        "p": {
+          "name": "Lila: A Unified Benchmark for Mathematical Reasoning",
+          "link": "https://arxiv.org/abs/2210.17517v2"
+        },
+        "c": "https://github.com/allenai/lila",
+        "n": "Bhāskara-A (Fine-tuned, 2.7B)",
+        "d": "2022-10-31",
+        "m1": "0.252"
+      },
+      {
+        "p": {
+          "name": "Lila: A Unified Benchmark for Mathematical Reasoning",
+          "link": "https://arxiv.org/abs/2210.17517v2"
+        },
+        "c": "https://github.com/allenai/lila",
+        "n": "Neo-A (Fine-tuned, 2.7B)",
+        "d": "2022-10-31",
+        "m1": "0.204"
+      }
+    ]
+  }
+}

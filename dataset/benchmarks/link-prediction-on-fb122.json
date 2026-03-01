@@ -1,0 +1,117 @@
+{
+  "title": "link-prediction-on-fb122",
+  "task-hierarchy": [
+    "Link Prediction"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "HITS@3",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Hits@5",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Hits@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "MRR",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Probabilistic Case-based Reasoning for Open-World Knowledge Graph Completion",
+          "link": "https://arxiv.org/abs/2010.03548v2"
+        },
+        "c": "https://github.com/ameyagodbole/Prob-CBR",
+        "n": "Prob-CBR",
+        "d": "2020-10-07",
+        "m1": "74.2",
+        "m2": "76.0",
+        "m3": "78.2",
+        "m4": "72.7"
+      },
+      {
+        "p": {
+          "name": "RotatE: Knowledge Graph Embedding by Relational Rotation in Complex Space",
+          "link": "http://arxiv.org/abs/1902.10197v1"
+        },
+        "c": "https://github.com/pyg-team/pytorch_geometric/blob/master/torch_geometric/nn/kge/rotate.py",
+        "n": "RotatE",
+        "d": "2019-02-26",
+        "m1": "70.8",
+        "m2": "73.57",
+        "m3": "77.0",
+        "m4": "67.8"
+      },
+      {
+        "p": {
+          "name": "Differentiable Reasoning on Large Knowledge Bases and Natural Language",
+          "link": "https://arxiv.org/abs/1912.10824v1"
+        },
+        "c": "https://github.com/uclnlp/ntp",
+        "n": "GNTPs",
+        "d": "2019-12-17",
+        "m1": "69.2",
+        "m2": "71.1",
+        "m3": "73.2",
+        "m4": "67.8"
+      },
+      {
+        "p": {
+          "name": "Complex Embeddings for Simple Link Prediction",
+          "link": "http://arxiv.org/abs/1606.06357v1"
+        },
+        "c": "https://github.com/pyg-team/pytorch_geometric/blob/2947af7733d87315a9218a0bfabbfda10b595f0e/torch_geometric/nn/kge/complex.py",
+        "n": "ComplEx",
+        "d": "2016-06-20",
+        "m1": "67.3",
+        "m2": "69.5",
+        "m3": "71.9",
+        "m4": "64.1"
+      },
+      {
+        "p": {
+          "name": "Translating Embeddings for Modeling Multi-relational Data",
+          "link": "http://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-relational-data"
+        },
+        "c": "https://github.com/pyg-team/pytorch_geometric/blob/master/torch_geometric/nn/kge/transe.py",
+        "n": "TransE",
+        "d": "2013-12-01",
+        "m1": "58.9",
+        "m2": "64.2",
+        "m3": "70.2",
+        "m4": "48.0"
+      }
+    ]
+  }
+}

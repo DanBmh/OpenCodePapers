@@ -1,0 +1,155 @@
+{
+  "title": "omnnidirectional-stereo-depth-estimation-on",
+  "task-hierarchy": [
+    "Stereo Depth Estimation",
+    "Omnnidirectional Stereo Depth Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://vita-epfl.github.io/Helvipad/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Depth-MAE",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Depth-RMSE",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Depth-MARE",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Depth-LRCE",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Disp-MAE",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "Disp-RMSE",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "Disp-MARE",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "Disp-LRCE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Boosting Omnidirectional Stereo Matching with a Pre-trained Depth Foundation Model",
+          "link": "https://arxiv.org/abs/2503.23502v1"
+        },
+        "c": "https://github.com/vita-epfl/DFI-OmniStereo",
+        "n": "DFI-OmniStereo",
+        "d": "2025-03-30",
+        "m1": "1.463",
+        "m2": "3.767",
+        "m3": "0.108",
+        "m4": "0.397",
+        "m5": "0.158",
+        "m6": "0.338",
+        "m7": "0.120",
+        "m8": "0.058"
+      },
+      {
+        "p": {
+          "name": "Helvipad: A Real-World Dataset for Omnidirectional Stereo Depth Estimation",
+          "link": "https://arxiv.org/abs/2411.18335v2"
+        },
+        "c": "https://github.com/vita-epfl/Helvipad",
+        "n": "360-IGEV-Stereo",
+        "d": "2024-11-27",
+        "m1": "1.720",
+        "m2": "4.297",
+        "m3": "0.130",
+        "m4": "0.388",
+        "m5": "0.188",
+        "m6": "0.404",
+        "m7": "0.146",
+        "m8": "0.054"
+      },
+      {
+        "p": {
+          "name": "Iterative Geometry Encoding Volume for Stereo Matching",
+          "link": "https://arxiv.org/abs/2303.06615v2"
+        },
+        "c": "https://github.com/gangweix/igev",
+        "n": "IGEV-Stereo",
+        "d": "2023-03-12",
+        "m1": "1.860",
+        "m2": "4.474",
+        "m3": "0.146",
+        "m4": "1.203",
+        "m5": "0.225",
+        "m6": "0.423",
+        "m7": "0.172"
+      },
+      {
+        "p": {
+          "name": "360SD-Net: 360° Stereo Depth Estimation with Learnable Cost Volume",
+          "link": "https://arxiv.org/abs/1911.04460v2"
+        },
+        "c": "https://github.com/albert100121/360SD-Net",
+        "n": "360SD-Net",
+        "d": "2019-11-11",
+        "m1": "2.112",
+        "m2": "5.077",
+        "m3": "0.152",
+        "m4": "0.904",
+        "m5": "0.224",
+        "m6": "0.419",
+        "m7": "0.191"
+      },
+      {
+        "p": {
+          "name": "Pyramid Stereo Matching Network",
+          "link": "http://arxiv.org/abs/1803.08669v1"
+        },
+        "c": "https://github.com/JiaRenChang/PSMNet",
+        "n": "PSMNet",
+        "d": "2018-03-23",
+        "m1": "2.509",
+        "m2": "5.673",
+        "m3": "0.176",
+        "m4": "1.809",
+        "m5": "0.286",
+        "m6": "0.496",
+        "m7": "0.248"
+      }
+    ]
+  }
+}

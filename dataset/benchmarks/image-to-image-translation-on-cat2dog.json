@@ -1,0 +1,101 @@
+{
+  "title": "image-to-image-translation-on-cat2dog",
+  "task-hierarchy": [
+    "Image-to-Image Translation"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "DFID",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "FID",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Kernel Inception Distance",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "GANs N' Roses: Stable, Controllable, Diverse Image to Image Translation (works for videos too!)",
+          "link": "https://arxiv.org/abs/2106.06561v1"
+        },
+        "c": "https://github.com/mchong6/GANsNRoses",
+        "n": "GNR",
+        "d": "2021-06-11",
+        "m1": "26.1",
+        "m2": "26.9"
+      },
+      {
+        "p": {
+          "name": "GANs N' Roses: Stable, Controllable, Diverse Image to Image Translation (works for videos too!)",
+          "link": "https://arxiv.org/abs/2106.06561v1"
+        },
+        "c": "https://github.com/mchong6/GANsNRoses",
+        "n": "StarGANv2",
+        "d": "2021-06-11",
+        "m1": "53.6",
+        "m2": "44.2"
+      },
+      {
+        "p": {
+          "name": "GANs N' Roses: Stable, Controllable, Diverse Image to Image Translation (works for videos too!)",
+          "link": "https://arxiv.org/abs/2106.06561v1"
+        },
+        "c": "https://github.com/mchong6/GANsNRoses",
+        "n": "DRIT++",
+        "d": "2021-06-11",
+        "m1": "160.1",
+        "m2": "91.5"
+      },
+      {
+        "p": {
+          "name": "GANs N' Roses: Stable, Controllable, Diverse Image to Image Translation (works for videos too!)",
+          "link": "https://arxiv.org/abs/2106.06561v1"
+        },
+        "c": "https://github.com/mchong6/GANsNRoses",
+        "n": "CouncilGAN",
+        "d": "2021-06-11",
+        "m1": "172.5",
+        "m2": "90.8"
+      },
+      {
+        "p": {
+          "name": "U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation",
+          "link": "https://arxiv.org/abs/1907.10830v4"
+        },
+        "c": "https://github.com/taki0112/UGATIT",
+        "n": "U-GAT-IT",
+        "d": "2019-07-25",
+        "m3": "7.07"
+      }
+    ]
+  }
+}

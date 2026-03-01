@@ -1,0 +1,127 @@
+{
+  "title": "relation-extraction-on-gda",
+  "task-hierarchy": [
+    "Relation Extraction"
+  ],
+  "dataset-info": {
+    "link": "https://bitbucket.org/alexwuhkucs/gda-extraction/src/master/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SAIS: Supervising and Augmenting Intermediate Steps for Document-Level Relation Extraction",
+          "link": "https://arxiv.org/abs/2109.12093v2"
+        },
+        "c": "https://github.com/xiaoyuxin1002/sais",
+        "n": "SAISORE+CR+ET-SciBERT",
+        "d": "2021-09-24",
+        "m1": "87.1"
+      },
+      {
+        "p": {
+          "name": "A Densely Connected Criss-Cross Attention Network for Document-level Relation Extraction",
+          "link": "https://arxiv.org/abs/2203.13953v1"
+        },
+        "c": "",
+        "n": "Dense-CCNet-SciBERTbase",
+        "d": "2022-03-26",
+        "m1": "86.44"
+      },
+      {
+        "p": {
+          "name": "A Masked Image Reconstruction Network for Document-level Relation Extraction",
+          "link": "https://arxiv.org/abs/2204.09851v2"
+        },
+        "c": "",
+        "n": "DRE-MIR-SciBERT",
+        "d": "2022-04-21",
+        "m1": "86.4"
+      },
+      {
+        "p": {
+          "name": "Document-level Relation Extraction as Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2106.03618v2"
+        },
+        "c": "https://github.com/zjunlp/DocuNet",
+        "n": "DocuNet-SciBERTbase",
+        "d": "2021-06-07",
+        "m1": "85.3"
+      },
+      {
+        "p": {
+          "name": "A sequence-to-sequence approach for document-level relation extraction",
+          "link": "https://arxiv.org/abs/2204.01098v2"
+        },
+        "c": "https://github.com/johngiorgi/seq2rel",
+        "n": "seq2rel (entity hinting)",
+        "d": "2022-04-03",
+        "m1": "84.9"
+      },
+      {
+        "p": {
+          "name": "Document-level Relation Extraction with Context Guided Mention Integration and Inter-pair Reasoning",
+          "link": "https://arxiv.org/abs/2201.04826v1"
+        },
+        "c": "",
+        "n": "CGM2IR-SciBERTbase",
+        "d": "2022-01-13",
+        "m1": "84.7"
+      },
+      {
+        "p": {
+          "name": "Document-Level Relation Extraction with Adaptive Thresholding and Localized Context Pooling",
+          "link": "https://arxiv.org/abs/2010.11304v3"
+        },
+        "c": "https://github.com/wzhouad/ATLOP",
+        "n": "SciBERT-ATLOPBASE",
+        "d": "2020-10-21",
+        "m1": "83.9"
+      },
+      {
+        "p": {
+          "name": "Entity Structure Within and Throughout: Modeling Mention Dependencies for Document-Level Relation Extraction",
+          "link": "https://arxiv.org/abs/2102.10249v1"
+        },
+        "c": "https://github.com/PaddlePaddle/Research",
+        "n": "SSANBiaffine",
+        "d": "2021-02-20",
+        "m1": "83.9"
+      },
+      {
+        "p": {
+          "name": "Reasoning with Latent Structure Refinement for Document-Level Relation Extraction",
+          "link": "https://arxiv.org/abs/2005.06312v3"
+        },
+        "c": "https://github.com/nanguoshun/LSR",
+        "n": "LSR w/o MDP Nodes",
+        "d": "2020-05-13",
+        "m1": "82.2"
+      }
+    ]
+  }
+}

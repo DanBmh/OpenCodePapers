@@ -1,0 +1,137 @@
+{
+  "title": "single-object-discovery-on-coco-20k",
+  "task-hierarchy": [
+    "Single-object discovery"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "CorLoc",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "K-means for unsupervised instance segmentation using a self-supervised transformer",
+          "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4251338"
+        },
+        "c": "",
+        "n": "IMST",
+        "d": "2022-10-04",
+        "m1": "72.2"
+      },
+      {
+        "p": {
+          "name": "MOVE: Unsupervised Movable Object Segmentation and Detection",
+          "link": "https://arxiv.org/abs/2210.07920v2"
+        },
+        "c": "https://github.com/adambielski/move-seg",
+        "n": "MOVE + CAD",
+        "d": "2022-10-14",
+        "m1": "71.9"
+      },
+      {
+        "p": {
+          "name": "MOVE: Unsupervised Movable Object Segmentation and Detection",
+          "link": "https://arxiv.org/abs/2210.07920v2"
+        },
+        "c": "https://github.com/adambielski/move-seg",
+        "n": "MOVE",
+        "d": "2022-10-14",
+        "m1": "66.6"
+      },
+      {
+        "p": {
+          "name": "Self-Supervised Transformers for Unsupervised Object Discovery using Normalized Cut",
+          "link": "https://arxiv.org/abs/2202.11539v2"
+        },
+        "c": "https://github.com/YangtaoWANG95/TokenCut",
+        "n": "TokenCut + CAD",
+        "d": "2022-02-23",
+        "m1": "62.6"
+      },
+      {
+        "p": {
+          "name": "Self-Supervised Transformers for Unsupervised Object Discovery using Normalized Cut",
+          "link": "https://arxiv.org/abs/2202.11539v2"
+        },
+        "c": "https://github.com/YangtaoWANG95/TokenCut",
+        "n": "TokenCut",
+        "d": "2022-02-23",
+        "m1": "58.8"
+      },
+      {
+        "p": {
+          "name": "Localizing Objects with Self-Supervised Transformers and no Labels",
+          "link": "https://arxiv.org/abs/2109.14279v1"
+        },
+        "c": "https://github.com/valeoai/LOST",
+        "n": "LOST + CAD",
+        "d": "2021-09-29",
+        "m1": "57.5"
+      },
+      {
+        "p": {
+          "name": "Toward unsupervised, multi-object discovery in large-scale image collections",
+          "link": "https://arxiv.org/abs/2007.02662v2"
+        },
+        "c": "https://github.com/huyvvo/rOSD",
+        "n": "rOSD + CAD",
+        "d": "2020-07-06",
+        "m1": "53.0"
+      },
+      {
+        "p": {
+          "name": "Localizing Objects with Self-Supervised Transformers and no Labels",
+          "link": "https://arxiv.org/abs/2109.14279v1"
+        },
+        "c": "https://github.com/valeoai/LOST",
+        "n": "LOST",
+        "d": "2021-09-29",
+        "m1": "50.7"
+      },
+      {
+        "p": {
+          "name": "Toward unsupervised, multi-object discovery in large-scale image collections",
+          "link": "https://arxiv.org/abs/2007.02662v2"
+        },
+        "c": "https://github.com/huyvvo/rOSD",
+        "n": "rOSD",
+        "d": "2020-07-06",
+        "m1": "48.5"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Object Discovery and Co-Localization by Deep Descriptor Transforming",
+          "link": "http://arxiv.org/abs/1707.06397v1"
+        },
+        "c": "",
+        "n": "DDT+",
+        "d": "2017-07-20",
+        "m1": "38.2"
+      }
+    ]
+  }
+}

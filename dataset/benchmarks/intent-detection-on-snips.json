@@ -1,0 +1,137 @@
+{
+  "title": "intent-detection-on-snips",
+  "task-hierarchy": [
+    "Intent Detection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/sonos/nlu-benchmark"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "CTRAN: CNN-Transformer-based Network for Natural Language Understanding",
+          "link": "https://arxiv.org/abs/2303.10606v1"
+        },
+        "c": "https://github.com/rafiepour/CTran",
+        "n": "CTRAN",
+        "d": "2023-03-19",
+        "m1": "99.42"
+      },
+      {
+        "p": {
+          "name": "A Stack-Propagation Framework with Token-Level Intent Detection for Spoken Language Understanding",
+          "link": "https://arxiv.org/abs/1909.02188v1"
+        },
+        "c": "https://github.com/LeePleased/StackPropagation-SLU",
+        "n": "Stack-Propagation (+BERT)",
+        "d": "2019-09-05",
+        "m1": "99.0"
+      },
+      {
+        "p": {
+          "name": "CAE: Mechanism to Diminish the Class Imbalanced in SLU Slot Filling Task",
+          "link": "https://link.springer.com/chapter/10.1007/978-3-031-16210-7_12"
+        },
+        "c": "https://github.com/phuongnm94/JointBERT_CAE",
+        "n": "JointBERT-CAE",
+        "d": "2022-09-21",
+        "m1": "98.3"
+      },
+      {
+        "p": {
+          "name": "AGIF: An Adaptive Graph-Interactive Framework for Joint Multiple Intent Detection and Slot Filling",
+          "link": "https://arxiv.org/abs/2004.10087v4"
+        },
+        "c": "https://github.com/LooperXX/AGIF",
+        "n": "AGIF",
+        "d": "2020-04-21",
+        "m1": "98.1"
+      },
+      {
+        "p": {
+          "name": "A Stack-Propagation Framework with Token-Level Intent Detection for Spoken Language Understanding",
+          "link": "https://arxiv.org/abs/1909.02188v1"
+        },
+        "c": "https://github.com/LeePleased/StackPropagation-SLU",
+        "n": "Stack-Propagation",
+        "d": "2019-09-05",
+        "m1": "98.00"
+      },
+      {
+        "p": {
+          "name": "LIDSNet: A Lightweight on-device Intent Detection model using Deep Siamese Network",
+          "link": "https://arxiv.org/abs/2110.15717v1"
+        },
+        "c": "",
+        "n": "LIDSNet",
+        "d": "2021-10-06",
+        "m1": "98.0"
+      },
+      {
+        "p": {
+          "name": "A Novel Bi-directional Interrelated Model for Joint Intent Detection and Slot Filling",
+          "link": "https://arxiv.org/abs/1907.00390v1"
+        },
+        "c": "https://github.com/ZephyrChenzf/SF-ID-Network-For-NLU",
+        "n": "SF-ID",
+        "d": "2019-06-30",
+        "m1": "97.43"
+      },
+      {
+        "p": {
+          "name": "A Novel Bi-directional Interrelated Model for Joint Intent Detection and Slot Filling",
+          "link": "https://arxiv.org/abs/1907.00390v1"
+        },
+        "c": "https://github.com/ZephyrChenzf/SF-ID-Network-For-NLU",
+        "n": "SF-ID (BLSTM) network",
+        "d": "2019-06-30",
+        "m1": "97.43"
+      },
+      {
+        "p": {
+          "name": "Joint Slot Filling and Intent Detection via Capsule Neural Networks",
+          "link": "https://arxiv.org/abs/1812.09471v2"
+        },
+        "c": "https://github.com/czhang99/Capsule-NLU",
+        "n": "Capsule-NLU",
+        "d": "2018-12-22",
+        "m1": "97.3"
+      },
+      {
+        "p": {
+          "name": "Slot-Gated Modeling for Joint Slot Filling and Intent Prediction",
+          "link": "https://aclanthology.org/N18-2118"
+        },
+        "c": "https://github.com/MiuLab/SlotGated-SLU",
+        "n": "Slot-Gated BLSTM with Attension",
+        "d": "2018-06-01",
+        "m1": "97.00"
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "title": "fake-news-detection-on-grover-mega",
+  "task-hierarchy": [
+    "Fake News Detection"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Unpaired Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Exploring Text-transformers in AAAI 2021 Shared Task: COVID-19 Fake News Detection in English",
+          "link": "https://arxiv.org/abs/2101.02359v1"
+        },
+        "c": "https://github.com/archersama/3rd-solution-COVID19-Fake-News-Detection-in-English",
+        "n": "Text-Transformers + Five-fold five model cross-validation +Pseudo Label Algorithm",
+        "d": "2021-01-07",
+        "m1": "98.5%"
+      },
+      {
+        "p": {
+          "name": "Defending Against Neural Fake News",
+          "link": "https://arxiv.org/abs/1905.12616v3"
+        },
+        "c": "https://github.com/rowanz/grover",
+        "n": "Grover-Mega",
+        "d": "2019-05-29",
+        "m1": "92.0%"
+      },
+      {
+        "p": {
+          "name": "Defending Against Neural Fake News",
+          "link": "https://arxiv.org/abs/1905.12616v3"
+        },
+        "c": "https://github.com/rowanz/grover",
+        "n": "Grover-Large",
+        "d": "2019-05-29",
+        "m1": "80.8%"
+      },
+      {
+        "p": {
+          "name": "Defending Against Neural Fake News",
+          "link": "https://arxiv.org/abs/1905.12616v3"
+        },
+        "c": "https://github.com/rowanz/grover",
+        "n": "BERT-Large",
+        "d": "2019-05-29",
+        "m1": "73.1%"
+      },
+      {
+        "p": {
+          "name": "Defending Against Neural Fake News",
+          "link": "https://arxiv.org/abs/1905.12616v3"
+        },
+        "c": "https://github.com/rowanz/grover",
+        "n": "GPT2 (355M)",
+        "d": "2019-05-29",
+        "m1": "70.1%"
+      }
+    ]
+  }
+}

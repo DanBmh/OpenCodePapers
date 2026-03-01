@@ -1,0 +1,130 @@
+{
+  "title": "unsupervised-image-classification-on-cifar-10",
+  "task-hierarchy": [
+    "Image Classification",
+    "Unsupervised Image Classification"
+  ],
+  "dataset-info": {
+    "link": "https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Accuracy ",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Let Go of Your Labels with Unsupervised Transfer",
+          "link": "https://arxiv.org/abs/2406.07236v1"
+        },
+        "c": "https://github.com/mlbio-epfl/turtle",
+        "n": "TURTLE (CLIP + DINOv2)",
+        "d": "2024-06-11",
+        "m1": "99.5"
+      },
+      {
+        "p": {
+          "name": "Stable Cluster Discrimination for Deep Clustering",
+          "link": "https://arxiv.org/abs/2311.14310v1"
+        },
+        "c": "https://github.com/idstcv/secu",
+        "n": "SeCu",
+        "d": "2023-11-24",
+        "m1": "93"
+      },
+      {
+        "p": {
+          "name": "Improving Unsupervised Image Clustering With Robust Learning",
+          "link": "https://arxiv.org/abs/2012.11150v2"
+        },
+        "c": "https://github.com/deu30303/RUC",
+        "n": "RUC",
+        "d": "2020-12-21",
+        "m1": "90.3"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "HUME",
+        "d": null,
+        "m1": "88.4"
+      },
+      {
+        "p": {
+          "name": "SCAN: Learning to Classify Images without Labels",
+          "link": "https://arxiv.org/abs/2005.12320v2"
+        },
+        "c": "https://github.com/wvangansbeke/Unsupervised-Classification",
+        "n": "SCAN",
+        "d": "2020-05-25",
+        "m1": "88.3"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Visual Representation Learning by Online Constrained K-Means",
+          "link": "https://arxiv.org/abs/2105.11527v3"
+        },
+        "c": "https://github.com/idstcv/coke",
+        "n": "CoKe",
+        "d": "2021-05-24",
+        "m1": "85.7"
+      },
+      {
+        "p": {
+          "name": "Mitigating Embedding and Class Assignment Mismatch in Unsupervised Image Classification",
+          "link": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/4802_ECCV_2020_paper.php"
+        },
+        "c": "https://github.com/dscig/TwoStageUC",
+        "n": "TSUC",
+        "d": null,
+        "m1": "81.0"
+      },
+      {
+        "p": {
+          "name": "Invariant Information Clustering for Unsupervised Image Classification and Segmentation",
+          "link": "https://arxiv.org/abs/1807.06653v4"
+        },
+        "c": "https://github.com/xu-ji/IIC",
+        "n": "IIC",
+        "d": "2018-07-17",
+        "m1": "61.7"
+      },
+      {
+        "p": {
+          "name": "IPCL: Iterative Pseudo-Supervised Contrastive Learning to Improve Self-Supervised Feature Representation",
+          "link": "https://doi.org/10.1109/ICASSP48485.2024.10447607"
+        },
+        "c": "https://github.com/SonalKumar95/IPCL",
+        "n": "IPCL (ResNet18)",
+        "d": "2024-03-18",
+        "m2": "88.81"
+      }
+    ]
+  }
+}

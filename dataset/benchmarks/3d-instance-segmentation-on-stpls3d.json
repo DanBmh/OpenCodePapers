@@ -1,0 +1,152 @@
+{
+  "title": "3d-instance-segmentation-on-stpls3d",
+  "task-hierarchy": [
+    "3D Instance Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://www.stpls3d.com/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AP",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "AP50",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "AP25",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Edge-Aware 3D Instance Segmentation Network with Intelligent Semantic Prior",
+          "link": "http://openaccess.thecvf.com//content/CVPR2024/html/Roh_Edge-Aware_3D_Instance_Segmentation_Network_with_Intelligent_Semantic_Prior_CVPR_2024_paper.html"
+        },
+        "c": "",
+        "n": "EASE",
+        "d": "2024-01-01",
+        "m1": "64.5",
+        "m2": "80.8",
+        "m3": "86.9"
+      },
+      {
+        "p": {
+          "name": "Mask3D: Mask Transformer for 3D Semantic Instance Segmentation",
+          "link": "https://arxiv.org/abs/2210.03105v2"
+        },
+        "c": "https://github.com/jonasschult/mask3d",
+        "n": "Mask3D",
+        "d": "2022-10-06",
+        "m1": "57.3",
+        "m2": "74.3",
+        "m3": "81.6"
+      },
+      {
+        "p": {
+          "name": "Top-Down Beats Bottom-Up in 3D Instance Segmentation",
+          "link": "https://arxiv.org/abs/2302.02871v4"
+        },
+        "c": "",
+        "n": "TD3D",
+        "d": "2023-02-06",
+        "m1": "54.3",
+        "m2": "69.8"
+      },
+      {
+        "p": {
+          "name": "Spherical Mask: Coarse-to-Fine 3D Point Cloud Instance Segmentation with Spherical Representation",
+          "link": "https://arxiv.org/abs/2312.11269v2"
+        },
+        "c": "https://github.com/yunshin/SphericalMask",
+        "n": "Spherical Mask",
+        "d": "2023-12-18",
+        "m1": "52.2",
+        "m2": "68.3"
+      },
+      {
+        "p": {
+          "name": "ISBNet: a 3D Point Cloud Instance Segmentation Network with Instance-aware Sampling and Box-aware Dynamic Convolution",
+          "link": "https://arxiv.org/abs/2303.00246v2"
+        },
+        "c": "https://github.com/VinAIResearch/ISBNet",
+        "n": "ISBNet",
+        "d": "2023-03-01",
+        "m1": "49.2",
+        "m2": "64.0"
+      },
+      {
+        "p": {
+          "name": "SoftGroup for 3D Instance Segmentation on Point Clouds",
+          "link": "https://arxiv.org/abs/2203.01509v1"
+        },
+        "c": "https://github.com/thangvubk/softgroup",
+        "n": "SoftGroup",
+        "d": "2022-03-03",
+        "m1": "47.3",
+        "m2": "63.1",
+        "m3": "71.4"
+      },
+      {
+        "p": {
+          "name": "Scalable SoftGroup for 3D Instance Segmentation on Point Clouds",
+          "link": "https://arxiv.org/abs/2209.08263v3"
+        },
+        "c": "https://github.com/thangvubk/softgroup",
+        "n": "SoftGroup++",
+        "d": "2022-09-17",
+        "m1": "46.5",
+        "m2": "62.9",
+        "m3": "71.8"
+      },
+      {
+        "p": {
+          "name": "Hierarchical Aggregation for 3D Instance Segmentation",
+          "link": "https://arxiv.org/abs/2108.02350v1"
+        },
+        "c": "https://github.com/hustvl/HAIS",
+        "n": "HAIS",
+        "d": "2021-08-05",
+        "m1": "35.1",
+        "m2": "46.7",
+        "m3": "52.8"
+      },
+      {
+        "p": {
+          "name": "PointGroup: Dual-Set Point Grouping for 3D Instance Segmentation",
+          "link": "https://arxiv.org/abs/2004.01658v1"
+        },
+        "c": "https://github.com/Pointcept/Pointcept",
+        "n": "PointGroup",
+        "d": "2020-04-03",
+        "m1": "23.3",
+        "m2": "38.5",
+        "m3": "48.6"
+      }
+    ]
+  }
+}

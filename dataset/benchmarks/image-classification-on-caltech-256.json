@@ -1,0 +1,84 @@
+{
+  "title": "image-classification-on-caltech-256",
+  "task-hierarchy": [
+    "Image Classification"
+  ],
+  "dataset-info": {
+    "link": "http://www.vision.caltech.edu/Image_Datasets/Caltech256/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Attend and Guide (AG-Net): A Keypoints-driven Attention-based Deep Network for Image Recognition",
+          "link": "https://arxiv.org/abs/2110.12183v1"
+        },
+        "c": "https://github.com/DanielKovach/AG-Net",
+        "n": "AG-Net",
+        "d": "2021-10-23",
+        "m1": "96.89%"
+      },
+      {
+        "p": {
+          "name": "Non-binary deep transfer learning for image classification",
+          "link": "https://arxiv.org/abs/2107.08585v2"
+        },
+        "c": "https://github.com/XuyangSHEN/Non-binary-deep-transfer-learning-for-image-classification",
+        "n": "Inceptionv4",
+        "d": "2021-07-19",
+        "m1": "85.94"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "swin-transformer",
+        "d": null,
+        "m1": "77"
+      },
+      {
+        "p": {
+          "name": "Non-binary deep transfer learning for image classification",
+          "link": "https://arxiv.org/abs/2107.08585v2"
+        },
+        "c": "https://github.com/XuyangSHEN/Non-binary-deep-transfer-learning-for-image-classification",
+        "n": "Inceptionv4 (random initialization)",
+        "d": "2021-07-19",
+        "m1": "67.2"
+      },
+      {
+        "p": {
+          "name": "WaveMix: A Resource-efficient Neural Network for Image Analysis",
+          "link": "https://arxiv.org/abs/2205.14375v5"
+        },
+        "c": "https://github.com/pranavphoenix/WaveMix",
+        "n": "WaveMixLite-256/7",
+        "d": "2022-05-28",
+        "m1": "54.62"
+      }
+    ]
+  }
+}

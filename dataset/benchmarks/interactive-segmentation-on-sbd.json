@@ -1,0 +1,200 @@
+{
+  "title": "interactive-segmentation-on-sbd",
+  "task-hierarchy": [
+    "Interactive Segmentation"
+  ],
+  "dataset-info": {
+    "link": "http://home.bharathh.info/pubs/codes/SBD/download.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "NoC@90",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "NoC@85",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "NoC@95",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "CFR-ICL: Cascade-Forward Refinement with Iterative Click Loss for Interactive Image Segmentation",
+          "link": "https://arxiv.org/abs/2303.05620v2"
+        },
+        "c": "https://github.com/TitorX/CFR-ICL-Interactive-Segmentation",
+        "n": "SimpleClick CFR-1 (ViT-H, SBD)",
+        "d": "2023-03-09",
+        "m1": "4.08",
+        "m2": "2.45",
+        "m3": "9.80"
+      },
+      {
+        "p": {
+          "name": "SimpleClick: Interactive Image Segmentation with Simple Vision Transformers",
+          "link": "https://arxiv.org/abs/2210.11006v3"
+        },
+        "c": "https://github.com/uncbiag/simpleclick",
+        "n": "SimpleClick",
+        "d": "2022-10-20",
+        "m1": "4.15",
+        "m2": "2.51"
+      },
+      {
+        "p": {
+          "name": "UCP-Net: Unstructured Contour Points for Instance Segmentation",
+          "link": "https://arxiv.org/abs/2109.07592v1"
+        },
+        "c": "",
+        "n": "UCP-Net",
+        "d": "2021-09-15",
+        "m1": "5.00",
+        "m2": "2.73"
+      },
+      {
+        "p": {
+          "name": "Cascaded Sparse Feature Propagation Network for Interactive Segmentation",
+          "link": "https://arxiv.org/abs/2203.05145v3"
+        },
+        "c": "https://github.com/kleinzcy/csfpn",
+        "n": "IA-FP-Net(HRNet,SBD)",
+        "d": "2022-03-10",
+        "m1": "5.25",
+        "m2": "3.33"
+      },
+      {
+        "p": {
+          "name": "FocusCut: Diving Into a Focus View in Interactive Segmentation",
+          "link": "http://openaccess.thecvf.com//content/CVPR2022/html/Lin_FocusCut_Diving_Into_a_Focus_View_in_Interactive_Segmentation_CVPR_2022_paper.html"
+        },
+        "c": "https://github.com/frazerlin/focuscut",
+        "n": "FocusCut",
+        "d": "2022-01-01",
+        "m1": "5.31",
+        "m2": "3.40"
+      },
+      {
+        "p": {
+          "name": "Reviving Iterative Training with Mask Guidance for Interactive Segmentation",
+          "link": "https://arxiv.org/abs/2102.06583v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
+        "n": "RITM (HRNet18, SBD)",
+        "d": "2021-02-12",
+        "m1": "5.43",
+        "m2": "3.39"
+      },
+      {
+        "p": {
+          "name": "FocalClick: Towards Practical Interactive Image Segmentation",
+          "link": "https://arxiv.org/abs/2204.02574v2"
+        },
+        "c": "https://github.com/XavierCHEN34/ClickSEG",
+        "n": "FocalClick",
+        "d": "2022-04-06",
+        "m1": "5.59",
+        "m2": "3.53"
+      },
+      {
+        "p": {
+          "name": "f-BRS: Rethinking Backpropagating Refinement for Interactive Segmentation",
+          "link": "https://arxiv.org/abs/2001.10331v3"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
+        "n": "f-BRS-B (ResNet-101)",
+        "d": "2020-01-28",
+        "m1": "7.73",
+        "m2": "4.81"
+      },
+      {
+        "p": {
+          "name": "Interactive Image Segmentation via Backpropagating Refinement Scheme",
+          "link": "http://openaccess.thecvf.com/content_CVPR_2019/html/Jang_Interactive_Image_Segmentation_via_Backpropagating_Refinement_Scheme_CVPR_2019_paper.html"
+        },
+        "c": "",
+        "n": "BRS",
+        "d": "2019-06-01",
+        "m1": "9.78",
+        "m2": "6.59"
+      },
+      {
+        "p": {
+          "name": "Interactive Image Segmentation With Latent Diversity",
+          "link": "http://openaccess.thecvf.com/content_cvpr_2018/html/Li_Interactive_Image_Segmentation_CVPR_2018_paper.html"
+        },
+        "c": "https://github.com/intel-isl/Intseg",
+        "n": "Latent diversity",
+        "d": "2018-06-01",
+        "m1": "10.78",
+        "m2": "7.41"
+      },
+      {
+        "p": {
+          "name": "Deep Interactive Object Selection",
+          "link": "http://arxiv.org/abs/1603.04042v1"
+        },
+        "c": "https://github.com/intel-isl/Intseg",
+        "n": "DOS with GC",
+        "d": "2016-03-13",
+        "m1": "12.80",
+        "m2": "9.22"
+      },
+      {
+        "p": {
+          "name": "Deep Interactive Object Selection",
+          "link": "http://arxiv.org/abs/1603.04042v1"
+        },
+        "c": "https://github.com/intel-isl/Intseg",
+        "n": "DOS w/o GC",
+        "d": "2016-03-13",
+        "m1": "16.79",
+        "m2": "14.30"
+      },
+      {
+        "p": {
+          "name": "MST: Adaptive Multi-Scale Tokens Guided Interactive Segmentation",
+          "link": "https://arxiv.org/abs/2401.04403v2"
+        },
+        "c": "https://github.com/hahamyt/mst",
+        "n": "ViT-B+MST+CL",
+        "d": "2024-01-09",
+        "m2": "3.03"
+      },
+      {
+        "p": {
+          "name": "Regional Interactive Image Segmentation Networks",
+          "link": "http://openaccess.thecvf.com/content_iccv_2017/html/Liew_Regional_Interactive_Image_ICCV_2017_paper.html"
+        },
+        "c": "",
+        "n": "RIS-Net",
+        "d": "2017-10-01",
+        "m2": "6.03"
+      }
+    ]
+  }
+}

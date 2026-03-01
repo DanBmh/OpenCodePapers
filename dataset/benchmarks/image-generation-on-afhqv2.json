@@ -1,0 +1,123 @@
+{
+  "title": "image-generation-on-afhqv2",
+  "task-hierarchy": [
+    "Image Generation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/clovaai/stargan-v2"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "FID",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "EQ-T",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "EQ-R",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Polarity Sampling: Quality and Diversity Control of Pre-Trained Generative Networks via Singular Values",
+          "link": "https://arxiv.org/abs/2203.01993v2"
+        },
+        "c": "https://github.com/AhmedImtiazPrio/magnet-polarity",
+        "n": "Polarity-StyleGAN3",
+        "d": "2022-03-03",
+        "m1": "3.95"
+      },
+      {
+        "p": {
+          "name": "Alias-Free Generative Adversarial Networks",
+          "link": "https://arxiv.org/abs/2106.12423v4"
+        },
+        "c": "https://github.com/NVlabs/stylegan3",
+        "n": "Alias-Free-T",
+        "d": "2021-06-23",
+        "m1": "4.04",
+        "m2": "60.15",
+        "m3": "13.51"
+      },
+      {
+        "p": {
+          "name": "Alias-Free Generative Adversarial Networks",
+          "link": "https://arxiv.org/abs/2106.12423v4"
+        },
+        "c": "https://github.com/NVlabs/stylegan3",
+        "n": "Alias-Free-R",
+        "d": "2021-06-23",
+        "m1": "4.40",
+        "m2": "64.89",
+        "m3": "40.34"
+      },
+      {
+        "p": {
+          "name": "Alias-Free Generative Adversarial Networks",
+          "link": "https://arxiv.org/abs/2106.12423v4"
+        },
+        "c": "https://github.com/NVlabs/stylegan3",
+        "n": "StyleGAN2",
+        "d": "2021-06-23",
+        "m1": "4.62",
+        "m2": "13.83",
+        "m3": "11.50"
+      },
+      {
+        "p": {
+          "name": "GENIE: Higher-Order Denoising Diffusion Solvers",
+          "link": "https://arxiv.org/abs/2210.05475v1"
+        },
+        "c": "https://github.com/nv-tlabs/GENIE",
+        "n": "GENIE (NFEs=15)",
+        "d": "2022-10-11",
+        "m1": "4.83"
+      },
+      {
+        "p": {
+          "name": "GENIE: Higher-Order Denoising Diffusion Solvers",
+          "link": "https://arxiv.org/abs/2210.05475v1"
+        },
+        "c": "https://github.com/nv-tlabs/GENIE",
+        "n": "GENIE (NFEs=10)",
+        "d": "2022-10-11",
+        "m1": "4.9"
+      },
+      {
+        "p": {
+          "name": "GENIE: Higher-Order Denoising Diffusion Solvers",
+          "link": "https://arxiv.org/abs/2210.05475v1"
+        },
+        "c": "https://github.com/nv-tlabs/GENIE",
+        "n": "GENIE (NFEs=5)",
+        "d": "2022-10-11",
+        "m1": "5.53"
+      }
+    ]
+  }
+}

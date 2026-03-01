@@ -1,6 +1,6 @@
 import argparse
+import json
 import os
-import re
 
 # ==================================================================================================
 
@@ -279,18 +279,63 @@ HTML_SCAFFOLD = r"""<!DOCTYPE html>
 </html>
 """
 
-MD_TO_HTML_HREF = re.compile(r'href="([^"]+?)\.md(\#[^"]*)?"', re.IGNORECASE)
+# ==================================================================================================
+
+
+def escape_html(s: str) -> str:
+    return (
+        s.replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+        .replace('"', "&quot;")
+    )
+
 
 # ==================================================================================================
 
 
-def rewrite_md_links_to_html(s: str) -> str:
-    def _rep(m):
-        path = m.group(1).replace("dataset/", "")
-        frag = m.group(2) or ""
-        return f'href="{path}.html{frag}" target="_blank" rel="noopener noreferrer"'
+def json_to_html(data):
+    """
+    Convert the JSON hierarchy structure to nested HTML details/summary elements.
+    data can be a dict with categories as keys, or a list of mixed strings and dicts.
+    """
+    if isinstance(data, dict):
+        lines = []
+        for category, content in data.items():
+            lines.append(render_category(category, content))
+        return "\n".join(lines)
+    return ""
 
-    return MD_TO_HTML_HREF.sub(_rep, s)
+
+def render_category(category: str, content) -> str:
+    """Render a single category with its nested content."""
+    lines = []
+    lines.append("<details>")
+    lines.append(f"  <summary>{escape_html(category)}</summary>")
+    lines.append("  <div>")
+
+    if isinstance(content, list):
+        # Separate strings (benchmarks) from dicts (nested categories)
+        benchmarks = [item for item in content if isinstance(item, str)]
+        subcategories = [item for item in content if isinstance(item, dict)]
+
+        # Render nested categories first
+        for item_dict in subcategories:
+            for subcat, subcontent in item_dict.items():
+                lines.append(render_category(subcat, subcontent))
+
+        # Then render benchmarks as a list
+        if benchmarks:
+            lines.append("    <ul>")
+            for benchmark in benchmarks:
+                lines.append(
+                    f'      <li><a href="benchmarks/{escape_html(benchmark)}.html" target="_blank" rel="noopener noreferrer">{escape_html(benchmark)}</a></li>'
+                )
+            lines.append("    </ul>")
+
+    lines.append("  </div>")
+    lines.append("</details>")
+    return "\n".join(lines)
 
 
 # ==================================================================================================
@@ -298,9 +343,9 @@ def rewrite_md_links_to_html(s: str) -> str:
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Build a light-themed tasks landing page from tasks.md"
+        description="Build a light-themed tasks landing page from tasks.json"
     )
-    parser.add_argument("--input", "-i", default="dataset/tasks.md")
+    parser.add_argument("--input", "-i", default="dataset/tasks.json")
     parser.add_argument("--output", "-o", default="public/index.html")
     args = parser.parse_args()
 
@@ -308,13 +353,12 @@ def main():
         raise SystemExit(f"Not found: {args.input}")
 
     with open(args.input, "r", encoding="utf-8") as f:
-        content = f.read()
+        tasks_data = json.load(f)
 
-    # If tasks.md is Markdown, it already contains raw HTML; take as-is
-    # Just ensure all benchmark links point to generated .html pages
-    content = rewrite_md_links_to_html(content)
+    # Convert JSON to HTML
+    html_tree = json_to_html(tasks_data)
 
-    html = HTML_SCAFFOLD.replace("<!--TREE-->", content)
+    html = HTML_SCAFFOLD.replace("<!--TREE-->", html_tree)
 
     out_dir = os.path.dirname(os.path.abspath(args.output))
     if out_dir and not os.path.isdir(out_dir):
@@ -322,6 +366,8 @@ def main():
 
     with open(args.output, "w", encoding="utf-8") as f:
         f.write(html)
+
+    print(f"[info] Generated {args.output}")
 
 
 # ==================================================================================================

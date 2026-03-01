@@ -1,0 +1,98 @@
+{
+  "title": "head-pose-estimation-on-aflw",
+  "task-hierarchy": [
+    "Pose Estimation",
+    "Head Pose Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://www.tugraz.at/institute/icg/research/team-bischof/lrs/downloads/aflw/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MAE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Multi-task head pose estimation in-the-wild",
+          "link": "https://arxiv.org/abs/2202.02299v1"
+        },
+        "c": "https://github.com/bobetocalo/bobetocalo_pami20",
+        "n": "MNN",
+        "d": "2020-12-22",
+        "m1": "3.22"
+      },
+      {
+        "p": {
+          "name": "Nose, eyes and ears: Head pose estimation by locating facial keypoints",
+          "link": "http://arxiv.org/abs/1812.00739v1"
+        },
+        "c": "https://github.com/Arnav0400/Headpose_Estimation",
+        "n": "CNN + Heatmap",
+        "d": "2018-12-03",
+        "m1": "4.06"
+      },
+      {
+        "p": {
+          "name": "Hybrid coarse-fine classification for head pose estimation",
+          "link": "https://arxiv.org/abs/1901.06778v2"
+        },
+        "c": "https://github.com/haofanwang/accurate-head-pose",
+        "n": "Hybrid Coarse-Fine",
+        "d": "2019-01-21",
+        "m1": "5.09"
+      },
+      {
+        "p": {
+          "name": "Nose, eyes and ears: Head pose estimation by locating facial keypoints",
+          "link": "http://arxiv.org/abs/1812.00739v1"
+        },
+        "c": "https://github.com/Arnav0400/Headpose_Estimation",
+        "n": "MLP + Location",
+        "d": "2018-12-03",
+        "m1": "5.14"
+      },
+      {
+        "p": {
+          "name": "Fine-Grained Head Pose Estimation Without Keypoints",
+          "link": "http://arxiv.org/abs/1710.00925v5"
+        },
+        "c": "https://github.com/natanielruiz/deep-head-pose",
+        "n": "Ruiz et al.",
+        "d": "2017-10-02",
+        "m1": "5.324"
+      },
+      {
+        "p": {
+          "name": "Deep Label Distribution Learning with Label Ambiguity",
+          "link": "http://arxiv.org/abs/1611.01731v2"
+        },
+        "c": "https://github.com/gaobb/DLDL",
+        "n": "DLDL (KL)",
+        "d": "2016-11-06",
+        "m1": "9.78"
+      }
+    ]
+  }
+}

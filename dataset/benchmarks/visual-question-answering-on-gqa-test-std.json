@@ -1,0 +1,107 @@
+{
+  "title": "visual-question-answering-on-gqa-test-std",
+  "task-hierarchy": [
+    "Visual Question Answering (VQA)"
+  ],
+  "dataset-info": {
+    "link": "https://cs.stanford.edu/people/dorarad/gqa/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "ProTo: Program-Guided Transformer for Program-Guided Tasks",
+          "link": "https://arxiv.org/abs/2110.00804v2"
+        },
+        "c": "https://github.com/sjtuytc/Neurips21-ProTo-Program-guided-Transformers-for-Program-guided-Tasks",
+        "n": "ProTo",
+        "d": "2021-10-02",
+        "m1": "65.14"
+      },
+      {
+        "p": {
+          "name": "Learning by Abstraction: The Neural State Machine",
+          "link": "https://arxiv.org/abs/1907.03950v4"
+        },
+        "c": "https://github.com/stanfordnlp/mac-network",
+        "n": "NSM",
+        "d": "2019-07-09",
+        "m1": "63.17"
+      },
+      {
+        "p": {
+          "name": "MDETR -- Modulated Detection for End-to-End Multi-Modal Understanding",
+          "link": "https://arxiv.org/abs/2104.12763v2"
+        },
+        "c": "https://github.com/facebookresearch/multimodal",
+        "n": "MDETR-ENB5",
+        "d": "2021-04-26",
+        "m1": "62.45"
+      },
+      {
+        "p": {
+          "name": "LXMERT: Learning Cross-Modality Encoder Representations from Transformers",
+          "link": "https://arxiv.org/abs/1908.07490v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LXMERT",
+        "d": "2019-08-20",
+        "m1": "60.3"
+      },
+      {
+        "p": {
+          "name": "Language-Conditioned Graph Networks for Relational Reasoning",
+          "link": "https://arxiv.org/abs/1905.04405v2"
+        },
+        "c": "https://github.com/ronghanghu/lcgn",
+        "n": "single-hop + LCGN (ours)",
+        "d": "2019-05-10",
+        "m1": "56.1"
+      },
+      {
+        "p": {
+          "name": "GQA: A New Dataset for Real-World Visual Reasoning and Compositional Question Answering",
+          "link": "https://arxiv.org/abs/1902.09506v3"
+        },
+        "c": "https://github.com/stanfordnlp/mac-network",
+        "n": "MAC",
+        "d": "2019-02-25",
+        "m1": "54.06"
+      },
+      {
+        "p": {
+          "name": "GQA: A New Dataset for Real-World Visual Reasoning and Compositional Question Answering",
+          "link": "https://arxiv.org/abs/1902.09506v3"
+        },
+        "c": "https://github.com/stanfordnlp/mac-network",
+        "n": "CNN+LSTM",
+        "d": "2019-02-25",
+        "m1": "46.55"
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "title": "image-generation-on-clevr",
+  "task-hierarchy": [
+    "Image Generation"
+  ],
+  "dataset-info": {
+    "link": "https://cs.stanford.edu/people/jcjohns/clevr/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "FID-5k-training-steps",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Projected GANs Converge Faster",
+          "link": "https://arxiv.org/abs/2111.01007v1"
+        },
+        "c": "https://github.com/autonomousvision/projected_gan",
+        "n": "Projected GAN",
+        "d": "2021-11-01",
+        "m1": "0.89"
+      },
+      {
+        "p": {
+          "name": "Generative Adversarial Transformers",
+          "link": "https://arxiv.org/abs/2103.01209v4"
+        },
+        "c": "https://github.com/dorarad/gansformer",
+        "n": "GANformer",
+        "d": "2021-03-01",
+        "m1": "9.1679"
+      },
+      {
+        "p": {
+          "name": "Generative Adversarial Transformers",
+          "link": "https://arxiv.org/abs/2103.01209v4"
+        },
+        "c": "https://github.com/dorarad/gansformer",
+        "n": "StyleGAN2",
+        "d": "2021-03-01",
+        "m1": "16.0534"
+      },
+      {
+        "p": {
+          "name": "Generative Adversarial Transformers",
+          "link": "https://arxiv.org/abs/2103.01209v4"
+        },
+        "c": "https://github.com/dorarad/gansformer",
+        "n": "GAN",
+        "d": "2021-03-01",
+        "m1": "25.0244"
+      },
+      {
+        "p": {
+          "name": "Generative Adversarial Transformers",
+          "link": "https://arxiv.org/abs/2103.01209v4"
+        },
+        "c": "https://github.com/dorarad/gansformer",
+        "n": "SAGAN",
+        "d": "2021-03-01",
+        "m1": "26.0433"
+      },
+      {
+        "p": {
+          "name": "Generative Adversarial Transformers",
+          "link": "https://arxiv.org/abs/2103.01209v4"
+        },
+        "c": "https://github.com/dorarad/gansformer",
+        "n": "VQGAN",
+        "d": "2021-03-01",
+        "m1": "32.6031"
+      }
+    ]
+  }
+}

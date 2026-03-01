@@ -1,0 +1,194 @@
+{
+  "title": "novel-view-synthesis-on-nerf",
+  "task-hierarchy": [
+    "Novel View Synthesis"
+  ],
+  "dataset-info": {
+    "link": "https://www.matthewtancik.com/nerf"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "LPIPS",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Average PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Size (MB)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Deformable Beta Splatting",
+          "link": "https://arxiv.org/abs/2501.18630v2"
+        },
+        "c": "https://github.com/RongLiu-Leo/beta-splatting",
+        "n": "Deformable Beta Splatting",
+        "d": "2025-01-27",
+        "m1": "34.66",
+        "m2": "0.973 ",
+        "m3": "0.028"
+      },
+      {
+        "p": {
+          "name": "Compact 3D Scene Representation via Self-Organizing Gaussian Grids",
+          "link": "https://arxiv.org/abs/2312.13299v2"
+        },
+        "c": "https://github.com/facebookresearch/uco3d",
+        "n": "Self-Organizing Gaussians",
+        "d": "2023-12-19",
+        "m1": "33.7",
+        "m2": "0.969",
+        "m3": "0.031",
+        "m5": "4.1"
+      },
+      {
+        "p": {
+          "name": "K-Planes: Explicit Radiance Fields in Space, Time, and Appearance",
+          "link": "https://arxiv.org/abs/2301.10241v2"
+        },
+        "c": "https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/tree/main/KPlanes_Explicit_Radiance_Fields_in_Space_Time_and_Appearance",
+        "n": "I-NGP",
+        "d": "2023-01-24",
+        "m1": "33.18"
+      },
+      {
+        "p": {
+          "name": "K-Planes: Explicit Radiance Fields in Space, Time, and Appearance",
+          "link": "https://arxiv.org/abs/2301.10241v2"
+        },
+        "c": "https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/tree/main/KPlanes_Explicit_Radiance_Fields_in_Space_Time_and_Appearance",
+        "n": "TensoRF",
+        "d": "2023-01-24",
+        "m1": "33.14",
+        "m2": "0.963"
+      },
+      {
+        "p": {
+          "name": "K-Planes: Explicit Radiance Fields in Space, Time, and Appearance",
+          "link": "https://arxiv.org/abs/2301.10241v2"
+        },
+        "c": "https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/tree/main/KPlanes_Explicit_Radiance_Fields_in_Space_Time_and_Appearance",
+        "n": "K-Planes (hybrid)",
+        "d": "2023-01-24",
+        "m1": "32.36",
+        "m2": "0.967"
+      },
+      {
+        "p": {
+          "name": "K-Planes: Explicit Radiance Fields in Space, Time, and Appearance",
+          "link": "https://arxiv.org/abs/2301.10241v2"
+        },
+        "c": "https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/tree/main/KPlanes_Explicit_Radiance_Fields_in_Space_Time_and_Appearance",
+        "n": "K-Planes (explicit)",
+        "d": "2023-01-24",
+        "m1": "32.21",
+        "m2": "0.964"
+      },
+      {
+        "p": {
+          "name": "K-Planes: Explicit Radiance Fields in Space, Time, and Appearance",
+          "link": "https://arxiv.org/abs/2301.10241v2"
+        },
+        "c": "https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/tree/main/KPlanes_Explicit_Radiance_Fields_in_Space_Time_and_Appearance",
+        "n": "Plenoxels",
+        "d": "2023-01-24",
+        "m1": "31.71",
+        "m2": "0.958"
+      },
+      {
+        "p": {
+          "name": "MobileNeRF: Exploiting the Polygon Rasterization Pipeline for Efficient Neural Field Rendering on Mobile Architectures",
+          "link": "https://arxiv.org/abs/2208.00277v5"
+        },
+        "c": "https://github.com/google-research/jax3d",
+        "n": "JAXNeRF",
+        "d": "2022-07-30",
+        "m1": "31.65",
+        "m2": "0.952",
+        "m3": "0.051"
+      },
+      {
+        "p": {
+          "name": "MobileNeRF: Exploiting the Polygon Rasterization Pipeline for Efficient Neural Field Rendering on Mobile Architectures",
+          "link": "https://arxiv.org/abs/2208.00277v5"
+        },
+        "c": "https://github.com/google-research/jax3d",
+        "n": "NeRF",
+        "d": "2022-07-30",
+        "m1": "31",
+        "m2": "0.947",
+        "m3": "0.081"
+      },
+      {
+        "p": {
+          "name": "MobileNeRF: Exploiting the Polygon Rasterization Pipeline for Efficient Neural Field Rendering on Mobile Architectures",
+          "link": "https://arxiv.org/abs/2208.00277v5"
+        },
+        "c": "https://github.com/google-research/jax3d",
+        "n": "MobileNeRF",
+        "d": "2022-07-30",
+        "m1": "30.9",
+        "m2": "0.947",
+        "m3": "0.062"
+      },
+      {
+        "p": {
+          "name": "MobileNeRF: Exploiting the Polygon Rasterization Pipeline for Efficient Neural Field Rendering on Mobile Architectures",
+          "link": "https://arxiv.org/abs/2208.00277v5"
+        },
+        "c": "https://github.com/google-research/jax3d",
+        "n": "SNeRG",
+        "d": "2022-07-30",
+        "m1": "30.38",
+        "m2": "0.95",
+        "m3": "0.05"
+      },
+      {
+        "p": {
+          "name": "One is All: Bridging the Gap Between Neural Radiance Fields Architectures with Progressive Volume Distillation",
+          "link": "https://arxiv.org/abs/2211.15977v3"
+        },
+        "c": "https://github.com/megvii-research/AAAI2023-PVD",
+        "n": "PVD_Hash2NeRF",
+        "d": "2022-11-29",
+        "m4": "30.76"
+      }
+    ]
+  }
+}

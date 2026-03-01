@@ -1,0 +1,138 @@
+{
+  "title": "math-word-problem-solving-on-alg514",
+  "task-hierarchy": [
+    "Mathematical Reasoning",
+    "Math Word Problem Solving"
+  ],
+  "dataset-info": {
+    "link": "https://groups.csail.mit.edu/rbg/code/wordprobs/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Learning from Explicit and Implicit Supervision Jointly For Algebra Word Problems",
+          "link": "https://aclanthology.org/D16-1029"
+        },
+        "c": "",
+        "n": "MixedSP",
+        "d": "2016-11-01",
+        "m1": "83"
+      },
+      {
+        "p": {
+          "name": "Generating Equation by Utilizing Operators : GEO model",
+          "link": "https://aclanthology.org/2020.coling-main.38"
+        },
+        "c": "",
+        "n": "GEO",
+        "d": "2020-12-01",
+        "m1": "82.1"
+      },
+      {
+        "p": {
+          "name": "Point to the Expression: Solving Algebraic Word Problems using the Expression-Pointer Transformer Model",
+          "link": "https://aclanthology.org/2020.emnlp-main.308"
+        },
+        "c": "https://github.com/snucclab/EPT",
+        "n": "EPT",
+        "d": null,
+        "m1": "81.31"
+      },
+      {
+        "p": {
+          "name": "Deep Neural Solver for Math Word Problems",
+          "link": "https://aclanthology.org/D17-1088"
+        },
+        "c": "",
+        "n": "ZDC",
+        "d": "2017-09-01",
+        "m1": "79.7"
+      },
+      {
+        "p": {
+          "name": "Learn to Solve Algebra Word Problems Using Quadratic Programming",
+          "link": "https://aclanthology.org/D15-1096"
+        },
+        "c": "",
+        "n": "liblinear-QP",
+        "d": "2015-09-01",
+        "m1": "79.7"
+      },
+      {
+        "p": {
+          "name": "EPT-X: An Expression-Pointer Transformer model that generates eXplanations for numbers",
+          "link": "https://aclanthology.org/2022.acl-long.305"
+        },
+        "c": "https://github.com/snucclab/ept-x",
+        "n": "EPT",
+        "d": null,
+        "m1": "73.91"
+      },
+      {
+        "p": {
+          "name": "How well do Computers Solve Math Word Problems? Large-Scale Dataset Construction and Evaluation",
+          "link": "https://aclanthology.org/P16-1084"
+        },
+        "c": "",
+        "n": "SIM",
+        "d": "2016-08-01",
+        "m1": "71.2"
+      },
+      {
+        "p": {
+          "name": "Learning to Automatically Solve Algebra Word Problems",
+          "link": "https://aclanthology.org/P14-1026"
+        },
+        "c": "",
+        "n": "ALLEQ",
+        "d": "2014-06-01",
+        "m1": "68.7"
+      },
+      {
+        "p": {
+          "name": "EPT-X: An Expression-Pointer Transformer model that generates eXplanations for numbers",
+          "link": "https://aclanthology.org/2022.acl-long.305"
+        },
+        "c": "https://github.com/snucclab/ept-x",
+        "n": "EPT-X",
+        "d": null,
+        "m1": "67.07"
+      },
+      {
+        "p": {
+          "name": "Semantically-Aligned Universal Tree-Structured Solver for Math Word Problems",
+          "link": "https://arxiv.org/abs/2010.06823v1"
+        },
+        "c": "https://github.com/QinJinghui/SAU-Solver",
+        "n": "SAU-Solver",
+        "d": "2020-10-14",
+        "m1": "57.39"
+      }
+    ]
+  }
+}

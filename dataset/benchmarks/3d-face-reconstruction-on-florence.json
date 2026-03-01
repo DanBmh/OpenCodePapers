@@ -1,0 +1,235 @@
+{
+  "title": "3d-face-reconstruction-on-florence",
+  "task-hierarchy": [
+    "3D Face Reconstruction"
+  ],
+  "dataset-info": {
+    "link": "https://www.micc.unifi.it/resources/datasets/florence-3d-faces/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Mean NME ",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Average 3D Error",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "RMSE Cooperative",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "RMSE Indoor",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "RMSE Outdoor",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "Mean NME",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Joint 3D Face Reconstruction and Dense Alignment with Position Map Regression Network",
+          "link": "http://arxiv.org/abs/1803.07835v1"
+        },
+        "c": "https://github.com/YadiraF/PRNet",
+        "n": "PRN",
+        "d": "2018-03-21",
+        "m1": "3.7551%"
+      },
+      {
+        "p": {
+          "name": "Large Pose 3D Face Reconstruction from a Single Image via Direct Volumetric CNN Regression",
+          "link": "http://arxiv.org/abs/1703.07834v2"
+        },
+        "c": "https://github.com/AaronJackson/vrn",
+        "n": "VRN-Guided",
+        "d": "2017-03-22",
+        "m1": "5.2667%"
+      },
+      {
+        "p": {
+          "name": "Face Alignment Across Large Poses: A 3D Solution",
+          "link": "http://arxiv.org/abs/1511.07212v1"
+        },
+        "c": "",
+        "n": "3DDFA",
+        "d": "2015-11-23",
+        "m1": "6.3833%"
+      },
+      {
+        "p": {
+          "name": "GANFIT: Generative Adversarial Network Fitting for High Fidelity 3D Face Reconstruction",
+          "link": "http://arxiv.org/abs/1902.05978v2"
+        },
+        "c": "https://github.com/barisgecer/ganfit",
+        "n": "GANFit",
+        "d": "2019-02-15",
+        "m2": "0.95"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Training for 3D Morphable Model Regression",
+          "link": "http://arxiv.org/abs/1806.06098v1"
+        },
+        "c": "https://github.com/google/tf_mesh_renderer",
+        "n": "Unsupervised-3DMMR",
+        "d": "2018-06-15",
+        "m2": "1.50"
+      },
+      {
+        "p": {
+          "name": "3D Face Morphable Models \"In-the-Wild\"",
+          "link": "http://arxiv.org/abs/1701.05360v1"
+        },
+        "c": "",
+        "n": "itwmm",
+        "d": "2017-01-19",
+        "m2": "1.82"
+      },
+      {
+        "p": {
+          "name": "Regressing Robust and Discriminative 3D Morphable Models with a very Deep Neural Network",
+          "link": "http://arxiv.org/abs/1612.04904v1"
+        },
+        "c": "https://github.com/anhttran/3dmm_cnn",
+        "n": "3DMM-CNN",
+        "d": "2016-12-15",
+        "m2": "1.93"
+      },
+      {
+        "p": {
+          "name": "ASM: Adaptive Skinning Model for High-Quality 3D Face Modeling",
+          "link": "https://arxiv.org/abs/2304.09423v3"
+        },
+        "c": "",
+        "n": "ASM",
+        "d": "2023-04-19",
+        "m3": "1.34",
+        "m4": "1.53"
+      },
+      {
+        "p": {
+          "name": "3D face reconstruction with dense landmarks",
+          "link": "https://arxiv.org/abs/2204.02776v2"
+        },
+        "c": "",
+        "n": "DenseLandmarks (Multi-view)",
+        "d": "2022-04-06",
+        "m3": "1.43",
+        "m4": "1.42",
+        "m5": "1.42"
+      },
+      {
+        "p": {
+          "name": "Accurate 3D Face Reconstruction with Weakly-Supervised Learning: From Single Image to Image Set",
+          "link": "https://arxiv.org/abs/1903.08527v2"
+        },
+        "c": "https://github.com/Microsoft/Deep3DFaceReconstruction",
+        "n": "Deng",
+        "d": "2019-03-20",
+        "m3": "1.60",
+        "m4": "1.61"
+      },
+      {
+        "p": {
+          "name": "3D face reconstruction with dense landmarks",
+          "link": "https://arxiv.org/abs/2204.02776v2"
+        },
+        "c": "",
+        "n": "DenseLandmarks (Single-view)",
+        "d": "2022-04-06",
+        "m3": "1.64",
+        "m4": "1.62",
+        "m5": "1.61"
+      },
+      {
+        "p": {
+          "name": "Accurate 3D Face Reconstruction with Weakly-Supervised Learning: From Single Image to Image Set",
+          "link": "https://arxiv.org/abs/1903.08527v2"
+        },
+        "c": "https://github.com/Microsoft/Deep3DFaceReconstruction",
+        "n": "Deep3DFaceReconstruction",
+        "d": "2019-03-20",
+        "m3": "1.66",
+        "m4": "1.66",
+        "m5": "1.69"
+      },
+      {
+        "p": {
+          "name": "Automated 3D Face Reconstruction From Multiple Images Using Quality Measures",
+          "link": "http://openaccess.thecvf.com/content_cvpr_2016/html/Piotraschke_Automated_3D_Face_CVPR_2016_paper.html"
+        },
+        "c": "",
+        "n": "Piotraschke and Blanz",
+        "d": "2016-06-01",
+        "m3": "1.68",
+        "m4": "1.67"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Training for 3D Morphable Model Regression",
+          "link": "http://arxiv.org/abs/1806.06098v1"
+        },
+        "c": "https://github.com/google/tf_mesh_renderer",
+        "n": "Genova et al.",
+        "d": "2018-06-15",
+        "m3": "1.78",
+        "m4": "1.78",
+        "m5": "1.76"
+      },
+      {
+        "p": {
+          "name": "Regressing Robust and Discriminative 3D Morphable Models with a very Deep Neural Network",
+          "link": "http://arxiv.org/abs/1612.04904v1"
+        },
+        "c": "https://github.com/anhttran/3dmm_cnn",
+        "n": "Tran et al.",
+        "d": "2016-12-15",
+        "m3": "1.97",
+        "m4": "2.03",
+        "m5": "1.93"
+      },
+      {
+        "p": {
+          "name": "Towards Fast, Accurate and Stable 3D Dense Face Alignment",
+          "link": "https://arxiv.org/abs/2009.09960v2"
+        },
+        "c": "https://github.com/cleardusk/3DDFA",
+        "n": "3DDFA_V2",
+        "d": "2020-09-21",
+        "m6": "3.56"
+      }
+    ]
+  }
+}

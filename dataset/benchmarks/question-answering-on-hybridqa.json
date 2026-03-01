@@ -1,0 +1,77 @@
+{
+  "title": "question-answering-on-hybridqa",
+  "task-hierarchy": [
+    "Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/wenhuchen/HybridQA"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "ANS-EM",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MAFiD: Moving Average Equipped Fusion-in-Decoder for Question Answering over Tabular and Textual Data",
+          "link": "https://aclanthology.org/2023.findings-eacl.177/"
+        },
+        "c": "https://github.com/ZIZUN/MAFiD",
+        "n": "MAFiD",
+        "d": "2023-05-02",
+        "m1": "65.4"
+      },
+      {
+        "p": {
+          "name": "MATE: Multi-view Attention for Table Transformer Efficiency",
+          "link": "https://arxiv.org/abs/2109.04312v1"
+        },
+        "c": "https://github.com/google-research/tapas",
+        "n": "MATE Ponter",
+        "d": "2021-09-09",
+        "m1": "62.7"
+      },
+      {
+        "p": {
+          "name": "Iterative Hierarchical Attention for Answering Complex Questions over Long Documents",
+          "link": "https://arxiv.org/abs/2106.00200v2"
+        },
+        "c": "",
+        "n": "DocHopper",
+        "d": "2021-06-01",
+        "m1": "46.3"
+      },
+      {
+        "p": {
+          "name": "HybridQA: A Dataset of Multi-Hop Question Answering over Tabular and Textual Data",
+          "link": "https://arxiv.org/abs/2004.07347v3"
+        },
+        "c": "https://github.com/wenhuchen/HybridQA",
+        "n": "HYBRIDER",
+        "d": "2020-04-15",
+        "m1": "43.8"
+      }
+    ]
+  }
+}

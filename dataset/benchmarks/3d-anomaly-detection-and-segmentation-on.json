@@ -1,0 +1,150 @@
+{
+  "title": "3d-anomaly-detection-and-segmentation-on",
+  "task-hierarchy": [
+    "Anomaly Detection",
+    "3D Anomaly Detection and Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://www.mvtec.com/company/research/datasets/mvtec-3d-ad"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Detection AUROC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Segmentation AUROC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Examining the Source of Defects from a Mechanical Perspective for 3D Anomaly Detection",
+          "link": "https://arxiv.org/abs/2505.05901v2"
+        },
+        "c": "https://github.com/hzzzzzhappy/mc4ad",
+        "n": "MC4AD",
+        "d": "2025-05-09",
+        "m1": "0.954",
+        "m2": "0.946"
+      },
+      {
+        "p": {
+          "name": "Complementary Pseudo Multimodal Feature for Point Cloud Anomaly Detection",
+          "link": "https://arxiv.org/abs/2303.13194v1"
+        },
+        "c": "https://github.com/m-3lab/real3d-ad",
+        "n": "CPMF (2D+3D)",
+        "d": "2023-03-23",
+        "m1": "0.9515",
+        "m2": "0.9781"
+      },
+      {
+        "p": {
+          "name": "Boosting Global-Local Feature Matching via Anomaly Synthesis for Multi-Class Point Cloud Anomaly Detection",
+          "link": "https://ieeexplore.ieee.org/document/10898004"
+        },
+        "c": "https://github.com/hustCYQ/GLFM-Multi-class-3DAD",
+        "n": "GLFM",
+        "d": "2025-02-21",
+        "m1": "0.944",
+        "m2": "0.979"
+      },
+      {
+        "p": {
+          "name": "Shape-Guided: Shape-Guided Dual-Memory Learning for 3D Anomaly Detection",
+          "link": "https://proceedings.mlr.press/v202/chu23b.html"
+        },
+        "c": "https://github.com/jayliu0313/Shape-Guided",
+        "n": "Shape-Guided (only SDF)",
+        "d": "2023-01-27",
+        "m1": "0.916",
+        "m2": "0.978"
+      },
+      {
+        "p": {
+          "name": "Complementary Pseudo Multimodal Feature for Point Cloud Anomaly Detection",
+          "link": "https://arxiv.org/abs/2303.13194v1"
+        },
+        "c": "https://github.com/m-3lab/real3d-ad",
+        "n": "CPMF (2D)",
+        "d": "2023-03-23",
+        "m1": "0.8918",
+        "m2": "0.9730"
+      },
+      {
+        "p": {
+          "name": "Complementary Pseudo Multimodal Feature for Point Cloud Anomaly Detection",
+          "link": "https://arxiv.org/abs/2303.13194v1"
+        },
+        "c": "https://github.com/m-3lab/real3d-ad",
+        "n": "CPMF (3D)",
+        "d": "2023-03-23",
+        "m1": "0.8304",
+        "m2": "0.9780"
+      },
+      {
+        "p": {
+          "name": "Back to the Feature: Classical 3D Features are (Almost) All You Need for 3D Anomaly Detection",
+          "link": "https://arxiv.org/abs/2203.05550v3"
+        },
+        "c": "https://github.com/eliahuhorwitz/3D-ADS",
+        "n": "Back to the Feature:\nClassical 3D Features are (Almost) All You Need for 3D Anomaly Detection  (FPFH)",
+        "d": "2022-03-10",
+        "m1": "0.782",
+        "m2": "0.978"
+      },
+      {
+        "p": {
+          "name": "The MVTec 3D-AD Dataset for Unsupervised 3D Anomaly Detection and Localization",
+          "link": "https://arxiv.org/abs/2112.09045v1"
+        },
+        "c": "https://github.com/openvinotoolkit/anomalib",
+        "n": "Voxel AE",
+        "d": "2021-12-16",
+        "m1": "0.699"
+      },
+      {
+        "p": {
+          "name": "The MVTec 3D-AD Dataset for Unsupervised 3D Anomaly Detection and Localization",
+          "link": "https://arxiv.org/abs/2112.09045v1"
+        },
+        "c": "https://github.com/openvinotoolkit/anomalib",
+        "n": "Voxel VM",
+        "d": "2021-12-16",
+        "m1": "0.571"
+      },
+      {
+        "p": {
+          "name": "The MVTec 3D-AD Dataset for Unsupervised 3D Anomaly Detection and Localization",
+          "link": "https://arxiv.org/abs/2112.09045v1"
+        },
+        "c": "https://github.com/openvinotoolkit/anomalib",
+        "n": "Voxel GAN",
+        "d": "2021-12-16",
+        "m1": "0.537"
+      }
+    ]
+  }
+}

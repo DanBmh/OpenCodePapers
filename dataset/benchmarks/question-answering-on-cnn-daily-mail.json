@@ -1,0 +1,212 @@
+{
+  "title": "question-answering-on-cnn-daily-mail",
+  "task-hierarchy": [
+    "Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/abisee/cnn-dailymail"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "CNN",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Daily Mail",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Linguistic Knowledge as Memory for Recurrent Neural Networks",
+          "link": "http://arxiv.org/abs/1703.02620v1"
+        },
+        "c": "",
+        "n": "GA+MAGE (32)",
+        "d": "2017-03-07",
+        "m1": "78.6"
+      },
+      {
+        "p": {
+          "name": "Gated-Attention Readers for Text Comprehension",
+          "link": "http://arxiv.org/abs/1606.01549v3"
+        },
+        "c": "https://github.com/AI-metrics/AI-metrics",
+        "n": "GA Reader",
+        "d": "2016-06-05",
+        "m1": "77.9",
+        "m2": "80.9"
+      },
+      {
+        "p": {
+          "name": "A Thorough Examination of the CNN/Daily Mail Reading Comprehension Task",
+          "link": "http://arxiv.org/abs/1606.02858v2"
+        },
+        "c": "https://github.com/danqi/rc-cnn-dailymail",
+        "n": "Attentive + relabling + ensemble",
+        "d": "2016-06-09",
+        "m1": "77.6",
+        "m2": "79.2"
+      },
+      {
+        "p": {
+          "name": "Bidirectional Attention Flow for Machine Comprehension",
+          "link": "http://arxiv.org/abs/1611.01603v6"
+        },
+        "c": "https://github.com/allenai/bi-att-flow",
+        "n": "BiDAF",
+        "d": "2016-11-05",
+        "m1": "76.9",
+        "m2": "79.6"
+      },
+      {
+        "p": {
+          "name": "Iterative Alternating Neural Attention for Machine Reading",
+          "link": "http://arxiv.org/abs/1606.02245v4"
+        },
+        "c": "https://github.com/AI-metrics/AI-metrics",
+        "n": "AIA",
+        "d": "2016-06-07",
+        "m1": "76.1"
+      },
+      {
+        "p": {
+          "name": "Text Understanding with the Attention Sum Reader Network",
+          "link": "http://arxiv.org/abs/1603.01547v2"
+        },
+        "c": "https://github.com/rkadlec/asreader",
+        "n": "AS Reader (ensemble model)",
+        "d": "2016-03-04",
+        "m1": "75.4",
+        "m2": "77.7"
+      },
+      {
+        "p": {
+          "name": "ReasoNet: Learning to Stop Reading in Machine Comprehension",
+          "link": "http://arxiv.org/abs/1609.05284v3"
+        },
+        "c": "",
+        "n": "ReasoNet",
+        "d": "2016-09-17",
+        "m1": "74.7",
+        "m2": "76.6"
+      },
+      {
+        "p": {
+          "name": "Attention-over-Attention Neural Networks for Reading Comprehension",
+          "link": "http://arxiv.org/abs/1607.04423v4"
+        },
+        "c": "https://github.com/OlavHN/attention-over-attention",
+        "n": "AoA Reader",
+        "d": "2016-07-15",
+        "m1": "74.4"
+      },
+      {
+        "p": {
+          "name": "Natural Language Comprehension with the EpiReader",
+          "link": "http://arxiv.org/abs/1606.02270v2"
+        },
+        "c": "",
+        "n": "EpiReader",
+        "d": "2016-06-07",
+        "m1": "74"
+      },
+      {
+        "p": {
+          "name": "Dynamic Entity Representation with Max-pooling Improves Machine Reading",
+          "link": "https://aclanthology.org/N16-1099"
+        },
+        "c": "",
+        "n": "Dynamic Entity Repres. + w2v",
+        "d": "2016-06-01",
+        "m1": " 72.9"
+      },
+      {
+        "p": {
+          "name": "A Thorough Examination of the CNN/Daily Mail Reading Comprehension Task",
+          "link": "http://arxiv.org/abs/1606.02858v2"
+        },
+        "c": "https://github.com/danqi/rc-cnn-dailymail",
+        "n": "AttentiveReader + bilinear attention",
+        "d": "2016-06-09",
+        "m1": "72.4",
+        "m2": "75.8"
+      },
+      {
+        "p": {
+          "name": "Text Understanding with the Attention Sum Reader Network",
+          "link": "http://arxiv.org/abs/1603.01547v2"
+        },
+        "c": "https://github.com/rkadlec/asreader",
+        "n": "AS Reader (single model)",
+        "d": "2016-03-04",
+        "m1": " 69.5",
+        "m2": "73.9"
+      },
+      {
+        "p": {
+          "name": "Teaching Machines to Read and Comprehend",
+          "link": "http://arxiv.org/abs/1506.03340v3"
+        },
+        "c": "https://github.com/facebookresearch/ParlAI",
+        "n": "MemNNs (ensemble)",
+        "d": "2015-06-10",
+        "m1": "69.4"
+      },
+      {
+        "p": {
+          "name": "A Thorough Examination of the CNN/Daily Mail Reading Comprehension Task",
+          "link": "http://arxiv.org/abs/1606.02858v2"
+        },
+        "c": "https://github.com/danqi/rc-cnn-dailymail",
+        "n": "Classifier",
+        "d": "2016-06-09",
+        "m1": "67.9",
+        "m2": "68.3"
+      },
+      {
+        "p": {
+          "name": "Teaching Machines to Read and Comprehend",
+          "link": "http://arxiv.org/abs/1506.03340v3"
+        },
+        "c": "https://github.com/facebookresearch/ParlAI",
+        "n": "Impatient Reader",
+        "d": "2015-06-10",
+        "m1": "63.8",
+        "m2": "68.0"
+      },
+      {
+        "p": {
+          "name": "Teaching Machines to Read and Comprehend",
+          "link": "http://arxiv.org/abs/1506.03340v3"
+        },
+        "c": "https://github.com/facebookresearch/ParlAI",
+        "n": "Attentive Reader",
+        "d": "2015-06-10",
+        "m1": "63",
+        "m2": "69"
+      }
+    ]
+  }
+}

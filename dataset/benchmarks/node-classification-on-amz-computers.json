@@ -1,0 +1,87 @@
+{
+  "title": "node-classification-on-amz-computers",
+  "task-hierarchy": [
+    "Node Classification"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Clarify Confused Nodes via Separated Learning",
+          "link": "https://arxiv.org/abs/2306.02285v6"
+        },
+        "c": "https://github.com/GISec-Team/NCGNN",
+        "n": "NCGCN",
+        "d": "2023-06-04",
+        "m1": "90.81 ± 0.46"
+      },
+      {
+        "p": {
+          "name": "Clarify Confused Nodes via Separated Learning",
+          "link": "https://arxiv.org/abs/2306.02285v6"
+        },
+        "c": "https://github.com/GISec-Team/NCGNN",
+        "n": "NCSAGE",
+        "d": "2023-06-04",
+        "m1": "90.43 ± 0.72"
+      },
+      {
+        "p": {
+          "name": "Extract the Knowledge of Graph Neural Networks and Go Beyond it: An Effective Knowledge Distillation Framework",
+          "link": "https://arxiv.org/abs/2103.02885v1"
+        },
+        "c": "https://github.com/BUPT-GAMMA/CPF",
+        "n": "CPF-ind-GAT",
+        "d": "2021-03-04",
+        "m1": "85.5%"
+      },
+      {
+        "p": {
+          "name": "Towards Deeper Graph Neural Networks",
+          "link": "https://arxiv.org/abs/2007.09296v1"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/dagnn",
+        "n": "DAGNN (Ours)",
+        "d": "2020-07-18",
+        "m1": "84.5 ± 1.2"
+      },
+      {
+        "p": {
+          "name": "Graph-less Neural Networks: Teaching Old MLPs New Tricks via Distillation",
+          "link": "https://arxiv.org/abs/2110.08727v2"
+        },
+        "c": "https://github.com/snap-research/graphless-neural-networks",
+        "n": "GLNN",
+        "d": "2021-10-17",
+        "m1": "83.03± 1.87%"
+      }
+    ]
+  }
+}

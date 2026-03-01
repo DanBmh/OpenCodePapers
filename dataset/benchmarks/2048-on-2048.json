@@ -1,0 +1,87 @@
+{
+  "title": "2048-on-2048",
+  "task-hierarchy": [
+    "Playing the Game of 2048"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/rgal/gym-2048"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Average Score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Planning in Stochastic Environments with a Learned Model",
+          "link": "https://openreview.net/forum?id=X6D9bAHhBQ1"
+        },
+        "c": "https://github.com/opendilab/LightZero",
+        "n": "Stochastic Muzero",
+        "d": "2021-09-29",
+        "m1": "500000"
+      },
+      {
+        "p": {
+          "name": "Planning in Stochastic Environments with a Learned Model",
+          "link": "https://openreview.net/forum?id=X6D9bAHhBQ1"
+        },
+        "c": "https://github.com/opendilab/LightZero",
+        "n": "AlphaZero (With Simulator)",
+        "d": "2021-09-29",
+        "m1": "500000"
+      },
+      {
+        "p": {
+          "name": "Planning in Stochastic Environments with a Learned Model",
+          "link": "https://openreview.net/forum?id=X6D9bAHhBQ1"
+        },
+        "c": "https://github.com/opendilab/LightZero",
+        "n": "MuZero",
+        "d": "2021-09-29",
+        "m1": "300000"
+      },
+      {
+        "p": {
+          "name": "Playing 2048 With Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2110.10374v1"
+        },
+        "c": "https://github.com/Shilun-Allan-Li/2048-reinforcement_learning",
+        "n": "Beam Search",
+        "d": "2021-10-20",
+        "m1": "1024"
+      },
+      {
+        "p": {
+          "name": "Playing 2048 With Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2110.10374v1"
+        },
+        "c": "https://github.com/Shilun-Allan-Li/2048-reinforcement_learning",
+        "n": "DQN (1000 episodes)",
+        "d": "2021-10-20",
+        "m1": "256"
+      }
+    ]
+  }
+}

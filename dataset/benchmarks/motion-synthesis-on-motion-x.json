@@ -1,0 +1,114 @@
+{
+  "title": "motion-synthesis-on-motion-x",
+  "task-hierarchy": [
+    "3D Human Pose Tracking",
+    "Motion Synthesis"
+  ],
+  "dataset-info": {
+    "link": "https://motion-x-dataset.github.io/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "FID",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "TMR-R-Precision Top3",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "TMR-Matching Score",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "MModality",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Diversity",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "HumanTOMATO: Text-aligned Whole-body Motion Generation",
+          "link": "https://arxiv.org/abs/2310.12978v1"
+        },
+        "c": "https://github.com/IDEA-Research/HumanTOMATO",
+        "n": "HumanTOMATO",
+        "d": "2023-10-19",
+        "m1": "1.174",
+        "m2": "0.703",
+        "m3": "0.809",
+        "m4": "1.732",
+        "m5": "10.812"
+      },
+      {
+        "p": {
+          "name": "T2M-GPT: Generating Human Motion from Textual Descriptions with Discrete Representations",
+          "link": "https://arxiv.org/abs/2301.06052v4"
+        },
+        "c": "https://github.com/Mael-zys/T2M-GPT",
+        "n": "T2M-GPT",
+        "d": "2023-01-15",
+        "m1": "1.366",
+        "m2": "0.655",
+        "m3": "0.881",
+        "m4": "2.356",
+        "m5": "10.753"
+      },
+      {
+        "p": {
+          "name": "Executing your Commands via Motion Diffusion in Latent Space",
+          "link": "https://arxiv.org/abs/2212.04048v3"
+        },
+        "c": "https://github.com/chenfengye/motion-latent-diffusion",
+        "n": "MLD",
+        "d": "2022-12-08",
+        "m1": "3.407",
+        "m2": "0.683",
+        "m3": "0.883",
+        "m4": "2.448",
+        "m5": "10.420"
+      },
+      {
+        "p": {
+          "name": "Human Motion Diffusion Model",
+          "link": "https://arxiv.org/abs/2209.14916v2"
+        },
+        "c": "https://github.com/guytevet/motion-diffusion-model",
+        "n": "MDM",
+        "d": "2022-09-29",
+        "m1": "3.800",
+        "m2": "0.6341",
+        "m3": "0.840",
+        "m4": "2.530",
+        "m5": "11.400"
+      }
+    ]
+  }
+}

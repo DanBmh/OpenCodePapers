@@ -1,0 +1,117 @@
+{
+  "title": "speech-recognition-on-wenetspeech",
+  "task-hierarchy": [
+    "Speech Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://wenet-e2e.github.io/WenetSpeech/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Character Error Rate (CER)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "FunASR: A Fundamental End-to-End Speech Recognition Toolkit",
+          "link": "https://arxiv.org/abs/2305.11013v1"
+        },
+        "c": "https://github.com/alibaba-damo-academy/FunASR",
+        "n": "Paraformer-large",
+        "d": "2023-05-18",
+        "m1": "6.97"
+      },
+      {
+        "p": {
+          "name": "3M: Multi-loss, Multi-path and Multi-level Neural Networks for speech recognition",
+          "link": "https://arxiv.org/abs/2204.03178v2"
+        },
+        "c": "https://github.com/tencent-ailab/3m-asr",
+        "n": "Conformer-MoE (64e)",
+        "d": "2022-04-07",
+        "m1": "7.19"
+      },
+      {
+        "p": {
+          "name": "Zipformer: A faster and better encoder for automatic speech recognition",
+          "link": "https://arxiv.org/abs/2310.11230v4"
+        },
+        "c": "https://github.com/k2-fsa/icefall",
+        "n": "Zipformer+pruned transducer (no external language model)",
+        "d": "2023-10-17",
+        "m1": "7.29"
+      },
+      {
+        "p": {
+          "name": "3M: Multi-loss, Multi-path and Multi-level Neural Networks for speech recognition",
+          "link": "https://arxiv.org/abs/2204.03178v2"
+        },
+        "c": "https://github.com/tencent-ailab/3m-asr",
+        "n": "Conformer-MoE (32e)",
+        "d": "2022-04-07",
+        "m1": "7.49"
+      },
+      {
+        "p": {
+          "name": "3M: Multi-loss, Multi-path and Multi-level Neural Networks for speech recognition",
+          "link": "https://arxiv.org/abs/2204.03178v2"
+        },
+        "c": "https://github.com/tencent-ailab/3m-asr",
+        "n": "Conformer-MoE (16e)",
+        "d": "2022-04-07",
+        "m1": "7.67"
+      },
+      {
+        "p": {
+          "name": "WenetSpeech: A 10000+ Hours Multi-domain Mandarin Corpus for Speech Recognition",
+          "link": "https://arxiv.org/abs/2110.03370v5"
+        },
+        "c": "https://github.com/wenet-e2e/wenetspeech",
+        "n": "Wenet",
+        "d": "2021-10-07",
+        "m1": "8.88"
+      },
+      {
+        "p": {
+          "name": "WenetSpeech: A 10000+ Hours Multi-domain Mandarin Corpus for Speech Recognition",
+          "link": "https://arxiv.org/abs/2110.03370v5"
+        },
+        "c": "https://github.com/wenet-e2e/wenetspeech",
+        "n": "Kaldi",
+        "d": "2021-10-07",
+        "m1": "9.07"
+      },
+      {
+        "p": {
+          "name": "WenetSpeech: A 10000+ Hours Multi-domain Mandarin Corpus for Speech Recognition",
+          "link": "https://arxiv.org/abs/2110.03370v5"
+        },
+        "c": "https://github.com/wenet-e2e/wenetspeech",
+        "n": "Espnet",
+        "d": "2021-10-07",
+        "m1": "9.7"
+      }
+    ]
+  }
+}

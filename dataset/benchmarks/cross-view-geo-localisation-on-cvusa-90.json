@@ -1,0 +1,185 @@
+{
+  "title": "cross-view-geo-localisation-on-cvusa-90",
+  "task-hierarchy": [
+    "Camera Localization",
+    "Cross-View Geo-Localisation"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Top-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Top-1%",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Top-10",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Top-5",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "R@5",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "BEV-CV: Birds-Eye-View Transform for Cross-View Geo-Localisation",
+          "link": "https://arxiv.org/abs/2312.15363v2"
+        },
+        "c": "https://github.com/tavisshore/BEV-CV",
+        "n": "DSM",
+        "d": "2023-12-23",
+        "m1": "33.66"
+      },
+      {
+        "p": {
+          "name": "BEV-CV: Birds-Eye-View Transform for Cross-View Geo-Localisation",
+          "link": "https://arxiv.org/abs/2312.15363v2"
+        },
+        "c": "https://github.com/tavisshore/BEV-CV",
+        "n": "BEV-CV",
+        "d": "2023-12-23",
+        "m1": "32.11",
+        "m2": "92.99",
+        "m3": "69.06",
+        "m4": "58.36"
+      },
+      {
+        "p": {
+          "name": "BEV-CV: Birds-Eye-View Transform for Cross-View Geo-Localisation",
+          "link": "https://arxiv.org/abs/2312.15363v2"
+        },
+        "c": "https://github.com/tavisshore/BEV-CV",
+        "n": "L2LTR",
+        "d": "2023-12-23",
+        "m1": "25.21"
+      },
+      {
+        "p": {
+          "name": "BEV-CV: Birds-Eye-View Transform for Cross-View Geo-Localisation",
+          "link": "https://arxiv.org/abs/2312.15363v2"
+        },
+        "c": "https://github.com/tavisshore/BEV-CV",
+        "n": "GAL",
+        "d": "2023-12-23",
+        "m1": "22.54"
+      },
+      {
+        "p": {
+          "name": "BEV-CV: Birds-Eye-View Transform for Cross-View Geo-Localisation",
+          "link": "https://arxiv.org/abs/2312.15363v2"
+        },
+        "c": "https://github.com/tavisshore/BEV-CV",
+        "n": "TransGeo [Zhu2022TransGeoTI]",
+        "d": "2023-12-23",
+        "m1": "21.96"
+      },
+      {
+        "p": {
+          "name": "BEV-CV: Birds-Eye-View Transform for Cross-View Geo-Localisation",
+          "link": "https://arxiv.org/abs/2312.15363v2"
+        },
+        "c": "https://github.com/tavisshore/BEV-CV",
+        "n": "GeoDTR",
+        "d": "2023-12-23",
+        "m1": "15.21",
+        "m3": "52.27",
+        "m4": "39.32"
+      },
+      {
+        "p": {
+          "name": "BEV-CV: Birds-Eye-View Transform for Cross-View Geo-Localisation",
+          "link": "https://arxiv.org/abs/2312.15363v2"
+        },
+        "c": "https://github.com/tavisshore/BEV-CV",
+        "n": "CVFT",
+        "d": "2023-12-23",
+        "m1": "4.8"
+      },
+      {
+        "p": {
+          "name": "BEV-CV: Birds-Eye-View Transform for Cross-View Geo-Localisation",
+          "link": "https://arxiv.org/abs/2312.15363v2"
+        },
+        "c": "https://github.com/tavisshore/BEV-CV",
+        "n": "CVM",
+        "d": "2023-12-23",
+        "m1": "2.76"
+      },
+      {
+        "p": {
+          "name": "BEV-CV: Birds-Eye-View Transform for Cross-View Geo-Localisation",
+          "link": "https://arxiv.org/abs/2312.15363v2"
+        },
+        "c": "https://github.com/tavisshore/BEV-CV",
+        "n": "GeoDTR [zhang2023crossview]",
+        "d": "2023-12-23",
+        "m2": "88.72"
+      },
+      {
+        "p": {
+          "name": "BEV-CV: Birds-Eye-View Transform for Cross-View Geo-Localisation",
+          "link": "https://arxiv.org/abs/2312.15363v2"
+        },
+        "c": "https://github.com/tavisshore/BEV-CV",
+        "n": "TransGeo",
+        "d": "2023-12-23",
+        "m2": "86.8",
+        "m3": "56.49",
+        "m4": "45.35"
+      },
+      {
+        "p": {
+          "name": "BEV-CV: Birds-Eye-View Transform for Cross-View Geo-Localisation",
+          "link": "https://arxiv.org/abs/2312.15363v2"
+        },
+        "c": "https://github.com/tavisshore/BEV-CV",
+        "n": "L2LTR [Yang2021CrossviewGW]",
+        "d": "2023-12-23",
+        "m5": "51.9"
+      },
+      {
+        "p": {
+          "name": "BEV-CV: Birds-Eye-View Transform for Cross-View Geo-Localisation",
+          "link": "https://arxiv.org/abs/2312.15363v2"
+        },
+        "c": "https://github.com/tavisshore/BEV-CV",
+        "n": "DSM [Shi2020WhereAI]",
+        "d": "2023-12-23",
+        "m5": "51.7"
+      }
+    ]
+  }
+}

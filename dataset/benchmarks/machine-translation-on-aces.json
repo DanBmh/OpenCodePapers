@@ -1,0 +1,247 @@
+{
+  "title": "machine-translation-on-aces",
+  "task-hierarchy": [
+    "Machine Translation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/EdinburghNLP/ACES"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "ACES: Translation Accuracy Challenge Sets for Evaluating Machine Translation Metrics",
+          "link": "https://arxiv.org/abs/2210.15615v2"
+        },
+        "c": "https://github.com/edinburghnlp/aces",
+        "n": "HWTSC-Teacher-Sim",
+        "d": "2022-10-27",
+        "m1": "19.97"
+      },
+      {
+        "p": {
+          "name": "ACES: Translation Accuracy Challenge Sets for Evaluating Machine Translation Metrics",
+          "link": "https://arxiv.org/abs/2210.15615v2"
+        },
+        "c": "https://github.com/edinburghnlp/aces",
+        "n": "MS-COMET-22",
+        "d": "2022-10-27",
+        "m1": "19.89"
+      },
+      {
+        "p": {
+          "name": "ACES: Translation Accuracy Challenge Sets for Evaluating Machine Translation Metrics",
+          "link": "https://arxiv.org/abs/2210.15615v2"
+        },
+        "c": "https://github.com/edinburghnlp/aces",
+        "n": "MS-COMET-QE-22",
+        "d": "2022-10-27",
+        "m1": "19.76"
+      },
+      {
+        "p": {
+          "name": "ACES: Translation Accuracy Challenge Sets for Evaluating Machine Translation Metrics",
+          "link": "https://arxiv.org/abs/2210.15615v2"
+        },
+        "c": "https://github.com/edinburghnlp/aces",
+        "n": "KG-BERTScore",
+        "d": "2022-10-27",
+        "m1": "17.28"
+      },
+      {
+        "p": {
+          "name": "ACES: Translation Accuracy Challenge Sets for Evaluating Machine Translation Metrics",
+          "link": "https://arxiv.org/abs/2210.15615v2"
+        },
+        "c": "https://github.com/edinburghnlp/aces",
+        "n": "metricx_xl_DA_2019",
+        "d": "2022-10-27",
+        "m1": "17.17"
+      },
+      {
+        "p": {
+          "name": "ACES: Translation Accuracy Challenge Sets for Evaluating Machine Translation Metrics",
+          "link": "https://arxiv.org/abs/2210.15615v2"
+        },
+        "c": "https://github.com/edinburghnlp/aces",
+        "n": "COMET-QE",
+        "d": "2022-10-27",
+        "m1": "16.8"
+      },
+      {
+        "p": {
+          "name": "ACES: Translation Accuracy Challenge Sets for Evaluating Machine Translation Metrics",
+          "link": "https://arxiv.org/abs/2210.15615v2"
+        },
+        "c": "https://github.com/edinburghnlp/aces",
+        "n": "COMET-22",
+        "d": "2022-10-27",
+        "m1": "16.31"
+      },
+      {
+        "p": {
+          "name": "ACES: Translation Accuracy Challenge Sets for Evaluating Machine Translation Metrics",
+          "link": "https://arxiv.org/abs/2210.15615v2"
+        },
+        "c": "https://github.com/edinburghnlp/aces",
+        "n": "UniTE-src",
+        "d": "2022-10-27",
+        "m1": "15.68"
+      },
+      {
+        "p": {
+          "name": "ACES: Translation Accuracy Challenge Sets for Evaluating Machine Translation Metrics",
+          "link": "https://arxiv.org/abs/2210.15615v2"
+        },
+        "c": "https://github.com/edinburghnlp/aces",
+        "n": "UniTE-ref",
+        "d": "2022-10-27",
+        "m1": "15.38"
+      },
+      {
+        "p": {
+          "name": "ACES: Translation Accuracy Challenge Sets for Evaluating Machine Translation Metrics",
+          "link": "https://arxiv.org/abs/2210.15615v2"
+        },
+        "c": "https://github.com/edinburghnlp/aces",
+        "n": "metricx_xxl_DA_2019",
+        "d": "2022-10-27",
+        "m1": "15.24"
+      },
+      {
+        "p": {
+          "name": "ACES: Translation Accuracy Challenge Sets for Evaluating Machine Translation Metrics",
+          "link": "https://arxiv.org/abs/2210.15615v2"
+        },
+        "c": "https://github.com/edinburghnlp/aces",
+        "n": "UniTE",
+        "d": "2022-10-27",
+        "m1": "14.76"
+      },
+      {
+        "p": {
+          "name": "ACES: Translation Accuracy Challenge Sets for Evaluating Machine Translation Metrics",
+          "link": "https://arxiv.org/abs/2210.15615v2"
+        },
+        "c": "https://github.com/edinburghnlp/aces",
+        "n": "Cross-QE",
+        "d": "2022-10-27",
+        "m1": "14.07"
+      },
+      {
+        "p": {
+          "name": "ACES: Translation Accuracy Challenge Sets for Evaluating Machine Translation Metrics",
+          "link": "https://arxiv.org/abs/2210.15615v2"
+        },
+        "c": "https://github.com/edinburghnlp/aces",
+        "n": "chrF",
+        "d": "2022-10-27",
+        "m1": "13.57"
+      },
+      {
+        "p": {
+          "name": "ACES: Translation Accuracy Challenge Sets for Evaluating Machine Translation Metrics",
+          "link": "https://arxiv.org/abs/2210.15615v2"
+        },
+        "c": "https://github.com/edinburghnlp/aces",
+        "n": "metricx_xl_MQM_2020",
+        "d": "2022-10-27",
+        "m1": "13.08"
+      },
+      {
+        "p": {
+          "name": "ACES: Translation Accuracy Challenge Sets for Evaluating Machine Translation Metrics",
+          "link": "https://arxiv.org/abs/2210.15615v2"
+        },
+        "c": "https://github.com/edinburghnlp/aces",
+        "n": "COMET-20",
+        "d": "2022-10-27",
+        "m1": "12.06"
+      },
+      {
+        "p": {
+          "name": "ACES: Translation Accuracy Challenge Sets for Evaluating Machine Translation Metrics",
+          "link": "https://arxiv.org/abs/2210.15615v2"
+        },
+        "c": "https://github.com/edinburghnlp/aces",
+        "n": "BLEURT-20",
+        "d": "2022-10-27",
+        "m1": "11.9"
+      },
+      {
+        "p": {
+          "name": "ACES: Translation Accuracy Challenge Sets for Evaluating Machine Translation Metrics",
+          "link": "https://arxiv.org/abs/2210.15615v2"
+        },
+        "c": "https://github.com/edinburghnlp/aces",
+        "n": "YiSi-1",
+        "d": "2022-10-27",
+        "m1": "11.38"
+      },
+      {
+        "p": {
+          "name": "ACES: Translation Accuracy Challenge Sets for Evaluating Machine Translation Metrics",
+          "link": "https://arxiv.org/abs/2210.15615v2"
+        },
+        "c": "https://github.com/edinburghnlp/aces",
+        "n": "BERTScore",
+        "d": "2022-10-27",
+        "m1": "10.47"
+      },
+      {
+        "p": {
+          "name": "ACES: Translation Accuracy Challenge Sets for Evaluating Machine Translation Metrics",
+          "link": "https://arxiv.org/abs/2210.15615v2"
+        },
+        "c": "https://github.com/edinburghnlp/aces",
+        "n": "BLEU",
+        "d": "2022-10-27",
+        "m1": "-3.13"
+      },
+      {
+        "p": {
+          "name": "ACES: Translation Accuracy Challenge Sets for Evaluating Machine Translation Metrics",
+          "link": "https://arxiv.org/abs/2210.15615v2"
+        },
+        "c": "https://github.com/edinburghnlp/aces",
+        "n": "f101spBLEU",
+        "d": "2022-10-27",
+        "m1": "-0.33"
+      },
+      {
+        "p": {
+          "name": "ACES: Translation Accuracy Challenge Sets for Evaluating Machine Translation Metrics",
+          "link": "https://arxiv.org/abs/2210.15615v2"
+        },
+        "c": "https://github.com/edinburghnlp/aces",
+        "n": "f200spBLEU",
+        "d": "2022-10-27",
+        "m1": "-0.18"
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "title": "surgical-phase-recognition-on-misaw",
+  "task-hierarchy": [
+    "Surgical phase recognition"
+  ],
+  "dataset-info": {
+    "link": "https://www.synapse.org/MISAW"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MuST: Multi-Scale Transformers for Surgical Phase Recognition",
+          "link": "https://arxiv.org/abs/2407.17361v1"
+        },
+        "c": "https://github.com/BCV-Uniandes/MuST",
+        "n": "MuST",
+        "d": "2024-07-24",
+        "m1": "98.08"
+      },
+      {
+        "p": {
+          "name": "Pixel-Wise Recognition for Holistic Surgical Scene Understanding",
+          "link": "https://arxiv.org/abs/2401.11174v3"
+        },
+        "c": "https://github.com/bcv-uniandes/tapir",
+        "n": "TAPIS",
+        "d": "2024-01-20",
+        "m1": "97.14"
+      },
+      {
+        "p": {
+          "name": "Towards Holistic Surgical Scene Understanding",
+          "link": "https://arxiv.org/abs/2212.04582v4"
+        },
+        "c": "https://github.com/bcv-uniandes/tapir",
+        "n": "TAPIR",
+        "d": "2022-12-08",
+        "m1": "94.24"
+      }
+    ]
+  }
+}

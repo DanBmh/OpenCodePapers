@@ -1,0 +1,76 @@
+{
+  "title": "answer-selection-on-asnq",
+  "task-hierarchy": [
+    "Question Answering",
+    "Answer Selection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/alexa/wqa_tanda"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MAP",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "MRR",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Pre-training Transformer Models with Sentence-Level Objectives for Answer Sentence Selection",
+          "link": "https://arxiv.org/abs/2205.10455v2"
+        },
+        "c": "",
+        "n": "DeBERTa-V3-Large + SSP",
+        "d": "2022-05-20",
+        "m1": "0.743",
+        "m2": "0.800"
+      },
+      {
+        "p": {
+          "name": "Pre-training Transformer Models with Sentence-Level Objectives for Answer Sentence Selection",
+          "link": "https://arxiv.org/abs/2205.10455v2"
+        },
+        "c": "",
+        "n": "ELECTRA-Base + SSP",
+        "d": "2022-05-20",
+        "m1": "0.697",
+        "m2": "0.757"
+      },
+      {
+        "p": {
+          "name": "Paragraph-based Transformer Pre-training for Multi-Sentence Inference",
+          "link": "https://arxiv.org/abs/2205.01228v2"
+        },
+        "c": "https://github.com/amazon-research/wqa-multi-sentence-inference",
+        "n": "RoBERTa-Base Joint MSPP",
+        "d": "2022-05-02",
+        "m1": "0.673",
+        "m2": "0.737"
+      }
+    ]
+  }
+}

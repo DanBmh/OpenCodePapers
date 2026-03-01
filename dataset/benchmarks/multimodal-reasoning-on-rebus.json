@@ -1,0 +1,117 @@
+{
+  "title": "multimodal-reasoning-on-rebus",
+  "task-hierarchy": [
+    "Multimodal Reasoning"
+  ],
+  "dataset-info": {
+    "link": "https://cavendishlabs.org/rebus/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "REBUS: A Robust Evaluation Benchmark of Understanding Symbols",
+          "link": "https://arxiv.org/abs/2401.05604v2"
+        },
+        "c": "https://github.com/cvndsh/rebus",
+        "n": "GPT-4V",
+        "d": "2024-01-11",
+        "m1": "24.0"
+      },
+      {
+        "p": {
+          "name": "REBUS: A Robust Evaluation Benchmark of Understanding Symbols",
+          "link": "https://arxiv.org/abs/2401.05604v2"
+        },
+        "c": "https://github.com/cvndsh/rebus",
+        "n": "Gemini Pro",
+        "d": "2024-01-11",
+        "m1": "13.2"
+      },
+      {
+        "p": {
+          "name": "REBUS: A Robust Evaluation Benchmark of Understanding Symbols",
+          "link": "https://arxiv.org/abs/2401.05604v2"
+        },
+        "c": "https://github.com/cvndsh/rebus",
+        "n": "LLaVa-1.5-13B",
+        "d": "2024-01-11",
+        "m1": "1.8"
+      },
+      {
+        "p": {
+          "name": "REBUS: A Robust Evaluation Benchmark of Understanding Symbols",
+          "link": "https://arxiv.org/abs/2401.05604v2"
+        },
+        "c": "https://github.com/cvndsh/rebus",
+        "n": "LLaVa-1.5-7B",
+        "d": "2024-01-11",
+        "m1": "1.5"
+      },
+      {
+        "p": {
+          "name": "REBUS: A Robust Evaluation Benchmark of Understanding Symbols",
+          "link": "https://arxiv.org/abs/2401.05604v2"
+        },
+        "c": "https://github.com/cvndsh/rebus",
+        "n": "BLIP2-FLAN-T5-XXL",
+        "d": "2024-01-11",
+        "m1": "0.9"
+      },
+      {
+        "p": {
+          "name": "REBUS: A Robust Evaluation Benchmark of Understanding Symbols",
+          "link": "https://arxiv.org/abs/2401.05604v2"
+        },
+        "c": "https://github.com/cvndsh/rebus",
+        "n": "CogVLM",
+        "d": "2024-01-11",
+        "m1": "0.9"
+      },
+      {
+        "p": {
+          "name": "REBUS: A Robust Evaluation Benchmark of Understanding Symbols",
+          "link": "https://arxiv.org/abs/2401.05604v2"
+        },
+        "c": "https://github.com/cvndsh/rebus",
+        "n": "QWEN",
+        "d": "2024-01-11",
+        "m1": "0.9"
+      },
+      {
+        "p": {
+          "name": "REBUS: A Robust Evaluation Benchmark of Understanding Symbols",
+          "link": "https://arxiv.org/abs/2401.05604v2"
+        },
+        "c": "https://github.com/cvndsh/rebus",
+        "n": "InstructBLIP",
+        "d": "2024-01-11",
+        "m1": "0.6"
+      }
+    ]
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "title": "language-modelling-on-one-billion-word",
+  "task-hierarchy": [
+    "Language Modelling"
+  ],
+  "dataset-info": {
+    "link": "https://code.google.com/archive/p/1-billion-word-language-modeling-benchmark/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PPL",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Number of params",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Validation perplexity",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Simple and Effective Masked Diffusion Language Models",
+          "link": "https://arxiv.org/abs/2406.07524v2"
+        },
+        "c": "https://github.com/kuleshov-group/mdlm",
+        "n": "MDLM (AR baseline)",
+        "d": "2024-06-11",
+        "m1": "20.09",
+        "m2": "110M"
+      },
+      {
+        "p": {
+          "name": "OmniNet: Omnidirectional Representations from Transformers",
+          "link": "https://arxiv.org/abs/2103.01075v1"
+        },
+        "c": "https://github.com/lucidrains/omninet-pytorch",
+        "n": "OmniNetT (Large)",
+        "d": "2021-03-01",
+        "m1": "21.5",
+        "m2": "100M"
+      },
+      {
+        "p": {
+          "name": "OmniNet: Omnidirectional Representations from Transformers",
+          "link": "https://arxiv.org/abs/2103.01075v1"
+        },
+        "c": "https://github.com/lucidrains/omninet-pytorch",
+        "n": "OmniNetP (Large)",
+        "d": "2021-03-01",
+        "m1": "21.6",
+        "m2": "100M"
+      },
+      {
+        "p": {
+          "name": "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
+          "link": "https://arxiv.org/abs/1901.02860v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Transformer-XL Large",
+        "d": "2019-01-09",
+        "m1": "21.8",
+        "m2": "0.8B"
+      },
+      {
+        "p": {
+          "name": "OmniNet: Omnidirectional Representations from Transformers",
+          "link": "https://arxiv.org/abs/2103.01075v1"
+        },
+        "c": "https://github.com/lucidrains/omninet-pytorch",
+        "n": "OmniNetB (Large)",
+        "d": "2021-03-01",
+        "m1": "22"
+      },
+      {
+        "p": {
+          "name": "Simple and Effective Masked Diffusion Language Models",
+          "link": "https://arxiv.org/abs/2406.07524v2"
+        },
+        "c": "https://github.com/kuleshov-group/mdlm",
+        "n": "MDLM",
+        "d": "2024-06-11",
+        "m1": "23.00",
+        "m2": "110M"
+      },
+      {
+        "p": {
+          "name": "Adaptive Input Representations for Neural Language Modeling",
+          "link": "http://arxiv.org/abs/1809.10853v3"
+        },
+        "c": "https://github.com/pytorch/fairseq",
+        "n": "Adaptive Input Very Large",
+        "d": "2018-09-28",
+        "m1": "23.02",
+        "m2": "1.0B",
+        "m3": "22.92"
+      },
+      {
+        "p": {
+          "name": "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
+          "link": "https://arxiv.org/abs/1901.02860v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Transformer-XL Base",
+        "d": "2019-01-09",
+        "m1": "23.5",
+        "m2": "0.46B"
+      },
+      {
+        "p": {
+          "name": "When Attention Meets Fast Recurrence: Training Language Models with Reduced Compute",
+          "link": "https://arxiv.org/abs/2102.12459v3"
+        },
+        "c": "https://github.com/asappresearch/sru",
+        "n": "SRU++ Large",
+        "d": "2021-02-24",
+        "m1": "23.5",
+        "m2": "465M"
+      },
+      {
+        "p": {
+          "name": "Exploring the Limits of Language Modeling",
+          "link": "http://arxiv.org/abs/1602.02410v2"
+        },
+        "c": "https://github.com/tensorflow/models",
+        "n": "10 LSTM+CNN inputs + SNM10-SKIP (ensemble)",
+        "d": "2016-02-07",
+        "m1": "23.7",
+        "m2": "43B"
+      },
+      {
+        "p": {
+          "name": "Adaptive Input Representations for Neural Language Modeling",
+          "link": "http://arxiv.org/abs/1809.10853v3"
+        },
+        "c": "https://github.com/pytorch/fairseq",
+        "n": "Adaptive Input Large",
+        "d": "2018-09-28",
+        "m1": "23.91",
+        "m2": "0.46B",
+        "m3": "23.83"
+      },
+      {
+        "p": {
+          "name": "Mesh-TensorFlow: Deep Learning for Supercomputers",
+          "link": "http://arxiv.org/abs/1811.02084v1"
+        },
+        "c": "https://github.com/tensorflow/mesh",
+        "n": "Mesh Tensorflow",
+        "d": "2018-11-05",
+        "m1": " 24.0",
+        "m2": "4.9B"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Cohere Large",
+        "d": null,
+        "m1": "25.06"
+      },
+      {
+        "p": {
+          "name": "When Attention Meets Fast Recurrence: Training Language Models with Reduced Compute",
+          "link": "https://arxiv.org/abs/2102.12459v3"
+        },
+        "c": "https://github.com/asappresearch/sru",
+        "n": "SRU++",
+        "d": "2021-02-24",
+        "m1": "25.1",
+        "m2": "328M"
+      },
+      {
+        "p": {
+          "name": "Pay Less Attention with Lightweight and Dynamic Convolutions",
+          "link": "http://arxiv.org/abs/1901.10430v2"
+        },
+        "c": "https://github.com/pytorch/fairseq",
+        "n": "DynamicConv",
+        "d": "2019-01-29",
+        "m1": "26.67",
+        "m2": "0.34B"
+      },
+      {
+        "p": {
+          "name": "Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer",
+          "link": "http://arxiv.org/abs/1701.06538v1"
+        },
+        "c": "https://github.com/davidmrau/mixture-of-experts",
+        "n": "High-Budget MoE",
+        "d": "2017-01-23",
+        "m1": " 28.0",
+        "m2": "5B"
+      },
+      {
+        "p": {
+          "name": "The Evolved Transformer",
+          "link": "https://arxiv.org/abs/1901.11117v4"
+        },
+        "c": "https://github.com/tensorflow/tensor2tensor",
+        "n": "Evolved Transformer Big",
+        "d": "2019-01-30",
+        "m1": "28.6"
+      },
+      {
+        "p": {
+          "name": "Exploring the Limits of Language Modeling",
+          "link": "http://arxiv.org/abs/1602.02410v2"
+        },
+        "c": "https://github.com/tensorflow/models",
+        "n": "LSTM-8192-1024 + CNN Input",
+        "d": "2016-02-07",
+        "m1": "30.0",
+        "m2": "1.04B"
+      },
+      {
+        "p": {
+          "name": "Exploring the Limits of Language Modeling",
+          "link": "http://arxiv.org/abs/1602.02410v2"
+        },
+        "c": "https://github.com/tensorflow/models",
+        "n": "LSTM-8192-1024",
+        "d": "2016-02-07",
+        "m1": "30.6",
+        "m2": "1.8B"
+      },
+      {
+        "p": {
+          "name": "Language Modeling with Gated Convolutional Networks",
+          "link": "http://arxiv.org/abs/1612.08083v3"
+        },
+        "c": "https://github.com/facebookresearch/fairseq",
+        "n": " GCNN-14 bottleneck",
+        "d": "2016-12-23",
+        "m1": "31.9"
+      },
+      {
+        "p": {
+          "name": "Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer",
+          "link": "http://arxiv.org/abs/1701.06538v1"
+        },
+        "c": "https://github.com/davidmrau/mixture-of-experts",
+        "n": "Low-Budget MoE",
+        "d": "2017-01-23",
+        "m1": "34.1",
+        "m2": "5B"
+      },
+      {
+        "p": {
+          "name": "Factorization tricks for LSTM networks",
+          "link": "http://arxiv.org/abs/1703.10722v3"
+        },
+        "c": "https://github.com/okuchaiev/f-lm",
+        "n": "BIG G-LSTM-2",
+        "d": "2017-03-31",
+        "m1": "36.0"
+      },
+      {
+        "p": {
+          "name": "Language Models are Unsupervised Multitask Learners",
+          "link": "https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "GPT-2",
+        "d": "2019-02-14",
+        "m1": "42.16",
+        "m2": "1.54B"
+      },
+      {
+        "p": {
+          "name": "One Billion Word Benchmark for Measuring Progress in Statistical Language Modeling",
+          "link": "http://arxiv.org/abs/1312.3005v3"
+        },
+        "c": "https://github.com/tensorflow/models",
+        "n": "RNN-1024 + 9 Gram",
+        "d": "2013-12-11",
+        "m1": "51.3",
+        "m2": "20B"
+      },
+      {
+        "p": {
+          "name": "Skip-gram Language Modeling Using Sparse Non-negative Matrix Probability Estimation",
+          "link": "http://arxiv.org/abs/1412.1454v2"
+        },
+        "c": "",
+        "n": "Sparse Non-Negative",
+        "d": "2014-12-03",
+        "m1": "52.9",
+        "m2": "33B"
+      },
+      {
+        "p": {
+          "name": "H-Transformer-1D: Fast One-Dimensional Hierarchical Attention for Sequences",
+          "link": "https://arxiv.org/abs/2107.11906v1"
+        },
+        "c": "https://github.com/lucidrains/h-transformer-1d",
+        "n": "H-Transformer-1D Nr=16 (Base)",
+        "d": "2021-07-25",
+        "m2": "53M",
+        "m3": "23.95"
+      },
+      {
+        "p": {
+          "name": "H-Transformer-1D: Fast One-Dimensional Hierarchical Attention for Sequences",
+          "link": "https://arxiv.org/abs/2107.11906v1"
+        },
+        "c": "https://github.com/lucidrains/h-transformer-1d",
+        "n": "H-Transformer-1D Nr=16 (Large)",
+        "d": "2021-07-25",
+        "m2": "144M",
+        "m3": "20.25"
+      }
+    ]
+  }
+}

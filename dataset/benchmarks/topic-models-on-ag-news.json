@@ -1,0 +1,110 @@
+{
+  "title": "topic-models-on-ag-news",
+  "task-hierarchy": [
+    "Classification",
+    "Text Classification",
+    "Topic Models"
+  ],
+  "dataset-info": {
+    "link": "http://groups.di.unipi.it/~gulli/AG_corpus_of_news_articles.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "C_v",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "NPMI",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "vONTSS: vMF based semi-supervised neural topic modeling with optimal transport",
+          "link": "https://arxiv.org/abs/2307.01226v2"
+        },
+        "c": "",
+        "n": "vONTSS",
+        "d": "2023-07-03",
+        "m1": "0.49",
+        "m2": "0.054"
+      },
+      {
+        "p": {
+          "name": "Spherical Latent Spaces for Stable Variational Autoencoders",
+          "link": "http://arxiv.org/abs/1808.10805v2"
+        },
+        "c": "https://github.com/jiacheng-xu/vmf_vae_nlp",
+        "n": "vNVDM",
+        "d": "2018-08-31",
+        "m1": "0.44",
+        "m2": "0.028"
+      },
+      {
+        "p": {
+          "name": "Discovering Discrete Latent Topics with Neural Variational Inference",
+          "link": "http://arxiv.org/abs/1706.00359v2"
+        },
+        "c": "https://github.com/YongfeiYan/Neural-Document-Modeling",
+        "n": "GSM",
+        "d": "2017-06-01",
+        "m1": "0.41",
+        "m2": "0.03"
+      },
+      {
+        "p": {
+          "name": "Topic Modeling in Embedding Spaces",
+          "link": "https://arxiv.org/abs/1907.04907v1"
+        },
+        "c": "https://github.com/adjidieng/ETM",
+        "n": "ETM",
+        "d": "2019-07-08",
+        "m1": "0.41",
+        "m2": "0.02"
+      },
+      {
+        "p": {
+          "name": "Neural Topic Model via Optimal Transport",
+          "link": "https://arxiv.org/abs/2008.13537v3"
+        },
+        "c": "https://github.com/ethanhezhao/NeuralSinkhornTopicModel",
+        "n": "NSTM",
+        "d": "2020-08-12",
+        "m1": "0.37",
+        "m2": "-0.04"
+      },
+      {
+        "p": {
+          "name": "Autoencoding Variational Inference For Topic Models",
+          "link": "http://arxiv.org/abs/1703.01488v1"
+        },
+        "c": "https://github.com/mind-Lab/octis",
+        "n": "ProdLDA",
+        "d": "2017-03-04",
+        "m1": "0.32",
+        "m2": "-0.22"
+      }
+    ]
+  }
+}

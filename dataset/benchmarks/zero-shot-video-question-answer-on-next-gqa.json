@@ -1,0 +1,128 @@
+{
+  "title": "zero-shot-video-question-answer-on-next-gqa",
+  "task-hierarchy": [
+    "Video Question Answering",
+    "Zero-Shot Video Question Answer"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/doc-doc/next-gqa"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Acc@GQA",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Question-Answering Dense Video Events",
+          "link": "https://arxiv.org/abs/2409.04388v5"
+        },
+        "c": "https://github.com/qhuni/deve-qa",
+        "n": "DeVi (Gemini 2.0)",
+        "d": "2024-09-06",
+        "m1": "28.9"
+      },
+      {
+        "p": {
+          "name": "VideoMind: A Chain-of-LoRA Agent for Long Video Reasoning",
+          "link": "https://arxiv.org/abs/2503.13444v2"
+        },
+        "c": "https://github.com/yeliudev/VideoMind",
+        "n": "VideoMind(7B)",
+        "d": "2025-03-17",
+        "m1": "28.2"
+      },
+      {
+        "p": {
+          "name": "Question-Answering Dense Video Events",
+          "link": "https://arxiv.org/abs/2409.04388v5"
+        },
+        "c": "https://github.com/qhuni/deve-qa",
+        "n": "DeVi (GPT-4)",
+        "d": "2024-09-06",
+        "m1": "28.0"
+      },
+      {
+        "p": {
+          "name": "A Simple LLM Framework for Long-Range Video Question-Answering",
+          "link": "https://arxiv.org/abs/2312.17235v3"
+        },
+        "c": "https://github.com/ceezh/llovi",
+        "n": "LLoVi (GPT-4)",
+        "d": "2023-12-28",
+        "m1": "26.8"
+      },
+      {
+        "p": {
+          "name": "VideoMind: A Chain-of-LoRA Agent for Long Video Reasoning",
+          "link": "https://arxiv.org/abs/2503.13444v2"
+        },
+        "c": "https://github.com/yeliudev/VideoMind",
+        "n": "VideoMind (2B)",
+        "d": "2025-03-17",
+        "m1": "25.2"
+      },
+      {
+        "p": {
+          "name": "Streaming Long Video Understanding with Large Language Models",
+          "link": "https://arxiv.org/abs/2405.16009v1"
+        },
+        "c": "",
+        "n": "VideoStreaming",
+        "d": "2024-05-25",
+        "m1": "17.8"
+      },
+      {
+        "p": {
+          "name": "Language Repository for Long Video Understanding",
+          "link": "https://arxiv.org/abs/2403.14622v2"
+        },
+        "c": "https://github.com/kkahatapitiya/langrepo",
+        "n": "LangRepo (12B)",
+        "d": "2024-03-21",
+        "m1": "17.1"
+      },
+      {
+        "p": {
+          "name": "A Simple LLM Framework for Long-Range Video Question-Answering",
+          "link": "https://arxiv.org/abs/2312.17235v3"
+        },
+        "c": "https://github.com/ceezh/llovi",
+        "n": "LLoVi (7B)",
+        "d": "2023-12-28",
+        "m1": "11.2"
+      },
+      {
+        "p": {
+          "name": "Mistral 7B",
+          "link": "https://arxiv.org/abs/2310.06825v1"
+        },
+        "c": "https://github.com/mistralai/mistral-src",
+        "n": "Mistral (7B)",
+        "d": "2023-10-10",
+        "m1": "9.2"
+      }
+    ]
+  }
+}

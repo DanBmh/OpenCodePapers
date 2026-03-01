@@ -1,0 +1,169 @@
+{
+  "title": "image-retrieval-on-muge-retrieval",
+  "task-hierarchy": [
+    "Image Retrieval"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Mean Recall",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "R@1",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "R@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "R@5",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Chinese CLIP: Contrastive Vision-Language Pretraining in Chinese",
+          "link": "https://arxiv.org/abs/2211.01335v3"
+        },
+        "c": "https://github.com/ofa-sys/chinese-clip",
+        "n": "CN-CLIP (ViT-H/14)",
+        "d": "2022-11-02",
+        "m1": "83.6",
+        "m2": "68.9",
+        "m3": "93.1",
+        "m4": "88.7"
+      },
+      {
+        "p": {
+          "name": "Chinese CLIP: Contrastive Vision-Language Pretraining in Chinese",
+          "link": "https://arxiv.org/abs/2211.01335v3"
+        },
+        "c": "https://github.com/ofa-sys/chinese-clip",
+        "n": "CN-CLIP (ViT-L/14@336px)",
+        "d": "2022-11-02",
+        "m1": "81.3",
+        "m2": "65.3",
+        "m3": "92.1",
+        "m4": "86.7"
+      },
+      {
+        "p": {
+          "name": "Chinese CLIP: Contrastive Vision-Language Pretraining in Chinese",
+          "link": "https://arxiv.org/abs/2211.01335v3"
+        },
+        "c": "https://github.com/ofa-sys/chinese-clip",
+        "n": "CN-CLIP (ViT-L/14)",
+        "d": "2022-11-02",
+        "m1": "80.1",
+        "m2": "63.3",
+        "m3": "91.3",
+        "m4": "85.6"
+      },
+      {
+        "p": {
+          "name": "CCMB: A Large-scale Chinese Cross-modal Benchmark",
+          "link": "https://arxiv.org/abs/2205.03860v6"
+        },
+        "c": "https://github.com/yuxie11/R2D2",
+        "n": "R2D2 (ViT-L/14)",
+        "d": "2022-05-08",
+        "m1": "77.5",
+        "m2": "60.1",
+        "m3": "89.4",
+        "m4": "82.9"
+      },
+      {
+        "p": {
+          "name": "Chinese CLIP: Contrastive Vision-Language Pretraining in Chinese",
+          "link": "https://arxiv.org/abs/2211.01335v3"
+        },
+        "c": "https://github.com/ofa-sys/chinese-clip",
+        "n": "CN-CLIP (ViT-B/16)",
+        "d": "2022-11-02",
+        "m1": "77.4",
+        "m2": "58.4",
+        "m3": "90.0",
+        "m4": "83.6"
+      },
+      {
+        "p": {
+          "name": "Wukong: A 100 Million Large-scale Chinese Cross-modal Pre-training Benchmark",
+          "link": "https://arxiv.org/abs/2202.06767v4"
+        },
+        "c": "https://github.com/0jason000/wukong",
+        "n": "Wukong (ViT-L/14)",
+        "d": "2022-02-14",
+        "m1": "72.1",
+        "m2": "52.7",
+        "m3": "85.6",
+        "m4": "77.9"
+      },
+      {
+        "p": {
+          "name": "Chinese CLIP: Contrastive Vision-Language Pretraining in Chinese",
+          "link": "https://arxiv.org/abs/2211.01335v3"
+        },
+        "c": "https://github.com/ofa-sys/chinese-clip",
+        "n": "CN-CLIP (RN50)",
+        "d": "2022-11-02",
+        "m1": "69.2",
+        "m2": "48.6",
+        "m3": "84.0",
+        "m4": "75.1"
+      },
+      {
+        "p": {
+          "name": "CCMB: A Large-scale Chinese Cross-modal Benchmark",
+          "link": "https://arxiv.org/abs/2205.03860v6"
+        },
+        "c": "https://github.com/yuxie11/R2D2",
+        "n": "R2D2 (ViT-B)",
+        "d": "2022-05-08",
+        "m1": "68.7",
+        "m2": "47.4",
+        "m3": "83.5",
+        "m4": "75.1"
+      },
+      {
+        "p": {
+          "name": "Wukong: A 100 Million Large-scale Chinese Cross-modal Pre-training Benchmark",
+          "link": "https://arxiv.org/abs/2202.06767v4"
+        },
+        "c": "https://github.com/0jason000/wukong",
+        "n": "Wukong (ViT-B/32)",
+        "d": "2022-02-14",
+        "m1": "61.2",
+        "m2": "39.2",
+        "m3": "77.4",
+        "m4": "66.9"
+      }
+    ]
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "title": "open-information-extraction-on-lsoie-wiki",
+  "task-hierarchy": [
+    "Open Information Extraction"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/Jacobsolawetz/large-scale-oie"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Syntactic Multi-view Learning for Open Information Extraction",
+          "link": "https://arxiv.org/abs/2212.02068v1"
+        },
+        "c": "https://github.com/daviddongkc/smile_oie",
+        "n": "SMiLe-OIE",
+        "d": "2022-12-05",
+        "m1": "51.73"
+      },
+      {
+        "p": {
+          "name": "Syntactic Multi-view Learning for Open Information Extraction",
+          "link": "https://arxiv.org/abs/2212.02068v1"
+        },
+        "c": "https://github.com/daviddongkc/smile_oie",
+        "n": "BERT + Dep-GCN - Const-GCN",
+        "d": "2022-12-05",
+        "m1": "50.21"
+      },
+      {
+        "p": {
+          "name": "Syntactic Multi-view Learning for Open Information Extraction",
+          "link": "https://arxiv.org/abs/2212.02068v1"
+        },
+        "c": "https://github.com/daviddongkc/smile_oie",
+        "n": "BERT + Dep-GCN [?] Const-GCN",
+        "d": "2022-12-05",
+        "m1": "49.89"
+      },
+      {
+        "p": {
+          "name": "Syntactic Multi-view Learning for Open Information Extraction",
+          "link": "https://arxiv.org/abs/2212.02068v1"
+        },
+        "c": "https://github.com/daviddongkc/smile_oie",
+        "n": "BERT + Const-GCN",
+        "d": "2022-12-05",
+        "m1": "49.71"
+      },
+      {
+        "p": {
+          "name": "Syntactic Multi-view Learning for Open Information Extraction",
+          "link": "https://arxiv.org/abs/2212.02068v1"
+        },
+        "c": "https://github.com/daviddongkc/smile_oie",
+        "n": "IMoJIE Kolluru et al. (2020)",
+        "d": "2022-12-05",
+        "m1": "49.24"
+      },
+      {
+        "p": {
+          "name": "Syntactic Multi-view Learning for Open Information Extraction",
+          "link": "https://arxiv.org/abs/2212.02068v1"
+        },
+        "c": "https://github.com/daviddongkc/smile_oie",
+        "n": "BERT + Dep-GCN",
+        "d": "2022-12-05",
+        "m1": "48.71"
+      },
+      {
+        "p": {
+          "name": "Syntactic Multi-view Learning for Open Information Extraction",
+          "link": "https://arxiv.org/abs/2212.02068v1"
+        },
+        "c": "https://github.com/daviddongkc/smile_oie",
+        "n": "BERT Solawetz and Larson (2021)",
+        "d": "2022-12-05",
+        "m1": "47.54"
+      },
+      {
+        "p": {
+          "name": "Syntactic Multi-view Learning for Open Information Extraction",
+          "link": "https://arxiv.org/abs/2212.02068v1"
+        },
+        "c": "https://github.com/daviddongkc/smile_oie",
+        "n": "CIGL-OIE + IGL-CA Kolluru et al. (2020)",
+        "d": "2022-12-05",
+        "m1": "44.75"
+      },
+      {
+        "p": {
+          "name": "Syntactic Multi-view Learning for Open Information Extraction",
+          "link": "https://arxiv.org/abs/2212.02068v1"
+        },
+        "c": "https://github.com/daviddongkc/smile_oie",
+        "n": "GloVe + bi-LSTM + CRF",
+        "d": "2022-12-05",
+        "m1": "44.48"
+      },
+      {
+        "p": {
+          "name": "Syntactic Multi-view Learning for Open Information Extraction",
+          "link": "https://arxiv.org/abs/2212.02068v1"
+        },
+        "c": "https://github.com/daviddongkc/smile_oie",
+        "n": "GloVe + bi-LSTM Stanovsky et al. (2018)",
+        "d": "2022-12-05",
+        "m1": "43.9"
+      },
+      {
+        "p": {
+          "name": "Syntactic Multi-view Learning for Open Information Extraction",
+          "link": "https://arxiv.org/abs/2212.02068v1"
+        },
+        "c": "https://github.com/daviddongkc/smile_oie",
+        "n": "CopyAttention Cui et al. (2018)",
+        "d": "2022-12-05",
+        "m1": "39.52"
+      }
+    ]
+  }
+}

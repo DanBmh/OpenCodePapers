@@ -1,0 +1,77 @@
+{
+  "title": "retrieval-on-quora-question-pairs",
+  "task-hierarchy": [
+    "Retrieval"
+  ],
+  "dataset-info": {
+    "link": "https://quoradata.quora.com/First-Quora-Dataset-Release-Question-Pairs"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Queries per second",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "BM25S: Orders of magnitude faster lexical search via eager sparse scoring",
+          "link": "https://arxiv.org/abs/2407.03618v1"
+        },
+        "c": "https://github.com/xhluca/bm25s",
+        "n": "BM25S",
+        "d": "2024-07-04",
+        "m1": "183.53"
+      },
+      {
+        "p": {
+          "name": "BM25S: Orders of magnitude faster lexical search via eager sparse scoring",
+          "link": "https://arxiv.org/abs/2407.03618v1"
+        },
+        "c": "https://github.com/xhluca/bm25s",
+        "n": "Elasticsearch",
+        "d": "2024-07-04",
+        "m1": "21.8"
+      },
+      {
+        "p": {
+          "name": "BM25S: Orders of magnitude faster lexical search via eager sparse scoring",
+          "link": "https://arxiv.org/abs/2407.03618v1"
+        },
+        "c": "https://github.com/xhluca/bm25s",
+        "n": "BM25-PT",
+        "d": "2024-07-04",
+        "m1": "6.49"
+      },
+      {
+        "p": {
+          "name": "BM25S: Orders of magnitude faster lexical search via eager sparse scoring",
+          "link": "https://arxiv.org/abs/2407.03618v1"
+        },
+        "c": "https://github.com/xhluca/bm25s",
+        "n": "Rank-BM25",
+        "d": "2024-07-04",
+        "m1": "1.18"
+      }
+    ]
+  }
+}

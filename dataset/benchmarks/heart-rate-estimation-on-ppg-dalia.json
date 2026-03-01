@@ -1,0 +1,101 @@
+{
+  "title": "heart-rate-estimation-on-ppg-dalia",
+  "task-hierarchy": [
+    "Medical waveform analysis",
+    "Electrocardiography (ECG)",
+    "ECG Classification",
+    "Photoplethysmography (PPG)",
+    "Heart rate estimation"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MAE [bpm, session-wise]",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "KID-PPG: Knowledge Informed Deep Learning for Extracting Heart Rate from a Smartwatch",
+          "link": "https://arxiv.org/abs/2405.09559v2"
+        },
+        "c": "https://github.com/esl-epfl/KID-PPG",
+        "n": "KID-PPG",
+        "d": "2024-05-02",
+        "m1": "2.85 ± 1.07"
+      },
+      {
+        "p": {
+          "name": "Deep PPG: Large-Scale Heart Rate Estimation with Convolutional Neural Networks",
+          "link": "https://doi.org/10.3390/s19143079"
+        },
+        "c": "",
+        "n": "CNN ensemble",
+        "d": "2019-07-12",
+        "m1": "7.65 ± 4.2"
+      },
+      {
+        "p": {
+          "name": "Deep PPG: Large-Scale Heart Rate Estimation with Convolutional Neural Networks",
+          "link": "https://doi.org/10.3390/s19143079"
+        },
+        "c": "",
+        "n": "CNN Average",
+        "d": "2019-07-12",
+        "m1": "8.82 ± 3.8"
+      },
+      {
+        "p": {
+          "name": "A Novel Time-Varying Spectral Filtering Algorithm for Reconstruction of Motion Artifact Corrupted Heart Rate Signals During Intense Physical Activities Using a Wearable Photoplethysmogram Sensor",
+          "link": "https://doi.org/10.3390/s16010010"
+        },
+        "c": "",
+        "n": "SpaMaPlus",
+        "d": "2015-12-23",
+        "m1": "11.06 ± 4.8"
+      },
+      {
+        "p": {
+          "name": "A Novel Time-Varying Spectral Filtering Algorithm for Reconstruction of Motion Artifact Corrupted Heart Rate Signals During Intense Physical Activities Using a Wearable Photoplethysmogram Sensor",
+          "link": "https://doi.org/10.3390/s16010010"
+        },
+        "c": "",
+        "n": "SpaMa",
+        "d": "2015-12-23",
+        "m1": "15.56 ± 7.5"
+      },
+      {
+        "p": {
+          "name": "Computationally efficient heart rate estimation during physical exercise using photoplethysmographic signals",
+          "link": "https://doi.org/10.23919/EUSIPCO.2017.8081656"
+        },
+        "c": "",
+        "n": "Schäck2017",
+        "d": "2017-08-28",
+        "m1": "20.45 ± 7.1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "title": "speaker-verification-on-voxceleb1",
+  "task-hierarchy": [
+    "Speaker Verification"
+  ],
+  "dataset-info": {
+    "link": "https://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox1.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "EER",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Reshape Dimensions Network for Speaker Recognition",
+          "link": "https://arxiv.org/abs/2407.18223v2"
+        },
+        "c": "https://github.com/IDRnD/ReDimNet",
+        "n": "ReDimNet-B6-SF2-LM-ASNorm (15.0M)",
+        "d": "2024-07-25",
+        "m1": "0.37"
+      },
+      {
+        "p": {
+          "name": "Reshape Dimensions Network for Speaker Recognition",
+          "link": "https://arxiv.org/abs/2407.18223v2"
+        },
+        "c": "https://github.com/IDRnD/ReDimNet",
+        "n": "ReDimNet-B5-SF2-LM-ASNorm (9.2M)",
+        "d": "2024-07-25",
+        "m1": "0.39"
+      },
+      {
+        "p": {
+          "name": "Reshape Dimensions Network for Speaker Recognition",
+          "link": "https://arxiv.org/abs/2407.18223v2"
+        },
+        "c": "https://github.com/IDRnD/ReDimNet",
+        "n": "ReDimNet-B6-SF2-LM (15.0M)",
+        "d": "2024-07-25",
+        "m1": "0.4"
+      },
+      {
+        "p": {
+          "name": "Reshape Dimensions Network for Speaker Recognition",
+          "link": "https://arxiv.org/abs/2407.18223v2"
+        },
+        "c": "https://github.com/IDRnD/ReDimNet",
+        "n": "ReDimNet-B5-SF2-LM (9.2M)",
+        "d": "2024-07-25",
+        "m1": "0.43"
+      },
+      {
+        "p": {
+          "name": "Reshape Dimensions Network for Speaker Recognition",
+          "link": "https://arxiv.org/abs/2407.18223v2"
+        },
+        "c": "https://github.com/IDRnD/ReDimNet",
+        "n": "ReDimNet-B4-LM-ASNorm (6.3M)",
+        "d": "2024-07-25",
+        "m1": "0.44"
+      },
+      {
+        "p": {
+          "name": "Reshape Dimensions Network for Speaker Recognition",
+          "link": "https://arxiv.org/abs/2407.18223v2"
+        },
+        "c": "https://github.com/IDRnD/ReDimNet",
+        "n": "ReDimNet-B3-LM-ASNorm (3.0M)",
+        "d": "2024-07-25",
+        "m1": "0.47"
+      },
+      {
+        "p": {
+          "name": "Reshape Dimensions Network for Speaker Recognition",
+          "link": "https://arxiv.org/abs/2407.18223v2"
+        },
+        "c": "https://github.com/IDRnD/ReDimNet",
+        "n": "ReDimNet-B3-LM (3.0M)",
+        "d": "2024-07-25",
+        "m1": "0.5"
+      },
+      {
+        "p": {
+          "name": "Reshape Dimensions Network for Speaker Recognition",
+          "link": "https://arxiv.org/abs/2407.18223v2"
+        },
+        "c": "https://github.com/IDRnD/ReDimNet",
+        "n": "ReDimNet-B4-LM (6.3M)",
+        "d": "2024-07-25",
+        "m1": "0.51"
+      },
+      {
+        "p": {
+          "name": "Reshape Dimensions Network for Speaker Recognition",
+          "link": "https://arxiv.org/abs/2407.18223v2"
+        },
+        "c": "https://github.com/IDRnD/ReDimNet",
+        "n": "ReDimNet-B2-SF2-LM-ASNorm (4.7M)",
+        "d": "2024-07-25",
+        "m1": "0.52"
+      },
+      {
+        "p": {
+          "name": "Reshape Dimensions Network for Speaker Recognition",
+          "link": "https://arxiv.org/abs/2407.18223v2"
+        },
+        "c": "https://github.com/IDRnD/ReDimNet",
+        "n": "ReDimNet-B2-SF2-LM (4.7M)",
+        "d": "2024-07-25",
+        "m1": "0.57"
+      },
+      {
+        "p": {
+          "name": "Reshape Dimensions Network for Speaker Recognition",
+          "link": "https://arxiv.org/abs/2407.18223v2"
+        },
+        "c": "https://github.com/IDRnD/ReDimNet",
+        "n": "ReDimNet-B1-LM-ASNorm (2.2M)",
+        "d": "2024-07-25",
+        "m1": "0.73"
+      },
+      {
+        "p": {
+          "name": "Reshape Dimensions Network for Speaker Recognition",
+          "link": "https://arxiv.org/abs/2407.18223v2"
+        },
+        "c": "https://github.com/IDRnD/ReDimNet",
+        "n": "ReDimNet-B1-LM (2.2M)",
+        "d": "2024-07-25",
+        "m1": "0.85"
+      },
+      {
+        "p": {
+          "name": "SpeechNAS: Towards Better Trade-off between Latency and Accuracy for Large-Scale Speaker Verification",
+          "link": "https://arxiv.org/abs/2109.08839v1"
+        },
+        "c": "https://github.com/wentaozhu/speechnas",
+        "n": "SpeechNAS",
+        "d": "2021-09-18",
+        "m1": "1.02"
+      },
+      {
+        "p": {
+          "name": "Reshape Dimensions Network for Speaker Recognition",
+          "link": "https://arxiv.org/abs/2407.18223v2"
+        },
+        "c": "https://github.com/IDRnD/ReDimNet",
+        "n": "ReDimNet-B0-LM-ASNorm (1.0M)",
+        "d": "2024-07-25",
+        "m1": "1.07"
+      },
+      {
+        "p": {
+          "name": "Reshape Dimensions Network for Speaker Recognition",
+          "link": "https://arxiv.org/abs/2407.18223v2"
+        },
+        "c": "https://github.com/IDRnD/ReDimNet",
+        "n": "ReDimNet-B0-LM (1.0M)",
+        "d": "2024-07-25",
+        "m1": "1.16"
+      },
+      {
+        "p": {
+          "name": "A Fine-tuned Wav2vec 2.0/HuBERT Benchmark For Speech Emotion Recognition, Speaker Verification and Spoken Language Understanding",
+          "link": "https://arxiv.org/abs/2111.02735v3"
+        },
+        "c": "",
+        "n": "Fine-tuned HuBERT Large",
+        "d": "2021-11-04",
+        "m1": "2.36"
+      }
+    ]
+  }
+}

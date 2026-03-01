@@ -1,0 +1,117 @@
+{
+  "title": "object-tracking-on-quadtrack",
+  "task-hierarchy": [
+    "Object Tracking"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/xifen523/OmniTrack"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "HOTA",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Omnidirectional Multi-Object Tracking",
+          "link": "https://arxiv.org/abs/2503.04565v2"
+        },
+        "c": "https://github.com/xifen523/omnitrack",
+        "n": "OmniTrack",
+        "d": "2025-03-06",
+        "m1": "23.45"
+      },
+      {
+        "p": {
+          "name": "Simple Online and Realtime Tracking with a Deep Association Metric",
+          "link": "http://arxiv.org/abs/1703.07402v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
+        "n": "DeepSORT",
+        "d": "2017-03-21",
+        "m1": "21.16"
+      },
+      {
+        "p": {
+          "name": "Observation-Centric SORT: Rethinking SORT for Robust Multi-Object Tracking",
+          "link": "https://arxiv.org/abs/2203.14360v3"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
+        "n": "OC-SORT",
+        "d": "2022-03-27",
+        "m1": "20.83"
+      },
+      {
+        "p": {
+          "name": "ByteTrack: Multi-Object Tracking by Associating Every Detection Box",
+          "link": "https://arxiv.org/abs/2110.06864v3"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection/tree/release/2.3/configs/mot",
+        "n": "ByteTrack",
+        "d": "2021-10-13",
+        "m1": "20.66"
+      },
+      {
+        "p": {
+          "name": "TrackFormer: Multi-Object Tracking with Transformers",
+          "link": "https://arxiv.org/abs/2101.02702v3"
+        },
+        "c": "https://github.com/timmeinhardt/trackformer",
+        "n": "TrackFormer",
+        "d": "2021-01-07",
+        "m1": "19.62"
+      },
+      {
+        "p": {
+          "name": "Hybrid-SORT: Weak Cues Matter for Online Multi-Object Tracking",
+          "link": "https://arxiv.org/abs/2308.00783v2"
+        },
+        "c": "https://github.com/mikel-brostrom/boxmot",
+        "n": "HybridSORT",
+        "d": "2023-08-01",
+        "m1": "16.64"
+      },
+      {
+        "p": {
+          "name": "DiffMOT: A Real-time Diffusion-based Multiple Object Tracker with Non-linear Prediction",
+          "link": "https://arxiv.org/abs/2403.02075v2"
+        },
+        "c": "",
+        "n": "DiffMOT",
+        "d": "2024-03-04",
+        "m1": "16.4"
+      },
+      {
+        "p": {
+          "name": "BoT-SORT: Robust Associations Multi-Pedestrian Tracking",
+          "link": "https://arxiv.org/abs/2206.14651v2"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection/tree/develop/configs/mot",
+        "n": "Bot-SORT",
+        "d": "2022-06-29",
+        "m1": "15.77"
+      }
+    ]
+  }
+}

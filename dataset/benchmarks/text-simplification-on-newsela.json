@@ -1,0 +1,182 @@
+{
+  "title": "text-simplification-on-newsela",
+  "task-hierarchy": [
+    "Text Simplification"
+  ],
+  "dataset-info": {
+    "link": "https://newsela.com/data/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "SARI",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "BLEU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Neural CRF Model for Sentence Alignment in Text Simplification",
+          "link": "https://arxiv.org/abs/2005.02324v4"
+        },
+        "c": "https://github.com/chaojiang06/wiki-auto",
+        "n": "CRF Alignment + Transformer",
+        "d": "2020-05-05",
+        "m1": "36.6"
+      },
+      {
+        "p": {
+          "name": "Dynamic Multi-Level Multi-Task Learning for Sentence Simplification",
+          "link": "http://arxiv.org/abs/1806.07304v1"
+        },
+        "c": "",
+        "n": "Pointer + Multi-task Entailment and Paraphrase Generation",
+        "d": "2018-06-19",
+        "m1": "33.22",
+        "m2": "11.14"
+      },
+      {
+        "p": {
+          "name": "EditNTS: An Neural Programmer-Interpreter Model for Sentence Simplification through Explicit Editing",
+          "link": "https://arxiv.org/abs/1906.08104v1"
+        },
+        "c": "https://github.com/yuedongP/EditNTS",
+        "n": "EditNTS",
+        "d": "2019-06-19",
+        "m1": "31.41",
+        "m2": "19.85"
+      },
+      {
+        "p": {
+          "name": "Complexity-Weighted Loss and Diverse Reranking for Sentence Simplification",
+          "link": "http://arxiv.org/abs/1904.02767v1"
+        },
+        "c": "https://github.com/rekriz11/DeDiv",
+        "n": "S2S-Cluster-FA",
+        "d": "2019-04-04",
+        "m1": "30.73",
+        "m2": "19.55"
+      },
+      {
+        "p": {
+          "name": "Iterative Edit-Based Unsupervised Sentence Simplification",
+          "link": "https://arxiv.org/abs/2006.09639v1"
+        },
+        "c": "https://github.com/ddhruvkr/Edit-Unsup-TS",
+        "n": "Edit-Unsup-TS",
+        "d": "2020-06-17",
+        "m1": "30.44",
+        "m2": "17.36"
+      },
+      {
+        "p": {
+          "name": "Sentence Simplification with Memory-Augmented Neural Networks",
+          "link": "http://arxiv.org/abs/1804.07445v1"
+        },
+        "c": "",
+        "n": "NSELSTM-S ",
+        "d": "2018-04-20",
+        "m1": "29.58",
+        "m2": "22.62"
+      },
+      {
+        "p": {
+          "name": "Sentence Simplification with Memory-Augmented Neural Networks",
+          "link": "http://arxiv.org/abs/1804.07445v1"
+        },
+        "c": "",
+        "n": "NSELSTM-B ",
+        "d": "2018-04-20",
+        "m1": "27.42",
+        "m2": "26.31"
+      },
+      {
+        "p": {
+          "name": "Sentence Simplification with Deep Reinforcement Learning",
+          "link": "http://arxiv.org/abs/1703.10931v2"
+        },
+        "c": "https://github.com/XingxingZhang/dress",
+        "n": "DRESS",
+        "d": "2017-03-31",
+        "m1": "27.37",
+        "m2": "23.21"
+      },
+      {
+        "p": {
+          "name": "Integrating Transformer and Paraphrase Rules for Sentence Simplification",
+          "link": "http://arxiv.org/abs/1810.11193v1"
+        },
+        "c": "https://github.com/Sanqiang/text_simplification",
+        "n": "DMASS + DCSS",
+        "d": "2018-10-26",
+        "m1": "27.28"
+      },
+      {
+        "p": {
+          "name": "Sentence Simplification with Deep Reinforcement Learning",
+          "link": "http://arxiv.org/abs/1703.10931v2"
+        },
+        "c": "https://github.com/XingxingZhang/dress",
+        "n": "DRESS-LS",
+        "d": "2017-03-31",
+        "m1": "26.63",
+        "m2": "24.30"
+      },
+      {
+        "p": {
+          "name": "Learning How to Simplify From Explicit Labeling of Complex-Simplified Text Pairs",
+          "link": "https://aclanthology.org/I17-1030"
+        },
+        "c": "https://github.com/ghpaetzold/massalign",
+        "n": "SeqLabel ",
+        "d": "2017-11-01",
+        "m1": "29.53*"
+      },
+      {
+        "p": {
+          "name": "Hybrid Simplification using Deep Semantics and Machine Translation",
+          "link": "https://aclanthology.org/P14-1041"
+        },
+        "c": "",
+        "n": "Hybrid ",
+        "d": "2014-06-01",
+        "m1": "28.61*",
+        "m2": "14.46*"
+      },
+      {
+        "p": {
+          "name": "Sentence Simplification by Monolingual Machine Translation",
+          "link": "https://aclanthology.org/P12-1107"
+        },
+        "c": "",
+        "n": "PBMT-R ",
+        "d": "2012-07-01",
+        "m1": "15.77*",
+        "m2": "18.19*"
+      }
+    ]
+  }
+}

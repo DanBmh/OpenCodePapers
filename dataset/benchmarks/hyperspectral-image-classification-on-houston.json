@@ -1,0 +1,125 @@
+{
+  "title": "hyperspectral-image-classification-on-houston",
+  "task-hierarchy": [
+    "Hyperspectral Image Segmentation",
+    "Hyperspectral",
+    "Hyperspectral Image Classification"
+  ],
+  "dataset-info": {
+    "link": "https://hyperspectral.ee.uh.edu/?page_id=459"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Overall Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "AA@10%perclass",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "AA@disjoint",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "F1@10%perclass",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Kappa@10%perclass",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "Kappa@disjoint",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "OA@10%perclass",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "OA@15perclass",
+        "sortable": "true"
+      },
+      {
+        "key": "m9",
+        "label": "OA@disjoint",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Attention-Based Second-Order Pooling Network for Hyperspectral Image Classification",
+          "link": "https://ieeexplore.ieee.org/document/9325094"
+        },
+        "c": "https://github.com/ZhaohuiXue/A-SPN-release",
+        "n": "A-SPN",
+        "d": "2021-01-14",
+        "m1": "97.27%"
+      },
+      {
+        "p": {
+          "name": "Adaptive Mask Sampling and Manifold to Euclidean Subspace Learning with Distance Covariance Representation for Hyperspectral Image Classification",
+          "link": "https://ieeexplore.ieee.org/abstract/document/10097620"
+        },
+        "c": "https://github.com/lms-07/AMS-M2ESL",
+        "n": "AMS-M2ESL",
+        "d": "2023-04-07",
+        "m1": "88.82±0.93%",
+        "m3": "92.15±0.30%",
+        "m6": "0.8785±0.0101",
+        "m9": "88.82±0.93%"
+      },
+      {
+        "p": {
+          "name": "Discrete Cosine Transform-Based Joint Spectral-Spatial Information Compression and Band Correlation Calculation for Hyperspectral Feature Extraction",
+          "link": "https://doi.org/10.3390/rs16224270"
+        },
+        "c": "https://github.com/Lightness7/SSBC",
+        "n": "SSBC",
+        "d": "2024-11-16",
+        "m2": "98.42%",
+        "m4": "98.54%",
+        "m5": "98.41%",
+        "m7": "98.53%"
+      },
+      {
+        "p": {
+          "name": "Locality-Aware Hyperspectral Classification",
+          "link": "https://arxiv.org/abs/2309.01561v1"
+        },
+        "c": "https://github.com/zhoufangqin/hylite",
+        "n": "HyLITE",
+        "d": "2023-09-04",
+        "m8": "88.49"
+      }
+    ]
+  }
+}

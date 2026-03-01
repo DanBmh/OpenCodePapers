@@ -1,0 +1,137 @@
+{
+  "title": "semantic-segmentation-on-spacenet-1",
+  "task-hierarchy": [
+    "Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://spacenet.ai/spacenet-buildings-dataset-v1/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Mean IoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MTP: Advancing Remote Sensing Foundation Model via Multi-Task Pretraining",
+          "link": "https://arxiv.org/abs/2403.13430v2"
+        },
+        "c": "https://github.com/vitae-transformer/mtp",
+        "n": "MAE+MTP(ViT-L)",
+        "d": "2024-03-20",
+        "m1": "79.69"
+      },
+      {
+        "p": {
+          "name": "MTP: Advancing Remote Sensing Foundation Model via Multi-Task Pretraining",
+          "link": "https://arxiv.org/abs/2403.13430v2"
+        },
+        "c": "https://github.com/vitae-transformer/mtp",
+        "n": "MAE+MTP(ViT-B+RVSA)",
+        "d": "2024-03-20",
+        "m1": "79.63"
+      },
+      {
+        "p": {
+          "name": "MTP: Advancing Remote Sensing Foundation Model via Multi-Task Pretraining",
+          "link": "https://arxiv.org/abs/2403.13430v2"
+        },
+        "c": "https://github.com/vitae-transformer/mtp",
+        "n": "MAE+MTP(ViT-L+RVSA)",
+        "d": "2024-03-20",
+        "m1": "79.54"
+      },
+      {
+        "p": {
+          "name": "Scaling Efficient Masked Image Modeling on Large Remote Sensing Dataset",
+          "link": "https://arxiv.org/abs/2406.11933v4"
+        },
+        "c": "https://github.com/Fengxiang23/SelectiveMAE",
+        "n": "SelectiveMAE+ViT-B",
+        "d": "2024-06-17",
+        "m1": "79.50"
+      },
+      {
+        "p": {
+          "name": "MTP: Advancing Remote Sensing Foundation Model via Multi-Task Pretraining",
+          "link": "https://arxiv.org/abs/2403.13430v2"
+        },
+        "c": "https://github.com/vitae-transformer/mtp",
+        "n": "IMP+MTP(InternImage-XL)",
+        "d": "2024-03-20",
+        "m1": "79.16"
+      },
+      {
+        "p": {
+          "name": "Geography-Aware Self-Supervised Learning",
+          "link": "https://arxiv.org/abs/2011.09980v7"
+        },
+        "c": "https://github.com/sustainlab-group/geography-aware-ssl",
+        "n": "PSANet w/ ResNet50 - FMoW self-supervised pre-training w/ MoCo-V2 + Temporal Positives",
+        "d": "2020-11-19",
+        "m1": "78.48"
+      },
+      {
+        "p": {
+          "name": "Geography-Aware Self-Supervised Learning",
+          "link": "https://arxiv.org/abs/2011.09980v7"
+        },
+        "c": "https://github.com/sustainlab-group/geography-aware-ssl",
+        "n": "PSANet w/ ResNet50 backbone - FMoW self-supervised pre-training w/ MoCo-V2",
+        "d": "2020-11-19",
+        "m1": "78.05"
+      },
+      {
+        "p": {
+          "name": "Geography-Aware Self-Supervised Learning",
+          "link": "https://arxiv.org/abs/2011.09980v7"
+        },
+        "c": "https://github.com/sustainlab-group/geography-aware-ssl",
+        "n": "PSANet w/ ResNet50 backbone - FMoW pretrained",
+        "d": "2020-11-19",
+        "m1": "75.57"
+      },
+      {
+        "p": {
+          "name": "Geography-Aware Self-Supervised Learning",
+          "link": "https://arxiv.org/abs/2011.09980v7"
+        },
+        "c": "https://github.com/sustainlab-group/geography-aware-ssl",
+        "n": "PSANet w/ ResNet50 backbone - ImageNet pretrained",
+        "d": "2020-11-19",
+        "m1": "75.23"
+      },
+      {
+        "p": {
+          "name": "Geography-Aware Self-Supervised Learning",
+          "link": "https://arxiv.org/abs/2011.09980v7"
+        },
+        "c": "https://github.com/sustainlab-group/geography-aware-ssl",
+        "n": "PSANet w/ ResNet50 backbone",
+        "d": "2020-11-19",
+        "m1": "74.93"
+      }
+    ]
+  }
+}

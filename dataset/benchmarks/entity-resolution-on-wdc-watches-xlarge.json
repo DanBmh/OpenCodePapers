@@ -1,0 +1,67 @@
+{
+  "title": "entity-resolution-on-wdc-watches-xlarge",
+  "task-hierarchy": [
+    "Entity Resolution"
+  ],
+  "dataset-info": {
+    "link": "http://webdatacommons.org/largescaleproductcorpus/v2/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1 (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Dual-Objective Fine-Tuning of BERT for Entity Matching",
+          "link": "https://doi.org/10.14778/3467861.3467878"
+        },
+        "c": "https://github.com/wbsg-uni-mannheim/jointbert",
+        "n": "JointBERT",
+        "d": "2021-06-01",
+        "m1": "97.09"
+      },
+      {
+        "p": {
+          "name": "Deep Entity Matching with Pre-Trained Language Models",
+          "link": "https://arxiv.org/abs/2004.00584v3"
+        },
+        "c": "https://github.com/megagonlabs/ditto",
+        "n": "Ditto",
+        "d": "2020-04-01",
+        "m1": "96.53"
+      },
+      {
+        "p": {
+          "name": "Entity Resolution with Hierarchical Graph Attention Networks",
+          "link": "https://dl.acm.org/doi/10.1145/3514221.3517872"
+        },
+        "c": "https://github.com/CGCL-codes/HierGAT",
+        "n": "HG",
+        "d": "2022-06-01",
+        "m1": "96.50"
+      }
+    ]
+  }
+}

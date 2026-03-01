@@ -1,0 +1,67 @@
+{
+  "title": "sign-language-recognition-on-znaki",
+  "task-hierarchy": [
+    "Sign Language Recognition"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "CER (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "HandReader: Advanced Techniques for Efficient Fingerspelling Recognition",
+          "link": "https://arxiv.org/abs/2505.10267v1"
+        },
+        "c": "https://github.com/ai-forever/handreader",
+        "n": "HandReader_RGB_KP",
+        "d": "2025-05-15",
+        "m1": "5.06"
+      },
+      {
+        "p": {
+          "name": "HandReader: Advanced Techniques for Efficient Fingerspelling Recognition",
+          "link": "https://arxiv.org/abs/2505.10267v1"
+        },
+        "c": "https://github.com/ai-forever/handreader",
+        "n": "HandReader_KP",
+        "d": "2025-05-15",
+        "m1": "7.35"
+      },
+      {
+        "p": {
+          "name": "HandReader: Advanced Techniques for Efficient Fingerspelling Recognition",
+          "link": "https://arxiv.org/abs/2505.10267v1"
+        },
+        "c": "https://github.com/ai-forever/handreader",
+        "n": "HandReader_RGB",
+        "d": "2025-05-15",
+        "m1": "7.61"
+      }
+    ]
+  }
+}

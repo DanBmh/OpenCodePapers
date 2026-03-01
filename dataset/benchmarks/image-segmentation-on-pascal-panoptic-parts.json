@@ -1,0 +1,77 @@
+{
+  "title": "image-segmentation-on-pascal-panoptic-parts",
+  "task-hierarchy": [
+    "Image Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/tue-mps/panoptic_parts"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoUPartS",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Hierarchical Open-vocabulary Universal Image Segmentation",
+          "link": "https://arxiv.org/abs/2307.00764v2"
+        },
+        "c": "https://github.com/berkeley-hipie/hipie",
+        "n": "HIPIE (ViT-H)",
+        "d": "2023-07-03",
+        "m1": "63.8"
+      },
+      {
+        "p": {
+          "name": "Part-aware Panoptic Segmentation",
+          "link": "https://arxiv.org/abs/2106.06351v1"
+        },
+        "c": "https://github.com/tue-mps/panoptic_parts",
+        "n": "PPS",
+        "d": "2021-06-11",
+        "m1": "58.6"
+      },
+      {
+        "p": {
+          "name": "Hierarchical Open-vocabulary Universal Image Segmentation",
+          "link": "https://arxiv.org/abs/2307.00764v2"
+        },
+        "c": "https://github.com/berkeley-hipie/hipie",
+        "n": "HIPIE (ResNet-50)",
+        "d": "2023-07-03",
+        "m1": "57.2"
+      },
+      {
+        "p": {
+          "name": "Multi-task Fusion for Efficient Panoptic-Part Segmentation",
+          "link": "https://arxiv.org/abs/2212.07671v2"
+        },
+        "c": "",
+        "n": "JPPF",
+        "d": "2022-12-15",
+        "m1": "54.4"
+      }
+    ]
+  }
+}

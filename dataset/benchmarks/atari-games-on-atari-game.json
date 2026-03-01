@@ -1,0 +1,128 @@
+{
+  "title": "atari-games-on-atari-game",
+  "task-hierarchy": [
+    "Video Games",
+    "Atari Games"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Human World Record Breakthrough",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Generalized Data Distribution Iteration",
+          "link": "https://arxiv.org/abs/2206.03192v4"
+        },
+        "c": "",
+        "n": "GDI-H3",
+        "d": "2022-06-07",
+        "m1": "22"
+      },
+      {
+        "p": {
+          "name": "Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model",
+          "link": "https://arxiv.org/abs/1911.08265v2"
+        },
+        "c": "https://github.com/werner-duvaud/muzero-general",
+        "n": "Muzero",
+        "d": "2019-11-19",
+        "m1": "19"
+      },
+      {
+        "p": {
+          "name": "Agent57: Outperforming the Atari Human Benchmark",
+          "link": "https://arxiv.org/abs/2003.13350v1"
+        },
+        "c": "https://github.com/michaelnny/deep_rl_zoo",
+        "n": "Agent57",
+        "d": "2020-03-30",
+        "m1": "18"
+      },
+      {
+        "p": {
+          "name": "Go-Explore: a New Approach for Hard-Exploration Problems",
+          "link": "https://arxiv.org/abs/1901.10995v4"
+        },
+        "c": "https://github.com/uber-research/go-explore",
+        "n": "Go-Explore",
+        "d": "2019-01-30",
+        "m1": "17"
+      },
+      {
+        "p": {
+          "name": "Generalized Data Distribution Iteration",
+          "link": "https://arxiv.org/abs/2206.03192v4"
+        },
+        "c": "",
+        "n": "GDI-I3",
+        "d": "2022-06-07",
+        "m1": "17"
+      },
+      {
+        "p": {
+          "name": "Recurrent Experience Replay in Distributed Reinforcement Learning",
+          "link": "https://openreview.net/forum?id=r1lyTjAqYX"
+        },
+        "c": "https://github.com/opendilab/DI-engine/blob/main/ding/policy/r2d2.py",
+        "n": "R2D2",
+        "d": "2019-05-01",
+        "m1": "15"
+      },
+      {
+        "p": {
+          "name": "Never Give Up: Learning Directed Exploration Strategies",
+          "link": "https://arxiv.org/abs/2002.06038v1"
+        },
+        "c": "https://github.com/opendilab/DI-engine",
+        "n": "NGU",
+        "d": "2020-02-14",
+        "m1": "8"
+      },
+      {
+        "p": {
+          "name": "Muesli: Combining Improvements in Policy Optimization",
+          "link": "https://arxiv.org/abs/2104.06159v2"
+        },
+        "c": "https://github.com/YuriCat/MuesliJupyterExample",
+        "n": "Muesli",
+        "d": "2021-04-13",
+        "m1": "5"
+      },
+      {
+        "p": {
+          "name": "Rainbow: Combining Improvements in Deep Reinforcement Learning",
+          "link": "http://arxiv.org/abs/1710.02298v1"
+        },
+        "c": "https://github.com/thu-ml/tianshou",
+        "n": "Rainbow",
+        "d": "2017-10-06",
+        "m1": "4"
+      }
+    ]
+  }
+}

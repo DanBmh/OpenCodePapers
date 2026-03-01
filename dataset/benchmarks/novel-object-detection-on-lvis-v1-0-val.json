@@ -1,0 +1,108 @@
+{
+  "title": "novel-object-detection-on-lvis-v1-0-val",
+  "task-hierarchy": [
+    "2D Object Detection",
+    "Novel Object Detection"
+  ],
+  "dataset-info": {
+    "link": "https://www.lvisdataset.org/dataset"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "All mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Known mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Novel mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Enhancing Novel Object Detection via Cooperative Foundational Models",
+          "link": "https://arxiv.org/abs/2311.12068v4"
+        },
+        "c": "https://github.com/rohit901/cooperative-foundational-models",
+        "n": "Cooperative Foundational Models",
+        "d": "2023-11-19",
+        "m1": "19.33",
+        "m2": "42.08",
+        "m3": "17.42"
+      },
+      {
+        "p": {
+          "name": "Learning to Discover and Detect Objects",
+          "link": "https://arxiv.org/abs/2210.10774v2"
+        },
+        "c": "https://github.com/vlfom/rncdl",
+        "n": "RNCDL",
+        "d": "2022-10-19",
+        "m1": "6.92",
+        "m2": "25.00",
+        "m3": "5.42"
+      },
+      {
+        "p": {
+          "name": "A Unified Objective for Novel Class Discovery",
+          "link": "https://arxiv.org/abs/2108.08536v4"
+        },
+        "c": "https://github.com/DonkeyShot21/UNO",
+        "n": "UNO Fini et al. (2021)++",
+        "d": "2021-08-19",
+        "m1": "2.18",
+        "m2": "21.09",
+        "m3": "0.61"
+      },
+      {
+        "p": {
+          "name": "Open-World Semi-Supervised Learning",
+          "link": "https://arxiv.org/abs/2102.03526v3"
+        },
+        "c": "https://github.com/snap-stanford/orca",
+        "n": "ORCA Cao et al. (2022)",
+        "d": "2021-02-06",
+        "m1": "2.03",
+        "m2": "20.57",
+        "m3": "0.49"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Discovery of the Long-Tail in Instance Segmentation Using Hierarchical Self-Supervision",
+          "link": "https://arxiv.org/abs/2104.01257v1"
+        },
+        "c": "",
+        "n": "Weng et al. Weng et al. (2021)*",
+        "d": "2021-04-02",
+        "m1": "1.62",
+        "m2": "17.85",
+        "m3": "0.27"
+      }
+    ]
+  }
+}

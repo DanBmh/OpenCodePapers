@@ -1,0 +1,553 @@
+{
+  "title": "molecule-captioning-on-chebi-20",
+  "task-hierarchy": [
+    "Molecule Captioning"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/cnedwards/text2mol/tree/master/data"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "BLEU-2",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "BLEU-4",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "METEOR",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "ROUGE-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "ROUGE-2",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "ROUGE-L",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "Text2Mol",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Mol-LLM (Mistral-Instruct-v0.2)",
+        "d": null,
+        "m1": "73.2"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Mol-LLM (LLaMA2-Chat)",
+        "d": null,
+        "m1": "72.70"
+      },
+      {
+        "p": {
+          "name": "MolReFlect: Towards Fine-grained In-Context Alignment between Molecules and Texts",
+          "link": "https://arxiv.org/html/2411.14721v1"
+        },
+        "c": "",
+        "n": "MolReFlect",
+        "d": "2024-11-22",
+        "m1": "67.6",
+        "m2": "60.8",
+        "m3": "68.0",
+        "m4": "70.3",
+        "m5": "57.1",
+        "m6": "64.4"
+      },
+      {
+        "p": {
+          "name": "BioT5+: Towards Generalized Biological Understanding with IUPAC Integration and Multi-task Tuning",
+          "link": "https://arxiv.org/abs/2402.17810v2"
+        },
+        "c": "https://github.com/QizhiPei/BioT5",
+        "n": "BioT5+",
+        "d": "2024-02-27",
+        "m1": "66.6",
+        "m2": "59.1",
+        "m3": "68.1",
+        "m4": "71.0",
+        "m5": "58.4",
+        "m6": "65.0"
+      },
+      {
+        "p": {
+          "name": "BioT5: Enriching Cross-modal Integration in Biology with Chemical Knowledge and Natural Language Associations",
+          "link": "https://arxiv.org/abs/2310.07276v3"
+        },
+        "c": "https://github.com/QizhiPei/BioT5",
+        "n": "BioT5",
+        "d": "2023-10-11",
+        "m1": "63.5",
+        "m2": "55.6",
+        "m3": "65.6",
+        "m4": "69.2",
+        "m5": "55.9",
+        "m6": "63.3",
+        "m7": "60.3"
+      },
+      {
+        "p": {
+          "name": "Unifying Molecular and Textual Representations via Multi-task Language Modelling",
+          "link": "https://arxiv.org/abs/2301.12586v2"
+        },
+        "c": "https://github.com/gt4sd/multitask_text_and_chemistry_t5",
+        "n": "Text+Chem T5-augm-Base",
+        "d": "2023-01-29",
+        "m1": "62.5",
+        "m2": "54.2",
+        "m3": "64.8",
+        "m4": "68.2",
+        "m5": "54.3",
+        "m6": "62.2"
+      },
+      {
+        "p": {
+          "name": "XMolCap: Advancing Molecular Captioning through Multimodal Fusion and Explainable Graph Neural Networks",
+          "link": "https://ieeexplore.ieee.org/document/11012653"
+        },
+        "c": "https://github.com/cbbl-skku-org/XMolCap",
+        "n": "XMolCap",
+        "d": "2025-05-23",
+        "m1": "62.0",
+        "m2": "53.8",
+        "m3": "67.8",
+        "m4": "53.9",
+        "m5": "61.8",
+        "m6": "63.8"
+      },
+      {
+        "p": {
+          "name": "MolCA: Molecular Graph-Language Modeling with Cross-Modal Projector and Uni-Modal Adapter",
+          "link": "https://arxiv.org/abs/2310.12798v4"
+        },
+        "c": "https://github.com/acharkq/molca",
+        "n": "MolCA, Galac1.3B",
+        "d": "2023-10-19",
+        "m1": "62.0",
+        "m2": "53.1",
+        "m3": "65.1",
+        "m4": "68.1",
+        "m5": "53.7",
+        "m6": "61.8"
+      },
+      {
+        "p": {
+          "name": "MolCA: Molecular Graph-Language Modeling with Cross-Modal Projector and Uni-Modal Adapter",
+          "link": "https://arxiv.org/abs/2310.12798v4"
+        },
+        "c": "https://github.com/acharkq/molca",
+        "n": "MolCA, Galac125M",
+        "d": "2023-10-19",
+        "m1": "61.6",
+        "m2": "52.9",
+        "m3": "63.9",
+        "m4": "67.4",
+        "m5": "53.3",
+        "m6": "61.5"
+      },
+      {
+        "p": {
+          "name": "Mol2Lang-VLM: Vision- and Text-Guided Generative Pre-trained Language Models for Advancing Molecule Captioning through Multimodal Fusion",
+          "link": "https://aclanthology.org/2024.langmol-1.12/"
+        },
+        "c": "https://github.com/nhattruongpham/mol-lang-bridge",
+        "n": "Mol2Lang-VLM",
+        "d": "2024-08-15",
+        "m1": "61.2",
+        "m2": "52.7",
+        "m3": "63.3",
+        "m4": "67.4",
+        "m5": "53.2",
+        "m6": "61.4",
+        "m7": "59.8"
+      },
+      {
+        "p": {
+          "name": "Empowering Molecule Discovery for Molecule-Caption Translation with Large Language Models: A ChatGPT Perspective",
+          "link": "https://arxiv.org/abs/2306.06615v2"
+        },
+        "c": "https://github.com/phenixace/molregpt",
+        "n": "MolReGPT (GPT-4-0314)",
+        "d": "2023-06-11",
+        "m1": "60.7",
+        "m2": "52.5",
+        "m3": "61.0",
+        "m4": "63.4",
+        "m5": "47.6",
+        "m6": "56.2",
+        "m7": "58.5"
+      },
+      {
+        "p": {
+          "name": "Automatic Annotation Augmentation Boosts Translation between Molecules and Natural Language",
+          "link": "https://arxiv.org/abs/2502.06634v1"
+        },
+        "c": "https://github.com/zhiqiangzhongddu/la3",
+        "n": "LaMolT5-Large",
+        "d": "2025-02-10",
+        "m1": "60.2",
+        "m2": "52.1",
+        "m3": "63.4",
+        "m4": "65.5",
+        "m5": "51.2",
+        "m6": "59.8",
+        "m7": "59.7"
+      },
+      {
+        "p": {
+          "name": "A Molecular Multimodal Foundation Model Associating Molecule Graphs with Natural Language",
+          "link": "https://arxiv.org/abs/2209.05481v1"
+        },
+        "c": "https://github.com/ai-hpc-research-team/git-mol",
+        "n": "MoMu+MolT5-Large",
+        "d": "2022-09-12",
+        "m1": "59.9",
+        "m2": "51.5",
+        "m3": "59.7",
+        "m7": "58.2"
+      },
+      {
+        "p": {
+          "name": "Property Enhanced Instruction Tuning for Multi-task Molecule Generation with Large Language Models",
+          "link": "https://arxiv.org/abs/2412.18084v4"
+        },
+        "c": "https://github.com/chenlong164/peit",
+        "n": "PEIT-GEN",
+        "d": "2024-12-24",
+        "m1": "59.8",
+        "m2": "53.4",
+        "m3": "67.6",
+        "m4": "70.0",
+        "m5": "58.2",
+        "m6": "65.3"
+      },
+      {
+        "p": {
+          "name": "Translation between Molecules and Natural Language",
+          "link": "https://arxiv.org/abs/2204.11817v3"
+        },
+        "c": "https://github.com/blender-nlp/MolT5",
+        "n": "MolT5-Large",
+        "d": "2022-04-25",
+        "m1": "59.4",
+        "m2": "50.8",
+        "m3": "61.4",
+        "m4": "65.4",
+        "m5": "51.0",
+        "m6": "59.4",
+        "m7": "58.2"
+      },
+      {
+        "p": {
+          "name": "MolXPT: Wrapping Molecules with Text for Generative Pre-training",
+          "link": "https://arxiv.org/abs/2305.10688v2"
+        },
+        "c": "https://huggingface.co/zequnl/molxpt",
+        "n": "MolXPT",
+        "d": "2023-05-18",
+        "m1": "59.4",
+        "m2": "50.5",
+        "m3": "62.6",
+        "m4": "66",
+        "m5": "51.1",
+        "m6": "59.7",
+        "m7": "59.4"
+      },
+      {
+        "p": {
+          "name": "Mol-LLM: Multimodal Generalist Molecular LLM with Improved Graph Utilization",
+          "link": "https://arxiv.org/abs/2502.02810v2"
+        },
+        "c": "",
+        "n": "Mol-LLM (SELFIES)",
+        "d": "2025-02-05",
+        "m1": "58.7",
+        "m2": "51.5",
+        "m3": "61.7",
+        "m4": "62.7",
+        "m5": "48.7",
+        "m6": "57.1"
+      },
+      {
+        "p": {
+          "name": "MolFM: A Multimodal Molecular Foundation Model",
+          "link": "https://arxiv.org/abs/2307.09484v2"
+        },
+        "c": "https://github.com/biofm/openbiomed",
+        "n": "MolFM-Base",
+        "d": "2023-06-06",
+        "m1": "58.5",
+        "m2": "49.8",
+        "m3": "60.7",
+        "m4": "65.3",
+        "m5": "50.8",
+        "m6": "59.4",
+        "m7": "57.6"
+      },
+      {
+        "p": {
+          "name": "Unifying Molecular and Textual Representations via Multi-task Language Modelling",
+          "link": "https://arxiv.org/abs/2301.12586v2"
+        },
+        "c": "https://github.com/gt4sd/multitask_text_and_chemistry_t5",
+        "n": "Text+Chem T5-Base",
+        "d": "2023-01-29",
+        "m1": "58",
+        "m2": "49",
+        "m3": "60.4",
+        "m4": "64.7",
+        "m5": "49.8",
+        "m6": "58.6"
+      },
+      {
+        "p": {
+          "name": "Automatic Annotation Augmentation Boosts Translation between Molecules and Natural Language",
+          "link": "https://arxiv.org/abs/2502.06634v1"
+        },
+        "c": "https://github.com/zhiqiangzhongddu/la3",
+        "n": "LaMolT5-Base",
+        "d": "2025-02-10",
+        "m1": "57.4",
+        "m2": "48.5",
+        "m3": "59.6",
+        "m4": "63.4",
+        "m5": "47.8",
+        "m6": "56.4",
+        "m7": "59.9"
+      },
+      {
+        "p": {
+          "name": "Empowering Molecule Discovery for Molecule-Caption Translation with Large Language Models: A ChatGPT Perspective",
+          "link": "https://arxiv.org/abs/2306.06615v2"
+        },
+        "c": "https://github.com/phenixace/molregpt",
+        "n": "MolReGPT (GPT-3.5-turbo)",
+        "d": "2023-06-11",
+        "m1": "56.5",
+        "m2": "48.2",
+        "m3": "62.3",
+        "m4": "45.0",
+        "m5": "54.3",
+        "m6": "58.5",
+        "m7": "56.0"
+      },
+      {
+        "p": {
+          "name": "Mol-LLM: Multimodal Generalist Molecular LLM with Improved Graph Utilization",
+          "link": "https://arxiv.org/abs/2502.02810v2"
+        },
+        "c": "",
+        "n": "Mol-LLM",
+        "d": "2025-02-05",
+        "m1": "56.0",
+        "m2": "49.0",
+        "m3": "59.3",
+        "m4": "52.4",
+        "m5": "37.0",
+        "m6": "46.7"
+      },
+      {
+        "p": {
+          "name": "Unifying Molecular and Textual Representations via Multi-task Language Modelling",
+          "link": "https://arxiv.org/abs/2301.12586v2"
+        },
+        "c": "https://github.com/gt4sd/multitask_text_and_chemistry_t5",
+        "n": "Text+Chem T5-augm-Small",
+        "d": "2023-01-29",
+        "m1": "56.0",
+        "m2": "47.0",
+        "m3": "58.8",
+        "m4": "63.8",
+        "m5": "48.8",
+        "m6": "58"
+      },
+      {
+        "p": {
+          "name": "Unifying Molecular and Textual Representations via Multi-task Language Modelling",
+          "link": "https://arxiv.org/abs/2301.12586v2"
+        },
+        "c": "https://github.com/gt4sd/multitask_text_and_chemistry_t5",
+        "n": "Text+Chem T5-Small",
+        "d": "2023-01-29",
+        "m1": "55.3",
+        "m2": "46.2",
+        "m3": "58.3",
+        "m4": "63.3",
+        "m5": "48.1",
+        "m6": "57.4"
+      },
+      {
+        "p": {
+          "name": "A Molecular Multimodal Foundation Model Associating Molecule Graphs with Natural Language",
+          "link": "https://arxiv.org/abs/2209.05481v1"
+        },
+        "c": "https://github.com/ai-hpc-research-team/git-mol",
+        "n": "MoMu+MolT5-Base",
+        "d": "2022-09-12",
+        "m1": "54.9",
+        "m2": "46.2",
+        "m3": "57.6",
+        "m7": "55.8"
+      },
+      {
+        "p": {
+          "name": "MolFM: A Multimodal Molecular Foundation Model",
+          "link": "https://arxiv.org/abs/2307.09484v2"
+        },
+        "c": "https://github.com/biofm/openbiomed",
+        "n": "MolFM-Small",
+        "d": "2023-06-06",
+        "m1": "54.2",
+        "m2": "45.2",
+        "m3": "56.4",
+        "m4": "62.3",
+        "m5": "46.9",
+        "m6": "56.2",
+        "m7": "55.7"
+      },
+      {
+        "p": {
+          "name": "Graph-based Molecular Representation Learning",
+          "link": "https://arxiv.org/abs/2207.04869v3"
+        },
+        "c": "https://github.com/zaixizhang/MGSSL",
+        "n": "GAMIC (Mistral)",
+        "d": "2022-07-08",
+        "m1": "54.2",
+        "m2": "43.9",
+        "m3": "58.5",
+        "m4": "61.7",
+        "m5": "46.6",
+        "m6": "56.1"
+      },
+      {
+        "p": {
+          "name": "Translation between Molecules and Natural Language",
+          "link": "https://arxiv.org/abs/2204.11817v3"
+        },
+        "c": "https://github.com/blender-nlp/MolT5",
+        "n": "MolT5-Base",
+        "d": "2022-04-25",
+        "m1": "54.0",
+        "m2": "45.7",
+        "m3": "56.9",
+        "m4": "63.4",
+        "m5": "48.5",
+        "m6": "57.8",
+        "m7": "54.7"
+      },
+      {
+        "p": {
+          "name": "Automatic Annotation Augmentation Boosts Translation between Molecules and Natural Language",
+          "link": "https://arxiv.org/abs/2502.06634v1"
+        },
+        "c": "https://github.com/zhiqiangzhongddu/la3",
+        "n": "LaMolT5-Small",
+        "d": "2025-02-10",
+        "m1": "53.9",
+        "m2": "44.6",
+        "m3": "56.6",
+        "m4": "62.0",
+        "m5": "46.9",
+        "m6": "56.3",
+        "m7": "58.8"
+      },
+      {
+        "p": {
+          "name": "A Molecular Multimodal Foundation Model Associating Molecule Graphs with Natural Language",
+          "link": "https://arxiv.org/abs/2209.05481v1"
+        },
+        "c": "https://github.com/ai-hpc-research-team/git-mol",
+        "n": "MoMu+MolT5-Small",
+        "d": "2022-09-12",
+        "m1": "53.2",
+        "m2": "44.5",
+        "m3": "55.7",
+        "m7": "55.3"
+      },
+      {
+        "p": {
+          "name": "Translation between Molecules and Natural Language",
+          "link": "https://arxiv.org/abs/2204.11817v3"
+        },
+        "c": "https://github.com/blender-nlp/MolT5",
+        "n": "MolT5-Small",
+        "d": "2022-04-25",
+        "m1": "51.9",
+        "m2": "43.6",
+        "m3": "55.1",
+        "m4": "62.0",
+        "m5": "46.9",
+        "m6": "56.3",
+        "m7": "54.0"
+      },
+      {
+        "p": {
+          "name": "InstructMol: Multi-Modal Integration for Building a Versatile and Reliable Molecular Assistant in Drug Discovery",
+          "link": "https://arxiv.org/abs/2311.16208v2"
+        },
+        "c": "https://github.com/idea-xl/instructmol",
+        "n": "InstructMol-GS",
+        "d": "2023-11-27",
+        "m1": "47.5",
+        "m2": "37.1",
+        "m3": "50.9",
+        "m4": "56.6",
+        "m5": "39.4",
+        "m6": "50.2"
+      },
+      {
+        "p": {
+          "name": "InstructMol: Multi-Modal Integration for Building a Versatile and Reliable Molecular Assistant in Drug Discovery",
+          "link": "https://arxiv.org/abs/2311.16208v2"
+        },
+        "c": "https://github.com/idea-xl/instructmol",
+        "n": "InstructMol-G",
+        "d": "2023-11-27",
+        "m1": "46.6",
+        "m2": "36.5",
+        "m3": "49.1",
+        "m4": "54.7",
+        "m5": "36.5",
+        "m6": "47.9"
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "title": "surgical-phase-recognition-on-heichole",
+  "task-hierarchy": [
+    "Surgical phase recognition"
+  ],
+  "dataset-info": {
+    "link": "https://www.synapse.org/#!Synapse:syn18824884/wiki/617550"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MuST: Multi-Scale Transformers for Surgical Phase Recognition",
+          "link": "https://arxiv.org/abs/2407.17361v1"
+        },
+        "c": "https://github.com/BCV-Uniandes/MuST",
+        "n": "MuST",
+        "d": "2024-07-24",
+        "m1": "77.25"
+      },
+      {
+        "p": {
+          "name": "Comparative Validation of Machine Learning Algorithms for Surgical Workflow and Skill Analysis with the HeiChole Benchmark",
+          "link": "https://arxiv.org/abs/2109.14956v1"
+        },
+        "c": "",
+        "n": "CAMMA1 (challenge model)",
+        "d": "2021-09-30",
+        "m1": "68.8"
+      },
+      {
+        "p": {
+          "name": "Comparative Validation of Machine Learning Algorithms for Surgical Workflow and Skill Analysis with the HeiChole Benchmark",
+          "link": "https://arxiv.org/abs/2109.14956v1"
+        },
+        "c": "",
+        "n": "HIKVision (challenge model)",
+        "d": "2021-09-30",
+        "m1": "65.4"
+      },
+      {
+        "p": {
+          "name": "Comparative Validation of Machine Learning Algorithms for Surgical Workflow and Skill Analysis with the HeiChole Benchmark",
+          "link": "https://arxiv.org/abs/2109.14956v1"
+        },
+        "c": "",
+        "n": "CUHK (challenge model)",
+        "d": "2021-09-30",
+        "m1": "65"
+      },
+      {
+        "p": {
+          "name": "Dissecting Self-Supervised Learning Methods for Surgical Computer Vision",
+          "link": "https://arxiv.org/abs/2207.00449v3"
+        },
+        "c": "https://github.com/camma-public/selfsupsurg",
+        "n": "MoCo V2 Surg SSL - TCN head",
+        "d": "2022-07-01",
+        "m1": "64.7"
+      }
+    ]
+  }
+}

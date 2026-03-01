@@ -1,0 +1,223 @@
+{
+  "title": "few-shot-ner-on-few-nerd-intra",
+  "task-hierarchy": [
+    "Named Entity Recognition (NER)",
+    "Few-shot NER"
+  ],
+  "dataset-info": {
+    "link": "https://ningding97.github.io/fewnerd/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "5 way 1~2 shot",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "5 way 5~10 shot",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "10 way 1~2 shot",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "10 way 5~10 shot",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Average",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "JCELRNER",
+        "d": null,
+        "m1": "62.49±0.43",
+        "m2": "71.62±0.44"
+      },
+      {
+        "p": {
+          "name": "NuNER: Entity Recognition Encoder Pre-training via LLM-Annotated Data",
+          "link": "https://arxiv.org/abs/2402.15343v1"
+        },
+        "c": "https://github.com/Serega6678/NuNER",
+        "n": "NuNER",
+        "d": "2024-02-23",
+        "m1": "62.48±0.28",
+        "m2": "69.16±0.28",
+        "m3": "57.63±0.38",
+        "m4": "62.99±0.27"
+      },
+      {
+        "p": {
+          "name": "Type-Aware Decomposed Framework for Few-Shot Named Entity Recognition",
+          "link": "https://arxiv.org/abs/2302.06397v2"
+        },
+        "c": "https://github.com/liyongqi2002/TadNER",
+        "n": "TadNER",
+        "d": "2023-02-13",
+        "m1": "60.78±0.32",
+        "m2": "67.94±0.17",
+        "m3": "55.44±0.08",
+        "m4": "60.87±0.22"
+      },
+      {
+        "p": {
+          "name": "A Multi-Task Semantic Decomposition Framework with Task-specific Pre-training for Few-Shot NER",
+          "link": "https://arxiv.org/abs/2308.14533v1"
+        },
+        "c": "https://github.com/dongguanting/msdp-fewshot-ner",
+        "n": "MSDP",
+        "d": "2023-08-28",
+        "m1": "56.35±0.28",
+        "m2": "66.80±0.78",
+        "m3": "47.13±0.69",
+        "m4": "64.69±0.51"
+      },
+      {
+        "p": {
+          "name": "HEProto: A Hierarchical Enhancing ProtoNet based on Multi-Task Learning for Few-shot Named Entity Recognition",
+          "link": "https://dl.acm.org/doi/abs/10.1145/3583780.3614908"
+        },
+        "c": "https://github.com/fanshu6hao/HEProto",
+        "n": "HEProto",
+        "d": "2023-10-21",
+        "m1": "53.03±0.30",
+        "m2": "65.70±0.21",
+        "m3": "46.45±0.21",
+        "m4": "58.98±0.22"
+      },
+      {
+        "p": {
+          "name": "Decomposed Meta-Learning for Few-Shot Sequence Labeling",
+          "link": "https://tellarin.com/borje/papers/taslp24dml.pdf"
+        },
+        "c": "https://github.com/microsoft/vert-papers/tree/master/papers/DecomposedMetaSL",
+        "n": "DecomposedMetaSL",
+        "d": "2024-03-04",
+        "m1": "49.90±0.33",
+        "m2": "64.36±0.20",
+        "m3": "43.03±0.29",
+        "m4": "57.58±0.26",
+        "m5": "53.72"
+      },
+      {
+        "p": {
+          "name": "Decomposed Meta-Learning for Few-Shot Named Entity Recognition",
+          "link": "https://arxiv.org/abs/2204.05751v2"
+        },
+        "c": "https://github.com/microsoft/vert-papers",
+        "n": "DecomposedMetaNER",
+        "d": "2022-04-12",
+        "m1": "49.48±0.85",
+        "m2": "62.92±0.57",
+        "m3": "42.84±0.46",
+        "m4": "57.31±0.25"
+      },
+      {
+        "p": {
+          "name": "Language Model Pre-Training with Sparse Latent Typing",
+          "link": "https://arxiv.org/abs/2210.12582v2"
+        },
+        "c": "https://github.com/renll/sparselt",
+        "n": "BERT-SparseLT+CONTainNER",
+        "d": "2022-10-23",
+        "m1": "47.20",
+        "m2": "59.67",
+        "m3": "40.48",
+        "m4": "53.04"
+      },
+      {
+        "p": {
+          "name": "CONTaiNER: Few-Shot Named Entity Recognition via Contrastive Learning",
+          "link": "https://arxiv.org/abs/2109.07589v2"
+        },
+        "c": "https://github.com/psunlpgroup/container",
+        "n": "CONTaiNER",
+        "d": "2021-09-15",
+        "m1": "40.43",
+        "m2": "53.70",
+        "m3": "33.84",
+        "m4": "47.49"
+      },
+      {
+        "p": {
+          "name": "An Enhanced Span-based Decomposition Method for Few-Shot Sequence Labeling",
+          "link": "https://arxiv.org/abs/2109.13023v3"
+        },
+        "c": "https://github.com/wangpeiyi9979/esd",
+        "n": "ESD",
+        "d": "2021-09-27",
+        "m1": "36.08±1.60",
+        "m2": "52.14±1.50",
+        "m3": "30.00±0.70",
+        "m4": "42.15±2.60"
+      },
+      {
+        "p": {
+          "name": "Few-NERD: A Few-Shot Named Entity Recognition Dataset",
+          "link": "https://arxiv.org/abs/2105.07464v6"
+        },
+        "c": "https://github.com/thunlp/Few-NERD",
+        "n": "StructShot",
+        "d": "2021-05-16",
+        "m1": "30.21±0.90",
+        "m2": "38.00±1.29",
+        "m3": "21.03±1.13",
+        "m4": "26.42±0.60"
+      },
+      {
+        "p": {
+          "name": "Few-NERD: A Few-Shot Named Entity Recognition Dataset",
+          "link": "https://arxiv.org/abs/2105.07464v6"
+        },
+        "c": "https://github.com/thunlp/Few-NERD",
+        "n": "NNShot",
+        "d": "2021-05-16",
+        "m1": "25.78±0.91",
+        "m2": "36.18±0.79",
+        "m3": "18.27±0.41",
+        "m4": "27.38±0.53"
+      },
+      {
+        "p": {
+          "name": "Few-NERD: A Few-Shot Named Entity Recognition Dataset",
+          "link": "https://arxiv.org/abs/2105.07464v6"
+        },
+        "c": "https://github.com/thunlp/Few-NERD",
+        "n": "ProtoBERT",
+        "d": "2021-05-16",
+        "m1": "20.76±0.84",
+        "m2": "42.54±0.94",
+        "m3": "15.05±0.44",
+        "m4": "35.40±0.13"
+      }
+    ]
+  }
+}

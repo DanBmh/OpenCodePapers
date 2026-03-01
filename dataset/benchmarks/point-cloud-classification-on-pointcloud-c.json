@@ -1,0 +1,277 @@
+{
+  "title": "point-cloud-classification-on-pointcloud-c",
+  "task-hierarchy": [
+    "Point Cloud Classification"
+  ],
+  "dataset-info": {
+    "link": "https://pointcloud-c.github.io/home.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mean Corruption Error (mCE)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "BeyondRPC: A Contrastive and Augmentation-Driven Framework for Robust Point Cloud Understanding",
+          "link": "https://inass.org/wp-content/uploads/2025/05/2025073142-3.pdf"
+        },
+        "c": "https://github.com/virgantara/BeyondRPC",
+        "n": "BeyondRPC",
+        "d": "2025-06-15",
+        "m1": "0.455"
+      },
+      {
+        "p": {
+          "name": "Robustifying Point Cloud Networks by Refocusing",
+          "link": "https://arxiv.org/abs/2308.05525v3"
+        },
+        "c": "https://github.com/yossilevii100/refocusing",
+        "n": "Critical Points++&EPiC(RPC)",
+        "d": "2023-08-10",
+        "m1": "0.476"
+      },
+      {
+        "p": {
+          "name": "Robustifying Point Cloud Networks by Refocusing",
+          "link": "https://arxiv.org/abs/2308.05525v3"
+        },
+        "c": "https://github.com/yossilevii100/refocusing",
+        "n": "Critical Points++&EPiC(DGCNN)",
+        "d": "2023-08-10",
+        "m1": "0.484"
+      },
+      {
+        "p": {
+          "name": "Robustifying Point Cloud Networks by Refocusing",
+          "link": "https://arxiv.org/abs/2308.05525v3"
+        },
+        "c": "https://github.com/yossilevii100/refocusing",
+        "n": "Critical Points++&EPiC(GDANet)",
+        "d": "2023-08-10",
+        "m1": "0.493"
+      },
+      {
+        "p": {
+          "name": "EPiC: Ensemble of Partial Point Clouds for Robust Classification",
+          "link": "https://arxiv.org/abs/2303.11419v2"
+        },
+        "c": "https://github.com/yossilevii100/EPiC",
+        "n": "EPiC (PCT+WOLFMix)",
+        "d": "2023-03-20",
+        "m1": "0.510"
+      },
+      {
+        "p": {
+          "name": "EPiC: Ensemble of Partial Point Clouds for Robust Classification",
+          "link": "https://arxiv.org/abs/2303.11419v2"
+        },
+        "c": "https://github.com/yossilevii100/EPiC",
+        "n": "EPiC (DGCNN+WOLFMix)",
+        "d": "2023-03-20",
+        "m1": "0.529"
+      },
+      {
+        "p": {
+          "name": "EPiC: Ensemble of Partial Point Clouds for Robust Classification",
+          "link": "https://arxiv.org/abs/2303.11419v2"
+        },
+        "c": "https://github.com/yossilevii100/EPiC",
+        "n": "EPiC(GDANet+WOLFMix)",
+        "d": "2023-03-20",
+        "m1": "0.530"
+      },
+      {
+        "p": {
+          "name": "Benchmarking and Analyzing Point Cloud Classification under Corruptions",
+          "link": "https://arxiv.org/abs/2202.03377v3"
+        },
+        "c": "https://github.com/ldkong1205/PointCloud-C",
+        "n": "WOLFMix (GDANet)",
+        "d": "2022-02-07",
+        "m1": "0.571"
+      },
+      {
+        "p": {
+          "name": "Benchmarking and Analyzing Point Cloud Classification under Corruptions",
+          "link": "https://arxiv.org/abs/2202.03377v3"
+        },
+        "c": "https://github.com/ldkong1205/PointCloud-C",
+        "n": "WOLFMix (DGCNN)",
+        "d": "2022-02-07",
+        "m1": "0.590"
+      },
+      {
+        "p": {
+          "name": "Benchmarking and Analyzing Point Cloud Classification under Corruptions",
+          "link": "https://arxiv.org/abs/2202.03377v3"
+        },
+        "c": "https://github.com/ldkong1205/PointCloud-C",
+        "n": "WOLFMix (RPC)",
+        "d": "2022-02-07",
+        "m1": "0.601"
+      },
+      {
+        "p": {
+          "name": "Regularization Strategy for Point Cloud via Rigidly Mixed Sample",
+          "link": "https://arxiv.org/abs/2102.01929v3"
+        },
+        "c": "https://github.com/dogyoonlee/RSMix-official",
+        "n": "RSMix (DGCNN)",
+        "d": "2021-02-03",
+        "m1": "0.745"
+      },
+      {
+        "p": {
+          "name": "Point Cloud Augmentation with Weighted Local Transformations",
+          "link": "https://arxiv.org/abs/2110.05379v1"
+        },
+        "c": "https://github.com/mlvlab/pointwolf",
+        "n": "PointWOLF (DGCNN)",
+        "d": "2021-10-11",
+        "m1": "0.814"
+      },
+      {
+        "p": {
+          "name": "Benchmarking and Analyzing Point Cloud Classification under Corruptions",
+          "link": "https://arxiv.org/abs/2202.03377v3"
+        },
+        "c": "https://github.com/ldkong1205/PointCloud-C",
+        "n": "RPC",
+        "d": "2022-02-07",
+        "m1": "0.863"
+      },
+      {
+        "p": {
+          "name": "Learning Geometry-Disentangled Representation for Complementary Understanding of 3D Object Point Cloud",
+          "link": "https://arxiv.org/abs/2012.10921v3"
+        },
+        "c": "https://github.com/mutianxu/GDANet",
+        "n": "GDANet",
+        "d": "2020-12-20",
+        "m1": "0.892"
+      },
+      {
+        "p": {
+          "name": "PCT: Point cloud transformer",
+          "link": "https://arxiv.org/abs/2012.09688v4"
+        },
+        "c": "https://github.com/qq456cvb/Point-Transformers",
+        "n": "PCT",
+        "d": "2020-12-17",
+        "m1": "0.925"
+      },
+      {
+        "p": {
+          "name": "Walk in the Cloud: Learning Curves for Point Clouds Shape Analysis",
+          "link": "https://arxiv.org/abs/2105.01288v2"
+        },
+        "c": "https://github.com/vinits5/learning3d",
+        "n": "CurveNet",
+        "d": "2021-05-04",
+        "m1": "0.927"
+      },
+      {
+        "p": {
+          "name": "Dynamic Graph CNN for Learning on Point Clouds",
+          "link": "https://arxiv.org/abs/1801.07829v2"
+        },
+        "c": "https://github.com/WangYueFt/dgcnn",
+        "n": "DGCNN",
+        "d": "2018-01-24",
+        "m1": "1.000"
+      },
+      {
+        "p": {
+          "name": "PointMixup: Augmentation for Point Clouds",
+          "link": "https://arxiv.org/abs/2008.06374v1"
+        },
+        "c": "https://github.com/yunlu-chen/PointMixup",
+        "n": "PointMixUp (PointNet++)",
+        "d": "2020-08-14",
+        "m1": "1.028"
+      },
+      {
+        "p": {
+          "name": "Revisiting Point Cloud Shape Classification with a Simple and Effective Baseline",
+          "link": "https://arxiv.org/abs/2106.05304v1"
+        },
+        "c": "https://github.com/jiachens/ModelNet40-C",
+        "n": "SimpleView",
+        "d": "2021-06-09",
+        "m1": "1.047"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Point Cloud Pre-Training via Occlusion Completion",
+          "link": "https://arxiv.org/abs/2010.01089v3"
+        },
+        "c": "https://github.com/hansen7/OcCo",
+        "n": "OcCo-DGCNN",
+        "d": "2020-10-02",
+        "m1": "1.047"
+      },
+      {
+        "p": {
+          "name": "PAConv: Position Adaptive Convolution with Dynamic Kernel Assembling on Point Clouds",
+          "link": "https://arxiv.org/abs/2103.14635v2"
+        },
+        "c": "https://github.com/PaddlePaddle/Paddle3D",
+        "n": "PAConv",
+        "d": "2021-03-26",
+        "m1": "1.104"
+      },
+      {
+        "p": {
+          "name": "Relation-Shape Convolutional Neural Network for Point Cloud Analysis",
+          "link": "https://arxiv.org/abs/1904.07601v3"
+        },
+        "c": "https://github.com/Yochengliu/Relation-Shape-CNN",
+        "n": "RSCNN",
+        "d": "2019-04-16",
+        "m1": "1.130"
+      },
+      {
+        "p": {
+          "name": "Benchmarking and Analyzing Point Cloud Classification under Corruptions",
+          "link": "https://arxiv.org/abs/2202.03377v3"
+        },
+        "c": "https://github.com/ldkong1205/PointCloud-C",
+        "n": "WOLFMix (PointNet)",
+        "d": "2022-02-07",
+        "m1": "1.180"
+      },
+      {
+        "p": {
+          "name": "PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation",
+          "link": "http://arxiv.org/abs/1612.00593v2"
+        },
+        "c": "https://github.com/charlesq34/pointnet",
+        "n": "PointNet",
+        "d": "2016-12-02",
+        "m1": "1.422"
+      }
+    ]
+  }
+}

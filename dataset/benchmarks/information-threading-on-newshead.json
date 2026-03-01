@@ -1,0 +1,78 @@
+{
+  "title": "information-threading-on-newshead",
+  "task-hierarchy": [
+    "Information Extraction",
+    "Information Threading"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/google-research-datasets/NewSHead"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "NMI",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Effective Hierarchical Information Threading Using Network Community Detection",
+          "link": "https://link.springer.com/chapter/10.1007/978-3-031-28244-7_44"
+        },
+        "c": "https://github.com/hitt08/HINT",
+        "n": "HINT",
+        "d": "2023-03-17",
+        "m1": "0.797"
+      },
+      {
+        "p": {
+          "name": "Identifying chronological and coherent information threads using 5W1H questions and temporal relationships",
+          "link": "https://www.sciencedirect.com/science/article/pii/S0306457323000110"
+        },
+        "c": "https://github.com/hitt08/HINT",
+        "n": "SeqINT",
+        "d": "2023-01-18",
+        "m1": "0.7537"
+      },
+      {
+        "p": {
+          "name": "Growing Story Forest Online from Massive Breaking News",
+          "link": "http://arxiv.org/abs/1803.00189v1"
+        },
+        "c": "https://github.com/BangLiu/StoryForest",
+        "n": "EventX",
+        "d": "2018-03-01",
+        "m1": "0.2405"
+      },
+      {
+        "p": {
+          "name": "Discovering Diverse and Salient Threads in Document Collections",
+          "link": "https://aclanthology.org/D12-1065"
+        },
+        "c": "",
+        "n": "k-SDPP",
+        "d": "2012-07-01",
+        "m1": "0.1908"
+      }
+    ]
+  }
+}

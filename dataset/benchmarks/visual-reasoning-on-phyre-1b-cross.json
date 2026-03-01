@@ -1,0 +1,77 @@
+{
+  "title": "visual-reasoning-on-phyre-1b-cross",
+  "task-hierarchy": [
+    "Visual Reasoning"
+  ],
+  "dataset-info": {
+    "link": "https://player.phyre.ai"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AUCCESS",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Learning Long-term Visual Dynamics with Region Proposal Interaction Networks",
+          "link": "https://arxiv.org/abs/2008.02265v5"
+        },
+        "c": "https://github.com/HaozhiQi/RPIN",
+        "n": "RPIN",
+        "d": "2020-08-05",
+        "m1": "42.2"
+      },
+      {
+        "p": {
+          "name": "Forward Prediction for Physical Reasoning",
+          "link": "https://arxiv.org/abs/2006.10734v2"
+        },
+        "c": "https://github.com/facebookresearch/phyre-fwd",
+        "n": "Dec[Joint]1f",
+        "d": "2020-06-18",
+        "m1": "40.3"
+      },
+      {
+        "p": {
+          "name": "Physical Reasoning Using Dynamics-Aware Models",
+          "link": "https://arxiv.org/abs/2102.10336v2"
+        },
+        "c": "https://github.com/facebookresearch/DynamicsAware",
+        "n": "Dynamics-Aware DQN",
+        "d": "2021-02-20",
+        "m1": "39.9"
+      },
+      {
+        "p": {
+          "name": "PHYRE: A New Benchmark for Physical Reasoning",
+          "link": "https://arxiv.org/abs/1908.05656v1"
+        },
+        "c": "https://github.com/facebookresearch/phyre",
+        "n": "DQN",
+        "d": "2019-08-15",
+        "m1": "36.8"
+      }
+    ]
+  }
+}

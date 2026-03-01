@@ -1,0 +1,87 @@
+{
+  "title": "grammatical-error-correction-on-ua-gec",
+  "task-hierarchy": [
+    "Grammatical Error Correction"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/grammarly/ua-gec"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F0.5",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "To Err Is Human, but Llamas Can Learn It Too",
+          "link": "https://arxiv.org/abs/2403.05493v2"
+        },
+        "c": "https://github.com/TartuNLP/gec-llm",
+        "n": "Llama + 1M BT + gold",
+        "d": "2024-03-08",
+        "m1": "74.09"
+      },
+      {
+        "p": {
+          "name": "Comparative study of models trained on synthetic data for Ukrainian grammatical error correction",
+          "link": "https://aclanthology.org/2023.unlp-1.13/"
+        },
+        "c": "https://github.com/pravopysnyk-ai/unlp",
+        "n": "mBART-based model with synthetic\ndata",
+        "d": "2024-05-05",
+        "m1": "68.17"
+      },
+      {
+        "p": {
+          "name": "A Low-Resource Approach to the Grammatical Error Correction of Ukrainian",
+          "link": "https://aclanthology.org/2023.unlp-1.14/"
+        },
+        "c": "https://github.com/knarfamlap/low-resource-gec-uk",
+        "n": "mT5 large + 10M synth",
+        "d": "2023-05-05",
+        "m1": "68.09"
+      },
+      {
+        "p": {
+          "name": "RedPenNet for Grammatical Error Correction: Outputs to Tokens, Attentions to Spans",
+          "link": "https://arxiv.org/abs/2309.10898v1"
+        },
+        "c": "https://github.com/webspellchecker/unlp-2023-shared-task",
+        "n": "RedPenNet",
+        "d": "2023-09-19",
+        "m1": "67.71"
+      },
+      {
+        "p": {
+          "name": "GPT-3.5 for Grammatical Error Correction",
+          "link": "https://arxiv.org/abs/2405.08469v1"
+        },
+        "c": "",
+        "n": "ChatGPT (zero-shot)",
+        "d": "2024-05-14",
+        "m1": "27.4"
+      }
+    ]
+  }
+}

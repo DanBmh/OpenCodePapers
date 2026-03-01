@@ -1,0 +1,77 @@
+{
+  "title": "dimensionality-reduction-on-mca",
+  "task-hierarchy": [
+    "Dimensionality Reduction"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Classification Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "UDRN: Unified Dimensional Reduction Neural Network for Feature Selection and Feature Projection",
+          "link": "https://arxiv.org/abs/2207.03809v2"
+        },
+        "c": "",
+        "n": "UDRN",
+        "d": "2022-07-08",
+        "m1": "90.9"
+      },
+      {
+        "p": {
+          "name": "Visualizing Data using t-SNE",
+          "link": "https://www.jmlr.org/papers/v9/vandermaaten08a.html"
+        },
+        "c": "https://github.com/elki-project/elki",
+        "n": "tSNE",
+        "d": "2008-11-01",
+        "m1": "51.5"
+      },
+      {
+        "p": {
+          "name": "Parametric UMAP embeddings for representation and semi-supervised learning",
+          "link": "https://arxiv.org/abs/2009.12981v4"
+        },
+        "c": "https://github.com/lmcinnes/umap",
+        "n": "IVIS",
+        "d": "2020-09-27",
+        "m1": "46.6"
+      },
+      {
+        "p": {
+          "name": "UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction",
+          "link": "https://arxiv.org/abs/1802.03426v3"
+        },
+        "c": "https://github.com/lmcinnes/umap",
+        "n": "UMAP",
+        "d": "2018-02-09",
+        "m1": "41.3"
+      }
+    ]
+  }
+}

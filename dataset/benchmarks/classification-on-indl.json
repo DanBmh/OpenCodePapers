@@ -1,0 +1,127 @@
+{
+  "title": "classification-on-indl",
+  "task-hierarchy": [
+    "Classification"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/rabbit-magic-wh/InDL"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Average Recall",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "A ConvNet for the 2020s",
+          "link": "https://arxiv.org/abs/2201.03545v2"
+        },
+        "c": "https://github.com/keras-team/keras/blob/master/keras/applications/convnext.py",
+        "n": "ConvNext",
+        "d": "2022-01-10",
+        "m1": "93.47%"
+      },
+      {
+        "p": {
+          "name": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+          "link": "http://arxiv.org/abs/1409.1556v6"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/research/slim",
+        "n": "VGG16",
+        "d": "2014-09-04",
+        "m1": "92.86%"
+      },
+      {
+        "p": {
+          "name": "Densely Connected Convolutional Networks",
+          "link": "http://arxiv.org/abs/1608.06993v5"
+        },
+        "c": "https://github.com/pytorch/vision",
+        "n": "DenseNet201",
+        "d": "2016-08-25",
+        "m1": "90.99%"
+      },
+      {
+        "p": {
+          "name": "Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning",
+          "link": "http://arxiv.org/abs/1602.07261v2"
+        },
+        "c": "https://github.com/tensorflow/models",
+        "n": "Inception ResNet V2",
+        "d": "2016-02-23",
+        "m1": "90.27%"
+      },
+      {
+        "p": {
+          "name": "Xception: Deep Learning with Depthwise Separable Convolutions",
+          "link": "http://arxiv.org/abs/1610.02357v3"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/research/deeplab",
+        "n": "Xception",
+        "d": "2016-10-07",
+        "m1": "89.81%"
+      },
+      {
+        "p": {
+          "name": "Learning Transferable Architectures for Scalable Image Recognition",
+          "link": "http://arxiv.org/abs/1707.07012v4"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/research/slim",
+        "n": "NASNetLarge",
+        "d": "2017-07-21",
+        "m1": "89.52%"
+      },
+      {
+        "p": {
+          "name": "YOLOv3: An Incremental Improvement",
+          "link": "http://arxiv.org/abs/1804.02767v1"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "Darknet53",
+        "d": "2018-04-08",
+        "m1": "88.53%"
+      },
+      {
+        "p": {
+          "name": "ResNet strikes back: An improved training procedure in timm",
+          "link": "https://arxiv.org/abs/2110.00476v1"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "ResNetV2_50",
+        "d": "2021-10-01",
+        "m1": "88.08%"
+      },
+      {
+        "p": {
+          "name": "Searching for MobileNetV3",
+          "link": "https://arxiv.org/abs/1905.02244v5"
+        },
+        "c": "https://github.com/tensorflow/models",
+        "n": "MobileNetV3",
+        "d": "2019-05-06",
+        "m1": "84.28%"
+      }
+    ]
+  }
+}

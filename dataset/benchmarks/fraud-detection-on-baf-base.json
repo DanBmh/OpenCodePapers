@@ -1,0 +1,163 @@
+{
+  "title": "fraud-detection-on-baf-base",
+  "task-hierarchy": [
+    "Active Speaker Detection",
+    "Fraud Detection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/feedzai/bank-account-fraud"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Recall @ 1% FPR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Recall @ 5% FPR",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "RIFF: Inducing Rules for Fraud Detection from Decision Trees",
+          "link": "https://arxiv.org/abs/2408.12989v1"
+        },
+        "c": "",
+        "n": "LightGBM",
+        "d": "2024-08-23",
+        "m1": "25.2%"
+      },
+      {
+        "p": {
+          "name": "RIFF: Inducing Rules for Fraud Detection from Decision Trees",
+          "link": "https://arxiv.org/abs/2408.12989v1"
+        },
+        "c": "",
+        "n": "FIGS",
+        "d": "2024-08-23",
+        "m1": "21%"
+      },
+      {
+        "p": {
+          "name": "RIFF: Inducing Rules for Fraud Detection from Decision Trees",
+          "link": "https://arxiv.org/abs/2408.12989v1"
+        },
+        "c": "",
+        "n": "CART+RIFF",
+        "d": "2024-08-23",
+        "m1": "18.4%"
+      },
+      {
+        "p": {
+          "name": "RIFF: Inducing Rules for Fraud Detection from Decision Trees",
+          "link": "https://arxiv.org/abs/2408.12989v1"
+        },
+        "c": "",
+        "n": "CART",
+        "d": "2024-08-23",
+        "m1": "16%"
+      },
+      {
+        "p": {
+          "name": "RIFF: Inducing Rules for Fraud Detection from Decision Trees",
+          "link": "https://arxiv.org/abs/2408.12989v1"
+        },
+        "c": "",
+        "n": "FIGS+RIFF",
+        "d": "2024-08-23",
+        "m1": "15.8%"
+      },
+      {
+        "p": {
+          "name": "RIFF: Inducing Rules for Fraud Detection from Decision Trees",
+          "link": "https://arxiv.org/abs/2408.12989v1"
+        },
+        "c": "",
+        "n": "FIGU+RIFF",
+        "d": "2024-08-23",
+        "m1": "15.5%"
+      },
+      {
+        "p": {
+          "name": "Decoupling Decision-Making in Fraud Prevention through Classifier Calibration for Business Logic Action",
+          "link": "https://arxiv.org/abs/2401.05240v2"
+        },
+        "c": "",
+        "n": "LightGBM",
+        "d": "2024-01-10",
+        "m2": "54.3%"
+      },
+      {
+        "p": {
+          "name": "Decoupling Decision-Making in Fraud Prevention through Classifier Calibration for Business Logic Action",
+          "link": "https://arxiv.org/abs/2401.05240v2"
+        },
+        "c": "",
+        "n": "CatBoost",
+        "d": "2024-01-10",
+        "m2": "52.4%"
+      },
+      {
+        "p": {
+          "name": "Exploring Neural Joint Activity in Spiking Neural Networks for Fraud Detection",
+          "link": "https://link.springer.com/chapter/10.1007/978-3-031-76604-6_4"
+        },
+        "c": "https://github.com/DylanPerdigao/Neural-Joint-Activity-in-SNNs",
+        "n": "LightGBM",
+        "d": "2024-11-17",
+        "m2": "51.76%"
+      },
+      {
+        "p": {
+          "name": "Improving Fraud Detection with 1D-Convolutional Spiking Neural Networks Through Bayesian Optimization",
+          "link": "https://link.springer.com/chapter/10.1007/978-3-031-73503-5_11"
+        },
+        "c": "https://github.com/DylanPerdigao/Bayesian-Optimization-1D-CSNN",
+        "n": "1D-CSNN",
+        "d": "2024-11-16",
+        "m2": "50.35%"
+      },
+      {
+        "p": {
+          "name": "Decoupling Decision-Making in Fraud Prevention through Classifier Calibration for Business Logic Action",
+          "link": "https://arxiv.org/abs/2401.05240v2"
+        },
+        "c": "",
+        "n": "MLP–NN",
+        "d": "2024-01-10",
+        "m2": "49.6%"
+      },
+      {
+        "p": {
+          "name": "Exploring Neural Joint Activity in Spiking Neural Networks for Fraud Detection",
+          "link": "https://link.springer.com/chapter/10.1007/978-3-031-76604-6_4"
+        },
+        "c": "https://github.com/DylanPerdigao/Neural-Joint-Activity-in-SNNs",
+        "n": "1D-CSNN",
+        "d": "2024-11-17",
+        "m2": "42.79%"
+      }
+    ]
+  }
+}

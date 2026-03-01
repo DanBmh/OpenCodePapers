@@ -1,0 +1,109 @@
+{
+  "title": "face-verification-on-bts3-1",
+  "task-hierarchy": [
+    "3D Face Reconstruction",
+    "Facial Recognition and Modelling",
+    "Face Verification"
+  ],
+  "dataset-info": {
+    "link": "https://www.iarpa.gov/research-programs/briar"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "TAR @ FAR=0.01",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "ProxyFusion: Face Feature Aggregation Through Sparse Experts",
+          "link": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/81f554467f27759e88de14ba2fbafb47-Abstract-Conference.html"
+        },
+        "c": "https://github.com/bhavinjawade/proxyfusion",
+        "n": "ProxyFusion (Adaface)",
+        "d": "2025-09-24",
+        "m1": "0.689"
+      },
+      {
+        "p": {
+          "name": "CoNAN: Conditional Neural Aggregation Network For Unconstrained Face Feature Fusion",
+          "link": "https://arxiv.org/abs/2307.10237v1"
+        },
+        "c": "",
+        "n": "CoNAN (Adaface)",
+        "d": "2023-07-16",
+        "m1": "0.5632"
+      },
+      {
+        "p": {
+          "name": "Neural Aggregation Network for Video Face Recognition",
+          "link": "http://arxiv.org/abs/1603.05474v4"
+        },
+        "c": "",
+        "n": "NAN (Adaface)",
+        "d": "2016-03-17",
+        "m1": "0.5444"
+      },
+      {
+        "p": {
+          "name": "Multicolumn Networks for Face Recognition",
+          "link": "http://arxiv.org/abs/1807.09192v1"
+        },
+        "c": "https://github.com/ibendrup/MulticolumnNetwork",
+        "n": "MCN (Adaface)",
+        "d": "2018-07-24",
+        "m1": "0.5425"
+      },
+      {
+        "p": {
+          "name": "Cluster and Aggregate: Face Recognition with Large Probe Set",
+          "link": "https://arxiv.org/abs/2210.10864v3"
+        },
+        "c": "https://github.com/mk-minchul/caface",
+        "n": "CAFace (Adaface)",
+        "d": "2022-10-19",
+        "m1": "0.5131"
+      },
+      {
+        "p": {
+          "name": "Neural Aggregation Network for Video Face Recognition",
+          "link": "http://arxiv.org/abs/1603.05474v4"
+        },
+        "c": "",
+        "n": "MCN (Arcface)",
+        "d": "2016-03-17",
+        "m1": "0.3941"
+      },
+      {
+        "p": {
+          "name": "Neural Aggregation Network for Video Face Recognition",
+          "link": "http://arxiv.org/abs/1603.05474v4"
+        },
+        "c": "",
+        "n": "NAN (Arcface)",
+        "d": "2016-03-17",
+        "m1": "0.3901"
+      }
+    ]
+  }
+}

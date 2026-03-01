@@ -1,4 +1,3 @@
-import ast
 import json
 import re
 import sys
@@ -7,15 +6,12 @@ from pathlib import Path
 # ==================================================================================================
 
 
-def check_title_equals_filename(text: str, path: Path):
+def check_title_equals_filename(data: dict, path: Path):
 
-    TITLE_RE = re.compile(r"^\s*#\s+(.+?)\s*$", re.MULTILINE)
-    m = TITLE_RE.search(text)
+    title = data.get("title")
+    if not title:
+        return [f"{path}: Missing 'title' key in JSON."]
 
-    if not m:
-        return [f"{path}: Missing H1 title line starting with '# '."]
-
-    title = m.group(1).strip()
     expected = path.stem
     if title != expected:
         return [
@@ -32,16 +28,18 @@ def check_title_equals_filename(text: str, path: Path):
 # ==================================================================================================
 
 
-def check_dataset_link(text: str, path: Path):
+def check_dataset_link(data: dict, path: Path):
 
-    DATASET_LINK_RE = re.compile(
-        r"^\s*\[Dataset\s+Link\]\((https?://[^)]+)\)\s*\\\s*$",
-        re.MULTILINE,
-    )
-    m = DATASET_LINK_RE.search(text)
+    dataset_info = data.get("dataset-info")
+    if not dataset_info:
+        return [f"{path}: Missing 'dataset-info' key in JSON."]
 
-    if not m:
-        return [f"{path}: Missing dataset link"]
+    if "link" not in dataset_info:
+        return [f"{path}: Missing 'dataset-info.link' key in JSON."]
+    if not isinstance(dataset_info["link"], str):
+        return [
+            f"{path}: 'Dataset Link must be a string, got {type(dataset_info['link']).__name__}."
+        ]
 
     return []
 
@@ -49,29 +47,19 @@ def check_dataset_link(text: str, path: Path):
 # ==================================================================================================
 
 
-def check_task_hierarchy(text: str, path: Path):
+def check_task_hierarchy(data: dict, path: Path):
 
-    TASK_RE = re.compile(r"(?im)^Task\s*Hierarchy:\s*(.+)$")
-    m = TASK_RE.search(text)
+    task_hierarchy = data.get("task-hierarchy")
+    if not task_hierarchy:
+        return [f"{path}: Missing 'task-hierarchy' key in JSON."]
 
-    if not m:
-        return [f"{path}: Missing 'Task Hierarchy: [...]' line."]
-
-    list_text = m.group(1).strip()
-    try:
-        task_list = ast.literal_eval(list_text)
-    except Exception as e:
+    if not isinstance(task_hierarchy, list):
         return [
-            f"{path}: Task Hierarchy is not a valid list literal. Got {list_text!r}. Error: {e}"
-        ]
-
-    if not isinstance(task_list, list):
-        return [
-            f"{path}: Task Hierarchy must be a list, got {type(task_list).__name__}."
+            f"{path}: Task Hierarchy must be a list, got {type(task_hierarchy).__name__}."
         ]
 
     # Enforce list elements be strings (empty list ok)
-    if not all(isinstance(x, str) for x in task_list):
+    if not all(isinstance(x, str) for x in task_hierarchy):
         return [f"{path}: All Task Hierarchy entries must be strings."]
 
     return []
@@ -80,33 +68,107 @@ def check_task_hierarchy(text: str, path: Path):
 # ==================================================================================================
 
 
-def check_json_table_blocks(text: str, path: Path):
-
-    JSON_TABLE_RE = re.compile(r"```json:table\s*([\s\S]*?)```", re.MULTILINE)
-    matches = list(JSON_TABLE_RE.finditer(text))
+def check_benchmark_structure(data: dict, path: Path):
 
     errors = []
-    if not matches:
-        errors.append(f"{path}: Missing fenced code block starting with ```json:table.")
+
+    benchmark = data.get("benchmark")
+    if not benchmark:
+        errors.append(f"{path}: Missing 'benchmark' key in JSON.")
         return errors
 
-    for i, m in enumerate(matches, start=1):
-        block = m.group(1)
-        try:
-            parsed = json.loads(block)
-        except json.JSONDecodeError as e:
-            base_line = text[: m.start(1)].count("\n") + 1
-            abs_line = base_line + e.lineno - 1
-            errors.append(
-                f"{path}: Invalid JSON in ```json:table``` block #{i} "
-                f"(line {abs_line}, col {e.colno}) — {e.msg}"
-            )
-            continue
+    if not isinstance(benchmark, dict):
+        errors.append(
+            f"{path}: 'benchmark' must be a JSON object, got {type(benchmark).__name__}."
+        )
+        return errors
 
-        if not isinstance(parsed, dict):
+    # Check for required fields
+    if "fields" not in benchmark:
+        errors.append(f"{path}: Missing 'benchmark.fields' key.")
+    elif not isinstance(benchmark["fields"], list):
+        errors.append(f"{path}: 'benchmark.fields' must be a list.")
+
+    if "items" not in benchmark:
+        errors.append(f"{path}: Missing 'benchmark.items' key.")
+    elif not isinstance(benchmark["items"], list):
+        errors.append(f"{path}: 'benchmark.items' must be a list.")
+
+    # Check that fields contain ["p", "c", "n", "d"] in some order and at least one metric
+    if "fields" in benchmark and isinstance(benchmark["fields"], list):
+        field_keys = [f.get("key") for f in benchmark["fields"] if isinstance(f, dict)]
+        required_keys = {"p", "c", "n", "d"}
+        if not required_keys.issubset(field_keys):
             errors.append(
-                f"{path}: ```json:table``` block #{i} must be a JSON object at the top level."
+                f"{path}: 'benchmark.fields' must contain entries with keys: {required_keys}."
             )
+        if len(field_keys) <= 4:
+            errors.append(
+                f"{path}: 'benchmark.fields' must contain at least one field for metrics."
+            )
+
+    # Check that items contain ["p", "c", "n", "d"] in some order and at least one metric
+    if "items" in benchmark and isinstance(benchmark["items"], list):
+        for idx, item in enumerate(benchmark["items"]):
+            if not isinstance(item, dict):
+                errors.append(
+                    f"{path}: 'benchmark.items[{idx}]' must be a JSON object."
+                )
+                continue
+
+            item_keys = set(item.keys())
+            required_keys = {"p", "c", "n", "d"}
+            if not required_keys.issubset(item_keys):
+                errors.append(
+                    f"{path}: 'benchmark.items[{idx}]' must contain keys: {required_keys}."
+                )
+            metric_keys = [k for k in item_keys if k.startswith("m")]
+            if not metric_keys:
+                errors.append(
+                    f"{path}: 'benchmark.items[{idx}]' must contain at least one metric field"
+                )
+
+    # Check that "p" field has "name" and "link" and both are not empty
+    if "items" in benchmark and isinstance(benchmark["items"], list):
+        for idx, item in enumerate(benchmark["items"]):
+            if not isinstance(item, dict):
+                continue
+            if "p" in item and isinstance(item["p"], dict):
+                p = item["p"]
+                if "name" not in p or "link" not in p:
+                    errors.append(
+                        f"{path}: 'benchmark.items[{idx}].p' must contain 'name' and 'link' keys."
+                    )
+                else:
+                    if not p["name"]:
+                        errors.append(
+                            f"{path}: 'benchmark.items[{idx}].p.name' must not be empty."
+                        )
+                    if not p["link"]:
+                        errors.append(
+                            f"{path}: 'benchmark.items[{idx}].p.link' must not be empty."
+                        )
+
+    # Check that paper and code links are valid URLs if they are not empty
+    url_pattern = re.compile(
+        r"^(https?://)?([a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}(:\d+)?(/.*)?$"
+    )
+    if "items" in benchmark and isinstance(benchmark["items"], list):
+        for idx, item in enumerate(benchmark["items"]):
+            if not isinstance(item, dict):
+                continue
+            if "p" in item and isinstance(item["p"], dict):
+                link = item["p"].get("link", "")
+                if link and not url_pattern.match(link):
+                    errors.append(
+                        f"{path}: 'benchmark.items[{idx}].p.link' is not a valid URL: {link!r}"
+                    )
+            if "c" in item and isinstance(item["c"], str):
+                code_link = item["c"]
+                if code_link and not url_pattern.match(code_link):
+                    errors.append(
+                        f"{path}: 'benchmark.items[{idx}].c' is not a valid URL: {code_link!r}"
+                    )
 
     return errors
 
@@ -114,81 +176,10 @@ def check_json_table_blocks(text: str, path: Path):
 # ==================================================================================================
 
 
-def check_template_layout(text: str, path: Path):
-    errors = []
+def check_malicious_injections(data: dict, path: Path):
 
-    # Normalize newlines
-    text = text.replace("\r\n", "\n").replace("\r", "\n")
-    lines = text.split("\n")
-
-    # File must end with exactly one trailing blank line.
-    if len(lines) < 2 or lines[-1] != "" or lines[-2] == "":
-        errors.append(f"{path}: File must end with exactly one blank line.")
-        return errors
-    lines = lines[:-1]
-
-    # Title lines
-    if not lines[0].startswith("# "):
-        errors.append(f"{path}: First line must be a title.")
-        return errors
-    if lines[1].strip() != "":
-        errors.append(f"{path}: Second line must be blank.")
-        return errors
-
-    # Dataset and Hierarchy lines
-    if not lines[2].startswith("[Dataset Link](") or not lines[2].endswith("\\"):
-        errors.append(f"{path}: Dataset link line invalid.")
-        return errors
-    if not lines[3].startswith("Task Hierarchy:"):
-        errors.append(f"{path}: Hierarchy line invalid.")
-        return errors
-    if lines[4].strip() != "":
-        errors.append(f"{path}: Fifth line must be blank.")
-        return errors
-
-    # Any further text lines before the table block are allowed
-    curr_idx = 5
-    while curr_idx < len(lines):
-        if lines[curr_idx].startswith("```json:table"):
-            break
-        curr_idx += 1
-
-    # Check blanks before table block
-    if lines[curr_idx - 3].strip() != "":
-        errors.append(f"{path}: Line {curr_idx-3} must be blank.")
-        return errors
-    if lines[curr_idx - 2].strip() != "<br>":
-        errors.append(f"{path}: Line {curr_idx-2} must be '<br>'.")
-        return errors
-    if lines[curr_idx - 1].strip() != "":
-        errors.append(f"{path}: Line {curr_idx-1} must be blank.")
-        return errors
-
-    # Check table block start index
-    if not lines[curr_idx].startswith("```json:table"):
-        errors.append(f"{path}: Table block missing or misplaced.")
-        return errors
-
-    # Check table block finishes correctly
-    curr_idx += 1
-    while curr_idx < len(lines):
-        if lines[curr_idx].startswith("```"):
-            break
-        curr_idx += 1
-    if curr_idx == len(lines) or not lines[curr_idx].startswith("```"):
-        errors.append(f"{path}: Table block missing closing fence.")
-        return errors
-    if curr_idx != len(lines) - 1:
-        errors.append(f"{path}: No content allowed after table block.")
-        return errors
-
-    return errors
-
-
-# ==================================================================================================
-
-
-def check_malicious_injections(text: str, path: Path):
+    # Convert data dict to string for scanning
+    text = json.dumps(data)
 
     MALICIOUS_PATTERNS = [
         (re.compile(r"(?is)<\s*script\b"), "HTML <script> tag"),
@@ -235,50 +226,52 @@ def check_malicious_injections(text: str, path: Path):
 
 def main() -> int:
 
-    MARKDOWN_DIR = "dataset/benchmarks/"
+    JSON_DIR = "dataset/benchmarks/"
 
-    root = Path(MARKDOWN_DIR).resolve()
+    root = Path(JSON_DIR).resolve()
     if not root.exists() or not root.is_dir():
         print(
-            f"ERROR: MARKDOWN_DIR does not exist or is not a directory: {root}",
+            f"ERROR: JSON_DIR does not exist or is not a directory: {root}",
             file=sys.stderr,
         )
         return 2
 
-    # check that all items in the directory are markdown files
+    # check that all items in the directory are json files
     for item in root.iterdir():
-        if item.is_file() and item.suffix != ".md":
-            print(f"ERROR: Non-markdown file found in {root}: {item}", file=sys.stderr)
+        if item.is_file() and item.suffix != ".json":
+            print(f"ERROR: Non-JSON file found in {root}: {item}", file=sys.stderr)
             return 1
 
-    md_files = [p for p in root.rglob("*.md") if p.is_file()]
-    if not md_files:
-        print(f"No markdown files found under {root}")
+    json_files = [p for p in root.rglob("*.json") if p.is_file()]
+    if not json_files:
+        print(f"No JSON files found under {root}")
         return 0
 
     all_errors = []
-    for path in sorted(md_files):
+    for path in sorted(json_files):
         try:
-            text = path.read_text(encoding="utf-8")
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError as e:
+            all_errors.append(f"{path}: Failed to parse JSON: {e}")
+            continue
         except Exception as e:
             all_errors.append(f"{path}: Failed to read file as UTF-8: {e}")
             continue
 
-        all_errors.extend(check_title_equals_filename(text, path))
-        # all_errors.extend(check_dataset_link(text, path))
-        all_errors.extend(check_task_hierarchy(text, path))
-        all_errors.extend(check_json_table_blocks(text, path))
-        all_errors.extend(check_template_layout(text, path))
-        all_errors.extend(check_malicious_injections(text, path))
+        all_errors.extend(check_title_equals_filename(data, path))
+        all_errors.extend(check_dataset_link(data, path))
+        all_errors.extend(check_task_hierarchy(data, path))
+        all_errors.extend(check_benchmark_structure(data, path))
+        all_errors.extend(check_malicious_injections(data, path))
 
     if all_errors:
         print("Validation failed with the following issues:\n")
         for err in all_errors:
             print(f"- {err}")
-        print(f"\nTotal files checked: {len(md_files)} | Errors: {len(all_errors)}")
+        print(f"\nTotal files checked: {len(json_files)} | Errors: {len(all_errors)}")
         return 1
 
-    print(f"All checks passed. Total markdown files checked: {len(md_files)}")
+    print(f"All checks passed. Total JSON files checked: {len(json_files)}")
     return 0
 
 

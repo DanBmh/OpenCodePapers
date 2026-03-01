@@ -1,0 +1,602 @@
+{
+  "title": "image-generation-on-imagenet-512x512",
+  "task-hierarchy": [
+    "Image Generation"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "FID",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "NFE",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Inception score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Direct Discriminative Optimization: Your Likelihood-Based Visual Generative Model is Secretly a GAN Discriminator",
+          "link": "https://arxiv.org/abs/2503.01103v2"
+        },
+        "c": "https://github.com/nvlabs/ddo",
+        "n": "EDM2-L + DDO (SD-VAE, 25 steps, DPM-Solver-v3)",
+        "d": "2025-03-03",
+        "m1": "1.21",
+        "m2": "50"
+      },
+      {
+        "p": {
+          "name": "Unified Continuous Generative Models",
+          "link": "https://arxiv.org/abs/2505.07447v2"
+        },
+        "c": "https://github.com/LINs-Lab/UCGM",
+        "n": "DDT-XL/2 + UCGM-S (SD-VAE + 150 sampling steps + CFG)",
+        "d": "2025-05-12",
+        "m1": "1.24",
+        "m2": "300"
+      },
+      {
+        "p": {
+          "name": "Unified Continuous Generative Models",
+          "link": "https://arxiv.org/abs/2505.07447v2"
+        },
+        "c": "https://github.com/LINs-Lab/UCGM",
+        "n": "DDT-XL/2 + UCGM-S (SD-VAE + 100 sampling steps + CFG)",
+        "d": "2025-05-12",
+        "m1": "1.25",
+        "m2": "200"
+      },
+      {
+        "p": {
+          "name": "Guiding a Diffusion Model with a Bad Version of Itself",
+          "link": "https://arxiv.org/abs/2406.02507v3"
+        },
+        "c": "https://github.com/nvlabs/edm2",
+        "n": "EDM2-XXL Autoguidance",
+        "d": "2024-06-04",
+        "m1": "1.25"
+      },
+      {
+        "p": {
+          "name": "DDT: Decoupled Diffusion Transformer",
+          "link": "https://arxiv.org/abs/2504.05741v2"
+        },
+        "c": "https://github.com/MCG-NJU/DDT",
+        "n": "DDT-XL/2(22en6de 675M + guidance interval )",
+        "d": "2025-04-08",
+        "m1": "1.28",
+        "m2": "500",
+        "m3": "305"
+      },
+      {
+        "p": {
+          "name": "Guiding a Diffusion Model with a Bad Version of Itself",
+          "link": "https://arxiv.org/abs/2406.02507v3"
+        },
+        "c": "https://github.com/nvlabs/edm2",
+        "n": "EDM2- S  Autoguidance (XS, T /16)",
+        "d": "2024-06-04",
+        "m1": "1.34"
+      },
+      {
+        "p": {
+          "name": "Adversarial Score identity Distillation: Rapidly Surpassing the Teacher in One Step",
+          "link": "https://arxiv.org/abs/2410.14919v4"
+        },
+        "c": "https://github.com/mingyuanzhou/sid",
+        "n": "SiDA-EDM2-XXL (1.5B)",
+        "d": "2024-10-19",
+        "m1": "1.366",
+        "m2": "1"
+      },
+      {
+        "p": {
+          "name": "Adversarial Score identity Distillation: Rapidly Surpassing the Teacher in One Step",
+          "link": "https://arxiv.org/abs/2410.14919v4"
+        },
+        "c": "https://github.com/mingyuanzhou/sid",
+        "n": "SiDA-EDM2-XL (1.1B)",
+        "d": "2024-10-19",
+        "m1": "1.379",
+        "m2": "1"
+      },
+      {
+        "p": {
+          "name": "Applying Guidance in a Limited Interval Improves Sample and Distribution Quality in Diffusion Models",
+          "link": "https://arxiv.org/abs/2404.07724v2"
+        },
+        "c": "https://github.com/vectorspacelab/omnigen2",
+        "n": "EDM2-XXL w/ guidance interval",
+        "d": "2024-04-11",
+        "m1": "1.40"
+      },
+      {
+        "p": {
+          "name": "Adversarial Score identity Distillation: Rapidly Surpassing the Teacher in One Step",
+          "link": "https://arxiv.org/abs/2410.14919v4"
+        },
+        "c": "https://github.com/mingyuanzhou/sid",
+        "n": "SiDA-EDM2-L (777M)",
+        "d": "2024-10-19",
+        "m1": "1.413",
+        "m2": "1"
+      },
+      {
+        "p": {
+          "name": "Simpler Diffusion (SiD2): 1.5 FID on ImageNet512 with pixel-space diffusion",
+          "link": "https://arxiv.org/abs/2410.19324v2"
+        },
+        "c": "",
+        "n": "SiD2",
+        "d": "2024-10-25",
+        "m1": "1.48"
+      },
+      {
+        "p": {
+          "name": "Adversarial Score identity Distillation: Rapidly Surpassing the Teacher in One Step",
+          "link": "https://arxiv.org/abs/2410.14919v4"
+        },
+        "c": "https://github.com/mingyuanzhou/sid",
+        "n": "SiDA-EDM2-M (498M)",
+        "d": "2024-10-19",
+        "m1": "1.488",
+        "m2": "1"
+      },
+      {
+        "p": {
+          "name": "Adversarial Score identity Distillation: Rapidly Surpassing the Teacher in One Step",
+          "link": "https://arxiv.org/abs/2410.14919v4"
+        },
+        "c": "https://github.com/mingyuanzhou/sid",
+        "n": "SiDA-EDM2-S (280M)",
+        "d": "2024-10-19",
+        "m1": "1.669",
+        "m2": "1"
+      },
+      {
+        "p": {
+          "name": "Applying Guidance in a Limited Interval Improves Sample and Distribution Quality in Diffusion Models",
+          "link": "https://arxiv.org/abs/2404.07724v2"
+        },
+        "c": "https://github.com/vectorspacelab/omnigen2",
+        "n": "EDM2-S w/ guidance interval",
+        "d": "2024-04-11",
+        "m1": "1.68"
+      },
+      {
+        "p": {
+          "name": "Generative Modeling with Explicit Memory",
+          "link": "https://arxiv.org/abs/2412.08781v1"
+        },
+        "c": "https://github.com/lins-lab/gmem",
+        "n": "GMem",
+        "d": "2024-12-11",
+        "m1": "1.71"
+      },
+      {
+        "p": {
+          "name": "Deep Compression Autoencoder for Efficient High-Resolution Diffusion Models",
+          "link": "https://arxiv.org/abs/2410.10733v8"
+        },
+        "c": "https://github.com/mit-han-lab/efficientvit",
+        "n": "DC-AE-f32 + USiT-2B",
+        "d": "2024-10-14",
+        "m1": "1.72"
+      },
+      {
+        "p": {
+          "name": "Autoregressive Image Generation without Vector Quantization",
+          "link": "https://arxiv.org/abs/2406.11838v3"
+        },
+        "c": "https://github.com/lth14/mar",
+        "n": "MAR-L, Diff Loss",
+        "d": "2024-06-17",
+        "m1": "1.73"
+      },
+      {
+        "p": {
+          "name": "Self-Improving Diffusion Models with Synthetic Data",
+          "link": "https://arxiv.org/abs/2408.16333v1"
+        },
+        "c": "",
+        "n": "SIMS",
+        "d": "2024-08-29",
+        "m1": "1.73"
+      },
+      {
+        "p": {
+          "name": "PaGoDA: Progressive Growing of a One-Step Generator from a Low-Resolution Diffusion Teacher",
+          "link": "https://arxiv.org/abs/2405.14822v2"
+        },
+        "c": "https://github.com/sony/pagoda",
+        "n": "PaGoDA",
+        "d": "2024-05-23",
+        "m1": "1.80"
+      },
+      {
+        "p": {
+          "name": "Analyzing and Improving the Training Dynamics of Diffusion Models",
+          "link": "https://arxiv.org/abs/2312.02696v2"
+        },
+        "c": "https://github.com/nvlabs/edm2",
+        "n": "EDM2-XXL",
+        "d": "2023-12-05",
+        "m1": "1.81",
+        "m2": "126"
+      },
+      {
+        "p": {
+          "name": "Analyzing and Improving the Training Dynamics of Diffusion Models",
+          "link": "https://arxiv.org/abs/2312.02696v2"
+        },
+        "c": "https://github.com/nvlabs/edm2",
+        "n": "EDM2-XL",
+        "d": "2023-12-05",
+        "m1": "1.85",
+        "m2": "126"
+      },
+      {
+        "p": {
+          "name": "Analyzing and Improving the Training Dynamics of Diffusion Models",
+          "link": "https://arxiv.org/abs/2312.02696v2"
+        },
+        "c": "https://github.com/nvlabs/edm2",
+        "n": "EDM2-L",
+        "d": "2023-12-05",
+        "m1": "1.88",
+        "m2": "126"
+      },
+      {
+        "p": {
+          "name": "Adversarial Score identity Distillation: Rapidly Surpassing the Teacher in One Step",
+          "link": "https://arxiv.org/abs/2410.14919v4"
+        },
+        "c": "https://github.com/mingyuanzhou/sid",
+        "n": "SiD-EDM2-XL (1.1B)",
+        "d": "2024-10-19",
+        "m1": "1.888",
+        "m2": "1"
+      },
+      {
+        "p": {
+          "name": "Adversarial Score identity Distillation: Rapidly Surpassing the Teacher in One Step",
+          "link": "https://arxiv.org/abs/2410.14919v4"
+        },
+        "c": "https://github.com/mingyuanzhou/sid",
+        "n": "SiD-EDM2-L (777M)",
+        "d": "2024-10-19",
+        "m1": "1.907",
+        "m2": "1"
+      },
+      {
+        "p": {
+          "name": "Language Model Beats Diffusion -- Tokenizer is Key to Visual Generation",
+          "link": "https://arxiv.org/abs/2310.05737v3"
+        },
+        "c": "https://github.com/jy0205/Pyramid-Flow",
+        "n": "MAGVIT-v2",
+        "d": "2023-10-09",
+        "m1": "1.91",
+        "m3": "324.3"
+      },
+      {
+        "p": {
+          "name": "Adversarial Score identity Distillation: Rapidly Surpassing the Teacher in One Step",
+          "link": "https://arxiv.org/abs/2410.14919v4"
+        },
+        "c": "https://github.com/mingyuanzhou/sid",
+        "n": "SiD-EDM2-XXL (1.5B)",
+        "d": "2024-10-19",
+        "m1": "1.969",
+        "m2": "1"
+      },
+      {
+        "p": {
+          "name": "Analyzing and Improving the Training Dynamics of Diffusion Models",
+          "link": "https://arxiv.org/abs/2312.02696v2"
+        },
+        "c": "https://github.com/nvlabs/edm2",
+        "n": "EDM2-M",
+        "d": "2023-12-05",
+        "m1": "2.01",
+        "m2": "126"
+      },
+      {
+        "p": {
+          "name": "Adversarial Score identity Distillation: Rapidly Surpassing the Teacher in One Step",
+          "link": "https://arxiv.org/abs/2410.14919v4"
+        },
+        "c": "https://github.com/mingyuanzhou/sid",
+        "n": "SiD-EDM2-M (498M)",
+        "d": "2024-10-19",
+        "m1": "2.06",
+        "m2": "1"
+      },
+      {
+        "p": {
+          "name": "An Image is Worth 32 Tokens for Reconstruction and Generation",
+          "link": "https://arxiv.org/abs/2406.07550v1"
+        },
+        "c": "https://github.com/bytedance/1d-tokenizer",
+        "n": "TiTok-B-128",
+        "d": "2024-06-11",
+        "m1": "2.13"
+      },
+      {
+        "p": {
+          "name": "Adversarial Score identity Distillation: Rapidly Surpassing the Teacher in One Step",
+          "link": "https://arxiv.org/abs/2410.14919v4"
+        },
+        "c": "https://github.com/mingyuanzhou/sid",
+        "n": "SiDA-EDM2-XS (125M)",
+        "d": "2024-10-19",
+        "m1": "2.156",
+        "m2": "1"
+      },
+      {
+        "p": {
+          "name": "Analyzing and Improving the Training Dynamics of Diffusion Models",
+          "link": "https://arxiv.org/abs/2312.02696v2"
+        },
+        "c": "https://github.com/nvlabs/edm2",
+        "n": "EDM2-S",
+        "d": "2023-12-05",
+        "m1": "2.23",
+        "m2": "126"
+      },
+      {
+        "p": {
+          "name": "CADS: Unleashing the Diversity of Diffusion Models through Condition-Annealed Sampling",
+          "link": "https://arxiv.org/abs/2310.17347v4"
+        },
+        "c": "",
+        "n": "DiT-XL/2 with CADS",
+        "d": "2023-10-26",
+        "m1": "2.31"
+      },
+      {
+        "p": {
+          "name": "StyleGAN-XL: Scaling StyleGAN to Large Diverse Datasets",
+          "link": "https://arxiv.org/abs/2202.00273v2"
+        },
+        "c": "https://github.com/autonomousvision/stylegan-xl",
+        "n": "StyleGAN-XL",
+        "d": "2022-02-01",
+        "m1": "2.40"
+      },
+      {
+        "p": {
+          "name": "An Image is Worth 32 Tokens for Reconstruction and Generation",
+          "link": "https://arxiv.org/abs/2406.07550v1"
+        },
+        "c": "https://github.com/bytedance/1d-tokenizer",
+        "n": "TiTok-L-64",
+        "d": "2024-06-11",
+        "m1": "2.49"
+      },
+      {
+        "p": {
+          "name": "DiffiT: Diffusion Vision Transformers for Image Generation",
+          "link": "https://arxiv.org/abs/2312.02139v3"
+        },
+        "c": "https://github.com/nvlabs/diffit",
+        "n": "DiffiT",
+        "d": "2023-12-04",
+        "m1": "2.67",
+        "m3": "252.12"
+      },
+      {
+        "p": {
+          "name": "Adversarial Score identity Distillation: Rapidly Surpassing the Teacher in One Step",
+          "link": "https://arxiv.org/abs/2410.14919v4"
+        },
+        "c": "https://github.com/mingyuanzhou/sid",
+        "n": "SiD-EDM2-S (280M)",
+        "d": "2024-10-19",
+        "m1": "2.707",
+        "m2": "1"
+      },
+      {
+        "p": {
+          "name": "SA-Solver: Stochastic Adams Solver for Fast Sampling of Diffusion Models",
+          "link": "https://arxiv.org/abs/2309.05019v2"
+        },
+        "c": "https://github.com/scxue/SA-Solver",
+        "n": "DiT-XL/2 with SA-Solver",
+        "d": "2023-09-10",
+        "m1": "2.80"
+      },
+      {
+        "p": {
+          "name": "Alleviating Distortion in Image Generation via Multi-Resolution Diffusion Models and Time-Dependent Layer Normalization",
+          "link": "https://arxiv.org/abs/2406.09416v2"
+        },
+        "c": "https://github.com/qihao067/DiMR",
+        "n": "DiMR-XL/3R",
+        "d": "2024-06-13",
+        "m1": "2.89"
+      },
+      {
+        "p": {
+          "name": "Analyzing and Improving the Training Dynamics of Diffusion Models",
+          "link": "https://arxiv.org/abs/2312.02696v2"
+        },
+        "c": "https://github.com/nvlabs/edm2",
+        "n": "EDM2-XS",
+        "d": "2023-12-05",
+        "m1": "2.91",
+        "m2": "126"
+      },
+      {
+        "p": {
+          "name": "GIVT: Generative Infinite-Vocabulary Transformers",
+          "link": "https://arxiv.org/abs/2312.02116v4"
+        },
+        "c": "https://github.com/google-research/big_vision",
+        "n": "GIVT-Causal-L+A",
+        "d": "2023-12-04",
+        "m1": "2.92"
+      },
+      {
+        "p": {
+          "name": "Scalable Diffusion Models with Transformers",
+          "link": "https://arxiv.org/abs/2212.09748v2"
+        },
+        "c": "https://github.com/huggingface/diffusers",
+        "n": "DiT-XL/2",
+        "d": "2022-12-19",
+        "m1": "3.04",
+        "m3": "240.82"
+      },
+      {
+        "p": {
+          "name": "Language Model Beats Diffusion -- Tokenizer is Key to Visual Generation",
+          "link": "https://arxiv.org/abs/2310.05737v3"
+        },
+        "c": "https://github.com/jy0205/Pyramid-Flow",
+        "n": "MAGVIT-v2 (w/o guidance)",
+        "d": "2023-10-09",
+        "m1": "3.07",
+        "m3": "213.1"
+      },
+      {
+        "p": {
+          "name": "Adversarial Score identity Distillation: Rapidly Surpassing the Teacher in One Step",
+          "link": "https://arxiv.org/abs/2410.14919v4"
+        },
+        "c": "https://github.com/mingyuanzhou/sid",
+        "n": "SiD-EDM2-XS (125M)",
+        "d": "2024-10-19",
+        "m1": "3.353",
+        "m2": "1"
+      },
+      {
+        "p": {
+          "name": "Discrete Predictor-Corrector Diffusion Models for Image Synthesis",
+          "link": "https://openreview.net/forum?id=VM8batVBWvg"
+        },
+        "c": "",
+        "n": "DPC-U",
+        "d": "2022-09-29",
+        "m1": "3.54",
+        "m3": "350.2"
+      },
+      {
+        "p": {
+          "name": "High-Resolution Image Synthesis with Latent Diffusion Models",
+          "link": "https://arxiv.org/abs/2112.10752v2"
+        },
+        "c": "https://github.com/compvis/stable-diffusion",
+        "n": "Latent Diffusion (LDM-4-G)",
+        "d": "2021-12-20",
+        "m1": "3.60",
+        "m3": "247.67"
+      },
+      {
+        "p": {
+          "name": "Polynomial Implicit Neural Representations For Large Diverse Datasets",
+          "link": "https://arxiv.org/abs/2303.11424v1"
+        },
+        "c": "https://github.com/rajhans0/poly_inr",
+        "n": "Poly-INR",
+        "d": "2023-03-20",
+        "m1": "3.81"
+      },
+      {
+        "p": {
+          "name": "Diffusion Models Beat GANs on Image Synthesis",
+          "link": "https://arxiv.org/abs/2105.05233v4"
+        },
+        "c": "https://github.com/openai/guided-diffusion",
+        "n": "ADM-G, ADM-U",
+        "d": "2021-05-11",
+        "m1": "3.85",
+        "m3": "221.72"
+      },
+      {
+        "p": {
+          "name": "Simple diffusion: End-to-end diffusion for high resolution images",
+          "link": "https://arxiv.org/abs/2301.11093v2"
+        },
+        "c": "https://github.com/fashn-AI/tryondiffusion",
+        "n": "simple diffusion (U-Net)",
+        "d": "2023-01-26",
+        "m1": "4.28",
+        "m3": "171"
+      },
+      {
+        "p": {
+          "name": "MaskGIT: Masked Generative Image Transformer",
+          "link": "https://arxiv.org/abs/2202.04200v1"
+        },
+        "c": "https://github.com/lucidrains/soundstorm-pytorch",
+        "n": "MaskGIT (a=0.05)",
+        "d": "2022-02-08",
+        "m1": "4.46",
+        "m3": "342.0"
+      },
+      {
+        "p": {
+          "name": "Simple diffusion: End-to-end diffusion for high resolution images",
+          "link": "https://arxiv.org/abs/2301.11093v2"
+        },
+        "c": "https://github.com/fashn-AI/tryondiffusion",
+        "n": "simple diffusion (U-ViT, L)",
+        "d": "2023-01-26",
+        "m1": "4.53",
+        "m3": "205.3"
+      },
+      {
+        "p": {
+          "name": "MaskGIT: Masked Generative Image Transformer",
+          "link": "https://arxiv.org/abs/2202.04200v1"
+        },
+        "c": "https://github.com/lucidrains/soundstorm-pytorch",
+        "n": "MaskGIT",
+        "d": "2022-02-08",
+        "m1": "7.32",
+        "m3": "156.0"
+      },
+      {
+        "p": {
+          "name": "Diffusion Models Beat GANs on Image Synthesis",
+          "link": "https://arxiv.org/abs/2105.05233v4"
+        },
+        "c": "https://github.com/openai/guided-diffusion",
+        "n": "ADM-G",
+        "d": "2021-05-11",
+        "m1": "7.72",
+        "m3": "172.71"
+      }
+    ]
+  }
+}

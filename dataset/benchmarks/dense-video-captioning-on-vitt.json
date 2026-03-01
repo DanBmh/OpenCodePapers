@@ -1,0 +1,91 @@
+{
+  "title": "dense-video-captioning-on-vitt",
+  "task-hierarchy": [
+    "Dense Video Captioning"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/google-research-datasets/Video-Timeline-Tags-ViTT"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "SODA",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "CIDEr",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "METEOR",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Vid2Seq (VidChapters-7M PT)",
+        "d": null,
+        "m1": "0.151",
+        "m2": "50.9",
+        "m3": "9.5"
+      },
+      {
+        "p": {
+          "name": "HiCM$^2$: Hierarchical Compact Memory Modeling for Dense Video Captioning",
+          "link": "https://arxiv.org/abs/2412.14585v1"
+        },
+        "c": "https://github.com/ailab-kyunghee/HiCM2-DVC",
+        "n": "HiCM²",
+        "d": "2024-12-19",
+        "m1": "0.150",
+        "m2": "51.2",
+        "m3": "9.6"
+      },
+      {
+        "p": {
+          "name": "Vid2Seq: Large-Scale Pretraining of a Visual Language Model for Dense Video Captioning",
+          "link": "https://arxiv.org/abs/2302.14115v2"
+        },
+        "c": "https://github.com/google-research/scenic/tree/main/scenic/projects/vid2seq",
+        "n": "Vid2Seq",
+        "d": "2023-02-27",
+        "m1": "0.135",
+        "m2": "43.5",
+        "m3": "8.5"
+      },
+      {
+        "p": {
+          "name": "End-to-end Dense Video Captioning as Sequence Generation",
+          "link": "https://arxiv.org/abs/2204.08121v2"
+        },
+        "c": "",
+        "n": "E2ESG",
+        "d": "2022-04-18",
+        "m2": "25.0",
+        "m3": "8.1"
+      }
+    ]
+  }
+}

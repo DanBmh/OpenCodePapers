@@ -1,0 +1,87 @@
+{
+  "title": "protein-structure-prediction-on-caspsimseq",
+  "task-hierarchy": [
+    "Protein Structure Prediction"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Validation perplexity",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Galactica: A Large Language Model for Science",
+          "link": "https://arxiv.org/abs/2211.09085v1"
+        },
+        "c": "https://github.com/paperswithcode/galai",
+        "n": "GAL 120B",
+        "d": "2022-11-16",
+        "m1": "12.77"
+      },
+      {
+        "p": {
+          "name": "Galactica: A Large Language Model for Science",
+          "link": "https://arxiv.org/abs/2211.09085v1"
+        },
+        "c": "https://github.com/paperswithcode/galai",
+        "n": "GAL 30B",
+        "d": "2022-11-16",
+        "m1": "15.42"
+      },
+      {
+        "p": {
+          "name": "Galactica: A Large Language Model for Science",
+          "link": "https://arxiv.org/abs/2211.09085v1"
+        },
+        "c": "https://github.com/paperswithcode/galai",
+        "n": "GAL 6.7B",
+        "d": "2022-11-16",
+        "m1": "16.35"
+      },
+      {
+        "p": {
+          "name": "Galactica: A Large Language Model for Science",
+          "link": "https://arxiv.org/abs/2211.09085v1"
+        },
+        "c": "https://github.com/paperswithcode/galai",
+        "n": "GAL 1.3B",
+        "d": "2022-11-16",
+        "m1": "17.04"
+      },
+      {
+        "p": {
+          "name": "Galactica: A Large Language Model for Science",
+          "link": "https://arxiv.org/abs/2211.09085v1"
+        },
+        "c": "https://github.com/paperswithcode/galai",
+        "n": "GAL 125M",
+        "d": "2022-11-16",
+        "m1": "19.18"
+      }
+    ]
+  }
+}

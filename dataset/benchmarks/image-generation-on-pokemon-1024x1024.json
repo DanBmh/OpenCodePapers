@@ -1,0 +1,67 @@
+{
+  "title": "image-generation-on-pokemon-1024x1024",
+  "task-hierarchy": [
+    "Image Generation"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "FID",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "StyleGAN-XL: Scaling StyleGAN to Large Diverse Datasets",
+          "link": "https://arxiv.org/abs/2202.00273v2"
+        },
+        "c": "https://github.com/autonomousvision/stylegan-xl",
+        "n": "StyleGAN-XL",
+        "d": "2022-02-01",
+        "m1": "25.47"
+      },
+      {
+        "p": {
+          "name": "Projected GANs Converge Faster",
+          "link": "https://arxiv.org/abs/2111.01007v1"
+        },
+        "c": "https://github.com/autonomousvision/projected_gan",
+        "n": "Projected GAN",
+        "d": "2021-11-01",
+        "m1": "33.96"
+      },
+      {
+        "p": {
+          "name": "Towards Faster and Stabilized GAN Training for High-fidelity Few-shot Image Synthesis",
+          "link": "https://arxiv.org/abs/2101.04775v1"
+        },
+        "c": "https://github.com/lucidrains/lightweight-gan",
+        "n": "FastGAN",
+        "d": "2021-01-12",
+        "m1": "56.46"
+      }
+    ]
+  }
+}

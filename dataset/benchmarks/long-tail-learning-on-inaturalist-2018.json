@@ -1,0 +1,468 @@
+{
+  "title": "long-tail-learning-on-inaturalist-2018",
+  "task-hierarchy": [
+    "Generalized Few-Shot Learning",
+    "Long-tail Learning"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/visipedia/inat_comp/tree/master/2017"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Top-1 Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Long-Tail Learning with Foundation Model: Heavy Fine-Tuning Hurts",
+          "link": "https://arxiv.org/abs/2309.10019v3"
+        },
+        "c": "https://github.com/shijxcs/lift",
+        "n": "LIFT (ViT-L/14@336px)",
+        "d": "2023-09-18",
+        "m1": "87.4%"
+      },
+      {
+        "p": {
+          "name": "Long-Tail Learning with Foundation Model: Heavy Fine-Tuning Hurts",
+          "link": "https://arxiv.org/abs/2309.10019v3"
+        },
+        "c": "https://github.com/shijxcs/lift",
+        "n": "LIFT (ViT-L/14)",
+        "d": "2023-09-18",
+        "m1": "85.2%"
+      },
+      {
+        "p": {
+          "name": "Long-Tailed Recognition by Mutual Information Maximization between Latent Features and Ground-Truth Labels",
+          "link": "https://arxiv.org/abs/2305.01160v3"
+        },
+        "c": "https://github.com/bluecdm/Long-tailed-recognition",
+        "n": "GML (ViT-B-16)",
+        "d": "2023-05-02",
+        "m1": "82.1%"
+      },
+      {
+        "p": {
+          "name": "VL-LTR: Learning Class-wise Visual-Linguistic Representation for Long-Tailed Visual Recognition",
+          "link": "https://arxiv.org/abs/2111.13579v4"
+        },
+        "c": "https://github.com/ChangyaoTian/VL-LTR",
+        "n": "VL-LTR (ViT-B-16)",
+        "d": "2021-11-26",
+        "m1": "81.0%"
+      },
+      {
+        "p": {
+          "name": "Long-Tail Learning with Foundation Model: Heavy Fine-Tuning Hurts",
+          "link": "https://arxiv.org/abs/2309.10019v3"
+        },
+        "c": "https://github.com/shijxcs/lift",
+        "n": "LIFT (ViT-B/16)",
+        "d": "2023-09-18",
+        "m1": "80.4%"
+      },
+      {
+        "p": {
+          "name": "Retrieval Augmented Classification for Long-Tail Visual Recognition",
+          "link": "https://arxiv.org/abs/2202.11233v1"
+        },
+        "c": "",
+        "n": "RAC (ViT-B-16)",
+        "d": "2022-02-22",
+        "m1": "80.24%"
+      },
+      {
+        "p": {
+          "name": "Generalized Parametric Contrastive Learning",
+          "link": "https://arxiv.org/abs/2209.12400v2"
+        },
+        "c": "https://github.com/dvlab-research/parametric-contrastive-learning",
+        "n": "GPaCo (2-R152)",
+        "d": "2022-09-26",
+        "m1": "79.8%"
+      },
+      {
+        "p": {
+          "name": "Generalized Parametric Contrastive Learning",
+          "link": "https://arxiv.org/abs/2209.12400v2"
+        },
+        "c": "https://github.com/dvlab-research/parametric-contrastive-learning",
+        "n": "GPaCo (ResNet-152)",
+        "d": "2022-09-26",
+        "m1": "78.1%"
+      },
+      {
+        "p": {
+          "name": "Self-Supervised Aggregation of Diverse Experts for Test-Agnostic Long-Tailed Recognition",
+          "link": "https://arxiv.org/abs/2107.09249v4"
+        },
+        "c": "https://github.com/vanint/sade-agnosticlt",
+        "n": "TADE(ResNet-152)",
+        "d": "2021-07-20",
+        "m1": "77%"
+      },
+      {
+        "p": {
+          "name": "Probabilistic Contrastive Learning for Long-Tailed Visual Recognition",
+          "link": "https://arxiv.org/abs/2403.06726v2"
+        },
+        "c": "https://github.com/leaplabthu/proco",
+        "n": "ProCo (ResNet50)",
+        "d": "2024-03-11",
+        "m1": "75.8%"
+      },
+      {
+        "p": {
+          "name": "MDCS: More Diverse Experts with Consistency Self-distillation for Long-tailed Recognition",
+          "link": "https://arxiv.org/abs/2308.09922v2"
+        },
+        "c": "https://github.com/fistyee/mdcs",
+        "n": "MDCS(Resnet50)",
+        "d": "2023-08-19",
+        "m1": "75.6%"
+      },
+      {
+        "p": {
+          "name": "Generalized Parametric Contrastive Learning",
+          "link": "https://arxiv.org/abs/2209.12400v2"
+        },
+        "c": "https://github.com/dvlab-research/parametric-contrastive-learning",
+        "n": "GPaCo (ResNet-50)",
+        "d": "2022-09-26",
+        "m1": "75.4%"
+      },
+      {
+        "p": {
+          "name": "Class-Balanced Distillation for Long-Tailed Visual Recognition",
+          "link": "https://arxiv.org/abs/2104.05279v2"
+        },
+        "c": "https://github.com/google-research/google-research",
+        "n": "CBD-ENS (ResNet-101)",
+        "d": "2021-04-12",
+        "m1": "75.3%"
+      },
+      {
+        "p": {
+          "name": "Parametric Contrastive Learning",
+          "link": "https://arxiv.org/abs/2107.12028v2"
+        },
+        "c": "https://github.com/dvlab-research/parametric-contrastive-learning",
+        "n": "PaCo(ResNet-152)",
+        "d": "2021-07-26",
+        "m1": "75.2%"
+      },
+      {
+        "p": {
+          "name": "DeiT-LT Distillation Strikes Back for Vision Transformer Training on Long-Tailed Datasets",
+          "link": "https://arxiv.org/abs/2404.02900v1"
+        },
+        "c": "https://github.com/val-iisc/DeiT-LT",
+        "n": "DeiT-LT",
+        "d": "2024-04-03",
+        "m1": "75.1%"
+      },
+      {
+        "p": {
+          "name": "Adaptive Parametric Activation",
+          "link": "https://arxiv.org/abs/2407.08567v2"
+        },
+        "c": "https://github.com/kostas1515/aglu",
+        "n": "APA (SE-ResNet-50)",
+        "d": "2024-07-11",
+        "m1": "74.8"
+      },
+      {
+        "p": {
+          "name": "VL-LTR: Learning Class-wise Visual-Linguistic Representation for Long-Tailed Visual Recognition",
+          "link": "https://arxiv.org/abs/2111.13579v4"
+        },
+        "c": "https://github.com/ChangyaoTian/VL-LTR",
+        "n": "VL-LTR (ResNet-50)",
+        "d": "2021-11-26",
+        "m1": "74.6%"
+      },
+      {
+        "p": {
+          "name": "Long-Tailed Recognition by Mutual Information Maximization between Latent Features and Ground-Truth Labels",
+          "link": "https://arxiv.org/abs/2305.01160v3"
+        },
+        "c": "https://github.com/bluecdm/Long-tailed-recognition",
+        "n": "GML (ResNet-50)",
+        "d": "2023-05-02",
+        "m1": "74.5%"
+      },
+      {
+        "p": {
+          "name": "Nested Collaborative Learning for Long-Tailed Visual Recognition",
+          "link": "https://arxiv.org/abs/2203.15359v2"
+        },
+        "c": "https://github.com/bazinga699/ncl",
+        "n": "NCL(ResNet-50)",
+        "d": "2022-03-29",
+        "m1": "74.2%"
+      },
+      {
+        "p": {
+          "name": "BatchFormer: Learning to Explore Sample Relationships for Robust Representation Learning",
+          "link": "https://arxiv.org/abs/2203.01522v2"
+        },
+        "c": "https://github.com/zhihou7/batchformer",
+        "n": "BatchFormer(ResNet-50, RIDE)",
+        "d": "2022-03-03",
+        "m1": "74.1%"
+      },
+      {
+        "p": {
+          "name": "Class-Balanced Distillation for Long-Tailed Visual Recognition",
+          "link": "https://arxiv.org/abs/2104.05279v2"
+        },
+        "c": "https://github.com/google-research/google-research",
+        "n": "CBD-ENS (ResNet-50)",
+        "d": "2021-04-12",
+        "m1": "73.6%"
+      },
+      {
+        "p": {
+          "name": "Distilling Virtual Examples for Long-tailed Recognition",
+          "link": "https://arxiv.org/abs/2103.15042v3"
+        },
+        "c": "https://github.com/yangyucheng000/DiVE",
+        "n": "RIDE-DiVE",
+        "d": "2021-03-28",
+        "m1": "73.44%"
+      },
+      {
+        "p": {
+          "name": "Harnessing Hierarchical Label Distribution Variations in Test Agnostic Long-tail Recognition",
+          "link": "https://arxiv.org/abs/2405.07780v1"
+        },
+        "c": "https://github.com/scongl/dirmixe",
+        "n": "DirMixE",
+        "d": "2024-05-13",
+        "m1": "73.21%"
+      },
+      {
+        "p": {
+          "name": "Self-Supervised Aggregation of Diverse Experts for Test-Agnostic Long-Tailed Recognition",
+          "link": "https://arxiv.org/abs/2107.09249v4"
+        },
+        "c": "https://github.com/vanint/sade-agnosticlt",
+        "n": "TADE",
+        "d": "2021-07-20",
+        "m1": "72.9%"
+      },
+      {
+        "p": {
+          "name": "ResLT: Residual Learning for Long-tailed Recognition",
+          "link": "https://arxiv.org/abs/2101.10633v3"
+        },
+        "c": "https://github.com/dvlab-research/parametric-contrastive-learning",
+        "n": "ResLT(3 experts)",
+        "d": "2021-01-26",
+        "m1": "72.9%"
+      },
+      {
+        "p": {
+          "name": "Long-tailed Recognition by Routing Diverse Distribution-Aware Experts",
+          "link": "https://arxiv.org/abs/2010.01809v4"
+        },
+        "c": "https://github.com/frank-xwang/RIDE-LongTailRecognition",
+        "n": "RIDE",
+        "d": "2020-10-05",
+        "m1": "72.2%"
+      },
+      {
+        "p": {
+          "name": "Balanced Contrastive Learning for Long-Tailed Visual Recognition",
+          "link": "https://arxiv.org/abs/2207.09052v3"
+        },
+        "c": "https://github.com/flamiezhu/bcl",
+        "n": "BCL(ResNet-50)",
+        "d": "2022-07-19",
+        "m1": "71.8%"
+      },
+      {
+        "p": {
+          "name": "Distilling Virtual Examples for Long-tailed Recognition",
+          "link": "https://arxiv.org/abs/2103.15042v3"
+        },
+        "c": "https://github.com/yangyucheng000/DiVE",
+        "n": "DiVE",
+        "d": "2021-03-28",
+        "m1": "71.71%"
+      },
+      {
+        "p": {
+          "name": "Improving Calibration for Long-Tailed Recognition",
+          "link": "https://arxiv.org/abs/2104.00466v1"
+        },
+        "c": "https://github.com/Jia-Research-Lab/MiSLAS",
+        "n": "MiSLAS",
+        "d": "2021-04-01",
+        "m1": "71.6%"
+      },
+      {
+        "p": {
+          "name": "Distribution Alignment: A Unified Framework for Long-tail Visual Recognition",
+          "link": "https://arxiv.org/abs/2103.16370v1"
+        },
+        "c": "https://github.com/Megvii-BaseDetection/DisAlign",
+        "n": "DisAlign",
+        "d": "2021-03-30",
+        "m1": "70.6%"
+      },
+      {
+        "p": {
+          "name": "RSG: A Simple but Effective Module for Learning Imbalanced Datasets",
+          "link": "https://arxiv.org/abs/2106.09859v1"
+        },
+        "c": "https://github.com/Jianf-Wang/RSG",
+        "n": "LDAM-DRS-RSG",
+        "d": "2021-06-18",
+        "m1": "70.3%"
+      },
+      {
+        "p": {
+          "name": "Inflated Episodic Memory With Region Self-Attention for Long-Tailed Visual Recognition",
+          "link": "http://openaccess.thecvf.com/content_CVPR_2020/html/Zhu_Inflated_Episodic_Memory_With_Region_Self-Attention_for_Long-Tailed_Visual_Recognition_CVPR_2020_paper.html"
+        },
+        "c": "",
+        "n": "IEM",
+        "d": "2020-06-01",
+        "m1": "70.2"
+      },
+      {
+        "p": {
+          "name": "Long-Tailed Recognition via Weight Balancing",
+          "link": "https://arxiv.org/abs/2203.14197v1"
+        },
+        "c": "https://github.com/shadealsha/ltr-weight-balancing",
+        "n": "LTR-weight-balancing(ResNet-50)",
+        "d": "2022-03-27",
+        "m1": "70.2%"
+      },
+      {
+        "p": {
+          "name": "Escaping Saddle Points for Effective Generalization on Class-Imbalanced Data",
+          "link": "https://arxiv.org/abs/2212.13827v1"
+        },
+        "c": "https://github.com/val-iisc/saddle-longtail",
+        "n": "LDAM + DRW + SAM",
+        "d": "2022-12-28",
+        "m1": "70.1"
+      },
+      {
+        "p": {
+          "name": "Disentangling Label Distribution for Long-tailed Visual Recognition",
+          "link": "https://arxiv.org/abs/2012.00321v2"
+        },
+        "c": "https://github.com/hyperconnect/LADE",
+        "n": "LADE",
+        "d": "2020-12-01",
+        "m1": "70.0%"
+      },
+      {
+        "p": {
+          "name": "Targeted Supervised Contrastive Learning for Long-Tailed Recognition",
+          "link": "https://arxiv.org/abs/2111.13998v2"
+        },
+        "c": "https://github.com/lth14/targeted-supcon",
+        "n": "TSC(ResNet-50)",
+        "d": "2021-11-27",
+        "m1": "69.7%"
+      },
+      {
+        "p": {
+          "name": "Decoupling Representation and Classifier for Long-Tailed Recognition",
+          "link": "https://arxiv.org/abs/1910.09217v2"
+        },
+        "c": "https://github.com/facebookresearch/classifier-balancing",
+        "n": "CB-LWS",
+        "d": "2019-10-21",
+        "m1": "69.5%"
+      },
+      {
+        "p": {
+          "name": "MetaSAug: Meta Semantic Augmentation for Long-Tailed Visual Recognition",
+          "link": "https://arxiv.org/abs/2103.12579v3"
+        },
+        "c": "https://github.com/BIT-DA/MetaSAug",
+        "n": "MetaSAug",
+        "d": "2021-03-23",
+        "m1": "68.75%"
+      },
+      {
+        "p": {
+          "name": "Rethinking the Value of Labels for Improving Class-Imbalanced Learning",
+          "link": "https://arxiv.org/abs/2006.07529v2"
+        },
+        "c": "https://github.com/YyzHarry/imbalanced-semi-self",
+        "n": "cRT + SSP",
+        "d": "2020-06-13",
+        "m1": "68.1%"
+      },
+      {
+        "p": {
+          "name": "Contrastive Learning based Hybrid Networks for Long-Tailed Image Classification",
+          "link": "https://arxiv.org/abs/2103.14267v1"
+        },
+        "c": "",
+        "n": "Hybrid-PSC",
+        "d": "2021-03-26",
+        "m1": "68.1%"
+      },
+      {
+        "p": {
+          "name": "Posterior Re-calibration for Imbalanced Datasets",
+          "link": "https://arxiv.org/abs/2010.11820v1"
+        },
+        "c": "",
+        "n": "CE-DRW-IC",
+        "d": "2020-10-22",
+        "m1": "67.9%"
+      },
+      {
+        "p": {
+          "name": "Rethinking Class-Balanced Methods for Long-Tailed Visual Recognition from a Domain Adaptation Perspective",
+          "link": "https://arxiv.org/abs/2003.10780v1"
+        },
+        "c": "https://github.com/abdullahjamal/Longtail_DA",
+        "n": "Domain Adaptation",
+        "d": "2020-03-24",
+        "m1": "67.5%"
+      },
+      {
+        "p": {
+          "name": "Feature Space Augmentation for Long-Tailed Data",
+          "link": "https://arxiv.org/abs/2008.03673v1"
+        },
+        "c": "",
+        "n": "Online Feature Augmentation",
+        "d": "2020-08-09",
+        "m1": "65.9%"
+      }
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "title": "image-inpainting-on-places2-val",
+  "task-hierarchy": [
+    "Image Inpainting"
+  ],
+  "dataset-info": {
+    "link": "http://places.csail.mit.edu/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "FID",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "PD",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Palette: Image-to-Image Diffusion Models",
+          "link": "https://arxiv.org/abs/2111.05826v2"
+        },
+        "c": "https://github.com/Janspiry/Palette-Image-to-Image-Diffusion-Models",
+        "n": "Palatte (20-30% free form)",
+        "d": "2021-11-10",
+        "m1": "11.7",
+        "m2": "35.0"
+      },
+      {
+        "p": {
+          "name": "Palette: Image-to-Image Diffusion Models",
+          "link": "https://arxiv.org/abs/2111.05826v2"
+        },
+        "c": "https://github.com/Janspiry/Palette-Image-to-Image-Diffusion-Models",
+        "n": "Palette (128×128\ncenter mask)",
+        "d": "2021-11-10",
+        "m1": "11.9",
+        "m2": "57.3"
+      },
+      {
+        "p": {
+          "name": "Free-Form Image Inpainting with Gated Convolution",
+          "link": "https://arxiv.org/abs/1806.03589v2"
+        },
+        "c": "https://github.com/zuruoke/watermark-removal",
+        "n": "DeepFillv2 (20-30% free form)",
+        "d": "2018-06-10",
+        "m1": "13.5",
+        "m2": "63.0"
+      },
+      {
+        "p": {
+          "name": "Bridging Global Context Interactions for High-Fidelity Image Completion",
+          "link": "https://arxiv.org/abs/2104.00845v2"
+        },
+        "c": "https://github.com/lyndonzheng/TFill",
+        "n": "TFill (20-30% free form)",
+        "d": "2021-04-02",
+        "m1": "15.2",
+        "m2": "87.2"
+      },
+      {
+        "p": {
+          "name": "Free-Form Image Inpainting with Gated Convolution",
+          "link": "https://arxiv.org/abs/1806.03589v2"
+        },
+        "c": "https://github.com/zuruoke/watermark-removal",
+        "n": "DeepFillv2 (128×128\ncenter mask)",
+        "d": "2018-06-10",
+        "m1": "15.3",
+        "m2": "96.3"
+      },
+      {
+        "p": {
+          "name": "Contextual Residual Aggregation for Ultra High-Resolution Image Inpainting",
+          "link": "https://arxiv.org/abs/2005.09704v1"
+        },
+        "c": "https://github.com/Atlas200dk/sample-imageinpainting-HiFill",
+        "n": "HiFill (20-30% free form)",
+        "d": "2020-05-19",
+        "m1": "15.7",
+        "m2": "92.8"
+      },
+      {
+        "p": {
+          "name": "Contextual Residual Aggregation for Ultra High-Resolution Image Inpainting",
+          "link": "https://arxiv.org/abs/2005.09704v1"
+        },
+        "c": "https://github.com/Atlas200dk/sample-imageinpainting-HiFill",
+        "n": "HiFill (128×128\ncenter mask)",
+        "d": "2020-05-19",
+        "m1": "16.9",
+        "m2": "115.4"
+      }
+    ]
+  }
+}

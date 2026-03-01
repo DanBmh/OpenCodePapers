@@ -1,0 +1,206 @@
+{
+  "title": "entity-linking-on-wic-tsv",
+  "task-hierarchy": [
+    "Entity Linking"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/semantic-web-company/wic-tsv"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Task 1 Accuracy: all",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Task 1 Accuracy: general purpose",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Task 1 Accuracy: domain specific",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Task 2 Accuracy: all",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Task 2 Accuracy: general purpose",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "Task 2 Accuracy: domain specific",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "Task 3 Accuracy: all",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "Task 3 Accuracy: general purpose",
+        "sortable": "true"
+      },
+      {
+        "key": "m9",
+        "label": "Task 3 Accuracy: domain specific",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Word Sense Disambiguation with Transformer Models",
+          "link": "https://www.semanticscholar.org/paper/Word-Sense-Disambiguation-with-Transformer-Models-Vandenbussche-Scerri/ef4306b172c05c342522a84172fa7c7e7d0b293e#paper-header"
+        },
+        "c": "",
+        "n": "transformers",
+        "d": "2021-04-30",
+        "m1": "77.8",
+        "m2": "75.2",
+        "m3": "81.0",
+        "m7": "71.9",
+        "m8": "77.0",
+        "m9": "65.7"
+      },
+      {
+        "p": {
+          "name": "CTLR@WiC-TSV: Target Sense Verification using Marked Inputs andPre-trained Models",
+          "link": "https://www.semanticscholar.org/paper/CTLR%40WiC-TSV%3A-Target-Sense-Verification-using-Moreno-Pontes/4c0478f5f01eec08ab2c92ddeb57cbb6fd26f0a7#paper-header"
+        },
+        "c": "",
+        "n": "CTLR",
+        "d": "2021-04-30",
+        "m1": "76.8",
+        "m2": "74.5",
+        "m3": "79.6",
+        "m4": "72.7",
+        "m5": "65.6",
+        "m6": "81.5",
+        "m7": "78.3",
+        "m8": "72.1",
+        "m9": "85.7"
+      },
+      {
+        "p": {
+          "name": "GlossBERT: BERT for Word Sense Disambiguation with Gloss Knowledge",
+          "link": "https://arxiv.org/abs/1908.07245v4"
+        },
+        "c": "https://github.com/HSLCY/GlossBERT",
+        "n": "GlossBert-ws",
+        "d": "2019-08-20",
+        "m1": "75.9",
+        "m2": "75.2",
+        "m3": "76.7"
+      },
+      {
+        "p": {
+          "name": "WiC-TSV: An Evaluation Benchmark for Target Sense Verification of Words in Context",
+          "link": "https://arxiv.org/abs/2004.15016v3"
+        },
+        "c": "https://github.com/semantic-web-company/wic-tsv",
+        "n": "Bert-base",
+        "d": "2020-04-30",
+        "m1": "75.3",
+        "m2": "73.3",
+        "m3": "77.9",
+        "m4": "71.7",
+        "m5": "68.6",
+        "m6": "74.7",
+        "m7": "76.6",
+        "m8": "73.5",
+        "m9": "80.4"
+      },
+      {
+        "p": {
+          "name": "WiC-TSV: An Evaluation Benchmark for Target Sense Verification of Words in Context",
+          "link": "https://arxiv.org/abs/2004.15016v3"
+        },
+        "c": "https://github.com/semantic-web-company/wic-tsv",
+        "n": "Unsupervised Bert",
+        "d": "2020-04-30",
+        "m1": "54.4",
+        "m2": "49.2",
+        "m3": "60.6",
+        "m4": "62.8",
+        "m5": "57.6",
+        "m6": "69.1",
+        "m7": "60.5",
+        "m8": "54.4",
+        "m9": "67.9"
+      },
+      {
+        "p": {
+          "name": "WiC-TSV: An Evaluation Benchmark for Target Sense Verification of Words in Context",
+          "link": "https://arxiv.org/abs/2004.15016v3"
+        },
+        "c": "https://github.com/semantic-web-company/wic-tsv",
+        "n": "FastText",
+        "d": "2020-04-30",
+        "m1": "53.7",
+        "m2": "56.2",
+        "m3": "50.6",
+        "m4": "52.7",
+        "m5": "56.8",
+        "m6": "47.7",
+        "m7": "53.4",
+        "m8": "57.1",
+        "m9": "49.0"
+      },
+      {
+        "p": {
+          "name": "WiC-TSV: An Evaluation Benchmark for Target Sense Verification of Words in Context",
+          "link": "https://arxiv.org/abs/2004.15016v3"
+        },
+        "c": "https://github.com/semantic-web-company/wic-tsv",
+        "n": "All true",
+        "d": "2020-04-30",
+        "m1": "50.8",
+        "m2": "53.8",
+        "m3": "47.0",
+        "m4": "50.8",
+        "m5": "53.8",
+        "m6": "47.0",
+        "m7": "50.8",
+        "m8": "53.8",
+        "m9": "47.0"
+      },
+      {
+        "p": {
+          "name": "WiC-TSV: An Evaluation Benchmark for Target Sense Verification of Words in Context",
+          "link": "https://arxiv.org/abs/2004.15016v3"
+        },
+        "c": "https://github.com/semantic-web-company/wic-tsv",
+        "n": "Human",
+        "d": "2020-04-30",
+        "m7": "85.3",
+        "m8": "82.1",
+        "m9": "89.2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "title": "video-question-answering-on-tvqa",
+  "task-hierarchy": [
+    "Video Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/jayleicn/TVQAplus"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Large Language Models are Temporal and Causal Reasoners for Video Question Answering",
+          "link": "https://arxiv.org/abs/2310.15747v2"
+        },
+        "c": "https://github.com/mlvlab/Flipped-VQA",
+        "n": "LLaMA-VQA",
+        "d": "2023-10-24",
+        "m1": "82.2"
+      },
+      {
+        "p": {
+          "name": "Zero-Shot Video Question Answering via Frozen Bidirectional Language Models",
+          "link": "https://arxiv.org/abs/2206.08155v2"
+        },
+        "c": "https://github.com/antoyang/FrozenBiLM",
+        "n": "FrozenBiLM",
+        "d": "2022-06-16",
+        "m1": "82"
+      },
+      {
+        "p": {
+          "name": "VindLU: A Recipe for Effective Video-and-Language Pretraining",
+          "link": "https://arxiv.org/abs/2212.05051v2"
+        },
+        "c": "https://github.com/klauscc/vindlu",
+        "n": "VindLU",
+        "d": "2022-12-09",
+        "m1": "79.0"
+      },
+      {
+        "p": {
+          "name": "iPerceive: Applying Common-Sense Reasoning to Multi-Modal Dense Video Captioning and Video Question Answering",
+          "link": "https://arxiv.org/abs/2011.07735v1"
+        },
+        "c": "",
+        "n": "iPerceive (Chadha et al., 2020)",
+        "d": "2020-11-16",
+        "m1": "76.96"
+      },
+      {
+        "p": {
+          "name": "HERO: Hierarchical Encoder for Video+Language Omni-representation Pre-training",
+          "link": "https://arxiv.org/abs/2005.00200v2"
+        },
+        "c": "https://github.com/linjieli222/HERO",
+        "n": "Hero w/ pre-training",
+        "d": "2020-05-01",
+        "m1": "74.24"
+      },
+      {
+        "p": {
+          "name": "TVQA+: Spatio-Temporal Grounding for Video Question Answering",
+          "link": "https://arxiv.org/abs/1904.11574v2"
+        },
+        "c": "https://github.com/jayleicn/TVQAplus",
+        "n": "STAGE (Lei et al., 2019)",
+        "d": "2019-04-25",
+        "m1": "70.50"
+      }
+    ]
+  }
+}

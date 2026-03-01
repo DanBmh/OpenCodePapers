@@ -1,0 +1,99 @@
+{
+  "title": "image-denoising-on-sid-sonya7s2-x100",
+  "task-hierarchy": [
+    "3D Architecture",
+    "Denoising",
+    "Image Denoising"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR (Raw)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM (Raw)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Learnability Enhancement for Low-light Raw Denoising: Where Paired Real Data Meets Noise Modeling",
+          "link": "https://arxiv.org/abs/2207.06103v2"
+        },
+        "c": "https://github.com/megvii-research/pmn",
+        "n": "PMN",
+        "d": "2022-07-13",
+        "m1": "43.16",
+        "m2": "0.960"
+      },
+      {
+        "p": {
+          "name": "Rethinking Noise Synthesis and Modeling in Raw Denoising",
+          "link": "https://arxiv.org/abs/2110.04756v3"
+        },
+        "c": "https://github.com/zhangyi-3/noise-synthesis",
+        "n": "SFRN",
+        "d": "2021-10-10",
+        "m1": "42.29",
+        "m2": "0.951"
+      },
+      {
+        "p": {
+          "name": "Make Explicit Calibration Implicit: Calibrate Denoiser Instead of the Noise Model",
+          "link": "https://arxiv.org/abs/2308.03448v2"
+        },
+        "c": "https://github.com/srameo/led",
+        "n": "LED",
+        "d": "2023-08-07",
+        "m1": "41.98",
+        "m2": "0.954"
+      },
+      {
+        "p": {
+          "name": "Towards General Low-Light Raw Noise Synthesis and Modeling",
+          "link": "https://arxiv.org/abs/2307.16508v2"
+        },
+        "c": "https://github.com/fengzhang427/LRD",
+        "n": "LRD",
+        "d": "2023-07-31",
+        "m1": "41.95",
+        "m2": "0.956"
+      },
+      {
+        "p": {
+          "name": "Physics-based Noise Modeling for Extreme Low-light Photography",
+          "link": "https://arxiv.org/abs/2108.02158v1"
+        },
+        "c": "https://github.com/Vandermode/ELD",
+        "n": "ELD",
+        "d": "2021-08-04",
+        "m1": "41.95",
+        "m2": "0.953"
+      }
+    ]
+  }
+}

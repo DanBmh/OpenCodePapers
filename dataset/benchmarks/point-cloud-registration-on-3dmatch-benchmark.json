@@ -1,0 +1,188 @@
+{
+  "title": "point-cloud-registration-on-3dmatch-benchmark",
+  "task-hierarchy": [
+    "3D Point Cloud Interpolation",
+    "Point Cloud Registration"
+  ],
+  "dataset-info": {
+    "link": "http://3dmatch.cs.princeton.edu/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Feature Matching Recall",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "IMFNet: Interpretable Multimodal Fusion for Point Cloud Registration",
+          "link": "https://arxiv.org/abs/2111.09624v1"
+        },
+        "c": "https://github.com/XiaoshuiHuang/IMFNet",
+        "n": "IMFNet",
+        "d": "2021-11-18",
+        "m1": "98.6"
+      },
+      {
+        "p": {
+          "name": "3D Point Cloud Registration with Multi-Scale Architecture and Unsupervised Transfer Learning",
+          "link": "https://arxiv.org/abs/2103.14533v2"
+        },
+        "c": "https://github.com/humanpose1/MS-SVConv",
+        "n": "MS-SVConv",
+        "d": "2021-03-26",
+        "m1": "98.4"
+      },
+      {
+        "p": {
+          "name": "Learning general and distinctive 3D local deep descriptors for point cloud registration",
+          "link": "https://arxiv.org/abs/2105.10382v3"
+        },
+        "c": "https://github.com/fabiopoiesi/gedi",
+        "n": "GeDi (no code published as of May 27 2021)",
+        "d": "2021-05-21",
+        "m1": "97.9"
+      },
+      {
+        "p": {
+          "name": "SpinNet: Learning a General Surface Descriptor for 3D Point Cloud Registration",
+          "link": "https://arxiv.org/abs/2011.12149v2"
+        },
+        "c": "https://github.com/QingyongHu/SpinNet",
+        "n": "SpinNet (no code published as of Dec 15 2020)",
+        "d": "2020-11-24",
+        "m1": "97.6"
+      },
+      {
+        "p": {
+          "name": "End-to-End Learning Local Multi-view Descriptors for 3D Point Clouds",
+          "link": "https://arxiv.org/abs/2003.05855v2"
+        },
+        "c": "https://github.com/craigleili/3DLocalMultiViewDesc",
+        "n": "LMVD",
+        "d": "2020-03-12",
+        "m1": "97.5"
+      },
+      {
+        "p": {
+          "name": "Points to Patches: Enabling the Use of Self-Attention for 3D Shape Recognition",
+          "link": "https://arxiv.org/abs/2204.03957v1"
+        },
+        "c": "https://github.com/axeber01/point-tnt",
+        "n": "DIP + Point-TnT",
+        "d": "2022-04-08",
+        "m1": "96.8"
+      },
+      {
+        "p": {
+          "name": "D3Feat: Joint Learning of Dense Detection and Description of 3D Local Features",
+          "link": "https://arxiv.org/abs/2003.03164v1"
+        },
+        "c": "https://github.com/XuyangBai/D3Feat",
+        "n": "D3Feat-Pred",
+        "d": "2020-03-06",
+        "m1": "95.8"
+      },
+      {
+        "p": {
+          "name": "D3Feat: Joint Learning of Dense Detection and Description of 3D Local Features",
+          "link": "https://arxiv.org/abs/2003.03164v1"
+        },
+        "c": "https://github.com/XuyangBai/D3Feat",
+        "n": "D3Feat-rand",
+        "d": "2020-03-06",
+        "m1": "95.3"
+      },
+      {
+        "p": {
+          "name": "Distinctive 3D local deep descriptors",
+          "link": "https://arxiv.org/abs/2009.00258v2"
+        },
+        "c": "https://github.com/fabiopoiesi/gedi",
+        "n": "DIP",
+        "d": "2020-09-01",
+        "m1": "94.8"
+      },
+      {
+        "p": {
+          "name": "The Perfect Match: 3D Point Cloud Matching with Smoothed Densities",
+          "link": "https://arxiv.org/abs/1811.06879v3"
+        },
+        "c": "https://github.com/zgojcic/3DSmoothNet",
+        "n": "3DSmoothNet",
+        "d": "2018-11-16",
+        "m1": "94.7"
+      },
+      {
+        "p": {
+          "name": "Fully Convolutional Geometric Features",
+          "link": "https://github.com/chrischoy/FCGF"
+        },
+        "c": "https://github.com/chrischoy/FCGF",
+        "n": "FCGF + RANSAC",
+        "d": "2019-10-27",
+        "m1": "85"
+      },
+      {
+        "p": {
+          "name": "PPF-FoldNet: Unsupervised Learning of Rotation Invariant 3D Local Descriptors",
+          "link": "http://arxiv.org/abs/1808.10322v1"
+        },
+        "c": "https://github.com/XuyangBai/PPF-FoldNet",
+        "n": "PPF-FoldNet",
+        "d": "2018-08-30",
+        "m1": "71.8"
+      },
+      {
+        "p": {
+          "name": "3DMatch: Learning Local Geometric Descriptors from RGB-D Reconstructions",
+          "link": "http://arxiv.org/abs/1603.08182v3"
+        },
+        "c": "https://github.com/andyzeng/3dmatch-toolbox",
+        "n": "3DMatch + RANSAC",
+        "d": "2016-03-27",
+        "m1": "66.8"
+      },
+      {
+        "p": {
+          "name": "PPFNet: Global Context Aware Local Features for Robust 3D Point Matching",
+          "link": "http://arxiv.org/abs/1802.02669v2"
+        },
+        "c": "https://github.com/vinits5/learning3d",
+        "n": "PPFNet",
+        "d": "2018-02-07",
+        "m1": "62.3"
+      },
+      {
+        "p": {
+          "name": "Fast Point Feature Histograms (FPFH) for 3D Registration",
+          "link": "https://ieeexplore.ieee.org/document/5152473"
+        },
+        "c": "https://github.com/isl-org/Open3D/blob/main/cpp/open3d/pipelines/registration/Feature.h",
+        "n": "FPFH + RANSAC",
+        "d": "2009-05-12",
+        "m1": "44.2"
+      }
+    ]
+  }
+}

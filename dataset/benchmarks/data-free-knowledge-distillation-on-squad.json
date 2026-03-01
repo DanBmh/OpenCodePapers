@@ -1,0 +1,77 @@
+{
+  "title": "data-free-knowledge-distillation-on-squad",
+  "task-hierarchy": [
+    "Data-free Knowledge Distillation"
+  ],
+  "dataset-info": {
+    "link": "https://rajpurkar.github.io/SQuAD-explorer/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Exact Match",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "GOLD: Generalized Knowledge Distillation via Out-of-Distribution-Guided Language Data Generation",
+          "link": "https://arxiv.org/abs/2403.19754v1"
+        },
+        "c": "",
+        "n": "GOLD (T5-base)",
+        "d": "2024-03-28",
+        "m1": "75.2"
+      },
+      {
+        "p": {
+          "name": "Prompt2Model: Generating Deployable Models from Natural Language Instructions",
+          "link": "https://arxiv.org/abs/2308.12261v1"
+        },
+        "c": "https://github.com/neulab/prompt2model",
+        "n": "Prompt2Model (T5-base)",
+        "d": "2023-08-23",
+        "m1": "74.4"
+      },
+      {
+        "p": {
+          "name": "ZeroGen: Efficient Zero-shot Learning via Dataset Generation",
+          "link": "https://arxiv.org/abs/2202.07922v2"
+        },
+        "c": "https://github.com/sumilergao/sungen",
+        "n": "ZeroGen (T5-base)",
+        "d": "2022-02-16",
+        "m1": "69.4"
+      },
+      {
+        "p": {
+          "name": "ProGen: Progressive Zero-shot Dataset Generation via In-context Feedback",
+          "link": "https://arxiv.org/abs/2210.12329v1"
+        },
+        "c": "https://github.com/hkunlp/progen",
+        "n": "ProGen (T5-base)",
+        "d": "2022-10-22",
+        "m1": "68.1"
+      }
+    ]
+  }
+}

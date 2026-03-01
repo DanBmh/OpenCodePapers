@@ -1,0 +1,263 @@
+{
+  "title": "action-quality-assessment-on-mtl-aqa",
+  "task-hierarchy": [
+    "Action Quality Assessment"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/ParitoshParmar/MTL-AQA"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Spearman Correlation",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "RL2(*100)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "RICA2: Rubric-Informed, Calibrated Assessment of Actions",
+          "link": "https://arxiv.org/abs/2408.02138v2"
+        },
+        "c": "https://github.com/abrarmajeedi/rica2_aqa",
+        "n": "RICA^2 (Deterministic)",
+        "d": "2024-08-04",
+        "m1": "96.20",
+        "m2": "0.228"
+      },
+      {
+        "p": {
+          "name": "Hierarchical NeuroSymbolic Approach for Comprehensive and Explainable Action Quality Assessment",
+          "link": "https://arxiv.org/abs/2403.13798v2"
+        },
+        "c": "https://github.com/ParitoshParmar/Fitness-AQA",
+        "n": "NeuroSymbolic-AQA",
+        "d": "2024-03-20",
+        "m1": "96.10"
+      },
+      {
+        "p": {
+          "name": "RICA2: Rubric-Informed, Calibrated Assessment of Actions",
+          "link": "https://arxiv.org/abs/2408.02138v2"
+        },
+        "c": "https://github.com/abrarmajeedi/rica2_aqa",
+        "n": "RICA^2",
+        "d": "2024-08-04",
+        "m1": "95.94",
+        "m2": "0.258"
+      },
+      {
+        "p": {
+          "name": "Auto-Encoding Score Distribution Regression for Action Quality Assessment",
+          "link": "https://arxiv.org/abs/2111.11029v2"
+        },
+        "c": "https://github.com/luciferbobo/dae-aqa",
+        "n": "DAE-CoRe",
+        "d": "2021-11-22",
+        "m1": "95.89"
+      },
+      {
+        "p": {
+          "name": "FineParser: A Fine-grained Spatio-temporal Action Parser for Human-centric Action Quality Assessment",
+          "link": "https://arxiv.org/abs/2405.06887v1"
+        },
+        "c": "https://github.com/pku-icst-mipl/fineparser_cvpr2024",
+        "n": "FineParser",
+        "d": "2024-05-11",
+        "m1": "95.85",
+        "m2": "0.241"
+      },
+      {
+        "p": {
+          "name": "Group-aware Contrastive Regression for Action Quality Assessment",
+          "link": "https://arxiv.org/abs/2108.07797v1"
+        },
+        "c": "https://github.com/yuxumin/CoRe",
+        "n": "CoRe(w/ DD)",
+        "d": "2021-08-17",
+        "m1": "95.12",
+        "m2": "0.260"
+      },
+      {
+        "p": {
+          "name": "Auto-Encoding Score Distribution Regression for Action Quality Assessment",
+          "link": "https://arxiv.org/abs/2111.11029v2"
+        },
+        "c": "https://github.com/luciferbobo/dae-aqa",
+        "n": "DAE-MT",
+        "d": "2021-11-22",
+        "m1": "94.52"
+      },
+      {
+        "p": {
+          "name": "Group-aware Contrastive Regression for Action Quality Assessment",
+          "link": "https://arxiv.org/abs/2108.07797v1"
+        },
+        "c": "https://github.com/yuxumin/CoRe",
+        "n": "I3D+MLP(w/ DD)",
+        "d": "2021-08-17",
+        "m1": "93.81",
+        "m2": " 0.394"
+      },
+      {
+        "p": {
+          "name": "Group-aware Contrastive Regression for Action Quality Assessment",
+          "link": "https://arxiv.org/abs/2108.07797v1"
+        },
+        "c": "https://github.com/yuxumin/CoRe",
+        "n": "CoRe",
+        "d": "2021-08-17",
+        "m1": "93.41",
+        "m2": "0.365"
+      },
+      {
+        "p": {
+          "name": "Improving Action Quality Assessment using Weighted Aggregation",
+          "link": "https://arxiv.org/abs/2102.10555v2"
+        },
+        "c": "https://github.com/Farabi-shafkat/Improving-Action-Quality-Assessment-using-ResNets-and-Weighted-Aggregation",
+        "n": "ResNet34-(2+1)D-WD",
+        "d": "2021-02-21",
+        "m1": "93.15"
+      },
+      {
+        "p": {
+          "name": "Uncertainty-aware Score Distribution Learning for Action Quality Assessment",
+          "link": "https://arxiv.org/abs/2006.07665v1"
+        },
+        "c": "https://github.com/nzl-thu/musdl",
+        "n": "MUSDL(w/ DD)",
+        "d": "2020-06-13",
+        "m1": "92.73",
+        "m2": "0.451"
+      },
+      {
+        "p": {
+          "name": "Uncertainty-aware Score Distribution Learning for Action Quality Assessment",
+          "link": "https://arxiv.org/abs/2006.07665v1"
+        },
+        "c": "https://github.com/nzl-thu/musdl",
+        "n": "USDL(w/ DD)",
+        "d": "2020-06-13",
+        "m1": "92.31",
+        "m2": "0.468"
+      },
+      {
+        "p": {
+          "name": "Auto-Encoding Score Distribution Regression for Action Quality Assessment",
+          "link": "https://arxiv.org/abs/2111.11029v2"
+        },
+        "c": "https://github.com/luciferbobo/dae-aqa",
+        "n": "DAE-MLP",
+        "d": "2021-11-22",
+        "m1": "92.31"
+      },
+      {
+        "p": {
+          "name": "Group-aware Contrastive Regression for Action Quality Assessment",
+          "link": "https://arxiv.org/abs/2108.07797v1"
+        },
+        "c": "https://github.com/yuxumin/CoRe",
+        "n": "I3D+MLP",
+        "d": "2021-08-17",
+        "m1": "91.96",
+        "m2": "0.465"
+      },
+      {
+        "p": {
+          "name": "Uncertainty-aware Score Distribution Learning for Action Quality Assessment",
+          "link": "https://arxiv.org/abs/2006.07665v1"
+        },
+        "c": "https://github.com/nzl-thu/musdl",
+        "n": "MUSDL",
+        "d": "2020-06-13",
+        "m1": "91.58",
+        "m2": "0.654"
+      },
+      {
+        "p": {
+          "name": "Uncertainty-aware Score Distribution Learning for Action Quality Assessment",
+          "link": "https://arxiv.org/abs/2006.07665v1"
+        },
+        "c": "https://github.com/nzl-thu/musdl",
+        "n": "USDL",
+        "d": "2020-06-13",
+        "m1": "90.66",
+        "m2": " 0.609"
+      },
+      {
+        "p": {
+          "name": "What and How Well You Performed? A Multitask Learning Approach to Action Quality Assessment",
+          "link": "https://arxiv.org/abs/1904.04346v2"
+        },
+        "c": "https://github.com/ParitoshParmar/MTL-AQA",
+        "n": "C3D-AVG-MTL",
+        "d": "2019-04-08",
+        "m1": "90.44"
+      },
+      {
+        "p": {
+          "name": "What and How Well You Performed? A Multitask Learning Approach to Action Quality Assessment",
+          "link": "https://arxiv.org/abs/1904.04346v2"
+        },
+        "c": "https://github.com/ParitoshParmar/MTL-AQA",
+        "n": "C3D-AVG-STL",
+        "d": "2019-04-08",
+        "m1": "89.60"
+      },
+      {
+        "p": {
+          "name": "Uncertainty-aware Score Distribution Learning for Action Quality Assessment",
+          "link": "https://arxiv.org/abs/2006.07665v1"
+        },
+        "c": "https://github.com/nzl-thu/musdl",
+        "n": "I3D+MLP",
+        "d": "2020-06-13",
+        "m1": "89.21"
+      },
+      {
+        "p": {
+          "name": "What and How Well You Performed? A Multitask Learning Approach to Action Quality Assessment",
+          "link": "https://arxiv.org/abs/1904.04346v2"
+        },
+        "c": "https://github.com/ParitoshParmar/MTL-AQA",
+        "n": "MSCADC-MTL",
+        "d": "2019-04-08",
+        "m1": "86.12"
+      },
+      {
+        "p": {
+          "name": "What and How Well You Performed? A Multitask Learning Approach to Action Quality Assessment",
+          "link": "https://arxiv.org/abs/1904.04346v2"
+        },
+        "c": "https://github.com/ParitoshParmar/MTL-AQA",
+        "n": "MSCADC-STL",
+        "d": "2019-04-08",
+        "m1": "84.72"
+      }
+    ]
+  }
+}

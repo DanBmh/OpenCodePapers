@@ -1,0 +1,119 @@
+{
+  "title": "keyphrase-extraction-on-kp20k",
+  "task-hierarchy": [
+    "Keyphrase Extraction"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/memray/seq2seq-keyphrase"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Recall",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "F1@10",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "UCPhrase: Unsupervised Context-aware Quality Phrase Tagging",
+          "link": "https://arxiv.org/abs/2105.14078v1"
+        },
+        "c": "https://github.com/xgeric/UCPhrase-reproduce",
+        "n": "Wiki+RoBERTa",
+        "d": "2021-05-28",
+        "m1": "73.0",
+        "m2": "19.2"
+      },
+      {
+        "p": {
+          "name": "UCPhrase: Unsupervised Context-aware Quality Phrase Tagging",
+          "link": "https://arxiv.org/abs/2105.14078v1"
+        },
+        "c": "https://github.com/xgeric/UCPhrase-reproduce",
+        "n": "UCPhrase",
+        "d": "2021-05-28",
+        "m1": "72.9",
+        "m2": "19.7"
+      },
+      {
+        "p": {
+          "name": "UCPhrase: Unsupervised Context-aware Quality Phrase Tagging",
+          "link": "https://arxiv.org/abs/2105.14078v1"
+        },
+        "c": "https://github.com/xgeric/UCPhrase-reproduce",
+        "n": "AutoPhrase",
+        "d": "2021-05-28",
+        "m1": "62.9",
+        "m2": "18.2 "
+      },
+      {
+        "p": {
+          "name": "UCPhrase: Unsupervised Context-aware Quality Phrase Tagging",
+          "link": "https://arxiv.org/abs/2105.14078v1"
+        },
+        "c": "https://github.com/xgeric/UCPhrase-reproduce",
+        "n": "Spacy",
+        "d": "2021-05-28",
+        "m1": "59.5",
+        "m2": "15.3"
+      },
+      {
+        "p": {
+          "name": "UCPhrase: Unsupervised Context-aware Quality Phrase Tagging",
+          "link": "https://arxiv.org/abs/2105.14078v1"
+        },
+        "c": "https://github.com/xgeric/UCPhrase-reproduce",
+        "n": "PKE",
+        "d": "2021-05-28",
+        "m1": "57.1",
+        "m2": "12.6"
+      },
+      {
+        "p": {
+          "name": "UCPhrase: Unsupervised Context-aware Quality Phrase Tagging",
+          "link": "https://arxiv.org/abs/2105.14078v1"
+        },
+        "c": "https://github.com/xgeric/UCPhrase-reproduce",
+        "n": "TopMine",
+        "d": "2021-05-28",
+        "m1": "53.3",
+        "m2": "15.0"
+      },
+      {
+        "p": {
+          "name": "UCPhrase: Unsupervised Context-aware Quality Phrase Tagging",
+          "link": "https://arxiv.org/abs/2105.14078v1"
+        },
+        "c": "https://github.com/xgeric/UCPhrase-reproduce",
+        "n": "StanfordNLP",
+        "d": "2021-05-28",
+        "m1": "51.7",
+        "m2": "13.9"
+      }
+    ]
+  }
+}

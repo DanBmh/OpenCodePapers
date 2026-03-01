@@ -1,0 +1,68 @@
+{
+  "title": "learning-with-noisy-labels-on-food-101",
+  "task-hierarchy": [
+    "Document Text Classification",
+    "Learning with noisy labels"
+  ],
+  "dataset-info": {
+    "link": "https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy (% )",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "LongReMix: Robust Learning with High Confidence Samples in a Noisy Label Environment",
+          "link": "https://arxiv.org/abs/2103.04173v2"
+        },
+        "c": "https://github.com/filipe-research/LongReMix",
+        "n": "LongReMix",
+        "d": "2021-03-06",
+        "m1": "86.42"
+      },
+      {
+        "p": {
+          "name": "PSSCL: A progressive sample selection framework with contrastive loss designed for noisy labels",
+          "link": "https://www.sciencedirect.com/science/article/abs/pii/S0031320324010355"
+        },
+        "c": "https://github.com/LanXiaoPang613/PSSCL",
+        "n": "PSSCL",
+        "d": "2024-12-18",
+        "m1": "86.41"
+      },
+      {
+        "p": {
+          "name": "Fine-Grained Classification with Noisy Labels",
+          "link": "https://arxiv.org/abs/2303.02404v1"
+        },
+        "c": "",
+        "n": "SNSCL",
+        "d": "2023-03-04",
+        "m1": "86.40"
+      }
+    ]
+  }
+}

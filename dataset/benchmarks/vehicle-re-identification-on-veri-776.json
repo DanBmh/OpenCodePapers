@@ -1,0 +1,258 @@
+{
+  "title": "vehicle-re-identification-on-veri-776",
+  "task-hierarchy": [
+    "Vehicle Re-Identification"
+  ],
+  "dataset-info": {
+    "link": "https://vehiclereid.github.io/VeRi/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Rank-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Rank1",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Rank5",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Rank-10",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "Rank-5",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Strength in Diversity: Multi-Branch Representation Learning for Vehicle Re-Identification",
+          "link": "https://arxiv.org/abs/2310.01129v1"
+        },
+        "c": "https://github.com/videturfortuna/vehicle_reid_itsc2023",
+        "n": "MBR4B-LAI  (w/ RK)",
+        "d": "2023-10-02",
+        "m1": "92.1",
+        "m2": "98.0",
+        "m4": "98.6"
+      },
+      {
+        "p": {
+          "name": "Relation Preserving Triplet Mining for Stabilising the Triplet Loss in Re-identification Systems",
+          "link": "https://arxiv.org/abs/2110.07933v2"
+        },
+        "c": "https://github.com/adhirajghosh/rptm_reid",
+        "n": "RPTM",
+        "d": "2021-10-15",
+        "m1": "88.0",
+        "m2": "97.3",
+        "m3": "97.3",
+        "m4": "98.4"
+      },
+      {
+        "p": {
+          "name": "A Strong Baseline for Vehicle Re-Identification",
+          "link": "https://arxiv.org/abs/2104.10850v1"
+        },
+        "c": "https://github.com/cybercore-co-ltd/track2_aicity_2021",
+        "n": "A Strong Baseline",
+        "d": "2021-04-22",
+        "m1": "87.1"
+      },
+      {
+        "p": {
+          "name": "Strength in Diversity: Multi-Branch Representation Learning for Vehicle Re-Identification",
+          "link": "https://arxiv.org/abs/2310.01129v1"
+        },
+        "c": "https://github.com/videturfortuna/vehicle_reid_itsc2023",
+        "n": "MBR4B-LAI (without re-ranking)",
+        "d": "2023-10-02",
+        "m1": "86.0",
+        "m2": "97.8",
+        "m4": "99.0"
+      },
+      {
+        "p": {
+          "name": "Strength in Diversity: Multi-Branch Representation Learning for Vehicle Re-Identification",
+          "link": "https://arxiv.org/abs/2310.01129v1"
+        },
+        "c": "https://github.com/videturfortuna/vehicle_reid_itsc2023",
+        "n": "MBR4B  (without re-ranking)",
+        "d": "2023-10-02",
+        "m1": "84.72",
+        "m2": "97.68",
+        "m4": "98.45"
+      },
+      {
+        "p": {
+          "name": "CLIP-ReID: Exploiting Vision-Language Model for Image Re-Identification without Concrete Text Labels",
+          "link": "https://arxiv.org/abs/2211.13977v4"
+        },
+        "c": "https://github.com/mikel-brostrom/boxmot",
+        "n": "CLIP-ReID (without re-ranking)",
+        "d": "2022-11-25",
+        "m1": "84.5",
+        "m2": "97.3"
+      },
+      {
+        "p": {
+          "name": "VehicleNet: Learning Robust Visual Representation for Vehicle Re-identification",
+          "link": "https://arxiv.org/abs/2004.06305v2"
+        },
+        "c": "https://github.com/layumi/Person_reID_baseline_pytorch",
+        "n": "VehicleNet",
+        "d": "2020-04-14",
+        "m1": "83.41",
+        "m3": "96.78"
+      },
+      {
+        "p": {
+          "name": "Rethinking Person Re-identification from a Projection-on-Prototypes Perspective",
+          "link": "https://arxiv.org/abs/2308.10717v1"
+        },
+        "c": "",
+        "n": "ProNet++ (ResNet50)",
+        "d": "2023-08-21",
+        "m1": "83.4",
+        "m2": "97.7"
+      },
+      {
+        "p": {
+          "name": "TransReID: Transformer-based Object Re-Identification",
+          "link": "https://arxiv.org/abs/2102.04378v2"
+        },
+        "c": "https://github.com/heshuting555/TransReID",
+        "n": "TransReID",
+        "d": "2021-02-08",
+        "m1": "82.3",
+        "m2": "97.1"
+      },
+      {
+        "p": {
+          "name": "CA-Jaccard: Camera-aware Jaccard Distance for Person Re-identification",
+          "link": "https://arxiv.org/abs/2311.10605v2"
+        },
+        "c": "https://github.com/chen960/ca-jaccard",
+        "n": "CA-Jaccard",
+        "d": "2023-11-17",
+        "m1": "81.4",
+        "m2": "97.6",
+        "m6": "98.3"
+      },
+      {
+        "p": {
+          "name": "AttributeNet: Attribute Enhanced Vehicle Re-Identification",
+          "link": "https://arxiv.org/abs/2102.03898v2"
+        },
+        "c": "",
+        "n": "ANet",
+        "d": "2021-02-07",
+        "m1": "81.2",
+        "m2": "96.8",
+        "m3": "96.8",
+        "m4": "98.4"
+      },
+      {
+        "p": {
+          "name": "GiT: Graph Interactive Transformer for Vehicle Re-identification",
+          "link": "https://arxiv.org/abs/2107.05475v3"
+        },
+        "c": "",
+        "n": "GiT",
+        "d": "2021-07-12",
+        "m1": "80.34",
+        "m3": "96.86"
+      },
+      {
+        "p": {
+          "name": "Exploring Spatial Significance via Hybrid Pyramidal Graph Network for Vehicle Re-identification",
+          "link": "https://arxiv.org/abs/2005.14684v2"
+        },
+        "c": "https://github.com/muzishen/HPGN",
+        "n": "HPGN",
+        "d": "2020-05-29",
+        "m1": "80.18",
+        "m3": "96.72"
+      },
+      {
+        "p": {
+          "name": "MSINet: Twins Contrastive Search of Multi-Scale Interaction for Object ReID",
+          "link": "https://arxiv.org/abs/2303.07065v1"
+        },
+        "c": "https://github.com/vimar-gu/msinet",
+        "n": "MSINet (2.3M w/o RK)",
+        "d": "2023-03-13",
+        "m1": "78.8",
+        "m2": "96.8"
+      },
+      {
+        "p": {
+          "name": "Counterfactual Attention Learning for Fine-Grained Visual Categorization and Re-identification",
+          "link": "https://arxiv.org/abs/2108.08728v2"
+        },
+        "c": "https://github.com/raoyongming/CAL",
+        "n": "CAL",
+        "d": "2021-08-19",
+        "m1": "74.3",
+        "m2": "95.4",
+        "m4": "97.9"
+      },
+      {
+        "p": {
+          "name": "Vehicle Re-identification Using Quadruple Directional Deep Learning Features",
+          "link": "http://arxiv.org/abs/1811.05163v1"
+        },
+        "c": "",
+        "n": "QD-DLF",
+        "d": "2018-11-13",
+        "m1": "61.83"
+      },
+      {
+        "p": {
+          "name": "Cluster Contrast for Unsupervised Person Re-Identification",
+          "link": "https://arxiv.org/abs/2103.11568v4"
+        },
+        "c": "https://github.com/alibaba/cluster-contrast",
+        "n": "Cluster Contrast",
+        "d": "2021-03-22",
+        "m1": "40.8",
+        "m3": "86.2",
+        "m4": "90.5",
+        "m5": "92.8"
+      }
+    ]
+  }
+}

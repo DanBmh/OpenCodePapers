@@ -1,0 +1,73 @@
+{
+  "title": "relation-extraction-on-gad",
+  "task-hierarchy": [
+    "Relation Extraction"
+  ],
+  "dataset-info": {
+    "link": "https://maayanlab.cloud/Harmonizome/dataset/GAD+Gene-Disease+Associations"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Micro F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "LinkBERT: Pretraining Language Models with Document Links",
+          "link": "https://arxiv.org/abs/2203.15827v1"
+        },
+        "c": "https://github.com/michiyasunaga/LinkBERT",
+        "n": "BioLinkBERT (large)",
+        "d": "2022-03-29",
+        "m1": "84.90",
+        "m2": "84.90"
+      },
+      {
+        "p": {
+          "name": "Improving Biomedical Pretrained Language Models with Knowledge",
+          "link": "https://arxiv.org/abs/2104.10344v1"
+        },
+        "c": "https://github.com/GanjinZero/KeBioLM",
+        "n": "KeBioLM",
+        "d": "2021-04-21",
+        "m1": "84.3"
+      },
+      {
+        "p": {
+          "name": "Domain-Specific Language Model Pretraining for Biomedical Natural Language Processing",
+          "link": "https://arxiv.org/abs/2007.15779v6"
+        },
+        "c": "https://github.com/bionlu-coling2024/biomed-ner-intent_detection",
+        "n": "PubMedBERT uncased",
+        "d": "2020-07-31",
+        "m2": "82.34"
+      }
+    ]
+  }
+}

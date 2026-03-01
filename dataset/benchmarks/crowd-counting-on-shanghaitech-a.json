@@ -1,0 +1,415 @@
+{
+  "title": "crowd-counting-on-shanghaitech-a",
+  "task-hierarchy": [
+    "Crowds",
+    "Crowd Counting"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/desenzhou/ShanghaiTechDataset"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MAE",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "MSE",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "RMSE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "EBC-ZIP: Improving Blockwise Crowd Counting with Zero-Inflated Poisson Regression",
+          "link": "https://arxiv.org/abs/2506.19955v1"
+        },
+        "c": "https://github.com/yiming-m/ebc-zip",
+        "n": "EBC-ZIP-B",
+        "d": "2025-06-24",
+        "m1": "47.81",
+        "m3": "75.04"
+      },
+      {
+        "p": {
+          "name": "Improving Point-based Crowd Counting and Localization Based on Auxiliary Point Guidance",
+          "link": "https://arxiv.org/abs/2405.10589v1"
+        },
+        "c": "https://github.com/AaronCIH/APGCC",
+        "n": "APGCC",
+        "d": "2024-05-17",
+        "m1": "48.8",
+        "m2": "76.7"
+      },
+      {
+        "p": {
+          "name": "Crowd Counting and Individual Localization Using Pseudo Square Label",
+          "link": "https://ieeexplore.ieee.org/document/10530038"
+        },
+        "c": "",
+        "n": "PSL-Net",
+        "d": "2024-05-13",
+        "m1": "49.9",
+        "m3": "77.6"
+      },
+      {
+        "p": {
+          "name": "FGENet: Fine-Grained Extraction Network for Congested Crowd Counting",
+          "link": "https://arxiv.org/abs/2401.01208v1"
+        },
+        "c": "",
+        "n": "FGENet",
+        "d": "2024-01-02",
+        "m1": "51.66",
+        "m2": "85.00"
+      },
+      {
+        "p": {
+          "name": "VMambaCC: A Visual State Space Model for Crowd Counting",
+          "link": "https://arxiv.org/abs/2405.03978v1"
+        },
+        "c": "",
+        "n": "VMambaCC",
+        "d": "2024-05-07",
+        "m1": "51.87",
+        "m2": "81.3"
+      },
+      {
+        "p": {
+          "name": "CLIP-EBC: CLIP Can Count Accurately through Enhanced Blockwise Classification",
+          "link": "https://arxiv.org/abs/2403.09281v3"
+        },
+        "c": "https://github.com/Yiming-M/CLIP-EBC",
+        "n": "CLIP-EBC (ViT-B/16)",
+        "d": "2024-03-14",
+        "m1": "52.5",
+        "m3": "85.9"
+      },
+      {
+        "p": {
+          "name": "Rethinking Counting and Localization in Crowds:A Purely Point-Based Framework",
+          "link": "https://arxiv.org/abs/2107.12746v3"
+        },
+        "c": "https://github.com/tencentyouturesearch/crowdcounting-p2pnet",
+        "n": "P2PNet",
+        "d": "2021-07-27",
+        "m1": "52.74",
+        "m2": "85.06"
+      },
+      {
+        "p": {
+          "name": "CLIP-EBC: CLIP Can Count Accurately through Enhanced Blockwise Classification",
+          "link": "https://arxiv.org/abs/2403.09281v3"
+        },
+        "c": "https://github.com/Yiming-M/CLIP-EBC",
+        "n": "CLIP-EBC (ResNet50)",
+        "d": "2024-03-14",
+        "m1": "54.0",
+        "m3": "83.2"
+      },
+      {
+        "p": {
+          "name": "Rethinking Spatial Invariance of Convolutional Networks for Object Counting",
+          "link": "https://arxiv.org/abs/2206.05253v2"
+        },
+        "c": "https://github.com/zhiqic/rethinking-counting",
+        "n": "GauNet (ResNet-50)",
+        "d": "2022-06-10",
+        "m1": "54.8",
+        "m2": "89.1"
+      },
+      {
+        "p": {
+          "name": "Improving Local Features with Relevant Spatial Information by Vision Transformer for Crowd Counting",
+          "link": "https://bmvc2022.mpi-inf.mpg.de/729/"
+        },
+        "c": "https://github.com/nguyen1312/LoViTCrowd",
+        "n": "LoViTCrowd",
+        "d": "2022-09-30",
+        "m1": "54.8",
+        "m3": "80.9"
+      },
+      {
+        "p": {
+          "name": "Encoder-Decoder Based Convolutional Neural Networks with Multi-Scale-Aware Modules for Crowd Counting",
+          "link": "https://arxiv.org/abs/2003.05586v5"
+        },
+        "c": "https://github.com/Pongpisit-Thanasutives/Variations-of-SFANet-for-Crowd-Counting",
+        "n": "M-SFANet+M-SegNet",
+        "d": "2020-03-12",
+        "m1": "57.55",
+        "m2": "94.48"
+      },
+      {
+        "p": {
+          "name": "Crowd Counting via Segmentation Guided Attention Networks and Curriculum Loss",
+          "link": "https://arxiv.org/abs/1911.07990v2"
+        },
+        "c": "https://github.com/hellowangqian/sganet-crowd-counting",
+        "n": "SGANet + CL",
+        "d": "2019-11-18",
+        "m1": "57.6"
+      },
+      {
+        "p": {
+          "name": "Crowd Counting via Segmentation Guided Attention Networks and Curriculum Loss",
+          "link": "https://arxiv.org/abs/1911.07990v2"
+        },
+        "c": "https://github.com/hellowangqian/sganet-crowd-counting",
+        "n": "SGANet",
+        "d": "2019-11-18",
+        "m1": "58"
+      },
+      {
+        "p": {
+          "name": "From Open Set to Closed Set: Counting Objects by Spatial Divide-and-Conquer",
+          "link": "https://arxiv.org/abs/1908.06473v1"
+        },
+        "c": "https://github.com/xhp-hust-2018-2011/S-DCNet",
+        "n": "S-DCNet",
+        "d": "2019-08-15",
+        "m1": "58.3"
+      },
+      {
+        "p": {
+          "name": "Learning Spatial Awareness to Improve Crowd Counting",
+          "link": "https://arxiv.org/abs/1909.07057v1"
+        },
+        "c": "",
+        "n": "SPANet",
+        "d": "2019-09-16",
+        "m1": "59.4",
+        "m2": "92.5"
+      },
+      {
+        "p": {
+          "name": "Distribution Matching for Crowd Counting",
+          "link": "https://arxiv.org/abs/2009.13077v2"
+        },
+        "c": "https://github.com/cvlab-stonybrook/DM-Count",
+        "n": "DM-Count",
+        "d": "2020-09-28",
+        "m1": "59.7"
+      },
+      {
+        "p": {
+          "name": "FusionCount: Efficient Crowd Counting via Multiscale Feature Fusion",
+          "link": "https://arxiv.org/abs/2202.13660v1"
+        },
+        "c": "https://github.com/YimingMa/FusionCount",
+        "n": "FusionCount",
+        "d": "2022-02-28",
+        "m1": "62.2",
+        "m2": "101.2"
+      },
+      {
+        "p": {
+          "name": "CLIP-EBC: CLIP Can Count Accurately through Enhanced Blockwise Classification",
+          "link": "https://arxiv.org/abs/2403.09281v3"
+        },
+        "c": "https://github.com/Yiming-M/CLIP-EBC",
+        "n": "DMCount-EBC",
+        "d": "2024-03-14",
+        "m1": "62.3",
+        "m3": "98.9"
+      },
+      {
+        "p": {
+          "name": "Context-Aware Crowd Counting",
+          "link": "http://arxiv.org/abs/1811.10452v2"
+        },
+        "c": "https://github.com/weizheliu/Context-Aware-Crowd-Counting",
+        "n": "CAN",
+        "d": "2018-11-26",
+        "m1": "62.3"
+      },
+      {
+        "p": {
+          "name": "Improving Deep Regression with Ordinal Entropy",
+          "link": "https://arxiv.org/abs/2301.08915v3"
+        },
+        "c": "https://github.com/needylove/ordinalentropy",
+        "n": "OrdinalEntropy",
+        "d": "2023-01-21",
+        "m1": "65.6",
+        "m2": "105.0"
+      },
+      {
+        "p": {
+          "name": "CLIP-EBC: CLIP Can Count Accurately through Enhanced Blockwise Classification",
+          "link": "https://arxiv.org/abs/2403.09281v3"
+        },
+        "c": "https://github.com/Yiming-M/CLIP-EBC",
+        "n": "CSRNet-EBC",
+        "d": "2024-03-14",
+        "m1": "66.3",
+        "m3": "105.0"
+      },
+      {
+        "p": {
+          "name": "Locate, Size and Count: Accurately Resolving People in Dense Crowds via Detection",
+          "link": "https://arxiv.org/abs/1906.07538v3"
+        },
+        "c": "https://github.com/val-iisc/lsc-cnn",
+        "n": "LSC-CNN",
+        "d": "2019-06-18",
+        "m1": "66.4"
+      },
+      {
+        "p": {
+          "name": "Scale Aggregation Network for Accurate and Efficient Crowd Counting",
+          "link": "http://openaccess.thecvf.com/content_ECCV_2018/html/Xinkun_Cao_Scale_Aggregation_Network_ECCV_2018_paper.html"
+        },
+        "c": "https://github.com/ZhengPeng7/SANet-Keras",
+        "n": "SANet",
+        "d": "2018-09-01",
+        "m1": "67.0"
+      },
+      {
+        "p": {
+          "name": "CSRNet: Dilated Convolutional Neural Networks for Understanding the Highly Congested Scenes",
+          "link": "http://arxiv.org/abs/1802.10062v4"
+        },
+        "c": "https://github.com/leeyeehoo/CSRNet-pytorch",
+        "n": "CSRNet",
+        "d": "2018-02-27",
+        "m1": "68.2"
+      },
+      {
+        "p": {
+          "name": "Iterative Crowd Counting",
+          "link": "http://arxiv.org/abs/1807.09959v1"
+        },
+        "c": "",
+        "n": "ic-CNN",
+        "d": "2018-07-26",
+        "m1": "68.5"
+      },
+      {
+        "p": {
+          "name": "Divide and Grow: Capturing Huge Diversity in Crowd Images with Incrementally Growing CNN",
+          "link": "http://arxiv.org/abs/1807.09993v1"
+        },
+        "c": "",
+        "n": "IG-CNN",
+        "d": "2018-07-26",
+        "m1": "72.5"
+      },
+      {
+        "p": {
+          "name": "Crowd Counting With Deep Negative Correlation Learning",
+          "link": "http://openaccess.thecvf.com/content_cvpr_2018/html/Shi_Crowd_Counting_With_CVPR_2018_paper.html"
+        },
+        "c": "https://github.com/shizenglin/Deep-NCL",
+        "n": "D-ConvNet",
+        "d": "2018-06-01",
+        "m1": "73.5"
+      },
+      {
+        "p": {
+          "name": "Generating High-Quality Crowd Density Maps using Contextual Pyramid CNNs",
+          "link": "http://arxiv.org/abs/1708.00953v1"
+        },
+        "c": "",
+        "n": "CP-CNN",
+        "d": "2017-08-02",
+        "m1": "73.6"
+      },
+      {
+        "p": {
+          "name": "Leveraging Unlabeled Data for Crowd Counting by Learning to Rank",
+          "link": "http://arxiv.org/abs/1803.03095v1"
+        },
+        "c": "https://github.com/xialeiliu/CrowdCountingCVPR18",
+        "n": "Liu et al.",
+        "d": "2018-03-08",
+        "m1": "73.6"
+      },
+      {
+        "p": {
+          "name": "Few-shot Object Counting with Similarity-Aware Feature Enhancement",
+          "link": "https://arxiv.org/abs/2201.08959v5"
+        },
+        "c": "https://github.com/zhiyuanyou/SAFECount",
+        "n": "SAFECount",
+        "d": "2022-01-22",
+        "m1": "73.70"
+      },
+      {
+        "p": {
+          "name": "Crowd Counting via Adversarial Cross-Scale Consistency Pursuit",
+          "link": "http://openaccess.thecvf.com/content_cvpr_2018/html/Shen_Crowd_Counting_via_CVPR_2018_paper.html"
+        },
+        "c": "https://github.com/RQuispeC/pytorch-ACSCP",
+        "n": "ACSCP",
+        "d": "2018-06-01",
+        "m1": "75.7"
+      },
+      {
+        "p": {
+          "name": "Switching Convolutional Neural Network for Crowd Counting",
+          "link": "http://arxiv.org/abs/1708.00199v2"
+        },
+        "c": "https://github.com/val-iisc/crowd-counting-scnn",
+        "n": "Switch-CNN",
+        "d": "2017-08-01",
+        "m1": "90.4"
+      },
+      {
+        "p": {
+          "name": "CNN-based Cascaded Multi-task Learning of High-level Prior and Density Estimation for Crowd Counting",
+          "link": "http://arxiv.org/abs/1707.09605v2"
+        },
+        "c": "https://github.com/svishwa/crowdcount-cascaded-mtl",
+        "n": "Cascaded-MTL",
+        "d": "2017-07-30",
+        "m1": "101.3",
+        "m2": "152.4"
+      },
+      {
+        "p": {
+          "name": "Single-Image Crowd Counting via Multi-Column Convolutional Neural Network",
+          "link": "https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Zhang_Single-Image_Crowd_Counting_CVPR_2016_paper.pdf"
+        },
+        "c": "https://github.com/svishwa/crowdcount-mcnn",
+        "n": "MCNN",
+        "d": "2016-01-01",
+        "m1": "110.2"
+      },
+      {
+        "p": {
+          "name": "Cross-Scene Crowd Counting via Deep Convolutional Neural Networks",
+          "link": "http://openaccess.thecvf.com/content_cvpr_2015/html/Zhang_Cross-Scene_Crowd_Counting_2015_CVPR_paper.html"
+        },
+        "c": "",
+        "n": "Zhang et al.",
+        "d": "2015-06-01",
+        "m1": "181.8"
+      }
+    ]
+  }
+}

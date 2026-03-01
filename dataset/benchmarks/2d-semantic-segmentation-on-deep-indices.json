@@ -1,0 +1,267 @@
+{
+  "title": "2d-semantic-segmentation-on-deep-indices",
+  "task-hierarchy": [
+    "2D Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://data.inrae.fr/dataset.xhtml?persistentId=doi:10.15454/DSQC8N"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DeepIndices: Remote Sensing Indices Based on Approximation of Functions through Deep-Learning, Application to Uncalibrated Vegetation Images",
+          "link": "https://www.mdpi.com/2072-4292/13/12/2261"
+        },
+        "c": "https://gitlab.com/phd-thesis-adventice/phd-index-optimizer-tensorflow",
+        "n": "7x7 dense-morphological + ibf + sprb",
+        "d": "2021-06-11",
+        "m1": "82.19"
+      },
+      {
+        "p": {
+          "name": "DeepIndices: Remote Sensing Indices Based on Approximation of Functions through Deep-Learning, Application to Uncalibrated Vegetation Images",
+          "link": "https://www.mdpi.com/2072-4292/13/12/2261"
+        },
+        "c": "https://gitlab.com/phd-thesis-adventice/phd-index-optimizer-tensorflow",
+        "n": "5x5 dense-morphological + ibf + sprb",
+        "d": "2021-06-11",
+        "m1": "81.92"
+      },
+      {
+        "p": {
+          "name": "DeepIndices: Remote Sensing Indices Based on Approximation of Functions through Deep-Learning, Application to Uncalibrated Vegetation Images",
+          "link": "https://www.mdpi.com/2072-4292/13/12/2261"
+        },
+        "c": "https://gitlab.com/phd-thesis-adventice/phd-index-optimizer-tensorflow",
+        "n": "7x7 linear + ibf+sprb",
+        "d": "2021-06-11",
+        "m1": "81.49"
+      },
+      {
+        "p": {
+          "name": "DeepIndices: Remote Sensing Indices Based on Approximation of Functions through Deep-Learning, Application to Uncalibrated Vegetation Images",
+          "link": "https://www.mdpi.com/2072-4292/13/12/2261"
+        },
+        "c": "https://gitlab.com/phd-thesis-adventice/phd-index-optimizer-tensorflow",
+        "n": "7x7 linear-ratio + ibf + sprb",
+        "d": "2021-06-11",
+        "m1": "81.35"
+      },
+      {
+        "p": {
+          "name": "DeepIndices: Remote Sensing Indices Based on Approximation of Functions through Deep-Learning, Application to Uncalibrated Vegetation Images",
+          "link": "https://www.mdpi.com/2072-4292/13/12/2261"
+        },
+        "c": "https://gitlab.com/phd-thesis-adventice/phd-index-optimizer-tensorflow",
+        "n": "7x7 polynomial + ibf + sprb",
+        "d": "2021-06-11",
+        "m1": "81.21"
+      },
+      {
+        "p": {
+          "name": "DeepIndices: Remote Sensing Indices Based on Approximation of Functions through Deep-Learning, Application to Uncalibrated Vegetation Images",
+          "link": "https://www.mdpi.com/2072-4292/13/12/2261"
+        },
+        "c": "https://gitlab.com/phd-thesis-adventice/phd-index-optimizer-tensorflow",
+        "n": "3x3 universal-function + ibf + sprb",
+        "d": "2021-06-11",
+        "m1": "81.08"
+      },
+      {
+        "p": {
+          "name": "DeepIndices: Remote Sensing Indices Based on Approximation of Functions through Deep-Learning, Application to Uncalibrated Vegetation Images",
+          "link": "https://www.mdpi.com/2072-4292/13/12/2261"
+        },
+        "c": "https://gitlab.com/phd-thesis-adventice/phd-index-optimizer-tensorflow",
+        "n": "5x5 polynomial + ibf + sprb",
+        "d": "2021-06-11",
+        "m1": "80.67"
+      },
+      {
+        "p": {
+          "name": "DeepIndices: Remote Sensing Indices Based on Approximation of Functions through Deep-Learning, Application to Uncalibrated Vegetation Images",
+          "link": "https://www.mdpi.com/2072-4292/13/12/2261"
+        },
+        "c": "https://gitlab.com/phd-thesis-adventice/phd-index-optimizer-tensorflow",
+        "n": "5x5 universal-function + ibf + sprb",
+        "d": "2021-06-11",
+        "m1": "80.63"
+      },
+      {
+        "p": {
+          "name": "DeepIndices: Remote Sensing Indices Based on Approximation of Functions through Deep-Learning, Application to Uncalibrated Vegetation Images",
+          "link": "https://www.mdpi.com/2072-4292/13/12/2261"
+        },
+        "c": "https://gitlab.com/phd-thesis-adventice/phd-index-optimizer-tensorflow",
+        "n": "7x7 universal-function + ibf + sprb",
+        "d": "2021-06-11",
+        "m1": "80.36"
+      },
+      {
+        "p": {
+          "name": "DeepIndices: Remote Sensing Indices Based on Approximation of Functions through Deep-Learning, Application to Uncalibrated Vegetation Images",
+          "link": "https://www.mdpi.com/2072-4292/13/12/2261"
+        },
+        "c": "https://gitlab.com/phd-thesis-adventice/phd-index-optimizer-tensorflow",
+        "n": "3x3 dense-morphological + ibf + sprb",
+        "d": "2021-06-11",
+        "m1": "80.29"
+      },
+      {
+        "p": {
+          "name": "DeepIndices: Remote Sensing Indices Based on Approximation of Functions through Deep-Learning, Application to Uncalibrated Vegetation Images",
+          "link": "https://www.mdpi.com/2072-4292/13/12/2261"
+        },
+        "c": "https://gitlab.com/phd-thesis-adventice/phd-index-optimizer-tensorflow",
+        "n": "1x1 universal-function + ibf + sprb",
+        "d": "2021-06-11",
+        "m1": "80.15"
+      },
+      {
+        "p": {
+          "name": "DeepIndices: Remote Sensing Indices Based on Approximation of Functions through Deep-Learning, Application to Uncalibrated Vegetation Images",
+          "link": "https://www.mdpi.com/2072-4292/13/12/2261"
+        },
+        "c": "https://gitlab.com/phd-thesis-adventice/phd-index-optimizer-tensorflow",
+        "n": "5x5 linear-ratio + ibf + sprb",
+        "d": "2021-06-11",
+        "m1": "80.08"
+      },
+      {
+        "p": {
+          "name": "DeepIndices: Remote Sensing Indices Based on Approximation of Functions through Deep-Learning, Application to Uncalibrated Vegetation Images",
+          "link": "https://www.mdpi.com/2072-4292/13/12/2261"
+        },
+        "c": "https://gitlab.com/phd-thesis-adventice/phd-index-optimizer-tensorflow",
+        "n": "1x1 polynomial + ibf",
+        "d": "2021-06-11",
+        "m1": "80.03"
+      },
+      {
+        "p": {
+          "name": "DeepIndices: Remote Sensing Indices Based on Approximation of Functions through Deep-Learning, Application to Uncalibrated Vegetation Images",
+          "link": "https://www.mdpi.com/2072-4292/13/12/2261"
+        },
+        "c": "https://gitlab.com/phd-thesis-adventice/phd-index-optimizer-tensorflow",
+        "n": "1x1 dense-morphological + ibf + sprb",
+        "d": "2021-06-11",
+        "m1": "80.00"
+      },
+      {
+        "p": {
+          "name": "DeepIndices: Remote Sensing Indices Based on Approximation of Functions through Deep-Learning, Application to Uncalibrated Vegetation Images",
+          "link": "https://www.mdpi.com/2072-4292/13/12/2261"
+        },
+        "c": "https://gitlab.com/phd-thesis-adventice/phd-index-optimizer-tensorflow",
+        "n": "Modified Triangular Vegetation Index 1",
+        "d": "2021-06-11",
+        "m1": "73.71"
+      },
+      {
+        "p": {
+          "name": "DeepIndices: Remote Sensing Indices Based on Approximation of Functions through Deep-Learning, Application to Uncalibrated Vegetation Images",
+          "link": "https://www.mdpi.com/2072-4292/13/12/2261"
+        },
+        "c": "https://gitlab.com/phd-thesis-adventice/phd-index-optimizer-tensorflow",
+        "n": "Modified Chlorophyll Absorption In Reflectance Index 1",
+        "d": "2021-06-11",
+        "m1": "73.68"
+      },
+      {
+        "p": {
+          "name": "DeepIndices: Remote Sensing Indices Based on Approximation of Functions through Deep-Learning, Application to Uncalibrated Vegetation Images",
+          "link": "https://www.mdpi.com/2072-4292/13/12/2261"
+        },
+        "c": "https://gitlab.com/phd-thesis-adventice/phd-index-optimizer-tensorflow",
+        "n": "Enhanced Vegetation Index 2",
+        "d": "2021-06-11",
+        "m1": "67.94"
+      },
+      {
+        "p": {
+          "name": "DeepIndices: Remote Sensing Indices Based on Approximation of Functions through Deep-Learning, Application to Uncalibrated Vegetation Images",
+          "link": "https://www.mdpi.com/2072-4292/13/12/2261"
+        },
+        "c": "https://gitlab.com/phd-thesis-adventice/phd-index-optimizer-tensorflow",
+        "n": "Soil Adjusted Vegetation Index",
+        "d": "2021-06-11",
+        "m1": "67.28"
+      },
+      {
+        "p": {
+          "name": "DeepIndices: Remote Sensing Indices Based on Approximation of Functions through Deep-Learning, Application to Uncalibrated Vegetation Images",
+          "link": "https://www.mdpi.com/2072-4292/13/12/2261"
+        },
+        "c": "https://gitlab.com/phd-thesis-adventice/phd-index-optimizer-tensorflow",
+        "n": "Soil And Atmospherically Resistant VI 3",
+        "d": "2021-06-11",
+        "m1": "65.86"
+      },
+      {
+        "p": {
+          "name": "DeepIndices: Remote Sensing Indices Based on Approximation of Functions through Deep-Learning, Application to Uncalibrated Vegetation Images",
+          "link": "https://www.mdpi.com/2072-4292/13/12/2261"
+        },
+        "c": "https://gitlab.com/phd-thesis-adventice/phd-index-optimizer-tensorflow",
+        "n": "Enhanced Vegetation Index 3",
+        "d": "2021-06-11",
+        "m1": "65.05"
+      },
+      {
+        "p": {
+          "name": "DeepIndices: Remote Sensing Indices Based on Approximation of Functions through Deep-Learning, Application to Uncalibrated Vegetation Images",
+          "link": "https://www.mdpi.com/2072-4292/13/12/2261"
+        },
+        "c": "https://gitlab.com/phd-thesis-adventice/phd-index-optimizer-tensorflow",
+        "n": "Global Environment Monitoring Index",
+        "d": "2021-06-11",
+        "m1": "65.04"
+      },
+      {
+        "p": {
+          "name": "DeepIndices: Remote Sensing Indices Based on Approximation of Functions through Deep-Learning, Application to Uncalibrated Vegetation Images",
+          "link": "https://www.mdpi.com/2072-4292/13/12/2261"
+        },
+        "c": "https://gitlab.com/phd-thesis-adventice/phd-index-optimizer-tensorflow",
+        "n": "Adjusted Transformed Soil Adjusted VI",
+        "d": "2021-06-11",
+        "m1": "64.96"
+      },
+      {
+        "p": {
+          "name": "DeepIndices: Remote Sensing Indices Based on Approximation of Functions through Deep-Learning, Application to Uncalibrated Vegetation Images",
+          "link": "https://www.mdpi.com/2072-4292/13/12/2261"
+        },
+        "c": "https://gitlab.com/phd-thesis-adventice/phd-index-optimizer-tensorflow",
+        "n": "NDVI",
+        "d": "2021-06-11",
+        "m1": "63.98"
+      }
+    ]
+  }
+}

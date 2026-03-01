@@ -1,0 +1,83 @@
+{
+  "title": "response-generation-on-argscichat",
+  "task-hierarchy": [
+    "Response Generation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/federicoruggeri/argscichat_project"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Message-F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "BScore",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Mover",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "ArgSciChat: A Dataset for Argumentative Dialogues on Scientific Papers",
+          "link": "https://arxiv.org/abs/2202.06690v3"
+        },
+        "c": "https://github.com/ukplab/arxiv2022-argscichat",
+        "n": "LED(Q,F)",
+        "d": "2022-02-14",
+        "m1": "19.54",
+        "m2": "86.64",
+        "m3": " 8.53"
+      },
+      {
+        "p": {
+          "name": "ArgSciChat: A Dataset for Argumentative Dialogues on Scientific Papers",
+          "link": "https://arxiv.org/abs/2202.06690v3"
+        },
+        "c": "https://github.com/ukplab/arxiv2022-argscichat",
+        "n": "LED(Q,P,H)",
+        "d": "2022-02-14",
+        "m1": "16.14",
+        "m2": " 86.00",
+        "m3": "4.54"
+      },
+      {
+        "p": {
+          "name": "ArgSciChat: A Dataset for Argumentative Dialogues on Scientific Papers",
+          "link": "https://arxiv.org/abs/2202.06690v3"
+        },
+        "c": "https://github.com/ukplab/arxiv2022-argscichat",
+        "n": "LED(Q,P)",
+        "d": "2022-02-14",
+        "m1": "14.25",
+        "m2": " 85.85",
+        "m3": "2.25"
+      }
+    ]
+  }
+}

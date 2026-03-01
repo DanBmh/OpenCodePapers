@@ -1,0 +1,68 @@
+{
+  "title": "partial-domain-adaptation-on-domainnet",
+  "task-hierarchy": [
+    "Domain Adaptation",
+    "Partial Domain Adaptation"
+  ],
+  "dataset-info": {
+    "link": "http://ai.bu.edu/M3SDA/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Adversarial Reweighting for Partial Domain Adaptation",
+          "link": "http://proceedings.neurips.cc/paper/2021/hash/7ce3284b743aefde80ffd9aec500e085-Abstract.html"
+        },
+        "c": "https://github.com/xjtu-xgu/adversarial-reweighting-for-partial-domain-adaptation",
+        "n": "AR",
+        "d": "2021-12-01",
+        "m1": "65.76"
+      },
+      {
+        "p": {
+          "name": "A Balanced and Uncertainty-aware Approach for Partial Domain Adaptation",
+          "link": "https://arxiv.org/abs/2003.02541v2"
+        },
+        "c": "https://github.com/tim-learn/BA3US",
+        "n": "BA^3US",
+        "d": "2020-03-05",
+        "m1": "60.63"
+      },
+      {
+        "p": {
+          "name": "Partial Adversarial Domain Adaptation",
+          "link": "http://arxiv.org/abs/1808.04205v1"
+        },
+        "c": "https://github.com/thuml/Transfer-Learning-Library",
+        "n": "PADA",
+        "d": "2018-08-10",
+        "m1": "37.41"
+      }
+    ]
+  }
+}

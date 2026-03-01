@@ -1,0 +1,233 @@
+{
+  "title": "link-prediction-on-wikidata5m",
+  "task-hierarchy": [
+    "Link Prediction"
+  ],
+  "dataset-info": {
+    "link": "https://deepgraphlearning.github.io/project/wikidata5m"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MRR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Hits@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Hits@1",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Hits@3",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MoCoKGC: Momentum Contrast Entity Encoding for Knowledge Graph Completion",
+          "link": "https://aclanthology.org/2024.emnlp-main.832/"
+        },
+        "c": "",
+        "n": "MoCoKGC",
+        "d": "2024-11-12",
+        "m1": "0.490",
+        "m2": "0.591",
+        "m3": "0.435",
+        "m4": "0.517"
+      },
+      {
+        "p": {
+          "name": "Friendly Neighbors: Contextualized Sequence-to-Sequence Link Prediction",
+          "link": "https://arxiv.org/abs/2305.13059v2"
+        },
+        "c": "https://github.com/uma-pi1/kgt5-context",
+        "n": "KGT5-context + Description",
+        "d": "2023-05-22",
+        "m1": "0.426",
+        "m2": "0.46",
+        "m3": "0.406",
+        "m4": "0.44"
+      },
+      {
+        "p": {
+          "name": "Friendly Neighbors: Contextualized Sequence-to-Sequence Link Prediction",
+          "link": "https://arxiv.org/abs/2305.13059v2"
+        },
+        "c": "https://github.com/uma-pi1/kgt5-context",
+        "n": "KGT5 + Description",
+        "d": "2023-05-22",
+        "m1": "0.381",
+        "m2": "0.422",
+        "m3": "0.357",
+        "m4": "0.397"
+      },
+      {
+        "p": {
+          "name": "Friendly Neighbors: Contextualized Sequence-to-Sequence Link Prediction",
+          "link": "https://arxiv.org/abs/2305.13059v2"
+        },
+        "c": "https://github.com/uma-pi1/kgt5-context",
+        "n": "KGT5-context",
+        "d": "2023-05-22",
+        "m1": "0.378",
+        "m2": "0.427",
+        "m3": "0.35",
+        "m4": "0.396"
+      },
+      {
+        "p": {
+          "name": "SimKGC: Simple Contrastive Knowledge Graph Completion with Pre-trained Language Models",
+          "link": "https://arxiv.org/abs/2203.02167v1"
+        },
+        "c": "https://github.com/intfloat/simkgc",
+        "n": "SimKGC + Description",
+        "d": "2022-03-04",
+        "m1": "0.358",
+        "m2": "0.441",
+        "m3": "0.313",
+        "m4": "0.376"
+      },
+      {
+        "p": {
+          "name": "Sequence-to-Sequence Knowledge Graph Completion and Question Answering",
+          "link": "https://arxiv.org/abs/2203.10321v1"
+        },
+        "c": "https://github.com/apoorvumang/kgt5",
+        "n": "KGT5 ComplEx Ensemble",
+        "d": "2022-03-19",
+        "m1": "0.336",
+        "m2": "0.426",
+        "m3": "0.282",
+        "m4": "0.362"
+      },
+      {
+        "p": {
+          "name": "Parallel Training of Knowledge Graph Embedding Models: A Comparison of Techniques",
+          "link": "https://dl.acm.org/doi/pdf/10.14778/3494124.3494144"
+        },
+        "c": "https://github.com/uma-pi1/dist-kge",
+        "n": "ComplEx",
+        "d": "2021-11-01",
+        "m1": "0.308",
+        "m2": "0.398",
+        "m3": "0.255"
+      },
+      {
+        "p": {
+          "name": "Sequence-to-Sequence Knowledge Graph Completion and Question Answering",
+          "link": "https://arxiv.org/abs/2203.10321v1"
+        },
+        "c": "https://github.com/apoorvumang/kgt5",
+        "n": "KGT5",
+        "d": "2022-03-19",
+        "m1": "0.300",
+        "m2": "0.365",
+        "m3": "0.267",
+        "m4": "0.318"
+      },
+      {
+        "p": {
+          "name": "KEPLER: A Unified Model for Knowledge Embedding and Pre-trained Language Representation",
+          "link": "https://arxiv.org/abs/1911.06136v3"
+        },
+        "c": "https://github.com/THU-KEG/KEPLER",
+        "n": "SimplE",
+        "d": "2019-11-13",
+        "m1": "0.296",
+        "m2": "0.377",
+        "m3": "0.252",
+        "m4": "0.317"
+      },
+      {
+        "p": {
+          "name": "KEPLER: A Unified Model for Knowledge Embedding and Pre-trained Language Representation",
+          "link": "https://arxiv.org/abs/1911.06136v3"
+        },
+        "c": "https://github.com/THU-KEG/KEPLER",
+        "n": "RotatE",
+        "d": "2019-11-13",
+        "m1": "0.29",
+        "m2": "0.39",
+        "m3": "0.234",
+        "m4": "0.322"
+      },
+      {
+        "p": {
+          "name": "KEPLER: A Unified Model for Knowledge Embedding and Pre-trained Language Representation",
+          "link": "https://arxiv.org/abs/1911.06136v3"
+        },
+        "c": "https://github.com/THU-KEG/KEPLER",
+        "n": "ComplEx",
+        "d": "2019-11-13",
+        "m1": "0.281",
+        "m2": "0.373",
+        "m3": "0.228",
+        "m4": "0.310"
+      },
+      {
+        "p": {
+          "name": "KEPLER: A Unified Model for Knowledge Embedding and Pre-trained Language Representation",
+          "link": "https://arxiv.org/abs/1911.06136v3"
+        },
+        "c": "https://github.com/THU-KEG/KEPLER",
+        "n": "TransE",
+        "d": "2019-11-13",
+        "m1": "0.253",
+        "m2": "0.392",
+        "m3": "0.17",
+        "m4": "0.311"
+      },
+      {
+        "p": {
+          "name": "KEPLER: A Unified Model for Knowledge Embedding and Pre-trained Language Representation",
+          "link": "https://arxiv.org/abs/1911.06136v3"
+        },
+        "c": "https://github.com/THU-KEG/KEPLER",
+        "n": "DistMult",
+        "d": "2019-11-13",
+        "m1": "0.253",
+        "m2": "0.334",
+        "m3": "0.208",
+        "m4": "0.278"
+      },
+      {
+        "p": {
+          "name": "KEPLER: A Unified Model for Knowledge Embedding and Pre-trained Language Representation",
+          "link": "https://arxiv.org/abs/1911.06136v3"
+        },
+        "c": "https://github.com/THU-KEG/KEPLER",
+        "n": "KEPLER-Wiki-rel",
+        "d": "2019-11-13",
+        "m1": "0.210",
+        "m2": "0.277",
+        "m3": "0.173",
+        "m4": "0.224"
+      }
+    ]
+  }
+}

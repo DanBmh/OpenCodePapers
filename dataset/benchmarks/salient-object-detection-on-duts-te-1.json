@@ -1,0 +1,154 @@
+{
+  "title": "salient-object-detection-on-duts-te-1",
+  "task-hierarchy": [
+    "Salient Object Detection"
+  ],
+  "dataset-info": {
+    "link": "http://saliencydetection.net/duts/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Smeasure",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "E-measure",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "MAE",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "max_F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SAM2-UNet: Segment Anything 2 Makes Strong Encoder for Natural and Medical Image Segmentation",
+          "link": "https://arxiv.org/abs/2408.08870v1"
+        },
+        "c": "https://github.com/wzh0120/sam2-unet",
+        "n": "SAM2-UNet",
+        "d": "2024-08-16",
+        "m1": "0.934",
+        "m2": " 0.959",
+        "m3": "0.020"
+      },
+      {
+        "p": {
+          "name": "FOCUS: Towards Universal Foreground Segmentation",
+          "link": "https://arxiv.org/abs/2501.05238v1"
+        },
+        "c": "https://github.com/geshang777/FOCUS",
+        "n": "FOCUS",
+        "d": "2025-01-09",
+        "m1": "0.929",
+        "m2": "0.965",
+        "m3": "0.019"
+      },
+      {
+        "p": {
+          "name": "SelfReformer: Self-Refined Network with Transformer for Salient Object Detection",
+          "link": "https://arxiv.org/abs/2205.11283v4"
+        },
+        "c": "https://github.com/BarCodeReader/SelfReformer",
+        "n": "SelfReformer-Swin",
+        "d": "2022-05-23",
+        "m1": "0.921",
+        "m2": "0.924",
+        "m3": "0.024",
+        "m4": "0.925"
+      },
+      {
+        "p": {
+          "name": "Explicit Visual Prompting for Universal Foreground Segmentations",
+          "link": "https://arxiv.org/abs/2305.18476v1"
+        },
+        "c": "https://github.com/nifangbaage/explict-visual-prompt",
+        "n": "EVPv2",
+        "d": "2023-05-29",
+        "m1": "0.915",
+        "m2": "0.948",
+        "m3": "0.027",
+        "m4": "0.923"
+      },
+      {
+        "p": {
+          "name": "SelfReformer: Self-Refined Network with Transformer for Salient Object Detection",
+          "link": "https://arxiv.org/abs/2205.11283v4"
+        },
+        "c": "https://github.com/BarCodeReader/SelfReformer",
+        "n": "SelfReformer",
+        "d": "2022-05-23",
+        "m1": "0.911",
+        "m2": "0.920",
+        "m3": "0.026",
+        "m4": "0.916"
+      },
+      {
+        "p": {
+          "name": "Label Decoupling Framework for Salient Object Detection",
+          "link": "https://arxiv.org/abs/2008.11048v1"
+        },
+        "c": "https://github.com/weijun88/LDF",
+        "n": "LDF(ResNet-50)",
+        "d": "2020-08-25",
+        "m1": "0.892",
+        "m2": "0.909",
+        "m3": "0.034",
+        "m4": "0.897"
+      },
+      {
+        "p": {
+          "name": "F3Net: Fusion, Feedback and Focus for Salient Object Detection",
+          "link": "https://arxiv.org/abs/1911.11445v1"
+        },
+        "c": "https://github.com/weijun88/F3Net",
+        "n": "F3Net",
+        "d": "2019-11-26",
+        "m1": "0.888",
+        "m2": "0.901",
+        "m3": "0.035",
+        "m4": "0.891"
+      },
+      {
+        "p": {
+          "name": "Recursive Contour Saliency Blending Network for Accurate Salient Object Detection",
+          "link": "https://arxiv.org/abs/2105.13865v3"
+        },
+        "c": "https://github.com/BarCodeReader/RCSB-PyTorch",
+        "n": "RCSB",
+        "d": "2021-05-28",
+        "m1": "0.878",
+        "m2": "0.903",
+        "m3": "0.034",
+        "m4": "0.889"
+      }
+    ]
+  }
+}

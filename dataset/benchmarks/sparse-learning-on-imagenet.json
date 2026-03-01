@@ -1,0 +1,127 @@
+{
+  "title": "sparse-learning-on-imagenet",
+  "task-hierarchy": [
+    "Sparse Learning"
+  ],
+  "dataset-info": {
+    "link": "https://image-net.org/index.php"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Top-1 Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Rigging the Lottery: Making All Tickets Winners",
+          "link": "https://arxiv.org/abs/1911.11134v3"
+        },
+        "c": "https://github.com/google-research/rigl",
+        "n": "Resnet-50: 80% Sparse",
+        "d": "2019-11-25",
+        "m1": "77.1"
+      },
+      {
+        "p": {
+          "name": "Rigging the Lottery: Making All Tickets Winners",
+          "link": "https://arxiv.org/abs/1911.11134v3"
+        },
+        "c": "https://github.com/google-research/rigl",
+        "n": "Resnet-50: 90% Sparse",
+        "d": "2019-11-25",
+        "m1": "76.4"
+      },
+      {
+        "p": {
+          "name": "Sparse Training via Boosting Pruning Plasticity with Neuroregeneration",
+          "link": "https://arxiv.org/abs/2106.10404v4"
+        },
+        "c": "https://github.com/vita-group/granet",
+        "n": "Resnet-50: 80% Sparse 100 epochs",
+        "d": "2021-06-19",
+        "m1": "76"
+      },
+      {
+        "p": {
+          "name": "Do We Actually Need Dense Over-Parameterization? In-Time Over-Parameterization in Sparse Training",
+          "link": "https://arxiv.org/abs/2102.02887v3"
+        },
+        "c": "https://github.com/Shiweiliuiiiiiii/In-Time-Over-Parameterization",
+        "n": "Resnet-50: 80% Sparse 100 epochs",
+        "d": "2021-02-04",
+        "m1": "75.84"
+      },
+      {
+        "p": {
+          "name": "Sparse Training via Boosting Pruning Plasticity with Neuroregeneration",
+          "link": "https://arxiv.org/abs/2106.10404v4"
+        },
+        "c": "https://github.com/vita-group/granet",
+        "n": "Resnet-50: 90% Sparse 100 epochs",
+        "d": "2021-06-19",
+        "m1": "74.5"
+      },
+      {
+        "p": {
+          "name": "Do We Actually Need Dense Over-Parameterization? In-Time Over-Parameterization in Sparse Training",
+          "link": "https://arxiv.org/abs/2102.02887v3"
+        },
+        "c": "https://github.com/Shiweiliuiiiiiii/In-Time-Over-Parameterization",
+        "n": "Resnet-50: 90% Sparse 100 epochs",
+        "d": "2021-02-04",
+        "m1": "73.82"
+      },
+      {
+        "p": {
+          "name": "Rigging the Lottery: Making All Tickets Winners",
+          "link": "https://arxiv.org/abs/1911.11134v3"
+        },
+        "c": "https://github.com/google-research/rigl",
+        "n": "MobileNet-v1: 75% Sparse",
+        "d": "2019-11-25",
+        "m1": "71.9"
+      },
+      {
+        "p": {
+          "name": "Rigging the Lottery: Making All Tickets Winners",
+          "link": "https://arxiv.org/abs/1911.11134v3"
+        },
+        "c": "https://github.com/google-research/rigl",
+        "n": "MobileNet-v1: 90% Sparse",
+        "d": "2019-11-25",
+        "m1": "68.1"
+      },
+      {
+        "p": {
+          "name": "Sparse learning of stochastic dynamic equations",
+          "link": "http://arxiv.org/abs/1712.02432v1"
+        },
+        "c": "https://github.com/dynamicslab/langevin-regression",
+        "n": "SINDy",
+        "d": "2017-12-06",
+        "m1": "6"
+      }
+    ]
+  }
+}

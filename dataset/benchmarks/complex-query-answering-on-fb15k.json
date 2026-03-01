@@ -1,0 +1,284 @@
+{
+  "title": "complex-query-answering-on-fb15k",
+  "task-hierarchy": [
+    "Inductive knowledge graph completion",
+    "Large Language Model",
+    "Knowledge Graphs",
+    "Complex Query Answering"
+  ],
+  "dataset-info": {
+    "link": "https://www.microsoft.com/en-us/download/details.aspx?id=52312"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MRR 1p",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "MRR 2i",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "MRR 2p",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "MRR 2u",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "MRR 3i",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "MRR 3p",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "MRR ip",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "MRR pi",
+        "sortable": "true"
+      },
+      {
+        "key": "m9",
+        "label": "MRR up",
+        "sortable": "true"
+      },
+      {
+        "key": "m10",
+        "label": "Hits@3 1p",
+        "sortable": "true"
+      },
+      {
+        "key": "m11",
+        "label": "Hits@3 2i",
+        "sortable": "true"
+      },
+      {
+        "key": "m12",
+        "label": "Hits@3 2p",
+        "sortable": "true"
+      },
+      {
+        "key": "m13",
+        "label": "Hits@3 2u",
+        "sortable": "true"
+      },
+      {
+        "key": "m14",
+        "label": "Hits@3 3i",
+        "sortable": "true"
+      },
+      {
+        "key": "m15",
+        "label": "Hits@3 3p",
+        "sortable": "true"
+      },
+      {
+        "key": "m16",
+        "label": "Hits@3 ip",
+        "sortable": "true"
+      },
+      {
+        "key": "m17",
+        "label": "Hits@3 pi",
+        "sortable": "true"
+      },
+      {
+        "key": "m18",
+        "label": "Hits@3 up",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Answering Complex Logical Queries on Knowledge Graphs via Query Computation Tree Optimization",
+          "link": "https://arxiv.org/abs/2212.09567v3"
+        },
+        "c": "https://github.com/bys0318/qto",
+        "n": "QTO",
+        "d": "2022-12-19",
+        "m1": "0.895",
+        "m2": "0.803",
+        "m3": "0.674",
+        "m4": "0.767",
+        "m5": "0.836",
+        "m6": "0.588",
+        "m7": "0.740",
+        "m8": "0.752",
+        "m9": "0.613"
+      },
+      {
+        "p": {
+          "name": "Complex Query Answering with Neural Link Predictors",
+          "link": "https://arxiv.org/abs/2011.03459v4"
+        },
+        "c": "https://github.com/uclnlp/cqd",
+        "n": "CQD",
+        "d": "2020-11-06",
+        "m1": "0.892",
+        "m2": "0.771",
+        "m3": "0.653",
+        "m4": "0.723",
+        "m5": "0.806",
+        "m7": "0.716"
+      },
+      {
+        "p": {
+          "name": "Adapting Neural Link Predictors for Data-Efficient Complex Query Answering",
+          "link": "https://arxiv.org/abs/2301.12313v3"
+        },
+        "c": "",
+        "n": "CQDA",
+        "d": "2023-01-29",
+        "m1": "0.892",
+        "m2": "0.761",
+        "m3": "0.645",
+        "m4": "0.684",
+        "m5": "0.794",
+        "m6": "0.579",
+        "m7": "0.706",
+        "m8": "0.701",
+        "m9": "0.579"
+      },
+      {
+        "p": {
+          "name": "Neural-Symbolic Models for Logical Queries on Knowledge Graphs",
+          "link": "https://arxiv.org/abs/2205.10128v2"
+        },
+        "c": "https://github.com/DeepGraphLearning/GNN-QE",
+        "n": "GNN-QE",
+        "d": "2022-05-16",
+        "m1": "0.885",
+        "m2": "0.797",
+        "m3": "0.693",
+        "m4": "0.741",
+        "m5": "0.835",
+        "m6": "0.587",
+        "m7": "0.704",
+        "m8": "0.699",
+        "m9": "0.610"
+      },
+      {
+        "p": {
+          "name": "Query2box: Reasoning over Knowledge Graphs in Vector Space using Box Embeddings",
+          "link": "https://arxiv.org/abs/2002.05969v2"
+        },
+        "c": "https://github.com/snap-stanford/KGReasoning",
+        "n": "Q2B",
+        "d": "2020-02-14",
+        "m1": "0.68",
+        "m2": "0.551",
+        "m3": "0.21",
+        "m4": "0.351",
+        "m5": "0.665",
+        "m6": "0.142",
+        "m7": "0.261",
+        "m8": "0.394",
+        "m9": "0.167"
+      },
+      {
+        "p": {
+          "name": "Beta Embeddings for Multi-Hop Logical Reasoning in Knowledge Graphs",
+          "link": "https://arxiv.org/abs/2010.11465v1"
+        },
+        "c": "https://github.com/snap-stanford/KGReasoning",
+        "n": "BetaE",
+        "d": "2020-10-22",
+        "m1": "0.651",
+        "m2": "0.558",
+        "m3": "0.257",
+        "m4": "0.401",
+        "m5": "0.665",
+        "m6": "0.247",
+        "m7": "0.281",
+        "m8": "0.439",
+        "m9": "0.252"
+      },
+      {
+        "p": {
+          "name": "Embedding Logical Queries on Knowledge Graphs",
+          "link": "https://arxiv.org/abs/1806.01445v4"
+        },
+        "c": "https://github.com/snap-stanford/KGReasoning",
+        "n": "GQE",
+        "d": "2018-06-05",
+        "m1": "0.546",
+        "m2": "0.397",
+        "m3": "0.153",
+        "m4": "0.221",
+        "m5": "0.514",
+        "m6": "0.108",
+        "m7": "0.191",
+        "m8": "0.276",
+        "m9": "0.116"
+      },
+      {
+        "p": {
+          "name": "Complex Query Answering with Neural Link Predictors",
+          "link": "https://arxiv.org/abs/2011.03459v4"
+        },
+        "c": "https://github.com/uclnlp/cqd",
+        "n": "CQD-Beam",
+        "d": "2020-11-06",
+        "m10": "0.918",
+        "m11": "0.796",
+        "m12": "0.779",
+        "m13": "0.839",
+        "m14": "0.837",
+        "m15": "0.577",
+        "m16": "0.375",
+        "m17": "0.658",
+        "m18": "0.345"
+      },
+      {
+        "p": {
+          "name": "Complex Query Answering with Neural Link Predictors",
+          "link": "https://arxiv.org/abs/2011.03459v4"
+        },
+        "c": "https://github.com/uclnlp/cqd",
+        "n": "CQD-CO",
+        "d": "2020-11-06",
+        "m10": "0.918",
+        "m11": "0.796",
+        "m12": "0.454",
+        "m13": "0.816",
+        "m14": "0.837",
+        "m15": "0.191",
+        "m16": "0.336",
+        "m17": "0.513",
+        "m18": "0.319"
+      }
+    ]
+  }
+}

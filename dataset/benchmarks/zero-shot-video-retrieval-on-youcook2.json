@@ -1,0 +1,168 @@
+{
+  "title": "zero-shot-video-retrieval-on-youcook2",
+  "task-hierarchy": [
+    "Zero-Shot Video Retrieval"
+  ],
+  "dataset-info": {
+    "link": "http://youcook2.eecs.umich.edu/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "text-to-video R@1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "text-to-video R@5",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "text-to-video R@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "text-to-video Mean Rank",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "text-to-video Median Rank",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "OmniVec2 - A Novel Transformer based Network for Large Scale Multimodal and Multitask Learning",
+          "link": "http://openaccess.thecvf.com//content/CVPR2024/html/Srivastava_OmniVec2_-_A_Novel_Transformer_based_Network_for_Large_Scale_CVPR_2024_paper.html"
+        },
+        "c": "",
+        "n": "OmniVec2",
+        "d": "2024-01-01",
+        "m1": "26.1",
+        "m2": "54.1",
+        "m3": "70.8"
+      },
+      {
+        "p": {
+          "name": "Multi-granularity Correspondence Learning from Long-term Noisy Videos",
+          "link": "https://arxiv.org/abs/2401.16702v1"
+        },
+        "c": "https://github.com/XLearning-SCU/2024-ICLR-Norton",
+        "n": "Norton",
+        "d": "2024-01-30",
+        "m1": "24.2",
+        "m2": "51.9",
+        "m3": "64.1"
+      },
+      {
+        "p": {
+          "name": "VideoCLIP: Contrastive Pre-training for Zero-shot Video-Text Understanding",
+          "link": "https://arxiv.org/abs/2109.14084v2"
+        },
+        "c": "https://github.com/facebookresearch/fairseq",
+        "n": "VideoCLIP",
+        "d": "2021-09-28",
+        "m1": "22.7",
+        "m2": "50.4",
+        "m3": " 63.1"
+      },
+      {
+        "p": {
+          "name": "VideoCoCa: Video-Text Modeling with Zero-Shot Transfer from Contrastive Captioners",
+          "link": "https://arxiv.org/abs/2212.04979v3"
+        },
+        "c": "",
+        "n": "VideoCOca",
+        "d": "2022-12-09",
+        "m1": "20.3",
+        "m2": "43.0",
+        "m3": "53.3"
+      },
+      {
+        "p": {
+          "name": "TACo: Token-aware Cascade Contrastive Learning for Video-Text Alignment",
+          "link": "https://arxiv.org/abs/2108.09980v1"
+        },
+        "c": "",
+        "n": "TACo",
+        "d": "2021-08-23",
+        "m1": "19.9",
+        "m2": "43.2",
+        "m3": "55.7",
+        "m4": "8"
+      },
+      {
+        "p": {
+          "name": "HowToCaption: Prompting LLMs to Transform Video Annotations at Scale",
+          "link": "https://arxiv.org/abs/2310.04900v2"
+        },
+        "c": "https://github.com/ninatu/howtocaption",
+        "n": "VAST, HowToCaption-finetuned",
+        "d": "2023-10-07",
+        "m1": "19.7",
+        "m2": "43.6",
+        "m3": "53.9",
+        "m5": "8"
+      },
+      {
+        "p": {
+          "name": "End-to-End Learning of Visual Representations from Uncurated Instructional Videos",
+          "link": "https://arxiv.org/abs/1912.06430v4"
+        },
+        "c": "https://github.com/antoine77340/MIL-NCE_HowTo100M",
+        "n": "MIL-NCE",
+        "d": "2019-12-13",
+        "m1": "15.1",
+        "m2": "38.0",
+        "m3": "51.2",
+        "m4": "10"
+      },
+      {
+        "p": {
+          "name": "HowToCaption: Prompting LLMs to Transform Video Annotations at Scale",
+          "link": "https://arxiv.org/abs/2310.04900v2"
+        },
+        "c": "https://github.com/ninatu/howtocaption",
+        "n": "HowToCaption",
+        "d": "2023-10-07",
+        "m1": "13.4",
+        "m2": "33.1",
+        "m3": "44.1",
+        "m5": "15"
+      },
+      {
+        "p": {
+          "name": "VATT: Transformers for Multimodal Self-Supervised Learning from Raw Video, Audio and Text",
+          "link": "https://arxiv.org/abs/2104.11178v3"
+        },
+        "c": "https://github.com/google-research/google-research/tree/master/vatt",
+        "n": "VATT-MBS",
+        "d": "2021-04-22",
+        "m3": "45.5",
+        "m4": "13"
+      }
+    ]
+  }
+}

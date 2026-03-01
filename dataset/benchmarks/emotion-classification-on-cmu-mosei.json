@@ -1,0 +1,85 @@
+{
+  "title": "emotion-classification-on-cmu-mosei",
+  "task-hierarchy": [
+    "Classification",
+    "Text Classification",
+    "Emotion Classification"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Weighted Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MARLIN: Masked Autoencoder for facial video Representation LearnINg",
+          "link": "https://arxiv.org/abs/2211.06627v3"
+        },
+        "c": "https://github.com/ControlNet/MARLIN",
+        "n": "MARLIN (ViT-L)",
+        "d": "2022-11-12",
+        "m1": "80.63"
+      },
+      {
+        "p": {
+          "name": "MARLIN: Masked Autoencoder for facial video Representation LearnINg",
+          "link": "https://arxiv.org/abs/2211.06627v3"
+        },
+        "c": "https://github.com/ControlNet/MARLIN",
+        "n": "MARLIN (ViT-B)",
+        "d": "2022-11-12",
+        "m1": "80.6"
+      },
+      {
+        "p": {
+          "name": "MARLIN: Masked Autoencoder for facial video Representation LearnINg",
+          "link": "https://arxiv.org/abs/2211.06627v3"
+        },
+        "c": "https://github.com/ControlNet/MARLIN",
+        "n": "MARLIN (ViT-S)",
+        "d": "2022-11-12",
+        "m1": "80.38"
+      },
+      {
+        "p": {
+          "name": "Multi-Task Multi-Modal Self-Supervised Learning for Facial Expression Recognition",
+          "link": "https://arxiv.org/abs/2404.10904v2"
+        },
+        "c": "https://github.com/tub-cv-group/conclugen",
+        "n": "ConCluGen",
+        "d": "2024-04-16",
+        "m1": "66.48",
+        "m2": "66.48"
+      }
+    ]
+  }
+}

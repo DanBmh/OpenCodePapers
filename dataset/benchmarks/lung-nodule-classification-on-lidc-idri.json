@@ -1,0 +1,157 @@
+{
+  "title": "lung-nodule-classification-on-lidc-idri",
+  "task-hierarchy": [
+    "Lung Nodule Classification"
+  ],
+  "dataset-info": {
+    "link": "https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Acc",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Accuracy(10-fold)",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Recall/ Sensitivity",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "Precision",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "F1 Score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "ProCAN: Progressive Growing Channel Attentive Non-Local Network for Lung Nodule Classification",
+          "link": "https://arxiv.org/abs/2010.15417v3"
+        },
+        "c": "",
+        "n": "ProCAN",
+        "d": "2020-10-29",
+        "m1": "94.11",
+        "m3": "97.13"
+      },
+      {
+        "p": {
+          "name": "Variational Autoencoders for Feature Exploration and Malignancy Prediction of Lung Lesions",
+          "link": "https://arxiv.org/abs/2311.15719v1"
+        },
+        "c": "https://github.com/benkeel/vae_lung_lesion_bmvc",
+        "n": "GVAE",
+        "d": "2023-11-27",
+        "m1": "93.1",
+        "m3": "98",
+        "m5": "96",
+        "m6": "93",
+        "m7": "94"
+      },
+      {
+        "p": {
+          "name": "Gated-Dilated Networks for Lung Nodule Classification in CT scans",
+          "link": "https://arxiv.org/abs/1901.00120v2"
+        },
+        "c": "",
+        "n": "Gated-Dilated",
+        "d": "2019-01-01",
+        "m1": "92.57",
+        "m3": "95.14",
+        "m4": "92.57"
+      },
+      {
+        "p": {
+          "name": "Learning Efficient, Explainable and Discriminative Representations for Pulmonary Nodules Classification",
+          "link": "https://arxiv.org/abs/2101.07429v1"
+        },
+        "c": "https://github.com/fei-hdu/NAS-Lung",
+        "n": "NASLung (ours)",
+        "d": "2021-01-19",
+        "m1": "90.77"
+      },
+      {
+        "p": {
+          "name": "DeepLung: Deep 3D Dual Path Nets for Automated Pulmonary Nodule Detection and Classification",
+          "link": "http://arxiv.org/abs/1801.09555v1"
+        },
+        "c": "https://github.com/uci-cbcl/DeepLung",
+        "n": "DeepLung",
+        "d": "2018-01-25",
+        "m1": "90.44",
+        "m2": "90.44"
+      },
+      {
+        "p": {
+          "name": "Lung Nodule Classification using Deep Local-Global Networks",
+          "link": "http://arxiv.org/abs/1904.10126v1"
+        },
+        "c": "https://github.com/mundher/local-global",
+        "n": "Local-Global",
+        "d": "2019-04-23",
+        "m1": "88.46",
+        "m3": "95.62",
+        "m4": "88.46"
+      },
+      {
+        "p": {
+          "name": "Medical Slice Transformer: Improved Diagnosis and Explainability on 3D Medical Images with DINOv2",
+          "link": "https://arxiv.org/abs/2411.15802v1"
+        },
+        "c": "https://github.com/mueller-franzes/mst",
+        "n": "MST",
+        "d": "2024-11-24",
+        "m3": "95"
+      },
+      {
+        "p": {
+          "name": "Lung nodule detection and classification from Thorax CT-scan using RetinaNet with transfer learning",
+          "link": "https://doi.org/10.1016/j.jksuci.2020.03.013"
+        },
+        "c": "https://github.com/ivanwilliammd/I3DR-Net-Transfer-Learning",
+        "n": "I3DR-Net",
+        "d": "2020-04-08",
+        "m3": "81.84"
+      }
+    ]
+  }
+}

@@ -1,0 +1,2408 @@
+{
+  "title": "question-answering-on-squad20",
+  "task-hierarchy": [
+    "Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://rajpurkar.github.io/SQuAD-explorer/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "EM",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "IE-Net (ensemble)",
+        "d": null,
+        "m1": "90.939",
+        "m2": "93.214"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "FPNet  (ensemble)",
+        "d": null,
+        "m1": "90.871",
+        "m2": "93.183"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "IE-NetV2 (ensemble)",
+        "d": null,
+        "m1": "90.860",
+        "m2": "93.100"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "SA-Net on Albert (ensemble)",
+        "d": null,
+        "m1": "90.724",
+        "m2": "93.011"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "SA-Net-V2 (ensemble)",
+        "d": null,
+        "m1": "90.679",
+        "m2": "92.948"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "FPNet (ensemble)",
+        "d": null,
+        "m1": "90.600",
+        "m2": "92.899"
+      },
+      {
+        "p": {
+          "name": "Retrospective Reader for Machine Reading Comprehension",
+          "link": "https://arxiv.org/abs/2001.09694v4"
+        },
+        "c": "https://github.com/cooelf/AwesomeMRC",
+        "n": "Retro-Reader (ensemble)",
+        "d": "2020-01-27",
+        "m1": "90.578",
+        "m2": "92.978"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "EntitySpanFocusV2 (ensemble)",
+        "d": null,
+        "m1": "90.521",
+        "m2": "92.824"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "TransNets + SFVerifier + SFEnsembler (ensemble)",
+        "d": null,
+        "m1": "90.487",
+        "m2": "92.894"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "EntitySpanFocus+AT (ensemble)",
+        "d": null,
+        "m1": "90.454",
+        "m2": "92.748"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ATRLP+PV (ensemble)",
+        "d": null,
+        "m1": "90.442",
+        "m2": "92.877"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "LANetV2 (ensemble)",
+        "d": null,
+        "m1": "90.420",
+        "m2": "92.807"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ELECTRA+ALBERT+EntitySpanFocus (ensemble)",
+        "d": null,
+        "m1": "90.420",
+        "m2": "92.799"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ALBERT + DAAF + Verifier",
+        "d": null,
+        "m1": "90.386",
+        "m2": "92.777"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "electra+nlayers+adv+ds",
+        "d": null,
+        "m1": "90.284",
+        "m2": "92.691"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "MixEnsemble (ensemble)",
+        "d": null,
+        "m1": "90.194",
+        "m2": "92.594"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "electra+nlayers (ensemble)",
+        "d": null,
+        "m1": "90.126",
+        "m2": "92.535"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Retro-Reader on ALBERT (ensemble)",
+        "d": null,
+        "m1": "90.115",
+        "m2": "92.580"
+      },
+      {
+        "p": {
+          "name": "Retrospective Reader for Machine Reading Comprehension",
+          "link": "https://arxiv.org/abs/2001.09694v4"
+        },
+        "c": "https://github.com/cooelf/AwesomeMRC",
+        "n": "Retro-Reader on ALBERT (ensemble)",
+        "d": "2020-01-27",
+        "m1": "90.115",
+        "m2": "92.580"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ANet",
+        "d": null,
+        "m1": "90.081",
+        "m2": "92.457"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Answer Dependent Classify (single model)",
+        "d": null,
+        "m1": "90.059",
+        "m2": "92.517"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "electra+nlayers+kdav (ensemble)",
+        "d": null,
+        "m1": "90.002",
+        "m2": "92.497"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ALBERT + DAAF + Verifier (ensemble)",
+        "d": null,
+        "m1": "90.002",
+        "m2": "92.425"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "LANet (ensemble)",
+        "d": null,
+        "m1": "89.923",
+        "m2": "92.425"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Electra-nlayers (ensemble)",
+        "d": null,
+        "m1": "89.777",
+        "m2": "92.312"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Albert_Verifier_AA_Net (ensemble)",
+        "d": null,
+        "m1": "89.743",
+        "m2": "92.180"
+      },
+      {
+        "p": {
+          "name": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "link": "https://arxiv.org/abs/1909.11942v6"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ALBERT (ensemble model)",
+        "d": "2019-09-26",
+        "m1": "89.731",
+        "m2": "92.215"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Span Extract + Classify (single model)",
+        "d": null,
+        "m1": "89.562",
+        "m2": "92.226"
+      },
+      {
+        "p": {
+          "name": "Retrospective Reader for Machine Reading Comprehension",
+          "link": "https://arxiv.org/abs/2001.09694v4"
+        },
+        "c": "https://github.com/cooelf/AwesomeMRC",
+        "n": "Retro-Reader on ELECTRA (single model)",
+        "d": "2020-01-27",
+        "m1": "89.562",
+        "m2": "92.052"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ELECTRA+ATRLP+PV (single model)",
+        "d": null,
+        "m1": "89.551",
+        "m2": "92.366"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "albert+transform+verify (ensemble)",
+        "d": null,
+        "m1": "89.528",
+        "m2": "92.059"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "albert+KD+transfer (ensemble)",
+        "d": null,
+        "m1": "89.461",
+        "m2": "92.134"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ROaD-Electra (single model)",
+        "d": null,
+        "m1": "89.449",
+        "m2": "92.118"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ROaD-Electra",
+        "d": null,
+        "m1": "89.449",
+        "m2": "92.118"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Albert-nlayers (ensemble)",
+        "d": null,
+        "m1": "89.404",
+        "m2": "91.964"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ELECTRA + E-Verifier (ensemble)",
+        "d": null,
+        "m1": "89.348",
+        "m2": "91.985"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ELECTRA + ROBERTA + ALBERT (ensemble)",
+        "d": null,
+        "m1": "89.325",
+        "m2": "91.994"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "2task (single model)",
+        "d": null,
+        "m1": "89.325",
+        "m2": "91.939"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Deberta",
+        "d": null,
+        "m1": "89.235",
+        "m2": "91.900"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ALBERT + MTDA + SFVerifier (ensemble model)",
+        "d": null,
+        "m1": "89.235",
+        "m2": "91.739"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ALBert-LSTM (ensemble)",
+        "d": null,
+        "m1": "89.224",
+        "m2": "91.853"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ALBERT + SFVerifier (ensemble model)",
+        "d": null,
+        "m1": "89.133",
+        "m2": "91.666"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ELECTRA+RL+EV (single model)",
+        "d": null,
+        "m1": "89.021",
+        "m2": "91.765"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "electra & albert (ensemble)",
+        "d": null,
+        "m1": "88.998",
+        "m2": "91.635"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "AE-TEST",
+        "d": null,
+        "m1": "88.998",
+        "m2": "91.635"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ELECTRA+EntitySpanFocus (Single model)",
+        "d": null,
+        "m1": "88.874",
+        "m2": "91.546"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "SA-Net on Electra (single model)",
+        "d": null,
+        "m1": "88.851",
+        "m2": "91.486"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ALBERT+Entailment DA (ensemble)",
+        "d": null,
+        "m1": "88.761",
+        "m2": "91.745"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ELECTRA (single model)",
+        "d": null,
+        "m1": "88.716",
+        "m2": "91.365"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Tuned ALBERT (ensemble model)",
+        "d": null,
+        "m1": "88.637",
+        "m2": "91.230"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ELECTRA_ATT (single model)",
+        "d": null,
+        "m1": "88.614",
+        "m2": "91.303"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Deberta+prefix",
+        "d": null,
+        "m1": "88.603",
+        "m2": "91.299"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ALBERT (Single model)",
+        "d": null,
+        "m1": "88.592",
+        "m2": "91.286"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "XLNet + DAAF + Verifier (ensemble)",
+        "d": null,
+        "m1": "88.592",
+        "m2": "90.859"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ALBERT + IG + NE (single model)",
+        "d": null,
+        "m1": "88.569",
+        "m2": "91.287"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ALBERT + IG (single model)",
+        "d": null,
+        "m1": "88.524",
+        "m2": "91.256"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "aanet_v2.0 (single model)",
+        "d": null,
+        "m1": "88.434",
+        "m2": "90.918"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "albert+verifier (single model)",
+        "d": null,
+        "m1": "88.355",
+        "m2": "91.019"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "albert+KD+transfer (single)",
+        "d": null,
+        "m1": "88.298",
+        "m2": "91.078"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "UPM (ensemble)",
+        "d": null,
+        "m1": "88.231",
+        "m2": "90.713"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ALBERT + SFVerifier (single model)",
+        "d": null,
+        "m1": "88.197",
+        "m2": "90.830"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "{alber_m_transfor} (single model)",
+        "d": null,
+        "m1": "88.186",
+        "m2": "90.939"
+      },
+      {
+        "p": {
+          "name": "SG-Net: Syntax-Guided Machine Reading Comprehension",
+          "link": "https://arxiv.org/abs/1908.05147v3"
+        },
+        "c": "https://github.com/cooelf/SG-Net",
+        "n": "XLNet + SG-Net Verifier (ensemble)",
+        "d": "2019-08-14",
+        "m1": "88.174",
+        "m2": "90.702"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Retro-Reader on ALBERT (single model)",
+        "d": null,
+        "m1": "88.107",
+        "m2": "91.419"
+      },
+      {
+        "p": {
+          "name": "Retrospective Reader for Machine Reading Comprehension",
+          "link": "https://arxiv.org/abs/2001.09694v4"
+        },
+        "c": "https://github.com/cooelf/AwesomeMRC",
+        "n": "Retro-Reader on ALBERT (single model)",
+        "d": "2020-01-27",
+        "m1": "88.107",
+        "m2": "91.419"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ALBERT (single model)",
+        "d": null,
+        "m1": "88.107",
+        "m2": "90.902"
+      },
+      {
+        "p": {
+          "name": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "link": "https://arxiv.org/abs/1909.11942v6"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ALBERT (single model)",
+        "d": "2019-09-26",
+        "m1": "88.107",
+        "m2": "90.902"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "{MTL} (single model)",
+        "d": null,
+        "m1": "88.107",
+        "m2": "90.902"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "MTL (single model)",
+        "d": null,
+        "m1": "88.107",
+        "m2": "90.902"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "albert_with_tricks (single)",
+        "d": null,
+        "m1": "88.073",
+        "m2": "91.179"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ALBert (single-model)",
+        "d": null,
+        "m1": "88.050",
+        "m2": "91.036"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "XLNet + SG-Net Verifier (ensemble)",
+        "d": null,
+        "m1": "88.050",
+        "m2": "90.645"
+      },
+      {
+        "p": {
+          "name": "DeBERTa: Decoding-enhanced BERT with Disentangled Attention",
+          "link": "https://arxiv.org/abs/2006.03654v6"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "DeBERTalarge",
+        "d": "2020-06-05",
+        "m1": "88.0",
+        "m2": "90.7"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ALBERT 1.1 Th (single model)",
+        "d": null,
+        "m1": "87.994",
+        "m2": "90.944"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "SkERT-Large (single model)",
+        "d": null,
+        "m1": "87.994",
+        "m2": "90.944"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "albert+KD+transfer+twopass (single)",
+        "d": null,
+        "m1": "87.949",
+        "m2": "90.818"
+      },
+      {
+        "p": {
+          "name": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+          "link": "https://arxiv.org/abs/1906.08237v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "XLNet (single model)",
+        "d": "2019-06-19",
+        "m1": "87.926",
+        "m2": "90.689"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ALBERT+RL (single model)",
+        "d": null,
+        "m1": "87.870",
+        "m2": "90.823"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ALBERT+Entailment DA Verifier (single model)",
+        "d": null,
+        "m1": "87.847",
+        "m2": "91.265"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Tuned ALBERT (single model)",
+        "d": null,
+        "m1": "87.847",
+        "m2": "90.532"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "albert_xxlarge (single model)",
+        "d": null,
+        "m1": "87.802",
+        "m2": "90.872"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ALBERT 1.1 (single model)",
+        "d": null,
+        "m1": "87.700",
+        "m2": "90.588"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "LUKE (single model)",
+        "d": null,
+        "m1": "87.429",
+        "m2": "90.163"
+      },
+      {
+        "p": {
+          "name": "LUKE: Deep Contextualized Entity Representations with Entity-aware Self-attention",
+          "link": "https://arxiv.org/abs/2010.01057v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LUKE (single model)",
+        "d": "2020-10-02",
+        "m1": "87.429",
+        "m2": "90.163"
+      },
+      {
+        "p": {
+          "name": "SG-Net: Syntax-Guided Machine Reading Comprehension",
+          "link": "https://arxiv.org/abs/1908.05147v3"
+        },
+        "c": "https://github.com/cooelf/SG-Net",
+        "n": "XLNet + SG-Net Verifier++ (single model)",
+        "d": "2019-08-14",
+        "m1": "87.238",
+        "m2": "90.071"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "UPM (single model)",
+        "d": null,
+        "m1": "87.193",
+        "m2": "89.934"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT + DAE + AoA (ensemble)",
+        "d": null,
+        "m1": "87.147",
+        "m2": "89.474"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "XLNet + SG-Net Verifier (single model)",
+        "d": null,
+        "m1": "87.046",
+        "m2": "89.899"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "RoBERTa+Verify (ensemble)",
+        "d": null,
+        "m1": "86.933",
+        "m2": "90.037"
+      },
+      {
+        "p": {
+          "name": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "link": "https://arxiv.org/abs/1907.11692v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "RoBERTa (single model)",
+        "d": "2019-07-26",
+        "m1": "86.820",
+        "m2": "89.795"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "RoBERTa (single model)",
+        "d": null,
+        "m1": "86.820",
+        "m2": "89.795"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT + ConvLSTM + MTL + Verifier (ensemble)",
+        "d": null,
+        "m1": "86.730",
+        "m2": "89.286"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT + N-Gram Masking + Synthetic Self-Training (ensemble)",
+        "d": null,
+        "m1": "86.673",
+        "m2": "89.147"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "RoBERTa+Span (ensemble)",
+        "d": null,
+        "m1": "86.651",
+        "m2": "89.595"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Xlnet+Verifier",
+        "d": null,
+        "m1": "86.594",
+        "m2": "89.082"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Xlnet+Verifier(single model)",
+        "d": null,
+        "m1": "86.572",
+        "m2": "89.063"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Xlnet+Verifier (single model)",
+        "d": null,
+        "m1": "86.572",
+        "m2": "89.063"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "RoBERTa+Verify (single model)",
+        "d": null,
+        "m1": "86.448",
+        "m2": "89.586"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "XLNET-123 (single model)",
+        "d": null,
+        "m1": "86.436",
+        "m2": "89.086"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "XLNET-V2-123+ (single model)",
+        "d": null,
+        "m1": "86.403",
+        "m2": "89.148"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "XLNet (single model)",
+        "d": null,
+        "m1": "86.346",
+        "m2": "89.133"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "SG-Net (ensemble)",
+        "d": null,
+        "m1": "86.211",
+        "m2": "88.848"
+      },
+      {
+        "p": {
+          "name": "SG-Net: Syntax-Guided Machine Reading Comprehension",
+          "link": "https://arxiv.org/abs/1908.05147v3"
+        },
+        "c": "https://github.com/cooelf/SG-Net",
+        "n": "SG-Net (ensemble)",
+        "d": "2019-08-14",
+        "m1": "86.211",
+        "m2": "88.848"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT++(ensemble)",
+        "d": null,
+        "m1": "86.166",
+        "m2": "88.886"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "SemBERT(ensemble)",
+        "d": null,
+        "m1": "86.166",
+        "m2": "88.886"
+      },
+      {
+        "p": {
+          "name": "Semantics-aware BERT for Language Understanding",
+          "link": "https://arxiv.org/abs/1909.02209v3"
+        },
+        "c": "https://github.com/cooelf/SemBERT",
+        "n": "SemBERT(ensemble)",
+        "d": "2019-09-05",
+        "m1": "86.166",
+        "m2": "88.886"
+      },
+      {
+        "p": {
+          "name": "Semantics-aware BERT for Language Understanding",
+          "link": "https://arxiv.org/abs/1909.02209v3"
+        },
+        "c": "https://github.com/cooelf/SemBERT",
+        "n": "SemBERT (ensemble)",
+        "d": "2019-09-05",
+        "m1": "86.166",
+        "m2": "88.886"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Enhanced Albert+Verifier (ensemble)",
+        "d": null,
+        "m1": "86.098",
+        "m2": "89.634"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT + DAE + AoA (single model)",
+        "d": null,
+        "m1": "85.884",
+        "m2": "88.621"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "RoBERTa+Span (single model)",
+        "d": null,
+        "m1": "85.872",
+        "m2": "88.989"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "RoBERTa-Large (ensemble model)",
+        "d": null,
+        "m1": "85.872",
+        "m2": "88.793"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BNDVnet (ensemble model)",
+        "d": null,
+        "m1": "85.850",
+        "m2": "88.449"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Unnamed submission by guo",
+        "d": null,
+        "m1": "85.838",
+        "m2": "88.921"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERTSP(single model)",
+        "d": null,
+        "m1": "85.838",
+        "m2": "88.921"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERTSP (single model)",
+        "d": null,
+        "m1": "85.838",
+        "m2": "88.921"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Enhanced Albert+Verifier3 (ensemble)",
+        "d": null,
+        "m1": "85.827",
+        "m2": "89.778"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "SENSEFORTH + XLNet (single model)",
+        "d": null,
+        "m1": "85.827",
+        "m2": "88.699"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "SpanBERT (single model)",
+        "d": null,
+        "m1": "85.748",
+        "m2": "88.709"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "SemBERT (ensemble model)",
+        "d": null,
+        "m1": "85.703",
+        "m2": "88.400"
+      },
+      {
+        "p": {
+          "name": "SpanBERT: Improving Pre-training by Representing and Predicting Spans",
+          "link": "https://arxiv.org/abs/1907.10529v3"
+        },
+        "c": "https://github.com/facebookresearch/SpanBERT",
+        "n": "SpanBERT",
+        "d": "2019-07-24",
+        "m1": "85.7",
+        "m2": "88.7"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BertCNN (single model)",
+        "d": null,
+        "m1": "85.240",
+        "m2": "87.901"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "SG-Net (single model)",
+        "d": null,
+        "m1": "85.229",
+        "m2": "87.926"
+      },
+      {
+        "p": {
+          "name": "SG-Net: Syntax-Guided Machine Reading Comprehension",
+          "link": "https://arxiv.org/abs/1908.05147v3"
+        },
+        "c": "https://github.com/cooelf/SG-Net",
+        "n": "SG-Net (single model)",
+        "d": "2019-08-14",
+        "m1": "85.229",
+        "m2": "87.926"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "RoBERTa-Large (single model)",
+        "d": null,
+        "m1": "85.173",
+        "m2": "88.425"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT + N-Gram Masking + Synthetic Self-Training (single model)",
+        "d": null,
+        "m1": "85.150",
+        "m2": "87.715"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT + MMFT + ADA (ensemble)",
+        "d": null,
+        "m1": "85.082",
+        "m2": "87.615"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BNDVnet (single model)",
+        "d": null,
+        "m1": "85.003",
+        "m2": "87.833"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT + ConvLSTM + MTL + Verifier (single model)",
+        "d": null,
+        "m1": "84.924",
+        "m2": "88.204"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Insight-baseline-BERT (single model)",
+        "d": null,
+        "m1": "84.834",
+        "m2": "87.644"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BertSpan (ensemble)",
+        "d": null,
+        "m1": "84.823",
+        "m2": "87.489"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "SemBERT (single model)",
+        "d": null,
+        "m1": "84.800",
+        "m2": "87.864"
+      },
+      {
+        "p": {
+          "name": "Semantics-aware BERT for Language Understanding",
+          "link": "https://arxiv.org/abs/1909.02209v3"
+        },
+        "c": "https://github.com/cooelf/SemBERT",
+        "n": "SemBERT (single model)",
+        "d": "2019-09-05",
+        "m1": "84.800",
+        "m2": "87.864"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Hanvon_model(single model)",
+        "d": null,
+        "m1": "84.721",
+        "m2": "87.117"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Hanvon_model (single model)",
+        "d": null,
+        "m1": "84.721",
+        "m2": "87.117"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "xlnet",
+        "d": null,
+        "m1": "84.642",
+        "m2": "88.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "xlnet(single model)",
+        "d": null,
+        "m1": "84.642",
+        "m2": "88.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "xlnet (single model)",
+        "d": null,
+        "m1": "84.642",
+        "m2": "88.000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT++(single model)",
+        "d": null,
+        "m1": "84.620",
+        "m2": "87.625"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT + Synthetic Self-Training (ensemble)",
+        "d": null,
+        "m1": "84.292",
+        "m2": "86.967"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT + Multiple-CNN (ensemble)(Kyonggi University",
+        "d": null,
+        "m1": "84.202",
+        "m2": "86.767"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT + Multiple-CNN (ensemble)",
+        "d": null,
+        "m1": "84.202",
+        "m2": "86.767"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "RoberTa Parallel Adapters Singl",
+        "d": null,
+        "m1": "84.123",
+        "m2": "87.013"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "RoberTa Parallel Adapters Single",
+        "d": null,
+        "m1": "84.123",
+        "m2": "87.013"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "RoberTa+Parallel+Adapters (single model)",
+        "d": null,
+        "m1": "84.123",
+        "m2": "87.013"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "SemNet (single model)",
+        "d": null,
+        "m1": "83.819",
+        "m2": "86.669"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Tuned BERT-1seq Large Cased (single model)",
+        "d": null,
+        "m1": "83.751",
+        "m2": "86.594"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT finetune baseline (ensemble)",
+        "d": null,
+        "m1": "83.536",
+        "m2": "86.096"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "SynNet (single model)",
+        "d": null,
+        "m1": "83.525",
+        "m2": "86.222"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Lunet + Verifier + BERT (ensemble)",
+        "d": null,
+        "m1": "83.469",
+        "m2": "86.043"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "PAML+BERT (ensemble model)",
+        "d": null,
+        "m1": "83.457",
+        "m2": "86.122"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Unnamed submission by Senseforth_AI",
+        "d": null,
+        "m1": "83.142",
+        "m2": "85.873"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "SENSEFORTH + BERT",
+        "d": null,
+        "m1": "83.142",
+        "m2": "85.873"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Bert-raw (ensemble)",
+        "d": null,
+        "m1": "83.119",
+        "m2": "85.510"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT with Something (ensemble)",
+        "d": null,
+        "m1": "83.051",
+        "m2": "85.737"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT + MMFT + ADA (single model)",
+        "d": null,
+        "m1": "83.040",
+        "m2": "85.892"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Lunet + Verifier + BERT (single model)",
+        "d": null,
+        "m1": "82.995",
+        "m2": "86.035"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT + Synthetic Self-Training (single model)",
+        "d": null,
+        "m1": "82.972",
+        "m2": "85.810"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "mgrc_l (single model)",
+        "d": null,
+        "m1": "82.961",
+        "m2": "86.075"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ATB (single model)",
+        "d": null,
+        "m1": "82.882",
+        "m2": "86.002"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Tuned BERT Large Cased (single model)",
+        "d": null,
+        "m1": "82.803",
+        "m2": "85.863"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT-Base + QA Pre-training (single model)",
+        "d": null,
+        "m1": "82.724",
+        "m2": "85.491"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT + NeurQuRI (ensemble)",
+        "d": null,
+        "m1": "82.713",
+        "m2": "85.584"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "PAML+BERT (single model)",
+        "d": null,
+        "m1": "82.577",
+        "m2": "85.603"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Unnamed submission by cooelf",
+        "d": null,
+        "m1": "82.431",
+        "m2": "85.178"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "AoA + DA + BERT (ensemble)",
+        "d": null,
+        "m1": "82.374",
+        "m2": "85.310"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BART + Adapters + Lohfink-Rossi-Leaveout (single-model)",
+        "d": null,
+        "m1": "82.306",
+        "m2": "85.670"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT finetune baseline (single model)",
+        "d": null,
+        "m1": "82.126",
+        "m2": "84.820"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Candi-Net+BERT (ensemble)",
+        "d": null,
+        "m1": "82.126",
+        "m2": "84.624"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT-Base PMI-Masking Additional Data (single model)",
+        "d": null,
+        "m1": "82.024",
+        "m2": "84.854"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT_s (single model)",
+        "d": null,
+        "m1": "81.979",
+        "m2": "84.846"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Unnamed submission by zw10",
+        "d": null,
+        "m1": "81.731",
+        "m2": "84.862"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT-large+UBFT (single model)",
+        "d": null,
+        "m1": "81.573",
+        "m2": "84.535"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "AoA + DA + BERT (single model)",
+        "d": null,
+        "m1": "81.178",
+        "m2": "84.251"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT with Something (single model)",
+        "d": null,
+        "m1": "81.110",
+        "m2": "84.386"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT-Base PMI-Masking (single model)",
+        "d": null,
+        "m1": "80.896",
+        "m2": "83.604"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT + UnAnsQ (single model)",
+        "d": null,
+        "m1": "80.749",
+        "m2": "83.851"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT + AL (single model)",
+        "d": null,
+        "m1": "80.715",
+        "m2": "83.827"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT + NeurQuRI (single model)",
+        "d": null,
+        "m1": "80.591",
+        "m2": "83.391"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERTlarge (ensemble)",
+        "d": null,
+        "m1": "80.456",
+        "m2": "83.509"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Bert",
+        "d": null,
+        "m1": "80.422",
+        "m2": "83.118"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Bert-raw (single)",
+        "d": null,
+        "m1": "80.411",
+        "m2": "83.457"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Candi-Net+BERT (single model)",
+        "d": null,
+        "m1": "80.388",
+        "m2": "82.908"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "PMI-Masking Additional Data Random Baseline (single model)",
+        "d": null,
+        "m1": "80.377",
+        "m2": "83.262"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Unnamed submission by zw4",
+        "d": null,
+        "m1": "80.354",
+        "m2": "83.329"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "{Bert-Span} (single model)",
+        "d": null,
+        "m1": "80.354",
+        "m2": "83.329"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Bert-raw (single model)",
+        "d": null,
+        "m1": "80.343",
+        "m2": "83.243"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "PMI-Masking Pure-PMI (single model)",
+        "d": null,
+        "m1": "80.241",
+        "m2": "83.175"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BISAN-CC (single model)",
+        "d": null,
+        "m1": "80.208",
+        "m2": "83.149"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ST_bl",
+        "d": null,
+        "m1": "80.140",
+        "m2": "82.962"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "PwP+BERT (single model)",
+        "d": null,
+        "m1": "80.117",
+        "m2": "83.189"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "PMI-Masking Random Baseline (single model)",
+        "d": null,
+        "m1": "80.038",
+        "m2": "82.796"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT + UDA (single model)",
+        "d": null,
+        "m1": "80.005",
+        "m2": "83.208"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "PMI-Masking Additional Data Pure-PMI (single model)",
+        "d": null,
+        "m1": "79.993",
+        "m2": "83.039"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Original BERT Large Cased (single model)",
+        "d": null,
+        "m1": "79.971",
+        "m2": "83.266"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "bert (single model)",
+        "d": null,
+        "m1": "79.971",
+        "m2": "83.184"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT + Sparse-Transformer",
+        "d": null,
+        "m1": "79.948",
+        "m2": "83.023"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Insight-baseline (single model)",
+        "d": null,
+        "m1": "79.779",
+        "m2": "83.099"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "NEXYS_BASE (single model)",
+        "d": null,
+        "m1": "79.779",
+        "m2": "82.912"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT uncased (single model)",
+        "d": null,
+        "m1": "79.745",
+        "m2": "83.020"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "{bert-finetuning} (single model)",
+        "d": null,
+        "m1": "79.632",
+        "m2": "82.852"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "L6Net + BERT (single model)",
+        "d": null,
+        "m1": "79.181",
+        "m2": "82.259"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Fusion Adapters TriviaQA NQ Singl",
+        "d": null,
+        "m1": "78.933",
+        "m2": "81.863"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "RoberTa Fusion Adapters Single",
+        "d": null,
+        "m1": "78.933",
+        "m2": "81.863"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "RoberTa+Fusion+Adapters (single model)",
+        "d": null,
+        "m1": "78.933",
+        "m2": "81.863"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "{Anonymous} (single model)",
+        "d": null,
+        "m1": "78.876",
+        "m2": "82.524"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT + WIAN (ensemble)",
+        "d": null,
+        "m1": "78.650",
+        "m2": "81.497"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERTlarge (single model)",
+        "d": null,
+        "m1": "78.650",
+        "m2": "81.474"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "AMBERT (single model)",
+        "d": null,
+        "m1": "78.594",
+        "m2": "81.445"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BISAN (single model)",
+        "d": null,
+        "m1": "78.481",
+        "m2": "81.531"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT-Large-Cased (single model)",
+        "d": null,
+        "m1": "78.357",
+        "m2": "81.500"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT-Large-Cased",
+        "d": null,
+        "m1": "78.357",
+        "m2": "81.500"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT+AC(single model)",
+        "d": null,
+        "m1": "78.052",
+        "m2": "81.174"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT+AC (single model)",
+        "d": null,
+        "m1": "78.052",
+        "m2": "81.174"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT (single model)",
+        "d": null,
+        "m1": "77.319",
+        "m2": "80.310"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "TriviaQA Adapter Single Tune",
+        "d": null,
+        "m1": "77.262",
+        "m2": "80.258"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "RoberTa Adapter Single",
+        "d": null,
+        "m1": "77.262",
+        "m2": "80.258"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "RoberTa+Adapter (single model)",
+        "d": null,
+        "m1": "77.262",
+        "m2": "80.258"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "SLQA+BERT (single model)",
+        "d": null,
+        "m1": "77.003",
+        "m2": "80.209"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "AMBERT-H (single model)",
+        "d": null,
+        "m1": "76.710",
+        "m2": "79.659"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "AMBERT-S (single model)",
+        "d": null,
+        "m1": "76.563",
+        "m2": "79.776"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "synss (single model )",
+        "d": null,
+        "m1": "76.055",
+        "m2": "79.329"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "synss (single model)",
+        "d": null,
+        "m1": "76.055",
+        "m2": "79.329"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT-Base-L (single model)",
+        "d": null,
+        "m1": "75.457",
+        "m2": "78.232"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "mgrc",
+        "d": null,
+        "m1": "75.344",
+        "m2": "78.381"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT-Base-V (single model)",
+        "d": null,
+        "m1": "75.073",
+        "m2": "77.805"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "MIR-MRC(F-Net) (single model)",
+        "d": null,
+        "m1": "74.791",
+        "m2": "77.988"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "MIR-MRC (F-Net)",
+        "d": null,
+        "m1": "74.791",
+        "m2": "77.988"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT-Base-DT (single model)",
+        "d": null,
+        "m1": "74.769",
+        "m2": "77.706"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ARSG-BERT (single model)",
+        "d": null,
+        "m1": "74.746",
+        "m2": "78.227"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT-Base-V2",
+        "d": null,
+        "m1": "74.656",
+        "m2": "77.404"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT-Base-DP (single model)",
+        "d": null,
+        "m1": "74.577",
+        "m2": "77.464"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "{BERTcw} (single model)",
+        "d": null,
+        "m1": "74.385",
+        "m2": "77.308"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT-Base-Add (single model)",
+        "d": null,
+        "m1": "74.329",
+        "m2": "77.396"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "nlnet (single model)",
+        "d": null,
+        "m1": "74.272",
+        "m2": "77.052"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "batch2 (single model)",
+        "d": null,
+        "m1": "73.742",
+        "m2": "76.858"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "MMIPN",
+        "d": null,
+        "m1": "73.505",
+        "m2": "76.424"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT-Base-Baseline (single model)",
+        "d": null,
+        "m1": "73.302",
+        "m2": "76.284"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT-Base (single model)",
+        "d": null,
+        "m1": "73.099",
+        "m2": "76.236"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ICL_MODEL(ensemble)",
+        "d": null,
+        "m1": "72.884",
+        "m2": "76.217"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ICL_MODEL (ensemble)",
+        "d": null,
+        "m1": "72.884",
+        "m2": "76.217"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "YARCS (ensemble)",
+        "d": null,
+        "m1": "72.670",
+        "m2": "75.507"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT-base",
+        "d": null,
+        "m1": "72.072",
+        "m2": "75.513"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERTBase (single model)",
+        "d": null,
+        "m1": "72.072",
+        "m2": "75.513"
+      },
+      {
+        "p": {
+          "name": "Read + Verify: Machine Reading Comprehension with Unanswerable Questions",
+          "link": "http://arxiv.org/abs/1808.05759v5"
+        },
+        "c": "",
+        "n": "Reinforced Mnemonic Reader + Answer Verifier (single model)",
+        "d": "2018-08-17",
+        "m1": "71.767",
+        "m2": "74.295"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT-Base (single)",
+        "d": null,
+        "m1": "71.699",
+        "m2": "74.430"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT+Answer Verifier (single model)",
+        "d": null,
+        "m1": "71.666",
+        "m2": "75.457"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "SLQA+ (single model)",
+        "d": null,
+        "m1": "71.462",
+        "m2": "74.434"
+      },
+      {
+        "p": {
+          "name": "U-Net: Machine Reading Comprehension with Unanswerable Questions",
+          "link": "http://arxiv.org/abs/1810.06638v1"
+        },
+        "c": "https://github.com/FudanNLP/UNet",
+        "n": "Unet (ensemble)",
+        "d": "2018-10-12",
+        "m1": "71.417",
+        "m2": "74.869"
+      },
+      {
+        "p": {
+          "name": "Stochastic Answer Networks for Machine Reading Comprehension",
+          "link": "http://arxiv.org/abs/1712.03556v2"
+        },
+        "c": "https://github.com/kevinduh/san_mrc",
+        "n": "SAN (ensemble model)",
+        "d": "2017-12-10",
+        "m1": "71.316",
+        "m2": "73.704"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "HYDRA_BERT (single model)",
+        "d": null,
+        "m1": "71.293",
+        "m2": "74.578"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "{BERT-base} (single-model)",
+        "d": null,
+        "m1": "70.763",
+        "m2": "74.449"
+      },
+      {
+        "p": {
+          "name": "FusionNet: Fusing via Fully-Aware Attention with Application to Machine Comprehension",
+          "link": "http://arxiv.org/abs/1711.07341v2"
+        },
+        "c": "https://github.com/momohuang/FusionNet-NLI",
+        "n": "FusionNet++ (ensemble)",
+        "d": "2017-11-16",
+        "m1": "70.300",
+        "m2": "72.484"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Multi-Level Attention Fusion(MLAF) (single model)",
+        "d": null,
+        "m1": "69.476",
+        "m2": "72.857"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Multi-Level Attention Fusion (MLAF)",
+        "d": null,
+        "m1": "69.476",
+        "m2": "72.857"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Unet (single model)",
+        "d": null,
+        "m1": "69.262",
+        "m2": "72.642"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "DocQA + NeurQuRI (single model)",
+        "d": null,
+        "m1": "68.766",
+        "m2": "71.662"
+      },
+      {
+        "p": {
+          "name": "Stochastic Answer Networks for Machine Reading Comprehension",
+          "link": "http://arxiv.org/abs/1712.03556v2"
+        },
+        "c": "https://github.com/kevinduh/san_mrc",
+        "n": "SAN (single model)",
+        "d": "2017-12-10",
+        "m1": "68.653",
+        "m2": "71.439"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "KACTEIL-MRC(GFN-Net) (single model)",
+        "d": null,
+        "m1": "68.213",
+        "m2": "70.878"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "KACTEIL-MRC (GFN-Net)",
+        "d": null,
+        "m1": "68.213",
+        "m2": "70.878"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BiDAF++ with pair2vec (single model)",
+        "d": null,
+        "m1": "68.021",
+        "m2": "71.583"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "VS^3-NET (single model)",
+        "d": null,
+        "m1": "67.897",
+        "m2": "70.884"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "EBB-Net (single model)",
+        "d": null,
+        "m1": "66.610",
+        "m2": "70.303"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "KakaoNet2 (single model)",
+        "d": null,
+        "m1": "65.719",
+        "m2": "69.381"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BiDAF++ (single model)",
+        "d": null,
+        "m1": "65.651",
+        "m2": "68.866"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "abcNet (single model)",
+        "d": null,
+        "m1": "65.256",
+        "m2": "69.206"
+      },
+      {
+        "p": {
+          "name": "Deep contextualized word representations",
+          "link": "http://arxiv.org/abs/1802.05365v2"
+        },
+        "c": "https://github.com/flairNLP/flair",
+        "n": "BiDAF + Self Attention + ELMo (single model)",
+        "d": "2018-02-15",
+        "m1": "63.372",
+        "m2": "66.251"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BiDAF + Self Attention + ELMo (single model)",
+        "d": null,
+        "m1": "63.372",
+        "m2": "66.251"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BSAE AddText (single model)",
+        "d": null,
+        "m1": "63.338",
+        "m2": "67.422"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "eeAttNet (single model)",
+        "d": null,
+        "m1": "63.327",
+        "m2": "66.633"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BiDAF + Self Attention (single model)",
+        "d": null,
+        "m1": "59.332",
+        "m2": "62.305"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BiDAF-No-Answer (single model)",
+        "d": null,
+        "m1": "59.174",
+        "m2": "62.093"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BNA + SoftDrop (single model)",
+        "d": null,
+        "m1": "58.508",
+        "m2": "62.045"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Tree-LSTM + BiDAF + ELMo (single model)",
+        "d": null,
+        "m1": "57.707",
+        "m2": "62.341"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BNA + HardDrop (single model)",
+        "d": null,
+        "m1": "56.545",
+        "m2": "59.546"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Unnamed submission by Simon",
+        "d": null,
+        "m1": "56.545",
+        "m2": "59.546"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Anonymous (single model)",
+        "d": null,
+        "m1": "49.695",
+        "m2": "49.701"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "{FOO} (single model)",
+        "d": null,
+        "m1": "48.883",
+        "m2": "48.883"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Bert Large Sentence (Single Model)",
+        "d": null,
+        "m1": "48.804",
+        "m2": "48.815"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "XLNet + DAAF + BERTverifier (ensemble)",
+        "d": null,
+        "m1": "44.945",
+        "m2": "47.994"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "TSAN",
+        "d": null,
+        "m1": "40.397",
+        "m2": "43.213"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "",
+        "d": null,
+        "m1": "27.217",
+        "m2": "29.597"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "CHECK SYSTEM (single model)",
+        "d": null,
+        "m1": "4.830",
+        "m2": "5.920"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "5cls_squad1_fai",
+        "d": null,
+        "m1": "0.068",
+        "m2": "3.971"
+      },
+      {
+        "p": {
+          "name": "LUKE: Deep Contextualized Entity Representations with Entity-aware Self-attention",
+          "link": "https://arxiv.org/abs/2010.01057v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LUKE 483M",
+        "d": "2020-10-02",
+        "m2": "90.2"
+      },
+      {
+        "p": {
+          "name": "Ensemble ALBERT on SQuAD 2.0",
+          "link": "https://arxiv.org/abs/2110.09665v1"
+        },
+        "c": "https://github.com/Shilun-Allan-Li/Ensemble-ALBERT-on-SQuAD-2.0",
+        "n": "Ensemble ALBERT",
+        "d": "2021-10-19",
+        "m2": "90.123"
+      },
+      {
+        "p": {
+          "name": "Pay Attention to MLPs",
+          "link": "https://arxiv.org/abs/2105.08050v2"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+        "n": "gMLP-large",
+        "d": "2021-05-17",
+        "m2": "78.3"
+      }
+    ]
+  }
+}

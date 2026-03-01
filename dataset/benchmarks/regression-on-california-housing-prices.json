@@ -1,0 +1,73 @@
+{
+  "title": "regression-on-california-housing-prices",
+  "task-hierarchy": [
+    "regression"
+  ],
+  "dataset-info": {
+    "link": "https://www.kaggle.com/datasets/camnugent/california-housing-prices"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "R2 Score",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "lambda",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Fidelity Isn't Accuracy: When Linearly Decodable Functions Fail to Match the Ground Truth",
+          "link": "https://arxiv.org/abs/2506.12176v1"
+        },
+        "c": "https://github.com/jacksoneshbaugh/lambda-linearity-score",
+        "n": "Neural Network",
+        "d": "2025-06-13",
+        "m1": "0.7908",
+        "m2": "0.6968"
+      },
+      {
+        "p": {
+          "name": "Fidelity Isn't Accuracy: When Linearly Decodable Functions Fail to Match the Ground Truth",
+          "link": "https://arxiv.org/abs/2506.12176v1"
+        },
+        "c": "https://github.com/jacksoneshbaugh/lambda-linearity-score",
+        "n": "Baseline Regression",
+        "d": "2025-06-13",
+        "m1": "0.5758"
+      },
+      {
+        "p": {
+          "name": "Fidelity Isn't Accuracy: When Linearly Decodable Functions Fail to Match the Ground Truth",
+          "link": "https://arxiv.org/abs/2506.12176v1"
+        },
+        "c": "https://github.com/jacksoneshbaugh/lambda-linearity-score",
+        "n": "Mimic / Surrogate",
+        "d": "2025-06-13",
+        "m1": "0.5658"
+      }
+    ]
+  }
+}

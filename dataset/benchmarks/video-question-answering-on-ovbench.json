@@ -1,0 +1,194 @@
+{
+  "title": "video-question-answering-on-ovbench",
+  "task-hierarchy": [
+    "Video Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://videochat-online.github.io/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AVG",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Seed1.5-VL Technical Report",
+          "link": "https://arxiv.org/abs/2505.07062v1"
+        },
+        "c": "",
+        "n": "Seed1.5-VL",
+        "d": "2025-05-11",
+        "m1": "60.0"
+      },
+      {
+        "p": {
+          "name": "Online Video Understanding: OVBench and VideoChat-Online",
+          "link": "https://arxiv.org/abs/2501.00584v2"
+        },
+        "c": "https://github.com/MCG-NJU/VideoChat-Online",
+        "n": "VideoChat-Online (4B)",
+        "d": "2024-12-31",
+        "m1": "54.9"
+      },
+      {
+        "p": {
+          "name": "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context",
+          "link": "https://arxiv.org/abs/2403.05530v5"
+        },
+        "c": "https://github.com/dlvuldet/primevul",
+        "n": "Gemini-1.5-Flash",
+        "d": "2024-03-08",
+        "m1": "50.7"
+      },
+      {
+        "p": {
+          "name": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+          "link": "https://arxiv.org/abs/2409.12191v2"
+        },
+        "c": "https://github.com/qwenlm/qwen2-vl",
+        "n": "Qwen2-VL (7B)",
+        "d": "2024-09-18",
+        "m1": "49.7"
+      },
+      {
+        "p": {
+          "name": "LLaVA-OneVision: Easy Visual Task Transfer",
+          "link": "https://arxiv.org/abs/2408.03326v3"
+        },
+        "c": "https://github.com/evolvinglmms-lab/lmms-eval",
+        "n": "LLaVA-OneVision (7B)",
+        "d": "2024-08-06",
+        "m1": "49.5"
+      },
+      {
+        "p": {
+          "name": "Expanding Performance Boundaries of Open-Source Multimodal Models with Model, Data, and Test-Time Scaling",
+          "link": "https://arxiv.org/abs/2412.05271v4"
+        },
+        "c": "https://github.com/opengvlab/internvl",
+        "n": "InternVL2 (7B)",
+        "d": "2024-12-06",
+        "m1": "48.7"
+      },
+      {
+        "p": {
+          "name": "Expanding Performance Boundaries of Open-Source Multimodal Models with Model, Data, and Test-Time Scaling",
+          "link": "https://arxiv.org/abs/2412.05271v4"
+        },
+        "c": "https://github.com/opengvlab/internvl",
+        "n": "InternVL2 (4B)",
+        "d": "2024-12-06",
+        "m1": "44.1"
+      },
+      {
+        "p": {
+          "name": "Long Context Transfer from Language to Vision",
+          "link": "https://arxiv.org/abs/2406.16852v2"
+        },
+        "c": "https://github.com/jzhang38/EasyContext",
+        "n": "LongVA (7B)",
+        "d": "2024-06-24",
+        "m1": "43.6"
+      },
+      {
+        "p": {
+          "name": "LLaMA-VID: An Image is Worth 2 Tokens in Large Language Models",
+          "link": "https://arxiv.org/abs/2311.17043v1"
+        },
+        "c": "https://github.com/lastmile-ai/aiconfig",
+        "n": "LLaMA-VID (7B)",
+        "d": "2023-11-28",
+        "m1": "41.9"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "MiniCPM-V 2.6 (7B)",
+        "d": null,
+        "m1": "39.1"
+      },
+      {
+        "p": {
+          "name": "VTimeLLM: Empower LLM to Grasp Video Moments",
+          "link": "https://arxiv.org/abs/2311.18445v1"
+        },
+        "c": "https://github.com/huangb23/vtimellm",
+        "n": "VTimeLLM (7B)",
+        "d": "2023-11-30",
+        "m1": "33.1"
+      },
+      {
+        "p": {
+          "name": "Flash-VStream: Memory-Based Real-Time Understanding for Long Video Streams",
+          "link": "https://arxiv.org/abs/2406.08085v2"
+        },
+        "c": "https://github.com/IVGSZ/Flash-VStream",
+        "n": "Flash-Vstream (7B)",
+        "d": "2024-06-12",
+        "m1": "31.2"
+      },
+      {
+        "p": {
+          "name": "MovieChat: From Dense Token to Sparse Memory for Long Video Understanding",
+          "link": "https://arxiv.org/abs/2307.16449v4"
+        },
+        "c": "https://github.com/rese1f/MovieChat",
+        "n": "MovieChat (7B)",
+        "d": "2023-07-31",
+        "m1": "30.9"
+      },
+      {
+        "p": {
+          "name": "LITA: Language Instructed Temporal-Localization Assistant",
+          "link": "https://arxiv.org/abs/2403.19046v1"
+        },
+        "c": "https://github.com/nvlabs/lita",
+        "n": "LITA (7B)",
+        "d": "2024-03-27",
+        "m1": "20.4"
+      },
+      {
+        "p": {
+          "name": "TimeChat: A Time-sensitive Multimodal Large Language Model for Long Video Understanding",
+          "link": "https://arxiv.org/abs/2312.02051v2"
+        },
+        "c": "https://github.com/renshuhuai-andy/timechat",
+        "n": "TimeChat (7B)",
+        "d": "2023-12-04",
+        "m1": "12.8"
+      },
+      {
+        "p": {
+          "name": "VideoLLM-online: Online Video Large Language Model for Streaming Video",
+          "link": "https://arxiv.org/abs/2406.11816v1"
+        },
+        "c": "",
+        "n": "VideoLLM-Online (7B)",
+        "d": "2024-06-17",
+        "m1": "9.6"
+      }
+    ]
+  }
+}

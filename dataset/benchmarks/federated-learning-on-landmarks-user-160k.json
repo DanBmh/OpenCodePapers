@@ -1,0 +1,97 @@
+{
+  "title": "federated-learning-on-landmarks-user-160k",
+  "task-hierarchy": [
+    "Federated Learning"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Acc@1-1262Clients",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Improving Generalization in Federated Learning by Seeking Flat Minima",
+          "link": "https://arxiv.org/abs/2203.11834v3"
+        },
+        "c": "https://github.com/debcaldarola/fedsam",
+        "n": "FedASAM + SWA",
+        "d": "2022-03-22",
+        "m1": "68.32"
+      },
+      {
+        "p": {
+          "name": "Improving Generalization in Federated Learning by Seeking Flat Minima",
+          "link": "https://arxiv.org/abs/2203.11834v3"
+        },
+        "c": "https://github.com/debcaldarola/fedsam",
+        "n": "FedSAM + SWA",
+        "d": "2022-03-22",
+        "m1": "68.12"
+      },
+      {
+        "p": {
+          "name": "Improving Generalization in Federated Learning by Seeking Flat Minima",
+          "link": "https://arxiv.org/abs/2203.11834v3"
+        },
+        "c": "https://github.com/debcaldarola/fedsam",
+        "n": "FedAvg + SWA",
+        "d": "2022-03-22",
+        "m1": "67.52"
+      },
+      {
+        "p": {
+          "name": "Improving Generalization in Federated Learning by Seeking Flat Minima",
+          "link": "https://arxiv.org/abs/2203.11834v3"
+        },
+        "c": "https://github.com/debcaldarola/fedsam",
+        "n": "FedASAM",
+        "d": "2022-03-22",
+        "m1": "64.23"
+      },
+      {
+        "p": {
+          "name": "Improving Generalization in Federated Learning by Seeking Flat Minima",
+          "link": "https://arxiv.org/abs/2203.11834v3"
+        },
+        "c": "https://github.com/debcaldarola/fedsam",
+        "n": "FedSAM",
+        "d": "2022-03-22",
+        "m1": "63.72"
+      },
+      {
+        "p": {
+          "name": "Improving Generalization in Federated Learning by Seeking Flat Minima",
+          "link": "https://arxiv.org/abs/2203.11834v3"
+        },
+        "c": "https://github.com/debcaldarola/fedsam",
+        "n": "FedAvg",
+        "d": "2022-03-22",
+        "m1": "61.91"
+      }
+    ]
+  }
+}

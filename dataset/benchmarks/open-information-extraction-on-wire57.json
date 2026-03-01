@@ -1,0 +1,217 @@
+{
+  "title": "open-information-extraction-on-wire57",
+  "task-hierarchy": [
+    "Open Information Extraction"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/rali-udem/WiRe57"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "OpenIE6: Iterative Grid Labeling and Coordination Analysis for Open Information Extraction",
+          "link": "https://arxiv.org/abs/2010.03147v1"
+        },
+        "c": "https://github.com/dair-iitd/openie6",
+        "n": "CIGL-OIE + IGL-CA (OpenIE6)",
+        "d": "2020-10-07",
+        "m1": "40"
+      },
+      {
+        "p": {
+          "name": "OpenIE6: Iterative Grid Labeling and Coordination Analysis for Open Information Extraction",
+          "link": "https://arxiv.org/abs/2010.03147v1"
+        },
+        "c": "https://github.com/dair-iitd/openie6",
+        "n": "CIGL-OIE",
+        "d": "2020-10-07",
+        "m1": "36.8"
+      },
+      {
+        "p": {
+          "name": "OpenIE6: Iterative Grid Labeling and Coordination Analysis for Open Information Extraction",
+          "link": "https://arxiv.org/abs/2010.03147v1"
+        },
+        "c": "https://github.com/dair-iitd/openie6",
+        "n": "IMoJIE",
+        "d": "2020-10-07",
+        "m1": "36"
+      },
+      {
+        "p": {
+          "name": "WiRe57 : A Fine-Grained Benchmark for Open Information Extraction",
+          "link": "https://arxiv.org/abs/1809.08962v2"
+        },
+        "c": "https://github.com/rali-udem/WiRe57",
+        "n": "MinIE Gashteovski et al. (2017)",
+        "d": "2018-09-24",
+        "m1": "35.8"
+      },
+      {
+        "p": {
+          "name": "OpenIE6: Iterative Grid Labeling and Coordination Analysis for Open Information Extraction",
+          "link": "https://arxiv.org/abs/2010.03147v1"
+        },
+        "c": "https://github.com/dair-iitd/openie6",
+        "n": "OpenIE5",
+        "d": "2020-10-07",
+        "m1": "35.4"
+      },
+      {
+        "p": {
+          "name": "OpenIE6: Iterative Grid Labeling and Coordination Analysis for Open Information Extraction",
+          "link": "https://arxiv.org/abs/2010.03147v1"
+        },
+        "c": "https://github.com/dair-iitd/openie6",
+        "n": "IGL-OIE",
+        "d": "2020-10-07",
+        "m1": "34.9"
+      },
+      {
+        "p": {
+          "name": "OpenIE6: Iterative Grid Labeling and Coordination Analysis for Open Information Extraction",
+          "link": "https://arxiv.org/abs/2010.03147v1"
+        },
+        "c": "https://github.com/dair-iitd/openie6",
+        "n": "OpenIE4",
+        "d": "2020-10-07",
+        "m1": "34.4"
+      },
+      {
+        "p": {
+          "name": "WiRe57 : A Fine-Grained Benchmark for Open Information Extraction",
+          "link": "https://arxiv.org/abs/1809.08962v2"
+        },
+        "c": "https://github.com/rali-udem/WiRe57",
+        "n": "ClausIE Del Corro and Gemulla (2013)",
+        "d": "2018-09-24",
+        "m1": "34.2"
+      },
+      {
+        "p": {
+          "name": "OpenIE6: Iterative Grid Labeling and Coordination Analysis for Open Information Extraction",
+          "link": "https://arxiv.org/abs/2010.03147v1"
+        },
+        "c": "https://github.com/dair-iitd/openie6",
+        "n": "ClausIE",
+        "d": "2020-10-07",
+        "m1": "33.2"
+      },
+      {
+        "p": {
+          "name": "OpenIE6: Iterative Grid Labeling and Coordination Analysis for Open Information Extraction",
+          "link": "https://arxiv.org/abs/2010.03147v1"
+        },
+        "c": "https://github.com/dair-iitd/openie6",
+        "n": "SpanOIE",
+        "d": "2020-10-07",
+        "m1": "31.9"
+      },
+      {
+        "p": {
+          "name": "OpenIE6: Iterative Grid Labeling and Coordination Analysis for Open Information Extraction",
+          "link": "https://arxiv.org/abs/2010.03147v1"
+        },
+        "c": "https://github.com/dair-iitd/openie6",
+        "n": "MinIE",
+        "d": "2020-10-07",
+        "m1": "28.5"
+      },
+      {
+        "p": {
+          "name": "WiRe57 : A Fine-Grained Benchmark for Open Information Extraction",
+          "link": "https://arxiv.org/abs/1809.08962v2"
+        },
+        "c": "https://github.com/rali-udem/WiRe57",
+        "n": "OpenIE 4 Mausam (2016)",
+        "d": "2018-09-24",
+        "m1": "26.7"
+      },
+      {
+        "p": {
+          "name": "OpenIE6: Iterative Grid Labeling and Coordination Analysis for Open Information Extraction",
+          "link": "https://arxiv.org/abs/2010.03147v1"
+        },
+        "c": "https://github.com/dair-iitd/openie6",
+        "n": "RnnOIE",
+        "d": "2020-10-07",
+        "m1": "26.4"
+      },
+      {
+        "p": {
+          "name": "WiRe57 : A Fine-Grained Benchmark for Open Information Extraction",
+          "link": "https://arxiv.org/abs/1809.08962v2"
+        },
+        "c": "https://github.com/rali-udem/WiRe57",
+        "n": "Ollie Mausam et al. (2012)",
+        "d": "2018-09-24",
+        "m1": "23.9"
+      },
+      {
+        "p": {
+          "name": "WiRe57 : A Fine-Grained Benchmark for Open Information Extraction",
+          "link": "https://arxiv.org/abs/1809.08962v2"
+        },
+        "c": "https://github.com/rali-udem/WiRe57",
+        "n": "ReVerb Fader et al. (2011)",
+        "d": "2018-09-24",
+        "m1": "20"
+      },
+      {
+        "p": {
+          "name": "WiRe57 : A Fine-Grained Benchmark for Open Information Extraction",
+          "link": "https://arxiv.org/abs/1809.08962v2"
+        },
+        "c": "https://github.com/rali-udem/WiRe57",
+        "n": "Stanford Angeli et al. (2015)",
+        "d": "2018-09-24",
+        "m1": "19.8"
+      },
+      {
+        "p": {
+          "name": "WiRe57 : A Fine-Grained Benchmark for Open Information Extraction",
+          "link": "https://arxiv.org/abs/1809.08962v2"
+        },
+        "c": "https://github.com/rali-udem/WiRe57",
+        "n": "PropS Stanovsky et al. (2016)",
+        "d": "2018-09-24",
+        "m1": "18.7"
+      },
+      {
+        "p": {
+          "name": "OpenIE6: Iterative Grid Labeling and Coordination Analysis for Open Information Extraction",
+          "link": "https://arxiv.org/abs/2010.03147v1"
+        },
+        "c": "https://github.com/dair-iitd/openie6",
+        "n": "SenseOIE",
+        "d": "2020-10-07",
+        "m1": "10.7"
+      }
+    ]
+  }
+}

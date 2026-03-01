@@ -1,0 +1,89 @@
+{
+  "title": "multi-label-text-classification-on-freecode",
+  "task-hierarchy": [
+    "Classification",
+    "Text Classification",
+    "Multi-Label Text Classification"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1-score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Tag Recommendation for Online Q&A Communities based on BERT Pre-Training Technique",
+          "link": "https://arxiv.org/abs/2010.04971v1"
+        },
+        "c": "https://github.com/Moradnejad/Bert-Based-Tag-Recommendation",
+        "n": "TagBERT",
+        "d": "2020-10-10",
+        "m1": "46"
+      },
+      {
+        "p": {
+          "name": "Tag Recommendation for Online Q&A Communities based on BERT Pre-Training Technique",
+          "link": "https://arxiv.org/abs/2010.04971v1"
+        },
+        "c": "https://github.com/Moradnejad/Bert-Based-Tag-Recommendation",
+        "n": "TagCNN",
+        "d": "2020-10-10",
+        "m1": "45.3"
+      },
+      {
+        "p": {
+          "name": "Tag Recommendation for Online Q&A Communities based on BERT Pre-Training Technique",
+          "link": "https://arxiv.org/abs/2010.04971v1"
+        },
+        "c": "https://github.com/Moradnejad/Bert-Based-Tag-Recommendation",
+        "n": "TagMulRec",
+        "d": "2020-10-10",
+        "m1": "36.4"
+      },
+      {
+        "p": {
+          "name": "Tag Recommendation for Online Q&A Communities based on BERT Pre-Training Technique",
+          "link": "https://arxiv.org/abs/2010.04971v1"
+        },
+        "c": "https://github.com/Moradnejad/Bert-Based-Tag-Recommendation",
+        "n": "EnTagRec",
+        "d": "2020-10-10",
+        "m1": "36"
+      },
+      {
+        "p": {
+          "name": "Tag Recommendation for Online Q&A Communities based on BERT Pre-Training Technique",
+          "link": "https://arxiv.org/abs/2010.04971v1"
+        },
+        "c": "https://github.com/Moradnejad/Bert-Based-Tag-Recommendation",
+        "n": "FastTagRec",
+        "d": "2020-10-10",
+        "m1": "33.2"
+      }
+    ]
+  }
+}

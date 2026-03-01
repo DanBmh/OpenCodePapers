@@ -1,0 +1,86 @@
+{
+  "title": "image-generation-on-arkitscenes",
+  "task-hierarchy": [
+    "Image Generation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/apple/ARKitScenes"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "FID",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "FID (SwAV)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "GAUDI: A Neural Architect for Immersive 3D Scene Generation",
+          "link": "https://arxiv.org/abs/2207.13751v1"
+        },
+        "c": "https://github.com/apple/ml-gaudi",
+        "n": "GAUDI",
+        "d": "2022-07-27",
+        "m1": "37.35",
+        "m2": "4.14"
+      },
+      {
+        "p": {
+          "name": "GAUDI: A Neural Architect for Immersive 3D Scene Generation",
+          "link": "https://arxiv.org/abs/2207.13751v1"
+        },
+        "c": "https://github.com/apple/ml-gaudi",
+        "n": "GSN",
+        "d": "2022-07-27",
+        "m1": "79.54",
+        "m2": "10.21"
+      },
+      {
+        "p": {
+          "name": "GAUDI: A Neural Architect for Immersive 3D Scene Generation",
+          "link": "https://arxiv.org/abs/2207.13751v1"
+        },
+        "c": "https://github.com/apple/ml-gaudi",
+        "n": "GRAF",
+        "d": "2022-07-27",
+        "m1": "87.06",
+        "m2": "13.44"
+      },
+      {
+        "p": {
+          "name": "GAUDI: A Neural Architect for Immersive 3D Scene Generation",
+          "link": "https://arxiv.org/abs/2207.13751v1"
+        },
+        "c": "https://github.com/apple/ml-gaudi",
+        "n": "π-GAN",
+        "d": "2022-07-27",
+        "m1": "134.8",
+        "m2": "15.58"
+      }
+    ]
+  }
+}

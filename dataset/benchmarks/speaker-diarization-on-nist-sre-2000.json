@@ -1,0 +1,87 @@
+{
+  "title": "speaker-diarization-on-nist-sre-2000",
+  "task-hierarchy": [
+    "Speaker Diarization"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "DER(%)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "TitaNet: Neural Model for speaker representation with 1D Depth-wise separable convolutions and global context",
+          "link": "https://arxiv.org/abs/2110.04410v1"
+        },
+        "c": "https://github.com/NVIDIA/NeMo",
+        "n": "x-vector (MCGAN)",
+        "d": "2021-10-08",
+        "m1": "5.73"
+      },
+      {
+        "p": {
+          "name": "TitaNet: Neural Model for speaker representation with 1D Depth-wise separable convolutions and global context",
+          "link": "https://arxiv.org/abs/2110.04410v1"
+        },
+        "c": "https://github.com/NVIDIA/NeMo",
+        "n": "TitaNet-S (NME-SC)",
+        "d": "2021-10-08",
+        "m1": "6.37"
+      },
+      {
+        "p": {
+          "name": "TitaNet: Neural Model for speaker representation with 1D Depth-wise separable convolutions and global context",
+          "link": "https://arxiv.org/abs/2110.04410v1"
+        },
+        "c": "https://github.com/NVIDIA/NeMo",
+        "n": "TitaNet-M (NME-SC)",
+        "d": "2021-10-08",
+        "m1": "6.47"
+      },
+      {
+        "p": {
+          "name": "TitaNet: Neural Model for speaker representation with 1D Depth-wise separable convolutions and global context",
+          "link": "https://arxiv.org/abs/2110.04410v1"
+        },
+        "c": "https://github.com/NVIDIA/NeMo",
+        "n": "TitaNet-L (NME-SC)",
+        "d": "2021-10-08",
+        "m1": "6.73"
+      },
+      {
+        "p": {
+          "name": "TitaNet: Neural Model for speaker representation with 1D Depth-wise separable convolutions and global context",
+          "link": "https://arxiv.org/abs/2110.04410v1"
+        },
+        "c": "https://github.com/NVIDIA/NeMo",
+        "n": "x-vector (PLDA + AHC)",
+        "d": "2021-10-08",
+        "m1": "8.39"
+      }
+    ]
+  }
+}

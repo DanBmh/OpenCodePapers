@@ -1,0 +1,94 @@
+{
+  "title": "face-image-quality-assessment-on-piq23",
+  "task-hierarchy": [
+    "3D Face Reconstruction",
+    "Facial Recognition and Modelling",
+    "Face Recognition",
+    "Face Image Quality Assessment"
+  ],
+  "dataset-info": {
+    "link": "https://corp.dxomark.com/data-base-piq23/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "SRCC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "PLCC",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "KRCC",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "MAE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Dual-Branch Network for Portrait Image Quality Assessment",
+          "link": "https://arxiv.org/abs/2405.08555v1"
+        },
+        "c": "https://github.com/sunwei925/dn-piqa",
+        "n": "Dual-Branch Network",
+        "d": "2024-05-14",
+        "m1": "0.85",
+        "m2": "0.86",
+        "m3": "0.68",
+        "m4": "0.53"
+      },
+      {
+        "p": {
+          "name": "Pairwise Comparisons Are All You Need",
+          "link": "https://arxiv.org/abs/2403.09746v2"
+        },
+        "c": "https://github.com/dxomark-research/piq2023",
+        "n": "PICNIQ",
+        "d": "2024-03-13",
+        "m1": "0.81",
+        "m2": "0.82",
+        "m3": "0.62",
+        "m4": "0.72"
+      },
+      {
+        "p": {
+          "name": "Generalized Portrait Quality Assessment",
+          "link": "https://arxiv.org/abs/2402.09178v1"
+        },
+        "c": "https://github.com/dxomark-research/piq2023",
+        "n": "FHIQA",
+        "d": "2024-02-14",
+        "m1": "0.78",
+        "m2": "0.78",
+        "m3": "0.59",
+        "m4": "1.12"
+      }
+    ]
+  }
+}

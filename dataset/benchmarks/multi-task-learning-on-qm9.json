@@ -1,0 +1,78 @@
+{
+  "title": "multi-task-learning-on-qm9",
+  "task-hierarchy": [
+    "Multi-Task Learning"
+  ],
+  "dataset-info": {
+    "link": "http://quantum-machine.org/datasets/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "∆m%",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Bayesian Uncertainty for Gradient Aggregation in Multi-Task Learning",
+          "link": "https://arxiv.org/abs/2402.04005v2"
+        },
+        "c": "https://github.com/ssi-research/bayesagg_mtl",
+        "n": "BayesAgg-MTL",
+        "d": "2024-02-06",
+        "m1": "53.7"
+      },
+      {
+        "p": {
+          "name": "Multi-Task Learning as a Bargaining Game",
+          "link": "https://arxiv.org/abs/2202.01017v2"
+        },
+        "c": "https://github.com/torchjd/torchjd",
+        "n": "Nash-MTL",
+        "d": "2022-02-02",
+        "m1": "62.0"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "IMTL-G",
+        "d": null,
+        "m1": "77.2"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "CAGrad",
+        "d": null,
+        "m1": "112.8"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "PCGrad",
+        "d": null,
+        "m1": "125.7"
+      }
+    ]
+  }
+}

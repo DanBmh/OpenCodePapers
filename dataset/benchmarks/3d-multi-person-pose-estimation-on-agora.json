@@ -1,0 +1,106 @@
+{
+  "title": "3d-multi-person-pose-estimation-on-agora",
+  "task-hierarchy": [
+    "Pose Estimation",
+    "3D Human Pose Estimation",
+    "3D Multi-Person Pose Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://agora.is.tue.mpg.de"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "B-NMVE",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "B-NMJE",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "B-MVE",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "B-MPJPE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SPEC: Seeing People in the Wild with an Estimated Camera",
+          "link": "https://arxiv.org/abs/2110.00620v2"
+        },
+        "c": "https://github.com/mkocabas/SPEC",
+        "n": "SPEC",
+        "d": "2021-10-01",
+        "m1": "126.8",
+        "m2": "133.7",
+        "m3": "106.5",
+        "m4": "112.3"
+      },
+      {
+        "p": {
+          "name": "PARE: Part Attention Regressor for 3D Human Body Estimation",
+          "link": "https://arxiv.org/abs/2104.08527v2"
+        },
+        "c": "https://github.com/mkocabas/PARE",
+        "n": "PARE",
+        "d": "2021-04-17",
+        "m1": "167.7",
+        "m2": "174.0",
+        "m3": "140.9",
+        "m4": "146.2"
+      },
+      {
+        "p": {
+          "name": "Learning to Reconstruct 3D Human Pose and Shape via Model-fitting in the Loop",
+          "link": "https://arxiv.org/abs/1909.12828v1"
+        },
+        "c": "https://github.com/nkolot/SPIN",
+        "n": "SPIN",
+        "d": "2019-09-27",
+        "m1": "216.3",
+        "m2": "223.1",
+        "m3": "168.7",
+        "m4": "175.1"
+      },
+      {
+        "p": {
+          "name": "End-to-end Recovery of Human Shape and Pose",
+          "link": "http://arxiv.org/abs/1712.06584v2"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
+        "n": "HMR",
+        "d": "2017-12-18",
+        "m1": "217.0",
+        "m2": "226.0",
+        "m3": "173.6",
+        "m4": "180.5"
+      }
+    ]
+  }
+}

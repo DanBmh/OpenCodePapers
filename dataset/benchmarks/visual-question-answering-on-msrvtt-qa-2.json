@@ -1,0 +1,79 @@
+{
+  "title": "visual-question-answering-on-msrvtt-qa-2",
+  "task-hierarchy": [
+    "Visual Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/xudejing/video-question-answering"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Test Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Aurora (ours, r=64) Aurora (ours, r=64)",
+        "d": null,
+        "m1": "44.8"
+      },
+      {
+        "p": {
+          "name": "Zero-Shot Video Question Answering via Frozen Bidirectional Language Models",
+          "link": "https://arxiv.org/abs/2206.08155v2"
+        },
+        "c": "https://github.com/antoyang/FrozenBiLM",
+        "n": "FrozenBiLM",
+        "d": "2022-06-16",
+        "m2": "0.470"
+      },
+      {
+        "p": {
+          "name": "Just Ask: Learning to Answer Questions from Millions of Narrated Videos",
+          "link": "https://arxiv.org/abs/2012.00451v3"
+        },
+        "c": "https://github.com/antoyang/just-ask",
+        "n": "Just Ask",
+        "d": "2020-12-01",
+        "m2": "0.415"
+      },
+      {
+        "p": {
+          "name": "Noise Estimation Using Density Estimation for Self-Supervised Multimodal Learning",
+          "link": "https://arxiv.org/abs/2003.03186v3"
+        },
+        "c": "https://github.com/elad-amrani/ssml",
+        "n": "SSML",
+        "d": "2020-03-06",
+        "m2": "0.35"
+      }
+    ]
+  }
+}

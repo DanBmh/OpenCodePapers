@@ -1,0 +1,107 @@
+{
+  "title": "3d-shape-reconstruction-on-pix3d",
+  "task-hierarchy": [
+    "3D Shape Reconstruction"
+  ],
+  "dataset-info": {
+    "link": "http://pix3d.csail.mit.edu/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "CD",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "EMD",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "IoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Holistic 3D Scene Understanding from a Single Image with Implicit Representation",
+          "link": "https://arxiv.org/abs/2103.06422v3"
+        },
+        "c": "https://github.com/chengzhag/Implicit3DUnderstanding",
+        "n": "IM3D",
+        "d": "2021-03-11",
+        "m1": "0.0672",
+        "m2": "N/A",
+        "m3": "N/A"
+      },
+      {
+        "p": {
+          "name": "Total3DUnderstanding: Joint Layout, Object Pose and Mesh Reconstruction for Indoor Scenes from a Single Image",
+          "link": "https://arxiv.org/abs/2002.12212v1"
+        },
+        "c": "https://github.com/yinyunie/Total3DUnderstanding",
+        "n": "MGN",
+        "d": "2020-02-27",
+        "m1": "0.0836",
+        "m2": "N/A",
+        "m3": "N/A"
+      },
+      {
+        "p": {
+          "name": "Deep Mesh Reconstruction from Single RGB Images via Topology Modification Networks",
+          "link": "https://arxiv.org/abs/1909.00321v1"
+        },
+        "c": "https://github.com/jnypan/TMNet",
+        "n": "TMN",
+        "d": "2019-09-01",
+        "m1": "0.0903",
+        "m2": "N/A",
+        "m3": "N/A"
+      },
+      {
+        "p": {
+          "name": "Pix3D: Dataset and Methods for Single-Image 3D Shape Modeling",
+          "link": "http://arxiv.org/abs/1804.04610v1"
+        },
+        "c": "https://github.com/xingyuansun/pix3d",
+        "n": "MarrNet extension (w/ Pose)",
+        "d": "2018-04-12",
+        "m1": "0.119",
+        "m2": "0.118",
+        "m3": "0.282"
+      },
+      {
+        "p": {
+          "name": "AtlasNet: A Papier-Mâché Approach to Learning 3D Surface Generation",
+          "link": "http://arxiv.org/abs/1802.05384v3"
+        },
+        "c": "https://github.com/ThibaultGROUEIX/AtlasNet",
+        "n": "AtlasNet",
+        "d": "2018-02-15",
+        "m1": "0.125",
+        "m2": "0.128",
+        "m3": "N/A"
+      }
+    ]
+  }
+}

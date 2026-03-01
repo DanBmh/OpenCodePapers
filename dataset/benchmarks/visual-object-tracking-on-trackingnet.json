@@ -1,0 +1,526 @@
+{
+  "title": "visual-object-tracking-on-trackingnet",
+  "task-hierarchy": [
+    "Visual Object Tracking"
+  ],
+  "dataset-info": {
+    "link": "https://tracking-net.org/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Normalized Precision",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Precision",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Success Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Exploring Enhanced Contextual Information for Video-Level Object Tracking",
+          "link": "https://arxiv.org/abs/2412.11023v1"
+        },
+        "c": "https://github.com/kangben258/MCITrack",
+        "n": "MCITrack-L384",
+        "d": "2024-12-15",
+        "m1": "87.9",
+        "m2": "92.1",
+        "m3": "89.2"
+      },
+      {
+        "p": {
+          "name": "SPMTrack: Spatio-Temporal Parameter-Efficient Fine-Tuning with Mixture of Experts for Scalable Visual Tracking",
+          "link": "https://arxiv.org/abs/2503.18338v1"
+        },
+        "c": "https://github.com/wenruicai/spmtrack",
+        "n": "SPMTrack-G",
+        "d": "2025-03-24",
+        "m1": "87.3",
+        "m2": "91.4",
+        "m3": "88.1"
+      },
+      {
+        "p": {
+          "name": "SPMTrack: Spatio-Temporal Parameter-Efficient Fine-Tuning with Mixture of Experts for Scalable Visual Tracking",
+          "link": "https://arxiv.org/abs/2503.18338v1"
+        },
+        "c": "https://github.com/wenruicai/spmtrack",
+        "n": "SPMTrack-L",
+        "d": "2025-03-24",
+        "m1": "86.9",
+        "m2": "91",
+        "m3": "87.2"
+      },
+      {
+        "p": {
+          "name": "Exploring Enhanced Contextual Information for Video-Level Object Tracking",
+          "link": "https://arxiv.org/abs/2412.11023v1"
+        },
+        "c": "https://github.com/kangben258/MCITrack",
+        "n": "MCITrack-B224",
+        "d": "2024-12-15",
+        "m1": "86.3",
+        "m2": "90.9",
+        "m3": "86.1"
+      },
+      {
+        "p": {
+          "name": "ARTrackV2: Prompting Autoregressive Tracker Where to Look and How to Describe",
+          "link": "https://arxiv.org/abs/2312.17133v3"
+        },
+        "c": "https://github.com/miv-xjtu/artrack",
+        "n": "ARTrackV2-L",
+        "d": "2023-12-28",
+        "m1": "86.1",
+        "m2": "90.4",
+        "m3": "86.2"
+      },
+      {
+        "p": {
+          "name": "MixFormer: End-to-End Tracking with Iterative Mixed Attention",
+          "link": "https://arxiv.org/abs/2302.02814v2"
+        },
+        "c": "https://github.com/MCG-NJU/MixFormer",
+        "n": "MixViT-L(ConvMAE)",
+        "d": "2023-02-06",
+        "m1": "86.1",
+        "m2": "90.3",
+        "m3": "86.0"
+      },
+      {
+        "p": {
+          "name": "SPMTrack: Spatio-Temporal Parameter-Efficient Fine-Tuning with Mixture of Experts for Scalable Visual Tracking",
+          "link": "https://arxiv.org/abs/2503.18338v1"
+        },
+        "c": "https://github.com/wenruicai/spmtrack",
+        "n": "SPMTrack-B",
+        "d": "2025-03-24",
+        "m1": "86.1",
+        "m2": "90.2",
+        "m3": "85.6"
+      },
+      {
+        "p": {
+          "name": "ODTrack: Online Dense Temporal Token Learning for Visual Tracking",
+          "link": "https://arxiv.org/abs/2401.01686v1"
+        },
+        "c": "https://github.com/gxnu-zhonglab/odtrack",
+        "n": "ODTrack-L",
+        "d": "2024-01-03",
+        "m1": "86.1"
+      },
+      {
+        "p": {
+          "name": "Tracking Meets LoRA: Faster Training, Larger Model, Stronger Performance",
+          "link": "https://arxiv.org/abs/2403.05231v2"
+        },
+        "c": "https://github.com/litinglin/lorat",
+        "n": "LoRAT-g-378",
+        "d": "2024-03-08",
+        "m1": "86.0",
+        "m2": "90.2",
+        "m3": "86.1"
+      },
+      {
+        "p": {
+          "name": "Tracking Meets LoRA: Faster Training, Larger Model, Stronger Performance",
+          "link": "https://arxiv.org/abs/2403.05231v2"
+        },
+        "c": "https://github.com/litinglin/lorat",
+        "n": "LoRAT-L-378",
+        "d": "2024-03-08",
+        "m1": "85.6",
+        "m2": "89.7",
+        "m3": "85.4"
+      },
+      {
+        "p": {
+          "name": "Autoregressive Visual Tracking",
+          "link": "http://openaccess.thecvf.com//content/CVPR2023/html/Wei_Autoregressive_Visual_Tracking_CVPR_2023_paper.html"
+        },
+        "c": "https://github.com/miv-xjtu/artrack",
+        "n": "ARTrack-L",
+        "d": "2023-01-01",
+        "m1": "85.6",
+        "m2": "89.6",
+        "m3": "86.0"
+      },
+      {
+        "p": {
+          "name": "Unified Sequence-to-Sequence Learning for Single- and Multi-Modal Visual Object Tracking",
+          "link": "https://arxiv.org/abs/2304.14394v3"
+        },
+        "c": "https://github.com/chenxin-dlut/seqtrackv2",
+        "n": "SeqTrack-L384",
+        "d": "2023-04-27",
+        "m1": "85.5",
+        "m2": "89.8",
+        "m3": "85.8"
+      },
+      {
+        "p": {
+          "name": "Universal Instance Perception as Object Discovery and Retrieval",
+          "link": "https://arxiv.org/abs/2303.06674v2"
+        },
+        "c": "https://github.com/MasterBin-IIAU/UNINEXT",
+        "n": "UNINEXT-H",
+        "d": "2023-03-12",
+        "m1": "85.4",
+        "m2": "89.0",
+        "m3": "86.4"
+      },
+      {
+        "p": {
+          "name": "SAMURAI: Adapting Segment Anything Model for Zero-Shot Visual Tracking with Motion-Aware Memory",
+          "link": "https://arxiv.org/abs/2411.11922v2"
+        },
+        "c": "https://github.com/yangchris11/samurai",
+        "n": "SAMURAI-L",
+        "d": "2024-11-18",
+        "m1": "85.3"
+      },
+      {
+        "p": {
+          "name": "ODTrack: Online Dense Temporal Token Learning for Visual Tracking",
+          "link": "https://arxiv.org/abs/2401.01686v1"
+        },
+        "c": "https://github.com/gxnu-zhonglab/odtrack",
+        "n": "ODTrack-B",
+        "d": "2024-01-03",
+        "m1": "85.1"
+      },
+      {
+        "p": {
+          "name": "Target-Aware Tracking with Long-term Context Attention",
+          "link": "https://arxiv.org/abs/2302.13840v1"
+        },
+        "c": "https://github.com/hekaijie123/TATrack",
+        "n": "TATrack-L",
+        "d": "2023-02-27",
+        "m1": "85.0",
+        "m2": "89.3",
+        "m3": "84.5"
+      },
+      {
+        "p": {
+          "name": "HIPTrack: Visual Tracking with Historical Prompts",
+          "link": "https://arxiv.org/abs/2311.02072v2"
+        },
+        "c": "https://github.com/wenruicai/hiptrack",
+        "n": "HIPTrack",
+        "d": "2023-11-03",
+        "m1": "84.5",
+        "m2": "89.1",
+        "m3": "83.8"
+      },
+      {
+        "p": {
+          "name": "SwinTrack: A Simple and Strong Baseline for Transformer Tracking",
+          "link": "https://arxiv.org/abs/2112.00995v3"
+        },
+        "c": "https://github.com/litinglin/swintrack",
+        "n": "SwinTrack-B-384",
+        "d": "2021-12-02",
+        "m1": "84",
+        "m2": "88.2",
+        "m3": "83.2"
+      },
+      {
+        "p": {
+          "name": "MixFormer: End-to-End Tracking with Iterative Mixed Attention",
+          "link": "https://arxiv.org/abs/2203.11082v2"
+        },
+        "c": "https://github.com/MCG-NJU/MixFormer",
+        "n": "MixFormer-L",
+        "d": "2022-03-21",
+        "m1": "83.9",
+        "m2": "88.9",
+        "m3": "83.1"
+      },
+      {
+        "p": {
+          "name": "Joint Feature Learning and Relation Modeling for Tracking: A One-Stream Framework",
+          "link": "https://arxiv.org/abs/2203.11991v4"
+        },
+        "c": "https://github.com/botaoye/ostrack",
+        "n": "OSTrack-384",
+        "d": "2022-03-22",
+        "m1": "83.9",
+        "m2": "88.5",
+        "m3": "83.2"
+      },
+      {
+        "p": {
+          "name": "NeighborTrack: Improving Single Object Tracking by Bipartite Matching with Neighbor Tracklets",
+          "link": "https://arxiv.org/abs/2211.06663v3"
+        },
+        "c": "https://github.com/franktpmvu/NeighborTrack",
+        "n": "NeighborTrack-OSTrack",
+        "d": "2022-11-12",
+        "m1": "83.79",
+        "m2": "88.30"
+      },
+      {
+        "p": {
+          "name": "Integrating Boxes and Masks: A Multi-Object Framework for Unified Visual Tracking and Segmentation",
+          "link": "https://arxiv.org/abs/2308.13266v3"
+        },
+        "c": "https://github.com/yoxu515/mits",
+        "n": "MITS",
+        "d": "2023-08-25",
+        "m1": "83.4",
+        "m2": "88.9",
+        "m3": "84.6"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "MixFormerV2-B",
+        "d": null,
+        "m1": "83.4",
+        "m2": "88.1",
+        "m3": "81.6"
+      },
+      {
+        "p": {
+          "name": "Towards Grand Unification of Object Tracking",
+          "link": "https://arxiv.org/abs/2207.07078v4"
+        },
+        "c": "https://github.com/masterbin-iiau/unicorn",
+        "n": "Unicorn",
+        "d": "2022-07-14",
+        "m1": "83",
+        "m2": "86.4",
+        "m3": "82.2"
+      },
+      {
+        "p": {
+          "name": "Towards Sequence-Level Training for Visual Tracking",
+          "link": "https://arxiv.org/abs/2208.05810v3"
+        },
+        "c": "https://github.com/byminji/SLTtrack",
+        "n": "SLT-TransT",
+        "d": "2022-08-11",
+        "m1": "82.8",
+        "m2": "87.5",
+        "m3": "81.4"
+      },
+      {
+        "p": {
+          "name": "AiATrack: Attention in Attention for Transformer Visual Tracking",
+          "link": "https://arxiv.org/abs/2207.09603v2"
+        },
+        "c": "https://github.com/Little-Podi/AiATrack",
+        "n": "AiATrack",
+        "d": "2022-07-20",
+        "m1": "82.7",
+        "m2": "87.8",
+        "m3": "80.4"
+      },
+      {
+        "p": {
+          "name": "Learning Spatio-Temporal Transformer for Visual Tracking",
+          "link": "https://arxiv.org/abs/2103.17154v1"
+        },
+        "c": "https://github.com/researchmm/Stark",
+        "n": "STARK",
+        "d": "2021-03-31",
+        "m1": "82.0",
+        "m2": "86.9",
+        "m3": "79.1"
+      },
+      {
+        "p": {
+          "name": "Siam R-CNN: Visual Tracking by Re-Detection",
+          "link": "https://arxiv.org/abs/1911.12836v2"
+        },
+        "c": "https://github.com/VisualComputingInstitute/SiamR-CNN",
+        "n": "Siam R-CNN",
+        "d": "2019-11-28",
+        "m1": "81.2",
+        "m2": "85.4",
+        "m3": "80.0"
+      },
+      {
+        "p": {
+          "name": "Target Transformed Regression for Accurate Tracking",
+          "link": "https://arxiv.org/abs/2104.00403v1"
+        },
+        "c": "https://github.com/MCG-NJU/TREG",
+        "n": "TREG",
+        "d": "2021-04-01",
+        "m1": "78.5",
+        "m2": "83.8",
+        "m3": "75"
+      },
+      {
+        "p": {
+          "name": "Learning to Fuse Asymmetric Feature Maps in Siamese Trackers",
+          "link": "https://arxiv.org/abs/2012.02776v2"
+        },
+        "c": "https://github.com/wencheng256/SiamBAN-ACM",
+        "n": "SiamBAN-ACM",
+        "d": "2020-12-04",
+        "m1": "75.3",
+        "m2": "81.0",
+        "m3": "71.2"
+      },
+      {
+        "p": {
+          "name": "SiamFC++: Towards Robust and Accurate Visual Tracking with Target Estimation Guidelines",
+          "link": "https://arxiv.org/abs/1911.06188v4"
+        },
+        "c": "https://github.com/MegviiDetection/video_analyst",
+        "n": "SiamFC++",
+        "d": "2019-11-14",
+        "m1": "74.5",
+        "m2": "79.8",
+        "m3": "68.5"
+      },
+      {
+        "p": {
+          "name": "Learning Discriminative Model Prediction for Tracking",
+          "link": "https://arxiv.org/abs/1904.07220v2"
+        },
+        "c": "https://github.com/visionml/pytracking",
+        "n": "DiMP-50",
+        "d": "2019-04-15",
+        "m1": "74.0",
+        "m2": "80.1"
+      },
+      {
+        "p": {
+          "name": "ATOM: Accurate Tracking by Overlap Maximization",
+          "link": "http://arxiv.org/abs/1811.07628v2"
+        },
+        "c": "https://github.com/visionml/pytracking",
+        "n": "ATOM",
+        "d": "2018-11-19",
+        "m1": "70.34",
+        "m2": "77.11",
+        "m3": "64.84"
+      },
+      {
+        "p": {
+          "name": "SiamRPN++: Evolution of Siamese Visual Tracking with Very Deep Networks",
+          "link": "http://arxiv.org/abs/1812.11703v1"
+        },
+        "c": "https://github.com/STVIR/pysot",
+        "n": "SiamRPN++",
+        "d": "2018-12-31",
+        "m1": "70",
+        "m2": "79.98",
+        "m3": "69.38"
+      },
+      {
+        "p": {
+          "name": "Joint Group Feature Selection and Discriminative Filter Learning for Robust Visual Object Tracking",
+          "link": "https://arxiv.org/abs/1907.13242v2"
+        },
+        "c": "https://github.com/XU-TIANYANG/GFS-DCF",
+        "n": "GFS-DCF",
+        "d": "2019-07-30",
+        "m1": "60.9",
+        "m2": "71.79",
+        "m3": "56.57"
+      },
+      {
+        "p": {
+          "name": "ECO: Efficient Convolution Operators for Tracking",
+          "link": "http://arxiv.org/abs/1611.09224v2"
+        },
+        "c": "https://github.com/martin-danelljan/ECO",
+        "n": "ECO",
+        "d": "2016-11-28",
+        "m1": "56.13",
+        "m2": "62.14",
+        "m3": "48.86"
+      },
+      {
+        "p": {
+          "name": "Staple: Complementary Learners for Real-Time Tracking",
+          "link": "http://arxiv.org/abs/1512.01355v2"
+        },
+        "c": "https://github.com/fengyang95/pyCFTrackers",
+        "n": "STAPLE_CA",
+        "d": "2015-12-04",
+        "m1": "53.59",
+        "m2": "60.84",
+        "m3": "46.72"
+      },
+      {
+        "p": {
+          "name": "DropMAE: Masked Autoencoders with Spatial-Attention Dropout for Tracking Tasks",
+          "link": "https://arxiv.org/abs/2304.00571v2"
+        },
+        "c": "https://github.com/jimmy-dq/dropmae",
+        "n": "DropTrack",
+        "d": "2023-04-02",
+        "m2": "88.9",
+        "m5": "0.841"
+      },
+      {
+        "p": {
+          "name": "How to Train Your Energy-Based Model for Regression",
+          "link": "https://arxiv.org/abs/2005.01698v2"
+        },
+        "c": "https://github.com/fregu856/ebms_regression",
+        "n": "DiMP-NCE+",
+        "d": "2020-05-04",
+        "m2": "83.7",
+        "m3": "73.7",
+        "m4": "0.787",
+        "m5": "0.787"
+      },
+      {
+        "p": {
+          "name": "Energy-Based Models for Deep Probabilistic Regression",
+          "link": "https://arxiv.org/abs/1909.12297v4"
+        },
+        "c": "https://github.com/fregu856/ebms_regression",
+        "n": "ATOM(Resnet18)+EnergyRegression",
+        "d": "2019-09-26",
+        "m2": "80.1",
+        "m3": "69.7",
+        "m4": "74.5"
+      }
+    ]
+  }
+}

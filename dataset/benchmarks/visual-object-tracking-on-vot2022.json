@@ -1,0 +1,87 @@
+{
+  "title": "visual-object-tracking-on-vot2022",
+  "task-hierarchy": [
+    "Visual Object Tracking"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "EAO",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "A Distractor-Aware Memory for Visual Object Tracking with SAM2",
+          "link": "https://arxiv.org/abs/2411.17576v2"
+        },
+        "c": "https://github.com/jovanavidenovic/dam4sam",
+        "n": "DAM4SAM",
+        "d": "2024-11-26",
+        "m1": "0.753"
+      },
+      {
+        "p": {
+          "name": "SAM 2: Segment Anything in Images and Videos",
+          "link": "https://arxiv.org/abs/2408.00714v2"
+        },
+        "c": "https://github.com/facebookresearch/segment-anything",
+        "n": "SAM2.1",
+        "d": "2024-08-01",
+        "m1": "0.692"
+      },
+      {
+        "p": {
+          "name": "Associating Objects with Transformers for Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2106.02638v3"
+        },
+        "c": "https://github.com/yoxu515/aot-benchmark",
+        "n": "MS_AOT",
+        "d": "2021-06-04",
+        "m1": "0.673"
+      },
+      {
+        "p": {
+          "name": "DiffusionTrack: Point Set Diffusion Model for Visual Object Tracking",
+          "link": "http://openaccess.thecvf.com//content/CVPR2024/html/Xie_DiffusionTrack_Point_Set_Diffusion_Model_for_Visual_Object_Tracking_CVPR_2024_paper.html"
+        },
+        "c": "",
+        "n": "DiffusionTrack",
+        "d": "2024-01-01",
+        "m1": "0.634"
+      },
+      {
+        "p": {
+          "name": "MixFormer: End-to-End Tracking with Iterative Mixed Attention",
+          "link": "https://arxiv.org/abs/2302.02814v2"
+        },
+        "c": "https://github.com/MCG-NJU/MixFormer",
+        "n": "MixFormerM",
+        "d": "2023-02-06",
+        "m1": "0.589"
+      }
+    ]
+  }
+}

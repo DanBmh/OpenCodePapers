@@ -1,0 +1,98 @@
+{
+  "title": "dialogue-evaluation-on-usr-personachat",
+  "task-hierarchy": [
+    "Open-Domain Dialog",
+    "Dialogue Evaluation"
+  ],
+  "dataset-info": {
+    "link": "http://shikib.com/usr"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Spearman Correlation",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Pearson Correlation",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Proxy Indicators for the Quality of Open-domain Dialogues",
+          "link": "https://aclanthology.org/2021.emnlp-main.618"
+        },
+        "c": "https://github.com/smartdataanalytics/proxy_indicators",
+        "n": "Lin-Reg (all)",
+        "d": null,
+        "m1": "0.5382",
+        "m2": "0.5290"
+      },
+      {
+        "p": {
+          "name": "USR: An Unsupervised and Reference Free Evaluation Metric for Dialog Generation",
+          "link": "https://arxiv.org/abs/2005.00456v1"
+        },
+        "c": "https://github.com/shikib/usr",
+        "n": "USR - DR (x = c)",
+        "d": "2020-05-01",
+        "m1": "0.4814",
+        "m2": "0.6087"
+      },
+      {
+        "p": {
+          "name": "USR: An Unsupervised and Reference Free Evaluation Metric for Dialog Generation",
+          "link": "https://arxiv.org/abs/2005.00456v1"
+        },
+        "c": "https://github.com/shikib/usr",
+        "n": "USR",
+        "d": "2020-05-01",
+        "m1": "0.4693",
+        "m2": "0.4115"
+      },
+      {
+        "p": {
+          "name": "USR: An Unsupervised and Reference Free Evaluation Metric for Dialog Generation",
+          "link": "https://arxiv.org/abs/2005.00456v1"
+        },
+        "c": "https://github.com/shikib/usr",
+        "n": "USR - MLM",
+        "d": "2020-05-01",
+        "m1": "0.0795",
+        "m2": "0.0788"
+      },
+      {
+        "p": {
+          "name": "USR: An Unsupervised and Reference Free Evaluation Metric for Dialog Generation",
+          "link": "https://arxiv.org/abs/2005.00456v1"
+        },
+        "c": "https://github.com/shikib/usr",
+        "n": "USR - DR (x = f)",
+        "d": "2020-05-01",
+        "m1": "-0.0495",
+        "m2": "-0.0454"
+      }
+    ]
+  }
+}

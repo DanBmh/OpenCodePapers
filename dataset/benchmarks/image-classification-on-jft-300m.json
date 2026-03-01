@@ -1,0 +1,77 @@
+{
+  "title": "image-classification-on-jft-300m",
+  "task-hierarchy": [
+    "Image Classification"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "prec@1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Scaling Vision with Sparse Mixture of Experts",
+          "link": "https://arxiv.org/abs/2106.05974v1"
+        },
+        "c": "https://github.com/google-research/vmoe",
+        "n": "V-MoE-H/14 (Every-2)",
+        "d": "2021-06-10",
+        "m1": "60.62"
+      },
+      {
+        "p": {
+          "name": "Scaling Vision with Sparse Mixture of Experts",
+          "link": "https://arxiv.org/abs/2106.05974v1"
+        },
+        "c": "https://github.com/google-research/vmoe",
+        "n": "V-MoE-H/14 (Last-5)",
+        "d": "2021-06-10",
+        "m1": "60.12"
+      },
+      {
+        "p": {
+          "name": "Scaling Vision with Sparse Mixture of Experts",
+          "link": "https://arxiv.org/abs/2106.05974v1"
+        },
+        "c": "https://github.com/google-research/vmoe",
+        "n": "V-MoE-L/16 (Every-2)",
+        "d": "2021-06-10",
+        "m1": "57.65"
+      },
+      {
+        "p": {
+          "name": "Scaling Vision with Sparse Mixture of Experts",
+          "link": "https://arxiv.org/abs/2106.05974v1"
+        },
+        "c": "https://github.com/google-research/vmoe",
+        "n": "VIT-H/14",
+        "d": "2021-06-10",
+        "m1": "56.68"
+      }
+    ]
+  }
+}

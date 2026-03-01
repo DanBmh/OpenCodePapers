@@ -1,0 +1,87 @@
+{
+  "title": "2d-object-detection-on-ceymo",
+  "task-hierarchy": [
+    "2D Object Detection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/oshadajay/CeyMo"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Open-TransMind: A New Baseline and Benchmark for 1st Foundation Model Challenge of Intelligent Transportation",
+          "link": "https://arxiv.org/abs/2304.06051v2"
+        },
+        "c": "https://github.com/Traffic-X/Open-TransMind",
+        "n": "TransMind",
+        "d": "2023-04-12",
+        "m1": "70.7"
+      },
+      {
+        "p": {
+          "name": "YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors",
+          "link": "https://arxiv.org/abs/2207.02696v1"
+        },
+        "c": "https://github.com/pjreddie/darknet",
+        "n": "YOLOv7",
+        "d": "2022-07-06",
+        "m1": "69.5"
+      },
+      {
+        "p": {
+          "name": "TOOD: Task-aligned One-stage Object Detection",
+          "link": "https://arxiv.org/abs/2108.07755v3"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "TOOD",
+        "d": "2021-08-17",
+        "m1": "65.6"
+      },
+      {
+        "p": {
+          "name": "YOLOX: Exceeding YOLO Series in 2021",
+          "link": "https://arxiv.org/abs/2107.08430v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "YOLOX",
+        "d": "2021-07-18",
+        "m1": "57.7"
+      },
+      {
+        "p": {
+          "name": "Sparse R-CNN: End-to-End Object Detection with Learnable Proposals",
+          "link": "https://arxiv.org/abs/2011.12450v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "Sparse R-CNN",
+        "d": "2020-11-25",
+        "m1": "47.3"
+      }
+    ]
+  }
+}

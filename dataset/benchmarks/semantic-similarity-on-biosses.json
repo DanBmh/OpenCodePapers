@@ -1,0 +1,67 @@
+{
+  "title": "semantic-similarity-on-biosses",
+  "task-hierarchy": [
+    "Semantic Similarity"
+  ],
+  "dataset-info": {
+    "link": "https://tabilab.cmpe.boun.edu.tr/BIOSSES/DataSet.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Pearson Correlation",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "LinkBERT: Pretraining Language Models with Document Links",
+          "link": "https://arxiv.org/abs/2203.15827v1"
+        },
+        "c": "https://github.com/michiyasunaga/LinkBERT",
+        "n": "BioLinkBERT (large)",
+        "d": "2022-03-29",
+        "m1": "0.9363"
+      },
+      {
+        "p": {
+          "name": "LinkBERT: Pretraining Language Models with Document Links",
+          "link": "https://arxiv.org/abs/2203.15827v1"
+        },
+        "c": "https://github.com/michiyasunaga/LinkBERT",
+        "n": "BioLinkBERT (base)",
+        "d": "2022-03-29",
+        "m1": "0.9325"
+      },
+      {
+        "p": {
+          "name": "Transfer Learning in Biomedical Natural Language Processing: An Evaluation of BERT and ELMo on Ten Benchmarking Datasets",
+          "link": "https://arxiv.org/abs/1906.05474v2"
+        },
+        "c": "https://github.com/ncbi-nlp/NCBI_BERT",
+        "n": "NCBI_BERT(base) (P+M)",
+        "d": "2019-06-13",
+        "m1": "0.9159999999999999"
+      }
+    ]
+  }
+}

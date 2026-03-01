@@ -1,0 +1,153 @@
+{
+  "title": "image-based-localization-on-cvact",
+  "task-hierarchy": [
+    "Object Localization",
+    "Image-Based Localization"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Recall@1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Recall@5",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Recall@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Recall@1 (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "CV-Cities: Advancing Cross-View Geo-Localization in Global Cities",
+          "link": "https://arxiv.org/abs/2411.12431v1"
+        },
+        "c": "https://github.com/gaoshuang98/cvcities",
+        "n": "CV-Cities",
+        "d": "2024-11-19",
+        "m1": "92.59",
+        "m2": "97.16",
+        "m3": "97.82",
+        "m4": "98.72"
+      },
+      {
+        "p": {
+          "name": "Sample4Geo: Hard Negative Sampling For Cross-View Geo-Localisation",
+          "link": "https://arxiv.org/abs/2303.11851v2"
+        },
+        "c": "https://github.com/Skyy93/Sample4Geo",
+        "n": "Sample4Geo",
+        "d": "2023-03-21",
+        "m1": "90.81",
+        "m2": "96.74",
+        "m3": "97.48",
+        "m4": "98.77"
+      },
+      {
+        "p": {
+          "name": "Simple, Effective and General: A New Backbone for Cross-view Image Geo-localization",
+          "link": "https://arxiv.org/abs/2302.01572v1"
+        },
+        "c": "https://github.com/yanghongji2007/saig",
+        "n": "SAIG-D",
+        "d": "2023-02-03",
+        "m1": "89.21",
+        "m2": "96.07",
+        "m3": "97.04",
+        "m4": "98.74"
+      },
+      {
+        "p": {
+          "name": "Beyond Geo-localization: Fine-grained Orientation of Street-view Images by Cross-view Matching with Satellite Imagery with Supplementary Materials",
+          "link": "https://arxiv.org/abs/2307.03398v2"
+        },
+        "c": "",
+        "n": "GeoDTR",
+        "d": "2023-07-07",
+        "m1": "86.21",
+        "m2": "95.44",
+        "m3": "96.72",
+        "m4": "98.77"
+      },
+      {
+        "p": {
+          "name": "TransGeo: Transformer Is All You Need for Cross-view Image Geo-localization",
+          "link": "https://arxiv.org/abs/2204.00097v1"
+        },
+        "c": "https://github.com/jeff-zilence/transgeo2022",
+        "n": "Transgeo",
+        "d": "2022-03-31",
+        "m1": "84.95",
+        "m2": "94.14",
+        "m3": "95.78",
+        "m4": "98.37"
+      },
+      {
+        "p": {
+          "name": "Each Part Matters: Local Patterns Facilitate Cross-view Geo-localization",
+          "link": "https://arxiv.org/abs/2008.11646v3"
+        },
+        "c": "https://github.com/wtyhub/LPN",
+        "n": "LPN",
+        "d": "2020-08-26",
+        "m1": "79.99",
+        "m2": "90.63",
+        "m3": "92.56",
+        "m4": "97.03"
+      },
+      {
+        "p": {
+          "name": "Joint Representation Learning and Keypoint Detection for Cross-view Geo-localization",
+          "link": "https://zhunzhong.site/paper/RK_Net.pdf"
+        },
+        "c": "https://github.com/AggMan96/RK-Net",
+        "n": "RK-Net",
+        "d": "2022-05-15",
+        "m1": "40.53",
+        "m4": "89.12"
+      },
+      {
+        "p": {
+          "name": "Joint Representation Learning and Keypoint Detection for Cross-view Geo-localization",
+          "link": "https://zhunzhong.site/paper/RK_Net.pdf"
+        },
+        "c": "https://github.com/AggMan96/RK-Net",
+        "n": "Instance Loss",
+        "d": "2022-05-15",
+        "m1": "35.24",
+        "m4": "87.34"
+      }
+    ]
+  }
+}

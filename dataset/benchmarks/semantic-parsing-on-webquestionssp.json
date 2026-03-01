@@ -1,0 +1,87 @@
+{
+  "title": "semantic-parsing-on-webquestionssp",
+  "task-hierarchy": [
+    "Semantic Parsing"
+  ],
+  "dataset-info": {
+    "link": "https://www.microsoft.com/en-us/download/details.aspx?id=52763"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "ReaRev: Adaptive Reasoning for Question Answering over Knowledge Graphs",
+          "link": "https://arxiv.org/abs/2210.13650v1"
+        },
+        "c": "https://github.com/cmavro/rearev_kgqa",
+        "n": "ReaRev",
+        "d": "2022-10-24",
+        "m1": "76.4"
+      },
+      {
+        "p": {
+          "name": "Improving Multi-hop Knowledge Base Question Answering by Learning Intermediate Supervision Signals",
+          "link": "https://arxiv.org/abs/2101.03737v2"
+        },
+        "c": "https://github.com/RichardHGL/WSDM2021_NSM",
+        "n": "NSM+h",
+        "d": "2021-01-11",
+        "m1": "74.3"
+      },
+      {
+        "p": {
+          "name": "Case-based Reasoning for Natural Language Queries over Knowledge Bases",
+          "link": "https://arxiv.org/abs/2104.08762v2"
+        },
+        "c": "",
+        "n": "CBR-KBQA",
+        "d": "2021-04-18",
+        "m1": "70"
+      },
+      {
+        "p": {
+          "name": "The Value of Semantic Parse Labeling for Knowledge Base Question Answering",
+          "link": "https://aclanthology.org/P16-2033"
+        },
+        "c": "",
+        "n": "STAGG (Yih et al., 2016)",
+        "d": "2016-08-01",
+        "m1": "63.9"
+      },
+      {
+        "p": {
+          "name": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+          "link": "https://arxiv.org/abs/1910.10683v4"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "T5-11B (Raffel et al., 2020)",
+        "d": "2019-10-23",
+        "m1": "56.5"
+      }
+    ]
+  }
+}

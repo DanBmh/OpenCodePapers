@@ -1,0 +1,148 @@
+{
+  "title": "dialogue-act-classification-on-switchboard",
+  "task-hierarchy": [
+    "Dialogue",
+    "Dialogue Act Classification"
+  ],
+  "dataset-info": {
+    "link": "https://catalog.ldc.upenn.edu/LDC97S62"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Guiding attention in Sequence-to-sequence models for Dialogue Act prediction",
+          "link": "https://arxiv.org/abs/2002.08801v2"
+        },
+        "c": "https://github.com/venkat-ravilla/DAP",
+        "n": "HGRU + Beam Search + Guided attention",
+        "d": "2020-02-20",
+        "m1": "85.0"
+      },
+      {
+        "p": {
+          "name": "Speaker Turn Modeling for Dialogue Act Classification",
+          "link": "https://arxiv.org/abs/2109.05056v1"
+        },
+        "c": "https://github.com/zaghe568/speak-turn-emb-dialog-act-clf",
+        "n": "Speaker",
+        "d": "2021-09-10",
+        "m1": "83.2"
+      },
+      {
+        "p": {
+          "name": "Dialogue Act Classification with Context-Aware Self-Attention",
+          "link": "https://arxiv.org/abs/1904.02594v2"
+        },
+        "c": "https://github.com/macabdul9/CASA-Dialogue-Act-Classifier",
+        "n": "Bi-RNN + Self-Attention + Context",
+        "d": "2019-04-04",
+        "m1": "82.9"
+      },
+      {
+        "p": {
+          "name": "A Dual-Attention Hierarchical Recurrent Neural Network for Dialogue Act Classification",
+          "link": "https://arxiv.org/abs/1810.09154v3"
+        },
+        "c": "",
+        "n": "DAH-CRF ",
+        "d": "2018-10-22",
+        "m1": "82.3"
+      },
+      {
+        "p": {
+          "name": "Improved Dynamic Memory Network for Dialogue Act Classification with Adversarial Training",
+          "link": "http://arxiv.org/abs/1811.05021v1"
+        },
+        "c": "",
+        "n": "ALDMN",
+        "d": "2018-11-12",
+        "m1": "81.5"
+      },
+      {
+        "p": {
+          "name": "Dialogue Act Recognition via CRF-Attentive Structured Network",
+          "link": "http://arxiv.org/abs/1711.05568v1"
+        },
+        "c": "",
+        "n": "CRF-ASN",
+        "d": "2017-11-15",
+        "m1": "81.3"
+      },
+      {
+        "p": {
+          "name": "Dialogue Act Sequence Labeling using Hierarchical encoder with CRF",
+          "link": "http://arxiv.org/abs/1709.04250v2"
+        },
+        "c": "https://github.com/ilimugur/short-text-classification",
+        "n": "Bi-LSTM-CRF",
+        "d": "2017-09-13",
+        "m1": "79.2"
+      },
+      {
+        "p": {
+          "name": "Hierarchical Pre-training for Sequence Labelling in Spoken Dialog",
+          "link": "https://arxiv.org/abs/2009.11152v3"
+        },
+        "c": "",
+        "n": "Pretrained Hierarchical Transformer",
+        "d": "2020-09-23",
+        "m1": "79.2"
+      },
+      {
+        "p": {
+          "name": "Conversational Analysis using Utterance-level Attention-based Bidirectional Recurrent Neural Networks",
+          "link": "http://arxiv.org/abs/1805.06242v2"
+        },
+        "c": "https://github.com/bothe/dialogue-act-recognition",
+        "n": "Utt-Att-BiRNN",
+        "d": "2018-05-16",
+        "m1": "77.42"
+      },
+      {
+        "p": {
+          "name": "A Context-based Approach for Dialogue Act Recognition using Simple Recurrent Neural Networks",
+          "link": "http://arxiv.org/abs/1805.06280v1"
+        },
+        "c": "https://github.com/bothe/dialogue-act-recognition",
+        "n": "RNN with 3 utterances in context",
+        "d": "2018-05-16",
+        "m1": "77.34"
+      },
+      {
+        "p": {
+          "name": "Sequential Short-Text Classification with Recurrent and Convolutional Neural Networks",
+          "link": "http://arxiv.org/abs/1603.03827v1"
+        },
+        "c": "https://github.com/Franck-Dernoncourt/naacl2016",
+        "n": "CNN[[Lee and Dernoncourt2016]]",
+        "d": "2016-03-12",
+        "m1": "73.1"
+      }
+    ]
+  }
+}

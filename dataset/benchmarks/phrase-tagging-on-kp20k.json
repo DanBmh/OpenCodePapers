@@ -1,0 +1,95 @@
+{
+  "title": "phrase-tagging-on-kp20k",
+  "task-hierarchy": [
+    "Phrase Tagging"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/memray/seq2seq-keyphrase"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Precision",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Recall",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "UCPhrase: Unsupervised Context-aware Quality Phrase Tagging",
+          "link": "https://arxiv.org/abs/2105.14078v1"
+        },
+        "c": "https://github.com/xgeric/UCPhrase-reproduce",
+        "n": "UCPhrase",
+        "d": "2021-05-28",
+        "m1": "69.9",
+        "m2": "78.3",
+        "m3": "73.9"
+      },
+      {
+        "p": {
+          "name": "UCPhrase: Unsupervised Context-aware Quality Phrase Tagging",
+          "link": "https://arxiv.org/abs/2105.14078v1"
+        },
+        "c": "https://github.com/xgeric/UCPhrase-reproduce",
+        "n": "Wiki+RoBERTa",
+        "d": "2021-05-28",
+        "m1": "58.1",
+        "m2": "64.2",
+        "m3": "61.0"
+      },
+      {
+        "p": {
+          "name": "UCPhrase: Unsupervised Context-aware Quality Phrase Tagging",
+          "link": "https://arxiv.org/abs/2105.14078v1"
+        },
+        "c": "https://github.com/xgeric/UCPhrase-reproduce",
+        "n": "AutoPhrase",
+        "d": "2021-05-28",
+        "m1": "55.2",
+        "m2": "45.2",
+        "m3": "49.7 "
+      },
+      {
+        "p": {
+          "name": "UCPhrase: Unsupervised Context-aware Quality Phrase Tagging",
+          "link": "https://arxiv.org/abs/2105.14078v1"
+        },
+        "c": "https://github.com/xgeric/UCPhrase-reproduce",
+        "n": "TopMine",
+        "d": "2021-05-28",
+        "m1": "39.8",
+        "m2": " 41.4",
+        "m3": "40.6"
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "title": "multimodal-intent-recognition-on-mintrec",
+  "task-hierarchy": [
+    "Intent Recognition",
+    "Multimodal Intent Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/thuiar/MIntRec"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy (20 classes)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Accuracy (Binary)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MIntRec: A New Dataset for Multimodal Intent Recognition",
+          "link": "https://arxiv.org/abs/2209.04355v1"
+        },
+        "c": "https://github.com/thuiar/mintrec",
+        "n": "Human",
+        "d": "2022-09-09",
+        "m1": "85.51",
+        "m2": "94.72"
+      },
+      {
+        "p": {
+          "name": "Token-Level Contrastive Learning with Modality-Aware Prompting for Multimodal Intent Recognition",
+          "link": "https://arxiv.org/abs/2312.14667v2"
+        },
+        "c": "https://github.com/thuiar/TCL-MAP",
+        "n": "TCL-MAP",
+        "d": "2023-12-22",
+        "m1": "73.62"
+      },
+      {
+        "p": {
+          "name": "Speech-Text Dialog Pre-training for Spoken Dialog Understanding with Explicit Cross-Modal Alignment",
+          "link": "https://arxiv.org/abs/2305.11579v2"
+        },
+        "c": "https://github.com/alibabaresearch/damo-convai",
+        "n": "SPECTRA",
+        "d": "2023-05-19",
+        "m1": "73.48"
+      },
+      {
+        "p": {
+          "name": "MIntRec: A New Dataset for Multimodal Intent Recognition",
+          "link": "https://arxiv.org/abs/2209.04355v1"
+        },
+        "c": "https://github.com/thuiar/mintrec",
+        "n": "MAG-BERT (Text + Audio + Video)",
+        "d": "2022-09-09",
+        "m1": "72.65",
+        "m2": "89.24"
+      },
+      {
+        "p": {
+          "name": "MIntRec: A New Dataset for Multimodal Intent Recognition",
+          "link": "https://arxiv.org/abs/2209.04355v1"
+        },
+        "c": "https://github.com/thuiar/mintrec",
+        "n": "MulT (Text + Audio + Video)",
+        "d": "2022-09-09",
+        "m1": "72.52",
+        "m2": "89.19"
+      },
+      {
+        "p": {
+          "name": "MIntRec: A New Dataset for Multimodal Intent Recognition",
+          "link": "https://arxiv.org/abs/2209.04355v1"
+        },
+        "c": "https://github.com/thuiar/mintrec",
+        "n": "MISA (Text + Audio + Video)",
+        "d": "2022-09-09",
+        "m1": "72.29",
+        "m2": "89.21"
+      }
+    ]
+  }
+}

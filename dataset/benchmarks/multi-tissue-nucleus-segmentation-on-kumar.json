@@ -1,0 +1,251 @@
+{
+  "title": "multi-tissue-nucleus-segmentation-on-kumar",
+  "task-hierarchy": [
+    "Multi-tissue Nucleus Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://monuseg.grand-challenge.org/Data/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Dice",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Hausdorff Distance (mm)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Jaccard Index",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "PQ",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MRL: Learning to Mix with Attention and Convolutions",
+          "link": "https://arxiv.org/abs/2208.13975v1"
+        },
+        "c": "",
+        "n": "GC-MHVN",
+        "d": "2022-08-30",
+        "m1": "0.843",
+        "m3": "0.652",
+        "m4": "0.625"
+      },
+      {
+        "p": {
+          "name": "Dense Steerable Filter CNNs for Exploiting Rotational Symmetry in Histology Images",
+          "link": "https://arxiv.org/abs/2004.03037v2"
+        },
+        "c": "https://github.com/simongraham/dsf-cnn",
+        "n": "DSF-CNN (C8)",
+        "d": "2020-04-06",
+        "m1": "0.826",
+        "m2": "60"
+      },
+      {
+        "p": {
+          "name": "HoVer-Net: Simultaneous Segmentation and Classification of Nuclei in Multi-Tissue Histology Images",
+          "link": "https://arxiv.org/abs/1812.06499v5"
+        },
+        "c": "https://github.com/vqdang/xy_net",
+        "n": "HoVer-Net (e)",
+        "d": "2018-12-16",
+        "m1": "0.826",
+        "m2": "59.7"
+      },
+      {
+        "p": {
+          "name": "Learning Steerable Filters for Rotation Equivariant CNNs",
+          "link": "http://arxiv.org/abs/1711.07289v3"
+        },
+        "c": "",
+        "n": "Steerable G-CNN (C12)",
+        "d": "2017-11-20",
+        "m1": "0.820",
+        "m2": "55.8"
+      },
+      {
+        "p": {
+          "name": "CIA-Net: Robust Nuclei Instance Segmentation with Contour-aware Information Aggregation",
+          "link": "http://arxiv.org/abs/1903.05358v1"
+        },
+        "c": "",
+        "n": "CIA-Net (e)",
+        "d": "2019-03-13",
+        "m1": "0.818",
+        "m2": "57.7"
+      },
+      {
+        "p": {
+          "name": "Learning Steerable Filters for Rotation Equivariant CNNs",
+          "link": "http://arxiv.org/abs/1711.07289v3"
+        },
+        "c": "",
+        "n": "Steerable G-CNN (C12)",
+        "d": "2017-11-20",
+        "m1": "0.818",
+        "m2": "54.3"
+      },
+      {
+        "p": {
+          "name": "Roto-Translation Equivariant Convolutional Networks: Application to Histopathology Image Analysis",
+          "link": "https://arxiv.org/abs/2002.08725v1"
+        },
+        "c": "https://github.com/tueimage/se2cnn",
+        "n": "G-CNN (C12)",
+        "d": "2020-02-20",
+        "m1": "0.814",
+        "m2": "53.4"
+      },
+      {
+        "p": {
+          "name": "Rotation equivariant vector field networks",
+          "link": "http://arxiv.org/abs/1612.09346v3"
+        },
+        "c": "https://github.com/COGMAR/RotEqNet",
+        "n": "VF-CNN (C12)",
+        "d": "2016-12-29",
+        "m1": "0.813",
+        "m2": "51.4"
+      },
+      {
+        "p": {
+          "name": "Roto-Translation Equivariant Convolutional Networks: Application to Histopathology Image Analysis",
+          "link": "https://arxiv.org/abs/2002.08725v1"
+        },
+        "c": "https://github.com/tueimage/se2cnn",
+        "n": "G-CNN (C12)",
+        "d": "2020-02-20",
+        "m1": "0.811",
+        "m2": "51.9"
+      },
+      {
+        "p": {
+          "name": "Learning Steerable Filters for Rotation Equivariant CNNs",
+          "link": "http://arxiv.org/abs/1711.07289v3"
+        },
+        "c": "",
+        "n": "Steerable G-CNN (C4)",
+        "d": "2017-11-20",
+        "m1": "0.809",
+        "m2": "54.2"
+      },
+      {
+        "p": {
+          "name": "Rotation equivariant vector field networks",
+          "link": "http://arxiv.org/abs/1612.09346v3"
+        },
+        "c": "https://github.com/COGMAR/RotEqNet",
+        "n": "VF-CNN (C12)",
+        "d": "2016-12-29",
+        "m1": "0.808",
+        "m2": "50.7"
+      },
+      {
+        "p": {
+          "name": "Rotation equivariant vector field networks",
+          "link": "http://arxiv.org/abs/1612.09346v3"
+        },
+        "c": "https://github.com/COGMAR/RotEqNet",
+        "n": "VF-CNN (C4)",
+        "d": "2016-12-29",
+        "m1": "0.800",
+        "m2": "49.9"
+      },
+      {
+        "p": {
+          "name": "Micro-Net: A unified model for segmentation of various objects in microscopy images",
+          "link": "http://arxiv.org/abs/1804.08145v2"
+        },
+        "c": "",
+        "n": "Micro-Net (e)",
+        "d": "2018-04-22",
+        "m1": "0.797",
+        "m2": "51.9"
+      },
+      {
+        "p": {
+          "name": "Fully Convolutional Networks for Semantic Segmentation",
+          "link": "http://arxiv.org/abs/1411.4038v2"
+        },
+        "c": "https://github.com/pochih/fcn-pytorch",
+        "n": "FCN8 (e)",
+        "d": "2014-11-14",
+        "m1": "0.797",
+        "m2": "31.2"
+      },
+      {
+        "p": {
+          "name": "Group Equivariant Convolutional Networks",
+          "link": "http://arxiv.org/abs/1602.07576v3"
+        },
+        "c": "https://github.com/adambielski/pytorch-gconv-experiments",
+        "n": "G-CNN (C4)",
+        "d": "2016-02-24",
+        "m1": "0.793",
+        "m2": "49.0"
+      },
+      {
+        "p": {
+          "name": "Learning Steerable Filters for Rotation Equivariant CNNs",
+          "link": "http://arxiv.org/abs/1711.07289v3"
+        },
+        "c": "",
+        "n": "Steerable G-CNN (e)",
+        "d": "2017-11-20",
+        "m1": "0.791",
+        "m2": "51.0"
+      },
+      {
+        "p": {
+          "name": "Mask R-CNN",
+          "link": "http://arxiv.org/abs/1703.06870v3"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/official/vision",
+        "n": "Mask R-CNN (e)",
+        "d": "2017-03-20",
+        "m1": "0.760",
+        "m2": "50.9"
+      },
+      {
+        "p": {
+          "name": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+          "link": "http://arxiv.org/abs/1505.04597v1"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+        "n": "U-Net (e)",
+        "d": "2015-05-18",
+        "m1": "0.758",
+        "m2": "47.8"
+      }
+    ]
+  }
+}

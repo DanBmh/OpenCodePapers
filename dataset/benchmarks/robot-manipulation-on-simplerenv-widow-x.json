@@ -1,0 +1,155 @@
+{
+  "title": "robot-manipulation-on-simplerenv-widow-x",
+  "task-hierarchy": [
+    "Robot Manipulation"
+  ],
+  "dataset-info": {
+    "link": "https://simpler-env.github.io/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Average",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Put Spoon on Towel",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Put Carrot on Plate",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Stack Green Block on Yellow Block",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Put Eggplant  in Yellow Basket",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "Put Eggplant in Yellow Basket",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SoFar: Language-Grounded Orientation Bridges Spatial Reasoning and Object Manipulation",
+          "link": "https://arxiv.org/abs/2502.13143v1"
+        },
+        "c": "https://github.com/qizekun/SoFar",
+        "n": "SoFar",
+        "d": "2025-02-18",
+        "m1": "0.583",
+        "m2": "0.583",
+        "m3": "0.667",
+        "m4": "0.708",
+        "m6": "0.375"
+      },
+      {
+        "p": {
+          "name": "SpatialVLA: Exploring Spatial Representations for Visual-Language-Action Model",
+          "link": "https://arxiv.org/abs/2501.15830v5"
+        },
+        "c": "",
+        "n": "SpatialVLA",
+        "d": "2025-01-27",
+        "m1": "0.344",
+        "m2": "0.208",
+        "m3": "0.208",
+        "m4": "0.250"
+      },
+      {
+        "p": {
+          "name": "Octo: An Open-Source Generalist Robot Policy",
+          "link": "https://arxiv.org/abs/2405.12213v2"
+        },
+        "c": "",
+        "n": "Octo-Small",
+        "d": "2024-05-20",
+        "m1": "0.300",
+        "m2": "0.472",
+        "m3": "0.097",
+        "m4": "0.042"
+      },
+      {
+        "p": {
+          "name": "Octo: An Open-Source Generalist Robot Policy",
+          "link": "https://arxiv.org/abs/2405.12213v2"
+        },
+        "c": "",
+        "n": "Octo-Base",
+        "d": "2024-05-20",
+        "m1": "0.160",
+        "m2": "0.125",
+        "m3": "0.083",
+        "m4": "0.000"
+      },
+      {
+        "p": {
+          "name": "Towards Generalist Robot Policies: What Matters in Building Vision-Language-Action Models",
+          "link": "https://arxiv.org/abs/2412.14058v3"
+        },
+        "c": "https://github.com/Robot-VLAs/RoboVLMs",
+        "n": "RoboVLM",
+        "d": "2024-12-18",
+        "m1": "0.135",
+        "m2": "0.208",
+        "m3": "0.250",
+        "m4": "0.083",
+        "m5": "0.000"
+      },
+      {
+        "p": {
+          "name": "RT-1: Robotics Transformer for Real-World Control at Scale",
+          "link": "https://arxiv.org/abs/2212.06817v2"
+        },
+        "c": "https://github.com/google-research/robotics_transformer",
+        "n": "RT-1-X",
+        "d": "2022-12-13",
+        "m1": "0.011",
+        "m2": "0.000",
+        "m3": "0.042",
+        "m4": "0.000"
+      },
+      {
+        "p": {
+          "name": "OpenVLA: An Open-Source Vision-Language-Action Model",
+          "link": "https://arxiv.org/abs/2406.09246v3"
+        },
+        "c": "https://github.com/openvla/openvla",
+        "n": "OpenVLA",
+        "d": "2024-06-13",
+        "m1": "0.010",
+        "m2": "0.000",
+        "m3": "0.000",
+        "m4": "0.000"
+      }
+    ]
+  }
+}

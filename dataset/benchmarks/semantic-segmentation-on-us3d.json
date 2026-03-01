@@ -1,0 +1,147 @@
+{
+  "title": "semantic-segmentation-on-us3d",
+  "task-hierarchy": [
+    "Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "LMFNet: An Efficient Multimodal Fusion Approach for Semantic Segmentation in High-Resolution Remote Sensing",
+          "link": "https://arxiv.org/abs/2404.13659v1"
+        },
+        "c": "",
+        "n": "LMFNet-3",
+        "d": "2024-04-21",
+        "m1": "85.09"
+      },
+      {
+        "p": {
+          "name": "CMX: Cross-Modal Fusion for RGB-X Semantic Segmentation with Transformers",
+          "link": "https://arxiv.org/abs/2203.04838v5"
+        },
+        "c": "https://github.com/huaaaliu/rgbx_semantic_segmentation",
+        "n": "CMX",
+        "d": "2022-03-09",
+        "m1": "84.63"
+      },
+      {
+        "p": {
+          "name": "LMFNet: An Efficient Multimodal Fusion Approach for Semantic Segmentation in High-Resolution Remote Sensing",
+          "link": "https://arxiv.org/abs/2404.13659v1"
+        },
+        "c": "",
+        "n": "LMFNet-2",
+        "d": "2024-04-21",
+        "m1": "84.50"
+      },
+      {
+        "p": {
+          "name": "Bi-directional Cross-Modality Feature Propagation with Separation-and-Aggregation Gate for RGB-D Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2007.09183v1"
+        },
+        "c": "https://github.com/charlesCXK/RGBD_Semantic_Segmentation_PyTorch",
+        "n": "SA-Gate",
+        "d": "2020-07-17",
+        "m1": "83.62"
+      },
+      {
+        "p": {
+          "name": "Beyond RGB: Very High Resolution Urban Remote Sensing With Multimodal Deep Networks",
+          "link": "http://arxiv.org/abs/1711.08681v1"
+        },
+        "c": "https://github.com/nshaud/DeepNetsForEO",
+        "n": "vFuseNet",
+        "d": "2017-11-23",
+        "m1": "83.53"
+      },
+      {
+        "p": {
+          "name": "SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers",
+          "link": "https://arxiv.org/abs/2105.15203v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "SegFormer-B2",
+        "d": "2021-05-31",
+        "m1": "75.14"
+      },
+      {
+        "p": {
+          "name": "UNetFormer: A UNet-like Transformer for Efficient Semantic Segmentation of Remote Sensing Urban Scene Imagery",
+          "link": "https://arxiv.org/abs/2109.08937v4"
+        },
+        "c": "https://github.com/WangLibo1995/GeoSeg",
+        "n": "UNetFormer",
+        "d": "2021-09-18",
+        "m1": "74.77"
+      },
+      {
+        "p": {
+          "name": "SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers",
+          "link": "https://arxiv.org/abs/2105.15203v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "SegFormer-B1",
+        "d": "2021-05-31",
+        "m1": "74.19"
+      },
+      {
+        "p": {
+          "name": "Pyramid Scene Parsing Network",
+          "link": "http://arxiv.org/abs/1612.01105v2"
+        },
+        "c": "https://github.com/tensorflow/models",
+        "n": "PSNet",
+        "d": "2016-12-04",
+        "m1": "73.12"
+      },
+      {
+        "p": {
+          "name": "Feature Pyramid Networks for Object Detection",
+          "link": "http://arxiv.org/abs/1612.03144v2"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleOCR",
+        "n": "FPN",
+        "d": "2016-12-09",
+        "m1": "72.51"
+      },
+      {
+        "p": {
+          "name": "SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers",
+          "link": "https://arxiv.org/abs/2105.15203v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "SegFormer-B0",
+        "d": "2021-05-31",
+        "m1": "71.80"
+      }
+    ]
+  }
+}

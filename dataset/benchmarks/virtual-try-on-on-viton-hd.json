@@ -1,0 +1,87 @@
+{
+  "title": "virtual-try-on-on-viton-hd",
+  "task-hierarchy": [
+    "Virtual Try-on"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/shadow2496/VITON-HD"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "FID",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "FitDiT: Advancing the Authentic Garment Details for High-fidelity Virtual Try-on",
+          "link": "https://arxiv.org/abs/2411.10499v2"
+        },
+        "c": "https://github.com/BoyuanJiang/FitDiT",
+        "n": "FItDiT",
+        "d": "2024-11-15",
+        "m1": "4.7309"
+      },
+      {
+        "p": {
+          "name": "Improving Diffusion Models for Authentic Virtual Try-on in the Wild",
+          "link": "https://arxiv.org/abs/2403.05139v3"
+        },
+        "c": "https://github.com/yisol/IDM-VTON",
+        "n": "IDM-VTON",
+        "d": "2024-03-08",
+        "m1": "6.290"
+      },
+      {
+        "p": {
+          "name": "StableVITON: Learning Semantic Correspondence with Latent Diffusion Model for Virtual Try-On",
+          "link": "https://arxiv.org/abs/2312.01725v1"
+        },
+        "c": "https://github.com/rlawjdghek/stableviton",
+        "n": "StableVITON",
+        "d": "2023-12-04",
+        "m1": "8.233"
+      },
+      {
+        "p": {
+          "name": "High-Resolution Virtual Try-On with Misalignment and Occlusion-Handled Conditions",
+          "link": "https://arxiv.org/abs/2206.14180v2"
+        },
+        "c": "https://github.com/sangyun884/hr-viton",
+        "n": "HR-VITON",
+        "d": "2022-06-28",
+        "m1": "10.91"
+      },
+      {
+        "p": {
+          "name": "VITON-HD: High-Resolution Virtual Try-On via Misalignment-Aware Normalization",
+          "link": "https://arxiv.org/abs/2103.16874v2"
+        },
+        "c": "https://github.com/shadow2496/VITON-HD",
+        "n": "VITON-HD",
+        "d": "2021-03-31",
+        "m1": "11.74"
+      }
+    ]
+  }
+}

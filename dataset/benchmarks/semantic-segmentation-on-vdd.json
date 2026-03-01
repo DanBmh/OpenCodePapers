@@ -1,0 +1,107 @@
+{
+  "title": "semantic-segmentation-on-vdd",
+  "task-hierarchy": [
+    "Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/RussRobin/VDD"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "VDD: Varied Drone Dataset for Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2305.13608v4"
+        },
+        "c": "https://github.com/RussRobin/VDD",
+        "n": "Segformer-B2",
+        "d": "2023-05-23",
+        "m1": "85.75"
+      },
+      {
+        "p": {
+          "name": "VDD: Varied Drone Dataset for Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2305.13608v4"
+        },
+        "c": "https://github.com/RussRobin/VDD",
+        "n": "UperNet(Swin-L)",
+        "d": "2023-05-23",
+        "m1": "85.63"
+      },
+      {
+        "p": {
+          "name": "VDD: Varied Drone Dataset for Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2305.13608v4"
+        },
+        "c": "https://github.com/RussRobin/VDD",
+        "n": "UperNet(Swin-T)",
+        "d": "2023-05-23",
+        "m1": "84.73"
+      },
+      {
+        "p": {
+          "name": "VDD: Varied Drone Dataset for Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2305.13608v4"
+        },
+        "c": "https://github.com/RussRobin/VDD",
+        "n": "Mask2Former(ResNet-50)",
+        "d": "2023-05-23",
+        "m1": "83.21"
+      },
+      {
+        "p": {
+          "name": "VDD: Varied Drone Dataset for Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2305.13608v4"
+        },
+        "c": "https://github.com/RussRobin/VDD",
+        "n": "Segformer-B5",
+        "d": "2023-05-23",
+        "m1": "82.11"
+      },
+      {
+        "p": {
+          "name": "VDD: Varied Drone Dataset for Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2305.13608v4"
+        },
+        "c": "https://github.com/RussRobin/VDD",
+        "n": "Mask2Former(Swin-T)",
+        "d": "2023-05-23",
+        "m1": "77.85"
+      },
+      {
+        "p": {
+          "name": "VDD: Varied Drone Dataset for Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2305.13608v4"
+        },
+        "c": "https://github.com/RussRobin/VDD",
+        "n": "Segformer-B0",
+        "d": "2023-05-23",
+        "m1": "75.37"
+      }
+    ]
+  }
+}

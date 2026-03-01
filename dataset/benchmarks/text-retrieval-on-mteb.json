@@ -1,0 +1,338 @@
+{
+  "title": "text-retrieval-on-mteb",
+  "task-hierarchy": [
+    "Retrieval",
+    "Text Retrieval"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/embeddings-benchmark/mteb"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "nDCG@10",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MTEB: Massive Text Embedding Benchmark",
+          "link": "https://arxiv.org/abs/2210.07316v3"
+        },
+        "c": "https://github.com/embeddings-benchmark/mteb",
+        "n": "SGPT-5.8B-msmarco",
+        "d": "2022-10-13",
+        "m1": "50.25"
+      },
+      {
+        "p": {
+          "name": "MTEB: Massive Text Embedding Benchmark",
+          "link": "https://arxiv.org/abs/2210.07316v3"
+        },
+        "c": "https://github.com/embeddings-benchmark/mteb",
+        "n": "GTR-XXL",
+        "d": "2022-10-13",
+        "m1": "48.48"
+      },
+      {
+        "p": {
+          "name": "MTEB: Massive Text Embedding Benchmark",
+          "link": "https://arxiv.org/abs/2210.07316v3"
+        },
+        "c": "https://github.com/embeddings-benchmark/mteb",
+        "n": "SGPT-BLOOM-7.1B-msmarco",
+        "d": "2022-10-13",
+        "m1": "48.21"
+      },
+      {
+        "p": {
+          "name": "MTEB: Massive Text Embedding Benchmark",
+          "link": "https://arxiv.org/abs/2210.07316v3"
+        },
+        "c": "https://github.com/embeddings-benchmark/mteb",
+        "n": "GTR-XL",
+        "d": "2022-10-13",
+        "m1": "47.96"
+      },
+      {
+        "p": {
+          "name": "MTEB: Massive Text Embedding Benchmark",
+          "link": "https://arxiv.org/abs/2210.07316v3"
+        },
+        "c": "https://github.com/embeddings-benchmark/mteb",
+        "n": "GTR-Large",
+        "d": "2022-10-13",
+        "m1": "47.42"
+      },
+      {
+        "p": {
+          "name": "MTEB: Massive Text Embedding Benchmark",
+          "link": "https://arxiv.org/abs/2210.07316v3"
+        },
+        "c": "https://github.com/embeddings-benchmark/mteb",
+        "n": "SGPT-2.7B-msmarco",
+        "d": "2022-10-13",
+        "m1": "46.54"
+      },
+      {
+        "p": {
+          "name": "MTEB: Massive Text Embedding Benchmark",
+          "link": "https://arxiv.org/abs/2210.07316v3"
+        },
+        "c": "https://github.com/embeddings-benchmark/mteb",
+        "n": "GTR-Base",
+        "d": "2022-10-13",
+        "m1": "44.67"
+      },
+      {
+        "p": {
+          "name": "MTEB: Massive Text Embedding Benchmark",
+          "link": "https://arxiv.org/abs/2210.07316v3"
+        },
+        "c": "https://github.com/embeddings-benchmark/mteb",
+        "n": "SGPT-1.3B-msmarco",
+        "d": "2022-10-13",
+        "m1": "44.49"
+      },
+      {
+        "p": {
+          "name": "MTEB: Massive Text Embedding Benchmark",
+          "link": "https://arxiv.org/abs/2210.07316v3"
+        },
+        "c": "https://github.com/embeddings-benchmark/mteb",
+        "n": "MPNet",
+        "d": "2022-10-13",
+        "m1": "43.81"
+      },
+      {
+        "p": {
+          "name": "MTEB: Massive Text Embedding Benchmark",
+          "link": "https://arxiv.org/abs/2210.07316v3"
+        },
+        "c": "https://github.com/embeddings-benchmark/mteb",
+        "n": "MiniLM-L12",
+        "d": "2022-10-13",
+        "m1": "42.69"
+      },
+      {
+        "p": {
+          "name": "MTEB: Massive Text Embedding Benchmark",
+          "link": "https://arxiv.org/abs/2210.07316v3"
+        },
+        "c": "https://github.com/embeddings-benchmark/mteb",
+        "n": "ST5-XXL",
+        "d": "2022-10-13",
+        "m1": "42.24"
+      },
+      {
+        "p": {
+          "name": "MTEB: Massive Text Embedding Benchmark",
+          "link": "https://arxiv.org/abs/2210.07316v3"
+        },
+        "c": "https://github.com/embeddings-benchmark/mteb",
+        "n": "MiniLM-L6",
+        "d": "2022-10-13",
+        "m1": "41.95"
+      },
+      {
+        "p": {
+          "name": "MTEB: Massive Text Embedding Benchmark",
+          "link": "https://arxiv.org/abs/2210.07316v3"
+        },
+        "c": "https://github.com/embeddings-benchmark/mteb",
+        "n": "Contriever",
+        "d": "2022-10-13",
+        "m1": "41.88"
+      },
+      {
+        "p": {
+          "name": "MTEB: Massive Text Embedding Benchmark",
+          "link": "https://arxiv.org/abs/2210.07316v3"
+        },
+        "c": "https://github.com/embeddings-benchmark/mteb",
+        "n": "ST5-XL",
+        "d": "2022-10-13",
+        "m1": "38.47"
+      },
+      {
+        "p": {
+          "name": "MTEB: Massive Text Embedding Benchmark",
+          "link": "https://arxiv.org/abs/2210.07316v3"
+        },
+        "c": "https://github.com/embeddings-benchmark/mteb",
+        "n": "SGPT-125M-msmarco",
+        "d": "2022-10-13",
+        "m1": "37.04"
+      },
+      {
+        "p": {
+          "name": "MTEB: Massive Text Embedding Benchmark",
+          "link": "https://arxiv.org/abs/2210.07316v3"
+        },
+        "c": "https://github.com/embeddings-benchmark/mteb",
+        "n": "ST5-Large",
+        "d": "2022-10-13",
+        "m1": "36.71"
+      },
+      {
+        "p": {
+          "name": "MTEB: Massive Text Embedding Benchmark",
+          "link": "https://arxiv.org/abs/2210.07316v3"
+        },
+        "c": "https://github.com/embeddings-benchmark/mteb",
+        "n": "MPNet-multilingual",
+        "d": "2022-10-13",
+        "m1": "35.34"
+      },
+      {
+        "p": {
+          "name": "MTEB: Massive Text Embedding Benchmark",
+          "link": "https://arxiv.org/abs/2210.07316v3"
+        },
+        "c": "https://github.com/embeddings-benchmark/mteb",
+        "n": "ST5-Base",
+        "d": "2022-10-13",
+        "m1": "33.63"
+      },
+      {
+        "p": {
+          "name": "MTEB: Massive Text Embedding Benchmark",
+          "link": "https://arxiv.org/abs/2210.07316v3"
+        },
+        "c": "https://github.com/embeddings-benchmark/mteb",
+        "n": "coCondenser-msmarco",
+        "d": "2022-10-13",
+        "m1": "32.96"
+      },
+      {
+        "p": {
+          "name": "MTEB: Massive Text Embedding Benchmark",
+          "link": "https://arxiv.org/abs/2210.07316v3"
+        },
+        "c": "https://github.com/embeddings-benchmark/mteb",
+        "n": "MiniLM-L12-multilingual",
+        "d": "2022-10-13",
+        "m1": "32.45"
+      },
+      {
+        "p": {
+          "name": "MTEB: Massive Text Embedding Benchmark",
+          "link": "https://arxiv.org/abs/2210.07316v3"
+        },
+        "c": "https://github.com/embeddings-benchmark/mteb",
+        "n": "SGPT-5.8B-nli",
+        "d": "2022-10-13",
+        "m1": "32.34"
+      },
+      {
+        "p": {
+          "name": "MTEB: Massive Text Embedding Benchmark",
+          "link": "https://arxiv.org/abs/2210.07316v3"
+        },
+        "c": "https://github.com/embeddings-benchmark/mteb",
+        "n": "SimCSE-BERT-sup",
+        "d": "2022-10-13",
+        "m1": "21.82"
+      },
+      {
+        "p": {
+          "name": "MTEB: Massive Text Embedding Benchmark",
+          "link": "https://arxiv.org/abs/2210.07316v3"
+        },
+        "c": "https://github.com/embeddings-benchmark/mteb",
+        "n": "Glove",
+        "d": "2022-10-13",
+        "m1": "21.62"
+      },
+      {
+        "p": {
+          "name": "MTEB: Massive Text Embedding Benchmark",
+          "link": "https://arxiv.org/abs/2210.07316v3"
+        },
+        "c": "https://github.com/embeddings-benchmark/mteb",
+        "n": "Komninos",
+        "d": "2022-10-13",
+        "m1": "21.22"
+      },
+      {
+        "p": {
+          "name": "MTEB: Massive Text Embedding Benchmark",
+          "link": "https://arxiv.org/abs/2210.07316v3"
+        },
+        "c": "https://github.com/embeddings-benchmark/mteb",
+        "n": "SGPT-125M-nli",
+        "d": "2022-10-13",
+        "m1": "20.9"
+      },
+      {
+        "p": {
+          "name": "MTEB: Massive Text Embedding Benchmark",
+          "link": "https://arxiv.org/abs/2210.07316v3"
+        },
+        "c": "https://github.com/embeddings-benchmark/mteb",
+        "n": "SimCSE-BERT-unsup",
+        "d": "2022-10-13",
+        "m1": "20.29"
+      },
+      {
+        "p": {
+          "name": "MTEB: Massive Text Embedding Benchmark",
+          "link": "https://arxiv.org/abs/2210.07316v3"
+        },
+        "c": "https://github.com/embeddings-benchmark/mteb",
+        "n": "LaBSE",
+        "d": "2022-10-13",
+        "m1": "18.99"
+      },
+      {
+        "p": {
+          "name": "MTEB: Massive Text Embedding Benchmark",
+          "link": "https://arxiv.org/abs/2210.07316v3"
+        },
+        "c": "https://github.com/embeddings-benchmark/mteb",
+        "n": "SPECTER",
+        "d": "2022-10-13",
+        "m1": "15.88"
+      },
+      {
+        "p": {
+          "name": "MTEB: Massive Text Embedding Benchmark",
+          "link": "https://arxiv.org/abs/2210.07316v3"
+        },
+        "c": "https://github.com/embeddings-benchmark/mteb",
+        "n": "BERT",
+        "d": "2022-10-13",
+        "m1": "10.59"
+      },
+      {
+        "p": {
+          "name": "MTEB: Massive Text Embedding Benchmark",
+          "link": "https://arxiv.org/abs/2210.07316v3"
+        },
+        "c": "https://github.com/embeddings-benchmark/mteb",
+        "n": "LASER2",
+        "d": "2022-10-13",
+        "m1": "7.93"
+      }
+    ]
+  }
+}

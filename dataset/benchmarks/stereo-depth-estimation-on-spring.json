@@ -1,0 +1,77 @@
+{
+  "title": "stereo-depth-estimation-on-spring",
+  "task-hierarchy": [
+    "Stereo Depth Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://spring-benchmark.org/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "1px total",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Attention Concatenation Volume for Accurate and Efficient Stereo Matching",
+          "link": "https://arxiv.org/abs/2203.02146v3"
+        },
+        "c": "https://github.com/gangweix/acvnet",
+        "n": "ACVNet",
+        "d": "2022-03-04",
+        "m1": "14.772"
+      },
+      {
+        "p": {
+          "name": "RAFT-Stereo: Multilevel Recurrent Field Transforms for Stereo Matching",
+          "link": "https://arxiv.org/abs/2109.07547v1"
+        },
+        "c": "https://github.com/princeton-vl/raft-stereo",
+        "n": "RAFT-Stereo",
+        "d": "2021-09-15",
+        "m1": "15.273"
+      },
+      {
+        "p": {
+          "name": "Hierarchical Neural Architecture Search for Deep Stereo Matching",
+          "link": "https://arxiv.org/abs/2010.13501v1"
+        },
+        "c": "https://github.com/XuelianCheng/LEAStereo",
+        "n": "LEA-Stereo",
+        "d": "2020-10-26",
+        "m1": "19.888"
+      },
+      {
+        "p": {
+          "name": "GA-Net: Guided Aggregation Net for End-to-end Stereo Matching",
+          "link": "http://arxiv.org/abs/1904.06587v1"
+        },
+        "c": "https://github.com/feihuzhang/GANet",
+        "n": "GA-Net",
+        "d": "2019-04-13",
+        "m1": "23.225"
+      }
+    ]
+  }
+}

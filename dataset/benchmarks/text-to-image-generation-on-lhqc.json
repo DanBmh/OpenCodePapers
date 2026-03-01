@@ -1,0 +1,67 @@
+{
+  "title": "text-to-image-generation-on-lhqc",
+  "task-hierarchy": [
+    "Text-to-Image Generation"
+  ],
+  "dataset-info": {
+    "link": "https://universome.github.io/alis"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Block-FID",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "NUWA-Infinity: Autoregressive over Autoregressive Generation for Infinite Visual Synthesis",
+          "link": "https://arxiv.org/abs/2207.09814v2"
+        },
+        "c": "https://github.com/microsoft/nuwa",
+        "n": "NUWA-Infinity",
+        "d": "2022-07-20",
+        "m1": "9.71"
+      },
+      {
+        "p": {
+          "name": "MaskGIT: Masked Generative Image Transformer",
+          "link": "https://arxiv.org/abs/2202.04200v1"
+        },
+        "c": "https://github.com/lucidrains/soundstorm-pytorch",
+        "n": "MaskGIT",
+        "d": "2022-02-08",
+        "m1": "24.33"
+      },
+      {
+        "p": {
+          "name": "Taming Transformers for High-Resolution Image Synthesis",
+          "link": "https://arxiv.org/abs/2012.09841v3"
+        },
+        "c": "https://github.com/CompVis/taming-transformers",
+        "n": "Taming",
+        "d": "2020-12-17",
+        "m1": "38.89"
+      }
+    ]
+  }
+}

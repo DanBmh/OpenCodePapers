@@ -1,0 +1,68 @@
+{
+  "title": "temporal-relation-classification-on-tddman",
+  "task-hierarchy": [
+    "Temporal Relation Extraction",
+    "Temporal Relation Classification"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DCT-Centered Temporal Relation Extraction",
+          "link": "https://aclanthology.org/2022.coling-1.182"
+        },
+        "c": "",
+        "n": "DTRE",
+        "d": null,
+        "m1": "56.3"
+      },
+      {
+        "p": {
+          "name": "Selecting Optimal Context Sentences for Event-Event Relation Extraction",
+          "link": "https://www.aaai.org/AAAI22Papers/AAAI-3912.ManH.pdf"
+        },
+        "c": "https://github.com/hieumdt/SCS-EERE",
+        "n": "SCS-EERE",
+        "d": "2022-04-02",
+        "m1": "51.1"
+      },
+      {
+        "p": {
+          "name": "TIMERS: Document-level Temporal Relation Extraction",
+          "link": "https://aclanthology.org/2021.acl-short.67"
+        },
+        "c": "",
+        "n": "TIMERS",
+        "d": "2021-08-01",
+        "m1": "45.5"
+      }
+    ]
+  }
+}

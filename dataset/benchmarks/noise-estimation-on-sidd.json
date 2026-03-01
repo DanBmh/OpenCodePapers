@@ -1,0 +1,97 @@
+{
+  "title": "noise-estimation-on-sidd",
+  "task-hierarchy": [
+    "Noise Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://www.eecs.yorku.ca/~kamel/sidd/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR Gap",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Average KL Divergence",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Learning to Generate Realistic Noisy Images via Pixel-level Noise-aware Adversarial Training",
+          "link": "https://arxiv.org/abs/2204.02844v2"
+        },
+        "c": "https://github.com/caiyuanhao1998/PNGAN",
+        "n": "PNGAN",
+        "d": "2022-04-06",
+        "m1": "0.84",
+        "m2": "0.153"
+      },
+      {
+        "p": {
+          "name": "Dual Adversarial Network: Toward Real-world Noise Removal and Noise Generation",
+          "link": "https://arxiv.org/abs/2007.05946v1"
+        },
+        "c": "https://github.com/zsyOAOA/DANet",
+        "n": "DANet",
+        "d": "2020-07-12",
+        "m1": "2.06",
+        "m2": "0.212"
+      },
+      {
+        "p": {
+          "name": "GRDN:Grouped Residual Dense Network for Real Image Denoising and GAN-based Real-world Noise Modeling",
+          "link": "https://arxiv.org/abs/1905.11172v1"
+        },
+        "c": "https://github.com/caiyuanhao1998/PNGAN",
+        "n": "GRDN",
+        "d": "2019-05-27",
+        "m1": "2.28",
+        "m2": "0.443"
+      },
+      {
+        "p": {
+          "name": "Unprocessing Images for Learned Raw Denoising",
+          "link": "http://arxiv.org/abs/1811.11127v1"
+        },
+        "c": "https://github.com/google-research/google-research/tree/master/unprocessing",
+        "n": "ULRD",
+        "d": "2018-11-27",
+        "m1": "4.90",
+        "m2": "0.545"
+      },
+      {
+        "p": {
+          "name": "Toward Convolutional Blind Denoising of Real Photographs",
+          "link": "http://arxiv.org/abs/1807.04686v2"
+        },
+        "c": "https://github.com/GuoShi28/CBDNet",
+        "n": "CBDNet",
+        "d": "2018-07-12",
+        "m1": "8.30",
+        "m2": "0.728"
+      }
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "title": "audio-visual-speech-recognition-on-lrs2",
+  "task-hierarchy": [
+    "Audio-Visual Speech Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://www.robots.ox.ac.uk/~vgg/data/lip_reading/lrs2.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Test WER",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Whisper-Flamingo: Integrating Visual Features into Whisper for Audio-Visual Speech Recognition and Translation",
+          "link": "https://arxiv.org/abs/2406.10082v3"
+        },
+        "c": "https://github.com/roudimit/whisper-flamingo",
+        "n": "Whisper-Flamingo",
+        "d": "2024-06-14",
+        "m1": "1.4"
+      },
+      {
+        "p": {
+          "name": "Auto-AVSR: Audio-Visual Speech Recognition with Automatic Labels",
+          "link": "https://arxiv.org/abs/2303.14307v3"
+        },
+        "c": "https://github.com/mpc001/auto_avsr",
+        "n": "CTC/Attention",
+        "d": "2023-03-25",
+        "m1": "1.5"
+      },
+      {
+        "p": {
+          "name": "Leveraging Unimodal Self-Supervised Learning for Multimodal Audio-Visual Speech Recognition",
+          "link": "https://arxiv.org/abs/2203.07996v2"
+        },
+        "c": "https://github.com/lumia-group/leveraging-self-supervised-learning-for-avsr",
+        "n": "MoCo + wav2vec (w/o extLM)",
+        "d": "2022-02-24",
+        "m1": "2.6"
+      },
+      {
+        "p": {
+          "name": "End-to-end Audio-visual Speech Recognition with Conformers",
+          "link": "https://arxiv.org/abs/2102.06657v1"
+        },
+        "c": "https://github.com/zziz/pwc",
+        "n": "End2end Conformer",
+        "d": "2021-02-12",
+        "m1": "3.7"
+      },
+      {
+        "p": {
+          "name": "Audio-visual Recognition of Overlapped speech for the LRS2 dataset",
+          "link": "https://arxiv.org/abs/2001.01656v1"
+        },
+        "c": "",
+        "n": "LF-MMI TDNN",
+        "d": "2020-01-06",
+        "m1": "5.9"
+      },
+      {
+        "p": {
+          "name": "Audio-Visual Speech Recognition With A Hybrid CTC/Attention Architecture",
+          "link": "http://arxiv.org/abs/1810.00108v1"
+        },
+        "c": "",
+        "n": "CTC/Attention",
+        "d": "2018-09-28",
+        "m1": "7.0"
+      },
+      {
+        "p": {
+          "name": "Deep Audio-Visual Speech Recognition",
+          "link": "http://arxiv.org/abs/1809.02108v2"
+        },
+        "c": "https://github.com/lordmartian/deep_avsr",
+        "n": "TM-CTC",
+        "d": "2018-09-06",
+        "m1": "8.2"
+      },
+      {
+        "p": {
+          "name": "Deep Audio-Visual Speech Recognition",
+          "link": "http://arxiv.org/abs/1809.02108v2"
+        },
+        "c": "https://github.com/lordmartian/deep_avsr",
+        "n": "TM-Seq2seq",
+        "d": "2018-09-06",
+        "m1": "8.5"
+      }
+    ]
+  }
+}

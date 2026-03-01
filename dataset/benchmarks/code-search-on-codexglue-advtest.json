@@ -1,0 +1,67 @@
+{
+  "title": "code-search-on-codexglue-advtest",
+  "task-hierarchy": [
+    "Code Search"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/microsoft/CodeXGLUE"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MRR",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "CodeT5+: Open Code Large Language Models for Code Understanding and Generation",
+          "link": "https://arxiv.org/abs/2305.07922v2"
+        },
+        "c": "https://github.com/salesforce/codet5",
+        "n": "CodeT5+ 770M",
+        "d": "2023-05-13",
+        "m1": "44.7"
+      },
+      {
+        "p": {
+          "name": "CodeT5+: Open Code Large Language Models for Code Understanding and Generation",
+          "link": "https://arxiv.org/abs/2305.07922v2"
+        },
+        "c": "https://github.com/salesforce/codet5",
+        "n": "CodeT5+ 220M",
+        "d": "2023-05-13",
+        "m1": "43.3"
+      },
+      {
+        "p": {
+          "name": "CodeXGLUE: A Machine Learning Benchmark Dataset for Code Understanding and Generation",
+          "link": "https://arxiv.org/abs/2102.04664v2"
+        },
+        "c": "https://github.com/microsoft/CodeXGLUE",
+        "n": "CodeBERT",
+        "d": "2021-02-09",
+        "m1": "27.19"
+      }
+    ]
+  }
+}

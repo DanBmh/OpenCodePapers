@@ -1,0 +1,612 @@
+{
+  "title": "zero-shot-video-retrieval-on-msr-vtt",
+  "task-hierarchy": [
+    "Zero-Shot Video Retrieval"
+  ],
+  "dataset-info": {
+    "link": "https://www.microsoft.com/en-us/research/publication/msr-vtt-a-large-video-description-dataset-for-bridging-video-and-language/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "text-to-video R@1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "text-to-video R@5",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "text-to-video R@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "text-to-video Median Rank",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "text-to-video Mean Rank",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "video-to-text R@1",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "video-to-text R@5",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "video-to-text R@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m9",
+        "label": "video-to-text Median Rank",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "InternVideo2: Scaling Foundation Models for Multimodal Video Understanding",
+          "link": "https://arxiv.org/abs/2403.15377v4"
+        },
+        "c": "https://github.com/opengvlab/internvideo",
+        "n": "InternVideo2-6B",
+        "d": "2024-03-22",
+        "m1": "55.9",
+        "m2": "78.3",
+        "m3": "85.1",
+        "m6": "53.7",
+        "m7": "77.5",
+        "m8": "84.1"
+      },
+      {
+        "p": {
+          "name": "Gramian Multimodal Representation Learning and Alignment",
+          "link": "https://arxiv.org/abs/2412.11959v1"
+        },
+        "c": "https://github.com/ispamm/GRAM",
+        "n": "GRAM",
+        "d": "2024-12-16",
+        "m1": "54.8",
+        "m3": "83.9",
+        "m6": "52.9",
+        "m8": "82.9"
+      },
+      {
+        "p": {
+          "name": "InternVideo2: Scaling Foundation Models for Multimodal Video Understanding",
+          "link": "https://arxiv.org/abs/2403.15377v4"
+        },
+        "c": "https://github.com/opengvlab/internvideo",
+        "n": "InternVideo2-1B",
+        "d": "2024-03-22",
+        "m1": "51.9",
+        "m2": "75.3",
+        "m3": "82.5",
+        "m6": "50.9",
+        "m7": "73.4",
+        "m8": "81.8"
+      },
+      {
+        "p": {
+          "name": "HowToCaption: Prompting LLMs to Transform Video Annotations at Scale",
+          "link": "https://arxiv.org/abs/2310.04900v2"
+        },
+        "c": "https://github.com/ninatu/howtocaption",
+        "n": "VAST, HowToCaption-finetuned",
+        "d": "2023-10-07",
+        "m1": "50",
+        "m2": "73.2",
+        "m3": "81.4",
+        "m4": "1"
+      },
+      {
+        "p": {
+          "name": "Make Your Training Flexible: Towards Deployment-Efficient Video Models",
+          "link": "https://arxiv.org/abs/2503.14237v1"
+        },
+        "c": "https://github.com/opengvlab/fluxvit",
+        "n": "FluxViT-B",
+        "d": "2025-03-18",
+        "m1": "49.9",
+        "m2": "71.0",
+        "m3": "79.6",
+        "m6": "49.4",
+        "m7": "73.9",
+        "m8": "82.4"
+      },
+      {
+        "p": {
+          "name": "VAST: A Vision-Audio-Subtitle-Text Omni-Modality Foundation Model and Dataset",
+          "link": "https://arxiv.org/abs/2305.18500v2"
+        },
+        "c": "https://github.com/TXH-mercury/VALOR",
+        "n": "VAST",
+        "d": "2023-05-29",
+        "m1": "49.3",
+        "m2": "68.3",
+        "m3": "73.9"
+      },
+      {
+        "p": {
+          "name": "mPLUG-2: A Modularized Multi-modal Foundation Model Across Text, Image and Video",
+          "link": "https://arxiv.org/abs/2302.00402v1"
+        },
+        "c": "https://github.com/modelscope/modelscope",
+        "n": "mPLUG-2",
+        "d": "2023-02-01",
+        "m1": "47.1",
+        "m2": "69.7",
+        "m3": "79.0"
+      },
+      {
+        "p": {
+          "name": "Make Your Training Flexible: Towards Deployment-Efficient Video Models",
+          "link": "https://arxiv.org/abs/2503.14237v1"
+        },
+        "c": "https://github.com/opengvlab/fluxvit",
+        "n": "FluxViT-S",
+        "d": "2025-03-18",
+        "m1": "45.0",
+        "m2": "67.5",
+        "m3": "75.8",
+        "m6": "44.9",
+        "m7": "68.2",
+        "m8": "76.5"
+      },
+      {
+        "p": {
+          "name": "LanguageBind: Extending Video-Language Pretraining to N-modality by Language-based Semantic Alignment",
+          "link": "https://arxiv.org/abs/2310.01852v7"
+        },
+        "c": "https://github.com/PKU-YuanGroup/Video-LLaVA",
+        "n": "LanguageBind(ViT-H/14)",
+        "d": "2023-10-03",
+        "m1": "44.8",
+        "m2": "70.0",
+        "m3": "78.7",
+        "m4": "2",
+        "m6": "40.9",
+        "m7": "66.4",
+        "m8": "75.7",
+        "m9": "2."
+      },
+      {
+        "p": {
+          "name": "LanguageBind: Extending Video-Language Pretraining to N-modality by Language-based Semantic Alignment",
+          "link": "https://arxiv.org/abs/2310.01852v7"
+        },
+        "c": "https://github.com/PKU-YuanGroup/Video-LLaVA",
+        "n": "LanguageBind(ViT-L/14)",
+        "d": "2023-10-03",
+        "m1": "42.8",
+        "m2": "67.5",
+        "m3": "76.0",
+        "m4": "2.0",
+        "m6": "38.3",
+        "m7": "65.8",
+        "m8": "77.8",
+        "m9": "3.0"
+      },
+      {
+        "p": {
+          "name": "Unmasked Teacher: Towards Training-Efficient Video Foundation Models",
+          "link": "https://arxiv.org/abs/2303.16058v2"
+        },
+        "c": "https://github.com/opengvlab/unmasked_teacher",
+        "n": "UMT-L (ViT-L/16)",
+        "d": "2023-03-28",
+        "m1": "42.6",
+        "m2": "64.4",
+        "m3": "73.1",
+        "m6": "38.6",
+        "m7": "59.8",
+        "m8": "69.6"
+      },
+      {
+        "p": {
+          "name": "vid-TLDR: Training Free Token merging for Light-weight Video Transformer",
+          "link": "https://arxiv.org/abs/2403.13347v2"
+        },
+        "c": "https://github.com/mlvlab/vid-tldr",
+        "n": "vid-TLDR (UMT-L)",
+        "d": "2024-03-20",
+        "m1": "42.1",
+        "m2": "63.9",
+        "m3": "72.4",
+        "m6": "37.7",
+        "m7": "59.8",
+        "m8": "69.4"
+      },
+      {
+        "p": {
+          "name": "BT-Adapter: Video Conversation is Feasible Without Video Instruction Tuning",
+          "link": "https://arxiv.org/abs/2309.15785v2"
+        },
+        "c": "https://github.com/farewellthree/BT-Adapter",
+        "n": "BT-Adapter",
+        "d": "2023-09-27",
+        "m1": "40.9",
+        "m2": "64.7",
+        "m3": "73.5"
+      },
+      {
+        "p": {
+          "name": "InternVideo: General Video Foundation Models via Generative and Discriminative Learning",
+          "link": "https://arxiv.org/abs/2212.03191v2"
+        },
+        "c": "https://github.com/opengvlab/internvideo",
+        "n": "InternVideo",
+        "d": "2022-12-06",
+        "m1": "40.7",
+        "m6": "39.6"
+      },
+      {
+        "p": {
+          "name": "Florence: A New Foundation Model for Computer Vision",
+          "link": "https://arxiv.org/abs/2111.11432v1"
+        },
+        "c": "https://github.com/microsoft/unicl",
+        "n": "Florence",
+        "d": "2021-11-22",
+        "m1": "37.6",
+        "m2": "63.8",
+        "m3": "72.6"
+      },
+      {
+        "p": {
+          "name": "HowToCaption: Prompting LLMs to Transform Video Annotations at Scale",
+          "link": "https://arxiv.org/abs/2310.04900v2"
+        },
+        "c": "https://github.com/ninatu/howtocaption",
+        "n": "HowToCaption",
+        "d": "2023-10-07",
+        "m1": "37.6",
+        "m2": "62",
+        "m3": "73.3",
+        "m4": "3"
+      },
+      {
+        "p": {
+          "name": "ImageBind: One Embedding Space To Bind Them All",
+          "link": "https://arxiv.org/abs/2305.05665v2"
+        },
+        "c": "https://github.com/facebookresearch/imagebind",
+        "n": "ImageBind",
+        "d": "2023-05-09",
+        "m1": "36.8",
+        "m2": "61.8",
+        "m3": "70.0"
+      },
+      {
+        "p": {
+          "name": "OmniVL:One Foundation Model for Image-Language and Video-Language Tasks",
+          "link": "https://arxiv.org/abs/2209.07526v2"
+        },
+        "c": "",
+        "n": "OmniVL",
+        "d": "2022-09-15",
+        "m1": "34.6",
+        "m2": "58.4",
+        "m3": "66.6"
+      },
+      {
+        "p": {
+          "name": "HiTeA: Hierarchical Temporal-Aware Video-Language Pre-training",
+          "link": "https://arxiv.org/abs/2212.14546v1"
+        },
+        "c": "",
+        "n": "HiTeA-17M",
+        "d": "2022-12-30",
+        "m1": "34.4",
+        "m2": "60.0",
+        "m3": "69.9"
+      },
+      {
+        "p": {
+          "name": "Revealing Single Frame Bias for Video-and-Language Learning",
+          "link": "https://arxiv.org/abs/2206.03428v1"
+        },
+        "c": "https://github.com/jayleicn/ClipBERT",
+        "n": "Singularity-17M",
+        "d": "2022-06-07",
+        "m1": "34.0",
+        "m2": "56.7",
+        "m3": "66.7"
+      },
+      {
+        "p": {
+          "name": "CLIP4Clip: An Empirical Study of CLIP for End to End Video Clip Retrieval",
+          "link": "https://arxiv.org/abs/2104.08860v2"
+        },
+        "c": "https://github.com/towhee-io/towhee",
+        "n": "CLIP4Clip",
+        "d": "2021-04-18",
+        "m1": "32.0",
+        "m2": "57.0",
+        "m3": "66.9",
+        "m4": "4",
+        "m5": "34.0"
+      },
+      {
+        "p": {
+          "name": "Seeing What You Miss: Vision-Language Pre-training with Semantic Completion Learning",
+          "link": "https://arxiv.org/abs/2211.13437v2"
+        },
+        "c": "https://github.com/iigroup/scl",
+        "n": "Yatai Ji et. al.",
+        "d": "2022-11-24",
+        "m1": "30.9",
+        "m2": "54.4",
+        "m3": "65.0"
+      },
+      {
+        "p": {
+          "name": "HiTeA: Hierarchical Temporal-Aware Video-Language Pre-training",
+          "link": "https://arxiv.org/abs/2212.14546v1"
+        },
+        "c": "",
+        "n": "HiTeA-5M",
+        "d": "2022-12-30",
+        "m1": "29.9",
+        "m2": "54.2",
+        "m3": "62.9"
+      },
+      {
+        "p": {
+          "name": "Revealing Single Frame Bias for Video-and-Language Learning",
+          "link": "https://arxiv.org/abs/2206.03428v1"
+        },
+        "c": "https://github.com/jayleicn/ClipBERT",
+        "n": "Singularity-5M",
+        "d": "2022-06-07",
+        "m1": "28.4",
+        "m2": "50.2",
+        "m3": "59.5"
+      },
+      {
+        "p": {
+          "name": "Clover: Towards A Unified Video-Language Alignment and Fusion Model",
+          "link": "https://arxiv.org/abs/2207.07885v3"
+        },
+        "c": "https://github.com/leeyn-43/clover",
+        "n": "Clover",
+        "d": "2022-07-16",
+        "m1": "26.4",
+        "m2": "49.5",
+        "m3": "60",
+        "m4": "6"
+      },
+      {
+        "p": {
+          "name": "MILES: Visual BERT Pre-training with Injected Language Semantics for Video-text Retrieval",
+          "link": "https://arxiv.org/abs/2204.12408v1"
+        },
+        "c": "https://github.com/tencentarc/mcq",
+        "n": "MILES",
+        "d": "2022-04-26",
+        "m1": "26.1",
+        "m2": "47.2",
+        "m3": "56.9",
+        "m4": "7"
+      },
+      {
+        "p": {
+          "name": "Bridging Video-text Retrieval with Multiple Choice Questions",
+          "link": "https://arxiv.org/abs/2201.04850v2"
+        },
+        "c": "https://github.com/towhee-io/towhee",
+        "n": "Y. Ge et. al.",
+        "d": "2022-01-13",
+        "m1": "26.0",
+        "m2": "46.4",
+        "m3": "56.4",
+        "m4": "7.0"
+      },
+      {
+        "p": {
+          "name": "VIOLET : End-to-End Video-Language Transformers with Masked Visual-token Modeling",
+          "link": "https://arxiv.org/abs/2111.12681v2"
+        },
+        "c": "https://github.com/tsujuifu/pytorch_violet",
+        "n": "VIOLET",
+        "d": "2021-11-24",
+        "m1": "25.9",
+        "m2": "49.5",
+        "m3": "59.7"
+      },
+      {
+        "p": {
+          "name": "Frozen in Time: A Joint Video and Image Encoder for End-to-End Retrieval",
+          "link": "https://arxiv.org/abs/2104.00650v2"
+        },
+        "c": "https://github.com/towhee-io/towhee",
+        "n": "FROZEN",
+        "d": "2021-04-01",
+        "m1": "24.7",
+        "m2": "46.9",
+        "m3": "57.2",
+        "m4": "7.0"
+      },
+      {
+        "p": {
+          "name": "Align and Prompt: Video-and-Language Pre-training with Entity Prompts",
+          "link": "https://arxiv.org/abs/2112.09583v2"
+        },
+        "c": "https://github.com/salesforce/alpro",
+        "n": "ALPRO",
+        "d": "2021-12-17",
+        "m1": "24.1",
+        "m2": "44.7",
+        "m3": "55.4",
+        "m4": "8"
+      },
+      {
+        "p": {
+          "name": "Object-aware Video-language Pre-training for Retrieval",
+          "link": "https://arxiv.org/abs/2112.00656v6"
+        },
+        "c": "https://github.com/FingerRec/OA-Transformer",
+        "n": "OA-Trans",
+        "d": "2021-12-01",
+        "m1": "23.4",
+        "m2": "47.5",
+        "m3": "55.6",
+        "m4": "8.0"
+      },
+      {
+        "p": {
+          "name": "LaT: Latent Translation with Cycle-Consistency for Video-Text Retrieval",
+          "link": "https://arxiv.org/abs/2207.04858v2"
+        },
+        "c": "",
+        "n": "LaT",
+        "d": "2022-07-11",
+        "m1": "23.4",
+        "m2": "44.1",
+        "m3": "53.3",
+        "m4": "8",
+        "m6": "17.2",
+        "m7": "36.2",
+        "m8": "47.9",
+        "m9": "12"
+      },
+      {
+        "p": {
+          "name": "Learning Audio-Video Modalities from Image Captions",
+          "link": "https://arxiv.org/abs/2204.00679v1"
+        },
+        "c": "",
+        "n": "A. Nagrani et. al.",
+        "d": "2022-04-01",
+        "m1": "19.4",
+        "m2": "39.5",
+        "m3": "50.3"
+      },
+      {
+        "p": {
+          "name": "Advancing High-Resolution Video-Language Representation with Large-Scale Video Transcriptions",
+          "link": "https://arxiv.org/abs/2111.10337v2"
+        },
+        "c": "https://github.com/microsoft/xpretrain",
+        "n": "HD-VILA",
+        "d": "2021-11-19",
+        "m1": "14.6",
+        "m2": "34.4",
+        "m3": "44.1",
+        "m4": "15"
+      },
+      {
+        "p": {
+          "name": "Multi-granularity Correspondence Learning from Long-term Noisy Videos",
+          "link": "https://arxiv.org/abs/2401.16702v1"
+        },
+        "c": "https://github.com/XLearning-SCU/2024-ICLR-Norton",
+        "n": "Norton",
+        "d": "2024-01-30",
+        "m1": "10.7",
+        "m2": "24.1"
+      },
+      {
+        "p": {
+          "name": "VideoCLIP: Contrastive Pre-training for Zero-shot Video-Text Understanding",
+          "link": "https://arxiv.org/abs/2109.14084v2"
+        },
+        "c": "https://github.com/facebookresearch/fairseq",
+        "n": "VideoCLIP",
+        "d": "2021-09-28",
+        "m1": "10.4",
+        "m2": "22.2",
+        "m3": "30.0"
+      },
+      {
+        "p": {
+          "name": "End-to-End Learning of Visual Representations from Uncurated Instructional Videos",
+          "link": "https://arxiv.org/abs/1912.06430v4"
+        },
+        "c": "https://github.com/antoine77340/MIL-NCE_HowTo100M",
+        "n": "MIL-NCE",
+        "d": "2019-12-13",
+        "m1": "9.9",
+        "m2": "24.0",
+        "m3": "32.4",
+        "m5": "29.5"
+      },
+      {
+        "p": {
+          "name": "TACo: Token-aware Cascade Contrastive Learning for Video-Text Alignment",
+          "link": "https://arxiv.org/abs/2108.09980v1"
+        },
+        "c": "",
+        "n": "TACo",
+        "d": "2021-08-23",
+        "m1": "9.8",
+        "m2": "25.0",
+        "m3": "33.4"
+      },
+      {
+        "p": {
+          "name": "Noise Estimation Using Density Estimation for Self-Supervised Multimodal Learning",
+          "link": "https://arxiv.org/abs/2003.03186v3"
+        },
+        "c": "https://github.com/elad-amrani/ssml",
+        "n": "SSML",
+        "d": "2020-03-06",
+        "m1": "8.0",
+        "m2": "21.3",
+        "m3": "29.3"
+      },
+      {
+        "p": {
+          "name": "Multi-modal Transformer for Video Retrieval",
+          "link": "https://arxiv.org/abs/2007.10639v1"
+        },
+        "c": "https://github.com/gabeur/mmt",
+        "n": "MMT",
+        "d": "2020-07-21",
+        "m2": "14.4",
+        "m4": "66",
+        "m5": "148.1"
+      },
+      {
+        "p": {
+          "name": "VATT: Transformers for Multimodal Self-Supervised Learning from Raw Video, Audio and Text",
+          "link": "https://arxiv.org/abs/2104.11178v3"
+        },
+        "c": "https://github.com/google-research/google-research/tree/master/vatt",
+        "n": "VATT-MBS",
+        "d": "2021-04-22",
+        "m3": "29.7",
+        "m4": "49"
+      }
+    ]
+  }
+}

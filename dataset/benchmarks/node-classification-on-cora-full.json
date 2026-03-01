@@ -1,0 +1,87 @@
+{
+  "title": "node-classification-on-cora-full",
+  "task-hierarchy": [
+    "Node Classification"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Clarify Confused Nodes via Separated Learning",
+          "link": "https://arxiv.org/abs/2306.02285v6"
+        },
+        "c": "https://github.com/GISec-Team/NCGNN",
+        "n": "NCSAGE",
+        "d": "2023-06-04",
+        "m1": "72.58 ± 0.65%"
+      },
+      {
+        "p": {
+          "name": "Distilling Self-Knowledge From Contrastive Links to Classify Graph Nodes Without Passing Messages",
+          "link": "https://arxiv.org/abs/2106.08541v1"
+        },
+        "c": "https://github.com/cf020031308/LinkDist/blob/master/ogbn.py",
+        "n": "CoLinkDist",
+        "d": "2021-06-16",
+        "m1": "70.32%"
+      },
+      {
+        "p": {
+          "name": "Distilling Self-Knowledge From Contrastive Links to Classify Graph Nodes Without Passing Messages",
+          "link": "https://arxiv.org/abs/2106.08541v1"
+        },
+        "c": "https://github.com/cf020031308/LinkDist/blob/master/ogbn.py",
+        "n": "LinkDist",
+        "d": "2021-06-16",
+        "m1": "69.87%"
+      },
+      {
+        "p": {
+          "name": "Distilling Self-Knowledge From Contrastive Links to Classify Graph Nodes Without Passing Messages",
+          "link": "https://arxiv.org/abs/2106.08541v1"
+        },
+        "c": "https://github.com/cf020031308/LinkDist/blob/master/ogbn.py",
+        "n": "CoLinkDistMLP",
+        "d": "2021-06-16",
+        "m1": "69.83%"
+      },
+      {
+        "p": {
+          "name": "Distilling Self-Knowledge From Contrastive Links to Classify Graph Nodes Without Passing Messages",
+          "link": "https://arxiv.org/abs/2106.08541v1"
+        },
+        "c": "https://github.com/cf020031308/LinkDist/blob/master/ogbn.py",
+        "n": "LinkDistMLP",
+        "d": "2021-06-16",
+        "m1": "69.53%"
+      }
+    ]
+  }
+}

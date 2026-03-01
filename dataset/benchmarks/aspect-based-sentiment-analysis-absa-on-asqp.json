@@ -1,0 +1,172 @@
+{
+  "title": "aspect-based-sentiment-analysis-absa-on-asqp",
+  "task-hierarchy": [
+    "Aspect-Based Sentiment Analysis (ABSA)"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1 (R15)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "F1 (R16)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MvP: Multi-view Prompting Improves Aspect Sentiment Tuple Prediction",
+          "link": "https://arxiv.org/abs/2305.12627v1"
+        },
+        "c": "https://github.com/ZubinGou/multi-view-prompting",
+        "n": "MvP (multi-task)",
+        "d": "2023-05-22",
+        "m1": "52.21",
+        "m2": "58.94"
+      },
+      {
+        "p": {
+          "name": "MvP: Multi-view Prompting Improves Aspect Sentiment Tuple Prediction",
+          "link": "https://arxiv.org/abs/2305.12627v1"
+        },
+        "c": "https://github.com/ZubinGou/multi-view-prompting",
+        "n": "MvP",
+        "d": "2023-05-22",
+        "m1": "51.04",
+        "m2": "60.39"
+      },
+      {
+        "p": {
+          "name": "Generative Data Augmentation for Aspect Sentiment Quad Prediction",
+          "link": "https://aclanthology.org/2023.starsem-1.12/"
+        },
+        "c": "https://github.com/AnWang-AI/AugABSA",
+        "n": "AugABSA",
+        "d": "2023-07-01",
+        "m1": "50.01",
+        "m2": "60.88"
+      },
+      {
+        "p": {
+          "name": "Improving Aspect Sentiment Quad Prediction via Template-Order Data Augmentation",
+          "link": "https://arxiv.org/abs/2210.10291v1"
+        },
+        "c": "https://github.com/hmt2014/aspectquad",
+        "n": "DLO",
+        "d": "2022-10-19",
+        "m1": "48.18",
+        "m2": "59.79"
+      },
+      {
+        "p": {
+          "name": "Aspect Sentiment Quad Prediction as Paraphrase Generation",
+          "link": "https://arxiv.org/abs/2110.00796v1"
+        },
+        "c": "https://github.com/isakzhang/absa-quad",
+        "n": "Paraphrase",
+        "d": "2021-10-02",
+        "m1": "46.93",
+        "m2": "57.93"
+      },
+      {
+        "p": {
+          "name": "LEGO-ABSA: A Prompt-based Task Assemblable Unified Generative Framework for Multi-task Aspect-based Sentiment Analysis",
+          "link": "https://aclanthology.org/2022.coling-1.610"
+        },
+        "c": "",
+        "n": "LEGO-ABSA (multi-task)",
+        "d": null,
+        "m1": "46.10",
+        "m2": "57.60"
+      },
+      {
+        "p": {
+          "name": "Towards Generative Aspect-Based Sentiment Analysis",
+          "link": "https://aclanthology.org/2021.acl-short.64/"
+        },
+        "c": "https://github.com/IsakZhang/Generative-ABSA",
+        "n": "GAS",
+        "d": "2021-08-01",
+        "m1": "45.98",
+        "m2": "56.03"
+      },
+      {
+        "p": {
+          "name": "Do we still need Human Annotators? Prompting Large Language Models for Aspect Sentiment Quad Prediction",
+          "link": "https://arxiv.org/abs/2502.13044v1"
+        },
+        "c": "https://github.com/NilsHellwig/llm-prompting-asqp",
+        "n": "Gemma-3-27B (50-shot, self-consistency learning)",
+        "d": "2025-02-18",
+        "m1": "41.74",
+        "m2": "51.54"
+      },
+      {
+        "p": {
+          "name": "Do we still need Human Annotators? Prompting Large Language Models for Aspect Sentiment Quad Prediction",
+          "link": "https://arxiv.org/abs/2502.13044v1"
+        },
+        "c": "https://github.com/NilsHellwig/llm-prompting-asqp",
+        "n": "Gemma-3-27B (10-shot, self-consistency learning)",
+        "d": "2025-02-18",
+        "m1": "39.95",
+        "m2": "46.23"
+      },
+      {
+        "p": {
+          "name": "Aspect Sentiment Quad Prediction as Paraphrase Generation",
+          "link": "https://arxiv.org/abs/2110.00796v1"
+        },
+        "c": "https://github.com/isakzhang/absa-quad",
+        "n": "TAS-BRET",
+        "d": "2021-10-02",
+        "m1": "34.78",
+        "m2": "43.71"
+      },
+      {
+        "p": {
+          "name": "MvP: Multi-view Prompting Improves Aspect Sentiment Tuple Prediction",
+          "link": "https://arxiv.org/abs/2305.12627v1"
+        },
+        "c": "https://github.com/ZubinGou/multi-view-prompting",
+        "n": "ChatGPT (gpt-3.5-turbo, few-shot)",
+        "d": "2023-05-22",
+        "m1": "34.27"
+      },
+      {
+        "p": {
+          "name": "MvP: Multi-view Prompting Improves Aspect Sentiment Tuple Prediction",
+          "link": "https://arxiv.org/abs/2305.12627v1"
+        },
+        "c": "https://github.com/ZubinGou/multi-view-prompting",
+        "n": "ChatGPT (gpt-3.5-turbo, zero-shot)",
+        "d": "2023-05-22",
+        "m1": "22.87"
+      }
+    ]
+  }
+}

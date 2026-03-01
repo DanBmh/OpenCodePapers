@@ -1,0 +1,116 @@
+{
+  "title": "question-answering-on-peerqa",
+  "task-hierarchy": [
+    "Question Answering"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Prometheus-2 Answer Correctness",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Rouge-L",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "AlignScore",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "GPT-4 Technical Report",
+          "link": "https://arxiv.org/abs/2303.08774v5"
+        },
+        "c": "https://github.com/openai/evals",
+        "n": "GPT-4o-2024-08-06-128k",
+        "d": "2023-03-15",
+        "m1": "3.4612",
+        "m2": "0.2266",
+        "m3": "0.1224"
+      },
+      {
+        "p": {
+          "name": "Mistral 7B",
+          "link": "https://arxiv.org/abs/2310.06825v1"
+        },
+        "c": "https://github.com/mistralai/mistral-src",
+        "n": "Mistral-v02-7B-32k",
+        "d": "2023-10-10",
+        "m1": "3.4245",
+        "m2": "0.1922",
+        "m3": "0.0827"
+      },
+      {
+        "p": {
+          "name": "The Llama 3 Herd of Models",
+          "link": "https://arxiv.org/abs/2407.21783v3"
+        },
+        "c": "https://github.com/zhuzilin/ring-flash-attention",
+        "n": "Llama-3-IT-8B-32k",
+        "d": "2024-07-31",
+        "m1": "3.1673",
+        "m2": "0.2286",
+        "m3": "0.1016"
+      },
+      {
+        "p": {
+          "name": "The Llama 3 Herd of Models",
+          "link": "https://arxiv.org/abs/2407.21783v3"
+        },
+        "c": "https://github.com/zhuzilin/ring-flash-attention",
+        "n": "Llama-3-IT-8B-8k",
+        "d": "2024-07-31",
+        "m1": "3.1102",
+        "m2": "0.2295",
+        "m3": "0.1098"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Command-R-v01-34B",
+        "d": null,
+        "m1": "3.0571",
+        "m2": "0.2294",
+        "m3": "0.1362"
+      },
+      {
+        "p": {
+          "name": "Language Models are Few-Shot Learners",
+          "link": "https://arxiv.org/abs/2005.14165v4"
+        },
+        "c": "https://github.com/ggml-org/llama.cpp",
+        "n": "GPT-3.5-Turbo-0613-16k",
+        "d": "2020-05-28",
+        "m1": "3.0408",
+        "m2": "0.2414",
+        "m3": "0.1378"
+      }
+    ]
+  }
+}

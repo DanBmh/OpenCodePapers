@@ -1,0 +1,229 @@
+{
+  "title": "visual-question-answering-on-vizwiz-2020-vqa",
+  "task-hierarchy": [
+    "Visual Question Answering (VQA)"
+  ],
+  "dataset-info": {
+    "link": "https://vizwiz.org/tasks-and-datasets/vqa/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "overall",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "yes/no",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "number",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "other",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "unanswerable",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "PaLI: A Jointly-Scaled Multilingual Language-Image Model",
+          "link": "https://arxiv.org/abs/2209.06794v4"
+        },
+        "c": "https://github.com/google-research/big_vision",
+        "n": "PaLI",
+        "d": "2022-09-14",
+        "m1": "73.3"
+      },
+      {
+        "p": {
+          "name": "Less Is More: Linear Layers on CLIP Features as Powerful VizWiz Model",
+          "link": "https://arxiv.org/abs/2206.05281v1"
+        },
+        "c": "",
+        "n": "CLIP-Ensemble",
+        "d": "2022-06-10",
+        "m1": "61.64"
+      },
+      {
+        "p": {
+          "name": "Less Is More: Linear Layers on CLIP Features as Powerful VizWiz Model",
+          "link": "https://arxiv.org/abs/2206.05281v1"
+        },
+        "c": "",
+        "n": "CLIP-Single",
+        "d": "2022-06-10",
+        "m1": "60.66"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "HSSLab",
+        "d": null,
+        "m1": "56.33",
+        "m2": "78.89",
+        "m3": "27.1",
+        "m4": "42.3",
+        "m5": "89.49"
+      },
+      {
+        "p": {
+          "name": "Video-LaVIT: Unified Video-Language Pre-training with Decoupled Visual-Motional Tokenization",
+          "link": "https://arxiv.org/abs/2402.03161v3"
+        },
+        "c": "https://github.com/jy0205/lavit",
+        "n": "Video-LaVIT",
+        "d": "2024-02-05",
+        "m1": "56.0"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "sudoku",
+        "d": null,
+        "m1": "55.93",
+        "m2": "73.45",
+        "m3": "26.83",
+        "m4": "42.29",
+        "m5": "88.95"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Katya",
+        "d": null,
+        "m1": "54.76",
+        "m2": "80.52",
+        "m3": "27.37",
+        "m4": "40.92",
+        "m5": "86.82"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Modified Attention",
+        "d": null,
+        "m1": "49.58",
+        "m2": "59.79",
+        "m3": "20.6",
+        "m4": "34.14",
+        "m5": "88.26"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "shaunakh",
+        "d": null,
+        "m1": "48.39",
+        "m2": "60.65",
+        "m3": "22.22",
+        "m4": "34.21",
+        "m5": "83.43"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "e50",
+        "d": null,
+        "m1": "44.9",
+        "m2": "60.08",
+        "m3": "18.16",
+        "m4": "28.88",
+        "m5": "84.13"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "SKP",
+        "d": null,
+        "m1": "44.62",
+        "m2": "63.8",
+        "m3": "18.97",
+        "m4": "28.12",
+        "m5": "84.32"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "knight777",
+        "d": null,
+        "m1": "44.01",
+        "m2": "53.01",
+        "m3": "17.34",
+        "m4": "27.34",
+        "m5": "85.86"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "pk",
+        "d": null,
+        "m1": "41.92",
+        "m2": "49.86",
+        "m3": "18.7",
+        "m4": "26.13",
+        "m5": "81.54"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Tartans",
+        "d": null,
+        "m1": "34.96",
+        "m2": "60.08",
+        "m3": "23.04",
+        "m4": "19.05",
+        "m5": "71.45"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "VWTest1",
+        "d": null,
+        "m1": "34.13",
+        "m2": "25.31",
+        "m3": "14.09",
+        "m4": "17.57",
+        "m5": "78.2"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BERT-RG",
+        "d": null,
+        "m1": "6.25",
+        "m2": "79.85",
+        "m3": "2.71",
+        "m4": "1.21",
+        "m5": "7.13"
+      }
+    ]
+  }
+}

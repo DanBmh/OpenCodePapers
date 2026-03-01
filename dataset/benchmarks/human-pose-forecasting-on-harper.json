@@ -1,0 +1,92 @@
+{
+  "title": "human-pose-forecasting-on-harper",
+  "task-hierarchy": [
+    "Pose Estimation",
+    "Human Pose Forecasting"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/intelligolabs/HARPER"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Average MPJPE (mm) @ 400ms",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Average MPJPE (mm) @ 1000ms",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Last Frame MPJPE (mm) @ 400ms",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Last Frame MPJPE (mm) @ 1000ms",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "EqMotion: Equivariant Multi-agent Motion Prediction with Invariant Interaction Reasoning",
+          "link": "https://arxiv.org/abs/2303.10876v2"
+        },
+        "c": "https://github.com/mediabrain-sjtu/eqmotion",
+        "n": "EqMotion",
+        "d": "2023-03-20",
+        "m1": "41",
+        "m2": "104",
+        "m3": "69",
+        "m4": "197"
+      },
+      {
+        "p": {
+          "name": "Back to MLP: A Simple Baseline for Human Motion Prediction",
+          "link": "https://arxiv.org/abs/2207.01567v3"
+        },
+        "c": "https://github.com/dulucas/simlpe",
+        "n": "SiMLPe",
+        "d": "2022-07-04",
+        "m1": "60",
+        "m2": "141",
+        "m3": "98",
+        "m4": "264"
+      },
+      {
+        "p": {
+          "name": "Space-Time-Separable Graph Convolutional Network for Pose Forecasting",
+          "link": "https://arxiv.org/abs/2110.04573v1"
+        },
+        "c": "https://github.com/fraluca/stsgcn",
+        "n": "STS-GCN",
+        "d": "2021-10-09",
+        "m1": "120",
+        "m2": "171",
+        "m3": "147",
+        "m4": "260"
+      }
+    ]
+  }
+}

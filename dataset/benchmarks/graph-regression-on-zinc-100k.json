@@ -1,0 +1,117 @@
+{
+  "title": "graph-regression-on-zinc-100k",
+  "task-hierarchy": [
+    "Graph Regression"
+  ],
+  "dataset-info": {
+    "link": "http://zinc15.docking.org/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MAE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Weisfeiler and Lehman Go Cellular: CW Networks",
+          "link": "https://arxiv.org/abs/2106.12575v3"
+        },
+        "c": "https://github.com/twitter-research/cwn",
+        "n": "CIN-small",
+        "d": "2021-06-23",
+        "m1": "0.094"
+      },
+      {
+        "p": {
+          "name": "Improving Graph Neural Network Expressivity via Subgraph Isomorphism Counting",
+          "link": "https://arxiv.org/abs/2006.09252v3"
+        },
+        "c": "https://github.com/gbouritsas/gsn",
+        "n": "GSN",
+        "d": "2020-06-16",
+        "m1": "0.115"
+      },
+      {
+        "p": {
+          "name": "Automatic Relation-aware Graph Network Proliferation",
+          "link": "https://arxiv.org/abs/2205.15678v1"
+        },
+        "c": "https://github.com/phython96/ARGNP",
+        "n": "ARGNP",
+        "d": "2022-05-31",
+        "m1": "0.136"
+      },
+      {
+        "p": {
+          "name": "Global Self-Attention as a Replacement for Graph Convolution",
+          "link": "https://arxiv.org/abs/2108.03348v3"
+        },
+        "c": "https://github.com/shamim-hussain/egt_pytorch",
+        "n": "EGT",
+        "d": "2021-08-07",
+        "m1": "0.143"
+      },
+      {
+        "p": {
+          "name": "Neural Message Passing for Quantum Chemistry",
+          "link": "http://arxiv.org/abs/1704.01212v2"
+        },
+        "c": "https://github.com/Microsoft/gated-graph-neural-network-samples",
+        "n": "MPNN",
+        "d": "2017-04-04",
+        "m1": "0.288"
+      },
+      {
+        "p": {
+          "name": "Benchmarking Graph Neural Networks",
+          "link": "https://arxiv.org/abs/2003.00982v5"
+        },
+        "c": "https://github.com/graphdeeplearning/benchmarking-gnns",
+        "n": "GatedGCN",
+        "d": "2020-03-02",
+        "m1": "0.363"
+      },
+      {
+        "p": {
+          "name": "Geometric deep learning on graphs and manifolds using mixture model CNNs",
+          "link": "http://arxiv.org/abs/1611.08402v3"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/mxnet/monet",
+        "n": "MoNet",
+        "d": "2016-11-25",
+        "m1": "0.407"
+      },
+      {
+        "p": {
+          "name": "Graph Attention Networks",
+          "link": "http://arxiv.org/abs/1710.10903v3"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+        "n": "GAT",
+        "d": "2017-10-30",
+        "m1": "0.463"
+      }
+    ]
+  }
+}

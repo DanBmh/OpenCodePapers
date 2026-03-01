@@ -1,0 +1,84 @@
+{
+  "title": "image-denoising-on-urban100-sigma15",
+  "task-hierarchy": [
+    "3D Architecture",
+    "Denoising",
+    "Image Denoising"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/jbhuang0604/SelfExSR"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Average PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "AKDT: Adaptive Kernel Dilation Transformer for Effective Image Denoising",
+          "link": "https://www.insticc.org/node/TechnicalProgram/VISIGRAPP/2025/presentationDetails/131577"
+        },
+        "c": "https://github.com/albrateanu/AKDT",
+        "n": "AKDT",
+        "d": "2025-02-26",
+        "m1": "35.64"
+      },
+      {
+        "p": {
+          "name": "Practical Blind Image Denoising via Swin-Conv-UNet and Data Synthesis",
+          "link": "https://arxiv.org/abs/2203.13278v4"
+        },
+        "c": "https://github.com/cszn/scunet",
+        "n": "SCUNet SCUNet",
+        "d": "2022-03-24",
+        "m1": "35.18"
+      },
+      {
+        "p": {
+          "name": "MaIR: A Locality- and Continuity-Preserving Mamba for Image Restoration",
+          "link": "https://arxiv.org/abs/2412.20066v1"
+        },
+        "c": "https://github.com/XLearning-SCU/2025-CVPR-MaIR",
+        "n": "MaIR+",
+        "d": "2024-12-28",
+        "m2": "35.42"
+      },
+      {
+        "p": {
+          "name": "MaIR: A Locality- and Continuity-Preserving Mamba for Image Restoration",
+          "link": "https://arxiv.org/abs/2412.20066v1"
+        },
+        "c": "https://github.com/XLearning-SCU/2025-CVPR-MaIR",
+        "n": "MaIR",
+        "d": "2024-12-28",
+        "m2": "35.35"
+      }
+    ]
+  }
+}

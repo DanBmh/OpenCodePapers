@@ -1,0 +1,142 @@
+{
+  "title": "low-dose-x-ray-ct-reconstruction-on-x3d",
+  "task-hierarchy": [
+    "X-Ray",
+    "Low-Dose X-Ray Ct Reconstruction"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/caiyuanhao1998/SAX-NeRF"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Structure-Aware Sparse-View X-ray 3D Reconstruction",
+          "link": "https://arxiv.org/abs/2311.10959v3"
+        },
+        "c": "https://github.com/cmhungsteve/Awesome-Transformer-Attention",
+        "n": "SAX-NeRF",
+        "d": "2023-11-18",
+        "m1": "37.25",
+        "m2": "0.9753"
+      },
+      {
+        "p": {
+          "name": "NAF: Neural Attenuation Fields for Sparse-View CBCT Reconstruction",
+          "link": "https://arxiv.org/abs/2209.14540v1"
+        },
+        "c": "https://github.com/ruyi-zha/naf_cbct",
+        "n": "NAF",
+        "d": "2022-09-29",
+        "m1": "34.76",
+        "m2": "0.9535"
+      },
+      {
+        "p": {
+          "name": "TensoRF: Tensorial Radiance Fields",
+          "link": "https://arxiv.org/abs/2203.09517v2"
+        },
+        "c": "https://github.com/ashawkey/torch-ngp",
+        "n": "TensoRF",
+        "d": "2022-03-17",
+        "m1": "33.78",
+        "m2": "0.9387"
+      },
+      {
+        "p": {
+          "name": "NeAT: Neural Adaptive Tomography",
+          "link": "https://arxiv.org/abs/2202.02171v1"
+        },
+        "c": "https://github.com/darglein/NeAT",
+        "n": "NeAT",
+        "d": "2022-02-04",
+        "m1": "33.41",
+        "m2": "0.9447"
+      },
+      {
+        "p": {
+          "name": "Structure-Aware Sparse-View X-ray 3D Reconstruction",
+          "link": "https://arxiv.org/abs/2311.10959v3"
+        },
+        "c": "https://github.com/cmhungsteve/Awesome-Transformer-Attention",
+        "n": "SART",
+        "d": "2023-11-18",
+        "m1": "32.33",
+        "m2": "0.9342"
+      },
+      {
+        "p": {
+          "name": "Structure-Aware Sparse-View X-ray 3D Reconstruction",
+          "link": "https://arxiv.org/abs/2311.10959v3"
+        },
+        "c": "https://github.com/cmhungsteve/Awesome-Transformer-Attention",
+        "n": "ASD-POCS",
+        "d": "2023-11-18",
+        "m1": "32.32",
+        "m2": "0.9400"
+      },
+      {
+        "p": {
+          "name": "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+          "link": "https://arxiv.org/abs/2003.08934v2"
+        },
+        "c": "https://github.com/nvlabs/instant-ngp",
+        "n": "NeRF",
+        "d": "2020-03-19",
+        "m1": "32.15",
+        "m2": "0.9354"
+      },
+      {
+        "p": {
+          "name": "IntraTomo: Self-Supervised Learning-Based Tomography via Sinogram Synthesis and Prediction",
+          "link": "http://openaccess.thecvf.com//content/ICCV2021/html/Zang_IntraTomo_Self-Supervised_Learning-Based_Tomography_via_Sinogram_Synthesis_and_Prediction_ICCV_2021_paper.html"
+        },
+        "c": "https://github.com/vccimaging/intratomo",
+        "n": "InTomo",
+        "d": "2021-01-01",
+        "m1": "30.29",
+        "m2": "0.9189"
+      },
+      {
+        "p": {
+          "name": "Structure-Aware Sparse-View X-ray 3D Reconstruction",
+          "link": "https://arxiv.org/abs/2311.10959v3"
+        },
+        "c": "https://github.com/cmhungsteve/Awesome-Transformer-Attention",
+        "n": "FDK",
+        "d": "2023-11-18",
+        "m1": "25.12",
+        "m2": "0.6422"
+      }
+    ]
+  }
+}

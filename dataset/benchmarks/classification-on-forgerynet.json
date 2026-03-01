@@ -1,0 +1,75 @@
+{
+  "title": "classification-on-forgerynet",
+  "task-hierarchy": [
+    "Classification"
+  ],
+  "dataset-info": {
+    "link": "https://yinanhe.github.io/projects/forgerynet.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MINTIME: Multi-Identity Size-Invariant Video Deepfake Detection",
+          "link": "https://arxiv.org/abs/2211.10996v2"
+        },
+        "c": "https://github.com/davide-coccomini/mintime-multi-identity-size-invariant-timesformer-for-video-deepfake-detection",
+        "n": "MINTIME-XC",
+        "d": "2022-11-20",
+        "m1": "94.25",
+        "m2": "87.64"
+      },
+      {
+        "p": {
+          "name": "MINTIME: Multi-Identity Size-Invariant Video Deepfake Detection",
+          "link": "https://arxiv.org/abs/2211.10996v2"
+        },
+        "c": "https://github.com/davide-coccomini/mintime-multi-identity-size-invariant-timesformer-for-video-deepfake-detection",
+        "n": "SlowFast R-50",
+        "d": "2022-11-20",
+        "m1": "90.86",
+        "m2": "82.59"
+      },
+      {
+        "p": {
+          "name": "MINTIME: Multi-Identity Size-Invariant Video Deepfake Detection",
+          "link": "https://arxiv.org/abs/2211.10996v2"
+        },
+        "c": "https://github.com/davide-coccomini/mintime-multi-identity-size-invariant-timesformer-for-video-deepfake-detection",
+        "n": "MINTIME-EF",
+        "d": "2022-11-20",
+        "m1": "90.45",
+        "m2": "82.28"
+      }
+    ]
+  }
+}

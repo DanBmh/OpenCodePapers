@@ -1,0 +1,254 @@
+{
+  "title": "visual-object-tracking-on-lasot-ext",
+  "task-hierarchy": [
+    "Visual Object Tracking"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Normalized Precision",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Precision",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SAMURAI: Adapting Segment Anything Model for Zero-Shot Visual Tracking with Motion-Aware Memory",
+          "link": "https://arxiv.org/abs/2411.11922v2"
+        },
+        "c": "https://github.com/yangchris11/samurai",
+        "n": "SAMURAI-L",
+        "d": "2024-11-18",
+        "m1": "61.0",
+        "m2": "73.9",
+        "m3": "72.2"
+      },
+      {
+        "p": {
+          "name": "A Distractor-Aware Memory for Visual Object Tracking with SAM2",
+          "link": "https://arxiv.org/abs/2411.17576v2"
+        },
+        "c": "https://github.com/jovanavidenovic/dam4sam",
+        "n": "DAM4SAM",
+        "d": "2024-11-26",
+        "m1": "60.9"
+      },
+      {
+        "p": {
+          "name": "Tracking Meets LoRA: Faster Training, Larger Model, Stronger Performance",
+          "link": "https://arxiv.org/abs/2403.05231v2"
+        },
+        "c": "https://github.com/litinglin/lorat",
+        "n": "LoRAT-L-378",
+        "d": "2024-03-08",
+        "m1": "56.6",
+        "m2": "69.0",
+        "m3": "65.1"
+      },
+      {
+        "p": {
+          "name": "Tracking Meets LoRA: Faster Training, Larger Model, Stronger Performance",
+          "link": "https://arxiv.org/abs/2403.05231v2"
+        },
+        "c": "https://github.com/litinglin/lorat",
+        "n": "LoRAT-g-378",
+        "d": "2024-03-08",
+        "m1": "56.5",
+        "m2": "69.0",
+        "m3": "64.9"
+      },
+      {
+        "p": {
+          "name": "Universal Instance Perception as Object Discovery and Retrieval",
+          "link": "https://arxiv.org/abs/2303.06674v2"
+        },
+        "c": "https://github.com/MasterBin-IIAU/UNINEXT",
+        "n": "UNINEXT-H",
+        "d": "2023-03-12",
+        "m1": "56.2",
+        "m2": "63.8",
+        "m3": "63.8"
+      },
+      {
+        "p": {
+          "name": "Exploring Enhanced Contextual Information for Video-Level Object Tracking",
+          "link": "https://arxiv.org/abs/2412.11023v1"
+        },
+        "c": "https://github.com/kangben258/MCITrack",
+        "n": "MCITrack-L384",
+        "d": "2024-12-15",
+        "m1": "55.7",
+        "m2": "66.5",
+        "m3": "62.9"
+      },
+      {
+        "p": {
+          "name": "RTracker: Recoverable Tracking via PN Tree Structured Memory",
+          "link": "https://arxiv.org/abs/2403.19242v1"
+        },
+        "c": "https://github.com/norahgreen/rtracker",
+        "n": "RTracker-L",
+        "d": "2024-03-28",
+        "m1": "54.9",
+        "m2": "65.5",
+        "m3": "62.7"
+      },
+      {
+        "p": {
+          "name": "Exploring Enhanced Contextual Information for Video-Level Object Tracking",
+          "link": "https://arxiv.org/abs/2412.11023v1"
+        },
+        "c": "https://github.com/kangben258/MCITrack",
+        "n": "MCITrack-B224",
+        "d": "2024-12-15",
+        "m1": "54.6",
+        "m2": "65.7",
+        "m3": "62.1"
+      },
+      {
+        "p": {
+          "name": "ODTrack: Online Dense Temporal Token Learning for Visual Tracking",
+          "link": "https://arxiv.org/abs/2401.01686v1"
+        },
+        "c": "https://github.com/gxnu-zhonglab/odtrack",
+        "n": "ODTrack-L",
+        "d": "2024-01-03",
+        "m1": "53.9"
+      },
+      {
+        "p": {
+          "name": "ARTrackV2: Prompting Autoregressive Tracker Where to Look and How to Describe",
+          "link": "https://arxiv.org/abs/2312.17133v3"
+        },
+        "c": "https://github.com/miv-xjtu/artrack",
+        "n": "ARTrackV2-L",
+        "d": "2023-12-28",
+        "m1": "53.4",
+        "m2": "63.7",
+        "m3": "60.2"
+      },
+      {
+        "p": {
+          "name": "HIPTrack: Visual Tracking with Historical Prompts",
+          "link": "https://arxiv.org/abs/2311.02072v2"
+        },
+        "c": "https://github.com/wenruicai/hiptrack",
+        "n": "HIPTrack",
+        "d": "2023-11-03",
+        "m1": "53.0",
+        "m2": "64.3",
+        "m3": "60.6"
+      },
+      {
+        "p": {
+          "name": "Autoregressive Visual Tracking",
+          "link": "http://openaccess.thecvf.com//content/CVPR2023/html/Wei_Autoregressive_Visual_Tracking_CVPR_2023_paper.html"
+        },
+        "c": "https://github.com/miv-xjtu/artrack",
+        "n": "ARTrack-L",
+        "d": "2023-01-01",
+        "m1": "52.8",
+        "m2": "62.9",
+        "m3": "59.7"
+      },
+      {
+        "p": {
+          "name": "DropMAE: Masked Autoencoders with Spatial-Attention Dropout for Tracking Tasks",
+          "link": "https://arxiv.org/abs/2304.00571v2"
+        },
+        "c": "https://github.com/jimmy-dq/dropmae",
+        "n": "DropTrack",
+        "d": "2023-04-02",
+        "m1": "52.7",
+        "m3": "60.2"
+      },
+      {
+        "p": {
+          "name": "ODTrack: Online Dense Temporal Token Learning for Visual Tracking",
+          "link": "https://arxiv.org/abs/2401.01686v1"
+        },
+        "c": "https://github.com/gxnu-zhonglab/odtrack",
+        "n": "ODTrack-B",
+        "d": "2024-01-03",
+        "m1": "52.4"
+      },
+      {
+        "p": {
+          "name": "Unified Sequence-to-Sequence Learning for Single- and Multi-Modal Visual Object Tracking",
+          "link": "https://arxiv.org/abs/2304.14394v3"
+        },
+        "c": "https://github.com/chenxin-dlut/seqtrackv2",
+        "n": "SeqTrack-L384",
+        "d": "2023-04-27",
+        "m1": "50.7",
+        "m2": "61.6",
+        "m3": "57.5"
+      },
+      {
+        "p": {
+          "name": "Joint Feature Learning and Relation Modeling for Tracking: A One-Stream Framework",
+          "link": "https://arxiv.org/abs/2203.11991v4"
+        },
+        "c": "https://github.com/botaoye/ostrack",
+        "n": "OSTrack",
+        "d": "2022-03-22",
+        "m1": "50.6",
+        "m2": "61.3",
+        "m3": "57.6"
+      },
+      {
+        "p": {
+          "name": "Learning Target Candidate Association to Keep Track of What Not to Track",
+          "link": "https://arxiv.org/abs/2103.16556v2"
+        },
+        "c": "https://github.com/visionml/pytracking",
+        "n": "KeepTrack",
+        "d": "2021-03-30",
+        "m1": "48.2"
+      },
+      {
+        "p": {
+          "name": "High-Performance Long-Term Tracking with Meta-Updater",
+          "link": "https://arxiv.org/abs/2004.00305v1"
+        },
+        "c": "https://github.com/Daikenan/LTMU",
+        "n": "LTMU",
+        "d": "2020-04-01",
+        "m1": "41.4",
+        "m2": "49.9",
+        "m3": "47.3"
+      }
+    ]
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "title": "traffic-prediction-on-pems07",
+  "task-hierarchy": [
+    "Traffic Prediction"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MAE@1h",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Spatial-Temporal-Decoupled Masked Pre-training for Spatiotemporal Forecasting",
+          "link": "https://arxiv.org/abs/2312.00516v3"
+        },
+        "c": "https://github.com/jimmy-7664/std-mae",
+        "n": "STD-MAE",
+        "d": "2023-12-01",
+        "m1": "18.31"
+      },
+      {
+        "p": {
+          "name": "STAEformer: Spatio-Temporal Adaptive Embedding Makes Vanilla Transformer SOTA for Traffic Forecasting",
+          "link": "https://arxiv.org/abs/2308.10425v5"
+        },
+        "c": "https://github.com/xdzhelheim/staeformer",
+        "n": "STAEformer",
+        "d": "2023-08-21",
+        "m1": "19.14"
+      },
+      {
+        "p": {
+          "name": "Pattern-Matching Dynamic Memory Network for Dual-Mode Traffic Prediction",
+          "link": "https://arxiv.org/abs/2408.07100v1"
+        },
+        "c": "https://github.com/wengwenchao123/PM-DMNet",
+        "n": "PM-DMnet(R)",
+        "d": "2024-08-12",
+        "m1": "19.18"
+      },
+      {
+        "p": {
+          "name": "PDG2Seq: Periodic Dynamic Graph to Sequence Model for Traffic Flow Prediction",
+          "link": "https://www.sciencedirect.com/science/article/pii/S0893608024008700?via%3Dihub"
+        },
+        "c": "https://github.com/wengwenchao123/PDG2Seq",
+        "n": "PDG2Seq",
+        "d": "2024-12-05",
+        "m1": "19.28"
+      },
+      {
+        "p": {
+          "name": "Pattern-Matching Dynamic Memory Network for Dual-Mode Traffic Prediction",
+          "link": "https://arxiv.org/abs/2408.07100v1"
+        },
+        "c": "https://github.com/wengwenchao123/PM-DMNet",
+        "n": "PM-DMNet(P)",
+        "d": "2024-08-12",
+        "m1": "19.35"
+      },
+      {
+        "p": {
+          "name": "Enhancing Topological Dependencies in Spatio-Temporal Graphs with Cycle Message Passing Blocks",
+          "link": "https://arxiv.org/abs/2401.15894v2"
+        },
+        "c": "https://github.com/leemingo/cy2mixer",
+        "n": "Cy2Mixer",
+        "d": "2024-01-29",
+        "m1": "19.45"
+      },
+      {
+        "p": {
+          "name": "A Correlation Information-based Spatiotemporal Network for Traffic Flow Forecasting",
+          "link": "https://arxiv.org/abs/2205.10365v2"
+        },
+        "c": "https://github.com/drownfish19/corrstn",
+        "n": "CorrSTN",
+        "d": "2022-05-20",
+        "m1": "19.62"
+      },
+      {
+        "p": {
+          "name": "Online Test-Time Adaptation of Spatial-Temporal Traffic Flow Forecasting",
+          "link": "https://arxiv.org/abs/2401.04148v1"
+        },
+        "c": "https://github.com/pengxin-guo/adcsd",
+        "n": "ADCSD",
+        "d": "2024-01-08",
+        "m1": "19.62"
+      },
+      {
+        "p": {
+          "name": "A Decomposition Dynamic graph convolutional recurrent network for traffic forecasting",
+          "link": "https://www.sciencedirect.com/science/article/abs/pii/S0031320323003710"
+        },
+        "c": "https://github.com/wengwenchao123/DDGCRN",
+        "n": "DDGCRN",
+        "d": "2023-05-01",
+        "m1": "19.79"
+      },
+      {
+        "p": {
+          "name": "PDFormer: Propagation Delay-Aware Dynamic Long-Range Transformer for Traffic Flow Prediction",
+          "link": "https://arxiv.org/abs/2301.07945v3"
+        },
+        "c": "https://github.com/BUAABIGSCity/PDFormer",
+        "n": "PDFormer",
+        "d": "2023-01-19",
+        "m1": "19.83"
+      },
+      {
+        "p": {
+          "name": "When Spatio-Temporal Meet Wavelets: Disentangled Traffic Forecasting via Efficient Spectral Graph Attention Networks",
+          "link": "https://ieeexplore.ieee.org/document/10184591"
+        },
+        "c": "https://github.com/lmissher/stwave",
+        "n": "STWave",
+        "d": "2023-07-26",
+        "m1": "19.94"
+      },
+      {
+        "p": {
+          "name": "Structured Time Series Prediction without Structural Prior",
+          "link": "https://arxiv.org/abs/2202.03539v1"
+        },
+        "c": "https://github.com/radandreicristian/adn",
+        "n": "ADN",
+        "d": "2022-02-07",
+        "m1": "21.62"
+      },
+      {
+        "p": {
+          "name": "Spatial-Temporal Fusion Graph Neural Networks for Traffic Flow Forecasting",
+          "link": "https://arxiv.org/abs/2012.09641v2"
+        },
+        "c": "https://github.com/MengzhangLI/STFGNN",
+        "n": "STFGNN",
+        "d": "2020-12-15",
+        "m1": "22.07"
+      },
+      {
+        "p": {
+          "name": "Spatial-Temporal Graph ODE Networks for Traffic Flow Forecasting",
+          "link": "https://arxiv.org/abs/2106.12931v1"
+        },
+        "c": "https://github.com/square-coder/STGODE",
+        "n": "STGODE",
+        "d": "2021-06-24",
+        "m1": "22.99"
+      },
+      {
+        "p": {
+          "name": "Spatial-Temporal Synchronous Graph Convolutional Networks: A New Framework for Spatial-Temporal Network Data Forecasting",
+          "link": "https://aaai.org/ojs/index.php/AAAI/article/view/5438"
+        },
+        "c": "https://github.com/Davidham3/STSGCN",
+        "n": "STSGCN",
+        "d": "2020-04-03",
+        "m1": "24.26"
+      },
+      {
+        "p": {
+          "name": "Spatio-Temporal Graph Convolutional Networks: A Deep Learning Framework for Traffic Forecasting",
+          "link": "http://arxiv.org/abs/1709.04875v4"
+        },
+        "c": "https://github.com/VeritasYin/STGCN_IJCAI-18",
+        "n": "STGCN",
+        "d": "2017-09-14",
+        "m1": "25.38"
+      },
+      {
+        "p": {
+          "name": "Attention Based Spatial-Temporal Graph Convolutional Networks for Traffic Flow Forecasting",
+          "link": "https://aaai.org/ojs/index.php/AAAI/article/view/3881"
+        },
+        "c": "https://github.com/guoshnbjtu/astgcn-r-pytorch",
+        "n": "ASTGCN",
+        "d": "2019-01-20",
+        "m1": "28.05"
+      }
+    ]
+  }
+}

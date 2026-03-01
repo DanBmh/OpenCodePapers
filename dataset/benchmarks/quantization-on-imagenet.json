@@ -1,0 +1,362 @@
+{
+  "title": "quantization-on-imagenet",
+  "task-hierarchy": [
+    "Quantization"
+  ],
+  "dataset-info": {
+    "link": "https://image-net.org/index.php"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Top-1 Accuracy (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Weight bits",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Activation bits",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "FQ-ViT: Post-Training Quantization for Fully Quantized Vision Transformer",
+          "link": "https://arxiv.org/abs/2111.13824v4"
+        },
+        "c": "https://github.com/megvii-research/FQ-ViT",
+        "n": "FQ-ViT (ViT-L)",
+        "d": "2021-11-27",
+        "m1": "85.03",
+        "m2": "8",
+        "m3": "8"
+      },
+      {
+        "p": {
+          "name": "FQ-ViT: Post-Training Quantization for Fully Quantized Vision Transformer",
+          "link": "https://arxiv.org/abs/2111.13824v4"
+        },
+        "c": "https://github.com/megvii-research/FQ-ViT",
+        "n": "FQ-ViT (ViT-B)",
+        "d": "2021-11-27",
+        "m1": "83.31",
+        "m2": "8",
+        "m3": "8"
+      },
+      {
+        "p": {
+          "name": "FQ-ViT: Post-Training Quantization for Fully Quantized Vision Transformer",
+          "link": "https://arxiv.org/abs/2111.13824v4"
+        },
+        "c": "https://github.com/megvii-research/FQ-ViT",
+        "n": "FQ-ViT (Swin-B)",
+        "d": "2021-11-27",
+        "m1": "82.97",
+        "m2": "8",
+        "m3": "8"
+      },
+      {
+        "p": {
+          "name": "FQ-ViT: Post-Training Quantization for Fully Quantized Vision Transformer",
+          "link": "https://arxiv.org/abs/2111.13824v4"
+        },
+        "c": "https://github.com/megvii-research/FQ-ViT",
+        "n": "FQ-ViT (Swin-S)",
+        "d": "2021-11-27",
+        "m1": "82.71",
+        "m2": "8",
+        "m3": "8"
+      },
+      {
+        "p": {
+          "name": "FQ-ViT: Post-Training Quantization for Fully Quantized Vision Transformer",
+          "link": "https://arxiv.org/abs/2111.13824v4"
+        },
+        "c": "https://github.com/megvii-research/FQ-ViT",
+        "n": "FQ-ViT (DeiT-B)",
+        "d": "2021-11-27",
+        "m1": "81.20",
+        "m2": "8",
+        "m3": "8"
+      },
+      {
+        "p": {
+          "name": "FQ-ViT: Post-Training Quantization for Fully Quantized Vision Transformer",
+          "link": "https://arxiv.org/abs/2111.13824v4"
+        },
+        "c": "https://github.com/megvii-research/FQ-ViT",
+        "n": "FQ-ViT (Swin-T)",
+        "d": "2021-11-27",
+        "m1": "80.51",
+        "m2": "8",
+        "m3": "8"
+      },
+      {
+        "p": {
+          "name": "FQ-ViT: Post-Training Quantization for Fully Quantized Vision Transformer",
+          "link": "https://arxiv.org/abs/2111.13824v4"
+        },
+        "c": "https://github.com/megvii-research/FQ-ViT",
+        "n": "FQ-ViT (DeiT-S)",
+        "d": "2021-11-27",
+        "m1": "79.17",
+        "m2": "8",
+        "m3": "8"
+      },
+      {
+        "p": {
+          "name": "HPTQ: Hardware-Friendly Post Training Quantization",
+          "link": "https://arxiv.org/abs/2109.09113v3"
+        },
+        "c": "https://github.com/sony/model_optimization",
+        "n": "Xception W8A8",
+        "d": "2021-09-19",
+        "m1": "78.972",
+        "m2": "8",
+        "m3": "8"
+      },
+      {
+        "p": {
+          "name": "Learned Step Size Quantization",
+          "link": "https://arxiv.org/abs/1902.08153v3"
+        },
+        "c": "https://github.com/zhutmost/lsq-net",
+        "n": "ADLIK-MO-ResNet50-W4A4",
+        "d": "2019-02-21",
+        "m1": "77.878",
+        "m2": "4",
+        "m3": "4"
+      },
+      {
+        "p": {
+          "name": "Learned Step Size Quantization",
+          "link": "https://arxiv.org/abs/1902.08153v3"
+        },
+        "c": "https://github.com/zhutmost/lsq-net",
+        "n": "ADLIK-MO-ResNet50-W3A4",
+        "d": "2019-02-21",
+        "m1": "77.34",
+        "m2": "3",
+        "m3": "4"
+      },
+      {
+        "p": {
+          "name": "HPTQ: Hardware-Friendly Post Training Quantization",
+          "link": "https://arxiv.org/abs/2109.09113v3"
+        },
+        "c": "https://github.com/sony/model_optimization",
+        "n": "EfficientNet-B0 ReLU W8A8",
+        "d": "2021-09-19",
+        "m1": "77.092",
+        "m2": "8",
+        "m3": "8"
+      },
+      {
+        "p": {
+          "name": "Learned Step Size Quantization",
+          "link": "https://arxiv.org/abs/1902.08153v3"
+        },
+        "c": "https://github.com/zhutmost/lsq-net",
+        "n": "ResNet50-W4A4 (paper)",
+        "d": "2019-02-21",
+        "m1": "76.7",
+        "m2": "4",
+        "m3": "4"
+      },
+      {
+        "p": {
+          "name": "HMQ: Hardware Friendly Mixed Precision Quantization Block for CNNs",
+          "link": "https://arxiv.org/abs/2007.09952v1"
+        },
+        "c": "https://github.com/sony-si/ai-research",
+        "n": "EfficientNet-B0-W8A8",
+        "d": "2020-07-20",
+        "m1": "76.4",
+        "m2": "8",
+        "m3": "8"
+      },
+      {
+        "p": {
+          "name": "HMQ: Hardware Friendly Mixed Precision Quantization Block for CNNs",
+          "link": "https://arxiv.org/abs/2007.09952v1"
+        },
+        "c": "https://github.com/sony-si/ai-research",
+        "n": "EfficientNet-B0-W4A4",
+        "d": "2020-07-20",
+        "m1": "76",
+        "m2": "4",
+        "m3": "4"
+      },
+      {
+        "p": {
+          "name": "HMQ: Hardware Friendly Mixed Precision Quantization Block for CNNs",
+          "link": "https://arxiv.org/abs/2007.09952v1"
+        },
+        "c": "https://github.com/sony-si/ai-research",
+        "n": "ResNet50-W3A4",
+        "d": "2020-07-20",
+        "m1": "75.45",
+        "m2": "3",
+        "m3": "4"
+      },
+      {
+        "p": {
+          "name": "HPTQ: Hardware-Friendly Post Training Quantization",
+          "link": "https://arxiv.org/abs/2109.09113v3"
+        },
+        "c": "https://github.com/sony/model_optimization",
+        "n": "EfficientNet-B0 W8A8",
+        "d": "2021-09-19",
+        "m1": "74.216",
+        "m2": "8",
+        "m3": "8"
+      },
+      {
+        "p": {
+          "name": "Multi-Prize Lottery Ticket Hypothesis: Finding Accurate Binary Neural Networks by Pruning A Randomly Weighted Network",
+          "link": "https://arxiv.org/abs/2103.09377v1"
+        },
+        "c": "https://github.com/chrundle/biprop",
+        "n": "MPT (80) +BN",
+        "d": "2021-03-17",
+        "m1": "74.03"
+      },
+      {
+        "p": {
+          "name": "LSQ+: Improving low-bit quantization through learnable offsets and better initialization",
+          "link": "https://arxiv.org/abs/2004.09576v1"
+        },
+        "c": "https://github.com/ZouJiu1/LSQplus",
+        "n": "EfficientNet-W4A4",
+        "d": "2020-04-20",
+        "m1": "73.8",
+        "m2": "4",
+        "m3": "4"
+      },
+      {
+        "p": {
+          "name": "HPTQ: Hardware-Friendly Post Training Quantization",
+          "link": "https://arxiv.org/abs/2109.09113v3"
+        },
+        "c": "https://github.com/sony/model_optimization",
+        "n": "DenseNet-121 W8A8",
+        "d": "2021-09-19",
+        "m1": "73.356",
+        "m2": "8",
+        "m3": "8"
+      },
+      {
+        "p": {
+          "name": "LSQ+: Improving low-bit quantization through learnable offsets and better initialization",
+          "link": "https://arxiv.org/abs/2004.09576v1"
+        },
+        "c": "https://github.com/ZouJiu1/LSQplus",
+        "n": "MixNet-W4A4",
+        "d": "2020-04-20",
+        "m1": "71.7",
+        "m2": "4",
+        "m3": "4"
+      },
+      {
+        "p": {
+          "name": "FQ-ViT: Post-Training Quantization for Fully Quantized Vision Transformer",
+          "link": "https://arxiv.org/abs/2111.13824v4"
+        },
+        "c": "https://github.com/megvii-research/FQ-ViT",
+        "n": "FQ-ViT (DeiT-T)",
+        "d": "2021-11-27",
+        "m1": "71.61",
+        "m2": "8",
+        "m3": "8"
+      },
+      {
+        "p": {
+          "name": "Training Multi-bit Quantized and Binarized Networks with A Learnable Symmetric Quantizer",
+          "link": "https://arxiv.org/abs/2104.00210v1"
+        },
+        "c": "https://github.com/phuocphn/uniq",
+        "n": "UniQ (Ours)",
+        "d": "2021-04-01",
+        "m1": "71.5"
+      },
+      {
+        "p": {
+          "name": "HPTQ: Hardware-Friendly Post Training Quantization",
+          "link": "https://arxiv.org/abs/2109.09113v3"
+        },
+        "c": "https://github.com/sony/model_optimization",
+        "n": "MobileNetV2 W8A8",
+        "d": "2021-09-19",
+        "m1": "71.46",
+        "m2": "8",
+        "m3": "8"
+      },
+      {
+        "p": {
+          "name": "HMQ: Hardware Friendly Mixed Precision Quantization Block for CNNs",
+          "link": "https://arxiv.org/abs/2007.09952v1"
+        },
+        "c": "https://github.com/sony-si/ai-research",
+        "n": "MobileNetV2",
+        "d": "2020-07-20",
+        "m1": "70.9"
+      },
+      {
+        "p": {
+          "name": "R2 Loss: Range Restriction Loss for Model Compression and Quantization",
+          "link": "https://arxiv.org/abs/2303.08253v2"
+        },
+        "c": "",
+        "n": "MobileNet-v1 + EWGS + R2Loss",
+        "d": "2023-03-14",
+        "m1": "69.79",
+        "m2": "4"
+      },
+      {
+        "p": {
+          "name": "R2 Loss: Range Restriction Loss for Model Compression and Quantization",
+          "link": "https://arxiv.org/abs/2303.08253v2"
+        },
+        "c": "",
+        "n": "MobileNet-v1 + LSQ + R2Loss",
+        "d": "2023-03-14",
+        "m1": "69.64"
+      },
+      {
+        "p": {
+          "name": "R2 Loss: Range Restriction Loss for Model Compression and Quantization",
+          "link": "https://arxiv.org/abs/2303.08253v2"
+        },
+        "c": "",
+        "n": "ResNet-18 + PACT + R2Loss",
+        "d": "2023-03-14",
+        "m1": "68.45",
+        "m2": "2",
+        "m3": "4"
+      }
+    ]
+  }
+}

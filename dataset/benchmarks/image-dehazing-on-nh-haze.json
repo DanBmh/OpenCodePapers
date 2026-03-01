@@ -1,0 +1,77 @@
+{
+  "title": "image-dehazing-on-nh-haze",
+  "task-hierarchy": [
+    "Image Dehazing"
+  ],
+  "dataset-info": {
+    "link": "https://data.vision.ee.ethz.ch/cvl/ntire20/nh-haze/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Complementary Feature Enhanced Network with Vision Transformer for Image Dehazing",
+          "link": "https://arxiv.org/abs/2109.07100v3"
+        },
+        "c": "https://github.com/phoenixtreesky7/cfen-vit-dehazing",
+        "n": "CFEN",
+        "d": "2021-09-15",
+        "m1": "24.26"
+      },
+      {
+        "p": {
+          "name": "Complementary Feature Enhanced Network with Vision Transformer for Image Dehazing",
+          "link": "https://arxiv.org/abs/2109.07100v3"
+        },
+        "c": "https://github.com/phoenixtreesky7/cfen-vit-dehazing",
+        "n": "DWGAN",
+        "d": "2021-09-15",
+        "m1": "22.13"
+      },
+      {
+        "p": {
+          "name": "Structure Representation Network and Uncertainty Feedback Learning for Dense Non-Uniform Fog Removal",
+          "link": "https://arxiv.org/abs/2210.03061v1"
+        },
+        "c": "https://github.com/jinyeying/fogremoval",
+        "n": "SRDefog",
+        "d": "2022-10-06",
+        "m1": "20.99"
+      },
+      {
+        "p": {
+          "name": "SAD-Net: a full spectral self-attention detail enhancement network for single image dehazing",
+          "link": "https://www.nature.com/articles/s41598-025-92061-1"
+        },
+        "c": "https://github.com/niuqj/SAD-Net",
+        "n": "SAD-Net",
+        "d": "2025-04-07",
+        "m1": "20.48"
+      }
+    ]
+  }
+}

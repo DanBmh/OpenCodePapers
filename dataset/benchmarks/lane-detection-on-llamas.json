@@ -1,0 +1,142 @@
+{
+  "title": "lane-detection-on-llamas",
+  "task-hierarchy": [
+    "Lane Detection"
+  ],
+  "dataset-info": {
+    "link": "https://unsupervised-llamas.com/llamas/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "mF1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "CLRNet: Cross Layer Refinement Network for Lane Detection",
+          "link": "https://arxiv.org/abs/2203.10350v1"
+        },
+        "c": "https://github.com/Turoad/lanedet",
+        "n": "CLRNet (DLA-34)",
+        "d": "2022-03-19",
+        "m1": "0.9612"
+      },
+      {
+        "p": {
+          "name": "Rethinking Efficient Lane Detection via Curve Modeling",
+          "link": "https://arxiv.org/abs/2203.02431v2"
+        },
+        "c": "https://github.com/voldemortX/pytorch-auto-drive",
+        "n": "BézierLaneNet (ResNet-34)",
+        "d": "2022-03-04",
+        "m1": "0.9611"
+      },
+      {
+        "p": {
+          "name": "LaneAF: Robust Multi-Lane Detection with Affinity Fields",
+          "link": "https://arxiv.org/abs/2103.12040v4"
+        },
+        "c": "https://github.com/sel118/LaneAF",
+        "n": "LaneAF",
+        "d": "2021-03-22",
+        "m1": "0.9601"
+      },
+      {
+        "p": {
+          "name": "CLRNet: Cross Layer Refinement Network for Lane Detection",
+          "link": "https://arxiv.org/abs/2203.10350v1"
+        },
+        "c": "https://github.com/Turoad/lanedet",
+        "n": "CLRNet (ResNet-18)",
+        "d": "2022-03-19",
+        "m1": "0.9600"
+      },
+      {
+        "p": {
+          "name": "Rethinking Efficient Lane Detection via Curve Modeling",
+          "link": "https://arxiv.org/abs/2203.02431v2"
+        },
+        "c": "https://github.com/voldemortX/pytorch-auto-drive",
+        "n": "BézierLaneNet (ResNet-18)",
+        "d": "2022-03-04",
+        "m1": "0.9552"
+      },
+      {
+        "p": {
+          "name": "Keep your Eyes on the Lane: Real-time Attention-guided Lane Detection",
+          "link": "https://arxiv.org/abs/2010.12035v2"
+        },
+        "c": "https://github.com/lucastabelini/LaneATT",
+        "n": "LaneATT (ResNet-34)",
+        "d": "2020-10-22",
+        "m1": "0.9374"
+      },
+      {
+        "p": {
+          "name": "Keep your Eyes on the Lane: Real-time Attention-guided Lane Detection",
+          "link": "https://arxiv.org/abs/2010.12035v2"
+        },
+        "c": "https://github.com/lucastabelini/LaneATT",
+        "n": "LaneATT (ResNet-122)",
+        "d": "2020-10-22",
+        "m1": "0.9354"
+      },
+      {
+        "p": {
+          "name": "Keep your Eyes on the Lane: Real-time Attention-guided Lane Detection",
+          "link": "https://arxiv.org/abs/2010.12035v2"
+        },
+        "c": "https://github.com/lucastabelini/LaneATT",
+        "n": "LaneATT (ResNet-18)",
+        "d": "2020-10-22",
+        "m1": "0.9346"
+      },
+      {
+        "p": {
+          "name": "PolyLaneNet: Lane Estimation via Deep Polynomial Regression",
+          "link": "https://arxiv.org/abs/2004.10924v2"
+        },
+        "c": "https://github.com/lucastabelini/PolyLaneNet",
+        "n": "PolyLaneNet",
+        "d": "2020-04-23",
+        "m1": "0.8840"
+      },
+      {
+        "p": {
+          "name": "FENet: Focusing Enhanced Network for Lane Detection",
+          "link": "https://arxiv.org/abs/2312.17163v6"
+        },
+        "c": "https://github.com/hanyangzhong/fenet",
+        "n": "FENetV2",
+        "d": "2023-12-28",
+        "m2": "71.85"
+      }
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "title": "continuous-control-on-pybullet-hopper",
+  "task-hierarchy": [
+    "Continuous Control"
+  ],
+  "dataset-info": {
+    "link": "https://pybullet.org/wordpress"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Return",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Smooth Exploration for Robotic Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2005.05719v2"
+        },
+        "c": "https://github.com/DLR-RM/stable-baselines3",
+        "n": "SAC gSDE",
+        "d": "2020-05-12",
+        "m1": "2646"
+      },
+      {
+        "p": {
+          "name": "Smooth Exploration for Robotic Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2005.05719v2"
+        },
+        "c": "https://github.com/DLR-RM/stable-baselines3",
+        "n": "PPO gSDE",
+        "d": "2020-05-12",
+        "m1": "2508"
+      },
+      {
+        "p": {
+          "name": "Smooth Exploration for Robotic Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2005.05719v2"
+        },
+        "c": "https://github.com/DLR-RM/stable-baselines3",
+        "n": "SAC",
+        "d": "2020-05-12",
+        "m1": "2477"
+      },
+      {
+        "p": {
+          "name": "Smooth Exploration for Robotic Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2005.05719v2"
+        },
+        "c": "https://github.com/DLR-RM/stable-baselines3",
+        "n": "TD3",
+        "d": "2020-05-12",
+        "m1": "2470"
+      },
+      {
+        "p": {
+          "name": "Smooth Exploration for Robotic Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2005.05719v2"
+        },
+        "c": "https://github.com/DLR-RM/stable-baselines3",
+        "n": "TD3 gSDE",
+        "d": "2020-05-12",
+        "m1": "2353"
+      },
+      {
+        "p": {
+          "name": "Smooth Exploration for Robotic Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2005.05719v2"
+        },
+        "c": "https://github.com/DLR-RM/stable-baselines3",
+        "n": "PPO",
+        "d": "2020-05-12",
+        "m1": "1622"
+      },
+      {
+        "p": {
+          "name": "Smooth Exploration for Robotic Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2005.05719v2"
+        },
+        "c": "https://github.com/DLR-RM/stable-baselines3",
+        "n": "A2C",
+        "d": "2020-05-12",
+        "m1": "1559"
+      },
+      {
+        "p": {
+          "name": "Smooth Exploration for Robotic Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2005.05719v2"
+        },
+        "c": "https://github.com/DLR-RM/stable-baselines3",
+        "n": "A2C gSDE",
+        "d": "2020-05-12",
+        "m1": "1448"
+      }
+    ]
+  }
+}

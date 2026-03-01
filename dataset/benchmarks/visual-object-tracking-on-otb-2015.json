@@ -1,0 +1,225 @@
+{
+  "title": "visual-object-tracking-on-otb-2015",
+  "task-hierarchy": [
+    "Visual Object Tracking"
+  ],
+  "dataset-info": {
+    "link": "http://cvlab.hanyang.ac.kr/tracker_benchmark/datasets.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Precision",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SPMTrack: Spatio-Temporal Parameter-Efficient Fine-Tuning with Mixture of Experts for Scalable Visual Tracking",
+          "link": "https://arxiv.org/abs/2503.18338v1"
+        },
+        "c": "https://github.com/wenruicai/spmtrack",
+        "n": "SPMTrack-B",
+        "d": "2025-03-24",
+        "m1": "0.727"
+      },
+      {
+        "p": {
+          "name": "ODTrack: Online Dense Temporal Token Learning for Visual Tracking",
+          "link": "https://arxiv.org/abs/2401.01686v1"
+        },
+        "c": "https://github.com/gxnu-zhonglab/odtrack",
+        "n": "ODTrack-L",
+        "d": "2024-01-03",
+        "m1": "0.724"
+      },
+      {
+        "p": {
+          "name": "ODTrack: Online Dense Temporal Token Learning for Visual Tracking",
+          "link": "https://arxiv.org/abs/2401.01686v1"
+        },
+        "c": "https://github.com/gxnu-zhonglab/odtrack",
+        "n": "ODTrack-B",
+        "d": "2024-01-03",
+        "m1": "0.723"
+      },
+      {
+        "p": {
+          "name": "STMTrack: Template-free Visual Tracking with Space-time Memory Networks",
+          "link": "https://arxiv.org/abs/2104.00324v2"
+        },
+        "c": "https://github.com/fzh0917/STMTrack",
+        "n": "STMTrack",
+        "d": "2021-04-01",
+        "m1": "0.719"
+      },
+      {
+        "p": {
+          "name": "SAMURAI: Adapting Segment Anything Model for Zero-Shot Visual Tracking with Motion-Aware Memory",
+          "link": "https://arxiv.org/abs/2411.11922v2"
+        },
+        "c": "https://github.com/yangchris11/samurai",
+        "n": "SAMURAI-L",
+        "d": "2024-11-18",
+        "m1": "0.715"
+      },
+      {
+        "p": {
+          "name": "Improving Visual Object Tracking through Visual Prompting",
+          "link": "https://arxiv.org/abs/2409.18901v1"
+        },
+        "c": "https://github.com/chenshihfang/GOT",
+        "n": "PiVOT-L",
+        "d": "2024-09-27",
+        "m1": "0.712",
+        "m2": "0.946"
+      },
+      {
+        "p": {
+          "name": "HIPTrack: Visual Tracking with Historical Prompts",
+          "link": "https://arxiv.org/abs/2311.02072v2"
+        },
+        "c": "https://github.com/wenruicai/hiptrack",
+        "n": "HIPTrack",
+        "d": "2023-11-03",
+        "m1": "0.71"
+      },
+      {
+        "p": {
+          "name": "Learning Target Candidate Association to Keep Track of What Not to Track",
+          "link": "https://arxiv.org/abs/2103.16556v2"
+        },
+        "c": "https://github.com/visionml/pytracking",
+        "n": "KeepTrack",
+        "d": "2021-03-30",
+        "m1": "0.709"
+      },
+      {
+        "p": {
+          "name": "Tracking-by-Trackers with a Distilled and Reinforced Model",
+          "link": "https://arxiv.org/abs/2007.04108v2"
+        },
+        "c": "https://github.com/dontfollowmeimcrazy/vot-kd-rl",
+        "n": "TRASFUST",
+        "d": "2020-07-08",
+        "m1": "0.701",
+        "m2": "0.931"
+      },
+      {
+        "p": {
+          "name": "AAA: Adaptive Aggregation of Arbitrary Online Trackers with Theoretical Performance Guarantee",
+          "link": "https://arxiv.org/abs/2009.09237v2"
+        },
+        "c": "https://github.com/songheony/A3T",
+        "n": "AAA",
+        "d": "2020-09-19",
+        "m1": "0.70",
+        "m2": "0.91"
+      },
+      {
+        "p": {
+          "name": "Visual Tracking via Adaptive Spatially-Regularized Correlation Filters",
+          "link": "http://openaccess.thecvf.com/content_CVPR_2019/html/Dai_Visual_Tracking_via_Adaptive_Spatially-Regularized_Correlation_Filters_CVPR_2019_paper.html"
+        },
+        "c": "https://github.com/Daikenan/ASRCF",
+        "n": "ASRCF",
+        "d": "2019-06-01",
+        "m1": "0.692"
+      },
+      {
+        "p": {
+          "name": "Unified Sequence-to-Sequence Learning for Single- and Multi-Modal Visual Object Tracking",
+          "link": "https://arxiv.org/abs/2304.14394v3"
+        },
+        "c": "https://github.com/chenxin-dlut/seqtrackv2",
+        "n": "SeqTrack-L384",
+        "d": "2023-04-27",
+        "m1": "0.683"
+      },
+      {
+        "p": {
+          "name": "Scale Equivariance Improves Siamese Tracking",
+          "link": "https://arxiv.org/abs/2007.09115v2"
+        },
+        "c": "https://github.com/isosnovik/SiamSE",
+        "n": "SE-SiamFC",
+        "d": "2020-07-17",
+        "m1": "0.66"
+      },
+      {
+        "p": {
+          "name": "A Twofold Siamese Network for Real-Time Object Tracking",
+          "link": "http://arxiv.org/abs/1802.08817v1"
+        },
+        "c": "https://github.com/Microsoft/SA-Siam",
+        "n": "SA-Siam",
+        "d": "2018-02-24",
+        "m1": "0.657"
+      },
+      {
+        "p": {
+          "name": "SiamVGG: Visual Tracking using Deeper Siamese Networks",
+          "link": "https://arxiv.org/abs/1902.02804v4"
+        },
+        "c": "https://github.com/zllrunning/SiameseX.PyTorch",
+        "n": "SiamVGG",
+        "d": "2019-02-07",
+        "m1": "0.654"
+      },
+      {
+        "p": {
+          "name": "Do Different Tracking Tasks Require Different Appearance Models?",
+          "link": "https://arxiv.org/abs/2107.02156v2"
+        },
+        "c": "https://github.com/Zhongdao/UniTrack",
+        "n": "UniTrack_DCF",
+        "d": "2021-07-05",
+        "m1": "0.618"
+      },
+      {
+        "p": {
+          "name": "End-to-end representation learning for Correlation Filter based tracking",
+          "link": "http://arxiv.org/abs/1704.06036v1"
+        },
+        "c": "",
+        "n": "CFNet",
+        "d": "2017-04-20",
+        "m1": "0.568"
+      },
+      {
+        "p": {
+          "name": "GradNet: Gradient-Guided Network for Visual Object Tracking",
+          "link": "https://arxiv.org/abs/1909.06800v1"
+        },
+        "c": "https://github.com/LPXTT/GradNet-Pytorch",
+        "n": "GradNet",
+        "d": "2019-09-15",
+        "m2": "0.861"
+      }
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "title": "human-pose-forecasting-on-3dpw",
+  "task-hierarchy": [
+    "Pose Estimation",
+    "Human Pose Forecasting"
+  ],
+  "dataset-info": {
+    "link": "http://virtualhumans.mpi-inf.mpg.de/3DPW"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Average MPJPE (mm) 1000 msec",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "FDE@1000ms (mm)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "FDE@560ms (mm)",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "FDE@720ms (mm)",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "FDE@880ms (mm)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Space-Time-Separable Graph Convolutional Network for Pose Forecasting",
+          "link": "https://arxiv.org/abs/2110.04573v1"
+        },
+        "c": "https://github.com/fraluca/stsgcn",
+        "n": "STS-GCN",
+        "d": "2021-10-09",
+        "m1": "42.3"
+      },
+      {
+        "p": {
+          "name": "Towards Accurate Human Motion Prediction via Iterative Refinement",
+          "link": "https://arxiv.org/abs/2305.04443v1"
+        },
+        "c": "",
+        "n": "Sun et al.",
+        "d": "2023-05-08",
+        "m1": "71"
+      },
+      {
+        "p": {
+          "name": "GCNext: Towards the Unity of Graph Convolutions for Human Motion Prediction",
+          "link": "https://arxiv.org/abs/2312.11850v1"
+        },
+        "c": "https://github.com/bradleywang0416/gcnext",
+        "n": "GCNext",
+        "d": "2023-12-19",
+        "m1": "72.0"
+      },
+      {
+        "p": {
+          "name": "Back to MLP: A Simple Baseline for Human Motion Prediction",
+          "link": "https://arxiv.org/abs/2207.01567v3"
+        },
+        "c": "https://github.com/dulucas/simlpe",
+        "n": "siMLPe",
+        "d": "2022-07-04",
+        "m1": "72.2"
+      },
+      {
+        "p": {
+          "name": "AnyPose: Anytime 3D Human Pose Forecasting via Neural Ordinary Differential Equations",
+          "link": "https://arxiv.org/abs/2309.04840v1"
+        },
+        "c": "",
+        "n": "AnyPose1",
+        "d": "2023-09-09",
+        "m1": "84.4"
+      },
+      {
+        "p": {
+          "name": "Auxiliary Tasks Benefit 3D Skeleton-based Human Motion Prediction",
+          "link": "https://arxiv.org/abs/2308.08942v1"
+        },
+        "c": "https://github.com/mediabrain-sjtu/auxformer",
+        "n": "AuxFormer",
+        "d": "2023-08-17",
+        "m1": "107.45"
+      },
+      {
+        "p": {
+          "name": "A generic diffusion-based approach for 3D human pose prediction in the wild",
+          "link": "https://arxiv.org/abs/2210.05669v2"
+        },
+        "c": "https://github.com/vita-epfl/deposit",
+        "n": "TCD",
+        "d": "2022-10-11",
+        "m2": "73.4",
+        "m3": "55.4",
+        "m4": "61.6",
+        "m5": "67.9"
+      }
+    ]
+  }
+}

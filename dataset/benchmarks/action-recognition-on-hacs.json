@@ -1,0 +1,129 @@
+{
+  "title": "action-recognition-on-hacs",
+  "task-hierarchy": [
+    "Action Recognition"
+  ],
+  "dataset-info": {
+    "link": "http://hacs.csail.mit.edu/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Top 1 Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Top 5 Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "InternVideo2: Scaling Foundation Models for Multimodal Video Understanding",
+          "link": "https://arxiv.org/abs/2403.15377v4"
+        },
+        "c": "https://github.com/opengvlab/internvideo",
+        "n": "InternVideo2-6B",
+        "d": "2024-03-22",
+        "m1": "97.0"
+      },
+      {
+        "p": {
+          "name": "UniFormerV2: Spatiotemporal Learning by Arming Image ViTs with Video UniFormer",
+          "link": "https://openreview.net/forum?id=d77RVuVg-Mf"
+        },
+        "c": "https://github.com/OpenGVLab/UniFormerV2",
+        "n": "UniFormerV2-L",
+        "d": "2022-09-22",
+        "m1": "95.5",
+        "m2": "99.8"
+      },
+      {
+        "p": {
+          "name": "Learn to cycle: Time-consistent feature discovery for action recognition",
+          "link": "https://arxiv.org/abs/2006.08247v2"
+        },
+        "c": "https://github.com/alexandrosstergiou/Squeeze-and-Recursion-Temporal-Gates/blob/master/train_model.py",
+        "n": "SRTG r(2+1)d-101",
+        "d": "2020-06-15",
+        "m1": "84.33",
+        "m2": "96.85"
+      },
+      {
+        "p": {
+          "name": "Learn to cycle: Time-consistent feature discovery for action recognition",
+          "link": "https://arxiv.org/abs/2006.08247v2"
+        },
+        "c": "https://github.com/alexandrosstergiou/Squeeze-and-Recursion-Temporal-Gates/blob/master/train_model.py",
+        "n": "SRTG r(2+1)d-50",
+        "d": "2020-06-15",
+        "m1": "83.77",
+        "m2": "96.56"
+      },
+      {
+        "p": {
+          "name": "Learn to cycle: Time-consistent feature discovery for action recognition",
+          "link": "https://arxiv.org/abs/2006.08247v2"
+        },
+        "c": "https://github.com/alexandrosstergiou/Squeeze-and-Recursion-Temporal-Gates/blob/master/train_model.py",
+        "n": "SRTG r3d-101",
+        "d": "2020-06-15",
+        "m1": "81.66",
+        "m2": "96.33"
+      },
+      {
+        "p": {
+          "name": "Learn to cycle: Time-consistent feature discovery for action recognition",
+          "link": "https://arxiv.org/abs/2006.08247v2"
+        },
+        "c": "https://github.com/alexandrosstergiou/Squeeze-and-Recursion-Temporal-Gates/blob/master/train_model.py",
+        "n": "SRTG r(2+1)d-34",
+        "d": "2020-06-15",
+        "m1": "80.39",
+        "m2": "94.27"
+      },
+      {
+        "p": {
+          "name": "Learn to cycle: Time-consistent feature discovery for action recognition",
+          "link": "https://arxiv.org/abs/2006.08247v2"
+        },
+        "c": "https://github.com/alexandrosstergiou/Squeeze-and-Recursion-Temporal-Gates/blob/master/train_model.py",
+        "n": "SRTG r3d-50",
+        "d": "2020-06-15",
+        "m1": "80.36",
+        "m2": "95.55"
+      },
+      {
+        "p": {
+          "name": "Learn to cycle: Time-consistent feature discovery for action recognition",
+          "link": "https://arxiv.org/abs/2006.08247v2"
+        },
+        "c": "https://github.com/alexandrosstergiou/Squeeze-and-Recursion-Temporal-Gates/blob/master/train_model.py",
+        "n": "SRTG r3d-34",
+        "d": "2020-06-15",
+        "m1": "78.60",
+        "m2": "93.57"
+      }
+    ]
+  }
+}

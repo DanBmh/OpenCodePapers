@@ -1,0 +1,245 @@
+{
+  "title": "link-property-prediction-on-ogbl-biokg",
+  "task-hierarchy": [
+    "Link Property Prediction"
+  ],
+  "dataset-info": {
+    "link": "https://ogb.stanford.edu/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Test MRR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Ext. data",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Validation MRR",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Number of params",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Relation-aware Ensemble Learning for Knowledge Graph Embedding",
+          "link": "https://arxiv.org/abs/2310.08917v1"
+        },
+        "c": "https://github.com/lars-research/relens",
+        "n": "RelEns",
+        "d": "2023-10-13",
+        "m1": "0.9618 ± 0.0002",
+        "m2": "No",
+        "m3": "0.9627 ± 0.0004",
+        "m4": "849427106"
+      },
+      {
+        "p": {
+          "name": "Embedding Knowledge Graphs Attentive to Positional and Centrality Qualities",
+          "link": "https://2021.ecmlpkdd.org/wp-content/uploads/2021/07/sub_1096.pdf"
+        },
+        "c": "https://github.com/afshinsadeghi/GFA-NN",
+        "n": "GFA-NN",
+        "d": "2021-06-01",
+        "m1": "0.9011",
+        "m3": "0.9011"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ComplEx^2",
+        "d": null,
+        "m1": "0.8583 ± 0.0005",
+        "m2": "No",
+        "m3": "0.8592 ± 0.0004",
+        "m4": "187648000"
+      },
+      {
+        "p": {
+          "name": "How to Turn Your Knowledge Graph Embeddings into Generative Models",
+          "link": "https://arxiv.org/abs/2305.15944v3"
+        },
+        "c": "https://github.com/april-tools/gekcs",
+        "n": "ComplEx^2",
+        "d": "2023-05-25",
+        "m1": "0.8583 ± 0.0005",
+        "m2": "No",
+        "m3": "0.8592 ± 0.0004",
+        "m4": "187648000"
+      },
+      {
+        "p": {
+          "name": "Prior Bilinear Based Models for Knowledge Graph Completion",
+          "link": "https://arxiv.org/abs/2309.13834v1"
+        },
+        "c": "https://github.com/lrlbbzl/unibi_ogb",
+        "n": "UniBi",
+        "d": "2023-09-25",
+        "m1": "0.8550 ± 0.0003",
+        "m2": "No",
+        "m3": "0.8553 ± 0.0001",
+        "m4": "181654170"
+      },
+      {
+        "p": {
+          "name": "Bilinear Scoring Function Search for Knowledge Graph Learning",
+          "link": "https://arxiv.org/abs/2107.00184v2"
+        },
+        "c": "https://github.com/AutoML-4Paradigm/AutoSF/tree/AutoSF-OGB",
+        "n": "AutoBLM-KGBench",
+        "d": "2021-07-01",
+        "m1": "0.8536 ± 0.0003",
+        "m2": "No",
+        "m3": "0.8548 ± 0.0002",
+        "m4": "192047104"
+      },
+      {
+        "p": {
+          "name": "Relation Prediction as an Auxiliary Training Objective for Improving Multi-Relational Graph Representations",
+          "link": "https://arxiv.org/abs/2110.02834v1"
+        },
+        "c": "https://github.com/facebookresearch/ssl-relation-prediction",
+        "n": "ComplEx-N3-RP",
+        "d": "2021-10-06",
+        "m1": "0.8494",
+        "m3": "0.8497",
+        "m4": "187750000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ComplEx-RP (1000dim)",
+        "d": null,
+        "m1": "0.8492 ± 0.0002",
+        "m2": "No",
+        "m3": "0.8497 ± 0.0002",
+        "m4": "187750000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "TripleRE",
+        "d": null,
+        "m1": "0.8348 ± 0.0007",
+        "m2": "No",
+        "m3": "0.8360 ± 0.0006",
+        "m4": "469630002"
+      },
+      {
+        "p": {
+          "name": "Neural Bellman-Ford Networks: A General Graph Neural Network Framework for Link Prediction",
+          "link": "https://arxiv.org/abs/2106.06935v4"
+        },
+        "c": "https://github.com/DeepGraphLearning/NBFNet",
+        "n": "NBFNet",
+        "d": "2021-06-13",
+        "m1": "0.8317",
+        "m2": "No",
+        "m3": "0.8318",
+        "m4": "734,209"
+      },
+      {
+        "p": {
+          "name": "AutoSF: Searching Scoring Functions for Knowledge Graph Embedding",
+          "link": "https://arxiv.org/abs/1904.11682v3"
+        },
+        "c": "https://github.com/AutoML-4Paradigm/ERAS",
+        "n": "AutoSF",
+        "d": "2019-04-26",
+        "m1": "0.8309 ± 0.0008",
+        "m2": "No",
+        "m3": "0.8317 ± 0.0007",
+        "m4": "93824000"
+      },
+      {
+        "p": {
+          "name": "PairRE: Knowledge Graph Embeddings via Paired Relation Vectors",
+          "link": "https://arxiv.org/abs/2011.03798v3"
+        },
+        "c": "https://github.com/ant-research/KnowledgeGraphEmbeddingsViaPairedRelationVectors_PairRE",
+        "n": "PairRE",
+        "d": "2020-11-07",
+        "m1": "0.8164 ± 0.0005",
+        "m2": "No",
+        "m3": "0.8172 ± 0.0005",
+        "m4": "187750000"
+      },
+      {
+        "p": {
+          "name": "Complex Embeddings for Simple Link Prediction",
+          "link": "http://arxiv.org/abs/1606.06357v1"
+        },
+        "c": "https://github.com/pyg-team/pytorch_geometric/blob/2947af7733d87315a9218a0bfabbfda10b595f0e/torch_geometric/nn/kge/complex.py",
+        "n": "ComplEx",
+        "d": "2016-06-20",
+        "m1": "0.8095 ± 0.0007",
+        "m2": "No",
+        "m3": "0.8105 ± 0.0001",
+        "m4": "187648000"
+      },
+      {
+        "p": {
+          "name": "Embedding Entities and Relations for Learning and Inference in Knowledge Bases",
+          "link": "http://arxiv.org/abs/1412.6575v4"
+        },
+        "c": "https://github.com/pyg-team/pytorch_geometric/blob/master/torch_geometric/nn/kge/distmult.py",
+        "n": "DistMult",
+        "d": "2014-12-20",
+        "m1": "0.8043 ± 0.0003",
+        "m2": "No",
+        "m3": "0.8055 ± 0.0003",
+        "m4": "187648000"
+      },
+      {
+        "p": {
+          "name": "RotatE: Knowledge Graph Embedding by Relational Rotation in Complex Space",
+          "link": "http://arxiv.org/abs/1902.10197v1"
+        },
+        "c": "https://github.com/pyg-team/pytorch_geometric/blob/master/torch_geometric/nn/kge/rotate.py",
+        "n": "RotatE",
+        "d": "2019-02-26",
+        "m1": "0.7989 ± 0.0004",
+        "m2": "No",
+        "m3": "0.7997 ± 0.0002",
+        "m4": "187597000"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "TransE",
+        "d": null,
+        "m1": "0.7452 ± 0.0004",
+        "m2": "No",
+        "m3": "0.7456 ± 0.0003",
+        "m4": "187648000"
+      }
+    ]
+  }
+}

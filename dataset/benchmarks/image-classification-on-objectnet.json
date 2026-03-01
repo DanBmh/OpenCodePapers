@@ -1,0 +1,1137 @@
+{
+  "title": "image-classification-on-objectnet",
+  "task-hierarchy": [
+    "Image Classification"
+  ],
+  "dataset-info": {
+    "link": "https://objectnet.dev/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Top-1 Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Top-5 Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "CoCa: Contrastive Captioners are Image-Text Foundation Models",
+          "link": "https://arxiv.org/abs/2205.01917v2"
+        },
+        "c": "https://github.com/mlfoundations/open_clip",
+        "n": "CoCa",
+        "d": "2022-05-04",
+        "m1": "82.7"
+      },
+      {
+        "p": {
+          "name": "LiT: Zero-Shot Transfer with Locked-image text Tuning",
+          "link": "https://arxiv.org/abs/2111.07991v3"
+        },
+        "c": "https://github.com/mlfoundations/open_clip",
+        "n": "LiT",
+        "d": "2021-11-15",
+        "m1": "82.5"
+      },
+      {
+        "p": {
+          "name": "Combined Scaling for Zero-shot Transfer Learning",
+          "link": "https://arxiv.org/abs/2111.10050v3"
+        },
+        "c": "",
+        "n": "BASIC",
+        "d": "2021-11-19",
+        "m1": "82.3"
+      },
+      {
+        "p": {
+          "name": "EVA-CLIP: Improved Training Techniques for CLIP at Scale",
+          "link": "https://arxiv.org/abs/2303.15389v1"
+        },
+        "c": "https://github.com/baaivision/eva",
+        "n": "EVA-02-CLIP-E/14+",
+        "d": "2023-03-27",
+        "m1": "79.6"
+      },
+      {
+        "p": {
+          "name": "Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time",
+          "link": "https://arxiv.org/abs/2203.05482v3"
+        },
+        "c": "https://github.com/mlfoundations/model-soups",
+        "n": "Baseline (ViT-G/14)",
+        "d": "2022-03-10",
+        "m1": "79.03"
+      },
+      {
+        "p": {
+          "name": "Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time",
+          "link": "https://arxiv.org/abs/2203.05482v3"
+        },
+        "c": "https://github.com/mlfoundations/model-soups",
+        "n": "Model soups (ViT-G/14)",
+        "d": "2022-03-10",
+        "m1": "78.52"
+      },
+      {
+        "p": {
+          "name": "The effectiveness of MAE pre-pretraining for billion-scale pretraining",
+          "link": "https://arxiv.org/abs/2303.13496v3"
+        },
+        "c": "https://github.com/facebookresearch/maws",
+        "n": "MAWS (ViT-6.5B)",
+        "d": "2023-03-23",
+        "m1": "77.9"
+      },
+      {
+        "p": {
+          "name": "The effectiveness of MAE pre-pretraining for billion-scale pretraining",
+          "link": "https://arxiv.org/abs/2303.13496v3"
+        },
+        "c": "https://github.com/facebookresearch/maws",
+        "n": "MAWS (ViT-2B)",
+        "d": "2023-03-23",
+        "m1": "75.8"
+      },
+      {
+        "p": {
+          "name": "The effectiveness of MAE pre-pretraining for billion-scale pretraining",
+          "link": "https://arxiv.org/abs/2303.13496v3"
+        },
+        "c": "https://github.com/facebookresearch/maws",
+        "n": "MAWS (ViT-H)",
+        "d": "2023-03-23",
+        "m1": "72.6"
+      },
+      {
+        "p": {
+          "name": "Learning Transferable Visual Models From Natural Language Supervision",
+          "link": "https://arxiv.org/abs/2103.00020v1"
+        },
+        "c": "https://github.com/openai/CLIP",
+        "n": "CLIP",
+        "d": "2021-02-26",
+        "m1": "72.3"
+      },
+      {
+        "p": {
+          "name": "Combined Scaling for Zero-shot Transfer Learning",
+          "link": "https://arxiv.org/abs/2111.10050v3"
+        },
+        "c": "",
+        "n": "ALIGN",
+        "d": "2021-11-19",
+        "m1": "72.2"
+      },
+      {
+        "p": {
+          "name": "Robust fine-tuning of zero-shot models",
+          "link": "https://arxiv.org/abs/2109.01903v3"
+        },
+        "c": "https://github.com/mlfoundations/wise-ft",
+        "n": "WiSE-FT",
+        "d": "2021-09-04",
+        "m1": "72.1"
+      },
+      {
+        "p": {
+          "name": "PaLI: A Jointly-Scaled Multilingual Language-Image Model",
+          "link": "https://arxiv.org/abs/2209.06794v4"
+        },
+        "c": "https://github.com/google-research/big_vision",
+        "n": "ViT-e",
+        "d": "2022-09-14",
+        "m1": "72.0"
+      },
+      {
+        "p": {
+          "name": "Scaling Vision Transformers",
+          "link": "https://arxiv.org/abs/2106.04560v2"
+        },
+        "c": "https://github.com/google-research/big_vision",
+        "n": "ViT-G/14",
+        "d": "2021-06-08",
+        "m1": "70.53"
+      },
+      {
+        "p": {
+          "name": "Revisiting Weakly Supervised Pre-Training of Visual Perception Models",
+          "link": "https://arxiv.org/abs/2201.08371v2"
+        },
+        "c": "https://github.com/facebookresearch/SWAG",
+        "n": "SWAG (ViT H/14)",
+        "d": "2022-01-20",
+        "m1": "69.5"
+      },
+      {
+        "p": {
+          "name": "Scaling Vision Transformers",
+          "link": "https://arxiv.org/abs/2106.04560v2"
+        },
+        "c": "https://github.com/google-research/big_vision",
+        "n": "NS (Eff.-L2)",
+        "d": "2021-06-08",
+        "m1": "68.5"
+      },
+      {
+        "p": {
+          "name": "Revisiting Weakly Supervised Pre-Training of Visual Perception Models",
+          "link": "https://arxiv.org/abs/2201.08371v2"
+        },
+        "c": "https://github.com/facebookresearch/SWAG",
+        "n": "RegNetY 128GF (Platt)",
+        "d": "2022-01-20",
+        "m1": "64.3"
+      },
+      {
+        "p": {
+          "name": "A Whac-A-Mole Dilemma: Shortcuts Come in Multiples Where Mitigating One Amplifies Others",
+          "link": "https://arxiv.org/abs/2212.04825v2"
+        },
+        "c": "https://github.com/facebookresearch/Whac-A-Mole",
+        "n": "LLE (ViT-H/14, MAE, Edge Aug)",
+        "d": "2022-12-09",
+        "m1": "60.78"
+      },
+      {
+        "p": {
+          "name": "Vision Models Are More Robust And Fair When Pretrained On Uncurated Images Without Supervision",
+          "link": "https://arxiv.org/abs/2202.08360v2"
+        },
+        "c": "https://github.com/facebookresearch/vissl",
+        "n": "SEER (RegNet10B)",
+        "d": "2022-02-16",
+        "m1": "60.2"
+      },
+      {
+        "p": {
+          "name": "Revisiting Weakly Supervised Pre-Training of Visual Perception Models",
+          "link": "https://arxiv.org/abs/2201.08371v2"
+        },
+        "c": "https://github.com/facebookresearch/SWAG",
+        "n": "ViT H/14 (Platt)",
+        "d": "2022-01-20",
+        "m1": "60"
+      },
+      {
+        "p": {
+          "name": "Big Transfer (BiT): General Visual Representation Learning",
+          "link": "https://arxiv.org/abs/1912.11370v3"
+        },
+        "c": "https://github.com/google-research/big_transfer",
+        "n": "BiT-L (ResNet-152x4)",
+        "d": "2019-12-24",
+        "m1": "58.7",
+        "m2": "80"
+      },
+      {
+        "p": {
+          "name": "Revisiting Weakly Supervised Pre-Training of Visual Perception Models",
+          "link": "https://arxiv.org/abs/2201.08371v2"
+        },
+        "c": "https://github.com/facebookresearch/SWAG",
+        "n": "ViT L/16 (Platt)",
+        "d": "2022-01-20",
+        "m1": "57.3"
+      },
+      {
+        "p": {
+          "name": "Bamboo: Building Mega-Scale Vision Dataset Continually with Human-Machine Synergy",
+          "link": "https://arxiv.org/abs/2203.07845v2"
+        },
+        "c": "https://github.com/zhangyuanhan-ai/bamboo",
+        "n": "Vit B/16 (Bamboo)",
+        "d": "2022-03-15",
+        "m1": "53.9"
+      },
+      {
+        "p": {
+          "name": "Optimizing Relevance Maps of Vision Transformers Improves Robustness",
+          "link": "https://arxiv.org/abs/2206.01161v1"
+        },
+        "c": "https://github.com/hila-chefer/robustvit",
+        "n": "AR-L (Opt Relevance)",
+        "d": "2022-06-02",
+        "m1": "52.0",
+        "m2": "73.5"
+      },
+      {
+        "p": {
+          "name": "Matryoshka Representation Learning",
+          "link": "https://arxiv.org/abs/2205.13147v4"
+        },
+        "c": "https://github.com/novasearch-team/rag-retrieval",
+        "n": "ALIGN-MRL",
+        "d": "2022-05-26",
+        "m1": "51.6"
+      },
+      {
+        "p": {
+          "name": "Billion-Scale Pretraining with Vision Transformers for Multi-Task Visual Representations",
+          "link": "https://arxiv.org/abs/2108.05887v1"
+        },
+        "c": "",
+        "n": "ViT-B/16 (ANN-1.3B)",
+        "d": "2021-08-12",
+        "m1": "50.7"
+      },
+      {
+        "p": {
+          "name": "Pyramid Adversarial Training Improves ViT Performance",
+          "link": "https://arxiv.org/abs/2111.15121v2"
+        },
+        "c": "https://github.com/google-research/scenic/tree/main/scenic/projects/adversarialtraining",
+        "n": "ViT-B/16 (512x512) + Pyramid",
+        "d": "2021-11-30",
+        "m1": "49.39"
+      },
+      {
+        "p": {
+          "name": "Billion-Scale Pretraining with Vision Transformers for Multi-Task Visual Representations",
+          "link": "https://arxiv.org/abs/2108.05887v1"
+        },
+        "c": "",
+        "n": "ResNet-101 (JFT-300M)",
+        "d": "2021-08-12",
+        "m1": "49.1"
+      },
+      {
+        "p": {
+          "name": "Revisiting Weakly Supervised Pre-Training of Visual Perception Models",
+          "link": "https://arxiv.org/abs/2201.08371v2"
+        },
+        "c": "https://github.com/facebookresearch/SWAG",
+        "n": "ViT B/16",
+        "d": "2022-01-20",
+        "m1": "48.9"
+      },
+      {
+        "p": {
+          "name": "Billion-Scale Pretraining with Vision Transformers for Multi-Task Visual Representations",
+          "link": "https://arxiv.org/abs/2108.05887v1"
+        },
+        "c": "",
+        "n": "ViT-B/32",
+        "d": "2021-08-12",
+        "m1": "48.4"
+      },
+      {
+        "p": {
+          "name": "Pyramid Adversarial Training Improves ViT Performance",
+          "link": "https://arxiv.org/abs/2111.15121v2"
+        },
+        "c": "https://github.com/google-research/scenic/tree/main/scenic/projects/adversarialtraining",
+        "n": "ViT-B/16 (512x512) + Pixel",
+        "d": "2021-11-30",
+        "m1": "47.53"
+      },
+      {
+        "p": {
+          "name": "Optimizing Relevance Maps of Vision Transformers Improves Robustness",
+          "link": "https://arxiv.org/abs/2206.01161v1"
+        },
+        "c": "https://github.com/hila-chefer/robustvit",
+        "n": "AR-B (Opt Relevance)",
+        "d": "2022-06-02",
+        "m1": "47.1",
+        "m2": "70"
+      },
+      {
+        "p": {
+          "name": "Big Transfer (BiT): General Visual Representation Learning",
+          "link": "https://arxiv.org/abs/1912.11370v3"
+        },
+        "c": "https://github.com/google-research/big_transfer",
+        "n": "BiT-M (ResNet-152x4)",
+        "d": "2019-12-24",
+        "m1": "47.0",
+        "m2": "69"
+      },
+      {
+        "p": {
+          "name": "Pyramid Adversarial Training Improves ViT Performance",
+          "link": "https://arxiv.org/abs/2111.15121v2"
+        },
+        "c": "https://github.com/google-research/scenic/tree/main/scenic/projects/adversarialtraining",
+        "n": "ViT-B/16 (512x512)",
+        "d": "2021-11-30",
+        "m1": "46.68"
+      },
+      {
+        "p": {
+          "name": "Discrete Representations Strengthen Vision Transformer Robustness",
+          "link": "https://arxiv.org/abs/2111.10493v2"
+        },
+        "c": "https://github.com/alibaba/easyrobust/tree/main/examples/imageclassification/imagenet/drvit",
+        "n": "ViT-B (Discrete 512x512)",
+        "d": "2021-11-20",
+        "m1": "46.62"
+      },
+      {
+        "p": {
+          "name": "Optimizing Relevance Maps of Vision Transformers Improves Robustness",
+          "link": "https://arxiv.org/abs/2206.01161v1"
+        },
+        "c": "https://github.com/hila-chefer/robustvit",
+        "n": "AR-L",
+        "d": "2022-06-02",
+        "m1": "46.5",
+        "m2": "68.3"
+      },
+      {
+        "p": {
+          "name": "Optimizing Relevance Maps of Vision Transformers Improves Robustness",
+          "link": "https://arxiv.org/abs/2206.01161v1"
+        },
+        "c": "https://github.com/hila-chefer/robustvit",
+        "n": "ViT-L (Opt Relevance)",
+        "d": "2022-06-02",
+        "m1": "43.2",
+        "m2": "65.8"
+      },
+      {
+        "p": {
+          "name": "Optimal Representations for Covariate Shift",
+          "link": "https://arxiv.org/abs/2201.00057v2"
+        },
+        "c": "https://github.com/facebookresearch/DomainBed",
+        "n": "CLIP L",
+        "d": "2021-12-31",
+        "m1": "42.80"
+      },
+      {
+        "p": {
+          "name": "Billion-Scale Pretraining with Vision Transformers for Multi-Task Visual Representations",
+          "link": "https://arxiv.org/abs/2108.05887v1"
+        },
+        "c": "",
+        "n": "ResNet-50 (JFT-300M)",
+        "d": "2021-08-12",
+        "m1": "42.5"
+      },
+      {
+        "p": {
+          "name": "Optimizing Relevance Maps of Vision Transformers Improves Robustness",
+          "link": "https://arxiv.org/abs/2206.01161v1"
+        },
+        "c": "https://github.com/hila-chefer/robustvit",
+        "n": "ViT-B (Opt Relevance)",
+        "d": "2022-06-02",
+        "m1": "42.2",
+        "m2": "65.1"
+      },
+      {
+        "p": {
+          "name": "Optimal Representations for Covariate Shift",
+          "link": "https://arxiv.org/abs/2201.00057v2"
+        },
+        "c": "https://github.com/facebookresearch/DomainBed",
+        "n": "CLIP L (LAION)",
+        "d": "2021-12-31",
+        "m1": "42.10"
+      },
+      {
+        "p": {
+          "name": "Optimizing Relevance Maps of Vision Transformers Improves Robustness",
+          "link": "https://arxiv.org/abs/2206.01161v1"
+        },
+        "c": "https://github.com/hila-chefer/robustvit",
+        "n": "AR-B",
+        "d": "2022-06-02",
+        "m1": "41.4",
+        "m2": "63.7"
+      },
+      {
+        "p": {
+          "name": "Pyramid Adversarial Training Improves ViT Performance",
+          "link": "https://arxiv.org/abs/2111.15121v2"
+        },
+        "c": "https://github.com/google-research/scenic/tree/main/scenic/projects/adversarialtraining",
+        "n": "RegViT on 384x384 + Adv Pyramid",
+        "d": "2021-11-30",
+        "m1": "39.79"
+      },
+      {
+        "p": {
+          "name": "Generative Interventions for Causal Learning",
+          "link": "https://arxiv.org/abs/2012.12265v2"
+        },
+        "c": "https://github.com/cvlab-columbia/GenInt",
+        "n": "ResNet-152 + GenInt with Transfer",
+        "d": "2020-12-22",
+        "m1": "39.38",
+        "m2": "61.43"
+      },
+      {
+        "p": {
+          "name": "Optimizing Relevance Maps of Vision Transformers Improves Robustness",
+          "link": "https://arxiv.org/abs/2206.01161v1"
+        },
+        "c": "https://github.com/hila-chefer/robustvit",
+        "n": "AR-S (Opt Relevance)",
+        "d": "2022-06-02",
+        "m1": "39.3",
+        "m2": "61.7"
+      },
+      {
+        "p": {
+          "name": "Bamboo: Building Mega-Scale Vision Dataset Continually with Human-Machine Synergy",
+          "link": "https://arxiv.org/abs/2203.07845v2"
+        },
+        "c": "https://github.com/zhangyuanhan-ai/bamboo",
+        "n": "ResNet-50 (Bamboo)",
+        "d": "2022-03-15",
+        "m1": "38.8"
+      },
+      {
+        "p": {
+          "name": "Pyramid Adversarial Training Improves ViT Performance",
+          "link": "https://arxiv.org/abs/2111.15121v2"
+        },
+        "c": "https://github.com/google-research/scenic/tree/main/scenic/projects/adversarialtraining",
+        "n": "RegViT on 384x384 + Adv Pixel",
+        "d": "2021-11-30",
+        "m1": "37.41"
+      },
+      {
+        "p": {
+          "name": "Optimizing Relevance Maps of Vision Transformers Improves Robustness",
+          "link": "https://arxiv.org/abs/2206.01161v1"
+        },
+        "c": "https://github.com/hila-chefer/robustvit",
+        "n": "ViT-L",
+        "d": "2022-06-02",
+        "m1": "37.4",
+        "m2": "59.5"
+      },
+      {
+        "p": {
+          "name": "Optimizing Relevance Maps of Vision Transformers Improves Robustness",
+          "link": "https://arxiv.org/abs/2206.01161v1"
+        },
+        "c": "https://github.com/hila-chefer/robustvit",
+        "n": "DeiT-L (Opt Relevance)",
+        "d": "2022-06-02",
+        "m1": "36.3",
+        "m2": "56.6"
+      },
+      {
+        "p": {
+          "name": "Big Transfer (BiT): General Visual Representation Learning",
+          "link": "https://arxiv.org/abs/1912.11370v3"
+        },
+        "c": "https://github.com/google-research/big_transfer",
+        "n": "BiT-S (ResNet-152x4)",
+        "d": "2019-12-24",
+        "m1": "36.0",
+        "m2": "57"
+      },
+      {
+        "p": {
+          "name": "ObjectNet: A large-scale bias-controlled dataset for pushing the limits of object recognition models",
+          "link": "http://papers.nips.cc/paper/9142-objectnet-a-large-scale-bias-controlled-dataset-for-pushing-the-limits-of-object-recognition-models"
+        },
+        "c": "",
+        "n": "NASNet-A",
+        "d": "2019-12-01",
+        "m1": "35.77",
+        "m2": "56.05"
+      },
+      {
+        "p": {
+          "name": "ObjectNet: A large-scale bias-controlled dataset for pushing the limits of object recognition models",
+          "link": "http://papers.nips.cc/paper/9142-objectnet-a-large-scale-bias-controlled-dataset-for-pushing-the-limits-of-object-recognition-models"
+        },
+        "c": "",
+        "n": "PNASNet-5L",
+        "d": "2019-12-01",
+        "m1": "35.63",
+        "m2": "54.95"
+      },
+      {
+        "p": {
+          "name": "Pyramid Adversarial Training Improves ViT Performance",
+          "link": "https://arxiv.org/abs/2111.15121v2"
+        },
+        "c": "https://github.com/google-research/scenic/tree/main/scenic/projects/adversarialtraining",
+        "n": "RegViT on 384x384",
+        "d": "2021-11-30",
+        "m1": "35.59"
+      },
+      {
+        "p": {
+          "name": "Optimizing Relevance Maps of Vision Transformers Improves Robustness",
+          "link": "https://arxiv.org/abs/2206.01161v1"
+        },
+        "c": "https://github.com/hila-chefer/robustvit",
+        "n": "ViT-B",
+        "d": "2022-06-02",
+        "m1": "35.1",
+        "m2": "56.4"
+      },
+      {
+        "p": {
+          "name": "Pyramid Adversarial Training Improves ViT Performance",
+          "link": "https://arxiv.org/abs/2111.15121v2"
+        },
+        "c": "https://github.com/google-research/scenic/tree/main/scenic/projects/adversarialtraining",
+        "n": "RegViT on 384x384 + Random Pyramid",
+        "d": "2021-11-30",
+        "m1": "34.83"
+      },
+      {
+        "p": {
+          "name": "Optimizing Relevance Maps of Vision Transformers Improves Robustness",
+          "link": "https://arxiv.org/abs/2206.01161v1"
+        },
+        "c": "https://github.com/hila-chefer/robustvit",
+        "n": "AR-S",
+        "d": "2022-06-02",
+        "m1": "34.3",
+        "m2": "55.8"
+      },
+      {
+        "p": {
+          "name": "Pyramid Adversarial Training Improves ViT Performance",
+          "link": "https://arxiv.org/abs/2111.15121v2"
+        },
+        "c": "https://github.com/google-research/scenic/tree/main/scenic/projects/adversarialtraining",
+        "n": "RegViT on 384x384 + Random Pixel",
+        "d": "2021-11-30",
+        "m1": "34.12"
+      },
+      {
+        "p": {
+          "name": "Pyramid Adversarial Training Improves ViT Performance",
+          "link": "https://arxiv.org/abs/2111.15121v2"
+        },
+        "c": "https://github.com/google-research/scenic/tree/main/scenic/projects/adversarialtraining",
+        "n": "RegViT (RandAug) + Adv Pyramid",
+        "d": "2021-11-30",
+        "m1": "32.92"
+      },
+      {
+        "p": {
+          "name": "ObjectNet: A large-scale bias-controlled dataset for pushing the limits of object recognition models",
+          "link": "http://papers.nips.cc/paper/9142-objectnet-a-large-scale-bias-controlled-dataset-for-pushing-the-limits-of-object-recognition-models"
+        },
+        "c": "",
+        "n": "Inception-v4",
+        "d": "2019-12-01",
+        "m1": "32.24",
+        "m2": "51.98"
+      },
+      {
+        "p": {
+          "name": "Optimizing Relevance Maps of Vision Transformers Improves Robustness",
+          "link": "https://arxiv.org/abs/2206.01161v1"
+        },
+        "c": "https://github.com/hila-chefer/robustvit",
+        "n": "DeiT-S (Opt Relevance)",
+        "d": "2022-06-02",
+        "m1": "31.6",
+        "m2": "53"
+      },
+      {
+        "p": {
+          "name": "Context-Gated Convolution",
+          "link": "https://arxiv.org/abs/1910.05577v4"
+        },
+        "c": "https://github.com/XudongLinthu/context-gated-convolution",
+        "n": "ResNet-50 + CGC",
+        "d": "2019-10-12",
+        "m1": "31.53",
+        "m2": "50.16"
+      },
+      {
+        "p": {
+          "name": "Optimizing Relevance Maps of Vision Transformers Improves Robustness",
+          "link": "https://arxiv.org/abs/2206.01161v1"
+        },
+        "c": "https://github.com/hila-chefer/robustvit",
+        "n": "DeiT-L",
+        "d": "2022-06-02",
+        "m1": "31.4",
+        "m2": "48.5"
+      },
+      {
+        "p": {
+          "name": "Pyramid Adversarial Training Improves ViT Performance",
+          "link": "https://arxiv.org/abs/2111.15121v2"
+        },
+        "c": "https://github.com/google-research/scenic/tree/main/scenic/projects/adversarialtraining",
+        "n": "Discrete ViT + Pixel",
+        "d": "2021-11-30",
+        "m1": "30.98"
+      },
+      {
+        "p": {
+          "name": "Pyramid Adversarial Training Improves ViT Performance",
+          "link": "https://arxiv.org/abs/2111.15121v2"
+        },
+        "c": "https://github.com/google-research/scenic/tree/main/scenic/projects/adversarialtraining",
+        "n": "Discrete ViT + Pyramid",
+        "d": "2021-11-30",
+        "m1": "30.28"
+      },
+      {
+        "p": {
+          "name": "Pyramid Adversarial Training Improves ViT Performance",
+          "link": "https://arxiv.org/abs/2111.15121v2"
+        },
+        "c": "https://github.com/google-research/scenic/tree/main/scenic/projects/adversarialtraining",
+        "n": "RegViT (RandAug) + Adv Pixel",
+        "d": "2021-11-30",
+        "m1": "30.11"
+      },
+      {
+        "p": {
+          "name": "Pyramid Adversarial Training Improves ViT Performance",
+          "link": "https://arxiv.org/abs/2111.15121v2"
+        },
+        "c": "https://github.com/google-research/scenic/tree/main/scenic/projects/adversarialtraining",
+        "n": "Discrete ViT",
+        "d": "2021-11-30",
+        "m1": "29.95"
+      },
+      {
+        "p": {
+          "name": "ObjectNet: A large-scale bias-controlled dataset for pushing the limits of object recognition models",
+          "link": "http://papers.nips.cc/paper/9142-objectnet-a-large-scale-bias-controlled-dataset-for-pushing-the-limits-of-object-recognition-models"
+        },
+        "c": "",
+        "n": "ResNet-152",
+        "d": "2019-12-01",
+        "m1": "29.59",
+        "m2": "49.4"
+      },
+      {
+        "p": {
+          "name": "Pyramid Adversarial Training Improves ViT Performance",
+          "link": "https://arxiv.org/abs/2111.15121v2"
+        },
+        "c": "https://github.com/google-research/scenic/tree/main/scenic/projects/adversarialtraining",
+        "n": "RegViT (RandAug) + Random Pyramid",
+        "d": "2021-11-30",
+        "m1": "29.41"
+      },
+      {
+        "p": {
+          "name": "Pyramid Adversarial Training Improves ViT Performance",
+          "link": "https://arxiv.org/abs/2111.15121v2"
+        },
+        "c": "https://github.com/google-research/scenic/tree/main/scenic/projects/adversarialtraining",
+        "n": "RegViT (RandAug)",
+        "d": "2021-11-30",
+        "m1": "29.3"
+      },
+      {
+        "p": {
+          "name": "Improving robustness against common corruptions by covariate shift adaptation",
+          "link": "https://arxiv.org/abs/2006.16971v2"
+        },
+        "c": "https://github.com/bethgelab/robustness",
+        "n": "ResNet-50 + GroupNorm",
+        "d": "2020-06-30",
+        "m1": "29.2",
+        "m2": "50.2"
+      },
+      {
+        "p": {
+          "name": "Improving robustness against common corruptions by covariate shift adaptation",
+          "link": "https://arxiv.org/abs/2006.16971v2"
+        },
+        "c": "https://github.com/bethgelab/robustness",
+        "n": "ResNet-50 + RoHL",
+        "d": "2020-06-30",
+        "m1": "29.2"
+      },
+      {
+        "p": {
+          "name": "Pyramid Adversarial Training Improves ViT Performance",
+          "link": "https://arxiv.org/abs/2111.15121v2"
+        },
+        "c": "https://github.com/google-research/scenic/tree/main/scenic/projects/adversarialtraining",
+        "n": "RegViT (RandAug) + Random Pixel",
+        "d": "2021-11-30",
+        "m1": "28.72"
+      },
+      {
+        "p": {
+          "name": "Pyramid Adversarial Training Improves ViT Performance",
+          "link": "https://arxiv.org/abs/2111.15121v2"
+        },
+        "c": "https://github.com/google-research/scenic/tree/main/scenic/projects/adversarialtraining",
+        "n": "MLP-Mixer + Pyramid",
+        "d": "2021-11-30",
+        "m1": "28.6"
+      },
+      {
+        "p": {
+          "name": "Improving robustness against common corruptions by covariate shift adaptation",
+          "link": "https://arxiv.org/abs/2006.16971v2"
+        },
+        "c": "https://github.com/bethgelab/robustness",
+        "n": "ResNet-50 + FixUp",
+        "d": "2020-06-30",
+        "m1": "28.5",
+        "m2": "48.6"
+      },
+      {
+        "p": {
+          "name": "On Mixup Regularization",
+          "link": "https://arxiv.org/abs/2006.06049v3"
+        },
+        "c": "https://github.com/google/uncertainty-baselines/tree/master/baselines/imagenet",
+        "n": "ResNet-50 + MixUp (rescaled)",
+        "d": "2020-06-10",
+        "m1": "28.37"
+      },
+      {
+        "p": {
+          "name": "Optimizing Relevance Maps of Vision Transformers Improves Robustness",
+          "link": "https://arxiv.org/abs/2206.01161v1"
+        },
+        "c": "https://github.com/hila-chefer/robustvit",
+        "n": "DeiT-S",
+        "d": "2022-06-02",
+        "m1": "28.3",
+        "m2": "47.3"
+      },
+      {
+        "p": {
+          "name": "Generative Interventions for Causal Learning",
+          "link": "https://arxiv.org/abs/2012.12265v2"
+        },
+        "c": "https://github.com/cvlab-columbia/GenInt",
+        "n": "ResNet-18 + GenInt with Transfer",
+        "d": "2020-12-22",
+        "m1": "27.03",
+        "m2": "48.02"
+      },
+      {
+        "p": {
+          "name": "Pyramid Adversarial Training Improves ViT Performance",
+          "link": "https://arxiv.org/abs/2111.15121v2"
+        },
+        "c": "https://github.com/google-research/scenic/tree/main/scenic/projects/adversarialtraining",
+        "n": "MLP-Mixer",
+        "d": "2021-11-30",
+        "m1": "25.9"
+      },
+      {
+        "p": {
+          "name": "Pushing the limits of self-supervised ResNets: Can we outperform supervised learning without labels on ImageNet?",
+          "link": "https://arxiv.org/abs/2201.05119v2"
+        },
+        "c": "https://github.com/google-deepmind/relicv2",
+        "n": "RELICv2",
+        "d": "2022-01-13",
+        "m1": "25.9"
+      },
+      {
+        "p": {
+          "name": "Pyramid Adversarial Training Improves ViT Performance",
+          "link": "https://arxiv.org/abs/2111.15121v2"
+        },
+        "c": "https://github.com/google-research/scenic/tree/main/scenic/projects/adversarialtraining",
+        "n": "ViT + MixUp",
+        "d": "2021-11-30",
+        "m1": "25.65"
+      },
+      {
+        "p": {
+          "name": "Compressive Visual Representations",
+          "link": "https://arxiv.org/abs/2109.12909v3"
+        },
+        "c": "https://github.com/google-research/compressive-visual-representations",
+        "n": "C-BYOL",
+        "d": "2021-09-27",
+        "m1": "25.5"
+      },
+      {
+        "p": {
+          "name": "Pyramid Adversarial Training Improves ViT Performance",
+          "link": "https://arxiv.org/abs/2111.15121v2"
+        },
+        "c": "https://github.com/google-research/scenic/tree/main/scenic/projects/adversarialtraining",
+        "n": "MLP-Mixer + Pixel",
+        "d": "2021-11-30",
+        "m1": "24.75"
+      },
+      {
+        "p": {
+          "name": "Characterizing and Improving the Robustness of Self-Supervised Learning through Background Augmentations",
+          "link": "https://arxiv.org/abs/2103.12719v2"
+        },
+        "c": "",
+        "n": "BYOL (BG_RM)",
+        "d": "2021-03-23",
+        "m1": "23.9"
+      },
+      {
+        "p": {
+          "name": "Pushing the limits of self-supervised ResNets: Can we outperform supervised learning without labels on ImageNet?",
+          "link": "https://arxiv.org/abs/2201.05119v2"
+        },
+        "c": "https://github.com/google-deepmind/relicv2",
+        "n": "RELIC",
+        "d": "2022-01-13",
+        "m1": "23.8"
+      },
+      {
+        "p": {
+          "name": "Pushing the limits of self-supervised ResNets: Can we outperform supervised learning without labels on ImageNet?",
+          "link": "https://arxiv.org/abs/2201.05119v2"
+        },
+        "c": "https://github.com/google-deepmind/relicv2",
+        "n": "BYOL",
+        "d": "2022-01-13",
+        "m1": "23"
+      },
+      {
+        "p": {
+          "name": "Characterizing and Improving the Robustness of Self-Supervised Learning through Background Augmentations",
+          "link": "https://arxiv.org/abs/2103.12719v2"
+        },
+        "c": "",
+        "n": "SwAV (BG_RM)",
+        "d": "2021-03-23",
+        "m1": "21.9"
+      },
+      {
+        "p": {
+          "name": "Pyramid Adversarial Training Improves ViT Performance",
+          "link": "https://arxiv.org/abs/2111.15121v2"
+        },
+        "c": "https://github.com/google-research/scenic/tree/main/scenic/projects/adversarialtraining",
+        "n": "ViT + CutMix",
+        "d": "2021-11-30",
+        "m1": "21.61"
+      },
+      {
+        "p": {
+          "name": "Characterizing and Improving the Robustness of Self-Supervised Learning through Background Augmentations",
+          "link": "https://arxiv.org/abs/2103.12719v2"
+        },
+        "c": "",
+        "n": "MoCo-v2 (BG_Swaps)",
+        "d": "2021-03-23",
+        "m1": "20.8"
+      },
+      {
+        "p": {
+          "name": "Compressive Visual Representations",
+          "link": "https://arxiv.org/abs/2109.12909v3"
+        },
+        "c": "https://github.com/google-research/compressive-visual-representations",
+        "n": "C-SimCLR",
+        "d": "2021-09-27",
+        "m1": "20.8"
+      },
+      {
+        "p": {
+          "name": "Measuring the Interpretability of Unsupervised Representations via Quantized Reversed Probing",
+          "link": "https://openreview.net/forum?id=HFPTzdwN39"
+        },
+        "c": "",
+        "n": "SeLa(v2) (reverse linear probing)",
+        "d": "2021-09-29",
+        "m1": "20.61",
+        "m2": "48.83"
+      },
+      {
+        "p": {
+          "name": "Representation Learning by Detecting Incorrect Location Embeddings",
+          "link": "https://arxiv.org/abs/2204.04788v2"
+        },
+        "c": "https://github.com/separius/dilemma",
+        "n": "DILEMMA",
+        "d": "2022-04-10",
+        "m1": "20.51"
+      },
+      {
+        "p": {
+          "name": "Measuring the Interpretability of Unsupervised Representations via Quantized Reversed Probing",
+          "link": "https://openreview.net/forum?id=HFPTzdwN39"
+        },
+        "c": "",
+        "n": "DeepCluster(v2) (reverse linear probing)",
+        "d": "2021-09-29",
+        "m1": "19.73",
+        "m2": "46.81"
+      },
+      {
+        "p": {
+          "name": "ObjectNet: A large-scale bias-controlled dataset for pushing the limits of object recognition models",
+          "link": "http://papers.nips.cc/paper/9142-objectnet-a-large-scale-bias-controlled-dataset-for-pushing-the-limits-of-object-recognition-models"
+        },
+        "c": "",
+        "n": "VGG-14",
+        "d": "2019-12-01",
+        "m1": "19.13",
+        "m2": "37.15"
+      },
+      {
+        "p": {
+          "name": "Data Determines Distributional Robustness in Contrastive Language Image Pre-training (CLIP)",
+          "link": "https://arxiv.org/abs/2205.01397v2"
+        },
+        "c": "https://github.com/mlfoundations/imagenet-captions",
+        "n": "ResNet-50 (ImageNet-Captions)",
+        "d": "2022-05-03",
+        "m1": "18.70"
+      },
+      {
+        "p": {
+          "name": "Measuring the Interpretability of Unsupervised Representations via Quantized Reversed Probing",
+          "link": "https://openreview.net/forum?id=HFPTzdwN39"
+        },
+        "c": "",
+        "n": "SwAV (reverse linear probing)",
+        "d": "2021-09-29",
+        "m1": "17.71",
+        "m2": "43.64"
+      },
+      {
+        "p": {
+          "name": "Pyramid Adversarial Training Improves ViT Performance",
+          "link": "https://arxiv.org/abs/2111.15121v2"
+        },
+        "c": "https://github.com/google-research/scenic/tree/main/scenic/projects/adversarialtraining",
+        "n": "ViT",
+        "d": "2021-11-30",
+        "m1": "17.36"
+      },
+      {
+        "p": {
+          "name": "Compact and Optimal Deep Learning with Recurrent Parameter Generators",
+          "link": "https://arxiv.org/abs/2107.07110v3"
+        },
+        "c": "https://github.com/samaonline/Recurrent-Parameter-Generators",
+        "n": "ResNet34-RPG",
+        "d": "2021-07-15",
+        "m1": "16.5"
+      },
+      {
+        "p": {
+          "name": "Robust Cross-Modal Representation Learning with Progressive Self-Distillation",
+          "link": "https://arxiv.org/abs/2204.04588v1"
+        },
+        "c": "",
+        "n": "CLIP (CC12M pretrain)",
+        "d": "2022-04-10",
+        "m1": "15.24"
+      },
+      {
+        "p": {
+          "name": "Pushing the limits of self-supervised ResNets: Can we outperform supervised learning without labels on ImageNet?",
+          "link": "https://arxiv.org/abs/2201.05119v2"
+        },
+        "c": "https://github.com/google-deepmind/relicv2",
+        "n": "SimCLR",
+        "d": "2022-01-13",
+        "m1": "14.6"
+      },
+      {
+        "p": {
+          "name": "Class-agnostic Object Detection",
+          "link": "https://arxiv.org/abs/2011.14204v1"
+        },
+        "c": "",
+        "n": "ResNet-152 (FRCNN-ag-ad, VOC)",
+        "d": "2020-11-28",
+        "m1": "13.2",
+        "m2": "29.7"
+      },
+      {
+        "p": {
+          "name": "Measuring the Interpretability of Unsupervised Representations via Quantized Reversed Probing",
+          "link": "https://openreview.net/forum?id=HFPTzdwN39"
+        },
+        "c": "",
+        "n": "MoCo(v2) (reverse linear probing)",
+        "d": "2021-09-29",
+        "m1": "12.67",
+        "m2": "31.45"
+      },
+      {
+        "p": {
+          "name": "Measuring the Interpretability of Unsupervised Representations via Quantized Reversed Probing",
+          "link": "https://openreview.net/forum?id=HFPTzdwN39"
+        },
+        "c": "",
+        "n": "MoCHi  (reverse linear probing)",
+        "d": "2021-09-29",
+        "m1": "12.64",
+        "m2": "31.71"
+      },
+      {
+        "p": {
+          "name": "Measuring the Interpretability of Unsupervised Representations via Quantized Reversed Probing",
+          "link": "https://openreview.net/forum?id=HFPTzdwN39"
+        },
+        "c": "",
+        "n": "OBoW (reverse linear probing)",
+        "d": "2021-09-29",
+        "m1": "12.23",
+        "m2": "31.72"
+      },
+      {
+        "p": {
+          "name": "ObjectNet: A large-scale bias-controlled dataset for pushing the limits of object recognition models",
+          "link": "http://papers.nips.cc/paper/9142-objectnet-a-large-scale-bias-controlled-dataset-for-pushing-the-limits-of-object-recognition-models"
+        },
+        "c": "",
+        "n": "AlexNet",
+        "d": "2019-12-01",
+        "m1": "6.78",
+        "m2": "17.6"
+      },
+      {
+        "p": {
+          "name": "Self-Supervised Learning for Large-Scale Unsupervised Image Clustering",
+          "link": "https://arxiv.org/abs/2008.10312v2"
+        },
+        "c": "https://github.com/Randl/kmeans_selfsuper",
+        "n": "BigBiGAN (RevNet-50 4×)",
+        "d": "2020-08-24",
+        "m1": "4.92"
+      },
+      {
+        "p": {
+          "name": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+          "link": "https://arxiv.org/abs/2010.11929v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ViT-H/14",
+        "d": "2020-10-22",
+        "m2": "82.1"
+      }
+    ]
+  }
+}

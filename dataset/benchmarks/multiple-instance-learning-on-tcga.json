@@ -1,0 +1,128 @@
+{
+  "title": "multiple-instance-learning-on-tcga",
+  "task-hierarchy": [
+    "Multiple Instance Learning"
+  ],
+  "dataset-info": {
+    "link": "https://portal.gdc.cancer.gov/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "ACC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DTFD-MIL: Double-Tier Feature Distillation Multiple Instance Learning for Histopathology Whole Slide Image Classification",
+          "link": "https://arxiv.org/abs/2203.12081v1"
+        },
+        "c": "https://github.com/hrzhang1123/dtfd-mil",
+        "n": "DTFD-MIL (AFS)",
+        "d": "2022-03-22",
+        "m1": "0.951"
+      },
+      {
+        "p": {
+          "name": "Snuffy: Efficient Whole Slide Image Classifier",
+          "link": "https://arxiv.org/abs/2408.08258v3"
+        },
+        "c": "https://github.com/jafarinia/snuffy",
+        "n": "Snuffy (SimCLR Exhaustive)",
+        "d": "2024-08-15",
+        "m1": "0.947",
+        "m2": "0.972"
+      },
+      {
+        "p": {
+          "name": "Dual-stream Multiple Instance Learning Network for Whole Slide Image Classification with Self-supervised Contrastive Learning",
+          "link": "https://arxiv.org/abs/2011.08939v3"
+        },
+        "c": "https://github.com/binli123/dsmil-wsi",
+        "n": "DSMIL-LC",
+        "d": "2020-11-17",
+        "m1": "0.9286",
+        "m2": "0.9583"
+      },
+      {
+        "p": {
+          "name": "Dual-stream Multiple Instance Learning Network for Whole Slide Image Classification with Self-supervised Contrastive Learning",
+          "link": "https://arxiv.org/abs/2011.08939v3"
+        },
+        "c": "https://github.com/binli123/dsmil-wsi",
+        "n": "DSMIL",
+        "d": "2020-11-17",
+        "m1": "0.9190",
+        "m2": "0.9633"
+      },
+      {
+        "p": {
+          "name": "DTFD-MIL: Double-Tier Feature Distillation Multiple Instance Learning for Histopathology Whole Slide Image Classification",
+          "link": "https://arxiv.org/abs/2203.12081v1"
+        },
+        "c": "https://github.com/hrzhang1123/dtfd-mil",
+        "n": "DTFD-MIL (MaxMinS)",
+        "d": "2022-03-22",
+        "m1": "0.891",
+        "m2": "0.961"
+      },
+      {
+        "p": {
+          "name": "TransMIL: Transformer based Correlated Multiple Instance Learning for Whole Slide Image Classification",
+          "link": "https://arxiv.org/abs/2106.00908v2"
+        },
+        "c": "https://github.com/szc19990412/TransMIL",
+        "n": "TransMIL",
+        "d": "2021-06-02",
+        "m1": "0.8835",
+        "m2": "0.9603"
+      },
+      {
+        "p": {
+          "name": "DTFD-MIL: Double-Tier Feature Distillation Multiple Instance Learning for Histopathology Whole Slide Image Classification",
+          "link": "https://arxiv.org/abs/2203.12081v1"
+        },
+        "c": "https://github.com/hrzhang1123/dtfd-mil",
+        "n": "DTFD-MIL (MaxS)",
+        "d": "2022-03-22",
+        "m1": "0.868",
+        "m2": "0.919"
+      },
+      {
+        "p": {
+          "name": "DTFD-MIL: Double-Tier Feature Distillation Multiple Instance Learning for Histopathology Whole Slide Image Classification",
+          "link": "https://arxiv.org/abs/2203.12081v1"
+        },
+        "c": "https://github.com/hrzhang1123/dtfd-mil",
+        "n": "DTFD-MIL (MAS)",
+        "d": "2022-03-22",
+        "m2": "0.955"
+      }
+    ]
+  }
+}

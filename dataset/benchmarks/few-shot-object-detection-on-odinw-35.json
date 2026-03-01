@@ -1,0 +1,68 @@
+{
+  "title": "few-shot-object-detection-on-odinw-35",
+  "task-hierarchy": [
+    "Object Detection",
+    "Few-Shot Object Detection"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Average Score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Grounding DINO 1.5: Advance the \"Edge\" of Open-Set Object Detection",
+          "link": "https://arxiv.org/abs/2405.10300v2"
+        },
+        "c": "https://github.com/mit-han-lab/efficientvit",
+        "n": "Grounding DINO 1.5 Pro",
+        "d": "2024-05-16",
+        "m1": "54.7"
+      },
+      {
+        "p": {
+          "name": "Multi-modal Queried Object Detection in the Wild",
+          "link": "https://arxiv.org/abs/2305.18980v2"
+        },
+        "c": "https://github.com/yifanxu74/mq-det",
+        "n": "MQ-GLIP-T",
+        "d": "2023-05-30",
+        "m1": "43"
+      },
+      {
+        "p": {
+          "name": "Grounded Language-Image Pre-training",
+          "link": "https://arxiv.org/abs/2112.03857v2"
+        },
+        "c": "https://github.com/microsoft/GLIP",
+        "n": "GLIP-T",
+        "d": "2021-12-07",
+        "m1": "38.9"
+      }
+    ]
+  }
+}

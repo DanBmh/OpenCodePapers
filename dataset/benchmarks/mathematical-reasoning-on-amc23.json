@@ -1,0 +1,64 @@
+{
+  "title": "mathematical-reasoning-on-amc23",
+  "task-hierarchy": [
+    "Mathematical Reasoning"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Acc",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "QWQ-32B-preview",
+        "d": null,
+        "m1": "82.5"
+      },
+      {
+        "p": {
+          "name": "LoRA: Low-Rank Adaptation of Large Language Models",
+          "link": "https://arxiv.org/abs/2106.09685v2"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+        "n": "Math-Master",
+        "d": "2021-06-17",
+        "m1": "82"
+      },
+      {
+        "p": {
+          "name": "Qwen2.5-Math Technical Report: Toward Mathematical Expert Model via Self-Improvement",
+          "link": "https://arxiv.org/abs/2409.12122v1"
+        },
+        "c": "",
+        "n": "Qwen2.5-Math-7B-instruct",
+        "d": "2024-09-18",
+        "m1": "62.5"
+      }
+    ]
+  }
+}

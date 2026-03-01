@@ -1,0 +1,94 @@
+{
+  "title": "dense-object-detection-on-sku-110k",
+  "task-hierarchy": [
+    "Object Detection",
+    "Dense Object Detection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/eg4000/SKU110K_CVPR19"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AP",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "AP75",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Unitail: Detecting, Reading, and Matching in Retail Scene",
+          "link": "https://arxiv.org/abs/2204.00298v4"
+        },
+        "c": "",
+        "n": "RetailDet",
+        "d": "2022-04-01",
+        "m1": "59.0"
+      },
+      {
+        "p": {
+          "name": "A Solution to Product detection in Densely Packed Scenes",
+          "link": "https://arxiv.org/abs/2007.11946v3"
+        },
+        "c": "https://github.com/Media-Smart/SKU110K-DenseDet",
+        "n": "Cascade-RCNN",
+        "d": "2020-07-23",
+        "m1": "58.7"
+      },
+      {
+        "p": {
+          "name": "Soft Anchor-Point Object Detection",
+          "link": "https://arxiv.org/abs/1911.12448v2"
+        },
+        "c": "https://github.com/xuannianz/FSAF",
+        "n": "SAPD",
+        "d": "2019-11-27",
+        "m1": "55.7"
+      },
+      {
+        "p": {
+          "name": "Precise Detection in Densely Packed Scenes",
+          "link": "http://arxiv.org/abs/1904.00853v3"
+        },
+        "c": "https://github.com/eg4000/SKU110K_CVPR19",
+        "n": "Soft-IoU + EM-Merger unit",
+        "d": "2019-04-01",
+        "m1": "49.2"
+      },
+      {
+        "p": {
+          "name": "Focal Loss for Dense Object Detection",
+          "link": "http://arxiv.org/abs/1708.02002v2"
+        },
+        "c": "https://github.com/tensorflow/models",
+        "n": "RetinaNet",
+        "d": "2017-08-07",
+        "m1": "45.5",
+        "m2": ".389"
+      }
+    ]
+  }
+}

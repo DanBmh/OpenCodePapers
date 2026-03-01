@@ -1,0 +1,119 @@
+{
+  "title": "hateful-meme-classification-on-pridemm",
+  "task-hierarchy": [
+    "Meme Classification",
+    "Hateful Meme Classification"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/SiddhantBikram/MemeCLIP"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Robust Adaptation of Large Multimodal Models for Retrieval Augmented Hateful Meme Detection",
+          "link": "https://arxiv.org/abs/2502.13061v2"
+        },
+        "c": "https://github.com/JingbiaoMei/RGCL",
+        "n": "RA-HMD (Qwen2-VL-7B)",
+        "d": "2025-02-18",
+        "m1": "78.1",
+        "m2": "78.4"
+      },
+      {
+        "p": {
+          "name": "Improving Multimodal Hateful Meme Detection Exploiting LMM-Generated Knowledge",
+          "link": "https://arxiv.org/abs/2504.09914v1"
+        },
+        "c": "https://github.com/IDT-ITI/LMM-CLIP-meme",
+        "n": "LMM-CLIP",
+        "d": "2025-04-14",
+        "m1": "76.31"
+      },
+      {
+        "p": {
+          "name": "Improving Hateful Meme Detection through Retrieval-Guided Contrastive Learning",
+          "link": "https://arxiv.org/abs/2311.08110v3"
+        },
+        "c": "https://github.com/JingbiaoMei/RGCL",
+        "n": "RGCL",
+        "d": "2023-11-14",
+        "m1": "76.3",
+        "m2": "76.5"
+      },
+      {
+        "p": {
+          "name": "MemeCLIP: Leveraging CLIP Representations for Multimodal Meme Classification",
+          "link": "https://arxiv.org/abs/2409.14703v2"
+        },
+        "c": "https://github.com/siddhantbikram/memeclip",
+        "n": "MemeCLIP",
+        "d": "2024-09-23",
+        "m1": "76.1",
+        "m2": "75.1"
+      },
+      {
+        "p": {
+          "name": "Robust Adaptation of Large Multimodal Models for Retrieval Augmented Hateful Meme Detection",
+          "link": "https://arxiv.org/abs/2502.13061v2"
+        },
+        "c": "https://github.com/JingbiaoMei/RGCL",
+        "n": "RA-HMD (Qwen2-VL-2B)",
+        "d": "2025-02-18",
+        "m1": "76.0",
+        "m2": "76.7"
+      },
+      {
+        "p": {
+          "name": "Hate-CLIPper: Multimodal Hateful Meme Classification based on Cross-modal Interaction of CLIP Features",
+          "link": "https://arxiv.org/abs/2210.05916v3"
+        },
+        "c": "https://github.com/gokulkarthik/hateclipper",
+        "n": "HateCLIPper",
+        "d": "2022-10-12",
+        "m1": "75.5",
+        "m2": "74.1"
+      },
+      {
+        "p": {
+          "name": "Learning Transferable Visual Models From Natural Language Supervision",
+          "link": "https://arxiv.org/abs/2103.00020v1"
+        },
+        "c": "https://github.com/openai/CLIP",
+        "n": "CLIP (fine-tuned)",
+        "d": "2021-02-26",
+        "m1": "72.4",
+        "m2": "72.3"
+      }
+    ]
+  }
+}

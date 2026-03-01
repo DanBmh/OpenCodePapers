@@ -1,0 +1,171 @@
+{
+  "title": "3d-hand-pose-estimation-on-ho-3d-v3",
+  "task-hierarchy": [
+    "Pose Estimation",
+    "Hand Pose Estimation",
+    "3D Hand Pose Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://www.tugraz.at/index.php?id=40231"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PA-MPJPE",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "PA-MPVPE",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "F@5mm",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "F@15mm",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "AUC_J",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "AUC_V",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Hamba: Single-view 3D Hand Reconstruction with Graph-guided Bi-Scanning Mamba",
+          "link": "https://arxiv.org/abs/2407.09646v2"
+        },
+        "c": "https://github.com/humansensinglab/Hamba",
+        "n": "Hamba",
+        "d": "2024-07-12",
+        "m1": "6.9",
+        "m2": "6.8",
+        "m3": "0.681",
+        "m4": "0.982",
+        "m5": "0.861",
+        "m6": "0.864"
+      },
+      {
+        "p": {
+          "name": "MMHMR: Generative Masked Modeling for Hand Mesh Recovery",
+          "link": "https://arxiv.org/abs/2412.13393v1"
+        },
+        "c": "",
+        "n": "MaskHand",
+        "d": "2024-12-18",
+        "m1": "7.0",
+        "m2": "7.0",
+        "m3": "0.663",
+        "m4": "0.984",
+        "m5": "0.860",
+        "m6": "0.860"
+      },
+      {
+        "p": {
+          "name": "A Probabilistic Attention Model with Occlusion-aware Texture Regression for 3D Hand Reconstruction from a Single RGB Image",
+          "link": "https://arxiv.org/abs/2304.14299v1"
+        },
+        "c": "https://github.com/zhehengjianglancaster/amvur",
+        "n": "AMVUR",
+        "d": "2023-04-27",
+        "m1": "8.7",
+        "m2": "8.3",
+        "m3": "0.593",
+        "m4": "0.964",
+        "m5": "0.826",
+        "m6": "0.834"
+      },
+      {
+        "p": {
+          "name": "HMP: Hand Motion Priors for Pose and Shape Estimation from Video",
+          "link": "https://arxiv.org/abs/2312.16737v1"
+        },
+        "c": "",
+        "n": "HMP",
+        "d": "2023-12-27",
+        "m1": "10.1"
+      },
+      {
+        "p": {
+          "name": "ArtiBoost: Boosting Articulated 3D Hand-Object Pose Estimation via Online Exploration and Synthesis",
+          "link": "https://arxiv.org/abs/2109.05488v2"
+        },
+        "c": "https://github.com/mvig-sjtu/artiboost",
+        "n": "ArtiBoost",
+        "d": "2021-09-12",
+        "m1": "10.8",
+        "m2": "10.4",
+        "m3": "0.507",
+        "m4": "0.946",
+        "m5": "0.785",
+        "m6": "0.792"
+      },
+      {
+        "p": {
+          "name": "UV-Based 3D Hand-Object Reconstruction with Grasp Optimization",
+          "link": "https://arxiv.org/abs/2211.13429v1"
+        },
+        "c": "",
+        "n": "Yu et al.",
+        "d": "2022-11-24",
+        "m1": "10.8",
+        "m2": "10.4"
+      },
+      {
+        "p": {
+          "name": "Keypoint Transformer: Solving Joint Identification in Challenging Hands and Object Interactions for Accurate 3D Pose Estimation",
+          "link": "https://arxiv.org/abs/2104.14639v2"
+        },
+        "c": "https://github.com/shreyashampali/kypt_transformer",
+        "n": "KPT-Transformer",
+        "d": "2021-04-29",
+        "m1": "10.9",
+        "m5": "0.785"
+      },
+      {
+        "p": {
+          "name": "Model-based 3D Hand Reconstruction via Self-Supervised Learning",
+          "link": "https://arxiv.org/abs/2103.11703v1"
+        },
+        "c": "https://github.com/TerenceCYJ/S2HAND",
+        "n": "S2HAND",
+        "d": "2021-03-22",
+        "m1": "11.5",
+        "m2": "11.1",
+        "m3": "0.448",
+        "m4": "0.932",
+        "m5": "0.769",
+        "m6": "0.778"
+      }
+    ]
+  }
+}

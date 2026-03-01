@@ -1,0 +1,176 @@
+{
+  "title": "multi-object-tracking-on-tao",
+  "task-hierarchy": [
+    "Object Tracking",
+    "Multi-Object Tracking"
+  ],
+  "dataset-info": {
+    "link": "http://taodataset.org/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "TETA",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "LocA",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "AssocA",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "ClsA",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Track mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Associate Everything Detected: Facilitating Tracking-by-Detection to the Unknown",
+          "link": "https://arxiv.org/abs/2409.09293v1"
+        },
+        "c": "https://github.com/balabooooo/aed",
+        "n": "AED (Co-DETR)",
+        "d": "2024-09-14",
+        "m1": "55.3",
+        "m2": "71.8",
+        "m3": "52.4",
+        "m4": "41.7"
+      },
+      {
+        "p": {
+          "name": "General Object Foundation Model for Images and Videos at Scale",
+          "link": "https://arxiv.org/abs/2312.09158v1"
+        },
+        "c": "https://github.com/FoundationVision/GLEE",
+        "n": "GLEE-Pro",
+        "d": "2023-12-14",
+        "m1": "47.2",
+        "m2": "66.2",
+        "m3": "46.2",
+        "m4": "29.1"
+      },
+      {
+        "p": {
+          "name": "General Object Foundation Model for Images and Videos at Scale",
+          "link": "https://arxiv.org/abs/2312.09158v1"
+        },
+        "c": "https://github.com/FoundationVision/GLEE",
+        "n": "GLEE-Plus",
+        "d": "2023-12-14",
+        "m1": "41.5",
+        "m2": "52.9",
+        "m3": "40.9",
+        "m4": "30.8"
+      },
+      {
+        "p": {
+          "name": "General Object Foundation Model for Images and Videos at Scale",
+          "link": "https://arxiv.org/abs/2312.09158v1"
+        },
+        "c": "https://github.com/FoundationVision/GLEE",
+        "n": "GLEE-Lite",
+        "d": "2023-12-14",
+        "m1": "40.1",
+        "m2": "56.3",
+        "m3": "39.9",
+        "m4": "24.1"
+      },
+      {
+        "p": {
+          "name": "Associate Everything Detected: Facilitating Tracking-by-Detection to the Unknown",
+          "link": "https://arxiv.org/abs/2409.09293v1"
+        },
+        "c": "https://github.com/balabooooo/aed",
+        "n": "AED (RegionCLIP)",
+        "d": "2024-09-14",
+        "m1": "37.0",
+        "m2": "56.7",
+        "m3": "38.1",
+        "m4": "16.2"
+      },
+      {
+        "p": {
+          "name": "Tracking Every Thing in the Wild",
+          "link": "https://arxiv.org/abs/2207.12978v1"
+        },
+        "c": "https://github.com/SysCV/tet",
+        "n": "TETer-HTC",
+        "d": "2022-07-26",
+        "m1": "36.85",
+        "m2": "57.53",
+        "m3": "37.53",
+        "m4": "15.70"
+      },
+      {
+        "p": {
+          "name": "Tracking Every Thing in the Wild",
+          "link": "https://arxiv.org/abs/2207.12978v1"
+        },
+        "c": "https://github.com/SysCV/tet",
+        "n": "TETer-SwinT",
+        "d": "2022-07-26",
+        "m1": "34.61",
+        "m2": "52.10",
+        "m3": "36.71",
+        "m4": "15.03"
+      },
+      {
+        "p": {
+          "name": "Tracking Every Thing in the Wild",
+          "link": "https://arxiv.org/abs/2207.12978v1"
+        },
+        "c": "https://github.com/SysCV/tet",
+        "n": "TETer",
+        "d": "2022-07-26",
+        "m1": "33.25",
+        "m2": "51.58",
+        "m3": "35.02",
+        "m4": "13.16"
+      },
+      {
+        "p": {
+          "name": "1st Place Solution to ECCV-TAO-2020: Detect and Represent Any Object for Tracking",
+          "link": "https://arxiv.org/abs/2101.08040v2"
+        },
+        "c": "https://github.com/feiaxyt/Winner_ECCV20_TAO",
+        "n": "AOA",
+        "d": "2021-01-20",
+        "m1": "25.27",
+        "m2": "23.40",
+        "m3": "30.56",
+        "m4": "21.86",
+        "m5": "27.461"
+      }
+    ]
+  }
+}

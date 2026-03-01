@@ -1,0 +1,216 @@
+{
+  "title": "text-to-speech-synthesis-on-ljspeech",
+  "task-hierarchy": [
+    "Text-To-Speech Synthesis"
+  ],
+  "dataset-info": {
+    "link": "https://keithito.com/LJ-Speech-Dataset/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Audio Quality MOS",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Pleasantness MOS",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Word Error Rate (WER)",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "MOS",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "WER (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "NaturalSpeech: End-to-End Text to Speech Synthesis with Human-Level Quality",
+          "link": "https://arxiv.org/abs/2205.04421v2"
+        },
+        "c": "https://github.com/microsoft/NeuralSpeech",
+        "n": "NaturalSpeech",
+        "d": "2022-05-09",
+        "m1": "4.56"
+      },
+      {
+        "p": {
+          "name": "NaturalSpeech: End-to-End Text to Speech Synthesis with Human-Level Quality",
+          "link": "https://arxiv.org/abs/2205.04421v2"
+        },
+        "c": "https://github.com/microsoft/NeuralSpeech",
+        "n": "VITS",
+        "d": "2022-05-09",
+        "m1": "4.43"
+      },
+      {
+        "p": {
+          "name": "Grad-TTS: A Diffusion Probabilistic Model for Text-to-Speech",
+          "link": "https://arxiv.org/abs/2105.06337v2"
+        },
+        "c": "https://github.com/huawei-noah/Speech-Backbones",
+        "n": "Grad-TTS + HiFiGAN (1000 steps)",
+        "d": "2021-05-13",
+        "m1": "4.37"
+      },
+      {
+        "p": {
+          "name": "Glow-TTS: A Generative Flow for Text-to-Speech via Monotonic Alignment Search",
+          "link": "https://arxiv.org/abs/2005.11129v1"
+        },
+        "c": "https://github.com/coqui-ai/TTS",
+        "n": "Glow-TTS + HiFiGAN",
+        "d": "2020-05-22",
+        "m1": "4.34"
+      },
+      {
+        "p": {
+          "name": "NaturalSpeech: End-to-End Text to Speech Synthesis with Human-Level Quality",
+          "link": "https://arxiv.org/abs/2205.04421v2"
+        },
+        "c": "https://github.com/microsoft/NeuralSpeech",
+        "n": "FastSpeech 2 + HiFiGAN",
+        "d": "2022-05-09",
+        "m1": "4.34"
+      },
+      {
+        "p": {
+          "name": "FastSpeech 2: Fast and High-Quality End-to-End Text to Speech",
+          "link": "https://arxiv.org/abs/2006.04558v8"
+        },
+        "c": "https://github.com/coqui-ai/TTS",
+        "n": "FastSpeech 2 + HiFiGAN",
+        "d": "2020-06-08",
+        "m1": "4.32"
+      },
+      {
+        "p": {
+          "name": "FastDiff: A Fast Conditional Diffusion Model for High-Quality Speech Synthesis",
+          "link": "https://arxiv.org/abs/2204.09934v1"
+        },
+        "c": "https://github.com/Rongjiehuang/ProDiff",
+        "n": "FastDiff (4 steps)",
+        "d": "2022-04-21",
+        "m1": "4.28"
+      },
+      {
+        "p": {
+          "name": "FastDiff: A Fast Conditional Diffusion Model for High-Quality Speech Synthesis",
+          "link": "https://arxiv.org/abs/2204.09934v1"
+        },
+        "c": "https://github.com/Rongjiehuang/ProDiff",
+        "n": "FastDiff-TTS",
+        "d": "2022-04-21",
+        "m1": "4.03"
+      },
+      {
+        "p": {
+          "name": "Neural Speech Synthesis with Transformer Network",
+          "link": "http://arxiv.org/abs/1809.08895v3"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSpeech",
+        "n": "Transformer TTS (Mel + WaveGlow)",
+        "d": "2018-09-19",
+        "m1": "3.88"
+      },
+      {
+        "p": {
+          "name": "FastSpeech: Fast, Robust and Controllable Text to Speech",
+          "link": "https://arxiv.org/abs/1905.09263v5"
+        },
+        "c": "https://github.com/coqui-ai/TTS",
+        "n": "FastSpeech (Mel + WaveGlow)",
+        "d": "2019-05-22",
+        "m1": "3.84"
+      },
+      {
+        "p": {
+          "name": "OverFlow: Putting flows on top of neural transducers for better TTS",
+          "link": "https://arxiv.org/abs/2211.06892v2"
+        },
+        "c": "https://github.com/coqui-ai/TTS",
+        "n": "OverFlow",
+        "d": "2022-11-13",
+        "m1": "3.37",
+        "m3": "2.30"
+      },
+      {
+        "p": {
+          "name": "FastSpeech: Fast, Robust and Controllable Text to Speech",
+          "link": "https://arxiv.org/abs/1905.09263v5"
+        },
+        "c": "https://github.com/coqui-ai/TTS",
+        "n": "Merlin",
+        "d": "2019-05-22",
+        "m1": "2.4"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "temp",
+        "d": null,
+        "m1": "1.25"
+      },
+      {
+        "p": {
+          "name": "Flowtron: an Autoregressive Flow-based Generative Network for Text-to-Speech Synthesis",
+          "link": "https://arxiv.org/abs/2005.05957v3"
+        },
+        "c": "https://github.com/NVIDIA/flowtron",
+        "n": "Flowtron",
+        "d": "2020-05-12",
+        "m2": "3.665"
+      },
+      {
+        "p": {
+          "name": "Flowtron: an Autoregressive Flow-based Generative Network for Text-to-Speech Synthesis",
+          "link": "https://arxiv.org/abs/2005.05957v3"
+        },
+        "c": "https://github.com/NVIDIA/flowtron",
+        "n": "Tacotron 2",
+        "d": "2020-05-12",
+        "m2": "3.521"
+      },
+      {
+        "p": {
+          "name": "Matcha-TTS: A fast TTS architecture with conditional flow matching",
+          "link": "https://arxiv.org/abs/2309.03199v2"
+        },
+        "c": "https://github.com/shivammehta25/Matcha-TTS",
+        "n": "Matcha-TTS",
+        "d": "2023-09-06",
+        "m4": "3.84",
+        "m5": "2.09"
+      }
+    ]
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "title": "image-editing-on-imgedit-data",
+  "task-hierarchy": [
+    "Image Editing"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/PKU-YuanGroup/ImgEdit"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Overall",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Add",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Adjust",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Extract",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Replace",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "Remove",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "Background",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "Style",
+        "sortable": "true"
+      },
+      {
+        "key": "m9",
+        "label": "Hybrid",
+        "sortable": "true"
+      },
+      {
+        "key": "m10",
+        "label": "Action",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "NoHumansRequired: Autonomous High-Quality Image Editing Triplet Mining",
+          "link": "https://arxiv.org/abs/2507.14119v1"
+        },
+        "c": "",
+        "n": "BAGEL-NHR-EDIT",
+        "d": "2025-07-18",
+        "m1": "3.39",
+        "m2": "4.19",
+        "m3": "3.55",
+        "m4": "1.62",
+        "m5": "3.77",
+        "m6": "3.18",
+        "m7": "3.42",
+        "m8": "4.3",
+        "m9": "2.94",
+        "m10": "3.95"
+      },
+      {
+        "p": {
+          "name": "UniWorld-V1: High-Resolution Semantic Encoders for Unified Visual Understanding and Generation",
+          "link": "https://arxiv.org/abs/2506.03147v3"
+        },
+        "c": "https://github.com/PKU-YuanGroup/UniWorld-V1",
+        "n": "UniWorld-V1",
+        "d": "2025-06-03",
+        "m1": "3.26",
+        "m2": "3.82",
+        "m3": "3.64",
+        "m4": "2.27",
+        "m5": "3.47",
+        "m6": "3.24",
+        "m7": "2.99",
+        "m8": "4.21",
+        "m9": "2.96",
+        "m10": "2.74"
+      },
+      {
+        "p": {
+          "name": "Emerging Properties in Unified Multimodal Pretraining",
+          "link": "https://arxiv.org/abs/2505.14683v1"
+        },
+        "c": "https://github.com/ByteDance-Seed/Bagel",
+        "n": "BAGEL",
+        "d": "2025-05-20",
+        "m1": "3.20",
+        "m2": "3.56",
+        "m3": "3.31",
+        "m4": "1.70",
+        "m5": "3.30",
+        "m6": "2.62",
+        "m7": "3.24",
+        "m8": "4.49",
+        "m9": "2.38",
+        "m10": "4.17"
+      },
+      {
+        "p": {
+          "name": "Step1X-Edit: A Practical Framework for General Image Editing",
+          "link": "https://arxiv.org/abs/2504.17761v3"
+        },
+        "c": "https://github.com/stepfun-ai/step1x-edit",
+        "n": "Step1X-Edit",
+        "d": "2025-04-24",
+        "m1": "3.06",
+        "m2": "3.88",
+        "m3": "3.14",
+        "m4": "1.76",
+        "m5": "3.40",
+        "m6": "2.41",
+        "m7": "3.16",
+        "m8": "4.63",
+        "m9": "2.64",
+        "m10": "2.52"
+      },
+      {
+        "p": {
+          "name": "In-Context Editing: Learning Knowledge from Self-Induced Distributions",
+          "link": "https://arxiv.org/abs/2406.11194v4"
+        },
+        "c": "https://github.com/bigai-ai/ICE",
+        "n": "ICEdit",
+        "d": "2024-06-17",
+        "m1": "3.05",
+        "m2": "3.58",
+        "m3": "3.39",
+        "m4": "1.73",
+        "m5": "3.15",
+        "m6": "2.93",
+        "m7": "3.08",
+        "m8": "3.84",
+        "m9": "2.04",
+        "m10": "3.68"
+      },
+      {
+        "p": {
+          "name": "UltraEdit: Instruction-based Fine-Grained Image Editing at Scale",
+          "link": "https://arxiv.org/abs/2407.05282v2"
+        },
+        "c": "https://github.com/pkunlp-icler/ultraedit",
+        "n": "UltraEdit",
+        "d": "2024-07-07",
+        "m1": "2.70",
+        "m2": "3.44",
+        "m3": "2.81",
+        "m4": "2.13",
+        "m5": "2.96",
+        "m6": "1.45",
+        "m7": "2.83",
+        "m8": "3.76",
+        "m9": "1.91",
+        "m10": "2.98"
+      },
+      {
+        "p": {
+          "name": "AnyEdit: Edit Any Knowledge Encoded in Language Models",
+          "link": "https://arxiv.org/abs/2502.05628v2"
+        },
+        "c": "",
+        "n": "AnyEdit",
+        "d": "2025-02-08",
+        "m1": "2.45",
+        "m2": "3.18",
+        "m3": "2.95",
+        "m4": "1.88",
+        "m5": "2.47",
+        "m6": "2.23",
+        "m7": "2.24",
+        "m8": "2.85",
+        "m9": "1.56",
+        "m10": "2.65"
+      },
+      {
+        "p": {
+          "name": "InstructPix2Pix: Learning to Follow Image Editing Instructions",
+          "link": "https://arxiv.org/abs/2211.09800v2"
+        },
+        "c": "https://github.com/huggingface/diffusers",
+        "n": "Instruct-Pix2Pix",
+        "d": "2022-11-17",
+        "m1": "1.88",
+        "m2": "2.45",
+        "m3": "1.83",
+        "m4": "1.44",
+        "m5": "2.01",
+        "m6": "1.50",
+        "m7": "1.44",
+        "m8": "3.55",
+        "m9": "1.2",
+        "m10": "1.46"
+      },
+      {
+        "p": {
+          "name": "MagicBrush: A Manually Annotated Dataset for Instruction-Guided Image Editing",
+          "link": "https://arxiv.org/abs/2306.10012v3"
+        },
+        "c": "https://github.com/osu-nlp-group/magicbrush",
+        "n": "MagicBrush",
+        "d": "2023-06-16",
+        "m1": "1.83",
+        "m2": "2.84",
+        "m3": "1.58",
+        "m4": "1.51",
+        "m5": "1.97",
+        "m6": "1.58",
+        "m7": "1.75",
+        "m8": "2.38",
+        "m9": "1.62",
+        "m10": "1.22"
+      }
+    ]
+  }
+}

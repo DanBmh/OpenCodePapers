@@ -1,0 +1,98 @@
+{
+  "title": "3d-object-detection-on-dttd2",
+  "task-hierarchy": [
+    "Object Detection",
+    "3D Object Detection"
+  ],
+  "dataset-info": {
+    "link": "https://openark-berkeley.github.io/DTTDNet/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "ADD AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "ADD-S AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Robust 6DoF Pose Estimation Against Depth Noise and a Comprehensive Evaluation on a Mobile Dataset",
+          "link": "https://arxiv.org/abs/2309.13570v4"
+        },
+        "c": "https://github.com/augcog/dttdv1",
+        "n": "DTTDNet",
+        "d": "2023-09-24",
+        "m1": "73.99",
+        "m2": "88.10"
+      },
+      {
+        "p": {
+          "name": "DenseFusion: 6D Object Pose Estimation by Iterative Dense Fusion",
+          "link": "http://arxiv.org/abs/1901.04780v1"
+        },
+        "c": "https://github.com/j96w/DenseFusion",
+        "n": "DenseFusion",
+        "d": "2019-01-15",
+        "m1": "69.67",
+        "m2": "85.88"
+      },
+      {
+        "p": {
+          "name": "MegaPose: 6D Pose Estimation of Novel Objects via Render & Compare",
+          "link": "https://arxiv.org/abs/2212.06870v1"
+        },
+        "c": "https://github.com/megapose6d/megapose6d",
+        "n": "MegaPose-RGBD",
+        "d": "2022-12-13",
+        "m1": "49.02",
+        "m2": "62.44"
+      },
+      {
+        "p": {
+          "name": "BundleSDF: Neural 6-DoF Tracking and 3D Reconstruction of Unknown Objects",
+          "link": "https://arxiv.org/abs/2303.14158v1"
+        },
+        "c": "https://github.com/NVlabs/BundleSDF",
+        "n": "BundleSDF",
+        "d": "2023-03-24",
+        "m1": "46.86",
+        "m2": "55.74"
+      },
+      {
+        "p": {
+          "name": "ES6D: A Computation Efficient and Symmetry-Aware 6D Pose Regression Framework",
+          "link": "https://arxiv.org/abs/2204.01080v1"
+        },
+        "c": "https://github.com/ganwanshui/es6d",
+        "n": "ES6D",
+        "d": "2022-04-03",
+        "m1": "13.25",
+        "m2": "37.38"
+      }
+    ]
+  }
+}

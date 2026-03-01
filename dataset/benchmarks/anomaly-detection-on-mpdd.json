@@ -1,0 +1,227 @@
+{
+  "title": "anomaly-detection-on-mpdd",
+  "task-hierarchy": [
+    "Anomaly Detection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/stepanje/MPDD"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Detection AUROC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Segmentation AUROC",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Segmentation AUPRO",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "A Unified Anomaly Synthesis Strategy with Gradient Ascent for Industrial Anomaly Detection and Localization",
+          "link": "https://arxiv.org/abs/2407.09359v1"
+        },
+        "c": "https://github.com/cqylunlun/glass",
+        "n": "GLASS",
+        "d": "2024-07-12",
+        "m1": "99.6",
+        "m2": "99.4",
+        "m3": "98.2"
+      },
+      {
+        "p": {
+          "name": "Center-aware Residual Anomaly Synthesis for Multi-class Industrial Anomaly Detection",
+          "link": "https://arxiv.org/abs/2505.17551v1"
+        },
+        "c": "https://github.com/cqylunlun/CRAS",
+        "n": "CRAS",
+        "d": "2025-05-23",
+        "m1": "98.8",
+        "m2": "98.7"
+      },
+      {
+        "p": {
+          "name": "Dual-Modeling Decouple Distillation for Unsupervised Anomaly Detection",
+          "link": "https://arxiv.org/abs/2408.03888v2"
+        },
+        "c": "",
+        "n": "DMDD",
+        "d": "2024-08-07",
+        "m1": "98.10",
+        "m2": "98.96",
+        "m3": "97.66"
+      },
+      {
+        "p": {
+          "name": "Progressive Boundary Guided Anomaly Synthesis for Industrial Anomaly Detection",
+          "link": "https://arxiv.org/abs/2412.17458v1"
+        },
+        "c": "https://github.com/cqylunlun/pbas",
+        "n": "PBAS",
+        "d": "2024-12-23",
+        "m1": "97.7",
+        "m2": "98.8",
+        "m3": "97.1"
+      },
+      {
+        "p": {
+          "name": "GLAD: Towards Better Reconstruction with Global and Local Adaptive Diffusion Models for Unsupervised Anomaly Detection",
+          "link": "https://arxiv.org/abs/2406.07487v3"
+        },
+        "c": "https://github.com/hyao1/glad",
+        "n": "GLAD",
+        "d": "2024-06-11",
+        "m1": "97.5",
+        "m2": "98.7"
+      },
+      {
+        "p": {
+          "name": "Produce Once, Utilize Twice for Anomaly Detection",
+          "link": "https://arxiv.org/abs/2312.12913v1"
+        },
+        "c": "",
+        "n": "POUTA",
+        "d": "2023-12-20",
+        "m1": "97.5"
+      },
+      {
+        "p": {
+          "name": "Dinomaly: The Less Is More Philosophy in Multi-Class Unsupervised Anomaly Detection",
+          "link": "https://arxiv.org/abs/2405.14325v4"
+        },
+        "c": "https://github.com/guojiajeremy/dinomaly",
+        "n": "Dinomaly",
+        "d": "2024-05-23",
+        "m1": "97.2",
+        "m2": "99.1"
+      },
+      {
+        "p": {
+          "name": "RealNet: A Feature Selection Network with Realistic Synthetic Anomaly for Anomaly Detection",
+          "link": "https://arxiv.org/abs/2403.05897v1"
+        },
+        "c": "https://github.com/cnulab/realnet",
+        "n": "RealNet",
+        "d": "2024-03-09",
+        "m1": "96.3",
+        "m2": "98.2"
+      },
+      {
+        "p": {
+          "name": "DiffusionAD: Norm-guided One-step Denoising Diffusion for Anomaly Detection",
+          "link": "https://arxiv.org/abs/2303.08730v4"
+        },
+        "c": "https://github.com/huizhang0812/diffusionad",
+        "n": "DiffusionAD",
+        "d": "2023-03-15",
+        "m1": "96.2",
+        "m2": "98.5",
+        "m3": "95.3"
+      },
+      {
+        "p": {
+          "name": "Revisiting Deep Feature Reconstruction for Logical and Structural Industrial Anomaly Detection",
+          "link": "https://arxiv.org/abs/2410.16255v1"
+        },
+        "c": "https://github.com/sukanyapatra1997/ulsad-2024",
+        "n": "ULSAD",
+        "d": "2024-10-21",
+        "m1": "95.73",
+        "m2": "97.45",
+        "m3": "92.02"
+      },
+      {
+        "p": {
+          "name": "Towards Total Online Unsupervised Anomaly Detection and Localization in Industrial Vision",
+          "link": "https://arxiv.org/abs/2305.15652v1"
+        },
+        "c": "",
+        "n": "LeMO",
+        "d": "2023-05-25",
+        "m1": "87.4",
+        "m2": "97.8",
+        "m3": "91.9"
+      },
+      {
+        "p": {
+          "name": "FastRecon: Few-shot Industrial Anomaly Detection via Fast Feature Reconstruction",
+          "link": "http://openaccess.thecvf.com//content/ICCV2023/html/Fang_FastRecon_Few-shot_Industrial_Anomaly_Detection_via_Fast_Feature_Reconstruction_ICCV_2023_paper.html"
+        },
+        "c": "",
+        "n": "FastRecon",
+        "d": "2023-01-01",
+        "m1": "82.5",
+        "m2": "97.9"
+      },
+      {
+        "p": {
+          "name": "AdaCLIP: Adapting CLIP with Hybrid Learnable Prompts for Zero-Shot Anomaly Detection",
+          "link": "https://arxiv.org/abs/2407.15795v1"
+        },
+        "c": "https://github.com/caoyunkang/adaclip",
+        "n": "AdaCLIP",
+        "d": "2024-07-22",
+        "m1": "82.5",
+        "m2": "96.1"
+      },
+      {
+        "p": {
+          "name": "Towards Total Recall in Industrial Anomaly Detection",
+          "link": "https://arxiv.org/abs/2106.08265v2"
+        },
+        "c": "https://github.com/openvinotoolkit/anomalib",
+        "n": "PatchCore",
+        "d": "2021-06-15",
+        "m1": "82.12",
+        "m2": "95.66"
+      },
+      {
+        "p": {
+          "name": "KAnoCLIP: Zero-Shot Anomaly Detection through Knowledge-Driven Prompt Learning and Enhanced Cross-Modal Integration",
+          "link": "https://arxiv.org/abs/2501.03786v1"
+        },
+        "c": "",
+        "n": "KAnoCLIP",
+        "d": "2025-01-07",
+        "m1": "77.8",
+        "m2": "98.3"
+      },
+      {
+        "p": {
+          "name": "Anomaly Detection using Score-based Perturbation Resilience",
+          "link": "http://openaccess.thecvf.com//content/ICCV2023/html/Shin_Anomaly_Detection_using_Score-based_Perturbation_Resilience_ICCV_2023_paper.html"
+        },
+        "c": "https://github.com/Lee-JongHyeon/Anomaly-Detection-using-Score-based-Perturbation-Resilience",
+        "n": "ADSPR",
+        "d": "2023-01-01",
+        "m2": "96.8"
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "title": "speech-synthesis-on-ljspeech",
+  "task-hierarchy": [
+    "Accented Speech Recognition",
+    "Speech Synthesis"
+  ],
+  "dataset-info": {
+    "link": "https://keithito.com/LJ-Speech-Dataset/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Mean Opinion Score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "BDDM: Bilateral Denoising Diffusion Models for Fast and High-Quality Speech Synthesis",
+          "link": "https://arxiv.org/abs/2203.13508v1"
+        },
+        "c": "https://github.com/tencent-ailab/bddm",
+        "n": "BDDM vocoder",
+        "d": "2022-03-25",
+        "m1": "4.48"
+      },
+      {
+        "p": {
+          "name": "DiffWave: A Versatile Diffusion Model for Audio Synthesis",
+          "link": "https://arxiv.org/abs/2009.09761v3"
+        },
+        "c": "https://github.com/lmnt-com/diffwave",
+        "n": "DiffWave LARGE",
+        "d": "2020-09-21",
+        "m1": "4.44"
+      },
+      {
+        "p": {
+          "name": "Neural HMMs are all you need (for high-quality attention-free TTS)",
+          "link": "https://arxiv.org/abs/2108.13320v6"
+        },
+        "c": "https://github.com/coqui-ai/TTS",
+        "n": "Neural HMM",
+        "d": "2021-08-30",
+        "m1": "3.24"
+      },
+      {
+        "p": {
+          "name": "Neural HMMs are all you need (for high-quality attention-free TTS)",
+          "link": "https://arxiv.org/abs/2108.13320v6"
+        },
+        "c": "https://github.com/coqui-ai/TTS",
+        "n": "Neural HMM Ablation with 1 state per phone",
+        "d": "2021-08-30",
+        "m1": "2.68"
+      }
+    ]
+  }
+}

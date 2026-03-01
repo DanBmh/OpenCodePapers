@@ -1,0 +1,127 @@
+{
+  "title": "code-generation-on-res-q",
+  "task-hierarchy": [
+    "Code Generation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/Qurrent-AI/RES-Q"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "pass@1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "RES-Q: Evaluating Code-Editing Large Language Model Systems at the Repository Scale",
+          "link": "https://arxiv.org/abs/2406.16801v2"
+        },
+        "c": "https://github.com/qurrent-ai/res-q",
+        "n": "QurrentOS-coder + Claude 3.5 Sonnet",
+        "d": "2024-06-24",
+        "m1": "58.0"
+      },
+      {
+        "p": {
+          "name": "RES-Q: Evaluating Code-Editing Large Language Model Systems at the Repository Scale",
+          "link": "https://arxiv.org/abs/2406.16801v2"
+        },
+        "c": "https://github.com/qurrent-ai/res-q",
+        "n": "QurrentOS-coder + GPT-4o",
+        "d": "2024-06-24",
+        "m1": "46.0"
+      },
+      {
+        "p": {
+          "name": "RES-Q: Evaluating Code-Editing Large Language Model Systems at the Repository Scale",
+          "link": "https://arxiv.org/abs/2406.16801v2"
+        },
+        "c": "https://github.com/qurrent-ai/res-q",
+        "n": "QurrentOS-coder + GPT-4 Turbo",
+        "d": "2024-06-24",
+        "m1": "37.0"
+      },
+      {
+        "p": {
+          "name": "RES-Q: Evaluating Code-Editing Large Language Model Systems at the Repository Scale",
+          "link": "https://arxiv.org/abs/2406.16801v2"
+        },
+        "c": "https://github.com/qurrent-ai/res-q",
+        "n": "QurrentOS-coder + Claude 3 Opus",
+        "d": "2024-06-24",
+        "m1": "36.0"
+      },
+      {
+        "p": {
+          "name": "RES-Q: Evaluating Code-Editing Large Language Model Systems at the Repository Scale",
+          "link": "https://arxiv.org/abs/2406.16801v2"
+        },
+        "c": "https://github.com/qurrent-ai/res-q",
+        "n": "QurrentOS-coder + GPT-4",
+        "d": "2024-06-24",
+        "m1": "30.0"
+      },
+      {
+        "p": {
+          "name": "RES-Q: Evaluating Code-Editing Large Language Model Systems at the Repository Scale",
+          "link": "https://arxiv.org/abs/2406.16801v2"
+        },
+        "c": "https://github.com/qurrent-ai/res-q",
+        "n": "QurrentOS-coder + Gemini 1.5 Pro",
+        "d": "2024-06-24",
+        "m1": "30.0"
+      },
+      {
+        "p": {
+          "name": "RES-Q: Evaluating Code-Editing Large Language Model Systems at the Repository Scale",
+          "link": "https://arxiv.org/abs/2406.16801v2"
+        },
+        "c": "https://github.com/qurrent-ai/res-q",
+        "n": "QurrentOS-coder + DeepSeek-Coder-V2",
+        "d": "2024-06-24",
+        "m1": "29.0"
+      },
+      {
+        "p": {
+          "name": "RES-Q: Evaluating Code-Editing Large Language Model Systems at the Repository Scale",
+          "link": "https://arxiv.org/abs/2406.16801v2"
+        },
+        "c": "https://github.com/qurrent-ai/res-q",
+        "n": "QurrentOS-coder + Llama 3 70b",
+        "d": "2024-06-24",
+        "m1": "20.0"
+      },
+      {
+        "p": {
+          "name": "RES-Q: Evaluating Code-Editing Large Language Model Systems at the Repository Scale",
+          "link": "https://arxiv.org/abs/2406.16801v2"
+        },
+        "c": "https://github.com/qurrent-ai/res-q",
+        "n": "QurrentOS-coder + Qwen-72B-Instruct",
+        "d": "2024-06-24",
+        "m1": "18.0"
+      }
+    ]
+  }
+}

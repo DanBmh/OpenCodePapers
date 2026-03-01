@@ -1,0 +1,77 @@
+{
+  "title": "passage-re-ranking-on-ms-marco",
+  "task-hierarchy": [
+    "Passage Re-Ranking"
+  ],
+  "dataset-info": {
+    "link": "https://microsoft.github.io/msmarco/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MRR",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "HLATR: Enhance Multi-stage Text Retrieval with Hybrid List Aware Transformer Reranking",
+          "link": "https://arxiv.org/abs/2205.10569v1"
+        },
+        "c": "https://github.com/Alibaba-NLP/HLATR",
+        "n": "HLATR",
+        "d": "2022-05-21",
+        "m1": "0.42"
+      },
+      {
+        "p": {
+          "name": "Document Expansion by Query Prediction",
+          "link": "https://arxiv.org/abs/1904.08375v2"
+        },
+        "c": "https://github.com/castorini/Anserini",
+        "n": "BERT + Doc2query",
+        "d": "2019-04-17",
+        "m1": "0.368"
+      },
+      {
+        "p": {
+          "name": "Passage Re-ranking with BERT",
+          "link": "https://arxiv.org/abs/1901.04085v5"
+        },
+        "c": "https://github.com/nyu-dl/dl4marco-bert",
+        "n": "BERT + Small Training",
+        "d": "2019-01-13",
+        "m1": "0.359"
+      },
+      {
+        "p": {
+          "name": "An Updated Duet Model for Passage Re-ranking",
+          "link": "http://arxiv.org/abs/1903.07666v1"
+        },
+        "c": "https://github.com/dfcf93/MSMARCO",
+        "n": "Duet v2",
+        "d": "2019-03-18",
+        "m1": "0.253"
+      }
+    ]
+  }
+}

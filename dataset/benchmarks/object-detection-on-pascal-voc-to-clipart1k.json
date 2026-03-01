@@ -1,0 +1,67 @@
+{
+  "title": "object-detection-on-pascal-voc-to-clipart1k",
+  "task-hierarchy": [
+    "Object Detection"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Diffusion Domain Teacher: Diffusion Guided Domain Adaptive Object Detector",
+          "link": "https://arxiv.org/abs/2506.04211v1"
+        },
+        "c": "https://github.com/heboyong/Diffusion-Domain-Teacher",
+        "n": "DDT",
+        "d": "2025-06-04",
+        "m1": "55.6"
+      },
+      {
+        "p": {
+          "name": "MILA: Memory-Based Instance-Level Adaptation for Cross-Domain Object Detection",
+          "link": "https://arxiv.org/abs/2309.01086v1"
+        },
+        "c": "https://github.com/hitachi-rd-cv/MILA",
+        "n": "MILA",
+        "d": "2023-11-20",
+        "m1": "49.9"
+      },
+      {
+        "p": {
+          "name": "Semi-Supervised Domain Generalization for Object Detection via Language-Guided Feature Alignment",
+          "link": "https://arxiv.org/abs/2309.13525v1"
+        },
+        "c": "https://github.com/sinamalakouti/CDDMSL",
+        "n": "CDDMSL",
+        "d": "2023-09-24",
+        "m1": "40.4"
+      }
+    ]
+  }
+}

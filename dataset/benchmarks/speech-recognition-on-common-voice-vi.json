@@ -1,0 +1,67 @@
+{
+  "title": "speech-recognition-on-common-voice-vi",
+  "task-hierarchy": [
+    "Speech Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://commonvoice.mozilla.org"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Test WER",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "ChunkFormer: Masked Chunking Conformer For Long-Form Speech Transcription",
+          "link": "https://arxiv.org/abs/2502.14673v1"
+        },
+        "c": "https://github.com/khanld/chunkformer",
+        "n": "khanhld/chunkformer-large-vie",
+        "d": "2025-02-20",
+        "m1": "6.66"
+      },
+      {
+        "p": {
+          "name": "Wav2vec2 Base Vietnamese 160h",
+          "link": "https://huggingface.co/khanhld/wav2vec2-base-vietnamese-160h"
+        },
+        "c": "https://github.com/khanld/ASR-Wa2vec-Finetune",
+        "n": "wav2vec2-base-vietnamese-160h (No Language Model)",
+        "d": "2022-05-08",
+        "m1": "10.78"
+      },
+      {
+        "p": {
+          "name": "Vietnamese end-to-end speech recognition using wav2vec 2.0",
+          "link": "https://github.com/vietai/ASR"
+        },
+        "c": "https://github.com/vietai/ASR",
+        "n": "Vietnamese end-to-end speech recognition using wav2vec 2.0 by VietAI",
+        "d": "2021-09-02",
+        "m1": "11.52"
+      }
+    ]
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "title": "3d-facial-landmark-localization-on-h3wb",
+  "task-hierarchy": [
+    "3D Face Reconstruction",
+    "Facial Recognition and Modelling",
+    "Facial Landmark Detection",
+    "3D Facial Landmark Localization"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/wholebody3d/wholebody3d"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Average MPJPE (mm)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "3D-LFM: Lifting Foundation Model",
+          "link": "https://arxiv.org/abs/2312.11894v2"
+        },
+        "c": "https://github.com/mosamdabhi/3dlfm",
+        "n": "3D-LFM",
+        "d": "2023-12-19",
+        "m1": "10.44"
+      },
+      {
+        "p": {
+          "name": "H3WB: Human3.6M 3D WholeBody Dataset and Benchmark",
+          "link": "https://arxiv.org/abs/2211.15692v2"
+        },
+        "c": "https://github.com/wholebody3d/wholebody3d",
+        "n": "Large SimpleBaseline",
+        "d": "2022-11-28",
+        "m1": "14.6"
+      },
+      {
+        "p": {
+          "name": "3D WholeBody Pose Estimation based on Semantic Graph Attention Network and Distance Information",
+          "link": "https://arxiv.org/abs/2406.01196v1"
+        },
+        "c": "",
+        "n": "SemGAN",
+        "d": "2024-06-03",
+        "m1": "15.95"
+      },
+      {
+        "p": {
+          "name": "H3WB: Human3.6M 3D WholeBody Dataset and Benchmark",
+          "link": "https://arxiv.org/abs/2211.15692v2"
+        },
+        "c": "https://github.com/wholebody3d/wholebody3d",
+        "n": "Jointformer",
+        "d": "2022-11-28",
+        "m1": "17.8"
+      },
+      {
+        "p": {
+          "name": "H3WB: Human3.6M 3D WholeBody Dataset and Benchmark",
+          "link": "https://arxiv.org/abs/2211.15692v2"
+        },
+        "c": "https://github.com/wholebody3d/wholebody3d",
+        "n": "CanonPose + 3D supervision",
+        "d": "2022-11-28",
+        "m1": "17.9"
+      },
+      {
+        "p": {
+          "name": "H3WB: Human3.6M 3D WholeBody Dataset and Benchmark",
+          "link": "https://arxiv.org/abs/2211.15692v2"
+        },
+        "c": "https://github.com/wholebody3d/wholebody3d",
+        "n": "Large SimpleBaseline",
+        "d": "2022-11-28",
+        "m1": "19.8"
+      },
+      {
+        "p": {
+          "name": "H3WB: Human3.6M 3D WholeBody Dataset and Benchmark",
+          "link": "https://arxiv.org/abs/2211.15692v2"
+        },
+        "c": "https://github.com/wholebody3d/wholebody3d",
+        "n": "Jointformer",
+        "d": "2022-11-28",
+        "m1": "19.8"
+      },
+      {
+        "p": {
+          "name": "H3WB: Human3.6M 3D WholeBody Dataset and Benchmark",
+          "link": "https://arxiv.org/abs/2211.15692v2"
+        },
+        "c": "https://github.com/wholebody3d/wholebody3d",
+        "n": "CPN + Jointformer",
+        "d": "2022-11-28",
+        "m1": " 20.7"
+      },
+      {
+        "p": {
+          "name": "H3WB: Human3.6M 3D WholeBody Dataset and Benchmark",
+          "link": "https://arxiv.org/abs/2211.15692v2"
+        },
+        "c": "https://github.com/wholebody3d/wholebody3d",
+        "n": "CanonPose + 3D supervision",
+        "d": "2022-11-28",
+        "m1": "22.2"
+      },
+      {
+        "p": {
+          "name": "H3WB: Human3.6M 3D WholeBody Dataset and Benchmark",
+          "link": "https://arxiv.org/abs/2211.15692v2"
+        },
+        "c": "https://github.com/wholebody3d/wholebody3d",
+        "n": "CanonPose",
+        "d": "2022-11-28",
+        "m1": "24.6"
+      },
+      {
+        "p": {
+          "name": "H3WB: Human3.6M 3D WholeBody Dataset and Benchmark",
+          "link": "https://arxiv.org/abs/2211.15692v2"
+        },
+        "c": "https://github.com/wholebody3d/wholebody3d",
+        "n": "SimpleBaseline",
+        "d": "2022-11-28",
+        "m1": "24.6"
+      },
+      {
+        "p": {
+          "name": "H3WB: Human3.6M 3D WholeBody Dataset and Benchmark",
+          "link": "https://arxiv.org/abs/2211.15692v2"
+        },
+        "c": "https://github.com/wholebody3d/wholebody3d",
+        "n": "Resnet50",
+        "d": "2022-11-28",
+        "m1": " 26.3"
+      },
+      {
+        "p": {
+          "name": "H3WB: Human3.6M 3D WholeBody Dataset and Benchmark",
+          "link": "https://arxiv.org/abs/2211.15692v2"
+        },
+        "c": "https://github.com/wholebody3d/wholebody3d",
+        "n": "CanonPose",
+        "d": "2022-11-28",
+        "m1": "31.9"
+      },
+      {
+        "p": {
+          "name": "H3WB: Human3.6M 3D WholeBody Dataset and Benchmark",
+          "link": "https://arxiv.org/abs/2211.15692v2"
+        },
+        "c": "https://github.com/wholebody3d/wholebody3d",
+        "n": "SHN + SimpleBaseline",
+        "d": "2022-11-28",
+        "m1": "32.5"
+      },
+      {
+        "p": {
+          "name": "H3WB: Human3.6M 3D WholeBody Dataset and Benchmark",
+          "link": "https://arxiv.org/abs/2211.15692v2"
+        },
+        "c": "https://github.com/wholebody3d/wholebody3d",
+        "n": "SimpleBaseline",
+        "d": "2022-11-28",
+        "m1": "34.0"
+      }
+    ]
+  }
+}

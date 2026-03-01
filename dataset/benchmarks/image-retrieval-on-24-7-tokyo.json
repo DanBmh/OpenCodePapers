@@ -1,0 +1,67 @@
+{
+  "title": "image-retrieval-on-24-7-tokyo",
+  "task-hierarchy": [
+    "Image Retrieval"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Dark Side Augmentation: Generating Diverse Night Examples for Metric Learning",
+          "link": "https://arxiv.org/abs/2309.16351v2"
+        },
+        "c": "https://github.com/mohwald/gandtr",
+        "n": "HED-N-GAN",
+        "d": "2023-09-28",
+        "m1": "92.2"
+      },
+      {
+        "p": {
+          "name": "Zero-Shot Day-Night Domain Adaptation with a Physics Prior",
+          "link": "https://arxiv.org/abs/2108.05137v2"
+        },
+        "c": "https://github.com/Attila94/CIConv",
+        "n": "CIConv",
+        "d": "2021-08-11",
+        "m1": "88.3"
+      },
+      {
+        "p": {
+          "name": "No Fear of the Dark: Image Retrieval under Varying Illumination Conditions",
+          "link": "https://arxiv.org/abs/1908.08999v1"
+        },
+        "c": "https://github.com/jenicek/mdir",
+        "n": "CLAHE",
+        "d": "2019-08-23",
+        "m1": "87.0"
+      }
+    ]
+  }
+}

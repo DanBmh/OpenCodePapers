@@ -1,0 +1,333 @@
+{
+  "title": "face-alignment-on-cofw",
+  "task-hierarchy": [
+    "3D Face Reconstruction",
+    "Facial Recognition and Modelling",
+    "Face Alignment"
+  ],
+  "dataset-info": {
+    "link": "http://www.vision.caltech.edu/xpburgos/ICCV13/#dataset"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "NME (inter-ocular)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Recall at 80% precision (Landmarks Visibility)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "NME (inter-pupil)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Fiducial Focus Augmentation for Facial Landmark Detection",
+          "link": "https://arxiv.org/abs/2402.15044v1"
+        },
+        "c": "",
+        "n": "FiFA",
+        "d": "2024-02-23",
+        "m1": "2.96"
+      },
+      {
+        "p": {
+          "name": "Subpixel Heatmap Regression for Facial Landmark Localization",
+          "link": "https://arxiv.org/abs/2111.02360v1"
+        },
+        "c": "",
+        "n": "SH-FAN",
+        "d": "2021-11-03",
+        "m1": "3.02%"
+      },
+      {
+        "p": {
+          "name": "Towards Accurate Facial Landmark Detection via Cascaded Transformers",
+          "link": "https://arxiv.org/abs/2208.10808v1"
+        },
+        "c": "",
+        "n": "DTLD+",
+        "d": "2022-08-23",
+        "m1": "3.02%"
+      },
+      {
+        "p": {
+          "name": "Pixel-in-Pixel Net: Towards Efficient Facial Landmark Detection in the Wild",
+          "link": "https://arxiv.org/abs/2003.03771v3"
+        },
+        "c": "https://github.com/jhb86253817/PIPNet",
+        "n": "PIPNet (ResNet-101)",
+        "d": "2020-03-08",
+        "m1": "3.08%"
+      },
+      {
+        "p": {
+          "name": "When Liebig's Barrel Meets Facial Landmark Detection: A Practical Model",
+          "link": "https://arxiv.org/abs/2105.13150v2"
+        },
+        "c": "",
+        "n": "BarrelNet (ResNet-101)",
+        "d": "2021-05-27",
+        "m1": "3.1%"
+      },
+      {
+        "p": {
+          "name": "STAR Loss: Reducing Semantic Ambiguity in Facial Landmark Detection",
+          "link": "https://arxiv.org/abs/2306.02763v1"
+        },
+        "c": "https://github.com/zhenglinzhou/star",
+        "n": "STAR",
+        "d": "2023-06-05",
+        "m1": "3.21%",
+        "m3": "4.62"
+      },
+      {
+        "p": {
+          "name": "HIH: Towards More Accurate Face Alignment via Heatmap in Heatmap",
+          "link": "https://arxiv.org/abs/2104.03100v2"
+        },
+        "c": "https://github.com/starhiking/HeatmapInHeatmap",
+        "n": "HIH",
+        "d": "2021-04-07",
+        "m1": "3.21%"
+      },
+      {
+        "p": {
+          "name": "Revisiting Quantization Error in Face Alignment",
+          "link": "https://openaccess.thecvf.com/content/ICCV2021W/MFR/html/Lan_Revisting_Quantization_Error_in_Face_Alignment_ICCVW_2021_paper.html"
+        },
+        "c": "",
+        "n": "HIH w. MSE(2 stack)",
+        "d": "2021-09-13",
+        "m1": "3.28%"
+      },
+      {
+        "p": {
+          "name": "Sparse Local Patch Transformer for Robust Face Alignment and Landmarks Inherent Relation Learning",
+          "link": "https://arxiv.org/abs/2203.06541v2"
+        },
+        "c": "https://github.com/jiahao-uts/slpt-master",
+        "n": "SLPT",
+        "d": "2022-03-13",
+        "m1": "3.32",
+        "m3": "4.79"
+      },
+      {
+        "p": {
+          "name": "Pre-training strategies and datasets for facial representation learning",
+          "link": "https://arxiv.org/abs/2103.16554v2"
+        },
+        "c": "https://github.com/tomas-gajarsky/facetorch",
+        "n": "Ours (VGG-F)",
+        "d": "2021-03-30",
+        "m1": "3.32"
+      },
+      {
+        "p": {
+          "name": "ATF: Towards Robust Face Alignment via Leveraging Similarity and Diversity across Different Datasets",
+          "link": "https://dl.acm.org/doi/10.1145/3394171.3414037"
+        },
+        "c": "https://github.com/starhiking/ATF",
+        "n": "ATF",
+        "d": "2020-10-12",
+        "m1": "3.32%"
+      },
+      {
+        "p": {
+          "name": "High-Resolution Representations for Labeling Pixels and Regions",
+          "link": "http://arxiv.org/abs/1904.04514v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
+        "n": "HRNet",
+        "d": "2019-04-09",
+        "m1": "3.45%"
+      },
+      {
+        "p": {
+          "name": "Deep High-Resolution Representation Learning for Visual Recognition",
+          "link": "https://arxiv.org/abs/1908.07919v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "HRNet",
+        "d": "2019-08-20",
+        "m1": "3.45"
+      },
+      {
+        "p": {
+          "name": "ACR Loss: Adaptive Coordinate-based Regression Loss for Face Alignment",
+          "link": "https://arxiv.org/abs/2203.15835v2"
+        },
+        "c": "https://github.com/aliprf/acr-loss",
+        "n": "EF-3ACR",
+        "d": "2022-03-29",
+        "m1": "3.47%"
+      },
+      {
+        "p": {
+          "name": "Fast and Accurate: Structure Coherence Component for Face Alignment",
+          "link": "https://arxiv.org/abs/2006.11697v1"
+        },
+        "c": "",
+        "n": "SCC",
+        "d": "2020-06-21",
+        "m1": "3.63%"
+      },
+      {
+        "p": {
+          "name": "PropagationNet: Propagate Points to Curve to Learn Structure Information",
+          "link": "https://arxiv.org/abs/2006.14308v1"
+        },
+        "c": "",
+        "n": "PropNet",
+        "d": "2020-06-25",
+        "m1": "3.71%"
+      },
+      {
+        "p": {
+          "name": "Facial Landmark Points Detection Using Knowledge Distillation-Based Neural Networks",
+          "link": "https://arxiv.org/abs/2111.07047v1"
+        },
+        "c": "https://github.com/aliprf/kd-loss",
+        "n": "EfficientNet",
+        "d": "2021-11-13",
+        "m1": "3.81%"
+      },
+      {
+        "p": {
+          "name": "Look at Boundary: A Boundary-Aware Face Alignment Algorithm",
+          "link": "http://arxiv.org/abs/1805.10483v1"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
+        "n": "LAB (w/ B)",
+        "d": "2018-05-26",
+        "m1": "3.92%"
+      },
+      {
+        "p": {
+          "name": "Facial Landmark Points Detection Using Knowledge Distillation-Based Neural Networks",
+          "link": "https://arxiv.org/abs/2111.07047v1"
+        },
+        "c": "https://github.com/aliprf/kd-loss",
+        "n": "MobileNetV2+KD-Loss",
+        "d": "2021-11-13",
+        "m1": "4.11%"
+      },
+      {
+        "p": {
+          "name": "Wing Loss for Robust Facial Landmark Localisation with Convolutional Neural Networks",
+          "link": "http://arxiv.org/abs/1711.06753v5"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
+        "n": "Wing (Feng et al., 2018)",
+        "d": "2017-11-17",
+        "m1": "5.07"
+      },
+      {
+        "p": {
+          "name": "Look at Boundary: A Boundary-Aware Face Alignment Algorithm",
+          "link": "http://arxiv.org/abs/1805.10483v1"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
+        "n": "LAB",
+        "d": "2018-05-26",
+        "m1": "5.58%"
+      },
+      {
+        "p": {
+          "name": "Disentangling 3D Pose in A Dendritic CNN for Unconstrained 2D Face Alignment",
+          "link": "http://arxiv.org/abs/1802.06713v3"
+        },
+        "c": "",
+        "n": "PCD-CNNCVPR 18",
+        "d": "2018-02-19",
+        "m1": "5.77%"
+      },
+      {
+        "p": {
+          "name": "Multi-task head pose estimation in-the-wild",
+          "link": "https://arxiv.org/abs/2202.02299v1"
+        },
+        "c": "https://github.com/bobetocalo/bobetocalo_pami20",
+        "n": "MNN+OR (Inter-pupils Norm)",
+        "d": "2020-12-22",
+        "m2": "72.12",
+        "m3": "5.04%"
+      },
+      {
+        "p": {
+          "name": "Face Alignment using a 3D Deeply-initialized Ensemble of Regression Trees",
+          "link": "https://arxiv.org/abs/1902.01831v2"
+        },
+        "c": "https://github.com/bobetocalo/bobetocalo_eccv18",
+        "n": "3DDE (Inter-pupil Norm)",
+        "d": "2019-02-05",
+        "m2": "63.89",
+        "m3": "5.11%"
+      },
+      {
+        "p": {
+          "name": "Cascade of Encoder-Decoder CNNs with Learned Coordinates Regressor for Robust Facial Landmarks Detection",
+          "link": "https://doi.org/10.1016/j.patrec.2019.10.012"
+        },
+        "c": "https://github.com/bobetocalo/bobetocalo_prl19",
+        "n": "CHR2C (Inter-pupils Norm)",
+        "d": "2019-10-15",
+        "m3": "5.09%"
+      },
+      {
+        "p": {
+          "name": "A Deeply-initialized Coarse-to-fine Ensemble of Regression Trees for Face Alignment",
+          "link": "http://openaccess.thecvf.com/content_ECCV_2018/html/Roberto_Valle_A_Deeply-initialized_Coarse-to-fine_ECCV_2018_paper.html"
+        },
+        "c": "https://github.com/bobetocalo/bobetocalo_eccv18",
+        "n": "DCFE",
+        "d": "2018-09-01",
+        "m3": "5.27%"
+      },
+      {
+        "p": {
+          "name": "Stacked Dense U-Nets with Dual Transformers for Robust Face Alignment",
+          "link": "http://arxiv.org/abs/1812.01936v1"
+        },
+        "c": "https://github.com/deepinsight/insightface",
+        "n": "DenseU-Net + Dual Transformer",
+        "d": "2018-12-05",
+        "m3": "5.55%"
+      },
+      {
+        "p": {
+          "name": "Multi-task head pose estimation in-the-wild",
+          "link": "https://arxiv.org/abs/2202.02299v1"
+        },
+        "c": "https://github.com/bobetocalo/bobetocalo_pami20",
+        "n": "MNN (Inter-pupil Norm)",
+        "d": "2020-12-22",
+        "m3": "5.65%"
+      }
+    ]
+  }
+}

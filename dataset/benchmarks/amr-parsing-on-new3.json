@@ -1,0 +1,77 @@
+{
+  "title": "amr-parsing-on-new3",
+  "task-hierarchy": [
+    "AMR Parsing"
+  ],
+  "dataset-info": {
+    "link": "https://catalog.ldc.upenn.edu/LDC2020T02"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Smatch",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Graph Pre-training for AMR Parsing and Generation",
+          "link": "https://arxiv.org/abs/2203.07836v4"
+        },
+        "c": "https://github.com/muyeby/amrbart",
+        "n": "AMRBART large",
+        "d": "2022-03-15",
+        "m1": "76.9"
+      },
+      {
+        "p": {
+          "name": "Ensembling Graph Predictions for AMR Parsing",
+          "link": "https://arxiv.org/abs/2110.09131v2"
+        },
+        "c": "https://github.com/ibm/graph_ensemble_learning",
+        "n": "Graphene Smatch",
+        "d": "2021-10-18",
+        "m1": "76.32"
+      },
+      {
+        "p": {
+          "name": "One SPRING to Rule Them Both: Symmetric AMR Semantic Parsing and Generation without a Complex Pipeline",
+          "link": "https://ojs.aaai.org/index.php/AAAI/article/view/17489"
+        },
+        "c": "https://github.com/SapienzaNLP/spring",
+        "n": "SPRING DFS",
+        "d": "2021-05-18",
+        "m1": "73.7"
+      },
+      {
+        "p": {
+          "name": "One SPRING to Rule Them Both: Symmetric AMR Semantic Parsing and Generation without a Complex Pipeline",
+          "link": "https://ojs.aaai.org/index.php/AAAI/article/view/17489"
+        },
+        "c": "https://github.com/SapienzaNLP/spring",
+        "n": "SPRING DFS + silver",
+        "d": "2021-05-18",
+        "m1": "71.8"
+      }
+    ]
+  }
+}

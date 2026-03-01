@@ -1,0 +1,86 @@
+{
+  "title": "phrase-ranking-on-kptimes",
+  "task-hierarchy": [
+    "Phrase Ranking"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/ygorg/KPTimes"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "P@5K",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "P@50K",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "UCPhrase: Unsupervised Context-aware Quality Phrase Tagging",
+          "link": "https://arxiv.org/abs/2105.14078v1"
+        },
+        "c": "https://github.com/xgeric/UCPhrase-reproduce",
+        "n": "Wiki+RoBERTa ",
+        "d": "2021-05-28",
+        "m1": "99.0",
+        "m2": " 96.5"
+      },
+      {
+        "p": {
+          "name": "UCPhrase: Unsupervised Context-aware Quality Phrase Tagging",
+          "link": "https://arxiv.org/abs/2105.14078v1"
+        },
+        "c": "https://github.com/xgeric/UCPhrase-reproduce",
+        "n": "UCPhrase",
+        "d": "2021-05-28",
+        "m1": "96.5",
+        "m2": "95.5"
+      },
+      {
+        "p": {
+          "name": "UCPhrase: Unsupervised Context-aware Quality Phrase Tagging",
+          "link": "https://arxiv.org/abs/2105.14078v1"
+        },
+        "c": "https://github.com/xgeric/UCPhrase-reproduce",
+        "n": "AutoPhrase",
+        "d": "2021-05-28",
+        "m1": "96.5",
+        "m2": "95.5"
+      },
+      {
+        "p": {
+          "name": "UCPhrase: Unsupervised Context-aware Quality Phrase Tagging",
+          "link": "https://arxiv.org/abs/2105.14078v1"
+        },
+        "c": "https://github.com/xgeric/UCPhrase-reproduce",
+        "n": "TopMine",
+        "d": "2021-05-28",
+        "m1": "85.5",
+        "m2": " 71.0"
+      }
+    ]
+  }
+}

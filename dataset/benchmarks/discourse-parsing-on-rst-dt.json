@@ -1,0 +1,581 @@
+{
+  "title": "discourse-parsing-on-rst-dt",
+  "task-hierarchy": [
+    "Discourse Parsing"
+  ],
+  "dataset-info": {
+    "link": "https://catalog.ldc.upenn.edu/LDC2002T07"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Standard Parseval (Full)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Standard Parseval (Span)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Standard Parseval (Nuclearity)",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Standard Parseval (Relation)",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "RST-Parseval (Full)",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "RST-Parseval (Span)",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "RST-Parseval (Nuclearity)",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "RST-Parseval (Relation)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Can we obtain significant success in RST discourse parsing by using Large Language Models?",
+          "link": "https://arxiv.org/abs/2403.05065v1"
+        },
+        "c": "https://github.com/nttcslab-nlp/rstparser_eacl24",
+        "n": "Bottom-up Llama 2 (70B)",
+        "d": "2024-03-08",
+        "m1": "58.1",
+        "m2": "79.8",
+        "m3": "70.4",
+        "m4": "60.0"
+      },
+      {
+        "p": {
+          "name": "Can we obtain significant success in RST discourse parsing by using Large Language Models?",
+          "link": "https://arxiv.org/abs/2403.05065v1"
+        },
+        "c": "https://github.com/nttcslab-nlp/rstparser_eacl24",
+        "n": "Top-down Llama 2 (70B)",
+        "d": "2024-03-08",
+        "m1": " 56.0",
+        "m2": "78.8",
+        "m3": " 68.7",
+        "m4": "57.7"
+      },
+      {
+        "p": {
+          "name": "Can we obtain significant success in RST discourse parsing by using Large Language Models?",
+          "link": "https://arxiv.org/abs/2403.05065v1"
+        },
+        "c": "https://github.com/nttcslab-nlp/rstparser_eacl24",
+        "n": "Bottom-up Llama 2 (13B)",
+        "d": "2024-03-08",
+        "m1": "56.0",
+        "m2": " 78.3",
+        "m3": "68.1",
+        "m4": "57.8"
+      },
+      {
+        "p": {
+          "name": "Can we obtain significant success in RST discourse parsing by using Large Language Models?",
+          "link": "https://arxiv.org/abs/2403.05065v1"
+        },
+        "c": "https://github.com/nttcslab-nlp/rstparser_eacl24",
+        "n": "Bottom-up Llama 2 (7B)",
+        "d": "2024-03-08",
+        "m1": "55.8",
+        "m2": " 78.2",
+        "m3": "67.5",
+        "m4": "57.6"
+      },
+      {
+        "p": {
+          "name": "Bilingual Rhetorical Structure Parsing with Large Parallel Annotations",
+          "link": "https://arxiv.org/abs/2409.14969v1"
+        },
+        "c": "https://github.com/tchewik/bilingualrsp",
+        "n": "DMRST",
+        "d": "2024-09-23",
+        "m1": "55.7 ± 0.3",
+        "m2": "78.7 ± 0.4",
+        "m3": "68.0 ± 0.6",
+        "m4": "57.3 ± 0.2"
+      },
+      {
+        "p": {
+          "name": "Can we obtain significant success in RST discourse parsing by using Large Language Models?",
+          "link": "https://arxiv.org/abs/2403.05065v1"
+        },
+        "c": "https://github.com/nttcslab-nlp/rstparser_eacl24",
+        "n": "Top-down Llama 2 (13B)",
+        "d": "2024-03-08",
+        "m1": " 55.6",
+        "m2": "78.6",
+        "m3": "67.9",
+        "m4": "57.7"
+      },
+      {
+        "p": {
+          "name": "A Simple and Strong Baseline for End-to-End Neural RST-style Discourse Parsing",
+          "link": "https://arxiv.org/abs/2210.08355v2"
+        },
+        "c": "https://github.com/nttcslab-nlp/rstparser_emnlp22",
+        "n": "Bottom-up (DeBERTa)",
+        "d": "2022-10-15",
+        "m1": "55.4 ± 0.4",
+        "m2": "77.8 ± 0.3",
+        "m3": "68.0 ± 0.5",
+        "m4": "57.3 ± 0.2"
+      },
+      {
+        "p": {
+          "name": "A Simple and Strong Baseline for End-to-End Neural RST-style Discourse Parsing",
+          "link": "https://arxiv.org/abs/2210.08355v2"
+        },
+        "c": "https://github.com/nttcslab-nlp/rstparser_emnlp22",
+        "n": "Top-down (XLNet)",
+        "d": "2022-10-15",
+        "m1": "54.8",
+        "m2": "77.8",
+        "m3": "67.4",
+        "m4": "57.0"
+      },
+      {
+        "p": {
+          "name": "A Simple and Strong Baseline for End-to-End Neural RST-style Discourse Parsing",
+          "link": "https://arxiv.org/abs/2210.08355v2"
+        },
+        "c": "https://github.com/nttcslab-nlp/rstparser_emnlp22",
+        "n": "Top-down (DeBERTa)",
+        "d": "2022-10-15",
+        "m1": "54.4",
+        "m2": "78.5",
+        "m3": "67.9",
+        "m4": "56.6"
+      },
+      {
+        "p": {
+          "name": "A Simple and Strong Baseline for End-to-End Neural RST-style Discourse Parsing",
+          "link": "https://arxiv.org/abs/2210.08355v2"
+        },
+        "c": "https://github.com/nttcslab-nlp/rstparser_emnlp22",
+        "n": "Bottom-up (XLNet)",
+        "d": "2022-10-15",
+        "m1": "54.2",
+        "m3": "65.9",
+        "m4": "56.3"
+      },
+      {
+        "p": {
+          "name": "A Simple and Strong Baseline for End-to-End Neural RST-style Discourse Parsing",
+          "link": "https://arxiv.org/abs/2210.08355v2"
+        },
+        "c": "https://github.com/nttcslab-nlp/rstparser_emnlp22",
+        "n": "Top-down (RoBERTa)",
+        "d": "2022-10-15",
+        "m1": "53.8",
+        "m2": "77.3",
+        "m3": "66.6",
+        "m4": "55.8"
+      },
+      {
+        "p": {
+          "name": "A Simple and Strong Baseline for End-to-End Neural RST-style Discourse Parsing",
+          "link": "https://arxiv.org/abs/2210.08355v2"
+        },
+        "c": "https://github.com/nttcslab-nlp/rstparser_emnlp22",
+        "n": "Bottom-up (RoBERTa)",
+        "d": "2022-10-15",
+        "m1": "53.7",
+        "m2": "76.1",
+        "m3": "66.5",
+        "m4": "55.4"
+      },
+      {
+        "p": {
+          "name": "Can we obtain significant success in RST discourse parsing by using Large Language Models?",
+          "link": "https://arxiv.org/abs/2403.05065v1"
+        },
+        "c": "https://github.com/nttcslab-nlp/rstparser_eacl24",
+        "n": "Top-down Llama 2 (7B)",
+        "d": "2024-03-08",
+        "m1": "53.4",
+        "m2": "76.3",
+        "m3": "65.4",
+        "m4": "55.2"
+      },
+      {
+        "p": {
+          "name": "A Simple and Strong Baseline for End-to-End Neural RST-style Discourse Parsing",
+          "link": "https://arxiv.org/abs/2210.08355v2"
+        },
+        "c": "https://github.com/nttcslab-nlp/rstparser_emnlp22",
+        "n": "Bottom-up (SpanBERT)",
+        "d": "2022-10-15",
+        "m1": "52.7",
+        "m3": "65.3",
+        "m4": "54.9"
+      },
+      {
+        "p": {
+          "name": "A Simple and Strong Baseline for End-to-End Neural RST-style Discourse Parsing",
+          "link": "https://arxiv.org/abs/2210.08355v2"
+        },
+        "c": "https://github.com/nttcslab-nlp/rstparser_emnlp22",
+        "n": "Top-down (SpanBERT)",
+        "d": "2022-10-15",
+        "m1": "52.2",
+        "m2": "76.5",
+        "m3": "65.4",
+        "m4": "54.5"
+      },
+      {
+        "p": {
+          "name": "Top-down Discourse Parsing via Sequence Labelling",
+          "link": "https://arxiv.org/abs/2102.02080v2"
+        },
+        "c": "https://github.com/fajri91/NeuralRST-TopDown",
+        "n": "LSTM Dynamic",
+        "d": "2021-02-03",
+        "m1": "50.3",
+        "m2": "73.1",
+        "m3": "62.3",
+        "m4": "51.5"
+      },
+      {
+        "p": {
+          "name": "RST Parsing from Scratch",
+          "link": "https://arxiv.org/abs/2105.10861v1"
+        },
+        "c": "https://github.com/tungngthanh/rst_parser",
+        "n": "End-to-end Top-down (XLNet)",
+        "d": "2021-05-23",
+        "m1": "50.2",
+        "m2": "74.3",
+        "m3": "64.3",
+        "m4": "51.6",
+        "m6": "87.6",
+        "m7": "76.0",
+        "m8": "61.8"
+      },
+      {
+        "p": {
+          "name": "Top-down Discourse Parsing via Sequence Labelling",
+          "link": "https://arxiv.org/abs/2102.02080v2"
+        },
+        "c": "https://github.com/fajri91/NeuralRST-TopDown",
+        "n": "LSTM Static",
+        "d": "2021-02-03",
+        "m1": "49.4",
+        "m2": "72.7",
+        "m3": "61.7",
+        "m4": "50.5"
+      },
+      {
+        "p": {
+          "name": "Top-down Discourse Parsing via Sequence Labelling",
+          "link": "https://arxiv.org/abs/2102.02080v2"
+        },
+        "c": "https://github.com/fajri91/NeuralRST-TopDown",
+        "n": "Transformer (dynamic)",
+        "d": "2021-02-03",
+        "m1": "49.2",
+        "m2": "70.2",
+        "m3": "60.1"
+      },
+      {
+        "p": {
+          "name": "Top-down Discourse Parsing via Sequence Labelling",
+          "link": "https://arxiv.org/abs/2102.02080v2"
+        },
+        "c": "https://github.com/fajri91/NeuralRST-TopDown",
+        "n": "Transformer (static)",
+        "d": "2021-02-03",
+        "m1": "49.0",
+        "m2": "70.6",
+        "m3": "59.9",
+        "m4": "50.6"
+      },
+      {
+        "p": {
+          "name": "RST Parsing from Scratch",
+          "link": "https://arxiv.org/abs/2105.10861v1"
+        },
+        "c": "https://github.com/tungngthanh/rst_parser",
+        "n": "End-to-end Top-down (Glove)",
+        "d": "2021-05-23",
+        "m1": "46.8",
+        "m2": "71.1",
+        "m3": "59.6",
+        "m4": "47.7"
+      },
+      {
+        "p": {
+          "name": "A Simple and Strong Baseline for End-to-End Neural RST-style Discourse Parsing",
+          "link": "https://arxiv.org/abs/2210.08355v2"
+        },
+        "c": "https://github.com/nttcslab-nlp/rstparser_emnlp22",
+        "n": "Top-down (BERT)",
+        "d": "2022-10-15",
+        "m1": "46.6",
+        "m2": "69.8",
+        "m3": "59.1",
+        "m4": "48.3"
+      },
+      {
+        "p": {
+          "name": "A Simple and Strong Baseline for End-to-End Neural RST-style Discourse Parsing",
+          "link": "https://arxiv.org/abs/2210.08355v2"
+        },
+        "c": "https://github.com/nttcslab-nlp/rstparser_emnlp22",
+        "n": "Bottom-up (BERT)",
+        "d": "2022-10-15",
+        "m1": "46.0",
+        "m2": "68.3",
+        "m3": "57.8",
+        "m4": "47.8"
+      },
+      {
+        "p": {
+          "name": "Unleashing the Power of Neural Discourse Parsers -- A Context and Structure Aware Approach Using Large Scale Pretraining",
+          "link": "https://arxiv.org/abs/2011.03203v1"
+        },
+        "c": "",
+        "n": "Guz et al. (2020) (pretrained)",
+        "d": "2020-11-06",
+        "m2": "72.94",
+        "m3": "61.86"
+      },
+      {
+        "p": {
+          "name": "Unleashing the Power of Neural Discourse Parsers -- A Context and Structure Aware Approach Using Large Scale Pretraining",
+          "link": "https://arxiv.org/abs/2011.03203v1"
+        },
+        "c": "",
+        "n": "Guz et al. (2020)",
+        "d": "2020-11-06",
+        "m2": "72.43",
+        "m3": "61.38"
+      },
+      {
+        "p": {
+          "name": "Unleashing the Power of Neural Discourse Parsers - A Context and Structure Aware Approach Using Large Scale Pretraining",
+          "link": "https://aclanthology.org/2020.coling-main.337"
+        },
+        "c": "",
+        "n": "Guz et al. (2020)",
+        "d": "2020-12-01",
+        "m2": "72.43"
+      },
+      {
+        "p": {
+          "name": "Improving Neural RST Parsing Model with Silver Agreement Subtrees",
+          "link": "https://aclanthology.org/2021.naacl-main.127"
+        },
+        "c": "",
+        "n": "Top-down Span-based Parser with Silver Agreement Subtrees (ensemble)",
+        "d": "2021-06-01",
+        "m5": "62.6",
+        "m6": "87.1",
+        "m7": "75.0",
+        "m8": "63.2"
+      },
+      {
+        "p": {
+          "name": "Improving Neural RST Parsing Model with Silver Agreement Subtrees",
+          "link": "https://aclanthology.org/2021.naacl-main.127"
+        },
+        "c": "",
+        "n": "Top-down Span-based Parser with Silver Agreement Subtrees",
+        "d": "2021-06-01",
+        "m5": "61.8",
+        "m6": "86.8",
+        "m7": "74.7",
+        "m8": "62.5"
+      },
+      {
+        "p": {
+          "name": "Transition-based Neural RST Parsing with Implicit Syntax Features",
+          "link": "https://aclanthology.org/C18-1047"
+        },
+        "c": "https://github.com/fajri91/NeuralRST",
+        "n": "Transition-based Parser with Implicit Syntax Features",
+        "d": "2018-08-01",
+        "m5": "59.9",
+        "m6": "85.5",
+        "m7": "73.1",
+        "m8": "60.2"
+      },
+      {
+        "p": {
+          "name": "A Novel Discourse Parser Based on Support Vector Machine Classification",
+          "link": "https://aclanthology.org/P09-1075"
+        },
+        "c": "",
+        "n": "HILDA Parser",
+        "d": "2009-08-02",
+        "m5": "54.8",
+        "m6": "83.0",
+        "m7": "68.4",
+        "m8": "55.3"
+      },
+      {
+        "p": {
+          "name": "Top-Down RST Parsing Utilizing Granularity Levels in Documents",
+          "link": "https://doi.org/10.1609/aaai.v34i05.6321"
+        },
+        "c": "https://github.com/nttcslab-nlp/Top-Down-RST-Parser",
+        "n": "Top-down Span-based Parser",
+        "d": "2020-04-03",
+        "m6": "87.0",
+        "m7": "74.6",
+        "m8": "60.0"
+      },
+      {
+        "p": {
+          "name": "A Two-Stage Parsing Method for Text-Level Discourse Analysis",
+          "link": "https://aclanthology.org/P17-2029"
+        },
+        "c": "https://github.com/yizhongw/StageDP",
+        "n": "Two-stage Parser",
+        "d": "2017-07-01",
+        "m6": "86.0",
+        "m7": "72.4",
+        "m8": "59.7"
+      },
+      {
+        "p": {
+          "name": "A Linear-Time Bottom-Up Discourse Parser with Constraints and Post-Editing",
+          "link": "https://aclanthology.org/P14-1048"
+        },
+        "c": "",
+        "n": "Bottom-up Linear-chain CRF-based Parser",
+        "d": "2014-06-01",
+        "m6": "85.7",
+        "m7": "71.0",
+        "m8": "58.2"
+      },
+      {
+        "p": {
+          "name": "CODRA: A Novel Discriminative Framework for Rhetorical Analysis",
+          "link": "https://aclanthology.org/J15-3002"
+        },
+        "c": "",
+        "n": "Two-stage Discourse Parser with a Sliding Window",
+        "d": "2015-09-01",
+        "m6": "83.84",
+        "m7": "68.90",
+        "m8": "55.87"
+      },
+      {
+        "p": {
+          "name": "Two Practical Rhetorical Structure Theory Parsers",
+          "link": "https://aclanthology.org/N15-3001"
+        },
+        "c": "",
+        "n": "Greedy Bottom-up Parser with Syntactic Features",
+        "d": "2015-06-01",
+        "m5": "54.9*",
+        "m6": "82.6*",
+        "m7": "67.1*",
+        "m8": "55.4*"
+      },
+      {
+        "p": {
+          "name": "Empirical comparison of dependency conversions for RST discourse trees",
+          "link": "https://aclanthology.org/W16-3616"
+        },
+        "c": "",
+        "n": "Re-implemented HILDA RST parser",
+        "d": "2016-09-01",
+        "m5": "54.3*",
+        "m6": "82.6*",
+        "m7": "66.6*",
+        "m8": "54.6*"
+      },
+      {
+        "p": {
+          "name": "Discourse Parsing with Attention-based Hierarchical Neural Networks",
+          "link": "https://aclanthology.org/D16-1035"
+        },
+        "c": "",
+        "n": "Discourse Parser with Hierarchical Attention",
+        "d": "2016-11-01",
+        "m5": "50.6*",
+        "m6": "82.2*",
+        "m7": "66.5*",
+        "m8": "51.4*"
+      },
+      {
+        "p": {
+          "name": "Representation Learning for Text-level Discourse Parsing",
+          "link": "https://aclanthology.org/P14-1002"
+        },
+        "c": "https://github.com/jiyfeng/DPLP",
+        "n": "Discourse Parsing from Linear Projection",
+        "d": "2014-06-01",
+        "m5": "57.6*",
+        "m6": "82.0*",
+        "m7": "68.2*",
+        "m8": "57.8*"
+      },
+      {
+        "p": {
+          "name": "Cross-lingual RST Discourse Parsing",
+          "link": "http://arxiv.org/abs/1701.02946v1"
+        },
+        "c": "https://bitbucket.org/chloebt/discourse",
+        "n": "Transition-Based Parser Trained on Cross-Lingual Corpus",
+        "d": "2017-01-11",
+        "m5": "56.0*",
+        "m6": "81.3*",
+        "m7": "68.1*",
+        "m8": "56.3*"
+      },
+      {
+        "p": {
+          "name": "Multi-view and multi-task training of RST discourse parsers",
+          "link": "https://aclanthology.org/C16-1179"
+        },
+        "c": "https://bitbucket.org/chloebt/discourse",
+        "n": "LSTM Sequential Discourse Parser (Braud et al., 2016)",
+        "d": "2016-12-01",
+        "m5": "47.5*",
+        "m6": "79.7*",
+        "m7": "63.6*",
+        "m8": "47.7*"
+      }
+    ]
+  }
+}

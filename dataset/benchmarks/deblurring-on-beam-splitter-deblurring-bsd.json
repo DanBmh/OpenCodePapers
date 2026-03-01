@@ -1,0 +1,88 @@
+{
+  "title": "deblurring-on-beam-splitter-deblurring-bsd",
+  "task-hierarchy": [
+    "Blind Image Deblurring",
+    "Deblurring"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/zzh-tech/ESTRNN"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Learning Truncated Causal History Model for Video Restoration",
+          "link": "https://arxiv.org/abs/2410.03936v2"
+        },
+        "c": "https://github.com/Ascend-Research/Turtle",
+        "n": "Turtle",
+        "d": "2024-10-04",
+        "m1": "33.58"
+      },
+      {
+        "p": {
+          "name": "Cascaded Deep Video Deblurring Using Temporal Sharpness Prior",
+          "link": "https://arxiv.org/abs/2004.02501v1"
+        },
+        "c": "https://github.com/csbhr/CDVD-TSP",
+        "n": "CDVD-TSP",
+        "d": "2020-04-06",
+        "m1": "31.58"
+      },
+      {
+        "p": {
+          "name": "Real-world Video Deblurring: A Benchmark Dataset and An Efficient Recurrent Neural Network",
+          "link": "https://arxiv.org/abs/2106.16028v2"
+        },
+        "c": "https://github.com/zzh-tech/ESTRNN",
+        "n": "ESTRNN",
+        "d": "2021-06-30",
+        "m1": "31.39"
+      },
+      {
+        "p": {
+          "name": "Recurrent Video Deblurring with Blur-Invariant Motion Estimation and Pixel Volumes",
+          "link": "https://arxiv.org/abs/2108.09982v1"
+        },
+        "c": "https://github.com/codeslake/PVDNet",
+        "n": "PVDNet",
+        "d": "2021-08-23",
+        "m1": "31.35"
+      },
+      {
+        "p": {
+          "name": "Deep Video Deblurring for Hand-Held Cameras",
+          "link": "http://openaccess.thecvf.com/content_cvpr_2017/html/Su_Deep_Video_Deblurring_CVPR_2017_paper.html"
+        },
+        "c": "https://github.com/shuochsu/DeepVideoDeblurring",
+        "n": "DBN",
+        "d": "2017-07-01",
+        "m1": "31.21"
+      }
+    ]
+  }
+}

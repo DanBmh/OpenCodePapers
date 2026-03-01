@@ -1,0 +1,97 @@
+{
+  "title": "speech-separation-on-wsj0-5mix",
+  "task-hierarchy": [
+    "Speech Separation"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "SI-SDRi",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Boosting Unknown-number Speaker Separation with Transformer Decoder-based Attractor",
+          "link": "https://arxiv.org/abs/2401.12473v1"
+        },
+        "c": "",
+        "n": "SepTDA",
+        "d": "2024-01-23",
+        "m1": "21.0"
+      },
+      {
+        "p": {
+          "name": "Many-Speakers Single Channel Speech Separation with Optimal Permutation Training",
+          "link": "https://arxiv.org/abs/2104.08955v4"
+        },
+        "c": "https://github.com/shakeddovrat/librimix",
+        "n": "Hungarian PIT",
+        "d": "2021-04-18",
+        "m1": "13.22"
+      },
+      {
+        "p": {
+          "name": "Sequence to Multi-Sequence Learning via Conditional Chain Mapping for Mixture Signals",
+          "link": "https://arxiv.org/abs/2006.14150v1"
+        },
+        "c": "",
+        "n": "Conditional\nTasNet",
+        "d": "2020-06-25",
+        "m1": "11.7"
+      },
+      {
+        "p": {
+          "name": "Toward Speech Separation in The Pre-Cocktail Party Problem with TasTas",
+          "link": "http://arxiv.org/abs/2009.03692v4"
+        },
+        "c": "https://github.com/ShiZiqiang/dual-path-RNNs-DPRNNs-based-speech-separation",
+        "n": "TasTas",
+        "d": "2020-10-28",
+        "m1": "11.14"
+      },
+      {
+        "p": {
+          "name": "Voice Separation with an Unknown Number of Multiple Speakers",
+          "link": "https://arxiv.org/abs/2003.01531v4"
+        },
+        "c": "https://github.com/facebookresearch/svoice",
+        "n": "Gated DualPathRNN",
+        "d": "2020-02-29",
+        "m1": "10.56"
+      },
+      {
+        "p": {
+          "name": "Multi-Decoder DPRNN: High Accuracy Source Counting and Separation",
+          "link": "https://arxiv.org/abs/2011.12022v2"
+        },
+        "c": "https://github.com/asteroid-team/asteroid/tree/master/egs/wsj0-mix-var/Multi-Decoder-DPRNN",
+        "n": "Multi-Decoder DPRNN",
+        "d": "2020-11-24",
+        "m1": "5.9"
+      }
+    ]
+  }
+}

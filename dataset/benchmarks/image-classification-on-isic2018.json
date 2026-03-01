@@ -1,0 +1,84 @@
+{
+  "title": "image-classification-on-isic2018",
+  "task-hierarchy": [
+    "Image Classification"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "UniNet: A Contrastive Learning-guided Unified Framework with Feature Selection for Anomaly Detection",
+          "link": "https://pangdatangtt.github.io/#:~:text=guided%20anomaly%20discrimination.-,Abstract,-Anomaly%20detection%20(AD"
+        },
+        "c": "https://github.com/pangdatangtt/UniNet",
+        "n": "UniNet",
+        "d": "2025-02-28",
+        "m1": "100.0",
+        "m2": "100.0"
+      },
+      {
+        "p": {
+          "name": "HiFuse: Hierarchical Multi-Scale Feature Fusion Network for Medical Image Classification",
+          "link": "https://arxiv.org/abs/2209.10218v1"
+        },
+        "c": "https://github.com/huoxiangzuo/HiFuse",
+        "n": "HiFuse_Base",
+        "d": "2022-09-21",
+        "m1": "84.12"
+      },
+      {
+        "p": {
+          "name": "HiFuse: Hierarchical Multi-Scale Feature Fusion Network for Medical Image Classification",
+          "link": "https://arxiv.org/abs/2209.10218v1"
+        },
+        "c": "https://github.com/huoxiangzuo/HiFuse",
+        "n": "HiFuse_Small",
+        "d": "2022-09-21",
+        "m1": "83.59"
+      },
+      {
+        "p": {
+          "name": "HiFuse: Hierarchical Multi-Scale Feature Fusion Network for Medical Image Classification",
+          "link": "https://arxiv.org/abs/2209.10218v1"
+        },
+        "c": "https://github.com/huoxiangzuo/HiFuse",
+        "n": "HiFuse_Tiny",
+        "d": "2022-09-21",
+        "m1": "82.99",
+        "m2": "72.99"
+      }
+    ]
+  }
+}

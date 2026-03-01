@@ -1,0 +1,67 @@
+{
+  "title": "parameter-efficient-fine-tuning-on-hellaswag",
+  "task-hierarchy": [
+    "parameter-efficient fine-tuning"
+  ],
+  "dataset-info": {
+    "link": "https://rowanzellers.com/hellaswag/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy (% )",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "GIFT-SW: Gaussian noise Injected Fine-Tuning of Salient Weights for LLMs",
+          "link": "https://arxiv.org/abs/2408.15300v1"
+        },
+        "c": "https://github.com/On-Point-RND/GIFT_SW",
+        "n": "LLaMA2-7b",
+        "d": "2024-08-27",
+        "m1": "76.68"
+      },
+      {
+        "p": {
+          "name": "LoRA: Low-Rank Adaptation of Large Language Models",
+          "link": "https://arxiv.org/abs/2106.09685v2"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+        "n": "LLaMA2-7b",
+        "d": "2021-06-17",
+        "m1": "76.67"
+      },
+      {
+        "p": {
+          "name": "DoRA: Weight-Decomposed Low-Rank Adaptation",
+          "link": "https://arxiv.org/abs/2402.09353v6"
+        },
+        "c": "https://github.com/NVlabs/DoRA",
+        "n": "LLaMA2-7b",
+        "d": "2024-02-14",
+        "m1": "76.27"
+      }
+    ]
+  }
+}

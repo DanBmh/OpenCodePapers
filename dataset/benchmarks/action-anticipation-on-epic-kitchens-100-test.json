@@ -1,0 +1,118 @@
+{
+  "title": "action-anticipation-on-epic-kitchens-100-test",
+  "task-hierarchy": [
+    "Action Recognition In Videos",
+    "Action Anticipation"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "recall@5",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Interaction Region Visual Transformer for Egocentric Action Anticipation",
+          "link": "https://arxiv.org/abs/2211.14154v7"
+        },
+        "c": "https://github.com/lahaproject/inavit",
+        "n": "InAViT",
+        "d": "2022-11-25",
+        "m1": "23.75"
+      },
+      {
+        "p": {
+          "name": "Anticipative Video Transformer",
+          "link": "https://arxiv.org/abs/2106.02036v2"
+        },
+        "c": "https://github.com/facebookresearch/AVT",
+        "n": "AVT++",
+        "d": "2021-06-03",
+        "m1": "16.7"
+      },
+      {
+        "p": {
+          "name": "Anticipative Feature Fusion Transformer for Multi-Modal Action Anticipation",
+          "link": "https://arxiv.org/abs/2210.12649v1"
+        },
+        "c": "https://github.com/zeyun-zhong/afft",
+        "n": "AFFT",
+        "d": "2022-10-23",
+        "m1": "14.9"
+      },
+      {
+        "p": {
+          "name": "Predicting the Next Action by Modeling the Abstract Goal",
+          "link": "https://arxiv.org/abs/2209.05044v5"
+        },
+        "c": "",
+        "n": "Abstract Goal",
+        "d": "2022-09-12",
+        "m1": "14.29"
+      },
+      {
+        "p": {
+          "name": "Technical Report: Temporal Aggregate Representations",
+          "link": "https://arxiv.org/abs/2106.03152v2"
+        },
+        "c": "https://github.com/dibschat/tempAgg",
+        "n": "TempAgg",
+        "d": "2021-06-06",
+        "m1": "12.6"
+      },
+      {
+        "p": {
+          "name": "Anticipative Video Transformer",
+          "link": "https://arxiv.org/abs/2106.02036v2"
+        },
+        "c": "https://github.com/facebookresearch/AVT",
+        "n": "AVT+",
+        "d": "2021-06-03",
+        "m1": "12.6"
+      },
+      {
+        "p": {
+          "name": "Rolling-Unrolling LSTMs for Action Anticipation from First-Person Video",
+          "link": "https://arxiv.org/abs/2005.02190v2"
+        },
+        "c": "https://github.com/fpv-iplab/rulstm",
+        "n": "RULSTM",
+        "d": "2020-05-04",
+        "m1": "11.2"
+      },
+      {
+        "p": {
+          "name": "Multi-Modal Temporal Convolutional Network for Anticipating Actions in Egocentric Videos",
+          "link": "https://arxiv.org/abs/2107.09504v1"
+        },
+        "c": "",
+        "n": "TBN",
+        "d": "2021-07-18",
+        "m1": "11.0"
+      }
+    ]
+  }
+}

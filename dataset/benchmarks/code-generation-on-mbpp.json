@@ -1,0 +1,1024 @@
+{
+  "title": "code-generation-on-mbpp",
+  "task-hierarchy": [
+    "Code Generation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/google-research/google-research/tree/master/mbpp"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Execution Guided Line-by-Line Code Generation",
+          "link": "https://arxiv.org/abs/2506.10948v1"
+        },
+        "c": "https://github.com/boazlavon/eg_cfg",
+        "n": "EG-CFG (DeepSeek-V3-0324)",
+        "d": "2025-06-12",
+        "m1": "96.6"
+      },
+      {
+        "p": {
+          "name": "QualityFlow: An Agentic Workflow for Program Synthesis Controlled by LLM Quality Checks",
+          "link": "https://arxiv.org/abs/2501.17167v2"
+        },
+        "c": "",
+        "n": "QualityFlow (Sonnet-3.5)",
+        "d": "2025-01-20",
+        "m1": "94.2"
+      },
+      {
+        "p": {
+          "name": "MapCoder: Multi-Agent Code Generation for Competitive Problem Solving",
+          "link": "https://arxiv.org/abs/2405.11403v1"
+        },
+        "c": "https://github.com/md-ashraful-pramanik/mapcoder",
+        "n": "o1-mini + MapCoder (Hamming.ai)",
+        "d": "2024-05-18",
+        "m1": "93.2"
+      },
+      {
+        "p": {
+          "name": "From Code to Correctness: Closing the Last Mile of Code Generation with Hierarchical Debugging",
+          "link": "https://arxiv.org/abs/2410.01215v2"
+        },
+        "c": "https://github.com/YerbaPage/MGDebugger",
+        "n": "MGDebugger (DeepSeek-V3-0324)",
+        "d": "2024-10-02",
+        "m1": "92.4"
+      },
+      {
+        "p": {
+          "name": "AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation",
+          "link": "https://arxiv.org/abs/2312.13010v3"
+        },
+        "c": "https://github.com/huangd1999/AgentCoder",
+        "n": "GPT-4 + AgentCoder",
+        "d": "2023-12-20",
+        "m1": "91.8"
+      },
+      {
+        "p": {
+          "name": "CODESIM: Multi-Agent Code Generation and Problem Solving through Simulation-Driven Planning and Debugging",
+          "link": "https://arxiv.org/abs/2502.05664v1"
+        },
+        "c": "https://github.com/kagnlp/CodeGenerator",
+        "n": "CodeSim (GPT4o)",
+        "d": "2025-02-08",
+        "m1": "90.7"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Jiutian-大模型",
+        "d": null,
+        "m1": "90.0"
+      },
+      {
+        "p": {
+          "name": "AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation",
+          "link": "https://arxiv.org/abs/2312.13010v3"
+        },
+        "c": "https://github.com/huangd1999/AgentCoder",
+        "n": "GPT-3.5 Turbo (ChatGPT) + AgentCoder",
+        "d": "2023-12-20",
+        "m1": "89.9"
+      },
+      {
+        "p": {
+          "name": "MapCoder: Multi-Agent Code Generation for Competitive Problem Solving",
+          "link": "https://arxiv.org/abs/2405.11403v1"
+        },
+        "c": "https://github.com/md-ashraful-pramanik/mapcoder",
+        "n": "MapCoder (GPT-4o)",
+        "d": "2024-05-18",
+        "m1": "89.7"
+      },
+      {
+        "p": {
+          "name": "How Does Naming Affect LLMs on Code Analysis Tasks?",
+          "link": "https://arxiv.org/abs/2307.12488v5"
+        },
+        "c": "",
+        "n": "GPT-4 (ChatGPT Plus)",
+        "d": "2023-07-24",
+        "m1": "87.5"
+      },
+      {
+        "p": {
+          "name": "The Claude 3 Model Family: Opus, Sonnet, Haiku",
+          "link": "https://www.anthropic.com/news/claude-3-family"
+        },
+        "c": "",
+        "n": "Claude 3 Opus",
+        "d": "2024-03-04",
+        "m1": "86.4"
+      },
+      {
+        "p": {
+          "name": "Planning-Driven Programming: A Large Language Model Programming Workflow",
+          "link": "https://arxiv.org/abs/2411.14503v3"
+        },
+        "c": "https://github.com/you68681/lpw",
+        "n": "LPW (GPT-4o)",
+        "d": "2024-11-21",
+        "m1": "84.8"
+      },
+      {
+        "p": {
+          "name": "SOEN-101: Code Generation by Emulating Software Process Models Using Large Language Model Agents",
+          "link": "https://arxiv.org/abs/2403.15852v2"
+        },
+        "c": "",
+        "n": "GPT-3.5 Turbo + FlowGenScrum + Test",
+        "d": "2024-03-23",
+        "m1": "83.8±0.6"
+      },
+      {
+        "p": {
+          "name": "AFlow: Automating Agentic Workflow Generation",
+          "link": "https://arxiv.org/abs/2410.10762v4"
+        },
+        "c": "https://github.com/geekan/metagpt",
+        "n": "AFlow(GPT-4o-mini)",
+        "d": "2024-10-14",
+        "m1": "83.4"
+      },
+      {
+        "p": {
+          "name": "How Does Naming Affect LLMs on Code Analysis Tasks?",
+          "link": "https://arxiv.org/abs/2307.12488v5"
+        },
+        "c": "",
+        "n": "GPT-3.5 Turbo (ChatGPT)",
+        "d": "2023-07-24",
+        "m1": "83.2"
+      },
+      {
+        "p": {
+          "name": "Execution Guided Line-by-Line Code Generation",
+          "link": "https://arxiv.org/abs/2506.10948v1"
+        },
+        "c": "https://github.com/boazlavon/eg_cfg",
+        "n": "EG-CFG (DeepSeek Coder 1.3b Instruct)",
+        "d": "2025-06-12",
+        "m1": "83.2"
+      },
+      {
+        "p": {
+          "name": "MapCoder: Multi-Agent Code Generation for Competitive Problem Solving",
+          "link": "https://arxiv.org/abs/2405.11403v1"
+        },
+        "c": "https://github.com/md-ashraful-pramanik/mapcoder",
+        "n": "MapCoder (GPT-4)",
+        "d": "2024-05-18",
+        "m1": "83.1"
+      },
+      {
+        "p": {
+          "name": "Language Agent Tree Search Unifies Reasoning Acting and Planning in Language Models",
+          "link": "https://arxiv.org/abs/2310.04406v3"
+        },
+        "c": "https://github.com/lapisrocks/languageagenttreesearch",
+        "n": "o1-mini + Language Agent Tree Search (Hamming.ai)",
+        "d": "2023-10-06",
+        "m1": "82.3"
+      },
+      {
+        "p": {
+          "name": "How Does Naming Affect LLMs on Code Analysis Tasks?",
+          "link": "https://arxiv.org/abs/2307.12488v5"
+        },
+        "c": "",
+        "n": "GPT-4 (Bing Chat)",
+        "d": "2023-07-24",
+        "m1": "82"
+      },
+      {
+        "p": {
+          "name": "Language Agent Tree Search Unifies Reasoning Acting and Planning in Language Models",
+          "link": "https://arxiv.org/abs/2310.04406v3"
+        },
+        "c": "https://github.com/lapisrocks/languageagenttreesearch",
+        "n": "GPT-3.5 Turbo + Language Agent Tree Search",
+        "d": "2023-10-06",
+        "m1": "81.1"
+      },
+      {
+        "p": {
+          "name": "From Code to Correctness: Closing the Last Mile of Code Generation with Hierarchical Debugging",
+          "link": "https://arxiv.org/abs/2410.01215v2"
+        },
+        "c": "https://github.com/YerbaPage/MGDebugger",
+        "n": "MGDebugger (CodeQwen1.5)",
+        "d": "2024-10-02",
+        "m1": "80.8"
+      },
+      {
+        "p": {
+          "name": "The Claude 3 Model Family: Opus, Sonnet, Haiku",
+          "link": "https://www.anthropic.com/news/claude-3-family"
+        },
+        "c": "",
+        "n": "Claude 3 Haiku",
+        "d": "2024-03-04",
+        "m1": "80.4"
+      },
+      {
+        "p": {
+          "name": "Teaching Large Language Models to Self-Debug",
+          "link": "https://arxiv.org/abs/2304.05128v2"
+        },
+        "c": "https://github.com/amazon-science/SDFeedback",
+        "n": "GPT-4 (Self-Debugging with unit tests + trace)",
+        "d": "2023-04-11",
+        "m1": "80.2"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-Coder: When the Large Language Model Meets Programming -- The Rise of Code Intelligence",
+          "link": "https://arxiv.org/abs/2401.14196v2"
+        },
+        "c": "https://github.com/deepseek-ai/DeepSeek-Coder",
+        "n": "GPT-4 (few-shot)",
+        "d": "2024-01-25",
+        "m1": "80"
+      },
+      {
+        "p": {
+          "name": "The Claude 3 Model Family: Opus, Sonnet, Haiku",
+          "link": "https://www.anthropic.com/news/claude-3-family"
+        },
+        "c": "",
+        "n": "Claude 3 Sonnet",
+        "d": "2024-03-04",
+        "m1": "79.4"
+      },
+      {
+        "p": {
+          "name": "How Does Naming Affect LLMs on Code Analysis Tasks?",
+          "link": "https://arxiv.org/abs/2307.12488v5"
+        },
+        "c": "",
+        "n": "Bard (PaLM 2/chat-bison-001)",
+        "d": "2023-07-24",
+        "m1": "76.2"
+      },
+      {
+        "p": {
+          "name": "Teaching Large Language Models to Self-Debug",
+          "link": "https://arxiv.org/abs/2304.05128v2"
+        },
+        "c": "https://github.com/amazon-science/SDFeedback",
+        "n": "GPT-3.5 Turbo (Self-Debugging with unit tests + trace)",
+        "d": "2023-04-11",
+        "m1": "72.8"
+      },
+      {
+        "p": {
+          "name": "How Does Naming Affect LLMs on Code Analysis Tasks?",
+          "link": "https://arxiv.org/abs/2307.12488v5"
+        },
+        "c": "",
+        "n": "Claude",
+        "d": "2023-07-24",
+        "m1": "71.4"
+      },
+      {
+        "p": {
+          "name": "Teaching Large Language Models to Self-Debug",
+          "link": "https://arxiv.org/abs/2304.05128v2"
+        },
+        "c": "https://github.com/amazon-science/SDFeedback",
+        "n": "code-davinci-002 175B (Self-Debugging with unit tests + trace)",
+        "d": "2023-04-11",
+        "m1": "70.8"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-Coder: When the Large Language Model Meets Programming -- The Rise of Code Intelligence",
+          "link": "https://arxiv.org/abs/2401.14196v2"
+        },
+        "c": "https://github.com/deepseek-ai/DeepSeek-Coder",
+        "n": "GPT-3.5 Turbo (few-shot)",
+        "d": "2024-01-25",
+        "m1": "70.8"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-Coder: When the Large Language Model Meets Programming -- The Rise of Code Intelligence",
+          "link": "https://arxiv.org/abs/2401.14196v2"
+        },
+        "c": "https://github.com/deepseek-ai/DeepSeek-Coder",
+        "n": "DeepSeek-Coder-Instruct 33B (few-shot)",
+        "d": "2024-01-25",
+        "m1": "70"
+      },
+      {
+        "p": {
+          "name": "INTERVENOR: Prompting the Coding Ability of Large Language Models with the Interactive Chain of Repair",
+          "link": "https://arxiv.org/abs/2311.09868v5"
+        },
+        "c": "https://github.com/neuir/intervenor",
+        "n": "GPT-3.5 Turbo + INTERVENOR",
+        "d": "2023-11-16",
+        "m1": "69.8"
+      },
+      {
+        "p": {
+          "name": "LEVER: Learning to Verify Language-to-Code Generation with Execution",
+          "link": "https://arxiv.org/abs/2302.08468v3"
+        },
+        "c": "https://github.com/niansong1996/lever",
+        "n": "code-davinci-002 175B + LEVER",
+        "d": "2023-02-16",
+        "m1": "68.9"
+      },
+      {
+        "p": {
+          "name": "CodeT: Code Generation with Generated Tests",
+          "link": "https://arxiv.org/abs/2207.10397v2"
+        },
+        "c": "https://github.com/microsoft/codet",
+        "n": "code-davinci-002 175B + CodeT",
+        "d": "2022-07-21",
+        "m1": "67.7"
+      },
+      {
+        "p": {
+          "name": "Teaching Large Language Models to Self-Debug",
+          "link": "https://arxiv.org/abs/2304.05128v2"
+        },
+        "c": "https://github.com/amazon-science/SDFeedback",
+        "n": "GPT-3.5 Turbo (3-shot)",
+        "d": "2023-04-11",
+        "m1": "67.6"
+      },
+      {
+        "p": {
+          "name": "Coder Reviewer Reranking for Code Generation",
+          "link": "https://arxiv.org/abs/2211.16490v1"
+        },
+        "c": "https://github.com/facebookresearch/coder_reviewer_reranking",
+        "n": "code-davinci-002 175B + Reviewer",
+        "d": "2022-11-29",
+        "m1": "66.9"
+      },
+      {
+        "p": {
+          "name": "Coder Reviewer Reranking for Code Generation",
+          "link": "https://arxiv.org/abs/2211.16490v1"
+        },
+        "c": "https://github.com/facebookresearch/coder_reviewer_reranking",
+        "n": "code-davinci-002 175B + Coder-Reviewer",
+        "d": "2022-11-29",
+        "m1": "66.4"
+      },
+      {
+        "p": {
+          "name": "StarCoder 2 and The Stack v2: The Next Generation",
+          "link": "https://arxiv.org/abs/2402.19173v1"
+        },
+        "c": "https://github.com/bigcode-project/starcoder2",
+        "n": "StarCoder2-15B",
+        "d": "2024-02-29",
+        "m1": "66.2"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-Coder: When the Large Language Model Meets Programming -- The Rise of Code Intelligence",
+          "link": "https://arxiv.org/abs/2401.14196v2"
+        },
+        "c": "https://github.com/deepseek-ai/DeepSeek-Coder",
+        "n": "DeepSeek-Coder-Base 33B (few-shot)",
+        "d": "2024-01-25",
+        "m1": "66"
+      },
+      {
+        "p": {
+          "name": "Code Llama: Open Foundation Models for Code",
+          "link": "https://arxiv.org/abs/2308.12950v3"
+        },
+        "c": "https://github.com/facebookresearch/codellama",
+        "n": "Code Llama - Python 70B (3-shot)",
+        "d": "2023-08-24",
+        "m1": "65.5"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-Coder: When the Large Language Model Meets Programming -- The Rise of Code Intelligence",
+          "link": "https://arxiv.org/abs/2401.14196v2"
+        },
+        "c": "https://github.com/deepseek-ai/DeepSeek-Coder",
+        "n": "DeepSeek-Coder-Instruct 6.7B (few-shot)",
+        "d": "2024-01-25",
+        "m1": "65.4"
+      },
+      {
+        "p": {
+          "name": "Coder Reviewer Reranking for Code Generation",
+          "link": "https://arxiv.org/abs/2211.16490v1"
+        },
+        "c": "https://github.com/facebookresearch/coder_reviewer_reranking",
+        "n": "code-davinci-002 175B + MBR-Exec",
+        "d": "2022-11-29",
+        "m1": "63"
+      },
+      {
+        "p": {
+          "name": "Code Llama: Open Foundation Models for Code",
+          "link": "https://arxiv.org/abs/2308.12950v3"
+        },
+        "c": "https://github.com/facebookresearch/codellama",
+        "n": "Code Llama 70B (3-shot)",
+        "d": "2023-08-24",
+        "m1": "62.4"
+      },
+      {
+        "p": {
+          "name": "Code Llama: Open Foundation Models for Code",
+          "link": "https://arxiv.org/abs/2308.12950v3"
+        },
+        "c": "https://github.com/facebookresearch/codellama",
+        "n": "Code Llama - Instruct 70B (3-shot)",
+        "d": "2023-08-24",
+        "m1": "62.2"
+      },
+      {
+        "p": {
+          "name": "CodeT: Code Generation with Generated Tests",
+          "link": "https://arxiv.org/abs/2207.10397v2"
+        },
+        "c": "https://github.com/microsoft/codet",
+        "n": "code-davinci-001 175B + CodeT",
+        "d": "2022-07-21",
+        "m1": "61.9"
+      },
+      {
+        "p": {
+          "name": "Teaching Large Language Models to Self-Debug",
+          "link": "https://arxiv.org/abs/2304.05128v2"
+        },
+        "c": "https://github.com/amazon-science/SDFeedback",
+        "n": "code-davinci-002 175B (3-shot)",
+        "d": "2023-04-11",
+        "m1": "61.4"
+      },
+      {
+        "p": {
+          "name": "Code Llama: Open Foundation Models for Code",
+          "link": "https://arxiv.org/abs/2308.12950v3"
+        },
+        "c": "https://github.com/facebookresearch/codellama",
+        "n": "Unnatural Code Llama 34B (3-shot)",
+        "d": "2023-08-24",
+        "m1": "61.2"
+      },
+      {
+        "p": {
+          "name": "Mixtral of Experts",
+          "link": "https://arxiv.org/abs/2401.04088v1"
+        },
+        "c": "https://github.com/jingyaogong/minimind",
+        "n": "Mixtral 8x7B (3-shot)",
+        "d": "2024-01-08",
+        "m1": "60.7"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-Coder: When the Large Language Model Meets Programming -- The Rise of Code Intelligence",
+          "link": "https://arxiv.org/abs/2401.14196v2"
+        },
+        "c": "https://github.com/deepseek-ai/DeepSeek-Coder",
+        "n": "DeepSeek-Coder-Base 6.7B (few-shot)",
+        "d": "2024-01-25",
+        "m1": "60.6"
+      },
+      {
+        "p": {
+          "name": "Natural Language to Code Translation with Execution",
+          "link": "https://arxiv.org/abs/2204.11454v2"
+        },
+        "c": "https://github.com/facebookresearch/mbr-exec",
+        "n": "code-davinci-001 175B + MBR-Exec",
+        "d": "2022-04-25",
+        "m1": "58.2"
+      },
+      {
+        "p": {
+          "name": "Code Llama: Open Foundation Models for Code",
+          "link": "https://arxiv.org/abs/2308.12950v3"
+        },
+        "c": "https://github.com/facebookresearch/codellama",
+        "n": "Code Llama - Instruct 34B (3-shot)",
+        "d": "2023-08-24",
+        "m1": "57"
+      },
+      {
+        "p": {
+          "name": "Code Llama: Open Foundation Models for Code",
+          "link": "https://arxiv.org/abs/2308.12950v3"
+        },
+        "c": "https://github.com/facebookresearch/codellama",
+        "n": "Code Llama - Python 34B (3-shot)",
+        "d": "2023-08-24",
+        "m1": "56.2"
+      },
+      {
+        "p": {
+          "name": "CodeT: Code Generation with Generated Tests",
+          "link": "https://arxiv.org/abs/2207.10397v2"
+        },
+        "c": "https://github.com/microsoft/codet",
+        "n": "code-cushman-001 12B (CodeT)",
+        "d": "2022-07-21",
+        "m1": "55.4"
+      },
+      {
+        "p": {
+          "name": "Code Llama: Open Foundation Models for Code",
+          "link": "https://arxiv.org/abs/2308.12950v3"
+        },
+        "c": "https://github.com/facebookresearch/codellama",
+        "n": "Code Llama 34B (3-shot)",
+        "d": "2023-08-24",
+        "m1": "55"
+      },
+      {
+        "p": {
+          "name": "Teaching Large Language Models to Self-Debug",
+          "link": "https://arxiv.org/abs/2304.05128v2"
+        },
+        "c": "https://github.com/amazon-science/SDFeedback",
+        "n": "StarCoder 15.5B (Self-Debugging with unit tests + trace)",
+        "d": "2023-04-11",
+        "m1": "53.2"
+      },
+      {
+        "p": {
+          "name": "StarCoder: may the source be with you!",
+          "link": "https://arxiv.org/abs/2305.06161v2"
+        },
+        "c": "https://github.com/bigcode-project/starcoder",
+        "n": "StarCoder 15.5B",
+        "d": "2023-05-09",
+        "m1": "52.7"
+      },
+      {
+        "p": {
+          "name": "Code Llama: Open Foundation Models for Code",
+          "link": "https://arxiv.org/abs/2308.12950v3"
+        },
+        "c": "https://github.com/facebookresearch/codellama",
+        "n": "GPT-3.5 Turbo",
+        "d": "2023-08-24",
+        "m1": "52.2"
+      },
+      {
+        "p": {
+          "name": "WizardCoder: Empowering Code Large Language Models with Evol-Instruct",
+          "link": "https://arxiv.org/abs/2306.08568v1"
+        },
+        "c": "https://github.com/nlpxucan/wizardlm",
+        "n": "WizardCoder 15B",
+        "d": "2023-06-14",
+        "m1": "51.8"
+      },
+      {
+        "p": {
+          "name": "PaLM 2 Technical Report",
+          "link": "https://arxiv.org/abs/2305.10403v3"
+        },
+        "c": "https://github.com/eternityyw/tram-benchmark",
+        "n": "PaLM 2-S* (few-shot)",
+        "d": "2023-05-17",
+        "m1": "50"
+      },
+      {
+        "p": {
+          "name": "CodeT: Code Generation with Generated Tests",
+          "link": "https://arxiv.org/abs/2207.10397v2"
+        },
+        "c": "https://github.com/microsoft/codet",
+        "n": "CodeGen-Mono 16B + CodeT",
+        "d": "2022-07-21",
+        "m1": "49.5"
+      },
+      {
+        "p": {
+          "name": "Code Llama: Open Foundation Models for Code",
+          "link": "https://arxiv.org/abs/2308.12950v3"
+        },
+        "c": "https://github.com/facebookresearch/codellama",
+        "n": "Code Llama - Instruct 13B (3-shot)",
+        "d": "2023-08-24",
+        "m1": "49.4"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-Coder: When the Large Language Model Meets Programming -- The Rise of Code Intelligence",
+          "link": "https://arxiv.org/abs/2401.14196v2"
+        },
+        "c": "https://github.com/deepseek-ai/DeepSeek-Coder",
+        "n": "DeepSeek-Coder-Instruct 1.3B (few-shot)",
+        "d": "2024-01-25",
+        "m1": "49.4"
+      },
+      {
+        "p": {
+          "name": "StarCoder: may the source be with you!",
+          "link": "https://arxiv.org/abs/2305.06161v2"
+        },
+        "c": "https://github.com/bigcode-project/starcoder",
+        "n": "StarCoderBase 15.5B",
+        "d": "2023-05-09",
+        "m1": "49"
+      },
+      {
+        "p": {
+          "name": "Code Llama: Open Foundation Models for Code",
+          "link": "https://arxiv.org/abs/2308.12950v3"
+        },
+        "c": "https://github.com/facebookresearch/codellama",
+        "n": "Code Llama - Python 13B (3-shot)",
+        "d": "2023-08-24",
+        "m1": "49"
+      },
+      {
+        "p": {
+          "name": "Parameter-Efficient Sparsity Crafting from Dense to Mixture-of-Experts for Instruction Tuning on General Tasks",
+          "link": "https://arxiv.org/abs/2401.02731v4"
+        },
+        "c": "https://github.com/wuhy68/parameter-efficient-moe",
+        "n": "Qwen2idae-16x14B (4-shot)",
+        "d": "2024-01-05",
+        "m1": "48.6"
+      },
+      {
+        "p": {
+          "name": "Coder Reviewer Reranking for Code Generation",
+          "link": "https://arxiv.org/abs/2211.16490v1"
+        },
+        "c": "https://github.com/facebookresearch/coder_reviewer_reranking",
+        "n": "code-cushman-001 12B + MBR-Exec",
+        "d": "2022-11-29",
+        "m1": "48.3"
+      },
+      {
+        "p": {
+          "name": "Code Llama: Open Foundation Models for Code",
+          "link": "https://arxiv.org/abs/2308.12950v3"
+        },
+        "c": "https://github.com/facebookresearch/codellama",
+        "n": "Code Llama - Python 7B (3-shot)",
+        "d": "2023-08-24",
+        "m1": "47.6"
+      },
+      {
+        "p": {
+          "name": "Mistral 7B",
+          "link": "https://arxiv.org/abs/2310.06825v1"
+        },
+        "c": "https://github.com/mistralai/mistral-src",
+        "n": "Mistral 7B (3-shot)",
+        "d": "2023-10-10",
+        "m1": "47.5"
+      },
+      {
+        "p": {
+          "name": "Coder Reviewer Reranking for Code Generation",
+          "link": "https://arxiv.org/abs/2211.16490v1"
+        },
+        "c": "https://github.com/facebookresearch/coder_reviewer_reranking",
+        "n": "CodeGen 16B + MBR-Exec",
+        "d": "2022-11-29",
+        "m1": "47.3"
+      },
+      {
+        "p": {
+          "name": "Teaching Large Language Models to Self-Debug",
+          "link": "https://arxiv.org/abs/2304.05128v2"
+        },
+        "c": "https://github.com/amazon-science/SDFeedback",
+        "n": "StarCoder 15.5B (3-shot)",
+        "d": "2023-04-11",
+        "m1": "47.2"
+      },
+      {
+        "p": {
+          "name": "PaLM: Scaling Language Modeling with Pathways",
+          "link": "https://arxiv.org/abs/2204.02311v5"
+        },
+        "c": "https://github.com/lucidrains/CoCa-pytorch",
+        "n": "PaLM Coder 540B",
+        "d": "2022-04-05",
+        "m1": "47"
+      },
+      {
+        "p": {
+          "name": "Code Llama: Open Foundation Models for Code",
+          "link": "https://arxiv.org/abs/2308.12950v3"
+        },
+        "c": "https://github.com/facebookresearch/codellama",
+        "n": "Code Llama 13B (3-shot)",
+        "d": "2023-08-24",
+        "m1": "47"
+      },
+      {
+        "p": {
+          "name": "Coder Reviewer Reranking for Code Generation",
+          "link": "https://arxiv.org/abs/2211.16490v1"
+        },
+        "c": "https://github.com/facebookresearch/coder_reviewer_reranking",
+        "n": "CodeGen 16B + Coder-Reviewer",
+        "d": "2022-11-29",
+        "m1": "46.2"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-Coder: When the Large Language Model Meets Programming -- The Rise of Code Intelligence",
+          "link": "https://arxiv.org/abs/2401.14196v2"
+        },
+        "c": "https://github.com/deepseek-ai/DeepSeek-Coder",
+        "n": "DeepSeek-Coder-Base 1.3B (few-shot)",
+        "d": "2024-01-25",
+        "m1": "46.2"
+      },
+      {
+        "p": {
+          "name": "INTERVENOR: Prompting the Coding Ability of Large Language Models with the Interactive Chain of Repair",
+          "link": "https://arxiv.org/abs/2311.09868v5"
+        },
+        "c": "https://github.com/neuir/intervenor",
+        "n": "GPT-3.5 Turbo (few-shot)",
+        "d": "2023-11-16",
+        "m1": "45.4"
+      },
+      {
+        "p": {
+          "name": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+          "link": "https://arxiv.org/abs/2307.09288v2"
+        },
+        "c": "https://github.com/facebookresearch/llama",
+        "n": "Llama 2 70B (zero-shot)",
+        "d": "2023-07-18",
+        "m1": "45"
+      },
+      {
+        "p": {
+          "name": "Code Llama: Open Foundation Models for Code",
+          "link": "https://arxiv.org/abs/2308.12950v3"
+        },
+        "c": "https://github.com/facebookresearch/codellama",
+        "n": "Code Llama - Instruct 7B (3-shot)",
+        "d": "2023-08-24",
+        "m1": "44.4"
+      },
+      {
+        "p": {
+          "name": "Coder Reviewer Reranking for Code Generation",
+          "link": "https://arxiv.org/abs/2211.16490v1"
+        },
+        "c": "https://github.com/facebookresearch/coder_reviewer_reranking",
+        "n": "CodeGen 16B + Reviewer",
+        "d": "2022-11-29",
+        "m1": "44.1"
+      },
+      {
+        "p": {
+          "name": "Textbooks Are All You Need II: phi-1.5 technical report",
+          "link": "https://arxiv.org/abs/2309.05463v1"
+        },
+        "c": "https://github.com/knowlab/bi-weekly-paper-presentation",
+        "n": "phi-1.5-web 1.3B",
+        "d": "2023-09-11",
+        "m1": "43.5"
+      },
+      {
+        "p": {
+          "name": "Branch-Train-MiX: Mixing Expert LLMs into a Mixture-of-Experts LLM",
+          "link": "https://arxiv.org/abs/2403.07816v1"
+        },
+        "c": "https://github.com/Leeroo-AI/mergoo",
+        "n": "Branch-Train-Merge 4x7B (top-2)",
+        "d": "2024-03-12",
+        "m1": "42.6"
+      },
+      {
+        "p": {
+          "name": "Code Llama: Open Foundation Models for Code",
+          "link": "https://arxiv.org/abs/2308.12950v3"
+        },
+        "c": "https://github.com/facebookresearch/codellama",
+        "n": "Code Llama 7B (3-shot)",
+        "d": "2023-08-24",
+        "m1": "41.4"
+      },
+      {
+        "p": {
+          "name": "Parameter-Efficient Sparsity Crafting from Dense to Mixture-of-Experts for Instruction Tuning on General Tasks",
+          "link": "https://arxiv.org/abs/2401.02731v4"
+        },
+        "c": "https://github.com/wuhy68/parameter-efficient-moe",
+        "n": "Camelidae-8×34B (4-shot)",
+        "d": "2024-01-05",
+        "m1": "41.4"
+      },
+      {
+        "p": {
+          "name": "INTERVENOR: Prompting the Coding Ability of Large Language Models with the Interactive Chain of Repair",
+          "link": "https://arxiv.org/abs/2311.09868v5"
+        },
+        "c": "https://github.com/neuir/intervenor",
+        "n": "GPT-3.5 Turbo (0-shot)",
+        "d": "2023-11-16",
+        "m1": "39.8"
+      },
+      {
+        "p": {
+          "name": "Branch-Train-MiX: Mixing Expert LLMs into a Mixture-of-Experts LLM",
+          "link": "https://arxiv.org/abs/2403.07816v1"
+        },
+        "c": "https://github.com/Leeroo-AI/mergoo",
+        "n": "Branch-Train-MiX 4x7B (sampling top-2 experts)",
+        "d": "2024-03-12",
+        "m1": "39.4"
+      },
+      {
+        "p": {
+          "name": "LLaMA: Open and Efficient Foundation Language Models",
+          "link": "https://arxiv.org/abs/2302.13971v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LLaMA 65B (0-shot)",
+        "d": "2023-02-27",
+        "m1": "37.7"
+      },
+      {
+        "p": {
+          "name": "PaLM: Scaling Language Modeling with Pathways",
+          "link": "https://arxiv.org/abs/2204.02311v5"
+        },
+        "c": "https://github.com/lucidrains/CoCa-pytorch",
+        "n": "PaLM 540B",
+        "d": "2022-04-05",
+        "m1": "36.8"
+      },
+      {
+        "p": {
+          "name": "StarCoder: may the source be with you!",
+          "link": "https://arxiv.org/abs/2305.06161v2"
+        },
+        "c": "https://github.com/bigcode-project/starcoder",
+        "n": "SantaCoder 1.1B",
+        "d": "2023-05-09",
+        "m1": "35"
+      },
+      {
+        "p": {
+          "name": "CodeT: Code Generation with Generated Tests",
+          "link": "https://arxiv.org/abs/2207.10397v2"
+        },
+        "c": "https://github.com/microsoft/codet",
+        "n": "InCoder 6.7B + CodeT",
+        "d": "2022-07-21",
+        "m1": "34.4"
+      },
+      {
+        "p": {
+          "name": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+          "link": "https://arxiv.org/abs/2307.09288v2"
+        },
+        "c": "https://github.com/facebookresearch/llama",
+        "n": "Llama 2 34B (0-shot)",
+        "d": "2023-07-18",
+        "m1": "33"
+      },
+      {
+        "p": {
+          "name": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+          "link": "https://arxiv.org/abs/2307.09288v2"
+        },
+        "c": "https://github.com/facebookresearch/llama",
+        "n": "Llama 2 13B (0-shot)",
+        "d": "2023-07-18",
+        "m1": "30.6"
+      },
+      {
+        "p": {
+          "name": "LLaMA: Open and Efficient Foundation Language Models",
+          "link": "https://arxiv.org/abs/2302.13971v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LLaMA 33B (0-shot)",
+        "d": "2023-02-27",
+        "m1": "30.2"
+      },
+      {
+        "p": {
+          "name": "Coder Reviewer Reranking for Code Generation",
+          "link": "https://arxiv.org/abs/2211.16490v1"
+        },
+        "c": "https://github.com/facebookresearch/coder_reviewer_reranking",
+        "n": "InCoder 6.7B + MBR-Exec",
+        "d": "2022-11-29",
+        "m1": "26.7"
+      },
+      {
+        "p": {
+          "name": "Coder Reviewer Reranking for Code Generation",
+          "link": "https://arxiv.org/abs/2211.16490v1"
+        },
+        "c": "https://github.com/facebookresearch/coder_reviewer_reranking",
+        "n": "InCoder 6.7B + Coder-Reviewer",
+        "d": "2022-11-29",
+        "m1": "26.1"
+      },
+      {
+        "p": {
+          "name": "Coder Reviewer Reranking for Code Generation",
+          "link": "https://arxiv.org/abs/2211.16490v1"
+        },
+        "c": "https://github.com/facebookresearch/coder_reviewer_reranking",
+        "n": "InCoder 6.7B + Reviewer",
+        "d": "2022-11-29",
+        "m1": "24.4"
+      },
+      {
+        "p": {
+          "name": "CodeGeeX: A Pre-Trained Model for Code Generation with Multilingual Benchmarking on HumanEval-X",
+          "link": "https://arxiv.org/abs/2303.17568v2"
+        },
+        "c": "https://github.com/THUDM/CodeGeeX",
+        "n": "CodeGeeX-13B",
+        "d": "2023-03-30",
+        "m1": "24.4"
+      },
+      {
+        "p": {
+          "name": "LLaMA: Open and Efficient Foundation Language Models",
+          "link": "https://arxiv.org/abs/2302.13971v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LLaMA 13B (0-shot)",
+        "d": "2023-02-27",
+        "m1": "22"
+      },
+      {
+        "p": {
+          "name": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+          "link": "https://arxiv.org/abs/2307.09288v2"
+        },
+        "c": "https://github.com/facebookresearch/llama",
+        "n": "Llama 2 7B (0-shot)",
+        "d": "2023-07-18",
+        "m1": "20.8"
+      },
+      {
+        "p": {
+          "name": "InCoder: A Generative Model for Code Infilling and Synthesis",
+          "link": "https://arxiv.org/abs/2204.05999v3"
+        },
+        "c": "https://github.com/dpfried/incoder",
+        "n": "InCoder 6.7B (0-shot)",
+        "d": "2022-04-12",
+        "m1": "19.4"
+      },
+      {
+        "p": {
+          "name": "LLaMA: Open and Efficient Foundation Language Models",
+          "link": "https://arxiv.org/abs/2302.13971v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LLaMA 7B (0-shot)",
+        "d": "2023-02-27",
+        "m1": "17.7"
+      }
+    ]
+  }
+}

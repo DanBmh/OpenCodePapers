@@ -1,0 +1,169 @@
+{
+  "title": "image-super-resolution-on-ixi",
+  "task-hierarchy": [
+    "Image Super-Resolution"
+  ],
+  "dataset-info": {
+    "link": "https://brain-development.org/ixi-dataset/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR 2x T2w",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "PSNR 4x T2w",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "SSIM 4x T2w",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "SSIM for 2x T2w",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Multimodal Multi-Head Convolutional Attention with Various Kernel Sizes for Medical Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2204.04218v3"
+        },
+        "c": "https://github.com/lilygeorgescu/mhca",
+        "n": "EDSR+MMHCA",
+        "d": "2022-04-08",
+        "m1": "40.43",
+        "m2": "32.70",
+        "m3": "0.9469",
+        "m4": "0.9877"
+      },
+      {
+        "p": {
+          "name": "MR Image Super-Resolution With Squeeze and Excitation Reasoning Attention Network",
+          "link": "http://openaccess.thecvf.com//content/CVPR2021/html/Zhang_MR_Image_Super-Resolution_With_Squeeze_and_Excitation_Reasoning_Attention_Network_CVPR_2021_paper.html"
+        },
+        "c": "",
+        "n": "SERAN",
+        "d": "2021-06-19",
+        "m1": "40.30",
+        "m2": "32.62",
+        "m3": "0.9472",
+        "m4": "0.9874"
+      },
+      {
+        "p": {
+          "name": "Channel Splitting Network for Single MR Image Super-Resolution",
+          "link": "https://arxiv.org/abs/1810.06453v3"
+        },
+        "c": "",
+        "n": "CSN",
+        "d": "2018-10-15",
+        "m1": "39.71",
+        "m2": "32.05",
+        "m3": "0.9413",
+        "m4": "0.9863"
+      },
+      {
+        "p": {
+          "name": "Fast and Accurate Single Image Super-Resolution via Information Distillation Network",
+          "link": "http://arxiv.org/abs/1803.09454v1"
+        },
+        "c": "https://github.com/Zheng222/IDN-Caffe",
+        "n": "IDN",
+        "d": "2018-03-26",
+        "m1": "39.09",
+        "m2": "31.37",
+        "m3": "0.9312",
+        "m4": "0.9846"
+      },
+      {
+        "p": {
+          "name": "Residual Dense Network for Image Super-Resolution",
+          "link": "http://arxiv.org/abs/1802.08797v2"
+        },
+        "c": "https://github.com/idealo/image-super-resolution",
+        "n": "RDN",
+        "d": "2018-02-24",
+        "m1": "38.75",
+        "m2": "31.45",
+        "m3": "0.9324",
+        "m4": "0.9838"
+      },
+      {
+        "p": {
+          "name": "Convolutional Neural Networks with Intermediate Loss for 3D Super-Resolution of CT and MRI Scans",
+          "link": "https://arxiv.org/abs/2001.01330v4"
+        },
+        "c": "https://github.com/lilygeorgescu/3d-super-res-cnn",
+        "n": "CNN-IL",
+        "d": "2020-01-05",
+        "m1": "38.67",
+        "m2": "30.57",
+        "m3": "0.9210",
+        "m4": "0.9837"
+      },
+      {
+        "p": {
+          "name": "Accurate Image Super-Resolution Using Very Deep Convolutional Networks",
+          "link": "http://arxiv.org/abs/1511.04587v2"
+        },
+        "c": "https://github.com/Lornatang/VDSR-PyTorch",
+        "n": "VDSR",
+        "d": "2015-11-14",
+        "m1": "38.65",
+        "m2": "30.79",
+        "m3": "0.9240",
+        "m4": "0.9836"
+      },
+      {
+        "p": {
+          "name": "Image Super-Resolution Using Deep Convolutional Networks",
+          "link": "http://arxiv.org/abs/1501.00092v3"
+        },
+        "c": "https://github.com/nagadomi/waifu2x",
+        "n": "SRCNN",
+        "d": "2014-12-31",
+        "m1": "37.32",
+        "m2": "29.69",
+        "m3": "0.9052",
+        "m4": "0.9796"
+      },
+      {
+        "p": {
+          "name": "Task Transformer Network for Joint MRI Reconstruction and Super-Resolution",
+          "link": "https://arxiv.org/abs/2106.06742v3"
+        },
+        "c": "https://github.com/chunmeifeng/T2Net",
+        "n": "T2Net",
+        "d": "2021-06-12",
+        "m1": "29.38",
+        "m2": "28.66",
+        "m3": "0.8500",
+        "m4": "0.8720"
+      }
+    ]
+  }
+}

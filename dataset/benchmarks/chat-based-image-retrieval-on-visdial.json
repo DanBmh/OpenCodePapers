@@ -1,0 +1,81 @@
+{
+  "title": "chat-based-image-retrieval-on-visdial",
+  "task-hierarchy": [
+    "Image Retrieval",
+    "Chat-based Image Retrieval"
+  ],
+  "dataset-info": {
+    "link": "https://visualdialog.org/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Recall@10 on 1 rounds",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Recall@10 on 2 rounds",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Recall@10 on 3 rounds",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Hits@10 on 10 Round",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "ChatGPT & BLIP2",
+        "d": null,
+        "m1": "70",
+        "m2": "73.5",
+        "m3": "75.75"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Human & BLIP2",
+        "d": null,
+        "m1": "67",
+        "m2": "70",
+        "m3": "71.8"
+      },
+      {
+        "p": {
+          "name": "ImageScope: Unifying Language-Guided Image Retrieval via Large Multimodal Model Collective Reasoning",
+          "link": "https://arxiv.org/abs/2503.10166v1"
+        },
+        "c": "https://github.com/pengfei-luo/ImageScope",
+        "n": "ImageScope (CLIP-ViT-L/14)",
+        "d": "2025-03-13",
+        "m4": "79.89"
+      }
+    ]
+  }
+}

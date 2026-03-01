@@ -1,0 +1,293 @@
+{
+  "title": "text-to-image-generation-on-geneval",
+  "task-hierarchy": [
+    "Text-to-Image Generation"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2310.11513"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Overall",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Single Obj.",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Two Obj.",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Color Attri.",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Colors",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "Counting",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "Position",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Flow-GRPO: Training Flow Matching Models via Online RL",
+          "link": "https://arxiv.org/abs/2505.05470v2"
+        },
+        "c": "https://github.com/yifan123/flow_grpo",
+        "n": "SD3.5-Medium+Flow-GRPO",
+        "d": "2025-05-08",
+        "m1": "0.95"
+      },
+      {
+        "p": {
+          "name": "UniWorld-V1: High-Resolution Semantic Encoders for Unified Visual Understanding and Generation",
+          "link": "https://arxiv.org/abs/2506.03147v3"
+        },
+        "c": "https://github.com/PKU-YuanGroup/UniWorld-V1",
+        "n": "UniWorld-V1 (Rewrite)",
+        "d": "2025-06-03",
+        "m1": "0.84",
+        "m2": "0.98",
+        "m3": "0.93",
+        "m4": "0.71",
+        "m5": "0.90",
+        "m6": "0.81",
+        "m7": "0.74"
+      },
+      {
+        "p": {
+          "name": "MindOmni: Unleashing Reasoning Generation in Vision Language Models with RGPO",
+          "link": "https://arxiv.org/abs/2505.13031v1"
+        },
+        "c": "https://github.com/easonxiao-888/mindomni",
+        "n": "MindOmni",
+        "d": "2025-05-19",
+        "m1": "0.83",
+        "m2": "0.99",
+        "m3": "0.94",
+        "m4": "0.71",
+        "m5": "0.90",
+        "m6": "0.71",
+        "m7": "0.71"
+      },
+      {
+        "p": {
+          "name": "UniWorld-V1: High-Resolution Semantic Encoders for Unified Visual Understanding and Generation",
+          "link": "https://arxiv.org/abs/2506.03147v3"
+        },
+        "c": "https://github.com/PKU-YuanGroup/UniWorld-V1",
+        "n": "UniWorld-V1",
+        "d": "2025-06-03",
+        "m1": "0.80",
+        "m2": "0.99",
+        "m3": "0.93",
+        "m4": "0.70",
+        "m5": "0.89",
+        "m6": "0.79",
+        "m7": "0.49"
+      },
+      {
+        "p": {
+          "name": "SANA 1.5: Efficient Scaling of Training-Time and Inference-Time Compute in Linear Diffusion Transformer",
+          "link": "https://arxiv.org/abs/2501.18427v4"
+        },
+        "c": "https://github.com/NVlabs/Sana",
+        "n": "SANA-1.5 4.8B (+ Inference Scaling)",
+        "d": "2025-01-30",
+        "m1": "0.80"
+      },
+      {
+        "p": {
+          "name": "Janus-Pro: Unified Multimodal Understanding and Generation with Data and Model Scaling",
+          "link": "https://arxiv.org/abs/2501.17811v1"
+        },
+        "c": "https://github.com/deepseek-ai/janus",
+        "n": "Janus-Pro-7B",
+        "d": "2025-01-29",
+        "m1": "0.80"
+      },
+      {
+        "p": {
+          "name": "Transfer between Modalities with MetaQueries",
+          "link": "https://arxiv.org/abs/2504.06256v1"
+        },
+        "c": "",
+        "n": "MetaQuery-XL (Rewrite)",
+        "d": "2025-04-08",
+        "m1": "0.80"
+      },
+      {
+        "p": {
+          "name": "Can We Generate Images with CoT? Let's Verify and Reinforce Image Generation Step by Step",
+          "link": "https://arxiv.org/abs/2501.13926v1"
+        },
+        "c": "https://github.com/ziyuguo99/image-generation-cot",
+        "n": "Show-o [xie2024show] PARM It. DPO PARM",
+        "d": "2025-01-23",
+        "m1": "0.77"
+      },
+      {
+        "p": {
+          "name": "Can We Generate Images with CoT? Let's Verify and Reinforce Image Generation Step by Step",
+          "link": "https://arxiv.org/abs/2501.13926v1"
+        },
+        "c": "https://github.com/ziyuguo99/image-generation-cot",
+        "n": "Show-o [xie2024show] Ft. ORM It. DPO Ft. ORM",
+        "d": "2025-01-23",
+        "m1": "0.75"
+      },
+      {
+        "p": {
+          "name": "Janus-Pro: Unified Multimodal Understanding and Generation with Data and Model Scaling",
+          "link": "https://arxiv.org/abs/2501.17811v1"
+        },
+        "c": "https://github.com/deepseek-ai/janus",
+        "n": "Janus-Pro-1B",
+        "d": "2025-01-29",
+        "m1": "0.73"
+      },
+      {
+        "p": {
+          "name": "Lumina-Image 2.0: A Unified and Efficient Image Generative Framework",
+          "link": "https://arxiv.org/abs/2503.21758v1"
+        },
+        "c": "https://github.com/alpha-vllm/lumina-image-2.0",
+        "n": "Lumina-Image 2.0",
+        "d": "2025-03-27",
+        "m1": "0.73"
+      },
+      {
+        "p": {
+          "name": "SANA 1.5: Efficient Scaling of Training-Time and Inference-Time Compute in Linear Diffusion Transformer",
+          "link": "https://arxiv.org/abs/2501.18427v4"
+        },
+        "c": "https://github.com/NVlabs/Sana",
+        "n": "SANA-1.5 4.8B",
+        "d": "2025-01-30",
+        "m1": "0.72",
+        "m2": "0.99",
+        "m3": "0.85"
+      },
+      {
+        "p": {
+          "name": "Fluid: Scaling Autoregressive Text-to-image Generative Models with Continuous Tokens",
+          "link": "https://arxiv.org/abs/2410.13863v1"
+        },
+        "c": "https://github.com/xianfengwu01/lightgen",
+        "n": "Fluid (10.5B)",
+        "d": "2024-10-17",
+        "m1": "0.69",
+        "m2": "0.96",
+        "m3": "0.83",
+        "m4": "0.51",
+        "m5": "0.80",
+        "m6": "0.63",
+        "m7": "0.39"
+      },
+      {
+        "p": {
+          "name": "Show-o: One Single Transformer to Unify Multimodal Understanding and Generation",
+          "link": "https://arxiv.org/abs/2408.12528v6"
+        },
+        "c": "https://github.com/showlab/show-o",
+        "n": "Und. and Gen. Show-o (Ours)",
+        "d": "2024-08-22",
+        "m1": "0.68"
+      },
+      {
+        "p": {
+          "name": "Emu3: Next-Token Prediction is All You Need",
+          "link": "https://arxiv.org/abs/2409.18869v1"
+        },
+        "c": "https://github.com/baaivision/emu3",
+        "n": "Emu3",
+        "d": "2024-09-27",
+        "m1": "0.66"
+      },
+      {
+        "p": {
+          "name": "SnapGen: Taming High-Resolution Text-to-Image Models for Mobile Devices with Efficient Architectures and Training",
+          "link": "https://arxiv.org/abs/2412.09619v1"
+        },
+        "c": "",
+        "n": "SnapGen",
+        "d": "2024-12-12",
+        "m1": "0.66"
+      },
+      {
+        "p": {
+          "name": "JanusFlow: Harmonizing Autoregression and Rectified Flow for Unified Multimodal Understanding and Generation",
+          "link": "https://arxiv.org/abs/2411.07975v2"
+        },
+        "c": "https://github.com/deepseek-ai/janus",
+        "n": "JanusFlow",
+        "d": "2024-11-12",
+        "m1": "0.63"
+      },
+      {
+        "p": {
+          "name": "PixArt-Σ: Weak-to-Strong Training of Diffusion Transformer for 4K Text-to-Image Generation",
+          "link": "https://arxiv.org/abs/2403.04692v2"
+        },
+        "c": "https://github.com/PixArt-alpha/PixArt-sigma",
+        "n": "PixArt-Σ",
+        "d": "2024-03-07",
+        "m1": "0.53"
+      },
+      {
+        "p": {
+          "name": "DiffMoE: Dynamic Token Selection for Scalable Diffusion Transformers",
+          "link": "https://arxiv.org/abs/2503.14487v1"
+        },
+        "c": "",
+        "n": "DiffMoE-E16-T2I-Flow (w SFT)",
+        "d": "2025-03-18",
+        "m1": "0.51"
+      },
+      {
+        "p": {
+          "name": "PIXART-δ: Fast and Controllable Image Generation with Latent Consistency Models",
+          "link": "https://arxiv.org/abs/2401.05252v1"
+        },
+        "c": "https://github.com/PixArt-alpha/PixArt-alpha",
+        "n": "PIXART-δ",
+        "d": "2024-01-10",
+        "m1": "0"
+      }
+    ]
+  }
+}

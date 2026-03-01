@@ -1,0 +1,153 @@
+{
+  "title": "collaborative-filtering-on-douban",
+  "task-hierarchy": [
+    "Recommendation Systems"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/MarkWuNLP/MultiTurnResponseSelection"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "RMSE",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "NDCG",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Recall@20",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "HR@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "HR@100",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "PSP@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "nDCG@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m9",
+        "label": "nDCG@100",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Hybrid Recommender System based on Autoencoders",
+          "link": "http://arxiv.org/abs/1606.07659v3"
+        },
+        "c": "https://github.com/fstrub95/Autoencoders_cf",
+        "n": "I-CFN",
+        "d": "2016-06-24",
+        "m1": "0.6911"
+      },
+      {
+        "p": {
+          "name": "Hybrid Recommender System based on Autoencoders",
+          "link": "http://arxiv.org/abs/1606.07659v3"
+        },
+        "c": "https://github.com/fstrub95/Autoencoders_cf",
+        "n": "U-CFN",
+        "d": "2016-06-24",
+        "m1": "0.7049"
+      },
+      {
+        "p": {
+          "name": "Collaborative Filtering with Graph Information: Consistency and Scalable Methods",
+          "link": "http://papers.nips.cc/paper/5938-collaborative-filtering-with-graph-information-consistency-and-scalable-methods"
+        },
+        "c": "https://github.com/rofuyu/exp-grmf-nips15",
+        "n": "GRALS",
+        "d": "2015-12-01",
+        "m1": "0.714"
+      },
+      {
+        "p": {
+          "name": "A federated graph neural network framework for privacy-preserving personalization",
+          "link": "https://www.nature.com/articles/s41467-022-30714-9"
+        },
+        "c": "https://github.com/wuch15/fedpergnn",
+        "n": "FedPerGNN",
+        "d": "2022-06-02",
+        "m1": "0.775"
+      },
+      {
+        "p": {
+          "name": "FedGNN: Federated Graph Neural Network for Privacy-Preserving Recommendation",
+          "link": "https://arxiv.org/abs/2102.04925v2"
+        },
+        "c": "",
+        "n": "FedGNN",
+        "d": "2021-02-09",
+        "m1": "0.79"
+      },
+      {
+        "p": {
+          "name": "Session-based Social Recommendation via Dynamic Graph Attention Networks",
+          "link": "http://arxiv.org/abs/1902.09362v2"
+        },
+        "c": "https://github.com/DeepGraphLearning/RecommenderSystems",
+        "n": "DGRec",
+        "d": "2019-02-25",
+        "m2": "0.195",
+        "m3": "0.1861"
+      },
+      {
+        "p": {
+          "name": "Infinite Recommendation Networks: A Data-Centric Approach",
+          "link": "https://arxiv.org/abs/2206.02626v3"
+        },
+        "c": "https://github.com/Guang000/Awesome-Dataset-Distillation",
+        "n": "∞-AE",
+        "d": "2022-06-03",
+        "m4": "0.9523",
+        "m5": "0.2356",
+        "m6": "0.2837",
+        "m7": "0.0128",
+        "m8": "0.2494",
+        "m9": "0.2326"
+      }
+    ]
+  }
+}

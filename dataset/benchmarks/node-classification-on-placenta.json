@@ -1,0 +1,87 @@
+{
+  "title": "node-classification-on-placenta",
+  "task-hierarchy": [
+    "Node Classification"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/Nellaker-group/placenta"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "A New Graph Node Classification Benchmark: Learning Structure from Histology Cell Graphs",
+          "link": "https://arxiv.org/abs/2211.06292v1"
+        },
+        "c": "https://github.com/nellaker-group/placenta",
+        "n": "GraphSAGE",
+        "d": "2022-11-11",
+        "m1": "64.88±0.43"
+      },
+      {
+        "p": {
+          "name": "A New Graph Node Classification Benchmark: Learning Structure from Histology Cell Graphs",
+          "link": "https://arxiv.org/abs/2211.06292v1"
+        },
+        "c": "https://github.com/nellaker-group/placenta",
+        "n": "SIGN",
+        "d": "2022-11-11",
+        "m1": "64.77±0.43"
+      },
+      {
+        "p": {
+          "name": "A New Graph Node Classification Benchmark: Learning Structure from Histology Cell Graphs",
+          "link": "https://arxiv.org/abs/2211.06292v1"
+        },
+        "c": "https://github.com/nellaker-group/placenta",
+        "n": "ClusterGCN",
+        "d": "2022-11-11",
+        "m1": "64.24±1.21"
+      },
+      {
+        "p": {
+          "name": "A New Graph Node Classification Benchmark: Learning Structure from Histology Cell Graphs",
+          "link": "https://arxiv.org/abs/2211.06292v1"
+        },
+        "c": "https://github.com/nellaker-group/placenta",
+        "n": "GraphSAINT",
+        "d": "2022-11-11",
+        "m1": "63.94±0.23"
+      },
+      {
+        "p": {
+          "name": "A New Graph Node Classification Benchmark: Learning Structure from Histology Cell Graphs",
+          "link": "https://arxiv.org/abs/2211.06292v1"
+        },
+        "c": "https://github.com/nellaker-group/placenta",
+        "n": "ShaDow",
+        "d": "2022-11-11",
+        "m1": "63.04±0.77"
+      }
+    ]
+  }
+}

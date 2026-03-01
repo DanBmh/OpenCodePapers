@@ -1,0 +1,87 @@
+{
+  "title": "fine-grained-image-classification-on-bird-225",
+  "task-hierarchy": [
+    "Fine-Grained Image Classification"
+  ],
+  "dataset-info": {
+    "link": "https://asu-active-perception-group.github.io/bird_dataset_web/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "A Comprehensive Study on Torchvision Pre-trained Models for Fine-grained Inter-species Classification",
+          "link": "https://arxiv.org/abs/2110.07097v1"
+        },
+        "c": "https://github.com/dipuk0506/SpinalNet",
+        "n": "WideResNet-101 (Spinal FC)",
+        "d": "2021-10-14",
+        "m1": "99.56"
+      },
+      {
+        "p": {
+          "name": "ProgressiveSpinalNet architecture for FC layers",
+          "link": "https://arxiv.org/abs/2103.11373v1"
+        },
+        "c": "https://github.com/praveenchopra/ProgressiveSpinalNet",
+        "n": "Pre trained wide-resnet-101",
+        "d": "2021-03-21",
+        "m1": "99.55"
+      },
+      {
+        "p": {
+          "name": "A Comprehensive Study on Torchvision Pre-trained Models for Fine-grained Inter-species Classification",
+          "link": "https://arxiv.org/abs/2110.07097v1"
+        },
+        "c": "https://github.com/dipuk0506/SpinalNet",
+        "n": "WideResNet-101",
+        "d": "2021-10-14",
+        "m1": "99.38"
+      },
+      {
+        "p": {
+          "name": "SpinalNet: Deep Neural Network with Gradual Input",
+          "link": "https://arxiv.org/abs/2007.03347v3"
+        },
+        "c": "https://github.com/dipuk0506/SpinalNet",
+        "n": "VGG-19bn (Spinal FC)",
+        "d": "2020-07-07",
+        "m1": "99.02"
+      },
+      {
+        "p": {
+          "name": "SpinalNet: Deep Neural Network with Gradual Input",
+          "link": "https://arxiv.org/abs/2007.03347v3"
+        },
+        "c": "https://github.com/dipuk0506/SpinalNet",
+        "n": "VGG-19bn",
+        "d": "2020-07-07",
+        "m1": "98.67"
+      }
+    ]
+  }
+}

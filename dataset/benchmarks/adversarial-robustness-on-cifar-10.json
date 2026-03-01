@@ -1,0 +1,105 @@
+{
+  "title": "adversarial-robustness-on-cifar-10",
+  "task-hierarchy": [
+    "Adversarial Robustness"
+  ],
+  "dataset-info": {
+    "link": "https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Robust Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Attack: AutoAttack",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Improving the Accuracy-Robustness Trade-Off of Classifiers via Adaptive Smoothing",
+          "link": "https://arxiv.org/abs/2301.12554v5"
+        },
+        "c": "https://github.com/codelion/adaptive-classifier",
+        "n": "Mixed classifier",
+        "d": "2023-01-29",
+        "m1": "95.23",
+        "m2": "68.06",
+        "m3": "68.06"
+      },
+      {
+        "p": {
+          "name": "Stochastic Local Winner-Takes-All Networks Enable Profound Adversarial Robustness",
+          "link": "https://arxiv.org/abs/2112.02671v1"
+        },
+        "c": "https://github.com/konpanousis/adversarial-lwta-autoattack",
+        "n": "Stochastic-LWTA/PGD/WideResNet-34-10",
+        "d": "2021-12-05",
+        "m1": "92.26",
+        "m2": "84.3",
+        "m3": "82.6"
+      },
+      {
+        "p": {
+          "name": "Stochastic Local Winner-Takes-All Networks Enable Profound Adversarial Robustness",
+          "link": "https://arxiv.org/abs/2112.02671v1"
+        },
+        "c": "https://github.com/konpanousis/adversarial-lwta-autoattack",
+        "n": "Stochastic-LWTA/PGD/WideResNet-34-5",
+        "d": "2021-12-05",
+        "m1": "91.88",
+        "m2": "83.4",
+        "m3": "81.22"
+      },
+      {
+        "p": {
+          "name": "Global-Local Regularization Via Distributional Robustness",
+          "link": "https://arxiv.org/abs/2203.00553v3"
+        },
+        "c": "https://github.com/viethoang1512/glot",
+        "n": "GLOT-DR",
+        "d": "2022-03-01",
+        "m1": "84.13",
+        "m3": "49.94"
+      },
+      {
+        "p": {
+          "name": "Enhancing Robust Representation in Adversarial Training: Alignment and Exclusion Criteria",
+          "link": "https://arxiv.org/abs/2310.03358v2"
+        },
+        "c": "https://github.com/changzhang777/ancra",
+        "n": "TRADES-ANCRA/ResNet18",
+        "d": "2023-10-05",
+        "m1": "81.70",
+        "m3": "59.70"
+      }
+    ]
+  }
+}

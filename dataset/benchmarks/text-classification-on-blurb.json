@@ -1,0 +1,68 @@
+{
+  "title": "text-classification-on-blurb",
+  "task-hierarchy": [
+    "Classification",
+    "Text Classification"
+  ],
+  "dataset-info": {
+    "link": "https://microsoft.github.io/BLURB/index.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "LinkBERT: Pretraining Language Models with Document Links",
+          "link": "https://arxiv.org/abs/2203.15827v1"
+        },
+        "c": "https://github.com/michiyasunaga/LinkBERT",
+        "n": "BioLinkBERT (large)",
+        "d": "2022-03-29",
+        "m1": "84.88"
+      },
+      {
+        "p": {
+          "name": "LinkBERT: Pretraining Language Models with Document Links",
+          "link": "https://arxiv.org/abs/2203.15827v1"
+        },
+        "c": "https://github.com/michiyasunaga/LinkBERT",
+        "n": "BioLinkBERT (base)",
+        "d": "2022-03-29",
+        "m1": "84.35"
+      },
+      {
+        "p": {
+          "name": "Domain-Specific Language Model Pretraining for Biomedical Natural Language Processing",
+          "link": "https://arxiv.org/abs/2007.15779v6"
+        },
+        "c": "https://github.com/bionlu-coling2024/biomed-ner-intent_detection",
+        "n": "PubMedBERT (uncased; abstracts)",
+        "d": "2020-07-31",
+        "m1": "82.32"
+      }
+    ]
+  }
+}

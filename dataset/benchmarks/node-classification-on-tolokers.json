@@ -1,0 +1,77 @@
+{
+  "title": "node-classification-on-tolokers",
+  "task-hierarchy": [
+    "Node Classification"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/yandex-research/heterophilous-graphs"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AUCROC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Polynormer: Polynomial-Expressive Graph Transformer in Linear Time",
+          "link": "https://arxiv.org/abs/2403.01232v3"
+        },
+        "c": "https://github.com/cornell-zhang/Polynormer/tree/master/large_graph_exp",
+        "n": "Polynormer",
+        "d": "2024-03-02",
+        "m1": "85.91±0.74"
+      },
+      {
+        "p": {
+          "name": "Mixture of Experts Meets Decoupled Message Passing: Towards General and Adaptive Node Classification",
+          "link": "https://arxiv.org/abs/2412.08193v1"
+        },
+        "c": "https://github.com/GISec-Team/GNNMoE",
+        "n": "GNNMoE(GAT-like P)",
+        "d": "2024-12-11",
+        "m1": "85.45±0.94"
+      },
+      {
+        "p": {
+          "name": "Mixture of Experts Meets Decoupled Message Passing: Towards General and Adaptive Node Classification",
+          "link": "https://arxiv.org/abs/2412.08193v1"
+        },
+        "c": "https://github.com/GISec-Team/GNNMoE",
+        "n": "GNNMoE(GCN-like P)",
+        "d": "2024-12-11",
+        "m1": "84.77±0.93"
+      },
+      {
+        "p": {
+          "name": "Mixture of Experts Meets Decoupled Message Passing: Towards General and Adaptive Node Classification",
+          "link": "https://arxiv.org/abs/2412.08193v1"
+        },
+        "c": "https://github.com/GISec-Team/GNNMoE",
+        "n": "GNNMoE(SAGE-like P)",
+        "d": "2024-12-11",
+        "m1": "83.96±0.75"
+      }
+    ]
+  }
+}

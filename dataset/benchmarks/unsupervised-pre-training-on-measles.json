@@ -1,0 +1,78 @@
+{
+  "title": "unsupervised-pre-training-on-measles",
+  "task-hierarchy": [
+    "Unsupervised Pre-training"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "15RDLs",
+        "d": null,
+        "m1": "95"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "9RDLs",
+        "d": null,
+        "m1": "94"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "3 RMDL",
+        "d": null,
+        "m1": "93"
+      },
+      {
+        "p": {
+          "name": "Measles Rash Identification Using Residual Deep Convolutional Neural Network",
+          "link": "https://arxiv.org/abs/2005.09112v4"
+        },
+        "c": "",
+        "n": "CNN",
+        "d": "2020-05-18",
+        "m1": "73"
+      },
+      {
+        "p": {
+          "name": "RMDL: Random Multimodel Deep Learning for Classification",
+          "link": "http://arxiv.org/abs/1805.01890v2"
+        },
+        "c": "https://github.com/kk7nc/RMDL",
+        "n": "RMDL",
+        "d": "2018-05-03",
+        "m1": "0.1"
+      }
+    ]
+  }
+}

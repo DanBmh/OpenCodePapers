@@ -1,0 +1,109 @@
+{
+  "title": "video-quality-assessment-on-live-etri",
+  "task-hierarchy": [
+    "Video",
+    "Video Understanding",
+    "Video Quality Assessment"
+  ],
+  "dataset-info": {
+    "link": "https://live.ece.utexas.edu/research/ETRI-LIVE_STSVQ/index.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "SRCC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "CONVIQT: Contrastive Video Quality Estimator",
+          "link": "https://arxiv.org/abs/2206.14713v1"
+        },
+        "c": "https://github.com/pavancm/conviqt",
+        "n": "CONVIQT",
+        "d": "2022-06-29",
+        "m1": "0.939"
+      },
+      {
+        "p": {
+          "name": "Image Quality Assessment using Contrastive Learning",
+          "link": "https://arxiv.org/abs/2110.13266v1"
+        },
+        "c": "https://github.com/pavancm/contrique",
+        "n": "CONTRIQUE",
+        "d": "2021-10-25",
+        "m1": "0.931"
+      },
+      {
+        "p": {
+          "name": "ChipQA: No-Reference Video Quality Prediction via Space-Time Chips",
+          "link": "https://arxiv.org/abs/2109.08726v1"
+        },
+        "c": "https://github.com/JoshuaEbenezer/ChipQA",
+        "n": "ChipQA",
+        "d": "2021-09-17",
+        "m1": "0.6323"
+      },
+      {
+        "p": {
+          "name": "Blind Prediction of Natural Video Quality",
+          "link": "https://ieeexplore.ieee.org/document/6705673"
+        },
+        "c": "https://github.com/pavancm/vbliinds",
+        "n": "VBLIINDS",
+        "d": "2014-01-09",
+        "m1": "0.4798"
+      },
+      {
+        "p": {
+          "name": "No-Reference Video Quality Assessment Using Space-Time Chips",
+          "link": "http://arxiv.org/abs/2008.00031v3"
+        },
+        "c": "https://github.com/JoshuaEbenezer/ChipQA-0",
+        "n": "ChipQA-0",
+        "d": "2020-08-23",
+        "m1": "0.4028"
+      },
+      {
+        "p": {
+          "name": "No-Reference Image Quality Assessment in the Spatial Domain",
+          "link": "https://ieeexplore.ieee.org/document/6272356"
+        },
+        "c": "https://github.com/utlive/BRISQUE",
+        "n": "BRISQUE",
+        "d": "2012-08-17",
+        "m1": "0.2656"
+      },
+      {
+        "p": {
+          "name": "Two-Level Approach for No-Reference Consumer Video Quality Assessment",
+          "link": "https://ieeexplore.ieee.org/abstract/document/8742797"
+        },
+        "c": "https://github.com/jarikorhonen/nr-vqa-consumervideo",
+        "n": "TLVQM",
+        "d": "2019-06-20",
+        "m1": "0.2343"
+      }
+    ]
+  }
+}

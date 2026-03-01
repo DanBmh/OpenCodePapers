@@ -1,0 +1,207 @@
+{
+  "title": "image-clustering-on-tiny-imagenet",
+  "task-hierarchy": [
+    "Image Clustering"
+  ],
+  "dataset-info": {
+    "link": "https://www.kaggle.com/c/tiny-imagenet"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "NMI",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "ARI",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Exploring a Principled Framework for Deep Subspace Clustering",
+          "link": "https://arxiv.org/abs/2503.17288v1"
+        },
+        "c": "https://github.com/mengxianghan123/PRO-DSC",
+        "n": "PRO-DSC",
+        "d": "2025-03-21",
+        "m1": "0.698",
+        "m2": "0.805"
+      },
+      {
+        "p": {
+          "name": "Improving Image Clustering with Artifacts Attenuation via Inference-Time Attention Engineering",
+          "link": "https://arxiv.org/abs/2410.04801v1"
+        },
+        "c": "",
+        "n": "ITAE",
+        "d": "2024-10-07",
+        "m1": "0.6823",
+        "m2": "0.8178",
+        "m3": "0.5227"
+      },
+      {
+        "p": {
+          "name": "SPICE: Semantic Pseudo-labeling for Image Clustering",
+          "link": "https://arxiv.org/abs/2103.09382v3"
+        },
+        "c": "https://github.com/niuchuangnn/SPICE",
+        "n": "SPICE",
+        "d": "2021-03-17",
+        "m1": "0.305",
+        "m2": "0.449",
+        "m3": "0.161"
+      },
+      {
+        "p": {
+          "name": "Information Maximization Clustering via Multi-View Self-Labelling",
+          "link": "https://arxiv.org/abs/2103.07368v2"
+        },
+        "c": "https://github.com/foiv0s/imc-swav-pub",
+        "n": "IMC-SwAV (Best)",
+        "d": "2021-03-12",
+        "m1": "0.282",
+        "m2": "0.526",
+        "m3": "0.146"
+      },
+      {
+        "p": {
+          "name": "Information Maximization Clustering via Multi-View Self-Labelling",
+          "link": "https://arxiv.org/abs/2103.07368v2"
+        },
+        "c": "https://github.com/foiv0s/imc-swav-pub",
+        "n": "IMC-SwAV (Avg+-)",
+        "d": "2021-03-12",
+        "m1": "0.279",
+        "m2": "0.485",
+        "m3": "0.143"
+      },
+      {
+        "p": {
+          "name": "C3: Cross-instance guided Contrastive Clustering",
+          "link": "https://arxiv.org/abs/2211.07136v4"
+        },
+        "c": "https://github.com/Armanfard-Lab/C3",
+        "n": "C3",
+        "d": "2022-11-14",
+        "m1": "0.141",
+        "m2": "0.335",
+        "m3": "0.065"
+      },
+      {
+        "p": {
+          "name": "Contrastive Clustering",
+          "link": "https://arxiv.org/abs/2009.09687v1"
+        },
+        "c": "https://github.com/Yunfan-Li/Contrastive-Clustering",
+        "n": "CC",
+        "d": "2020-09-21",
+        "m1": "0.14",
+        "m2": "0.34",
+        "m3": "0.071"
+      },
+      {
+        "p": {
+          "name": "Multi-Modal Deep Clustering: Unsupervised Partitioning of Images",
+          "link": "https://arxiv.org/abs/1912.02678v3"
+        },
+        "c": "https://github.com/guysrn/mmdc",
+        "n": "MMDC",
+        "d": "2019-12-05",
+        "m1": "0.119",
+        "m2": "0.274"
+      },
+      {
+        "p": {
+          "name": "Deep Comprehensive Correlation Mining for Image Clustering",
+          "link": "https://arxiv.org/abs/1904.06925v3"
+        },
+        "c": "https://github.com/Cory-M/DCCM",
+        "n": "DCCM",
+        "d": "2019-04-15",
+        "m1": "0.108",
+        "m2": "0.224"
+      },
+      {
+        "p": {
+          "name": "Deep Adaptive Image Clustering",
+          "link": "http://openaccess.thecvf.com/content_iccv_2017/html/Chang_Deep_Adaptive_Image_ICCV_2017_paper.html"
+        },
+        "c": "https://github.com/vector-1127/DAC",
+        "n": "DAC",
+        "d": "2017-10-01",
+        "m1": "0.066",
+        "m2": "0.190"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks",
+          "link": "http://arxiv.org/abs/1511.06434v2"
+        },
+        "c": "https://github.com/tensorflow/models/blob/master/research/slim/nets/dcgan.py",
+        "n": "GAN",
+        "d": "2015-11-19",
+        "m1": "0.041",
+        "m2": "0.135"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Deep Embedding for Clustering Analysis",
+          "link": "http://arxiv.org/abs/1511.06335v2"
+        },
+        "c": "https://github.com/piiswrong/dec",
+        "n": "DEC",
+        "d": "2015-11-19",
+        "m1": "0.037",
+        "m2": "0.115"
+      },
+      {
+        "p": {
+          "name": "Auto-Encoding Variational Bayes",
+          "link": "http://arxiv.org/abs/1312.6114v10"
+        },
+        "c": "https://github.com/microsoft/recommenders",
+        "n": "VAE",
+        "d": "2013-12-20",
+        "m1": "0.036",
+        "m2": "0.113"
+      },
+      {
+        "p": {
+          "name": "Joint Unsupervised Learning of Deep Representations and Image Clusters",
+          "link": "http://arxiv.org/abs/1604.03628v3"
+        },
+        "c": "https://github.com/jwyang/jule.torch",
+        "n": "JULE",
+        "d": "2016-04-13",
+        "m1": "0.033",
+        "m2": "0.102"
+      }
+    ]
+  }
+}

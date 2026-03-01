@@ -1,0 +1,144 @@
+{
+  "title": "analog-video-restoration-on-tape",
+  "task-hierarchy": [
+    "Video Restoration",
+    "Analog Video Restoration"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/miccunifi/TAPE"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "LPIPS",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "VMAF",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Reference-based Restoration of Digitized Analog Videotapes",
+          "link": "https://arxiv.org/abs/2310.14926v2"
+        },
+        "c": "https://github.com/miccunifi/tape",
+        "n": "TAPE",
+        "d": "2023-10-20",
+        "m1": "35.53",
+        "m2": "0.946",
+        "m3": "0.052",
+        "m4": "83.61"
+      },
+      {
+        "p": {
+          "name": "Restoration of Analog Videos Using Swin-UNet",
+          "link": "https://arxiv.org/abs/2311.04261v1"
+        },
+        "c": "https://github.com/miccunifi/analog-video-restoration",
+        "n": "Agnolucci et al.",
+        "d": "2023-11-07",
+        "m1": "34.96",
+        "m2": "0.940",
+        "m3": "0.060",
+        "m4": "77.83"
+      },
+      {
+        "p": {
+          "name": "Multi-Scale Memory-Based Video Deblurring",
+          "link": "https://arxiv.org/abs/2204.02977v1"
+        },
+        "c": "https://github.com/jibo27/memdeblur",
+        "n": "MemDeblur",
+        "d": "2022-04-06",
+        "m1": "33.22",
+        "m2": "0.911",
+        "m3": "0.106",
+        "m4": "71.55"
+      },
+      {
+        "p": {
+          "name": "Recurrent Video Restoration Transformer with Guided Deformable Attention",
+          "link": "https://arxiv.org/abs/2206.02146v3"
+        },
+        "c": "https://github.com/jingyunliang/rvrt",
+        "n": "RVRT",
+        "d": "2022-06-05",
+        "m1": "32.47",
+        "m2": "0.896",
+        "m3": "0.117",
+        "m4": "72.41"
+      },
+      {
+        "p": {
+          "name": "BasicVSR++: Improving Video Super-Resolution with Enhanced Propagation and Alignment",
+          "link": "https://arxiv.org/abs/2104.13371v1"
+        },
+        "c": "https://github.com/open-mmlab/mmediting",
+        "n": "BasicVSR++",
+        "d": "2021-04-27",
+        "m1": "31.66",
+        "m2": "0.916",
+        "m3": "0.098",
+        "m4": "78.91"
+      },
+      {
+        "p": {
+          "name": "Bringing Old Films Back to Life",
+          "link": "https://arxiv.org/abs/2203.17276v1"
+        },
+        "c": "https://github.com/raywzy/bringing-old-films-back-to-life",
+        "n": "RTN",
+        "d": "2022-03-31",
+        "m1": "31.46",
+        "m2": "0.905",
+        "m3": "0.100",
+        "m4": "56.76"
+      },
+      {
+        "p": {
+          "name": "Memory-Augmented Non-Local Attention for Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2108.11048v1"
+        },
+        "c": "https://github.com/jiy173/MANA",
+        "n": "MANA",
+        "d": "2021-08-25",
+        "m1": "27.81",
+        "m2": "0.843",
+        "m3": "0.206",
+        "m4": "40.28"
+      }
+    ]
+  }
+}

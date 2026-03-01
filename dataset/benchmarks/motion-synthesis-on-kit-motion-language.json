@@ -1,0 +1,451 @@
+{
+  "title": "motion-synthesis-on-kit-motion-language",
+  "task-hierarchy": [
+    "3D Human Pose Tracking",
+    "Motion Synthesis"
+  ],
+  "dataset-info": {
+    "link": "https://gitlab.com/h2t/MotionAnnotation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "FID",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "R Precision Top3",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Diversity",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Multimodality",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Motion Anything: Any to Motion Generation",
+          "link": "https://arxiv.org/abs/2503.06955v1"
+        },
+        "c": "https://github.com/steve-zeyu-zhang/MotionAnything",
+        "n": "Motion Anything",
+        "d": "2025-03-10",
+        "m1": "0.131",
+        "m2": "0.802",
+        "m3": "10.94",
+        "m4": "1.374"
+      },
+      {
+        "p": {
+          "name": "Free-T2M: Frequency Enhanced Text-to-Motion Diffusion Model With Consistency Loss",
+          "link": "https://arxiv.org/abs/2501.18232v1"
+        },
+        "c": "https://github.com/Hxxxz0/Free-T2m",
+        "n": "Free-T2M (StableMoFusion)",
+        "d": "2025-01-30",
+        "m1": "0.155",
+        "m2": "0.789",
+        "m3": "10.902"
+      },
+      {
+        "p": {
+          "name": "ReMoDiffuse: Retrieval-Augmented Motion Diffusion Model",
+          "link": "https://arxiv.org/abs/2304.01116v1"
+        },
+        "c": "https://github.com/mingyuan-zhang/ReMoDiffuse",
+        "n": "ReMoDiffuse",
+        "d": "2023-04-03",
+        "m1": "0.155",
+        "m2": "0.765",
+        "m3": "10.80",
+        "m4": "1.239"
+      },
+      {
+        "p": {
+          "name": "BiPO: Bidirectional Partial Occlusion Network for Text-to-Motion Synthesis",
+          "link": "https://arxiv.org/abs/2412.00112v2"
+        },
+        "c": "",
+        "n": "BiPO",
+        "d": "2024-11-28",
+        "m1": "0.164",
+        "m2": "0.803",
+        "m3": "10.833",
+        "m4": "1.098"
+      },
+      {
+        "p": {
+          "name": "DisCoRD: Discrete Tokens to Continuous Motion via Rectified Flow Decoding",
+          "link": "https://arxiv.org/abs/2411.19527v3"
+        },
+        "c": "",
+        "n": "DisCoRD (+MoMask)",
+        "d": "2024-11-29",
+        "m1": "0.169",
+        "m2": "0.775",
+        "m4": "1.266"
+      },
+      {
+        "p": {
+          "name": "FineMoGen: Fine-Grained Spatio-Temporal Motion Generation and Editing",
+          "link": "https://arxiv.org/abs/2312.15004v1"
+        },
+        "c": "https://github.com/mingyuan-zhang/FineMoGen",
+        "n": "FineMoGen",
+        "d": "2023-12-22",
+        "m1": "0.178",
+        "m2": "0.772",
+        "m3": "10.85",
+        "m4": "1.877"
+      },
+      {
+        "p": {
+          "name": "BAMM: Bidirectional Autoregressive Motion Model",
+          "link": "https://arxiv.org/abs/2403.19435v3"
+        },
+        "c": "https://github.com/exitudio/BAMM",
+        "n": "BAMM",
+        "d": "2024-03-28",
+        "m1": "0.183",
+        "m2": "0.788",
+        "m3": "11.008",
+        "m4": "1.609"
+      },
+      {
+        "p": {
+          "name": "MoMask: Generative Masked Modeling of 3D Human Motions",
+          "link": "https://arxiv.org/abs/2312.00063v1"
+        },
+        "c": "https://github.com/EricGuo5513/momask-codes",
+        "n": "MoMask",
+        "d": "2023-11-29",
+        "m1": "0.204",
+        "m2": "0.781",
+        "m4": "1.131"
+      },
+      {
+        "p": {
+          "name": "BAD: Bidirectional Auto-regressive Diffusion for Text-to-Motion Generation",
+          "link": "https://arxiv.org/abs/2409.10847v1"
+        },
+        "c": "https://github.com/rohollahhs/bad",
+        "n": "BAD (OAAS)",
+        "d": "2024-09-17",
+        "m1": "0.221",
+        "m2": "0.750",
+        "m3": "11.000",
+        "m4": "1.170"
+      },
+      {
+        "p": {
+          "name": "EMDM: Efficient Motion Diffusion Model for Fast and High-Quality Motion Generation",
+          "link": "https://arxiv.org/abs/2312.02256v3"
+        },
+        "c": "https://github.com/frank-zy-dou/emdm",
+        "n": "EMDM",
+        "d": "2023-12-04",
+        "m1": "0.261",
+        "m2": "0.780",
+        "m3": "10.96",
+        "m4": "1.343"
+      },
+      {
+        "p": {
+          "name": "MotionPCM: Real-Time Motion Synthesis with Phased Consistency Model",
+          "link": "https://arxiv.org/abs/2501.19083v1"
+        },
+        "c": "",
+        "n": "MotionPCM",
+        "d": "2025-01-31",
+        "m1": " 0.294",
+        "m2": " 0.787",
+        "m3": "10.827",
+        "m4": " 1.254"
+      },
+      {
+        "p": {
+          "name": "Motion Mamba: Efficient and Long Sequence Motion Generation",
+          "link": "https://arxiv.org/abs/2403.07487v4"
+        },
+        "c": "https://github.com/steve-zeyu-zhang/MotionMamba",
+        "n": "Motion Mamba",
+        "d": "2024-03-12",
+        "m1": "0.307",
+        "m2": "0.765",
+        "m3": "11.02",
+        "m4": "1.678"
+      },
+      {
+        "p": {
+          "name": "Act As You Wish: Fine-Grained Control of Motion Diffusion Model with Hierarchical Semantic Graphs",
+          "link": "https://openreview.net/forum?id=xSEhb2j3TK"
+        },
+        "c": "https://github.com/jpthu17/graphmotion",
+        "n": "GraphMotion",
+        "d": "2023-09-21",
+        "m1": "0.313",
+        "m2": "0.769",
+        "m3": "11.12",
+        "m4": "3.627"
+      },
+      {
+        "p": {
+          "name": "MMM: Generative Masked Motion Model",
+          "link": "https://arxiv.org/abs/2312.03596v2"
+        },
+        "c": "https://github.com/exitudio/MMM",
+        "n": "MMM (gt length)",
+        "d": "2023-12-06",
+        "m1": "0.316",
+        "m2": "0.744",
+        "m3": "10.910",
+        "m4": "1.232"
+      },
+      {
+        "p": {
+          "name": "GUESS:GradUally Enriching SyntheSis for Text-Driven Human Motion Generation",
+          "link": "https://arxiv.org/abs/2401.02142v2"
+        },
+        "c": "https://github.com/xuehao-gao/guess",
+        "n": "GUESS",
+        "d": "2024-01-04",
+        "m1": "0.371",
+        "m2": "0.751",
+        "m3": "10.933",
+        "m4": "2.732"
+      },
+      {
+        "p": {
+          "name": "Executing your Commands via Motion Diffusion in Latent Space",
+          "link": "https://arxiv.org/abs/2212.04048v3"
+        },
+        "c": "https://github.com/chenfengye/motion-latent-diffusion",
+        "n": "MLD",
+        "d": "2022-12-08",
+        "m1": "0.404",
+        "m2": "0.734",
+        "m3": "10.80",
+        "m4": "2.192"
+      },
+      {
+        "p": {
+          "name": "MMM: Generative Masked Motion Model",
+          "link": "https://arxiv.org/abs/2312.03596v2"
+        },
+        "c": "https://github.com/exitudio/MMM",
+        "n": "MMM (predict length)",
+        "d": "2023-12-06",
+        "m1": "0.429",
+        "m2": "0.718",
+        "m3": "10.633",
+        "m4": "1.105"
+      },
+      {
+        "p": {
+          "name": "ParCo: Part-Coordinating Text-to-Motion Synthesis",
+          "link": "https://arxiv.org/abs/2403.18512v2"
+        },
+        "c": "https://github.com/qrzou/parco",
+        "n": "ParCo",
+        "d": "2024-03-27",
+        "m1": "0.453",
+        "m2": "0.772",
+        "m3": "10.95",
+        "m4": "1.245"
+      },
+      {
+        "p": {
+          "name": "DiverseMotion: Towards Diverse Human Motion Generation via Discrete Diffusion",
+          "link": "https://arxiv.org/abs/2309.01372v1"
+        },
+        "c": "",
+        "n": "DiverseMotion",
+        "d": "2023-09-04",
+        "m1": "0.468",
+        "m2": "0.760",
+        "m3": "10.873",
+        "m4": "2.062"
+      },
+      {
+        "p": {
+          "name": "Human Motion Diffusion Model",
+          "link": "https://arxiv.org/abs/2209.14916v2"
+        },
+        "c": "https://github.com/guytevet/motion-diffusion-model",
+        "n": "MDM",
+        "d": "2022-09-29",
+        "m1": "0.497",
+        "m2": "0.396",
+        "m3": "10.847",
+        "m4": "1.907"
+      },
+      {
+        "p": {
+          "name": "T2M-GPT: Generating Human Motion from Textual Descriptions with Discrete Representations",
+          "link": "https://arxiv.org/abs/2301.06052v4"
+        },
+        "c": "https://github.com/Mael-zys/T2M-GPT",
+        "n": "T2M-GPT  (τ ∈ U[0, 1])",
+        "d": "2023-01-15",
+        "m1": "0.514",
+        "m2": "0.745",
+        "m3": "10.921",
+        "m4": "1.570"
+      },
+      {
+        "p": {
+          "name": "Fg-T2M: Fine-Grained Text-Driven Human Motion Generation via Diffusion Model",
+          "link": "https://arxiv.org/abs/2309.06284v1"
+        },
+        "c": "",
+        "n": "Fg-T2M",
+        "d": "2023-09-12",
+        "m1": "0.571",
+        "m2": "0.745",
+        "m3": "10.93",
+        "m4": "1.019"
+      },
+      {
+        "p": {
+          "name": "T2M-GPT: Generating Human Motion from Textual Descriptions with Discrete Representations",
+          "link": "https://arxiv.org/abs/2301.06052v4"
+        },
+        "c": "https://github.com/Mael-zys/T2M-GPT",
+        "n": "T2M-GPT (τ = 0.5)",
+        "d": "2023-01-15",
+        "m1": "0.717",
+        "m2": "0.737",
+        "m3": "10.862",
+        "m4": "1.912"
+      },
+      {
+        "p": {
+          "name": "T2M-GPT: Generating Human Motion from Textual Descriptions with Discrete Representations",
+          "link": "https://arxiv.org/abs/2301.06052v4"
+        },
+        "c": "https://github.com/Mael-zys/T2M-GPT",
+        "n": "T2M-GPT (τ = 0)",
+        "d": "2023-01-15",
+        "m1": "0.737",
+        "m2": "0.716",
+        "m3": "11.198",
+        "m4": "2.309"
+      },
+      {
+        "p": {
+          "name": "AttT2M: Text-Driven Human Motion Generation with Multi-Perspective Attention Mechanism",
+          "link": "https://arxiv.org/abs/2309.00796v1"
+        },
+        "c": "https://github.com/zcymonkey/attt2m",
+        "n": "AttT2M",
+        "d": "2023-09-02",
+        "m1": "0.870",
+        "m2": "0.751",
+        "m3": "10.96",
+        "m4": "2.281"
+      },
+      {
+        "p": {
+          "name": "MotionDiffuse: Text-Driven Human Motion Generation with Diffusion Model",
+          "link": "https://arxiv.org/abs/2208.15001v1"
+        },
+        "c": "https://github.com/mingyuan-zhang/MotionDiffuse",
+        "n": "MotionDiffuse",
+        "d": "2022-08-31",
+        "m1": "1.954",
+        "m2": "0.739",
+        "m3": "11.10",
+        "m4": "0.730"
+      },
+      {
+        "p": {
+          "name": "Generating Diverse and Natural 3D Human Motions From Text",
+          "link": "http://openaccess.thecvf.com//content/CVPR2022/html/Guo_Generating_Diverse_and_Natural_3D_Human_Motions_From_Text_CVPR_2022_paper.html"
+        },
+        "c": "https://github.com/EricGuo5513/text-to-motion",
+        "n": "T2M",
+        "d": "2022-01-01",
+        "m1": "3.022",
+        "m2": "0.681",
+        "m3": "10.72",
+        "m4": "2.052"
+      },
+      {
+        "p": {
+          "name": "TM2T: Stochastic and Tokenized Modeling for the Reciprocal Generation of 3D Human Motions and Texts",
+          "link": "https://arxiv.org/abs/2207.01696v2"
+        },
+        "c": "https://github.com/EricGuo5513/TM2T",
+        "n": "TM2T",
+        "d": "2022-07-04",
+        "m1": "3.599",
+        "m2": "0.587",
+        "m3": "9.473",
+        "m4": "3.292"
+      },
+      {
+        "p": {
+          "name": "Executing your Commands via Motion Diffusion in Latent Space",
+          "link": "https://arxiv.org/abs/2212.04048v3"
+        },
+        "c": "https://github.com/chenfengye/motion-latent-diffusion",
+        "n": "TEMOS",
+        "d": "2022-12-08",
+        "m1": "3.717",
+        "m2": "0.687",
+        "m3": "10.84",
+        "m4": "0.532"
+      },
+      {
+        "p": {
+          "name": "TM2T: Stochastic and Tokenized Modeling for the Reciprocal Generation of 3D Human Motions and Texts",
+          "link": "https://arxiv.org/abs/2207.01696v2"
+        },
+        "c": "https://github.com/EricGuo5513/TM2T",
+        "n": "Language2Pose",
+        "d": "2022-07-04",
+        "m1": "6.545",
+        "m2": "0.483",
+        "m3": "9.073"
+      },
+      {
+        "p": {
+          "name": "TM2T: Stochastic and Tokenized Modeling for the Reciprocal Generation of 3D Human Motions and Texts",
+          "link": "https://arxiv.org/abs/2207.01696v2"
+        },
+        "c": "https://github.com/EricGuo5513/TM2T",
+        "n": "Text2Gesture",
+        "d": "2022-07-04",
+        "m1": "12.12",
+        "m2": "0.338",
+        "m3": "9.334"
+      }
+    ]
+  }
+}

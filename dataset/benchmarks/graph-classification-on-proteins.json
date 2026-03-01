@@ -1,0 +1,1080 @@
+{
+  "title": "graph-classification-on-proteins",
+  "task-hierarchy": [
+    "Classification",
+    "Graph Classification"
+  ],
+  "dataset-info": {
+    "link": "https://ls11-www.cs.tu-dortmund.de/staff/morris/graphkerneldatasets"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Accuracy (10 fold)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Inference Time (ms)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Hierarchical Graph Pooling with Structure Learning",
+          "link": "https://arxiv.org/abs/1911.05954v3"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/hgp_sl",
+        "n": "HGP-SL",
+        "d": "2019-11-14",
+        "m1": "84.91"
+      },
+      {
+        "p": {
+          "name": "Randomized Schur Complement Views for Graph Contrastive Learning",
+          "link": "https://arxiv.org/abs/2306.04004v1"
+        },
+        "c": "https://github.com/kvignesh1420/rlap",
+        "n": "rLap (unsupervised)",
+        "d": "2023-06-06",
+        "m1": "84.3"
+      },
+      {
+        "p": {
+          "name": "Template based Graph Neural Network with Optimal Transport Distances",
+          "link": "https://arxiv.org/abs/2205.15733v1"
+        },
+        "c": "https://github.com/cedricvincentcuaz/TFGW",
+        "n": "TFGW ADJ (L=2)",
+        "d": "2022-05-31",
+        "m1": "82.9"
+      },
+      {
+        "p": {
+          "name": "An end-to-end attention-based approach for learning on graphs",
+          "link": "https://arxiv.org/abs/2402.10793v2"
+        },
+        "c": "https://github.com/davidbuterez/edge-set-attention",
+        "n": "ESA (Edge set attention, no positional encodings)",
+        "d": "2024-02-16",
+        "m1": "82.679±0.799"
+      },
+      {
+        "p": {
+          "name": "FIT-GNN: Faster Inference Time for GNNs Using Coarsening",
+          "link": "https://arxiv.org/abs/2410.15001v2"
+        },
+        "c": "https://github.com/Roy-Shubhajit/FIT-GNN",
+        "n": "FIT-GNN",
+        "d": "2024-10-19",
+        "m1": "82.1",
+        "m3": "0.0016"
+      },
+      {
+        "p": {
+          "name": "Learning Universal Graph Neural Network Embeddings With Aid Of Transfer Learning",
+          "link": "https://arxiv.org/abs/1909.10086v3"
+        },
+        "c": "https://github.com/vermaMachineLearning/Universal-Graph-Embedding-Neural-Network",
+        "n": "DUGNN",
+        "d": "2019-09-22",
+        "m1": "81.70%"
+      },
+      {
+        "p": {
+          "name": "Maximum Entropy Weighted Independent Set Pooling for Graph Neural Networks",
+          "link": "https://arxiv.org/abs/2107.01410v1"
+        },
+        "c": "https://github.com/mewispool/mewispool",
+        "n": "MEWISPool",
+        "d": "2021-07-03",
+        "m1": "80.71%"
+      },
+      {
+        "p": {
+          "name": "CIN++: Enhancing Topological Message Passing",
+          "link": "https://arxiv.org/abs/2306.03561v1"
+        },
+        "c": "https://github.com/twitter-research/cwn",
+        "n": "CIN++",
+        "d": "2023-06-06",
+        "m1": "80.5"
+      },
+      {
+        "p": {
+          "name": "Relational Reasoning Over Spatial-Temporal Graphs for Video Summarization",
+          "link": "https://ieeexplore.ieee.org/abstract/document/9750933"
+        },
+        "c": "",
+        "n": "SAEPool",
+        "d": "2022-04-06",
+        "m1": "80.36%"
+      },
+      {
+        "p": {
+          "name": "Multi-hop Attention-based Graph Pooling: A Personalized PageRank Perspective",
+          "link": "https://ieeexplore.ieee.org/document/10454077"
+        },
+        "c": "https://github.com/p-haddadian/MAGPool",
+        "n": "MAGPool",
+        "d": "2024-03-04",
+        "m1": "80.36%"
+      },
+      {
+        "p": {
+          "name": "Transitivity-Preserving Graph Representation Learning for Bridging Local Connectivity and Role-based Similarity",
+          "link": "https://arxiv.org/abs/2308.09517v1"
+        },
+        "c": "https://github.com/nslab-cuk/unified-graph-transformer",
+        "n": "UGT",
+        "d": "2023-08-18",
+        "m1": "80.12 ±0.32"
+      },
+      {
+        "p": {
+          "name": "Universal Graph Transformer Self-Attention Networks",
+          "link": "https://arxiv.org/abs/1909.11855v9"
+        },
+        "c": "https://github.com/daiquocnguyen/Graph-Transformer",
+        "n": "U2GNN (Unsupervised)",
+        "d": "2019-09-26",
+        "m1": "80.01%"
+      },
+      {
+        "p": {
+          "name": "Mutual Information Maximization in Graph Neural Networks",
+          "link": "https://arxiv.org/abs/1905.08509v4"
+        },
+        "c": "https://github.com/CODE-SUBMIT/Graph_Neighborhood_1",
+        "n": "sGIN",
+        "d": "2019-05-21",
+        "m1": "78.97%"
+      },
+      {
+        "p": {
+          "name": "Quantum-based subgraph convolutional neural networks",
+          "link": "https://doi.org/10.1016/j.patcog.2018.11.002"
+        },
+        "c": "",
+        "n": "QS-CNNs (Quantum Walk)",
+        "d": "2019-04-01",
+        "m1": "78.80%"
+      },
+      {
+        "p": {
+          "name": "Learning metrics for persistence-based summaries and applications for graph classification",
+          "link": "https://arxiv.org/abs/1904.12189v2"
+        },
+        "c": "https://github.com/topology474/WKPI",
+        "n": "WKPI-kmeans",
+        "d": "2019-04-27",
+        "m1": "78.8%"
+      },
+      {
+        "p": {
+          "name": "Weisfeiler and Lehman Go Paths: Learning Topological Features via Path Complexes",
+          "link": "https://arxiv.org/abs/2308.06838v6"
+        },
+        "c": "",
+        "n": "PIN",
+        "d": "2023-08-13",
+        "m1": "78.8%"
+      },
+      {
+        "p": {
+          "name": "Graph Representation Learning via Hard and Channel-Wise Attention Networks",
+          "link": "https://arxiv.org/abs/1907.04652v1"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/hardgat",
+        "n": "hGANet",
+        "d": "2019-07-05",
+        "m1": "78.65%"
+      },
+      {
+        "p": {
+          "name": "Universal Graph Transformer Self-Attention Networks",
+          "link": "https://arxiv.org/abs/1909.11855v9"
+        },
+        "c": "https://github.com/daiquocnguyen/Graph-Transformer",
+        "n": "U2GNN",
+        "d": "2019-09-26",
+        "m1": "78.53%"
+      },
+      {
+        "p": {
+          "name": "Quantum-based subgraph convolutional neural networks",
+          "link": "https://doi.org/10.1016/j.patcog.2018.11.002"
+        },
+        "c": "",
+        "n": "DS-CNNs (Random Walk)",
+        "d": "2019-04-01",
+        "m1": "78.35%"
+      },
+      {
+        "p": {
+          "name": "Graph Representation Learning via Hard and Channel-Wise Attention Networks",
+          "link": "https://arxiv.org/abs/1907.04652v1"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/hardgat",
+        "n": "cGANet",
+        "d": "2019-07-05",
+        "m1": "78.23%"
+      },
+      {
+        "p": {
+          "name": "Cell Attention Networks",
+          "link": "https://arxiv.org/abs/2209.08179v1"
+        },
+        "c": "https://github.com/lrnzgiusti/can",
+        "n": "CAN",
+        "d": "2022-09-16",
+        "m1": "78.2%"
+      },
+      {
+        "p": {
+          "name": "Graph Representation Learning via Hard and Channel-Wise Attention Networks",
+          "link": "https://arxiv.org/abs/1907.04652v1"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/hardgat",
+        "n": "GANet",
+        "d": "2019-07-05",
+        "m1": "77.92%"
+      },
+      {
+        "p": {
+          "name": "Graph Star Net for Generalized Multi-Task Learning",
+          "link": "https://arxiv.org/abs/1906.12330v1"
+        },
+        "c": "https://github.com/graph-star-team/graph_star",
+        "n": "GraphStar",
+        "d": "2019-06-21",
+        "m1": "77.90%"
+      },
+      {
+        "p": {
+          "name": "Relation order histograms as a network embedding tool",
+          "link": "https://link.springer.com/chapter/10.1007/978-3-030-77964-1_18"
+        },
+        "c": "https://github.com/Prpht/NERO",
+        "n": "NERO",
+        "d": "2021-06-09",
+        "m1": "77.89%"
+      },
+      {
+        "p": {
+          "name": "Fea2Fea: Exploring Structural Feature Correlations via Graph Neural Networks",
+          "link": "https://arxiv.org/abs/2106.13061v4"
+        },
+        "c": "https://github.com/JIAQING-XIE/Fea2Fea",
+        "n": "Fea2Fea-s2",
+        "d": "2021-06-24",
+        "m1": "77.8%"
+      },
+      {
+        "p": {
+          "name": "Discriminative Graph Autoencoder",
+          "link": "https://doi.org/10.1109/ICBK.2018.00033"
+        },
+        "c": "",
+        "n": "DGA",
+        "d": "2018-11-17",
+        "m1": "77.71%"
+      },
+      {
+        "p": {
+          "name": "Graph U-Nets",
+          "link": "https://arxiv.org/abs/1905.05178v1"
+        },
+        "c": "https://github.com/HongyangGao/gunet",
+        "n": "Graph U-Nets",
+        "d": "2019-05-11",
+        "m1": "77.68%"
+      },
+      {
+        "p": {
+          "name": "How Attentive are Graph Attention Networks?",
+          "link": "https://arxiv.org/abs/2105.14491v3"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+        "n": "GATv2",
+        "d": "2021-05-30",
+        "m1": "77.679±2.187"
+      },
+      {
+        "p": {
+          "name": "Principal Neighbourhood Aggregation for Graph Nets",
+          "link": "https://arxiv.org/abs/2004.05718v5"
+        },
+        "c": "https://github.com/rusty1s/pytorch_geometric",
+        "n": "PNA",
+        "d": "2020-04-12",
+        "m1": "77.679±3.281"
+      },
+      {
+        "p": {
+          "name": "Gaussian-Induced Convolution for Graphs",
+          "link": "http://arxiv.org/abs/1811.04393v1"
+        },
+        "c": "",
+        "n": "GIC",
+        "d": "2018-11-11",
+        "m1": "77.65%"
+      },
+      {
+        "p": {
+          "name": "Graph isomorphism UNet",
+          "link": "https://www.sciencedirect.com/science/article/abs/pii/S0957417423017827#preview-section-abstract"
+        },
+        "c": "https://github.com/aramiracle/GIUNet",
+        "n": "GIUNet",
+        "d": "2023-08-23",
+        "m1": "77.6%"
+      },
+      {
+        "p": {
+          "name": "Are Powerful Graph Neural Nets Necessary? A Dissection on Graph Classification",
+          "link": "https://arxiv.org/abs/1905.04579v3"
+        },
+        "c": "https://github.com/chentingpc/gfn",
+        "n": "GFN-light",
+        "d": "2019-05-11",
+        "m1": "77.44%"
+      },
+      {
+        "p": {
+          "name": "Semi-Supervised Graph Classification: A Hierarchical Graph Perspective",
+          "link": "http://arxiv.org/abs/1904.05003v1"
+        },
+        "c": "https://github.com/benedekrozemberczki/SEAL-CI",
+        "n": "SEAL-SAGE",
+        "d": "2019-04-10",
+        "m1": "77.26%"
+      },
+      {
+        "p": {
+          "name": "Provably Powerful Graph Networks",
+          "link": "https://arxiv.org/abs/1905.11136v4"
+        },
+        "c": "https://github.com/hadarser/ProvablyPowerfulGraphNetworks_torch",
+        "n": "PPGN",
+        "d": "2019-05-27",
+        "m1": "77.20%"
+      },
+      {
+        "p": {
+          "name": "Recipe for a General, Powerful, Scalable Graph Transformer",
+          "link": "https://arxiv.org/abs/2205.12454v4"
+        },
+        "c": "https://github.com/rampasek/GraphGPS",
+        "n": "GraphGPS",
+        "d": "2022-05-25",
+        "m1": "77.143±1.494"
+      },
+      {
+        "p": {
+          "name": "Understanding Attention and Generalization in Graph Neural Networks",
+          "link": "https://arxiv.org/abs/1905.02850v3"
+        },
+        "c": "https://github.com/bknyaz/graph_nn",
+        "n": "Weak-supervised ChebyNet",
+        "d": "2019-05-08",
+        "m1": "77.09%"
+      },
+      {
+        "p": {
+          "name": "Segmented Graph-Bert for Graph Instance Modeling",
+          "link": "https://arxiv.org/abs/2002.03283v1"
+        },
+        "c": "https://github.com/jwzhanggy/SEG-BERT",
+        "n": "SEG-BERT",
+        "d": "2020-02-09",
+        "m1": "77.09%"
+      },
+      {
+        "p": {
+          "name": "Improving Attention Mechanism in Graph Neural Networks via Cardinality Preservation",
+          "link": "https://arxiv.org/abs/1907.02204v4"
+        },
+        "c": "https://github.com/zetayue/CPA",
+        "n": "GAT-GC (f-Scaled)",
+        "d": "2019-07-04",
+        "m1": "76.81%"
+      },
+      {
+        "p": {
+          "name": "Graph Attention Networks",
+          "link": "http://arxiv.org/abs/1710.10903v3"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+        "n": "GAT",
+        "d": "2017-10-30",
+        "m1": "76.786±1.670"
+      },
+      {
+        "p": {
+          "name": "Subgraph Networks with Application to Structural Feature Space Expansion",
+          "link": "https://arxiv.org/abs/1903.09022v3"
+        },
+        "c": "",
+        "n": "Deep WL SGN(0,1,2)",
+        "d": "2019-03-21",
+        "m1": "76.78%"
+      },
+      {
+        "p": {
+          "name": "Graph Convolutional Networks with EigenPooling",
+          "link": "https://arxiv.org/abs/1904.13107v2"
+        },
+        "c": "https://github.com/alge24/eigenpooling",
+        "n": "EigenGCN-3",
+        "d": "2019-04-30",
+        "m1": "76.60%"
+      },
+      {
+        "p": {
+          "name": "Spectral Multigraph Networks for Discovering and Fusing Relationships in Molecules",
+          "link": "http://arxiv.org/abs/1811.09595v1"
+        },
+        "c": "https://github.com/bknyaz/graph_nn",
+        "n": "Multigraph ChebNet",
+        "d": "2018-11-23",
+        "m1": "76.5%"
+      },
+      {
+        "p": {
+          "name": "Wasserstein Embedding for Graph Learning",
+          "link": "https://arxiv.org/abs/2006.09430v2"
+        },
+        "c": "https://github.com/navid-naderi/WEGL",
+        "n": "WEGL",
+        "d": "2020-06-16",
+        "m1": "76.5%"
+      },
+      {
+        "p": {
+          "name": "A Novel Higher-order Weisfeiler-Lehman Graph Convolution",
+          "link": "https://arxiv.org/abs/2007.00346v2"
+        },
+        "c": "https://github.com/Cortys/master-thesis",
+        "n": "2-WL-GNN",
+        "d": "2020-07-01",
+        "m1": "76.5"
+      },
+      {
+        "p": {
+          "name": "Are Powerful Graph Neural Nets Necessary? A Dissection on Graph Classification",
+          "link": "https://arxiv.org/abs/1905.04579v3"
+        },
+        "c": "https://github.com/chentingpc/gfn",
+        "n": "GFN",
+        "d": "2019-05-11",
+        "m1": "76.46%"
+      },
+      {
+        "p": {
+          "name": "Weisfeiler and Leman Go Neural: Higher-order Graph Neural Networks",
+          "link": "https://arxiv.org/abs/1810.02244v5"
+        },
+        "c": "https://github.com/chrsmrrs/k-gnn",
+        "n": "Shortest-Path Kernel",
+        "d": "2018-10-04",
+        "m1": "76.4%"
+      },
+      {
+        "p": {
+          "name": "Graph Capsule Convolutional Neural Networks",
+          "link": "http://arxiv.org/abs/1805.08090v4"
+        },
+        "c": "https://github.com/vermaMachineLearning/Graph-Capsule-CNN-Networks",
+        "n": "GCAPS-CNN",
+        "d": "2018-05-21",
+        "m1": "76.40%"
+      },
+      {
+        "p": {
+          "name": "On Valid Optimal Assignment Kernels and Applications to Graph Classification",
+          "link": "http://arxiv.org/abs/1606.01141v3"
+        },
+        "c": "",
+        "n": "WL-OA",
+        "d": "2016-06-03",
+        "m1": "76.4%"
+      },
+      {
+        "p": {
+          "name": "The Multiscale Laplacian Graph Kernel",
+          "link": "http://arxiv.org/abs/1603.06186v2"
+        },
+        "c": "",
+        "n": "MLG",
+        "d": "2016-03-20",
+        "m1": "76.34%"
+      },
+      {
+        "p": {
+          "name": "DAGCN: Dual Attention Graph Convolutional Networks",
+          "link": "http://arxiv.org/abs/1904.02278v1"
+        },
+        "c": "https://github.com/dawenzi123/DAGCN",
+        "n": "DAGCN",
+        "d": "2019-04-04",
+        "m1": "76.33%"
+      },
+      {
+        "p": {
+          "name": "Graph Kernels: A Survey",
+          "link": "https://arxiv.org/abs/1904.12218v2"
+        },
+        "c": "",
+        "n": "CORE-SP",
+        "d": "2019-04-27",
+        "m1": "76.31%"
+      },
+      {
+        "p": {
+          "name": "DropGNN: Random Dropouts Increase the Expressiveness of Graph Neural Networks",
+          "link": "https://arxiv.org/abs/2111.06283v1"
+        },
+        "c": "https://github.com/karolismart/dropgnn",
+        "n": "DropGIN",
+        "d": "2021-11-11",
+        "m1": "76.3%"
+      },
+      {
+        "p": {
+          "name": "Capsule Graph Neural Network",
+          "link": "https://openreview.net/forum?id=Byl8BnRcYm"
+        },
+        "c": "https://github.com/benedekrozemberczki/CapsGNN",
+        "n": "CapsGNN",
+        "d": "2019-05-01",
+        "m1": "76.28%"
+      },
+      {
+        "p": {
+          "name": "An End-to-End Deep Learning Architecture for Graph Classification",
+          "link": "https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewPaper/17146"
+        },
+        "c": "https://github.com/muhanzhang/DGCNN",
+        "n": "DGCNN",
+        "d": "2018-04-29",
+        "m1": "76.26%"
+      },
+      {
+        "p": {
+          "name": "Hierarchical Graph Representation Learning with Differentiable Pooling",
+          "link": "http://arxiv.org/abs/1806.08804v4"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/diffpool",
+        "n": "GNN (DiffPool)",
+        "d": "2018-06-22",
+        "m1": "76.25%"
+      },
+      {
+        "p": {
+          "name": "PANDA: Expanded Width-Aware Message Passing Beyond Rewiring",
+          "link": "https://arxiv.org/abs/2406.03671v2"
+        },
+        "c": "https://github.com/jeongwhanchoi/panda",
+        "n": "R-GIN + PANDA",
+        "d": "2024-06-06",
+        "m1": "76.17"
+      },
+      {
+        "p": {
+          "name": "PANDA: Expanded Width-Aware Message Passing Beyond Rewiring",
+          "link": "https://arxiv.org/abs/2406.03671v2"
+        },
+        "c": "https://github.com/jeongwhanchoi/panda",
+        "n": "GCN + PANDA",
+        "d": "2024-06-06",
+        "m1": "76"
+      },
+      {
+        "p": {
+          "name": "PANDA: Expanded Width-Aware Message Passing Beyond Rewiring",
+          "link": "https://arxiv.org/abs/2406.03671v2"
+        },
+        "c": "https://github.com/jeongwhanchoi/panda",
+        "n": "R-GCN + PANDA",
+        "d": "2024-06-06",
+        "m1": "76"
+      },
+      {
+        "p": {
+          "name": "Weisfeiler and Leman Go Neural: Higher-order Graph Neural Networks",
+          "link": "https://arxiv.org/abs/1810.02244v5"
+        },
+        "c": "https://github.com/chrsmrrs/k-gnn",
+        "n": "k-GNN",
+        "d": "2018-10-04",
+        "m1": "75.9%"
+      },
+      {
+        "p": {
+          "name": "PANDA: Expanded Width-Aware Message Passing Beyond Rewiring",
+          "link": "https://arxiv.org/abs/2406.03671v2"
+        },
+        "c": "https://github.com/jeongwhanchoi/panda",
+        "n": "GIN + PANDA",
+        "d": "2024-06-06",
+        "m1": "75.759"
+      },
+      {
+        "p": {
+          "name": "Deep Graph Kernels",
+          "link": "https://www.semanticscholar.org/paper/Deep-Graph-Kernels-Yanardag-Vishwanathan/8ccd0adb1a00358ede79f1d9bdcce472dc1cb8d4"
+        },
+        "c": "",
+        "n": "DGK",
+        "d": "2015-08-10",
+        "m1": "75.68%"
+      },
+      {
+        "p": {
+          "name": "Graph-level Representation Learning with Joint-Embedding Predictive Architectures",
+          "link": "https://arxiv.org/abs/2309.16014v3"
+        },
+        "c": "https://github.com/geriskenderi/graph-jepa",
+        "n": "Graph-JEPA",
+        "d": "2023-09-27",
+        "m1": "75.67%"
+      },
+      {
+        "p": {
+          "name": "TREE-G: Decision Trees Contesting Graph Neural Networks",
+          "link": "https://arxiv.org/abs/2207.02760v5"
+        },
+        "c": "https://github.com/mayabechlerspeicher/tree-g",
+        "n": "TREE-G",
+        "d": "2022-07-06",
+        "m1": "75.6"
+      },
+      {
+        "p": {
+          "name": "Semi-Supervised Classification with Graph Convolutional Networks",
+          "link": "http://arxiv.org/abs/1609.02907v4"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/mxnet/gcn",
+        "n": "GCN",
+        "d": "2016-09-09",
+        "m1": "75.536±1.622"
+      },
+      {
+        "p": {
+          "name": "How Powerful are Graph Neural Networks?",
+          "link": "http://arxiv.org/abs/1810.00826v3"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/mxnet/gin",
+        "n": "GIN",
+        "d": "2018-10-01",
+        "m1": "75.536±1.851"
+      },
+      {
+        "p": {
+          "name": "DiffWire: Inductive Graph Rewiring via the Lovász Bound",
+          "link": "https://arxiv.org/abs/2206.07369v3"
+        },
+        "c": "https://github.com/ellisalicante/GraphRewiring-Tutorial",
+        "n": "CT-Layer",
+        "d": "2022-06-15",
+        "m1": "75.38%"
+      },
+      {
+        "p": {
+          "name": "A Persistent Weisfeiler–Lehman Procedure for Graph Classification",
+          "link": "http://proceedings.mlr.press/v97/rieck19a.html"
+        },
+        "c": "https://github.com/BorgwardtLab/P-WL",
+        "n": "P-WL-UC",
+        "d": "2019-06-09",
+        "m1": "75.36%"
+      },
+      {
+        "p": {
+          "name": "DiffWire: Inductive Graph Rewiring via the Lovász Bound",
+          "link": "https://arxiv.org/abs/2206.07369v3"
+        },
+        "c": "https://github.com/ellisalicante/GraphRewiring-Tutorial",
+        "n": "GAP-Layer (Ncut)",
+        "d": "2022-06-15",
+        "m1": "75.34%"
+      },
+      {
+        "p": {
+          "name": "Fast Graph Representation Learning with PyTorch Geometric",
+          "link": "http://arxiv.org/abs/1903.02428v3"
+        },
+        "c": "https://github.com/rusty1s/pytorch_geometric",
+        "n": "DiffPool",
+        "d": "2019-03-06",
+        "m1": "75.1%"
+      },
+      {
+        "p": {
+          "name": "DGCNN: Disordered Graph Convolutional Neural Network Based on the Gaussian Mixture Model",
+          "link": "http://arxiv.org/abs/1712.03563v1"
+        },
+        "c": "",
+        "n": "DGCNN",
+        "d": "2017-12-10",
+        "m1": "75.1%"
+      },
+      {
+        "p": {
+          "name": "Accurate Learning of Graph Representations with Graph Multiset Pooling",
+          "link": "https://arxiv.org/abs/2102.11533v4"
+        },
+        "c": "https://github.com/JinheonBaek/GMT",
+        "n": "GMT",
+        "d": "2021-02-23",
+        "m1": "75.09%"
+      },
+      {
+        "p": {
+          "name": "DiffWire: Inductive Graph Rewiring via the Lovász Bound",
+          "link": "https://arxiv.org/abs/2206.07369v3"
+        },
+        "c": "https://github.com/ellisalicante/GraphRewiring-Tutorial",
+        "n": "GAP-Layer (Rcut)",
+        "d": "2022-06-15",
+        "m1": "75.03%"
+      },
+      {
+        "p": {
+          "name": "PiNet: A Permutation Invariant Graph Neural Network for Graph Classification",
+          "link": "https://arxiv.org/abs/1905.03046v1"
+        },
+        "c": "https://github.com/meltzerpete/PiNet",
+        "n": "PiNet (Learned p and q)",
+        "d": "2019-05-08",
+        "m1": "75%"
+      },
+      {
+        "p": {
+          "name": "DiffWire: Inductive Graph Rewiring via the Lovász Bound",
+          "link": "https://arxiv.org/abs/2206.07369v3"
+        },
+        "c": "https://github.com/ellisalicante/GraphRewiring-Tutorial",
+        "n": "DiffWire",
+        "d": "2022-06-15",
+        "m1": "74.91%"
+      },
+      {
+        "p": {
+          "name": "Online Graph Dictionary Learning",
+          "link": "https://arxiv.org/abs/2102.06555v2"
+        },
+        "c": "https://github.com/cedricvincentcuaz/GDL",
+        "n": "GDL-g (SP)",
+        "d": "2021-02-12",
+        "m1": "74.86"
+      },
+      {
+        "p": {
+          "name": "Variational Recurrent Neural Networks for Graph Classification",
+          "link": "https://arxiv.org/abs/1902.02721v4"
+        },
+        "c": "https://github.com/edouardpineau/Variational-Recurrent-Neural-Networks-for-Graph-Classification",
+        "n": "VRGC",
+        "d": "2019-02-07",
+        "m1": "74.8%"
+      },
+      {
+        "p": {
+          "name": "A simple yet effective baseline for non-attributed graph classification",
+          "link": "https://arxiv.org/abs/1811.03508v3"
+        },
+        "c": "https://github.com/benedekrozemberczki/karateclub",
+        "n": "LDP + distance",
+        "d": "2018-11-08",
+        "m1": "74.7%"
+      },
+      {
+        "p": {
+          "name": "Weisfeiler and Leman go sparse: Towards scalable higher-order graph embeddings",
+          "link": "https://arxiv.org/abs/1904.01543v3"
+        },
+        "c": "https://github.com/chrsmrrs/sparsewl",
+        "n": "δ-2-LWL",
+        "d": "2019-04-02",
+        "m1": "74.60%"
+      },
+      {
+        "p": {
+          "name": "Optimal Transport for structured data with application on graphs",
+          "link": "https://arxiv.org/abs/1805.09114v3"
+        },
+        "c": "https://github.com/rflamary/POT",
+        "n": "FGW sp",
+        "d": "2018-05-23",
+        "m1": "74.55%"
+      },
+      {
+        "p": {
+          "name": "Wasserstein Weisfeiler-Lehman Graph Kernels",
+          "link": "https://arxiv.org/abs/1906.01277v2"
+        },
+        "c": "https://github.com/BorgwardtLab/WWL",
+        "n": "WWL",
+        "d": "2019-06-04",
+        "m1": "74.28%"
+      },
+      {
+        "p": {
+          "name": "Distinguishing Enzyme Structures from Non-enzymes Without Alignments",
+          "link": "https://doi.org/10.1016/S0022-2836(03"
+        },
+        "c": "",
+        "n": "RW",
+        "d": "2003-07-18",
+        "m1": "74.22%"
+      },
+      {
+        "p": {
+          "name": "ASAP: Adaptive Structure Aware Pooling for Learning Hierarchical Graph Representations",
+          "link": "https://arxiv.org/abs/1911.07979v3"
+        },
+        "c": "https://github.com/malllabiisc/ASAP",
+        "n": "ASAP",
+        "d": "2019-11-18",
+        "m1": "74.19%"
+      },
+      {
+        "p": {
+          "name": "Capsule Neural Networks for Graph Classification using Explicit Tensorial Graph Representations",
+          "link": "http://arxiv.org/abs/1902.08399v1"
+        },
+        "c": "",
+        "n": "BC + Capsules",
+        "d": "2019-02-22",
+        "m1": "74.1%"
+      },
+      {
+        "p": {
+          "name": "A simple yet effective baseline for non-attributed graph classification",
+          "link": "https://arxiv.org/abs/1811.03508v3"
+        },
+        "c": "https://github.com/benedekrozemberczki/karateclub",
+        "n": "LDP + Labels",
+        "d": "2018-11-08",
+        "m1": "73.7%"
+      },
+      {
+        "p": {
+          "name": "A Fair Comparison of Graph Neural Networks for Graph Classification",
+          "link": "https://arxiv.org/abs/1912.09893v3"
+        },
+        "c": "https://github.com/diningphil/gnn-comparison",
+        "n": "DiffPool",
+        "d": "2019-12-20",
+        "m1": "73.7%"
+      },
+      {
+        "p": {
+          "name": "A Simple Baseline Algorithm for Graph Classification",
+          "link": "http://arxiv.org/abs/1810.09155v2"
+        },
+        "c": "https://github.com/benedekrozemberczki/karateclub",
+        "n": "SF + RFC",
+        "d": "2018-10-22",
+        "m1": "73.6%"
+      },
+      {
+        "p": {
+          "name": "Edge Contraction Pooling for Graph Neural Networks",
+          "link": "https://arxiv.org/abs/1905.10990v1"
+        },
+        "c": "",
+        "n": "EdgePool w GraphSAGE",
+        "d": "2019-05-27",
+        "m1": "73.5%"
+      },
+      {
+        "p": {
+          "name": "Hierarchical Representation Learning in Graph Neural Networks with Node Decimation Pooling",
+          "link": "https://arxiv.org/abs/1910.11436v3"
+        },
+        "c": "https://github.com/danielegrattarola/decimation-pooling",
+        "n": "Graph2Vec",
+        "d": "2019-10-24",
+        "m1": "73.3%"
+      },
+      {
+        "p": {
+          "name": "graph2vec: Learning Distributed Representations of Graphs",
+          "link": "http://arxiv.org/abs/1707.05005v1"
+        },
+        "c": "https://github.com/benedekrozemberczki/karateclub",
+        "n": "graph2vec",
+        "d": "2017-07-17",
+        "m1": "73.3% ± 2.05%"
+      },
+      {
+        "p": {
+          "name": "A Fair Comparison of Graph Neural Networks for Graph Classification",
+          "link": "https://arxiv.org/abs/1912.09893v3"
+        },
+        "c": "https://github.com/diningphil/gnn-comparison",
+        "n": "GraphSAGE",
+        "d": "2019-12-20",
+        "m1": "73%"
+      },
+      {
+        "p": {
+          "name": "Function Space Pooling For Graph Convolutional Networks",
+          "link": "https://arxiv.org/abs/1905.06259v2"
+        },
+        "c": "",
+        "n": "Function Space Pooling",
+        "d": "2019-05-15",
+        "m1": "72.8%"
+      },
+      {
+        "p": {
+          "name": "Strengthening structural baselines for graph classification using Local Topological Profile",
+          "link": "https://arxiv.org/abs/2305.00724v1"
+        },
+        "c": "https://github.com/j-adamczyk/ltp",
+        "n": "Local Topological Profile (LTP)",
+        "d": "2023-05-01",
+        "m1": "72.7 ± 4.2",
+        "m2": "72.7 ± 4.2"
+      },
+      {
+        "p": {
+          "name": "A simple yet effective baseline for non-attributed graph classification",
+          "link": "https://arxiv.org/abs/1811.03508v3"
+        },
+        "c": "https://github.com/benedekrozemberczki/karateclub",
+        "n": "LDP",
+        "d": "2018-11-08",
+        "m1": "72.7%"
+      },
+      {
+        "p": {
+          "name": "Edge Contraction Pooling for Graph Neural Networks",
+          "link": "https://arxiv.org/abs/1905.10990v1"
+        },
+        "c": "",
+        "n": "EdgePool",
+        "d": "2019-05-27",
+        "m1": "72.5%"
+      },
+      {
+        "p": {
+          "name": "A Non-Negative Factorization approach to node pooling in Graph Convolutional Neural Networks",
+          "link": "https://arxiv.org/abs/1909.03287v1"
+        },
+        "c": "",
+        "n": "1-NMFPool",
+        "d": "2019-09-07",
+        "m1": "72.1%"
+      },
+      {
+        "p": {
+          "name": "SPI-GCN: A Simple Permutation-Invariant Graph Convolutional Network",
+          "link": "https://hal.archives-ouvertes.fr/hal-02093451/"
+        },
+        "c": "",
+        "n": "SPI-GCN",
+        "d": "2019-04-08",
+        "m1": "72.06%"
+      },
+      {
+        "p": {
+          "name": "Self-Attention Graph Pooling",
+          "link": "https://arxiv.org/abs/1904.08082v4"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/sagpool",
+        "n": "SAGPool_h",
+        "d": "2019-04-17",
+        "m1": "71.86%"
+      },
+      {
+        "p": {
+          "name": "Efficient graphlet kernels for large graph comparison",
+          "link": "http://proceedings.mlr.press/v5/shervashidze09a.html"
+        },
+        "c": "",
+        "n": "GK",
+        "d": "2009-04-16",
+        "m1": "71.67%"
+      },
+      {
+        "p": {
+          "name": "Rep the Set: Neural Networks for Learning Set Representations",
+          "link": "https://arxiv.org/abs/1904.01962v2"
+        },
+        "c": "https://github.com/giannisnik/repset",
+        "n": "ApproxRepSet",
+        "d": "2019-04-03",
+        "m1": "70.74%"
+      },
+      {
+        "p": {
+          "name": "Self-Attention Graph Pooling",
+          "link": "https://arxiv.org/abs/1904.08082v4"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/sagpool",
+        "n": "SAGPool_g",
+        "d": "2019-04-17",
+        "m1": "70.04%"
+      },
+      {
+        "p": {
+          "name": "0/1 Deep Neural Networks via Block Coordinate Descent",
+          "link": "https://arxiv.org/abs/2206.09379v2"
+        },
+        "c": "",
+        "n": "Eff.resistance graph  kernel",
+        "d": "2022-06-19",
+        "m1": "65.7% ± 4.2%"
+      },
+      {
+        "p": {
+          "name": "Fine-tuning Graph Neural Networks by Preserving Graph Generative Patterns",
+          "link": "https://arxiv.org/abs/2312.13583v1"
+        },
+        "c": "https://github.com/zjunet/G-Tuning",
+        "n": "G-Tuning",
+        "d": "2023-12-21",
+        "m2": "72.05"
+      },
+      {
+        "p": {
+          "name": "How Powerful are Graph Neural Networks?",
+          "link": "http://arxiv.org/abs/1810.00826v3"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/mxnet/gin",
+        "n": "GIN-0",
+        "d": "2018-10-01",
+        "m1": "76,2%"
+      }
+    ]
+  }
+}

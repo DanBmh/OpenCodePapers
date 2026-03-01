@@ -1,0 +1,188 @@
+{
+  "title": "long-tail-learning-on-mimic-cxr-lt",
+  "task-hierarchy": [
+    "Generalized Few-Shot Learning",
+    "Long-tail Learning"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/VITA-Group/LongTailCXR"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Balanced Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Long-Tailed Classification of Thorax Diseases on Chest X-Ray: A New Benchmark Study",
+          "link": "https://arxiv.org/abs/2208.13365v1"
+        },
+        "c": "https://github.com/vita-group/longtailcxr",
+        "n": "Decoupling (cRT)",
+        "d": "2022-08-29",
+        "m1": "0.296"
+      },
+      {
+        "p": {
+          "name": "Long-Tailed Classification of Thorax Diseases on Chest X-Ray: A New Benchmark Study",
+          "link": "https://arxiv.org/abs/2208.13365v1"
+        },
+        "c": "https://github.com/vita-group/longtailcxr",
+        "n": "Reweighted LDAM-DRW",
+        "d": "2022-08-29",
+        "m1": "0.275"
+      },
+      {
+        "p": {
+          "name": "Long-Tailed Classification of Thorax Diseases on Chest X-Ray: A New Benchmark Study",
+          "link": "https://arxiv.org/abs/2208.13365v1"
+        },
+        "c": "https://github.com/vita-group/longtailcxr",
+        "n": "Class-balanced LDAM-DRW",
+        "d": "2022-08-29",
+        "m1": "0.267"
+      },
+      {
+        "p": {
+          "name": "Long-Tailed Classification of Thorax Diseases on Chest X-Ray: A New Benchmark Study",
+          "link": "https://arxiv.org/abs/2208.13365v1"
+        },
+        "c": "https://github.com/vita-group/longtailcxr",
+        "n": "Reweighted LDAM",
+        "d": "2022-08-29",
+        "m1": "0.243"
+      },
+      {
+        "p": {
+          "name": "Long-Tailed Classification of Thorax Diseases on Chest X-Ray: A New Benchmark Study",
+          "link": "https://arxiv.org/abs/2208.13365v1"
+        },
+        "c": "https://github.com/vita-group/longtailcxr",
+        "n": "Reweighted Focal Loss",
+        "d": "2022-08-29",
+        "m1": "0.239"
+      },
+      {
+        "p": {
+          "name": "Long-Tailed Classification of Thorax Diseases on Chest X-Ray: A New Benchmark Study",
+          "link": "https://arxiv.org/abs/2208.13365v1"
+        },
+        "c": "https://github.com/vita-group/longtailcxr",
+        "n": "Decoupling (tau-norm)",
+        "d": "2022-08-29",
+        "m1": "0.230"
+      },
+      {
+        "p": {
+          "name": "Long-Tailed Classification of Thorax Diseases on Chest X-Ray: A New Benchmark Study",
+          "link": "https://arxiv.org/abs/2208.13365v1"
+        },
+        "c": "https://github.com/vita-group/longtailcxr",
+        "n": "Class-balanced Softmax",
+        "d": "2022-08-29",
+        "m1": "0.227"
+      },
+      {
+        "p": {
+          "name": "Long-Tailed Classification of Thorax Diseases on Chest X-Ray: A New Benchmark Study",
+          "link": "https://arxiv.org/abs/2208.13365v1"
+        },
+        "c": "https://github.com/vita-group/longtailcxr",
+        "n": "Class-balanced LDAM",
+        "d": "2022-08-29",
+        "m1": "0.225"
+      },
+      {
+        "p": {
+          "name": "Long-Tailed Classification of Thorax Diseases on Chest X-Ray: A New Benchmark Study",
+          "link": "https://arxiv.org/abs/2208.13365v1"
+        },
+        "c": "https://github.com/vita-group/longtailcxr",
+        "n": "Reweighted  Softmax",
+        "d": "2022-08-29",
+        "m1": "0.211"
+      },
+      {
+        "p": {
+          "name": "Long-Tailed Classification of Thorax Diseases on Chest X-Ray: A New Benchmark Study",
+          "link": "https://arxiv.org/abs/2208.13365v1"
+        },
+        "c": "https://github.com/vita-group/longtailcxr",
+        "n": "Class-balanced Focal Loss",
+        "d": "2022-08-29",
+        "m1": "0.191"
+      },
+      {
+        "p": {
+          "name": "Long-Tailed Classification of Thorax Diseases on Chest X-Ray: A New Benchmark Study",
+          "link": "https://arxiv.org/abs/2208.13365v1"
+        },
+        "c": "https://github.com/vita-group/longtailcxr",
+        "n": "MixUp",
+        "d": "2022-08-29",
+        "m1": "0.176"
+      },
+      {
+        "p": {
+          "name": "Long-Tailed Classification of Thorax Diseases on Chest X-Ray: A New Benchmark Study",
+          "link": "https://arxiv.org/abs/2208.13365v1"
+        },
+        "c": "https://github.com/vita-group/longtailcxr",
+        "n": "Focal Loss",
+        "d": "2022-08-29",
+        "m1": "0.172"
+      },
+      {
+        "p": {
+          "name": "Long-Tailed Classification of Thorax Diseases on Chest X-Ray: A New Benchmark Study",
+          "link": "https://arxiv.org/abs/2208.13365v1"
+        },
+        "c": "https://github.com/vita-group/longtailcxr",
+        "n": "Softmax",
+        "d": "2022-08-29",
+        "m1": "0.169"
+      },
+      {
+        "p": {
+          "name": "Long-Tailed Classification of Thorax Diseases on Chest X-Ray: A New Benchmark Study",
+          "link": "https://arxiv.org/abs/2208.13365v1"
+        },
+        "c": "https://github.com/vita-group/longtailcxr",
+        "n": "Balanced-MixUp",
+        "d": "2022-08-29",
+        "m1": "0.168"
+      },
+      {
+        "p": {
+          "name": "Long-Tailed Classification of Thorax Diseases on Chest X-Ray: A New Benchmark Study",
+          "link": "https://arxiv.org/abs/2208.13365v1"
+        },
+        "c": "https://github.com/vita-group/longtailcxr",
+        "n": "LDAM",
+        "d": "2022-08-29",
+        "m1": "0.165"
+      }
+    ]
+  }
+}

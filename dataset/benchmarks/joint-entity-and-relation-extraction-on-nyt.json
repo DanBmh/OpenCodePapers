@@ -1,0 +1,101 @@
+{
+  "title": "joint-entity-and-relation-extraction-on-nyt",
+  "task-hierarchy": [
+    "Information Extraction",
+    "Joint Entity and Relation Extraction"
+  ],
+  "dataset-info": {
+    "link": "https://catalog.ldc.upenn.edu/LDC2008T19"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Entity F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Relation F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Joint Entity and Relation Extraction with Set Prediction Networks",
+          "link": "https://arxiv.org/abs/2011.01675v2"
+        },
+        "c": "https://github.com/DianboWork/SPN4RE",
+        "n": "SPN",
+        "d": "2020-11-03",
+        "m1": "92.5"
+      },
+      {
+        "p": {
+          "name": "TDEER: An Efficient Translating Decoding Schema for Joint Extraction of Entities and Relations",
+          "link": "https://aclanthology.org/2021.emnlp-main.635"
+        },
+        "c": "https://github.com/4ai/tdeer",
+        "n": "TDEER",
+        "d": null,
+        "m1": "92.5"
+      },
+      {
+        "p": {
+          "name": "DeepStruct: Pretraining of Language Models for Structure Prediction",
+          "link": "https://arxiv.org/abs/2205.10475v2"
+        },
+        "c": "https://github.com/cgraywang/deepstruct",
+        "n": "DeepStruct multi-task w/ finetune",
+        "d": "2022-05-21",
+        "m2": "95.9",
+        "m3": "93.3"
+      },
+      {
+        "p": {
+          "name": "DeepStruct: Pretraining of Language Models for Structure Prediction",
+          "link": "https://arxiv.org/abs/2205.10475v2"
+        },
+        "c": "https://github.com/cgraywang/deepstruct",
+        "n": "DeepStruct multi-task",
+        "d": "2022-05-21",
+        "m2": "95.4",
+        "m3": "93.7"
+      },
+      {
+        "p": {
+          "name": "DeepStruct: Pretraining of Language Models for Structure Prediction",
+          "link": "https://arxiv.org/abs/2205.10475v2"
+        },
+        "c": "https://github.com/cgraywang/deepstruct",
+        "n": "Deepstruct zero-shot",
+        "d": "2022-05-21",
+        "m2": "60.5",
+        "m3": "28.6"
+      }
+    ]
+  }
+}

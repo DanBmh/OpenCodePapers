@@ -1,0 +1,137 @@
+{
+  "title": "semantic-segmentation-on-uavid",
+  "task-hierarchy": [
+    "Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://uavid.nl/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Mean IoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "U-Net Ensemble for Enhanced Semantic Segmentation in Remote Sensing Imagery",
+          "link": "https://www.mdpi.com/2072-4292/16/12/2077"
+        },
+        "c": "",
+        "n": "U-Net Ensemble",
+        "d": "2024-06-08",
+        "m1": "73.34"
+      },
+      {
+        "p": {
+          "name": "U-Net Ensemble for Enhanced Semantic Segmentation in Remote Sensing Imagery",
+          "link": "https://www.mdpi.com/2072-4292/16/12/2077"
+        },
+        "c": "",
+        "n": "U-Net (MaxViT-S)",
+        "d": "2024-06-08",
+        "m1": "71.88"
+      },
+      {
+        "p": {
+          "name": "Dynamic Dictionary Learning for Remote Sensing Image Segmentation",
+          "link": "https://arxiv.org/abs/2503.06683v1"
+        },
+        "c": "https://github.com/XavierJiezou/D2LS",
+        "n": "D2LS",
+        "d": "2025-03-09",
+        "m1": "70.9"
+      },
+      {
+        "p": {
+          "name": "SFA-Net: Semantic Feature Adjustment Network for Remote Sensing Image Segmentation",
+          "link": "https://www.mdpi.com/2072-4292/16/17/3278"
+        },
+        "c": "https://github.com/j2jeong/priv",
+        "n": "SFA-Net",
+        "d": "2024-09-03",
+        "m1": "70.4"
+      },
+      {
+        "p": {
+          "name": "LSKNet: A Foundation Lightweight Backbone for Remote Sensing",
+          "link": "https://arxiv.org/abs/2403.11735v5"
+        },
+        "c": "https://github.com/zcablii/lsknet",
+        "n": "LSKNet-S",
+        "d": "2024-03-18",
+        "m1": "70.0"
+      },
+      {
+        "p": {
+          "name": "LSKNet: A Foundation Lightweight Backbone for Remote Sensing",
+          "link": "https://arxiv.org/abs/2403.11735v5"
+        },
+        "c": "https://github.com/zcablii/lsknet",
+        "n": "LSKNet-T",
+        "d": "2024-03-18",
+        "m1": "69.3"
+      },
+      {
+        "p": {
+          "name": "LWGANet: A Lightweight Group Attention Backbone for Remote Sensing Visual Tasks",
+          "link": "https://arxiv.org/abs/2501.10040v1"
+        },
+        "c": "https://github.com/lwcver/lwganet",
+        "n": "LWGANet L2",
+        "d": "2025-01-17",
+        "m1": "69.1"
+      },
+      {
+        "p": {
+          "name": "UNetFormer: A UNet-like Transformer for Efficient Semantic Segmentation of Remote Sensing Urban Scene Imagery",
+          "link": "https://arxiv.org/abs/2109.08937v4"
+        },
+        "c": "https://github.com/WangLibo1995/GeoSeg",
+        "n": "UNetFormer",
+        "d": "2021-09-18",
+        "m1": "67.8"
+      },
+      {
+        "p": {
+          "name": "DecoupleNet: A Lightweight Backbone Network With Efficient Feature Decoupling for Remote Sensing Visual Tasks",
+          "link": "https://ieeexplore.ieee.org/document/10685518"
+        },
+        "c": "https://github.com/lwCVer/DecoupleNet",
+        "n": "DecoupleNet D2",
+        "d": "2024-09-23",
+        "m1": "65.8"
+      },
+      {
+        "p": {
+          "name": "Transformer Meets Convolution: A Bilateral Awareness Network for Semantic Segmentation of Very Fine Resolution Urban Scene Images",
+          "link": "https://arxiv.org/abs/2106.12413v2"
+        },
+        "c": "https://github.com/WangLibo1995/GeoSeg",
+        "n": "BANet",
+        "d": "2021-06-23",
+        "m1": "64.6"
+      }
+    ]
+  }
+}

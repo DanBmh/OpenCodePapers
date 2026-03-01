@@ -1,0 +1,67 @@
+{
+  "title": "human-judgment-classification-on-pascal-50s",
+  "task-hierarchy": [
+    "Human Judgment Classification"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Mean Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Mutual Information Divergence: A Unified Metric for Multimodal Generative Models",
+          "link": "https://arxiv.org/abs/2205.13445v1"
+        },
+        "c": "https://github.com/naver-ai/mid.metric",
+        "n": "MID",
+        "d": "2022-05-25",
+        "m1": "85.2"
+      },
+      {
+        "p": {
+          "name": "CLIPScore: A Reference-free Evaluation Metric for Image Captioning",
+          "link": "https://arxiv.org/abs/2104.08718v3"
+        },
+        "c": "https://github.com/jmhessel/clipscore",
+        "n": "RefCLIP-S",
+        "d": "2021-04-18",
+        "m1": "83.1"
+      },
+      {
+        "p": {
+          "name": "CLIPScore: A Reference-free Evaluation Metric for Image Captioning",
+          "link": "https://arxiv.org/abs/2104.08718v3"
+        },
+        "c": "https://github.com/jmhessel/clipscore",
+        "n": "CLIP-S",
+        "d": "2021-04-18",
+        "m1": "80.7"
+      }
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "title": "face-alignment-on-aflw2000",
+  "task-hierarchy": [
+    "3D Face Reconstruction",
+    "Facial Recognition and Modelling",
+    "Face Alignment"
+  ],
+  "dataset-info": {
+    "link": "http://www.cbsr.ia.ac.cn/users/xiangyuzhu/projects/3DDFA/main.htm"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Error rate",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Multi-task head pose estimation in-the-wild",
+          "link": "https://arxiv.org/abs/2202.02299v1"
+        },
+        "c": "https://github.com/bobetocalo/bobetocalo_pami20",
+        "n": "MNN+ORB (Reannotated)",
+        "d": "2020-12-22",
+        "m1": "2.58"
+      },
+      {
+        "p": {
+          "name": "Nonlinear 3D Face Morphable Model",
+          "link": "http://arxiv.org/abs/1804.03786v3"
+        },
+        "c": "https://github.com/tranluan/Nonlinear_Face_3DMM",
+        "n": "Nonlinear 3D Face Morphable Model",
+        "d": "2018-04-11",
+        "m1": "4.70"
+      },
+      {
+        "p": {
+          "name": "Deep Multi-Center Learning for Face Alignment",
+          "link": "http://arxiv.org/abs/1808.01558v2"
+        },
+        "c": "https://github.com/ZhiwenShao/MCNet-Extension",
+        "n": "MCL",
+        "d": "2018-08-05",
+        "m1": "5.38"
+      },
+      {
+        "p": {
+          "name": "Face Alignment Across Large Poses: A 3D Solution",
+          "link": "http://arxiv.org/abs/1511.07212v1"
+        },
+        "c": "",
+        "n": "3DDFA",
+        "d": "2015-11-23",
+        "m1": "5.42"
+      },
+      {
+        "p": {
+          "name": "One Millisecond Face Alignment with an Ensemble of Regression Trees",
+          "link": "http://openaccess.thecvf.com/content_cvpr_2014/html/Kazemi_One_Millisecond_Face_2014_CVPR_paper.html"
+        },
+        "c": "",
+        "n": "Dlib  (68 points)",
+        "d": "2014-06-01",
+        "m1": "10.545"
+      }
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "title": "image-segmentation-on-pascal-voc",
+  "task-hierarchy": [
+    "Image Segmentation"
+  ],
+  "dataset-info": {
+    "link": "http://host.robots.ox.ac.uk/pascal/VOC/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "mAP0.5",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "OneNet: A Channel-Wise 1D Convolutional U-Net",
+          "link": "https://arxiv.org/abs/2411.09838v1"
+        },
+        "c": "https://github.com/shbyun080/onenet",
+        "n": "OneNete,4-C",
+        "d": "2024-11-14",
+        "m1": "63.6"
+      },
+      {
+        "p": {
+          "name": "OneNet: A Channel-Wise 1D Convolutional U-Net",
+          "link": "https://arxiv.org/abs/2411.09838v1"
+        },
+        "c": "https://github.com/shbyun080/onenet",
+        "n": "OneNeted,4",
+        "d": "2024-11-14",
+        "m1": "14.9"
+      },
+      {
+        "p": {
+          "name": "OneNet: A Channel-Wise 1D Convolutional U-Net",
+          "link": "https://arxiv.org/abs/2411.09838v1"
+        },
+        "c": "https://github.com/shbyun080/onenet",
+        "n": "OneNete,4-S",
+        "d": "2024-11-14",
+        "m2": "52.75"
+      }
+    ]
+  }
+}

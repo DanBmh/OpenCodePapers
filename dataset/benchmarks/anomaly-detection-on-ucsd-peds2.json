@@ -1,0 +1,67 @@
+{
+  "title": "anomaly-detection-on-ucsd-peds2",
+  "task-hierarchy": [
+    "Anomaly Detection"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "A Background-Agnostic Framework with Adversarial Training for Abnormal Event Detection in Video",
+          "link": "https://arxiv.org/abs/2008.12328v5"
+        },
+        "c": "https://github.com/m-3lab/awesome-visual-sensory-anomaly-detection",
+        "n": "Background-Agnostic Framework",
+        "d": "2020-08-27",
+        "m1": "98.7"
+      },
+      {
+        "p": {
+          "name": "Anomaly Detection in Video via Self-Supervised and Multi-Task Learning",
+          "link": "https://arxiv.org/abs/2011.07491v3"
+        },
+        "c": "https://github.com/lilygeorgescu/AED-SSMTL",
+        "n": "SSMTL",
+        "d": "2020-11-15",
+        "m1": "97.5"
+      },
+      {
+        "p": {
+          "name": "Object-centric and memory-guided normality reconstruction for video anomaly detection",
+          "link": "https://arxiv.org/abs/2203.03677v4"
+        },
+        "c": "",
+        "n": "OMAE",
+        "d": "2022-03-07",
+        "m1": "96.46"
+      }
+    ]
+  }
+}

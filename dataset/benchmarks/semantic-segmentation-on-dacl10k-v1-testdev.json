@@ -1,0 +1,67 @@
+{
+  "title": "semantic-segmentation-on-dacl10k-v1-testdev",
+  "task-hierarchy": [
+    "Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "dacl10k: Benchmark for Semantic Bridge Damage Segmentation",
+          "link": "https://arxiv.org/abs/2309.00460v1"
+        },
+        "c": "https://github.com/phiyodr/dacl10k-toolkit",
+        "n": "FPN EfficientNet-B4 w/ Aux loss",
+        "d": "2023-09-01",
+        "m1": "0.414"
+      },
+      {
+        "p": {
+          "name": "dacl10k: Benchmark for Semantic Bridge Damage Segmentation",
+          "link": "https://arxiv.org/abs/2309.00460v1"
+        },
+        "c": "https://github.com/phiyodr/dacl10k-toolkit",
+        "n": "DeepLabv3+ EfficientNet-B4",
+        "d": "2023-09-01",
+        "m1": "0.411"
+      },
+      {
+        "p": {
+          "name": "dacl10k: Benchmark for Semantic Bridge Damage Segmentation",
+          "link": "https://arxiv.org/abs/2309.00460v1"
+        },
+        "c": "https://github.com/phiyodr/dacl10k-toolkit",
+        "n": "SegFormer mit-b1",
+        "d": "2023-09-01",
+        "m1": "0.40"
+      }
+    ]
+  }
+}

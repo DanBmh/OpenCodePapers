@@ -1,0 +1,108 @@
+{
+  "title": "change-detection-on-oscd-13ch",
+  "task-hierarchy": [
+    "Change Detection"
+  ],
+  "dataset-info": {
+    "link": "https://rcdaudt.github.io/oscd/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Precision",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Fully Convolutional Siamese Networks for Change Detection",
+          "link": "http://arxiv.org/abs/1810.08462v1"
+        },
+        "c": "https://github.com/likyoo/open-cd",
+        "n": "FC-Siam-Diff",
+        "d": "2018-10-19",
+        "m1": "57.92",
+        "m2": "51.84"
+      },
+      {
+        "p": {
+          "name": "Fully Convolutional Siamese Networks for Change Detection",
+          "link": "http://arxiv.org/abs/1810.08462v1"
+        },
+        "c": "https://github.com/likyoo/open-cd",
+        "n": "FC-EF",
+        "d": "2018-10-19",
+        "m1": "56.91",
+        "m2": "64.42"
+      },
+      {
+        "p": {
+          "name": "Extending global-local view alignment for self-supervised learning with remote sensing imagery",
+          "link": "https://arxiv.org/abs/2303.06670v2"
+        },
+        "c": "https://github.com/wennyxy/dino-mc",
+        "n": "DINO-MC (WRN-50)",
+        "d": "2023-03-12",
+        "m1": "52.7",
+        "m2": "49.99"
+      },
+      {
+        "p": {
+          "name": "Seasonal Contrast: Unsupervised Pre-Training from Uncurated Remote Sensing Data",
+          "link": "https://arxiv.org/abs/2103.16607v2"
+        },
+        "c": "https://github.com/servicenow/seasonal-contrast",
+        "n": "SeCo",
+        "d": "2021-03-30",
+        "m1": "46.94",
+        "m2": "38.06"
+      },
+      {
+        "p": {
+          "name": "Self-supervised pre-training enhances change detection in Sentinel-2 imagery",
+          "link": "https://arxiv.org/abs/2101.08122v2"
+        },
+        "c": "https://github.com/yjt2018/awesome-remote-sensing-change-detection",
+        "n": "Task 2 CVA+Triangle",
+        "d": "2021-01-20",
+        "m1": "45.79",
+        "m2": "40.42"
+      },
+      {
+        "p": {
+          "name": "Self-supervised pre-training enhances change detection in Sentinel-2 imagery",
+          "link": "https://arxiv.org/abs/2101.08122v2"
+        },
+        "c": "https://github.com/yjt2018/awesome-remote-sensing-change-detection",
+        "n": "Task 2 linear",
+        "d": "2021-01-20",
+        "m1": "43.17",
+        "m2": "46.3"
+      }
+    ]
+  }
+}

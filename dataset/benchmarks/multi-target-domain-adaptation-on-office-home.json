@@ -1,0 +1,77 @@
+{
+  "title": "multi-target-domain-adaptation-on-office-home",
+  "task-hierarchy": [
+    "Multi-target Domain Adaptation"
+  ],
+  "dataset-info": {
+    "link": "https://www.hemanthdv.org/officeHomeDataset.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Class Overwhelms: Mutual Conditional Blended-Target Domain Adaptation",
+          "link": "https://arxiv.org/abs/2302.01516v2"
+        },
+        "c": "https://github.com/Pengchengpcx/Class-overwhelms-Mutual-Conditional-Blended-Target-Domain-Adaptation",
+        "n": "MCDA",
+        "d": "2023-02-03",
+        "m1": "71.1"
+      },
+      {
+        "p": {
+          "name": "Curriculum Graph Co-Teaching for Multi-Target Domain Adaptation",
+          "link": "https://arxiv.org/abs/2104.00808v1"
+        },
+        "c": "https://github.com/Evgeneus/Graph-Domain-Adaptaion",
+        "n": "DCGCT",
+        "d": "2021-04-01",
+        "m1": "69.8"
+      },
+      {
+        "p": {
+          "name": "Blending-target Domain Adaptation by Adversarial Meta-Adaptation Networks",
+          "link": "https://arxiv.org/abs/1907.03389v1"
+        },
+        "c": "https://github.com/zjy526223908/BTDA",
+        "n": "AMEAN",
+        "d": "2019-07-08",
+        "m1": "64.0"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Domain Adaptation by Backpropagation",
+          "link": "http://arxiv.org/abs/1409.7495v2"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSpeech",
+        "n": "RevGrad",
+        "d": "2014-09-26",
+        "m1": "57.9"
+      }
+    ]
+  }
+}

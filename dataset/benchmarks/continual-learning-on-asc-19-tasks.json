@@ -1,0 +1,187 @@
+{
+  "title": "continual-learning-on-asc-19-tasks",
+  "task-hierarchy": [
+    "Continual Learning"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/ZixuanKe/PyContinual"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1 - macro",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Achieving Forgetting Prevention and Knowledge Transfer in Continual Learning",
+          "link": "https://arxiv.org/abs/2112.02706v1"
+        },
+        "c": "https://github.com/zixuanke/pycontinual",
+        "n": "Multi-task Learning (MTL; Upper Bound)",
+        "d": "2021-12-05",
+        "m1": "0.8811"
+      },
+      {
+        "p": {
+          "name": "Achieving Forgetting Prevention and Knowledge Transfer in Continual Learning",
+          "link": "https://arxiv.org/abs/2112.02706v1"
+        },
+        "c": "https://github.com/zixuanke/pycontinual",
+        "n": "CTR",
+        "d": "2021-12-05",
+        "m1": "0.8362"
+      },
+      {
+        "p": {
+          "name": "Adapting BERT for Continual Learning of a Sequence of Aspect Sentiment Classification Tasks",
+          "link": "https://arxiv.org/abs/2112.03271v1"
+        },
+        "c": "https://github.com/zixuanke/pycontinual",
+        "n": "B-CL",
+        "d": "2021-12-06",
+        "m1": "0.8140"
+      },
+      {
+        "p": {
+          "name": "LAMOL: LAnguage MOdeling for Lifelong Language Learning",
+          "link": "https://arxiv.org/abs/1909.03329v2"
+        },
+        "c": "https://github.com/jojotenya/LAMOL",
+        "n": "LAMOL",
+        "d": "2019-09-07",
+        "m1": "0.8059"
+      },
+      {
+        "p": {
+          "name": "Continual Learning of Context-dependent Processing in Neural Networks",
+          "link": "https://arxiv.org/abs/1810.01256v3"
+        },
+        "c": "https://github.com/beijixiong3510/OWM",
+        "n": "OWM",
+        "d": "2018-09-29",
+        "m1": "0.7931"
+      },
+      {
+        "p": {
+          "name": "Efficient Lifelong Learning with A-GEM",
+          "link": "http://arxiv.org/abs/1812.00420v2"
+        },
+        "c": "https://github.com/ContinualAI/avalanche",
+        "n": "A-GEM",
+        "d": "2018-12-02",
+        "m1": "0.7844"
+      },
+      {
+        "p": {
+          "name": "Overcoming catastrophic forgetting with hard attention to the task",
+          "link": "http://arxiv.org/abs/1801.01423v3"
+        },
+        "c": "https://github.com/joansj/hat",
+        "n": "HAT",
+        "d": "2018-01-04",
+        "m1": "0.7816"
+      },
+      {
+        "p": {
+          "name": "Achieving Forgetting Prevention and Knowledge Transfer in Continual Learning",
+          "link": "https://arxiv.org/abs/2112.02706v1"
+        },
+        "c": "https://github.com/zixuanke/pycontinual",
+        "n": "Independent Learning (ONE)",
+        "d": "2021-12-05",
+        "m1": "0.7807"
+      },
+      {
+        "p": {
+          "name": "Continual Learning with Knowledge Transfer for Sentiment Classification",
+          "link": "https://arxiv.org/abs/2112.10021v1"
+        },
+        "c": "https://github.com/zixuanke/pycontinual",
+        "n": "KAN",
+        "d": "2021-12-18",
+        "m1": "0.7738"
+      },
+      {
+        "p": {
+          "name": "Achieving Forgetting Prevention and Knowledge Transfer in Continual Learning",
+          "link": "https://arxiv.org/abs/2112.02706v1"
+        },
+        "c": "https://github.com/zixuanke/pycontinual",
+        "n": "Naive Continual Learning (NCL)",
+        "d": "2021-12-05",
+        "m1": "0.7664"
+      },
+      {
+        "p": {
+          "name": "Uncertainty-based Continual Learning with Adaptive Regularization",
+          "link": "https://arxiv.org/abs/1905.11614v3"
+        },
+        "c": "https://github.com/csm9493/UCL",
+        "n": "UCL",
+        "d": "2019-05-28",
+        "m1": "0.7599"
+      },
+      {
+        "p": {
+          "name": "Dark Experience for General Continual Learning: a Strong, Simple Baseline",
+          "link": "https://arxiv.org/abs/2004.07211v2"
+        },
+        "c": "https://github.com/ContinualAI/avalanche",
+        "n": "DER++",
+        "d": "2020-04-15",
+        "m1": "0.7508"
+      },
+      {
+        "p": {
+          "name": "Overcoming catastrophic forgetting in neural networks",
+          "link": "http://arxiv.org/abs/1612.00796v2"
+        },
+        "c": "https://github.com/ContinualAI/avalanche",
+        "n": "EWC",
+        "d": "2016-12-02",
+        "m1": "0.7452"
+      },
+      {
+        "p": {
+          "name": "Continual Learning of a Mixed Sequence of Similar and Dissimilar Tasks",
+          "link": "https://arxiv.org/abs/2112.10017v1"
+        },
+        "c": "https://github.com/zixuanke/pycontinual",
+        "n": "CAT",
+        "d": "2021-12-18",
+        "m1": "0.6864"
+      },
+      {
+        "p": {
+          "name": "Overcoming catastrophic forgetting in neural networks",
+          "link": "http://arxiv.org/abs/1612.00796v2"
+        },
+        "c": "https://github.com/ContinualAI/avalanche",
+        "n": "L2",
+        "d": "2016-12-02",
+        "m1": "0.5243"
+      }
+    ]
+  }
+}

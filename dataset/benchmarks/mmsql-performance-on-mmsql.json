@@ -1,0 +1,98 @@
+{
+  "title": "mmsql-performance-on-mmsql",
+  "task-hierarchy": [
+    "Text-To-SQL",
+    "MMSQL performance"
+  ],
+  "dataset-info": {
+    "link": "https://mcxiaoxiao.github.io/MMSQL/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "TDEX",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Evaluating and Enhancing LLMs for Multi-turn Text-to-SQL with Multiple Question Types",
+          "link": "https://arxiv.org/abs/2412.17867v1"
+        },
+        "c": "https://github.com/mcxiaoxiao/MMSQL",
+        "n": "GPT-4 Turbo",
+        "d": "2024-12-21",
+        "m1": "67.0"
+      },
+      {
+        "p": {
+          "name": "Evaluating and Enhancing LLMs for Multi-turn Text-to-SQL with Multiple Question Types",
+          "link": "https://arxiv.org/abs/2412.17867v1"
+        },
+        "c": "https://github.com/mcxiaoxiao/MMSQL",
+        "n": "Gemini-1.5 Flash",
+        "d": "2024-12-21",
+        "m1": "65.8"
+      },
+      {
+        "p": {
+          "name": "Evaluating and Enhancing LLMs for Multi-turn Text-to-SQL with Multiple Question Types",
+          "link": "https://arxiv.org/abs/2412.17867v1"
+        },
+        "c": "https://github.com/mcxiaoxiao/MMSQL",
+        "n": "GPT-3.5 Turbo",
+        "d": "2024-12-21",
+        "m1": "64.1"
+      },
+      {
+        "p": {
+          "name": "Evaluating and Enhancing LLMs for Multi-turn Text-to-SQL with Multiple Question Types",
+          "link": "https://arxiv.org/abs/2412.17867v1"
+        },
+        "c": "https://github.com/mcxiaoxiao/MMSQL",
+        "n": "Llama3-8B",
+        "d": "2024-12-21",
+        "m1": "64.0"
+      },
+      {
+        "p": {
+          "name": "Evaluating and Enhancing LLMs for Multi-turn Text-to-SQL with Multiple Question Types",
+          "link": "https://arxiv.org/abs/2412.17867v1"
+        },
+        "c": "https://github.com/mcxiaoxiao/MMSQL",
+        "n": "Llama3-70B",
+        "d": "2024-12-21",
+        "m1": "62.8"
+      },
+      {
+        "p": {
+          "name": "Evaluating and Enhancing LLMs for Multi-turn Text-to-SQL with Multiple Question Types",
+          "link": "https://arxiv.org/abs/2412.17867v1"
+        },
+        "c": "https://github.com/mcxiaoxiao/MMSQL",
+        "n": "SQLCoder-8B",
+        "d": "2024-12-21",
+        "m1": "30.7"
+      }
+    ]
+  }
+}

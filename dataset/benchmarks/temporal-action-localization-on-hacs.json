@@ -1,0 +1,200 @@
+{
+  "title": "temporal-action-localization-on-hacs",
+  "task-hierarchy": [
+    "Action Localization",
+    "Temporal Action Localization"
+  ],
+  "dataset-info": {
+    "link": "http://hacs.csail.mit.edu/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Average-mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "mAP@0.5",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "mAP@0.75",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "mAP@0.95",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Enhancing Temporal Action Localization: Advanced S6 Modeling with Recurrent Mechanism",
+          "link": "https://arxiv.org/abs/2407.13078v1"
+        },
+        "c": "https://github.com/lsy0882/RDFA-S6",
+        "n": "RDFA-S6 (InternVideo2-6B)",
+        "d": "2024-07-18",
+        "m1": "45.8",
+        "m2": "66.4",
+        "m3": "47.2",
+        "m4": "14.3"
+      },
+      {
+        "p": {
+          "name": "Video Mamba Suite: State Space Model as a Versatile Alternative for Video Understanding",
+          "link": "https://arxiv.org/abs/2403.09626v1"
+        },
+        "c": "https://github.com/opengvlab/video-mamba-suite",
+        "n": "ActionMamba(InternVideo2-6B)",
+        "d": "2024-03-14",
+        "m1": "44.56",
+        "m2": "64.02",
+        "m3": "45.71",
+        "m4": "13.34"
+      },
+      {
+        "p": {
+          "name": "DyFADet: Dynamic Feature Aggregation for Temporal Action Detection",
+          "link": "https://arxiv.org/abs/2407.03197v1"
+        },
+        "c": "https://github.com/yangle15/DyFADet-pytorch",
+        "n": "DyFADet(VideoMAEv2)",
+        "d": "2024-07-03",
+        "m1": "44.3",
+        "m2": "64.0",
+        "m3": "44.8",
+        "m4": "14.1"
+      },
+      {
+        "p": {
+          "name": "InternVideo2: Scaling Foundation Models for Multimodal Video Understanding",
+          "link": "https://arxiv.org/abs/2403.15377v4"
+        },
+        "c": "https://github.com/opengvlab/internvideo",
+        "n": "InternVideo2-6B",
+        "d": "2024-03-22",
+        "m1": "43.3"
+      },
+      {
+        "p": {
+          "name": "Temporal Action Localization with Enhanced Instant Discriminability",
+          "link": "https://arxiv.org/abs/2309.05590v1"
+        },
+        "c": "https://github.com/dingfengshi/tridet",
+        "n": "TriDet (VideoMAEv2)",
+        "d": "2023-09-11",
+        "m1": "43.1",
+        "m2": "62.4",
+        "m3": "44.1",
+        "m4": "13.1"
+      },
+      {
+        "p": {
+          "name": "InternVideo2: Scaling Foundation Models for Multimodal Video Understanding",
+          "link": "https://arxiv.org/abs/2403.15377v4"
+        },
+        "c": "https://github.com/opengvlab/internvideo",
+        "n": "InternVideo2-1B",
+        "d": "2024-03-22",
+        "m1": "42.4"
+      },
+      {
+        "p": {
+          "name": "InternVideo: General Video Foundation Models via Generative and Discriminative Learning",
+          "link": "https://arxiv.org/abs/2212.03191v2"
+        },
+        "c": "https://github.com/opengvlab/internvideo",
+        "n": "InternVideo",
+        "d": "2022-12-06",
+        "m1": "41.55"
+      },
+      {
+        "p": {
+          "name": "TriDet: Temporal Action Detection with Relative Boundary Modeling",
+          "link": "https://arxiv.org/abs/2303.07347v2"
+        },
+        "c": "https://github.com/dingfengshi/tridet",
+        "n": "TriDet (SlowFast)",
+        "d": "2023-03-13",
+        "m1": "38.6",
+        "m2": "56.7",
+        "m3": "39.3",
+        "m4": "11.7"
+      },
+      {
+        "p": {
+          "name": "TriDet: Temporal Action Detection with Relative Boundary Modeling",
+          "link": "https://arxiv.org/abs/2303.07347v2"
+        },
+        "c": "https://github.com/dingfengshi/tridet",
+        "n": "TriDet (I3D RGB)",
+        "d": "2023-03-13",
+        "m1": "36.8",
+        "m2": "54.5",
+        "m3": "36.8",
+        "m4": "11.5"
+      },
+      {
+        "p": {
+          "name": "End-to-end Temporal Action Detection with Transformer",
+          "link": "https://arxiv.org/abs/2106.10271v4"
+        },
+        "c": "https://github.com/xlliu7/TadTR",
+        "n": "TadTr (I3D RGB)",
+        "d": "2021-06-18",
+        "m1": "32.09",
+        "m2": "47.14",
+        "m3": "32.11",
+        "m4": "10.94"
+      },
+      {
+        "p": {
+          "name": "Low-Fidelity Video Encoder Optimization for Temporal Action Localization",
+          "link": "http://proceedings.neurips.cc/paper/2021/hash/522a9ae9a99880d39e5daec35375e999-Abstract.html"
+        },
+        "c": "",
+        "n": "LoFi+G-TAD (RGB, RN18)",
+        "d": "2021-12-01",
+        "m1": "24.64",
+        "m2": "37.78",
+        "m3": "24.40",
+        "m4": "7.29"
+      },
+      {
+        "p": {
+          "name": "HACS: Human Action Clips and Segments Dataset for Recognition and Temporal Localization",
+          "link": "https://arxiv.org/abs/1712.09374v3"
+        },
+        "c": "https://github.com/hangzhaomit/HACS-dataset",
+        "n": "SSN",
+        "d": "2017-12-26",
+        "m1": "18.97",
+        "m2": "28.82",
+        "m3": "18.80",
+        "m4": "5.32"
+      }
+    ]
+  }
+}

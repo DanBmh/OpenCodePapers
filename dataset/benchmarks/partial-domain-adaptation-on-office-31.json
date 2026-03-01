@@ -1,0 +1,108 @@
+{
+  "title": "partial-domain-adaptation-on-office-31",
+  "task-hierarchy": [
+    "Domain Adaptation",
+    "Partial Domain Adaptation"
+  ],
+  "dataset-info": {
+    "link": "https://www.cc.gatech.edu/~judy/domainadapt/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Select, Label, and Mix: Learning Discriminative Invariant Feature Representations for Partial Domain Adaptation",
+          "link": "https://arxiv.org/abs/2012.03358v2"
+        },
+        "c": "",
+        "n": "SLM",
+        "d": "2020-12-06",
+        "m1": "98.38"
+      },
+      {
+        "p": {
+          "name": "Source Class Selection with Label Propagation for Partial Domain Adaptation",
+          "link": "https://breckon.org/toby/publications/papers/wang21pda.pdf"
+        },
+        "c": "https://github.com/hellowangqian/scs-lp-pda",
+        "n": "SCS-LP",
+        "d": "2021-09-01",
+        "m1": "98.1"
+      },
+      {
+        "p": {
+          "name": "Selective Partial Domain Adaptation",
+          "link": "https://bmvc2022.mpi-inf.mpg.de/0420.pdf"
+        },
+        "c": "https://github.com/Pengxin-Guo/SPDA",
+        "n": "SPDA",
+        "d": "2022-10-01",
+        "m1": "98.01"
+      },
+      {
+        "p": {
+          "name": "Domain Consensus Clustering for Universal Domain Adaptation",
+          "link": "http://www.guangrui.li/papers/guangruiCVPR2021.pdf"
+        },
+        "c": "https://github.com/Solacex/Domain-Consensus-Clustering",
+        "n": "DCC",
+        "d": "2021-06-05",
+        "m1": "97.90"
+      },
+      {
+        "p": {
+          "name": "A Balanced and Uncertainty-aware Approach for Partial Domain Adaptation",
+          "link": "https://arxiv.org/abs/2003.02541v2"
+        },
+        "c": "https://github.com/tim-learn/BA3US",
+        "n": "BA^3US",
+        "d": "2020-03-05",
+        "m1": "97.8"
+      },
+      {
+        "p": {
+          "name": "Selective Transfer with Reinforced Transfer Network for Partial Domain Adaptation",
+          "link": "https://arxiv.org/abs/1905.10756v4"
+        },
+        "c": "",
+        "n": "RTNet_adv",
+        "d": "2019-05-26",
+        "m1": "96.9"
+      },
+      {
+        "p": {
+          "name": "Learning to Transfer Examples for Partial Domain Adaptation",
+          "link": "http://arxiv.org/abs/1903.12230v2"
+        },
+        "c": "https://github.com/thuml/ETN",
+        "n": "ETN",
+        "d": "2019-03-28",
+        "m1": "96.7"
+      }
+    ]
+  }
+}

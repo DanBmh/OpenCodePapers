@@ -1,0 +1,99 @@
+{
+  "title": "thermal-image-segmentation-on-noisy-rs-rgb-t",
+  "task-hierarchy": [
+    "Semantic Segmentation",
+    "Scene Segmentation",
+    "Thermal Image Segmentation"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Delivering Arbitrary-Modal Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2303.01480v1"
+        },
+        "c": "https://github.com/jamycheung/DELIVER",
+        "n": "CMNeXt (B4)",
+        "d": "2023-03-02",
+        "m1": "60.3"
+      },
+      {
+        "p": {
+          "name": "Explicit Attention-Enhanced Fusion for RGB-Thermal Perception Tasks",
+          "link": "https://arxiv.org/abs/2303.15710v1"
+        },
+        "c": "https://github.com/freeformrobotics/eaefnet",
+        "n": "EAEFNet",
+        "d": "2023-03-28",
+        "m1": "60.0"
+      },
+      {
+        "p": {
+          "name": "CMX: Cross-Modal Fusion for RGB-X Semantic Segmentation with Transformers",
+          "link": "https://arxiv.org/abs/2203.04838v5"
+        },
+        "c": "https://github.com/huaaaliu/rgbx_semantic_segmentation",
+        "n": "CMX (B4)",
+        "d": "2022-03-09",
+        "m1": "56.1"
+      },
+      {
+        "p": {
+          "name": "Bi-directional Cross-Modality Feature Propagation with Separation-and-Aggregation Gate for RGB-D Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2007.09183v1"
+        },
+        "c": "https://github.com/charlesCXK/RGBD_Semantic_Segmentation_PyTorch",
+        "n": "SA-Gate",
+        "d": "2020-07-17",
+        "m1": "54.0"
+      },
+      {
+        "p": {
+          "name": "RTFNet: RGB-Thermal Fusion Network for Semantic Segmentation of Urban Scenes",
+          "link": "https://ieeexplore.ieee.org/abstract/document/8666745"
+        },
+        "c": "https://github.com/yuxiangsun/RTFNet",
+        "n": "RTFNet",
+        "d": "2019-03-13",
+        "m1": "48.5"
+      },
+      {
+        "p": {
+          "name": "MFNet: Towards real-time semantic segmentation for autonomous vehicles with multi-spectral scenes",
+          "link": "https://ieeexplore.ieee.org/abstract/document/8206396"
+        },
+        "c": "",
+        "n": "MFNet",
+        "d": "2017-12-14",
+        "m1": "33.1"
+      }
+    ]
+  }
+}

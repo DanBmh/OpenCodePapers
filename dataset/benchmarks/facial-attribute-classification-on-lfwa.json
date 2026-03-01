@@ -1,0 +1,109 @@
+{
+  "title": "facial-attribute-classification-on-lfwa",
+  "task-hierarchy": [
+    "3D Face Reconstruction",
+    "Facial Recognition and Modelling",
+    "Facial Attribute Classification"
+  ],
+  "dataset-info": {
+    "link": "https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Error Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Label2Label: A Language Modeling Framework for Multi-Attribute Learning",
+          "link": "https://arxiv.org/abs/2207.08677v1"
+        },
+        "c": "https://github.com/li-wanhua/label2label",
+        "n": "Label2Label",
+        "d": "2022-07-18",
+        "m1": "12.49"
+      },
+      {
+        "p": {
+          "name": "Improving Facial Attribute Prediction using Semantic Segmentation",
+          "link": "http://arxiv.org/abs/1704.08740v1"
+        },
+        "c": "",
+        "n": "SSP + SSG",
+        "d": "2017-04-27",
+        "m1": "12.87"
+      },
+      {
+        "p": {
+          "name": "Learning Spatial-Semantic Relationship for Facial Attribute Recognition With Limited Labeled Data",
+          "link": "http://openaccess.thecvf.com//content/CVPR2021/html/Shu_Learning_Spatial-Semantic_Relationship_for_Facial_Attribute_Recognition_With_Limited_Labeled_CVPR_2021_paper.html"
+        },
+        "c": "",
+        "n": "SSPL",
+        "d": "2021-06-19",
+        "m1": "13.47"
+      },
+      {
+        "p": {
+          "name": "Attributes for Improved Attributes: A Multi-Task Network for Attribute Classification",
+          "link": "http://arxiv.org/abs/1604.07360v1"
+        },
+        "c": "",
+        "n": "MCNN-AUX",
+        "d": "2016-04-25",
+        "m1": "13.69"
+      },
+      {
+        "p": {
+          "name": "Heterogeneous Face Attribute Estimation: A Deep Multi-Task Learning Approach",
+          "link": "http://arxiv.org/abs/1706.00906v3"
+        },
+        "c": "",
+        "n": "DMTL",
+        "d": "2017-06-03",
+        "m1": "13.85"
+      },
+      {
+        "p": {
+          "name": "Deep Learning Face Attributes in the Wild",
+          "link": "https://arxiv.org/abs/1411.7766v3"
+        },
+        "c": "https://github.com/facebookresearch/disentangling-correlated-factors",
+        "n": "LNets+ANet",
+        "d": "2014-11-28",
+        "m1": "16.15"
+      },
+      {
+        "p": {
+          "name": "PANDA: Pose Aligned Networks for Deep Attribute Modeling",
+          "link": "http://arxiv.org/abs/1311.5591v2"
+        },
+        "c": "https://github.com/FanjieLUO/matlab",
+        "n": "PANDA",
+        "d": "2013-11-21",
+        "m1": "18.97"
+      }
+    ]
+  }
+}

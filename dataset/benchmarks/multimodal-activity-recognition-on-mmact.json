@@ -1,0 +1,75 @@
+{
+  "title": "multimodal-activity-recognition-on-mmact",
+  "task-hierarchy": [
+    "Activity Recognition",
+    "Multimodal Activity Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://mmact19.github.io/2019/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1-Score (Cross-Session)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "F1-Score (Cross-Subject)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MuMu: Cooperative Multitask Learning-based Guided Multimodal Fusion",
+          "link": "https://www.researchgate.net/publication/358345510_MuMu_Cooperative_Multitask_Learning-based_Guided_Multimodal_Fusion"
+        },
+        "c": "",
+        "n": "MuMu",
+        "d": "2022-02-22",
+        "m1": "87.50",
+        "m2": "76.28"
+      },
+      {
+        "p": {
+          "name": "Multi-GAT: A Graphical Attention-based Hierarchical Multimodal Representation Learning Approach for Human Activity Recognition",
+          "link": "https://ieeexplore.ieee.org/abstract/document/9354900/"
+        },
+        "c": "",
+        "n": "Multi-GAT",
+        "d": "2021-04-01",
+        "m1": "91.48",
+        "m2": "75.24"
+      },
+      {
+        "p": {
+          "name": "Fusion-GCN: Multimodal Action Recognition using Graph Convolutional Networks",
+          "link": "https://arxiv.org/abs/2109.12946v1"
+        },
+        "c": "https://github.com/mduhme/fusion-gcn",
+        "n": "Fusion-GCN",
+        "d": "2021-09-27",
+        "m2": "89.60"
+      }
+    ]
+  }
+}

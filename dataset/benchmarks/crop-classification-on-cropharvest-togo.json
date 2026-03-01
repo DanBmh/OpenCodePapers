@@ -1,0 +1,96 @@
+{
+  "title": "crop-classification-on-cropharvest-togo",
+  "task-hierarchy": [
+    "Crop Classification"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Average Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Target Binary F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "F1 Macro",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "In the Search for Optimal Multi-view Learning Models for Crop Classification with Global Remote Sensing Data",
+          "link": "https://arxiv.org/abs/2403.16582v2"
+        },
+        "c": "https://github.com/fmenat/optimal-multiview-crop-classifier",
+        "n": "Ensemble aggregation with GRU",
+        "d": "2024-03-25",
+        "m1": "0.842",
+        "m4": "0.820"
+      },
+      {
+        "p": {
+          "name": "A Comparative Assessment of Multi-view fusion learning for Crop Classification",
+          "link": "https://arxiv.org/abs/2308.05407v1"
+        },
+        "c": "https://github.com/fmenat/multiviewcropclassification",
+        "n": "Ensemble aggregation",
+        "d": "2023-08-10",
+        "m1": "0.840",
+        "m2": "0.778",
+        "m3": "0.909"
+      },
+      {
+        "p": {
+          "name": "In the Search for Optimal Multi-view Learning Models for Crop Classification with Global Remote Sensing Data",
+          "link": "https://arxiv.org/abs/2403.16582v2"
+        },
+        "c": "https://github.com/fmenat/optimal-multiview-crop-classifier",
+        "n": "Decision fusion with GRU",
+        "d": "2024-03-25",
+        "m1": "0.825",
+        "m4": "0.7952"
+      },
+      {
+        "p": {
+          "name": "Lightweight, Pre-trained Transformers for Remote Sensing Timeseries",
+          "link": "https://arxiv.org/abs/2304.14065v4"
+        },
+        "c": "https://github.com/nasaharvest/presto",
+        "n": "PrestoR",
+        "d": "2023-04-27",
+        "m2": "0.798"
+      }
+    ]
+  }
+}

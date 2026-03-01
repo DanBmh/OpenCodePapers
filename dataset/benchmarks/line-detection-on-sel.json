@@ -1,0 +1,75 @@
+{
+  "title": "line-detection-on-sel",
+  "task-hierarchy": [
+    "Line Detection"
+  ],
+  "dataset-info": {
+    "link": "http://mcl.korea.ac.kr/jtlee_iccv2017/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AUC_F",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "HIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Harmonious Semantic Line Detection via Maximal Weight Clique Selection",
+          "link": "https://arxiv.org/abs/2104.06903v1"
+        },
+        "c": "https://github.com/dongkwonjin/Semantic-Line-MWCS",
+        "n": "HSLD",
+        "d": "2021-04-14",
+        "m1": "86.83",
+        "m2": "81.03"
+      },
+      {
+        "p": {
+          "name": "Semantic Line Detection Using Mirror Attention and Comparative Ranking and Matching",
+          "link": "https://arxiv.org/abs/2203.15285v1"
+        },
+        "c": "https://github.com/dongkwonjin/Semantic-Line-DRM",
+        "n": "DRM",
+        "d": "2022-03-29",
+        "m1": "86.29",
+        "m2": "80.23"
+      },
+      {
+        "p": {
+          "name": "Semantic Line Detection and Its Applications",
+          "link": "http://openaccess.thecvf.com/content_iccv_2017/html/Lee_Semantic_Line_Detection_ICCV_2017_paper.html"
+        },
+        "c": "https://github.com/dongkwonjin/Semantic-Line-SLNet",
+        "n": "SLNet",
+        "d": "2017-10-01",
+        "m1": "82.57",
+        "m2": "77.87"
+      }
+    ]
+  }
+}

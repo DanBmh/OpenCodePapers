@@ -1,0 +1,142 @@
+{
+  "title": "garment-reconstruction-on-4d-dress",
+  "task-hierarchy": [
+    "3D Reconstruction",
+    "Garment Reconstruction"
+  ],
+  "dataset-info": {
+    "link": "https://ait.ethz.ch/4d-dress"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Chamfer (cm)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "IOU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "BCNet: Learning Body and Cloth Shape from A Single Image",
+          "link": "https://arxiv.org/abs/2004.00214v2"
+        },
+        "c": "https://github.com/jby1993/BCNet",
+        "n": "BCNet_Upper",
+        "d": "2020-04-01",
+        "m1": "2.079",
+        "m2": "0.700"
+      },
+      {
+        "p": {
+          "name": "SMPLicit: Topology-aware Generative Model for Clothed People",
+          "link": "https://arxiv.org/abs/2103.06871v2"
+        },
+        "c": "https://github.com/enriccorona/SMPLicit",
+        "n": "SMPLicit_Lower",
+        "d": "2021-03-11",
+        "m1": "2.101",
+        "m2": "0.698"
+      },
+      {
+        "p": {
+          "name": "SMPLicit: Topology-aware Generative Model for Clothed People",
+          "link": "https://arxiv.org/abs/2103.06871v2"
+        },
+        "c": "https://github.com/enriccorona/SMPLicit",
+        "n": "SMPLicit_Upper",
+        "d": "2021-03-11",
+        "m1": "2.452",
+        "m2": "0.617"
+      },
+      {
+        "p": {
+          "name": "BCNet: Learning Body and Cloth Shape from A Single Image",
+          "link": "https://arxiv.org/abs/2004.00214v2"
+        },
+        "c": "https://github.com/jby1993/BCNet",
+        "n": "BCNet_Lower",
+        "d": "2020-04-01",
+        "m1": "2.533",
+        "m2": "0.675"
+      },
+      {
+        "p": {
+          "name": "3D Clothed Human Reconstruction in the Wild",
+          "link": "https://arxiv.org/abs/2207.10053v1"
+        },
+        "c": "https://github.com/hygenie1228/clothwild_release",
+        "n": "ClothWild_Lower",
+        "d": "2022-07-20",
+        "m1": "2.690",
+        "m2": "0.582"
+      },
+      {
+        "p": {
+          "name": "3D Clothed Human Reconstruction in the Wild",
+          "link": "https://arxiv.org/abs/2207.10053v1"
+        },
+        "c": "https://github.com/hygenie1228/clothwild_release",
+        "n": "ClothWild_Upper",
+        "d": "2022-07-20",
+        "m1": "3.279",
+        "m2": "0.533"
+      },
+      {
+        "p": {
+          "name": "SMPLicit: Topology-aware Generative Model for Clothed People",
+          "link": "https://arxiv.org/abs/2103.06871v2"
+        },
+        "c": "https://github.com/enriccorona/SMPLicit",
+        "n": "SMPLicit_Outer",
+        "d": "2021-03-11",
+        "m1": "3.359",
+        "m2": "0.618"
+      },
+      {
+        "p": {
+          "name": "BCNet: Learning Body and Cloth Shape from A Single Image",
+          "link": "https://arxiv.org/abs/2004.00214v2"
+        },
+        "c": "https://github.com/jby1993/BCNet",
+        "n": "BCNet_Outer",
+        "d": "2020-04-01",
+        "m1": "3.600",
+        "m2": "0.639"
+      },
+      {
+        "p": {
+          "name": "3D Clothed Human Reconstruction in the Wild",
+          "link": "https://arxiv.org/abs/2207.10053v1"
+        },
+        "c": "https://github.com/hygenie1228/clothwild_release",
+        "n": "ClothWild_Outer",
+        "d": "2022-07-20",
+        "m1": "4.163",
+        "m2": "0.588"
+      }
+    ]
+  }
+}

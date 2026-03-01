@@ -1,0 +1,143 @@
+{
+  "title": "image-denoising-on-eld-sonya7s2-x100",
+  "task-hierarchy": [
+    "3D Architecture",
+    "Denoising",
+    "Image Denoising"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/Vandermode/ELD"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR (Raw)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM (Raw)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Physics-Guided ISO-Dependent Sensor Noise Modeling for Extreme Low-Light Photography",
+          "link": "http://openaccess.thecvf.com//content/CVPR2023/html/Cao_Physics-Guided_ISO-Dependent_Sensor_Noise_Modeling_for_Extreme_Low-Light_Photography_CVPR_2023_paper.html"
+        },
+        "c": "https://github.com/happycaoyue/lld",
+        "n": "LLD*",
+        "d": "2023-01-01",
+        "m1": "46.74",
+        "m2": "0.986"
+      },
+      {
+        "p": {
+          "name": "Learnability Enhancement for Low-light Raw Denoising: Where Paired Real Data Meets Noise Modeling",
+          "link": "https://arxiv.org/abs/2207.06103v2"
+        },
+        "c": "https://github.com/megvii-research/pmn",
+        "n": "PMN",
+        "d": "2022-07-13",
+        "m1": "46.50",
+        "m2": "0.985"
+      },
+      {
+        "p": {
+          "name": "Rethinking Noise Synthesis and Modeling in Raw Denoising",
+          "link": "https://arxiv.org/abs/2110.04756v3"
+        },
+        "c": "https://github.com/zhangyi-3/noise-synthesis",
+        "n": "SFRN",
+        "d": "2021-10-10",
+        "m1": "46.02",
+        "m2": "0.977"
+      },
+      {
+        "p": {
+          "name": "Physics-Guided ISO-Dependent Sensor Noise Modeling for Extreme Low-Light Photography",
+          "link": "http://openaccess.thecvf.com//content/CVPR2023/html/Cao_Physics-Guided_ISO-Dependent_Sensor_Noise_Modeling_for_Extreme_Low-Light_Photography_CVPR_2023_paper.html"
+        },
+        "c": "https://github.com/happycaoyue/lld",
+        "n": "LLD",
+        "d": "2023-01-01",
+        "m1": "45.61",
+        "m2": "0.977"
+      },
+      {
+        "p": {
+          "name": "A Physics-based Noise Formation Model for Extreme Low-light Raw Denoising",
+          "link": "https://arxiv.org/abs/2003.12751v2"
+        },
+        "c": "https://github.com/Vandermode/NoiseModel",
+        "n": "ELD",
+        "d": "2020-03-28",
+        "m1": "45.45",
+        "m2": "0.975"
+      },
+      {
+        "p": {
+          "name": "Towards General Low-Light Raw Noise Synthesis and Modeling",
+          "link": "https://arxiv.org/abs/2307.16508v2"
+        },
+        "c": "https://github.com/fengzhang427/LRD",
+        "n": "LRD",
+        "d": "2023-07-31",
+        "m1": "44.95",
+        "m2": "0.979"
+      },
+      {
+        "p": {
+          "name": "Learning to See in the Dark",
+          "link": "http://arxiv.org/abs/1805.01934v1"
+        },
+        "c": "https://github.com/cchen156/Learning-to-See-in-the-Dark",
+        "n": "Paired Data(SID)",
+        "d": "2018-05-04",
+        "m1": "44.47",
+        "m2": "0.968"
+      },
+      {
+        "p": {
+          "name": "Dancing under the stars: video denoising in starlight",
+          "link": "https://arxiv.org/abs/2204.04210v1"
+        },
+        "c": "",
+        "n": "Starlight",
+        "d": "2022-04-08",
+        "m1": "43.80",
+        "m2": "0.936"
+      },
+      {
+        "p": {
+          "name": "Noise Flow: Noise Modeling with Conditional Normalizing Flows",
+          "link": "https://arxiv.org/abs/1908.08453v1"
+        },
+        "c": "https://github.com/BorealisAI/noise_flow",
+        "n": "Noise Flow",
+        "d": "2019-08-22",
+        "m1": "41.05",
+        "m2": "0.925"
+      }
+    ]
+  }
+}

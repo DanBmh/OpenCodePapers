@@ -1,0 +1,67 @@
+{
+  "title": "visual-speech-recognition-on-lrs3-ted",
+  "task-hierarchy": [
+    "Visual Speech Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://www.robots.ox.ac.uk/~vgg/data/lip_reading/lrs3.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Word Error Rate (WER)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Auto-AVSR: Audio-Visual Speech Recognition with Automatic Labels",
+          "link": "https://arxiv.org/abs/2303.14307v3"
+        },
+        "c": "https://github.com/mpc001/auto_avsr",
+        "n": "CTC/Attention",
+        "d": "2023-03-25",
+        "m1": "19.1"
+      },
+      {
+        "p": {
+          "name": "Sub-word Level Lip Reading With Visual Attention",
+          "link": "https://arxiv.org/abs/2110.07603v2"
+        },
+        "c": "",
+        "n": "VTP with more data",
+        "d": "2021-10-14",
+        "m1": "30.7"
+      },
+      {
+        "p": {
+          "name": "Sub-word Level Lip Reading With Visual Attention",
+          "link": "https://arxiv.org/abs/2110.07603v2"
+        },
+        "c": "",
+        "n": "VTP",
+        "d": "2021-10-14",
+        "m1": "40.6"
+      }
+    ]
+  }
+}

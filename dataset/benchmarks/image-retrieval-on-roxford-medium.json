@@ -1,0 +1,267 @@
+{
+  "title": "image-retrieval-on-roxford-medium",
+  "task-hierarchy": [
+    "Image Retrieval"
+  ],
+  "dataset-info": {
+    "link": "https://cmp.felk.cvut.cz/revisitop/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "AMES: Asymmetric and Memory-Efficient Similarity Estimation for Instance-level Retrieval",
+          "link": "https://arxiv.org/abs/2408.03282v1"
+        },
+        "c": "https://github.com/pavelsuma/ames",
+        "n": "AMES",
+        "d": "2024-08-06",
+        "m1": "90.7"
+      },
+      {
+        "p": {
+          "name": "Hypergraph Propagation and Community Selection for Objects Retrieval",
+          "link": "http://proceedings.neurips.cc/paper/2021/hash/1da546f25222c1ee710cf7e2f7a3ff0c-Abstract.html"
+        },
+        "c": "https://github.com/anguoyuan/Hypergraph-Propagation-and-Community-Selection-for-Objects-Retrieval",
+        "n": "Hypergraph propagation+Community selection",
+        "d": "2021-12-01",
+        "m1": "88.4"
+      },
+      {
+        "p": {
+          "name": "Learning Token-based Representation for Image Retrieval",
+          "link": "https://arxiv.org/abs/2112.06159v1"
+        },
+        "c": "https://github.com/mcc-wh/token",
+        "n": "Token",
+        "d": "2021-12-12",
+        "m1": "82.28"
+      },
+      {
+        "p": {
+          "name": "Learning Super-Features for Image Retrieval",
+          "link": "https://arxiv.org/abs/2201.13182v1"
+        },
+        "c": "https://github.com/naver/fire",
+        "n": "FIRe",
+        "d": "2022-01-31",
+        "m1": "81.8"
+      },
+      {
+        "p": {
+          "name": "Instance-level Image Retrieval using Reranking Transformers",
+          "link": "https://arxiv.org/abs/2103.12236v3"
+        },
+        "c": "https://github.com/uvavision/rerankingtransformer",
+        "n": "DELG+ α QE reranking + RRT reranking",
+        "d": "2021-03-22",
+        "m1": "80.4"
+      },
+      {
+        "p": {
+          "name": "Learning and aggregating deep local descriptors for instance-level recognition",
+          "link": "https://arxiv.org/abs/2007.13172v1"
+        },
+        "c": "https://github.com/gtolias/how",
+        "n": "HOW",
+        "d": "2020-07-26",
+        "m1": "79.4"
+      },
+      {
+        "p": {
+          "name": "Google Landmarks Dataset v2 -- A Large-Scale Benchmark for Instance-Level Recognition and Retrieval",
+          "link": "https://arxiv.org/abs/2004.01804v2"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/research/delf",
+        "n": "ResNet101+ArcFace GLDv2-train-clean",
+        "d": "2020-04-03",
+        "m1": "74.2"
+      },
+      {
+        "p": {
+          "name": "Large-Scale Image Retrieval with Attentive Deep Local Features",
+          "link": "http://arxiv.org/abs/1612.06321v4"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/research/delf",
+        "n": "DELF–HQE+SP",
+        "d": "2016-12-19",
+        "m1": "73.4"
+      },
+      {
+        "p": {
+          "name": "Revisiting Oxford and Paris: Large-Scale Image Retrieval Benchmarking",
+          "link": "http://arxiv.org/abs/1803.11285v1"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/research/delf",
+        "n": "HesAff–rSIFT–HQE+SP",
+        "d": "2018-03-29",
+        "m1": "71.3 "
+      },
+      {
+        "p": {
+          "name": "Large-Scale Image Retrieval with Attentive Deep Local Features",
+          "link": "http://arxiv.org/abs/1612.06321v4"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/research/delf",
+        "n": "DELF–ASMK*+SP",
+        "d": "2016-12-19",
+        "m1": "67.8 "
+      },
+      {
+        "p": {
+          "name": "Revisiting Oxford and Paris: Large-Scale Image Retrieval Benchmarking",
+          "link": "http://arxiv.org/abs/1803.11285v1"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/research/delf",
+        "n": "HesAff–rSIFT–HQE",
+        "d": "2018-03-29",
+        "m1": "66.3 "
+      },
+      {
+        "p": {
+          "name": "Dark Side Augmentation: Generating Diverse Night Examples for Metric Learning",
+          "link": "https://arxiv.org/abs/2309.16351v2"
+        },
+        "c": "https://github.com/mohwald/gandtr",
+        "n": "HED-N-GAN",
+        "d": "2023-09-28",
+        "m1": "66.3"
+      },
+      {
+        "p": {
+          "name": "Fine-tuning CNN Image Retrieval with No Human Annotation",
+          "link": "http://arxiv.org/abs/1711.02512v2"
+        },
+        "c": "https://github.com/filipradenovic/cnnimageretrieval-pytorch",
+        "n": "R–GeM",
+        "d": "2017-11-03",
+        "m1": "64.7 "
+      },
+      {
+        "p": {
+          "name": "End-to-end Learning of Deep Visual Representations for Image Retrieval",
+          "link": "http://arxiv.org/abs/1610.07940v2"
+        },
+        "c": "https://github.com/almazan/deep-image-retrieval",
+        "n": "R–R-MAC",
+        "d": "2016-10-25",
+        "m1": "60.9"
+      },
+      {
+        "p": {
+          "name": "Revisiting Oxford and Paris: Large-Scale Image Retrieval Benchmarking",
+          "link": "http://arxiv.org/abs/1803.11285v1"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/research/delf",
+        "n": "HesAff–rSIFT–ASMK*+SP",
+        "d": "2018-03-29",
+        "m1": "60.6"
+      },
+      {
+        "p": {
+          "name": "Revisiting Oxford and Paris: Large-Scale Image Retrieval Benchmarking",
+          "link": "http://arxiv.org/abs/1803.11285v1"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/research/delf",
+        "n": "HesAff–rSIFT–ASMK*",
+        "d": "2018-03-29",
+        "m1": "60.4 "
+      },
+      {
+        "p": {
+          "name": "Revisiting Oxford and Paris: Large-Scale Image Retrieval Benchmarking",
+          "link": "http://arxiv.org/abs/1803.11285v1"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/research/delf",
+        "n": "HesAff–rSIFT–SMK*+SP",
+        "d": "2018-03-29",
+        "m1": "59.8 "
+      },
+      {
+        "p": {
+          "name": "Revisiting Oxford and Paris: Large-Scale Image Retrieval Benchmarking",
+          "link": "http://arxiv.org/abs/1803.11285v1"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/research/delf",
+        "n": "HesAff–rSIFT–SMK*",
+        "d": "2018-03-29",
+        "m1": "59.4"
+      },
+      {
+        "p": {
+          "name": "Emerging Properties in Self-Supervised Vision Transformers",
+          "link": "https://arxiv.org/abs/2104.14294v2"
+        },
+        "c": "https://github.com/facebookresearch/dino",
+        "n": "Dino",
+        "d": "2021-04-29",
+        "m1": "51.5"
+      },
+      {
+        "p": {
+          "name": "Cross-dimensional Weighting for Aggregated Deep Convolutional Features",
+          "link": "http://arxiv.org/abs/1512.04065v2"
+        },
+        "c": "https://github.com/yahoo/crow",
+        "n": "R – [O] –CroW ",
+        "d": "2015-12-13",
+        "m1": "42.4"
+      },
+      {
+        "p": {
+          "name": "Particular object retrieval with integral max-pooling of CNN activations",
+          "link": "http://arxiv.org/abs/1511.05879v2"
+        },
+        "c": "https://github.com/almazan/deep-image-retrieval",
+        "n": "R – [O] –MAC ",
+        "d": "2015-11-18",
+        "m1": "41.7"
+      },
+      {
+        "p": {
+          "name": "Aggregating Deep Convolutional Features for Image Retrieval",
+          "link": "http://arxiv.org/abs/1510.07493v1"
+        },
+        "c": "https://github.com/talal579/Deep-image-matching",
+        "n": "R – [O] –SPoC",
+        "d": "2015-10-26",
+        "m1": "39.8"
+      },
+      {
+        "p": {
+          "name": "Revisiting Oxford and Paris: Large-Scale Image Retrieval Benchmarking",
+          "link": "http://arxiv.org/abs/1803.11285v1"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/research/delf",
+        "n": "HesAff–rSIFT–VLAD ",
+        "d": "2018-03-29",
+        "m1": "33.9 "
+      }
+    ]
+  }
+}

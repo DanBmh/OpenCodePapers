@@ -1,0 +1,95 @@
+{
+  "title": "generalized-zero-shot-learning-on-awa2",
+  "task-hierarchy": [
+    "Zero-Shot Learning",
+    "Generalized Zero-Shot Learning"
+  ],
+  "dataset-info": {
+    "link": "https://cvml.ist.ac.at/AwA/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Harmonic mean",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Accuracy Seen",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Accuracy Unseen",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "H",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Exploring Data Efficiency in Zero-Shot Learning with Diffusion Models",
+          "link": "https://arxiv.org/abs/2406.02929v1"
+        },
+        "c": "",
+        "n": "ZeroDiff",
+        "d": "2024-06-05",
+        "m1": "79.5"
+      },
+      {
+        "p": {
+          "name": "Zero-Shot Learning with Common Sense Knowledge Graphs",
+          "link": "https://arxiv.org/abs/2006.10713v4"
+        },
+        "c": "https://github.com/BatsResearch/zsl-kg",
+        "n": "ZSL-KG",
+        "d": "2020-06-18",
+        "m1": "74.58"
+      },
+      {
+        "p": {
+          "name": "Latent Embedding Feedback and Discriminative Features for Zero-Shot Classification",
+          "link": "https://arxiv.org/abs/2003.07833v2"
+        },
+        "c": "https://github.com/akshitac8/tfvaegan",
+        "n": "GZSL_TF-VAEGAN",
+        "d": "2020-03-17",
+        "m1": "66.6"
+      },
+      {
+        "p": {
+          "name": "Zero-Shot Logit Adjustment",
+          "link": "https://arxiv.org/abs/2204.11822v4"
+        },
+        "c": "https://github.com/cdb342/ijcai-2022-zla",
+        "n": "WGAN+ZLAP",
+        "d": "2022-04-25",
+        "m2": "82.2",
+        "m3": "65.4",
+        "m4": "72.8"
+      }
+    ]
+  }
+}

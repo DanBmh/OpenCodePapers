@@ -1,0 +1,336 @@
+{
+  "title": "link-property-prediction-on-ogbl-citation2",
+  "task-hierarchy": [
+    "Link Property Prediction"
+  ],
+  "dataset-info": {
+    "link": "https://ogb.stanford.edu/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Ext. data",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Test MRR",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Validation MRR",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Number of params",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "GraphGPT: Graph Learning with Generative Pre-trained Transformers",
+          "link": "https://arxiv.org/abs/2401.00529v1"
+        },
+        "c": "https://github.com/alibaba/graph-gpt",
+        "n": "GraphGPT(d1n30)",
+        "d": "2023-12-31",
+        "m1": "No",
+        "m2": "0.9305 ± 0.0020",
+        "m3": "0.9295 ± 0.0022",
+        "m4": "133096832"
+      },
+      {
+        "p": {
+          "name": "Pure Message Passing Can Estimate Common Neighbor for Link Prediction",
+          "link": "https://arxiv.org/abs/2309.00976v4"
+        },
+        "c": "https://github.com/Barcavin/efficient-node-labelling",
+        "n": "MPLP",
+        "d": "2023-09-02",
+        "m1": "No",
+        "m2": "0.9072 ± 0.0012",
+        "m3": "0.9074 ± 0.0011",
+        "m4": "749757283"
+      },
+      {
+        "p": {
+          "name": "GraphGPT: Graph Learning with Generative Pre-trained Transformers",
+          "link": "https://arxiv.org/abs/2401.00529v1"
+        },
+        "c": "https://github.com/alibaba/graph-gpt",
+        "n": "GraphGPT(SMTP)",
+        "d": "2023-12-31",
+        "m1": "No",
+        "m2": "0.9055 ± 0.0016",
+        "m3": "0.9042 ± 0.0014",
+        "m4": "46784128"
+      },
+      {
+        "p": {
+          "name": "Circle Feature Graphormer: Can Circle Features Stimulate Graph Transformer?",
+          "link": "https://arxiv.org/abs/2309.06574v1"
+        },
+        "c": "https://github.com/jingsonglv/CFG",
+        "n": "CFG",
+        "d": "2023-09-11",
+        "m1": "No",
+        "m2": "0.8997 ± 0.0015",
+        "m3": "0.8987 ± 0.0011",
+        "m4": "686253"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "SIEG",
+        "d": null,
+        "m1": "No",
+        "m2": "0.8957 ± 0.0010",
+        "m3": "0.8948 ± 0.0008",
+        "m4": "256802"
+      },
+      {
+        "p": {
+          "name": "Can GNNs Learn Link Heuristics? A Concise Review and Evaluation of Link Prediction Methods",
+          "link": "https://arxiv.org/abs/2411.14711v1"
+        },
+        "c": "https://github.com/astroming/GNNHE",
+        "n": "GCN + Heuristic Encoding",
+        "d": "2024-11-22",
+        "m1": "No",
+        "m2": "0.8891 ± 0.0005",
+        "m3": "0.8892 ± 0.0005",
+        "m4": "372674"
+      },
+      {
+        "p": {
+          "name": "Network In Graph Neural Network",
+          "link": "https://arxiv.org/abs/2111.11638v1"
+        },
+        "c": "",
+        "n": "NGNN + SEAL",
+        "d": "2021-11-23",
+        "m1": "No",
+        "m2": "0.8891 ± 0.0022",
+        "m3": "0.8879 ± 0.0022",
+        "m4": "1134402"
+      },
+      {
+        "p": {
+          "name": "Algorithm and System Co-design for Efficient Subgraph-based Graph Representation Learning",
+          "link": "https://arxiv.org/abs/2202.13538v2"
+        },
+        "c": "https://github.com/graph-com/surel",
+        "n": "SUREL",
+        "d": "2022-02-28",
+        "m1": "No",
+        "m2": "0.8883 ± 0.0018",
+        "m3": "0.8891 ± 0.0021",
+        "m4": "79617"
+      },
+      {
+        "p": {
+          "name": "Simplifying Subgraph Representation Learning for Scalable Link Prediction",
+          "link": "https://arxiv.org/abs/2301.12562v4"
+        },
+        "c": "https://github.com/venomouscyanide/s3grl",
+        "n": "S3GRL (PoS Plus)",
+        "d": "2023-01-29",
+        "m1": "No",
+        "m2": "0.8814 ± 0.0008",
+        "m3": "0.8809 ± 0.0074",
+        "m4": "142275001"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BUDDY",
+        "d": null,
+        "m1": "No",
+        "m2": "0.8796 ± 0.0008",
+        "m3": "0.8793 ± 0.0008",
+        "m4": "166531"
+      },
+      {
+        "p": {
+          "name": "Labeling Trick: A Theory of Using Graph Neural Networks for Multi-Node Representation Learning",
+          "link": "https://arxiv.org/abs/2010.16103v5"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/seal",
+        "n": "SEAL",
+        "d": "2020-10-30",
+        "m1": "No",
+        "m2": "0.8767 ± 0.0032",
+        "m3": "0.8757 ± 0.0031",
+        "m4": "260802"
+      },
+      {
+        "p": {
+          "name": "Adaptive Graph Diffusion Networks",
+          "link": "https://arxiv.org/abs/2012.15024v2"
+        },
+        "c": "https://github.com/skepsun/SAGN_with_SLE",
+        "n": "AGDN w/GraphSAINT",
+        "d": "2020-12-30",
+        "m1": "No",
+        "m2": "0.8549 ± 0.0029",
+        "m3": "0.8556 ± 0.0033",
+        "m4": "306716"
+      },
+      {
+        "p": {
+          "name": "Pairwise Learning for Neural Link Prediction",
+          "link": "https://arxiv.org/abs/2112.02936v6"
+        },
+        "c": "https://github.com/zhitao-wang/PLNLP",
+        "n": "PLNLP",
+        "d": "2021-12-06",
+        "m1": "No",
+        "m2": "0.8492 ± 0.0029",
+        "m3": "0.8490 ± 0.0031",
+        "m4": "146514551"
+      },
+      {
+        "p": {
+          "name": "Semi-Supervised Classification with Graph Convolutional Networks",
+          "link": "http://arxiv.org/abs/1609.02907v4"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/mxnet/gcn",
+        "n": "Full-batch GCN",
+        "d": "2016-09-09",
+        "m1": "No",
+        "m2": "0.8474 ± 0.0021",
+        "m3": "0.8479 ± 0.0023",
+        "m4": "296449"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "HPE - Pre-trained Initialized",
+        "d": null,
+        "m1": "No",
+        "m2": "0.8432 ± 0.0003",
+        "m3": "0.8422 ± 0.0002",
+        "m4": "749558528"
+      },
+      {
+        "p": {
+          "name": "Inductive Representation Learning on Large Graphs",
+          "link": "http://arxiv.org/abs/1706.02216v4"
+        },
+        "c": "https://github.com/pyg-team/pytorch_geometric/blob/master/torch_geometric/nn/models/basic_gnn.py",
+        "n": "Full-batch GraphSAGE",
+        "d": "2017-06-07",
+        "m1": "No",
+        "m2": "0.8260 ± 0.0036",
+        "m3": "0.8263 ± 0.0033",
+        "m4": "460289"
+      },
+      {
+        "p": {
+          "name": "Inductive Representation Learning on Large Graphs",
+          "link": "http://arxiv.org/abs/1706.02216v4"
+        },
+        "c": "https://github.com/pyg-team/pytorch_geometric/blob/master/torch_geometric/nn/models/basic_gnn.py",
+        "n": "NeighborSampling (SAGE aggr)",
+        "d": "2017-06-07",
+        "m1": "No",
+        "m2": "0.8044 ± 0.0010",
+        "m3": "0.8054 ± 0.0009",
+        "m4": "460289"
+      },
+      {
+        "p": {
+          "name": "Cluster-GCN: An Efficient Algorithm for Training Deep and Large Graph Convolutional Networks",
+          "link": "https://arxiv.org/abs/1905.07953v2"
+        },
+        "c": "https://github.com/google-research/google-research",
+        "n": "ClusterGCN (GCN aggr)",
+        "d": "2019-05-20",
+        "m1": "No",
+        "m2": "0.8004 ± 0.0025",
+        "m3": "0.7994 ± 0.0025",
+        "m4": "296449"
+      },
+      {
+        "p": {
+          "name": "GraphSAINT: Graph Sampling Based Inductive Learning Method",
+          "link": "https://arxiv.org/abs/1907.04931v4"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/graphsaint",
+        "n": "GraphSAINT (GCN aggr)",
+        "d": "2019-07-10",
+        "m1": "No",
+        "m2": "0.7985 ± 0.0040",
+        "m3": "0.7975 ± 0.0039",
+        "m4": "296449"
+      },
+      {
+        "p": {
+          "name": "node2vec: Scalable Feature Learning for Networks",
+          "link": "http://arxiv.org/abs/1607.00653v1"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/node2vec",
+        "n": "Node2vec",
+        "d": "2016-07-03",
+        "m1": "No",
+        "m2": "0.6141 ± 0.0011",
+        "m3": "0.6124 ± 0.0011",
+        "m4": "374911105"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Adamic Adar",
+        "d": null,
+        "m1": "No",
+        "m2": "0.5189 ± 0.0000",
+        "m3": "0.5167 ± 0.0000",
+        "m4": "0"
+      },
+      {
+        "p": {
+          "name": "Open Graph Benchmark: Datasets for Machine Learning on Graphs",
+          "link": "https://arxiv.org/abs/2005.00687v7"
+        },
+        "c": "https://github.com/snap-stanford/ogb",
+        "n": "Matrix Factorization",
+        "d": "2020-05-02",
+        "m1": "No",
+        "m2": "0.5186 ± 0.0443",
+        "m3": "0.5181 ± 0.0436",
+        "m4": "281113505"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Common Neighbor",
+        "d": null,
+        "m1": "No",
+        "m2": "0.5147 ± 0.0000",
+        "m3": "0.5119 ± 0.0000",
+        "m4": "0"
+      }
+    ]
+  }
+}

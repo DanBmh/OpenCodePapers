@@ -1,0 +1,142 @@
+{
+  "title": "action-anticipation-on-epic-kitchens-100",
+  "task-hierarchy": [
+    "Action Recognition In Videos",
+    "Action Anticipation"
+  ],
+  "dataset-info": {
+    "link": "https://epic-kitchens.github.io/2021"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Recall@5",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Top-5 Verb",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Top-5 Noun",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Can't make an Omelette without Breaking some Eggs: Plausible Action Anticipation using Large Video-Language Models",
+          "link": "https://arxiv.org/abs/2405.20305v1"
+        },
+        "c": "",
+        "n": "PlausiVL",
+        "d": "2024-05-30",
+        "m1": "27.60",
+        "m2": "55.62",
+        "m3": "54.23"
+      },
+      {
+        "p": {
+          "name": "Interaction Region Visual Transformer for Egocentric Action Anticipation",
+          "link": "https://arxiv.org/abs/2211.14154v7"
+        },
+        "c": "https://github.com/lahaproject/inavit",
+        "n": "InAViT",
+        "d": "2022-11-25",
+        "m1": "25.89"
+      },
+      {
+        "p": {
+          "name": "Uncertainty-aware Action Decoupling Transformer for Action Anticipation",
+          "link": "http://openaccess.thecvf.com//content/CVPR2024/html/Guo_Uncertainty-aware_Action_Decoupling_Transformer_for_Action_Anticipation_CVPR_2024_paper.html"
+        },
+        "c": "",
+        "n": "UADT",
+        "d": "2024-01-01",
+        "m1": "23.0",
+        "m2": "43.5",
+        "m3": "46.6"
+      },
+      {
+        "p": {
+          "name": "Semantically Guided Representation Learning For Action Anticipation",
+          "link": "https://arxiv.org/abs/2407.02309v1"
+        },
+        "c": "https://github.com/ADiko1997/S-GEAR",
+        "n": "S-GEAR",
+        "d": "2024-07-02",
+        "m1": "19.9"
+      },
+      {
+        "p": {
+          "name": "Anticipative Feature Fusion Transformer for Multi-Modal Action Anticipation",
+          "link": "https://arxiv.org/abs/2210.12649v1"
+        },
+        "c": "https://github.com/zeyun-zhong/afft",
+        "n": "AFFT",
+        "d": "2022-10-23",
+        "m1": "18.5"
+      },
+      {
+        "p": {
+          "name": "MeMViT: Memory-Augmented Multiscale Vision Transformer for Efficient Long-Term Video Recognition",
+          "link": "https://arxiv.org/abs/2201.08383v2"
+        },
+        "c": "https://github.com/facebookresearch/memvit",
+        "n": "MeMViT-24",
+        "d": "2022-01-20",
+        "m1": "17.7"
+      },
+      {
+        "p": {
+          "name": "Anticipative Video Transformer",
+          "link": "https://arxiv.org/abs/2106.02036v2"
+        },
+        "c": "https://github.com/facebookresearch/AVT",
+        "n": "AVT+",
+        "d": "2021-06-03",
+        "m1": "15.9"
+      },
+      {
+        "p": {
+          "name": "Technical Report: Temporal Aggregate Representations",
+          "link": "https://arxiv.org/abs/2106.03152v2"
+        },
+        "c": "https://github.com/dibschat/tempAgg",
+        "n": "TempAgg",
+        "d": "2021-06-06",
+        "m1": "14.73"
+      },
+      {
+        "p": {
+          "name": "Rescaling Egocentric Vision",
+          "link": "https://arxiv.org/abs/2006.13256v4"
+        },
+        "c": "https://github.com/epic-kitchens/epic-kitchens-100-annotations",
+        "n": "RU-LSTM",
+        "d": "2020-06-23",
+        "m1": "13.94"
+      }
+    ]
+  }
+}

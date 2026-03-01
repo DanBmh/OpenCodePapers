@@ -1,0 +1,173 @@
+{
+  "title": "relation-extraction-on-chemprot",
+  "task-hierarchy": [
+    "Relation Extraction"
+  ],
+  "dataset-info": {
+    "link": "https://biocreative.bioinformatics.udel.edu/news/corpora/chemprot-corpus-biocreative-vi/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Micro F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SciBERT: A Pretrained Language Model for Scientific Text",
+          "link": "https://arxiv.org/abs/1903.10676v3"
+        },
+        "c": "https://github.com/allenai/scibert",
+        "n": "SciBert (Finetune)",
+        "d": "2019-03-26",
+        "m1": "83.64"
+      },
+      {
+        "p": {
+          "name": "BioM-Transformers: Building Large Biomedical Language Models with BERT, ALBERT and ELECTRA",
+          "link": "https://aclanthology.org/2021.bionlp-1.24"
+        },
+        "c": "https://github.com/salrowili/biom-transformers",
+        "n": "BioM-BERT",
+        "d": null,
+        "m1": "80.0"
+      },
+      {
+        "p": {
+          "name": "LinkBERT: Pretraining Language Models with Document Links",
+          "link": "https://arxiv.org/abs/2203.15827v1"
+        },
+        "c": "https://github.com/michiyasunaga/LinkBERT",
+        "n": "BioLinkBERT (large)",
+        "d": "2022-03-29",
+        "m1": "79.98",
+        "m2": "79.98"
+      },
+      {
+        "p": {
+          "name": "SciFive: a text-to-text transformer model for biomedical literature",
+          "link": "https://arxiv.org/abs/2106.03598v1"
+        },
+        "c": "https://github.com/justinphan3110/SciFive",
+        "n": "SciFive Large",
+        "d": "2021-05-28",
+        "m1": "78"
+      },
+      {
+        "p": {
+          "name": "Improving Biomedical Pretrained Language Models with Knowledge",
+          "link": "https://arxiv.org/abs/2104.10344v1"
+        },
+        "c": "https://github.com/GanjinZero/KeBioLM",
+        "n": "KeBioLM",
+        "d": "2021-04-21",
+        "m1": "77.5"
+      },
+      {
+        "p": {
+          "name": "SciFive: a text-to-text transformer model for biomedical literature",
+          "link": "https://arxiv.org/abs/2106.03598v1"
+        },
+        "c": "https://github.com/justinphan3110/SciFive",
+        "n": "BioT5X (base)",
+        "d": "2021-05-28",
+        "m1": "77.40"
+      },
+      {
+        "p": {
+          "name": "BioMegatron: Larger Biomedical Domain Language Model",
+          "link": "https://arxiv.org/abs/2010.06060v2"
+        },
+        "c": "https://github.com/NVIDIA/NeMo",
+        "n": "BioMegatron",
+        "d": "2020-10-12",
+        "m1": "77.0"
+      },
+      {
+        "p": {
+          "name": "BioBERT: a pre-trained biomedical language representation model for biomedical text mining",
+          "link": "https://arxiv.org/abs/1901.08746v4"
+        },
+        "c": "https://github.com/dmis-lab/biobert",
+        "n": "BioBERT",
+        "d": "2019-01-25",
+        "m1": "76.46"
+      },
+      {
+        "p": {
+          "name": "Transfer Learning in Biomedical Natural Language Processing: An Evaluation of BERT and ELMo on Ten Benchmarking Datasets",
+          "link": "https://arxiv.org/abs/1906.05474v2"
+        },
+        "c": "https://github.com/ncbi-nlp/NCBI_BERT",
+        "n": "NCBI_BERT(large) (P)",
+        "d": "2019-06-13",
+        "m1": "74.4"
+      },
+      {
+        "p": {
+          "name": "SciBERT: A Pretrained Language Model for Scientific Text",
+          "link": "https://arxiv.org/abs/1903.10676v3"
+        },
+        "c": "https://github.com/allenai/scibert",
+        "n": "SciBERT (Base Vocab)",
+        "d": "2019-03-26",
+        "m1": "73.7"
+      },
+      {
+        "p": {
+          "name": "ELECTRAMed: a new pre-trained language representation model for biomedical NLP",
+          "link": "https://arxiv.org/abs/2104.09585v1"
+        },
+        "c": "https://github.com/gmpoli/electramed",
+        "n": "ELECTRAMed",
+        "d": "2021-04-19",
+        "m1": "72.94"
+      },
+      {
+        "p": {
+          "name": "Domain-Specific Language Model Pretraining for Biomedical Natural Language Processing",
+          "link": "https://arxiv.org/abs/2007.15779v6"
+        },
+        "c": "https://github.com/bionlu-coling2024/biomed-ner-intent_detection",
+        "n": "PubMedBERT uncased",
+        "d": "2020-07-31",
+        "m2": "77.24"
+      },
+      {
+        "p": {
+          "name": "CharacterBERT: Reconciling ELMo and BERT for Word-Level Open-Vocabulary Representations From Characters",
+          "link": "https://arxiv.org/abs/2010.10392v3"
+        },
+        "c": "https://github.com/helboukkouri/character-bert",
+        "n": "CharacterBERT (base, medical)",
+        "d": "2020-10-20",
+        "m2": "73.44"
+      }
+    ]
+  }
+}

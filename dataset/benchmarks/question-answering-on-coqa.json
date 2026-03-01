@@ -1,0 +1,148 @@
+{
+  "title": "question-answering-on-coqa",
+  "task-hierarchy": [
+    "Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://stanfordnlp.github.io/coqa/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "In-domain",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Out-of-domain",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Overall",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "link": "https://arxiv.org/abs/1810.04805v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "BERT Large Augmented (single model)",
+        "d": "2018-10-11",
+        "m1": "82.5",
+        "m2": "77.6",
+        "m3": "81.1"
+      },
+      {
+        "p": {
+          "name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "link": "https://arxiv.org/abs/1810.04805v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "BERT-base finetune (single model)",
+        "d": "2018-10-11",
+        "m1": "79.8",
+        "m2": "74.1",
+        "m3": "78.1"
+      },
+      {
+        "p": {
+          "name": "A Qualitative Comparison of CoQA, SQuAD 2.0 and QuAC",
+          "link": "https://arxiv.org/abs/1809.10735v2"
+        },
+        "c": "https://github.com/my89/co-squac",
+        "n": "BiDAF++ (single model)",
+        "d": "2018-09-27",
+        "m1": "69.4",
+        "m2": "63.8",
+        "m3": "67.8"
+      },
+      {
+        "p": {
+          "name": "CoQA: A Conversational Question Answering Challenge",
+          "link": "http://arxiv.org/abs/1808.07042v2"
+        },
+        "c": "https://github.com/stanfordnlp/coqa-baselines",
+        "n": "DrQA + seq2seq with copy attention (single model)",
+        "d": "2018-08-21",
+        "m1": "67.0",
+        "m2": "60.4",
+        "m3": "65.1"
+      },
+      {
+        "p": {
+          "name": "CoQA: A Conversational Question Answering Challenge",
+          "link": "http://arxiv.org/abs/1808.07042v2"
+        },
+        "c": "https://github.com/stanfordnlp/coqa-baselines",
+        "n": "Vanilla DrQA (single model)",
+        "d": "2018-08-21",
+        "m1": "54.5",
+        "m2": "47.9",
+        "m3": "52.6"
+      },
+      {
+        "p": {
+          "name": "FlowQA: Grasping Flow in History for Conversational Machine Comprehension",
+          "link": "http://arxiv.org/abs/1810.06683v3"
+        },
+        "c": "https://github.com/momohuang/FlowQA",
+        "n": "FlowQA (single model)",
+        "d": "2018-10-06",
+        "m2": "71.8",
+        "m3": "75.0"
+      },
+      {
+        "p": {
+          "name": "Language Models are Few-Shot Learners",
+          "link": "https://arxiv.org/abs/2005.14165v4"
+        },
+        "c": "https://github.com/ggml-org/llama.cpp",
+        "n": "GPT-3 175B (few-shot, k=32)",
+        "d": "2020-05-28",
+        "m3": "85"
+      },
+      {
+        "p": {
+          "name": "SDNet: Contextualized Attention-based Deep Network for Conversational Question Answering",
+          "link": "http://arxiv.org/abs/1812.03593v5"
+        },
+        "c": "https://github.com/Microsoft/SDNet",
+        "n": "SDNet (ensemble)",
+        "d": "2018-12-10",
+        "m3": "79.3"
+      },
+      {
+        "p": {
+          "name": "SDNet: Contextualized Attention-based Deep Network for Conversational Question Answering",
+          "link": "http://arxiv.org/abs/1812.03593v5"
+        },
+        "c": "https://github.com/Microsoft/SDNet",
+        "n": "SDNet (single model)",
+        "d": "2018-12-10",
+        "m3": "76.6"
+      }
+    ]
+  }
+}

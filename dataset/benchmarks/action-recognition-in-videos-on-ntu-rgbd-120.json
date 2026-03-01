@@ -1,0 +1,274 @@
+{
+  "title": "action-recognition-in-videos-on-ntu-rgbd-120",
+  "task-hierarchy": [
+    "Action Recognition",
+    "Action Recognition In Videos"
+  ],
+  "dataset-info": {
+    "link": "http://rose1.ntu.edu.sg/Datasets/actionRecognition.asp"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy (Cross-Setup)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Accuracy (Cross-Subject)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "A Dense-Sparse Complementary Network for Human Action Recognition based on RGB and Skeleton Modalities",
+          "link": "https://www.sciencedirect.com/science/article/pii/S0957417423035637"
+        },
+        "c": "https://github.com/Maxchengqin/DSCNet",
+        "n": "DSCNet (RGB + Pose)",
+        "d": "2023-12-28",
+        "m1": "96.7",
+        "m2": "95.6"
+      },
+      {
+        "p": {
+          "name": "Revisiting Skeleton-based Action Recognition",
+          "link": "https://arxiv.org/abs/2104.13586v2"
+        },
+        "c": "https://github.com/open-mmlab/mmaction2",
+        "n": "PoseC3D (RGB + Pose)",
+        "d": "2021-04-28",
+        "m1": "96.4",
+        "m2": "95.3"
+      },
+      {
+        "p": {
+          "name": "Just Add $π$! Pose Induced Video Transformers for Understanding Activities of Daily Living",
+          "link": "https://arxiv.org/abs/2311.18840v1"
+        },
+        "c": "https://github.com/dominickrei/pi-vit",
+        "n": "π-ViT (RGB + Pose)",
+        "d": "2023-11-30",
+        "m1": "96.1",
+        "m2": "95.1"
+      },
+      {
+        "p": {
+          "name": "MMNet: A Model-Based Multimodal Network for Human Action Recognition in RGB-D Videos",
+          "link": "https://ieeexplore.ieee.org/abstract/document/9782511"
+        },
+        "c": "https://github.com/bruceyo/MMNet",
+        "n": "MMNet (RGB + Pose)",
+        "d": "2022-05-26",
+        "m1": "94.4",
+        "m2": "92.9"
+      },
+      {
+        "p": {
+          "name": "Explore Human Parsing Modality for Action Recognition",
+          "link": "https://arxiv.org/abs/2401.02138v1"
+        },
+        "c": "https://github.com/liujf69/EPP-Net-Action",
+        "n": "EPP-Net (Parsing + Pose)",
+        "d": "2024-01-04",
+        "m1": "92.8",
+        "m2": "91.1"
+      },
+      {
+        "p": {
+          "name": "STAR-Transformer: A Spatio-temporal Cross Attention Transformer for Human Action Recognition",
+          "link": "https://arxiv.org/abs/2210.07503v1"
+        },
+        "c": "",
+        "n": "STAR-Transformer (RGB + Pose)",
+        "d": "2022-10-14",
+        "m1": "92.7",
+        "m2": "90.3"
+      },
+      {
+        "p": {
+          "name": "EPAM-Net: An Efficient Pose-driven Attention-guided Multimodal Network for Video Action Recognition",
+          "link": "https://arxiv.org/abs/2408.05421v1"
+        },
+        "c": "https://github.com/ahmed-nady/multimodal-action-recognition",
+        "n": "EPAM-Net",
+        "d": "2024-08-10",
+        "m1": "92.4",
+        "m2": "94.3"
+      },
+      {
+        "p": {
+          "name": "Just Add $π$! Pose Induced Video Transformers for Understanding Activities of Daily Living",
+          "link": "https://arxiv.org/abs/2311.18840v1"
+        },
+        "c": "https://github.com/dominickrei/pi-vit",
+        "n": "π-ViT (RGB only)",
+        "d": "2023-11-30",
+        "m1": "91.9",
+        "m2": "92.9"
+      },
+      {
+        "p": {
+          "name": "Integrating Human Parsing and Pose Network for Human Action Recognition",
+          "link": "https://arxiv.org/abs/2307.07977v1"
+        },
+        "c": "https://github.com/liujf69/ipp-net-parsing",
+        "n": "IPP-Net (Parsing + Pose)",
+        "d": "2023-07-16",
+        "m1": "91.7",
+        "m2": "90.0"
+      },
+      {
+        "p": {
+          "name": "Cross-Modal Learning with 3D Deformable Attention for Action Recognition",
+          "link": "https://arxiv.org/abs/2212.05638v3"
+        },
+        "c": "",
+        "n": "3DA (RGB + Pose)",
+        "d": "2022-12-12",
+        "m1": "91.4",
+        "m2": "90.5"
+      },
+      {
+        "p": {
+          "name": "Joint-Partition Group Attention for skeleton-based action recognition",
+          "link": "https://www.sciencedirect.com/science/article/pii/S0165168424002111"
+        },
+        "c": "https://github.com/HuCui2022/JPFormer",
+        "n": "JPFormer(Pose)",
+        "d": "2024-07-30",
+        "m1": "91.4",
+        "m2": "89.4"
+      },
+      {
+        "p": {
+          "name": "DSTSA-GCN: Advancing Skeleton-Based Gesture Recognition with Semantic-Aware Spatio-Temporal Topology Modeling",
+          "link": "https://arxiv.org/abs/2501.12086v1"
+        },
+        "c": "https://github.com/HuCui2022/DSTSA-GCN_Gesture",
+        "n": "DSTSA-GCN",
+        "d": "2025-01-21",
+        "m1": "90.97",
+        "m2": "89.12"
+      },
+      {
+        "p": {
+          "name": "VPN++: Rethinking Video-Pose embeddings for understanding Activities of Daily Living",
+          "link": "https://arxiv.org/abs/2105.08141v1"
+        },
+        "c": "https://github.com/srijandas07/vpnplusplus",
+        "n": "VPN++ (RGB + Pose)",
+        "d": "2021-05-17",
+        "m1": "90.7",
+        "m2": "92.5"
+      },
+      {
+        "p": {
+          "name": "DVANet: Disentangling View and Action Features for Multi-View Action Recognition",
+          "link": "https://arxiv.org/abs/2312.05719v1"
+        },
+        "c": "https://github.com/NyleSiddiqui/MultiView_Actions",
+        "n": "DVANet (RGB only)",
+        "d": "2023-12-10",
+        "m1": "90.4",
+        "m2": "91.6"
+      },
+      {
+        "p": {
+          "name": "Multi-View Action Recognition Using Contrastive Learning",
+          "link": "https://openaccess.thecvf.com/content/WACV2023/html/Shah_Multi-View_Action_Recognition_Using_Contrastive_Learning_WACV_2023_paper.html"
+        },
+        "c": "https://github.com/kshah33/viewcon",
+        "n": "ViewCon (RGB)",
+        "d": "2023-01-03",
+        "m1": "87.5",
+        "m2": "85.6"
+      },
+      {
+        "p": {
+          "name": "VPN: Learning Video-Pose Embedding for Activities of Daily Living",
+          "link": "https://arxiv.org/abs/2007.03056v1"
+        },
+        "c": "https://github.com/srijandas07/VPN",
+        "n": "VPN (RGB + Pose)",
+        "d": "2020-07-06",
+        "m1": "86.3",
+        "m2": "87.8"
+      },
+      {
+        "p": {
+          "name": "Vertex Feature Encoding and Hierarchical Temporal Modeling in a Spatial-Temporal Graph Convolutional Network for Action Recognition",
+          "link": "https://arxiv.org/abs/1912.09745v1"
+        },
+        "c": "",
+        "n": "ST-GCN + AS-GCN w/DH-TCN",
+        "d": "2019-12-20",
+        "m1": "78.3",
+        "m2": "79.2"
+      },
+      {
+        "p": {
+          "name": "Gimme Signals: Discriminative signal encoding for multimodal activity recognition",
+          "link": "https://arxiv.org/abs/2003.06156v2"
+        },
+        "c": "https://github.com/raphaelmemmesheimer/gimme_signals_action_recognition",
+        "n": "Gimme Signals (AIS)",
+        "d": "2020-03-13",
+        "m1": "70.8",
+        "m2": "71.59"
+      },
+      {
+        "p": {
+          "name": "Skeleton Image Representation for 3D Action Recognition based on Tree Structure and Reference Joints",
+          "link": "https://arxiv.org/abs/1909.05704v1"
+        },
+        "c": "https://github.com/carloscaetano/skeleton-images",
+        "n": "TSRJI",
+        "d": "2019-09-11",
+        "m1": "67.9",
+        "m2": "62.8"
+      },
+      {
+        "p": {
+          "name": "SkeleMotion: A New Representation of Skeleton Joint Sequences Based on Motion Information for 3D Action Recognition",
+          "link": "https://arxiv.org/abs/1907.13025v1"
+        },
+        "c": "https://github.com/carloscaetano/skeleton-images",
+        "n": "Skelemotion + Yang et al. (skeleton only)",
+        "d": "2019-07-30",
+        "m1": "66.9",
+        "m2": "67.7"
+      },
+      {
+        "p": {
+          "name": "Recognizing Human Actions as the Evolution of Pose Estimation Maps",
+          "link": "http://openaccess.thecvf.com/content_cvpr_2018/html/Liu_Recognizing_Human_Actions_CVPR_2018_paper.html"
+        },
+        "c": "",
+        "n": "Body Pose Evolution Map",
+        "d": "2018-06-01",
+        "m1": "64.6",
+        "m2": "66.9"
+      }
+    ]
+  }
+}

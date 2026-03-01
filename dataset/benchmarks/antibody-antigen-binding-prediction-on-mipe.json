@@ -1,0 +1,120 @@
+{
+  "title": "antibody-antigen-binding-prediction-on-mipe",
+  "task-hierarchy": [
+    "Binding Site Prediction",
+    "Antibody-antigen binding prediction"
+  ],
+  "dataset-info": {
+    "link": "https://www.ijcai.org/proceedings/2024/0669.pdf"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AUC-PR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "AUC-ROC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "ParaSurf: A Surface-Based Deep Learning Approach for Paratope-Antigen Interaction Prediction",
+          "link": "https://doi.org/10.1093/bioinformatics/btaf062"
+        },
+        "c": "https://github.com/aggelos-michael-papadopoulos/ParaSurf",
+        "n": "ParaSurf",
+        "d": "2025-02-08",
+        "m1": "0.781",
+        "m2": "0.967"
+      },
+      {
+        "p": {
+          "name": "Improving Paratope and Epitope Prediction by Multi-Modal Contrastive Learning and Interaction Informativeness Estimation",
+          "link": "https://arxiv.org/abs/2405.20668v1"
+        },
+        "c": "https://github.com/WangZhiwei9/MIPE",
+        "n": "MIPE",
+        "d": "2024-05-31",
+        "m1": "0.741",
+        "m2": "0.927"
+      },
+      {
+        "p": {
+          "name": "PeSTo: parameter-free geometric deep learning for accurate prediction of protein binding interfaces",
+          "link": "https://www.nature.com/articles/s41467-023-37701-8"
+        },
+        "c": "https://github.com/LBM-EPFL/PeSTo",
+        "n": "Pesto",
+        "d": "2023-04-18",
+        "m1": "0.724",
+        "m2": "0.856"
+      },
+      {
+        "p": {
+          "name": "Learning context-aware structural representations to predict antigen and antibody binding interfaces",
+          "link": "https://academic.oup.com/bioinformatics/article/36/13/3996/5823885"
+        },
+        "c": "https://github.com/vamships/PECAN",
+        "n": "PECAN",
+        "d": "2020-04-22",
+        "m1": "0.713",
+        "m2": "0.915"
+      },
+      {
+        "p": {
+          "name": "Parapred: antibody paratope prediction using convolutional and recurrent neural networks",
+          "link": "https://academic.oup.com/bioinformatics/article/34/17/2944/4972995"
+        },
+        "c": "https://github.com/eliberis/parapred",
+        "n": "Parapred",
+        "d": "2018-04-16",
+        "m1": "0.652",
+        "m2": "0.868"
+      },
+      {
+        "p": {
+          "name": "Paragraph—antibody paratope prediction using graph neural networks with minimal feature vectors",
+          "link": "https://academic.oup.com/bioinformatics/article/39/1/btac732/6825310"
+        },
+        "c": "https://github.com/oxpig/Paragraph",
+        "n": "Paragraph",
+        "d": "2022-10-12",
+        "m1": "0.650",
+        "m2": "0.927"
+      },
+      {
+        "p": {
+          "name": "Attentive cross-modal paratope prediction",
+          "link": "http://arxiv.org/abs/1806.04398v1"
+        },
+        "c": "",
+        "n": "AG-Fast-Parapred",
+        "d": "2018-06-12",
+        "m1": "0.612",
+        "m2": "0.883"
+      }
+    ]
+  }
+}

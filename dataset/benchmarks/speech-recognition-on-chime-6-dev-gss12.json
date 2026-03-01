@@ -1,0 +1,77 @@
+{
+  "title": "speech-recognition-on-chime-6-dev-gss12",
+  "task-hierarchy": [
+    "Speech Recognition"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Word Error Rate (WER)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "G-Augment: Searching for the Meta-Structure of Data Augmentation Policies for ASR",
+          "link": "https://arxiv.org/abs/2210.10879v2"
+        },
+        "c": "",
+        "n": "ConformerXXL-PS + G-Augment",
+        "d": "2022-10-19",
+        "m1": "26"
+      },
+      {
+        "p": {
+          "name": "BigSSL: Exploring the Frontier of Large-Scale Semi-Supervised Learning for Automatic Speech Recognition",
+          "link": "https://arxiv.org/abs/2109.13226v3"
+        },
+        "c": "",
+        "n": "ConformerXXL-PS",
+        "d": "2021-09-27",
+        "m1": "26.2"
+      },
+      {
+        "p": {
+          "name": "SpeechStew: Simply Mix All Available Speech Recognition Data to Train One Large Neural Network",
+          "link": "https://arxiv.org/abs/2104.02133v3"
+        },
+        "c": "",
+        "n": "SpeechStew (1B)",
+        "d": "2021-04-05",
+        "m1": "31.9"
+      },
+      {
+        "p": {
+          "name": "Towards a Competitive End-to-End Speech Recognition for CHiME-6 Dinner Party Transcription",
+          "link": "https://arxiv.org/abs/2004.10799v3"
+        },
+        "c": "https://github.com/espnet/espnet/tree/master/egs/chime6/asr1",
+        "n": "RNN-T",
+        "d": "2020-04-22",
+        "m1": "55"
+      }
+    ]
+  }
+}

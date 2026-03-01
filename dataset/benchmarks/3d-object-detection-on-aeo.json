@@ -1,0 +1,78 @@
+{
+  "title": "3d-object-detection-on-aeo",
+  "task-hierarchy": [
+    "Object Detection",
+    "3D Object Detection"
+  ],
+  "dataset-info": {
+    "link": "https://www.projectaria.com/datasets/aeo/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "EFM3D: A Benchmark for Measuring Progress Towards 3D Egocentric Foundation Models",
+          "link": "https://arxiv.org/abs/2406.10224v1"
+        },
+        "c": "https://github.com/facebookresearch/efm3d",
+        "n": "EVL",
+        "d": "2024-06-14",
+        "m1": "22"
+      },
+      {
+        "p": {
+          "name": "EFM3D: A Benchmark for Measuring Progress Towards 3D Egocentric Foundation Models",
+          "link": "https://arxiv.org/abs/2406.10224v1"
+        },
+        "c": "https://github.com/facebookresearch/efm3d",
+        "n": "3DETR",
+        "d": "2024-06-14",
+        "m1": "16"
+      },
+      {
+        "p": {
+          "name": "EFM3D: A Benchmark for Measuring Progress Towards 3D Egocentric Foundation Models",
+          "link": "https://arxiv.org/abs/2406.10224v1"
+        },
+        "c": "https://github.com/facebookresearch/efm3d",
+        "n": "ImVoxelNet",
+        "d": "2024-06-14",
+        "m1": "15"
+      },
+      {
+        "p": {
+          "name": "EFM3D: A Benchmark for Measuring Progress Towards 3D Egocentric Foundation Models",
+          "link": "https://arxiv.org/abs/2406.10224v1"
+        },
+        "c": "https://github.com/facebookresearch/efm3d",
+        "n": "Cube R-CNN",
+        "d": "2024-06-14",
+        "m1": "8"
+      }
+    ]
+  }
+}

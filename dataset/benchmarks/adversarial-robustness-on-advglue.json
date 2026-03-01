@@ -1,0 +1,137 @@
+{
+  "title": "adversarial-robustness-on-advglue",
+  "task-hierarchy": [
+    "Adversarial Robustness"
+  ],
+  "dataset-info": {
+    "link": "https://adversarialglue.github.io/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Adversarial GLUE: A Multi-Task Benchmark for Robustness Evaluation of Language Models",
+          "link": "https://arxiv.org/abs/2111.02840v2"
+        },
+        "c": "https://github.com/ai-secure/adversarial-glue",
+        "n": "DeBERTa (single model)",
+        "d": "2021-11-04",
+        "m1": "0.6086"
+      },
+      {
+        "p": {
+          "name": "Adversarial GLUE: A Multi-Task Benchmark for Robustness Evaluation of Language Models",
+          "link": "https://arxiv.org/abs/2111.02840v2"
+        },
+        "c": "https://github.com/ai-secure/adversarial-glue",
+        "n": "ALBERT (single model)",
+        "d": "2021-11-04",
+        "m1": "0.5922"
+      },
+      {
+        "p": {
+          "name": "Adversarial GLUE: A Multi-Task Benchmark for Robustness Evaluation of Language Models",
+          "link": "https://arxiv.org/abs/2111.02840v2"
+        },
+        "c": "https://github.com/ai-secure/adversarial-glue",
+        "n": "T5 (single model)",
+        "d": "2021-11-04",
+        "m1": "0.5682"
+      },
+      {
+        "p": {
+          "name": "Adversarial GLUE: A Multi-Task Benchmark for Robustness Evaluation of Language Models",
+          "link": "https://arxiv.org/abs/2111.02840v2"
+        },
+        "c": "https://github.com/ai-secure/adversarial-glue",
+        "n": "SMART_RoBERTa (single model)",
+        "d": "2021-11-04",
+        "m1": "0.5371"
+      },
+      {
+        "p": {
+          "name": "Adversarial GLUE: A Multi-Task Benchmark for Robustness Evaluation of Language Models",
+          "link": "https://arxiv.org/abs/2111.02840v2"
+        },
+        "c": "https://github.com/ai-secure/adversarial-glue",
+        "n": "FreeLB (single model)",
+        "d": "2021-11-04",
+        "m1": "0.5048"
+      },
+      {
+        "p": {
+          "name": "Adversarial GLUE: A Multi-Task Benchmark for Robustness Evaluation of Language Models",
+          "link": "https://arxiv.org/abs/2111.02840v2"
+        },
+        "c": "https://github.com/ai-secure/adversarial-glue",
+        "n": "RoBERTa (single model)",
+        "d": "2021-11-04",
+        "m1": "0.5021"
+      },
+      {
+        "p": {
+          "name": "Adversarial GLUE: A Multi-Task Benchmark for Robustness Evaluation of Language Models",
+          "link": "https://arxiv.org/abs/2111.02840v2"
+        },
+        "c": "https://github.com/ai-secure/adversarial-glue",
+        "n": "InfoBERT (single model)",
+        "d": "2021-11-04",
+        "m1": "0.4603"
+      },
+      {
+        "p": {
+          "name": "Adversarial GLUE: A Multi-Task Benchmark for Robustness Evaluation of Language Models",
+          "link": "https://arxiv.org/abs/2111.02840v2"
+        },
+        "c": "https://github.com/ai-secure/adversarial-glue",
+        "n": "ELECTRA (single model)",
+        "d": "2021-11-04",
+        "m1": "0.4169"
+      },
+      {
+        "p": {
+          "name": "Adversarial GLUE: A Multi-Task Benchmark for Robustness Evaluation of Language Models",
+          "link": "https://arxiv.org/abs/2111.02840v2"
+        },
+        "c": "https://github.com/ai-secure/adversarial-glue",
+        "n": "BERT (single model)",
+        "d": "2021-11-04",
+        "m1": "0.3369"
+      },
+      {
+        "p": {
+          "name": "Adversarial GLUE: A Multi-Task Benchmark for Robustness Evaluation of Language Models",
+          "link": "https://arxiv.org/abs/2111.02840v2"
+        },
+        "c": "https://github.com/ai-secure/adversarial-glue",
+        "n": "SMART_BERT (single model)",
+        "d": "2021-11-04",
+        "m1": "0.3029"
+      }
+    ]
+  }
+}

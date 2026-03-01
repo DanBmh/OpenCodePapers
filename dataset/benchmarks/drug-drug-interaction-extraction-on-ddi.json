@@ -1,0 +1,151 @@
+{
+  "title": "drug-drug-interaction-extraction-on-ddi",
+  "task-hierarchy": [
+    "Information Extraction",
+    "Drug–drug Interaction Extraction"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/isegura/DDICorpus"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Micro F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Using Drug Descriptions and Molecular Structures for Drug-Drug Interaction Extraction from Literature",
+          "link": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btaa907/5938075#209442351"
+        },
+        "c": "https://github.com/tticoin/DESC_MOL-DDIE",
+        "n": "DESC+MOL+SciBERT",
+        "d": "2020-10-24",
+        "m1": "0.8408",
+        "m2": "84.08"
+      },
+      {
+        "p": {
+          "name": "SciFive: a text-to-text transformer model for biomedical literature",
+          "link": "https://arxiv.org/abs/2106.03598v1"
+        },
+        "c": "https://github.com/justinphan3110/SciFive",
+        "n": "SciFive-large",
+        "d": "2021-05-28",
+        "m1": "0.8367",
+        "m2": "83.67"
+      },
+      {
+        "p": {
+          "name": "Domain-Specific Language Model Pretraining for Biomedical Natural Language Processing",
+          "link": "https://arxiv.org/abs/2007.15779v6"
+        },
+        "c": "https://github.com/bionlu-coling2024/biomed-ner-intent_detection",
+        "n": "PubMedBERT",
+        "d": "2020-07-31",
+        "m1": "0.8236",
+        "m2": "82.36"
+      },
+      {
+        "p": {
+          "name": "BioBERT: a pre-trained biomedical language representation model for biomedical text mining",
+          "link": "https://arxiv.org/abs/1901.08746v4"
+        },
+        "c": "https://github.com/dmis-lab/biobert",
+        "n": "BioBERT",
+        "d": "2019-01-25",
+        "m1": "0.8088",
+        "m2": "80.88"
+      },
+      {
+        "p": {
+          "name": "Drug–drug interaction extraction via hierarchical RNNs on sequence and shortest dependency paths",
+          "link": "https://academic.oup.com/bioinformatics/article/34/5/828/4565590"
+        },
+        "c": "",
+        "n": "Hierarchy Bi-LSTMs +Att.+SDP",
+        "d": "2017-10-25",
+        "m1": "0.729",
+        "m2": "72.9"
+      },
+      {
+        "p": {
+          "name": "Enhancing Drug-Drug Interaction Extraction from Texts by Molecular Structure Information",
+          "link": "http://arxiv.org/abs/1805.05593v1"
+        },
+        "c": "",
+        "n": "MOL+CNN",
+        "d": "2018-05-15",
+        "m1": "0.7255",
+        "m2": "72.55"
+      },
+      {
+        "p": {
+          "name": "A graph kernel based on context vectors for extracting drug–drug interactions",
+          "link": "https://www.sciencedirect.com/science/article/pii/S1532046416300053"
+        },
+        "c": "",
+        "n": "Graph Kernel-based method",
+        "d": "2016-03-21",
+        "m1": "0.684",
+        "m2": "68.4"
+      },
+      {
+        "p": {
+          "name": "Extracting drug–drug interactions from literature using a rich feature-based linear kernel approach",
+          "link": "https://www.sciencedirect.com/science/article/pii/S1532046415000441"
+        },
+        "c": "",
+        "n": "Feature-based SVM",
+        "d": "2015-03-19",
+        "m1": "0.670",
+        "m2": "67.0"
+      },
+      {
+        "p": {
+          "name": "CharacterBERT: Reconciling ELMo and BERT for Word-Level Open-Vocabulary Representations From Characters",
+          "link": "https://arxiv.org/abs/2010.10392v3"
+        },
+        "c": "https://github.com/helboukkouri/character-bert",
+        "n": "CharacterBERT (base, medical)",
+        "d": "2020-10-20",
+        "m2": "80.38"
+      },
+      {
+        "p": {
+          "name": "ELECTRAMed: a new pre-trained language representation model for biomedical NLP",
+          "link": "https://arxiv.org/abs/2104.09585v1"
+        },
+        "c": "https://github.com/gmpoli/electramed",
+        "n": "ELECTRAMed",
+        "d": "2021-04-19",
+        "m2": "79.13"
+      }
+    ]
+  }
+}

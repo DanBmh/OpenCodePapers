@@ -1,0 +1,203 @@
+{
+  "title": "intent-detection-on-mixsnips",
+  "task-hierarchy": [
+    "Intent Detection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/LooperXX/AGIF/data"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "f1 macro",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "A Scope Sensitive and Result Attentive Model for Multi-Intent Spoken Language Understanding",
+          "link": "https://arxiv.org/abs/2211.12220v1"
+        },
+        "c": "",
+        "n": "SSRAN",
+        "d": "2022-11-22",
+        "m1": "98.4"
+      },
+      {
+        "p": {
+          "name": "Joint Multiple Intent Detection and Slot Filling with Supervised Contrastive Learning and Self-Distillation",
+          "link": "https://arxiv.org/abs/2308.14654v1"
+        },
+        "c": "https://github.com/anhtunguyen98/bislu",
+        "n": "BiSLU",
+        "d": "2023-08-28",
+        "m1": "97.8"
+      },
+      {
+        "p": {
+          "name": "A Dynamic Graph Interactive Framework with Label-Semantic Injection for Spoken Language Understanding",
+          "link": "https://arxiv.org/abs/2211.04023v1"
+        },
+        "c": "",
+        "n": "DGIF",
+        "d": "2022-11-08",
+        "m1": "97.8"
+      },
+      {
+        "p": {
+          "name": "A Transformer-based Threshold-Free Framework for Multi-Intent NLU",
+          "link": "https://aclanthology.org/2022.coling-1.629"
+        },
+        "c": "",
+        "n": "TFMN",
+        "d": null,
+        "m1": "97.7"
+      },
+      {
+        "p": {
+          "name": "Co-guiding Net: Achieving Mutual Guidances between Multiple Intent Detection and Slot Filling via Heterogeneous Semantics-Label Graphs",
+          "link": "https://arxiv.org/abs/2210.10375v2"
+        },
+        "c": "https://github.com/xingbowen714/co-guiding",
+        "n": "Co-guiding Net",
+        "d": "2022-10-19",
+        "m1": "97.7"
+      },
+      {
+        "p": {
+          "name": "A Two-Stage Prediction-Aware Contrastive Learning Framework for Multi-Intent NLU",
+          "link": "https://arxiv.org/abs/2405.02925v1"
+        },
+        "c": "",
+        "n": "TFMN (PACL)",
+        "d": "2024-05-05",
+        "m1": "97.4"
+      },
+      {
+        "p": {
+          "name": "MISCA: A Joint Model for Multiple Intent Detection and Slot Filling with Intent-Slot Co-Attention",
+          "link": "https://arxiv.org/abs/2312.05741v1"
+        },
+        "c": "https://github.com/vinairesearch/misca",
+        "n": "MISCA",
+        "d": "2023-12-10",
+        "m1": "97.3"
+      },
+      {
+        "p": {
+          "name": "Uni-MIS: United Multiple Intent Spoken Language Understanding via Multi-View Intent-Slot Interaction",
+          "link": "https://ojs.aaai.org/index.php/AAAI/article/view/29910"
+        },
+        "c": "https://github.com/SJY8460/Uni-MIS",
+        "n": "Uni-MIS",
+        "d": "2024-03-24",
+        "m1": "97.2"
+      },
+      {
+        "p": {
+          "name": "SLIM: Explicit Slot-Intent Mapping with BERT for Joint Multi-Intent Detection and Slot Filling",
+          "link": "https://arxiv.org/abs/2108.11711v1"
+        },
+        "c": "https://github.com/TRUMANCFY/SLIM",
+        "n": "SLIM",
+        "d": "2021-08-26",
+        "m1": "97.2"
+      },
+      {
+        "p": {
+          "name": "A Two-Stage Prediction-Aware Contrastive Learning Framework for Multi-Intent NLU",
+          "link": "https://arxiv.org/abs/2405.02925v1"
+        },
+        "c": "",
+        "n": "SLIM (PACL)",
+        "d": "2024-05-05",
+        "m1": "96.9"
+      },
+      {
+        "p": {
+          "name": "Incorporating Instructional Prompts into a Unified Generative Framework for Joint Multiple Intent Detection and Slot Filling",
+          "link": "https://aclanthology.org/2022.coling-1.631"
+        },
+        "c": "https://github.com/young1993/ugen",
+        "n": "UGEN",
+        "d": null,
+        "m1": "96.9"
+      },
+      {
+        "p": {
+          "name": "AGIF: An Adaptive Graph-Interactive Framework for Joint Multiple Intent Detection and Slot Filling",
+          "link": "https://arxiv.org/abs/2004.10087v4"
+        },
+        "c": "https://github.com/LooperXX/AGIF",
+        "n": "AGIF",
+        "d": "2020-04-21",
+        "m1": "96.5",
+        "m2": "98.6"
+      },
+      {
+        "p": {
+          "name": "A Two-Stage Prediction-Aware Contrastive Learning Framework for Multi-Intent NLU",
+          "link": "https://arxiv.org/abs/2405.02925v1"
+        },
+        "c": "",
+        "n": "RoBERTa (PACL)",
+        "d": "2024-05-05",
+        "m1": "96.5"
+      },
+      {
+        "p": {
+          "name": "Exploiting Topic Information for Joint Intent Detection and Slot Filling",
+          "link": "https://openreview.net/forum?id=YXvbGWz1AGP"
+        },
+        "c": "",
+        "n": "Topic Information",
+        "d": "2022-01-16",
+        "m1": "96.3"
+      },
+      {
+        "p": {
+          "name": "GL-GIN: Fast and Accurate Non-Autoregressive Model for Joint Multiple Intent Detection and Slot Filling",
+          "link": "https://arxiv.org/abs/2106.01925v1"
+        },
+        "c": "https://github.com/yizhen20133868/GL-GIN",
+        "n": "GL-GIN",
+        "d": "2021-06-03",
+        "m1": "95.6"
+      },
+      {
+        "p": {
+          "name": "Enhancing Joint Multiple Intent Detection and Slot Filling with Global Intent-Slot Co-occurrence",
+          "link": "https://aclanthology.org/2022.emnlp-main.543/"
+        },
+        "c": "https://github.com/smxiao/GISCo",
+        "n": "Global Intent-Slot Co-occurence",
+        "d": "2022-12-01",
+        "m1": "95.5"
+      }
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "title": "video-generation-on-sky-time-lapse",
+  "task-hierarchy": [
+    "Video Generation"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "FVD 16",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "KVD16",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Towards Smooth Video Composition",
+          "link": "https://arxiv.org/abs/2212.07413v1"
+        },
+        "c": "https://github.com/genforce/StyleSV",
+        "n": "StyleSV (256x256)",
+        "d": "2022-12-14",
+        "m1": "49.0"
+      },
+      {
+        "p": {
+          "name": "LeanVAE: An Ultra-Efficient Reconstruction VAE for Video Diffusion Models",
+          "link": "https://arxiv.org/abs/2503.14325v1"
+        },
+        "c": "https://github.com/westlake-repl/leanvae",
+        "n": "Latte + LeanVAE",
+        "d": "2025-03-18",
+        "m1": "49.59"
+      },
+      {
+        "p": {
+          "name": "DDMI: Domain-Agnostic Latent Diffusion Models for Synthesizing High-Quality Implicit Neural Representations",
+          "link": "https://arxiv.org/abs/2401.12517v2"
+        },
+        "c": "https://github.com/mlvlab/DDMI",
+        "n": "DDMI",
+        "d": "2024-01-23",
+        "m1": "66.25"
+      },
+      {
+        "p": {
+          "name": "Latent Video Diffusion Models for High-Fidelity Long Video Generation",
+          "link": "https://arxiv.org/abs/2211.13221v2"
+        },
+        "c": "https://github.com/yingqinghe/lvdm",
+        "n": "LVDM (256x256)",
+        "d": "2022-11-23",
+        "m1": "95.2",
+        "m2": "3.9"
+      },
+      {
+        "p": {
+          "name": "Latent Video Diffusion Models for High-Fidelity Long Video Generation",
+          "link": "https://arxiv.org/abs/2211.13221v2"
+        },
+        "c": "https://github.com/yingqinghe/lvdm",
+        "n": "Long-video GAN (128x128)",
+        "d": "2022-11-23",
+        "m1": "107.5"
+      },
+      {
+        "p": {
+          "name": "Latent Video Diffusion Models for High-Fidelity Long Video Generation",
+          "link": "https://arxiv.org/abs/2211.13221v2"
+        },
+        "c": "https://github.com/yingqinghe/lvdm",
+        "n": "DIGAN (128x128)",
+        "d": "2022-11-23",
+        "m1": "114.6",
+        "m2": "6.8"
+      },
+      {
+        "p": {
+          "name": "Latent Video Diffusion Models for High-Fidelity Long Video Generation",
+          "link": "https://arxiv.org/abs/2211.13221v2"
+        },
+        "c": "https://github.com/yingqinghe/lvdm",
+        "n": "Long-video GAN (256x256)",
+        "d": "2022-11-23",
+        "m1": "116.5"
+      },
+      {
+        "p": {
+          "name": "Latent Video Diffusion Models for High-Fidelity Long Video Generation",
+          "link": "https://arxiv.org/abs/2211.13221v2"
+        },
+        "c": "https://github.com/yingqinghe/lvdm",
+        "n": "TATS (128x128)",
+        "d": "2022-11-23",
+        "m1": "132.6",
+        "m2": "5.7"
+      },
+      {
+        "p": {
+          "name": "Latent Video Diffusion Models for High-Fidelity Long Video Generation",
+          "link": "https://arxiv.org/abs/2211.13221v2"
+        },
+        "c": "https://github.com/yingqinghe/lvdm",
+        "n": "MoCoGAN-HD (128x128)",
+        "d": "2022-11-23",
+        "m1": "183.6",
+        "m2": "13.9"
+      }
+    ]
+  }
+}

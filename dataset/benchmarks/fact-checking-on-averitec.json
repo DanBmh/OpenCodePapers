@@ -1,0 +1,83 @@
+{
+  "title": "fact-checking-on-averitec",
+  "task-hierarchy": [
+    "Fact Checking"
+  ],
+  "dataset-info": {
+    "link": "https://fever.ai/dataset/averitec.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Question Only score",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Question + Answer score",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "AveriTeC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "HerO at AVeriTeC: The Herd of Open Large Language Models for Verifying Real-World Claims",
+          "link": "https://arxiv.org/abs/2410.12377v2"
+        },
+        "c": "https://github.com/ssu-humane/hero",
+        "n": "HerO",
+        "d": "2024-10-16",
+        "m1": "0.48",
+        "m2": "0.35",
+        "m3": "0.57"
+      },
+      {
+        "p": {
+          "name": "AIC CTU system at AVeriTeC: Re-framing automated fact-checking as a simple RAG task",
+          "link": "https://arxiv.org/abs/2410.11446v1"
+        },
+        "c": "https://github.com/aic-factcheck/aic_averitec",
+        "n": "CTU AIC",
+        "d": "2024-10-15",
+        "m1": "0.46",
+        "m2": "0.32",
+        "m3": "0.5"
+      },
+      {
+        "p": {
+          "name": "InFact: A Strong Baseline for Automated Fact-Checking",
+          "link": "https://aclanthology.org/2024.fever-1.12/"
+        },
+        "c": "",
+        "n": "InFact",
+        "d": "2024-11-01",
+        "m1": "0.45",
+        "m2": "0.34",
+        "m3": "0.63"
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "title": "facial-expression-recognition-on-sfew",
+  "task-hierarchy": [
+    "3D Face Reconstruction",
+    "Facial Recognition and Modelling",
+    "Facial Expression Recognition (FER)"
+  ],
+  "dataset-info": {
+    "link": "https://cs.anu.edu.au/few/AFEW.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "A Dual-Branch Adaptive Distribution Fusion Framework for Real-World Facial Expression Recognition",
+          "link": "https://ieeexplore.ieee.org/document/10097033"
+        },
+        "c": "https://github.com/taylor-xy0827/Ada-DF",
+        "n": "Ada-DF",
+        "d": "2023-05-05",
+        "m1": "60.46"
+      },
+      {
+        "p": {
+          "name": "Region Attention Networks for Pose and Occlusion Robust Facial Expression Recognition",
+          "link": "https://arxiv.org/abs/1905.04075v2"
+        },
+        "c": "https://github.com/kaiwang960112/Challenge-condition-FER-dataset",
+        "n": "RAN (VGG16+ResNet18)",
+        "d": "2019-05-10",
+        "m1": "56.4"
+      },
+      {
+        "p": {
+          "name": "Learning Vision Transformer with Squeeze and Excitation for Facial Expression Recognition",
+          "link": "https://arxiv.org/abs/2107.03107v4"
+        },
+        "c": "",
+        "n": "ViT + SE",
+        "d": "2021-07-07",
+        "m1": "54.29"
+      },
+      {
+        "p": {
+          "name": "Island Loss for Learning Discriminative Features in Facial Expression Recognition",
+          "link": "http://arxiv.org/abs/1710.03144v3"
+        },
+        "c": "https://github.com/shanxuanchen/FacialExpressionRecognition",
+        "n": "Island Loss",
+        "d": "2017-10-09",
+        "m1": "52.52"
+      }
+    ]
+  }
+}

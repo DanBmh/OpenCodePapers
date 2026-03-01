@@ -1,0 +1,121 @@
+{
+  "title": "video-captioning-on-activitynet-captions",
+  "task-hierarchy": [
+    "Video Captioning"
+  ],
+  "dataset-info": {
+    "link": "https://cs.stanford.edu/people/ranjaykrishna/densevid/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "BLEU4",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "BLEU-3",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "CIDEr",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "ROUGE-L",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "METEOR",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "VideoCoCa: Video-Text Modeling with Zero-Shot Transfer from Contrastive Captioners",
+          "link": "https://arxiv.org/abs/2212.04979v3"
+        },
+        "c": "",
+        "n": "VideoCoCa",
+        "d": "2022-12-09",
+        "m1": "14.7",
+        "m3": "39.3",
+        "m4": "35.0"
+      },
+      {
+        "p": {
+          "name": "VLTinT: Visual-Linguistic Transformer-in-Transformer for Coherent Video Paragraph Captioning",
+          "link": "https://arxiv.org/abs/2211.15103v2"
+        },
+        "c": "https://github.com/uark-aicv/vltint",
+        "n": "VLTinT (ae-test split) C3D/Ling",
+        "d": "2022-11-28",
+        "m1": "14.5",
+        "m3": "31.13",
+        "m4": "36.56",
+        "m5": "17.97"
+      },
+      {
+        "p": {
+          "name": "VLCap: Vision-Language with Contrastive Learning for Coherent Video Paragraph Captioning",
+          "link": "https://arxiv.org/abs/2206.12972v2"
+        },
+        "c": "https://github.com/UARK-AICV/VLCAP",
+        "n": "VLCap (ae-test split) - Appearance + Language",
+        "d": "2022-06-26",
+        "m1": "13.38",
+        "m3": "31.29",
+        "m4": "35.99",
+        "m5": "17.48"
+      },
+      {
+        "p": {
+          "name": "COOT: Cooperative Hierarchical Transformer for Video-Text Representation Learning",
+          "link": "https://arxiv.org/abs/2011.00597v1"
+        },
+        "c": "https://github.com/gingsi/coot-videotext",
+        "n": "COOT (ae-test split) - Only Appearance features",
+        "d": "2020-11-01",
+        "m1": "10.85",
+        "m2": "17.43",
+        "m3": "28.19",
+        "m4": "31.45",
+        "m5": "15.99"
+      },
+      {
+        "p": {
+          "name": "MART: Memory-Augmented Recurrent Transformer for Coherent Video Paragraph Captioning",
+          "link": "https://arxiv.org/abs/2005.05402v1"
+        },
+        "c": "https://github.com/jayleicn/recurrent-transformer",
+        "n": "MART (ae-test split) - Appearance + Flow",
+        "d": "2020-05-11",
+        "m1": "10.33",
+        "m3": "23.42",
+        "m5": "15.68"
+      }
+    ]
+  }
+}

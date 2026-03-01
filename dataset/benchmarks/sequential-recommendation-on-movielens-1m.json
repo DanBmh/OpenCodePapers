@@ -1,0 +1,185 @@
+{
+  "title": "sequential-recommendation-on-movielens-1m",
+  "task-hierarchy": [
+    "Recommendation Systems",
+    "Sequential Recommendation"
+  ],
+  "dataset-info": {
+    "link": "https://grouplens.org/datasets/movielens/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "HR@5",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "HR@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "HR@20",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "NDCG@5",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "NDCG@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "NDCG@20",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "HR@5 (99 Neg. Samples)",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "HR@10 (99 Neg. Samples)",
+        "sortable": "true"
+      },
+      {
+        "key": "m9",
+        "label": "NDCG@5 (99 Neg. Samples)",
+        "sortable": "true"
+      },
+      {
+        "key": "m10",
+        "label": "NDCG@10 (99 Neg. Samples)",
+        "sortable": "true"
+      },
+      {
+        "key": "m11",
+        "label": "MRR (99 Neg. Samples)",
+        "sortable": "true"
+      },
+      {
+        "key": "m12",
+        "label": "HR@50",
+        "sortable": "true"
+      },
+      {
+        "key": "m13",
+        "label": "MRR@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m14",
+        "label": "MRR@20",
+        "sortable": "true"
+      },
+      {
+        "key": "m15",
+        "label": "MRR@50",
+        "sortable": "true"
+      },
+      {
+        "key": "m16",
+        "label": "NDCG@50",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "TiM4Rec: An Efficient Sequential Recommendation Model Based on Time-Aware Structured State Space Duality Model",
+          "link": "https://arxiv.org/abs/2409.16182v3"
+        },
+        "c": "https://github.com/alwaysfhao/tim4rec",
+        "n": "TiM4Rec",
+        "d": "2024-09-24",
+        "m1": "0.2308",
+        "m2": "0.331",
+        "m3": "0.4338",
+        "m4": "0.1608",
+        "m5": "0.1932",
+        "m6": "0.2194",
+        "m12": "0.577",
+        "m13": "0.1512",
+        "m14": "0.1584",
+        "m15": "0.1629",
+        "m16": "0.2477"
+      },
+      {
+        "p": {
+          "name": "An Attentive Inductive Bias for Sequential Recommendation beyond the Self-Attention",
+          "link": "https://arxiv.org/abs/2312.10325v2"
+        },
+        "c": "https://github.com/yehjin-shin/bsarec",
+        "n": "BSARec",
+        "d": "2023-12-16",
+        "m1": "0.1944",
+        "m2": "0.2757",
+        "m3": "0.3884",
+        "m4": "0.1306",
+        "m5": "0.1568",
+        "m6": "0.1851",
+        "m7": "0.7023",
+        "m8": "0.7978",
+        "m9": "0.5646",
+        "m10": "0.5955",
+        "m11": "0.5406"
+      },
+      {
+        "p": {
+          "name": "Self-Attentive Sequential Recommendation",
+          "link": "http://arxiv.org/abs/1808.09781v1"
+        },
+        "c": "https://github.com/microsoft/recommenders",
+        "n": "SASRec",
+        "d": "2018-08-20",
+        "m1": "0.1374",
+        "m2": "0.2137",
+        "m3": "0.3245",
+        "m4": "0.0873",
+        "m5": "0.1116",
+        "m6": "0.1395",
+        "m7": "0.6874",
+        "m8": "0.7904",
+        "m9": "0.5308",
+        "m10": "0.5642",
+        "m11": "0.5020"
+      },
+      {
+        "p": {
+          "name": "SS4Rec: Continuous-Time Sequential Recommendation with State Space Models",
+          "link": "https://arxiv.org/abs/2502.08132v2"
+        },
+        "c": "https://github.com/XiaoWei-i/SS4Rec",
+        "n": "SS4Rec",
+        "d": "2025-02-12",
+        "m2": "0.3561",
+        "m5": "0.2127",
+        "m13": "0.1688"
+      }
+    ]
+  }
+}

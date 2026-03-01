@@ -1,0 +1,127 @@
+{
+  "title": "visual-question-answering-on-vqa-ce",
+  "task-hierarchy": [
+    "Visual Question Answering (VQA)"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2104.03149"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy (Counterexamples)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Beyond Question-Based Biases: Assessing Multimodal Shortcut Learning in Visual Question Answering",
+          "link": "https://arxiv.org/abs/2104.03149v3"
+        },
+        "c": "https://github.com/cdancette/detect-shortcuts",
+        "n": "RandImg",
+        "d": "2021-04-07",
+        "m1": "34.41"
+      },
+      {
+        "p": {
+          "name": "Beyond Question-Based Biases: Assessing Multimodal Shortcut Learning in Visual Question Answering",
+          "link": "https://arxiv.org/abs/2104.03149v3"
+        },
+        "c": "https://github.com/cdancette/detect-shortcuts",
+        "n": "LMH + CSS",
+        "d": "2021-04-07",
+        "m1": "34.36"
+      },
+      {
+        "p": {
+          "name": "Beyond Question-Based Biases: Assessing Multimodal Shortcut Learning in Visual Question Answering",
+          "link": "https://arxiv.org/abs/2104.03149v3"
+        },
+        "c": "https://github.com/cdancette/detect-shortcuts",
+        "n": "LFF",
+        "d": "2021-04-07",
+        "m1": "34.27"
+      },
+      {
+        "p": {
+          "name": "Beyond Question-Based Biases: Assessing Multimodal Shortcut Learning in Visual Question Answering",
+          "link": "https://arxiv.org/abs/2104.03149v3"
+        },
+        "c": "https://github.com/cdancette/detect-shortcuts",
+        "n": "LMH",
+        "d": "2021-04-07",
+        "m1": "34.26"
+      },
+      {
+        "p": {
+          "name": "Beyond Question-Based Biases: Assessing Multimodal Shortcut Learning in Visual Question Answering",
+          "link": "https://arxiv.org/abs/2104.03149v3"
+        },
+        "c": "https://github.com/cdancette/detect-shortcuts",
+        "n": "UpDown",
+        "d": "2021-04-07",
+        "m1": "33.91"
+      },
+      {
+        "p": {
+          "name": "Beyond Question-Based Biases: Assessing Multimodal Shortcut Learning in Visual Question Answering",
+          "link": "https://arxiv.org/abs/2104.03149v3"
+        },
+        "c": "https://github.com/cdancette/detect-shortcuts",
+        "n": "ESR",
+        "d": "2021-04-07",
+        "m1": "33.26"
+      },
+      {
+        "p": {
+          "name": "Beyond Question-Based Biases: Assessing Multimodal Shortcut Learning in Visual Question Answering",
+          "link": "https://arxiv.org/abs/2104.03149v3"
+        },
+        "c": "https://github.com/cdancette/detect-shortcuts",
+        "n": "LMH + RMFE",
+        "d": "2021-04-07",
+        "m1": "33.14"
+      },
+      {
+        "p": {
+          "name": "Beyond Question-Based Biases: Assessing Multimodal Shortcut Learning in Visual Question Answering",
+          "link": "https://arxiv.org/abs/2104.03149v3"
+        },
+        "c": "https://github.com/cdancette/detect-shortcuts",
+        "n": "BLOCK",
+        "d": "2021-04-07",
+        "m1": "32.91"
+      },
+      {
+        "p": {
+          "name": "Beyond Question-Based Biases: Assessing Multimodal Shortcut Learning in Visual Question Answering",
+          "link": "https://arxiv.org/abs/2104.03149v3"
+        },
+        "c": "https://github.com/cdancette/detect-shortcuts",
+        "n": "RUBi",
+        "d": "2021-04-07",
+        "m1": "32.25"
+      }
+    ]
+  }
+}

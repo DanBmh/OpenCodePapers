@@ -1,0 +1,94 @@
+{
+  "title": "named-entity-recognition-on-linnaeus",
+  "task-hierarchy": [
+    "Named Entity Recognition (NER)"
+  ],
+  "dataset-info": {
+    "link": "http://linnaeus.sourceforge.net/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Biomedical Named Entity Recognition at Scale",
+          "link": "https://arxiv.org/abs/2011.06315v1"
+        },
+        "c": "https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/1.4.Biomedical_NER_SparkNLP_paper_reproduce.ipynb",
+        "n": "BLSTM-CNN-Char (SparkNLP)",
+        "d": "2020-11-12",
+        "m1": "86.26"
+      },
+      {
+        "p": {
+          "name": "Biomedical Named Entity Recognition at Scale",
+          "link": "https://arxiv.org/abs/2011.06315v1"
+        },
+        "c": "https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/1.4.Biomedical_NER_SparkNLP_paper_reproduce.ipynb",
+        "n": "Spark NLP",
+        "d": "2020-11-12",
+        "m1": "86.26"
+      },
+      {
+        "p": {
+          "name": "BioFLAIR: Pretrained Pooled Contextualized Embeddings for Biomedical Sequence Labeling Tasks",
+          "link": "https://arxiv.org/abs/1908.05760v1"
+        },
+        "c": "https://github.com/shreyashub/BioFLAIR",
+        "n": "BioFLAIR",
+        "d": "2019-08-13",
+        "m1": "87.02"
+      },
+      {
+        "p": {
+          "name": "A Neural Named Entity Recognition and Multi-Type Normalization Tool for Biomedical Text Mining",
+          "link": "https://ieeexplore.ieee.org/document/8730332"
+        },
+        "c": "https://github.com/dmis-lab/bern",
+        "n": "BERN",
+        "d": "2019-06-04",
+        "m1": "88.0"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "aimped",
+        "d": null,
+        "m1": "89.72"
+      },
+      {
+        "p": {
+          "name": "BERN2: an advanced neural biomedical named entity recognition and normalization tool",
+          "link": "https://arxiv.org/abs/2201.02080v3"
+        },
+        "c": "https://github.com/dmis-lab/bern2",
+        "n": "BERN2",
+        "d": "2022-01-06",
+        "m1": "92.7"
+      }
+    ]
+  }
+}

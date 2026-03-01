@@ -1,0 +1,67 @@
+{
+  "title": "text-generation-on-openwebtext",
+  "task-hierarchy": [
+    "Text Generation"
+  ],
+  "dataset-info": {
+    "link": "https://skylion007.github.io/OpenWebTextCorpus/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "eval_loss",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Polynomial, trigonometric, and tropical activations",
+          "link": "https://arxiv.org/abs/2502.01247v2"
+        },
+        "c": "https://github.com/K-H-Ismail/torchortho",
+        "n": "GPT2-Hermite",
+        "d": "2025-02-03",
+        "m1": "2.91"
+      },
+      {
+        "p": {
+          "name": "Loop Neural Networks for Parameter Sharing",
+          "link": "https://arxiv.org/abs/2409.14199v3"
+        },
+        "c": "",
+        "n": "GPT2-81M-LOOP",
+        "d": "2024-09-21",
+        "m1": "3.11"
+      },
+      {
+        "p": {
+          "name": "Language Models are Unsupervised Multitask Learners",
+          "link": "https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "GPT2-124M",
+        "d": "2019-02-14",
+        "m1": "3.12"
+      }
+    ]
+  }
+}

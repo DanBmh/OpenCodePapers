@@ -1,0 +1,77 @@
+{
+  "title": "drug-discovery-on-bbbp",
+  "task-hierarchy": [
+    "Drug Discovery"
+  ],
+  "dataset-info": {
+    "link": "https://moleculenet.org/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Optimal Transport Graph Neural Networks",
+          "link": "https://arxiv.org/abs/2006.04804v6"
+        },
+        "c": "https://github.com/benatorc/OTGNN",
+        "n": "ProtoW-L2",
+        "d": "2020-06-08",
+        "m1": "0.92"
+      },
+      {
+        "p": {
+          "name": "Structure to Property: Chemical Element Embeddings and a Deep Learning Approach for Accurate Prediction of Chemical Properties",
+          "link": "https://arxiv.org/abs/2309.09355v3"
+        },
+        "c": "https://github.com/dmamur/elembert",
+        "n": "elEmBERT-V1",
+        "d": "2023-09-17",
+        "m1": "0.905"
+      },
+      {
+        "p": {
+          "name": "GIT-Mol: A Multi-modal Large Language Model for Molecular Science with Graph, Image, and Text",
+          "link": "https://arxiv.org/abs/2308.06911v3"
+        },
+        "c": "https://github.com/ai-hpc-research-team/git-mol",
+        "n": "GIT-Mol(G+S)",
+        "d": "2023-08-14",
+        "m1": "0.739"
+      },
+      {
+        "p": {
+          "name": "Strategies for Pre-training Graph Neural Networks",
+          "link": "https://arxiv.org/abs/1905.12265v3"
+        },
+        "c": "https://github.com/snap-stanford/pretrain-gnns",
+        "n": "ContextPred",
+        "d": "2019-05-29",
+        "m1": "0.687"
+      }
+    ]
+  }
+}

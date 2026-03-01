@@ -1,0 +1,117 @@
+{
+  "title": "mathematical-question-answering-on-geometry3k",
+  "task-hierarchy": [
+    "Mathematical Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://lupantech.github.io/inter-gps/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Inter-GPS: Interpretable Geometry Problem Solving with Formal Language and Symbolic Reasoning",
+          "link": "https://arxiv.org/abs/2105.04165v3"
+        },
+        "c": "https://github.com/lupantech/InterGPS",
+        "n": "Human Expert",
+        "d": "2021-05-10",
+        "m1": "90.9"
+      },
+      {
+        "p": {
+          "name": "Inter-GPS: Interpretable Geometry Problem Solving with Formal Language and Symbolic Reasoning",
+          "link": "https://arxiv.org/abs/2105.04165v3"
+        },
+        "c": "https://github.com/lupantech/InterGPS",
+        "n": "Inter-GPS (GT)",
+        "d": "2021-05-10",
+        "m1": "78.3"
+      },
+      {
+        "p": {
+          "name": "Plane Geometry Diagram Parsing",
+          "link": "https://arxiv.org/abs/2205.09363v1"
+        },
+        "c": "https://github.com/mingliangzhang2018/PGDP",
+        "n": "PGDPNet",
+        "d": "2022-05-19",
+        "m1": "74.1"
+      },
+      {
+        "p": {
+          "name": "GOLD: Geometry Problem Solver with Natural Language Description",
+          "link": "https://arxiv.org/abs/2405.00494v1"
+        },
+        "c": "https://github.com/neurasearch/geometry-diagram-description",
+        "n": "GOLD",
+        "d": "2024-05-01",
+        "m1": "69.1"
+      },
+      {
+        "p": {
+          "name": "GAPS: Geometry-Aware Problem Solver",
+          "link": "https://arxiv.org/abs/2401.16287v1"
+        },
+        "c": "",
+        "n": "GAPS",
+        "d": "2024-01-29",
+        "m1": "68.0"
+      },
+      {
+        "p": {
+          "name": "Inter-GPS: Interpretable Geometry Problem Solving with Formal Language and Symbolic Reasoning",
+          "link": "https://arxiv.org/abs/2105.04165v3"
+        },
+        "c": "https://github.com/lupantech/InterGPS",
+        "n": "Inter-GPS",
+        "d": "2021-05-10",
+        "m1": "57.5"
+      },
+      {
+        "p": {
+          "name": "Inter-GPS: Interpretable Geometry Problem Solving with Formal Language and Symbolic Reasoning",
+          "link": "https://arxiv.org/abs/2105.04165v3"
+        },
+        "c": "https://github.com/lupantech/InterGPS",
+        "n": "Human",
+        "d": "2021-05-10",
+        "m1": "56.9"
+      },
+      {
+        "p": {
+          "name": "Inter-GPS: Interpretable Geometry Problem Solving with Formal Language and Symbolic Reasoning",
+          "link": "https://arxiv.org/abs/2105.04165v3"
+        },
+        "c": "https://github.com/lupantech/InterGPS",
+        "n": "Random",
+        "d": "2021-05-10",
+        "m1": "25.0"
+      }
+    ]
+  }
+}

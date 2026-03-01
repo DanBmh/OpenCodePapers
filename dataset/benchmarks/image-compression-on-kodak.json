@@ -1,0 +1,117 @@
+{
+  "title": "image-compression-on-kodak",
+  "task-hierarchy": [
+    "Image Compression"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "BD-Rate over VTM-17.0",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MLIC: Multi-Reference Entropy Model for Learned Image Compression",
+          "link": "https://arxiv.org/abs/2211.07273v9"
+        },
+        "c": "https://github.com/jiangweibeta/mlic",
+        "n": "MLIC+",
+        "d": "2022-11-14",
+        "m1": "-11.39"
+      },
+      {
+        "p": {
+          "name": "MLIC++: Linear Complexity Multi-Reference Entropy Modeling for Learned Image Compression",
+          "link": "https://arxiv.org/abs/2307.15421v9"
+        },
+        "c": "https://github.com/jiangweibeta/mlic",
+        "n": "MLIC++",
+        "d": "2023-07-28",
+        "m1": "-13.39"
+      },
+      {
+        "p": {
+          "name": "MLIC: Multi-Reference Entropy Model for Learned Image Compression",
+          "link": "https://arxiv.org/abs/2211.07273v9"
+        },
+        "c": "https://github.com/jiangweibeta/mlic",
+        "n": "MLIC",
+        "d": "2022-11-14",
+        "m1": "-8.05"
+      },
+      {
+        "p": {
+          "name": "Learned Image Compression with Mixed Transformer-CNN Architectures",
+          "link": "https://arxiv.org/abs/2303.14978v1"
+        },
+        "c": "https://github.com/jmliu206/lic_tcm",
+        "n": "LIC-TCM Large",
+        "d": "2023-03-27",
+        "m1": "-10.14"
+      },
+      {
+        "p": {
+          "name": "ELIC: Efficient Learned Image Compression with Unevenly Grouped Space-Channel Contextual Adaptive Coding",
+          "link": "https://arxiv.org/abs/2203.10886v2"
+        },
+        "c": "https://github.com/VincentChandelier/ELiC-ReImplemetation",
+        "n": "ELIC",
+        "d": "2022-03-21",
+        "m1": "-5.95"
+      },
+      {
+        "p": {
+          "name": "The Devil Is in the Details: Window-based Attention for Image Compression",
+          "link": "https://arxiv.org/abs/2203.08450v1"
+        },
+        "c": "https://github.com/googolxx/stf",
+        "n": "WACNN",
+        "d": "2022-03-16",
+        "m1": "-2.95"
+      },
+      {
+        "p": {
+          "name": "The Devil Is in the Details: Window-based Attention for Image Compression",
+          "link": "https://arxiv.org/abs/2203.08450v1"
+        },
+        "c": "https://github.com/googolxx/stf",
+        "n": "STF",
+        "d": "2022-03-16",
+        "m1": "-2.48"
+      },
+      {
+        "p": {
+          "name": "Region-Adaptive Transform with Segmentation Prior for Image Compression",
+          "link": "https://arxiv.org/abs/2403.00628v4"
+        },
+        "c": "https://github.com/gityuxiliu/segpic-for-image-compression",
+        "n": "SegPIC",
+        "d": "2024-03-01",
+        "m1": "-8.18"
+      }
+    ]
+  }
+}

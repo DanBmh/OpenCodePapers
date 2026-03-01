@@ -1,0 +1,187 @@
+{
+  "title": "semantic-entity-labeling-on-funsd",
+  "task-hierarchy": [
+    "Semantic entity labeling"
+  ],
+  "dataset-info": {
+    "link": "https://guillaumejaume.github.io/FUNSD/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "LayoutMask: Enhance Text-Layout Interaction in Multi-modal Pre-training for Document Understanding",
+          "link": "https://arxiv.org/abs/2305.18721v2"
+        },
+        "c": "",
+        "n": "LayoutMask (large)",
+        "d": "2023-05-30",
+        "m1": "93.20"
+      },
+      {
+        "p": {
+          "name": "ERNIE-Layout: Layout Knowledge Enhanced Pre-training for Visually-rich Document Understanding",
+          "link": "https://arxiv.org/abs/2210.06155v2"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleNLP/tree/develop/model_zoo/ernie-layout",
+        "n": "ERNIE-Layoutlarge",
+        "d": "2022-10-12",
+        "m1": "93.12"
+      },
+      {
+        "p": {
+          "name": "LayoutMask: Enhance Text-Layout Interaction in Multi-modal Pre-training for Document Understanding",
+          "link": "https://arxiv.org/abs/2305.18721v2"
+        },
+        "c": "",
+        "n": "LayoutMask (base)",
+        "d": "2023-05-30",
+        "m1": "92.91"
+      },
+      {
+        "p": {
+          "name": "GeoLayoutLM: Geometric Pre-training for Visual Information Extraction",
+          "link": "https://arxiv.org/abs/2304.10759v1"
+        },
+        "c": "https://github.com/alibabaresearch/advancedliteratemachinery",
+        "n": "GeoLayoutLM",
+        "d": "2023-04-21",
+        "m1": "92.86"
+      },
+      {
+        "p": {
+          "name": "LayoutLMv3: Pre-training for Document AI with Unified Text and Image Masking",
+          "link": "https://arxiv.org/abs/2204.08387v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LayoutLMv3 Large",
+        "d": "2022-04-18",
+        "m1": "92.08"
+      },
+      {
+        "p": {
+          "name": "Modeling Layout Reading Order as Ordering Relations for Visually-rich Document Understanding",
+          "link": "https://arxiv.org/abs/2409.19672v1"
+        },
+        "c": "https://github.com/chongzhangFDU/ROOR",
+        "n": "RORE (GeoLayoutLM)",
+        "d": "2024-09-29",
+        "m1": "91.84"
+      },
+      {
+        "p": {
+          "name": "StrucTexTv2: Masked Visual-Textual Prediction for Document Image Pre-training",
+          "link": "https://arxiv.org/abs/2303.00289v1"
+        },
+        "c": "https://github.com/PaddlePaddle/VIMER/tree/main/StrucTexT/v2",
+        "n": "StrucTexTv2 (large)",
+        "d": "2023-03-01",
+        "m1": "91.82"
+      },
+      {
+        "p": {
+          "name": "XDoc: Unified Pre-training for Cross-Format Document Understanding",
+          "link": "https://arxiv.org/abs/2210.02849v1"
+        },
+        "c": "https://github.com/microsoft/unilm/tree/master/xdoc",
+        "n": "XDoc1M",
+        "d": "2022-10-06",
+        "m1": "89.4"
+      },
+      {
+        "p": {
+          "name": "StrucTexTv2: Masked Visual-Textual Prediction for Document Image Pre-training",
+          "link": "https://arxiv.org/abs/2303.00289v1"
+        },
+        "c": "https://github.com/PaddlePaddle/VIMER/tree/main/StrucTexT/v2",
+        "n": "StrucTexTv2 (small)",
+        "d": "2023-03-01",
+        "m1": "89.23"
+      },
+      {
+        "p": {
+          "name": "LiLT: A Simple yet Effective Language-Independent Layout Transformer for Structured Document Understanding",
+          "link": "https://arxiv.org/abs/2202.13669v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LILT",
+        "d": "2022-02-28",
+        "m1": "88.41"
+      },
+      {
+        "p": {
+          "name": "Reading Order Matters: Information Extraction from Visually-rich Documents by Token Path Prediction",
+          "link": "https://arxiv.org/abs/2310.11016v1"
+        },
+        "c": "https://github.com/chongzhangfdu/tpp",
+        "n": "TPP (LayoutMask)",
+        "d": "2023-10-17",
+        "m1": "85.16"
+      },
+      {
+        "p": {
+          "name": "LayoutLMv2: Multi-modal Pre-training for Visually-Rich Document Understanding",
+          "link": "https://arxiv.org/abs/2012.14740v4"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LayoutLMv2LARGE",
+        "d": "2020-12-29",
+        "m1": "84.2"
+      },
+      {
+        "p": {
+          "name": "DocTr: Document Transformer for Structured Information Extraction in Documents",
+          "link": "https://arxiv.org/abs/2307.07929v1"
+        },
+        "c": "",
+        "n": "DocTr",
+        "d": "2023-07-16",
+        "m1": "84"
+      },
+      {
+        "p": {
+          "name": "LayoutLMv2: Multi-modal Pre-training for Visually-Rich Document Understanding",
+          "link": "https://arxiv.org/abs/2012.14740v4"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LayoutLMv2BASE",
+        "d": "2020-12-29",
+        "m1": "82.76"
+      },
+      {
+        "p": {
+          "name": "Doc2Graph: a Task Agnostic Document Understanding Framework based on Graph Neural Networks",
+          "link": "https://arxiv.org/abs/2208.11168v1"
+        },
+        "c": "https://github.com/andreagemelli/doc2graph",
+        "n": "Doc2Graph",
+        "d": "2022-08-23",
+        "m1": "82.25"
+      }
+    ]
+  }
+}

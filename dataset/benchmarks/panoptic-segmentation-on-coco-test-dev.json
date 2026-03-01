@@ -1,0 +1,500 @@
+{
+  "title": "panoptic-segmentation-on-coco-test-dev",
+  "task-hierarchy": [
+    "Panoptic Segmentation"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PQ",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "PQst",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "PQth",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Mask DINO: Towards A Unified Transformer-based Framework for Object Detection and Segmentation",
+          "link": "https://arxiv.org/abs/2206.02777v3"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
+        "n": "Mask DINO (single scale)",
+        "d": "2022-06-06",
+        "m1": "59.5",
+        "m2": "-",
+        "m3": "-"
+      },
+      {
+        "p": {
+          "name": "kMaX-DeepLab: k-means Mask Transformer",
+          "link": "https://arxiv.org/abs/2207.04044v5"
+        },
+        "c": "https://github.com/google-research/deeplab2",
+        "n": "kMaX-DeepLab (single-scale)",
+        "d": "2022-07-08",
+        "m1": "58.5",
+        "m2": "49.0",
+        "m3": "64.8"
+      },
+      {
+        "p": {
+          "name": "Masked-attention Mask Transformer for Universal Image Segmentation",
+          "link": "https://arxiv.org/abs/2112.01527v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Mask2Former (Swin-L)",
+        "d": "2021-12-02",
+        "m1": "58.3",
+        "m2": "48.1",
+        "m3": "65.1"
+      },
+      {
+        "p": {
+          "name": "Panoptic SegFormer: Delving Deeper into Panoptic Segmentation with Transformers",
+          "link": "https://arxiv.org/abs/2109.03814v4"
+        },
+        "c": "https://github.com/zhiqi-li/Panoptic-SegFormer",
+        "n": "Panoptic SegFormer (Swin-L)",
+        "d": "2021-09-08",
+        "m1": "56.2",
+        "m2": "47.0",
+        "m3": "62.3"
+      },
+      {
+        "p": {
+          "name": "Panoptic SegFormer: Delving Deeper into Panoptic Segmentation with Transformers",
+          "link": "https://arxiv.org/abs/2109.03814v4"
+        },
+        "c": "https://github.com/zhiqi-li/Panoptic-SegFormer",
+        "n": "Panoptic SegFormer (PVTv2-B5)",
+        "d": "2021-09-08",
+        "m1": "55.8",
+        "m2": "46.5",
+        "m3": "61.9"
+      },
+      {
+        "p": {
+          "name": "CMT-DeepLab: Clustering Mask Transformers for Panoptic Segmentation",
+          "link": "https://arxiv.org/abs/2206.08948v1"
+        },
+        "c": "https://github.com/bytedance/kmax-deeplab",
+        "n": "CMT-DeepLab (single-scale)",
+        "d": "2022-06-17",
+        "m1": "55.7",
+        "m2": "46.8",
+        "m3": "61.6"
+      },
+      {
+        "p": {
+          "name": "K-Net: Towards Unified Image Segmentation",
+          "link": "https://arxiv.org/abs/2106.14855v2"
+        },
+        "c": "https://github.com/zwwwayne/k-net",
+        "n": "K-Net (Swin-L)",
+        "d": "2021-06-28",
+        "m1": "55.2",
+        "m2": "46.2",
+        "m3": "61.2"
+      },
+      {
+        "p": {
+          "name": "MaskConver: Revisiting Pure Convolution Model for Panoptic Segmentation",
+          "link": "https://arxiv.org/abs/2312.06052v1"
+        },
+        "c": "https://github.com/tensorflow/models",
+        "n": "MaskConver (ResNet50, single-scale)",
+        "d": "2023-12-11",
+        "m1": "53.6",
+        "m2": "58.9",
+        "m3": "45.6"
+      },
+      {
+        "p": {
+          "name": "Per-Pixel Classification is Not All You Need for Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2107.06278v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "MaskFormer (Swin-L)",
+        "d": "2021-07-13",
+        "m1": "53.3",
+        "m2": "44.5",
+        "m3": "59.1"
+      },
+      {
+        "p": {
+          "name": "Fully Convolutional Networks for Panoptic Segmentation",
+          "link": "https://arxiv.org/abs/2012.00720v2"
+        },
+        "c": "https://github.com/dvlab-research/panopticfcn",
+        "n": "Panoptic FCN* (Swin-L)",
+        "d": "2020-12-01",
+        "m1": "52.7",
+        "m3": " 59.4"
+      },
+      {
+        "p": {
+          "name": "REFINE: Prediction Fusion Network for Panoptic Segmentation",
+          "link": "https://sites.google.com/view/refine-aaai2021/home"
+        },
+        "c": "",
+        "n": "REFINE (ResNeXt-101-DCN)",
+        "d": "2020-12-15",
+        "m1": "51.5",
+        "m2": "39.2",
+        "m3": "59.6"
+      },
+      {
+        "p": {
+          "name": "MaX-DeepLab: End-to-End Panoptic Segmentation with Mask Transformers",
+          "link": "https://arxiv.org/abs/2012.00759v3"
+        },
+        "c": "https://github.com/google-research/deeplab2",
+        "n": "MaX-DeepLab-L (single-scale)",
+        "d": "2020-12-01",
+        "m1": "51.3",
+        "m2": "42.4",
+        "m3": "57.2"
+      },
+      {
+        "p": {
+          "name": "Panoptic SegFormer: Delving Deeper into Panoptic Segmentation with Transformers",
+          "link": "https://arxiv.org/abs/2109.03814v4"
+        },
+        "c": "https://github.com/zhiqi-li/Panoptic-SegFormer",
+        "n": "Panoptic SegFormer (ResNet-101)",
+        "d": "2021-09-08",
+        "m1": "50.9",
+        "m2": "43.0",
+        "m3": "56.2"
+      },
+      {
+        "p": {
+          "name": "Panoptic SegFormer: Delving Deeper into Panoptic Segmentation with Transformers",
+          "link": "https://arxiv.org/abs/2109.03814v4"
+        },
+        "c": "https://github.com/zhiqi-li/Panoptic-SegFormer",
+        "n": "Panoptic SegFormer (ResNet-50)",
+        "d": "2021-09-08",
+        "m1": "50.2",
+        "m2": "42.4",
+        "m3": "55.3"
+      },
+      {
+        "p": {
+          "name": "DetectoRS: Detecting Objects with Recursive Feature Pyramid and Switchable Atrous Convolution",
+          "link": "https://arxiv.org/abs/2006.02334v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "DetectoRS (ResNeXt-101-64x4d, multi-scale)",
+        "d": "2020-06-03",
+        "m1": "50",
+        "m2": "37.2",
+        "m3": "58.5"
+      },
+      {
+        "p": {
+          "name": "REFINE: Prediction Fusion Network for Panoptic Segmentation",
+          "link": "https://sites.google.com/view/refine-aaai2021/home"
+        },
+        "c": "",
+        "n": "REFINE (ResNet-101-DCN)",
+        "d": "2020-12-15",
+        "m1": "49.6",
+        "m2": "37.7",
+        "m3": "57.5"
+      },
+      {
+        "p": {
+          "name": "SpatialFlow: Bridging All Tasks for Panoptic Segmentation",
+          "link": "https://arxiv.org/abs/1910.08787v3"
+        },
+        "c": "https://github.com/chensnathan/SpatialFlow",
+        "n": "SpatialFlow(ResNet-101-FPN)",
+        "d": "2019-10-19",
+        "m1": "48.5",
+        "m2": "37.9",
+        "m3": "55.5"
+      },
+      {
+        "p": {
+          "name": "Ada-Segment: Automated Multi-loss Adaptation for Panoptic Segmentation",
+          "link": "https://arxiv.org/abs/2012.03603v1"
+        },
+        "c": "",
+        "n": "Ada-Segment (ResNet-101-DCN)",
+        "d": "2020-12-07",
+        "m1": "48.5",
+        "m2": "37.6",
+        "m3": "55.7"
+      },
+      {
+        "p": {
+          "name": "K-Net: Towards Unified Image Segmentation",
+          "link": "https://arxiv.org/abs/2106.14855v2"
+        },
+        "c": "https://github.com/zwwwayne/k-net",
+        "n": "K-Net (R101-FPN-DCN)",
+        "d": "2021-06-28",
+        "m1": "48.3",
+        "m2": "39.7",
+        "m3": "54"
+      },
+      {
+        "p": {
+          "name": "SOGNet: Scene Overlap Graph Network for Panoptic Segmentation",
+          "link": "https://arxiv.org/abs/1911.07527v1"
+        },
+        "c": "https://github.com/LaoYang1994/SOGNet",
+        "n": "SOGNet (ResNet-101-FPN)",
+        "d": "2019-11-18",
+        "m1": "47.8"
+      },
+      {
+        "p": {
+          "name": "Fully Convolutional Networks for Panoptic Segmentation",
+          "link": "https://arxiv.org/abs/2012.00720v2"
+        },
+        "c": "https://github.com/dvlab-research/panopticfcn",
+        "n": "Panoptic FCN*++ (DCN-101-FPN)",
+        "d": "2020-12-01",
+        "m1": "47.5",
+        "m2": "38.2",
+        "m3": "53.7"
+      },
+      {
+        "p": {
+          "name": "UPSNet: A Unified Panoptic Segmentation Network",
+          "link": "http://arxiv.org/abs/1901.03784v2"
+        },
+        "c": "https://github.com/uber-research/UPSNet",
+        "n": "UPSNet (ResNet-101-FPN)",
+        "d": "2019-01-12",
+        "m1": "46.6",
+        "m2": "36.7",
+        "m3": "53.2"
+      },
+      {
+        "p": {
+          "name": "Learning Instance Occlusion for Panoptic Segmentation",
+          "link": "https://arxiv.org/abs/1906.05896v4"
+        },
+        "c": "https://github.com/jlazarow/learning_instance_occlusion",
+        "n": "OCFusion (ResNeXt-101-FPN)",
+        "d": "2019-06-13",
+        "m1": "46.6",
+        "m2": "35.7",
+        "m3": "54.0"
+      },
+      {
+        "p": {
+          "name": "Scaling Wide Residual Networks for Panoptic Segmentation",
+          "link": "https://arxiv.org/abs/2011.11675v2"
+        },
+        "c": "",
+        "n": "Panoptic-DeepLab (SWideRNet-[1, 1, 4], multi-scale)",
+        "d": "2020-11-23",
+        "m1": "46.5",
+        "m2": "38.2",
+        "m3": "52.0"
+      },
+      {
+        "p": {
+          "name": "Attention-guided Unified Network for Panoptic Segmentation",
+          "link": "http://arxiv.org/abs/1812.03904v2"
+        },
+        "c": "",
+        "n": "AUNet (ResNext-152-FPN)",
+        "d": "2018-12-10",
+        "m1": "46.5",
+        "m2": "32.5",
+        "m3": "55.8"
+      },
+      {
+        "p": {
+          "name": "Attention-guided Unified Network for Panoptic Segmentation",
+          "link": "http://arxiv.org/abs/1812.03904v2"
+        },
+        "c": "",
+        "n": "AUNet (ResNet-152-FPN)",
+        "d": "2018-12-10",
+        "m1": "45.5",
+        "m2": "31.6",
+        "m3": "54.7"
+      },
+      {
+        "p": {
+          "name": "Attention-guided Unified Network for Panoptic Segmentation",
+          "link": "http://arxiv.org/abs/1812.03904v2"
+        },
+        "c": "",
+        "n": "AUNet (ResNet-101-FPN)",
+        "d": "2018-12-10",
+        "m1": "45.2",
+        "m2": "31.3",
+        "m3": "54.4"
+      },
+      {
+        "p": {
+          "name": "Axial-DeepLab: Stand-Alone Axial-Attention for Panoptic Segmentation",
+          "link": "https://arxiv.org/abs/2003.07853v2"
+        },
+        "c": "https://github.com/The-AI-Summer/self_attention",
+        "n": "Axial-DeepLab-L (multi-scale)",
+        "d": "2020-03-17",
+        "m1": "44.2",
+        "m2": "36.8",
+        "m3": "49.2"
+      },
+      {
+        "p": {
+          "name": "Axial-DeepLab: Stand-Alone Axial-Attention for Panoptic Segmentation",
+          "link": "https://arxiv.org/abs/2003.07853v2"
+        },
+        "c": "https://github.com/The-AI-Summer/self_attention",
+        "n": "Axial-DeepLab-L",
+        "d": "2020-03-17",
+        "m1": "43.6",
+        "m2": "35.6",
+        "m3": "48.9"
+      },
+      {
+        "p": {
+          "name": "AdaptIS: Adaptive Instance Selection Network",
+          "link": "https://arxiv.org/abs/1909.07829v1"
+        },
+        "c": "",
+        "n": "AdaptIS (ResNeXt-101)",
+        "d": "2019-09-17",
+        "m1": "42.8",
+        "m2": "31.8",
+        "m3": "50.1"
+      },
+      {
+        "p": {
+          "name": "Panoptic-DeepLab: A Simple, Strong, and Fast Baseline for Bottom-Up Panoptic Segmentation",
+          "link": "https://arxiv.org/abs/1911.10194v3"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/official/projects/panoptic",
+        "n": "Panoptic-DeepLab (Xception-71)",
+        "d": "2019-11-22",
+        "m1": "41.4",
+        "m2": "35.9",
+        "m3": "45.1"
+      },
+      {
+        "p": {
+          "name": "Panoptic Feature Pyramid Networks",
+          "link": "http://arxiv.org/abs/1901.02446v2"
+        },
+        "c": "https://github.com/facebookresearch/detectron2",
+        "n": "Panoptic FPN",
+        "d": "2019-01-08",
+        "m1": "40.9",
+        "m2": "29.7",
+        "m3": "48.3"
+      },
+      {
+        "p": {
+          "name": "Learning to Fuse Things and Stuff",
+          "link": "https://arxiv.org/abs/1812.01192v2"
+        },
+        "c": "",
+        "n": "TASCNet",
+        "d": "2018-12-04",
+        "m1": "40.7",
+        "m2": "31.0",
+        "m3": "47.0"
+      },
+      {
+        "p": {
+          "name": "EPSNet: Efficient Panoptic Segmentation Network with Cross-layer Attention Fusion",
+          "link": "https://arxiv.org/abs/2003.10142v3"
+        },
+        "c": "https://github.com/neo85824/epsnet",
+        "n": "EPSNet (ResNet-101-FPN)",
+        "d": "2020-03-23",
+        "m1": "38.9",
+        "m2": "31.0",
+        "m3": "44.1"
+      },
+      {
+        "p": {
+          "name": "Combinatorial Optimization for Panoptic Segmentation: A Fully Differentiable Approach",
+          "link": "https://arxiv.org/abs/2106.03188v3"
+        },
+        "c": "https://github.com/LPMP/LPMP",
+        "n": "COPS (ResNet-50)",
+        "d": "2021-06-06",
+        "m1": "38.5",
+        "m2": "34.8",
+        "m3": "41.0"
+      },
+      {
+        "p": {
+          "name": "Pixel Consensus Voting for Panoptic Segmentation",
+          "link": "https://arxiv.org/abs/2004.01849v1"
+        },
+        "c": "",
+        "n": "PCV (ResNet-50)",
+        "d": "2020-04-04",
+        "m1": "37.7",
+        "m2": "33.1",
+        "m3": "40.7"
+      },
+      {
+        "p": {
+          "name": "Generator evaluator-selector net for panoptic image segmentation and splitting unfamiliar objects into parts",
+          "link": "https://arxiv.org/abs/1908.09108v4"
+        },
+        "c": "https://github.com/sagieppel/Generator-evaluator-selector-net-a-modular-approach-for-panoptic-segmentation",
+        "n": "GES Net",
+        "d": "2019-08-24",
+        "m1": "33.7",
+        "m2": "31.5",
+        "m3": "35.1"
+      },
+      {
+        "p": {
+          "name": "Panoptic Segmentation with a Joint Semantic and Instance Segmentation Network",
+          "link": "http://arxiv.org/abs/1809.02110v2"
+        },
+        "c": "",
+        "n": "JSIS-Net",
+        "d": "2018-09-06",
+        "m1": "27.2",
+        "m2": "23.4",
+        "m3": "29.6"
+      }
+    ]
+  }
+}

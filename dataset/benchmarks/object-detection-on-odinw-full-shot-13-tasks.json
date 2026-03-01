@@ -1,0 +1,117 @@
+{
+  "title": "object-detection-on-odinw-full-shot-13-tasks",
+  "task-hierarchy": [
+    "Object Detection"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "CP-DETR: Concept Prompt Guide DETR Toward Stronger Universal Object Detection",
+          "link": "https://arxiv.org/abs/2412.09799v1"
+        },
+        "c": "",
+        "n": "CP-DETR-L(only optimize prompt)",
+        "d": "2024-12-13",
+        "m1": "73.1"
+      },
+      {
+        "p": {
+          "name": "Grounding DINO 1.5: Advance the \"Edge\" of Open-Set Object Detection",
+          "link": "https://arxiv.org/abs/2405.10300v2"
+        },
+        "c": "https://github.com/mit-han-lab/efficientvit",
+        "n": "Grounding DINO 1.5 Pro",
+        "d": "2024-05-16",
+        "m1": "72.4"
+      },
+      {
+        "p": {
+          "name": "DetCLIPv3: Towards Versatile Generative Open-vocabulary Object Detection",
+          "link": "https://arxiv.org/abs/2404.09216v1"
+        },
+        "c": "",
+        "n": "DetCLIPv3",
+        "d": "2024-04-14",
+        "m1": "72.1"
+      },
+      {
+        "p": {
+          "name": "Multi-modal Queried Object Detection in the Wild",
+          "link": "https://arxiv.org/abs/2305.18980v2"
+        },
+        "c": "https://github.com/yifanxu74/mq-det",
+        "n": "MQ-GLIP-L",
+        "d": "2023-05-30",
+        "m1": "71.3"
+      },
+      {
+        "p": {
+          "name": "Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection",
+          "link": "https://arxiv.org/abs/2303.05499v5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Grounding DINO",
+        "d": "2023-03-09",
+        "m1": "70.9"
+      },
+      {
+        "p": {
+          "name": "DetCLIPv2: Scalable Open-Vocabulary Object Detection Pre-training via Word-Region Alignment",
+          "link": "https://arxiv.org/abs/2304.04514v1"
+        },
+        "c": "",
+        "n": "DetCLIPv2",
+        "d": "2023-04-10",
+        "m1": "70.4"
+      },
+      {
+        "p": {
+          "name": "GLIPv2: Unifying Localization and Vision-Language Understanding",
+          "link": "https://arxiv.org/abs/2206.05836v2"
+        },
+        "c": "https://github.com/microsoft/GLIP",
+        "n": "GLIPv2",
+        "d": "2022-06-12",
+        "m1": "70.4"
+      },
+      {
+        "p": {
+          "name": "Grounded Language-Image Pre-training",
+          "link": "https://arxiv.org/abs/2112.03857v2"
+        },
+        "c": "https://github.com/microsoft/GLIP",
+        "n": "GLIP",
+        "d": "2021-12-07",
+        "m1": "68.9"
+      }
+    ]
+  }
+}

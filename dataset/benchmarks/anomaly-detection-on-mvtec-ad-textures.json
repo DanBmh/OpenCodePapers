@@ -1,0 +1,77 @@
+{
+  "title": "anomaly-detection-on-mvtec-ad-textures",
+  "task-hierarchy": [
+    "Anomaly Detection"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Detection AUROC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Exploring Dual Model Knowledge Distillation for Anomaly Detection",
+          "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4493018"
+        },
+        "c": "",
+        "n": "DualModel",
+        "d": "2023-06-27",
+        "m1": "99.94"
+      },
+      {
+        "p": {
+          "name": "MixedTeacher : Knowledge Distillation for fast inference textural anomaly detection",
+          "link": "https://arxiv.org/abs/2306.09859v1"
+        },
+        "c": "https://github.com/SimonThomine/MixedTeacher",
+        "n": "Mixed-Teacher",
+        "d": "2023-06-16",
+        "m1": "99.8"
+      },
+      {
+        "p": {
+          "name": "Revisiting Reverse Distillation for Anomaly Detection",
+          "link": "http://openaccess.thecvf.com//content/CVPR2023/html/Tien_Revisiting_Reverse_Distillation_for_Anomaly_Detection_CVPR_2023_paper.html"
+        },
+        "c": "https://github.com/tientrandinh/revisiting-reverse-distillation",
+        "n": "Reverse Distillation ++",
+        "d": "2023-01-01",
+        "m1": "99.8"
+      },
+      {
+        "p": {
+          "name": "CSE: Surface Anomaly Detection with Contrastively Selected Embedding",
+          "link": "https://arxiv.org/abs/2403.01859v1"
+        },
+        "c": "https://github.com/SimonThomine/CSE",
+        "n": "CSE",
+        "d": "2024-03-04",
+        "m1": "99.8"
+      }
+    ]
+  }
+}

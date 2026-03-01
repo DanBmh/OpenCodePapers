@@ -1,0 +1,393 @@
+{
+  "title": "3d-face-reconstruction-on-realy",
+  "task-hierarchy": [
+    "3D Face Reconstruction"
+  ],
+  "dataset-info": {
+    "link": "https://www.realy3dface.com/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "all",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "@nose",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "@mouth",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "@forehead",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "@cheek",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "HiFace: High-Fidelity 3D Face Reconstruction by Learning Static and Dynamic Details",
+          "link": "https://arxiv.org/abs/2303.11225v2"
+        },
+        "c": "",
+        "n": "HiFace-f",
+        "d": "2023-03-20",
+        "m1": "1.275",
+        "m2": "1.036 (±0.280)",
+        "m3": "1.450 (±0.413)",
+        "m4": "1.324 (±0.334)",
+        "m5": "1.291 (±0.362)"
+      },
+      {
+        "p": {
+          "name": "HiFace: High-Fidelity 3D Face Reconstruction by Learning Static and Dynamic Details",
+          "link": "https://arxiv.org/abs/2303.11225v2"
+        },
+        "c": "",
+        "n": "HiFace-c",
+        "d": "2023-03-20",
+        "m1": "1.297",
+        "m2": "1.054 (±0.317)",
+        "m3": "1.461 (±0.430)",
+        "m4": "1.331 (±0.347)",
+        "m5": "1.342 (±0.384)"
+      },
+      {
+        "p": {
+          "name": "FFHQ-UV: Normalized Facial UV-Texture Dataset for 3D Face Reconstruction",
+          "link": "https://arxiv.org/abs/2211.13874v2"
+        },
+        "c": "https://github.com/csbhr/ffhq-uv",
+        "n": "FFHQ-UV",
+        "d": "2022-11-25",
+        "m1": "1.399",
+        "m2": "1.681",
+        "m3": "1.339",
+        "m4": "1.631",
+        "m5": "0.943"
+      },
+      {
+        "p": {
+          "name": "3D Face Reconstruction with the Geometric Guidance of Facial Part Segmentation",
+          "link": "https://arxiv.org/abs/2312.00311v3"
+        },
+        "c": "https://github.com/wang-zidu/3ddfa-v3",
+        "n": "3DDFA-v3",
+        "d": "2023-12-01",
+        "m1": "1.435",
+        "m2": "1.584 (±0.308)",
+        "m3": "1.237 (±0.375)",
+        "m4": "1.809 (±0.394)",
+        "m5": "1.110 (±0.328)"
+      },
+      {
+        "p": {
+          "name": "MoSAR: Monocular Semi-Supervised Model for Avatar Reconstruction using Differentiable Shading",
+          "link": "https://arxiv.org/abs/2312.13091v2"
+        },
+        "c": "",
+        "n": "MoSAR",
+        "d": "2023-12-20",
+        "m1": "1.500",
+        "m2": "1.499 (±0.366)",
+        "m3": "1.424 (±0.462)",
+        "m4": "1.950 (±0.559)",
+        "m5": "1.128 (±0.303)"
+      },
+      {
+        "p": {
+          "name": "A Hierarchical Representation Network for Accurate and Detailed Face Reconstruction from In-The-Wild Images",
+          "link": "https://arxiv.org/abs/2302.14434v2"
+        },
+        "c": "https://github.com/youngLBW/HRN",
+        "n": "HRN",
+        "d": "2023-02-28",
+        "m1": "1.537",
+        "m2": "1.722 (±0.330)",
+        "m3": "1.357 (±0.523)",
+        "m4": "1.995 (±0.476)",
+        "m5": "1.072 (±0.333)"
+      },
+      {
+        "p": {
+          "name": "Accurate 3D Face Reconstruction with Weakly-Supervised Learning: From Single Image to Image Set",
+          "link": "https://arxiv.org/abs/1903.08527v2"
+        },
+        "c": "https://github.com/Microsoft/Deep3DFaceReconstruction",
+        "n": "Deep3D",
+        "d": "2019-03-20",
+        "m1": "1.657",
+        "m2": "1.719 (±0.354)",
+        "m3": "1.368 (±0.439)",
+        "m4": "2.015 (±0.449)",
+        "m5": "1.528 (±0.501)"
+      },
+      {
+        "p": {
+          "name": "Towards Realistic Generative 3D Face Models",
+          "link": "https://arxiv.org/abs/2304.12483v3"
+        },
+        "c": "https://github.com/aashishrai3799/Towards-Realistic-Generative-3D-Face-Models",
+        "n": "AlbedoGAN",
+        "d": "2023-04-24",
+        "m1": "1.746",
+        "m2": "1.656 (±0.374)",
+        "m3": "2.087 (±0.839)",
+        "m4": "2.102 (±0.512)",
+        "m5": "1.141 (±0.303)"
+      },
+      {
+        "p": {
+          "name": "Self-Supervised Monocular 3D Face Reconstruction by Occlusion-Aware Multi-view Geometry Consistency",
+          "link": "https://arxiv.org/abs/2007.12494v1"
+        },
+        "c": "https://github.com/jiaxiangshang/MGCNet",
+        "n": "MGCNet",
+        "d": "2020-07-24",
+        "m1": "1.787",
+        "m2": "1.827 (±0.383)",
+        "m3": "1.409 (±0.418)",
+        "m4": "2.248 (±0.508)",
+        "m5": "1.665 (±0.644)"
+      },
+      {
+        "p": {
+          "name": "GANFIT: Generative Adversarial Network Fitting for High Fidelity 3D Face Reconstruction",
+          "link": "http://arxiv.org/abs/1902.05978v2"
+        },
+        "c": "https://github.com/barisgecer/ganfit",
+        "n": "GANFit",
+        "d": "2019-02-15",
+        "m1": "1.868",
+        "m2": "1.928 (±0.490)",
+        "m3": "1.812 (±0.544)",
+        "m4": "2.402 (±0.545)",
+        "m5": "1.329 (±0.504)"
+      },
+      {
+        "p": {
+          "name": "A Perceptual Shape Loss for Monocular 3D Face Reconstruction",
+          "link": "https://arxiv.org/abs/2310.19580v1"
+        },
+        "c": "",
+        "n": "PSL",
+        "d": "2023-10-30",
+        "m1": "1.882",
+        "m2": "1.708 (±0.349)",
+        "m3": "1.876 (±0.563)",
+        "m4": "2.350 (±0.551)",
+        "m5": "1.593 (±0.540)"
+      },
+      {
+        "p": {
+          "name": "SADRNet: Self-Aligned Dual Face Regression Networks for Robust 3D Dense Face Alignment and Reconstruction",
+          "link": "https://arxiv.org/abs/2106.03021v1"
+        },
+        "c": "https://github.com/MCG-NJU/SADRNet",
+        "n": "SADRNet",
+        "d": "2021-06-06",
+        "m1": "1.913",
+        "m2": "1.791 (±0.542)",
+        "m3": "1.591 (±0.488)",
+        "m4": "2.413 (±0.537)",
+        "m5": "1.856 (±0.701)"
+      },
+      {
+        "p": {
+          "name": "Towards Fast, Accurate and Stable 3D Dense Face Alignment",
+          "link": "https://arxiv.org/abs/2009.09960v2"
+        },
+        "c": "https://github.com/cleardusk/3DDFA",
+        "n": "3DDFA-v2",
+        "d": "2020-09-21",
+        "m1": "1.926",
+        "m2": "1.903 (±0.517)",
+        "m3": "1.597 (±0.478)",
+        "m4": "2.447 (±0.647)",
+        "m5": "1.757 (±0.642)"
+      },
+      {
+        "p": {
+          "name": "Learning an Animatable Detailed 3D Face Model from In-The-Wild Images",
+          "link": "https://arxiv.org/abs/2012.04012v2"
+        },
+        "c": "https://github.com/YadiraF/DECA",
+        "n": "DECA-c",
+        "d": "2020-12-07",
+        "m1": "2.010",
+        "m2": "1.697 (±0.355)",
+        "m3": "2.516 (±0.839)",
+        "m4": "2.394 (±0.576)",
+        "m5": "1.479 (±0.535)"
+      },
+      {
+        "p": {
+          "name": "Joint 3D Face Reconstruction and Dense Alignment with Position Map Regression Network",
+          "link": "http://arxiv.org/abs/1803.07835v1"
+        },
+        "c": "https://github.com/YadiraF/PRNet",
+        "n": "PRNet",
+        "d": "2018-03-21",
+        "m1": "2.013",
+        "m2": "1.923 (±0.518)",
+        "m3": "1.838 (±0.637)",
+        "m4": "2.429 (±0.588)",
+        "m5": "1.863 (±0.698)"
+      },
+      {
+        "p": {
+          "name": "Self-Supervised 3D Face Reconstruction via Conditional Estimation",
+          "link": "https://arxiv.org/abs/2110.04800v1"
+        },
+        "c": "",
+        "n": "CEST",
+        "d": "2021-10-10",
+        "m1": "2.017",
+        "m2": "2.779 (±0.835)",
+        "m3": "1.448 (±0.406)",
+        "m4": "2.384 (±0.578)",
+        "m5": "1.456 (±0.485)"
+      },
+      {
+        "p": {
+          "name": "Synergy between 3DMM and 3D Landmarks for Accurate 3D Facial Geometry",
+          "link": "https://arxiv.org/abs/2110.09772v3"
+        },
+        "c": "https://github.com/tomas-gajarsky/facetorch",
+        "n": "SynergyNet",
+        "d": "2021-10-19",
+        "m1": "2.021",
+        "m2": "2.026 (±0.532)",
+        "m3": "1.731 (±0.502)",
+        "m4": "2.679 (±0.741)",
+        "m5": "1.647 (±0.622)"
+      },
+      {
+        "p": {
+          "name": "EMOCA: Emotion Driven Monocular Face Capture and Animation",
+          "link": "https://arxiv.org/abs/2204.11312v1"
+        },
+        "c": "https://github.com/radekd91/emoca",
+        "n": "EMOCA-c",
+        "d": "2022-04-24",
+        "m1": "2.103",
+        "m2": "1.868 (±0.387)",
+        "m3": "2.679 (±1.112)",
+        "m4": "2.426 (±0.641)",
+        "m5": "1.438 (±0.501)"
+      },
+      {
+        "p": {
+          "name": "Towards Metrical Reconstruction of Human Faces",
+          "link": "https://arxiv.org/abs/2204.06607v2"
+        },
+        "c": "https://github.com/Zielon/MICA",
+        "n": "MICA",
+        "d": "2022-04-13",
+        "m1": "2.134",
+        "m2": "1.585 (±0.325)",
+        "m3": "3.478 (±1.204)",
+        "m4": "2.374 (±0.683)",
+        "m5": "1.099 (±0.324)"
+      },
+      {
+        "p": {
+          "name": "Learning an Animatable Detailed 3D Face Model from In-The-Wild Images",
+          "link": "https://arxiv.org/abs/2012.04012v2"
+        },
+        "c": "https://github.com/YadiraF/DECA",
+        "n": "DECA-f",
+        "d": "2020-12-07",
+        "m1": "2.210",
+        "m2": "2.138 (±0.461)",
+        "m3": "2.802 (±0.868)",
+        "m4": "2.457 (±0.559)",
+        "m5": "1.443 (±0.498)"
+      },
+      {
+        "p": {
+          "name": "Learning to Regress 3D Face Shape and Expression from an Image without 3D Supervision",
+          "link": "https://arxiv.org/abs/1905.06817v1"
+        },
+        "c": "https://github.com/soubhiksanyal/RingNet",
+        "n": "RingNet",
+        "d": "2019-05-16",
+        "m1": "2.258",
+        "m2": "1.934 (±0.458)",
+        "m3": "2.074 (±0.616)",
+        "m4": "2.995 (±0.908)",
+        "m5": "2.028 (±0.720)"
+      },
+      {
+        "p": {
+          "name": "ExpNet: Landmark-Free, Deep, 3D Facial Expressions",
+          "link": "http://arxiv.org/abs/1802.00542v1"
+        },
+        "c": "https://github.com/fengju514/Expression-Net",
+        "n": "ExpNet",
+        "d": "2018-02-02",
+        "m1": "2.306",
+        "m2": "2.509 (±0.486)",
+        "m3": "1.912 (±0.450)",
+        "m4": "3.084 (±1.005)",
+        "m5": "1.717 (±0.590)"
+      },
+      {
+        "p": {
+          "name": "EMOCA: Emotion Driven Monocular Face Capture and Animation",
+          "link": "https://arxiv.org/abs/2204.11312v1"
+        },
+        "c": "https://github.com/radekd91/emoca",
+        "n": "EMOCA-f",
+        "d": "2022-04-24",
+        "m1": "2.388",
+        "m2": "2.532 (±0.539)",
+        "m3": "2.929 (±1.106)",
+        "m4": "2.595 (±0.631)",
+        "m5": "1.495 (±0.469)"
+      },
+      {
+        "p": {
+          "name": "Towards High-fidelity Nonlinear 3D Face Morphable Model",
+          "link": "http://arxiv.org/abs/1904.04933v1"
+        },
+        "c": "",
+        "n": "N-3DMM",
+        "d": "2019-04-09",
+        "m1": "2.953",
+        "m2": "2.936 (±0.810)",
+        "m3": "2.375 (±0.599)",
+        "m4": "4.582 (±1.488)",
+        "m5": "1.918 (±0.801)"
+      }
+    ]
+  }
+}

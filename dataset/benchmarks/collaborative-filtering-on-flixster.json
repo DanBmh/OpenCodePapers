@@ -1,0 +1,100 @@
+{
+  "title": "collaborative-filtering-on-flixster",
+  "task-hierarchy": [
+    "Recommendation Systems"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "RMSE",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Hits@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Hits@20",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "nDCG@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "nDCG@20",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Collaborative Filtering with Graph Information: Consistency and Scalable Methods",
+          "link": "http://papers.nips.cc/paper/5938-collaborative-filtering-with-graph-information-consistency-and-scalable-methods"
+        },
+        "c": "https://github.com/rofuyu/exp-grmf-nips15",
+        "n": "GRALS",
+        "d": "2015-12-01",
+        "m1": "0.845"
+      },
+      {
+        "p": {
+          "name": "A federated graph neural network framework for privacy-preserving personalization",
+          "link": "https://www.nature.com/articles/s41467-022-30714-9"
+        },
+        "c": "https://github.com/wuch15/fedpergnn",
+        "n": "FedPerGNN",
+        "d": "2022-06-02",
+        "m1": "0.980"
+      },
+      {
+        "p": {
+          "name": "FedGNN: Federated Graph Neural Network for Privacy-Preserving Recommendation",
+          "link": "https://arxiv.org/abs/2102.04925v2"
+        },
+        "c": "",
+        "n": "FedGNN",
+        "d": "2021-02-09",
+        "m1": "0.989"
+      },
+      {
+        "p": {
+          "name": "Collaborative Translational Metric Learning",
+          "link": "https://arxiv.org/abs/1906.01637v1"
+        },
+        "c": "https://github.com/hkuds/recdiff",
+        "n": "TransCF",
+        "d": "2019-06-04",
+        "m2": "0.7309",
+        "m3": "0.8374",
+        "m4": "0.4986",
+        "m5": "0.5257"
+      }
+    ]
+  }
+}

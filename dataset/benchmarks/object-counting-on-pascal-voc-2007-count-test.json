@@ -1,0 +1,154 @@
+{
+  "title": "object-counting-on-pascal-voc-2007-count-test",
+  "task-hierarchy": [
+    "Object Counting"
+  ],
+  "dataset-info": {
+    "link": "http://host.robots.ox.ac.uk/pascal/VOC/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "m-reIRMSE-nz",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "m-relRMSE",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "mRMSE",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "mRMSE-nz",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Object Counting and Instance Segmentation with Image-level Supervision",
+          "link": "https://arxiv.org/abs/1903.02494v2"
+        },
+        "c": "https://github.com/GuoleiSun/CountSeg",
+        "n": "Supervised Density Map",
+        "d": "2019-03-06",
+        "m1": "0.61",
+        "m2": "0.17",
+        "m3": "0.29",
+        "m4": "1.14"
+      },
+      {
+        "p": {
+          "name": "Where are the Blobs: Counting by Localization with Point Supervision",
+          "link": "http://arxiv.org/abs/1807.09856v1"
+        },
+        "c": "https://github.com/ElementAI/LCFCN",
+        "n": "LC-ResFCN",
+        "d": "2018-07-25",
+        "m1": "0.61",
+        "m2": "0.17",
+        "m3": "0.31",
+        "m4": "1.20"
+      },
+      {
+        "p": {
+          "name": "Counting Everyday Objects in Everyday Scenes",
+          "link": "http://arxiv.org/abs/1604.03505v3"
+        },
+        "c": "https://github.com/prithv1/cvpr2017_counting",
+        "n": "ens",
+        "d": "2016-04-12",
+        "m1": "0.65",
+        "m2": "0.20",
+        "m3": "0.42",
+        "m4": "1.68"
+      },
+      {
+        "p": {
+          "name": "Counting Everyday Objects in Everyday Scenes",
+          "link": "http://arxiv.org/abs/1604.03505v3"
+        },
+        "c": "https://github.com/prithv1/cvpr2017_counting",
+        "n": "Seq-sub-ft-3x3",
+        "d": "2016-04-12",
+        "m1": "0.68",
+        "m2": "0.22",
+        "m3": "0.43",
+        "m4": "1.65"
+      },
+      {
+        "p": {
+          "name": "Where are the Blobs: Counting by Localization with Point Supervision",
+          "link": "http://arxiv.org/abs/1807.09856v1"
+        },
+        "c": "https://github.com/ElementAI/LCFCN",
+        "n": "LC-PSPNet",
+        "d": "2018-07-25",
+        "m1": "0.70",
+        "m2": "0.20",
+        "m3": "0.35",
+        "m4": "1.32"
+      },
+      {
+        "p": {
+          "name": "Counting Everyday Objects in Everyday Scenes",
+          "link": "http://arxiv.org/abs/1604.03505v3"
+        },
+        "c": "https://github.com/prithv1/cvpr2017_counting",
+        "n": "glance-noft-2L",
+        "d": "2016-04-12",
+        "m1": "0.73",
+        "m2": "0.27",
+        "m3": "0.50",
+        "m4": "1.83"
+      },
+      {
+        "p": {
+          "name": "Counting Everyday Objects in Everyday Scenes",
+          "link": "http://arxiv.org/abs/1604.03505v3"
+        },
+        "c": "https://github.com/prithv1/cvpr2017_counting",
+        "n": "Fast-RCNN",
+        "d": "2016-04-12",
+        "m1": "0.85",
+        "m2": "0.26",
+        "m3": "0.50",
+        "m4": "1.92"
+      },
+      {
+        "p": {
+          "name": "OmniCount: Multi-label Object Counting with Semantic-Geometric Priors",
+          "link": "https://arxiv.org/abs/2403.05435v8"
+        },
+        "c": "",
+        "n": "Omnicount",
+        "d": "2024-03-08",
+        "m3": "0.0023",
+        "m4": "0.009"
+      }
+    ]
+  }
+}

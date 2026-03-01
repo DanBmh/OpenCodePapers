@@ -1,0 +1,245 @@
+{
+  "title": "image-classification-on-webvision-1000",
+  "task-hierarchy": [
+    "Image Classification"
+  ],
+  "dataset-info": {
+    "link": "https://data.vision.ee.ethz.ch/cvl/webvision/dataset2017.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Top-1 Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Top-5 Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "ImageNet Top-1 Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "ImageNet Top-5 Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Improving Image Recognition by Retrieving from Web-Scale Image-Text Data",
+          "link": "https://arxiv.org/abs/2304.05173v1"
+        },
+        "c": "",
+        "n": "MAM (ViT-B/16)",
+        "d": "2023-04-11",
+        "m1": "83.6"
+      },
+      {
+        "p": {
+          "name": "CurriculumNet: Weakly Supervised Learning from Large-Scale Web Images",
+          "link": "http://arxiv.org/abs/1808.01097v4"
+        },
+        "c": "https://github.com/MalongTech/CurriculumNet",
+        "n": "CurriculumNet (InceptionResNet-v2)",
+        "d": "2018-08-03",
+        "m1": "79.3%",
+        "m2": "93.6%"
+      },
+      {
+        "p": {
+          "name": "CMW-Net: Learning a Class-Aware Sample Weighting Mapping for Robust Deep Learning",
+          "link": "https://arxiv.org/abs/2202.05613v3"
+        },
+        "c": "https://github.com/xjtushujun/cmw-net",
+        "n": "ERM + CMW-Net-SL (InceptionResNet-V2)",
+        "d": "2022-02-11",
+        "m1": "77.9%",
+        "m2": "92.6%"
+      },
+      {
+        "p": {
+          "name": "Learning with Neighbor Consistency for Noisy Labels",
+          "link": "https://arxiv.org/abs/2202.02200v2"
+        },
+        "c": "https://github.com/google-research/scenic",
+        "n": "NCR+Mixup+DA (ResNet-50)",
+        "d": "2022-02-04",
+        "m1": "76.8"
+      },
+      {
+        "p": {
+          "name": "Correlated Input-Dependent Label Noise in Large-Scale Image Classification",
+          "link": "https://arxiv.org/abs/2105.10305v1"
+        },
+        "c": "",
+        "n": "Heteroscedastic (InceptionResNet-v2)",
+        "d": "2021-05-19",
+        "m1": "76.6%",
+        "m2": "92.1%"
+      },
+      {
+        "p": {
+          "name": "Multi-label Iterated Learning for Image Classification with Label Ambiguity",
+          "link": "https://arxiv.org/abs/2111.12172v1"
+        },
+        "c": "",
+        "n": "MILe (ResNet-50-D)",
+        "d": "2021-11-23",
+        "m1": "76.5%",
+        "m2": "90.9%",
+        "m3": "68.7",
+        "m4": "86.4"
+      },
+      {
+        "p": {
+          "name": "Webly Supervised Image Classification with Self-Contained Confidence",
+          "link": "https://arxiv.org/abs/2008.11894v1"
+        },
+        "c": "https://github.com/bigvideoresearch/SCC",
+        "n": "SCC (ResNet50-D)",
+        "d": "2020-08-27",
+        "m1": "75.78%",
+        "m2": "91.07%",
+        "m3": "70.66%",
+        "m4": "88.46%"
+      },
+      {
+        "p": {
+          "name": "Learning with Neighbor Consistency for Noisy Labels",
+          "link": "https://arxiv.org/abs/2202.02200v2"
+        },
+        "c": "https://github.com/google-research/scenic",
+        "n": "NCR (ResNet-50)",
+        "d": "2022-02-04",
+        "m1": "75.7%"
+      },
+      {
+        "p": {
+          "name": "Webly Supervised Image Classification with Metadata: Automatic Noisy Label Correction via Visual-Semantic Graph",
+          "link": "https://arxiv.org/abs/2010.05864v1"
+        },
+        "c": "https://github.com/bigvideoresearch/Enigma",
+        "n": "VSGraph-LC (ResNet50)",
+        "d": "2020-10-12",
+        "m1": "75.48%",
+        "m2": "90.15%",
+        "m3": "69.42%",
+        "m4": "87.29%"
+      },
+      {
+        "p": {
+          "name": "Multi-label Iterated Learning for Image Classification with Label Ambiguity",
+          "link": "https://arxiv.org/abs/2111.12172v1"
+        },
+        "c": "",
+        "n": "MILe (ResNet-50)",
+        "d": "2021-11-23",
+        "m1": "75.2%",
+        "m2": "90.3%",
+        "m3": "67.1",
+        "m4": "85.6"
+      },
+      {
+        "p": {
+          "name": "Heteroskedastic and Imbalanced Deep Learning with Adaptive Regularization",
+          "link": "https://arxiv.org/abs/2006.15766v2"
+        },
+        "c": "https://github.com/kaidic/HAR",
+        "n": "HAR (InceptionResNet-v2)",
+        "d": "2020-06-29",
+        "m1": "75.0%",
+        "m2": "90.6%",
+        "m3": "67.1%",
+        "m4": "86.7%"
+      },
+      {
+        "p": {
+          "name": "Beyond Synthetic Noise: Deep Learning on Controlled Noisy Labels",
+          "link": "https://arxiv.org/abs/1911.09781v3"
+        },
+        "c": "https://github.com/google-research/google-research/tree/master/mentormix",
+        "n": "MentorMix (InceptionResNet-V2)",
+        "d": "2019-11-21",
+        "m1": "74.3%",
+        "m2": "90.5%",
+        "m3": "67.5%",
+        "m4": "87.2%"
+      },
+      {
+        "p": {
+          "name": "MoPro: Webly Supervised Learning with Momentum Prototypes",
+          "link": "https://arxiv.org/abs/2009.07995v1"
+        },
+        "c": "https://github.com/salesforce/MoPro",
+        "n": "MoPro (ResNet-50)",
+        "d": "2020-09-17",
+        "m1": "73.9%",
+        "m2": "90.0%",
+        "m3": "67.8%",
+        "m4": "87.0%"
+      },
+      {
+        "p": {
+          "name": "Learning from Web Data with Self-Organizing Memory Module",
+          "link": "https://arxiv.org/abs/1906.12028v5"
+        },
+        "c": "",
+        "n": "SOMNet (ResNet-50)",
+        "d": "2019-06-28",
+        "m1": "72.2%",
+        "m2": "89.5%",
+        "m3": "65.0%",
+        "m4": "85.1%"
+      },
+      {
+        "p": {
+          "name": "CurriculumNet: Weakly Supervised Learning from Large-Scale Web Images",
+          "link": "http://arxiv.org/abs/1808.01097v4"
+        },
+        "c": "https://github.com/MalongTech/CurriculumNet",
+        "n": "CurriculumNet (Inception-v2）",
+        "d": "2018-08-03",
+        "m1": "72.1%",
+        "m2": "89.2%",
+        "m3": "64.8%",
+        "m4": "84.9%"
+      },
+      {
+        "p": {
+          "name": "MentorNet: Learning Data-Driven Curriculum for Very Deep Neural Networks on Corrupted Labels",
+          "link": "http://arxiv.org/abs/1712.05055v2"
+        },
+        "c": "https://github.com/google/mentornet",
+        "n": "MentorNet (InceptionResNet-V2)",
+        "d": "2017-12-14",
+        "m1": "70.8%",
+        "m2": "88.0%",
+        "m3": "62.5%",
+        "m4": "83.0%"
+      }
+    ]
+  }
+}

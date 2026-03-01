@@ -1,0 +1,189 @@
+{
+  "title": "question-generation-on-squad11",
+  "task-hierarchy": [
+    "Question Generation"
+  ],
+  "dataset-info": {
+    "link": "https://rajpurkar.github.io/SQuAD-explorer/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "BLEU-4",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "METEOR",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "ROUGE-L",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "ERNIE-GEN: An Enhanced Multi-Flow Pre-training and Fine-tuning Framework for Natural Language Generation",
+          "link": "https://arxiv.org/abs/2001.11314v3"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleNLP/blob/develop/paddlenlp/transformers/ernie_gen/modeling.py",
+        "n": "ERNIE-GENLARGE (beam size=5)",
+        "d": "2020-01-26",
+        "m1": "25.41"
+      },
+      {
+        "p": {
+          "name": "TextBox 2.0: A Text Generation Library with Pre-trained Language Models",
+          "link": "https://arxiv.org/abs/2212.13005v1"
+        },
+        "c": "https://github.com/RUCAIBox/TextBox",
+        "n": "BART (TextBox 2.0)",
+        "d": "2022-12-26",
+        "m1": "25.08",
+        "m2": "26.73",
+        "m3": "52.55"
+      },
+      {
+        "p": {
+          "name": "Learning to Generate Questions by Recovering Answer-containing Sentences",
+          "link": "https://openreview.net/forum?id=PRr_3HPakQ"
+        },
+        "c": "",
+        "n": "ProphetNet + ASGen",
+        "d": "2021-01-01",
+        "m1": "24.44",
+        "m2": "26.73",
+        "m3": "52.8"
+      },
+      {
+        "p": {
+          "name": "UniLMv2: Pseudo-Masked Language Models for Unified Language Model Pre-Training",
+          "link": "https://arxiv.org/abs/2002.12804v1"
+        },
+        "c": "https://github.com/microsoft/unilm",
+        "n": "UniLMv2",
+        "d": "2020-02-28",
+        "m1": "24.43"
+      },
+      {
+        "p": {
+          "name": "Enhancing Pre-trained Models with Text Structure Knowledge for Question Generation",
+          "link": "https://arxiv.org/abs/2209.04179v1"
+        },
+        "c": "",
+        "n": "ProphetNet + syn. mask + localness",
+        "d": "2022-09-09",
+        "m1": "24.37",
+        "m2": "26.26",
+        "m3": "52.77"
+      },
+      {
+        "p": {
+          "name": "ProphetNet: Predicting Future N-gram for Sequence-to-Sequence Pre-training",
+          "link": "https://arxiv.org/abs/2001.04063v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ProphetNet",
+        "d": "2020-01-13",
+        "m1": "23.91",
+        "m2": "26.6",
+        "m3": "52.3"
+      },
+      {
+        "p": {
+          "name": "Learning to Generate Questions by Recovering Answer-containing Sentences",
+          "link": "https://openreview.net/forum?id=PRr_3HPakQ"
+        },
+        "c": "",
+        "n": "UniLM + ASGen",
+        "d": "2021-01-01",
+        "m1": "23.7",
+        "m2": "25.9",
+        "m3": "52.3"
+      },
+      {
+        "p": {
+          "name": "Unified Language Model Pre-training for Natural Language Understanding and Generation",
+          "link": "https://arxiv.org/abs/1905.03197v3"
+        },
+        "c": "https://github.com/microsoft/unilm",
+        "n": "UniLM",
+        "d": "2019-05-08",
+        "m1": "22.78",
+        "m2": "25.1",
+        "m3": "51.1"
+      },
+      {
+        "p": {
+          "name": "A Recurrent BERT-based Model for Question Generation",
+          "link": "https://aclanthology.org/D19-5821"
+        },
+        "c": "https://github.com/minji-o-j/BERT-Question-Generation",
+        "n": "BERTSQG",
+        "d": "2019-11-01",
+        "m1": "22.17"
+      },
+      {
+        "p": {
+          "name": "Mixture Content Selection for Diverse Sequence Generation",
+          "link": "https://arxiv.org/abs/1909.01953v1"
+        },
+        "c": "https://github.com/clovaai/FocusSeq2Seq",
+        "n": "Selector & NQG++",
+        "d": "2019-09-04",
+        "m1": "15.874"
+      },
+      {
+        "p": {
+          "name": "Leveraging Context Information for Natural Question Generation",
+          "link": "https://aclanthology.org/N18-2090"
+        },
+        "c": "https://github.com/freesunshine0316/MPQG",
+        "n": "MPQG",
+        "d": "2018-06-01",
+        "m1": "13.91"
+      },
+      {
+        "p": {
+          "name": "Evaluating Rewards for Question Generation Models",
+          "link": "https://arxiv.org/abs/1902.11049v2"
+        },
+        "c": "https://github.com/bloomsburyai/question-generation",
+        "n": "RNN +attn +copy",
+        "d": "2019-02-28",
+        "m1": "13.5"
+      },
+      {
+        "p": {
+          "name": "Neural Question Generation from Text: A Preliminary Study",
+          "link": "http://arxiv.org/abs/1704.01792v3"
+        },
+        "c": "https://github.com/magic282/NQG",
+        "n": "NQG++",
+        "d": "2017-04-06",
+        "m1": "13.27"
+      }
+    ]
+  }
+}

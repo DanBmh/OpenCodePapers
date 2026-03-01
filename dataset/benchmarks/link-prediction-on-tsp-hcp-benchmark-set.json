@@ -1,0 +1,77 @@
+{
+  "title": "link-prediction-on-tsp-hcp-benchmark-set",
+  "task-hierarchy": [
+    "Link Prediction"
+  ],
+  "dataset-info": {
+    "link": "https://sites.flinders.edu.au/flinders-hamiltonian-cycle-project/tsp-and-hcp-benchmark-set/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Triplet Interaction Improves Graph Transformers: Accurate Molecular Graph Learning with Triplet Graph Transformers",
+          "link": "https://arxiv.org/abs/2402.04538v2"
+        },
+        "c": "https://github.com/shamim-hussain/egt_pytorch",
+        "n": "TGT-Agx4",
+        "d": "2024-02-07",
+        "m1": "0.871"
+      },
+      {
+        "p": {
+          "name": "Automatic Relation-aware Graph Network Proliferation",
+          "link": "https://arxiv.org/abs/2205.15678v1"
+        },
+        "c": "https://github.com/phython96/ARGNP",
+        "n": "ARGNP",
+        "d": "2022-05-31",
+        "m1": "0.855"
+      },
+      {
+        "p": {
+          "name": "Global Self-Attention as a Replacement for Graph Convolution",
+          "link": "https://arxiv.org/abs/2108.03348v3"
+        },
+        "c": "https://github.com/shamim-hussain/egt_pytorch",
+        "n": "EGT",
+        "d": "2021-08-07",
+        "m1": "0.853"
+      },
+      {
+        "p": {
+          "name": "Benchmarking Graph Neural Networks",
+          "link": "https://arxiv.org/abs/2003.00982v5"
+        },
+        "c": "https://github.com/graphdeeplearning/benchmarking-gnns",
+        "n": "GatedGCN-E",
+        "d": "2020-03-02",
+        "m1": "0.838"
+      }
+    ]
+  }
+}

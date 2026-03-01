@@ -1,0 +1,68 @@
+{
+  "title": "multi-instrument-music-transcription-on-urmp",
+  "task-hierarchy": [
+    "Music Transcription",
+    "Multi-instrument Music Transcription"
+  ],
+  "dataset-info": {
+    "link": "http://www2.ece.rochester.edu/projects/air/projects/URMP.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Multi F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "YourMT3+: Multi-instrument Music Transcription with Enhanced Transformer Architectures and Cross-dataset Stem Augmentation",
+          "link": "https://arxiv.org/abs/2407.04822v3"
+        },
+        "c": "https://github.com/mimbres/yourmt3",
+        "n": "YourMT3+ (YPTF.MoE+M)",
+        "d": "2024-07-05",
+        "m1": "67.98"
+      },
+      {
+        "p": {
+          "name": "MT3: Multi-Task Multitrack Music Transcription",
+          "link": "https://arxiv.org/abs/2111.03017v4"
+        },
+        "c": "https://github.com/magenta/mt3",
+        "n": "MT3",
+        "d": "2021-11-04",
+        "m1": "59.0"
+      },
+      {
+        "p": {
+          "name": "YourMT3+: Multi-instrument Music Transcription with Enhanced Transformer Architectures and Cross-dataset Stem Augmentation",
+          "link": "https://arxiv.org/abs/2407.04822v3"
+        },
+        "c": "https://github.com/mimbres/yourmt3",
+        "n": "MT3",
+        "d": "2024-07-05",
+        "m1": "59"
+      }
+    ]
+  }
+}

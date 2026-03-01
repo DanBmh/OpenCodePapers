@@ -1,0 +1,297 @@
+{
+  "title": "semantic-segmentation-on-deliver",
+  "task-hierarchy": [
+    "Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://jamycheung.github.io/DELIVER.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "CAFuser: Condition-Aware Multimodal Fusion for Robust Semantic Perception of Driving Scenes",
+          "link": "https://arxiv.org/abs/2410.10791v2"
+        },
+        "c": "https://github.com/timbroed/cafuser",
+        "n": "CAFuser-CAA",
+        "d": "2024-10-14",
+        "m1": "68.6"
+      },
+      {
+        "p": {
+          "name": "StitchFusion: Weaving Any Visual Modalities to Enhance Multimodal Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2408.01343v1"
+        },
+        "c": "https://github.com/libingyu01/stitchfusion-stitchfusion-weaving-any-visual-modalities-to-enhance-multimodal-semantic-segmentation",
+        "n": "StitchFusion(RGB-D-E-LiDAR)",
+        "d": "2024-08-02",
+        "m1": "68.18"
+      },
+      {
+        "p": {
+          "name": "GeminiFusion: Efficient Pixel-wise Multimodal Fusion for Vision Transformer",
+          "link": "https://arxiv.org/abs/2406.01210v2"
+        },
+        "c": "https://github.com/jiadingcn/geminifusion",
+        "n": "GeminiFusion",
+        "d": "2024-06-03",
+        "m1": "66.9"
+      },
+      {
+        "p": {
+          "name": "StitchFusion: Weaving Any Visual Modalities to Enhance Multimodal Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2408.01343v1"
+        },
+        "c": "https://github.com/libingyu01/stitchfusion-stitchfusion-weaving-any-visual-modalities-to-enhance-multimodal-semantic-segmentation",
+        "n": "StitchFusion (RGB-D-LiDAR)",
+        "d": "2024-08-02",
+        "m1": "66.65"
+      },
+      {
+        "p": {
+          "name": "Delivering Arbitrary-Modal Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2303.01480v1"
+        },
+        "c": "https://github.com/jamycheung/DELIVER",
+        "n": "CMNeXt (RGB-D-E-LiDAR)",
+        "d": "2023-03-02",
+        "m1": "66.30"
+      },
+      {
+        "p": {
+          "name": "StitchFusion: Weaving Any Visual Modalities to Enhance Multimodal Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2408.01343v1"
+        },
+        "c": "https://github.com/libingyu01/stitchfusion-stitchfusion-weaving-any-visual-modalities-to-enhance-multimodal-semantic-segmentation",
+        "n": "StitchFusion (RGB-D-Event)",
+        "d": "2024-08-02",
+        "m1": "66.03"
+      },
+      {
+        "p": {
+          "name": "StitchFusion: Weaving Any Visual Modalities to Enhance Multimodal Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2408.01343v1"
+        },
+        "c": "https://github.com/libingyu01/stitchfusion-stitchfusion-weaving-any-visual-modalities-to-enhance-multimodal-semantic-segmentation",
+        "n": "StitchFusion (RGB-Depth)",
+        "d": "2024-08-02",
+        "m1": "65.75"
+      },
+      {
+        "p": {
+          "name": "MemorySAM: Memorize Modalities and Semantics with Segment Anything Model 2 for Multi-modal Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2503.06700v1"
+        },
+        "c": "https://github.com/Chenfei-Liao/MemorySAM",
+        "n": "MemorySAM-B+(R-D-E-L)",
+        "d": "2025-03-09",
+        "m1": "65.38"
+      },
+      {
+        "p": {
+          "name": "MemorySAM: Memorize Modalities and Semantics with Segment Anything Model 2 for Multi-modal Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2503.06700v1"
+        },
+        "c": "https://github.com/Chenfei-Liao/MemorySAM",
+        "n": "MemorySAM-B+(R-D)",
+        "d": "2025-03-09",
+        "m1": "63.48"
+      },
+      {
+        "p": {
+          "name": "CMX: Cross-Modal Fusion for RGB-X Semantic Segmentation with Transformers",
+          "link": "https://arxiv.org/abs/2203.04838v5"
+        },
+        "c": "https://github.com/huaaaliu/rgbx_semantic_segmentation",
+        "n": "CMX (RGB-Depth)",
+        "d": "2022-03-09",
+        "m1": "62.67"
+      },
+      {
+        "p": {
+          "name": "MemorySAM: Memorize Modalities and Semantics with Segment Anything Model 2 for Multi-modal Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2503.06700v1"
+        },
+        "c": "https://github.com/Chenfei-Liao/MemorySAM",
+        "n": "MemorySAM-B+(R-D-E)",
+        "d": "2025-03-09",
+        "m1": "62.42"
+      },
+      {
+        "p": {
+          "name": "Multimodal Token Fusion for Vision Transformers",
+          "link": "https://arxiv.org/abs/2204.08721v2"
+        },
+        "c": "https://github.com/huawei-noah/noah-research/tree/master/TokenFusion",
+        "n": "TokenFusion (RGB-Depth)",
+        "d": "2022-04-19",
+        "m1": "60.25"
+      },
+      {
+        "p": {
+          "name": "StitchFusion: Weaving Any Visual Modalities to Enhance Multimodal Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2408.01343v1"
+        },
+        "c": "https://github.com/libingyu01/stitchfusion-stitchfusion-weaving-any-visual-modalities-to-enhance-multimodal-semantic-segmentation",
+        "n": "StitchFusion (RGB-LiDAR)",
+        "d": "2024-08-02",
+        "m1": "58.03"
+      },
+      {
+        "p": {
+          "name": "StitchFusion: Weaving Any Visual Modalities to Enhance Multimodal Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2408.01343v1"
+        },
+        "c": "https://github.com/libingyu01/stitchfusion-stitchfusion-weaving-any-visual-modalities-to-enhance-multimodal-semantic-segmentation",
+        "n": "StitchFusion (RGB-Event)",
+        "d": "2024-08-02",
+        "m1": "57.44"
+      },
+      {
+        "p": {
+          "name": "CMX: Cross-Modal Fusion for RGB-X Semantic Segmentation with Transformers",
+          "link": "https://arxiv.org/abs/2203.04838v5"
+        },
+        "c": "https://github.com/huaaaliu/rgbx_semantic_segmentation",
+        "n": "CMX (RGB-Event)",
+        "d": "2022-03-09",
+        "m1": "56.52"
+      },
+      {
+        "p": {
+          "name": "CMX: Cross-Modal Fusion for RGB-X Semantic Segmentation with Transformers",
+          "link": "https://arxiv.org/abs/2203.04838v5"
+        },
+        "c": "https://github.com/huaaaliu/rgbx_semantic_segmentation",
+        "n": "CMX (RGB-LiDAR)",
+        "d": "2022-03-09",
+        "m1": "56.37"
+      },
+      {
+        "p": {
+          "name": "MemorySAM: Memorize Modalities and Semantics with Segment Anything Model 2 for Multi-modal Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2503.06700v1"
+        },
+        "c": "https://github.com/Chenfei-Liao/MemorySAM",
+        "n": "MemorySAM-B+(RGB)",
+        "d": "2025-03-09",
+        "m1": "53.22"
+      },
+      {
+        "p": {
+          "name": "Multimodal Token Fusion for Vision Transformers",
+          "link": "https://arxiv.org/abs/2204.08721v2"
+        },
+        "c": "https://github.com/huawei-noah/noah-research/tree/master/TokenFusion",
+        "n": "TokenFusion (RGB-LiDAR)",
+        "d": "2022-04-19",
+        "m1": "53.01"
+      },
+      {
+        "p": {
+          "name": "HRFuser: A Multi-resolution Sensor Fusion Architecture for 2D Object Detection",
+          "link": "https://arxiv.org/abs/2206.15157v3"
+        },
+        "c": "https://github.com/timbroed/hrfuser",
+        "n": "HRFuser (RGB-D-E-Li)",
+        "d": "2022-06-30",
+        "m1": "52.97"
+      },
+      {
+        "p": {
+          "name": "HRFuser: A Multi-resolution Sensor Fusion Architecture for 2D Object Detection",
+          "link": "https://arxiv.org/abs/2206.15157v3"
+        },
+        "c": "https://github.com/timbroed/hrfuser",
+        "n": "HRFuser (RGB-D-LiDAR)",
+        "d": "2022-06-30",
+        "m1": "52.72"
+      },
+      {
+        "p": {
+          "name": "HRFuser: A Multi-resolution Sensor Fusion Architecture for 2D Object Detection",
+          "link": "https://arxiv.org/abs/2206.15157v3"
+        },
+        "c": "https://github.com/timbroed/hrfuser",
+        "n": "HRFuser (RGB-Depth)",
+        "d": "2022-06-30",
+        "m1": "51.88"
+      },
+      {
+        "p": {
+          "name": "HRFuser: A Multi-resolution Sensor Fusion Architecture for 2D Object Detection",
+          "link": "https://arxiv.org/abs/2206.15157v3"
+        },
+        "c": "https://github.com/timbroed/hrfuser",
+        "n": "HRFuser (RGB-D-Event)",
+        "d": "2022-06-30",
+        "m1": "51.83"
+      },
+      {
+        "p": {
+          "name": "HRFuser: A Multi-resolution Sensor Fusion Architecture for 2D Object Detection",
+          "link": "https://arxiv.org/abs/2206.15157v3"
+        },
+        "c": "https://github.com/timbroed/hrfuser",
+        "n": "HRFuser (RGB)",
+        "d": "2022-06-30",
+        "m1": "47.95"
+      },
+      {
+        "p": {
+          "name": "Multimodal Token Fusion for Vision Transformers",
+          "link": "https://arxiv.org/abs/2204.08721v2"
+        },
+        "c": "https://github.com/huawei-noah/noah-research/tree/master/TokenFusion",
+        "n": "TokenFusion (RGB-Event)",
+        "d": "2022-04-19",
+        "m1": "45.63"
+      },
+      {
+        "p": {
+          "name": "HRFuser: A Multi-resolution Sensor Fusion Architecture for 2D Object Detection",
+          "link": "https://arxiv.org/abs/2206.15157v3"
+        },
+        "c": "https://github.com/timbroed/hrfuser",
+        "n": "HRFuser (RGB-LiDAR)",
+        "d": "2022-06-30",
+        "m1": "43.13"
+      },
+      {
+        "p": {
+          "name": "HRFuser: A Multi-resolution Sensor Fusion Architecture for 2D Object Detection",
+          "link": "https://arxiv.org/abs/2206.15157v3"
+        },
+        "c": "https://github.com/timbroed/hrfuser",
+        "n": "HRFuser (RGB-Event)",
+        "d": "2022-06-30",
+        "m1": "42.22"
+      }
+    ]
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "title": "long-range-modeling-on-lra",
+  "task-hierarchy": [
+    "Language Modelling",
+    "Long-range modeling"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/google-research/long-range-arena"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Avg",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Image",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "ListOps",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Pathfinder",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Text",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "Retrieval",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "Pathfinder-X",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Simplified State Space Layers for Sequence Modeling",
+          "link": "https://arxiv.org/abs/2208.04933v3"
+        },
+        "c": "https://github.com/lindermanlab/S5",
+        "n": "S5",
+        "d": "2022-08-09",
+        "m1": "87.46",
+        "m2": "88",
+        "m3": "62.15",
+        "m4": "95.33",
+        "m5": "89.31",
+        "m6": "91.4",
+        "m7": "98.58"
+      },
+      {
+        "p": {
+          "name": "How to Train Your HiPPO: State Space Models with Generalized Orthogonal Basis Projections",
+          "link": "https://arxiv.org/abs/2206.12037v2"
+        },
+        "c": "https://github.com/hazyresearch/state-spaces",
+        "n": "S4",
+        "d": "2022-06-24",
+        "m1": "86.09",
+        "m2": "88.65",
+        "m3": "59.60",
+        "m4": "94.20",
+        "m5": "86.82",
+        "m6": "90.90",
+        "m7": "96.35"
+      },
+      {
+        "p": {
+          "name": "Converting Transformers into DGNNs Form",
+          "link": "https://arxiv.org/abs/2502.00585v1"
+        },
+        "c": "https://github.com/hazdzz/Converter",
+        "n": "Converter",
+        "d": "2025-02-01",
+        "m1": "75.94",
+        "m2": "61.02",
+        "m3": "60.38",
+        "m4": "88.43",
+        "m5": "86.44",
+        "m6": "83.41"
+      },
+      {
+        "p": {
+          "name": "Long Range Arena: A Benchmark for Efficient Transformers",
+          "link": "https://arxiv.org/abs/2011.04006v1"
+        },
+        "c": "https://github.com/google-research/long-range-arena",
+        "n": "Transformer",
+        "d": "2020-11-08",
+        "m1": "54.39",
+        "m2": "42.44",
+        "m3": "36.37",
+        "m4": "71.4",
+        "m5": "64.27",
+        "m6": "57.46"
+      },
+      {
+        "p": {
+          "name": "Long Range Arena: A Benchmark for Efficient Transformers",
+          "link": "https://arxiv.org/abs/2011.04006v1"
+        },
+        "c": "https://github.com/google-research/long-range-arena",
+        "n": "Performer",
+        "d": "2020-11-08",
+        "m1": "51.41",
+        "m2": "42.77",
+        "m3": "18.01",
+        "m4": "77.05",
+        "m5": "65.4",
+        "m6": "53.82"
+      },
+      {
+        "p": {
+          "name": "Long Range Arena: A Benchmark for Efficient Transformers",
+          "link": "https://arxiv.org/abs/2011.04006v1"
+        },
+        "c": "https://github.com/google-research/long-range-arena",
+        "n": "Sparse Trans.",
+        "d": "2020-11-08",
+        "m1": "51.24",
+        "m2": "44.24",
+        "m3": "17.07",
+        "m4": "71.71",
+        "m5": "63.58",
+        "m6": "59.59"
+      },
+      {
+        "p": {
+          "name": "Long Range Arena: A Benchmark for Efficient Transformers",
+          "link": "https://arxiv.org/abs/2011.04006v1"
+        },
+        "c": "https://github.com/google-research/long-range-arena",
+        "n": "Linear Trans.",
+        "d": "2020-11-08",
+        "m1": "50.55",
+        "m2": "42.34",
+        "m3": "16.13",
+        "m4": "75.3",
+        "m5": "65.9",
+        "m6": "53.09"
+      }
+    ]
+  }
+}

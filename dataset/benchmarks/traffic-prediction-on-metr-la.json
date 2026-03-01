@@ -1,0 +1,284 @@
+{
+  "title": "traffic-prediction-on-metr-la",
+  "task-hierarchy": [
+    "Traffic Prediction"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MAE @ 12 step",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "12 steps MAE",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "12 steps MAPE",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "12 steps RMSE",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "MAE @ 3 step",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "A Time Series is Worth Five Experts: Heterogeneous Mixture of Experts for Traffic Flow Prediction",
+          "link": "https://arxiv.org/abs/2409.17440v1"
+        },
+        "c": "https://github.com/sqlcow/TITAN",
+        "n": "TITAN",
+        "d": "2024-09-26",
+        "m1": "3.08",
+        "m2": "3.08",
+        "m3": "8.43",
+        "m4": "6.21",
+        "m5": "2.41"
+      },
+      {
+        "p": {
+          "name": "T-Graphormer: Using Transformers for Spatiotemporal Forecasting",
+          "link": "https://arxiv.org/abs/2501.13274v3"
+        },
+        "c": "https://github.com/rdh1115/T-Graphormer",
+        "n": "T-Graphormer",
+        "d": "2025-01-22",
+        "m1": "3.19",
+        "m2": "3.19",
+        "m3": "8.62",
+        "m4": "6.12",
+        "m5": "2.63"
+      },
+      {
+        "p": {
+          "name": "Spatio-Temporal Graph Mixformer for Traffic Forecasting",
+          "link": "https://doi.org/10.1016/j.eswa.2023.120281"
+        },
+        "c": "https://github.com/Mouradost/STGM",
+        "n": "STGM",
+        "d": "2023-10-15",
+        "m1": "3.229",
+        "m2": "3.229",
+        "m3": "9.39",
+        "m4": "7.099"
+      },
+      {
+        "p": {
+          "name": "Traffic transformer: Capturing the continuity and periodicity of time series for traffic forecasting",
+          "link": "https://onlinelibrary.wiley.com/doi/abs/10.1111/tgis.12644"
+        },
+        "c": "",
+        "n": "Traffic Transformer",
+        "d": "2020-06-11",
+        "m1": "3.28"
+      },
+      {
+        "p": {
+          "name": "Spatio-Temporal Graph Structure Learning for Traffic Forecasting",
+          "link": "https://aaai.org/ojs/index.php/AAAI/article/view/5470"
+        },
+        "c": "",
+        "n": "SLCNN",
+        "d": "2020-04-03",
+        "m1": "3.3"
+      },
+      {
+        "p": {
+          "name": "STAEformer: Spatio-Temporal Adaptive Embedding Makes Vanilla Transformer SOTA for Traffic Forecasting",
+          "link": "https://arxiv.org/abs/2308.10425v5"
+        },
+        "c": "https://github.com/xdzhelheim/staeformer",
+        "n": "STAEformer",
+        "d": "2023-08-21",
+        "m1": "3.34",
+        "m5": "2.65"
+      },
+      {
+        "p": {
+          "name": "Decoupled Dynamic Spatial-Temporal Graph Neural Network for Traffic Forecasting",
+          "link": "https://arxiv.org/abs/2206.09112v4"
+        },
+        "c": "https://github.com/zezhishao/d2stgnn",
+        "n": "D2STGNN",
+        "d": "2022-06-18",
+        "m1": "3.35",
+        "m5": "2.56"
+      },
+      {
+        "p": {
+          "name": "Pre-training Enhanced Spatial-temporal Graph Neural Network for Multivariate Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2206.09113v2"
+        },
+        "c": "https://github.com/zezhishao/step",
+        "n": "STEP",
+        "d": "2022-06-18",
+        "m1": "3.37",
+        "m5": "2.61"
+      },
+      {
+        "p": {
+          "name": "Spatio-Temporal Meta-Graph Learning for Traffic Forecasting",
+          "link": "https://arxiv.org/abs/2211.14701v4"
+        },
+        "c": "https://github.com/deepkashiwa20/megacrn",
+        "n": "MegaCRN",
+        "d": "2022-11-27",
+        "m1": "3.38",
+        "m5": "2.63"
+      },
+      {
+        "p": {
+          "name": "Spatial-Temporal-Decoupled Masked Pre-training for Spatiotemporal Forecasting",
+          "link": "https://arxiv.org/abs/2312.00516v3"
+        },
+        "c": "https://github.com/jimmy-7664/std-mae",
+        "n": "STD-MAE",
+        "d": "2023-12-01",
+        "m1": "3.40",
+        "m2": "3.40",
+        "m3": "9.59",
+        "m4": "7.07",
+        "m5": "2.62"
+      },
+      {
+        "p": {
+          "name": "RGDAN: A random graph diffusion attention network for traffic prediction",
+          "link": "https://doi.org/10.1016/j.neunet.2023.106093"
+        },
+        "c": "https://github.com/wengwenchao123/RGDAN",
+        "n": "RGDAN",
+        "d": "2024-01-16",
+        "m1": "3.40",
+        "m5": "2.69"
+      },
+      {
+        "p": {
+          "name": "Structured Time Series Prediction without Structural Prior",
+          "link": "https://arxiv.org/abs/2202.03539v1"
+        },
+        "c": "https://github.com/radandreicristian/adn",
+        "n": "ADN",
+        "d": "2022-02-07",
+        "m1": "3.42"
+      },
+      {
+        "p": {
+          "name": "Spatial‐temporal attention wavenet: A deep learning framework for traffic prediction considering spatial‐temporal dependencies",
+          "link": "https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/itr2.12044"
+        },
+        "c": "https://github.com/CYBruce/STAWnet",
+        "n": "STAWnet",
+        "d": "2021-03-02",
+        "m1": "3.44",
+        "m5": "2.70"
+      },
+      {
+        "p": {
+          "name": "Incrementally Improving Graph WaveNet Performance on Traffic Prediction",
+          "link": "https://arxiv.org/abs/1912.07390v1"
+        },
+        "c": "https://github.com/nnzhan/Graph-WaveNet",
+        "n": "Finetune from t1-6 checkpoint",
+        "d": "2019-12-11",
+        "m1": "3.47"
+      },
+      {
+        "p": {
+          "name": "Dynamic Causal Graph Convolutional Network for Traffic Prediction",
+          "link": "https://arxiv.org/abs/2306.07019v2"
+        },
+        "c": "https://github.com/MonBG/DCGCN",
+        "n": "DCGCN",
+        "d": "2023-06-12",
+        "m1": "3.48",
+        "m2": "3.48",
+        "m3": "9.94",
+        "m4": "6.94"
+      },
+      {
+        "p": {
+          "name": "Conditional Temporal Neural Processes with Covariance Loss",
+          "link": "http://proceedings.mlr.press/v139/yoo21b.html"
+        },
+        "c": "https://github.com/boseon-ai/Conditional-Temporal-Neural-Processes-with-Covariance-Loss",
+        "n": "GWNET-Cov",
+        "d": "2021-06-22",
+        "m1": "3.50",
+        "m5": "2.69"
+      },
+      {
+        "p": {
+          "name": "Graph WaveNet for Deep Spatial-Temporal Graph Modeling",
+          "link": "https://arxiv.org/abs/1906.00121v1"
+        },
+        "c": "https://github.com/nnzhan/Graph-WaveNet",
+        "n": "Graph WaveNet",
+        "d": "2019-05-31",
+        "m1": "3.53",
+        "m5": "2.69"
+      },
+      {
+        "p": {
+          "name": "ST-UNet: A Spatio-Temporal U-Network for Graph-structured Time Series Modeling",
+          "link": "https://arxiv.org/abs/1903.05631v2"
+        },
+        "c": "",
+        "n": "ST-UNet",
+        "d": "2019-03-13",
+        "m1": "3.55"
+      },
+      {
+        "p": {
+          "name": "Diffusion Convolutional Recurrent Neural Network: Data-Driven Traffic Forecasting",
+          "link": "http://arxiv.org/abs/1707.01926v3"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/dtgrnn",
+        "n": "DCRNN",
+        "d": "2017-07-06",
+        "m1": "3.6",
+        "m5": "2.77"
+      },
+      {
+        "p": {
+          "name": "Spatio-Temporal Graph Convolutional Networks: A Deep Learning Framework for Traffic Forecasting",
+          "link": "http://arxiv.org/abs/1709.04875v4"
+        },
+        "c": "https://github.com/VeritasYin/STGCN_IJCAI-18",
+        "n": "STGCN",
+        "d": "2017-09-14",
+        "m1": "4.45"
+      }
+    ]
+  }
+}

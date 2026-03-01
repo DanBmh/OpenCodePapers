@@ -1,0 +1,87 @@
+{
+  "title": "image-compression-on-imagenet32",
+  "task-hierarchy": [
+    "Image Compression"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/PatrykChrabaszcz/Imagenet32_Scripts"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "bpsp",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "iFlow: Numerically Invertible Flows for Efficient Lossless Compression via a Uniform Coder",
+          "link": "https://arxiv.org/abs/2111.00965v1"
+        },
+        "c": "",
+        "n": "iFlow",
+        "d": "2021-11-01",
+        "m1": "3.88"
+      },
+      {
+        "p": {
+          "name": "Parallel Multiscale Autoregressive Density Estimation",
+          "link": "http://arxiv.org/abs/1703.03664v1"
+        },
+        "c": "",
+        "n": "MS-PixelCNN",
+        "d": "2017-03-10",
+        "m1": "3.95"
+      },
+      {
+        "p": {
+          "name": "Practical Full Resolution Learned Lossless Image Compression",
+          "link": "https://arxiv.org/abs/1811.12817v3"
+        },
+        "c": "https://github.com/fab-jul/L3C-PyTorch",
+        "n": "L3C",
+        "d": "2018-11-30",
+        "m1": "4.76"
+      },
+      {
+        "p": {
+          "name": "Practical Full Resolution Learned Lossless Image Compression",
+          "link": "https://arxiv.org/abs/1811.12817v3"
+        },
+        "c": "https://github.com/fab-jul/L3C-PyTorch",
+        "n": "JPEG2000",
+        "d": "2018-11-30",
+        "m1": "6.35"
+      },
+      {
+        "p": {
+          "name": "Practical Full Resolution Learned Lossless Image Compression",
+          "link": "https://arxiv.org/abs/1811.12817v3"
+        },
+        "c": "https://github.com/fab-jul/L3C-PyTorch",
+        "n": "PNG",
+        "d": "2018-11-30",
+        "m1": "6.42"
+      }
+    ]
+  }
+}

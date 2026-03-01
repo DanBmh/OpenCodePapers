@@ -1,0 +1,77 @@
+{
+  "title": "aspect-based-sentiment-analysis-absa-on-fabsa",
+  "task-hierarchy": [
+    "Aspect-Based Sentiment Analysis (ABSA)"
+  ],
+  "dataset-info": {
+    "link": "https://huggingface.co/datasets/jordiclive/FABSA"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1 (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "FABSA: An aspect-based sentiment analysis dataset of user reviews",
+          "link": "https://www.sciencedirect.com/science/article/pii/S0925231223009906"
+        },
+        "c": "https://huggingface.co/datasets/jordiclive/FABSA",
+        "n": "DeBERTa-pair-large",
+        "d": "2023-12-28",
+        "m1": "80.9"
+      },
+      {
+        "p": {
+          "name": "FABSA: An aspect-based sentiment analysis dataset of user reviews",
+          "link": "https://www.sciencedirect.com/science/article/pii/S0925231223009906"
+        },
+        "c": "https://huggingface.co/datasets/jordiclive/FABSA",
+        "n": "RoBERTa-pair-large",
+        "d": "2023-12-28",
+        "m1": "80.0"
+      },
+      {
+        "p": {
+          "name": "FABSA: An aspect-based sentiment analysis dataset of user reviews",
+          "link": "https://www.sciencedirect.com/science/article/pii/S0925231223009906"
+        },
+        "c": "https://huggingface.co/datasets/jordiclive/FABSA",
+        "n": "BERT-PT",
+        "d": "2023-12-28",
+        "m1": "78.8"
+      },
+      {
+        "p": {
+          "name": "FABSA: An aspect-based sentiment analysis dataset of user reviews",
+          "link": "https://www.sciencedirect.com/science/article/pii/S0925231223009906"
+        },
+        "c": "https://huggingface.co/datasets/jordiclive/FABSA",
+        "n": "BERT-single-large",
+        "d": "2023-12-28",
+        "m1": "78.8"
+      }
+    ]
+  }
+}

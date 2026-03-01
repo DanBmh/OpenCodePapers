@@ -1,0 +1,87 @@
+{
+  "title": "few-shot-action-recognition-on-moma-lrg",
+  "task-hierarchy": [
+    "Action Recognition",
+    "Few Shot Action Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://moma.stanford.edu"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Activity Classification Accuracy (5-shot 5-way)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Subactivity Classification Accuracy (5-shot 5-way)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Few-Shot Classification of Interactive Activities of Daily Living (InteractADL)",
+          "link": "https://arxiv.org/abs/2406.01662v2"
+        },
+        "c": "https://github.com/zanedurante/vlm_benchmark",
+        "n": "Name Tuning",
+        "d": "2024-06-03",
+        "m1": "97.9",
+        "m2": "78.2"
+      },
+      {
+        "p": {
+          "name": "MOMA-LRG: Language-Refined Graphs for Multi-Object Multi-Actor Activity Parsing",
+          "link": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/22c16986b2f50af520f56dc34d91e403-Abstract-Datasets_and_Benchmarks.html"
+        },
+        "c": "https://github.com/StanfordVL/moma",
+        "n": "SG-VLM",
+        "d": "2022-11-28",
+        "m1": "92.5",
+        "m2": "32.70"
+      },
+      {
+        "p": {
+          "name": "MOMA-LRG: Language-Refined Graphs for Multi-Object Multi-Actor Activity Parsing",
+          "link": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/22c16986b2f50af520f56dc34d91e403-Abstract-Datasets_and_Benchmarks.html"
+        },
+        "c": "https://github.com/StanfordVL/moma",
+        "n": "OTAM",
+        "d": "2022-11-28",
+        "m1": "92.07",
+        "m2": "72.59"
+      },
+      {
+        "p": {
+          "name": "MOMA-LRG: Language-Refined Graphs for Multi-Object Multi-Actor Activity Parsing",
+          "link": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/22c16986b2f50af520f56dc34d91e403-Abstract-Datasets_and_Benchmarks.html"
+        },
+        "c": "https://github.com/StanfordVL/moma",
+        "n": "CMN",
+        "d": "2022-11-28",
+        "m1": "86.3",
+        "m2": "66.6"
+      }
+    ]
+  }
+}

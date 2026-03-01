@@ -1,0 +1,182 @@
+{
+  "title": "cad-reconstruction-on-deepcad",
+  "task-hierarchy": [
+    "3D Object Reconstruction",
+    "CAD Reconstruction"
+  ],
+  "dataset-info": {
+    "link": "https://drive.google.com/drive/folders/1PPrx5v32E-iHVg54vFjpz01W67eoP737"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "IoU",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Chamfer Distance",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Camfer Distance (median)",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Invalidi Ratio",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "cadrille: Multi-modal CAD Reconstruction with Online Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2505.22914v1"
+        },
+        "c": "https://github.com/col14m/cadrille",
+        "n": "cadrille",
+        "d": "2025-05-28",
+        "m1": "90.2",
+        "m2": "0.76",
+        "m3": "0.17",
+        "m4": "0.0"
+      },
+      {
+        "p": {
+          "name": "CAD-Recode: Reverse Engineering CAD Code from Point Clouds",
+          "link": "https://arxiv.org/abs/2412.14042v1"
+        },
+        "c": "https://github.com/filaPro/cad-recode",
+        "n": "CAD-Recode",
+        "d": "2024-12-18",
+        "m1": "87.1",
+        "m2": "0.83",
+        "m3": "0.18",
+        "m4": "3.1"
+      },
+      {
+        "p": {
+          "name": "CAD-SIGNet: CAD Language Inference from Point Clouds using Layer-wise Sketch Instance Guided Attention",
+          "link": "https://arxiv.org/abs/2402.17678v1"
+        },
+        "c": "",
+        "n": "CAD-SIGNet",
+        "d": "2024-02-27",
+        "m1": "77.3",
+        "m2": "6.81",
+        "m3": "0.29",
+        "m4": "5.0"
+      },
+      {
+        "p": {
+          "name": "Draw Step by Step: Reconstructing CAD Construction Sequences from Point Clouds via Multimodal Diffusion.",
+          "link": "http://openaccess.thecvf.com//content/CVPR2024/html/Ma_Draw_Step_by_Step_Reconstructing_CAD_Construction_Sequences_from_Point_CVPR_2024_paper.html"
+        },
+        "c": "",
+        "n": "CAD-Diffuser",
+        "d": "2024-01-01",
+        "m1": "74.3",
+        "m3": "3.02"
+      },
+      {
+        "p": {
+          "name": "Point2Cyl: Reverse Engineering 3D Objects from Point Clouds to Extrusion Cylinders",
+          "link": "https://arxiv.org/abs/2112.09329v2"
+        },
+        "c": "",
+        "n": "Point2Cyl",
+        "d": "2021-12-17",
+        "m1": "73.8",
+        "m3": "4.27"
+      },
+      {
+        "p": {
+          "name": "SECAD-Net: Self-Supervised CAD Reconstruction by Learning Sketch-Extrude Operations",
+          "link": "https://arxiv.org/abs/2303.10613v1"
+        },
+        "c": "https://github.com/bunnysocrazy/secad-net",
+        "n": "SECAD-Net",
+        "d": "2023-03-19",
+        "m1": "72.9",
+        "m3": "3.65"
+      },
+      {
+        "p": {
+          "name": "Reconstructing editable prismatic CAD from rounded voxel models",
+          "link": "https://arxiv.org/abs/2209.01161v1"
+        },
+        "c": "",
+        "n": "PrismCAD",
+        "d": "2022-09-02",
+        "m1": "72.1",
+        "m3": "4.28"
+      },
+      {
+        "p": {
+          "name": "TransCAD: A Hierarchical Transformer for CAD Sequence Inference from Point Clouds",
+          "link": "https://arxiv.org/abs/2407.12702v2"
+        },
+        "c": "",
+        "n": "TransCAD",
+        "d": "2024-07-17",
+        "m1": "65.5",
+        "m2": "32.3",
+        "m3": "4.51"
+      },
+      {
+        "p": {
+          "name": "Hierarchical Neural Coding for Controllable CAD Model Generation",
+          "link": "https://arxiv.org/abs/2307.00149v1"
+        },
+        "c": "https://github.com/samxuxiang/hnc-cad",
+        "n": "HNC-CAD",
+        "d": "2023-06-30",
+        "m1": "65.3",
+        "m3": "8.64"
+      },
+      {
+        "p": {
+          "name": "DeepCAD: A Deep Generative Network for Computer-Aided Design Models",
+          "link": "https://arxiv.org/abs/2105.09492v2"
+        },
+        "c": "https://github.com/ChrisWu1997/DeepCAD",
+        "n": "DeepCAD",
+        "d": "2021-05-20",
+        "m1": "46.7",
+        "m2": "42.5",
+        "m3": "9.64"
+      },
+      {
+        "p": {
+          "name": "ExtrudeNet: Unsupervised Inverse Sketch-and-Extrude for Shape Parsing",
+          "link": "https://arxiv.org/abs/2209.15632v1"
+        },
+        "c": "https://github.com/kimren227/extrudenet",
+        "n": "ExtrudeNet",
+        "d": "2022-09-30",
+        "m1": "40.3",
+        "m3": "3.37"
+      }
+    ]
+  }
+}

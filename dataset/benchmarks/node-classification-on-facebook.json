@@ -1,0 +1,117 @@
+{
+  "title": "node-classification-on-facebook",
+  "task-hierarchy": [
+    "Node Classification"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Mixture of Experts Meets Decoupled Message Passing: Towards General and Adaptive Node Classification",
+          "link": "https://arxiv.org/abs/2412.08193v1"
+        },
+        "c": "https://github.com/GISec-Team/GNNMoE",
+        "n": "GNNMoE(GCN-like P)",
+        "d": "2024-12-11",
+        "m1": "95.53±0.35"
+      },
+      {
+        "p": {
+          "name": "Mixture of Experts Meets Decoupled Message Passing: Towards General and Adaptive Node Classification",
+          "link": "https://arxiv.org/abs/2412.08193v1"
+        },
+        "c": "https://github.com/GISec-Team/GNNMoE",
+        "n": "GNNMoE(GAT-like P)",
+        "d": "2024-12-11",
+        "m1": "95.21±0.25"
+      },
+      {
+        "p": {
+          "name": "Mixture of Experts Meets Decoupled Message Passing: Towards General and Adaptive Node Classification",
+          "link": "https://arxiv.org/abs/2412.08193v1"
+        },
+        "c": "https://github.com/GISec-Team/GNNMoE",
+        "n": "GNNMoE(SAGE-like P)",
+        "d": "2024-12-11",
+        "m1": "94.63±0.36"
+      },
+      {
+        "p": {
+          "name": "DEMO-Net: Degree-specific Graph Neural Networks for Node and Graph Classification",
+          "link": "https://arxiv.org/abs/1906.02319v1"
+        },
+        "c": "https://github.com/jwu4sml/DEMO-Net",
+        "n": "DEMO-Net(weight)",
+        "d": "2019-06-05",
+        "m1": "91.9"
+      },
+      {
+        "p": {
+          "name": "Semi-Supervised Classification with Graph Convolutional Networks",
+          "link": "http://arxiv.org/abs/1609.02907v4"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/mxnet/gcn",
+        "n": "GCN_cheby (Kipf and Welling, 2017)",
+        "d": "2016-09-09",
+        "m1": "64.6"
+      },
+      {
+        "p": {
+          "name": "Deeper Insights into Graph Convolutional Networks for Semi-Supervised Learning",
+          "link": "http://arxiv.org/abs/1801.07606v1"
+        },
+        "c": "https://github.com/liqimai/gcn",
+        "n": "Intersection (Li et al., 2018)",
+        "d": "2018-01-22",
+        "m1": "59.8"
+      },
+      {
+        "p": {
+          "name": "Semi-Supervised Classification with Graph Convolutional Networks",
+          "link": "http://arxiv.org/abs/1609.02907v4"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/mxnet/gcn",
+        "n": "GCN (Kipf and Welling, 2017)",
+        "d": "2016-09-09",
+        "m1": "57.5"
+      },
+      {
+        "p": {
+          "name": "Inductive Representation Learning on Large Graphs",
+          "link": "http://arxiv.org/abs/1706.02216v4"
+        },
+        "c": "https://github.com/pyg-team/pytorch_geometric/blob/master/torch_geometric/nn/models/basic_gnn.py",
+        "n": "GraphSAGE (Hamilton et al., [2017a])",
+        "d": "2017-06-07",
+        "m1": "38.9"
+      }
+    ]
+  }
+}

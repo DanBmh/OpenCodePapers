@@ -1,0 +1,264 @@
+{
+  "title": "image-super-resolution-on-bsd100-3x-upscaling",
+  "task-hierarchy": [
+    "Image Super-Resolution"
+  ],
+  "dataset-info": {
+    "link": "None"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Hierarchical Information Flow for Generalized Efficient Image Restoration",
+          "link": "https://arxiv.org/abs/2411.18588v1"
+        },
+        "c": "",
+        "n": "Hi-IR-L",
+        "d": "2024-11-27",
+        "m1": "29.67",
+        "m2": "0.8256"
+      },
+      {
+        "p": {
+          "name": "HMANet: Hybrid Multi-Axis Aggregation Network for Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2405.05001v1"
+        },
+        "c": "https://github.com/korouuuuu/hma",
+        "n": "HMA†",
+        "d": "2024-05-08",
+        "m1": "29.66",
+        "m2": "0.8196"
+      },
+      {
+        "p": {
+          "name": "Activating More Pixels in Image Super-Resolution Transformer",
+          "link": "https://arxiv.org/abs/2205.04437v3"
+        },
+        "c": "https://github.com/xpixelgroup/hat",
+        "n": "HAT-L",
+        "d": "2022-05-09",
+        "m1": "29.63",
+        "m2": "0.8191"
+      },
+      {
+        "p": {
+          "name": "SwinFIR: Revisiting the SwinIR with Fast Fourier Convolution and Improved Training for Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2208.11247v3"
+        },
+        "c": "https://github.com/Zdafeng/SwinFIR",
+        "n": "HAT_FIR",
+        "d": "2022-08-24",
+        "m1": "29.6"
+      },
+      {
+        "p": {
+          "name": "Activating More Pixels in Image Super-Resolution Transformer",
+          "link": "https://arxiv.org/abs/2205.04437v3"
+        },
+        "c": "https://github.com/xpixelgroup/hat",
+        "n": "HAT",
+        "d": "2022-05-09",
+        "m1": "29.59",
+        "m2": "0.8177"
+      },
+      {
+        "p": {
+          "name": "Channel-Partitioned Windowed Attention And Frequency Learning for Single Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2407.16232v2"
+        },
+        "c": "",
+        "n": "CPAT+",
+        "d": "2024-07-23",
+        "m1": "29.59",
+        "m2": "0.8177"
+      },
+      {
+        "p": {
+          "name": "Channel-Partitioned Windowed Attention And Frequency Learning for Single Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2407.16232v2"
+        },
+        "c": "",
+        "n": "CPAT",
+        "d": "2024-07-23",
+        "m1": "29.56",
+        "m2": "0.8174"
+      },
+      {
+        "p": {
+          "name": "SwinFIR: Revisiting the SwinIR with Fast Fourier Convolution and Improved Training for Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2208.11247v3"
+        },
+        "c": "https://github.com/Zdafeng/SwinFIR",
+        "n": "SwinFIR",
+        "d": "2022-08-24",
+        "m1": "29.55",
+        "m2": "0.8169"
+      },
+      {
+        "p": {
+          "name": "Single Image Super-Resolution via a Holistic Attention Network",
+          "link": "https://arxiv.org/abs/2008.08767v1"
+        },
+        "c": "https://github.com/wwlCape/HAN",
+        "n": "HAN+",
+        "d": "2020-08-20",
+        "m1": "29.41",
+        "m2": "0.8116"
+      },
+      {
+        "p": {
+          "name": "Densely Residual Laplacian Super-Resolution",
+          "link": "https://arxiv.org/abs/1906.12021v2"
+        },
+        "c": "https://github.com/saeed-anwar/DRLN",
+        "n": "DRLN+",
+        "d": "2019-06-28",
+        "m1": "29.4",
+        "m2": "0.8125"
+      },
+      {
+        "p": {
+          "name": "Local Texture Estimator for Implicit Representation Function",
+          "link": "https://arxiv.org/abs/2111.08918v6"
+        },
+        "c": "https://github.com/jaewon-lee-b/lte",
+        "n": "LTE",
+        "d": "2021-11-17",
+        "m1": "29.39"
+      },
+      {
+        "p": {
+          "name": "Image Super-Resolution with Cross-Scale Non-Local Attention and Exhaustive Self-Exemplars Mining",
+          "link": "https://arxiv.org/abs/2006.01424v1"
+        },
+        "c": "https://github.com/SHI-Labs/Cross-Scale-Non-Local-Attention",
+        "n": "CSNLN",
+        "d": "2020-06-02",
+        "m1": "29.33",
+        "m2": "0.8105"
+      },
+      {
+        "p": {
+          "name": "Resolution Enhancement Processing on Low Quality Images Using Swin Transformer Based on Interval Dense Connection Strategy",
+          "link": "https://arxiv.org/abs/2303.09190v2"
+        },
+        "c": "https://github.com/rubbbbbbbbby/swinoir",
+        "n": "SwinOIR",
+        "d": "2023-03-16",
+        "m1": "29.27",
+        "m2": "0.8111"
+      },
+      {
+        "p": {
+          "name": "Feedback Network for Image Super-Resolution",
+          "link": "https://arxiv.org/abs/1903.09814v2"
+        },
+        "c": "https://github.com/Paper99/SRFBN_CVPR19",
+        "n": "SRFBN",
+        "d": "2019-03-23",
+        "m1": "29.24"
+      },
+      {
+        "p": {
+          "name": "Multi-level Wavelet-CNN for Image Restoration",
+          "link": "http://arxiv.org/abs/1805.07071v2"
+        },
+        "c": "https://github.com/lpj0/MWCNN",
+        "n": "MWCNN",
+        "d": "2018-05-18",
+        "m1": "29.12"
+      },
+      {
+        "p": {
+          "name": "Lightweight Image Super-Resolution with Information Multi-distillation Network",
+          "link": "https://arxiv.org/abs/1909.11856v1"
+        },
+        "c": "https://github.com/Zheng222/IMDN",
+        "n": "IMDN",
+        "d": "2019-09-26",
+        "m1": "29.09"
+      },
+      {
+        "p": {
+          "name": "Image Restoration Using Convolutional Auto-encoders with Symmetric Skip Connections",
+          "link": "http://arxiv.org/abs/1606.08921v3"
+        },
+        "c": "https://github.com/titu1994/Image-Super-Resolution",
+        "n": "RED30",
+        "d": "2016-06-29",
+        "m1": "28.93",
+        "m2": "0.7994"
+      },
+      {
+        "p": {
+          "name": "Lightweight Feature Fusion Network for Single Image Super-Resolution",
+          "link": "http://arxiv.org/abs/1902.05694v2"
+        },
+        "c": "https://github.com/qibao77/LFFN-master",
+        "n": "LFFN-S",
+        "d": "2019-02-15",
+        "m1": "28.91"
+      },
+      {
+        "p": {
+          "name": "LCSCNet: Linear Compressing Based Skip-Connecting Network for Image Super-Resolution",
+          "link": "https://arxiv.org/abs/1909.03573v1"
+        },
+        "c": "https://github.com/XuechenZhang123/LCSC",
+        "n": "LCSCNet",
+        "d": "2019-09-09",
+        "m1": "28.87"
+      },
+      {
+        "p": {
+          "name": "Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising",
+          "link": "http://arxiv.org/abs/1608.03981v1"
+        },
+        "c": "https://github.com/cszn/DnCNN",
+        "n": "DnCNN-3",
+        "d": "2016-08-13",
+        "m1": "28.85"
+      },
+      {
+        "p": {
+          "name": "Image Restoration Using Deep Regulated Convolutional Networks",
+          "link": "https://arxiv.org/abs/1910.08853v1"
+        },
+        "c": "https://github.com/cswin/RC-Nets",
+        "n": "RC-Net",
+        "d": "2019-10-19",
+        "m1": "28.76"
+      }
+    ]
+  }
+}

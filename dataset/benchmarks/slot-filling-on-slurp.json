@@ -1,0 +1,87 @@
+{
+  "title": "slot-filling-on-slurp",
+  "task-hierarchy": [
+    "Slot Filling"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/pswietojanski/slurp"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Efficient Sequence Transduction by Jointly Predicting Tokens and Durations",
+          "link": "https://arxiv.org/abs/2304.06795v2"
+        },
+        "c": "https://github.com/NVIDIA/NeMo",
+        "n": "TDT 0-6",
+        "d": "2023-04-13",
+        "m1": "0.8061"
+      },
+      {
+        "p": {
+          "name": "A Fine-tuned Wav2vec 2.0/HuBERT Benchmark For Speech Emotion Recognition, Speaker Verification and Spoken Language Understanding",
+          "link": "https://arxiv.org/abs/2111.02735v3"
+        },
+        "c": "",
+        "n": "Partially Fine-tuned HuBERT",
+        "d": "2021-11-04",
+        "m1": "0.753"
+      },
+      {
+        "p": {
+          "name": "SLURP: A Spoken Language Understanding Resource Package",
+          "link": "https://arxiv.org/abs/2011.13205v1"
+        },
+        "c": "https://github.com/pswietojanski/slurp",
+        "n": "Multi-SLURP",
+        "d": "2020-11-26",
+        "m1": "0.642"
+      },
+      {
+        "p": {
+          "name": "Finstreder: Simple and fast Spoken Language Understanding with Finite State Transducers using modern Speech-to-Text models",
+          "link": "https://arxiv.org/abs/2206.14589v1"
+        },
+        "c": "https://gitlab.com/Jaco-Assistant/Jaco-Master",
+        "n": "Finstreder (Conformer)",
+        "d": "2022-06-29",
+        "m1": "0.395"
+      },
+      {
+        "p": {
+          "name": "Finstreder: Simple and fast Spoken Language Understanding with Finite State Transducers using modern Speech-to-Text models",
+          "link": "https://arxiv.org/abs/2206.14589v1"
+        },
+        "c": "https://gitlab.com/Jaco-Assistant/Jaco-Master",
+        "n": "Finstreder (Quartznet)",
+        "d": "2022-06-29",
+        "m1": " 0.313"
+      }
+    ]
+  }
+}

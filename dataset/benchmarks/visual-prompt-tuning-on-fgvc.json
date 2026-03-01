@@ -1,0 +1,137 @@
+{
+  "title": "visual-prompt-tuning-on-fgvc",
+  "task-hierarchy": [
+    "Visual Prompt Tuning"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Mean Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Revisiting the Power of Prompt for Visual Tuning",
+          "link": "https://arxiv.org/abs/2402.02382v3"
+        },
+        "c": "",
+        "n": "SPT-Deep(ViT-B/16_MoCo_v3_pretrained_ImageNet-1K)",
+        "d": "2024-02-04",
+        "m1": "86.00"
+      },
+      {
+        "p": {
+          "name": "Revisiting the Power of Prompt for Visual Tuning",
+          "link": "https://arxiv.org/abs/2402.02382v3"
+        },
+        "c": "",
+        "n": "SPT-Shallow(ViT-B/16_MoCo_v3_pretrained_ImageNet-1K)",
+        "d": "2024-02-04",
+        "m1": "84.08"
+      },
+      {
+        "p": {
+          "name": "Revisiting the Power of Prompt for Visual Tuning",
+          "link": "https://arxiv.org/abs/2402.02382v3"
+        },
+        "c": "",
+        "n": "SPT-Deep(ViT-B/16_MAE_pretrained_ImageNet-1K)",
+        "d": "2024-02-04",
+        "m1": "83.26"
+      },
+      {
+        "p": {
+          "name": "Visual Prompt Tuning",
+          "link": "https://arxiv.org/abs/2203.12119v2"
+        },
+        "c": "https://github.com/KMnP/vpt",
+        "n": "VPT-Deep(ViT-B/16_MoCo_v3_pretrained_ImageNet-1K)",
+        "d": "2022-03-23",
+        "m1": "83.12"
+      },
+      {
+        "p": {
+          "name": "Improving Visual Prompt Tuning for Self-supervised Vision Transformers",
+          "link": "https://arxiv.org/abs/2306.05067v1"
+        },
+        "c": "https://github.com/ryongithub/gatedprompttuning",
+        "n": "GateVPT(ViT-B/16_MoCo_v3_pretrained_ImageNet-1K)",
+        "d": "2023-06-08",
+        "m1": "83.00"
+      },
+      {
+        "p": {
+          "name": "Visual Prompt Tuning",
+          "link": "https://arxiv.org/abs/2203.12119v2"
+        },
+        "c": "https://github.com/KMnP/vpt",
+        "n": "VPT-Shallow (ViT-B/16_MoCo_v3_pretrained_ImageNet-1K)",
+        "d": "2022-03-23",
+        "m1": "79.26"
+      },
+      {
+        "p": {
+          "name": "Revisiting the Power of Prompt for Visual Tuning",
+          "link": "https://arxiv.org/abs/2402.02382v3"
+        },
+        "c": "",
+        "n": "SPT-Shallow(ViT-B/16_MAE_pretrained_ImageNet-1K)",
+        "d": "2024-02-04",
+        "m1": "73.95"
+      },
+      {
+        "p": {
+          "name": "Improving Visual Prompt Tuning for Self-supervised Vision Transformers",
+          "link": "https://arxiv.org/abs/2306.05067v1"
+        },
+        "c": "https://github.com/ryongithub/gatedprompttuning",
+        "n": "GateVPT(ViT-B/16_MAE_pretrained_ImageNet-1K)",
+        "d": "2023-06-08",
+        "m1": "73.39"
+      },
+      {
+        "p": {
+          "name": "Visual Prompt Tuning",
+          "link": "https://arxiv.org/abs/2203.12119v2"
+        },
+        "c": "https://github.com/KMnP/vpt",
+        "n": "VPT-Deep (ViT-B/16_MAE_pretrained_ImageNet-1K)",
+        "d": "2022-03-23",
+        "m1": "72.02"
+      },
+      {
+        "p": {
+          "name": "Visual Prompt Tuning",
+          "link": "https://arxiv.org/abs/2203.12119v2"
+        },
+        "c": "https://github.com/KMnP/vpt",
+        "n": "VPT-Shallow (ViT-B/16_MAE_pretrained_ImageNet-1K)",
+        "d": "2022-03-23",
+        "m1": "57.84"
+      }
+    ]
+  }
+}

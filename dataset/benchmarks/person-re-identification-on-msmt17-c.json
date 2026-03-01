@@ -1,0 +1,122 @@
+{
+  "title": "person-re-identification-on-msmt17-c",
+  "task-hierarchy": [
+    "Person Re-Identification"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/MinghuiChen43/CIL-ReID"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": " Rank-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": " mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": " mINP",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Rank-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "mINP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "FastReID: A Pytorch Toolbox for General Instance Re-identification",
+          "link": "https://arxiv.org/abs/2006.02631v4"
+        },
+        "c": "https://github.com/JDAI-CV/fast-reid",
+        "n": "SBS (ResNet-50)",
+        "d": "2020-06-04",
+        "m1": "28.77",
+        "m2": "7.89",
+        "m3": "0.05"
+      },
+      {
+        "p": {
+          "name": "Omni-Scale Feature Learning for Person Re-Identification",
+          "link": "https://arxiv.org/abs/1905.00953v6"
+        },
+        "c": "https://github.com/mikel-brostrom/boxmot",
+        "n": "OS-Net",
+        "d": "2019-05-02",
+        "m1": "28.51",
+        "m2": "7.86",
+        "m3": "0.08"
+      },
+      {
+        "p": {
+          "name": "Deep Learning for Person Re-identification: A Survey and Outlook",
+          "link": "https://arxiv.org/abs/2001.04193v2"
+        },
+        "c": "https://github.com/layumi/Person_reID_baseline_pytorch",
+        "n": "AGW (ResNet-50)",
+        "d": "2020-01-13",
+        "m1": "22.77",
+        "m2": "6.53",
+        "m3": "0.08"
+      },
+      {
+        "p": {
+          "name": "Bag of Tricks and A Strong Baseline for Deep Person Re-identification",
+          "link": "http://arxiv.org/abs/1903.07071v3"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleClas/blob/release/2.5/docs/zh_CN/algorithm_introduction/ReID.md",
+        "n": "BoT (ResNet-50)",
+        "d": "2019-03-17",
+        "m1": "20.20",
+        "m2": "5.28",
+        "m3": "0.07"
+      },
+      {
+        "p": {
+          "name": "Benchmarks for Corruption Invariant Person Re-identification",
+          "link": "https://arxiv.org/abs/2111.00880v2"
+        },
+        "c": "https://github.com/MinghuiChen43/CIL-ReID",
+        "n": "CIL (ResNet-50)",
+        "d": "2021-11-01",
+        "m4": "39.79",
+        "m5": "15.33",
+        "m6": "0.32"
+      }
+    ]
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "title": "molecular-property-prediction-on-esol",
+  "task-hierarchy": [
+    "Atomistic Description",
+    "Molecular Property Prediction"
+  ],
+  "dataset-info": {
+    "link": "https://moleculenet.org"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "RMSE",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "R2",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "An end-to-end attention-based approach for learning on graphs",
+          "link": "https://arxiv.org/abs/2402.10793v2"
+        },
+        "c": "https://github.com/davidbuterez/edge-set-attention",
+        "n": "ESA (Edge set attention, no positional encodings)",
+        "d": "2024-02-16",
+        "m1": "0.485±0.009",
+        "m2": "0.944±0.002"
+      },
+      {
+        "p": {
+          "name": "Principal Neighbourhood Aggregation for Graph Nets",
+          "link": "https://arxiv.org/abs/2004.05718v5"
+        },
+        "c": "https://github.com/rusty1s/pytorch_geometric",
+        "n": "PNA",
+        "d": "2020-04-12",
+        "m1": "0.493±0.026",
+        "m2": "0.942±0.006"
+      },
+      {
+        "p": {
+          "name": "How Powerful are Graph Neural Networks?",
+          "link": "http://arxiv.org/abs/1810.00826v3"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/mxnet/gin",
+        "n": "GIN",
+        "d": "2018-10-01",
+        "m1": "0.509±0.044",
+        "m2": "0.938±0.011"
+      },
+      {
+        "p": {
+          "name": "Semi-Supervised Classification with Graph Convolutional Networks",
+          "link": "http://arxiv.org/abs/1609.02907v4"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/mxnet/gcn",
+        "n": "GCN",
+        "d": "2016-09-09",
+        "m1": "0.520±0.024",
+        "m2": "0.936±0.006"
+      },
+      {
+        "p": {
+          "name": "DropGNN: Random Dropouts Increase the Expressiveness of Graph Neural Networks",
+          "link": "https://arxiv.org/abs/2111.06283v1"
+        },
+        "c": "https://github.com/karolismart/dropgnn",
+        "n": "DropGIN",
+        "d": "2021-11-11",
+        "m1": "0.520±0.048",
+        "m2": "0.935±0.012"
+      },
+      {
+        "p": {
+          "name": "Graph Attention Networks",
+          "link": "http://arxiv.org/abs/1710.10903v3"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+        "n": "GAT",
+        "d": "2017-10-30",
+        "m1": "0.540±0.027",
+        "m2": "0.930±0.007"
+      },
+      {
+        "p": {
+          "name": "How Attentive are Graph Attention Networks?",
+          "link": "https://arxiv.org/abs/2105.14491v3"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+        "n": "GATv2",
+        "d": "2021-05-30",
+        "m1": "0.549±0.020",
+        "m2": "0.928±0.005"
+      },
+      {
+        "p": {
+          "name": "MoleculeNet: A Benchmark for Molecular Machine Learning",
+          "link": "http://arxiv.org/abs/1703.00564v3"
+        },
+        "c": "https://github.com/lechengkong/oneforall",
+        "n": "MPNN",
+        "d": "2017-03-02",
+        "m1": "0.58"
+      },
+      {
+        "p": {
+          "name": "Recipe for a General, Powerful, Scalable Graph Transformer",
+          "link": "https://arxiv.org/abs/2205.12454v4"
+        },
+        "c": "https://github.com/rampasek/GraphGPS",
+        "n": "GraphGPS",
+        "d": "2022-05-25",
+        "m1": "0.613±0.010",
+        "m2": "0.911±0.003"
+      },
+      {
+        "p": {
+          "name": "Do Transformers Really Perform Bad for Graph Representation?",
+          "link": "https://arxiv.org/abs/2106.05234v5"
+        },
+        "c": "https://github.com/microsoft/Graphormer",
+        "n": "Graphormer",
+        "d": "2021-06-09",
+        "m1": "0.618±0.068",
+        "m2": "0.908±0.021"
+      },
+      {
+        "p": {
+          "name": "Self-Guided Masked Autoencoders for Domain-Agnostic Self-Supervised Learning",
+          "link": "https://arxiv.org/abs/2402.14789v1"
+        },
+        "c": "https://github.com/johnathan-xie/sma",
+        "n": "SMA",
+        "d": "2024-02-22",
+        "m1": "0.623"
+      },
+      {
+        "p": {
+          "name": "Pure Transformers are Powerful Graph Learners",
+          "link": "https://arxiv.org/abs/2207.02505v2"
+        },
+        "c": "https://github.com/jw9730/tokengt",
+        "n": "TokenGT",
+        "d": "2022-07-06",
+        "m1": "0.667±0.103",
+        "m2": "0.892±0.036"
+      },
+      {
+        "p": {
+          "name": "Uni-Mol: A Universal 3D Molecular Representation Learning Framework",
+          "link": "https://chemrxiv.org/engage/chemrxiv/article-details/628e5b4d5d948517f5ce6d72"
+        },
+        "c": "https://github.com/dptech-corp/Uni-Mol",
+        "n": "Uni-Mol",
+        "d": "2022-09-08",
+        "m1": "0.788"
+      },
+      {
+        "p": {
+          "name": "ChemRL-GEM: Geometry Enhanced Molecular Representation Learning for Property Prediction",
+          "link": "https://arxiv.org/abs/2106.06130v4"
+        },
+        "c": "",
+        "n": "ChemRL-GEM",
+        "d": "2021-06-11",
+        "m1": "0.798"
+      },
+      {
+        "p": {
+          "name": "Bidirectional Generation of Structure and Properties Through a Single Molecular Foundation Model",
+          "link": "https://arxiv.org/abs/2211.10590v4"
+        },
+        "c": "https://github.com/jinhojsk515/SPMM",
+        "n": "SPMM",
+        "d": "2022-11-19",
+        "m1": "0.810"
+      },
+      {
+        "p": {
+          "name": "Pre-training Graph Neural Networks on Molecules by Using Subgraph-Conditioned Graph Information Bottleneck",
+          "link": "https://arxiv.org/abs/2412.15589"
+        },
+        "c": "https://github.com/NSLab-CUK/S-CGIB",
+        "n": "S-CGIB",
+        "d": "2025-02-20",
+        "m1": "0.816±0.019"
+      },
+      {
+        "p": {
+          "name": "A Bayesian Flow Network Framework for Chemistry Tasks",
+          "link": "https://arxiv.org/abs/2407.20294v2"
+        },
+        "c": "https://github.com/Augus1999/bayesian-flow-network-for-chemistry",
+        "n": "ChemBFN",
+        "d": "2024-07-28",
+        "m1": "0.884"
+      },
+      {
+        "p": {
+          "name": "ChemBERTa-2: Towards Chemical Foundation Models",
+          "link": "https://arxiv.org/abs/2209.01712v1"
+        },
+        "c": "https://github.com/seyonechithrananda/bert-loves-chemistry",
+        "n": "ChemBERTa-2 (MTR-77M)",
+        "d": "2022-09-05",
+        "m1": "0.889"
+      },
+      {
+        "p": {
+          "name": "MoleculeNet: A Benchmark for Molecular Machine Learning",
+          "link": "http://arxiv.org/abs/1703.00564v3"
+        },
+        "c": "https://github.com/lechengkong/oneforall",
+        "n": "XGBoost",
+        "d": "2017-03-02",
+        "m1": "0.99"
+      },
+      {
+        "p": {
+          "name": "Analyzing Learned Molecular Representations for Property Prediction",
+          "link": "https://arxiv.org/abs/1904.01561v5"
+        },
+        "c": "https://github.com/swansonk14/chemprop",
+        "n": "D-MPNN",
+        "d": "2019-04-02",
+        "m1": "1.050"
+      }
+    ]
+  }
+}

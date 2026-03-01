@@ -1,0 +1,86 @@
+{
+  "title": "sentiment-analysis-on-fiqa",
+  "task-hierarchy": [
+    "Sentiment Analysis"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MSE",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "R^2",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Incorporating Multiple Knowledge Sources for Targeted Aspect-based Financial Sentiment Analysis",
+          "link": "https://openreview.net/forum?id=e6psgL085AV"
+        },
+        "c": "",
+        "n": "k-RoBERTa (parallel)",
+        "d": "2021-11-16",
+        "m1": "0.05",
+        "m2": "0.71"
+      },
+      {
+        "p": {
+          "name": "FinBERT: Financial Sentiment Analysis with Pre-trained Language Models",
+          "link": "https://arxiv.org/abs/1908.10063v1"
+        },
+        "c": "https://github.com/ProsusAI/finBERT",
+        "n": "FinBERT",
+        "d": "2019-08-27",
+        "m1": "0.07",
+        "m2": "0.55"
+      },
+      {
+        "p": {
+          "name": "Financial Aspect-Based Sentiment Analysis using Deep Representations",
+          "link": "http://arxiv.org/abs/1808.07931v1"
+        },
+        "c": "",
+        "n": "Deep Representations",
+        "d": "2018-08-23",
+        "m1": "0.08",
+        "m2": "0.40"
+      },
+      {
+        "p": {
+          "name": "Financial Aspect and Sentiment Predictions with Deep Neural Networks: An Ensemble Approach",
+          "link": "https://www.researchgate.net/publication/324630980_Financial_Aspect_and_Sentiment_Predictions_with_Deep_Neural_Networks_An_Ensemble_Approach"
+        },
+        "c": "",
+        "n": "Deep Neural Networks (DNN)",
+        "d": "2018-04-01",
+        "m1": "0.09",
+        "m2": "0.41"
+      }
+    ]
+  }
+}

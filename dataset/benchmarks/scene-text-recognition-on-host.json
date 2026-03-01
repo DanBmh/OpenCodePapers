@@ -1,0 +1,67 @@
+{
+  "title": "scene-text-recognition-on-host",
+  "task-hierarchy": [
+    "Scene Text Recognition"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "1:1 Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "CLIP4STR: A Simple Baseline for Scene Text Recognition with Pre-trained Vision-Language Model",
+          "link": "https://arxiv.org/abs/2305.14014v4"
+        },
+        "c": "https://github.com/VamosC/CLIP4STR",
+        "n": "CLIP4STR-L",
+        "d": "2023-05-23",
+        "m1": "82.7"
+      },
+      {
+        "p": {
+          "name": "CLIP4STR: A Simple Baseline for Scene Text Recognition with Pre-trained Vision-Language Model",
+          "link": "https://arxiv.org/abs/2305.14014v4"
+        },
+        "c": "https://github.com/VamosC/CLIP4STR",
+        "n": "CLIP4STR-B",
+        "d": "2023-05-23",
+        "m1": "79.8"
+      },
+      {
+        "p": {
+          "name": "Self-supervised Character-to-Character Distillation for Text Recognition",
+          "link": "https://arxiv.org/abs/2211.00288v4"
+        },
+        "c": "https://github.com/tongkunguan/ccd",
+        "n": "CCD-ViT-Base",
+        "d": "2022-11-01",
+        "m1": "77.3"
+      }
+    ]
+  }
+}

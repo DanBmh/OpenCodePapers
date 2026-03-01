@@ -1,0 +1,258 @@
+{
+  "title": "text-to-video-generation-on-msr-vtt",
+  "task-hierarchy": [
+    "Text-to-Video Generation"
+  ],
+  "dataset-info": {
+    "link": "https://www.microsoft.com/en-us/research/publication/msr-vtt-a-large-video-description-dataset-for-bridging-video-and-language/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "FVD",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "CLIPSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "CLIP-FID",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "FID",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Snap Video: Scaled Spatiotemporal Transformers for Text-to-Video Synthesis",
+          "link": "https://arxiv.org/abs/2402.14797v1"
+        },
+        "c": "",
+        "n": "Snap Video (512x288)",
+        "d": "2024-02-22",
+        "m1": "104.0",
+        "m2": "0.2793",
+        "m3": "9.35"
+      },
+      {
+        "p": {
+          "name": "Snap Video: Scaled Spatiotemporal Transformers for Text-to-Video Synthesis",
+          "link": "https://arxiv.org/abs/2402.14797v1"
+        },
+        "c": "",
+        "n": "Snap Video (288×288)",
+        "d": "2024-02-22",
+        "m1": "110.4",
+        "m2": "0.2793",
+        "m3": "8.48"
+      },
+      {
+        "p": {
+          "name": "Video-LaVIT: Unified Video-Language Pre-training with Decoupled Visual-Motional Tokenization",
+          "link": "https://arxiv.org/abs/2402.03161v3"
+        },
+        "c": "https://github.com/jy0205/lavit",
+        "n": "Video-LaVIT",
+        "d": "2024-02-05",
+        "m1": "188.36",
+        "m2": "0.3012",
+        "m4": "11.27"
+      },
+      {
+        "p": {
+          "name": "VideoPoet: A Large Language Model for Zero-Shot Video Generation",
+          "link": "https://arxiv.org/abs/2312.14125v4"
+        },
+        "c": "",
+        "n": "VideoPoet",
+        "d": "2023-12-21",
+        "m1": "213",
+        "m2": "0.3123"
+      },
+      {
+        "p": {
+          "name": "Make Pixels Dance: High-Dynamic Video Generation",
+          "link": "https://arxiv.org/abs/2311.10982v1"
+        },
+        "c": "",
+        "n": "PixelDance",
+        "d": "2023-11-18",
+        "m1": "381",
+        "m2": "0.3125"
+      },
+      {
+        "p": {
+          "name": "Hierarchical Spatio-temporal Decoupling for Text-to-Video Generation",
+          "link": "https://arxiv.org/abs/2312.04483v1"
+        },
+        "c": "https://github.com/ali-vilab/VGen",
+        "n": "HiGen",
+        "d": "2023-12-07",
+        "m1": "406",
+        "m2": "0.2947",
+        "m4": "8.60"
+      },
+      {
+        "p": {
+          "name": "A Recipe for Scaling up Text-to-Video Generation with Text-free Videos",
+          "link": "https://arxiv.org/abs/2312.15770v1"
+        },
+        "c": "https://github.com/ali-vilab/i2vgen-xl",
+        "n": "TF-T2V",
+        "d": "2023-12-25",
+        "m1": "441",
+        "m2": "0.2991",
+        "m4": "8.19"
+      },
+      {
+        "p": {
+          "name": "Show-1: Marrying Pixel and Latent Diffusion Models for Text-to-Video Generation",
+          "link": "https://arxiv.org/abs/2309.15818v2"
+        },
+        "c": "https://github.com/showlab/show-1",
+        "n": "Show-1",
+        "d": "2023-09-27",
+        "m1": "538",
+        "m2": "0.3072",
+        "m4": "13.08"
+      },
+      {
+        "p": {
+          "name": "ModelScope Text-to-Video Technical Report",
+          "link": "https://arxiv.org/abs/2308.06571v1"
+        },
+        "c": "https://github.com/ali-vilab/VGen",
+        "n": "ModelScopeT2V",
+        "d": "2023-08-12",
+        "m1": "550",
+        "m2": "0.2930",
+        "m4": "11.09"
+      },
+      {
+        "p": {
+          "name": "VideoComposer: Compositional Video Synthesis with Motion Controllability",
+          "link": "https://arxiv.org/abs/2306.02018v2"
+        },
+        "c": "https://github.com/ali-vilab/videocomposer",
+        "n": "VideoComposer",
+        "d": "2023-06-03",
+        "m1": "580",
+        "m2": "0.2932"
+      },
+      {
+        "p": {
+          "name": "MagicVideo: Efficient Video Generation With Latent Diffusion Models",
+          "link": "https://arxiv.org/abs/2211.11018v2"
+        },
+        "c": "",
+        "n": "MagicVideo",
+        "d": "2022-11-20",
+        "m1": "998",
+        "m4": "36.5"
+      },
+      {
+        "p": {
+          "name": "Make-A-Video: Text-to-Video Generation without Text-Video Data",
+          "link": "https://arxiv.org/abs/2209.14792v1"
+        },
+        "c": "https://github.com/lucidrains/make-a-video-pytorch",
+        "n": "Make-A-Video",
+        "d": "2022-09-29",
+        "m2": "0.3049",
+        "m3": "13.17",
+        "m4": "13.17"
+      },
+      {
+        "p": {
+          "name": "Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models",
+          "link": "https://arxiv.org/abs/2304.08818v2"
+        },
+        "c": "https://github.com/stability-ai/generative-models",
+        "n": "Video LDM",
+        "d": "2023-04-18",
+        "m2": "0.2929"
+      },
+      {
+        "p": {
+          "name": "Tell Me What Happened: Unifying Text-guided Video Completion via Multimodal Masked Video Generation",
+          "link": "https://arxiv.org/abs/2211.12824v2"
+        },
+        "c": "https://github.com/tsujuifu/pytorch_tvc",
+        "n": "MMVG",
+        "d": "2022-11-23",
+        "m2": "0.2644",
+        "m4": "23.4"
+      },
+      {
+        "p": {
+          "name": "Make-A-Video: Text-to-Video Generation without Text-Video Data",
+          "link": "https://arxiv.org/abs/2209.14792v1"
+        },
+        "c": "https://github.com/lucidrains/make-a-video-pytorch",
+        "n": "CogVideo (English)",
+        "d": "2022-09-29",
+        "m2": "0.2631",
+        "m3": "23.59",
+        "m4": "23.59"
+      },
+      {
+        "p": {
+          "name": "Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models",
+          "link": "https://arxiv.org/abs/2304.08818v2"
+        },
+        "c": "https://github.com/stability-ai/generative-models",
+        "n": "CogVideo (Chinese)",
+        "d": "2023-04-18",
+        "m2": "0.2614",
+        "m3": "24.78"
+      },
+      {
+        "p": {
+          "name": "NÜWA: Visual Synthesis Pre-training for Neural visUal World creAtion",
+          "link": "https://arxiv.org/abs/2111.12417v1"
+        },
+        "c": "https://github.com/lucidrains/nuwa-pytorch",
+        "n": "NUWA",
+        "d": "2021-11-24",
+        "m2": "0.2439",
+        "m3": "47.68",
+        "m4": "47.68"
+      },
+      {
+        "p": {
+          "name": "GODIVA: Generating Open-DomaIn Videos from nAtural Descriptions",
+          "link": "https://arxiv.org/abs/2104.14806v1"
+        },
+        "c": "https://github.com/mehdidc/DALLE_clip_score",
+        "n": "GODIVA",
+        "d": "2021-04-30",
+        "m2": "0.2402"
+      }
+    ]
+  }
+}

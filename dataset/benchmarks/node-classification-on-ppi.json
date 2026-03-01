@@ -1,0 +1,293 @@
+{
+  "title": "node-classification-on-ppi",
+  "task-hierarchy": [
+    "Node Classification"
+  ],
+  "dataset-info": {
+    "link": "http://snap.stanford.edu/graphsage/#datasets"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Micro-F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Micro F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Macro-F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "A Proposal of Multi-Layer Perceptron with Graph Gating Unit for Graph Representation Learning and its Application to Surrogate Model for FEM",
+          "link": "https://www.jstage.jst.go.jp/article/pjsai/JSAI2022/0/JSAI2022_1G4OS22a03/_article/-char/ja/"
+        },
+        "c": "https://github.com/nnaakkaaii/g2-MLP",
+        "n": "g2-MLP",
+        "d": "2022-07-11",
+        "m1": "99.71"
+      },
+      {
+        "p": {
+          "name": "Simple and Deep Graph Convolutional Networks",
+          "link": "https://arxiv.org/abs/2007.02133v1"
+        },
+        "c": "https://github.com/chennnM/GCNII/tree/master/PyG/ogbn-arxiv",
+        "n": "GCNII*",
+        "d": "2020-07-04",
+        "m1": "99.56"
+      },
+      {
+        "p": {
+          "name": "GraphSAINT: Graph Sampling Based Inductive Learning Method",
+          "link": "https://arxiv.org/abs/1907.04931v4"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/graphsaint",
+        "n": "GraphSAINT",
+        "d": "2019-07-10",
+        "m1": "99.50"
+      },
+      {
+        "p": {
+          "name": "SGAS: Sequential Greedy Architecture Search",
+          "link": "https://arxiv.org/abs/1912.00195v2"
+        },
+        "c": "https://github.com/lightaime/sgas",
+        "n": "SGAS",
+        "d": "2019-11-30",
+        "m1": "99.46"
+      },
+      {
+        "p": {
+          "name": "DeepGCNs: Making GCNs Go as Deep as CNNs",
+          "link": "https://arxiv.org/abs/1910.06849v3"
+        },
+        "c": "https://github.com/lightaime/deep_gcns_torch/tree/master/examples/ogb",
+        "n": "DenseMRGCN-14",
+        "d": "2019-10-15",
+        "m1": "99.43"
+      },
+      {
+        "p": {
+          "name": "DeepGCNs: Making GCNs Go as Deep as CNNs",
+          "link": "https://arxiv.org/abs/1910.06849v3"
+        },
+        "c": "https://github.com/lightaime/deep_gcns_torch/tree/master/examples/ogb",
+        "n": "ResMRGCN-28",
+        "d": "2019-10-15",
+        "m1": "99.41"
+      },
+      {
+        "p": {
+          "name": "Graph Star Net for Generalized Multi-Task Learning",
+          "link": "https://arxiv.org/abs/1906.12330v1"
+        },
+        "c": "https://github.com/graph-star-team/graph_star",
+        "n": "GraphStar",
+        "d": "2019-06-21",
+        "m1": "99.4"
+      },
+      {
+        "p": {
+          "name": "The Split Matters: Flat Minima Methods for Improving the Performance of GNNs",
+          "link": "https://arxiv.org/abs/2306.09121v1"
+        },
+        "c": "https://github.com/foisunt/fmms-in-gnns",
+        "n": "GCN + SAF",
+        "d": "2023-06-15",
+        "m1": "99.38 ± 0.01%"
+      },
+      {
+        "p": {
+          "name": "Cluster-GCN: An Efficient Algorithm for Training Deep and Large Graph Convolutional Networks",
+          "link": "https://arxiv.org/abs/1905.07953v2"
+        },
+        "c": "https://github.com/google-research/google-research",
+        "n": "Cluster-GCN",
+        "d": "2019-05-20",
+        "m1": "99.36"
+      },
+      {
+        "p": {
+          "name": "The Split Matters: Flat Minima Methods for Improving the Performance of GNNs",
+          "link": "https://arxiv.org/abs/2306.09121v1"
+        },
+        "c": "https://github.com/foisunt/fmms-in-gnns",
+        "n": "GAT + PGN",
+        "d": "2023-06-15",
+        "m1": "99.34 ± 0.02%"
+      },
+      {
+        "p": {
+          "name": "Bridging the Gap Between Spectral and Spatial Domains in Graph Neural Networks",
+          "link": "https://arxiv.org/abs/2003.11702v1"
+        },
+        "c": "https://github.com/balcilar/Spectral-Designed-Graph-Convolutions",
+        "n": "DSGCN",
+        "d": "2020-03-26",
+        "m1": "99.09 ± 0.03"
+      },
+      {
+        "p": {
+          "name": "GaAN: Gated Attention Networks for Learning on Large and Spatiotemporal Graphs",
+          "link": "http://arxiv.org/abs/1803.07294v1"
+        },
+        "c": "https://github.com/jennyzhang0215/GaAN",
+        "n": "GaAN",
+        "d": "2018-03-20",
+        "m1": "98.7"
+      },
+      {
+        "p": {
+          "name": "GraphNAS: Graph Neural Architecture Search with Reinforcement Learning",
+          "link": "https://arxiv.org/abs/1904.09981v2"
+        },
+        "c": "https://github.com/GraphNAS/GraphNAS-simple",
+        "n": "GraphNAS",
+        "d": "2019-04-22",
+        "m1": "98.6 ± 0.1"
+      },
+      {
+        "p": {
+          "name": "Representation Learning on Graphs with Jumping Knowledge Networks",
+          "link": "http://arxiv.org/abs/1806.03536v2"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/jknet",
+        "n": "JK-LSTM",
+        "d": "2018-06-09",
+        "m1": "97.6"
+      },
+      {
+        "p": {
+          "name": "VQ-GNN: A Universal Framework to Scale up Graph Neural Networks using Vector Quantization",
+          "link": "https://arxiv.org/abs/2110.14363v1"
+        },
+        "c": "https://github.com/devnkong/VQ-GNN",
+        "n": "VQ-GNN (GAT)",
+        "d": "2021-10-27",
+        "m1": "97.37"
+      },
+      {
+        "p": {
+          "name": "Graph Attention Networks",
+          "link": "http://arxiv.org/abs/1710.10903v3"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+        "n": "GAT",
+        "d": "2017-10-30",
+        "m1": "97.3"
+      },
+      {
+        "p": {
+          "name": "SIGN: Scalable Inception Graph Neural Networks",
+          "link": "https://arxiv.org/abs/2004.11198v3"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/sign",
+        "n": "SIGN",
+        "d": "2020-04-23",
+        "m1": "96.50"
+      },
+      {
+        "p": {
+          "name": "Cluster-GCN: An Efficient Algorithm for Training Deep and Large Graph Convolutional Networks",
+          "link": "https://arxiv.org/abs/1905.07953v2"
+        },
+        "c": "https://github.com/google-research/google-research",
+        "n": "ClusterGCN",
+        "d": "2019-05-20",
+        "m1": "92.9"
+      },
+      {
+        "p": {
+          "name": "Large-Scale Learnable Graph Convolutional Networks",
+          "link": "http://arxiv.org/abs/1808.03965v1"
+        },
+        "c": "https://github.com/divelab/lgcn",
+        "n": "LGCN",
+        "d": "2018-08-12",
+        "m1": "77.2"
+      },
+      {
+        "p": {
+          "name": "Deep Graph Contrastive Representation Learning",
+          "link": "https://arxiv.org/abs/2006.04131v2"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/grace",
+        "n": "GRACE",
+        "d": "2020-06-07",
+        "m1": "66.2",
+        "m2": "66.2"
+      },
+      {
+        "p": {
+          "name": "Inductive Representation Learning on Large Graphs",
+          "link": "http://arxiv.org/abs/1706.02216v4"
+        },
+        "c": "https://github.com/pyg-team/pytorch_geometric/blob/master/torch_geometric/nn/models/basic_gnn.py",
+        "n": "GraphSAGE",
+        "d": "2017-06-07",
+        "m1": "61.2"
+      },
+      {
+        "p": {
+          "name": "Graph Representation Learning Beyond Node and Homophily",
+          "link": "https://arxiv.org/abs/2203.01564v1"
+        },
+        "c": "https://github.com/syvail/PairE-Graph-Representation-Learning-Beyond-Node-and-Homophily",
+        "n": "PairE",
+        "d": "2022-03-03",
+        "m3": "94.83"
+      },
+      {
+        "p": {
+          "name": "node2vec: Scalable Feature Learning for Networks",
+          "link": "http://arxiv.org/abs/1607.00653v1"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/node2vec",
+        "n": "node2vec",
+        "d": "2016-07-03",
+        "m4": "0.1791"
+      },
+      {
+        "p": {
+          "name": "node2vec: Scalable Feature Learning for Networks",
+          "link": "http://arxiv.org/abs/1607.00653v1"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/node2vec",
+        "n": "DeepWalk",
+        "d": "2016-07-03",
+        "m4": "0.1768"
+      }
+    ]
+  }
+}

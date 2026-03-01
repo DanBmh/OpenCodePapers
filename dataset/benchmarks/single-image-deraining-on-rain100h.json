@@ -1,0 +1,263 @@
+{
+  "title": "single-image-deraining-on-rain100h",
+  "task-hierarchy": [
+    "Rain Removal",
+    "Single Image Deraining"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "FID",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "LPIPS",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Image Restoration Through Generalized Ornstein-Uhlenbeck Bridge",
+          "link": "https://arxiv.org/abs/2312.10299v2"
+        },
+        "c": "https://github.com/Hammour-steak/GOUB",
+        "n": "GOUB (Mean-ODE)",
+        "d": "2023-12-16",
+        "m1": "34.56",
+        "m2": "0.9414"
+      },
+      {
+        "p": {
+          "name": "Controlling Vision-Language Models for Multi-Task Image Restoration",
+          "link": "https://arxiv.org/abs/2310.01018v2"
+        },
+        "c": "https://github.com/algolzw/daclip-uir",
+        "n": "DA-CLIP",
+        "d": "2023-10-02",
+        "m1": "33.91",
+        "m2": "0.926"
+      },
+      {
+        "p": {
+          "name": "Forward-only Diffusion Probabilistic Models",
+          "link": "https://arxiv.org/abs/2505.16733v1"
+        },
+        "c": "https://github.com/Algolzw/FoD",
+        "n": "Fod w/ NMC",
+        "d": "2025-05-22",
+        "m1": "33.63",
+        "m2": "0.941",
+        "m3": "15.64",
+        "m4": "0.041"
+      },
+      {
+        "p": {
+          "name": "Forward-only Diffusion Probabilistic Models",
+          "link": "https://arxiv.org/abs/2505.16733v1"
+        },
+        "c": "https://github.com/Algolzw/FoD",
+        "n": "FoD",
+        "d": "2025-05-22",
+        "m1": "32.56",
+        "m2": "0.925",
+        "m3": "14.10",
+        "m4": "0.038"
+      },
+      {
+        "p": {
+          "name": "Image Restoration with Mean-Reverting Stochastic Differential Equations",
+          "link": "https://arxiv.org/abs/2301.11699v3"
+        },
+        "c": "https://github.com/algolzw/image-restoration-sde",
+        "n": "IR-SDE",
+        "d": "2023-01-27",
+        "m1": "31.65",
+        "m2": "0.9041",
+        "m3": "18.64",
+        "m4": "0.047"
+      },
+      {
+        "p": {
+          "name": "Restormer: Efficient Transformer for High-Resolution Image Restoration",
+          "link": "https://arxiv.org/abs/2111.09881v2"
+        },
+        "c": "https://github.com/swz30/restormer",
+        "n": "Restormer",
+        "d": "2021-11-18",
+        "m1": "31.46",
+        "m2": "0.904"
+      },
+      {
+        "p": {
+          "name": "MCW-Net: Single Image Deraining with Multi-level Connections and Wide Regional Non-local Blocks",
+          "link": "https://arxiv.org/abs/2009.13990v4"
+        },
+        "c": "https://github.com/yechanp/MCW-Net",
+        "n": "MCW-Net",
+        "d": "2020-09-29",
+        "m1": "30.70",
+        "m2": "0.922"
+      },
+      {
+        "p": {
+          "name": "HINet: Half Instance Normalization Network for Image Restoration",
+          "link": "https://arxiv.org/abs/2105.06086v2"
+        },
+        "c": "https://github.com/megvii-model/HINet",
+        "n": "HINet",
+        "d": "2021-05-13",
+        "m1": "30.65",
+        "m2": "0.894"
+      },
+      {
+        "p": {
+          "name": "A Mountain-Shaped Single-Stage Network for Accurate Image Restoration",
+          "link": "https://arxiv.org/abs/2305.05146v1"
+        },
+        "c": "https://github.com/Tombs98/M3SNet",
+        "n": "M3SNet",
+        "d": "2023-05-09",
+        "m1": "30.64",
+        "m2": "0.892"
+      },
+      {
+        "p": {
+          "name": "Multi-Stage Progressive Image Restoration",
+          "link": "https://arxiv.org/abs/2102.02808v2"
+        },
+        "c": "https://github.com/swz30/restormer",
+        "n": "MPRNet",
+        "d": "2021-02-04",
+        "m1": "30.41",
+        "m2": "0.89"
+      },
+      {
+        "p": {
+          "name": "Mixed Hierarchy Network for Image Restoration",
+          "link": "https://arxiv.org/abs/2302.09554v4"
+        },
+        "c": "https://github.com/tombs98/mhnet",
+        "n": "MHNet",
+        "d": "2023-02-19",
+        "m1": "30.34"
+      },
+      {
+        "p": {
+          "name": "Progressive Image Deraining Networks: A Better and Simpler Baseline",
+          "link": "https://arxiv.org/abs/1901.09221v3"
+        },
+        "c": "https://github.com/csdwren/PReNet",
+        "n": "PReNet",
+        "d": "2019-01-26",
+        "m1": "29.46",
+        "m2": "0.899"
+      },
+      {
+        "p": {
+          "name": "Multi-Scale Progressive Fusion Network for Single Image Deraining",
+          "link": "https://arxiv.org/abs/2003.10985v2"
+        },
+        "c": "https://github.com/kuijiang94/mspfn",
+        "n": "MSPFN",
+        "d": "2020-03-24",
+        "m1": "28.66",
+        "m2": "0.86"
+      },
+      {
+        "p": {
+          "name": "Recurrent Squeeze-and-Excitation Context Aggregation Net for Single Image Deraining",
+          "link": "http://arxiv.org/abs/1807.05698v2"
+        },
+        "c": "",
+        "n": "RESCAN",
+        "d": "2018-07-16",
+        "m1": "26.36",
+        "m2": "0.786"
+      },
+      {
+        "p": {
+          "name": "Semi-supervised Transfer Learning for Image Rain Removal",
+          "link": "http://arxiv.org/abs/1807.11078v2"
+        },
+        "c": "https://github.com/wwzjer/Semi-supervised-IRR",
+        "n": "SEMI",
+        "d": "2018-07-29",
+        "m1": "16.56",
+        "m2": "0.486"
+      },
+      {
+        "p": {
+          "name": "MAXIM: Multi-Axis MLP for Image Processing",
+          "link": "https://arxiv.org/abs/2201.02973v2"
+        },
+        "c": "https://github.com/google-research/maxim",
+        "n": "MAXIM",
+        "d": "2022-01-09",
+        "m2": "0.903"
+      },
+      {
+        "p": {
+          "name": "Uncertainty Guided Multi-Scale Residual Learning-using a Cycle Spinning CNN for Single Image De-Raining",
+          "link": "https://arxiv.org/abs/1906.11129v1"
+        },
+        "c": "https://github.com/rajeevyasarla/UMRL--using-Cycle-Spinning",
+        "n": "UMRL",
+        "d": "2019-06-12",
+        "m2": "0.832"
+      },
+      {
+        "p": {
+          "name": "Clearing the Skies: A deep network architecture for single-image rain removal",
+          "link": "http://arxiv.org/abs/1609.02087v2"
+        },
+        "c": "https://github.com/jinnovation/rainy-image-dataset",
+        "n": "DerainNet",
+        "d": "2016-09-07",
+        "m2": "0.592"
+      },
+      {
+        "p": {
+          "name": "Density-aware Single Image De-raining using a Multi-stream Dense Network",
+          "link": "http://arxiv.org/abs/1802.07412v1"
+        },
+        "c": "https://github.com/hezhangsprinter/DID-MDN",
+        "n": "DIDMDN",
+        "d": "2018-02-21",
+        "m2": "0.524"
+      }
+    ]
+  }
+}

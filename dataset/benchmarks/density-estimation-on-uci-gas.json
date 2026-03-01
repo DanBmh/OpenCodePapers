@@ -1,0 +1,114 @@
+{
+  "title": "density-estimation-on-uci-gas",
+  "task-hierarchy": [
+    "Density Estimation"
+  ],
+  "dataset-info": {
+    "link": "http://archive.ics.uci.edu/ml/datasets.php"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Log-likelihood",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "CD",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "EMD",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "MMD-CD",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "MMD-EMD",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Block Neural Autoregressive Flow",
+          "link": "http://arxiv.org/abs/1904.04676v1"
+        },
+        "c": "https://github.com/nicola-decao/BNAF",
+        "n": "B-NAF",
+        "d": "2019-04-09",
+        "m1": "12.06"
+      },
+      {
+        "p": {
+          "name": "Learning Generative Models using Denoising Density Estimators",
+          "link": "https://arxiv.org/abs/2001.02728v2"
+        },
+        "c": "https://github.com/logchan/dde",
+        "n": "DDE",
+        "d": "2020-01-08",
+        "m1": "9.73"
+      },
+      {
+        "p": {
+          "name": "FFJORD: Free-form Continuous Dynamics for Scalable Reversible Generative Models",
+          "link": "http://arxiv.org/abs/1810.01367v3"
+        },
+        "c": "https://github.com/rtqichen/ffjord",
+        "n": "FFJORD",
+        "d": "2018-10-02",
+        "m1": "8.59",
+        "m2": "1.29",
+        "m3": "0.146",
+        "m4": "0.95",
+        "m5": "0.135"
+      },
+      {
+        "p": {
+          "name": "MADE: Masked Autoencoder for Distribution Estimation",
+          "link": "http://arxiv.org/abs/1502.03509v2"
+        },
+        "c": "https://github.com/karpathy/pytorch-made",
+        "n": "MADE MoG",
+        "d": "2015-02-12",
+        "m1": "8.47"
+      },
+      {
+        "p": {
+          "name": "PaddingFlow: Improving Normalizing Flows with Padding-Dimensional Noise",
+          "link": "https://arxiv.org/abs/2403.08216v2"
+        },
+        "c": "https://github.com/adamqlmeng/paddingflow",
+        "n": "PaddingFlow",
+        "d": "2024-03-13",
+        "m2": "0.89",
+        "m3": "0.131",
+        "m4": "0.39",
+        "m5": "0.121"
+      }
+    ]
+  }
+}

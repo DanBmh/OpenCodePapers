@@ -1,0 +1,197 @@
+{
+  "title": "domain-adaptation-on-cityscapes-to-acdc",
+  "task-hierarchy": [
+    "Domain Adaptation"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SoRA: Singular Value Decomposed Low-Rank Adaptation for Domain Generalizable Representation Learning",
+          "link": "https://arxiv.org/abs/2412.04077v1"
+        },
+        "c": "https://github.com/ysj9909/DG-SoRA",
+        "n": "SoRA",
+        "d": "2024-12-05",
+        "m1": "78.8"
+      },
+      {
+        "p": {
+          "name": "Stronger, Fewer, & Superior: Harnessing Vision Foundation Models for Domain Generalized Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2312.04265v5"
+        },
+        "c": "https://github.com/w1oves/rein",
+        "n": "Rein",
+        "d": "2023-12-07",
+        "m1": "77.6"
+      },
+      {
+        "p": {
+          "name": "CoDA: Instructive Chain-of-Domain Adaptation with Severity-Aware Visual Prompt Tuning",
+          "link": "https://arxiv.org/abs/2403.17369v3"
+        },
+        "c": "https://github.com/Cuzyoung/CoDA",
+        "n": "CoDA",
+        "d": "2024-03-26",
+        "m1": "72.6"
+      },
+      {
+        "p": {
+          "name": "Refign: Align and Refine for Adaptation of Semantic Segmentation to Adverse Conditions",
+          "link": "https://arxiv.org/abs/2207.06825v3"
+        },
+        "c": "https://github.com/brdav/refign",
+        "n": "Refign (HRDA)",
+        "d": "2022-07-14",
+        "m1": "72.1"
+      },
+      {
+        "p": {
+          "name": "Hyperbolic Active Learning for Semantic Segmentation under Domain Shift",
+          "link": "https://arxiv.org/abs/2306.11180v5"
+        },
+        "c": "https://github.com/paolomandica/HALO",
+        "n": "HALO",
+        "d": "2023-06-19",
+        "m1": "71.9"
+      },
+      {
+        "p": {
+          "name": "MIC: Masked Image Consistency for Context-Enhanced Domain Adaptation",
+          "link": "https://arxiv.org/abs/2212.01322v2"
+        },
+        "c": "https://github.com/lhoyer/mic",
+        "n": "MIC",
+        "d": "2022-12-02",
+        "m1": "70.4"
+      },
+      {
+        "p": {
+          "name": "HRDA: Context-Aware High-Resolution Domain-Adaptive Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2204.13132v2"
+        },
+        "c": "https://github.com/lhoyer/hrda",
+        "n": "HRDA",
+        "d": "2022-04-27",
+        "m1": "68.0"
+      },
+      {
+        "p": {
+          "name": "Refign: Align and Refine for Adaptation of Semantic Segmentation to Adverse Conditions",
+          "link": "https://arxiv.org/abs/2207.06825v3"
+        },
+        "c": "https://github.com/brdav/refign",
+        "n": "Refign (DAFormer)",
+        "d": "2022-07-14",
+        "m1": "65.5"
+      },
+      {
+        "p": {
+          "name": "VBLC: Visibility Boosting and Logit-Constraint Learning for Domain Adaptive Semantic Segmentation under Adverse Conditions",
+          "link": "https://arxiv.org/abs/2211.12256v1"
+        },
+        "c": "https://github.com/bit-da/vblc",
+        "n": "VBLC (DAFormer)",
+        "d": "2022-11-22",
+        "m1": "64.2"
+      },
+      {
+        "p": {
+          "name": "Learning Content-enhanced Mask Transformer for Domain Generalized Urban-Scene Segmentation",
+          "link": "https://arxiv.org/abs/2307.00371v5"
+        },
+        "c": "https://github.com/BiQiWHU/CMFormer",
+        "n": "CMFormer",
+        "d": "2023-07-01",
+        "m1": "60.1"
+      },
+      {
+        "p": {
+          "name": "DAFormer: Improving Network Architectures and Training Strategies for Domain-Adaptive Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2111.14887v2"
+        },
+        "c": "https://github.com/lhoyer/DAFormer",
+        "n": "DAFormer",
+        "d": "2021-11-29",
+        "m1": "55.4"
+      },
+      {
+        "p": {
+          "name": "DANNet: A One-Stage Domain Adaptation Network for Unsupervised Nighttime Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2104.10834v1"
+        },
+        "c": "https://github.com/W-zx-Y/DANNet",
+        "n": "DANNet",
+        "d": "2021-04-22",
+        "m1": "50.0"
+      },
+      {
+        "p": {
+          "name": "Map-Guided Curriculum Domain Adaptation and Uncertainty-Aware Evaluation for Semantic Nighttime Image Segmentation",
+          "link": "https://arxiv.org/abs/2005.14553v2"
+        },
+        "c": "https://github.com/sakaridis/MGCDA",
+        "n": "MGCDA",
+        "d": "2020-05-28",
+        "m1": "48.7"
+      },
+      {
+        "p": {
+          "name": "VBLC: Visibility Boosting and Logit-Constraint Learning for Domain Adaptive Semantic Segmentation under Adverse Conditions",
+          "link": "https://arxiv.org/abs/2211.12256v1"
+        },
+        "c": "https://github.com/bit-da/vblc",
+        "n": "VBLC (DeepLabv2)",
+        "d": "2022-11-22",
+        "m1": "47.8"
+      },
+      {
+        "p": {
+          "name": "FDA: Fourier Domain Adaptation for Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2004.05498v1"
+        },
+        "c": "https://github.com/albumentations-team/albumentations",
+        "n": "FDA (DeepLabv2)",
+        "d": "2020-04-11",
+        "m1": "45.7"
+      },
+      {
+        "p": {
+          "name": "DACS: Domain Adaptation via Cross-domain Mixed Sampling",
+          "link": "https://arxiv.org/abs/2007.08702v2"
+        },
+        "c": "https://github.com/vikolss/DACS",
+        "n": "DACS (DeepLabv2)",
+        "d": "2020-07-17",
+        "m1": "41.2"
+      }
+    ]
+  }
+}

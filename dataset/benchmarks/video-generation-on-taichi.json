@@ -1,0 +1,106 @@
+{
+  "title": "video-generation-on-taichi",
+  "task-hierarchy": [
+    "Video Generation"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "FVD16",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "KVD16",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Towards Smooth Video Composition",
+          "link": "https://arxiv.org/abs/2212.07413v1"
+        },
+        "c": "https://github.com/genforce/StyleSV",
+        "n": "StyleSV (256x256)",
+        "d": "2022-12-14",
+        "m1": "82.6"
+      },
+      {
+        "p": {
+          "name": "Latent Video Diffusion Models for High-Fidelity Long Video Generation",
+          "link": "https://arxiv.org/abs/2211.13221v2"
+        },
+        "c": "https://github.com/yingqinghe/lvdm",
+        "n": "TATS (128x128)",
+        "d": "2022-11-23",
+        "m1": "94.6",
+        "m2": "9.8"
+      },
+      {
+        "p": {
+          "name": "Latent Video Diffusion Models for High-Fidelity Long Video Generation",
+          "link": "https://arxiv.org/abs/2211.13221v2"
+        },
+        "c": "https://github.com/yingqinghe/lvdm",
+        "n": "LVDM (256x256)",
+        "d": "2022-11-23",
+        "m1": "99",
+        "m2": "15.3"
+      },
+      {
+        "p": {
+          "name": "Latent Video Diffusion Models for High-Fidelity Long Video Generation",
+          "link": "https://arxiv.org/abs/2211.13221v2"
+        },
+        "c": "https://github.com/yingqinghe/lvdm",
+        "n": "DIGAN (128x128)",
+        "d": "2022-11-23",
+        "m1": "128.1",
+        "m2": "20.6"
+      },
+      {
+        "p": {
+          "name": "Latent Video Diffusion Models for High-Fidelity Long Video Generation",
+          "link": "https://arxiv.org/abs/2211.13221v2"
+        },
+        "c": "https://github.com/yingqinghe/lvdm",
+        "n": "MoCoGAN-HD (128x128)",
+        "d": "2022-11-23",
+        "m1": "144.7",
+        "m2": "25.4"
+      },
+      {
+        "p": {
+          "name": "Latent Video Diffusion Models for High-Fidelity Long Video Generation",
+          "link": "https://arxiv.org/abs/2211.13221v2"
+        },
+        "c": "https://github.com/yingqinghe/lvdm",
+        "n": "DIGAN (256x256)",
+        "d": "2022-11-23",
+        "m1": "156.7"
+      }
+    ]
+  }
+}

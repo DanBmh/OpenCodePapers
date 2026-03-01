@@ -1,0 +1,107 @@
+{
+  "title": "node-classification-on-pokec",
+  "task-hierarchy": [
+    "Node Classification"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Learning Long Range Dependencies on Graphs via Random Walks",
+          "link": "https://arxiv.org/abs/2406.03386v2"
+        },
+        "c": "https://github.com/borgwardtlab/neuralwalker",
+        "n": "NeuralWalker",
+        "d": "2024-06-05",
+        "m1": "86.46 ± 0.09"
+      },
+      {
+        "p": {
+          "name": "Classic GNNs are Strong Baselines: Reassessing GNNs for Node Classification",
+          "link": "https://arxiv.org/abs/2406.08993v2"
+        },
+        "c": "https://github.com/LUOyk1999/tunedGNN",
+        "n": "GCN",
+        "d": "2024-06-13",
+        "m1": "86.33 ± 0.17"
+      },
+      {
+        "p": {
+          "name": "Polynormer: Polynomial-Expressive Graph Transformer in Linear Time",
+          "link": "https://arxiv.org/abs/2403.01232v3"
+        },
+        "c": "https://github.com/cornell-zhang/Polynormer/tree/master/large_graph_exp",
+        "n": "Polynormer",
+        "d": "2024-03-02",
+        "m1": "86.10±0.05"
+      },
+      {
+        "p": {
+          "name": "Finding Global Homophily in Graph Neural Networks When Meeting Heterophily",
+          "link": "https://arxiv.org/abs/2205.07308v1"
+        },
+        "c": "https://github.com/recklessronan/glognn",
+        "n": "GloGNN++",
+        "d": "2022-05-15",
+        "m1": "83.05±0.07"
+      },
+      {
+        "p": {
+          "name": "Graph Neural Networks with Learnable and Optimal Polynomial Bases",
+          "link": "https://arxiv.org/abs/2302.12432v2"
+        },
+        "c": "https://github.com/yuziGuo/FarOptBasis",
+        "n": "OptBasisGNN",
+        "d": "2023-02-24",
+        "m1": "82.83±0.04"
+      },
+      {
+        "p": {
+          "name": "Large Scale Learning on Non-Homophilous Graphs: New Benchmarks and Strong Simple Methods",
+          "link": "https://arxiv.org/abs/2110.14446v1"
+        },
+        "c": "https://github.com/cuai/non-homophily-large-scale",
+        "n": "LINKX",
+        "d": "2021-10-27",
+        "m1": "82.04±0.07"
+      },
+      {
+        "p": {
+          "name": "Feature Selection: Key to Enhance Node Classification with Graph Neural Networks",
+          "link": "https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/cit2.12166"
+        },
+        "c": "https://github.com/sunilkmaurya/DualNetGNN_large",
+        "n": "Dual-Net GNN",
+        "d": "2023-01-25",
+        "m1": "81.55±0.09"
+      }
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "title": "open-vocabulary-attribute-detection-on-ovad",
+  "task-hierarchy": [
+    "Object Detection",
+    "Open Vocabulary Object Detection",
+    "Open Vocabulary Attribute Detection"
+  ],
+  "dataset-info": {
+    "link": "https://ovad-benchmark.github.io/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mean average precision",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "OvarNet: Towards Open-vocabulary Object Attribute Recognition",
+          "link": "https://arxiv.org/abs/2301.09506v1"
+        },
+        "c": "https://github.com/KyanChen/OvarNet",
+        "n": "OvarNet (ViT-B16)",
+        "d": "2023-01-23",
+        "m1": "27.2"
+      },
+      {
+        "p": {
+          "name": "Open-vocabulary Attribute Detection",
+          "link": "https://arxiv.org/abs/2211.12914v2"
+        },
+        "c": "https://github.com/OVAD-Benchmark/ovad-bechmark-code",
+        "n": "OVAD-Baseline (ResNet50)",
+        "d": "2022-11-23",
+        "m1": "18.8"
+      },
+      {
+        "p": {
+          "name": "Open-Vocabulary Object Detection Using Captions",
+          "link": "https://arxiv.org/abs/2011.10678v2"
+        },
+        "c": "https://github.com/alirezazareian/ovr-cnn",
+        "n": "OVR (ResNet50)",
+        "d": "2020-11-20",
+        "m1": "15.1"
+      },
+      {
+        "p": {
+          "name": "Localized Vision-Language Matching for Open-vocabulary Object Detection",
+          "link": "https://arxiv.org/abs/2205.06160v2"
+        },
+        "c": "https://github.com/lmb-freiburg/locov",
+        "n": "LocOv (ResNet50)",
+        "d": "2022-05-12",
+        "m1": "14.9"
+      },
+      {
+        "p": {
+          "name": "Bridging the Gap between Object and Image-level Representations for Open-Vocabulary Detection",
+          "link": "https://arxiv.org/abs/2207.03482v3"
+        },
+        "c": "https://github.com/mmaaz60/mvits_for_class_agnostic_od",
+        "n": "Object-Centric-OVD (ResNet50)",
+        "d": "2022-07-07",
+        "m1": "14.6"
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "title": "poll-generation-on-weibopolls",
+  "task-hierarchy": [
+    "Question Generation",
+    "Poll Generation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/polyusmart/Poll-Question-Generation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "ROUGE-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "ROUGE-L",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "BLEU-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "BLEU-3",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "UniPoll: A Unified Social Media Poll Generation Framework via Multi-Objective Optimization",
+          "link": "https://arxiv.org/abs/2306.06851v2"
+        },
+        "c": "https://github.com/X1AOX1A/UniPoll",
+        "n": "UniPoll",
+        "d": "2023-06-12",
+        "m1": "47.92",
+        "m2": "45.02",
+        "m3": "39.96",
+        "m4": "22.78"
+      },
+      {
+        "p": {
+          "name": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+          "link": "https://arxiv.org/abs/1910.10683v4"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "T5",
+        "d": "2019-10-23",
+        "m1": "45.33",
+        "m2": "42.69",
+        "m3": "37.34",
+        "m4": "21.06"
+      },
+      {
+        "p": {
+          "name": "Engage the Public: Poll Question Generation for Social Media Posts",
+          "link": "https://aclanthology.org/2021.acl-long.3"
+        },
+        "c": "https://github.com/polyusmart/poll-question-generation",
+        "n": "Dual Dec",
+        "d": "2021-08-01",
+        "m1": "34.98",
+        "m2": "32.84",
+        "m3": "29.41",
+        "m4": "8.84"
+      }
+    ]
+  }
+}

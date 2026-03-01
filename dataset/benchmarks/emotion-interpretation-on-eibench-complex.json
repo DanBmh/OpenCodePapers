@@ -1,0 +1,167 @@
+{
+  "title": "emotion-interpretation-on-eibench-complex",
+  "task-hierarchy": [
+    "Emotion Interpretation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/Lum1104/EIBench"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Recall",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Why We Feel: Breaking Boundaries in Emotional Reasoning with Multimodal Large Language Models",
+          "link": "https://arxiv.org/abs/2504.07521v2"
+        },
+        "c": "https://github.com/Lum1104/MER-Factory",
+        "n": "ChatGPT-4o",
+        "d": "2025-04-10",
+        "m1": "39.27"
+      },
+      {
+        "p": {
+          "name": "Why We Feel: Breaking Boundaries in Emotional Reasoning with Multimodal Large Language Models",
+          "link": "https://arxiv.org/abs/2504.07521v2"
+        },
+        "c": "https://github.com/Lum1104/MER-Factory",
+        "n": "LLaVA-NEXT (13B)",
+        "d": "2025-04-10",
+        "m1": "39.16"
+      },
+      {
+        "p": {
+          "name": "Why We Feel: Breaking Boundaries in Emotional Reasoning with Multimodal Large Language Models",
+          "link": "https://arxiv.org/abs/2504.07521v2"
+        },
+        "c": "https://github.com/Lum1104/MER-Factory",
+        "n": "LLaVA-NEXT (7B)",
+        "d": "2025-04-10",
+        "m1": "38.71"
+      },
+      {
+        "p": {
+          "name": "Why We Feel: Breaking Boundaries in Emotional Reasoning with Multimodal Large Language Models",
+          "link": "https://arxiv.org/abs/2504.07521v2"
+        },
+        "c": "https://github.com/Lum1104/MER-Factory",
+        "n": "LLaVA-1.5 (13B)",
+        "d": "2025-04-10",
+        "m1": "38.1"
+      },
+      {
+        "p": {
+          "name": "Why We Feel: Breaking Boundaries in Emotional Reasoning with Multimodal Large Language Models",
+          "link": "https://arxiv.org/abs/2504.07521v2"
+        },
+        "c": "https://github.com/Lum1104/MER-Factory",
+        "n": "LLaVA-NEXT (34B)",
+        "d": "2025-04-10",
+        "m1": "35.37"
+      },
+      {
+        "p": {
+          "name": "Why We Feel: Breaking Boundaries in Emotional Reasoning with Multimodal Large Language Models",
+          "link": "https://arxiv.org/abs/2504.07521v2"
+        },
+        "c": "https://github.com/Lum1104/MER-Factory",
+        "n": "MiniGPT-v2",
+        "d": "2025-04-10",
+        "m1": "35.1"
+      },
+      {
+        "p": {
+          "name": "Why We Feel: Breaking Boundaries in Emotional Reasoning with Multimodal Large Language Models",
+          "link": "https://arxiv.org/abs/2504.07521v2"
+        },
+        "c": "https://github.com/Lum1104/MER-Factory",
+        "n": "Video-LLaVA",
+        "d": "2025-04-10",
+        "m1": "30.9"
+      },
+      {
+        "p": {
+          "name": "Why We Feel: Breaking Boundaries in Emotional Reasoning with Multimodal Large Language Models",
+          "link": "https://arxiv.org/abs/2504.07521v2"
+        },
+        "c": "https://github.com/Lum1104/MER-Factory",
+        "n": "ChatGPT-4V",
+        "d": "2025-04-10",
+        "m1": "28"
+      },
+      {
+        "p": {
+          "name": "Why We Feel: Breaking Boundaries in Emotional Reasoning with Multimodal Large Language Models",
+          "link": "https://arxiv.org/abs/2504.07521v2"
+        },
+        "c": "https://github.com/Lum1104/MER-Factory",
+        "n": "Otter",
+        "d": "2025-04-10",
+        "m1": "27.9"
+      },
+      {
+        "p": {
+          "name": "Why We Feel: Breaking Boundaries in Emotional Reasoning with Multimodal Large Language Models",
+          "link": "https://arxiv.org/abs/2504.07521v2"
+        },
+        "c": "https://github.com/Lum1104/MER-Factory",
+        "n": "Claude-3-haiku",
+        "d": "2025-04-10",
+        "m1": "24"
+      },
+      {
+        "p": {
+          "name": "Why We Feel: Breaking Boundaries in Emotional Reasoning with Multimodal Large Language Models",
+          "link": "https://arxiv.org/abs/2504.07521v2"
+        },
+        "c": "https://github.com/Lum1104/MER-Factory",
+        "n": "Qwen-VL-Chat",
+        "d": "2025-04-10",
+        "m1": "22"
+      },
+      {
+        "p": {
+          "name": "Why We Feel: Breaking Boundaries in Emotional Reasoning with Multimodal Large Language Models",
+          "link": "https://arxiv.org/abs/2504.07521v2"
+        },
+        "c": "https://github.com/Lum1104/MER-Factory",
+        "n": "Claude-3-sonnet",
+        "d": "2025-04-10",
+        "m1": "21.37"
+      },
+      {
+        "p": {
+          "name": "Why We Feel: Breaking Boundaries in Emotional Reasoning with Multimodal Large Language Models",
+          "link": "https://arxiv.org/abs/2504.07521v2"
+        },
+        "c": "https://github.com/Lum1104/MER-Factory",
+        "n": "Qwen-vl-plus",
+        "d": "2025-04-10",
+        "m1": "20.37"
+      }
+    ]
+  }
+}

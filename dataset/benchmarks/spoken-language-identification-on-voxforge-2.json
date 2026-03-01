@@ -1,0 +1,69 @@
+{
+  "title": "spoken-language-identification-on-voxforge-2",
+  "task-hierarchy": [
+    "Dialogue Understanding",
+    "Spoken Language Understanding",
+    "Spoken language identification"
+  ],
+  "dataset-info": {
+    "link": "http://www.voxforge.org/home"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "EfficientLEAF: A Faster LEarnable Audio Frontend of Questionable Use",
+          "link": "https://arxiv.org/abs/2207.05508v1"
+        },
+        "c": "https://github.com/cpjku/efficientleaf",
+        "n": "LEAF",
+        "d": "2022-07-12",
+        "m1": "91.5"
+      },
+      {
+        "p": {
+          "name": "EfficientLEAF: A Faster LEarnable Audio Frontend of Questionable Use",
+          "link": "https://arxiv.org/abs/2207.05508v1"
+        },
+        "c": "https://github.com/cpjku/efficientleaf",
+        "n": "EfficientLEAF",
+        "d": "2022-07-12",
+        "m1": "86.6"
+      },
+      {
+        "p": {
+          "name": "EfficientLEAF: A Faster LEarnable Audio Frontend of Questionable Use",
+          "link": "https://arxiv.org/abs/2207.05508v1"
+        },
+        "c": "https://github.com/cpjku/efficientleaf",
+        "n": "melspect",
+        "d": "2022-07-12",
+        "m1": "85.6"
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "title": "zero-shot-video-retrieval-on-msr-vtt-full",
+  "task-hierarchy": [
+    "Zero-Shot Video Retrieval"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "text-to-video R@1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "text-to-video R@5",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "text-to-video R@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "video-to-text R@1",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "video-to-text R@5",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "video-to-text R@10",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "InternVL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks",
+          "link": "https://arxiv.org/abs/2312.14238v3"
+        },
+        "c": "https://github.com/opengvlab/internvl",
+        "n": "InternVL-G",
+        "d": "2023-12-21",
+        "m1": "46.3",
+        "m2": "70.5",
+        "m3": "79.6",
+        "m4": "42.4",
+        "m5": "65.9",
+        "m6": "75.4"
+      },
+      {
+        "p": {
+          "name": "InternVL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks",
+          "link": "https://arxiv.org/abs/2312.14238v3"
+        },
+        "c": "https://github.com/opengvlab/internvl",
+        "n": "InternVL-C",
+        "d": "2023-12-21",
+        "m1": "44.7",
+        "m2": "68.2",
+        "m3": "78.4",
+        "m4": "40.2",
+        "m5": "63.1",
+        "m6": "74.1"
+      },
+      {
+        "p": {
+          "name": "VideoCoCa: Video-Text Modeling with Zero-Shot Transfer from Contrastive Captioners",
+          "link": "https://arxiv.org/abs/2212.04979v3"
+        },
+        "c": "",
+        "n": "VideoCoCa",
+        "d": "2022-12-09",
+        "m1": "34.3",
+        "m2": "57.8",
+        "m3": "67.0",
+        "m4": "64.7",
+        "m5": "85.2",
+        "m6": "91.4"
+      }
+    ]
+  }
+}

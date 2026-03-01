@@ -1,0 +1,67 @@
+{
+  "title": "video-classification-on-mob",
+  "task-hierarchy": [
+    "Video Classification"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/syedhammadahmed/mob"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Malicious or Benign? Towards Effective Content Moderation for Children's Videos",
+          "link": "https://arxiv.org/abs/2305.15551v1"
+        },
+        "c": "https://github.com/syedhammadahmed/mob",
+        "n": "VTN",
+        "d": "2023-05-24",
+        "m1": "77.85"
+      },
+      {
+        "p": {
+          "name": "Malicious or Benign? Towards Effective Content Moderation for Children's Videos",
+          "link": "https://arxiv.org/abs/2305.15551v1"
+        },
+        "c": "https://github.com/syedhammadahmed/mob",
+        "n": "I3D",
+        "d": "2023-05-24",
+        "m1": "72.11"
+      },
+      {
+        "p": {
+          "name": "Malicious or Benign? Towards Effective Content Moderation for Children's Videos",
+          "link": "https://arxiv.org/abs/2305.15551v1"
+        },
+        "c": "https://github.com/syedhammadahmed/mob",
+        "n": "ConvLSTM",
+        "d": "2023-05-24",
+        "m1": "69.71"
+      }
+    ]
+  }
+}

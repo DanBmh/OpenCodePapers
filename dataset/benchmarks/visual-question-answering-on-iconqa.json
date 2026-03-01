@@ -1,0 +1,412 @@
+{
+  "title": "visual-question-answering-on-iconqa",
+  "task-hierarchy": [
+    "Visual Question Answering (VQA)"
+  ],
+  "dataset-info": {
+    "link": "https://iconqa.github.io/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Sub-tasks (Img.)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Sub-tasks (Txt.)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Sub-tasks (Blank)",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Reasoning (Geo.)",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Reasoning (Cou.)",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "Reasoning (Com.)",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "Reasoning (Spa.)",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "Reasoning (Sce.)",
+        "sortable": "true"
+      },
+      {
+        "key": "m9",
+        "label": "Reasoning (Pat.)",
+        "sortable": "true"
+      },
+      {
+        "key": "m10",
+        "label": "Reasoning (Tim.)",
+        "sortable": "true"
+      },
+      {
+        "key": "m11",
+        "label": "Reasoning (Fra.)",
+        "sortable": "true"
+      },
+      {
+        "key": "m12",
+        "label": "Reasoning (Est.)",
+        "sortable": "true"
+      },
+      {
+        "key": "m13",
+        "label": "Reasoning (Alg.)",
+        "sortable": "true"
+      },
+      {
+        "key": "m14",
+        "label": "Reasoning (Mea.)",
+        "sortable": "true"
+      },
+      {
+        "key": "m15",
+        "label": "Reasoning (Sen.)",
+        "sortable": "true"
+      },
+      {
+        "key": "m16",
+        "label": "Reasoning (Pro.)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "IconQA: A New Benchmark for Abstract Diagram Understanding and Visual Language Reasoning",
+          "link": "https://arxiv.org/abs/2110.13214v4"
+        },
+        "c": "https://github.com/lupantech/iconqa",
+        "n": "Patch-TRM",
+        "d": "2021-10-25",
+        "m1": "82.66",
+        "m2": "75.19",
+        "m3": "83.62",
+        "m4": "81.87",
+        "m5": "77.81",
+        "m6": "87.00",
+        "m7": "55.62",
+        "m8": "62.39",
+        "m9": "68.75",
+        "m10": "77.98",
+        "m11": "82.13",
+        "m12": "98.24",
+        "m13": "56.73",
+        "m14": "97.98",
+        "m15": "92.49",
+        "m16": "95.73"
+      },
+      {
+        "p": {
+          "name": "IconQA: A New Benchmark for Abstract Diagram Understanding and Visual Language Reasoning",
+          "link": "https://arxiv.org/abs/2110.13214v4"
+        },
+        "c": "https://github.com/lupantech/iconqa",
+        "n": "ViLT",
+        "d": "2021-10-25",
+        "m1": "79.67",
+        "m2": "72.69",
+        "m3": "79.27",
+        "m4": "82.61",
+        "m5": "71.13",
+        "m6": "84.95",
+        "m7": "53.38",
+        "m8": "66.72",
+        "m9": "59.22",
+        "m10": "69.99",
+        "m11": "75.81",
+        "m12": "99.02",
+        "m13": "50.55",
+        "m14": "98.91",
+        "m15": "86.10",
+        "m16": "87.65"
+      },
+      {
+        "p": {
+          "name": "IconQA: A New Benchmark for Abstract Diagram Understanding and Visual Language Reasoning",
+          "link": "https://arxiv.org/abs/2110.13214v4"
+        },
+        "c": "https://github.com/lupantech/iconqa",
+        "n": "ViT",
+        "d": "2021-10-25",
+        "m1": "79.15",
+        "m2": "72.34",
+        "m3": "78.92",
+        "m4": "82.60",
+        "m5": "70.84",
+        "m6": "82.12",
+        "m7": "54.64",
+        "m8": "68.80",
+        "m9": "58.46",
+        "m10": "68.66",
+        "m11": "77.41",
+        "m12": "98.95",
+        "m13": "51.10",
+        "m14": "98.76",
+        "m15": "84.72",
+        "m16": "86.07"
+      },
+      {
+        "p": {
+          "name": "IconQA: A New Benchmark for Abstract Diagram Understanding and Visual Language Reasoning",
+          "link": "https://arxiv.org/abs/2110.13214v4"
+        },
+        "c": "https://github.com/lupantech/iconqa",
+        "n": "UNITER",
+        "d": "2021-10-25",
+        "m1": "78.71",
+        "m2": "72.39",
+        "m3": "78.53",
+        "m4": "81.31",
+        "m5": "71.01",
+        "m6": "83.67",
+        "m7": "48.34",
+        "m8": "61.25",
+        "m9": "60.81",
+        "m10": "69.77",
+        "m11": "78.37",
+        "m12": "99.41",
+        "m13": "49.18",
+        "m14": "99.38",
+        "m15": "86.10",
+        "m16": "87.84"
+      },
+      {
+        "p": {
+          "name": "IconQA: A New Benchmark for Abstract Diagram Understanding and Visual Language Reasoning",
+          "link": "https://arxiv.org/abs/2110.13214v4"
+        },
+        "c": "https://github.com/lupantech/iconqa",
+        "n": "DFAF",
+        "d": "2021-10-25",
+        "m1": "77.72",
+        "m2": "72.17",
+        "m3": "78.28",
+        "m4": "81.80",
+        "m5": "70.68",
+        "m6": "81.69",
+        "m7": "51.42",
+        "m8": "67.01",
+        "m9": "56.60",
+        "m10": "67.72",
+        "m11": "77.60",
+        "m12": "99.02",
+        "m13": "50.27",
+        "m14": "98.83",
+        "m15": "84.11",
+        "m16": "85.70"
+      },
+      {
+        "p": {
+          "name": "IconQA: A New Benchmark for Abstract Diagram Understanding and Visual Language Reasoning",
+          "link": "https://arxiv.org/abs/2110.13214v4"
+        },
+        "c": "https://github.com/lupantech/iconqa",
+        "n": "MCAN",
+        "d": "2021-10-25",
+        "m1": "77.36",
+        "m2": "71.25",
+        "m3": "74.52",
+        "m4": "79.86",
+        "m5": "68.94",
+        "m6": "82.73",
+        "m7": "49.70",
+        "m8": "62.49",
+        "m9": "54.79",
+        "m10": "68.00",
+        "m11": "76.20",
+        "m12": "99.08",
+        "m13": "47.32",
+        "m14": "98.99",
+        "m15": "83.25",
+        "m16": "84.87"
+      },
+      {
+        "p": {
+          "name": "IconQA: A New Benchmark for Abstract Diagram Understanding and Visual Language Reasoning",
+          "link": "https://arxiv.org/abs/2110.13214v4"
+        },
+        "c": "https://github.com/lupantech/iconqa",
+        "n": "ViLBERT",
+        "d": "2021-10-25",
+        "m1": "76.66",
+        "m2": "70.47",
+        "m3": "77.08",
+        "m4": "80.05",
+        "m5": "71.05",
+        "m6": "75.60",
+        "m7": "49.46",
+        "m8": "58.52",
+        "m9": "62.78",
+        "m10": "66.72",
+        "m11": "74.09",
+        "m12": "99.22",
+        "m13": "50.62",
+        "m14": "99.07",
+        "m15": "81.78",
+        "m16": "70.94"
+      },
+      {
+        "p": {
+          "name": "IconQA: A New Benchmark for Abstract Diagram Understanding and Visual Language Reasoning",
+          "link": "https://arxiv.org/abs/2110.13214v4"
+        },
+        "c": "https://github.com/lupantech/iconqa",
+        "n": "BAN",
+        "d": "2021-10-25",
+        "m1": "76.33",
+        "m2": "70.82",
+        "m3": "75.54",
+        "m4": "79.99",
+        "m5": "67.56",
+        "m6": "82.12",
+        "m7": "53.20",
+        "m8": "66.92",
+        "m9": "55.67",
+        "m10": "66.50",
+        "m11": "73.77",
+        "m12": "97.06",
+        "m13": "47.46",
+        "m14": "96.50",
+        "m15": "82.12",
+        "m16": "82.45"
+      },
+      {
+        "p": {
+          "name": "IconQA: A New Benchmark for Abstract Diagram Understanding and Visual Language Reasoning",
+          "link": "https://arxiv.org/abs/2110.13214v4"
+        },
+        "c": "https://github.com/lupantech/iconqa",
+        "n": "Top-Down",
+        "d": "2021-10-25",
+        "m1": "75.92",
+        "m2": "68.51",
+        "m3": "73.03",
+        "m4": "80.07",
+        "m5": "65.01",
+        "m6": "80.65",
+        "m7": "45.78",
+        "m8": "58.22",
+        "m9": "55.01",
+        "m10": "68.28",
+        "m11": "72.43",
+        "m12": "99.54",
+        "m13": "50.00",
+        "m14": "99.46",
+        "m15": "84.54",
+        "m16": "83.75"
+      },
+      {
+        "p": {
+          "name": "IconQA: A New Benchmark for Abstract Diagram Understanding and Visual Language Reasoning",
+          "link": "https://arxiv.org/abs/2110.13214v4"
+        },
+        "c": "https://github.com/lupantech/iconqa",
+        "n": "Random",
+        "d": "2021-10-25",
+        "m1": "41.70",
+        "m2": "36.87",
+        "m3": "0.29",
+        "m4": "30.30",
+        "m5": "18.38",
+        "m6": "41.20",
+        "m7": "36.49",
+        "m8": "34.25",
+        "m9": "34.81",
+        "m10": "35.82",
+        "m11": "34.84",
+        "m12": "3.62",
+        "m13": "11.12",
+        "m14": "0.36",
+        "m15": "45.16",
+        "m16": "38.81"
+      },
+      {
+        "p": {
+          "name": "IconQA: A New Benchmark for Abstract Diagram Understanding and Visual Language Reasoning",
+          "link": "https://arxiv.org/abs/2110.13214v4"
+        },
+        "c": "https://github.com/lupantech/iconqa",
+        "n": "Q-Only",
+        "d": "2021-10-25",
+        "m1": "41.64",
+        "m2": "36.86",
+        "m3": "28.45",
+        "m4": "38.03",
+        "m5": "33.63",
+        "m6": "48.19",
+        "m7": "37.14",
+        "m8": "35.37",
+        "m9": "33.66",
+        "m10": "48.09",
+        "m11": "33.06",
+        "m12": "40.46",
+        "m13": "28.02",
+        "m14": "38.07",
+        "m15": "45.25",
+        "m16": "40.76"
+      },
+      {
+        "p": {
+          "name": "IconQA: A New Benchmark for Abstract Diagram Understanding and Visual Language Reasoning",
+          "link": "https://arxiv.org/abs/2110.13214v4"
+        },
+        "c": "https://github.com/lupantech/iconqa",
+        "n": "I-Only",
+        "d": "2021-10-25",
+        "m1": "41.56",
+        "m2": "36.02",
+        "m3": "46.65",
+        "m4": "38.71",
+        "m5": "37.64",
+        "m6": "45.26",
+        "m7": "37.52",
+        "m8": "35.47",
+        "m9": "36.29",
+        "m10": "47.37",
+        "m11": "32.48",
+        "m12": "62.29",
+        "m13": "31.73",
+        "m14": "64.02",
+        "m15": "45.25",
+        "m16": "37.51"
+      }
+    ]
+  }
+}

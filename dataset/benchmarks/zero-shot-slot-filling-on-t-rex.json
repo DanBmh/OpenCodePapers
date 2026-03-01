@@ -1,0 +1,109 @@
+{
+  "title": "zero-shot-slot-filling-on-t-rex",
+  "task-hierarchy": [
+    "Slot Filling",
+    "Zero-shot Slot Filling"
+  ],
+  "dataset-info": {
+    "link": "https://hadyelsahar.github.io/t-rex/downloads/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "R-Prec",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "R@5",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Robust Retrieval Augmented Generation for Zero-shot Slot Filling",
+          "link": "https://arxiv.org/abs/2108.13934v2"
+        },
+        "c": "https://github.com/IBM/retrieve-write-slot-filling",
+        "n": "DPRDNS+RAG",
+        "d": "2021-08-31",
+        "m1": "74.34",
+        "m2": "82.89"
+      },
+      {
+        "p": {
+          "name": "Robust Retrieval Augmented Generation for Zero-shot Slot Filling",
+          "link": "https://arxiv.org/abs/2108.13934v2"
+        },
+        "c": "https://github.com/IBM/retrieve-write-slot-filling",
+        "n": "DPRBM25+RAG",
+        "d": "2021-08-31",
+        "m1": "65.02",
+        "m2": "75.52"
+      },
+      {
+        "p": {
+          "name": "Robust Retrieval Augmented Generation for Zero-shot Slot Filling",
+          "link": "https://arxiv.org/abs/2108.13934v2"
+        },
+        "c": "https://github.com/IBM/retrieve-write-slot-filling",
+        "n": "DPRNQ+RAG",
+        "d": "2021-08-31",
+        "m1": "53.04",
+        "m2": "65.54"
+      },
+      {
+        "p": {
+          "name": "Robust Retrieval Augmented Generation for Zero-shot Slot Filling",
+          "link": "https://arxiv.org/abs/2108.13934v2"
+        },
+        "c": "https://github.com/IBM/retrieve-write-slot-filling",
+        "n": "DPRBM25",
+        "d": "2021-08-31",
+        "m1": "49.02",
+        "m2": "63.34"
+      },
+      {
+        "p": {
+          "name": "Robust Retrieval Augmented Generation for Zero-shot Slot Filling",
+          "link": "https://arxiv.org/abs/2108.13934v2"
+        },
+        "c": "https://github.com/IBM/retrieve-write-slot-filling",
+        "n": "DPRDNS",
+        "d": "2021-08-31",
+        "m1": "42.62",
+        "m2": "55.09"
+      },
+      {
+        "p": {
+          "name": "Robust Retrieval Augmented Generation for Zero-shot Slot Filling",
+          "link": "https://arxiv.org/abs/2108.13934v2"
+        },
+        "c": "https://github.com/IBM/retrieve-write-slot-filling",
+        "n": "DPRNQ",
+        "d": "2021-08-31",
+        "m1": "19.5",
+        "m2": "29.8"
+      }
+    ]
+  }
+}

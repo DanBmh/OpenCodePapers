@@ -1,0 +1,107 @@
+{
+  "title": "semantic-segmentation-on-foodseg103",
+  "task-hierarchy": [
+    "Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://xiongweiwu.github.io/foodseg103.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "FoodSAM: Any Food Segmentation",
+          "link": "https://arxiv.org/abs/2308.05938v1"
+        },
+        "c": "https://github.com/jamesjg/foodsam",
+        "n": "FoodSAM",
+        "d": "2023-08-11",
+        "m1": "46.4"
+      },
+      {
+        "p": {
+          "name": "Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective with Transformers",
+          "link": "https://arxiv.org/abs/2012.15840v3"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
+        "n": "SeTR-MLA (ViT-16/B)",
+        "d": "2020-12-31",
+        "m1": "45.1"
+      },
+      {
+        "p": {
+          "name": "A Large-Scale Benchmark for Food Image Segmentation",
+          "link": "https://arxiv.org/abs/2105.05409v1"
+        },
+        "c": "https://github.com/LARC-CMU-SMU/FoodSeg103-Benchmark-v1",
+        "n": "SeTR-Naive (ReLeM-ViT-16/B)",
+        "d": "2021-05-12",
+        "m1": "43.9"
+      },
+      {
+        "p": {
+          "name": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+          "link": "https://arxiv.org/abs/2103.14030v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Swin-Transformer (Swin-Small)",
+        "d": "2021-03-25",
+        "m1": "41.6"
+      },
+      {
+        "p": {
+          "name": "Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective with Transformers",
+          "link": "https://arxiv.org/abs/2012.15840v3"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
+        "n": "SeTR-Naive (ViT-16/B)",
+        "d": "2020-12-31",
+        "m1": "41.3"
+      },
+      {
+        "p": {
+          "name": "A Large-Scale Benchmark for Food Image Segmentation",
+          "link": "https://arxiv.org/abs/2105.05409v1"
+        },
+        "c": "https://github.com/LARC-CMU-SMU/FoodSeg103-Benchmark-v1",
+        "n": "CCNet (ReLeM-ResNet-50)",
+        "d": "2021-05-12",
+        "m1": "36.8"
+      },
+      {
+        "p": {
+          "name": "CCNet: Criss-Cross Attention for Semantic Segmentation",
+          "link": "https://arxiv.org/abs/1811.11721v2"
+        },
+        "c": "https://github.com/open-mmlab/mmsegmentation",
+        "n": "CCNet (ResNet-50)",
+        "d": "2018-11-28",
+        "m1": "35.5"
+      }
+    ]
+  }
+}

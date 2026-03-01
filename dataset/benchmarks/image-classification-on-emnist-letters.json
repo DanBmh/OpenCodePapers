@@ -1,0 +1,147 @@
+{
+  "title": "image-classification-on-emnist-letters",
+  "task-hierarchy": [
+    "Image Classification"
+  ],
+  "dataset-info": {
+    "link": "https://www.nist.gov/itl/products-and-services/emnist-dataset"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "WaveMix: A Resource-efficient Neural Network for Image Analysis",
+          "link": "https://arxiv.org/abs/2205.14375v5"
+        },
+        "c": "https://github.com/pranavphoenix/WaveMix",
+        "n": "WaveMixLite-112/16",
+        "d": "2022-05-28",
+        "m1": "95.96"
+      },
+      {
+        "p": {
+          "name": "Regularizing cross entropy loss via minimum entropy and K-L divergence",
+          "link": "https://arxiv.org/abs/2501.13709v1"
+        },
+        "c": "https://github.com/rahmanoladi/minimum_entropy_project",
+        "n": "MIN-ENT + VGG-5",
+        "d": "2025-01-23",
+        "m1": "95.933"
+      },
+      {
+        "p": {
+          "name": "Regularizing cross entropy loss via minimum entropy and K-L divergence",
+          "link": "https://arxiv.org/abs/2501.13709v1"
+        },
+        "c": "https://github.com/rahmanoladi/minimum_entropy_project",
+        "n": "MIX-ENT + VGG-5",
+        "d": "2025-01-23",
+        "m1": "95.928"
+      },
+      {
+        "p": {
+          "name": "SpinalNet: Deep Neural Network with Gradual Input",
+          "link": "https://arxiv.org/abs/2007.03347v3"
+        },
+        "c": "https://github.com/dipuk0506/SpinalNet",
+        "n": "VGG-5(Spinal FC)",
+        "d": "2020-07-07",
+        "m1": "95.88"
+      },
+      {
+        "p": {
+          "name": "SpinalNet: Deep Neural Network with Gradual Input",
+          "link": "https://arxiv.org/abs/2007.03347v3"
+        },
+        "c": "https://github.com/dipuk0506/SpinalNet",
+        "n": "VGG-5",
+        "d": "2020-07-07",
+        "m1": "95.86"
+      },
+      {
+        "p": {
+          "name": "TextCaps : Handwritten Character Recognition with Very Small Datasets",
+          "link": "http://arxiv.org/abs/1904.08095v1"
+        },
+        "c": "https://github.com/vinojjayasundara/textcaps",
+        "n": "TextCaps",
+        "d": "2019-04-17",
+        "m1": "95.39"
+      },
+      {
+        "p": {
+          "name": "A Continual Development Methodology for Large-scale Multitask Dynamic ML Systems",
+          "link": "https://arxiv.org/abs/2209.07326v3"
+        },
+        "c": "https://github.com/google-research/google-research/tree/master/muNet",
+        "n": "µ2Net+ (ViT-L/16)",
+        "d": "2022-09-15",
+        "m1": "95.03"
+      },
+      {
+        "p": {
+          "name": "Efficient Neural Vision Systems Based on Convolutional Image Acquisition",
+          "link": "http://openaccess.thecvf.com/content_CVPR_2020/html/Pad_Efficient_Neural_Vision_Systems_Based_on_Convolutional_Image_Acquisition_CVPR_2020_paper.html"
+        },
+        "c": "",
+        "n": "OptConv+Log+Perc",
+        "d": "2020-06-01",
+        "m1": "93.65"
+      },
+      {
+        "p": {
+          "name": "Handwritten digit and letter recognition using hybrid dwt-dct with knn and svm classifier",
+          "link": "https://ieeexplore.ieee.org/abstract/document/8697684"
+        },
+        "c": "",
+        "n": "DWT-DCT + SVM",
+        "d": "2018-08-18",
+        "m1": "89.51"
+      },
+      {
+        "p": {
+          "name": "EMNIST: an extension of MNIST to handwritten letters",
+          "link": "http://arxiv.org/abs/1702.05373v2"
+        },
+        "c": "https://github.com/Chizuchizu/amplify-hackathon",
+        "n": "OPIUM Classifier",
+        "d": "2017-02-17",
+        "m1": "85.27"
+      },
+      {
+        "p": {
+          "name": "EMNIST: an extension of MNIST to handwritten letters",
+          "link": "http://arxiv.org/abs/1702.05373v2"
+        },
+        "c": "https://github.com/Chizuchizu/amplify-hackathon",
+        "n": "Linear Classifier",
+        "d": "2017-02-17",
+        "m1": "55.78"
+      }
+    ]
+  }
+}

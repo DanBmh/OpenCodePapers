@@ -1,0 +1,112 @@
+{
+  "title": "explanation-generation-on-whoops",
+  "task-hierarchy": [
+    "Explanation Generation"
+  ],
+  "dataset-info": {
+    "link": "https://whoops-benchmark.github.io/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Human (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Breaking Common Sense: WHOOPS! A Vision-and-Language Benchmark of Synthetic and Compositional Images",
+          "link": "https://arxiv.org/abs/2303.07274v4"
+        },
+        "c": "",
+        "n": "Ground-truth Caption -> GPT3 (Oracle)",
+        "d": "2023-03-13",
+        "m1": "68"
+      },
+      {
+        "p": {
+          "name": "Breaking Common Sense: WHOOPS! A Vision-and-Language Benchmark of Synthetic and Compositional Images",
+          "link": "https://arxiv.org/abs/2303.07274v4"
+        },
+        "c": "",
+        "n": "Predicted Caption -> GPT3",
+        "d": "2023-03-13",
+        "m1": "33"
+      },
+      {
+        "p": {
+          "name": "Breaking Common Sense: WHOOPS! A Vision-and-Language Benchmark of Synthetic and Compositional Images",
+          "link": "https://arxiv.org/abs/2303.07274v4"
+        },
+        "c": "",
+        "n": "BLIP2 FlanT5-XXL (Fine-tuned)",
+        "d": "2023-03-13",
+        "m1": "27"
+      },
+      {
+        "p": {
+          "name": "Breaking Common Sense: WHOOPS! A Vision-and-Language Benchmark of Synthetic and Compositional Images",
+          "link": "https://arxiv.org/abs/2303.07274v4"
+        },
+        "c": "",
+        "n": "BLIP2 FlanT5-XL (Fine-tuned)",
+        "d": "2023-03-13",
+        "m1": "15"
+      },
+      {
+        "p": {
+          "name": "Breaking Common Sense: WHOOPS! A Vision-and-Language Benchmark of Synthetic and Compositional Images",
+          "link": "https://arxiv.org/abs/2303.07274v4"
+        },
+        "c": "",
+        "n": "BLIP2 FlanT5-XXL (Zero-shot)",
+        "d": "2023-03-13",
+        "m1": "0"
+      },
+      {
+        "p": {
+          "name": "VLIS: Unimodal Language Models Guide Multimodal Language Generation",
+          "link": "https://arxiv.org/abs/2310.09767v2"
+        },
+        "c": "https://github.com/jiwanchung/vlis",
+        "n": "VLIS (Lynx)",
+        "d": "2023-10-15",
+        "m2": "80"
+      },
+      {
+        "p": {
+          "name": "VLIS: Unimodal Language Models Guide Multimodal Language Generation",
+          "link": "https://arxiv.org/abs/2310.09767v2"
+        },
+        "c": "https://github.com/jiwanchung/vlis",
+        "n": "VLIS (LLaVA)",
+        "d": "2023-10-15",
+        "m2": "73"
+      }
+    ]
+  }
+}

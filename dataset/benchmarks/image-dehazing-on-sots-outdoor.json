@@ -1,0 +1,382 @@
+{
+  "title": "image-dehazing-on-sots-outdoor",
+  "task-hierarchy": [
+    "Image Dehazing"
+  ],
+  "dataset-info": {
+    "link": "https://sites.google.com/view/reside-dehaze-datasets/reside-standard?authuser=3D0"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Exploring the potential of channel interactions for image restoration",
+          "link": "https://www.sciencedirect.com/science/article/abs/pii/S0950705123009061"
+        },
+        "c": "https://github.com/c-yn/ChaIR",
+        "n": "ChaIR",
+        "d": "2023-12-20",
+        "m1": "40.73",
+        "m2": "0.997"
+      },
+      {
+        "p": {
+          "name": "Image Restoration via Frequency Selection",
+          "link": "https://ieeexplore.ieee.org/document/10310164"
+        },
+        "c": "https://github.com/c-yn/FSNet",
+        "n": "FSNet",
+        "d": "2023-11-06",
+        "m1": "40.40",
+        "m2": "0.997"
+      },
+      {
+        "p": {
+          "name": "Selective Frequency Network for Image Restoration",
+          "link": "https://openreview.net/forum?id=tyZ1ChGZIKO"
+        },
+        "c": "https://github.com/c-yn/SFNet",
+        "n": "SFNet",
+        "d": "2023-04-13",
+        "m1": "40.05",
+        "m2": "0.996"
+      },
+      {
+        "p": {
+          "name": "Instruct-IPT: All-in-One Image Processing Transformer via Weight Modulation",
+          "link": "https://arxiv.org/abs/2407.00676v2"
+        },
+        "c": "https://github.com/huawei-noah/Pretrained-IPT",
+        "n": "Instruct-IPT",
+        "d": "2024-06-30",
+        "m1": "39.95",
+        "m2": "0.992"
+      },
+      {
+        "p": {
+          "name": "Revitalizing Convolutional Network for Image Restoration",
+          "link": "https://ieeexplore.ieee.org/abstract/document/10571568"
+        },
+        "c": "https://github.com/c-yn/ConvIR",
+        "n": "ConvIR",
+        "d": "2024-06-25",
+        "m1": "39.42",
+        "m2": "0.996"
+      },
+      {
+        "p": {
+          "name": "IRNeXt: Rethinking Convolutional Network Design for Image Restoration",
+          "link": "https://openreview.net/forum?id=MZkbgahv4a"
+        },
+        "c": "https://github.com/c-yn/IRNeXt",
+        "n": "IRNeXt",
+        "d": "2023-04-24",
+        "m1": "39.18",
+        "m2": "0.996"
+      },
+      {
+        "p": {
+          "name": "CasDyF-Net: Image Dehazing via Cascaded Dynamic Filters",
+          "link": "https://arxiv.org/abs/2409.08510v1"
+        },
+        "c": "https://github.com/dauing/casdyf-net",
+        "n": "CasDyF-Net",
+        "d": "2024-09-13",
+        "m1": "38.86",
+        "m2": "0.995"
+      },
+      {
+        "p": {
+          "name": "Dual-domain strip attention for image restoration",
+          "link": "https://www.sciencedirect.com/science/article/pii/S0893608023006974"
+        },
+        "c": "https://github.com/c-yn/DSANet",
+        "n": "DSANet",
+        "d": "2024-03-01",
+        "m1": "38.39",
+        "m2": "0.995"
+      },
+      {
+        "p": {
+          "name": "Strip Attention for Image Restoration",
+          "link": "https://www.ijcai.org/proceedings/2023/72"
+        },
+        "c": "https://github.com/c-yn/SANet",
+        "n": "SANet",
+        "d": "2023-08-01",
+        "m1": "38.01",
+        "m2": "0.995"
+      },
+      {
+        "p": {
+          "name": "SAD-Net: a full spectral self-attention detail enhancement network for single image dehazing",
+          "link": "https://www.nature.com/articles/s41598-025-92061-1"
+        },
+        "c": "https://github.com/niuqj/SAD-Net",
+        "n": "SAD-Net",
+        "d": "2025-04-07",
+        "m1": "37.78",
+        "m2": "0.990"
+      },
+      {
+        "p": {
+          "name": "Focal Network for Image Restoration",
+          "link": "http://openaccess.thecvf.com//content/ICCV2023/html/Cui_Focal_Network_for_Image_Restoration_ICCV_2023_paper.html"
+        },
+        "c": "https://github.com/c-yn/focalnet",
+        "n": "FocalNet",
+        "d": "2023-01-01",
+        "m1": "37.71",
+        "m2": "0.995"
+      },
+      {
+        "p": {
+          "name": "Omni-Kernel Network for Image Restoration",
+          "link": "https://ojs.aaai.org/index.php/AAAI/article/view/27907"
+        },
+        "c": "https://github.com/c-yn/OKNet",
+        "n": "OKNet",
+        "d": "2024-03-24",
+        "m1": "37.68",
+        "m2": "0.995"
+      },
+      {
+        "p": {
+          "name": "MaIR: A Locality- and Continuity-Preserving Mamba for Image Restoration",
+          "link": "https://arxiv.org/abs/2412.20066v1"
+        },
+        "c": "https://github.com/XLearning-SCU/2025-CVPR-MaIR",
+        "n": "MaIR",
+        "d": "2024-12-28",
+        "m1": "36.96",
+        "m2": "0.991"
+      },
+      {
+        "p": {
+          "name": "Curricular Contrastive Regularization for Physics-aware Single Image Dehazing",
+          "link": "https://arxiv.org/abs/2303.14218v2"
+        },
+        "c": "https://github.com/yuzheng9/c2pnet",
+        "n": "C2PNet",
+        "d": "2023-03-24",
+        "m1": "36.68",
+        "m2": "0.99"
+      },
+      {
+        "p": {
+          "name": "Rethinking Performance Gains in Image Dehazing Networks",
+          "link": "https://arxiv.org/abs/2209.11448v1"
+        },
+        "c": "https://github.com/idkiro/gunet",
+        "n": "gUNet-D",
+        "d": "2022-09-23",
+        "m1": "36.64",
+        "m2": "0.986"
+      },
+      {
+        "p": {
+          "name": "DEA-Net: Single image dehazing based on detail-enhanced convolution and content-guided attention",
+          "link": "https://arxiv.org/abs/2301.04805v1"
+        },
+        "c": "https://github.com/cecret3350/DEA-Net",
+        "n": "DEA-Net-CR",
+        "d": "2023-01-12",
+        "m1": "36.59",
+        "m2": "0.9897"
+      },
+      {
+        "p": {
+          "name": "MixDehazeNet : Mix Structure Block For Image Dehazing Network",
+          "link": "https://arxiv.org/abs/2305.17654v1"
+        },
+        "c": "https://github.com/ameryxiong/mixdehazenet",
+        "n": "MixDehazeNet",
+        "d": "2023-05-28",
+        "m1": "36.50",
+        "m2": "0.986"
+      },
+      {
+        "p": {
+          "name": "OneRestore: A Universal Restoration Framework for Composite Degradation",
+          "link": "https://arxiv.org/abs/2407.04621v4"
+        },
+        "c": "https://github.com/gy65896/onerestore",
+        "n": "OneRestore",
+        "d": "2024-07-05",
+        "m1": "35.58",
+        "m2": "0.9814"
+      },
+      {
+        "p": {
+          "name": "Vision Transformers for Single Image Dehazing",
+          "link": "https://arxiv.org/abs/2204.03883v1"
+        },
+        "c": "https://github.com/IDKiro/DehazeFormer",
+        "n": "DehazeFormer-B",
+        "d": "2022-04-08",
+        "m1": "34.95",
+        "m2": "0.984"
+      },
+      {
+        "p": {
+          "name": "MAXIM: Multi-Axis MLP for Image Processing",
+          "link": "https://arxiv.org/abs/2201.02973v2"
+        },
+        "c": "https://github.com/google-research/maxim",
+        "n": "MAXIM-2S",
+        "d": "2022-01-09",
+        "m1": "34.19"
+      },
+      {
+        "p": {
+          "name": "FFA-Net: Feature Fusion Attention Network for Single Image Dehazing",
+          "link": "https://arxiv.org/abs/1911.07559v2"
+        },
+        "c": "https://github.com/zhilin007/FFA-Net",
+        "n": "FFA-Net",
+        "d": "2019-11-18",
+        "m1": "33.57",
+        "m2": "0.9804"
+      },
+      {
+        "p": {
+          "name": "U2-Former: A Nested U-shaped Transformer for Image Restoration",
+          "link": "https://arxiv.org/abs/2112.02279v2"
+        },
+        "c": "",
+        "n": "U2-Former",
+        "d": "2021-12-04",
+        "m1": "31.10",
+        "m2": "0.976"
+      },
+      {
+        "p": {
+          "name": "GridDehazeNet: Attention-Based Multi-Scale Network for Image Dehazing",
+          "link": "https://arxiv.org/abs/1908.03245v1"
+        },
+        "c": "https://github.com/proteus1991/GridDehazeNet",
+        "n": "GridDehazeNet",
+        "d": "2019-08-08",
+        "m1": "30.86",
+        "m2": "0.982"
+      },
+      {
+        "p": {
+          "name": "Generic Model-Agnostic Convolutional Neural Network for Single Image Dehazing",
+          "link": "https://arxiv.org/abs/1810.02862v2"
+        },
+        "c": "https://github.com/Seanforfun/GMAN_Net_Haze_Removal",
+        "n": "GMAN",
+        "d": "2018-10-05",
+        "m1": "28.19",
+        "m2": "0.9638"
+      },
+      {
+        "p": {
+          "name": "Uformer: A General U-Shaped Transformer for Image Restoration",
+          "link": "https://arxiv.org/abs/2106.03106v2"
+        },
+        "c": "https://github.com/ZhendongWang6/Uformer",
+        "n": "Uformer",
+        "d": "2021-06-06",
+        "m1": "26.52",
+        "m2": "0.945"
+      },
+      {
+        "p": {
+          "name": "An ensemble multi-scale residual attention network (EMRA-net) for image Dehazing",
+          "link": "https://link.springer.com/article/10.1007/s11042-021-11081-x"
+        },
+        "c": "https://github.com/Maverick-3/EMRA-Net",
+        "n": "EMRA-Net",
+        "d": "2021-06-23",
+        "m1": "25.81",
+        "m2": "0.9409"
+      },
+      {
+        "p": {
+          "name": "AOD-Net: All-In-One Dehazing Network",
+          "link": "http://openaccess.thecvf.com/content_iccv_2017/html/Li_AOD-Net_All-In-One_Dehazing_ICCV_2017_paper.html"
+        },
+        "c": "https://github.com/kritiksoman/GIMP-ML",
+        "n": "AOD-Net",
+        "d": "2017-10-01",
+        "m1": "24.14",
+        "m2": "0.920"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Single Image Dehazing Using Dark Channel Prior Loss",
+          "link": "https://arxiv.org/abs/1812.07051v2"
+        },
+        "c": "https://github.com/AlonaGolts/Deep_Energy",
+        "n": "Deep DCP",
+        "d": "2018-12-06",
+        "m1": "24.08",
+        "m2": "0.933"
+      },
+      {
+        "p": {
+          "name": "Deep-Energy: Unsupervised Training of Deep Neural Networks",
+          "link": "https://arxiv.org/abs/1805.12355v2"
+        },
+        "c": "https://github.com/AlonaGolts/Deep_Energy",
+        "n": "Deep Energy (Network)",
+        "d": "2018-05-31",
+        "m1": "24.07",
+        "m2": "0.933"
+      },
+      {
+        "p": {
+          "name": "Enhanced Pix2pix Dehazing Network",
+          "link": "http://openaccess.thecvf.com/content_CVPR_2019/html/Qu_Enhanced_Pix2pix_Dehazing_Network_CVPR_2019_paper.html"
+        },
+        "c": "https://github.com/ErinChen1/EPDN",
+        "n": "EPDN",
+        "d": "2019-06-01",
+        "m1": "22.57",
+        "m2": "0.8630"
+      },
+      {
+        "p": {
+          "name": "Gated Fusion Network for Single Image Dehazing",
+          "link": "http://arxiv.org/abs/1804.00213v1"
+        },
+        "c": "",
+        "n": "GFN",
+        "d": "2018-03-31",
+        "m1": "22.30",
+        "m2": "0.880"
+      }
+    ]
+  }
+}

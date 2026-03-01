@@ -1,0 +1,67 @@
+{
+  "title": "change-detection-on-egy-bcd",
+  "task-hierarchy": [
+    "Change Detection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/oshholail/EGY-BCD"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MTP: Advancing Remote Sensing Foundation Model via Multi-Task Pretraining",
+          "link": "https://arxiv.org/abs/2403.13430v2"
+        },
+        "c": "https://github.com/vitae-transformer/mtp",
+        "n": "MTP (VIT-B+RVSA)",
+        "d": "2024-03-20",
+        "m1": "85.9"
+      },
+      {
+        "p": {
+          "name": "Be the Change You Want to See: Revisiting Remote Sensing Change Detection Practices",
+          "link": "https://arxiv.org/abs/2507.03367"
+        },
+        "c": "https://github.com/blaz-r/BTC-change-detection",
+        "n": "BTC",
+        "d": "2025-07-04",
+        "m1": "85.6"
+      },
+      {
+        "p": {
+          "name": "Fully Convolutional Siamese Networks for Change Detection",
+          "link": "http://arxiv.org/abs/1810.08462v1"
+        },
+        "c": "https://github.com/likyoo/open-cd",
+        "n": "FC-Siam-diff",
+        "d": "2018-10-19",
+        "m1": "42.3"
+      }
+    ]
+  }
+}

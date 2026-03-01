@@ -1,0 +1,639 @@
+{
+  "title": "question-answering-on-squad11-dev",
+  "task-hierarchy": [
+    "Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://rajpurkar.github.io/SQuAD-explorer/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "EM",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+          "link": "https://arxiv.org/abs/1910.10683v4"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "T5-11B",
+        "d": "2019-10-23",
+        "m1": "90.06",
+        "m2": "95.64"
+      },
+      {
+        "p": {
+          "name": "LUKE: Deep Contextualized Entity Representations with Entity-aware Self-attention",
+          "link": "https://arxiv.org/abs/2010.01057v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LUKE",
+        "d": "2020-10-02",
+        "m1": "89.8"
+      },
+      {
+        "p": {
+          "name": "Dice Loss for Data-imbalanced NLP Tasks",
+          "link": "https://arxiv.org/abs/1911.02855v3"
+        },
+        "c": "https://github.com/ShannonAI/dice_loss_for_NLP",
+        "n": "XLNet+DSC",
+        "d": "2019-11-07",
+        "m1": "89.79",
+        "m2": "95.77"
+      },
+      {
+        "p": {
+          "name": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+          "link": "https://arxiv.org/abs/1906.08237v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "XLNet (single model)",
+        "d": "2019-06-19",
+        "m1": "89.7",
+        "m2": "95.1"
+      },
+      {
+        "p": {
+          "name": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+          "link": "https://arxiv.org/abs/1910.10683v4"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "T5-3B",
+        "d": "2019-10-23",
+        "m1": "88.53",
+        "m2": "94.95"
+      },
+      {
+        "p": {
+          "name": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+          "link": "https://arxiv.org/abs/1910.10683v4"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "T5-Large 770M",
+        "d": "2019-10-23",
+        "m1": "86.66",
+        "m2": "93.79"
+      },
+      {
+        "p": {
+          "name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "link": "https://arxiv.org/abs/1810.04805v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "BERT-LARGE (Ensemble+TriviaQA)",
+        "d": "2018-10-11",
+        "m1": "86.2",
+        "m2": "92.2"
+      },
+      {
+        "p": {
+          "name": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+          "link": "https://arxiv.org/abs/1910.10683v4"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "T5-Base",
+        "d": "2019-10-23",
+        "m1": "85.44",
+        "m2": "92.08"
+      },
+      {
+        "p": {
+          "name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "link": "https://arxiv.org/abs/1810.04805v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "BERT-LARGE (Single+TriviaQA)",
+        "d": "2018-10-11",
+        "m1": "84.2",
+        "m2": "91.1"
+      },
+      {
+        "p": {
+          "name": "Prune Once for All: Sparse Pre-Trained Language Models",
+          "link": "https://arxiv.org/abs/2111.05754v1"
+        },
+        "c": "https://github.com/intel/intel-extension-for-transformers",
+        "n": "BERT-Large-uncased-PruneOFA (90% unstruct sparse)",
+        "d": "2021-11-10",
+        "m1": "83.35",
+        "m2": "90.2"
+      },
+      {
+        "p": {
+          "name": "Prune Once for All: Sparse Pre-Trained Language Models",
+          "link": "https://arxiv.org/abs/2111.05754v1"
+        },
+        "c": "https://github.com/intel/intel-extension-for-transformers",
+        "n": "BERT-Large-uncased-PruneOFA (90% unstruct sparse, QAT Int8)",
+        "d": "2021-11-10",
+        "m1": "83.22",
+        "m2": "90.02"
+      },
+      {
+        "p": {
+          "name": "Prune Once for All: Sparse Pre-Trained Language Models",
+          "link": "https://arxiv.org/abs/2111.05754v1"
+        },
+        "c": "https://github.com/intel/intel-extension-for-transformers",
+        "n": "BERT-Base-uncased-PruneOFA (85% unstruct sparse)",
+        "d": "2021-11-10",
+        "m1": "81.1",
+        "m2": "88.42"
+      },
+      {
+        "p": {
+          "name": "Prune Once for All: Sparse Pre-Trained Language Models",
+          "link": "https://arxiv.org/abs/2111.05754v1"
+        },
+        "c": "https://github.com/intel/intel-extension-for-transformers",
+        "n": "BERT-Base-uncased-PruneOFA (85% unstruct sparse, QAT Int8)",
+        "d": "2021-11-10",
+        "m1": "80.84",
+        "m2": "88.24"
+      },
+      {
+        "p": {
+          "name": "Prune Once for All: Sparse Pre-Trained Language Models",
+          "link": "https://arxiv.org/abs/2111.05754v1"
+        },
+        "c": "https://github.com/intel/intel-extension-for-transformers",
+        "n": "BERT-Base-uncased-PruneOFA (90% unstruct sparse)",
+        "d": "2021-11-10",
+        "m1": "79.83",
+        "m2": "87.25"
+      },
+      {
+        "p": {
+          "name": "TinyBERT: Distilling BERT for Natural Language Understanding",
+          "link": "https://arxiv.org/abs/1909.10351v5"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleNLP/tree/develop/paddlenlp/transformers/tinybert",
+        "n": "TinyBERT-6 67M",
+        "d": "2019-09-23",
+        "m1": "79.7",
+        "m2": "87.5"
+      },
+      {
+        "p": {
+          "name": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+          "link": "https://arxiv.org/abs/1910.10683v4"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "T5-Small",
+        "d": "2019-10-23",
+        "m1": "79.1",
+        "m2": "87.24"
+      },
+      {
+        "p": {
+          "name": "Reinforced Mnemonic Reader for Machine Reading Comprehension",
+          "link": "http://arxiv.org/abs/1705.02798v6"
+        },
+        "c": "https://github.com/HKUST-KnowComp/MnemonicReader",
+        "n": "R.M-Reader (single)",
+        "d": "2017-05-08",
+        "m1": "78.9",
+        "m2": " 86.3"
+      },
+      {
+        "p": {
+          "name": "Learning Dense Representations of Phrases at Scale",
+          "link": "https://arxiv.org/abs/2012.12624v3"
+        },
+        "c": "https://github.com/princeton-nlp/SimCSE",
+        "n": "DensePhrases",
+        "d": "2020-12-23",
+        "m1": "78.3",
+        "m2": "86.3"
+      },
+      {
+        "p": {
+          "name": "Prune Once for All: Sparse Pre-Trained Language Models",
+          "link": "https://arxiv.org/abs/2111.05754v1"
+        },
+        "c": "https://github.com/intel/intel-extension-for-transformers",
+        "n": "DistilBERT-uncased-PruneOFA (85% unstruct sparse)",
+        "d": "2021-11-10",
+        "m1": "78.1",
+        "m2": "85.82"
+      },
+      {
+        "p": {
+          "name": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+          "link": "https://arxiv.org/abs/1910.01108v4"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "DistilBERT",
+        "d": "2019-10-02",
+        "m1": "77.7"
+      },
+      {
+        "p": {
+          "name": "Prune Once for All: Sparse Pre-Trained Language Models",
+          "link": "https://arxiv.org/abs/2111.05754v1"
+        },
+        "c": "https://github.com/intel/intel-extension-for-transformers",
+        "n": "DistilBERT-uncased-PruneOFA (85% unstruct sparse, QAT Int8)",
+        "d": "2021-11-10",
+        "m1": "77.03",
+        "m2": "85.13"
+      },
+      {
+        "p": {
+          "name": "Prune Once for All: Sparse Pre-Trained Language Models",
+          "link": "https://arxiv.org/abs/2111.05754v1"
+        },
+        "c": "https://github.com/intel/intel-extension-for-transformers",
+        "n": "DistilBERT-uncased-PruneOFA (90% unstruct sparse)",
+        "d": "2021-11-10",
+        "m1": "76.91",
+        "m2": "84.82"
+      },
+      {
+        "p": {
+          "name": "Explicit Utilization of General Knowledge in Machine Reading Comprehension",
+          "link": "https://arxiv.org/abs/1809.03449v3"
+        },
+        "c": "",
+        "n": "KAR",
+        "d": "2018-09-10",
+        "m1": "76.7",
+        "m2": "84.9 "
+      },
+      {
+        "p": {
+          "name": "Stochastic Answer Networks for Machine Reading Comprehension",
+          "link": "http://arxiv.org/abs/1712.03556v2"
+        },
+        "c": "https://github.com/kevinduh/san_mrc",
+        "n": "SAN (single)",
+        "d": "2017-12-10",
+        "m1": "76.235",
+        "m2": "84.056"
+      },
+      {
+        "p": {
+          "name": "Prune Once for All: Sparse Pre-Trained Language Models",
+          "link": "https://arxiv.org/abs/2111.05754v1"
+        },
+        "c": "https://github.com/intel/intel-extension-for-transformers",
+        "n": "DistilBERT-uncased-PruneOFA (90% unstruct sparse, QAT Int8)",
+        "d": "2021-11-10",
+        "m1": "75.62",
+        "m2": "83.87"
+      },
+      {
+        "p": {
+          "name": "FusionNet: Fusing via Fully-Aware Attention with Application to Machine Comprehension",
+          "link": "http://arxiv.org/abs/1711.07341v2"
+        },
+        "c": "https://github.com/momohuang/FusionNet-NLI",
+        "n": "FusionNet",
+        "d": "2017-11-16",
+        "m1": "75.3",
+        "m2": "83.6"
+      },
+      {
+        "p": {
+          "name": "QANet: Combining Local Convolution with Global Self-Attention for Reading Comprehension",
+          "link": "http://arxiv.org/abs/1804.09541v1"
+        },
+        "c": "https://github.com/BangLiu/QANet-PyTorch",
+        "n": "QANet (data aug x3)",
+        "d": "2018-04-23",
+        "m1": "75.1",
+        "m2": "83.8"
+      },
+      {
+        "p": {
+          "name": "QANet: Combining Local Convolution with Global Self-Attention for Reading Comprehension",
+          "link": "http://arxiv.org/abs/1804.09541v1"
+        },
+        "c": "https://github.com/BangLiu/QANet-PyTorch",
+        "n": "QANet (data aug x2)",
+        "d": "2018-04-23",
+        "m1": "74.5",
+        "m2": "83.2"
+      },
+      {
+        "p": {
+          "name": "DCN+: Mixed Objective and Deep Residual Coattention for Question Answering",
+          "link": "http://arxiv.org/abs/1711.00106v2"
+        },
+        "c": "https://github.com/lmn-extracts/dcn_plus",
+        "n": "DCN+ (single)",
+        "d": "2017-10-31",
+        "m1": "74.5",
+        "m2": "83.1"
+      },
+      {
+        "p": {
+          "name": "QANet: Combining Local Convolution with Global Self-Attention for Reading Comprehension",
+          "link": "http://arxiv.org/abs/1804.09541v1"
+        },
+        "c": "https://github.com/BangLiu/QANet-PyTorch",
+        "n": "QANet",
+        "d": "2018-04-23",
+        "m1": "73.6",
+        "m2": "82.7"
+      },
+      {
+        "p": {
+          "name": "Phase Conductor on Multi-layered Attentions for Machine Comprehension",
+          "link": "http://arxiv.org/abs/1710.10504v2"
+        },
+        "c": "",
+        "n": "PhaseCond (single)",
+        "d": "2017-10-28",
+        "m1": "72.1",
+        "m2": "81.4"
+      },
+      {
+        "p": {
+          "name": "Simple Recurrent Units for Highly Parallelizable Recurrence",
+          "link": "http://arxiv.org/abs/1709.02755v5"
+        },
+        "c": "https://github.com/aymericdamien/TopDeepLearning",
+        "n": "SRU",
+        "d": "2017-09-08",
+        "m1": "71.4",
+        "m2": "80.2"
+      },
+      {
+        "p": {
+          "name": "Smarnet: Teaching Machines to Read and Comprehend Like Human",
+          "link": "http://arxiv.org/abs/1710.02772v1"
+        },
+        "c": "",
+        "n": "Smarnet",
+        "d": "2017-10-08",
+        "m1": "71.362",
+        "m2": "80.183"
+      },
+      {
+        "p": {
+          "name": "Learned in Translation: Contextualized Word Vectors",
+          "link": "http://arxiv.org/abs/1708.00107v2"
+        },
+        "c": "https://github.com/salesforce/cove",
+        "n": "DCN (Char + CoVe)",
+        "d": "2017-08-01",
+        "m1": "71.3",
+        "m2": "79.9"
+      },
+      {
+        "p": {
+          "name": "Gated Self-Matching Networks for Reading Comprehension and Question Answering",
+          "link": "https://aclanthology.org/P17-1018"
+        },
+        "c": "",
+        "n": "R-NET (single)",
+        "d": "2017-07-01",
+        "m1": "71.1",
+        "m2": "79.5"
+      },
+      {
+        "p": {
+          "name": "Ruminating Reader: Reasoning with Gated Multi-Hop Attention",
+          "link": "http://arxiv.org/abs/1704.07415v1"
+        },
+        "c": "",
+        "n": "Ruminating Reader",
+        "d": "2017-04-24",
+        "m1": "70.6",
+        "m2": "79.5"
+      },
+      {
+        "p": {
+          "name": "Making Neural QA as Simple as Possible but not Simpler",
+          "link": "http://arxiv.org/abs/1703.04816v3"
+        },
+        "c": "https://github.com/uclmr/jack",
+        "n": "FastQAExt (beam-size 5)",
+        "d": "2017-03-14",
+        "m1": "70.3",
+        "m2": "78.5"
+      },
+      {
+        "p": {
+          "name": "Reading Wikipedia to Answer Open-Domain Questions",
+          "link": "http://arxiv.org/abs/1704.00051v2"
+        },
+        "c": "https://github.com/facebookresearch/ParlAI",
+        "n": "DrQA (Document Reader only)",
+        "d": "2017-03-31",
+        "m1": "69.5",
+        "m2": "78.8"
+      },
+      {
+        "p": {
+          "name": "Exploring Question Understanding and Adaptation in Neural-Network-Based Question Answering",
+          "link": "http://arxiv.org/abs/1703.04617v2"
+        },
+        "c": "",
+        "n": "jNet (TreeLSTM adaptation, QTLa, K=100)",
+        "d": "2017-03-14",
+        "m1": "69.10",
+        "m2": "78.38"
+      },
+      {
+        "p": {
+          "name": "Structural Embedding of Syntactic Trees for Machine Comprehension",
+          "link": "http://arxiv.org/abs/1703.00572v3"
+        },
+        "c": "",
+        "n": "SEDT-LSTM",
+        "d": "2017-03-02",
+        "m1": " 67.89",
+        "m2": " 77.42 "
+      },
+      {
+        "p": {
+          "name": "Bidirectional Attention Flow for Machine Comprehension",
+          "link": "http://arxiv.org/abs/1611.01603v6"
+        },
+        "c": "https://github.com/allenai/bi-att-flow",
+        "n": "BIDAF (single)",
+        "d": "2016-11-05",
+        "m1": " 67.7",
+        "m2": "77.3"
+      },
+      {
+        "p": {
+          "name": "Structural Embedding of Syntactic Trees for Machine Comprehension",
+          "link": "http://arxiv.org/abs/1703.00572v3"
+        },
+        "c": "",
+        "n": "SECT-LSTM",
+        "d": "2017-03-02",
+        "m1": "67.65",
+        "m2": "77.19"
+      },
+      {
+        "p": {
+          "name": "Learning Recurrent Span Representations for Extractive Question Answering",
+          "link": "http://arxiv.org/abs/1611.01436v2"
+        },
+        "c": "https://github.com/shimisalant/RaSoR",
+        "n": "RASOR",
+        "d": "2016-11-04",
+        "m1": "66.4",
+        "m2": "74.9"
+      },
+      {
+        "p": {
+          "name": "Multi-Perspective Context Matching for Machine Comprehension",
+          "link": "http://arxiv.org/abs/1612.04211v1"
+        },
+        "c": "https://github.com/bloomsburyai/question-generation",
+        "n": "MPCM",
+        "d": "2016-12-13",
+        "m1": "66.1",
+        "m2": "75.8"
+      },
+      {
+        "p": {
+          "name": "Dynamic Coattention Networks For Question Answering",
+          "link": "http://arxiv.org/abs/1611.01604v4"
+        },
+        "c": "https://github.com/lmn-extracts/dcn_plus",
+        "n": "DCN",
+        "d": "2016-11-05",
+        "m1": "65.4",
+        "m2": "75.6"
+      },
+      {
+        "p": {
+          "name": "A Fully Attention-Based Information Retriever",
+          "link": "http://arxiv.org/abs/1810.09580v1"
+        },
+        "c": "https://github.com/AlCorreia/FABIR",
+        "n": "FABIR",
+        "d": "2018-10-22",
+        "m1": "65.1",
+        "m2": "75.6"
+      },
+      {
+        "p": {
+          "name": "Machine Comprehension Using Match-LSTM and Answer Pointer",
+          "link": "http://arxiv.org/abs/1608.07905v2"
+        },
+        "c": "https://github.com/baidu/DuReader",
+        "n": "Match-LSTM with Bi-Ans-Ptr (Boundary+Search+b) ",
+        "d": "2016-08-29",
+        "m1": "64.1",
+        "m2": " 64.7"
+      },
+      {
+        "p": {
+          "name": "Learning to Compute Word Embeddings On the Fly",
+          "link": "http://arxiv.org/abs/1706.00286v3"
+        },
+        "c": "",
+        "n": "OTF dict+spelling (single)",
+        "d": "2017-06-01",
+        "m1": "63.06"
+      },
+      {
+        "p": {
+          "name": "End-to-End Answer Chunk Extraction and Ranking for Reading Comprehension",
+          "link": "http://arxiv.org/abs/1610.09996v2"
+        },
+        "c": "",
+        "n": "DCR",
+        "d": "2016-10-31",
+        "m1": " 62.5",
+        "m2": "71.2"
+      },
+      {
+        "p": {
+          "name": "Words or Characters? Fine-grained Gating for Reading Comprehension",
+          "link": "http://arxiv.org/abs/1611.01724v2"
+        },
+        "c": "https://github.com/kimiyoung/fg-gating",
+        "n": "FG fine-grained gate",
+        "d": "2016-11-06",
+        "m1": "59.95",
+        "m2": "71.25"
+      },
+      {
+        "p": {
+          "name": "LUKE: Deep Contextualized Entity Representations with Entity-aware Self-attention",
+          "link": "https://arxiv.org/abs/2010.01057v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LUKE 483M",
+        "d": "2020-10-02",
+        "m2": "95"
+      },
+      {
+        "p": {
+          "name": "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+          "link": "https://arxiv.org/abs/1910.13461v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "BART Base (with text infilling)",
+        "d": "2019-10-29",
+        "m2": "90.8"
+      },
+      {
+        "p": {
+          "name": "Large Batch Optimization for Deep Learning: Training BERT in 76 minutes",
+          "link": "https://arxiv.org/abs/1904.00962v5"
+        },
+        "c": "https://github.com/huggingface/pytorch-image-models",
+        "n": "BERT large (LAMB optimizer)",
+        "d": "2019-04-01",
+        "m2": "90.584"
+      },
+      {
+        "p": {
+          "name": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+          "link": "https://arxiv.org/abs/1910.01108v4"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "DistilBERT 66M",
+        "d": "2019-10-02",
+        "m2": "85.8"
+      },
+      {
+        "p": {
+          "name": "Deep contextualized word representations",
+          "link": "http://arxiv.org/abs/1802.05365v2"
+        },
+        "c": "https://github.com/flairNLP/flair",
+        "n": "BiDAF + Self Attention + ELMo",
+        "d": "2018-02-15",
+        "m2": "85.6"
+      }
+    ]
+  }
+}

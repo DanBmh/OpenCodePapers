@@ -1,0 +1,204 @@
+{
+  "title": "named-entity-recognition-ner-on-jnlpba",
+  "task-hierarchy": [
+    "Named Entity Recognition (NER)"
+  ],
+  "dataset-info": {
+    "link": "http://www.geniaproject.org/shared-tasks/bionlp-jnlpba-shared-task-2004"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Improving Biomedical Pretrained Language Models with Knowledge",
+          "link": "https://arxiv.org/abs/2104.10344v1"
+        },
+        "c": "https://github.com/GanjinZero/KeBioLM",
+        "n": "KeBioLM",
+        "d": "2021-04-21",
+        "m1": "82.0"
+      },
+      {
+        "p": {
+          "name": "Biomedical Named Entity Recognition at Scale",
+          "link": "https://arxiv.org/abs/2011.06315v1"
+        },
+        "c": "https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/1.4.Biomedical_NER_SparkNLP_paper_reproduce.ipynb",
+        "n": "BLSTM-CNN-Char (SparkNLP)",
+        "d": "2020-11-12",
+        "m1": "81.29"
+      },
+      {
+        "p": {
+          "name": "Biomedical Named Entity Recognition at Scale",
+          "link": "https://arxiv.org/abs/2011.06315v1"
+        },
+        "c": "https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/1.4.Biomedical_NER_SparkNLP_paper_reproduce.ipynb",
+        "n": "Spark NLP",
+        "d": "2020-11-12",
+        "m1": "81.29"
+      },
+      {
+        "p": {
+          "name": "Optimizing Bi-Encoder for Named Entity Recognition via Contrastive Learning",
+          "link": "https://arxiv.org/abs/2208.14565v2"
+        },
+        "c": "https://github.com/microsoft/binder",
+        "n": "BINDER",
+        "d": "2022-08-30",
+        "m1": "80.3"
+      },
+      {
+        "p": {
+          "name": "On the Effectiveness of Compact Biomedical Transformers",
+          "link": "https://arxiv.org/abs/2209.03182v1"
+        },
+        "c": "https://github.com/nlpie-research/compact-biomedical-transformers",
+        "n": "BioMobileBERT",
+        "d": "2022-09-07",
+        "m1": "80.13"
+      },
+      {
+        "p": {
+          "name": "LinkBERT: Pretraining Language Models with Document Links",
+          "link": "https://arxiv.org/abs/2203.15827v1"
+        },
+        "c": "https://github.com/michiyasunaga/LinkBERT",
+        "n": "BioLinkBERT (large)",
+        "d": "2022-03-29",
+        "m1": "80.06"
+      },
+      {
+        "p": {
+          "name": "On the Effectiveness of Compact Biomedical Transformers",
+          "link": "https://arxiv.org/abs/2209.03182v1"
+        },
+        "c": "https://github.com/nlpie-research/compact-biomedical-transformers",
+        "n": "DistilBioBERT",
+        "d": "2022-09-07",
+        "m1": "79.97"
+      },
+      {
+        "p": {
+          "name": "On the Effectiveness of Compact Biomedical Transformers",
+          "link": "https://arxiv.org/abs/2209.03182v1"
+        },
+        "c": "https://github.com/nlpie-research/compact-biomedical-transformers",
+        "n": "CompactBioBERT",
+        "d": "2022-09-07",
+        "m1": "79.88"
+      },
+      {
+        "p": {
+          "name": "Domain-Specific Language Model Pretraining for Biomedical Natural Language Processing",
+          "link": "https://arxiv.org/abs/2007.15779v6"
+        },
+        "c": "https://github.com/bionlu-coling2024/biomed-ner-intent_detection",
+        "n": "PubMedBERT uncased",
+        "d": "2020-07-31",
+        "m1": "79.1"
+      },
+      {
+        "p": {
+          "name": "On the Effectiveness of Compact Biomedical Transformers",
+          "link": "https://arxiv.org/abs/2209.03182v1"
+        },
+        "c": "https://github.com/nlpie-research/compact-biomedical-transformers",
+        "n": "BioDistilBERT",
+        "d": "2022-09-07",
+        "m1": "79.1"
+      },
+      {
+        "p": {
+          "name": "Improving Biomedical Named Entity Recognition with Syntactic Information",
+          "link": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03834-6"
+        },
+        "c": "https://github.com/cuhk-nlp/BioKMNER",
+        "n": "BioKMNER + BioBERT",
+        "d": "2020-11-25",
+        "m1": "77.83"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "aimped",
+        "d": null,
+        "m1": "77.72"
+      },
+      {
+        "p": {
+          "name": "BioBERT: a pre-trained biomedical language representation model for biomedical text mining",
+          "link": "https://arxiv.org/abs/1901.08746v4"
+        },
+        "c": "https://github.com/dmis-lab/biobert",
+        "n": "BioBERT",
+        "d": "2019-01-25",
+        "m1": "77.59"
+      },
+      {
+        "p": {
+          "name": "SciFive: a text-to-text transformer model for biomedical literature",
+          "link": "https://arxiv.org/abs/2106.03598v1"
+        },
+        "c": "https://github.com/justinphan3110/SciFive",
+        "n": "SciFive-Large",
+        "d": "2021-05-28",
+        "m1": "77.55"
+      },
+      {
+        "p": {
+          "name": "BioFLAIR: Pretrained Pooled Contextualized Embeddings for Biomedical Sequence Labeling Tasks",
+          "link": "https://arxiv.org/abs/1908.05760v1"
+        },
+        "c": "https://github.com/shreyashub/BioFLAIR",
+        "n": "BioFLAIR",
+        "d": "2019-08-13",
+        "m1": "77.03"
+      },
+      {
+        "p": {
+          "name": "MINER: Improving Out-of-Vocabulary Named Entity Recognition from an Information Theoretic Perspective",
+          "link": "https://arxiv.org/abs/2204.04391v2"
+        },
+        "c": "https://github.com/beyonderxx/miner",
+        "n": "MINER",
+        "d": "2022-04-09",
+        "m1": "77.03"
+      },
+      {
+        "p": {
+          "name": "SciBERT: A Pretrained Language Model for Scientific Text",
+          "link": "https://arxiv.org/abs/1903.10676v3"
+        },
+        "c": "https://github.com/allenai/scibert",
+        "n": "SciBERT (Base Vocab)",
+        "d": "2019-03-26",
+        "m1": "75.77"
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "title": "classification-on-autoimmune-dataset",
+  "task-hierarchy": [
+    "Classification"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1 score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "A Data-Efficient Deep Learning Framework for Segmentation and Classification of Histopathology Images",
+          "link": "https://arxiv.org/abs/2207.06489v5"
+        },
+        "c": "https://github.com/pranavsinghps1/dedl",
+        "n": "Swin Transformer Base (Patch 4 Window 12)",
+        "d": "2022-07-13",
+        "m1": "0.891"
+      },
+      {
+        "p": {
+          "name": "CASS: Cross Architectural Self-Supervision for Medical Image Analysis",
+          "link": "https://arxiv.org/abs/2206.04170v6"
+        },
+        "c": "https://github.com/pranavsinghps1/CASS",
+        "n": "CASS",
+        "d": "2022-06-08",
+        "m1": "0.8894"
+      },
+      {
+        "p": {
+          "name": "CASS: Cross Architectural Self-Supervision for Medical Image Analysis",
+          "link": "https://arxiv.org/abs/2206.04170v6"
+        },
+        "c": "https://github.com/pranavsinghps1/CASS",
+        "n": "DINO",
+        "d": "2022-06-08",
+        "m1": "0.8639"
+      },
+      {
+        "p": {
+          "name": "A Data-Efficient Deep Learning Framework for Segmentation and Classification of Histopathology Images",
+          "link": "https://arxiv.org/abs/2207.06489v5"
+        },
+        "c": "https://github.com/pranavsinghps1/dedl",
+        "n": "VANBUREN et all",
+        "d": "2022-07-13",
+        "m1": "0.63"
+      }
+    ]
+  }
+}

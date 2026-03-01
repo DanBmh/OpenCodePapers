@@ -1,0 +1,77 @@
+{
+  "title": "lidar-semantic-segmentation-on-s-mid",
+  "task-hierarchy": [
+    "LIDAR Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://www.semanticindustry.top"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "val mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SFPNet: Sparse Focal Point Network for Semantic Segmentation on General LiDAR Point Clouds",
+          "link": "https://arxiv.org/abs/2407.11569v1"
+        },
+        "c": "https://github.com/Cavendish518/SFPNet",
+        "n": "SFPNet",
+        "d": "2024-07-16",
+        "m1": "72.8%"
+      },
+      {
+        "p": {
+          "name": "Cylindrical and Asymmetrical 3D Convolution Networks for LiDAR Segmentation",
+          "link": "https://arxiv.org/abs/2011.10033v1"
+        },
+        "c": "https://github.com/xinge008/Cylinder3D",
+        "n": "Cylinder3D",
+        "d": "2020-11-19",
+        "m1": "68.8%"
+      },
+      {
+        "p": {
+          "name": "Spherical Transformer for LiDAR-based 3D Recognition",
+          "link": "https://arxiv.org/abs/2303.12766v1"
+        },
+        "c": "https://github.com/dvlab-research/sphereformer",
+        "n": "SphereFormer",
+        "d": "2023-03-22",
+        "m1": "67.8%"
+      },
+      {
+        "p": {
+          "name": "3D Semantic Segmentation with Submanifold Sparse Convolutional Networks",
+          "link": "http://arxiv.org/abs/1711.10275v1"
+        },
+        "c": "https://github.com/facebookresearch/SparseConvNet",
+        "n": "Submanifold Sparse CNN",
+        "d": "2017-11-28",
+        "m1": "67.6%"
+      }
+    ]
+  }
+}

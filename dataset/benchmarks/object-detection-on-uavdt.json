@@ -1,0 +1,117 @@
+{
+  "title": "object-detection-on-uavdt",
+  "task-hierarchy": [
+    "Object Detection"
+  ],
+  "dataset-info": {
+    "link": "https://sites.google.com/view/grli-uavdt/%E9%A6%96%E9%A1%B5"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Parallel Residual Bi-Fusion Feature Pyramid Network for Accurate Single-Shot Object Detection",
+          "link": "https://arxiv.org/abs/2012.01724v5"
+        },
+        "c": "https://github.com/pingyang1117/PRBNet_PyTorch",
+        "n": "PRB-FPN",
+        "d": "2020-12-03",
+        "m1": "76.55"
+      },
+      {
+        "p": {
+          "name": "FFAVOD: Feature Fusion Architecture for Video Object Detection",
+          "link": "https://arxiv.org/abs/2109.07298v1"
+        },
+        "c": "https://github.com/hu64/ffavod",
+        "n": "FFAVOD-SpotNet with U-Net",
+        "d": "2021-09-15",
+        "m1": "53.76"
+      },
+      {
+        "p": {
+          "name": "SpotNet: Self-Attention Multi-Task Network for Object Detection",
+          "link": "https://arxiv.org/abs/2002.05540v2"
+        },
+        "c": "https://github.com/hu64/SpotNet",
+        "n": "SpotNet",
+        "d": "2020-02-13",
+        "m1": "52.8"
+      },
+      {
+        "p": {
+          "name": "RN-VID: A Feature Fusion Architecture for Video Object Detection",
+          "link": "https://arxiv.org/abs/2003.10898v2"
+        },
+        "c": "https://github.com/hu64/RN-VID",
+        "n": "RN-VID",
+        "d": "2020-03-24",
+        "m1": "39.43"
+      },
+      {
+        "p": {
+          "name": "The Unmanned Aerial Vehicle Benchmark: Object Detection and Tracking",
+          "link": "http://arxiv.org/abs/1804.00518v1"
+        },
+        "c": "",
+        "n": "R-FCN",
+        "d": "2018-03-26",
+        "m1": "34.35"
+      },
+      {
+        "p": {
+          "name": "The Unmanned Aerial Vehicle Benchmark: Object Detection and Tracking",
+          "link": "http://arxiv.org/abs/1804.00518v1"
+        },
+        "c": "",
+        "n": "SSD",
+        "d": "2018-03-26",
+        "m1": "33.62"
+      },
+      {
+        "p": {
+          "name": "The Unmanned Aerial Vehicle Benchmark: Object Detection and Tracking",
+          "link": "http://arxiv.org/abs/1804.00518v1"
+        },
+        "c": "",
+        "n": "Faster-RCNN",
+        "d": "2018-03-26",
+        "m1": "22.32"
+      },
+      {
+        "p": {
+          "name": "The Unmanned Aerial Vehicle Benchmark: Object Detection and Tracking",
+          "link": "http://arxiv.org/abs/1804.00518v1"
+        },
+        "c": "",
+        "n": "RON",
+        "d": "2018-03-26",
+        "m1": "21.59"
+      }
+    ]
+  }
+}

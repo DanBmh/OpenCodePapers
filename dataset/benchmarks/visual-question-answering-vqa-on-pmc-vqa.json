@@ -1,0 +1,77 @@
+{
+  "title": "visual-question-answering-vqa-on-pmc-vqa",
+  "task-hierarchy": [
+    "Visual Question Answering (VQA)"
+  ],
+  "dataset-info": {
+    "link": "https://huggingface.co/datasets/xmcmic/PMC-VQA"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "PMC-VQA: Visual Instruction Tuning for Medical Visual Question Answering",
+          "link": "https://arxiv.org/abs/2305.10415v6"
+        },
+        "c": "https://github.com/xiaoman-zhang/PMC-VQA",
+        "n": "MedVInT",
+        "d": "2023-05-17",
+        "m1": "42.3"
+      },
+      {
+        "p": {
+          "name": "Flamingo: a Visual Language Model for Few-Shot Learning",
+          "link": "https://arxiv.org/abs/2204.14198v2"
+        },
+        "c": "https://github.com/mlfoundations/open_flamingo",
+        "n": "Open-Flamingo",
+        "d": "2022-04-29",
+        "m1": "26.4"
+      },
+      {
+        "p": {
+          "name": "PMC-CLIP: Contrastive Language-Image Pre-training using Biomedical Documents",
+          "link": "https://arxiv.org/abs/2303.07240v1"
+        },
+        "c": "https://github.com/WeixiongLin/PMC-CLIP",
+        "n": "PMC-CLIP",
+        "d": "2023-03-13",
+        "m1": "24.7"
+      },
+      {
+        "p": {
+          "name": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
+          "link": "https://arxiv.org/abs/2301.12597v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "BLIP-2",
+        "d": "2023-01-30",
+        "m1": "24.3"
+      }
+    ]
+  }
+}

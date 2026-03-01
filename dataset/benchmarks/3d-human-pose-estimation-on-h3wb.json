@@ -1,0 +1,208 @@
+{
+  "title": "3d-human-pose-estimation-on-h3wb",
+  "task-hierarchy": [
+    "Pose Estimation",
+    "3D Human Pose Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/wholebody3d/wholebody3d"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MPJPE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "3D WholeBody Pose Estimation based on Semantic Graph Attention Network and Distance Information",
+          "link": "https://arxiv.org/abs/2406.01196v1"
+        },
+        "c": "",
+        "n": "SemGAN",
+        "d": "2024-06-03",
+        "m1": "45.39"
+      },
+      {
+        "p": {
+          "name": "RTMW: Real-Time Multi-Person 2D and 3D Whole-body Pose Estimation",
+          "link": "https://arxiv.org/abs/2407.08634v1"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
+        "n": "RTMW3D-x",
+        "d": "2024-07-11",
+        "m1": "57"
+      },
+      {
+        "p": {
+          "name": "3D-LFM: Lifting Foundation Model",
+          "link": "https://arxiv.org/abs/2312.11894v2"
+        },
+        "c": "https://github.com/mosamdabhi/3dlfm",
+        "n": "3D-LFM",
+        "d": "2023-12-19",
+        "m1": "60.83"
+      },
+      {
+        "p": {
+          "name": "Jointformer: Single-Frame Lifting Transformer with Error Prediction and Refinement for 3D Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2208.03704v1"
+        },
+        "c": "https://github.com/seblutz/JointFormer",
+        "n": "Jointformer-flip",
+        "d": "2022-08-07",
+        "m1": "63.0"
+      },
+      {
+        "p": {
+          "name": "H3WB: Human3.6M 3D WholeBody Dataset and Benchmark",
+          "link": "https://arxiv.org/abs/2211.15692v2"
+        },
+        "c": "https://github.com/wholebody3d/wholebody3d",
+        "n": "Jointformer",
+        "d": "2022-11-28",
+        "m1": "84.9"
+      },
+      {
+        "p": {
+          "name": "H3WB: Human3.6M 3D WholeBody Dataset and Benchmark",
+          "link": "https://arxiv.org/abs/2211.15692v2"
+        },
+        "c": "https://github.com/wholebody3d/wholebody3d",
+        "n": "Jointformer",
+        "d": "2022-11-28",
+        "m1": "103.0"
+      },
+      {
+        "p": {
+          "name": "H3WB: Human3.6M 3D WholeBody Dataset and Benchmark",
+          "link": "https://arxiv.org/abs/2211.15692v2"
+        },
+        "c": "https://github.com/wholebody3d/wholebody3d",
+        "n": "Large SimpleBaseline",
+        "d": "2022-11-28",
+        "m1": "112.6"
+      },
+      {
+        "p": {
+          "name": "H3WB: Human3.6M 3D WholeBody Dataset and Benchmark",
+          "link": "https://arxiv.org/abs/2211.15692v2"
+        },
+        "c": "https://github.com/wholebody3d/wholebody3d",
+        "n": "CanonPose + 3D supervision",
+        "d": "2022-11-28",
+        "m1": "117.5"
+      },
+      {
+        "p": {
+          "name": "H3WB: Human3.6M 3D WholeBody Dataset and Benchmark",
+          "link": "https://arxiv.org/abs/2211.15692v2"
+        },
+        "c": "https://github.com/wholebody3d/wholebody3d",
+        "n": "SimpleBaseline",
+        "d": "2022-11-28",
+        "m1": "125.7"
+      },
+      {
+        "p": {
+          "name": "H3WB: Human3.6M 3D WholeBody Dataset and Benchmark",
+          "link": "https://arxiv.org/abs/2211.15692v2"
+        },
+        "c": "https://github.com/wholebody3d/wholebody3d",
+        "n": "Large SimpleBaseline",
+        "d": "2022-11-28",
+        "m1": "131.6"
+      },
+      {
+        "p": {
+          "name": "H3WB: Human3.6M 3D WholeBody Dataset and Benchmark",
+          "link": "https://arxiv.org/abs/2211.15692v2"
+        },
+        "c": "https://github.com/wholebody3d/wholebody3d",
+        "n": "CPN + Jointformer",
+        "d": "2022-11-28",
+        "m1": "142.8"
+      },
+      {
+        "p": {
+          "name": "H3WB: Human3.6M 3D WholeBody Dataset and Benchmark",
+          "link": "https://arxiv.org/abs/2211.15692v2"
+        },
+        "c": "https://github.com/wholebody3d/wholebody3d",
+        "n": "Resnet50",
+        "d": "2022-11-28",
+        "m1": "151.6"
+      },
+      {
+        "p": {
+          "name": "H3WB: Human3.6M 3D WholeBody Dataset and Benchmark",
+          "link": "https://arxiv.org/abs/2211.15692v2"
+        },
+        "c": "https://github.com/wholebody3d/wholebody3d",
+        "n": "CanonPose + 3D supervision",
+        "d": "2022-11-28",
+        "m1": "155.9"
+      },
+      {
+        "p": {
+          "name": "H3WB: Human3.6M 3D WholeBody Dataset and Benchmark",
+          "link": "https://arxiv.org/abs/2211.15692v2"
+        },
+        "c": "https://github.com/wholebody3d/wholebody3d",
+        "n": "SHN + SimpleBaseline",
+        "d": "2022-11-28",
+        "m1": "189.6"
+      },
+      {
+        "p": {
+          "name": "H3WB: Human3.6M 3D WholeBody Dataset and Benchmark",
+          "link": "https://arxiv.org/abs/2211.15692v2"
+        },
+        "c": "https://github.com/wholebody3d/wholebody3d",
+        "n": "CanonPose",
+        "d": "2022-11-28",
+        "m1": "193.7"
+      },
+      {
+        "p": {
+          "name": "H3WB: Human3.6M 3D WholeBody Dataset and Benchmark",
+          "link": "https://arxiv.org/abs/2211.15692v2"
+        },
+        "c": "https://github.com/wholebody3d/wholebody3d",
+        "n": "SimpleBaseline",
+        "d": "2022-11-28",
+        "m1": "252.0"
+      },
+      {
+        "p": {
+          "name": "H3WB: Human3.6M 3D WholeBody Dataset and Benchmark",
+          "link": "https://arxiv.org/abs/2211.15692v2"
+        },
+        "c": "https://github.com/wholebody3d/wholebody3d",
+        "n": "CanonPose",
+        "d": "2022-11-28",
+        "m1": "264.4"
+      }
+    ]
+  }
+}

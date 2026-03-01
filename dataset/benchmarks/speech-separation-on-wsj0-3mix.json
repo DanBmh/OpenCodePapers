@@ -1,0 +1,127 @@
+{
+  "title": "speech-separation-on-wsj0-3mix",
+  "task-hierarchy": [
+    "Speech Separation"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "SI-SDRi",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Boosting Unknown-number Speaker Separation with Transformer Decoder-based Attractor",
+          "link": "https://arxiv.org/abs/2401.12473v1"
+        },
+        "c": "",
+        "n": "SepTDA",
+        "d": "2024-01-23",
+        "m1": "23.7"
+      },
+      {
+        "p": {
+          "name": "MossFormer2: Combining Transformer and RNN-Free Recurrent Network for Enhanced Time-Domain Monaural Speech Separation",
+          "link": "https://arxiv.org/abs/2312.11825v2"
+        },
+        "c": "https://github.com/modelscope/ClearerVoice-Studio",
+        "n": "MossFormer2",
+        "d": "2023-12-19",
+        "m1": "22.2"
+      },
+      {
+        "p": {
+          "name": "MossFormer: Pushing the Performance Limit of Monaural Speech Separation using Gated Single-Head Transformer with Convolution-Augmented Joint Self-Attentions",
+          "link": "https://arxiv.org/abs/2302.11824v1"
+        },
+        "c": "https://github.com/modelscope/ClearerVoice-Studio",
+        "n": "MossFormer (L) + DM",
+        "d": "2023-02-23",
+        "m1": "21.2"
+      },
+      {
+        "p": {
+          "name": "Separate And Diffuse: Using a Pretrained Diffusion Model for Improving Source Separation",
+          "link": "https://arxiv.org/abs/2301.10752v2"
+        },
+        "c": "",
+        "n": "Separate And Diffuse",
+        "d": "2023-01-25",
+        "m1": "20.9"
+      },
+      {
+        "p": {
+          "name": "MossFormer: Pushing the Performance Limit of Monaural Speech Separation using Gated Single-Head Transformer with Convolution-Augmented Joint Self-Attentions",
+          "link": "https://arxiv.org/abs/2302.11824v1"
+        },
+        "c": "https://github.com/modelscope/ClearerVoice-Studio",
+        "n": "MossFormer (M) + DM",
+        "d": "2023-02-23",
+        "m1": "20.8"
+      },
+      {
+        "p": {
+          "name": "SepIt: Approaching a Single Channel Speech Separation Bound",
+          "link": "https://arxiv.org/abs/2205.11801v4"
+        },
+        "c": "",
+        "n": "SepIt",
+        "d": "2022-05-24",
+        "m1": "20.1"
+      },
+      {
+        "p": {
+          "name": "Attention is All You Need in Speech Separation",
+          "link": "https://arxiv.org/abs/2010.13154v2"
+        },
+        "c": "https://github.com/speechbrain/speechbrain/tree/develop/recipes/WSJ0Mix/separation",
+        "n": "SepFormer",
+        "d": "2020-10-25",
+        "m1": "19.5"
+      },
+      {
+        "p": {
+          "name": "Sandglasset: A Light Multi-Granularity Self-attentive Network For Time-Domain Speech Separation",
+          "link": "https://arxiv.org/abs/2103.00819v2"
+        },
+        "c": "https://github.com/Zhongyang-debug/Sandglasset-A-Light-Multi-Granularity-Self-Attentive-Network-For-Time-Domain-Speech-Separation",
+        "n": "Sandglasset",
+        "d": "2021-03-01",
+        "m1": "17.1"
+      },
+      {
+        "p": {
+          "name": "Voice Separation with an Unknown Number of Multiple Speakers",
+          "link": "https://arxiv.org/abs/2003.01531v4"
+        },
+        "c": "https://github.com/facebookresearch/svoice",
+        "n": "Gated DualPathRNN",
+        "d": "2020-02-29",
+        "m1": "16.85"
+      }
+    ]
+  }
+}

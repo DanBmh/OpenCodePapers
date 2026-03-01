@@ -1,0 +1,97 @@
+{
+  "title": "object-detection-on-grazpedwri-dx",
+  "task-hierarchy": [
+    "Object Detection"
+  ],
+  "dataset-info": {
+    "link": "https://www.nature.com/articles/s41597-022-01328-z#citeas"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Enhancing Wrist Fracture Detection with YOLO",
+          "link": "https://arxiv.org/abs/2407.12597v2"
+        },
+        "c": "https://github.com/ammarlodhi255/pediatric_wrist_abnormality_detection-end-to-end-implementation",
+        "n": "YOLOv8x",
+        "d": "2024-07-17",
+        "m1": "77.00"
+      },
+      {
+        "p": {
+          "name": "Pediatric Wrist Fracture Detection in X-rays via YOLOv10 Algorithm and Dual Label Assignment System",
+          "link": "https://arxiv.org/abs/2407.15689v2"
+        },
+        "c": "https://github.com/ammarlodhi255/YOLOv10-Fracture-Detection",
+        "n": "YOLOv10-X",
+        "d": "2024-07-22",
+        "m1": "76.2"
+      },
+      {
+        "p": {
+          "name": "Enhancing Wrist Fracture Detection with YOLO",
+          "link": "https://arxiv.org/abs/2407.12597v2"
+        },
+        "c": "https://github.com/ammarlodhi255/pediatric_wrist_abnormality_detection-end-to-end-implementation",
+        "n": "YOLOv5x",
+        "d": "2024-07-17",
+        "m1": "69.00"
+      },
+      {
+        "p": {
+          "name": "DeepLOC: Deep Learning-based Bone Pathology Localization and Classification in Wrist X-ray Images",
+          "link": "https://arxiv.org/abs/2308.12727v1"
+        },
+        "c": "",
+        "n": "DeepLOC",
+        "d": "2023-08-24",
+        "m1": "65.4"
+      },
+      {
+        "p": {
+          "name": "Enhancing Wrist Fracture Detection with YOLO",
+          "link": "https://arxiv.org/abs/2407.12597v2"
+        },
+        "c": "https://github.com/ammarlodhi255/pediatric_wrist_abnormality_detection-end-to-end-implementation",
+        "n": "YOLOv6m",
+        "d": "2024-07-17",
+        "m1": "64.00"
+      },
+      {
+        "p": {
+          "name": "Enhancing Wrist Fracture Detection with YOLO",
+          "link": "https://arxiv.org/abs/2407.12597v2"
+        },
+        "c": "https://github.com/ammarlodhi255/pediatric_wrist_abnormality_detection-end-to-end-implementation",
+        "n": "YOLOv7",
+        "d": "2024-07-17",
+        "m1": "61.00"
+      }
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "title": "video-captioning-on-msvd-ctn",
+  "task-hierarchy": [
+    "Video Captioning"
+  ],
+  "dataset-info": {
+    "link": "https://narrativebridge.github.io/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "CIDEr",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "ROUGE-L",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "SPICE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "NarrativeBridge: Enhancing Video Captioning with Causal-Temporal Narrative",
+          "link": "https://arxiv.org/abs/2406.06499v3"
+        },
+        "c": "",
+        "n": "CEN",
+        "d": "2024-06-10",
+        "m1": "63.51",
+        "m2": "31.46",
+        "m3": "19.25"
+      },
+      {
+        "p": {
+          "name": "GiT: Towards Generalist Vision Transformer through Universal Language Interface",
+          "link": "https://arxiv.org/abs/2403.09394v1"
+        },
+        "c": "https://github.com/haiyang-w/git",
+        "n": "GIT",
+        "d": "2024-03-14",
+        "m1": "45.63",
+        "m2": "27.51",
+        "m3": "15.58"
+      },
+      {
+        "p": {
+          "name": "SEM-POS: Grammatically and Semantically Correct Video Captioning",
+          "link": "https://arxiv.org/abs/2303.14829v2"
+        },
+        "c": "",
+        "n": "SEM-POS",
+        "d": "2023-03-26",
+        "m1": "37.16",
+        "m2": "25.39",
+        "m3": "14.46"
+      },
+      {
+        "p": {
+          "name": "Action knowledge for video captioning with graph neural networks",
+          "link": "https://www.sciencedirect.com/science/article/pii/S1319157823000666"
+        },
+        "c": "https://github.com/Sejong-VLI/V2T-Action-Graph-JKSUCIS-2023",
+        "n": "AKGNN",
+        "d": "2023-03-16",
+        "m1": "35.08",
+        "m2": "25.11",
+        "m3": "14.55"
+      }
+    ]
+  }
+}

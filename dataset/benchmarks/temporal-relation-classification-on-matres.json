@@ -1,0 +1,78 @@
+{
+  "title": "temporal-relation-classification-on-matres",
+  "task-hierarchy": [
+    "Temporal Relation Extraction",
+    "Temporal Relation Classification"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/qiangning/MATRES"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "RSGT: Relational Structure Guided Temporal Relation Extraction",
+          "link": "https://aclanthology.org/2022.coling-1.174"
+        },
+        "c": "",
+        "n": "RSGT",
+        "d": null,
+        "m1": "84.0"
+      },
+      {
+        "p": {
+          "name": "Selecting Optimal Context Sentences for Event-Event Relation Extraction",
+          "link": "https://www.aaai.org/AAAI22Papers/AAAI-3912.ManH.pdf"
+        },
+        "c": "https://github.com/hieumdt/SCS-EERE",
+        "n": "SCS-EERE",
+        "d": "2022-04-02",
+        "m1": "83.4"
+      },
+      {
+        "p": {
+          "name": "Extracting or Guessing? Improving Faithfulness of Event Temporal Relation Extraction",
+          "link": "https://arxiv.org/abs/2210.04992v2"
+        },
+        "c": "",
+        "n": "Faithfulness",
+        "d": "2022-10-10",
+        "m1": "82.7"
+      },
+      {
+        "p": {
+          "name": "TIMERS: Document-level Temporal Relation Extraction",
+          "link": "https://aclanthology.org/2021.acl-short.67"
+        },
+        "c": "",
+        "n": "TIMERS",
+        "d": "2021-08-01",
+        "m1": "82.3"
+      }
+    ]
+  }
+}

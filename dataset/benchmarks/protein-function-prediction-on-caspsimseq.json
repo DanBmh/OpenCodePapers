@@ -1,0 +1,87 @@
+{
+  "title": "protein-function-prediction-on-caspsimseq",
+  "task-hierarchy": [
+    "Protein Function Prediction"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "ROUGE-L",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Galactica: A Large Language Model for Science",
+          "link": "https://arxiv.org/abs/2211.09085v1"
+        },
+        "c": "https://github.com/paperswithcode/galai",
+        "n": "GAL 120B",
+        "d": "2022-11-16",
+        "m1": "0.252"
+      },
+      {
+        "p": {
+          "name": "Galactica: A Large Language Model for Science",
+          "link": "https://arxiv.org/abs/2211.09085v1"
+        },
+        "c": "https://github.com/paperswithcode/galai",
+        "n": "GAL 30B",
+        "d": "2022-11-16",
+        "m1": "0.137"
+      },
+      {
+        "p": {
+          "name": "Galactica: A Large Language Model for Science",
+          "link": "https://arxiv.org/abs/2211.09085v1"
+        },
+        "c": "https://github.com/paperswithcode/galai",
+        "n": "GAL 6.7B",
+        "d": "2022-11-16",
+        "m1": "0.109"
+      },
+      {
+        "p": {
+          "name": "Galactica: A Large Language Model for Science",
+          "link": "https://arxiv.org/abs/2211.09085v1"
+        },
+        "c": "https://github.com/paperswithcode/galai",
+        "n": "GAL 1.3B",
+        "d": "2022-11-16",
+        "m1": "0.069"
+      },
+      {
+        "p": {
+          "name": "Galactica: A Large Language Model for Science",
+          "link": "https://arxiv.org/abs/2211.09085v1"
+        },
+        "c": "https://github.com/paperswithcode/galai",
+        "n": "GAL 125M",
+        "d": "2022-11-16",
+        "m1": "0.062"
+      }
+    ]
+  }
+}

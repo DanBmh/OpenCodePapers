@@ -1,0 +1,80 @@
+{
+  "title": "vehicle-re-identification-on-veri-wild-small",
+  "task-hierarchy": [
+    "Vehicle Re-Identification"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/PKU-IMRE/VERI-Wild"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Rank1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Rank5",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Strength in Diversity: Multi-Branch Representation Learning for Vehicle Re-Identification",
+          "link": "https://arxiv.org/abs/2310.01129v1"
+        },
+        "c": "https://github.com/videturfortuna/vehicle_reid_itsc2023",
+        "n": "MBR-4B (without RK)",
+        "d": "2023-10-02",
+        "m1": "96.6",
+        "m3": "88.9"
+      },
+      {
+        "p": {
+          "name": "AttributeNet: Attribute Enhanced Vehicle Re-Identification",
+          "link": "https://arxiv.org/abs/2102.03898v2"
+        },
+        "c": "",
+        "n": "ANet",
+        "d": "2021-02-07",
+        "m1": "96.5",
+        "m2": "99.2",
+        "m3": "86.9"
+      },
+      {
+        "p": {
+          "name": "Multi‑camera trajectory matching based on hierarchical clustering and constraints",
+          "link": "https://doi.org/10.1007/s11042-023-17397-0"
+        },
+        "c": "https://github.com/regob/vehicle_mtmc",
+        "n": "ResNet50-IBN",
+        "d": "2023-10-19",
+        "m3": "73.4"
+      }
+    ]
+  }
+}

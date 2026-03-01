@@ -1,0 +1,97 @@
+{
+  "title": "kidney-function-on-hirid",
+  "task-hierarchy": [
+    "Kidney Function"
+  ],
+  "dataset-info": {
+    "link": "https://physionet.org/content/hirid/1.1.1/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MAE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "HiRID-ICU-Benchmark -- A Comprehensive Machine Learning Benchmark on High-resolution ICU Data",
+          "link": "https://arxiv.org/abs/2111.08536v4"
+        },
+        "c": "https://github.com/ratschlab/HIRID-ICU-Benchmark",
+        "n": "LGBM ( + hand crafted features)",
+        "d": "2021-11-16",
+        "m1": "0.45±0.00"
+      },
+      {
+        "p": {
+          "name": "HiRID-ICU-Benchmark -- A Comprehensive Machine Learning Benchmark on High-resolution ICU Data",
+          "link": "https://arxiv.org/abs/2111.08536v4"
+        },
+        "c": "https://github.com/ratschlab/HIRID-ICU-Benchmark",
+        "n": "LGBM",
+        "d": "2021-11-16",
+        "m1": "0.45±0.00"
+      },
+      {
+        "p": {
+          "name": "HiRID-ICU-Benchmark -- A Comprehensive Machine Learning Benchmark on High-resolution ICU Data",
+          "link": "https://arxiv.org/abs/2111.08536v4"
+        },
+        "c": "https://github.com/ratschlab/HIRID-ICU-Benchmark",
+        "n": "Transformer",
+        "d": "2021-11-16",
+        "m1": "0.48±0.02"
+      },
+      {
+        "p": {
+          "name": "HiRID-ICU-Benchmark -- A Comprehensive Machine Learning Benchmark on High-resolution ICU Data",
+          "link": "https://arxiv.org/abs/2111.08536v4"
+        },
+        "c": "https://github.com/ratschlab/HIRID-ICU-Benchmark",
+        "n": "GRU",
+        "d": "2021-11-16",
+        "m1": "0.49±0.02"
+      },
+      {
+        "p": {
+          "name": "HiRID-ICU-Benchmark -- A Comprehensive Machine Learning Benchmark on High-resolution ICU Data",
+          "link": "https://arxiv.org/abs/2111.08536v4"
+        },
+        "c": "https://github.com/ratschlab/HIRID-ICU-Benchmark",
+        "n": "LSTM",
+        "d": "2021-11-16",
+        "m1": "0.50±0.01"
+      },
+      {
+        "p": {
+          "name": "HiRID-ICU-Benchmark -- A Comprehensive Machine Learning Benchmark on High-resolution ICU Data",
+          "link": "https://arxiv.org/abs/2111.08536v4"
+        },
+        "c": "https://github.com/ratschlab/HIRID-ICU-Benchmark",
+        "n": "TCN",
+        "d": "2021-11-16",
+        "m1": "0.50±0.01"
+      }
+    ]
+  }
+}

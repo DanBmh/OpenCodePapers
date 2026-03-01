@@ -1,0 +1,97 @@
+{
+  "title": "semantic-segmentation-on-gamus",
+  "task-hierarchy": [
+    "Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "GAMUS: A Geometry-aware Multi-modal Semantic Segmentation Benchmark for Remote Sensing Data",
+          "link": "https://arxiv.org/abs/2305.14914v1"
+        },
+        "c": "https://github.com/earthnets/rsi-mmsegmentation",
+        "n": "TIMF",
+        "d": "2023-05-24",
+        "m1": "76.38"
+      },
+      {
+        "p": {
+          "name": "CMX: Cross-Modal Fusion for RGB-X Semantic Segmentation with Transformers",
+          "link": "https://arxiv.org/abs/2203.04838v5"
+        },
+        "c": "https://github.com/huaaaliu/rgbx_semantic_segmentation",
+        "n": "CMX",
+        "d": "2022-03-09",
+        "m1": "75.23"
+      },
+      {
+        "p": {
+          "name": "Variational Context-Deformable ConvNets for Indoor Scene Parsing",
+          "link": "http://openaccess.thecvf.com/content_CVPR_2020/html/Xiong_Variational_Context-Deformable_ConvNets_for_Indoor_Scene_Parsing_CVPR_2020_paper.html"
+        },
+        "c": "",
+        "n": "VCD",
+        "d": "2020-06-01",
+        "m1": "59.70"
+      },
+      {
+        "p": {
+          "name": "RTFNet: RGB-Thermal Fusion Network for Semantic Segmentation of Urban Scenes",
+          "link": "https://ieeexplore.ieee.org/abstract/document/8666745"
+        },
+        "c": "https://github.com/yuxiangsun/RTFNet",
+        "n": "RTFNet",
+        "d": "2019-03-13",
+        "m1": "58.26"
+      },
+      {
+        "p": {
+          "name": "ShapeConv: Shape-aware Convolutional Layer for Indoor RGB-D Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2108.10528v1"
+        },
+        "c": "https://github.com/hanchaoleng/shapeconv",
+        "n": "ShapeConv",
+        "d": "2021-08-24",
+        "m1": "55.86"
+      },
+      {
+        "p": {
+          "name": "MFNet: Towards real-time semantic segmentation for autonomous vehicles with multi-spectral scenes",
+          "link": "https://ieeexplore.ieee.org/abstract/document/8206396"
+        },
+        "c": "",
+        "n": "MFNet",
+        "d": "2017-12-14",
+        "m1": "52.73"
+      }
+    ]
+  }
+}

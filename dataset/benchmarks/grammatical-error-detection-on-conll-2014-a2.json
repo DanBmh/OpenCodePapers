@@ -1,0 +1,118 @@
+{
+  "title": "grammatical-error-detection-on-conll-2014-a2",
+  "task-hierarchy": [
+    "Grammatical Error Correction",
+    "Grammatical Error Detection"
+  ],
+  "dataset-info": {
+    "link": "https://www.conll.org/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F0.5",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Neural Quality Estimation with Multiple Hypotheses for Grammatical Error Correction",
+          "link": "https://arxiv.org/abs/2105.04443v1"
+        },
+        "c": "https://github.com/thunlp/VERNet",
+        "n": "VERNet",
+        "d": "2021-05-10",
+        "m1": "63.1"
+      },
+      {
+        "p": {
+          "name": "Auxiliary Objectives for Neural Error Detection Models",
+          "link": "http://arxiv.org/abs/1707.05227v1"
+        },
+        "c": "",
+        "n": "Bi-LSTM + POS (unrestricted data)",
+        "d": "2017-07-17",
+        "m1": "45.1"
+      },
+      {
+        "p": {
+          "name": "Compositional Sequence Labeling Models for Error Detection in Learner Writing",
+          "link": "http://arxiv.org/abs/1607.06153v1"
+        },
+        "c": "",
+        "n": "Bi-LSTM (unrestricted data)",
+        "d": "2016-07-20",
+        "m1": "44.0"
+      },
+      {
+        "p": {
+          "name": "Artificial Error Generation with Machine Translation and Syntactic Patterns",
+          "link": "http://arxiv.org/abs/1707.05236v1"
+        },
+        "c": "",
+        "n": "Ann+PAT+MT",
+        "d": "2017-07-17",
+        "m1": "30.13"
+      },
+      {
+        "p": {
+          "name": "Jointly Learning to Label Sentences and Tokens",
+          "link": "http://arxiv.org/abs/1811.05949v1"
+        },
+        "c": "https://github.com/marekrei/mltagger",
+        "n": "BiLSTM-JOINT (trained on FCE)",
+        "d": "2018-11-14",
+        "m1": "29.65 "
+      },
+      {
+        "p": {
+          "name": "Auxiliary Objectives for Neural Error Detection Models",
+          "link": "http://arxiv.org/abs/1707.05227v1"
+        },
+        "c": "",
+        "n": "Bi-LSTM + POS (trained on FCE)",
+        "d": "2017-07-17",
+        "m1": "26.2"
+      },
+      {
+        "p": {
+          "name": "Semi-supervised Multitask Learning for Sequence Labeling",
+          "link": "http://arxiv.org/abs/1704.07156v1"
+        },
+        "c": "https://github.com/marekrei/sequence-labeler",
+        "n": "Bi-LSTM + LMcost (trained on FCE)",
+        "d": "2017-04-24",
+        "m1": "25.88"
+      },
+      {
+        "p": {
+          "name": "Compositional Sequence Labeling Models for Error Detection in Learner Writing",
+          "link": "http://arxiv.org/abs/1607.06153v1"
+        },
+        "c": "",
+        "n": "Bi-LSTM (trained on FCE)",
+        "d": "2016-07-20",
+        "m1": "23.9"
+      }
+    ]
+  }
+}

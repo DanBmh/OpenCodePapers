@@ -1,0 +1,273 @@
+{
+  "title": "conversational-web-navigation-on-weblinx",
+  "task-hierarchy": [
+    "Conversational Web Navigation"
+  ],
+  "dataset-info": {
+    "link": "https://mcgill-nlp.github.io/weblinx/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Overall score",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Intent Match",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Element (IoU)",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Text (F1)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "WebLINX: Real-World Website Navigation with Multi-Turn Dialogue",
+          "link": "https://arxiv.org/abs/2402.05930v2"
+        },
+        "c": "https://github.com/McGill-NLP/webllama",
+        "n": "Llama-2-13B",
+        "d": "2024-02-08",
+        "m1": "25.21",
+        "m2": "81.91",
+        "m3": "22.82",
+        "m4": "26.60"
+      },
+      {
+        "p": {
+          "name": "WebLINX: Real-World Website Navigation with Multi-Turn Dialogue",
+          "link": "https://arxiv.org/abs/2402.05930v2"
+        },
+        "c": "https://github.com/McGill-NLP/webllama",
+        "n": "S-LLaMA-2.7B",
+        "d": "2024-02-08",
+        "m1": "25.02",
+        "m2": "84.00",
+        "m3": "22.60",
+        "m4": "27.17"
+      },
+      {
+        "p": {
+          "name": "WebLINX: Real-World Website Navigation with Multi-Turn Dialogue",
+          "link": "https://arxiv.org/abs/2402.05930v2"
+        },
+        "c": "https://github.com/McGill-NLP/webllama",
+        "n": "Llama-2-7B",
+        "d": "2024-02-08",
+        "m1": "24.57",
+        "m2": "82.64",
+        "m3": "22.26",
+        "m4": "26.50"
+      },
+      {
+        "p": {
+          "name": "WebLINX: Real-World Website Navigation with Multi-Turn Dialogue",
+          "link": "https://arxiv.org/abs/2402.05930v2"
+        },
+        "c": "https://github.com/McGill-NLP/webllama",
+        "n": "Flan-T5-3B",
+        "d": "2024-02-08",
+        "m1": "23.77",
+        "m2": "81.14",
+        "m3": "20.31",
+        "m4": "25.75"
+      },
+      {
+        "p": {
+          "name": "WebLINX: Real-World Website Navigation with Multi-Turn Dialogue",
+          "link": "https://arxiv.org/abs/2402.05930v2"
+        },
+        "c": "https://github.com/McGill-NLP/webllama",
+        "n": "S-LLaMA-1.3B",
+        "d": "2024-02-08",
+        "m1": "23.73",
+        "m2": "83.32",
+        "m3": "20.54",
+        "m4": "25.85"
+      },
+      {
+        "p": {
+          "name": "WebLINX: Real-World Website Navigation with Multi-Turn Dialogue",
+          "link": "https://arxiv.org/abs/2402.05930v2"
+        },
+        "c": "https://github.com/McGill-NLP/webllama",
+        "n": "GPT-3.5F",
+        "d": "2024-02-08",
+        "m1": "21.22",
+        "m2": "77.56",
+        "m3": "18.64",
+        "m4": "22.39"
+      },
+      {
+        "p": {
+          "name": "WebLINX: Real-World Website Navigation with Multi-Turn Dialogue",
+          "link": "https://arxiv.org/abs/2402.05930v2"
+        },
+        "c": "https://github.com/McGill-NLP/webllama",
+        "n": "MindAct-3B",
+        "d": "2024-02-08",
+        "m1": "20.94",
+        "m2": "79.89",
+        "m3": "16.50",
+        "m4": "23.16"
+      },
+      {
+        "p": {
+          "name": "WebLINX: Real-World Website Navigation with Multi-Turn Dialogue",
+          "link": "https://arxiv.org/abs/2402.05930v2"
+        },
+        "c": "https://github.com/McGill-NLP/webllama",
+        "n": "Fuyu-8B",
+        "d": "2024-02-08",
+        "m1": "19.97",
+        "m2": "80.07",
+        "m3": "15.70",
+        "m4": "22.30"
+      },
+      {
+        "p": {
+          "name": "WebLINX: Real-World Website Navigation with Multi-Turn Dialogue",
+          "link": "https://arxiv.org/abs/2402.05930v2"
+        },
+        "c": "https://github.com/McGill-NLP/webllama",
+        "n": "Flan-T5-780M",
+        "d": "2024-02-08",
+        "m1": "17.27",
+        "m2": "80.02",
+        "m3": "15.36",
+        "m4": "14.05"
+      },
+      {
+        "p": {
+          "name": "WebLINX: Real-World Website Navigation with Multi-Turn Dialogue",
+          "link": "https://arxiv.org/abs/2402.05930v2"
+        },
+        "c": "https://github.com/McGill-NLP/webllama",
+        "n": "Pix2Act-1.3B",
+        "d": "2024-02-08",
+        "m1": "16.88",
+        "m2": "81.80",
+        "m3": "8.28",
+        "m4": "25.21"
+      },
+      {
+        "p": {
+          "name": "WebLINX: Real-World Website Navigation with Multi-Turn Dialogue",
+          "link": "https://arxiv.org/abs/2402.05930v2"
+        },
+        "c": "https://github.com/McGill-NLP/webllama",
+        "n": "MindAct-780M",
+        "d": "2024-02-08",
+        "m1": "15.13",
+        "m2": "75.87",
+        "m3": "13.39",
+        "m4": "13.58"
+      },
+      {
+        "p": {
+          "name": "WebLINX: Real-World Website Navigation with Multi-Turn Dialogue",
+          "link": "https://arxiv.org/abs/2402.05930v2"
+        },
+        "c": "https://github.com/McGill-NLP/webllama",
+        "n": "Flan-T5-250M",
+        "d": "2024-02-08",
+        "m1": "14.99",
+        "m2": "79.69",
+        "m3": "14.86",
+        "m4": "9.21"
+      },
+      {
+        "p": {
+          "name": "WebLINX: Real-World Website Navigation with Multi-Turn Dialogue",
+          "link": "https://arxiv.org/abs/2402.05930v2"
+        },
+        "c": "https://github.com/McGill-NLP/webllama",
+        "n": "MindAct-250M",
+        "d": "2024-02-08",
+        "m1": "12.63",
+        "m2": "74.25",
+        "m3": "12.05",
+        "m4": "7.67"
+      },
+      {
+        "p": {
+          "name": "WebLINX: Real-World Website Navigation with Multi-Turn Dialogue",
+          "link": "https://arxiv.org/abs/2402.05930v2"
+        },
+        "c": "https://github.com/McGill-NLP/webllama",
+        "n": "Pix2Act-282M",
+        "d": "2024-02-08",
+        "m1": "12.51",
+        "m2": "79.71",
+        "m3": "6.20",
+        "m4": "16.40"
+      },
+      {
+        "p": {
+          "name": "WebLINX: Real-World Website Navigation with Multi-Turn Dialogue",
+          "link": "https://arxiv.org/abs/2402.05930v2"
+        },
+        "c": "https://github.com/McGill-NLP/webllama",
+        "n": "GPT-4T (Zero-Shot)",
+        "d": "2024-02-08",
+        "m1": "10.72",
+        "m2": "41.66",
+        "m3": "10.85",
+        "m4": "6.75"
+      },
+      {
+        "p": {
+          "name": "WebLINX: Real-World Website Navigation with Multi-Turn Dialogue",
+          "link": "https://arxiv.org/abs/2402.05930v2"
+        },
+        "c": "https://github.com/McGill-NLP/webllama",
+        "n": "GPT-4V (Zero-Shot)",
+        "d": "2024-02-08",
+        "m1": "10.45",
+        "m2": "42.36",
+        "m3": "10.91",
+        "m4": "6.21"
+      },
+      {
+        "p": {
+          "name": "WebLINX: Real-World Website Navigation with Multi-Turn Dialogue",
+          "link": "https://arxiv.org/abs/2402.05930v2"
+        },
+        "c": "https://github.com/McGill-NLP/webllama",
+        "n": "GPT-3.5T (Zero-Shot)",
+        "d": "2024-02-08",
+        "m1": "8.51",
+        "m2": "42.77",
+        "m3": "8.62",
+        "m4": "3.45"
+      }
+    ]
+  }
+}

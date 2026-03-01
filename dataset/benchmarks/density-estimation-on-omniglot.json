@@ -1,0 +1,96 @@
+{
+  "title": "density-estimation-on-omniglot",
+  "task-hierarchy": [
+    "Density Estimation"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Negative ELBO",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "NLL",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "MMD-L2",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "COV-L2",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Block Neural Autoregressive Flow",
+          "link": "http://arxiv.org/abs/1904.04676v1"
+        },
+        "c": "https://github.com/nicola-decao/BNAF",
+        "n": "B-NAF",
+        "d": "2019-04-09",
+        "m1": "94.83",
+        "m2": "100.08"
+      },
+      {
+        "p": {
+          "name": "FFJORD: Free-form Continuous Dynamics for Scalable Reversible Generative Models",
+          "link": "http://arxiv.org/abs/1810.01367v3"
+        },
+        "c": "https://github.com/rtqichen/ffjord",
+        "n": "FFJORD",
+        "d": "2018-10-02",
+        "m1": "98.33",
+        "m3": "20.5",
+        "m4": "99%"
+      },
+      {
+        "p": {
+          "name": "Hierarchical VAE with a Diffusion-based VampPrior",
+          "link": "https://arxiv.org/abs/2412.01373v1"
+        },
+        "c": "https://github.com/akuzina/dvp_vae",
+        "n": "DVp-VAE",
+        "d": "2024-12-02",
+        "m2": "89.07"
+      },
+      {
+        "p": {
+          "name": "PaddingFlow: Improving Normalizing Flows with Padding-Dimensional Noise",
+          "link": "https://arxiv.org/abs/2403.08216v2"
+        },
+        "c": "https://github.com/adamqlmeng/paddingflow",
+        "n": "PaddingFlow",
+        "d": "2024-03-13",
+        "m3": "20.3",
+        "m4": "98.8%"
+      }
+    ]
+  }
+}

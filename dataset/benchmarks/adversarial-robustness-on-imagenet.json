@@ -1,0 +1,77 @@
+{
+  "title": "adversarial-robustness-on-imagenet",
+  "task-hierarchy": [
+    "Adversarial Robustness"
+  ],
+  "dataset-info": {
+    "link": "https://image-net.org/index.php"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Are Transformers More Robust Than CNNs?",
+          "link": "https://arxiv.org/abs/2111.05464v1"
+        },
+        "c": "https://github.com/ytongbai/ViTs-vs-CNNs",
+        "n": "ResNet-50 (SGD, Cosine)",
+        "d": "2021-11-10",
+        "m1": "77.4"
+      },
+      {
+        "p": {
+          "name": "Are Transformers More Robust Than CNNs?",
+          "link": "https://arxiv.org/abs/2111.05464v1"
+        },
+        "c": "https://github.com/ytongbai/ViTs-vs-CNNs",
+        "n": "ResNet-50 (SGD, Step)",
+        "d": "2021-11-10",
+        "m1": "76.9"
+      },
+      {
+        "p": {
+          "name": "Are Transformers More Robust Than CNNs?",
+          "link": "https://arxiv.org/abs/2111.05464v1"
+        },
+        "c": "https://github.com/ytongbai/ViTs-vs-CNNs",
+        "n": "DeiT-S (AdamW, Cosine)",
+        "d": "2021-11-10",
+        "m1": "76.8"
+      },
+      {
+        "p": {
+          "name": "Are Transformers More Robust Than CNNs?",
+          "link": "https://arxiv.org/abs/2111.05464v1"
+        },
+        "c": "https://github.com/ytongbai/ViTs-vs-CNNs",
+        "n": "ResNet-50 (AdamW, Cosine)",
+        "d": "2021-11-10",
+        "m1": "76.4"
+      }
+    ]
+  }
+}

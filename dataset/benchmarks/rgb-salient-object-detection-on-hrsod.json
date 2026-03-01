@@ -1,0 +1,229 @@
+{
+  "title": "rgb-salient-object-detection-on-hrsod",
+  "task-hierarchy": [
+    "Object Detection",
+    "RGB Salient Object Detection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/yi94code/HRSOD"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "S-Measure",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "max F-Measure",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "MAE",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "mBA",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Patch-Depth Fusion: Dichotomous Image Segmentation via Fine-Grained Patch Strategy and Depth Integrity-Prior",
+          "link": "https://arxiv.org/abs/2503.06100v3"
+        },
+        "c": "https://github.com/tennine2077/pdfnet",
+        "n": "PDFNet (HRSOD,UHRSD)",
+        "d": "2025-03-08",
+        "m1": "0.963",
+        "m2": "0.965",
+        "m3": "0.012"
+      },
+      {
+        "p": {
+          "name": "Bilateral Reference for High-Resolution Dichotomous Image Segmentation",
+          "link": "https://arxiv.org/abs/2401.03407v6"
+        },
+        "c": "https://github.com/zhengpeng7/birefnet",
+        "n": "BiRefNet (DUTS, HRSOD)",
+        "d": "2024-01-07",
+        "m1": "0.962",
+        "m2": "0.963",
+        "m3": "0.011"
+      },
+      {
+        "p": {
+          "name": "Bilateral Reference for High-Resolution Dichotomous Image Segmentation",
+          "link": "https://arxiv.org/abs/2401.03407v6"
+        },
+        "c": "https://github.com/zhengpeng7/birefnet",
+        "n": "BiRefNet (DUTS, HRSOD, UHRSD)",
+        "d": "2024-01-07",
+        "m1": "0.962",
+        "m2": "0.961",
+        "m3": "0.013"
+      },
+      {
+        "p": {
+          "name": "Revisiting Image Pyramid Structure for High Resolution Salient Object Detection",
+          "link": "https://arxiv.org/abs/2209.09475v3"
+        },
+        "c": "https://github.com/plemeri/transparent-background",
+        "n": "InSPyReNet (DUTS, HRSOD)",
+        "d": "2022-09-20",
+        "m1": "0.960",
+        "m2": "0.957",
+        "m3": "0.014",
+        "m4": "0.766"
+      },
+      {
+        "p": {
+          "name": "Bilateral Reference for High-Resolution Dichotomous Image Segmentation",
+          "link": "https://arxiv.org/abs/2401.03407v6"
+        },
+        "c": "https://github.com/zhengpeng7/birefnet",
+        "n": "BiRefNet (DUTS, UHRSD)",
+        "d": "2024-01-07",
+        "m1": "0.959",
+        "m2": "0.958",
+        "m3": "0.014"
+      },
+      {
+        "p": {
+          "name": "Bilateral Reference for High-Resolution Dichotomous Image Segmentation",
+          "link": "https://arxiv.org/abs/2401.03407v6"
+        },
+        "c": "https://github.com/zhengpeng7/birefnet",
+        "n": "BiRefNet (DUTS)",
+        "d": "2024-01-07",
+        "m1": "0.957",
+        "m2": "0.958",
+        "m3": "0.014"
+      },
+      {
+        "p": {
+          "name": "Revisiting Image Pyramid Structure for High Resolution Salient Object Detection",
+          "link": "https://arxiv.org/abs/2209.09475v3"
+        },
+        "c": "https://github.com/plemeri/transparent-background",
+        "n": "InSPyReNet (HRSOD, UHRSD)",
+        "d": "2022-09-20",
+        "m1": "0.956",
+        "m2": "0.956",
+        "m3": "0.018",
+        "m4": "0.771"
+      },
+      {
+        "p": {
+          "name": "Bilateral Reference for High-Resolution Dichotomous Image Segmentation",
+          "link": "https://arxiv.org/abs/2401.03407v6"
+        },
+        "c": "https://github.com/zhengpeng7/birefnet",
+        "n": "BiRefNet (HRSOD, UHRSD)",
+        "d": "2024-01-07",
+        "m1": "0.956",
+        "m2": "0.953",
+        "m3": "0.016"
+      },
+      {
+        "p": {
+          "name": "Revisiting Image Pyramid Structure for High Resolution Salient Object Detection",
+          "link": "https://arxiv.org/abs/2209.09475v3"
+        },
+        "c": "https://github.com/plemeri/transparent-background",
+        "n": "InSPyReNet",
+        "d": "2022-09-20",
+        "m1": "0.952",
+        "m2": "0.949",
+        "m3": "0.016",
+        "m4": "0.738"
+      },
+      {
+        "p": {
+          "name": "Pyramid Grafting Network for One-Stage High Resolution Saliency Detection",
+          "link": "https://arxiv.org/abs/2204.05041v2"
+        },
+        "c": "https://github.com/icvteam/pgnet",
+        "n": "PGNet (HRSOD, UHRSD)",
+        "d": "2022-04-11",
+        "m1": "0.938",
+        "m2": "0.939",
+        "m3": "0.020",
+        "m4": "0.727"
+      },
+      {
+        "p": {
+          "name": "Pyramid Grafting Network for One-Stage High Resolution Saliency Detection",
+          "link": "https://arxiv.org/abs/2204.05041v2"
+        },
+        "c": "https://github.com/icvteam/pgnet",
+        "n": "PGNet (DUTS, HRSOD)",
+        "d": "2022-04-11",
+        "m1": "0.935",
+        "m2": "0.929",
+        "m3": "0.020",
+        "m4": "0.714"
+      },
+      {
+        "p": {
+          "name": "Pyramid Grafting Network for One-Stage High Resolution Saliency Detection",
+          "link": "https://arxiv.org/abs/2204.05041v2"
+        },
+        "c": "https://github.com/icvteam/pgnet",
+        "n": "PGNet",
+        "d": "2022-04-11",
+        "m1": "0.930",
+        "m2": "0.922",
+        "m3": "0.021",
+        "m4": "0.693"
+      },
+      {
+        "p": {
+          "name": "Disentangled High Quality Salient Object Detection",
+          "link": "https://arxiv.org/abs/2108.03551v2"
+        },
+        "c": "https://github.com/jiwei0921/Saliency-Evaluation-Toolbox",
+        "n": "Tang et al. (HRSOD)",
+        "d": "2021-08-08",
+        "m1": "0.920",
+        "m2": "0.915",
+        "m3": "0.022",
+        "m4": "0.693"
+      },
+      {
+        "p": {
+          "name": "Towards High-Resolution Salient Object Detection",
+          "link": "https://arxiv.org/abs/1908.07274v1"
+        },
+        "c": "https://github.com/yi94code/HRSOD",
+        "n": "Zeng et al.",
+        "d": "2019-08-20",
+        "m1": "0.892",
+        "m2": "0.892",
+        "m3": "0.030",
+        "m4": "0.693"
+      }
+    ]
+  }
+}

@@ -1,0 +1,427 @@
+{
+  "title": "domain-generalization-on-imagenet-r",
+  "task-hierarchy": [
+    "Domain Generalization"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/hendrycks/imagenet-r"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Top-1 Error Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time",
+          "link": "https://arxiv.org/abs/2203.05482v3"
+        },
+        "c": "https://github.com/mlfoundations/model-soups",
+        "n": "Model soups (BASIC-L)",
+        "d": "2022-03-10",
+        "m1": "3.90"
+      },
+      {
+        "p": {
+          "name": "Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time",
+          "link": "https://arxiv.org/abs/2203.05482v3"
+        },
+        "c": "https://github.com/mlfoundations/model-soups",
+        "n": "Model soups (ViT-G/14)",
+        "d": "2022-03-10",
+        "m1": "4.54"
+      },
+      {
+        "p": {
+          "name": "Context-Aware Robust Fine-Tuning",
+          "link": "https://arxiv.org/abs/2211.16175v1"
+        },
+        "c": "",
+        "n": "CAR-FT (CLIP, ViT-L/14@336px)",
+        "d": "2022-11-29",
+        "m1": "10.3"
+      },
+      {
+        "p": {
+          "name": "Understanding The Robustness in Vision Transformers",
+          "link": "https://arxiv.org/abs/2204.12451v4"
+        },
+        "c": "https://github.com/nvlabs/fan",
+        "n": "FAN-Hybrid-L(IN-21K, 384))",
+        "d": "2022-04-26",
+        "m1": "28.9"
+      },
+      {
+        "p": {
+          "name": "MetaFormer Baselines for Vision",
+          "link": "https://arxiv.org/abs/2210.13452v4"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "CAFormer-B36 (IN21K, 384)",
+        "d": "2022-10-24",
+        "m1": "29.6"
+      },
+      {
+        "p": {
+          "name": "A Whac-A-Mole Dilemma: Shortcuts Come in Multiples Where Mitigating One Amplifies Others",
+          "link": "https://arxiv.org/abs/2212.04825v2"
+        },
+        "c": "https://github.com/facebookresearch/Whac-A-Mole",
+        "n": "LLE (ViT-B/16, SWAG, Edge Aug)",
+        "d": "2022-12-09",
+        "m1": "31.3"
+      },
+      {
+        "p": {
+          "name": "MetaFormer Baselines for Vision",
+          "link": "https://arxiv.org/abs/2210.13452v4"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "CAFormer-B36 (IN21K)",
+        "d": "2022-10-24",
+        "m1": "31.7"
+      },
+      {
+        "p": {
+          "name": "A ConvNet for the 2020s",
+          "link": "https://arxiv.org/abs/2201.03545v2"
+        },
+        "c": "https://github.com/keras-team/keras/blob/master/keras/applications/convnext.py",
+        "n": "ConvNeXt-XL (Im21k, 384)",
+        "d": "2022-01-10",
+        "m1": "31.8"
+      },
+      {
+        "p": {
+          "name": "A Whac-A-Mole Dilemma: Shortcuts Come in Multiples Where Mitigating One Amplifies Others",
+          "link": "https://arxiv.org/abs/2212.04825v2"
+        },
+        "c": "https://github.com/facebookresearch/Whac-A-Mole",
+        "n": "LLE (ViT-H/14, MAE, Edge Aug)",
+        "d": "2022-12-09",
+        "m1": "33.1"
+      },
+      {
+        "p": {
+          "name": "Masked Autoencoders Are Scalable Vision Learners",
+          "link": "https://arxiv.org/abs/2111.06377v2"
+        },
+        "c": "https://github.com/facebookresearch/mae",
+        "n": "MAE (ViT-H, 448)",
+        "d": "2021-11-11",
+        "m1": "33.5"
+      },
+      {
+        "p": {
+          "name": "MetaFormer Baselines for Vision",
+          "link": "https://arxiv.org/abs/2210.13452v4"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "ConvFormer-B36 (IN21K, 384)",
+        "d": "2022-10-24",
+        "m1": "33.5"
+      },
+      {
+        "p": {
+          "name": "Enhance the Visual Representation via Discrete Adversarial Training",
+          "link": "https://arxiv.org/abs/2209.07735v1"
+        },
+        "c": "https://github.com/alibaba/easyrobust/tree/main/examples/imageclassification/imagenet/dat",
+        "n": "MAE+DAT (ViT-H)",
+        "d": "2022-09-16",
+        "m1": "34.39"
+      },
+      {
+        "p": {
+          "name": "MetaFormer Baselines for Vision",
+          "link": "https://arxiv.org/abs/2210.13452v4"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "ConvFormer-B36 (IN21K)",
+        "d": "2022-10-24",
+        "m1": "34.7"
+      },
+      {
+        "p": {
+          "name": "Distilling Out-of-Distribution Robustness from Vision-Language Foundation Models",
+          "link": "https://arxiv.org/abs/2311.01441v2"
+        },
+        "c": "https://github.com/lapisrocks/DiscreteAdversarialDistillation",
+        "n": "Discrete Adversarial Distillation (ViT-B,224)",
+        "d": "2023-11-02",
+        "m1": "34.9"
+      },
+      {
+        "p": {
+          "name": "Generalized Parametric Contrastive Learning",
+          "link": "https://arxiv.org/abs/2209.12400v2"
+        },
+        "c": "https://github.com/dvlab-research/parametric-contrastive-learning",
+        "n": "GPaCo (ViT-L)",
+        "d": "2022-09-26",
+        "m1": "39.7"
+      },
+      {
+        "p": {
+          "name": "Improving Vision Transformers by Revisiting High-frequency Components",
+          "link": "https://arxiv.org/abs/2204.00993v3"
+        },
+        "c": "https://github.com/jiawangbai/HAT",
+        "n": "VOLO-D5+HAT",
+        "d": "2022-04-03",
+        "m1": "40.3"
+      },
+      {
+        "p": {
+          "name": "Pyramid Adversarial Training Improves ViT Performance",
+          "link": "https://arxiv.org/abs/2111.15121v2"
+        },
+        "c": "https://github.com/google-research/scenic/tree/main/scenic/projects/adversarialtraining",
+        "n": "Pyramid Adversarial Training Improves ViT (Im21k)",
+        "d": "2021-11-30",
+        "m1": "42.16"
+      },
+      {
+        "p": {
+          "name": "Fully Attentional Networks with Self-emerging Token Labeling",
+          "link": "https://arxiv.org/abs/2401.03844v1"
+        },
+        "c": "https://github.com/NVlabs/STL",
+        "n": "FAN-L-Hybrid+STL",
+        "d": "2024-01-08",
+        "m1": "43.4"
+      },
+      {
+        "p": {
+          "name": "Vision Models Are More Robust And Fair When Pretrained On Uncurated Images Without Supervision",
+          "link": "https://arxiv.org/abs/2202.08360v2"
+        },
+        "c": "https://github.com/facebookresearch/vissl",
+        "n": "SEER (RegNet10B)",
+        "d": "2022-02-16",
+        "m1": "43.9"
+      },
+      {
+        "p": {
+          "name": "Discrete Representations Strengthen Vision Transformer Robustness",
+          "link": "https://arxiv.org/abs/2111.10493v2"
+        },
+        "c": "https://github.com/alibaba/easyrobust/tree/main/examples/imageclassification/imagenet/drvit",
+        "n": "DiscreteViT",
+        "d": "2021-11-20",
+        "m1": "44.74"
+      },
+      {
+        "p": {
+          "name": "MetaFormer Baselines for Vision",
+          "link": "https://arxiv.org/abs/2210.13452v4"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "CAFormer-B36 (384)",
+        "d": "2022-10-24",
+        "m1": "45"
+      },
+      {
+        "p": {
+          "name": "Pyramid Adversarial Training Improves ViT Performance",
+          "link": "https://arxiv.org/abs/2111.15121v2"
+        },
+        "c": "https://github.com/google-research/scenic/tree/main/scenic/projects/adversarialtraining",
+        "n": "Pyramid Adversarial Training Improves ViT",
+        "d": "2021-11-30",
+        "m1": "46.08"
+      },
+      {
+        "p": {
+          "name": "MetaFormer Baselines for Vision",
+          "link": "https://arxiv.org/abs/2210.13452v4"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "CAFormer-B36",
+        "d": "2022-10-24",
+        "m1": "46.1"
+      },
+      {
+        "p": {
+          "name": "MetaFormer Baselines for Vision",
+          "link": "https://arxiv.org/abs/2210.13452v4"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "ConvFormer-B36 (384)",
+        "d": "2022-10-24",
+        "m1": "47.8"
+      },
+      {
+        "p": {
+          "name": "MetaFormer Baselines for Vision",
+          "link": "https://arxiv.org/abs/2210.13452v4"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "ConvFormer-B36",
+        "d": "2022-10-24",
+        "m1": "48.9"
+      },
+      {
+        "p": {
+          "name": "Towards Robust Vision Transformer",
+          "link": "https://arxiv.org/abs/2105.07926v4"
+        },
+        "c": "https://github.com/alibaba/easyrobust",
+        "n": "RVT-B*",
+        "d": "2021-05-17",
+        "m1": "51.3"
+      },
+      {
+        "p": {
+          "name": "Sequencer: Deep LSTM for Image Classification",
+          "link": "https://arxiv.org/abs/2205.01972v4"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "Sequencer2D-L",
+        "d": "2022-05-04",
+        "m1": "51.9"
+      },
+      {
+        "p": {
+          "name": "Towards Robust Vision Transformer",
+          "link": "https://arxiv.org/abs/2105.07926v4"
+        },
+        "c": "https://github.com/alibaba/easyrobust",
+        "n": "RVT-S*",
+        "d": "2021-05-17",
+        "m1": "52.3"
+      },
+      {
+        "p": {
+          "name": "The Many Faces of Robustness: A Critical Analysis of Out-of-Distribution Generalization",
+          "link": "https://arxiv.org/abs/2006.16241v3"
+        },
+        "c": "https://github.com/hendrycks/imagenet-r",
+        "n": "DeepAugment+AugMix (ResNet-50)",
+        "d": "2020-06-29",
+        "m1": " 53.2 "
+      },
+      {
+        "p": {
+          "name": "PRIME: A few primitives can boost robustness to common corruptions",
+          "link": "https://arxiv.org/abs/2112.13547v2"
+        },
+        "c": "https://github.com/amodas/PRIME-augmentations",
+        "n": "PRIME with JSD (ResNet-50)",
+        "d": "2021-12-27",
+        "m1": "53.7"
+      },
+      {
+        "p": {
+          "name": "Towards Robust Vision Transformer",
+          "link": "https://arxiv.org/abs/2105.07926v4"
+        },
+        "c": "https://github.com/alibaba/easyrobust",
+        "n": "RVT-Ti*",
+        "d": "2021-05-17",
+        "m1": "56.1"
+      },
+      {
+        "p": {
+          "name": "PRIME: A few primitives can boost robustness to common corruptions",
+          "link": "https://arxiv.org/abs/2112.13547v2"
+        },
+        "c": "https://github.com/amodas/PRIME-augmentations",
+        "n": "PRIME (ResNet-50)",
+        "d": "2021-12-27",
+        "m1": "57.1"
+      },
+      {
+        "p": {
+          "name": "The Many Faces of Robustness: A Critical Analysis of Out-of-Distribution Generalization",
+          "link": "https://arxiv.org/abs/2006.16241v3"
+        },
+        "c": "https://github.com/hendrycks/imagenet-r",
+        "n": "DeepAugment (ResNet-50)",
+        "d": "2020-06-29",
+        "m1": "57.8"
+      },
+      {
+        "p": {
+          "name": "ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness",
+          "link": "https://arxiv.org/abs/1811.12231v3"
+        },
+        "c": "https://github.com/rgeirhos/texture-vs-shape",
+        "n": "Stylized ImageNet (ResNet-50)",
+        "d": "2018-11-29",
+        "m1": "58.5 "
+      },
+      {
+        "p": {
+          "name": "AugMix: A Simple Data Processing Method to Improve Robustness and Uncertainty",
+          "link": "https://arxiv.org/abs/1912.02781v2"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "AugMix (ResNet-50)",
+        "d": "2019-12-05",
+        "m1": "58.9"
+      },
+      {
+        "p": {
+          "name": "Deep Residual Learning for Image Recognition",
+          "link": "http://arxiv.org/abs/1512.03385v1"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/research/deeplab",
+        "n": "ResNet-50",
+        "d": "2015-12-10",
+        "m1": "63.9"
+      },
+      {
+        "p": {
+          "name": "When Vision Transformers Outperform ResNets without Pre-training or Strong Data Augmentations",
+          "link": "https://arxiv.org/abs/2106.01548v3"
+        },
+        "c": "https://github.com/google-research/vision_transformer",
+        "n": "ResNet-152x2-SAM",
+        "d": "2021-06-03",
+        "m1": "71.9"
+      },
+      {
+        "p": {
+          "name": "When Vision Transformers Outperform ResNets without Pre-training or Strong Data Augmentations",
+          "link": "https://arxiv.org/abs/2106.01548v3"
+        },
+        "c": "https://github.com/google-research/vision_transformer",
+        "n": "ViT-B/16-SAM",
+        "d": "2021-06-03",
+        "m1": "73.6"
+      },
+      {
+        "p": {
+          "name": "When Vision Transformers Outperform ResNets without Pre-training or Strong Data Augmentations",
+          "link": "https://arxiv.org/abs/2106.01548v3"
+        },
+        "c": "https://github.com/google-research/vision_transformer",
+        "n": "Mixer-B/8-SAM",
+        "d": "2021-06-03",
+        "m1": "76.5"
+      }
+    ]
+  }
+}

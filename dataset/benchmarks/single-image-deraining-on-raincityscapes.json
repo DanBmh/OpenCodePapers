@@ -1,0 +1,103 @@
+{
+  "title": "single-image-deraining-on-raincityscapes",
+  "task-hierarchy": [
+    "Rain Removal",
+    "Single Image Deraining"
+  ],
+  "dataset-info": {
+    "link": "https://www.cityscapes-dataset.com/downloads/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MCW-Net: Single Image Deraining with Multi-level Connections and Wide Regional Non-local Blocks",
+          "link": "https://arxiv.org/abs/2009.13990v4"
+        },
+        "c": "https://github.com/yechanp/MCW-Net",
+        "n": "MCW-Net",
+        "d": "2020-09-29",
+        "m1": "35.82",
+        "m2": "0.987"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "DGNL-Net ",
+        "d": null,
+        "m1": "32.44",
+        "m2": "0.9733"
+      },
+      {
+        "p": {
+          "name": "Spatial Attentive Single-Image Deraining with a High Quality Real Rain Dataset",
+          "link": "https://arxiv.org/abs/1904.01538v2"
+        },
+        "c": "https://github.com/stevewongv/SPANet",
+        "n": "SPANet",
+        "d": "2019-04-02",
+        "m1": "31.48",
+        "m2": "0.9656"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "DGNL-Net-fast",
+        "d": null,
+        "m1": "30.59",
+        "m2": "0.9560"
+      },
+      {
+        "p": {
+          "name": "Depth-Attentional Features for Single-Image Rain Removal",
+          "link": "http://openaccess.thecvf.com/content_CVPR_2019/html/Hu_Depth-Attentional_Features_for_Single-Image_Rain_Removal_CVPR_2019_paper.html"
+        },
+        "c": "",
+        "n": "DAF-Net",
+        "d": "2019-06-01",
+        "m1": "30.06",
+        "m2": "0.9530"
+      },
+      {
+        "p": {
+          "name": "Density-aware Single Image De-raining using a Multi-stream Dense Network",
+          "link": "http://arxiv.org/abs/1802.07412v1"
+        },
+        "c": "https://github.com/hezhangsprinter/DID-MDN",
+        "n": "DID-MDN",
+        "d": "2018-02-21",
+        "m1": "28.43",
+        "m2": "0.9349"
+      }
+    ]
+  }
+}

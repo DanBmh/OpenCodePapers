@@ -1,0 +1,78 @@
+{
+  "title": "generative-question-answering-on-cicero",
+  "task-hierarchy": [
+    "Question Answering",
+    "Generative Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://declare-lab.net/CICERO/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "ROUGE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "CICERO: A Dataset for Contextualized Commonsense Inference in Dialogues",
+          "link": "https://arxiv.org/abs/2203.13926v3"
+        },
+        "c": "https://github.com/declare-lab/CICERO",
+        "n": "T5-large pre-trained on GLUCOSE",
+        "d": "2022-03-25",
+        "m1": "0.2980"
+      },
+      {
+        "p": {
+          "name": "CICERO: A Dataset for Contextualized Commonsense Inference in Dialogues",
+          "link": "https://arxiv.org/abs/2203.13926v3"
+        },
+        "c": "https://github.com/declare-lab/CICERO",
+        "n": "T5-large",
+        "d": "2022-03-25",
+        "m1": "0.2946"
+      },
+      {
+        "p": {
+          "name": "CICERO: A Dataset for Contextualized Commonsense Inference in Dialogues",
+          "link": "https://arxiv.org/abs/2203.13926v3"
+        },
+        "c": "https://github.com/declare-lab/CICERO",
+        "n": "T5-large pre-trained on COMET",
+        "d": "2022-03-25",
+        "m1": "0.2878"
+      },
+      {
+        "p": {
+          "name": "CICERO: A Dataset for Contextualized Commonsense Inference in Dialogues",
+          "link": "https://arxiv.org/abs/2203.13926v3"
+        },
+        "c": "https://github.com/declare-lab/CICERO",
+        "n": "BART",
+        "d": "2022-03-25",
+        "m1": "0.2837"
+      }
+    ]
+  }
+}

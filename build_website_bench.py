@@ -1,5 +1,4 @@
 import argparse
-import ast
 import html
 import json
 import os
@@ -8,74 +7,21 @@ from datetime import datetime
 
 # ==================================================================================================
 
-MD_JSON_BLOCK_RE = re.compile(
-    r"```json:table\s*(\{.*?\})\s*```",
-    re.DOTALL | re.IGNORECASE,
-)
 
-TITLE_RE = re.compile(r"^\s*#\s+(.+?)\s*$", re.MULTILINE)
-TASK_HIER_RE = re.compile(r"Task\s*Hierarchy:\s*(\[.*?\])", re.IGNORECASE)
-DATASET_LINK_RE = re.compile(r"\[Dataset Link\]\((.*?)\)")
+def parse_json(json_path: str):
+    """Load benchmark data from JSON file."""
+    with open(json_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
 
-MD_LINK_RE = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
-
-# ==================================================================================================
-
-
-def _preserve_whitelisted_entities(s: str) -> str:
-    """Undo escaping for a few safe named entities often used in your data."""
-    return (
-        s.replace("&amp;check;", "&check;")
-        .replace("&amp;nbsp;", "&nbsp;")
-        .replace("&amp;times;", "&times;")
-    )
-
-
-# ==================================================================================================
-
-
-def md_links_to_html(s: str) -> str:
-    """Convert [text](url) to <a> while preserving whitelisted HTML entities in 'text'."""
-
-    def _repl(m):
-        text = html.escape(m.group(1), quote=True)
-        text = _preserve_whitelisted_entities(text)  # allow &check; &nbsp; etc.
-        url = html.escape(m.group(2), quote=True)
-        return f'<a href="{url}" target="_blank" rel="noopener noreferrer">{text}</a>'
-
-    return MD_LINK_RE.sub(_repl, s)
-
-
-# ==================================================================================================
-
-
-def parse_markdown(md_text: str):
-    # Title
-    m = TITLE_RE.search(md_text)
-    title = m.group(1).strip() if m else "Benchmark"
-
-    # Dataset link
-    m = DATASET_LINK_RE.search(md_text)
-    dataset_link = m.group(1).strip() if m else None
-
-    # Task hierarchy
-    m = TASK_HIER_RE.search(md_text)
-    task_hierarchy = None
-    if m:
-        raw = m.group(1)
-        try:
-            task_hierarchy = json.loads(raw)
-        except Exception:
-            try:
-                task_hierarchy = ast.literal_eval(raw)
-            except Exception:
-                task_hierarchy = None
-
-    # JSON table block
-    m = MD_JSON_BLOCK_RE.search(md_text)
-    if not m:
-        raise ValueError("Could not find ```json:table ...``` block in markdown.")
-    table_spec = json.loads(m.group(1))
+    title = data.get("title", "Benchmark")
+    task_hierarchy = data.get("task-hierarchy", [])
+    dataset_info = data.get("dataset-info", {})
+    dataset_link = dataset_info.get("link")
+    benchmark = data.get("benchmark", {})
+    table_spec = {
+        "fields": benchmark.get("fields", []),
+        "items": benchmark.get("items", []),
+    }
 
     return title, dataset_link, task_hierarchy, table_spec
 
@@ -138,7 +84,6 @@ def to_date_iso(val):
 def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
     fields = table_spec.get("fields", [])
     items = table_spec.get("items", [])
-    caption = table_spec.get("caption", "")
 
     # Field metadata
     columns = []
@@ -173,10 +118,20 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
             raw = row.get(key, "")
             # Display
             if isinstance(raw, str):
-                cell_html = md_links_to_html(raw)
-                if cell_html == raw:  # no link converted
+                # Special handling for code links ("c" field)
+                if key == "c" and raw.strip():
+                    url = html.escape(raw, quote=True)
+                    cell_html = f'<a href="{url}" target="_blank" rel="noopener noreferrer">&check;&nbsp;Link</a>'
+                else:
                     cell_html = html.escape(raw)
-                cell_html = _preserve_whitelisted_entities(cell_html)
+            elif isinstance(raw, dict):
+                # Handle paper link dict {"name": "...", "link": "..."}
+                if key == "p" and "name" in raw and "link" in raw:
+                    name = html.escape(raw["name"])
+                    link = html.escape(raw["link"], quote=True)
+                    cell_html = f'<a href="{link}" target="_blank" rel="noopener noreferrer">{name}</a>'
+                else:
+                    cell_html = html.escape(str(raw))
             elif raw is None:
                 cell_html = ""
             else:
@@ -202,7 +157,7 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
             tds.append(f"<td{attr}>{cell_html}</td>")
 
         raw_code = row.get("c", "")
-        has_code = bool(isinstance(raw_code, str) and "](" in raw_code)
+        has_code = bool(isinstance(raw_code, str) and raw_code.strip())
 
         # Chart series
         if date_key:
@@ -260,8 +215,7 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
             size_js = json.dumps(marker_sizes)
             symbol_js = json.dumps(marker_symbols)
 
-            out.append(
-                f"""{{
+            out.append(f"""{{
                     name: "{name}",
                     x: {x_js},
                     y: {y_js},
@@ -273,8 +227,7 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
                         symbol: {symbol_js}
                     }},
                     hovertemplate: '%{{y}}<extra>%{{text}}</extra>'
-                }}"""
-            )
+                }}""")
         return ",\n".join(out)
 
     traces_js_code = build_traces(series_code)
@@ -291,13 +244,14 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
     if dataset_link:
         dataset_link_html = f'<a class="dataset-link" href="{html.escape(dataset_link)}" target="_blank" rel="noopener noreferrer">Dataset Link</a>'
 
+    # Add caption to contribution page
     caption_html = ""
-    if caption:
-        caption_html = md_links_to_html(caption)
+    cont = 'Check out how to <a href="https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">contribute</a>  new results.'
+    caption_html += cont
 
-    # Add link to file source
+    # Add link to file source (JSON version)
     note = ' Then edit <a href="https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/dataset/benchmarks/{}?plain=0" target="_blank" rel="noopener noreferrer">this</a> file.'
-    note = note.format(os.path.basename(out_path).replace("html", "md"))
+    note = note.format(os.path.basename(out_path).replace("html", "json"))
     caption_html += note
 
     # Build columns (headers)
@@ -579,12 +533,10 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
 # ==================================================================================================
 
 
-def process_markdown_file(md_path: str, out_dir: str):
-    with open(md_path, "r", encoding="utf-8") as f:
-        md_text = f.read()
-    title, dataset_link, task_hierarchy, table_spec = parse_markdown(md_text)
+def process_json_file(json_path: str, out_dir: str):
+    title, dataset_link, task_hierarchy, table_spec = parse_json(json_path)
 
-    base = os.path.splitext(os.path.basename(md_path))[0]
+    base = os.path.splitext(os.path.basename(json_path))[0]
     out_path = os.path.join(out_dir, base + ".html")
     render_html(title, dataset_link, task_hierarchy, table_spec, out_path)
     return out_path
@@ -595,7 +547,7 @@ def process_markdown_file(md_path: str, out_dir: str):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Build HTML pages from benchmark Markdown files."
+        description="Build HTML pages from benchmark JSON files."
     )
     parser.add_argument("--input", "-i", default="dataset/benchmarks")
     parser.add_argument("--output", "-o", default="public/benchmarks")
@@ -611,14 +563,14 @@ def main():
 
     made = []
     for name in os.listdir(in_dir):
-        if not name.lower().endswith(".md"):
+        if not name.lower().endswith(".json"):
             continue
-        md_path = os.path.join(in_dir, name)
+        json_path = os.path.join(in_dir, name)
         try:
-            out_path = process_markdown_file(md_path, out_dir)
+            out_path = process_json_file(json_path, out_dir)
             made.append(out_path)
         except Exception as e:
-            print(f" Skipped {md_path}: {e}")
+            print(f" Skipped {json_path}: {e}")
 
     if not made:
         print("No HTML generated. ")

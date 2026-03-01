@@ -1,0 +1,112 @@
+{
+  "title": "point-cloud-generation-on-shapenet-chair",
+  "task-hierarchy": [
+    "Point Cloud Generation"
+  ],
+  "dataset-info": {
+    "link": "https://www.shapenet.org/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "1-NNA-CD",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "MMD-CD",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "CD",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "EMD",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "1-NNA-EMD",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DiT-3D: Exploring Plain Diffusion Transformers for 3D Shape Generation",
+          "link": "https://arxiv.org/abs/2307.01831v1"
+        },
+        "c": "https://github.com/DiT-3D/DiT-3D",
+        "n": "DiT-3D",
+        "d": "2023-07-04",
+        "m1": "51.99",
+        "m3": "54.76",
+        "m4": "57.37"
+      },
+      {
+        "p": {
+          "name": "LION: Latent Point Diffusion Models for 3D Shape Generation",
+          "link": "https://arxiv.org/abs/2210.06978v1"
+        },
+        "c": "https://github.com/nv-tlabs/LION",
+        "n": "LION",
+        "d": "2022-10-12",
+        "m1": "52.07",
+        "m5": "48.67"
+      },
+      {
+        "p": {
+          "name": "SetVAE: Learning Hierarchical Composition for Generative Modeling of Set-Structured Data",
+          "link": "https://arxiv.org/abs/2103.15619v1"
+        },
+        "c": "https://github.com/jw9730/setvae",
+        "n": "SetVAE",
+        "d": "2021-03-29",
+        "m1": "58.76",
+        "m2": "2.55"
+      },
+      {
+        "p": {
+          "name": "SoftFlow: Probabilistic Framework for Normalizing Flow on Manifolds",
+          "link": "https://arxiv.org/abs/2006.04604v4"
+        },
+        "c": "https://github.com/ANLGBOY/SoftFlow",
+        "n": "SoftPointFlow",
+        "d": "2020-06-08",
+        "m1": "59.95"
+      },
+      {
+        "p": {
+          "name": "PointFlow: 3D Point Cloud Generation with Continuous Normalizing Flows",
+          "link": "https://arxiv.org/abs/1906.12320v3"
+        },
+        "c": "https://github.com/rameenabdal/styleflow",
+        "n": "PointFlow",
+        "d": "2019-06-28",
+        "m1": "60.88",
+        "m2": "2.42"
+      }
+    ]
+  }
+}

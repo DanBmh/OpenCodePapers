@@ -1,0 +1,67 @@
+{
+  "title": "classification-on-shd-adding",
+  "task-hierarchy": [
+    "Classification"
+  ],
+  "dataset-info": {
+    "link": "https://zenkelab.org/resources/spiking-heidelberg-datasets-shd/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "The Expressive Leaky Memory Neuron: an Efficient and Expressive Phenomenological Neuron Model Can Solve Long-Horizon Tasks",
+          "link": "https://arxiv.org/abs/2306.16922v3"
+        },
+        "c": "https://github.com/AaronSpieler/elmneuron",
+        "n": "ELM Neuron",
+        "d": "2023-06-14",
+        "m1": "82"
+      },
+      {
+        "p": {
+          "name": "The Expressive Leaky Memory Neuron: an Efficient and Expressive Phenomenological Neuron Model Can Solve Long-Horizon Tasks",
+          "link": "https://arxiv.org/abs/2306.16922v3"
+        },
+        "c": "https://github.com/AaronSpieler/elmneuron",
+        "n": "LSTM",
+        "d": "2023-06-14",
+        "m1": "10"
+      },
+      {
+        "p": {
+          "name": "The Expressive Leaky Memory Neuron: an Efficient and Expressive Phenomenological Neuron Model Can Solve Long-Horizon Tasks",
+          "link": "https://arxiv.org/abs/2306.16922v3"
+        },
+        "c": "https://github.com/AaronSpieler/elmneuron",
+        "n": "LIF-SNN",
+        "d": "2023-06-14",
+        "m1": "FAIL"
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "title": "image-generation-on-ffhq-512-x-512",
+  "task-hierarchy": [
+    "Image Generation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/NVlabs/ffhq-dataset"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "FID",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SAN: Inducing Metrizability of GAN with Discriminative Normalized Linear Layer",
+          "link": "https://arxiv.org/abs/2301.12811v4"
+        },
+        "c": "https://github.com/sony/san",
+        "n": "StyleSAN-XL",
+        "d": "2023-01-30",
+        "m1": "1.77"
+      },
+      {
+        "p": {
+          "name": "StyleGAN-XL: Scaling StyleGAN to Large Diverse Datasets",
+          "link": "https://arxiv.org/abs/2202.00273v2"
+        },
+        "c": "https://github.com/autonomousvision/stylegan-xl",
+        "n": "StyleGAN-XL",
+        "d": "2022-02-01",
+        "m1": "2.41"
+      },
+      {
+        "p": {
+          "name": "Anycost GANs for Interactive Image Synthesis and Editing",
+          "link": "https://arxiv.org/abs/2103.03243v1"
+        },
+        "c": "https://github.com/mit-han-lab/anycost-gan",
+        "n": "Anycost GAN",
+        "d": "2021-03-04",
+        "m1": "3.08"
+      }
+    ]
+  }
+}

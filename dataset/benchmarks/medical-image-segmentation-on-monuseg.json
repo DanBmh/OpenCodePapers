@@ -1,0 +1,218 @@
+{
+  "title": "medical-image-segmentation-on-monuseg",
+  "task-hierarchy": [
+    "Medical Image Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://monuseg.grand-challenge.org/Data/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "IoU",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "AHD95",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "ASD",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Cell Detection with Star-convex Polygons",
+          "link": "http://arxiv.org/abs/1806.03535v2"
+        },
+        "c": "https://github.com/stardist/stardist",
+        "n": "Stardist",
+        "d": "2018-06-09",
+        "m1": "84.6"
+      },
+      {
+        "p": {
+          "name": "Rethinking the Nested U-Net Approach: Enhancing Biomarker Segmentation with Attention Mechanisms and Multiscale Feature Fusion",
+          "link": "https://arxiv.org/abs/2504.06158v1"
+        },
+        "c": "https://github.com/saadwazir/ReN-UNet",
+        "n": "ReN-UNet",
+        "d": "2025-04-08",
+        "m1": "84.12",
+        "m2": "73.06",
+        "m3": "2.2422",
+        "m4": "0.1583"
+      },
+      {
+        "p": {
+          "name": "Hi-gMISnet: generalized medical image segmentation using DWT based multilayer fusion and dual mode attention into high resolution pGAN",
+          "link": "https://iopscience.iop.org/article/10.1088/1361-6560/ad3cb3"
+        },
+        "c": "https://github.com/tushartalukder/HigMISnet",
+        "n": "Hi-gMISnet",
+        "d": "2024-05-20",
+        "m1": "82.50"
+      },
+      {
+        "p": {
+          "name": "LViT: Language meets Vision Transformer in Medical Image Segmentation",
+          "link": "https://arxiv.org/abs/2206.14718v4"
+        },
+        "c": "https://github.com/huanglizi/lvit",
+        "n": "LViT-L",
+        "d": "2022-06-29",
+        "m1": "81.01",
+        "m2": "68.2"
+      },
+      {
+        "p": {
+          "name": "Masked Diffusion as Self-supervised Representation Learner",
+          "link": "https://arxiv.org/abs/2308.05695v4"
+        },
+        "c": "https://github.com/zx-pan/mdm",
+        "n": "MDM",
+        "d": "2023-08-10",
+        "m1": "81.01"
+      },
+      {
+        "p": {
+          "name": "LViT: Language meets Vision Transformer in Medical Image Segmentation",
+          "link": "https://arxiv.org/abs/2206.14718v4"
+        },
+        "c": "https://github.com/huanglizi/lvit",
+        "n": "LViT-LW",
+        "d": "2022-06-29",
+        "m1": "80.66",
+        "m2": "67.71"
+      },
+      {
+        "p": {
+          "name": "LViT: Language meets Vision Transformer in Medical Image Segmentation",
+          "link": "https://arxiv.org/abs/2206.14718v4"
+        },
+        "c": "https://github.com/huanglizi/lvit",
+        "n": "UCTransNet",
+        "d": "2022-06-29",
+        "m1": "79.87",
+        "m2": "66.68"
+      },
+      {
+        "p": {
+          "name": "Medical Transformer: Gated Axial-Attention for Medical Image Segmentation",
+          "link": "https://arxiv.org/abs/2102.10662v2"
+        },
+        "c": "https://github.com/jeya-maria-jose/Medical-Transformer",
+        "n": "LoGo",
+        "d": "2021-02-21",
+        "m1": "79.56",
+        "m2": "66.17"
+      },
+      {
+        "p": {
+          "name": "Medical Transformer: Gated Axial-Attention for Medical Image Segmentation",
+          "link": "https://arxiv.org/abs/2102.10662v2"
+        },
+        "c": "https://github.com/jeya-maria-jose/Medical-Transformer",
+        "n": "MedT",
+        "d": "2021-02-21",
+        "m1": "79.55",
+        "m2": "66.17"
+      },
+      {
+        "p": {
+          "name": "LViT: Language meets Vision Transformer in Medical Image Segmentation",
+          "link": "https://arxiv.org/abs/2206.14718v4"
+        },
+        "c": "https://github.com/huanglizi/lvit",
+        "n": "GTUNet",
+        "d": "2022-06-29",
+        "m1": "79.26",
+        "m2": "65.94"
+      },
+      {
+        "p": {
+          "name": "LViT: Language meets Vision Transformer in Medical Image Segmentation",
+          "link": "https://arxiv.org/abs/2206.14718v4"
+        },
+        "c": "https://github.com/huanglizi/lvit",
+        "n": "UNet++",
+        "d": "2022-06-29",
+        "m1": "77.01",
+        "m2": "63.04"
+      },
+      {
+        "p": {
+          "name": "Medical Transformer: Gated Axial-Attention for Medical Image Segmentation",
+          "link": "https://arxiv.org/abs/2102.10662v2"
+        },
+        "c": "https://github.com/jeya-maria-jose/Medical-Transformer",
+        "n": "U-Net",
+        "d": "2021-02-21",
+        "m1": "76.83",
+        "m2": "62.49"
+      },
+      {
+        "p": {
+          "name": "HistoSeg : Quick attention with multi-loss function for multi-structure segmentation in digital histology images",
+          "link": "https://arxiv.org/abs/2209.00729v1"
+        },
+        "c": "https://github.com/saadwazir/HistoSeg",
+        "n": "HistoSeg",
+        "d": "2022-09-01",
+        "m2": "71.06"
+      },
+      {
+        "p": {
+          "name": "Dual Cross-Attention for Medical Image Segmentation",
+          "link": "https://arxiv.org/abs/2303.17696v1"
+        },
+        "c": "https://github.com/gorkemcanates/dual-cross-attention",
+        "n": "DoubleUnet-DCA",
+        "d": "2023-03-30",
+        "m2": "65.97"
+      },
+      {
+        "p": {
+          "name": "Rethinking Decoder Design: Improving Biomarker Segmentation Using Depth-to-Space Restoration and Residual Linear Attention",
+          "link": "https://arxiv.org/abs/2506.18335v1"
+        },
+        "c": "https://github.com/saadwazir/mcads-decoder",
+        "n": "MCADS-Decoder",
+        "d": "2025-06-23",
+        "m5": "74.04"
+      }
+    ]
+  }
+}

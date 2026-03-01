@@ -1,0 +1,158 @@
+{
+  "title": "multi-task-language-understanding-on-mgsm",
+  "task-hierarchy": [
+    "Multi-Task Learning",
+    "Multi-task Language Understanding"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/google-research/url-nlp/tree/main/mgsm"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Average (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "PaLM 2 Technical Report",
+          "link": "https://arxiv.org/abs/2305.10403v3"
+        },
+        "c": "https://github.com/eternityyw/tram-benchmark",
+        "n": "PaLM 2 (few-shot, k=8, SC)",
+        "d": "2023-05-17",
+        "m1": "87.0"
+      },
+      {
+        "p": {
+          "name": "PaLM 2 Technical Report",
+          "link": "https://arxiv.org/abs/2305.10403v3"
+        },
+        "c": "https://github.com/eternityyw/tram-benchmark",
+        "n": "PaLM 2 (8-shot, CoT)",
+        "d": "2023-05-17",
+        "m1": "72.2"
+      },
+      {
+        "p": {
+          "name": "Scaling Instruction-Finetuned Language Models",
+          "link": "https://arxiv.org/abs/2210.11416v5"
+        },
+        "c": "https://github.com/google-research/flan",
+        "n": "Flan-PaLM 540B (8-shot, fine-tuned, CoT + SC)",
+        "d": "2022-10-20",
+        "m1": "72.0"
+      },
+      {
+        "p": {
+          "name": "Scaling Instruction-Finetuned Language Models",
+          "link": "https://arxiv.org/abs/2210.11416v5"
+        },
+        "c": "https://github.com/google-research/flan",
+        "n": "Flan-U-PaLM 540B (CoT)",
+        "d": "2022-10-20",
+        "m1": "60.4"
+      },
+      {
+        "p": {
+          "name": "Scaling Instruction-Finetuned Language Models",
+          "link": "https://arxiv.org/abs/2210.11416v5"
+        },
+        "c": "https://github.com/google-research/flan",
+        "n": "Flan-PaLM 540B (8-shot, fine-tuned, CoT)",
+        "d": "2022-10-20",
+        "m1": "57.0"
+      },
+      {
+        "p": {
+          "name": "PaLM: Scaling Language Modeling with Pathways",
+          "link": "https://arxiv.org/abs/2204.02311v5"
+        },
+        "c": "https://github.com/lucidrains/CoCa-pytorch",
+        "n": "PaLM 540B",
+        "d": "2022-04-05",
+        "m1": "55.0"
+      },
+      {
+        "p": {
+          "name": "Transcending Scaling Laws with 0.1% Extra Compute",
+          "link": "https://arxiv.org/abs/2210.11399v2"
+        },
+        "c": "",
+        "n": "U-PaLM 540B (CoT)",
+        "d": "2022-10-20",
+        "m1": "49.9"
+      },
+      {
+        "p": {
+          "name": "Scaling Instruction-Finetuned Language Models",
+          "link": "https://arxiv.org/abs/2210.11416v5"
+        },
+        "c": "https://github.com/google-research/flan",
+        "n": "text-davinci-003",
+        "d": "2022-10-20",
+        "m1": "36"
+      },
+      {
+        "p": {
+          "name": "Scaling Instruction-Finetuned Language Models",
+          "link": "https://arxiv.org/abs/2210.11416v5"
+        },
+        "c": "https://github.com/google-research/flan",
+        "n": "code-davinci-002",
+        "d": "2022-10-20",
+        "m1": "35"
+      },
+      {
+        "p": {
+          "name": "Scaling Instruction-Finetuned Language Models",
+          "link": "https://arxiv.org/abs/2210.11416v5"
+        },
+        "c": "https://github.com/google-research/flan",
+        "n": "text-davinci-002",
+        "d": "2022-10-20",
+        "m1": "23.7"
+      },
+      {
+        "p": {
+          "name": "Scaling Instruction-Finetuned Language Models",
+          "link": "https://arxiv.org/abs/2210.11416v5"
+        },
+        "c": "https://github.com/google-research/flan",
+        "n": "Flan-PaLM 540B (8-shot, fine-tuned)",
+        "d": "2022-10-20",
+        "m1": "21.2"
+      },
+      {
+        "p": {
+          "name": "Scaling Instruction-Finetuned Language Models",
+          "link": "https://arxiv.org/abs/2210.11416v5"
+        },
+        "c": "https://github.com/google-research/flan",
+        "n": "GPT-3 Davinci 175B",
+        "d": "2022-10-20",
+        "m1": "5.7"
+      }
+    ]
+  }
+}

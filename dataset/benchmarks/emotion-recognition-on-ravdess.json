@@ -1,0 +1,92 @@
+{
+  "title": "emotion-recognition-on-ravdess",
+  "task-hierarchy": [
+    "Emotion Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://zenodo.org/record/1188976#.YFZuJ0j7SL8"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "WAR",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "A proposal for Multimodal Emotion Recognition using aural transformers and Action Units on RAVDESS dataset",
+          "link": "https://www.mdpi.com/2076-3417/12/1/327"
+        },
+        "c": "https://github.com/cristinalunaj/MMEmotionRecognition",
+        "n": "LogisticRegression on posteriors of xlsr-Wav2Vec2.0&bi-LSTM+Attention",
+        "d": "2021-12-30",
+        "m1": "86.70%"
+      },
+      {
+        "p": {
+          "name": "Self-attention fusion for audiovisual emotion recognition with incomplete data",
+          "link": "https://arxiv.org/abs/2201.11095v1"
+        },
+        "c": "https://github.com/katerynaCh/multimodal-emotion-recognition",
+        "n": "Intermediate-Attention-Fusion",
+        "d": "2022-01-26",
+        "m1": "81.58%"
+      },
+      {
+        "p": {
+          "name": "Multimodal Emotion Recognition on RAVDESS Dataset Using Transfer Learning",
+          "link": "https://www.mdpi.com/1424-8220/21/22/7665/htm"
+        },
+        "c": "",
+        "n": "Logistic Regression on posteriors of the CNN-14&biLSTM-GuidedST",
+        "d": "2021-11-18",
+        "m1": "80.08%"
+      },
+      {
+        "p": {
+          "name": "ERANNs: Efficient Residual Audio Neural Networks for Audio Pattern Recognition",
+          "link": "https://arxiv.org/abs/2106.01621v7"
+        },
+        "c": "",
+        "n": "ERANN-0-4",
+        "d": "2021-06-03",
+        "m1": "74.8"
+      },
+      {
+        "p": {
+          "name": "MultiMAE-DER: Multimodal Masked Autoencoder for Dynamic Emotion Recognition",
+          "link": "https://arxiv.org/abs/2404.18327v2"
+        },
+        "c": "https://github.com/Peihao-Xiang/MultiMAE-DFER",
+        "n": "MultiMAE-DER",
+        "d": "2024-04-28",
+        "m2": "83.61%"
+      }
+    ]
+  }
+}

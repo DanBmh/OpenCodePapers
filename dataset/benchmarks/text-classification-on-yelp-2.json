@@ -1,0 +1,88 @@
+{
+  "title": "text-classification-on-yelp-2",
+  "task-hierarchy": [
+    "Classification",
+    "Text Classification"
+  ],
+  "dataset-info": {
+    "link": "https://www.yelp.com/dataset"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+          "link": "https://arxiv.org/abs/1906.08237v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "XLNet",
+        "d": "2019-06-19",
+        "m1": "98.63%"
+      },
+      {
+        "p": {
+          "name": "How to Fine-Tune BERT for Text Classification?",
+          "link": "https://arxiv.org/abs/1905.05583v3"
+        },
+        "c": "https://github.com/xuyige/BERT4doc-Classification",
+        "n": "BERT-ITPT-FiT",
+        "d": "2019-05-14",
+        "m1": "98.08%"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Data Augmentation for Consistency Training",
+          "link": "https://arxiv.org/abs/1904.12848v6"
+        },
+        "c": "https://github.com/google-research/uda",
+        "n": "BERT Finetune + UDA",
+        "d": "2019-04-29",
+        "m1": "97.95%"
+      },
+      {
+        "p": {
+          "name": "Sampling Bias in Deep Active Classification: An Empirical Study",
+          "link": "https://arxiv.org/abs/1909.09389v1"
+        },
+        "c": "https://github.com/Xtra-Computing/thundersvm",
+        "n": "ULMFiT (Small data)",
+        "d": "2019-09-20",
+        "m1": "97.1%"
+      },
+      {
+        "p": {
+          "name": "Fine-Tuning Pre-trained Language Model with Weak Supervision: A Contrastive-Regularized Self-Training Approach",
+          "link": "https://arxiv.org/abs/2010.07835v3"
+        },
+        "c": "https://github.com/yueyu1030/COSINE",
+        "n": "COSINE",
+        "d": "2020-10-15",
+        "m1": "95.97%"
+      }
+    ]
+  }
+}

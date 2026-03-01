@@ -1,0 +1,87 @@
+{
+  "title": "image-retrieval-on-amstertime",
+  "task-hierarchy": [
+    "Image Retrieval"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/seyrankhademi/AmsterTime"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DINOv2: Learning Robust Visual Features without Supervision",
+          "link": "https://arxiv.org/abs/2304.07193v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "DINOv2 distilled (ViT-L/14 frozen)",
+        "d": "2023-04-14",
+        "m1": "50.0"
+      },
+      {
+        "p": {
+          "name": "DINOv2: Learning Robust Visual Features without Supervision",
+          "link": "https://arxiv.org/abs/2304.07193v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "DINOv2 (ViT-g/14 frozen)",
+        "d": "2023-04-14",
+        "m1": "46.7"
+      },
+      {
+        "p": {
+          "name": "DINOv2: Learning Robust Visual Features without Supervision",
+          "link": "https://arxiv.org/abs/2304.07193v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "DINOv2 distilled (ViT-B/14 frozen)",
+        "d": "2023-04-14",
+        "m1": "45.6"
+      },
+      {
+        "p": {
+          "name": "DINOv2: Learning Robust Visual Features without Supervision",
+          "link": "https://arxiv.org/abs/2304.07193v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "DINOv2 distilled (ViT-S/14 frozen)",
+        "d": "2023-04-14",
+        "m1": "43.5"
+      },
+      {
+        "p": {
+          "name": "AmsterTime: A Visual Place Recognition Benchmark Dataset for Severe Domain Shift",
+          "link": "https://arxiv.org/abs/2203.16291v2"
+        },
+        "c": "https://github.com/seyrankhademi/AmsterTime",
+        "n": "AP-GeM (ResNet-101)",
+        "d": "2022-03-30",
+        "m1": "35"
+      }
+    ]
+  }
+}

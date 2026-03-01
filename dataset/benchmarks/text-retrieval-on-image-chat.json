@@ -1,0 +1,84 @@
+{
+  "title": "text-retrieval-on-image-chat",
+  "task-hierarchy": [
+    "Retrieval",
+    "Text Retrieval"
+  ],
+  "dataset-info": {
+    "link": "http://parl.ai/projects/image_chat"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "R@1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "R@5",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Sum(R@1,5)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "PaCE: Unified Multi-modal Dialogue Pre-training with Progressive and Compositional Experts",
+          "link": "https://arxiv.org/abs/2305.14839v2"
+        },
+        "c": "https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/pace",
+        "n": "PaCE",
+        "d": "2023-05-24",
+        "m1": "51.9",
+        "m2": "76.8",
+        "m3": "128.7"
+      },
+      {
+        "p": {
+          "name": "Image Chat: Engaging Grounded Conversations",
+          "link": "https://arxiv.org/abs/1811.00945v2"
+        },
+        "c": "https://github.com/facebookresearch/ParlAI",
+        "n": "TransResNet",
+        "d": "2018-11-02",
+        "m1": "50.3",
+        "m2": "75.4",
+        "m3": "125.7"
+      },
+      {
+        "p": {
+          "name": "VLMo: Unified Vision-Language Pre-Training with Mixture-of-Modality-Experts",
+          "link": "https://arxiv.org/abs/2111.02358v2"
+        },
+        "c": "https://github.com/microsoft/unilm/tree/master/vlmo",
+        "n": "VLMo",
+        "d": "2021-11-03",
+        "m1": "46.8",
+        "m2": "67.5",
+        "m3": "114.3"
+      }
+    ]
+  }
+}

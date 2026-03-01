@@ -1,0 +1,86 @@
+{
+  "title": "text-generation-on-rocstories",
+  "task-hierarchy": [
+    "Text Generation"
+  ],
+  "dataset-info": {
+    "link": "https://cs.rochester.edu/nlp/rocstories/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "BLEU-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Perplexity",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "NeuroLogic A*esque Decoding: Constrained Text Generation with Lookahead Heuristics",
+          "link": "https://arxiv.org/abs/2112.08726v1"
+        },
+        "c": "https://github.com/GXimingLu/a_star_neurologic",
+        "n": "Beam search + A*esque (beam)",
+        "d": "2021-12-16",
+        "m1": "34.4",
+        "m2": "2.14"
+      },
+      {
+        "p": {
+          "name": "NeuroLogic A*esque Decoding: Constrained Text Generation with Lookahead Heuristics",
+          "link": "https://arxiv.org/abs/2112.08726v1"
+        },
+        "c": "https://github.com/GXimingLu/a_star_neurologic",
+        "n": "Beam search + A*esque (sample)",
+        "d": "2021-12-16",
+        "m1": "34.4",
+        "m2": "2.16"
+      },
+      {
+        "p": {
+          "name": "NeuroLogic A*esque Decoding: Constrained Text Generation with Lookahead Heuristics",
+          "link": "https://arxiv.org/abs/2112.08726v1"
+        },
+        "c": "https://github.com/GXimingLu/a_star_neurologic",
+        "n": "Beam search + A*esque (greedy)",
+        "d": "2021-12-16",
+        "m1": "34.3",
+        "m2": "2.11"
+      },
+      {
+        "p": {
+          "name": "NeuroLogic A*esque Decoding: Constrained Text Generation with Lookahead Heuristics",
+          "link": "https://arxiv.org/abs/2112.08726v1"
+        },
+        "c": "https://github.com/GXimingLu/a_star_neurologic",
+        "n": "Beam search",
+        "d": "2021-12-16",
+        "m1": "33.7",
+        "m2": "2.24"
+      }
+    ]
+  }
+}

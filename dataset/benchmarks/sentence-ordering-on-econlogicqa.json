@@ -1,0 +1,217 @@
+{
+  "title": "sentence-ordering-on-econlogicqa",
+  "task-hierarchy": [
+    "Sentence Ordering"
+  ],
+  "dataset-info": {
+    "link": "https://huggingface.co/datasets/yinzhu-quan/econ_logic_qa"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "EconLogicQA: A Question-Answering Benchmark for Evaluating Large Language Models in Economic Sequential Reasoning",
+          "link": "https://arxiv.org/abs/2405.07938v2"
+        },
+        "c": "https://github.com/yinzhu-quan/lm-evaluation-harness",
+        "n": "GPT-4-Turbo",
+        "d": "2024-05-13",
+        "m1": "0.5692"
+      },
+      {
+        "p": {
+          "name": "EconLogicQA: A Question-Answering Benchmark for Evaluating Large Language Models in Economic Sequential Reasoning",
+          "link": "https://arxiv.org/abs/2405.07938v2"
+        },
+        "c": "https://github.com/yinzhu-quan/lm-evaluation-harness",
+        "n": "GPT-4",
+        "d": "2024-05-13",
+        "m1": "0.5538"
+      },
+      {
+        "p": {
+          "name": "EconLogicQA: A Question-Answering Benchmark for Evaluating Large Language Models in Economic Sequential Reasoning",
+          "link": "https://arxiv.org/abs/2405.07938v2"
+        },
+        "c": "https://github.com/yinzhu-quan/lm-evaluation-harness",
+        "n": "GPT-3.5-Turbo",
+        "d": "2024-05-13",
+        "m1": "0.3769"
+      },
+      {
+        "p": {
+          "name": "EconLogicQA: A Question-Answering Benchmark for Evaluating Large Language Models in Economic Sequential Reasoning",
+          "link": "https://arxiv.org/abs/2405.07938v2"
+        },
+        "c": "https://github.com/yinzhu-quan/lm-evaluation-harness",
+        "n": "Llama-3-8B-Instruct",
+        "d": "2024-05-13",
+        "m1": "0.3462"
+      },
+      {
+        "p": {
+          "name": "EconLogicQA: A Question-Answering Benchmark for Evaluating Large Language Models in Economic Sequential Reasoning",
+          "link": "https://arxiv.org/abs/2405.07938v2"
+        },
+        "c": "https://github.com/yinzhu-quan/lm-evaluation-harness",
+        "n": "Mistral-7B-Instruct-v0.2",
+        "d": "2024-05-13",
+        "m1": "0.3154"
+      },
+      {
+        "p": {
+          "name": "EconLogicQA: A Question-Answering Benchmark for Evaluating Large Language Models in Economic Sequential Reasoning",
+          "link": "https://arxiv.org/abs/2405.07938v2"
+        },
+        "c": "https://github.com/yinzhu-quan/lm-evaluation-harness",
+        "n": "Mistral-7B-v0.1",
+        "d": "2024-05-13",
+        "m1": "0.2615"
+      },
+      {
+        "p": {
+          "name": "EconLogicQA: A Question-Answering Benchmark for Evaluating Large Language Models in Economic Sequential Reasoning",
+          "link": "https://arxiv.org/abs/2405.07938v2"
+        },
+        "c": "https://github.com/yinzhu-quan/lm-evaluation-harness",
+        "n": "Mistral-7B-v0.2",
+        "d": "2024-05-13",
+        "m1": "0.2615"
+      },
+      {
+        "p": {
+          "name": "EconLogicQA: A Question-Answering Benchmark for Evaluating Large Language Models in Economic Sequential Reasoning",
+          "link": "https://arxiv.org/abs/2405.07938v2"
+        },
+        "c": "https://github.com/yinzhu-quan/lm-evaluation-harness",
+        "n": "Llama-3-8B",
+        "d": "2024-05-13",
+        "m1": "0.2385"
+      },
+      {
+        "p": {
+          "name": "EconLogicQA: A Question-Answering Benchmark for Evaluating Large Language Models in Economic Sequential Reasoning",
+          "link": "https://arxiv.org/abs/2405.07938v2"
+        },
+        "c": "https://github.com/yinzhu-quan/lm-evaluation-harness",
+        "n": "Zephyr-7B-Alpha",
+        "d": "2024-05-13",
+        "m1": "0.2308"
+      },
+      {
+        "p": {
+          "name": "EconLogicQA: A Question-Answering Benchmark for Evaluating Large Language Models in Economic Sequential Reasoning",
+          "link": "https://arxiv.org/abs/2405.07938v2"
+        },
+        "c": "https://github.com/yinzhu-quan/lm-evaluation-harness",
+        "n": "Yi-6B-Chat",
+        "d": "2024-05-13",
+        "m1": "0.2077"
+      },
+      {
+        "p": {
+          "name": "EconLogicQA: A Question-Answering Benchmark for Evaluating Large Language Models in Economic Sequential Reasoning",
+          "link": "https://arxiv.org/abs/2405.07938v2"
+        },
+        "c": "https://github.com/yinzhu-quan/lm-evaluation-harness",
+        "n": "Zephyr-7B-Beta",
+        "d": "2024-05-13",
+        "m1": "0.1769"
+      },
+      {
+        "p": {
+          "name": "EconLogicQA: A Question-Answering Benchmark for Evaluating Large Language Models in Economic Sequential Reasoning",
+          "link": "https://arxiv.org/abs/2405.07938v2"
+        },
+        "c": "https://github.com/yinzhu-quan/lm-evaluation-harness",
+        "n": "Mistral-7B-Instruct-v0.1",
+        "d": "2024-05-13",
+        "m1": "0.1538"
+      },
+      {
+        "p": {
+          "name": "EconLogicQA: A Question-Answering Benchmark for Evaluating Large Language Models in Economic Sequential Reasoning",
+          "link": "https://arxiv.org/abs/2405.07938v2"
+        },
+        "c": "https://github.com/yinzhu-quan/lm-evaluation-harness",
+        "n": "Llama-2-13B-Chat",
+        "d": "2024-05-13",
+        "m1": "0.1462"
+      },
+      {
+        "p": {
+          "name": "EconLogicQA: A Question-Answering Benchmark for Evaluating Large Language Models in Economic Sequential Reasoning",
+          "link": "https://arxiv.org/abs/2405.07938v2"
+        },
+        "c": "https://github.com/yinzhu-quan/lm-evaluation-harness",
+        "n": "Llama-2-7B-Chat",
+        "d": "2024-05-13",
+        "m1": "0.0923"
+      },
+      {
+        "p": {
+          "name": "EconLogicQA: A Question-Answering Benchmark for Evaluating Large Language Models in Economic Sequential Reasoning",
+          "link": "https://arxiv.org/abs/2405.07938v2"
+        },
+        "c": "https://github.com/yinzhu-quan/lm-evaluation-harness",
+        "n": "Gemma-2B-IT",
+        "d": "2024-05-13",
+        "m1": "0.0846"
+      },
+      {
+        "p": {
+          "name": "EconLogicQA: A Question-Answering Benchmark for Evaluating Large Language Models in Economic Sequential Reasoning",
+          "link": "https://arxiv.org/abs/2405.07938v2"
+        },
+        "c": "https://github.com/yinzhu-quan/lm-evaluation-harness",
+        "n": "Yi-6B",
+        "d": "2024-05-13",
+        "m1": "0.0385"
+      },
+      {
+        "p": {
+          "name": "EconLogicQA: A Question-Answering Benchmark for Evaluating Large Language Models in Economic Sequential Reasoning",
+          "link": "https://arxiv.org/abs/2405.07938v2"
+        },
+        "c": "https://github.com/yinzhu-quan/lm-evaluation-harness",
+        "n": "Gemma-7B-IT",
+        "d": "2024-05-13",
+        "m1": "0.0231"
+      },
+      {
+        "p": {
+          "name": "EconLogicQA: A Question-Answering Benchmark for Evaluating Large Language Models in Economic Sequential Reasoning",
+          "link": "https://arxiv.org/abs/2405.07938v2"
+        },
+        "c": "https://github.com/yinzhu-quan/lm-evaluation-harness",
+        "n": "Llama-2-7B",
+        "d": "2024-05-13",
+        "m1": "0.0077"
+      }
+    ]
+  }
+}

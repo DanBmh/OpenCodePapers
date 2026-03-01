@@ -1,0 +1,98 @@
+{
+  "title": "video-emotion-recognition-on-ekman6",
+  "task-hierarchy": [
+    "Emotion Recognition",
+    "Video Emotion Recognition"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "VEMOCLAP: A video emotion classification web application",
+          "link": "https://arxiv.org/abs/2410.21303v1"
+        },
+        "c": "",
+        "n": "VEMOCLAP",
+        "d": "2024-10-22",
+        "m1": "65.28"
+      },
+      {
+        "p": {
+          "name": "Representation Learning through Multimodal Attention and Time-Sync Comments for Affective Video Content Analysis",
+          "link": "https://dl.acm.org/doi/abs/10.1145/3503161.3548018"
+        },
+        "c": "",
+        "n": "TAM",
+        "d": "2022-10-14",
+        "m1": "61.00"
+      },
+      {
+        "p": {
+          "name": "Representation Learning through Multimodal Attention and Time-Sync Comments for Affective Video Content Analysis",
+          "link": "https://dl.acm.org/doi/abs/10.1145/3503161.3548018"
+        },
+        "c": "",
+        "n": "TAM w/o TSC",
+        "d": "2022-10-14",
+        "m1": "60.64"
+      },
+      {
+        "p": {
+          "name": "Weakly Supervised Video Emotion Detection and Prediction via Cross-Modal Temporal Erasing Network",
+          "link": "http://openaccess.thecvf.com//content/CVPR2023/html/Zhang_Weakly_Supervised_Video_Emotion_Detection_and_Prediction_via_Cross-Modal_Temporal_CVPR_2023_paper.html"
+        },
+        "c": "https://github.com/nku-zhichengzhang/wecl",
+        "n": "WECL",
+        "d": "2023-01-01",
+        "m1": "58.2"
+      },
+      {
+        "p": {
+          "name": "An End-to-End Visual-Audio Attention Network for Emotion Recognition in User-Generated Videos",
+          "link": "https://arxiv.org/abs/2003.00832v1"
+        },
+        "c": "",
+        "n": "VAANet",
+        "d": "2020-02-12",
+        "m1": "55.3"
+      },
+      {
+        "p": {
+          "name": "Heterogeneous Knowledge Transfer in Video Emotion Recognition, Attribution and Summarization",
+          "link": "http://arxiv.org/abs/1511.04798v2"
+        },
+        "c": "",
+        "n": "ITE",
+        "d": "2015-11-16",
+        "m1": "51.2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "title": "image-classification-on-emnist-digits",
+  "task-hierarchy": [
+    "Image Classification"
+  ],
+  "dataset-info": {
+    "link": "https://www.nist.gov/itl/products-and-services/emnist-dataset"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "WaveMix: A Resource-efficient Neural Network for Image Analysis",
+          "link": "https://arxiv.org/abs/2205.14375v5"
+        },
+        "c": "https://github.com/pranavphoenix/WaveMix",
+        "n": "WaveMixLite-112/16",
+        "d": "2022-05-28",
+        "m1": "99.82"
+      },
+      {
+        "p": {
+          "name": "An Evolutionary Approach to Dynamic Introduction of Tasks in Large-scale Multitask Learning Systems",
+          "link": "https://arxiv.org/abs/2205.12755v6"
+        },
+        "c": "https://github.com/google-research/google-research/tree/master/muNet",
+        "n": "µ2Net (ViT-L/16)",
+        "d": "2022-05-25",
+        "m1": "99.82"
+      },
+      {
+        "p": {
+          "name": "SpinalNet: Deep Neural Network with Gradual Input",
+          "link": "https://arxiv.org/abs/2007.03347v3"
+        },
+        "c": "https://github.com/dipuk0506/SpinalNet",
+        "n": "VGG-5(Spinal FC)",
+        "d": "2020-07-07",
+        "m1": "99.75"
+      },
+      {
+        "p": {
+          "name": "Efficient Neural Vision Systems Based on Convolutional Image Acquisition",
+          "link": "http://openaccess.thecvf.com/content_CVPR_2020/html/Pad_Efficient_Neural_Vision_Systems_Based_on_Convolutional_Image_Acquisition_CVPR_2020_paper.html"
+        },
+        "c": "",
+        "n": "OptConv+Log+Perc",
+        "d": "2020-06-01",
+        "m1": "99.43"
+      },
+      {
+        "p": {
+          "name": "Handwritten digit and letter recognition using hybrid dwt-dct with knn and svm classifier",
+          "link": "https://ieeexplore.ieee.org/abstract/document/8697684"
+        },
+        "c": "",
+        "n": "SVM classifier",
+        "d": "2018-08-18",
+        "m1": "97.74"
+      },
+      {
+        "p": {
+          "name": "EMNIST: an extension of MNIST to handwritten letters",
+          "link": "http://arxiv.org/abs/1702.05373v2"
+        },
+        "c": "https://github.com/Chizuchizu/amplify-hackathon",
+        "n": "OPIUM Classifier",
+        "d": "2017-02-17",
+        "m1": "96.30"
+      },
+      {
+        "p": {
+          "name": "EMNIST: an extension of MNIST to handwritten letters",
+          "link": "http://arxiv.org/abs/1702.05373v2"
+        },
+        "c": "https://github.com/Chizuchizu/amplify-hackathon",
+        "n": "Linear Classifier",
+        "d": "2017-02-17",
+        "m1": "84.70"
+      }
+    ]
+  }
+}

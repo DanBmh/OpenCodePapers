@@ -1,0 +1,98 @@
+{
+  "title": "weakly-supervised-object-detection-on-4",
+  "task-hierarchy": [
+    "Object Detection",
+    "Weakly Supervised Object Detection"
+  ],
+  "dataset-info": {
+    "link": "http://vuchallenge.org/charades.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MAP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Activity Driven Weakly Supervised Object Detection",
+          "link": "http://arxiv.org/abs/1904.01665v1"
+        },
+        "c": "",
+        "n": "Spatial Prior",
+        "d": "2019-04-02",
+        "m1": "10.03"
+      },
+      {
+        "p": {
+          "name": "PCL: Proposal Cluster Learning for Weakly Supervised Object Detection",
+          "link": "http://arxiv.org/abs/1807.03342v2"
+        },
+        "c": "https://github.com/ppengtang/pcl.pytorch",
+        "n": "PCL",
+        "d": "2018-07-09",
+        "m1": "2.83"
+      },
+      {
+        "p": {
+          "name": "Temporal Dynamic Graph LSTM for Action-driven Video Object Detection",
+          "link": "http://arxiv.org/abs/1708.00666v1"
+        },
+        "c": "",
+        "n": "TD-LSTM",
+        "d": "2017-08-02",
+        "m1": "1.98"
+      },
+      {
+        "p": {
+          "name": "ContextLocNet: Context-Aware Deep Network Models for Weakly Supervised Localization",
+          "link": "http://arxiv.org/abs/1609.04331v1"
+        },
+        "c": "https://github.com/vadimkantorov/contextlocnet",
+        "n": "ContextLocNet",
+        "d": "2016-09-14",
+        "m1": "1.12"
+      },
+      {
+        "p": {
+          "name": "Contextual Action Recognition with R*CNN",
+          "link": "http://arxiv.org/abs/1505.01197v3"
+        },
+        "c": "https://github.com/gkioxari/RstarCNN",
+        "n": "R*CNN",
+        "d": "2015-05-05",
+        "m1": "0.99"
+      },
+      {
+        "p": {
+          "name": "Weakly Supervised Deep Detection Networks",
+          "link": "http://arxiv.org/abs/1511.02853v4"
+        },
+        "c": "https://github.com/hbilen/WSDDN",
+        "n": "WSDDN",
+        "d": "2015-11-09",
+        "m1": "0.65"
+      }
+    ]
+  }
+}

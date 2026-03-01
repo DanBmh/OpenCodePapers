@@ -1,0 +1,127 @@
+{
+  "title": "image-super-resolution-on-set5-8x-upscaling",
+  "task-hierarchy": [
+    "Super-Resolution",
+    "Image Super-Resolution"
+  ],
+  "dataset-info": {
+    "link": "http://people.rennes.inria.fr/Aline.Roumy/results/SR_BMVC12.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "MFSRCNN",
+        "d": null,
+        "m1": "29.03",
+        "m2": "0.8299"
+      },
+      {
+        "p": {
+          "name": "Deep Back-Projection Networks for Single Image Super-resolution",
+          "link": "https://arxiv.org/abs/1904.05677v2"
+        },
+        "c": "https://github.com/alterzero/DBPN-Pytorch",
+        "n": "DBPN-RES-MR64-3",
+        "d": "2019-04-04",
+        "m1": "27.51",
+        "m2": "0.793"
+      },
+      {
+        "p": {
+          "name": "Single Image Super-Resolution via a Holistic Attention Network",
+          "link": "https://arxiv.org/abs/2008.08767v1"
+        },
+        "c": "https://github.com/wwlCape/HAN",
+        "n": "HAN+",
+        "d": "2020-08-20",
+        "m1": "27.47",
+        "m2": "0.7920"
+      },
+      {
+        "p": {
+          "name": "Densely Residual Laplacian Super-Resolution",
+          "link": "https://arxiv.org/abs/1906.12021v2"
+        },
+        "c": "https://github.com/saeed-anwar/DRLN",
+        "n": "DRLN+",
+        "d": "2019-06-28",
+        "m1": "27.46",
+        "m2": "0.7916"
+      },
+      {
+        "p": {
+          "name": "Image Super-Resolution via Attention based Back Projection Networks",
+          "link": "https://arxiv.org/abs/1910.04476v1"
+        },
+        "c": "https://github.com/Holmes-Alan/ABPN",
+        "n": "ABPN",
+        "d": "2019-10-10",
+        "m1": "27.25",
+        "m2": "0.786"
+      },
+      {
+        "p": {
+          "name": "Hierarchical Back Projection Network for Image Super-Resolution",
+          "link": "https://arxiv.org/abs/1906.06874v2"
+        },
+        "c": "https://github.com/Holmes-Alan/HBPN",
+        "n": "HBPN",
+        "d": "2019-06-17",
+        "m1": "27.17",
+        "m2": "0.785"
+      },
+      {
+        "p": {
+          "name": "DeepRED: Deep Image Prior Powered by RED",
+          "link": "https://arxiv.org/abs/1903.10176v3"
+        },
+        "c": "https://github.com/GaryMataev/DeepRED",
+        "n": "DeepRED",
+        "d": "2019-03-25",
+        "m1": "26.04"
+      },
+      {
+        "p": {
+          "name": "Cascade Convolutional Neural Network for Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2008.10329v2"
+        },
+        "c": "",
+        "n": "CSRCNN",
+        "d": "2020-08-24",
+        "m1": "25.74",
+        "m2": "0.715"
+      }
+    ]
+  }
+}

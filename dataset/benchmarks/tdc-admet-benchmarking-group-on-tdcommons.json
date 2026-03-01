@@ -1,0 +1,368 @@
+{
+  "title": "tdc-admet-benchmarking-group-on-tdcommons",
+  "task-hierarchy": [
+    "Therapeutics Data Commons",
+    "TDC ADMET Benchmarking Group"
+  ],
+  "dataset-info": {
+    "link": "https://tdcommons.ai"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "TDC.Caco2_Wang",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "TDC.HIA_Hou",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "TDC.Pgp_Broccatelli",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "TDC.Bioavailability_Ma",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "TDC.Lipophilicity_AstraZeneca",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "TDC.Solubility_AqSolDB",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "TDC.BBB_Martins",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "TDC.PPBR_AZ",
+        "sortable": "true"
+      },
+      {
+        "key": "m9",
+        "label": "TDC.VDss_Lombardo",
+        "sortable": "true"
+      },
+      {
+        "key": "m10",
+        "label": "TDC.CYP2D6_Inhibition_Veith",
+        "sortable": "true"
+      },
+      {
+        "key": "m11",
+        "label": "TDC.CYP3A4_Inhibition_Veith",
+        "sortable": "true"
+      },
+      {
+        "key": "m12",
+        "label": "TDC.CYP2C9_Inhibition_Veith",
+        "sortable": "true"
+      },
+      {
+        "key": "m13",
+        "label": "TDC.CYP2D6_Substrate_CarbonMangels",
+        "sortable": "true"
+      },
+      {
+        "key": "m14",
+        "label": "TDC.CYP3A4_Substrate_CarbonMangels",
+        "sortable": "true"
+      },
+      {
+        "key": "m15",
+        "label": "TDC.CYP2C9_Substrate_CarbonMangels",
+        "sortable": "true"
+      },
+      {
+        "key": "m16",
+        "label": "TDC.Half_Life_Obach",
+        "sortable": "true"
+      },
+      {
+        "key": "m17",
+        "label": "TDC.Clearance_Microsome_AZ",
+        "sortable": "true"
+      },
+      {
+        "key": "m18",
+        "label": "TDC.Clearance_Hepatocyte_AZ",
+        "sortable": "true"
+      },
+      {
+        "key": "m19",
+        "label": "TDC.hERG",
+        "sortable": "true"
+      },
+      {
+        "key": "m20",
+        "label": "TDC.AMES",
+        "sortable": "true"
+      },
+      {
+        "key": "m21",
+        "label": "TDC.DILI",
+        "sortable": "true"
+      },
+      {
+        "key": "m22",
+        "label": "TDC.LD50_Zhu",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "ADMET property prediction through combinations of molecular fingerprints",
+          "link": "https://arxiv.org/abs/2310.00174v1"
+        },
+        "c": "https://github.com/maplightrx/maplight-tdc",
+        "n": "MapLight",
+        "d": "2023-09-29",
+        "m1": "0.276"
+      },
+      {
+        "p": {
+          "name": "Accurate ADMET Prediction with XGBoost",
+          "link": "https://arxiv.org/abs/2204.07532v3"
+        },
+        "c": "https://github.com/smu-tao-group/ADMET_XGBoost",
+        "n": "XGBoost",
+        "d": "2022-04-15",
+        "m1": "0.288",
+        "m2": "0.987",
+        "m3": "0.911",
+        "m4": "0.7",
+        "m5": "0.533",
+        "m6": "0.727",
+        "m7": "0.905",
+        "m8": "8.251",
+        "m9": "0.612",
+        "m10": "0.794",
+        "m11": "0.721",
+        "m12": "0.877",
+        "m13": "0.387",
+        "m14": "0.648",
+        "m15": "0.680",
+        "m16": "0.396",
+        "m17": "0.420",
+        "m18": "0.587",
+        "m19": "0.806",
+        "m20": "0.859",
+        "m21": "0.933",
+        "m22": "0.602"
+      },
+      {
+        "p": {
+          "name": "DeepMol: An Automated Machine and Deep Learning Framework for Computational Chemistr",
+          "link": "https://www.biorxiv.org/content/10.1101/2024.05.27.595849v1"
+        },
+        "c": "https://github.com/BioSystemsUM/DeepMol",
+        "n": "DeepMol",
+        "d": "2024-06-01",
+        "m1": "0.297"
+      },
+      {
+        "p": {
+          "name": "Therapeutics Data Commons: Machine Learning Datasets and Tasks for Drug Discovery and Development",
+          "link": "https://arxiv.org/abs/2102.09548v2"
+        },
+        "c": "https://github.com/mims-harvard/TDC",
+        "n": "MLP-RDKit2D",
+        "d": "2021-02-18",
+        "m1": "0.393",
+        "m2": "0.972",
+        "m3": "0.918",
+        "m4": "0.672",
+        "m5": "0.574",
+        "m6": "0.827",
+        "m7": "0.889",
+        "m8": "9.994",
+        "m9": "0.561",
+        "m10": "0.616",
+        "m11": "0.829",
+        "m12": "0.742",
+        "m13": "0.677",
+        "m14": "0.639",
+        "m15": "0.360",
+        "m16": "0.184",
+        "m17": "0.586",
+        "m18": "0.382",
+        "m19": "0.841",
+        "m20": "0.823",
+        "m21": "0.875",
+        "m22": "0.678"
+      },
+      {
+        "p": {
+          "name": "Therapeutics Data Commons: Machine Learning Datasets and Tasks for Drug Discovery and Development",
+          "link": "https://arxiv.org/abs/2102.09548v2"
+        },
+        "c": "https://github.com/mims-harvard/TDC",
+        "n": "AttentiveFP",
+        "d": "2021-02-18",
+        "m1": "0.401",
+        "m2": "0.974",
+        "m3": "0.892",
+        "m4": "0.632",
+        "m5": "0.572",
+        "m6": "0.776",
+        "m7": "0.855",
+        "m8": "9.373",
+        "m9": "0.241",
+        "m10": "0.646",
+        "m11": "0.851",
+        "m12": "0.749",
+        "m13": "0.574",
+        "m14": "0.576",
+        "m15": "0.375",
+        "m16": "0.085",
+        "m17": "0.365",
+        "m18": "0.289",
+        "m19": "0.825",
+        "m20": "0.814",
+        "m21": "0.886",
+        "m22": "0.678"
+      },
+      {
+        "p": {
+          "name": "Therapeutics Data Commons: Machine Learning Datasets and Tasks for Drug Discovery and Development",
+          "link": "https://arxiv.org/abs/2102.09548v2"
+        },
+        "c": "https://github.com/mims-harvard/TDC",
+        "n": "AttrMasking",
+        "d": "2021-02-18",
+        "m1": "0.546",
+        "m2": "0.978",
+        "m3": "0.929",
+        "m4": "0.577",
+        "m5": "0.547",
+        "m6": "1.026",
+        "m7": "0.892",
+        "m8": "10.075",
+        "m9": "0.559",
+        "m10": "0.721",
+        "m11": "0.902",
+        "m12": "0.829",
+        "m13": "0.704",
+        "m14": "0.582",
+        "m15": "0.381",
+        "m16": "0.151",
+        "m17": "0.585",
+        "m18": "0.413",
+        "m19": "0.778",
+        "m20": "0.842",
+        "m21": "0.919",
+        "m22": "0.685"
+      },
+      {
+        "p": {
+          "name": "Therapeutics Data Commons: Machine Learning Datasets and Tasks for Drug Discovery and Development",
+          "link": "https://arxiv.org/abs/2102.09548v2"
+        },
+        "c": "https://github.com/mims-harvard/TDC",
+        "n": "GCN",
+        "d": "2021-02-18",
+        "m1": "0.599",
+        "m2": "0.936",
+        "m3": "0.895",
+        "m4": "0.566",
+        "m5": "0.541",
+        "m6": "0.907",
+        "m7": "0.842",
+        "m8": "10.194",
+        "m9": "0.457",
+        "m10": "0.616",
+        "m11": "0.840",
+        "m12": "0.735",
+        "m13": "0.617",
+        "m14": "0.590",
+        "m15": "0.344",
+        "m16": "0.239",
+        "m17": "0.532",
+        "m18": "0.366",
+        "m19": "0.738",
+        "m20": "0.818",
+        "m21": "0.859",
+        "m22": "0.649"
+      },
+      {
+        "p": {
+          "name": "Galactica: A Large Language Model for Science",
+          "link": "https://arxiv.org/abs/2211.09085v1"
+        },
+        "c": "https://github.com/paperswithcode/galai",
+        "n": "Galactica-GAL-120B",
+        "d": "2022-11-16",
+        "m7": "0.661"
+      },
+      {
+        "p": {
+          "name": "Galactica: A Large Language Model for Science",
+          "link": "https://arxiv.org/abs/2211.09085v1"
+        },
+        "c": "https://github.com/paperswithcode/galai",
+        "n": "Galactica-GAL-1.3B",
+        "d": "2022-11-16",
+        "m7": "0.604"
+      },
+      {
+        "p": {
+          "name": "Galactica: A Large Language Model for Science",
+          "link": "https://arxiv.org/abs/2211.09085v1"
+        },
+        "c": "https://github.com/paperswithcode/galai",
+        "n": "Galactica-GAL-30B",
+        "d": "2022-11-16",
+        "m7": "0.596"
+      },
+      {
+        "p": {
+          "name": "Galactica: A Large Language Model for Science",
+          "link": "https://arxiv.org/abs/2211.09085v1"
+        },
+        "c": "https://github.com/paperswithcode/galai",
+        "n": "Galactica-GAL-6.7B",
+        "d": "2022-11-16",
+        "m7": "0.535"
+      },
+      {
+        "p": {
+          "name": "Galactica: A Large Language Model for Science",
+          "link": "https://arxiv.org/abs/2211.09085v1"
+        },
+        "c": "https://github.com/paperswithcode/galai",
+        "n": "Galactica-GAL-125M",
+        "d": "2022-11-16",
+        "m7": "0.393"
+      }
+    ]
+  }
+}

@@ -1,0 +1,423 @@
+{
+  "title": "visual-question-answering-on-ok-vqa",
+  "task-hierarchy": [
+    "Visual Question Answering (VQA)"
+  ],
+  "dataset-info": {
+    "link": "https://okvqa.allenai.org/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Exact Match (EM)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Recall@5",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Visual Program Distillation: Distilling Tools and Programmatic Reasoning into Vision-Language Models",
+          "link": "https://arxiv.org/abs/2312.03052v2"
+        },
+        "c": "",
+        "n": "PaLI-X-VPD",
+        "d": "2023-12-05",
+        "m1": "66.8"
+      },
+      {
+        "p": {
+          "name": "PaLM-E: An Embodied Multimodal Language Model",
+          "link": "https://arxiv.org/abs/2303.03378v1"
+        },
+        "c": "https://github.com/kyegomez/PALM-E",
+        "n": "PaLM-E-562B",
+        "d": "2023-03-06",
+        "m1": "66.1"
+      },
+      {
+        "p": {
+          "name": "PaLI-X: On Scaling up a Multilingual Vision and Language Model",
+          "link": "https://arxiv.org/abs/2305.18565v1"
+        },
+        "c": "https://github.com/kyegomez/PALI",
+        "n": "PaLI-X (Single-task FT)",
+        "d": "2023-05-29",
+        "m1": "66.1"
+      },
+      {
+        "p": {
+          "name": "PaLI: A Jointly-Scaled Multilingual Language-Image Model",
+          "link": "https://arxiv.org/abs/2209.06794v4"
+        },
+        "c": "https://github.com/google-research/big_vision",
+        "n": "PaLI 17B",
+        "d": "2022-09-14",
+        "m1": "64.5"
+      },
+      {
+        "p": {
+          "name": "Prophet: Prompting Large Language Models with Complementary Answer Heuristics for Knowledge-based Visual Question Answering",
+          "link": "https://arxiv.org/abs/2303.01903v4"
+        },
+        "c": "https://github.com/milvlg/prophet",
+        "n": "Prophet",
+        "d": "2023-03-03",
+        "m1": "62.5"
+      },
+      {
+        "p": {
+          "name": "Fine-grained Late-interaction Multi-modal Retrieval for Retrieval Augmented Visual Question Answering",
+          "link": "https://arxiv.org/abs/2309.17133v2"
+        },
+        "c": "https://github.com/linweizhedragon/retrieval-augmented-visual-question-answering",
+        "n": "RA-VQA-v2 (BLIP 2)",
+        "d": "2023-09-29",
+        "m1": "62.08",
+        "m2": "62.01",
+        "m3": "89.32"
+      },
+      {
+        "p": {
+          "name": "A Simple Baseline for Knowledge-Based Visual Question Answering",
+          "link": "https://arxiv.org/abs/2310.13570v2"
+        },
+        "c": "",
+        "n": "A Simple Baseline for KB-VQA",
+        "d": "2023-10-20",
+        "m1": "61.2"
+      },
+      {
+        "p": {
+          "name": "PromptCap: Prompt-Guided Task-Aware Image Captioning",
+          "link": "https://arxiv.org/abs/2211.09699v4"
+        },
+        "c": "https://github.com/Yushi-Hu/PromptCap",
+        "n": "PromptCap",
+        "d": "2022-11-15",
+        "m1": "60.4"
+      },
+      {
+        "p": {
+          "name": "REVEAL: Retrieval-Augmented Visual-Language Pre-Training with Multi-Source Multimodal Knowledge Memory",
+          "link": "https://arxiv.org/abs/2212.05221v2"
+        },
+        "c": "https://github.com/google-research/scenic/tree/main/scenic/projects/knowledge_visual_language",
+        "n": "ReVeaL WIT + CC12M + Wikidata + VQA-2",
+        "d": "2022-12-10",
+        "m1": "59.1"
+      },
+      {
+        "p": {
+          "name": "Lyrics: Boosting Fine-grained Language-Vision Alignment and Comprehension via Semantic-aware Visual Objects",
+          "link": "https://arxiv.org/abs/2312.05278v2"
+        },
+        "c": "",
+        "n": "Lyrics",
+        "d": "2023-12-08",
+        "m1": "58.2"
+      },
+      {
+        "p": {
+          "name": "REVIVE: Regional Visual Representation Matters in Knowledge-Based Visual Question Answering",
+          "link": "https://arxiv.org/abs/2206.01201v2"
+        },
+        "c": "https://github.com/yzleroy/revive",
+        "n": "REVIVE (Ensemble)",
+        "d": "2022-06-02",
+        "m1": "58.0"
+      },
+      {
+        "p": {
+          "name": "REVIVE: Regional Visual Representation Matters in Knowledge-Based Visual Question Answering",
+          "link": "https://arxiv.org/abs/2206.01201v2"
+        },
+        "c": "https://github.com/yzleroy/revive",
+        "n": "REVIVE (Single)",
+        "d": "2022-06-02",
+        "m1": "56.6"
+      },
+      {
+        "p": {
+          "name": "Fine-grained Late-interaction Multi-modal Retrieval for Retrieval Augmented Visual Question Answering",
+          "link": "https://arxiv.org/abs/2309.17133v2"
+        },
+        "c": "https://github.com/linweizhedragon/retrieval-augmented-visual-question-answering",
+        "n": "RA-VQA-v2 (T5-large)",
+        "d": "2023-09-29",
+        "m1": "54.85"
+      },
+      {
+        "p": {
+          "name": "Retrieval Augmented Visual Question Answering with Outside Knowledge",
+          "link": "https://arxiv.org/abs/2210.03809v2"
+        },
+        "c": "https://github.com/linweizhedragon/retrieval-augmented-visual-question-answering",
+        "n": "RA-VQA (T5-large)",
+        "d": "2022-10-07",
+        "m1": "54.48",
+        "m2": "59.41",
+        "m3": "82.84"
+      },
+      {
+        "p": {
+          "name": "Differentiable Outlier Detection Enable Robust Deep Multimodal Analysis",
+          "link": "https://arxiv.org/abs/2302.05608v1"
+        },
+        "c": "https://github.com/ellenzhuwang/VK_OOD",
+        "n": "VK-OOD",
+        "d": "2023-02-11",
+        "m1": "52.4"
+      },
+      {
+        "p": {
+          "name": "Implicit Differentiable Outlier Detection Enable Robust Deep Multimodal Analysis",
+          "link": "https://openreview.net/forum?id=jooPcatnVF"
+        },
+        "c": "https://github.com/ellenzhuwang/implicit_vkood",
+        "n": "VK-OOD",
+        "d": "2023-09-21",
+        "m1": "52.4"
+      },
+      {
+        "p": {
+          "name": "Retrieval Augmented Visual Question Answering with Outside Knowledge",
+          "link": "https://arxiv.org/abs/2210.03809v2"
+        },
+        "c": "https://github.com/linweizhedragon/retrieval-augmented-visual-question-answering",
+        "n": "RA-VQA-FrDPR (T5-large)",
+        "d": "2022-10-07",
+        "m1": "51.22",
+        "m2": "55.77",
+        "m3": "81.25"
+      },
+      {
+        "p": {
+          "name": "Flamingo: a Visual Language Model for Few-Shot Learning",
+          "link": "https://arxiv.org/abs/2204.14198v2"
+        },
+        "c": "https://github.com/mlfoundations/open_flamingo",
+        "n": "Flamingo80B",
+        "d": "2022-04-29",
+        "m1": "50.6"
+      },
+      {
+        "p": {
+          "name": "Transform-Retrieve-Generate: Natural Language-Centric Outside-Knowledge Visual Question Answering",
+          "link": "http://openaccess.thecvf.com//content/CVPR2022/html/Gao_Transform-Retrieve-Generate_Natural_Language-Centric_Outside-Knowledge_Visual_Question_Answering_CVPR_2022_paper.html"
+        },
+        "c": "",
+        "n": "TRiG (T5-Large)",
+        "d": "2022-01-01",
+        "m1": "50.50"
+      },
+      {
+        "p": {
+          "name": "HYDRA: A Hyper Agent for Dynamic Compositional Visual Reasoning",
+          "link": "https://arxiv.org/abs/2403.12884v2"
+        },
+        "c": "https://github.com/ControlNet/HYDRA",
+        "n": "HYDRA",
+        "d": "2024-03-19",
+        "m1": "48.6"
+      },
+      {
+        "p": {
+          "name": "An Empirical Study of GPT-3 for Few-Shot Knowledge-Based VQA",
+          "link": "https://arxiv.org/abs/2109.05014v2"
+        },
+        "c": "https://github.com/microsoft/PICa",
+        "n": "PICa",
+        "d": "2021-09-10",
+        "m1": "48.0"
+      },
+      {
+        "p": {
+          "name": "LaKo: Knowledge-driven Visual Question Answering via Late Knowledge-to-Text Injection",
+          "link": "https://arxiv.org/abs/2207.12888v2"
+        },
+        "c": "https://github.com/hackerchenzhuo/LaKo",
+        "n": "LaKo",
+        "d": "2022-07-26",
+        "m1": "47.01"
+      },
+      {
+        "p": {
+          "name": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
+          "link": "https://arxiv.org/abs/2301.12597v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "BLIP-2 ViT-G FlanT5 XXL (zero-shot)",
+        "d": "2023-01-30",
+        "m1": "45.9"
+      },
+      {
+        "p": {
+          "name": "Flamingo: a Visual Language Model for Few-Shot Learning",
+          "link": "https://arxiv.org/abs/2204.14198v2"
+        },
+        "c": "https://github.com/mlfoundations/open_flamingo",
+        "n": "Flamingo9B",
+        "d": "2022-04-29",
+        "m1": "44.7"
+      },
+      {
+        "p": {
+          "name": "VLC-BERT: Visual Question Answering with Contextualized Commonsense Knowledge",
+          "link": "https://arxiv.org/abs/2210.13626v1"
+        },
+        "c": "https://github.com/aditya10/vlc-bert",
+        "n": "VLC-BERT",
+        "d": "2022-10-24",
+        "m1": "43.1"
+      },
+      {
+        "p": {
+          "name": "LaKo: Knowledge-driven Visual Question Answering via Late Knowledge-to-Text Injection",
+          "link": "https://arxiv.org/abs/2207.12888v2"
+        },
+        "c": "https://github.com/hackerchenzhuo/LaKo",
+        "n": "T5(Tan and Bansal, 2019) + Prefixes",
+        "d": "2022-07-26",
+        "m1": "42.03"
+      },
+      {
+        "p": {
+          "name": "Flamingo: a Visual Language Model for Few-Shot Learning",
+          "link": "https://arxiv.org/abs/2204.14198v2"
+        },
+        "c": "https://github.com/mlfoundations/open_flamingo",
+        "n": "Flamingo3B",
+        "d": "2022-04-29",
+        "m1": "41.2"
+      },
+      {
+        "p": {
+          "name": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
+          "link": "https://arxiv.org/abs/2301.12597v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "BLIP-2 ViT-G FlanT5 XL (zero-shot)",
+        "d": "2023-01-30",
+        "m1": "40.7"
+      },
+      {
+        "p": {
+          "name": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
+          "link": "https://arxiv.org/abs/2301.12597v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "BLIP-2 ViT-L FlanT5 XL (zero-shot)",
+        "d": "2023-01-30",
+        "m1": "39.4"
+      },
+      {
+        "p": {
+          "name": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
+          "link": "https://arxiv.org/abs/2301.12597v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "BLIP-2 ViT-G OPT 6.7B (zero-shot)",
+        "d": "2023-01-30",
+        "m1": "36.4"
+      },
+      {
+        "p": {
+          "name": "Plug-and-Play VQA: Zero-shot VQA by Conjoining Large Pretrained Models with Zero Training",
+          "link": "https://arxiv.org/abs/2210.08773v3"
+        },
+        "c": "https://github.com/salesforce/lavis",
+        "n": "PNP-VQA",
+        "d": "2022-10-17",
+        "m1": "35.9"
+      },
+      {
+        "p": {
+          "name": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
+          "link": "https://arxiv.org/abs/2301.12597v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "BLIP-2 ViT-G OPT 2.7B (zero-shot)",
+        "d": "2023-01-30",
+        "m1": "31.7"
+      },
+      {
+        "p": {
+          "name": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
+          "link": "https://arxiv.org/abs/2301.12597v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "BLIP-2 ViT-L OPT 2.7B (zero-shot)",
+        "d": "2023-01-30",
+        "m1": "30.2"
+      },
+      {
+        "p": {
+          "name": "A Good Prompt Is Worth Millions of Parameters: Low-resource Prompt-based Learning for Vision-Language Models",
+          "link": "https://arxiv.org/abs/2110.08484v2"
+        },
+        "c": "https://github.com/woojeongjin/fewvlm",
+        "n": "FewVLM",
+        "d": "2021-10-16",
+        "m1": "16.5"
+      },
+      {
+        "p": {
+          "name": "Language Models are General-Purpose Interfaces",
+          "link": "https://arxiv.org/abs/2206.06336v1"
+        },
+        "c": "https://github.com/microsoft/unilm",
+        "n": "MetaLM",
+        "d": "2022-06-13",
+        "m1": "11.4"
+      },
+      {
+        "p": {
+          "name": "Enabling Multimodal Generation on CLIP via Vision-Language Knowledge Distillation",
+          "link": "https://openreview.net/forum?id=YTGg7kv8qIq"
+        },
+        "c": "",
+        "n": "VLKD(ViT-B/16)",
+        "d": "2021-11-16",
+        "m1": "10.5"
+      },
+      {
+        "p": {
+          "name": "Multimodal Few-Shot Learning with Frozen Language Models",
+          "link": "https://arxiv.org/abs/2106.13884v2"
+        },
+        "c": "",
+        "n": "Frozen",
+        "d": "2021-06-25",
+        "m1": " 5.9"
+      }
+    ]
+  }
+}

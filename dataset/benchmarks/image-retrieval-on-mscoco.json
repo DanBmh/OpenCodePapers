@@ -1,0 +1,83 @@
+{
+  "title": "image-retrieval-on-mscoco",
+  "task-hierarchy": [
+    "Image Retrieval"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Recall@1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Recall@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Recall@5",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "HADA: A Graph-based Amalgamation Framework in Image-text Retrieval",
+          "link": "https://arxiv.org/abs/2301.04742v1"
+        },
+        "c": "https://github.com/m2man/hada",
+        "n": "HADA",
+        "d": "2023-01-11",
+        "m1": "58.46",
+        "m2": "89.66",
+        "m3": "82.85"
+      },
+      {
+        "p": {
+          "name": "HADA: A Graph-based Amalgamation Framework in Image-text Retrieval",
+          "link": "https://arxiv.org/abs/2301.04742v1"
+        },
+        "c": "https://github.com/m2man/hada",
+        "n": "BLIP",
+        "d": "2023-01-11",
+        "m1": "57.32",
+        "m2": "88.92",
+        "m3": "81.84"
+      },
+      {
+        "p": {
+          "name": "HADA: A Graph-based Amalgamation Framework in Image-text Retrieval",
+          "link": "https://arxiv.org/abs/2301.04742v1"
+        },
+        "c": "https://github.com/m2man/hada",
+        "n": "CLIP",
+        "d": "2023-01-11",
+        "m1": "37.02",
+        "m2": "71.5",
+        "m3": "61.66"
+      }
+    ]
+  }
+}

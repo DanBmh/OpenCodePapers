@@ -1,0 +1,117 @@
+{
+  "title": "semantic-segmentation-on-mcubes-p",
+  "task-hierarchy": [
+    "Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/kyotovision-public/multimodal-material-segmentation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MMSFormer: Multimodal Transformer for Material and Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2309.04001v4"
+        },
+        "c": "https://github.com/csiplab/mmsformer",
+        "n": "MMSFormer (RGB-A-D)",
+        "d": "2023-09-07",
+        "m1": "52.03"
+      },
+      {
+        "p": {
+          "name": "MMSFormer: Multimodal Transformer for Material and Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2309.04001v4"
+        },
+        "c": "https://github.com/csiplab/mmsformer",
+        "n": "MMSFormer (RGB-A)",
+        "d": "2023-09-07",
+        "m1": "51.30"
+      },
+      {
+        "p": {
+          "name": "ShareCMP: Polarization-Aware RGB-P Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2312.03430v2"
+        },
+        "c": "https://github.com/lefteyex/sharecmp",
+        "n": "ShareCMP (B2 RGB-A-D)",
+        "d": "2023-12-06",
+        "m1": "50.99"
+      },
+      {
+        "p": {
+          "name": "ShareCMP: Polarization-Aware RGB-P Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2312.03430v2"
+        },
+        "c": "https://github.com/lefteyex/sharecmp",
+        "n": "ShareCMP (B2 RGB-D)",
+        "d": "2023-12-06",
+        "m1": "50.55"
+      },
+      {
+        "p": {
+          "name": "MMSFormer: Multimodal Transformer for Material and Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2309.04001v4"
+        },
+        "c": "https://github.com/csiplab/mmsformer",
+        "n": "MMSFormer (RGB)",
+        "d": "2023-09-07",
+        "m1": "50.44"
+      },
+      {
+        "p": {
+          "name": "ShareCMP: Polarization-Aware RGB-P Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2312.03430v2"
+        },
+        "c": "https://github.com/lefteyex/sharecmp",
+        "n": "ShareCMP(B2 RGB-A)",
+        "d": "2023-12-06",
+        "m1": "50.34"
+      },
+      {
+        "p": {
+          "name": "Delivering Arbitrary-Modal Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2303.01480v1"
+        },
+        "c": "https://github.com/jamycheung/DELIVER",
+        "n": "CMNeXt (B2 RGB-A-D)",
+        "d": "2023-03-02",
+        "m1": "49.48"
+      },
+      {
+        "p": {
+          "name": "Delivering Arbitrary-Modal Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2303.01480v1"
+        },
+        "c": "https://github.com/jamycheung/DELIVER",
+        "n": "CMNeXt (B2 RGB-A)",
+        "d": "2023-03-02",
+        "m1": "48.42"
+      }
+    ]
+  }
+}

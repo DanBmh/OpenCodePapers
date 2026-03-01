@@ -1,0 +1,1772 @@
+{
+  "title": "arithmetic-reasoning-on-gsm8k",
+  "task-hierarchy": [
+    "Arithmetic Reasoning"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/openai/grade-school-math"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Parameters (Billion)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Hierarchical Prompting Taxonomy: A Universal Evaluation Framework for Large Language Models Aligned with Human Cognitive Principles",
+          "link": "https://arxiv.org/abs/2406.12644v4"
+        },
+        "c": "https://github.com/devichand579/HPT",
+        "n": "Claude 3.5 Sonnet (HPT)",
+        "d": "2024-06-18",
+        "m1": "97.72"
+      },
+      {
+        "p": {
+          "name": "Achieving >97% on GSM8K: Deeply Understanding the Problems Makes LLMs Better Solvers for Math Word Problems",
+          "link": "https://arxiv.org/abs/2404.14963v5"
+        },
+        "c": "https://github.com/whu-zqh/dup",
+        "n": "DUP prompt upon GPT-4",
+        "d": "2024-04-23",
+        "m1": "97.1"
+      },
+      {
+        "p": {
+          "name": "Qwen2 Technical Report",
+          "link": "https://arxiv.org/abs/2407.10671v4"
+        },
+        "c": "https://github.com/qwenlm/qwen1.5",
+        "n": "Qwen2-Math-72B-Instruct\n(greedy)",
+        "d": "2024-07-15",
+        "m1": "96.7",
+        "m2": "72"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "SFT-Mistral-7B (Metamath, OVM, Smart Ensemble)",
+        "d": null,
+        "m1": "96.4",
+        "m2": "7"
+      },
+      {
+        "p": {
+          "name": "OpenMathInstruct-2: Accelerating AI for Math with Massive Open-Source Instruction Data",
+          "link": "https://arxiv.org/abs/2410.01560v2"
+        },
+        "c": "https://github.com/NVIDIA/NeMo-Skills",
+        "n": "OpenMath2-Llama3.1-70B (majority@256)",
+        "d": "2024-10-02",
+        "m1": "96.0"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Jiutian-大模型",
+        "d": null,
+        "m1": "95.2",
+        "m2": "75"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "DAMOMath-7B(MetaMath, OVM, BS, Ensemble)",
+        "d": null,
+        "m1": "95.1",
+        "m2": "7"
+      },
+      {
+        "p": {
+          "name": "The Claude 3 Model Family: Opus, Sonnet, Haiku",
+          "link": "https://www.anthropic.com/news/claude-3-family"
+        },
+        "c": "",
+        "n": "Claude 3 Opus (0-shot chain-of-thought)",
+        "d": "2024-03-04",
+        "m1": "95"
+      },
+      {
+        "p": {
+          "name": "OpenMathInstruct-2: Accelerating AI for Math with Massive Open-Source Instruction Data",
+          "link": "https://arxiv.org/abs/2410.01560v2"
+        },
+        "c": "https://github.com/NVIDIA/NeMo-Skills",
+        "n": "OpenMath2-Llama3.1-70B",
+        "d": "2024-10-02",
+        "m1": "94.9"
+      },
+      {
+        "p": {
+          "name": "Teaching-Inspired Integrated Prompting Framework: A Novel Approach for Enhancing Reasoning in Large Language Models",
+          "link": "https://arxiv.org/abs/2410.08068v1"
+        },
+        "c": "https://github.com/sallytan13/teaching-inspired-prompting",
+        "n": "GPT-4 (Teaching-Inspired)",
+        "d": "2024-10-10",
+        "m1": "94.8"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "SFT-Mistral-7B (Metamath + ovm +ensemble)",
+        "d": null,
+        "m1": "94.13",
+        "m2": "7"
+      },
+      {
+        "p": {
+          "name": "OpenMathInstruct-2: Accelerating AI for Math with Massive Open-Source Instruction Data",
+          "link": "https://arxiv.org/abs/2410.01560v2"
+        },
+        "c": "https://github.com/NVIDIA/NeMo-Skills",
+        "n": "OpenMath2-Llama3.1-8B (majority@256)",
+        "d": "2024-10-02",
+        "m1": "94.1"
+      },
+      {
+        "p": {
+          "name": "Step-DPO: Step-wise Preference Optimization for Long-chain Reasoning of LLMs",
+          "link": "https://arxiv.org/abs/2406.18629v1"
+        },
+        "c": "https://github.com/dvlab-research/step-dpo",
+        "n": "Qwen2-72B-Instruct-Step-DPO (0-shot CoT)",
+        "d": "2024-06-26",
+        "m1": "94.0"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "DAMOMath-7B(MetaMath, OVM, Ensemble)",
+        "d": null,
+        "m1": "93.2",
+        "m2": "7"
+      },
+      {
+        "p": {
+          "name": "The Claude 3 Model Family: Opus, Sonnet, Haiku",
+          "link": "https://www.anthropic.com/news/claude-3-family"
+        },
+        "c": "",
+        "n": "Claude 3 Sonnet (0-shot chain-of-thought)",
+        "d": "2024-03-04",
+        "m1": "92.3"
+      },
+      {
+        "p": {
+          "name": "Toward Self-Improvement of LLMs via Imagination, Searching, and Criticizing",
+          "link": "https://arxiv.org/abs/2404.12253v2"
+        },
+        "c": "https://github.com/yetianjhu/alphallm",
+        "n": "AlphaLLM (with MCTS)",
+        "d": "2024-04-18",
+        "m1": "92",
+        "m2": "70"
+      },
+      {
+        "p": {
+          "name": "OpenMathInstruct-2: Accelerating AI for Math with Massive Open-Source Instruction Data",
+          "link": "https://arxiv.org/abs/2410.01560v2"
+        },
+        "c": "https://github.com/NVIDIA/NeMo-Skills",
+        "n": "OpenMath2-Llama3.1-8B",
+        "d": "2024-10-02",
+        "m1": "91.7"
+      },
+      {
+        "p": {
+          "name": "PaLM 2 Technical Report",
+          "link": "https://arxiv.org/abs/2305.10403v3"
+        },
+        "c": "https://github.com/eternityyw/tram-benchmark",
+        "n": "PaLM 2 (few-shot, k=8, SC)",
+        "d": "2023-05-17",
+        "m1": "91.0"
+      },
+      {
+        "p": {
+          "name": "Breaking the Ceiling of the LLM Community by Treating Token Generation as a Classification for Ensembling",
+          "link": "https://arxiv.org/abs/2406.12585v2"
+        },
+        "c": "https://github.com/yaoching0/gac",
+        "n": "GaC(Qwen2-72B-Instruct + Llama-3-70B-Instruct)",
+        "d": "2024-06-18",
+        "m1": "90.91"
+      },
+      {
+        "p": {
+          "name": "OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset",
+          "link": "https://arxiv.org/abs/2402.10176v2"
+        },
+        "c": "https://github.com/kipok/nemo-skills",
+        "n": "OpenMath-CodeLlama-70B (w/ code, SC, k=50)",
+        "d": "2024-02-15",
+        "m1": "90.8",
+        "m2": "70"
+      },
+      {
+        "p": {
+          "name": "DART-Math: Difficulty-Aware Rejection Tuning for Mathematical Problem-Solving",
+          "link": "https://arxiv.org/abs/2407.13690v2"
+        },
+        "c": "https://github.com/hkust-nlp/dart-math",
+        "n": "DART-Math-Llama3-70B-Uniform (0-shot CoT, w/o code)",
+        "d": "2024-06-18",
+        "m1": "90.4",
+        "m2": "70"
+      },
+      {
+        "p": {
+          "name": "OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset",
+          "link": "https://arxiv.org/abs/2402.10176v2"
+        },
+        "c": "https://github.com/kipok/nemo-skills",
+        "n": "OpenMath-Llama2-70B (w/ code, SC, k=50)",
+        "d": "2024-02-15",
+        "m1": "90.1",
+        "m2": "70"
+      },
+      {
+        "p": {
+          "name": "DART-Math: Difficulty-Aware Rejection Tuning for Mathematical Problem-Solving",
+          "link": "https://arxiv.org/abs/2407.13690v2"
+        },
+        "c": "https://github.com/hkust-nlp/dart-math",
+        "n": "DART-Math-Llama3-70B-Prop2Diff (0-shot CoT, w/o code)",
+        "d": "2024-06-18",
+        "m1": "89.6",
+        "m2": "70"
+      },
+      {
+        "p": {
+          "name": "Math-Shepherd: Verify and Reinforce LLMs Step-by-step without Human Annotations",
+          "link": "https://arxiv.org/abs/2312.08935v3"
+        },
+        "c": "https://github.com/hkust-nlp/b-star",
+        "n": "Shepherd+Mistral-7B (SFT on MetaMATH + PRM RL+ PRM rerank, k=256)",
+        "d": "2023-12-14",
+        "m1": "89.1",
+        "m2": "7"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Llama SFT (Metamath ToRA Ensemble)",
+        "d": null,
+        "m1": "89.0",
+        "m2": "13"
+      },
+      {
+        "p": {
+          "name": "Solving Quantitative Reasoning Problems with Language Models",
+          "link": "https://arxiv.org/abs/2206.14858v2"
+        },
+        "c": "https://github.com/gair-nlp/abel",
+        "n": "Minerva 62B (maj5@100)",
+        "d": "2022-06-29",
+        "m1": "89",
+        "m2": "62"
+      },
+      {
+        "p": {
+          "name": "The Claude 3 Model Family: Opus, Sonnet, Haiku",
+          "link": "https://www.anthropic.com/news/claude-3-family"
+        },
+        "c": "",
+        "n": "Claude 3 Haiku (0-shot chain-of-thought)",
+        "d": "2024-03-04",
+        "m1": "88.9"
+      },
+      {
+        "p": {
+          "name": "ToRA: A Tool-Integrated Reasoning Agent for Mathematical Problem Solving",
+          "link": "https://arxiv.org/abs/2309.17452v4"
+        },
+        "c": "https://github.com/microsoft/tora",
+        "n": "ToRA-70B (SC, k=50)",
+        "d": "2023-09-29",
+        "m1": "88.3",
+        "m2": "70"
+      },
+      {
+        "p": {
+          "name": "DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models",
+          "link": "https://arxiv.org/abs/2402.03300v3"
+        },
+        "c": "https://github.com/shibing624/medicalgpt",
+        "n": "DeepSeekMATH-RL-7B",
+        "d": "2024-02-05",
+        "m1": "88.2",
+        "m2": "7"
+      },
+      {
+        "p": {
+          "name": "DART-Math: Difficulty-Aware Rejection Tuning for Mathematical Problem-Solving",
+          "link": "https://arxiv.org/abs/2407.13690v2"
+        },
+        "c": "https://github.com/hkust-nlp/dart-math",
+        "n": "DART-Math-DSMath-7B-Uniform (0-shot CoT, w/o code)",
+        "d": "2024-06-18",
+        "m1": "88.2",
+        "m2": "7"
+      },
+      {
+        "p": {
+          "name": "OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset",
+          "link": "https://arxiv.org/abs/2402.10176v2"
+        },
+        "c": "https://github.com/kipok/nemo-skills",
+        "n": "OpenMath-CodeLlama-34B (w/ code, SC, k=50)",
+        "d": "2024-02-15",
+        "m1": "88.0",
+        "m2": "34"
+      },
+      {
+        "p": {
+          "name": "Model Card and Evaluations for Claude Models",
+          "link": "https://www-files.anthropic.com/production/images/Model-Card-Claude-2.pdf"
+        },
+        "c": "",
+        "n": "Claude 2 (0-shot chain-of-thought)",
+        "d": "2023-07-11",
+        "m1": "88"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Shivaay-4B (8-shot chain-of-thought)",
+        "d": null,
+        "m1": "87.41",
+        "m2": "4"
+      },
+      {
+        "p": {
+          "name": "Solving math word problems with process- and outcome-based feedback",
+          "link": "https://arxiv.org/abs/2211.14275v1"
+        },
+        "c": "",
+        "n": "DeepMind 70B Model (SFT+ORM-RL, ORM reranking)",
+        "d": "2022-11-25",
+        "m1": "87.3",
+        "m2": "70"
+      },
+      {
+        "p": {
+          "name": "An Empirical Study of Data Ability Boundary in LLMs' Math Reasoning",
+          "link": "https://arxiv.org/abs/2403.00799v1"
+        },
+        "c": "https://github.com/cyzhh/MMOS",
+        "n": "MMOS-DeepSeekMath-7B(0-shot,k=50)",
+        "d": "2024-02-23",
+        "m1": "87.2",
+        "m2": "7"
+      },
+      {
+        "p": {
+          "name": "Solving math word problems with process- and outcome-based feedback",
+          "link": "https://arxiv.org/abs/2211.14275v1"
+        },
+        "c": "",
+        "n": "DeepMind 70B Model (SFT+PRM-RL, PRM reranking)",
+        "d": "2022-11-25",
+        "m1": "87.1",
+        "m2": "70"
+      },
+      {
+        "p": {
+          "name": "Sparks of Artificial General Intelligence: Early experiments with GPT-4",
+          "link": "https://arxiv.org/abs/2303.12712v5"
+        },
+        "c": "https://github.com/microsoft/guidance",
+        "n": "GPT-4",
+        "d": "2023-03-22",
+        "m1": "87.1"
+      },
+      {
+        "p": {
+          "name": "OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset",
+          "link": "https://arxiv.org/abs/2402.10176v2"
+        },
+        "c": "https://github.com/kipok/nemo-skills",
+        "n": "OpenMath-Mistral-7B (w/ code, SC, k=50)",
+        "d": "2024-02-15",
+        "m1": "86.9",
+        "m2": "7"
+      },
+      {
+        "p": {
+          "name": "Orca-Math: Unlocking the potential of SLMs in Grade School Math",
+          "link": "https://arxiv.org/abs/2402.14830v1"
+        },
+        "c": "",
+        "n": "Orca-Math 7B (fine-tuned)",
+        "d": "2024-02-16",
+        "m1": "86.8",
+        "m2": "7"
+      },
+      {
+        "p": {
+          "name": "DART-Math: Difficulty-Aware Rejection Tuning for Mathematical Problem-Solving",
+          "link": "https://arxiv.org/abs/2407.13690v2"
+        },
+        "c": "https://github.com/hkust-nlp/dart-math",
+        "n": "DART-Math-DSMath-7B-Prop2Diff (0-shot CoT, w/o code)",
+        "d": "2024-06-18",
+        "m1": "86.8",
+        "m2": "7"
+      },
+      {
+        "p": {
+          "name": "OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset",
+          "link": "https://arxiv.org/abs/2402.10176v2"
+        },
+        "c": "https://github.com/kipok/nemo-skills",
+        "n": "OpenMath-CodeLlama-13B (w/ code, SC, k=50)",
+        "d": "2024-02-15",
+        "m1": "86.8",
+        "m2": "13"
+      },
+      {
+        "p": {
+          "name": "Gemini: A Family of Highly Capable Multimodal Models",
+          "link": "https://arxiv.org/abs/2312.11805v5"
+        },
+        "c": "https://github.com/valdecy/pybibx",
+        "n": "Gemini Pro (maj1@32)",
+        "d": "2023-12-19",
+        "m1": "86.5"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Codex (Self-Evaluation Guided Decoding, PAL, multiple reasoning chains, 9-shot gen, 5-shot eval)",
+        "d": null,
+        "m1": "85.5"
+      },
+      {
+        "p": {
+          "name": "Model Card and Evaluations for Claude Models",
+          "link": "https://www-files.anthropic.com/production/images/Model-Card-Claude-2.pdf"
+        },
+        "c": "",
+        "n": "Claude 1.3 (0-shot chain-of-thought)",
+        "d": "2023-07-11",
+        "m1": "85.2"
+      },
+      {
+        "p": {
+          "name": "ToRA: A Tool-Integrated Reasoning Agent for Mathematical Problem Solving",
+          "link": "https://arxiv.org/abs/2309.17452v4"
+        },
+        "c": "https://github.com/microsoft/tora",
+        "n": "ToRA-Code-34B (SC, k=50)",
+        "d": "2023-09-29",
+        "m1": "85.1",
+        "m2": "34"
+      },
+      {
+        "p": {
+          "name": "OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset",
+          "link": "https://arxiv.org/abs/2402.10176v2"
+        },
+        "c": "https://github.com/kipok/nemo-skills",
+        "n": "OpenMath-CodeLlama-7B (w/ code, SC, k=50)",
+        "d": "2024-02-15",
+        "m1": "84.8",
+        "m2": "7"
+      },
+      {
+        "p": {
+          "name": "OVM, Outcome-supervised Value Models for Planning in Mathematical Reasoning",
+          "link": "https://arxiv.org/abs/2311.09724v2"
+        },
+        "c": "https://github.com/freedomintelligence/ovm",
+        "n": "OVM-Mistral-7B (verify100@1)",
+        "d": "2023-11-16",
+        "m1": "84.7",
+        "m2": "7"
+      },
+      {
+        "p": {
+          "name": "OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset",
+          "link": "https://arxiv.org/abs/2402.10176v2"
+        },
+        "c": "https://github.com/kipok/nemo-skills",
+        "n": "OpenMath-Llama2-70B (w/ code)",
+        "d": "2024-02-15",
+        "m1": "84.7",
+        "m2": "70"
+      },
+      {
+        "p": {
+          "name": "OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset",
+          "link": "https://arxiv.org/abs/2402.10176v2"
+        },
+        "c": "https://github.com/kipok/nemo-skills",
+        "n": "OpenMath-CodeLlama-70B (w/ code)",
+        "d": "2024-02-15",
+        "m1": "84.6",
+        "m2": "70"
+      },
+      {
+        "p": {
+          "name": "LEVER: Learning to Verify Language-to-Code Generation with Execution",
+          "link": "https://arxiv.org/abs/2302.08468v3"
+        },
+        "c": "https://github.com/niansong1996/lever",
+        "n": "code-davinci-002 175B (LEVER, 8-shot)",
+        "d": "2023-02-16",
+        "m1": "84.5",
+        "m2": "175"
+      },
+      {
+        "p": {
+          "name": "ToRA: A Tool-Integrated Reasoning Agent for Mathematical Problem Solving",
+          "link": "https://arxiv.org/abs/2309.17452v4"
+        },
+        "c": "https://github.com/microsoft/tora",
+        "n": "ToRA 70B",
+        "d": "2023-09-29",
+        "m1": "84.3",
+        "m2": "70"
+      },
+      {
+        "p": {
+          "name": "Math-Shepherd: Verify and Reinforce LLMs Step-by-step without Human Annotations",
+          "link": "https://arxiv.org/abs/2312.08935v3"
+        },
+        "c": "https://github.com/hkust-nlp/b-star",
+        "n": "Shepherd + Mistral-7B (SFT on MetaMATH + PRM RL)",
+        "d": "2023-12-14",
+        "m1": "84.1",
+        "m2": "7"
+      },
+      {
+        "p": {
+          "name": "MathCoder: Seamless Code Integration in LLMs for Enhanced Mathematical Reasoning",
+          "link": "https://arxiv.org/abs/2310.03731v1"
+        },
+        "c": "https://github.com/mathllm/mathcoder",
+        "n": "MathCoder-L-70B",
+        "d": "2023-10-05",
+        "m1": "83.9",
+        "m2": "70"
+      },
+      {
+        "p": {
+          "name": "WizardMath: Empowering Mathematical Reasoning for Large Language Models via Reinforced Evol-Instruct",
+          "link": "https://arxiv.org/abs/2308.09583v2"
+        },
+        "c": "https://github.com/nlpxucan/wizardlm",
+        "n": "WizardMath-7B-V1.1",
+        "d": "2023-08-18",
+        "m1": "83.2",
+        "m2": "7"
+      },
+      {
+        "p": {
+          "name": "Making Large Language Models Better Reasoners with Step-Aware Verifier",
+          "link": "https://arxiv.org/abs/2206.02336v3"
+        },
+        "c": "",
+        "n": "DIVERSE 175B (8-shot)",
+        "d": "2022-06-06",
+        "m1": "83.2",
+        "m2": "175"
+      },
+      {
+        "p": {
+          "name": "OVM, Outcome-supervised Value Models for Planning in Mathematical Reasoning",
+          "link": "https://arxiv.org/abs/2311.09724v2"
+        },
+        "c": "https://github.com/freedomintelligence/ovm",
+        "n": "OVM-Mistral-7B (verify20@1)",
+        "d": "2023-11-16",
+        "m1": "82.6",
+        "m2": "7"
+      },
+      {
+        "p": {
+          "name": "DART-Math: Difficulty-Aware Rejection Tuning for Mathematical Problem-Solving",
+          "link": "https://arxiv.org/abs/2407.13690v2"
+        },
+        "c": "https://github.com/hkust-nlp/dart-math",
+        "n": "DART-Math-Mistral-7B-Uniform (0-shot CoT, w/o code)",
+        "d": "2024-06-18",
+        "m1": "82.6",
+        "m2": "7"
+      },
+      {
+        "p": {
+          "name": "The ART of LLM Refinement: Ask, Refine, and Trust",
+          "link": "https://arxiv.org/abs/2311.07961v1"
+        },
+        "c": "",
+        "n": "ChatGPT (Ask, Refine, Trust)",
+        "d": "2023-11-14",
+        "m1": "82.6"
+      },
+      {
+        "p": {
+          "name": "DART-Math: Difficulty-Aware Rejection Tuning for Mathematical Problem-Solving",
+          "link": "https://arxiv.org/abs/2407.13690v2"
+        },
+        "c": "https://github.com/hkust-nlp/dart-math",
+        "n": "DART-Math-Llama3-8B-Uniform (0-shot CoT, w/o code)",
+        "d": "2024-06-18",
+        "m1": "82.5",
+        "m2": "8"
+      },
+      {
+        "p": {
+          "name": "MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models",
+          "link": "https://arxiv.org/abs/2309.12284v4"
+        },
+        "c": "https://github.com/meta-math/MetaMath",
+        "n": "MetaMath 70B",
+        "d": "2023-09-21",
+        "m1": "82.3",
+        "m2": "70"
+      },
+      {
+        "p": {
+          "name": "MuggleMath: Assessing the Impact of Query and Response Augmentation on Math Reasoning",
+          "link": "https://arxiv.org/abs/2310.05506v3"
+        },
+        "c": "https://github.com/ofa-sys/gsm8k-screl",
+        "n": "MuggleMATH 70B",
+        "d": "2023-10-09",
+        "m1": "82.3",
+        "m2": "70"
+      },
+      {
+        "p": {
+          "name": "Large Language Models Can Self-Improve",
+          "link": "https://arxiv.org/abs/2210.11610v2"
+        },
+        "c": "",
+        "n": "PaLM 540B (Self Improvement, Self Consistency)",
+        "d": "2022-10-20",
+        "m1": "82.1",
+        "m2": "540"
+      },
+      {
+        "p": {
+          "name": "MathCoder: Seamless Code Integration in LLMs for Enhanced Mathematical Reasoning",
+          "link": "https://arxiv.org/abs/2310.03731v1"
+        },
+        "c": "https://github.com/mathllm/mathcoder",
+        "n": "MathCoder-CL-34B",
+        "d": "2023-10-05",
+        "m1": "81.7",
+        "m2": "34"
+      },
+      {
+        "p": {
+          "name": "WizardMath: Empowering Mathematical Reasoning for Large Language Models via Reinforced Evol-Instruct",
+          "link": "https://arxiv.org/abs/2308.09583v2"
+        },
+        "c": "https://github.com/nlpxucan/wizardlm",
+        "n": "WizardMath-70B-V1.0",
+        "d": "2023-08-18",
+        "m1": "81.6",
+        "m2": "70"
+      },
+      {
+        "p": {
+          "name": "TinyGSM: achieving >80% on GSM8k with small language models",
+          "link": "https://arxiv.org/abs/2312.09241v1"
+        },
+        "c": "",
+        "n": "Phi-GSM+V 1.3B+1.3B (verify48@1)",
+        "d": "2023-12-14",
+        "m1": "81.5",
+        "m2": "2.6"
+      },
+      {
+        "p": {
+          "name": "DART-Math: Difficulty-Aware Rejection Tuning for Mathematical Problem-Solving",
+          "link": "https://arxiv.org/abs/2407.13690v2"
+        },
+        "c": "https://github.com/hkust-nlp/dart-math",
+        "n": "DART-Math-Mistral-7B-Prop2Diff (0-shot CoT, w/o code)",
+        "d": "2024-06-18",
+        "m1": "81.1",
+        "m2": "7"
+      },
+      {
+        "p": {
+          "name": "DART-Math: Difficulty-Aware Rejection Tuning for Mathematical Problem-Solving",
+          "link": "https://arxiv.org/abs/2407.13690v2"
+        },
+        "c": "https://github.com/hkust-nlp/dart-math",
+        "n": "DART-Math-Llama3-8B-Prop2Diff (0-shot CoT, w/o code)",
+        "d": "2024-06-18",
+        "m1": "81.1",
+        "m2": "8"
+      },
+      {
+        "p": {
+          "name": "Model Card and Evaluations for Claude Models",
+          "link": "https://www-files.anthropic.com/production/images/Model-Card-Claude-2.pdf"
+        },
+        "c": "",
+        "n": "Claude Instant 1.1 (0-shot chain-of-thought)",
+        "d": "2023-07-11",
+        "m1": "80.9"
+      },
+      {
+        "p": {
+          "name": "ToRA: A Tool-Integrated Reasoning Agent for Mathematical Problem Solving",
+          "link": "https://arxiv.org/abs/2309.17452v4"
+        },
+        "c": "https://github.com/microsoft/tora",
+        "n": "ToRA-Code 34B",
+        "d": "2023-09-29",
+        "m1": "80.7",
+        "m2": "34"
+      },
+      {
+        "p": {
+          "name": "OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset",
+          "link": "https://arxiv.org/abs/2402.10176v2"
+        },
+        "c": "https://github.com/kipok/nemo-skills",
+        "n": "OpenMath-CodeLlama-34B (w/ code)",
+        "d": "2024-02-15",
+        "m1": "80.7",
+        "m2": "34"
+      },
+      {
+        "p": {
+          "name": "PaLM 2 Technical Report",
+          "link": "https://arxiv.org/abs/2305.10403v3"
+        },
+        "c": "https://github.com/eternityyw/tram-benchmark",
+        "n": "PaLM 2 (few-shot, k=8, CoT)",
+        "d": "2023-05-17",
+        "m1": "80.7"
+      },
+      {
+        "p": {
+          "name": "An Empirical Study of Data Ability Boundary in LLMs' Math Reasoning",
+          "link": "https://arxiv.org/abs/2403.00799v1"
+        },
+        "c": "https://github.com/cyzhh/MMOS",
+        "n": "MMOS-DeepSeekMath-7B(0-shot)",
+        "d": "2024-02-23",
+        "m1": "80.5",
+        "m2": "7"
+      },
+      {
+        "p": {
+          "name": "An Empirical Study of Data Ability Boundary in LLMs' Math Reasoning",
+          "link": "https://arxiv.org/abs/2403.00799v1"
+        },
+        "c": "https://github.com/cyzhh/MMOS",
+        "n": "MMOS-CODE-34B(0-shot)",
+        "d": "2024-02-23",
+        "m1": "80.4",
+        "m2": "34"
+      },
+      {
+        "p": {
+          "name": "OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset",
+          "link": "https://arxiv.org/abs/2402.10176v2"
+        },
+        "c": "https://github.com/kipok/nemo-skills",
+        "n": "OpenMath-Mistral-7B (w/ code)",
+        "d": "2024-02-15",
+        "m1": "80.2",
+        "m2": "7"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Self-Evaluation Guided Decoding (Codex, PAL, single reasoning chain, 9-shot gen, 5-shot eval)",
+        "d": null,
+        "m1": "80.2"
+      },
+      {
+        "p": {
+          "name": "OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset",
+          "link": "https://arxiv.org/abs/2402.10176v2"
+        },
+        "c": "https://github.com/kipok/nemo-skills",
+        "n": "OpenMath-CodeLlama-13B (w/ code)",
+        "d": "2024-02-15",
+        "m1": "78.8",
+        "m2": "13"
+      },
+      {
+        "p": {
+          "name": "Solving Quantitative Reasoning Problems with Language Models",
+          "link": "https://arxiv.org/abs/2206.14858v2"
+        },
+        "c": "https://github.com/gair-nlp/abel",
+        "n": "Minerva 540B (CoT)",
+        "d": "2022-06-29",
+        "m1": "78.5",
+        "m2": "540"
+      },
+      {
+        "p": {
+          "name": "Parameter-Efficient Sparsity Crafting from Dense to Mixture-of-Experts for Instruction Tuning on General Tasks",
+          "link": "https://arxiv.org/abs/2401.02731v4"
+        },
+        "c": "https://github.com/wuhy68/parameter-efficient-moe",
+        "n": "Camelidae-8×34B (5-shot)",
+        "d": "2024-01-05",
+        "m1": "78.3"
+      },
+      {
+        "p": {
+          "name": "Parameter-Efficient Sparsity Crafting from Dense to Mixture-of-Experts for Instruction Tuning on General Tasks",
+          "link": "https://arxiv.org/abs/2401.02731v4"
+        },
+        "c": "https://github.com/wuhy68/parameter-efficient-moe",
+        "n": "Qwen2idae-16x14B (5-shot)",
+        "d": "2024-01-05",
+        "m1": "77.8"
+      },
+      {
+        "p": {
+          "name": "MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models",
+          "link": "https://arxiv.org/abs/2309.12284v4"
+        },
+        "c": "https://github.com/meta-math/MetaMath",
+        "n": "MetaMath-Mistral-7B",
+        "d": "2023-09-21",
+        "m1": "77.7",
+        "m2": "7"
+      },
+      {
+        "p": {
+          "name": "OpenChat: Advancing Open-source Language Models with Mixed-Quality Data",
+          "link": "https://arxiv.org/abs/2309.11235v2"
+        },
+        "c": "https://github.com/imoneoi/openchat",
+        "n": "OpenChat-3.5 7B",
+        "d": "2023-09-20",
+        "m1": "77.3",
+        "m2": "7"
+      },
+      {
+        "p": {
+          "name": "Solving math word problems with process- and outcome-based feedback",
+          "link": "https://arxiv.org/abs/2211.14275v1"
+        },
+        "c": "",
+        "n": "DeepMind 70B Model (STaR, maj1@96)",
+        "d": "2022-11-25",
+        "m1": "76.5",
+        "m2": "70"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Arithmo2-Mistral-7B",
+        "d": null,
+        "m1": "76.4",
+        "m2": "7"
+      },
+      {
+        "p": {
+          "name": "OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset",
+          "link": "https://arxiv.org/abs/2402.10176v2"
+        },
+        "c": "https://github.com/kipok/nemo-skills",
+        "n": "OpenMath-CodeLlama-7B (w/ code)",
+        "d": "2024-02-15",
+        "m1": "75.9",
+        "m2": "7"
+      },
+      {
+        "p": {
+          "name": "ToRA: A Tool-Integrated Reasoning Agent for Mathematical Problem Solving",
+          "link": "https://arxiv.org/abs/2309.17452v4"
+        },
+        "c": "https://github.com/microsoft/tora",
+        "n": "ToRA-Code 13B",
+        "d": "2023-09-29",
+        "m1": "75.8",
+        "m2": "13"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Arithmo-Mistral-7B",
+        "d": null,
+        "m1": "74.7",
+        "m2": "7"
+      },
+      {
+        "p": {
+          "name": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+          "link": "https://arxiv.org/abs/2203.11171v4"
+        },
+        "c": "https://github.com/codelion/optillm/blob/main/optillm/self_consistency.py",
+        "n": "PaLM 540B maj1@40 (8-shot)",
+        "d": "2022-03-21",
+        "m1": "74.4",
+        "m2": "540"
+      },
+      {
+        "p": {
+          "name": "Large Language Models Can Self-Improve",
+          "link": "https://arxiv.org/abs/2210.11610v2"
+        },
+        "c": "",
+        "n": "PaLM 540B (Self Consistency)",
+        "d": "2022-10-20",
+        "m1": "74.4",
+        "m2": "540"
+      },
+      {
+        "p": {
+          "name": "TinyGSM: achieving >80% on GSM8k with small language models",
+          "link": "https://arxiv.org/abs/2312.09241v1"
+        },
+        "c": "",
+        "n": "Phi-GSM 2.7B (fine-tuned)",
+        "d": "2023-12-14",
+        "m1": "74.3",
+        "m2": "2.7"
+      },
+      {
+        "p": {
+          "name": "MathCoder: Seamless Code Integration in LLMs for Enhanced Mathematical Reasoning",
+          "link": "https://arxiv.org/abs/2310.03731v1"
+        },
+        "c": "https://github.com/mathllm/mathcoder",
+        "n": "MathCoder-CL-13B",
+        "d": "2023-10-05",
+        "m1": "74.1",
+        "m2": "7"
+      },
+      {
+        "p": {
+          "name": "MuggleMath: Assessing the Impact of Query and Response Augmentation on Math Reasoning",
+          "link": "https://arxiv.org/abs/2310.05506v3"
+        },
+        "c": "https://github.com/ofa-sys/gsm8k-screl",
+        "n": "MuggleMATH 13B",
+        "d": "2023-10-09",
+        "m1": "74",
+        "m2": "13"
+      },
+      {
+        "p": {
+          "name": "An Empirical Study of Data Ability Boundary in LLMs' Math Reasoning",
+          "link": "https://arxiv.org/abs/2403.00799v1"
+        },
+        "c": "https://github.com/cyzhh/MMOS",
+        "n": "MMOS-CODE-7B(0-shot)",
+        "d": "2024-02-23",
+        "m1": "73.9",
+        "m2": "7"
+      },
+      {
+        "p": {
+          "name": "CodeT5+: Open Code Large Language Models for Code Understanding and Generation",
+          "link": "https://arxiv.org/abs/2305.07922v2"
+        },
+        "c": "https://github.com/salesforce/codet5",
+        "n": "CodeT5+",
+        "d": "2023-05-13",
+        "m1": "73.8",
+        "m2": "0.77"
+      },
+      {
+        "p": {
+          "name": "CAPO: Cost-Aware Prompt Optimization",
+          "link": "https://arxiv.org/abs/2504.16005v3"
+        },
+        "c": "https://github.com/finitearth/promptolution",
+        "n": "Llama-3.3-70B + CAPO",
+        "d": "2025-04-22",
+        "m1": "73.73"
+      },
+      {
+        "p": {
+          "name": "OVM, Outcome-supervised Value Models for Planning in Mathematical Reasoning",
+          "link": "https://arxiv.org/abs/2311.09724v2"
+        },
+        "c": "https://github.com/freedomintelligence/ovm",
+        "n": "OVM-Llama2-7B (verify100@1)",
+        "d": "2023-11-16",
+        "m1": "73.7",
+        "m2": "7"
+      },
+      {
+        "p": {
+          "name": "Large Language Models Can Self-Improve",
+          "link": "https://arxiv.org/abs/2210.11610v2"
+        },
+        "c": "",
+        "n": "PaLM 540B (Self Improvement, CoT Prompting)",
+        "d": "2022-10-20",
+        "m1": "73.5",
+        "m2": "540"
+      },
+      {
+        "p": {
+          "name": "KwaiYiiMath: Technical Report",
+          "link": "https://arxiv.org/abs/2310.07488v2"
+        },
+        "c": "",
+        "n": "KwaiYiiMath 13B",
+        "d": "2023-10-11",
+        "m1": "73.3",
+        "m2": "13"
+      },
+      {
+        "p": {
+          "name": "ToRA: A Tool-Integrated Reasoning Agent for Mathematical Problem Solving",
+          "link": "https://arxiv.org/abs/2309.17452v4"
+        },
+        "c": "https://github.com/microsoft/tora",
+        "n": "ToRA-Code 7B",
+        "d": "2023-09-29",
+        "m1": "72.6",
+        "m2": "7"
+      },
+      {
+        "p": {
+          "name": "MathCoder: Seamless Code Integration in LLMs for Enhanced Mathematical Reasoning",
+          "link": "https://arxiv.org/abs/2310.03731v1"
+        },
+        "c": "https://github.com/mathllm/mathcoder",
+        "n": "MathCoder-L-13B",
+        "d": "2023-10-05",
+        "m1": "72.6",
+        "m2": "13"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "DBRX Base 132B",
+        "d": null,
+        "m1": "72.3"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "Self-Evaluation Guided Decoding (Codex, CoT, single reasoning chain, 9-shot gen, 5-shot eval)",
+        "d": null,
+        "m1": "71.9"
+      },
+      {
+        "p": {
+          "name": "MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models",
+          "link": "https://arxiv.org/abs/2309.12284v4"
+        },
+        "c": "https://github.com/meta-math/MetaMath",
+        "n": "MetaMath 13B",
+        "d": "2023-09-21",
+        "m1": "71.0",
+        "m2": "13"
+      },
+      {
+        "p": {
+          "name": "MuggleMath: Assessing the Impact of Query and Response Augmentation on Math Reasoning",
+          "link": "https://arxiv.org/abs/2310.05506v3"
+        },
+        "c": "https://github.com/ofa-sys/gsm8k-screl",
+        "n": "MuggleMATH 7B",
+        "d": "2023-10-09",
+        "m1": "69.8",
+        "m2": "7"
+      },
+      {
+        "p": {
+          "name": "LLaMA: Open and Efficient Foundation Language Models",
+          "link": "https://arxiv.org/abs/2302.13971v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LLaMA 65B-maj1@k",
+        "d": "2023-02-27",
+        "m1": "69.7",
+        "m2": "65"
+      },
+      {
+        "p": {
+          "name": "Solving Quantitative Reasoning Problems with Language Models",
+          "link": "https://arxiv.org/abs/2206.14858v2"
+        },
+        "c": "https://github.com/gair-nlp/abel",
+        "n": "Minerva 62B (maj1@100)",
+        "d": "2022-06-29",
+        "m1": "68.5",
+        "m2": "62"
+      },
+      {
+        "p": {
+          "name": "Least-to-Most Prompting Enables Complex Reasoning in Large Language Models",
+          "link": "https://arxiv.org/abs/2205.10625v3"
+        },
+        "c": "https://github.com/RUCAIBox/LLMBox",
+        "n": "code-davinci-002 (Least-to-Most Prompting)",
+        "d": "2022-05-21",
+        "m1": "68.01",
+        "m2": "175"
+      },
+      {
+        "p": {
+          "name": "MathCoder: Seamless Code Integration in LLMs for Enhanced Mathematical Reasoning",
+          "link": "https://arxiv.org/abs/2310.03731v1"
+        },
+        "c": "https://github.com/mathllm/mathcoder",
+        "n": "MathCoder-CL-7B",
+        "d": "2023-10-05",
+        "m1": "67.8",
+        "m2": "7"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "DBRX Instruct 132B",
+        "d": null,
+        "m1": "66.9"
+      },
+      {
+        "p": {
+          "name": "MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models",
+          "link": "https://arxiv.org/abs/2309.12284v4"
+        },
+        "c": "https://github.com/meta-math/MetaMath",
+        "n": "MetaMath 7B",
+        "d": "2023-09-21",
+        "m1": "66.4",
+        "m2": "7"
+      },
+      {
+        "p": {
+          "name": "CAPO: Cost-Aware Prompt Optimization",
+          "link": "https://arxiv.org/abs/2504.16005v3"
+        },
+        "c": "https://github.com/finitearth/promptolution",
+        "n": "Mistral-Small-24B + CAPO",
+        "d": "2025-04-22",
+        "m1": "65.07"
+      },
+      {
+        "p": {
+          "name": "Scaling Relationship on Learning Mathematical Reasoning with Large Language Models",
+          "link": "https://arxiv.org/abs/2308.01825v2"
+        },
+        "c": "https://github.com/ofa-sys/gsm8k-screl",
+        "n": "RFT 70B",
+        "d": "2023-08-03",
+        "m1": "64.8",
+        "m2": "79"
+      },
+      {
+        "p": {
+          "name": "MathCoder: Seamless Code Integration in LLMs for Enhanced Mathematical Reasoning",
+          "link": "https://arxiv.org/abs/2310.03731v1"
+        },
+        "c": "https://github.com/mathllm/mathcoder",
+        "n": "MathCoder-L-7B",
+        "d": "2023-10-05",
+        "m1": "64.2",
+        "m2": "7"
+      },
+      {
+        "p": {
+          "name": "WizardMath: Empowering Mathematical Reasoning for Large Language Models via Reinforced Evol-Instruct",
+          "link": "https://arxiv.org/abs/2308.09583v2"
+        },
+        "c": "https://github.com/nlpxucan/wizardlm",
+        "n": "WizardMath-13B-V1.0",
+        "d": "2023-08-18",
+        "m1": "63.9",
+        "m2": "13"
+      },
+      {
+        "p": {
+          "name": "Solving Math Word Problems via Cooperative Reasoning induced Language Models",
+          "link": "https://arxiv.org/abs/2210.16257v5"
+        },
+        "c": "https://github.com/tianhongzxy/core",
+        "n": "GPT-J (CoRe)",
+        "d": "2022-10-28",
+        "m1": "63.2",
+        "m2": "12"
+      },
+      {
+        "p": {
+          "name": "The Unreasonable Effectiveness of Eccentric Automatic Prompts",
+          "link": "https://arxiv.org/abs/2402.10949v2"
+        },
+        "c": "",
+        "n": "Llama-2 70B (on 100 first questions, 4-shot, auto-optimized prompting)",
+        "d": "2024-02-09",
+        "m1": "61",
+        "m2": "70"
+      },
+      {
+        "p": {
+          "name": "CAPO: Cost-Aware Prompt Optimization",
+          "link": "https://arxiv.org/abs/2504.16005v3"
+        },
+        "c": "https://github.com/finitearth/promptolution",
+        "n": "Qwen2.5-32B + CAPO",
+        "d": "2025-04-22",
+        "m1": "60.2"
+      },
+      {
+        "p": {
+          "name": "Fewer is More: Boosting LLM Reasoning with Reinforced Context Pruning",
+          "link": "https://arxiv.org/abs/2312.08901v3"
+        },
+        "c": "",
+        "n": "LLaMA 2 70B (CoT-Influx)",
+        "d": "2023-12-14",
+        "m1": "59.59",
+        "m2": "70"
+      },
+      {
+        "p": {
+          "name": "Orca 2: Teaching Small Language Models How to Reason",
+          "link": "https://arxiv.org/abs/2311.11045v2"
+        },
+        "c": "",
+        "n": "Orca 2 13B",
+        "d": "2023-11-18",
+        "m1": "59.14",
+        "m2": "13"
+      },
+      {
+        "p": {
+          "name": "Transcending Scaling Laws with 0.1% Extra Compute",
+          "link": "https://arxiv.org/abs/2210.11399v2"
+        },
+        "c": "",
+        "n": "U-PaLM",
+        "d": "2022-10-20",
+        "m1": "58.5",
+        "m2": "540"
+      },
+      {
+        "p": {
+          "name": "Large Language Models are Zero-Shot Reasoners",
+          "link": "https://arxiv.org/abs/2205.11916v4"
+        },
+        "c": "https://github.com/kojima-takeshi188/zero_shot_cot",
+        "n": "PaLM-540B (few-Shot-cot)",
+        "d": "2022-05-24",
+        "m1": "58.1",
+        "m2": "540"
+      },
+      {
+        "p": {
+          "name": "GPT-4 Technical Report",
+          "link": "https://arxiv.org/abs/2303.08774v5"
+        },
+        "c": "https://github.com/openai/evals",
+        "n": "GPT-3.5 (few-shot, k=5)",
+        "d": "2023-03-15",
+        "m1": "57.1"
+      },
+      {
+        "p": {
+          "name": "Solving Quantitative Reasoning Problems with Language Models",
+          "link": "https://arxiv.org/abs/2206.14858v2"
+        },
+        "c": "https://github.com/gair-nlp/abel",
+        "n": "Minerva 8B (maj5@100)",
+        "d": "2022-06-29",
+        "m1": "56.8",
+        "m2": "8"
+      },
+      {
+        "p": {
+          "name": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+          "link": "https://arxiv.org/abs/2307.09288v2"
+        },
+        "c": "https://github.com/facebookresearch/llama",
+        "n": "LLaMA 2 70B (on-shot)",
+        "d": "2023-07-18",
+        "m1": "56.8",
+        "m2": "70"
+      },
+      {
+        "p": {
+          "name": "Solving Quantitative Reasoning Problems with Language Models",
+          "link": "https://arxiv.org/abs/2206.14858v2"
+        },
+        "c": "https://github.com/gair-nlp/abel",
+        "n": "PaLM 540B (8-shot)",
+        "d": "2022-06-29",
+        "m1": "56.5",
+        "m2": "540"
+      },
+      {
+        "p": {
+          "name": "Large Language Models Can Self-Improve",
+          "link": "https://arxiv.org/abs/2210.11610v2"
+        },
+        "c": "",
+        "n": "PaLM 540B (CoT Prompting)",
+        "d": "2022-10-20",
+        "m1": "56.5",
+        "m2": "540"
+      },
+      {
+        "p": {
+          "name": "Scaling Relationship on Learning Mathematical Reasoning with Large Language Models",
+          "link": "https://arxiv.org/abs/2308.01825v2"
+        },
+        "c": "https://github.com/ofa-sys/gsm8k-screl",
+        "n": "RFT 13B",
+        "d": "2023-08-03",
+        "m1": "55.3",
+        "m2": "13"
+      },
+      {
+        "p": {
+          "name": "Large Language Models are Zero-Shot Reasoners",
+          "link": "https://arxiv.org/abs/2205.11916v4"
+        },
+        "c": "https://github.com/kojima-takeshi188/zero_shot_cot",
+        "n": "Finetuned GPT-3 175B + verifier",
+        "d": "2022-05-24",
+        "m1": "55.0",
+        "m2": "175"
+      },
+      {
+        "p": {
+          "name": "WizardMath: Empowering Mathematical Reasoning for Large Language Models via Reinforced Evol-Instruct",
+          "link": "https://arxiv.org/abs/2308.09583v2"
+        },
+        "c": "https://github.com/nlpxucan/wizardlm",
+        "n": "WizardMath-7B-V1.0",
+        "d": "2023-08-18",
+        "m1": "54.9",
+        "m2": "7"
+      },
+      {
+        "p": {
+          "name": "LLaMA: Open and Efficient Foundation Language Models",
+          "link": "https://arxiv.org/abs/2302.13971v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LLaMA 33B-maj1@k",
+        "d": "2023-02-27",
+        "m1": "53.1",
+        "m2": "33"
+      },
+      {
+        "p": {
+          "name": "Solving Quantitative Reasoning Problems with Language Models",
+          "link": "https://arxiv.org/abs/2206.14858v2"
+        },
+        "c": "https://github.com/gair-nlp/abel",
+        "n": "Minerva 62B (8-shot)",
+        "d": "2022-06-29",
+        "m1": " 52.4",
+        "m2": "62"
+      },
+      {
+        "p": {
+          "name": "Mistral 7B",
+          "link": "https://arxiv.org/abs/2310.06825v1"
+        },
+        "c": "https://github.com/mistralai/mistral-src",
+        "n": "Mistral 7B (maj@8)",
+        "d": "2023-10-10",
+        "m1": "52.2",
+        "m2": "7"
+      },
+      {
+        "p": {
+          "name": "Llemma: An Open Language Model For Mathematics",
+          "link": "https://arxiv.org/abs/2310.10631v3"
+        },
+        "c": "https://github.com/eleutherai/gpt-neox",
+        "n": "Llemma 34B",
+        "d": "2023-10-16",
+        "m1": "51.5",
+        "m2": "34"
+      },
+      {
+        "p": {
+          "name": "Large Language Models are Zero-Shot Reasoners",
+          "link": "https://arxiv.org/abs/2205.11916v4"
+        },
+        "c": "https://github.com/kojima-takeshi188/zero_shot_cot",
+        "n": "Text-davinci-002-175B (zero-plus-few-Shot-cot (8 samples))",
+        "d": "2022-05-24",
+        "m1": "51.5",
+        "m2": "175"
+      },
+      {
+        "p": {
+          "name": "Scaling Relationship on Learning Mathematical Reasoning with Large Language Models",
+          "link": "https://arxiv.org/abs/2308.01825v2"
+        },
+        "c": "https://github.com/ofa-sys/gsm8k-screl",
+        "n": "RFT 7B",
+        "d": "2023-08-03",
+        "m1": "51.2",
+        "m2": "7"
+      },
+      {
+        "p": {
+          "name": "LLaMA: Open and Efficient Foundation Language Models",
+          "link": "https://arxiv.org/abs/2302.13971v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LLaMA 65B",
+        "d": "2023-02-27",
+        "m1": "50.9",
+        "m2": "65"
+      },
+      {
+        "p": {
+          "name": "Orca 2: Teaching Small Language Models How to Reason",
+          "link": "https://arxiv.org/abs/2311.11045v2"
+        },
+        "c": "",
+        "n": "Orca 2 7B",
+        "d": "2023-11-18",
+        "m1": "47.23",
+        "m2": "7"
+      },
+      {
+        "p": {
+          "name": "The Unreasonable Effectiveness of Eccentric Automatic Prompts",
+          "link": "https://arxiv.org/abs/2402.10949v2"
+        },
+        "c": "",
+        "n": "Llama-2 13B (on 100 first questions, 4-shot, auto-optimized prompting)",
+        "d": "2024-02-09",
+        "m1": "43",
+        "m2": "13"
+      },
+      {
+        "p": {
+          "name": "Large Language Models are Zero-Shot Reasoners",
+          "link": "https://arxiv.org/abs/2205.11916v4"
+        },
+        "c": "https://github.com/kojima-takeshi188/zero_shot_cot",
+        "n": "text-davinci-002 175B (2-shot, CoT)",
+        "d": "2022-05-24",
+        "m1": "41.3",
+        "m2": "175"
+      },
+      {
+        "p": {
+          "name": "The Unreasonable Effectiveness of Eccentric Automatic Prompts",
+          "link": "https://arxiv.org/abs/2402.10949v2"
+        },
+        "c": "",
+        "n": "Mistral 7B (on 100 first questions, 4-shot, auto-optimized prompting)",
+        "d": "2024-02-09",
+        "m1": "41",
+        "m2": "7"
+      },
+      {
+        "p": {
+          "name": "Large Language Models are Zero-Shot Reasoners",
+          "link": "https://arxiv.org/abs/2205.11916v4"
+        },
+        "c": "https://github.com/kojima-takeshi188/zero_shot_cot",
+        "n": "text-davinci-002 175B (0-shot, CoT)",
+        "d": "2022-05-24",
+        "m1": "40.7",
+        "m2": "175"
+      },
+      {
+        "p": {
+          "name": "Branch-Train-MiX: Mixing Expert LLMs into a Mixture-of-Experts LLM",
+          "link": "https://arxiv.org/abs/2403.07816v1"
+        },
+        "c": "https://github.com/Leeroo-AI/mergoo",
+        "n": "Branch-Train-MiX 4x7B (sampling top-2 experts)",
+        "d": "2024-03-12",
+        "m1": "37.1"
+      },
+      {
+        "p": {
+          "name": "Llemma: An Open Language Model For Mathematics",
+          "link": "https://arxiv.org/abs/2310.10631v3"
+        },
+        "c": "https://github.com/eleutherai/gpt-neox",
+        "n": "Llemma 7B",
+        "d": "2023-10-16",
+        "m1": "36.4",
+        "m2": "7"
+      },
+      {
+        "p": {
+          "name": "LLaMA: Open and Efficient Foundation Language Models",
+          "link": "https://arxiv.org/abs/2302.13971v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LLaMA 33B",
+        "d": "2023-02-27",
+        "m1": "35.6",
+        "m2": "33"
+      },
+      {
+        "p": {
+          "name": "Frugal LMs Trained to Invoke Symbolic Solvers Achieve Parameter-Efficient Arithmetic Reasoning",
+          "link": "https://arxiv.org/abs/2312.05571v2"
+        },
+        "c": "https://github.com/joykirat18/syrelm",
+        "n": "Vicuna (SYRELM)",
+        "d": "2023-12-09",
+        "m1": "35.2",
+        "m2": "13"
+      },
+      {
+        "p": {
+          "name": "Solving Quantitative Reasoning Problems with Language Models",
+          "link": "https://arxiv.org/abs/2206.14858v2"
+        },
+        "c": "https://github.com/gair-nlp/abel",
+        "n": "PaLM 62B (8-shot)",
+        "d": "2022-06-29",
+        "m1": "33.0",
+        "m2": "62"
+      },
+      {
+        "p": {
+          "name": "Large Language Models Can Self-Improve",
+          "link": "https://arxiv.org/abs/2210.11610v2"
+        },
+        "c": "",
+        "n": "PaLM 540B (Self Improvement, Standard-Prompting)",
+        "d": "2022-10-20",
+        "m1": "32.2",
+        "m2": "540"
+      },
+      {
+        "p": {
+          "name": "LLaMA: Open and Efficient Foundation Language Models",
+          "link": "https://arxiv.org/abs/2302.13971v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LLaMA 13B-maj1@k",
+        "d": "2023-02-27",
+        "m1": "29.3",
+        "m2": "13"
+      },
+      {
+        "p": {
+          "name": "Solving Quantitative Reasoning Problems with Language Models",
+          "link": "https://arxiv.org/abs/2206.14858v2"
+        },
+        "c": "https://github.com/gair-nlp/abel",
+        "n": "Minerva 8B-maj1@k (8-shot)",
+        "d": "2022-06-29",
+        "m1": " 28.4",
+        "m2": "8"
+      },
+      {
+        "p": {
+          "name": "Composing Ensembles of Pre-trained Models via Iterative Consensus",
+          "link": "https://arxiv.org/abs/2210.11522v1"
+        },
+        "c": "",
+        "n": "GPT-2-Medium 355M + question-solution classifier (BS=5)",
+        "d": "2022-10-20",
+        "m1": "20.8",
+        "m2": "0.355"
+      },
+      {
+        "p": {
+          "name": "Learning Math Reasoning from Self-Sampled Correct and Partially-Correct Solutions",
+          "link": "https://arxiv.org/abs/2205.14318v2"
+        },
+        "c": "https://github.com/microsoft/tracecodegen",
+        "n": "GPT-Neo-2.7B + Self-Sampling",
+        "d": "2022-05-28",
+        "m1": "19.5",
+        "m2": "2.7"
+      },
+      {
+        "p": {
+          "name": "Composing Ensembles of Pre-trained Models via Iterative Consensus",
+          "link": "https://arxiv.org/abs/2210.11522v1"
+        },
+        "c": "",
+        "n": "GPT-2-Medium 355M (fine-tuned, BS=5)",
+        "d": "2022-10-20",
+        "m1": "18.3",
+        "m2": "0.355"
+      },
+      {
+        "p": {
+          "name": "LLaMA: Open and Efficient Foundation Language Models",
+          "link": "https://arxiv.org/abs/2302.13971v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LLaMA 7B (maj1@k)",
+        "d": "2023-02-27",
+        "m1": "18.1",
+        "m2": "7"
+      },
+      {
+        "p": {
+          "name": "Large Language Models are Zero-Shot Reasoners",
+          "link": "https://arxiv.org/abs/2205.11916v4"
+        },
+        "c": "https://github.com/kojima-takeshi188/zero_shot_cot",
+        "n": "PaLM 540B (few-shot)",
+        "d": "2022-05-24",
+        "m1": "17.9",
+        "m2": "540"
+      },
+      {
+        "p": {
+          "name": "Large Language Models Can Self-Improve",
+          "link": "https://arxiv.org/abs/2210.11610v2"
+        },
+        "c": "",
+        "n": "PaLM 540B (Standard-Prompting)",
+        "d": "2022-10-20",
+        "m1": "17.9",
+        "m2": "540"
+      },
+      {
+        "p": {
+          "name": "LLaMA: Open and Efficient Foundation Language Models",
+          "link": "https://arxiv.org/abs/2302.13971v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LLaMA 13B",
+        "d": "2023-02-27",
+        "m1": "17.8",
+        "m2": "13"
+      },
+      {
+        "p": {
+          "name": "Composing Ensembles of Pre-trained Models via Iterative Consensus",
+          "link": "https://arxiv.org/abs/2210.11522v1"
+        },
+        "c": "",
+        "n": "GPT-2-Medium 355M + question-solution classifier (BS=1)",
+        "d": "2022-10-20",
+        "m1": "16.8",
+        "m2": "0.355"
+      },
+      {
+        "p": {
+          "name": "Solving Quantitative Reasoning Problems with Language Models",
+          "link": "https://arxiv.org/abs/2206.14858v2"
+        },
+        "c": "https://github.com/gair-nlp/abel",
+        "n": "Minerva 8B (8-shot)",
+        "d": "2022-06-29",
+        "m1": "16.2",
+        "m2": "8"
+      },
+      {
+        "p": {
+          "name": "Composing Ensembles of Pre-trained Models via Iterative Consensus",
+          "link": "https://arxiv.org/abs/2210.11522v1"
+        },
+        "c": "",
+        "n": "GPT-2-Medium 355M (BS=5)",
+        "d": "2022-10-20",
+        "m1": "12.2",
+        "m2": "0.355"
+      },
+      {
+        "p": {
+          "name": "LLaMA: Open and Efficient Foundation Language Models",
+          "link": "https://arxiv.org/abs/2302.13971v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LLaMA 7B",
+        "d": "2023-02-27",
+        "m1": "11.0",
+        "m2": "7"
+      },
+      {
+        "p": {
+          "name": "Large Language Models are Zero-Shot Reasoners",
+          "link": "https://arxiv.org/abs/2205.11916v4"
+        },
+        "c": "https://github.com/kojima-takeshi188/zero_shot_cot",
+        "n": "Text-davinci-002-175B (0-shot)",
+        "d": "2022-05-24",
+        "m1": "10.4",
+        "m2": "175"
+      },
+      {
+        "p": {
+          "name": "Learning Math Reasoning from Self-Sampled Correct and Partially-Correct Solutions",
+          "link": "https://arxiv.org/abs/2205.14318v2"
+        },
+        "c": "https://github.com/microsoft/tracecodegen",
+        "n": "GPT-Neo 125M + Self-Sampling",
+        "d": "2022-05-28",
+        "m1": "7.5",
+        "m2": "0.125"
+      },
+      {
+        "p": {
+          "name": "UL2: Unifying Language Learning Paradigms",
+          "link": "https://arxiv.org/abs/2205.05131v3"
+        },
+        "c": "https://github.com/google-research/google-research",
+        "n": "UL2 20B (chain-of-thought)",
+        "d": "2022-05-10",
+        "m1": "4.4",
+        "m2": "20"
+      },
+      {
+        "p": {
+          "name": "Solving Quantitative Reasoning Problems with Language Models",
+          "link": "https://arxiv.org/abs/2206.14858v2"
+        },
+        "c": "https://github.com/gair-nlp/abel",
+        "n": "PaLM 8B (8-shot)",
+        "d": "2022-06-29",
+        "m1": "4.1",
+        "m2": "8"
+      },
+      {
+        "p": {
+          "name": "UL2: Unifying Language Learning Paradigms",
+          "link": "https://arxiv.org/abs/2205.05131v3"
+        },
+        "c": "https://github.com/google-research/google-research",
+        "n": "UL2 20B (0-shot)",
+        "d": "2022-05-10",
+        "m1": "4.1",
+        "m2": "20"
+      }
+    ]
+  }
+}

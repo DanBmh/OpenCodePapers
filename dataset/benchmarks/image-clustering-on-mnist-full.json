@@ -1,0 +1,216 @@
+{
+  "title": "image-clustering-on-mnist-full",
+  "task-hierarchy": [
+    "Image Clustering"
+  ],
+  "dataset-info": {
+    "link": "http://yann.lecun.com/exdb/mnist/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "NMI",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Selective Pseudo-label Clustering",
+          "link": "https://arxiv.org/abs/2107.10692v1"
+        },
+        "c": "https://github.com/Lou1sM/clustering",
+        "n": "SPC",
+        "d": "2021-07-22",
+        "m1": "0.975",
+        "m2": "0.992"
+      },
+      {
+        "p": {
+          "name": "Adversarial Deep Embedded Clustering: on a better trade-off between Feature Randomness and Feature Drift",
+          "link": "https://arxiv.org/abs/1909.11832v1"
+        },
+        "c": "",
+        "n": "ADEC",
+        "d": "2019-09-26",
+        "m1": "0.971",
+        "m2": "0.990"
+      },
+      {
+        "p": {
+          "name": "N2D: (Not Too) Deep Clustering via Clustering the Local Manifold of an Autoencoded Embedding",
+          "link": "https://arxiv.org/abs/1908.05968v6"
+        },
+        "c": "https://github.com/rymc/n2d",
+        "n": "N2D (UMAP)",
+        "d": "2019-08-16",
+        "m1": "0.964",
+        "m2": "0.987"
+      },
+      {
+        "p": {
+          "name": "Deep Clustering with a Dynamic Autoencoder: From Reconstruction towards Centroids Construction",
+          "link": "https://arxiv.org/abs/1901.07752v5"
+        },
+        "c": "https://github.com/nairouz/DynAE",
+        "n": "DynAE",
+        "d": "2019-01-23",
+        "m1": "0.964",
+        "m2": "0.987"
+      },
+      {
+        "p": {
+          "name": "Deep Density-based Image Clustering",
+          "link": "http://arxiv.org/abs/1812.04287v1"
+        },
+        "c": "https://github.com/Yazhou-Ren/DDC",
+        "n": "DDC-DA",
+        "d": "2018-12-11",
+        "m1": "0.961",
+        "m2": "0.986"
+      },
+      {
+        "p": {
+          "name": "Interpretable Visualizations with Differentiating Embedding Networks",
+          "link": "https://arxiv.org/abs/2006.06640v1"
+        },
+        "c": "https://github.com/isaacrob/DEN",
+        "n": "DEN",
+        "d": "2020-06-11",
+        "m1": "0.956",
+        "m2": "0.984"
+      },
+      {
+        "p": {
+          "name": "Deep Transformation-Invariant Clustering",
+          "link": "https://arxiv.org/abs/2006.11132v2"
+        },
+        "c": "https://github.com/monniert/dti-clustering",
+        "n": "DTI-Clustering",
+        "d": "2020-06-19",
+        "m1": "0.942",
+        "m2": "0.979"
+      },
+      {
+        "p": {
+          "name": "Oracle Based Active Set Algorithm for Scalable Elastic Net Subspace Clustering",
+          "link": "http://arxiv.org/abs/1605.02633v1"
+        },
+        "c": "https://github.com/ChongYou/subspace-clustering",
+        "n": "EnSC",
+        "d": "2016-05-09",
+        "m1": "0.941",
+        "m2": "0.969"
+      },
+      {
+        "p": {
+          "name": "Balanced Self-Paced Learning for Generative Adversarial Clustering Network",
+          "link": "http://openaccess.thecvf.com/content_CVPR_2019/html/Ghasedi_Balanced_Self-Paced_Learning_for_Generative_Adversarial_Clustering_Network_CVPR_2019_paper.html"
+        },
+        "c": "",
+        "n": "ClusterGAN",
+        "d": "2019-06-01",
+        "m1": "0.940",
+        "m2": "0.973"
+      },
+      {
+        "p": {
+          "name": "Discriminatively Boosted Image Clustering with Fully Convolutional Auto-Encoders",
+          "link": "http://arxiv.org/abs/1703.07980v1"
+        },
+        "c": "https://github.com/waynezhanghk/gacluster",
+        "n": "DBC",
+        "d": "2017-03-23",
+        "m1": "0.937",
+        "m2": "0.976"
+      },
+      {
+        "p": {
+          "name": "Scattering Transform Based Image Clustering using Projection onto Orthogonal Complement",
+          "link": "https://arxiv.org/abs/2011.11586v2"
+        },
+        "c": "https://github.com/vmorgenshtern/scattering-clustering",
+        "n": "PSSC",
+        "d": "2020-11-23",
+        "m1": "0.921",
+        "m2": "0.964"
+      },
+      {
+        "p": {
+          "name": "The VampPrior Mixture Model",
+          "link": "https://arxiv.org/abs/2402.04412v2"
+        },
+        "c": "https://github.com/astirn/vampprior-mixture-model",
+        "n": "VMM",
+        "d": "2024-02-06",
+        "m1": "0.920",
+        "m2": "0.967"
+      },
+      {
+        "p": {
+          "name": "Joint Unsupervised Learning of Deep Representations and Image Clusters",
+          "link": "http://arxiv.org/abs/1604.03628v3"
+        },
+        "c": "https://github.com/jwyang/jule.torch",
+        "n": "JULE-RC",
+        "d": "2016-04-13",
+        "m1": "0.917",
+        "m2": "0.964"
+      },
+      {
+        "p": {
+          "name": "Graph Degree Linkage: Agglomerative Clustering on a Directed Graph",
+          "link": "http://arxiv.org/abs/1208.5092v1"
+        },
+        "c": "https://github.com/waynezhanghk/gactoolbox",
+        "n": "GDL",
+        "d": "2012-08-25",
+        "m1": "0.913",
+        "m2": "0.965"
+      },
+      {
+        "p": {
+          "name": "Deep clustering: On the link between discriminative models and K-means",
+          "link": "https://arxiv.org/abs/1810.04246v2"
+        },
+        "c": "https://github.com/MOhammedJAbi/SoftKMeans",
+        "n": "SR-K-means",
+        "d": "2018-10-09",
+        "m1": "0.913"
+      },
+      {
+        "p": {
+          "name": "Tree-SNE: Hierarchical Clustering and Visualization Using t-SNE",
+          "link": "https://arxiv.org/abs/2002.05687v1"
+        },
+        "c": "https://github.com/isaacrob/treesne",
+        "n": "Tree-SNE",
+        "d": "2020-02-13",
+        "m1": "0.864"
+      }
+    ]
+  }
+}

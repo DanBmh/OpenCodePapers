@@ -1,0 +1,107 @@
+{
+  "title": "time-series-on-physionet-challenge-2012",
+  "task-hierarchy": [
+    "Time Series Analysis"
+  ],
+  "dataset-info": {
+    "link": "https://polyp.grand-challenge.org/CVCClinicDB/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "As easy as APC: overcoming missing data and class imbalance in time series with self-supervised learning",
+          "link": "https://arxiv.org/abs/2106.15577v5"
+        },
+        "c": "https://github.com/fiorella-wever/APC",
+        "n": "naive classifier",
+        "d": "2021-06-29",
+        "m1": "87.47"
+      },
+      {
+        "p": {
+          "name": "As easy as APC: overcoming missing data and class imbalance in time series with self-supervised learning",
+          "link": "https://arxiv.org/abs/2106.15577v5"
+        },
+        "c": "https://github.com/fiorella-wever/APC",
+        "n": "GRU-D - APC (n = 1)",
+        "d": "2021-06-29",
+        "m1": "27.3"
+      },
+      {
+        "p": {
+          "name": "As easy as APC: overcoming missing data and class imbalance in time series with self-supervised learning",
+          "link": "https://arxiv.org/abs/2106.15577v5"
+        },
+        "c": "https://github.com/fiorella-wever/APC",
+        "n": "GRU-APC (n = 1)",
+        "d": "2021-06-29",
+        "m1": "25.7"
+      },
+      {
+        "p": {
+          "name": "As easy as APC: overcoming missing data and class imbalance in time series with self-supervised learning",
+          "link": "https://arxiv.org/abs/2106.15577v5"
+        },
+        "c": "https://github.com/fiorella-wever/APC",
+        "n": "GRU-D",
+        "d": "2021-06-29",
+        "m1": "22.5"
+      },
+      {
+        "p": {
+          "name": "As easy as APC: overcoming missing data and class imbalance in time series with self-supervised learning",
+          "link": "https://arxiv.org/abs/2106.15577v5"
+        },
+        "c": "https://github.com/fiorella-wever/APC",
+        "n": "GRU",
+        "d": "2021-06-29",
+        "m1": "22.3"
+      },
+      {
+        "p": {
+          "name": "As easy as APC: overcoming missing data and class imbalance in time series with self-supervised learning",
+          "link": "https://arxiv.org/abs/2106.15577v5"
+        },
+        "c": "https://github.com/fiorella-wever/APC",
+        "n": "GRU-Simple",
+        "d": "2021-06-29",
+        "m1": "22.2"
+      },
+      {
+        "p": {
+          "name": "As easy as APC: overcoming missing data and class imbalance in time series with self-supervised learning",
+          "link": "https://arxiv.org/abs/2106.15577v5"
+        },
+        "c": "https://github.com/fiorella-wever/APC",
+        "n": "GRU-Mean",
+        "d": "2021-06-29",
+        "m1": "22.1"
+      }
+    ]
+  }
+}

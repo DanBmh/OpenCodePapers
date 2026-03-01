@@ -1,0 +1,107 @@
+{
+  "title": "3d-depth-estimation-on-relative-human",
+  "task-hierarchy": [
+    "3D Depth Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/Arthur151/Relative_Human"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PCDR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "PCDR-Baby",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "PCDR-Kid",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "PCDR-Teen",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "PCDR-Adult",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "mPCDK",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Putting People in their Place: Monocular Regression of 3D People in Depth",
+          "link": "https://arxiv.org/abs/2112.08274v3"
+        },
+        "c": "https://github.com/Arthur151/CenterHMR",
+        "n": "BEV",
+        "d": "2021-12-15",
+        "m1": "68.27",
+        "m2": "60.77",
+        "m3": "67.09",
+        "m4": "66.07",
+        "m5": "69.71",
+        "m6": "0.884"
+      },
+      {
+        "p": {
+          "name": "Monocular, One-stage, Regression of Multiple 3D People",
+          "link": "https://arxiv.org/abs/2008.12272v4"
+        },
+        "c": "https://github.com/Arthur151/ROMP",
+        "n": "ROMP",
+        "d": "2020-08-27",
+        "m1": "54.84",
+        "m2": "30.08",
+        "m3": "48.41",
+        "m4": "51.12",
+        "m5": "55.34",
+        "m6": "0.866"
+      },
+      {
+        "p": {
+          "name": "Coherent Reconstruction of Multiple Humans from a Single Image",
+          "link": "https://arxiv.org/abs/2006.08586v1"
+        },
+        "c": "https://github.com/JiangWenPL/multiperson",
+        "n": "CRMH",
+        "d": "2020-06-15",
+        "m1": "54.83",
+        "m2": "34.74",
+        "m3": "48.37",
+        "m4": "59.11",
+        "m5": "55.47",
+        "m6": "0.781"
+      }
+    ]
+  }
+}

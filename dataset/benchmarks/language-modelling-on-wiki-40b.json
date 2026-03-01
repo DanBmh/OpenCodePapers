@@ -1,0 +1,67 @@
+{
+  "title": "language-modelling-on-wiki-40b",
+  "task-hierarchy": [
+    "Language Modelling"
+  ],
+  "dataset-info": {
+    "link": "https://research.google/pubs/pub49029/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Perplexity",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Transformer Quality in Linear Time",
+          "link": "https://arxiv.org/abs/2202.10447v2"
+        },
+        "c": "https://github.com/lucidrains/FLASH-pytorch",
+        "n": "FLASH-Quad-8k",
+        "d": "2022-02-21",
+        "m1": "14.998"
+      },
+      {
+        "p": {
+          "name": "Combiner: Full Attention Transformer with Sparse Computation Cost",
+          "link": "https://arxiv.org/abs/2107.05768v2"
+        },
+        "c": "https://github.com/google-research/google-research",
+        "n": "Combiner-Axial-8k",
+        "d": "2021-07-12",
+        "m1": "16.49"
+      },
+      {
+        "p": {
+          "name": "Combiner: Full Attention Transformer with Sparse Computation Cost",
+          "link": "https://arxiv.org/abs/2107.05768v2"
+        },
+        "c": "https://github.com/google-research/google-research",
+        "n": "Combiner-Fixed-8k",
+        "d": "2021-07-12",
+        "m1": "16.60"
+      }
+    ]
+  }
+}

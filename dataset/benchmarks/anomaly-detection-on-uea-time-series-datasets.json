@@ -1,0 +1,67 @@
+{
+  "title": "anomaly-detection-on-uea-time-series-datasets",
+  "task-hierarchy": [
+    "Anomaly Detection"
+  ],
+  "dataset-info": {
+    "link": "http://www.timeseriesclassification.com/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Avg. ROC-AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Set Features for Fine-grained Anomaly Detection",
+          "link": "https://arxiv.org/abs/2302.12245v2"
+        },
+        "c": "https://github.com/NivC/SINBAD",
+        "n": "SINBAD",
+        "d": "2023-02-23",
+        "m1": "96.8"
+      },
+      {
+        "p": {
+          "name": "Classification-Based Anomaly Detection for General Data",
+          "link": "https://arxiv.org/abs/2005.02359v1"
+        },
+        "c": "https://github.com/xuhongzuo/DeepOD",
+        "n": "GOAD",
+        "d": "2020-05-05",
+        "m1": "87.2"
+      },
+      {
+        "p": {
+          "name": "DROCC: Deep Robust One-Class Classification",
+          "link": "https://arxiv.org/abs/2002.12718v2"
+        },
+        "c": "https://github.com/Microsoft/EdgeML",
+        "n": "DROCC",
+        "d": "2020-02-28",
+        "m1": "86.8"
+      }
+    ]
+  }
+}

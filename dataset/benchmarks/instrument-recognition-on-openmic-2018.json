@@ -1,0 +1,87 @@
+{
+  "title": "instrument-recognition-on-openmic-2018",
+  "task-hierarchy": [
+    "Instrument Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://zenodo.org/record/1432913"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mean average precision",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Dynamic Convolutional Neural Networks as Efficient Pre-trained Audio Models",
+          "link": "https://arxiv.org/abs/2310.15648v1"
+        },
+        "c": "https://github.com/fschmid56/efficientat",
+        "n": "DyMN-L",
+        "d": "2023-10-24",
+        "m1": "0.855"
+      },
+      {
+        "p": {
+          "name": "Masked Latent Prediction and Classification for Self-Supervised Audio Representation Learning",
+          "link": "https://arxiv.org/abs/2502.12031v1"
+        },
+        "c": "https://github.com/aurianworld/matpac",
+        "n": "MATPAC (SSL Model, linear eval)",
+        "d": "2025-02-17",
+        "m1": "0.854"
+      },
+      {
+        "p": {
+          "name": "Audio Embeddings as Teachers for Music Classification",
+          "link": "https://arxiv.org/abs/2306.17424v1"
+        },
+        "c": "https://github.com/suncerock/EAsT-music-classification",
+        "n": "EAsT-KD + PaSST",
+        "d": "2023-06-30",
+        "m1": ".852"
+      },
+      {
+        "p": {
+          "name": "Audio Embeddings as Teachers for Music Classification",
+          "link": "https://arxiv.org/abs/2306.17424v1"
+        },
+        "c": "https://github.com/suncerock/EAsT-music-classification",
+        "n": "EAsT-Final + PaSST",
+        "d": "2023-06-30",
+        "m1": ".847"
+      },
+      {
+        "p": {
+          "name": "Efficient Training of Audio Transformers with Patchout",
+          "link": "https://arxiv.org/abs/2110.05069v3"
+        },
+        "c": "https://github.com/kkoutini/passt",
+        "n": "PaSST",
+        "d": "2021-10-11",
+        "m1": "0.843"
+      }
+    ]
+  }
+}

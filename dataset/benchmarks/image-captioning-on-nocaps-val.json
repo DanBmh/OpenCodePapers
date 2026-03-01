@@ -1,0 +1,75 @@
+{
+  "title": "image-captioning-on-nocaps-val",
+  "task-hierarchy": [
+    "Image Captioning"
+  ],
+  "dataset-info": {
+    "link": "https://nocaps.org/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "CIDEr",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SPICE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Prismer: A Vision-Language Model with Multi-Task Experts",
+          "link": "https://arxiv.org/abs/2303.02506v3"
+        },
+        "c": "https://github.com/nvlabs/prismer",
+        "n": "Prismer",
+        "d": "2023-03-04",
+        "m1": "107.9",
+        "m2": "14.8"
+      },
+      {
+        "p": {
+          "name": "Language Models are General-Purpose Interfaces",
+          "link": "https://arxiv.org/abs/2206.06336v1"
+        },
+        "c": "https://github.com/microsoft/unilm",
+        "n": "MetaLM",
+        "d": "2022-06-13",
+        "m1": "58.7",
+        "m2": "8.6"
+      },
+      {
+        "p": {
+          "name": "Unifying Vision-and-Language Tasks via Text Generation",
+          "link": "https://arxiv.org/abs/2102.02779v2"
+        },
+        "c": "https://github.com/j-min/VL-T5",
+        "n": "VL-T5",
+        "d": "2021-02-04",
+        "m1": "4.4",
+        "m2": " 5.3"
+      }
+    ]
+  }
+}

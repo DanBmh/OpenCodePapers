@@ -1,0 +1,78 @@
+{
+  "title": "face-image-quality-assessment-on-cgfiqa-40k",
+  "task-hierarchy": [
+    "3D Face Reconstruction",
+    "Facial Recognition and Modelling",
+    "Face Recognition",
+    "Face Image Quality Assessment"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PLCC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SRCC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DSL-FIQA: Assessing Facial Image Quality via Dual-Set Degradation Learning and Landmark-Guided Transformer",
+          "link": "https://arxiv.org/abs/2406.09622v1"
+        },
+        "c": "https://github.com/DSL-FIQA/DSL-FIQA",
+        "n": "DSL-FIQA",
+        "d": "2024-06-13",
+        "m1": "0.9745",
+        "m2": "0.9740"
+      },
+      {
+        "p": {
+          "name": "Going the Extra Mile in Face Image Quality Assessment: A Novel Database and Model",
+          "link": "https://arxiv.org/abs/2207.04904v2"
+        },
+        "c": "",
+        "n": "StyleGAN-IQA",
+        "d": "2022-07-11",
+        "m1": "0.9673",
+        "m2": "0.9684"
+      },
+      {
+        "p": {
+          "name": "IFQA: Interpretable Face Quality Assessment",
+          "link": "https://arxiv.org/abs/2211.07077v2"
+        },
+        "c": "https://github.com/vcllab/ifqa",
+        "n": "IFQA",
+        "d": "2022-11-14",
+        "m1": "0.9601",
+        "m2": "0.9603"
+      }
+    ]
+  }
+}

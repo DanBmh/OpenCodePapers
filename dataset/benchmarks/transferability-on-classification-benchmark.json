@@ -1,0 +1,97 @@
+{
+  "title": "transferability-on-classification-benchmark",
+  "task-hierarchy": [
+    "Transferability"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Kendall's Tau",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "ETran: Energy-Based Transferability Estimation",
+          "link": "https://arxiv.org/abs/2308.02027v1"
+        },
+        "c": "https://github.com/mgholamikn/ETran",
+        "n": "ETran",
+        "d": "2023-08-03",
+        "m1": "0.562"
+      },
+      {
+        "p": {
+          "name": "Not All Models Are Equal: Predicting Model Transferability in a Self-challenging Fisher Space",
+          "link": "https://arxiv.org/abs/2207.03036v2"
+        },
+        "c": "https://github.com/tencentarc/sfda",
+        "n": "SFDA",
+        "d": "2022-07-07",
+        "m1": "0.502"
+      },
+      {
+        "p": {
+          "name": "LogME: Practical Assessment of Pre-trained Models for Transfer Learning",
+          "link": "https://arxiv.org/abs/2102.11005v3"
+        },
+        "c": "https://github.com/thuml/LogME",
+        "n": "logme",
+        "d": "2021-02-22",
+        "m1": "0.482"
+      },
+      {
+        "p": {
+          "name": "LEEP: A New Measure to Evaluate Transferability of Learned Representations",
+          "link": "https://arxiv.org/abs/2002.12462v2"
+        },
+        "c": "",
+        "n": "LEEP",
+        "d": "2020-02-27",
+        "m1": "0.390"
+      },
+      {
+        "p": {
+          "name": "PACTran: PAC-Bayesian Metrics for Estimating the Transferability of Pretrained Models to Classification Tasks",
+          "link": "https://arxiv.org/abs/2203.05126v2"
+        },
+        "c": "https://github.com/google-research/pactran_metrics",
+        "n": "PACTran",
+        "d": "2022-03-10",
+        "m1": "0.266"
+      },
+      {
+        "p": {
+          "name": "Ranking Neural Checkpoints",
+          "link": "https://arxiv.org/abs/2011.11200v4"
+        },
+        "c": "https://github.com/google-research/google-research",
+        "n": "NLEEP",
+        "d": "2020-11-23",
+        "m1": "0.228"
+      }
+    ]
+  }
+}

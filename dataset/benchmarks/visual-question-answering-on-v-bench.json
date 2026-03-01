@@ -1,0 +1,87 @@
+{
+  "title": "visual-question-answering-on-v-bench",
+  "task-hierarchy": [
+    "Visual Question Answering"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "FOCUS: Internal MLLM Representations for Efficient Fine-Grained Visual Question Answering",
+          "link": "https://arxiv.org/abs/2506.21710"
+        },
+        "c": "",
+        "n": "LLaVA-OneVision7B w. FOCUS",
+        "d": "2025-06-25",
+        "m1": "92.15"
+      },
+      {
+        "p": {
+          "name": "ZoomEye: Enhancing Multimodal LLMs with Human-Like Zooming Capabilities through Tree-Based Image Exploration",
+          "link": "https://arxiv.org/abs/2411.16044v1"
+        },
+        "c": "https://github.com/om-ai-lab/ZoomEye",
+        "n": "LLaVA-OneVision7B w. ZoomEye",
+        "d": "2024-11-25",
+        "m1": "90.58"
+      },
+      {
+        "p": {
+          "name": "Instruction-Guided Visual Masking",
+          "link": "https://arxiv.org/abs/2405.19783v2"
+        },
+        "c": "https://github.com/2toinf/ivm",
+        "n": "IVM-Enhanced GPT4-V",
+        "d": "2024-05-30",
+        "m1": "81.2"
+      },
+      {
+        "p": {
+          "name": "V*: Guided Visual Search as a Core Mechanism in Multimodal LLMs",
+          "link": "https://arxiv.org/abs/2312.14135v2"
+        },
+        "c": "https://github.com/penghao-wu/vstar",
+        "n": "SEAL",
+        "d": "2023-12-21",
+        "m1": "75.39"
+      },
+      {
+        "p": {
+          "name": "LLaVA-OneVision: Easy Visual Task Transfer",
+          "link": "https://arxiv.org/abs/2408.03326v3"
+        },
+        "c": "https://github.com/evolvinglmms-lab/lmms-eval",
+        "n": "LLaVA-OneVision7B",
+        "d": "2024-08-06",
+        "m1": "74.46"
+      }
+    ]
+  }
+}

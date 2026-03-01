@@ -1,0 +1,67 @@
+{
+  "title": "semantic-parsing-on-geo",
+  "task-hierarchy": [
+    "Semantic Parsing"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Coarse-to-Fine Decoding for Neural Semantic Parsing",
+          "link": "http://arxiv.org/abs/1805.04793v1"
+        },
+        "c": "https://github.com/donglixp/coarse2fine",
+        "n": "coarse2fine",
+        "d": "2018-05-12",
+        "m1": "88.2"
+      },
+      {
+        "p": {
+          "name": "PhraseTransformer: An Incorporation of Local Context Information into Sequence-to-sequence Semantic Parsing",
+          "link": "https://link.springer.com/article/10.1007/s10489-022-04246-0"
+        },
+        "c": "https://github.com/phuongnm94/PhraseTransformer",
+        "n": "PhraseTransformer",
+        "d": "2022-11-29",
+        "m1": "87.9"
+      },
+      {
+        "p": {
+          "name": "TRANX: A Transition-based Neural Abstract Syntax Parser for Semantic Parsing and Code Generation",
+          "link": "http://arxiv.org/abs/1810.02720v1"
+        },
+        "c": "https://github.com/pcyin/tranX",
+        "n": "Tranx",
+        "d": "2018-10-05",
+        "m1": "87.7"
+      }
+    ]
+  }
+}

@@ -1,0 +1,543 @@
+{
+  "title": "visual-storytelling-on-vist",
+  "task-hierarchy": [
+    "Story Generation",
+    "Visual Storytelling"
+  ],
+  "dataset-info": {
+    "link": "https://visionandlanguage.net/VIST/dataset.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "BLEU-4",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "CIDEr",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "METEOR",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "BLEU-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "BLEU-2",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "BLEU-3",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "ROUGE-L",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "SPICE",
+        "sortable": "true"
+      },
+      {
+        "key": "m9",
+        "label": "BLEURT",
+        "sortable": "true"
+      },
+      {
+        "key": "m10",
+        "label": "MLTD",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Two Heads are Better Than One: Hypergraph-Enhanced Graph Reasoning for Visual Event Ratiocination",
+          "link": "https://proceedings.mlr.press/v139/zheng21b.html"
+        },
+        "c": "",
+        "n": "HEGR",
+        "d": "2021-07-18",
+        "m1": "16.7",
+        "m2": "14.1",
+        "m3": "37.8"
+      },
+      {
+        "p": {
+          "name": "Imagine, Reason and Write: Visual Storytelling with Graph Knowledge and Relational Reasoning",
+          "link": "https://ojs.aaai.org/index.php/AAAI/article/view/16410"
+        },
+        "c": "",
+        "n": "IRW",
+        "d": "2021-05-18",
+        "m1": "15.4",
+        "m2": "11.0",
+        "m3": "35.6",
+        "m4": "66.7",
+        "m5": "41.6",
+        "m6": "25.0",
+        "m7": "29.6"
+      },
+      {
+        "p": {
+          "name": "Visual Storytelling with Hierarchical BERT Semantic Guidance",
+          "link": "https://dl.acm.org/doi/abs/10.1145/3469877.3490604"
+        },
+        "c": "",
+        "n": "HBSG",
+        "d": "2022-01-10",
+        "m1": "15.4",
+        "m3": "36.5"
+      },
+      {
+        "p": {
+          "name": "Coherent Visual Storytelling via Parallel Top-Down Visual and Topic Attention",
+          "link": "https://ieeexplore.ieee.org/document/9858883"
+        },
+        "c": "",
+        "n": "CoVS",
+        "d": "2022-08-17",
+        "m1": "15.2",
+        "m2": "11.5",
+        "m3": "36.5",
+        "m4": "67.5",
+        "m5": "42.7",
+        "m6": "25.3",
+        "m7": "30.8"
+      },
+      {
+        "p": {
+          "name": "SentiStory: A Multi-Layered Sentiment-Aware Generative Model for Visual Storytelling",
+          "link": "https://ieeexplore.ieee.org/document/9797749"
+        },
+        "c": "",
+        "n": "SentiStory",
+        "d": "2022-06-16",
+        "m1": "14.8",
+        "m2": "10.1",
+        "m3": "35.7",
+        "m4": "65.5",
+        "m5": "40.7",
+        "m6": "24.1",
+        "m7": "30.2"
+      },
+      {
+        "p": {
+          "name": "Diverse and Relevant Visual Storytelling with Scene Graph Embeddings",
+          "link": "https://aclanthology.org/2020.conll-1.34"
+        },
+        "c": "",
+        "n": "SGEmb",
+        "d": "2020-11-01",
+        "m1": "14.8",
+        "m2": "8.6",
+        "m3": "35.6",
+        "m4": "62.2",
+        "m5": "38.7",
+        "m6": "23.5",
+        "m7": "30.2"
+      },
+      {
+        "p": {
+          "name": "Hide-and-Tell: Learning to Bridge Photo Streams for Visual Storytelling",
+          "link": "https://arxiv.org/abs/2002.00774v1"
+        },
+        "c": "",
+        "n": "INet",
+        "d": "2020-02-03",
+        "m1": "14.7",
+        "m2": "10",
+        "m3": "35.6",
+        "m4": "64.4",
+        "m5": "0.401",
+        "m6": "23.9",
+        "m7": "29.7"
+      },
+      {
+        "p": {
+          "name": "Storytelling from an Image Stream Using Scene Graphs",
+          "link": "https://ojs.aaai.org/index.php/AAAI/article/view/6455"
+        },
+        "c": "",
+        "n": "SGVST",
+        "d": "2020-04-03",
+        "m1": "14.7",
+        "m2": "9.8",
+        "m3": "35.8",
+        "m7": "29.9"
+      },
+      {
+        "p": {
+          "name": "Keep it Consistent: Topic-Aware Storytelling from an Image Stream via Iterative Multi-agent Communication",
+          "link": "https://arxiv.org/abs/1911.04192v2"
+        },
+        "c": "",
+        "n": "TAVST (RL)",
+        "d": "2019-11-11",
+        "m1": "14.6",
+        "m2": "9.2",
+        "m3": "35.7",
+        "m4": "64.2",
+        "m5": "39.6",
+        "m6": "23.7",
+        "m7": "31"
+      },
+      {
+        "p": {
+          "name": "What Makes A Good Story? Designing Composite Rewards for Visual Storytelling",
+          "link": "https://arxiv.org/abs/1909.05316v2"
+        },
+        "c": "https://github.com/JunjieHu/ReCo-RL",
+        "n": "BLEU-RL",
+        "d": "2019-09-11",
+        "m1": "14.4",
+        "m2": "6.7",
+        "m3": "35.2",
+        "m7": "30.1",
+        "m8": "8.3"
+      },
+      {
+        "p": {
+          "name": "Informative Visual Storytelling with Cross-modal Rules",
+          "link": "https://arxiv.org/abs/1907.03240v2"
+        },
+        "c": "https://github.com/passerby233/VSCMR-Visual-Storytelling-with-Corss-Modal-Rules",
+        "n": "VSCMR",
+        "d": "2019-07-07",
+        "m1": "14.3",
+        "m2": "9",
+        "m3": "35.5",
+        "m4": "63.8",
+        "m7": "30.2"
+      },
+      {
+        "p": {
+          "name": "What Makes A Good Story? Designing Composite Rewards for Visual Storytelling",
+          "link": "https://arxiv.org/abs/1909.05316v2"
+        },
+        "c": "https://github.com/JunjieHu/ReCo-RL",
+        "n": "MLE",
+        "d": "2019-09-11",
+        "m1": "14.3",
+        "m2": "7.2",
+        "m3": "34.8",
+        "m7": "30",
+        "m8": "8.5"
+      },
+      {
+        "p": {
+          "name": "No Metrics Are Perfect: Adversarial Reward Learning for Visual Storytelling",
+          "link": "http://arxiv.org/abs/1804.09160v2"
+        },
+        "c": "https://github.com/eric-xw/AREL",
+        "n": "AREL-t-100",
+        "d": "2018-04-24",
+        "m1": "14.1",
+        "m2": "9.4",
+        "m3": "35",
+        "m4": "63.8",
+        "m5": "39.1",
+        "m6": "23.2",
+        "m7": "29.5"
+      },
+      {
+        "p": {
+          "name": "Hierarchical memory decoder for visual narrating",
+          "link": "https://ieeexplore.ieee.org/abstract/document/9184025/authors"
+        },
+        "c": "",
+        "n": "MemNet",
+        "d": "2020-09-01",
+        "m1": "14.1",
+        "m3": "35.5"
+      },
+      {
+        "p": {
+          "name": "Visual Storytelling via Predicting Anchor Word Embeddings in the Stories",
+          "link": "https://arxiv.org/abs/2001.04541v1"
+        },
+        "c": "",
+        "n": "StoryAnchor: w/ Predicted Nouns",
+        "d": "2020-01-13",
+        "m1": "14",
+        "m2": "9.9",
+        "m3": "35.5",
+        "m4": "65.1",
+        "m5": "40.0",
+        "m6": "23.4",
+        "m7": "30"
+      },
+      {
+        "p": {
+          "name": "No Metrics Are Perfect: Adversarial Reward Learning for Visual Storytelling",
+          "link": "http://arxiv.org/abs/1804.09160v2"
+        },
+        "c": "https://github.com/eric-xw/AREL",
+        "n": "GAN",
+        "d": "2018-04-24",
+        "m1": "14",
+        "m2": "9",
+        "m3": "35",
+        "m4": "62.8",
+        "m5": "38.8",
+        "m6": "23.0",
+        "m7": "29.5"
+      },
+      {
+        "p": {
+          "name": "No Metrics Are Perfect: Adversarial Reward Learning for Visual Storytelling",
+          "link": "http://arxiv.org/abs/1804.09160v2"
+        },
+        "c": "https://github.com/eric-xw/AREL",
+        "n": "XE-ss",
+        "d": "2018-04-24",
+        "m1": "13.7",
+        "m2": "8.7",
+        "m3": "34.8",
+        "m4": "62.3",
+        "m5": "38.2",
+        "m6": "22.5",
+        "m7": "29.7"
+      },
+      {
+        "p": {
+          "name": "What Makes A Good Story? Designing Composite Rewards for Visual Storytelling",
+          "link": "https://arxiv.org/abs/1909.05316v2"
+        },
+        "c": "https://github.com/JunjieHu/ReCo-RL",
+        "n": "AREL",
+        "d": "2019-09-11",
+        "m1": "13.6",
+        "m2": "9.1",
+        "m3": "35.2",
+        "m7": "29.3",
+        "m8": "8.9"
+      },
+      {
+        "p": {
+          "name": "Commonsense Knowledge Aware Concept Selection For Diverse and Informative Visual Storytelling",
+          "link": "https://arxiv.org/abs/2102.02963v1"
+        },
+        "c": "",
+        "n": "MCSM+RNN",
+        "d": "2021-02-05",
+        "m1": "13",
+        "m2": "11",
+        "m3": "36.1",
+        "m6": "23.1",
+        "m7": "30.7"
+      },
+      {
+        "p": {
+          "name": "AOG-LSTM: An adaptive attention neural network for visual storytelling",
+          "link": "https://www.sciencedirect.com/science/article/pii/S0925231223006094"
+        },
+        "c": "",
+        "n": "AOG + ARS",
+        "d": "2023-06-26",
+        "m1": "12.9",
+        "m2": "12.0",
+        "m3": "36.0",
+        "m4": "69",
+        "m5": "44",
+        "m6": "23.9",
+        "m7": "30.1"
+      },
+      {
+        "p": {
+          "name": "Knowledgeable Storyteller: A Commonsense-Driven Generative Model for Visual Storytelling",
+          "link": "https://www.ijcai.org/proceedings/2019/744"
+        },
+        "c": "https://github.com/lancopku/CVST",
+        "n": "K-Storyteller",
+        "d": "2019-05-04",
+        "m1": "12.8",
+        "m2": "12.1",
+        "m3": "35.2",
+        "m7": "29.9"
+      },
+      {
+        "p": {
+          "name": "Contextualize, Show and Tell: A Neural Visual Storyteller",
+          "link": "http://arxiv.org/abs/1806.00738v1"
+        },
+        "c": "https://github.com/dgonzalez-ri/neural-visual-storyteller",
+        "n": "CST",
+        "d": "2018-06-03",
+        "m1": "12.7",
+        "m2": "5.1",
+        "m3": "34.4",
+        "m4": "60.1",
+        "m5": "36.5",
+        "m6": "21.1",
+        "m7": "29.2"
+      },
+      {
+        "p": {
+          "name": "What Makes A Good Story? Designing Composite Rewards for Visual Storytelling",
+          "link": "https://arxiv.org/abs/1909.05316v2"
+        },
+        "c": "https://github.com/JunjieHu/ReCo-RL",
+        "n": "ReCo-RL",
+        "d": "2019-09-11",
+        "m1": "12.4",
+        "m2": "8.6",
+        "m3": "33.9",
+        "m7": "29.9",
+        "m8": "8.3"
+      },
+      {
+        "p": {
+          "name": "Hierarchically Structured Reinforcement Learning for Topically Coherent Visual Story Generation",
+          "link": "http://arxiv.org/abs/1805.08191v3"
+        },
+        "c": "",
+        "n": "HSRL w/ Joint Training",
+        "d": "2018-05-21",
+        "m1": "12.32",
+        "m2": "10.71",
+        "m3": "35.23",
+        "m7": "30.84",
+        "m8": "12.97"
+      },
+      {
+        "p": {
+          "name": "Vision Transformer Based Model for Describing a Set of Images as a Story",
+          "link": "https://arxiv.org/abs/2210.02762v3"
+        },
+        "c": "",
+        "n": "ViT-model",
+        "d": "2022-10-06",
+        "m1": "12.3",
+        "m2": "4.4",
+        "m3": "35.4",
+        "m4": "63",
+        "m5": "37.5",
+        "m6": "21.5",
+        "m7": "31"
+      },
+      {
+        "p": {
+          "name": "What Makes A Good Story? Designing Composite Rewards for Visual Storytelling",
+          "link": "https://arxiv.org/abs/1909.05316v2"
+        },
+        "c": "https://github.com/JunjieHu/ReCo-RL",
+        "n": "HSRL",
+        "d": "2019-09-11",
+        "m1": "9.8",
+        "m2": "5.9",
+        "m3": "30.1",
+        "m7": "25.1",
+        "m8": "7.5"
+      },
+      {
+        "p": {
+          "name": "Plot and Rework: Modeling Storylines for Visual Storytelling",
+          "link": "https://arxiv.org/abs/2105.06950v3"
+        },
+        "c": "https://github.com/ethan5437/PR-VIST",
+        "n": "PR-VIST",
+        "d": "2021-05-14",
+        "m1": "7.65",
+        "m3": "31.6",
+        "m9": "1.37",
+        "m10": "45.79"
+      },
+      {
+        "p": {
+          "name": "Transitional Adaptation of Pretrained Models for Visual Storytelling",
+          "link": "http://openaccess.thecvf.com//content/CVPR2021/html/Yu_Transitional_Adaptation_of_Pretrained_Models_for_Visual_Storytelling_CVPR_2021_paper.html"
+        },
+        "c": "",
+        "n": "TAPM",
+        "d": "2021-06-19",
+        "m2": "13.8",
+        "m3": "37.2",
+        "m7": "33.1"
+      },
+      {
+        "p": {
+          "name": "BERT-hLSTMs: BERT and Hierarchical LSTMs for Visual Storytelling",
+          "link": "https://arxiv.org/abs/2012.02128v1"
+        },
+        "c": "",
+        "n": "BERT-hLSTMs",
+        "d": "2020-12-03",
+        "m2": "8.37"
+      },
+      {
+        "p": {
+          "name": "Transitional Adaptation of Pretrained Models for Visual Storytelling",
+          "link": "http://openaccess.thecvf.com//content/CVPR2021/html/Yu_Transitional_Adaptation_of_Pretrained_Models_for_Visual_Storytelling_CVPR_2021_paper.html"
+        },
+        "c": "",
+        "n": "TAPM (no V&L)",
+        "d": "2021-06-19",
+        "m2": "8.3",
+        "m3": "34.1",
+        "m7": "30.2"
+      },
+      {
+        "p": {
+          "name": "BERT-hLSTMs: BERT and Hierarchical LSTMs for Visual Storytelling",
+          "link": "https://arxiv.org/abs/2012.02128v1"
+        },
+        "c": "",
+        "n": "hLSTMs",
+        "d": "2020-12-03",
+        "m2": "7.98"
+      },
+      {
+        "p": {
+          "name": "Hierarchically-Attentive RNN for Album Summarization and Storytelling",
+          "link": "http://arxiv.org/abs/1708.02977v1"
+        },
+        "c": "",
+        "n": "h-attn-rank",
+        "d": "2017-08-09",
+        "m2": "7.38",
+        "m3": "33.94",
+        "m6": "20.78",
+        "m7": "29.82"
+      },
+      {
+        "p": {
+          "name": "GLAC Net: GLocal Attention Cascading Networks for Multi-image Cued Story Generation",
+          "link": "http://arxiv.org/abs/1805.10973v3"
+        },
+        "c": "https://github.com/tkim-snu/GLACNet",
+        "n": "GLAC Net",
+        "d": "2018-05-28",
+        "m3": "30.14"
+      }
+    ]
+  }
+}

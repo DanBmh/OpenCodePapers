@@ -1,0 +1,117 @@
+{
+  "title": "event-based-object-segmentation-on-rgbe-seg",
+  "task-hierarchy": [
+    "Event-based Object Segmentation"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Segment Any Events via Weighted Adaptation of Pivotal Tokens",
+          "link": "https://arxiv.org/abs/2312.16222v1"
+        },
+        "c": "https://github.com/happychenpipi/eventsam",
+        "n": "EventSAM",
+        "d": "2023-12-24",
+        "m1": "0.41"
+      },
+      {
+        "p": {
+          "name": "Event-Based Video Reconstruction Using Transformer",
+          "link": "http://openaccess.thecvf.com//content/ICCV2021/html/Weng_Event-Based_Video_Reconstruction_Using_Transformer_ICCV_2021_paper.html"
+        },
+        "c": "https://github.com/warranweng/et-net",
+        "n": "ETNet",
+        "d": "2021-01-01",
+        "m1": "0.35"
+      },
+      {
+        "p": {
+          "name": "High Speed and High Dynamic Range Video with an Event Camera",
+          "link": "https://arxiv.org/abs/1906.07165v1"
+        },
+        "c": "https://github.com/uzh-rpg/rpg_e2vid",
+        "n": "E2VID",
+        "d": "2019-06-15",
+        "m1": "0.32"
+      },
+      {
+        "p": {
+          "name": "Learning to Exploit Multiple Vision Modalities by Using Grafted Networks",
+          "link": "https://arxiv.org/abs/2003.10959v3"
+        },
+        "c": "",
+        "n": "NGA",
+        "d": "2020-03-24",
+        "m1": "0.30"
+      },
+      {
+        "p": {
+          "name": "Dual Transfer Learning for Event-based End-task Prediction via Pluggable Event to Image Translation",
+          "link": "https://arxiv.org/abs/2109.01801v3"
+        },
+        "c": "https://github.com/addisonwang2013/dtl",
+        "n": "DTL",
+        "d": "2021-09-04",
+        "m1": "0.29"
+      },
+      {
+        "p": {
+          "name": "ESS: Learning Event-based Semantic Segmentation from Still Images",
+          "link": "https://arxiv.org/abs/2203.10016v2"
+        },
+        "c": "https://github.com/uzh-rpg/ess",
+        "n": "ESS",
+        "d": "2022-03-18",
+        "m1": "0.28"
+      },
+      {
+        "p": {
+          "name": "EvDistill: Asynchronous Events to End-task Learning via Bidirectional Reconstruction-guided Cross-modal Knowledge Distillation",
+          "link": "https://arxiv.org/abs/2111.12341v1"
+        },
+        "c": "https://github.com/addisonwang2013/evdistill",
+        "n": "Evdistill",
+        "d": "2021-11-24",
+        "m1": "0.27"
+      },
+      {
+        "p": {
+          "name": "Segment Anything",
+          "link": "https://arxiv.org/abs/2304.02643v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "SAM",
+        "d": "2023-04-05",
+        "m1": "0.26"
+      }
+    ]
+  }
+}

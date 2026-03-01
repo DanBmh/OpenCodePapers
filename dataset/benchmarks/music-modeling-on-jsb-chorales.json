@@ -1,0 +1,144 @@
+{
+  "title": "music-modeling-on-jsb-chorales",
+  "task-hierarchy": [
+    "Music Modeling"
+  ],
+  "dataset-info": {
+    "link": "http://www-etud.iro.umontreal.ca/~boulanni/icml2012"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "NLL",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Parameters",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "JS Fake Chorales: a Synthetic Dataset of Polyphonic Music with Human Annotation",
+          "link": "https://arxiv.org/abs/2107.10388v4"
+        },
+        "c": "https://github.com/omarperacha/TonicNet",
+        "n": "TonicNet",
+        "d": "2021-07-21",
+        "m1": "0.208"
+      },
+      {
+        "p": {
+          "name": "Improving Polyphonic Music Models with Feature-Rich Encoding",
+          "link": "https://arxiv.org/abs/1911.11775v3"
+        },
+        "c": "https://github.com/omarperacha/TonicNet",
+        "n": "TonicNet",
+        "d": "2019-11-26",
+        "m1": "0.220"
+      },
+      {
+        "p": {
+          "name": "Music Transformer",
+          "link": "http://arxiv.org/abs/1809.04281v3"
+        },
+        "c": "https://github.com/Natooz/MidiTok",
+        "n": "Music Transformer",
+        "d": "2018-09-12",
+        "m1": "0.335"
+      },
+      {
+        "p": {
+          "name": "Counterpoint by Convolution",
+          "link": "http://arxiv.org/abs/1903.07227v1"
+        },
+        "c": "https://github.com/czhuang/coconet",
+        "n": "CoCoNet",
+        "d": "2019-03-18",
+        "m1": "2.22"
+      },
+      {
+        "p": {
+          "name": "Modeling Temporal Dependencies in High-Dimensional Sequences: Application to Polyphonic Music Generation and Transcription",
+          "link": "http://arxiv.org/abs/1206.6392v1"
+        },
+        "c": "https://github.com/jsleep/wav2mid",
+        "n": "RNN-NADE",
+        "d": "2012-06-27",
+        "m1": "5.56"
+      },
+      {
+        "p": {
+          "name": "Modeling Temporal Dependencies in High-Dimensional Sequences: Application to Polyphonic Music Generation and Transcription",
+          "link": "http://arxiv.org/abs/1206.6392v1"
+        },
+        "c": "https://github.com/jsleep/wav2mid",
+        "n": "RNN-RBM",
+        "d": "2012-06-27",
+        "m1": "6.27"
+      },
+      {
+        "p": {
+          "name": "An Empirical Evaluation of Generic Convolutional and Recurrent Networks for Sequence Modeling",
+          "link": "http://arxiv.org/abs/1803.01271v2"
+        },
+        "c": "https://github.com/timeseriesAI/tsai/tree/main/tsai/models",
+        "n": "TCN",
+        "d": "2018-03-04",
+        "m1": "8.10"
+      },
+      {
+        "p": {
+          "name": "Seq-U-Net: A One-Dimensional Causal U-Net for Efficient Sequence Modelling",
+          "link": "https://arxiv.org/abs/1911.06393v1"
+        },
+        "c": "https://github.com/f90/Seq-U-Net",
+        "n": "TCN",
+        "d": "2019-11-14",
+        "m1": "8.154",
+        "m2": "534K"
+      },
+      {
+        "p": {
+          "name": "Seq-U-Net: A One-Dimensional Causal U-Net for Efficient Sequence Modelling",
+          "link": "https://arxiv.org/abs/1911.06393v1"
+        },
+        "c": "https://github.com/f90/Seq-U-Net",
+        "n": "Seq-U-Net",
+        "d": "2019-11-14",
+        "m1": "8.173",
+        "m2": "522K"
+      },
+      {
+        "p": {
+          "name": "Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling",
+          "link": "http://arxiv.org/abs/1412.3555v1"
+        },
+        "c": "https://github.com/pushpendughosh/Stock-market-forecasting",
+        "n": "GRU",
+        "d": "2014-12-11",
+        "m1": "8.54"
+      }
+    ]
+  }
+}

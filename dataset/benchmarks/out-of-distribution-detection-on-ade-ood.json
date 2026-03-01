@@ -1,0 +1,86 @@
+{
+  "title": "out-of-distribution-detection-on-ade-ood",
+  "task-hierarchy": [
+    "Out-of-Distribution Detection"
+  ],
+  "dataset-info": {
+    "link": "https://ade-ood.github.io/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AP",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "FPR@95",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "RbA: Segmenting Unknown Regions Rejected by All",
+          "link": "https://arxiv.org/abs/2211.14293v2"
+        },
+        "c": "https://github.com/NazirNayal8/RbA",
+        "n": "RbA",
+        "d": "2022-11-25",
+        "m1": "66.82",
+        "m2": "82.42"
+      },
+      {
+        "p": {
+          "name": "Diffusion for Out-of-Distribution Detection on Road Scenes and Beyond",
+          "link": "https://arxiv.org/abs/2407.15739v1"
+        },
+        "c": "https://github.com/lmb-freiburg/diffusion-for-ood",
+        "n": "DOoD",
+        "d": "2024-07-22",
+        "m1": "63.03",
+        "m2": "36.50"
+      },
+      {
+        "p": {
+          "name": "Far Away in the Deep Space: Dense Nearest-Neighbor-Based Out-of-Distribution Detection",
+          "link": "https://arxiv.org/abs/2211.06660v2"
+        },
+        "c": "https://github.com/silviogalesso/dense-ood-knns",
+        "n": "cDNP",
+        "d": "2022-11-12",
+        "m1": "62.35",
+        "m2": "39.20"
+      },
+      {
+        "p": {
+          "name": "GMMSeg: Gaussian Mixture based Generative Semantic Segmentation Models",
+          "link": "https://arxiv.org/abs/2210.02025v1"
+        },
+        "c": "https://github.com/lingorx/hieraseg",
+        "n": "GMMSeg",
+        "d": "2022-10-05",
+        "m1": "47.6",
+        "m2": "43.5"
+      }
+    ]
+  }
+}

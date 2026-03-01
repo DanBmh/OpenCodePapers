@@ -1,0 +1,87 @@
+{
+  "title": "multi-view-3d-reconstruction-on-eth3d",
+  "task-hierarchy": [
+    "Multi-View 3D Reconstruction"
+  ],
+  "dataset-info": {
+    "link": "https://www.eth3d.net/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1 score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Dual-Level Precision Edges Guided Multi-View Stereo with Accurate Planarization",
+          "link": "https://arxiv.org/abs/2412.20328v1"
+        },
+        "c": "https://github.com/ckh0715/DPE-MVS",
+        "n": "DPE-MVS",
+        "d": "2024-12-29",
+        "m1": "89.48"
+      },
+      {
+        "p": {
+          "name": "Adaptive Patch Deformation for Textureless-Resilient Multi-View Stereo",
+          "link": "http://openaccess.thecvf.com//content/CVPR2023/html/Wang_Adaptive_Patch_Deformation_for_Textureless-Resilient_Multi-View_Stereo_CVPR_2023_paper.html"
+        },
+        "c": "https://github.com/whoiszzj/apd-mvs",
+        "n": "APD-MVS",
+        "d": "2023-01-01",
+        "m1": "87.44"
+      },
+      {
+        "p": {
+          "name": "Hierarchical Prior Mining for Non-local Multi-View Stereo",
+          "link": "https://arxiv.org/abs/2303.09758v1"
+        },
+        "c": "https://github.com/CLinvx/HPM-MVS",
+        "n": "HPM-MVS",
+        "d": "2023-03-17",
+        "m1": "87.11"
+      },
+      {
+        "p": {
+          "name": "Planar Prior Assisted PatchMatch Multi-View Stereo",
+          "link": "https://arxiv.org/abs/1912.11744v1"
+        },
+        "c": "https://github.com/GhiXu/ACMP",
+        "n": "ACMP",
+        "d": "2019-12-26",
+        "m1": "81.51"
+      },
+      {
+        "p": {
+          "name": "Multi-Scale Geometric Consistency Guided Multi-View Stereo",
+          "link": "http://arxiv.org/abs/1904.08103v1"
+        },
+        "c": "",
+        "n": "ACMM",
+        "d": "2019-04-17",
+        "m1": "80.78"
+      }
+    ]
+  }
+}

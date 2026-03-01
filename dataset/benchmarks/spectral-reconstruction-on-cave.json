@@ -1,0 +1,147 @@
+{
+  "title": "spectral-reconstruction-on-cave",
+  "task-hierarchy": [
+    "Image Restoration",
+    "Spectral Reconstruction"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/caiyuanhao1998/MST"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Improving Spectral Snapshot Reconstruction with Spectral-Spatial Rectification",
+          "link": "http://openaccess.thecvf.com//content/CVPR2024/html/Zhang_Improving_Spectral_Snapshot_Reconstruction_with_Spectral-Spatial_Rectification_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/zhangjc-2k/ssr",
+        "n": "SSR",
+        "d": "2024-01-01",
+        "m1": "40.69",
+        "m2": "0.978"
+      },
+      {
+        "p": {
+          "name": "Dual Prior Unfolding for Snapshot Compressive Imaging",
+          "link": "http://openaccess.thecvf.com//content/CVPR2024/html/Zhang_Dual_Prior_Unfolding_for_Snapshot_Compressive_Imaging_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/zhangjc-2k/dpu",
+        "n": "DPU",
+        "d": "2024-01-01",
+        "m1": "40.52",
+        "m2": "0.977"
+      },
+      {
+        "p": {
+          "name": "Residual Degradation Learning Unfolding Framework with Mixing Priors across Spectral and Spatial for Compressive Spectral Imaging",
+          "link": "https://arxiv.org/abs/2211.06891v3"
+        },
+        "c": "https://github.com/shawndong98/rdluf_mixs2",
+        "n": "RDLUF",
+        "d": "2022-11-13",
+        "m1": "39.57",
+        "m2": "0.974"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "RCUMP",
+        "d": null,
+        "m1": "38.96",
+        "m2": "0.969"
+      },
+      {
+        "p": {
+          "name": "Degradation-Aware Unfolding Half-Shuffle Transformer for Spectral Compressive Imaging",
+          "link": "https://arxiv.org/abs/2205.10102v3"
+        },
+        "c": "https://github.com/caiyuanhao1998/MST",
+        "n": "DAUHST-9stg",
+        "d": "2022-05-20",
+        "m1": "38.36",
+        "m2": "0.967"
+      },
+      {
+        "p": {
+          "name": "Coarse-to-Fine Sparse Transformer for Hyperspectral Image Reconstruction",
+          "link": "https://arxiv.org/abs/2203.04845v3"
+        },
+        "c": "https://github.com/caiyuanhao1998/MST",
+        "n": "CST-L",
+        "d": "2022-03-09",
+        "m1": "36.12",
+        "m2": "0.957"
+      },
+      {
+        "p": {
+          "name": "MST++: Multi-stage Spectral-wise Transformer for Efficient Spectral Reconstruction",
+          "link": "https://arxiv.org/abs/2204.07908v1"
+        },
+        "c": "https://github.com/cmhungsteve/Awesome-Transformer-Attention",
+        "n": "MST++",
+        "d": "2022-04-17",
+        "m1": "35.99",
+        "m2": "0.951"
+      },
+      {
+        "p": {
+          "name": "Mask-guided Spectral-wise Transformer for Efficient Hyperspectral Image Reconstruction",
+          "link": "https://arxiv.org/abs/2111.07910v2"
+        },
+        "c": "https://github.com/cmhungsteve/Awesome-Transformer-Attention",
+        "n": "MST-L",
+        "d": "2021-11-15",
+        "m1": "35.18",
+        "m2": "0.948"
+      },
+      {
+        "p": {
+          "name": "HDNet: High-resolution Dual-domain Learning for Spectral Compressive Imaging",
+          "link": "https://arxiv.org/abs/2203.02149v2"
+        },
+        "c": "https://github.com/caiyuanhao1998/MST",
+        "n": "HDNet",
+        "d": "2022-03-04",
+        "m1": "34.97",
+        "m2": "0.943"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "BiSRNet",
+        "d": null,
+        "m1": "29.76",
+        "m2": "0.837"
+      }
+    ]
+  }
+}

@@ -1,0 +1,374 @@
+{
+  "title": "shadow-removal-on-srd",
+  "task-hierarchy": [
+    "Shadow Removal"
+  ],
+  "dataset-info": {
+    "link": "http://vision.sia.cn/our%20team/JiandongTian/JiandongTian.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "RMSE",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "LPIPS",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Regional Attention for Shadow Removal",
+          "link": "https://arxiv.org/abs/2411.14201v1"
+        },
+        "c": "https://github.com/CalcuLuUus/RASM",
+        "n": "RASM",
+        "d": "2024-11-21",
+        "m1": "3.37"
+      },
+      {
+        "p": {
+          "name": "HomoFormer: Homogenized Transformer for Image Shadow Removal",
+          "link": "http://openaccess.thecvf.com//content/CVPR2024/html/Xiao_HomoFormer_Homogenized_Transformer_for_Image_Shadow_Removal_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/jiexiaou/homoformer",
+        "n": "HomoFormer (CVPR 2024) (512x512)",
+        "d": "2024-01-01",
+        "m1": "3.62 ",
+        "m2": "26.21 ",
+        "m3": "0.827 ",
+        "m4": "0.219 "
+      },
+      {
+        "p": {
+          "name": "DC-ShadowNet: Single-Image Hard and Soft Shadow Removal Using Unsupervised Domain-Classifier Guided Network",
+          "link": "https://arxiv.org/abs/2207.10434v2"
+        },
+        "c": "https://github.com/jinyeying/DC-ShadowNet-Hard-and-Soft-Shadow-Removal",
+        "n": "DC-ShadowNet (ICCV 2021) (512x512)",
+        "d": "2022-07-21",
+        "m1": "3.68",
+        "m2": "26.47",
+        "m3": "0.808",
+        "m4": "0.255"
+      },
+      {
+        "p": {
+          "name": "Mask-ShadowGAN: Learning to Remove Shadows from Unpaired Data",
+          "link": "https://arxiv.org/abs/1903.10683v3"
+        },
+        "c": "https://github.com/xw-hu/Mask-ShadowGAN",
+        "n": "Mask-ShadowGAN (ICCV 2019) (512x512)",
+        "d": "2019-03-26",
+        "m1": "3.83",
+        "m2": "25.98",
+        "m3": "0.803",
+        "m4": "0.27"
+      },
+      {
+        "p": {
+          "name": "ShadowFormer: Global Context Helps Image Shadow Removal",
+          "link": "https://arxiv.org/abs/2302.01650v1"
+        },
+        "c": "https://github.com/guolanqing/shadowformer",
+        "n": "ShadowFormer (AAAI 2023) (512x512)",
+        "d": "2023-02-03",
+        "m1": "3.9",
+        "m2": "25.6",
+        "m3": "0.819",
+        "m4": "0.228"
+      },
+      {
+        "p": {
+          "name": "Direction-aware Spatial Context Features for Shadow Detection and Removal",
+          "link": "https://arxiv.org/abs/1805.04635v2"
+        },
+        "c": "https://github.com/xw-hu/DSC",
+        "n": "DSC (TPAMI 2020) (256x256)",
+        "d": "2018-05-12",
+        "m1": "3.97",
+        "m2": "25.46",
+        "m3": "0.678",
+        "m4": "0.412"
+      },
+      {
+        "p": {
+          "name": "Bijective Mapping Network for Shadow Removal",
+          "link": "http://openaccess.thecvf.com//content/CVPR2022/html/Zhu_Bijective_Mapping_Network_for_Shadow_Removal_CVPR_2022_paper.html"
+        },
+        "c": "https://github.com/KevinJ-Huang/BMNet",
+        "n": "BMNet (CVPR 2022) (512x512)",
+        "d": "2022-01-01",
+        "m1": "4",
+        "m2": "25.39",
+        "m3": "0.82",
+        "m4": "0.225"
+      },
+      {
+        "p": {
+          "name": "Style-Guided Shadow Removal",
+          "link": "https://link.springer.com/chapter/10.1007/978-3-031-19800-7_21"
+        },
+        "c": "https://github.com/jinwan1994/SG-ShadowNet",
+        "n": "SG-ShadowNet (ECCV 2022) (512x512)",
+        "d": "2022-11-09",
+        "m1": "4.01",
+        "m2": "25.56",
+        "m3": "0.786",
+        "m4": "0.279"
+      },
+      {
+        "p": {
+          "name": "ShadowMaskFormer: Mask Augmented Patch Embeddings for Shadow Removal",
+          "link": "https://arxiv.org/abs/2404.18433v2"
+        },
+        "c": "https://github.com/lizhh268/shadowmaskformer",
+        "n": "ShadowMaskFormer (arXiv 2024) (512x512)",
+        "d": "2024-04-29",
+        "m1": "4.15",
+        "m2": "25.13",
+        "m3": "0.798",
+        "m4": "0.249"
+      },
+      {
+        "p": {
+          "name": "Stacked Conditional Generative Adversarial Networks for Jointly Learning Shadow Detection and Shadow Removal",
+          "link": "http://arxiv.org/abs/1712.02478v1"
+        },
+        "c": "https://github.com/IsHYuhi/ST-CGAN_Stacked_Conditional_Generative_Adversarial_Networks",
+        "n": "ST-CGAN (CVPR 2018)\n  (256x256)",
+        "d": "2017-12-07",
+        "m1": "4.15",
+        "m2": "25.08",
+        "m3": "0.637",
+        "m4": "0.443"
+      },
+      {
+        "p": {
+          "name": "HomoFormer: Homogenized Transformer for Image Shadow Removal",
+          "link": "http://openaccess.thecvf.com//content/CVPR2024/html/Xiao_HomoFormer_Homogenized_Transformer_for_Image_Shadow_Removal_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/jiexiaou/homoformer",
+        "n": "HomoFormer (CVPR 2024) (256x256)",
+        "d": "2024-01-01",
+        "m1": "4.17",
+        "m2": "24.64",
+        "m3": "0.723",
+        "m4": "0.325"
+      },
+      {
+        "p": {
+          "name": "DC-ShadowNet: Single-Image Hard and Soft Shadow Removal Using Unsupervised Domain-Classifier Guided Network",
+          "link": "https://arxiv.org/abs/2207.10434v2"
+        },
+        "c": "https://github.com/jinyeying/DC-ShadowNet-Hard-and-Soft-Shadow-Removal",
+        "n": "DC-ShadowNet (ICCV 2021) (256x256)",
+        "d": "2022-07-21",
+        "m1": "4.27",
+        "m2": "24.72",
+        "m3": "0.67",
+        "m4": "0.383"
+      },
+      {
+        "p": {
+          "name": "Mask-ShadowGAN: Learning to Remove Shadows from Unpaired Data",
+          "link": "https://arxiv.org/abs/1903.10683v3"
+        },
+        "c": "https://github.com/xw-hu/Mask-ShadowGAN",
+        "n": "Mask-ShadowGAN (ICCV 2019) (256x256)",
+        "d": "2019-03-26",
+        "m1": "4.32",
+        "m2": "24.67",
+        "m3": "0.662",
+        "m4": "0.427"
+      },
+      {
+        "p": {
+          "name": "Shadow Removal via Shadow Image Decomposition",
+          "link": "https://arxiv.org/abs/1908.08628v1"
+        },
+        "c": "https://github.com/lmhieu612/SID",
+        "n": "SP+M-Net (ICCV 2019) (512x512)",
+        "d": "2019-08-23",
+        "m1": "4.35",
+        "m2": "24.89",
+        "m3": "0.792",
+        "m4": "0.269"
+      },
+      {
+        "p": {
+          "name": "Bijective Mapping Network for Shadow Removal",
+          "link": "http://openaccess.thecvf.com//content/CVPR2022/html/Zhu_Bijective_Mapping_Network_for_Shadow_Removal_CVPR_2022_paper.html"
+        },
+        "c": "https://github.com/KevinJ-Huang/BMNet",
+        "n": "BMNet (CVPR 2022) (256x256)",
+        "d": "2022-01-01",
+        "m1": "4.39",
+        "m2": "24.24",
+        "m3": "0.721",
+        "m4": "0.327"
+      },
+      {
+        "p": {
+          "name": "ShadowFormer: Global Context Helps Image Shadow Removal",
+          "link": "https://arxiv.org/abs/2302.01650v1"
+        },
+        "c": "https://github.com/guolanqing/shadowformer",
+        "n": "ShadowFormer (AAAI 2023) (256x256)",
+        "d": "2023-02-03",
+        "m1": "4.44",
+        "m2": "24.28",
+        "m3": "0.715",
+        "m4": "0.348"
+      },
+      {
+        "p": {
+          "name": "Style-Guided Shadow Removal",
+          "link": "https://link.springer.com/chapter/10.1007/978-3-031-19800-7_21"
+        },
+        "c": "https://github.com/jinwan1994/SG-ShadowNet",
+        "n": "SG-ShadowNet (ECCV 2022) (256x256)",
+        "d": "2022-11-09",
+        "m1": "4.6",
+        "m2": "24.1",
+        "m3": "0.636",
+        "m4": "0.443"
+      },
+      {
+        "p": {
+          "name": "ShadowMaskFormer: Mask Augmented Patch Embeddings for Shadow Removal",
+          "link": "https://arxiv.org/abs/2404.18433v2"
+        },
+        "c": "https://github.com/lizhh268/shadowmaskformer",
+        "n": "ShadowMaskFormer (arXiv 2024) (256x256)",
+        "d": "2024-04-29",
+        "m1": "4.69",
+        "m2": "23.85",
+        "m3": "0.671",
+        "m4": "0.386"
+      },
+      {
+        "p": {
+          "name": "Auto-Exposure Fusion for Single-Image Shadow Removal",
+          "link": "https://arxiv.org/abs/2103.01255v2"
+        },
+        "c": "https://github.com/tsingqguo/exposure-fusion-shadow-removal",
+        "n": "Auto (CVPR 2021) (512x512)",
+        "d": "2021-03-01",
+        "m1": "4.71",
+        "m2": "24.32",
+        "m3": "0.8",
+        "m4": "0.247"
+      },
+      {
+        "p": {
+          "name": "ShadowDiffusion: When Degradation Prior Meets Diffusion Model for Shadow Removal",
+          "link": "https://arxiv.org/abs/2212.04711v2"
+        },
+        "c": "https://github.com/GuoLanqing/ShadowDiffusion",
+        "n": "ShadowDiffusion (CVPR 2023) (256x256)",
+        "d": "2022-12-09",
+        "m1": "4.84",
+        "m2": "23.26",
+        "m3": "0.684",
+        "m4": "0.363"
+      },
+      {
+        "p": {
+          "name": "ShadowDiffusion: When Degradation Prior Meets Diffusion Model for Shadow Removal",
+          "link": "https://arxiv.org/abs/2212.04711v2"
+        },
+        "c": "https://github.com/GuoLanqing/ShadowDiffusion",
+        "n": "ShadowDiffusion (CVPR 2023) (512x512)",
+        "d": "2022-12-09",
+        "m1": "5.11",
+        "m2": "23.09",
+        "m3": "0.804",
+        "m4": "0.24"
+      },
+      {
+        "p": {
+          "name": "Auto-Exposure Fusion for Single-Image Shadow Removal",
+          "link": "https://arxiv.org/abs/2103.01255v2"
+        },
+        "c": "https://github.com/tsingqguo/exposure-fusion-shadow-removal",
+        "n": "Auto (CVPR 2021) (256x256)",
+        "d": "2021-03-01",
+        "m1": "5.37",
+        "m2": "23.2",
+        "m3": "0.694",
+        "m4": "0.37"
+      },
+      {
+        "p": {
+          "name": "Shadow Removal via Shadow Image Decomposition",
+          "link": "https://arxiv.org/abs/1908.08628v1"
+        },
+        "c": "https://github.com/lmhieu612/SID",
+        "n": "SP+M-Net (ICCV 2019) (256x256)",
+        "d": "2019-08-23",
+        "m1": "5.68",
+        "m2": "22.25",
+        "m3": "0.636",
+        "m4": "0.444"
+      },
+      {
+        "p": {
+          "name": "From Shadow Generation to Shadow Removal",
+          "link": "https://arxiv.org/abs/2103.12997v1"
+        },
+        "c": "https://github.com/hhqweasd/G2R-ShadowNet",
+        "n": "G2R-ShadowNet (CVPR 2021) (512x512)",
+        "d": "2021-03-24",
+        "m1": "5.72",
+        "m2": "22.44",
+        "m3": "0.765",
+        "m4": "0.302"
+      },
+      {
+        "p": {
+          "name": "From Shadow Generation to Shadow Removal",
+          "link": "https://arxiv.org/abs/2103.12997v1"
+        },
+        "c": "https://github.com/hhqweasd/G2R-ShadowNet",
+        "n": "G2R-ShadowNet (CVPR 2021) (256x256)",
+        "d": "2021-03-24",
+        "m1": "6.08",
+        "m2": "21.72",
+        "m3": "0.619",
+        "m4": "0.46"
+      }
+    ]
+  }
+}

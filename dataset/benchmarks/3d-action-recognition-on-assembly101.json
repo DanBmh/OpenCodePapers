@@ -1,0 +1,130 @@
+{
+  "title": "3d-action-recognition-on-assembly101",
+  "task-hierarchy": [
+    "Action Recognition",
+    "3D Action Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://assembly-101.github.io/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Actions Top-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Verbs Top-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Object Top-1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "On the Utility of 3D Hand Poses for Action Recognition",
+          "link": "https://arxiv.org/abs/2403.09805v2"
+        },
+        "c": "https://github.com/s-shamil/HandFormer",
+        "n": "HandFormer-B/21",
+        "d": "2024-03-14",
+        "m1": "41.06",
+        "m2": "69.23",
+        "m3": "51.17"
+      },
+      {
+        "p": {
+          "name": "TSM: Temporal Shift Module for Efficient Video Understanding",
+          "link": "https://arxiv.org/abs/1811.08383v3"
+        },
+        "c": "https://github.com/open-mmlab/mmaction2",
+        "n": "TSM",
+        "d": "2018-11-20",
+        "m1": "35.27",
+        "m2": "58.27",
+        "m3": "47.45"
+      },
+      {
+        "p": {
+          "name": "Revisiting Skeleton-based Action Recognition",
+          "link": "https://arxiv.org/abs/2104.13586v2"
+        },
+        "c": "https://github.com/open-mmlab/mmaction2",
+        "n": "RGBPoseConv3D",
+        "d": "2021-04-28",
+        "m1": "33.61",
+        "m2": "61.99",
+        "m3": "42.90"
+      },
+      {
+        "p": {
+          "name": "Disentangling and Unifying Graph Convolutions for Skeleton-Based Action Recognition",
+          "link": "https://arxiv.org/abs/2003.14111v2"
+        },
+        "c": "https://github.com/kennymckormick/pyskl",
+        "n": "MS-G3D",
+        "d": "2020-03-31",
+        "m1": "28.7",
+        "m2": "65.7",
+        "m3": "36.3"
+      },
+      {
+        "p": {
+          "name": "Interactive Spatiotemporal Token Attention Network for Skeleton-based General Interactive Action Recognition",
+          "link": "https://arxiv.org/abs/2307.07469v1"
+        },
+        "c": "https://github.com/Necolizer/ISTA-Net",
+        "n": "ISTA-Net",
+        "d": "2023-07-14",
+        "m1": "28.07",
+        "m2": "62.66",
+        "m3": "31.69"
+      },
+      {
+        "p": {
+          "name": "CHASE: Learning Convex Hull Adaptive Shift for Skeleton-based Multi-Entity Action Recognition",
+          "link": "https://arxiv.org/abs/2410.07153v2"
+        },
+        "c": "https://github.com/Necolizer/CHASE",
+        "n": "CHASE(CTR-GCN)",
+        "d": "2024-10-09",
+        "m1": "28.03"
+      },
+      {
+        "p": {
+          "name": "Two-Stream Adaptive Graph Convolutional Networks for Skeleton-Based Action Recognition",
+          "link": "https://arxiv.org/abs/1805.07694v3"
+        },
+        "c": "https://github.com/benedekrozemberczki/pytorch_geometric_temporal",
+        "n": "2s-AGCN",
+        "d": "2018-05-20",
+        "m1": "26.7",
+        "m2": "64.4",
+        "m3": "33.8"
+      }
+    ]
+  }
+}

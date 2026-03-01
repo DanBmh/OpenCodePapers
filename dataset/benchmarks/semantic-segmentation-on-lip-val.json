@@ -1,0 +1,167 @@
+{
+  "title": "semantic-segmentation-on-lip-val",
+  "task-hierarchy": [
+    "Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "http://sysu-hcp.net/lip/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Hulk: A Universal Knowledge Translator for Human-Centric Tasks",
+          "link": "https://arxiv.org/abs/2312.01697v4"
+        },
+        "c": "https://github.com/opengvlab/humanbench",
+        "n": "Hulk(Finetune, ViT-L)",
+        "d": "2023-12-04",
+        "m1": "66.02%"
+      },
+      {
+        "p": {
+          "name": "Hulk: A Universal Knowledge Translator for Human-Centric Tasks",
+          "link": "https://arxiv.org/abs/2312.01697v4"
+        },
+        "c": "https://github.com/opengvlab/humanbench",
+        "n": "Hulk(Finetune, ViT-B)",
+        "d": "2023-12-04",
+        "m1": "63.98%"
+      },
+      {
+        "p": {
+          "name": "UniHCP: A Unified Model for Human-Centric Perceptions",
+          "link": "https://arxiv.org/abs/2303.02936v4"
+        },
+        "c": "https://github.com/opengvlab/unihcp",
+        "n": "UniHCP (finetune)",
+        "d": "2023-03-06",
+        "m1": "63.86%"
+      },
+      {
+        "p": {
+          "name": "Beyond Appearance: a Semantic Controllable Self-Supervised Learning Framework for Human-Centric Visual Tasks",
+          "link": "https://arxiv.org/abs/2303.17602v1"
+        },
+        "c": "https://github.com/modelscope/modelscope",
+        "n": "SOLIDER",
+        "d": "2023-03-30",
+        "m1": "60.50%"
+      },
+      {
+        "p": {
+          "name": "Segmentation Transformer: Object-Contextual Representations for Semantic Segmentation",
+          "link": "https://arxiv.org/abs/1909.11065v6"
+        },
+        "c": "https://github.com/open-mmlab/mmsegmentation",
+        "n": "HRNetV2 + OCR + RMI (PaddleClas pretrained)",
+        "d": "2019-09-24",
+        "m1": "58.2%"
+      },
+      {
+        "p": {
+          "name": "Segmentation Transformer: Object-Contextual Representations for Semantic Segmentation",
+          "link": "https://arxiv.org/abs/1909.11065v6"
+        },
+        "c": "https://github.com/open-mmlab/mmsegmentation",
+        "n": "OCR (HRNetV2-W48)",
+        "d": "2019-09-24",
+        "m1": "56.65%"
+      },
+      {
+        "p": {
+          "name": "High-Resolution Representations for Labeling Pixels and Regions",
+          "link": "http://arxiv.org/abs/1904.04514v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
+        "n": "HRNetV2 (HRNetV2-W48)",
+        "d": "2019-04-09",
+        "m1": "55.90%"
+      },
+      {
+        "p": {
+          "name": "Segmentation Transformer: Object-Contextual Representations for Semantic Segmentation",
+          "link": "https://arxiv.org/abs/1909.11065v6"
+        },
+        "c": "https://github.com/open-mmlab/mmsegmentation",
+        "n": "OCR (ResNet-101)",
+        "d": "2019-09-24",
+        "m1": "55.6%"
+      },
+      {
+        "p": {
+          "name": "Devil in the Details: Towards Accurate Single and Multiple Human Parsing",
+          "link": "http://arxiv.org/abs/1809.05996v3"
+        },
+        "c": "https://github.com/liutinglt/CE2P",
+        "n": "CE2P (ResNet-101)",
+        "d": "2018-09-17",
+        "m1": "53.10%"
+      },
+      {
+        "p": {
+          "name": "Look into Person: Joint Body Parsing & Pose Estimation Network and A New Benchmark",
+          "link": "http://arxiv.org/abs/1804.01984v1"
+        },
+        "c": "https://github.com/andrewjong/SwapNet",
+        "n": "JPPNet (ResNet-101)",
+        "d": "2018-04-05",
+        "m1": "51.37%"
+      },
+      {
+        "p": {
+          "name": "Mutual Learning to Adapt for Joint Human Parsing and Pose Estimation",
+          "link": "http://openaccess.thecvf.com/content_ECCV_2018/html/Xuecheng_Nie_Mutual_Learning_to_ECCV_2018_paper.html"
+        },
+        "c": "",
+        "n": "MuLA (ResNet-101)",
+        "d": "2018-09-01",
+        "m1": "49.30%"
+      },
+      {
+        "p": {
+          "name": "Macro-Micro Adversarial Network for Human Parsing",
+          "link": "http://arxiv.org/abs/1807.08260v2"
+        },
+        "c": "https://github.com/RoyalVane/MMAN",
+        "n": "MMAN (ResNet-101)",
+        "d": "2018-07-22",
+        "m1": "46.81%"
+      },
+      {
+        "p": {
+          "name": "Look into Person: Self-supervised Structure-sensitive Learning and A New Benchmark for Human Parsing",
+          "link": "http://arxiv.org/abs/1703.05446v2"
+        },
+        "c": "https://github.com/Engineering-Course/LIP_SSL",
+        "n": "Attention+SSL (ResNet-101)",
+        "d": "2017-03-16",
+        "m1": "44.73%"
+      }
+    ]
+  }
+}

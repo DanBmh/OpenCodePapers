@@ -1,0 +1,78 @@
+{
+  "title": "text-classification-on-arxiv-10",
+  "task-hierarchy": [
+    "Classification",
+    "Text Classification"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/ashfarhangi/Protoformer"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Protoformer: Embedding Prototypes for Transformers",
+          "link": "https://arxiv.org/abs/2206.12710v1"
+        },
+        "c": "https://github.com/codelion/adaptive-classifier/blob/main/src/adaptive_classifier/memory.py",
+        "n": "Protoformer",
+        "d": "2022-06-25",
+        "m1": "0.794"
+      },
+      {
+        "p": {
+          "name": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "link": "https://arxiv.org/abs/1907.11692v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "RoBERTa",
+        "d": "2019-07-26",
+        "m1": "0.779"
+      },
+      {
+        "p": {
+          "name": "DocBERT: BERT for Document Classification",
+          "link": "https://arxiv.org/abs/1904.08398v3"
+        },
+        "c": "https://github.com/castorini/hedwig",
+        "n": "DocBERT",
+        "d": "2019-04-17",
+        "m1": "0.764"
+      },
+      {
+        "p": {
+          "name": "Hierarchical Attention Networks for Document Classification",
+          "link": "https://aclanthology.org/N16-1174"
+        },
+        "c": "https://github.com/ematvey/hierarchical-attention-networks",
+        "n": "HAN",
+        "d": "2016-06-01",
+        "m1": "0.746"
+      }
+    ]
+  }
+}

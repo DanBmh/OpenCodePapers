@@ -1,0 +1,87 @@
+{
+  "title": "motion-segmentation-on-apolloscape",
+  "task-hierarchy": [
+    "Motion Segmentation"
+  ],
+  "dataset-info": {
+    "link": "http://apolloscape.auto/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Understanding Dynamic Scenes using Graph Convolution Networks",
+          "link": "https://arxiv.org/abs/2005.04437v5"
+        },
+        "c": "https://github.com/ma8sa/Undersrtanding-Dynamic-Scenes-using-MR-GCN",
+        "n": "Rule Based",
+        "d": "2020-05-09",
+        "m1": "90"
+      },
+      {
+        "p": {
+          "name": "Understanding Dynamic Scenes using Graph Convolution Networks",
+          "link": "https://arxiv.org/abs/2005.04437v5"
+        },
+        "c": "https://github.com/ma8sa/Undersrtanding-Dynamic-Scenes-using-MR-GCN",
+        "n": "Rel-Att-GCN",
+        "d": "2020-05-09",
+        "m1": "89"
+      },
+      {
+        "p": {
+          "name": "Understanding Dynamic Scenes using Graph Convolution Networks",
+          "link": "https://arxiv.org/abs/2005.04437v5"
+        },
+        "c": "https://github.com/ma8sa/Undersrtanding-Dynamic-Scenes-using-MR-GCN",
+        "n": "MRGCN",
+        "d": "2020-05-09",
+        "m1": "86"
+      },
+      {
+        "p": {
+          "name": "Understanding Dynamic Scenes using Graph Convolution Networks",
+          "link": "https://arxiv.org/abs/2005.04437v5"
+        },
+        "c": "https://github.com/ma8sa/Undersrtanding-Dynamic-Scenes-using-MR-GCN",
+        "n": "MRGCN-LSTM",
+        "d": "2020-05-09",
+        "m1": "72"
+      },
+      {
+        "p": {
+          "name": "Understanding Dynamic Scenes using Graph Convolution Networks",
+          "link": "https://arxiv.org/abs/2005.04437v5"
+        },
+        "c": "https://github.com/ma8sa/Undersrtanding-Dynamic-Scenes-using-MR-GCN",
+        "n": "St-RNN",
+        "d": "2020-05-09",
+        "m1": "63"
+      }
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "title": "rolling-shutter-correction-on-bs-rsc",
+  "task-hierarchy": [
+    "Rolling Shutter Correction"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/ljzycmd/BSRSC"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Average PSNR (dB)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Rolling Shutter Correction with Intermediate Distortion Flow Estimation",
+          "link": "https://arxiv.org/abs/2404.06350v1"
+        },
+        "c": "https://github.com/ljzycmd/dfrsc",
+        "n": "DFRSC-3Frames",
+        "d": "2024-04-09",
+        "m1": "34.48"
+      },
+      {
+        "p": {
+          "name": "Towards Nonlinear-Motion-Aware and Occlusion-Robust Rolling Shutter Correction",
+          "link": "https://arxiv.org/abs/2303.18125v3"
+        },
+        "c": "https://github.com/delinqu/qrsc",
+        "n": "QRSC-5Frames",
+        "d": "2023-03-31",
+        "m1": "33.50"
+      },
+      {
+        "p": {
+          "name": "Rolling Shutter Correction with Intermediate Distortion Flow Estimation",
+          "link": "https://arxiv.org/abs/2404.06350v1"
+        },
+        "c": "https://github.com/ljzycmd/dfrsc",
+        "n": "DFRSC-2Frames",
+        "d": "2024-04-09",
+        "m1": "33.39"
+      },
+      {
+        "p": {
+          "name": "Joint Appearance and Motion Learning for Efficient Rolling Shutter Correction",
+          "link": "http://openaccess.thecvf.com//content/CVPR2023/html/Fan_Joint_Appearance_and_Motion_Learning_for_Efficient_Rolling_Shutter_Correction_CVPR_2023_paper.html"
+        },
+        "c": "https://github.com/gitcvfb/jamnet",
+        "n": "JAMNet-2Frames",
+        "d": "2023-01-01",
+        "m1": "32.93"
+      },
+      {
+        "p": {
+          "name": "Learning Adaptive Warping for Real-World Rolling Shutter Correction",
+          "link": "https://arxiv.org/abs/2204.13886v1"
+        },
+        "c": "https://github.com/ljzycmd/bsrsc",
+        "n": "AdaRSC-3Frames",
+        "d": "2022-04-29",
+        "m1": "28.23"
+      },
+      {
+        "p": {
+          "name": "SUNet: Symmetric Undistortion Network for Rolling Shutter Correction",
+          "link": "https://arxiv.org/abs/2108.04775v1"
+        },
+        "c": "https://github.com/GitCVfb/SUNet",
+        "n": "SUNet-2Frames",
+        "d": "2021-08-10",
+        "m1": "27.76"
+      },
+      {
+        "p": {
+          "name": "Towards Rolling Shutter Correction and Deblurring in Dynamic Scenes",
+          "link": "https://arxiv.org/abs/2104.01601v1"
+        },
+        "c": "https://github.com/zzh-tech/RSCD",
+        "n": "JCD",
+        "d": "2021-04-04",
+        "m1": "25.59"
+      },
+      {
+        "p": {
+          "name": "Deep Shutter Unrolling Network",
+          "link": "http://openaccess.thecvf.com/content_CVPR_2020/html/Liu_Deep_Shutter_Unrolling_Network_CVPR_2020_paper.html"
+        },
+        "c": "https://github.com/ethliup/DeepUnrollNet",
+        "n": "DSUN",
+        "d": "2020-06-01",
+        "m1": "25.21"
+      }
+    ]
+  }
+}

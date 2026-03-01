@@ -1,0 +1,68 @@
+{
+  "title": "human-part-segmentation-on-human3-6m",
+  "task-hierarchy": [
+    "2D Semantic Segmentation",
+    "Human Part Segmentation"
+  ],
+  "dataset-info": {
+    "link": "http://vision.imar.ro/human3.6m/description.php"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Hulk: A Universal Knowledge Translator for Human-Centric Tasks",
+          "link": "https://arxiv.org/abs/2312.01697v4"
+        },
+        "c": "https://github.com/opengvlab/humanbench",
+        "n": "Hulk(Finetune, ViT-L)",
+        "d": "2023-12-04",
+        "m1": "69.89"
+      },
+      {
+        "p": {
+          "name": "Hulk: A Universal Knowledge Translator for Human-Centric Tasks",
+          "link": "https://arxiv.org/abs/2312.01697v4"
+        },
+        "c": "https://github.com/opengvlab/humanbench",
+        "n": "Hulk(Finetune, ViT-B)",
+        "d": "2023-12-04",
+        "m1": "68.56"
+      },
+      {
+        "p": {
+          "name": "UniHCP: A Unified Model for Human-Centric Perceptions",
+          "link": "https://arxiv.org/abs/2303.02936v4"
+        },
+        "c": "https://github.com/opengvlab/unihcp",
+        "n": "UniHCP (finetune)",
+        "d": "2023-03-06",
+        "m1": "65.95"
+      }
+    ]
+  }
+}

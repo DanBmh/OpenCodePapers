@@ -1,0 +1,123 @@
+{
+  "title": "document-classification-on-reuters-21578",
+  "task-hierarchy": [
+    "Text Classification",
+    "Document Classification"
+  ],
+  "dataset-info": {
+    "link": "http://kdd.ics.uci.edu/databases/reuters21578/reuters21578.html"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Rep the Set: Neural Networks for Learning Set Representations",
+          "link": "https://arxiv.org/abs/1904.01962v2"
+        },
+        "c": "https://github.com/giannisnik/repset",
+        "n": "ApproxRepSet",
+        "d": "2019-04-03",
+        "m1": "97.17"
+      },
+      {
+        "p": {
+          "name": "Speeding up Word Mover's Distance and its variants via properties of distances between embeddings",
+          "link": "https://arxiv.org/abs/1912.00509v2"
+        },
+        "c": "https://github.com/matwerner/fast-wmd",
+        "n": "REL-RWMD k-NN",
+        "d": "2019-12-01",
+        "m1": "95.61"
+      },
+      {
+        "p": {
+          "name": "Text classification with word embedding regularization and soft similarity measure",
+          "link": "https://arxiv.org/abs/2003.05019v1"
+        },
+        "c": "https://github.com/MIR-MU/regularized-embeddings",
+        "n": "Orthogonalized Soft VSM",
+        "d": "2020-03-10",
+        "m1": "92.65"
+      },
+      {
+        "p": {
+          "name": "MAGNET: Multi-Label Text Classification using Attention-based Graph Neural Network",
+          "link": "https://www.scitepress.org/PublicationsDetail.aspx?ID=siCYSzSoEx0=&t=1"
+        },
+        "c": "https://github.com/adrinta/MAGNET",
+        "n": "MAGNET",
+        "d": "2020-02-24",
+        "m2": "89.9"
+      },
+      {
+        "p": {
+          "name": "Vector of Locally-Aggregated Word Embeddings (VLAWE): A Novel Document-level Representation",
+          "link": "https://arxiv.org/abs/1902.08850v3"
+        },
+        "c": "https://github.com/raduionescu/vlawe-boswe",
+        "n": "VLAWE",
+        "d": "2019-02-23",
+        "m2": "89.3"
+      },
+      {
+        "p": {
+          "name": "DocBERT: BERT for Document Classification",
+          "link": "https://arxiv.org/abs/1904.08398v3"
+        },
+        "c": "https://github.com/castorini/hedwig",
+        "n": "KD-LSTMreg",
+        "d": "2019-04-17",
+        "m2": "88.9"
+      },
+      {
+        "p": {
+          "name": "Rethinking Complex Neural Network Architectures for Document Classification",
+          "link": "https://aclanthology.org/N19-1408"
+        },
+        "c": "https://github.com/castorini/hedwig",
+        "n": "LSTM-reg (single model)",
+        "d": "2019-06-01",
+        "m2": "87.0"
+      },
+      {
+        "p": {
+          "name": "Improving Document Classification with Multi-Sense Embeddings",
+          "link": "https://arxiv.org/abs/1911.07918v1"
+        },
+        "c": "https://github.com/vgupta123/SCDV-MS",
+        "n": "SCDV-MS",
+        "d": "2019-11-18",
+        "m2": "82.71"
+      }
+    ]
+  }
+}

@@ -1,0 +1,355 @@
+{
+  "title": "graph-matching-on-pascal-voc",
+  "task-hierarchy": [
+    "Graph Matching"
+  ],
+  "dataset-info": {
+    "link": "http://host.robots.ox.ac.uk/pascal/VOC/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1 score",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "matching accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Universe Points Representation Learning for Partial Multi-Graph Matching",
+          "link": "https://arxiv.org/abs/2212.00780v2"
+        },
+        "c": "",
+        "n": "URL",
+        "d": "2022-12-01",
+        "m1": "0.717±0.005",
+        "m2": "0.818"
+      },
+      {
+        "p": {
+          "name": "Deep Graph Matching via Blackbox Differentiation of Combinatorial Solvers",
+          "link": "https://arxiv.org/abs/2003.11657v2"
+        },
+        "c": "https://github.com/Thinklab-SJTU/ThinkMatch",
+        "n": "BBGM-Multi",
+        "d": "2020-03-25",
+        "m1": "0.628"
+      },
+      {
+        "p": {
+          "name": "Deep Learning of Partial Graph Matching via Differentiable Top-K",
+          "link": "http://openaccess.thecvf.com//content/CVPR2023/html/Wang_Deep_Learning_of_Partial_Graph_Matching_via_Differentiable_Top-K_CVPR_2023_paper.html"
+        },
+        "c": "https://github.com/Thinklab-SJTU/ThinkMatch",
+        "n": "GCAN-AFAT-U",
+        "d": "2023-01-01",
+        "m1": "0.620"
+      },
+      {
+        "p": {
+          "name": "Deep Learning of Partial Graph Matching via Differentiable Top-K",
+          "link": "http://openaccess.thecvf.com//content/CVPR2023/html/Wang_Deep_Learning_of_Partial_Graph_Matching_via_Differentiable_Top-K_CVPR_2023_paper.html"
+        },
+        "c": "https://github.com/Thinklab-SJTU/ThinkMatch",
+        "n": "GCAN-AFAT-I",
+        "d": "2023-01-01",
+        "m1": "0.616"
+      },
+      {
+        "p": {
+          "name": "Deep Graph Matching via Blackbox Differentiation of Combinatorial Solvers",
+          "link": "https://arxiv.org/abs/2003.11657v2"
+        },
+        "c": "https://github.com/Thinklab-SJTU/ThinkMatch",
+        "n": "BBGM",
+        "d": "2020-03-25",
+        "m1": "0.614",
+        "m2": "0.801"
+      },
+      {
+        "p": {
+          "name": "Deep Learning of Partial Graph Matching via Differentiable Top-K",
+          "link": "http://openaccess.thecvf.com//content/CVPR2023/html/Wang_Deep_Learning_of_Partial_Graph_Matching_via_Differentiable_Top-K_CVPR_2023_paper.html"
+        },
+        "c": "https://github.com/Thinklab-SJTU/ThinkMatch",
+        "n": "NGMv2-AFAT-U",
+        "d": "2023-01-01",
+        "m1": "0.602"
+      },
+      {
+        "p": {
+          "name": "Learning Constrained Structured Spaces with Application to Multi-Graph Matching",
+          "link": "https://proceedings.mlr.press/v206/indelman23a.html"
+        },
+        "c": "https://github.com/HeddaCohenIndelman/Learning-Constrained-Structured-Spaces-with-Application-to-Multi-Graph-Matching",
+        "n": "Direct-2HGM",
+        "d": "2022-05-03",
+        "m1": "0.601"
+      },
+      {
+        "p": {
+          "name": "Deep Learning of Partial Graph Matching via Differentiable Top-K",
+          "link": "http://openaccess.thecvf.com//content/CVPR2023/html/Wang_Deep_Learning_of_Partial_Graph_Matching_via_Differentiable_Top-K_CVPR_2023_paper.html"
+        },
+        "c": "https://github.com/Thinklab-SJTU/ThinkMatch",
+        "n": "NGMv2-AFAT-I",
+        "d": "2023-01-01",
+        "m1": "0.599"
+      },
+      {
+        "p": {
+          "name": "Learning Constrained Structured Spaces with Application to Multi-Graph Matching",
+          "link": "https://proceedings.mlr.press/v206/indelman23a.html"
+        },
+        "c": "https://github.com/HeddaCohenIndelman/Learning-Constrained-Structured-Spaces-with-Application-to-Multi-Graph-Matching",
+        "n": "Direct-2GM",
+        "d": "2022-05-03",
+        "m1": "0.597"
+      },
+      {
+        "p": {
+          "name": "Learning Latent Partial Matchings with Gumbel-IPF Networks",
+          "link": "https://proceedings.mlr.press/v238/cohen-indelman24a.html"
+        },
+        "c": "https://github.com/HeddaCohenIndelman/Learning-Latent-Partial-Matchings-with-Gumbel-IPF-Networks",
+        "n": "GUMBEL-IPF",
+        "d": "2024-04-03",
+        "m1": "0.588"
+      },
+      {
+        "p": {
+          "name": "Learning Constrained Structured Spaces with Application to Multi-Graph Matching",
+          "link": "https://proceedings.mlr.press/v206/indelman23a.html"
+        },
+        "c": "https://github.com/HeddaCohenIndelman/Learning-Constrained-Structured-Spaces-with-Application-to-Multi-Graph-Matching",
+        "n": "Direct-MGM",
+        "d": "2022-05-03",
+        "m1": "0.575"
+      },
+      {
+        "p": {
+          "name": "Joint Deep Multi-Graph Matching and 3D Geometry Learning from Inhomogeneous 2D Image Collections",
+          "link": "https://arxiv.org/abs/2103.17229v2"
+        },
+        "c": "",
+        "n": "MGM3D",
+        "d": "2021-03-31",
+        "m1": "0.429",
+        "m2": "0.589"
+      },
+      {
+        "p": {
+          "name": "GMTR: Graph Matching Transformers",
+          "link": "https://arxiv.org/abs/2311.08141v2"
+        },
+        "c": "https://github.com/jp-guo/gm-transformer",
+        "n": "GMT-BBGM",
+        "d": "2023-11-14",
+        "m2": "0.8411"
+      },
+      {
+        "p": {
+          "name": "GMTR: Graph Matching Transformers",
+          "link": "https://arxiv.org/abs/2311.08141v2"
+        },
+        "c": "https://github.com/jp-guo/gm-transformer",
+        "n": "GMTR",
+        "d": "2023-11-14",
+        "m2": "0.836"
+      },
+      {
+        "p": {
+          "name": "Graph Matching with Bi-level Noisy Correspondence",
+          "link": "https://arxiv.org/abs/2212.04085v3"
+        },
+        "c": "https://github.com/Thinklab-SJTU/ThinkMatch",
+        "n": "COMMON",
+        "d": "2022-12-08",
+        "m2": "0.8267"
+      },
+      {
+        "p": {
+          "name": "Graph-Context Attention Networks for Size-Varied Deep Graph Matching",
+          "link": "http://openaccess.thecvf.com//content/CVPR2022/html/Jiang_Graph-Context_Attention_Networks_for_Size-Varied_Deep_Graph_Matching_CVPR_2022_paper.html"
+        },
+        "c": "https://github.com/zhehengjiang/gcan",
+        "n": "GCAN",
+        "d": "2022-01-01",
+        "m2": "0.8223"
+      },
+      {
+        "p": {
+          "name": "Cross-modal Retrieval with Noisy Correspondence via Consistency Refining and Mining",
+          "link": "https://ieeexplore.ieee.org/document/10477322"
+        },
+        "c": "https://github.com/XLearning-SCU/2024-TIP-CREAM",
+        "n": "CREAM",
+        "d": "2024-03-25",
+        "m2": "0.814"
+      },
+      {
+        "p": {
+          "name": "Appearance and Structure Aware Robust Deep Visual Graph Matching: Attack, Defense and Beyond",
+          "link": "http://openaccess.thecvf.com//content/CVPR2022/html/Ren_Appearance_and_Structure_Aware_Robust_Deep_Visual_Graph_Matching_Attack_CVPR_2022_paper.html"
+        },
+        "c": "https://github.com/thinklab-sjtu/robustmatch",
+        "n": "ASAR-GM",
+        "d": "2022-01-01",
+        "m2": "0.8115"
+      },
+      {
+        "p": {
+          "name": "GAMnet: Robust Feature Matching via Graph Adversarial-Matching Network",
+          "link": "https://dl.acm.org/doi/abs/10.1145/3474085.3475669"
+        },
+        "c": "",
+        "n": "GAMnet",
+        "d": "2021-10-17",
+        "m2": "0.807"
+      },
+      {
+        "p": {
+          "name": "Neural Graph Matching Network: Learning Lawler's Quadratic Assignment Problem with Extension to Hypergraph and Multiple-graph Matching",
+          "link": "https://arxiv.org/abs/1911.11308v3"
+        },
+        "c": "https://github.com/Thinklab-SJTU/ThinkMatch",
+        "n": "NHGM-v2",
+        "d": "2019-11-26",
+        "m2": "0.8040"
+      },
+      {
+        "p": {
+          "name": "Adaptive Edge Attention for Graph Matching with Outliers",
+          "link": "https://www.ijcai.org/proceedings/2021/134"
+        },
+        "c": "https://github.com/bestwei/eagm",
+        "n": "EAGM",
+        "d": "2021-08-19",
+        "m2": "0.705"
+      },
+      {
+        "p": {
+          "name": "Deep Graph Matching under Quadratic Constraint",
+          "link": "https://arxiv.org/abs/2103.06643v2"
+        },
+        "c": "https://github.com/Zerg-Overmind/QC-DGM",
+        "n": "qc-DGM2",
+        "d": "2021-03-11",
+        "m2": "0.703"
+      },
+      {
+        "p": {
+          "name": "Deep Graph Matching under Quadratic Constraint",
+          "link": "https://arxiv.org/abs/2103.06643v2"
+        },
+        "c": "https://github.com/Zerg-Overmind/QC-DGM",
+        "n": "qc-DGM1",
+        "d": "2021-03-11",
+        "m2": "0.693"
+      },
+      {
+        "p": {
+          "name": "Hypergraph Neural Networks for Hypergraph Matching",
+          "link": "http://openaccess.thecvf.com//content/ICCV2021/html/Liao_Hypergraph_Neural_Networks_for_Hypergraph_Matching_ICCV_2021_paper.html"
+        },
+        "c": "https://github.com/xwliao/hnn-hm",
+        "n": "HNN-HM",
+        "d": "2021-01-01",
+        "m2": "0.680"
+      },
+      {
+        "p": {
+          "name": "Combinatorial Learning of Robust Deep Graph Matching: an Embedding based Approach.",
+          "link": "https://ieeexplore.ieee.org/abstract/document/9128045"
+        },
+        "c": "https://github.com/Thinklab-SJTU/ThinkMatch",
+        "n": "IPCA-GM",
+        "d": "2020-06-29",
+        "m2": "0.6770"
+      },
+      {
+        "p": {
+          "name": "Learning deep graph matching with channel-independent embedding and Hungarian attention",
+          "link": "https://openreview.net/forum?id=rJgBd2NYPH"
+        },
+        "c": "",
+        "n": "CIE-H",
+        "d": "2020-01-01",
+        "m2": "0.6756"
+      },
+      {
+        "p": {
+          "name": "GLMNet: Graph Learning-Matching Networks for Feature Matching",
+          "link": "https://arxiv.org/abs/1911.07681v1"
+        },
+        "c": "",
+        "n": "GLMNet",
+        "d": "2019-11-18",
+        "m2": "0.675"
+      },
+      {
+        "p": {
+          "name": "IA-GM: A Deep Bidirectional Learning Method for Graph Matching",
+          "link": "https://ojs.aaai.org/index.php/AAAI/article/view/16461"
+        },
+        "c": "",
+        "n": "IA-GM",
+        "d": "2021-05-18",
+        "m2": "0.6658"
+      },
+      {
+        "p": {
+          "name": "Neural Graph Matching Network: Learning Lawler's Quadratic Assignment Problem with Extension to Hypergraph and Multiple-graph Matching",
+          "link": "https://arxiv.org/abs/1911.11308v3"
+        },
+        "c": "https://github.com/Thinklab-SJTU/ThinkMatch",
+        "n": "NHGM",
+        "d": "2019-11-26",
+        "m2": "0.6458"
+      },
+      {
+        "p": {
+          "name": "Neural Graph Matching Network: Learning Lawler's Quadratic Assignment Problem with Extension to Hypergraph and Multiple-graph Matching",
+          "link": "https://arxiv.org/abs/1911.11308v3"
+        },
+        "c": "https://github.com/Thinklab-SJTU/ThinkMatch",
+        "n": "NGM",
+        "d": "2019-11-26",
+        "m2": "0.6413"
+      },
+      {
+        "p": {
+          "name": "Deep Learning of Graph Matching",
+          "link": "http://openaccess.thecvf.com/content_cvpr_2018/html/Zanfir_Deep_Learning_of_CVPR_2018_paper.html"
+        },
+        "c": "",
+        "n": "GMN",
+        "d": "2018-06-01",
+        "m2": "0.6240"
+      }
+    ]
+  }
+}

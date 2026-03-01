@@ -1,0 +1,373 @@
+{
+  "title": "document-image-classification-on-rvl-cdip",
+  "task-hierarchy": [
+    "Image Classification",
+    "Document Image Classification"
+  ],
+  "dataset-info": {
+    "link": "https://www.cs.cmu.edu/~aharley/rvl-cdip/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Parameters",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "EAML: Ensemble Self-Attention-based Mutual Learning Network for Document Image Classification",
+          "link": "https://arxiv.org/abs/2305.06923v1"
+        },
+        "c": "",
+        "n": "EAML",
+        "d": "2023-05-11",
+        "m1": "97.70%"
+      },
+      {
+        "p": {
+          "name": "Visual and Textual Deep Feature Fusion for Document Image Classification",
+          "link": "https://openaccess.thecvf.com/content_CVPRW_2020/html/w34/Bakkali_Visual_and_Textual_Deep_Feature_Fusion_for_Document_Image_Classification_CVPRW_2020_paper.html"
+        },
+        "c": "",
+        "n": "Cross-Modal",
+        "d": "2020-06-16",
+        "m1": "97.05%",
+        "m2": "197M"
+      },
+      {
+        "p": {
+          "name": "DocFormer: End-to-End Transformer for Document Understanding",
+          "link": "https://arxiv.org/abs/2106.11539v2"
+        },
+        "c": "https://github.com/shabie/docformer",
+        "n": "DocFormerBASE",
+        "d": "2021-06-22",
+        "m1": "96.17%",
+        "m2": "183M"
+      },
+      {
+        "p": {
+          "name": "LayoutLMv3: Pre-training for Document AI with Unified Text and Image Masking",
+          "link": "https://arxiv.org/abs/2204.08387v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LayoutLMV3Large",
+        "d": "2022-04-18",
+        "m1": "95.93%",
+        "m2": "368M"
+      },
+      {
+        "p": {
+          "name": "LiLT: A Simple yet Effective Language-Independent Layout Transformer for Structured Document Understanding",
+          "link": "https://arxiv.org/abs/2202.13669v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LiLT[EN-R]BASE",
+        "d": "2022-02-28",
+        "m1": "95.68%"
+      },
+      {
+        "p": {
+          "name": "LayoutLMv2: Multi-modal Pre-training for Visually-Rich Document Understanding",
+          "link": "https://arxiv.org/abs/2012.14740v4"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LayoutLMv2LARGE",
+        "d": "2020-12-29",
+        "m1": "95.64%"
+      },
+      {
+        "p": {
+          "name": "Going Full-TILT Boogie on Document Understanding with Text-Image-Layout Transformer",
+          "link": "https://arxiv.org/abs/2102.09550v3"
+        },
+        "c": "https://github.com/uakarsh/TiLT-Implementation",
+        "n": "TILT-Large",
+        "d": "2021-02-18",
+        "m1": "95.52%"
+      },
+      {
+        "p": {
+          "name": "DocFormer: End-to-End Transformer for Document Understanding",
+          "link": "https://arxiv.org/abs/2106.11539v2"
+        },
+        "c": "https://github.com/shabie/docformer",
+        "n": "DocFormer large",
+        "d": "2021-06-22",
+        "m1": "95.50%",
+        "m2": "536M"
+      },
+      {
+        "p": {
+          "name": "LayoutLMv3: Pre-training for Document AI with Unified Text and Image Masking",
+          "link": "https://arxiv.org/abs/2204.08387v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LayoutLMv3BASE",
+        "d": "2022-04-18",
+        "m1": "95.44%",
+        "m2": "133M"
+      },
+      {
+        "p": {
+          "name": "OCR-free Document Understanding Transformer",
+          "link": "https://arxiv.org/abs/2111.15664v5"
+        },
+        "c": "https://github.com/clovaai/donut",
+        "n": "Donut",
+        "d": "2021-11-30",
+        "m1": "95.3%"
+      },
+      {
+        "p": {
+          "name": "Going Full-TILT Boogie on Document Understanding with Text-Image-Layout Transformer",
+          "link": "https://arxiv.org/abs/2102.09550v3"
+        },
+        "c": "https://github.com/uakarsh/TiLT-Implementation",
+        "n": "TILT-Base",
+        "d": "2021-02-18",
+        "m1": "95.25%"
+      },
+      {
+        "p": {
+          "name": "LayoutLMv2: Multi-modal Pre-training for Visually-Rich Document Understanding",
+          "link": "https://arxiv.org/abs/2012.14740v4"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LayoutLMv2BASE",
+        "d": "2020-12-29",
+        "m1": "95.25%",
+        "m2": "200M"
+      },
+      {
+        "p": {
+          "name": "LayoutXLM: Multimodal Pre-training for Multilingual Visually-rich Document Understanding",
+          "link": "https://arxiv.org/abs/2104.08836v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LayoutXLM",
+        "d": "2021-04-18",
+        "m1": "95.21%"
+      },
+      {
+        "p": {
+          "name": "StrucTexTv2: Masked Visual-Textual Prediction for Document Image Pre-training",
+          "link": "https://arxiv.org/abs/2303.00289v1"
+        },
+        "c": "https://github.com/PaddlePaddle/VIMER/tree/main/StrucTexT/v2",
+        "n": "StrucTexTv2 (large)",
+        "d": "2023-03-01",
+        "m1": "94.62%",
+        "m2": "238M"
+      },
+      {
+        "p": {
+          "name": "LayoutLM: Pre-training of Text and Layout for Document Image Understanding",
+          "link": "https://arxiv.org/abs/1912.13318v5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Pre-trained LayoutLM",
+        "d": "2019-12-31",
+        "m1": "94.42%",
+        "m2": "160M"
+      },
+      {
+        "p": {
+          "name": "DoPTA: Improving Document Layout Analysis using Patch-Text Alignment",
+          "link": "https://arxiv.org/abs/2412.12902v1"
+        },
+        "c": "",
+        "n": "DoPTA",
+        "d": "2024-12-17",
+        "m1": "94.12%",
+        "m2": "85M"
+      },
+      {
+        "p": {
+          "name": "DocXClassifier: High Performance Explainable Deep Network for Document Image Classification",
+          "link": "https://www.techrxiv.org/articles/preprint/DocXClassifier_High_Performance_Explainable_Deep_Network_for_Document_Image_Classification/19310489"
+        },
+        "c": "https://github.com/saifullah3396/docxclassifier",
+        "n": "DocXClassifier-B",
+        "d": "2022-03-17",
+        "m1": "94.00%",
+        "m2": "95.4M"
+      },
+      {
+        "p": {
+          "name": "StrucTexTv2: Masked Visual-Textual Prediction for Document Image Pre-training",
+          "link": "https://arxiv.org/abs/2303.00289v1"
+        },
+        "c": "https://github.com/PaddlePaddle/VIMER/tree/main/StrucTexT/v2",
+        "n": "StrucTexTv2 (small)",
+        "d": "2023-03-01",
+        "m1": "93.4%",
+        "m2": "28M"
+      },
+      {
+        "p": {
+          "name": "VLCDoC: Vision-Language Contrastive Pre-Training Model for Cross-Modal Document Classification",
+          "link": "https://arxiv.org/abs/2205.12029v3"
+        },
+        "c": "",
+        "n": "VLCDoC",
+        "d": "2022-05-24",
+        "m1": "93.19%",
+        "m2": "217M"
+      },
+      {
+        "p": {
+          "name": "GlobalDoc: A Cross-Modal Vision-Language Framework for Real-World Document Image Retrieval and Classification",
+          "link": "https://arxiv.org/abs/2309.05756v3"
+        },
+        "c": "",
+        "n": "TransferDoc",
+        "d": "2023-09-11",
+        "m1": "93.18%",
+        "m2": "221M"
+      },
+      {
+        "p": {
+          "name": "Multimodal Side-Tuning for Document Classification",
+          "link": "https://arxiv.org/abs/2301.07502v2"
+        },
+        "c": "https://github.com/thezingaro/multimodal-side-tuning",
+        "n": "Multimodal (ResNet50)",
+        "d": "2023-01-16",
+        "m1": "92.7%",
+        "m2": "57M"
+      },
+      {
+        "p": {
+          "name": "DiT: Self-supervised Pre-training for Document Image Transformer",
+          "link": "https://arxiv.org/abs/2203.02378v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "DiT-L",
+        "d": "2022-03-04",
+        "m1": "92.69%",
+        "m2": "304M"
+      },
+      {
+        "p": {
+          "name": "Improving accuracy and speeding up Document Image Classification through parallel systems",
+          "link": "https://arxiv.org/abs/2006.09141v1"
+        },
+        "c": "https://github.com/javiferran/document-classification",
+        "n": "Pre-trained EfficientNet",
+        "d": "2020-06-16",
+        "m1": "92.31%"
+      },
+      {
+        "p": {
+          "name": "Document Image Classification with Intra-Domain Transfer Learning and Stacked Generalization of Deep Convolutional Neural Networks",
+          "link": "http://arxiv.org/abs/1801.09321v3"
+        },
+        "c": "https://github.com/microsoft/unilm/tree/master/layoutlm",
+        "n": "Transfer Learning from VGG16 trained on Imagenet",
+        "d": "2018-01-29",
+        "m1": "92.21%"
+      },
+      {
+        "p": {
+          "name": "Multimodal Side-Tuning for Document Classification",
+          "link": "https://arxiv.org/abs/2301.07502v2"
+        },
+        "c": "https://github.com/thezingaro/multimodal-side-tuning",
+        "n": "Multimodal (MobileNetV2)",
+        "d": "2023-01-16",
+        "m1": "92.2%",
+        "m2": "12M"
+      },
+      {
+        "p": {
+          "name": "DiT: Self-supervised Pre-training for Document Image Transformer",
+          "link": "https://arxiv.org/abs/2203.02378v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "DiT-B",
+        "d": "2022-03-04",
+        "m1": "92.11%",
+        "m2": "87M"
+      },
+      {
+        "p": {
+          "name": "BEiT: BERT Pre-Training of Image Transformers",
+          "link": "https://arxiv.org/abs/2106.08254v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "BEiT-B",
+        "d": "2021-06-15",
+        "m1": "91.09%",
+        "m2": "87M"
+      },
+      {
+        "p": {
+          "name": "Cutting the Error by Half: Investigation of Very Deep CNN and Advanced Training Strategies for Document Image Classification",
+          "link": "http://arxiv.org/abs/1704.03557v1"
+        },
+        "c": "https://github.com/microsoft/unilm/tree/master/layoutlm",
+        "n": "Transfer Learning from AlexNet, VGG-16, GoogLeNet and ResNet50",
+        "d": "2017-04-11",
+        "m1": "90.97%"
+      },
+      {
+        "p": {
+          "name": "Analysis of Convolutional Neural Networks for Document Image Classification",
+          "link": "http://arxiv.org/abs/1708.03273v1"
+        },
+        "c": "",
+        "n": "AlexNet + spatial pyramidal pooling + image resizing",
+        "d": "2017-08-10",
+        "m1": "90.94%"
+      },
+      {
+        "p": {
+          "name": "Training data-efficient image transformers & distillation through attention",
+          "link": "https://arxiv.org/abs/2012.12877v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "DeiT-B",
+        "d": "2020-12-23",
+        "m1": "90.32%",
+        "m2": " 87M"
+      },
+      {
+        "p": {
+          "name": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "link": "https://arxiv.org/abs/1907.11692v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Roberta base",
+        "d": "2019-07-26",
+        "m1": "90.06",
+        "m2": "125M"
+      }
+    ]
+  }
+}

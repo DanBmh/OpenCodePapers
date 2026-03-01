@@ -1,0 +1,140 @@
+{
+  "title": "hypernym-discovery-on-medical-domain",
+  "task-hierarchy": [
+    "Hypernym Discovery"
+  ],
+  "dataset-info": {
+    "link": "https://competitions.codalab.org/competitions/17119"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MAP",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "MRR",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "P@5",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "CRIM at SemEval-2018 Task 9: A Hybrid Approach to Hypernym Discovery",
+          "link": "https://aclanthology.org/S18-1116"
+        },
+        "c": "https://github.com/gbcolborne/hypernym_discovery",
+        "n": "CRIM",
+        "d": "2018-06-01",
+        "m1": "34.05",
+        "m2": "54.64",
+        "m3": "36.77"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "MFH",
+        "d": null,
+        "m1": "28.93",
+        "m2": "35.80",
+        "m3": "34.20"
+      },
+      {
+        "p": {
+          "name": "300-sparsans at SemEval-2018 Task 9: Hypernymy as interaction of sparse attributes",
+          "link": "https://aclanthology.org/S18-1152"
+        },
+        "c": "",
+        "n": "300-sparsans",
+        "d": "2018-06-01",
+        "m1": "20.75",
+        "m2": "40.60",
+        "m3": "21.43"
+      },
+      {
+        "p": {
+          "name": "Supervised Distributional Hypernym Discovery via Domain Adaptation",
+          "link": "https://aclanthology.org/D16-1041"
+        },
+        "c": "",
+        "n": "vTE",
+        "d": "2016-11-01",
+        "m1": "18.84",
+        "m2": "41.07",
+        "m3": "20.71"
+      },
+      {
+        "p": {
+          "name": "EXPR at SemEval-2018 Task 9: A Combined Approach for Hypernym Discovery",
+          "link": "https://aclanthology.org/S18-1150"
+        },
+        "c": "",
+        "n": "EXPR",
+        "d": "2018-06-01",
+        "m1": "13.77",
+        "m2": "40.76",
+        "m3": "12.76"
+      },
+      {
+        "p": {
+          "name": "SJTU-NLP at SemEval-2018 Task 9: Neural Hypernym Discovery with Term Embeddings",
+          "link": "http://arxiv.org/abs/1805.10465v1"
+        },
+        "c": "",
+        "n": "SJTU BCMI",
+        "d": "2018-05-26",
+        "m1": "11.69",
+        "m2": "25.95",
+        "m3": "11.69"
+      },
+      {
+        "p": {
+          "name": "ADAPT at SemEval-2018 Task 9: Skip-Gram Word Embeddings for Unsupervised Hypernym Discovery in Specialised Corpora",
+          "link": "https://aclanthology.org/S18-1151"
+        },
+        "c": "",
+        "n": "ADAPT",
+        "d": "2018-06-01",
+        "m1": "8.13",
+        "m2": "20.56",
+        "m3": "8.32"
+      },
+      {
+        "p": {
+          "name": "Hypernyms under Siege: Linguistically-motivated Artillery for Hypernymy Detection",
+          "link": "http://arxiv.org/abs/1612.04460v2"
+        },
+        "c": "https://github.com/vered1986/UnsupervisedHypernymy",
+        "n": "balAPInc",
+        "d": "2016-12-14",
+        "m1": "0.91",
+        "m2": "2.10",
+        "m3": "1.08"
+      }
+    ]
+  }
+}

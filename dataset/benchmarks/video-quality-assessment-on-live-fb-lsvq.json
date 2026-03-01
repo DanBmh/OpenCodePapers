@@ -1,0 +1,169 @@
+{
+  "title": "video-quality-assessment-on-live-fb-lsvq",
+  "task-hierarchy": [
+    "Video",
+    "Video Understanding",
+    "Video Quality Assessment"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/baidut/PatchVQ"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PLCC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Q-Align: Teaching LMMs for Visual Scoring via Discrete Text-Defined Levels",
+          "link": "https://arxiv.org/abs/2312.17090v1"
+        },
+        "c": "https://github.com/q-future/q-align",
+        "n": "OneAlign + FAST-VQA",
+        "d": "2023-12-28",
+        "m1": "0.900"
+      },
+      {
+        "p": {
+          "name": "Exploring Video Quality Assessment on User Generated Contents from Aesthetic and Technical Perspectives",
+          "link": "https://arxiv.org/abs/2211.04894v3"
+        },
+        "c": "https://github.com/vqassessment/dover",
+        "n": "DOVER",
+        "d": "2022-11-09",
+        "m1": "0.889"
+      },
+      {
+        "p": {
+          "name": "Q-Align: Teaching LMMs for Visual Scoring via Discrete Text-Defined Levels",
+          "link": "https://arxiv.org/abs/2312.17090v1"
+        },
+        "c": "https://github.com/q-future/q-align",
+        "n": "OneAlign",
+        "d": "2023-12-28",
+        "m1": "0.886"
+      },
+      {
+        "p": {
+          "name": "FAST-VQA: Efficient End-to-end Video Quality Assessment with Fragment Sampling",
+          "link": "https://arxiv.org/abs/2207.02595v1"
+        },
+        "c": "https://github.com/VQAssessment/FAST-VQA-and-FasterVQA",
+        "n": "FAST-VQA",
+        "d": "2022-07-06",
+        "m1": "0.877"
+      },
+      {
+        "p": {
+          "name": "Neighbourhood Representative Sampling for Efficient End-to-end Video Quality Assessment",
+          "link": "https://arxiv.org/abs/2210.05357v1"
+        },
+        "c": "https://github.com/timothyhtimothy/fast-vqa",
+        "n": "FasterVQA",
+        "d": "2022-10-11",
+        "m1": "0.874"
+      },
+      {
+        "p": {
+          "name": "HVS Revisited: A Comprehensive Video Quality Assessment Framework",
+          "link": "https://arxiv.org/abs/2210.04158v1"
+        },
+        "c": "",
+        "n": "HVS-5M",
+        "d": "2022-10-09",
+        "m1": "0.8723"
+      },
+      {
+        "p": {
+          "name": "A Deep Learning based No-reference Quality Assessment Model for UGC Videos",
+          "link": "https://arxiv.org/abs/2204.14047v2"
+        },
+        "c": "https://github.com/sunwei925/SimpleVQA",
+        "n": "SimpleVQA",
+        "d": "2022-04-29",
+        "m1": "0.861"
+      },
+      {
+        "p": {
+          "name": "Blindly Assess Quality of In-the-Wild Videos via Quality-aware Pre-training and Motion Perception",
+          "link": "https://arxiv.org/abs/2108.08505v2"
+        },
+        "c": "https://github.com/zwx8981/tcsvt-2022-bvqa",
+        "n": "BVQA-2022",
+        "d": "2021-08-19",
+        "m1": "0.854"
+      },
+      {
+        "p": {
+          "name": "DisCoVQA: Temporal Distortion-Content Transformers for Video Quality Assessment",
+          "link": "https://arxiv.org/abs/2206.09853v1"
+        },
+        "c": "https://github.com/QualityAssessment/DisCoVQA",
+        "n": "DisCoVQA",
+        "d": "2022-06-20",
+        "m1": "0.850"
+      },
+      {
+        "p": {
+          "name": "Patch-VQ: 'Patching Up' the Video Quality Problem",
+          "link": "https://arxiv.org/abs/2011.13544v2"
+        },
+        "c": "https://github.com/baidut/PatchVQ",
+        "n": "PVQ",
+        "d": "2020-11-27",
+        "m1": "0.827"
+      },
+      {
+        "p": {
+          "name": "Image Quality Assessment using Contrastive Learning",
+          "link": "https://arxiv.org/abs/2110.13266v1"
+        },
+        "c": "https://github.com/pavancm/contrique",
+        "n": "CONTRIQUE",
+        "d": "2021-10-25",
+        "m1": "0.826"
+      },
+      {
+        "p": {
+          "name": "CONVIQT: Contrastive Video Quality Estimator",
+          "link": "https://arxiv.org/abs/2206.14713v1"
+        },
+        "c": "https://github.com/pavancm/conviqt",
+        "n": "CONVIQT",
+        "d": "2022-06-29",
+        "m1": "0.820"
+      },
+      {
+        "p": {
+          "name": "UGC-VQA: Benchmarking Blind Video Quality Assessment for User Generated Content",
+          "link": "https://arxiv.org/abs/2005.14354v2"
+        },
+        "c": "https://github.com/tu184044109/VIDEVAL_release",
+        "n": "VIDEVAL",
+        "d": "2020-05-29",
+        "m1": "0.783"
+      }
+    ]
+  }
+}

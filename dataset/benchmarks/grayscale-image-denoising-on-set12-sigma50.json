@@ -1,0 +1,125 @@
+{
+  "title": "grayscale-image-denoising-on-set12-sigma50",
+  "task-hierarchy": [
+    "3D Architecture",
+    "Denoising",
+    "Grayscale Image Denoising"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Hierarchical Information Flow for Generalized Efficient Image Restoration",
+          "link": "https://arxiv.org/abs/2411.18588v1"
+        },
+        "c": "",
+        "n": "Hi-IR",
+        "d": "2024-11-27",
+        "m1": "28.15"
+      },
+      {
+        "p": {
+          "name": "KBNet: Kernel Basis Network for Image Restoration",
+          "link": "https://arxiv.org/abs/2303.02881v1"
+        },
+        "c": "https://github.com/zhangyi-3/kbnet",
+        "n": "KBNet",
+        "d": "2023-03-06",
+        "m1": "28.04"
+      },
+      {
+        "p": {
+          "name": "Multi-level Wavelet-CNN for Image Restoration",
+          "link": "http://arxiv.org/abs/1805.07071v2"
+        },
+        "c": "https://github.com/lpj0/MWCNN",
+        "n": "MWCNN",
+        "d": "2018-05-18",
+        "m1": "27.74"
+      },
+      {
+        "p": {
+          "name": "Non-Local Recurrent Network for Image Restoration",
+          "link": "http://arxiv.org/abs/1806.02919v2"
+        },
+        "c": "https://github.com/Ding-Liu/NLRN",
+        "n": "NLRN",
+        "d": "2018-06-07",
+        "m1": "27.64"
+      },
+      {
+        "p": {
+          "name": "Deep Graph-Convolutional Image Denoising",
+          "link": "https://arxiv.org/abs/1907.08448v1"
+        },
+        "c": "https://github.com/diegovalsesia/gcdn",
+        "n": "GCDN",
+        "d": "2019-07-19",
+        "m1": "27.6"
+      },
+      {
+        "p": {
+          "name": "Neural Nearest Neighbors Networks",
+          "link": "http://arxiv.org/abs/1810.12575v1"
+        },
+        "c": "https://github.com/visinf/n3net",
+        "n": "N3Net",
+        "d": "2018-10-30",
+        "m1": "27.43"
+      },
+      {
+        "p": {
+          "name": "Index Network",
+          "link": "https://arxiv.org/abs/1908.09895v2"
+        },
+        "c": "https://github.com/poppinace/indexnet_matting",
+        "n": "Index Network",
+        "d": "2019-08-11",
+        "m1": "27.29"
+      },
+      {
+        "p": {
+          "name": "SwinIA: Self-Supervised Blind-Spot Image Denoising without Convolutions",
+          "link": "https://arxiv.org/abs/2305.05651v2"
+        },
+        "c": "",
+        "n": "SwinIA",
+        "d": "2023-05-09",
+        "m1": "26.03",
+        "m2": "0.736"
+      }
+    ]
+  }
+}

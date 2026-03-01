@@ -1,0 +1,98 @@
+{
+  "title": "reflection-removal-on-nature",
+  "task-hierarchy": [
+    "2D Semantic Segmentation",
+    "Reflection Removal"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Dereflection Any Image with Diffusion Priors and Diversified Data",
+          "link": "https://arxiv.org/abs/2503.17347v1"
+        },
+        "c": "https://github.com/Abuuu122/Dereflection-Any-Image",
+        "n": "DAI",
+        "d": "2025-03-21",
+        "m1": "26.81",
+        "m2": "0.843"
+      },
+      {
+        "p": {
+          "name": "Reversible Decoupling Network for Single Image Reflection Removal",
+          "link": "https://arxiv.org/abs/2410.08063v2"
+        },
+        "c": "https://github.com/lime-j/RDNet",
+        "n": "RDNet",
+        "d": "2024-10-10",
+        "m1": "26.21",
+        "m2": "0.842"
+      },
+      {
+        "p": {
+          "name": "Reversible Decoupling Network for Single Image Reflection Removal",
+          "link": "https://arxiv.org/abs/2410.08063v2"
+        },
+        "c": "https://github.com/lime-j/RDNet",
+        "n": "Zhu et al.",
+        "d": "2024-10-10",
+        "m1": "26.04",
+        "m2": "0.846"
+      },
+      {
+        "p": {
+          "name": "Trash or Treasure? An Interactive Dual-Stream Strategy for Single Image Reflection Separation",
+          "link": "https://arxiv.org/abs/2110.10546v1"
+        },
+        "c": "https://github.com/mingcv/ytmt-strategy",
+        "n": "YTMT-UCS",
+        "d": "2021-10-20",
+        "m1": "23.85",
+        "m2": "0.810"
+      },
+      {
+        "p": {
+          "name": "Single Image Reflection Removal through Cascaded Refinement",
+          "link": "https://arxiv.org/abs/1911.06634v2"
+        },
+        "c": "https://github.com/JHL-HUST/IBCLN",
+        "n": "IBCLN",
+        "d": "2019-11-15",
+        "m1": "23.57",
+        "m2": "0.783"
+      }
+    ]
+  }
+}

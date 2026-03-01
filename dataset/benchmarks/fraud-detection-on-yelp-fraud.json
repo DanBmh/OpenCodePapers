@@ -1,0 +1,159 @@
+{
+  "title": "fraud-detection-on-yelp-fraud",
+  "task-hierarchy": [
+    "Active Speaker Detection",
+    "Fraud Detection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/YingtongDou/CARE-GNN"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AUC-ROC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Averaged Precision",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "F1 Macro",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "G-mean",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "LEX-GNN: Label-Exploring Graph Neural Network for Accurate Fraud Detection",
+          "link": "https://dl.acm.org/doi/10.1145/3627673.3679956"
+        },
+        "c": "https://github.com/wdhyun/LEX-GNN",
+        "n": "LEX-GNN",
+        "d": "2024-10-21",
+        "m1": "96.40",
+        "m2": "83.56",
+        "m3": "86.35",
+        "m4": "84.91"
+      },
+      {
+        "p": {
+          "name": "Financial Fraud Detection using Jump-Attentive Graph Neural Networks",
+          "link": "https://arxiv.org/abs/2411.05857v2"
+        },
+        "c": "https://github.com/foobar777x/ja-gnn-exp",
+        "n": "JA-GNN",
+        "d": "2024-11-07",
+        "m1": "95.11"
+      },
+      {
+        "p": {
+          "name": "Semi-supervised Credit Card Fraud Detection via Attribute-Driven Graph Representation",
+          "link": "https://arxiv.org/abs/2412.18287v1"
+        },
+        "c": "https://github.com/ai4risk/antifraud",
+        "n": "GTAN",
+        "d": "2024-12-24",
+        "m1": "94.98",
+        "m2": "82.41"
+      },
+      {
+        "p": {
+          "name": "BOLT: An Automated Deep Learning Framework for Training and Deploying Large-Scale Search and Recommendation Models on Commodity CPU Hardware",
+          "link": "https://arxiv.org/abs/2303.17727v4"
+        },
+        "c": "https://github.com/ThirdAIResearch/BOLT_Benchmarks/tree/main/graph_learning",
+        "n": "BOLT-GRAPH",
+        "d": "2023-03-30",
+        "m1": "93.18"
+      },
+      {
+        "p": {
+          "name": "SplitGNN: Spectral Graph Neural Network for Fraud Detection against Heterophily",
+          "link": "https://dl.acm.org/doi/10.1145/3583780.3615067"
+        },
+        "c": "https://github.com/split-gnn/splitgnn",
+        "n": "SplitGNN",
+        "d": "2023-10-21",
+        "m1": "92.03"
+      },
+      {
+        "p": {
+          "name": "New Benchmarks for Learning on Non-Homophilous Graphs",
+          "link": "https://arxiv.org/abs/2104.01404v2"
+        },
+        "c": "https://github.com/CUAI/Non-Homophily-Benchmarks",
+        "n": "GAT+JK",
+        "d": "2021-04-03",
+        "m1": "90.04"
+      },
+      {
+        "p": {
+          "name": "RLC-GNN: An Improved Deep Architecture for Spatial-Based Graph Neural Network with Application to Fraud Detection",
+          "link": "https://www.mdpi.com/2076-3417/11/12/5656/htm"
+        },
+        "c": "",
+        "n": "RLC-GNN",
+        "d": "2021-06-18",
+        "m1": "85.44"
+      },
+      {
+        "p": {
+          "name": "Reinforced Neighborhood Selection Guided Multi-Relational Graph Neural Networks",
+          "link": "https://arxiv.org/abs/2104.07886v2"
+        },
+        "c": "https://github.com/safe-graph/RioGNN",
+        "n": "RioGNN",
+        "d": "2021-04-16",
+        "m1": "83.54"
+      },
+      {
+        "p": {
+          "name": "Pick and Choose: A GNN-based Imbalanced Learning Approach for Fraud Detection",
+          "link": "https://dl.acm.org/doi/abs/10.1145/3442381.3449989"
+        },
+        "c": "https://github.com/PonderLY/PC-GNN",
+        "n": "PC-GNN",
+        "d": "2021-04-19",
+        "m1": "79.87",
+        "m2": "48.10"
+      },
+      {
+        "p": {
+          "name": "Enhancing Graph Neural Network-based Fraud Detectors against Camouflaged Fraudsters",
+          "link": "https://arxiv.org/abs/2008.08692v1"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/caregnn",
+        "n": "CARE-GNN",
+        "d": "2020-08-19",
+        "m1": "75.70",
+        "m2": "42.68"
+      }
+    ]
+  }
+}

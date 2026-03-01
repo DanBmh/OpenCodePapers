@@ -1,0 +1,93 @@
+{
+  "title": "video-adverb-retrieval-on-air",
+  "task-hierarchy": [
+    "Video-Adverb Retrieval"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/dmoltisanti/air-cvpr23"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mAP M",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Acc-A",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "mAP W",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Video-adverb retrieval with compositional adverb-action embeddings",
+          "link": "https://arxiv.org/abs/2309.15086v1"
+        },
+        "c": "https://github.com/ExplainableML/ReGaDa",
+        "n": "ReGaDa",
+        "d": "2023-09-26",
+        "m1": "0.418",
+        "m2": "0.874",
+        "m3": "0.704"
+      },
+      {
+        "p": {
+          "name": "Learning Action Changes by Measuring Verb-Adverb Textual Relationships",
+          "link": "https://arxiv.org/abs/2303.15086v2"
+        },
+        "c": "https://github.com/dmoltisanti/air-cvpr23",
+        "n": "Action Changes (cls)",
+        "d": "2023-03-27",
+        "m1": "0.289",
+        "m2": "0.837",
+        "m3": "0.613"
+      },
+      {
+        "p": {
+          "name": "Learning Action Changes by Measuring Verb-Adverb Textual Relationships",
+          "link": "https://arxiv.org/abs/2303.15086v2"
+        },
+        "c": "https://github.com/dmoltisanti/air-cvpr23",
+        "n": "Action Changes (reg)",
+        "d": "2023-03-27",
+        "m1": "0.244",
+        "m2": "0.847"
+      },
+      {
+        "p": {
+          "name": "Learning Action Changes by Measuring Verb-Adverb Textual Relationships",
+          "link": "https://arxiv.org/abs/2303.15086v2"
+        },
+        "c": "https://github.com/dmoltisanti/air-cvpr23",
+        "n": "Action Changes (reg, fixed δ)",
+        "d": "2023-03-27",
+        "m1": "0.193",
+        "m3": "0.554"
+      }
+    ]
+  }
+}

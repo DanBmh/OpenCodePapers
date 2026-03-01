@@ -1,0 +1,117 @@
+{
+  "title": "distance-regression-on-chili-100k",
+  "task-hierarchy": [
+    "Distance regression"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/UlrikFriisJensen/CHILI"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MSE ",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "CHILI: Chemically-Informed Large-scale Inorganic Nanomaterials Dataset for Advancing Graph Machine Learning",
+          "link": "https://arxiv.org/abs/2402.13221v2"
+        },
+        "c": "https://github.com/UlrikFriisJensen/CHILI",
+        "n": "EdgeCNN",
+        "d": "2024-02-20",
+        "m1": "0.030 +/- 0.001"
+      },
+      {
+        "p": {
+          "name": "CHILI: Chemically-Informed Large-scale Inorganic Nanomaterials Dataset for Advancing Graph Machine Learning",
+          "link": "https://arxiv.org/abs/2402.13221v2"
+        },
+        "c": "https://github.com/UlrikFriisJensen/CHILI",
+        "n": "GraphSAGE",
+        "d": "2024-02-20",
+        "m1": "0.064 +/- 0.001"
+      },
+      {
+        "p": {
+          "name": "CHILI: Chemically-Informed Large-scale Inorganic Nanomaterials Dataset for Advancing Graph Machine Learning",
+          "link": "https://arxiv.org/abs/2402.13221v2"
+        },
+        "c": "https://github.com/UlrikFriisJensen/CHILI",
+        "n": "GraphUNet",
+        "d": "2024-02-20",
+        "m1": "0.085 +/- 0.002"
+      },
+      {
+        "p": {
+          "name": "CHILI: Chemically-Informed Large-scale Inorganic Nanomaterials Dataset for Advancing Graph Machine Learning",
+          "link": "https://arxiv.org/abs/2402.13221v2"
+        },
+        "c": "https://github.com/UlrikFriisJensen/CHILI",
+        "n": "GCN",
+        "d": "2024-02-20",
+        "m1": "0.090 +/- 0.002"
+      },
+      {
+        "p": {
+          "name": "CHILI: Chemically-Informed Large-scale Inorganic Nanomaterials Dataset for Advancing Graph Machine Learning",
+          "link": "https://arxiv.org/abs/2402.13221v2"
+        },
+        "c": "https://github.com/UlrikFriisJensen/CHILI",
+        "n": "GAT",
+        "d": "2024-02-20",
+        "m1": "0.252 +/- 0.003"
+      },
+      {
+        "p": {
+          "name": "CHILI: Chemically-Informed Large-scale Inorganic Nanomaterials Dataset for Advancing Graph Machine Learning",
+          "link": "https://arxiv.org/abs/2402.13221v2"
+        },
+        "c": "https://github.com/UlrikFriisJensen/CHILI",
+        "n": "Mean",
+        "d": "2024-02-20",
+        "m1": "0.307"
+      },
+      {
+        "p": {
+          "name": "CHILI: Chemically-Informed Large-scale Inorganic Nanomaterials Dataset for Advancing Graph Machine Learning",
+          "link": "https://arxiv.org/abs/2402.13221v2"
+        },
+        "c": "https://github.com/UlrikFriisJensen/CHILI",
+        "n": "PMLP",
+        "d": "2024-02-20",
+        "m1": "0.486 +/- 0.014"
+      },
+      {
+        "p": {
+          "name": "CHILI: Chemically-Informed Large-scale Inorganic Nanomaterials Dataset for Advancing Graph Machine Learning",
+          "link": "https://arxiv.org/abs/2402.13221v2"
+        },
+        "c": "https://github.com/UlrikFriisJensen/CHILI",
+        "n": "GIN",
+        "d": "2024-02-20",
+        "m1": "0.491 +/- 0.038"
+      }
+    ]
+  }
+}

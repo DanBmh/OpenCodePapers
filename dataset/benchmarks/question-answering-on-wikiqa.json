@@ -1,0 +1,317 @@
+{
+  "title": "question-answering-on-wikiqa",
+  "task-hierarchy": [
+    "Question Answering"
+  ],
+  "dataset-info": {
+    "link": "http://aka.ms/WikiQA"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MAP",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "MRR",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Structural Self-Supervised Objectives for Transformers",
+          "link": "https://arxiv.org/abs/2309.08272v1"
+        },
+        "c": "https://github.com/lucadiliello/transformers-framework",
+        "n": "TANDA-DeBERTa-V3-Large + ALL",
+        "d": "2023-09-15",
+        "m1": "0.927",
+        "m2": "0.939"
+      },
+      {
+        "p": {
+          "name": "RLAS-BIABC: A Reinforcement Learning-Based Answer Selection Using the BERT Model Boosted by an Improved ABC Algorithm",
+          "link": "https://arxiv.org/abs/2301.02807v1"
+        },
+        "c": "",
+        "n": "RLAS-BIABC",
+        "d": "2023-01-07",
+        "m1": "0.924",
+        "m2": "0.908"
+      },
+      {
+        "p": {
+          "name": "TANDA: Transfer and Adapt Pre-Trained Transformer Models for Answer Sentence Selection",
+          "link": "https://arxiv.org/abs/1911.04118v2"
+        },
+        "c": "https://github.com/alexa/wqa_tanda",
+        "n": "TANDA-RoBERTa (ASNQ, WikiQA)",
+        "d": "2019-11-11",
+        "m1": "0.920",
+        "m2": "0.933"
+      },
+      {
+        "p": {
+          "name": "Pre-training Transformer Models with Sentence-Level Objectives for Answer Sentence Selection",
+          "link": "https://arxiv.org/abs/2205.10455v2"
+        },
+        "c": "",
+        "n": "DeBERTa-V3-Large + ALL",
+        "d": "2022-05-20",
+        "m1": "0.909",
+        "m2": "0.920"
+      },
+      {
+        "p": {
+          "name": "Pre-training Transformer Models with Sentence-Level Objectives for Answer Sentence Selection",
+          "link": "https://arxiv.org/abs/2205.10455v2"
+        },
+        "c": "",
+        "n": "DeBERTa-Large + SSP",
+        "d": "2022-05-20",
+        "m1": "0.901",
+        "m2": "0.914"
+      },
+      {
+        "p": {
+          "name": "Paragraph-based Transformer Pre-training for Multi-Sentence Inference",
+          "link": "https://arxiv.org/abs/2205.01228v2"
+        },
+        "c": "https://github.com/amazon-research/wqa-multi-sentence-inference",
+        "n": "RoBERTa-Base Joint MSPP",
+        "d": "2022-05-02",
+        "m1": "0.887",
+        "m2": "0.900"
+      },
+      {
+        "p": {
+          "name": "Pre-training Transformer Models with Sentence-Level Objectives for Answer Sentence Selection",
+          "link": "https://arxiv.org/abs/2205.10455v2"
+        },
+        "c": "",
+        "n": "RoBERTa-Base + SSP",
+        "d": "2022-05-20",
+        "m1": "0.887",
+        "m2": "0.899"
+      },
+      {
+        "p": {
+          "name": "A Compare-Aggregate Model with Latent Clustering for Answer Selection",
+          "link": "https://arxiv.org/abs/1905.12897v2"
+        },
+        "c": "",
+        "n": "Comp-Clip + LM + LC",
+        "d": "2019-05-30",
+        "m1": "0.764",
+        "m2": "0.784"
+      },
+      {
+        "p": {
+          "name": "Simple and Effective Text Matching with Richer Alignment Features",
+          "link": "https://arxiv.org/abs/1908.00300v1"
+        },
+        "c": "https://github.com/alibaba-edu/simple-effective-text-matching",
+        "n": "RE2",
+        "d": "2019-08-01",
+        "m1": "0.7452",
+        "m2": "0.7618"
+      },
+      {
+        "p": {
+          "name": "Hyperbolic Representation Learning for Fast and Efficient Neural Question Answering",
+          "link": "http://arxiv.org/abs/1707.07847v3"
+        },
+        "c": "https://github.com/vanzytay/WSDM2018_HyperQA",
+        "n": "HyperQA",
+        "d": "2017-07-25",
+        "m1": "0.712",
+        "m2": "0.727"
+      },
+      {
+        "p": {
+          "name": "Pairwise Word Interaction Modeling with Deep Neural Networks for Semantic Similarity Measurement",
+          "link": "https://aclanthology.org/N16-1108"
+        },
+        "c": "",
+        "n": "PWIM",
+        "d": "2016-06-01",
+        "m1": "0.7090",
+        "m2": "0.7234"
+      },
+      {
+        "p": {
+          "name": "Key-Value Memory Networks for Directly Reading Documents",
+          "link": "http://arxiv.org/abs/1606.03126v2"
+        },
+        "c": "https://github.com/facebookresearch/ParlAI",
+        "n": "Key-Value Memory Network",
+        "d": "2016-06-09",
+        "m1": "0.7069",
+        "m2": "0.7265"
+      },
+      {
+        "p": {
+          "name": "Sentence Similarity Learning by Lexical Decomposition and Composition",
+          "link": "http://arxiv.org/abs/1602.07019v2"
+        },
+        "c": "https://github.com/Leputa/CIKM-AnalytiCup-2018",
+        "n": "LDC",
+        "d": "2016-02-23",
+        "m1": "0.7058",
+        "m2": "0.7226"
+      },
+      {
+        "p": {
+          "name": "Noise Contrastive Estimation and Negative Sampling for Conditional Models: Consistency and Statistical Efficiency",
+          "link": "http://arxiv.org/abs/1809.01812v1"
+        },
+        "c": "",
+        "n": "PairwiseRank +  Multi-Perspective CNN",
+        "d": "2018-09-06",
+        "m1": "0.7010",
+        "m2": "0.7180"
+      },
+      {
+        "p": {
+          "name": "Neural Variational Inference for Text Processing",
+          "link": "http://arxiv.org/abs/1511.06038v4"
+        },
+        "c": "https://github.com/carpedm20/variational-text-tensorflow",
+        "n": "Attentive LSTM",
+        "d": "2015-11-19",
+        "m1": "0.6886",
+        "m2": "0.7069"
+      },
+      {
+        "p": {
+          "name": "Attentive Pooling Networks",
+          "link": "http://arxiv.org/abs/1602.03609v1"
+        },
+        "c": "https://github.com/winter1997/Attentive-Pooling-Networks",
+        "n": "AP-CNN",
+        "d": "2016-02-11",
+        "m1": "0.6886",
+        "m2": "0.6957"
+      },
+      {
+        "p": {
+          "name": "Neural Variational Inference for Text Processing",
+          "link": "http://arxiv.org/abs/1511.06038v4"
+        },
+        "c": "https://github.com/carpedm20/variational-text-tensorflow",
+        "n": "LSTM (lexical overlap + dist output)",
+        "d": "2015-11-19",
+        "m1": "0.682",
+        "m2": "0.6988"
+      },
+      {
+        "p": {
+          "name": "Neural Semantic Encoders",
+          "link": "http://arxiv.org/abs/1607.04315v3"
+        },
+        "c": "https://github.com/Smerity/keras_snli",
+        "n": "MMA-NSE attention",
+        "d": "2016-07-14",
+        "m1": "0.6811",
+        "m2": "0.6993"
+      },
+      {
+        "p": {
+          "name": "Baseline Needs More Love: On Simple Word-Embedding-Based Models and Associated Pooling Mechanisms",
+          "link": "http://arxiv.org/abs/1805.09843v1"
+        },
+        "c": "https://github.com/dinghanshen/SWEM",
+        "n": "SWEM-concat",
+        "d": "2018-05-24",
+        "m1": "0.6788",
+        "m2": "0.6908"
+      },
+      {
+        "p": {
+          "name": "Neural Variational Inference for Text Processing",
+          "link": "http://arxiv.org/abs/1511.06038v4"
+        },
+        "c": "https://github.com/carpedm20/variational-text-tensorflow",
+        "n": "LSTM",
+        "d": "2015-11-19",
+        "m1": "0.6552",
+        "m2": "0.6747"
+      },
+      {
+        "p": {
+          "name": "Deep Learning for Answer Sentence Selection",
+          "link": "http://arxiv.org/abs/1412.1632v1"
+        },
+        "c": "https://github.com/brmson/dataset-sts",
+        "n": "Bigram-CNN (lexical overlap + dist output)",
+        "d": "2014-12-04",
+        "m1": "0.6520",
+        "m2": "0.6652"
+      },
+      {
+        "p": {
+          "name": "WikiQA: A Challenge Dataset for Open-Domain Question Answering",
+          "link": "https://aclanthology.org/D15-1237"
+        },
+        "c": "",
+        "n": "CNN-Cnt",
+        "d": "2015-09-01",
+        "m1": "0.6520",
+        "m2": "0.6652"
+      },
+      {
+        "p": {
+          "name": "Deep Learning for Answer Sentence Selection",
+          "link": "http://arxiv.org/abs/1412.1632v1"
+        },
+        "c": "https://github.com/brmson/dataset-sts",
+        "n": "Bigram-CNN",
+        "d": "2014-12-04",
+        "m1": "0.6190",
+        "m2": "0.6281"
+      },
+      {
+        "p": {
+          "name": "Distributed Representations of Sentences and Documents",
+          "link": "http://arxiv.org/abs/1405.4053v2"
+        },
+        "c": "https://github.com/inejc/paragraph-vectors",
+        "n": "Paragraph vector (lexical overlap + dist output)",
+        "d": "2014-05-16",
+        "m1": "0.5976",
+        "m2": " 0.6058"
+      },
+      {
+        "p": {
+          "name": "Distributed Representations of Sentences and Documents",
+          "link": "http://arxiv.org/abs/1405.4053v2"
+        },
+        "c": "https://github.com/inejc/paragraph-vectors",
+        "n": "Paragraph vector",
+        "d": "2014-05-16",
+        "m1": "0.5110",
+        "m2": "0.5160"
+      }
+    ]
+  }
+}

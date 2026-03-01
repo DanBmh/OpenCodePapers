@@ -1,0 +1,158 @@
+{
+  "title": "multimodal-sentiment-analysis-on-mosi",
+  "task-hierarchy": [
+    "Sentiment Analysis",
+    "Multimodal Sentiment Analysis"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/pdf/1606.06259.pdf"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "F1 score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Multimodal Multi-loss Fusion Network for Sentiment Analysis",
+          "link": "https://arxiv.org/abs/2308.00264v4"
+        },
+        "c": "https://github.com/zehuiwu/MMML",
+        "n": "MMML",
+        "d": "2023-08-01",
+        "m1": "90.35",
+        "m2": "90.35"
+      },
+      {
+        "p": {
+          "name": "Speech-Text Dialog Pre-training for Spoken Dialog Understanding with Explicit Cross-Modal Alignment",
+          "link": "https://arxiv.org/abs/2305.11579v2"
+        },
+        "c": "https://github.com/alibabaresearch/damo-convai",
+        "n": "SPECTRA",
+        "d": "2023-05-19",
+        "m1": "87.50"
+      },
+      {
+        "p": {
+          "name": "UniMSE: Towards Unified Multimodal Sentiment Analysis and Emotion Recognition",
+          "link": "https://arxiv.org/abs/2211.11256v1"
+        },
+        "c": "https://github.com/lemei/unimse",
+        "n": "UniMSE",
+        "d": "2022-11-21",
+        "m1": "86.9",
+        "m2": "86.42"
+      },
+      {
+        "p": {
+          "name": "Cross-Modal BERT for Text-Audio Sentiment Analysis",
+          "link": "https://dl.acm.org/doi/10.1145/3394171.3413690"
+        },
+        "c": "https://github.com/thuiar/Cross-Modal-BERT",
+        "n": "CM-BERT",
+        "d": "2020-10-12",
+        "m1": "84.5%",
+        "m2": "84.5%"
+      },
+      {
+        "p": {
+          "name": "Gated Mechanism for Attention Based Multimodal Sentiment Analysis",
+          "link": "https://arxiv.org/abs/2003.01043v1"
+        },
+        "c": "",
+        "n": "Proposed: B2 + B4 w/ multimodal fusion",
+        "d": "2020-02-21",
+        "m1": "83.91%",
+        "m2": "81.17"
+      },
+      {
+        "p": {
+          "name": "Multimodal Transformer for Unaligned Multimodal Language Sequences",
+          "link": "https://arxiv.org/abs/1906.00295v1"
+        },
+        "c": "https://github.com/yaohungt/Multimodal-Transformer",
+        "n": "MulT",
+        "d": "2019-06-01",
+        "m1": "83",
+        "m2": "82.8"
+      },
+      {
+        "p": {
+          "name": "Contextual Inter-modal Attention for Multi-modal Sentiment Analysis",
+          "link": "https://aclanthology.org/D18-1382"
+        },
+        "c": "https://github.com/soujanyaporia/contextual-multimodal-fusion",
+        "n": "MMMU-BA",
+        "d": "2018-10-01",
+        "m1": "82.31%"
+      },
+      {
+        "p": {
+          "name": "Multilogue-Net: A Context-Aware RNN for Multi-modal Emotion Detection and Sentiment Analysis in Conversation",
+          "link": "https://aclanthology.org/2020.challengehml-1.3"
+        },
+        "c": "https://github.com/amanshenoy/multilogue-net",
+        "n": "Multilogue-Net",
+        "d": "2020-07-01",
+        "m1": "81.19"
+      },
+      {
+        "p": {
+          "name": "Context-Dependent Sentiment Analysis in User-Generated Videos",
+          "link": "https://aclanthology.org/P17-1081"
+        },
+        "c": "https://github.com/soujanyaporia/multimodal-sentiment-analysis",
+        "n": "bc-LSTM",
+        "d": "2017-07-01",
+        "m1": "80.3%"
+      },
+      {
+        "p": {
+          "name": "Multi-attention Recurrent Network for Human Communication Comprehension",
+          "link": "http://arxiv.org/abs/1802.00923v1"
+        },
+        "c": "https://github.com/pliang279/MFN",
+        "n": "MARN",
+        "d": "2018-02-03",
+        "m1": "77.1%"
+      },
+      {
+        "p": {
+          "name": "Multimodal Sentiment Analysis using Hierarchical Fusion with Context Modeling",
+          "link": "http://arxiv.org/abs/1806.06228v1"
+        },
+        "c": "https://github.com/SenticNet/hfusion",
+        "n": "CHFusion",
+        "d": "2018-06-16",
+        "m1": "76.5%"
+      }
+    ]
+  }
+}

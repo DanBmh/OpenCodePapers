@@ -1,0 +1,86 @@
+{
+  "title": "trajectory-prediction-on-actev",
+  "task-hierarchy": [
+    "Trajectory Prediction"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "ADE-8/12",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "FDE-8/12",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Pishgu: Universal Path Prediction Network Architecture for Real-time Cyber-physical Edge Systems",
+          "link": "https://arxiv.org/abs/2210.08057v3"
+        },
+        "c": "https://github.com/TeCSAR-UNCC/Pishgu",
+        "n": "Pishgu",
+        "d": "2022-10-14",
+        "m1": "14.11",
+        "m2": "27.96"
+      },
+      {
+        "p": {
+          "name": "SimAug: Learning Robust Representations from 3D Simulation for Pedestrian Trajectory Prediction in Unseen Cameras",
+          "link": "https://arxiv.org/abs/2004.02022v2"
+        },
+        "c": "https://github.com/JunweiLiang/Multiverse/tree/master/SimAug",
+        "n": "SimAug",
+        "d": "2020-04-04",
+        "m1": "17.96",
+        "m2": "34.68"
+      },
+      {
+        "p": {
+          "name": "Peeking into the Future: Predicting Future Person Activities and Locations in Videos",
+          "link": "https://arxiv.org/abs/1902.03748v3"
+        },
+        "c": "https://github.com/google/next-prediction",
+        "n": "Next",
+        "d": "2019-02-11",
+        "m1": "17.99",
+        "m2": "37.24"
+      },
+      {
+        "p": {
+          "name": "The Garden of Forking Paths: Towards Multi-Future Trajectory Prediction",
+          "link": "https://arxiv.org/abs/1912.06445v3"
+        },
+        "c": "https://github.com/JunweiLiang/Multiverse",
+        "n": "Multiverse",
+        "d": "2019-12-13",
+        "m1": "18.51",
+        "m2": "35.84"
+      }
+    ]
+  }
+}

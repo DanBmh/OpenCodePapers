@@ -1,0 +1,538 @@
+{
+  "title": "neural-architecture-search-on-cifar-10",
+  "task-hierarchy": [
+    "AutoML",
+    "Neural Architecture Search"
+  ],
+  "dataset-info": {
+    "link": "https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Top-1 Error Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Parameters",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "FLOPS",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Search Time (GPU days)",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Accuracy (% )",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Neural Architecture Transfer",
+          "link": "https://arxiv.org/abs/2005.05859v2"
+        },
+        "c": "https://github.com/human-analysis/neural-architecture-transfer",
+        "n": "NAT-M4",
+        "d": "2020-05-12",
+        "m1": "1.6%",
+        "m2": "6.9M",
+        "m3": "468M",
+        "m4": "1.0"
+      },
+      {
+        "p": {
+          "name": "Blockwisely Supervised Neural Architecture Search with Knowledge Distillation",
+          "link": "https://arxiv.org/abs/1911.13053v2"
+        },
+        "c": "https://github.com/changlin31/DNA",
+        "n": "DNA-c",
+        "d": "2019-11-29",
+        "m1": "1.7%"
+      },
+      {
+        "p": {
+          "name": "FairNAS: Rethinking Evaluation Fairness of Weight Sharing Neural Architecture Search",
+          "link": "https://arxiv.org/abs/1907.01845v5"
+        },
+        "c": "https://github.com/xiaomi-automl/FairNAS",
+        "n": "FairNAS-A",
+        "d": "2019-07-03",
+        "m1": "1.8%",
+        "m2": "3",
+        "m3": "391",
+        "m4": "8"
+      },
+      {
+        "p": {
+          "name": "Neural Architecture Transfer",
+          "link": "https://arxiv.org/abs/2005.05859v2"
+        },
+        "c": "https://github.com/human-analysis/neural-architecture-transfer",
+        "n": "NAT-M3",
+        "d": "2020-05-12",
+        "m1": "1.8%",
+        "m2": "6.2M",
+        "m3": "392M",
+        "m4": "1.0"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "NAO",
+        "d": null,
+        "m1": "1.93%",
+        "m2": "144.6M",
+        "m4": "200"
+      },
+      {
+        "p": {
+          "name": "sharpDARTS: Faster and More Accurate Differentiable Architecture Search",
+          "link": "http://arxiv.org/abs/1903.09900v1"
+        },
+        "c": "https://github.com/ahundt/sharpDARTS",
+        "n": "SharpSepConvDARTS",
+        "d": "2019-03-23",
+        "m1": "1.98%",
+        "m2": "3.6M",
+        "m3": "579M",
+        "m4": "0.8"
+      },
+      {
+        "p": {
+          "name": "MUXConv: Information Multiplexing in Convolutional Neural Networks",
+          "link": "https://arxiv.org/abs/2003.13880v2"
+        },
+        "c": "https://github.com/human-analysis/MUXConv",
+        "n": "MUXNet-m",
+        "d": "2020-03-31",
+        "m1": "2.0%",
+        "m2": "2.1M",
+        "m3": "200M"
+      },
+      {
+        "p": {
+          "name": "Neural Architecture Transfer",
+          "link": "https://arxiv.org/abs/2005.05859v2"
+        },
+        "c": "https://github.com/human-analysis/neural-architecture-transfer",
+        "n": "NAT-M2",
+        "d": "2020-05-12",
+        "m1": "2.1%",
+        "m2": "4.6M",
+        "m3": "291M",
+        "m4": "1.0"
+      },
+      {
+        "p": {
+          "name": "iDARTS: Improving DARTS by Node Normalization and Decorrelation Discretization",
+          "link": "https://arxiv.org/abs/2108.11014v1"
+        },
+        "c": "",
+        "n": "iDARTS +ME",
+        "d": "2021-08-25",
+        "m1": "2.25%",
+        "m2": "3.6M",
+        "m4": "0.4"
+      },
+      {
+        "p": {
+          "name": "sharpDARTS: Faster and More Accurate Differentiable Architecture Search",
+          "link": "http://arxiv.org/abs/1903.09900v1"
+        },
+        "c": "https://github.com/ahundt/sharpDARTS",
+        "n": "sharpDARTS",
+        "d": "2019-03-23",
+        "m1": "2.29%",
+        "m2": "1.98M",
+        "m3": "357M",
+        "m4": "1.8"
+      },
+      {
+        "p": {
+          "name": "DU-DARTS: Decreasing the Uncertainty of Differentiable Architecture Search",
+          "link": "https://www.bmvc2021-virtualconference.com/conference/papers/paper_0209.html"
+        },
+        "c": "https://github.com/ShunLu91/DU-DARTS",
+        "n": "DU-DARTS",
+        "d": "2021-11-23",
+        "m1": "2.32%",
+        "m2": "3.8M",
+        "m4": "0.4"
+      },
+      {
+        "p": {
+          "name": "Noisy Differentiable Architecture Search",
+          "link": "https://arxiv.org/abs/2005.03566v3"
+        },
+        "c": "https://github.com/xiaomi-automl/NoisyDARTS",
+        "n": "NoisyDARTS",
+        "d": "2020-05-07",
+        "m1": "2.39%",
+        "m2": "3.25M",
+        "m3": "534M",
+        "m4": "0.25"
+      },
+      {
+        "p": {
+          "name": "SGAS: Sequential Greedy Architecture Search",
+          "link": "https://arxiv.org/abs/1912.00195v2"
+        },
+        "c": "https://github.com/lightaime/sgas",
+        "n": "SGAS",
+        "d": "2019-11-30",
+        "m1": "2.39%",
+        "m2": "3.8M",
+        "m4": "0.25"
+      },
+      {
+        "p": {
+          "name": "Shapley-NAS: Discovering Operation Contribution for Neural Architecture Search",
+          "link": "https://arxiv.org/abs/2206.09811v1"
+        },
+        "c": "https://github.com/euphoria16/shapley-nas",
+        "n": "Shapley-NAS(best)",
+        "d": "2022-06-20",
+        "m1": "2.43%",
+        "m2": "3.6M"
+      },
+      {
+        "p": {
+          "name": "CATE: Computation-aware Neural Architecture Encoding with Transformers",
+          "link": "https://arxiv.org/abs/2102.07108v2"
+        },
+        "c": "https://github.com/MSU-MLSys-Lab/CATE",
+        "n": "CATE",
+        "d": "2021-02-14",
+        "m1": "2.46%",
+        "m2": "4.1",
+        "m4": "10.3"
+      },
+      {
+        "p": {
+          "name": "EEEA-Net: An Early Exit Evolutionary Neural Architecture Search",
+          "link": "https://arxiv.org/abs/2108.06156v1"
+        },
+        "c": "https://github.com/chakkritte/eeea-net",
+        "n": "EEEA-Net-C (b=5)+ CO",
+        "d": "2021-08-13",
+        "m1": "2.46%"
+      },
+      {
+        "p": {
+          "name": "DrNAS: Dirichlet Neural Architecture Search",
+          "link": "https://arxiv.org/abs/2006.10355v4"
+        },
+        "c": "https://github.com/xiangning-chen/DrNAS",
+        "n": "DrNAS",
+        "d": "2020-06-18",
+        "m1": "2.46%",
+        "m2": "4.1M"
+      },
+      {
+        "p": {
+          "name": "Searching for A Robust Neural Architecture in Four GPU Hours",
+          "link": "https://arxiv.org/abs/1910.04465v2"
+        },
+        "c": "https://github.com/D-X-Y/GDAS",
+        "n": "GDAS (FRC)",
+        "d": "2019-10-10",
+        "m1": "2.5%",
+        "m4": "0.17"
+      },
+      {
+        "p": {
+          "name": "Zen-NAS: A Zero-Shot NAS for High-Performance Deep Image Recognition",
+          "link": "https://arxiv.org/abs/2102.01063v4"
+        },
+        "c": "https://github.com/alibaba/lightweight-neural-architecture-search",
+        "n": "ZenNet-2.0M",
+        "d": "2021-02-01",
+        "m1": "2.5%",
+        "m2": "2.0M",
+        "m3": "487M"
+      },
+      {
+        "p": {
+          "name": "PC-DARTS: Partial Channel Connections for Memory-Efficient Architecture Search",
+          "link": "https://arxiv.org/abs/1907.05737v4"
+        },
+        "c": "https://github.com/yuhuixu1993/PC-DARTS",
+        "n": "PC-DARTS-CIFAR",
+        "d": "2019-07-12",
+        "m1": "2.51%"
+      },
+      {
+        "p": {
+          "name": "TNASP: A Transformer-based NAS Predictor with a Self-evolution Framework",
+          "link": "http://proceedings.neurips.cc/paper/2021/hash/7fa1575cbd7027c9a799983a485c3c2f-Abstract.html"
+        },
+        "c": "",
+        "n": "TNASP",
+        "d": "2021-12-01",
+        "m1": "2.52%",
+        "m2": "3.7M",
+        "m4": "0.3"
+      },
+      {
+        "p": {
+          "name": "Learning Implicitly Recurrent CNNs Through Parameter Sharing",
+          "link": "http://arxiv.org/abs/1902.09701v2"
+        },
+        "c": "https://github.com/lolemacs/soft-sharing",
+        "n": "Soft Parameter Sharing",
+        "d": "2019-02-26",
+        "m1": "2.53%",
+        "m4": "0.7"
+      },
+      {
+        "p": {
+          "name": "$β$-DARTS: Beta-Decay Regularization for Differentiable Architecture Search",
+          "link": "https://arxiv.org/abs/2203.01665v2"
+        },
+        "c": "https://github.com/Sunshine-Ye/Beta-DARTS",
+        "n": "β-DARTS",
+        "d": "2022-03-03",
+        "m1": "2.53%"
+      },
+      {
+        "p": {
+          "name": "Fair DARTS: Eliminating Unfair Advantages in Differentiable Architecture Search",
+          "link": "https://arxiv.org/abs/1911.12126v4"
+        },
+        "c": "https://github.com/xiaomi-automl/fairdarts",
+        "n": "FairDARTS-a",
+        "d": "2019-11-27",
+        "m1": "2.54%",
+        "m2": "2.8M",
+        "m3": "746M",
+        "m4": "0.25"
+      },
+      {
+        "p": {
+          "name": "MSR-DARTS: Minimum Stable Rank of Differentiable Architecture Search",
+          "link": "https://arxiv.org/abs/2009.09209v2"
+        },
+        "c": "",
+        "n": "MSR-DARTS",
+        "d": "2020-09-19",
+        "m1": "2.54%",
+        "m2": "4.0M",
+        "m4": " 0.3"
+      },
+      {
+        "p": {
+          "name": "Does Unsupervised Architecture Representation Learning Help Neural Architecture Search?",
+          "link": "https://arxiv.org/abs/2006.06936v2"
+        },
+        "c": "https://github.com/MSU-MLSys-Lab/arch2vec",
+        "n": "arch2vec",
+        "d": "2020-06-12",
+        "m1": "2.56%",
+        "m2": "3.6M",
+        "m4": "10.5"
+      },
+      {
+        "p": {
+          "name": "PC-DARTS: Partial Channel Connections for Memory-Efficient Architecture Search",
+          "link": "https://arxiv.org/abs/1907.05737v4"
+        },
+        "c": "https://github.com/yuhuixu1993/PC-DARTS",
+        "n": "PC-DARTS",
+        "d": "2019-07-12",
+        "m1": "2.57%",
+        "m2": "3.6M",
+        "m4": "0.1"
+      },
+      {
+        "p": {
+          "name": "Neural Architecture Transfer",
+          "link": "https://arxiv.org/abs/2005.05859v2"
+        },
+        "c": "https://github.com/human-analysis/neural-architecture-transfer",
+        "n": "NAT-M1",
+        "d": "2020-05-12",
+        "m1": "2.6%",
+        "m2": "4.3M",
+        "m3": "232M",
+        "m4": "1.0"
+      },
+      {
+        "p": {
+          "name": "DARTS-PRIME: Regularization and Scheduling Improve Constrained Optimization in Differentiable NAS",
+          "link": "https://arxiv.org/abs/2106.11655v3"
+        },
+        "c": "",
+        "n": "DARTS-PRIME",
+        "d": "2021-06-22",
+        "m1": "2.62%",
+        "m2": "3.7M",
+        "m4": "0.5"
+      },
+      {
+        "p": {
+          "name": "One-Shot Neural Architecture Search via Self-Evaluated Template Network",
+          "link": "https://arxiv.org/abs/1910.05733v4"
+        },
+        "c": "https://github.com/D-X-Y/NAS-Projects",
+        "n": "SETN (T=1K) + CutOut",
+        "d": "2019-10-13",
+        "m1": "2.69%",
+        "m4": "1.8"
+      },
+      {
+        "p": {
+          "name": "DARTS: Differentiable Architecture Search",
+          "link": "http://arxiv.org/abs/1806.09055v2"
+        },
+        "c": "https://github.com/google-research/google-research/tree/master/enas_lm",
+        "n": "DARTS (second order)",
+        "d": "2018-06-24",
+        "m1": "2.76%",
+        "m2": "3.3",
+        "m4": "4"
+      },
+      {
+        "p": {
+          "name": "Optimizing Neural Architecture Search using Limited GPU Time in a Dynamic Search Space: A Gene Expression Programming Approach",
+          "link": "https://arxiv.org/abs/2005.07669v1"
+        },
+        "c": "https://github.com/hieule88/geneNas",
+        "n": "NASGEP",
+        "d": "2020-05-15",
+        "m1": "2.82%",
+        "m4": "1"
+      },
+      {
+        "p": {
+          "name": "AlphaX: eXploring Neural Architectures with Deep Neural Networks and Monte Carlo Tree Search",
+          "link": "https://arxiv.org/abs/1903.11059v2"
+        },
+        "c": "https://github.com/linnanwang/AlphaX-NASBench101",
+        "n": "AlphaX-1 (cutout NASNet)",
+        "d": "2019-03-26",
+        "m1": "2.82%",
+        "m4": "224"
+      },
+      {
+        "p": {
+          "name": "DARTS: Differentiable Architecture Search",
+          "link": "http://arxiv.org/abs/1806.09055v2"
+        },
+        "c": "https://github.com/google-research/google-research/tree/master/enas_lm",
+        "n": "DARTS (first order)",
+        "d": "2018-06-24",
+        "m1": "3%",
+        "m2": "3.3",
+        "m4": "1.5"
+      },
+      {
+        "p": {
+          "name": "How does topology of neural architectures impact gradient propagation and model performance?",
+          "link": "https://openaccess.thecvf.com/content/CVPR2021/html/Bhardwaj_How_Does_Topology_Influence_Gradient_Propagation_and_Model_Performance_of_CVPR_2021_paper.html"
+        },
+        "c": "https://github.com/SLDGroup/NN_Mass",
+        "n": "NN-MASS- CIFAR-A",
+        "d": "2021-06-16",
+        "m1": "3.0%",
+        "m2": "5.02M",
+        "m3": "1.95G",
+        "m4": "0"
+      },
+      {
+        "p": {
+          "name": "How does topology of neural architectures impact gradient propagation and model performance?",
+          "link": "https://openaccess.thecvf.com/content/CVPR2021/html/Bhardwaj_How_Does_Topology_Influence_Gradient_Propagation_and_Model_Performance_of_CVPR_2021_paper.html"
+        },
+        "c": "https://github.com/SLDGroup/NN_Mass",
+        "n": "NN-MASS- CIFAR-C",
+        "d": "2021-06-16",
+        "m1": "3.18%",
+        "m2": "3.82M",
+        "m3": "1.2G",
+        "m4": "0"
+      },
+      {
+        "p": {
+          "name": "$μ$DARTS: Model Uncertainty-Aware Differentiable Architecture Search",
+          "link": "https://arxiv.org/abs/2107.11500v2"
+        },
+        "c": "",
+        "n": "μDARTS",
+        "d": "2021-07-24",
+        "m1": "3.277%",
+        "m3": "602M",
+        "m4": "0.1"
+      },
+      {
+        "p": {
+          "name": "Efficacy of Neural Prediction-Based Zero-Shot NAS",
+          "link": "https://arxiv.org/abs/2308.16775v3"
+        },
+        "c": "https://github.com/minh1409/dft-npzs-nas",
+        "n": "Net2 (2)",
+        "d": "2023-08-31",
+        "m1": "3.3%"
+      },
+      {
+        "p": {
+          "name": "Bonsai-Net: One-Shot Neural Architecture Search via Differentiable Pruners",
+          "link": "https://arxiv.org/abs/2006.09264v3"
+        },
+        "c": "https://github.com/RobGeada/bonsai-net-lite",
+        "n": "Bonsai-Net",
+        "d": "2020-06-12",
+        "m1": "3.35%",
+        "m2": "2.9M",
+        "m4": "0.10"
+      },
+      {
+        "p": {
+          "name": "Searching for A Robust Neural Architecture in Four GPU Hours",
+          "link": "https://arxiv.org/abs/1910.04465v2"
+        },
+        "c": "https://github.com/D-X-Y/GDAS",
+        "n": "GDAS",
+        "d": "2019-10-10",
+        "m1": "3.4%",
+        "m4": "0.21"
+      },
+      {
+        "p": {
+          "name": "Balanced Mixture of SuperNets for Learning the CNN Pooling Architecture",
+          "link": "https://arxiv.org/abs/2306.11982v1"
+        },
+        "c": "https://github.com/mehravehj/Balanced-Mixture-of-SuperNets",
+        "n": "Balanced Mixture",
+        "d": "2023-06-21",
+        "m5": "91.55"
+      }
+    ]
+  }
+}

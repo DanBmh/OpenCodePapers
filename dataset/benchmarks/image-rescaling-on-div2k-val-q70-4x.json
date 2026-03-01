@@ -1,0 +1,88 @@
+{
+  "title": "image-rescaling-on-div2k-val-q70-4x",
+  "task-hierarchy": [
+    "3D Object Super-Resolution",
+    "Super-Resolution",
+    "Image Rescaling"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Plug-and-Play Tri-Branch Invertible Block for Image Rescaling",
+          "link": "https://arxiv.org/abs/2412.13508v1"
+        },
+        "c": "https://github.com/jingwei-bao/t-invblocks",
+        "n": "T-SAIN",
+        "d": "2024-12-18",
+        "m1": "30.34",
+        "m2": "0.8421"
+      },
+      {
+        "p": {
+          "name": "Self-Asymmetric Invertible Network for Compression-Aware Image Rescaling",
+          "link": "https://arxiv.org/abs/2303.02353v2"
+        },
+        "c": "https://github.com/yang-jin-hai/sain",
+        "n": "SAIN",
+        "d": "2023-03-04",
+        "m1": "29.83",
+        "m2": "0.8272"
+      },
+      {
+        "p": {
+          "name": "Invertible Image Rescaling",
+          "link": "https://arxiv.org/abs/2005.05650v1"
+        },
+        "c": "https://github.com/pkuxmq/Invertible-Image-Rescaling",
+        "n": "IRN",
+        "d": "2020-05-12",
+        "m1": "27.24",
+        "m2": "0.7328"
+      },
+      {
+        "p": {
+          "name": "Hierarchical Conditional Flow: A Unified Framework for Image Super-Resolution and Image Rescaling",
+          "link": "https://arxiv.org/abs/2108.05301v1"
+        },
+        "c": "https://github.com/jingyunliang/hcflow",
+        "n": "HCFlow",
+        "d": "2021-08-11",
+        "m1": "26.79",
+        "m2": "0.7204"
+      }
+    ]
+  }
+}

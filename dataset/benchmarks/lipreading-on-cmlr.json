@@ -1,0 +1,88 @@
+{
+  "title": "lipreading-on-cmlr",
+  "task-hierarchy": [
+    "Natural Language Transduction",
+    "Lipreading"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "CER",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Visual Speech Recognition for Multiple Languages in the Wild",
+          "link": "https://arxiv.org/abs/2202.13084v2"
+        },
+        "c": "https://github.com/mpc001/Visual_Speech_Recognition_for_Multiple_Languages",
+        "n": "CTC/Attention",
+        "d": "2022-02-26",
+        "m1": "9.1%"
+      },
+      {
+        "p": {
+          "name": "Hearing Lips: Improving Lip Reading by Distilling Speech Recognizers",
+          "link": "https://arxiv.org/abs/1911.11502v1"
+        },
+        "c": "https://github.com/zju-vipa/KamalEngine",
+        "n": "LIBS",
+        "d": "2019-11-26",
+        "m1": "31.27%"
+      },
+      {
+        "p": {
+          "name": "A Cascade Sequence-to-Sequence Model for Chinese Mandarin Lip Reading",
+          "link": "https://arxiv.org/abs/1908.04917v2"
+        },
+        "c": "",
+        "n": "CSSMCM",
+        "d": "2019-08-14",
+        "m1": "32.48%"
+      },
+      {
+        "p": {
+          "name": "A Cascade Sequence-to-Sequence Model for Chinese Mandarin Lip Reading",
+          "link": "https://arxiv.org/abs/1908.04917v2"
+        },
+        "c": "",
+        "n": "LipCH-Net",
+        "d": "2019-08-14",
+        "m1": "34.07%"
+      },
+      {
+        "p": {
+          "name": "A Cascade Sequence-to-Sequence Model for Chinese Mandarin Lip Reading",
+          "link": "https://arxiv.org/abs/1908.04917v2"
+        },
+        "c": "",
+        "n": "WAS",
+        "d": "2019-08-14",
+        "m1": "38.93%"
+      }
+    ]
+  }
+}

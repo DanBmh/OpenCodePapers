@@ -1,0 +1,72 @@
+{
+  "title": "gsm8k-on-gsm8k",
+  "task-hierarchy": [
+    "GSM8K"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/openai/grade-school-math"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "0-shot MRR",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Xolver: Multi-Agent Reasoning with Holistic Experience Learning Just Like an Olympiad Team",
+          "link": "https://arxiv.org/abs/2506.14234v1"
+        },
+        "c": "https://github.com/kagnlp/Xolver",
+        "n": "Xolver",
+        "d": "2025-06-17",
+        "m1": "98.1"
+      },
+      {
+        "p": {
+          "name": "Toward Self-Improvement of LLMs via Imagination, Searching, and Criticizing",
+          "link": "https://arxiv.org/abs/2404.12253v2"
+        },
+        "c": "https://github.com/yetianjhu/alphallm",
+        "n": "AlphaLLM (with MCTS)",
+        "d": "2024-04-18",
+        "m1": "92"
+      },
+      {
+        "p": {
+          "name": "MyGO Multiplex CoT: A Method for Self-Reflection in Large Language Models via Double Chain of Thought Thinking",
+          "link": "https://arxiv.org/abs/2501.13117v1"
+        },
+        "c": "https://github.com/data-dream-gdsp/Multiplex-CoT",
+        "n": "Orange-mini",
+        "d": "2025-01-20",
+        "m2": "98"
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "title": "image-to-image-translation-on-flir",
+  "task-hierarchy": [
+    "Image-to-Image Translation"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Pix2Next: Leveraging Vision Foundation Models for RGB to NIR Image Translation",
+          "link": "https://arxiv.org/abs/2409.16706v1"
+        },
+        "c": "https://github.com/Yonsei-STL/pix2next",
+        "n": "Pix2Next",
+        "d": "2024-09-25",
+        "m1": "23.45",
+        "m2": "0.66"
+      },
+      {
+        "p": {
+          "name": "Implicit Multi-Spectral Transformer: An Lightweight and Effective Visible to Infrared Image Translation Model",
+          "link": "https://arxiv.org/abs/2404.07072v2"
+        },
+        "c": "https://github.com/CXH-Research/IRFormer",
+        "n": "IRFormer",
+        "d": "2024-04-10",
+        "m1": "17.74",
+        "m2": "0.48"
+      },
+      {
+        "p": {
+          "name": "BCI: Breast Cancer Immunohistochemical Image Generation through Pyramid Pix2pix",
+          "link": "https://arxiv.org/abs/2204.11425v2"
+        },
+        "c": "https://github.com/bupt-ai-cz/BCI",
+        "n": "BCI",
+        "d": "2022-04-25",
+        "m1": "11.14",
+        "m2": "0.21"
+      },
+      {
+        "p": {
+          "name": "Image-to-Image Translation with Conditional Adversarial Networks",
+          "link": "http://arxiv.org/abs/1611.07004v3"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/research/gan",
+        "n": "pix2pix",
+        "d": "2016-11-21",
+        "m1": "4.19",
+        "m2": "0.05"
+      }
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "title": "zero-shot-object-detection-on-odinw",
+  "task-hierarchy": [
+    "Object Detection",
+    "Zero-Shot Object Detection"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Average Score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "CP-DETR: Concept Prompt Guide DETR Toward Stronger Universal Object Detection",
+          "link": "https://arxiv.org/abs/2412.09799v1"
+        },
+        "c": "",
+        "n": "CP-DETR-L Swin-L",
+        "d": "2024-12-13",
+        "m1": "32.2"
+      },
+      {
+        "p": {
+          "name": "Grounding DINO 1.5: Advance the \"Edge\" of Open-Set Object Detection",
+          "link": "https://arxiv.org/abs/2405.10300v2"
+        },
+        "c": "https://github.com/mit-han-lab/efficientvit",
+        "n": "Grounding DINO 1.5 Pro",
+        "d": "2024-05-16",
+        "m1": "30.2"
+      },
+      {
+        "p": {
+          "name": "Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection",
+          "link": "https://arxiv.org/abs/2303.05499v5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Grounding DINO",
+        "d": "2023-03-09",
+        "m1": "26.1"
+      },
+      {
+        "p": {
+          "name": "Multi-modal Queried Object Detection in the Wild",
+          "link": "https://arxiv.org/abs/2305.18980v2"
+        },
+        "c": "https://github.com/yifanxu74/mq-det",
+        "n": "MQ-GLIP-L",
+        "d": "2023-05-30",
+        "m1": "23.9"
+      },
+      {
+        "p": {
+          "name": "ELEVATER: A Benchmark and Toolkit for Evaluating Language-Augmented Visual Models",
+          "link": "https://arxiv.org/abs/2204.08790v6"
+        },
+        "c": "https://github.com/microsoft/GLIP",
+        "n": "GLIP (Tiny A)",
+        "d": "2022-04-19",
+        "m1": "11.4"
+      }
+    ]
+  }
+}

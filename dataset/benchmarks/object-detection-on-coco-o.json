@@ -1,0 +1,531 @@
+{
+  "title": "object-detection-on-coco-o",
+  "task-hierarchy": [
+    "Object Detection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/alibaba/easyrobust/tree/main/benchmarks/coco_o"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Average mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Effective Robustness",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "EVA: Exploring the Limits of Masked Visual Representation Learning at Scale",
+          "link": "https://arxiv.org/abs/2211.07636v2"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "EVA",
+        "d": "2022-11-14",
+        "m1": "57.8",
+        "m2": "28.86"
+      },
+      {
+        "p": {
+          "name": "NMS Strikes Back",
+          "link": "https://arxiv.org/abs/2212.06137v1"
+        },
+        "c": "https://github.com/jozhang97/deta",
+        "n": "DETA\n(Swin-L)",
+        "d": "2022-12-12",
+        "m1": "48.5",
+        "m2": "20.15"
+      },
+      {
+        "p": {
+          "name": "Grounded Language-Image Pre-training",
+          "link": "https://arxiv.org/abs/2112.03857v2"
+        },
+        "c": "https://github.com/microsoft/GLIP",
+        "n": "GLIP-L\n(Swin-L)",
+        "d": "2021-12-07",
+        "m1": "48.0",
+        "m2": "24.89"
+      },
+      {
+        "p": {
+          "name": "GRiT: A Generative Region-to-text Transformer for Object Understanding",
+          "link": "https://arxiv.org/abs/2212.00280v1"
+        },
+        "c": "https://github.com/JialianW/GRiT",
+        "n": "GRiT\n(ViT-H)",
+        "d": "2022-12-01",
+        "m1": "42.9",
+        "m2": "15.72"
+      },
+      {
+        "p": {
+          "name": "DINO: DETR with Improved DeNoising Anchor Boxes for End-to-End Object Detection",
+          "link": "https://arxiv.org/abs/2203.03605v4"
+        },
+        "c": "https://github.com/IDEA-Research/Grounded-Segment-Anything",
+        "n": "DINO (Swin-L)",
+        "d": "2022-03-07",
+        "m1": "42.1",
+        "m2": "15.76"
+      },
+      {
+        "p": {
+          "name": "CBNet: A Composite Backbone Network Architecture for Object Detection",
+          "link": "https://arxiv.org/abs/2107.00420v7"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
+        "n": "CBNetV2\n(Swin-L)",
+        "d": "2021-07-01",
+        "m1": "39.0",
+        "m2": "12.36"
+      },
+      {
+        "p": {
+          "name": "A ConvNet for the 2020s",
+          "link": "https://arxiv.org/abs/2201.03545v2"
+        },
+        "c": "https://github.com/keras-team/keras/blob/master/keras/applications/convnext.py",
+        "n": "ConvNeXt-XL\n(Cascade Mask R-CNN)",
+        "d": "2022-01-10",
+        "m1": "37.5",
+        "m2": "12.68"
+      },
+      {
+        "p": {
+          "name": "InternImage: Exploring Large-Scale Vision Foundation Models with Deformable Convolutions",
+          "link": "https://arxiv.org/abs/2211.05778v4"
+        },
+        "c": "https://github.com/opengvlab/internimage",
+        "n": "InternImage-L (Cascade Mask R-CNN)",
+        "d": "2022-11-10",
+        "m1": "37.0",
+        "m2": "11.72"
+      },
+      {
+        "p": {
+          "name": "Dynamic Head: Unifying Object Detection Heads with Attentions",
+          "link": "https://arxiv.org/abs/2106.08322v1"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "DyHead\n(Swin-L)",
+        "d": "2021-06-15",
+        "m1": "35.3",
+        "m2": "10.00"
+      },
+      {
+        "p": {
+          "name": "Exploring Plain Vision Transformer Backbones for Object Detection",
+          "link": "https://arxiv.org/abs/2203.16527v2"
+        },
+        "c": "https://github.com/facebookresearch/detectron2/tree/main/projects/ViTDet",
+        "n": "ViTDet (ViT-H)",
+        "d": "2022-03-30",
+        "m1": "34.3"
+      },
+      {
+        "p": {
+          "name": "Vision Transformer Adapter for Dense Predictions",
+          "link": "https://arxiv.org/abs/2205.08534v4"
+        },
+        "c": "https://github.com/czczup/vit-adapter",
+        "n": "ViT-Adapter (BEiTv2-L)",
+        "d": "2022-05-17",
+        "m1": "34.25",
+        "m2": "7.79"
+      },
+      {
+        "p": {
+          "name": "Coarse-to-Fine Vision-Language Pre-training with Fusion in the Backbone",
+          "link": "https://arxiv.org/abs/2206.07643v2"
+        },
+        "c": "https://github.com/microsoft/fiber",
+        "n": "FIBER-B\n(Swin-B)",
+        "d": "2022-06-15",
+        "m1": "33.7",
+        "m2": "11.43"
+      },
+      {
+        "p": {
+          "name": "Instances as Queries",
+          "link": "https://arxiv.org/abs/2105.01928v3"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "QueryInst\n(Swin-L)",
+        "d": "2021-05-05",
+        "m1": "33.2",
+        "m2": "8.26"
+      },
+      {
+        "p": {
+          "name": "YOLOv6: A Single-Stage Object Detection Framework for Industrial Applications",
+          "link": "https://arxiv.org/abs/2209.02976v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
+        "n": "YOLOv6-L6",
+        "d": "2022-09-07",
+        "m1": "32.5",
+        "m2": "6.73"
+      },
+      {
+        "p": {
+          "name": "YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors",
+          "link": "https://arxiv.org/abs/2207.02696v1"
+        },
+        "c": "https://github.com/pjreddie/darknet",
+        "n": "YOLOv7-E6E",
+        "d": "2022-07-06",
+        "m1": "32.0",
+        "m2": "6.42"
+      },
+      {
+        "p": {
+          "name": "MViTv2: Improved Multiscale Vision Transformers for Classification and Detection",
+          "link": "https://arxiv.org/abs/2112.01526v2"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "MViTV2-H\n(Cascade Mask R-CNN)",
+        "d": "2021-12-02",
+        "m1": "30.9",
+        "m2": "5.62"
+      },
+      {
+        "p": {
+          "name": "Robust and Accurate Object Detection via Adversarial Learning",
+          "link": "https://arxiv.org/abs/2103.13886v2"
+        },
+        "c": "https://github.com/google/automl",
+        "n": "Det-AdvProp\n(EfficientNet-B5)",
+        "d": "2021-03-23",
+        "m1": "30.8",
+        "m2": "7.34"
+      },
+      {
+        "p": {
+          "name": "YOLOv4: Optimal Speed and Accuracy of Object Detection",
+          "link": "https://arxiv.org/abs/2004.10934v1"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/official/vision/beta/projects/yolo",
+        "n": "YOLOv4-P6",
+        "d": "2020-04-23",
+        "m1": "30.4",
+        "m2": "5.89"
+      },
+      {
+        "p": {
+          "name": "YOLOX: Exceeding YOLO Series in 2021",
+          "link": "https://arxiv.org/abs/2107.08430v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "YOLOX-X",
+        "d": "2021-07-18",
+        "m1": "30.3",
+        "m2": "7.26"
+      },
+      {
+        "p": {
+          "name": "Probabilistic two-stage detection",
+          "link": "https://arxiv.org/abs/2103.07461v1"
+        },
+        "c": "https://github.com/xingyizhou/CenterNet2",
+        "n": "CenterNet2\n(R2-101-DCN)",
+        "d": "2021-03-12",
+        "m1": "29.5",
+        "m2": "4.29"
+      },
+      {
+        "p": {
+          "name": "Grounded Language-Image Pre-training",
+          "link": "https://arxiv.org/abs/2112.03857v2"
+        },
+        "c": "https://github.com/microsoft/GLIP",
+        "n": "GLIP-T\n(Swin-T)",
+        "d": "2021-12-07",
+        "m1": "29.1",
+        "m2": "8.11"
+      },
+      {
+        "p": {
+          "name": "EfficientDet: Scalable and Efficient Object Detection",
+          "link": "https://arxiv.org/abs/1911.09070v7"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/research/object_detection",
+        "n": "EfficientDet-D5\n(EfficientNet-B5)",
+        "d": "2019-11-20",
+        "m1": "28.5",
+        "m2": "5.44"
+      },
+      {
+        "p": {
+          "name": "PVT v2: Improved Baselines with Pyramid Vision Transformer",
+          "link": "https://arxiv.org/abs/2106.13797v7"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "PVTv2-B5\n(Mask R-CNN)",
+        "d": "2021-06-25",
+        "m1": "28.2",
+        "m2": "6.85"
+      },
+      {
+        "p": {
+          "name": "VarifocalNet: An IoU-aware Dense Object Detector",
+          "link": "https://arxiv.org/abs/2008.13367v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "VFNet\n(RX-101-64x4d)",
+        "d": "2020-08-31",
+        "m1": "28.0",
+        "m2": "5.27"
+      },
+      {
+        "p": {
+          "name": "GCNet: Non-local Networks Meet Squeeze-Excitation Networks and Beyond",
+          "link": "http://arxiv.org/abs/1904.11492v1"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "GCNet\n(RX-101-32x4d-DCN)",
+        "d": "2019-04-25",
+        "m1": "26.0",
+        "m2": "4.38"
+      },
+      {
+        "p": {
+          "name": "Generalized Focal Loss V2: Learning Reliable Localization Quality Estimation for Dense Object Detection",
+          "link": "https://arxiv.org/abs/2011.12885v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
+        "n": "GFLv2\n(R2-101-DCN)",
+        "d": "2020-11-25",
+        "m1": "25.1",
+        "m2": "2.6"
+      },
+      {
+        "p": {
+          "name": "RepPoints V2: Verification Meets Regression for Object Detection",
+          "link": "https://arxiv.org/abs/2007.08508v1"
+        },
+        "c": "https://github.com/Scalsol/RepPointsV2",
+        "n": "RepPointsV2\n(RX-101-64x4d-DCN)",
+        "d": "2020-07-16",
+        "m1": "24.9",
+        "m2": "2.7"
+      },
+      {
+        "p": {
+          "name": "USB: Universal-Scale Object Detection Benchmark",
+          "link": "https://arxiv.org/abs/2103.14027v3"
+        },
+        "c": "https://github.com/shinya7y/UniverseNet",
+        "n": "UniverseNet\n(R2-101-DCN)",
+        "d": "2021-03-25",
+        "m1": "24.8"
+      },
+      {
+        "p": {
+          "name": "YOLOX: Exceeding YOLO Series in 2021",
+          "link": "https://arxiv.org/abs/2107.08430v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "YOLOX-S",
+        "d": "2021-07-18",
+        "m1": "20.6",
+        "m2": "2.48"
+      },
+      {
+        "p": {
+          "name": "You Only Look at One Sequence: Rethinking Transformer in Vision through Object Detection",
+          "link": "https://arxiv.org/abs/2106.00666v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "YOLOS-B\n(ViT-B)",
+        "d": "2021-06-01",
+        "m1": "20.0",
+        "m2": "1.05"
+      },
+      {
+        "p": {
+          "name": "Dynamic Head: Unifying Object Detection Heads with Attentions",
+          "link": "https://arxiv.org/abs/2106.08322v1"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "DyHead\n(ResNet-50)",
+        "d": "2021-06-15",
+        "m1": "19.3",
+        "m2": "0.16"
+      },
+      {
+        "p": {
+          "name": "Hybrid Task Cascade for Instance Segmentation",
+          "link": "http://arxiv.org/abs/1901.07518v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "HTC\n(ResNet-50)",
+        "d": "2019-01-22",
+        "m1": "19.1",
+        "m2": "0.08"
+      },
+      {
+        "p": {
+          "name": "Deformable DETR: Deformable Transformers for End-to-End Object Detection",
+          "link": "https://arxiv.org/abs/2010.04159v4"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
+        "n": "Deformable-DETR\n(ResNet-50)",
+        "d": "2020-10-08",
+        "m1": "18.5",
+        "m2": "-1.49"
+      },
+      {
+        "p": {
+          "name": "Cascade R-CNN: High Quality Object Detection and Instance Segmentation",
+          "link": "https://arxiv.org/abs/1906.09756v1"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "Cascade R-CNN\n(ResNet-50)",
+        "d": "2019-06-24",
+        "m1": "18.2",
+        "m2": "0.02"
+      },
+      {
+        "p": {
+          "name": "Mask R-CNN",
+          "link": "http://arxiv.org/abs/1703.06870v3"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/official/vision",
+        "n": "Mask R-CNN\n(ResNet-50)",
+        "d": "2017-03-20",
+        "m1": "17.1"
+      },
+      {
+        "p": {
+          "name": "End-to-End Object Detection with Transformers",
+          "link": "https://arxiv.org/abs/2005.12872v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "DETR\n(ResNet-50)",
+        "d": "2020-05-26",
+        "m1": "17.1",
+        "m2": "-1.82"
+      },
+      {
+        "p": {
+          "name": "Bridging the Gap Between Anchor-based and Anchor-free Detection via Adaptive Training Sample Selection",
+          "link": "https://arxiv.org/abs/1912.02424v4"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "ATSS\n(ResNet-50)",
+        "d": "2019-12-05",
+        "m1": "16.8",
+        "m2": "-0.91"
+      },
+      {
+        "p": {
+          "name": "FCOS: Fully Convolutional One-Stage Object Detection",
+          "link": "https://arxiv.org/abs/1904.01355v5"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "FCOS\n(ResNet-50)",
+        "d": "2019-04-02",
+        "m1": "16.7",
+        "m2": "0.25"
+      },
+      {
+        "p": {
+          "name": "Focal Loss for Dense Object Detection",
+          "link": "http://arxiv.org/abs/1708.02002v2"
+        },
+        "c": "https://github.com/tensorflow/models",
+        "n": "RetinaNet\n(ResNet-50)",
+        "d": "2017-08-07",
+        "m1": "16.6",
+        "m2": "0.18"
+      },
+      {
+        "p": {
+          "name": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+          "link": "http://arxiv.org/abs/1506.01497v3"
+        },
+        "c": "https://github.com/facebookresearch/detectron2",
+        "n": "Faster R-CNN (ResNet-50-FPN)",
+        "d": "2015-06-04",
+        "m1": "16.4",
+        "m2": "-0.41"
+      },
+      {
+        "p": {
+          "name": "YOLOv3: An Incremental Improvement",
+          "link": "http://arxiv.org/abs/1804.02767v1"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "YOLOv3\n(DarkNet-53)",
+        "d": "2018-04-08",
+        "m1": "14.8",
+        "m2": "-0.37"
+      },
+      {
+        "p": {
+          "name": "SSD: Single Shot MultiBox Detector",
+          "link": "http://arxiv.org/abs/1512.02325v5"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "SSD (VGG-16)",
+        "d": "2015-12-08",
+        "m1": "13.6",
+        "m2": "0.36"
+      },
+      {
+        "p": {
+          "name": "Exploring Plain Vision Transformer Backbones for Object Detection",
+          "link": "https://arxiv.org/abs/2203.16527v2"
+        },
+        "c": "https://github.com/facebookresearch/detectron2/tree/main/projects/ViTDet",
+        "n": "ViTDet\n(ViT-H)",
+        "d": "2022-03-30",
+        "m2": "7.89"
+      },
+      {
+        "p": {
+          "name": "USB: Universal-Scale Object Detection Benchmark",
+          "link": "https://arxiv.org/abs/2103.14027v3"
+        },
+        "c": "https://github.com/shinya7y/UniverseNet",
+        "n": "UniverseNet (R2-101-DCN)",
+        "d": "2021-03-25",
+        "m2": "1.86"
+      },
+      {
+        "p": {
+          "name": "Mask R-CNN",
+          "link": "http://arxiv.org/abs/1703.06870v3"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/official/vision",
+        "n": "Mask R-CNN (ResNet-50)",
+        "d": "2017-03-20",
+        "m2": "-0.11"
+      }
+    ]
+  }
+}

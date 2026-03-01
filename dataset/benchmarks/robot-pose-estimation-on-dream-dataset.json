@@ -1,0 +1,99 @@
+{
+  "title": "robot-pose-estimation-on-dream-dataset",
+  "task-hierarchy": [
+    "Pose Estimation",
+    "6D Pose Estimation",
+    "Robot Pose Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://research.nvidia.com/publication/2020-05_camera-robot-pose-estimation-single-image"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AUC (avg. on 4 real DREAM datasets)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "mean-ADD (avg. on 4 real DREAM datasets)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Real-time Holistic Robot Pose Estimation with Unknown States",
+          "link": "https://arxiv.org/abs/2402.05655v4"
+        },
+        "c": "https://github.com/Oliverbansk/Hollistic-Robot-Pose-Estimation",
+        "n": "Holistic-Robot-Pose (known-joint)",
+        "d": "2024-02-08",
+        "m1": "87.7",
+        "m2": "15.0"
+      },
+      {
+        "p": {
+          "name": "Markerless Camera-to-Robot Pose Estimation via Self-supervised Sim-to-Real Transfer",
+          "link": "https://arxiv.org/abs/2302.14332v2"
+        },
+        "c": "",
+        "n": "CtrNet (known-joint)",
+        "d": "2023-02-28",
+        "m1": "86.4",
+        "m2": "19.0"
+      },
+      {
+        "p": {
+          "name": "Single-view robot pose and joint angle estimation via render & compare",
+          "link": "https://arxiv.org/abs/2104.09359v1"
+        },
+        "c": "",
+        "n": "RoboPose (known-joint)",
+        "d": "2021-04-19",
+        "m1": "80.0",
+        "m2": "20.2"
+      },
+      {
+        "p": {
+          "name": "Real-time Holistic Robot Pose Estimation with Unknown States",
+          "link": "https://arxiv.org/abs/2402.05655v4"
+        },
+        "c": "https://github.com/Oliverbansk/Hollistic-Robot-Pose-Estimation",
+        "n": "Holistic-Robot-Pose (unknown-joint)",
+        "d": "2024-02-08",
+        "m1": "77.2",
+        "m2": "23.1"
+      },
+      {
+        "p": {
+          "name": "Single-view robot pose and joint angle estimation via render & compare",
+          "link": "https://arxiv.org/abs/2104.09359v1"
+        },
+        "c": "",
+        "n": "RoboPose (unknown-joint)",
+        "d": "2021-04-19",
+        "m1": "73.2",
+        "m2": "28.2"
+      }
+    ]
+  }
+}

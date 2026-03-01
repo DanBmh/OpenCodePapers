@@ -1,0 +1,163 @@
+{
+  "title": "open-information-extraction-on-oie2016",
+  "task-hierarchy": [
+    "Open Information Extraction"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Zero-Shot Information Extraction as a Unified Text-to-Triple Translation",
+          "link": "https://arxiv.org/abs/2109.11171v1"
+        },
+        "c": "https://github.com/cgraywang/deepex",
+        "n": "DeepEx (zero-shot)",
+        "d": "2021-09-23",
+        "m1": "72.6",
+        "m2": "58.6"
+      },
+      {
+        "p": {
+          "name": "DeepStruct: Pretraining of Language Models for Structure Prediction",
+          "link": "https://arxiv.org/abs/2205.10475v2"
+        },
+        "c": "https://github.com/cgraywang/deepstruct",
+        "n": "DeepStruct multi-task w/ finetune",
+        "d": "2022-05-21",
+        "m1": "71.3"
+      },
+      {
+        "p": {
+          "name": "DeepStruct: Pretraining of Language Models for Structure Prediction",
+          "link": "https://arxiv.org/abs/2205.10475v2"
+        },
+        "c": "https://github.com/cgraywang/deepstruct",
+        "n": "Deepstruct multi-task",
+        "d": "2022-05-21",
+        "m1": "71.2"
+      },
+      {
+        "p": {
+          "name": "A Survey on Neural Open Information Extraction: Current Status and Future Directions",
+          "link": "https://arxiv.org/abs/2205.11725v2"
+        },
+        "c": "",
+        "n": "SpanOIE [48]",
+        "d": "2022-05-24",
+        "m1": "69.4"
+      },
+      {
+        "p": {
+          "name": "Span Model for Open Information Extraction on Accurate Corpus",
+          "link": "https://arxiv.org/abs/1901.10879v6"
+        },
+        "c": "https://github.com/zhanjunlang/Span_OIE",
+        "n": "SpanOIE",
+        "d": "2019-01-30",
+        "m1": "68.65"
+      },
+      {
+        "p": {
+          "name": "Improving Open Information Extraction with Large Language Models: A Study on Demonstration Uncertainty",
+          "link": "https://arxiv.org/abs/2309.03433v1"
+        },
+        "c": "",
+        "n": "LLaMA-2-70B w/ Selected Demo & Uncertainty",
+        "d": "2023-09-07",
+        "m1": "65.8"
+      },
+      {
+        "p": {
+          "name": "Improving Open Information Extraction with Large Language Models: A Study on Demonstration Uncertainty",
+          "link": "https://arxiv.org/abs/2309.03433v1"
+        },
+        "c": "",
+        "n": "GPT-3.5-Turbo w/ Selected Demo & Uncertainty",
+        "d": "2023-09-07",
+        "m1": "65.1"
+      },
+      {
+        "p": {
+          "name": "A Survey on Neural Open Information Extraction: Current Status and Future Directions",
+          "link": "https://arxiv.org/abs/2205.11725v2"
+        },
+        "c": "",
+        "n": "RnnOIE [36]",
+        "d": "2022-05-24",
+        "m1": "62"
+      },
+      {
+        "p": {
+          "name": "A Survey on Neural Open Information Extraction: Current Status and Future Directions",
+          "link": "https://arxiv.org/abs/2205.11725v2"
+        },
+        "c": "",
+        "n": "OpenIE4 [26]",
+        "d": "2022-05-24",
+        "m1": "60"
+      },
+      {
+        "p": {
+          "name": "A Survey on Neural Open Information Extraction: Current Status and Future Directions",
+          "link": "https://arxiv.org/abs/2205.11725v2"
+        },
+        "c": "",
+        "n": "ClausIE [9]",
+        "d": "2022-05-24",
+        "m1": "59"
+      },
+      {
+        "p": {
+          "name": "Improving Open Information Extraction with Large Language Models: A Study on Demonstration Uncertainty",
+          "link": "https://arxiv.org/abs/2309.03433v1"
+        },
+        "c": "",
+        "n": "LLaMA-2-13B w/ Selected Demo & Uncertainty",
+        "d": "2023-09-07",
+        "m1": "36.9"
+      },
+      {
+        "p": {
+          "name": "DeepStruct: Pretraining of Language Models for Structure Prediction",
+          "link": "https://arxiv.org/abs/2205.10475v2"
+        },
+        "c": "https://github.com/cgraywang/deepstruct",
+        "n": "Deepstruct zero-shot",
+        "d": "2022-05-21",
+        "m1": "28.1"
+      }
+    ]
+  }
+}

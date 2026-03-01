@@ -1,0 +1,232 @@
+{
+  "title": "question-answering-on-timequestions",
+  "task-hierarchy": [
+    "Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://exaqt.mpi-inf.mpg.de/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "P@1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "TimeR4",
+        "d": null,
+        "m1": "78.1"
+      },
+      {
+        "p": {
+          "name": "RAG-based Question Answering over Heterogeneous Data and Text",
+          "link": "https://arxiv.org/abs/2412.07420v1"
+        },
+        "c": "",
+        "n": "Quasar",
+        "d": "2024-12-10",
+        "m1": "75.4"
+      },
+      {
+        "p": {
+          "name": "TwiRGCN: Temporally Weighted Graph Convolution for Question Answering over Temporal Knowledge Graphs",
+          "link": "https://arxiv.org/abs/2210.06281v2"
+        },
+        "c": "",
+        "n": "TwiRGCN",
+        "d": "2022-10-12",
+        "m1": "60.5"
+      },
+      {
+        "p": {
+          "name": "Complex Temporal Question Answering on Knowledge Graphs",
+          "link": "https://arxiv.org/abs/2109.08935v1"
+        },
+        "c": "https://github.com/zhenjia2017/exaqt",
+        "n": "EXAQT",
+        "d": "2021-09-18",
+        "m1": "56.5"
+      },
+      {
+        "p": {
+          "name": "Semantic Framework based Query Generation for Temporal Question Answering over Knowledge Graphs",
+          "link": "https://arxiv.org/abs/2210.04490v3"
+        },
+        "c": "",
+        "n": "SF-TQA",
+        "d": "2022-10-10",
+        "m1": "53.9"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "M3TQA",
+        "d": null,
+        "m1": "53.6"
+      },
+      {
+        "p": {
+          "name": "Faithful Temporal Question Answering over Heterogeneous Sources",
+          "link": "https://arxiv.org/abs/2402.15400v1"
+        },
+        "c": "",
+        "n": "FAITH",
+        "d": "2024-02-23",
+        "m1": "53.5"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "LGQA",
+        "d": null,
+        "m1": "52.9"
+      },
+      {
+        "p": {
+          "name": "Explainable Conversational Question Answering over Heterogeneous Sources via Iterative Graph Neural Networks",
+          "link": "https://arxiv.org/abs/2305.01548v2"
+        },
+        "c": "https://github.com/philippchr/explaignn",
+        "n": "EXPLAIGNN",
+        "d": "2023-05-02",
+        "m1": "52.5"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "CTRN",
+        "d": null,
+        "m1": "46.5"
+      },
+      {
+        "p": {
+          "name": "GraphNeT: Graph neural networks for neutrino telescope event reconstruction",
+          "link": "https://arxiv.org/abs/2210.12194v1"
+        },
+        "c": "https://github.com/graphnet-team/graphnet",
+        "n": "GRAFT-Net",
+        "d": "2022-10-21",
+        "m1": "45.2"
+      },
+      {
+        "p": {
+          "name": "TempoQR: Temporal Question Reasoning over Knowledge Graphs",
+          "link": "https://arxiv.org/abs/2112.05785v1"
+        },
+        "c": "https://github.com/cmavro/tempoqr",
+        "n": "TempoQR",
+        "d": "2021-12-10",
+        "m1": "43.8"
+      },
+      {
+        "p": {
+          "name": "Time-aware Multiway Adaptive Fusion Network for Temporal Knowledge Graph Question Answering",
+          "link": "https://arxiv.org/abs/2302.12529v2"
+        },
+        "c": "",
+        "n": "TMA",
+        "d": "2023-02-24",
+        "m1": "43.6"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "UniK-QA",
+        "d": null,
+        "m1": "42.4"
+      },
+      {
+        "p": {
+          "name": "Conversational Question Answering on Heterogeneous Sources",
+          "link": "https://arxiv.org/abs/2204.11677v2"
+        },
+        "c": "",
+        "n": "Convinse",
+        "d": "2022-04-25",
+        "m1": "42.3"
+      },
+      {
+        "p": {
+          "name": "Question Answering Over Temporal Knowledge Graphs",
+          "link": "https://arxiv.org/abs/2106.01515v1"
+        },
+        "c": "https://github.com/apoorvumang/CronKGQA",
+        "n": "CRONKGQA",
+        "d": "2021-06-03",
+        "m1": "39.5"
+      },
+      {
+        "p": {
+          "name": "UNIQORN: Unified Question Answering over RDF Knowledge Graphs and Natural Language Text",
+          "link": "https://arxiv.org/abs/2108.08614v9"
+        },
+        "c": "https://github.com/ajesujoba/UNIQORN",
+        "n": "UniQorn",
+        "d": "2021-08-19",
+        "m1": "33.1"
+      },
+      {
+        "p": {
+          "name": "OpenAi's GPT4 as coding assistant",
+          "link": "https://arxiv.org/abs/2309.12732v1"
+        },
+        "c": "https://github.com/lmous/openai-gpt4-coding-assistant",
+        "n": "GPT-4",
+        "d": "2023-09-22",
+        "m1": "30.6"
+      },
+      {
+        "p": {
+          "name": "Training language models to follow instructions with human feedback",
+          "link": "https://arxiv.org/abs/2203.02155v1"
+        },
+        "c": "https://github.com/ggml-org/llama.cpp",
+        "n": "InstructGPT",
+        "d": "2022-03-04",
+        "m1": "22.4"
+      },
+      {
+        "p": {
+          "name": "LLaMA: Open and Efficient Foundation Language Models",
+          "link": "https://arxiv.org/abs/2302.13971v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Llama3",
+        "d": "2023-02-27",
+        "m1": "17.8"
+      },
+      {
+        "p": {
+          "name": "PullNet: Open Domain Question Answering with Iterative Retrieval on Knowledge Bases and Text",
+          "link": "http://arxiv.org/abs/1904.09537v1"
+        },
+        "c": "",
+        "n": "PullNet",
+        "d": "2019-04-21",
+        "m1": "10.5"
+      }
+    ]
+  }
+}

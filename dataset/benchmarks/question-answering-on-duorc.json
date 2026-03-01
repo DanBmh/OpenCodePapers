@@ -1,0 +1,67 @@
+{
+  "title": "question-answering-on-duorc",
+  "task-hierarchy": [
+    "Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://duorc.github.io/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "RecallM: An Adaptable Memory Mechanism with Temporal Understanding for Large Language Models",
+          "link": "https://arxiv.org/abs/2307.02738v3"
+        },
+        "c": "https://github.com/cisco-open/DeepVision/tree/main/recallm",
+        "n": "Vector Database (ChromaDB)",
+        "d": "2023-07-06",
+        "m1": "55.71"
+      },
+      {
+        "p": {
+          "name": "RecallM: An Adaptable Memory Mechanism with Temporal Understanding for Large Language Models",
+          "link": "https://arxiv.org/abs/2307.02738v3"
+        },
+        "c": "https://github.com/cisco-open/DeepVision/tree/main/recallm",
+        "n": "Hybrid-RecallM",
+        "d": "2023-07-06",
+        "m1": "52.68"
+      },
+      {
+        "p": {
+          "name": "RecallM: An Adaptable Memory Mechanism with Temporal Understanding for Large Language Models",
+          "link": "https://arxiv.org/abs/2307.02738v3"
+        },
+        "c": "https://github.com/cisco-open/DeepVision/tree/main/recallm",
+        "n": "RecallM",
+        "d": "2023-07-06",
+        "m1": "48.13"
+      }
+    ]
+  }
+}

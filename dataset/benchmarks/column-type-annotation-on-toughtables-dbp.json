@@ -1,0 +1,98 @@
+{
+  "title": "column-type-annotation-on-toughtables-dbp",
+  "task-hierarchy": [
+    "Table annotation",
+    "Column Type Annotation"
+  ],
+  "dataset-info": {
+    "link": "https://zenodo.org/record/6211551"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1 (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "KGCODE-Tab Results for SemTab 2022",
+          "link": "https://ceur-ws.org/Vol-3320/paper5.pdf"
+        },
+        "c": "",
+        "n": "KGCODE-Tab",
+        "d": "2022-10-25",
+        "m1": "48"
+      },
+      {
+        "p": {
+          "name": "JenTab Meets SemTab 2021's New Challenges",
+          "link": "https://www.semanticscholar.org/paper/JenTab-Meets-SemTab-2021's-New-Challenges-Abdelmageed-Schindler/4f492fee6a7ae51d3f2527d9036a1beaf6f1e44b"
+        },
+        "c": "https://github.com/fusion-jena/jentab",
+        "n": "JenTab",
+        "d": "2021-10-01",
+        "m1": "46"
+      },
+      {
+        "p": {
+          "name": "DAGOBAH: Table and Graph Contexts for Eﬀicient Semantic Annotation of Tabular Data",
+          "link": "https://www.eurecom.fr/fr/publication/6842"
+        },
+        "c": "",
+        "n": "DAGOBAH",
+        "d": "2021-10-01",
+        "m1": "42.2"
+      },
+      {
+        "p": {
+          "name": "Kepler-aSI at SemTab 2021",
+          "link": "https://www.semanticscholar.org/paper/Kepler-aSI-at-SemTab-2021-Baazouzi-Kachroudi/f4ef58ea481fc2dbcc57a97886150a9c33e17840"
+        },
+        "c": "",
+        "n": "Kepler-aSI",
+        "d": "2021-10-01",
+        "m1": "39.1"
+      },
+      {
+        "p": {
+          "name": "Results of SemTab 2022",
+          "link": "https://www.semanticscholar.org/paper/Results-of-SemTab-2022-Abdelmageed-Chen/64dfbc1da6ad7402a6365c3e41667069a63599a6"
+        },
+        "c": "",
+        "n": "s-elBat",
+        "d": "2022-10-25",
+        "m1": "36.6"
+      },
+      {
+        "p": {
+          "name": "MAGIC: Mining an Augmented Graph using INK, starting from a CSV",
+          "link": "https://www.semanticscholar.org/paper/MAGIC%3A-Mining-an-Augmented-Graph-using-INK%2C-from-a-Steenwinckel-Turck/03465d28e575ac8273887f0f56b67b890230d788"
+        },
+        "c": "https://github.com/IBCNServices/Magic",
+        "n": "MAGIC",
+        "d": "2021-10-01",
+        "m1": "15.9"
+      }
+    ]
+  }
+}

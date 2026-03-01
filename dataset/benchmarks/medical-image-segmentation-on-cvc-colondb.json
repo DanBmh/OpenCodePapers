@@ -1,0 +1,350 @@
+{
+  "title": "medical-image-segmentation-on-cvc-colondb",
+  "task-hierarchy": [
+    "Medical Image Segmentation"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mean Dice",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Average MAE",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "S-Measure",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "max E-Measure",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MetaFormer and CNN Hybrid Model for Polyp Image Segmentation",
+          "link": "https://ieeexplore.ieee.org/document/10681057"
+        },
+        "c": "https://github.com/hyunnamlee/RAPUNet",
+        "n": "RAPUNet",
+        "d": "2024-09-16",
+        "m1": "0.9526",
+        "m5": "0.9096"
+      },
+      {
+        "p": {
+          "name": "Using DUCK-Net for Polyp Image Segmentation",
+          "link": "https://arxiv.org/abs/2311.02239v1"
+        },
+        "c": "https://github.com/RazvanDu/DUCK-Net",
+        "n": "DUCK-Net",
+        "d": "2023-11-03",
+        "m1": "0.9353",
+        "m5": "0.8785"
+      },
+      {
+        "p": {
+          "name": "EMCAD: Efficient Multi-scale Convolutional Attention Decoding for Medical Image Segmentation",
+          "link": "https://arxiv.org/abs/2405.06880v1"
+        },
+        "c": "https://github.com/sldgroup/emcad",
+        "n": "EMCAD",
+        "d": "2024-05-11",
+        "m1": "0.9231"
+      },
+      {
+        "p": {
+          "name": "From Semantic Segmentation of Natural Images to Medical Image Segmentation Using ViT-Based Architectures",
+          "link": "https://link.springer.com/chapter/10.1007/978-3-031-80507-3_12"
+        },
+        "c": "",
+        "n": "SegMed",
+        "d": "2025-01-31",
+        "m1": "0.921",
+        "m5": "0.854"
+      },
+      {
+        "p": {
+          "name": "UniNet: A Contrastive Learning-guided Unified Framework with Feature Selection for Anomaly Detection",
+          "link": "https://pangdatangtt.github.io/#:~:text=guided%20anomaly%20discrimination.-,Abstract,-Anomaly%20detection%20(AD"
+        },
+        "c": "https://github.com/pangdatangtt/UniNet",
+        "n": "UniNet",
+        "d": "2025-02-28",
+        "m1": "0.919",
+        "m5": "0.856"
+      },
+      {
+        "p": {
+          "name": "ProMISe: Promptable Medical Image Segmentation using SAM",
+          "link": "https://arxiv.org/abs/2403.04164v3"
+        },
+        "c": "https://github.com/xinkunwang111/promise",
+        "n": "ProMISe",
+        "d": "2024-03-07",
+        "m1": "0.874",
+        "m5": "0.789"
+      },
+      {
+        "p": {
+          "name": "Meta-Polyp: a baseline for efficient Polyp segmentation",
+          "link": "https://arxiv.org/abs/2305.07848v3"
+        },
+        "c": "https://github.com/huyquoctrinh/metapolyp-cbms2023",
+        "n": "Meta-Polyp",
+        "d": "2023-05-13",
+        "m1": "0.867",
+        "m5": "0.79"
+      },
+      {
+        "p": {
+          "name": "A Comprehensive Study on Colorectal Polyp Segmentation with ResUNet++, Conditional Random Field and Test-Time Augmentation",
+          "link": "https://arxiv.org/abs/2107.12435v1"
+        },
+        "c": "https://github.com/DebeshJha/ResUNet-with-CRF-and-TTA",
+        "n": "ResUNet++ + TTA",
+        "d": "2021-07-26",
+        "m1": "0.8474",
+        "m5": "0.8466"
+      },
+      {
+        "p": {
+          "name": "G-CASCADE: Efficient Cascaded Graph Convolutional Decoding for 2D Medical Image Segmentation",
+          "link": "https://arxiv.org/abs/2310.16175v1"
+        },
+        "c": "https://github.com/SLDGroup/G-CASCADE",
+        "n": "PVT-GCASCADE",
+        "d": "2023-10-24",
+        "m1": "0.8261",
+        "m5": "0.7460"
+      },
+      {
+        "p": {
+          "name": "Medical Image Segmentation via Cascaded Attention Decoding",
+          "link": "https://openaccess.thecvf.com/content/WACV2023/html/Rahman_Medical_Image_Segmentation_via_Cascaded_Attention_Decoding_WACV_2023_paper.html"
+        },
+        "c": "https://github.com/SLDGroup/CASCADE",
+        "n": "PVT-CASCADE",
+        "d": "2023-01-03",
+        "m1": "0.8254",
+        "m5": "0.7453"
+      },
+      {
+        "p": {
+          "name": "DuAT: Dual-Aggregation Transformer Network for Medical Image Segmentation",
+          "link": "https://arxiv.org/abs/2212.11677v1"
+        },
+        "c": "https://github.com/Barrett-python/DuAT",
+        "n": "DuAT",
+        "d": "2022-12-21",
+        "m1": "0.819",
+        "m2": "0.026",
+        "m5": "0.737"
+      },
+      {
+        "p": {
+          "name": "ESFPNet: efficient deep learning architecture for real-time lesion segmentation in autofluorescence bronchoscopic video",
+          "link": "https://arxiv.org/abs/2207.07759v3"
+        },
+        "c": "https://github.com/dumyCq/CFPNet",
+        "n": "ESFPNet-L",
+        "d": "2022-07-15",
+        "m1": "0.811",
+        "m5": "0.730"
+      },
+      {
+        "p": {
+          "name": "Polyp-PVT: Polyp Segmentation with Pyramid Vision Transformers",
+          "link": "https://arxiv.org/abs/2108.06932v8"
+        },
+        "c": "https://github.com/whai362/PVT",
+        "n": "Polyp-PVT",
+        "d": "2021-08-16",
+        "m1": "0.808",
+        "m2": "0.031",
+        "m3": "0.865",
+        "m4": "0.913",
+        "m5": "0.727"
+      },
+      {
+        "p": {
+          "name": "Stepwise Feature Fusion: Local Guides Global",
+          "link": "https://arxiv.org/abs/2203.03635v3"
+        },
+        "c": "https://github.com/Qiming-Huang/ssformer",
+        "n": "SSFormer-L",
+        "d": "2022-03-07",
+        "m1": "0.802",
+        "m5": "0.721"
+      },
+      {
+        "p": {
+          "name": "UACANet: Uncertainty Augmented Context Attention for Polyp Segmentation",
+          "link": "https://arxiv.org/abs/2107.02368v3"
+        },
+        "c": "https://github.com/plemeri/UACANet",
+        "n": "UACANet-S",
+        "d": "2021-07-06",
+        "m1": "0.783",
+        "m2": "0.034",
+        "m3": "0.848",
+        "m4": "0.897",
+        "m5": "0.704"
+      },
+      {
+        "p": {
+          "name": "SAM-EG: Segment Anything Model with Egde Guidance framework for efficient Polyp Segmentation",
+          "link": "https://arxiv.org/abs/2406.14819v1"
+        },
+        "c": "",
+        "n": "SAM-EG",
+        "d": "2024-06-21",
+        "m1": "0.774",
+        "m5": "0.689"
+      },
+      {
+        "p": {
+          "name": "HarDNet-DFUS: An Enhanced Harmonically-Connected Network for Diabetic Foot Ulcer Image Segmentation and Colonoscopy Polyp Segmentation",
+          "link": "https://arxiv.org/abs/2209.07313v1"
+        },
+        "c": "https://github.com/yuwenlo/hardnet-dfus",
+        "n": "HarDNet-DFUS",
+        "d": "2022-09-15",
+        "m1": "0.774"
+      },
+      {
+        "p": {
+          "name": "CaraNet: Context Axial Reverse Attention Network for Segmentation of Small Medical Objects",
+          "link": "https://arxiv.org/abs/2108.07368v3"
+        },
+        "c": "https://github.com/AngeLouCN/CaraNet",
+        "n": "CaraNet",
+        "d": "2021-08-16",
+        "m1": "0.773",
+        "m2": "0.042",
+        "m3": "0.853",
+        "m4": "0.902",
+        "m5": "0.689"
+      },
+      {
+        "p": {
+          "name": "TransFuse: Fusing Transformers and CNNs for Medical Image Segmentation",
+          "link": "https://arxiv.org/abs/2102.08005v2"
+        },
+        "c": "https://github.com/Rayicer/TransFuse",
+        "n": "TransFuse-S",
+        "d": "2021-02-16",
+        "m1": "0.773",
+        "m5": "0.696"
+      },
+      {
+        "p": {
+          "name": "KDAS: Knowledge Distillation via Attention Supervision Framework for Polyp Segmentation",
+          "link": "https://arxiv.org/abs/2312.08555v3"
+        },
+        "c": "https://github.com/huyquoctrinh/kdas",
+        "n": "KDAS",
+        "d": "2023-12-13",
+        "m1": "0.759",
+        "m2": "0.032",
+        "m5": "0.679"
+      },
+      {
+        "p": {
+          "name": "COMMA: Propagating Complementary Multi-Level Aggregation Network for Polyp Segmentation",
+          "link": "https://www.mdpi.com/2076-3417/12/4/2114"
+        },
+        "c": "",
+        "n": "COMMA (Res2Net-50)",
+        "d": "2022-02-17",
+        "m1": "0.754",
+        "m2": "0.037",
+        "m3": "0.849",
+        "m4": "0.897",
+        "m5": "0.689"
+      },
+      {
+        "p": {
+          "name": "UACANet: Uncertainty Augmented Context Attention for Polyp Segmentation",
+          "link": "https://arxiv.org/abs/2107.02368v3"
+        },
+        "c": "https://github.com/plemeri/UACANet",
+        "n": "UACANet-L",
+        "d": "2021-07-06",
+        "m1": "0.751",
+        "m2": "0.039",
+        "m3": "0.835",
+        "m4": "0.878",
+        "m5": "0.678"
+      },
+      {
+        "p": {
+          "name": "TransFuse: Fusing Transformers and CNNs for Medical Image Segmentation",
+          "link": "https://arxiv.org/abs/2102.08005v2"
+        },
+        "c": "https://github.com/Rayicer/TransFuse",
+        "n": "TransFuse-L",
+        "d": "2021-02-16",
+        "m1": "0.744",
+        "m5": "0.676"
+      },
+      {
+        "p": {
+          "name": "HarDNet-MSEG: A Simple Encoder-Decoder Polyp Segmentation Neural Network that Achieves over 0.9 Mean Dice and 86 FPS",
+          "link": "https://arxiv.org/abs/2101.07172v2"
+        },
+        "c": "https://github.com/james128333/HarDNet-MSEG",
+        "n": "HarDNet-MSEG",
+        "d": "2021-01-18",
+        "m1": "0.731",
+        "m5": "0.660"
+      },
+      {
+        "p": {
+          "name": "PraNet: Parallel Reverse Attention Network for Polyp Segmentation",
+          "link": "https://arxiv.org/abs/2006.11392v4"
+        },
+        "c": "https://github.com/DengPingFan/PraNet",
+        "n": "PraNet",
+        "d": "2020-06-13",
+        "m1": "0.709",
+        "m2": "0.045",
+        "m3": "0.819",
+        "m4": "0.869",
+        "m5": "0.649"
+      }
+    ]
+  }
+}

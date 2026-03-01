@@ -1,0 +1,72 @@
+{
+  "title": "text-simplification-on-eurekaalert",
+  "task-hierarchy": [
+    "Text Simplification"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/farooqzaman1/HTSS/tree/main/data"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Rouge1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SARI",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MedTSS: transforming abstractive summarization of scientific articles with linguistic analysis and concept reinforcement",
+          "link": "https://www.springerprofessional.de/en/medtss-transforming-abstractive-summarization-of-scientific-arti/26680000"
+        },
+        "c": "https://github.com/NadiaSaeed/MedTSS",
+        "n": "MedTSS-BART (Without Training)",
+        "d": "2024-01-30",
+        "m1": "35.17"
+      },
+      {
+        "p": {
+          "name": "HTSS: A Novel Hybrid Text Summarisation and Simplification Architecture",
+          "link": "https://www.sciencedirect.com/science/article/abs/pii/S0306457320308463"
+        },
+        "c": "https://github.com/slab-itu/htss",
+        "n": "HTSS",
+        "d": "2020-07-13",
+        "m1": "21.94"
+      },
+      {
+        "p": {
+          "name": "SATS: simplification aware text summarization of scientific documents",
+          "link": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1375419/full"
+        },
+        "c": "",
+        "n": "SATS",
+        "d": "2024-07-10",
+        "m2": "40.83"
+      }
+    ]
+  }
+}

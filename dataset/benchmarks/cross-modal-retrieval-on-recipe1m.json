@@ -1,0 +1,141 @@
+{
+  "title": "cross-modal-retrieval-on-recipe1m",
+  "task-hierarchy": [
+    "Cross-Modal Retrieval"
+  ],
+  "dataset-info": {
+    "link": "http://im2recipe.csail.mit.edu/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Image-to-text R@1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Text-to-image R@1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Vision and Structured-Language Pretraining for Cross-Modal Food Retrieval",
+          "link": "https://arxiv.org/abs/2212.04267v2"
+        },
+        "c": "https://github.com/mshukor/vlpcook",
+        "n": "VLPCook (R1M+)",
+        "d": "2022-12-08",
+        "m1": "74.9",
+        "m2": "75.6"
+      },
+      {
+        "p": {
+          "name": "Vision and Structured-Language Pretraining for Cross-Modal Food Retrieval",
+          "link": "https://arxiv.org/abs/2212.04267v2"
+        },
+        "c": "https://github.com/mshukor/vlpcook",
+        "n": "VLPCook",
+        "d": "2022-12-08",
+        "m1": "73.6",
+        "m2": "74.7"
+      },
+      {
+        "p": {
+          "name": "Transformer Decoders with MultiModal Regularization for Cross-Modal Food Retrieval",
+          "link": "https://arxiv.org/abs/2204.09730v1"
+        },
+        "c": "https://github.com/mshukor/tfood",
+        "n": "T-Food (CLIP)",
+        "d": "2022-04-20",
+        "m1": "72.3",
+        "m2": "72.6"
+      },
+      {
+        "p": {
+          "name": "Transformer Decoders with MultiModal Regularization for Cross-Modal Food Retrieval",
+          "link": "https://arxiv.org/abs/2204.09730v1"
+        },
+        "c": "https://github.com/mshukor/tfood",
+        "n": "T-Food",
+        "d": "2022-04-20",
+        "m1": "68.2",
+        "m2": "68.3"
+      },
+      {
+        "p": {
+          "name": "Cross-Modal Retrieval and Synthesis (X-MRS): Closing the Modality Gap in Shared Representation Learning",
+          "link": "https://arxiv.org/abs/2012.01345v3"
+        },
+        "c": "",
+        "n": "X-MRS",
+        "d": "2020-12-02",
+        "m1": "64",
+        "m2": "63.9"
+      },
+      {
+        "p": {
+          "name": "Revamping Cross-Modal Recipe Retrieval with Hierarchical Transformers and Self-supervised Learning",
+          "link": "https://arxiv.org/abs/2103.13061v1"
+        },
+        "c": "https://github.com/amzn/image-to-recipe-transformers",
+        "n": "H-T",
+        "d": "2021-03-24",
+        "m1": "60.0",
+        "m2": "60.3"
+      },
+      {
+        "p": {
+          "name": "Cross-Modal Food Retrieval: Learning a Joint Embedding of Food Images and Recipes with Semantic Consistency and Attention Mechanism",
+          "link": "https://arxiv.org/abs/2003.03955v3"
+        },
+        "c": "",
+        "n": "SCAN",
+        "d": "2020-03-09",
+        "m1": "54.0",
+        "m2": "54.9"
+      },
+      {
+        "p": {
+          "name": "Learning Cross-Modal Embeddings with Adversarial Networks for Cooking Recipes and Food Images",
+          "link": "https://arxiv.org/abs/1905.01273v1"
+        },
+        "c": "https://github.com/hwang1996/ACME",
+        "n": "ACME",
+        "d": "2019-05-03",
+        "m1": "51.8",
+        "m2": "52.8"
+      },
+      {
+        "p": {
+          "name": "Cross-Modal Retrieval in the Cooking Context: Learning Semantic Text-Image Embeddings",
+          "link": "http://arxiv.org/abs/1804.11146v1"
+        },
+        "c": "https://github.com/Cadene/recipe1m.bootstrap.pytorch",
+        "n": "AdaMine",
+        "d": "2018-04-30",
+        "m1": "39.8",
+        "m2": "40.2"
+      }
+    ]
+  }
+}

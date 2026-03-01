@@ -1,0 +1,217 @@
+{
+  "title": "human-instance-segmentation-on-ochuman",
+  "task-hierarchy": [
+    "Human Instance Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/liruilong940607/OCHumanApi"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Detection, Pose Estimation and Segmentation for Multiple Bodies: Closing the Virtuous Circle",
+          "link": "https://arxiv.org/abs/2412.01562v1"
+        },
+        "c": "https://github.com/MiraPurkrabek/BBoxMaskPose",
+        "n": "BBox-Mask-Pose 2x",
+        "d": "2024-12-02",
+        "m1": "32.4"
+      },
+      {
+        "p": {
+          "name": "Crowd-SAM: SAM as a Smart Annotator for Object Detection in Crowded Scenes",
+          "link": "https://arxiv.org/abs/2407.11464v2"
+        },
+        "c": "https://github.com/felixcaae/crowdsam",
+        "n": "Crowd-SAM (ViT-L)",
+        "d": "2024-07-16",
+        "m1": "31.4"
+      },
+      {
+        "p": {
+          "name": "You Only Learn One Query: Learning Unified Human Query for Single-Stage Multi-Person Multi-Task Human-Centric Perception",
+          "link": "https://arxiv.org/abs/2312.05525v3"
+        },
+        "c": "https://github.com/lishuhuai527/coco-unihuman",
+        "n": "HQNet (ResNet-50)",
+        "d": "2023-12-09",
+        "m1": "31.1"
+      },
+      {
+        "p": {
+          "name": "Real-time Human-Centric Segmentation for Complex Video Scenes",
+          "link": "https://arxiv.org/abs/2108.07199v1"
+        },
+        "c": "https://github.com/iigroup/hvisnet",
+        "n": "BlendMask + CIS",
+        "d": "2021-08-16",
+        "m1": "29.8"
+      },
+      {
+        "p": {
+          "name": "Humans need not label more humans: Occlusion Copy & Paste for Occluded Human Instance Segmentation",
+          "link": "https://arxiv.org/abs/2210.03686v1"
+        },
+        "c": "https://github.com/levan92/occlusion-copy-paste",
+        "n": "Mask2Former + Occlusion C&P",
+        "d": "2022-10-07",
+        "m1": "28.3"
+      },
+      {
+        "p": {
+          "name": "Real-time Human-Centric Segmentation for Complex Video Scenes",
+          "link": "https://arxiv.org/abs/2108.07199v1"
+        },
+        "c": "https://github.com/iigroup/hvisnet",
+        "n": "CondInst + CIS",
+        "d": "2021-08-16",
+        "m1": "28.1"
+      },
+      {
+        "p": {
+          "name": "Object-Centric Multi-Task Learning for Human Instances",
+          "link": "https://arxiv.org/abs/2303.06800v1"
+        },
+        "c": "",
+        "n": "Mask2Former",
+        "d": "2023-03-13",
+        "m1": "27.8"
+      },
+      {
+        "p": {
+          "name": "Object-Centric Multi-Task Learning for Human Instances",
+          "link": "https://arxiv.org/abs/2303.06800v1"
+        },
+        "c": "",
+        "n": "HCQNet",
+        "d": "2023-03-13",
+        "m1": "27.3"
+      },
+      {
+        "p": {
+          "name": "PoSeg: Pose-Aware Refinement Network for Human Instance Segmentation",
+          "link": "https://ieeexplore.ieee.org/document/8962018"
+        },
+        "c": "",
+        "n": "ExPoSeg",
+        "d": "2020-01-07",
+        "m1": "26.8"
+      },
+      {
+        "p": {
+          "name": "Detection, Pose Estimation and Segmentation for Multiple Bodies: Closing the Virtuous Circle",
+          "link": "https://arxiv.org/abs/2412.01562v1"
+        },
+        "c": "https://github.com/MiraPurkrabek/BBoxMaskPose",
+        "n": "RTMDet-ins-l",
+        "d": "2024-12-02",
+        "m1": "26.5"
+      },
+      {
+        "p": {
+          "name": "PoSeg: Pose-Aware Refinement Network for Human Instance Segmentation",
+          "link": "https://ieeexplore.ieee.org/document/8962018"
+        },
+        "c": "",
+        "n": "JoPoSeg",
+        "d": "2020-01-07",
+        "m1": "26.4"
+      },
+      {
+        "p": {
+          "name": "Object-Centric Multi-Task Learning for Human Instances",
+          "link": "https://arxiv.org/abs/2303.06800v1"
+        },
+        "c": "",
+        "n": "BaseNet-DPS",
+        "d": "2023-03-13",
+        "m1": "25.5"
+      },
+      {
+        "p": {
+          "name": "Pose2Seg: Detection Free Human Instance Segmentation",
+          "link": "http://arxiv.org/abs/1803.10683v3"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
+        "n": "Pose2Seg",
+        "d": "2018-03-28",
+        "m1": "23.8"
+      },
+      {
+        "p": {
+          "name": "Real-time Human-Centric Segmentation for Complex Video Scenes",
+          "link": "https://arxiv.org/abs/2108.07199v1"
+        },
+        "c": "https://github.com/iigroup/hvisnet",
+        "n": "PolarMask + CIS",
+        "d": "2021-08-16",
+        "m1": "23.4"
+      },
+      {
+        "p": {
+          "name": "Test-time Adaptation vs. Training-time Generalization: A Case Study in Human Instance Segmentation using Keypoints Estimation",
+          "link": "https://arxiv.org/abs/2212.06242v1"
+        },
+        "c": "",
+        "n": "ResNet-101-FPN + TTG v1",
+        "d": "2022-12-12",
+        "m1": "22.42"
+      },
+      {
+        "p": {
+          "name": "Occlusion-Aware Instance Segmentation via BiLayer Network Architectures",
+          "link": "https://arxiv.org/abs/2208.04438v2"
+        },
+        "c": "https://github.com/lkeab/BCNet",
+        "n": "BCNet",
+        "d": "2022-08-08",
+        "m1": "20.6"
+      },
+      {
+        "p": {
+          "name": "Count- and Similarity-aware R-CNN for Pedestrian Detection",
+          "link": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/2678_ECCV_2020_paper.php"
+        },
+        "c": "",
+        "n": "CaSe",
+        "d": null,
+        "m1": "18.0"
+      },
+      {
+        "p": {
+          "name": "Count- and Similarity-aware R-CNN for Pedestrian Detection",
+          "link": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/2678_ECCV_2020_paper.php"
+        },
+        "c": "",
+        "n": "Mask RCNN",
+        "d": null,
+        "m1": "16.9"
+      }
+    ]
+  }
+}

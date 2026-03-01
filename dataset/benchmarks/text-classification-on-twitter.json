@@ -1,0 +1,68 @@
+{
+  "title": "text-classification-on-twitter",
+  "task-hierarchy": [
+    "Classification",
+    "Text Classification"
+  ],
+  "dataset-info": {
+    "link": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Transformers are Short Text Classifiers: A Study of Inductive Short Text Classifiers on Benchmarks and Real-world Datasets",
+          "link": "https://arxiv.org/abs/2211.16878v3"
+        },
+        "c": "https://github.com/FKarl/short-text-classification",
+        "n": "ERNIE 2.0",
+        "d": "2022-11-30",
+        "m1": "99.97"
+      },
+      {
+        "p": {
+          "name": "Transformers are Short Text Classifiers: A Study of Inductive Short Text Classifiers on Benchmarks and Real-world Datasets",
+          "link": "https://arxiv.org/abs/2211.16878v3"
+        },
+        "c": "https://github.com/FKarl/short-text-classification",
+        "n": "BERT",
+        "d": "2022-11-30",
+        "m1": "99.96"
+      },
+      {
+        "p": {
+          "name": "Transformers are Short Text Classifiers: A Study of Inductive Short Text Classifiers on Benchmarks and Real-world Datasets",
+          "link": "https://arxiv.org/abs/2211.16878v3"
+        },
+        "c": "https://github.com/FKarl/short-text-classification",
+        "n": "DistilBERT",
+        "d": "2022-11-30",
+        "m1": "99.96"
+      }
+    ]
+  }
+}

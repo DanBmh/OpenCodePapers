@@ -1,0 +1,69 @@
+{
+  "title": "face-parsing-on-helen",
+  "task-hierarchy": [
+    "2D Semantic Segmentation",
+    "Scene Parsing",
+    "Face Parsing"
+  ],
+  "dataset-info": {
+    "link": "http://www.ifp.illinois.edu/~vuongle2/helen/"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Mean F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Decoupled Multi-task Learning with Cyclical Self-Regulation for Face Parsing",
+          "link": "https://arxiv.org/abs/2203.14448v1"
+        },
+        "c": "https://github.com/deepinsight/insightface",
+        "n": "DML-CSR",
+        "d": "2022-03-28",
+        "m1": "93.8"
+      },
+      {
+        "p": {
+          "name": "Fake It Till You Make It: Face analysis in the wild using synthetic data alone",
+          "link": "https://arxiv.org/abs/2109.15102v2"
+        },
+        "c": "",
+        "n": "UNet (synthetic)",
+        "d": "2021-09-30",
+        "m1": "92"
+      },
+      {
+        "p": {
+          "name": "Fake It Till You Make It: Face analysis in the wild using synthetic data alone",
+          "link": "https://arxiv.org/abs/2109.15102v2"
+        },
+        "c": "",
+        "n": "UNet (real)",
+        "d": "2021-09-30",
+        "m1": "91.6"
+      }
+    ]
+  }
+}

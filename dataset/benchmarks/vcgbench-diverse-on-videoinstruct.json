@@ -1,0 +1,185 @@
+{
+  "title": "vcgbench-diverse-on-videoinstruct",
+  "task-hierarchy": [
+    "VCGBench-Diverse"
+  ],
+  "dataset-info": {
+    "link": "https://mbzuai-oryx.github.io/Video-ChatGPT"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mean",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Correctness of Information",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Detail Orientation",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Contextual Understanding",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Temporal Understanding",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "Consistency",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "Dense Captioning",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "Spatial Understanding",
+        "sortable": "true"
+      },
+      {
+        "key": "m9",
+        "label": "Reasoning",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "VideoGPT+: Integrating Image and Video Encoders for Enhanced Video Understanding",
+          "link": "https://arxiv.org/abs/2406.09418v1"
+        },
+        "c": "https://github.com/mbzuai-oryx/videogpt-plus",
+        "n": "VideoGPT+",
+        "d": "2024-06-13",
+        "m1": "2.47",
+        "m2": "2.46",
+        "m3": "2.73",
+        "m4": "2.81",
+        "m5": "1.78",
+        "m6": "2.59",
+        "m7": "1.38",
+        "m8": "2.80",
+        "m9": "3.63"
+      },
+      {
+        "p": {
+          "name": "Chat-UniVi: Unified Visual Representation Empowers Large Language Models with Image and Video Understanding",
+          "link": "https://arxiv.org/abs/2311.08046v3"
+        },
+        "c": "https://github.com/pku-yuangroup/chat-univi",
+        "n": "Chat-UniVi",
+        "d": "2023-11-14",
+        "m1": "2.29",
+        "m2": "2.29",
+        "m3": "2.56",
+        "m4": "2.66",
+        "m5": "1.56",
+        "m6": "2.36",
+        "m7": "1.33",
+        "m8": "2.36",
+        "m9": "3.59"
+      },
+      {
+        "p": {
+          "name": "MVBench: A Comprehensive Multi-modal Video Understanding Benchmark",
+          "link": "https://arxiv.org/abs/2311.17005v4"
+        },
+        "c": "https://github.com/opengvlab/ask-anything",
+        "n": "VideoChat2",
+        "d": "2023-11-28",
+        "m1": "2.20",
+        "m2": "2.13",
+        "m3": "2.42",
+        "m4": "2.51",
+        "m5": "1.66",
+        "m6": "2.27",
+        "m7": "1.26",
+        "m8": "2.43",
+        "m9": "3.13"
+      },
+      {
+        "p": {
+          "name": "BT-Adapter: Video Conversation is Feasible Without Video Instruction Tuning",
+          "link": "https://arxiv.org/abs/2309.15785v2"
+        },
+        "c": "https://github.com/farewellthree/BT-Adapter",
+        "n": "BT-Adapter",
+        "d": "2023-09-27",
+        "m1": "2.19",
+        "m2": "2.20",
+        "m3": "2.62",
+        "m4": "2.59",
+        "m5": "1.29",
+        "m6": "2.27",
+        "m7": "1.03",
+        "m8": "2.35",
+        "m9": "3.62"
+      },
+      {
+        "p": {
+          "name": "VTimeLLM: Empower LLM to Grasp Video Moments",
+          "link": "https://arxiv.org/abs/2311.18445v1"
+        },
+        "c": "https://github.com/huangb23/vtimellm",
+        "n": "VTimeLLM",
+        "d": "2023-11-30",
+        "m1": "2.17",
+        "m2": "2.16",
+        "m3": "2.41",
+        "m4": "2.48",
+        "m5": "1.46",
+        "m6": "2.35",
+        "m7": "1.13",
+        "m8": "2.29",
+        "m9": "3.45"
+      },
+      {
+        "p": {
+          "name": "Video-ChatGPT: Towards Detailed Video Understanding via Large Vision and Language Models",
+          "link": "https://arxiv.org/abs/2306.05424v2"
+        },
+        "c": "https://github.com/mbzuai-oryx/video-chatgpt",
+        "n": "Video-ChatGPT",
+        "d": "2023-06-08",
+        "m1": "2.08",
+        "m2": "2.07",
+        "m3": "2.42",
+        "m4": "2.46",
+        "m5": "1.39",
+        "m6": "2.06",
+        "m7": "0.89",
+        "m8": "2.25",
+        "m9": "3.60"
+      }
+    ]
+  }
+}
