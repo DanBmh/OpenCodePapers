@@ -54,7 +54,7 @@ def main():
 
     entries = list_badges(badges_dir)
     content = render_overview(entries)
-    html_doc = template.replace("{{content}}", content)
+    html_doc = template.replace("<!--[content]-->", content)
 
     with open(out_file, "w", encoding="utf-8") as f:
         f.write(html_doc)

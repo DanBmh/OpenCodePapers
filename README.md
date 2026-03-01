@@ -20,6 +20,8 @@ The initial data was taken from the now discontinued [PapersWithCode](https://gi
 To keep the results up to date, help from the community is required. \
 See [CONTRIBUTING](./CONTRIBUTING.md) for more info.
 
+<br>
+
 ## Badges
 
 If you like, you can include badges in your repository readme to show the current benchmark rank of your project.
