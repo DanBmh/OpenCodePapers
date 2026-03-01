@@ -1,18 +1,22 @@
 import json
+import os
 import re
 import sys
-from pathlib import Path
+
+# ==================================================================================================
+
+benchmark_dir = "dataset/benchmarks/"
 
 # ==================================================================================================
 
 
-def check_title_equals_filename(data: dict, path: Path):
+def check_benchmark_title(data: dict, path: str):
 
     title = data.get("title")
     if not title:
         return [f"{path}: Missing 'title' key in JSON."]
 
-    expected = path.stem
+    expected = os.path.splitext(os.path.basename(path))[0]
     if title != expected:
         return [
             (
@@ -22,13 +26,22 @@ def check_title_equals_filename(data: dict, path: Path):
             )
         ]
 
+    # Check that title only contains allowed characters
+    if not re.match(r"^[a-z0-9-]+$", title):
+        return [
+            (
+                f"{path}: Title contains invalid characters. Only [a-z0-9-] are allowed.\n"
+                f"  found title: {title!r}"
+            )
+        ]
+
     return []
 
 
 # ==================================================================================================
 
 
-def check_dataset_link(data: dict, path: Path):
+def check_dataset_link(data: dict, path: str):
 
     dataset_info = data.get("dataset-info")
     if not dataset_info:
@@ -47,7 +60,7 @@ def check_dataset_link(data: dict, path: Path):
 # ==================================================================================================
 
 
-def check_task_hierarchy(data: dict, path: Path):
+def check_task_hierarchy(data: dict, path: str):
 
     task_hierarchy = data.get("task-hierarchy")
     if not task_hierarchy:
@@ -68,7 +81,7 @@ def check_task_hierarchy(data: dict, path: Path):
 # ==================================================================================================
 
 
-def check_benchmark_structure(data: dict, path: Path):
+def check_benchmark_structure(data: dict, path: str):
 
     errors = []
 
@@ -176,7 +189,7 @@ def check_benchmark_structure(data: dict, path: Path):
 # ==================================================================================================
 
 
-def check_malicious_injections(data: dict, path: Path):
+def check_malicious_injections(data: dict, path: str):
 
     # Convert data dict to string for scanning
     text = json.dumps(data)
@@ -226,31 +239,34 @@ def check_malicious_injections(data: dict, path: Path):
 
 def main() -> int:
 
-    JSON_DIR = "dataset/benchmarks/"
-
-    root = Path(JSON_DIR).resolve()
-    if not root.exists() or not root.is_dir():
-        print(
-            f"ERROR: JSON_DIR does not exist or is not a directory: {root}",
-            file=sys.stderr,
-        )
-        return 2
-
-    # check that all items in the directory are json files
-    for item in root.iterdir():
-        if item.is_file() and item.suffix != ".json":
-            print(f"ERROR: Non-JSON file found in {root}: {item}", file=sys.stderr)
-            return 1
-
-    json_files = [p for p in root.rglob("*.json") if p.is_file()]
-    if not json_files:
-        print(f"No JSON files found under {root}")
+    # Check that all items in the directory are json files
+    files = sorted(os.listdir(benchmark_dir))
+    if len(files) == 0:
+        print(f"No files found in {benchmark_dir}.")
         return 0
+    for item in files:
+        if not item.endswith(".json"):
+            print(
+                f"ERROR: Non-JSON file found in {benchmark_dir}: {item}",
+                file=sys.stderr,
+            )
+            return 1
+    files = [os.path.join(benchmark_dir, f) for f in files]
+    for item in files:
+        if not os.path.isfile(item):
+            print(
+                f"ERROR: Non-file item found in {benchmark_dir}: {item}",
+                file=sys.stderr,
+            )
+            return 1
+    json_files = files
 
+    # Check each JSON file
     all_errors = []
     for path in sorted(json_files):
         try:
-            data = json.loads(path.read_text(encoding="utf-8"))
+            with open(path, "r", encoding="utf-8") as f:
+                data = json.load(f)
         except json.JSONDecodeError as e:
             all_errors.append(f"{path}: Failed to parse JSON: {e}")
             continue
@@ -258,7 +274,7 @@ def main() -> int:
             all_errors.append(f"{path}: Failed to read file as UTF-8: {e}")
             continue
 
-        all_errors.extend(check_title_equals_filename(data, path))
+        all_errors.extend(check_benchmark_title(data, path))
         all_errors.extend(check_dataset_link(data, path))
         all_errors.extend(check_task_hierarchy(data, path))
         all_errors.extend(check_benchmark_structure(data, path))
