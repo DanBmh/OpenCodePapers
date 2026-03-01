@@ -6,7 +6,7 @@ from pathlib import Path
 # ==================================================================================================
 
 
-def check_title_equals_filename(data: dict, path: Path):
+def check_benchmark_title(data: dict, path: Path):
 
     title = data.get("title")
     if not title:
@@ -19,6 +19,15 @@ def check_title_equals_filename(data: dict, path: Path):
                 f"{path}: Title must equal filename without extension.\n"
                 f"  found title:    {title!r}\n"
                 f"  expected title: {expected!r}"
+            )
+        ]
+
+    # Check that title only contains allowed characters
+    if not re.match(r"^[a-z0-9-]+$", title):
+        return [
+            (
+                f"{path}: Title contains invalid characters. Only [a-z0-9-] are allowed.\n"
+                f"  found title: {title!r}"
             )
         ]
 
@@ -258,7 +267,7 @@ def main() -> int:
             all_errors.append(f"{path}: Failed to read file as UTF-8: {e}")
             continue
 
-        all_errors.extend(check_title_equals_filename(data, path))
+        all_errors.extend(check_benchmark_title(data, path))
         all_errors.extend(check_dataset_link(data, path))
         all_errors.extend(check_task_hierarchy(data, path))
         all_errors.extend(check_benchmark_structure(data, path))
