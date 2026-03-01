@@ -115,6 +115,9 @@ pages:
     - python3 build_tasks_data.py
     - python3 build_website_bench.py
     - python3 build_website_tasks.py
+    # Badges
+    - python3 extras/badges/generate_badges.py
+    - python3 extras/badges/make_file_overview.py
   artifacts:
     paths:
       - public

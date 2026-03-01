@@ -19,3 +19,15 @@ The initial data was taken from the now discontinued [PapersWithCode](https://gi
 
 To keep the results up to date, help from the community is required. \
 See [CONTRIBUTING](./CONTRIBUTING.md) for more info.
+
+## Badges
+
+If you like, you can include badges in your repository readme to show the current benchmark rank of your project.
+
+[![OpenCodePapers](https://opencodepapers-b7572d.gitlab.io/badges/3d-multi-person-pose-estimation-on-shelf/gitlab-com--percipiote--rapidposetriangulation---rapidposetriangulation--with-corrected-labels.svg)](https://opencodepapers-b7572d.gitlab.io/benchmarks/3d-multi-person-pose-estimation-on-shelf.html)
+
+Include it with the following template. Replace `[benchmark]` and get `[badgename]` by searching for the _benchmark_ and then the _project_ on the file overview at: [Link](https://opencodepapers-b7572d.gitlab.io/badges/)
+
+```markdown
+[![OpenCodePapers](https://opencodepapers-b7572d.gitlab.io/badges/[benchmark]/[badgename].svg)](https://opencodepapers-b7572d.gitlab.io/benchmarks/[benchmark].html)
+```
