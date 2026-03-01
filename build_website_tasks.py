@@ -118,7 +118,7 @@ HTML_SCAFFOLD = r"""<!DOCTYPE html>
       <button class="btn" id="collapse-all">Collapse all</button>
     </div>
     <div class="search" style="grid-column: 1 / -1;">
-      <input id="q" type="search" placeholder="Filter tasks… (e.g., ‘pose estimation’ or ‘coco’)">
+      <input id="q" type="search" placeholder="Filter tasks… (e.g., 'pose estimation' or 'coco')">
       <span class="stats" id="stats"></span>
     </div>
   </div>
