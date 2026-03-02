@@ -183,6 +183,19 @@ def check_benchmark_structure(data: dict, path: str):
                         f"{path}: 'benchmark.items[{idx}].c' is not a valid URL: {code_link!r}"
                     )
 
+    # Check date fields are in YYYY-MM-DD format
+    date_pattern = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+    if "items" in benchmark and isinstance(benchmark["items"], list):
+        for idx, item in enumerate(benchmark["items"]):
+            if not isinstance(item, dict):
+                continue
+            if "d" in item:
+                date_value = item["d"]
+                if date_value and not date_pattern.match(str(date_value)):
+                    errors.append(
+                        f"{path}: 'benchmark.items[{idx}].d' must be YYYY-MM-DD: {date_value!r}"
+                    )
+
     return errors
 
 

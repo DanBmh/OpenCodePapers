@@ -265,8 +265,7 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
     # Add link to file source (JSON version)
     note = (
         " Then edit <a href="
-        + '"https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/dataset/benchmarks/{}'
-        + '?plain=0"'
+        + '"https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/dataset/benchmarks/{}"'
         + ' target="_blank" rel="noopener noreferrer">this</a> file.'
     )
     note = note.format(os.path.basename(out_path).replace("html", "json"))
