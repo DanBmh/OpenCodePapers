@@ -1,0 +1,109 @@
+{
+  "title": "short-term-object-interaction-anticipation-on-ego4d",
+  "task-hierarchy": [
+    "Short-term Object Interaction Anticipation"
+  ],
+  "dataset-info": {
+    "link": "https://ego4d-data.org/",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Overall (Top5 mAP)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Noun (Top5 mAP)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Noun+Verb(Top5 mAP)",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Noun+TTC (Top5 mAP)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "EgoVideo: Exploring Egocentric Foundation Model and Downstream Adaptation",
+          "link": "https://arxiv.org/abs/2406.18070v4",
+          "authors": "Baoqi Pei, Guo Chen, Jilan Xu, Yuping He, Yicheng Liu, Kanghua Pan, Yifei HUANG, Yali Wang, Tong Lu, LiMin Wang, Yu Qiao"
+        },
+        "c": "https://github.com/opengvlab/egovideo",
+        "n": "EgoVideo",
+        "d": "2024-06-26",
+        "m1": "7.21",
+        "m2": "31.08",
+        "m3": "16.18",
+        "m4": "12.41"
+      },
+      {
+        "p": {
+          "name": "Short-term Object Interaction Anticipation with Disentangled Object Detection @ Ego4D Short Term Object Interaction Anticipation Challenge",
+          "link": "https://arxiv.org/abs/2407.05713v1",
+          "authors": "Hyunjin Cho, Dong Un Kang, Se Young Chun"
+        },
+        "c": "https://github.com/keenyjin/soia-dod",
+        "n": "SOIA-DOD",
+        "d": "2024-07-08",
+        "m1": "6.221",
+        "m2": "34.886",
+        "m3": "17.614",
+        "m4": "10.907"
+      },
+      {
+        "p": {
+          "name": "Guided Attention for Next Active Object @ EGO4D STA Challenge",
+          "link": "https://arxiv.org/abs/2305.16066v3",
+          "authors": "Sanket Thakur, Cigdem Beyan, Pietro Morerio, Vittorio Murino, Alessio Del Bue"
+        },
+        "c": "https://github.com/sanketsans/ganov2",
+        "n": "GANOv2",
+        "d": "2023-05-25",
+        "m1": "3.99",
+        "m2": "20.52",
+        "m3": "10.42",
+        "m4": "7.28"
+      },
+      {
+        "p": {
+          "name": "InternVideo-Ego4D: A Pack of Champion Solutions to Ego4D Challenges",
+          "link": "https://arxiv.org/abs/2211.09529v1",
+          "authors": "Guo Chen, Sen Xing, Zhe Chen, Yi Wang, Kunchang Li, Yizhuo Li, Yi Liu, Jiahao Wang, Yin-Dong Zheng, Bingkun Huang, Zhiyu Zhao, Junting Pan, Yifei HUANG, Zun Wang, Jiashuo Yu, Yinan He, Hongjie Zhang, Tong Lu, Yali Wang, LiMin Wang, Yu Qiao"
+        },
+        "c": "https://github.com/opengvlab/ego4d-eccv2022-solutions",
+        "n": "InternVideo",
+        "d": "2022-11-17",
+        "m1": "3.4",
+        "m2": "24.6",
+        "m3": "9.18",
+        "m4": "7.64"
+      }
+    ]
+  }
+}

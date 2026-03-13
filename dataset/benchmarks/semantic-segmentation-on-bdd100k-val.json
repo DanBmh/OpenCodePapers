@@ -36,7 +36,8 @@
       {
         "p": {
           "name": "Strong but simple: A Baseline for Domain Generalized Dense Perception by CLIP-based Transfer Learning",
-          "link": "https://arxiv.org/abs/2312.02021v4"
+          "link": "https://arxiv.org/abs/2312.02021v4",
+          "authors": "Christoph Hümmer, Manuel Schwonberg, Liangwei Zhou, Hu Cao, Alois Knoll, Hanno Gottschalk"
         },
         "c": "https://github.com/VLTSeg/VLTSeg",
         "n": "VLTSeg",
@@ -46,7 +47,8 @@
       {
         "p": {
           "name": "SERNet-Former: Semantic Segmentation by Efficient Residual Network with Attention-Boosting Gates and Attention-Fusion Networks",
-          "link": "https://arxiv.org/abs/2401.15741v7"
+          "link": "https://arxiv.org/abs/2401.15741v7",
+          "authors": "Serdar Erisen"
         },
         "c": "https://github.com/serdarch/sernet-former",
         "n": "SERNet-Former_v2",
@@ -56,7 +58,8 @@
       {
         "p": {
           "name": "DSNet: A Novel Way to Use Atrous Convolutions in Semantic Segmentation",
-          "link": "https://arxiv.org/abs/2406.03702v1"
+          "link": "https://arxiv.org/abs/2406.03702v1",
+          "authors": "Zilu Guo, Liuyang Bian, Xuan Huang, Hu Wei, Jingyu Li, Huasheng Ni"
         },
         "c": "https://github.com/takaniwa/dsnet",
         "n": "DSNet-Base",
@@ -66,7 +69,8 @@
       {
         "p": {
           "name": "Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation",
-          "link": "http://arxiv.org/abs/1802.02611v3"
+          "link": "http://arxiv.org/abs/1802.02611v3",
+          "authors": "Liang-Chieh Chen, Yukun Zhu, George Papandreou, Florian Schroff, Hartwig Adam"
         },
         "c": "https://github.com/tensorflow/models/tree/master/research/deeplab",
         "n": "Deeplabv3+",
@@ -76,7 +80,8 @@
       {
         "p": {
           "name": "Dual Attention Network for Scene Segmentation",
-          "link": "http://arxiv.org/abs/1809.02983v4"
+          "link": "http://arxiv.org/abs/1809.02983v4",
+          "authors": "Jun Fu, Jing Liu, Haijie Tian, Yong Li, Yongjun Bao, Zhiwei Fang, Hanqing Lu"
         },
         "c": "https://github.com/xmu-xiaoma666/External-Attention-pytorch",
         "n": "DANet",
@@ -85,8 +90,20 @@
       },
       {
         "p": {
+          "name": "DSNet: A Novel Way to Use Atrous Convolutions in Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2406.03702v1",
+          "authors": "Zilu Guo, Liuyang Bian, Xuan Huang, Hu Wei, Jingyu Li, Huasheng Ni"
+        },
+        "c": "https://github.com/takaniwa/dsnet",
+        "n": "DSNet-head64",
+        "d": "2024-06-06",
+        "m1": "62.6(172.2FPS 4090)"
+      },
+      {
+        "p": {
           "name": "Pyramid Scene Parsing Network",
-          "link": "http://arxiv.org/abs/1612.01105v2"
+          "link": "http://arxiv.org/abs/1612.01105v2",
+          "authors": "Hengshuang Zhao, Jianping Shi, Xiaojuan Qi, Xiaogang Wang, Jiaya Jia"
         },
         "c": "https://github.com/tensorflow/models",
         "n": "PSPNet",
@@ -96,7 +113,8 @@
       {
         "p": {
           "name": "Expectation-Maximization Attention Networks for Semantic Segmentation",
-          "link": "https://arxiv.org/abs/1907.13426v2"
+          "link": "https://arxiv.org/abs/1907.13426v2",
+          "authors": "Xia Li, Zhisheng Zhong, Jianlong Wu, Yibo Yang, Zhouchen Lin, Hong Liu"
         },
         "c": "https://github.com/open-mmlab/mmsegmentation",
         "n": "EMANet",
@@ -105,138 +123,9 @@
       },
       {
         "p": {
-          "name": "Segmentation Transformer: Object-Contextual Representations for Semantic Segmentation",
-          "link": "https://arxiv.org/abs/1909.11065v6"
-        },
-        "c": "https://github.com/open-mmlab/mmsegmentation",
-        "n": "OCRNet",
-        "d": "2019-09-24",
-        "m1": "60.1"
-      },
-      {
-        "p": {
-          "name": "What's There in the Dark",
-          "link": "https://ieeexplore.ieee.org/document/8803299"
-        },
-        "c": "https://github.com/sauradip/night_image_semantic_segmentation",
-        "n": "NiseNet",
-        "d": "2019-09-24",
-        "m1": "53.52"
-      },
-      {
-        "p": {
-          "name": "MRFP: Learning Generalizable Semantic Segmentation from Sim-2-Real with Multi-Resolution Feature Perturbation",
-          "link": "https://arxiv.org/abs/2311.18331v2"
-        },
-        "c": "https://github.com/airl-iisc/MRFP",
-        "n": "MRFP+(Ours) Resnet50",
-        "d": "2023-11-30",
-        "m1": "39.55"
-      },
-      {
-        "p": {
-          "name": "MRFP: Learning Generalizable Semantic Segmentation from Sim-2-Real with Multi-Resolution Feature Perturbation",
-          "link": "https://arxiv.org/abs/2311.18331v2"
-        },
-        "c": "https://github.com/airl-iisc/MRFP",
-        "n": "Resnet50",
-        "d": "2023-11-30",
-        "m1": "31.44"
-      },
-      {
-        "p": {
-          "name": "BiSeNet: Bilateral Segmentation Network for Real-time Semantic Segmentation",
-          "link": "http://arxiv.org/abs/1808.00897v1"
-        },
-        "c": "https://github.com/PaddlePaddle/PaddleSeg",
-        "n": "BiSeNet-V1(ResNet-18)",
-        "d": "2018-08-02",
-        "m1": "53.8(45.1fps)"
-      },
-      {
-        "p": {
-          "name": "ICNet for Real-Time Semantic Segmentation on High-Resolution Images",
-          "link": "http://arxiv.org/abs/1704.08545v2"
-        },
-        "c": "https://github.com/osmr/imgclsmob",
-        "n": "ICNet",
-        "d": "2017-04-27",
-        "m1": "52.4(39.5fps)"
-      },
-      {
-        "p": {
-          "name": "Fast and Accurate Scene Parsing via Bi-direction Alignment Networks",
-          "link": "https://arxiv.org/abs/2105.11651v1"
-        },
-        "c": "https://github.com/jojacola/BiAlignNet",
-        "n": "Bi-Align",
-        "d": "2021-05-25",
-        "m1": "53.4(42.1fps)"
-      },
-      {
-        "p": {
-          "name": "Partial Order Pruning: for Best Speed/Accuracy Trade-off in Neural Architecture Search",
-          "link": "http://arxiv.org/abs/1903.03777v2"
-        },
-        "c": "https://github.com/lixincn2015/Partial-Order-Pruning",
-        "n": "DF1-Seg",
-        "d": "2019-03-09",
-        "m1": "42.5(82.3fps)"
-      },
-      {
-        "p": {
-          "name": "Partial Order Pruning: for Best Speed/Accuracy Trade-off in Neural Architecture Search",
-          "link": "http://arxiv.org/abs/1903.03777v2"
-        },
-        "c": "https://github.com/lixincn2015/Partial-Order-Pruning",
-        "n": "DF2-Seg",
-        "d": "2019-03-09",
-        "m1": "47.8(53.4fps)"
-      },
-      {
-        "p": {
-          "name": "Rethinking BiSeNet For Real-time Semantic Segmentation",
-          "link": "https://arxiv.org/abs/2104.13188v1"
-        },
-        "c": "https://github.com/PaddlePaddle/PaddleSeg",
-        "n": "STDC1",
-        "d": "2021-04-27",
-        "m1": "52.1(45.8FPS)"
-      },
-      {
-        "p": {
-          "name": "Rethinking BiSeNet For Real-time Semantic Segmentation",
-          "link": "https://arxiv.org/abs/2104.13188v1"
-        },
-        "c": "https://github.com/PaddlePaddle/PaddleSeg",
-        "n": "STDC2",
-        "d": "2021-04-27",
-        "m1": "53.8(33.0FPS)"
-      },
-      {
-        "p": {
           "name": "Semantic Flow for Fast and Accurate Scene Parsing",
-          "link": "https://arxiv.org/abs/2002.10120v3"
-        },
-        "c": "https://github.com/PaddlePaddle/PaddleSeg",
-        "n": "SFNet(DF2)",
-        "d": "2020-02-24",
-        "m1": "60.2(208FPS 4090)"
-      },
-      {
-        "p": {
-          "name": "Semantic Flow for Fast and Accurate Scene Parsing",
-          "link": "https://arxiv.org/abs/2002.10120v3"
-        },
-        "c": "https://github.com/PaddlePaddle/PaddleSeg",
-        "n": "SFNet(DF1)",
-        "d": "2020-02-24",
-        "m1": "55.4(70.3fps)"
-      },
-      {
-        "p": {
-          "name": "Semantic Flow for Fast and Accurate Scene Parsing",
-          "link": "https://arxiv.org/abs/2002.10120v3"
+          "link": "https://arxiv.org/abs/2002.10120v3",
+          "authors": "Xiangtai Li, Ansheng You, Zhen Zhu, Houlong Zhao, Maoke Yang, Kuiyuan Yang, Yunhai Tong"
         },
         "c": "https://github.com/PaddlePaddle/PaddleSeg",
         "n": "SFNet(ResNet-18)",
@@ -246,7 +135,8 @@
       {
         "p": {
           "name": "SFNet: Faster, Accurate, and Domain Agnostic Semantic Segmentation via Semantic Flow",
-          "link": "https://arxiv.org/abs/2207.04415v1"
+          "link": "https://arxiv.org/abs/2207.04415v1",
+          "authors": "Xiangtai Li, Jiangning Zhang, Yibo Yang, Guangliang Cheng, Kuiyuan Yang, Yunhai Tong, DaCheng Tao"
         },
         "c": "https://github.com/lxtGH/SFSegNets",
         "n": "SFNet-Lite(ResNet-18)",
@@ -256,7 +146,8 @@
       {
         "p": {
           "name": "SFNet: Faster, Accurate, and Domain Agnostic Semantic Segmentation via Semantic Flow",
-          "link": "https://arxiv.org/abs/2207.04415v1"
+          "link": "https://arxiv.org/abs/2207.04415v1",
+          "authors": "Xiangtai Li, Jiangning Zhang, Yibo Yang, Guangliang Cheng, Kuiyuan Yang, Yunhai Tong, DaCheng Tao"
         },
         "c": "https://github.com/lxtGH/SFSegNets",
         "n": "SFNet-Lite(STDC2)",
@@ -265,13 +156,146 @@
       },
       {
         "p": {
-          "name": "DSNet: A Novel Way to Use Atrous Convolutions in Semantic Segmentation",
-          "link": "https://arxiv.org/abs/2406.03702v1"
+          "name": "Semantic Flow for Fast and Accurate Scene Parsing",
+          "link": "https://arxiv.org/abs/2002.10120v3",
+          "authors": "Xiangtai Li, Ansheng You, Zhen Zhu, Houlong Zhao, Maoke Yang, Kuiyuan Yang, Yunhai Tong"
         },
-        "c": "https://github.com/takaniwa/dsnet",
-        "n": "DSNet-head64",
-        "d": "2024-06-06",
-        "m1": "62.6(172.2FPS 4090)"
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
+        "n": "SFNet(DF2)",
+        "d": "2020-02-24",
+        "m1": "60.2(208FPS 4090)"
+      },
+      {
+        "p": {
+          "name": "Segmentation Transformer: Object-Contextual Representations for Semantic Segmentation",
+          "link": "https://arxiv.org/abs/1909.11065v6",
+          "authors": "Yuhui Yuan, Xiaokang Chen, Xilin Chen, Jingdong Wang"
+        },
+        "c": "https://github.com/open-mmlab/mmsegmentation",
+        "n": "OCRNet",
+        "d": "2019-09-24",
+        "m1": "60.1"
+      },
+      {
+        "p": {
+          "name": "Semantic Flow for Fast and Accurate Scene Parsing",
+          "link": "https://arxiv.org/abs/2002.10120v3",
+          "authors": "Xiangtai Li, Ansheng You, Zhen Zhu, Houlong Zhao, Maoke Yang, Kuiyuan Yang, Yunhai Tong"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
+        "n": "SFNet(DF1)",
+        "d": "2020-02-24",
+        "m1": "55.4(70.3fps)"
+      },
+      {
+        "p": {
+          "name": "BiSeNet: Bilateral Segmentation Network for Real-time Semantic Segmentation",
+          "link": "http://arxiv.org/abs/1808.00897v1",
+          "authors": "Changqian Yu, Jingbo Wang, Chao Peng, Changxin Gao, Gang Yu, Nong Sang"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
+        "n": "BiSeNet-V1(ResNet-18)",
+        "d": "2018-08-02",
+        "m1": "53.8(45.1fps)"
+      },
+      {
+        "p": {
+          "name": "Rethinking BiSeNet For Real-time Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2104.13188v1",
+          "authors": "Mingyuan Fan, Shenqi Lai, Junshi Huang, Xiaoming Wei, Zhenhua Chai, Junfeng Luo, Xiaolin Wei"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
+        "n": "STDC2",
+        "d": "2021-04-27",
+        "m1": "53.8(33.0FPS)"
+      },
+      {
+        "p": {
+          "name": "What's There in the Dark",
+          "link": "https://ieeexplore.ieee.org/document/8803299",
+          "authors": ""
+        },
+        "c": "https://github.com/sauradip/night_image_semantic_segmentation",
+        "n": "NiseNet",
+        "d": "2019-09-24",
+        "m1": "53.52"
+      },
+      {
+        "p": {
+          "name": "Fast and Accurate Scene Parsing via Bi-direction Alignment Networks",
+          "link": "https://arxiv.org/abs/2105.11651v1",
+          "authors": "Yanran Wu, Xiangtai Li, Chen Shi, Yunhai Tong, Yang Hua, Tao Song, Ruhui Ma, Haibing Guan"
+        },
+        "c": "https://github.com/jojacola/BiAlignNet",
+        "n": "Bi-Align",
+        "d": "2021-05-25",
+        "m1": "53.4(42.1fps)"
+      },
+      {
+        "p": {
+          "name": "ICNet for Real-Time Semantic Segmentation on High-Resolution Images",
+          "link": "http://arxiv.org/abs/1704.08545v2",
+          "authors": "Hengshuang Zhao, Xiaojuan Qi, Xiaoyong Shen, Jianping Shi, Jiaya Jia"
+        },
+        "c": "https://github.com/osmr/imgclsmob",
+        "n": "ICNet",
+        "d": "2017-04-27",
+        "m1": "52.4(39.5fps)"
+      },
+      {
+        "p": {
+          "name": "Rethinking BiSeNet For Real-time Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2104.13188v1",
+          "authors": "Mingyuan Fan, Shenqi Lai, Junshi Huang, Xiaoming Wei, Zhenhua Chai, Junfeng Luo, Xiaolin Wei"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
+        "n": "STDC1",
+        "d": "2021-04-27",
+        "m1": "52.1(45.8FPS)"
+      },
+      {
+        "p": {
+          "name": "Partial Order Pruning: for Best Speed/Accuracy Trade-off in Neural Architecture Search",
+          "link": "http://arxiv.org/abs/1903.03777v2",
+          "authors": "Xin Li, Yiming Zhou, Zheng Pan, Jiashi Feng"
+        },
+        "c": "https://github.com/lixincn2015/Partial-Order-Pruning",
+        "n": "DF2-Seg",
+        "d": "2019-03-09",
+        "m1": "47.8(53.4fps)"
+      },
+      {
+        "p": {
+          "name": "Partial Order Pruning: for Best Speed/Accuracy Trade-off in Neural Architecture Search",
+          "link": "http://arxiv.org/abs/1903.03777v2",
+          "authors": "Xin Li, Yiming Zhou, Zheng Pan, Jiashi Feng"
+        },
+        "c": "https://github.com/lixincn2015/Partial-Order-Pruning",
+        "n": "DF1-Seg",
+        "d": "2019-03-09",
+        "m1": "42.5(82.3fps)"
+      },
+      {
+        "p": {
+          "name": "MRFP: Learning Generalizable Semantic Segmentation from Sim-2-Real with Multi-Resolution Feature Perturbation",
+          "link": "https://arxiv.org/abs/2311.18331v2",
+          "authors": "Sumanth Udupa, Prajwal Gurunath, Aniruddh Sikdar, Suresh Sundaram"
+        },
+        "c": "https://github.com/airl-iisc/MRFP",
+        "n": "MRFP+(Ours) Resnet50",
+        "d": "2023-11-30",
+        "m1": "39.55"
+      },
+      {
+        "p": {
+          "name": "MRFP: Learning Generalizable Semantic Segmentation from Sim-2-Real with Multi-Resolution Feature Perturbation",
+          "link": "https://arxiv.org/abs/2311.18331v2",
+          "authors": "Sumanth Udupa, Prajwal Gurunath, Aniruddh Sikdar, Suresh Sundaram"
+        },
+        "c": "https://github.com/airl-iisc/MRFP",
+        "n": "Resnet50",
+        "d": "2023-11-30",
+        "m1": "31.44"
       }
     ]
   }

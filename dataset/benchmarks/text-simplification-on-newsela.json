@@ -41,7 +41,8 @@
       {
         "p": {
           "name": "Neural CRF Model for Sentence Alignment in Text Simplification",
-          "link": "https://arxiv.org/abs/2005.02324v4"
+          "link": "https://arxiv.org/abs/2005.02324v4",
+          "authors": "Chao Jiang, Mounica Maddela, Wuwei Lan, Yang Zhong, Wei Xu"
         },
         "c": "https://github.com/chaojiang06/wiki-auto",
         "n": "CRF Alignment + Transformer",
@@ -51,7 +52,8 @@
       {
         "p": {
           "name": "Dynamic Multi-Level Multi-Task Learning for Sentence Simplification",
-          "link": "http://arxiv.org/abs/1806.07304v1"
+          "link": "http://arxiv.org/abs/1806.07304v1",
+          "authors": "Han Guo, Ramakanth Pasunuru, Mohit Bansal"
         },
         "c": "",
         "n": "Pointer + Multi-task Entailment and Paraphrase Generation",
@@ -62,7 +64,8 @@
       {
         "p": {
           "name": "EditNTS: An Neural Programmer-Interpreter Model for Sentence Simplification through Explicit Editing",
-          "link": "https://arxiv.org/abs/1906.08104v1"
+          "link": "https://arxiv.org/abs/1906.08104v1",
+          "authors": "Yue Dong, Zichao Li, Mehdi Rezagholizadeh, Jackie Chi Kit Cheung"
         },
         "c": "https://github.com/yuedongP/EditNTS",
         "n": "EditNTS",
@@ -73,7 +76,8 @@
       {
         "p": {
           "name": "Complexity-Weighted Loss and Diverse Reranking for Sentence Simplification",
-          "link": "http://arxiv.org/abs/1904.02767v1"
+          "link": "http://arxiv.org/abs/1904.02767v1",
+          "authors": "Reno Kriz, João Sedoc, Marianna Apidianaki, Carolina Zheng, Gaurav Kumar, Eleni Miltsakaki, Chris Callison-Burch"
         },
         "c": "https://github.com/rekriz11/DeDiv",
         "n": "S2S-Cluster-FA",
@@ -84,7 +88,8 @@
       {
         "p": {
           "name": "Iterative Edit-Based Unsupervised Sentence Simplification",
-          "link": "https://arxiv.org/abs/2006.09639v1"
+          "link": "https://arxiv.org/abs/2006.09639v1",
+          "authors": "Dhruv Kumar, Lili Mou, Lukasz Golab, Olga Vechtomova"
         },
         "c": "https://github.com/ddhruvkr/Edit-Unsup-TS",
         "n": "Edit-Unsup-TS",
@@ -95,7 +100,8 @@
       {
         "p": {
           "name": "Sentence Simplification with Memory-Augmented Neural Networks",
-          "link": "http://arxiv.org/abs/1804.07445v1"
+          "link": "http://arxiv.org/abs/1804.07445v1",
+          "authors": "Tu Vu, Baotian Hu, Tsendsuren Munkhdalai, Hong Yu"
         },
         "c": "",
         "n": "NSELSTM-S ",
@@ -105,8 +111,32 @@
       },
       {
         "p": {
+          "name": "Learning How to Simplify From Explicit Labeling of Complex-Simplified Text Pairs",
+          "link": "https://aclanthology.org/I17-1030",
+          "authors": "Fern Alva-Manchego, o, Joachim Bingel, Gustavo Paetzold, Carolina Scarton, Lucia Specia"
+        },
+        "c": "https://github.com/ghpaetzold/massalign",
+        "n": "SeqLabel ",
+        "d": "2017-11-01",
+        "m1": "29.53*"
+      },
+      {
+        "p": {
+          "name": "Hybrid Simplification using Deep Semantics and Machine Translation",
+          "link": "https://aclanthology.org/P14-1041",
+          "authors": "Shashi Narayan, Claire Gardent"
+        },
+        "c": "",
+        "n": "Hybrid ",
+        "d": "2014-06-01",
+        "m1": "28.61*",
+        "m2": "14.46*"
+      },
+      {
+        "p": {
           "name": "Sentence Simplification with Memory-Augmented Neural Networks",
-          "link": "http://arxiv.org/abs/1804.07445v1"
+          "link": "http://arxiv.org/abs/1804.07445v1",
+          "authors": "Tu Vu, Baotian Hu, Tsendsuren Munkhdalai, Hong Yu"
         },
         "c": "",
         "n": "NSELSTM-B ",
@@ -117,7 +147,8 @@
       {
         "p": {
           "name": "Sentence Simplification with Deep Reinforcement Learning",
-          "link": "http://arxiv.org/abs/1703.10931v2"
+          "link": "http://arxiv.org/abs/1703.10931v2",
+          "authors": "Xingxing Zhang, Mirella Lapata"
         },
         "c": "https://github.com/XingxingZhang/dress",
         "n": "DRESS",
@@ -128,7 +159,8 @@
       {
         "p": {
           "name": "Integrating Transformer and Paraphrase Rules for Sentence Simplification",
-          "link": "http://arxiv.org/abs/1810.11193v1"
+          "link": "http://arxiv.org/abs/1810.11193v1",
+          "authors": "Sanqiang Zhao, Rui Meng, Daqing He, Saptono Andi, Parmanto Bambang"
         },
         "c": "https://github.com/Sanqiang/text_simplification",
         "n": "DMASS + DCSS",
@@ -138,7 +170,8 @@
       {
         "p": {
           "name": "Sentence Simplification with Deep Reinforcement Learning",
-          "link": "http://arxiv.org/abs/1703.10931v2"
+          "link": "http://arxiv.org/abs/1703.10931v2",
+          "authors": "Xingxing Zhang, Mirella Lapata"
         },
         "c": "https://github.com/XingxingZhang/dress",
         "n": "DRESS-LS",
@@ -148,29 +181,9 @@
       },
       {
         "p": {
-          "name": "Learning How to Simplify From Explicit Labeling of Complex-Simplified Text Pairs",
-          "link": "https://aclanthology.org/I17-1030"
-        },
-        "c": "https://github.com/ghpaetzold/massalign",
-        "n": "SeqLabel ",
-        "d": "2017-11-01",
-        "m1": "29.53*"
-      },
-      {
-        "p": {
-          "name": "Hybrid Simplification using Deep Semantics and Machine Translation",
-          "link": "https://aclanthology.org/P14-1041"
-        },
-        "c": "",
-        "n": "Hybrid ",
-        "d": "2014-06-01",
-        "m1": "28.61*",
-        "m2": "14.46*"
-      },
-      {
-        "p": {
           "name": "Sentence Simplification by Monolingual Machine Translation",
-          "link": "https://aclanthology.org/P12-1107"
+          "link": "https://aclanthology.org/P12-1107",
+          "authors": "S Wubben, er, Antal van den Bosch, Emiel Krahmer"
         },
         "c": "",
         "n": "PBMT-R ",

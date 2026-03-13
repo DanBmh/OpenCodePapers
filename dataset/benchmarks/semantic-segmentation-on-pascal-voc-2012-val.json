@@ -46,7 +46,8 @@
       {
         "p": {
           "name": "Rethinking Pre-training and Self-training",
-          "link": "https://arxiv.org/abs/2006.06882v2"
+          "link": "https://arxiv.org/abs/2006.06882v2",
+          "authors": "Barret Zoph, Golnaz Ghiasi, Tsung-Yi Lin, Yin Cui, Hanxiao Liu, Ekin D. Cubuk, Quoc V. Le"
         },
         "c": "https://github.com/tensorflow/tpu/tree/master/models/official/detection/projects/self_training",
         "n": "EfficientNet-L2+NAS-FPN (single scale test, with self-training)",
@@ -56,7 +57,8 @@
       {
         "p": {
           "name": "Text-image Alignment for Diffusion-based Perception",
-          "link": "https://arxiv.org/abs/2310.00031v3"
+          "link": "https://arxiv.org/abs/2310.00031v3",
+          "authors": "Neehar Kondapaneni, Markus Marks, Manuel Knott, Rogerio Guimaraes, Pietro Perona"
         },
         "c": "https://github.com/damaggu/tadp",
         "n": "TADP",
@@ -66,7 +68,8 @@
       {
         "p": {
           "name": "Simple Copy-Paste is a Strong Data Augmentation Method for Instance Segmentation",
-          "link": "https://arxiv.org/abs/2012.07177v2"
+          "link": "https://arxiv.org/abs/2012.07177v2",
+          "authors": "Golnaz Ghiasi, Yin Cui, Aravind Srinivas, Rui Qian, Tsung-Yi Lin, Ekin D. Cubuk, Quoc V. Le, Barret Zoph"
         },
         "c": "https://github.com/PaddlePaddle/PaddleOCR",
         "n": "Eff-B7 NAS-FPN (Copy-Paste pre-training, single-scale))",
@@ -76,7 +79,8 @@
       {
         "p": {
           "name": "ExFuse: Enhancing Feature Fusion for Semantic Segmentation",
-          "link": "http://arxiv.org/abs/1804.03821v1"
+          "link": "http://arxiv.org/abs/1804.03821v1",
+          "authors": "Zhenli Zhang, Xiangyu Zhang, Chao Peng, Dazhi Cheng, Jian Sun"
         },
         "c": "",
         "n": "ExFuse (ResNeXt-131)",
@@ -86,7 +90,8 @@
       {
         "p": {
           "name": "Dilated SpineNet for Semantic Segmentation",
-          "link": "https://arxiv.org/abs/2103.12270v1"
+          "link": "https://arxiv.org/abs/2103.12270v1",
+          "authors": "Abdullah Rashwan, Xianzhi Du, Xiaoqi Yin, Jing Li"
         },
         "c": "",
         "n": "SpineNet-S143 (single-scale test)",
@@ -96,7 +101,8 @@
       {
         "p": {
           "name": "Rethinking Atrous Convolution for Semantic Image Segmentation",
-          "link": "http://arxiv.org/abs/1706.05587v3"
+          "link": "http://arxiv.org/abs/1706.05587v3",
+          "authors": "Liang-Chieh Chen, George Papandreou, Florian Schroff, Hartwig Adam"
         },
         "c": "https://github.com/tensorflow/models",
         "n": "DeepLabv3-JFT",
@@ -106,7 +112,8 @@
       {
         "p": {
           "name": "Auto-DeepLab: Hierarchical Neural Architecture Search for Semantic Image Segmentation",
-          "link": "http://arxiv.org/abs/1901.02985v2"
+          "link": "http://arxiv.org/abs/1901.02985v2",
+          "authors": "Chenxi Liu, Liang-Chieh Chen, Florian Schroff, Hartwig Adam, Wei Hua, Alan Yuille, Li Fei-Fei"
         },
         "c": "https://github.com/tensorflow/models",
         "n": "Auto-DeepLab-L",
@@ -116,7 +123,8 @@
       {
         "p": {
           "name": "Large Kernel Matters -- Improve Semantic Segmentation by Global Convolutional Network",
-          "link": "http://arxiv.org/abs/1703.02719v1"
+          "link": "http://arxiv.org/abs/1703.02719v1",
+          "authors": "Chao Peng, Xiangyu Zhang, Gang Yu, Guiming Luo, Jian Sun"
         },
         "c": "https://github.com/y-ouali/pytorch_segmentation",
         "n": "ResNet-GCN",
@@ -126,7 +134,8 @@
       {
         "p": {
           "name": "HyperSeg: Patch-wise Hypernetwork for Real-time Semantic Segmentation",
-          "link": "https://arxiv.org/abs/2012.11582v2"
+          "link": "https://arxiv.org/abs/2012.11582v2",
+          "authors": "Yuval Nirkin, Lior Wolf, Tal Hassner"
         },
         "c": "https://github.com/YuvalNirkin/hyperseg",
         "n": "HyperSeg-L",
@@ -136,7 +145,8 @@
       {
         "p": {
           "name": "Learning a Discriminative Feature Network for Semantic Segmentation",
-          "link": "http://arxiv.org/abs/1804.09337v1"
+          "link": "http://arxiv.org/abs/1804.09337v1",
+          "authors": "Changqian Yu, Jingbo Wang, Chao Peng, Changxin Gao, Gang Yu, Nong Sang"
         },
         "c": "https://github.com/ycszen/TorchSeg",
         "n": "DFN (ResNet-101)",
@@ -146,7 +156,8 @@
       {
         "p": {
           "name": "Waterfall Atrous Spatial Pooling Architecture for Efficient Semantic Segmentation",
-          "link": "https://arxiv.org/abs/1912.03183v1"
+          "link": "https://arxiv.org/abs/1912.03183v1",
+          "authors": "Bruno Artacho, Andreas Savakis"
         },
         "c": "https://github.com/bmartacho/WASP",
         "n": "WASPnet-CRF (ours)",
@@ -156,7 +167,8 @@
       {
         "p": {
           "name": "Res2Net: A New Multi-scale Backbone Architecture",
-          "link": "https://arxiv.org/abs/1904.01169v3"
+          "link": "https://arxiv.org/abs/1904.01169v3",
+          "authors": "Shang-Hua Gao, Ming-Ming Cheng, Kai Zhao, Xin-Yu Zhang, Ming-Hsuan Yang, Philip Torr"
         },
         "c": "https://github.com/rwightman/pytorch-image-models",
         "n": "Deeplab v3+ (Res2Net-101)",
@@ -166,7 +178,8 @@
       {
         "p": {
           "name": "Fast Neural Architecture Search of Compact Semantic Segmentation Models via Auxiliary Cells",
-          "link": "https://arxiv.org/abs/1810.10804v3"
+          "link": "https://arxiv.org/abs/1810.10804v3",
+          "authors": "Vladimir Nekrasov, Hao Chen, Chunhua Shen, Ian Reid"
         },
         "c": "https://github.com/mindspore-ai/models/tree/master/research/cv/adelaide_ea",
         "n": "FastDenseNas-arch0",
@@ -176,7 +189,8 @@
       {
         "p": {
           "name": "Pushing the limits of self-supervised ResNets: Can we outperform supervised learning without labels on ImageNet?",
-          "link": "https://arxiv.org/abs/2201.05119v2"
+          "link": "https://arxiv.org/abs/2201.05119v2",
+          "authors": "Nenad Tomasev, Ioana Bica, Brian McWilliams, Lars Buesing, Razvan Pascanu, Charles Blundell, Jovana Mitrovic"
         },
         "c": "https://github.com/google-deepmind/relicv2",
         "n": "ReLICv2",
@@ -186,7 +200,8 @@
       {
         "p": {
           "name": "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs",
-          "link": "http://arxiv.org/abs/1606.00915v2"
+          "link": "http://arxiv.org/abs/1606.00915v2",
+          "authors": "Liang-Chieh Chen, George Papandreou, Iasonas Kokkinos, Kevin Murphy, Alan L. Yuille"
         },
         "c": "https://github.com/tensorflow/models/tree/master/research/deeplab",
         "n": "DeepLab-CRF (ResNet-101)",
@@ -196,7 +211,8 @@
       {
         "p": {
           "name": "Fast Neural Architecture Search of Compact Semantic Segmentation Models via Auxiliary Cells",
-          "link": "https://arxiv.org/abs/1810.10804v3"
+          "link": "https://arxiv.org/abs/1810.10804v3",
+          "authors": "Vladimir Nekrasov, Hao Chen, Chunhua Shen, Ian Reid"
         },
         "c": "https://github.com/mindspore-ai/models/tree/master/research/cv/adelaide_ea",
         "n": "FastDenseNas-arch2",
@@ -206,7 +222,8 @@
       {
         "p": {
           "name": "Pushing the limits of self-supervised ResNets: Can we outperform supervised learning without labels on ImageNet?",
-          "link": "https://arxiv.org/abs/2201.05119v2"
+          "link": "https://arxiv.org/abs/2201.05119v2",
+          "authors": "Nenad Tomasev, Ioana Bica, Brian McWilliams, Lars Buesing, Razvan Pascanu, Charles Blundell, Jovana Mitrovic"
         },
         "c": "https://github.com/google-deepmind/relicv2",
         "n": "DetCon",
@@ -216,7 +233,8 @@
       {
         "p": {
           "name": "Fast Neural Architecture Search of Compact Semantic Segmentation Models via Auxiliary Cells",
-          "link": "https://arxiv.org/abs/1810.10804v3"
+          "link": "https://arxiv.org/abs/1810.10804v3",
+          "authors": "Vladimir Nekrasov, Hao Chen, Chunhua Shen, Ian Reid"
         },
         "c": "https://github.com/mindspore-ai/models/tree/master/research/cv/adelaide_ea",
         "n": "FastDenseNas-arch1",
@@ -226,7 +244,8 @@
       {
         "p": {
           "name": "Revisiting Unreasonable Effectiveness of Data in Deep Learning Era",
-          "link": "http://arxiv.org/abs/1707.02968v2"
+          "link": "http://arxiv.org/abs/1707.02968v2",
+          "authors": "Chen Sun, Abhinav Shrivastava, Saurabh Singh, Abhinav Gupta"
         },
         "c": "https://github.com/Tencent/tencent-ml-images",
         "n": "DeepLabv3 (ImageNet+300M)",
@@ -236,7 +255,8 @@
       {
         "p": {
           "name": "Pushing the limits of self-supervised ResNets: Can we outperform supervised learning without labels on ImageNet?",
-          "link": "https://arxiv.org/abs/2201.05119v2"
+          "link": "https://arxiv.org/abs/2201.05119v2",
+          "authors": "Nenad Tomasev, Ioana Bica, Brian McWilliams, Lars Buesing, Razvan Pascanu, Charles Blundell, Jovana Mitrovic"
         },
         "c": "https://github.com/google-deepmind/relicv2",
         "n": "BYOL",
@@ -246,7 +266,8 @@
       {
         "p": {
           "name": "DiCENet: Dimension-wise Convolutions for Efficient Networks",
-          "link": "https://arxiv.org/abs/1906.03516v3"
+          "link": "https://arxiv.org/abs/1906.03516v3",
+          "authors": "Sachin Mehta, Hannaneh Hajishirzi, Mohammad Rastegari"
         },
         "c": "https://github.com/osmr/imgclsmob",
         "n": "DiCENet",
@@ -256,7 +277,8 @@
       {
         "p": {
           "name": "Reliability Does Matter: An End-to-End Weakly Supervised Semantic Segmentation Approach",
-          "link": "https://arxiv.org/abs/1911.08039v1"
+          "link": "https://arxiv.org/abs/1911.08039v1",
+          "authors": "Bingfeng Zhang, Jimin Xiao, Yunchao Wei, Ming-Jie Sun, Kai-Zhu Huang"
         },
         "c": "https://github.com/zbf1991/RRM",
         "n": "RRM",
@@ -266,7 +288,8 @@
       {
         "p": {
           "name": "Scaling up Multi-domain Semantic Segmentation with Sentence Embeddings",
-          "link": "https://arxiv.org/abs/2202.02002v2"
+          "link": "https://arxiv.org/abs/2202.02002v2",
+          "authors": "Wei Yin, Yifan Liu, Chunhua Shen, Baichuan Sun, Anton Van Den Hengel"
         },
         "c": "",
         "n": "SIW",
@@ -276,7 +299,8 @@
       {
         "p": {
           "name": "Self-Supervised Difference Detection for Weakly-Supervised Semantic Segmentation",
-          "link": "https://arxiv.org/abs/1911.01370v2"
+          "link": "https://arxiv.org/abs/1911.01370v2",
+          "authors": "Wataru Shimoda, Keiji Yanai"
         },
         "c": "https://github.com/shimoda-uec/ssdd",
         "n": "SSDD",
@@ -286,7 +310,8 @@
       {
         "p": {
           "name": "Find it if You Can: End-to-End Adversarial Erasing for Weakly-Supervised Semantic Segmentation",
-          "link": "https://arxiv.org/abs/2011.04626v1"
+          "link": "https://arxiv.org/abs/2011.04626v1",
+          "authors": "Erik Stammes, Tom F. H. Runia, Michael Hofmann, Mohsen Ghafoorian"
         },
         "c": "https://github.com/ErikStammes/EADER",
         "n": "PSA w/ EADER DeepLab (Xception-65)",
@@ -296,7 +321,8 @@
       {
         "p": {
           "name": "Exploiting saliency for object segmentation from image level labels",
-          "link": "http://arxiv.org/abs/1701.08261v2"
+          "link": "http://arxiv.org/abs/1701.08261v2",
+          "authors": "Seong Joon Oh, Rodrigo Benenson, Anna Khoreva, Zeynep Akata, Mario Fritz, Bernt Schiele"
         },
         "c": "",
         "n": "G2",
@@ -306,7 +332,8 @@
       {
         "p": {
           "name": "Weakly Supervised Instance Segmentation using Class Peak Response",
-          "link": "http://arxiv.org/abs/1804.00880v1"
+          "link": "http://arxiv.org/abs/1804.00880v1",
+          "authors": "Yanzhao Zhou, Yi Zhu, Qixiang Ye, Qiang Qiu, Jianbin Jiao"
         },
         "c": "https://github.com/ZhouYanzhao/PRM",
         "n": "PRM",
@@ -316,7 +343,8 @@
       {
         "p": {
           "name": "Simple Does It: Weakly Supervised Instance and Semantic Segmentation",
-          "link": "http://arxiv.org/abs/1603.07485v2"
+          "link": "http://arxiv.org/abs/1603.07485v2",
+          "authors": "Anna Khoreva, Rodrigo Benenson, Jan Hosang, Matthias Hein, Bernt Schiele"
         },
         "c": "",
         "n": "SID",
@@ -326,7 +354,8 @@
       {
         "p": {
           "name": "Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation",
-          "link": "http://arxiv.org/abs/1802.02611v3"
+          "link": "http://arxiv.org/abs/1802.02611v3",
+          "authors": "Liang-Chieh Chen, Yukun Zhu, George Papandreou, Florian Schroff, Hartwig Adam"
         },
         "c": "https://github.com/tensorflow/models/tree/master/research/deeplab",
         "n": "DeepLabV3+ (ResNet-101)",

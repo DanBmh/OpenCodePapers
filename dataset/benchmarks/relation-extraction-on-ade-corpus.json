@@ -46,7 +46,8 @@
       {
         "p": {
           "name": "ITER: Iterative Transformer-based Entity Recognition and Relation Extraction",
-          "link": "https://aclanthology.org/2024.findings-emnlp.655/"
+          "link": "https://aclanthology.org/2024.findings-emnlp.655/",
+          "authors": "Moritz Hennen, Florian Babl, Michaela Geierhos"
         },
         "c": "https://github.com/fleonce/iter",
         "n": "ITER",
@@ -57,7 +58,8 @@
       {
         "p": {
           "name": "An Information Extraction Study: Take In Mind the Tokenization!",
-          "link": "https://arxiv.org/abs/2303.15100v2"
+          "link": "https://arxiv.org/abs/2303.15100v2",
+          "authors": "Christos Theodoropoulos, Marie-Francine Moens"
         },
         "c": "https://github.com/christos42/inductive_bias_IE",
         "n": "PFN (ALBERT XXL, average aggregation)",
@@ -68,7 +70,8 @@
       {
         "p": {
           "name": "Deeper Task-Specificity Improves Joint Entity and Relation Extraction",
-          "link": "https://arxiv.org/abs/2002.06424v1"
+          "link": "https://arxiv.org/abs/2002.06424v1",
+          "authors": "Phil Crone"
         },
         "c": "https://github.com/vedantc6/mtl-dts",
         "n": "Deeper",
@@ -79,7 +82,8 @@
       {
         "p": {
           "name": "A Partition Filter Network for Joint Entity and Relation Extraction",
-          "link": "https://arxiv.org/abs/2108.12202v8"
+          "link": "https://arxiv.org/abs/2108.12202v8",
+          "authors": "Zhiheng Yan, Chong Zhang, Jinlan Fu, Qi Zhang, Zhongyu Wei"
         },
         "c": "https://github.com/Coopercoppers/PFN",
         "n": "PFN (ALBERT XXL, no aggregation)",
@@ -90,7 +94,8 @@
       {
         "p": {
           "name": "Joint Entity and Relation Extraction from Scientific Documents: Role of Linguistic Information and Entity Types",
-          "link": "http://ceur-ws.org/Vol-3004/paper2.pdf"
+          "link": "http://ceur-ws.org/Vol-3004/paper2.pdf",
+          "authors": "T Y S S Santosh, Prantika Chakraborty, Sudakshina Dutta, Debarshi Kumar Sanyal, Partha Pratim Das"
         },
         "c": "https://github.com/dksanyal/SpERT.PL",
         "n": "SpERT.PL (without overlap and BioBERT)",
@@ -101,7 +106,8 @@
       {
         "p": {
           "name": "REBEL: Relation Extraction By End-to-end Language generation",
-          "link": "https://github.com/Babelscape/rebel"
+          "link": "https://github.com/Babelscape/rebel",
+          "authors": "Pere-Lluis Huguet Cabot, Roberto Navigli"
         },
         "c": "https://github.com/Babelscape/rebel",
         "n": "REBEL (including overlapping entities)",
@@ -111,7 +117,8 @@
       {
         "p": {
           "name": "Joint Entity and Relation Extraction from Scientific Documents: Role of Linguistic Information and Entity Types",
-          "link": "http://ceur-ws.org/Vol-3004/paper2.pdf"
+          "link": "http://ceur-ws.org/Vol-3004/paper2.pdf",
+          "authors": "T Y S S Santosh, Prantika Chakraborty, Sudakshina Dutta, Debarshi Kumar Sanyal, Partha Pratim Das"
         },
         "c": "https://github.com/dksanyal/SpERT.PL",
         "n": "SpERT.PL (with overlap and BioBERT)",
@@ -122,7 +129,8 @@
       {
         "p": {
           "name": "Modeling Dense Cross-Modal Interactions for Joint Entity-Relation Extraction",
-          "link": "https://www.ijcai.org/Proceedings/2020/558"
+          "link": "https://www.ijcai.org/Proceedings/2020/558",
+          "authors": "Shan Zhao, Minghao Hu, Zhiping Cai, Fang Liu"
         },
         "c": "",
         "n": "CMAN",
@@ -133,7 +141,8 @@
       {
         "p": {
           "name": "Two are Better than One: Joint Entity and Relation Extraction with Table-Sequence Encoders",
-          "link": "https://arxiv.org/abs/2010.03851v1"
+          "link": "https://arxiv.org/abs/2010.03851v1",
+          "authors": "Jue Wang, Wei Lu"
         },
         "c": "https://github.com/LorrinWWW/two-are-better-than-one",
         "n": "Table-Sequence",
@@ -145,7 +154,8 @@
       {
         "p": {
           "name": "Imposing Relation Structure in Language-Model Embeddings Using Contrastive Learning",
-          "link": "https://arxiv.org/abs/2109.00840v2"
+          "link": "https://arxiv.org/abs/2109.00840v2",
+          "authors": "Christos Theodoropoulos, James Henderson, Andrei C. Coman, Marie-Francine Moens"
         },
         "c": "https://github.com/christos42/CLDR_CLNER_models",
         "n": "CLDR + CLNER",
@@ -156,7 +166,8 @@
       {
         "p": {
           "name": "Span-based Joint Entity and Relation Extraction with Transformer Pre-training",
-          "link": "https://arxiv.org/abs/1909.07755v4"
+          "link": "https://arxiv.org/abs/1909.07755v4",
+          "authors": "Markus Eberts, Adrian Ulges"
         },
         "c": "https://github.com/markus-eberts/spert",
         "n": "SpERT (without overlap)",
@@ -167,7 +178,8 @@
       {
         "p": {
           "name": "Span-based Joint Entity and Relation Extraction with Transformer Pre-training",
-          "link": "https://arxiv.org/abs/1909.07755v4"
+          "link": "https://arxiv.org/abs/1909.07755v4",
+          "authors": "Markus Eberts, Adrian Ulges"
         },
         "c": "https://github.com/markus-eberts/spert",
         "n": "SpERT (with overlap)",
@@ -178,7 +190,8 @@
       {
         "p": {
           "name": "Neural Metric Learning for Fast End-to-End Relation Extraction",
-          "link": "https://arxiv.org/abs/1905.07458v4"
+          "link": "https://arxiv.org/abs/1905.07458v4",
+          "authors": "Tung Tran, Ramakanth Kavuluru"
         },
         "c": "",
         "n": "Relation-Metric",
@@ -189,7 +202,8 @@
       {
         "p": {
           "name": "Adversarial training for multi-context joint entity and relation extraction",
-          "link": "http://arxiv.org/abs/1808.06876v3"
+          "link": "http://arxiv.org/abs/1808.06876v3",
+          "authors": "Giannis Bekoulis, Johannes Deleu, Thomas Demeester, Chris Develder"
         },
         "c": "https://github.com/bekou/multihead_joint_entity_relation_extraction",
         "n": "multi-head + AT",
@@ -200,7 +214,8 @@
       {
         "p": {
           "name": "Joint entity recognition and relation extraction as a multi-head selection problem",
-          "link": "http://arxiv.org/abs/1804.07847v3"
+          "link": "http://arxiv.org/abs/1804.07847v3",
+          "authors": "Giannis Bekoulis, Johannes Deleu, Thomas Demeester, Chris Develder"
         },
         "c": "https://github.com/bekou/multihead_joint_entity_relation_extraction",
         "n": "multi-head",
