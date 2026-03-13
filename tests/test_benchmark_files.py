@@ -202,6 +202,102 @@ def check_benchmark_structure(data: dict, path: str):
 # ==================================================================================================
 
 
+def check_benchmark_order(data: dict, path: str):
+
+    benchmark = data.get("benchmark")
+    if not isinstance(benchmark, dict):
+        return []
+
+    fields = benchmark.get("fields")
+    items = benchmark.get("items")
+    if not isinstance(fields, list) or not isinstance(items, list):
+        return []
+
+    first_metric_key = None
+    for field in fields:
+        if isinstance(field, dict):
+            key = field.get("key")
+            if isinstance(key, str) and key.startswith("m"):
+                first_metric_key = key
+                break
+
+    if not first_metric_key:
+        return []
+
+    values = []
+    for idx, item in enumerate(items):
+        if not isinstance(item, dict):
+            continue
+        value = None
+        raw = item.get(first_metric_key)
+        if isinstance(raw, (int, float)):
+            value = float(raw)
+        if isinstance(raw, str):
+            cleaned = raw.strip()
+
+            if "," in cleaned and "." not in cleaned:
+                if re.match(r"^\s*[-+]?\d+,\d+(?:[eE][-+]?\d+)?\s*$", cleaned):
+                    normalized = cleaned.replace(",", ".")
+                else:
+                    normalized = cleaned.replace(",", "")
+            else:
+                normalized = cleaned.replace(",", "")
+
+            match = re.search(r"[-+]?\d*\.?\d+(?:[eE][-+]?\d+)?", normalized)
+            if match:
+                try:
+                    value = float(match.group(0))
+                except ValueError:
+                    value = None
+        if value is not None:
+            values.append((idx, value))
+
+    if len(values) < 3:
+        return []
+
+    diffs = [values[i + 1][1] - values[i][1] for i in range(len(values) - 1)]
+    nonzero_diffs = [d for d in diffs if d != 0]
+    if not nonzero_diffs:
+        return []
+
+    sorted_diffs = sorted(nonzero_diffs)
+    median_diff = sorted_diffs[len(sorted_diffs) // 2]
+    ascending = median_diff >= 0
+    direction = "ascending" if ascending else "descending"
+
+    violations = []
+    for i in range(len(values) - 1):
+        left_idx, left_val = values[i]
+        right_idx, right_val = values[i + 1]
+
+        if ascending and right_val < left_val:
+            violations.append((left_idx, left_val, right_idx, right_val))
+        elif not ascending and right_val > left_val:
+            violations.append((left_idx, left_val, right_idx, right_val))
+
+    if not violations:
+        return []
+
+    preview = "; ".join(
+        (
+            f"items[{l_idx}]={l_val} -> items[{r_idx}]={r_val}"
+            for l_idx, l_val, r_idx, r_val in violations[:3]
+        )
+    )
+    if len(violations) > 3:
+        preview += f"; ... (+{len(violations) - 3} more)"
+
+    return [
+        (
+            f"{path}: Benchmark items are not ordered by first metric {first_metric_key!r} "
+            f"in inferred {direction} order. Violations: {len(violations)}. {preview}"
+        )
+    ]
+
+
+# ==================================================================================================
+
+
 def check_malicious_injections(data: dict, path: str):
 
     # Convert data dict to string for scanning
@@ -291,6 +387,7 @@ def main() -> int:
         all_errors.extend(check_dataset_link(data, path))
         all_errors.extend(check_task_hierarchy(data, path))
         all_errors.extend(check_benchmark_structure(data, path))
+        all_errors.extend(check_benchmark_order(data, path))
         all_errors.extend(check_malicious_injections(data, path))
 
     if all_errors:
