@@ -41,7 +41,8 @@
       {
         "p": {
           "name": "MEMFOF: High-Resolution Training for Memory-Efficient Multi-Frame Optical Flow Estimation",
-          "link": "https://arxiv.org/abs/2506.23151v1"
+          "link": "https://arxiv.org/abs/2506.23151v1",
+          "authors": "Vladislav Bargatin, Egor Chistov, Alexander Yakovenko, Dmitriy Vatolin"
         },
         "c": "https://github.com/msu-video-group/memfof",
         "n": "MEMFOF",
@@ -52,7 +53,8 @@
       {
         "p": {
           "name": "DPFlow: Adaptive Optical Flow Estimation with a Dual-Pyramid Framework",
-          "link": "https://arxiv.org/abs/2503.14880v1"
+          "link": "https://arxiv.org/abs/2503.14880v1",
+          "authors": "Henrique Morimitsu, Xiaobin Zhu, Roberto M. Cesar Jr., Xiangyang Ji, Xu-Cheng Yin"
         },
         "c": "https://github.com/hmorimitsu/ptlflow",
         "n": "DPFlow",
@@ -63,7 +65,8 @@
       {
         "p": {
           "name": "Deep Equilibrium Optical Flow Estimation",
-          "link": "https://arxiv.org/abs/2204.08442v1"
+          "link": "https://arxiv.org/abs/2204.08442v1",
+          "authors": "Shaojie Bai, Zhengyang Geng, Yash Savani, J. Zico Kolter"
         },
         "c": "https://github.com/locuslab/deq-flow",
         "n": "DEQ-Flow",
@@ -74,7 +77,8 @@
       {
         "p": {
           "name": "Recurrent Partial Kernel Network for Efficient Optical Flow Estimation",
-          "link": "https://hmorimitsu.com/publication/2024-aaai-rpknet/"
+          "link": "https://hmorimitsu.com/publication/2024-aaai-rpknet/",
+          "authors": "Morimitsu, Henrique; Zhu, Xiaobin; Ji, Xiangyang; Yin, Xu-Cheng"
         },
         "c": "https://github.com/hmorimitsu/ptlflow",
         "n": "RPKNet",
@@ -85,7 +89,8 @@
       {
         "p": {
           "name": "FlowFormer: A Transformer Architecture for Optical Flow",
-          "link": "https://arxiv.org/abs/2203.16194v4"
+          "link": "https://arxiv.org/abs/2203.16194v4",
+          "authors": "Zhaoyang Huang, Xiaoyu Shi, Chao Zhang, Qiang Wang, Ka Chun Cheung, Hongwei Qin, Jifeng Dai, Hongsheng Li"
         },
         "c": "https://github.com/drinkingcoder/FlowFormer-Official",
         "n": "FlowFormer",
@@ -96,7 +101,8 @@
       {
         "p": {
           "name": "Global Matching with Overlapping Attention for Optical Flow Estimation",
-          "link": "https://arxiv.org/abs/2203.11335v1"
+          "link": "https://arxiv.org/abs/2203.11335v1",
+          "authors": "Shiyu Zhao, Long Zhao, Zhixing Zhang, Enyu Zhou, Dimitris Metaxas"
         },
         "c": "https://github.com/xiaofeng94/gmflownet",
         "n": "GMFlowNet",
@@ -107,7 +113,8 @@
       {
         "p": {
           "name": "Separable Flow: Learning Motion Cost Volumes for Optical Flow Estimation",
-          "link": "http://openaccess.thecvf.com//content/ICCV2021/html/Zhang_Separable_Flow_Learning_Motion_Cost_Volumes_for_Optical_Flow_Estimation_ICCV_2021_paper.html"
+          "link": "http://openaccess.thecvf.com//content/ICCV2021/html/Zhang_Separable_Flow_Learning_Motion_Cost_Volumes_for_Optical_Flow_Estimation_ICCV_2021_paper.html",
+          "authors": "Feihu Zhang, Oliver J. Woodford, Victor Adrian Prisacariu, Philip H.S. Torr"
         },
         "c": "https://github.com/feihuzhang/separableflow",
         "n": "SeparableFlow",
@@ -118,7 +125,8 @@
       {
         "p": {
           "name": "Rethinking RAFT for Efficient Optical Flow",
-          "link": "https://arxiv.org/abs/2401.00833v1"
+          "link": "https://arxiv.org/abs/2401.00833v1",
+          "authors": "Navid Eslami, Farnoosh Arefi, Amir M. Mansourian, Shohreh Kasaei"
         },
         "c": "https://github.com/n3slami/Ef-RAFT",
         "n": "Ef-RAFT",
@@ -129,7 +137,8 @@
       {
         "p": {
           "name": "Learning to Estimate Hidden Motions with Global Motion Aggregation",
-          "link": "https://arxiv.org/abs/2104.02409v3"
+          "link": "https://arxiv.org/abs/2104.02409v3",
+          "authors": "Shihao Jiang, Dylan Campbell, Yao Lu, Hongdong Li, Richard Hartley"
         },
         "c": "https://github.com/open-mmlab/mmflow",
         "n": "GMA",
@@ -140,7 +149,8 @@
       {
         "p": {
           "name": "RAFT: Recurrent All-Pairs Field Transforms for Optical Flow",
-          "link": "https://arxiv.org/abs/2003.12039v3"
+          "link": "https://arxiv.org/abs/2003.12039v3",
+          "authors": "Zachary Teed, Jia Deng"
         },
         "c": "https://github.com/pytorch/vision",
         "n": "RAFT",
@@ -151,7 +161,8 @@
       {
         "p": {
           "name": "CRAFT: Cross-Attentional Flow Transformer for Robust Optical Flow",
-          "link": "https://arxiv.org/abs/2203.16896v1"
+          "link": "https://arxiv.org/abs/2203.16896v1",
+          "authors": "Xiuchao Sui, Shaohua Li, Xue Geng, Yan Wu, Xinxing Xu, Yong liu, Rick Goh, Hongyuan Zhu"
         },
         "c": "https://github.com/askerlee/craft",
         "n": "CRAFT",
@@ -162,7 +173,8 @@
       {
         "p": {
           "name": "RAPIDFlow: Recurrent Adaptable Pyramids with Iterative Decoding for Efficient Optical Flow Estimation",
-          "link": "https://hmorimitsu.com/publication/2024-icra-rapidflow/"
+          "link": "https://hmorimitsu.com/publication/2024-icra-rapidflow/",
+          "authors": "Henrique Morimitsu, Xiaobin Zhu, Roberto M. Cesar-Jr., Xiangyang Ji, Xu-Cheng Yin"
         },
         "c": "https://github.com/hmorimitsu/ptlflow",
         "n": "RAPIDFlow",
@@ -173,7 +185,8 @@
       {
         "p": {
           "name": "Learning Optical Flow from a Few Matches",
-          "link": "https://arxiv.org/abs/2104.02166v1"
+          "link": "https://arxiv.org/abs/2104.02166v1",
+          "authors": "Shihao Jiang, Yao Lu, Hongdong Li, Richard Hartley"
         },
         "c": "https://github.com/zacjiang/scv",
         "n": "SCV",
@@ -184,7 +197,8 @@
       {
         "p": {
           "name": "MaskFlownet: Asymmetric Feature Matching with Learnable Occlusion Mask",
-          "link": "https://arxiv.org/abs/2003.10955v2"
+          "link": "https://arxiv.org/abs/2003.10955v2",
+          "authors": "Shengyu Zhao, Yilun Sheng, Yue Dong, Eric I-Chao Chang, Yan Xu"
         },
         "c": "https://github.com/open-mmlab/mmflow",
         "n": "MaskFlowNet",
@@ -194,7 +208,8 @@
       {
         "p": {
           "name": "Hierarchical Discrete Distribution Decomposition for Match Density Estimation",
-          "link": "http://arxiv.org/abs/1812.06264v3"
+          "link": "http://arxiv.org/abs/1812.06264v3",
+          "authors": "Zhichao Yin, Trevor Darrell, Fisher Yu"
         },
         "c": "https://github.com/ucbdrive/hd3",
         "n": "HD3",
@@ -205,7 +220,8 @@
       {
         "p": {
           "name": "Volumetric Correspondence Networks for Optical Flow",
-          "link": "http://papers.nips.cc/paper/8367-volumetric-correspondence-networks-for-optical-flow"
+          "link": "http://papers.nips.cc/paper/8367-volumetric-correspondence-networks-for-optical-flow",
+          "authors": "Gengshan Yang, Deva Ramanan"
         },
         "c": "https://github.com/gengshan-y/VCN",
         "n": "VCN",
@@ -216,7 +232,8 @@
       {
         "p": {
           "name": "FlowNet 2.0: Evolution of Optical Flow Estimation with Deep Networks",
-          "link": "http://arxiv.org/abs/1612.01925v1"
+          "link": "http://arxiv.org/abs/1612.01925v1",
+          "authors": "Eddy Ilg, Nikolaus Mayer, Tonmoy Saikia, Margret Keuper, Alexey Dosovitskiy, Thomas Brox"
         },
         "c": "https://github.com/NVIDIA/flownet2-pytorch",
         "n": "FlowNet2",
@@ -227,7 +244,8 @@
       {
         "p": {
           "name": "FastFlowNet: A Lightweight Network for Fast Optical Flow Estimation",
-          "link": "https://arxiv.org/abs/2103.04524v2"
+          "link": "https://arxiv.org/abs/2103.04524v2",
+          "authors": "Lingtong Kong, Chunhua Shen, Jie Yang"
         },
         "c": "https://github.com/ltkong218/FastFlowNet",
         "n": "FastFlowNet",
@@ -238,7 +256,8 @@
       {
         "p": {
           "name": "PWC-Net: CNNs for Optical Flow Using Pyramid, Warping, and Cost Volume",
-          "link": "http://arxiv.org/abs/1709.02371v3"
+          "link": "http://arxiv.org/abs/1709.02371v3",
+          "authors": "Deqing Sun, Xiaodong Yang, Ming-Yu Liu, Jan Kautz"
         },
         "c": "https://github.com/NVlabs/PWC-Net",
         "n": "PWC-Net",

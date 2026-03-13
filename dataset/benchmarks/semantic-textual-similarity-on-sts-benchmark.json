@@ -56,7 +56,8 @@
       {
         "p": {
           "name": "SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization",
-          "link": "https://arxiv.org/abs/1911.03437v5"
+          "link": "https://arxiv.org/abs/1911.03437v5",
+          "authors": "Haoming Jiang, Pengcheng He, Weizhu Chen, Xiaodong Liu, Jianfeng Gao, Tuo Zhao"
         },
         "c": "https://github.com/namisan/mt-dnn",
         "n": "MT-DNN-SMART",
@@ -67,7 +68,8 @@
       {
         "p": {
           "name": "StructBERT: Incorporating Language Structures into Pre-training for Deep Language Understanding",
-          "link": "https://arxiv.org/abs/1908.04577v3"
+          "link": "https://arxiv.org/abs/1908.04577v3",
+          "authors": "Wei Wang, Bin Bi, Ming Yan, Chen Wu, Zuyi Bao, Jiangnan Xia, Liwei Peng, Luo Si"
         },
         "c": "",
         "n": "StructBERTRoBERTa ensemble",
@@ -78,7 +80,8 @@
       {
         "p": {
           "name": "MNet-Sim: A Multi-layered Semantic Similarity Network to Evaluate Sentence Similarity",
-          "link": "https://arxiv.org/abs/2111.05412v1"
+          "link": "https://arxiv.org/abs/2111.05412v1",
+          "authors": "Manuela Nayantara Jeyaraj, Dharshana Kasthurirathna"
         },
         "c": "",
         "n": "Mnet-Sim",
@@ -89,7 +92,8 @@
       {
         "p": {
           "name": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
-          "link": "https://arxiv.org/abs/1910.10683v4"
+          "link": "https://arxiv.org/abs/1910.10683v4",
+          "authors": "Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu"
         },
         "c": "https://github.com/huggingface/transformers",
         "n": "T5-11B",
@@ -100,7 +104,8 @@
       {
         "p": {
           "name": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
-          "link": "https://arxiv.org/abs/1909.11942v6"
+          "link": "https://arxiv.org/abs/1909.11942v6",
+          "authors": "Zhenzhong Lan, Mingda Chen, Sebastian Goodman, Kevin Gimpel, Piyush Sharma, Radu Soricut"
         },
         "c": "https://github.com/huggingface/transformers",
         "n": "ALBERT",
@@ -110,7 +115,8 @@
       {
         "p": {
           "name": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
-          "link": "https://arxiv.org/abs/1906.08237v2"
+          "link": "https://arxiv.org/abs/1906.08237v2",
+          "authors": "Zhilin Yang, Zihang Dai, Yiming Yang, Jaime Carbonell, Ruslan Salakhutdinov, Quoc V. Le"
         },
         "c": "https://github.com/huggingface/transformers",
         "n": "XLNet (single model)",
@@ -120,7 +126,8 @@
       {
         "p": {
           "name": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
-          "link": "https://arxiv.org/abs/1907.11692v1"
+          "link": "https://arxiv.org/abs/1907.11692v1",
+          "authors": "Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer Levy, Mike Lewis, Luke Zettlemoyer, Veselin Stoyanov"
         },
         "c": "https://github.com/huggingface/transformers",
         "n": "RoBERTa",
@@ -137,7 +144,8 @@
       {
         "p": {
           "name": "LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale",
-          "link": "https://arxiv.org/abs/2208.07339v2"
+          "link": "https://arxiv.org/abs/2208.07339v2",
+          "authors": "Tim Dettmers, Mike Lewis, Younes Belkada, Luke Zettlemoyer"
         },
         "c": "https://github.com/timdettmers/bitsandbytes",
         "n": "RoBERTa-large 355M (MLP quantized vector-wise, fine-tuned)",
@@ -147,7 +155,8 @@
       {
         "p": {
           "name": "A Statistical Framework for Low-bitwidth Training of Deep Neural Networks",
-          "link": "https://arxiv.org/abs/2010.14298v1"
+          "link": "https://arxiv.org/abs/2010.14298v1",
+          "authors": "Jianfei Chen, Yu Gai, Zhewei Yao, Michael W. Mahoney, Joseph E. Gonzalez"
         },
         "c": "https://github.com/cjf00000/StatQuant",
         "n": "PSQ (Chen et al., 2020)",
@@ -157,7 +166,8 @@
       {
         "p": {
           "name": "Entailment as Few-Shot Learner",
-          "link": "https://arxiv.org/abs/2104.14690v1"
+          "link": "https://arxiv.org/abs/2104.14690v1",
+          "authors": "Sinong Wang, Han Fang, Madian Khabsa, Hanzi Mao, Hao Ma"
         },
         "c": "https://github.com/PaddlePaddle/PaddleNLP/tree/develop/examples/few_shot/efl",
         "n": "RoBERTa-large 355M + Entailment as Few-shot Learner",
@@ -167,7 +177,8 @@
       {
         "p": {
           "name": "ERNIE 2.0: A Continual Pre-training Framework for Language Understanding",
-          "link": "https://arxiv.org/abs/1907.12412v2"
+          "link": "https://arxiv.org/abs/1907.12412v2",
+          "authors": "Yu Sun, Shuohuan Wang, Yukun Li, Shikun Feng, Hao Tian, Hua Wu, Haifeng Wang"
         },
         "c": "https://github.com/PaddlePaddle/PaddleNLP/tree/develop/model_zoo/ernie-1.0",
         "n": "ERNIE 2.0 Large",
@@ -177,7 +188,8 @@
       {
         "p": {
           "name": "Q-BERT: Hessian Based Ultra Low Precision Quantization of BERT",
-          "link": "https://arxiv.org/abs/1909.05840v2"
+          "link": "https://arxiv.org/abs/1909.05840v2",
+          "authors": "Sheng Shen, Zhen Dong, Jiayu Ye, Linjian Ma, Zhewei Yao, Amir Gholami, Michael W. Mahoney, Kurt Keutzer"
         },
         "c": "",
         "n": "Q-BERT (Shen et al., 2020)",
@@ -187,7 +199,8 @@
       {
         "p": {
           "name": "Q8BERT: Quantized 8Bit BERT",
-          "link": "https://arxiv.org/abs/1910.06188v2"
+          "link": "https://arxiv.org/abs/1910.06188v2",
+          "authors": "Ofir Zafrir, Guy Boudoukh, Peter Izsak, Moshe Wasserblat"
         },
         "c": "https://github.com/NervanaSystems/nlp-architect/blob/master/nlp_architect/models/transformers/quantized_bert.py",
         "n": "Q8BERT (Zafrir et al., 2019)",
@@ -204,7 +217,8 @@
       {
         "p": {
           "name": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
-          "link": "https://arxiv.org/abs/1910.01108v4"
+          "link": "https://arxiv.org/abs/1910.01108v4",
+          "authors": "Victor Sanh, Lysandre Debut, Julien Chaumond, Thomas Wolf"
         },
         "c": "https://github.com/huggingface/transformers",
         "n": "DistilBERT 66M",
@@ -214,7 +228,8 @@
       {
         "p": {
           "name": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
-          "link": "https://arxiv.org/abs/1910.10683v4"
+          "link": "https://arxiv.org/abs/1910.10683v4",
+          "authors": "Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu"
         },
         "c": "https://github.com/huggingface/transformers",
         "n": "T5-3B",
@@ -225,7 +240,8 @@
       {
         "p": {
           "name": "CLEAR: Contrastive Learning for Sentence Representation",
-          "link": "https://arxiv.org/abs/2012.15466v1"
+          "link": "https://arxiv.org/abs/2012.15466v1",
+          "authors": "Zhuofeng Wu, Sinong Wang, Jiatao Gu, Madian Khabsa, Fei Sun, Hao Ma"
         },
         "c": "",
         "n": "MLM+ del-word",
@@ -235,7 +251,8 @@
       {
         "p": {
           "name": "RealFormer: Transformer Likes Residual Attention",
-          "link": "https://arxiv.org/abs/2012.11747v3"
+          "link": "https://arxiv.org/abs/2012.11747v3",
+          "authors": "Ruining He, Anirudh Ravula, Bhargav Kanagal, Joshua Ainslie"
         },
         "c": "https://github.com/google-research/google-research",
         "n": "RealFormer",
@@ -246,7 +263,8 @@
       {
         "p": {
           "name": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
-          "link": "https://arxiv.org/abs/1910.10683v4"
+          "link": "https://arxiv.org/abs/1910.10683v4",
+          "authors": "Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu"
         },
         "c": "https://github.com/huggingface/transformers",
         "n": "T5-Large",
@@ -256,7 +274,8 @@
       {
         "p": {
           "name": "SpanBERT: Improving Pre-training by Representing and Predicting Spans",
-          "link": "https://arxiv.org/abs/1907.10529v3"
+          "link": "https://arxiv.org/abs/1907.10529v3",
+          "authors": "Mandar Joshi, Danqi Chen, Yinhan Liu, Daniel S. Weld, Luke Zettlemoyer, Omer Levy"
         },
         "c": "https://github.com/facebookresearch/SpanBERT",
         "n": "SpanBERT",
@@ -266,7 +285,8 @@
       {
         "p": {
           "name": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
-          "link": "https://arxiv.org/abs/1910.10683v4"
+          "link": "https://arxiv.org/abs/1910.10683v4",
+          "authors": "Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu"
         },
         "c": "https://github.com/huggingface/transformers",
         "n": "T5-Base",
@@ -276,7 +296,8 @@
       {
         "p": {
           "name": "ERNIE 2.0: A Continual Pre-training Framework for Language Understanding",
-          "link": "https://arxiv.org/abs/1907.12412v2"
+          "link": "https://arxiv.org/abs/1907.12412v2",
+          "authors": "Yu Sun, Shuohuan Wang, Yukun Li, Shikun Feng, Hao Tian, Hua Wu, Haifeng Wang"
         },
         "c": "https://github.com/PaddlePaddle/PaddleNLP/tree/develop/model_zoo/ernie-1.0",
         "n": "ERNIE 2.0 Base",
@@ -286,7 +307,8 @@
       {
         "p": {
           "name": "Charformer: Fast Character Transformers via Gradient-based Subword Tokenization",
-          "link": "https://arxiv.org/abs/2106.12672v3"
+          "link": "https://arxiv.org/abs/2106.12672v3",
+          "authors": "Yi Tay, Vinh Q. Tran, Sebastian Ruder, Jai Gupta, Hyung Won Chung, Dara Bahri, Zhen Qin, Simon Baumgartner, Cong Yu, Donald Metzler"
         },
         "c": "https://github.com/google-research/google-research",
         "n": "Charformer-Tall",
@@ -296,7 +318,8 @@
       {
         "p": {
           "name": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
-          "link": "https://arxiv.org/abs/1910.10683v4"
+          "link": "https://arxiv.org/abs/1910.10683v4",
+          "authors": "Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu"
         },
         "c": "https://github.com/huggingface/transformers",
         "n": "T5-Small",
@@ -307,7 +330,8 @@
       {
         "p": {
           "name": "ERNIE: Enhanced Language Representation with Informative Entities",
-          "link": "https://arxiv.org/abs/1905.07129v3"
+          "link": "https://arxiv.org/abs/1905.07129v3",
+          "authors": "Zhengyan Zhang, Xu Han, Zhiyuan Liu, Xin Jiang, Maosong Sun, Qun Liu"
         },
         "c": "https://github.com/thunlp/ERNIE",
         "n": "ERNIE",
@@ -317,7 +341,8 @@
       {
         "p": {
           "name": "How to Train BERT with an Academic Budget",
-          "link": "https://arxiv.org/abs/2104.07705v2"
+          "link": "https://arxiv.org/abs/2104.07705v2",
+          "authors": "Peter Izsak, Moshe Berchansky, Omer Levy"
         },
         "c": "https://github.com/peteriz/academic-budget-bert",
         "n": "24hBERT",
@@ -327,7 +352,8 @@
       {
         "p": {
           "name": "TinyBERT: Distilling BERT for Natural Language Understanding",
-          "link": "https://arxiv.org/abs/1909.10351v5"
+          "link": "https://arxiv.org/abs/1909.10351v5",
+          "authors": "Xiaoqi Jiao, Yichun Yin, Lifeng Shang, Xin Jiang, Xiao Chen, Linlin Li, Fang Wang, Qun Liu"
         },
         "c": "https://github.com/PaddlePaddle/PaddleNLP/tree/develop/paddlenlp/transformers/tinybert",
         "n": "TinyBERT-4 14.5M",
@@ -337,7 +363,8 @@
       {
         "p": {
           "name": "Universal Sentence Encoder",
-          "link": "http://arxiv.org/abs/1803.11175v2"
+          "link": "http://arxiv.org/abs/1803.11175v2",
+          "authors": "Daniel Cer, Yinfei Yang, Sheng-yi Kong, Nan Hua, Nicole Limtiaco, Rhomni St. John, Noah Constant, Mario Guajardo-Cespedes, Steve Yuan, Chris Tar, Yun-Hsuan Sung, Brian Strope, Ray Kurzweil"
         },
         "c": "https://github.com/facebookresearch/InferSent",
         "n": "USE_T",
@@ -347,7 +374,8 @@
       {
         "p": {
           "name": "AnglE-optimized Text Embeddings",
-          "link": "https://arxiv.org/abs/2309.12871v9"
+          "link": "https://arxiv.org/abs/2309.12871v9",
+          "authors": "Xianming Li, Jing Li"
         },
         "c": "https://github.com/SeanLee97/AnglE",
         "n": "AnglE-LLaMA-13B",
@@ -357,7 +385,8 @@
       {
         "p": {
           "name": "Adversarial Self-Attention for Language Understanding",
-          "link": "https://arxiv.org/abs/2206.12608v3"
+          "link": "https://arxiv.org/abs/2206.12608v3",
+          "authors": "Hongqiu Wu, Ruixue Ding, Hai Zhao, Pengjun Xie, Fei Huang, Min Zhang"
         },
         "c": "https://github.com/gingasan/adversarialsa",
         "n": "ASA + RoBERTa",
@@ -367,7 +396,8 @@
       {
         "p": {
           "name": "Scaling Sentence Embeddings with Large Language Models",
-          "link": "https://arxiv.org/abs/2307.16645v1"
+          "link": "https://arxiv.org/abs/2307.16645v1",
+          "authors": "Ting Jiang, Shaohan Huang, Zhongzhi Luan, Deqing Wang, Fuzhen Zhuang"
         },
         "c": "https://github.com/kongds/scaling_sentemb",
         "n": "PromptEOL+CSE+LLaMA-30B",
@@ -377,7 +407,8 @@
       {
         "p": {
           "name": "AnglE-optimized Text Embeddings",
-          "link": "https://arxiv.org/abs/2309.12871v9"
+          "link": "https://arxiv.org/abs/2309.12871v9",
+          "authors": "Xianming Li, Jing Li"
         },
         "c": "https://github.com/SeanLee97/AnglE",
         "n": "AnglE-LLaMA-7B",
@@ -387,7 +418,8 @@
       {
         "p": {
           "name": "AnglE-optimized Text Embeddings",
-          "link": "https://arxiv.org/abs/2309.12871v9"
+          "link": "https://arxiv.org/abs/2309.12871v9",
+          "authors": "Xianming Li, Jing Li"
         },
         "c": "https://github.com/SeanLee97/AnglE",
         "n": "AnglE-LLaMA-7B-v2",
@@ -397,7 +429,8 @@
       {
         "p": {
           "name": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
-          "link": "https://arxiv.org/abs/1910.10683v4"
+          "link": "https://arxiv.org/abs/1910.10683v4",
+          "authors": "Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu"
         },
         "c": "https://github.com/huggingface/transformers",
         "n": "T5-Large 770M",
@@ -407,7 +440,8 @@
       {
         "p": {
           "name": "Scaling Sentence Embeddings with Large Language Models",
-          "link": "https://arxiv.org/abs/2307.16645v1"
+          "link": "https://arxiv.org/abs/2307.16645v1",
+          "authors": "Ting Jiang, Shaohan Huang, Zhongzhi Luan, Deqing Wang, Fuzhen Zhuang"
         },
         "c": "https://github.com/kongds/scaling_sentemb",
         "n": "PromptEOL+CSE+OPT-13B",
@@ -417,7 +451,8 @@
       {
         "p": {
           "name": "Scaling Sentence Embeddings with Large Language Models",
-          "link": "https://arxiv.org/abs/2307.16645v1"
+          "link": "https://arxiv.org/abs/2307.16645v1",
+          "authors": "Ting Jiang, Shaohan Huang, Zhongzhi Luan, Deqing Wang, Fuzhen Zhuang"
         },
         "c": "https://github.com/kongds/scaling_sentemb",
         "n": "PromptEOL+CSE+OPT-2.7B",
@@ -427,7 +462,8 @@
       {
         "p": {
           "name": "Improved Universal Sentence Embeddings with Prompt-based Contrastive Learning and Energy-based Learning",
-          "link": "https://arxiv.org/abs/2203.06875v2"
+          "link": "https://arxiv.org/abs/2203.06875v2",
+          "authors": "Yuxin Jiang, Linhan Zhang, Wei Wang"
         },
         "c": "https://github.com/yjiangcm/promcse",
         "n": "PromCSE-RoBERTa-large (0.355B)",
@@ -437,7 +473,8 @@
       {
         "p": {
           "name": "Big Bird: Transformers for Longer Sequences",
-          "link": "https://arxiv.org/abs/2007.14062v2"
+          "link": "https://arxiv.org/abs/2007.14062v2",
+          "authors": "Manzil Zaheer, Guru Guruganesh, Avinava Dubey, Joshua Ainslie, Chris Alberti, Santiago Ontanon, Philip Pham, Anirudh Ravula, Qifan Wang, Li Yang, Amr Ahmed"
         },
         "c": "https://github.com/huggingface/transformers",
         "n": "BigBird",
@@ -447,7 +484,8 @@
       {
         "p": {
           "name": "SimCSE: Simple Contrastive Learning of Sentence Embeddings",
-          "link": "https://arxiv.org/abs/2104.08821v4"
+          "link": "https://arxiv.org/abs/2104.08821v4",
+          "authors": "Tianyu Gao, Xingcheng Yao, Danqi Chen"
         },
         "c": "https://github.com/PaddlePaddle/PaddleNLP/tree/develop/examples/text_matching/simcse",
         "n": "SimCSE-RoBERTalarge",
@@ -457,7 +495,8 @@
       {
         "p": {
           "name": "Trans-Encoder: Unsupervised sentence-pair modelling through self- and mutual-distillations",
-          "link": "https://arxiv.org/abs/2109.13059v4"
+          "link": "https://arxiv.org/abs/2109.13059v4",
+          "authors": "Fangyu Liu, Yunlong Jiao, Jordan Massiah, Emine Yilmaz, Serhii Havrylov"
         },
         "c": "https://github.com/amzn/trans-encoder",
         "n": "Trans-Encoder-RoBERTa-large-cross (unsup.)",
@@ -467,7 +506,8 @@
       {
         "p": {
           "name": "Trans-Encoder: Unsupervised sentence-pair modelling through self- and mutual-distillations",
-          "link": "https://arxiv.org/abs/2109.13059v4"
+          "link": "https://arxiv.org/abs/2109.13059v4",
+          "authors": "Fangyu Liu, Yunlong Jiao, Jordan Massiah, Emine Yilmaz, Serhii Havrylov"
         },
         "c": "https://github.com/amzn/trans-encoder",
         "n": "Trans-Encoder-RoBERTa-large-bi (unsup.)",
@@ -477,7 +517,8 @@
       {
         "p": {
           "name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
-          "link": "https://arxiv.org/abs/1810.04805v2"
+          "link": "https://arxiv.org/abs/1810.04805v2",
+          "authors": "Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova"
         },
         "c": "https://github.com/huggingface/transformers",
         "n": "BERT-LARGE",
@@ -487,7 +528,8 @@
       {
         "p": {
           "name": "Adversarial Self-Attention for Language Understanding",
-          "link": "https://arxiv.org/abs/2206.12608v3"
+          "link": "https://arxiv.org/abs/2206.12608v3",
+          "authors": "Hongqiu Wu, Ruixue Ding, Hai Zhao, Pengjun Xie, Fei Huang, Min Zhang"
         },
         "c": "https://github.com/gingasan/adversarialsa",
         "n": "ASA + BERT-base",
@@ -497,7 +539,8 @@
       {
         "p": {
           "name": "Trans-Encoder: Unsupervised sentence-pair modelling through self- and mutual-distillations",
-          "link": "https://arxiv.org/abs/2109.13059v4"
+          "link": "https://arxiv.org/abs/2109.13059v4",
+          "authors": "Fangyu Liu, Yunlong Jiao, Jordan Massiah, Emine Yilmaz, Serhii Havrylov"
         },
         "c": "https://github.com/amzn/trans-encoder",
         "n": "Trans-Encoder-BERT-large-bi (unsup.)",
@@ -507,7 +550,8 @@
       {
         "p": {
           "name": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
-          "link": "https://arxiv.org/abs/1908.10084v1"
+          "link": "https://arxiv.org/abs/1908.10084v1",
+          "authors": "Nils Reimers, Iryna Gurevych"
         },
         "c": "https://github.com/UKPLab/sentence-transformers",
         "n": "SRoBERTa-NLI-STSb-large",
@@ -517,7 +561,8 @@
       {
         "p": {
           "name": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
-          "link": "https://arxiv.org/abs/1908.10084v1"
+          "link": "https://arxiv.org/abs/1908.10084v1",
+          "authors": "Nils Reimers, Iryna Gurevych"
         },
         "c": "https://github.com/UKPLab/sentence-transformers",
         "n": "SBERT-STSb-base",
@@ -527,7 +572,8 @@
       {
         "p": {
           "name": "Trans-Encoder: Unsupervised sentence-pair modelling through self- and mutual-distillations",
-          "link": "https://arxiv.org/abs/2109.13059v4"
+          "link": "https://arxiv.org/abs/2109.13059v4",
+          "authors": "Fangyu Liu, Yunlong Jiao, Jordan Massiah, Emine Yilmaz, Serhii Havrylov"
         },
         "c": "https://github.com/amzn/trans-encoder",
         "n": "Trans-Encoder-RoBERTa-base-cross (unsup.)",
@@ -537,7 +583,8 @@
       {
         "p": {
           "name": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
-          "link": "https://arxiv.org/abs/1908.10084v1"
+          "link": "https://arxiv.org/abs/1908.10084v1",
+          "authors": "Nils Reimers, Iryna Gurevych"
         },
         "c": "https://github.com/UKPLab/sentence-transformers",
         "n": "SBERT-STSb-large",
@@ -547,7 +594,8 @@
       {
         "p": {
           "name": "FNet: Mixing Tokens with Fourier Transforms",
-          "link": "https://arxiv.org/abs/2105.03824v4"
+          "link": "https://arxiv.org/abs/2105.03824v4",
+          "authors": "James Lee-Thorp, Joshua Ainslie, Ilya Eckstein, Santiago Ontanon"
         },
         "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
         "n": "FNet-Large",
@@ -557,7 +605,8 @@
       {
         "p": {
           "name": "Trans-Encoder: Unsupervised sentence-pair modelling through self- and mutual-distillations",
-          "link": "https://arxiv.org/abs/2109.13059v4"
+          "link": "https://arxiv.org/abs/2109.13059v4",
+          "authors": "Fangyu Liu, Yunlong Jiao, Jordan Massiah, Emine Yilmaz, Serhii Havrylov"
         },
         "c": "https://github.com/amzn/trans-encoder",
         "n": "Trans-Encoder-BERT-base-bi (unsup.)",
@@ -574,7 +623,8 @@
       {
         "p": {
           "name": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
-          "link": "https://arxiv.org/abs/1908.10084v1"
+          "link": "https://arxiv.org/abs/1908.10084v1",
+          "authors": "Nils Reimers, Iryna Gurevych"
         },
         "c": "https://github.com/UKPLab/sentence-transformers",
         "n": "SBERT-NLI-large",
@@ -584,7 +634,8 @@
       {
         "p": {
           "name": "Fast, Effective, and Self-Supervised: Transforming Masked Language Models into Universal Lexical and Sentence Encoders",
-          "link": "https://arxiv.org/abs/2104.08027v2"
+          "link": "https://arxiv.org/abs/2104.08027v2",
+          "authors": "Fangyu Liu, Ivan Vulić, Anna Korhonen, Nigel Collier"
         },
         "c": "https://github.com/cambridgeltl/mirror-bert",
         "n": "Mirror-RoBERTa-base (unsup.)",
@@ -594,7 +645,8 @@
       {
         "p": {
           "name": "Generating Datasets with Pretrained Language Models",
-          "link": "https://arxiv.org/abs/2104.07540v3"
+          "link": "https://arxiv.org/abs/2104.07540v3",
+          "authors": "Timo Schick, Hinrich Schütze"
         },
         "c": "https://github.com/timoschick/dino",
         "n": "Dino (STSb/̄🦕)",
@@ -604,7 +656,8 @@
       {
         "p": {
           "name": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
-          "link": "https://arxiv.org/abs/1908.10084v1"
+          "link": "https://arxiv.org/abs/1908.10084v1",
+          "authors": "Nils Reimers, Iryna Gurevych"
         },
         "c": "https://github.com/UKPLab/sentence-transformers",
         "n": "SRoBERTa-NLI-base",
@@ -614,7 +667,8 @@
       {
         "p": {
           "name": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
-          "link": "https://arxiv.org/abs/1908.10084v1"
+          "link": "https://arxiv.org/abs/1908.10084v1",
+          "authors": "Nils Reimers, Iryna Gurevych"
         },
         "c": "https://github.com/UKPLab/sentence-transformers",
         "n": "SBERT-NLI-base",
@@ -624,7 +678,8 @@
       {
         "p": {
           "name": "Generating Datasets with Pretrained Language Models",
-          "link": "https://arxiv.org/abs/2104.07540v3"
+          "link": "https://arxiv.org/abs/2104.07540v3",
+          "authors": "Timo Schick, Hinrich Schütze"
         },
         "c": "https://github.com/timoschick/dino",
         "n": "Dino (STS/̄🦕)",
@@ -634,7 +689,8 @@
       {
         "p": {
           "name": "Fast, Effective, and Self-Supervised: Transforming Masked Language Models into Universal Lexical and Sentence Encoders",
-          "link": "https://arxiv.org/abs/2104.08027v2"
+          "link": "https://arxiv.org/abs/2104.08027v2",
+          "authors": "Fangyu Liu, Ivan Vulić, Anna Korhonen, Nigel Collier"
         },
         "c": "https://github.com/cambridgeltl/mirror-bert",
         "n": "Mirror-BERT-base (unsup.)",
@@ -644,7 +700,8 @@
       {
         "p": {
           "name": "On the Sentence Embeddings from Pre-trained Language Models",
-          "link": "https://arxiv.org/abs/2011.05864v1"
+          "link": "https://arxiv.org/abs/2011.05864v1",
+          "authors": "Bohan Li, Hao Zhou, Junxian He, Mingxuan Wang, Yiming Yang, Lei LI"
         },
         "c": "https://github.com/InsaneLife/dssm",
         "n": "BERTlarge-flow (target)",
@@ -654,7 +711,8 @@
       {
         "p": {
           "name": "An Unsupervised Sentence Embedding Method by Mutual Information Maximization",
-          "link": "https://arxiv.org/abs/2009.12061v2"
+          "link": "https://arxiv.org/abs/2009.12061v2",
+          "authors": "Yan Zhang, Ruidan He, Zuozhu Liu, Kwan Hui Lim, Lidong Bing"
         },
         "c": "https://github.com/yanzhangnlp/IS-BERT",
         "n": "IS-BERT-NLI",
@@ -664,7 +722,8 @@
       {
         "p": {
           "name": "Rematch: Robust and Efficient Matching of Local Knowledge Graphs to Improve Structural and Semantic Similarity",
-          "link": "https://arxiv.org/abs/2404.02126v1"
+          "link": "https://arxiv.org/abs/2404.02126v1",
+          "authors": "Zoher Kachwala, Jisun An, Haewoon Kwak, Filippo Menczer"
         },
         "c": "https://github.com/osome-iu/Rematch-RARE",
         "n": "Rematch",
@@ -674,7 +733,8 @@
       {
         "p": {
           "name": "Def2Vec: Extensible Word Embeddings from Dictionary Definitions",
-          "link": "https://aclanthology.org/2023.icnlsp-1.21"
+          "link": "https://aclanthology.org/2023.icnlsp-1.21",
+          "authors": "Irene Morazzoni, Vincenzo Scotti, Roberto Tedesco"
         },
         "c": "https://github.com/IreneMorazzoni/def_2_vec_irene",
         "n": "Def2Vec",
@@ -684,7 +744,8 @@
       {
         "p": {
           "name": "DeBERTa: Decoding-enhanced BERT with Disentangled Attention",
-          "link": "https://arxiv.org/abs/2006.03654v6"
+          "link": "https://arxiv.org/abs/2006.03654v6",
+          "authors": "Pengcheng He, Xiaodong Liu, Jianfeng Gao, Weizhu Chen"
         },
         "c": "https://github.com/huggingface/transformers",
         "n": "DeBERTa (large)",
@@ -694,7 +755,8 @@
       {
         "p": {
           "name": "SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization",
-          "link": "https://arxiv.org/abs/1911.03437v5"
+          "link": "https://arxiv.org/abs/1911.03437v5",
+          "authors": "Haoming Jiang, Pengcheng He, Weizhu Chen, Xiaodong Liu, Jianfeng Gao, Tuo Zhao"
         },
         "c": "https://github.com/namisan/mt-dnn",
         "n": "SMARTRoBERTa",
@@ -705,7 +767,8 @@
       {
         "p": {
           "name": "SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization",
-          "link": "https://arxiv.org/abs/1911.03437v5"
+          "link": "https://arxiv.org/abs/1911.03437v5",
+          "authors": "Haoming Jiang, Pengcheng He, Weizhu Chen, Xiaodong Liu, Jianfeng Gao, Tuo Zhao"
         },
         "c": "https://github.com/namisan/mt-dnn",
         "n": "SMART-BERT",

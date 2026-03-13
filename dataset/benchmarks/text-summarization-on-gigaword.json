@@ -64,7 +64,8 @@
       {
         "p": {
           "name": "Beyond Reptile: Meta-Learned Dot-Product Maximization between Gradients for Improved Single-Task Regularization",
-          "link": "https://aclanthology.org/2021.findings-emnlp.37"
+          "link": "https://aclanthology.org/2021.findings-emnlp.37",
+          "authors": "Akhil Kedia, Sai Chetan Chinthakindi, WonHo Ryu"
         },
         "c": "",
         "n": "Pegasus+DotProd",
@@ -76,7 +77,8 @@
       {
         "p": {
           "name": "Better Fine-Tuning by Reducing Representational Collapse",
-          "link": "https://arxiv.org/abs/2008.03156v1"
+          "link": "https://arxiv.org/abs/2008.03156v1",
+          "authors": "Armen Aghajanyan, Akshat Shrivastava, Anchit Gupta, Naman Goyal, Luke Zettlemoyer, Sonal Gupta"
         },
         "c": "https://github.com/pytorch/fairseq/tree/master/examples/rxf",
         "n": "BART-RXF",
@@ -88,7 +90,8 @@
       {
         "p": {
           "name": "Muppet: Massive Multi-task Representations with Pre-Finetuning",
-          "link": "https://arxiv.org/abs/2101.11038v1"
+          "link": "https://arxiv.org/abs/2101.11038v1",
+          "authors": "Armen Aghajanyan, Anchit Gupta, Akshat Shrivastava, Xilun Chen, Luke Zettlemoyer, Sonal Gupta"
         },
         "c": "https://huggingface.co/facebook/muppet-roberta-base",
         "n": "MUPPET BART Large",
@@ -100,7 +103,8 @@
       {
         "p": {
           "name": "OFA: Unifying Architectures, Tasks, and Modalities Through a Simple Sequence-to-Sequence Learning Framework",
-          "link": "https://arxiv.org/abs/2202.03052v2"
+          "link": "https://arxiv.org/abs/2202.03052v2",
+          "authors": "Peng Wang, An Yang, Rui Men, Junyang Lin, Shuai Bai, Zhikang Li, Jianxin Ma, Chang Zhou, Jingren Zhou, Hongxia Yang"
         },
         "c": "https://github.com/modelscope/modelscope",
         "n": "OFA",
@@ -112,7 +116,8 @@
       {
         "p": {
           "name": "Rethinking Perturbations in Encoder-Decoders for Fast Training",
-          "link": "https://arxiv.org/abs/2104.01853v1"
+          "link": "https://arxiv.org/abs/2104.01853v1",
+          "authors": "Sho Takase, Shun Kiyono"
         },
         "c": "https://github.com/takase/rethink_perturbations",
         "n": "Transformer+Rep(Uni)",
@@ -124,7 +129,8 @@
       {
         "p": {
           "name": "Rethinking Perturbations in Encoder-Decoders for Fast Training",
-          "link": "https://arxiv.org/abs/2104.01853v1"
+          "link": "https://arxiv.org/abs/2104.01853v1",
+          "authors": "Sho Takase, Shun Kiyono"
         },
         "c": "https://github.com/takase/rethink_perturbations",
         "n": "Transformer+Wdrop",
@@ -136,7 +142,8 @@
       {
         "p": {
           "name": "ProphetNet: Predicting Future N-gram for Sequence-to-Sequence Pre-training",
-          "link": "https://arxiv.org/abs/2001.04063v3"
+          "link": "https://arxiv.org/abs/2001.04063v3",
+          "authors": "Weizhen Qi, Yu Yan, Yeyun Gong, Dayiheng Liu, Nan Duan, Jiusheng Chen, Ruofei Zhang, Ming Zhou"
         },
         "c": "https://github.com/huggingface/transformers",
         "n": "ProphetNet",
@@ -148,7 +155,8 @@
       {
         "p": {
           "name": "ERNIE-GEN: An Enhanced Multi-Flow Pre-training and Fine-tuning Framework for Natural Language Generation",
-          "link": "https://arxiv.org/abs/2001.11314v3"
+          "link": "https://arxiv.org/abs/2001.11314v3",
+          "authors": "Dongling Xiao, Han Zhang, Yukun Li, Yu Sun, Hao Tian, Hua Wu, Haifeng Wang"
         },
         "c": "https://github.com/PaddlePaddle/PaddleNLP/blob/develop/paddlenlp/transformers/ernie_gen/modeling.py",
         "n": "ERNIE-GENLARGE (large-scale text corpora)",
@@ -160,7 +168,8 @@
       {
         "p": {
           "name": "PALM: Pre-training an Autoencoding&Autoregressive Language Model for Context-conditioned Generation",
-          "link": "https://arxiv.org/abs/2004.07159v2"
+          "link": "https://arxiv.org/abs/2004.07159v2",
+          "authors": "Bin Bi, Chenliang Li, Chen Wu, Ming Yan, Wei Wang, Songfang Huang, Fei Huang, Luo Si"
         },
         "c": "https://github.com/alibaba/AliceMind/tree/main/PALM",
         "n": "PALM",
@@ -172,7 +181,8 @@
       {
         "p": {
           "name": "A New Approach to Overgenerating and Scoring Abstractive Summaries",
-          "link": "https://arxiv.org/abs/2104.01726v1"
+          "link": "https://arxiv.org/abs/2104.01726v1",
+          "authors": "Kaiqiang Song, Bingqing Wang, Zhe Feng, Fei Liu"
         },
         "c": "https://github.com/ucfnlp/varying-length-summ",
         "n": "Best Summary Length",
@@ -184,7 +194,8 @@
       {
         "p": {
           "name": "ERNIE-GEN: An Enhanced Multi-Flow Pre-training and Fine-tuning Framework for Natural Language Generation",
-          "link": "https://arxiv.org/abs/2001.11314v3"
+          "link": "https://arxiv.org/abs/2001.11314v3",
+          "authors": "Dongling Xiao, Han Zhang, Yukun Li, Yu Sun, Hao Tian, Hua Wu, Haifeng Wang"
         },
         "c": "https://github.com/PaddlePaddle/PaddleNLP/blob/develop/paddlenlp/transformers/ernie_gen/modeling.py",
         "n": "ERNIE-GENLARGE",
@@ -196,7 +207,8 @@
       {
         "p": {
           "name": "Controlling the Amount of Verbatim Copying in Abstractive Summarization",
-          "link": "https://arxiv.org/abs/1911.10390v1"
+          "link": "https://arxiv.org/abs/1911.10390v1",
+          "authors": "Kaiqiang Song, Bingqing Wang, Zhe Feng, Liu Ren, Fei Liu"
         },
         "c": "https://github.com/ucfnlp/control-over-copying",
         "n": "ControlCopying + BPNorm",
@@ -208,7 +220,8 @@
       {
         "p": {
           "name": "PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization",
-          "link": "https://arxiv.org/abs/1912.08777v2"
+          "link": "https://arxiv.org/abs/1912.08777v2",
+          "authors": "Jingqing Zhang, Yao Zhao, Mohammad Saleh, Peter J. Liu"
         },
         "c": "https://github.com/huggingface/transformers",
         "n": "PEGASUS",
@@ -220,7 +233,8 @@
       {
         "p": {
           "name": "BiSET: Bi-directional Selective Encoding with Template for Abstractive Summarization",
-          "link": "https://arxiv.org/abs/1906.05012v1"
+          "link": "https://arxiv.org/abs/1906.05012v1",
+          "authors": "Kai Wang, Xiaojun Quan, Rui Wang"
         },
         "c": "https://github.com/InitialBug/BiSET",
         "n": "BiSET",
@@ -232,7 +246,8 @@
       {
         "p": {
           "name": "Controlling the Amount of Verbatim Copying in Abstractive Summarization",
-          "link": "https://arxiv.org/abs/1911.10390v1"
+          "link": "https://arxiv.org/abs/1911.10390v1",
+          "authors": "Kaiqiang Song, Bingqing Wang, Zhe Feng, Liu Ren, Fei Liu"
         },
         "c": "https://github.com/ucfnlp/control-over-copying",
         "n": "ControlCopying + SBWR",
@@ -244,7 +259,8 @@
       {
         "p": {
           "name": "Unified Language Model Pre-training for Natural Language Understanding and Generation",
-          "link": "https://arxiv.org/abs/1905.03197v3"
+          "link": "https://arxiv.org/abs/1905.03197v3",
+          "authors": "Li Dong, Nan Yang, Wenhui Wang, Furu Wei, Xiaodong Liu, Yu Wang, Jianfeng Gao, Ming Zhou, Hsiao-Wuen Hon"
         },
         "c": "https://github.com/microsoft/unilm",
         "n": "UniLM",
@@ -256,7 +272,8 @@
       {
         "p": {
           "name": "ERNIE-GEN: An Enhanced Multi-Flow Pre-training and Fine-tuning Framework for Natural Language Generation",
-          "link": "https://arxiv.org/abs/2001.11314v3"
+          "link": "https://arxiv.org/abs/2001.11314v3",
+          "authors": "Dongling Xiao, Han Zhang, Yukun Li, Yu Sun, Hao Tian, Hua Wu, Haifeng Wang"
         },
         "c": "https://github.com/PaddlePaddle/PaddleNLP/blob/develop/paddlenlp/transformers/ernie_gen/modeling.py",
         "n": "ERNIE-GENBASE",
@@ -268,7 +285,8 @@
       {
         "p": {
           "name": "MASS: Masked Sequence to Sequence Pre-training for Language Generation",
-          "link": "https://arxiv.org/abs/1905.02450v5"
+          "link": "https://arxiv.org/abs/1905.02450v5",
+          "authors": "Kaitao Song, Xu Tan, Tao Qin, Jianfeng Lu, Tie-Yan Liu"
         },
         "c": "https://github.com/microsoft/MASS",
         "n": "MASS",
@@ -280,7 +298,8 @@
       {
         "p": {
           "name": "Mask Attention Networks: Rethinking and Strengthen Transformer",
-          "link": "https://arxiv.org/abs/2103.13597v1"
+          "link": "https://arxiv.org/abs/2103.13597v1",
+          "authors": "Zhihao Fan, Yeyun Gong, Dayiheng Liu, Zhongyu Wei, Siyuan Wang, Jian Jiao, Nan Duan, Ruofei Zhang, Xuanjing Huang"
         },
         "c": "https://github.com/libertfan/man",
         "n": "Mask Attention Network",
@@ -292,7 +311,8 @@
       {
         "p": {
           "name": "Concept Pointer Network for Abstractive Summarization",
-          "link": "https://arxiv.org/abs/1910.08486v1"
+          "link": "https://arxiv.org/abs/1910.08486v1",
+          "authors": "Wang Wenbo, Gao Yang, Huang Heyan, Zhou Yuxiang"
         },
         "c": "https://github.com/wprojectsn/codes",
         "n": "Concept pointer+RL",
@@ -304,7 +324,8 @@
       {
         "p": {
           "name": "Attention Is All You Need",
-          "link": "https://arxiv.org/abs/1706.03762v7"
+          "link": "https://arxiv.org/abs/1706.03762v7",
+          "authors": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin"
         },
         "c": "https://github.com/huggingface/transformers",
         "n": "Transformer",
@@ -316,7 +337,8 @@
       {
         "p": {
           "name": "Faithful to the Original: Fact Aware Neural Abstractive Summarization",
-          "link": "http://arxiv.org/abs/1711.04434v1"
+          "link": "http://arxiv.org/abs/1711.04434v1",
+          "authors": "Ziqiang Cao, Furu Wei, Wenjie Li, Sujian Li"
         },
         "c": "",
         "n": "FTSum_g",
@@ -328,7 +350,8 @@
       {
         "p": {
           "name": "Retrieve, Rerank and Rewrite: Soft Template Based Neural Summarization",
-          "link": "https://aclanthology.org/P18-1015"
+          "link": "https://aclanthology.org/P18-1015",
+          "authors": "Ziqiang Cao, Wenjie Li, Sujian Li, Furu Wei"
         },
         "c": "",
         "n": "Re^3 Sum",
@@ -340,7 +363,8 @@
       {
         "p": {
           "name": "Entity Commonsense Representation for Neural Abstractive Summarization",
-          "link": "http://arxiv.org/abs/1806.05504v1"
+          "link": "http://arxiv.org/abs/1806.05504v1",
+          "authors": "Reinald Kim Amplayo, Seonjae Lim, Seung-won Hwang"
         },
         "c": "https://github.com/rktamplayo/Entity2Topic",
         "n": "Seq2seq + E2T_cnn",
@@ -352,7 +376,8 @@
       {
         "p": {
           "name": "Concept Pointer Network for Abstractive Summarization",
-          "link": "https://arxiv.org/abs/1910.08486v1"
+          "link": "https://arxiv.org/abs/1910.08486v1",
+          "authors": "Wang Wenbo, Gao Yang, Huang Heyan, Zhou Yuxiang"
         },
         "c": "https://github.com/wprojectsn/codes",
         "n": "Concept pointer+DS",
@@ -364,7 +389,8 @@
       {
         "p": {
           "name": "A Reinforced Topic-Aware Convolutional Sequence-to-Sequence Model for Abstractive Text Summarization",
-          "link": "https://arxiv.org/abs/1805.03616v3"
+          "link": "https://arxiv.org/abs/1805.03616v3",
+          "authors": "Li Wang, Junlin Yao, Yunzhe Tao, Li Zhong, Wei Liu, Qiang Du"
         },
         "c": "",
         "n": "Reinforced-Topic-ConvS2S ",
@@ -376,7 +402,8 @@
       {
         "p": {
           "name": "Joint Parsing and Generation for Abstractive Summarization",
-          "link": "https://arxiv.org/abs/1911.10389v1"
+          "link": "https://arxiv.org/abs/1911.10389v1",
+          "authors": "Kaiqiang Song, Logan Lebanoff, Qipeng Guo, Xipeng Qiu, xiangyang xue, Chen Li, Dong Yu, Fei Liu"
         },
         "c": "https://github.com/ucfnlp/joint-parse-n-summarize",
         "n": "JointParsing",
@@ -388,7 +415,8 @@
       {
         "p": {
           "name": "Abstractive Text Summarization Using Sequence-to-Sequence RNNs and Beyond",
-          "link": "http://arxiv.org/abs/1602.06023v5"
+          "link": "http://arxiv.org/abs/1602.06023v5",
+          "authors": "Ramesh Nallapati, Bo-Wen Zhou, Cicero Nogueira dos santos, Caglar Gulcehre, Bing Xiang"
         },
         "c": "https://github.com/theamrzaki/text_summurization_abstractive_methods",
         "n": "words-lvt5k-1sent",
@@ -400,7 +428,8 @@
       {
         "p": {
           "name": "Global Encoding for Abstractive Summarization",
-          "link": "http://arxiv.org/abs/1805.03989v2"
+          "link": "http://arxiv.org/abs/1805.03989v2",
+          "authors": "Junyang Lin, Xu sun, Shuming Ma, Qi Su"
         },
         "c": "https://github.com/lancopku/Global-Encoding",
         "n": "CGU",
@@ -412,7 +441,8 @@
       {
         "p": {
           "name": "Cutting-off Redundant Repeating Generations for Neural Abstractive Summarization",
-          "link": "http://arxiv.org/abs/1701.00138v2"
+          "link": "http://arxiv.org/abs/1701.00138v2",
+          "authors": "Jun Suzuki, Masaaki Nagata"
         },
         "c": "",
         "n": "EndDec+WFE",
@@ -424,7 +454,8 @@
       {
         "p": {
           "name": "Deep Recurrent Generative Decoder for Abstractive Text Summarization",
-          "link": "http://arxiv.org/abs/1708.00625v1"
+          "link": "http://arxiv.org/abs/1708.00625v1",
+          "authors": "Piji Li, Wai Lam, Lidong Bing, ZiHao Wang"
         },
         "c": "https://github.com/toru34/li_emnlp_2017",
         "n": "DRGD",
@@ -436,7 +467,8 @@
       {
         "p": {
           "name": "Selective Encoding for Abstractive Sentence Summarization",
-          "link": "http://arxiv.org/abs/1704.07073v1"
+          "link": "http://arxiv.org/abs/1704.07073v1",
+          "authors": "Qingyu Zhou, Nan Yang, Furu Wei, Ming Zhou"
         },
         "c": "https://github.com/magic282/SEASS",
         "n": "SEASS",
@@ -448,7 +480,8 @@
       {
         "p": {
           "name": "Soft Layer-Specific Multi-Task Summarization with Entailment and Question Generation",
-          "link": "http://arxiv.org/abs/1805.11004v1"
+          "link": "http://arxiv.org/abs/1805.11004v1",
+          "authors": "Han Guo, Ramakanth Pasunuru, Mohit Bansal"
         },
         "c": "",
         "n": "Pointer + Coverage + EntailmentGen + QuestionGen",
@@ -460,7 +493,8 @@
       {
         "p": {
           "name": "Structure-Infused Copy Mechanisms for Abstractive Summarization",
-          "link": "http://arxiv.org/abs/1806.05658v2"
+          "link": "http://arxiv.org/abs/1806.05658v2",
+          "authors": "Kaiqiang Song, Lin Zhao, Fei Liu"
         },
         "c": "https://github.com/KaiQiangSong/struct_infused_summ",
         "n": "Struct+2Way+Word",
@@ -472,7 +506,8 @@
       {
         "p": {
           "name": "Ensure the Correctness of the Summary: Incorporate Entailment Knowledge into Abstractive Sentence Summarization",
-          "link": "https://aclanthology.org/C18-1121"
+          "link": "https://aclanthology.org/C18-1121",
+          "authors": "Haoran Li, Junnan Zhu, Jiajun Zhang, Cheng-qing Zong"
         },
         "c": "",
         "n": "Seq2seq + selective + MTL + ERAM",
@@ -484,7 +519,8 @@
       {
         "p": {
           "name": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks",
-          "link": "https://aclanthology.org/N16-1012"
+          "link": "https://aclanthology.org/N16-1012",
+          "authors": "Sumit Chopra, Michael Auli, Alex Rush, er M."
         },
         "c": "",
         "n": "RAS-Elman",
@@ -496,7 +532,8 @@
       {
         "p": {
           "name": "A Neural Attention Model for Abstractive Sentence Summarization",
-          "link": "http://arxiv.org/abs/1509.00685v2"
+          "link": "http://arxiv.org/abs/1509.00685v2",
+          "authors": "Alexander M. Rush, Sumit Chopra, Jason Weston"
         },
         "c": "https://github.com/tensorflow/models/tree/master/research/textsum",
         "n": "Abs+",
@@ -506,7 +543,8 @@
       {
         "p": {
           "name": "A Neural Attention Model for Abstractive Sentence Summarization",
-          "link": "http://arxiv.org/abs/1509.00685v2"
+          "link": "http://arxiv.org/abs/1509.00685v2",
+          "authors": "Alexander M. Rush, Sumit Chopra, Jason Weston"
         },
         "c": "https://github.com/tensorflow/models/tree/master/research/textsum",
         "n": "Abs",
@@ -516,7 +554,8 @@
       {
         "p": {
           "name": "Simple Unsupervised Summarization by Contextual Matching",
-          "link": "https://arxiv.org/abs/1907.13337v1"
+          "link": "https://arxiv.org/abs/1907.13337v1",
+          "authors": "Jiawei Zhou, Alexander M. Rush"
         },
         "c": "https://github.com/jzhou316/Unsupervised-Sentence-Summarization",
         "n": "Contextual Match",

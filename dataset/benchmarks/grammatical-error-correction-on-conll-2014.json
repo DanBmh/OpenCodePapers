@@ -46,7 +46,8 @@
       {
         "p": {
           "name": "Pillars of Grammatical Error Correction: Comprehensive Inspection Of Contemporary Approaches In The Era of Large Language Models",
-          "link": "https://arxiv.org/abs/2404.14914v1"
+          "link": "https://arxiv.org/abs/2404.14914v1",
+          "authors": "Kostiantyn Omelianchuk, Andrii Liubonko, Oleksandr Skurzhanskyi, Artem Chernodub, Oleksandr Korniienko, Igor Samokhin"
         },
         "c": "https://github.com/grammarly/pillars-of-gec",
         "n": "Ensembles of best 7 models + GRECO + GTP-rerank",
@@ -58,7 +59,8 @@
       {
         "p": {
           "name": "Pillars of Grammatical Error Correction: Comprehensive Inspection Of Contemporary Approaches In The Era of Large Language Models",
-          "link": "https://arxiv.org/abs/2404.14914v1"
+          "link": "https://arxiv.org/abs/2404.14914v1",
+          "authors": "Kostiantyn Omelianchuk, Andrii Liubonko, Oleksandr Skurzhanskyi, Artem Chernodub, Oleksandr Korniienko, Igor Samokhin"
         },
         "c": "https://github.com/grammarly/pillars-of-gec",
         "n": "Majority-voting ensemble on best 7 models",
@@ -70,7 +72,8 @@
       {
         "p": {
           "name": "System Combination via Quality Estimation for Grammatical Error Correction",
-          "link": "https://arxiv.org/abs/2310.14947v1"
+          "link": "https://arxiv.org/abs/2310.14947v1",
+          "authors": "Muhammad Reza Qorib, Hwee Tou Ng"
         },
         "c": "https://github.com/nusnlp/greco",
         "n": "GRECO (voting+ESC)",
@@ -82,7 +85,8 @@
       {
         "p": {
           "name": "Improving Seq2Seq Grammatical Error Correction via Decoding Interventions",
-          "link": "https://arxiv.org/abs/2310.14534v1"
+          "link": "https://arxiv.org/abs/2310.14534v1",
+          "authors": "Houquan Zhou, Yumeng Liu, Zhenghua Li, Min Zhang, Bo Zhang, Chen Li, Ji Zhang, Fei Huang"
         },
         "c": "https://github.com/Jacob-Zhou/gecdi",
         "n": "GEC-DI (LM+GED)",
@@ -94,7 +98,8 @@
       {
         "p": {
           "name": "Unsupervised Grammatical Error Correction Rivaling Supervised Methods",
-          "link": "https://aclanthology.org/2023.emnlp-main.185.pdf"
+          "link": "https://aclanthology.org/2023.emnlp-main.185.pdf",
+          "authors": "Hannan Cao, Liping Yuan, Yuchen Zhang, Hwee Tou Ng"
         },
         "c": "https://github.com/nusnlp/ugec",
         "n": "Unsupervised GEC + cLang8",
@@ -106,7 +111,8 @@
       {
         "p": {
           "name": "Frustratingly Easy System Combination for Grammatical Error Correction",
-          "link": "https://aclanthology.org/2022.naacl-main.143"
+          "link": "https://aclanthology.org/2022.naacl-main.143",
+          "authors": "Muhammad Qorib, Seung-Hoon Na, Hwee Tou Ng"
         },
         "c": "https://github.com/nusnlp/esc",
         "n": "ESC",
@@ -118,7 +124,8 @@
       {
         "p": {
           "name": "A Simple Recipe for Multilingual Grammatical Error Correction",
-          "link": "https://arxiv.org/abs/2106.03830v2"
+          "link": "https://arxiv.org/abs/2106.03830v2",
+          "authors": "Sascha Rothe, Jonathan Mallinson, Eric Malmi, Sebastian Krause, Aliaksei Severyn"
         },
         "c": "https://github.com/google-research-datasets/clang8",
         "n": "T5",
@@ -128,7 +135,8 @@
       {
         "p": {
           "name": "Efficient and Interpretable Grammatical Error Correction with Mixture of Experts",
-          "link": "https://arxiv.org/abs/2410.23507v1"
+          "link": "https://arxiv.org/abs/2410.23507v1",
+          "authors": "Muhammad Reza Qorib, Alham Fikri Aji, Hwee Tou Ng"
         },
         "c": "https://github.com/nusnlp/moece",
         "n": "MoECE",
@@ -140,7 +148,8 @@
       {
         "p": {
           "name": "SynGEC: Syntax-Enhanced Grammatical Error Correction with a Tailored GEC-Oriented Parser",
-          "link": "https://arxiv.org/abs/2210.12484v1"
+          "link": "https://arxiv.org/abs/2210.12484v1",
+          "authors": "Yue Zhang, Bo Zhang, Zhenghua Li, Zuyi Bao, Chen Li, Min Zhang"
         },
         "c": "https://github.com/hillzhang1999/syngec",
         "n": "SynGEC",
@@ -152,7 +161,8 @@
       {
         "p": {
           "name": "GECToR -- Grammatical Error Correction: Tag, Not Rewrite",
-          "link": "https://arxiv.org/abs/2005.12592v2"
+          "link": "https://arxiv.org/abs/2005.12592v2",
+          "authors": "Kostiantyn Omelianchuk, Vitaliy Atrasevych, Artem Chernodub, Oleksandr Skurzhanskyi"
         },
         "c": "https://github.com/grammarly/gector",
         "n": "Sequence tagging + token-level transformations + two-stage fine-tuning (+BERT, RoBERTa, XLNet)",
@@ -164,7 +174,8 @@
       {
         "p": {
           "name": "LM-Critic: Language Models for Unsupervised Grammatical Error Correction",
-          "link": "https://arxiv.org/abs/2109.06822v2"
+          "link": "https://arxiv.org/abs/2109.06822v2",
+          "authors": "Michihiro Yasunaga, Jure Leskovec, Percy Liang"
         },
         "c": "https://github.com/grammarly/gector",
         "n": "LM-Critic",
@@ -174,7 +185,8 @@
       {
         "p": {
           "name": "GECToR -- Grammatical Error Correction: Tag, Not Rewrite",
-          "link": "https://arxiv.org/abs/2005.12592v2"
+          "link": "https://arxiv.org/abs/2005.12592v2",
+          "authors": "Kostiantyn Omelianchuk, Vitaliy Atrasevych, Artem Chernodub, Oleksandr Skurzhanskyi"
         },
         "c": "https://github.com/grammarly/gector",
         "n": "Sequence tagging + token-level transformations + two-stage fine-tuning (+XLNet)",
@@ -186,7 +198,8 @@
       {
         "p": {
           "name": "Encoder-Decoder Models Can Benefit from Pre-trained Masked Language Models in Grammatical Error Correction",
-          "link": "https://arxiv.org/abs/2005.00987v2"
+          "link": "https://arxiv.org/abs/2005.00987v2",
+          "authors": "Masahiro Kaneko, Masato Mita, Shun Kiyono, Jun Suzuki, Kentaro Inui"
         },
         "c": "https://github.com/kanekomasahiro/bert-gec",
         "n": "Transformer + Pre-train with Pseudo Data (+BERT)",
@@ -196,7 +209,8 @@
       {
         "p": {
           "name": "An Empirical Study of Incorporating Pseudo Data into Grammatical Error Correction",
-          "link": "https://arxiv.org/abs/1909.00502v1"
+          "link": "https://arxiv.org/abs/1909.00502v1",
+          "authors": "Shun Kiyono, Jun Suzuki, Masato Mita, Tomoya Mizumoto, Kentaro Inui"
         },
         "c": "https://github.com/butsugiri/gec-pseudodata",
         "n": "Transformer + Pre-train with Pseudo Data",
@@ -206,7 +220,8 @@
       {
         "p": {
           "name": "Neural Quality Estimation with Multiple Hypotheses for Grammatical Error Correction",
-          "link": "https://arxiv.org/abs/2105.04443v1"
+          "link": "https://arxiv.org/abs/2105.04443v1",
+          "authors": "Zhenghao Liu, Xiaoyuan Yi, Maosong Sun, Liner Yang, Tat-Seng Chua"
         },
         "c": "https://github.com/thunlp/VERNet",
         "n": "VERNet",
@@ -216,7 +231,8 @@
       {
         "p": {
           "name": "Stronger Baselines for Grammatical Error Correction Using Pretrained Encoder-Decoder Model",
-          "link": "https://arxiv.org/abs/2005.11849v2"
+          "link": "https://arxiv.org/abs/2005.11849v2",
+          "authors": "Satoru Katsumata, Mamoru Komachi"
         },
         "c": "https://github.com/Katsumata420/generic-pretrained-GEC",
         "n": "BART",
@@ -228,7 +244,8 @@
       {
         "p": {
           "name": "Parallel Iterative Edit Models for Local Sequence Transduction",
-          "link": "https://arxiv.org/abs/1910.02893v2"
+          "link": "https://arxiv.org/abs/1910.02893v2",
+          "authors": "Abhijeet Awasthi, Sunita Sarawagi, Rasna Goyal, Sabyasachi Ghosh, Vihari Piratla"
         },
         "c": "https://github.com/awasthiabhijeet/PIE",
         "n": "Sequence Labeling with edits using BERT, Faster inference",
@@ -238,7 +255,8 @@
       {
         "p": {
           "name": "Improving Grammatical Error Correction via Pre-Training a Copy-Augmented Architecture with Unlabeled Data",
-          "link": "https://arxiv.org/abs/1903.00138v3"
+          "link": "https://arxiv.org/abs/1903.00138v3",
+          "authors": "Wei Zhao, Liang Wang, Kewei Shen, Ruoyu Jia, Jingming Liu"
         },
         "c": "https://github.com/zhawe01/fairseq-gec",
         "n": "Copy-augmented Model (4 Ensemble +Denoising Autoencoder)",
@@ -250,7 +268,8 @@
       {
         "p": {
           "name": "Parallel Iterative Edit Models for Local Sequence Transduction",
-          "link": "https://arxiv.org/abs/1910.02893v2"
+          "link": "https://arxiv.org/abs/1910.02893v2",
+          "authors": "Abhijeet Awasthi, Sunita Sarawagi, Rasna Goyal, Sabyasachi Ghosh, Vihari Piratla"
         },
         "c": "https://github.com/awasthiabhijeet/PIE",
         "n": "Sequence Labeling with edits using BERT, Faster inference (Single Model)",
@@ -260,7 +279,8 @@
       {
         "p": {
           "name": "Neural Quality Estimation of Grammatical Error Correction",
-          "link": "https://aclanthology.org/D18-1274"
+          "link": "https://aclanthology.org/D18-1274",
+          "authors": "Shamil Chollampatt, Hwee Tou Ng"
         },
         "c": "https://github.com/nusnlp/neuqe",
         "n": "CNN Seq2Seq + Quality Estimation",
@@ -270,7 +290,8 @@
       {
         "p": {
           "name": "Near Human-Level Performance in Grammatical Error Correction with Hybrid Machine Translation",
-          "link": "http://arxiv.org/abs/1804.05945v1"
+          "link": "http://arxiv.org/abs/1804.05945v1",
+          "authors": "Roman Grundkiewicz, Marcin Junczys-Dowmunt"
         },
         "c": "",
         "n": "SMT + BiGRU",
@@ -280,7 +301,8 @@
       {
         "p": {
           "name": "Approaching Neural Grammatical Error Correction as a Low-Resource Machine Translation Task",
-          "link": "http://arxiv.org/abs/1804.05940v1"
+          "link": "http://arxiv.org/abs/1804.05940v1",
+          "authors": "Marcin Junczys-Dowmunt, Roman Grundkiewicz, Shubha Guha, Kenneth Heafield"
         },
         "c": "https://github.com/grammatical/neural-naacl2018",
         "n": "Transformer",
@@ -290,7 +312,8 @@
       {
         "p": {
           "name": "A Multilayer Convolutional Encoder-Decoder Neural Network for Grammatical Error Correction",
-          "link": "http://arxiv.org/abs/1801.08831v1"
+          "link": "http://arxiv.org/abs/1801.08831v1",
+          "authors": "Shamil Chollampatt, Hwee Tou Ng"
         },
         "c": "https://github.com/nusnlp/mlconvgec2018",
         "n": "CNN Seq2Seq",

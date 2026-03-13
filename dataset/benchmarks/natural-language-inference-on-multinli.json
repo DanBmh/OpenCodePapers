@@ -64,7 +64,8 @@
       {
         "p": {
           "name": "First Train to Generate, then Generate to Train: UnitedSynT5 for Few-Shot NLI",
-          "link": "https://arxiv.org/abs/2412.09263v2"
+          "link": "https://arxiv.org/abs/2412.09263v2",
+          "authors": "Sourav Banerjee, Anush Mahajan, Ayushi Agarwal, Eishkaran Singh"
         },
         "c": "",
         "n": "UnitedSynT5 (3B)",
@@ -74,7 +75,8 @@
       {
         "p": {
           "name": "SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization",
-          "link": "https://arxiv.org/abs/1911.03437v5"
+          "link": "https://arxiv.org/abs/1911.03437v5",
+          "authors": "Haoming Jiang, Pengcheng He, Weizhu Chen, Xiaodong Liu, Jianfeng Gao, Tuo Zhao"
         },
         "c": "https://github.com/namisan/mt-dnn",
         "n": "T5",
@@ -85,7 +87,8 @@
       {
         "p": {
           "name": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
-          "link": "https://arxiv.org/abs/1910.10683v4"
+          "link": "https://arxiv.org/abs/1910.10683v4",
+          "authors": "Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu"
         },
         "c": "https://github.com/huggingface/transformers",
         "n": "T5-XXL 11B (fine-tuned)",
@@ -95,7 +98,8 @@
       {
         "p": {
           "name": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
-          "link": "https://arxiv.org/abs/1910.10683v4"
+          "link": "https://arxiv.org/abs/1910.10683v4",
+          "authors": "Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu"
         },
         "c": "https://github.com/huggingface/transformers",
         "n": "T5-3B",
@@ -106,7 +110,8 @@
       {
         "p": {
           "name": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
-          "link": "https://arxiv.org/abs/1909.11942v6"
+          "link": "https://arxiv.org/abs/1909.11942v6",
+          "authors": "Zhenzhong Lan, Mingda Chen, Sebastian Goodman, Kevin Gimpel, Piyush Sharma, Radu Soricut"
         },
         "c": "https://github.com/huggingface/transformers",
         "n": "ALBERT",
@@ -116,7 +121,8 @@
       {
         "p": {
           "name": "DeBERTa: Decoding-enhanced BERT with Disentangled Attention",
-          "link": "https://arxiv.org/abs/2006.03654v6"
+          "link": "https://arxiv.org/abs/2006.03654v6",
+          "authors": "Pengcheng He, Xiaodong Liu, Jianfeng Gao, Weizhu Chen"
         },
         "c": "https://github.com/huggingface/transformers",
         "n": "DeBERTa (large)",
@@ -127,7 +133,8 @@
       {
         "p": {
           "name": "StructBERT: Incorporating Language Structures into Pre-training for Deep Language Understanding",
-          "link": "https://arxiv.org/abs/1908.04577v3"
+          "link": "https://arxiv.org/abs/1908.04577v3",
+          "authors": "Wei Wang, Bin Bi, Ming Yan, Chen Wu, Zuyi Bao, Jiangnan Xia, Liwei Peng, Luo Si"
         },
         "c": "",
         "n": "Adv-RoBERTa ensemble",
@@ -138,7 +145,8 @@
       {
         "p": {
           "name": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
-          "link": "https://arxiv.org/abs/1907.11692v1"
+          "link": "https://arxiv.org/abs/1907.11692v1",
+          "authors": "Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer Levy, Mike Lewis, Luke Zettlemoyer, Veselin Stoyanov"
         },
         "c": "https://github.com/huggingface/transformers",
         "n": "RoBERTa",
@@ -148,7 +156,8 @@
       {
         "p": {
           "name": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
-          "link": "https://arxiv.org/abs/1906.08237v2"
+          "link": "https://arxiv.org/abs/1906.08237v2",
+          "authors": "Zhilin Yang, Zihang Dai, Yiming Yang, Jaime Carbonell, Ruslan Salakhutdinov, Quoc V. Le"
         },
         "c": "https://github.com/huggingface/transformers",
         "n": "XLNet (single model)",
@@ -158,7 +167,8 @@
       {
         "p": {
           "name": "LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale",
-          "link": "https://arxiv.org/abs/2208.07339v2"
+          "link": "https://arxiv.org/abs/2208.07339v2",
+          "authors": "Tim Dettmers, Mike Lewis, Younes Belkada, Luke Zettlemoyer"
         },
         "c": "https://github.com/timdettmers/bitsandbytes",
         "n": "RoBERTa-large 355M (MLP quantized vector-wise, fine-tuned)",
@@ -168,7 +178,8 @@
       {
         "p": {
           "name": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
-          "link": "https://arxiv.org/abs/1910.10683v4"
+          "link": "https://arxiv.org/abs/1910.10683v4",
+          "authors": "Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu"
         },
         "c": "https://github.com/huggingface/transformers",
         "n": "T5-Large",
@@ -178,7 +189,8 @@
       {
         "p": {
           "name": "A Statistical Framework for Low-bitwidth Training of Deep Neural Networks",
-          "link": "https://arxiv.org/abs/2010.14298v1"
+          "link": "https://arxiv.org/abs/2010.14298v1",
+          "authors": "Jianfei Chen, Yu Gai, Zhewei Yao, Michael W. Mahoney, Joseph E. Gonzalez"
         },
         "c": "https://github.com/cjf00000/StatQuant",
         "n": "PSQ (Chen et al., 2020)",
@@ -188,7 +200,8 @@
       {
         "p": {
           "name": "First Train to Generate, then Generate to Train: UnitedSynT5 for Few-Shot NLI",
-          "link": "https://arxiv.org/abs/2412.09263v2"
+          "link": "https://arxiv.org/abs/2412.09263v2",
+          "authors": "Sourav Banerjee, Anush Mahajan, Ayushi Agarwal, Eishkaran Singh"
         },
         "c": "",
         "n": "UnitedSynT5 (335M)",
@@ -198,7 +211,8 @@
       {
         "p": {
           "name": "ERNIE 2.0: A Continual Pre-training Framework for Language Understanding",
-          "link": "https://arxiv.org/abs/1907.12412v2"
+          "link": "https://arxiv.org/abs/1907.12412v2",
+          "authors": "Yu Sun, Shuohuan Wang, Yukun Li, Shikun Feng, Hao Tian, Hua Wu, Haifeng Wang"
         },
         "c": "https://github.com/PaddlePaddle/PaddleNLP/tree/develop/model_zoo/ernie-1.0",
         "n": "ERNIE 2.0 Large",
@@ -209,7 +223,8 @@
       {
         "p": {
           "name": "SpanBERT: Improving Pre-training by Representing and Predicting Spans",
-          "link": "https://arxiv.org/abs/1907.10529v3"
+          "link": "https://arxiv.org/abs/1907.10529v3",
+          "authors": "Mandar Joshi, Danqi Chen, Yinhan Liu, Daniel S. Weld, Luke Zettlemoyer, Omer Levy"
         },
         "c": "https://github.com/facebookresearch/SpanBERT",
         "n": "SpanBERT",
@@ -219,7 +234,8 @@
       {
         "p": {
           "name": "FNet: Mixing Tokens with Fourier Transforms",
-          "link": "https://arxiv.org/abs/2105.03824v4"
+          "link": "https://arxiv.org/abs/2105.03824v4",
+          "authors": "James Lee-Thorp, Joshua Ainslie, Ilya Eckstein, Santiago Ontanon"
         },
         "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
         "n": "BERT-Large",
@@ -230,7 +246,8 @@
       {
         "p": {
           "name": "Adversarial Self-Attention for Language Understanding",
-          "link": "https://arxiv.org/abs/2206.12608v3"
+          "link": "https://arxiv.org/abs/2206.12608v3",
+          "authors": "Hongqiu Wu, Ruixue Ding, Hai Zhao, Pengjun Xie, Fei Huang, Min Zhang"
         },
         "c": "https://github.com/gingasan/adversarialsa",
         "n": "ASA + RoBERTa",
@@ -240,7 +257,8 @@
       {
         "p": {
           "name": "Improving Multi-Task Deep Neural Networks via Knowledge Distillation for Natural Language Understanding",
-          "link": "http://arxiv.org/abs/1904.09482v1"
+          "link": "http://arxiv.org/abs/1904.09482v1",
+          "authors": "Xiaodong Liu, Pengcheng He, Weizhu Chen, Jianfeng Gao"
         },
         "c": "https://github.com/namisan/mt-dnn",
         "n": "MT-DNN-ensemble",
@@ -251,7 +269,8 @@
       {
         "p": {
           "name": "Q-BERT: Hessian Based Ultra Low Precision Quantization of BERT",
-          "link": "https://arxiv.org/abs/1909.05840v2"
+          "link": "https://arxiv.org/abs/1909.05840v2",
+          "authors": "Sheng Shen, Zhen Dong, Jiayu Ye, Linjian Ma, Zhewei Yao, Amir Gholami, Michael W. Mahoney, Kurt Keutzer"
         },
         "c": "",
         "n": "Q-BERT (Shen et al., 2020)",
@@ -261,7 +280,8 @@
       {
         "p": {
           "name": "Training Complex Models with Multi-Task Weak Supervision",
-          "link": "http://arxiv.org/abs/1810.02840v2"
+          "link": "http://arxiv.org/abs/1810.02840v2",
+          "authors": "Alexander Ratner, Braden Hancock, Jared Dunnmon, Frederic Sala, Shreyash Pandey, Christopher Ré"
         },
         "c": "https://github.com/HazyResearch/metal",
         "n": "Snorkel MeTaL (ensemble)",
@@ -272,7 +292,8 @@
       {
         "p": {
           "name": "Big Bird: Transformers for Longer Sequences",
-          "link": "https://arxiv.org/abs/2007.14062v2"
+          "link": "https://arxiv.org/abs/2007.14062v2",
+          "authors": "Manzil Zaheer, Guru Guruganesh, Avinava Dubey, Joshua Ainslie, Chris Alberti, Santiago Ontanon, Philip Pham, Anirudh Ravula, Qifan Wang, Li Yang, Amr Ahmed"
         },
         "c": "https://github.com/huggingface/transformers",
         "n": "BigBird",
@@ -282,7 +303,8 @@
       {
         "p": {
           "name": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
-          "link": "https://arxiv.org/abs/1910.10683v4"
+          "link": "https://arxiv.org/abs/1910.10683v4",
+          "authors": "Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu"
         },
         "c": "https://github.com/huggingface/transformers",
         "n": "T5-Base",
@@ -293,7 +315,8 @@
       {
         "p": {
           "name": "Multi-Task Deep Neural Networks for Natural Language Understanding",
-          "link": "https://arxiv.org/abs/1901.11504v2"
+          "link": "https://arxiv.org/abs/1901.11504v2",
+          "authors": "Xiaodong Liu, Pengcheng He, Weizhu Chen, Jianfeng Gao"
         },
         "c": "https://github.com/namisan/mt-dnn",
         "n": "MT-DNN",
@@ -304,7 +327,8 @@
       {
         "p": {
           "name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
-          "link": "https://arxiv.org/abs/1810.04805v2"
+          "link": "https://arxiv.org/abs/1810.04805v2",
+          "authors": "Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova"
         },
         "c": "https://github.com/huggingface/transformers",
         "n": "BERT-LARGE",
@@ -315,7 +339,8 @@
       {
         "p": {
           "name": "RealFormer: Transformer Likes Residual Attention",
-          "link": "https://arxiv.org/abs/2012.11747v3"
+          "link": "https://arxiv.org/abs/2012.11747v3",
+          "authors": "Ruining He, Anirudh Ravula, Bhargav Kanagal, Joshua Ainslie"
         },
         "c": "https://github.com/google-research/google-research",
         "n": "RealFormer",
@@ -326,7 +351,8 @@
       {
         "p": {
           "name": "Pay Attention to MLPs",
-          "link": "https://arxiv.org/abs/2105.08050v2"
+          "link": "https://arxiv.org/abs/2105.08050v2",
+          "authors": "Hanxiao Liu, Zihang Dai, David R. So, Quoc V. Le"
         },
         "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
         "n": "gMLP-large",
@@ -337,7 +363,8 @@
       {
         "p": {
           "name": "ERNIE 2.0: A Continual Pre-training Framework for Language Understanding",
-          "link": "https://arxiv.org/abs/1907.12412v2"
+          "link": "https://arxiv.org/abs/1907.12412v2",
+          "authors": "Yu Sun, Shuohuan Wang, Yukun Li, Shikun Feng, Hao Tian, Hua Wu, Haifeng Wang"
         },
         "c": "https://github.com/PaddlePaddle/PaddleNLP/tree/develop/model_zoo/ernie-1.0",
         "n": "ERNIE 2.0 Base",
@@ -348,7 +375,8 @@
       {
         "p": {
           "name": "Q8BERT: Quantized 8Bit BERT",
-          "link": "https://arxiv.org/abs/1910.06188v2"
+          "link": "https://arxiv.org/abs/1910.06188v2",
+          "authors": "Ofir Zafrir, Guy Boudoukh, Peter Izsak, Moshe Wasserblat"
         },
         "c": "https://github.com/NervanaSystems/nlp-architect/blob/master/nlp_architect/models/transformers/quantized_bert.py",
         "n": "Q8BERT (Zafrir et al., 2019)",
@@ -358,7 +386,8 @@
       {
         "p": {
           "name": "Adversarial Self-Attention for Language Understanding",
-          "link": "https://arxiv.org/abs/2206.12608v3"
+          "link": "https://arxiv.org/abs/2206.12608v3",
+          "authors": "Hongqiu Wu, Ruixue Ding, Hai Zhao, Pengjun Xie, Fei Huang, Min Zhang"
         },
         "c": "https://github.com/gingasan/adversarialsa",
         "n": "ASA + BERT-base",
@@ -368,7 +397,8 @@
       {
         "p": {
           "name": "TinyBERT: Distilling BERT for Natural Language Understanding",
-          "link": "https://arxiv.org/abs/1909.10351v5"
+          "link": "https://arxiv.org/abs/1909.10351v5",
+          "authors": "Xiaoqi Jiao, Yichun Yin, Lifeng Shang, Xin Jiang, Xiao Chen, Linlin Li, Fang Wang, Qun Liu"
         },
         "c": "https://github.com/PaddlePaddle/PaddleNLP/tree/develop/paddlenlp/transformers/tinybert",
         "n": "TinyBERT-6 67M",
@@ -379,7 +409,8 @@
       {
         "p": {
           "name": "Not all layers are equally as important: Every Layer Counts BERT",
-          "link": "https://arxiv.org/abs/2311.02265v2"
+          "link": "https://arxiv.org/abs/2311.02265v2",
+          "authors": "Lucas Georges Gabriel Charpentier, David Samuel"
         },
         "c": "",
         "n": "ELC-BERT-base 98M (zero init)",
@@ -390,7 +421,8 @@
       {
         "p": {
           "name": "How to Train BERT with an Academic Budget",
-          "link": "https://arxiv.org/abs/2104.07705v2"
+          "link": "https://arxiv.org/abs/2104.07705v2",
+          "authors": "Peter Izsak, Moshe Berchansky, Omer Levy"
         },
         "c": "https://github.com/peteriz/academic-budget-bert",
         "n": "24hBERT",
@@ -401,7 +433,8 @@
       {
         "p": {
           "name": "ERNIE: Enhanced Language Representation with Informative Entities",
-          "link": "https://arxiv.org/abs/1905.07129v3"
+          "link": "https://arxiv.org/abs/1905.07129v3",
+          "authors": "Zhengyan Zhang, Xu Han, Zhiyuan Liu, Xin Jiang, Maosong Sun, Qun Liu"
         },
         "c": "https://github.com/thunlp/ERNIE",
         "n": "ERNIE",
@@ -412,7 +445,8 @@
       {
         "p": {
           "name": "Charformer: Fast Character Transformers via Gradient-based Subword Tokenization",
-          "link": "https://arxiv.org/abs/2106.12672v3"
+          "link": "https://arxiv.org/abs/2106.12672v3",
+          "authors": "Yi Tay, Vinh Q. Tran, Sebastian Ruder, Jai Gupta, Hyung Won Chung, Dara Bahri, Zhen Qin, Simon Baumgartner, Cong Yu, Donald Metzler"
         },
         "c": "https://github.com/google-research/google-research",
         "n": "Charformer-Tall",
@@ -423,7 +457,8 @@
       {
         "p": {
           "name": "Not all layers are equally as important: Every Layer Counts BERT",
-          "link": "https://arxiv.org/abs/2311.02265v2"
+          "link": "https://arxiv.org/abs/2311.02265v2",
+          "authors": "Lucas Georges Gabriel Charpentier, David Samuel"
         },
         "c": "",
         "n": "LTG-BERT-base 98M",
@@ -434,7 +469,8 @@
       {
         "p": {
           "name": "TinyBERT: Distilling BERT for Natural Language Understanding",
-          "link": "https://arxiv.org/abs/1909.10351v5"
+          "link": "https://arxiv.org/abs/1909.10351v5",
+          "authors": "Xiaoqi Jiao, Yichun Yin, Lifeng Shang, Xin Jiang, Xiao Chen, Linlin Li, Fang Wang, Qun Liu"
         },
         "c": "https://github.com/PaddlePaddle/PaddleNLP/tree/develop/paddlenlp/transformers/tinybert",
         "n": "TinyBERT-4 14.5M",
@@ -445,7 +481,8 @@
       {
         "p": {
           "name": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
-          "link": "https://arxiv.org/abs/1910.10683v4"
+          "link": "https://arxiv.org/abs/1910.10683v4",
+          "authors": "Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu"
         },
         "c": "https://github.com/huggingface/transformers",
         "n": "T5-Small",
@@ -456,7 +493,8 @@
       {
         "p": {
           "name": "What Do Questions Exactly Ask? MFAE: Duplicate Question Identification with Multi-Fusion Asking Emphasis",
-          "link": "https://epubs.siam.org/doi/10.1137/1.9781611976236.26"
+          "link": "https://epubs.siam.org/doi/10.1137/1.9781611976236.26",
+          "authors": "Rong Zhang, Qifei Zhou, Bo Wu, Weiping Li, Tong Mo"
         },
         "c": "https://github.com/rzhangpku/MFAE",
         "n": "MFAE",
@@ -475,7 +513,8 @@
       {
         "p": {
           "name": "Improving Language Understanding by Generative Pre-Training",
-          "link": "https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf"
+          "link": "https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf",
+          "authors": "Alec Radford, Karthik Narasimhan, Tim Salimans, Ilya Sutskever"
         },
         "c": "https://github.com/huggingface/transformers",
         "n": "Finetuned Transformer LM",
@@ -486,7 +525,8 @@
       {
         "p": {
           "name": "SqueezeBERT: What can computer vision teach NLP about efficient neural networks?",
-          "link": "https://arxiv.org/abs/2006.11316v1"
+          "link": "https://arxiv.org/abs/2006.11316v1",
+          "authors": "Forrest N. Iandola, Albert E. Shaw, Ravi Krishna, Kurt W. Keutzer"
         },
         "c": "https://github.com/huggingface/transformers/blob/main/src/transformers/models/squeezebert/modeling_squeezebert.py",
         "n": "SqueezeBERT",
@@ -497,7 +537,8 @@
       {
         "p": {
           "name": "Generative Pretrained Structured Transformers: Unsupervised Syntactic Language Models at Scale",
-          "link": "https://arxiv.org/abs/2403.08293v3"
+          "link": "https://arxiv.org/abs/2403.08293v3",
+          "authors": "Xiang Hu, Pengyu Ji, Qingyang Zhu, Wei Wu, Kewei Tu"
         },
         "c": "https://github.com/ant-research/structuredlm_rtdt",
         "n": "GPST(unsupervised generative syntactic LM)",
@@ -508,7 +549,8 @@
       {
         "p": {
           "name": "Not all layers are equally as important: Every Layer Counts BERT",
-          "link": "https://arxiv.org/abs/2311.02265v2"
+          "link": "https://arxiv.org/abs/2311.02265v2",
+          "authors": "Lucas Georges Gabriel Charpentier, David Samuel"
         },
         "c": "",
         "n": "ELC-BERT-small 24M",
@@ -519,7 +561,8 @@
       {
         "p": {
           "name": "Not all layers are equally as important: Every Layer Counts BERT",
-          "link": "https://arxiv.org/abs/2311.02265v2"
+          "link": "https://arxiv.org/abs/2311.02265v2",
+          "authors": "Lucas Georges Gabriel Charpentier, David Samuel"
         },
         "c": "",
         "n": "LTG-BERT-small 24M",
@@ -530,7 +573,8 @@
       {
         "p": {
           "name": "FNet: Mixing Tokens with Fourier Transforms",
-          "link": "https://arxiv.org/abs/2105.03824v4"
+          "link": "https://arxiv.org/abs/2105.03824v4",
+          "authors": "James Lee-Thorp, Joshua Ainslie, Ilya Eckstein, Santiago Ontanon"
         },
         "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
         "n": "FNet-Large",
@@ -541,7 +585,8 @@
       {
         "p": {
           "name": "Attention Boosted Sequential Inference Model",
-          "link": "http://arxiv.org/abs/1812.01840v2"
+          "link": "http://arxiv.org/abs/1812.01840v2",
+          "authors": "Guanyu Li, Pengfei Zhang, Caiyan Jia"
         },
         "c": "",
         "n": "aESIM",
@@ -552,7 +597,8 @@
       {
         "p": {
           "name": "LaMini-LM: A Diverse Herd of Distilled Models from Large-Scale Instructions",
-          "link": "https://arxiv.org/abs/2304.14402v3"
+          "link": "https://arxiv.org/abs/2304.14402v3",
+          "authors": "Minghao Wu, Abdul Waheed, Chiyu Zhang, Muhammad Abdul-Mageed, Alham Fikri Aji"
         },
         "c": "https://github.com/mbzuai-nlp/lamini-lm",
         "n": "T5-Large 738M",
@@ -563,7 +609,8 @@
       {
         "p": {
           "name": "GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding",
-          "link": "http://arxiv.org/abs/1804.07461v3"
+          "link": "http://arxiv.org/abs/1804.07461v3",
+          "authors": "Alex Wang, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, Samuel R. Bowman"
         },
         "c": "https://github.com/ofa-sys/ofa",
         "n": "Multi-task BiLSTM + Attn",
@@ -574,7 +621,8 @@
       {
         "p": {
           "name": "Combining Similarity Features and Deep Representation Learning for Stance Detection in the Context of Checking Fake News",
-          "link": "http://arxiv.org/abs/1811.00706v1"
+          "link": "http://arxiv.org/abs/1811.00706v1",
+          "authors": "Luís Borges, Bruno Martins, Pável Calado"
         },
         "c": "https://github.com/imran3180/pytorch-nli",
         "n": "Stacked Bi-LSTMs (shortcut connections, max-pooling)",
@@ -585,7 +633,8 @@
       {
         "p": {
           "name": "Learning General Purpose Distributed Sentence Representations via Large Scale Multi-task Learning",
-          "link": "http://arxiv.org/abs/1804.00079v1"
+          "link": "http://arxiv.org/abs/1804.00079v1",
+          "authors": "Sandeep Subramanian, Adam Trischler, Yoshua Bengio, Christopher J. Pal"
         },
         "c": "https://github.com/facebookresearch/InferSent",
         "n": "GenSen",
@@ -596,7 +645,8 @@
       {
         "p": {
           "name": "Combining Similarity Features and Deep Representation Learning for Stance Detection in the Context of Checking Fake News",
-          "link": "http://arxiv.org/abs/1811.00706v1"
+          "link": "http://arxiv.org/abs/1811.00706v1",
+          "authors": "Luís Borges, Bruno Martins, Pável Calado"
         },
         "c": "https://github.com/imran3180/pytorch-nli",
         "n": "Bi-LSTM sentence encoder (max-pooling)",
@@ -607,7 +657,8 @@
       {
         "p": {
           "name": "Combining Similarity Features and Deep Representation Learning for Stance Detection in the Context of Checking Fake News",
-          "link": "http://arxiv.org/abs/1811.00706v1"
+          "link": "http://arxiv.org/abs/1811.00706v1",
+          "authors": "Luís Borges, Bruno Martins, Pável Calado"
         },
         "c": "https://github.com/imran3180/pytorch-nli",
         "n": "Stacked Bi-LSTMs (shortcut connections, max-pooling, attention)",
@@ -618,7 +669,8 @@
       {
         "p": {
           "name": "Baseline Needs More Love: On Simple Word-Embedding-Based Models and Associated Pooling Mechanisms",
-          "link": "http://arxiv.org/abs/1805.09843v1"
+          "link": "http://arxiv.org/abs/1805.09843v1",
+          "authors": "Dinghan Shen, Guoyin Wang, Wenlin Wang, Martin Renqiang Min, Qinliang Su, Yizhe Zhang, Chunyuan Li, Ricardo Henao, Lawrence Carin"
         },
         "c": "https://github.com/dinghanshen/SWEM",
         "n": "SWEM-max",
@@ -629,7 +681,8 @@
       {
         "p": {
           "name": "LaMini-LM: A Diverse Herd of Distilled Models from Large-Scale Instructions",
-          "link": "https://arxiv.org/abs/2304.14402v3"
+          "link": "https://arxiv.org/abs/2304.14402v3",
+          "authors": "Minghao Wu, Abdul Waheed, Chiyu Zhang, Muhammad Abdul-Mageed, Alham Fikri Aji"
         },
         "c": "https://github.com/mbzuai-nlp/lamini-lm",
         "n": "LaMini-GPT 1.5B",
@@ -640,7 +693,8 @@
       {
         "p": {
           "name": "LaMini-LM: A Diverse Herd of Distilled Models from Large-Scale Instructions",
-          "link": "https://arxiv.org/abs/2304.14402v3"
+          "link": "https://arxiv.org/abs/2304.14402v3",
+          "authors": "Minghao Wu, Abdul Waheed, Chiyu Zhang, Muhammad Abdul-Mageed, Alham Fikri Aji"
         },
         "c": "https://github.com/mbzuai-nlp/lamini-lm",
         "n": "LaMini-F-T5 783M",
@@ -651,7 +705,8 @@
       {
         "p": {
           "name": "LaMini-LM: A Diverse Herd of Distilled Models from Large-Scale Instructions",
-          "link": "https://arxiv.org/abs/2304.14402v3"
+          "link": "https://arxiv.org/abs/2304.14402v3",
+          "authors": "Minghao Wu, Abdul Waheed, Chiyu Zhang, Muhammad Abdul-Mageed, Alham Fikri Aji"
         },
         "c": "https://github.com/mbzuai-nlp/lamini-lm",
         "n": "LaMini-T5 738M",
@@ -662,7 +717,8 @@
       {
         "p": {
           "name": "LaMini-LM: A Diverse Herd of Distilled Models from Large-Scale Instructions",
-          "link": "https://arxiv.org/abs/2304.14402v3"
+          "link": "https://arxiv.org/abs/2304.14402v3",
+          "authors": "Minghao Wu, Abdul Waheed, Chiyu Zhang, Muhammad Abdul-Mageed, Alham Fikri Aji"
         },
         "c": "https://github.com/mbzuai-nlp/lamini-lm",
         "n": "GPT-2-XL 1.5B",
@@ -673,7 +729,8 @@
       {
         "p": {
           "name": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
-          "link": "https://arxiv.org/abs/1910.10683v4"
+          "link": "https://arxiv.org/abs/1910.10683v4",
+          "authors": "Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu"
         },
         "c": "https://github.com/huggingface/transformers",
         "n": "T5-11B",
@@ -683,7 +740,8 @@
       {
         "p": {
           "name": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
-          "link": "https://arxiv.org/abs/1907.11692v1"
+          "link": "https://arxiv.org/abs/1907.11692v1",
+          "authors": "Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer Levy, Mike Lewis, Luke Zettlemoyer, Veselin Stoyanov"
         },
         "c": "https://github.com/huggingface/transformers",
         "n": "RoBERTa (ensemble)",
@@ -693,7 +751,8 @@
       {
         "p": {
           "name": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
-          "link": "https://arxiv.org/abs/1910.10683v4"
+          "link": "https://arxiv.org/abs/1910.10683v4",
+          "authors": "Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu"
         },
         "c": "https://github.com/huggingface/transformers",
         "n": "T5-Large 770M",
@@ -703,7 +762,8 @@
       {
         "p": {
           "name": "SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization",
-          "link": "https://arxiv.org/abs/1911.03437v5"
+          "link": "https://arxiv.org/abs/1911.03437v5",
+          "authors": "Haoming Jiang, Pengcheng He, Weizhu Chen, Xiaodong Liu, Jianfeng Gao, Tuo Zhao"
         },
         "c": "https://github.com/namisan/mt-dnn",
         "n": "MT-DNN-SMARTv0",
@@ -713,7 +773,8 @@
       {
         "p": {
           "name": "SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization",
-          "link": "https://arxiv.org/abs/1911.03437v5"
+          "link": "https://arxiv.org/abs/1911.03437v5",
+          "authors": "Haoming Jiang, Pengcheng He, Weizhu Chen, Xiaodong Liu, Jianfeng Gao, Tuo Zhao"
         },
         "c": "https://github.com/namisan/mt-dnn",
         "n": "MT-DNN-SMART",
@@ -723,7 +784,8 @@
       {
         "p": {
           "name": "SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization",
-          "link": "https://arxiv.org/abs/1911.03437v5"
+          "link": "https://arxiv.org/abs/1911.03437v5",
+          "authors": "Haoming Jiang, Pengcheng He, Weizhu Chen, Xiaodong Liu, Jianfeng Gao, Tuo Zhao"
         },
         "c": "https://github.com/namisan/mt-dnn",
         "n": "SMART+BERT-BASE",
@@ -733,7 +795,8 @@
       {
         "p": {
           "name": "LM-CPPF: Paraphrasing-Guided Data Augmentation for Contrastive Prompt-Based Few-Shot Fine-Tuning",
-          "link": "https://arxiv.org/abs/2305.18169v3"
+          "link": "https://arxiv.org/abs/2305.18169v3",
+          "authors": "Amirhossein Abaskohi, Sascha Rothe, Yadollah Yaghoobzadeh"
         },
         "c": "https://github.com/amirabaskohi/lm-cppf",
         "n": "LM-CPPF RoBERTa-base",
@@ -743,7 +806,8 @@
       {
         "p": {
           "name": "SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization",
-          "link": "https://arxiv.org/abs/1911.03437v5"
+          "link": "https://arxiv.org/abs/1911.03437v5",
+          "authors": "Haoming Jiang, Pengcheng He, Weizhu Chen, Xiaodong Liu, Jianfeng Gao, Tuo Zhao"
         },
         "c": "https://github.com/namisan/mt-dnn",
         "n": "SMARTRoBERTa",
@@ -754,7 +818,8 @@
       {
         "p": {
           "name": "SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization",
-          "link": "https://arxiv.org/abs/1911.03437v5"
+          "link": "https://arxiv.org/abs/1911.03437v5",
+          "authors": "Haoming Jiang, Pengcheng He, Weizhu Chen, Xiaodong Liu, Jianfeng Gao, Tuo Zhao"
         },
         "c": "https://github.com/namisan/mt-dnn",
         "n": "SMART-BERT",
