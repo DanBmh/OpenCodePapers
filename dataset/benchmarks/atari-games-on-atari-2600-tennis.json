@@ -313,13 +313,23 @@
       },
       {
         "p": {
-          "name": "Human level control through deep reinforcement learning",
-          "link": "https://www.nature.com/articles/nature14236"
+          "name": "Recurrent Experience Replay in Distributed Reinforcement Learning",
+          "link": "https://openreview.net/forum?id=r1lyTjAqYX"
         },
-        "c": "https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/tree/main/Deep_Reinforcement_Learning_with_Double_Q_learning",
-        "n": "Nature DQN",
-        "d": "2015-02-25",
-        "m1": "-2.5"
+        "c": "https://github.com/opendilab/DI-engine/blob/main/ding/policy/r2d2.py",
+        "n": "R2D2",
+        "d": "2019-05-01",
+        "m1": "-0.1"
+      },
+      {
+        "p": {
+          "name": "The Arcade Learning Environment: An Evaluation Platform for General Agents",
+          "link": "http://arxiv.org/abs/1207.4708v2"
+        },
+        "c": "https://github.com/mgbellemare/Arcade-Learning-Environment",
+        "n": "Best Learner",
+        "d": "2012-07-19",
+        "m1": "-0.1"
       },
       {
         "p": {
@@ -333,33 +343,23 @@
       },
       {
         "p": {
-          "name": "Dueling Network Architectures for Deep Reinforcement Learning",
-          "link": "http://arxiv.org/abs/1511.06581v3"
+          "name": "Human level control through deep reinforcement learning",
+          "link": "https://www.nature.com/articles/nature14236"
         },
-        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
-        "n": "DDQN (tuned) noop",
-        "d": "2015-11-20",
-        "m1": "-22.8"
+        "c": "https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/tree/main/Deep_Reinforcement_Learning_with_Double_Q_learning",
+        "n": "Nature DQN",
+        "d": "2015-02-25",
+        "m1": "-2.5"
       },
       {
         "p": {
-          "name": "Deep Reinforcement Learning with Double Q-learning",
-          "link": "http://arxiv.org/abs/1509.06461v3"
+          "name": "Evolution Strategies as a Scalable Alternative to Reinforcement Learning",
+          "link": "http://arxiv.org/abs/1703.03864v2"
         },
-        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
-        "n": "DDQN (tuned) hs",
-        "d": "2015-09-22",
-        "m1": "-7.8"
-      },
-      {
-        "p": {
-          "name": "Deep Reinforcement Learning with Double Q-learning",
-          "link": "http://arxiv.org/abs/1509.06461v3"
-        },
-        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
-        "n": "Prior+Duel hs",
-        "d": "2015-09-22",
-        "m1": "-13.2"
+        "c": "https://github.com/ray-project/ray/tree/master/rllib",
+        "n": "ES FF (1 hour) noop",
+        "d": "2017-03-10",
+        "m1": "-4.5"
       },
       {
         "p": {
@@ -393,43 +393,13 @@
       },
       {
         "p": {
-          "name": "Asynchronous Methods for Deep Reinforcement Learning",
-          "link": "http://arxiv.org/abs/1602.01783v2"
+          "name": "Deep Reinforcement Learning with Double Q-learning",
+          "link": "http://arxiv.org/abs/1509.06461v3"
         },
-        "c": "https://github.com/ray-project/ray/tree/master/rllib",
-        "n": "A3C FF (1 day) hs",
-        "d": "2016-02-04",
-        "m1": "-10.2"
-      },
-      {
-        "p": {
-          "name": "Evolution Strategies as a Scalable Alternative to Reinforcement Learning",
-          "link": "http://arxiv.org/abs/1703.03864v2"
-        },
-        "c": "https://github.com/ray-project/ray/tree/master/rllib",
-        "n": "ES FF (1 hour) noop",
-        "d": "2017-03-10",
-        "m1": "-4.5"
-      },
-      {
-        "p": {
-          "name": "Recurrent Experience Replay in Distributed Reinforcement Learning",
-          "link": "https://openreview.net/forum?id=r1lyTjAqYX"
-        },
-        "c": "https://github.com/opendilab/DI-engine/blob/main/ding/policy/r2d2.py",
-        "n": "R2D2",
-        "d": "2019-05-01",
-        "m1": "-0.1"
-      },
-      {
-        "p": {
-          "name": "The Arcade Learning Environment: An Evaluation Platform for General Agents",
-          "link": "http://arxiv.org/abs/1207.4708v2"
-        },
-        "c": "https://github.com/mgbellemare/Arcade-Learning-Environment",
-        "n": "Best Learner",
-        "d": "2012-07-19",
-        "m1": "-0.1"
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+        "n": "DDQN (tuned) hs",
+        "d": "2015-09-22",
+        "m1": "-7.8"
       },
       {
         "p": {
@@ -443,13 +413,13 @@
       },
       {
         "p": {
-          "name": "Self-Imitation Learning",
-          "link": "http://arxiv.org/abs/1806.05635v1"
+          "name": "Asynchronous Methods for Deep Reinforcement Learning",
+          "link": "http://arxiv.org/abs/1602.01783v2"
         },
-        "c": "https://github.com/junhyukoh/self-imitation-learning",
-        "n": "A2C + SIL",
-        "d": "2018-06-14",
-        "m1": "-17.3"
+        "c": "https://github.com/ray-project/ray/tree/master/rllib",
+        "n": "A3C FF (1 day) hs",
+        "d": "2016-02-04",
+        "m1": "-10.2"
       },
       {
         "p": {
@@ -460,6 +430,36 @@
         "n": "DNA",
         "d": "2022-06-20",
         "m1": "-10.9"
+      },
+      {
+        "p": {
+          "name": "Deep Reinforcement Learning with Double Q-learning",
+          "link": "http://arxiv.org/abs/1509.06461v3"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+        "n": "Prior+Duel hs",
+        "d": "2015-09-22",
+        "m1": "-13.2"
+      },
+      {
+        "p": {
+          "name": "Self-Imitation Learning",
+          "link": "http://arxiv.org/abs/1806.05635v1"
+        },
+        "c": "https://github.com/junhyukoh/self-imitation-learning",
+        "n": "A2C + SIL",
+        "d": "2018-06-14",
+        "m1": "-17.3"
+      },
+      {
+        "p": {
+          "name": "Dueling Network Architectures for Deep Reinforcement Learning",
+          "link": "http://arxiv.org/abs/1511.06581v3"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+        "n": "DDQN (tuned) noop",
+        "d": "2015-11-20",
+        "m1": "-22.8"
       }
     ]
   }

@@ -44,6 +44,7 @@
       }
     ],
     "items": [
+
       {
         "p": {
           "name": "Hierarchical Graph Pooling with Structure Learning",
@@ -597,6 +598,16 @@
       },
       {
         "p": {
+          "name": "How Powerful are Graph Neural Networks?",
+          "link": "http://arxiv.org/abs/1810.00826v3"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/mxnet/gin",
+        "n": "GIN-0",
+        "d": "2018-10-01",
+        "m1": "76.2"
+      },
+      {
+        "p": {
           "name": "PANDA: Expanded Width-Aware Message Passing Beyond Rewiring",
           "link": "https://arxiv.org/abs/2406.03671v2"
         },
@@ -1048,16 +1059,6 @@
       },
       {
         "p": {
-          "name": "0/1 Deep Neural Networks via Block Coordinate Descent",
-          "link": "https://arxiv.org/abs/2206.09379v2"
-        },
-        "c": "",
-        "n": "Eff.resistance graph  kernel",
-        "d": "2022-06-19",
-        "m1": "65.7% ± 4.2%"
-      },
-      {
-        "p": {
           "name": "Fine-tuning Graph Neural Networks by Preserving Graph Generative Patterns",
           "link": "https://arxiv.org/abs/2312.13583v1"
         },
@@ -1068,13 +1069,13 @@
       },
       {
         "p": {
-          "name": "How Powerful are Graph Neural Networks?",
-          "link": "http://arxiv.org/abs/1810.00826v3"
+          "name": "0/1 Deep Neural Networks via Block Coordinate Descent",
+          "link": "https://arxiv.org/abs/2206.09379v2"
         },
-        "c": "https://github.com/dmlc/dgl/tree/master/examples/mxnet/gin",
-        "n": "GIN-0",
-        "d": "2018-10-01",
-        "m1": "76,2%"
+        "c": "",
+        "n": "Eff.resistance graph  kernel",
+        "d": "2022-06-19",
+        "m1": "65.7% ± 4.2%"
       }
     ]
   }

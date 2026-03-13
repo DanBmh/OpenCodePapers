@@ -56,106 +56,6 @@
       },
       {
         "p": {
-          "name": "Implicit Quantile Networks for Distributional Reinforcement Learning",
-          "link": "http://arxiv.org/abs/1806.06923v1"
-        },
-        "c": "https://github.com/opendilab/DI-engine/blob/main/ding/policy/iqn.py",
-        "n": "IQN",
-        "d": "2018-06-14",
-        "m1": "-9289"
-      },
-      {
-        "p": {
-          "name": "Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model",
-          "link": "https://arxiv.org/abs/1911.08265v2"
-        },
-        "c": "https://github.com/werner-duvaud/muzero-general",
-        "n": "MuZero",
-        "d": "2019-11-19",
-        "m1": "-29968.36"
-      },
-      {
-        "p": {
-          "name": "Recurrent Experience Replay in Distributed Reinforcement Learning",
-          "link": "https://openreview.net/forum?id=r1lyTjAqYX"
-        },
-        "c": "https://github.com/opendilab/DI-engine/blob/main/ding/policy/r2d2.py",
-        "n": "R2D2",
-        "d": "2019-05-01",
-        "m1": "-30021.7"
-      },
-      {
-        "p": {
-          "name": "IMPALA: Scalable Distributed Deep-RL with Importance Weighted Actor-Learner Architectures",
-          "link": "http://arxiv.org/abs/1802.01561v3"
-        },
-        "c": "https://github.com/ray-project/ray/tree/master/rllib",
-        "n": "IMPALA (deep)",
-        "d": "2018-02-05",
-        "m1": "-10180.38"
-      },
-      {
-        "p": {
-          "name": "Fully Parameterized Quantile Function for Distributional Reinforcement Learning",
-          "link": "https://arxiv.org/abs/1911.02140v3"
-        },
-        "c": "https://github.com/opendilab/DI-engine",
-        "n": "FQF",
-        "d": "2019-11-05",
-        "m1": "-9085.3"
-      },
-      {
-        "p": {
-          "name": "Noisy Networks for Exploration",
-          "link": "https://arxiv.org/abs/1706.10295v3"
-        },
-        "c": "https://github.com/opendilab/DI-engine",
-        "n": "NoisyNet-Dueling",
-        "d": "2017-06-30",
-        "m1": "-7550"
-      },
-      {
-        "p": {
-          "name": "Evolving simple programs for playing Atari games",
-          "link": "http://arxiv.org/abs/1806.05695v1"
-        },
-        "c": "https://github.com/ShuhuaGao/gpFlappyBird",
-        "n": "CGP",
-        "d": "2018-06-14",
-        "m1": "-9011"
-      },
-      {
-        "p": {
-          "name": "Distributional Reinforcement Learning with Quantile Regression",
-          "link": "http://arxiv.org/abs/1710.10044v1"
-        },
-        "c": "https://github.com/DLR-RM/stable-baselines3",
-        "n": "QR-DQN-1",
-        "d": "2017-10-27",
-        "m1": "-9324"
-      },
-      {
-        "p": {
-          "name": "Distributed Prioritized Experience Replay",
-          "link": "http://arxiv.org/abs/1803.00933v1"
-        },
-        "c": "https://github.com/ray-project/ray/tree/master/rllib",
-        "n": "Ape-X",
-        "d": "2018-03-02",
-        "m1": "-10789.9"
-      },
-      {
-        "p": {
-          "name": "Increasing the Action Gap: New Operators for Reinforcement Learning",
-          "link": "http://arxiv.org/abs/1512.04860v1"
-        },
-        "c": "https://github.com/janhuenermann/neurojs",
-        "n": "Advantage Learning",
-        "d": "2015-12-15",
-        "m1": "-13264.51"
-      },
-      {
-        "p": {
           "name": "First return, then explore",
           "link": "https://arxiv.org/abs/2004.12919v6"
         },
@@ -176,43 +76,13 @@
       },
       {
         "p": {
-          "name": "Mastering Atari with Discrete World Models",
-          "link": "https://arxiv.org/abs/2010.02193v4"
+          "name": "Generalized Data Distribution Iteration",
+          "link": "https://arxiv.org/abs/2206.03192v4"
         },
-        "c": "https://github.com/opendilab/DI-engine",
-        "n": "DreamerV2",
-        "d": "2020-10-05",
-        "m1": "-9299"
-      },
-      {
-        "p": {
-          "name": "Adaptive Rational Activations to Boost Deep Reinforcement Learning",
-          "link": "https://arxiv.org/abs/2102.09407v5"
-        },
-        "c": "https://github.com/ml-research/rational_activations",
-        "n": "Recurrent Rational DQN Average",
-        "d": "2021-02-18",
-        "m1": "-23582"
-      },
-      {
-        "p": {
-          "name": "Adaptive Rational Activations to Boost Deep Reinforcement Learning",
-          "link": "https://arxiv.org/abs/2102.09407v5"
-        },
-        "c": "https://github.com/ml-research/rational_activations",
-        "n": "Rational DQN Average",
-        "d": "2021-02-18",
-        "m1": "-23487"
-      },
-      {
-        "p": {
-          "name": "Online and Offline Reinforcement Learning by Planning with a Learned Model",
-          "link": "https://arxiv.org/abs/2104.06294v1"
-        },
-        "c": "https://github.com/DHDev0/Muzero-unplugged",
-        "n": "MuZero (Res2 Adam)",
-        "d": "2021-04-13",
-        "m1": "-30000"
+        "c": "",
+        "n": "GDI-H3",
+        "d": "2022-06-07",
+        "m1": "-6025"
       },
       {
         "p": {
@@ -236,13 +106,133 @@
       },
       {
         "p": {
-          "name": "Generalized Data Distribution Iteration",
-          "link": "https://arxiv.org/abs/2206.03192v4"
+          "name": "Noisy Networks for Exploration",
+          "link": "https://arxiv.org/abs/1706.10295v3"
         },
-        "c": "",
-        "n": "GDI-H3",
-        "d": "2022-06-07",
-        "m1": "-6025"
+        "c": "https://github.com/opendilab/DI-engine",
+        "n": "NoisyNet-Dueling",
+        "d": "2017-06-30",
+        "m1": "-7550"
+      },
+      {
+        "p": {
+          "name": "Train a Real-world Local Path Planner in One Hour via Partially Decoupled Reinforcement Learning and Vectorized Diversity",
+          "link": "https://arxiv.org/abs/2305.04180v3"
+        },
+        "c": "https://github.com/xinjinghao/color",
+        "n": "ASL DDQN",
+        "d": "2023-05-07",
+        "m1": "-8295.4"
+      },
+      {
+        "p": {
+          "name": "Evolving simple programs for playing Atari games",
+          "link": "http://arxiv.org/abs/1806.05695v1"
+        },
+        "c": "https://github.com/ShuhuaGao/gpFlappyBird",
+        "n": "CGP",
+        "d": "2018-06-14",
+        "m1": "-9011"
+      },
+      {
+        "p": {
+          "name": "Fully Parameterized Quantile Function for Distributional Reinforcement Learning",
+          "link": "https://arxiv.org/abs/1911.02140v3"
+        },
+        "c": "https://github.com/opendilab/DI-engine",
+        "n": "FQF",
+        "d": "2019-11-05",
+        "m1": "-9085.3"
+      },
+      {
+        "p": {
+          "name": "Implicit Quantile Networks for Distributional Reinforcement Learning",
+          "link": "http://arxiv.org/abs/1806.06923v1"
+        },
+        "c": "https://github.com/opendilab/DI-engine/blob/main/ding/policy/iqn.py",
+        "n": "IQN",
+        "d": "2018-06-14",
+        "m1": "-9289"
+      },
+      {
+        "p": {
+          "name": "Mastering Atari with Discrete World Models",
+          "link": "https://arxiv.org/abs/2010.02193v4"
+        },
+        "c": "https://github.com/opendilab/DI-engine",
+        "n": "DreamerV2",
+        "d": "2020-10-05",
+        "m1": "-9299"
+      },
+      {
+        "p": {
+          "name": "Distributional Reinforcement Learning with Quantile Regression",
+          "link": "http://arxiv.org/abs/1710.10044v1"
+        },
+        "c": "https://github.com/DLR-RM/stable-baselines3",
+        "n": "QR-DQN-1",
+        "d": "2017-10-27",
+        "m1": "-9324"
+      },
+      {
+        "p": {
+          "name": "IMPALA: Scalable Distributed Deep-RL with Importance Weighted Actor-Learner Architectures",
+          "link": "http://arxiv.org/abs/1802.01561v3"
+        },
+        "c": "https://github.com/ray-project/ray/tree/master/rllib",
+        "n": "IMPALA (deep)",
+        "d": "2018-02-05",
+        "m1": "-10180.38"
+      },
+      {
+        "p": {
+          "name": "Distributed Prioritized Experience Replay",
+          "link": "http://arxiv.org/abs/1803.00933v1"
+        },
+        "c": "https://github.com/ray-project/ray/tree/master/rllib",
+        "n": "Ape-X",
+        "d": "2018-03-02",
+        "m1": "-10789.9"
+      },
+      {
+        "p": {
+          "name": "Increasing the Action Gap: New Operators for Reinforcement Learning",
+          "link": "http://arxiv.org/abs/1512.04860v1"
+        },
+        "c": "https://github.com/janhuenermann/neurojs",
+        "n": "Advantage Learning",
+        "d": "2015-12-15",
+        "m1": "-13264.51"
+      },
+      {
+        "p": {
+          "name": "Adaptive Rational Activations to Boost Deep Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2102.09407v5"
+        },
+        "c": "https://github.com/ml-research/rational_activations",
+        "n": "Rational DQN Average",
+        "d": "2021-02-18",
+        "m1": "-23487"
+      },
+      {
+        "p": {
+          "name": "Adaptive Rational Activations to Boost Deep Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2102.09407v5"
+        },
+        "c": "https://github.com/ml-research/rational_activations",
+        "n": "Recurrent Rational DQN Average",
+        "d": "2021-02-18",
+        "m1": "-23582"
+      },
+      {
+        "p": {
+          "name": "Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model",
+          "link": "https://arxiv.org/abs/1911.08265v2"
+        },
+        "c": "https://github.com/werner-duvaud/muzero-general",
+        "n": "MuZero",
+        "d": "2019-11-19",
+        "m1": "-29968.36"
       },
       {
         "p": {
@@ -256,13 +246,23 @@
       },
       {
         "p": {
-          "name": "Train a Real-world Local Path Planner in One Hour via Partially Decoupled Reinforcement Learning and Vectorized Diversity",
-          "link": "https://arxiv.org/abs/2305.04180v3"
+          "name": "Online and Offline Reinforcement Learning by Planning with a Learned Model",
+          "link": "https://arxiv.org/abs/2104.06294v1"
         },
-        "c": "https://github.com/xinjinghao/color",
-        "n": "ASL DDQN",
-        "d": "2023-05-07",
-        "m1": "-8295.4"
+        "c": "https://github.com/DHDev0/Muzero-unplugged",
+        "n": "MuZero (Res2 Adam)",
+        "d": "2021-04-13",
+        "m1": "-30000"
+      },
+      {
+        "p": {
+          "name": "Recurrent Experience Replay in Distributed Reinforcement Learning",
+          "link": "https://openreview.net/forum?id=r1lyTjAqYX"
+        },
+        "c": "https://github.com/opendilab/DI-engine/blob/main/ding/policy/r2d2.py",
+        "n": "R2D2",
+        "d": "2019-05-01",
+        "m1": "-30021.7"
       }
     ]
   }

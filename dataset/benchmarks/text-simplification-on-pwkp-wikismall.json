@@ -45,6 +45,17 @@
     "items": [
       {
         "p": {
+          "name": "Hybrid Simplification using Deep Semantics and Machine Translation",
+          "link": "https://aclanthology.org/P14-1041"
+        },
+        "c": "",
+        "n": "Hybrid",
+        "d": "2014-06-01",
+        "m1": "53.94* (53.6)",
+        "m2": "30.46*"
+      },
+      {
+        "p": {
           "name": "Sentence Simplification with Memory-Augmented Neural Networks",
           "link": "http://arxiv.org/abs/1804.07445v1"
         },
@@ -53,6 +64,17 @@
         "d": "2018-04-20",
         "m1": "53.42",
         "m2": "17.47"
+      },
+      {
+        "p": {
+          "name": "Sentence Simplification by Monolingual Machine Translation",
+          "link": "https://aclanthology.org/P12-1107"
+        },
+        "c": "",
+        "n": "PBMT-R ",
+        "d": "2012-07-01",
+        "m1": "46.31* (43.0)",
+        "m2": "15.97*"
       },
       {
         "p": {
@@ -88,28 +110,6 @@
       },
       {
         "p": {
-          "name": "Sentence Simplification with Memory-Augmented Neural Networks",
-          "link": "http://arxiv.org/abs/1804.07445v1"
-        },
-        "c": "",
-        "n": "NSELSTM-S",
-        "d": "2018-04-20",
-        "m1": "29.72",
-        "m2": "29.75"
-      },
-      {
-        "p": {
-          "name": "Dynamic Multi-Level Multi-Task Learning for Sentence Simplification",
-          "link": "http://arxiv.org/abs/1806.07304v1"
-        },
-        "c": "",
-        "n": "Pointer + Multi-task Entailment and Paraphrase Generation",
-        "d": "2018-06-19",
-        "m1": "27.23",
-        "m2": "29.58"
-      },
-      {
-        "p": {
           "name": "Text Simplification by Tagging",
           "link": "https://arxiv.org/abs/2103.05070v1"
         },
@@ -141,25 +141,25 @@
       },
       {
         "p": {
-          "name": "Hybrid Simplification using Deep Semantics and Machine Translation",
-          "link": "https://aclanthology.org/P14-1041"
+          "name": "Sentence Simplification with Memory-Augmented Neural Networks",
+          "link": "http://arxiv.org/abs/1804.07445v1"
         },
         "c": "",
-        "n": "Hybrid",
-        "d": "2014-06-01",
-        "m1": "53.94* (53.6)",
-        "m2": "30.46*"
+        "n": "NSELSTM-S",
+        "d": "2018-04-20",
+        "m1": "29.72",
+        "m2": "29.75"
       },
       {
         "p": {
-          "name": "Sentence Simplification by Monolingual Machine Translation",
-          "link": "https://aclanthology.org/P12-1107"
+          "name": "Dynamic Multi-Level Multi-Task Learning for Sentence Simplification",
+          "link": "http://arxiv.org/abs/1806.07304v1"
         },
         "c": "",
-        "n": "PBMT-R ",
-        "d": "2012-07-01",
-        "m1": "46.31* (43.0)",
-        "m2": "15.97*"
+        "n": "Pointer + Multi-task Entailment and Paraphrase Generation",
+        "d": "2018-06-19",
+        "m1": "27.23",
+        "m2": "29.58"
       }
     ]
   }

@@ -55,15 +55,14 @@
     "items": [
       {
         "p": {
-          "name": "Metric-Based In-context Learning: A Case Study in Text Simplification",
-          "link": "https://arxiv.org/abs/2307.14632v1"
+          "name": "Integrating Transformer and Paraphrase Rules for Sentence Simplification",
+          "link": "http://arxiv.org/abs/1810.11193v1"
         },
-        "c": "https://github.com/nlp-ku/metric-based-in-context-learning",
-        "n": "GPT-175B (15 SARI-selected examples, random ordering)",
-        "d": "2023-07-27",
-        "m1": "73.92",
-        "m2": "47.94",
-        "m4": "7.73"
+        "c": "https://github.com/Sanqiang/text_simplification",
+        "n": "DMASS-DCSS",
+        "d": "2018-10-26",
+        "m1": "71.44",
+        "m2": "38.67"
       },
       {
         "p": {
@@ -112,6 +111,18 @@
       },
       {
         "p": {
+          "name": "Metric-Based In-context Learning: A Case Study in Text Simplification",
+          "link": "https://arxiv.org/abs/2307.14632v1"
+        },
+        "c": "https://github.com/nlp-ku/metric-based-in-context-learning",
+        "n": "GPT-175B (15 SARI-selected examples, random ordering)",
+        "d": "2023-07-27",
+        "m1": "73.92",
+        "m2": "47.94",
+        "m4": "7.73"
+      },
+      {
+        "p": {
           "name": "Controllable Sentence Simplification",
           "link": "https://arxiv.org/abs/1910.02677v3"
         },
@@ -120,28 +131,6 @@
         "d": "2019-10-07",
         "m1": "75.99*",
         "m2": "40.13"
-      },
-      {
-        "p": {
-          "name": "Integrating Transformer and Paraphrase Rules for Sentence Simplification",
-          "link": "http://arxiv.org/abs/1810.11193v1"
-        },
-        "c": "https://github.com/Sanqiang/text_simplification",
-        "n": "DMASS-DCSS",
-        "d": "2018-10-26",
-        "m1": "71.44*",
-        "m2": "38.67"
-      },
-      {
-        "p": {
-          "name": "Sentence Simplification with Deep Reinforcement Learning",
-          "link": "http://arxiv.org/abs/1703.10931v2"
-        },
-        "c": "https://github.com/XingxingZhang/dress",
-        "n": "Dress-LS",
-        "d": "2017-03-31",
-        "m1": "86.39*",
-        "m2": "36.59"
       },
       {
         "p": {
@@ -164,6 +153,17 @@
         "d": "2012-07-01",
         "m1": "79.39*",
         "m2": "34.63"
+      },
+      {
+        "p": {
+          "name": "Sentence Simplification with Deep Reinforcement Learning",
+          "link": "http://arxiv.org/abs/1703.10931v2"
+        },
+        "c": "https://github.com/XingxingZhang/dress",
+        "n": "Dress-LS",
+        "d": "2017-03-31",
+        "m1": "86.39*",
+        "m2": "36.59"
       },
       {
         "p": {

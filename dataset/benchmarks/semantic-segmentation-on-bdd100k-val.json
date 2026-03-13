@@ -85,6 +85,16 @@
       },
       {
         "p": {
+          "name": "DSNet: A Novel Way to Use Atrous Convolutions in Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2406.03702v1"
+        },
+        "c": "https://github.com/takaniwa/dsnet",
+        "n": "DSNet-head64",
+        "d": "2024-06-06",
+        "m1": "62.6(172.2FPS 4090)"
+      },
+      {
+        "p": {
           "name": "Pyramid Scene Parsing Network",
           "link": "http://arxiv.org/abs/1612.01105v2"
         },
@@ -102,136 +112,6 @@
         "n": "EMANet",
         "d": "2019-07-31",
         "m1": "61.4"
-      },
-      {
-        "p": {
-          "name": "Segmentation Transformer: Object-Contextual Representations for Semantic Segmentation",
-          "link": "https://arxiv.org/abs/1909.11065v6"
-        },
-        "c": "https://github.com/open-mmlab/mmsegmentation",
-        "n": "OCRNet",
-        "d": "2019-09-24",
-        "m1": "60.1"
-      },
-      {
-        "p": {
-          "name": "What's There in the Dark",
-          "link": "https://ieeexplore.ieee.org/document/8803299"
-        },
-        "c": "https://github.com/sauradip/night_image_semantic_segmentation",
-        "n": "NiseNet",
-        "d": "2019-09-24",
-        "m1": "53.52"
-      },
-      {
-        "p": {
-          "name": "MRFP: Learning Generalizable Semantic Segmentation from Sim-2-Real with Multi-Resolution Feature Perturbation",
-          "link": "https://arxiv.org/abs/2311.18331v2"
-        },
-        "c": "https://github.com/airl-iisc/MRFP",
-        "n": "MRFP+(Ours) Resnet50",
-        "d": "2023-11-30",
-        "m1": "39.55"
-      },
-      {
-        "p": {
-          "name": "MRFP: Learning Generalizable Semantic Segmentation from Sim-2-Real with Multi-Resolution Feature Perturbation",
-          "link": "https://arxiv.org/abs/2311.18331v2"
-        },
-        "c": "https://github.com/airl-iisc/MRFP",
-        "n": "Resnet50",
-        "d": "2023-11-30",
-        "m1": "31.44"
-      },
-      {
-        "p": {
-          "name": "BiSeNet: Bilateral Segmentation Network for Real-time Semantic Segmentation",
-          "link": "http://arxiv.org/abs/1808.00897v1"
-        },
-        "c": "https://github.com/PaddlePaddle/PaddleSeg",
-        "n": "BiSeNet-V1(ResNet-18)",
-        "d": "2018-08-02",
-        "m1": "53.8(45.1fps)"
-      },
-      {
-        "p": {
-          "name": "ICNet for Real-Time Semantic Segmentation on High-Resolution Images",
-          "link": "http://arxiv.org/abs/1704.08545v2"
-        },
-        "c": "https://github.com/osmr/imgclsmob",
-        "n": "ICNet",
-        "d": "2017-04-27",
-        "m1": "52.4(39.5fps)"
-      },
-      {
-        "p": {
-          "name": "Fast and Accurate Scene Parsing via Bi-direction Alignment Networks",
-          "link": "https://arxiv.org/abs/2105.11651v1"
-        },
-        "c": "https://github.com/jojacola/BiAlignNet",
-        "n": "Bi-Align",
-        "d": "2021-05-25",
-        "m1": "53.4(42.1fps)"
-      },
-      {
-        "p": {
-          "name": "Partial Order Pruning: for Best Speed/Accuracy Trade-off in Neural Architecture Search",
-          "link": "http://arxiv.org/abs/1903.03777v2"
-        },
-        "c": "https://github.com/lixincn2015/Partial-Order-Pruning",
-        "n": "DF1-Seg",
-        "d": "2019-03-09",
-        "m1": "42.5(82.3fps)"
-      },
-      {
-        "p": {
-          "name": "Partial Order Pruning: for Best Speed/Accuracy Trade-off in Neural Architecture Search",
-          "link": "http://arxiv.org/abs/1903.03777v2"
-        },
-        "c": "https://github.com/lixincn2015/Partial-Order-Pruning",
-        "n": "DF2-Seg",
-        "d": "2019-03-09",
-        "m1": "47.8(53.4fps)"
-      },
-      {
-        "p": {
-          "name": "Rethinking BiSeNet For Real-time Semantic Segmentation",
-          "link": "https://arxiv.org/abs/2104.13188v1"
-        },
-        "c": "https://github.com/PaddlePaddle/PaddleSeg",
-        "n": "STDC1",
-        "d": "2021-04-27",
-        "m1": "52.1(45.8FPS)"
-      },
-      {
-        "p": {
-          "name": "Rethinking BiSeNet For Real-time Semantic Segmentation",
-          "link": "https://arxiv.org/abs/2104.13188v1"
-        },
-        "c": "https://github.com/PaddlePaddle/PaddleSeg",
-        "n": "STDC2",
-        "d": "2021-04-27",
-        "m1": "53.8(33.0FPS)"
-      },
-      {
-        "p": {
-          "name": "Semantic Flow for Fast and Accurate Scene Parsing",
-          "link": "https://arxiv.org/abs/2002.10120v3"
-        },
-        "c": "https://github.com/PaddlePaddle/PaddleSeg",
-        "n": "SFNet(DF2)",
-        "d": "2020-02-24",
-        "m1": "60.2(208FPS 4090)"
-      },
-      {
-        "p": {
-          "name": "Semantic Flow for Fast and Accurate Scene Parsing",
-          "link": "https://arxiv.org/abs/2002.10120v3"
-        },
-        "c": "https://github.com/PaddlePaddle/PaddleSeg",
-        "n": "SFNet(DF1)",
-        "d": "2020-02-24",
-        "m1": "55.4(70.3fps)"
       },
       {
         "p": {
@@ -265,13 +145,133 @@
       },
       {
         "p": {
-          "name": "DSNet: A Novel Way to Use Atrous Convolutions in Semantic Segmentation",
-          "link": "https://arxiv.org/abs/2406.03702v1"
+          "name": "Semantic Flow for Fast and Accurate Scene Parsing",
+          "link": "https://arxiv.org/abs/2002.10120v3"
         },
-        "c": "https://github.com/takaniwa/dsnet",
-        "n": "DSNet-head64",
-        "d": "2024-06-06",
-        "m1": "62.6(172.2FPS 4090)"
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
+        "n": "SFNet(DF2)",
+        "d": "2020-02-24",
+        "m1": "60.2(208FPS 4090)"
+      },
+      {
+        "p": {
+          "name": "Segmentation Transformer: Object-Contextual Representations for Semantic Segmentation",
+          "link": "https://arxiv.org/abs/1909.11065v6"
+        },
+        "c": "https://github.com/open-mmlab/mmsegmentation",
+        "n": "OCRNet",
+        "d": "2019-09-24",
+        "m1": "60.1"
+      },
+      {
+        "p": {
+          "name": "Semantic Flow for Fast and Accurate Scene Parsing",
+          "link": "https://arxiv.org/abs/2002.10120v3"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
+        "n": "SFNet(DF1)",
+        "d": "2020-02-24",
+        "m1": "55.4(70.3fps)"
+      },
+      {
+        "p": {
+          "name": "BiSeNet: Bilateral Segmentation Network for Real-time Semantic Segmentation",
+          "link": "http://arxiv.org/abs/1808.00897v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
+        "n": "BiSeNet-V1(ResNet-18)",
+        "d": "2018-08-02",
+        "m1": "53.8(45.1fps)"
+      },
+      {
+        "p": {
+          "name": "Rethinking BiSeNet For Real-time Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2104.13188v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
+        "n": "STDC2",
+        "d": "2021-04-27",
+        "m1": "53.8(33.0FPS)"
+      },
+      {
+        "p": {
+          "name": "What's There in the Dark",
+          "link": "https://ieeexplore.ieee.org/document/8803299"
+        },
+        "c": "https://github.com/sauradip/night_image_semantic_segmentation",
+        "n": "NiseNet",
+        "d": "2019-09-24",
+        "m1": "53.52"
+      },
+      {
+        "p": {
+          "name": "Fast and Accurate Scene Parsing via Bi-direction Alignment Networks",
+          "link": "https://arxiv.org/abs/2105.11651v1"
+        },
+        "c": "https://github.com/jojacola/BiAlignNet",
+        "n": "Bi-Align",
+        "d": "2021-05-25",
+        "m1": "53.4(42.1fps)"
+      },
+      {
+        "p": {
+          "name": "ICNet for Real-Time Semantic Segmentation on High-Resolution Images",
+          "link": "http://arxiv.org/abs/1704.08545v2"
+        },
+        "c": "https://github.com/osmr/imgclsmob",
+        "n": "ICNet",
+        "d": "2017-04-27",
+        "m1": "52.4(39.5fps)"
+      },
+      {
+        "p": {
+          "name": "Rethinking BiSeNet For Real-time Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2104.13188v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
+        "n": "STDC1",
+        "d": "2021-04-27",
+        "m1": "52.1(45.8FPS)"
+      },
+      {
+        "p": {
+          "name": "Partial Order Pruning: for Best Speed/Accuracy Trade-off in Neural Architecture Search",
+          "link": "http://arxiv.org/abs/1903.03777v2"
+        },
+        "c": "https://github.com/lixincn2015/Partial-Order-Pruning",
+        "n": "DF2-Seg",
+        "d": "2019-03-09",
+        "m1": "47.8(53.4fps)"
+      },
+      {
+        "p": {
+          "name": "Partial Order Pruning: for Best Speed/Accuracy Trade-off in Neural Architecture Search",
+          "link": "http://arxiv.org/abs/1903.03777v2"
+        },
+        "c": "https://github.com/lixincn2015/Partial-Order-Pruning",
+        "n": "DF1-Seg",
+        "d": "2019-03-09",
+        "m1": "42.5(82.3fps)"
+      },
+      {
+        "p": {
+          "name": "MRFP: Learning Generalizable Semantic Segmentation from Sim-2-Real with Multi-Resolution Feature Perturbation",
+          "link": "https://arxiv.org/abs/2311.18331v2"
+        },
+        "c": "https://github.com/airl-iisc/MRFP",
+        "n": "MRFP+(Ours) Resnet50",
+        "d": "2023-11-30",
+        "m1": "39.55"
+      },
+      {
+        "p": {
+          "name": "MRFP: Learning Generalizable Semantic Segmentation from Sim-2-Real with Multi-Resolution Feature Perturbation",
+          "link": "https://arxiv.org/abs/2311.18331v2"
+        },
+        "c": "https://github.com/airl-iisc/MRFP",
+        "n": "Resnet50",
+        "d": "2023-11-30",
+        "m1": "31.44"
       }
     ]
   }

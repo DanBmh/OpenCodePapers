@@ -285,31 +285,84 @@
         "m1": "0.1"
       },
       {
-        "p": "[]()",
-        "c": "",
-        "n": "SARSA",
-        "d": null,
-        "m1": "-16.0"
+        "p": {
+          "name": "Asynchronous Methods for Deep Reinforcement Learning",
+          "link": "http://arxiv.org/abs/1602.01783v2"
+        },
+        "c": "https://github.com/ray-project/ray/tree/master/rllib",
+        "n": "A3C FF hs",
+        "d": "2016-02-04",
+        "m1": "-0.1"
       },
       {
         "p": {
-          "name": "Human level control through deep reinforcement learning",
-          "link": "https://www.nature.com/articles/nature14236"
+          "name": "Increasing the Action Gap: New Operators for Reinforcement Learning",
+          "link": "http://arxiv.org/abs/1512.04860v1"
         },
-        "c": "https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/tree/main/Deep_Reinforcement_Learning_with_Double_Q_learning",
-        "n": "Nature DQN",
-        "d": "2015-02-25",
-        "m1": "-18.1"
+        "c": "https://github.com/janhuenermann/neurojs",
+        "n": "Advantage Learning",
+        "d": "2015-12-15",
+        "m1": "-0.15"
       },
       {
         "p": {
-          "name": "Massively Parallel Methods for Deep Reinforcement Learning",
-          "link": "http://arxiv.org/abs/1507.04296v2"
+          "name": "Deep Reinforcement Learning with Double Q-learning",
+          "link": "http://arxiv.org/abs/1509.06461v3"
         },
-        "c": "https://github.com/nandomp/AICollaboratory",
-        "n": "Gorila",
-        "d": "2015-07-15",
-        "m1": "-11.3"
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+        "n": "DDQN (tuned) hs",
+        "d": "2015-09-22",
+        "m1": "-0.3"
+      },
+      {
+        "p": {
+          "name": "IMPALA: Scalable Distributed Deep-RL with Importance Weighted Actor-Learner Architectures",
+          "link": "http://arxiv.org/abs/1802.01561v3"
+        },
+        "c": "https://github.com/ray-project/ray/tree/master/rllib",
+        "n": "IMPALA (deep)",
+        "d": "2018-02-05",
+        "m1": "-0.33"
+      },
+      {
+        "p": {
+          "name": "Dueling Network Architectures for Deep Reinforcement Learning",
+          "link": "http://arxiv.org/abs/1511.06581v3"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+        "n": "Duel hs",
+        "d": "2015-11-20",
+        "m1": "-0.8"
+      },
+      {
+        "p": {
+          "name": "DNA: Proximal Policy Optimization with a Dual Network Architecture",
+          "link": "https://arxiv.org/abs/2206.10027v2"
+        },
+        "c": "https://github.com/maitchison/PPO",
+        "n": "DNA",
+        "d": "2022-06-20",
+        "m1": "-1.3"
+      },
+      {
+        "p": {
+          "name": "Increasing the Action Gap: New Operators for Reinforcement Learning",
+          "link": "http://arxiv.org/abs/1512.04860v1"
+        },
+        "c": "https://github.com/janhuenermann/neurojs",
+        "n": "Persistent AL",
+        "d": "2015-12-15",
+        "m1": "-2.51"
+      },
+      {
+        "p": {
+          "name": "Dueling Network Architectures for Deep Reinforcement Learning",
+          "link": "http://arxiv.org/abs/1511.06581v3"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+        "n": "DDQN (tuned) noop",
+        "d": "2015-11-20",
+        "m1": "-5.5"
       },
       {
         "p": {
@@ -333,33 +386,13 @@
       },
       {
         "p": {
-          "name": "Dueling Network Architectures for Deep Reinforcement Learning",
-          "link": "http://arxiv.org/abs/1511.06581v3"
+          "name": "Policy Optimization With Penalized Point Probability Distance: An Alternative To Proximal Policy Optimization",
+          "link": "http://arxiv.org/abs/1807.00442v4"
         },
-        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
-        "n": "Duel hs",
-        "d": "2015-11-20",
-        "m1": "-0.8"
-      },
-      {
-        "p": {
-          "name": "Dueling Network Architectures for Deep Reinforcement Learning",
-          "link": "http://arxiv.org/abs/1511.06581v3"
-        },
-        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
-        "n": "DDQN (tuned) noop",
-        "d": "2015-11-20",
-        "m1": "-5.5"
-      },
-      {
-        "p": {
-          "name": "Deep Reinforcement Learning with Double Q-learning",
-          "link": "http://arxiv.org/abs/1509.06461v3"
-        },
-        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
-        "n": "DDQN (tuned) hs",
-        "d": "2015-09-22",
-        "m1": "-0.3"
+        "c": "https://github.com/cxxgtxy/POP3D",
+        "n": "POP3D",
+        "d": "2018-07-02",
+        "m1": "-7.89"
       },
       {
         "p": {
@@ -370,6 +403,16 @@
         "n": "Prior+Duel hs",
         "d": "2015-09-22",
         "m1": "-10.7"
+      },
+      {
+        "p": {
+          "name": "Massively Parallel Methods for Deep Reinforcement Learning",
+          "link": "http://arxiv.org/abs/1507.04296v2"
+        },
+        "c": "https://github.com/nandomp/AICollaboratory",
+        "n": "Gorila",
+        "d": "2015-07-15",
+        "m1": "-11.3"
       },
       {
         "p": {
@@ -393,56 +436,6 @@
       },
       {
         "p": {
-          "name": "Asynchronous Methods for Deep Reinforcement Learning",
-          "link": "http://arxiv.org/abs/1602.01783v2"
-        },
-        "c": "https://github.com/ray-project/ray/tree/master/rllib",
-        "n": "A3C FF hs",
-        "d": "2016-02-04",
-        "m1": "-0.1"
-      },
-      {
-        "p": {
-          "name": "IMPALA: Scalable Distributed Deep-RL with Importance Weighted Actor-Learner Architectures",
-          "link": "http://arxiv.org/abs/1802.01561v3"
-        },
-        "c": "https://github.com/ray-project/ray/tree/master/rllib",
-        "n": "IMPALA (deep)",
-        "d": "2018-02-05",
-        "m1": "-0.33"
-      },
-      {
-        "p": {
-          "name": "Increasing the Action Gap: New Operators for Reinforcement Learning",
-          "link": "http://arxiv.org/abs/1512.04860v1"
-        },
-        "c": "https://github.com/janhuenermann/neurojs",
-        "n": "Advantage Learning",
-        "d": "2015-12-15",
-        "m1": "-0.15"
-      },
-      {
-        "p": {
-          "name": "Increasing the Action Gap: New Operators for Reinforcement Learning",
-          "link": "http://arxiv.org/abs/1512.04860v1"
-        },
-        "c": "https://github.com/janhuenermann/neurojs",
-        "n": "Persistent AL",
-        "d": "2015-12-15",
-        "m1": "-2.51"
-      },
-      {
-        "p": {
-          "name": "Policy Optimization With Penalized Point Probability Distance: An Alternative To Proximal Policy Optimization",
-          "link": "http://arxiv.org/abs/1807.00442v4"
-        },
-        "c": "https://github.com/cxxgtxy/POP3D",
-        "n": "POP3D",
-        "d": "2018-07-02",
-        "m1": "-7.89"
-      },
-      {
-        "p": {
           "name": "The Arcade Learning Environment: An Evaluation Platform for General Agents",
           "link": "http://arxiv.org/abs/1207.4708v2"
         },
@@ -450,16 +443,23 @@
         "n": "Best Learner",
         "d": "2012-07-19",
         "m1": "-13.1"
+      },      
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "SARSA",
+        "d": null,
+        "m1": "-16.0"
       },
       {
         "p": {
-          "name": "DNA: Proximal Policy Optimization with a Dual Network Architecture",
-          "link": "https://arxiv.org/abs/2206.10027v2"
+          "name": "Human level control through deep reinforcement learning",
+          "link": "https://www.nature.com/articles/nature14236"
         },
-        "c": "https://github.com/maitchison/PPO",
-        "n": "DNA",
-        "d": "2022-06-20",
-        "m1": "-1.3"
+        "c": "https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/tree/main/Deep_Reinforcement_Learning_with_Double_Q_learning",
+        "n": "Nature DQN",
+        "d": "2015-02-25",
+        "m1": "-18.1"
       }
     ]
   }
