@@ -148,9 +148,9 @@ def check_benchmark_structure(data: dict, path: str):
                 continue
             if "p" in item and isinstance(item["p"], dict):
                 p = item["p"]
-                if "name" not in p or "link" not in p:
+                if "name" not in p or "link" not in p or "authors" not in p:
                     errors.append(
-                        f"{path}: 'benchmark.items[{idx}].p' must contain 'name' and 'link' keys."
+                        f"{path}: 'benchmark.items[{idx}].p' must contain 'name', 'link', 'authors'"
                     )
                 else:
                     if not p["name"]:
@@ -182,6 +182,28 @@ def check_benchmark_structure(data: dict, path: str):
                     errors.append(
                         f"{path}: 'benchmark.items[{idx}].c' is not a valid URL: {code_link!r}"
                     )
+
+    # Check that paper authors is a list of strings (can be empty)
+    if "items" in benchmark and isinstance(benchmark["items"], list):
+        for idx, item in enumerate(benchmark["items"]):
+            if not isinstance(item, dict):
+                continue
+            if "p" in item and isinstance(item["p"], dict):
+                author_str = item["p"].get("authors", "")
+                author_str = author_str.strip()
+                if author_str:
+                    authors = [a.strip() for a in author_str.split(", ")]
+                    for a in authors:
+                        if a == "":
+                            errors.append(
+                                f"{path}: 'benchmark.items[{idx}].p.authors' contains empty author."
+                            )
+                            break
+                        if "," in a:
+                            errors.append(
+                                f"{path}: 'benchmark.items[{idx}].p.authors' contains extra comma."
+                            )
+                            break
 
     # Check date fields are in YYYY-MM-DD format
     date_pattern = re.compile(r"^\d{4}-\d{2}-\d{2}$")
