@@ -1,0 +1,138 @@
+{
+  "title": "open-vocabulary-panoptic-segmentation-on-ade20k",
+  "task-hierarchy": [
+    "Open Vocabulary Panoptic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://groups.csail.mit.edu/vision/datasets/ADE20K/",
+    "paper": "Scene Parsing Through ADE20K Dataset"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PQ",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "UMG-CLIP: A Unified Multi-Granularity Vision Generalist for Open-World Understanding",
+          "link": "https://arxiv.org/abs/2401.06397v3"
+        },
+        "c": "https://github.com/lygsbw/umg-clip",
+        "n": "UMG-CLIP-E/14",
+        "d": "2024-01-12",
+        "m1": "31.6"
+      },
+      {
+        "p": {
+          "name": "PosSAM: Panoptic Open-vocabulary Segment Anything",
+          "link": "https://arxiv.org/abs/2403.09620v1"
+        },
+        "c": "https://github.com/Vibashan/PosSAM",
+        "n": "PosSAM",
+        "d": "2024-03-14",
+        "m1": "29.2"
+      },
+      {
+        "p": {
+          "name": "UMG-CLIP: A Unified Multi-Granularity Vision Generalist for Open-World Understanding",
+          "link": "https://arxiv.org/abs/2401.06397v3"
+        },
+        "c": "https://github.com/lygsbw/umg-clip",
+        "n": "UMG-CLIP-L/14",
+        "d": "2024-01-12",
+        "m1": "29.1"
+      },
+      {
+        "p": {
+          "name": "Collaborative Vision-Text Representation Optimizing for Open-Vocabulary Segmentation",
+          "link": "https://arxiv.org/abs/2408.00744v2"
+        },
+        "c": "https://github.com/jiaosiyu1999/MAFT-Plus",
+        "n": "MAFT+",
+        "d": "2024-08-01",
+        "m1": "27.1"
+      },
+      {
+        "p": {
+          "name": "Convolutions Die Hard: Open-Vocabulary Segmentation with Single Frozen Convolutional CLIP",
+          "link": "https://arxiv.org/abs/2308.02487v2"
+        },
+        "c": "https://github.com/bytedance/fc-clip",
+        "n": "FC-CLIP",
+        "d": "2023-08-04",
+        "m1": "26.8"
+      },
+      {
+        "p": {
+          "name": "CLIPSelf: Vision Transformer Distills Itself for Open-Vocabulary Dense Prediction",
+          "link": "https://arxiv.org/abs/2310.01403v2"
+        },
+        "c": "https://github.com/wusize/clipself",
+        "n": "CLIPSelf",
+        "d": "2023-10-02",
+        "m1": "23.7"
+      },
+      {
+        "p": {
+          "name": "Open-Vocabulary Panoptic Segmentation with Text-to-Image Diffusion Models",
+          "link": "https://arxiv.org/abs/2303.04803v4"
+        },
+        "c": "https://github.com/nvlabs/odise",
+        "n": "ODISE(Caption)",
+        "d": "2023-03-08",
+        "m1": "23.4"
+      },
+      {
+        "p": {
+          "name": "Open-Vocabulary Panoptic Segmentation with Text-to-Image Diffusion Models",
+          "link": "https://arxiv.org/abs/2303.04803v4"
+        },
+        "c": "https://github.com/nvlabs/odise",
+        "n": "ODISE (Label)",
+        "d": "2023-03-08",
+        "m1": "22.6"
+      },
+      {
+        "p": {
+          "name": "FreeSeg: Unified, Universal and Open-Vocabulary Image Segmentation",
+          "link": "https://arxiv.org/abs/2303.17225v1"
+        },
+        "c": "",
+        "n": "FreeSeg",
+        "d": "2023-03-30",
+        "m1": "16.3"
+      },
+      {
+        "p": {
+          "name": "Extract Free Dense Labels from CLIP",
+          "link": "https://arxiv.org/abs/2112.01071v2"
+        },
+        "c": "https://github.com/chongzhou96/maskclip",
+        "n": "MaskCLIP",
+        "d": "2021-12-02",
+        "m1": "15.1"
+      }
+    ]
+  }
+}

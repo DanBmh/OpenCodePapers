@@ -1,0 +1,154 @@
+{
+  "title": "molecule-retrieval-from-ms-ms-spectrum-on-massspecgym",
+  "task-hierarchy": [
+    "Molecule retrieval from MS/MS spectrum"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/pluskal-lab/MassSpecGym",
+    "paper": "MassSpecGym: A benchmark for the discovery and identification of molecules"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Hit rate @ 1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Hit rate @ 5",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Hit rate @ 20",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "MCES @ 1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "JESTR: Joint Embedding Space Technique for Ranking Candidate Molecules for the Annotation of Untargeted Metabolomics Data",
+          "link": "https://arxiv.org/abs/2411.14464v3"
+        },
+        "c": "",
+        "n": "JESTR_NR",
+        "d": "2024-11-18",
+        "m1": "15.62",
+        "m2": "37.47",
+        "m3": "60.55"
+      },
+      {
+        "p": {
+          "name": "JESTR: Joint Embedding Space Technique for Ranking Candidate Molecules for the Annotation of Untargeted Metabolomics Data",
+          "link": "https://arxiv.org/abs/2411.14464v3"
+        },
+        "c": "",
+        "n": "JESTR",
+        "d": "2024-11-18",
+        "m1": "15.13",
+        "m2": "36.75",
+        "m3": "60.32"
+      },
+      {
+        "p": {
+          "name": "MassSpecGym: A benchmark for the discovery and identification of molecules",
+          "link": "https://arxiv.org/abs/2410.23326v3"
+        },
+        "c": "https://github.com/pluskal-lab/massspecgym",
+        "n": "MIST",
+        "d": "2024-10-30",
+        "m1": "14.64",
+        "m2": "34.87",
+        "m3": "59.15",
+        "m4": "15.37"
+      },
+      {
+        "p": {
+          "name": "JESTR: Joint Embedding Space Technique for Ranking Candidate Molecules for the Annotation of Untargeted Metabolomics Data",
+          "link": "https://arxiv.org/abs/2411.14464v3"
+        },
+        "c": "",
+        "n": "ESP",
+        "d": "2024-11-18",
+        "m1": "10.71",
+        "m2": "24.84",
+        "m3": "42.66"
+      },
+      {
+        "p": {
+          "name": "MassSpecGym: A benchmark for the discovery and identification of molecules",
+          "link": "https://arxiv.org/abs/2410.23326v3"
+        },
+        "c": "https://github.com/pluskal-lab/massspecgym",
+        "n": "DeepSets + Fourier features",
+        "d": "2024-10-30",
+        "m1": "5.24",
+        "m2": "12.58",
+        "m3": "28.21",
+        "m4": "22.13"
+      },
+      {
+        "p": {
+          "name": "MassSpecGym: A benchmark for the discovery and identification of molecules",
+          "link": "https://arxiv.org/abs/2410.23326v3"
+        },
+        "c": "https://github.com/pluskal-lab/massspecgym",
+        "n": "Fingerprint FFN",
+        "d": "2024-10-30",
+        "m1": "2.54",
+        "m2": "7.59",
+        "m3": "20.00",
+        "m4": "24.66"
+      },
+      {
+        "p": {
+          "name": "MassSpecGym: A benchmark for the discovery and identification of molecules",
+          "link": "https://arxiv.org/abs/2410.23326v3"
+        },
+        "c": "https://github.com/pluskal-lab/massspecgym",
+        "n": "DeepSets",
+        "d": "2024-10-30",
+        "m1": "1.47",
+        "m2": "6.21",
+        "m3": "19.23",
+        "m4": "25.11"
+      },
+      {
+        "p": {
+          "name": "MassSpecGym: A benchmark for the discovery and identification of molecules",
+          "link": "https://arxiv.org/abs/2410.23326v3"
+        },
+        "c": "https://github.com/pluskal-lab/massspecgym",
+        "n": "Random",
+        "d": "2024-10-30",
+        "m1": "0.37",
+        "m2": "2.01",
+        "m3": "8.22",
+        "m4": "30.81"
+      }
+    ]
+  }
+}

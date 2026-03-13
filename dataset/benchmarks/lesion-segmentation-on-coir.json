@@ -1,0 +1,209 @@
+{
+  "title": "lesion-segmentation-on-coir",
+  "task-hierarchy": [
+    "Medical Image Segmentation",
+    "Lesion Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/CoIR-team/coir",
+    "paper": "CoIR: A Comprehensive Benchmark for Code Information Retrieval Models"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Dice",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "STPNet: Scale-aware Text Prompt Network for Medical Image Segmentation",
+          "link": "https://arxiv.org/abs/2504.01561v1"
+        },
+        "c": "https://github.com/huanglizi/stpnet",
+        "n": "STPNet",
+        "d": "2025-04-02",
+        "m1": "76.18"
+      },
+      {
+        "p": {
+          "name": "STPNet: Scale-aware Text Prompt Network for Medical Image Segmentation",
+          "link": "https://arxiv.org/abs/2504.01561v1"
+        },
+        "c": "https://github.com/huanglizi/stpnet",
+        "n": "CMIRNet",
+        "d": "2025-04-02",
+        "m1": "73.69"
+      },
+      {
+        "p": {
+          "name": "STPNet: Scale-aware Text Prompt Network for Medical Image Segmentation",
+          "link": "https://arxiv.org/abs/2504.01561v1"
+        },
+        "c": "https://github.com/huanglizi/stpnet",
+        "n": "LAVT",
+        "d": "2025-04-02",
+        "m1": "73.29"
+      },
+      {
+        "p": {
+          "name": "STPNet: Scale-aware Text Prompt Network for Medical Image Segmentation",
+          "link": "https://arxiv.org/abs/2504.01561v1"
+        },
+        "c": "https://github.com/huanglizi/stpnet",
+        "n": "SAM2UNet",
+        "d": "2025-04-02",
+        "m1": "72.91"
+      },
+      {
+        "p": {
+          "name": "STPNet: Scale-aware Text Prompt Network for Medical Image Segmentation",
+          "link": "https://arxiv.org/abs/2504.01561v1"
+        },
+        "c": "https://github.com/huanglizi/stpnet",
+        "n": "nnUNet",
+        "d": "2025-04-02",
+        "m1": "72.59"
+      },
+      {
+        "p": {
+          "name": "STPNet: Scale-aware Text Prompt Network for Medical Image Segmentation",
+          "link": "https://arxiv.org/abs/2504.01561v1"
+        },
+        "c": "https://github.com/huanglizi/stpnet",
+        "n": "GLoRIA",
+        "d": "2025-04-02",
+        "m1": "72.42"
+      },
+      {
+        "p": {
+          "name": "STPNet: Scale-aware Text Prompt Network for Medical Image Segmentation",
+          "link": "https://arxiv.org/abs/2504.01561v1"
+        },
+        "c": "https://github.com/huanglizi/stpnet",
+        "n": "ViLT",
+        "d": "2025-04-02",
+        "m1": "72.36"
+      },
+      {
+        "p": {
+          "name": "STPNet: Scale-aware Text Prompt Network for Medical Image Segmentation",
+          "link": "https://arxiv.org/abs/2504.01561v1"
+        },
+        "c": "https://github.com/huanglizi/stpnet",
+        "n": "ConVIRT",
+        "d": "2025-04-02",
+        "m1": "72.06"
+      },
+      {
+        "p": {
+          "name": "STPNet: Scale-aware Text Prompt Network for Medical Image Segmentation",
+          "link": "https://arxiv.org/abs/2504.01561v1"
+        },
+        "c": "https://github.com/huanglizi/stpnet",
+        "n": "CLIP",
+        "d": "2025-04-02",
+        "m1": "71.97"
+      },
+      {
+        "p": {
+          "name": "STPNet: Scale-aware Text Prompt Network for Medical Image Segmentation",
+          "link": "https://arxiv.org/abs/2504.01561v1"
+        },
+        "c": "https://github.com/huanglizi/stpnet",
+        "n": "UNet++",
+        "d": "2025-04-02",
+        "m1": "71.75"
+      },
+      {
+        "p": {
+          "name": "STPNet: Scale-aware Text Prompt Network for Medical Image Segmentation",
+          "link": "https://arxiv.org/abs/2504.01561v1"
+        },
+        "c": "https://github.com/huanglizi/stpnet",
+        "n": "UniLSeg",
+        "d": "2025-04-02",
+        "m1": "71.6"
+      },
+      {
+        "p": {
+          "name": "STPNet: Scale-aware Text Prompt Network for Medical Image Segmentation",
+          "link": "https://arxiv.org/abs/2504.01561v1"
+        },
+        "c": "https://github.com/huanglizi/stpnet",
+        "n": "TransUNet",
+        "d": "2025-04-02",
+        "m1": "71.24"
+      },
+      {
+        "p": {
+          "name": "STPNet: Scale-aware Text Prompt Network for Medical Image Segmentation",
+          "link": "https://arxiv.org/abs/2504.01561v1"
+        },
+        "c": "https://github.com/huanglizi/stpnet",
+        "n": "TGANet",
+        "d": "2025-04-02",
+        "m1": "70.29"
+      },
+      {
+        "p": {
+          "name": "STPNet: Scale-aware Text Prompt Network for Medical Image Segmentation",
+          "link": "https://arxiv.org/abs/2504.01561v1"
+        },
+        "c": "https://github.com/huanglizi/stpnet",
+        "n": "UCTransNet",
+        "d": "2025-04-02",
+        "m1": "66.74"
+      },
+      {
+        "p": {
+          "name": "STPNet: Scale-aware Text Prompt Network for Medical Image Segmentation",
+          "link": "https://arxiv.org/abs/2504.01561v1"
+        },
+        "c": "https://github.com/huanglizi/stpnet",
+        "n": "AttUNet",
+        "d": "2025-04-02",
+        "m1": "65.57"
+      },
+      {
+        "p": {
+          "name": "STPNet: Scale-aware Text Prompt Network for Medical Image Segmentation",
+          "link": "https://arxiv.org/abs/2504.01561v1"
+        },
+        "c": "https://github.com/huanglizi/stpnet",
+        "n": "Swin-UNet",
+        "d": "2025-04-02",
+        "m1": "63.29"
+      },
+      {
+        "p": {
+          "name": "STPNet: Scale-aware Text Prompt Network for Medical Image Segmentation",
+          "link": "https://arxiv.org/abs/2504.01561v1"
+        },
+        "c": "https://github.com/huanglizi/stpnet",
+        "n": "UNet",
+        "d": "2025-04-02",
+        "m1": "62.96"
+      }
+    ]
+  }
+}

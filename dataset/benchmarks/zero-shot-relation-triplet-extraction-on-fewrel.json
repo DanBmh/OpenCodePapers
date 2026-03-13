@@ -1,0 +1,69 @@
+{
+  "title": "zero-shot-relation-triplet-extraction-on-fewrel",
+  "task-hierarchy": [
+    "Relation Extraction",
+    "Zero-shot Relation Triplet Extraction"
+  ],
+  "dataset-info": {
+    "link": "http://www.zhuhao.me/fewrel/",
+    "paper": "FewRel: A Large-Scale Supervised Few-Shot Relation Classification Dataset with State-of-the-Art Evaluation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Avg. F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Zero-shot Triplet Extraction by Template Infilling",
+          "link": "https://arxiv.org/abs/2212.10708v2"
+        },
+        "c": "https://github.com/megagonlabs/zett",
+        "n": "ZETT",
+        "d": "2022-12-21",
+        "m1": "31.28"
+      },
+      {
+        "p": {
+          "name": "RelationPrompt: Leveraging Prompts to Generate Synthetic Data for Zero-Shot Relation Triplet Extraction",
+          "link": "https://arxiv.org/abs/2203.09101v1"
+        },
+        "c": "https://github.com/declare-lab/relationprompt",
+        "n": "RelationPrompt",
+        "d": "2022-03-17",
+        "m1": "24.61"
+      },
+      {
+        "p": {
+          "name": "Two are Better than One: Joint Entity and Relation Extraction with Table-Sequence Encoders",
+          "link": "https://arxiv.org/abs/2010.03851v1"
+        },
+        "c": "https://github.com/LorrinWWW/two-are-better-than-one",
+        "n": "TableSequence",
+        "d": "2020-10-08",
+        "m1": "6.37"
+      }
+    ]
+  }
+}

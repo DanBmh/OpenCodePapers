@@ -1,0 +1,88 @@
+{
+  "title": "open-vocabulary-semantic-segmentation-on-cityscapes",
+  "task-hierarchy": [
+    "Open Vocabulary Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://www.cityscapes-dataset.com/dataset-overview/",
+    "paper": "The Cityscapes Dataset for Semantic Urban Scene Understanding"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Convolutions Die Hard: Open-Vocabulary Segmentation with Single Frozen Convolutional CLIP",
+          "link": "https://arxiv.org/abs/2308.02487v2"
+        },
+        "c": "https://github.com/bytedance/fc-clip",
+        "n": "FC-CLIP",
+        "d": "2023-08-04",
+        "m1": "56.2"
+      },
+      {
+        "p": {
+          "name": "A Simple Baseline for Open-Vocabulary Semantic Segmentation with Pre-trained Vision-language Model",
+          "link": "https://arxiv.org/abs/2112.14757v2"
+        },
+        "c": "https://github.com/mendelxu/zsseg.baseline",
+        "n": "SimSeg",
+        "d": "2021-12-29",
+        "m1": "34.5"
+      },
+      {
+        "p": {
+          "name": "TTD: Text-Tag Self-Distillation Enhancing Image-Text Alignment in CLIP to Alleviate Single Tag Bias",
+          "link": "https://arxiv.org/abs/2404.00384v2"
+        },
+        "c": "https://github.com/shjo-april/TTD",
+        "n": "TTD (TCL)",
+        "d": "2024-03-30",
+        "m1": "32.0"
+      },
+      {
+        "p": {
+          "name": "A Closer Look at the Explainability of Contrastive Language-Image Pre-training",
+          "link": "https://arxiv.org/abs/2304.05653v2"
+        },
+        "c": "https://github.com/xmed-lab/clip_surgery",
+        "n": "CLIP Surgery (CLIP without any fine-tuning)",
+        "d": "2023-04-12",
+        "m1": "31.4"
+      },
+      {
+        "p": {
+          "name": "TTD: Text-Tag Self-Distillation Enhancing Image-Text Alignment in CLIP to Alleviate Single Tag Bias",
+          "link": "https://arxiv.org/abs/2404.00384v2"
+        },
+        "c": "https://github.com/shjo-april/TTD",
+        "n": "TTD (MaskCLIP)",
+        "d": "2024-03-30",
+        "m1": "27.0"
+      }
+    ]
+  }
+}
