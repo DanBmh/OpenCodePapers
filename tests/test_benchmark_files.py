@@ -375,12 +375,23 @@ def main() -> int:
     for path in sorted(json_files):
         try:
             with open(path, "r", encoding="utf-8") as f:
-                data = json.load(f)
+                text = f.read()
+                data = json.loads(text)
         except json.JSONDecodeError as e:
             all_errors.append(f"{path}: Failed to parse JSON: {e}")
             continue
         except Exception as e:
             all_errors.append(f"{path}: Failed to read file as UTF-8: {e}")
+            continue
+        if not isinstance(data, dict):
+            all_errors.append(
+                f"{path}: Top-level JSON structure must be an object/dict."
+            )
+            continue
+        if json.dumps(data, ensure_ascii=False, indent=2) != text:
+            all_errors.append(
+                f"{path}: JSON file contains formatting issues (whitespaces, ...)"
+            )
             continue
 
         all_errors.extend(check_benchmark_title(data, path))
