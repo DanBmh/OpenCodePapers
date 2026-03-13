@@ -67,7 +67,7 @@ testing_image:
   rules:
     - if: '$CI_PIPELINE_SOURCE == "schedule"'
       when: never
-    - if: $CI_COMMIT_REF_SLUG == "main" || $CI_COMMIT_REF_SLUG == "develop"
+    - if: $CI_COMMIT_REF_SLUG == "develop"
       variables:
         FULL_IMAGE_NAME: "${CI_REGISTRY_IMAGE}/${CI_COMMIT_REF_SLUG}/${IMAGE_TAG}"
     - when: always
