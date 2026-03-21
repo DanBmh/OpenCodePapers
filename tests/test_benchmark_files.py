@@ -16,6 +16,15 @@ def check_benchmark_title(data: dict, path: str):
     if not title:
         return [f"{path}: Missing 'title' key in JSON."]
 
+    if not isinstance(title, str):
+        return f"Title must be a string, got '{type(title).__name__}'"
+
+    # Check that title is the first entry in the JSON object
+    first_key = next(iter(data.keys()))
+    if first_key != "title":
+        return [f"{path}: 'title' must be the first key in the JSON file"]
+
+    # Check that title equals filename
     expected = os.path.splitext(os.path.basename(path))[0]
     if title != expected:
         return [
@@ -35,23 +44,14 @@ def check_benchmark_title(data: dict, path: str):
             )
         ]
 
-    return []
-
-
-# ==================================================================================================
-
-
-def check_dataset_link(data: dict, path: str):
-
-    dataset_info = data.get("dataset-info")
-    if not dataset_info:
-        return [f"{path}: Missing 'dataset-info' key in JSON."]
-
-    if "link" not in dataset_info:
-        return [f"{path}: Missing 'dataset-info.link' key in JSON."]
-    if not isinstance(dataset_info["link"], str):
+    # Check that title is not too long
+    if len(title) > 128:
         return [
-            f"{path}: 'Dataset Link must be a string, got {type(dataset_info['link']).__name__}."
+            (
+                f"{path}: Title is too long ({len(title)} characters). "
+                f"Maximum allowed length is 128 characters.\n"
+                f"  found title: {title!r}"
+            )
         ]
 
     return []
@@ -71,9 +71,69 @@ def check_task_hierarchy(data: dict, path: str):
             f"{path}: Task Hierarchy must be a list, got {type(task_hierarchy).__name__}."
         ]
 
+    # Check that task hierarchy is second entry in the JSON object
+    keys = list(data.keys())
+    if len(keys) < 2 or keys[1] != "task-hierarchy":
+        return [f"{path}: 'task-hierarchy' must be the second key in the JSON file"]
+
     # Enforce list elements be strings (empty list ok)
     if not all(isinstance(x, str) for x in task_hierarchy):
         return [f"{path}: All Task Hierarchy entries must be strings."]
+
+    # Check that items are not too long
+    for idx, item in enumerate(task_hierarchy):
+        if len(item) > 96:
+            return [
+                f"{path}: Task Hierarchy item at index {idx} is longer than 96 characters"
+            ]
+
+    return []
+
+
+# ==================================================================================================
+
+
+def helper_link_validity(link: str) -> str:
+
+    if not isinstance(link, str):
+        return f"Link must be a string, got '{type(link).__name__}'"
+
+    if link == "":
+        return ""
+
+    if len(link) > 255:
+        return f"Link is longer than 255 characters"
+
+    url_pattern = re.compile(
+        r"^(https?://)?([a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}(:\d+)?(/.*)?$"
+    )
+    if not url_pattern.match(link):
+        return f"Link is not a valid URL: '{link!r}'"
+
+    return ""
+
+
+# ==================================================================================================
+
+
+def check_dataset_info(data: dict, path: str):
+
+    dataset_info = data.get("dataset-info")
+    if not dataset_info:
+        return [f"{path}: Missing 'dataset-info' key in JSON."]
+
+    if "link" not in dataset_info:
+        return [f"{path}: Missing 'dataset-info.link' key in JSON."]
+
+    # Check that dataset-info is third entry in the JSON object
+    keys = list(data.keys())
+    if len(keys) < 3 or keys[2] != "dataset-info":
+        return [f"{path}: 'dataset-info' must be the third key in the JSON file"]
+
+    # Check link validity (can be empty)
+    link_error = helper_link_validity(dataset_info["link"])
+    if link_error:
+        return [f"{path}: 'dataset-info.link' error: {link_error}"]
 
     return []
 
@@ -96,7 +156,14 @@ def check_benchmark_structure(data: dict, path: str):
         )
         return errors
 
-    # Check for required fields
+    # Check that benchmark is fourth and last entry in the JSON object
+    keys = list(data.keys())
+    if len(keys) < 4 or keys[3] != "benchmark" or len(keys) > 4:
+        errors.append(
+            f"{path}: 'benchmark' must be the fourth and last key in the JSON file"
+        )
+
+    # Check for required keys
     if "fields" not in benchmark:
         errors.append(f"{path}: Missing 'benchmark.fields' key.")
     elif not isinstance(benchmark["fields"], list):
@@ -107,18 +174,72 @@ def check_benchmark_structure(data: dict, path: str):
     elif not isinstance(benchmark["items"], list):
         errors.append(f"{path}: 'benchmark.items' must be a list.")
 
-    # Check that fields contain ["p", "c", "n", "d"] in some order and at least one metric
-    if "fields" in benchmark and isinstance(benchmark["fields"], list):
-        field_keys = [f.get("key") for f in benchmark["fields"] if isinstance(f, dict)]
-        required_keys = {"p", "c", "n", "d"}
-        if not required_keys.issubset(field_keys):
+    return errors
+
+
+# ==================================================================================================
+
+
+def check_benchmark_fields(data: dict, path: str):
+
+    errors = []
+    benchmark = data.get("benchmark")
+
+    p = {"key": "p", "label": "Paper"}
+    c = {"key": "c", "label": "Code"}
+    n = {"key": "n", "label": "ModelName"}
+    d = {"key": "d", "label": "ReleaseDate", "sortable": "true"}
+    req = [p, c, n, d]
+
+    # Check that fields contains [p, c, n, d] as defined above
+    fields = benchmark.get("fields")
+    for f in fields:
+        for r in req:
+            if f == r:
+                req.remove(r)
+                continue
+    if req:
+        missing = ", ".join(r["key"] for r in req)
+        errors.append(
+            f"{path}: 'benchmark.fields' is missing required fields: {missing}."
+        )
+
+    # Check that rest of the fields (if any) start with "m" and have a non-empty label
+    for f in fields:
+        if f in [p, c, n, d]:
+            continue
+        if not isinstance(f, dict):
             errors.append(
-                f"{path}: 'benchmark.fields' must contain entries with keys: {required_keys}."
+                f"{path}: 'benchmark.fields' entry {f!r} must be a JSON object."
             )
-        if len(field_keys) <= 4:
+            continue
+        key = f.get("key")
+        label = f.get("label")
+        if not isinstance(key, str) or not key.startswith("m"):
             errors.append(
-                f"{path}: 'benchmark.fields' must contain at least one field for metrics."
+                f"{path}: 'benchmark.fields' entry {f!r} has invalid 'key'. "
+                f"Metric fields must have 'key' starting with 'm'."
             )
+        if not isinstance(label, str) or not label.strip():
+            errors.append(
+                f"{path}: 'benchmark.fields' entry {f!r} has invalid 'label'. "
+                f"Metric fields must have a non-empty 'label'."
+            )
+        if len(label) > 64:
+            errors.append(
+                f"{path}: 'benchmark.fields' entry {f!r} has 'label' longer than 64 characters."
+            )
+
+    return errors
+
+
+# ==================================================================================================
+
+
+def check_benchmark_items(data: dict, path: str):
+
+    errors = []
+    benchmark = data.get("benchmark")
 
     # Check that items contain ["p", "c", "n", "d"] in some order and at least one metric
     if "items" in benchmark and isinstance(benchmark["items"], list):
@@ -163,24 +284,24 @@ def check_benchmark_structure(data: dict, path: str):
                         )
 
     # Check that paper and code links are valid URLs if they are not empty
-    url_pattern = re.compile(
-        r"^(https?://)?([a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}(:\d+)?(/.*)?$"
-    )
     if "items" in benchmark and isinstance(benchmark["items"], list):
         for idx, item in enumerate(benchmark["items"]):
             if not isinstance(item, dict):
                 continue
             if "p" in item and isinstance(item["p"], dict):
                 link = item["p"].get("link", "")
-                if link and not url_pattern.match(link):
+                link_error = helper_link_validity(link)
+                if link_error:
                     errors.append(
-                        f"{path}: 'benchmark.items[{idx}].p.link' is not a valid URL: {link!r}"
+                        f"{path}: 'benchmark.items[{idx}].p.link' error: {link_error}"
                     )
+
             if "c" in item and isinstance(item["c"], str):
-                code_link = item["c"]
-                if code_link and not url_pattern.match(code_link):
+                link = item["c"]
+                link_error = helper_link_validity(link)
+                if link_error:
                     errors.append(
-                        f"{path}: 'benchmark.items[{idx}].c' is not a valid URL: {code_link!r}"
+                        f"{path}: 'benchmark.items[{idx}].c' error: {link_error}"
                     )
 
     # Check that paper authors is a list of strings (can be empty)
@@ -417,9 +538,11 @@ def main() -> int:
             continue
 
         all_errors.extend(check_benchmark_title(data, path))
-        all_errors.extend(check_dataset_link(data, path))
+        all_errors.extend(check_dataset_info(data, path))
         all_errors.extend(check_task_hierarchy(data, path))
         all_errors.extend(check_benchmark_structure(data, path))
+        all_errors.extend(check_benchmark_fields(data, path))
+        all_errors.extend(check_benchmark_items(data, path))
         all_errors.extend(check_benchmark_order(data, path))
         all_errors.extend(check_malicious_injections(data, path))
 
