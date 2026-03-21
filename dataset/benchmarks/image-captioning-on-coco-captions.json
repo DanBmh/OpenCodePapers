@@ -171,18 +171,6 @@
       },
       {
         "p": {
-          "name": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
-          "link": "https://arxiv.org/abs/2301.12597v3",
-          "authors": "Junnan Li, Dongxu Li, Silvio Savarese, Steven Hoi"
-        },
-        "c": "https://github.com/huggingface/transformers",
-        "n": "BLIP-2 ViT-G FlanT5 XL (zero-shot)",
-        "d": "2023-01-30",
-        "m1": "42.4",
-        "m2": "144.5"
-      },
-      {
-        "p": {
           "name": "GRIT: Faster and Better Image captioning Transformer Using Dual Visual Features",
           "link": "https://arxiv.org/abs/2207.09666v1",
           "authors": "Van-Quang Nguyen, Masanori Suganuma, Takayuki Okatani"
@@ -196,6 +184,18 @@
         "m4": "24.3",
         "m5": "60.7",
         "m6": "84.2"
+      },
+      {
+        "p": {
+          "name": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
+          "link": "https://arxiv.org/abs/2301.12597v3",
+          "authors": "Junnan Li, Dongxu Li, Silvio Savarese, Steven Hoi"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "BLIP-2 ViT-G FlanT5 XL (zero-shot)",
+        "d": "2023-01-30",
+        "m1": "42.4",
+        "m2": "144.5"
       },
       {
         "p": {
@@ -243,6 +243,18 @@
       },
       {
         "p": {
+          "name": "Multi-Grained Vision Language Pre-Training: Aligning Texts with Visual Concepts",
+          "link": "https://arxiv.org/abs/2111.08276v3",
+          "authors": "Yan Zeng, Xinsong Zhang, Hang Li"
+        },
+        "c": "https://github.com/zengyan-97/x-vlm",
+        "n": "X-VLM (base)",
+        "d": "2021-11-16",
+        "m1": "41.3",
+        "m2": "140.8"
+      },
+      {
+        "p": {
           "name": "Beyond a Pre-Trained Object Detector: Cross-Modal Textual and Visual Context for Image Captioning",
           "link": "https://arxiv.org/abs/2205.04363v2",
           "authors": "Chia-Wen Kuo, Zsolt Kira"
@@ -253,18 +265,6 @@
         "m1": "41.3",
         "m2": "142.2",
         "m4": "24.9"
-      },
-      {
-        "p": {
-          "name": "Multi-Grained Vision Language Pre-Training: Aligning Texts with Visual Concepts",
-          "link": "https://arxiv.org/abs/2111.08276v3",
-          "authors": "Yan Zeng, Xinsong Zhang, Hang Li"
-        },
-        "c": "https://github.com/zengyan-97/x-vlm",
-        "n": "X-VLM (base)",
-        "d": "2021-11-16",
-        "m1": "41.3",
-        "m2": "140.8"
       },
       {
         "p": {
@@ -352,22 +352,6 @@
       },
       {
         "p": {
-          "name": "Beyond a Pre-Trained Object Detector: Cross-Modal Textual and Visual Context for Image Captioning",
-          "link": "https://arxiv.org/abs/2205.04363v2",
-          "authors": "Chia-Wen Kuo, Zsolt Kira"
-        },
-        "c": "https://github.com/GT-RIPL/Xmodal-Ctx",
-        "n": "Xmodal-Ctx",
-        "d": "2022-05-09",
-        "m1": "39.7",
-        "m2": "135.9",
-        "m3": "30.0",
-        "m4": "23.7",
-        "m5": "59.5",
-        "m6": "81.5"
-      },
-      {
-        "p": {
           "name": "X-Linear Attention Networks for Image Captioning",
           "link": "https://arxiv.org/abs/2003.14080v1",
           "authors": "Yingwei Pan, Ting Yao, Yehao Li, Tao Mei"
@@ -383,6 +367,22 @@
         "m6": "80.9",
         "m7": "65.8",
         "m8": "51.5"
+      },
+      {
+        "p": {
+          "name": "Beyond a Pre-Trained Object Detector: Cross-Modal Textual and Visual Context for Image Captioning",
+          "link": "https://arxiv.org/abs/2205.04363v2",
+          "authors": "Chia-Wen Kuo, Zsolt Kira"
+        },
+        "c": "https://github.com/GT-RIPL/Xmodal-Ctx",
+        "n": "Xmodal-Ctx",
+        "d": "2022-05-09",
+        "m1": "39.7",
+        "m2": "135.9",
+        "m3": "30.0",
+        "m4": "23.7",
+        "m5": "59.5",
+        "m6": "81.5"
       },
       {
         "p": {

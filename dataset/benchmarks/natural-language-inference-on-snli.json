@@ -282,19 +282,6 @@
       },
       {
         "p": {
-          "name": "DR-BiLSTM: Dependent Reading Bidirectional LSTM for Natural Language Inference",
-          "link": "http://arxiv.org/abs/1802.05577v2",
-          "authors": "Reza Ghaeini, Sadid A. Hasan, Vivek Datla, Joey Liu, Kathy Lee, Ashequl Qadir, Yuan Ling, Aaditya Prakash, Xiaoli Z. Fern, Oladimeji Farri"
-        },
-        "c": "",
-        "n": "450D DR-BiLSTM Ensemble",
-        "d": "2018-02-15",
-        "m1": "89.3",
-        "m2": "94.8",
-        "m3": "45m"
-      },
-      {
-        "p": {
           "name": "Compare, Compress and Propagate: Enhancing Neural Architectures with Alignment Factorization for Natural Language Inference",
           "link": "http://arxiv.org/abs/1801.00102v2",
           "authors": "Yi Tay, Luu Anh Tuan, Siu Cheung Hui"
@@ -305,6 +292,19 @@
         "m1": "89.3",
         "m2": "92.5",
         "m3": "17.5m"
+      },
+      {
+        "p": {
+          "name": "DR-BiLSTM: Dependent Reading Bidirectional LSTM for Natural Language Inference",
+          "link": "http://arxiv.org/abs/1802.05577v2",
+          "authors": "Reza Ghaeini, Sadid A. Hasan, Vivek Datla, Joey Liu, Kathy Lee, Ashequl Qadir, Yuan Ling, Aaditya Prakash, Xiaoli Z. Fern, Oladimeji Farri"
+        },
+        "c": "",
+        "n": "450D DR-BiLSTM Ensemble",
+        "d": "2018-02-15",
+        "m1": "89.3",
+        "m2": "94.8",
+        "m3": "45m"
       },
       {
         "p": {
@@ -347,16 +347,16 @@
       },
       {
         "p": {
-          "name": "Simple and Effective Text Matching with Richer Alignment Features",
-          "link": "https://arxiv.org/abs/1908.00300v1",
-          "authors": "Runqi Yang, Jianhai Zhang, Xing Gao, Feng Ji, Haiqing Chen"
+          "name": "Natural Language Inference over Interaction Space",
+          "link": "http://arxiv.org/abs/1709.04348v2",
+          "authors": "Yichen Gong, Heng Luo, Jian Zhang"
         },
-        "c": "https://github.com/alibaba-edu/simple-effective-text-matching",
-        "n": "RE2",
-        "d": "2019-08-01",
+        "c": "https://github.com/YichenGong/Densely-Interactive-Inference-Network",
+        "n": "448D Densely Interactive Inference Network (DIIN, code) Ensemble",
+        "d": "2017-09-13",
         "m1": "88.9",
-        "m2": "94.0",
-        "m3": "2.8m"
+        "m2": "92.3",
+        "m3": "17m"
       },
       {
         "p": {
@@ -373,6 +373,19 @@
       },
       {
         "p": {
+          "name": "Simple and Effective Text Matching with Richer Alignment Features",
+          "link": "https://arxiv.org/abs/1908.00300v1",
+          "authors": "Runqi Yang, Jianhai Zhang, Xing Gao, Feng Ji, Haiqing Chen"
+        },
+        "c": "https://github.com/alibaba-edu/simple-effective-text-matching",
+        "n": "RE2",
+        "d": "2019-08-01",
+        "m1": "88.9",
+        "m2": "94.0",
+        "m3": "2.8m"
+      },
+      {
+        "p": {
           "name": "DEIM: An effective deep encoding and interaction model for sentence matching",
           "link": "https://arxiv.org/abs/2203.10482v1",
           "authors": "Kexin Jiang, Yahui Zhao, Rongyi Cui, Zhenguo Zhang"
@@ -383,19 +396,6 @@
         "m1": "88.9",
         "m2": "92.6",
         "m3": "22m"
-      },
-      {
-        "p": {
-          "name": "Natural Language Inference over Interaction Space",
-          "link": "http://arxiv.org/abs/1709.04348v2",
-          "authors": "Yichen Gong, Heng Luo, Jian Zhang"
-        },
-        "c": "https://github.com/YichenGong/Densely-Interactive-Inference-Network",
-        "n": "448D Densely Interactive Inference Network (DIIN, code) Ensemble",
-        "d": "2017-09-13",
-        "m1": "88.9",
-        "m2": "92.3",
-        "m3": "17m"
       },
       {
         "p": {
@@ -447,6 +447,19 @@
       },
       {
         "p": {
+          "name": "Enhanced LSTM for Natural Language Inference",
+          "link": "http://arxiv.org/abs/1609.06038v3",
+          "authors": "Qian Chen, Xiaodan Zhu, Zhen-Hua Ling, Si Wei, Hui Jiang, Diana Inkpen"
+        },
+        "c": "https://github.com/coetaur0/ESIM",
+        "n": "600D ESIM + 300D Syntactic TreeLSTM",
+        "d": "2016-09-20",
+        "m1": "88.6",
+        "m2": "93.5",
+        "m3": "7.7m"
+      },
+      {
+        "p": {
           "name": "Neural Natural Language Inference Models Enhanced with External Knowledge",
           "link": "http://arxiv.org/abs/1711.04289v3",
           "authors": "Qian Chen, Xiaodan Zhu, Zhen-Hua Ling, Diana Inkpen, Si Wei"
@@ -460,16 +473,16 @@
       },
       {
         "p": {
-          "name": "Enhanced LSTM for Natural Language Inference",
-          "link": "http://arxiv.org/abs/1609.06038v3",
-          "authors": "Qian Chen, Xiaodan Zhu, Zhen-Hua Ling, Si Wei, Hui Jiang, Diana Inkpen"
+          "name": "Compare, Compress and Propagate: Enhancing Neural Architectures with Alignment Factorization for Natural Language Inference",
+          "link": "http://arxiv.org/abs/1801.00102v2",
+          "authors": "Yi Tay, Luu Anh Tuan, Siu Cheung Hui"
         },
-        "c": "https://github.com/coetaur0/ESIM",
-        "n": "600D ESIM + 300D Syntactic TreeLSTM",
-        "d": "2016-09-20",
-        "m1": "88.6",
-        "m2": "93.5",
-        "m3": "7.7m"
+        "c": "",
+        "n": "300D CAFE",
+        "d": "2017-12-30",
+        "m1": "88.5",
+        "m2": "89.8",
+        "m3": "4.7m"
       },
       {
         "p": {
@@ -496,19 +509,6 @@
         "m1": "88.5",
         "m2": "93.3",
         "m3": "3.5m"
-      },
-      {
-        "p": {
-          "name": "Compare, Compress and Propagate: Enhancing Neural Architectures with Alignment Factorization for Natural Language Inference",
-          "link": "http://arxiv.org/abs/1801.00102v2",
-          "authors": "Yi Tay, Luu Anh Tuan, Siu Cheung Hui"
-        },
-        "c": "",
-        "n": "300D CAFE",
-        "d": "2017-12-30",
-        "m1": "88.5",
-        "m2": "89.8",
-        "m3": "4.7m"
       },
       {
         "p": {
@@ -549,6 +549,17 @@
       },
       {
         "p": {
+          "name": "Enhanced LSTM for Natural Language Inference",
+          "link": "http://arxiv.org/abs/1609.06038v3",
+          "authors": "Qian Chen, Xiaodan Zhu, Zhen-Hua Ling, Si Wei, Hui Jiang, Diana Inkpen"
+        },
+        "c": "https://github.com/coetaur0/ESIM",
+        "n": "Enhanced Sequential Inference Model (Chen et al., [2017a])",
+        "d": "2016-09-20",
+        "m1": "88.0"
+      },
+      {
+        "p": {
           "name": "Natural Language Inference over Interaction Space",
           "link": "http://arxiv.org/abs/1709.04348v2",
           "authors": "Yichen Gong, Heng Luo, Jian Zhang"
@@ -562,14 +573,16 @@
       },
       {
         "p": {
-          "name": "Enhanced LSTM for Natural Language Inference",
-          "link": "http://arxiv.org/abs/1609.06038v3",
-          "authors": "Qian Chen, Xiaodan Zhu, Zhen-Hua Ling, Si Wei, Hui Jiang, Diana Inkpen"
+          "name": "Reading and Thinking: Re-read LSTM Unit for Textual Entailment Recognition",
+          "link": "https://aclanthology.org/C16-1270",
+          "authors": "Lei Sha, Baobao Chang, Zhifang Sui, Sujian Li"
         },
-        "c": "https://github.com/coetaur0/ESIM",
-        "n": "Enhanced Sequential Inference Model (Chen et al., [2017a])",
-        "d": "2016-09-20",
-        "m1": "88.0"
+        "c": "",
+        "n": "300D re-read LSTM",
+        "d": "2016-12-01",
+        "m1": "87.5",
+        "m2": "90.7",
+        "m3": "2.0m"
       },
       {
         "p": {
@@ -589,19 +602,6 @@
         "c": "",
         "n": "300D re-read LSTM",
         "d": "",
-        "m1": "87.5",
-        "m2": "90.7",
-        "m3": "2.0m"
-      },
-      {
-        "p": {
-          "name": "Reading and Thinking: Re-read LSTM Unit for Textual Entailment Recognition",
-          "link": "https://aclanthology.org/C16-1270",
-          "authors": "Lei Sha, Baobao Chang, Zhifang Sui, Sujian Li"
-        },
-        "c": "",
-        "n": "300D re-read LSTM",
-        "d": "2016-12-01",
         "m1": "87.5",
         "m2": "90.7",
         "m3": "2.0m"
@@ -747,29 +747,16 @@
       },
       {
         "p": {
-          "name": "Reinforced Self-Attention Network: a Hybrid of Hard and Soft Attention for Sequence Modeling",
-          "link": "http://arxiv.org/abs/1801.10296v2",
-          "authors": "Tao Shen, Tianyi Zhou, Guodong Long, Jing Jiang, Sen Wang, Chengqi Zhang"
+          "name": "Long Short-Term Memory-Networks for Machine Reading",
+          "link": "http://arxiv.org/abs/1601.06733v7",
+          "authors": "Jianpeng Cheng, Li Dong, Mirella Lapata"
         },
-        "c": "https://github.com/taoshen58/DiSAN",
-        "n": "300D Reinforced Self-Attention Network",
-        "d": "2018-01-31",
+        "c": "https://github.com/JRC1995/Abstractive-Summarization",
+        "n": "450D LSTMN with deep attention fusion",
+        "d": "2016-01-25",
         "m1": "86.3",
-        "m2": "92.6",
-        "m3": "3.1m"
-      },
-      {
-        "p": {
-          "name": "Distance-based Self-Attention Network for Natural Language Inference",
-          "link": "http://arxiv.org/abs/1712.02047v1",
-          "authors": "Jinbae Im, Sungzoon Cho"
-        },
-        "c": "",
-        "n": "Distance-based Self-Attention Network",
-        "d": "2017-12-06",
-        "m1": "86.3",
-        "m2": "89.6",
-        "m3": "4.7m"
+        "m2": "88.5",
+        "m3": "3.4m"
       },
       {
         "p": {
@@ -799,16 +786,29 @@
       },
       {
         "p": {
-          "name": "Long Short-Term Memory-Networks for Machine Reading",
-          "link": "http://arxiv.org/abs/1601.06733v7",
-          "authors": "Jianpeng Cheng, Li Dong, Mirella Lapata"
+          "name": "Distance-based Self-Attention Network for Natural Language Inference",
+          "link": "http://arxiv.org/abs/1712.02047v1",
+          "authors": "Jinbae Im, Sungzoon Cho"
         },
-        "c": "https://github.com/JRC1995/Abstractive-Summarization",
-        "n": "450D LSTMN with deep attention fusion",
-        "d": "2016-01-25",
+        "c": "",
+        "n": "Distance-based Self-Attention Network",
+        "d": "2017-12-06",
         "m1": "86.3",
-        "m2": "88.5",
-        "m3": "3.4m"
+        "m2": "89.6",
+        "m3": "4.7m"
+      },
+      {
+        "p": {
+          "name": "Reinforced Self-Attention Network: a Hybrid of Hard and Soft Attention for Sequence Modeling",
+          "link": "http://arxiv.org/abs/1801.10296v2",
+          "authors": "Tao Shen, Tianyi Zhou, Guodong Long, Jing Jiang, Sen Wang, Chengqi Zhang"
+        },
+        "c": "https://github.com/taoshen58/DiSAN",
+        "n": "300D Reinforced Self-Attention Network",
+        "d": "2018-01-31",
+        "m1": "86.3",
+        "m2": "92.6",
+        "m3": "3.1m"
       },
       {
         "p": {
@@ -884,19 +884,6 @@
       },
       {
         "p": {
-          "name": "Shortcut-Stacked Sentence Encoders for Multi-Domain Inference",
-          "link": "http://arxiv.org/abs/1708.02312v2",
-          "authors": "Yixin Nie, Mohit Bansal"
-        },
-        "c": "https://github.com/easonnie/multiNLI_encoder",
-        "n": "300D Residual stacked encoders",
-        "d": "2017-08-07",
-        "m1": "85.7",
-        "m2": "89.8",
-        "m3": "9.7m"
-      },
-      {
-        "p": {
           "name": "Long Short-Term Memory-Networks for Machine Reading",
           "link": "http://arxiv.org/abs/1601.06733v7",
           "authors": "Jianpeng Cheng, Li Dong, Mirella Lapata"
@@ -907,6 +894,19 @@
         "m1": "85.7",
         "m2": "87.3",
         "m3": "1.7m"
+      },
+      {
+        "p": {
+          "name": "Shortcut-Stacked Sentence Encoders for Multi-Domain Inference",
+          "link": "http://arxiv.org/abs/1708.02312v2",
+          "authors": "Yixin Nie, Mohit Bansal"
+        },
+        "c": "https://github.com/easonnie/multiNLI_encoder",
+        "n": "300D Residual stacked encoders",
+        "d": "2017-08-07",
+        "m1": "85.7",
+        "m2": "89.8",
+        "m3": "9.7m"
       },
       {
         "p": {

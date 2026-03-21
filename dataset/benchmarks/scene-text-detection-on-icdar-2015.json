@@ -251,6 +251,19 @@
       },
       {
         "p": {
+          "name": "Shape Robust Text Detection with Progressive Scale Expansion Network",
+          "link": "http://arxiv.org/abs/1806.02559v1",
+          "authors": "Xiang Li, Wenhai Wang, Wenbo Hou, Ruo-Ze Liu, Tong Lu, Jian Yang"
+        },
+        "c": "https://github.com/whai362/PSENet",
+        "n": "PSENet-1s",
+        "d": "2018-06-07",
+        "m1": "87.1",
+        "m2": "88.7",
+        "m3": "85.5"
+      },
+      {
+        "p": {
           "name": "FAST: Faster Arbitrarily-Shaped Text Detector with Minimalist Kernel Representation",
           "link": "https://arxiv.org/abs/2111.02394v2",
           "authors": "Zhe Chen, Jiahao Wang, Wenhai Wang, Guo Chen, Enze Xie, Ping Luo, Tong Lu"
@@ -262,19 +275,6 @@
         "m2": "89.7",
         "m3": "84.6",
         "m5": "15.7"
-      },
-      {
-        "p": {
-          "name": "Shape Robust Text Detection with Progressive Scale Expansion Network",
-          "link": "http://arxiv.org/abs/1806.02559v1",
-          "authors": "Xiang Li, Wenhai Wang, Wenbo Hou, Ruo-Ze Liu, Tong Lu, Jian Yang"
-        },
-        "c": "https://github.com/whai362/PSENet",
-        "n": "PSENet-1s",
-        "d": "2018-06-07",
-        "m1": "87.1",
-        "m2": "88.7",
-        "m3": "85.5"
       },
       {
         "p": {
@@ -371,19 +371,6 @@
       },
       {
         "p": {
-          "name": "Detecting Multi-Oriented Text with Corner-based Region Proposals",
-          "link": "https://arxiv.org/abs/1804.02690v2",
-          "authors": "Linjie Deng, Yanxiang Gong, Yi Lin, Jingwen Shuai, Xiaoguang Tu, Yuefei Zhang, Zheng Ma, Mei Xie"
-        },
-        "c": "https://github.com/xhzdeng/crpn",
-        "n": "Corner-based Region Proposals",
-        "d": "2018-04-08",
-        "m1": "84.5",
-        "m2": "88.7",
-        "m3": "80.7"
-      },
-      {
-        "p": {
           "name": "PixelLink: Detecting Scene Text via Instance Segmentation",
           "link": "http://arxiv.org/abs/1801.01315v1",
           "authors": "Dan Deng, Haifeng Liu, Xuelong. Li, Deng Cai"
@@ -394,6 +381,19 @@
         "m1": "84.5",
         "m2": "85.5",
         "m3": "83.6"
+      },
+      {
+        "p": {
+          "name": "Detecting Multi-Oriented Text with Corner-based Region Proposals",
+          "link": "https://arxiv.org/abs/1804.02690v2",
+          "authors": "Linjie Deng, Yanxiang Gong, Yi Lin, Jingwen Shuai, Xiaoguang Tu, Yuefei Zhang, Zheng Ma, Mei Xie"
+        },
+        "c": "https://github.com/xhzdeng/crpn",
+        "n": "Corner-based Region Proposals",
+        "d": "2018-04-08",
+        "m1": "84.5",
+        "m2": "88.7",
+        "m3": "80.7"
       },
       {
         "p": {
@@ -450,6 +450,19 @@
       },
       {
         "p": {
+          "name": "EAST: An Efficient and Accurate Scene Text Detector",
+          "link": "http://arxiv.org/abs/1704.03155v2",
+          "authors": "Xinyu Zhou, Cong Yao, He Wen, Yuzhi Wang, Shuchang Zhou, Weiran He, Jiajun Liang"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleOCR",
+        "n": "PAN",
+        "d": "2017-04-11",
+        "m1": "82.9",
+        "m2": "84",
+        "m3": "81.9"
+      },
+      {
+        "p": {
           "name": "TextBoxes++: A Single-Shot Oriented Scene Text Detector",
           "link": "http://arxiv.org/abs/1801.02765v3",
           "authors": "Minghui Liao, Baoguang Shi, Xiang Bai"
@@ -474,19 +487,6 @@
         "m2": "86.3",
         "m3": "79.8",
         "m5": "53.9"
-      },
-      {
-        "p": {
-          "name": "EAST: An Efficient and Accurate Scene Text Detector",
-          "link": "http://arxiv.org/abs/1704.03155v2",
-          "authors": "Xinyu Zhou, Cong Yao, He Wen, Yuzhi Wang, Shuchang Zhou, Weiran He, Jiajun Liang"
-        },
-        "c": "https://github.com/PaddlePaddle/PaddleOCR",
-        "n": "PAN",
-        "d": "2017-04-11",
-        "m1": "82.9",
-        "m2": "84",
-        "m3": "81.9"
       },
       {
         "p": {
@@ -530,19 +530,6 @@
       },
       {
         "p": {
-          "name": "EAST: An Efficient and Accurate Scene Text Detector",
-          "link": "http://arxiv.org/abs/1704.03155v2",
-          "authors": "Xinyu Zhou, Cong Yao, He Wen, Yuzhi Wang, Shuchang Zhou, Weiran He, Jiajun Liang"
-        },
-        "c": "https://github.com/PaddlePaddle/PaddleOCR",
-        "n": "EAST + PVANET2x RBOX (single-scale)",
-        "d": "2017-04-11",
-        "m1": "78.2",
-        "m2": "83.6",
-        "m3": "73.5"
-      },
-      {
-        "p": {
           "name": "Detecting Oriented Text in Natural Images by Linking Segments",
           "link": "http://arxiv.org/abs/1703.06520v3",
           "authors": "Baoguang Shi, Xiang Bai, Serge Belongie"
@@ -553,6 +540,19 @@
         "m1": "78.2",
         "m2": "79.3",
         "m3": "77.0"
+      },
+      {
+        "p": {
+          "name": "EAST: An Efficient and Accurate Scene Text Detector",
+          "link": "http://arxiv.org/abs/1704.03155v2",
+          "authors": "Xinyu Zhou, Cong Yao, He Wen, Yuzhi Wang, Shuchang Zhou, Weiran He, Jiajun Liang"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleOCR",
+        "n": "EAST + PVANET2x RBOX (single-scale)",
+        "d": "2017-04-11",
+        "m1": "78.2",
+        "m2": "83.6",
+        "m3": "73.5"
       },
       {
         "p": {

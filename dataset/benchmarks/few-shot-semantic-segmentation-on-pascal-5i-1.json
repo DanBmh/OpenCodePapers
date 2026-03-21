@@ -327,6 +327,17 @@
       },
       {
         "p": {
+          "name": "Cost Aggregation Is All You Need for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2112.11685v1",
+          "authors": "Sunghwan Hong, Seokju Cho, Jisu Nam, Seungryong Kim"
+        },
+        "c": "https://github.com/Seokju-Cho/Volumetric-Aggregation-Transformer",
+        "n": "VAT",
+        "d": "2021-12-22",
+        "m1": "67.5"
+      },
+      {
+        "p": {
           "name": "Doubly Deformable Aggregation of Covariance Matrices for Few-shot Segmentation",
           "link": "https://arxiv.org/abs/2208.00306v1",
           "authors": "Zhitong Xiong, Haopeng Li, Xiao Xiang Zhu"
@@ -336,17 +347,6 @@
         "d": "2022-07-30",
         "m1": "67.5",
         "m2": "78.9"
-      },
-      {
-        "p": {
-          "name": "Cost Aggregation Is All You Need for Few-Shot Segmentation",
-          "link": "https://arxiv.org/abs/2112.11685v1",
-          "authors": "Sunghwan Hong, Seokju Cho, Jisu Nam, Seungryong Kim"
-        },
-        "c": "https://github.com/Seokju-Cho/Volumetric-Aggregation-Transformer",
-        "n": "VAT",
-        "d": "2021-12-22",
-        "m1": "67.5"
       },
       {
         "p": {
@@ -431,18 +431,6 @@
       },
       {
         "p": {
-          "name": "Self-Calibrated Cross Attention Network for Few-Shot Segmentation",
-          "link": "https://arxiv.org/abs/2308.09294v1",
-          "authors": "Qianxiong Xu, Wenting Zhao, Guosheng Lin, Cheng Long"
-        },
-        "c": "https://github.com/sam1224/sccan",
-        "n": "SCCAN (ResNet-50)",
-        "d": "2023-08-18",
-        "m1": "66.8",
-        "m2": "77.7"
-      },
-      {
-        "p": {
           "name": "Intermediate Prototype Mining Transformer for Few-Shot Semantic Segmentation",
           "link": "https://arxiv.org/abs/2210.06780v1",
           "authors": "Yuanwei Liu, Nian Liu, Xiwen Yao, Junwei Han"
@@ -452,6 +440,18 @@
         "d": "2022-10-13",
         "m1": "66.8",
         "m2": "77.1"
+      },
+      {
+        "p": {
+          "name": "Self-Calibrated Cross Attention Network for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2308.09294v1",
+          "authors": "Qianxiong Xu, Wenting Zhao, Guosheng Lin, Cheng Long"
+        },
+        "c": "https://github.com/sam1224/sccan",
+        "n": "SCCAN (ResNet-50)",
+        "d": "2023-08-18",
+        "m1": "66.8",
+        "m2": "77.7"
       },
       {
         "p": {
@@ -562,18 +562,6 @@
       },
       {
         "p": {
-          "name": "Few-shot Semantic Segmentation with Support-induced Graph Convolutional Network",
-          "link": "https://arxiv.org/abs/2301.03194v2",
-          "authors": "Jie Liu, Yanqi Bao, Wenzhe Yin, Haochen Wang, Yang Gao, Jan-Jakob Sonke, Efstratios Gavves"
-        },
-        "c": "",
-        "n": "SiGCN (ResNet-101)",
-        "d": "2023-01-09",
-        "m1": "65.7",
-        "m2": "78.3"
-      },
-      {
-        "p": {
           "name": "Doubly Deformable Aggregation of Covariance Matrices for Few-shot Segmentation",
           "link": "https://arxiv.org/abs/2208.00306v1",
           "authors": "Zhitong Xiong, Haopeng Li, Xiao Xiang Zhu"
@@ -594,6 +582,18 @@
         "n": "IPRNet (ResNet-50)",
         "d": "2022-11-16",
         "m1": "65.7"
+      },
+      {
+        "p": {
+          "name": "Few-shot Semantic Segmentation with Support-induced Graph Convolutional Network",
+          "link": "https://arxiv.org/abs/2301.03194v2",
+          "authors": "Jie Liu, Yanqi Bao, Wenzhe Yin, Haochen Wang, Yang Gao, Jan-Jakob Sonke, Efstratios Gavves"
+        },
+        "c": "",
+        "n": "SiGCN (ResNet-101)",
+        "d": "2023-01-09",
+        "m1": "65.7",
+        "m2": "78.3"
       },
       {
         "p": {
@@ -666,6 +666,17 @@
       },
       {
         "p": {
+          "name": "Feature-Proxy Transformer for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2210.06908v1",
+          "authors": "Jian-Wei Zhang, Yifan Sun, Yi Yang, Wei Chen"
+        },
+        "c": "https://github.com/jarvis73/fptrans",
+        "n": "FPTrans (ViT-B/16)",
+        "d": "2022-10-13",
+        "m1": "64.7"
+      },
+      {
+        "p": {
           "name": "MSDNet: Multi-Scale Decoder for Few-Shot Semantic Segmentation via Transformer-Guided Prototyping",
           "link": "https://arxiv.org/abs/2409.11316v2",
           "authors": "Amirreza Fateh, Mohammad Reza Mohammadi, Mohammad Reza Jahed Motlagh"
@@ -676,17 +687,6 @@
         "m1": "64.7",
         "m2": "77.3",
         "m3": "1.5"
-      },
-      {
-        "p": {
-          "name": "Feature-Proxy Transformer for Few-Shot Segmentation",
-          "link": "https://arxiv.org/abs/2210.06908v1",
-          "authors": "Jian-Wei Zhang, Yifan Sun, Yi Yang, Wei Chen"
-        },
-        "c": "https://github.com/jarvis73/fptrans",
-        "n": "FPTrans (ViT-B/16)",
-        "d": "2022-10-13",
-        "m1": "64.7"
       },
       {
         "p": {
@@ -724,16 +724,15 @@
       },
       {
         "p": {
-          "name": "MSDNet: Multi-Scale Decoder for Few-Shot Semantic Segmentation via Transformer-Guided Prototyping",
-          "link": "https://arxiv.org/abs/2409.11316v2",
-          "authors": "Amirreza Fateh, Mohammad Reza Mohammadi, Mohammad Reza Jahed Motlagh"
+          "name": "Few-Shot Segmentation via Cycle-Consistent Transformer",
+          "link": "https://arxiv.org/abs/2106.02320v4",
+          "authors": "Gengwei Zhang, Guoliang Kang, Yi Yang, Yunchao Wei"
         },
-        "c": "https://github.com/amirrezafateh/msdnet",
-        "n": "MSDNet (ResNet-50)",
-        "d": "2024-09-17",
+        "c": "https://github.com/YanFangCS/CyCTR-Pytorch",
+        "n": "CyCTR (ResNet-101)",
+        "d": "2021-06-04",
         "m1": "64.3",
-        "m2": "77.1",
-        "m3": "1.5"
+        "m3": "15.4"
       },
       {
         "p": {
@@ -749,18 +748,6 @@
       },
       {
         "p": {
-          "name": "Few-Shot Segmentation via Cycle-Consistent Transformer",
-          "link": "https://arxiv.org/abs/2106.02320v4",
-          "authors": "Gengwei Zhang, Guoliang Kang, Yi Yang, Yunchao Wei"
-        },
-        "c": "https://github.com/YanFangCS/CyCTR-Pytorch",
-        "n": "CyCTR (ResNet-101)",
-        "d": "2021-06-04",
-        "m1": "64.3",
-        "m3": "15.4"
-      },
-      {
-        "p": {
           "name": "Quaternion-valued Correlation Learning for Few-Shot Semantic Segmentation",
           "link": "https://arxiv.org/abs/2305.07283v3",
           "authors": "Zewen Zheng, Guoheng Huang, Xiaochen Yuan, Chi-Man Pun, Hongrui Liu, Wing-Kuen Ling"
@@ -769,6 +756,19 @@
         "n": "QCLNet (ResNet-50)",
         "d": "2023-05-12",
         "m1": "64.3"
+      },
+      {
+        "p": {
+          "name": "MSDNet: Multi-Scale Decoder for Few-Shot Semantic Segmentation via Transformer-Guided Prototyping",
+          "link": "https://arxiv.org/abs/2409.11316v2",
+          "authors": "Amirreza Fateh, Mohammad Reza Mohammadi, Mohammad Reza Jahed Motlagh"
+        },
+        "c": "https://github.com/amirrezafateh/msdnet",
+        "n": "MSDNet (ResNet-50)",
+        "d": "2024-09-17",
+        "m1": "64.3",
+        "m2": "77.1",
+        "m3": "1.5"
       },
       {
         "p": {
@@ -887,18 +887,6 @@
       },
       {
         "p": {
-          "name": "Doubly Deformable Aggregation of Covariance Matrices for Few-shot Segmentation",
-          "link": "https://arxiv.org/abs/2208.00306v1",
-          "authors": "Zhitong Xiong, Haopeng Li, Xiao Xiang Zhu"
-        },
-        "c": "https://github.com/shadowxzt/dacm-few-shot.pytorch",
-        "n": "DACM (VGG-16)",
-        "d": "2022-07-30",
-        "m1": "61.8",
-        "m2": "75.5"
-      },
-      {
-        "p": {
           "name": "Self-Guided and Cross-Guided Learning for Few-Shot Segmentation",
           "link": "https://arxiv.org/abs/2103.16129v1",
           "authors": "Bingfeng Zhang, Jimin Xiao, Terry Qin"
@@ -908,6 +896,18 @@
         "d": "2021-03-30",
         "m1": "61.8",
         "m2": "71.9"
+      },
+      {
+        "p": {
+          "name": "Doubly Deformable Aggregation of Covariance Matrices for Few-shot Segmentation",
+          "link": "https://arxiv.org/abs/2208.00306v1",
+          "authors": "Zhitong Xiong, Haopeng Li, Xiao Xiang Zhu"
+        },
+        "c": "https://github.com/shadowxzt/dacm-few-shot.pytorch",
+        "n": "DACM (VGG-16)",
+        "d": "2022-07-30",
+        "m1": "61.8",
+        "m2": "75.5"
       },
       {
         "p": {
@@ -933,18 +933,6 @@
       },
       {
         "p": {
-          "name": "Few-shot Semantic Segmentation with Support-induced Graph Convolutional Network",
-          "link": "https://arxiv.org/abs/2301.03194v2",
-          "authors": "Jie Liu, Yanqi Bao, Wenzhe Yin, Haochen Wang, Yang Gao, Jan-Jakob Sonke, Efstratios Gavves"
-        },
-        "c": "",
-        "n": "SiGCN (VGG-16)",
-        "d": "2023-01-09",
-        "m1": "60.8",
-        "m2": "73.5"
-      },
-      {
-        "p": {
           "name": "Prior Guided Feature Enrichment Network for Few-Shot Segmentation",
           "link": "https://arxiv.org/abs/2008.01449v1",
           "authors": "Zhuotao Tian, Hengshuang Zhao, Michelle Shu, Zhicheng Yang, Ruiyu Li, Jiaya Jia"
@@ -955,6 +943,18 @@
         "m1": "60.8",
         "m2": "73.3",
         "m3": "10.3"
+      },
+      {
+        "p": {
+          "name": "Few-shot Semantic Segmentation with Support-induced Graph Convolutional Network",
+          "link": "https://arxiv.org/abs/2301.03194v2",
+          "authors": "Jie Liu, Yanqi Bao, Wenzhe Yin, Haochen Wang, Yang Gao, Jan-Jakob Sonke, Efstratios Gavves"
+        },
+        "c": "",
+        "n": "SiGCN (VGG-16)",
+        "d": "2023-01-09",
+        "m1": "60.8",
+        "m2": "73.5"
       },
       {
         "p": {
@@ -1004,6 +1004,17 @@
       },
       {
         "p": {
+          "name": "Few-Shot Segmentation Without Meta-Learning: A Good Transductive Inference Is All You Need?",
+          "link": "https://arxiv.org/abs/2012.06166v2",
+          "authors": "Malik Boudiaf, Hoel Kervadec, Ziko Imtiaz Masud, Pablo Piantanida, Ismail Ben Ayed, Jose Dolz"
+        },
+        "c": "https://github.com/mboudiaf/RePRI-for-Few-Shot-Segmentation",
+        "n": "RePRI (ResNet-50)",
+        "d": "2020-12-11",
+        "m1": "59.7"
+      },
+      {
+        "p": {
           "name": "Hypercorrelation Squeeze for Few-Shot Segmentation",
           "link": "https://arxiv.org/abs/2104.01538v3",
           "authors": "Juhong Min, Dahyun Kang, Minsu Cho"
@@ -1013,17 +1024,6 @@
         "d": "2021-04-04",
         "m1": "59.7",
         "m2": "73.4"
-      },
-      {
-        "p": {
-          "name": "Few-Shot Segmentation Without Meta-Learning: A Good Transductive Inference Is All You Need?",
-          "link": "https://arxiv.org/abs/2012.06166v2",
-          "authors": "Malik Boudiaf, Hoel Kervadec, Ziko Imtiaz Masud, Pablo Piantanida, Ismail Ben Ayed, Jose Dolz"
-        },
-        "c": "https://github.com/mboudiaf/RePRI-for-Few-Shot-Segmentation",
-        "n": "RePRI (ResNet-50)",
-        "d": "2020-12-11",
-        "m1": "59.7"
       },
       {
         "p": {

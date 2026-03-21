@@ -58,6 +58,39 @@
       },
       {
         "p": {
+          "name": "Two-stage Textual Knowledge Distillation for End-to-End Spoken Language Understanding",
+          "link": "https://arxiv.org/abs/2010.13105v2",
+          "authors": "Seongbin Kim, Gyuwan Kim, Seongjin Shin, Sangmin Lee"
+        },
+        "c": "https://github.com/clovaai/textual-kd-slu",
+        "n": "textual-kd-slu",
+        "d": "2020-10-25",
+        "m1": "99.7"
+      },
+      {
+        "p": {
+          "name": "Speech-language Pre-training for End-to-end Spoken Language Understanding",
+          "link": "https://arxiv.org/abs/2102.06283v1",
+          "authors": "Yao Qian, Ximo Bian, Yu Shi, Naoyuki Kanda, Leo Shen, Zhen Xiao, Michael Zeng"
+        },
+        "c": "",
+        "n": "E2E SLP two-step",
+        "d": "2021-02-11",
+        "m1": "99.7"
+      },
+      {
+        "p": {
+          "name": "Integration of Pre-trained Networks with Continuous Token Interface for End-to-End Spoken Language Understanding",
+          "link": "https://arxiv.org/abs/2104.07253v2",
+          "authors": "Seunghyun Seo, Donghyun Kwak, Bowon Lee"
+        },
+        "c": "",
+        "n": "Wav2Vec2.0-Classifier",
+        "d": "2021-04-15",
+        "m1": "99.7"
+      },
+      {
+        "p": {
           "name": "Finstreder: Simple and fast Spoken Language Understanding with Finite State Transducers using modern Speech-to-Text models",
           "link": "https://arxiv.org/abs/2206.14589v1",
           "authors": "Daniel Bermuth, Alexander Poeppel, Wolfgang Reif"
@@ -80,39 +113,6 @@
       },
       {
         "p": {
-          "name": "Two-stage Textual Knowledge Distillation for End-to-End Spoken Language Understanding",
-          "link": "https://arxiv.org/abs/2010.13105v2",
-          "authors": "Seongbin Kim, Gyuwan Kim, Seongjin Shin, Sangmin Lee"
-        },
-        "c": "https://github.com/clovaai/textual-kd-slu",
-        "n": "textual-kd-slu",
-        "d": "2020-10-25",
-        "m1": "99.7"
-      },
-      {
-        "p": {
-          "name": "Integration of Pre-trained Networks with Continuous Token Interface for End-to-End Spoken Language Understanding",
-          "link": "https://arxiv.org/abs/2104.07253v2",
-          "authors": "Seunghyun Seo, Donghyun Kwak, Bowon Lee"
-        },
-        "c": "",
-        "n": "Wav2Vec2.0-Classifier",
-        "d": "2021-04-15",
-        "m1": "99.7"
-      },
-      {
-        "p": {
-          "name": "Speech-language Pre-training for End-to-end Spoken Language Understanding",
-          "link": "https://arxiv.org/abs/2102.06283v1",
-          "authors": "Yao Qian, Ximo Bian, Yu Shi, Naoyuki Kanda, Leo Shen, Zhen Xiao, Michael Zeng"
-        },
-        "c": "",
-        "n": "E2E SLP two-step",
-        "d": "2021-02-11",
-        "m1": "99.7"
-      },
-      {
-        "p": {
           "name": "Do We Still Need Automatic Speech Recognition for Spoken Language Understanding?",
           "link": "https://arxiv.org/abs/2111.14842v1",
           "authors": "Lasse Borgholt, Jakob Drachmann Havtorn, Mostafa Abdou, Joakim Edin, Lars Maaløe, Anders Søgaard, Christian Igel"
@@ -121,17 +121,6 @@
         "n": "Wav2vec 2.0 SSL",
         "d": "2021-11-29",
         "m1": "99.6"
-      },
-      {
-        "p": {
-          "name": "Finstreder: Simple and fast Spoken Language Understanding with Finite State Transducers using modern Speech-to-Text models",
-          "link": "https://arxiv.org/abs/2206.14589v1",
-          "authors": "Daniel Bermuth, Alexander Poeppel, Wolfgang Reif"
-        },
-        "c": "https://gitlab.com/Jaco-Assistant/finstreder",
-        "n": "Finstreder (Conformer)",
-        "d": "2022-06-29",
-        "m1": "99.5"
       },
       {
         "p": {
@@ -151,9 +140,9 @@
           "authors": "Daniel Bermuth, Alexander Poeppel, Wolfgang Reif"
         },
         "c": "https://gitlab.com/Jaco-Assistant/finstreder",
-        "n": "Finstreder (Conformer, character-based)",
+        "n": "Finstreder (Conformer)",
         "d": "2022-06-29",
-        "m1": "99.4"
+        "m1": "99.5"
       },
       {
         "p": {
@@ -168,6 +157,17 @@
       },
       {
         "p": {
+          "name": "Finstreder: Simple and fast Spoken Language Understanding with Finite State Transducers using modern Speech-to-Text models",
+          "link": "https://arxiv.org/abs/2206.14589v1",
+          "authors": "Daniel Bermuth, Alexander Poeppel, Wolfgang Reif"
+        },
+        "c": "https://gitlab.com/Jaco-Assistant/finstreder",
+        "n": "Finstreder (Conformer, character-based)",
+        "d": "2022-06-29",
+        "m1": "99.4"
+      },
+      {
+        "p": {
           "name": "Sequential End-to-End Intent and Slot Label Classification and Localization",
           "link": "https://arxiv.org/abs/2106.04660v1",
           "authors": "Yiran Cao, Nihal Potdar, Anderson R. Avila"
@@ -176,6 +176,17 @@
         "n": "3D-CNN+LSTM+CE",
         "d": "2021-06-08",
         "m1": "99.3"
+      },
+      {
+        "p": {
+          "name": "Improving End-to-End Speech-to-Intent Classification with Reptile",
+          "link": "https://arxiv.org/abs/2008.01994v1",
+          "authors": "Yusheng Tian, Philip John Gorinski"
+        },
+        "c": "",
+        "n": "Reptile",
+        "d": "2020-08-05",
+        "m1": "99.2"
       },
       {
         "p": {
@@ -212,14 +223,14 @@
       },
       {
         "p": {
-          "name": "Improving End-to-End Speech-to-Intent Classification with Reptile",
-          "link": "https://arxiv.org/abs/2008.01994v1",
-          "authors": "Yusheng Tian, Philip John Gorinski"
+          "name": "Sequential End-to-End Intent and Slot Label Classification and Localization",
+          "link": "https://arxiv.org/pdf/2106.04660",
+          "authors": "Yiran Cao, Nihal Potdar, Anderson R. Avila"
         },
         "c": "",
-        "n": "Reptile",
-        "d": "2020-08-05",
-        "m1": "99.2"
+        "n": "CTC + Pretrained ASR",
+        "d": "2021-06-08",
+        "m1": "99.0"
       },
       {
         "p": {
@@ -230,17 +241,6 @@
         "c": "",
         "n": "FANS",
         "d": "2021-10-31",
-        "m1": "99.0"
-      },
-      {
-        "p": {
-          "name": "Sequential End-to-End Intent and Slot Label Classification and Localization",
-          "link": "https://arxiv.org/pdf/2106.04660",
-          "authors": "Yiran Cao, Nihal Potdar, Anderson R. Avila"
-        },
-        "c": "",
-        "n": "CTC + Pretrained ASR",
-        "d": "2021-06-08",
         "m1": "99.0"
       },
       {

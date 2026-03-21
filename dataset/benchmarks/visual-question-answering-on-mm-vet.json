@@ -714,17 +714,6 @@
       },
       {
         "p": {
-          "name": "POINTS: Improving Your Vision-language Model with Affordable Strategies",
-          "link": "https://arxiv.org/abs/2409.04828v3",
-          "authors": "YuAn Liu, Zhongyin Zhao, Ziyuan Zhuang, Le Tian, Xiao Zhou, Jie zhou"
-        },
-        "c": "",
-        "n": "POINTS-9B",
-        "d": "2024-09-07",
-        "m1": "50.0"
-      },
-      {
-        "p": {
           "name": "VILA$^2$: VILA Augmented VILA",
           "link": "https://arxiv.org/abs/2407.17453v2",
           "authors": "Yunhao Fang, Ligeng Zhu, Yao Lu, Yan Wang, Pavlo Molchanov, Jan Kautz, Jang Hyun Cho, Marco Pavone, Song Han, Hongxu Yin"
@@ -732,6 +721,17 @@
         "c": "",
         "n": "VILA^2-8B",
         "d": "2024-07-24",
+        "m1": "50.0"
+      },
+      {
+        "p": {
+          "name": "POINTS: Improving Your Vision-language Model with Affordable Strategies",
+          "link": "https://arxiv.org/abs/2409.04828v3",
+          "authors": "YuAn Liu, Zhongyin Zhao, Ziyuan Zhuang, Le Tian, Xiao Zhou, Jie zhou"
+        },
+        "c": "",
+        "n": "POINTS-9B",
+        "d": "2024-09-07",
         "m1": "50.0"
       },
       {
@@ -1614,17 +1614,6 @@
       },
       {
         "p": {
-          "name": "CaMML: Context-Aware Multimodal Learner for Large Models",
-          "link": "https://arxiv.org/abs/2401.03149v3",
-          "authors": "Yixin Chen, Shuai Zhang, Boran Han, Tong He, Bo Li"
-        },
-        "c": "https://github.com/amazon-science/camml",
-        "n": "CaMML-13B",
-        "d": "2024-01-06",
-        "m1": "36.4"
-      },
-      {
-        "p": {
           "name": "An Empirical Study of Scaling Instruct-Tuned Large Multimodal Models",
           "link": "https://arxiv.org/abs/2309.09958v1",
           "authors": "Yadong Lu, Chunyuan Li, Haotian Liu, Jianwei Yang, Jianfeng Gao, Yelong Shen"
@@ -1636,15 +1625,14 @@
       },
       {
         "p": {
-          "name": "Improved Baselines with Visual Instruction Tuning",
-          "link": "https://arxiv.org/abs/2310.03744v2",
-          "authors": "Haotian Liu, Chunyuan Li, Yuheng Li, Yong Jae Lee"
+          "name": "CaMML: Context-Aware Multimodal Learner for Large Models",
+          "link": "https://arxiv.org/abs/2401.03149v3",
+          "authors": "Yixin Chen, Shuai Zhang, Boran Han, Tong He, Bo Li"
         },
-        "c": "https://github.com/huggingface/transformers",
-        "n": "LLaVA-1.5-13B",
-        "d": "2023-10-05",
-        "m1": "36.3±0.2",
-        "m2": "13B"
+        "c": "https://github.com/amazon-science/camml",
+        "n": "CaMML-13B",
+        "d": "2024-01-06",
+        "m1": "36.4"
       },
       {
         "p": {
@@ -1657,6 +1645,18 @@
         "d": "2023-07-11",
         "m1": "36.3±0.3",
         "m2": "14B"
+      },
+      {
+        "p": {
+          "name": "Improved Baselines with Visual Instruction Tuning",
+          "link": "https://arxiv.org/abs/2310.03744v2",
+          "authors": "Haotian Liu, Chunyuan Li, Yuheng Li, Yong Jae Lee"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LLaVA-1.5-13B",
+        "d": "2023-10-05",
+        "m1": "36.3±0.2",
+        "m2": "13B"
       },
       {
         "p": {

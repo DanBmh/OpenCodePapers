@@ -103,18 +103,6 @@
       },
       {
         "p": {
-          "name": "Very Deep Transformers for Neural Machine Translation",
-          "link": "https://arxiv.org/abs/2008.07772v2",
-          "authors": "Xiaodong Liu, Kevin Duh, Liyuan Liu, Jianfeng Gao"
-        },
-        "c": "https://github.com/LiyuanLucasLiu/Transforemr-Clinic",
-        "n": "Transformer (ADMIN init)",
-        "d": "2020-08-18",
-        "m1": "43.8",
-        "m2": "41.8"
-      },
-      {
-        "p": {
           "name": "Understanding the Difficulty of Training Transformers",
           "link": "https://arxiv.org/abs/2004.08249v3",
           "authors": "Liyuan Liu, Xiaodong Liu, Jianfeng Gao, Weizhu Chen, Jiawei Han"
@@ -125,6 +113,18 @@
         "m1": "43.8",
         "m3": "",
         "m4": ""
+      },
+      {
+        "p": {
+          "name": "Very Deep Transformers for Neural Machine Translation",
+          "link": "https://arxiv.org/abs/2008.07772v2",
+          "authors": "Xiaodong Liu, Kevin Duh, Liyuan Liu, Jianfeng Gao"
+        },
+        "c": "https://github.com/LiyuanLucasLiu/Transforemr-Clinic",
+        "n": "Transformer (ADMIN init)",
+        "d": "2020-08-18",
+        "m1": "43.8",
+        "m2": "41.8"
       },
       {
         "p": {
@@ -311,17 +311,6 @@
       },
       {
         "p": {
-          "name": "Self-Attention with Relative Position Representations",
-          "link": "http://arxiv.org/abs/1803.02155v2",
-          "authors": "Peter Shaw, Jakob Uszkoreit, Ashish Vaswani"
-        },
-        "c": "https://github.com/tensorflow/tensor2tensor",
-        "n": "Transformer (big) + Relative Position Representations",
-        "d": "2018-03-06",
-        "m1": "41.5"
-      },
-      {
-        "p": {
           "name": "Deliberation Networks: Sequence Generation Beyond One-Pass Decoding",
           "link": "http://papers.nips.cc/paper/6775-deliberation-networks-sequence-generation-beyond-one-pass-decoding",
           "authors": "Yingce Xia, Fei Tian, Lijun Wu, Jianxin Lin, Tao Qin, Nenghai Yu, Tie-Yan Liu"
@@ -329,6 +318,17 @@
         "c": "",
         "n": "Stack 4-layer RNNSearch + Dual Learning + Deliberation Network",
         "d": "2017-12-01",
+        "m1": "41.5"
+      },
+      {
+        "p": {
+          "name": "Self-Attention with Relative Position Representations",
+          "link": "http://arxiv.org/abs/1803.02155v2",
+          "authors": "Peter Shaw, Jakob Uszkoreit, Ashish Vaswani"
+        },
+        "c": "https://github.com/tensorflow/tensor2tensor",
+        "n": "Transformer (big) + Relative Position Representations",
+        "d": "2018-03-06",
         "m1": "41.5"
       },
       {
@@ -370,19 +370,6 @@
       },
       {
         "p": {
-          "name": "The Best of Both Worlds: Combining Recent Advances in Neural Machine Translation",
-          "link": "http://arxiv.org/abs/1804.09849v2",
-          "authors": "Mia Xu Chen, Orhan Firat, Ankur Bapna, Melvin Johnson, Wolfgang Macherey, George Foster, Llion Jones, Niki Parmar, Mike Schuster, Zhifeng Chen, Yonghui Wu, Macduff Hughes"
-        },
-        "c": "https://github.com/tensorflow/lingvo",
-        "n": "RNMT+",
-        "d": "2018-04-26",
-        "m1": "41.0",
-        "m3": "132G",
-        "m4": "2.81G"
-      },
-      {
-        "p": {
           "name": "Attention Is All You Need",
           "link": "https://arxiv.org/abs/1706.03762v7",
           "authors": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin"
@@ -393,6 +380,19 @@
         "m1": "41.0",
         "m3": "23G",
         "m4": "2300000000.0G"
+      },
+      {
+        "p": {
+          "name": "The Best of Both Worlds: Combining Recent Advances in Neural Machine Translation",
+          "link": "http://arxiv.org/abs/1804.09849v2",
+          "authors": "Mia Xu Chen, Orhan Firat, Ankur Bapna, Melvin Johnson, Wolfgang Macherey, George Foster, Llion Jones, Niki Parmar, Mike Schuster, Zhifeng Chen, Yonghui Wu, Macduff Hughes"
+        },
+        "c": "https://github.com/tensorflow/lingvo",
+        "n": "RNMT+",
+        "d": "2018-04-26",
+        "m1": "41.0",
+        "m3": "132G",
+        "m4": "2.81G"
       },
       {
         "p": {

@@ -140,21 +140,20 @@
       },
       {
         "p": {
-          "name": "Jasmine: Harnessing Diffusion Prior for Self-supervised Depth Estimation",
-          "link": "https://arxiv.org/abs/2503.15905v1",
-          "authors": "Jiyuan Wang, Chunyu Lin, Cheng Guan, Lang Nie, Jing He, Haodong Li, Kang Liao, Yao Zhao"
+          "name": "DCPI-Depth: Explicitly Infusing Dense Correspondence Prior to Unsupervised Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2405.16960v2",
+          "authors": "Mengtan Zhang, Yi Feng, Qijun Chen, Rui Fan"
         },
         "c": "",
-        "n": "Jasmine",
-        "d": "2025-03-20",
-        "m1": "0.09",
-        "m2": "3.944",
-        "m3": "0.161",
-        "m4": "0.581",
-        "m5": "0.919",
-        "m6": "0.972",
-        "m7": "0.986",
-        "m8": "1024x320",
+        "n": "DCPI-Depth (M+1024x320)",
+        "d": "2024-05-27",
+        "m1": "0.090",
+        "m2": "4.113",
+        "m3": "0.167",
+        "m4": "0.655",
+        "m5": "0.914",
+        "m6": "0.969",
+        "m7": "0.985",
         "m9": "O"
       },
       {
@@ -177,20 +176,21 @@
       },
       {
         "p": {
-          "name": "DCPI-Depth: Explicitly Infusing Dense Correspondence Prior to Unsupervised Monocular Depth Estimation",
-          "link": "https://arxiv.org/abs/2405.16960v2",
-          "authors": "Mengtan Zhang, Yi Feng, Qijun Chen, Rui Fan"
+          "name": "Jasmine: Harnessing Diffusion Prior for Self-supervised Depth Estimation",
+          "link": "https://arxiv.org/abs/2503.15905v1",
+          "authors": "Jiyuan Wang, Chunyu Lin, Cheng Guan, Lang Nie, Jing He, Haodong Li, Kang Liao, Yao Zhao"
         },
         "c": "",
-        "n": "DCPI-Depth (M+1024x320)",
-        "d": "2024-05-27",
-        "m1": "0.090",
-        "m2": "4.113",
-        "m3": "0.167",
-        "m4": "0.655",
-        "m5": "0.914",
-        "m6": "0.969",
-        "m7": "0.985",
+        "n": "Jasmine",
+        "d": "2025-03-20",
+        "m1": "0.09",
+        "m2": "3.944",
+        "m3": "0.161",
+        "m4": "0.581",
+        "m5": "0.919",
+        "m6": "0.972",
+        "m7": "0.986",
+        "m8": "1024x320",
         "m9": "O"
       },
       {
@@ -271,25 +271,6 @@
       },
       {
         "p": {
-          "name": "Manydepth2: Motion-Aware Self-Supervised Multi-Frame Monocular Depth Estimation in Dynamic Scenes",
-          "link": "https://arxiv.org/abs/2312.15268v8",
-          "authors": "Kaichen Zhou, Jia-Wang Bian, Jian-Qing Zheng, JiaXing Zhong, Qian Xie, Niki Trigoni, Andrew Markham"
-        },
-        "c": "https://github.com/kaichen-z/rad",
-        "n": "Manydepth2-NF(M+640x192)",
-        "d": "2023-12-23",
-        "m1": "0.094",
-        "m2": "4.246",
-        "m3": "0.170",
-        "m4": "0.676",
-        "m5": "0.909",
-        "m6": "0.968",
-        "m7": "0.985",
-        "m8": "640x192",
-        "m9": "O"
-      },
-      {
-        "p": {
           "name": "Self-Supervised Monocular Depth Estimation with Internal Feature Fusion",
           "link": "https://arxiv.org/abs/2110.09482v3",
           "authors": "Hang Zhou, David Greenwood, Sarah Taylor"
@@ -308,20 +289,22 @@
       },
       {
         "p": {
-          "name": "DCPI-Depth: Explicitly Infusing Dense Correspondence Prior to Unsupervised Monocular Depth Estimation",
-          "link": "https://arxiv.org/abs/2405.16960v2",
-          "authors": "Mengtan Zhang, Yi Feng, Qijun Chen, Rui Fan"
+          "name": "Manydepth2: Motion-Aware Self-Supervised Multi-Frame Monocular Depth Estimation in Dynamic Scenes",
+          "link": "https://arxiv.org/abs/2312.15268v8",
+          "authors": "Kaichen Zhou, Jia-Wang Bian, Jian-Qing Zheng, JiaXing Zhong, Qian Xie, Niki Trigoni, Andrew Markham"
         },
-        "c": "",
-        "n": "DCPI-Depth (M+640x192)",
-        "d": "2024-05-27",
-        "m1": "0.095",
-        "m2": "4.274",
+        "c": "https://github.com/kaichen-z/rad",
+        "n": "Manydepth2-NF(M+640x192)",
+        "d": "2023-12-23",
+        "m1": "0.094",
+        "m2": "4.246",
         "m3": "0.170",
-        "m4": "0.662",
-        "m5": "0.902",
-        "m6": "0.967",
-        "m7": "0.985"
+        "m4": "0.676",
+        "m5": "0.909",
+        "m6": "0.968",
+        "m7": "0.985",
+        "m8": "640x192",
+        "m9": "O"
       },
       {
         "p": {
@@ -360,6 +343,23 @@
       },
       {
         "p": {
+          "name": "DCPI-Depth: Explicitly Infusing Dense Correspondence Prior to Unsupervised Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2405.16960v2",
+          "authors": "Mengtan Zhang, Yi Feng, Qijun Chen, Rui Fan"
+        },
+        "c": "",
+        "n": "DCPI-Depth (M+640x192)",
+        "d": "2024-05-27",
+        "m1": "0.095",
+        "m2": "4.274",
+        "m3": "0.170",
+        "m4": "0.662",
+        "m5": "0.902",
+        "m6": "0.967",
+        "m7": "0.985"
+      },
+      {
+        "p": {
           "name": "ProDepth: Boosting Self-Supervised Multi-Frame Monocular Depth with Probabilistic Fusion",
           "link": "https://arxiv.org/abs/2407.09303v1",
           "authors": "Sungmin Woo, Wonjoon Lee, Woo Jin Kim, Dogyoon Lee, Sangyoun Lee"
@@ -390,6 +390,24 @@
         "m2": "4.264",
         "m3": "0.173",
         "m4": "0.694"
+      },
+      {
+        "p": {
+          "name": "Disentangling Object Motion and Occlusion for Unsupervised Multi-frame Monocular Depth",
+          "link": "https://arxiv.org/abs/2203.15174v2",
+          "authors": "Ziyue Feng, Liang Yang, Longlong Jing, HaiYan Wang, YingLi Tian, Bing Li"
+        },
+        "c": "https://github.com/AutoAILab/DynamicDepth",
+        "n": "DynamicDepth (M+640x192)",
+        "d": "2022-03-29",
+        "m1": "0.096",
+        "m2": "4.458",
+        "m3": "0.175",
+        "m4": "0.720",
+        "m5": "0.897",
+        "m6": "0.964",
+        "m7": "0.984",
+        "m9": "X"
       },
       {
         "p": {
@@ -428,24 +446,6 @@
         "m7": "0.986",
         "m8": "640x192",
         "m9": "O"
-      },
-      {
-        "p": {
-          "name": "Disentangling Object Motion and Occlusion for Unsupervised Multi-frame Monocular Depth",
-          "link": "https://arxiv.org/abs/2203.15174v2",
-          "authors": "Ziyue Feng, Liang Yang, Longlong Jing, HaiYan Wang, YingLi Tian, Bing Li"
-        },
-        "c": "https://github.com/AutoAILab/DynamicDepth",
-        "n": "DynamicDepth (M+640x192)",
-        "d": "2022-03-29",
-        "m1": "0.096",
-        "m2": "4.458",
-        "m3": "0.175",
-        "m4": "0.720",
-        "m5": "0.897",
-        "m6": "0.964",
-        "m7": "0.984",
-        "m9": "X"
       },
       {
         "p": {
@@ -506,6 +506,40 @@
       },
       {
         "p": {
+          "name": "Feature-metric Loss for Self-supervised Learning of Depth and Egomotion",
+          "link": "https://arxiv.org/abs/2007.10603v1",
+          "authors": "Chang Shu, Kun Yu, Zhixiang Duan, Kuiyuan Yang"
+        },
+        "c": "https://github.com/sconlyshootery/FeatDepth",
+        "n": "FeatDepth-MS",
+        "d": "2020-07-21",
+        "m1": "0.099",
+        "m2": "4.427",
+        "m3": "0.184",
+        "m4": "0.697",
+        "m5": "0.889",
+        "m6": "0.963",
+        "m7": "0.982"
+      },
+      {
+        "p": {
+          "name": "Excavating the Potential Capacity of Self-Supervised Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2109.12484v1",
+          "authors": "Rui Peng, Ronggang Wang, Yawen Lai, Luyang Tang, Yangang Cai"
+        },
+        "c": "https://github.com/prstrive/EPCDepth",
+        "n": "EPCDepth(S+640x192)",
+        "d": "2021-09-26",
+        "m1": "0.099",
+        "m2": "4.490",
+        "m3": "0.183",
+        "m4": "0.754",
+        "m5": "0.888",
+        "m6": "0.963",
+        "m7": "0.982"
+      },
+      {
+        "p": {
           "name": "Towards Comprehensive Representation Enhancement in Semantics-guided Self-supervised Monocular Depth Estimation",
           "link": "https://link.springer.com/chapter/10.1007/978-3-031-19769-7_18",
           "authors": "Jingyuan Ma, Xiangyu Lei, Nan Liu, Xian Zhao, ShiLiang Pu"
@@ -520,6 +554,23 @@
         "m5": "0.902",
         "m6": " 0.969",
         "m7": " 0.986"
+      },
+      {
+        "p": {
+          "name": "Exploring Efficiency of Vision Transformers for Self-Supervised Monocular Depth Estimation",
+          "link": "https://ieeexplore.ieee.org/document/9995672",
+          "authors": "Aleksei Karpov, Ilya Makarov"
+        },
+        "c": "https://github.com/ahbpp/VTDepth",
+        "n": "VTDepthB2 (stereo supervision)",
+        "d": "2022-12-27",
+        "m1": "0.099",
+        "m2": "4.439",
+        "m3": "0.178",
+        "m4": "0.743",
+        "m5": "0.904",
+        "m6": "0.965",
+        "m7": "0.983"
       },
       {
         "p": {
@@ -542,57 +593,6 @@
       },
       {
         "p": {
-          "name": "Feature-metric Loss for Self-supervised Learning of Depth and Egomotion",
-          "link": "https://arxiv.org/abs/2007.10603v1",
-          "authors": "Chang Shu, Kun Yu, Zhixiang Duan, Kuiyuan Yang"
-        },
-        "c": "https://github.com/sconlyshootery/FeatDepth",
-        "n": "FeatDepth-MS",
-        "d": "2020-07-21",
-        "m1": "0.099",
-        "m2": "4.427",
-        "m3": "0.184",
-        "m4": "0.697",
-        "m5": "0.889",
-        "m6": "0.963",
-        "m7": "0.982"
-      },
-      {
-        "p": {
-          "name": "Exploring Efficiency of Vision Transformers for Self-Supervised Monocular Depth Estimation",
-          "link": "https://ieeexplore.ieee.org/document/9995672",
-          "authors": "Aleksei Karpov, Ilya Makarov"
-        },
-        "c": "https://github.com/ahbpp/VTDepth",
-        "n": "VTDepthB2 (stereo supervision)",
-        "d": "2022-12-27",
-        "m1": "0.099",
-        "m2": "4.439",
-        "m3": "0.178",
-        "m4": "0.743",
-        "m5": "0.904",
-        "m6": "0.965",
-        "m7": "0.983"
-      },
-      {
-        "p": {
-          "name": "Excavating the Potential Capacity of Self-Supervised Monocular Depth Estimation",
-          "link": "https://arxiv.org/abs/2109.12484v1",
-          "authors": "Rui Peng, Ronggang Wang, Yawen Lai, Luyang Tang, Yangang Cai"
-        },
-        "c": "https://github.com/prstrive/EPCDepth",
-        "n": "EPCDepth(S+640x192)",
-        "d": "2021-09-26",
-        "m1": "0.099",
-        "m2": "4.490",
-        "m3": "0.183",
-        "m4": "0.754",
-        "m5": "0.888",
-        "m6": "0.963",
-        "m7": "0.982"
-      },
-      {
-        "p": {
           "name": "NimbleD: Enhancing Self-supervised Monocular Depth Estimation with Pseudo-labels and Large-scale Video Pre-training",
           "link": "https://arxiv.org/abs/2408.14177v1",
           "authors": "Albert Luginov, Muhammad Shahzad"
@@ -612,6 +612,17 @@
       },
       {
         "p": {
+          "name": "HR-Depth: High Resolution Self-Supervised Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2012.07356v1",
+          "authors": "Xiaoyang Lyu, Liang Liu, Mengmeng Wang, Xin Kong, Lina Liu, Yong liu, Xinxin Chen, Yi Yuan"
+        },
+        "c": "https://github.com/shawLyu/HR-Depth",
+        "n": "HR-Depth-MS-1024X320",
+        "d": "2020-12-14",
+        "m1": "0.101"
+      },
+      {
+        "p": {
           "name": "Monocular Depth Estimation through Virtual-world Supervision and Real-world SfM Self-Supervision",
           "link": "https://arxiv.org/abs/2103.12209v3",
           "authors": "Akhil Gurram, Ahmet Faruk Tuna, Fengyi Shen, Onay Urfalioglu, Antonio M. López"
@@ -624,17 +635,6 @@
         "m4": "0.703",
         "m5": "0.882",
         "m6": "0.962"
-      },
-      {
-        "p": {
-          "name": "HR-Depth: High Resolution Self-Supervised Monocular Depth Estimation",
-          "link": "https://arxiv.org/abs/2012.07356v1",
-          "authors": "Xiaoyang Lyu, Liang Liu, Mengmeng Wang, Xin Kong, Lina Liu, Yong liu, Xinxin Chen, Yi Yuan"
-        },
-        "c": "https://github.com/shawLyu/HR-Depth",
-        "n": "HR-Depth-MS-1024X320",
-        "d": "2020-12-14",
-        "m1": "0.101"
       },
       {
         "p": {
@@ -663,20 +663,6 @@
         "n": "CamLessMonoDepth-1024x320",
         "d": "2021-10-27",
         "m1": "0.102"
-      },
-      {
-        "p": {
-          "name": "GCNDepth: Self-supervised Monocular Depth Estimation based on Graph Convolutional Network",
-          "link": "https://arxiv.org/abs/2112.06782v1",
-          "authors": "Armin Masoumian, Hatem A. Rashwan, Saddam Abdulwahab, Julian Cristiano, Domenec Puig"
-        },
-        "c": "https://github.com/arminmasoumian/gcndepth",
-        "n": "GCNDepth",
-        "d": "2021-12-13",
-        "m1": "0.104",
-        "m2": "4.494",
-        "m3": "0.181",
-        "m4": "0.720"
       },
       {
         "p": {
@@ -713,6 +699,20 @@
       },
       {
         "p": {
+          "name": "GCNDepth: Self-supervised Monocular Depth Estimation based on Graph Convolutional Network",
+          "link": "https://arxiv.org/abs/2112.06782v1",
+          "authors": "Armin Masoumian, Hatem A. Rashwan, Saddam Abdulwahab, Julian Cristiano, Domenec Puig"
+        },
+        "c": "https://github.com/arminmasoumian/gcndepth",
+        "n": "GCNDepth",
+        "d": "2021-12-13",
+        "m1": "0.104",
+        "m2": "4.494",
+        "m3": "0.181",
+        "m4": "0.720"
+      },
+      {
+        "p": {
           "name": "Deep Digging into the Generalization of Self-Supervised Monocular Depth Estimation",
           "link": "https://arxiv.org/abs/2205.11083v3",
           "authors": "Jinwoo Bae, Sungho Moon, Sunghoon Im"
@@ -723,6 +723,17 @@
         "m1": "0.104",
         "m8": "640x192",
         "m9": "O"
+      },
+      {
+        "p": {
+          "name": "CamLessMonoDepth: Monocular Depth Estimation with Unknown Camera Parameters",
+          "link": "https://arxiv.org/abs/2110.14347v1",
+          "authors": "Sai Shyam Chanduri, Zeeshan Khan Suri, Igor Vozniak, Christian Müller"
+        },
+        "c": "",
+        "n": "CamLessMonoDepth (V1)-640x192",
+        "d": "2021-10-27",
+        "m1": "0.105"
       },
       {
         "p": {
@@ -740,17 +751,6 @@
         "m5": "0.893",
         "m6": "0.964",
         "m7": "0.983"
-      },
-      {
-        "p": {
-          "name": "CamLessMonoDepth: Monocular Depth Estimation with Unknown Camera Parameters",
-          "link": "https://arxiv.org/abs/2110.14347v1",
-          "authors": "Sai Shyam Chanduri, Zeeshan Khan Suri, Igor Vozniak, Christian Müller"
-        },
-        "c": "",
-        "n": "CamLessMonoDepth (V1)-640x192",
-        "d": "2021-10-27",
-        "m1": "0.105"
       },
       {
         "p": {
@@ -787,6 +787,17 @@
       },
       {
         "p": {
+          "name": "Digging Into Self-Supervised Monocular Depth Estimation",
+          "link": "http://openaccess.thecvf.com/content_ICCV_2019/html/Godard_Digging_Into_Self-Supervised_Monocular_Depth_Estimation_ICCV_2019_paper.html",
+          "authors": "Clement Godard,  Oisin Mac Aodha,  Michael Firman,  Gabriel J. Brostow"
+        },
+        "c": "https://github.com/nianticlabs/monodepth2",
+        "n": "Monodepth2 S",
+        "d": "2019-10-01",
+        "m1": "0.109"
+      },
+      {
+        "p": {
           "name": "SharinGAN: Combining Synthetic and Real Data for Unsupervised Geometry Estimation",
           "link": "https://arxiv.org/abs/2006.04026v1",
           "authors": "Koutilya PNVR, Hao Zhou, David Jacobs"
@@ -801,30 +812,6 @@
         "m5": "0.864",
         "m6": "0.954",
         "m7": "0.981"
-      },
-      {
-        "p": {
-          "name": "DCPI-Depth: Explicitly Infusing Dense Correspondence Prior to Unsupervised Monocular Depth Estimation",
-          "link": "https://arxiv.org/abs/2405.16960v2",
-          "authors": "Mengtan Zhang, Yi Feng, Qijun Chen, Rui Fan"
-        },
-        "c": "",
-        "n": "DCPI-Depth (M+832x256+SC-V3)",
-        "d": "2024-05-27",
-        "m1": "0.109",
-        "m2": "4.496",
-        "m4": "0.679"
-      },
-      {
-        "p": {
-          "name": "Digging Into Self-Supervised Monocular Depth Estimation",
-          "link": "http://openaccess.thecvf.com/content_ICCV_2019/html/Godard_Digging_Into_Self-Supervised_Monocular_Depth_Estimation_ICCV_2019_paper.html",
-          "authors": "Clement Godard,  Oisin Mac Aodha,  Michael Firman,  Gabriel J. Brostow"
-        },
-        "c": "https://github.com/nianticlabs/monodepth2",
-        "n": "Monodepth2 S",
-        "d": "2019-10-01",
-        "m1": "0.109"
       },
       {
         "p": {
@@ -847,6 +834,19 @@
         "n": "G2S (MD2-M-R18-pp-640 x 192)",
         "d": "2021-03-03",
         "m1": "0.109"
+      },
+      {
+        "p": {
+          "name": "DCPI-Depth: Explicitly Infusing Dense Correspondence Prior to Unsupervised Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2405.16960v2",
+          "authors": "Mengtan Zhang, Yi Feng, Qijun Chen, Rui Fan"
+        },
+        "c": "",
+        "n": "DCPI-Depth (M+832x256+SC-V3)",
+        "d": "2024-05-27",
+        "m1": "0.109",
+        "m2": "4.496",
+        "m4": "0.679"
       },
       {
         "p": {
@@ -883,6 +883,18 @@
       },
       {
         "p": {
+          "name": "Digging Into Self-Supervised Monocular Depth Estimation",
+          "link": "http://openaccess.thecvf.com/content_ICCV_2019/html/Godard_Digging_Into_Self-Supervised_Monocular_Depth_Estimation_ICCV_2019_paper.html",
+          "authors": "Clement Godard,  Oisin Mac Aodha,  Michael Firman,  Gabriel J. Brostow"
+        },
+        "c": "https://github.com/nianticlabs/monodepth2",
+        "n": "Monodepth2 M",
+        "d": "2019-10-01",
+        "m1": "0.115",
+        "m10": "1"
+      },
+      {
+        "p": {
           "name": "Dyna-DM: Dynamic Object-aware Self-supervised Monocular Depth Maps",
           "link": "https://arxiv.org/abs/2206.03799v3",
           "authors": "Kieran Saunders, George Vogiatzis, Luis J. Manso"
@@ -897,18 +909,6 @@
         "m5": "0.871",
         "m6": "0.959",
         "m7": "0.982"
-      },
-      {
-        "p": {
-          "name": "Digging Into Self-Supervised Monocular Depth Estimation",
-          "link": "http://openaccess.thecvf.com/content_ICCV_2019/html/Godard_Digging_Into_Self-Supervised_Monocular_Depth_Estimation_ICCV_2019_paper.html",
-          "authors": "Clement Godard,  Oisin Mac Aodha,  Michael Firman,  Gabriel J. Brostow"
-        },
-        "c": "https://github.com/nianticlabs/monodepth2",
-        "n": "Monodepth2 M",
-        "d": "2019-10-01",
-        "m1": "0.115",
-        "m10": "1"
       },
       {
         "p": {

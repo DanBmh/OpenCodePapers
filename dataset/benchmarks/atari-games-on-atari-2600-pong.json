@@ -36,6 +36,28 @@
     "items": [
       {
         "p": {
+          "name": "The Arcade Learning Environment: An Evaluation Platform for General Agents",
+          "link": "http://arxiv.org/abs/1207.4708v2",
+          "authors": "Marc G. Bellemare, Yavar Naddaf, Joel Veness, Michael Bowling"
+        },
+        "c": "https://github.com/mgbellemare/Arcade-Learning-Environment",
+        "n": "UCT",
+        "d": "2012-07-19",
+        "m1": "21"
+      },
+      {
+        "p": {
+          "name": "Playing Atari with Deep Reinforcement Learning",
+          "link": "http://arxiv.org/abs/1312.5602v1",
+          "authors": "Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Alex Graves, Ioannis Antonoglou, Daan Wierstra, Martin Riedmiller"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+        "n": "DQN Best",
+        "d": "2013-12-19",
+        "m1": "21"
+      },
+      {
+        "p": {
           "name": "Dueling Network Architectures for Deep Reinforcement Learning",
           "link": "http://arxiv.org/abs/1511.06581v3",
           "authors": "Ziyu Wang, Tom Schaul, Matteo Hessel, Hado van Hasselt, Marc Lanctot, Nando de Freitas"
@@ -58,39 +80,6 @@
       },
       {
         "p": {
-          "name": "Implicit Quantile Networks for Distributional Reinforcement Learning",
-          "link": "http://arxiv.org/abs/1806.06923v1",
-          "authors": "Will Dabney, Georg Ostrovski, David Silver, Rémi Munos"
-        },
-        "c": "https://github.com/opendilab/DI-engine/blob/main/ding/policy/iqn.py",
-        "n": "IQN",
-        "d": "2018-06-14",
-        "m1": "21"
-      },
-      {
-        "p": {
-          "name": "Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model",
-          "link": "https://arxiv.org/abs/1911.08265v2",
-          "authors": "Julian Schrittwieser, Ioannis Antonoglou, Thomas Hubert, Karen Simonyan, Laurent SIfre, Simon Schmitt, Arthur Guez, Edward Lockhart, Demis Hassabis, Thore Graepel, Timothy Lillicrap, David Silver"
-        },
-        "c": "https://github.com/werner-duvaud/muzero-general",
-        "n": "MuZero",
-        "d": "2019-11-19",
-        "m1": "21.00"
-      },
-      {
-        "p": {
-          "name": "Recurrent Experience Replay in Distributed Reinforcement Learning",
-          "link": "https://openreview.net/forum?id=r1lyTjAqYX",
-          "authors": "Steven Kapturowski, Georg Ostrovski, Will Dabney, John Quan, Remi Munos"
-        },
-        "c": "https://github.com/opendilab/DI-engine/blob/main/ding/policy/r2d2.py",
-        "n": "R2D2",
-        "d": "2019-05-01",
-        "m1": "21.0"
-      },
-      {
-        "p": {
           "name": "Noisy Networks for Exploration",
           "link": "https://arxiv.org/abs/1706.10295v3",
           "authors": "Meire Fortunato, Mohammad Gheshlaghi Azar, Bilal Piot, Jacob Menick, Ian Osband, Alex Graves, Vlad Mnih, Remi Munos, Demis Hassabis, Olivier Pietquin, Charles Blundell, Shane Legg"
@@ -98,17 +87,6 @@
         "c": "https://github.com/opendilab/DI-engine",
         "n": "NoisyNet-Dueling",
         "d": "2017-06-30",
-        "m1": "21"
-      },
-      {
-        "p": {
-          "name": "Playing Atari with Deep Reinforcement Learning",
-          "link": "http://arxiv.org/abs/1312.5602v1",
-          "authors": "Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Alex Graves, Ioannis Antonoglou, Daan Wierstra, Martin Riedmiller"
-        },
-        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
-        "n": "DQN Best",
-        "d": "2013-12-19",
         "m1": "21"
       },
       {
@@ -124,14 +102,36 @@
       },
       {
         "p": {
-          "name": "The Arcade Learning Environment: An Evaluation Platform for General Agents",
-          "link": "http://arxiv.org/abs/1207.4708v2",
-          "authors": "Marc G. Bellemare, Yavar Naddaf, Joel Veness, Michael Bowling"
+          "name": "Implicit Quantile Networks for Distributional Reinforcement Learning",
+          "link": "http://arxiv.org/abs/1806.06923v1",
+          "authors": "Will Dabney, Georg Ostrovski, David Silver, Rémi Munos"
         },
-        "c": "https://github.com/mgbellemare/Arcade-Learning-Environment",
-        "n": "UCT",
-        "d": "2012-07-19",
+        "c": "https://github.com/opendilab/DI-engine/blob/main/ding/policy/iqn.py",
+        "n": "IQN",
+        "d": "2018-06-14",
         "m1": "21"
+      },
+      {
+        "p": {
+          "name": "Recurrent Experience Replay in Distributed Reinforcement Learning",
+          "link": "https://openreview.net/forum?id=r1lyTjAqYX",
+          "authors": "Steven Kapturowski, Georg Ostrovski, Will Dabney, John Quan, Remi Munos"
+        },
+        "c": "https://github.com/opendilab/DI-engine/blob/main/ding/policy/r2d2.py",
+        "n": "R2D2",
+        "d": "2019-05-01",
+        "m1": "21.0"
+      },
+      {
+        "p": {
+          "name": "Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model",
+          "link": "https://arxiv.org/abs/1911.08265v2",
+          "authors": "Julian Schrittwieser, Ioannis Antonoglou, Thomas Hubert, Karen Simonyan, Laurent SIfre, Simon Schmitt, Arthur Guez, Edward Lockhart, Demis Hassabis, Thore Graepel, Timothy Lillicrap, David Silver"
+        },
+        "c": "https://github.com/werner-duvaud/muzero-general",
+        "n": "MuZero",
+        "d": "2019-11-19",
+        "m1": "21.00"
       },
       {
         "p": {
@@ -234,17 +234,6 @@
       },
       {
         "p": {
-          "name": "A Distributional Perspective on Reinforcement Learning",
-          "link": "http://arxiv.org/abs/1707.06887v1",
-          "authors": "Marc G. Bellemare, Will Dabney, Rémi Munos"
-        },
-        "c": "https://github.com/facebookresearch/Horizon",
-        "n": "C51 noop",
-        "d": "2017-07-21",
-        "m1": "20.9"
-      },
-      {
-        "p": {
           "name": "Deep Exploration via Bootstrapped DQN",
           "link": "http://arxiv.org/abs/1602.04621v3",
           "authors": "Ian Osband, Charles Blundell, Alexander Pritzel, Benjamin Van Roy"
@@ -252,6 +241,17 @@
         "c": "https://github.com/tensorflow/models",
         "n": "Bootstrapped DQN",
         "d": "2016-02-15",
+        "m1": "20.9"
+      },
+      {
+        "p": {
+          "name": "A Distributional Perspective on Reinforcement Learning",
+          "link": "http://arxiv.org/abs/1707.06887v1",
+          "authors": "Marc G. Bellemare, Will Dabney, Rémi Munos"
+        },
+        "c": "https://github.com/facebookresearch/Horizon",
+        "n": "C51 noop",
+        "d": "2017-07-21",
         "m1": "20.9"
       },
       {

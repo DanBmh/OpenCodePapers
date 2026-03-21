@@ -36,24 +36,13 @@
     "items": [
       {
         "p": {
-          "name": "Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model",
-          "link": "https://arxiv.org/abs/1911.08265v2",
-          "authors": "Julian Schrittwieser, Ioannis Antonoglou, Thomas Hubert, Karen Simonyan, Laurent SIfre, Simon Schmitt, Arthur Guez, Edward Lockhart, Demis Hassabis, Thore Graepel, Timothy Lillicrap, David Silver"
+          "name": "The Arcade Learning Environment: An Evaluation Platform for General Agents",
+          "link": "http://arxiv.org/abs/1207.4708v2",
+          "authors": "Marc G. Bellemare, Yavar Naddaf, Joel Veness, Michael Bowling"
         },
-        "c": "https://github.com/werner-duvaud/muzero-general",
-        "n": "MuZero",
-        "d": "2019-11-19",
-        "m1": "100.00"
-      },
-      {
-        "p": {
-          "name": "Distributed Prioritized Experience Replay",
-          "link": "http://arxiv.org/abs/1803.00933v1",
-          "authors": "Dan Horgan, John Quan, David Budden, Gabriel Barth-Maron, Matteo Hessel, Hado van Hasselt, David Silver"
-        },
-        "c": "https://github.com/ray-project/ray/tree/master/rllib",
-        "n": "Ape-X",
-        "d": "2018-03-02",
+        "c": "https://github.com/mgbellemare/Arcade-Learning-Environment",
+        "n": "UCT",
+        "d": "2012-07-19",
         "m1": "100"
       },
       {
@@ -69,14 +58,25 @@
       },
       {
         "p": {
-          "name": "The Arcade Learning Environment: An Evaluation Platform for General Agents",
-          "link": "http://arxiv.org/abs/1207.4708v2",
-          "authors": "Marc G. Bellemare, Yavar Naddaf, Joel Veness, Michael Bowling"
+          "name": "Distributed Prioritized Experience Replay",
+          "link": "http://arxiv.org/abs/1803.00933v1",
+          "authors": "Dan Horgan, John Quan, David Budden, Gabriel Barth-Maron, Matteo Hessel, Hado van Hasselt, David Silver"
         },
-        "c": "https://github.com/mgbellemare/Arcade-Learning-Environment",
-        "n": "UCT",
-        "d": "2012-07-19",
+        "c": "https://github.com/ray-project/ray/tree/master/rllib",
+        "n": "Ape-X",
+        "d": "2018-03-02",
         "m1": "100"
+      },
+      {
+        "p": {
+          "name": "Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model",
+          "link": "https://arxiv.org/abs/1911.08265v2",
+          "authors": "Julian Schrittwieser, Ioannis Antonoglou, Thomas Hubert, Karen Simonyan, Laurent SIfre, Simon Schmitt, Arthur Guez, Edward Lockhart, Demis Hassabis, Thore Graepel, Timothy Lillicrap, David Silver"
+        },
+        "c": "https://github.com/werner-duvaud/muzero-general",
+        "n": "MuZero",
+        "d": "2019-11-19",
+        "m1": "100.00"
       },
       {
         "p": {

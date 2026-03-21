@@ -243,18 +243,6 @@
       },
       {
         "p": {
-          "name": "DETRs Beat YOLOs on Real-time Object Detection",
-          "link": "https://arxiv.org/abs/2304.08069v3",
-          "authors": "Yian Zhao, Wenyu Lv, Shangliang Xu, Jinman Wei, Guanzhong Wang, Qingqing Dang, Yi Liu, Jie Chen"
-        },
-        "c": "https://github.com/huggingface/transformers",
-        "n": "RT-DETR-X",
-        "d": "2023-04-17",
-        "m1": "54.8",
-        "m2": "74 (T4)"
-      },
-      {
-        "p": {
           "name": "You Only Learn One Representation: Unified Network for Multiple Tasks",
           "link": "https://arxiv.org/abs/2105.04206v1",
           "authors": "Chien-Yao Wang, I-Hau Yeh, Hong-Yuan Mark Liao"
@@ -267,15 +255,27 @@
       },
       {
         "p": {
-          "name": "DEIM: DETR with Improved Matching for Fast Convergence",
-          "link": "https://arxiv.org/abs/2412.04234v3",
-          "authors": "Shihua Huang, Zhichao Lu, Xiaodong Cun, Yongjun Yu, Xiao Zhou, Xi Shen"
+          "name": "DETRs Beat YOLOs on Real-time Object Detection",
+          "link": "https://arxiv.org/abs/2304.08069v3",
+          "authors": "Yian Zhao, Wenyu Lv, Shangliang Xu, Jinman Wei, Guanzhong Wang, Qingqing Dang, Yi Liu, Jie Chen"
         },
-        "c": "https://github.com/shihuahuang95/deim",
-        "n": "DEIM-D-FINE-L",
-        "d": "2024-12-05",
+        "c": "https://github.com/huggingface/transformers",
+        "n": "RT-DETR-X",
+        "d": "2023-04-17",
+        "m1": "54.8",
+        "m2": "74 (T4)"
+      },
+      {
+        "p": {
+          "name": "PP-YOLOE: An evolved version of YOLO",
+          "link": "https://arxiv.org/abs/2203.16250v3",
+          "authors": "Shangliang Xu, Xinxin Wang, Wenyu Lv, Qinyao Chang, Cheng Cui, Kaipeng Deng, Guanzhong Wang, Qingqing Dang, Shengyu Wei, Yuning Du, Baohua Lai"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
+        "n": "PP-YOLOE+_X",
+        "d": "2022-03-30",
         "m1": "54.7",
-        "m2": "124 (T4)"
+        "m2": "45"
       },
       {
         "p": {
@@ -291,15 +291,15 @@
       },
       {
         "p": {
-          "name": "PP-YOLOE: An evolved version of YOLO",
-          "link": "https://arxiv.org/abs/2203.16250v3",
-          "authors": "Shangliang Xu, Xinxin Wang, Wenyu Lv, Qinyao Chang, Cheng Cui, Kaipeng Deng, Guanzhong Wang, Qingqing Dang, Shengyu Wei, Yuning Du, Baohua Lai"
+          "name": "DEIM: DETR with Improved Matching for Fast Convergence",
+          "link": "https://arxiv.org/abs/2412.04234v3",
+          "authors": "Shihua Huang, Zhichao Lu, Xiaodong Cun, Yongjun Yu, Xiao Zhou, Xi Shen"
         },
-        "c": "https://github.com/PaddlePaddle/PaddleDetection",
-        "n": "PP-YOLOE+_X",
-        "d": "2022-03-30",
+        "c": "https://github.com/shihuahuang95/deim",
+        "n": "DEIM-D-FINE-L",
+        "d": "2024-12-05",
         "m1": "54.7",
-        "m2": "45"
+        "m2": "124 (T4)"
       },
       {
         "p": {
@@ -338,18 +338,6 @@
       },
       {
         "p": {
-          "name": "D-FINE: Redefine Regression Task in DETRs as Fine-grained Distribution Refinement",
-          "link": "https://arxiv.org/abs/2410.13842v1",
-          "authors": "Yansong Peng, Hebei Li, Peixi Wu, Yueyi Zhang, Xiaoyan Sun, Feng Wu"
-        },
-        "c": "https://github.com/huggingface/transformers",
-        "n": "D-FINE-L",
-        "d": "2024-10-17",
-        "m1": "54.0",
-        "m2": "124 (T4)"
-      },
-      {
-        "p": {
           "name": "PP-YOLOE: An evolved version of YOLO",
           "link": "https://arxiv.org/abs/2203.16250v3",
           "authors": "Shangliang Xu, Xinxin Wang, Wenyu Lv, Qinyao Chang, Cheng Cui, Kaipeng Deng, Guanzhong Wang, Qingqing Dang, Shengyu Wei, Yuning Du, Baohua Lai"
@@ -359,6 +347,18 @@
         "d": "2022-03-30",
         "m1": "54.0",
         "m2": "78"
+      },
+      {
+        "p": {
+          "name": "D-FINE: Redefine Regression Task in DETRs as Fine-grained Distribution Refinement",
+          "link": "https://arxiv.org/abs/2410.13842v1",
+          "authors": "Yansong Peng, Hebei Li, Peixi Wu, Yueyi Zhang, Xiaoyan Sun, Feng Wu"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "D-FINE-L",
+        "d": "2024-10-17",
+        "m1": "54.0",
+        "m2": "124 (T4)"
       },
       {
         "p": {
@@ -374,6 +374,17 @@
       },
       {
         "p": {
+          "name": "YOLOv10: Real-Time End-to-End Object Detection",
+          "link": "https://arxiv.org/abs/2405.14458v2",
+          "authors": "Ao Wang, Hui Chen, Lihao Liu, Kai Chen, Zijia Lin, Jungong Han, Guiguang Ding"
+        },
+        "c": "https://github.com/THU-MIG/yolov10",
+        "n": "YOLOv10-L",
+        "d": "2024-05-23",
+        "m1": "53.4"
+      },
+      {
+        "p": {
           "name": "YOLOv11: An Overview of the Key Architectural Enhancements",
           "link": "https://arxiv.org/abs/2410.17725v1",
           "authors": "Rahima Khanam, Muhammad Hussain"
@@ -383,17 +394,6 @@
         "d": "2024-10-23",
         "m1": "53.4",
         "m2": "161 (T4)"
-      },
-      {
-        "p": {
-          "name": "YOLOv10: Real-Time End-to-End Object Detection",
-          "link": "https://arxiv.org/abs/2405.14458v2",
-          "authors": "Ao Wang, Hui Chen, Lihao Liu, Kai Chen, Zijia Lin, Jungong Han, Guiguang Ding"
-        },
-        "c": "https://github.com/THU-MIG/yolov10",
-        "n": "YOLOv10-L",
-        "d": "2024-05-23",
-        "m1": "53.4"
       },
       {
         "p": {
@@ -421,18 +421,6 @@
       },
       {
         "p": {
-          "name": "DETRs Beat YOLOs on Real-time Object Detection",
-          "link": "https://arxiv.org/abs/2304.08069v3",
-          "authors": "Yian Zhao, Wenyu Lv, Shangliang Xu, Jinman Wei, Guanzhong Wang, Qingqing Dang, Yi Liu, Jie Chen"
-        },
-        "c": "https://github.com/huggingface/transformers",
-        "n": "RT-DETR-L",
-        "d": "2023-04-17",
-        "m1": "53.0",
-        "m2": "114 (T4)"
-      },
-      {
-        "p": {
           "name": "You Only Learn One Representation: Unified Network for Multiple Tasks",
           "link": "https://arxiv.org/abs/2105.04206v1",
           "authors": "Chien-Yao Wang, I-Hau Yeh, Hong-Yuan Mark Liao"
@@ -442,6 +430,18 @@
         "d": "2021-05-10",
         "m1": "53",
         "m2": "49"
+      },
+      {
+        "p": {
+          "name": "DETRs Beat YOLOs on Real-time Object Detection",
+          "link": "https://arxiv.org/abs/2304.08069v3",
+          "authors": "Yian Zhao, Wenyu Lv, Shangliang Xu, Jinman Wei, Guanzhong Wang, Qingqing Dang, Yi Liu, Jie Chen"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "RT-DETR-L",
+        "d": "2023-04-17",
+        "m1": "53.0",
+        "m2": "114 (T4)"
       },
       {
         "p": {
@@ -468,6 +468,17 @@
       },
       {
         "p": {
+          "name": "RTMDet: An Empirical Study of Designing Real-Time Object Detectors",
+          "link": "https://arxiv.org/abs/2212.07784v2",
+          "authors": "Chengqi Lyu, Wenwei Zhang, Haian Huang, Yue Zhou, Yudong Wang, Yanyi Liu, Shilong Zhang, Kai Chen"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection/tree/3.x/configs/rtmdet",
+        "n": "RTMDet",
+        "d": "2022-12-14",
+        "m1": "52.8"
+      },
+      {
+        "p": {
           "name": "YOLOv6 v3.0: A Full-Scale Reloading",
           "link": "https://arxiv.org/abs/2301.05586v1",
           "authors": "Chuyi Li, Lulu Li, Yifei Geng, Hongliang Jiang, Meng Cheng, Bo Zhang, Zaidan Ke, Xiaoming Xu, Xiangxiang Chu"
@@ -480,14 +491,14 @@
       },
       {
         "p": {
-          "name": "RTMDet: An Empirical Study of Designing Real-Time Object Detectors",
-          "link": "https://arxiv.org/abs/2212.07784v2",
-          "authors": "Chengqi Lyu, Wenwei Zhang, Haian Huang, Yue Zhou, Yudong Wang, Yanyi Liu, Shilong Zhang, Kai Chen"
+          "name": "YOLOv10: Real-Time End-to-End Object Detection",
+          "link": "https://arxiv.org/abs/2405.14458v2",
+          "authors": "Ao Wang, Hui Chen, Lihao Liu, Kai Chen, Zijia Lin, Jungong Han, Guiguang Ding"
         },
-        "c": "https://github.com/open-mmlab/mmdetection/tree/3.x/configs/rtmdet",
-        "n": "RTMDet",
-        "d": "2022-12-14",
-        "m1": "52.8"
+        "c": "https://github.com/THU-MIG/yolov10",
+        "n": "YOLOv10-B",
+        "d": "2024-05-23",
+        "m1": "52.7"
       },
       {
         "p": {
@@ -503,17 +514,6 @@
       },
       {
         "p": {
-          "name": "YOLOv10: Real-Time End-to-End Object Detection",
-          "link": "https://arxiv.org/abs/2405.14458v2",
-          "authors": "Ao Wang, Hui Chen, Lihao Liu, Kai Chen, Zijia Lin, Jungong Han, Guiguang Ding"
-        },
-        "c": "https://github.com/THU-MIG/yolov10",
-        "n": "YOLOv10-B",
-        "d": "2024-05-23",
-        "m1": "52.7"
-      },
-      {
-        "p": {
           "name": "You Only Learn One Representation: Unified Network for Multiple Tasks",
           "link": "https://arxiv.org/abs/2105.04206v1",
           "authors": "Chien-Yao Wang, I-Hau Yeh, Hong-Yuan Mark Liao"
@@ -523,18 +523,6 @@
         "d": "2021-05-10",
         "m1": "52.6",
         "m2": "49"
-      },
-      {
-        "p": {
-          "name": "YOLOv12: A Breakdown of the Key Architectural Features",
-          "link": "https://arxiv.org/abs/2502.14740v1",
-          "authors": "Mujadded Al Rabbani Alif, Muhammad Hussain"
-        },
-        "c": "",
-        "n": "YOLOv12m",
-        "d": "2025-02-20",
-        "m1": "52.5",
-        "m2": "206 (T4)"
       },
       {
         "p": {
@@ -558,6 +546,18 @@
         "n": "GELAN-C",
         "d": "2024-02-21",
         "m1": "52.5"
+      },
+      {
+        "p": {
+          "name": "YOLOv12: A Breakdown of the Key Architectural Features",
+          "link": "https://arxiv.org/abs/2502.14740v1",
+          "authors": "Mujadded Al Rabbani Alif, Muhammad Hussain"
+        },
+        "c": "",
+        "n": "YOLOv12m",
+        "d": "2025-02-20",
+        "m1": "52.5",
+        "m2": "206 (T4)"
       },
       {
         "p": {
@@ -887,18 +887,6 @@
       },
       {
         "p": {
-          "name": "DAMO-YOLO : A Report on Real-Time Object Detection Design",
-          "link": "https://arxiv.org/abs/2211.15444v4",
-          "authors": "Xianzhe Xu, Yiqi Jiang, Weihua Chen, Yilun Huang, Yuan Zhang, Xiuyu Sun"
-        },
-        "c": "https://github.com/modelscope/modelscope",
-        "n": "DAMO-YOLO-T",
-        "d": "2022-11-23",
-        "m1": "42",
-        "m2": "397"
-      },
-      {
-        "p": {
           "name": "End-to-End Object Detection with Transformers",
           "link": "https://arxiv.org/abs/2005.12872v3",
           "authors": "Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, Sergey Zagoruyko"
@@ -908,6 +896,18 @@
         "d": "2020-05-26",
         "m1": "42",
         "m2": "26"
+      },
+      {
+        "p": {
+          "name": "DAMO-YOLO : A Report on Real-Time Object Detection Design",
+          "link": "https://arxiv.org/abs/2211.15444v4",
+          "authors": "Xianzhe Xu, Yiqi Jiang, Weihua Chen, Yilun Huang, Yuan Zhang, Xiuyu Sun"
+        },
+        "c": "https://github.com/modelscope/modelscope",
+        "n": "DAMO-YOLO-T",
+        "d": "2022-11-23",
+        "m1": "42",
+        "m2": "397"
       },
       {
         "p": {
@@ -935,6 +935,17 @@
       },
       {
         "p": {
+          "name": "YOLOv10: Real-Time End-to-End Object Detection",
+          "link": "https://arxiv.org/abs/2405.14458v2",
+          "authors": "Ao Wang, Hui Chen, Lihao Liu, Kai Chen, Zijia Lin, Jungong Han, Guiguang Ding"
+        },
+        "c": "https://github.com/THU-MIG/yolov10",
+        "n": "YOLOv10-N",
+        "d": "2024-05-23",
+        "m1": "39.5"
+      },
+      {
+        "p": {
           "name": "YOLOv11: An Overview of the Key Architectural Enhancements",
           "link": "https://arxiv.org/abs/2410.17725v1",
           "authors": "Rahima Khanam, Muhammad Hussain"
@@ -944,17 +955,6 @@
         "d": "2024-10-23",
         "m1": "39.5",
         "m2": "667 (T4)"
-      },
-      {
-        "p": {
-          "name": "YOLOv10: Real-Time End-to-End Object Detection",
-          "link": "https://arxiv.org/abs/2405.14458v2",
-          "authors": "Ao Wang, Hui Chen, Lihao Liu, Kai Chen, Zijia Lin, Jungong Han, Guiguang Ding"
-        },
-        "c": "https://github.com/THU-MIG/yolov10",
-        "n": "YOLOv10-N",
-        "d": "2024-05-23",
-        "m1": "39.5"
       },
       {
         "p": {

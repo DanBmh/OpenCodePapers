@@ -93,18 +93,6 @@
       },
       {
         "p": {
-          "name": "An end-to-end attention-based approach for learning on graphs",
-          "link": "https://arxiv.org/abs/2402.10793v2",
-          "authors": "David Buterez, Jon Paul Janet, Dino Oglic, Pietro Lio"
-        },
-        "c": "https://github.com/davidbuterez/edge-set-attention",
-        "n": "ESA (Edge set attention, no positional encodings)",
-        "d": "2024-02-16",
-        "m1": "0.552±0.012",
-        "m2": "0.809±0.008"
-      },
-      {
-        "p": {
           "name": "DropGNN: Random Dropouts Increase the Expressiveness of Graph Neural Networks",
           "link": "https://arxiv.org/abs/2111.06283v1",
           "authors": "Pál András Papp, Karolis Martinkus, Lukas Faber, Roger Wattenhofer"
@@ -112,6 +100,18 @@
         "c": "https://github.com/karolismart/dropgnn",
         "n": "DropGIN",
         "d": "2021-11-11",
+        "m1": "0.552±0.012",
+        "m2": "0.809±0.008"
+      },
+      {
+        "p": {
+          "name": "An end-to-end attention-based approach for learning on graphs",
+          "link": "https://arxiv.org/abs/2402.10793v2",
+          "authors": "David Buterez, Jon Paul Janet, Dino Oglic, Pietro Lio"
+        },
+        "c": "https://github.com/davidbuterez/edge-set-attention",
+        "n": "ESA (Edge set attention, no positional encodings)",
+        "d": "2024-02-16",
         "m1": "0.552±0.012",
         "m2": "0.809±0.008"
       },

@@ -191,6 +191,17 @@
       },
       {
         "p": {
+          "name": "PowerNorm: Rethinking Batch Normalization in Transformers",
+          "link": "https://arxiv.org/abs/2003.07845v2",
+          "authors": "Sheng Shen, Zhewei Yao, Amir Gholami, Michael W. Mahoney, Kurt Keutzer"
+        },
+        "c": "https://github.com/sIncerass/powernorm",
+        "n": "PowerNorm (Transformer)",
+        "d": "2020-03-17",
+        "m1": "30.1"
+      },
+      {
+        "p": {
           "name": "Very Deep Transformers for Neural Machine Translation",
           "link": "https://arxiv.org/abs/2008.07772v2",
           "authors": "Xiaodong Liu, Kevin Duh, Liyuan Liu, Jianfeng Gao"
@@ -201,17 +212,6 @@
         "m1": "30.1",
         "m2": "29.5",
         "m3": "256M"
-      },
-      {
-        "p": {
-          "name": "PowerNorm: Rethinking Batch Normalization in Transformers",
-          "link": "https://arxiv.org/abs/2003.07845v2",
-          "authors": "Sheng Shen, Zhewei Yao, Amir Gholami, Michael W. Mahoney, Kurt Keutzer"
-        },
-        "c": "https://github.com/sIncerass/powernorm",
-        "n": "PowerNorm (Transformer)",
-        "d": "2020-03-17",
-        "m1": "30.1"
       },
       {
         "p": {
@@ -292,18 +292,6 @@
       },
       {
         "p": {
-          "name": "Time-aware Large Kernel Convolutions",
-          "link": "https://arxiv.org/abs/2002.03184v2",
-          "authors": "Vasileios Lioutas, Yuhong Guo"
-        },
-        "c": "https://github.com/lioutasb/TaLKConvolutions",
-        "n": "TaLK Convolutions",
-        "d": "2020-02-08",
-        "m1": "29.6",
-        "m3": "209M"
-      },
-      {
-        "p": {
           "name": "Fast and Simple Mixture of Softmaxes with BPE and Hybrid-LightRNN for Language Generation",
           "link": "https://arxiv.org/abs/1809.09296v2",
           "authors": "Xiang Kong, Qizhe Xie, Zihang Dai, Eduard Hovy"
@@ -314,6 +302,18 @@
         "m1": "29.6",
         "m4": "",
         "m5": ""
+      },
+      {
+        "p": {
+          "name": "Time-aware Large Kernel Convolutions",
+          "link": "https://arxiv.org/abs/2002.03184v2",
+          "authors": "Vasileios Lioutas, Yuhong Guo"
+        },
+        "c": "https://github.com/lioutasb/TaLKConvolutions",
+        "n": "TaLK Convolutions",
+        "d": "2020-02-08",
+        "m1": "29.6",
+        "m3": "209M"
       },
       {
         "p": {
@@ -404,19 +404,6 @@
       },
       {
         "p": {
-          "name": "Learning to Encode Position for Transformer with Continuous Dynamical Model",
-          "link": "https://arxiv.org/abs/2003.09229v1",
-          "authors": "Xuanqing Liu, Hsiang-Fu Yu, Inderjit Dhillon, Cho-Jui Hsieh"
-        },
-        "c": "https://github.com/xuanqing94/FLOATER",
-        "n": "FLOATER-large",
-        "d": "2020-03-13",
-        "m1": "29.2",
-        "m4": "",
-        "m5": ""
-      },
-      {
-        "p": {
           "name": "Modeling Localness for Self-Attention Networks",
           "link": "http://arxiv.org/abs/1810.10182v1",
           "authors": "Baosong Yang, Zhaopeng Tu, Derek F. Wong, Fandong Meng, Lidia S. Chao, Tong Zhang"
@@ -424,6 +411,19 @@
         "c": "",
         "n": "Local Transformer",
         "d": "2018-10-24",
+        "m1": "29.2",
+        "m4": "",
+        "m5": ""
+      },
+      {
+        "p": {
+          "name": "Learning to Encode Position for Transformer with Continuous Dynamical Model",
+          "link": "https://arxiv.org/abs/2003.09229v1",
+          "authors": "Xuanqing Liu, Hsiang-Fu Yu, Inderjit Dhillon, Cho-Jui Hsieh"
+        },
+        "c": "https://github.com/xuanqing94/FLOATER",
+        "n": "FLOATER-large",
+        "d": "2020-03-13",
         "m1": "29.2",
         "m4": "",
         "m5": ""
@@ -483,18 +483,6 @@
       },
       {
         "p": {
-          "name": "Pay Less Attention with Lightweight and Dynamic Convolutions",
-          "link": "http://arxiv.org/abs/1901.10430v2",
-          "authors": "Felix Wu, Angela Fan, Alexei Baevski, Yann N. Dauphin, Michael Auli"
-        },
-        "c": "https://github.com/pytorch/fairseq",
-        "n": "LightConv",
-        "d": "2019-01-29",
-        "m1": "28.9",
-        "m3": "202M"
-      },
-      {
-        "p": {
           "name": "Weighted Transformer Network for Machine Translation",
           "link": "http://arxiv.org/abs/1711.02132v1",
           "authors": "Karim Ahmed, Nitish Shirish Keskar, Richard Socher"
@@ -518,6 +506,18 @@
         "m1": "28.9",
         "m4": "",
         "m5": ""
+      },
+      {
+        "p": {
+          "name": "Pay Less Attention with Lightweight and Dynamic Convolutions",
+          "link": "http://arxiv.org/abs/1901.10430v2",
+          "authors": "Felix Wu, Angela Fan, Alexei Baevski, Yann N. Dauphin, Michael Auli"
+        },
+        "c": "https://github.com/pytorch/fairseq",
+        "n": "LightConv",
+        "d": "2019-01-29",
+        "m1": "28.9",
+        "m3": "202M"
       },
       {
         "p": {
@@ -584,18 +584,6 @@
       },
       {
         "p": {
-          "name": "HAT: Hardware-Aware Transformers for Efficient Natural Language Processing",
-          "link": "https://arxiv.org/abs/2005.14187v1",
-          "authors": "Hanrui Wang, Zhanghao Wu, Zhijian Liu, Han Cai, Ligeng Zhu, Chuang Gan, Song Han"
-        },
-        "c": "https://github.com/mit-han-lab/hardware-aware-transformers",
-        "n": "Hardware Aware Transformer",
-        "d": "2020-05-28",
-        "m1": "28.4",
-        "m3": "48M"
-      },
-      {
-        "p": {
           "name": "Attention Is All You Need",
           "link": "https://arxiv.org/abs/1706.03762v7",
           "authors": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin"
@@ -631,6 +619,18 @@
         "d": "2019-01-30",
         "m1": "28.4",
         "m4": "2488G"
+      },
+      {
+        "p": {
+          "name": "HAT: Hardware-Aware Transformers for Efficient Natural Language Processing",
+          "link": "https://arxiv.org/abs/2005.14187v1",
+          "authors": "Hanrui Wang, Zhanghao Wu, Zhijian Liu, Han Cai, Ligeng Zhu, Chuang Gan, Song Han"
+        },
+        "c": "https://github.com/mit-han-lab/hardware-aware-transformers",
+        "n": "Hardware Aware Transformer",
+        "d": "2020-05-28",
+        "m1": "28.4",
+        "m3": "48M"
       },
       {
         "p": {
@@ -1020,19 +1020,6 @@
       },
       {
         "p": {
-          "name": "Deep Recurrent Models with Fast-Forward Connections for Neural Machine Translation",
-          "link": "http://arxiv.org/abs/1606.04199v3",
-          "authors": "Jie Zhou, Ying Cao, Xuguang Wang, Peng Li, Wei Xu"
-        },
-        "c": "https://github.com/fstahlberg/tensor2tensor-usr",
-        "n": "Deep-Att",
-        "d": "2016-06-14",
-        "m1": "20.7",
-        "m4": "119G",
-        "m5": ""
-      },
-      {
-        "p": {
           "name": "Edinburgh's Syntax-Based Systems at WMT 2015",
           "link": "https://aclanthology.org/W15-3024",
           "authors": "Philip Williams, Rico Sennrich, Maria Nadejde, Matthias Huck, Philipp Koehn"
@@ -1042,6 +1029,19 @@
         "d": "2015-09-01",
         "m1": "20.7",
         "m4": "",
+        "m5": ""
+      },
+      {
+        "p": {
+          "name": "Deep Recurrent Models with Fast-Forward Connections for Neural Machine Translation",
+          "link": "http://arxiv.org/abs/1606.04199v3",
+          "authors": "Jie Zhou, Ying Cao, Xuguang Wang, Peng Li, Wei Xu"
+        },
+        "c": "https://github.com/fstahlberg/tensor2tensor-usr",
+        "n": "Deep-Att",
+        "d": "2016-06-14",
+        "m1": "20.7",
+        "m4": "119G",
         "m5": ""
       },
       {

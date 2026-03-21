@@ -336,6 +336,17 @@
       },
       {
         "p": {
+          "name": "Just Jump: Dynamic Neighborhood Aggregation in Graph Neural Networks",
+          "link": "http://arxiv.org/abs/1904.04849v2",
+          "authors": "Matthias Fey"
+        },
+        "c": "https://github.com/rusty1s/pytorch_geometric",
+        "n": "DNAConv",
+        "d": "2019-04-09",
+        "m1": "74.50%"
+      },
+      {
+        "p": {
           "name": "A Flexible Generative Framework for Graph-based Semi-supervised Learning",
           "link": "https://arxiv.org/abs/1905.10769v2",
           "authors": "Jiaqi Ma, Weijing Tang, Ji Zhu, Qiaozhu Mei"
@@ -346,17 +357,6 @@
         "m1": "74.5%",
         "m2": "20 per node with early stopping set",
         "m3": "YES"
-      },
-      {
-        "p": {
-          "name": "Just Jump: Dynamic Neighborhood Aggregation in Graph Neural Networks",
-          "link": "http://arxiv.org/abs/1904.04849v2",
-          "authors": "Matthias Fey"
-        },
-        "c": "https://github.com/rusty1s/pytorch_geometric",
-        "n": "DNAConv",
-        "d": "2019-04-09",
-        "m1": "74.50%"
       },
       {
         "p": {
@@ -371,17 +371,6 @@
       },
       {
         "p": {
-          "name": "GResNet: Graph Residual Network for Reviving Deep GNNs from Suspended Animation",
-          "link": "https://arxiv.org/abs/1909.05729v2",
-          "authors": "Jiawei Zhang, Lin Meng"
-        },
-        "c": "https://github.com/anonymous-sourcecode/GResNet",
-        "n": "GResNet(LoopyNet)",
-        "d": "2019-09-12",
-        "m1": "73.7%"
-      },
-      {
-        "p": {
           "name": "Graph Adversarial Training: Dynamically Regularizing Based on Graph Structure",
           "link": "https://arxiv.org/abs/1902.08226v2",
           "authors": "Fuli Feng, Xiangnan He, Jie Tang, Tat-Seng Chua"
@@ -389,6 +378,17 @@
         "c": "https://github.com/fulifeng/GraphAT",
         "n": "GraphVAT",
         "d": "2019-02-20",
+        "m1": "73.7%"
+      },
+      {
+        "p": {
+          "name": "GResNet: Graph Residual Network for Reviving Deep GNNs from Suspended Animation",
+          "link": "https://arxiv.org/abs/1909.05729v2",
+          "authors": "Jiawei Zhang, Lin Meng"
+        },
+        "c": "https://github.com/anonymous-sourcecode/GResNet",
+        "n": "GResNet(LoopyNet)",
+        "d": "2019-09-12",
         "m1": "73.7%"
       },
       {
@@ -571,6 +571,17 @@
       },
       {
         "p": {
+          "name": "Deep Graph Infomax",
+          "link": "http://arxiv.org/abs/1809.10341v2",
+          "authors": "Petar Veličković, William Fedus, William L. Hamilton, Pietro Liò, Yoshua Bengio, R. Devon Hjelm"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/dgi",
+        "n": "DGI",
+        "d": "2018-09-27",
+        "m1": "71.8 ± 0.7%"
+      },
+      {
+        "p": {
           "name": "Multi-Task Graph Autoencoders",
           "link": "http://arxiv.org/abs/1811.02798v1",
           "authors": "Phi Vu Tran"
@@ -580,17 +591,6 @@
         "d": "2018-11-07",
         "m1": "71.80%",
         "m3": "YES"
-      },
-      {
-        "p": {
-          "name": "Deep Graph Infomax",
-          "link": "http://arxiv.org/abs/1809.10341v2",
-          "authors": "Petar Veličković, William Fedus, William L. Hamilton, Pietro Liò, Yoshua Bengio, R. Devon Hjelm"
-        },
-        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/dgi",
-        "n": "DGI",
-        "d": "2018-09-27",
-        "m1": "71.8 ± 0.7%"
       },
       {
         "p": {
@@ -673,17 +673,6 @@
       },
       {
         "p": {
-          "name": "Graph Star Net for Generalized Multi-Task Learning",
-          "link": "https://arxiv.org/abs/1906.12330v1",
-          "authors": "Lu Haonan, Seth H. Huang, Tian Ye, Guo Xiuyan"
-        },
-        "c": "https://github.com/graph-star-team/graph_star",
-        "n": "GraphStar",
-        "d": "2019-06-21",
-        "m1": "71.0"
-      },
-      {
-        "p": {
           "name": "Graphite: Iterative Generative Modeling of Graphs",
           "link": "https://arxiv.org/abs/1803.10459v4",
           "authors": "Aditya Grover, Aaron Zweig, Stefano Ermon"
@@ -692,6 +681,17 @@
         "n": "Graphite",
         "d": "2018-03-28",
         "m1": "71.0 ± 0.07"
+      },
+      {
+        "p": {
+          "name": "Graph Star Net for Generalized Multi-Task Learning",
+          "link": "https://arxiv.org/abs/1906.12330v1",
+          "authors": "Lu Haonan, Seth H. Huang, Tian Ye, Guo Xiuyan"
+        },
+        "c": "https://github.com/graph-star-team/graph_star",
+        "n": "GraphStar",
+        "d": "2019-06-21",
+        "m1": "71.0"
       },
       {
         "p": {

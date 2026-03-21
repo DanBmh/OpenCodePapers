@@ -75,6 +75,18 @@
       },
       {
         "p": {
+          "name": "AutoSF: Searching Scoring Functions for Knowledge Graph Embedding",
+          "link": "https://arxiv.org/abs/1904.11682v3",
+          "authors": "Yongqi Zhang, Quanming Yao, Wenyuan Dai, Lei Chen"
+        },
+        "c": "https://github.com/AutoML-4Paradigm/ERAS",
+        "n": "AutoKGE",
+        "d": "2019-04-26",
+        "m1": "0.961",
+        "m4": "0.952"
+      },
+      {
+        "p": {
           "name": "LineaRE: Simple but Powerful Knowledge Graph Embedding for Link Prediction",
           "link": "https://arxiv.org/abs/2004.10037v2",
           "authors": "Yanhui Peng, Jing Zhang"
@@ -105,15 +117,14 @@
       },
       {
         "p": {
-          "name": "AutoSF: Searching Scoring Functions for Knowledge Graph Embedding",
-          "link": "https://arxiv.org/abs/1904.11682v3",
-          "authors": "Yongqi Zhang, Quanming Yao, Wenyuan Dai, Lei Chen"
+          "name": "Canonical Tensor Decomposition for Knowledge Base Completion",
+          "link": "http://arxiv.org/abs/1806.07297v1",
+          "authors": "Timothée Lacroix, Nicolas Usunier, Guillaume Obozinski"
         },
-        "c": "https://github.com/AutoML-4Paradigm/ERAS",
-        "n": "AutoKGE",
-        "d": "2019-04-26",
-        "m1": "0.961",
-        "m4": "0.952"
+        "c": "https://github.com/facebookresearch/kbc",
+        "n": "ComplEx-N3 (reciprocal)",
+        "d": "2018-06-19",
+        "m1": "0.96"
       },
       {
         "p": {
@@ -131,14 +142,18 @@
       },
       {
         "p": {
-          "name": "Canonical Tensor Decomposition for Knowledge Base Completion",
-          "link": "http://arxiv.org/abs/1806.07297v1",
-          "authors": "Timothée Lacroix, Nicolas Usunier, Guillaume Obozinski"
+          "name": "RotatE: Knowledge Graph Embedding by Relational Rotation in Complex Space",
+          "link": "http://arxiv.org/abs/1902.10197v1",
+          "authors": "Zhiqing Sun, Zhi-Hong Deng, Jian-Yun Nie, Jian Tang"
         },
-        "c": "https://github.com/facebookresearch/kbc",
-        "n": "ComplEx-N3 (reciprocal)",
-        "d": "2018-06-19",
-        "m1": "0.96"
+        "c": "https://github.com/pyg-team/pytorch_geometric/blob/master/torch_geometric/nn/kge/rotate.py",
+        "n": "RotatE",
+        "d": "2019-02-26",
+        "m1": "0.959",
+        "m2": "0.952",
+        "m3": "0.944",
+        "m4": "0.949",
+        "m5": "309"
       },
       {
         "p": {
@@ -172,18 +187,17 @@
       },
       {
         "p": {
-          "name": "RotatE: Knowledge Graph Embedding by Relational Rotation in Complex Space",
-          "link": "http://arxiv.org/abs/1902.10197v1",
-          "authors": "Zhiqing Sun, Zhi-Hong Deng, Jian-Yun Nie, Jian Tang"
+          "name": "Hypernetwork Knowledge Graph Embeddings",
+          "link": "https://arxiv.org/abs/1808.07018v5",
+          "authors": "Ivana Balažević, Carl Allen, Timothy M. Hospedales"
         },
-        "c": "https://github.com/pyg-team/pytorch_geometric/blob/master/torch_geometric/nn/kge/rotate.py",
-        "n": "RotatE",
-        "d": "2019-02-26",
-        "m1": "0.959",
-        "m2": "0.952",
-        "m3": "0.944",
-        "m4": "0.949",
-        "m5": "309"
+        "c": "https://github.com/ibalazevic/HypER",
+        "n": "HypER",
+        "d": "2018-08-21",
+        "m1": "0.958",
+        "m2": "0.955",
+        "m3": "0.947",
+        "m4": "0.951"
       },
       {
         "p": {
@@ -201,20 +215,6 @@
       },
       {
         "p": {
-          "name": "Hypernetwork Knowledge Graph Embeddings",
-          "link": "https://arxiv.org/abs/1808.07018v5",
-          "authors": "Ivana Balažević, Carl Allen, Timothy M. Hospedales"
-        },
-        "c": "https://github.com/ibalazevic/HypER",
-        "n": "HypER",
-        "d": "2018-08-21",
-        "m1": "0.958",
-        "m2": "0.955",
-        "m3": "0.947",
-        "m4": "0.951"
-      },
-      {
-        "p": {
           "name": "Adaptive Convolution for Multi-Relational Learning",
           "link": "https://aclanthology.org/N19-1103",
           "authors": "Xiaotian Jiang, Quan Wang, Bin Wang"
@@ -226,20 +226,6 @@
         "m2": "0.955",
         "m3": "0.947",
         "m4": "0.951"
-      },
-      {
-        "p": {
-          "name": "Multi-Partition Embedding Interaction with Block Term Format for Knowledge Graph Completion",
-          "link": "https://arxiv.org/abs/2006.16365v2",
-          "authors": "Hung Nghiep Tran, Atsuhiro Takasu"
-        },
-        "c": "https://github.com/tranhungnghiep/AnalyzeKGE",
-        "n": "MEI-BTD",
-        "d": "2020-06-29",
-        "m1": "0.957",
-        "m2": "0.952",
-        "m3": "0.946",
-        "m4": "0.950"
       },
       {
         "p": {
@@ -270,17 +256,17 @@
       },
       {
         "p": {
-          "name": "Analyzing Knowledge Graph Embedding Methods from a Multi-Embedding Interaction Perspective",
-          "link": "https://arxiv.org/abs/1903.11406v4",
+          "name": "Multi-Partition Embedding Interaction with Block Term Format for Knowledge Graph Completion",
+          "link": "https://arxiv.org/abs/2006.16365v2",
           "authors": "Hung Nghiep Tran, Atsuhiro Takasu"
         },
         "c": "https://github.com/tranhungnghiep/AnalyzeKGE",
-        "n": "Quaternion",
-        "d": "2019-03-27",
-        "m1": "0.956",
-        "m2": "0.950",
-        "m3": "0.931",
-        "m4": "0.941"
+        "n": "MEI-BTD",
+        "d": "2020-06-29",
+        "m1": "0.957",
+        "m2": "0.952",
+        "m3": "0.946",
+        "m4": "0.950"
       },
       {
         "p": {
@@ -296,6 +282,20 @@
         "m3": "0.935",
         "m4": "0.943",
         "m5": "374"
+      },
+      {
+        "p": {
+          "name": "Analyzing Knowledge Graph Embedding Methods from a Multi-Embedding Interaction Perspective",
+          "link": "https://arxiv.org/abs/1903.11406v4",
+          "authors": "Hung Nghiep Tran, Atsuhiro Takasu"
+        },
+        "c": "https://github.com/tranhungnghiep/AnalyzeKGE",
+        "n": "Quaternion",
+        "d": "2019-03-27",
+        "m1": "0.956",
+        "m2": "0.950",
+        "m3": "0.931",
+        "m4": "0.941"
       },
       {
         "p": {
@@ -357,6 +357,18 @@
       },
       {
         "p": {
+          "name": "KBGAN: Adversarial Learning for Knowledge Graph Embeddings",
+          "link": "http://arxiv.org/abs/1711.04071v3",
+          "authors": "Liwei Cai, William Yang Wang"
+        },
+        "c": "https://github.com/cai-lw/KBGAN",
+        "n": "KBGAN (TransD + ComplEx)",
+        "d": "2017-11-11",
+        "m1": "0.948",
+        "m4": "0.779"
+      },
+      {
+        "p": {
           "name": "LogicENN: A Neural Based Knowledge Graphs Embedding Model with Logical Rules",
           "link": "https://arxiv.org/abs/1908.07141v1",
           "authors": "Mojtaba Nayyeri, Chengjin Xu, Jens Lehmann, Hamed Shariat Yazdi"
@@ -370,15 +382,17 @@
       },
       {
         "p": {
-          "name": "KBGAN: Adversarial Learning for Knowledge Graph Embeddings",
-          "link": "http://arxiv.org/abs/1711.04071v3",
-          "authors": "Liwei Cai, William Yang Wang"
+          "name": "Complex Embeddings for Simple Link Prediction",
+          "link": "http://arxiv.org/abs/1606.06357v1",
+          "authors": "Théo Trouillon, Johannes Welbl, Sebastian Riedel, Éric Gaussier, Guillaume Bouchard"
         },
-        "c": "https://github.com/cai-lw/KBGAN",
-        "n": "KBGAN (TransD + ComplEx)",
-        "d": "2017-11-11",
-        "m1": "0.948",
-        "m4": "0.779"
+        "c": "https://github.com/pyg-team/pytorch_geometric/blob/2947af7733d87315a9218a0bfabbfda10b595f0e/torch_geometric/nn/kge/complex.py",
+        "n": "ComplEx",
+        "d": "2016-06-20",
+        "m1": "0.947",
+        "m2": "0.936",
+        "m3": "0.936",
+        "m4": "0.941"
       },
       {
         "p": {
@@ -407,20 +421,6 @@
         "m2": "0.944",
         "m3": "0.939",
         "m4": "0.942"
-      },
-      {
-        "p": {
-          "name": "Complex Embeddings for Simple Link Prediction",
-          "link": "http://arxiv.org/abs/1606.06357v1",
-          "authors": "Théo Trouillon, Johannes Welbl, Sebastian Riedel, Éric Gaussier, Guillaume Bouchard"
-        },
-        "c": "https://github.com/pyg-team/pytorch_geometric/blob/2947af7733d87315a9218a0bfabbfda10b595f0e/torch_geometric/nn/kge/complex.py",
-        "n": "ComplEx",
-        "d": "2016-06-20",
-        "m1": "0.947",
-        "m2": "0.936",
-        "m3": "0.936",
-        "m4": "0.941"
       },
       {
         "p": {

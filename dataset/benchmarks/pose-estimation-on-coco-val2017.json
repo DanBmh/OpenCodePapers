@@ -64,20 +64,6 @@
       },
       {
         "p": {
-          "name": "MogaNet: Multi-order Gated Aggregation Network",
-          "link": "https://arxiv.org/abs/2211.03295v3",
-          "authors": "Siyuan Li, Zedong Wang, Zicheng Liu, Cheng Tan, Haitao Lin, Di wu, ZhiYuan Chen, Jiangbin Zheng, Stan Z. Li"
-        },
-        "c": "https://github.com/chengtan9907/OpenSTL",
-        "n": "MogaNet-B (384x288)",
-        "d": "2022-11-07",
-        "m1": "77.3",
-        "m2": "82.2",
-        "m3": "91.4",
-        "m4": "84"
-      },
-      {
-        "p": {
           "name": "ViTPose: Simple Vision Transformer Baselines for Human Pose Estimation",
           "link": "https://arxiv.org/abs/2204.12484v3",
           "authors": "Yufei Xu, Jing Zhang, Qiming Zhang, DaCheng Tao"
@@ -97,26 +83,26 @@
           "authors": "Siyuan Li, Zedong Wang, Zicheng Liu, Cheng Tan, Haitao Lin, Di wu, ZhiYuan Chen, Jiangbin Zheng, Stan Z. Li"
         },
         "c": "https://github.com/chengtan9907/OpenSTL",
+        "n": "MogaNet-B (384x288)",
+        "d": "2022-11-07",
+        "m1": "77.3",
+        "m2": "82.2",
+        "m3": "91.4",
+        "m4": "84"
+      },
+      {
+        "p": {
+          "name": "MogaNet: Multi-order Gated Aggregation Network",
+          "link": "https://arxiv.org/abs/2211.03295v3",
+          "authors": "Siyuan Li, Zedong Wang, Zicheng Liu, Cheng Tan, Haitao Lin, Di wu, ZhiYuan Chen, Jiangbin Zheng, Stan Z. Li"
+        },
+        "c": "https://github.com/chengtan9907/OpenSTL",
         "n": "MogaNet-S (384x288)",
         "d": "2022-11-07",
         "m1": "76.4",
         "m2": "81.4",
         "m3": "91",
         "m4": "83.3"
-      },
-      {
-        "p": {
-          "name": "ViTPose: Simple Vision Transformer Baselines for Human Pose Estimation",
-          "link": "https://arxiv.org/abs/2204.12484v3",
-          "authors": "Yufei Xu, Jing Zhang, Qiming Zhang, DaCheng Tao"
-        },
-        "c": "https://github.com/huggingface/transformers",
-        "n": "ViTPose-B (Single-task_Det-bbox_256x192)",
-        "d": "2022-04-26",
-        "m1": "75.8",
-        "m2": "81.1",
-        "m3": "90.7",
-        "m4": "83.2"
       },
       {
         "p": {
@@ -131,6 +117,20 @@
         "m2": "-",
         "m3": "-",
         "m4": "-"
+      },
+      {
+        "p": {
+          "name": "ViTPose: Simple Vision Transformer Baselines for Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2204.12484v3",
+          "authors": "Yufei Xu, Jing Zhang, Qiming Zhang, DaCheng Tao"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ViTPose-B (Single-task_Det-bbox_256x192)",
+        "d": "2022-04-26",
+        "m1": "75.8",
+        "m2": "81.1",
+        "m3": "90.7",
+        "m4": "83.2"
       },
       {
         "p": {

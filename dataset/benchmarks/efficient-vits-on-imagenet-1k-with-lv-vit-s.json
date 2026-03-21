@@ -101,15 +101,15 @@
       },
       {
         "p": {
-          "name": "Beyond Attentive Tokens: Incorporating Token Importance and Diversity for Efficient Vision Transformers",
-          "link": "https://arxiv.org/abs/2211.11315v1",
-          "authors": "Sifan Long, Zhen Zhao, Jimin Pi, Shengsheng Wang, Jingdong Wang"
+          "name": "SPViT: Enabling Faster Vision Transformers via Soft Token Pruning",
+          "link": "https://arxiv.org/abs/2112.13890v2",
+          "authors": "Zhenglun Kong, Peiyan Dong, Xiaolong Ma, Xin Meng, Mengshu Sun, Wei Niu, Xuan Shen, Geng Yuan, Bin Ren, Minghai Qin, Hao Tang, Yanzhi Wang"
         },
-        "c": "https://github.com/BWLONG/BeyondAttentiveTokens",
-        "n": "BAT",
-        "d": "2022-11-21",
+        "c": "https://github.com/peiyanflying/spvit",
+        "n": "SPViT",
+        "d": "2021-12-27",
         "m1": "83.1",
-        "m2": "4.7"
+        "m2": "4.3"
       },
       {
         "p": {
@@ -125,6 +125,18 @@
       },
       {
         "p": {
+          "name": "Beyond Attentive Tokens: Incorporating Token Importance and Diversity for Efficient Vision Transformers",
+          "link": "https://arxiv.org/abs/2211.11315v1",
+          "authors": "Sifan Long, Zhen Zhao, Jimin Pi, Shengsheng Wang, Jingdong Wang"
+        },
+        "c": "https://github.com/BWLONG/BeyondAttentiveTokens",
+        "n": "BAT",
+        "d": "2022-11-21",
+        "m1": "83.1",
+        "m2": "4.7"
+      },
+      {
+        "p": {
           "name": "PPT: Token Pruning and Pooling for Efficient Vision Transformers",
           "link": "https://arxiv.org/abs/2310.01812v3",
           "authors": "Xinjian Wu, Fanhu Zeng, Xiudong Wang, Xinghao Chen"
@@ -134,30 +146,6 @@
         "d": "2023-10-03",
         "m1": "83.1",
         "m2": "4.6"
-      },
-      {
-        "p": {
-          "name": "SPViT: Enabling Faster Vision Transformers via Soft Token Pruning",
-          "link": "https://arxiv.org/abs/2112.13890v2",
-          "authors": "Zhenglun Kong, Peiyan Dong, Xiaolong Ma, Xin Meng, Mengshu Sun, Wei Niu, Xuan Shen, Geng Yuan, Bin Ren, Minghai Qin, Hao Tang, Yanzhi Wang"
-        },
-        "c": "https://github.com/peiyanflying/spvit",
-        "n": "SPViT",
-        "d": "2021-12-27",
-        "m1": "83.1",
-        "m2": "4.3"
-      },
-      {
-        "p": {
-          "name": "Not All Patches are What You Need: Expediting Vision Transformers via Token Reorganizations",
-          "link": "https://arxiv.org/abs/2202.07800v2",
-          "authors": "Youwei Liang, Chongjian Ge, Zhan Tong, Yibing Song, Jue Wang, Pengtao Xie"
-        },
-        "c": "https://github.com/youweiliang/evit",
-        "n": "EViT (70%)",
-        "d": "2022-02-16",
-        "m1": "83.0",
-        "m2": "4.7"
       },
       {
         "p": {
@@ -173,6 +161,18 @@
       },
       {
         "p": {
+          "name": "Not All Patches are What You Need: Expediting Vision Transformers via Token Reorganizations",
+          "link": "https://arxiv.org/abs/2202.07800v2",
+          "authors": "Youwei Liang, Chongjian Ge, Zhan Tong, Yibing Song, Jue Wang, Pengtao Xie"
+        },
+        "c": "https://github.com/youweiliang/evit",
+        "n": "EViT (70%)",
+        "d": "2022-02-16",
+        "m1": "83.0",
+        "m2": "4.7"
+      },
+      {
+        "p": {
           "name": "Patch Slimming for Efficient Vision Transformers",
           "link": "https://arxiv.org/abs/2106.02852v2",
           "authors": "Yehui Tang, Kai Han, Yunhe Wang, Chang Xu, Jianyuan Guo, Chao Xu, DaCheng Tao"
@@ -182,18 +182,6 @@
         "d": "2021-06-05",
         "m1": "82.9",
         "m2": "4.5"
-      },
-      {
-        "p": {
-          "name": "DiffRate : Differentiable Compression Rate for Efficient Vision Transformers",
-          "link": "https://arxiv.org/abs/2305.17997v1",
-          "authors": "Mengzhao Chen, Wenqi Shao, Peng Xu, Mingbao Lin, Kaipeng Zhang, Fei Chao, Rongrong Ji, Yu Qiao, Ping Luo"
-        },
-        "c": "https://github.com/opengvlab/diffrate",
-        "n": "DiffRate",
-        "d": "2023-05-29",
-        "m1": "82.6",
-        "m2": "3.9"
       },
       {
         "p": {
@@ -218,6 +206,18 @@
         "d": "2023-04-21",
         "m1": "82.6",
         "m2": "3.8"
+      },
+      {
+        "p": {
+          "name": "DiffRate : Differentiable Compression Rate for Efficient Vision Transformers",
+          "link": "https://arxiv.org/abs/2305.17997v1",
+          "authors": "Mengzhao Chen, Wenqi Shao, Peng Xu, Mingbao Lin, Kaipeng Zhang, Fei Chao, Rongrong Ji, Yu Qiao, Ping Luo"
+        },
+        "c": "https://github.com/opengvlab/diffrate",
+        "n": "DiffRate",
+        "d": "2023-05-29",
+        "m1": "82.6",
+        "m2": "3.9"
       },
       {
         "p": {

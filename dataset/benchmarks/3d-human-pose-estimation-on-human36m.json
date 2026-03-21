@@ -465,19 +465,6 @@
       },
       {
         "p": {
-          "name": "CrossFormer: Cross Spatio-Temporal Transformer for 3D Human Pose Estimation",
-          "link": "https://arxiv.org/abs/2203.13387v1",
-          "authors": "Mohammed Hassanin, Abdelwahed Khamiss, Mohammed Bennamoun, Farid Boussaid, Ibrahim Radwan"
-        },
-        "c": "https://github.com/mfawzy/CrossFormer",
-        "n": "CrossFormer (T=81)",
-        "d": "2022-03-24",
-        "m1": "43.7",
-        "m2": "No",
-        "m3": "Monocular"
-      },
-      {
-        "p": {
           "name": "Exploiting Temporal Contexts with Strided Transformer for 3D Human Pose Estimation",
           "link": "https://arxiv.org/abs/2103.14304v8",
           "authors": "Wenhao Li, Hong Liu, Runwei Ding, Mengyuan Liu, Pichao Wang, Wenming Yang"
@@ -485,6 +472,19 @@
         "c": "https://github.com/Vegetebird/StridedTransformer-Pose3D",
         "n": "StridedTransformer (T=351)",
         "d": "2021-03-26",
+        "m1": "43.7",
+        "m2": "No",
+        "m3": "Monocular"
+      },
+      {
+        "p": {
+          "name": "CrossFormer: Cross Spatio-Temporal Transformer for 3D Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2203.13387v1",
+          "authors": "Mohammed Hassanin, Abdelwahed Khamiss, Mohammed Bennamoun, Farid Boussaid, Ibrahim Radwan"
+        },
+        "c": "https://github.com/mfawzy/CrossFormer",
+        "n": "CrossFormer (T=81)",
+        "d": "2022-03-24",
         "m1": "43.7",
         "m2": "No",
         "m3": "Monocular"
@@ -608,6 +608,17 @@
       },
       {
         "p": {
+          "name": "LiftFormer: 3D Human Pose Estimation using attention models",
+          "link": "https://arxiv.org/abs/2009.00348v1",
+          "authors": "Adrian Llopart"
+        },
+        "c": "",
+        "n": "Liftformer (n=243 CPN)",
+        "d": "2020-09-01",
+        "m1": "44.8"
+      },
+      {
+        "p": {
           "name": "Enhanced 3D Human Pose Estimation from Videos by using Attention-Based Neural Network with Dilated Convolutions",
           "link": "https://arxiv.org/abs/2103.03170v1",
           "authors": "Ruixu Liu, Ju Shen, He Wang, Chen Chen, Sen-ching Cheung, Vijayan K. Asari"
@@ -631,17 +642,6 @@
         "m1": "44.8",
         "m2": "No",
         "m3": "Monocular"
-      },
-      {
-        "p": {
-          "name": "LiftFormer: 3D Human Pose Estimation using attention models",
-          "link": "https://arxiv.org/abs/2009.00348v1",
-          "authors": "Adrian Llopart"
-        },
-        "c": "",
-        "n": "Liftformer (n=243 CPN)",
-        "d": "2020-09-01",
-        "m1": "44.8"
       },
       {
         "p": {
@@ -945,19 +945,6 @@
       },
       {
         "p": {
-          "name": "Learning Temporal 3D Human Pose Estimation with Pseudo-Labels",
-          "link": "https://arxiv.org/abs/2110.07578v1",
-          "authors": "Arij Bouazizi, Ulrich Kressel, Vasileios Belagiannis"
-        },
-        "c": "https://github.com/vru2020/Pose_3D",
-        "n": "Multi-view Temporal self-supervised",
-        "d": "2021-10-14",
-        "m1": "50.6",
-        "m2": "No",
-        "m3": "Multi-View"
-      },
-      {
-        "p": {
           "name": "Exploiting Spatial-Temporal Relationships for 3D Pose Estimation via Graph Convolutional Networks",
           "link": "http://openaccess.thecvf.com/content_ICCV_2019/html/Cai_Exploiting_Spatial-Temporal_Relationships_for_3D_Pose_Estimation_via_Graph_Convolutional_ICCV_2019_paper.html",
           "authors": "Yujun Cai,  Liuhao Ge,  Jun Liu,  Jianfei Cai,  Tat-Jen Cham,  Junsong Yuan,  Nadia Magnenat Thalmann"
@@ -968,6 +955,19 @@
         "m1": "50.6",
         "m2": "No",
         "m3": "Monocular"
+      },
+      {
+        "p": {
+          "name": "Learning Temporal 3D Human Pose Estimation with Pseudo-Labels",
+          "link": "https://arxiv.org/abs/2110.07578v1",
+          "authors": "Arij Bouazizi, Ulrich Kressel, Vasileios Belagiannis"
+        },
+        "c": "https://github.com/vru2020/Pose_3D",
+        "n": "Multi-view Temporal self-supervised",
+        "d": "2021-10-14",
+        "m1": "50.6",
+        "m2": "No",
+        "m3": "Multi-View"
       },
       {
         "p": {

@@ -306,18 +306,6 @@
       },
       {
         "p": {
-          "name": "On Second Order Behaviour in Augmented Neural ODEs",
-          "link": "https://arxiv.org/abs/2006.07220v2",
-          "authors": "Alexander Norcliffe, Cristian Bodnar, Ben Day, Nikola Simidjievski, Pietro Liò"
-        },
-        "c": "https://github.com/a-norcliffe/sonode",
-        "n": "Second Order Neural Ordinary Differential Equation",
-        "d": "2020-06-12",
-        "m1": "0.37",
-        "m2": "99.63"
-      },
-      {
-        "p": {
           "name": "Augmented Neural ODEs",
           "link": "https://arxiv.org/abs/1904.01681v3",
           "authors": "Emilien Dupont, Arnaud Doucet, Yee Whye Teh"
@@ -330,14 +318,15 @@
       },
       {
         "p": {
-          "name": "Deeply-Supervised Nets",
-          "link": "http://arxiv.org/abs/1409.5185v2",
-          "authors": "Chen-Yu Lee, Saining Xie, Patrick Gallagher, Zhengyou Zhang, Zhuowen Tu"
+          "name": "On Second Order Behaviour in Augmented Neural ODEs",
+          "link": "https://arxiv.org/abs/2006.07220v2",
+          "authors": "Alexander Norcliffe, Cristian Bodnar, Ben Day, Nikola Simidjievski, Pietro Liò"
         },
-        "c": "https://github.com/ellisdg/3DUnetCNN",
-        "n": "DSN",
-        "d": "2014-09-18",
-        "m1": "0.4"
+        "c": "https://github.com/a-norcliffe/sonode",
+        "n": "Second Order Neural Ordinary Differential Equation",
+        "d": "2020-06-12",
+        "m1": "0.37",
+        "m2": "99.63"
       },
       {
         "p": {
@@ -348,6 +337,17 @@
         "c": "",
         "n": "CKN",
         "d": "2014-06-12",
+        "m1": "0.4"
+      },
+      {
+        "p": {
+          "name": "Deeply-Supervised Nets",
+          "link": "http://arxiv.org/abs/1409.5185v2",
+          "authors": "Chen-Yu Lee, Saining Xie, Patrick Gallagher, Zhengyou Zhang, Zhuowen Tu"
+        },
+        "c": "https://github.com/ellisdg/3DUnetCNN",
+        "n": "DSN",
+        "d": "2014-09-18",
         "m1": "0.4"
       },
       {
@@ -464,17 +464,6 @@
       },
       {
         "p": {
-          "name": "Deep Convolutional Neural Networks as Generic Feature Extractors",
-          "link": "http://arxiv.org/abs/1710.02286v1",
-          "authors": "Lars Hertel, Erhardt Barth, Thomas Käster, Thomas Martinetz"
-        },
-        "c": "",
-        "n": "DCNN+GFE",
-        "d": "2017-10-06",
-        "m1": "0.5"
-      },
-      {
-        "p": {
           "name": "Training Very Deep Networks",
           "link": "http://arxiv.org/abs/1507.06228v2",
           "authors": "Rupesh Kumar Srivastava, Klaus Greff, Jürgen Schmidhuber"
@@ -482,6 +471,17 @@
         "c": "https://github.com/LiyuanLucasLiu/LM-LSTM-CRF",
         "n": "VDN",
         "d": "2015-07-22",
+        "m1": "0.5"
+      },
+      {
+        "p": {
+          "name": "Deep Convolutional Neural Networks as Generic Feature Extractors",
+          "link": "http://arxiv.org/abs/1710.02286v1",
+          "authors": "Lars Hertel, Erhardt Barth, Thomas Käster, Thomas Martinetz"
+        },
+        "c": "",
+        "n": "DCNN+GFE",
+        "d": "2017-10-06",
         "m1": "0.5"
       },
       {
@@ -520,6 +520,17 @@
       },
       {
         "p": {
+          "name": "PCANet: A Simple Deep Learning Baseline for Image Classification?",
+          "link": "http://arxiv.org/abs/1404.3606v2",
+          "authors": "Tsung-Han Chan, Kui Jia, Shenghua Gao, Jiwen Lu, Zinan Zeng, Yi Ma"
+        },
+        "c": "https://github.com/Ldpe2G/PCANet",
+        "n": "PCANet",
+        "d": "2014-04-14",
+        "m1": "0.6"
+      },
+      {
+        "p": {
           "name": "The Convolutional Tsetlin Machine",
           "link": "https://arxiv.org/abs/1905.09688v5",
           "authors": "Ole-Christoffer Granmo, Sondre Glimsdal, Lei Jiao, Morten Goodwin, Christian W. Omlin, Geir Thore Berge"
@@ -529,17 +540,6 @@
         "d": "2019-05-23",
         "m1": "0.6",
         "m2": "99.4"
-      },
-      {
-        "p": {
-          "name": "PCANet: A Simple Deep Learning Baseline for Image Classification?",
-          "link": "http://arxiv.org/abs/1404.3606v2",
-          "authors": "Tsung-Han Chan, Kui Jia, Shenghua Gao, Jiwen Lu, Zinan Zeng, Yi Ma"
-        },
-        "c": "https://github.com/Ldpe2G/PCANet",
-        "n": "PCANet",
-        "d": "2014-04-14",
-        "m1": "0.6"
       },
       {
         "p": {
@@ -565,17 +565,6 @@
       },
       {
         "p": {
-          "name": "Sparse Activity and Sparse Connectivity in Supervised Learning",
-          "link": "http://arxiv.org/abs/1603.08367v1",
-          "authors": "Markus Thom, Günther Palm"
-        },
-        "c": "",
-        "n": "Sparse Activity and Sparse Connectivity in Supervised Learning",
-        "d": "2016-03-28",
-        "m1": "0.8"
-      },
-      {
-        "p": {
           "name": "Explaining and Harnessing Adversarial Examples",
           "link": "http://arxiv.org/abs/1412.6572v3",
           "authors": "Ian J. Goodfellow, Jonathon Shlens, Christian Szegedy"
@@ -583,6 +572,17 @@
         "c": "https://github.com/cleverhans-lab/cleverhans",
         "n": "Explaining and Harnessing Adversarial Examples",
         "d": "2014-12-20",
+        "m1": "0.8"
+      },
+      {
+        "p": {
+          "name": "Sparse Activity and Sparse Connectivity in Supervised Learning",
+          "link": "http://arxiv.org/abs/1603.08367v1",
+          "authors": "Markus Thom, Günther Palm"
+        },
+        "c": "",
+        "n": "Sparse Activity and Sparse Connectivity in Supervised Learning",
+        "d": "2016-03-28",
         "m1": "0.8"
       },
       {
@@ -680,18 +680,6 @@
       },
       {
         "p": {
-          "name": "Augmented Neural ODEs",
-          "link": "https://arxiv.org/abs/1904.01681v3",
-          "authors": "Emilien Dupont, Arnaud Doucet, Yee Whye Teh"
-        },
-        "c": "https://github.com/EmilienDupont/augmented-neural-odes",
-        "n": "ANODE",
-        "d": "2019-04-02",
-        "m1": "1.8",
-        "m2": "98.2"
-      },
-      {
-        "p": {
           "name": "The Tsetlin Machine - A Game Theoretic Bandit Driven Approach to Optimal Pattern Recognition with Propositional Logic",
           "link": "http://arxiv.org/abs/1804.01508v10",
           "authors": "Ole-Christoffer Granmo"
@@ -699,6 +687,18 @@
         "c": "https://github.com/cair/TsetlinMachine",
         "n": "Tsetlin Machine",
         "d": "2018-04-04",
+        "m1": "1.8",
+        "m2": "98.2"
+      },
+      {
+        "p": {
+          "name": "Augmented Neural ODEs",
+          "link": "https://arxiv.org/abs/1904.01681v3",
+          "authors": "Emilien Dupont, Arnaud Doucet, Yee Whye Teh"
+        },
+        "c": "https://github.com/EmilienDupont/augmented-neural-odes",
+        "n": "ANODE",
+        "d": "2019-04-02",
         "m1": "1.8",
         "m2": "98.2"
       },

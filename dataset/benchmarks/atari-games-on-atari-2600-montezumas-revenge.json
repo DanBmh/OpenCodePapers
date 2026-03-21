@@ -483,25 +483,25 @@
       },
       {
         "p": {
-          "name": "Implicit Quantile Networks for Distributional Reinforcement Learning",
-          "link": "http://arxiv.org/abs/1806.06923v1",
-          "authors": "Will Dabney, Georg Ostrovski, David Silver, Rémi Munos"
+          "name": "Human level control through deep reinforcement learning",
+          "link": "https://www.nature.com/articles/nature14236",
+          "authors": "Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Andrei A. Rusu, Joel Veness, Marc G. Bellemare, Alex Graves, Martin Riedmiller, Andreas K. Fidjeland, Georg Ostrovski, Stig Petersen, Charles Beattie, Amir Sadik, Ioannis Antonoglou, Helen King, Dharshan Kumaran, Daan Wierstra, Shane Legg1 & Demis Hassabis"
         },
-        "c": "https://github.com/opendilab/DI-engine/blob/main/ding/policy/iqn.py",
-        "n": "IQN",
-        "d": "2018-06-14",
+        "c": "https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/tree/main/Deep_Reinforcement_Learning_with_Double_Q_learning",
+        "n": "Nature DQN",
+        "d": "2015-02-25",
         "m1": "0"
       },
       {
         "p": {
-          "name": "Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model",
-          "link": "https://arxiv.org/abs/1911.08265v2",
-          "authors": "Julian Schrittwieser, Ioannis Antonoglou, Thomas Hubert, Karen Simonyan, Laurent SIfre, Simon Schmitt, Arthur Guez, Edward Lockhart, Demis Hassabis, Thore Graepel, Timothy Lillicrap, David Silver"
+          "name": "Distributional Reinforcement Learning with Quantile Regression",
+          "link": "http://arxiv.org/abs/1710.10044v1",
+          "authors": "Will Dabney, Mark Rowland, Marc G. Bellemare, Rémi Munos"
         },
-        "c": "https://github.com/werner-duvaud/muzero-general",
-        "n": "MuZero",
-        "d": "2019-11-19",
-        "m1": "0.00"
+        "c": "https://github.com/DLR-RM/stable-baselines3",
+        "n": "QR-DQN-1",
+        "d": "2017-10-27",
+        "m1": "0"
       },
       {
         "p": {
@@ -513,6 +513,17 @@
         "n": "IMPALA (deep)",
         "d": "2018-02-05",
         "m1": "0.00"
+      },
+      {
+        "p": {
+          "name": "Implicit Quantile Networks for Distributional Reinforcement Learning",
+          "link": "http://arxiv.org/abs/1806.06923v1",
+          "authors": "Will Dabney, Georg Ostrovski, David Silver, Rémi Munos"
+        },
+        "c": "https://github.com/opendilab/DI-engine/blob/main/ding/policy/iqn.py",
+        "n": "IQN",
+        "d": "2018-06-14",
+        "m1": "0"
       },
       {
         "p": {
@@ -538,14 +549,14 @@
       },
       {
         "p": {
-          "name": "Distributional Reinforcement Learning with Quantile Regression",
-          "link": "http://arxiv.org/abs/1710.10044v1",
-          "authors": "Will Dabney, Mark Rowland, Marc G. Bellemare, Rémi Munos"
+          "name": "Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model",
+          "link": "https://arxiv.org/abs/1911.08265v2",
+          "authors": "Julian Schrittwieser, Ioannis Antonoglou, Thomas Hubert, Karen Simonyan, Laurent SIfre, Simon Schmitt, Arthur Guez, Edward Lockhart, Demis Hassabis, Thore Graepel, Timothy Lillicrap, David Silver"
         },
-        "c": "https://github.com/DLR-RM/stable-baselines3",
-        "n": "QR-DQN-1",
-        "d": "2017-10-27",
-        "m1": "0"
+        "c": "https://github.com/werner-duvaud/muzero-general",
+        "n": "MuZero",
+        "d": "2019-11-19",
+        "m1": "0.00"
       },
       {
         "p": {
@@ -567,17 +578,6 @@
         "c": "https://github.com/xinjinghao/color",
         "n": "ASL DDQN",
         "d": "2023-05-07",
-        "m1": "0"
-      },
-      {
-        "p": {
-          "name": "Human level control through deep reinforcement learning",
-          "link": "https://www.nature.com/articles/nature14236",
-          "authors": "Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Andrei A. Rusu, Joel Veness, Marc G. Bellemare, Alex Graves, Martin Riedmiller, Andreas K. Fidjeland, Georg Ostrovski, Stig Petersen, Charles Beattie, Amir Sadik, Ioannis Antonoglou, Helen King, Dharshan Kumaran, Daan Wierstra, Shane Legg1 & Demis Hassabis"
-        },
-        "c": "https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/tree/main/Deep_Reinforcement_Learning_with_Double_Q_learning",
-        "n": "Nature DQN",
-        "d": "2015-02-25",
         "m1": "0"
       }
     ]

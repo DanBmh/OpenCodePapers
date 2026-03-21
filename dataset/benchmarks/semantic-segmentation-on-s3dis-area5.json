@@ -220,19 +220,6 @@
       },
       {
         "p": {
-          "name": "PonderV2: Pave the Way for 3D Foundation Model with A Universal Pre-training Paradigm",
-          "link": "https://arxiv.org/abs/2310.08586v3",
-          "authors": "Haoyi Zhu, Honghui Yang, Xiaoyang Wu, Di Huang, Sha Zhang, Xianglong He, Hengshuang Zhao, Chunhua Shen, Yu Qiao, Tong He, Wanli Ouyang"
-        },
-        "c": "https://github.com/OpenGVLab/PonderV2",
-        "n": "PonderV2 + SparseUNet",
-        "d": "2023-10-12",
-        "m1": "73.2",
-        "m2": "79.0",
-        "m3": "92.2"
-      },
-      {
-        "p": {
           "name": "PointHR: Exploring High-Resolution Architectures for 3D Point Cloud Segmentation",
           "link": "https://arxiv.org/abs/2310.07743v1",
           "authors": "Haibo Qiu, Baosheng Yu, Yixin Chen, DaCheng Tao"
@@ -243,6 +230,19 @@
         "m1": "73.2",
         "m2": "78.7",
         "m3": "91.8"
+      },
+      {
+        "p": {
+          "name": "PonderV2: Pave the Way for 3D Foundation Model with A Universal Pre-training Paradigm",
+          "link": "https://arxiv.org/abs/2310.08586v3",
+          "authors": "Haoyi Zhu, Honghui Yang, Xiaoyang Wu, Di Huang, Sha Zhang, Xianglong He, Hengshuang Zhao, Chunhua Shen, Yu Qiao, Tong He, Wanli Ouyang"
+        },
+        "c": "https://github.com/OpenGVLab/PonderV2",
+        "n": "PonderV2 + SparseUNet",
+        "d": "2023-10-12",
+        "m1": "73.2",
+        "m2": "79.0",
+        "m3": "92.2"
       },
       {
         "p": {
@@ -260,19 +260,6 @@
       },
       {
         "p": {
-          "name": "SAT: Size-Aware Transformer for 3D Point Cloud Semantic Segmentation",
-          "link": "https://arxiv.org/abs/2301.06869v1",
-          "authors": "Junjie Zhou, Yongping Xiong, Chinwai Chiu, Fangyu Liu, Xiangyang Gong"
-        },
-        "c": "",
-        "n": "SAT (FAT)",
-        "d": "2023-01-17",
-        "m1": "72.6",
-        "m2": "78.8",
-        "m5": "N/A"
-      },
-      {
-        "p": {
           "name": "Point Transformer V2: Grouped Vector Attention and Partition-based Pooling",
           "link": "https://arxiv.org/abs/2210.05666v2",
           "authors": "Xiaoyang Wu, Yixing Lao, Li Jiang, Xihui Liu, Hengshuang Zhao"
@@ -283,6 +270,19 @@
         "m1": "72.6",
         "m2": "78.0",
         "m3": "91.6",
+        "m5": "N/A"
+      },
+      {
+        "p": {
+          "name": "SAT: Size-Aware Transformer for 3D Point Cloud Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2301.06869v1",
+          "authors": "Junjie Zhou, Yongping Xiong, Chinwai Chiu, Fangyu Liu, Xiangyang Gong"
+        },
+        "c": "",
+        "n": "SAT (FAT)",
+        "d": "2023-01-17",
+        "m1": "72.6",
+        "m2": "78.8",
         "m5": "N/A"
       },
       {
@@ -307,17 +307,14 @@
       },
       {
         "p": {
-          "name": "Window Normalization: Enhancing Point Cloud Understanding by Unifying Inconsistent Point Densities",
-          "link": "https://arxiv.org/abs/2212.02287v1",
-          "authors": "Qi Wang, Sheng Shi, Jiahui Li, Wuming Jiang, Xiangde Zhang"
+          "name": "Exploring Data-Efficient 3D Scene Understanding with Contrastive Scene Contexts",
+          "link": "https://arxiv.org/abs/2012.09165v3",
+          "authors": "Ji Hou, Benjamin Graham, Matthias Nießner, Saining Xie"
         },
-        "c": "https://github.com/DBDXSS/Window-Normalization",
-        "n": "WindowNorm+StratifiedTransformer",
-        "d": "2022-12-05",
-        "m1": "72.2",
-        "m2": "78.2",
-        "m3": "91.4",
-        "m5": "N/A"
+        "c": "https://github.com/Pointcept/Pointcept",
+        "n": "CSC+MinkUNet",
+        "d": "2020-12-16",
+        "m1": "72.2"
       },
       {
         "p": {
@@ -335,14 +332,17 @@
       },
       {
         "p": {
-          "name": "Exploring Data-Efficient 3D Scene Understanding with Contrastive Scene Contexts",
-          "link": "https://arxiv.org/abs/2012.09165v3",
-          "authors": "Ji Hou, Benjamin Graham, Matthias Nießner, Saining Xie"
+          "name": "Window Normalization: Enhancing Point Cloud Understanding by Unifying Inconsistent Point Densities",
+          "link": "https://arxiv.org/abs/2212.02287v1",
+          "authors": "Qi Wang, Sheng Shi, Jiahui Li, Wuming Jiang, Xiangde Zhang"
         },
-        "c": "https://github.com/Pointcept/Pointcept",
-        "n": "CSC+MinkUNet",
-        "d": "2020-12-16",
-        "m1": "72.2"
+        "c": "https://github.com/DBDXSS/Window-Normalization",
+        "n": "WindowNorm+StratifiedTransformer",
+        "d": "2022-12-05",
+        "m1": "72.2",
+        "m2": "78.2",
+        "m3": "91.4",
+        "m5": "N/A"
       },
       {
         "p": {
@@ -374,6 +374,19 @@
       },
       {
         "p": {
+          "name": "PointMixer: MLP-Mixer for Point Cloud Understanding",
+          "link": "https://arxiv.org/abs/2111.11187v5",
+          "authors": "Jaesung Choe, Chunghyun Park, Francois Rameau, Jaesik Park, In So Kweon"
+        },
+        "c": "https://github.com/lifebeyondexpectations/eccv22-pointmixer",
+        "n": "PointMixer",
+        "d": "2021-11-22",
+        "m1": "71.4",
+        "m2": "77.4",
+        "m5": "6.5M"
+      },
+      {
+        "p": {
           "name": "Window Normalization: Enhancing Point Cloud Understanding by Unifying Inconsistent Point Densities",
           "link": "https://arxiv.org/abs/2212.02287v1",
           "authors": "Qi Wang, Sheng Shi, Jiahui Li, Wuming Jiang, Xiangde Zhang"
@@ -385,19 +398,6 @@
         "m2": "77.9",
         "m3": "91.1",
         "m5": "N/A"
-      },
-      {
-        "p": {
-          "name": "PointMixer: MLP-Mixer for Point Cloud Understanding",
-          "link": "https://arxiv.org/abs/2111.11187v5",
-          "authors": "Jaesung Choe, Chunghyun Park, Francois Rameau, Jaesik Park, In So Kweon"
-        },
-        "c": "https://github.com/lifebeyondexpectations/eccv22-pointmixer",
-        "n": "PointMixer",
-        "d": "2021-11-22",
-        "m1": "71.4",
-        "m2": "77.4",
-        "m5": "6.5M"
       },
       {
         "p": {
@@ -492,20 +492,6 @@
       },
       {
         "p": {
-          "name": "Efficient 3D Semantic Segmentation with Superpoint Transformer",
-          "link": "https://arxiv.org/abs/2306.08045v2",
-          "authors": "Damien Robert, Hugo Raguet, Loic Landrieu"
-        },
-        "c": "https://github.com/drprojects/superpoint_transformer",
-        "n": "Superpoint Transformer",
-        "d": "2023-06-13",
-        "m1": "68.9",
-        "m2": "77.3",
-        "m3": "89.5",
-        "m5": "212K"
-      },
-      {
-        "p": {
           "name": "Surface Representation for Point Clouds",
           "link": "https://arxiv.org/abs/2205.05740v2",
           "authors": "Haoxi Ran, Jun Liu, Chengjie Wang"
@@ -518,6 +504,20 @@
         "m3": "90.2",
         "m4": "1.04G",
         "m5": "0.97M"
+      },
+      {
+        "p": {
+          "name": "Efficient 3D Semantic Segmentation with Superpoint Transformer",
+          "link": "https://arxiv.org/abs/2306.08045v2",
+          "authors": "Damien Robert, Hugo Raguet, Loic Landrieu"
+        },
+        "c": "https://github.com/drprojects/superpoint_transformer",
+        "n": "Superpoint Transformer",
+        "d": "2023-06-13",
+        "m1": "68.9",
+        "m2": "77.3",
+        "m3": "89.5",
+        "m5": "212K"
       },
       {
         "p": {
@@ -608,6 +608,19 @@
       },
       {
         "p": {
+          "name": "4D Spatio-Temporal ConvNets: Minkowski Convolutional Neural Networks",
+          "link": "https://arxiv.org/abs/1904.08755v4",
+          "authors": "Christopher Choy, JunYoung Gwak, Silvio Savarese"
+        },
+        "c": "https://github.com/NVIDIA/MinkowskiEngine",
+        "n": "MinkowskiNet",
+        "d": "2019-04-18",
+        "m1": "65.4",
+        "m2": "71.7",
+        "m5": "37.9M"
+      },
+      {
+        "p": {
           "name": "Semantic Segmentation for Real Point Cloud Scenes via Bilateral Augmentation and Adaptive Fusion",
           "link": "https://arxiv.org/abs/2103.07074v2",
           "authors": "Shi Qiu, Saeed Anwar, Nick Barnes"
@@ -619,19 +632,6 @@
         "m2": "73.1",
         "m3": "88.9",
         "m5": "N/A"
-      },
-      {
-        "p": {
-          "name": "4D Spatio-Temporal ConvNets: Minkowski Convolutional Neural Networks",
-          "link": "https://arxiv.org/abs/1904.08755v4",
-          "authors": "Christopher Choy, JunYoung Gwak, Silvio Savarese"
-        },
-        "c": "https://github.com/NVIDIA/MinkowskiEngine",
-        "n": "MinkowskiNet",
-        "d": "2019-04-18",
-        "m1": "65.4",
-        "m2": "71.7",
-        "m5": "37.9M"
       },
       {
         "p": {

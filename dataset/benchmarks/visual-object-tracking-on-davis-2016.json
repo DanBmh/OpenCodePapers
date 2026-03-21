@@ -221,6 +221,20 @@
       },
       {
         "p": {
+          "name": "Scalable Video Object Segmentation with Identification Mechanism",
+          "link": "https://arxiv.org/abs/2203.11442v8",
+          "authors": "Zongxin Yang, Jiaxu Miao, Yunchao Wei, Wenguan Wang, Xiaohan Wang, Yi Yang"
+        },
+        "c": "https://github.com/yoxu515/aot-benchmark",
+        "n": "R50-AOST (L'=2)",
+        "d": "2022-03-22",
+        "m1": "92.0",
+        "m2": "90.5",
+        "m5": "93.4",
+        "m8": "24.3"
+      },
+      {
+        "p": {
           "name": "XMem: Long-Term Video Object Segmentation with an Atkinson-Shiffrin Memory Model",
           "link": "https://arxiv.org/abs/2207.07115v2",
           "authors": "Ho Kei Cheng, Alexander G. Schwing"
@@ -245,20 +259,6 @@
         "m1": "92.0",
         "m2": "90.7",
         "m5": "93.2"
-      },
-      {
-        "p": {
-          "name": "Scalable Video Object Segmentation with Identification Mechanism",
-          "link": "https://arxiv.org/abs/2203.11442v8",
-          "authors": "Zongxin Yang, Jiaxu Miao, Yunchao Wei, Wenguan Wang, Xiaohan Wang, Yi Yang"
-        },
-        "c": "https://github.com/yoxu515/aot-benchmark",
-        "n": "R50-AOST (L'=2)",
-        "d": "2022-03-22",
-        "m1": "92.0",
-        "m2": "90.5",
-        "m5": "93.4",
-        "m8": "24.3"
       },
       {
         "p": {
@@ -289,20 +289,6 @@
       },
       {
         "p": {
-          "name": "Region Aware Video Object Segmentation with Deep Motion Modeling",
-          "link": "https://arxiv.org/abs/2207.10258v1",
-          "authors": "Bo Miao, Mohammed Bennamoun, Yongsheng Gao, Ajmal Mian"
-        },
-        "c": "",
-        "n": "RAVOS",
-        "d": "2022-07-21",
-        "m1": "91.7",
-        "m2": "90.8",
-        "m5": "92.6",
-        "m8": "58"
-      },
-      {
-        "p": {
           "name": "Rethinking Space-Time Networks with Improved Memory Coverage for Efficient Video Object Segmentation",
           "link": "https://arxiv.org/abs/2106.05210v2",
           "authors": "Ho Kei Cheng, Yu-Wing Tai, Chi-Keung Tang"
@@ -318,6 +304,20 @@
         "m6": "97.1",
         "m7": "4.3",
         "m8": "26.9"
+      },
+      {
+        "p": {
+          "name": "Region Aware Video Object Segmentation with Deep Motion Modeling",
+          "link": "https://arxiv.org/abs/2207.10258v1",
+          "authors": "Bo Miao, Mohammed Bennamoun, Yongsheng Gao, Ajmal Mian"
+        },
+        "c": "",
+        "n": "RAVOS",
+        "d": "2022-07-21",
+        "m1": "91.7",
+        "m2": "90.8",
+        "m5": "92.6",
+        "m8": "58"
       },
       {
         "p": {
@@ -422,6 +422,19 @@
       },
       {
         "p": {
+          "name": "Reliable Propagation-Correction Modulation for Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2112.02853v1",
+          "authors": "Xiaohao Xu, Jinglu Wang, Xiao Li, Yan Lu"
+        },
+        "c": "https://github.com/jerryx1110/rpcmvos",
+        "n": "RPCMVOS",
+        "d": "2021-12-06",
+        "m1": "90.6",
+        "m2": "87.1",
+        "m5": "94"
+      },
+      {
+        "p": {
           "name": "MobileVOS: Real-Time Video Object Segmentation Contrastive Learning meets Knowledge Distillation",
           "link": "https://arxiv.org/abs/2303.07815v1",
           "authors": "Roy Miles, Mehmet Kerim Yucel, Bruno Manganelli, Albert Saa-Garriga"
@@ -433,19 +446,6 @@
         "m2": "89.7",
         "m5": "91.6",
         "m8": "100.1"
-      },
-      {
-        "p": {
-          "name": "Reliable Propagation-Correction Modulation for Video Object Segmentation",
-          "link": "https://arxiv.org/abs/2112.02853v1",
-          "authors": "Xiaohao Xu, Jinglu Wang, Xiao Li, Yan Lu"
-        },
-        "c": "https://github.com/jerryx1110/rpcmvos",
-        "n": "RPCMVOS",
-        "d": "2021-12-06",
-        "m1": "90.6",
-        "m2": "87.1",
-        "m5": "94"
       },
       {
         "p": {
@@ -490,6 +490,19 @@
       },
       {
         "p": {
+          "name": "Collaborative Video Object Segmentation by Multi-Scale Foreground-Background Integration",
+          "link": "https://arxiv.org/abs/2010.06349v2",
+          "authors": "Zongxin Yang, Yunchao Wei, Yi Yang"
+        },
+        "c": "https://github.com/z-x-yang/CFBI",
+        "n": "CFBI+",
+        "d": "2020-10-13",
+        "m1": "89.9",
+        "m2": "88.7",
+        "m5": "91.1"
+      },
+      {
+        "p": {
           "name": "Associating Objects with Transformers for Video Object Segmentation",
           "link": "https://arxiv.org/abs/2106.02638v3",
           "authors": "Zongxin Yang, Yunchao Wei, Yi Yang"
@@ -501,19 +514,6 @@
         "m2": "88.7",
         "m5": "91.1",
         "m8": "29.6"
-      },
-      {
-        "p": {
-          "name": "Collaborative Video Object Segmentation by Multi-Scale Foreground-Background Integration",
-          "link": "https://arxiv.org/abs/2010.06349v2",
-          "authors": "Zongxin Yang, Yunchao Wei, Yi Yang"
-        },
-        "c": "https://github.com/z-x-yang/CFBI",
-        "n": "CFBI+",
-        "d": "2020-10-13",
-        "m1": "89.9",
-        "m2": "88.7",
-        "m5": "91.1"
       },
       {
         "p": {
@@ -534,6 +534,19 @@
       },
       {
         "p": {
+          "name": "Collaborative Video Object Segmentation by Foreground-Background Integration",
+          "link": "https://arxiv.org/abs/2003.08333v2",
+          "authors": "Zongxin Yang, Yunchao Wei, Yi Yang"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleVideo/blob/develop/docs/en/model_zoo/segmentation/cfbi.md",
+        "n": "CFBI",
+        "d": "2020-03-18",
+        "m1": "89.4",
+        "m2": "88.3",
+        "m5": "90.5"
+      },
+      {
+        "p": {
           "name": "Associating Objects with Transformers for Video Object Segmentation",
           "link": "https://arxiv.org/abs/2106.02638v3",
           "authors": "Zongxin Yang, Yunchao Wei, Yi Yang"
@@ -548,16 +561,17 @@
       },
       {
         "p": {
-          "name": "Collaborative Video Object Segmentation by Foreground-Background Integration",
-          "link": "https://arxiv.org/abs/2003.08333v2",
-          "authors": "Zongxin Yang, Yunchao Wei, Yi Yang"
+          "name": "Decoupling Features in Hierarchical Propagation for Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2210.09782v3",
+          "authors": "Zongxin Yang, Yi Yang"
         },
-        "c": "https://github.com/PaddlePaddle/PaddleVideo/blob/develop/docs/en/model_zoo/segmentation/cfbi.md",
-        "n": "CFBI",
-        "d": "2020-03-18",
-        "m1": "89.4",
-        "m2": "88.3",
-        "m5": "90.5"
+        "c": "https://github.com/yoxu515/aot-benchmark",
+        "n": "DeAOT-S",
+        "d": "2022-10-18",
+        "m1": "89.3",
+        "m2": "87.6",
+        "m5": "90.9",
+        "m8": "49.2"
       },
       {
         "p": {
@@ -572,20 +586,6 @@
         "m2": "88.7",
         "m5": "89.9",
         "m8": "86.4"
-      },
-      {
-        "p": {
-          "name": "Decoupling Features in Hierarchical Propagation for Video Object Segmentation",
-          "link": "https://arxiv.org/abs/2210.09782v3",
-          "authors": "Zongxin Yang, Yi Yang"
-        },
-        "c": "https://github.com/yoxu515/aot-benchmark",
-        "n": "DeAOT-S",
-        "d": "2022-10-18",
-        "m1": "89.3",
-        "m2": "87.6",
-        "m5": "90.9",
-        "m8": "49.2"
       },
       {
         "p": {

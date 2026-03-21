@@ -88,22 +88,6 @@
       },
       {
         "p": {
-          "name": "UniK3D: Universal Camera Monocular 3D Estimation",
-          "link": "https://arxiv.org/abs/2503.16591v1",
-          "authors": "Luigi Piccinelli, Christos Sakaridis, Mattia Segu, Yung-Hsu Yang, Siyuan Li, Wim Abbeloos, Luc van Gool"
-        },
-        "c": "https://github.com/lpiccinelli-eth/UniK3D",
-        "n": "UniK3D (FT, metric)",
-        "d": "2025-03-20",
-        "m1": "0.037",
-        "m2": "1.68",
-        "m4": "0.060",
-        "m5": "0.990",
-        "m6": "0.998",
-        "m7": "0.999"
-      },
-      {
-        "p": {
           "name": "UniDepthV2: Universal Monocular Metric Depth Estimation Made Simpler",
           "link": "https://arxiv.org/abs/2502.20110v1",
           "authors": "Luigi Piccinelli, Christos Sakaridis, Yung-Hsu Yang, Mattia Segu, Siyuan Li, Wim Abbeloos, Luc van Gool"
@@ -115,6 +99,22 @@
         "m2": "1.71",
         "m4": "0.061",
         "m5": "0.989",
+        "m6": "0.998",
+        "m7": "0.999"
+      },
+      {
+        "p": {
+          "name": "UniK3D: Universal Camera Monocular 3D Estimation",
+          "link": "https://arxiv.org/abs/2503.16591v1",
+          "authors": "Luigi Piccinelli, Christos Sakaridis, Mattia Segu, Yung-Hsu Yang, Siyuan Li, Wim Abbeloos, Luc van Gool"
+        },
+        "c": "https://github.com/lpiccinelli-eth/UniK3D",
+        "n": "UniK3D (FT, metric)",
+        "d": "2025-03-20",
+        "m1": "0.037",
+        "m2": "1.68",
+        "m4": "0.060",
+        "m5": "0.990",
         "m6": "0.998",
         "m7": "0.999"
       },
@@ -255,6 +255,40 @@
       },
       {
         "p": {
+          "name": "GEDepth: Ground Embedding for Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2309.09975v1",
+          "authors": "Xiaodong Yang, Zhuang Ma, Zhiyu Ji, Zhe Ren"
+        },
+        "c": "https://github.com/qcraftai/gedepth",
+        "n": "GEDepth",
+        "d": "2023-09-18",
+        "m1": "0.048",
+        "m2": "2.044",
+        "m3": "0.142",
+        "m4": "0.076",
+        "m5": "0.9763",
+        "m6": "0.9972",
+        "m7": "0.9993"
+      },
+      {
+        "p": {
+          "name": "EVP: Enhanced Visual Perception using Inverse Multi-Attentive Feature Refinement and Regularized Image-Text Alignment",
+          "link": "https://arxiv.org/abs/2312.08548v1",
+          "authors": "Mykola Lavreniuk, Shariq Farooq Bhat, Matthias Müller, Peter Wonka"
+        },
+        "c": "https://github.com/lavreniuk/evp",
+        "n": "EVP",
+        "d": "2023-12-13",
+        "m1": "0.048",
+        "m2": "2.015",
+        "m3": "0.136",
+        "m4": "0.073",
+        "m5": "0.980",
+        "m6": "0.998",
+        "m7": "1.000"
+      },
+      {
+        "p": {
           "name": "ECoDepth: Effective Conditioning of Diffusion Models for Monocular Depth Estimation",
           "link": "https://arxiv.org/abs/2403.18807v4",
           "authors": "Suraj Patni, Aradhye Agarwal, Chetan Arora"
@@ -286,40 +320,6 @@
         "m5": "0.98",
         "m6": "0.998",
         "m7": "1.000"
-      },
-      {
-        "p": {
-          "name": "EVP: Enhanced Visual Perception using Inverse Multi-Attentive Feature Refinement and Regularized Image-Text Alignment",
-          "link": "https://arxiv.org/abs/2312.08548v1",
-          "authors": "Mykola Lavreniuk, Shariq Farooq Bhat, Matthias Müller, Peter Wonka"
-        },
-        "c": "https://github.com/lavreniuk/evp",
-        "n": "EVP",
-        "d": "2023-12-13",
-        "m1": "0.048",
-        "m2": "2.015",
-        "m3": "0.136",
-        "m4": "0.073",
-        "m5": "0.980",
-        "m6": "0.998",
-        "m7": "1.000"
-      },
-      {
-        "p": {
-          "name": "GEDepth: Ground Embedding for Monocular Depth Estimation",
-          "link": "https://arxiv.org/abs/2309.09975v1",
-          "authors": "Xiaodong Yang, Zhuang Ma, Zhiyu Ji, Zhe Ren"
-        },
-        "c": "https://github.com/qcraftai/gedepth",
-        "n": "GEDepth",
-        "d": "2023-09-18",
-        "m1": "0.048",
-        "m2": "2.044",
-        "m3": "0.142",
-        "m4": "0.076",
-        "m5": "0.9763",
-        "m6": "0.9972",
-        "m7": "0.9993"
       },
       {
         "p": {
@@ -357,40 +357,6 @@
       },
       {
         "p": {
-          "name": "IEBins: Iterative Elastic Bins for Monocular Depth Estimation",
-          "link": "https://arxiv.org/abs/2309.14137v1",
-          "authors": "Shuwei Shao, Zhongcai Pei, Xingming Wu, Zhong Liu, Weihai Chen, Zhengguo Li"
-        },
-        "c": "https://github.com/shuweishao/iebins",
-        "n": "IEBins",
-        "d": "2023-09-25",
-        "m1": "0.050",
-        "m2": "2.011",
-        "m3": "0.142",
-        "m4": "0.075",
-        "m5": "0.978",
-        "m6": "0.998",
-        "m7": "0.999"
-      },
-      {
-        "p": {
-          "name": "NDDepth: Normal-Distance Assisted Monocular Depth Estimation",
-          "link": "https://arxiv.org/abs/2309.10592v2",
-          "authors": "Shuwei Shao, Zhongcai Pei, Weihai Chen, Xingming Wu, Zhengguo Li"
-        },
-        "c": "https://github.com/ShuweiShao/NDDepth",
-        "n": "NDDepth",
-        "d": "2023-09-19",
-        "m1": "0.050",
-        "m2": "2.025",
-        "m3": "0.141",
-        "m4": "0.075",
-        "m5": "0.978",
-        "m6": "0.998",
-        "m7": "0.999"
-      },
-      {
-        "p": {
           "name": "URCDC-Depth: Uncertainty Rectified Cross-Distillation with CutFlip for Monocular Depth Estimation",
           "link": "https://arxiv.org/abs/2302.08149v2",
           "authors": "Shuwei Shao, Zhongcai Pei, Weihai Chen, Ran Li, Zhong Liu, Zhengguo Li"
@@ -403,6 +369,23 @@
         "m3": "0.142",
         "m4": "0.076",
         "m5": "0.977",
+        "m6": "0.997",
+        "m7": "0.999"
+      },
+      {
+        "p": {
+          "name": "DDP: Diffusion Model for Dense Visual Prediction",
+          "link": "https://arxiv.org/abs/2303.17559v2",
+          "authors": "Yuanfeng Ji, Zhe Chen, Enze Xie, Lanqing Hong, Xihui Liu, Zhaoqiang Liu, Tong Lu, Zhenguo Li, Ping Luo"
+        },
+        "c": "https://github.com/jiyuanfeng/ddp",
+        "n": "DDP (Swin-L, step-3)",
+        "d": "2023-03-30",
+        "m1": "0.050",
+        "m2": "2.072",
+        "m3": "0.148",
+        "m4": "0.076",
+        "m5": "0.975",
         "m6": "0.997",
         "m7": "0.999"
       },
@@ -425,19 +408,36 @@
       },
       {
         "p": {
-          "name": "DDP: Diffusion Model for Dense Visual Prediction",
-          "link": "https://arxiv.org/abs/2303.17559v2",
-          "authors": "Yuanfeng Ji, Zhe Chen, Enze Xie, Lanqing Hong, Xihui Liu, Zhaoqiang Liu, Tong Lu, Zhenguo Li, Ping Luo"
+          "name": "NDDepth: Normal-Distance Assisted Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2309.10592v2",
+          "authors": "Shuwei Shao, Zhongcai Pei, Weihai Chen, Xingming Wu, Zhengguo Li"
         },
-        "c": "https://github.com/jiyuanfeng/ddp",
-        "n": "DDP (Swin-L, step-3)",
-        "d": "2023-03-30",
+        "c": "https://github.com/ShuweiShao/NDDepth",
+        "n": "NDDepth",
+        "d": "2023-09-19",
         "m1": "0.050",
-        "m2": "2.072",
-        "m3": "0.148",
-        "m4": "0.076",
-        "m5": "0.975",
-        "m6": "0.997",
+        "m2": "2.025",
+        "m3": "0.141",
+        "m4": "0.075",
+        "m5": "0.978",
+        "m6": "0.998",
+        "m7": "0.999"
+      },
+      {
+        "p": {
+          "name": "IEBins: Iterative Elastic Bins for Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2309.14137v1",
+          "authors": "Shuwei Shao, Zhongcai Pei, Xingming Wu, Zhong Liu, Weihai Chen, Zhengguo Li"
+        },
+        "c": "https://github.com/shuweishao/iebins",
+        "n": "IEBins",
+        "d": "2023-09-25",
+        "m1": "0.050",
+        "m2": "2.011",
+        "m3": "0.142",
+        "m4": "0.075",
+        "m5": "0.978",
+        "m6": "0.998",
         "m7": "0.999"
       },
       {
@@ -476,40 +476,6 @@
       },
       {
         "p": {
-          "name": "Revealing the Dark Secrets of Masked Image Modeling",
-          "link": "https://arxiv.org/abs/2205.13543v2",
-          "authors": "Zhenda Xie, Zigang Geng, Jingcheng Hu, Zheng Zhang, Han Hu, Yue Cao"
-        },
-        "c": "https://github.com/SwinTransformer/MIM-Depth-Estimation",
-        "n": "SwinV2-B 1K-MIM",
-        "d": "2022-05-26",
-        "m1": "0.052",
-        "m2": "2.050",
-        "m3": "0.148",
-        "m4": "0.078",
-        "m5": "0.976",
-        "m6": "0.998",
-        "m7": "0.999"
-      },
-      {
-        "p": {
-          "name": "BinsFormer: Revisiting Adaptive Bins for Monocular Depth Estimation",
-          "link": "https://arxiv.org/abs/2204.00987v1",
-          "authors": "Zhenyu Li, Xuyang Wang, Xianming Liu, Junjun Jiang"
-        },
-        "c": "https://github.com/zhyever/monocular-depth-estimation-toolbox",
-        "n": "BinsFormer",
-        "d": "2022-04-03",
-        "m1": "0.052",
-        "m2": "2.098",
-        "m3": "0.151",
-        "m4": "0.079",
-        "m5": "0.974",
-        "m6": "0.997",
-        "m7": "0.999"
-      },
-      {
-        "p": {
           "name": "NeW CRFs: Neural Window Fully-connected CRFs for Monocular Depth Estimation",
           "link": "https://arxiv.org/abs/2203.01502v2",
           "authors": "Weihao Yuan, Xiaodong Gu, Zuozhuo Dai, Siyu Zhu, Ping Tan"
@@ -540,6 +506,40 @@
         "m4": "0.079",
         "m5": "0.975",
         "m6": "0.997",
+        "m7": "0.999"
+      },
+      {
+        "p": {
+          "name": "BinsFormer: Revisiting Adaptive Bins for Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2204.00987v1",
+          "authors": "Zhenyu Li, Xuyang Wang, Xianming Liu, Junjun Jiang"
+        },
+        "c": "https://github.com/zhyever/monocular-depth-estimation-toolbox",
+        "n": "BinsFormer",
+        "d": "2022-04-03",
+        "m1": "0.052",
+        "m2": "2.098",
+        "m3": "0.151",
+        "m4": "0.079",
+        "m5": "0.974",
+        "m6": "0.997",
+        "m7": "0.999"
+      },
+      {
+        "p": {
+          "name": "Revealing the Dark Secrets of Masked Image Modeling",
+          "link": "https://arxiv.org/abs/2205.13543v2",
+          "authors": "Zhenda Xie, Zigang Geng, Jingcheng Hu, Zheng Zhang, Han Hu, Yue Cao"
+        },
+        "c": "https://github.com/SwinTransformer/MIM-Depth-Estimation",
+        "n": "SwinV2-B 1K-MIM",
+        "d": "2022-05-26",
+        "m1": "0.052",
+        "m2": "2.050",
+        "m3": "0.148",
+        "m4": "0.078",
+        "m5": "0.976",
+        "m6": "0.998",
         "m7": "0.999"
       },
       {
@@ -591,22 +591,6 @@
       },
       {
         "p": {
-          "name": "Global-Local Path Networks for Monocular Depth Estimation with Vertical CutDepth",
-          "link": "https://arxiv.org/abs/2201.07436v3",
-          "authors": "Doyeon Kim, Woonghyun Ka, Pyungwhan Ahn, Donggyu Joo, Sehwan Chun, Junmo Kim"
-        },
-        "c": "https://github.com/huggingface/transformers",
-        "n": "GLPDepth",
-        "d": "2022-01-19",
-        "m1": "0.057",
-        "m2": "2.297",
-        "m4": "0.086",
-        "m5": "0.967",
-        "m6": "0.996",
-        "m7": "0.999"
-      },
-      {
-        "p": {
           "name": "NVS-MonoDepth: Improving Monocular Depth Prediction with Novel View Synthesis",
           "link": "https://arxiv.org/abs/2112.12577v1",
           "authors": "Zuria Bauer, Zuoyue Li, Sergio Orts-Escolano, Miguel Cazorla, Marc Pollefeys, Martin R. Oswald"
@@ -619,17 +603,16 @@
       },
       {
         "p": {
-          "name": "Depthformer : Multiscale Vision Transformer For Monocular Depth Estimation With Local Global Information Fusion",
-          "link": "https://arxiv.org/abs/2207.04535v2",
-          "authors": "Ashutosh Agarwal, Chetan Arora"
+          "name": "Global-Local Path Networks for Monocular Depth Estimation with Vertical CutDepth",
+          "link": "https://arxiv.org/abs/2201.07436v3",
+          "authors": "Doyeon Kim, Woonghyun Ka, Pyungwhan Ahn, Donggyu Joo, Sehwan Chun, Junmo Kim"
         },
-        "c": "https://github.com/ashutosh1807/depthformer",
-        "n": "Depthformer",
-        "d": "2022-07-10",
-        "m1": "0.058",
-        "m2": "2.285",
-        "m3": "0.187",
-        "m4": " 0.087",
+        "c": "https://github.com/huggingface/transformers",
+        "n": "GLPDepth",
+        "d": "2022-01-19",
+        "m1": "0.057",
+        "m2": "2.297",
+        "m4": "0.086",
         "m5": "0.967",
         "m6": "0.996",
         "m7": "0.999"
@@ -648,6 +631,23 @@
         "m4": "0.088",
         "m5": "0.964",
         "m6": "0.995",
+        "m7": "0.999"
+      },
+      {
+        "p": {
+          "name": "Depthformer : Multiscale Vision Transformer For Monocular Depth Estimation With Local Global Information Fusion",
+          "link": "https://arxiv.org/abs/2207.04535v2",
+          "authors": "Ashutosh Agarwal, Chetan Arora"
+        },
+        "c": "https://github.com/ashutosh1807/depthformer",
+        "n": "Depthformer",
+        "d": "2022-07-10",
+        "m1": "0.058",
+        "m2": "2.285",
+        "m3": "0.187",
+        "m4": " 0.087",
+        "m5": "0.967",
+        "m6": "0.996",
         "m7": "0.999"
       },
       {
@@ -829,6 +829,17 @@
       },
       {
         "p": {
+          "name": "Enhancing self-supervised monocular depth estimation with traditional visual odometry",
+          "link": "https://arxiv.org/abs/1908.03127v2",
+          "authors": "Lorenzo Andraghetti, Panteleimon Myriokefalitakis, Pier Luigi Dovesi, Belen Luque, Matteo Poggi, Alessandro Pieropan, Stefano Mattoccia"
+        },
+        "c": "",
+        "n": "VOMonodepth",
+        "d": "2019-08-08",
+        "m1": "0.091"
+      },
+      {
+        "p": {
           "name": "Manydepth2: Motion-Aware Self-Supervised Multi-Frame Monocular Depth Estimation in Dynamic Scenes",
           "link": "https://arxiv.org/abs/2312.15268v8",
           "authors": "Kaichen Zhou, Jia-Wang Bian, Jian-Qing Zheng, JiaXing Zhong, Qian Xie, Niki Trigoni, Andrew Markham"
@@ -843,17 +854,6 @@
         "m5": "0.909",
         "m6": "0.968",
         "m7": "0.984"
-      },
-      {
-        "p": {
-          "name": "Enhancing self-supervised monocular depth estimation with traditional visual odometry",
-          "link": "https://arxiv.org/abs/1908.03127v2",
-          "authors": "Lorenzo Andraghetti, Panteleimon Myriokefalitakis, Pier Luigi Dovesi, Belen Luque, Matteo Poggi, Alessandro Pieropan, Stefano Mattoccia"
-        },
-        "c": "",
-        "n": "VOMonodepth",
-        "d": "2019-08-08",
-        "m1": "0.091"
       },
       {
         "p": {
@@ -879,6 +879,17 @@
       },
       {
         "p": {
+          "name": "Monocular Depth Estimation by Learning from Heterogeneous Datasets",
+          "link": "http://arxiv.org/abs/1803.08018v2",
+          "authors": "Akhil Gurram, Onay Urfalioglu, Ibrahim Halfaoui, Fahd Bouzaraa, Antonio M. Lopez"
+        },
+        "c": "",
+        "n": "CFA",
+        "d": "2018-03-21",
+        "m1": "0.096"
+      },
+      {
+        "p": {
           "name": "Learning monocular depth estimation infusing traditional stereo knowledge",
           "link": "http://arxiv.org/abs/1904.04144v1",
           "authors": "Fabio Tosi, Filippo Aleotti, Matteo Poggi, Stefano Mattoccia"
@@ -897,17 +908,6 @@
         "c": "https://github.com/jahaniam/semidepth",
         "n": "SemiDepth",
         "d": "2019-05-18",
-        "m1": "0.096"
-      },
-      {
-        "p": {
-          "name": "Monocular Depth Estimation by Learning from Heterogeneous Datasets",
-          "link": "http://arxiv.org/abs/1803.08018v2",
-          "authors": "Akhil Gurram, Onay Urfalioglu, Ibrahim Halfaoui, Fahd Bouzaraa, Antonio M. Lopez"
-        },
-        "c": "",
-        "n": "CFA",
-        "d": "2018-03-21",
         "m1": "0.096"
       },
       {
@@ -999,6 +999,17 @@
       },
       {
         "p": {
+          "name": "Learn Stereo, Infer Mono: Siamese Networks for Self-Supervised, Monocular, Depth Estimation",
+          "link": "http://arxiv.org/abs/1905.00401v1",
+          "authors": "Matan Goldman, Tal Hassner, Shai Avidan"
+        },
+        "c": "https://github.com/mtngld/lsim",
+        "n": "LSIM",
+        "d": "2019-05-01",
+        "m1": "0.113"
+      },
+      {
+        "p": {
           "name": "Toward Hierarchical Self-Supervised Monocular Absolute Depth Estimation for Autonomous Driving Applications",
           "link": "https://arxiv.org/abs/2004.05560v2",
           "authors": "Feng Xue, Guirong Zhuo, Ziyuan Huang, Wufei Fu, Zhuoyue Wu, Marcelo H. Ang Jr"
@@ -1012,17 +1023,6 @@
         "m5": "0.877",
         "m6": "0.960",
         "m7": "0.981"
-      },
-      {
-        "p": {
-          "name": "Learn Stereo, Infer Mono: Siamese Networks for Self-Supervised, Monocular, Depth Estimation",
-          "link": "http://arxiv.org/abs/1905.00401v1",
-          "authors": "Matan Goldman, Tal Hassner, Shai Avidan"
-        },
-        "c": "https://github.com/mtngld/lsim",
-        "n": "LSIM",
-        "d": "2019-05-01",
-        "m1": "0.113"
       },
       {
         "p": {
@@ -1102,17 +1102,6 @@
       },
       {
         "p": {
-          "name": "Self-supervised Learning for Single View Depth and Surface Normal Estimation",
-          "link": "http://arxiv.org/abs/1903.00112v1",
-          "authors": "Huangying Zhan, Chamara Saroj Weerasekera, Ravi Garg, Ian Reid"
-        },
-        "c": "",
-        "n": "SelfDepthNorm",
-        "d": "2019-03-01",
-        "m1": "0.133"
-      },
-      {
-        "p": {
           "name": "SIGNet: Semantic Instance Aided Unsupervised 3D Geometry Perception",
           "link": "http://arxiv.org/abs/1812.05642v2",
           "authors": "Yue Meng, Yongxi Lu, Aman Raj, Samuel Sunarjo, Rui Guo, Tara Javidi, Gaurav Bansal, Dinesh Bharadia"
@@ -1120,6 +1109,17 @@
         "c": "https://github.com/mengyuest/SIGNet",
         "n": "SIGNet",
         "d": "2018-12-13",
+        "m1": "0.133"
+      },
+      {
+        "p": {
+          "name": "Self-supervised Learning for Single View Depth and Surface Normal Estimation",
+          "link": "http://arxiv.org/abs/1903.00112v1",
+          "authors": "Huangying Zhan, Chamara Saroj Weerasekera, Ravi Garg, Ian Reid"
+        },
+        "c": "",
+        "n": "SelfDepthNorm",
+        "d": "2019-03-01",
         "m1": "0.133"
       },
       {
@@ -1168,6 +1168,17 @@
       },
       {
         "p": {
+          "name": "Geometry-Aware Symmetric Domain Adaptation for Monocular Depth Estimation",
+          "link": "http://arxiv.org/abs/1904.01870v1",
+          "authors": "Shanshan Zhao, Huan Fu, Mingming Gong, DaCheng Tao"
+        },
+        "c": "https://github.com/sshan-zhao/GASDA",
+        "n": "GASDA",
+        "d": "2019-04-03",
+        "m1": "0.149"
+      },
+      {
+        "p": {
           "name": "Learning to Recover 3D Scene Shape from a Single Image",
           "link": "https://arxiv.org/abs/2012.09365v1",
           "authors": "Wei Yin, Jianming Zhang, Oliver Wang, Simon Niklaus, Long Mai, Simon Chen, Chunhua Shen"
@@ -1177,17 +1188,6 @@
         "d": "2020-12-17",
         "m1": "0.149",
         "m5": "0.784"
-      },
-      {
-        "p": {
-          "name": "Geometry-Aware Symmetric Domain Adaptation for Monocular Depth Estimation",
-          "link": "http://arxiv.org/abs/1904.01870v1",
-          "authors": "Shanshan Zhao, Huan Fu, Mingming Gong, DaCheng Tao"
-        },
-        "c": "https://github.com/sshan-zhao/GASDA",
-        "n": "GASDA",
-        "d": "2019-04-03",
-        "m1": "0.149"
       },
       {
         "p": {

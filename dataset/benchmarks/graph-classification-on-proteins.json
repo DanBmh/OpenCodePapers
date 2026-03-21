@@ -344,17 +344,6 @@
       },
       {
         "p": {
-          "name": "How Attentive are Graph Attention Networks?",
-          "link": "https://arxiv.org/abs/2105.14491v3",
-          "authors": "Shaked Brody, Uri Alon, Eran Yahav"
-        },
-        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
-        "n": "GATv2",
-        "d": "2021-05-30",
-        "m1": "77.679±2.187"
-      },
-      {
-        "p": {
           "name": "Principal Neighbourhood Aggregation for Graph Nets",
           "link": "https://arxiv.org/abs/2004.05718v5",
           "authors": "Gabriele Corso, Luca Cavalleri, Dominique Beaini, Pietro Liò, Petar Veličković"
@@ -363,6 +352,17 @@
         "n": "PNA",
         "d": "2020-04-12",
         "m1": "77.679±3.281"
+      },
+      {
+        "p": {
+          "name": "How Attentive are Graph Attention Networks?",
+          "link": "https://arxiv.org/abs/2105.14491v3",
+          "authors": "Shaked Brody, Uri Alon, Eran Yahav"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+        "n": "GATv2",
+        "d": "2021-05-30",
+        "m1": "77.679±2.187"
       },
       {
         "p": {
@@ -542,13 +542,13 @@
       },
       {
         "p": {
-          "name": "Weisfeiler and Leman Go Neural: Higher-order Graph Neural Networks",
-          "link": "https://arxiv.org/abs/1810.02244v5",
-          "authors": "Christopher Morris, Martin Ritzert, Matthias Fey, William L. Hamilton, Jan Eric Lenssen, Gaurav Rattan, Martin Grohe"
+          "name": "On Valid Optimal Assignment Kernels and Applications to Graph Classification",
+          "link": "http://arxiv.org/abs/1606.01141v3",
+          "authors": "Nils M. Kriege, Pierre-Louis Giscard, Richard C. Wilson"
         },
-        "c": "https://github.com/chrsmrrs/k-gnn",
-        "n": "Shortest-Path Kernel",
-        "d": "2018-10-04",
+        "c": "",
+        "n": "WL-OA",
+        "d": "2016-06-03",
         "m1": "76.4%"
       },
       {
@@ -564,13 +564,13 @@
       },
       {
         "p": {
-          "name": "On Valid Optimal Assignment Kernels and Applications to Graph Classification",
-          "link": "http://arxiv.org/abs/1606.01141v3",
-          "authors": "Nils M. Kriege, Pierre-Louis Giscard, Richard C. Wilson"
+          "name": "Weisfeiler and Leman Go Neural: Higher-order Graph Neural Networks",
+          "link": "https://arxiv.org/abs/1810.02244v5",
+          "authors": "Christopher Morris, Martin Ritzert, Matthias Fey, William L. Hamilton, Jan Eric Lenssen, Gaurav Rattan, Martin Grohe"
         },
-        "c": "",
-        "n": "WL-OA",
-        "d": "2016-06-03",
+        "c": "https://github.com/chrsmrrs/k-gnn",
+        "n": "Shortest-Path Kernel",
+        "d": "2018-10-04",
         "m1": "76.4%"
       },
       {
@@ -806,17 +806,6 @@
       },
       {
         "p": {
-          "name": "Fast Graph Representation Learning with PyTorch Geometric",
-          "link": "http://arxiv.org/abs/1903.02428v3",
-          "authors": "Matthias Fey, Jan Eric Lenssen"
-        },
-        "c": "https://github.com/rusty1s/pytorch_geometric",
-        "n": "DiffPool",
-        "d": "2019-03-06",
-        "m1": "75.1%"
-      },
-      {
-        "p": {
           "name": "DGCNN: Disordered Graph Convolutional Neural Network Based on the Gaussian Mixture Model",
           "link": "http://arxiv.org/abs/1712.03563v1",
           "authors": "Bo Wu, Yang Liu, Bo Lang, Lei Huang"
@@ -824,6 +813,17 @@
         "c": "",
         "n": "DGCNN",
         "d": "2017-12-10",
+        "m1": "75.1%"
+      },
+      {
+        "p": {
+          "name": "Fast Graph Representation Learning with PyTorch Geometric",
+          "link": "http://arxiv.org/abs/1903.02428v3",
+          "authors": "Matthias Fey, Jan Eric Lenssen"
+        },
+        "c": "https://github.com/rusty1s/pytorch_geometric",
+        "n": "DiffPool",
+        "d": "2019-03-06",
         "m1": "75.1%"
       },
       {
@@ -1015,17 +1015,6 @@
       },
       {
         "p": {
-          "name": "Hierarchical Representation Learning in Graph Neural Networks with Node Decimation Pooling",
-          "link": "https://arxiv.org/abs/1910.11436v3",
-          "authors": "Filippo Maria Bianchi, Daniele Grattarola, Lorenzo Livi, Cesare Alippi"
-        },
-        "c": "https://github.com/danielegrattarola/decimation-pooling",
-        "n": "Graph2Vec",
-        "d": "2019-10-24",
-        "m1": "73.3%"
-      },
-      {
-        "p": {
           "name": "graph2vec: Learning Distributed Representations of Graphs",
           "link": "http://arxiv.org/abs/1707.05005v1",
           "authors": "Annamalai Narayanan, Mahinthan Chandramohan, Rajasekar Venkatesan, Lihui Chen, Yang Liu, Shantanu Jaiswal"
@@ -1034,6 +1023,17 @@
         "n": "graph2vec",
         "d": "2017-07-17",
         "m1": "73.3% ± 2.05%"
+      },
+      {
+        "p": {
+          "name": "Hierarchical Representation Learning in Graph Neural Networks with Node Decimation Pooling",
+          "link": "https://arxiv.org/abs/1910.11436v3",
+          "authors": "Filippo Maria Bianchi, Daniele Grattarola, Lorenzo Livi, Cesare Alippi"
+        },
+        "c": "https://github.com/danielegrattarola/decimation-pooling",
+        "n": "Graph2Vec",
+        "d": "2019-10-24",
+        "m1": "73.3%"
       },
       {
         "p": {
@@ -1059,6 +1059,17 @@
       },
       {
         "p": {
+          "name": "A simple yet effective baseline for non-attributed graph classification",
+          "link": "https://arxiv.org/abs/1811.03508v3",
+          "authors": "Chen Cai, Yusu Wang"
+        },
+        "c": "https://github.com/benedekrozemberczki/karateclub",
+        "n": "LDP",
+        "d": "2018-11-08",
+        "m1": "72.7%"
+      },
+      {
+        "p": {
           "name": "Strengthening structural baselines for graph classification using Local Topological Profile",
           "link": "https://arxiv.org/abs/2305.00724v1",
           "authors": "Jakub Adamczyk, Wojciech Czech"
@@ -1068,17 +1079,6 @@
         "d": "2023-05-01",
         "m1": "72.7 ± 4.2",
         "m2": "72.7 ± 4.2"
-      },
-      {
-        "p": {
-          "name": "A simple yet effective baseline for non-attributed graph classification",
-          "link": "https://arxiv.org/abs/1811.03508v3",
-          "authors": "Chen Cai, Yusu Wang"
-        },
-        "c": "https://github.com/benedekrozemberczki/karateclub",
-        "n": "LDP",
-        "d": "2018-11-08",
-        "m1": "72.7%"
       },
       {
         "p": {
@@ -1159,17 +1159,6 @@
       },
       {
         "p": {
-          "name": "Fine-tuning Graph Neural Networks by Preserving Graph Generative Patterns",
-          "link": "https://arxiv.org/abs/2312.13583v1",
-          "authors": "Yifei Sun, Qi Zhu, Yang Yang, Chunping Wang, Tianyu Fan, Jiajun Zhu, Lei Chen"
-        },
-        "c": "https://github.com/zjunet/G-Tuning",
-        "n": "G-Tuning",
-        "d": "2023-12-21",
-        "m2": "72.05"
-      },
-      {
-        "p": {
           "name": "0/1 Deep Neural Networks via Block Coordinate Descent",
           "link": "https://arxiv.org/abs/2206.09379v2",
           "authors": "HUI ZHANG, Shenglong Zhou, Geoffrey Ye Li, Naihua Xiu"
@@ -1178,6 +1167,17 @@
         "n": "Eff.resistance graph  kernel",
         "d": "2022-06-19",
         "m1": "65.7% ± 4.2%"
+      },
+      {
+        "p": {
+          "name": "Fine-tuning Graph Neural Networks by Preserving Graph Generative Patterns",
+          "link": "https://arxiv.org/abs/2312.13583v1",
+          "authors": "Yifei Sun, Qi Zhu, Yang Yang, Chunping Wang, Tianyu Fan, Jiajun Zhu, Lei Chen"
+        },
+        "c": "https://github.com/zjunet/G-Tuning",
+        "n": "G-Tuning",
+        "d": "2023-12-21",
+        "m2": "72.05"
       }
     ]
   }

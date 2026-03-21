@@ -346,6 +346,17 @@
       },
       {
         "p": {
+          "name": "Simple Copy-Paste is a Strong Data Augmentation Method for Instance Segmentation",
+          "link": "https://arxiv.org/abs/2012.07177v2",
+          "authors": "Golnaz Ghiasi, Yin Cui, Aravind Srinivas, Rui Qian, Tsung-Yi Lin, Ekin D. Cubuk, Quoc V. Le, Barret Zoph"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleOCR",
+        "n": "Cascade Eff-B7 NAS-FPN (1280, self-training Copy Paste, single-scale)",
+        "d": "2020-12-13",
+        "m1": "49.1"
+      },
+      {
+        "p": {
           "name": "Instances as Queries",
           "link": "https://arxiv.org/abs/2105.01928v3",
           "authors": "Yuxin Fang, Shusheng Yang, Xinggang Wang, Yu Li, Chen Fang, Ying Shan, Bin Feng, Wenyu Liu"
@@ -359,17 +370,6 @@
         "m4": "31.5",
         "m5": "51.8",
         "m6": "63.2"
-      },
-      {
-        "p": {
-          "name": "Simple Copy-Paste is a Strong Data Augmentation Method for Instance Segmentation",
-          "link": "https://arxiv.org/abs/2012.07177v2",
-          "authors": "Golnaz Ghiasi, Yin Cui, Aravind Srinivas, Rui Qian, Tsung-Yi Lin, Ekin D. Cubuk, Quoc V. Le, Barret Zoph"
-        },
-        "c": "https://github.com/PaddlePaddle/PaddleOCR",
-        "n": "Cascade Eff-B7 NAS-FPN (1280, self-training Copy Paste, single-scale)",
-        "d": "2020-12-13",
-        "m1": "49.1"
       },
       {
         "p": {
@@ -849,21 +849,6 @@
       },
       {
         "p": {
-          "name": "K-Net: Towards Unified Image Segmentation",
-          "link": "https://arxiv.org/abs/2106.14855v2",
-          "authors": "Wenwei Zhang, Jiangmiao Pang, Kai Chen, Chen Change Loy"
-        },
-        "c": "https://github.com/zwwwayne/k-net",
-        "n": "K-Net-N256 (ResNet-101)",
-        "d": "2021-06-28",
-        "m1": "40.6%",
-        "m2": "63.3",
-        "m4": "18.8",
-        "m5": "43.3",
-        "m6": "59"
-      },
-      {
-        "p": {
           "name": "CenterMask : Real-Time Anchor-Free Instance Segmentation",
           "link": "https://arxiv.org/abs/1911.06667v6",
           "authors": "Youngwan Lee, Jongyoul Park"
@@ -877,6 +862,21 @@
         "m4": "20.1",
         "m5": "42.8",
         "m6": "57.0"
+      },
+      {
+        "p": {
+          "name": "K-Net: Towards Unified Image Segmentation",
+          "link": "https://arxiv.org/abs/2106.14855v2",
+          "authors": "Wenwei Zhang, Jiangmiao Pang, Kai Chen, Chen Change Loy"
+        },
+        "c": "https://github.com/zwwwayne/k-net",
+        "n": "K-Net-N256 (ResNet-101)",
+        "d": "2021-06-28",
+        "m1": "40.6%",
+        "m2": "63.3",
+        "m4": "18.8",
+        "m5": "43.3",
+        "m6": "59"
       },
       {
         "p": {
@@ -995,6 +995,17 @@
       },
       {
         "p": {
+          "name": "Mask Scoring R-CNN",
+          "link": "http://arxiv.org/abs/1903.00241v1",
+          "authors": "Zhaojin Huang, Lichao Huang, Yongchao Gong, Chang Huang, Xinggang Wang"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "MS R-CNN + ResNet-101 DCN + FPN ",
+        "d": "2019-03-01",
+        "m1": "39.6%"
+      },
+      {
+        "p": {
           "name": "CenterMask : Real-Time Anchor-Free Instance Segmentation",
           "link": "https://arxiv.org/abs/1911.06667v6",
           "authors": "Youngwan Lee, Jongyoul Park"
@@ -1022,17 +1033,6 @@
         "m4": "22.3",
         "m5": "42.3",
         "m6": "51.0"
-      },
-      {
-        "p": {
-          "name": "Mask Scoring R-CNN",
-          "link": "http://arxiv.org/abs/1903.00241v1",
-          "authors": "Zhaojin Huang, Lichao Huang, Yongchao Gong, Chang Huang, Xinggang Wang"
-        },
-        "c": "https://github.com/open-mmlab/mmdetection",
-        "n": "MS R-CNN + ResNet-101 DCN + FPN ",
-        "d": "2019-03-01",
-        "m1": "39.6%"
       },
       {
         "p": {
@@ -1135,6 +1135,17 @@
       },
       {
         "p": {
+          "name": "MaskLab: Instance Segmentation by Refining Object Detection with Semantic and Direction Features",
+          "link": "http://arxiv.org/abs/1712.04837v1",
+          "authors": "Liang-Chieh Chen, Alexander Hermans, George Papandreou, Florian Schroff, Peng Wang, Hartwig Adam"
+        },
+        "c": "",
+        "n": "MaskLab+ (ResNet-101, JFT)",
+        "d": "2017-12-13",
+        "m1": "38.1%"
+      },
+      {
+        "p": {
           "name": "SipMask: Spatial Information Preservation for Fast Image and Video Instance Segmentation",
           "link": "https://arxiv.org/abs/2007.14772v1",
           "authors": "Jiale Cao, Rao Muhammad Anwer, Hisham Cholakkal, Fahad Shahbaz Khan, Yanwei Pang, Ling Shao"
@@ -1148,17 +1159,6 @@
         "m4": "17.8",
         "m5": "40.8",
         "m6": "54.3"
-      },
-      {
-        "p": {
-          "name": "MaskLab: Instance Segmentation by Refining Object Detection with Semantic and Direction Features",
-          "link": "http://arxiv.org/abs/1712.04837v1",
-          "authors": "Liang-Chieh Chen, Alexander Hermans, George Papandreou, Florian Schroff, Peng Wang, Hartwig Adam"
-        },
-        "c": "",
-        "n": "MaskLab+ (ResNet-101, JFT)",
-        "d": "2017-12-13",
-        "m1": "38.1%"
       },
       {
         "p": {

@@ -89,17 +89,6 @@
       },
       {
         "p": {
-          "name": "Towards All-in-one Pre-training via Maximizing Multi-modal Mutual Information",
-          "link": "https://arxiv.org/abs/2211.09807v2",
-          "authors": "Weijie Su, Xizhou Zhu, Chenxin Tao, Lewei Lu, Bin Li, Gao Huang, Yu Qiao, Xiaogang Wang, Jie zhou, Jifeng Dai"
-        },
-        "c": "https://github.com/OpenGVLab/M3I-Pretraining",
-        "n": "M3I Pre-training (InternImage-H)",
-        "d": "2022-11-17",
-        "m1": "65.0"
-      },
-      {
-        "p": {
           "name": "InternImage: Exploring Large-Scale Vision Foundation Models with Deformable Convolutions",
           "link": "https://arxiv.org/abs/2211.05778v4",
           "authors": "Wenhai Wang, Jifeng Dai, Zhe Chen, Zhenhang Huang, Zhiqi Li, Xizhou Zhu, Xiaowei Hu, Tong Lu, Lewei Lu, Hongsheng Li, Xiaogang Wang, Yu Qiao"
@@ -107,6 +96,17 @@
         "c": "https://github.com/opengvlab/internimage",
         "n": "InternImage-H",
         "d": "2022-11-10",
+        "m1": "65.0"
+      },
+      {
+        "p": {
+          "name": "Towards All-in-one Pre-training via Maximizing Multi-modal Mutual Information",
+          "link": "https://arxiv.org/abs/2211.09807v2",
+          "authors": "Weijie Su, Xizhou Zhu, Chenxin Tao, Lewei Lu, Bin Li, Gao Huang, Yu Qiao, Xiaogang Wang, Jie zhou, Jifeng Dai"
+        },
+        "c": "https://github.com/OpenGVLab/M3I-Pretraining",
+        "n": "M3I Pre-training (InternImage-H)",
+        "d": "2022-11-17",
         "m1": "65.0"
       },
       {
@@ -1113,18 +1113,6 @@
       },
       {
         "p": {
-          "name": "CenterMask : Real-Time Anchor-Free Instance Segmentation",
-          "link": "https://arxiv.org/abs/1911.06667v6",
-          "authors": "Youngwan Lee, Jongyoul Park"
-        },
-        "c": "https://github.com/youngwanLEE/centermask2",
-        "n": "CenterMask+VoVNet99 (multi-scale)",
-        "d": "2019-11-15",
-        "m1": "48.6",
-        "m2": "67.8"
-      },
-      {
-        "p": {
           "name": "Rethinking ImageNet Pre-training",
           "link": "http://arxiv.org/abs/1811.08883v1",
           "authors": "Kaiming He, Ross Girshick, Piotr Dollár"
@@ -1135,6 +1123,18 @@
         "m1": "48.6",
         "m2": "66.8",
         "m3": "52.9"
+      },
+      {
+        "p": {
+          "name": "CenterMask : Real-Time Anchor-Free Instance Segmentation",
+          "link": "https://arxiv.org/abs/1911.06667v6",
+          "authors": "Youngwan Lee, Jongyoul Park"
+        },
+        "c": "https://github.com/youngwanLEE/centermask2",
+        "n": "CenterMask+VoVNet99 (multi-scale)",
+        "d": "2019-11-15",
+        "m1": "48.6",
+        "m2": "67.8"
       },
       {
         "p": {
@@ -1408,6 +1408,17 @@
       },
       {
         "p": {
+          "name": "Bottleneck Transformers for Visual Recognition",
+          "link": "https://arxiv.org/abs/2101.11605v2",
+          "authors": "Aravind Srinivas, Tsung-Yi Lin, Niki Parmar, Jonathon Shlens, Pieter Abbeel, Ashish Vaswani"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "BoTNet 50 (72 epochs)",
+        "d": "2021-01-27",
+        "m1": "45.9"
+      },
+      {
+        "p": {
           "name": "Conditional DETR for Fast Training Convergence",
           "link": "https://arxiv.org/abs/2108.06152v3",
           "authors": "Depu Meng, Xiaokang Chen, Zejia Fan, Gang Zeng, Houqiang Li, Yuhui Yuan, Lei Sun, Jingdong Wang"
@@ -1425,14 +1436,16 @@
       },
       {
         "p": {
-          "name": "Bottleneck Transformers for Visual Recognition",
-          "link": "https://arxiv.org/abs/2101.11605v2",
-          "authors": "Aravind Srinivas, Tsung-Yi Lin, Niki Parmar, Jonathon Shlens, Pieter Abbeel, Ashish Vaswani"
+          "name": "CenterMask : Real-Time Anchor-Free Instance Segmentation",
+          "link": "https://arxiv.org/abs/1911.06667v6",
+          "authors": "Youngwan Lee, Jongyoul Park"
         },
-        "c": "https://github.com/rwightman/pytorch-image-models",
-        "n": "BoTNet 50 (72 epochs)",
-        "d": "2021-01-27",
-        "m1": "45.9"
+        "c": "https://github.com/youngwanLEE/centermask2",
+        "n": "CenterMask+VoVNetV2-99 (single-scale)",
+        "d": "2019-11-15",
+        "m1": "45.6",
+        "m4": "29.2",
+        "m6": "58.8"
       },
       {
         "p": {
@@ -1452,19 +1465,6 @@
       },
       {
         "p": {
-          "name": "CenterMask : Real-Time Anchor-Free Instance Segmentation",
-          "link": "https://arxiv.org/abs/1911.06667v6",
-          "authors": "Youngwan Lee, Jongyoul Park"
-        },
-        "c": "https://github.com/youngwanLEE/centermask2",
-        "n": "CenterMask+VoVNetV2-99 (single-scale)",
-        "d": "2019-11-15",
-        "m1": "45.6",
-        "m4": "29.2",
-        "m6": "58.8"
-      },
-      {
-        "p": {
           "name": "Deep High-Resolution Representation Learning for Visual Recognition",
           "link": "https://arxiv.org/abs/1908.07919v2",
           "authors": "Jingdong Wang, Ke Sun, Tianheng Cheng, Borui Jiang, Chaorui Deng, Yang Zhao, Dong Liu, Yadong Mu, Mingkui Tan, Xinggang Wang, Wenyu Liu, Bin Xiao"
@@ -1476,22 +1476,6 @@
         "m4": "27.0",
         "m5": "48.4",
         "m6": "59.5"
-      },
-      {
-        "p": {
-          "name": "Anchor DETR: Query Design for Transformer-Based Object Detection",
-          "link": "https://arxiv.org/abs/2109.07107v2",
-          "authors": "Yingming Wang, Xiangyu Zhang, Tong Yang, Jian Sun"
-        },
-        "c": "https://github.com/megvii-research/AnchorDETR",
-        "n": "Anchor DETR-DC5-R101",
-        "d": "2021-09-15",
-        "m1": "45.1",
-        "m2": "65.7",
-        "m3": "48.8",
-        "m4": "25.8",
-        "m5": "49.4",
-        "m6": "61.6"
       },
       {
         "p": {
@@ -1509,6 +1493,22 @@
         "m5": "49",
         "m6": "62.2",
         "m7": "44"
+      },
+      {
+        "p": {
+          "name": "Anchor DETR: Query Design for Transformer-Based Object Detection",
+          "link": "https://arxiv.org/abs/2109.07107v2",
+          "authors": "Yingming Wang, Xiangyu Zhang, Tong Yang, Jian Sun"
+        },
+        "c": "https://github.com/megvii-research/AnchorDETR",
+        "n": "Anchor DETR-DC5-R101",
+        "d": "2021-09-15",
+        "m1": "45.1",
+        "m2": "65.7",
+        "m3": "48.8",
+        "m4": "25.8",
+        "m5": "49.4",
+        "m6": "61.6"
       },
       {
         "p": {
@@ -1554,6 +1554,19 @@
       },
       {
         "p": {
+          "name": "CenterMask : Real-Time Anchor-Free Instance Segmentation",
+          "link": "https://arxiv.org/abs/1911.06667v6",
+          "authors": "Youngwan Lee, Jongyoul Park"
+        },
+        "c": "https://github.com/youngwanLEE/centermask2",
+        "n": "Mask R-CNN (VoVNetV2-99, single-scale)",
+        "d": "2019-11-15",
+        "m1": "44.9",
+        "m4": "28.5",
+        "m6": "57.7"
+      },
+      {
+        "p": {
           "name": "End-to-End Object Detection with Transformers",
           "link": "https://arxiv.org/abs/2005.12872v3",
           "authors": "Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, Sergey Zagoruyko"
@@ -1570,16 +1583,14 @@
       },
       {
         "p": {
-          "name": "CenterMask : Real-Time Anchor-Free Instance Segmentation",
-          "link": "https://arxiv.org/abs/1911.06667v6",
-          "authors": "Youngwan Lee, Jongyoul Park"
+          "name": "RepPoints: Point Set Representation for Object Detection",
+          "link": "https://arxiv.org/abs/1904.11490v2",
+          "authors": "Ze Yang, Shaohui Liu, Han Hu, Li-Wei Wang, Stephen Lin"
         },
-        "c": "https://github.com/youngwanLEE/centermask2",
-        "n": "Mask R-CNN (VoVNetV2-99, single-scale)",
-        "d": "2019-11-15",
-        "m1": "44.9",
-        "m4": "28.5",
-        "m6": "57.7"
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "RPDet (ResNet-101-DCN, multi-scale train)",
+        "d": "2019-04-25",
+        "m1": "44.8"
       },
       {
         "p": {
@@ -1596,17 +1607,6 @@
         "m4": "26.6",
         "m5": "48.3",
         "m6": "59.6"
-      },
-      {
-        "p": {
-          "name": "RepPoints: Point Set Representation for Object Detection",
-          "link": "https://arxiv.org/abs/1904.11490v2",
-          "authors": "Ze Yang, Shaohui Liu, Han Hu, Li-Wei Wang, Stephen Lin"
-        },
-        "c": "https://github.com/open-mmlab/mmdetection",
-        "n": "RPDet (ResNet-101-DCN, multi-scale train)",
-        "d": "2019-04-25",
-        "m1": "44.8"
       },
       {
         "p": {
@@ -1654,39 +1654,6 @@
       },
       {
         "p": {
-          "name": "Conditional DETR for Fast Training Convergence",
-          "link": "https://arxiv.org/abs/2108.06152v3",
-          "authors": "Depu Meng, Xiaokang Chen, Zejia Fan, Gang Zeng, Houqiang Li, Yuhui Yuan, Lei Sun, Jingdong Wang"
-        },
-        "c": "https://github.com/huggingface/transformers",
-        "n": "Conditional DETR-R101",
-        "d": "2021-08-13",
-        "m1": "44.5",
-        "m2": "65.6",
-        "m3": "47.5",
-        "m4": "23.6",
-        "m5": "48.4",
-        "m6": "63.6",
-        "m7": "63"
-      },
-      {
-        "p": {
-          "name": "Sparse R-CNN: End-to-End Object Detection with Learnable Proposals",
-          "link": "https://arxiv.org/abs/2011.12450v2",
-          "authors": "Peize Sun, Rufeng Zhang, Yi Jiang, Tao Kong, Chenfeng Xu, Wei Zhan, Masayoshi Tomizuka, Lei LI, Zehuan Yuan, Changhu Wang, Ping Luo"
-        },
-        "c": "https://github.com/open-mmlab/mmdetection",
-        "n": "Sparse R-CNN (ResNet-50, learnable proposals, random crop aug, FPN)",
-        "d": "2020-11-25",
-        "m1": "44.5",
-        "m2": "63.4",
-        "m3": "48.2",
-        "m4": "26.9",
-        "m5": "47.2",
-        "m6": "59.5"
-      },
-      {
-        "p": {
           "name": "Deep Residual Learning for Image Recognition",
           "link": "http://arxiv.org/abs/1512.03385v1",
           "authors": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun"
@@ -1708,6 +1675,39 @@
         "n": "RPDet (ResNeXt-101-DCN)",
         "d": "2019-04-25",
         "m1": "44.5"
+      },
+      {
+        "p": {
+          "name": "Sparse R-CNN: End-to-End Object Detection with Learnable Proposals",
+          "link": "https://arxiv.org/abs/2011.12450v2",
+          "authors": "Peize Sun, Rufeng Zhang, Yi Jiang, Tao Kong, Chenfeng Xu, Wei Zhan, Masayoshi Tomizuka, Lei LI, Zehuan Yuan, Changhu Wang, Ping Luo"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "Sparse R-CNN (ResNet-50, learnable proposals, random crop aug, FPN)",
+        "d": "2020-11-25",
+        "m1": "44.5",
+        "m2": "63.4",
+        "m3": "48.2",
+        "m4": "26.9",
+        "m5": "47.2",
+        "m6": "59.5"
+      },
+      {
+        "p": {
+          "name": "Conditional DETR for Fast Training Convergence",
+          "link": "https://arxiv.org/abs/2108.06152v3",
+          "authors": "Depu Meng, Xiaokang Chen, Zejia Fan, Gang Zeng, Houqiang Li, Yuhui Yuan, Lei Sun, Jingdong Wang"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Conditional DETR-R101",
+        "d": "2021-08-13",
+        "m1": "44.5",
+        "m2": "65.6",
+        "m3": "47.5",
+        "m4": "23.6",
+        "m5": "48.4",
+        "m6": "63.6",
+        "m7": "63"
       },
       {
         "p": {
@@ -1821,6 +1821,19 @@
       },
       {
         "p": {
+          "name": "Deep Residual Learning for Image Recognition",
+          "link": "http://arxiv.org/abs/1512.03385v1",
+          "authors": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/research/deeplab",
+        "n": "ATSS (ResNet-50)",
+        "d": "2015-12-10",
+        "m1": "43.5",
+        "m2": "61.9",
+        "m3": "47.0"
+      },
+      {
+        "p": {
           "name": "Sparse R-CNN: End-to-End Object Detection with Learnable Proposals",
           "link": "https://arxiv.org/abs/2011.12450v2",
           "authors": "Peize Sun, Rufeng Zhang, Yi Jiang, Tao Kong, Chenfeng Xu, Wei Zhan, Masayoshi Tomizuka, Lei LI, Zehuan Yuan, Changhu Wang, Ping Luo"
@@ -1834,19 +1847,6 @@
         "m4": "26.1",
         "m5": "46.3",
         "m6": "59.7"
-      },
-      {
-        "p": {
-          "name": "Deep Residual Learning for Image Recognition",
-          "link": "http://arxiv.org/abs/1512.03385v1",
-          "authors": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun"
-        },
-        "c": "https://github.com/tensorflow/models/tree/master/research/deeplab",
-        "n": "ATSS (ResNet-50)",
-        "d": "2015-12-10",
-        "m1": "43.5",
-        "m2": "61.9",
-        "m3": "47.0"
       },
       {
         "p": {
@@ -1882,22 +1882,6 @@
       },
       {
         "p": {
-          "name": "Pix2seq: A Language Modeling Framework for Object Detection",
-          "link": "https://arxiv.org/abs/2109.10852v2",
-          "authors": "Ting Chen, Saurabh Saxena, Lala Li, David J. Fleet, Geoffrey Hinton"
-        },
-        "c": "https://github.com/google-research/pix2seq",
-        "n": "Pix2seq (R50-DC5 )",
-        "d": "2021-09-22",
-        "m1": "43.2",
-        "m2": "61.0",
-        "m3": "46.1",
-        "m4": "26.6",
-        "m5": "47",
-        "m6": "58.6"
-      },
-      {
-        "p": {
           "name": "Hybrid Task Cascade for Instance Segmentation",
           "link": "http://arxiv.org/abs/1901.07518v2",
           "authors": "Kai Chen, Jiangmiao Pang, Jiaqi Wang, Yu Xiong, Xiaoxiao Li, Shuyang Sun, Wansen Feng, Ziwei Liu, Jianping Shi, Wanli Ouyang, Chen Change Loy, Dahua Lin"
@@ -1911,6 +1895,22 @@
         "m4": "20.3",
         "m5": "40.9",
         "m6": "52.3"
+      },
+      {
+        "p": {
+          "name": "Pix2seq: A Language Modeling Framework for Object Detection",
+          "link": "https://arxiv.org/abs/2109.10852v2",
+          "authors": "Ting Chen, Saurabh Saxena, Lala Li, David J. Fleet, Geoffrey Hinton"
+        },
+        "c": "https://github.com/google-research/pix2seq",
+        "n": "Pix2seq (R50-DC5 )",
+        "d": "2021-09-22",
+        "m1": "43.2",
+        "m2": "61.0",
+        "m3": "46.1",
+        "m4": "26.6",
+        "m5": "47",
+        "m6": "58.6"
       },
       {
         "p": {
@@ -1930,6 +1930,17 @@
       },
       {
         "p": {
+          "name": "Deformable ConvNets v2: More Deformable, Better Results",
+          "link": "http://arxiv.org/abs/1811.11168v2",
+          "authors": "Xizhou Zhu, Han Hu, Stephen Lin, Jifeng Dai"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "Mask R-CNN (ResNet-101, DCNv2)",
+        "d": "2018-11-27",
+        "m1": "43.1"
+      },
+      {
+        "p": {
           "name": "Deep High-Resolution Representation Learning for Visual Recognition",
           "link": "https://arxiv.org/abs/1908.07919v2",
           "authors": "Jingdong Wang, Ke Sun, Tianheng Cheng, Borui Jiang, Chaorui Deng, Yang Zhao, Dong Liu, Yadong Mu, Mingkui Tan, Xinggang Wang, Wenyu Liu, Bin Xiao"
@@ -1943,14 +1954,19 @@
       },
       {
         "p": {
-          "name": "Deformable ConvNets v2: More Deformable, Better Results",
-          "link": "http://arxiv.org/abs/1811.11168v2",
-          "authors": "Xizhou Zhu, Han Hu, Stephen Lin, Jifeng Dai"
+          "name": "HoughNet: Integrating near and long-range evidence for bottom-up object detection",
+          "link": "https://arxiv.org/abs/2007.02355v3",
+          "authors": "Nermin Samet, Samet Hicsonmez, Emre Akbas"
         },
-        "c": "https://github.com/open-mmlab/mmdetection",
-        "n": "Mask R-CNN (ResNet-101, DCNv2)",
-        "d": "2018-11-27",
-        "m1": "43.1"
+        "c": "https://github.com/giddyyupp/coco-minitrain",
+        "n": "HoughNet (HG-104)",
+        "d": "2020-07-05",
+        "m1": "43.0",
+        "m2": "62.2",
+        "m3": "46.9",
+        "m4": "25.5",
+        "m5": "47.6",
+        "m6": "55.8"
       },
       {
         "p": {
@@ -1968,22 +1984,6 @@
         "m5": "46.7",
         "m6": "61.5",
         "m7": "44"
-      },
-      {
-        "p": {
-          "name": "HoughNet: Integrating near and long-range evidence for bottom-up object detection",
-          "link": "https://arxiv.org/abs/2007.02355v3",
-          "authors": "Nermin Samet, Samet Hicsonmez, Emre Akbas"
-        },
-        "c": "https://github.com/giddyyupp/coco-minitrain",
-        "n": "HoughNet (HG-104)",
-        "d": "2020-07-05",
-        "m1": "43.0",
-        "m2": "62.2",
-        "m3": "46.9",
-        "m4": "25.5",
-        "m5": "47.6",
-        "m6": "55.8"
       },
       {
         "p": {
@@ -2019,6 +2019,20 @@
       },
       {
         "p": {
+          "name": "CornerNet-Lite: Efficient Keypoint Based Object Detection",
+          "link": "https://arxiv.org/abs/1904.08900v2",
+          "authors": "Hei Law, Yun Teng, Olga Russakovsky, Jia Deng"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
+        "n": "CornerNet-Saccade (Hourglass-54)",
+        "d": "2019-04-18",
+        "m1": "42.6",
+        "m4": "25.5",
+        "m5": "44.3",
+        "m6": "58.4"
+      },
+      {
+        "p": {
           "name": "Pyramid Vision Transformer: A Versatile Backbone for Dense Prediction without Convolutions",
           "link": "https://arxiv.org/abs/2102.12122v2",
           "authors": "Wenhai Wang, Enze Xie, Xiang Li, Deng-Ping Fan, Kaitao Song, Ding Liang, Tong Lu, Ping Luo, Ling Shao"
@@ -2031,20 +2045,6 @@
         "m3": "45.4",
         "m4": "25.8",
         "m5": "46.0",
-        "m6": "58.4"
-      },
-      {
-        "p": {
-          "name": "CornerNet-Lite: Efficient Keypoint Based Object Detection",
-          "link": "https://arxiv.org/abs/1904.08900v2",
-          "authors": "Hei Law, Yun Teng, Olga Russakovsky, Jia Deng"
-        },
-        "c": "https://github.com/PaddlePaddle/PaddleDetection",
-        "n": "CornerNet-Saccade (Hourglass-54)",
-        "d": "2019-04-18",
-        "m1": "42.6",
-        "m4": "25.5",
-        "m5": "44.3",
         "m6": "58.4"
       },
       {
@@ -2073,6 +2073,19 @@
       },
       {
         "p": {
+          "name": "Deep High-Resolution Representation Learning for Visual Recognition",
+          "link": "https://arxiv.org/abs/1908.07919v2",
+          "authors": "Jingdong Wang, Ke Sun, Tianheng Cheng, Borui Jiang, Chaorui Deng, Yang Zhao, Dong Liu, Yadong Mu, Mingkui Tan, Xinggang Wang, Wenyu Liu, Bin Xiao"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "Mask R-CNN (HRNetV2p-W32)",
+        "d": "2019-08-20",
+        "m1": "42.3",
+        "m4": "25.0",
+        "m5": "45.4"
+      },
+      {
+        "p": {
           "name": "Sparse R-CNN: End-to-End Object Detection with Learnable Proposals",
           "link": "https://arxiv.org/abs/2011.12450v2",
           "authors": "Peize Sun, Rufeng Zhang, Yi Jiang, Tao Kong, Chenfeng Xu, Wei Zhan, Masayoshi Tomizuka, Lei LI, Zehuan Yuan, Changhu Wang, Ping Luo"
@@ -2086,19 +2099,6 @@
         "m4": "26.7",
         "m5": "44.6",
         "m6": "57.6"
-      },
-      {
-        "p": {
-          "name": "Deep High-Resolution Representation Learning for Visual Recognition",
-          "link": "https://arxiv.org/abs/1908.07919v2",
-          "authors": "Jingdong Wang, Ke Sun, Tianheng Cheng, Borui Jiang, Chaorui Deng, Yang Zhao, Dong Liu, Yadong Mu, Mingkui Tan, Xinggang Wang, Wenyu Liu, Bin Xiao"
-        },
-        "c": "https://github.com/open-mmlab/mmdetection",
-        "n": "Mask R-CNN (HRNetV2p-W32)",
-        "d": "2019-08-20",
-        "m1": "42.3",
-        "m4": "25.0",
-        "m5": "45.4"
       },
       {
         "p": {
@@ -2160,6 +2160,20 @@
       },
       {
         "p": {
+          "name": "Deformable ConvNets v2: More Deformable, Better Results",
+          "link": "http://arxiv.org/abs/1811.11168v2",
+          "authors": "Xizhou Zhu, Han Hu, Stephen Lin, Jifeng Dai"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "Faster R-CNN (ResNet-101, DCNv2)",
+        "d": "2018-11-27",
+        "m1": "41.7",
+        "m4": "22.2",
+        "m5": "45.8",
+        "m6": "58.7"
+      },
+      {
+        "p": {
           "name": "LIP: Local Importance-based Pooling",
           "link": "https://arxiv.org/abs/1908.04156v3",
           "authors": "Ziteng Gao, Li-Min Wang, Gangshan Wu"
@@ -2172,20 +2186,6 @@
         "m3": "45.6",
         "m4": "25.2",
         "m5": "45.8"
-      },
-      {
-        "p": {
-          "name": "Deformable ConvNets v2: More Deformable, Better Results",
-          "link": "http://arxiv.org/abs/1811.11168v2",
-          "authors": "Xizhou Zhu, Han Hu, Stephen Lin, Jifeng Dai"
-        },
-        "c": "https://github.com/open-mmlab/mmdetection",
-        "n": "Faster R-CNN (ResNet-101, DCNv2)",
-        "d": "2018-11-27",
-        "m1": "41.7",
-        "m4": "22.2",
-        "m5": "45.8",
-        "m6": "58.7"
       },
       {
         "p": {
@@ -2231,22 +2231,6 @@
       },
       {
         "p": {
-          "name": "Deep High-Resolution Representation Learning for Visual Recognition",
-          "link": "https://arxiv.org/abs/1908.07919v2",
-          "authors": "Jingdong Wang, Ke Sun, Tianheng Cheng, Borui Jiang, Chaorui Deng, Yang Zhao, Dong Liu, Yadong Mu, Mingkui Tan, Xinggang Wang, Wenyu Liu, Bin Xiao"
-        },
-        "c": "https://github.com/open-mmlab/mmdetection",
-        "n": "Cascade R-CNN (HRNetV2p-W18)",
-        "d": "2019-08-20",
-        "m1": "41.3",
-        "m2": "59.2",
-        "m3": "44.9",
-        "m4": "23.7",
-        "m5": "44.2",
-        "m6": "54.1"
-      },
-      {
-        "p": {
           "name": "CenterNet: Keypoint Triplets for Object Detection",
           "link": "http://arxiv.org/abs/1904.08189v3",
           "authors": "Kaiwen Duan, Song Bai, Lingxi Xie, Honggang Qi, Qingming Huang, Qi Tian"
@@ -2260,6 +2244,22 @@
         "m4": "23.6",
         "m5": "43.8",
         "m6": "55.8"
+      },
+      {
+        "p": {
+          "name": "Deep High-Resolution Representation Learning for Visual Recognition",
+          "link": "https://arxiv.org/abs/1908.07919v2",
+          "authors": "Jingdong Wang, Ke Sun, Tianheng Cheng, Borui Jiang, Chaorui Deng, Yang Zhao, Dong Liu, Yadong Mu, Mingkui Tan, Xinggang Wang, Wenyu Liu, Bin Xiao"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "Cascade R-CNN (HRNetV2p-W18)",
+        "d": "2019-08-20",
+        "m1": "41.3",
+        "m2": "59.2",
+        "m3": "44.9",
+        "m4": "23.7",
+        "m5": "44.2",
+        "m6": "54.1"
       },
       {
         "p": {
@@ -2393,35 +2393,6 @@
       },
       {
         "p": {
-          "name": "GCNet: Non-local Networks Meet Squeeze-Excitation Networks and Beyond",
-          "link": "http://arxiv.org/abs/1904.11492v1",
-          "authors": "Yue Cao, Jiarui Xu, Stephen Lin, Fangyun Wei, Han Hu"
-        },
-        "c": "https://github.com/open-mmlab/mmdetection",
-        "n": "GCnet (ResNet-50-FPN, GRoIE)",
-        "d": "2019-04-25",
-        "m1": "40.3",
-        "m2": "62.4",
-        "m3": "44",
-        "m4": "24.2",
-        "m5": "44.4",
-        "m6": "52.5"
-      },
-      {
-        "p": {
-          "name": "Group Normalization",
-          "link": "http://arxiv.org/abs/1803.08494v3",
-          "authors": "Yuxin Wu, Kaiming He"
-        },
-        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
-        "n": "Mask R-CNN (ResNet-50-FPN, GroupNorm)",
-        "d": "2018-03-22",
-        "m1": "40.3",
-        "m2": "61",
-        "m3": "44"
-      },
-      {
-        "p": {
           "name": "Cascade R-CNN: Delving into High Quality Object Detection",
           "link": "http://arxiv.org/abs/1712.00726v1",
           "authors": "Zhaowei Cai, Nuno Vasconcelos"
@@ -2438,6 +2409,19 @@
       },
       {
         "p": {
+          "name": "Group Normalization",
+          "link": "http://arxiv.org/abs/1803.08494v3",
+          "authors": "Yuxin Wu, Kaiming He"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+        "n": "Mask R-CNN (ResNet-50-FPN, GroupNorm)",
+        "d": "2018-03-22",
+        "m1": "40.3",
+        "m2": "61",
+        "m3": "44"
+      },
+      {
+        "p": {
           "name": "Bottom-up Object Detection by Grouping Extreme and Center Points",
           "link": "http://arxiv.org/abs/1901.08043v3",
           "authors": "Xingyi Zhou, Jiacheng Zhuo, Philipp Krähenbühl"
@@ -2451,6 +2435,22 @@
         "m4": "21.6",
         "m5": "44.0",
         "m6": "56.1"
+      },
+      {
+        "p": {
+          "name": "GCNet: Non-local Networks Meet Squeeze-Excitation Networks and Beyond",
+          "link": "http://arxiv.org/abs/1904.11492v1",
+          "authors": "Yue Cao, Jiarui Xu, Stephen Lin, Fangyun Wei, Han Hu"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "GCnet (ResNet-50-FPN, GRoIE)",
+        "d": "2019-04-25",
+        "m1": "40.3",
+        "m2": "62.4",
+        "m3": "44",
+        "m4": "24.2",
+        "m5": "44.4",
+        "m6": "52.5"
       },
       {
         "p": {
@@ -2642,22 +2642,6 @@
       },
       {
         "p": {
-          "name": "A novel Region of Interest Extraction Layer for Instance Segmentation",
-          "link": "https://arxiv.org/abs/2004.13665v2",
-          "authors": "Leonardo Rossi, Akbar Karimi, Andrea Prati"
-        },
-        "c": "https://github.com/open-mmlab/mmdetection",
-        "n": "Mask R-CNN (ResNet-50-FPN, GRoIE)",
-        "d": "2020-04-28",
-        "m1": "38.4",
-        "m2": "59.9",
-        "m3": "41.7",
-        "m4": "22.9",
-        "m5": "42.1",
-        "m6": "49.7"
-      },
-      {
-        "p": {
           "name": "CornerNet: Detecting Objects as Paired Keypoints",
           "link": "http://arxiv.org/abs/1808.01244v2",
           "authors": "Hei Law, Jia Deng"
@@ -2674,6 +2658,22 @@
       },
       {
         "p": {
+          "name": "A novel Region of Interest Extraction Layer for Instance Segmentation",
+          "link": "https://arxiv.org/abs/2004.13665v2",
+          "authors": "Leonardo Rossi, Akbar Karimi, Andrea Prati"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "Mask R-CNN (ResNet-50-FPN, GRoIE)",
+        "d": "2020-04-28",
+        "m1": "38.4",
+        "m2": "59.9",
+        "m3": "41.7",
+        "m4": "22.9",
+        "m5": "42.1",
+        "m6": "49.7"
+      },
+      {
+        "p": {
           "name": "FoveaBox: Beyond Anchor-based Object Detector",
           "link": "https://arxiv.org/abs/1904.03797v2",
           "authors": "Tao Kong, Fuchun Sun, Huaping Liu, Yuning Jiang, Lei LI, Jianbo Shi"
@@ -2684,22 +2684,6 @@
         "m1": "38.1",
         "m2": "57.8",
         "m3": "40.5"
-      },
-      {
-        "p": {
-          "name": "Deep High-Resolution Representation Learning for Visual Recognition",
-          "link": "https://arxiv.org/abs/1908.07919v2",
-          "authors": "Jingdong Wang, Ke Sun, Tianheng Cheng, Borui Jiang, Chaorui Deng, Yang Zhao, Dong Liu, Yadong Mu, Mingkui Tan, Xinggang Wang, Wenyu Liu, Bin Xiao"
-        },
-        "c": "https://github.com/open-mmlab/mmdetection",
-        "n": "Faster R-CNN (HRNetV2p-W18)",
-        "d": "2019-08-20",
-        "m1": "38.0",
-        "m2": "58.9",
-        "m3": "41.5",
-        "m4": "22.6",
-        "m5": "40.8",
-        "m6": "49.6"
       },
       {
         "p": {
@@ -2716,6 +2700,22 @@
         "m4": "19.5",
         "m5": "42.2",
         "m6": "52.7"
+      },
+      {
+        "p": {
+          "name": "Deep High-Resolution Representation Learning for Visual Recognition",
+          "link": "https://arxiv.org/abs/1908.07919v2",
+          "authors": "Jingdong Wang, Ke Sun, Tianheng Cheng, Borui Jiang, Chaorui Deng, Yang Zhao, Dong Liu, Yadong Mu, Mingkui Tan, Xinggang Wang, Wenyu Liu, Bin Xiao"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "Faster R-CNN (HRNetV2p-W18)",
+        "d": "2019-08-20",
+        "m1": "38.0",
+        "m2": "58.9",
+        "m3": "41.5",
+        "m4": "22.6",
+        "m5": "40.8",
+        "m6": "49.6"
       },
       {
         "p": {

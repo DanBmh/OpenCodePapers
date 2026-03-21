@@ -140,21 +140,6 @@
       },
       {
         "p": {
-          "name": "Lyrics Transcription for Humans: A Readability-Aware Benchmark",
-          "link": "https://arxiv.org/abs/2408.06370v1",
-          "authors": "Ondřej Cífka, Hendrik Schreiber, Luke Miner, Fabian-Robert Stöter"
-        },
-        "c": "https://github.com/audioshake/alt-eval",
-        "n": "Whisper v3",
-        "d": "2024-07-30",
-        "m1": "40.7",
-        "m2": "44.6",
-        "m4": "47.3",
-        "m6": "71.1",
-        "m7": "1.2"
-      },
-      {
-        "p": {
           "name": "Jam-ALT: A Formatting-Aware Lyrics Transcription Benchmark",
           "link": "https://arxiv.org/abs/2311.13987v1",
           "authors": "Ondřej Cífka, Constantinos Dimitriou, Cheng-i Wang, Hendrik Schreiber, Luke Miner, Fabian-Robert Stöter"
@@ -175,12 +160,13 @@
           "authors": "Ondřej Cífka, Hendrik Schreiber, Luke Miner, Fabian-Robert Stöter"
         },
         "c": "https://github.com/audioshake/alt-eval",
-        "n": "Whisper v3 +demucs +lang",
+        "n": "Whisper v3",
         "d": "2024-07-30",
-        "m1": "40.8",
-        "m2": "44.9",
-        "m4": "46.9",
-        "m6": "70.5"
+        "m1": "40.7",
+        "m2": "44.6",
+        "m4": "47.3",
+        "m6": "71.1",
+        "m7": "1.2"
       },
       {
         "p": {
@@ -189,12 +175,12 @@
           "authors": "Ondřej Cífka, Hendrik Schreiber, Luke Miner, Fabian-Robert Stöter"
         },
         "c": "https://github.com/audioshake/alt-eval",
-        "n": "Whisper v3 +demucs",
+        "n": "Whisper v3 +demucs +lang",
         "d": "2024-07-30",
-        "m1": "43.5",
-        "m2": "47.4",
-        "m4": "45.4",
-        "m6": "71.9"
+        "m1": "40.8",
+        "m2": "44.9",
+        "m4": "46.9",
+        "m6": "70.5"
       },
       {
         "p": {
@@ -209,6 +195,20 @@
         "m3": "4.4",
         "m4": "34.0",
         "m6": "72.0"
+      },
+      {
+        "p": {
+          "name": "Lyrics Transcription for Humans: A Readability-Aware Benchmark",
+          "link": "https://arxiv.org/abs/2408.06370v1",
+          "authors": "Ondřej Cífka, Hendrik Schreiber, Luke Miner, Fabian-Robert Stöter"
+        },
+        "c": "https://github.com/audioshake/alt-eval",
+        "n": "Whisper v3 +demucs",
+        "d": "2024-07-30",
+        "m1": "43.5",
+        "m2": "47.4",
+        "m4": "45.4",
+        "m6": "71.9"
       },
       {
         "p": {
@@ -269,20 +269,6 @@
       },
       {
         "p": {
-          "name": "Lyrics Transcription for Humans: A Readability-Aware Benchmark",
-          "link": "https://arxiv.org/abs/2408.06370v1",
-          "authors": "Ondřej Cífka, Hendrik Schreiber, Luke Miner, Fabian-Robert Stöter"
-        },
-        "c": "https://github.com/audioshake/alt-eval",
-        "n": "Whisper v2 +demucs",
-        "d": "2024-07-30",
-        "m1": "65.2",
-        "m2": "70.4",
-        "m4": "49.1",
-        "m6": "67.3"
-      },
-      {
-        "p": {
           "name": "Jam-ALT: A Formatting-Aware Lyrics Transcription Benchmark",
           "link": "https://arxiv.org/abs/2311.13987v1",
           "authors": "Ondřej Cífka, Constantinos Dimitriou, Cheng-i Wang, Hendrik Schreiber, Luke Miner, Fabian-Robert Stöter"
@@ -294,6 +280,20 @@
         "m3": " 5.9",
         "m4": "30.2",
         "m6": "67.5"
+      },
+      {
+        "p": {
+          "name": "Lyrics Transcription for Humans: A Readability-Aware Benchmark",
+          "link": "https://arxiv.org/abs/2408.06370v1",
+          "authors": "Ondřej Cífka, Hendrik Schreiber, Luke Miner, Fabian-Robert Stöter"
+        },
+        "c": "https://github.com/audioshake/alt-eval",
+        "n": "Whisper v2 +demucs",
+        "d": "2024-07-30",
+        "m1": "65.2",
+        "m2": "70.4",
+        "m4": "49.1",
+        "m6": "67.3"
       }
     ]
   }
