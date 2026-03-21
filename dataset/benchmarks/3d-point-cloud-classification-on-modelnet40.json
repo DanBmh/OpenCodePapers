@@ -93,7 +93,7 @@
         "p": "[]()",
         "c": "",
         "n": "PointGPT",
-        "d": null,
+        "d": "",
         "m1": "94.9"
       },
       {
@@ -107,6 +107,19 @@
         "d": "2023-03-29",
         "m1": "94.8",
         "m2": "92.0"
+      },
+      {
+        "p": {
+          "name": "Surface Representation for Point Clouds",
+          "link": "https://arxiv.org/abs/2205.05740v2",
+          "authors": "Haoxi Ran, Jun Liu, Chengjie Wang"
+        },
+        "c": "https://github.com/hancyran/RepSurf",
+        "n": "RepSurf-U",
+        "d": "2022-05-11",
+        "m1": "94.7",
+        "m3": "1.48M",
+        "m4": "0.81G"
       },
       {
         "p": {
@@ -144,16 +157,15 @@
       },
       {
         "p": {
-          "name": "Surface Representation for Point Clouds",
-          "link": "https://arxiv.org/abs/2205.05740v2",
-          "authors": "Haoxi Ran, Jun Liu, Chengjie Wang"
+          "name": "Rethinking Network Design and Local Geometry in Point Cloud: A Simple Residual MLP Framework",
+          "link": "https://arxiv.org/abs/2202.07123v2",
+          "authors": "Xu Ma, Can Qin, Haoxuan You, Haoxi Ran, Yun Fu"
         },
-        "c": "https://github.com/hancyran/RepSurf",
-        "n": "RepSurf-U",
-        "d": "2022-05-11",
-        "m1": "94.7",
-        "m3": "1.48M",
-        "m4": "0.81G"
+        "c": "https://github.com/ma-xu/pointmlp-pytorch",
+        "n": "PointMLP",
+        "d": "2022-02-15",
+        "m1": "94.5",
+        "m2": "91.4"
       },
       {
         "p": {
@@ -166,18 +178,6 @@
         "d": "2022-09-21",
         "m1": "94.5",
         "m2": "91.9"
-      },
-      {
-        "p": {
-          "name": "Rethinking Network Design and Local Geometry in Point Cloud: A Simple Residual MLP Framework",
-          "link": "https://arxiv.org/abs/2202.07123v2",
-          "authors": "Xu Ma, Can Qin, Haoxuan You, Haoxi Ran, Yun Fu"
-        },
-        "c": "https://github.com/ma-xu/pointmlp-pytorch",
-        "n": "PointMLP",
-        "d": "2022-02-15",
-        "m1": "94.5",
-        "m2": "91.4"
       },
       {
         "p": {
@@ -238,6 +238,17 @@
       },
       {
         "p": {
+          "name": "Walk in the Cloud: Learning Curves for Point Clouds Shape Analysis",
+          "link": "https://arxiv.org/abs/2105.01288v2",
+          "authors": "Tiange Xiang, Chaoyi Zhang, Yang song, Jianhui Yu, Weidong Cai"
+        },
+        "c": "https://github.com/vinits5/learning3d",
+        "n": "CurveNet",
+        "d": "2021-05-04",
+        "m1": "94.2"
+      },
+      {
+        "p": {
           "name": "Implicit Autoencoder for Point-Cloud Self-Supervised Representation Learning",
           "link": "https://arxiv.org/abs/2201.00785v5",
           "authors": "Siming Yan, Zhenpei Yang, Haoxiang Li, Chen Song, Li Guan, Hao Kang, Gang Hua, QiXing Huang"
@@ -259,17 +270,6 @@
         "d": "2022-10-11",
         "m1": "94.2",
         "m2": "91.6"
-      },
-      {
-        "p": {
-          "name": "Walk in the Cloud: Learning Curves for Point Clouds Shape Analysis",
-          "link": "https://arxiv.org/abs/2105.01288v2",
-          "authors": "Tiange Xiang, Chaoyi Zhang, Yang song, Jianhui Yu, Weidong Cai"
-        },
-        "c": "https://github.com/vinits5/learning3d",
-        "n": "CurveNet",
-        "d": "2021-05-04",
-        "m1": "94.2"
       },
       {
         "p": {
@@ -339,43 +339,15 @@
       },
       {
         "p": {
-          "name": "Decoupled Local Aggregation for Point Cloud Learning",
-          "link": "https://arxiv.org/abs/2308.16532v1",
-          "authors": "Binjie Chen, Yunzhou Xia, Yu Zang, Cheng Wang, Jonathan Li"
+          "name": "MKConv: Multidimensional Feature Representation for Point Cloud Analysis",
+          "link": "https://arxiv.org/abs/2107.12655v3",
+          "authors": "Sungmin Woo, Dogyoon Lee, Sangwon Hwang, Woojin Kim, Sangyoun Lee"
         },
-        "c": "https://github.com/matrix-asc/dela",
-        "n": "DeLA",
-        "d": "2023-08-31",
+        "c": "",
+        "n": "MKConv",
+        "d": "2021-07-27",
         "m1": "94.0",
-        "m2": "92.2",
-        "m3": "5.3M",
-        "m4": "1.44G"
-      },
-      {
-        "p": {
-          "name": "P2P: Tuning Pre-trained Image Models for Point Cloud Analysis with Point-to-Pixel Prompting",
-          "link": "https://arxiv.org/abs/2208.02812v2",
-          "authors": "Ziyi Wang, Xumin Yu, Yongming Rao, Jie zhou, Jiwen Lu"
-        },
-        "c": "https://github.com/wangzy22/P2P",
-        "n": "P2P",
-        "d": "2022-08-04",
-        "m1": "94.0",
-        "m2": "91.6"
-      },
-      {
-        "p": {
-          "name": "PointNeXt: Revisiting PointNet++ with Improved Training and Scaling Strategies",
-          "link": "https://arxiv.org/abs/2206.04670v2",
-          "authors": "Guocheng Qian, Yuchen Li, Houwen Peng, Jinjie Mai, Hasan Abed Al Kader Hammoud, Mohamed Elhoseiny, Bernard Ghanem"
-        },
-        "c": "https://github.com/guochengqian/pointnext",
-        "n": "PointNeXt",
-        "d": "2022-06-09",
-        "m1": "94.0",
-        "m2": "91.1",
-        "m3": "4.5M",
-        "m4": "6.5G"
+        "m3": "5.63M"
       },
       {
         "p": {
@@ -412,6 +384,46 @@
       },
       {
         "p": {
+          "name": "PointNeXt: Revisiting PointNet++ with Improved Training and Scaling Strategies",
+          "link": "https://arxiv.org/abs/2206.04670v2",
+          "authors": "Guocheng Qian, Yuchen Li, Houwen Peng, Jinjie Mai, Hasan Abed Al Kader Hammoud, Mohamed Elhoseiny, Bernard Ghanem"
+        },
+        "c": "https://github.com/guochengqian/pointnext",
+        "n": "PointNeXt",
+        "d": "2022-06-09",
+        "m1": "94.0",
+        "m2": "91.1",
+        "m3": "4.5M",
+        "m4": "6.5G"
+      },
+      {
+        "p": {
+          "name": "P2P: Tuning Pre-trained Image Models for Point Cloud Analysis with Point-to-Pixel Prompting",
+          "link": "https://arxiv.org/abs/2208.02812v2",
+          "authors": "Ziyi Wang, Xumin Yu, Yongming Rao, Jie zhou, Jiwen Lu"
+        },
+        "c": "https://github.com/wangzy22/P2P",
+        "n": "P2P",
+        "d": "2022-08-04",
+        "m1": "94.0",
+        "m2": "91.6"
+      },
+      {
+        "p": {
+          "name": "Decoupled Local Aggregation for Point Cloud Learning",
+          "link": "https://arxiv.org/abs/2308.16532v1",
+          "authors": "Binjie Chen, Yunzhou Xia, Yu Zang, Cheng Wang, Jonathan Li"
+        },
+        "c": "https://github.com/matrix-asc/dela",
+        "n": "DeLA",
+        "d": "2023-08-31",
+        "m1": "94.0",
+        "m2": "92.2",
+        "m3": "5.3M",
+        "m4": "1.44G"
+      },
+      {
+        "p": {
           "name": "ModelNet-O: A Large-Scale Synthetic Dataset for Occlusion-Aware Point Cloud Classification",
           "link": "https://arxiv.org/abs/2401.08210v1",
           "authors": "Zhongbin Fang, Xia Li, Xiangtai Li, Shen Zhao, Mengyuan Liu"
@@ -431,18 +443,6 @@
         "n": "3D-JEPA",
         "d": "2024-09-24",
         "m1": "94.0"
-      },
-      {
-        "p": {
-          "name": "MKConv: Multidimensional Feature Representation for Point Cloud Analysis",
-          "link": "https://arxiv.org/abs/2107.12655v3",
-          "authors": "Sungmin Woo, Dogyoon Lee, Sangwon Hwang, Woojin Kim, Sangyoun Lee"
-        },
-        "c": "",
-        "n": "MKConv",
-        "d": "2021-07-27",
-        "m1": "94.0",
-        "m3": "5.63M"
       },
       {
         "p": {
@@ -491,6 +491,18 @@
       },
       {
         "p": {
+          "name": "Geometric Back-projection Network for Point Cloud Classification",
+          "link": "https://arxiv.org/abs/1911.12885v5",
+          "authors": "Shi Qiu, Saeed Anwar, Nick Barnes"
+        },
+        "c": "https://github.com/ShiQiu0419/GFNet",
+        "n": "GBNet",
+        "d": "2019-11-28",
+        "m1": "93.8",
+        "m2": "91.0"
+      },
+      {
+        "p": {
           "name": "MVTN: Multi-View Transformation Network for 3D Shape Recognition",
           "link": "https://arxiv.org/abs/2011.13244v3",
           "authors": "Abdullah Hamdi, Silvio Giancola, Bernard Ghanem"
@@ -515,15 +527,14 @@
       },
       {
         "p": {
-          "name": "Geometric Back-projection Network for Point Cloud Classification",
-          "link": "https://arxiv.org/abs/1911.12885v5",
-          "authors": "Shi Qiu, Saeed Anwar, Nick Barnes"
+          "name": "Learning Geometry-Disentangled Representation for Complementary Understanding of 3D Object Point Cloud",
+          "link": "https://arxiv.org/abs/2012.10921v3",
+          "authors": "Mutian Xu, Junhao Zhang, Zhipeng Zhou, Mingye Xu, Xiaojuan Qi, Yu Qiao"
         },
-        "c": "https://github.com/ShiQiu0419/GFNet",
-        "n": "GBNet",
-        "d": "2019-11-28",
-        "m1": "93.8",
-        "m2": "91.0"
+        "c": "https://github.com/mutianxu/GDANet",
+        "n": "GDANet",
+        "d": "2020-12-20",
+        "m1": "93.8"
       },
       {
         "p": {
@@ -536,17 +547,6 @@
         "d": "2021-11-16",
         "m1": "93.8",
         "m5": "91.2"
-      },
-      {
-        "p": {
-          "name": "Learning Geometry-Disentangled Representation for Complementary Understanding of 3D Object Point Cloud",
-          "link": "https://arxiv.org/abs/2012.10921v3",
-          "authors": "Mutian Xu, Junhao Zhang, Zhipeng Zhou, Mingye Xu, Xiaojuan Qi, Yu Qiao"
-        },
-        "c": "https://github.com/mutianxu/GDANet",
-        "n": "GDANet",
-        "d": "2020-12-20",
-        "m1": "93.8"
       },
       {
         "p": {
@@ -572,17 +572,6 @@
       },
       {
         "p": {
-          "name": "Point-JEPA: A Joint Embedding Predictive Architecture for Self-Supervised Learning on Point Cloud",
-          "link": "https://arxiv.org/abs/2404.16432v5",
-          "authors": "Ayumu Saito, Prachi Kudeshia, Jiju Poovvancheri"
-        },
-        "c": "https://github.com/Ayumu-J-S/Point-JEPA",
-        "n": "Point-JEPA (no voting)",
-        "d": "2024-04-25",
-        "m1": "93.8±0.2"
-      },
-      {
-        "p": {
           "name": "Parameter is Not All You Need: Starting from Non-Parametric Networks for 3D Point Cloud Analysis",
           "link": "https://arxiv.org/abs/2303.08134v2",
           "authors": "Renrui Zhang, Liuhui Wang, Ziyu Guo, Yali Wang, Peng Gao, Hongsheng Li, Jianbo Shi"
@@ -595,27 +584,14 @@
       },
       {
         "p": {
-          "name": "PointSCNet: Point Cloud Structure and Correlation Learning Based on Space Filling Curve-Guided Sampling",
-          "link": "https://arxiv.org/abs/2202.10251v2",
-          "authors": "Xingye Chen, Yiqi Wu, Wenjie Xu, Jin Li, Huaiyi Dong, Yilin Chen"
+          "name": "Point-JEPA: A Joint Embedding Predictive Architecture for Self-Supervised Learning on Point Cloud",
+          "link": "https://arxiv.org/abs/2404.16432v5",
+          "authors": "Ayumu Saito, Prachi Kudeshia, Jiju Poovvancheri"
         },
-        "c": "https://github.com/Chenguoz/PointSCNet",
-        "n": "PointSCNet",
-        "d": "2022-02-21",
-        "m1": "93.7",
-        "m2": "91.4"
-      },
-      {
-        "p": {
-          "name": "PRA-Net: Point Relation-Aware Network for 3D Point Cloud Analysis",
-          "link": "https://arxiv.org/abs/2112.04903v1",
-          "authors": "Silin Cheng, Xiwu Chen, Xinwei He, Zhe Liu, Xiang Bai"
-        },
-        "c": "https://github.com/xiwuchen/pra-net",
-        "n": "PRA-Net",
-        "d": "2021-12-09",
-        "m1": "93.7",
-        "m2": "91.2"
+        "c": "https://github.com/Ayumu-J-S/Point-JEPA",
+        "n": "Point-JEPA (no voting)",
+        "d": "2024-04-25",
+        "m1": "93.8±0.2"
       },
       {
         "p": {
@@ -631,6 +607,30 @@
       },
       {
         "p": {
+          "name": "PRA-Net: Point Relation-Aware Network for 3D Point Cloud Analysis",
+          "link": "https://arxiv.org/abs/2112.04903v1",
+          "authors": "Silin Cheng, Xiwu Chen, Xinwei He, Zhe Liu, Xiang Bai"
+        },
+        "c": "https://github.com/xiwuchen/pra-net",
+        "n": "PRA-Net",
+        "d": "2021-12-09",
+        "m1": "93.7",
+        "m2": "91.2"
+      },
+      {
+        "p": {
+          "name": "PointSCNet: Point Cloud Structure and Correlation Learning Based on Space Filling Curve-Guided Sampling",
+          "link": "https://arxiv.org/abs/2202.10251v2",
+          "authors": "Xingye Chen, Yiqi Wu, Wenjie Xu, Jin Li, Huaiyi Dong, Yilin Chen"
+        },
+        "c": "https://github.com/Chenguoz/PointSCNet",
+        "n": "PointSCNet",
+        "d": "2022-02-21",
+        "m1": "93.7",
+        "m2": "91.4"
+      },
+      {
+        "p": {
           "name": "DualMLP: a two-stream fusion model for 3D point cloud classification",
           "link": "https://link.springer.com/article/10.1007/s00371-023-03114-3",
           "authors": "Sneha Paul, Zachary Patterson, Nizar Bouguila"
@@ -639,19 +639,6 @@
         "n": "DualMLP",
         "d": "2023-10-10",
         "m1": "93.7"
-      },
-      {
-        "p": {
-          "name": "PointMixer: MLP-Mixer for Point Cloud Understanding",
-          "link": "https://arxiv.org/abs/2111.11187v5",
-          "authors": "Jaesung Choe, Chunghyun Park, Francois Rameau, Jaesik Park, In So Kweon"
-        },
-        "c": "https://github.com/lifebeyondexpectations/eccv22-pointmixer",
-        "n": "PointMixer",
-        "d": "2021-11-22",
-        "m1": "93.6",
-        "m2": "91.4",
-        "m3": "6.5M"
       },
       {
         "p": {
@@ -668,15 +655,16 @@
       },
       {
         "p": {
-          "name": "LCPFormer: Towards Effective 3D Point Cloud Analysis via Local Context Propagation in Transformers",
-          "link": "https://arxiv.org/abs/2210.12755v2",
-          "authors": "Zhuoxu Huang, Zhiyou Zhao, Banghuai Li, Jungong Han"
+          "name": "PointMixer: MLP-Mixer for Point Cloud Understanding",
+          "link": "https://arxiv.org/abs/2111.11187v5",
+          "authors": "Jaesung Choe, Chunghyun Park, Francois Rameau, Jaesik Park, In So Kweon"
         },
-        "c": "https://github.com/zhh6425/LocalContextPropagation",
-        "n": "LCPFormer",
-        "d": "2022-10-23",
+        "c": "https://github.com/lifebeyondexpectations/eccv22-pointmixer",
+        "n": "PointMixer",
+        "d": "2021-11-22",
         "m1": "93.6",
-        "m2": "90.7"
+        "m2": "91.4",
+        "m3": "6.5M"
       },
       {
         "p": {
@@ -691,15 +679,15 @@
       },
       {
         "p": {
-          "name": "PointVector: A Vector Representation In Point Cloud Analysis",
-          "link": "https://arxiv.org/abs/2205.10528v3",
-          "authors": "Xin Deng, Wenyu Zhang, Qing Ding, Xinming Zhang"
+          "name": "LCPFormer: Towards Effective 3D Point Cloud Analysis via Local Context Propagation in Transformers",
+          "link": "https://arxiv.org/abs/2210.12755v2",
+          "authors": "Zhuoxu Huang, Zhiyou Zhao, Banghuai Li, Jungong Han"
         },
-        "c": "https://github.com/guochengqian/openpoints/blob/master/models/backbone/pointvector.py",
-        "n": "PointVector-S",
-        "d": "2022-05-21",
-        "m1": "93.5",
-        "m2": "91"
+        "c": "https://github.com/zhh6425/LocalContextPropagation",
+        "n": "LCPFormer",
+        "d": "2022-10-23",
+        "m1": "93.6",
+        "m2": "90.7"
       },
       {
         "p": {
@@ -710,28 +698,6 @@
         "c": "https://github.com/dogyoonlee/RSMix-official",
         "n": "RSMix",
         "d": "2021-02-03",
-        "m1": "93.5"
-      },
-      {
-        "p": {
-          "name": "Point Cloud Classification Using Content-based Transformer via Clustering in Feature Space",
-          "link": "https://arxiv.org/abs/2303.04599v1",
-          "authors": "Yahui Liu, Bin Tian, Yisheng Lv, Lingxi Li, FeiYue Wang"
-        },
-        "c": "https://github.com/yahuiliu99/pointcont",
-        "n": "PointConT",
-        "d": "2023-03-08",
-        "m1": "93.5"
-      },
-      {
-        "p": {
-          "name": "Attention-based Point Cloud Edge Sampling",
-          "link": "https://arxiv.org/abs/2302.14673v2",
-          "authors": "Chengzhi Wu, Junwei Zheng, Julius Pfrommer, Jürgen Beyerer"
-        },
-        "c": "https://github.com/JunweiZheng93/APES",
-        "n": "APES (local-based downsample)",
-        "d": "2023-02-28",
         "m1": "93.5"
       },
       {
@@ -748,15 +714,37 @@
       },
       {
         "p": {
-          "name": "ULIP: Learning a Unified Representation of Language, Images, and Point Clouds for 3D Understanding",
-          "link": "https://arxiv.org/abs/2212.05171v4",
-          "authors": "Le Xue, Mingfei Gao, Chen Xing, Roberto Martín-Martín, Jiajun Wu, Caiming Xiong, ran Xu, Juan Carlos Niebles, Silvio Savarese"
+          "name": "PointVector: A Vector Representation In Point Cloud Analysis",
+          "link": "https://arxiv.org/abs/2205.10528v3",
+          "authors": "Xin Deng, Wenyu Zhang, Qing Ding, Xinming Zhang"
         },
-        "c": "https://github.com/salesforce/ulip",
-        "n": "ULIP + PointNet++(ssg)",
-        "d": "2022-12-10",
-        "m1": "93.4",
-        "m2": "91.2"
+        "c": "https://github.com/guochengqian/openpoints/blob/master/models/backbone/pointvector.py",
+        "n": "PointVector-S",
+        "d": "2022-05-21",
+        "m1": "93.5",
+        "m2": "91"
+      },
+      {
+        "p": {
+          "name": "Attention-based Point Cloud Edge Sampling",
+          "link": "https://arxiv.org/abs/2302.14673v2",
+          "authors": "Chengzhi Wu, Junwei Zheng, Julius Pfrommer, Jürgen Beyerer"
+        },
+        "c": "https://github.com/JunweiZheng93/APES",
+        "n": "APES (local-based downsample)",
+        "d": "2023-02-28",
+        "m1": "93.5"
+      },
+      {
+        "p": {
+          "name": "Point Cloud Classification Using Content-based Transformer via Clustering in Feature Space",
+          "link": "https://arxiv.org/abs/2303.04599v1",
+          "authors": "Yahui Liu, Bin Tian, Yisheng Lv, Lingxi Li, FeiYue Wang"
+        },
+        "c": "https://github.com/yahuiliu99/pointcont",
+        "n": "PointConT",
+        "d": "2023-03-08",
+        "m1": "93.5"
       },
       {
         "p": {
@@ -780,6 +768,18 @@
         "d": "2021-12-09",
         "m1": "93.4",
         "m3": "1.54M"
+      },
+      {
+        "p": {
+          "name": "ULIP: Learning a Unified Representation of Language, Images, and Point Clouds for 3D Understanding",
+          "link": "https://arxiv.org/abs/2212.05171v4",
+          "authors": "Le Xue, Mingfei Gao, Chen Xing, Roberto Martín-Martín, Jiajun Wu, Caiming Xiong, ran Xu, Juan Carlos Niebles, Silvio Savarese"
+        },
+        "c": "https://github.com/salesforce/ulip",
+        "n": "ULIP + PointNet++(ssg)",
+        "d": "2022-12-10",
+        "m1": "93.4",
+        "m2": "91.2"
       },
       {
         "p": {
@@ -866,17 +866,6 @@
       },
       {
         "p": {
-          "name": "Dense-Resolution Network for Point Cloud Classification and Segmentation",
-          "link": "https://arxiv.org/abs/2005.06734v2",
-          "authors": "Shi Qiu, Saeed Anwar, Nick Barnes"
-        },
-        "c": "https://github.com/ShiQiu0419/DRNet",
-        "n": "DRNet",
-        "d": "2020-05-14",
-        "m1": "93.1"
-      },
-      {
-        "p": {
           "name": "ShellNet: Efficient Point Cloud Convolutional Neural Networks using Concentric Shells Statistics",
           "link": "https://arxiv.org/abs/1908.06295v1",
           "authors": "Zhiyuan Zhang, Binh-Son Hua, Sai-Kit Yeung"
@@ -884,6 +873,17 @@
         "c": "https://github.com/hkust-vgd/shellnet",
         "n": "ShellNet",
         "d": "2019-08-17",
+        "m1": "93.1"
+      },
+      {
+        "p": {
+          "name": "Dense-Resolution Network for Point Cloud Classification and Segmentation",
+          "link": "https://arxiv.org/abs/2005.06734v2",
+          "authors": "Shi Qiu, Saeed Anwar, Nick Barnes"
+        },
+        "c": "https://github.com/ShiQiu0419/DRNet",
+        "n": "DRNet",
+        "d": "2020-05-14",
         "m1": "93.1"
       },
       {
@@ -901,7 +901,7 @@
         "p": "[]()",
         "c": "",
         "n": "PatchAugment+DGCNN",
-        "d": null,
+        "d": "",
         "m1": "93.1"
       },
       {
@@ -917,6 +917,17 @@
       },
       {
         "p": {
+          "name": "Interpolated Convolutional Networks for 3D Point Cloud Understanding",
+          "link": "https://arxiv.org/abs/1908.04512v1",
+          "authors": "Jiageng Mao, Xiaogang Wang, Hongsheng Li"
+        },
+        "c": "",
+        "n": "InterpCNN",
+        "d": "2019-08-13",
+        "m1": "93.0"
+      },
+      {
+        "p": {
           "name": "PointManifold: Using Manifold Learning for Point Cloud Classification",
           "link": "https://arxiv.org/abs/2010.07215v2",
           "authors": "Dinghao Yang, Wei Gao"
@@ -926,17 +937,6 @@
         "d": "2020-10-14",
         "m1": "93.0",
         "m2": "90.4"
-      },
-      {
-        "p": {
-          "name": "Interpolated Convolutional Networks for 3D Point Cloud Understanding",
-          "link": "https://arxiv.org/abs/1908.04512v1",
-          "authors": "Jiageng Mao, Xiaogang Wang, Hongsheng Li"
-        },
-        "c": "",
-        "n": "InterpCNN",
-        "d": "2019-08-13",
-        "m1": "93.0"
       },
       {
         "p": {
@@ -953,17 +953,6 @@
       },
       {
         "p": {
-          "name": "KPConv: Flexible and Deformable Convolution for Point Clouds",
-          "link": "https://arxiv.org/abs/1904.08889v2",
-          "authors": "Hugues Thomas, Charles R. Qi, Jean-Emmanuel Deschaud, Beatriz Marcotegui, François Goulette, Leonidas J. Guibas"
-        },
-        "c": "https://github.com/isl-org/Open3D-ML",
-        "n": "KPConv",
-        "d": "2019-04-18",
-        "m1": "92.9"
-      },
-      {
-        "p": {
           "name": "Relation-Shape Convolutional Neural Network for Point Cloud Analysis",
           "link": "https://arxiv.org/abs/1904.07601v3",
           "authors": "Yongcheng Liu, Bin Fan, Shiming Xiang, Chunhong Pan"
@@ -971,6 +960,17 @@
         "c": "https://github.com/Yochengliu/Relation-Shape-CNN",
         "n": "RS-CNN",
         "d": "2019-04-16",
+        "m1": "92.9"
+      },
+      {
+        "p": {
+          "name": "KPConv: Flexible and Deformable Convolution for Point Clouds",
+          "link": "https://arxiv.org/abs/1904.08889v2",
+          "authors": "Hugues Thomas, Charles R. Qi, Jean-Emmanuel Deschaud, Beatriz Marcotegui, François Goulette, Leonidas J. Guibas"
+        },
+        "c": "https://github.com/isl-org/Open3D-ML",
+        "n": "KPConv",
+        "d": "2019-04-18",
         "m1": "92.9"
       },
       {
@@ -1008,17 +1008,6 @@
       },
       {
         "p": {
-          "name": "A-CNN: Annularly Convolutional Neural Networks on Point Clouds",
-          "link": "http://arxiv.org/abs/1904.08017v1",
-          "authors": "Artem Komarichev, Zichun Zhong, Jing Hua"
-        },
-        "c": "https://github.com/artemkomarichev/a-cnn",
-        "n": "A-CNN",
-        "d": "2019-04-16",
-        "m1": "92.6"
-      },
-      {
-        "p": {
           "name": "Point2Sequence: Learning the Shape Representation of 3D Point Clouds with an Attention-based Sequence to Sequence Network",
           "link": "http://arxiv.org/abs/1811.02565v2",
           "authors": "Xinhai Liu, Zhizhong Han, Yu-Shen Liu, Matthias Zwicker"
@@ -1026,6 +1015,17 @@
         "c": "",
         "n": "P2Sequence",
         "d": "2018-11-06",
+        "m1": "92.6"
+      },
+      {
+        "p": {
+          "name": "A-CNN: Annularly Convolutional Neural Networks on Point Clouds",
+          "link": "http://arxiv.org/abs/1904.08017v1",
+          "authors": "Artem Komarichev, Zichun Zhong, Jing Hua"
+        },
+        "c": "https://github.com/artemkomarichev/a-cnn",
+        "n": "A-CNN",
+        "d": "2019-04-16",
         "m1": "92.6"
       },
       {
@@ -1097,6 +1097,17 @@
       },
       {
         "p": {
+          "name": "Local Spectral Graph Convolution for Point Set Feature Learning",
+          "link": "http://arxiv.org/abs/1803.05827v1",
+          "authors": "Chu Wang, Babak Samari, Kaleem Siddiqi"
+        },
+        "c": "https://github.com/fate3439/LocalSpecGCN",
+        "n": "SpecGCN",
+        "d": "2018-03-15",
+        "m1": "92.1"
+      },
+      {
+        "p": {
           "name": "Point-PlaneNet: Plane kernel based convolutional neural network for point clouds analysis",
           "link": "https://www.sciencedirect.com/science/article/abs/pii/S1051200419301873",
           "authors": "S.M. Moein Peyghambarzadeh, Fatemeh Azizmalayeri, Hassan Khotanlou, Amir Salarpour"
@@ -1106,17 +1117,6 @@
         "d": "2020-05-01",
         "m1": "92.1",
         "m2": "90.5"
-      },
-      {
-        "p": {
-          "name": "Local Spectral Graph Convolution for Point Set Feature Learning",
-          "link": "http://arxiv.org/abs/1803.05827v1",
-          "authors": "Chu Wang, Babak Samari, Kaleem Siddiqi"
-        },
-        "c": "https://github.com/fate3439/LocalSpecGCN",
-        "n": "SpecGCN",
-        "d": "2018-03-15",
-        "m1": "92.1"
       },
       {
         "p": {
@@ -1242,6 +1242,17 @@
       },
       {
         "p": {
+          "name": "Volumetric and Multi-View CNNs for Object Classification on 3D Data",
+          "link": "http://arxiv.org/abs/1604.03265v2",
+          "authors": "Charles R. Qi, Hao Su, Matthias Niessner, Angela Dai, Mengyuan Yan, Leonidas J. Guibas"
+        },
+        "c": "https://github.com/charlesq34/3dcnn.torch",
+        "n": "Subvolume",
+        "d": "2016-04-12",
+        "m1": "89.2"
+      },
+      {
+        "p": {
           "name": "PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation",
           "link": "http://arxiv.org/abs/1612.00593v2",
           "authors": "Charles R. Qi, Hao Su, Kaichun Mo, Leonidas J. Guibas"
@@ -1252,17 +1263,6 @@
         "m1": "89.2",
         "m2": "86.0",
         "m3": "3.47M"
-      },
-      {
-        "p": {
-          "name": "Volumetric and Multi-View CNNs for Object Classification on 3D Data",
-          "link": "http://arxiv.org/abs/1604.03265v2",
-          "authors": "Charles R. Qi, Hao Su, Matthias Niessner, Angela Dai, Mengyuan Yan, Leonidas J. Guibas"
-        },
-        "c": "https://github.com/charlesq34/3dcnn.torch",
-        "n": "Subvolume",
-        "d": "2016-04-12",
-        "m1": "89.2"
       },
       {
         "p": {

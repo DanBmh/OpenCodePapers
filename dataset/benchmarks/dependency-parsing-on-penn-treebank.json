@@ -64,7 +64,7 @@
         },
         "c": "https://github.com/synlp/dmpar",
         "n": "DMPar + XLNet",
-        "d": null,
+        "d": "",
         "m1": "95.92",
         "m2": "97.30"
       },
@@ -232,7 +232,7 @@
         "p": "[]()",
         "c": "",
         "n": "Experiment-bert",
-        "d": null,
+        "d": "",
         "m1": "93.2",
         "m2": "95.42"
       },
@@ -251,19 +251,6 @@
       },
       {
         "p": {
-          "name": "Distilling an Ensemble of Greedy Dependency Parsers into One MST Parser",
-          "link": "http://arxiv.org/abs/1609.07561v1",
-          "authors": "Adhiguna Kuncoro, Miguel Ballesteros, Lingpeng Kong, Chris Dyer, Noah A. Smith"
-        },
-        "c": "https://github.com/adhigunasurya/distillation_parser",
-        "n": "Distilled neural FOG",
-        "d": "2016-09-24",
-        "m1": "92.06",
-        "m2": "94.26",
-        "m3": "97.44"
-      },
-      {
-        "p": {
           "name": "Structured Training for Neural Network Transition-Based Parsing",
           "link": "http://arxiv.org/abs/1506.06158v1",
           "authors": "David Weiss, Chris Alberti, Michael Collins, Slav Petrov"
@@ -274,6 +261,19 @@
         "m1": "92.06",
         "m2": "94.01",
         "m3": "97.3"
+      },
+      {
+        "p": {
+          "name": "Distilling an Ensemble of Greedy Dependency Parsers into One MST Parser",
+          "link": "http://arxiv.org/abs/1609.07561v1",
+          "authors": "Adhiguna Kuncoro, Miguel Ballesteros, Lingpeng Kong, Chris Dyer, Noah A. Smith"
+        },
+        "c": "https://github.com/adhigunasurya/distillation_parser",
+        "n": "Distilled neural FOG",
+        "d": "2016-09-24",
+        "m1": "92.06",
+        "m2": "94.26",
+        "m3": "97.44"
       },
       {
         "p": {

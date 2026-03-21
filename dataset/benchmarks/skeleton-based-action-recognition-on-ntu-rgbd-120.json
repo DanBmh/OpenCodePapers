@@ -101,6 +101,18 @@
       },
       {
         "p": {
+          "name": "Joint Mixing Data Augmentation for Skeleton-based Action Recognition",
+          "link": "https://doi.org/10.1145/3700878",
+          "authors": "Linhua Xiang, Zengfu Wang"
+        },
+        "c": "https://github.com/aidarikako/JMDA",
+        "n": "JMDA (based on Skeleton MixFormer)",
+        "d": "2024-10-13",
+        "m1": "90.9",
+        "m2": "91.9"
+      },
+      {
+        "p": {
           "name": "Revealing Key Details to See Differences: A Novel Prototypical Perspective for Skeleton-based Action Recognition",
           "link": "https://arxiv.org/abs/2411.18941v1",
           "authors": "Hongda Liu, Yunfan Liu, Min Ren, Hao Wang, Yunlong Wang, Zhenan Sun"
@@ -111,18 +123,6 @@
         "m1": "90.9",
         "m2": "92.2",
         "m3": "6"
-      },
-      {
-        "p": {
-          "name": "Joint Mixing Data Augmentation for Skeleton-based Action Recognition",
-          "link": "https://doi.org/10.1145/3700878",
-          "authors": "Linhua Xiang, Zengfu Wang"
-        },
-        "c": "https://github.com/aidarikako/JMDA",
-        "n": "JMDA (based on Skeleton MixFormer)",
-        "d": "2024-10-13",
-        "m1": "90.9",
-        "m2": "91.9"
       },
       {
         "p": {
@@ -177,15 +177,16 @@
       },
       {
         "p": {
-          "name": "Modeling the skeleton-language uncertainty for 3D action recognition",
-          "link": "https://www.sciencedirect.com/science/article/pii/S0925231224011974",
-          "authors": ""
+          "name": "BlockGCN: Redefine Topology Awareness for Skeleton-Based Action Recognition",
+          "link": "http://openaccess.thecvf.com//content/CVPR2024/html/Zhou_BlockGCN_Redefine_Topology_Awareness_for_Skeleton-Based_Action_Recognition_CVPR_2024_paper.html",
+          "authors": "Yuxuan Zhou, Xudong Yan, Zhi-Qi Cheng, Yan Yan, Qi Dai, Xian-Sheng Hua"
         },
-        "c": "",
-        "n": "USLLF",
-        "d": "2024-08-15",
+        "c": "https://github.com/zhouyuxuanyx/blockgcn",
+        "n": "BlockGCN",
+        "d": "2024-06-17",
         "m1": "90.3",
-        "m2": "91.9"
+        "m2": "91.5",
+        "m3": "4"
       },
       {
         "p": {
@@ -202,16 +203,15 @@
       },
       {
         "p": {
-          "name": "BlockGCN: Redefine Topology Awareness for Skeleton-Based Action Recognition",
-          "link": "http://openaccess.thecvf.com//content/CVPR2024/html/Zhou_BlockGCN_Redefine_Topology_Awareness_for_Skeleton-Based_Action_Recognition_CVPR_2024_paper.html",
-          "authors": "Yuxuan Zhou, Xudong Yan, Zhi-Qi Cheng, Yan Yan, Qi Dai, Xian-Sheng Hua"
+          "name": "Modeling the skeleton-language uncertainty for 3D action recognition",
+          "link": "https://www.sciencedirect.com/science/article/pii/S0925231224011974",
+          "authors": ""
         },
-        "c": "https://github.com/zhouyuxuanyx/blockgcn",
-        "n": "BlockGCN",
-        "d": "2024-06-17",
+        "c": "",
+        "n": "USLLF",
+        "d": "2024-08-15",
         "m1": "90.3",
-        "m2": "91.5",
-        "m3": "4"
+        "m2": "91.9"
       },
       {
         "p": {
@@ -265,19 +265,6 @@
       },
       {
         "p": {
-          "name": "Language-guided temporal primitive modeling for skeleton-based action recognition",
-          "link": "https://www.sciencedirect.com/science/article/pii/S0925231224014073",
-          "authors": ""
-        },
-        "c": "",
-        "n": "LGS-Net",
-        "d": "2024-09-15",
-        "m1": "90.0",
-        "m2": "91.3",
-        "m3": "4"
-      },
-      {
-        "p": {
           "name": "STEP CATFormer: Spatial-Temporal Effective Body-Part Cross Attention Transformer for Skeleton-based Action Recognition",
           "link": "https://arxiv.org/abs/2312.03288v1",
           "authors": "Nguyen Huu Bao Long"
@@ -291,14 +278,14 @@
       },
       {
         "p": {
-          "name": "Hypergraph Transformer for Skeleton-based Action Recognition",
-          "link": "https://arxiv.org/abs/2211.09590v5",
-          "authors": "Yuxuan Zhou, Zhi-Qi Cheng, Chao Li, Yanwen Fang, Yifeng Geng, Xuansong Xie, Margret Keuper"
+          "name": "Language-guided temporal primitive modeling for skeleton-based action recognition",
+          "link": "https://www.sciencedirect.com/science/article/pii/S0925231224014073",
+          "authors": ""
         },
-        "c": "https://github.com/ZhouYuxuanYX/Hypergraph-Transformer-for-Skeleton-based-Action-Recognition",
-        "n": "Hyperformer",
-        "d": "2022-11-17",
-        "m1": "89.9",
+        "c": "",
+        "n": "LGS-Net",
+        "d": "2024-09-15",
+        "m1": "90.0",
         "m2": "91.3",
         "m3": "4"
       },
@@ -317,15 +304,15 @@
       },
       {
         "p": {
-          "name": "SkateFormer: Skeletal-Temporal Transformer for Human Action Recognition",
-          "link": "https://arxiv.org/abs/2403.09508v3",
-          "authors": "Jeonghyeok Do, Munchurl Kim"
+          "name": "Hypergraph Transformer for Skeleton-based Action Recognition",
+          "link": "https://arxiv.org/abs/2211.09590v5",
+          "authors": "Yuxuan Zhou, Zhi-Qi Cheng, Chao Li, Yanwen Fang, Yifeng Geng, Xuansong Xie, Margret Keuper"
         },
-        "c": "https://github.com/KAIST-VICLab/SkateFormer",
-        "n": "SkateFormer",
-        "d": "2024-03-14",
-        "m1": "89.8",
-        "m2": "91.4",
+        "c": "https://github.com/ZhouYuxuanYX/Hypergraph-Transformer-for-Skeleton-based-Action-Recognition",
+        "n": "Hyperformer",
+        "d": "2022-11-17",
+        "m1": "89.9",
+        "m2": "91.3",
         "m3": "4"
       },
       {
@@ -340,6 +327,19 @@
         "m1": "89.8",
         "m2": "91.2",
         "m3": "6"
+      },
+      {
+        "p": {
+          "name": "SkateFormer: Skeletal-Temporal Transformer for Human Action Recognition",
+          "link": "https://arxiv.org/abs/2403.09508v3",
+          "authors": "Jeonghyeok Do, Munchurl Kim"
+        },
+        "c": "https://github.com/KAIST-VICLab/SkateFormer",
+        "n": "SkateFormer",
+        "d": "2024-03-14",
+        "m1": "89.8",
+        "m2": "91.4",
+        "m3": "4"
       },
       {
         "p": {
@@ -381,19 +381,6 @@
       },
       {
         "p": {
-          "name": "Joint-Partition Group Attention for skeleton-based action recognition",
-          "link": "https://www.sciencedirect.com/science/article/pii/S0165168424002111",
-          "authors": "Hu Cui, Tessai Hayama"
-        },
-        "c": "https://github.com/HuCui2022/JPFormer",
-        "n": "JPFormer",
-        "d": "2024-07-30",
-        "m1": "89.4",
-        "m2": "91.4",
-        "m3": "4"
-      },
-      {
-        "p": {
           "name": "Skeleton-based Action Recognition via Temporal-Channel Aggregation",
           "link": "https://arxiv.org/abs/2205.15936v2",
           "authors": "Shengqin Wang, Yongji Zhang, Minghao Zhao, Hong Qi, Kai Wang, Fenglin Wei, Yu Jiang"
@@ -416,6 +403,19 @@
         "d": "2022-08-11",
         "m1": "89.4",
         "m2": "90.6"
+      },
+      {
+        "p": {
+          "name": "Joint-Partition Group Attention for skeleton-based action recognition",
+          "link": "https://www.sciencedirect.com/science/article/pii/S0165168424002111",
+          "authors": "Hu Cui, Tessai Hayama"
+        },
+        "c": "https://github.com/HuCui2022/JPFormer",
+        "n": "JPFormer",
+        "d": "2024-07-30",
+        "m1": "89.4",
+        "m2": "91.4",
+        "m3": "4"
       },
       {
         "p": {
@@ -458,15 +458,15 @@
       },
       {
         "p": {
-          "name": "LLMs are Good Action Recognizers",
-          "link": "https://arxiv.org/abs/2404.00532v1",
-          "authors": "Haoxuan Qu, Yujun Cai, Jun Liu"
+          "name": "Constructing Stronger and Faster Baselines for Skeleton-based Action Recognition",
+          "link": "https://arxiv.org/abs/2106.15125v2",
+          "authors": "Yi-Fan Song, Zhang Zhang, Caifeng Shan, Liang Wang"
         },
-        "c": "",
-        "n": "Lit-llama",
-        "d": "2024-03-31",
+        "c": "https://github.com/yfsong0709/EfficientGCNv1",
+        "n": "EfficientGCN-B4",
+        "d": "2021-06-29",
         "m1": "88.7",
-        "m2": "91.5"
+        "m2": "89.1"
       },
       {
         "p": {
@@ -483,15 +483,15 @@
       },
       {
         "p": {
-          "name": "Constructing Stronger and Faster Baselines for Skeleton-based Action Recognition",
-          "link": "https://arxiv.org/abs/2106.15125v2",
-          "authors": "Yi-Fan Song, Zhang Zhang, Caifeng Shan, Liang Wang"
+          "name": "LLMs are Good Action Recognizers",
+          "link": "https://arxiv.org/abs/2404.00532v1",
+          "authors": "Haoxuan Qu, Yujun Cai, Jun Liu"
         },
-        "c": "https://github.com/yfsong0709/EfficientGCNv1",
-        "n": "EfficientGCN-B4",
-        "d": "2021-06-29",
+        "c": "",
+        "n": "Lit-llama",
+        "d": "2024-03-31",
         "m1": "88.7",
-        "m2": "89.1"
+        "m2": "91.5"
       },
       {
         "p": {
@@ -520,19 +520,6 @@
       },
       {
         "p": {
-          "name": "Learning Multi-Granular Spatio-Temporal Graph Network for Skeleton-based Action Recognition",
-          "link": "https://arxiv.org/abs/2108.04536v1",
-          "authors": "Tailin Chen, Desen Zhou, Jian Wang, Shidong Wang, Yu Guan, Xuming He, Errui Ding"
-        },
-        "c": "https://github.com/tailin1009/dualhead-network",
-        "n": "DualHead-Net",
-        "d": "2021-08-10",
-        "m1": "88.2",
-        "m2": "89.3",
-        "m3": "4"
-      },
-      {
-        "p": {
           "name": "Fusing Higher-order Features in Graph Neural Networks for Skeleton-based Action Recognition",
           "link": "https://arxiv.org/abs/2105.01563v5",
           "authors": "Zhenyue Qin, Yang Liu, Pan Ji, Dongwoo Kim, Lei Wang, Bob McKay, Saeed Anwar, Tom Gedeon"
@@ -542,6 +529,19 @@
         "d": "2021-05-04",
         "m1": "88.2%",
         "m2": "89.2%",
+        "m3": "4"
+      },
+      {
+        "p": {
+          "name": "Learning Multi-Granular Spatio-Temporal Graph Network for Skeleton-based Action Recognition",
+          "link": "https://arxiv.org/abs/2108.04536v1",
+          "authors": "Tailin Chen, Desen Zhou, Jian Wang, Shidong Wang, Yu Guan, Xuming He, Errui Ding"
+        },
+        "c": "https://github.com/tailin1009/dualhead-network",
+        "n": "DualHead-Net",
+        "d": "2021-08-10",
+        "m1": "88.2",
+        "m2": "89.3",
         "m3": "4"
       },
       {
@@ -583,18 +583,6 @@
       },
       {
         "p": {
-          "name": "MaskCLR: Attention-Guided Contrastive Learning for Robust Action Representation Learning",
-          "link": "http://openaccess.thecvf.com//content/CVPR2024/html/Abdelfattah_MaskCLR_Attention-Guided_Contrastive_Learning_for_Robust_Action_Representation_Learning_CVPR_2024_paper.html",
-          "authors": "Mohamed Abdelfattah, Mariam Hassan, Alexandre Alahi"
-        },
-        "c": "",
-        "n": "MaskCLR",
-        "d": "2024-01-01",
-        "m1": "87.4",
-        "m2": "89.5"
-      },
-      {
-        "p": {
           "name": "Multi-scale spatial–temporal convolutional neural network for skeleton-based action recognition",
           "link": "https://link.springer.com/article/10.1007/s10044-023-01156-w#Sec8",
           "authors": "Qin Cheng, Jun Cheng, Ziliang Ren, Qieshi Zhang, Jianming Liu"
@@ -604,6 +592,18 @@
         "d": "2023-05-12",
         "m1": "87.4",
         "m2": "88.3"
+      },
+      {
+        "p": {
+          "name": "MaskCLR: Attention-Guided Contrastive Learning for Robust Action Representation Learning",
+          "link": "http://openaccess.thecvf.com//content/CVPR2024/html/Abdelfattah_MaskCLR_Attention-Guided_Contrastive_Learning_for_Robust_Action_Representation_Learning_CVPR_2024_paper.html",
+          "authors": "Mohamed Abdelfattah, Mariam Hassan, Alexandre Alahi"
+        },
+        "c": "",
+        "n": "MaskCLR",
+        "d": "2024-01-01",
+        "m1": "87.4",
+        "m2": "89.5"
       },
       {
         "p": {
@@ -631,18 +631,6 @@
       },
       {
         "p": {
-          "name": "Revisiting Skeleton-based Action Recognition",
-          "link": "https://arxiv.org/abs/2104.13586v2",
-          "authors": "Haodong Duan, Yue Zhao, Kai Chen, Dahua Lin, Bo Dai"
-        },
-        "c": "https://github.com/open-mmlab/mmaction2",
-        "n": "PoseC3D (w. HRNet 2D Skeleton)",
-        "d": "2021-04-28",
-        "m1": "86.9",
-        "m2": "90.3"
-      },
-      {
-        "p": {
           "name": "Disentangling and Unifying Graph Convolutions for Skeleton-Based Action Recognition",
           "link": "https://arxiv.org/abs/2003.14111v2",
           "authors": "Ziyu Liu, Hongwen Zhang, Zhenghao Chen, Zhiyong Wang, Wanli Ouyang"
@@ -652,6 +640,18 @@
         "d": "2020-03-31",
         "m1": "86.9%",
         "m2": "88.4%"
+      },
+      {
+        "p": {
+          "name": "Revisiting Skeleton-based Action Recognition",
+          "link": "https://arxiv.org/abs/2104.13586v2",
+          "authors": "Haodong Duan, Yue Zhao, Kai Chen, Dahua Lin, Bo Dai"
+        },
+        "c": "https://github.com/open-mmlab/mmaction2",
+        "n": "PoseC3D (w. HRNet 2D Skeleton)",
+        "d": "2021-04-28",
+        "m1": "86.9",
+        "m2": "90.3"
       },
       {
         "p": {
@@ -730,7 +730,7 @@
         "p": "[]()",
         "c": "",
         "n": "VA-CNN (ResNeXt-101)",
-        "d": null,
+        "d": "",
         "m1": "84.88",
         "m2": "86.90"
       },

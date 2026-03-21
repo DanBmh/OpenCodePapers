@@ -130,6 +130,20 @@
       },
       {
         "p": {
+          "name": "Energy-based View of Retrosynthesis",
+          "link": "https://arxiv.org/abs/2007.13437v2",
+          "authors": "Ruoxi Sun, Hanjun Dai, Li Li, Steven Kearnes, Bo Dai"
+        },
+        "c": "",
+        "n": "Dual-TF (reaction class as prior)",
+        "d": "2020-07-14",
+        "m1": "65.7",
+        "m2": "81.9",
+        "m3": "84.7",
+        "m4": "85.9"
+      },
+      {
+        "p": {
           "name": "O-GNN: Incorporating Ring Priors into Molecular Modeling",
           "link": "https://openreview.net/forum?id=5cFfz6yMVPU",
           "authors": "Jinhua Zhu, Kehan Wu, Bohan Wang, Yingce Xia, Shufang Xie, Qi Meng, Lijun Wu, Tao Qin, Wengang Zhou, Houqiang Li, Tie-Yan Liu"
@@ -145,17 +159,17 @@
       },
       {
         "p": {
-          "name": "Energy-based View of Retrosynthesis",
-          "link": "https://arxiv.org/abs/2007.13437v2",
-          "authors": "Ruoxi Sun, Hanjun Dai, Li Li, Steven Kearnes, Bo Dai"
+          "name": "Learning Graph Models for Template-Free Retrosynthesis",
+          "link": "https://arxiv.org/abs/2006.07038",
+          "authors": "Vignesh Ram Somnath, Charlotte Bunne, Connor W. Coley, Andreas Krause, Regina Barzilay"
         },
         "c": "",
-        "n": "Dual-TF (reaction class as prior)",
-        "d": "2020-07-14",
-        "m1": "65.7",
-        "m2": "81.9",
-        "m3": "84.7",
-        "m4": "85.9"
+        "n": "GraphRetro (reaction class as prior)",
+        "d": "2021-06-04",
+        "m1": "63.9",
+        "m2": "81.5",
+        "m3": "85.2",
+        "m4": "88.1"
       },
       {
         "p": {
@@ -171,20 +185,6 @@
         "m3": "92.4",
         "m4": "96.3",
         "m6": "97.9"
-      },
-      {
-        "p": {
-          "name": "Learning Graph Models for Template-Free Retrosynthesis",
-          "link": "https://arxiv.org/abs/2006.07038",
-          "authors": "Vignesh Ram Somnath, Charlotte Bunne, Connor W. Coley, Andreas Krause, Regina Barzilay"
-        },
-        "c": "",
-        "n": "GraphRetro (reaction class as prior)",
-        "d": "2021-06-04",
-        "m1": "63.9",
-        "m2": "81.5",
-        "m3": "85.2",
-        "m4": "88.1"
       },
       {
         "p": {
@@ -299,6 +299,20 @@
       },
       {
         "p": {
+          "name": "G2GT: Retrosynthesis Prediction with Graph to Graph Attention Neural Network and Self-Training",
+          "link": "https://arxiv.org/abs/2204.08608v1",
+          "authors": "Zaiyun Lin, Shiqiu Yin, Lei Shi, Wenbiao Zhou, YingSheng Zhang"
+        },
+        "c": "https://github.com/Anonnoname/G2GT_2",
+        "n": "G2GT (reaction class unknown)",
+        "d": "2022-04-19",
+        "m1": "54.1",
+        "m2": "69.9",
+        "m3": "74.5",
+        "m4": "77.7"
+      },
+      {
+        "p": {
           "name": "O-GNN: Incorporating Ring Priors into Molecular Modeling",
           "link": "https://openreview.net/forum?id=5cFfz6yMVPU",
           "authors": "Jinhua Zhu, Kehan Wu, Bohan Wang, Yingce Xia, Shufang Xie, Qi Meng, Lijun Wu, Tao Qin, Wengang Zhou, Houqiang Li, Tie-Yan Liu"
@@ -311,20 +325,6 @@
         "m3": "86.0",
         "m4": "92.5",
         "m6": "98.2"
-      },
-      {
-        "p": {
-          "name": "G2GT: Retrosynthesis Prediction with Graph to Graph Attention Neural Network and Self-Training",
-          "link": "https://arxiv.org/abs/2204.08608v1",
-          "authors": "Zaiyun Lin, Shiqiu Yin, Lei Shi, Wenbiao Zhou, YingSheng Zhang"
-        },
-        "c": "https://github.com/Anonnoname/G2GT_2",
-        "n": "G2GT (reaction class unknown)",
-        "d": "2022-04-19",
-        "m1": "54.1",
-        "m2": "69.9",
-        "m3": "74.5",
-        "m4": "77.7"
       },
       {
         "p": {
@@ -356,6 +356,19 @@
       },
       {
         "p": {
+          "name": "State-of-the-Art Augmented NLP Transformer models for direct and single-step retrosynthesis",
+          "link": "https://arxiv.org/abs/2003.02804v2",
+          "authors": "Igor V. Tetko, Pavel Karpov, Ruud Van Deursen, Guillaume Godin"
+        },
+        "c": "https://github.com/bigchem/synthesis",
+        "n": "Augmented Transformer (reaction class unknown)",
+        "d": "2020-03-05",
+        "m1": "53.5",
+        "m3": "81.0",
+        "m4": "85.7"
+      },
+      {
+        "p": {
           "name": "UAlign: Pushing the Limit of Template-free Retrosynthesis Prediction with Unsupervised SMILES Alignment",
           "link": "https://arxiv.org/abs/2404.00044v2",
           "authors": "Kaipeng Zeng, Bo Yang, Xin Zhao, Yu Zhang, Fan Nie, Xiaokang Yang, Yaohui Jin, Yanyan Xu"
@@ -367,19 +380,6 @@
         "m2": "77.3",
         "m3": "84.6",
         "m4": "90.5"
-      },
-      {
-        "p": {
-          "name": "State-of-the-Art Augmented NLP Transformer models for direct and single-step retrosynthesis",
-          "link": "https://arxiv.org/abs/2003.02804v2",
-          "authors": "Igor V. Tetko, Pavel Karpov, Ruud Van Deursen, Guillaume Godin"
-        },
-        "c": "https://github.com/bigchem/synthesis",
-        "n": "Augmented Transformer (reaction class unknown)",
-        "d": "2020-03-05",
-        "m1": "53.5",
-        "m3": "81.0",
-        "m4": "85.7"
       },
       {
         "p": {

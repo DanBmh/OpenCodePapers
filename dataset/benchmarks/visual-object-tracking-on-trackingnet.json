@@ -107,6 +107,19 @@
       },
       {
         "p": {
+          "name": "MixFormer: End-to-End Tracking with Iterative Mixed Attention",
+          "link": "https://arxiv.org/abs/2302.02814v2",
+          "authors": ""
+        },
+        "c": "https://github.com/MCG-NJU/MixFormer",
+        "n": "MixViT-L(ConvMAE)",
+        "d": "2023-02-06",
+        "m1": "86.1",
+        "m2": "90.3",
+        "m3": "86.0"
+      },
+      {
+        "p": {
           "name": "ARTrackV2: Prompting Autoregressive Tracker Where to Look and How to Describe",
           "link": "https://arxiv.org/abs/2312.17133v3",
           "authors": "Yifan Bai, Zeyang Zhao, Yihong Gong, Xing Wei"
@@ -120,16 +133,14 @@
       },
       {
         "p": {
-          "name": "MixFormer: End-to-End Tracking with Iterative Mixed Attention",
-          "link": "https://arxiv.org/abs/2302.02814v2",
-          "authors": ""
+          "name": "ODTrack: Online Dense Temporal Token Learning for Visual Tracking",
+          "link": "https://arxiv.org/abs/2401.01686v1",
+          "authors": "Yaozong Zheng, Bineng Zhong, Qihua Liang, Zhiyi Mo, Shengping Zhang, Xianxian Li"
         },
-        "c": "https://github.com/MCG-NJU/MixFormer",
-        "n": "MixViT-L(ConvMAE)",
-        "d": "2023-02-06",
-        "m1": "86.1",
-        "m2": "90.3",
-        "m3": "86.0"
+        "c": "https://github.com/gxnu-zhonglab/odtrack",
+        "n": "ODTrack-L",
+        "d": "2024-01-03",
+        "m1": "86.1"
       },
       {
         "p": {
@@ -146,17 +157,6 @@
       },
       {
         "p": {
-          "name": "ODTrack: Online Dense Temporal Token Learning for Visual Tracking",
-          "link": "https://arxiv.org/abs/2401.01686v1",
-          "authors": "Yaozong Zheng, Bineng Zhong, Qihua Liang, Zhiyi Mo, Shengping Zhang, Xianxian Li"
-        },
-        "c": "https://github.com/gxnu-zhonglab/odtrack",
-        "n": "ODTrack-L",
-        "d": "2024-01-03",
-        "m1": "86.1"
-      },
-      {
-        "p": {
           "name": "Tracking Meets LoRA: Faster Training, Larger Model, Stronger Performance",
           "link": "https://arxiv.org/abs/2403.05231v2",
           "authors": "Liting Lin, Heng Fan, Zhipeng Zhang, YaoWei Wang, Yong Xu, Haibin Ling"
@@ -170,19 +170,6 @@
       },
       {
         "p": {
-          "name": "Tracking Meets LoRA: Faster Training, Larger Model, Stronger Performance",
-          "link": "https://arxiv.org/abs/2403.05231v2",
-          "authors": "Liting Lin, Heng Fan, Zhipeng Zhang, YaoWei Wang, Yong Xu, Haibin Ling"
-        },
-        "c": "https://github.com/litinglin/lorat",
-        "n": "LoRAT-L-378",
-        "d": "2024-03-08",
-        "m1": "85.6",
-        "m2": "89.7",
-        "m3": "85.4"
-      },
-      {
-        "p": {
           "name": "Autoregressive Visual Tracking",
           "link": "http://openaccess.thecvf.com//content/CVPR2023/html/Wei_Autoregressive_Visual_Tracking_CVPR_2023_paper.html",
           "authors": "Xing Wei, Yifan Bai, Yongchao Zheng, Dahu Shi, Yihong Gong"
@@ -193,6 +180,19 @@
         "m1": "85.6",
         "m2": "89.6",
         "m3": "86.0"
+      },
+      {
+        "p": {
+          "name": "Tracking Meets LoRA: Faster Training, Larger Model, Stronger Performance",
+          "link": "https://arxiv.org/abs/2403.05231v2",
+          "authors": "Liting Lin, Heng Fan, Zhipeng Zhang, YaoWei Wang, Yong Xu, Haibin Ling"
+        },
+        "c": "https://github.com/litinglin/lorat",
+        "n": "LoRAT-L-378",
+        "d": "2024-03-08",
+        "m1": "85.6",
+        "m2": "89.7",
+        "m3": "85.4"
       },
       {
         "p": {
@@ -336,7 +336,7 @@
         "p": "[]()",
         "c": "",
         "n": "MixFormerV2-B",
-        "d": null,
+        "d": "",
         "m1": "83.4",
         "m2": "88.1",
         "m3": "81.6"

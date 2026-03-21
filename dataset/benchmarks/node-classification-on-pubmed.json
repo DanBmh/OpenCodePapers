@@ -364,7 +364,7 @@
         "p": "[]()",
         "c": "",
         "n": "DSGCN",
-        "d": null,
+        "d": "",
         "m1": "81.9%",
         "m2": "fixed 20 per class"
       },
@@ -529,17 +529,6 @@
       },
       {
         "p": {
-          "name": "Large-Scale Learnable Graph Convolutional Networks",
-          "link": "http://arxiv.org/abs/1808.03965v1",
-          "authors": "Hongyang Gao, Zhengyang Wang, Shuiwang Ji"
-        },
-        "c": "https://github.com/divelab/lgcn",
-        "n": "LGCN sub",
-        "d": "2018-08-12",
-        "m1": "79.5%"
-      },
-      {
-        "p": {
           "name": "N-GCN: Multi-scale Graph Convolution for Semi-supervised Node Classification",
           "link": "http://arxiv.org/abs/1802.08888v1",
           "authors": "Sami Abu-El-Haija, Amol Kapoor, Bryan Perozzi, Joonseok Lee"
@@ -547,6 +536,17 @@
         "c": "https://github.com/samihaija/mixhop",
         "n": "N-GCN",
         "d": "2018-02-24",
+        "m1": "79.5%"
+      },
+      {
+        "p": {
+          "name": "Large-Scale Learnable Graph Convolutional Networks",
+          "link": "http://arxiv.org/abs/1808.03965v1",
+          "authors": "Hongyang Gao, Zhengyang Wang, Shuiwang Ji"
+        },
+        "c": "https://github.com/divelab/lgcn",
+        "n": "LGCN sub",
+        "d": "2018-08-12",
         "m1": "79.5%"
       },
       {
@@ -639,6 +639,17 @@
       },
       {
         "p": {
+          "name": "Semi-Supervised Classification with Graph Convolutional Networks",
+          "link": "http://arxiv.org/abs/1609.02907v4",
+          "authors": "Thomas N. Kipf, Max Welling"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/mxnet/gcn",
+        "n": "GCN",
+        "d": "2016-09-09",
+        "m1": "79.0"
+      },
+      {
+        "p": {
           "name": "Graph Attention Networks",
           "link": "http://arxiv.org/abs/1710.10903v3",
           "authors": "Petar Veličković, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro Liò, Yoshua Bengio"
@@ -650,17 +661,6 @@
         "m2": "fixed 20 per node",
         "m4": "YES",
         "m6": "79.0"
-      },
-      {
-        "p": {
-          "name": "Semi-Supervised Classification with Graph Convolutional Networks",
-          "link": "http://arxiv.org/abs/1609.02907v4",
-          "authors": "Thomas N. Kipf, Max Welling"
-        },
-        "c": "https://github.com/dmlc/dgl/tree/master/examples/mxnet/gcn",
-        "n": "GCN",
-        "d": "2016-09-09",
-        "m1": "79.0"
       },
       {
         "p": {
@@ -721,17 +721,6 @@
       },
       {
         "p": {
-          "name": "Graph Star Net for Generalized Multi-Task Learning",
-          "link": "https://arxiv.org/abs/1906.12330v1",
-          "authors": "Lu Haonan, Seth H. Huang, Tian Ye, Guo Xiuyan"
-        },
-        "c": "https://github.com/graph-star-team/graph_star",
-        "n": "GraphStar",
-        "d": "2019-06-21",
-        "m1": "77.2%"
-      },
-      {
-        "p": {
           "name": "Revisiting Semi-Supervised Learning with Graph Embeddings",
           "link": "http://arxiv.org/abs/1603.08861v2",
           "authors": "Zhilin Yang, William W. Cohen, Ruslan Salakhutdinov"
@@ -739,6 +728,17 @@
         "c": "https://github.com/tkipf/gcn",
         "n": "Planetoid*",
         "d": "2016-03-29",
+        "m1": "77.2%"
+      },
+      {
+        "p": {
+          "name": "Graph Star Net for Generalized Multi-Task Learning",
+          "link": "https://arxiv.org/abs/1906.12330v1",
+          "authors": "Lu Haonan, Seth H. Huang, Tian Ye, Guo Xiuyan"
+        },
+        "c": "https://github.com/graph-star-team/graph_star",
+        "n": "GraphStar",
+        "d": "2019-06-21",
         "m1": "77.2%"
       },
       {

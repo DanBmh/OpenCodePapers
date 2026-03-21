@@ -47,7 +47,7 @@
         "p": "[]()",
         "c": "",
         "n": "OpenAI/o3-mini",
-        "d": null,
+        "d": "",
         "m1": "60.12",
         "m2": "54.22",
         "m3": "57.21"
@@ -56,7 +56,7 @@
         "p": "[]()",
         "c": "",
         "n": "Riple/Saanvi-v0.1",
-        "d": null,
+        "d": "",
         "m1": "52.21",
         "m2": "45.58",
         "m3": "60.29"
@@ -69,7 +69,7 @@
         },
         "c": "",
         "n": "Pegasus+DotProd",
-        "d": null,
+        "d": "",
         "m1": "40.6",
         "m2": "21.0",
         "m3": "37.0"
@@ -102,19 +102,6 @@
       },
       {
         "p": {
-          "name": "OFA: Unifying Architectures, Tasks, and Modalities Through a Simple Sequence-to-Sequence Learning Framework",
-          "link": "https://arxiv.org/abs/2202.03052v2",
-          "authors": "Peng Wang, An Yang, Rui Men, Junyang Lin, Shuai Bai, Zhikang Li, Jianxin Ma, Chang Zhou, Jingren Zhou, Hongxia Yang"
-        },
-        "c": "https://github.com/modelscope/modelscope",
-        "n": "OFA",
-        "d": "2022-02-07",
-        "m1": "39.81",
-        "m2": "20.66",
-        "m3": "37.11"
-      },
-      {
-        "p": {
           "name": "Rethinking Perturbations in Encoder-Decoders for Fast Training",
           "link": "https://arxiv.org/abs/2104.01853v1",
           "authors": "Sho Takase, Shun Kiyono"
@@ -125,6 +112,19 @@
         "m1": "39.81",
         "m2": "20.40",
         "m3": "36.93"
+      },
+      {
+        "p": {
+          "name": "OFA: Unifying Architectures, Tasks, and Modalities Through a Simple Sequence-to-Sequence Learning Framework",
+          "link": "https://arxiv.org/abs/2202.03052v2",
+          "authors": "Peng Wang, An Yang, Rui Men, Junyang Lin, Shuai Bai, Zhikang Li, Jianxin Ma, Chang Zhou, Jingren Zhou, Hongxia Yang"
+        },
+        "c": "https://github.com/modelscope/modelscope",
+        "n": "OFA",
+        "d": "2022-02-07",
+        "m1": "39.81",
+        "m2": "20.66",
+        "m3": "37.11"
       },
       {
         "p": {
@@ -349,19 +349,6 @@
       },
       {
         "p": {
-          "name": "Retrieve, Rerank and Rewrite: Soft Template Based Neural Summarization",
-          "link": "https://aclanthology.org/P18-1015",
-          "authors": "Ziqiang Cao, Wenjie Li, Sujian Li, Furu Wei"
-        },
-        "c": "",
-        "n": "Re^3 Sum",
-        "d": "2018-07-01",
-        "m1": "37.04",
-        "m2": "19.03",
-        "m3": "34.46"
-      },
-      {
-        "p": {
           "name": "Entity Commonsense Representation for Neural Abstractive Summarization",
           "link": "http://arxiv.org/abs/1806.05504v1",
           "authors": "Reinald Kim Amplayo, Seonjae Lim, Seung-won Hwang"
@@ -372,6 +359,19 @@
         "m1": "37.04",
         "m2": "16.66",
         "m3": "34.93"
+      },
+      {
+        "p": {
+          "name": "Retrieve, Rerank and Rewrite: Soft Template Based Neural Summarization",
+          "link": "https://aclanthology.org/P18-1015",
+          "authors": "Ziqiang Cao, Wenjie Li, Sujian Li, Furu Wei"
+        },
+        "c": "",
+        "n": "Re^3 Sum",
+        "d": "2018-07-01",
+        "m1": "37.04",
+        "m2": "19.03",
+        "m3": "34.46"
       },
       {
         "p": {
@@ -427,19 +427,6 @@
       },
       {
         "p": {
-          "name": "Global Encoding for Abstractive Summarization",
-          "link": "http://arxiv.org/abs/1805.03989v2",
-          "authors": "Junyang Lin, Xu sun, Shuming Ma, Qi Su"
-        },
-        "c": "https://github.com/lancopku/Global-Encoding",
-        "n": "CGU",
-        "d": "2018-05-10",
-        "m1": "36.3",
-        "m2": "18.0",
-        "m3": "33.8"
-      },
-      {
-        "p": {
           "name": "Cutting-off Redundant Repeating Generations for Neural Abstractive Summarization",
           "link": "http://arxiv.org/abs/1701.00138v2",
           "authors": "Jun Suzuki, Masaaki Nagata"
@@ -450,6 +437,19 @@
         "m1": "36.30",
         "m2": "17.31",
         "m3": "33.88"
+      },
+      {
+        "p": {
+          "name": "Global Encoding for Abstractive Summarization",
+          "link": "http://arxiv.org/abs/1805.03989v2",
+          "authors": "Junyang Lin, Xu sun, Shuming Ma, Qi Su"
+        },
+        "c": "https://github.com/lancopku/Global-Encoding",
+        "n": "CGU",
+        "d": "2018-05-10",
+        "m1": "36.3",
+        "m2": "18.0",
+        "m3": "33.8"
       },
       {
         "p": {

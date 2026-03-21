@@ -108,20 +108,6 @@
       },
       {
         "p": {
-          "name": "Hamba: Single-view 3D Hand Reconstruction with Graph-guided Bi-Scanning Mamba",
-          "link": "https://arxiv.org/abs/2407.09646v2",
-          "authors": "Haoye Dong, Aviral Chharia, Wenbo Gou, Francisco Vicente Carrasco, Fernando de la Torre"
-        },
-        "c": "https://github.com/humansensinglab/Hamba",
-        "n": "Hamba",
-        "d": "2024-07-12",
-        "m1": "5.7",
-        "m2": "5.3",
-        "m3": "0.806",
-        "m4": "0.992"
-      },
-      {
-        "p": {
           "name": "MobRecon: Mobile-Friendly Hand Mesh Reconstruction from Monocular Image",
           "link": "https://arxiv.org/abs/2112.02753v2",
           "authors": "Xingyu Chen, Yufeng Liu, Yajiao Dong, Xiong Zhang, Chongyang Ma, Yanmin Xiong, Yuan Zhang, Xiaoyan Guo"
@@ -147,6 +133,20 @@
         "m2": "6.0",
         "m3": "0.772",
         "m4": "0.986"
+      },
+      {
+        "p": {
+          "name": "Hamba: Single-view 3D Hand Reconstruction with Graph-guided Bi-Scanning Mamba",
+          "link": "https://arxiv.org/abs/2407.09646v2",
+          "authors": "Haoye Dong, Aviral Chharia, Wenbo Gou, Francisco Vicente Carrasco, Fernando de la Torre"
+        },
+        "c": "https://github.com/humansensinglab/Hamba",
+        "n": "Hamba",
+        "d": "2024-07-12",
+        "m1": "5.7",
+        "m2": "5.3",
+        "m3": "0.806",
+        "m4": "0.992"
       },
       {
         "p": {
@@ -204,20 +204,6 @@
       },
       {
         "p": {
-          "name": "A Probabilistic Attention Model with Occlusion-aware Texture Regression for 3D Hand Reconstruction from a Single RGB Image",
-          "link": "https://arxiv.org/abs/2304.14299v1",
-          "authors": "Zheheng Jiang, Hossein Rahmani, Sue Black, Bryan M. Williams"
-        },
-        "c": "https://github.com/zhehengjianglancaster/amvur",
-        "n": "AMVUR",
-        "d": "2023-04-27",
-        "m1": "6.2",
-        "m2": "6.1",
-        "m3": "0.767",
-        "m4": "0.987"
-      },
-      {
-        "p": {
           "name": "Deformable Mesh Transformer for 3D Human Mesh Recovery",
           "link": "http://openaccess.thecvf.com//content/CVPR2023/html/Yoshiyasu_Deformable_Mesh_Transformer_for_3D_Human_Mesh_Recovery_CVPR_2023_paper.html",
           "authors": "Yusuke Yoshiyasu"
@@ -231,10 +217,24 @@
         "m4": "0.984"
       },
       {
+        "p": {
+          "name": "A Probabilistic Attention Model with Occlusion-aware Texture Regression for 3D Hand Reconstruction from a Single RGB Image",
+          "link": "https://arxiv.org/abs/2304.14299v1",
+          "authors": "Zheheng Jiang, Hossein Rahmani, Sue Black, Bryan M. Williams"
+        },
+        "c": "https://github.com/zhehengjianglancaster/amvur",
+        "n": "AMVUR",
+        "d": "2023-04-27",
+        "m1": "6.2",
+        "m2": "6.1",
+        "m3": "0.767",
+        "m4": "0.987"
+      },
+      {
         "p": "[]()",
         "c": "",
         "n": "SAR",
-        "d": null,
+        "d": "",
         "m1": "6.3",
         "m2": "6.5",
         "m3": "0.724",
@@ -270,20 +270,6 @@
       },
       {
         "p": {
-          "name": "FastViT: A Fast Hybrid Vision Transformer using Structural Reparameterization",
-          "link": "https://arxiv.org/abs/2303.14189v2",
-          "authors": "Pavan Kumar Anasosalu Vasu, James Gabriel, Jeff Zhu, Oncel Tuzel, Anurag Ranjan"
-        },
-        "c": "https://github.com/rwightman/pytorch-image-models",
-        "n": "FastViT-MA36",
-        "d": "2023-03-24",
-        "m1": "6.6",
-        "m2": "6.7",
-        "m3": "0.722",
-        "m4": "0.981"
-      },
-      {
-        "p": {
           "name": "PeCLR: Self-Supervised 3D Hand Pose Estimation from monocular RGB via Equivariant Contrastive Learning",
           "link": "https://arxiv.org/abs/2106.05953v5",
           "authors": "Adrian Spurr, Aneesh Dahiya, Xi Wang, Xucong Zhang, Otmar Hilliges"
@@ -295,16 +281,16 @@
       },
       {
         "p": {
-          "name": "Towards Accurate Alignment in Real-time 3D Hand-Mesh Reconstruction",
-          "link": "https://arxiv.org/abs/2109.01723v1",
-          "authors": "Xiao Tang, Tianyu Wang, Chi-Wing Fu"
+          "name": "FastViT: A Fast Hybrid Vision Transformer using Structural Reparameterization",
+          "link": "https://arxiv.org/abs/2303.14189v2",
+          "authors": "Pavan Kumar Anasosalu Vasu, James Gabriel, Jeff Zhu, Oncel Tuzel, Anurag Ranjan"
         },
-        "c": "",
-        "n": "Tang et al.",
-        "d": "2021-09-03",
-        "m1": "6.7",
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "FastViT-MA36",
+        "d": "2023-03-24",
+        "m1": "6.6",
         "m2": "6.7",
-        "m3": "0.724",
+        "m3": "0.722",
         "m4": "0.981"
       },
       {
@@ -320,6 +306,20 @@
         "m2": "6.9",
         "m3": "0.707",
         "m4": "0.977"
+      },
+      {
+        "p": {
+          "name": "Towards Accurate Alignment in Real-time 3D Hand-Mesh Reconstruction",
+          "link": "https://arxiv.org/abs/2109.01723v1",
+          "authors": "Xiao Tang, Tianyu Wang, Chi-Wing Fu"
+        },
+        "c": "",
+        "n": "Tang et al.",
+        "d": "2021-09-03",
+        "m1": "6.7",
+        "m2": "6.7",
+        "m3": "0.724",
+        "m4": "0.981"
       },
       {
         "p": {
@@ -365,20 +365,6 @@
       },
       {
         "p": {
-          "name": "Accurate 3D Hand Pose Estimation for Whole-Body 3D Human Mesh Estimation",
-          "link": "https://arxiv.org/abs/2011.11534v4",
-          "authors": "Gyeongsik Moon, Hongsuk Choi, Kyoung Mu Lee"
-        },
-        "c": "https://github.com/mks0601/Hand4Whole_RELEASE",
-        "n": "Hand4Whole",
-        "d": "2020-11-23",
-        "m1": "7.7",
-        "m2": "7.7",
-        "m3": "0.664",
-        "m4": "0.971"
-      },
-      {
-        "p": {
           "name": "Pose2Mesh: Graph Convolutional Network for 3D Human Pose and Mesh Recovery from a 2D Human Pose",
           "link": "https://arxiv.org/abs/2008.09047v3",
           "authors": "Hongsuk Choi, Gyeongsik Moon, Kyoung Mu Lee"
@@ -390,6 +376,20 @@
         "m2": "7.8",
         "m3": "0.674",
         "m4": "0.969"
+      },
+      {
+        "p": {
+          "name": "Accurate 3D Hand Pose Estimation for Whole-Body 3D Human Mesh Estimation",
+          "link": "https://arxiv.org/abs/2011.11534v4",
+          "authors": "Gyeongsik Moon, Hongsuk Choi, Kyoung Mu Lee"
+        },
+        "c": "https://github.com/mks0601/Hand4Whole_RELEASE",
+        "n": "Hand4Whole",
+        "d": "2020-11-23",
+        "m1": "7.7",
+        "m2": "7.7",
+        "m3": "0.664",
+        "m4": "0.971"
       },
       {
         "p": {

@@ -285,17 +285,6 @@
       },
       {
         "p": {
-          "name": "Residual Spatial Fusion Network for RGB-Thermal Semantic Segmentation",
-          "link": "https://arxiv.org/abs/2306.10364v1",
-          "authors": "Ping Li, Junjie Chen, Binbin Lin, Xianghua Xu"
-        },
-        "c": "",
-        "n": "RSFNet (ResNet-101)",
-        "d": "2023-06-17",
-        "m1": "56.2"
-      },
-      {
-        "p": {
           "name": "GEBNet: Graph-Enhancement Branch Network for RGB-T Scene Parsing",
           "link": "https://ieeexplore.ieee.org/abstract/document/9937048",
           "authors": "Shaohua Dong, WuJie Zhou, Xiaohong Qian, Lu Yu"
@@ -307,25 +296,14 @@
       },
       {
         "p": {
-          "name": "Multi-interactive Feature Learning and a Full-time Multi-modality Benchmark for Image Fusion and Segmentation",
-          "link": "https://arxiv.org/abs/2308.02097v1",
-          "authors": "JinYuan Liu, Zhu Liu, Guanyao Wu, Long Ma, Risheng Liu, Wei Zhong, Zhongxuan Luo, Xin Fan"
+          "name": "Residual Spatial Fusion Network for RGB-Thermal Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2306.10364v1",
+          "authors": "Ping Li, Junjie Chen, Binbin Lin, Xianghua Xu"
         },
-        "c": "https://github.com/jinyuanliu-cv/segmif",
-        "n": "SegMiF",
-        "d": "2023-08-04",
-        "m1": "56.1"
-      },
-      {
-        "p": {
-          "name": "SpiderMesh: Spatial-aware Demand-guided Recursive Meshing for RGB-T Semantic Segmentation",
-          "link": "https://arxiv.org/abs/2303.08692v2",
-          "authors": "Siqi Fan, Zhe Wang, Yan Wang, Jingjing Liu"
-        },
-        "c": "https://github.com/leofansq/spidermesh",
-        "n": "SpiderMesh (ResNet-101)",
-        "d": "2023-03-15",
-        "m1": "56.1"
+        "c": "",
+        "n": "RSFNet (ResNet-101)",
+        "d": "2023-06-17",
+        "m1": "56.2"
       },
       {
         "p": {
@@ -347,6 +325,28 @@
         "c": "https://github.com/lab-sun/CEKD",
         "n": "CENet",
         "d": "2023-02-22",
+        "m1": "56.1"
+      },
+      {
+        "p": {
+          "name": "SpiderMesh: Spatial-aware Demand-guided Recursive Meshing for RGB-T Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2303.08692v2",
+          "authors": "Siqi Fan, Zhe Wang, Yan Wang, Jingjing Liu"
+        },
+        "c": "https://github.com/leofansq/spidermesh",
+        "n": "SpiderMesh (ResNet-101)",
+        "d": "2023-03-15",
+        "m1": "56.1"
+      },
+      {
+        "p": {
+          "name": "Multi-interactive Feature Learning and a Full-time Multi-modality Benchmark for Image Fusion and Segmentation",
+          "link": "https://arxiv.org/abs/2308.02097v1",
+          "authors": "JinYuan Liu, Zhu Liu, Guanyao Wu, Long Ma, Risheng Liu, Wei Zhong, Zhongxuan Luo, Xin Fan"
+        },
+        "c": "https://github.com/jinyuanliu-cv/segmif",
+        "n": "SegMiF",
+        "d": "2023-08-04",
         "m1": "56.1"
       },
       {
@@ -407,6 +407,17 @@
       },
       {
         "p": {
+          "name": "SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers",
+          "link": "https://arxiv.org/abs/2105.15203v3",
+          "authors": "Enze Xie, Wenhai Wang, Zhiding Yu, Anima Anandkumar, Jose M. Alvarez, Ping Luo"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "SegFormer (B4)",
+        "d": "2021-05-31",
+        "m1": "54.8"
+      },
+      {
+        "p": {
           "name": "ABMDRNet: Adaptive-Weighted Bi-Directional Modality Difference Reduction Network for RGB-T Semantic Segmentation",
           "link": "http://openaccess.thecvf.com//content/CVPR2021/html/Zhang_ABMDRNet_Adaptive-Weighted_Bi-Directional_Modality_Difference_Reduction_Network_for_RGB-T_Semantic_CVPR_2021_paper.html",
           "authors": "Qiang Zhang, Shenlu Zhao, Yongjiang Luo, Dingwen Zhang, Nianchang Huang, Jungong Han"
@@ -429,17 +440,6 @@
       },
       {
         "p": {
-          "name": "SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers",
-          "link": "https://arxiv.org/abs/2105.15203v3",
-          "authors": "Enze Xie, Wenhai Wang, Zhiding Yu, Anima Anandkumar, Jose M. Alvarez, Ping Luo"
-        },
-        "c": "https://github.com/huggingface/transformers",
-        "n": "SegFormer (B4)",
-        "d": "2021-05-31",
-        "m1": "54.8"
-      },
-      {
-        "p": {
           "name": "SpiderMesh: Spatial-aware Demand-guided Recursive Meshing for RGB-T Semantic Segmentation",
           "link": "https://arxiv.org/abs/2303.08692v2",
           "authors": "Siqi Fan, Zhe Wang, Yan Wang, Jingjing Liu"
@@ -451,17 +451,6 @@
       },
       {
         "p": {
-          "name": "SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers",
-          "link": "https://arxiv.org/abs/2105.15203v3",
-          "authors": "Enze Xie, Wenhai Wang, Zhiding Yu, Anima Anandkumar, Jose M. Alvarez, Ping Luo"
-        },
-        "c": "https://github.com/huggingface/transformers",
-        "n": "SegFormer (B2)",
-        "d": "2021-05-31",
-        "m1": "53.2"
-      },
-      {
-        "p": {
           "name": "RTFNet: RGB-Thermal Fusion Network for Semantic Segmentation of Urban Scenes",
           "link": "https://ieeexplore.ieee.org/abstract/document/8666745",
           "authors": "Yuxiang Sun, Weixun Zuo, Ming Liu"
@@ -469,6 +458,17 @@
         "c": "https://github.com/yuxiangsun/RTFNet",
         "n": "RTFNet",
         "d": "2019-03-13",
+        "m1": "53.2"
+      },
+      {
+        "p": {
+          "name": "SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers",
+          "link": "https://arxiv.org/abs/2105.15203v3",
+          "authors": "Enze Xie, Wenhai Wang, Zhiding Yu, Anima Anandkumar, Jose M. Alvarez, Ping Luo"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "SegFormer (B2)",
+        "d": "2021-05-31",
         "m1": "53.2"
       },
       {
@@ -539,17 +539,6 @@
       },
       {
         "p": {
-          "name": "Depth-aware CNN for RGB-D Segmentation",
-          "link": "http://arxiv.org/abs/1803.06791v1",
-          "authors": "Weiyue Wang, Ulrich Neumann"
-        },
-        "c": "https://github.com/laughtervv/DepthAwareCNN",
-        "n": "Depth-aware CNN",
-        "d": "2018-03-19",
-        "m1": "46.1"
-      },
-      {
-        "p": {
           "name": "Pyramid Scene Parsing Network",
           "link": "http://arxiv.org/abs/1612.01105v2",
           "authors": "Hengshuang Zhao, Jianping Shi, Xiaojuan Qi, Xiaogang Wang, Jiaya Jia"
@@ -557,6 +546,17 @@
         "c": "https://github.com/tensorflow/models",
         "n": "PSPNet",
         "d": "2016-12-04",
+        "m1": "46.1"
+      },
+      {
+        "p": {
+          "name": "Depth-aware CNN for RGB-D Segmentation",
+          "link": "http://arxiv.org/abs/1803.06791v1",
+          "authors": "Weiyue Wang, Ulrich Neumann"
+        },
+        "c": "https://github.com/laughtervv/DepthAwareCNN",
+        "n": "Depth-aware CNN",
+        "d": "2018-03-19",
         "m1": "46.1"
       },
       {

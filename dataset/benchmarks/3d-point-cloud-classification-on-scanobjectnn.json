@@ -398,18 +398,6 @@
       },
       {
         "p": {
-          "name": "KPConvX: Modernizing Kernel Point Convolution with Kernel Attention",
-          "link": "https://arxiv.org/abs/2405.13194v1",
-          "authors": "Hugues Thomas, Yao-Hung Hubert Tsai, Timothy D. Barfoot, Jian Zhang"
-        },
-        "c": "https://github.com/apple/ml-kpconvx",
-        "n": "KPConvX-L",
-        "d": "2024-05-21",
-        "m1": "89.3",
-        "m2": "88.1"
-      },
-      {
-        "p": {
           "name": "P2P: Tuning Pre-trained Image Models for Point Cloud Analysis with Point-to-Pixel Prompting",
           "link": "https://arxiv.org/abs/2208.02812v2",
           "authors": "Ziyi Wang, Xumin Yu, Yongming Rao, Jie zhou, Jiwen Lu"
@@ -422,6 +410,18 @@
       },
       {
         "p": {
+          "name": "KPConvX: Modernizing Kernel Point Convolution with Kernel Attention",
+          "link": "https://arxiv.org/abs/2405.13194v1",
+          "authors": "Hugues Thomas, Yao-Hung Hubert Tsai, Timothy D. Barfoot, Jian Zhang"
+        },
+        "c": "https://github.com/apple/ml-kpconvx",
+        "n": "KPConvX-L",
+        "d": "2024-05-21",
+        "m1": "89.3",
+        "m2": "88.1"
+      },
+      {
+        "p": {
           "name": "Autoencoders as Cross-Modal Teachers: Can Pretrained 2D Image Transformers Help 3D Representation Learning?",
           "link": "https://arxiv.org/abs/2212.08320v2",
           "authors": "Runpei Dong, Zekun Qi, Linfeng Zhang, Junbo Zhang, Jianjian Sun, Zheng Ge, Li Yi, Kaisheng Ma"
@@ -430,6 +430,17 @@
         "n": "ACT",
         "d": "2022-12-16",
         "m1": "89.17"
+      },
+      {
+        "p": {
+          "name": "ULIP-2: Towards Scalable Multimodal Pre-training for 3D Understanding",
+          "link": "https://arxiv.org/abs/2305.08275v4",
+          "authors": "Le Xue, Ning Yu, Shu Zhang, Artemis Panagopoulou, Junnan Li, Roberto Martín-Martín, Jiajun Wu, Caiming Xiong, ran Xu, Juan Carlos Niebles, Silvio Savarese"
+        },
+        "c": "https://github.com/salesforce/ulip",
+        "n": "ULIP-2 + Point-BERT",
+        "d": "2023-05-14",
+        "m1": "89.0"
       },
       {
         "p": {
@@ -456,17 +467,6 @@
         "m3": "92.9",
         "m4": "92.3",
         "m5": "6.29"
-      },
-      {
-        "p": {
-          "name": "ULIP-2: Towards Scalable Multimodal Pre-training for 3D Understanding",
-          "link": "https://arxiv.org/abs/2305.08275v4",
-          "authors": "Le Xue, Ning Yu, Shu Zhang, Artemis Panagopoulou, Junnan Li, Roberto Martín-Martín, Jiajun Wu, Caiming Xiong, ran Xu, Juan Carlos Niebles, Silvio Savarese"
-        },
-        "c": "https://github.com/salesforce/ulip",
-        "n": "ULIP-2 + Point-BERT",
-        "d": "2023-05-14",
-        "m1": "89.0"
       },
       {
         "p": {
@@ -644,6 +644,17 @@
       },
       {
         "p": {
+          "name": "ModelNet-O: A Large-Scale Synthetic Dataset for Occlusion-Aware Point Cloud Classification",
+          "link": "https://arxiv.org/abs/2401.08210v1",
+          "authors": "Zhongbin Fang, Xia Li, Xiangtai Li, Shen Zhao, Mengyuan Liu"
+        },
+        "c": "https://github.com/fanglaosi/pointmls",
+        "n": "PointMLS",
+        "d": "2024-01-16",
+        "m1": "86.6"
+      },
+      {
+        "p": {
           "name": "Point-JEPA: A Joint Embedding Predictive Architecture for Self-Supervised Learning on Point Cloud",
           "link": "https://arxiv.org/abs/2404.16432v5",
           "authors": "Ayumu Saito, Prachi Kudeshia, Jiju Poovvancheri"
@@ -653,17 +664,6 @@
         "d": "2024-04-25",
         "m1": "86.6",
         "m3": "92.9±0.4"
-      },
-      {
-        "p": {
-          "name": "ModelNet-O: A Large-Scale Synthetic Dataset for Occlusion-Aware Point Cloud Classification",
-          "link": "https://arxiv.org/abs/2401.08210v1",
-          "authors": "Zhongbin Fang, Xia Li, Xiangtai Li, Shen Zhao, Mengyuan Liu"
-        },
-        "c": "https://github.com/fanglaosi/pointmls",
-        "n": "PointMLS",
-        "d": "2024-01-16",
-        "m1": "86.6"
       },
       {
         "p": {

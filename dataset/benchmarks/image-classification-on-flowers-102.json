@@ -248,6 +248,18 @@
       },
       {
         "p": {
+          "name": "Training data-efficient image transformers & distillation through attention",
+          "link": "https://arxiv.org/abs/2012.12877v2",
+          "authors": "Hugo Touvron, Matthieu Cord, Matthijs Douze, Francisco Massa, Alexandre Sablayrolles, Hervé Jégou"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "DeiT-B",
+        "d": "2020-12-23",
+        "m1": "98.8%",
+        "m3": "86M"
+      },
+      {
+        "p": {
           "name": "EfficientNetV2: Smaller Models and Faster Training",
           "link": "https://arxiv.org/abs/2104.00298v3",
           "authors": "Mingxing Tan, Quoc V. Le"
@@ -268,18 +280,6 @@
         "d": "2021-07-01",
         "m1": "98.8",
         "m3": "54M"
-      },
-      {
-        "p": {
-          "name": "Training data-efficient image transformers & distillation through attention",
-          "link": "https://arxiv.org/abs/2012.12877v2",
-          "authors": "Hugo Touvron, Matthieu Cord, Matthijs Douze, Francisco Massa, Alexandre Sablayrolles, Hervé Jégou"
-        },
-        "c": "https://github.com/huggingface/transformers",
-        "n": "DeiT-B",
-        "d": "2020-12-23",
-        "m1": "98.8%",
-        "m3": "86M"
       },
       {
         "p": {
@@ -316,17 +316,6 @@
       },
       {
         "p": {
-          "name": "LeViT: a Vision Transformer in ConvNet's Clothing for Faster Inference",
-          "link": "https://arxiv.org/abs/2104.01136v2",
-          "authors": "Ben Graham, Alaaeldin El-Nouby, Hugo Touvron, Pierre Stock, Armand Joulin, Hervé Jégou, Matthijs Douze"
-        },
-        "c": "https://github.com/huggingface/transformers",
-        "n": "LeViT-384",
-        "d": "2021-04-02",
-        "m1": "98.3"
-      },
-      {
-        "p": {
           "name": "Neural Architecture Transfer",
           "link": "https://arxiv.org/abs/2005.05859v2",
           "authors": "Zhichao Lu, Gautam Sreekumar, Erik Goodman, Wolfgang Banzhaf, Kalyanmoy Deb, Vishnu Naresh Boddeti"
@@ -337,6 +326,17 @@
         "m1": "98.3%",
         "m2": "400M",
         "m3": "4.2M"
+      },
+      {
+        "p": {
+          "name": "LeViT: a Vision Transformer in ConvNet's Clothing for Faster Inference",
+          "link": "https://arxiv.org/abs/2104.01136v2",
+          "authors": "Ben Graham, Alaaeldin El-Nouby, Hugo Touvron, Pierre Stock, Armand Joulin, Hervé Jégou, Matthijs Douze"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LeViT-384",
+        "d": "2021-04-02",
+        "m1": "98.3"
       },
       {
         "p": {
@@ -375,16 +375,16 @@
       },
       {
         "p": {
-          "name": "ResNet strikes back: An improved training procedure in timm",
-          "link": "https://arxiv.org/abs/2110.00476v1",
-          "authors": "Ross Wightman, Hugo Touvron, Hervé Jégou"
+          "name": "Neural Architecture Transfer",
+          "link": "https://arxiv.org/abs/2005.05859v2",
+          "authors": "Zhichao Lu, Gautam Sreekumar, Erik Goodman, Wolfgang Banzhaf, Kalyanmoy Deb, Vishnu Naresh Boddeti"
         },
-        "c": "https://github.com/rwightman/pytorch-image-models",
-        "n": "ResNet50 (A1)",
-        "d": "2021-10-01",
-        "m1": "97.9",
-        "m2": "4.1",
-        "m3": "25M"
+        "c": "https://github.com/human-analysis/neural-architecture-transfer",
+        "n": "NAT-M2",
+        "d": "2020-05-12",
+        "m1": "97.9%",
+        "m2": "195M",
+        "m3": "3.4M"
       },
       {
         "p": {
@@ -410,16 +410,16 @@
       },
       {
         "p": {
-          "name": "Neural Architecture Transfer",
-          "link": "https://arxiv.org/abs/2005.05859v2",
-          "authors": "Zhichao Lu, Gautam Sreekumar, Erik Goodman, Wolfgang Banzhaf, Kalyanmoy Deb, Vishnu Naresh Boddeti"
+          "name": "ResNet strikes back: An improved training procedure in timm",
+          "link": "https://arxiv.org/abs/2110.00476v1",
+          "authors": "Ross Wightman, Hugo Touvron, Hervé Jégou"
         },
-        "c": "https://github.com/human-analysis/neural-architecture-transfer",
-        "n": "NAT-M2",
-        "d": "2020-05-12",
-        "m1": "97.9%",
-        "m2": "195M",
-        "m3": "3.4M"
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "ResNet50 (A1)",
+        "d": "2021-10-01",
+        "m1": "97.9",
+        "m2": "4.1",
+        "m3": "25M"
       },
       {
         "p": {

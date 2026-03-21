@@ -135,13 +135,13 @@
       },
       {
         "p": {
-          "name": "Balanced Contrastive Learning for Long-Tailed Visual Recognition",
-          "link": "https://arxiv.org/abs/2207.09052v3",
-          "authors": "Jianggang Zhu, Zheng Wang, Jingjing Chen, Yi-Ping Phoebe Chen, Yu-Gang Jiang"
+          "name": "Decoupling Representation and Classifier for Long-Tailed Recognition",
+          "link": "https://arxiv.org/abs/1910.09217v2",
+          "authors": "Bingyi Kang, Saining Xie, Marcus Rohrbach, Zhicheng Yan, Albert Gordo, Jiashi Feng, Yannis Kalantidis"
         },
-        "c": "https://github.com/flamiezhu/bcl",
-        "n": "BCL(ResNet-32)",
-        "d": "2022-07-19",
+        "c": "https://github.com/facebookresearch/classifier-balancing",
+        "n": "LWS",
+        "d": "2019-10-21",
         "m1": "8.9"
       },
       {
@@ -157,13 +157,13 @@
       },
       {
         "p": {
-          "name": "Decoupling Representation and Classifier for Long-Tailed Recognition",
-          "link": "https://arxiv.org/abs/1910.09217v2",
-          "authors": "Bingyi Kang, Saining Xie, Marcus Rohrbach, Zhicheng Yan, Albert Gordo, Jiashi Feng, Yannis Kalantidis"
+          "name": "Balanced Contrastive Learning for Long-Tailed Visual Recognition",
+          "link": "https://arxiv.org/abs/2207.09052v3",
+          "authors": "Jianggang Zhu, Zheng Wang, Jingjing Chen, Yi-Ping Phoebe Chen, Yu-Gang Jiang"
         },
-        "c": "https://github.com/facebookresearch/classifier-balancing",
-        "n": "LWS",
-        "d": "2019-10-21",
+        "c": "https://github.com/flamiezhu/bcl",
+        "n": "BCL(ResNet-32)",
+        "d": "2022-07-19",
         "m1": "8.9"
       },
       {
@@ -377,17 +377,6 @@
       },
       {
         "p": {
-          "name": "A Simple Episodic Linear Probe Improves Visual Recognition in the Wild",
-          "link": "http://openaccess.thecvf.com//content/CVPR2022/html/Liang_A_Simple_Episodic_Linear_Probe_Improves_Visual_Recognition_in_the_CVPR_2022_paper.html",
-          "authors": "Yuanzhi Liang, Linchao Zhu, Xiaohan Wang, Yi Yang"
-        },
-        "c": "https://github.com/JDAI-CV/DCL",
-        "n": "ELP",
-        "d": "2022-01-01",
-        "m1": "11.3"
-      },
-      {
-        "p": {
           "name": "Targeted Supervised Contrastive Learning for Long-Tailed Recognition",
           "link": "https://arxiv.org/abs/2111.13998v2",
           "authors": "Tianhong Li, Peng Cao, Yuan Yuan, Lijie Fan, Yuzhe Yang, Rogerio Feris, Piotr Indyk, Dina Katabi"
@@ -395,6 +384,17 @@
         "c": "https://github.com/lth14/targeted-supcon",
         "n": "TSC",
         "d": "2021-11-27",
+        "m1": "11.3"
+      },
+      {
+        "p": {
+          "name": "A Simple Episodic Linear Probe Improves Visual Recognition in the Wild",
+          "link": "http://openaccess.thecvf.com//content/CVPR2022/html/Liang_A_Simple_Episodic_Linear_Probe_Improves_Visual_Recognition_in_the_CVPR_2022_paper.html",
+          "authors": "Yuanzhi Liang, Linchao Zhu, Xiaohan Wang, Yi Yang"
+        },
+        "c": "https://github.com/JDAI-CV/DCL",
+        "n": "ELP",
+        "d": "2022-01-01",
         "m1": "11.3"
       },
       {
@@ -443,17 +443,6 @@
       },
       {
         "p": {
-          "name": "From Generalized zero-shot learning to long-tail with class descriptors",
-          "link": "https://arxiv.org/abs/2004.02235v4",
-          "authors": "Dvir Samuel, Yuval Atzmon, Gal Chechik"
-        },
-        "c": "https://github.com/dvirsamuel/DRAGON",
-        "n": "smDRAGON",
-        "d": "2020-04-05",
-        "m1": "11.84"
-      },
-      {
-        "p": {
           "name": "Learning Imbalanced Datasets with Label-Distribution-Aware Margin Loss",
           "link": "https://arxiv.org/abs/1906.07413v2",
           "authors": "Kaidi Cao, Colin Wei, Adrien Gaidon, Nikos Arechiga, Tengyu Ma"
@@ -461,6 +450,17 @@
         "c": "https://github.com/kaidic/LDAM-DRW",
         "n": "LDAM-DRW",
         "d": "2019-06-18",
+        "m1": "11.84"
+      },
+      {
+        "p": {
+          "name": "From Generalized zero-shot learning to long-tail with class descriptors",
+          "link": "https://arxiv.org/abs/2004.02235v4",
+          "authors": "Dvir Samuel, Yuval Atzmon, Gal Chechik"
+        },
+        "c": "https://github.com/dvirsamuel/DRAGON",
+        "n": "smDRAGON",
+        "d": "2020-04-05",
         "m1": "11.84"
       },
       {

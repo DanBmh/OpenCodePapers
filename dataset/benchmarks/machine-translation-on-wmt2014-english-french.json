@@ -72,7 +72,7 @@
         "m1": "45.6",
         "m2": "43.8",
         "m3": "180G",
-        "m4": null
+        "m4": ""
       },
       {
         "p": {
@@ -85,8 +85,8 @@
         "d": "2020-10-07",
         "m1": "44.3",
         "m2": "41.7",
-        "m3": null,
-        "m4": null
+        "m3": "",
+        "m4": ""
       },
       {
         "p": {
@@ -98,8 +98,21 @@
         "n": "Transformer + R-Drop",
         "d": "2021-06-28",
         "m1": "43.95",
-        "m3": null,
-        "m4": null
+        "m3": "",
+        "m4": ""
+      },
+      {
+        "p": {
+          "name": "Understanding the Difficulty of Training Transformers",
+          "link": "https://arxiv.org/abs/2004.08249v3",
+          "authors": "Liyuan Liu, Xiaodong Liu, Jianfeng Gao, Weizhu Chen, Jiawei Han"
+        },
+        "c": "https://github.com/LiyuanLucasLiu/Transforemr-Clinic",
+        "n": "Admin",
+        "d": "2020-04-17",
+        "m1": "43.8",
+        "m3": "",
+        "m4": ""
       },
       {
         "p": {
@@ -112,19 +125,6 @@
         "d": "2020-08-18",
         "m1": "43.8",
         "m2": "41.8"
-      },
-      {
-        "p": {
-          "name": "Understanding the Difficulty of Training Transformers",
-          "link": "https://arxiv.org/abs/2004.08249v3",
-          "authors": "Liyuan Liu, Xiaodong Liu, Jianfeng Gao, Weizhu Chen, Jiawei Han"
-        },
-        "c": "https://github.com/LiyuanLucasLiu/Transforemr-Clinic",
-        "n": "Admin",
-        "d": "2020-04-17",
-        "m1": "43.8",
-        "m3": null,
-        "m4": null
       },
       {
         "p": {
@@ -147,8 +147,8 @@
         "n": "MUSE(Paralllel Multi-scale Attention)",
         "d": "2019-11-17",
         "m1": "43.5",
-        "m3": null,
-        "m4": null
+        "m3": "",
+        "m4": ""
       },
       {
         "p": {
@@ -171,8 +171,8 @@
         "n": "Local Joint Self-attention",
         "d": "2019-05-16",
         "m1": "43.3",
-        "m3": null,
-        "m4": null
+        "m3": "",
+        "m4": ""
       },
       {
         "p": {
@@ -185,7 +185,7 @@
         "d": "2019-07-03",
         "m1": "43.27",
         "m3": "24G",
-        "m4": null
+        "m4": ""
       },
       {
         "p": {
@@ -198,7 +198,7 @@
         "d": "2018-06-01",
         "m1": "43.2",
         "m3": "55G",
-        "m4": null
+        "m4": ""
       },
       {
         "p": {
@@ -243,8 +243,8 @@
         "n": "FLOATER-large",
         "d": "2020-03-13",
         "m1": "42.7",
-        "m3": null,
-        "m4": null
+        "m3": "",
+        "m4": ""
       },
       {
         "p": {
@@ -256,8 +256,8 @@
         "n": "OmniNetP",
         "d": "2021-03-01",
         "m1": "42.6",
-        "m3": null,
-        "m4": null
+        "m3": "",
+        "m4": ""
       },
       {
         "p": {
@@ -269,8 +269,8 @@
         "n": "Transformer Big + MoS",
         "d": "2018-09-25",
         "m1": "42.1",
-        "m3": null,
-        "m4": null
+        "m3": "",
+        "m4": ""
       },
       {
         "p": {
@@ -282,8 +282,8 @@
         "n": "T2R + Pretrain",
         "d": "2021-03-24",
         "m1": "42.1",
-        "m3": null,
-        "m4": null
+        "m3": "",
+        "m4": ""
       },
       {
         "p": {
@@ -295,8 +295,8 @@
         "n": "Synthesizer (Random + Vanilla)",
         "d": "2020-05-02",
         "m1": "41.85",
-        "m3": null,
-        "m4": null
+        "m3": "",
+        "m4": ""
       },
       {
         "p": {
@@ -311,17 +311,6 @@
       },
       {
         "p": {
-          "name": "Self-Attention with Relative Position Representations",
-          "link": "http://arxiv.org/abs/1803.02155v2",
-          "authors": "Peter Shaw, Jakob Uszkoreit, Ashish Vaswani"
-        },
-        "c": "https://github.com/tensorflow/tensor2tensor",
-        "n": "Transformer (big) + Relative Position Representations",
-        "d": "2018-03-06",
-        "m1": "41.5"
-      },
-      {
-        "p": {
           "name": "Deliberation Networks: Sequence Generation Beyond One-Pass Decoding",
           "link": "http://papers.nips.cc/paper/6775-deliberation-networks-sequence-generation-beyond-one-pass-decoding",
           "authors": "Yingce Xia, Fei Tian, Lijun Wu, Jianxin Lin, Tao Qin, Nenghai Yu, Tie-Yan Liu"
@@ -329,6 +318,17 @@
         "c": "",
         "n": "Stack 4-layer RNNSearch + Dual Learning + Deliberation Network",
         "d": "2017-12-01",
+        "m1": "41.5"
+      },
+      {
+        "p": {
+          "name": "Self-Attention with Relative Position Representations",
+          "link": "http://arxiv.org/abs/1803.02155v2",
+          "authors": "Peter Shaw, Jakob Uszkoreit, Ashish Vaswani"
+        },
+        "c": "https://github.com/tensorflow/tensor2tensor",
+        "n": "Transformer (big) + Relative Position Representations",
+        "d": "2018-03-06",
         "m1": "41.5"
       },
       {
@@ -341,8 +341,8 @@
         "n": "Weighted Transformer (large)",
         "d": "2017-11-06",
         "m1": "41.4",
-        "m3": null,
-        "m4": null
+        "m3": "",
+        "m4": ""
       },
       {
         "p": {
@@ -354,8 +354,8 @@
         "n": "ConvS2S (ensemble)",
         "d": "2017-05-08",
         "m1": "41.3",
-        "m3": null,
-        "m4": null
+        "m3": "",
+        "m4": ""
       },
       {
         "p": {
@@ -370,19 +370,6 @@
       },
       {
         "p": {
-          "name": "The Best of Both Worlds: Combining Recent Advances in Neural Machine Translation",
-          "link": "http://arxiv.org/abs/1804.09849v2",
-          "authors": "Mia Xu Chen, Orhan Firat, Ankur Bapna, Melvin Johnson, Wolfgang Macherey, George Foster, Llion Jones, Niki Parmar, Mike Schuster, Zhifeng Chen, Yonghui Wu, Macduff Hughes"
-        },
-        "c": "https://github.com/tensorflow/lingvo",
-        "n": "RNMT+",
-        "d": "2018-04-26",
-        "m1": "41.0",
-        "m3": "132G",
-        "m4": "2.81G"
-      },
-      {
-        "p": {
           "name": "Attention Is All You Need",
           "link": "https://arxiv.org/abs/1706.03762v7",
           "authors": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin"
@@ -393,6 +380,19 @@
         "m1": "41.0",
         "m3": "23G",
         "m4": "2300000000.0G"
+      },
+      {
+        "p": {
+          "name": "The Best of Both Worlds: Combining Recent Advances in Neural Machine Translation",
+          "link": "http://arxiv.org/abs/1804.09849v2",
+          "authors": "Mia Xu Chen, Orhan Firat, Ankur Bapna, Melvin Johnson, Wolfgang Macherey, George Foster, Llion Jones, Niki Parmar, Mike Schuster, Zhifeng Chen, Yonghui Wu, Macduff Hughes"
+        },
+        "c": "https://github.com/tensorflow/lingvo",
+        "n": "RNMT+",
+        "d": "2018-04-26",
+        "m1": "41.0",
+        "m3": "132G",
+        "m4": "2.81G"
       },
       {
         "p": {
@@ -427,7 +427,7 @@
         "d": "2017-01-23",
         "m1": "40.56",
         "m3": "142G",
-        "m4": null
+        "m4": ""
       },
       {
         "p": {
@@ -451,7 +451,7 @@
         "d": "2017-05-08",
         "m1": "40.46",
         "m3": "143G",
-        "m4": null
+        "m4": ""
       },
       {
         "p": {
@@ -474,8 +474,8 @@
         "n": "TransformerBase + AutoDropout",
         "d": "2021-01-05",
         "m1": "40",
-        "m3": null,
-        "m4": null
+        "m3": "",
+        "m4": ""
       },
       {
         "p": {
@@ -488,7 +488,7 @@
         "d": "2016-09-26",
         "m1": "39.9",
         "m3": "279G",
-        "m4": null
+        "m4": ""
       },
       {
         "p": {
@@ -512,7 +512,7 @@
         "d": "2016-06-14",
         "m1": "39.2",
         "m3": "119G",
-        "m4": null
+        "m4": ""
       },
       {
         "p": {
@@ -524,8 +524,8 @@
         "n": "Rfa-Gate-arccos",
         "d": "2021-03-03",
         "m1": "39.2",
-        "m3": null,
-        "m4": null
+        "m3": "",
+        "m4": ""
       },
       {
         "p": {
@@ -550,14 +550,14 @@
         "n": "LSTM6 + PosUnk",
         "d": "2014-10-30",
         "m1": "37.5",
-        "m3": null,
-        "m4": null
+        "m3": "",
+        "m4": ""
       },
       {
         "p": "[]()",
         "c": "",
         "n": "PBMT",
-        "d": null,
+        "d": "",
         "m1": "37"
       },
       {
@@ -669,8 +669,8 @@
         "n": "Unsupervised PBSMT",
         "d": "2018-04-20",
         "m1": "28.11",
-        "m3": null,
-        "m4": null
+        "m3": "",
+        "m4": ""
       },
       {
         "p": {
@@ -726,8 +726,8 @@
         "n": "Unsupervised attentional encoder-decoder + BPE",
         "d": "2017-10-30",
         "m1": "14.36",
-        "m3": null,
-        "m4": null
+        "m3": "",
+        "m4": ""
       }
     ]
   }

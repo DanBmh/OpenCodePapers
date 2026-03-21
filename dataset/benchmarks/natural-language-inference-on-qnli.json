@@ -35,17 +35,6 @@
     "items": [
       {
         "p": {
-          "name": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
-          "link": "https://arxiv.org/abs/1909.11942v6",
-          "authors": "Zhenzhong Lan, Mingda Chen, Sebastian Goodman, Kevin Gimpel, Piyush Sharma, Radu Soricut"
-        },
-        "c": "https://github.com/huggingface/transformers",
-        "n": "ALBERT",
-        "d": "2019-09-26",
-        "m1": "99.2%"
-      },
-      {
-        "p": {
           "name": "StructBERT: Incorporating Language Structures into Pre-training for Deep Language Understanding",
           "link": "https://arxiv.org/abs/1908.04577v3",
           "authors": "Wei Wang, Bin Bi, Ming Yan, Chen Wu, Zuyi Bao, Jiangnan Xia, Liwei Peng, Luo Si"
@@ -53,6 +42,17 @@
         "c": "",
         "n": "StructBERTRoBERTa ensemble",
         "d": "2019-08-13",
+        "m1": "99.2%"
+      },
+      {
+        "p": {
+          "name": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "link": "https://arxiv.org/abs/1909.11942v6",
+          "authors": "Zhenzhong Lan, Mingda Chen, Sebastian Goodman, Kevin Gimpel, Piyush Sharma, Radu Soricut"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ALBERT",
+        "d": "2019-09-26",
         "m1": "99.2%"
       },
       {
@@ -125,7 +125,7 @@
         "p": "[]()",
         "c": "",
         "n": "ELECTRA",
-        "d": null,
+        "d": "",
         "m1": "95.4%"
       },
       {
@@ -372,17 +372,6 @@
       },
       {
         "p": {
-          "name": "How to Train BERT with an Academic Budget",
-          "link": "https://arxiv.org/abs/2104.07705v2",
-          "authors": "Peter Izsak, Moshe Berchansky, Omer Levy"
-        },
-        "c": "https://github.com/peteriz/academic-budget-bert",
-        "n": "24hBERT",
-        "d": "2021-04-15",
-        "m1": "90.6"
-      },
-      {
-        "p": {
           "name": "SenseBERT: Driving Some Sense into BERT",
           "link": "https://arxiv.org/abs/1908.05646v2",
           "authors": "Yoav Levine, Barak Lenz, Or Dagan, Ori Ram, Dan Padnos, Or Sharir, Shai Shalev-Shwartz, Amnon Shashua, Yoav Shoham"
@@ -391,6 +380,17 @@
         "n": "SenseBERT-base 110M",
         "d": "2019-08-15",
         "m1": "90.6%"
+      },
+      {
+        "p": {
+          "name": "How to Train BERT with an Academic Budget",
+          "link": "https://arxiv.org/abs/2104.07705v2",
+          "authors": "Peter Izsak, Moshe Berchansky, Omer Levy"
+        },
+        "c": "https://github.com/peteriz/academic-budget-bert",
+        "n": "24hBERT",
+        "d": "2021-04-15",
+        "m1": "90.6"
       },
       {
         "p": {

@@ -126,6 +126,18 @@
       },
       {
         "p": {
+          "name": "DETRs with Collaborative Hybrid Assignments Training",
+          "link": "https://arxiv.org/abs/2211.12860v5",
+          "authors": "Zhuofan Zong, Guanglu Song, Yu Liu"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "Co-DETR (Swin-L)",
+        "d": "2022-11-22",
+        "m1": "64.8",
+        "m8": "218"
+      },
+      {
+        "p": {
           "name": "A Strong and Reproducible Object Detector with Only Public Datasets",
           "link": "https://arxiv.org/abs/2304.13027v1",
           "authors": "Tianhe Ren, Jianwei Yang, Shilong Liu, Ailing Zeng, Feng Li, Hao Zhang, Hongyang Li, Zhaoyang Zeng, Lei Zhang"
@@ -140,18 +152,6 @@
         "m5": "67.6",
         "m6": "78",
         "m8": "689"
-      },
-      {
-        "p": {
-          "name": "DETRs with Collaborative Hybrid Assignments Training",
-          "link": "https://arxiv.org/abs/2211.12860v5",
-          "authors": "Zhuofan Zong, Guanglu Song, Yu Liu"
-        },
-        "c": "https://github.com/open-mmlab/mmdetection",
-        "n": "Co-DETR (Swin-L)",
-        "d": "2022-11-22",
-        "m1": "64.8",
-        "m8": "218"
       },
       {
         "p": {
@@ -260,6 +260,22 @@
       },
       {
         "p": {
+          "name": "NMS Strikes Back",
+          "link": "https://arxiv.org/abs/2212.06137v1",
+          "authors": "Jeffrey Ouyang-Zhang, Jang Hyun Cho, Xingyi Zhou, Philipp Krähenbühl"
+        },
+        "c": "https://github.com/jozhang97/deta",
+        "n": "DETA (Swin-L)",
+        "d": "2022-12-12",
+        "m1": "63.5",
+        "m2": "80.4",
+        "m3": "70.2",
+        "m4": "46.1",
+        "m5": "66.9",
+        "m6": "76.9"
+      },
+      {
+        "p": {
           "name": "Relation DETR: Exploring Explicit Position Relation Prior for Object Detection",
           "link": "https://arxiv.org/abs/2407.11699v1",
           "authors": "Xiuquan Hou, Meiqin Liu, Senlin Zhang, Ping Wei, Badong Chen, Xuguang Lan"
@@ -274,22 +290,6 @@
         "m5": "66.9",
         "m6": "77.0",
         "m8": "214"
-      },
-      {
-        "p": {
-          "name": "NMS Strikes Back",
-          "link": "https://arxiv.org/abs/2212.06137v1",
-          "authors": "Jeffrey Ouyang-Zhang, Jang Hyun Cho, Xingyi Zhou, Philipp Krähenbühl"
-        },
-        "c": "https://github.com/jozhang97/deta",
-        "n": "DETA (Swin-L)",
-        "d": "2022-12-12",
-        "m1": "63.5",
-        "m2": "80.4",
-        "m3": "70.2",
-        "m4": "46.1",
-        "m5": "66.9",
-        "m6": "76.9"
       },
       {
         "p": {
@@ -492,6 +492,17 @@
       },
       {
         "p": {
+          "name": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+          "link": "https://arxiv.org/abs/2103.14030v2",
+          "authors": "Ze Liu, Yutong Lin, Yue Cao, Han Hu, Yixuan Wei, Zheng Zhang, Stephen Lin, Baining Guo"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Swin-L (HTC++, multi scale)",
+        "d": "2021-03-25",
+        "m1": "58.7"
+      },
+      {
+        "p": {
           "name": "Dynamic Head: Unifying Object Detection Heads with Attentions",
           "link": "https://arxiv.org/abs/2106.08322v1",
           "authors": "Xiyang Dai, Yinpeng Chen, Bin Xiao, Dongdong Chen, Mengchen Liu, Lu Yuan, Lei Zhang"
@@ -504,17 +515,6 @@
         "m3": "64.5",
         "m5": "62.0",
         "m6": "72.8"
-      },
-      {
-        "p": {
-          "name": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
-          "link": "https://arxiv.org/abs/2103.14030v2",
-          "authors": "Ze Liu, Yutong Lin, Yue Cao, Han Hu, Yixuan Wei, Zheng Zhang, Stephen Lin, Baining Guo"
-        },
-        "c": "https://github.com/huggingface/transformers",
-        "n": "Swin-L (HTC++, multi scale)",
-        "d": "2021-03-25",
-        "m1": "58.7"
       },
       {
         "p": {
@@ -607,8 +607,8 @@
         "m4": "38.7",
         "m5": "59.7",
         "m6": "68.6",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -640,7 +640,7 @@
         "m5": "58.9",
         "m6": "70.3",
         "m7": "17G",
-        "m9": null
+        "m9": ""
       },
       {
         "p": {
@@ -770,6 +770,19 @@
       },
       {
         "p": {
+          "name": "Rethinking Pre-training and Self-training",
+          "link": "https://arxiv.org/abs/2006.06882v2",
+          "authors": "Barret Zoph, Golnaz Ghiasi, Tsung-Yi Lin, Yin Cui, Hanxiao Liu, Ekin D. Cubuk, Quoc V. Le"
+        },
+        "c": "https://github.com/tensorflow/tpu/tree/master/models/official/detection/projects/self_training",
+        "n": "SpineNet-190 (1280, with Self-training on OpenImages, single-scale)",
+        "d": "2020-06-11",
+        "m1": "54.3",
+        "m7": "",
+        "m9": ""
+      },
+      {
+        "p": {
           "name": "Scaled-YOLOv4: Scaling Cross Stage Partial Network",
           "link": "https://arxiv.org/abs/2011.08036v2",
           "authors": "Chien-Yao Wang, Alexey Bochkovskiy, Hong-Yuan Mark Liao"
@@ -783,19 +796,6 @@
         "m4": "36.6",
         "m5": "58.2",
         "m6": "65.5"
-      },
-      {
-        "p": {
-          "name": "Rethinking Pre-training and Self-training",
-          "link": "https://arxiv.org/abs/2006.06882v2",
-          "authors": "Barret Zoph, Golnaz Ghiasi, Tsung-Yi Lin, Yin Cui, Hanxiao Liu, Ekin D. Cubuk, Quoc V. Le"
-        },
-        "c": "https://github.com/tensorflow/tpu/tree/master/models/official/detection/projects/self_training",
-        "n": "SpineNet-190 (1280, with Self-training on OpenImages, single-scale)",
-        "d": "2020-06-11",
-        "m1": "54.3",
-        "m7": null,
-        "m9": null
       },
       {
         "p": {
@@ -852,8 +852,8 @@
         "m4": "36.0",
         "m5": "56.3",
         "m6": "66.9",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -870,8 +870,8 @@
         "m4": "35.2",
         "m5": "56.4",
         "m6": "65.8",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -883,22 +883,6 @@
         "n": "dBOT ViT-B",
         "d": "2022-09-08",
         "m1": "53.5"
-      },
-      {
-        "p": {
-          "name": "ResNeSt: Split-Attention Networks",
-          "link": "https://arxiv.org/abs/2004.08955v2",
-          "authors": "Hang Zhang, Chongruo wu, Zhongyue Zhang, Yi Zhu, Haibin Lin, Zhi Zhang, Yue Sun, Tong He, Jonas Mueller, R. Manmatha, Mu Li, Alexander Smola"
-        },
-        "c": "https://github.com/rwightman/pytorch-image-models",
-        "n": "ResNeSt-200 (multi-scale)",
-        "d": "2020-04-19",
-        "m1": "53.3",
-        "m2": "72.0",
-        "m3": "58.0",
-        "m4": "35.1",
-        "m5": "56.2",
-        "m6": "66.8"
       },
       {
         "p": {
@@ -915,8 +899,24 @@
         "m4": "35.5",
         "m5": " 55.8",
         "m6": " 66.7",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
+      },
+      {
+        "p": {
+          "name": "ResNeSt: Split-Attention Networks",
+          "link": "https://arxiv.org/abs/2004.08955v2",
+          "authors": "Hang Zhang, Chongruo wu, Zhongyue Zhang, Yi Zhu, Haibin Lin, Zhi Zhang, Yue Sun, Tong He, Jonas Mueller, R. Manmatha, Mu Li, Alexander Smola"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "ResNeSt-200 (multi-scale)",
+        "d": "2020-04-19",
+        "m1": "53.3",
+        "m2": "72.0",
+        "m3": "58.0",
+        "m4": "35.1",
+        "m5": "56.2",
+        "m6": "66.8"
       },
       {
         "p": {
@@ -949,8 +949,8 @@
         "m4": "35.7",
         "m5": "56.1",
         "m6": "65.6",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -973,8 +973,8 @@
         "n": "RelationNet++ (ResNeXt-64x4d-101-DCN)",
         "d": "2020-10-29",
         "m1": "52.7",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -1032,8 +1032,8 @@
         "m1": "52.3",
         "m2": "70.9",
         "m3": "56.9",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -1082,8 +1082,8 @@
         "m4": "34.5",
         "m5": "54.6",
         "m6": "63.6",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -1100,8 +1100,8 @@
         "m4": "34.2",
         "m5": "54.8",
         "m6": "64.7",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -1118,8 +1118,8 @@
         "m4": "34.1",
         "m5": "53.7",
         "m6": "64.1",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -1190,8 +1190,8 @@
         "m4": "33.8",
         "m5": "54.8",
         "m6": "64.2",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -1223,19 +1223,17 @@
       },
       {
         "p": {
-          "name": "SpineNet: Learning Scale-Permuted Backbone for Recognition and Localization",
-          "link": "https://arxiv.org/abs/1912.05027v3",
-          "authors": "Xianzhi Du, Tsung-Yi Lin, Pengchong Jin, Golnaz Ghiasi, Mingxing Tan, Yin Cui, Quoc V. Le, Xiaodan Song"
+          "name": "Learning Data Augmentation Strategies for Object Detection",
+          "link": "https://arxiv.org/abs/1906.11172v1",
+          "authors": "Barret Zoph, Ekin D. Cubuk, Golnaz Ghiasi, Tsung-Yi Lin, Jonathon Shlens, Quoc V. Le"
         },
-        "c": "https://github.com/tensorflow/models/tree/master/official/vision/beta/modeling/backbones",
-        "n": "RetinaNet (SpineNet-143, 1280x1280)",
-        "d": "2019-12-10",
+        "c": "https://github.com/tensorflow/tpu",
+        "n": "NAS-FPN (AmoebaNet-D, learned aug)",
+        "d": "2019-06-26",
         "m1": "50.7",
-        "m2": "70.4",
-        "m3": "54.9",
-        "m4": "33.6",
-        "m5": "53.9",
-        "m6": "62.1"
+        "m4": "34.2",
+        "m5": "55.5",
+        "m6": "64.5"
       },
       {
         "p": {
@@ -1252,22 +1250,24 @@
         "m4": "33.2",
         "m5": "52.9",
         "m6": "62.4",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
-          "name": "Learning Data Augmentation Strategies for Object Detection",
-          "link": "https://arxiv.org/abs/1906.11172v1",
-          "authors": "Barret Zoph, Ekin D. Cubuk, Golnaz Ghiasi, Tsung-Yi Lin, Jonathon Shlens, Quoc V. Le"
+          "name": "SpineNet: Learning Scale-Permuted Backbone for Recognition and Localization",
+          "link": "https://arxiv.org/abs/1912.05027v3",
+          "authors": "Xianzhi Du, Tsung-Yi Lin, Pengchong Jin, Golnaz Ghiasi, Mingxing Tan, Yin Cui, Quoc V. Le, Xiaodan Song"
         },
-        "c": "https://github.com/tensorflow/tpu",
-        "n": "NAS-FPN (AmoebaNet-D, learned aug)",
-        "d": "2019-06-26",
+        "c": "https://github.com/tensorflow/models/tree/master/official/vision/beta/modeling/backbones",
+        "n": "RetinaNet (SpineNet-143, 1280x1280)",
+        "d": "2019-12-10",
         "m1": "50.7",
-        "m4": "34.2",
-        "m5": "55.5",
-        "m6": "64.5"
+        "m2": "70.4",
+        "m3": "54.9",
+        "m4": "33.6",
+        "m5": "53.9",
+        "m6": "62.1"
       },
       {
         "p": {
@@ -1295,8 +1295,8 @@
         "m4": "31.3",
         "m5": "54.3",
         "m6": "63.5",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -1313,44 +1313,8 @@
         "m4": "32.0",
         "m5": "53.1",
         "m6": "63.0",
-        "m7": null,
-        "m9": null
-      },
-      {
-        "p": {
-          "name": "Scale-Equalizing Pyramid Convolution for Object Detection",
-          "link": "https://arxiv.org/abs/2005.03101v1",
-          "authors": "Xinjiang Wang, Shilong Zhang, Zhuoran Yu, Litong Feng, Wayne Zhang"
-        },
-        "c": "https://github.com/shinya7y/UniverseNet",
-        "n": "FreeAnchor + SEPC (DCN, ResNext-101-64x4d)",
-        "d": "2020-05-06",
-        "m1": "50.1",
-        "m2": "69.8",
-        "m3": "54.3",
-        "m4": "31.3",
-        "m5": "53.3",
-        "m6": "63.7",
-        "m7": null,
-        "m9": null
-      },
-      {
-        "p": {
-          "name": "D2Det: Towards High Quality Object Detection and Instance Segmentation",
-          "link": "http://openaccess.thecvf.com/content_CVPR_2020/html/Cao_D2Det_Towards_High_Quality_Object_Detection_and_Instance_Segmentation_CVPR_2020_paper.html",
-          "authors": "Jiale Cao,  Hisham Cholakkal,  Rao Muhammad Anwer,  Fahad Shahbaz Khan,  Yanwei Pang,  Ling Shao"
-        },
-        "c": "https://github.com/JialeCao001/D2Det",
-        "n": "D2Det (ResNet-101-DCN, multi-scale test)",
-        "d": "2020-06-01",
-        "m1": "50.1",
-        "m2": "69.4",
-        "m3": "54.9",
-        "m4": "32.7",
-        "m5": "52.7",
-        "m6": "62.1",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -1367,8 +1331,44 @@
         "m4": "32.8",
         "m5": "53.0",
         "m6": "61.2",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
+      },
+      {
+        "p": {
+          "name": "Scale-Equalizing Pyramid Convolution for Object Detection",
+          "link": "https://arxiv.org/abs/2005.03101v1",
+          "authors": "Xinjiang Wang, Shilong Zhang, Zhuoran Yu, Litong Feng, Wayne Zhang"
+        },
+        "c": "https://github.com/shinya7y/UniverseNet",
+        "n": "FreeAnchor + SEPC (DCN, ResNext-101-64x4d)",
+        "d": "2020-05-06",
+        "m1": "50.1",
+        "m2": "69.8",
+        "m3": "54.3",
+        "m4": "31.3",
+        "m5": "53.3",
+        "m6": "63.7",
+        "m7": "",
+        "m9": ""
+      },
+      {
+        "p": {
+          "name": "D2Det: Towards High Quality Object Detection and Instance Segmentation",
+          "link": "http://openaccess.thecvf.com/content_CVPR_2020/html/Cao_D2Det_Towards_High_Quality_Object_Detection_and_Instance_Segmentation_CVPR_2020_paper.html",
+          "authors": "Jiale Cao,  Hisham Cholakkal,  Rao Muhammad Anwer,  Fahad Shahbaz Khan,  Yanwei Pang,  Ling Shao"
+        },
+        "c": "https://github.com/JialeCao001/D2Det",
+        "n": "D2Det (ResNet-101-DCN, multi-scale test)",
+        "d": "2020-06-01",
+        "m1": "50.1",
+        "m2": "69.4",
+        "m3": "54.9",
+        "m4": "32.7",
+        "m5": "52.7",
+        "m6": "62.1",
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -1385,8 +1385,8 @@
         "m4": "32.7",
         "m5": "52.5",
         "m6": "61.0",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -1403,19 +1403,8 @@
         "m4": "30.3",
         "m5": "52.1",
         "m6": "62.3",
-        "m7": null,
-        "m9": null
-      },
-      {
-        "p": {
-          "name": "Architecture-Agnostic Masked Image Modeling -- From ViT back to CNN",
-          "link": "https://arxiv.org/abs/2205.13943v4",
-          "authors": "Siyuan Li, Di wu, Fang Wu, Zelin Zang, Stan. Z. Li"
-        },
-        "c": "https://github.com/open-mmlab/mmpretrain",
-        "n": "A2MIM (ViT-B)",
-        "d": "2022-05-27",
-        "m1": "49.4"
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -1426,6 +1415,17 @@
         "c": "https://github.com/bytedance/ibot",
         "n": "iBOT (ViT-S/16)",
         "d": "2021-11-15",
+        "m1": "49.4"
+      },
+      {
+        "p": {
+          "name": "Architecture-Agnostic Masked Image Modeling -- From ViT back to CNN",
+          "link": "https://arxiv.org/abs/2205.13943v4",
+          "authors": "Siyuan Li, Di wu, Fang Wu, Zelin Zang, Stan. Z. Li"
+        },
+        "c": "https://github.com/open-mmlab/mmpretrain",
+        "n": "A2MIM (ViT-B)",
+        "d": "2022-05-27",
         "m1": "49.4"
       },
       {
@@ -1443,8 +1443,8 @@
         "m4": "31.0",
         "m5": "51.9",
         "m6": "62.4",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -1462,7 +1462,7 @@
         "m5": "52.4",
         "m6": "61.4",
         "m7": "3G",
-        "m9": null
+        "m9": ""
       },
       {
         "p": {
@@ -1479,8 +1479,8 @@
         "m4": "30.8",
         "m5": "51.5",
         "m6": "62.1",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -1556,8 +1556,8 @@
         "m4": "31.8",
         "m5": "51.3",
         "m6": "60.3",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -1571,7 +1571,7 @@
         "m1": "48.4",
         "m2": "67.6",
         "m3": "52.7",
-        "m7": null,
+        "m7": "",
         "m9": "54.8G"
       },
       {
@@ -1590,7 +1590,7 @@
         "m5": "51.9",
         "m6": "60.7",
         "m7": "3G",
-        "m9": null
+        "m9": ""
       },
       {
         "p": {
@@ -1618,8 +1618,8 @@
         "m4": "29.2",
         "m5": "51.7",
         "m6": "60.2",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -1664,24 +1664,6 @@
       },
       {
         "p": {
-          "name": "A Ranking-based, Balanced Loss Function Unifying Classification and Localisation in Object Detection",
-          "link": "https://arxiv.org/abs/2009.13592v4",
-          "authors": "Kemal Oksuz, Baris Can Cam, Emre Akbas, Sinan Kalkan"
-        },
-        "c": "https://github.com/kemaloksuz/aLRPLoss",
-        "n": "aLRP Loss (ResNext-101-64x4d, single scale)",
-        "d": "2020-09-28",
-        "m1": "47.8",
-        "m2": "68.4",
-        "m3": "51.1",
-        "m4": "30.2",
-        "m5": "50.8",
-        "m6": "59.1",
-        "m7": null,
-        "m9": null
-      },
-      {
-        "p": {
           "name": "Matrix Nets: A New Deep Architecture for Object Detection",
           "link": "https://arxiv.org/abs/1908.04646v2",
           "authors": "Abdullah Rashwan, Agastya Kalra, Pascal Poupart"
@@ -1695,8 +1677,26 @@
         "m4": "29.7",
         "m5": "50.4",
         "m6": "60.7",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
+      },
+      {
+        "p": {
+          "name": "A Ranking-based, Balanced Loss Function Unifying Classification and Localisation in Object Detection",
+          "link": "https://arxiv.org/abs/2009.13592v4",
+          "authors": "Kemal Oksuz, Baris Can Cam, Emre Akbas, Sinan Kalkan"
+        },
+        "c": "https://github.com/kemaloksuz/aLRPLoss",
+        "n": "aLRP Loss (ResNext-101-64x4d, single scale)",
+        "d": "2020-09-28",
+        "m1": "47.8",
+        "m2": "68.4",
+        "m3": "51.1",
+        "m4": "30.2",
+        "m5": "50.8",
+        "m6": "59.1",
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -1724,24 +1724,6 @@
       },
       {
         "p": {
-          "name": "Soft Anchor-Point Object Detection",
-          "link": "https://arxiv.org/abs/1911.12448v2",
-          "authors": "Chenchen Zhu, Fangyi Chen, Zhiqiang Shen, Marios Savvides"
-        },
-        "c": "https://github.com/xuannianz/FSAF",
-        "n": "SAPD (ResNeXt-101, single-scale)",
-        "d": "2019-11-27",
-        "m1": "47.4",
-        "m2": "67.4",
-        "m3": "51.1",
-        "m4": "28.1",
-        "m5": "50.3",
-        "m6": "61.5",
-        "m7": null,
-        "m9": null
-      },
-      {
-        "p": {
           "name": "Path Aggregation Network for Instance Segmentation",
           "link": "http://arxiv.org/abs/1803.01534v4",
           "authors": "Shu Liu, Lu Qi, Haifang Qin, Jianping Shi, Jiaya Jia"
@@ -1755,8 +1737,26 @@
         "m4": "30.1",
         "m5": "51.7",
         "m6": "60.0 ",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
+      },
+      {
+        "p": {
+          "name": "Soft Anchor-Point Object Detection",
+          "link": "https://arxiv.org/abs/1911.12448v2",
+          "authors": "Chenchen Zhu, Fangyi Chen, Zhiqiang Shen, Marios Savvides"
+        },
+        "c": "https://github.com/xuannianz/FSAF",
+        "n": "SAPD (ResNeXt-101, single-scale)",
+        "d": "2019-11-27",
+        "m1": "47.4",
+        "m2": "67.4",
+        "m3": "51.1",
+        "m4": "28.1",
+        "m5": "50.3",
+        "m6": "61.5",
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -1791,8 +1791,8 @@
         "m4": "22.8",
         "m5": "43.9",
         "m6": "54.6",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -1809,8 +1809,8 @@
         "m4": "28.9",
         "m5": "49.9",
         "m6": "58.9",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -1822,8 +1822,8 @@
         "n": "MAL (ResNeXt101, multi-scale)",
         "d": "2019-12-04",
         "m1": "47.0",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -1835,8 +1835,8 @@
         "n": "ISTR (ResNet50-FPN-3x)",
         "d": "2021-05-03",
         "m1": "46.8",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -1869,8 +1869,8 @@
         "m4": "30.3",
         "m5": "49.7",
         "m6": "57.1",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -1887,8 +1887,8 @@
         "m4": "29.1",
         "m5": "48.5",
         "m6": "58.1",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -1905,8 +1905,8 @@
         "m4": "31.4",
         "m5": "49.9",
         "m6": "56.4",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -1923,8 +1923,8 @@
         "m4": "27.8",
         "m5": "49.9",
         "m6": "57",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -1942,7 +1942,18 @@
         "m5": "48.9",
         "m6": "58.1",
         "m7": "29G",
-        "m9": null
+        "m9": ""
+      },
+      {
+        "p": {
+          "name": "NAS-FCOS: Fast Neural Architecture Search for Object Detection",
+          "link": "https://arxiv.org/abs/1906.04423v4",
+          "authors": "Ning Wang, Yang Gao, Hao Chen, Peng Wang, Zhi Tian, Chunhua Shen, Yanning Zhang"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "ResNeXt-64x4d-101 NAS-FCOS @128-256 w/improvements",
+        "d": "2019-06-11",
+        "m1": "46.1"
       },
       {
         "p": {
@@ -1964,17 +1975,6 @@
       },
       {
         "p": {
-          "name": "NAS-FCOS: Fast Neural Architecture Search for Object Detection",
-          "link": "https://arxiv.org/abs/1906.04423v4",
-          "authors": "Ning Wang, Yang Gao, Hao Chen, Peng Wang, Zhi Tian, Chunhua Shen, Yanning Zhang"
-        },
-        "c": "https://github.com/open-mmlab/mmdetection",
-        "n": "ResNeXt-64x4d-101 NAS-FCOS @128-256 w/improvements",
-        "d": "2019-06-11",
-        "m1": "46.1"
-      },
-      {
-        "p": {
           "name": "Deformable ConvNets v2: More Deformable, Better Results",
           "link": "http://arxiv.org/abs/1811.11168v2",
           "authors": "Xizhou Zhu, Han Hu, Stephen Lin, Jifeng Dai"
@@ -1988,8 +1988,8 @@
         "m4": "27.8",
         "m5": "49.1",
         "m6": "59.5",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -2001,8 +2001,8 @@
         "n": "Gaussian-FCOS",
         "d": "2020-06-28",
         "m1": "46",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -2019,8 +2019,8 @@
         "m4": "26.3",
         "m5": "49",
         "m6": "58.6",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -2032,8 +2032,8 @@
         "n": "MAL (ResNeXt101, single-scale)",
         "d": "2019-12-04",
         "m1": "45.9",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -2049,8 +2049,8 @@
         "m4": "27.8",
         "m5": "48.3",
         "m6": "57.6",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -2067,8 +2067,8 @@
         "m4": "29.3",
         "m5": "48.8",
         "m6": "57.1",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -2101,8 +2101,8 @@
         "m4": "26.9",
         "m5": "47.7",
         "m6": "56.6",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -2119,8 +2119,8 @@
         "m4": "27",
         "m5": "47.9",
         "m6": "56",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -2137,8 +2137,8 @@
         "m4": "27.6",
         "m5": "47.5",
         "m6": "55.6",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -2154,8 +2154,8 @@
         "m3": "48.6",
         "m4": "27.1",
         "m6": "55.9",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -2172,8 +2172,24 @@
         "m4": "29.7",
         "m5": "47.1",
         "m6": "54.6",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
+      },
+      {
+        "p": {
+          "name": "CenterMask : Real-Time Anchor-Free Instance Segmentation",
+          "link": "https://arxiv.org/abs/1911.06667v6",
+          "authors": "Youngwan Lee, Jongyoul Park"
+        },
+        "c": "https://github.com/youngwanLEE/centermask2",
+        "n": "CenterMask + X-101-32x8d (single-scale)",
+        "d": "2019-11-15",
+        "m1": "44.6",
+        "m2": "63.4",
+        "m3": "48.4",
+        "m5": "47.2",
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -2190,24 +2206,8 @@
         "m4": "24.6",
         "m5": "48.1",
         "m6": "58.3",
-        "m7": null,
-        "m9": null
-      },
-      {
-        "p": {
-          "name": "CenterMask : Real-Time Anchor-Free Instance Segmentation",
-          "link": "https://arxiv.org/abs/1911.06667v6",
-          "authors": "Youngwan Lee, Jongyoul Park"
-        },
-        "c": "https://github.com/youngwanLEE/centermask2",
-        "n": "CenterMask + X-101-32x8d (single-scale)",
-        "d": "2019-11-15",
-        "m1": "44.6",
-        "m2": "63.4",
-        "m3": "48.4",
-        "m5": "47.2",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -2227,24 +2227,6 @@
       },
       {
         "p": {
-          "name": "You Only Look One-level Feature",
-          "link": "https://arxiv.org/abs/2103.09460v1",
-          "authors": "Qiang Chen, Yingming Wang, Tong Yang, Xiangyu Zhang, Jian Cheng, Jian Sun"
-        },
-        "c": "https://github.com/open-mmlab/mmdetection",
-        "n": "YOLOF-DC5",
-        "d": "2021-03-17",
-        "m1": "44.3",
-        "m2": "62.9",
-        "m3": "47.5",
-        "m4": "24.0",
-        "m5": "48.5",
-        "m6": "60.4",
-        "m7": null,
-        "m9": null
-      },
-      {
-        "p": {
           "name": "Generalized Focal Loss V2: Learning Reliable Localization Quality Estimation for Dense Object Detection",
           "link": "https://arxiv.org/abs/2011.12885v1",
           "authors": "Xiang Li, Wenhai Wang, Xiaolin Hu, Jun Li, Jinhui Tang, Jian Yang"
@@ -2258,26 +2240,26 @@
         "m4": "26.8",
         "m5": "47.7",
         "m6": "54.1",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
-          "name": "Feature Intertwiner for Object Detection",
-          "link": "http://arxiv.org/abs/1903.11851v1",
-          "authors": "Hongyang Li, Bo Dai, Shaoshuai Shi, Wanli Ouyang, Xiaogang Wang"
+          "name": "You Only Look One-level Feature",
+          "link": "https://arxiv.org/abs/2103.09460v1",
+          "authors": "Qiang Chen, Yingming Wang, Tong Yang, Xiangyu Zhang, Jian Cheng, Jian Sun"
         },
-        "c": "https://github.com/hli2020/feature_intertwiner",
-        "n": "InterNet (ResNet-101-FPN, multi-scale)",
-        "d": "2019-03-28",
-        "m1": "44.2",
-        "m2": "67.5",
-        "m3": "51.1",
-        "m4": "27.2",
-        "m5": "50.3",
-        "m6": "57.7",
-        "m7": null,
-        "m9": null
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "YOLOF-DC5",
+        "d": "2021-03-17",
+        "m1": "44.3",
+        "m2": "62.9",
+        "m3": "47.5",
+        "m4": "24.0",
+        "m5": "48.5",
+        "m6": "60.4",
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -2295,25 +2277,25 @@
         "m5": "47.9",
         "m6": "55.1",
         "m7": "34G",
-        "m9": null
+        "m9": ""
       },
       {
         "p": {
-          "name": "LIP: Local Importance-based Pooling",
-          "link": "https://arxiv.org/abs/1908.04156v3",
-          "authors": "Ziteng Gao, Li-Min Wang, Gangshan Wu"
+          "name": "Feature Intertwiner for Object Detection",
+          "link": "http://arxiv.org/abs/1903.11851v1",
+          "authors": "Hongyang Li, Bo Dai, Shaoshuai Shi, Wanli Ouyang, Xiaogang Wang"
         },
-        "c": "https://github.com/sebgao/LIP",
-        "n": "Faster R-CNN (LIP-ResNet-101-MD w FPN)",
-        "d": "2019-08-12",
-        "m1": "43.9",
-        "m2": "65.7",
-        "m3": "48.1",
-        "m4": "25.4",
-        "m5": "46.7",
-        "m6": "56.3",
-        "m7": null,
-        "m9": null
+        "c": "https://github.com/hli2020/feature_intertwiner",
+        "n": "InterNet (ResNet-101-FPN, multi-scale)",
+        "d": "2019-03-28",
+        "m1": "44.2",
+        "m2": "67.5",
+        "m3": "51.1",
+        "m4": "27.2",
+        "m5": "50.3",
+        "m6": "57.7",
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -2331,25 +2313,7 @@
         "m5": "49.6",
         "m6": "54.3",
         "m7": "27G",
-        "m9": null
-      },
-      {
-        "p": {
-          "name": "Learning Spatial Fusion for Single-Shot Object Detection",
-          "link": "https://arxiv.org/abs/1911.09516v2",
-          "authors": "Songtao Liu, Di Huang, Yunhong Wang"
-        },
-        "c": "https://github.com/ruinmessi/ASFF",
-        "n": "YOLOv3 @800 + ASFF* (Darknet-53)",
-        "d": "2019-11-21",
-        "m1": "43.9",
-        "m2": " 64.1",
-        "m3": " 49.2",
-        "m4": "27.0",
-        "m5": " 46.6",
-        "m6": "53.4",
-        "m7": null,
-        "m9": null
+        "m9": ""
       },
       {
         "p": {
@@ -2369,6 +2333,42 @@
       },
       {
         "p": {
+          "name": "LIP: Local Importance-based Pooling",
+          "link": "https://arxiv.org/abs/1908.04156v3",
+          "authors": "Ziteng Gao, Li-Min Wang, Gangshan Wu"
+        },
+        "c": "https://github.com/sebgao/LIP",
+        "n": "Faster R-CNN (LIP-ResNet-101-MD w FPN)",
+        "d": "2019-08-12",
+        "m1": "43.9",
+        "m2": "65.7",
+        "m3": "48.1",
+        "m4": "25.4",
+        "m5": "46.7",
+        "m6": "56.3",
+        "m7": "",
+        "m9": ""
+      },
+      {
+        "p": {
+          "name": "Learning Spatial Fusion for Single-Shot Object Detection",
+          "link": "https://arxiv.org/abs/1911.09516v2",
+          "authors": "Songtao Liu, Di Huang, Yunhong Wang"
+        },
+        "c": "https://github.com/ruinmessi/ASFF",
+        "n": "YOLOv3 @800 + ASFF* (Darknet-53)",
+        "d": "2019-11-21",
+        "m1": "43.9",
+        "m2": " 64.1",
+        "m3": " 49.2",
+        "m4": "27.0",
+        "m5": " 46.6",
+        "m6": "53.4",
+        "m7": "",
+        "m9": ""
+      },
+      {
+        "p": {
           "name": "Bottom-up Object Detection by Grouping Extreme and Center Points",
           "link": "http://arxiv.org/abs/1901.08043v3",
           "authors": "Xingyi Zhou, Jiacheng Zhuo, Philipp Krähenbühl"
@@ -2383,23 +2383,7 @@
         "m5": "46.9",
         "m6": "57.6",
         "m7": "180G",
-        "m9": null
-      },
-      {
-        "p": {
-          "name": "YOLOv4: Optimal Speed and Accuracy of Object Detection",
-          "link": "https://arxiv.org/abs/2004.10934v1",
-          "authors": "Alexey Bochkovskiy, Chien-Yao Wang, Hong-Yuan Mark Liao"
-        },
-        "c": "https://github.com/tensorflow/models/tree/master/official/vision/beta/projects/yolo",
-        "n": "YOLOv4-608",
-        "d": "2020-04-23",
-        "m1": "43.5",
-        "m2": "65.7",
-        "m3": "47.3",
-        "m4": "26.7",
-        "m5": "46.7",
-        "m6": "53.3"
+        "m9": ""
       },
       {
         "p": {
@@ -2417,7 +2401,7 @@
         "m5": "46.3",
         "m6": "56.0",
         "m7": "29G",
-        "m9": null
+        "m9": ""
       },
       {
         "p": {
@@ -2437,6 +2421,22 @@
       },
       {
         "p": {
+          "name": "YOLOv4: Optimal Speed and Accuracy of Object Detection",
+          "link": "https://arxiv.org/abs/2004.10934v1",
+          "authors": "Alexey Bochkovskiy, Chien-Yao Wang, Hong-Yuan Mark Liao"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/official/vision/beta/projects/yolo",
+        "n": "YOLOv4-608",
+        "d": "2020-04-23",
+        "m1": "43.5",
+        "m2": "65.7",
+        "m3": "47.3",
+        "m4": "26.7",
+        "m5": "46.7",
+        "m6": "53.3"
+      },
+      {
+        "p": {
           "name": "An Analysis of Scale Invariance in Object Detection - SNIP",
           "link": "http://arxiv.org/abs/1711.08189v2",
           "authors": "Bharat Singh, Larry S. Davis"
@@ -2450,8 +2450,8 @@
         "m4": "27.2",
         "m5": "46.5",
         "m6": "54.9",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -2468,8 +2468,8 @@
         "m4": "25.1",
         "m5": "46.5",
         "m6": "55.2",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -2486,8 +2486,8 @@
         "m4": "26.5",
         "m5": "46.2",
         "m6": "53.3",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -2502,8 +2502,8 @@
         "m4": "24.4",
         "m5": "44.6",
         "m6": "57.3",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -2536,8 +2536,8 @@
         "m4": "25.3",
         "m5": "45.6",
         "m6": "54.6",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -2554,40 +2554,6 @@
       },
       {
         "p": {
-          "name": "RepPoints: Point Set Representation for Object Detection",
-          "link": "https://arxiv.org/abs/1904.11490v2",
-          "authors": "Ze Yang, Shaohui Liu, Han Hu, Li-Wei Wang, Stephen Lin"
-        },
-        "c": "https://github.com/open-mmlab/mmdetection",
-        "n": "RPDet (ResNet-101-DCN)",
-        "d": "2019-04-25",
-        "m1": "42.8",
-        "m2": "65.0",
-        "m3": "46.3",
-        "m4": "24.9",
-        "m5": "46.2",
-        "m6": "54.7",
-        "m7": null,
-        "m9": null
-      },
-      {
-        "p": {
-          "name": "SpineNet: Learning Scale-Permuted Backbone for Recognition and Localization",
-          "link": "https://arxiv.org/abs/1912.05027v3",
-          "authors": "Xianzhi Du, Tsung-Yi Lin, Pengchong Jin, Golnaz Ghiasi, Mingxing Tan, Yin Cui, Quoc V. Le, Xiaodan Song"
-        },
-        "c": "https://github.com/tensorflow/models/tree/master/official/vision/beta/modeling/backbones",
-        "n": "SpineNet-49 (640, RetinaNet, single-scale)",
-        "d": "2019-12-10",
-        "m1": "42.8",
-        "m2": "62.3",
-        "m3": "46.1",
-        "m4": "23.7",
-        "m5": "45.2",
-        "m6": "57.3"
-      },
-      {
-        "p": {
           "name": "Cascade R-CNN: Delving into High Quality Object Detection",
           "link": "http://arxiv.org/abs/1712.00726v1",
           "authors": "Zhaowei Cai, Nuno Vasconcelos"
@@ -2601,8 +2567,26 @@
         "m4": "23.7",
         "m5": "45.5",
         "m6": "55.2",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
+      },
+      {
+        "p": {
+          "name": "RepPoints: Point Set Representation for Object Detection",
+          "link": "https://arxiv.org/abs/1904.11490v2",
+          "authors": "Ze Yang, Shaohui Liu, Han Hu, Li-Wei Wang, Stephen Lin"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "RPDet (ResNet-101-DCN)",
+        "d": "2019-04-25",
+        "m1": "42.8",
+        "m2": "65.0",
+        "m3": "46.3",
+        "m4": "24.9",
+        "m5": "46.2",
+        "m6": "54.7",
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -2623,6 +2607,22 @@
       },
       {
         "p": {
+          "name": "SpineNet: Learning Scale-Permuted Backbone for Recognition and Localization",
+          "link": "https://arxiv.org/abs/1912.05027v3",
+          "authors": "Xianzhi Du, Tsung-Yi Lin, Pengchong Jin, Golnaz Ghiasi, Mingxing Tan, Yin Cui, Quoc V. Le, Xiaodan Song"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/official/vision/beta/modeling/backbones",
+        "n": "SpineNet-49 (640, RetinaNet, single-scale)",
+        "d": "2019-12-10",
+        "m1": "42.8",
+        "m2": "62.3",
+        "m3": "46.1",
+        "m4": "23.7",
+        "m5": "45.2",
+        "m6": "57.3"
+      },
+      {
+        "p": {
           "name": "Scale-Aware Trident Networks for Object Detection",
           "link": "https://arxiv.org/abs/1901.01892v2",
           "authors": "Yanghao Li, Yuntao Chen, Naiyan Wang, Zhao-Xiang Zhang"
@@ -2636,8 +2636,8 @@
         "m4": "23.9",
         "m5": "46.6",
         "m6": "56.6",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -2654,8 +2654,8 @@
         "m4": "26.0",
         "m5": "45.6",
         "m6": "52.6",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -2673,7 +2673,7 @@
         "m5": "45.6",
         "m6": "53.8",
         "m7": "12G",
-        "m9": null
+        "m9": ""
       },
       {
         "p": {
@@ -2721,8 +2721,8 @@
         "m4": "22.8",
         "m5": "47.3",
         "m6": "55.9",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -2739,8 +2739,8 @@
         "m4": "20.8",
         "m5": "44.8",
         "m6": "56.7",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -2768,8 +2768,8 @@
         "m4": "25.4",
         "m5": "45.0",
         "m6": "51.0",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -2797,8 +2797,8 @@
         "m4": "25.6",
         "m5": "45.1",
         "m6": "54.1",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -2815,8 +2815,8 @@
         "m4": "22.3",
         "m5": "45.1",
         "m6": "55.3",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -2851,24 +2851,6 @@
       },
       {
         "p": {
-          "name": "RepPoints: Point Set Representation for Object Detection",
-          "link": "https://arxiv.org/abs/1904.11490v2",
-          "authors": "Ze Yang, Shaohui Liu, Han Hu, Li-Wei Wang, Stephen Lin"
-        },
-        "c": "https://github.com/open-mmlab/mmdetection",
-        "n": "RPDet (ResNet-101)",
-        "d": "2019-04-25",
-        "m1": "41",
-        "m2": "62.9",
-        "m3": "44.3",
-        "m4": "23.6",
-        "m5": "44.1",
-        "m6": "51.7",
-        "m7": null,
-        "m9": null
-      },
-      {
-        "p": {
           "name": "M2Det: A Single-Shot Object Detector based on Multi-Level Feature Pyramid Network",
           "link": "http://arxiv.org/abs/1811.04533v3",
           "authors": "Qijie Zhao, Tao Sheng, Yongtao Wang, Zhi Tang, Ying Chen, Ling Cai, Haibin Ling"
@@ -2883,7 +2865,25 @@
         "m5": "46.5",
         "m6": "53.8",
         "m7": "34G",
-        "m9": null
+        "m9": ""
+      },
+      {
+        "p": {
+          "name": "RepPoints: Point Set Representation for Object Detection",
+          "link": "https://arxiv.org/abs/1904.11490v2",
+          "authors": "Ze Yang, Shaohui Liu, Han Hu, Li-Wei Wang, Stephen Lin"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "RPDet (ResNet-101)",
+        "d": "2019-04-25",
+        "m1": "41",
+        "m2": "62.9",
+        "m3": "44.3",
+        "m4": "23.6",
+        "m5": "44.1",
+        "m6": "51.7",
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -2914,7 +2914,7 @@
         "m5": "44.2",
         "m6": "51.3",
         "m7": "38G",
-        "m9": null
+        "m9": ""
       },
       {
         "p": {
@@ -2932,7 +2932,7 @@
         "m5": "44.2",
         "m6": "51.2",
         "m7": "4G",
-        "m9": null
+        "m9": ""
       },
       {
         "p": {
@@ -2950,7 +2950,20 @@
         "m5": "42.7",
         "m6": "52.1",
         "m7": "12G",
-        "m9": null
+        "m9": ""
+      },
+      {
+        "p": {
+          "name": "Acquisition of Localization Confidence for Accurate Object Detection",
+          "link": "http://arxiv.org/abs/1807.11590v1",
+          "authors": "Borui Jiang, Ruixuan Luo, Jiayuan Mao, Tete Xiao, Yuning Jiang"
+        },
+        "c": "https://github.com/vacancy/PreciseRoIPooling",
+        "n": "IoU-Net",
+        "d": "2018-07-30",
+        "m1": "40.6",
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -2968,7 +2981,7 @@
         "m5": "42.8",
         "m6": "52.6",
         "m7": "5G",
-        "m9": null
+        "m9": ""
       },
       {
         "p": {
@@ -2983,21 +2996,8 @@
         "m4": "24.6",
         "m5": "43.9",
         "m6": "53.3",
-        "m7": null,
-        "m9": null
-      },
-      {
-        "p": {
-          "name": "Acquisition of Localization Confidence for Accurate Object Detection",
-          "link": "http://arxiv.org/abs/1807.11590v1",
-          "authors": "Borui Jiang, Ruixuan Luo, Jiayuan Mao, Tete Xiao, Yuning Jiang"
-        },
-        "c": "https://github.com/vacancy/PreciseRoIPooling",
-        "n": "IoU-Net",
-        "d": "2018-07-30",
-        "m1": "40.6",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -3026,8 +3026,8 @@
         "n": "ResNet-50-FPN Mask R-CNN + KL Loss + var voting + soft-NMS",
         "d": "2018-09-23",
         "m1": "40.4",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -3044,8 +3044,8 @@
         "m4": "22.1",
         "m5": "43.5",
         "m6": "51.5",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -3063,25 +3063,7 @@
         "m5": "43.2",
         "m6": "53.1",
         "m7": "180G",
-        "m9": null
-      },
-      {
-        "p": {
-          "name": "Cross-Iteration Batch Normalization",
-          "link": "https://arxiv.org/abs/2002.05712v3",
-          "authors": "Zhuliang Yao, Yue Cao, Shuxin Zheng, Gao Huang, Stephen Lin"
-        },
-        "c": "https://github.com/Howal/Cross-iterationBatchNorm",
-        "n": "Mask R-CNN (ResNet-101-FPN, CBN)",
-        "d": "2020-02-13",
-        "m1": "40.1",
-        "m2": "60.5",
-        "m3": "44.1",
-        "m4": "35.8",
-        "m5": "57.3",
-        "m6": "38.5",
-        "m7": null,
-        "m9": null
+        "m9": ""
       },
       {
         "p": {
@@ -3099,7 +3081,25 @@
         "m5": "42.4",
         "m6": "51.6",
         "m7": "5G",
-        "m9": null
+        "m9": ""
+      },
+      {
+        "p": {
+          "name": "Cross-Iteration Batch Normalization",
+          "link": "https://arxiv.org/abs/2002.05712v3",
+          "authors": "Zhuliang Yao, Yue Cao, Shuxin Zheng, Gao Huang, Stephen Lin"
+        },
+        "c": "https://github.com/Howal/Cross-iterationBatchNorm",
+        "n": "Mask R-CNN (ResNet-101-FPN, CBN)",
+        "d": "2020-02-13",
+        "m1": "40.1",
+        "m2": "60.5",
+        "m3": "44.1",
+        "m4": "35.8",
+        "m5": "57.3",
+        "m6": "38.5",
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -3133,8 +3133,8 @@
         "m4": "21.8",
         "m5": "42.6",
         "m6": "50.7",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -3168,8 +3168,8 @@
         "n": "FPN (ResNet101 backbone)",
         "d": "2017-08-28",
         "m1": "39.5",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -3187,7 +3187,7 @@
         "m5": "42.0",
         "m6": "51.0",
         "m7": "9G",
-        "m9": null
+        "m9": ""
       },
       {
         "p": {
@@ -3211,7 +3211,7 @@
         "n": "AA-ResNet-10 + RetinaNet",
         "d": "2019-04-22",
         "m1": "39.2",
-        "m7": null,
+        "m7": "",
         "m9": "24.5G"
       },
       {
@@ -3224,8 +3224,8 @@
         "n": "MAL (ResNet50, single-scale)",
         "d": "2019-12-04",
         "m1": "39.2",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -3243,7 +3243,7 @@
         "m5": "42.7",
         "m6": "50.2",
         "m7": "4G",
-        "m9": null
+        "m9": ""
       },
       {
         "p": {
@@ -3261,7 +3261,7 @@
         "m5": "41.8",
         "m6": "49.8",
         "m7": "3G",
-        "m9": null
+        "m9": ""
       },
       {
         "p": {
@@ -3279,7 +3279,7 @@
         "m5": "43.9",
         "m6": "53.4",
         "m7": "27G",
-        "m9": null
+        "m9": ""
       },
       {
         "p": {
@@ -3297,7 +3297,7 @@
         "m5": "42.1",
         "m6": "50.6",
         "m7": "46G",
-        "m9": null
+        "m9": ""
       },
       {
         "p": {
@@ -3339,8 +3339,8 @@
         "n": "WSMA-Seg",
         "d": "2019-04-30",
         "m1": "38.1",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -3368,8 +3368,8 @@
         "m4": "17.0",
         "m5": "39.0",
         "m6": "50.5",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -3386,8 +3386,8 @@
         "m4": "22.7",
         "m5": "40.3",
         "m6": "48.3",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -3403,8 +3403,8 @@
         "m4": "19.4",
         "m5": "40.1",
         "m6": "52.5",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -3421,8 +3421,8 @@
         "m4": "17.5",
         "m5": "41.1",
         "m6": "51.2",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -3434,8 +3434,8 @@
         "n": "Mask R-CNN (Bottleneck-injected ResNet-50, FPN)",
         "d": "2020-11-25",
         "m1": "36.9",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -3447,8 +3447,8 @@
         "n": "Faster R-CNN + TDM",
         "d": "2016-12-20",
         "m1": "36.8",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -3466,7 +3466,7 @@
         "m5": "38.8",
         "m6": "46.4",
         "m7": "3G",
-        "m9": null
+        "m9": ""
       },
       {
         "p": {
@@ -3483,8 +3483,8 @@
         "m4": "16.6",
         "m5": "39.9",
         "m6": "51.4",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       },
       {
         "p": {
@@ -3508,8 +3508,8 @@
         "n": "Faster R-CNN (Bottleneck-injected ResNet-50 and FPN)",
         "d": "2020-11-25",
         "m1": "35.9",
-        "m7": null,
-        "m9": null
+        "m7": "",
+        "m9": ""
       }
     ]
   }

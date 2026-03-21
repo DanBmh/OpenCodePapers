@@ -91,17 +91,6 @@
       },
       {
         "p": {
-          "name": "Implicit Quantile Networks for Distributional Reinforcement Learning",
-          "link": "http://arxiv.org/abs/1806.06923v1",
-          "authors": "Will Dabney, Georg Ostrovski, David Silver, Rémi Munos"
-        },
-        "c": "https://github.com/opendilab/DI-engine/blob/main/ding/policy/iqn.py",
-        "n": "IQN",
-        "d": "2018-06-14",
-        "m1": "23.6"
-      },
-      {
-        "p": {
           "name": "Distributional Reinforcement Learning with Quantile Regression",
           "link": "http://arxiv.org/abs/1710.10044v1",
           "authors": "Will Dabney, Mark Rowland, Marc G. Bellemare, Rémi Munos"
@@ -109,6 +98,17 @@
         "c": "https://github.com/DLR-RM/stable-baselines3",
         "n": "QR-DQN-1",
         "d": "2017-10-27",
+        "m1": "23.6"
+      },
+      {
+        "p": {
+          "name": "Implicit Quantile Networks for Distributional Reinforcement Learning",
+          "link": "http://arxiv.org/abs/1806.06923v1",
+          "authors": "Will Dabney, Georg Ostrovski, David Silver, Rémi Munos"
+        },
+        "c": "https://github.com/opendilab/DI-engine/blob/main/ding/policy/iqn.py",
+        "n": "IQN",
+        "d": "2018-06-14",
         "m1": "23.6"
       },
       {
@@ -247,7 +247,7 @@
         "p": "[]()",
         "c": "",
         "n": "SARSA",
-        "d": null,
+        "d": "",
         "m1": "0.0"
       },
       {
@@ -274,6 +274,17 @@
       },
       {
         "p": {
+          "name": "Increasing the Action Gap: New Operators for Reinforcement Learning",
+          "link": "http://arxiv.org/abs/1512.04860v1",
+          "authors": "Marc G. Bellemare, Georg Ostrovski, Arthur Guez, Philip S. Thomas, Rémi Munos"
+        },
+        "c": "https://github.com/janhuenermann/neurojs",
+        "n": "Advantage Learning",
+        "d": "2015-12-15",
+        "m1": "0"
+      },
+      {
+        "p": {
           "name": "Deep Exploration via Bootstrapped DQN",
           "link": "http://arxiv.org/abs/1602.04621v3",
           "authors": "Ian Osband, Charles Blundell, Alexander Pritzel, Benjamin Van Roy"
@@ -281,28 +292,6 @@
         "c": "https://github.com/tensorflow/models",
         "n": "Bootstrapped DQN",
         "d": "2016-02-15",
-        "m1": "0"
-      },
-      {
-        "p": {
-          "name": "Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model",
-          "link": "https://arxiv.org/abs/1911.08265v2",
-          "authors": "Julian Schrittwieser, Ioannis Antonoglou, Thomas Hubert, Karen Simonyan, Laurent SIfre, Simon Schmitt, Arthur Guez, Edward Lockhart, Demis Hassabis, Thore Graepel, Timothy Lillicrap, David Silver"
-        },
-        "c": "https://github.com/werner-duvaud/muzero-general",
-        "n": "MuZero",
-        "d": "2019-11-19",
-        "m1": "0.00"
-      },
-      {
-        "p": {
-          "name": "Evolving simple programs for playing Atari games",
-          "link": "http://arxiv.org/abs/1806.05695v1",
-          "authors": "Dennis G Wilson, Sylvain Cussat-Blanc, Hervé Luga, Julian F. Miller"
-        },
-        "c": "https://github.com/ShuhuaGao/gpFlappyBird",
-        "n": "CGP",
-        "d": "2018-06-14",
         "m1": "0"
       },
       {
@@ -318,14 +307,25 @@
       },
       {
         "p": {
-          "name": "Increasing the Action Gap: New Operators for Reinforcement Learning",
-          "link": "http://arxiv.org/abs/1512.04860v1",
-          "authors": "Marc G. Bellemare, Georg Ostrovski, Arthur Guez, Philip S. Thomas, Rémi Munos"
+          "name": "Evolving simple programs for playing Atari games",
+          "link": "http://arxiv.org/abs/1806.05695v1",
+          "authors": "Dennis G Wilson, Sylvain Cussat-Blanc, Hervé Luga, Julian F. Miller"
         },
-        "c": "https://github.com/janhuenermann/neurojs",
-        "n": "Advantage Learning",
-        "d": "2015-12-15",
+        "c": "https://github.com/ShuhuaGao/gpFlappyBird",
+        "n": "CGP",
+        "d": "2018-06-14",
         "m1": "0"
+      },
+      {
+        "p": {
+          "name": "Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model",
+          "link": "https://arxiv.org/abs/1911.08265v2",
+          "authors": "Julian Schrittwieser, Ioannis Antonoglou, Thomas Hubert, Karen Simonyan, Laurent SIfre, Simon Schmitt, Arthur Guez, Edward Lockhart, Demis Hassabis, Thore Graepel, Timothy Lillicrap, David Silver"
+        },
+        "c": "https://github.com/werner-duvaud/muzero-general",
+        "n": "MuZero",
+        "d": "2019-11-19",
+        "m1": "0.00"
       },
       {
         "p": {
@@ -340,17 +340,6 @@
       },
       {
         "p": {
-          "name": "Recurrent Experience Replay in Distributed Reinforcement Learning",
-          "link": "https://openreview.net/forum?id=r1lyTjAqYX",
-          "authors": "Steven Kapturowski, Georg Ostrovski, Will Dabney, John Quan, Remi Munos"
-        },
-        "c": "https://github.com/opendilab/DI-engine/blob/main/ding/policy/r2d2.py",
-        "n": "R2D2",
-        "d": "2019-05-01",
-        "m1": "-0.1"
-      },
-      {
-        "p": {
           "name": "The Arcade Learning Environment: An Evaluation Platform for General Agents",
           "link": "http://arxiv.org/abs/1207.4708v2",
           "authors": "Marc G. Bellemare, Yavar Naddaf, Joel Veness, Michael Bowling"
@@ -358,6 +347,17 @@
         "c": "https://github.com/mgbellemare/Arcade-Learning-Environment",
         "n": "Best Learner",
         "d": "2012-07-19",
+        "m1": "-0.1"
+      },
+      {
+        "p": {
+          "name": "Recurrent Experience Replay in Distributed Reinforcement Learning",
+          "link": "https://openreview.net/forum?id=r1lyTjAqYX",
+          "authors": "Steven Kapturowski, Georg Ostrovski, Will Dabney, John Quan, Remi Munos"
+        },
+        "c": "https://github.com/opendilab/DI-engine/blob/main/ding/policy/r2d2.py",
+        "n": "R2D2",
+        "d": "2019-05-01",
         "m1": "-0.1"
       },
       {

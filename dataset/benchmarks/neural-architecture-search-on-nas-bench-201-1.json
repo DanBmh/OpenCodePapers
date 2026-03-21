@@ -46,16 +46,15 @@
     "items": [
       {
         "p": {
-          "name": "Multi-conditioned Graph Diffusion for Neural Architecture Search",
-          "link": "https://arxiv.org/abs/2403.06020v2",
-          "authors": "Rohan Asthana, Joschua Conrad, Youssef Dawoud, Maurits Ortmanns, Vasileios Belagiannis"
+          "name": "Learning Where To Look -- Generative NAS is Surprisingly Efficient",
+          "link": "https://arxiv.org/abs/2203.08734v2",
+          "authors": "Jovita Lukasik, Steffen Jung, Margret Keuper"
         },
-        "c": "https://github.com/rohanasthana/dinas",
-        "n": "DiNAS",
-        "d": "2024-03-09",
+        "c": "https://github.com/jovitalukasik/AG-Net",
+        "n": "AG-Net",
+        "d": "2022-03-16",
         "m1": "94.37",
-        "m2": "91.61",
-        "m3": "15.36"
+        "m2": "91.61"
       },
       {
         "p": {
@@ -71,27 +70,16 @@
       },
       {
         "p": {
-          "name": "Learning Where To Look -- Generative NAS is Surprisingly Efficient",
-          "link": "https://arxiv.org/abs/2203.08734v2",
-          "authors": "Jovita Lukasik, Steffen Jung, Margret Keuper"
+          "name": "Multi-conditioned Graph Diffusion for Neural Architecture Search",
+          "link": "https://arxiv.org/abs/2403.06020v2",
+          "authors": "Rohan Asthana, Joschua Conrad, Youssef Dawoud, Maurits Ortmanns, Vasileios Belagiannis"
         },
-        "c": "https://github.com/jovitalukasik/AG-Net",
-        "n": "AG-Net",
-        "d": "2022-03-16",
+        "c": "https://github.com/rohanasthana/dinas",
+        "n": "DiNAS",
+        "d": "2024-03-09",
         "m1": "94.37",
-        "m2": "91.61"
-      },
-      {
-        "p": {
-          "name": "$β$-DARTS: Beta-Decay Regularization for Differentiable Architecture Search",
-          "link": "https://arxiv.org/abs/2203.01665v2",
-          "authors": "Peng Ye, Baopu Li, Yikang Li, Tao Chen, Jiayuan Fan, Wanli Ouyang"
-        },
-        "c": "https://github.com/Sunshine-Ye/Beta-DARTS",
-        "n": "β-DARTS",
-        "d": "2022-03-03",
-        "m1": "94.36",
-        "m2": "91.55"
+        "m2": "91.61",
+        "m3": "15.36"
       },
       {
         "p": {
@@ -102,6 +90,18 @@
         "c": "https://github.com/xiangning-chen/DrNAS",
         "n": "DrNAS",
         "d": "2020-06-18",
+        "m1": "94.36",
+        "m2": "91.55"
+      },
+      {
+        "p": {
+          "name": "$β$-DARTS: Beta-Decay Regularization for Differentiable Architecture Search",
+          "link": "https://arxiv.org/abs/2203.01665v2",
+          "authors": "Peng Ye, Baopu Li, Yikang Li, Tao Chen, Jiayuan Fan, Wanli Ouyang"
+        },
+        "c": "https://github.com/Sunshine-Ye/Beta-DARTS",
+        "n": "β-DARTS",
+        "d": "2022-03-03",
         "m1": "94.36",
         "m2": "91.55"
       },
@@ -131,6 +131,17 @@
       },
       {
         "p": {
+          "name": "When NAS Meets Trees: An Efficient Algorithm for Neural Architecture Search",
+          "link": "https://arxiv.org/abs/2204.04918v1",
+          "authors": "Guocheng Qian, Xuanyang Zhang, Guohao Li, Chen Zhao, Yukang Chen, Xiangyu Zhang, Bernard Ghanem, Jian Sun"
+        },
+        "c": "https://github.com/guochengqian/tnas",
+        "n": "TNAS",
+        "d": "2022-04-11",
+        "m1": "94.35"
+      },
+      {
+        "p": {
           "name": "CR-LSO: Convex Neural Architecture Optimization in the Latent Space of Graph Variational Autoencoder with Input Convex Neural Networks",
           "link": "https://arxiv.org/abs/2211.05950v1",
           "authors": "Xuan Rao, Bo Zhao, Xiaosong Yi, Derong Liu"
@@ -140,17 +151,6 @@
         "d": "2022-11-11",
         "m1": "94.35",
         "m2": "91.54"
-      },
-      {
-        "p": {
-          "name": "When NAS Meets Trees: An Efficient Algorithm for Neural Architecture Search",
-          "link": "https://arxiv.org/abs/2204.04918v1",
-          "authors": "Guocheng Qian, Xuanyang Zhang, Guohao Li, Chen Zhao, Yukang Chen, Xiangyu Zhang, Bernard Ghanem, Jian Sun"
-        },
-        "c": "https://github.com/guochengqian/tnas",
-        "n": "TNAS",
-        "d": "2022-04-11",
-        "m1": "94.35"
       },
       {
         "p": {
@@ -440,7 +440,7 @@
         "p": "[]()",
         "c": "",
         "n": "SETN",
-        "d": null,
+        "d": "",
         "m1": "86.19",
         "m2": "82.25",
         "m3": "31010"
@@ -449,7 +449,7 @@
         "p": "[]()",
         "c": "",
         "n": "DARTS-V1",
-        "d": null,
+        "d": "",
         "m1": "54.30",
         "m2": "39.77",
         "m3": "10890"
@@ -471,7 +471,7 @@
         "p": "[]()",
         "c": "",
         "n": "DARTS-V2",
-        "d": null,
+        "d": "",
         "m1": "54.30",
         "m2": "39.77",
         "m3": "29902"

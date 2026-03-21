@@ -158,18 +158,6 @@
       },
       {
         "p": {
-          "name": "FlipReID: Closing the Gap between Training and Inference in Person Re-Identification",
-          "link": "https://arxiv.org/abs/2105.05639v1",
-          "authors": "Xingyang Ni, Esa Rahtu"
-        },
-        "c": "https://github.com/nixingyang/FlipReID",
-        "n": "FlipReID (with re-ranking)",
-        "d": "2021-05-12",
-        "m1": "90.7",
-        "m2": "93.0"
-      },
-      {
-        "p": {
           "name": "Adaptive L2 Regularization in Person Re-Identification",
           "link": "https://arxiv.org/abs/2007.07875v2",
           "authors": "Xingyang Ni, Liang Fang, Heikki Huttunen"
@@ -179,6 +167,18 @@
         "d": "2020-07-15",
         "m1": "90.7",
         "m2": "92.2"
+      },
+      {
+        "p": {
+          "name": "FlipReID: Closing the Gap between Training and Inference in Person Re-Identification",
+          "link": "https://arxiv.org/abs/2105.05639v1",
+          "authors": "Xingyang Ni, Esa Rahtu"
+        },
+        "c": "https://github.com/nixingyang/FlipReID",
+        "n": "FlipReID (with re-ranking)",
+        "d": "2021-05-12",
+        "m1": "90.7",
+        "m2": "93.0"
       },
       {
         "p": {
@@ -194,6 +194,18 @@
       },
       {
         "p": {
+          "name": "Auto-ReID: Searching for a Part-aware ConvNet for Person Re-Identification",
+          "link": "https://arxiv.org/abs/1903.09776v4",
+          "authors": "Ruijie Quan, Xuanyi Dong, Yu Wu, Linchao Zhu, Yi Yang"
+        },
+        "c": "https://github.com/D-X-Y/GDAS",
+        "n": "Auto-ReID(RK)",
+        "d": "2019-03-23",
+        "m1": "89.2",
+        "m2": "91.4"
+      },
+      {
+        "p": {
           "name": "Relation Preserving Triplet Mining for Stabilising the Triplet Loss in Re-identification Systems",
           "link": "https://arxiv.org/abs/2110.07933v2",
           "authors": "Adhiraj Ghosh, Kuruparan Shanmugalingam, Wen-Yan Lin"
@@ -204,18 +216,6 @@
         "m1": "89.2",
         "m2": "93.5",
         "m3": "96.1"
-      },
-      {
-        "p": {
-          "name": "Auto-ReID: Searching for a Part-aware ConvNet for Person Re-Identification",
-          "link": "https://arxiv.org/abs/1903.09776v4",
-          "authors": "Ruijie Quan, Xuanyi Dong, Yu Wu, Linchao Zhu, Yi Yang"
-        },
-        "c": "https://github.com/D-X-Y/GDAS",
-        "n": "Auto-ReID(RK)",
-        "d": "2019-03-23",
-        "m1": "89.2",
-        "m2": "91.4"
       },
       {
         "p": {
@@ -569,19 +569,6 @@
       },
       {
         "p": {
-          "name": "Identity-Guided Human Semantic Parsing for Person Re-Identification",
-          "link": "https://arxiv.org/abs/2007.13467v1",
-          "authors": "Kuan Zhu, Haiyun Guo, Zhiwei Liu, Ming Tang, Jinqiao Wang"
-        },
-        "c": "https://github.com/CASIA-IVA-Lab/ISP-reID",
-        "n": "ISP",
-        "d": "2020-07-27",
-        "m1": "80",
-        "m2": "89.6",
-        "m3": "95.5"
-      },
-      {
-        "p": {
           "name": "Resource Aware Person Re-identification across Multiple Resolutions",
           "link": "http://arxiv.org/abs/1805.08805v3",
           "authors": "Yan Wang, Lequn Wang, Yurong You, Xu Zou, Vincent Chen, Serena Li, Gao Huang, Bharath Hariharan, Kilian Q. Weinberger"
@@ -594,15 +581,16 @@
       },
       {
         "p": {
-          "name": "ReMix: Training Generalized Person Re-identification on a Mixture of Data",
-          "link": "https://arxiv.org/abs/2410.21938v1",
-          "authors": "Timur Mamedov, Anton Konushin, Vadim Konushin"
+          "name": "Identity-Guided Human Semantic Parsing for Person Re-Identification",
+          "link": "https://arxiv.org/abs/2007.13467v1",
+          "authors": "Kuan Zhu, Haiyun Guo, Zhiwei Liu, Ming Tang, Jinqiao Wang"
         },
-        "c": "",
-        "n": "ReMix",
-        "d": "2024-10-29",
-        "m1": "79.8",
-        "m2": "89.6"
+        "c": "https://github.com/CASIA-IVA-Lab/ISP-reID",
+        "n": "ISP",
+        "d": "2020-07-27",
+        "m1": "80",
+        "m2": "89.6",
+        "m3": "95.5"
       },
       {
         "p": {
@@ -618,6 +606,18 @@
       },
       {
         "p": {
+          "name": "ReMix: Training Generalized Person Re-identification on a Mixture of Data",
+          "link": "https://arxiv.org/abs/2410.21938v1",
+          "authors": "Timur Mamedov, Anton Konushin, Vadim Konushin"
+        },
+        "c": "",
+        "n": "ReMix",
+        "d": "2024-10-29",
+        "m1": "79.8",
+        "m2": "89.6"
+      },
+      {
+        "p": {
           "name": "Learning Disentangled Representation for Robust Person Re-identification",
           "link": "https://arxiv.org/abs/1910.12003v2",
           "authors": "Chanho Eom, Bumsub Ham"
@@ -630,18 +630,6 @@
       },
       {
         "p": {
-          "name": "Explainable Person Re-Identification with Attribute-guided Metric Distillation",
-          "link": "https://arxiv.org/abs/2103.01451v2",
-          "authors": "Xiaodong Chen, Xinchen Liu, Wu Liu, Xiao-Ping Zhang, Yongdong Zhang, Tao Mei"
-        },
-        "c": "https://github.com/SheldongChen/AMD.github.io",
-        "n": "+ Re-weighting",
-        "d": "2021-03-02",
-        "m1": "79.1",
-        "m2": "90.2"
-      },
-      {
-        "p": {
           "name": "A Strong Baseline and Batch Normalization Neck for Deep Person Re-identification",
           "link": "https://arxiv.org/abs/1906.08332v2",
           "authors": "Hao Luo, Wei Jiang, Youzhi Gu, Fuxu Liu, Xingyu Liao, Shenqi Lai, Jianyang Gu"
@@ -651,6 +639,18 @@
         "d": "2019-06-19",
         "m1": "79.1",
         "m2": "90.1"
+      },
+      {
+        "p": {
+          "name": "Explainable Person Re-Identification with Attribute-guided Metric Distillation",
+          "link": "https://arxiv.org/abs/2103.01451v2",
+          "authors": "Xiaodong Chen, Xinchen Liu, Wu Liu, Xiao-Ping Zhang, Yongdong Zhang, Tao Mei"
+        },
+        "c": "https://github.com/SheldongChen/AMD.github.io",
+        "n": "+ Re-weighting",
+        "d": "2021-03-02",
+        "m1": "79.1",
+        "m2": "90.2"
       },
       {
         "p": {
@@ -742,18 +742,6 @@
       },
       {
         "p": {
-          "name": "Joint Discriminative and Generative Learning for Person Re-identification",
-          "link": "https://arxiv.org/abs/1904.07223v3",
-          "authors": "Zhedong Zheng, Xiaodong Yang, Zhiding Yu, Liang Zheng, Yi Yang, Jan Kautz"
-        },
-        "c": "https://github.com/layumi/Person_reID_baseline_pytorch",
-        "n": "DG-Net",
-        "d": "2019-04-15",
-        "m1": "74.8",
-        "m2": "86.6"
-      },
-      {
-        "p": {
           "name": "Person Re-identification with Bias-controlled Adversarial Training",
           "link": "http://arxiv.org/abs/1904.00244v1",
           "authors": "Sara Iodice, Krystian Mikolajczyk"
@@ -763,6 +751,18 @@
         "d": "2019-03-30",
         "m1": "74.8",
         "m2": "85.2"
+      },
+      {
+        "p": {
+          "name": "Joint Discriminative and Generative Learning for Person Re-identification",
+          "link": "https://arxiv.org/abs/1904.07223v3",
+          "authors": "Zhedong Zheng, Xiaodong Yang, Zhiding Yu, Liang Zheng, Yi Yang, Jan Kautz"
+        },
+        "c": "https://github.com/layumi/Person_reID_baseline_pytorch",
+        "n": "DG-Net",
+        "d": "2019-04-15",
+        "m1": "74.8",
+        "m2": "86.6"
       },
       {
         "p": {

@@ -464,17 +464,6 @@
       },
       {
         "p": {
-          "name": "Structure fusion based on graph convolutional networks for semi-supervised classification",
-          "link": "https://arxiv.org/abs/1907.02586v1",
-          "authors": "Guangfeng Lin, Jing Wang, Kaiyang Liao, Fan Zhao, Wanjun Chen"
-        },
-        "c": "",
-        "n": "SPF-GCN",
-        "d": "2019-07-02",
-        "m1": "83.5%"
-      },
-      {
-        "p": {
           "name": "Every Node Counts: Self-Ensembling Graph Convolutional Networks for Semi-Supervised Learning",
           "link": "http://arxiv.org/abs/1809.09925v1",
           "authors": "Yawei Luo, Tao Guan, Junqing Yu, Ping Liu, Yi Yang"
@@ -483,6 +472,17 @@
         "n": "SEGCN",
         "d": "2018-09-26",
         "m1": "83.5% ± 0.4%"
+      },
+      {
+        "p": {
+          "name": "Structure fusion based on graph convolutional networks for semi-supervised classification",
+          "link": "https://arxiv.org/abs/1907.02586v1",
+          "authors": "Guangfeng Lin, Jing Wang, Kaiyang Liao, Fan Zhao, Wanjun Chen"
+        },
+        "c": "",
+        "n": "SPF-GCN",
+        "d": "2019-07-02",
+        "m1": "83.5%"
       },
       {
         "p": {
@@ -601,17 +601,6 @@
       },
       {
         "p": {
-          "name": "GResNet: Graph Residual Network for Reviving Deep GNNs from Suspended Animation",
-          "link": "https://arxiv.org/abs/1909.05729v2",
-          "authors": "Jiawei Zhang, Lin Meng"
-        },
-        "c": "https://github.com/anonymous-sourcecode/GResNet",
-        "n": "LoopyNet",
-        "d": "2019-09-12",
-        "m1": "82.6%"
-      },
-      {
-        "p": {
           "name": "Graph Adversarial Training: Dynamically Regularizing Based on Graph Structure",
           "link": "https://arxiv.org/abs/1902.08226v2",
           "authors": "Fuli Feng, Xiangnan He, Jie Tang, Tat-Seng Chua"
@@ -619,6 +608,17 @@
         "c": "https://github.com/fulifeng/GraphAT",
         "n": "GraphVAT",
         "d": "2019-02-20",
+        "m1": "82.6%"
+      },
+      {
+        "p": {
+          "name": "GResNet: Graph Residual Network for Reviving Deep GNNs from Suspended Animation",
+          "link": "https://arxiv.org/abs/1909.05729v2",
+          "authors": "Jiawei Zhang, Lin Meng"
+        },
+        "c": "https://github.com/anonymous-sourcecode/GResNet",
+        "n": "LoopyNet",
+        "d": "2019-09-12",
         "m1": "82.6%"
       },
       {
@@ -667,6 +667,17 @@
       },
       {
         "p": {
+          "name": "Graphite: Iterative Generative Modeling of Graphs",
+          "link": "https://arxiv.org/abs/1803.10459v4",
+          "authors": "Aditya Grover, Aaron Zweig, Stefano Ermon"
+        },
+        "c": "https://github.com/ermongroup/graphite",
+        "n": "Graphite",
+        "d": "2018-03-28",
+        "m1": "82.1% ± 0.06%"
+      },
+      {
+        "p": {
           "name": "Graph Star Net for Generalized Multi-Task Learning",
           "link": "https://arxiv.org/abs/1906.12330v1",
           "authors": "Lu Haonan, Seth H. Huang, Tian Ye, Guo Xiuyan"
@@ -678,14 +689,14 @@
       },
       {
         "p": {
-          "name": "Graphite: Iterative Generative Modeling of Graphs",
-          "link": "https://arxiv.org/abs/1803.10459v4",
-          "authors": "Aditya Grover, Aaron Zweig, Stefano Ermon"
+          "name": "Graph Convolutional Neural Networks via Scattering",
+          "link": "http://arxiv.org/abs/1804.00099v2",
+          "authors": "Dongmian Zou, Gilad Lerman"
         },
-        "c": "https://github.com/ermongroup/graphite",
-        "n": "Graphite",
-        "d": "2018-03-28",
-        "m1": "82.1% ± 0.06%"
+        "c": "https://github.com/dmzou/SCAT",
+        "n": "GraphScattering",
+        "d": "2018-03-31",
+        "m1": "81.9%"
       },
       {
         "p": {
@@ -699,17 +710,6 @@
         "m1": "81.9%",
         "m2": "20 per node",
         "m3": "YES"
-      },
-      {
-        "p": {
-          "name": "Graph Convolutional Neural Networks via Scattering",
-          "link": "http://arxiv.org/abs/1804.00099v2",
-          "authors": "Dongmian Zou, Gilad Lerman"
-        },
-        "c": "https://github.com/dmzou/SCAT",
-        "n": "GraphScattering",
-        "d": "2018-03-31",
-        "m1": "81.9%"
       },
       {
         "p": {

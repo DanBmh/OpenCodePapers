@@ -343,17 +343,6 @@
       },
       {
         "p": {
-          "name": "The Claude 3 Model Family: Opus, Sonnet, Haiku",
-          "link": "https://www.anthropic.com/news/claude-3-family",
-          "authors": "Anthropic"
-        },
-        "c": "",
-        "n": "Claude 3 Haiku (5-shot)",
-        "d": "2024-03-04",
-        "m1": "74.2"
-      },
-      {
-        "p": {
           "name": "Mixtral of Experts",
           "link": "https://arxiv.org/abs/2401.04088v1",
           "authors": "Albert Q. Jiang, Alexandre Sablayrolles, Antoine Roux, Arthur Mensch, Blanche Savary, Chris Bamford, Devendra Singh Chaplot, Diego de Las Casas, Emma Bou Hanna, Florian Bressand, Gianna Lengyel, Guillaume Bour, Guillaume Lample, Lélio Renard Lavaud, Lucile Saulnier, Marie-Anne Lachaux, Pierre Stock, Sandeep Subramanian, Sophia Yang, Szymon Antoniak, Teven Le Scao, Théophile Gervet, Thibaut Lavril, Thomas Wang, Timothée Lacroix, William El Sayed"
@@ -361,6 +350,17 @@
         "c": "https://github.com/jingyaogong/minimind",
         "n": "Mistral 7B (0-shot)",
         "d": "2024-01-08",
+        "m1": "74.2"
+      },
+      {
+        "p": {
+          "name": "The Claude 3 Model Family: Opus, Sonnet, Haiku",
+          "link": "https://www.anthropic.com/news/claude-3-family",
+          "authors": "Anthropic"
+        },
+        "c": "",
+        "n": "Claude 3 Haiku (5-shot)",
+        "d": "2024-03-04",
         "m1": "74.2"
       },
       {
@@ -433,7 +433,7 @@
         "p": "[]()",
         "c": "",
         "n": "RWKV v5 Eagle 7B",
-        "d": null,
+        "d": "",
         "m1": "70.8"
       },
       {
@@ -735,17 +735,6 @@
       },
       {
         "p": {
-          "name": "LaMini-LM: A Diverse Herd of Distilled Models from Large-Scale Instructions",
-          "link": "https://arxiv.org/abs/2304.14402v3",
-          "authors": "Minghao Wu, Abdul Waheed, Chiyu Zhang, Muhammad Abdul-Mageed, Alham Fikri Aji"
-        },
-        "c": "https://github.com/mbzuai-nlp/lamini-lm",
-        "n": "LaMini-T5 738M",
-        "d": "2023-04-27",
-        "m1": "54.9"
-      },
-      {
-        "p": {
           "name": "Back to Square One: Artifact Detection, Training and Commonsense Disentanglement in the Winograd Schema",
           "link": "https://arxiv.org/abs/2104.08161v2",
           "authors": "Yanai Elazar, Hongming Zhang, Yoav Goldberg, Dan Roth"
@@ -753,6 +742,17 @@
         "c": "",
         "n": "RoBERTa-large 355M",
         "d": "2021-04-16",
+        "m1": "54.9"
+      },
+      {
+        "p": {
+          "name": "LaMini-LM: A Diverse Herd of Distilled Models from Large-Scale Instructions",
+          "link": "https://arxiv.org/abs/2304.14402v3",
+          "authors": "Minghao Wu, Abdul Waheed, Chiyu Zhang, Muhammad Abdul-Mageed, Alham Fikri Aji"
+        },
+        "c": "https://github.com/mbzuai-nlp/lamini-lm",
+        "n": "LaMini-T5 738M",
+        "d": "2023-04-27",
         "m1": "54.9"
       },
       {
@@ -834,6 +834,17 @@
       },
       {
         "p": {
+          "name": "WinoGrande: An Adversarial Winograd Schema Challenge at Scale",
+          "link": "https://arxiv.org/abs/1907.10641v2",
+          "authors": "Keisuke Sakaguchi, Ronan Le Bras, Chandra Bhagavatula, Yejin Choi"
+        },
+        "c": "https://github.com/vered1986/self_talk",
+        "n": "BERT-DPR 345M (0-shot)",
+        "d": "2019-07-24",
+        "m1": "51"
+      },
+      {
+        "p": {
           "name": "Efficient Language Modeling with Sparse all-MLP",
           "link": "https://arxiv.org/abs/2203.06850v3",
           "authors": "Ping Yu, Mikel Artetxe, Myle Ott, Sam Shleifer, Hongyu Gong, Ves Stoyanov, Xian Li"
@@ -850,9 +861,9 @@
           "authors": "Keisuke Sakaguchi, Ronan Le Bras, Chandra Bhagavatula, Yejin Choi"
         },
         "c": "https://github.com/vered1986/self_talk",
-        "n": "BERT-DPR 345M (0-shot)",
+        "n": "RoBERTa-large 355M (0-shot)",
         "d": "2019-07-24",
-        "m1": "51"
+        "m1": "50"
       },
       {
         "p": {
@@ -863,17 +874,6 @@
         "c": "",
         "n": "Random baseline",
         "d": "2021-04-16",
-        "m1": "50"
-      },
-      {
-        "p": {
-          "name": "WinoGrande: An Adversarial Winograd Schema Challenge at Scale",
-          "link": "https://arxiv.org/abs/1907.10641v2",
-          "authors": "Keisuke Sakaguchi, Ronan Le Bras, Chandra Bhagavatula, Yejin Choi"
-        },
-        "c": "https://github.com/vered1986/self_talk",
-        "n": "RoBERTa-large 355M (0-shot)",
-        "d": "2019-07-24",
         "m1": "50"
       }
     ]

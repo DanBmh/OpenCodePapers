@@ -104,6 +104,18 @@
       },
       {
         "p": {
+          "name": "PrimeDepth: Efficient Monocular Depth Estimation with a Stable Diffusion Preimage",
+          "link": "https://arxiv.org/abs/2409.09144v1",
+          "authors": "Denis Zavadski, Damjan Kalšan, Carsten Rother"
+        },
+        "c": "https://github.com/vislearn/PrimeDepth",
+        "n": "PrimeDepth + Depth Anything",
+        "d": "2024-09-13",
+        "m1": "0.046",
+        "m4": "0.977"
+      },
+      {
+        "p": {
           "name": "UniDepthV2: Universal Monocular Metric Depth Estimation Made Simpler",
           "link": "https://arxiv.org/abs/2502.20110v1",
           "authors": "Luigi Piccinelli, Christos Sakaridis, Yung-Hsu Yang, Mattia Segu, Siyuan Li, Wim Abbeloos, Luc van Gool"
@@ -117,18 +129,6 @@
         "m4": "0.988",
         "m5": "0.998",
         "m6": "1.000"
-      },
-      {
-        "p": {
-          "name": "PrimeDepth: Efficient Monocular Depth Estimation with a Stable Diffusion Preimage",
-          "link": "https://arxiv.org/abs/2409.09144v1",
-          "authors": "Denis Zavadski, Damjan Kalšan, Carsten Rother"
-        },
-        "c": "https://github.com/vislearn/PrimeDepth",
-        "n": "PrimeDepth + Depth Anything",
-        "d": "2024-09-13",
-        "m1": "0.046",
-        "m4": "0.977"
       },
       {
         "p": {
@@ -260,22 +260,6 @@
       },
       {
         "p": {
-          "name": "Harnessing Diffusion Models for Visual Perception with Meta Prompts",
-          "link": "https://arxiv.org/abs/2312.14733v1",
-          "authors": "Qiang Wan, Zilong Huang, Bingyi Kang, Jiashi Feng, Li Zhang"
-        },
-        "c": "https://github.com/fudan-zvg/meta-prompts",
-        "n": "MetaPrompt-SD",
-        "d": "2023-12-22",
-        "m1": "0.061",
-        "m2": "0.223",
-        "m3": "0.027",
-        "m4": "0.976",
-        "m5": "0.997",
-        "m6": "0.999"
-      },
-      {
-        "p": {
           "name": "EVP: Enhanced Visual Perception using Inverse Multi-Attentive Feature Refinement and Regularized Image-Text Alignment",
           "link": "https://arxiv.org/abs/2312.08548v1",
           "authors": "Mykola Lavreniuk, Shariq Farooq Bhat, Matthias Müller, Peter Wonka"
@@ -285,6 +269,22 @@
         "d": "2023-12-13",
         "m1": "0.061",
         "m2": "0.224",
+        "m3": "0.027",
+        "m4": "0.976",
+        "m5": "0.997",
+        "m6": "0.999"
+      },
+      {
+        "p": {
+          "name": "Harnessing Diffusion Models for Visual Perception with Meta Prompts",
+          "link": "https://arxiv.org/abs/2312.14733v1",
+          "authors": "Qiang Wan, Zilong Huang, Bingyi Kang, Jiashi Feng, Li Zhang"
+        },
+        "c": "https://github.com/fudan-zvg/meta-prompts",
+        "n": "MetaPrompt-SD",
+        "d": "2023-12-22",
+        "m1": "0.061",
+        "m2": "0.223",
         "m3": "0.027",
         "m4": "0.976",
         "m5": "0.997",
@@ -404,22 +404,6 @@
       },
       {
         "p": {
-          "name": "ScaleDepth: Decomposing Metric Depth Estimation into Scale Prediction and Relative Depth Estimation",
-          "link": "https://arxiv.org/abs/2407.08187v1",
-          "authors": "Ruijie Zhu, Chuxin Wang, Ziyang Song, Li Liu, Tianzhu Zhang, Yongdong Zhang"
-        },
-        "c": "https://github.com/RuijieZhu94/mmdepth/blob/main/projects/ScaleDepth/README.md",
-        "n": "ScaleDepth-N",
-        "d": "2024-07-11",
-        "m1": "0.074",
-        "m2": "0.267",
-        "m3": "0.032",
-        "m4": "0.957",
-        "m5": "0.994",
-        "m6": "0.999"
-      },
-      {
-        "p": {
           "name": "Monocular Depth Estimation using Diffusion Models",
           "link": "https://arxiv.org/abs/2302.14816v1",
           "authors": "Saurabh Saxena, Abhishek Kar, Mohammad Norouzi, David J. Fleet"
@@ -433,6 +417,22 @@
         "m4": "0.946",
         "m5": "0.987",
         "m6": " 0.996"
+      },
+      {
+        "p": {
+          "name": "ScaleDepth: Decomposing Metric Depth Estimation into Scale Prediction and Relative Depth Estimation",
+          "link": "https://arxiv.org/abs/2407.08187v1",
+          "authors": "Ruijie Zhu, Chuxin Wang, Ziyang Song, Li Liu, Tianzhu Zhang, Yongdong Zhang"
+        },
+        "c": "https://github.com/RuijieZhu94/mmdepth/blob/main/projects/ScaleDepth/README.md",
+        "n": "ScaleDepth-N",
+        "d": "2024-07-11",
+        "m1": "0.074",
+        "m2": "0.267",
+        "m3": "0.032",
+        "m4": "0.957",
+        "m5": "0.994",
+        "m6": "0.999"
       },
       {
         "p": {
@@ -623,6 +623,18 @@
       },
       {
         "p": {
+          "name": "Learning to Recover 3D Scene Shape from a Single Image",
+          "link": "https://arxiv.org/abs/2012.09365v1",
+          "authors": "Wei Yin, Jianming Zhang, Oliver Wang, Simon Niklaus, Long Mai, Simon Chen, Chunhua Shen"
+        },
+        "c": "https://github.com/aim-uofa/AdelaiDepth",
+        "n": "LeReS",
+        "d": "2020-12-17",
+        "m1": "0.09",
+        "m4": "0.916"
+      },
+      {
+        "p": {
           "name": "Attention Attention Everywhere: Monocular Depth Prediction with Skip Attention",
           "link": "https://arxiv.org/abs/2210.09071v1",
           "authors": "Ashutosh Agarwal, Chetan Arora"
@@ -636,18 +648,6 @@
         "m4": "0.929",
         "m5": "0.991",
         "m6": "0.998"
-      },
-      {
-        "p": {
-          "name": "Learning to Recover 3D Scene Shape from a Single Image",
-          "link": "https://arxiv.org/abs/2012.09365v1",
-          "authors": "Wei Yin, Jianming Zhang, Oliver Wang, Simon Niklaus, Long Mai, Simon Chen, Chunhua Shen"
-        },
-        "c": "https://github.com/aim-uofa/AdelaiDepth",
-        "n": "LeReS",
-        "d": "2020-12-17",
-        "m1": "0.09",
-        "m4": "0.916"
       },
       {
         "p": {
@@ -667,22 +667,6 @@
       },
       {
         "p": {
-          "name": "DDP: Diffusion Model for Dense Visual Prediction",
-          "link": "https://arxiv.org/abs/2303.17559v2",
-          "authors": "Yuanfeng Ji, Zhe Chen, Enze Xie, Lanqing Hong, Xihui Liu, Zhaoqiang Liu, Tong Lu, Zhenguo Li, Ping Luo"
-        },
-        "c": "https://github.com/jiyuanfeng/ddp",
-        "n": "DDP (step3)",
-        "d": "2023-03-30",
-        "m1": "0.094",
-        "m2": "0.329",
-        "m3": "0.040",
-        "m4": "0.921",
-        "m5": "0.990",
-        "m6": "0.998"
-      },
-      {
-        "p": {
           "name": "BinsFormer: Revisiting Adaptive Bins for Monocular Depth Estimation",
           "link": "https://arxiv.org/abs/2204.00987v1",
           "authors": "Zhenyu Li, Xuyang Wang, Xianming Liu, Junjun Jiang"
@@ -699,18 +683,18 @@
       },
       {
         "p": {
-          "name": "NeW CRFs: Neural Window Fully-connected CRFs for Monocular Depth Estimation",
-          "link": "https://arxiv.org/abs/2203.01502v2",
-          "authors": "Weihao Yuan, Xiaodong Gu, Zuozhuo Dai, Siyu Zhu, Ping Tan"
+          "name": "DDP: Diffusion Model for Dense Visual Prediction",
+          "link": "https://arxiv.org/abs/2303.17559v2",
+          "authors": "Yuanfeng Ji, Zhe Chen, Enze Xie, Lanqing Hong, Xihui Liu, Zhaoqiang Liu, Tong Lu, Zhenguo Li, Ping Luo"
         },
-        "c": "https://github.com/aliyun/NeWCRFs",
-        "n": "NeWCRFs",
-        "d": "2022-03-03",
-        "m1": "0.095",
-        "m2": "0.334",
-        "m3": "0.041",
-        "m4": "0.922",
-        "m5": "0.992",
+        "c": "https://github.com/jiyuanfeng/ddp",
+        "n": "DDP (step3)",
+        "d": "2023-03-30",
+        "m1": "0.094",
+        "m2": "0.329",
+        "m3": "0.040",
+        "m4": "0.921",
+        "m5": "0.990",
         "m6": "0.998"
       },
       {
@@ -728,6 +712,22 @@
         "m4": "0.919",
         "m5": "0.988",
         "m6": "0.997"
+      },
+      {
+        "p": {
+          "name": "NeW CRFs: Neural Window Fully-connected CRFs for Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2203.01502v2",
+          "authors": "Weihao Yuan, Xiaodong Gu, Zuozhuo Dai, Siyu Zhu, Ping Tan"
+        },
+        "c": "https://github.com/aliyun/NeWCRFs",
+        "n": "NeWCRFs",
+        "d": "2022-03-03",
+        "m1": "0.095",
+        "m2": "0.334",
+        "m3": "0.041",
+        "m4": "0.922",
+        "m5": "0.992",
+        "m6": "0.998"
       },
       {
         "p": {
@@ -859,22 +859,6 @@
       },
       {
         "p": {
-          "name": "P3Depth: Monocular Depth Estimation with a Piecewise Planarity Prior",
-          "link": "https://arxiv.org/abs/2204.02091v1",
-          "authors": "Vaishakh Patil, Christos Sakaridis, Alexander Liniger, Luc van Gool"
-        },
-        "c": "https://github.com/syscv/p3depth",
-        "n": "P3Depth",
-        "d": "2022-04-05",
-        "m1": "0.104",
-        "m2": "0.356",
-        "m3": "0.043",
-        "m4": "0.898",
-        "m5": "0.981",
-        "m6": "0.996"
-      },
-      {
-        "p": {
           "name": "CutDepth:Edge-aware Data Augmentation in Depth Estimation",
           "link": "https://arxiv.org/abs/2107.07684v1",
           "authors": "Yasunori Ishii, Takayoshi Yamashita"
@@ -888,6 +872,22 @@
         "m4": "0.899",
         "m5": "0.985",
         "m6": "0.997"
+      },
+      {
+        "p": {
+          "name": "P3Depth: Monocular Depth Estimation with a Piecewise Planarity Prior",
+          "link": "https://arxiv.org/abs/2204.02091v1",
+          "authors": "Vaishakh Patil, Christos Sakaridis, Alexander Liniger, Luc van Gool"
+        },
+        "c": "https://github.com/syscv/p3depth",
+        "n": "P3Depth",
+        "d": "2022-04-05",
+        "m1": "0.104",
+        "m2": "0.356",
+        "m3": "0.043",
+        "m4": "0.898",
+        "m5": "0.981",
+        "m6": "0.996"
       },
       {
         "p": {

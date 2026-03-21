@@ -33,11 +33,6 @@
         "sortable": "true"
       },
       {
-        "key": "m4",
-        "label": "",
-        "sortable": "true"
-      },
-      {
         "key": "n",
         "label": "ModelName"
       },
@@ -613,17 +608,6 @@
       },
       {
         "p": {
-          "name": "Show, Attend and Distill:Knowledge Distillation via Attention-based Feature Matching",
-          "link": "https://arxiv.org/abs/2102.02973v1",
-          "authors": "Mingi Ji, Byeongho Heo, Sungrae Park"
-        },
-        "c": "https://github.com/clovaai/attention-feature-distillation",
-        "n": "AFD (T: ResNet-34  S:ResNet-18)",
-        "d": "2021-02-05",
-        "m1": "71.38"
-      },
-      {
-        "p": {
           "name": "Contrastive Representation Distillation",
           "link": "https://arxiv.org/abs/1910.10699v3",
           "authors": "Yonglong Tian, Dilip Krishnan, Phillip Isola"
@@ -631,6 +615,17 @@
         "c": "https://github.com/HobbitLong/RepDistiller",
         "n": "CRD  (T: ResNet-34  S:ResNet-18)",
         "d": "2019-10-23",
+        "m1": "71.38"
+      },
+      {
+        "p": {
+          "name": "Show, Attend and Distill:Knowledge Distillation via Attention-based Feature Matching",
+          "link": "https://arxiv.org/abs/2102.02973v1",
+          "authors": "Mingi Ji, Byeongho Heo, Sungrae Park"
+        },
+        "c": "https://github.com/clovaai/attention-feature-distillation",
+        "n": "AFD (T: ResNet-34  S:ResNet-18)",
+        "d": "2021-02-05",
         "m1": "71.38"
       },
       {
@@ -655,17 +650,6 @@
         "d": "2015-03-09",
         "m1": "70.66",
         "m3": "✓"
-      },
-      {
-        "p": {
-          "name": "Paying More Attention to Attention: Improving the Performance of Convolutional Neural Networks via Attention Transfer",
-          "link": "http://arxiv.org/abs/1612.03928v3",
-          "authors": "Sergey Zagoruyko, Nikos Komodakis"
-        },
-        "c": "https://github.com/yoshitomo-matsubara/torchdistill",
-        "n": "AT (T: ResNet-34 S:ResNet-18)",
-        "d": "2016-12-12",
-        "m4": "70.70"
       },
       {
         "p": {

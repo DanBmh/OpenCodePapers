@@ -295,20 +295,6 @@
       },
       {
         "p": {
-          "name": "Low-Dimensional Hyperbolic Knowledge Graph Embeddings",
-          "link": "https://arxiv.org/abs/2005.00545v1",
-          "authors": "Ines Chami, Adva Wolf, Da-Cheng Juan, Frederic Sala, Sujith Ravi, Christopher Ré"
-        },
-        "c": "https://github.com/tensorflow/neural-structured-learning/tree/master/research/kg_hyp_emb",
-        "n": "RotH",
-        "d": "2020-05-01",
-        "m1": "0.586",
-        "m2": "0.514",
-        "m3": "0.449",
-        "m4": ".496"
-      },
-      {
-        "p": {
           "name": "DRUM: End-To-End Differentiable Rule Mining On Knowledge Graphs",
           "link": "https://arxiv.org/abs/1911.00055v1",
           "authors": "Ali Sadeghian, Mohammadreza Armandpour, Patrick Ding, Daisy Zhe Wang"
@@ -320,6 +306,20 @@
         "m2": "0.513",
         "m3": "0.425",
         "m4": "0.486"
+      },
+      {
+        "p": {
+          "name": "Low-Dimensional Hyperbolic Knowledge Graph Embeddings",
+          "link": "https://arxiv.org/abs/2005.00545v1",
+          "authors": "Ines Chami, Adva Wolf, Da-Cheng Juan, Frederic Sala, Sujith Ravi, Christopher Ré"
+        },
+        "c": "https://github.com/tensorflow/neural-structured-learning/tree/master/research/kg_hyp_emb",
+        "n": "RotH",
+        "d": "2020-05-01",
+        "m1": "0.586",
+        "m2": "0.514",
+        "m3": "0.449",
+        "m4": ".496"
       },
       {
         "p": {
@@ -367,20 +367,6 @@
       },
       {
         "p": {
-          "name": "Learning Hierarchy-Aware Knowledge Graph Embeddings for Link Prediction",
-          "link": "https://arxiv.org/abs/1911.09419v3",
-          "authors": "Zhanqiu Zhang, Jianyu Cai, Yongdong Zhang, Jie Wang"
-        },
-        "c": "https://github.com/MIRALab-USTC/KGE-HAKE",
-        "n": "HAKE",
-        "d": "2019-11-21",
-        "m1": "0.582",
-        "m2": "0.516",
-        "m3": "0.452",
-        "m4": "0.497"
-      },
-      {
-        "p": {
           "name": "Quaternion Knowledge Graph Embeddings",
           "link": "https://arxiv.org/abs/1904.10281v3",
           "authors": "Shuai Zhang, Yi Tay, Lina Yao, Qi Liu"
@@ -393,6 +379,20 @@
         "m3": "0.438",
         "m4": "0.488",
         "m5": "2314"
+      },
+      {
+        "p": {
+          "name": "Learning Hierarchy-Aware Knowledge Graph Embeddings for Link Prediction",
+          "link": "https://arxiv.org/abs/1911.09419v3",
+          "authors": "Zhanqiu Zhang, Jianyu Cai, Yongdong Zhang, Jie Wang"
+        },
+        "c": "https://github.com/MIRALab-USTC/KGE-HAKE",
+        "n": "HAKE",
+        "d": "2019-11-21",
+        "m1": "0.582",
+        "m2": "0.516",
+        "m3": "0.452",
+        "m4": "0.497"
       },
       {
         "p": {
@@ -411,20 +411,6 @@
       },
       {
         "p": {
-          "name": "Modeling Heterogeneous Hierarchies with Relation-specific Hyperbolic Cones",
-          "link": "https://arxiv.org/abs/2110.14923v2",
-          "authors": "Yushi Bai, Rex Ying, Hongyu Ren, Jure Leskovec"
-        },
-        "c": "https://github.com/snap-stanford/ConE",
-        "n": "ConE",
-        "d": "2021-10-28",
-        "m1": "0.579",
-        "m2": "0.515",
-        "m3": "0.453",
-        "m4": "0.496"
-      },
-      {
-        "p": {
           "name": "DensE: An Enhanced Non-commutative Representation for Knowledge Graph Embedding with Adaptive Semantic Hierarchy",
           "link": "https://arxiv.org/abs/2008.04548v2",
           "authors": "Haonan Lu, Hailin Hu, Xiaodong Lin"
@@ -437,6 +423,20 @@
         "m3": "0.443",
         "m4": "0.491",
         "m5": "3052"
+      },
+      {
+        "p": {
+          "name": "Modeling Heterogeneous Hierarchies with Relation-specific Hyperbolic Cones",
+          "link": "https://arxiv.org/abs/2110.14923v2",
+          "authors": "Yushi Bai, Rex Ying, Hongyu Ren, Jure Leskovec"
+        },
+        "c": "https://github.com/snap-stanford/ConE",
+        "n": "ConE",
+        "d": "2021-10-28",
+        "m1": "0.579",
+        "m2": "0.515",
+        "m3": "0.453",
+        "m4": "0.496"
       },
       {
         "p": {
@@ -455,6 +455,19 @@
       },
       {
         "p": {
+          "name": "SAFRAN: An interpretable, rule-based link prediction method outperforming embedding models",
+          "link": "https://arxiv.org/abs/2109.08002v1",
+          "authors": "Simon Ott, Christian Meilicke, Matthias Samwald"
+        },
+        "c": "https://github.com/OpenBioLink/SAFRAN",
+        "n": "SAFRAN (white box, rule based)",
+        "d": "2021-09-16",
+        "m1": "0.578",
+        "m3": "0.459",
+        "m4": "0.502"
+      },
+      {
+        "p": {
           "name": "Relation Prediction as an Auxiliary Training Objective for Improving Multi-Relational Graph Representations",
           "link": "https://arxiv.org/abs/2110.02834v1",
           "authors": "Yihong Chen, Pasquale Minervini, Sebastian Riedel, Pontus Stenetorp"
@@ -469,30 +482,16 @@
       },
       {
         "p": {
-          "name": "SAFRAN: An interpretable, rule-based link prediction method outperforming embedding models",
-          "link": "https://arxiv.org/abs/2109.08002v1",
-          "authors": "Simon Ott, Christian Meilicke, Matthias Samwald"
+          "name": "Duality-Induced Regularizer for Tensor Factorization Based Knowledge Graph Completion",
+          "link": "https://arxiv.org/abs/2011.05816v2",
+          "authors": "Zhanqiu Zhang, Jianyu Cai, Jie Wang"
         },
-        "c": "https://github.com/OpenBioLink/SAFRAN",
-        "n": "SAFRAN (white box, rule based)",
-        "d": "2021-09-16",
-        "m1": "0.578",
-        "m3": "0.459",
-        "m4": "0.502"
-      },
-      {
-        "p": {
-          "name": "MEIM: Multi-partition Embedding Interaction Beyond Block Term Format for Efficient and Expressive Link Prediction",
-          "link": "https://arxiv.org/abs/2209.15597v2",
-          "authors": "Hung Nghiep Tran, Atsuhiro Takasu"
-        },
-        "c": "https://github.com/tranhungnghiep/AnalyzingKGEmbeddings",
-        "n": "MEIM",
-        "d": "2022-09-30",
+        "c": "https://github.com/MIRALab-USTC/KGE-HAKE",
+        "n": "RESCAL-DURA",
+        "d": "2020-11-11",
         "m1": "0.577",
-        "m2": "0.518",
-        "m3": "0.458",
-        "m4": "0.499"
+        "m3": "0.455",
+        "m4": "0.498"
       },
       {
         "p": {
@@ -510,16 +509,17 @@
       },
       {
         "p": {
-          "name": "Duality-Induced Regularizer for Tensor Factorization Based Knowledge Graph Completion",
-          "link": "https://arxiv.org/abs/2011.05816v2",
-          "authors": "Zhanqiu Zhang, Jianyu Cai, Jie Wang"
+          "name": "MEIM: Multi-partition Embedding Interaction Beyond Block Term Format for Efficient and Expressive Link Prediction",
+          "link": "https://arxiv.org/abs/2209.15597v2",
+          "authors": "Hung Nghiep Tran, Atsuhiro Takasu"
         },
-        "c": "https://github.com/MIRALab-USTC/KGE-HAKE",
-        "n": "RESCAL-DURA",
-        "d": "2020-11-11",
+        "c": "https://github.com/tranhungnghiep/AnalyzingKGEmbeddings",
+        "n": "MEIM",
+        "d": "2022-09-30",
         "m1": "0.577",
-        "m3": "0.455",
-        "m4": "0.498"
+        "m2": "0.518",
+        "m3": "0.458",
+        "m4": "0.499"
       },
       {
         "p": {
@@ -566,20 +566,6 @@
       },
       {
         "p": {
-          "name": "Self-Distillation with Meta Learning for Knowledge Graph Completion",
-          "link": "https://arxiv.org/abs/2305.12209v1",
-          "authors": "Yunshui Li, Junhao Liu, Chengming Li, Min Yang"
-        },
-        "c": "https://github.com/pldlgb/MetaSD",
-        "n": "MetaSD",
-        "d": "2023-05-20",
-        "m1": "0.570",
-        "m2": "0.504",
-        "m3": "0.447",
-        "m4": "0.491"
-      },
-      {
-        "p": {
           "name": "Canonical Tensor Decomposition for Knowledge Base Completion",
           "link": "http://arxiv.org/abs/1806.07297v1",
           "authors": "Timothée Lacroix, Nicolas Usunier, Guillaume Obozinski"
@@ -602,6 +588,20 @@
         "m1": "0.57",
         "m4": "0.448",
         "m5": "683"
+      },
+      {
+        "p": {
+          "name": "Self-Distillation with Meta Learning for Knowledge Graph Completion",
+          "link": "https://arxiv.org/abs/2305.12209v1",
+          "authors": "Yunshui Li, Junhao Liu, Chengming Li, Min Yang"
+        },
+        "c": "https://github.com/pldlgb/MetaSD",
+        "n": "MetaSD",
+        "d": "2023-05-20",
+        "m1": "0.570",
+        "m2": "0.504",
+        "m3": "0.447",
+        "m4": "0.491"
       },
       {
         "p": {
@@ -644,19 +644,6 @@
       },
       {
         "p": {
-          "name": "MDE: Multiple Distance Embeddings for Link Prediction in Knowledge Graphs",
-          "link": "https://arxiv.org/abs/1905.10702v8",
-          "authors": "Afshin Sadeghi, Damien Graux, Hamed Shariat Yazdi, Jens Lehmann"
-        },
-        "c": "https://github.com/mlwin-de/MDE",
-        "n": "MDE_adv",
-        "d": "2019-05-25",
-        "m1": "0.560",
-        "m4": "0.458",
-        "m5": "3219"
-      },
-      {
-        "p": {
           "name": "A Capsule Network-based Embedding Model for Knowledge Graph Completion and Search Personalization",
           "link": "http://arxiv.org/abs/1808.04122v3",
           "authors": "Dai Quoc Nguyen, Thanh Vu, Tu Dinh Nguyen, Dat Quoc Nguyen, Dinh Phung"
@@ -667,6 +654,19 @@
         "m1": "0.56",
         "m4": "0.415",
         "m5": "719.0"
+      },
+      {
+        "p": {
+          "name": "MDE: Multiple Distance Embeddings for Link Prediction in Knowledge Graphs",
+          "link": "https://arxiv.org/abs/1905.10702v8",
+          "authors": "Afshin Sadeghi, Damien Graux, Hamed Shariat Yazdi, Jens Lehmann"
+        },
+        "c": "https://github.com/mlwin-de/MDE",
+        "n": "MDE_adv",
+        "d": "2019-05-25",
+        "m1": "0.560",
+        "m4": "0.458",
+        "m5": "3219"
       },
       {
         "p": {
@@ -684,20 +684,6 @@
       },
       {
         "p": {
-          "name": "NePTuNe: Neural Powered Tucker Network for Knowledge Graph Completion",
-          "link": "https://arxiv.org/abs/2104.07824v1",
-          "authors": "Shashank Sonkar, Arzoo Katiyar, Richard G. Baraniuk"
-        },
-        "c": "https://github.com/luffycodes/neptune",
-        "n": "NePTuNe",
-        "d": "2021-04-15",
-        "m1": "0.557",
-        "m2": "0.507",
-        "m3": "0.455",
-        "m4": "0.491"
-      },
-      {
-        "p": {
           "name": "Relation Embedding with Dihedral Group in Knowledge Graph",
           "link": "https://arxiv.org/abs/1906.00687v1",
           "authors": "Canran Xu, Ruijiang Li"
@@ -709,6 +695,20 @@
         "m2": "0.505",
         "m3": "0.452",
         "m4": "0.486"
+      },
+      {
+        "p": {
+          "name": "NePTuNe: Neural Powered Tucker Network for Knowledge Graph Completion",
+          "link": "https://arxiv.org/abs/2104.07824v1",
+          "authors": "Shashank Sonkar, Arzoo Katiyar, Richard G. Baraniuk"
+        },
+        "c": "https://github.com/luffycodes/neptune",
+        "n": "NePTuNe",
+        "d": "2021-04-15",
+        "m1": "0.557",
+        "m2": "0.507",
+        "m3": "0.455",
+        "m4": "0.491"
       },
       {
         "p": {

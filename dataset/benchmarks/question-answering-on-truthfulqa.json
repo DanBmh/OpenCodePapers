@@ -103,6 +103,17 @@
       },
       {
         "p": {
+          "name": "Representation Engineering: A Top-Down Approach to AI Transparency",
+          "link": "https://arxiv.org/abs/2310.01405v4",
+          "authors": "Andy Zou, Long Phan, Sarah Chen, James Campbell, Phillip Guo, Richard Ren, Alexander Pan, Xuwang Yin, Mantas Mazeika, Ann-Kathrin Dombrowski, Shashwat Goel, Nathaniel Li, Michael J. Byun, Zifan Wang, Alex Mallen, Steven Basart, Sanmi Koyejo, Dawn Song, Matt Fredrikson, J. Zico Kolter, Dan Hendrycks"
+        },
+        "c": "https://github.com/andyzoujm/representation-engineering",
+        "n": "LLaMA-2-Chat-13B + Representation Control (Contrast Vector)",
+        "d": "2023-10-02",
+        "m1": "0.54"
+      },
+      {
+        "p": {
           "name": "TruthX: Alleviating Hallucinations by Editing Large Language Models in Truthful Space",
           "link": "https://arxiv.org/abs/2402.17811v2",
           "authors": "Shaolei Zhang, Tian Yu, Yang Feng"
@@ -120,17 +131,6 @@
           "authors": "Andy Zou, Long Phan, Sarah Chen, James Campbell, Phillip Guo, Richard Ren, Alexander Pan, Xuwang Yin, Mantas Mazeika, Ann-Kathrin Dombrowski, Shashwat Goel, Nathaniel Li, Michael J. Byun, Zifan Wang, Alex Mallen, Steven Basart, Sanmi Koyejo, Dawn Song, Matt Fredrikson, J. Zico Kolter, Dan Hendrycks"
         },
         "c": "https://github.com/andyzoujm/representation-engineering",
-        "n": "LLaMA-2-Chat-13B + Representation Control (Contrast Vector)",
-        "d": "2023-10-02",
-        "m1": "0.54"
-      },
-      {
-        "p": {
-          "name": "Representation Engineering: A Top-Down Approach to AI Transparency",
-          "link": "https://arxiv.org/abs/2310.01405v4",
-          "authors": "Andy Zou, Long Phan, Sarah Chen, James Campbell, Phillip Guo, Richard Ren, Alexander Pan, Xuwang Yin, Mantas Mazeika, Ann-Kathrin Dombrowski, Shashwat Goel, Nathaniel Li, Michael J. Byun, Zifan Wang, Alex Mallen, Steven Basart, Sanmi Koyejo, Dawn Song, Matt Fredrikson, J. Zico Kolter, Dan Hendrycks"
-        },
-        "c": "https://github.com/andyzoujm/representation-engineering",
         "n": "LLaMA-2-Chat-7B + Representation Control (Contrast Vector)",
         "d": "2023-10-02",
         "m1": "0.48"
@@ -139,7 +139,7 @@
         "p": "[]()",
         "c": "",
         "n": "Vicuna 7B + Inference Time Intervention (ITI)",
-        "d": null,
+        "d": "",
         "m1": "0.389",
         "m3": "88.6",
         "m4": "83.5"
@@ -148,7 +148,7 @@
         "p": "[]()",
         "c": "",
         "n": "Alpaca 7B + Inference Time Intervention (ITI)",
-        "d": null,
+        "d": "",
         "m1": "0.319",
         "m3": "66.6",
         "m4": "97.7"
@@ -168,7 +168,7 @@
         "p": "[]()",
         "c": "",
         "n": "LLaMA 7B + Inference Time Intervention (ITI)",
-        "d": null,
+        "d": "",
         "m1": "0.288",
         "m3": "45.1",
         "m4": "93.8"

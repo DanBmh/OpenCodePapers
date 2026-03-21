@@ -185,19 +185,6 @@
       },
       {
         "p": {
-          "name": "TESTA: Temporal-Spatial Token Aggregation for Long-form Video-Language Understanding",
-          "link": "https://arxiv.org/abs/2310.19060v1",
-          "authors": "Shuhuai Ren, Sishuo Chen, Shicheng Li, Xu sun, Lu Hou"
-        },
-        "c": "https://github.com/renshuhuai-andy/testa",
-        "n": "TESTA (ViT-B/16)",
-        "d": "2023-10-29",
-        "m1": "61.2",
-        "m2": "87.2",
-        "m3": "91.5"
-      },
-      {
-        "p": {
           "name": "VindLU: A Recipe for Effective Video-and-Language Pretraining",
           "link": "https://arxiv.org/abs/2212.05051v2",
           "authors": "Feng Cheng, Xizi Wang, Jie Lei, David Crandall, Mohit Bansal, Gedas Bertasius"
@@ -208,6 +195,19 @@
         "m1": "61.2",
         "m2": "85.8",
         "m3": "91.0"
+      },
+      {
+        "p": {
+          "name": "TESTA: Temporal-Spatial Token Aggregation for Long-form Video-Language Understanding",
+          "link": "https://arxiv.org/abs/2310.19060v1",
+          "authors": "Shuhuai Ren, Sishuo Chen, Shicheng Li, Xu sun, Lu Hou"
+        },
+        "c": "https://github.com/renshuhuai-andy/testa",
+        "n": "TESTA (ViT-B/16)",
+        "d": "2023-10-29",
+        "m1": "61.2",
+        "m2": "87.2",
+        "m3": "91.5"
       },
       {
         "p": {
@@ -329,21 +329,6 @@
       },
       {
         "p": {
-          "name": "Dual-Modal Attention-Enhanced Text-Video Retrieval with Triplet Partial Margin Contrastive Learning",
-          "link": "https://arxiv.org/abs/2309.11082v3",
-          "authors": "Chen Jiang, Hong Liu, Xuzheng Yu, Qing Wang, Yuan Cheng, Jia Xu, Zhongyi Liu, Qingpei Guo, Wei Chu, Ming Yang, Yuan Qi"
-        },
-        "c": "https://github.com/alipay/Ant-Multi-Modal-Framework",
-        "n": "DMAE (ViT-B/32)",
-        "d": "2023-09-20",
-        "m1": "52.7",
-        "m2": "79.3",
-        "m3": "86.6",
-        "m5": "1.0",
-        "m6": "10.5"
-      },
-      {
-        "p": {
           "name": "Tencent Text-Video Retrieval: Hierarchical Cross-Modal Interactions with Multi-Level Representations",
           "link": "https://arxiv.org/abs/2204.03382v8",
           "authors": "Jie Jiang, Shaobo Min, Weijie Kong, Dihong Gong, Hongfa Wang, Zhifeng Li, Wei Liu"
@@ -361,6 +346,21 @@
         "m9": "86.8",
         "m10": "1.0",
         "m11": "9.1"
+      },
+      {
+        "p": {
+          "name": "Dual-Modal Attention-Enhanced Text-Video Retrieval with Triplet Partial Margin Contrastive Learning",
+          "link": "https://arxiv.org/abs/2309.11082v3",
+          "authors": "Chen Jiang, Hong Liu, Xuzheng Yu, Qing Wang, Yuan Cheng, Jia Xu, Zhongyi Liu, Qingpei Guo, Wei Chu, Ming Yang, Yuan Qi"
+        },
+        "c": "https://github.com/alipay/Ant-Multi-Modal-Framework",
+        "n": "DMAE (ViT-B/32)",
+        "d": "2023-09-20",
+        "m1": "52.7",
+        "m2": "79.3",
+        "m3": "86.6",
+        "m5": "1.0",
+        "m6": "10.5"
       },
       {
         "p": {
@@ -685,7 +685,7 @@
         "p": "[]()",
         "c": "",
         "n": "Aurora (ours, r=64)",
-        "d": null,
+        "d": "",
         "m2": "77.4",
         "m3": "85.3",
         "m5": "1",

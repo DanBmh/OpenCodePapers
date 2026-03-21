@@ -46,16 +46,15 @@
     "items": [
       {
         "p": {
-          "name": "Multi-conditioned Graph Diffusion for Neural Architecture Search",
-          "link": "https://arxiv.org/abs/2403.06020v2",
-          "authors": "Rohan Asthana, Joschua Conrad, Youssef Dawoud, Maurits Ortmanns, Vasileios Belagiannis"
+          "name": "DrNAS: Dirichlet Neural Architecture Search",
+          "link": "https://arxiv.org/abs/2006.10355v4",
+          "authors": "Xiangning Chen, Ruochen Wang, Minhao Cheng, Xiaocheng Tang, Cho-Jui Hsieh"
         },
-        "c": "https://github.com/rohanasthana/dinas",
-        "n": "DiNAS",
-        "d": "2024-03-09",
+        "c": "https://github.com/xiangning-chen/DrNAS",
+        "n": "DrNAS",
+        "d": "2020-06-18",
         "m1": "73.51",
-        "m2": "73.49",
-        "m3": "15.36"
+        "m2": "73.49"
       },
       {
         "p": {
@@ -71,30 +70,6 @@
       },
       {
         "p": {
-          "name": "Shapley-NAS: Discovering Operation Contribution for Neural Architecture Search",
-          "link": "https://arxiv.org/abs/2206.09811v1",
-          "authors": "Han Xiao, Ziwei Wang, Zheng Zhu, Jie zhou, Jiwen Lu"
-        },
-        "c": "https://github.com/euphoria16/shapley-nas",
-        "n": "Shapley-NAS",
-        "d": "2022-06-20",
-        "m1": "73.51",
-        "m2": "73.49"
-      },
-      {
-        "p": {
-          "name": "DrNAS: Dirichlet Neural Architecture Search",
-          "link": "https://arxiv.org/abs/2006.10355v4",
-          "authors": "Xiangning Chen, Ruochen Wang, Minhao Cheng, Xiaocheng Tang, Cho-Jui Hsieh"
-        },
-        "c": "https://github.com/xiangning-chen/DrNAS",
-        "n": "DrNAS",
-        "d": "2020-06-18",
-        "m1": "73.51",
-        "m2": "73.49"
-      },
-      {
-        "p": {
           "name": "Learning Where To Look -- Generative NAS is Surprisingly Efficient",
           "link": "https://arxiv.org/abs/2203.08734v2",
           "authors": "Jovita Lukasik, Steffen Jung, Margret Keuper"
@@ -102,6 +77,18 @@
         "c": "https://github.com/jovitalukasik/AG-Net",
         "n": "AG-Net",
         "d": "2022-03-16",
+        "m1": "73.51",
+        "m2": "73.49"
+      },
+      {
+        "p": {
+          "name": "Shapley-NAS: Discovering Operation Contribution for Neural Architecture Search",
+          "link": "https://arxiv.org/abs/2206.09811v1",
+          "authors": "Han Xiao, Ziwei Wang, Zheng Zhu, Jie zhou, Jiwen Lu"
+        },
+        "c": "https://github.com/euphoria16/shapley-nas",
+        "n": "Shapley-NAS",
+        "d": "2022-06-20",
         "m1": "73.51",
         "m2": "73.49"
       },
@@ -128,6 +115,19 @@
         "d": "2023-12-19",
         "m1": "73.51",
         "m2": " 73.49"
+      },
+      {
+        "p": {
+          "name": "Multi-conditioned Graph Diffusion for Neural Architecture Search",
+          "link": "https://arxiv.org/abs/2403.06020v2",
+          "authors": "Rohan Asthana, Joschua Conrad, Youssef Dawoud, Maurits Ortmanns, Vasileios Belagiannis"
+        },
+        "c": "https://github.com/rohanasthana/dinas",
+        "n": "DiNAS",
+        "d": "2024-03-09",
+        "m1": "73.51",
+        "m2": "73.49",
+        "m3": "15.36"
       },
       {
         "p": {
@@ -461,7 +461,7 @@
         "p": "[]()",
         "c": "",
         "n": "DARTS-V1",
-        "d": null,
+        "d": "",
         "m1": "15.61",
         "m2": "15.03",
         "m3": "10890"
@@ -483,7 +483,7 @@
         "p": "[]()",
         "c": "",
         "n": "DARTS-V2",
-        "d": null,
+        "d": "",
         "m1": "15.61",
         "m2": "15.03",
         "m3": "29902"

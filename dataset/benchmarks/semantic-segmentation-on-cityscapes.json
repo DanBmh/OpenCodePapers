@@ -260,17 +260,6 @@
       },
       {
         "p": {
-          "name": "Multi Receptive Field Network for Semantic Segmentation",
-          "link": "https://arxiv.org/abs/2011.08577v2",
-          "authors": "Jianlong Yuan, Zelu Deng, Shu Wang, Zhenbo Luo"
-        },
-        "c": "",
-        "n": "MRFM(coarse)",
-        "d": "2020-11-17",
-        "m1": "83.0%"
-      },
-      {
-        "p": {
           "name": "Disentangled Non-Local Neural Networks",
           "link": "https://arxiv.org/abs/2006.06668v2",
           "authors": "Minghao Yin, Zhuliang Yao, Yue Cao, Xiu Li, Zheng Zhang, Stephen Lin, Han Hu"
@@ -279,6 +268,17 @@
         "n": "DNL (coarse)",
         "d": "2020-06-11",
         "m1": "83%"
+      },
+      {
+        "p": {
+          "name": "Multi Receptive Field Network for Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2011.08577v2",
+          "authors": "Jianlong Yuan, Zelu Deng, Shu Wang, Zhenbo Luo"
+        },
+        "c": "",
+        "n": "MRFM(coarse)",
+        "d": "2020-11-17",
+        "m1": "83.0%"
       },
       {
         "p": {
@@ -513,17 +513,6 @@
       },
       {
         "p": {
-          "name": "Context Prior for Scene Segmentation",
-          "link": "https://arxiv.org/abs/2004.01547v1",
-          "authors": "Changqian Yu, Jingbo Wang, Changxin Gao, Gang Yu, Chunhua Shen, Nong Sang"
-        },
-        "c": "https://github.com/ycszen/ContextPrior",
-        "n": "CPN(ResNet-101)",
-        "d": "2020-04-03",
-        "m1": "81.3%"
-      },
-      {
-        "p": {
           "name": "Asymmetric Non-local Neural Networks for Semantic Segmentation",
           "link": "https://arxiv.org/abs/1908.07678v5",
           "authors": "Zhen Zhu, Mengde Xu, Song Bai, Tengteng Huang, Xiang Bai"
@@ -531,6 +520,17 @@
         "c": "https://github.com/open-mmlab/mmsegmentation",
         "n": "Asymmetric ALNN",
         "d": "2019-08-21",
+        "m1": "81.3%"
+      },
+      {
+        "p": {
+          "name": "Context Prior for Scene Segmentation",
+          "link": "https://arxiv.org/abs/2004.01547v1",
+          "authors": "Changqian Yu, Jingbo Wang, Changxin Gao, Gang Yu, Chunhua Shen, Nong Sang"
+        },
+        "c": "https://github.com/ycszen/ContextPrior",
+        "n": "CPN(ResNet-101)",
+        "d": "2020-04-03",
         "m1": "81.3%"
       },
       {
@@ -810,17 +810,6 @@
       },
       {
         "p": {
-          "name": "Full-Resolution Residual Networks for Semantic Segmentation in Street Scenes",
-          "link": "http://arxiv.org/abs/1611.08323v2",
-          "authors": "Tobias Pohlen, Alexander Hermans, Markus Mathias, Bastian Leibe"
-        },
-        "c": "https://github.com/TobyPDE/FRRN",
-        "n": "FRRN",
-        "d": "2016-11-24",
-        "m1": "71.8%"
-      },
-      {
-        "p": {
           "name": "Laplacian Pyramid Reconstruction and Refinement for Semantic Segmentation",
           "link": "http://arxiv.org/abs/1605.02264v2",
           "authors": "Golnaz Ghiasi, Charless C. Fowlkes"
@@ -828,6 +817,17 @@
         "c": "https://github.com/golnazghiasi/LRR",
         "n": "LRR-4x",
         "d": "2016-05-08",
+        "m1": "71.8%"
+      },
+      {
+        "p": {
+          "name": "Full-Resolution Residual Networks for Semantic Segmentation in Street Scenes",
+          "link": "http://arxiv.org/abs/1611.08323v2",
+          "authors": "Tobias Pohlen, Alexander Hermans, Markus Mathias, Bastian Leibe"
+        },
+        "c": "https://github.com/TobyPDE/FRRN",
+        "n": "FRRN",
+        "d": "2016-11-24",
         "m1": "71.8%"
       },
       {
@@ -854,17 +854,6 @@
       },
       {
         "p": {
-          "name": "DFANet: Deep Feature Aggregation for Real-Time Semantic Segmentation",
-          "link": "http://arxiv.org/abs/1904.02216v1",
-          "authors": "Hanchao Li, Pengfei Xiong, Haoqiang Fan, Jian Sun"
-        },
-        "c": "https://github.com/huaifeng1993/DFANet",
-        "n": "DFANet A",
-        "d": "2019-04-03",
-        "m1": "71.3%"
-      },
-      {
-        "p": {
           "name": "Incorporating Luminance, Depth and Color Information by a Fusion-based Network for Semantic Segmentation",
           "link": "https://arxiv.org/abs/1809.09077v3",
           "authors": "Shang-Wei Hung, Shao-Yuan Lo, Hsueh-Ming Hang"
@@ -873,6 +862,17 @@
         "n": "LDFNet",
         "d": "2018-09-24",
         "m1": "71.3"
+      },
+      {
+        "p": {
+          "name": "DFANet: Deep Feature Aggregation for Real-Time Semantic Segmentation",
+          "link": "http://arxiv.org/abs/1904.02216v1",
+          "authors": "Hanchao Li, Pengfei Xiong, Haoqiang Fan, Jian Sun"
+        },
+        "c": "https://github.com/huaifeng1993/DFANet",
+        "n": "DFANet A",
+        "d": "2019-04-03",
+        "m1": "71.3%"
       },
       {
         "p": {

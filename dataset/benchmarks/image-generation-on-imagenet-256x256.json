@@ -57,6 +57,18 @@
       },
       {
         "p": {
+          "name": "Direct Discriminative Optimization: Your Likelihood-Based Visual Generative Model is Secretly a GAN Discriminator",
+          "link": "https://arxiv.org/abs/2503.01103v2",
+          "authors": "Kaiwen Zheng, Yongxin Chen, Huayu Chen, Guande He, Ming-Yu Liu, Jun Zhu, Qinsheng Zhang"
+        },
+        "c": "https://github.com/nvlabs/ddo",
+        "n": "EDM2-L + DDO (SD-VAE, 25 steps, DPM-Solver-v3)",
+        "d": "2025-03-03",
+        "m1": "1.21",
+        "m3": "50"
+      },
+      {
+        "p": {
           "name": "Unified Continuous Generative Models",
           "link": "https://arxiv.org/abs/2505.07447v2",
           "authors": "Peng Sun, Yi Jiang, Tao Lin"
@@ -78,18 +90,6 @@
         "d": "2025-05-12",
         "m1": "1.21",
         "m3": "40"
-      },
-      {
-        "p": {
-          "name": "Direct Discriminative Optimization: Your Likelihood-Based Visual Generative Model is Secretly a GAN Discriminator",
-          "link": "https://arxiv.org/abs/2503.01103v2",
-          "authors": "Kaiwen Zheng, Yongxin Chen, Huayu Chen, Guande He, Ming-Yu Liu, Jun Zhu, Qinsheng Zhang"
-        },
-        "c": "https://github.com/nvlabs/ddo",
-        "n": "EDM2-L + DDO (SD-VAE, 25 steps, DPM-Solver-v3)",
-        "d": "2025-03-03",
-        "m1": "1.21",
-        "m3": "50"
       },
       {
         "p": {
@@ -116,18 +116,6 @@
       },
       {
         "p": {
-          "name": "REPA-E: Unlocking VAE for End-to-End Tuning of Latent Diffusion Transformers",
-          "link": "https://arxiv.org/abs/2504.10483",
-          "authors": "Xingjian Leng, Jaskirat Singh, Yunzhong Hou, Zhenchang Xing, Saining Xie, Liang Zheng"
-        },
-        "c": "https://github.com/End2End-Diffusion/REPA-E",
-        "n": "SiT-XL/2 + REPA-E",
-        "d": "2025-04-15",
-        "m1": "1.26",
-        "m2": "314.9"
-      },
-      {
-        "p": {
           "name": "DDT: Decoupled Diffusion Transformer",
           "link": "https://arxiv.org/abs/2504.05741v2",
           "authors": "Shuai Wang, Zhi Tian, Weilin Huang, LiMin Wang"
@@ -140,6 +128,18 @@
       },
       {
         "p": {
+          "name": "REPA-E: Unlocking VAE for End-to-End Tuning of Latent Diffusion Transformers",
+          "link": "https://arxiv.org/abs/2504.10483",
+          "authors": "Xingjian Leng, Jaskirat Singh, Yunzhong Hou, Zhenchang Xing, Saining Xie, Liang Zheng"
+        },
+        "c": "https://github.com/End2End-Diffusion/REPA-E",
+        "n": "SiT-XL/2 + REPA-E",
+        "d": "2025-04-15",
+        "m1": "1.26",
+        "m2": "314.9"
+      },
+      {
+        "p": {
           "name": "Beyond Next-Token: Next-X Prediction for Autoregressive Visual Generation",
           "link": "https://arxiv.org/abs/2502.20388v1",
           "authors": "Sucheng Ren, Qihang Yu, Ju He, Xiaohui Shen, Alan Yuille, Liang-Chieh Chen"
@@ -148,6 +148,17 @@
         "n": "xAR-L",
         "d": "2025-02-27",
         "m1": "1.28"
+      },
+      {
+        "p": {
+          "name": "Generative Modeling with Explicit Memory",
+          "link": "https://arxiv.org/abs/2412.08781v1",
+          "authors": "Yi Tang, Peng Sun, Zhenglin Cheng, Tao Lin"
+        },
+        "c": "https://github.com/lins-lab/gmem",
+        "n": "GMem  (with the guidance interval)",
+        "d": "2024-12-11",
+        "m1": "1.32"
       },
       {
         "p": {
@@ -163,17 +174,6 @@
       },
       {
         "p": {
-          "name": "Generative Modeling with Explicit Memory",
-          "link": "https://arxiv.org/abs/2412.08781v1",
-          "authors": "Yi Tang, Peng Sun, Zhenglin Cheng, Tao Lin"
-        },
-        "c": "https://github.com/lins-lab/gmem",
-        "n": "GMem  (with the guidance interval)",
-        "d": "2024-12-11",
-        "m1": "1.32"
-      },
-      {
-        "p": {
           "name": "Diffusion Models without Classifier-free Guidance",
           "link": "https://arxiv.org/abs/2502.12154v1",
           "authors": "Zhicong Tang, Jianmin Bao, Dong Chen, Baining Guo"
@@ -182,6 +182,17 @@
         "n": "SiT-XL/2 + MG",
         "d": "2025-02-17",
         "m1": "1.34"
+      },
+      {
+        "p": {
+          "name": "Reconstruction vs. Generation: Taming Optimization Dilemma in Latent Diffusion Models",
+          "link": "https://arxiv.org/abs/2501.01423v2",
+          "authors": "Jingfeng Yao, Xinggang Wang"
+        },
+        "c": "https://github.com/hustvl/LightningDiT",
+        "n": "LightningDiT + VA-VAE (with the guidance interval)",
+        "d": "2025-01-02",
+        "m1": "1.35"
       },
       {
         "p": {
@@ -194,17 +205,6 @@
         "d": "2025-06-05",
         "m1": "1.35",
         "m2": "318.8"
-      },
-      {
-        "p": {
-          "name": "Reconstruction vs. Generation: Taming Optimization Dilemma in Latent Diffusion Models",
-          "link": "https://arxiv.org/abs/2501.01423v2",
-          "authors": "Jingfeng Yao, Xinggang Wang"
-        },
-        "c": "https://github.com/hustvl/LightningDiT",
-        "n": "LightningDiT + VA-VAE (with the guidance interval)",
-        "d": "2025-01-02",
-        "m1": "1.35"
       },
       {
         "p": {
@@ -230,6 +230,17 @@
       },
       {
         "p": {
+          "name": "Representation Alignment for Generation: Training Diffusion Transformers Is Easier Than You Think",
+          "link": "https://arxiv.org/abs/2410.06940v2",
+          "authors": "Sihyun Yu, Sangkyung Kwak, Huiwon Jang, Jongheon Jeong, Jonathan Huang, Jinwoo Shin, Saining Xie"
+        },
+        "c": "https://github.com/sihyun-yu/REPA",
+        "n": "SiT-XL/2 + REPA (with the guidance interval)",
+        "d": "2024-10-09",
+        "m1": "1.42"
+      },
+      {
+        "p": {
           "name": "AliTok: Towards Sequence Modeling Alignment between Tokenizer and Autoregressive Model",
           "link": "https://arxiv.org/abs/2506.05289v1",
           "authors": "Pingyu Wu, Kai Zhu, Yu Liu, Longxiang Tang, Jian Yang, Yansong Peng, Wei Zhai, Yang Cao, Zheng-Jun Zha"
@@ -239,17 +250,6 @@
         "d": "2025-06-05",
         "m1": "1.42",
         "m2": "326.6"
-      },
-      {
-        "p": {
-          "name": "Representation Alignment for Generation: Training Diffusion Transformers Is Easier Than You Think",
-          "link": "https://arxiv.org/abs/2410.06940v2",
-          "authors": "Sihyun Yu, Sangkyung Kwak, Huiwon Jang, Jongheon Jeong, Jonathan Huang, Jinwoo Shin, Saining Xie"
-        },
-        "c": "https://github.com/sihyun-yu/REPA",
-        "n": "SiT-XL/2 + REPA (with the guidance interval)",
-        "d": "2024-10-09",
-        "m1": "1.42"
       },
       {
         "p": {
@@ -396,18 +396,6 @@
       },
       {
         "p": {
-          "name": "Flow-Anchored Consistency Models",
-          "link": "https://arxiv.org/abs/2507.03738v1",
-          "authors": "Yansong Peng, Kai Zhu, Yu Liu, Pingyu Wu, Hebei Li, Xiaoyan Sun, Feng Wu"
-        },
-        "c": "https://github.com/ali-vilab/FACM",
-        "n": "FACM (1-step)",
-        "d": "2025-07-04",
-        "m1": "1.70",
-        "m3": "1"
-      },
-      {
-        "p": {
           "name": "CADS: Unleashing the Diversity of Diffusion Models through Condition-Annealed Sampling",
           "link": "https://arxiv.org/abs/2310.17347v4",
           "authors": "Seyedmorteza Sadat, Jakob Buhmann, Derek Bradley, Otmar Hilliges, Romann M. Weber"
@@ -438,6 +426,18 @@
         "n": "RAR-L, autoregressive",
         "d": "2024-11-01",
         "m1": "1.70"
+      },
+      {
+        "p": {
+          "name": "Flow-Anchored Consistency Models",
+          "link": "https://arxiv.org/abs/2507.03738v1",
+          "authors": "Yansong Peng, Kai Zhu, Yu Liu, Pingyu Wu, Hebei Li, Xiaoyan Sun, Feng Wu"
+        },
+        "c": "https://github.com/ali-vilab/FACM",
+        "n": "FACM (1-step)",
+        "d": "2025-07-04",
+        "m1": "1.70",
+        "m3": "1"
       },
       {
         "p": {
@@ -730,7 +730,7 @@
         "p": "[]()",
         "c": "",
         "n": "Patch Diffusion",
-        "d": null,
+        "d": "",
         "m1": "2.74"
       },
       {
@@ -948,7 +948,7 @@
         "p": "[]()",
         "c": "",
         "n": "LDM",
-        "d": null,
+        "d": "",
         "m1": "4.29"
       },
       {
@@ -1065,7 +1065,7 @@
         "p": "[]()",
         "c": "",
         "n": "ADM",
-        "d": null,
+        "d": "",
         "m1": "11.84"
       },
       {

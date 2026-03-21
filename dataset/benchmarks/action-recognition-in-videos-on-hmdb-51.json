@@ -234,6 +234,17 @@
       },
       {
         "p": {
+          "name": "Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset",
+          "link": "http://arxiv.org/abs/1705.07750v3",
+          "authors": "Joao Carreira, Andrew Zisserman"
+        },
+        "c": "https://github.com/open-mmlab/mmaction2",
+        "n": "Two-stream I3D",
+        "d": "2017-05-22",
+        "m1": "80.9"
+      },
+      {
+        "p": {
           "name": "MARS: Motion-Augmented RGB Stream for Action Recognition",
           "link": "http://openaccess.thecvf.com/content_CVPR_2019/html/Crasto_MARS_Motion-Augmented_RGB_Stream_for_Action_Recognition_CVPR_2019_paper.html",
           "authors": "Nieves Crasto,  Philippe Weinzaepfel,  Karteek Alahari,  Cordelia Schmid"
@@ -250,31 +261,9 @@
           "authors": "Joao Carreira, Andrew Zisserman"
         },
         "c": "https://github.com/open-mmlab/mmaction2",
-        "n": "Two-stream I3D",
-        "d": "2017-05-22",
-        "m1": "80.9"
-      },
-      {
-        "p": {
-          "name": "Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset",
-          "link": "http://arxiv.org/abs/1705.07750v3",
-          "authors": "Joao Carreira, Andrew Zisserman"
-        },
-        "c": "https://github.com/open-mmlab/mmaction2",
         "n": "Two-Stream I3D (Imagenet+Kinetics pre-training)",
         "d": "2017-05-22",
         "m1": "80.7"
-      },
-      {
-        "p": {
-          "name": "Learning Spatio-Temporal Representation with Local and Global Diffusion",
-          "link": "https://arxiv.org/abs/1906.05571v1",
-          "authors": "Zhaofan Qiu, Ting Yao, Chong-Wah Ngo, Xinmei Tian, Tao Mei"
-        },
-        "c": "",
-        "n": "LGD-3D Two-stream",
-        "d": "2019-06-13",
-        "m1": "80.5"
       },
       {
         "p": {
@@ -285,6 +274,17 @@
         "c": "https://github.com/princeton-vl/d3dhelper",
         "n": "D3D + D3D",
         "d": "2018-12-19",
+        "m1": "80.5"
+      },
+      {
+        "p": {
+          "name": "Learning Spatio-Temporal Representation with Local and Global Diffusion",
+          "link": "https://arxiv.org/abs/1906.05571v1",
+          "authors": "Zhaofan Qiu, Ting Yao, Chong-Wah Ngo, Xinmei Tian, Tao Mei"
+        },
+        "c": "",
+        "n": "LGD-3D Two-stream",
+        "d": "2019-06-13",
         "m1": "80.5"
       },
       {
@@ -498,17 +498,6 @@
       },
       {
         "p": {
-          "name": "Contrastive Video Representation Learning via Adversarial Perturbations",
-          "link": "https://arxiv.org/abs/1807.09380v3",
-          "authors": "Jue Wang, Anoop Cherian"
-        },
-        "c": "",
-        "n": "ADL+ResNet+IDT",
-        "d": "2018-07-24",
-        "m1": "74.3"
-      },
-      {
-        "p": {
           "name": "Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset",
           "link": "http://arxiv.org/abs/1705.07750v3",
           "authors": "Joao Carreira, Andrew Zisserman"
@@ -516,6 +505,17 @@
         "c": "https://github.com/open-mmlab/mmaction2",
         "n": "RGB-I3D (Kinetics pre-training)",
         "d": "2017-05-22",
+        "m1": "74.3"
+      },
+      {
+        "p": {
+          "name": "Contrastive Video Representation Learning via Adversarial Perturbations",
+          "link": "https://arxiv.org/abs/1807.09380v3",
+          "authors": "Jue Wang, Anoop Cherian"
+        },
+        "c": "",
+        "n": "ADL+ResNet+IDT",
+        "d": "2018-07-24",
         "m1": "74.3"
       },
       {
@@ -740,17 +740,6 @@
       },
       {
         "p": {
-          "name": "R-STAN: Residual Spatial-Temporal Attention Network for Action Recognition",
-          "link": "https://doi.org/10.1109/ACCESS.2019.2923651",
-          "authors": "Quanle Liu, Xiangjiu Che, Mei Bie"
-        },
-        "c": "",
-        "n": "R-STAN-50",
-        "d": "2019-06-19",
-        "m1": "62.8"
-      },
-      {
-        "p": {
           "name": "DMC-Net: Generating Discriminative Motion Cues for Fast Compressed Video Action Recognition",
           "link": "https://arxiv.org/abs/1901.03460v3",
           "authors": "Zheng Shou, Xudong Lin, Yannis Kalantidis, Laura Sevilla-Lara, Marcus Rohrbach, Shih-Fu Chang, Zhicheng Yan"
@@ -758,6 +747,17 @@
         "c": "",
         "n": "DMC-Net (ResNet-18)",
         "d": "2019-01-11",
+        "m1": "62.8"
+      },
+      {
+        "p": {
+          "name": "R-STAN: Residual Spatial-Temporal Attention Network for Action Recognition",
+          "link": "https://doi.org/10.1109/ACCESS.2019.2923651",
+          "authors": "Quanle Liu, Xiangjiu Che, Mei Bie"
+        },
+        "c": "",
+        "n": "R-STAN-50",
+        "d": "2019-06-19",
         "m1": "62.8"
       },
       {

@@ -101,18 +101,6 @@
       },
       {
         "p": {
-          "name": "SPViT: Enabling Faster Vision Transformers via Soft Token Pruning",
-          "link": "https://arxiv.org/abs/2112.13890v2",
-          "authors": "Zhenglun Kong, Peiyan Dong, Xiaolong Ma, Xin Meng, Mengshu Sun, Wei Niu, Xuan Shen, Geng Yuan, Bin Ren, Minghai Qin, Hao Tang, Yanzhi Wang"
-        },
-        "c": "https://github.com/peiyanflying/spvit",
-        "n": "SPViT (1.0G)",
-        "d": "2021-12-27",
-        "m1": "72.2",
-        "m2": "1.0"
-      },
-      {
-        "p": {
           "name": "Training data-efficient image transformers & distillation through attention",
           "link": "https://arxiv.org/abs/2012.12877v2",
           "authors": "Hugo Touvron, Matthieu Cord, Matthijs Douze, Francisco Massa, Alexandre Sablayrolles, Hervé Jégou"
@@ -122,6 +110,18 @@
         "d": "2020-12-23",
         "m1": "72.2",
         "m2": "1.2"
+      },
+      {
+        "p": {
+          "name": "SPViT: Enabling Faster Vision Transformers via Soft Token Pruning",
+          "link": "https://arxiv.org/abs/2112.13890v2",
+          "authors": "Zhenglun Kong, Peiyan Dong, Xiaolong Ma, Xin Meng, Mengshu Sun, Wei Niu, Xuan Shen, Geng Yuan, Bin Ren, Minghai Qin, Hao Tang, Yanzhi Wang"
+        },
+        "c": "https://github.com/peiyanflying/spvit",
+        "n": "SPViT (1.0G)",
+        "d": "2021-12-27",
+        "m1": "72.2",
+        "m2": "1.0"
       },
       {
         "p": {
@@ -137,18 +137,6 @@
       },
       {
         "p": {
-          "name": "PPT: Token Pruning and Pooling for Efficient Vision Transformers",
-          "link": "https://arxiv.org/abs/2310.01812v3",
-          "authors": "Xinjian Wu, Fanhu Zeng, Xiudong Wang, Xinghao Chen"
-        },
-        "c": "https://github.com/mindspore-lab/models",
-        "n": "PPT",
-        "d": "2023-10-03",
-        "m1": "72.1",
-        "m2": "0.8"
-      },
-      {
-        "p": {
           "name": "SPViT: Enabling Faster Vision Transformers via Soft Token Pruning",
           "link": "https://arxiv.org/abs/2112.13890v2",
           "authors": "Zhenglun Kong, Peiyan Dong, Xiaolong Ma, Xin Meng, Mengshu Sun, Wei Niu, Xuan Shen, Geng Yuan, Bin Ren, Minghai Qin, Hao Tang, Yanzhi Wang"
@@ -158,6 +146,18 @@
         "d": "2021-12-27",
         "m1": "72.1",
         "m2": "0.9"
+      },
+      {
+        "p": {
+          "name": "PPT: Token Pruning and Pooling for Efficient Vision Transformers",
+          "link": "https://arxiv.org/abs/2310.01812v3",
+          "authors": "Xinjian Wu, Fanhu Zeng, Xiudong Wang, Xinghao Chen"
+        },
+        "c": "https://github.com/mindspore-lab/models",
+        "n": "PPT",
+        "d": "2023-10-03",
+        "m1": "72.1",
+        "m2": "0.8"
       },
       {
         "p": {
@@ -221,18 +221,6 @@
       },
       {
         "p": {
-          "name": "Multi-criteria Token Fusion with One-step-ahead Attention for Efficient Vision Transformers",
-          "link": "https://arxiv.org/abs/2403.10030v3",
-          "authors": "Sanghyeok Lee, Joonmyung Choi, Hyunwoo J. Kim"
-        },
-        "c": "https://github.com/mlvlab/mctf",
-        "n": "MCTF ($r=20$)",
-        "d": "2024-03-15",
-        "m1": "71.4",
-        "m2": "0.6"
-      },
-      {
-        "p": {
           "name": "Token Merging: Your ViT But Faster",
           "link": "https://arxiv.org/abs/2210.09461v3",
           "authors": "Daniel Bolya, Cheng-Yang Fu, Xiaoliang Dai, Peizhao Zhang, Christoph Feichtenhofer, Judy Hoffman"
@@ -245,14 +233,14 @@
       },
       {
         "p": {
-          "name": "Token Merging: Your ViT But Faster",
-          "link": "https://arxiv.org/abs/2210.09461v3",
-          "authors": "Daniel Bolya, Cheng-Yang Fu, Xiaoliang Dai, Peizhao Zhang, Christoph Feichtenhofer, Judy Hoffman"
+          "name": "Multi-criteria Token Fusion with One-step-ahead Attention for Efficient Vision Transformers",
+          "link": "https://arxiv.org/abs/2403.10030v3",
+          "authors": "Sanghyeok Lee, Joonmyung Choi, Hyunwoo J. Kim"
         },
-        "c": "https://github.com/dbolya/tomesd",
-        "n": "ToMe ($r=16$)",
-        "d": "2022-10-17",
-        "m1": "70.7",
+        "c": "https://github.com/mlvlab/mctf",
+        "n": "MCTF ($r=20$)",
+        "d": "2024-03-15",
+        "m1": "71.4",
         "m2": "0.6"
       },
       {
@@ -266,6 +254,18 @@
         "d": "2021-11-23",
         "m1": "70.7",
         "m2": "1.0"
+      },
+      {
+        "p": {
+          "name": "Token Merging: Your ViT But Faster",
+          "link": "https://arxiv.org/abs/2210.09461v3",
+          "authors": "Daniel Bolya, Cheng-Yang Fu, Xiaoliang Dai, Peizhao Zhang, Christoph Feichtenhofer, Judy Hoffman"
+        },
+        "c": "https://github.com/dbolya/tomesd",
+        "n": "ToMe ($r=16$)",
+        "d": "2022-10-17",
+        "m1": "70.7",
+        "m2": "0.6"
       },
       {
         "p": {

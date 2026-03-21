@@ -69,17 +69,6 @@
       },
       {
         "p": {
-          "name": "Decomposed Soft Actor-Critic Method for Cooperative Multi-Agent Reinforcement Learning",
-          "link": "https://arxiv.org/abs/2104.06655v2",
-          "authors": "Yuan Pu, Shaochen Wang, Rui Yang, Xin Yao, Bin Li"
-        },
-        "c": "https://github.com/puyuan1996/MARL",
-        "n": "MASAC",
-        "d": "2021-04-14",
-        "m1": "0.0"
-      },
-      {
-        "p": {
           "name": "Counterfactual Multi-Agent Policy Gradients",
           "link": "https://arxiv.org/abs/1705.08926v3",
           "authors": "Jakob Foerster, Gregory Farquhar, Triantafyllos Afouras, Nantas Nardelli, Shimon Whiteson"
@@ -91,13 +80,13 @@
       },
       {
         "p": {
-          "name": "The StarCraft Multi-Agent Challenges+ : Learning of Multi-Stage Tasks and Environmental Factors without Precise Reward Functions",
-          "link": "https://arxiv.org/abs/2207.02007v2",
-          "authors": "Mingyu Kim, Jihwan Oh, Yongsik Lee, Joonkee Kim, SeongHwan Kim, Song Chong, Se-Young Yun"
+          "name": "Value-Decomposition Networks For Cooperative Multi-Agent Learning",
+          "link": "http://arxiv.org/abs/1706.05296v1",
+          "authors": "Peter Sunehag, Guy Lever, Audrunas Gruslys, Wojciech Marian Czarnecki, Vinicius Zambaldi, Max Jaderberg, Marc Lanctot, Nicolas Sonnerat, Joel Z. Leibo, Karl Tuyls, Thore Graepel"
         },
-        "c": "https://github.com/osilab-kaist/smac_exp",
-        "n": "IQL",
-        "d": "2022-07-05",
+        "c": "https://github.com/facebookresearch/benchmarl",
+        "n": "VDN",
+        "d": "2017-06-16",
         "m1": "0.0"
       },
       {
@@ -109,17 +98,6 @@
         "c": "https://github.com/opendilab/DI-engine/blob/main/ding/policy/qtran.py",
         "n": "QTRAN",
         "d": "2019-05-14",
-        "m1": "0.0"
-      },
-      {
-        "p": {
-          "name": "Value-Decomposition Networks For Cooperative Multi-Agent Learning",
-          "link": "http://arxiv.org/abs/1706.05296v1",
-          "authors": "Peter Sunehag, Guy Lever, Audrunas Gruslys, Wojciech Marian Czarnecki, Vinicius Zambaldi, Max Jaderberg, Marc Lanctot, Nicolas Sonnerat, Joel Z. Leibo, Karl Tuyls, Thore Graepel"
-        },
-        "c": "https://github.com/facebookresearch/benchmarl",
-        "n": "VDN",
-        "d": "2017-06-16",
         "m1": "0.0"
       },
       {
@@ -142,6 +120,28 @@
         "c": "https://github.com/j3soon/dfac",
         "n": "DIQL",
         "d": "2021-02-16",
+        "m1": "0.0"
+      },
+      {
+        "p": {
+          "name": "Decomposed Soft Actor-Critic Method for Cooperative Multi-Agent Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2104.06655v2",
+          "authors": "Yuan Pu, Shaochen Wang, Rui Yang, Xin Yao, Bin Li"
+        },
+        "c": "https://github.com/puyuan1996/MARL",
+        "n": "MASAC",
+        "d": "2021-04-14",
+        "m1": "0.0"
+      },
+      {
+        "p": {
+          "name": "The StarCraft Multi-Agent Challenges+ : Learning of Multi-Stage Tasks and Environmental Factors without Precise Reward Functions",
+          "link": "https://arxiv.org/abs/2207.02007v2",
+          "authors": "Mingyu Kim, Jihwan Oh, Yongsik Lee, Joonkee Kim, SeongHwan Kim, Song Chong, Se-Young Yun"
+        },
+        "c": "https://github.com/osilab-kaist/smac_exp",
+        "n": "IQL",
+        "d": "2022-07-05",
         "m1": "0.0"
       }
     ]

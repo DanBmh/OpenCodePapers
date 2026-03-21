@@ -105,18 +105,6 @@
       },
       {
         "p": {
-          "name": "MIM-Refiner: A Contrastive Learning Boost from Intermediate Pre-Trained Representations",
-          "link": "https://arxiv.org/abs/2402.10093v3",
-          "authors": "Benedikt Alkin, Lukas Miklautz, Sepp Hochreiter, Johannes Brandstetter"
-        },
-        "c": "https://github.com/ml-jku/MIM-Refiner",
-        "n": "MIM-Refiner (MAE-ViT-2B/14)",
-        "d": "2024-02-15",
-        "m1": "84.5%",
-        "m3": "1890M"
-      },
-      {
-        "p": {
           "name": "DINOv2: Learning Robust Visual Features without Supervision",
           "link": "https://arxiv.org/abs/2304.07193v2",
           "authors": "Maxime Oquab, Timothée Darcet, Théo Moutakanni, Huy Vo, Marc Szafraniec, Vasil Khalidov, Pierre Fernandez, Daniel Haziza, Francisco Massa, Alaaeldin El-Nouby, Mahmoud Assran, Nicolas Ballas, Wojciech Galuba, Russell Howes, Po-Yao Huang, Shang-Wen Li, Ishan Misra, Michael Rabbat, Vasu Sharma, Gabriel Synnaeve, Hu Xu, Hervé Jegou, Julien Mairal, Patrick Labatut, Armand Joulin, Piotr Bojanowski"
@@ -126,6 +114,18 @@
         "d": "2023-04-14",
         "m1": "84.5%",
         "m3": "85M"
+      },
+      {
+        "p": {
+          "name": "MIM-Refiner: A Contrastive Learning Boost from Intermediate Pre-Trained Representations",
+          "link": "https://arxiv.org/abs/2402.10093v3",
+          "authors": "Benedikt Alkin, Lukas Miklautz, Sepp Hochreiter, Johannes Brandstetter"
+        },
+        "c": "https://github.com/ml-jku/MIM-Refiner",
+        "n": "MIM-Refiner (MAE-ViT-2B/14)",
+        "d": "2024-02-15",
+        "m1": "84.5%",
+        "m3": "1890M"
       },
       {
         "p": {
@@ -309,30 +309,6 @@
       },
       {
         "p": {
-          "name": "Stabilize the Latent Space for Image Autoregressive Modeling: A Unified Perspective",
-          "link": "https://arxiv.org/abs/2410.12490v2",
-          "authors": "Yongxin Zhu, Bocheng Li, Hang Zhang, Xin Li, Linli Xu, Lidong Bing"
-        },
-        "c": "https://github.com/DAMO-NLP-SG/DiGIT",
-        "n": "DiGIT",
-        "d": "2024-10-16",
-        "m1": "80.3%",
-        "m3": "732M"
-      },
-      {
-        "p": {
-          "name": "DINO as a von Mises-Fisher mixture model",
-          "link": "https://arxiv.org/abs/2405.10939v1",
-          "authors": "Hariprasath Govindarajan, Per Sidén, Jacob Roll, Fredrik Lindsten"
-        },
-        "c": "",
-        "n": "iBOT-vMF (ViT-B/16)",
-        "d": "2024-05-17",
-        "m1": "80.3%",
-        "m3": "85M"
-      },
-      {
-        "p": {
           "name": "Emerging Properties in Self-Supervised Vision Transformers",
           "link": "https://arxiv.org/abs/2104.14294v2",
           "authors": "Mathilde Caron, Hugo Touvron, Ishan Misra, Hervé Jégou, Julien Mairal, Piotr Bojanowski, Armand Joulin"
@@ -354,6 +330,30 @@
         "d": "2023-11-30",
         "m1": "80.3%",
         "m3": "70M"
+      },
+      {
+        "p": {
+          "name": "DINO as a von Mises-Fisher mixture model",
+          "link": "https://arxiv.org/abs/2405.10939v1",
+          "authors": "Hariprasath Govindarajan, Per Sidén, Jacob Roll, Fredrik Lindsten"
+        },
+        "c": "",
+        "n": "iBOT-vMF (ViT-B/16)",
+        "d": "2024-05-17",
+        "m1": "80.3%",
+        "m3": "85M"
+      },
+      {
+        "p": {
+          "name": "Stabilize the Latent Space for Image Autoregressive Modeling: A Unified Perspective",
+          "link": "https://arxiv.org/abs/2410.12490v2",
+          "authors": "Yongxin Zhu, Bocheng Li, Hang Zhang, Xin Li, Linli Xu, Lidong Bing"
+        },
+        "c": "https://github.com/DAMO-NLP-SG/DiGIT",
+        "n": "DiGIT",
+        "d": "2024-10-16",
+        "m1": "80.3%",
+        "m3": "732M"
       },
       {
         "p": {
@@ -382,6 +382,18 @@
       },
       {
         "p": {
+          "name": "Pushing the limits of self-supervised ResNets: Can we outperform supervised learning without labels on ImageNet?",
+          "link": "https://arxiv.org/abs/2201.05119v2",
+          "authors": "Nenad Tomasev, Ioana Bica, Brian McWilliams, Lars Buesing, Razvan Pascanu, Charles Blundell, Jovana Mitrovic"
+        },
+        "c": "https://github.com/google-deepmind/relicv2",
+        "n": "ReLICv2 (ResNet200)",
+        "d": "2022-01-13",
+        "m1": "79.8%",
+        "m3": "63M"
+      },
+      {
+        "p": {
           "name": "Vision Models Are More Robust And Fair When Pretrained On Uncurated Images Without Supervision",
           "link": "https://arxiv.org/abs/2202.08360v2",
           "authors": "Priya Goyal, Quentin Duval, Isaac Seessel, Mathilde Caron, Ishan Misra, Levent Sagun, Armand Joulin, Piotr Bojanowski"
@@ -403,18 +415,6 @@
         "d": "2022-12-30",
         "m1": "79.8%",
         "m3": "80M"
-      },
-      {
-        "p": {
-          "name": "Pushing the limits of self-supervised ResNets: Can we outperform supervised learning without labels on ImageNet?",
-          "link": "https://arxiv.org/abs/2201.05119v2",
-          "authors": "Nenad Tomasev, Ioana Bica, Brian McWilliams, Lars Buesing, Razvan Pascanu, Charles Blundell, Jovana Mitrovic"
-        },
-        "c": "https://github.com/google-deepmind/relicv2",
-        "n": "ReLICv2 (ResNet200)",
-        "d": "2022-01-13",
-        "m1": "79.8%",
-        "m3": "63M"
       },
       {
         "p": {
@@ -502,6 +502,18 @@
       },
       {
         "p": {
+          "name": "Pushing the limits of self-supervised ResNets: Can we outperform supervised learning without labels on ImageNet?",
+          "link": "https://arxiv.org/abs/2201.05119v2",
+          "authors": "Nenad Tomasev, Ioana Bica, Brian McWilliams, Lars Buesing, Razvan Pascanu, Charles Blundell, Jovana Mitrovic"
+        },
+        "c": "https://github.com/google-deepmind/relicv2",
+        "n": "ReLICv2 (ResNet-50 x2)",
+        "d": "2022-01-13",
+        "m1": "79%",
+        "m3": "94M"
+      },
+      {
+        "p": {
           "name": "Unsupervised Visual Representation Learning by Synchronous Momentum Grouping",
           "link": "https://arxiv.org/abs/2207.06167v1",
           "authors": "Bo Pang, Yifan Zhang, Yaoyi Li, Jia Cai, Cewu Lu"
@@ -512,18 +524,6 @@
         "m1": "79.0%",
         "m2": "94.4",
         "m3": "375M"
-      },
-      {
-        "p": {
-          "name": "Pushing the limits of self-supervised ResNets: Can we outperform supervised learning without labels on ImageNet?",
-          "link": "https://arxiv.org/abs/2201.05119v2",
-          "authors": "Nenad Tomasev, Ioana Bica, Brian McWilliams, Lars Buesing, Razvan Pascanu, Charles Blundell, Jovana Mitrovic"
-        },
-        "c": "https://github.com/google-deepmind/relicv2",
-        "n": "ReLICv2 (ResNet-50 x2)",
-        "d": "2022-01-13",
-        "m1": "79%",
-        "m3": "94M"
       },
       {
         "p": {
@@ -832,18 +832,6 @@
       },
       {
         "p": {
-          "name": "Masked Autoencoders Are Scalable Vision Learners",
-          "link": "https://arxiv.org/abs/2111.06377v2",
-          "authors": "Kaiming He, Xinlei Chen, Saining Xie, Yanghao Li, Piotr Dollár, Ross Girshick"
-        },
-        "c": "https://github.com/facebookresearch/mae",
-        "n": "MAE (ViT-L)",
-        "d": "2021-11-11",
-        "m1": "75.8%",
-        "m3": "306M"
-      },
-      {
-        "p": {
           "name": "Divide and Contrast: Self-supervised Learning from Uncurated Data",
           "link": "https://arxiv.org/abs/2105.08054v1",
           "authors": "Yonglong Tian, Olivier J. Henaff, Aaron van den Oord"
@@ -853,6 +841,18 @@
         "d": "2021-05-17",
         "m1": "75.8%",
         "m3": "24M"
+      },
+      {
+        "p": {
+          "name": "Masked Autoencoders Are Scalable Vision Learners",
+          "link": "https://arxiv.org/abs/2111.06377v2",
+          "authors": "Kaiming He, Xinlei Chen, Saining Xie, Yanghao Li, Piotr Dollár, Ross Girshick"
+        },
+        "c": "https://github.com/facebookresearch/mae",
+        "n": "MAE (ViT-L)",
+        "d": "2021-11-11",
+        "m1": "75.8%",
+        "m3": "306M"
       },
       {
         "p": {
@@ -881,19 +881,6 @@
       },
       {
         "p": {
-          "name": "Compressive Visual Representations",
-          "link": "https://arxiv.org/abs/2109.12909v3",
-          "authors": "Kuang-Huei Lee, Anurag Arnab, Sergio Guadarrama, John Canny, Ian Fischer"
-        },
-        "c": "https://github.com/google-research/compressive-visual-representations",
-        "n": "C-BYOL (ResNet-50, 1000 epochs)",
-        "d": "2021-09-27",
-        "m1": "75.6%",
-        "m2": "92.7%",
-        "m3": "25M"
-      },
-      {
-        "p": {
           "name": "With a Little Help from My Friends: Nearest-Neighbor Contrastive Learning of Visual Representations",
           "link": "https://arxiv.org/abs/2104.14548v2",
           "authors": "Debidatta Dwibedi, Yusuf Aytar, Jonathan Tompson, Pierre Sermanet, Andrew Zisserman"
@@ -903,6 +890,19 @@
         "d": "2021-04-29",
         "m1": "75.6%",
         "m2": "92.4",
+        "m3": "25M"
+      },
+      {
+        "p": {
+          "name": "Compressive Visual Representations",
+          "link": "https://arxiv.org/abs/2109.12909v3",
+          "authors": "Kuang-Huei Lee, Anurag Arnab, Sergio Guadarrama, John Canny, Ian Fischer"
+        },
+        "c": "https://github.com/google-research/compressive-visual-representations",
+        "n": "C-BYOL (ResNet-50, 1000 epochs)",
+        "d": "2021-09-27",
+        "m1": "75.6%",
+        "m2": "92.7%",
         "m3": "25M"
       },
       {
@@ -979,18 +979,6 @@
       },
       {
         "p": {
-          "name": "Unicom: Universal and Compact Representation Learning for Image Retrieval",
-          "link": "https://arxiv.org/abs/2304.05884v1",
-          "authors": "Xiang An, Jiankang Deng, Kaicheng Yang, Jaiwei Li, Ziyong Feng, Jia Guo, Jing Yang, Tongliang Liu"
-        },
-        "c": "https://github.com/OML-Team/open-metric-learning",
-        "n": "Unicom (ViT-B/32)",
-        "d": "2023-04-12",
-        "m1": "75.0%",
-        "m3": "80M"
-      },
-      {
-        "p": {
           "name": "Self-Supervised Learning with Swin Transformers",
           "link": "https://arxiv.org/abs/2105.04553v2",
           "authors": "Zhenda Xie, Yutong Lin, Zhuliang Yao, Zheng Zhang, Qi Dai, Yue Cao, Han Hu"
@@ -1000,6 +988,18 @@
         "d": "2021-05-10",
         "m1": "75%",
         "m3": "29M"
+      },
+      {
+        "p": {
+          "name": "Unicom: Universal and Compact Representation Learning for Image Retrieval",
+          "link": "https://arxiv.org/abs/2304.05884v1",
+          "authors": "Xiang An, Jiankang Deng, Kaicheng Yang, Jaiwei Li, Ziyong Feng, Jia Guo, Jing Yang, Tongliang Liu"
+        },
+        "c": "https://github.com/OML-Team/open-metric-learning",
+        "n": "Unicom (ViT-B/32)",
+        "d": "2023-04-12",
+        "m1": "75.0%",
+        "m3": "80M"
       },
       {
         "p": {
@@ -1129,19 +1129,6 @@
       },
       {
         "p": {
-          "name": "VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning",
-          "link": "https://arxiv.org/abs/2105.04906v3",
-          "authors": "Adrien Bardes, Jean Ponce, Yann Lecun"
-        },
-        "c": "https://github.com/lightly-ai/lightly",
-        "n": "VICReg (ResNet50)",
-        "d": "2021-05-11",
-        "m1": "73.2",
-        "m2": "91.1",
-        "m3": "24M"
-      },
-      {
-        "p": {
           "name": "Barlow Twins: Self-Supervised Learning via Redundancy Reduction",
           "link": "https://arxiv.org/abs/2103.03230v3",
           "authors": "Jure Zbontar, Li Jing, Ishan Misra, Yann Lecun, Stéphane Deny"
@@ -1151,6 +1138,19 @@
         "d": "2021-03-04",
         "m1": "73.2%",
         "m2": "91",
+        "m3": "24M"
+      },
+      {
+        "p": {
+          "name": "VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning",
+          "link": "https://arxiv.org/abs/2105.04906v3",
+          "authors": "Adrien Bardes, Jean Ponce, Yann Lecun"
+        },
+        "c": "https://github.com/lightly-ai/lightly",
+        "n": "VICReg (ResNet50)",
+        "d": "2021-05-11",
+        "m1": "73.2",
+        "m2": "91.1",
         "m3": "24M"
       },
       {
@@ -1268,19 +1268,6 @@
       },
       {
         "p": {
-          "name": "SynCo: Synthetic Hard Negatives in Contrastive Learning for Better Unsupervised Visual Representations",
-          "link": "https://arxiv.org/abs/2410.02401v5",
-          "authors": "Nikolaos Giakoumoglou, Tania Stathaki"
-        },
-        "c": "https://github.com/giakoumoglou/synco",
-        "n": "SynCo (ResNet-50) 800ep",
-        "d": "2024-10-03",
-        "m1": "70.6%",
-        "m2": "89.8%",
-        "m3": "24M"
-      },
-      {
-        "p": {
           "name": "Contrastive Multiview Coding",
           "link": "https://arxiv.org/abs/1906.05849v5",
           "authors": "Yonglong Tian, Dilip Krishnan, Phillip Isola"
@@ -1291,6 +1278,19 @@
         "m1": "70.6%",
         "m2": "89.7%",
         "m3": "188M"
+      },
+      {
+        "p": {
+          "name": "SynCo: Synthetic Hard Negatives in Contrastive Learning for Better Unsupervised Visual Representations",
+          "link": "https://arxiv.org/abs/2410.02401v5",
+          "authors": "Nikolaos Giakoumoglou, Tania Stathaki"
+        },
+        "c": "https://github.com/giakoumoglou/synco",
+        "n": "SynCo (ResNet-50) 800ep",
+        "d": "2024-10-03",
+        "m1": "70.6%",
+        "m2": "89.8%",
+        "m3": "24M"
       },
       {
         "p": {
@@ -1565,18 +1565,6 @@
       },
       {
         "p": {
-          "name": "Learning Representations by Maximizing Mutual Information Across Views",
-          "link": "https://arxiv.org/abs/1906.00910v2",
-          "authors": "Philip Bachman, R. Devon Hjelm, William Buchwalter"
-        },
-        "c": "https://github.com/philip-bachman/amdim-public",
-        "n": "AMDIM (arxiv v1)",
-        "d": "2019-06-03",
-        "m1": "60.2%",
-        "m3": "337M"
-      },
-      {
-        "p": {
           "name": "Local Aggregation for Unsupervised Learning of Visual Embeddings",
           "link": "http://arxiv.org/abs/1903.12355v2",
           "authors": "Chengxu Zhuang, Alex Lin Zhai, Daniel Yamins"
@@ -1586,6 +1574,18 @@
         "d": "2019-03-29",
         "m1": "60.2%",
         "m3": "24M"
+      },
+      {
+        "p": {
+          "name": "Learning Representations by Maximizing Mutual Information Across Views",
+          "link": "https://arxiv.org/abs/1906.00910v2",
+          "authors": "Philip Bachman, R. Devon Hjelm, William Buchwalter"
+        },
+        "c": "https://github.com/philip-bachman/amdim-public",
+        "n": "AMDIM (arxiv v1)",
+        "d": "2019-06-03",
+        "m1": "60.2%",
+        "m3": "337M"
       },
       {
         "p": {

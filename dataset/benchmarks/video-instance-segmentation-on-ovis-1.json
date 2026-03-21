@@ -274,24 +274,6 @@
       },
       {
         "p": {
-          "name": "MDQE: Mining Discriminative Query Embeddings to Segment Occluded Instances on Challenging Videos",
-          "link": "https://arxiv.org/abs/2303.14395v1",
-          "authors": "Minghan Li, Shuai Li, Wangmeng Xiang, Lei Zhang"
-        },
-        "c": "https://github.com/minghanli/mdqe_cvpr2023",
-        "n": "MDQE(SwinL)",
-        "d": "2023-03-25",
-        "m1": "42.6",
-        "m2": "67.8",
-        "m3": "44.3",
-        "m4": "21.6",
-        "m5": "49.3",
-        "m6": "18.3",
-        "m7": "65.1",
-        "m8": "46.5"
-      },
-      {
-        "p": {
           "name": "In Defense of Online Models for Video Instance Segmentation",
           "link": "https://arxiv.org/abs/2207.10661v1",
           "authors": "Junfeng Wu, Qihao Liu, Yi Jiang, Song Bai, Alan Yuille, Xiang Bai"
@@ -319,6 +301,24 @@
         "m3": "42.6",
         "m6": "18.4",
         "m8": "49.1"
+      },
+      {
+        "p": {
+          "name": "MDQE: Mining Discriminative Query Embeddings to Segment Occluded Instances on Challenging Videos",
+          "link": "https://arxiv.org/abs/2303.14395v1",
+          "authors": "Minghan Li, Shuai Li, Wangmeng Xiang, Lei Zhang"
+        },
+        "c": "https://github.com/minghanli/mdqe_cvpr2023",
+        "n": "MDQE(SwinL)",
+        "d": "2023-03-25",
+        "m1": "42.6",
+        "m2": "67.8",
+        "m3": "44.3",
+        "m4": "21.6",
+        "m5": "49.3",
+        "m6": "18.3",
+        "m7": "65.1",
+        "m8": "46.5"
       },
       {
         "p": {
@@ -409,21 +409,6 @@
       },
       {
         "p": {
-          "name": "CTVIS: Consistent Training for Online Video Instance Segmentation",
-          "link": "https://arxiv.org/abs/2307.12616v1",
-          "authors": "Kaining Ying, Qing Zhong, Weian Mao, Zhenhua Wang, Hao Chen, Lin Yuanbo Wu, Yifan Liu, Chengxiang Fan, Yunzhi Zhuge, Chunhua Shen"
-        },
-        "c": "https://github.com/kainingying/ctvis",
-        "n": "CTVIS (ResNet-50)",
-        "d": "2023-07-24",
-        "m1": "35.5",
-        "m2": "60.8",
-        "m3": "34.9",
-        "m4": "16.1",
-        "m5": "41.9"
-      },
-      {
-        "p": {
           "name": "DeVIS: Making Deformable Transformers Work for Video Instance Segmentation",
           "link": "https://arxiv.org/abs/2207.11103v1",
           "authors": "Adrià Caelles, Tim Meinhardt, Guillem Brasó, Laura Leal-Taixé"
@@ -439,16 +424,18 @@
       },
       {
         "p": {
-          "name": "Universal Instance Perception as Object Discovery and Retrieval",
-          "link": "https://arxiv.org/abs/2303.06674v2",
-          "authors": "Bin Yan, Yi Jiang, Jiannan Wu, Dong Wang, Ping Luo, Zehuan Yuan, Huchuan Lu"
+          "name": "CTVIS: Consistent Training for Online Video Instance Segmentation",
+          "link": "https://arxiv.org/abs/2307.12616v1",
+          "authors": "Kaining Ying, Qing Zhong, Weian Mao, Zhenhua Wang, Hao Chen, Lin Yuanbo Wu, Yifan Liu, Chengxiang Fan, Yunzhi Zhuge, Chunhua Shen"
         },
-        "c": "https://github.com/MasterBin-IIAU/UNINEXT",
-        "n": "UNINEXT (ResNet-50, Online)",
-        "d": "2023-03-12",
-        "m1": "34.0",
-        "m2": "55.5",
-        "m3": "35.6"
+        "c": "https://github.com/kainingying/ctvis",
+        "n": "CTVIS (ResNet-50)",
+        "d": "2023-07-24",
+        "m1": "35.5",
+        "m2": "60.8",
+        "m3": "34.9",
+        "m4": "16.1",
+        "m5": "41.9"
       },
       {
         "p": {
@@ -464,6 +451,19 @@
         "m3": "34.4",
         "m6": "16.1",
         "m8": "40.9"
+      },
+      {
+        "p": {
+          "name": "Universal Instance Perception as Object Discovery and Retrieval",
+          "link": "https://arxiv.org/abs/2303.06674v2",
+          "authors": "Bin Yan, Yi Jiang, Jiannan Wu, Dong Wang, Ping Luo, Zehuan Yuan, Huchuan Lu"
+        },
+        "c": "https://github.com/MasterBin-IIAU/UNINEXT",
+        "n": "UNINEXT (ResNet-50, Online)",
+        "d": "2023-03-12",
+        "m1": "34.0",
+        "m2": "55.5",
+        "m3": "35.6"
       },
       {
         "p": {

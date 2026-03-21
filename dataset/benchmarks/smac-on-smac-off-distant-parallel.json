@@ -58,17 +58,6 @@
       },
       {
         "p": {
-          "name": "Decomposed Soft Actor-Critic Method for Cooperative Multi-Agent Reinforcement Learning",
-          "link": "https://arxiv.org/abs/2104.06655v2",
-          "authors": "Yuan Pu, Shaochen Wang, Rui Yang, Xin Yao, Bin Li"
-        },
-        "c": "https://github.com/puyuan1996/MARL",
-        "n": "MASAC",
-        "d": "2021-04-14",
-        "m1": "0.0"
-      },
-      {
-        "p": {
           "name": "Counterfactual Multi-Agent Policy Gradients",
           "link": "https://arxiv.org/abs/1705.08926v3",
           "authors": "Jakob Foerster, Gregory Farquhar, Triantafyllos Afouras, Nantas Nardelli, Shimon Whiteson"
@@ -76,24 +65,6 @@
         "c": "https://github.com/opendilab/DI-engine/blob/main/ding/policy/coma.py",
         "n": "COMA",
         "d": "2017-05-24",
-        "m1": "0.0"
-      },
-      {
-        "p": "[]()",
-        "c": "",
-        "n": "IQL",
-        "d": null,
-        "m1": "0.0"
-      },
-      {
-        "p": {
-          "name": "QTRAN: Learning to Factorize with Transformation for Cooperative Multi-Agent Reinforcement Learning",
-          "link": "https://arxiv.org/abs/1905.05408v1",
-          "authors": "Kyunghwan Son, Daewoo Kim, Wan Ju Kang, David Earl Hostallero, Yung Yi"
-        },
-        "c": "https://github.com/opendilab/DI-engine/blob/main/ding/policy/qtran.py",
-        "n": "QTRAN",
-        "d": "2019-05-14",
         "m1": "0.0"
       },
       {
@@ -114,8 +85,37 @@
           "authors": "Wei-Fang Sun, Cheng-Kuang Lee, Chun-Yi Lee"
         },
         "c": "https://github.com/j3soon/dfac",
-        "n": "DDN",
+        "n": "DIQL",
         "d": "2021-02-16",
+        "m1": "0.0"
+      },
+      {
+        "p": {
+          "name": "Decomposed Soft Actor-Critic Method for Cooperative Multi-Agent Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2104.06655v2",
+          "authors": "Yuan Pu, Shaochen Wang, Rui Yang, Xin Yao, Bin Li"
+        },
+        "c": "https://github.com/puyuan1996/MARL",
+        "n": "MASAC",
+        "d": "2021-04-14",
+        "m1": "0.0"
+      },
+      {
+        "p": "[]()",
+        "c": "",
+        "n": "IQL",
+        "d": "",
+        "m1": "0.0"
+      },
+      {
+        "p": {
+          "name": "QTRAN: Learning to Factorize with Transformation for Cooperative Multi-Agent Reinforcement Learning",
+          "link": "https://arxiv.org/abs/1905.05408v1",
+          "authors": "Kyunghwan Son, Daewoo Kim, Wan Ju Kang, David Earl Hostallero, Yung Yi"
+        },
+        "c": "https://github.com/opendilab/DI-engine/blob/main/ding/policy/qtran.py",
+        "n": "QTRAN",
+        "d": "2019-05-14",
         "m1": "0.0"
       },
       {
@@ -125,7 +125,7 @@
           "authors": "Wei-Fang Sun, Cheng-Kuang Lee, Chun-Yi Lee"
         },
         "c": "https://github.com/j3soon/dfac",
-        "n": "DIQL",
+        "n": "DDN",
         "d": "2021-02-16",
         "m1": "0.0"
       },

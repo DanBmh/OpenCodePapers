@@ -67,14 +67,14 @@
         "p": "[]()",
         "c": "",
         "n": "Mol-LLM (Mistral-Instruct-v0.2)",
-        "d": null,
+        "d": "",
         "m1": "73.2"
       },
       {
         "p": "[]()",
         "c": "",
         "n": "Mol-LLM (LLaMA2-Chat)",
-        "d": null,
+        "d": "",
         "m1": "72.70"
       },
       {
@@ -144,22 +144,6 @@
       },
       {
         "p": {
-          "name": "XMolCap: Advancing Molecular Captioning through Multimodal Fusion and Explainable Graph Neural Networks",
-          "link": "https://ieeexplore.ieee.org/document/11012653",
-          "authors": "Duong Thanh Tran, Nguyen Doan Hieu Nguyen, Nhat Truong Pham, Rajan Rakkiyappan, Rajendra Karki, Balachandran Manavalan"
-        },
-        "c": "https://github.com/cbbl-skku-org/XMolCap",
-        "n": "XMolCap",
-        "d": "2025-05-23",
-        "m1": "62.0",
-        "m2": "53.8",
-        "m3": "67.8",
-        "m4": "53.9",
-        "m5": "61.8",
-        "m6": "63.8"
-      },
-      {
-        "p": {
           "name": "MolCA: Molecular Graph-Language Modeling with Cross-Modal Projector and Uni-Modal Adapter",
           "link": "https://arxiv.org/abs/2310.12798v4",
           "authors": "Zhiyuan Liu, Sihang Li, Yanchen Luo, Hao Fei, Yixin Cao, Kenji Kawaguchi, Xiang Wang, Tat-Seng Chua"
@@ -173,6 +157,22 @@
         "m4": "68.1",
         "m5": "53.7",
         "m6": "61.8"
+      },
+      {
+        "p": {
+          "name": "XMolCap: Advancing Molecular Captioning through Multimodal Fusion and Explainable Graph Neural Networks",
+          "link": "https://ieeexplore.ieee.org/document/11012653",
+          "authors": "Duong Thanh Tran, Nguyen Doan Hieu Nguyen, Nhat Truong Pham, Rajan Rakkiyappan, Rajendra Karki, Balachandran Manavalan"
+        },
+        "c": "https://github.com/cbbl-skku-org/XMolCap",
+        "n": "XMolCap",
+        "d": "2025-05-23",
+        "m1": "62.0",
+        "m2": "53.8",
+        "m3": "67.8",
+        "m4": "53.9",
+        "m5": "61.8",
+        "m6": "63.8"
       },
       {
         "p": {
@@ -390,22 +390,6 @@
       },
       {
         "p": {
-          "name": "Mol-LLM: Multimodal Generalist Molecular LLM with Improved Graph Utilization",
-          "link": "https://arxiv.org/abs/2502.02810v2",
-          "authors": "Chanhui Lee, Hanbum Ko, Yuheon Song, Yongjun Jeong, Rodrigo Hormazabal, Sehui Han, Kyunghoon Bae, Sungbin Lim, Sungwoong Kim"
-        },
-        "c": "",
-        "n": "Mol-LLM",
-        "d": "2025-02-05",
-        "m1": "56.0",
-        "m2": "49.0",
-        "m3": "59.3",
-        "m4": "52.4",
-        "m5": "37.0",
-        "m6": "46.7"
-      },
-      {
-        "p": {
           "name": "Unifying Molecular and Textual Representations via Multi-task Language Modelling",
           "link": "https://arxiv.org/abs/2301.12586v2",
           "authors": "Dimitrios Christofidellis, Giorgio Giannone, Jannis Born, Ole Winther, Teodoro Laino, Matteo Manica"
@@ -419,6 +403,22 @@
         "m4": "63.8",
         "m5": "48.8",
         "m6": "58"
+      },
+      {
+        "p": {
+          "name": "Mol-LLM: Multimodal Generalist Molecular LLM with Improved Graph Utilization",
+          "link": "https://arxiv.org/abs/2502.02810v2",
+          "authors": "Chanhui Lee, Hanbum Ko, Yuheon Song, Yongjun Jeong, Rodrigo Hormazabal, Sehui Han, Kyunghoon Bae, Sungbin Lim, Sungwoong Kim"
+        },
+        "c": "",
+        "n": "Mol-LLM",
+        "d": "2025-02-05",
+        "m1": "56.0",
+        "m2": "49.0",
+        "m3": "59.3",
+        "m4": "52.4",
+        "m5": "37.0",
+        "m6": "46.7"
       },
       {
         "p": {
@@ -452,6 +452,22 @@
       },
       {
         "p": {
+          "name": "Graph-based Molecular Representation Learning",
+          "link": "https://arxiv.org/abs/2207.04869v3",
+          "authors": "Zhichun Guo, Kehan Guo, Bozhao Nan, Yijun Tian, Roshni G. Iyer, Yihong Ma, Olaf Wiest, Xiangliang Zhang, Wei Wang, Chuxu Zhang, Nitesh V. Chawla"
+        },
+        "c": "https://github.com/zaixizhang/MGSSL",
+        "n": "GAMIC (Mistral)",
+        "d": "2022-07-08",
+        "m1": "54.2",
+        "m2": "43.9",
+        "m3": "58.5",
+        "m4": "61.7",
+        "m5": "46.6",
+        "m6": "56.1"
+      },
+      {
+        "p": {
           "name": "MolFM: A Multimodal Molecular Foundation Model",
           "link": "https://arxiv.org/abs/2307.09484v2",
           "authors": "Yizhen Luo, Kai Yang, Massimo Hong, Xing Yi Liu, Zaiqing Nie"
@@ -466,22 +482,6 @@
         "m5": "46.9",
         "m6": "56.2",
         "m7": "55.7"
-      },
-      {
-        "p": {
-          "name": "Graph-based Molecular Representation Learning",
-          "link": "https://arxiv.org/abs/2207.04869v3",
-          "authors": "Zhichun Guo, Kehan Guo, Bozhao Nan, Yijun Tian, Roshni G. Iyer, Yihong Ma, Olaf Wiest, Xiangliang Zhang, Wei Wang, Chuxu Zhang, Nitesh V. Chawla"
-        },
-        "c": "https://github.com/zaixizhang/MGSSL",
-        "n": "GAMIC (Mistral)",
-        "d": "2022-07-08",
-        "m1": "54.2",
-        "m2": "43.9",
-        "m3": "58.5",
-        "m4": "61.7",
-        "m5": "46.6",
-        "m6": "56.1"
       },
       {
         "p": {

@@ -109,18 +109,6 @@
       },
       {
         "p": {
-          "name": "CLRNet: Cross Layer Refinement Network for Lane Detection",
-          "link": "https://arxiv.org/abs/2203.10350v1",
-          "authors": "Tu Zheng, Yifei HUANG, Yang Liu, Wenjian Tang, Zheng Yang, Deng Cai, Xiaofei He"
-        },
-        "c": "https://github.com/Turoad/lanedet",
-        "n": "CLRNet(ResNet-18)",
-        "d": "2022-03-19",
-        "m1": "96.82%",
-        "m2": "97.89"
-      },
-      {
-        "p": {
           "name": "RESA: Recurrent Feature-Shift Aggregator for Lane Detection",
           "link": "https://arxiv.org/abs/2008.13719v2",
           "authors": "Tu Zheng, Hao Fang, Yi Zhang, Wenjian Tang, Zheng Yang, Haifeng Liu, Deng Cai"
@@ -130,6 +118,18 @@
         "d": "2020-08-31",
         "m1": "96.82",
         "m2": "96.93"
+      },
+      {
+        "p": {
+          "name": "CLRNet: Cross Layer Refinement Network for Lane Detection",
+          "link": "https://arxiv.org/abs/2203.10350v1",
+          "authors": "Tu Zheng, Yifei HUANG, Yang Liu, Wenjian Tang, Zheng Yang, Deng Cai, Xiaofei He"
+        },
+        "c": "https://github.com/Turoad/lanedet",
+        "n": "CLRNet(ResNet-18)",
+        "d": "2022-03-19",
+        "m1": "96.82%",
+        "m2": "97.89"
       },
       {
         "p": {
@@ -218,7 +218,7 @@
         "p": "[]()",
         "c": "",
         "n": "Oblique Convolution",
-        "d": null,
+        "d": "",
         "m1": "96.50%",
         "m2": "97.42"
       },
@@ -236,15 +236,14 @@
       },
       {
         "p": {
-          "name": "EL-GAN: Embedding Loss Driven Generative Adversarial Networks for Lane Detection",
-          "link": "http://arxiv.org/abs/1806.05525v2",
-          "authors": "Mohsen Ghafoorian, Cedric Nugteren, Nóra Baka, Olaf Booij, Michael Hofmann"
+          "name": "Semantic Instance Segmentation with a Discriminative Loss Function",
+          "link": "http://arxiv.org/abs/1708.02551v1",
+          "authors": "Bert De Brabandere, Davy Neven, Luc van Gool"
         },
-        "c": "",
-        "n": "EL-GAN",
-        "d": "2018-06-14",
-        "m1": "96.40%",
-        "m2": "96.26"
+        "c": "https://github.com/Wizaron/instance-segmentation-pytorch",
+        "n": "Discriminative loss function",
+        "d": "2017-08-08",
+        "m1": "96.40%"
       },
       {
         "p": {
@@ -260,14 +259,15 @@
       },
       {
         "p": {
-          "name": "Semantic Instance Segmentation with a Discriminative Loss Function",
-          "link": "http://arxiv.org/abs/1708.02551v1",
-          "authors": "Bert De Brabandere, Davy Neven, Luc van Gool"
+          "name": "EL-GAN: Embedding Loss Driven Generative Adversarial Networks for Lane Detection",
+          "link": "http://arxiv.org/abs/1806.05525v2",
+          "authors": "Mohsen Ghafoorian, Cedric Nugteren, Nóra Baka, Olaf Booij, Michael Hofmann"
         },
-        "c": "https://github.com/Wizaron/instance-segmentation-pytorch",
-        "n": "Discriminative loss function",
-        "d": "2017-08-08",
-        "m1": "96.40%"
+        "c": "",
+        "n": "EL-GAN",
+        "d": "2018-06-14",
+        "m1": "96.40%",
+        "m2": "96.26"
       },
       {
         "p": {
@@ -345,7 +345,7 @@
         "p": "[]()",
         "c": "",
         "n": "Lane-LSQ",
-        "d": null,
+        "d": "",
         "m1": "95.84%"
       },
       {
@@ -456,7 +456,7 @@
         "p": "[]()",
         "c": "",
         "n": "ERFNet",
-        "d": null,
+        "d": "",
         "m1": "94.5%"
       },
       {

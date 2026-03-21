@@ -217,18 +217,6 @@
       },
       {
         "p": {
-          "name": "The Missing Point in Vision Transformers for Universal Image Segmentation",
-          "link": "https://arxiv.org/abs/2505.19795v1",
-          "authors": "Sajjad Shahabodini, Mobina Mansoori, Farnoush Bayatmakou, Jamshid Abouei, Konstantinos N. Plataniotis, Arash Mohammadi"
-        },
-        "c": "https://github.com/sajjad-sh33/vit-p",
-        "n": "ViT-P (OneFormer, DiNAT-L)",
-        "d": "2025-05-26",
-        "m1": "59.9",
-        "m3": "309"
-      },
-      {
-        "p": {
           "name": "Swin Transformer V2: Scaling Up Capacity and Resolution",
           "link": "https://arxiv.org/abs/2111.09883v2",
           "authors": "Ze Liu, Han Hu, Yutong Lin, Zhuliang Yao, Zhenda Xie, Yixuan Wei, Jia Ning, Yue Cao, Zheng Zhang, Li Dong, Furu Wei, Baining Guo"
@@ -248,6 +236,18 @@
         "n": "PIIP-LH6B(UperNet)",
         "d": "2024-06-06",
         "m1": "59.9"
+      },
+      {
+        "p": {
+          "name": "The Missing Point in Vision Transformers for Universal Image Segmentation",
+          "link": "https://arxiv.org/abs/2505.19795v1",
+          "authors": "Sajjad Shahabodini, Mobina Mansoori, Farnoush Bayatmakou, Jamshid Abouei, Konstantinos N. Plataniotis, Arash Mohammadi"
+        },
+        "c": "https://github.com/sajjad-sh33/vit-p",
+        "n": "ViT-P (OneFormer, DiNAT-L)",
+        "d": "2025-05-26",
+        "m1": "59.9",
+        "m3": "309"
       },
       {
         "p": {
@@ -312,18 +312,6 @@
       },
       {
         "p": {
-          "name": "SegViTv2: Exploring Efficient and Continual Semantic Segmentation with Plain Vision Transformers",
-          "link": "https://arxiv.org/abs/2306.06289v2",
-          "authors": "BoWen Zhang, Liyang Liu, Minh Hieu Phan, Zhi Tian, Chunhua Shen, Yifan Liu"
-        },
-        "c": "https://github.com/zbwxp/SegVit",
-        "n": "SegViT-v2 (BEiT-v2-Large)",
-        "d": "2023-06-09",
-        "m1": "58.2",
-        "m4": "637.9"
-      },
-      {
-        "p": {
           "name": "SeMask: Semantically Masked Transformers for Semantic Segmentation",
           "link": "https://arxiv.org/abs/2112.12782v3",
           "authors": "Jitesh Jain, Anukriti Singh, Nikita Orlov, Zilong Huang, Jiachen Li, Steven Walton, Humphrey Shi"
@@ -343,6 +331,18 @@
         "n": "SeMask (SeMask Swin-L MSFaPN-Mask2Former)",
         "d": "2021-12-23",
         "m1": "58.2"
+      },
+      {
+        "p": {
+          "name": "SegViTv2: Exploring Efficient and Continual Semantic Segmentation with Plain Vision Transformers",
+          "link": "https://arxiv.org/abs/2306.06289v2",
+          "authors": "BoWen Zhang, Liyang Liu, Minh Hieu Phan, Zhi Tian, Chunhua Shen, Yifan Liu"
+        },
+        "c": "https://github.com/zbwxp/SegVit",
+        "n": "SegViT-v2 (BEiT-v2-Large)",
+        "d": "2023-06-09",
+        "m1": "58.2",
+        "m4": "637.9"
       },
       {
         "p": {
@@ -680,30 +680,6 @@
       },
       {
         "p": {
-          "name": "TransNeXt: Robust Foveal Visual Perception for Vision Transformers",
-          "link": "https://arxiv.org/abs/2311.17132v3",
-          "authors": "Dai Shi"
-        },
-        "c": "https://github.com/Westlake-AI/openmixup",
-        "n": "TransNeXt-Base (IN-1K pretrain, Mask2Former, 512)",
-        "d": "2023-11-28",
-        "m1": "54.7",
-        "m3": "109"
-      },
-      {
-        "p": {
-          "name": "MOAT: Alternating Mobile Convolution and Attention Brings Strong Vision Models",
-          "link": "https://arxiv.org/abs/2210.01820v2",
-          "authors": "Chenglin Yang, Siyuan Qiao, Qihang Yu, Xiaoding Yuan, Yukun Zhu, Alan Yuille, Hartwig Adam, Liang-Chieh Chen"
-        },
-        "c": "https://github.com/google-research/deeplab2",
-        "n": "MOAT-2 (IN-22K pretraining, single-scale)",
-        "d": "2022-10-04",
-        "m1": "54.7",
-        "m3": "81"
-      },
-      {
-        "p": {
           "name": "Context Autoencoder for Self-Supervised Representation Learning",
           "link": "https://arxiv.org/abs/2202.03026v3",
           "authors": "Xiaokang Chen, Mingyu Ding, Xiaodi Wang, Ying Xin, Shentong Mo, Yunhao Wang, Shumin Han, Ping Luo, Gang Zeng, Jingdong Wang"
@@ -726,6 +702,30 @@
       },
       {
         "p": {
+          "name": "MOAT: Alternating Mobile Convolution and Attention Brings Strong Vision Models",
+          "link": "https://arxiv.org/abs/2210.01820v2",
+          "authors": "Chenglin Yang, Siyuan Qiao, Qihang Yu, Xiaoding Yuan, Yukun Zhu, Alan Yuille, Hartwig Adam, Liang-Chieh Chen"
+        },
+        "c": "https://github.com/google-research/deeplab2",
+        "n": "MOAT-2 (IN-22K pretraining, single-scale)",
+        "d": "2022-10-04",
+        "m1": "54.7",
+        "m3": "81"
+      },
+      {
+        "p": {
+          "name": "TransNeXt: Robust Foveal Visual Perception for Vision Transformers",
+          "link": "https://arxiv.org/abs/2311.17132v3",
+          "authors": "Dai Shi"
+        },
+        "c": "https://github.com/Westlake-AI/openmixup",
+        "n": "TransNeXt-Base (IN-1K pretrain, Mask2Former, 512)",
+        "d": "2023-11-28",
+        "m1": "54.7",
+        "m3": "109"
+      },
+      {
+        "p": {
           "name": "Dilated Neighborhood Attention Transformer",
           "link": "https://arxiv.org/abs/2209.15001v3",
           "authors": "Ali Hassani, Humphrey Shi"
@@ -734,6 +734,17 @@
         "n": "DiNAT_s-Large (UperNet)",
         "d": "2022-09-29",
         "m1": "54.6"
+      },
+      {
+        "p": {
+          "name": "Vision Transformers with Patch Diversification",
+          "link": "https://arxiv.org/abs/2104.12753v3",
+          "authors": "Chengyue Gong, Dilin Wang, Meng Li, Vikas Chandra, Qiang Liu"
+        },
+        "c": "https://github.com/ChengyueGongR/PatchVisionTransformer",
+        "n": "PatchDiverse + Swin-L (multi-scale test, upernet, ImageNet22k pretrain)",
+        "d": "2021-04-26",
+        "m1": "54.4"
       },
       {
         "p": {
@@ -746,17 +757,6 @@
         "d": "2023-03-30",
         "m1": "54.4",
         "m3": "207"
-      },
-      {
-        "p": {
-          "name": "Vision Transformers with Patch Diversification",
-          "link": "https://arxiv.org/abs/2104.12753v3",
-          "authors": "Chengyue Gong, Dilin Wang, Meng Li, Vikas Chandra, Qiang Liu"
-        },
-        "c": "https://github.com/ChengyueGongR/PatchVisionTransformer",
-        "n": "PatchDiverse + Swin-L (multi-scale test, upernet, ImageNet22k pretrain)",
-        "d": "2021-04-26",
-        "m1": "54.4"
       },
       {
         "p": {
@@ -898,6 +898,17 @@
       },
       {
         "p": {
+          "name": "Swin Transformer V2: Scaling Up Capacity and Resolution",
+          "link": "https://arxiv.org/abs/2111.09883v2",
+          "authors": "Ze Liu, Han Hu, Yutong Lin, Zhuliang Yao, Zhenda Xie, Yixuan Wei, Jia Ning, Yue Cao, Zheng Zhang, Li Dong, Furu Wei, Baining Guo"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "SwinV2-G-HTC++ Liu et al. ([2021a])",
+        "d": "2021-11-18",
+        "m1": "53.7"
+      },
+      {
+        "p": {
           "name": "A ConvNet for the 2020s",
           "link": "https://arxiv.org/abs/2201.03545v2",
           "authors": "Zhuang Liu, Hanzi Mao, Chao-yuan Wu, Christoph Feichtenhofer, Trevor Darrell, Saining Xie"
@@ -908,17 +919,6 @@
         "m1": "53.7",
         "m3": "235",
         "m4": "2458"
-      },
-      {
-        "p": {
-          "name": "Swin Transformer V2: Scaling Up Capacity and Resolution",
-          "link": "https://arxiv.org/abs/2111.09883v2",
-          "authors": "Ze Liu, Han Hu, Yutong Lin, Zhuliang Yao, Zhenda Xie, Yixuan Wei, Jia Ning, Yue Cao, Zheng Zhang, Li Dong, Furu Wei, Baining Guo"
-        },
-        "c": "https://github.com/rwightman/pytorch-image-models",
-        "n": "SwinV2-G-HTC++ Liu et al. ([2021a])",
-        "d": "2021-11-18",
-        "m1": "53.7"
       },
       {
         "p": {
@@ -1196,18 +1196,6 @@
       },
       {
         "p": {
-          "name": "Active Token Mixer",
-          "link": "https://arxiv.org/abs/2203.06108v2",
-          "authors": "Guoqiang Wei, Zhizheng Zhang, Cuiling Lan, Yan Lu, Zhibo Chen"
-        },
-        "c": "https://github.com/microsoft/TokenMixers",
-        "n": "ActiveMLP-L(UperNet)",
-        "d": "2022-03-11",
-        "m1": "51.1",
-        "m3": "108"
-      },
-      {
-        "p": {
           "name": "SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers",
           "link": "https://arxiv.org/abs/2105.15203v3",
           "authors": "Enze Xie, Wenhai Wang, Zhiding Yu, Anima Anandkumar, Jose M. Alvarez, Ping Luo"
@@ -1228,6 +1216,18 @@
         "n": "PatchConvNet-B60 (UperNet)",
         "d": "2021-12-27",
         "m1": "51.1"
+      },
+      {
+        "p": {
+          "name": "Active Token Mixer",
+          "link": "https://arxiv.org/abs/2203.06108v2",
+          "authors": "Guoqiang Wei, Zhizheng Zhang, Cuiling Lan, Yan Lu, Zhibo Chen"
+        },
+        "c": "https://github.com/microsoft/TokenMixers",
+        "n": "ActiveMLP-L(UperNet)",
+        "d": "2022-03-11",
+        "m1": "51.1",
+        "m3": "108"
       },
       {
         "p": {
@@ -1278,6 +1278,18 @@
       },
       {
         "p": {
+          "name": "MogaNet: Multi-order Gated Aggregation Network",
+          "link": "https://arxiv.org/abs/2211.03295v3",
+          "authors": "Siyuan Li, Zedong Wang, Zicheng Liu, Cheng Tan, Haitao Lin, Di wu, ZhiYuan Chen, Jiangbin Zheng, Stan Z. Li"
+        },
+        "c": "https://github.com/chengtan9907/OpenSTL",
+        "n": "MogaNet-L (UperNet)",
+        "d": "2022-11-07",
+        "m1": "50.9",
+        "m4": "1176"
+      },
+      {
+        "p": {
           "name": "InternImage: Exploring Large-Scale Vision Foundation Models with Deformable Convolutions",
           "link": "https://arxiv.org/abs/2211.05778v4",
           "authors": "Wenhai Wang, Jifeng Dai, Zhe Chen, Zhenhang Huang, Zhiqi Li, Xizhou Zhu, Xiaowei Hu, Tong Lu, Lewei Lu, Hongsheng Li, Xiaogang Wang, Yu Qiao"
@@ -1288,18 +1300,6 @@
         "m1": "50.9",
         "m3": "80",
         "m5": "1017"
-      },
-      {
-        "p": {
-          "name": "MogaNet: Multi-order Gated Aggregation Network",
-          "link": "https://arxiv.org/abs/2211.03295v3",
-          "authors": "Siyuan Li, Zedong Wang, Zicheng Liu, Cheng Tan, Haitao Lin, Di wu, ZhiYuan Chen, Jiangbin Zheng, Stan Z. Li"
-        },
-        "c": "https://github.com/chengtan9907/OpenSTL",
-        "n": "MogaNet-L (UperNet)",
-        "d": "2022-11-07",
-        "m1": "50.9",
-        "m4": "1176"
       },
       {
         "p": {
@@ -1391,15 +1391,14 @@
       },
       {
         "p": {
-          "name": "Visual Attention Network",
-          "link": "https://arxiv.org/abs/2202.09741v5",
-          "authors": "Meng-Hao Guo, Cheng-Ze Lu, Zheng-Ning Liu, Ming-Ming Cheng, Shi-Min Hu"
+          "name": "Twins: Revisiting the Design of Spatial Attention in Vision Transformers",
+          "link": "https://arxiv.org/abs/2104.13840v4",
+          "authors": "Xiangxiang Chu, Zhi Tian, Yuqing Wang, Bo Zhang, Haibing Ren, Xiaolin Wei, Huaxia Xia, Chunhua Shen"
         },
-        "c": "https://github.com/huggingface/transformers",
-        "n": "VAN-Large (HamNet)",
-        "d": "2022-02-20",
-        "m1": "50.2",
-        "m3": "55"
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "Twins-SVT-L (UperNet, ImageNet-1k pretrain)",
+        "d": "2021-04-28",
+        "m1": "50.2"
       },
       {
         "p": {
@@ -1416,14 +1415,15 @@
       },
       {
         "p": {
-          "name": "Twins: Revisiting the Design of Spatial Attention in Vision Transformers",
-          "link": "https://arxiv.org/abs/2104.13840v4",
-          "authors": "Xiangxiang Chu, Zhi Tian, Yuqing Wang, Bo Zhang, Haibing Ren, Xiaolin Wei, Huaxia Xia, Chunhua Shen"
+          "name": "Visual Attention Network",
+          "link": "https://arxiv.org/abs/2202.09741v5",
+          "authors": "Meng-Hao Guo, Cheng-Ze Lu, Zheng-Ning Liu, Ming-Ming Cheng, Shi-Min Hu"
         },
-        "c": "https://github.com/rwightman/pytorch-image-models",
-        "n": "Twins-SVT-L (UperNet, ImageNet-1k pretrain)",
-        "d": "2021-04-28",
-        "m1": "50.2"
+        "c": "https://github.com/huggingface/transformers",
+        "n": "VAN-Large (HamNet)",
+        "d": "2022-02-20",
+        "m1": "50.2",
+        "m3": "55"
       },
       {
         "p": {
@@ -1496,6 +1496,17 @@
       },
       {
         "p": {
+          "name": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+          "link": "https://arxiv.org/abs/2103.14030v2",
+          "authors": "Ze Liu, Yutong Lin, Yue Cao, Han Hu, Yixuan Wei, Zheng Zhang, Stephen Lin, Baining Guo"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Swin-B (UperNet, ImageNet-1k pretrain)",
+        "d": "2021-03-25",
+        "m1": "49.7"
+      },
+      {
+        "p": {
           "name": "Neighborhood Attention Transformer",
           "link": "https://arxiv.org/abs/2204.07143v5",
           "authors": "Ali Hassani, Steven Walton, Jiachen Li, Shen Li, Humphrey Shi"
@@ -1506,17 +1517,6 @@
         "m1": "49.7",
         "m3": "123",
         "m4": "1137"
-      },
-      {
-        "p": {
-          "name": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
-          "link": "https://arxiv.org/abs/2103.14030v2",
-          "authors": "Ze Liu, Yutong Lin, Yue Cao, Han Hu, Yixuan Wei, Zheng Zhang, Stephen Lin, Baining Guo"
-        },
-        "c": "https://github.com/huggingface/transformers",
-        "n": "Swin-B (UperNet, ImageNet-1k pretrain)",
-        "d": "2021-03-25",
-        "m1": "49.7"
       },
       {
         "p": {
@@ -1531,19 +1531,6 @@
       },
       {
         "p": {
-          "name": "A ConvNet for the 2020s",
-          "link": "https://arxiv.org/abs/2201.03545v2",
-          "authors": "Zhuang Liu, Hanzi Mao, Chao-yuan Wu, Christoph Feichtenhofer, Trevor Darrell, Saining Xie"
-        },
-        "c": "https://github.com/keras-team/keras/blob/master/keras/applications/convnext.py",
-        "n": "ConvNeXt-S",
-        "d": "2022-01-10",
-        "m1": "49.6",
-        "m3": "82",
-        "m4": "1027"
-      },
-      {
-        "p": {
           "name": "Is Attention Better Than Matrix Decomposition?",
           "link": "https://arxiv.org/abs/2109.04553v2",
           "authors": "Zhengyang Geng, Meng-Hao Guo, Hongxu Chen, Xia Li, Ke Wei, Zhouchen Lin"
@@ -1554,6 +1541,19 @@
         "m1": "49.6",
         "m3": "27.4",
         "m4": "34.4"
+      },
+      {
+        "p": {
+          "name": "A ConvNet for the 2020s",
+          "link": "https://arxiv.org/abs/2201.03545v2",
+          "authors": "Zhuang Liu, Hanzi Mao, Chao-yuan Wu, Christoph Feichtenhofer, Trevor Darrell, Saining Xie"
+        },
+        "c": "https://github.com/keras-team/keras/blob/master/keras/applications/convnext.py",
+        "n": "ConvNeXt-S",
+        "d": "2022-01-10",
+        "m1": "49.6",
+        "m3": "82",
+        "m4": "1027"
       },
       {
         "p": {
@@ -1615,6 +1615,17 @@
       },
       {
         "p": {
+          "name": "When Shift Operation Meets Vision Transformer: An Extremely Simple Alternative to Attention Mechanism",
+          "link": "https://arxiv.org/abs/2201.10801v1",
+          "authors": "Guangting Wang, Yucheng Zhao, Chuanxin Tang, Chong Luo, Wenjun Zeng"
+        },
+        "c": "https://github.com/keras-team/keras-io/blob/master/examples/vision/shiftvit.py",
+        "n": "Shift-B (UperNet)",
+        "d": "2022-01-26",
+        "m1": "49.2"
+      },
+      {
+        "p": {
           "name": "MogaNet: Multi-order Gated Aggregation Network",
           "link": "https://arxiv.org/abs/2211.03295v3",
           "authors": "Siyuan Li, Zedong Wang, Zicheng Liu, Cheng Tan, Haitao Lin, Di wu, ZhiYuan Chen, Jiangbin Zheng, Stan Z. Li"
@@ -1624,17 +1635,6 @@
         "d": "2022-11-07",
         "m1": "49.2",
         "m4": "946"
-      },
-      {
-        "p": {
-          "name": "When Shift Operation Meets Vision Transformer: An Extremely Simple Alternative to Attention Mechanism",
-          "link": "https://arxiv.org/abs/2201.10801v1",
-          "authors": "Guangting Wang, Yucheng Zhao, Chuanxin Tang, Chong Luo, Wenjun Zeng"
-        },
-        "c": "https://github.com/keras-team/keras-io/blob/master/examples/vision/shiftvit.py",
-        "n": "Shift-B (UperNet)",
-        "d": "2022-01-26",
-        "m1": "49.2"
       },
       {
         "p": {
@@ -1660,19 +1660,6 @@
       },
       {
         "p": {
-          "name": "Global Context Vision Transformers",
-          "link": "https://arxiv.org/abs/2206.09959v5",
-          "authors": "Ali Hatamizadeh, Hongxu Yin, Greg Heinrich, Jan Kautz, Pavlo Molchanov"
-        },
-        "c": "https://github.com/rwightman/pytorch-image-models",
-        "n": "GC ViT-B",
-        "d": "2022-06-20",
-        "m1": "49",
-        "m3": "125",
-        "m4": "1348"
-      },
-      {
-        "p": {
           "name": "Architecture-Agnostic Masked Image Modeling -- From ViT back to CNN",
           "link": "https://arxiv.org/abs/2205.13943v4",
           "authors": "Siyuan Li, Di wu, Fang Wu, Zelin Zang, Stan. Z. Li"
@@ -1692,6 +1679,19 @@
         "n": "EfficientViT-B3 (r512)",
         "d": "2022-05-29",
         "m1": "49"
+      },
+      {
+        "p": {
+          "name": "Global Context Vision Transformers",
+          "link": "https://arxiv.org/abs/2206.09959v5",
+          "authors": "Ali Hatamizadeh, Hongxu Yin, Greg Heinrich, Jan Kautz, Pavlo Molchanov"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "GC ViT-B",
+        "d": "2022-06-20",
+        "m1": "49",
+        "m3": "125",
+        "m4": "1348"
       },
       {
         "p": {
@@ -1719,6 +1719,17 @@
       },
       {
         "p": {
+          "name": "XCiT: Cross-Covariance Image Transformers",
+          "link": "https://arxiv.org/abs/2106.09681v2",
+          "authors": "Alaaeldin El-Nouby, Hugo Touvron, Mathilde Caron, Piotr Bojanowski, Matthijs Douze, Armand Joulin, Ivan Laptev, Natalia Neverova, Gabriel Synnaeve, Jakob Verbeek, Hervé Jegou"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "XCiT-M24/8 (UperNet)",
+        "d": "2021-06-17",
+        "m1": "48.4"
+      },
+      {
+        "p": {
           "name": "Neighborhood Attention Transformer",
           "link": "https://arxiv.org/abs/2204.07143v5",
           "authors": "Ali Hassani, Steven Walton, Jiachen Li, Shen Li, Humphrey Shi"
@@ -1729,17 +1740,6 @@
         "m1": "48.4",
         "m3": "58",
         "m4": "934"
-      },
-      {
-        "p": {
-          "name": "XCiT: Cross-Covariance Image Transformers",
-          "link": "https://arxiv.org/abs/2106.09681v2",
-          "authors": "Alaaeldin El-Nouby, Hugo Touvron, Mathilde Caron, Piotr Bojanowski, Matthijs Douze, Armand Joulin, Ivan Laptev, Natalia Neverova, Gabriel Synnaeve, Jakob Verbeek, Hervé Jegou"
-        },
-        "c": "https://github.com/rwightman/pytorch-image-models",
-        "n": "XCiT-M24/8 (UperNet)",
-        "d": "2021-06-17",
-        "m1": "48.4"
       },
       {
         "p": {
@@ -1779,31 +1779,6 @@
       },
       {
         "p": {
-          "name": "InternImage: Exploring Large-Scale Vision Foundation Models with Deformable Convolutions",
-          "link": "https://arxiv.org/abs/2211.05778v4",
-          "authors": "Wenhai Wang, Jifeng Dai, Zhe Chen, Zhenhang Huang, Zhiqi Li, Xizhou Zhu, Xiaowei Hu, Tong Lu, Lewei Lu, Hongsheng Li, Xiaogang Wang, Yu Qiao"
-        },
-        "c": "https://github.com/opengvlab/internimage",
-        "n": "InternImage-T",
-        "d": "2022-11-10",
-        "m1": "48.1",
-        "m3": "59",
-        "m5": "944"
-      },
-      {
-        "p": {
-          "name": "Visual Attention Network",
-          "link": "https://arxiv.org/abs/2202.09741v5",
-          "authors": "Meng-Hao Guo, Cheng-Ze Lu, Zheng-Ning Liu, Ming-Ming Cheng, Shi-Min Hu"
-        },
-        "c": "https://github.com/huggingface/transformers",
-        "n": "VAN-Large",
-        "d": "2022-02-20",
-        "m1": "48.1",
-        "m3": "49"
-      },
-      {
-        "p": {
           "name": "XCiT: Cross-Covariance Image Transformers",
           "link": "https://arxiv.org/abs/2106.09681v2",
           "authors": "Alaaeldin El-Nouby, Hugo Touvron, Mathilde Caron, Piotr Bojanowski, Matthijs Douze, Armand Joulin, Ivan Laptev, Natalia Neverova, Gabriel Synnaeve, Jakob Verbeek, Hervé Jegou"
@@ -1834,6 +1809,31 @@
         "n": "MAE (ViT-B, UperNet)",
         "d": "2021-11-11",
         "m1": "48.1"
+      },
+      {
+        "p": {
+          "name": "Visual Attention Network",
+          "link": "https://arxiv.org/abs/2202.09741v5",
+          "authors": "Meng-Hao Guo, Cheng-Ze Lu, Zheng-Ning Liu, Ming-Ming Cheng, Shi-Min Hu"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "VAN-Large",
+        "d": "2022-02-20",
+        "m1": "48.1",
+        "m3": "49"
+      },
+      {
+        "p": {
+          "name": "InternImage: Exploring Large-Scale Vision Foundation Models with Deformable Convolutions",
+          "link": "https://arxiv.org/abs/2211.05778v4",
+          "authors": "Wenhai Wang, Jifeng Dai, Zhe Chen, Zhenhang Huang, Zhiqi Li, Xizhou Zhu, Xiaowei Hu, Tong Lu, Lewei Lu, Hongsheng Li, Xiaogang Wang, Yu Qiao"
+        },
+        "c": "https://github.com/opengvlab/internimage",
+        "n": "InternImage-T",
+        "d": "2022-11-10",
+        "m1": "48.1",
+        "m3": "59",
+        "m5": "944"
       },
       {
         "p": {
@@ -2600,17 +2600,6 @@
       },
       {
         "p": {
-          "name": "Architecture-Agnostic Masked Image Modeling -- From ViT back to CNN",
-          "link": "https://arxiv.org/abs/2205.13943v4",
-          "authors": "Siyuan Li, Di wu, Fang Wu, Zelin Zang, Stan. Z. Li"
-        },
-        "c": "https://github.com/open-mmlab/mmpretrain",
-        "n": "A2MIM (ResNet-50)",
-        "d": "2022-05-27",
-        "m1": "38.3"
-      },
-      {
-        "p": {
           "name": "iBOT: Image BERT Pre-Training with Online Tokenizer",
           "link": "https://arxiv.org/abs/2111.07832v3",
           "authors": "Jinghao Zhou, Chen Wei, Huiyu Wang, Wei Shen, Cihang Xie, Alan Yuille, Tao Kong"
@@ -2618,6 +2607,17 @@
         "c": "https://github.com/bytedance/ibot",
         "n": "iBOT (ViT-B/16) (linear head)",
         "d": "2021-11-15",
+        "m1": "38.3"
+      },
+      {
+        "p": {
+          "name": "Architecture-Agnostic Masked Image Modeling -- From ViT back to CNN",
+          "link": "https://arxiv.org/abs/2205.13943v4",
+          "authors": "Siyuan Li, Di wu, Fang Wu, Zelin Zang, Stan. Z. Li"
+        },
+        "c": "https://github.com/open-mmlab/mmpretrain",
+        "n": "A2MIM (ResNet-50)",
+        "d": "2022-05-27",
         "m1": "38.3"
       },
       {

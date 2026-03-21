@@ -322,17 +322,6 @@
       },
       {
         "p": {
-          "name": "SFC: Shared Feature Calibration in Weakly Supervised Semantic Segmentation",
-          "link": "https://arxiv.org/abs/2401.11719v1",
-          "authors": "Xinqiao Zhao, Feilong Tang, Xiaoyang Wang, Jimin Xiao"
-        },
-        "c": "https://github.com/barrett-python/sfc",
-        "n": "SFC(ResNet-101)",
-        "d": "2024-01-22",
-        "m1": "71.2"
-      },
-      {
-        "p": {
           "name": "All-pairs Consistency Learning for Weakly Supervised Semantic Segmentation",
           "link": "https://arxiv.org/abs/2308.04321v2",
           "authors": "Weixuan Sun, Yanhao Zhang, Zhen Qin, Zheyuan Liu, Lin Cheng, Fanyi Wang, Yiran Zhong, Nick Barnes"
@@ -344,14 +333,14 @@
       },
       {
         "p": {
-          "name": "Railroad is not a Train: Saliency as Pseudo-pixel Supervision for Weakly Supervised Semantic Segmentation",
-          "link": "https://arxiv.org/abs/2105.08965v1",
-          "authors": "Seungho Lee, Minhyun Lee, Jongwuk Lee, Hyunjung Shim"
+          "name": "SFC: Shared Feature Calibration in Weakly Supervised Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2401.11719v1",
+          "authors": "Xinqiao Zhao, Feilong Tang, Xiaoyang Wang, Jimin Xiao"
         },
-        "c": "https://github.com/halbielee/EPS",
-        "n": "EPS(DeepLabV1-ResNet101)",
-        "d": "2021-05-19",
-        "m1": "71.0"
+        "c": "https://github.com/barrett-python/sfc",
+        "n": "SFC(ResNet-101)",
+        "d": "2024-01-22",
+        "m1": "71.2"
       },
       {
         "p": {
@@ -362,6 +351,17 @@
         "c": "https://github.com/qjadud1994/DRS",
         "n": "DRS (DeepLabV3Plus+R101)",
         "d": "2021-03-12",
+        "m1": "71.0"
+      },
+      {
+        "p": {
+          "name": "Railroad is not a Train: Saliency as Pseudo-pixel Supervision for Weakly Supervised Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2105.08965v1",
+          "authors": "Seungho Lee, Minhyun Lee, Jongwuk Lee, Hyunjung Shim"
+        },
+        "c": "https://github.com/halbielee/EPS",
+        "n": "EPS(DeepLabV1-ResNet101)",
+        "d": "2021-05-19",
         "m1": "71.0"
       },
       {
@@ -399,17 +399,6 @@
       },
       {
         "p": {
-          "name": "Threshold Matters in WSSS: Manipulating the Activation for the Robust and Accurate Segmentation Model Against Thresholds",
-          "link": "https://arxiv.org/abs/2203.16045v1",
-          "authors": "Minhyun Lee, Dongseob Kim, Hyunjung Shim"
-        },
-        "c": "https://github.com/gaviotas/amn",
-        "n": "AMN (DeepLabV2-ResNet101, MS-COCO-pretrained weights)",
-        "d": "2022-03-30",
-        "m1": "70.7"
-      },
-      {
-        "p": {
           "name": "Weakly Supervised Semantic Segmentation using Out-of-Distribution Data",
           "link": "https://arxiv.org/abs/2203.03860v1",
           "authors": "Jungbeom Lee, Seong Joon Oh, Sangdoo Yun, Junsuk Choe, Eunji Kim, Sungroh Yoon"
@@ -417,6 +406,17 @@
         "c": "https://github.com/naver-ai/w-ood",
         "n": "W-OoD (WResNet-38)",
         "d": "2022-03-08",
+        "m1": "70.7"
+      },
+      {
+        "p": {
+          "name": "Threshold Matters in WSSS: Manipulating the Activation for the Robust and Accurate Segmentation Model Against Thresholds",
+          "link": "https://arxiv.org/abs/2203.16045v1",
+          "authors": "Minhyun Lee, Dongseob Kim, Hyunjung Shim"
+        },
+        "c": "https://github.com/gaviotas/amn",
+        "n": "AMN (DeepLabV2-ResNet101, MS-COCO-pretrained weights)",
+        "d": "2022-03-30",
         "m1": "70.7"
       },
       {

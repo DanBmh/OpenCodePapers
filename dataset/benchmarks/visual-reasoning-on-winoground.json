@@ -266,6 +266,19 @@
       },
       {
         "p": {
+          "name": "Equivariant Similarity for Vision-Language Foundation Models",
+          "link": "https://arxiv.org/abs/2303.14465v2",
+          "authors": "Tan Wang, Kevin Lin, Linjie Li, Chung-Ching Lin, Zhengyuan Yang, Hanwang Zhang, Zicheng Liu, Lijuan Wang"
+        },
+        "c": "https://github.com/wangt-cn/eqben",
+        "n": "METER (EqSim)",
+        "d": "2023-03-25",
+        "m1": "45.0",
+        "m2": "22.75",
+        "m3": "18.75"
+      },
+      {
+        "p": {
           "name": "What You See is What You Read? Improving Text-Image Alignment Evaluation",
           "link": "https://arxiv.org/abs/2305.10400v4",
           "authors": "Michal Yarom, Yonatan Bitton, Soravit Changpinyo, Roee Aharoni, Jonathan Herzig, Oran Lang, Eran Ofek, Idan Szpektor"
@@ -289,19 +302,6 @@
         "m1": "45",
         "m2": "25",
         "m3": "23.75"
-      },
-      {
-        "p": {
-          "name": "Equivariant Similarity for Vision-Language Foundation Models",
-          "link": "https://arxiv.org/abs/2303.14465v2",
-          "authors": "Tan Wang, Kevin Lin, Linjie Li, Chung-Ching Lin, Zhengyuan Yang, Hanwang Zhang, Zicheng Liu, Lijuan Wang"
-        },
-        "c": "https://github.com/wangt-cn/eqben",
-        "n": "METER (EqSim)",
-        "d": "2023-03-25",
-        "m1": "45.0",
-        "m2": "22.75",
-        "m3": "18.75"
       },
       {
         "p": {
@@ -331,19 +331,6 @@
       },
       {
         "p": {
-          "name": "Prompting Large Vision-Language Models for Compositional Reasoning",
-          "link": "https://arxiv.org/abs/2401.11337v1",
-          "authors": "Timothy Ossowski, Ming Jiang, Junjie Hu"
-        },
-        "c": "https://github.com/tossowski/keycomp",
-        "n": "KeyComp* (GPT-4)",
-        "d": "2024-01-20",
-        "m1": "43.5",
-        "m2": "28.7",
-        "m3": "18.2"
-      },
-      {
-        "p": {
           "name": "Equivariant Similarity for Vision-Language Foundation Models",
           "link": "https://arxiv.org/abs/2303.14465v2",
           "authors": "Tan Wang, Kevin Lin, Linjie Li, Chung-Ching Lin, Zhengyuan Yang, Hanwang Zhang, Zicheng Liu, Lijuan Wang"
@@ -354,6 +341,19 @@
         "m1": "43.5",
         "m2": "20.75",
         "m3": "14.75"
+      },
+      {
+        "p": {
+          "name": "Prompting Large Vision-Language Models for Compositional Reasoning",
+          "link": "https://arxiv.org/abs/2401.11337v1",
+          "authors": "Timothy Ossowski, Ming Jiang, Junjie Hu"
+        },
+        "c": "https://github.com/tossowski/keycomp",
+        "n": "KeyComp* (GPT-4)",
+        "d": "2024-01-20",
+        "m1": "43.5",
+        "m2": "28.7",
+        "m3": "18.2"
       },
       {
         "p": {
@@ -396,6 +396,32 @@
       },
       {
         "p": {
+          "name": "Does Structural Attention Improve Compositional Representations in Vision-Language Models?",
+          "link": "https://sslneurips22.github.io/paper_pdfs/paper_65.pdf",
+          "authors": "Rohan Pandey, Rulin Shao, Paul Pu Liang, Louis-Philippe Morency"
+        },
+        "c": "",
+        "n": "IAIS large (Flickr30k)",
+        "d": "2022-12-03",
+        "m1": "42.50",
+        "m2": "19.75",
+        "m3": "16.00"
+      },
+      {
+        "p": {
+          "name": "Incorporating Structured Representations into Pretrained Vision & Language Models Using Scene Graphs",
+          "link": "https://arxiv.org/abs/2305.06343v2",
+          "authors": "Roei Herzig, Alon Mendelson, Leonid Karlinsky, Assaf Arbelle, Rogerio Feris, Trevor Darrell, Amir Globerson"
+        },
+        "c": "",
+        "n": "NegBLIP",
+        "d": "2023-05-10",
+        "m1": "42.5",
+        "m2": "24.0",
+        "m3": "18.5"
+      },
+      {
+        "p": {
           "name": "CoCoT: Contrastive Chain-of-Thought Prompting for Large Multimodal Models with Multiple Image Inputs",
           "link": "https://arxiv.org/abs/2401.02582v1",
           "authors": "Daoan Zhang, Junming Yang, Hanjia Lyu, Zijian Jin, Yuan YAO, Mingkai Chen, Jiebo Luo"
@@ -414,24 +440,11 @@
           "authors": "Roei Herzig, Alon Mendelson, Leonid Karlinsky, Assaf Arbelle, Rogerio Feris, Trevor Darrell, Amir Globerson"
         },
         "c": "",
-        "n": "NegBLIP",
+        "n": "BLIP2",
         "d": "2023-05-10",
-        "m1": "42.5",
-        "m2": "24.0",
-        "m3": "18.5"
-      },
-      {
-        "p": {
-          "name": "Does Structural Attention Improve Compositional Representations in Vision-Language Models?",
-          "link": "https://sslneurips22.github.io/paper_pdfs/paper_65.pdf",
-          "authors": "Rohan Pandey, Rulin Shao, Paul Pu Liang, Louis-Philippe Morency"
-        },
-        "c": "",
-        "n": "IAIS large (Flickr30k)",
-        "d": "2022-12-03",
-        "m1": "42.50",
-        "m2": "19.75",
-        "m3": "16.00"
+        "m1": "42.0",
+        "m2": "23.8",
+        "m3": "19.0"
       },
       {
         "p": {
@@ -445,19 +458,6 @@
         "m1": "42.0",
         "m2": "35.5",
         "m3": "22.3"
-      },
-      {
-        "p": {
-          "name": "Incorporating Structured Representations into Pretrained Vision & Language Models Using Scene Graphs",
-          "link": "https://arxiv.org/abs/2305.06343v2",
-          "authors": "Roei Herzig, Alon Mendelson, Leonid Karlinsky, Assaf Arbelle, Rogerio Feris, Trevor Darrell, Amir Globerson"
-        },
-        "c": "",
-        "n": "BLIP2",
-        "d": "2023-05-10",
-        "m1": "42.0",
-        "m2": "23.8",
-        "m3": "19.0"
       },
       {
         "p": {
@@ -552,19 +552,6 @@
       },
       {
         "p": {
-          "name": "CoCoT: Contrastive Chain-of-Thought Prompting for Large Multimodal Models with Multiple Image Inputs",
-          "link": "https://arxiv.org/abs/2401.02582v1",
-          "authors": "Daoan Zhang, Junming Yang, Hanjia Lyu, Zijian Jin, Yuan YAO, Mingkai Chen, Jiebo Luo"
-        },
-        "c": "https://github.com/vista-h/gpt-4v_social_media",
-        "n": "OpenFlamingo",
-        "d": "2024-01-05",
-        "m1": "39",
-        "m2": "41.25",
-        "m3": "33.25"
-      },
-      {
-        "p": {
           "name": "Incorporating Structured Representations into Pretrained Vision & Language Models Using Scene Graphs",
           "link": "https://arxiv.org/abs/2305.06343v2",
           "authors": "Roei Herzig, Alon Mendelson, Leonid Karlinsky, Assaf Arbelle, Rogerio Feris, Trevor Darrell, Amir Globerson"
@@ -577,10 +564,23 @@
         "m3": "15.0"
       },
       {
+        "p": {
+          "name": "CoCoT: Contrastive Chain-of-Thought Prompting for Large Multimodal Models with Multiple Image Inputs",
+          "link": "https://arxiv.org/abs/2401.02582v1",
+          "authors": "Daoan Zhang, Junming Yang, Hanjia Lyu, Zijian Jin, Yuan YAO, Mingkai Chen, Jiebo Luo"
+        },
+        "c": "https://github.com/vista-h/gpt-4v_social_media",
+        "n": "OpenFlamingo",
+        "d": "2024-01-05",
+        "m1": "39",
+        "m2": "41.25",
+        "m3": "33.25"
+      },
+      {
         "p": "[]()",
         "c": "",
         "n": "GPT-4V (image-caption match answer yes/no, zero-shot)",
-        "d": null,
+        "d": "",
         "m1": "38.00",
         "m2": "38.00",
         "m3": "38.00"
@@ -626,16 +626,14 @@
       },
       {
         "p": {
-          "name": "Revisiting the Role of Language Priors in Vision-Language Models",
-          "link": "https://arxiv.org/abs/2306.01879v4",
-          "authors": "Zhiqiu Lin, Xinyue Chen, Deepak Pathak, Pengchuan Zhang, Deva Ramanan"
+          "name": "ViLEM: Visual-Language Error Modeling for Image-Text Retrieval",
+          "link": "http://openaccess.thecvf.com//content/CVPR2023/html/Chen_ViLEM_Visual-Language_Error_Modeling_for_Image-Text_Retrieval_CVPR_2023_paper.html",
+          "authors": "Yuxin Chen, Zongyang Ma, Ziqi Zhang, Zhongang Qi, Chunfeng Yuan, Ying Shan, Bing Li, Weiming Hu, XiaoHu Qie, Jianping Wu"
         },
-        "c": "https://github.com/linzhiqiu/visual_gpt_score",
-        "n": "BLIP (VisualGPTScore, α-tuned)",
-        "d": "2023-06-02",
-        "m1": "36.5",
-        "m2": "21.5",
-        "m3": "16.8"
+        "c": "",
+        "n": "ViT-B/16 + BERT base + ViLEM",
+        "d": "2023-01-01",
+        "m1": "36.5"
       },
       {
         "p": {
@@ -652,14 +650,16 @@
       },
       {
         "p": {
-          "name": "ViLEM: Visual-Language Error Modeling for Image-Text Retrieval",
-          "link": "http://openaccess.thecvf.com//content/CVPR2023/html/Chen_ViLEM_Visual-Language_Error_Modeling_for_Image-Text_Retrieval_CVPR_2023_paper.html",
-          "authors": "Yuxin Chen, Zongyang Ma, Ziqi Zhang, Zhongang Qi, Chunfeng Yuan, Ying Shan, Bing Li, Weiming Hu, XiaoHu Qie, Jianping Wu"
+          "name": "Revisiting the Role of Language Priors in Vision-Language Models",
+          "link": "https://arxiv.org/abs/2306.01879v4",
+          "authors": "Zhiqiu Lin, Xinyue Chen, Deepak Pathak, Pengchuan Zhang, Deva Ramanan"
         },
-        "c": "",
-        "n": "ViT-B/16 + BERT base + ViLEM",
-        "d": "2023-01-01",
-        "m1": "36.5"
+        "c": "https://github.com/linzhiqiu/visual_gpt_score",
+        "n": "BLIP (VisualGPTScore, α-tuned)",
+        "d": "2023-06-02",
+        "m1": "36.5",
+        "m2": "21.5",
+        "m3": "16.8"
       },
       {
         "p": {
@@ -841,31 +841,6 @@
       },
       {
         "p": {
-          "name": "CoCoT: Contrastive Chain-of-Thought Prompting for Large Multimodal Models with Multiple Image Inputs",
-          "link": "https://arxiv.org/abs/2401.02582v1",
-          "authors": "Daoan Zhang, Junming Yang, Hanjia Lyu, Zijian Jin, Yuan YAO, Mingkai Chen, Jiebo Luo"
-        },
-        "c": "https://github.com/vista-h/gpt-4v_social_media",
-        "n": "Gemini",
-        "d": "2024-01-05",
-        "m1": "30.75",
-        "m2": "26",
-        "m3": "25"
-      },
-      {
-        "p": {
-          "name": "SelfEval: Leveraging the discriminative nature of generative models for evaluation",
-          "link": "https://arxiv.org/abs/2311.10708v2",
-          "authors": "Sai Saketh Rambhatla, Ishan Misra"
-        },
-        "c": "",
-        "n": "OCLIP (ViT-H/14) ",
-        "d": "2023-11-17",
-        "m1": "30.75",
-        "m2": "12.75"
-      },
-      {
-        "p": {
           "name": "Winoground: Probing Vision and Language Models for Visio-Linguistic Compositionality",
           "link": "https://arxiv.org/abs/2204.03162v2",
           "authors": "Tristan Thrush, Ryan Jiang, Max Bartolo, Amanpreet Singh, Adina Williams, Douwe Kiela, Candace Ross"
@@ -889,6 +864,31 @@
         "m1": "30.75",
         "m2": "10.25",
         "m3": "7.25"
+      },
+      {
+        "p": {
+          "name": "SelfEval: Leveraging the discriminative nature of generative models for evaluation",
+          "link": "https://arxiv.org/abs/2311.10708v2",
+          "authors": "Sai Saketh Rambhatla, Ishan Misra"
+        },
+        "c": "",
+        "n": "OCLIP (ViT-H/14) ",
+        "d": "2023-11-17",
+        "m1": "30.75",
+        "m2": "12.75"
+      },
+      {
+        "p": {
+          "name": "CoCoT: Contrastive Chain-of-Thought Prompting for Large Multimodal Models with Multiple Image Inputs",
+          "link": "https://arxiv.org/abs/2401.02582v1",
+          "authors": "Daoan Zhang, Junming Yang, Hanjia Lyu, Zijian Jin, Yuan YAO, Mingkai Chen, Jiebo Luo"
+        },
+        "c": "https://github.com/vista-h/gpt-4v_social_media",
+        "n": "Gemini",
+        "d": "2024-01-05",
+        "m1": "30.75",
+        "m2": "26",
+        "m3": "25"
       },
       {
         "p": {
@@ -1020,18 +1020,6 @@
       },
       {
         "p": {
-          "name": "SelfEval: Leveraging the discriminative nature of generative models for evaluation",
-          "link": "https://arxiv.org/abs/2311.10708v2",
-          "authors": "Sai Saketh Rambhatla, Ishan Misra"
-        },
-        "c": "",
-        "n": "PDM-T5 (SelfEval)",
-        "d": "2023-11-17",
-        "m1": "28.25",
-        "m2": "12.00"
-      },
-      {
-        "p": {
           "name": "What You See is What You Read? Improving Text-Image Alignment Evaluation",
           "link": "https://arxiv.org/abs/2305.10400v4",
           "authors": "Michal Yarom, Yonatan Bitton, Soravit Changpinyo, Roee Aharoni, Jonathan Herzig, Oran Lang, Eran Ofek, Idan Szpektor"
@@ -1045,16 +1033,15 @@
       },
       {
         "p": {
-          "name": "Compositional Chain-of-Thought Prompting for Large Multimodal Models",
-          "link": "https://arxiv.org/abs/2311.17076v3",
-          "authors": "Chancharik Mitra, Brandon Huang, Trevor Darrell, Roei Herzig"
+          "name": "SelfEval: Leveraging the discriminative nature of generative models for evaluation",
+          "link": "https://arxiv.org/abs/2311.10708v2",
+          "authors": "Sai Saketh Rambhatla, Ishan Misra"
         },
-        "c": "https://github.com/chancharikmitra/ccot",
-        "n": "LLaVA-1.5-ZS-CoT",
-        "d": "2023-11-27",
-        "m1": "28.0",
-        "m2": "22.5",
-        "m3": "12.3"
+        "c": "",
+        "n": "PDM-T5 (SelfEval)",
+        "d": "2023-11-17",
+        "m1": "28.25",
+        "m2": "12.00"
       },
       {
         "p": {
@@ -1068,6 +1055,19 @@
         "m1": "28.0",
         "m2": "9.0",
         "m3": "6.5"
+      },
+      {
+        "p": {
+          "name": "Compositional Chain-of-Thought Prompting for Large Multimodal Models",
+          "link": "https://arxiv.org/abs/2311.17076v3",
+          "authors": "Chancharik Mitra, Brandon Huang, Trevor Darrell, Roei Herzig"
+        },
+        "c": "https://github.com/chancharikmitra/ccot",
+        "n": "LLaVA-1.5-ZS-CoT",
+        "d": "2023-11-27",
+        "m1": "28.0",
+        "m2": "22.5",
+        "m3": "12.3"
       },
       {
         "p": {
@@ -1371,7 +1371,7 @@
         "p": "[]()",
         "c": "",
         "n": "IDEFICS 80B",
-        "d": null,
+        "d": "",
         "m1": "18.75",
         "m2": "22.5",
         "m3": "8.0"
@@ -1418,7 +1418,7 @@
         "p": "[]()",
         "c": "",
         "n": "IDEFICS 9B",
-        "d": null,
+        "d": "",
         "m1": "16.8",
         "m2": "20.8",
         "m3": "5.0"

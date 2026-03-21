@@ -197,18 +197,6 @@
       },
       {
         "p": {
-          "name": "Rethinking BiSeNet For Real-time Semantic Segmentation",
-          "link": "https://arxiv.org/abs/2104.13188v1",
-          "authors": "Mingyuan Fan, Shenqi Lai, Junshi Huang, Xiaoming Wei, Zhenhua Chai, Junfeng Luo, Xiaolin Wei"
-        },
-        "c": "https://github.com/PaddlePaddle/PaddleSeg",
-        "n": "STDC1-75",
-        "d": "2021-04-27",
-        "m1": "75.3%",
-        "m2": "126.7"
-      },
-      {
-        "p": {
           "name": "BiSeNet V2: Bilateral Network with Guided Aggregation for Real-time Semantic Segmentation",
           "link": "https://arxiv.org/abs/2004.02147v1",
           "authors": "Changqian Yu, Changxin Gao, Jingbo Wang, Gang Yu, Chunhua Shen, Nong Sang"
@@ -219,6 +207,18 @@
         "m1": "75.3%",
         "m2": "47.3",
         "m3": "21.1"
+      },
+      {
+        "p": {
+          "name": "Rethinking BiSeNet For Real-time Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2104.13188v1",
+          "authors": "Mingyuan Fan, Shenqi Lai, Junshi Huang, Xiaoming Wei, Zhenhua Chai, Junfeng Luo, Xiaolin Wei"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
+        "n": "STDC1-75",
+        "d": "2021-04-27",
+        "m1": "75.3%",
+        "m2": "126.7"
       },
       {
         "p": {
@@ -373,7 +373,7 @@
         "p": "[]()",
         "c": "",
         "n": "FasterSeg",
-        "d": null,
+        "d": "",
         "m1": "71.5%",
         "m2": "163.9",
         "m3": "6.1"
@@ -405,19 +405,6 @@
       },
       {
         "p": {
-          "name": "LEDNet: A Lightweight Encoder-Decoder Network for Real-Time Semantic Segmentation",
-          "link": "https://arxiv.org/abs/1905.02423v3",
-          "authors": "Yu Wang, Quan Zhou, Jia Liu, Jian Xiong, Guangwei Gao, Xiaofu Wu, Longin Jan Latecki"
-        },
-        "c": "https://github.com/osmr/imgclsmob",
-        "n": "LEDNet",
-        "d": "2019-05-07",
-        "m1": "70.6%",
-        "m2": "71",
-        "m3": "14"
-      },
-      {
-        "p": {
           "name": "ICNet for Real-Time Semantic Segmentation on High-Resolution Images",
           "link": "http://arxiv.org/abs/1704.08545v2",
           "authors": "Hengshuang Zhao, Xiaojuan Qi, Xiaoyong Shen, Jianping Shi, Jiaya Jia"
@@ -428,6 +415,19 @@
         "m1": "70.6%",
         "m2": "30.3",
         "m3": "33"
+      },
+      {
+        "p": {
+          "name": "LEDNet: A Lightweight Encoder-Decoder Network for Real-Time Semantic Segmentation",
+          "link": "https://arxiv.org/abs/1905.02423v3",
+          "authors": "Yu Wang, Quan Zhou, Jia Liu, Jian Xiong, Guangwei Gao, Xiaofu Wu, Longin Jan Latecki"
+        },
+        "c": "https://github.com/osmr/imgclsmob",
+        "n": "LEDNet",
+        "d": "2019-05-07",
+        "m1": "70.6%",
+        "m2": "71",
+        "m3": "14"
       },
       {
         "p": {
@@ -483,19 +483,6 @@
       },
       {
         "p": {
-          "name": "The Lovász-Softmax loss: A tractable surrogate for the optimization of the intersection-over-union measure in neural networks",
-          "link": "http://arxiv.org/abs/1705.08790v2",
-          "authors": "Maxim Berman, Amal Rannen Triki, Matthew B. Blaschko"
-        },
-        "c": "https://github.com/CoinCheung/pytorch-loss",
-        "n": "ENet + Lovász-Softmax",
-        "d": "2017-05-24",
-        "m1": "63.1%",
-        "m2": "76.9",
-        "m3": "13"
-      },
-      {
-        "p": {
           "name": "Semantic Image Segmentation with Deep Convolutional Nets and Fully Connected CRFs",
           "link": "http://arxiv.org/abs/1412.7062v4",
           "authors": "Liang-Chieh Chen, George Papandreou, Iasonas Kokkinos, Kevin Murphy, Alan L. Yuille"
@@ -506,6 +493,19 @@
         "m1": "63.1%",
         "m2": "0.25",
         "m3": "4000"
+      },
+      {
+        "p": {
+          "name": "The Lovász-Softmax loss: A tractable surrogate for the optimization of the intersection-over-union measure in neural networks",
+          "link": "http://arxiv.org/abs/1705.08790v2",
+          "authors": "Maxim Berman, Amal Rannen Triki, Matthew B. Blaschko"
+        },
+        "c": "https://github.com/CoinCheung/pytorch-loss",
+        "n": "ENet + Lovász-Softmax",
+        "d": "2017-05-24",
+        "m1": "63.1%",
+        "m2": "76.9",
+        "m3": "13"
       },
       {
         "p": {

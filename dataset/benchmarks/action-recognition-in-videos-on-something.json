@@ -65,6 +65,17 @@
       },
       {
         "p": {
+          "name": "InternVideo: General Video Foundation Models via Generative and Discriminative Learning",
+          "link": "https://arxiv.org/abs/2212.03191v2",
+          "authors": "Yi Wang, Kunchang Li, Yizhuo Li, Yinan He, Bingkun Huang, Zhiyu Zhao, Hongjie Zhang, Jilan Xu, Yi Liu, Zun Wang, Sen Xing, Guo Chen, Junting Pan, Jiashuo Yu, Yali Wang, LiMin Wang, Yu Qiao"
+        },
+        "c": "https://github.com/opengvlab/internvideo",
+        "n": "InternVideo",
+        "d": "2022-12-06",
+        "m1": "77.2"
+      },
+      {
+        "p": {
           "name": "DejaVid: Encoder-Agnostic Learned Temporal Matching for Video Classification",
           "link": "http://openaccess.thecvf.com//content/CVPR2025/html/Ho_DejaVid_Encoder-Agnostic_Learned_Temporal_Matching_for_Video_Classification_CVPR_2025_paper.html",
           "authors": "Darryl Ho, Samuel Madden"
@@ -74,17 +85,6 @@
         "d": "2025-01-01",
         "m1": "77.2",
         "m2": "96.3"
-      },
-      {
-        "p": {
-          "name": "InternVideo: General Video Foundation Models via Generative and Discriminative Learning",
-          "link": "https://arxiv.org/abs/2212.03191v2",
-          "authors": "Yi Wang, Kunchang Li, Yizhuo Li, Yinan He, Bingkun Huang, Zhiyu Zhao, Hongjie Zhang, Jilan Xu, Yi Liu, Zun Wang, Sen Xing, Guo Chen, Junting Pan, Jiashuo Yu, Yali Wang, LiMin Wang, Yu Qiao"
-        },
-        "c": "https://github.com/opengvlab/internvideo",
-        "n": "InternVideo",
-        "d": "2022-12-06",
-        "m1": "77.2"
       },
       {
         "p": {
@@ -402,18 +402,6 @@
       },
       {
         "p": {
-          "name": "Omnivore: A Single Model for Many Visual Modalities",
-          "link": "https://arxiv.org/abs/2201.08377v2",
-          "authors": "Rohit Girdhar, Mannat Singh, Nikhila Ravi, Laurens van der Maaten, Armand Joulin, Ishan Misra"
-        },
-        "c": "https://github.com/towhee-io/towhee",
-        "n": "OMNIVORE (Swin-B,  IN-21K+ Kinetics400 pretrain)",
-        "d": "2022-01-20",
-        "m1": "71.4",
-        "m2": "93.5"
-      },
-      {
-        "p": {
           "name": "BEVT: BERT Pretraining of Video Transformers",
           "link": "https://arxiv.org/abs/2112.01529v3",
           "authors": "Rui Wang, Dongdong Chen, Zuxuan Wu, Yinpeng Chen, Xiyang Dai, Mengchen Liu, Yu-Gang Jiang, Luowei Zhou, Lu Yuan"
@@ -425,6 +413,18 @@
         "m2": "-",
         "m3": "89",
         "m4": "321x3"
+      },
+      {
+        "p": {
+          "name": "Omnivore: A Single Model for Many Visual Modalities",
+          "link": "https://arxiv.org/abs/2201.08377v2",
+          "authors": "Rohit Girdhar, Mannat Singh, Nikhila Ravi, Laurens van der Maaten, Armand Joulin, Ishan Misra"
+        },
+        "c": "https://github.com/towhee-io/towhee",
+        "n": "OMNIVORE (Swin-B,  IN-21K+ Kinetics400 pretrain)",
+        "d": "2022-01-20",
+        "m1": "71.4",
+        "m2": "93.5"
       },
       {
         "p": {
@@ -467,6 +467,18 @@
       },
       {
         "p": {
+          "name": "Co-training Transformer with Videos and Images Improves Action Recognition",
+          "link": "https://arxiv.org/abs/2112.07175v1",
+          "authors": "BoWen Zhang, Jiahui Yu, Christopher Fifty, Wei Han, Andrew M. Dai, Ruoming Pang, Fei Sha"
+        },
+        "c": "",
+        "n": "CoVeR(JFT-3B)",
+        "d": "2021-12-14",
+        "m1": "70.9",
+        "m2": "92.5"
+      },
+      {
+        "p": {
           "name": "Masked Video Distillation: Rethinking Masked Feature Modeling for Self-supervised Video Representation Learning",
           "link": "https://arxiv.org/abs/2212.04500v2",
           "authors": "Rui Wang, Dongdong Chen, Zuxuan Wu, Yinpeng Chen, Xiyang Dai, Mengchen Liu, Lu Yuan, Yu-Gang Jiang"
@@ -478,18 +490,6 @@
         "m2": "92.8",
         "m3": "22",
         "m4": "57x6"
-      },
-      {
-        "p": {
-          "name": "Co-training Transformer with Videos and Images Improves Action Recognition",
-          "link": "https://arxiv.org/abs/2112.07175v1",
-          "authors": "BoWen Zhang, Jiahui Yu, Christopher Fifty, Wei Han, Andrew M. Dai, Ruoming Pang, Fei Sha"
-        },
-        "c": "",
-        "n": "CoVeR(JFT-3B)",
-        "d": "2021-12-14",
-        "m1": "70.9",
-        "m2": "92.5"
       },
       {
         "p": {
@@ -507,6 +507,18 @@
       },
       {
         "p": {
+          "name": "Implicit Temporal Modeling with Learnable Alignment for Video Recognition",
+          "link": "https://arxiv.org/abs/2304.10465v2",
+          "authors": "Shuyuan Tu, Qi Dai, Zuxuan Wu, Zhi-Qi Cheng, Han Hu, Yu-Gang Jiang"
+        },
+        "c": "https://github.com/francis-rings/ila",
+        "n": "ILA (ViT-L/14)",
+        "d": "2023-04-20",
+        "m1": "70.2",
+        "m2": "91.8"
+      },
+      {
+        "p": {
           "name": "Asymmetric Masked Distillation for Pre-Training Small Foundation Models",
           "link": "https://arxiv.org/abs/2311.03149v2",
           "authors": "Zhiyu Zhao, Bingkun Huang, Sen Xing, Gangshan Wu, Yu Qiao, LiMin Wang"
@@ -518,18 +530,6 @@
         "m2": "92.5",
         "m3": "22",
         "m4": "57x6"
-      },
-      {
-        "p": {
-          "name": "Implicit Temporal Modeling with Learnable Alignment for Video Recognition",
-          "link": "https://arxiv.org/abs/2304.10465v2",
-          "authors": "Shuyuan Tu, Qi Dai, Zuxuan Wu, Zhi-Qi Cheng, Han Hu, Yu-Gang Jiang"
-        },
-        "c": "https://github.com/francis-rings/ila",
-        "n": "ILA (ViT-L/14)",
-        "d": "2023-04-20",
-        "m1": "70.2",
-        "m2": "91.8"
       },
       {
         "p": {
@@ -559,6 +559,17 @@
       },
       {
         "p": {
+          "name": "Stand-Alone Inter-Frame Attention in Video Models",
+          "link": "https://arxiv.org/abs/2206.06931v1",
+          "authors": "Fuchen Long, Zhaofan Qiu, Yingwei Pan, Ting Yao, Jiebo Luo, Tao Mei"
+        },
+        "c": "https://github.com/fuchenustc/sifa",
+        "n": "SIFA",
+        "d": "2022-06-14",
+        "m1": "69.8"
+      },
+      {
+        "p": {
           "name": "Spatiotemporal Self-attention Modeling with Temporal Patch Shift for Action Recognition",
           "link": "https://arxiv.org/abs/2207.13259v1",
           "authors": "Wangmeng Xiang, Chao Li, Biao Wang, Xihan Wei, Xian-Sheng Hua, Lei Zhang"
@@ -570,14 +581,16 @@
       },
       {
         "p": {
-          "name": "Stand-Alone Inter-Frame Attention in Video Models",
-          "link": "https://arxiv.org/abs/2206.06931v1",
-          "authors": "Fuchen Long, Zhaofan Qiu, Yingwei Pan, Ting Yao, Jiebo Luo, Tao Mei"
+          "name": "TDN: Temporal Difference Networks for Efficient Action Recognition",
+          "link": "https://arxiv.org/abs/2012.10071v2",
+          "authors": "LiMin Wang, Zhan Tong, Bin Ji, Gangshan Wu"
         },
-        "c": "https://github.com/fuchenustc/sifa",
-        "n": "SIFA",
-        "d": "2022-06-14",
-        "m1": "69.8"
+        "c": "https://github.com/MCG-NJU/TDN",
+        "n": "TDN ResNet101 (one clip, three crop, 8+16 ensemble, ImageNet pretrained, RGB only)",
+        "d": "2020-12-18",
+        "m1": "69.6",
+        "m2": "92.2",
+        "m4": "198x3"
       },
       {
         "p": {
@@ -595,16 +608,17 @@
       },
       {
         "p": {
-          "name": "TDN: Temporal Difference Networks for Efficient Action Recognition",
-          "link": "https://arxiv.org/abs/2012.10071v2",
-          "authors": "LiMin Wang, Zhan Tong, Bin Ji, Gangshan Wu"
+          "name": "Object-Region Video Transformers",
+          "link": "https://arxiv.org/abs/2110.06915v3",
+          "authors": "Roei Herzig, Elad Ben-Avraham, Karttikeya Mangalam, Amir Bar, Gal Chechik, Anna Rohrbach, Trevor Darrell, Amir Globerson"
         },
-        "c": "https://github.com/MCG-NJU/TDN",
-        "n": "TDN ResNet101 (one clip, three crop, 8+16 ensemble, ImageNet pretrained, RGB only)",
-        "d": "2020-12-18",
-        "m1": "69.6",
-        "m2": "92.2",
-        "m4": "198x3"
+        "c": "https://github.com/eladb3/orvit",
+        "n": "ORViT Mformer-L (ORViT blocks)",
+        "d": "2021-10-13",
+        "m1": "69.5",
+        "m2": "91.5",
+        "m3": "N/A",
+        "m4": "N/A"
       },
       {
         "p": {
@@ -619,20 +633,6 @@
         "m2": "91.9",
         "m3": "94",
         "m4": "41x6"
-      },
-      {
-        "p": {
-          "name": "Object-Region Video Transformers",
-          "link": "https://arxiv.org/abs/2110.06915v3",
-          "authors": "Roei Herzig, Elad Ben-Avraham, Karttikeya Mangalam, Amir Bar, Gal Chechik, Anna Rohrbach, Trevor Darrell, Amir Globerson"
-        },
-        "c": "https://github.com/eladb3/orvit",
-        "n": "ORViT Mformer-L (ORViT blocks)",
-        "d": "2021-10-13",
-        "m1": "69.5",
-        "m2": "91.5",
-        "m3": "N/A",
-        "m4": "N/A"
       },
       {
         "p": {
@@ -776,20 +776,6 @@
       },
       {
         "p": {
-          "name": "Group Contextualization for Video Recognition",
-          "link": "https://arxiv.org/abs/2203.09694v1",
-          "authors": "Yanbin Hao, Hao Zhang, Chong-Wah Ngo, Xiangnan He"
-        },
-        "c": "https://github.com/haoyanbin918/group-contextualization",
-        "n": "GC-TDN Ensemble (R50,8+16)",
-        "d": "2022-03-18",
-        "m1": "67.8",
-        "m2": "91.2",
-        "m3": "27.4",
-        "m4": "110.1"
-      },
-      {
-        "p": {
           "name": "CT-Net: Channel Tensorization Network for Video Classification",
           "link": "https://arxiv.org/abs/2106.01603v1",
           "authors": "Kunchang Li, Xianhang Li, Yali Wang, Jun Wang, Yu Qiao"
@@ -812,6 +798,20 @@
         "n": "TCM (Ensemble)",
         "d": "2022-02-24",
         "m1": "67.8"
+      },
+      {
+        "p": {
+          "name": "Group Contextualization for Video Recognition",
+          "link": "https://arxiv.org/abs/2203.09694v1",
+          "authors": "Yanbin Hao, Hao Zhang, Chong-Wah Ngo, Xiangnan He"
+        },
+        "c": "https://github.com/haoyanbin918/group-contextualization",
+        "n": "GC-TDN Ensemble (R50,8+16)",
+        "d": "2022-03-18",
+        "m1": "67.8",
+        "m2": "91.2",
+        "m3": "27.4",
+        "m4": "110.1"
       },
       {
         "p": {
@@ -876,18 +876,6 @@
       },
       {
         "p": {
-          "name": "SCP: Soft Conditional Prompt Learning for Aerial Video Action Recognition",
-          "link": "https://arxiv.org/abs/2305.12437v4",
-          "authors": "Xijun Wang, Ruiqi Xian, Tianrui Guan, Fuxiao Liu, Dinesh Manocha"
-        },
-        "c": "",
-        "n": "PLAR",
-        "d": "2023-05-21",
-        "m1": "67.3",
-        "m2": "91"
-      },
-      {
-        "p": {
           "name": "Relational Self-Attention: What's Missing in Attention for Video Understanding",
           "link": "https://arxiv.org/abs/2111.01673v1",
           "authors": "Manjin Kim, Heeseung Kwon, Chunyu Wang, Suha Kwak, Minsu Cho"
@@ -897,6 +885,18 @@
         "d": "2021-11-02",
         "m1": "67.3",
         "m2": "90.8"
+      },
+      {
+        "p": {
+          "name": "SCP: Soft Conditional Prompt Learning for Aerial Video Action Recognition",
+          "link": "https://arxiv.org/abs/2305.12437v4",
+          "authors": "Xijun Wang, Ruiqi Xian, Tianrui Guan, Fuxiao Liu, Dinesh Manocha"
+        },
+        "c": "",
+        "n": "PLAR",
+        "d": "2023-05-21",
+        "m1": "67.3",
+        "m2": "91"
       },
       {
         "p": {
@@ -1022,18 +1022,6 @@
       },
       {
         "p": {
-          "name": "PAN: Towards Fast Action Recognition via Learning Persistence of Appearance",
-          "link": "https://arxiv.org/abs/2008.03462v1",
-          "authors": "Can Zhang, Yuexian Zou, Guang Chen, Lei Gan"
-        },
-        "c": "https://github.com/zhang-can/PAN-PyTorch",
-        "n": "PAN ResNet101 (RGB only, no Flow)",
-        "d": "2020-08-08",
-        "m1": "66.5",
-        "m2": "90.6"
-      },
-      {
-        "p": {
           "name": "Knowing What, Where and When to Look: Efficient Video Action Modeling with Attention",
           "link": "https://arxiv.org/abs/2004.01278v1",
           "authors": "Juan-Manuel Perez-Rua, Brais Martinez, Xiatian Zhu, Antoine Toisoul, Victor Escorcia, Tao Xiang"
@@ -1043,6 +1031,18 @@
         "d": "2020-04-02",
         "m1": "66.5",
         "m2": "90.4"
+      },
+      {
+        "p": {
+          "name": "PAN: Towards Fast Action Recognition via Learning Persistence of Appearance",
+          "link": "https://arxiv.org/abs/2008.03462v1",
+          "authors": "Can Zhang, Yuexian Zou, Guang Chen, Lei Gan"
+        },
+        "c": "https://github.com/zhang-can/PAN-PyTorch",
+        "n": "PAN ResNet101 (RGB only, no Flow)",
+        "d": "2020-08-08",
+        "m1": "66.5",
+        "m2": "90.6"
       },
       {
         "p": {
@@ -1107,6 +1107,18 @@
       },
       {
         "p": {
+          "name": "Learning Self-Similarity in Space and Time as Generalized Motion for Video Action Recognition",
+          "link": "https://arxiv.org/abs/2102.07092v3",
+          "authors": "Heeseung Kwon, Manjin Kim, Suha Kwak, Minsu Cho"
+        },
+        "c": "https://github.com/arunos728/SELFY",
+        "n": "SELFYNet-TSM-R50 (16 frames, ImageNet pretrained)",
+        "d": "2021-02-14",
+        "m1": "65.7",
+        "m2": "89.8"
+      },
+      {
+        "p": {
           "name": "Maximizing Spatio-Temporal Entropy of Deep 3D CNNs for Efficient Video Recognition",
           "link": "https://arxiv.org/abs/2303.02693v1",
           "authors": "Junyan Wang, Zhenhong Sun, Yichen Qian, Dong Gong, Xiuyu Sun, Ming Lin, Maurice Pagnucco, Yang song"
@@ -1117,18 +1129,6 @@
         "m1": "65.7",
         "m2": "89.8",
         "m4": "18.3"
-      },
-      {
-        "p": {
-          "name": "Learning Self-Similarity in Space and Time as Generalized Motion for Video Action Recognition",
-          "link": "https://arxiv.org/abs/2102.07092v3",
-          "authors": "Heeseung Kwon, Manjin Kim, Suha Kwak, Minsu Cho"
-        },
-        "c": "https://github.com/arunos728/SELFY",
-        "n": "SELFYNet-TSM-R50 (16 frames, ImageNet pretrained)",
-        "d": "2021-02-14",
-        "m1": "65.7",
-        "m2": "89.8"
       },
       {
         "p": {
@@ -1322,6 +1322,17 @@
       },
       {
         "p": {
+          "name": "Is Space-Time Attention All You Need for Video Understanding?",
+          "link": "https://arxiv.org/abs/2102.05095v4",
+          "authors": "Gedas Bertasius, Heng Wang, Lorenzo Torresani"
+        },
+        "c": "https://github.com/open-mmlab/mmaction2",
+        "n": "TimeSformer-HR",
+        "d": "2021-02-09",
+        "m1": "62.5"
+      },
+      {
+        "p": {
           "name": "OmniVL:One Foundation Model for Image-Language and Video-Language Tasks",
           "link": "https://arxiv.org/abs/2209.07526v2",
           "authors": "Junke Wang, Dongdong Chen, Zuxuan Wu, Chong Luo, Luowei Zhou, Yucheng Zhao, Yujia Xie, Ce Liu, Yu-Gang Jiang, Lu Yuan"
@@ -1331,17 +1342,6 @@
         "d": "2022-09-15",
         "m1": "62.5",
         "m2": "86.2"
-      },
-      {
-        "p": {
-          "name": "Is Space-Time Attention All You Need for Video Understanding?",
-          "link": "https://arxiv.org/abs/2102.05095v4",
-          "authors": "Gedas Bertasius, Heng Wang, Lorenzo Torresani"
-        },
-        "c": "https://github.com/open-mmlab/mmaction2",
-        "n": "TimeSformer-HR",
-        "d": "2021-02-09",
-        "m1": "62.5"
       },
       {
         "p": {
@@ -1379,17 +1379,6 @@
       },
       {
         "p": {
-          "name": "A Multigrid Method for Efficiently Training Video Models",
-          "link": "https://arxiv.org/abs/1912.00998v2",
-          "authors": "Chao-yuan Wu, Ross Girshick, Kaiming He, Christoph Feichtenhofer, Philipp Krähenbühl"
-        },
-        "c": "https://github.com/facebookresearch/SlowFast",
-        "n": "Multigrid",
-        "d": "2019-12-02",
-        "m1": "61.7"
-      },
-      {
-        "p": {
           "name": "SlowFast Networks for Video Recognition",
           "link": "https://arxiv.org/abs/1812.03982v3",
           "authors": "Christoph Feichtenhofer, Haoqi Fan, Jitendra Malik, Kaiming He"
@@ -1397,6 +1386,17 @@
         "c": "https://github.com/facebookresearch/SlowFast",
         "n": "SlowFast",
         "d": "2018-12-10",
+        "m1": "61.7"
+      },
+      {
+        "p": {
+          "name": "A Multigrid Method for Efficiently Training Video Models",
+          "link": "https://arxiv.org/abs/1912.00998v2",
+          "authors": "Chao-yuan Wu, Ross Girshick, Kaiming He, Christoph Feichtenhofer, Philipp Krähenbühl"
+        },
+        "c": "https://github.com/facebookresearch/SlowFast",
+        "n": "Multigrid",
+        "d": "2019-12-02",
         "m1": "61.7"
       },
       {

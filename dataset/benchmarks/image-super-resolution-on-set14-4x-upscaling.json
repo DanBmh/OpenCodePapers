@@ -138,18 +138,6 @@
       },
       {
         "p": {
-          "name": "Channel-Partitioned Windowed Attention And Frequency Learning for Single Image Super-Resolution",
-          "link": "https://arxiv.org/abs/2407.16232v2",
-          "authors": "Dinh Phu Tran, Dao Duy Hung, Daeyoung Kim"
-        },
-        "c": "",
-        "n": "CPAT+",
-        "d": "2024-07-23",
-        "m1": "29.36",
-        "m2": "0.7996"
-      },
-      {
-        "p": {
           "name": "SwinFIR: Revisiting the SwinIR with Fast Fourier Convolution and Improved Training for Image Super-Resolution",
           "link": "https://arxiv.org/abs/2208.11247v3",
           "authors": "Dafeng Zhang, Feiyu Huang, Shizhuo Liu, Xiaobing Wang, Zhezhu Jin"
@@ -159,6 +147,18 @@
         "d": "2022-08-24",
         "m1": "29.36",
         "m2": "0.7993"
+      },
+      {
+        "p": {
+          "name": "Channel-Partitioned Windowed Attention And Frequency Learning for Single Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2407.16232v2",
+          "authors": "Dinh Phu Tran, Dao Duy Hung, Daeyoung Kim"
+        },
+        "c": "",
+        "n": "CPAT+",
+        "d": "2024-07-23",
+        "m1": "29.36",
+        "m2": "0.7996"
       },
       {
         "p": {
@@ -246,18 +246,6 @@
       },
       {
         "p": {
-          "name": "Dual Aggregation Transformer for Image Super-Resolution",
-          "link": "https://arxiv.org/abs/2308.03364v2",
-          "authors": "Zheng Chen, Yulun Zhang, Jinjin Gu, Linghe Kong, Xiaokang Yang, Fisher Yu"
-        },
-        "c": "https://github.com/zhengchen1999/dat",
-        "n": "DAT",
-        "d": "2023-08-07",
-        "m1": "29.23",
-        "m2": "0.7973"
-      },
-      {
-        "p": {
           "name": "Recursive Generalization Transformer for Image Super-Resolution",
           "link": "https://arxiv.org/abs/2303.06373v4",
           "authors": "Zheng Chen, Yulun Zhang, Jinjin Gu, Linghe Kong, Xiaokang Yang"
@@ -269,10 +257,22 @@
         "m2": "0.7972"
       },
       {
+        "p": {
+          "name": "Dual Aggregation Transformer for Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2308.03364v2",
+          "authors": "Zheng Chen, Yulun Zhang, Jinjin Gu, Linghe Kong, Xiaokang Yang, Fisher Yu"
+        },
+        "c": "https://github.com/zhengchen1999/dat",
+        "n": "DAT",
+        "d": "2023-08-07",
+        "m1": "29.23",
+        "m2": "0.7973"
+      },
+      {
         "p": "[]()",
         "c": "",
         "n": "Contrast",
-        "d": null,
+        "d": "",
         "m1": "29.20",
         "m2": "0.7973"
       },
@@ -445,6 +445,17 @@
       },
       {
         "p": {
+          "name": "Progressive Perception-Oriented Network for Single Image Super-Resolution",
+          "link": "https://arxiv.org/abs/1907.10399v2",
+          "authors": "Zheng Hui, Jie Li, Xinbo Gao, Xiumei Wang"
+        },
+        "c": "https://github.com/Zheng222/PPON",
+        "n": "RFN",
+        "d": "2019-07-24",
+        "m1": "28.95"
+      },
+      {
+        "p": {
           "name": "Image Super-Resolution with Cross-Scale Non-Local Attention and Exhaustive Self-Exemplars Mining",
           "link": "https://arxiv.org/abs/2006.01424v1",
           "authors": "Yiqun Mei, Yuchen Fan, Yuqian Zhou, Lichao Huang, Thomas S. Huang, Humphrey Shi"
@@ -457,14 +468,14 @@
       },
       {
         "p": {
-          "name": "Progressive Perception-Oriented Network for Single Image Super-Resolution",
-          "link": "https://arxiv.org/abs/1907.10399v2",
-          "authors": "Zheng Hui, Jie Li, Xinbo Gao, Xiumei Wang"
+          "name": "A Fully Progressive Approach to Single-Image Super-Resolution",
+          "link": "http://arxiv.org/abs/1804.02900v2",
+          "authors": "Yifan Wang, Federico Perazzi, Brian McWilliams, Alexander Sorkine-Hornung, Olga Sorkine-Hornung, Christopher Schroers"
         },
-        "c": "https://github.com/Zheng222/PPON",
-        "n": "RFN",
-        "d": "2019-07-24",
-        "m1": "28.95"
+        "c": "https://github.com/fperazzi/proSR",
+        "n": "ProSR",
+        "d": "2018-04-09",
+        "m1": "28.94"
       },
       {
         "p": {
@@ -477,17 +488,6 @@
         "d": "2019-10-10",
         "m1": "28.94",
         "m2": "0.789"
-      },
-      {
-        "p": {
-          "name": "A Fully Progressive Approach to Single-Image Super-Resolution",
-          "link": "http://arxiv.org/abs/1804.02900v2",
-          "authors": "Yifan Wang, Federico Perazzi, Brian McWilliams, Alexander Sorkine-Hornung, Olga Sorkine-Hornung, Christopher Schroers"
-        },
-        "c": "https://github.com/fperazzi/proSR",
-        "n": "ProSR",
-        "d": "2018-04-09",
-        "m1": "28.94"
       },
       {
         "p": {
@@ -575,18 +575,6 @@
       },
       {
         "p": {
-          "name": "CAMixerSR: Only Details Need More \"Attention\"",
-          "link": "https://arxiv.org/abs/2402.19289v2",
-          "authors": "Yan Wang, Yi Liu, Shijie Zhao, Junlin Li, Li Zhang"
-        },
-        "c": "https://github.com/icandle/camixersr",
-        "n": "CAMixerSR",
-        "d": "2024-02-29",
-        "m1": "28.82",
-        "m2": "0.7870"
-      },
-      {
-        "p": {
           "name": "Deep Back-Projection Networks For Super-Resolution",
           "link": "http://arxiv.org/abs/1803.02735v1",
           "authors": "Muhammad Haris, Greg Shakhnarovich, Norimichi Ukita"
@@ -596,6 +584,18 @@
         "d": "2018-03-07",
         "m1": "28.82",
         "m2": "0.786"
+      },
+      {
+        "p": {
+          "name": "CAMixerSR: Only Details Need More \"Attention\"",
+          "link": "https://arxiv.org/abs/2402.19289v2",
+          "authors": "Yan Wang, Yi Liu, Shijie Zhao, Junlin Li, Li Zhang"
+        },
+        "c": "https://github.com/icandle/camixersr",
+        "n": "CAMixerSR",
+        "d": "2024-02-29",
+        "m1": "28.82",
+        "m2": "0.7870"
       },
       {
         "p": {
@@ -623,6 +623,18 @@
       },
       {
         "p": {
+          "name": "Beyond Deep Residual Learning for Image Restoration: Persistent Homology-Guided Manifold Simplification",
+          "link": "http://arxiv.org/abs/1611.06345v4",
+          "authors": "Woong Bae, Jaejun Yoo, Jong Chul Ye"
+        },
+        "c": "https://github.com/iorism/CNN",
+        "n": "Manifold Simplification",
+        "d": "2016-11-19",
+        "m1": "28.80",
+        "m2": "0.7856"
+      },
+      {
+        "p": {
           "name": "Enhanced Deep Residual Networks for Single Image Super-Resolution",
           "link": "http://arxiv.org/abs/1707.02921v1",
           "authors": "Bee Lim, Sanghyun Son, Heewon Kim, Seungjun Nah, Kyoung Mu Lee"
@@ -644,18 +656,6 @@
         "d": "2023-09-25",
         "m1": "28.80",
         "m2": "0.7866"
-      },
-      {
-        "p": {
-          "name": "Beyond Deep Residual Learning for Image Restoration: Persistent Homology-Guided Manifold Simplification",
-          "link": "http://arxiv.org/abs/1611.06345v4",
-          "authors": "Woong Bae, Jaejun Yoo, Jong Chul Ye"
-        },
-        "c": "https://github.com/iorism/CNN",
-        "n": "Manifold Simplification",
-        "d": "2016-11-19",
-        "m1": "28.80",
-        "m2": "0.7856"
       },
       {
         "p": {
@@ -707,18 +707,6 @@
       },
       {
         "p": {
-          "name": "Spatially-Adaptive Feature Modulation for Efficient Image Super-Resolution",
-          "link": "https://arxiv.org/abs/2302.13800v1",
-          "authors": "Long Sun, Jiangxin Dong, Jinhui Tang, Jinshan Pan"
-        },
-        "c": "https://github.com/sunny2109/safmn",
-        "n": "SAFMN",
-        "d": "2023-02-27",
-        "m1": "28.60",
-        "m2": "0.7813"
-      },
-      {
-        "p": {
           "name": "Fast, Accurate, and Lightweight Super-Resolution with Cascading Residual Network",
           "link": "http://arxiv.org/abs/1803.08664v5",
           "authors": "Namhyuk Ahn, Byungkon Kang, Kyung-Ah Sohn"
@@ -728,6 +716,18 @@
         "d": "2018-03-23",
         "m1": "28.60",
         "m2": "0.7806"
+      },
+      {
+        "p": {
+          "name": "Spatially-Adaptive Feature Modulation for Efficient Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2302.13800v1",
+          "authors": "Long Sun, Jiangxin Dong, Jinhui Tang, Jinshan Pan"
+        },
+        "c": "https://github.com/sunny2109/safmn",
+        "n": "SAFMN",
+        "d": "2023-02-27",
+        "m1": "28.60",
+        "m2": "0.7813"
       },
       {
         "p": {

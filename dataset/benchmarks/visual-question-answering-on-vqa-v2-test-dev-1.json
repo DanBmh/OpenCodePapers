@@ -35,17 +35,6 @@
     "items": [
       {
         "p": {
-          "name": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
-          "link": "https://arxiv.org/abs/2301.12597v3",
-          "authors": "Junnan Li, Dongxu Li, Silvio Savarese, Steven Hoi"
-        },
-        "c": "https://github.com/huggingface/transformers",
-        "n": "BLIP-2 ViT-G OPT 6.7B (fine-tuned)",
-        "d": "2023-01-30",
-        "m1": "82.30"
-      },
-      {
-        "p": {
           "name": "CoCa: Contrastive Captioners are Image-Text Foundation Models",
           "link": "https://arxiv.org/abs/2205.01917v2",
           "authors": "Jiahui Yu, ZiRui Wang, Vijay Vasudevan, Legg Yeung, Mojtaba Seyedhosseini, Yonghui Wu"
@@ -54,6 +43,17 @@
         "n": "CoCa",
         "d": "2022-05-04",
         "m1": "82.3"
+      },
+      {
+        "p": {
+          "name": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
+          "link": "https://arxiv.org/abs/2301.12597v3",
+          "authors": "Junnan Li, Dongxu Li, Silvio Savarese, Steven Hoi"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "BLIP-2 ViT-G OPT 6.7B (fine-tuned)",
+        "d": "2023-01-30",
+        "m1": "82.30"
       },
       {
         "p": {
@@ -114,7 +114,7 @@
         "p": "[]()",
         "c": "",
         "n": "Aurora (ours, r=64)",
-        "d": null,
+        "d": "",
         "m1": "77.69"
       },
       {
