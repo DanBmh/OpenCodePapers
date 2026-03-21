@@ -102,13 +102,13 @@ def helper_link_validity(link: str) -> str:
         return ""
 
     if len(link) > 255:
-        return f"Link is longer than 255 characters"
+        return "Link is longer than 255 characters"
 
     url_pattern = re.compile(
         r"^(https?://)?([a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}(:\d+)?(/.*)?$"
     )
     if not url_pattern.match(link):
-        return f"Link is not a valid URL: '{link!r}'"
+        return "Link is not a valid URL"
 
     return ""
 
@@ -194,7 +194,7 @@ def check_benchmark_fields(data: dict, path: str):
     # Check that fields contains [p, c, n, d] as defined above
     fields = benchmark.get("fields")
     for f in fields:
-        for r in req:
+        for r in list(req):
             if f == r:
                 req.remove(r)
                 continue
