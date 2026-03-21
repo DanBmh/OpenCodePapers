@@ -418,24 +418,72 @@ def check_benchmark_order(data: dict, path: str):
         elif not ascending and right_val > left_val:
             violations.append((left_idx, left_val, right_idx, right_val))
 
-    if not violations:
-        return []
+    errors = []
 
-    preview = "; ".join(
-        (
-            f"items[{l_idx}]={l_val} -> items[{r_idx}]={r_val}"
-            for l_idx, l_val, r_idx, r_val in violations[:3]
+    if violations:
+        preview = "; ".join(
+            (
+                f"items[{l_idx}]={l_val} -> items[{r_idx}]={r_val}"
+                for l_idx, l_val, r_idx, r_val in violations[:3]
+            )
         )
-    )
-    if len(violations) > 3:
-        preview += f"; ... (+{len(violations) - 3} more)"
+        if len(violations) > 3:
+            preview += f"; ... (+{len(violations) - 3} more)"
 
-    return [
-        (
-            f"{path}: Benchmark items are not ordered by first metric {first_metric_key!r} "
-            f"in inferred {direction} order. Violations: {len(violations)}. {preview}"
+        errors.append(
+            (
+                f"{path}: Benchmark items are not ordered by first metric {first_metric_key!r} "
+                f"in inferred {direction} order. Violations: {len(violations)}. {preview}"
+            )
         )
-    ]
+
+    # For equal metric values, older papers should come first (ascending by date).
+    date_pattern = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+    metric_date_violations = []
+    for i in range(len(values) - 1):
+        left_idx, left_val = values[i]
+        right_idx, right_val = values[i + 1]
+
+        if left_val != right_val:
+            continue
+
+        left_item = items[left_idx]
+        right_item = items[right_idx]
+        if not isinstance(left_item, dict) or not isinstance(right_item, dict):
+            continue
+
+        left_date = str(left_item.get("d", "")).strip()
+        right_date = str(right_item.get("d", "")).strip()
+        if not date_pattern.match(left_date) or not date_pattern.match(right_date):
+            continue
+
+        if right_date < left_date:
+            metric_date_violations.append(
+                (left_idx, left_val, left_date, right_idx, right_val, right_date)
+            )
+
+    if metric_date_violations:
+        preview = "; ".join(
+            (
+                f"items[{l_idx}] metric={l_val}, date={l_date} -> "
+                f"items[{r_idx}] metric={r_val}, date={r_date}"
+                for l_idx, l_val, l_date, r_idx, r_val, r_date in metric_date_violations[
+                    :3
+                ]
+            )
+        )
+        if len(metric_date_violations) > 3:
+            preview += f"; ... (+{len(metric_date_violations) - 3} more)"
+
+        errors.append(
+            (
+                f"{path}: Benchmark items with equal first metric {first_metric_key!r} "
+                f"must be ordered by date ascending (older first). "
+                f"Violations: {len(metric_date_violations)}. {preview}"
+            )
+        )
+
+    return errors
 
 
 # ==================================================================================================
