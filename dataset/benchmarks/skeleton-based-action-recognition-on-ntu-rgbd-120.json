@@ -52,6 +52,28 @@
     "items": [
       {
         "p": {
+          "name": "Skarimva: Skeleton-based Action Recognition is a Multi-view Application",
+          "link": "https://arxiv.org/pdf/2602.23231",
+          "authors": "Daniel Bermuth, Alexander Poeppel, Wolfgang Reif"
+        },
+        "c": "https://gitlab.com/Percipiote/",
+        "n": "MSG3D+DG-STGCN+ProtoGCN+Skarimva",
+        "d": "2026-02-26",
+        "m1": "96.0"
+      },
+      {
+        "p": {
+          "name": "Skarimva: Skeleton-based Action Recognition is a Multi-view Application",
+          "link": "https://arxiv.org/pdf/2602.23231",
+          "authors": "Daniel Bermuth, Alexander Poeppel, Wolfgang Reif"
+        },
+        "c": "https://gitlab.com/Percipiote/",
+        "n": "ProtoGCN+Skarimva",
+        "d": "2026-02-26",
+        "m1": "95.4"
+      },
+      {
+        "p": {
           "name": "3Mformer: Multi-order Multi-mode Transformer for Skeletal Action Recognition",
           "link": "https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_3Mformer_Multi-Order_Multi-Mode_Transformer_for_Skeletal_Action_Recognition_CVPR_2023_paper.pdf",
           "authors": "Lei Wang, Piotr Koniusz"
@@ -74,6 +96,18 @@
         "m1": "91.7",
         "m2": "93.1",
         "m3": "6"
+      },
+      {
+        "p": {
+          "name": "TSkel-Mamba: Temporal Dynamic Modeling via State Space Model for Human Skeleton-based Action Recognition",
+          "link": "https://arxiv.org/pdf/2512.11503",
+          "authors": "Yanan Liu, Jun Liu, Hao Zhang, Dan Xu, Hossein Rahmani, Mohammed Bennamoun, Qiuhong Ke"
+        },
+        "c": "",
+        "n": "TSkel-Mamba",
+        "d": "2025-12-12",
+        "m1": "91.7",
+        "m2": "90.6"
       },
       {
         "p": {
@@ -527,8 +561,8 @@
         "c": "https://github.com/ZhenyueQin/Angular-Skeleton-Encoding",
         "n": "AngNet-JA + BA + JBA + VJBA",
         "d": "2021-05-04",
-        "m1": "88.2%",
-        "m2": "89.2%",
+        "m1": "88.2",
+        "m2": "89.2",
         "m3": "4"
       },
       {
@@ -626,8 +660,8 @@
         "c": "https://github.com/skelemoa/quovadis",
         "n": "Ensemble-top5 (MS-G3D Net + 4s Shift-GCN + VA-CNN (ResNeXt101) + 2s SDGCN + GCN-NAS (retrained))",
         "d": "2020-07-04",
-        "m1": "87.22%",
-        "m2": "88.8%"
+        "m1": "87.22",
+        "m2": "88.8"
       },
       {
         "p": {
@@ -638,8 +672,8 @@
         "c": "https://github.com/kennymckormick/pyskl",
         "n": "MS-G3D Net",
         "d": "2020-03-31",
-        "m1": "86.9%",
-        "m2": "88.4%"
+        "m1": "86.9",
+        "m2": "88.4"
       },
       {
         "p": {
@@ -662,8 +696,20 @@
         "c": "https://github.com/lshiwjx/DSTA-Net",
         "n": "DSTA-Net",
         "d": "2020-07-07",
-        "m1": "86.6%",
-        "m2": "89.0 %"
+        "m1": "86.6",
+        "m2": "89.0"
+      },
+      {
+        "p": {
+          "name": "ActionMamba: Action Spatial-Temporal Aggregation Network Based on Mamba and GCN for Skeleton-Based Action Recognition",
+          "link": "https://www.mdpi.com/2079-9292/14/18/3610",
+          "authors": "Jinglong Wen, Dan Liu, Bin Zheng"
+        },
+        "c": "",
+        "n": "ActionMamba",
+        "d": "2025-09-11",
+        "m1": "86.48",
+        "m2": "88.15"
       },
       {
         "p": {
@@ -698,8 +744,8 @@
         "c": "https://github.com/kchengiva/Shift-GCN",
         "n": "4s Shift-GCN",
         "d": "2020-06-01",
-        "m1": "85.9%",
-        "m2": "87.6%",
+        "m1": "85.9",
+        "m2": "87.6",
         "m3": "4"
       },
       {
@@ -723,8 +769,8 @@
         "c": "",
         "n": "FGCN ",
         "d": "2020-03-17",
-        "m1": "85.4%",
-        "m2": "87.4%"
+        "m1": "85.4",
+        "m2": "87.4"
       },
       {
         "p": "[]()",
@@ -832,8 +878,8 @@
         "c": "https://github.com/Chiaraplizz/ST-TR",
         "n": "ST-TR-agcn",
         "d": "2020-08-17",
-        "m1": "82.7%",
-        "m2": "84.7%"
+        "m1": "82.7",
+        "m2": "84.7"
       },
       {
         "p": {
@@ -856,8 +902,8 @@
         "c": "https://github.com/amira-mira/RA-GCNv22",
         "n": "3s RA-GCN",
         "d": "2020-08-09",
-        "m1": "81.1%",
-        "m2": "82.7%"
+        "m1": "81.1",
+        "m2": "82.7"
       },
       {
         "p": {
@@ -892,8 +938,8 @@
         "c": "",
         "n": "Mix-Dimension",
         "d": "2020-07-30",
-        "m1": "80.5%",
-        "m2": "83.2%"
+        "m1": "80.5",
+        "m2": "83.2"
       },
       {
         "p": {
@@ -981,8 +1027,8 @@
         "c": "",
         "n": "GVFE + AS-GCN with DH-TCN",
         "d": "2019-12-20",
-        "m1": "78.3%",
-        "m2": "79.8%"
+        "m1": "78.3",
+        "m2": "79.8"
       },
       {
         "p": {
@@ -1006,8 +1052,8 @@
         "c": "https://github.com/raphaelmemmesheimer/gimme_signals_action_recognition",
         "n": "Gimme Signals (Skeleton, AIS)",
         "d": "2020-03-13",
-        "m1": "70.8%",
-        "m2": "71.6%"
+        "m1": "70.8",
+        "m2": "71.6"
       },
       {
         "p": {
@@ -1018,8 +1064,8 @@
         "c": "",
         "n": "Logsig-RNN",
         "d": "2019-08-22",
-        "m1": "68.3%",
-        "m2": "67.2%"
+        "m1": "68.3",
+        "m2": "67.2"
       },
       {
         "p": {
@@ -1030,8 +1076,8 @@
         "c": "https://github.com/carloscaetano/skeleton-images",
         "n": "TSRJI (Late Fusion) + HCN",
         "d": "2019-09-11",
-        "m1": "67.9%",
-        "m2": "62.8%"
+        "m1": "67.9",
+        "m2": "62.8"
       },
       {
         "p": {
@@ -1042,8 +1088,8 @@
         "c": "https://github.com/carloscaetano/skeleton-images",
         "n": "SkeleMotion + Yang et al. (2018)",
         "d": "2019-07-30",
-        "m1": "67.7%",
-        "m2": "66.9%"
+        "m1": "67.7",
+        "m2": "66.9"
       },
       {
         "p": {
@@ -1054,8 +1100,8 @@
         "c": "https://github.com/carloscaetano/skeleton-images",
         "n": "TSRJI (Late Fusion)",
         "d": "2019-09-11",
-        "m1": "65.5%",
-        "m2": "59.7%"
+        "m1": "65.5",
+        "m2": "59.7"
       },
       {
         "p": {
@@ -1066,8 +1112,8 @@
         "c": "",
         "n": "Body Pose Evolution Map",
         "d": "2018-06-01",
-        "m1": "64.6%",
-        "m2": "66.9%"
+        "m1": "64.6",
+        "m2": "66.9"
       },
       {
         "p": {
@@ -1078,8 +1124,8 @@
         "c": "https://github.com/carloscaetano/skeleton-images",
         "n": "SkeleMotion [Magnitude-Orientation (TSA)]",
         "d": "2019-07-30",
-        "m1": "62.9%",
-        "m2": "63.0%"
+        "m1": "62.9",
+        "m2": "63.0"
       },
       {
         "p": {
@@ -1090,8 +1136,8 @@
         "c": "",
         "n": "Multi-Task CNN with RotClips",
         "d": "2018-03-05",
-        "m1": "62.2%",
-        "m2": "61.8%"
+        "m1": "62.2",
+        "m2": "61.8"
       },
       {
         "p": {
@@ -1102,8 +1148,8 @@
         "c": "",
         "n": "Two-Stream Attention LSTM",
         "d": "2017-07-18",
-        "m1": "61.2%",
-        "m2": "63.3%"
+        "m1": "61.2",
+        "m2": "63.3"
       },
       {
         "p": {
@@ -1114,8 +1160,8 @@
         "c": "",
         "n": "Skeleton Visualization (Single Stream)",
         "d": "2017-08-01",
-        "m1": "60.3%",
-        "m2": "63.2%"
+        "m1": "60.3",
+        "m2": "63.2"
       },
       {
         "p": {
@@ -1126,8 +1172,8 @@
         "c": "",
         "n": "FSNet",
         "d": "2019-02-08",
-        "m1": "59.9%",
-        "m2": "62.4%"
+        "m1": "59.9",
+        "m2": "62.4"
       },
       {
         "p": {
@@ -1138,8 +1184,8 @@
         "c": "",
         "n": "Multi-Task Learning Network",
         "d": "2017-03-09",
-        "m1": "58.4%",
-        "m2": "57.9%"
+        "m1": "58.4",
+        "m2": "57.9"
       },
       {
         "p": {
@@ -1150,8 +1196,8 @@
         "c": "",
         "n": "GCA-LSTM",
         "d": "2017-07-01",
-        "m1": "58.3%",
-        "m2": "59.2%"
+        "m1": "58.3",
+        "m2": "59.2"
       },
       {
         "p": {
@@ -1162,8 +1208,8 @@
         "c": "",
         "n": "Internal Feature Fusion",
         "d": "2017-06-26",
-        "m1": "58.2%",
-        "m2": "60.9%"
+        "m1": "58.2",
+        "m2": "60.9"
       },
       {
         "p": {
@@ -1174,8 +1220,8 @@
         "c": "",
         "n": "Spatio-Temporal LSTM",
         "d": "2016-07-24",
-        "m1": "55.7%",
-        "m2": "57.9%"
+        "m1": "55.7",
+        "m2": "57.9"
       },
       {
         "p": {
@@ -1186,8 +1232,8 @@
         "c": "",
         "n": "Dynamic Skeletons",
         "d": "2016-12-15",
-        "m1": "50.8%",
-        "m2": "54.7%"
+        "m1": "50.8",
+        "m2": "54.7"
       },
       {
         "p": {
@@ -1198,8 +1244,8 @@
         "c": "",
         "n": "Soft RNN",
         "d": "2018-08-06",
-        "m1": "36.3%",
-        "m2": "44.9%"
+        "m1": "36.3",
+        "m2": "44.9"
       },
       {
         "p": {
@@ -1210,8 +1256,8 @@
         "c": "https://github.com/shahroudy/NTURGB-D",
         "n": "Part-Aware LSTM",
         "d": "2016-04-11",
-        "m1": "25.5%",
-        "m2": "26.3%"
+        "m1": "25.5",
+        "m2": "26.3"
       }
     ]
   }
