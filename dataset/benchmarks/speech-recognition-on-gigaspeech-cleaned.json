@@ -1,5 +1,5 @@
 {
-  "title": "speech-recognition-on-gigaspeech-test",
+  "title": "speech-recognition-on-gigaspeech-cleaned",
   "task-hierarchy": [
     "Speech Recognition"
   ],
@@ -38,7 +38,7 @@
         "c": "",
         "n": "OpenMOSS-Team/MOSS-Transcribe-preview-2B",
         "d": "2026-06-26",
-        "m1": "6.75"
+        "m1": "6.69"
       },
       {
         "p": {
@@ -49,7 +49,7 @@
         "c": "https://github.com/AutoArk/open-audio-opd",
         "n": "AutoArk-AI/ARK-ASR-3B",
         "d": "2026-06-22",
-        "m1": "6.98"
+        "m1": "6.94"
       },
       {
         "p": {
@@ -60,7 +60,7 @@
         "c": "https://github.com/boson-ai/higgs-audio",
         "n": "bosonai/higgs-audio-v3-8b-stt-v2",
         "d": "2026-04-27",
-        "m1": "7.13"
+        "m1": "7.09"
       },
       {
         "p": {
@@ -71,7 +71,7 @@
         "c": "https://github.com/QwenLM/Qwen3-ASR",
         "n": "Qwen/Qwen3-ASR-1.7B",
         "d": "2026-01-28",
-        "m1": "7.25"
+        "m1": "7.22"
       },
       {
         "p": {
@@ -82,7 +82,7 @@
         "c": "",
         "n": "microsoft/azure-speech-06-2026",
         "d": "2026-06-04",
-        "m1": "7.34"
+        "m1": "7.26"
       },
       {
         "p": {
@@ -93,7 +93,7 @@
         "c": "https://github.com/AutoArk/open-audio-opd",
         "n": "AutoArk-AI/ARK-ASR-0.6B",
         "d": "2026-05-25",
-        "m1": "7.42"
+        "m1": "7.38"
       },
       {
         "p": {
@@ -104,7 +104,7 @@
         "c": "",
         "n": "reson8/resonant-1",
         "d": "2026-04-08",
-        "m1": "7.44"
+        "m1": "7.39"
       },
       {
         "p": {
@@ -115,7 +115,7 @@
         "c": "",
         "n": "reson8/resonant-1-flash",
         "d": "2026-04-08",
-        "m1": "7.47"
+        "m1": "7.39"
       },
       {
         "p": {
@@ -126,7 +126,7 @@
         "c": "https://github.com/boson-ai/higgs-audio",
         "n": "bosonai/higgs-audio-v3-stt",
         "d": "2026-03-18",
-        "m1": "7.49"
+        "m1": "7.45"
       },
       {
         "p": {
@@ -137,7 +137,7 @@
         "c": "",
         "n": "assemblyai/universal-3-pro",
         "d": "2026-02-03",
-        "m1": "7.6"
+        "m1": "7.54"
       },
       {
         "p": {
@@ -148,14 +148,18 @@
         "c": "https://github.com/QwenLM/Qwen3-ASR",
         "n": "Qwen/Qwen3-ASR-0.6B",
         "d": "2026-01-28",
-        "m1": "7.65"
+        "m1": "7.62"
       },
       {
-        "p": "[]()",
-        "c": "https://github.com/NVIDIA/NeMo",
-        "n": "nvidia/canary-qwen-2.5b",
-        "d": "2025-07-17",
-        "m1": "7.88"
+        "p": {
+          "name": "Introducing Scribe v2",
+          "link": "https://elevenlabs.io/blog/introducing-scribe-v2",
+          "authors": ""
+        },
+        "c": "",
+        "n": "elevenlabs/scribe_v2",
+        "d": "2026-01-09",
+        "m1": "7.64"
       },
       {
         "p": {
@@ -166,29 +170,14 @@
         "c": "",
         "n": "microsoft/Phi-4-multimodal-instruct",
         "d": "2025-02-24",
-        "m1": "7.91"
+        "m1": "7.8"
       },
       {
-        "p": {
-          "name": "Introducing Cohere-transcribe: state-of-the-art speech recognition",
-          "link": "https://huggingface.co/blog/CohereLabs/cohere-transcribe-03-2026-release",
-          "authors": "Julian Mack, Ekagra Ranjan, Walter Beller-Morales, Bharat Venkitesh, Pierre Richemond"
-        },
-        "c": "",
-        "n": "CohereLabs/cohere-transcribe-03-2026",
-        "d": "2026-03-26",
-        "m1": "7.93"
-      },
-      {
-        "p": {
-          "name": "Efficient Sequence Transduction by Jointly Predicting Tokens and Durations",
-          "link": "https://arxiv.org/abs/2304.06795",
-          "authors": "Hainan Xu, Fei Jia, Somshubra Majumdar, He Huang, Shinji Watanabe, Boris Ginsburg"
-        },
+        "p": "[]()",
         "c": "https://github.com/NVIDIA/NeMo",
-        "n": "nvidia/parakeet-tdt-1.1b",
-        "d": "2024-01-25",
-        "m1": "7.98"
+        "n": "nvidia/canary-qwen-2.5b",
+        "d": "2025-07-17",
+        "m1": "7.81"
       },
       {
         "p": {
@@ -199,18 +188,7 @@
         "c": "",
         "n": "speechmatics/enhanced",
         "d": "2024-10-11",
-        "m1": "7.98"
-      },
-      {
-        "p": {
-          "name": "Introducing Zoom AI Services",
-          "link": "https://developers.zoom.us/blog/introducing-zoom-ai-services/",
-          "authors": ""
-        },
-        "c": "",
-        "n": "zoom/scribe_v1",
-        "d": "2026-03-10",
-        "m1": "8.04"
+        "m1": "7.84"
       },
       {
         "p": {
@@ -221,7 +199,51 @@
         "c": "https://github.com/microsoft/VibeVoice",
         "n": "microsoft/VibeVoice-ASR-HF",
         "d": "2026-03-02",
-        "m1": "8.05"
+        "m1": "7.87"
+      },
+      {
+        "p": {
+          "name": "Introducing Zoom AI Services",
+          "link": "https://developers.zoom.us/blog/introducing-zoom-ai-services/",
+          "authors": ""
+        },
+        "c": "",
+        "n": "zoom/scribe_v1",
+        "d": "2026-03-10",
+        "m1": "7.87"
+      },
+      {
+        "p": {
+          "name": "Introducing Cohere-transcribe: state-of-the-art speech recognition",
+          "link": "https://huggingface.co/blog/CohereLabs/cohere-transcribe-03-2026-release",
+          "authors": "Julian Mack, Ekagra Ranjan, Walter Beller-Morales, Bharat Venkitesh, Pierre Richemond"
+        },
+        "c": "",
+        "n": "CohereLabs/cohere-transcribe-03-2026",
+        "d": "2026-03-26",
+        "m1": "7.88"
+      },
+      {
+        "p": {
+          "name": "Efficient Sequence Transduction by Jointly Predicting Tokens and Durations",
+          "link": "https://arxiv.org/abs/2304.06795",
+          "authors": "Hainan Xu, Fei Jia, Somshubra Majumdar, He Huang, Shinji Watanabe, Boris Ginsburg"
+        },
+        "c": "https://github.com/NVIDIA/NeMo",
+        "n": "nvidia/parakeet-tdt-1.1b",
+        "d": "2024-01-25",
+        "m1": "7.9"
+      },
+      {
+        "p": {
+          "name": "Stateful Conformer with Cache-based Inference for Streaming Automatic Speech Recognition",
+          "link": "https://arxiv.org/abs/2312.17279",
+          "authors": "Vahid Noroozi, Somshubra Majumdar, Ankur Kumar, Jagadeesh Balam, Boris Ginsburg"
+        },
+        "c": "https://github.com/NVIDIA/NeMo",
+        "n": "nvidia/nemotron-speech-streaming-en-0.6b",
+        "d": "2026-03-13",
+        "m1": "7.91"
       },
       {
         "p": {
@@ -232,40 +254,7 @@
         "c": "https://github.com/NVIDIA/NeMo",
         "n": "nvidia/parakeet-tdt-0.6b-v3",
         "d": "2025-08-14",
-        "m1": "8.07"
-      },
-      {
-        "p": {
-          "name": "Avalon: ASR for Human–AI Interaction",
-          "link": "https://app.aquavoice.com/research/avalon-model-card.pdf",
-          "authors": "Jack McIntire, Finnian Brown"
-        },
-        "c": "",
-        "n": "aquavoice/avalon-v1-en",
-        "d": "2025-08-22",
-        "m1": "8.07"
-      },
-      {
-        "p": {
-          "name": "Moonshine v2: Ergodic Streaming Encoder ASR for Latency-Critical Speech Applications",
-          "link": "https://arxiv.org/abs/2602.12241",
-          "authors": "Manjunath Kudlur, Evan King, James Wang, Pete Warden"
-        },
-        "c": "https://github.com/moonshine-ai/moonshine",
-        "n": "usefulsensors/moonshine-streaming-medium",
-        "d": "2026-02-12",
-        "m1": "8.14"
-      },
-      {
-        "p": {
-          "name": "Efficient Sequence Transduction by Jointly Predicting Tokens and Durations",
-          "link": "https://arxiv.org/abs/2304.06795",
-          "authors": "Hainan Xu, Fei Jia, Somshubra Majumdar, He Huang, Shinji Watanabe, Boris Ginsburg"
-        },
-        "c": "https://github.com/NVIDIA/NeMo",
-        "n": "nvidia/parakeet-tdt-0.6b-v2",
-        "d": "2025-05-01",
-        "m1": "8.23"
+        "m1": "8"
       },
       {
         "p": {
@@ -276,36 +265,40 @@
         "c": "https://github.com/zai-org/GLM-ASR",
         "n": "zai-org/GLM-ASR-Nano-2512",
         "d": "2025-12-09",
-        "m1": "8.23"
-      },
-      {
-        "p": "[]()",
-        "c": "https://github.com/ibm-granite/granite-speech-models",
-        "n": "ibm-granite/granite-speech-4.1-2b",
-        "d": "2026-04-29",
-        "m1": "8.23"
+        "m1": "8.02"
       },
       {
         "p": {
-          "name": "Robust Knowledge Distillation via Large-Scale Pseudo Labelling",
-          "link": "https://arxiv.org/abs/2311.00430",
-          "authors": "Sanchit Gandhi, Patrick von Platen, Alexander M. Rush"
+          "name": "Avalon: ASR for Human–AI Interaction",
+          "link": "https://app.aquavoice.com/research/avalon-model-card.pdf",
+          "authors": "Jack McIntire, Finnian Brown"
         },
-        "c": "https://github.com/huggingface/distil-whisper",
-        "n": "distil-whisper/distil-large-v3.5",
-        "d": "2024-12-05",
-        "m1": "8.26"
+        "c": "",
+        "n": "aquavoice/avalon-v1-en",
+        "d": "2025-08-22",
+        "m1": "8.03"
       },
       {
         "p": {
-          "name": "Training and Inference Efficiency of Encoder-Decoder Speech Models",
-          "link": "https://arxiv.org/abs/2503.05931",
-          "authors": "Piotr Żelasko, Kunal Dhawan, Daniel Galvez, Krishna C. Puvvada, Ankita Pasad, Nithin Rao Koluguri, Ke Hu, Vitaly Lavrukhin, Jagadeesh Balam, Boris Ginsburg"
+          "name": "Moonshine v2: Ergodic Streaming Encoder ASR for Latency-Critical Speech Applications",
+          "link": "https://arxiv.org/abs/2602.12241",
+          "authors": "Manjunath Kudlur, Evan King, James Wang, Pete Warden"
+        },
+        "c": "https://github.com/moonshine-ai/moonshine",
+        "n": "usefulsensors/moonshine-streaming-medium",
+        "d": "2026-02-12",
+        "m1": "8.1"
+      },
+      {
+        "p": {
+          "name": "Efficient Sequence Transduction by Jointly Predicting Tokens and Durations",
+          "link": "https://arxiv.org/abs/2304.06795",
+          "authors": "Hainan Xu, Fei Jia, Somshubra Majumdar, He Huang, Shinji Watanabe, Boris Ginsburg"
         },
         "c": "https://github.com/NVIDIA/NeMo",
-        "n": "nvidia/canary-1b-flash",
-        "d": "2025-03-07",
-        "m1": "8.26"
+        "n": "nvidia/parakeet-tdt-0.6b-v2",
+        "d": "2025-05-01",
+        "m1": "8.15"
       },
       {
         "p": {
@@ -316,18 +309,36 @@
         "c": "",
         "n": "smallestai/pulse",
         "d": "2026-01-28",
-        "m1": "8.26"
+        "m1": "8.18"
+      },
+      {
+        "p": "[]()",
+        "c": "https://github.com/ibm-granite/granite-speech-models",
+        "n": "ibm-granite/granite-speech-4.1-2b",
+        "d": "2026-04-29",
+        "m1": "8.18"
       },
       {
         "p": {
-          "name": "Streaming Sequence-to-Sequence Learning with Delayed Streams Modeling",
-          "link": "https://arxiv.org/abs/2509.08753",
-          "authors": "Neil Zeghidour, Eugene Kharitonov, Manu Orsini, Václav Volhejn, Gabriel de Marmiesse, Edouard Grave, Patrick Pérez, Laurent Mazaré, Alexandre Défossez"
+          "name": "Training and Inference Efficiency of Encoder-Decoder Speech Models",
+          "link": "https://arxiv.org/abs/2503.05931",
+          "authors": "Piotr Żelasko, Kunal Dhawan, Daniel Galvez, Krishna C. Puvvada, Ankita Pasad, Nithin Rao Koluguri, Ke Hu, Vitaly Lavrukhin, Jagadeesh Balam, Boris Ginsburg"
         },
-        "c": "https://github.com/kyutai-labs/delayed-streams-modeling",
-        "n": "kyutai/stt-2.6b-en",
-        "d": "2025-06-06",
-        "m1": "8.28"
+        "c": "https://github.com/NVIDIA/NeMo",
+        "n": "nvidia/canary-1b-flash",
+        "d": "2025-03-07",
+        "m1": "8.19"
+      },
+      {
+        "p": {
+          "name": "Robust Knowledge Distillation via Large-Scale Pseudo Labelling",
+          "link": "https://arxiv.org/abs/2311.00430",
+          "authors": "Sanchit Gandhi, Patrick von Platen, Alexander M. Rush"
+        },
+        "c": "https://github.com/huggingface/distil-whisper",
+        "n": "distil-whisper/distil-large-v3.5",
+        "d": "2024-12-05",
+        "m1": "8.21"
       },
       {
         "p": {
@@ -338,7 +349,18 @@
         "c": "https://github.com/NVIDIA/NeMo",
         "n": "nvidia/parakeet-rnnt-1.1b",
         "d": "2023-12-27",
-        "m1": "8.31"
+        "m1": "8.22"
+      },
+      {
+        "p": {
+          "name": "Streaming Sequence-to-Sequence Learning with Delayed Streams Modeling",
+          "link": "https://arxiv.org/abs/2509.08753",
+          "authors": "Neil Zeghidour, Eugene Kharitonov, Manu Orsini, Václav Volhejn, Gabriel de Marmiesse, Edouard Grave, Patrick Pérez, Laurent Mazaré, Alexandre Défossez"
+        },
+        "c": "https://github.com/kyutai-labs/delayed-streams-modeling",
+        "n": "kyutai/stt-2.6b-en",
+        "d": "2025-06-06",
+        "m1": "8.22"
       },
       {
         "p": {
@@ -349,7 +371,7 @@
         "c": "https://github.com/mistralai/mistral-common",
         "n": "mistralai/Voxtral-Small-24B-2507",
         "d": "2025-07-15",
-        "m1": "8.37"
+        "m1": "8.33"
       },
       {
         "p": {
@@ -360,36 +382,14 @@
         "c": "https://github.com/openai/whisper",
         "n": "openai/whisper-large-v3",
         "d": "2023-11-06",
-        "m1": "8.4"
+        "m1": "8.35"
       },
       {
         "p": "[]()",
         "c": "https://github.com/ibm-granite/granite-speech-models",
         "n": "ibm-granite/granite-4.0-1b-speech",
         "d": "2026-03-06",
-        "m1": "8.51"
-      },
-      {
-        "p": {
-          "name": "Robust Speech Recognition via Large-Scale Weak Supervision",
-          "link": "https://arxiv.org/abs/2212.04356",
-          "authors": "Alec Radford, Jong Wook Kim, Tao Xu, Greg Brockman, Christine McLeavey, Ilya Sutskever"
-        },
-        "c": "https://github.com/openai/whisper",
-        "n": "openai/whisper-large-v3-turbo",
-        "d": "2024-10-01",
-        "m1": "8.52"
-      },
-      {
-        "p": {
-          "name": "LiteASR: Efficient Automatic Speech Recognition with Low-Rank Approximation",
-          "link": "https://arxiv.org/abs/2502.20583",
-          "authors": "Keisuke Kamahori, Jungo Kasai, Noriyuki Kojima, Baris Kasikci"
-        },
-        "c": "https://github.com/efeslab/LiteASR",
-        "n": "efficient-speech/lite-whisper-large-v3-acc",
-        "d": "2025-02-26",
-        "m1": "8.53"
+        "m1": "8.44"
       },
       {
         "p": {
@@ -400,7 +400,7 @@
         "c": "https://github.com/NVIDIA/NeMo",
         "n": "nvidia/parakeet-rnnt-0.6b",
         "d": "2023-12-28",
-        "m1": "8.55"
+        "m1": "8.45"
       },
       {
         "p": {
@@ -411,7 +411,18 @@
         "c": "https://github.com/NVIDIA/NeMo",
         "n": "nvidia/canary-1b",
         "d": "2024-02-07",
-        "m1": "8.55"
+        "m1": "8.47"
+      },
+      {
+        "p": {
+          "name": "Robust Speech Recognition via Large-Scale Weak Supervision",
+          "link": "https://arxiv.org/abs/2212.04356",
+          "authors": "Alec Radford, Jong Wook Kim, Tao Xu, Greg Brockman, Christine McLeavey, Ilya Sutskever"
+        },
+        "c": "https://github.com/openai/whisper",
+        "n": "openai/whisper-large-v3-turbo",
+        "d": "2024-10-01",
+        "m1": "8.47"
       },
       {
         "p": {
@@ -420,9 +431,9 @@
           "authors": "Keisuke Kamahori, Jungo Kasai, Noriyuki Kojima, Baris Kasikci"
         },
         "c": "https://github.com/efeslab/LiteASR",
-        "n": "efficient-speech/lite-whisper-large-v3-turbo-acc",
+        "n": "efficient-speech/lite-whisper-large-v3-acc",
         "d": "2025-02-26",
-        "m1": "8.64"
+        "m1": "8.48"
       },
       {
         "p": {
@@ -433,18 +444,7 @@
         "c": "https://github.com/ibm-granite/granite-speech-models",
         "n": "ibm-granite/granite-speech-3.3-8b",
         "d": "2025-06-19",
-        "m1": "8.65"
-      },
-      {
-        "p": {
-          "name": "NLE: Non-autoregressive LLM-based ASR by Transcript Editing",
-          "link": "https://arxiv.org/abs/2603.08397",
-          "authors": "Avihu Dekel, Samuel Thomas, Takashi Fukada, George Saon"
-        },
-        "c": "https://github.com/ibm-granite/granite-speech-models",
-        "n": "ibm-granite/granite-speech-4.1-2b-nar",
-        "d": "2026-04-01",
-        "m1": "8.67"
+        "m1": "8.58"
       },
       {
         "p": {
@@ -453,53 +453,9 @@
           "authors": "Keisuke Kamahori, Jungo Kasai, Noriyuki Kojima, Baris Kasikci"
         },
         "c": "https://github.com/efeslab/LiteASR",
-        "n": "efficient-speech/lite-whisper-large-v3",
+        "n": "efficient-speech/lite-whisper-large-v3-turbo-acc",
         "d": "2025-02-26",
-        "m1": "8.69"
-      },
-      {
-        "p": {
-          "name": "Voxtral",
-          "link": "https://arxiv.org/abs/2507.13264",
-          "authors": "Alexander H. Liu, Andy Ehrenberg, Andy Lo, Clément Denoix, Corentin Barreau, Guillaume Lample, Jean-Malo Delignon, Khyathi Raghavi Chandu, Patrick von Platen, Pavankumar Reddy Muddireddy, Sanchit Gandhi, Soham Ghosh, Srijan Mishra, Thomas Foubert, Abhinav Rastogi, Adam Yang, Albert Q. Jiang, Alexandre Sablayrolles, Amélie Héliou, Amélie Martin, Anmol Agarwal, Antoine Roux, Arthur Darcet, Arthur Mensch, Baptiste Bout, Baptiste Rozière, Baudouin De Monicault, Chris Bamford, Christian Wallenwein, Christophe Renaudin, Clémence Lanfranchi, Darius Dabert, Devendra Singh Chaplot, Devon Mizelle, Diego de las Casas, Elliot Chane-Sane, Emilien Fugier, Emma Bou Hanna, Gabrielle Berrada, Gauthier Delerce, Gauthier Guinet, Georgii Novikov, Guillaume Martin, Himanshu Jaju, Jan Ludziejewski, Jason Rute, Jean-Hadrien Chabran, Jessica Chudnovsky, Joachim Studnia, Joep Barmentlo, Jonas Amar, Josselin Somerville Roberts, Julien Denize, Karan Saxena, Karmesh Yadav, Kartik Khandelwal, Kush Jain, Lélio Renard Lavaud, Léonard Blier, Lingxiao Zhao, Louis Martin, Lucile Saulnier, Luyu Gao, Marie Pellat, Mathilde Guillaumin, Mathis Felardos, Matthieu Dinot, Maxime Darrin, Maximilian Augustin, Mickaël Seznec, Neha Gupta, Nikhil Raghuraman, Olivier Duchenne, Patricia Wang, Patryk Saffer, Paul Jacob, Paul Wambergue, Paula Kurylowicz, Philomène Chagniot, Pierre Stock, Pravesh Agrawal, Rémi Delacourt, Romain Sauvestre, Roman Soletskyi, Sagar Vaze, Sandeep Subramanian, Saurabh Garg, Shashwat Dalal, Siddharth Gandhi, Sumukh Aithal, Szymon Antoniak, Teven Le Scao, Thibault Schueller, Thibaut Lavril, Thomas Robert, Thomas Wang, Timothée Lacroix, Tom Bewley, Valeriia Nemychnikova, Victor Paltz, Virgile Richard, Wen-Ding Li, William Marshall, Xuanyu Zhang, Yihan Wan, Yunhao Tang"
-        },
-        "c": "https://github.com/mistralai/mistral-common",
-        "n": "mistralai/Voxtral-Mini-3B-2507",
-        "d": "2025-07-01",
-        "m1": "8.75"
-      },
-      {
-        "p": {
-          "name": "Voxtral Realtime",
-          "link": "https://arxiv.org/abs/2602.11298",
-          "authors": ""
-        },
-        "c": "https://github.com/mistralai/mistral-common",
-        "n": "mistralai/Voxtral-Mini-4B-Realtime-2602",
-        "d": "2026-02-11",
-        "m1": "8.86"
-      },
-      {
-        "p": {
-          "name": "Fast Conformer with Linearly Scalable Attention for Efficient Speech Recognition",
-          "link": "https://arxiv.org/abs/2305.05084",
-          "authors": "Dima Rekesh, Nithin Rao Koluguri, Samuel Kriman, Somshubra Majumdar, Vahid Noroozi, He Huang, Oleksii Hrinchuk, Krishna Puvvada, Ankur Kumar, Jagadeesh Balam, Boris Ginsburg"
-        },
-        "c": "https://github.com/NVIDIA/NeMo",
-        "n": "nvidia/parakeet-ctc-1.1b",
-        "d": "2023-12-28",
-        "m1": "8.88"
-      },
-      {
-        "p": {
-          "name": "Efficient Sequence Transduction by Jointly Predicting Tokens and Durations",
-          "link": "https://arxiv.org/abs/2304.06795",
-          "authors": "Hainan Xu, Fei Jia, Somshubra Majumdar, He Huang, Shinji Watanabe, Boris Ginsburg"
-        },
-        "c": "https://github.com/NVIDIA/NeMo",
-        "n": "nvidia/parakeet-tdt_ctc-110m",
-        "d": "2024-09-17",
-        "m1": "8.93"
+        "m1": "8.59"
       },
       {
         "p": {
@@ -510,7 +466,73 @@
         "c": "https://github.com/nyrahealth/CrisperWhisper",
         "n": "nyrahealth/CrisperWhisper",
         "d": "2024-08-29",
-        "m1": "8.96"
+        "m1": "8.62"
+      },
+      {
+        "p": {
+          "name": "NLE: Non-autoregressive LLM-based ASR by Transcript Editing",
+          "link": "https://arxiv.org/abs/2603.08397",
+          "authors": "Avihu Dekel, Samuel Thomas, Takashi Fukada, George Saon"
+        },
+        "c": "https://github.com/ibm-granite/granite-speech-models",
+        "n": "ibm-granite/granite-speech-4.1-2b-nar",
+        "d": "2026-04-01",
+        "m1": "8.62"
+      },
+      {
+        "p": {
+          "name": "LiteASR: Efficient Automatic Speech Recognition with Low-Rank Approximation",
+          "link": "https://arxiv.org/abs/2502.20583",
+          "authors": "Keisuke Kamahori, Jungo Kasai, Noriyuki Kojima, Baris Kasikci"
+        },
+        "c": "https://github.com/efeslab/LiteASR",
+        "n": "efficient-speech/lite-whisper-large-v3",
+        "d": "2025-02-26",
+        "m1": "8.64"
+      },
+      {
+        "p": {
+          "name": "Voxtral",
+          "link": "https://arxiv.org/abs/2507.13264",
+          "authors": "Alexander H. Liu, Andy Ehrenberg, Andy Lo, Clément Denoix, Corentin Barreau, Guillaume Lample, Jean-Malo Delignon, Khyathi Raghavi Chandu, Patrick von Platen, Pavankumar Reddy Muddireddy, Sanchit Gandhi, Soham Ghosh, Srijan Mishra, Thomas Foubert, Abhinav Rastogi, Adam Yang, Albert Q. Jiang, Alexandre Sablayrolles, Amélie Héliou, Amélie Martin, Anmol Agarwal, Antoine Roux, Arthur Darcet, Arthur Mensch, Baptiste Bout, Baptiste Rozière, Baudouin De Monicault, Chris Bamford, Christian Wallenwein, Christophe Renaudin, Clémence Lanfranchi, Darius Dabert, Devendra Singh Chaplot, Devon Mizelle, Diego de las Casas, Elliot Chane-Sane, Emilien Fugier, Emma Bou Hanna, Gabrielle Berrada, Gauthier Delerce, Gauthier Guinet, Georgii Novikov, Guillaume Martin, Himanshu Jaju, Jan Ludziejewski, Jason Rute, Jean-Hadrien Chabran, Jessica Chudnovsky, Joachim Studnia, Joep Barmentlo, Jonas Amar, Josselin Somerville Roberts, Julien Denize, Karan Saxena, Karmesh Yadav, Kartik Khandelwal, Kush Jain, Lélio Renard Lavaud, Léonard Blier, Lingxiao Zhao, Louis Martin, Lucile Saulnier, Luyu Gao, Marie Pellat, Mathilde Guillaumin, Mathis Felardos, Matthieu Dinot, Maxime Darrin, Maximilian Augustin, Mickaël Seznec, Neha Gupta, Nikhil Raghuraman, Olivier Duchenne, Patricia Wang, Patryk Saffer, Paul Jacob, Paul Wambergue, Paula Kurylowicz, Philomène Chagniot, Pierre Stock, Pravesh Agrawal, Rémi Delacourt, Romain Sauvestre, Roman Soletskyi, Sagar Vaze, Sandeep Subramanian, Saurabh Garg, Shashwat Dalal, Siddharth Gandhi, Sumukh Aithal, Szymon Antoniak, Teven Le Scao, Thibault Schueller, Thibaut Lavril, Thomas Robert, Thomas Wang, Timothée Lacroix, Tom Bewley, Valeriia Nemychnikova, Victor Paltz, Virgile Richard, Wen-Ding Li, William Marshall, Xuanyu Zhang, Yihan Wan, Yunhao Tang"
+        },
+        "c": "https://github.com/mistralai/mistral-common",
+        "n": "mistralai/Voxtral-Mini-3B-2507",
+        "d": "2025-07-01",
+        "m1": "8.7"
+      },
+      {
+        "p": {
+          "name": "Fast Conformer with Linearly Scalable Attention for Efficient Speech Recognition",
+          "link": "https://arxiv.org/abs/2305.05084",
+          "authors": "Dima Rekesh, Nithin Rao Koluguri, Samuel Kriman, Somshubra Majumdar, Vahid Noroozi, He Huang, Oleksii Hrinchuk, Krishna Puvvada, Ankur Kumar, Jagadeesh Balam, Boris Ginsburg"
+        },
+        "c": "https://github.com/NVIDIA/NeMo",
+        "n": "nvidia/parakeet-ctc-1.1b",
+        "d": "2023-12-28",
+        "m1": "8.74"
+      },
+      {
+        "p": {
+          "name": "Voxtral Realtime",
+          "link": "https://arxiv.org/abs/2602.11298",
+          "authors": ""
+        },
+        "c": "https://github.com/mistralai/mistral-common",
+        "n": "mistralai/Voxtral-Mini-4B-Realtime-2602",
+        "d": "2026-02-11",
+        "m1": "8.8"
+      },
+      {
+        "p": {
+          "name": "Efficient Sequence Transduction by Jointly Predicting Tokens and Durations",
+          "link": "https://arxiv.org/abs/2304.06795",
+          "authors": "Hainan Xu, Fei Jia, Somshubra Majumdar, He Huang, Shinji Watanabe, Boris Ginsburg"
+        },
+        "c": "https://github.com/NVIDIA/NeMo",
+        "n": "nvidia/parakeet-tdt_ctc-110m",
+        "d": "2024-09-17",
+        "m1": "8.84"
       },
       {
         "p": {
@@ -521,7 +543,7 @@
         "c": "https://github.com/NVIDIA/NeMo",
         "n": "nvidia/canary-180m-flash",
         "d": "2025-03-11",
-        "m1": "8.96"
+        "m1": "8.87"
       },
       {
         "p": {
@@ -532,6 +554,28 @@
         "c": "https://github.com/NVIDIA/NeMo",
         "n": "nvidia/parakeet-ctc-0.6b",
         "d": "2023-12-28",
+        "m1": "8.9"
+      },
+      {
+        "p": {
+          "name": "LiteASR: Efficient Automatic Speech Recognition with Low-Rank Approximation",
+          "link": "https://arxiv.org/abs/2502.20583",
+          "authors": "Keisuke Kamahori, Jungo Kasai, Noriyuki Kojima, Baris Kasikci"
+        },
+        "c": "https://github.com/efeslab/LiteASR",
+        "n": "efficient-speech/lite-whisper-large-v3-fast",
+        "d": "2025-02-26",
+        "m1": "9.02"
+      },
+      {
+        "p": {
+          "name": "Granite-speech: open-source speech-aware LLMs with strong English ASR capabilities",
+          "link": "https://arxiv.org/abs/2505.08699",
+          "authors": "George Saon, Avihu Dekel, Alexander Brooks, Tohru Nagano, Abraham Daniels, Aharon Satt, Ashish Mittal, Brian Kingsbury, David Haws, Edmilson Morais, Gakuto Kurata, Hagai Aronowitz, Ibrahim Ibrahim, Jeff Kuo, Kate Soule, Luis Lastras, Masayuki Suzuki, Ron Hoory, Samuel Thomas, Sashi Novitasari, Takashi Fukuda, Vishal Sunder, Xiaodong Cui, Zvi Kons"
+        },
+        "c": "https://github.com/ibm-granite/granite-speech-models",
+        "n": "ibm-granite/granite-speech-3.3-2b",
+        "d": "2025-06-19",
         "m1": "9.03"
       },
       {
@@ -543,29 +587,7 @@
         "c": "https://github.com/moonshine-ai/moonshine",
         "n": "usefulsensors/moonshine-streaming-small",
         "d": "2026-02-12",
-        "m1": "9.08"
-      },
-      {
-        "p": {
-          "name": "LiteASR: Efficient Automatic Speech Recognition with Low-Rank Approximation",
-          "link": "https://arxiv.org/abs/2502.20583",
-          "authors": "Keisuke Kamahori, Jungo Kasai, Noriyuki Kojima, Baris Kasikci"
-        },
-        "c": "https://github.com/efeslab/LiteASR",
-        "n": "efficient-speech/lite-whisper-large-v3-fast",
-        "d": "2025-02-26",
-        "m1": "9.09"
-      },
-      {
-        "p": {
-          "name": "Granite-speech: open-source speech-aware LLMs with strong English ASR capabilities",
-          "link": "https://arxiv.org/abs/2505.08699",
-          "authors": "George Saon, Avihu Dekel, Alexander Brooks, Tohru Nagano, Abraham Daniels, Aharon Satt, Ashish Mittal, Brian Kingsbury, David Haws, Edmilson Morais, Gakuto Kurata, Hagai Aronowitz, Ibrahim Ibrahim, Jeff Kuo, Kate Soule, Luis Lastras, Masayuki Suzuki, Ron Hoory, Samuel Thomas, Sashi Novitasari, Takashi Fukuda, Vishal Sunder, Xiaodong Cui, Zvi Kons"
-        },
-        "c": "https://github.com/ibm-granite/granite-speech-models",
-        "n": "ibm-granite/granite-speech-3.3-2b",
-        "d": "2025-06-19",
-        "m1": "9.1"
+        "m1": "9.03"
       },
       {
         "p": {
@@ -576,29 +598,7 @@
         "c": "https://github.com/NVIDIA/NeMo",
         "n": "nvidia/canary-1b-v2",
         "d": "2025-08-14",
-        "m1": "9.2"
-      },
-      {
-        "p": {
-          "name": "Zipformer: A faster and better encoder for automatic speech recognition",
-          "link": "https://arxiv.org/abs/2310.11230",
-          "authors": "Zengwei Yao, Liyong Guo, Xiaoyu Yang, Wei Kang, Fangjun Kuang, Yifan Yang, Zengrui Jin, Long Lin, Daniel Povey"
-        },
-        "c": "https://github.com/k2-fsa/icefall",
-        "n": "soundsgoodai/Zipformer-transducer-XL-290M",
-        "d": "2026-05-12",
-        "m1": "9.31"
-      },
-      {
-        "p": {
-          "name": "OWSM v4: Improving Open Whisper-Style Speech Models via Data Scaling and Cleaning",
-          "link": "https://arxiv.org/abs/2506.00338",
-          "authors": "Yifan Peng, Shakeel Muhammad, Yui Sudo, William Chen, Jinchuan Tian, Chyi-Jiunn Lin, Shinji Watanabe"
-        },
-        "c": "https://github.com/espnet/espnet/tree/master/egs2/owsm_ctc_v4/s2t1",
-        "n": "espnet/owsm_ctc_v4_1B",
-        "d": "2025-01-16",
-        "m1": "9.37"
+        "m1": "9.12"
       },
       {
         "p": {
@@ -609,84 +609,29 @@
         "c": "https://github.com/facebookresearch/omnilingual-asr",
         "n": "facebook/omniASR-LLM-7B-v2",
         "d": "2025-12-12",
-        "m1": "9.5"
+        "m1": "9.21"
       },
       {
         "p": {
-          "name": "CR-CTC: Consistency regularization on CTC for improved speech recognition",
-          "link": "https://arxiv.org/abs/2410.05101v4",
-          "authors": "Zengwei Yao, Wei Kang, Xiaoyu Yang, Fangjun Kuang, Liyong Guo, Han Zhu, Zengrui Jin, Zhaoqing Li, Long Lin, Daniel Povey"
+          "name": "Zipformer: A faster and better encoder for automatic speech recognition",
+          "link": "https://arxiv.org/abs/2310.11230",
+          "authors": "Zengwei Yao, Liyong Guo, Xiaoyu Yang, Wei Kang, Fangjun Kuang, Yifan Yang, Zengrui Jin, Long Lin, Daniel Povey"
         },
         "c": "https://github.com/k2-fsa/icefall",
-        "n": "Zipformer+pruned transducer w/ CR-CTC\n(no external language model)",
-        "d": "2024-10-07",
-        "m1": "10.03"
+        "n": "soundsgoodai/Zipformer-transducer-XL-290M",
+        "d": "2026-05-12",
+        "m1": "9.21"
       },
       {
         "p": {
-          "name": "CR-CTC: Consistency regularization on CTC for improved speech recognition",
-          "link": "https://arxiv.org/abs/2410.05101v4",
-          "authors": "Zengwei Yao, Wei Kang, Xiaoyu Yang, Fangjun Kuang, Liyong Guo, Han Zhu, Zengrui Jin, Zhaoqing Li, Long Lin, Daniel Povey"
+          "name": "OWSM v4: Improving Open Whisper-Style Speech Models via Data Scaling and Cleaning",
+          "link": "https://arxiv.org/abs/2506.00338",
+          "authors": "Yifan Peng, Shakeel Muhammad, Yui Sudo, William Chen, Jinchuan Tian, Chyi-Jiunn Lin, Shinji Watanabe"
         },
-        "c": "https://github.com/k2-fsa/icefall",
-        "n": "Zipformer+CR-CTC/AED\n(no external language model)",
-        "d": "2024-10-07",
-        "m1": "10.07"
-      },
-      {
-        "p": {
-          "name": "CR-CTC: Consistency regularization on CTC for improved speech recognition",
-          "link": "https://arxiv.org/abs/2410.05101v4",
-          "authors": "Zengwei Yao, Wei Kang, Xiaoyu Yang, Fangjun Kuang, Liyong Guo, Han Zhu, Zengrui Jin, Zhaoqing Li, Long Lin, Daniel Povey"
-        },
-        "c": "https://github.com/k2-fsa/icefall",
-        "n": "Zipformer+pruned transducer\n(no external language model)",
-        "d": "2024-10-07",
-        "m1": "10.2"
-      },
-      {
-        "p": {
-          "name": "CR-CTC: Consistency regularization on CTC for improved speech recognition",
-          "link": "https://arxiv.org/abs/2410.05101v4",
-          "authors": "Zengwei Yao, Wei Kang, Xiaoyu Yang, Fangjun Kuang, Liyong Guo, Han Zhu, Zengrui Jin, Zhaoqing Li, Long Lin, Daniel Povey"
-        },
-        "c": "https://github.com/k2-fsa/icefall",
-        "n": "Zipformer+CR-CTC\n(no external language model)",
-        "d": "2024-10-07",
-        "m1": "10.28"
-      },
-      {
-        "p": {
-          "name": "On the Effects of Heterogeneous Data Sources on Speech-to-Text Foundation Models",
-          "link": "https://arxiv.org/abs/2406.09282",
-          "authors": "Jinchuan Tian, Yifan Peng, William Chen, Kwanghee Choi, Karen Livescu, Shinji Watanabe"
-        },
-        "c": "https://github.com/espnet/espnet/tree/master/egs2/owsm_ctc_v3.1/s2t1",
-        "n": "espnet/owsm_ctc_v3.2_ft_1B",
-        "d": "2024-09-24",
-        "m1": "10.29"
-      },
-      {
-        "p": {
-          "name": "Conformer: Convolution-augmented Transformer for Speech Recognition",
-          "link": "https://arxiv.org/abs/2005.08100",
-          "authors": "Anmol Gulati, James Qin, Chung-Cheng Chiu, Niki Parmar, Yu Zhang, Jiahui Yu, Wei Han, Shibo Wang, Zhengdong Zhang, Yonghui Wu, Ruoming Pang"
-        },
-        "c": "https://github.com/NVIDIA/NeMo",
-        "n": "nvidia/stt_en_conformer_ctc_large",
-        "d": "2022-04-09",
-        "m1": "10.31"
-      },
-      {
-        "p": {
-          "name": "OWSM-CTC: An Open Encoder-Only Speech Foundation Model for Speech Recognition, Translation, and Language Identification",
-          "link": "https://arxiv.org/abs/2402.12654",
-          "authors": "Yifan Peng, Yui Sudo, Muhammad Shakeel, Shinji Watanabe"
-        },
-        "c": "https://github.com/espnet/espnet/tree/master/egs2/owsm_ctc_v3.1/s2t1",
-        "n": "espnet/owsm_ctc_v3.1_1B",
-        "d": "2024-02-23",
-        "m1": "10.44"
+        "c": "https://github.com/espnet/espnet/tree/master/egs2/owsm_ctc_v4/s2t1",
+        "n": "espnet/owsm_ctc_v4_1B",
+        "d": "2025-01-16",
+        "m1": "9.29"
       },
       {
         "p": {
@@ -697,7 +642,51 @@
         "c": "https://github.com/speechbrain/speechbrain",
         "n": "speechbrain/asr-conformer-largescaleasr",
         "d": "2025-02-06",
-        "m1": "10.48"
+        "m1": "9.7"
+      },
+      {
+        "p": {
+          "name": "Stateful Conformer with Cache-based Inference for Streaming Automatic Speech Recognition",
+          "link": "https://arxiv.org/abs/2312.17279",
+          "authors": "Vahid Noroozi, Somshubra Majumdar, Ankur Kumar, Jagadeesh Balam, Boris Ginsburg"
+        },
+        "c": "https://github.com/NVIDIA/NeMo",
+        "n": "nvidia/nemotron-3.5-asr-streaming-0.6b",
+        "d": "2026-06-04",
+        "m1": "9.86"
+      },
+      {
+        "p": {
+          "name": "On the Effects of Heterogeneous Data Sources on Speech-to-Text Foundation Models",
+          "link": "https://arxiv.org/abs/2406.09282",
+          "authors": "Jinchuan Tian, Yifan Peng, William Chen, Kwanghee Choi, Karen Livescu, Shinji Watanabe"
+        },
+        "c": "https://github.com/espnet/espnet/tree/master/egs2/owsm_ctc_v3.1/s2t1",
+        "n": "espnet/owsm_ctc_v3.2_ft_1B",
+        "d": "2024-09-24",
+        "m1": "10.14"
+      },
+      {
+        "p": {
+          "name": "Conformer: Convolution-augmented Transformer for Speech Recognition",
+          "link": "https://arxiv.org/abs/2005.08100",
+          "authors": "Anmol Gulati, James Qin, Chung-Cheng Chiu, Niki Parmar, Yu Zhang, Jiahui Yu, Wei Han, Shibo Wang, Zhengdong Zhang, Yonghui Wu, Ruoming Pang"
+        },
+        "c": "https://github.com/NVIDIA/NeMo",
+        "n": "nvidia/stt_en_conformer_ctc_large",
+        "d": "2022-04-09",
+        "m1": "10.18"
+      },
+      {
+        "p": {
+          "name": "OWSM-CTC: An Open Encoder-Only Speech Foundation Model for Speech Recognition, Translation, and Language Identification",
+          "link": "https://arxiv.org/abs/2402.12654",
+          "authors": "Yifan Peng, Yui Sudo, Muhammad Shakeel, Shinji Watanabe"
+        },
+        "c": "https://github.com/espnet/espnet/tree/master/egs2/owsm_ctc_v3.1/s2t1",
+        "n": "espnet/owsm_ctc_v3.1_1B",
+        "d": "2024-02-23",
+        "m1": "10.35"
       },
       {
         "p": {
@@ -708,7 +697,7 @@
         "c": "https://github.com/moonshine-ai/moonshine",
         "n": "usefulsensors/moonshine-base",
         "d": "2024-10-21",
-        "m1": "10.69"
+        "m1": "10.58"
       },
       {
         "p": {
@@ -719,18 +708,7 @@
         "c": "https://github.com/NVIDIA/NeMo",
         "n": "nvidia/stt_en_fastconformer_transducer_large",
         "d": "2023-06-08",
-        "m1": "10.76"
-      },
-      {
-        "p": {
-          "name": "GigaSpeech: An Evolving, Multi-domain ASR Corpus with 10,000 Hours of Transcribed Audio",
-          "link": "https://arxiv.org/abs/2106.06909v1",
-          "authors": "Guoguo Chen, Shuzhou Chai, Guanbo Wang, Jiayu Du, Wei-Qiang Zhang, Chao Weng, Dan Su, Daniel Povey, Jan Trmal, Junbo Zhang, Mingjie Jin, Sanjeev Khudanpur, Shinji Watanabe, Shuaijiang Zhao, Wei Zou, Xiangang Li, Xuchen Yao, Yongqing Wang, Yujun Wang, Zhao You, Zhiyong Yan"
-        },
-        "c": "https://github.com/SpeechColab/GigaSpeech",
-        "n": "Conformer/Transformer-AED",
-        "d": "2021-06-13",
-        "m1": "10.80"
+        "m1": "10.67"
       },
       {
         "p": {
@@ -741,7 +719,7 @@
         "c": "https://github.com/NVIDIA/NeMo",
         "n": "nvidia/stt_en_fastconformer_ctc_large",
         "d": "2023-06-08",
-        "m1": "10.98"
+        "m1": "10.89"
       },
       {
         "p": {
@@ -752,7 +730,7 @@
         "c": "",
         "n": "abr-ai/niagara-38m-batch.en",
         "d": "2026-04-15",
-        "m1": "11.41"
+        "m1": "11.31"
       },
       {
         "p": {
@@ -763,7 +741,7 @@
         "c": "https://github.com/NVIDIA/NeMo",
         "n": "nvidia/stt_en_conformer_transducer_small",
         "d": "2022-06-01",
-        "m1": "12.43"
+        "m1": "12.26"
       },
       {
         "p": {
@@ -774,7 +752,7 @@
         "c": "https://github.com/moonshine-ai/moonshine",
         "n": "usefulsensors/moonshine-streaming-tiny",
         "d": "2026-02-12",
-        "m1": "12.53"
+        "m1": "12.46"
       },
       {
         "p": {
@@ -785,18 +763,7 @@
         "c": "https://github.com/moonshine-ai/moonshine",
         "n": "usefulsensors/moonshine-tiny",
         "d": "2024-10-21",
-        "m1": "12.72"
-      },
-      {
-        "p": {
-          "name": "Conformer: Convolution-augmented Transformer for Speech Recognition",
-          "link": "https://arxiv.org/abs/2005.08100",
-          "authors": "Anmol Gulati, James Qin, Chung-Cheng Chiu, Niki Parmar, Yu Zhang, Jiahui Yu, Wei Han, Shibo Wang, Zhengdong Zhang, Yonghui Wu, Ruoming Pang"
-        },
-        "c": "https://github.com/NVIDIA/NeMo",
-        "n": "nvidia/stt_en_conformer_ctc_small",
-        "d": "2023-06-12",
-        "m1": "13.32"
+        "m1": "12.6"
       },
       {
         "p": {
@@ -807,7 +774,18 @@
         "c": "https://github.com/facebookresearch/omnilingual-asr",
         "n": "facebook/omniASR-CTC-7B-v2",
         "d": "2025-12-12",
-        "m1": "13.36"
+        "m1": "12.95"
+      },
+      {
+        "p": {
+          "name": "Conformer: Convolution-augmented Transformer for Speech Recognition",
+          "link": "https://arxiv.org/abs/2005.08100",
+          "authors": "Anmol Gulati, James Qin, Chung-Cheng Chiu, Niki Parmar, Yu Zhang, Jiahui Yu, Wei Han, Shibo Wang, Zhengdong Zhang, Yonghui Wu, Ruoming Pang"
+        },
+        "c": "https://github.com/NVIDIA/NeMo",
+        "n": "nvidia/stt_en_conformer_ctc_small",
+        "d": "2023-06-12",
+        "m1": "13.17"
       },
       {
         "p": {
@@ -818,7 +796,7 @@
         "c": "",
         "n": "abr-ai/niagara-19m-batch.en",
         "d": "2026-04-15",
-        "m1": "14.21"
+        "m1": "14.07"
       },
       {
         "p": {
@@ -829,73 +807,7 @@
         "c": "https://github.com/facebookresearch/fairseq/tree/main/examples/wav2vec",
         "n": "facebook/wav2vec2-large-960h-lv60-self",
         "d": "2020-06-20",
-        "m1": "15.01"
-      },
-      {
-        "p": {
-          "name": "HuBERT: Self-Supervised Speech Representation Learning by Masked Prediction of Hidden Units",
-          "link": "https://arxiv.org/abs/2106.07447",
-          "authors": "Wei-Ning Hsu, Benjamin Bolte, Yao-Hung Hubert Tsai, Kushal Lakhotia, Ruslan Salakhutdinov, Abdelrahman Mohamed"
-        },
-        "c": "https://github.com/pytorch/fairseq/tree/main/examples/hubert",
-        "n": "facebook/hubert-xlarge-ls960-ft",
-        "d": "2022-03-02",
-        "m1": "16.01"
-      },
-      {
-        "p": {
-          "name": "data2vec: A General Framework for Self-supervised Learning in Speech, Vision and Language",
-          "link": "https://arxiv.org/abs/2202.03555",
-          "authors": "Alexei Baevski, Wei-Ning Hsu, Qiantong Xu, Arun Babu, Jiatao Gu, Michael Auli"
-        },
-        "c": "https://github.com/facebookresearch/fairseq/tree/main/examples/data2vec",
-        "n": "facebook/data2vec-audio-large-960h",
-        "d": "2022-04-02",
-        "m1": "16.01"
-      },
-      {
-        "p": {
-          "name": "fairseq S2T: Fast Speech-to-Text Modeling with fairseq",
-          "link": "https://arxiv.org/abs/2010.05171",
-          "authors": "Changhan Wang, Yun Tang, Xutai Ma, Anne Wu, Sravya Popuri, Dmytro Okhonko, Juan Pino"
-        },
-        "c": "https://github.com/pytorch/fairseq/tree/master/examples/wav2vec#wav2vec-20",
-        "n": "facebook/wav2vec2-conformer-rel-pos-large-960h-ft",
-        "d": "2022-04-18",
-        "m1": "16.19"
-      },
-      {
-        "p": {
-          "name": "HuBERT: Self-Supervised Speech Representation Learning by Masked Prediction of Hidden Units",
-          "link": "https://arxiv.org/abs/2106.07447",
-          "authors": "Wei-Ning Hsu, Benjamin Bolte, Yao-Hung Hubert Tsai, Kushal Lakhotia, Ruslan Salakhutdinov, Abdelrahman Mohamed"
-        },
-        "c": "https://github.com/pytorch/fairseq/tree/main/examples/hubert",
-        "n": "facebook/hubert-large-ls960-ft",
-        "d": "2022-03-02",
-        "m1": "16.28"
-      },
-      {
-        "p": {
-          "name": "fairseq S2T: Fast Speech-to-Text Modeling with fairseq",
-          "link": "https://arxiv.org/abs/2010.05171",
-          "authors": "Changhan Wang, Yun Tang, Xutai Ma, Anne Wu, Sravya Popuri, Dmytro Okhonko, Juan Pino"
-        },
-        "c": "https://github.com/pytorch/fairseq/tree/master/examples/wav2vec#wav2vec-20",
-        "n": "facebook/wav2vec2-conformer-rope-large-960h-ft",
-        "d": "2022-04-18",
-        "m1": "16.36"
-      },
-      {
-        "p": {
-          "name": "Robust wav2vec 2.0: Analyzing Domain Shift in Self-Supervised Pre-Training",
-          "link": "https://arxiv.org/abs/2104.01027",
-          "authors": "Wei-Ning Hsu, Anuroop Sriram, Alexei Baevski, Tatiana Likhomanenko, Qiantong Xu, Vineel Pratap, Jacob Kahn, Ann Lee, Ronan Collobert, Gabriel Synnaeve, Michael Auli"
-        },
-        "c": "https://github.com/facebookresearch/fairseq/tree/main/examples/wav2vec",
-        "n": "facebook/wav2vec2-large-robust-ft-libri-960h",
-        "d": "2021-04-02",
-        "m1": "16.52"
+        "m1": "14.76"
       },
       {
         "p": {
@@ -906,7 +818,73 @@
         "c": "https://github.com/speechbrain/speechbrain",
         "n": "speechbrain/asr-wav2vec2-librispeech",
         "d": "2022-06-05",
-        "m1": "16.72"
+        "m1": "15.07"
+      },
+      {
+        "p": {
+          "name": "data2vec: A General Framework for Self-supervised Learning in Speech, Vision and Language",
+          "link": "https://arxiv.org/abs/2202.03555",
+          "authors": "Alexei Baevski, Wei-Ning Hsu, Qiantong Xu, Arun Babu, Jiatao Gu, Michael Auli"
+        },
+        "c": "https://github.com/facebookresearch/fairseq/tree/main/examples/data2vec",
+        "n": "facebook/data2vec-audio-large-960h",
+        "d": "2022-04-02",
+        "m1": "15.68"
+      },
+      {
+        "p": {
+          "name": "HuBERT: Self-Supervised Speech Representation Learning by Masked Prediction of Hidden Units",
+          "link": "https://arxiv.org/abs/2106.07447",
+          "authors": "Wei-Ning Hsu, Benjamin Bolte, Yao-Hung Hubert Tsai, Kushal Lakhotia, Ruslan Salakhutdinov, Abdelrahman Mohamed"
+        },
+        "c": "https://github.com/pytorch/fairseq/tree/main/examples/hubert",
+        "n": "facebook/hubert-xlarge-ls960-ft",
+        "d": "2022-03-02",
+        "m1": "15.77"
+      },
+      {
+        "p": {
+          "name": "fairseq S2T: Fast Speech-to-Text Modeling with fairseq",
+          "link": "https://arxiv.org/abs/2010.05171",
+          "authors": "Changhan Wang, Yun Tang, Xutai Ma, Anne Wu, Sravya Popuri, Dmytro Okhonko, Juan Pino"
+        },
+        "c": "https://github.com/pytorch/fairseq/tree/master/examples/wav2vec#wav2vec-20",
+        "n": "facebook/wav2vec2-conformer-rel-pos-large-960h-ft",
+        "d": "2022-04-18",
+        "m1": "15.87"
+      },
+      {
+        "p": {
+          "name": "HuBERT: Self-Supervised Speech Representation Learning by Masked Prediction of Hidden Units",
+          "link": "https://arxiv.org/abs/2106.07447",
+          "authors": "Wei-Ning Hsu, Benjamin Bolte, Yao-Hung Hubert Tsai, Kushal Lakhotia, Ruslan Salakhutdinov, Abdelrahman Mohamed"
+        },
+        "c": "https://github.com/pytorch/fairseq/tree/main/examples/hubert",
+        "n": "facebook/hubert-large-ls960-ft",
+        "d": "2022-03-02",
+        "m1": "16.02"
+      },
+      {
+        "p": {
+          "name": "fairseq S2T: Fast Speech-to-Text Modeling with fairseq",
+          "link": "https://arxiv.org/abs/2010.05171",
+          "authors": "Changhan Wang, Yun Tang, Xutai Ma, Anne Wu, Sravya Popuri, Dmytro Okhonko, Juan Pino"
+        },
+        "c": "https://github.com/pytorch/fairseq/tree/master/examples/wav2vec#wav2vec-20",
+        "n": "facebook/wav2vec2-conformer-rope-large-960h-ft",
+        "d": "2022-04-18",
+        "m1": "16.03"
+      },
+      {
+        "p": {
+          "name": "Robust wav2vec 2.0: Analyzing Domain Shift in Self-Supervised Pre-Training",
+          "link": "https://arxiv.org/abs/2104.01027",
+          "authors": "Wei-Ning Hsu, Anuroop Sriram, Alexei Baevski, Tatiana Likhomanenko, Qiantong Xu, Vineel Pratap, Jacob Kahn, Ann Lee, Ronan Collobert, Gabriel Synnaeve, Michael Auli"
+        },
+        "c": "https://github.com/facebookresearch/fairseq/tree/main/examples/wav2vec",
+        "n": "facebook/wav2vec2-large-robust-ft-libri-960h",
+        "d": "2021-04-02",
+        "m1": "16.3"
       },
       {
         "p": {
@@ -917,7 +895,7 @@
         "c": "https://github.com/facebookresearch/fairseq/tree/main/examples/mms",
         "n": "facebook/mms-1b-all",
         "d": "2023-05-27",
-        "m1": "17.47"
+        "m1": "17.15"
       },
       {
         "p": {
@@ -928,7 +906,7 @@
         "c": "https://github.com/facebookresearch/fairseq/tree/main/examples/wav2vec",
         "n": "facebook/wav2vec2-large-960h",
         "d": "2020-06-20",
-        "m1": "19.37"
+        "m1": "19.09"
       },
       {
         "p": {
@@ -939,7 +917,7 @@
         "c": "https://github.com/facebookresearch/fairseq/tree/main/examples/data2vec",
         "n": "facebook/data2vec-audio-base-960h",
         "d": "2022-03-02",
-        "m1": "21.7"
+        "m1": "21.39"
       },
       {
         "p": {
@@ -950,7 +928,7 @@
         "c": "https://github.com/pytorch/fairseq/tree/main/examples/wav2vec",
         "n": "facebook/wav2vec2-base-960h",
         "d": "2022-03-02",
-        "m1": "22.58"
+        "m1": "22.3"
       }
     ]
   }
