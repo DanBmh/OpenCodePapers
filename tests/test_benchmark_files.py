@@ -424,12 +424,9 @@ def check_benchmark_order(data: dict, path: str):
         preview = "; ".join(
             (
                 f"items[{l_idx}]={l_val} -> items[{r_idx}]={r_val}"
-                for l_idx, l_val, r_idx, r_val in violations[:3]
+                for l_idx, l_val, r_idx, r_val in violations
             )
         )
-        if len(violations) > 3:
-            preview += f"; ... (+{len(violations) - 3} more)"
-
         errors.append(
             (
                 f"{path}: Benchmark items are not ordered by first metric {first_metric_key!r} "
@@ -467,14 +464,9 @@ def check_benchmark_order(data: dict, path: str):
             (
                 f"items[{l_idx}] metric={l_val}, date={l_date} -> "
                 f"items[{r_idx}] metric={r_val}, date={r_date}"
-                for l_idx, l_val, l_date, r_idx, r_val, r_date in metric_date_violations[
-                    :3
-                ]
+                for l_idx, l_val, l_date, r_idx, r_val, r_date in metric_date_violations
             )
         )
-        if len(metric_date_violations) > 3:
-            preview += f"; ... (+{len(metric_date_violations) - 3} more)"
-
         errors.append(
             (
                 f"{path}: Benchmark items with equal first metric {first_metric_key!r} "
@@ -581,7 +573,7 @@ def main() -> int:
             continue
         if json.dumps(data, ensure_ascii=False, indent=2) != text:
             all_errors.append(
-                f"{path}: JSON file contains formatting issues (whitespaces, ...)"
+                f"{path}: JSON file contains formatting issues (whitespaces, unicode-escapes, ...)"
             )
             continue
 
