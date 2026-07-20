@@ -1,0 +1,193 @@
+{
+  "title": "question-answering-on-tat-qa",
+  "task-hierarchy": [
+    "Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://nextplusplus.github.io/TAT-QA/",
+    "paper": "TAT-QA: A Question Answering Benchmark on a Hybrid of Tabular and Textual Content in Finance"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Exact Match",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "TAT-LLM: A Specialized Language Model for Discrete Reasoning over Tabular and Textual Data",
+          "link": "https://arxiv.org/abs/2401.13223",
+          "authors": "Fengbin Zhu, Ziyang Liu, Fuli Feng, Chao Wang, Moxin Li, Tat-Seng Chua"
+        },
+        "c": "https://github.com/fengbinzhu/TAT-LLM",
+        "n": "TAT-LLM (70B)",
+        "d": "2024-01-24",
+        "m1": "88.4",
+        "m2": "81.4"
+      },
+      {
+        "p": {
+          "name": "TAT-LLM: A Specialized Language Model for Discrete Reasoning over Tabular and Textual Data",
+          "link": "https://arxiv.org/abs/2401.13223",
+          "authors": "Fengbin Zhu, Ziyang Liu, Fuli Feng, Chao Wang, Moxin Li, Tat-Seng Chua"
+        },
+        "c": "https://github.com/fengbinzhu/TAT-LLM",
+        "n": "TAT-LLM (13B)",
+        "d": "2024-01-24",
+        "m1": "85.9",
+        "m2": "77.5"
+      },
+      {
+        "p": {
+          "name": "TAT-LLM: A Specialized Language Model for Discrete Reasoning over Tabular and Textual Data",
+          "link": "https://arxiv.org/abs/2401.13223",
+          "authors": "Fengbin Zhu, Ziyang Liu, Fuli Feng, Chao Wang, Moxin Li, Tat-Seng Chua"
+        },
+        "c": "https://github.com/fengbinzhu/TAT-LLM",
+        "n": "TAT-LLM (7B)",
+        "d": "2024-01-24",
+        "m1": "85.1",
+        "m2": "76.4"
+      },
+      {
+        "p": {
+          "name": "Multi-View Graph Representation Learning for Answering Hybrid Numerical Reasoning Question",
+          "link": "https://arxiv.org/abs/2305.03458",
+          "authors": "Yifan Wei, Fangyu Lei, Yuanzhe Zhang, Jun Zhao, Kang Liu"
+        },
+        "c": "https://github.com/weiyifan1023/MVGE",
+        "n": "MVGE",
+        "d": "2023-05-05",
+        "m1": "79.1",
+        "m2": "70.9"
+      },
+      {
+        "p": {
+          "name": "Answering Numerical Reasoning Questions in Table-Text Hybrid Contents with Graph-based Encoder and Tree-based Decoder",
+          "link": "https://arxiv.org/abs/2209.07692",
+          "authors": "Fangyu Lei, Shizhu He, Xiang Li, Jun Zhao, Kang Liu"
+        },
+        "c": "https://github.com/lfy79001/RegHNT",
+        "n": "RegHNT",
+        "d": "2022-09-16",
+        "m1": "78.0",
+        "m2": "70.3"
+      },
+      {
+        "p": {
+          "name": "UniRPG: Unified Discrete Reasoning over Table and Text as Program Generation",
+          "link": "https://arxiv.org/abs/2210.08249",
+          "authors": "Yongwei Zhou, Junwei Bao, Chaoqun Duan, Youzheng Wu, Xiaodong He, Tiejun Zhao"
+        },
+        "c": "https://github.com/phddamuge/UniRPG",
+        "n": "UniRPG (BART-large)",
+        "d": "2022-10-15",
+        "m1": "76.0",
+        "m2": "67.1"
+      },
+      {
+        "p": {
+          "name": "TAT-QA: A Question Answering Benchmark on a Hybrid of Tabular and Textual Content in Finance",
+          "link": "https://arxiv.org/abs/2105.07624",
+          "authors": "Fengbin Zhu, Wenqiang Lei, Youcheng Huang, Chao Wang, Shuo Zhang, Jiancheng Lv, Fuli Feng, Tat-Seng Chua"
+        },
+        "c": "https://github.com/NExTplusplus/TAT-QA",
+        "n": "TAGOP",
+        "d": "2021-05-17",
+        "m1": "58.0",
+        "m2": "50.1"
+      },
+      {
+        "p": {
+          "name": "ProTrix: Building Models for Planning and Reasoning over Tables with Sentence Context",
+          "link": "https://arxiv.org/abs/2403.02177",
+          "authors": "Zirui Wu, Yansong Feng"
+        },
+        "c": "https://github.com/WilliamZR/ProTrix",
+        "n": "GPT-4",
+        "d": "2024-03-04",
+        "m2": "80.8"
+      },
+      {
+        "p": {
+          "name": "ProTrix: Building Models for Planning and Reasoning over Tables with Sentence Context",
+          "link": "https://arxiv.org/abs/2403.02177",
+          "authors": "Zirui Wu, Yansong Feng"
+        },
+        "c": "https://github.com/WilliamZR/ProTrix",
+        "n": "GPT-3.5-turbo",
+        "d": "2024-03-04",
+        "m2": "59.1"
+      },
+      {
+        "p": {
+          "name": "ProTrix: Building Models for Planning and Reasoning over Tables with Sentence Context",
+          "link": "https://arxiv.org/abs/2403.02177",
+          "authors": "Zirui Wu, Yansong Feng"
+        },
+        "c": "https://github.com/WilliamZR/ProTrix",
+        "n": "ProTrix-Coder",
+        "d": "2024-03-04",
+        "m2": "52.2"
+      },
+      {
+        "p": {
+          "name": "ProTrix: Building Models for Planning and Reasoning over Tables with Sentence Context",
+          "link": "https://arxiv.org/abs/2403.02177",
+          "authors": "Zirui Wu, Yansong Feng"
+        },
+        "c": "https://github.com/WilliamZR/ProTrix",
+        "n": "ProTrix",
+        "d": "2024-03-04",
+        "m2": "50.1"
+      },
+      {
+        "p": {
+          "name": "ProTrix: Building Models for Planning and Reasoning over Tables with Sentence Context",
+          "link": "https://arxiv.org/abs/2403.02177",
+          "authors": "Zirui Wu, Yansong Feng"
+        },
+        "c": "https://github.com/WilliamZR/ProTrix",
+        "n": "Llama-2-7B",
+        "d": "2024-03-04",
+        "m2": "28.7"
+      },
+      {
+        "p": {
+          "name": "ProTrix: Building Models for Planning and Reasoning over Tables with Sentence Context",
+          "link": "https://arxiv.org/abs/2403.02177",
+          "authors": "Zirui Wu, Yansong Feng"
+        },
+        "c": "https://github.com/WilliamZR/ProTrix",
+        "n": "CodeLlama-7B",
+        "d": "2024-03-04",
+        "m2": "28.4"
+      }
+    ]
+  }
+}

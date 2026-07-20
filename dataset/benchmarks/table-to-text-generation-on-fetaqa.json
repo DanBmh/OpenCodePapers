@@ -1,0 +1,220 @@
+{
+  "title": "table-to-text-generation-on-fetaqa",
+  "task-hierarchy": [
+    "Table-to-Text Generation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/Yale-LILY/FeTaQA",
+    "paper": "FeTaQA: Free-form Table Question Answering"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "BLEU",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "ROUGE-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "ROUGE-2",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "ROUGE-L",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Enhancing Free-Form Table Question Answering Models by Distilling Relevant-Cell-Based Rationales",
+          "link": "https://aclanthology.org/2024.ccl-1.75/",
+          "authors": "Zhiyu Yang, Shuo Wang, Yukun Yan, Pengyuan Liu, Dong Yu"
+        },
+        "c": "",
+        "n": "RCKD-TG",
+        "d": "2024-07-25",
+        "m1": "41.3"
+      },
+      {
+        "p": {
+          "name": "CABINET: Content Relevance based Noise Reduction for Table Question Answering",
+          "link": "https://arxiv.org/abs/2402.01155",
+          "authors": "Sohan Patnaik, Heril Changwal, Milan Aggarwal, Sumit Bhatia, Yaman Kumar, Balaji Krishnamurthy"
+        },
+        "c": "https://github.com/Sohanpatnaik106/CABINET_QA",
+        "n": "CABINET",
+        "d": "2024-02-02",
+        "m1": "40.5"
+      },
+      {
+        "p": {
+          "name": "HeLM: Highlighted Evidence augmented Language Model for Enhanced Table-to-Text Generation",
+          "link": "https://arxiv.org/abs/2311.08896",
+          "authors": "Junyi Bian, Xiaolei Qin, Wuhe Zou, Mengzuo Huang, Congyi Luo, Ke Zhang, Weidong Zhang"
+        },
+        "c": "",
+        "n": "HeLM-13B",
+        "d": "2023-11-15",
+        "m1": "35.10",
+        "m2": "67.8",
+        "m3": "46.4",
+        "m4": "57.9"
+      },
+      {
+        "p": {
+          "name": "UnifiedSKG: Unifying and Multi-Tasking Structured Knowledge Grounding with Text-to-Text Language Models",
+          "link": "https://arxiv.org/abs/2201.05966",
+          "authors": "Tianbao Xie, Chen Henry Wu, Peng Shi, Ruiqi Zhong, Torsten Scholak, Michihiro Yasunaga, Chien-Sheng Wu, Ming Zhong, Pengcheng Yin, Sida I. Wang, Victor Zhong, Bailin Wang, Chengzu Li, Connor Boyle, Ansong Ni, Ziyu Yao, Dragomir Radev, Caiming Xiong, Lingpeng Kong, Rui Zhang, Noah A. Smith, Luke Zettlemoyer, Tao Yu"
+        },
+        "c": "https://github.com/HKUNLP/UnifiedSKG",
+        "n": "UnifiedSKG (T5-3B)",
+        "d": "2022-01-16",
+        "m1": "33.44"
+      },
+      {
+        "p": {
+          "name": "UnifiedSKG: Unifying and Multi-Tasking Structured Knowledge Grounding with Text-to-Text Language Models",
+          "link": "https://arxiv.org/abs/2201.05966",
+          "authors": "Tianbao Xie, Chen Henry Wu, Peng Shi, Ruiqi Zhong, Torsten Scholak, Michihiro Yasunaga, Chien-Sheng Wu, Ming Zhong, Pengcheng Yin, Sida I. Wang, Victor Zhong, Bailin Wang, Chengzu Li, Connor Boyle, Ansong Ni, Ziyu Yao, Dragomir Radev, Caiming Xiong, Lingpeng Kong, Rui Zhang, Noah A. Smith, Luke Zettlemoyer, Tao Yu"
+        },
+        "c": "https://github.com/HKUNLP/UnifiedSKG",
+        "n": "UnifiedSKG (T5-large)",
+        "d": "2022-01-16",
+        "m1": "32.45"
+      },
+      {
+        "p": {
+          "name": "Large Language Models are Versatile Decomposers: Decompose Evidence and Questions for Table-based Reasoning",
+          "link": "https://arxiv.org/abs/2301.13808",
+          "authors": "Yunhu Ye, Binyuan Hui, Min Yang, Binhua Li, Fei Huang, Yongbin Li"
+        },
+        "c": "",
+        "n": "Codex w/ Dater",
+        "d": "2023-01-31",
+        "m1": "30.92",
+        "m2": "66",
+        "m3": "45",
+        "m4": "56"
+      },
+      {
+        "p": {
+          "name": "FeTaQA: Free-form Table Question Answering",
+          "link": "https://arxiv.org/abs/2104.00369",
+          "authors": "Linyong Nan, Chiachun Hsieh, Ziming Mao, Xi Victoria Lin, Neha Verma, Rui Zhang, Wojciech Kryściński, Nick Schoelkopf, Riley Kong, Xiangru Tang, Mutethia Mutuma, Ben Rosand, Isabel Trindade, Renusree Bandaru, Jacob Cunningham, Caiming Xiong, Dragomir Radev"
+        },
+        "c": "https://github.com/Yale-LILY/FeTaQA",
+        "n": "T5-large (End-to-End)",
+        "d": "2021-04-01",
+        "m1": "30.54",
+        "m2": "63",
+        "m3": "41",
+        "m4": "53"
+      },
+      {
+        "p": {
+          "name": "UnifiedSKG: Unifying and Multi-Tasking Structured Knowledge Grounding with Text-to-Text Language Models",
+          "link": "https://arxiv.org/abs/2201.05966",
+          "authors": "Tianbao Xie, Chen Henry Wu, Peng Shi, Ruiqi Zhong, Torsten Scholak, Michihiro Yasunaga, Chien-Sheng Wu, Ming Zhong, Pengcheng Yin, Sida I. Wang, Victor Zhong, Bailin Wang, Chengzu Li, Connor Boyle, Ansong Ni, Ziyu Yao, Dragomir Radev, Caiming Xiong, Lingpeng Kong, Rui Zhang, Noah A. Smith, Luke Zettlemoyer, Tao Yu"
+        },
+        "c": "https://github.com/HKUNLP/UnifiedSKG",
+        "n": "UnifiedSKG (T5-base)",
+        "d": "2022-01-16",
+        "m1": "29.91"
+      },
+      {
+        "p": {
+          "name": "FeTaQA: Free-form Table Question Answering",
+          "link": "https://arxiv.org/abs/2104.00369",
+          "authors": "Linyong Nan, Chiachun Hsieh, Ziming Mao, Xi Victoria Lin, Neha Verma, Rui Zhang, Wojciech Kryściński, Nick Schoelkopf, Riley Kong, Xiangru Tang, Mutethia Mutuma, Ben Rosand, Isabel Trindade, Renusree Bandaru, Jacob Cunningham, Caiming Xiong, Dragomir Radev"
+        },
+        "c": "https://github.com/Yale-LILY/FeTaQA",
+        "n": "T5-base (End-to-End)",
+        "d": "2021-04-01",
+        "m1": "28.14",
+        "m2": "61",
+        "m3": "39",
+        "m4": "51"
+      },
+      {
+        "p": {
+          "name": "Large Language Models are Versatile Decomposers: Decompose Evidence and Questions for Table-based Reasoning",
+          "link": "https://arxiv.org/abs/2301.13808",
+          "authors": "Yunhu Ye, Binyuan Hui, Min Yang, Binhua Li, Fei Huang, Yongbin Li"
+        },
+        "c": "",
+        "n": "Codex",
+        "d": "2023-01-31",
+        "m1": "27.96",
+        "m2": "62",
+        "m3": "40",
+        "m4": "52"
+      },
+      {
+        "p": {
+          "name": "FeTaQA: Free-form Table Question Answering",
+          "link": "https://arxiv.org/abs/2104.00369",
+          "authors": "Linyong Nan, Chiachun Hsieh, Ziming Mao, Xi Victoria Lin, Neha Verma, Rui Zhang, Wojciech Kryściński, Nick Schoelkopf, Riley Kong, Xiangru Tang, Mutethia Mutuma, Ben Rosand, Isabel Trindade, Renusree Bandaru, Jacob Cunningham, Caiming Xiong, Dragomir Radev"
+        },
+        "c": "https://github.com/Yale-LILY/FeTaQA",
+        "n": "T5-small (End-to-End)",
+        "d": "2021-04-01",
+        "m1": "21.60",
+        "m2": "55",
+        "m3": "33",
+        "m4": "47"
+      },
+      {
+        "p": {
+          "name": "FeTaQA: Free-form Table Question Answering",
+          "link": "https://arxiv.org/abs/2104.00369",
+          "authors": "Linyong Nan, Chiachun Hsieh, Ziming Mao, Xi Victoria Lin, Neha Verma, Rui Zhang, Wojciech Kryściński, Nick Schoelkopf, Riley Kong, Xiangru Tang, Mutethia Mutuma, Ben Rosand, Isabel Trindade, Renusree Bandaru, Jacob Cunningham, Caiming Xiong, Dragomir Radev"
+        },
+        "c": "https://github.com/Yale-LILY/FeTaQA",
+        "n": "Pipeline (fine-tuned)",
+        "d": "2021-04-01",
+        "m1": "11.00",
+        "m2": "40",
+        "m3": "22",
+        "m4": "35"
+      },
+      {
+        "p": {
+          "name": "FeTaQA: Free-form Table Question Answering",
+          "link": "https://arxiv.org/abs/2104.00369",
+          "authors": "Linyong Nan, Chiachun Hsieh, Ziming Mao, Xi Victoria Lin, Neha Verma, Rui Zhang, Wojciech Kryściński, Nick Schoelkopf, Riley Kong, Xiangru Tang, Mutethia Mutuma, Ben Rosand, Isabel Trindade, Renusree Bandaru, Jacob Cunningham, Caiming Xiong, Dragomir Radev"
+        },
+        "c": "https://github.com/Yale-LILY/FeTaQA",
+        "n": "Pipeline (zero-shot)",
+        "d": "2021-04-01",
+        "m1": "9.16",
+        "m2": "38",
+        "m3": "20",
+        "m4": "33"
+      }
+    ]
+  }
+}

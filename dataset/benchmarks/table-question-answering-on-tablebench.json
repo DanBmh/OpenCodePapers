@@ -1,0 +1,276 @@
+{
+  "title": "table-question-answering-on-tablebench",
+  "task-hierarchy": [
+    "Table Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/TableBench/TableBench",
+    "paper": "TableBench: A Comprehensive and Complex Benchmark for Table Question Answering"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Score",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "EM",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Table-R1: Region-based Reinforcement Learning for Table Understanding",
+          "link": "https://arxiv.org/abs/2505.12415",
+          "authors": "Zhenhe Wu, Jian Yang, Zhongjiang He, Changzai Pan, Jie Zhang, Jiaheng Liu, Xianjie Wu, Yu Zhao, Shuangyong Song, Yongxiang Li, Zhoujun Li, Xueling Li"
+        },
+        "c": "",
+        "n": "GPT-4o (TCoT)",
+        "d": "2025-05-18",
+        "m1": "51.96"
+      },
+      {
+        "p": {
+          "name": "TableBench: A Comprehensive and Complex Benchmark for Table Question Answering",
+          "link": "https://arxiv.org/abs/2408.09174",
+          "authors": "Xianjie Wu, Jian Yang, Linzheng Chai, Ge Zhang, Jiaheng Liu, Xinrun Du, Di Liang, Daixin Shu, Xianfu Cheng, Tianzhen Sun, Guanglin Niu, Tongliang Li, Zhoujun Li"
+        },
+        "c": "https://github.com/TableBench/TableBench",
+        "n": "GPT-4-Turbo (TCoT)",
+        "d": "2024-08-17",
+        "m1": "51.32"
+      },
+      {
+        "p": {
+          "name": "TableBench: A Comprehensive and Complex Benchmark for Table Question Answering",
+          "link": "https://arxiv.org/abs/2408.09174",
+          "authors": "Xianjie Wu, Jian Yang, Linzheng Chai, Ge Zhang, Jiaheng Liu, Xinrun Du, Di Liang, Daixin Shu, Xianfu Cheng, Tianzhen Sun, Guanglin Niu, Tongliang Li, Zhoujun Li"
+        },
+        "c": "https://github.com/TableBench/TableBench",
+        "n": "GPT-4o (TCoT)",
+        "d": "2024-08-17",
+        "m1": "50.39"
+      },
+      {
+        "p": {
+          "name": "Table-R1: Region-based Reinforcement Learning for Table Understanding",
+          "link": "https://arxiv.org/abs/2505.12415",
+          "authors": "Zhenhe Wu, Jian Yang, Zhongjiang He, Changzai Pan, Jie Zhang, Jiaheng Liu, Xianjie Wu, Yu Zhao, Shuangyong Song, Yongxiang Li, Zhoujun Li, Xueling Li"
+        },
+        "c": "",
+        "n": "TableGPT2-72B (TCoT)",
+        "d": "2025-05-18",
+        "m1": "50.06"
+      },
+      {
+        "p": {
+          "name": "Efficient Table QA via TableGrid Navigation and Progressive Inference Prompting",
+          "link": "https://arxiv.org/abs/2605.20254",
+          "authors": "Amritansh Maurya, Navjot Singh, Mohammed Javed, Omar Moured"
+        },
+        "c": "",
+        "n": "TGN (Qwen3-8B)",
+        "d": "2026-05-18",
+        "m1": "48.46"
+      },
+      {
+        "p": {
+          "name": "Efficient Table QA via TableGrid Navigation and Progressive Inference Prompting",
+          "link": "https://arxiv.org/abs/2605.20254",
+          "authors": "Amritansh Maurya, Navjot Singh, Mohammed Javed, Omar Moured"
+        },
+        "c": "",
+        "n": "ReAct (Qwen3-8B)",
+        "d": "2026-05-18",
+        "m1": "47.17"
+      },
+      {
+        "p": {
+          "name": "TableBench: A Comprehensive and Complex Benchmark for Table Question Answering",
+          "link": "https://arxiv.org/abs/2408.09174",
+          "authors": "Xianjie Wu, Jian Yang, Linzheng Chai, Ge Zhang, Jiaheng Liu, Xinrun Du, Di Liang, Daixin Shu, Xianfu Cheng, Tianzhen Sun, Guanglin Niu, Tongliang Li, Zhoujun Li"
+        },
+        "c": "https://github.com/TableBench/TableBench",
+        "n": "Llama3.1-70B (TCoT)",
+        "d": "2024-08-17",
+        "m1": "43.85"
+      },
+      {
+        "p": {
+          "name": "Table-R1: Region-based Reinforcement Learning for Table Understanding",
+          "link": "https://arxiv.org/abs/2505.12415",
+          "authors": "Zhenhe Wu, Jian Yang, Zhongjiang He, Changzai Pan, Jie Zhang, Jiaheng Liu, Xianjie Wu, Yu Zhao, Shuangyong Song, Yongxiang Li, Zhoujun Li, Xueling Li"
+        },
+        "c": "",
+        "n": "QWQ-32B (TCoT)",
+        "d": "2025-05-18",
+        "m1": "43.48"
+      },
+      {
+        "p": {
+          "name": "Table-R1: Region-based Reinforcement Learning for Table Understanding",
+          "link": "https://arxiv.org/abs/2505.12415",
+          "authors": "Zhenhe Wu, Jian Yang, Zhongjiang He, Changzai Pan, Jie Zhang, Jiaheng Liu, Xianjie Wu, Yu Zhao, Shuangyong Song, Yongxiang Li, Zhoujun Li, Xueling Li"
+        },
+        "c": "",
+        "n": "Table-R1 (Qwen2-7B, TCoT)",
+        "d": "2025-05-18",
+        "m1": "41.85"
+      },
+      {
+        "p": {
+          "name": "Efficient Table QA via TableGrid Navigation and Progressive Inference Prompting",
+          "link": "https://arxiv.org/abs/2605.20254",
+          "authors": "Amritansh Maurya, Navjot Singh, Mohammed Javed, Omar Moured"
+        },
+        "c": "",
+        "n": "CoT (Qwen3-8B)",
+        "d": "2026-05-18",
+        "m1": "41.69"
+      },
+      {
+        "p": {
+          "name": "TableBench: A Comprehensive and Complex Benchmark for Table Question Answering",
+          "link": "https://arxiv.org/abs/2408.09174",
+          "authors": "Xianjie Wu, Jian Yang, Linzheng Chai, Ge Zhang, Jiaheng Liu, Xinrun Du, Di Liang, Daixin Shu, Xianfu Cheng, Tianzhen Sun, Guanglin Niu, Tongliang Li, Zhoujun Li"
+        },
+        "c": "https://github.com/TableBench/TableBench",
+        "n": "TableLLM-Llama3.1-8B (TCoT)",
+        "d": "2024-08-17",
+        "m1": "35.29"
+      },
+      {
+        "p": {
+          "name": "TableBench: A Comprehensive and Complex Benchmark for Table Question Answering",
+          "link": "https://arxiv.org/abs/2408.09174",
+          "authors": "Xianjie Wu, Jian Yang, Linzheng Chai, Ge Zhang, Jiaheng Liu, Xinrun Du, Di Liang, Daixin Shu, Xianfu Cheng, Tianzhen Sun, Guanglin Niu, Tongliang Li, Zhoujun Li"
+        },
+        "c": "https://github.com/TableBench/TableBench",
+        "n": "GPT-3.5-Turbo (TCoT)",
+        "d": "2024-08-17",
+        "m1": "30.85"
+      },
+      {
+        "p": {
+          "name": "MATA: Multi-Agent Framework for Reliable and Flexible Table Question Answering",
+          "link": "https://arxiv.org/abs/2602.09642",
+          "authors": "Sieun Hyeon, Jusang Oh, Sunghwan Steve Cho, Jaeyoung Do"
+        },
+        "c": "https://github.com/AIDASLab/MATA",
+        "n": "Claude-3.7-Sonnet",
+        "d": "2026-02-10",
+        "m2": "0.612",
+        "m3": "0.655"
+      },
+      {
+        "p": {
+          "name": "MATA: Multi-Agent Framework for Reliable and Flexible Table Question Answering",
+          "link": "https://arxiv.org/abs/2602.09642",
+          "authors": "Sieun Hyeon, Jusang Oh, Sunghwan Steve Cho, Jaeyoung Do"
+        },
+        "c": "https://github.com/AIDASLab/MATA",
+        "n": "GPT-4o",
+        "d": "2026-02-10",
+        "m2": "0.556",
+        "m3": "0.595"
+      },
+      {
+        "p": {
+          "name": "MATA: Multi-Agent Framework for Reliable and Flexible Table Question Answering",
+          "link": "https://arxiv.org/abs/2602.09642",
+          "authors": "Sieun Hyeon, Jusang Oh, Sunghwan Steve Cho, Jaeyoung Do"
+        },
+        "c": "https://github.com/AIDASLab/MATA",
+        "n": "MATA (avg. across 10 backbones)",
+        "d": "2026-02-10",
+        "m2": "0.451",
+        "m3": "0.482"
+      },
+      {
+        "p": {
+          "name": "MATA: Multi-Agent Framework for Reliable and Flexible Table Question Answering",
+          "link": "https://arxiv.org/abs/2602.09642",
+          "authors": "Sieun Hyeon, Jusang Oh, Sunghwan Steve Cho, Jaeyoung Do"
+        },
+        "c": "https://github.com/AIDASLab/MATA",
+        "n": "cogito-32b",
+        "d": "2026-02-10",
+        "m2": "0.440",
+        "m3": "0.483"
+      },
+      {
+        "p": {
+          "name": "MATA: Multi-Agent Framework for Reliable and Flexible Table Question Answering",
+          "link": "https://arxiv.org/abs/2602.09642",
+          "authors": "Sieun Hyeon, Jusang Oh, Sunghwan Steve Cho, Jaeyoung Do"
+        },
+        "c": "https://github.com/AIDASLab/MATA",
+        "n": "qwen2.5-3b",
+        "d": "2026-02-10",
+        "m2": "0.163",
+        "m3": "0.195"
+      },
+      {
+        "p": {
+          "name": "GLEAN: Grounded Lightweight Evaluation Anchors for Contamination-Aware Tabular Reasoning",
+          "link": "https://arxiv.org/abs/2603.02212",
+          "authors": "Qizhi Wang"
+        },
+        "c": "",
+        "n": "TAPEX",
+        "d": "2026-01-22",
+        "m2": "0.105",
+        "m3": "0.122"
+      },
+      {
+        "p": {
+          "name": "GLEAN: Grounded Lightweight Evaluation Anchors for Contamination-Aware Tabular Reasoning",
+          "link": "https://arxiv.org/abs/2603.02212",
+          "authors": "Qizhi Wang"
+        },
+        "c": "",
+        "n": "TAPAS-base",
+        "d": "2026-01-22",
+        "m2": "0.093",
+        "m3": "0.119"
+      },
+      {
+        "p": {
+          "name": "GLEAN: Grounded Lightweight Evaluation Anchors for Contamination-Aware Tabular Reasoning",
+          "link": "https://arxiv.org/abs/2603.02212",
+          "authors": "Qizhi Wang"
+        },
+        "c": "",
+        "n": "TAPAS-large",
+        "d": "2026-01-22",
+        "m2": "0.090",
+        "m3": "0.121"
+      }
+    ]
+  }
+}

@@ -1,0 +1,500 @@
+{
+  "title": "table-claim-verification-on-scitab",
+  "task-hierarchy": [
+    "Table-based Fact Verification"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/XinyuanLu00/SciTab",
+    "paper": "SCITAB: A Challenging Benchmark for Compositional Reasoning and Claim Verification on Scientific Tables"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Macro-F1 (3-class)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "A Multi-Agent Approach for Claim Verification from Tabular Data Documents",
+          "link": "https://arxiv.org/abs/2604.17225",
+          "authors": "Rudra Ranajee Saha, Laks V. S. Lakshmanan, Raymond T. Ng"
+        },
+        "c": "",
+        "n": "Qwen-235B + CoT (baseline)",
+        "d": "2026-04-19",
+        "m1": "0.7300"
+      },
+      {
+        "p": {
+          "name": "A Multi-Agent Approach for Claim Verification from Tabular Data Documents",
+          "link": "https://arxiv.org/abs/2604.17225",
+          "authors": "Rudra Ranajee Saha, Laks V. S. Lakshmanan, Raymond T. Ng"
+        },
+        "c": "",
+        "n": "MACE (Qwen-235B, Pm + Em + Vm)",
+        "d": "2026-04-19",
+        "m1": "0.7100"
+      },
+      {
+        "p": {
+          "name": "A Multi-Agent Approach for Claim Verification from Tabular Data Documents",
+          "link": "https://arxiv.org/abs/2604.17225",
+          "authors": "Rudra Ranajee Saha, Laks V. S. Lakshmanan, Raymond T. Ng"
+        },
+        "c": "",
+        "n": "MACE (Qwen-72B, Pm + Em + Vm)",
+        "d": "2026-04-19",
+        "m1": "0.6700"
+      },
+      {
+        "p": {
+          "name": "A Multi-Agent Approach for Claim Verification from Tabular Data Documents",
+          "link": "https://arxiv.org/abs/2604.17225",
+          "authors": "Rudra Ranajee Saha, Laks V. S. Lakshmanan, Raymond T. Ng"
+        },
+        "c": "",
+        "n": "MACE (LLaMA-8B, Pm + Em + Vm)",
+        "d": "2026-04-19",
+        "m1": "0.6500"
+      },
+      {
+        "p": {
+          "name": "SCITAB: A Challenging Benchmark for Compositional Reasoning and Claim Verification on Scientific Tables",
+          "link": "https://arxiv.org/abs/2305.13186",
+          "authors": "Xinyuan Lu, Liangming Pan, Qian Liu, Preslav Nakov, Min-Yen Kan"
+        },
+        "c": "",
+        "n": "GPT-4 (zero-shot)",
+        "d": "2023-05-22",
+        "m1": "0.6480"
+      },
+      {
+        "p": {
+          "name": "SCITAB: A Challenging Benchmark for Compositional Reasoning and Claim Verification on Scientific Tables",
+          "link": "https://arxiv.org/abs/2305.13186",
+          "authors": "Xinyuan Lu, Liangming Pan, Qian Liu, Preslav Nakov, Min-Yen Kan"
+        },
+        "c": "",
+        "n": "GPT-4 (3-shot in-context)",
+        "d": "2023-05-22",
+        "m1": "0.6321"
+      },
+      {
+        "p": {
+          "name": "SCITAB: A Challenging Benchmark for Compositional Reasoning and Claim Verification on Scientific Tables",
+          "link": "https://arxiv.org/abs/2305.13186",
+          "authors": "Xinyuan Lu, Liangming Pan, Qian Liu, Preslav Nakov, Min-Yen Kan"
+        },
+        "c": "",
+        "n": "GPT-4 + CoT (3-shot in-context)",
+        "d": "2023-05-22",
+        "m1": "0.6277"
+      },
+      {
+        "p": {
+          "name": "A Multi-Agent Approach for Claim Verification from Tabular Data Documents",
+          "link": "https://arxiv.org/abs/2604.17225",
+          "authors": "Rudra Ranajee Saha, Laks V. S. Lakshmanan, Raymond T. Ng"
+        },
+        "c": "",
+        "n": "MACE (Mistral-7B, Pm + Em + Vm)",
+        "d": "2026-04-19",
+        "m1": "0.5800"
+      },
+      {
+        "p": {
+          "name": "Boosting large-language models for fact-checking: leveraging verbalized tabular data as evidence",
+          "link": "https://link.springer.com/article/10.1007/s41060-025-00998-3",
+          "authors": "Son T. Luu, Trung Vo, Vu Tran, Tomoko Matsui, Le-Minh Nguyen"
+        },
+        "c": "https://github.com/sonlam1102/tabv4fc",
+        "n": "TabV4FC (Qwen 2.5 - 72B)",
+        "d": "2026-03-19",
+        "m1": "0.4520"
+      },
+      {
+        "p": {
+          "name": "ProTrix: Building Models for Planning and Reasoning over Tables with Sentence Context",
+          "link": "https://arxiv.org/abs/2403.02177",
+          "authors": "Zirui Wu, Yansong Feng"
+        },
+        "c": "https://github.com/WilliamZR/ProTrix",
+        "n": "ProTrix",
+        "d": "2024-03-04",
+        "m1": "0.4500"
+      },
+      {
+        "p": {
+          "name": "SCITAB: A Challenging Benchmark for Compositional Reasoning and Claim Verification on Scientific Tables",
+          "link": "https://arxiv.org/abs/2305.13186",
+          "authors": "Xinyuan Lu, Liangming Pan, Qian Liu, Preslav Nakov, Min-Yen Kan"
+        },
+        "c": "",
+        "n": "InstructGPT + CoT (3-shot in-context)",
+        "d": "2023-05-22",
+        "m1": "0.4260"
+      },
+      {
+        "p": {
+          "name": "SCITAB: A Challenging Benchmark for Compositional Reasoning and Claim Verification on Scientific Tables",
+          "link": "https://arxiv.org/abs/2305.13186",
+          "authors": "Xinyuan Lu, Liangming Pan, Qian Liu, Preslav Nakov, Min-Yen Kan"
+        },
+        "c": "",
+        "n": "InstructGPT (3-shot in-context)",
+        "d": "2023-05-22",
+        "m1": "0.4158"
+      },
+      {
+        "p": {
+          "name": "SCITAB: A Challenging Benchmark for Compositional Reasoning and Claim Verification on Scientific Tables",
+          "link": "https://arxiv.org/abs/2305.13186",
+          "authors": "Xinyuan Lu, Liangming Pan, Qian Liu, Preslav Nakov, Min-Yen Kan"
+        },
+        "c": "",
+        "n": "InstructGPT (zero-shot)",
+        "d": "2023-05-22",
+        "m1": "0.4141"
+      },
+      {
+        "p": {
+          "name": "ProTrix: Building Models for Planning and Reasoning over Tables with Sentence Context",
+          "link": "https://arxiv.org/abs/2403.02177",
+          "authors": "Zirui Wu, Yansong Feng"
+        },
+        "c": "https://github.com/WilliamZR/ProTrix",
+        "n": "ProTrix-Coder",
+        "d": "2024-03-04",
+        "m1": "0.4120"
+      },
+      {
+        "p": {
+          "name": "SCITAB: A Challenging Benchmark for Compositional Reasoning and Claim Verification on Scientific Tables",
+          "link": "https://arxiv.org/abs/2305.13186",
+          "authors": "Xinyuan Lu, Liangming Pan, Qian Liu, Preslav Nakov, Min-Yen Kan"
+        },
+        "c": "",
+        "n": "Flan-T5-XL (zero-shot)",
+        "d": "2023-05-22",
+        "m1": "0.3805"
+      },
+      {
+        "p": {
+          "name": "Boosting large-language models for fact-checking: leveraging verbalized tabular data as evidence",
+          "link": "https://link.springer.com/article/10.1007/s41060-025-00998-3",
+          "authors": "Son T. Luu, Trung Vo, Vu Tran, Tomoko Matsui, Le-Minh Nguyen"
+        },
+        "c": "https://github.com/sonlam1102/tabv4fc",
+        "n": "TabV4FC (Qwen 2.5 - 14B)",
+        "d": "2026-03-19",
+        "m1": "0.3743"
+      },
+      {
+        "p": {
+          "name": "SCITAB: A Challenging Benchmark for Compositional Reasoning and Claim Verification on Scientific Tables",
+          "link": "https://arxiv.org/abs/2305.13186",
+          "authors": "Xinyuan Lu, Liangming Pan, Qian Liu, Preslav Nakov, Min-Yen Kan"
+        },
+        "c": "",
+        "n": "LLaMA-13B (zero-shot)",
+        "d": "2023-05-22",
+        "m1": "0.3718"
+      },
+      {
+        "p": {
+          "name": "SCITAB: A Challenging Benchmark for Compositional Reasoning and Claim Verification on Scientific Tables",
+          "link": "https://arxiv.org/abs/2305.13186",
+          "authors": "Xinyuan Lu, Liangming Pan, Qian Liu, Preslav Nakov, Min-Yen Kan"
+        },
+        "c": "",
+        "n": "Vicuna-13B (3-shot in-context)",
+        "d": "2023-05-22",
+        "m1": "0.3516"
+      },
+      {
+        "p": {
+          "name": "SCITAB: A Challenging Benchmark for Compositional Reasoning and Claim Verification on Scientific Tables",
+          "link": "https://arxiv.org/abs/2305.13186",
+          "authors": "Xinyuan Lu, Liangming Pan, Qian Liu, Preslav Nakov, Min-Yen Kan"
+        },
+        "c": "",
+        "n": "Flan-T5-XXL (zero-shot)",
+        "d": "2023-05-22",
+        "m1": "0.3491"
+      },
+      {
+        "p": {
+          "name": "Boosting large-language models for fact-checking: leveraging verbalized tabular data as evidence",
+          "link": "https://link.springer.com/article/10.1007/s41060-025-00998-3",
+          "authors": "Son T. Luu, Trung Vo, Vu Tran, Tomoko Matsui, Le-Minh Nguyen"
+        },
+        "c": "https://github.com/sonlam1102/tabv4fc",
+        "n": "TabV4FC (LLaMA 3.3 - 70B)",
+        "d": "2026-03-19",
+        "m1": "0.3449"
+      },
+      {
+        "p": {
+          "name": "SCITAB: A Challenging Benchmark for Compositional Reasoning and Claim Verification on Scientific Tables",
+          "link": "https://arxiv.org/abs/2305.13186",
+          "authors": "Xinyuan Lu, Liangming Pan, Qian Liu, Preslav Nakov, Min-Yen Kan"
+        },
+        "c": "",
+        "n": "TAPEX-Zero-XL (zero-shot)",
+        "d": "2023-05-22",
+        "m1": "0.3430"
+      },
+      {
+        "p": {
+          "name": "SCITAB: A Challenging Benchmark for Compositional Reasoning and Claim Verification on Scientific Tables",
+          "link": "https://arxiv.org/abs/2305.13186",
+          "authors": "Xinyuan Lu, Liangming Pan, Qian Liu, Preslav Nakov, Min-Yen Kan"
+        },
+        "c": "",
+        "n": "Vicuna-7B (3-shot in-context)",
+        "d": "2023-05-22",
+        "m1": "0.3426"
+      },
+      {
+        "p": {
+          "name": "SCITAB: A Challenging Benchmark for Compositional Reasoning and Claim Verification on Scientific Tables",
+          "link": "https://arxiv.org/abs/2305.13186",
+          "authors": "Xinyuan Lu, Liangming Pan, Qian Liu, Preslav Nakov, Min-Yen Kan"
+        },
+        "c": "",
+        "n": "Flan-T5-XXL (3-shot in-context)",
+        "d": "2023-05-22",
+        "m1": "0.3404"
+      },
+      {
+        "p": {
+          "name": "SCITAB: A Challenging Benchmark for Compositional Reasoning and Claim Verification on Scientific Tables",
+          "link": "https://arxiv.org/abs/2305.13186",
+          "authors": "Xinyuan Lu, Liangming Pan, Qian Liu, Preslav Nakov, Min-Yen Kan"
+        },
+        "c": "",
+        "n": "LLaMA-13B (3-shot in-context)",
+        "d": "2023-05-22",
+        "m1": "0.3266"
+      },
+      {
+        "p": {
+          "name": "SCITAB: A Challenging Benchmark for Compositional Reasoning and Claim Verification on Scientific Tables",
+          "link": "https://arxiv.org/abs/2305.13186",
+          "authors": "Xinyuan Lu, Liangming Pan, Qian Liu, Preslav Nakov, Min-Yen Kan"
+        },
+        "c": "",
+        "n": "Flan-T5-large (zero-shot)",
+        "d": "2023-05-22",
+        "m1": "0.3255"
+      },
+      {
+        "p": {
+          "name": "SCITAB: A Challenging Benchmark for Compositional Reasoning and Claim Verification on Scientific Tables",
+          "link": "https://arxiv.org/abs/2305.13186",
+          "authors": "Xinyuan Lu, Liangming Pan, Qian Liu, Preslav Nakov, Min-Yen Kan"
+        },
+        "c": "",
+        "n": "Vicuna-7B (zero-shot)",
+        "d": "2023-05-22",
+        "m1": "0.3247"
+      },
+      {
+        "p": {
+          "name": "SCITAB: A Challenging Benchmark for Compositional Reasoning and Claim Verification on Scientific Tables",
+          "link": "https://arxiv.org/abs/2305.13186",
+          "authors": "Xinyuan Lu, Liangming Pan, Qian Liu, Preslav Nakov, Min-Yen Kan"
+        },
+        "c": "",
+        "n": "LLaMA-7B (zero-shot)",
+        "d": "2023-05-22",
+        "m1": "0.3226"
+      },
+      {
+        "p": {
+          "name": "Boosting large-language models for fact-checking: leveraging verbalized tabular data as evidence",
+          "link": "https://link.springer.com/article/10.1007/s41060-025-00998-3",
+          "authors": "Son T. Luu, Trung Vo, Vu Tran, Tomoko Matsui, Le-Minh Nguyen"
+        },
+        "c": "https://github.com/sonlam1102/tabv4fc",
+        "n": "TabV4FC (DeepSeekR1-Qwen 32B)",
+        "d": "2026-03-19",
+        "m1": "0.3223"
+      },
+      {
+        "p": {
+          "name": "SCITAB: A Challenging Benchmark for Compositional Reasoning and Claim Verification on Scientific Tables",
+          "link": "https://arxiv.org/abs/2305.13186",
+          "authors": "Xinyuan Lu, Liangming Pan, Qian Liu, Preslav Nakov, Min-Yen Kan"
+        },
+        "c": "",
+        "n": "TAPEX-Zero-large (zero-shot)",
+        "d": "2023-05-22",
+        "m1": "0.2972"
+      },
+      {
+        "p": {
+          "name": "SCITAB: A Challenging Benchmark for Compositional Reasoning and Claim Verification on Scientific Tables",
+          "link": "https://arxiv.org/abs/2305.13186",
+          "authors": "Xinyuan Lu, Liangming Pan, Qian Liu, Preslav Nakov, Min-Yen Kan"
+        },
+        "c": "",
+        "n": "Vicuna-13B (zero-shot)",
+        "d": "2023-05-22",
+        "m1": "0.2963"
+      },
+      {
+        "p": {
+          "name": "SCITAB: A Challenging Benchmark for Compositional Reasoning and Claim Verification on Scientific Tables",
+          "link": "https://arxiv.org/abs/2305.13186",
+          "authors": "Xinyuan Lu, Liangming Pan, Qian Liu, Preslav Nakov, Min-Yen Kan"
+        },
+        "c": "",
+        "n": "Flan-T5-XL (3-shot in-context)",
+        "d": "2023-05-22",
+        "m1": "0.2921"
+      },
+      {
+        "p": {
+          "name": "SCITAB: A Challenging Benchmark for Compositional Reasoning and Claim Verification on Scientific Tables",
+          "link": "https://arxiv.org/abs/2305.13186",
+          "authors": "Xinyuan Lu, Liangming Pan, Qian Liu, Preslav Nakov, Min-Yen Kan"
+        },
+        "c": "",
+        "n": "Alpaca-7B (3-shot in-context)",
+        "d": "2023-05-22",
+        "m1": "0.2895"
+      },
+      {
+        "p": {
+          "name": "SCITAB: A Challenging Benchmark for Compositional Reasoning and Claim Verification on Scientific Tables",
+          "link": "https://arxiv.org/abs/2305.13186",
+          "authors": "Xinyuan Lu, Liangming Pan, Qian Liu, Preslav Nakov, Min-Yen Kan"
+        },
+        "c": "",
+        "n": "Alpaca-7B (zero-shot)",
+        "d": "2023-05-22",
+        "m1": "0.2759"
+      },
+      {
+        "p": {
+          "name": "SCITAB: A Challenging Benchmark for Compositional Reasoning and Claim Verification on Scientific Tables",
+          "link": "https://arxiv.org/abs/2305.13186",
+          "authors": "Xinyuan Lu, Liangming Pan, Qian Liu, Preslav Nakov, Min-Yen Kan"
+        },
+        "c": "",
+        "n": "Flan-T5-large (3-shot in-context)",
+        "d": "2023-05-22",
+        "m1": "0.2730"
+      },
+      {
+        "p": {
+          "name": "SCITAB: A Challenging Benchmark for Compositional Reasoning and Claim Verification on Scientific Tables",
+          "link": "https://arxiv.org/abs/2305.13186",
+          "authors": "Xinyuan Lu, Liangming Pan, Qian Liu, Preslav Nakov, Min-Yen Kan"
+        },
+        "c": "",
+        "n": "LLaMA-7B (3-shot in-context)",
+        "d": "2023-05-22",
+        "m1": "0.2717"
+      },
+      {
+        "p": {
+          "name": "Boosting large-language models for fact-checking: leveraging verbalized tabular data as evidence",
+          "link": "https://link.springer.com/article/10.1007/s41060-025-00998-3",
+          "authors": "Son T. Luu, Trung Vo, Vu Tran, Tomoko Matsui, Le-Minh Nguyen"
+        },
+        "c": "https://github.com/sonlam1102/tabv4fc",
+        "n": "TabV4FC (DeepSeekR1-LLaMA 70B)",
+        "d": "2026-03-19",
+        "m1": "0.2698"
+      },
+      {
+        "p": {
+          "name": "SCITAB: A Challenging Benchmark for Compositional Reasoning and Claim Verification on Scientific Tables",
+          "link": "https://arxiv.org/abs/2305.13186",
+          "authors": "Xinyuan Lu, Liangming Pan, Qian Liu, Preslav Nakov, Min-Yen Kan"
+        },
+        "c": "",
+        "n": "Flan-T5-base (zero-shot)",
+        "d": "2023-05-22",
+        "m1": "0.2656"
+      },
+      {
+        "p": {
+          "name": "SCITAB: A Challenging Benchmark for Compositional Reasoning and Claim Verification on Scientific Tables",
+          "link": "https://arxiv.org/abs/2305.13186",
+          "authors": "Xinyuan Lu, Liangming Pan, Qian Liu, Preslav Nakov, Min-Yen Kan"
+        },
+        "c": "",
+        "n": "TAPEX-Zero-XL (3-shot in-context)",
+        "d": "2023-05-22",
+        "m1": "0.2562"
+      },
+      {
+        "p": {
+          "name": "SCITAB: A Challenging Benchmark for Compositional Reasoning and Claim Verification on Scientific Tables",
+          "link": "https://arxiv.org/abs/2305.13186",
+          "authors": "Xinyuan Lu, Liangming Pan, Qian Liu, Preslav Nakov, Min-Yen Kan"
+        },
+        "c": "",
+        "n": "Flan-T5-base (3-shot in-context)",
+        "d": "2023-05-22",
+        "m1": "0.2409"
+      },
+      {
+        "p": {
+          "name": "SCITAB: A Challenging Benchmark for Compositional Reasoning and Claim Verification on Scientific Tables",
+          "link": "https://arxiv.org/abs/2305.13186",
+          "authors": "Xinyuan Lu, Liangming Pan, Qian Liu, Preslav Nakov, Min-Yen Kan"
+        },
+        "c": "",
+        "n": "TAPEX-Zero-large (3-shot in-context)",
+        "d": "2023-05-22",
+        "m1": "0.2347"
+      },
+      {
+        "p": {
+          "name": "GLEAN: Grounded Lightweight Evaluation Anchors for Contamination-Aware Tabular Reasoning",
+          "link": "https://arxiv.org/abs/2603.02212",
+          "authors": "Qizhi Wang"
+        },
+        "c": "",
+        "n": "DeBERTa-v3 (GLEAN protocol)",
+        "d": "2026-01-22",
+        "m1": "0.1970"
+      },
+      {
+        "p": {
+          "name": "Boosting large-language models for fact-checking: leveraging verbalized tabular data as evidence",
+          "link": "https://link.springer.com/article/10.1007/s41060-025-00998-3",
+          "authors": "Son T. Luu, Trung Vo, Vu Tran, Tomoko Matsui, Le-Minh Nguyen"
+        },
+        "c": "https://github.com/sonlam1102/tabv4fc",
+        "n": "TabV4FC (Qwen 2.5 - 32B)",
+        "d": "2026-03-19",
+        "m1": "0.1739"
+      }
+    ]
+  }
+}
