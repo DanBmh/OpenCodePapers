@@ -176,6 +176,19 @@
       },
       {
         "p": {
+          "name": "Efficient Training of Audio Transformers with Patchout",
+          "link": "https://arxiv.org/abs/2110.05069",
+          "authors": "Khaled Koutini, Jan Schlüter, Hamid Eghbal-zadeh, Gerhard Widmer"
+        },
+        "c": "https://github.com/kkoutini/PaSST",
+        "n": "PaSST-S",
+        "d": "2021-10-11",
+        "m1": "96.8",
+        "m2": "AudioSet",
+        "m3": "96.8"
+      },
+      {
+        "p": {
           "name": "End-to-End Audio Strikes Back: Boosting Augmentations Towards An Efficient Audio Classification Network",
           "link": "https://arxiv.org/abs/2204.11479v5",
           "authors": "Avi Gazneli, Gadi Zimerman, Tal Ridnik, Gilad Sharir, Asaf Noy"
@@ -243,11 +256,11 @@
           "authors": "Yuan Gong, Yu-An Chung, James Glass"
         },
         "c": "https://github.com/YuanGongND/ast",
-        "n": "Audio Spectrogram Transformer",
+        "n": "AST-P",
         "d": "2021-04-05",
-        "m1": "95.7",
+        "m1": "95.6",
         "m2": "AudioSet, ImageNet",
-        "m3": "95.7"
+        "m3": "95.6"
       },
       {
         "p": {
@@ -341,6 +354,32 @@
         "n": "AVID",
         "d": "2020-04-27",
         "m1": "89.2"
+      },
+      {
+        "p": {
+          "name": "SSAST: Self-Supervised Audio Spectrogram Transformer",
+          "link": "https://arxiv.org/abs/2110.09784",
+          "authors": "Yuan Gong, Cheng-I Jeff Lai, Yu-An Chung, James Glass"
+        },
+        "c": "https://github.com/YuanGongND/ssast",
+        "n": "SSAST 400",
+        "d": "2021-10-19",
+        "m1": "88.8",
+        "m2": "AudioSet, Librispeech",
+        "m3": "88.8"
+      },
+      {
+        "p": {
+          "name": "AST: Audio Spectrogram Transformer",
+          "link": "https://arxiv.org/abs/2104.01778v3",
+          "authors": "Yuan Gong, Yu-An Chung, James Glass"
+        },
+        "c": "https://github.com/YuanGongND/ast",
+        "n": "AST-S",
+        "d": "2021-04-05",
+        "m1": "88.7",
+        "m2": "ImageNet",
+        "m3": "88.7"
       },
       {
         "p": {

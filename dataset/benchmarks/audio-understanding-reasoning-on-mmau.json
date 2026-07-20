@@ -1,0 +1,344 @@
+{
+  "title": "audio-understanding-reasoning-on-mmau",
+  "task-hierarchy": [
+    "Audio Understanding Reasoning"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/Sakshi113/MMAU",
+    "paper": "MMAU: A Massive Multi-Task Audio Understanding and Reasoning Benchmark"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy (Avg, Test-mini)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Qwen3.5-Omni Technical Report",
+          "link": "https://arxiv.org/pdf/2604.15804",
+          "authors": "Qwen Team"
+        },
+        "c": "",
+        "n": "Qwen3.5-Omni-Plus",
+        "d": "2026-04-21",
+        "m1": "82.2"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5-Omni Technical Report",
+          "link": "https://arxiv.org/pdf/2604.15804",
+          "authors": "Qwen Team"
+        },
+        "c": "",
+        "n": "Gemini-3.1 Pro",
+        "d": "2026-04-21",
+        "m1": "81.1"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5-Omni Technical Report",
+          "link": "https://arxiv.org/pdf/2604.15804",
+          "authors": "Qwen Team"
+        },
+        "c": "",
+        "n": "Qwen3.5-Omni-Flash",
+        "d": "2026-04-21",
+        "m1": "80.4"
+      },
+      {
+        "p": "",
+        "c": "https://www.aboutamazon.com/news/aws/aws-agentic-ai-amazon-bedrock-nova-models",
+        "n": "Nova 2 Omni",
+        "d": "2026-01-01",
+        "m1": "77.80"
+      },
+      {
+        "p": {
+          "name": "Audio-Thinker",
+          "link": "https://arxiv.org/pdf/2508.08039v1",
+          "authors": "-"
+        },
+        "c": "",
+        "n": "Audio-Thinker (8.4B)",
+        "d": "2025-08-11",
+        "m1": "77.70"
+      },
+      {
+        "p": {
+          "name": "Step-Audio-2 Technical Report",
+          "link": "https://arxiv.org/abs/2507.16632",
+          "authors": "StepFun"
+        },
+        "c": "",
+        "n": "Step-Audio-2",
+        "d": "2025-07-22",
+        "m1": "77.58"
+      },
+      {
+        "p": {
+          "name": "Omni-R1: Do You Really Need Audio to Fine-Tune Your Audio LLM?",
+          "link": "https://arxiv.org/abs/2505.09439",
+          "authors": "-"
+        },
+        "c": "",
+        "n": "Omni-R1 (FT on Qwen2.5-Omni, 8.2B)",
+        "d": "2025-05-14",
+        "m1": "77.00"
+      },
+      {
+        "p": "",
+        "c": "https://github.com/XiaomiMiMo/MiMo-Audio/",
+        "n": "MiMo-Audio (7B)",
+        "d": "2025-09-01",
+        "m1": "74.70"
+      },
+      {
+        "p": {
+          "name": "Audio Flamingo 3",
+          "link": "https://www.arxiv.org/abs/2507.08128",
+          "authors": "NVIDIA"
+        },
+        "c": "",
+        "n": "Audio Flamingo 3 (8.2B)",
+        "d": "2025-07-10",
+        "m1": "73.30"
+      },
+      {
+        "p": {
+          "name": "Step-Audio-2 Technical Report",
+          "link": "https://arxiv.org/abs/2507.16632",
+          "authors": "StepFun"
+        },
+        "c": "",
+        "n": "Step-Audio-2-mini (8.3B)",
+        "d": "2025-07-22",
+        "m1": "72.73"
+      },
+      {
+        "p": "",
+        "c": "https://ai.google.dev/gemini-api/docs/models",
+        "n": "Gemini 2.5 Flash",
+        "d": "2025-06-17",
+        "m1": "71.80"
+      },
+      {
+        "p": "",
+        "c": "https://ai.google.dev/gemini-api/docs/models",
+        "n": "Gemini 2.5 Pro",
+        "d": "2025-03-25",
+        "m1": "71.60"
+      },
+      {
+        "p": {
+          "name": "Qwen2.5-Omni Technical Report",
+          "link": "https://arxiv.org/abs/2503.20215",
+          "authors": "Qwen Team"
+        },
+        "c": "",
+        "n": "Qwen2.5-Omni (8.2B)",
+        "d": "2025-03-26",
+        "m1": "71.50"
+      },
+      {
+        "p": "",
+        "c": "https://ai.google.dev/gemini-api/docs/models",
+        "n": "Gemini 2.0 Flash",
+        "d": "2024-12-11",
+        "m1": "70.50"
+      },
+      {
+        "p": {
+          "name": "Kimi-Audio Technical Report",
+          "link": "https://arxiv.org/abs/2504.18425",
+          "authors": "Moonshot AI"
+        },
+        "c": "",
+        "n": "Kimi-Audio (8.2B)",
+        "d": "2025-04-25",
+        "m1": "68.20"
+      },
+      {
+        "p": "",
+        "c": "https://huggingface.co/zhifeixie/Audio-Reasoner/tree/main",
+        "n": "Audio Reasoner (8.2B)",
+        "d": "2025-02-01",
+        "m1": "67.70"
+      },
+      {
+        "p": "",
+        "c": "https://ai.google.dev/gemini-api/docs/models",
+        "n": "Gemini 2.5 Flash Lite",
+        "d": "2025-07-22",
+        "m1": "66.20"
+      },
+      {
+        "p": {
+          "name": "DeSTA2.5-Audio",
+          "link": "https://arxiv.org/abs/2507.02768",
+          "authors": "-"
+        },
+        "c": "",
+        "n": "DeSTA2.5-Audio (8B)",
+        "d": "2025-07-03",
+        "m1": "66.00"
+      },
+      {
+        "p": "",
+        "c": "https://huggingface.co/microsoft/phi-4",
+        "n": "Phi-4-multimodal (5.5B)",
+        "d": "2025-02-27",
+        "m1": "65.70"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "Audio Flamingo 2 Reasoning (FT on AF2, 3B)",
+        "d": "",
+        "m1": "64.59"
+      },
+      {
+        "p": {
+          "name": "GPT-4o System Card",
+          "link": "https://arxiv.org/abs/2410.21276",
+          "authors": "OpenAI"
+        },
+        "c": "",
+        "n": "GPT-4o Audio",
+        "d": "2024-10-01",
+        "m1": "62.50"
+      },
+      {
+        "p": "",
+        "c": "https://huggingface.co/nvidia/audio-flamingo",
+        "n": "Audio Flamingo 2 (3B)",
+        "d": "2025-02-06",
+        "m1": "62.40"
+      },
+      {
+        "p": {
+          "name": "Qwen2-Audio Technical Report",
+          "link": "https://arxiv.org/abs/2407.10759",
+          "authors": "Qwen Team"
+        },
+        "c": "",
+        "n": "Qwen2-Audio-Instruct (7B)",
+        "d": "2024-07-15",
+        "m1": "59.60"
+      },
+      {
+        "p": "",
+        "c": "https://deepmind.google/models/gemma/gemma-3n/",
+        "n": "Gemma 3n (4B)",
+        "d": "2025-05-20",
+        "m1": "58.00"
+      },
+      {
+        "p": {
+          "name": "GPT-4o System Card",
+          "link": "https://arxiv.org/abs/2410.21276",
+          "authors": "OpenAI"
+        },
+        "c": "",
+        "n": "GPT-4o mini Audio",
+        "d": "2024-10-01",
+        "m1": "53.00"
+      },
+      {
+        "p": "",
+        "c": "https://deepmind.google/models/gemma/gemma-3n/",
+        "n": "Gemma 3n (2B)",
+        "d": "2025-05-20",
+        "m1": "51.69"
+      },
+      {
+        "p": "",
+        "c": "https://huggingface.co/m-a-p/MusiLingo-long-v1",
+        "n": "MusiLingo (7B)",
+        "d": "2023-09-15",
+        "m1": "38.20"
+      },
+      {
+        "p": "",
+        "c": "https://huggingface.co/M2UGen/M2UGen-MusicGen-medium",
+        "n": "M2UGen (7B)",
+        "d": "2023-08-18",
+        "m1": "37.90"
+      },
+      {
+        "p": {
+          "name": "SALMONN: Towards Generic Hearing Abilities for LLMs",
+          "link": "https://arxiv.org/pdf/2310.13289",
+          "authors": "-"
+        },
+        "c": "",
+        "n": "SALMONN (13B)",
+        "d": "2023-10-20",
+        "m1": "34.90"
+      },
+      {
+        "p": {
+          "name": "MU-LLaMA: Music Understanding LLaMA",
+          "link": "https://arxiv.org/pdf/2308.11276",
+          "authors": "-"
+        },
+        "c": "",
+        "n": "MuLLaMa (7B)",
+        "d": "2023-08-22",
+        "m1": "27.60"
+      },
+      {
+        "p": "",
+        "c": "https://huggingface.co/spaces/sonalkum/GAMA-IT",
+        "n": "GAMA-IT (7B)",
+        "d": "2024-06-17",
+        "m1": "22.83"
+      },
+      {
+        "p": "",
+        "c": "https://huggingface.co/spaces/sonalkum/GAMA",
+        "n": "GAMA (7B)",
+        "d": "2024-06-17",
+        "m1": "20.82"
+      },
+      {
+        "p": {
+          "name": "LTU: Listen, Think, and Understand",
+          "link": "https://openreview.net/pdf?id=nBZBPXdJlC",
+          "authors": "-"
+        },
+        "c": "",
+        "n": "LTU (7B)",
+        "d": "2023-09-01",
+        "m1": "17.44"
+      },
+      {
+        "p": "",
+        "c": "https://huggingface.co/nvidia/audio-flamingo",
+        "n": "Audio Flamingo Chat (1B)",
+        "d": "2024-02-02",
+        "m1": "16.60"
+      }
+    ]
+  }
+}

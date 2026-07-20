@@ -35,6 +35,39 @@
     "items": [
       {
         "p": {
+          "name": "OmniVec: Learning robust representations with cross modal sharing",
+          "link": "https://arxiv.org/abs/2311.05709",
+          "authors": "Siddharth Srivastava, Gaurav Sharma"
+        },
+        "c": "",
+        "n": "OmniVec (audio+visual)",
+        "d": "2023-11-09",
+        "m1": "0.552"
+      },
+      {
+        "p": {
+          "name": "OmniVec: Learning robust representations with cross modal sharing",
+          "link": "https://arxiv.org/abs/2311.05709",
+          "authors": "Siddharth Srivastava, Gaurav Sharma"
+        },
+        "c": "",
+        "n": "OmniVec (audio-only)",
+        "d": "2023-11-09",
+        "m1": "0.548"
+      },
+      {
+        "p": {
+          "name": "EquiAV: Leveraging Equivariance for Audio-Visual Contrastive Learning",
+          "link": "https://arxiv.org/abs/2403.09502",
+          "authors": "Jongsuk Kim, Hyeongkeun Lee, Kyeongha Rho, Junmo Kim, Joon Son Chung"
+        },
+        "c": "https://github.com/JongSuk1/EquiAV",
+        "n": "EquiAV (audio-visual)",
+        "d": "2024-03-14",
+        "m1": "0.546"
+      },
+      {
+        "p": {
           "name": "Contrastive Audio-Visual Masked Autoencoder",
           "link": "https://arxiv.org/abs/2210.07839v4",
           "authors": "Yuan Gong, Andrew Rouditchenko, Alexander H. Liu, David Harwath, Leonid Karlinsky, Hilde Kuehne, James Glass"
@@ -43,6 +76,28 @@
         "n": "CAV-MAE (Audio-Visual)",
         "d": "2022-10-02",
         "m1": "0.512"
+      },
+      {
+        "p": {
+          "name": "BEATs: Audio Pre-Training with Acoustic Tokenizers",
+          "link": "https://arxiv.org/abs/2212.09058",
+          "authors": "Sanyuan Chen, Yu Wu, Chengyi Wang, Shujie Liu, Daniel Tompkins, Zhuo Chen, Furu Wei"
+        },
+        "c": "https://github.com/microsoft/unilm/tree/master/beats",
+        "n": "BEATs (10 models)",
+        "d": "2022-12-18",
+        "m1": "0.506"
+      },
+      {
+        "p": {
+          "name": "CED: Consistent ensemble distillation for audio tagging",
+          "link": "https://arxiv.org/abs/2308.11957",
+          "authors": "Heinrich Dinkel, Yongqing Wang, Zhiyong Yan, Jian Zhang, Yujun Wang"
+        },
+        "c": "https://github.com/RicherMans/CED",
+        "n": "CED-Base",
+        "d": "2023-08-22",
+        "m1": "0.500"
       },
       {
         "p": {
@@ -76,6 +131,17 @@
         "n": "DyMN-L (Audio-Only, Single)",
         "d": "2023-10-24",
         "m1": "0.490"
+      },
+      {
+        "p": {
+          "name": "HTS-AT: A Hierarchical Token-Semantic Audio Transformer for Sound Classification and Detection",
+          "link": "https://arxiv.org/abs/2202.00874",
+          "authors": "Ke Chen, Xingjian Du, Bilei Zhu, Zejun Ma, Taylor Berg-Kirkpatrick, Shlomo Dubnov"
+        },
+        "c": "https://github.com/RetroCirce/HTS-Audio-Transformer",
+        "n": "HTS-AT (Ensemble)",
+        "d": "2022-02-02",
+        "m1": "0.487"
       },
       {
         "p": {
@@ -145,6 +211,28 @@
       },
       {
         "p": {
+          "name": "Perceiver IO: A General Architecture for Structured Inputs & Outputs",
+          "link": "https://arxiv.org/abs/2107.14795",
+          "authors": "Andrew Jaegle, Sebastian Borgeaud, Jean-Baptiste Alayrac, Carl Doersch, Catalin Ionescu, David Ding, Skanda Koppula, Daniel Zoran, Andrew Brock, Evan Shelhamer, Olivier Hénaff, Matthew Botvinick, Andrew Zisserman, Oriol Vinyals, João Carreira"
+        },
+        "c": "https://github.com/deepmind/deepmind-research/tree/master/perceiver",
+        "n": "Perceiver IO (mel-spectrogram + video)",
+        "d": "2021-07-30",
+        "m1": "0.450"
+      },
+      {
+        "p": {
+          "name": "Perceiver: General Perception with Iterative Attention",
+          "link": "https://arxiv.org/abs/2103.03206",
+          "authors": "Andrew Jaegle, Felix Gimeno, Andrew Brock, Andrew Zisserman, Oriol Vinyals, João Carreira"
+        },
+        "c": "https://github.com/deepmind/deepmind-research/tree/master/perceiver",
+        "n": "Perceiver (mel spectrogram + video - tuned)",
+        "d": "2021-03-04",
+        "m1": "0.440"
+      },
+      {
+        "p": {
           "name": "PANNs: Large-Scale Pretrained Audio Neural Networks for Audio Pattern Recognition",
           "link": "http://arxiv.org/abs/1912.10211v5",
           "authors": ""
@@ -153,6 +241,28 @@
         "n": "CNN14",
         "d": "2020-08-23",
         "m1": "0.431"
+      },
+      {
+        "p": {
+          "name": "Audio Mamba: Bidirectional State Space Model for Audio Representation Learning",
+          "link": "https://arxiv.org/abs/2406.03344",
+          "authors": "Mehmet Hamza Erol, Arda Senocak, Jiu Feng, Joon Son Chung"
+        },
+        "c": "https://github.com/kaistmm/Audio-Mamba-AuM",
+        "n": "AuM-B/16",
+        "d": "2024-06-05",
+        "m1": "0.324"
+      },
+      {
+        "p": {
+          "name": "MiDashengLM: Efficient Audio Understanding with General Audio Captions",
+          "link": "https://arxiv.org/abs/2508.03983",
+          "authors": "Heinrich Dinkel, Gang Li, Jizhong Liu, Jian Luan, Yadong Niu, Xingwei Sun, Tianzi Wang, Qiyang Xiao, Junbo Zhang, Jiahao Zhou"
+        },
+        "c": "https://github.com/xiaomi-research/dasheng-lm",
+        "n": "MiDashengLM-7B",
+        "d": "2025-08-06",
+        "m1": "0.089"
       }
     ]
   }
