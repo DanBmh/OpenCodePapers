@@ -1,0 +1,255 @@
+{
+  "title": "3d-multi-person-pose-estimation-on-avg6",
+  "task-hierarchy": [
+    "Pose Estimation",
+    "3D Human Pose Estimation",
+    "3D Multi-Person Pose Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/pdf/2503.21692",
+    "paper": "RapidPoseTriangulation: Multi-view Multi-person Whole-body Human Pose Triangulation in a Millisecond"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PCK@100",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "PCK@500",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "MPJPE",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Recall@100",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Recall@500",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "Invalid",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "FPS",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "RapidPoseTriangulation: Multi-view Multi-person Whole-body Human Pose Triangulation in a Millisecond",
+          "link": "https://arxiv.org/pdf/2503.21692",
+          "authors": "Daniel Bermuth, Alexander Poeppel, Wolfgang Reif"
+        },
+        "c": "https://gitlab.com/Percipiote/RapidPoseTriangulation",
+        "n": "RapidPoseTriangulation",
+        "d": "2025-03-27",
+        "m1": "82.3",
+        "m2": "96.0",
+        "m3": "69.4",
+        "m4": "86.9",
+        "m5": "96.3",
+        "m6": "13.2",
+        "m7": "90.5",
+        "m8": "98.4"
+      },
+      {
+        "p": {
+          "name": "VoxelKeypointFusion: Generalizable Multi-View Multi-Person Pose Estimation",
+          "link": "https://arxiv.org/pdf/2410.18723",
+          "authors": "Daniel Bermuth, Alexander Poeppel, Wolfgang Reif"
+        },
+        "c": "https://gitlab.com/Percipiote/VoxelKeypointFusion",
+        "n": "VoxelKeypointFusion",
+        "d": "2024-10-24",
+        "m1": "78.5",
+        "m2": "95.6",
+        "m3": "74.6",
+        "m4": "83.4",
+        "m5": "96.0",
+        "m6": "18.3",
+        "m7": "86.8",
+        "m8": "7.5"
+      },
+      {
+        "p": {
+          "name": "Part-Aware Measurement for Robust Multi-View Multi-Human 3D Pose Estimation and Tracking",
+          "link": "https://arxiv.org/pdf/2106.11589",
+          "authors": "Hau Chu, Jia-Hong Lee, Yao-Chih Lee, Ching-Hsien Hsu, Jia-Da Li, Chu-Song Chen"
+        },
+        "c": "https://github.com/ivclab/Part-Aware_Measurement_for_3D_Pose_Estimation_and_Tracking",
+        "n": "PartAwarePose",
+        "d": "2021-06-22",
+        "m1": "71.0",
+        "m2": "83.9",
+        "m3": "91.5",
+        "m4": "74.0",
+        "m5": "84.6",
+        "m6": "17.7",
+        "m7": "79.9",
+        "m8": "3.9"
+      },
+      {
+        "p": {
+          "name": "Fast and Robust Multi-Person 3D Pose Estimation from Multiple Views",
+          "link": "https://arxiv.org/pdf/1901.04111",
+          "authors": "Junting Dong, Wen Jiang, Qi-Xing Huang, Hujun Bao, Xiaowei Zhou"
+        },
+        "c": "https://github.com/zju3dv/EasyMocap",
+        "n": "mvpose",
+        "d": "2019-01-14",
+        "m1": "70.5",
+        "m2": "90.0",
+        "m3": "81.6",
+        "m4": "76.8",
+        "m5": "90.4",
+        "m6": "19.6",
+        "m7": "83.3",
+        "m8": "0.4"
+      },
+      {
+        "p": {
+          "name": "VoxelPose: Towards Multi-Camera 3D Human Pose Estimation in Wild Environment",
+          "link": "https://arxiv.org/pdf/2004.06239",
+          "authors": "Hanyue Tu, Chunyu Wang, Wen-Jun Zeng"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
+        "n": "VoxelPose (synthetic)",
+        "d": "2020-04-13",
+        "m1": "68.7",
+        "m2": "90.5",
+        "m3": "100",
+        "m4": "64.6",
+        "m5": "92.1",
+        "m6": "26.7",
+        "m7": "79.3",
+        "m8": "10.7"
+      },
+      {
+        "p": {
+          "name": "Faster VoxelPose: Real-time 3D Human Pose Estimation by Orthographic Projection",
+          "link": "https://arxiv.org/pdf/2207.10955",
+          "authors": "Hang Ye, Wentao Zhu, Chunyu Wang, Rujie Wu, Yizhou Wang"
+        },
+        "c": "https://github.com/AlvinYH/Faster-VoxelPose",
+        "n": "Faster VoxelPose (synthetic)",
+        "d": "2022-07-22",
+        "m1": "68.1",
+        "m2": "86.1",
+        "m3": "82.6",
+        "m4": "71.3",
+        "m5": "86.6",
+        "m6": "11.5",
+        "m7": "84.6",
+        "m8": "24.8"
+      },
+      {
+        "p": {
+          "name": "TEMPO: Efficient Multi-View Pose Estimation, Tracking, and Forecasting",
+          "link": "https://arxiv.org/pdf/2309.07910",
+          "authors": "Rohan Choudhury, Kris M. Kitani, László A. Jeni"
+        },
+        "c": "https://github.com/rccchoudhury/tempo",
+        "n": "TEMPO",
+        "d": "2023-09-14",
+        "m1": "59.9",
+        "m2": "72.2",
+        "m3": "79.2",
+        "m4": "61.9",
+        "m5": "72.4",
+        "m6": "21.2",
+        "m7": "69.7",
+        "m8": "9.9"
+      },
+      {
+        "p": {
+          "name": "SelfPose3d: Self-Supervised Multi-Person Multi-View 3d Pose Estimation",
+          "link": "https://arxiv.org/pdf/2404.02041",
+          "authors": "Vinkle Srivastav, Keqi Chen, Nicolas Padoy"
+        },
+        "c": "https://github.com/CAMMA-public/SelfPose3d",
+        "n": "SelfPose3d",
+        "d": "2024-04-02",
+        "m1": "55.6",
+        "m2": "77.4",
+        "m3": "115",
+        "m4": "52.4",
+        "m5": "79.0",
+        "m6": "68.3",
+        "m7": "42.5",
+        "m8": "7.0"
+      },
+      {
+        "p": {
+          "name": "Iterative Greedy Matching for 3D Human Pose Tracking from Multiple Views",
+          "link": "https://arxiv.org/pdf/2101.09745",
+          "authors": "Julian Tanke, Juergen Gall"
+        },
+        "c": "https://github.com/jutanke/mv3dpose",
+        "n": "mv3dpose",
+        "d": "2021-01-24",
+        "m1": "53.9",
+        "m2": "64.4",
+        "m3": "110",
+        "m4": "54.6",
+        "m5": "65.0",
+        "m6": "21.5",
+        "m7": "66.4",
+        "m8": "2.3"
+      },
+      {
+        "p": {
+          "name": "Graph-Based 3D Multi-Person Pose Estimation Using Multi-View Images",
+          "link": "https://arxiv.org/pdf/2109.05885",
+          "authors": "Size Wu, Sheng Jin, Wentao Liu, Lei Bai, Chen Qian, Dong Liu, Wanli Ouyang"
+        },
+        "c": "https://github.com/wusize/multiview_pose",
+        "n": "PRGnet",
+        "d": "2021-09-13",
+        "m1": "52.4",
+        "m2": "68.4",
+        "m3": "134",
+        "m4": "51.3",
+        "m5": "69.3",
+        "m6": "28.8",
+        "m7": "63.3",
+        "m8": "9.9"
+      }
+    ]
+  }
+}
