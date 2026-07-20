@@ -267,6 +267,11 @@ def check_benchmark_items(data: dict, path: str):
         for idx, item in enumerate(benchmark["items"]):
             if not isinstance(item, dict):
                 continue
+            if "p" in item and not isinstance(item["p"], dict):
+                if item["p"] != "":
+                    errors.append(
+                        f"{path}: 'benchmark.items[{idx}].p' must be a JSON object or empty string."
+                    )
             if "p" in item and isinstance(item["p"], dict):
                 p = item["p"]
                 if "name" not in p or "link" not in p or "authors" not in p:
