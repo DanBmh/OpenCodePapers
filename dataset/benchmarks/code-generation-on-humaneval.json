@@ -39,7 +39,7 @@
           "link": "https://arxiv.org/abs/2501.17167v2",
           "authors": "Yaojie Hu, Qiang Zhou, Qihong Chen, Xiaopeng Li, Linbo Liu, Dejiao Zhang, Amit Kachroo, Talha Oz, Omer Tripp"
         },
-        "c": "",
+        "c": "https://github.com/amazon-science/QualityFlow",
         "n": "QualityFlow (Sonnet-3.5)",
         "d": "2025-01-20",
         "m1": "98.8"
@@ -72,7 +72,7 @@
           "link": "https://arxiv.org/abs/2501.12948",
           "authors": ""
         },
-        "c": "",
+        "c": "https://github.com/deepseek-ai/DeepSeek-R1",
         "n": "DeepSeek R1",
         "d": "2025-01-22",
         "m1": "97.4"
@@ -85,7 +85,7 @@
         },
         "c": "",
         "n": "Claude Opus 4.6 Thinking",
-        "d": "",
+        "d": "2026-02-05",
         "m1": "97.0"
       },
       {
@@ -94,9 +94,9 @@
           "link": "https://z.ai/blog/glm-5",
           "authors": ""
         },
-        "c": "",
+        "c": "https://github.com/zai-org/GLM-5",
         "n": "GLM 5 Thinking",
-        "d": "",
+        "d": "2026-02-11",
         "m1": "97.0"
       },
       {
@@ -127,7 +127,7 @@
           "link": "https://arxiv.org/abs/2512.24618",
           "authors": ""
         },
-        "c": "",
+        "c": "https://huggingface.co/tencent/Youtu-LLM-2B",
         "n": "Youtu-LLM 2B",
         "d": "2025-12-31",
         "m1": "95.9"
@@ -156,22 +156,11 @@
       },
       {
         "p": {
-          "name": "Introducing GPT-5.1 for developers",
-          "link": "https://openai.com/index/gpt-5-1-for-developers/",
-          "authors": ""
-        },
-        "c": "",
-        "n": "GPT-5.1",
-        "d": "",
-        "m1": "94.5"
-      },
-      {
-        "p": {
           "name": "From Code to Correctness: Closing the Last Mile of Code Generation with Hierarchical Debugging",
           "link": "https://arxiv.org/abs/2410.01215v2",
           "authors": "Yuling Shi, Songsong Wang, Chengcheng Wan, Xiaodong Gu"
         },
-        "c": "",
+        "c": "https://github.com/YerbaPage/MGDebugger",
         "n": "DeepSeek-Coder-V2-Lite (MGDebugger)",
         "d": "2024-10-02",
         "m1": "94.5"
@@ -182,9 +171,20 @@
           "link": "https://arxiv.org/abs/2506.22403",
           "authors": ""
         },
-        "c": "",
+        "c": "https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Think-14B",
         "n": "HyperCLOVA X SEED 14B Think",
         "d": "2025-06-27",
+        "m1": "94.5"
+      },
+      {
+        "p": {
+          "name": "Introducing GPT-5.1 for developers",
+          "link": "https://openai.com/index/gpt-5-1-for-developers/",
+          "authors": ""
+        },
+        "c": "",
+        "n": "GPT-5.1",
+        "d": "2025-11-12",
         "m1": "94.5"
       },
       {
@@ -204,7 +204,7 @@
           "link": "https://arxiv.org/abs/2512.02556",
           "authors": ""
         },
-        "c": "",
+        "c": "https://github.com/deepseek-ai/DeepSeek-V3.2-Exp",
         "n": "DeepSeek V3.2 Thinking",
         "d": "2025-12-02",
         "m1": "93.9"
@@ -215,9 +215,9 @@
           "link": "https://qwenlm.github.io/blog/qwen3-coder/",
           "authors": ""
         },
-        "c": "",
+        "c": "https://github.com/QwenLM/Qwen3-Coder",
         "n": "Qwen3 Coder 480B A35B (exacto)",
-        "d": "",
+        "d": "2025-07-22",
         "m1": "92.7"
       },
       {
@@ -226,7 +226,7 @@
           "link": "https://arxiv.org/abs/2505.09388",
           "authors": ""
         },
-        "c": "",
+        "c": "https://github.com/QwenLM/Qwen3",
         "n": "Qwen3 235B A22B Instruct 2507",
         "d": "2025-05-14",
         "m1": "92.1"
@@ -237,7 +237,7 @@
           "link": "https://ernie.baidu.com/blog/publication/ERNIE_Technical_Report.pdf",
           "authors": ""
         },
-        "c": "",
+        "c": "https://huggingface.co/baidu/ERNIE-4.5-300B-A47B-PT",
         "n": "ERNIE-4.5-300B-A47B",
         "d": "2025-06-30",
         "m1": "92.1"
@@ -266,17 +266,6 @@
       },
       {
         "p": {
-          "name": "Mistral Large 3",
-          "link": "https://mistral.ai/news/mistral-3/",
-          "authors": ""
-        },
-        "c": "",
-        "n": "Mistral Large 3 2512",
-        "d": "",
-        "m1": "90.2"
-      },
-      {
-        "p": {
           "name": "L2MAC: Large Language Model Automatic Computer for Extensive Code Generation",
           "link": "https://arxiv.org/abs/2310.02003v5",
           "authors": "Samuel Holt, Max Ruiz Luyten, Mihaela van der Schaar"
@@ -299,11 +288,22 @@
       },
       {
         "p": {
+          "name": "Mistral Large 3",
+          "link": "https://mistral.ai/news/mistral-3/",
+          "authors": ""
+        },
+        "c": "https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512",
+        "n": "Mistral Large 3 2512",
+        "d": "2025-11-28",
+        "m1": "90.2"
+      },
+      {
+        "p": {
           "name": "Introducing Llama 3.1: Our most capable models to date",
           "link": "https://ai.meta.com/blog/meta-llama-3-1/",
           "authors": ""
         },
-        "c": "",
+        "c": "https://github.com/meta-llama/llama-models",
         "n": "Llama 3.1 (405B, Instruct)",
         "d": "2024-07-23",
         "m1": "89.0"
@@ -314,7 +314,7 @@
           "link": "https://arxiv.org/abs/2506.05767",
           "authors": ""
         },
-        "c": "",
+        "c": "https://huggingface.co/rednote-hilab/dots.llm1.inst",
         "n": "dots.llm1.inst",
         "d": "2025-06-06",
         "m1": "88.4"
@@ -336,7 +336,7 @@
           "link": "https://arxiv.org/abs/2502.13923",
           "authors": ""
         },
-        "c": "",
+        "c": "https://github.com/QwenLM/Qwen2.5-VL",
         "n": "Qwen2.5-VL-72B",
         "d": "2025-02-19",
         "m1": "87.8"
@@ -347,7 +347,7 @@
           "link": "https://arxiv.org/abs/2503.19786",
           "authors": ""
         },
-        "c": "",
+        "c": "https://github.com/google-deepmind/gemma",
         "n": "Gemma 3 (27B, IT)",
         "d": "2025-03-25",
         "m1": "87.8"
@@ -369,7 +369,7 @@
           "link": "https://arxiv.org/abs/2412.19437",
           "authors": ""
         },
-        "c": "",
+        "c": "https://github.com/deepseek-ai/DeepSeek-V3",
         "n": "DeepSeek V3",
         "d": "2024-12-27",
         "m1": "87.2"
@@ -380,7 +380,7 @@
           "link": "https://arxiv.org/abs/2507.22448",
           "authors": ""
         },
-        "c": "",
+        "c": "https://huggingface.co/tiiuae/Falcon-H1-34B-Instruct",
         "n": "Falcon-H1-34B-Instruct",
         "d": "2025-07-30",
         "m1": "87.2"
@@ -391,7 +391,7 @@
           "link": "https://arxiv.org/abs/2501.08313",
           "authors": ""
         },
-        "c": "",
+        "c": "https://huggingface.co/MiniMaxAI/MiniMax-Text-01",
         "n": "MiniMax-Text-01",
         "d": "2025-01-14",
         "m1": "86.9"
@@ -402,7 +402,7 @@
           "link": "https://arxiv.org/abs/2604.27393",
           "authors": ""
         },
-        "c": "",
+        "c": "https://github.com/OpenBMB/MiniCPM-o",
         "n": "MiniCPM-o 4.5-Instruct",
         "d": "2026-04-30",
         "m1": "86.6"
@@ -413,7 +413,7 @@
           "link": "https://arxiv.org/abs/2407.10671",
           "authors": ""
         },
-        "c": "",
+        "c": "https://github.com/QwenLM/Qwen2",
         "n": "Qwen2-72B-Instruct",
         "d": "2024-07-15",
         "m1": "86.0"
@@ -435,7 +435,7 @@
           "link": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
           "authors": ""
         },
-        "c": "",
+        "c": "https://github.com/meta-llama/llama-models",
         "n": "Llama 4 Maverick",
         "d": "2025-04-05",
         "m1": "84.8"
@@ -468,7 +468,7 @@
           "link": "https://cohere.com/blog/command-a",
           "authors": ""
         },
-        "c": "",
+        "c": "https://huggingface.co/CohereLabs/c4ai-command-a-03-2025",
         "n": "Command A",
         "d": "2025-03-13",
         "m1": "82.9"
@@ -479,7 +479,7 @@
           "link": "https://arxiv.org/abs/2504.10479",
           "authors": ""
         },
-        "c": "",
+        "c": "https://github.com/OpenGVLab/InternVL",
         "n": "InternVL3-78B",
         "d": "2025-04-14",
         "m1": "82.3"
@@ -490,7 +490,7 @@
           "link": "https://arxiv.org/abs/2405.04434",
           "authors": ""
         },
-        "c": "",
+        "c": "https://github.com/deepseek-ai/DeepSeek-V2",
         "n": "DeepSeek-V2 Chat (RL) (0-shot)",
         "d": "2024-05-07",
         "m1": "81.1"
@@ -501,7 +501,7 @@
           "link": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
           "authors": ""
         },
-        "c": "",
+        "c": "https://github.com/meta-llama/llama-models",
         "n": "Llama 4 Scout",
         "d": "2025-04-05",
         "m1": "81.1"
@@ -512,7 +512,7 @@
           "link": "https://arxiv.org/abs/2602.10604",
           "authors": ""
         },
-        "c": "",
+        "c": "https://huggingface.co/stepfun-ai/Step-3.5-Flash-Base",
         "n": "Step-3.5-Flash Base",
         "d": "2026-02-11",
         "m1": "81.1"
@@ -523,7 +523,7 @@
           "link": "https://ai.meta.com/blog/meta-llama-3-1/",
           "authors": ""
         },
-        "c": "",
+        "c": "https://github.com/meta-llama/llama-models",
         "n": "Llama 3.1 (70B, Instruct)",
         "d": "2024-07-23",
         "m1": "80.5"
@@ -534,7 +534,7 @@
           "link": "https://arxiv.org/abs/2407.10671",
           "authors": ""
         },
-        "c": "",
+        "c": "https://github.com/QwenLM/Qwen2",
         "n": "Qwen2-57B-A14B-Instruct",
         "d": "2024-07-15",
         "m1": "79.9"
@@ -545,7 +545,7 @@
           "link": "https://arxiv.org/abs/2503.20215",
           "authors": ""
         },
-        "c": "",
+        "c": "https://github.com/QwenLM/Qwen2.5-Omni",
         "n": "Qwen2.5-Omni-7B",
         "d": "2025-03-26",
         "m1": "78.7"
@@ -556,7 +556,7 @@
           "link": "https://arxiv.org/abs/2406.12793",
           "authors": ""
         },
-        "c": "",
+        "c": "https://github.com/zai-org/GLM-4",
         "n": "GLM-4 (0520)",
         "d": "2024-06-18",
         "m1": "78.5"
