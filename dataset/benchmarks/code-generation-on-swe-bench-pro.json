@@ -1,0 +1,577 @@
+{
+  "title": "code-generation-on-swe-bench-pro",
+  "task-hierarchy": [
+    "Code Generation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/scaleapi/SWE-bench_Pro-os",
+    "paper": "SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Resolved",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Claude Fable 5 and Claude Mythos 5",
+          "link": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+          "authors": ""
+        },
+        "c": "",
+        "n": "Claude Mythos 5",
+        "d": "",
+        "m1": "80.3"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude Opus 4.8",
+          "link": "https://www.anthropic.com/news/claude-opus-4-8",
+          "authors": ""
+        },
+        "c": "",
+        "n": "Claude Opus 4.8",
+        "d": "",
+        "m1": "69.2"
+      },
+      {
+        "p": {
+          "name": "Introducing Grok 4.5",
+          "link": "https://x.ai/news/grok-4-5",
+          "authors": ""
+        },
+        "c": "",
+        "n": "Grok 4.5",
+        "d": "",
+        "m1": "64.7"
+      },
+      {
+        "p": {
+          "name": "GPT-5.6: Frontier intelligence that scales with your ambition",
+          "link": "https://openai.com/index/gpt-5-6/",
+          "authors": ""
+        },
+        "c": "",
+        "n": "GPT-5.6 Sol",
+        "d": "",
+        "m1": "64.6"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude Opus 4.7",
+          "link": "https://www.anthropic.com/news/claude-opus-4-7",
+          "authors": ""
+        },
+        "c": "",
+        "n": "Claude Opus 4.7",
+        "d": "",
+        "m1": "64.3"
+      },
+      {
+        "p": {
+          "name": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
+          "link": "https://deep-reinforce.com/ornith_1_0.html",
+          "authors": ""
+        },
+        "c": "",
+        "n": "Ornith-1.0-397B",
+        "d": "",
+        "m1": "62.2"
+      },
+      {
+        "p": {
+          "name": "GLM-5.2: Built for Long-Horizon Tasks",
+          "link": "https://z.ai/blog/glm-5.2",
+          "authors": ""
+        },
+        "c": "",
+        "n": "GLM-5.2",
+        "d": "",
+        "m1": "62.1"
+      },
+      {
+        "p": {
+          "name": "Introducing Muse Spark 1.1",
+          "link": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+          "authors": ""
+        },
+        "c": "",
+        "n": "Muse Spark 1.1",
+        "d": "",
+        "m1": "61.50"
+      },
+      {
+        "p": {
+          "name": "Introducing LongCat-2.0",
+          "link": "https://longcat.chat/blog/longcat-2.0/",
+          "authors": ""
+        },
+        "c": "",
+        "n": "LongCat-2.0",
+        "d": "",
+        "m1": "59.5"
+      },
+      {
+        "p": {
+          "name": "Introducing GPT-5.4",
+          "link": "https://openai.com/index/introducing-gpt-5-4/",
+          "authors": ""
+        },
+        "c": "",
+        "n": "gpt-5.4 (xHigh)",
+        "d": "",
+        "m1": "59.10"
+      },
+      {
+        "p": {
+          "name": "MiniMax M3: Frontier Coding, 1M Context, Native Multimodality — All in One Model",
+          "link": "https://www.minimax.io/blog/minimax-m3",
+          "authors": ""
+        },
+        "c": "",
+        "n": "MiniMax M3",
+        "d": "2026-05-31",
+        "m1": "59.0"
+      },
+      {
+        "p": {
+          "name": "Introducing GPT-5.5",
+          "link": "https://openai.com/index/introducing-gpt-5-5/",
+          "authors": ""
+        },
+        "c": "",
+        "n": "GPT-5.5",
+        "d": "",
+        "m1": "58.6"
+      },
+      {
+        "p": {
+          "name": "Kimi K2.6",
+          "link": "https://www.kimi.com/blog/kimi-k2-6",
+          "authors": ""
+        },
+        "c": "",
+        "n": "Kimi K2.6",
+        "d": "2026-04-20",
+        "m1": "58.6"
+      },
+      {
+        "p": {
+          "name": "GLM-5.1: Towards Long-Horizon Tasks",
+          "link": "https://z.ai/blog/glm-5.1",
+          "authors": ""
+        },
+        "c": "",
+        "n": "GLM-5.1",
+        "d": "",
+        "m1": "58.4"
+      },
+      {
+        "p": {
+          "name": "Hy3",
+          "link": "https://hy.tencent.com/research/hy3",
+          "authors": ""
+        },
+        "c": "",
+        "n": "Hy3",
+        "d": "",
+        "m1": "57.9"
+      },
+      {
+        "p": {
+          "name": "Introducing GPT-5.4",
+          "link": "https://openai.com/index/introducing-gpt-5-4/",
+          "authors": ""
+        },
+        "c": "",
+        "n": "GPT-5.4",
+        "d": "",
+        "m1": "57.7"
+      },
+      {
+        "p": {
+          "name": "Seed2.1 Model Card: Agentic Intelligence for Productivity",
+          "link": "https://seed.bytedance.com/en/blog/seed2-1-officially-released-advancing-ai-productivity",
+          "authors": ""
+        },
+        "c": "",
+        "n": "Seed2.1 Pro",
+        "d": "2026-06-23",
+        "m1": "57.5"
+      },
+      {
+        "p": {
+          "name": "MiMo-V2.5-Pro",
+          "link": "https://mimo.xiaomi.com/mimo-v2-5-pro",
+          "authors": ""
+        },
+        "c": "",
+        "n": "MiMo-V2.5-Pro",
+        "d": "2026-04-27",
+        "m1": "57.2"
+      },
+      {
+        "p": {
+          "name": "Introducing GPT-5.3-Codex",
+          "link": "https://openai.com/index/introducing-gpt-5-3-codex/",
+          "authors": ""
+        },
+        "c": "",
+        "n": "GPT-5.3-Codex",
+        "d": "",
+        "m1": "56.8"
+      },
+      {
+        "p": {
+          "name": "Introducing GPT-5.2-Codex",
+          "link": "https://openai.com/index/introducing-gpt-5-2-codex/",
+          "authors": ""
+        },
+        "c": "",
+        "n": "GPT-5.2-Codex",
+        "d": "",
+        "m1": "56.4"
+      },
+      {
+        "p": {
+          "name": "Step 3.7 Flash",
+          "link": "https://static.stepfun.com/blog/step-3.7-flash/",
+          "authors": ""
+        },
+        "c": "",
+        "n": "Step 3.7 Flash",
+        "d": "2026-05-29",
+        "m1": "56.3"
+      },
+      {
+        "p": {
+          "name": "The MiniMax-M2 Series: Mini Activations Unleashing Max Real-World Intelligence",
+          "link": "https://arxiv.org/abs/2605.26494",
+          "authors": ""
+        },
+        "c": "",
+        "n": "MiniMax-M2.7",
+        "d": "2026-05-26",
+        "m1": "56.2"
+      },
+      {
+        "p": {
+          "name": "Introducing GPT-5.2",
+          "link": "https://openai.com/index/introducing-gpt-5-2/",
+          "authors": ""
+        },
+        "c": "",
+        "n": "GPT-5.2",
+        "d": "",
+        "m1": "55.6"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+          "link": "https://arxiv.org/abs/2606.19348",
+          "authors": ""
+        },
+        "c": "",
+        "n": "DeepSeek-V4-Pro Max",
+        "d": "2026-04-26",
+        "m1": "55.4"
+      },
+      {
+        "p": {
+          "name": "The MiniMax-M2 Series: Mini Activations Unleashing Max Real-World Intelligence",
+          "link": "https://arxiv.org/abs/2605.26494",
+          "authors": ""
+        },
+        "c": "",
+        "n": "MiniMax-M2.5",
+        "d": "2026-05-26",
+        "m1": "55.4"
+      },
+      {
+        "p": {
+          "name": "Introducing Muse Spark",
+          "link": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
+          "authors": ""
+        },
+        "c": "",
+        "n": "Muse Spark",
+        "d": "",
+        "m1": "55.00"
+      },
+      {
+        "p": {
+          "name": "Gemini 3.1 Pro: A smarter model for your most complex tasks",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
+          "authors": ""
+        },
+        "c": "",
+        "n": "Gemini 3.1 Pro",
+        "d": "2026-02-19",
+        "m1": "54.2"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude Opus 4.6",
+          "link": "https://www.anthropic.com/news/claude-opus-4-6",
+          "authors": ""
+        },
+        "c": "",
+        "n": "claude-opus-4-6 (thinking)",
+        "d": "",
+        "m1": "51.90"
+      },
+      {
+        "p": {
+          "name": "Gemini 3.1 Pro: A smarter model for your most complex tasks",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
+          "authors": ""
+        },
+        "c": "",
+        "n": "gemini-3.1-pro (thinking)",
+        "d": "2026-02-19",
+        "m1": "46.10"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude Opus 4.5",
+          "link": "https://www.anthropic.com/news/claude-opus-4-5",
+          "authors": ""
+        },
+        "c": "",
+        "n": "claude-opus-4-5-20251101",
+        "d": "2025-11-24",
+        "m1": "45.89"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude Sonnet 4.5",
+          "link": "https://www.anthropic.com/news/claude-sonnet-4-5",
+          "authors": ""
+        },
+        "c": "",
+        "n": "claude-4-5-Sonnet",
+        "d": "2025-09-29",
+        "m1": "43.60"
+      },
+      {
+        "p": {
+          "name": "Gemini 3: Try Google's newest, most intelligent AI model",
+          "link": "https://blog.google/products-and-platforms/products/gemini/gemini-3/",
+          "authors": ""
+        },
+        "c": "",
+        "n": "gemini-3-pro-preview",
+        "d": "2025-11-18",
+        "m1": "43.30"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude 4",
+          "link": "https://www.anthropic.com/news/claude-4",
+          "authors": ""
+        },
+        "c": "",
+        "n": "claude-4-Sonnet",
+        "d": "2025-05-22",
+        "m1": "42.70"
+      },
+      {
+        "p": {
+          "name": "Introducing GPT-5",
+          "link": "https://openai.com/index/introducing-gpt-5/",
+          "authors": ""
+        },
+        "c": "",
+        "n": "gpt-5-2025-08-07 (High)",
+        "d": "2025-08-07",
+        "m1": "41.78"
+      },
+      {
+        "p": {
+          "name": "Introducing GPT-5.2-Codex",
+          "link": "https://openai.com/index/introducing-gpt-5-2-codex/",
+          "authors": ""
+        },
+        "c": "",
+        "n": "gpt-5.2-codex",
+        "d": "",
+        "m1": "41.04"
+      },
+      {
+        "p": {
+          "name": "Claude Haiku 4.5",
+          "link": "https://www.anthropic.com/news/claude-haiku-4-5",
+          "authors": ""
+        },
+        "c": "",
+        "n": "claude-4-5-haiku",
+        "d": "2025-10-15",
+        "m1": "39.45"
+      },
+      {
+        "p": {
+          "name": "Qwen3-Coder: Agentic Coding in the World",
+          "link": "https://qwenlm.github.io/blog/qwen3-coder/",
+          "authors": ""
+        },
+        "c": "",
+        "n": "qwen3-coder-480b-a35b",
+        "d": "",
+        "m1": "38.70"
+      },
+      {
+        "p": {
+          "name": "MiniMax-M2.1",
+          "link": "https://www.minimax.io/news/minimax-m21",
+          "authors": ""
+        },
+        "c": "",
+        "n": "minimax-2.1",
+        "d": "",
+        "m1": "36.81"
+      },
+      {
+        "p": {
+          "name": "Gemini 3 Flash",
+          "link": "https://blog.google/products/gemini/gemini-3-flash/",
+          "authors": ""
+        },
+        "c": "",
+        "n": "gemini-3-flash",
+        "d": "",
+        "m1": "34.63"
+      },
+      {
+        "p": {
+          "name": "Introducing GPT-5.2",
+          "link": "https://openai.com/index/introducing-gpt-5-2/",
+          "authors": ""
+        },
+        "c": "",
+        "n": "gpt-5.2",
+        "d": "",
+        "m1": "29.94"
+      },
+      {
+        "p": {
+          "name": "Kimi K2: Open Agentic Intelligence",
+          "link": "https://arxiv.org/abs/2507.20534",
+          "authors": ""
+        },
+        "c": "",
+        "n": "kimi-k2-instruct",
+        "d": "2025-07-28",
+        "m1": "27.67"
+      },
+      {
+        "p": {
+          "name": "Qwen3 Technical Report",
+          "link": "https://arxiv.org/abs/2505.09388",
+          "authors": ""
+        },
+        "c": "",
+        "n": "qwen3-235b-a22b",
+        "d": "2025-05-14",
+        "m1": "21.41"
+      },
+      {
+        "p": {
+          "name": "Introducing gpt-oss",
+          "link": "https://openai.com/index/introducing-gpt-oss/",
+          "authors": ""
+        },
+        "c": "",
+        "n": "gpt-oss-120b",
+        "d": "2025-08-05",
+        "m1": "16.20"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V3.2 Technical Report",
+          "link": "https://arxiv.org/abs/2512.02556",
+          "authors": ""
+        },
+        "c": "",
+        "n": "deepseek-v3p2",
+        "d": "2025-12-02",
+        "m1": "15.56"
+      },
+      {
+        "p": {
+          "name": "Gemma 3 Technical Report",
+          "link": "https://arxiv.org/abs/2503.19786",
+          "authors": ""
+        },
+        "c": "",
+        "n": "gemma-3-27b-it",
+        "d": "2025-03-25",
+        "m1": "11.38"
+      },
+      {
+        "p": {
+          "name": "Introducing Llama 3.1: Our most capable models to date",
+          "link": "https://ai.meta.com/blog/meta-llama-3-1/",
+          "authors": ""
+        },
+        "c": "",
+        "n": "llama3-1-405b-instruct",
+        "d": "2024-07-23",
+        "m1": "11.18"
+      },
+      {
+        "p": {
+          "name": "GLM-4.6",
+          "link": "https://z.ai/blog/glm-4.6",
+          "authors": ""
+        },
+        "c": "",
+        "n": "glm-4.6",
+        "d": "2025-09-30",
+        "m1": "9.67"
+      },
+      {
+        "p": {
+          "name": "The Llama 4 herd",
+          "link": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+          "authors": ""
+        },
+        "c": "",
+        "n": "llama4-maverick-17b-instruct",
+        "d": "2025-04-05",
+        "m1": "5.24"
+      },
+      {
+        "p": {
+          "name": "Codestral: Hello, World!",
+          "link": "https://mistral.ai/news/codestral/",
+          "authors": ""
+        },
+        "c": "",
+        "n": "codestral-2405",
+        "d": "2024-05-29",
+        "m1": "1.51"
+      }
+    ]
+  }
+}

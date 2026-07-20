@@ -1,0 +1,467 @@
+{
+  "title": "code-generation-on-terminal-bench-2-1",
+  "task-hierarchy": [
+    "Code Generation"
+  ],
+  "dataset-info": {
+    "link": "https://www.tbench.ai",
+    "paper": "Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "GPT-5.6: Frontier intelligence that scales with your ambition",
+          "link": "https://openai.com/index/gpt-5-6/",
+          "authors": ""
+        },
+        "c": "",
+        "n": "GPT-5.6 Sol Ultra",
+        "d": "",
+        "m1": "91.9"
+      },
+      {
+        "p": {
+          "name": "Kimi K3 Tech Blog: Open Frontier Intelligence",
+          "link": "https://www.kimi.com/blog/kimi-k3",
+          "authors": ""
+        },
+        "c": "",
+        "n": "KimiCode + Kimi K3 Max",
+        "d": "",
+        "m1": "88.3"
+      },
+      {
+        "p": {
+          "name": "Claude Fable 5 and Claude Mythos 5",
+          "link": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+          "authors": ""
+        },
+        "c": "https://github.com/SWE-agent/mini-swe-agent",
+        "n": "mini-SWE-agent + Claude Mythos 5",
+        "d": "",
+        "m1": "88.0"
+      },
+      {
+        "p": {
+          "name": "Introducing GPT-5.5",
+          "link": "https://openai.com/index/introducing-gpt-5-5/",
+          "authors": ""
+        },
+        "c": "https://www.tbench.ai/news/terminus",
+        "n": "Terminus-2 + GPT-5.5",
+        "d": "",
+        "m1": "84.0"
+      },
+      {
+        "p": {
+          "name": "Fable 5",
+          "link": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+          "authors": ""
+        },
+        "c": "https://github.com/harbor-framework/terminal-bench-2-1/pull/75",
+        "n": "Claude Code + Fable 5",
+        "d": "2026-06-07",
+        "m1": "83.8"
+      },
+      {
+        "p": {
+          "name": "Introducing Grok 4.5",
+          "link": "https://x.ai/news/grok-4-5",
+          "authors": ""
+        },
+        "c": "",
+        "n": "Grok 4.5",
+        "d": "",
+        "m1": "83.3"
+      },
+      {
+        "p": {
+          "name": "GPT-5.5",
+          "link": "https://openai.com/index/introducing-gpt-5-5/",
+          "authors": ""
+        },
+        "c": "https://github.com/harbor-framework/terminal-bench-2-1/pull/45",
+        "n": "Codex + GPT-5.5",
+        "d": "2026-05-01",
+        "m1": "83.1"
+      },
+      {
+        "p": {
+          "name": "GLM-5.2: Built for Long-Horizon Tasks",
+          "link": "https://z.ai/blog/glm-5.2",
+          "authors": ""
+        },
+        "c": "https://claude.com/claude-code",
+        "n": "Claude Code + GLM-5.2",
+        "d": "",
+        "m1": "82.7"
+      },
+      {
+        "p": {
+          "name": "Fable 5",
+          "link": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+          "authors": ""
+        },
+        "c": "https://github.com/harbor-framework/terminal-bench-2-1/pull/78",
+        "n": "Terminus 2 + Fable 5",
+        "d": "2026-06-05",
+        "m1": "80.4"
+      },
+      {
+        "p": {
+          "name": "Introducing Muse Spark 1.1",
+          "link": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+          "authors": ""
+        },
+        "c": "",
+        "n": "bash-tool-only agent harness + Muse Spark 1.1",
+        "d": "",
+        "m1": "80.0"
+      },
+      {
+        "p": {
+          "name": "Grok 4.5",
+          "link": "https://docs.x.ai/developers/models/grok-4.5",
+          "authors": ""
+        },
+        "c": "https://github.com/harbor-framework/terminal-bench-2-1/pull/86",
+        "n": "Cursor CLI + Grok 4.5",
+        "d": "2026-07-09",
+        "m1": "79.3"
+      },
+      {
+        "p": {
+          "name": "Opus 4.8",
+          "link": "https://www.anthropic.com/news/claude-opus-4-8",
+          "authors": ""
+        },
+        "c": "https://github.com/harbor-framework/terminal-bench-2-1/pull/92",
+        "n": "Claude Code + Opus 4.8",
+        "d": "2026-07-09",
+        "m1": "78.9"
+      },
+      {
+        "p": {
+          "name": "GPT-5.6 Terra",
+          "link": "https://developers.openai.com/api/docs/models/gpt-5.6-terra",
+          "authors": ""
+        },
+        "c": "https://github.com/harbor-framework/terminal-bench-2-1/pull/115",
+        "n": "Codex + GPT-5.6 Terra",
+        "d": "2026-07-11",
+        "m1": "78.4"
+      },
+      {
+        "p": {
+          "name": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
+          "link": "https://deep-reinforce.com/ornith_1_0.html",
+          "authors": ""
+        },
+        "c": "https://claude.com/claude-code",
+        "n": "Claude Code + Ornith-1.0-397B",
+        "d": "",
+        "m1": "78.2"
+      },
+      {
+        "p": {
+          "name": "GPT-5.5",
+          "link": "https://openai.com/index/introducing-gpt-5-5/",
+          "authors": ""
+        },
+        "c": "https://github.com/harbor-framework/terminal-bench-2-1/pull/47",
+        "n": "Terminus 2 + GPT-5.5",
+        "d": "2026-05-01",
+        "m1": "78.0"
+      },
+      {
+        "p": {
+          "name": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
+          "link": "https://deep-reinforce.com/ornith_1_0.html",
+          "authors": ""
+        },
+        "c": "https://www.tbench.ai/news/terminus",
+        "n": "Terminus-2 + Ornith-1.0-397B",
+        "d": "",
+        "m1": "77.5"
+      },
+      {
+        "p": {
+          "name": "Muse Spark 1.1",
+          "link": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+          "authors": ""
+        },
+        "c": "https://github.com/harbor-framework/terminal-bench-2-1/pull/94",
+        "n": "mini-SWE-agent + Muse Spark 1.1",
+        "d": "2026-07-09",
+        "m1": "76.2"
+      },
+      {
+        "p": {
+          "name": "GPT-5.6 Luna",
+          "link": "https://developers.openai.com/api/docs/models/gpt-5.6-luna",
+          "authors": ""
+        },
+        "c": "https://github.com/harbor-framework/terminal-bench-2-1/pull/112",
+        "n": "Codex + GPT-5.6 Luna",
+        "d": "2026-07-11",
+        "m1": "75.7"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude Opus 4.8",
+          "link": "https://www.anthropic.com/news/claude-opus-4-8",
+          "authors": ""
+        },
+        "c": "https://www.tbench.ai/news/terminus",
+        "n": "Terminus-2 + Claude Opus 4.8",
+        "d": "",
+        "m1": "74.6"
+      },
+      {
+        "p": {
+          "name": "Sonnet 5",
+          "link": "https://www.anthropic.com/news/claude-sonnet-5",
+          "authors": ""
+        },
+        "c": "https://github.com/harbor-framework/terminal-bench-2-1/pull/98",
+        "n": "Claude Code + Sonnet 5",
+        "d": "2026-07-09",
+        "m1": "74.6"
+      },
+      {
+        "p": {
+          "name": "Gemini 3.1 Pro: A smarter model for your most complex tasks",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
+          "authors": ""
+        },
+        "c": "https://www.tbench.ai/news/terminus",
+        "n": "Terminus-2 + Gemini 3.1 Pro",
+        "d": "",
+        "m1": "74.0"
+      },
+      {
+        "p": {
+          "name": "Gemini 3 Pro",
+          "link": "https://blog.google/products-and-platforms/products/gemini/gemini-3/",
+          "authors": ""
+        },
+        "c": "https://github.com/harbor-framework/terminal-bench-2-1/pull/48",
+        "n": "Terminus 2 + Gemini 3 Pro",
+        "d": "2026-05-01",
+        "m1": "73.9"
+      },
+      {
+        "p": {
+          "name": "Hy3",
+          "link": "https://hy.tencent.com/research/hy3",
+          "authors": ""
+        },
+        "c": "",
+        "n": "Hy3",
+        "d": "",
+        "m1": "71.7"
+      },
+      {
+        "p": {
+          "name": "Seed2.1 Model Card: Agentic Intelligence for Productivity",
+          "link": "https://seed.bytedance.com/en/blog/seed2-1-officially-released-advancing-ai-productivity",
+          "authors": ""
+        },
+        "c": "",
+        "n": "Seed2.1 Pro",
+        "d": "",
+        "m1": "71.0"
+      },
+      {
+        "p": {
+          "name": "Introducing LongCat-2.0",
+          "link": "https://longcat.chat/blog/longcat-2.0/",
+          "authors": ""
+        },
+        "c": "",
+        "n": "LongCat-2.0",
+        "d": "",
+        "m1": "70.8"
+      },
+      {
+        "p": {
+          "name": "Opus 4.7",
+          "link": "https://www.anthropic.com/news/claude-opus-4-7",
+          "authors": ""
+        },
+        "c": "https://github.com/harbor-framework/terminal-bench-2-1/pull/44",
+        "n": "Claude Code + Opus 4.7",
+        "d": "2026-05-01",
+        "m1": "68.9"
+      },
+      {
+        "p": {
+          "name": "Opus 4.7",
+          "link": "https://www.anthropic.com/news/claude-opus-4-7",
+          "authors": ""
+        },
+        "c": "https://github.com/harbor-framework/terminal-bench-2-1/pull/46",
+        "n": "Terminus 2 + Opus 4.7",
+        "d": "2026-05-01",
+        "m1": "66.1"
+      },
+      {
+        "p": {
+          "name": "Gemini 3 Pro",
+          "link": "https://blog.google/products-and-platforms/products/gemini/gemini-3/",
+          "authors": ""
+        },
+        "c": "https://github.com/harbor-framework/terminal-bench-2-1/pull/66",
+        "n": "Gemini CLI + Gemini 3 Pro",
+        "d": "2026-05-01",
+        "m1": "65.8"
+      },
+      {
+        "p": {
+          "name": "Gemini 3.1 Pro",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
+          "authors": ""
+        },
+        "c": "https://github.com/harbor-framework/terminal-bench-2-1/pull/68",
+        "n": "Gemini CLI + Gemini 3.1 Pro",
+        "d": "2026-05-05",
+        "m1": "65.8"
+      },
+      {
+        "p": {
+          "name": "Gemini 3.1 Pro",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
+          "authors": ""
+        },
+        "c": "https://github.com/harbor-framework/terminal-bench-2-1/pull/69",
+        "n": "Terminus 2 + Gemini 3.1 Pro",
+        "d": "2026-05-05",
+        "m1": "65.6"
+      },
+      {
+        "p": {
+          "name": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
+          "link": "https://deep-reinforce.com/ornith_1_0.html",
+          "authors": ""
+        },
+        "c": "https://www.tbench.ai/news/terminus",
+        "n": "Terminus-2 + Ornith-1.0-35B",
+        "d": "",
+        "m1": "64.2"
+      },
+      {
+        "p": {
+          "name": "Inkling: Our open-weights model",
+          "link": "https://thinkingmachines.ai/news/introducing-inkling/",
+          "authors": ""
+        },
+        "c": "",
+        "n": "internal coding harness + Inkling",
+        "d": "",
+        "m1": "63.8"
+      },
+      {
+        "p": {
+          "name": "GLM-5.1: Towards Long-Horizon Tasks",
+          "link": "https://z.ai/blog/glm-5.1",
+          "authors": ""
+        },
+        "c": "https://www.tbench.ai/news/terminus",
+        "n": "Terminus-2 + GLM-5.1",
+        "d": "",
+        "m1": "63.5"
+      },
+      {
+        "p": {
+          "name": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
+          "link": "https://deep-reinforce.com/ornith_1_0.html",
+          "authors": ""
+        },
+        "c": "https://claude.com/claude-code",
+        "n": "Claude Code + Ornith-1.0-35B",
+        "d": "",
+        "m1": "62.8"
+      },
+      {
+        "p": {
+          "name": "GLM-5.1",
+          "link": "https://z.ai/blog/glm-5.1",
+          "authors": ""
+        },
+        "c": "https://github.com/harbor-framework/terminal-bench-2-1/pull/67",
+        "n": "Claude Code + GLM-5.1",
+        "d": "2026-05-01",
+        "m1": "58.7"
+      },
+      {
+        "p": {
+          "name": "Nemotron 3 Ultra: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Model for Agentic Reasoning",
+          "link": "https://arxiv.org/abs/2606.15007",
+          "authors": ""
+        },
+        "c": "https://www.tbench.ai/news/terminus",
+        "n": "Terminus-2 + Nemotron 3 Ultra",
+        "d": "",
+        "m1": "56.4"
+      },
+      {
+        "p": {
+          "name": "Tmax: A simple recipe for terminal agents",
+          "link": "https://arxiv.org/abs/2606.23321",
+          "authors": ""
+        },
+        "c": "",
+        "n": "Vanillux2Agent + Tmax 27B",
+        "d": "",
+        "m1": "44.9"
+      },
+      {
+        "p": {
+          "name": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
+          "link": "https://deep-reinforce.com/ornith_1_0.html",
+          "authors": ""
+        },
+        "c": "https://www.tbench.ai/news/terminus",
+        "n": "Terminus-2 + Ornith-1.0-9B",
+        "d": "",
+        "m1": "43.1"
+      },
+      {
+        "p": {
+          "name": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
+          "link": "https://deep-reinforce.com/ornith_1_0.html",
+          "authors": ""
+        },
+        "c": "https://claude.com/claude-code",
+        "n": "Claude Code + Ornith-1.0-9B",
+        "d": "",
+        "m1": "40.6"
+      }
+    ]
+  }
+}
