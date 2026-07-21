@@ -1,0 +1,148 @@
+{
+  "title": "table-based-fact-verification-on-sem-tab-facts",
+  "task-hierarchy": [
+    "Table-based Fact Verification"
+  ],
+  "dataset-info": {
+    "link": "https://sites.google.com/view/sem-tab-facts",
+    "paper": "SemEval-2021 Task 9: Fact Verification and Evidence Finding for Tabular Data in Scientific Documents (SEM-TAB-FACTS)"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Micro F1 (Subtask A)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "A Multi-Agent Approach for Claim Verification from Tabular Data Documents",
+          "link": "https://arxiv.org/abs/2604.17225"
+        },
+        "c": "",
+        "n": "MACE (Qwen-235B, Pm+Em)",
+        "d": "2026-04-19",
+        "m1": "90.0"
+      },
+      {
+        "p": {
+          "name": "A Multi-Agent Approach for Claim Verification from Tabular Data Documents",
+          "link": "https://arxiv.org/abs/2604.17225"
+        },
+        "c": "",
+        "n": "MACE (Qwen-72B, Pm+Em+Vm')",
+        "d": "2026-04-19",
+        "m1": "89.0"
+      },
+      {
+        "p": {
+          "name": "A Multi-Agent Approach for Claim Verification from Tabular Data Documents",
+          "link": "https://arxiv.org/abs/2604.17225"
+        },
+        "c": "",
+        "n": "MACE (LLaMA-8B, Pm+Em+Vm')",
+        "d": "2026-04-19",
+        "m1": "86.0"
+      },
+      {
+        "p": {
+          "name": "King001 (SemEval-2021 Task 9 official leaderboard, best participant system, subtask A)",
+          "link": "https://aclanthology.org/2021.semeval-1.39/"
+        },
+        "c": "",
+        "n": "King001",
+        "d": "2021-06-01",
+        "m1": "84.48"
+      },
+      {
+        "p": {
+          "name": "PASTA: Table-Operations Aware Fact Verification via Sentence-Table Cloze Pre-training",
+          "link": "https://arxiv.org/abs/2211.02816"
+        },
+        "c": "https://github.com/ruc-datalab/PASTA",
+        "n": "PASTA",
+        "d": "2022-11-05",
+        "m1": "84.10"
+      },
+      {
+        "p": {
+          "name": "THiFly_Queens at SemEval-2021 Task 9: Two-stage Statement Verification with Adaptive Ensembling and Slot-based Operation",
+          "link": "https://aclanthology.org/2021.semeval-1.50/"
+        },
+        "c": "",
+        "n": "THiFly_Queens",
+        "d": "2021-06-01",
+        "m1": "83.76"
+      },
+      {
+        "p": {
+          "name": "A Multi-Agent Approach for Claim Verification from Tabular Data Documents",
+          "link": "https://arxiv.org/abs/2604.17225"
+        },
+        "c": "",
+        "n": "MACE (Mistral-7B, Pm+Em+Vm')",
+        "d": "2026-04-19",
+        "m1": "74.0"
+      },
+      {
+        "p": {
+          "name": "BreakingBERT@IITK at SemEval-2021 Task 9: Statement Verification and Evidence Finding with Tables",
+          "link": "https://aclanthology.org/2021.semeval-1.40/"
+        },
+        "c": "",
+        "n": "BreakingBERT@IITK (CellBERT)",
+        "d": "2021-06-01",
+        "m1": "69.3"
+      },
+      {
+        "p": {
+          "name": "TAPAS at SemEval-2021 Task 9: Reasoning over tables with intermediate pre-training",
+          "link": "https://aclanthology.org/2021.semeval-1.51/"
+        },
+        "c": "",
+        "n": "TAPAS",
+        "d": "2021-06-01",
+        "m1": "68.03"
+      },
+      {
+        "p": {
+          "name": "Volta at SemEval-2021 Task 9: Statement Verification and Evidence Finding with Tables using TAPAS and Transfer Learning",
+          "link": "https://aclanthology.org/2021.semeval-1.180/"
+        },
+        "c": "",
+        "n": "Volta",
+        "d": "2021-06-01",
+        "m1": "67.34"
+      },
+      {
+        "p": {
+          "name": "AttesTable at SemEval-2021 Task 9: Extending Statement Verification with Tables for Unknown Class, and Semantic Evidence Finding",
+          "link": "https://aclanthology.org/2021.semeval-1.182/"
+        },
+        "c": "",
+        "n": "AttesTable",
+        "d": "2021-06-01",
+        "m1": "65.59"
+      }
+    ]
+  }
+}

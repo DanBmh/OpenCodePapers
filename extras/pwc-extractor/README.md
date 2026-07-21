@@ -13,5 +13,4 @@ Extract initial data from _PapersWithCode_ dumps.
   cd extras/pwc-extractor/
   python3 extract_data.py
   python3 add_paper_names.py
-  python3 add_paper_authors.py
   ```

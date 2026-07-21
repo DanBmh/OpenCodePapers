@@ -267,11 +267,16 @@ def check_benchmark_items(data: dict, path: str):
         for idx, item in enumerate(benchmark["items"]):
             if not isinstance(item, dict):
                 continue
+            if "p" in item and not isinstance(item["p"], dict):
+                if item["p"] != "":
+                    errors.append(
+                        f"{path}: 'benchmark.items[{idx}].p' must be a JSON object or empty string."
+                    )
             if "p" in item and isinstance(item["p"], dict):
                 p = item["p"]
-                if "name" not in p or "link" not in p or "authors" not in p:
+                if "name" not in p or "link" not in p:
                     errors.append(
-                        f"{path}: 'benchmark.items[{idx}].p' must contain 'name', 'link', 'authors'"
+                        f"{path}: 'benchmark.items[{idx}].p' must contain 'name', 'link'"
                     )
                 else:
                     if not p["name"]:
@@ -303,28 +308,6 @@ def check_benchmark_items(data: dict, path: str):
                     errors.append(
                         f"{path}: 'benchmark.items[{idx}].c' error: {link_error}"
                     )
-
-    # Check that paper authors is a list of strings (can be empty)
-    if "items" in benchmark and isinstance(benchmark["items"], list):
-        for idx, item in enumerate(benchmark["items"]):
-            if not isinstance(item, dict):
-                continue
-            if "p" in item and isinstance(item["p"], dict):
-                author_str = item["p"].get("authors", "")
-                author_str = author_str.strip()
-                if author_str:
-                    authors = [a.strip() for a in author_str.split(", ")]
-                    for a in authors:
-                        if a == "":
-                            errors.append(
-                                f"{path}: 'benchmark.items[{idx}].p.authors' contains empty author."
-                            )
-                            break
-                        if "," in a:
-                            errors.append(
-                                f"{path}: 'benchmark.items[{idx}].p.authors' contains extra comma."
-                            )
-                            break
 
     # Check date fields are in YYYY-MM-DD format
     date_pattern = re.compile(r"^\d{4}-\d{2}-\d{2}$")
@@ -424,12 +407,9 @@ def check_benchmark_order(data: dict, path: str):
         preview = "; ".join(
             (
                 f"items[{l_idx}]={l_val} -> items[{r_idx}]={r_val}"
-                for l_idx, l_val, r_idx, r_val in violations[:3]
+                for l_idx, l_val, r_idx, r_val in violations
             )
         )
-        if len(violations) > 3:
-            preview += f"; ... (+{len(violations) - 3} more)"
-
         errors.append(
             (
                 f"{path}: Benchmark items are not ordered by first metric {first_metric_key!r} "
@@ -467,14 +447,9 @@ def check_benchmark_order(data: dict, path: str):
             (
                 f"items[{l_idx}] metric={l_val}, date={l_date} -> "
                 f"items[{r_idx}] metric={r_val}, date={r_date}"
-                for l_idx, l_val, l_date, r_idx, r_val, r_date in metric_date_violations[
-                    :3
-                ]
+                for l_idx, l_val, l_date, r_idx, r_val, r_date in metric_date_violations
             )
         )
-        if len(metric_date_violations) > 3:
-            preview += f"; ... (+{len(metric_date_violations) - 3} more)"
-
         errors.append(
             (
                 f"{path}: Benchmark items with equal first metric {first_metric_key!r} "
@@ -581,7 +556,7 @@ def main() -> int:
             continue
         if json.dumps(data, ensure_ascii=False, indent=2) != text:
             all_errors.append(
-                f"{path}: JSON file contains formatting issues (whitespaces, ...)"
+                f"{path}: JSON file contains formatting issues (whitespaces, unicode-escapes, ...)"
             )
             continue
 

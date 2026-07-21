@@ -1,0 +1,168 @@
+{
+  "title": "fact-verification-on-feverous",
+  "task-hierarchy": [
+    "Fact Verification"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/Raldir/FEVEROUS",
+    "paper": "FEVEROUS: Fact Extraction and VERification Over Unstructured and Structured information"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Label Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "ProTrix: Building Models for Planning and Reasoning over Tables with Sentence Context",
+          "link": "https://arxiv.org/abs/2403.02177"
+        },
+        "c": "https://github.com/WilliamZR/ProTrix",
+        "n": "ProTrix",
+        "d": "2024-03-04",
+        "m1": "75.6"
+      },
+      {
+        "p": {
+          "name": "ProTrix: Building Models for Planning and Reasoning over Tables with Sentence Context",
+          "link": "https://arxiv.org/abs/2403.02177"
+        },
+        "c": "https://github.com/WilliamZR/ProTrix",
+        "n": "ProTrix-Coder",
+        "d": "2024-03-04",
+        "m1": "71.4"
+      },
+      {
+        "p": {
+          "name": "ProTrix: Building Models for Planning and Reasoning over Tables with Sentence Context",
+          "link": "https://arxiv.org/abs/2403.02177"
+        },
+        "c": "https://github.com/WilliamZR/ProTrix",
+        "n": "GPT-4",
+        "d": "2024-03-04",
+        "m1": "71.0"
+      },
+      {
+        "p": {
+          "name": "ProTrix: Building Models for Planning and Reasoning over Tables with Sentence Context",
+          "link": "https://arxiv.org/abs/2403.02177"
+        },
+        "c": "https://github.com/WilliamZR/ProTrix",
+        "n": "Plan-then-Reason (Ours)",
+        "d": "2024-03-04",
+        "m1": "65.8"
+      },
+      {
+        "p": {
+          "name": "Heterogeneous Graph Reasoning for Fact Checking over Texts and Tables",
+          "link": "https://arxiv.org/abs/2402.13028"
+        },
+        "c": "https://github.com/Deno-V/HeterFC",
+        "n": "HeterFC",
+        "d": "2024-02-20",
+        "m1": "63.29"
+      },
+      {
+        "p": {
+          "name": "Dual-channel Evidence Fusion for Fact Verification over Texts and Tables",
+          "link": "https://aclanthology.org/2022.naacl-main.384/"
+        },
+        "c": "https://github.com/lanlanabcd/dual_channel_feverous",
+        "n": "DCUF",
+        "d": "2022-07-10",
+        "m1": "63.21"
+      },
+      {
+        "p": {
+          "name": "Bridging Textual and Tabular Worlds for Fact Verification: A Lightweight, Attention-Based Model",
+          "link": "https://arxiv.org/abs/2403.17361"
+        },
+        "c": "",
+        "n": "Attention-based Text+Table Fusion Model",
+        "d": "2024-03-26",
+        "m1": "62.02"
+      },
+      {
+        "p": {
+          "name": "ProTrix: Building Models for Planning and Reasoning over Tables with Sentence Context",
+          "link": "https://arxiv.org/abs/2403.02177"
+        },
+        "c": "https://github.com/WilliamZR/ProTrix",
+        "n": "GPT-3.5-turbo",
+        "d": "2024-03-04",
+        "m1": "61.0"
+      },
+      {
+        "p": {
+          "name": "Team Papelo at FEVEROUS: Multi-hop Evidence Pursuit",
+          "link": "https://aclanthology.org/2021.fever-1.5/"
+        },
+        "c": "",
+        "n": "Papelo",
+        "d": "2021-11-10",
+        "m1": "57.6"
+      },
+      {
+        "p": {
+          "name": "FaBULOUS: Fact-checking Based on Understanding of Language Over Unstructured and Structured information",
+          "link": "https://aclanthology.org/2021.fever-1.4/"
+        },
+        "c": "",
+        "n": "FaBULOUS",
+        "d": "2021-11-10",
+        "m1": "56.07"
+      },
+      {
+        "p": {
+          "name": "Graph Reasoning with Context-Aware Linearization for Interpretable Fact Extraction and Verification",
+          "link": "https://arxiv.org/abs/2109.12349"
+        },
+        "c": "",
+        "n": "Context-Aware Linearization Graph Model",
+        "d": "2021-09-25",
+        "m1": "53.0"
+      },
+      {
+        "p": {
+          "name": "ProTrix: Building Models for Planning and Reasoning over Tables with Sentence Context",
+          "link": "https://arxiv.org/abs/2403.02177"
+        },
+        "c": "https://github.com/WilliamZR/ProTrix",
+        "n": "Llama-2-7B",
+        "d": "2024-03-04",
+        "m1": "47.1"
+      },
+      {
+        "p": {
+          "name": "ProTrix: Building Models for Planning and Reasoning over Tables with Sentence Context",
+          "link": "https://arxiv.org/abs/2403.02177"
+        },
+        "c": "https://github.com/WilliamZR/ProTrix",
+        "n": "CodeLlama-7B",
+        "d": "2024-03-04",
+        "m1": "43.0"
+      }
+    ]
+  }
+}
