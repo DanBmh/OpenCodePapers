@@ -24,7 +24,7 @@ def should_delete_file(filepath):
 
         # rule: drop if newest entry is older than the number of items
         # (-> drop outdated benchmarks, but keep those which were often used for longer time)
-        threshold = max(5, len(set((it["p"] for it in items if it["p"]))))
+        threshold = max(5, len(set((str(it["p"]) for it in items if it["p"]))))
         all_old = True
         for it in items:
             d = it.get("d")
