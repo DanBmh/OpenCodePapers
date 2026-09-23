@@ -1,0 +1,141 @@
+<style>
+  .paper-modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+  }
+  .paper-modal.open {
+    display: block;
+  }
+  .paper-modal-backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(17, 24, 39, 0.45);
+  }
+  .paper-modal-card {
+    position: relative;
+    background: white;
+    max-width: 760px;
+    width: calc(100% - 32px);
+    height: 80vh;
+    max-height: 80vh;
+    margin: 8vh auto 0;
+    border-radius: 14px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 12px 40px rgba(17, 24, 39, 0.25);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .paper-modal-head {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 5px 8px;
+    border-bottom: 1px solid #e5e7eb;
+    background: #f9fafb;
+  }
+  .paper-modal-close {
+    border: 1px solid #e5e7eb;
+    background: white;
+    color: #111827;
+    width: 26px;
+    height: 26px;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 1;
+    cursor: pointer;
+  }
+  .paper-modal-close:hover {
+    background: #f3f4f6;
+  }
+  .paper-modal-frame {
+    border: 0;
+    width: 100%;
+    flex: 1;
+  }
+</style>
+
+<div class="paper-modal" id="paperModal">
+  <div class="paper-modal-backdrop" data-close="1"></div>
+  <div
+    class="paper-modal-card"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Paper details"
+  >
+    <div class="paper-modal-head">
+      <button class="paper-modal-close" data-close="1" aria-label="Close">
+        &times;
+      </button>
+    </div>
+    <iframe
+      class="paper-modal-frame"
+      id="paperModalFrame"
+      title="Paper details"
+      src="about:blank"
+    ></iframe>
+  </div>
+</div>
+
+<script>
+  (function () {
+    const modal = document.getElementById("paperModal");
+    const card = modal.querySelector(".paper-modal-card");
+    const head = modal.querySelector(".paper-modal-head");
+    const frame = document.getElementById("paperModalFrame");
+    const base = document.body.getAttribute("data-papers-base") || "";
+
+    function pageUrl(slug) {
+      return base + encodeURIComponent(slug) + ".html";
+    }
+
+    function setHeight(height) {
+      // The head bar sits above the frame, so it adds to the card height
+      card.style.height = "min(" + (height + head.offsetHeight + 2) + "px, 80vh)";
+    }
+
+    // The page inside the frame reports its height. Measuring it here would not
+    // work for pages opened from disk, they count as a different origin then.
+    window.addEventListener("message", (e) => {
+      if (e.source !== frame.contentWindow) return;
+      if (!e.data || e.data.type !== "paper-height") return;
+      const height = Number(e.data.height);
+      if (height > 0) setHeight(height);
+    });
+
+    function openModal(slug) {
+      card.style.height = "80vh";
+      frame.src = pageUrl(slug);
+      modal.classList.add("open");
+      document.documentElement.style.overflow = "hidden";
+    }
+
+    function closeModal() {
+      modal.classList.remove("open");
+      frame.src = "about:blank";
+      document.documentElement.style.overflow = "";
+    }
+
+    modal.addEventListener("click", (e) => {
+      if (e.target.dataset && e.target.dataset.close) closeModal();
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && modal.classList.contains("open")) closeModal();
+    });
+
+    // Links to a paper page open the modal, but keep working without JS and on
+    // middle- or modifier-click (new tab)
+    document.addEventListener("click", (e) => {
+      const link = e.target.closest("a[data-paper]");
+      if (!link) return;
+      if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) {
+        return;
+      }
+      e.preventDefault();
+      openModal(link.getAttribute("data-paper"));
+    });
+  })();
+</script>

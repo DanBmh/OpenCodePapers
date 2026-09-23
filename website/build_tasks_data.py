@@ -61,13 +61,6 @@ def scan_json_files(input_dir: str) -> List[tuple]:
 # ==================================================================================================
 
 
-def ensure_child(node: Node, label: str) -> Node:
-    return node.children.setdefault(label, Node())
-
-
-# ==================================================================================================
-
-
 def process_small_leaves(node: Node, parent: Node = None):
     """
     Bottom-up normalization:
@@ -87,7 +80,7 @@ def process_small_leaves(node: Node, parent: Node = None):
     for label, child in list(node.children.items()):
         if child.benchmarks and not child.children:
             if 0 < len(child.benchmarks) < 3:
-                others = ensure_child(node, "others")
+                others = node.children.setdefault("others", Node())
                 others.benchmarks.extend(child.benchmarks)
                 to_delete.append(label)
     for label in to_delete:
@@ -116,7 +109,7 @@ def process_small_leaves(node: Node, parent: Node = None):
     # Bubble 'others' upward if still present and <3 (and not root)
     others = node.children.get("others")
     if others and len(others.benchmarks) < 3 and parent is not None:
-        p_others = ensure_child(parent, "others")
+        p_others = parent.children.setdefault("others", Node())
         p_others.benchmarks.extend(others.benchmarks)
         del node.children["others"]
 
@@ -150,13 +143,9 @@ def node_to_dict(node: Node) -> List:
 
     result = []
 
-    # Add subcategories as dicts
+    # Add subcategories as dicts, alphabetically but with 'others' last
     if node.children:
-
-        def sort_key(lbl: str):
-            return (lbl == "others", lbl.lower())
-
-        for label in sorted(node.children.keys(), key=sort_key):
+        for label in sorted(node.children, key=lambda x: (x == "others", x.lower())):
             child = node.children[label]
             if child.benchmarks or child.children:  # Skip empty (safety)
                 result.append({label: node_to_dict(child)})
@@ -186,18 +175,14 @@ def build_tasks_json(input_dir: str, output_path: str):
             add_path(root, hierarchy, title)
         else:
             # No/empty hierarchy -> top-level 'others'
-            ensure_child(root, "others").benchmarks.append(title)
+            root.children.setdefault("others", Node()).benchmarks.append(title)
 
     process_small_leaves(root, None)
     prune_empty(root)
 
-    # Convert tree to dictionary
+    # Convert tree to dictionary, alphabetically but with 'others' last
     output_data = {}
-
-    def sort_key(lbl: str):
-        return (lbl == "others", lbl.lower())
-
-    for label in sorted(root.children.keys(), key=sort_key):
+    for label in sorted(root.children, key=lambda x: (x == "others", x.lower())):
         child = root.children[label]
         if child.benchmarks or child.children:
             output_data[label] = node_to_dict(child)

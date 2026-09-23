@@ -4,6 +4,8 @@ import json
 import os
 import shutil
 
+from utils import load_template
+
 # ==================================================================================================
 
 
@@ -78,17 +80,25 @@ def main():
     html_tree = json_to_html(tasks_data)
 
     # Load template
-    template_path = os.path.join(os.path.dirname(__file__), "tasks.html")
-    with open(template_path, "r", encoding="utf-8") as f:
-        html_scaffold = f.read()
+    html_scaffold = load_template("tasks.html")
 
     html_full = html_scaffold.replace("<!--TREE-->", html_tree)
+    html_full = html_full.replace(
+        "<!--[basestyle]-->", load_template("base_style.html")
+    )
+    html_full = html_full.replace(
+        "<!--[herostyle]-->", load_template("hero_style.html")
+    )
+    html_full = html_full.replace(
+        "<!--[search]-->", load_template("search_filter.html")
+    )
     with open(args.output, "w", encoding="utf-8") as f:
         f.write(html_full)
 
-    # Copy favicon to public/
-    src_fav = os.path.join(os.path.abspath(os.path.dirname(__file__)), "favicon.svg")
-    shutil.copy2(src_fav, os.path.join(out_dir, "favicon.svg"))
+    # Copy the icons to public/
+    icon_dir = os.path.abspath(os.path.dirname(__file__))
+    for icon in ("favicon.svg", "favicon.png"):
+        shutil.copy2(os.path.join(icon_dir, icon), os.path.join(out_dir, icon))
 
     print(f"[info] Generated {args.output}")
 

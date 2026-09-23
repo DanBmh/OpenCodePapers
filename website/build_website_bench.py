@@ -5,6 +5,8 @@ import os
 import re
 from datetime import datetime
 
+from utils import load_template, paper_slug
+
 # ==================================================================================================
 
 
@@ -132,10 +134,18 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
                 if key == "p" and "name" in raw and "link" in raw:
                     name = html.escape(raw["name"])
                     link = html.escape(raw["link"], quote=True)
-                    cell_html = (
-                        f'<a href="{link}" target="_blank"'
-                        + f' rel="noopener noreferrer">{name}</a>'
-                    )
+                    slug = paper_slug(raw["name"], raw["link"])
+                    if slug:
+                        # Opens the paper page in a modal
+                        cell_html = (
+                            f'<a href="../papers/{slug}.html"'
+                            + f' data-paper="{slug}">{name}</a>'
+                        )
+                    else:
+                        cell_html = (
+                            f'<a href="{link}" target="_blank"'
+                            + f' rel="noopener noreferrer">{name}</a>'
+                        )
                 else:
                     cell_html = html.escape(str(raw))
             elif raw is None:
@@ -160,7 +170,8 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
                     data_value = ""
 
             attr = f' data-value="{data_value}"' if data_value else ""
-            tds.append(f"<td{attr}>{cell_html}</td>")
+            cls = ' class="code"' if key == "c" else ""
+            tds.append(f"<td{cls}{attr}>{cell_html}</td>")
 
         raw_code = row.get("c", "")
         has_code = bool(isinstance(raw_code, str) and raw_code.strip())
@@ -177,11 +188,7 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
                             series_code[mk].append(pt)
 
         row_cls = "" if has_code else ' class="nocode"'
-        tbody_cells.append(
-            f"<tr data-hascode={'1' if has_code else '0'}{row_cls}>"
-            + "".join(tds)
-            + "</tr>"
-        )
+        tbody_cells.append(f"<tr{row_cls}>" + "".join(tds) + "</tr>")
 
     # Sort each series by date
     for mk in metric_keys:
@@ -290,10 +297,10 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
                 f"</th>"
             )
 
-    hpath = os.path.join(os.path.dirname(__file__), "benchmark.html")
-    with open(hpath, "r", encoding="utf-8") as f:
-        html_doc = f.read()
+    html_doc = load_template("benchmark.html")
 
+    html_doc = html_doc.replace("<!--[basestyle]-->", load_template("base_style.html"))
+    html_doc = html_doc.replace("<!--[herostyle]-->", load_template("hero_style.html"))
     html_doc = html_doc.replace("<!--[title]-->", title)
     html_doc = html_doc.replace("<!--[subtitle]-->", subtitle_html)
     html_doc = html_doc.replace("<!--[datasetlink]-->", dataset_link_html)
@@ -301,6 +308,7 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
     html_doc = html_doc.replace("<!--[theadcells]-->", "".join(thead_cells))
     html_doc = html_doc.replace("<!--[tbodycells]-->", "".join(tbody_cells))
     html_doc = html_doc.replace("<!--[caption]-->", caption_html)
+    html_doc = html_doc.replace("<!--[modal]-->", load_template("paper_modal.html"))
 
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(html_doc)

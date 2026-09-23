@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>OpenCodePapers</title>
+    <link rel="icon" href="../favicon.png" type="image/png" sizes="192x192" />
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script>
+      // Inside the paper modal the result list scrolls, as a standalone page it
+      // is shown as a whole. Set before the styles, so nothing flickers.
+      if (window.parent !== window) {
+        document.documentElement.className = "embedded";
+      }
+    </script>
+    <!--[basestyle]-->
+    <style>
+      .wrap {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 18px 16px 14px;
+      }
+      /* Title on the left, paper buttons on the right, of equal height */
+      .head {
+        display: flex;
+        align-items: stretch;
+        justify-content: space-between;
+        gap: 16px;
+        margin-bottom: 16px;
+      }
+      h1 {
+        font-size: 20px;
+        margin: 0;
+        line-height: 1.35;
+        align-self: center;
+      }
+      .actions {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        flex: none;
+      }
+      .btn {
+        flex: 1;
+        min-width: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 6px 10px;
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        background: var(--hover);
+        color: var(--text);
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 1.4;
+        text-align: center;
+        text-decoration: none;
+      }
+      .btn:hover {
+        background: #f3f4f6;
+        border-color: #d1d5db;
+      }
+      /* In the modal, show about seven results and scroll through the rest */
+      .embedded .table-wrap {
+        overflow: auto;
+        max-height: 330px;
+        border-bottom: 1px solid var(--border);
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 14px;
+        /* Fixed layout, else many metrics squeeze the other columns out */
+        table-layout: fixed;
+      }
+      th:nth-child(1) {
+        width: 32%;
+      }
+      th:nth-child(2) {
+        width: 19%;
+      }
+      th:nth-child(3) {
+        width: 8%;
+      }
+      th:nth-child(4) {
+        width: 41%;
+      }
+      thead th {
+        position: sticky;
+        top: 0;
+        background: #f9fafb;
+        text-align: left;
+        font-weight: 600;
+        padding: 8px 10px;
+        border-bottom: 1px solid var(--border);
+        white-space: nowrap;
+      }
+      tbody td {
+        padding: 8px 10px;
+        border-bottom: 1px solid var(--border);
+        vertical-align: top;
+        overflow-wrap: anywhere;
+      }
+      tbody tr:hover {
+        background: #fbfdff;
+      }
+      td.rank {
+        white-space: nowrap;
+        color: var(--muted);
+      }
+      td.metrics {
+        color: var(--muted);
+      }
+      .metric + .metric::before {
+        content: " · ";
+      }
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      .footer-note {
+        color: var(--muted);
+        margin: 10px 0 0;
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="head">
+        <h1><!--[title]--></h1>
+        <div class="actions">
+          <!--[actions]-->
+        </div>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Benchmark</th>
+              <th>Model</th>
+              <th>Rank</th>
+              <th>Results</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!--[rows]-->
+          </tbody>
+        </table>
+      </div>
+
+      <p class="footer-note">Rank counts only results with a code link.</p>
+    </div>
+
+    <script>
+      // Report the page height to the paper modal, which sizes itself to it.
+      // The modal cannot measure the height itself, because the page counts as
+      // a different origin as soon as the files are opened from disk.
+      (function () {
+        if (window.parent === window) return;
+
+        function report() {
+          window.parent.postMessage(
+            {
+              type: "paper-height",
+              height: Math.ceil(document.body.getBoundingClientRect().height),
+            },
+            "*",
+          );
+        }
+
+        window.addEventListener("load", report);
+        if (window.ResizeObserver) {
+          new ResizeObserver(report).observe(document.body);
+        } else {
+          window.addEventListener("resize", report);
+        }
+      })();
+    </script>
+  </body>
+</html>

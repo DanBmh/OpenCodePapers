@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OpenCodePapers | Papers</title>
+    <link rel="icon" href="../favicon.png" type="image/png" sizes="192x192" />
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+    <!--[basestyle]-->
+    <!--[herostyle]-->
+    <style>
+      .hero {
+        padding: 20px 16px;
+      }
+      .hero-title {
+        font-size: 28px;
+        margin: 0;
+      }
+      header.sticky {
+        position: sticky;
+        top: 0;
+        z-index: 50;
+        background: rgba(255, 255, 255, 0.92);
+        backdrop-filter: saturate(1.1) blur(6px);
+        border-bottom: 1px solid var(--border);
+      }
+      header .inner {
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 10px 16px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
+        justify-content: space-between;
+      }
+      h1 {
+        font-size: 22px;
+        margin: 0;
+      }
+      .search {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        flex: 1;
+        min-width: 240px;
+      }
+      .search input[type="search"] {
+        flex: 1;
+        min-width: 0;
+        font-size: 14px;
+        padding: 9px 12px;
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        outline: none;
+      }
+      .search input[type="search"]:focus {
+        border-color: var(--accent);
+        box-shadow: 0 0 0 3px var(--accent-weak);
+      }
+      .stats {
+        color: var(--muted);
+        font-size: 12px;
+        white-space: nowrap;
+      }
+      .wrap {
+        max-width: 980px;
+        margin: 20px auto;
+        padding: 0 16px 48px;
+      }
+      ul.papers {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      ul.papers li {
+        padding: 7px 4px;
+        border-bottom: 1px solid var(--border);
+        display: flex;
+        gap: 10px;
+        align-items: baseline;
+        justify-content: space-between;
+      }
+      .badge {
+        background: var(--chip);
+        border: 1px solid var(--border);
+        color: var(--muted);
+        font-size: 12px;
+        padding: 1px 7px;
+        border-radius: 999px;
+        white-space: nowrap;
+      }
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      .muted {
+        color: var(--muted);
+        font-size: 13px;
+      }
+    </style>
+  </head>
+  <body data-papers-base="">
+    <section class="hero">
+      <h1 class="hero-title"><a href="../index.html">OpenCodePapers</a></h1>
+    </section>
+    <header class="sticky">
+      <div class="inner">
+        <h1>Papers</h1>
+        <div class="search">
+          <input
+            id="q"
+            type="search"
+            placeholder="Type to search papers… (e.g. 'human pose')"
+          />
+          <span class="stats" id="stats"></span>
+        </div>
+      </div>
+    </header>
+
+    <div class="wrap">
+      <p class="muted" id="hint"></p>
+      <noscript>
+        <p class="muted">
+          The paper search needs JavaScript. Every paper is also linked from the
+          leaderboards of its benchmarks.
+        </p>
+      </noscript>
+      <ul class="papers" id="list"></ul>
+    </div>
+
+    <script id="papers-data" type="application/json">
+      <!--[content]-->
+    </script>
+
+    <!--[modal]-->
+
+    <!--[search]-->
+
+    <script>
+      (function () {
+        const list = document.getElementById("list");
+        const stats = document.getElementById("stats");
+        const hint = document.getElementById("hint");
+        const inp = document.getElementById("q");
+
+        // Rendering all papers would mean thousands of nodes for a list nobody
+        // scrolls through, so only the matches of a query are built
+        const MAX_RESULTS = 200;
+        // Papers shown as a starting point, before anything was searched
+        const SAMPLE_SIZE = MAX_RESULTS;
+
+        // [title, slug, benchmark count] per paper
+        const papers = JSON.parse(
+          document.getElementById("papers-data").textContent,
+        );
+        let titles = null; // normalized titles, built on the first search
+        const start = sample();
+
+        function count(n) {
+          return n.toLocaleString("en-US");
+        }
+
+        // Random papers as a starting point, other ones on every page load
+        function sample() {
+          const picked = new Set();
+          const size = Math.min(SAMPLE_SIZE, papers.length);
+          while (picked.size < size) {
+            picked.add(Math.floor(Math.random() * papers.length));
+          }
+          return [...picked].sort((a, b) => a - b);
+        }
+
+        function showStart() {
+          hint.textContent = "";
+          render(start, null);
+          stats.textContent = count(papers.length) + " papers";
+        }
+
+        function render(matches, re) {
+          const frag = document.createDocumentFragment();
+          matches.slice(0, MAX_RESULTS).forEach((index) => {
+            const paper = papers[index];
+            const item = document.createElement("li");
+            const link = document.createElement("a");
+            link.href = paper[1] + ".html";
+            link.setAttribute("data-paper", paper[1]);
+            link.textContent = paper[0];
+            highlight(link, re);
+
+            const badge = document.createElement("span");
+            badge.className = "badge";
+            badge.textContent = paper[2];
+
+            item.appendChild(link);
+            item.appendChild(badge);
+            frag.appendChild(item);
+          });
+          list.replaceChildren(frag);
+        }
+
+        function applyFilter(query) {
+          const parts = queryParts(query);
+          if (!parts.length) {
+            showStart();
+            return;
+          }
+
+          if (!titles) titles = papers.map((paper) => normalize(paper[0]));
+
+          const matches = [];
+          for (let i = 0; i < titles.length; i++) {
+            if (parts.every((part) => titles[i].includes(part))) {
+              matches.push(i);
+            }
+          }
+
+          hint.textContent = matches.length ? "" : "No paper matches.";
+          render(matches, partsRegex(parts));
+          stats.textContent =
+            matches.length > MAX_RESULTS
+              ? "first " + MAX_RESULTS + " of " + count(matches.length)
+              : count(matches.length) + " of " + count(papers.length);
+        }
+
+        let t = 0;
+        inp.addEventListener("input", () => {
+          clearTimeout(t);
+          t = setTimeout(() => applyFilter(inp.value.trim()), 150);
+        });
+
+        showStart();
+        inp.focus();
+      })();
+    </script>
+  </body>
+</html>
