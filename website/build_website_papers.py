@@ -205,6 +205,8 @@ def render_rows(entries: List[dict]) -> str:
 def write_paper_pages(papers: Dict[str, dict], out_dir: str, template: str) -> None:
     """Write one page per paper."""
 
+    template = template.replace("<!--[basestyle]-->", load_template("base_style.html"))
+
     for slug, record in papers.items():
         page = template.replace("<!--[title]-->", html.escape(display_title(record)))
         page = page.replace("<!--[actions]-->", render_actions(record))
@@ -236,6 +238,8 @@ def write_index(papers: Dict[str, dict], out_dir: str, template: str) -> None:
     content = content.replace("<", "\\u003c")
 
     page = template.replace("<!--[content]-->", content)
+    page = page.replace("<!--[basestyle]-->", load_template("base_style.html"))
+    page = page.replace("<!--[herostyle]-->", load_template("hero_style.html"))
     page = page.replace("<!--[modal]-->", load_template("paper_modal.html"))
     page = page.replace("<!--[search]-->", load_template("search_filter.html"))
 

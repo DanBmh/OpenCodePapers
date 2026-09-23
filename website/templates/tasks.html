@@ -4,47 +4,22 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>OpenCodePapers</title>
+    <link rel="icon" href="favicon.png" type="image/png" sizes="192x192" />
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <!--[basestyle]-->
+    <!--[herostyle]-->
     <style>
-      :root {
-        --bg: #ffffff;
-        --text: #111827;
-        --muted: #4b5563;
-        --border: #e5e7eb;
-        --accent: #1017c6;
-        --accent-weak: #dbeafe;
-        --chip: #f3f4f6;
-        --hover: #f9fafb;
-      }
-      html,
-      body {
-        background: var(--bg);
-        color: var(--text);
-        margin: 0;
-        font-family: Inter, ui-sans-serif, system-ui;
-      }
       .wrap {
         max-width: 1100px;
         margin: 28px auto;
         padding: 0 16px 48px;
       }
       .hero {
-        background: linear-gradient(135deg, #1017c6, #2ab912);
-        color: white;
         padding: 60px 20px;
-        text-align: center;
-        text-shadow:
-          0 1px 1px rgba(0, 0, 0, 0.45),
-          0 0 6px rgba(0, 0, 0, 0.35);
-      }
-      .hero-inner {
-        max-width: 800px;
-        margin: 0 auto;
       }
       .hero-title {
         font-size: 40px;
         margin: 0 0 12px;
-        font-weight: 700;
       }
       .hero-sub {
         font-size: 18px;
@@ -100,11 +75,6 @@
       }
       .btn:hover {
         background: var(--hover);
-      }
-      .btn.primary {
-        border-color: var(--accent);
-        background: var(--accent);
-        color: white;
       }
       .search {
         grid-area: search;
@@ -336,25 +306,20 @@
           updateStats();
         }
 
-        function updateStats(visibleOnly = true) {
-          const allLinks = tree.querySelectorAll("a");
+        function updateStats() {
           let visible = 0;
-          allLinks.forEach((a) => {
-            if (visibleOnly) {
-              // visible if itself and all ancestors are not hidden
-              let el = a;
-              let ok = true;
-              while (el && el !== tree) {
-                if (el.classList && el.classList.contains("hidden")) {
-                  ok = false;
-                  break;
-                }
-                el = el.parentElement;
+          tree.querySelectorAll("a").forEach((a) => {
+            // visible if itself and all ancestors are not hidden
+            let el = a;
+            let ok = true;
+            while (el && el !== tree) {
+              if (el.classList && el.classList.contains("hidden")) {
+                ok = false;
+                break;
               }
-              if (ok) visible++;
-            } else {
-              visible++;
+              el = el.parentElement;
             }
+            if (ok) visible++;
           });
           stats.innerHTML = visible + "<br>items";
         }

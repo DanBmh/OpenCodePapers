@@ -170,7 +170,8 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
                     data_value = ""
 
             attr = f' data-value="{data_value}"' if data_value else ""
-            tds.append(f"<td{attr}>{cell_html}</td>")
+            cls = ' class="code"' if key == "c" else ""
+            tds.append(f"<td{cls}{attr}>{cell_html}</td>")
 
         raw_code = row.get("c", "")
         has_code = bool(isinstance(raw_code, str) and raw_code.strip())
@@ -187,11 +188,7 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
                             series_code[mk].append(pt)
 
         row_cls = "" if has_code else ' class="nocode"'
-        tbody_cells.append(
-            f"<tr data-hascode={'1' if has_code else '0'}{row_cls}>"
-            + "".join(tds)
-            + "</tr>"
-        )
+        tbody_cells.append(f"<tr{row_cls}>" + "".join(tds) + "</tr>")
 
     # Sort each series by date
     for mk in metric_keys:
@@ -302,6 +299,8 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
 
     html_doc = load_template("benchmark.html")
 
+    html_doc = html_doc.replace("<!--[basestyle]-->", load_template("base_style.html"))
+    html_doc = html_doc.replace("<!--[herostyle]-->", load_template("hero_style.html"))
     html_doc = html_doc.replace("<!--[title]-->", title)
     html_doc = html_doc.replace("<!--[subtitle]-->", subtitle_html)
     html_doc = html_doc.replace("<!--[datasetlink]-->", dataset_link_html)
