@@ -1,0 +1,68 @@
+<!-- Shared helpers of the text filters, used by the task tree and the paper list. -->
+<style>
+  mark {
+    background: #fff3a3;
+    padding: 0 2px;
+  }
+</style>
+
+<script>
+  // Benchmark names are dash separated while paper names use spaces, so treat
+  // every non alphanumeric character as a word separator, in the names as well
+  // as in the query. That way the words of a query can be given in any order
+  // and with any separator.
+  function normalize(s) {
+    return s.toLowerCase().replace(/[^a-z0-9]+/g, " ");
+  }
+
+  function queryParts(q) {
+    return normalize(q).split(" ").filter(Boolean);
+  }
+
+  // Regex matching any of the query words. They are alphanumeric only, so they
+  // need no escaping and also match inside a dash separated name.
+  function partsRegex(parts) {
+    if (!parts.length) return null;
+    const pattern = parts
+      .slice()
+      .sort((a, b) => b.length - a.length) // longest match wins on overlaps
+      .join("|");
+    return new RegExp(pattern, "gi");
+  }
+
+  // Wrap every match inside the element in <mark>
+  function highlight(el, re) {
+    if (!re) return;
+    const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, null);
+    const texts = [];
+    while (walker.nextNode()) {
+      texts.push(walker.currentNode);
+    }
+
+    texts.forEach((node) => {
+      const value = node.nodeValue;
+      const frag = document.createDocumentFragment();
+      let match;
+      let last = 0;
+      re.lastIndex = 0;
+
+      while ((match = re.exec(value)) !== null) {
+        if (match.index > last) {
+          frag.appendChild(
+            document.createTextNode(value.slice(last, match.index)),
+          );
+        }
+        const mark = document.createElement("mark");
+        mark.textContent = match[0];
+        frag.appendChild(mark);
+        last = match.index + match[0].length;
+      }
+
+      if (!frag.childNodes.length) return;
+      if (last < value.length) {
+        frag.appendChild(document.createTextNode(value.slice(last)));
+      }
+      node.parentNode.replaceChild(frag, node);
+    });
+  }
+</script>

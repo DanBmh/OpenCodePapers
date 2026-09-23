@@ -4,6 +4,8 @@ import json
 import os
 import shutil
 
+from utils import load_template
+
 # ==================================================================================================
 
 
@@ -78,11 +80,12 @@ def main():
     html_tree = json_to_html(tasks_data)
 
     # Load template
-    template_path = os.path.join(os.path.dirname(__file__), "tasks.html")
-    with open(template_path, "r", encoding="utf-8") as f:
-        html_scaffold = f.read()
+    html_scaffold = load_template("tasks.html")
 
     html_full = html_scaffold.replace("<!--TREE-->", html_tree)
+    html_full = html_full.replace(
+        "<!--[search]-->", load_template("search_filter.html")
+    )
     with open(args.output, "w", encoding="utf-8") as f:
         f.write(html_full)
 

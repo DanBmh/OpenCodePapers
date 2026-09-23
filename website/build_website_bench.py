@@ -5,6 +5,8 @@ import os
 import re
 from datetime import datetime
 
+from utils import load_template, paper_slug
+
 # ==================================================================================================
 
 
@@ -132,10 +134,18 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
                 if key == "p" and "name" in raw and "link" in raw:
                     name = html.escape(raw["name"])
                     link = html.escape(raw["link"], quote=True)
-                    cell_html = (
-                        f'<a href="{link}" target="_blank"'
-                        + f' rel="noopener noreferrer">{name}</a>'
-                    )
+                    slug = paper_slug(raw["name"], raw["link"])
+                    if slug:
+                        # Opens the paper page in a modal
+                        cell_html = (
+                            f'<a href="../papers/{slug}.html"'
+                            + f' data-paper="{slug}">{name}</a>'
+                        )
+                    else:
+                        cell_html = (
+                            f'<a href="{link}" target="_blank"'
+                            + f' rel="noopener noreferrer">{name}</a>'
+                        )
                 else:
                     cell_html = html.escape(str(raw))
             elif raw is None:
@@ -290,9 +300,7 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
                 f"</th>"
             )
 
-    hpath = os.path.join(os.path.dirname(__file__), "benchmark.html")
-    with open(hpath, "r", encoding="utf-8") as f:
-        html_doc = f.read()
+    html_doc = load_template("benchmark.html")
 
     html_doc = html_doc.replace("<!--[title]-->", title)
     html_doc = html_doc.replace("<!--[subtitle]-->", subtitle_html)
@@ -301,6 +309,7 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
     html_doc = html_doc.replace("<!--[theadcells]-->", "".join(thead_cells))
     html_doc = html_doc.replace("<!--[tbodycells]-->", "".join(tbody_cells))
     html_doc = html_doc.replace("<!--[caption]-->", caption_html)
+    html_doc = html_doc.replace("<!--[modal]-->", load_template("paper_modal.html"))
 
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(html_doc)
