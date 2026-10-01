@@ -269,13 +269,23 @@ def render_html(title, dataset_link, task_hierarchy, table_spec, out_path):
     )
     caption_html += cont
 
-    # Add link to file source (JSON version)
-    note = (
-        " Then edit <a href="
-        + '"https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/dataset/benchmarks/{}"'
-        + ' target="_blank" rel="noopener noreferrer">this</a> file.'
+    # Add link to file source (JSON version) at all mirrors
+    json_filename = os.path.basename(out_path).replace("html", "json")
+    gitlab_url = (
+        "https://gitlab.com/OpenCodePapers/OpenCodePapers/-/blob/main/dataset/benchmarks/"
+        + json_filename
     )
-    note = note.format(os.path.basename(out_path).replace("html", "json"))
+    github_url = (
+        "https://github.com/OpenCodePapers/OpenCodePapers/blob/github/dataset/benchmarks/"
+        + json_filename
+    )
+    note = (
+        " Then edit this file on "
+        + f'<a href="{gitlab_url}" target="_blank" rel="noopener noreferrer">GitLab</a>'
+        + " or "
+        + f'<a href="{github_url}" target="_blank" rel="noopener noreferrer">GitHub</a>'
+        + "."
+    )
     caption_html += note
 
     # Build columns (headers)
