@@ -1,0 +1,21 @@
+# Fails any pull request that doesn't target the 'github' intake branch - the only entry point
+# for external contributions. See ci.yml and .github/bots/data_merge.py for why: GitHub's main
+# only ever moves via GitLab's push mirror, so anything merged elsewhere would get lost on the
+# next mirror push.
+
+name: enforce-base-branch
+
+on:
+  pull_request:
+    branches-ignore: [github]
+
+permissions:
+  contents: read
+
+jobs:
+  check-base-branch:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "::error::Pull requests are only accepted against the 'github' branch, not '${{ github.event.pull_request.base.ref }}'. Please retarget this PR."
+          exit 1

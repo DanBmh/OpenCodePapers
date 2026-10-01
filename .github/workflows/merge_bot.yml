@@ -1,0 +1,56 @@
+# Merges qualifying data-only merge requests on a schedule.
+# See .github/bots/data_merge.py for the rules.
+
+name: merge_bot
+
+on:
+  workflow_call:
+    inputs:
+      target_branch:
+        type: string
+        default: github
+      target_folder:
+        type: string
+        default: dataset/benchmarks/
+      required_check:
+        type: string
+        default: "validate_data / validate"
+      merge_method:
+        type: string
+        default: merge
+      min_thumbs_up:
+        type: string
+        default: "2"
+      max_changed_files:
+        type: string
+        default: "20"
+      min_voter_account_age_days:
+        type: string
+        default: "365"
+    secrets:
+      BOT_TOKEN:
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  merge_bot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    container: registry.gitlab.com/opencodepapers/opencodepapers/main/testing_ocp
+    concurrency:
+      group: merge-bot
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 .github/bots/data_merge.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
+          TARGET_BRANCH: ${{ inputs.target_branch }}
+          TARGET_FOLDER: ${{ inputs.target_folder }}
+          REQUIRED_CHECK: ${{ inputs.required_check }}
+          MERGE_METHOD: ${{ inputs.merge_method }}
+          MIN_THUMBS_UP: ${{ inputs.min_thumbs_up }}
+          MAX_CHANGED_FILES: ${{ inputs.max_changed_files }}
+          MIN_VOTER_ACCOUNT_AGE_DAYS: ${{ inputs.min_voter_account_age_days }}

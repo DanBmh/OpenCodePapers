@@ -1,0 +1,24 @@
+# Lints Python, Markdown and YAML files.
+
+name: linting
+
+on:
+  workflow_call:
+
+permissions:
+  contents: read
+
+jobs:
+  linting:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    container: registry.gitlab.com/opencodepapers/opencodepapers/main/testing_ocp
+    steps:
+      - uses: actions/checkout@v4
+      - run: isort --check-only --diff .
+      - run: black --check --diff .
+      - run: |
+          npx /usr/app/node_modules/prettylint/bin/cli.js \
+            $(find . -type f \( -name '*.md' -o -name '*.yml' -o -name '*.yaml' \) ! -path './.*/*')
+      - run: pylint --disable=import-error --disable=parse-error $(find . -type f -name "*.py")
+      - run: flake8 .

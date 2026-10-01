@@ -9,12 +9,15 @@ To keep the results up to date, help from the community is required.
 1. Edit the corresponding file at `dataset/benchmarks/`, and insert the new results. \
    (Please insert them matching to the initial default order)
 
-2. Commit the changes and create a merge request into the main repository.
+2. Commit the changes, make sure the automatic tests succeed, and open a merge/pull request:
+   on **GitLab** into the `main` branch, or on **GitHub** into the `github` branch.
 
 3. Check that everything matches your expectations.
 
-4. The merge request will be automatically merged if it received at least two 👍 reactions. \
+4. The merge/pull request will be automatically merged if it received at least two 👍 reactions. \
    (Everybody can give them, so please also check any open update requests, and give them an approval if they look ready)
+5. After the merge, both repository mirrors on _GitLab_ and _GitHub_ will be updated automatically, and _GitLab_ will build and deploy the new version of the website.
+   So after a few minutes your changes should be visible there.
 
 <br>
 
@@ -22,7 +25,7 @@ To keep the results up to date, help from the community is required.
 
 1. Check that the benchmark is not already existing under a slightly different name.
 
-2. To avoid file number explosion, please add only benchmarks that are used by at least _3_ different papers.
+2. To avoid file number explosion, please only add benchmarks that are used by at least _3_ different papers.
 
 3. Use one of the other benchmarks as initial file template.
 
@@ -32,4 +35,5 @@ To keep the results up to date, help from the community is required.
 
 ## Update code
 
-Create a merge request and then wait for a review.
+- On **GitLab**: create a merge request into `main` and wait for a review.
+- On **GitHub**: open a pull request into `github` and wait for a review.

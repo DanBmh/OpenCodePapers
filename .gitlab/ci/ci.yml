@@ -1,0 +1,18 @@
+# Main pipeline configuration file.
+# Includes the other files in this folder, which define the individual jobs.
+
+stages:
+  - container_testing
+  - test
+  - deploy
+  - bots
+
+include:
+  - local: ".gitlab/ci/templates.yml"
+  - local: ".gitlab/ci/testing_image.yml"
+  - local: ".gitlab/ci/linting.yml"
+  - local: ".gitlab/ci/validate_data.yml"
+  - local: ".gitlab/ci/analysis.yml"
+  - local: ".gitlab/ci/pages.yml"
+  - local: ".gitlab/ci/merge_bot.yml"
+  - local: ".gitlab/ci/github_sync_bot.yml"

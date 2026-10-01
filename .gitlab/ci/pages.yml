@@ -1,0 +1,20 @@
+# Builds the website and deploys it via GitLab Pages.
+
+pages:
+  extends: .stage_test_template
+  stage: deploy
+  script:
+    - python3 website/build_tasks_data.py
+    - python3 website/build_website_bench.py
+    - python3 website/build_website_tasks.py
+    - python3 website/build_website_papers.py
+    - python3 extras/badges/generate_badges.py
+    - python3 extras/badges/make_file_overview.py
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule"'
+      when: never
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      when: always

@@ -1,0 +1,12 @@
+# Lints Python, Markdown and YAML files.
+
+linting:
+  extends: .stage_test_template
+  stage: test
+  script:
+    - isort --check-only --diff .
+    - black --check --diff .
+    - npx /usr/app/node_modules/prettylint/bin/cli.js \
+      $(find . -type f \( -name '*.md' -o -name '*.yml' -o -name '*.yaml' \) ! -path './.*/*' ! -path './dataset/*')
+    - pylint --disable=import-error --disable=parse-error $(find . -type f -name "*.py")
+    - flake8 .

@@ -1,0 +1,9 @@
+# Merges qualifying data-only merge requests on a schedule. See .gitlab/bots/data_merge.py.
+
+merge_bot:
+  extends: .stage_bots_template
+  variables:
+    SQUASH_COMMITS: "1"
+    MIN_THUMBS_UP: "2"
+  script:
+    - python3 .gitlab/bots/data_merge.py

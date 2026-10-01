@@ -1,0 +1,44 @@
+# Merges main into the intake branch after every push to main (the GitLab push mirror). Without
+# this, pull requests based on the newer main would show main's changes as part of their diff.
+# Fails on a conflict. The intake branch must exist already (create it once from main).
+
+name: sync_intake
+
+on:
+  workflow_call:
+    inputs:
+      intake_branch:
+        type: string
+        default: github
+      source_branch:
+        type: string
+        default: main
+    secrets:
+      BOT_TOKEN:
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  sync_intake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    concurrency:
+      group: sync-intake
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.intake_branch }}
+          fetch-depth: 0
+          token: ${{ secrets.BOT_TOKEN }}
+      - run: |
+          git config user.name "ocp-bot"
+          git config user.email "ocp-bot@users.noreply.github.com"
+          git fetch origin "$SOURCE_BRANCH"
+          git merge --no-edit "origin/$SOURCE_BRANCH"
+          git push origin "$INTAKE_BRANCH"
+        env:
+          SOURCE_BRANCH: ${{ inputs.source_branch }}
+          INTAKE_BRANCH: ${{ inputs.intake_branch }}
