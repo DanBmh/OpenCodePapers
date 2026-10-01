@@ -10,4 +10,4 @@ docker run --network host --rm \
   -it testing_ocp
 ```
 
-For syntax tests, check out the steps in the [gitlab-ci](../.gitlab-ci.yml#L76) file.
+For syntax tests, check out the steps in the [gitlab-ci](../.gitlab/ci/linting.yml) file.
