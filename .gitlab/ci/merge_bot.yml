@@ -1,21 +1,9 @@
-# Merges qualifying data-only merge requests on a schedule.
-# See tests/bot_merge_automatic.py for the rules.
+# Merges qualifying data-only merge requests on a schedule. See .gitlab/bots/data_merge.py.
 
 merge_bot:
-  stage: bots
-  rules:
-    - if: '$CI_PIPELINE_SOURCE == "schedule"'
-      when: always
-    - when: never
+  extends: .stage_bots_template
   variables:
-    IMAGE_TAG: "testing_ocp"
-    FULL_IMAGE_NAME: "registry.gitlab.com/opencodepapers/opencodepapers/main/${IMAGE_TAG}"
-    GITLAB_TOKEN: "$BOT_TOKEN"
-    PROJECT_ID: "$CI_PROJECT_ID"
-    TARGET_FOLDER: "dataset/benchmarks/"
     SQUASH_COMMITS: "1"
-  image: ${FULL_IMAGE_NAME}
+    MIN_THUMBS_UP: "2"
   script:
-    - python3 tests/bot_merge_automatic.py
-  allow_failure: false
-  interruptible: true
+    - python3 .gitlab/bots/data_merge.py

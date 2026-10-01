@@ -1,0 +1,64 @@
+# Counterpart of .gitlab-ci.yml: triggers, and calls GitHub's reusable workflows below (no
+# 'include:', so they have to live flat in this folder).
+#
+#   linting.yml        - PRs into the intake branch, or pushes to develop: lint code changes
+#   validate_data.yml  - any push or PRs into the intake branch
+#   merge_bot.yml      - every 10 minutes: merge qualifying data-only pull requests
+#   sync_intake.yml    - push to main (mirrored from GitLab): bring the intake branch up to date
+#
+# Secret BOT_TOKEN: GitHub App token/PAT with Pull requests + Contents: read/write, Checks +
+# Metadata: read, allowed to push to the intake branch. GITHUB_TOKEN doesn't work here: its
+# pushes/merges don't trigger follow-up workflows.
+#
+# Scheduled/push runs always use these files from the default branch, so a PR can't change the
+# merge bot's or sync job's code.
+
+name: ci
+
+on:
+  pull_request:
+    branches: [github]
+  schedule:
+    - cron: "*/10 * * * *"
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  linting:
+    if: |
+      (github.event_name == 'pull_request' && github.event.pull_request.base.ref == 'github') ||
+      (github.event_name == 'push' && github.ref == 'refs/heads/develop')
+    uses: ./.github/workflows/linting.yml
+
+  # The name of the check that the pull request gets is '<this job> / <job in the called file>',
+  # here 'validate_data / validate'. The merge bot below has to ask for exactly this name.
+  validate_data:
+    if: |
+      (github.event_name == 'pull_request' && github.event.pull_request.base.ref == 'github') ||
+      github.event_name == 'push'
+    uses: ./.github/workflows/validate_data.yml
+
+  merge_bot:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    uses: ./.github/workflows/merge_bot.yml
+    secrets: inherit
+    with:
+      target_branch: github
+      target_folder: dataset/benchmarks/
+      required_check: "validate_data / validate"
+      merge_method: merge
+      min_thumbs_up: "2"
+      max_changed_files: "20"
+      min_voter_account_age_days: "365"
+
+  sync_intake:
+    # Only for the real push to main, not for a develop push used to try out CI changes
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    uses: ./.github/workflows/sync_intake.yml
+    secrets: inherit
+    with:
+      intake_branch: github
+      source_branch: main

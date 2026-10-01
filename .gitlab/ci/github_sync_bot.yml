@@ -1,0 +1,9 @@
+# Merges the GitHub-mirrored branch into the target branch on a schedule.
+# See .gitlab/bots/github_sync.py.
+
+github_sync_bot:
+  extends: .stage_bots_template
+  variables:
+    SYNC_BRANCH: "github"
+  script:
+    - python3 .gitlab/bots/github_sync.py
