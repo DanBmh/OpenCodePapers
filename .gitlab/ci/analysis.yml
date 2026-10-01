@@ -1,0 +1,16 @@
+# Computes complexity badges and a line-count summary.
+
+analysis:
+  extends: .stage_test_template
+  stage: test
+  # script: | (not a list) because the sed command's ':' would otherwise need extra escaping
+  script: |
+    mkdir ./badges/
+    radon cc -a . | tee ./badges/radon.log
+    RCC_SCORE=$(sed -n 's/^Average complexity: \([A-F]\) .*/\1/p' ./badges/radon.log)
+    anybadge --label=complexity --file=badges/rcc.svg --overwrite --value=$RCC_SCORE A=green B=yellow C=orange D=red E=red F=red
+    echo "Radon cyclomatic complexity score is: $RCC_SCORE"
+    pygount --format=summary ./
+  artifacts:
+    paths:
+      - ./badges/

@@ -1,0 +1,26 @@
+# Shared job templates, reused via `extends:`. YAML anchors don't work across included files in
+# GitLab CI, so these are hidden jobs instead.
+
+.stage_container_template:
+  image: "quay.io/buildah/stable"
+  variables:
+    # buildah can't stack overlayfs on top of overlayfs, so use vfs instead of Docker's default
+    STORAGE_DRIVER: "vfs"
+    BUILDAH_FORMAT: "oci"
+  before_script:
+    - buildah version
+    - buildah login --username "${CI_REGISTRY_USER}" --password "${CI_REGISTRY_PASSWORD}" "${CI_REGISTRY}"
+
+.stage_test_template:
+  variables:
+    IMAGE_TAG: "testing_ocp"
+    # Use the main repository's image by default, except for specific branch names
+    FULL_IMAGE_NAME: "registry.gitlab.com/opencodepapers/opencodepapers/main/${IMAGE_TAG}"
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule"'
+      when: never
+    - if: $CI_COMMIT_REF_SLUG == "develop"
+      variables:
+        FULL_IMAGE_NAME: "${CI_REGISTRY_IMAGE}/${CI_COMMIT_REF_SLUG}/${IMAGE_TAG}"
+    - when: always
+  image: ${FULL_IMAGE_NAME}

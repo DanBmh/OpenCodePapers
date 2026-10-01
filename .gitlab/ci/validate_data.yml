@@ -1,0 +1,7 @@
+# Runs the data tests.
+
+validate_data:
+  extends: .stage_test_template
+  stage: test
+  script:
+    - python3 tests/test_benchmark_files.py

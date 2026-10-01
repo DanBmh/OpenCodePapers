@@ -1,0 +1,30 @@
+# Builds and pushes the testing container image used by the other jobs.
+
+testing_image:
+  extends: .stage_container_template
+  stage: container_testing
+  variables:
+    IMAGE_TAG: "testing_ocp"
+    FULL_IMAGE_NAME: "${CI_REGISTRY_IMAGE}/${CI_COMMIT_REF_SLUG}/${IMAGE_TAG}"
+    IMAGE_FILE: "tests/dockerfile"
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule"'
+      when: never
+    - if: '$CI_COMMIT_REF_SLUG == "main" || $CI_COMMIT_REF_SLUG == "develop" || $CI_COMMIT_REF_NAME =~ /^containerbuild/'
+      # Else every new branch would start building this image
+      changes:
+        - tests/dockerfile
+        - .gitlab-ci.yml
+        - .gitlab/ci/*.yml
+        - pyproject.toml
+    - if: '$CI_PIPELINE_SOURCE != "schedule"'
+      when: manual
+      allow_failure: true
+    - when: never
+  script:
+    # layers=false squashes only new layers: less space while building, much faster
+    - echo "buildah bud --layers=false --squash -f ${IMAGE_FILE} -t ${IMAGE_TAG} ."
+    - buildah bud --layers=false --squash -f ${IMAGE_FILE} -t ${IMAGE_TAG} .
+    - buildah tag ${IMAGE_TAG} ${FULL_IMAGE_NAME}
+    - buildah images
+    - if [[ "${CI_COMMIT_REF_SLUG}" == "main" ]] || [[ "${CI_COMMIT_REF_SLUG}" == "develop" ]]; then buildah push ${FULL_IMAGE_NAME}; fi
