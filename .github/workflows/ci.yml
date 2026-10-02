@@ -3,25 +3,23 @@
 #
 #   linting.yml        - PRs into the intake branch, or pushes to develop: lint code changes
 #   validate_data.yml  - any push or PRs into the intake branch
-#   merge_bot.yml      - every 10 minutes: merge qualifying data-only pull requests
 #   sync_intake.yml    - push to main (mirrored from GitLab): bring the intake branch up to date
+#   merge_bot.yml      - every 10 minutes, only upstream repo: merge valid data-only pull requests
 #
 # Secret BOT_TOKEN: GitHub App token/PAT with Pull requests + Contents: read/write, Checks +
 # Metadata: read, allowed to push to the intake branch. GITHUB_TOKEN doesn't work here: its
 # pushes/merges don't trigger follow-up workflows.
 #
-# Scheduled/push runs always use these files from the default branch, so a PR can't change the
-# merge bot's or sync job's code.
+# Push runs use the workflow files of the pushed commit. The jobs that use BOT_TOKEN therefore
+# only run in the main repository, and only for main (moved only by the GitLab mirror) or on a
+# schedule (always from the default branch).
 
 name: ci
 
 on:
   pull_request:
     branches: [github]
-  schedule:
-    - cron: "*/10 * * * *"
   push:
-  workflow_dispatch:
 
 permissions:
   contents: read
@@ -34,29 +32,20 @@ jobs:
     uses: ./.github/workflows/linting.yml
 
   # The name of the check that the pull request gets is '<this job> / <job in the called file>',
-  # here 'validate_data / validate'. The merge bot below has to ask for exactly this name.
+  # here 'validate_data / validate'. The merge bot in scheduled.yml has to ask for exactly this
+  # name.
   validate_data:
     if: |
       (github.event_name == 'pull_request' && github.event.pull_request.base.ref == 'github') ||
       github.event_name == 'push'
     uses: ./.github/workflows/validate_data.yml
 
-  merge_bot:
-    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
-    uses: ./.github/workflows/merge_bot.yml
-    secrets: inherit
-    with:
-      target_branch: github
-      target_folder: dataset/benchmarks/
-      required_check: "validate_data / validate"
-      merge_method: merge
-      min_thumbs_up: "2"
-      max_changed_files: "20"
-      min_voter_account_age_days: "365"
-
   sync_intake:
-    # Only for the real push to main, not for a develop push used to try out CI changes
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    # Only for the real push to main, not for a develop push used to try out CI changes, and
+    # not in forks (no BOT_TOKEN there)
+    if: |
+      github.repository == 'OpenCodePapers/OpenCodePapers' &&
+      github.event_name == 'push' && github.ref == 'refs/heads/main'
     uses: ./.github/workflows/sync_intake.yml
     secrets: inherit
     with:

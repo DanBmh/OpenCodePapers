@@ -1,0 +1,36 @@
+# Scheduled part of ci.yml, in its own file because GitHub disables every workflow with a
+# 'schedule' trigger in forks - including its push/pull_request triggers. Kept separate, only
+# this file gets disabled there, and the checks in ci.yml still run on a fork's branches.
+#
+#   merge_bot.yml      - every 10 minutes: merge qualifying data-only pull requests
+#
+# Secret BOT_TOKEN: see ci.yml.
+#
+# Scheduled runs always use this file from the default branch, so a PR can't change the merge
+# bot's code.
+
+name: scheduled
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  merge_bot:
+    # Not in forks, even if their scheduled workflows got enabled: they have no BOT_TOKEN
+    if: github.repository == 'OpenCodePapers/OpenCodePapers'
+    uses: ./.github/workflows/merge_bot.yml
+    secrets: inherit
+    with:
+      target_branch: github
+      target_folder: dataset/benchmarks/
+      # Name of the check that ci.yml creates, see the comment there
+      required_check: "validate_data / validate"
+      merge_method: merge
+      min_thumbs_up: "2"
+      max_changed_files: "20"
+      min_voter_account_age_days: "365"
