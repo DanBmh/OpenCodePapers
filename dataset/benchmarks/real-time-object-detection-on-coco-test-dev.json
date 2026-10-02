@@ -1,0 +1,286 @@
+{
+  "title": "real-time-object-detection-on-coco-test-dev",
+  "task-hierarchy": [
+    "Object Detection",
+    "Real-Time Object Detection"
+  ],
+  "dataset-info": {
+    "link": "https://cocodataset.org/#detection-2017",
+    "paper": "Microsoft COCO: Common Objects in Context"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "box AP",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "FPS (batch 1, GPU in brackets)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Parallel Residual Bi-Fusion Feature Pyramid Network for Accurate Single-Shot Object Detection",
+          "link": "https://arxiv.org/abs/2012.01724v5"
+        },
+        "c": "https://github.com/pingyang1117/PRBNet_PyTorch",
+        "n": "PRB-FPN6-E-ELAN (1280)",
+        "d": "2020-12-03",
+        "m1": "56.9",
+        "m2": "31 (V100)"
+      },
+      {
+        "p": {
+          "name": "YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors",
+          "link": "https://arxiv.org/abs/2207.02696v1"
+        },
+        "c": "https://github.com/WongKinYiu/yolov7",
+        "n": "YOLOv7-E6E (1280)",
+        "d": "2022-07-06",
+        "m1": "56.8",
+        "m2": "36 (V100)"
+      },
+      {
+        "p": {
+          "name": "YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors",
+          "link": "https://arxiv.org/abs/2207.02696v1"
+        },
+        "c": "https://github.com/WongKinYiu/yolov7",
+        "n": "YOLOv7-D6 (1280)",
+        "d": "2022-07-06",
+        "m1": "56.6",
+        "m2": "44 (V100)"
+      },
+      {
+        "p": {
+          "name": "YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors",
+          "link": "https://arxiv.org/abs/2207.02696v1"
+        },
+        "c": "https://github.com/WongKinYiu/yolov7",
+        "n": "YOLOv7-E6 (1280)",
+        "d": "2022-07-06",
+        "m1": "56.0",
+        "m2": "56 (V100)"
+      },
+      {
+        "p": {
+          "name": "You Only Learn One Representation: Unified Network for Multiple Tasks",
+          "link": "https://arxiv.org/abs/2105.04206v1"
+        },
+        "c": "https://github.com/WongKinYiu/yolor",
+        "n": "YOLOR-D6 (1280)",
+        "d": "2021-05-10",
+        "m1": "55.4",
+        "m2": "30 (V100)"
+      },
+      {
+        "p": {
+          "name": "YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors",
+          "link": "https://arxiv.org/abs/2207.02696v1"
+        },
+        "c": "https://github.com/WongKinYiu/yolov7",
+        "n": "YOLOv7-W6 (1280)",
+        "d": "2022-07-06",
+        "m1": "54.9",
+        "m2": "84 (V100)"
+      },
+      {
+        "p": {
+          "name": "You Only Learn One Representation: Unified Network for Multiple Tasks",
+          "link": "https://arxiv.org/abs/2105.04206v1"
+        },
+        "c": "https://github.com/WongKinYiu/yolor",
+        "n": "YOLOR-E6 (1280)",
+        "d": "2021-05-10",
+        "m1": "54.8",
+        "m2": "37 (V100)"
+      },
+      {
+        "p": {
+          "name": "PP-YOLOE: An evolved version of YOLO",
+          "link": "https://arxiv.org/abs/2203.16250v3"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
+        "n": "PP-YOLOE+-X (Objects365 pre-training)",
+        "d": "2022-03-30",
+        "m1": "54.7",
+        "m2": "45 (V100)"
+      },
+      {
+        "p": {
+          "name": "You Only Learn One Representation: Unified Network for Multiple Tasks",
+          "link": "https://arxiv.org/abs/2105.04206v1"
+        },
+        "c": "https://github.com/WongKinYiu/yolor",
+        "n": "YOLOR-W6 (1280)",
+        "d": "2021-05-10",
+        "m1": "54.1",
+        "m2": "47 (V100)"
+      },
+      {
+        "p": {
+          "name": "Parallel Residual Bi-Fusion Feature Pyramid Network for Accurate Single-Shot Object Detection",
+          "link": "https://arxiv.org/abs/2012.01724v5"
+        },
+        "c": "https://github.com/pingyang1117/PRBNet_PyTorch",
+        "n": "PRB-FPN-MSP",
+        "d": "2020-12-03",
+        "m1": "53.3",
+        "m2": "94 (V100)"
+      },
+      {
+        "p": {
+          "name": "YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors",
+          "link": "https://arxiv.org/abs/2207.02696v1"
+        },
+        "c": "https://github.com/WongKinYiu/yolov7",
+        "n": "YOLOv7-X (640)",
+        "d": "2022-07-06",
+        "m1": "53.1",
+        "m2": "114 (V100)"
+      },
+      {
+        "p": {
+          "name": "You Only Learn One Representation: Unified Network for Multiple Tasks",
+          "link": "https://arxiv.org/abs/2105.04206v1"
+        },
+        "c": "https://github.com/WongKinYiu/yolor",
+        "n": "YOLOR-P6D (1280)",
+        "d": "2021-05-10",
+        "m1": "53.0",
+        "m2": "49 (V100)"
+      },
+      {
+        "p": {
+          "name": "PP-YOLOE: An evolved version of YOLO",
+          "link": "https://arxiv.org/abs/2203.16250v3"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
+        "n": "PP-YOLOE+-L (Objects365 pre-training)",
+        "d": "2022-03-30",
+        "m1": "52.9",
+        "m2": "78 (V100)"
+      },
+      {
+        "p": {
+          "name": "You Only Learn One Representation: Unified Network for Multiple Tasks",
+          "link": "https://arxiv.org/abs/2105.04206v1"
+        },
+        "c": "https://github.com/WongKinYiu/yolor",
+        "n": "YOLOR-P6 (1280)",
+        "d": "2021-05-10",
+        "m1": "52.6",
+        "m2": "49 (V100)"
+      },
+      {
+        "p": {
+          "name": "Parallel Residual Bi-Fusion Feature Pyramid Network for Accurate Single-Shot Object Detection",
+          "link": "https://arxiv.org/abs/2012.01724v5"
+        },
+        "c": "https://github.com/pingyang1117/PRBNet_PyTorch",
+        "n": "PRB-FPN-ELAN",
+        "d": "2020-12-03",
+        "m1": "52.5",
+        "m2": "70 (V100)"
+      },
+      {
+        "p": {
+          "name": "Parallel Residual Bi-Fusion Feature Pyramid Network for Accurate Single-Shot Object Detection",
+          "link": "https://arxiv.org/abs/2012.01724v5"
+        },
+        "c": "https://github.com/pingyang1117/PRBNet_PyTorch",
+        "n": "PRB-FPN-CSP",
+        "d": "2020-12-03",
+        "m1": "51.8",
+        "m2": "113 (V100)"
+      },
+      {
+        "p": {
+          "name": "YOLOX: Exceeding YOLO Series in 2021",
+          "link": "https://arxiv.org/abs/2107.08430v2"
+        },
+        "c": "https://github.com/Megvii-BaseDetection/YOLOX",
+        "n": "YOLOv5-X (reported by YOLOX)",
+        "d": "2021-07-18",
+        "m1": "50.4",
+        "m2": "62.5 (V100)"
+      },
+      {
+        "p": {
+          "name": "PP-YOLOE: An evolved version of YOLO",
+          "link": "https://arxiv.org/abs/2203.16250v3"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
+        "n": "PP-YOLOE+-M (Objects365 pre-training)",
+        "d": "2022-03-30",
+        "m1": "49.8",
+        "m2": "123 (V100)"
+      },
+      {
+        "p": {
+          "name": "YOLOv4: Optimal Speed and Accuracy of Object Detection",
+          "link": "https://arxiv.org/abs/2004.10934v1"
+        },
+        "c": "https://github.com/AlexeyAB/darknet",
+        "n": "YOLOv4 (CSPDarknet-53, 608)",
+        "d": "2020-04-23",
+        "m1": "43.5",
+        "m2": "62 (V100)"
+      },
+      {
+        "p": {
+          "name": "YOLOv4: Optimal Speed and Accuracy of Object Detection",
+          "link": "https://arxiv.org/abs/2004.10934v1"
+        },
+        "c": "https://github.com/AlexeyAB/darknet",
+        "n": "YOLOv4 (CSPDarknet-53, 512)",
+        "d": "2020-04-23",
+        "m1": "43.0",
+        "m2": "83 (V100)"
+      },
+      {
+        "p": {
+          "name": "YOLOv4: Optimal Speed and Accuracy of Object Detection",
+          "link": "https://arxiv.org/abs/2004.10934v1"
+        },
+        "c": "https://github.com/AlexeyAB/darknet",
+        "n": "YOLOv4 (CSPDarknet-53, 416)",
+        "d": "2020-04-23",
+        "m1": "41.2",
+        "m2": "96 (V100)"
+      },
+      {
+        "p": {
+          "name": "YOLOv3: An Incremental Improvement",
+          "link": "https://arxiv.org/abs/1804.02767v1"
+        },
+        "c": "https://github.com/pjreddie/darknet",
+        "n": "YOLOv3-608",
+        "d": "2018-04-08",
+        "m1": "33.0",
+        "m2": "20 (Titan X)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,649 @@
+{
+  "title": "real-time-object-detection-on-coco-val2017",
+  "task-hierarchy": [
+    "Object Detection",
+    "Real-Time Object Detection"
+  ],
+  "dataset-info": {
+    "link": "https://cocodataset.org/#detection-2017",
+    "paper": "Microsoft COCO: Common Objects in Context"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "box AP",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "FPS (batch 1, GPU in brackets)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DEIM: DETR with Improved Matching for Fast Convergence",
+          "link": "https://arxiv.org/abs/2412.04234v3"
+        },
+        "c": "https://github.com/ShihuaHuang95/DEIM",
+        "n": "DEIM-D-FINE-X+ (Objects365 pre-training)",
+        "d": "2024-12-05",
+        "m1": "59.5",
+        "m2": "78 (T4)"
+      },
+      {
+        "p": {
+          "name": "D-FINE: Redefine Regression Task in DETRs as Fine-grained Distribution Refinement",
+          "link": "https://arxiv.org/abs/2410.13842v1"
+        },
+        "c": "https://github.com/Peterande/D-FINE",
+        "n": "D-FINE-X+ (Objects365 pre-training)",
+        "d": "2024-10-17",
+        "m1": "59.3",
+        "m2": "78 (T4)"
+      },
+      {
+        "p": {
+          "name": "YOLOv6 v3.0: A Full-Scale Reloading",
+          "link": "https://arxiv.org/abs/2301.05586v1"
+        },
+        "c": "https://github.com/meituan/YOLOv6",
+        "n": "YOLOv6-L6 (1280, self-distillation)",
+        "d": "2023-01-13",
+        "m1": "57.2",
+        "m2": "26 (T4)"
+      },
+      {
+        "p": {
+          "name": "D-FINE: Redefine Regression Task in DETRs as Fine-grained Distribution Refinement",
+          "link": "https://arxiv.org/abs/2410.13842v1"
+        },
+        "c": "https://github.com/Peterande/D-FINE",
+        "n": "D-FINE-L+ (Objects365 pre-training)",
+        "d": "2024-10-17",
+        "m1": "57.1",
+        "m2": "124 (T4)"
+      },
+      {
+        "p": {
+          "name": "DEIM: DETR with Improved Matching for Fast Convergence",
+          "link": "https://arxiv.org/abs/2412.04234v3"
+        },
+        "c": "https://github.com/ShihuaHuang95/DEIM",
+        "n": "DEIM-D-FINE-X",
+        "d": "2024-12-05",
+        "m1": "56.5",
+        "m2": "78 (T4)"
+      },
+      {
+        "p": {
+          "name": "D-FINE: Redefine Regression Task in DETRs as Fine-grained Distribution Refinement",
+          "link": "https://arxiv.org/abs/2410.13842v1"
+        },
+        "c": "https://github.com/Peterande/D-FINE",
+        "n": "D-FINE-X",
+        "d": "2024-10-17",
+        "m1": "55.8",
+        "m2": "78 (T4)"
+      },
+      {
+        "p": {
+          "name": "YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information",
+          "link": "https://arxiv.org/abs/2402.13616v2"
+        },
+        "c": "https://github.com/WongKinYiu/yolov9",
+        "n": "YOLOv9-E",
+        "d": "2024-02-21",
+        "m1": "55.6"
+      },
+      {
+        "p": {
+          "name": "YOLOv12: Attention-Centric Real-Time Object Detectors",
+          "link": "https://arxiv.org/abs/2502.12524v1"
+        },
+        "c": "https://github.com/sunsmarterjie/yolov12",
+        "n": "YOLOv12-X",
+        "d": "2025-02-18",
+        "m1": "55.2",
+        "m2": "85 (T4)"
+      },
+      {
+        "p": {
+          "name": "D-FINE: Redefine Regression Task in DETRs as Fine-grained Distribution Refinement",
+          "link": "https://arxiv.org/abs/2410.13842v1"
+        },
+        "c": "https://github.com/Peterande/D-FINE",
+        "n": "D-FINE-M+ (Objects365 pre-training)",
+        "d": "2024-10-17",
+        "m1": "55.1",
+        "m2": "178 (T4)"
+      },
+      {
+        "p": {
+          "name": "YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information",
+          "link": "https://arxiv.org/abs/2402.13616v2"
+        },
+        "c": "https://github.com/WongKinYiu/yolov9",
+        "n": "GELAN-E",
+        "d": "2024-02-21",
+        "m1": "55.0"
+      },
+      {
+        "p": {
+          "name": "DETRs Beat YOLOs on Real-time Object Detection",
+          "link": "https://arxiv.org/abs/2304.08069v2"
+        },
+        "c": "https://github.com/lyuwenyu/RT-DETR",
+        "n": "RT-DETR-X",
+        "d": "2023-04-17",
+        "m1": "54.8",
+        "m2": "74 (T4)"
+      },
+      {
+        "p": {
+          "name": "Ultralytics YOLO11",
+          "link": "https://docs.ultralytics.com/models/yolo11/"
+        },
+        "c": "https://github.com/ultralytics/ultralytics",
+        "n": "YOLO11x",
+        "d": "2024-09-27",
+        "m1": "54.7",
+        "m2": "88 (T4)"
+      },
+      {
+        "p": {
+          "name": "DEIM: DETR with Improved Matching for Fast Convergence",
+          "link": "https://arxiv.org/abs/2412.04234v3"
+        },
+        "c": "https://github.com/ShihuaHuang95/DEIM",
+        "n": "DEIM-D-FINE-L",
+        "d": "2024-12-05",
+        "m1": "54.7",
+        "m2": "124 (T4)"
+      },
+      {
+        "p": {
+          "name": "YOLOv10: Real-Time End-to-End Object Detection",
+          "link": "https://arxiv.org/abs/2405.14458v2"
+        },
+        "c": "https://github.com/THU-MIG/yolov10",
+        "n": "YOLOv10-X (NMS-free)",
+        "d": "2024-05-23",
+        "m1": "54.4",
+        "m2": "93 (T4)"
+      },
+      {
+        "p": {
+          "name": "DETRs Beat YOLOs on Real-time Object Detection",
+          "link": "https://arxiv.org/abs/2304.08069v3"
+        },
+        "c": "https://github.com/lyuwenyu/RT-DETR",
+        "n": "RT-DETR-R101",
+        "d": "2023-04-17",
+        "m1": "54.3",
+        "m2": "74 (T4)"
+      },
+      {
+        "p": {
+          "name": "D-FINE: Redefine Regression Task in DETRs as Fine-grained Distribution Refinement",
+          "link": "https://arxiv.org/abs/2410.13842v1"
+        },
+        "c": "https://github.com/Peterande/D-FINE",
+        "n": "D-FINE-L",
+        "d": "2024-10-17",
+        "m1": "54.0",
+        "m2": "124 (T4)"
+      },
+      {
+        "p": {
+          "name": "YOLOv12: Attention-Centric Real-Time Object Detectors",
+          "link": "https://arxiv.org/abs/2502.12524v1"
+        },
+        "c": "https://github.com/sunsmarterjie/yolov12",
+        "n": "YOLOv12-L",
+        "d": "2025-02-18",
+        "m1": "53.7",
+        "m2": "148 (T4)"
+      },
+      {
+        "p": {
+          "name": "Ultralytics YOLO11",
+          "link": "https://docs.ultralytics.com/models/yolo11/"
+        },
+        "c": "https://github.com/ultralytics/ultralytics",
+        "n": "YOLO11l",
+        "d": "2024-09-27",
+        "m1": "53.4",
+        "m2": "161 (T4)"
+      },
+      {
+        "p": {
+          "name": "YOLOv10: Real-Time End-to-End Object Detection",
+          "link": "https://arxiv.org/abs/2405.14458v2"
+        },
+        "c": "https://github.com/THU-MIG/yolov10",
+        "n": "YOLOv10-L (NMS-free)",
+        "d": "2024-05-23",
+        "m1": "53.2",
+        "m2": "137 (T4)"
+      },
+      {
+        "p": {
+          "name": "DETRs Beat YOLOs on Real-time Object Detection",
+          "link": "https://arxiv.org/abs/2304.08069v2"
+        },
+        "c": "https://github.com/lyuwenyu/RT-DETR",
+        "n": "RT-DETR-L",
+        "d": "2023-04-17",
+        "m1": "53.0",
+        "m2": "114 (T4)"
+      },
+      {
+        "p": {
+          "name": "YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information",
+          "link": "https://arxiv.org/abs/2402.13616v2"
+        },
+        "c": "https://github.com/WongKinYiu/yolov9",
+        "n": "YOLOv9-C",
+        "d": "2024-02-21",
+        "m1": "53.0"
+      },
+      {
+        "p": {
+          "name": "RTMDet: An Empirical Study of Designing Real-Time Object Detectors",
+          "link": "https://arxiv.org/abs/2212.07784v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection/tree/3.x/configs/rtmdet",
+        "n": "RTMDet-x",
+        "d": "2022-12-14",
+        "m1": "52.8",
+        "m2": "323 (RTX 3090)"
+      },
+      {
+        "p": {
+          "name": "YOLOv6 v3.0: A Full-Scale Reloading",
+          "link": "https://arxiv.org/abs/2301.05586v1"
+        },
+        "c": "https://github.com/meituan/YOLOv6",
+        "n": "YOLOv6-L (self-distillation)",
+        "d": "2023-01-13",
+        "m1": "52.8",
+        "m2": "98 (T4)"
+      },
+      {
+        "p": {
+          "name": "DEIM: DETR with Improved Matching for Fast Convergence",
+          "link": "https://arxiv.org/abs/2412.04234v3"
+        },
+        "c": "https://github.com/ShihuaHuang95/DEIM",
+        "n": "DEIM-D-FINE-M",
+        "d": "2024-12-05",
+        "m1": "52.7",
+        "m2": "180 (T4)"
+      },
+      {
+        "p": {
+          "name": "YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information",
+          "link": "https://arxiv.org/abs/2402.13616v2"
+        },
+        "c": "https://github.com/WongKinYiu/yolov9",
+        "n": "GELAN-C",
+        "d": "2024-02-21",
+        "m1": "52.5"
+      },
+      {
+        "p": {
+          "name": "YOLOv10: Real-Time End-to-End Object Detection",
+          "link": "https://arxiv.org/abs/2405.14458v2"
+        },
+        "c": "https://github.com/THU-MIG/yolov10",
+        "n": "YOLOv10-B (NMS-free)",
+        "d": "2024-05-23",
+        "m1": "52.5",
+        "m2": "174 (T4)"
+      },
+      {
+        "p": {
+          "name": "YOLOv12: Attention-Centric Real-Time Object Detectors",
+          "link": "https://arxiv.org/abs/2502.12524v1"
+        },
+        "c": "https://github.com/sunsmarterjie/yolov12",
+        "n": "YOLOv12-M",
+        "d": "2025-02-18",
+        "m1": "52.5",
+        "m2": "206 (T4)"
+      },
+      {
+        "p": {
+          "name": "D-FINE: Redefine Regression Task in DETRs as Fine-grained Distribution Refinement",
+          "link": "https://arxiv.org/abs/2410.13842v1"
+        },
+        "c": "https://github.com/Peterande/D-FINE",
+        "n": "D-FINE-M",
+        "d": "2024-10-17",
+        "m1": "52.3",
+        "m2": "180 (T4)"
+      },
+      {
+        "p": {
+          "name": "Ultralytics YOLO11",
+          "link": "https://docs.ultralytics.com/models/yolo11/"
+        },
+        "c": "https://github.com/ultralytics/ultralytics",
+        "n": "YOLO11m",
+        "d": "2024-09-27",
+        "m1": "51.5",
+        "m2": "213 (T4)"
+      },
+      {
+        "p": {
+          "name": "YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information",
+          "link": "https://arxiv.org/abs/2402.13616v2"
+        },
+        "c": "https://github.com/WongKinYiu/yolov9",
+        "n": "YOLOv9-M",
+        "d": "2024-02-21",
+        "m1": "51.4"
+      },
+      {
+        "p": {
+          "name": "Multi-Branch Auxiliary Fusion YOLO with Re-parameterization Heterogeneous Convolutional for accurate object detection",
+          "link": "https://arxiv.org/abs/2407.04381v1"
+        },
+        "c": "https://github.com/yang-0201/MAF-YOLO",
+        "n": "MAF-YOLO-m",
+        "d": "2024-07-05",
+        "m1": "51.2"
+      },
+      {
+        "p": {
+          "name": "YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information",
+          "link": "https://arxiv.org/abs/2402.13616v2"
+        },
+        "c": "https://github.com/WongKinYiu/yolov9",
+        "n": "GELAN-M",
+        "d": "2024-02-21",
+        "m1": "51.1"
+      },
+      {
+        "p": {
+          "name": "YOLOv10: Real-Time End-to-End Object Detection",
+          "link": "https://arxiv.org/abs/2405.14458v2"
+        },
+        "c": "https://github.com/THU-MIG/yolov10",
+        "n": "YOLOv10-M (NMS-free)",
+        "d": "2024-05-23",
+        "m1": "51.1",
+        "m2": "211 (T4)"
+      },
+      {
+        "p": {
+          "name": "DAMO-YOLO : A Report on Real-Time Object Detection Design",
+          "link": "https://arxiv.org/abs/2211.15444v4"
+        },
+        "c": "https://github.com/tinyvision/damo-yolo",
+        "n": "DAMO-YOLO-L",
+        "d": "2022-11-23",
+        "m1": "50.8",
+        "m2": "126 (V100)"
+      },
+      {
+        "p": {
+          "name": "D-FINE: Redefine Regression Task in DETRs as Fine-grained Distribution Refinement",
+          "link": "https://arxiv.org/abs/2410.13842v1"
+        },
+        "c": "https://github.com/Peterande/D-FINE",
+        "n": "D-FINE-S+ (Objects365 pre-training)",
+        "d": "2024-10-17",
+        "m1": "50.7",
+        "m2": "287 (T4)"
+      },
+      {
+        "p": {
+          "name": "YOLOv6 v3.0: A Full-Scale Reloading",
+          "link": "https://arxiv.org/abs/2301.05586v1"
+        },
+        "c": "https://github.com/meituan/YOLOv6",
+        "n": "YOLOv6-S6 (1280)",
+        "d": "2023-01-13",
+        "m1": "50.3",
+        "m2": "98 (T4)"
+      },
+      {
+        "p": {
+          "name": "YOLOv6 v3.0: A Full-Scale Reloading",
+          "link": "https://arxiv.org/abs/2301.05586v1"
+        },
+        "c": "https://github.com/meituan/YOLOv6",
+        "n": "YOLOv6-M (self-distillation)",
+        "d": "2023-01-13",
+        "m1": "50.0",
+        "m2": "175 (T4)"
+      },
+      {
+        "p": {
+          "name": "DAMO-YOLO : A Report on Real-Time Object Detection Design",
+          "link": "https://arxiv.org/abs/2211.15444v4"
+        },
+        "c": "https://github.com/tinyvision/damo-yolo",
+        "n": "DAMO-YOLO-M",
+        "d": "2022-11-23",
+        "m1": "49.2",
+        "m2": "233 (V100)"
+      },
+      {
+        "p": {
+          "name": "DEIM: DETR with Improved Matching for Fast Convergence",
+          "link": "https://arxiv.org/abs/2412.04234v3"
+        },
+        "c": "https://github.com/ShihuaHuang95/DEIM",
+        "n": "DEIM-D-FINE-S",
+        "d": "2024-12-05",
+        "m1": "49.0",
+        "m2": "287 (T4)"
+      },
+      {
+        "p": {
+          "name": "D-FINE: Redefine Regression Task in DETRs as Fine-grained Distribution Refinement",
+          "link": "https://arxiv.org/abs/2410.13842v1"
+        },
+        "c": "https://github.com/Peterande/D-FINE",
+        "n": "D-FINE-S",
+        "d": "2024-10-17",
+        "m1": "48.5",
+        "m2": "287 (T4)"
+      },
+      {
+        "p": {
+          "name": "YOLOv12: Attention-Centric Real-Time Object Detectors",
+          "link": "https://arxiv.org/abs/2502.12524v1"
+        },
+        "c": "https://github.com/sunsmarterjie/yolov12",
+        "n": "YOLOv12-S",
+        "d": "2025-02-18",
+        "m1": "48.0",
+        "m2": "383 (T4)"
+      },
+      {
+        "p": {
+          "name": "Multi-Branch Auxiliary Fusion YOLO with Re-parameterization Heterogeneous Convolutional for accurate object detection",
+          "link": "https://arxiv.org/abs/2407.04381v1"
+        },
+        "c": "https://github.com/yang-0201/MAF-YOLO",
+        "n": "MAF-YOLO-s",
+        "d": "2024-07-05",
+        "m1": "47.4"
+      },
+      {
+        "p": {
+          "name": "Ultralytics YOLO11",
+          "link": "https://docs.ultralytics.com/models/yolo11/"
+        },
+        "c": "https://github.com/ultralytics/ultralytics",
+        "n": "YOLO11s",
+        "d": "2024-09-27",
+        "m1": "47.0",
+        "m2": "400 (T4)"
+      },
+      {
+        "p": {
+          "name": "YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information",
+          "link": "https://arxiv.org/abs/2402.13616v2"
+        },
+        "c": "https://github.com/WongKinYiu/yolov9",
+        "n": "YOLOv9-S",
+        "d": "2024-02-21",
+        "m1": "46.8"
+      },
+      {
+        "p": {
+          "name": "YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information",
+          "link": "https://arxiv.org/abs/2402.13616v2"
+        },
+        "c": "https://github.com/WongKinYiu/yolov9",
+        "n": "GELAN-S",
+        "d": "2024-02-21",
+        "m1": "46.7"
+      },
+      {
+        "p": {
+          "name": "YOLOv10: Real-Time End-to-End Object Detection",
+          "link": "https://arxiv.org/abs/2405.14458v2"
+        },
+        "c": "https://github.com/THU-MIG/yolov10",
+        "n": "YOLOv10-S (NMS-free)",
+        "d": "2024-05-23",
+        "m1": "46.3",
+        "m2": "402 (T4)"
+      },
+      {
+        "p": {
+          "name": "DAMO-YOLO : A Report on Real-Time Object Detection Design",
+          "link": "https://arxiv.org/abs/2211.15444v4"
+        },
+        "c": "https://github.com/tinyvision/damo-yolo",
+        "n": "DAMO-YOLO-S",
+        "d": "2022-11-23",
+        "m1": "46.0",
+        "m2": "325 (V100)"
+      },
+      {
+        "p": {
+          "name": "YOLOv6 v3.0: A Full-Scale Reloading",
+          "link": "https://arxiv.org/abs/2301.05586v1"
+        },
+        "c": "https://github.com/meituan/YOLOv6",
+        "n": "YOLOv6-S (self-distillation)",
+        "d": "2023-01-13",
+        "m1": "45.0",
+        "m2": "339 (T4)"
+      },
+      {
+        "p": {
+          "name": "Multi-Branch Auxiliary Fusion YOLO with Re-parameterization Heterogeneous Convolutional for accurate object detection",
+          "link": "https://arxiv.org/abs/2407.04381v1"
+        },
+        "c": "https://github.com/yang-0201/MAF-YOLO",
+        "n": "MAF-YOLO-n",
+        "d": "2024-07-05",
+        "m1": "42.4"
+      },
+      {
+        "p": {
+          "name": "End-to-End Object Detection with Transformers",
+          "link": "https://arxiv.org/abs/2005.12872v3"
+        },
+        "c": "https://github.com/facebookresearch/detr",
+        "n": "Faster R-CNN-FPN+ (ResNet-50, reported by DETR)",
+        "d": "2020-05-26",
+        "m1": "42.0",
+        "m2": "26"
+      },
+      {
+        "p": {
+          "name": "DAMO-YOLO : A Report on Real-Time Object Detection Design",
+          "link": "https://arxiv.org/abs/2211.15444v4"
+        },
+        "c": "https://github.com/tinyvision/damo-yolo",
+        "n": "DAMO-YOLO-T",
+        "d": "2022-11-23",
+        "m1": "42.0",
+        "m2": "397 (V100)"
+      },
+      {
+        "p": {
+          "name": "YOLOv12: Attention-Centric Real-Time Object Detectors",
+          "link": "https://arxiv.org/abs/2502.12524v1"
+        },
+        "c": "https://github.com/sunsmarterjie/yolov12",
+        "n": "YOLOv12-N",
+        "d": "2025-02-18",
+        "m1": "40.6",
+        "m2": "610 (T4)"
+      },
+      {
+        "p": {
+          "name": "Ultralytics YOLO11",
+          "link": "https://docs.ultralytics.com/models/yolo11/"
+        },
+        "c": "https://github.com/ultralytics/ultralytics",
+        "n": "YOLO11n",
+        "d": "2024-09-27",
+        "m1": "39.5",
+        "m2": "667 (T4)"
+      },
+      {
+        "p": {
+          "name": "YOLOv10: Real-Time End-to-End Object Detection",
+          "link": "https://arxiv.org/abs/2405.14458v2"
+        },
+        "c": "https://github.com/THU-MIG/yolov10",
+        "n": "YOLOv10-N (NMS-free)",
+        "d": "2024-05-23",
+        "m1": "38.5",
+        "m2": "543 (T4)"
+      },
+      {
+        "p": {
+          "name": "YOLOv6 v3.0: A Full-Scale Reloading",
+          "link": "https://arxiv.org/abs/2301.05586v1"
+        },
+        "c": "https://github.com/meituan/YOLOv6",
+        "n": "YOLOv6-N (self-distillation)",
+        "d": "2023-01-13",
+        "m1": "37.5",
+        "m2": "779 (T4)"
+      },
+      {
+        "p": {
+          "name": "Ultralytics YOLOv5",
+          "link": "https://github.com/ultralytics/yolov5"
+        },
+        "c": "https://github.com/ultralytics/yolov5",
+        "n": "YOLOv5n (official repo)",
+        "d": "2021-10-12",
+        "m1": "28.0",
+        "m2": "159 (V100)"
+      }
+    ]
+  }
+}
