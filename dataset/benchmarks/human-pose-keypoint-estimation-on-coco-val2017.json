@@ -1,0 +1,515 @@
+{
+  "title": "human-pose-keypoint-estimation-on-coco-val2017",
+  "task-hierarchy": [
+    "2D Human Pose Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://cocodataset.org/#keypoints-2017",
+    "paper": "Microsoft COCO: Common Objects in Context"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AP",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "AP50",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "AP75",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "AR",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Sapiens: Foundation for Human Vision Models",
+          "link": "https://arxiv.org/abs/2408.12569v3"
+        },
+        "c": "https://github.com/facebookresearch/sapiens",
+        "n": "Sapiens-2B",
+        "d": "2024-08-22",
+        "m1": "82.2"
+      },
+      {
+        "p": {
+          "name": "Sapiens: Foundation for Human Vision Models",
+          "link": "https://arxiv.org/abs/2408.12569v3"
+        },
+        "c": "https://github.com/facebookresearch/sapiens",
+        "n": "Sapiens-1B",
+        "d": "2024-08-22",
+        "m1": "82.1"
+      },
+      {
+        "p": {
+          "name": "Sapiens: Foundation for Human Vision Models",
+          "link": "https://arxiv.org/abs/2408.12569v3"
+        },
+        "c": "https://github.com/facebookresearch/sapiens",
+        "n": "Sapiens-0.6B",
+        "d": "2024-08-22",
+        "m1": "81.2"
+      },
+      {
+        "p": {
+          "name": "Poseur: Direct Human Pose Regression with Transformers",
+          "link": "https://arxiv.org/abs/2201.07412v2"
+        },
+        "c": "https://github.com/aim-uofa/poseur",
+        "n": "Poseur(384x288)",
+        "d": "2022-01-19",
+        "m1": "79.6"
+      },
+      {
+        "p": {
+          "name": "Sapiens: Foundation for Human Vision Models",
+          "link": "https://arxiv.org/abs/2408.12569v3"
+        },
+        "c": "https://github.com/facebookresearch/sapiens",
+        "n": "Sapiens-0.3B",
+        "d": "2024-08-22",
+        "m1": "79.6"
+      },
+      {
+        "p": {
+          "name": "OmniPose: A Multi-Scale Framework for Multi-Person Pose Estimation",
+          "link": "https://arxiv.org/abs/2103.10180v1"
+        },
+        "c": "https://github.com/bmartacho/OmniPose",
+        "n": "OmniPose (WASPv2)",
+        "d": "2021-03-18",
+        "m1": "79.5",
+        "m2": "93.6",
+        "m3": "85.9",
+        "m4": "81.9"
+      },
+      {
+        "p": {
+          "name": "Polarized Self-Attention: Towards High-quality Pixel-wise Regression",
+          "link": "https://arxiv.org/abs/2107.00782v2"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
+        "n": "UDP-Pose-PSA(384x288)",
+        "d": "2021-07-02",
+        "m1": "79.5"
+      },
+      {
+        "p": {
+          "name": "AID: Pushing the Performance Boundary of Human Pose Estimation with Information Dropping Augmentation",
+          "link": "https://arxiv.org/abs/2008.07139v2"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
+        "n": "AID (HRNet-W48plus)",
+        "d": "2020-08-17",
+        "m1": "79.1"
+      },
+      {
+        "p": {
+          "name": "Harnessing Diffusion Models for Visual Perception with Meta Prompts",
+          "link": "https://arxiv.org/abs/2312.14733v1"
+        },
+        "c": "https://github.com/fudan-zvg/meta-prompts",
+        "n": "MetaPrompt-SD",
+        "d": "2023-12-22",
+        "m1": "79.0"
+      },
+      {
+        "p": {
+          "name": "Hulk: A Universal Knowledge Translator for Human-Centric Tasks",
+          "link": "https://arxiv.org/abs/2312.01697v4"
+        },
+        "c": "https://github.com/opengvlab/humanbench",
+        "n": "Hulk(Finetune, ViT-L)",
+        "d": "2023-12-04",
+        "m1": "78.7"
+      },
+      {
+        "p": {
+          "name": "On the Calibration of Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2311.17105v1"
+        },
+        "c": "",
+        "n": "CCNet (ViTPose-B_GT-bbox_256x192)",
+        "d": "2023-11-28",
+        "m1": "78.1",
+        "m2": "93.7",
+        "m3": "85.0",
+        "m4": "80.4"
+      },
+      {
+        "p": {
+          "name": "AID: Pushing the Performance Boundary of Human Pose Estimation with Information Dropping Augmentation",
+          "link": "https://arxiv.org/abs/2008.07139v2"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
+        "n": "AID (HRNet-W32)",
+        "d": "2020-08-17",
+        "m1": "77.8"
+      },
+      {
+        "p": {
+          "name": "Rethinking pose estimation in crowds: overcoming the detection information-bottleneck and ambiguity",
+          "link": "https://arxiv.org/abs/2306.07879v2"
+        },
+        "c": "https://github.com/amathislab/BUCTD",
+        "n": "BUCTD (PETR, with generative sampling)",
+        "d": "2023-06-13",
+        "m1": "77.8"
+      },
+      {
+        "p": {
+          "name": "EvoPose2D: Pushing the Boundaries of 2D Human Pose Estimation using Accelerated Neuroevolution with Weight Transfer",
+          "link": "https://arxiv.org/abs/2011.08446v2"
+        },
+        "c": "https://github.com/wmcnally/evopose2d",
+        "n": "EvoPose2D-L(512x384)",
+        "d": "2020-11-17",
+        "m1": "77.5"
+      },
+      {
+        "p": {
+          "name": "Hulk: A Universal Knowledge Translator for Human-Centric Tasks",
+          "link": "https://arxiv.org/abs/2312.01697v4"
+        },
+        "c": "https://github.com/opengvlab/humanbench",
+        "n": "Hulk(Finetune, ViT-B)",
+        "d": "2023-12-04",
+        "m1": "77.5"
+      },
+      {
+        "p": {
+          "name": "PoseFix: Model-agnostic General Human Pose Refinement Network",
+          "link": "http://arxiv.org/abs/1812.03595v3"
+        },
+        "c": "https://github.com/mks0601/PoseFix_RELEASE",
+        "n": "PoseFix + HRNet-W48",
+        "d": "2018-12-10",
+        "m1": "77.3",
+        "m2": "90.9",
+        "m3": "83.5",
+        "m4": "82.0"
+      },
+      {
+        "p": {
+          "name": "ViTPose: Simple Vision Transformer Baselines for Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2204.12484v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ViTPose-B (Single-task_GT-bbox_256x192)",
+        "d": "2022-04-26",
+        "m1": "77.3",
+        "m2": "93.5",
+        "m3": "84.5",
+        "m4": "80.4"
+      },
+      {
+        "p": {
+          "name": "I^2R-Net: Intra- and Inter-Human Relation Network for Multi-Person Pose Estimation",
+          "link": "https://arxiv.org/abs/2206.10892v2"
+        },
+        "c": "https://github.com/leijue222/Intra-and-Inter-Human-Relation-Network-for-MPEE",
+        "n": "I²R-Net (1st stage:HRFormer-B)",
+        "d": "2022-06-22",
+        "m1": "77.3",
+        "m2": "91.0",
+        "m3": "83.6",
+        "m4": "82.1"
+      },
+      {
+        "p": {
+          "name": "MogaNet: Multi-order Gated Aggregation Network",
+          "link": "https://arxiv.org/abs/2211.03295v3"
+        },
+        "c": "https://github.com/chengtan9907/OpenSTL",
+        "n": "MogaNet-B (384x288)",
+        "d": "2022-11-07",
+        "m1": "77.3",
+        "m2": "91.4",
+        "m3": "84.0",
+        "m4": "82.2"
+      },
+      {
+        "p": {
+          "name": "HumanBench: Towards General Human-centric Perception with Projector Assisted Pretraining",
+          "link": "https://arxiv.org/abs/2303.05675v1"
+        },
+        "c": "https://github.com/opengvlab/humanbench",
+        "n": "PATH (Partial FT)",
+        "d": "2023-03-10",
+        "m1": "77.1"
+      },
+      {
+        "p": {
+          "name": "X-Pose: Detecting Any Keypoints",
+          "link": "https://arxiv.org/abs/2310.08530v2"
+        },
+        "c": "https://github.com/idea-research/x-pose",
+        "n": "X-Pose-T (Swin-L)",
+        "d": "2023-10-12",
+        "m1": "76.8"
+      },
+      {
+        "p": {
+          "name": "Beyond Appearance: a Semantic Controllable Self-Supervised Learning Framework for Human-Centric Visual Tasks",
+          "link": "https://arxiv.org/abs/2303.17602v1"
+        },
+        "c": "https://github.com/modelscope/modelscope",
+        "n": "SOLIDER (swin-B)",
+        "d": "2023-03-30",
+        "m1": "76.6",
+        "m4": "81.5"
+      },
+      {
+        "p": {
+          "name": "AggPose: Deep Aggregation Vision Transformer for Infant Pose Estimation",
+          "link": "https://arxiv.org/abs/2205.05277v2"
+        },
+        "c": "https://github.com/szar-lab/aggpose",
+        "n": "AggPose(256x192)",
+        "d": "2022-05-11",
+        "m1": "76.4"
+      },
+      {
+        "p": {
+          "name": "MogaNet: Multi-order Gated Aggregation Network",
+          "link": "https://arxiv.org/abs/2211.03295v3"
+        },
+        "c": "https://github.com/chengtan9907/OpenSTL",
+        "n": "MogaNet-S (384x288)",
+        "d": "2022-11-07",
+        "m1": "76.4",
+        "m2": "91.0",
+        "m3": "83.3",
+        "m4": "81.4"
+      },
+      {
+        "p": {
+          "name": "Deep High-Resolution Representation Learning for Human Pose Estimation",
+          "link": "http://arxiv.org/abs/1902.09212v1"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "HRNet-48(384x288)",
+        "d": "2019-02-25",
+        "m1": "76.3"
+      },
+      {
+        "p": {
+          "name": "Multi-Instance Pose Networks: Rethinking Top-Down Pose Estimation",
+          "link": "https://arxiv.org/abs/2101.11223v3"
+        },
+        "c": "https://github.com/rawalkhirodkar/MIPNet",
+        "n": "MIPNet(384x288)",
+        "d": "2021-01-27",
+        "m1": "76.3"
+      },
+      {
+        "p": {
+          "name": "Deep High-Resolution Representation Learning for Human Pose Estimation",
+          "link": "http://arxiv.org/abs/1902.09212v1"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "HRNet-W32 (384x288)",
+        "d": "2019-02-25",
+        "m1": "75.8"
+      },
+      {
+        "p": {
+          "name": "TransPose: Keypoint Localization via Transformer",
+          "link": "https://arxiv.org/abs/2012.14214v5"
+        },
+        "c": "https://github.com/yangsenius/TransPose",
+        "n": "TransPose(256x192)",
+        "d": "2020-12-28",
+        "m1": "75.8"
+      },
+      {
+        "p": {
+          "name": "Removing the Bias of Integral Pose Regression",
+          "link": "http://openaccess.thecvf.com//content/ICCV2021/html/Gu_Removing_the_Bias_of_Integral_Pose_Regression_ICCV_2021_paper.html"
+        },
+        "c": "",
+        "n": "Bias (HRNet_256x192)",
+        "d": "2021-01-01",
+        "m1": "75.8"
+      },
+      {
+        "p": {
+          "name": "ViTPose: Simple Vision Transformer Baselines for Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2204.12484v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ViTPose-B (Single-task_Det-bbox_256x192)",
+        "d": "2022-04-26",
+        "m1": "75.8",
+        "m2": "90.7",
+        "m3": "83.2",
+        "m4": "81.1"
+      },
+      {
+        "p": {
+          "name": "Deep High-Resolution Representation Learning for Human Pose Estimation",
+          "link": "http://arxiv.org/abs/1902.09212v1"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "HRNet (256x192)",
+        "d": "2019-02-25",
+        "m1": "75.3"
+      },
+      {
+        "p": {
+          "name": "AID: Pushing the Performance Boundary of Human Pose Estimation with Information Dropping Augmentation",
+          "link": "https://arxiv.org/abs/2008.07139v2"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
+        "n": "AID (ResNet-50)",
+        "d": "2020-08-17",
+        "m1": "75.3"
+      },
+      {
+        "p": {
+          "name": "MogaNet: Multi-order Gated Aggregation Network",
+          "link": "https://arxiv.org/abs/2211.03295v3"
+        },
+        "c": "https://github.com/chengtan9907/OpenSTL",
+        "n": "MogaNet-S (256x192)",
+        "d": "2022-11-07",
+        "m1": "74.9",
+        "m4": "80.1"
+      },
+      {
+        "p": {
+          "name": "MogaNet: Multi-order Gated Aggregation Network",
+          "link": "https://arxiv.org/abs/2211.03295v3"
+        },
+        "c": "https://github.com/chengtan9907/OpenSTL",
+        "n": "MogaNet-T (256x192)",
+        "d": "2022-11-07",
+        "m1": "73.2",
+        "m2": "90.1",
+        "m3": "81.0",
+        "m4": "78.8"
+      },
+      {
+        "p": {
+          "name": "BAPose: Bottom-Up Pose Estimation with Disentangled Waterfall Representations",
+          "link": "https://arxiv.org/abs/2112.10716v1"
+        },
+        "c": "https://github.com/bmartacho/BAPose",
+        "n": "BAPose",
+        "d": "2021-12-20",
+        "m1": "72.7"
+      },
+      {
+        "p": {
+          "name": "PE-former: Pose Estimation Transformer",
+          "link": "https://arxiv.org/abs/2112.04981v1"
+        },
+        "c": "https://github.com/padeler/pe-former",
+        "n": "PEFORMER-Xcit-dino-p8",
+        "d": "2021-12-09",
+        "m1": "72.6",
+        "m4": "79.4"
+      },
+      {
+        "p": {
+          "name": "Simple Baselines for Human Pose Estimation and Tracking",
+          "link": "http://arxiv.org/abs/1804.06208v2"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
+        "n": "SimpleBaseline (ResNet-50, 384x288)",
+        "d": "2018-04-17",
+        "m1": "72.2"
+      },
+      {
+        "p": {
+          "name": "Human Pose Regression with Residual Log-likelihood Estimation",
+          "link": "https://arxiv.org/abs/2107.11291v3"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
+        "n": "RLE (256x192)",
+        "d": "2021-07-23",
+        "m1": "71.3",
+        "m2": "88.9",
+        "m3": "78.3"
+      },
+      {
+        "p": {
+          "name": "OpenPifPaf: Composite Fields for Semantic Keypoint Detection and Spatio-Temporal Association",
+          "link": "https://arxiv.org/abs/2103.02440v2"
+        },
+        "c": "https://github.com/openpifpaf/openpifpaf",
+        "n": "OpenPifPaf",
+        "d": "2021-03-03",
+        "m1": "71.0"
+      },
+      {
+        "p": {
+          "name": "Simple Baselines for Human Pose Estimation and Tracking",
+          "link": "http://arxiv.org/abs/1804.06208v2"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
+        "n": "SimpleBaseLine (256x192)",
+        "d": "2018-04-17",
+        "m1": "70.4"
+      },
+      {
+        "p": {
+          "name": "Non-local Neural Networks",
+          "link": "http://arxiv.org/abs/1711.07971v3"
+        },
+        "c": "https://github.com/facebookresearch/detectron",
+        "n": "Mask R-CNN + NL blocks (4 in head, 1 in backbone)",
+        "d": "2017-11-21",
+        "m1": "66.5"
+      },
+      {
+        "p": {
+          "name": "InsPose: Instance-Aware Networks for Single-Stage Multi-Person Pose Estimation",
+          "link": "https://arxiv.org/abs/2107.08982v3"
+        },
+        "c": "https://github.com/hikvision-research/opera",
+        "n": "InsPose",
+        "d": "2021-07-19",
+        "m1": "63.1"
+      },
+      {
+        "p": {
+          "name": "Lite Pose: Efficient Architecture Design for 2D Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2205.01271v4"
+        },
+        "c": "https://github.com/mit-han-lab/litepose",
+        "n": "LitePose-S",
+        "d": "2022-05-03",
+        "m1": "56.8"
+      }
+    ]
+  }
+}
