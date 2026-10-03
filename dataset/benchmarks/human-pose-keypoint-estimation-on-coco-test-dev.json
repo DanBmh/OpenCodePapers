@@ -1,0 +1,2044 @@
+{
+  "title": "human-pose-keypoint-estimation-on-coco-test-dev",
+  "task-hierarchy": [
+    "2D Human Pose Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://cocodataset.org/#keypoints-2017",
+    "paper": "Microsoft COCO: Common Objects in Context"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AP",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "AP50",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "AP75",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "AR",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "AR50",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "AR75",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "ViTPose: Simple Vision Transformer Baselines for Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2204.12484v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ViTPose (ViTAE-G, ensemble)",
+        "d": "2022-04-26",
+        "m1": "81.1",
+        "m2": "95.0",
+        "m3": "88.2",
+        "m4": "85.6"
+      },
+      {
+        "p": {
+          "name": "ViTPose: Simple Vision Transformer Baselines for Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2204.12484v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ViTPose (ViTAE-G)",
+        "d": "2022-04-26",
+        "m1": "80.9",
+        "m2": "94.8",
+        "m3": "88.1",
+        "m4": "85.4"
+      },
+      {
+        "p": {
+          "name": "Polarized Self-Attention: Towards High-quality Pixel-wise Regression",
+          "link": "https://arxiv.org/abs/2107.00782v2"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
+        "n": "UDP-Pose-PSA(384x288)",
+        "d": "2021-07-02",
+        "m1": "79.5",
+        "m2": "93.6",
+        "m3": "85.9",
+        "m4": "81.9"
+      },
+      {
+        "p": {
+          "name": "Learning Delicate Local Representations for Multi-Person Pose Estimation",
+          "link": "https://arxiv.org/abs/2003.04030v3"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
+        "n": "4xRSN-50 (ensemble)",
+        "d": "2020-03-09",
+        "m1": "79.2",
+        "m2": "94.4",
+        "m3": "87.1",
+        "m4": "84.1"
+      },
+      {
+        "p": {
+          "name": "Self-Constrained Inference Optimization on Structural Groups for Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2207.02425v1"
+        },
+        "c": "",
+        "n": "SCIO (HRNet-48)",
+        "d": "2022-07-06",
+        "m1": "79.2",
+        "m2": "93.5",
+        "m3": "85.8",
+        "m4": "81.6"
+      },
+      {
+        "p": {
+          "name": "Towards High Performance Human Keypoint Detection",
+          "link": "https://arxiv.org/abs/2002.00537v2"
+        },
+        "c": "https://github.com/chaimi2013/CCM",
+        "n": "CCM+",
+        "d": "2020-02-03",
+        "m1": "78.9",
+        "m2": "93.8",
+        "m3": "86.0",
+        "m4": "83.6"
+      },
+      {
+        "p": {
+          "name": "Polarized Self-Attention: Towards High-quality Pixel-wise Regression",
+          "link": "https://arxiv.org/abs/2107.00782v2"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
+        "n": "UDP-Pose-PSA(256x192)",
+        "d": "2021-07-02",
+        "m1": "78.9",
+        "m2": "93.6",
+        "m3": "85.8",
+        "m4": "81.4"
+      },
+      {
+        "p": {
+          "name": "AID: Pushing the Performance Boundary of Human Pose Estimation with Information Dropping Augmentation",
+          "link": "https://arxiv.org/abs/2008.07139v2"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
+        "n": "AID (HRNet-W48plus)",
+        "d": "2020-08-17",
+        "m1": "78.7"
+      },
+      {
+        "p": {
+          "name": "Learning Delicate Local Representations for Multi-Person Pose Estimation",
+          "link": "https://arxiv.org/abs/2003.04030v3"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
+        "n": "4xRSN-50",
+        "d": "2020-03-09",
+        "m1": "78.6",
+        "m2": "94.3",
+        "m3": "86.6",
+        "m4": "83.8"
+      },
+      {
+        "p": {
+          "name": "PoseBH: Prototypical Multi-Dataset Training Beyond Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2505.17475v1"
+        },
+        "c": "",
+        "n": "PoseBH-H",
+        "d": "2025-05-23",
+        "m1": "78.6",
+        "m2": "93.3",
+        "m3": "86.2",
+        "m4": "83.5"
+      },
+      {
+        "p": {
+          "name": "ViTPose++: Vision Transformer for Generic Body Pose Estimation",
+          "link": "https://arxiv.org/abs/2212.04246v1"
+        },
+        "c": "https://github.com/ViTAE-Transformer/ViTPose",
+        "n": "ViTPose++-H (multi-dataset)",
+        "d": "2022-12-07",
+        "m1": "78.5",
+        "m2": "93.4",
+        "m3": "86.2",
+        "m4": "83.4"
+      },
+      {
+        "p": {
+          "name": "Poseur: Direct Human Pose Regression with Transformers",
+          "link": "https://arxiv.org/abs/2201.07412v2"
+        },
+        "c": "https://github.com/aim-uofa/poseur",
+        "n": "Poseur(384x288)",
+        "d": "2022-01-19",
+        "m1": "78.3",
+        "m2": "93.5",
+        "m3": "85.9"
+      },
+      {
+        "p": {
+          "name": "Human Pose as Compositional Tokens",
+          "link": "https://arxiv.org/abs/2303.11638v1"
+        },
+        "c": "https://github.com/gengzigang/pct",
+        "n": "PCT (256x256)",
+        "d": "2023-03-21",
+        "m1": "78.3",
+        "m2": "92.9",
+        "m3": "85.9"
+      },
+      {
+        "p": {
+          "name": "ViTPose++: Vision Transformer for Generic Body Pose Estimation",
+          "link": "https://arxiv.org/abs/2212.04246v1"
+        },
+        "c": "https://github.com/ViTAE-Transformer/ViTPose",
+        "n": "ViTPose-H",
+        "d": "2022-12-07",
+        "m1": "78.1",
+        "m2": "93.3",
+        "m3": "85.7",
+        "m4": "83.1"
+      },
+      {
+        "p": {
+          "name": "Poseur: Direct Human Pose Regression with Transformers",
+          "link": "https://arxiv.org/abs/2201.07412v1"
+        },
+        "c": "https://github.com/aim-uofa/Poseur",
+        "n": "Poseur (HRNet-W48, 384x288)",
+        "d": "2022-01-19",
+        "m1": "77.6",
+        "m2": "92.9",
+        "m3": "85.0"
+      },
+      {
+        "p": {
+          "name": "Distribution-Aware Coordinate Representation for Human Pose Estimation",
+          "link": "https://arxiv.org/abs/1910.06278v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
+        "n": "HRNet-W48+DARK",
+        "d": "2019-10-14",
+        "m1": "77.4",
+        "m2": "92.6",
+        "m3": "84.6",
+        "m4": "82.3"
+      },
+      {
+        "p": {
+          "name": "Revealing the Dark Secrets of Masked Image Modeling",
+          "link": "https://arxiv.org/abs/2205.13543v2"
+        },
+        "c": "https://github.com/SwinTransformer/MIM-Depth-Estimation",
+        "n": "SwinV2-L 1K-MIM",
+        "d": "2022-05-26",
+        "m1": "77.2"
+      },
+      {
+        "p": {
+          "name": "Heatmap Distribution Matching for Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2210.00740v1"
+        },
+        "c": "",
+        "n": "HDM (HRNet-W48, 384x288)",
+        "d": "2022-10-03",
+        "m1": "77.2",
+        "m2": "93.0",
+        "m3": "84.4",
+        "m4": "82.0"
+      },
+      {
+        "p": {
+          "name": "Heatmap Distribution Matching for Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2210.00740v1"
+        },
+        "c": "",
+        "n": "HDM (HRFormer-B, 384x288)",
+        "d": "2022-10-03",
+        "m1": "77.2",
+        "m2": "93.1",
+        "m3": "84.7",
+        "m4": "82.1"
+      },
+      {
+        "p": {
+          "name": "Deep High-Resolution Representation Learning for Human Pose Estimation",
+          "link": "http://arxiv.org/abs/1902.09212v1"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "HRNet-W48 + extra data",
+        "d": "2019-02-25",
+        "m1": "77.0",
+        "m2": "92.7",
+        "m3": "84.5",
+        "m4": "82.0"
+      },
+      {
+        "p": {
+          "name": "Lightweight Super-Resolution Head for Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2307.16765v1"
+        },
+        "c": "https://github.com/haonanwang0522/SRPose",
+        "n": "SRPose (HRFormer-B, 384x288)",
+        "d": "2023-07-31",
+        "m1": "76.9",
+        "m4": "81.8"
+      },
+      {
+        "p": {
+          "name": "Graph-PCNN: Two Stage Human Pose Estimation with Graph Pose Refinement",
+          "link": "https://arxiv.org/abs/2007.10599v1"
+        },
+        "c": "",
+        "n": "Graph-PCNN (HRNet-W48, 384x288)",
+        "d": "2020-07-21",
+        "m1": "76.8",
+        "m2": "92.6",
+        "m3": "84.3",
+        "m4": "81.6"
+      },
+      {
+        "p": {
+          "name": "EvoPose2D: Pushing the Boundaries of 2D Human Pose Estimation using Accelerated Neuroevolution with Weight Transfer",
+          "link": "https://arxiv.org/abs/2011.08446v2"
+        },
+        "c": "https://github.com/wmcnally/evopose2d",
+        "n": "EvoPose2D-L",
+        "d": "2020-11-17",
+        "m1": "76.8",
+        "m2": "92.5",
+        "m3": "84.3",
+        "m4": "81.7"
+      },
+      {
+        "p": {
+          "name": "PoseFix: Model-agnostic General Human Pose Refinement Network",
+          "link": "http://arxiv.org/abs/1812.03595v3"
+        },
+        "c": "https://github.com/mks0601/PoseFix_RELEASE",
+        "n": "PoseFix + HRNet-W48",
+        "d": "2018-12-10",
+        "m1": "76.7",
+        "m2": "92.6",
+        "m3": "84.1",
+        "m4": "81.5",
+        "m5": "95.8",
+        "m6": "88.1"
+      },
+      {
+        "p": {
+          "name": "Revealing the Dark Secrets of Masked Image Modeling",
+          "link": "https://arxiv.org/abs/2205.13543v2"
+        },
+        "c": "https://github.com/SwinTransformer/MIM-Depth-Estimation",
+        "n": "SwinV2-B 1K-MIM",
+        "d": "2022-05-26",
+        "m1": "76.7"
+      },
+      {
+        "p": {
+          "name": "SHaRPose: Sparse High-Resolution Representation for Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2312.10758v1"
+        },
+        "c": "https://github.com/AnxQ/sharpose",
+        "n": "SHaRPose-Base (384x288)",
+        "d": "2023-12-17",
+        "m1": "76.7",
+        "m2": "92.8",
+        "m3": "84.4",
+        "m4": "81.6"
+      },
+      {
+        "p": {
+          "name": "Adaptive Hypergraph Neural Network for Multi-Person Pose Estimation",
+          "link": "https://doi.org/10.1609/aaai.v36i3.20201"
+        },
+        "c": "",
+        "n": "AD-HNN (HRNet-W48)",
+        "d": "2022-06-28",
+        "m1": "76.6",
+        "m2": "92.4",
+        "m3": "84.3",
+        "m4": "81.5"
+      },
+      {
+        "p": {
+          "name": "PoseBH: Prototypical Multi-Dataset Training Beyond Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2505.17475v1"
+        },
+        "c": "",
+        "n": "PoseBH-B",
+        "d": "2025-05-23",
+        "m1": "76.6",
+        "m2": "92.6",
+        "m3": "84.4",
+        "m4": "81.7"
+      },
+      {
+        "p": {
+          "name": "Simple Baselines for Human Pose Estimation and Tracking",
+          "link": "http://arxiv.org/abs/1804.06208v2"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
+        "n": "Simple Base+*",
+        "d": "2018-04-17",
+        "m1": "76.5",
+        "m2": "92.4",
+        "m3": "84.0",
+        "m4": "81.5",
+        "m5": "95.8",
+        "m6": "88.2"
+      },
+      {
+        "p": {
+          "name": "The Devil is in the Details: Delving into Unbiased Data Processing for Human Pose Estimation",
+          "link": "https://arxiv.org/abs/1911.07524v2"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
+        "n": "HRNet-W48+UDP",
+        "d": "2019-11-18",
+        "m1": "76.5",
+        "m2": "92.7",
+        "m3": "84.0",
+        "m4": "81.6"
+      },
+      {
+        "p": {
+          "name": "Inter-image Contrastive Consistency for Multi-Person Pose Estimation",
+          "link": "https://doi.org/10.1609/aaai.v37i3.25410"
+        },
+        "c": "",
+        "n": "ICON (HRNet-W48, 384x288)",
+        "d": "2023-06-26",
+        "m1": "76.5",
+        "m2": "92.5",
+        "m3": "83.9"
+      },
+      {
+        "p": {
+          "name": "OmniPose: A Multi-Scale Framework for Multi-Person Pose Estimation",
+          "link": "https://arxiv.org/abs/2103.10180v1"
+        },
+        "c": "https://github.com/bmartacho/OmniPose",
+        "n": "OmniPose (WASPv2)",
+        "d": "2021-03-18",
+        "m1": "76.4",
+        "m2": "92.6",
+        "m3": "83.7",
+        "m4": "81.2"
+      },
+      {
+        "p": {
+          "name": "Adaptive Hypergraph Neural Network for Multi-Person Pose Estimation",
+          "link": "https://doi.org/10.1609/aaai.v36i3.20201"
+        },
+        "c": "",
+        "n": "AD-HNN (HRNet-W32)",
+        "d": "2022-06-28",
+        "m1": "76.3",
+        "m2": "92.3",
+        "m3": "83.8",
+        "m4": "81.2"
+      },
+      {
+        "p": {
+          "name": "Spatial-Aware Regression for Keypoint Localization",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Wang_Spatial-Aware_Regression_for_Keypoint_Localization_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/kennethwdk/SAR",
+        "n": "SAR (HRNet-W48)",
+        "d": "2024-06-16",
+        "m1": "76.3",
+        "m2": "92.5",
+        "m3": "83.6",
+        "m4": "81.2"
+      },
+      {
+        "p": {
+          "name": "Distribution-Aware Coordinate Representation for Human Pose Estimation",
+          "link": "https://arxiv.org/abs/1910.06278v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
+        "n": "DarkPose(384x288)",
+        "d": "2019-10-14",
+        "m1": "76.2"
+      },
+      {
+        "p": {
+          "name": "AID: Pushing the Performance Boundary of Human Pose Estimation with Information Dropping Augmentation",
+          "link": "https://arxiv.org/abs/2008.07139v2"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
+        "n": "AID (HRNet-W32)",
+        "d": "2020-08-17",
+        "m1": "76.2"
+      },
+      {
+        "p": {
+          "name": "HRFormer: High-Resolution Transformer for Dense Prediction",
+          "link": "https://arxiv.org/abs/2110.09408v3"
+        },
+        "c": "https://github.com/HRNet/HRFormer",
+        "n": "HRFormer-B",
+        "d": "2021-10-18",
+        "m1": "76.2",
+        "m2": "92.7",
+        "m3": "83.8",
+        "m4": "81.2"
+      },
+      {
+        "p": {
+          "name": "Rethinking on Multi-Stage Networks for Human Pose Estimation",
+          "link": "https://arxiv.org/abs/1901.00148v4"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
+        "n": "MSPN",
+        "d": "2019-01-01",
+        "m1": "76.1",
+        "m2": "93.4",
+        "m3": "83.8",
+        "m4": "81.6",
+        "m5": "96.3",
+        "m6": "88.1"
+      },
+      {
+        "p": {
+          "name": "TCFormer: Visual Recognition via Token Clustering Transformer",
+          "link": "https://arxiv.org/abs/2407.11321v1"
+        },
+        "c": "https://github.com/zengwang430521/TCFormer",
+        "n": "RLE + TCFormerV2-Base (384x288)",
+        "d": "2024-07-16",
+        "m1": "76.1",
+        "m2": "92.4",
+        "m3": "83.7"
+      },
+      {
+        "p": {
+          "name": "VISUALCENT: Visual Human Analysis using Dynamic Centroid Representation",
+          "link": "https://arxiv.org/abs/2504.19032v1"
+        },
+        "c": "",
+        "n": "VisualCent (ResNet-152)",
+        "d": "2025-04-26",
+        "m1": "76.1",
+        "m2": "92.9",
+        "m3": "83.9"
+      },
+      {
+        "p": {
+          "name": "Inter-image Contrastive Consistency for Multi-Person Pose Estimation",
+          "link": "https://doi.org/10.1609/aaai.v37i3.25410"
+        },
+        "c": "",
+        "n": "ICON (HRNet-W32, 384x288)",
+        "d": "2023-06-26",
+        "m1": "76.0",
+        "m2": "92.4",
+        "m3": "83.5"
+      },
+      {
+        "p": {
+          "name": "Towards Simple and Accurate Human Pose Estimation with Stair Network",
+          "link": "https://arxiv.org/abs/2202.09115v1"
+        },
+        "c": "",
+        "n": "STNet 3-stage* (384x288)",
+        "d": "2022-02-18",
+        "m1": "75.9",
+        "m2": "92.3",
+        "m3": "83.4",
+        "m4": "81.1"
+      },
+      {
+        "p": {
+          "name": "Multi-Instance Pose Networks: Rethinking Top-Down Pose Estimation",
+          "link": "https://arxiv.org/abs/2101.11223v3"
+        },
+        "c": "https://github.com/rawalkhirodkar/MIPNet",
+        "n": "MIPNet",
+        "d": "2021-01-27",
+        "m1": "75.7",
+        "m2": "92.4",
+        "m3": "83.3",
+        "m4": "80.5"
+      },
+      {
+        "p": {
+          "name": "AggPose: Deep Aggregation Vision Transformer for Infant Pose Estimation",
+          "link": "https://arxiv.org/abs/2205.05277v2"
+        },
+        "c": "https://github.com/szar-lab/aggpose",
+        "n": "AggPose(256x192)",
+        "d": "2022-05-11",
+        "m1": "75.7"
+      },
+      {
+        "p": {
+          "name": "Deep Multi-Task Networks For Occluded Pedestrian Pose Estimation",
+          "link": "https://arxiv.org/abs/2206.07510v2"
+        },
+        "c": "",
+        "n": "PPE (ResNeXt-101)",
+        "d": "2022-06-15",
+        "m1": "75.7",
+        "m2": "90.3",
+        "m3": "76.3"
+      },
+      {
+        "p": {
+          "name": "DE-HRNet: Detail enhanced high-resolution network for human pose estimation",
+          "link": "https://doi.org/10.1371/journal.pone.0325540"
+        },
+        "c": "",
+        "n": "DE-HRNet-W48 (384x288)",
+        "d": "2025-09-02",
+        "m1": "75.7",
+        "m2": "92.3",
+        "m3": "83.2",
+        "m4": "80.9"
+      },
+      {
+        "p": {
+          "name": "DE-HRNet: Detail enhanced high-resolution network for human pose estimation",
+          "link": "https://doi.org/10.1371/journal.pone.0325540"
+        },
+        "c": "",
+        "n": "DE-HRNet-W32 (384x288)",
+        "d": "2025-09-02",
+        "m1": "75.6",
+        "m2": "92.4",
+        "m3": "83.3",
+        "m4": "80.7"
+      },
+      {
+        "p": {
+          "name": "Deep High-Resolution Representation Learning for Human Pose Estimation",
+          "link": "http://arxiv.org/abs/1902.09212v1"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "HRNet-W48",
+        "d": "2019-02-25",
+        "m1": "75.5",
+        "m2": "92.5",
+        "m3": "83.3",
+        "m4": "80.5"
+      },
+      {
+        "p": {
+          "name": "Towards Simple and Accurate Human Pose Estimation with Stair Network",
+          "link": "https://arxiv.org/abs/2202.09115v1"
+        },
+        "c": "",
+        "n": "STNet 3-stage (384x288)",
+        "d": "2022-02-18",
+        "m1": "75.3",
+        "m2": "92.1",
+        "m3": "82.7",
+        "m4": "80.4"
+      },
+      {
+        "p": {
+          "name": "A Coarse-to-Fine Human Pose Estimation Method based on Two-stage Distillation and Progressive Graph Neural Network",
+          "link": "https://arxiv.org/abs/2508.11212v1"
+        },
+        "c": "",
+        "n": "Two-stage distillation + PGNN (HRNet-W32)",
+        "d": "2025-08-15",
+        "m1": "75.1",
+        "m2": "92.2",
+        "m3": "82.7",
+        "m4": "80.2"
+      },
+      {
+        "p": {
+          "name": "TransPose: Keypoint Localization via Transformer",
+          "link": "https://arxiv.org/abs/2012.14214v5"
+        },
+        "c": "https://github.com/yangsenius/TransPose",
+        "n": "TransPose-H-A6",
+        "d": "2020-12-28",
+        "m1": "75.0",
+        "m2": "92.2",
+        "m3": "82.3"
+      },
+      {
+        "p": {
+          "name": "PoseFix: Model-agnostic General Human Pose Refinement Network",
+          "link": "http://arxiv.org/abs/1812.03595v3"
+        },
+        "c": "https://github.com/mks0601/PoseFix_RELEASE",
+        "n": "PoseFix (SimpleBaseline ResNet-152)",
+        "d": "2018-12-10",
+        "m1": "74.9",
+        "m2": "91.2",
+        "m3": "81.9",
+        "m4": "79.9",
+        "m5": "94.8",
+        "m6": "86.3"
+      },
+      {
+        "p": {
+          "name": "An enhanced real-time human pose estimation method based on modified YOLOv8 framework",
+          "link": "https://doi.org/10.1038/s41598-024-58146-z"
+        },
+        "c": "",
+        "n": "CCAM-Person (960)",
+        "d": "2024-04-05",
+        "m1": "74.9",
+        "m2": "93.7",
+        "m3": "80.8",
+        "m4": "82.1"
+      },
+      {
+        "p": {
+          "name": "DPIT: Dual-Pipeline Integrated Transformer for Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2209.02431v1"
+        },
+        "c": "",
+        "n": "DPIT-L",
+        "d": "2022-09-02",
+        "m1": "74.6",
+        "m2": "91.9",
+        "m3": "82.1",
+        "m4": "79.9"
+      },
+      {
+        "p": {
+          "name": "A Context-and-Spatial Aware Network for Multi-Person Pose Estimation",
+          "link": "https://arxiv.org/abs/1905.05355v1"
+        },
+        "c": "",
+        "n": "CSANet (ResNet-152, 384x288)",
+        "d": "2019-05-14",
+        "m1": "74.5",
+        "m2": "91.7",
+        "m3": "82.1",
+        "m4": "80.7"
+      },
+      {
+        "p": {
+          "name": "Multi-Person Pose Estimation with Enhanced Channel-wise and Spatial Information",
+          "link": "https://arxiv.org/abs/1905.03466v1"
+        },
+        "c": "",
+        "n": "CSM+SCARB (ResNet-152, 384x288)",
+        "d": "2019-05-09",
+        "m1": "74.3",
+        "m2": "91.8",
+        "m3": "81.9",
+        "m4": "80.5"
+      },
+      {
+        "p": {
+          "name": "Denoising and Selecting Pseudo-Heatmaps for Semi-Supervised Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2310.00099v1"
+        },
+        "c": "",
+        "n": "SimpleBaseline-R152 + pseudo-heatmaps (unlabeled COCO + AIC)",
+        "d": "2023-09-29",
+        "m1": "74.2",
+        "m2": "92.1",
+        "m3": "82.4",
+        "m4": "79.4"
+      },
+      {
+        "p": {
+          "name": "VISUALCENT: Visual Human Analysis using Dynamic Centroid Representation",
+          "link": "https://arxiv.org/abs/2504.19032v1"
+        },
+        "c": "",
+        "n": "VisualCent (ResNet-101)",
+        "d": "2025-04-26",
+        "m1": "74.2",
+        "m2": "89.0",
+        "m3": "80.2"
+      },
+      {
+        "p": {
+          "name": "Lightweight Super-Resolution Head for Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2307.16765v1"
+        },
+        "c": "https://github.com/haonanwang0522/SRPose",
+        "n": "SRPose (ResNet-50, 384x288)",
+        "d": "2023-07-31",
+        "m1": "74.1",
+        "m4": "79.1"
+      },
+      {
+        "p": {
+          "name": "ViPNAS: Efficient Video Pose Estimation via Neural Architecture Search",
+          "link": "https://arxiv.org/abs/2105.10154v1"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
+        "n": "S-ViPNAS-HRNetW32",
+        "d": "2021-05-21",
+        "m1": "73.9",
+        "m2": "91.7",
+        "m3": "82.0",
+        "m4": "80.4"
+      },
+      {
+        "p": {
+          "name": "Simple Baselines for Human Pose Estimation and Tracking",
+          "link": "http://arxiv.org/abs/1804.06208v2"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
+        "n": "Flow-based (ResNet-152)",
+        "d": "2018-04-17",
+        "m1": "73.7",
+        "m2": "91.9",
+        "m3": "81.1",
+        "m4": "79.0"
+      },
+      {
+        "p": {
+          "name": "AID: Pushing the Performance Boundary of Human Pose Estimation with Information Dropping Augmentation",
+          "link": "https://arxiv.org/abs/2008.07139v2"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
+        "n": "AID (ResNet-50)",
+        "d": "2020-08-17",
+        "m1": "73.7"
+      },
+      {
+        "p": {
+          "name": "DistilPose: Tokenized Pose Regression with Heatmap Distillation",
+          "link": "https://arxiv.org/abs/2303.02455v1"
+        },
+        "c": "https://github.com/yshMars/DistilPose",
+        "n": "DistilPose-L",
+        "d": "2023-03-04",
+        "m1": "73.7",
+        "m2": "91.6",
+        "m3": "81.1"
+      },
+      {
+        "p": {
+          "name": "An efficient and accurate 2D human pose estimation method using VTTransPose network",
+          "link": "https://doi.org/10.21203/rs.3.rs-3167619/v1"
+        },
+        "c": "",
+        "n": "VTTransPose (256x192)",
+        "d": "2023-07-25",
+        "m1": "73.6",
+        "m2": "91.4",
+        "m3": "81.1"
+      },
+      {
+        "p": {
+          "name": "Spatial-Aware Regression for Keypoint Localization",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Wang_Spatial-Aware_Regression_for_Keypoint_Localization_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/kennethwdk/SAR",
+        "n": "SAR (ResNet-50)",
+        "d": "2024-06-16",
+        "m1": "73.5",
+        "m2": "91.9",
+        "m3": "80.9",
+        "m4": "78.8"
+      },
+      {
+        "p": {
+          "name": "RTMO: Towards High-Performance One-Stage Real-Time Multi-Person Pose Estimation",
+          "link": "https://arxiv.org/abs/2312.07526v1"
+        },
+        "c": "https://github.com/open-mmlab/mmpose/tree/main/projects/rtmo",
+        "n": "RTMO-l (extra data)",
+        "d": "2023-12-12",
+        "m1": "73.3",
+        "m2": "91.9",
+        "m3": "80.8",
+        "m4": "77.4"
+      },
+      {
+        "p": {
+          "name": "Cascaded Pyramid Network for Multi-Person Pose Estimation",
+          "link": "http://arxiv.org/abs/1711.07319v2"
+        },
+        "c": "https://github.com/chenyilun95/tf-cpn",
+        "n": "CPN+ [6, 9]",
+        "d": "2017-11-20",
+        "m1": "73.0",
+        "m2": "91.7",
+        "m3": "80.9",
+        "m4": "79.0",
+        "m5": "95.1",
+        "m6": "85.9"
+      },
+      {
+        "p": {
+          "name": "Joint Human Pose Estimation and Instance Segmentation with PosePlusSeg",
+          "link": "https://doi.org/10.1609/aaai.v36i1.19880"
+        },
+        "c": "https://github.com/RaiseLab/PosePlusSeg",
+        "n": "PosePlusSeg (ResNet-152)",
+        "d": "2022-06-28",
+        "m1": "72.8",
+        "m2": "88.4",
+        "m3": "78.7"
+      },
+      {
+        "p": {
+          "name": "Group Pose: A Simple Baseline for End-to-End Multi-person Pose Estimation",
+          "link": "https://arxiv.org/abs/2308.07313v1"
+        },
+        "c": "",
+        "n": "Group Pose (Swin-L)",
+        "d": "2023-08-14",
+        "m1": "72.8",
+        "m2": "92.5",
+        "m3": "81.0"
+      },
+      {
+        "p": {
+          "name": "AlphaPose: Whole-Body Regional Multi-Person Pose Estimation and Tracking in Real-Time",
+          "link": "https://arxiv.org/abs/2211.03375v1"
+        },
+        "c": "https://github.com/MVIG-SJTU/AlphaPose",
+        "n": "FastPose-dcn-hm ResNet-101 (AlphaPose)",
+        "d": "2022-11-07",
+        "m1": "72.7",
+        "m2": "92.2",
+        "m3": "81.3",
+        "m4": "78.1"
+      },
+      {
+        "p": {
+          "name": "Explicit Box Detection Unifies End-to-End Multi-Person Pose Estimation",
+          "link": "https://arxiv.org/abs/2302.01593v1"
+        },
+        "c": "https://github.com/IDEA-Research/ED-Pose",
+        "n": "ED-Pose (Swin-L)",
+        "d": "2023-02-03",
+        "m1": "72.7",
+        "m2": "92.3",
+        "m3": "80.9"
+      },
+      {
+        "p": {
+          "name": "SDPose: Tokenized Pose Estimation via Circulation-Guide Self-Distillation",
+          "link": "https://arxiv.org/abs/2404.03518v1"
+        },
+        "c": "https://github.com/MartyrPenink/SDPose",
+        "n": "SDPose-S-V2 (self-distillation)",
+        "d": "2024-04-04",
+        "m1": "72.7",
+        "m2": "91.2",
+        "m3": "80.3"
+      },
+      {
+        "p": {
+          "name": "A Coarse-Fine Network for Keypoint Localization",
+          "link": "https://openaccess.thecvf.com/content_iccv_2017/html/Huang_A_Coarse-Fine_Network_ICCV_2017_paper.html"
+        },
+        "c": "",
+        "n": "CFN",
+        "d": "2017-10-22",
+        "m1": "72.6",
+        "m2": "86.1"
+      },
+      {
+        "p": {
+          "name": "AlphaPose: Whole-Body Regional Multi-Person Pose Estimation and Tracking in Real-Time",
+          "link": "https://arxiv.org/abs/2211.03375v1"
+        },
+        "c": "https://github.com/MVIG-SJTU/AlphaPose",
+        "n": "FastPose-dcn-hm ResNet-50 (AlphaPose)",
+        "d": "2022-11-07",
+        "m1": "72.6",
+        "m2": "92.2",
+        "m3": "81.2",
+        "m4": "78.1"
+      },
+      {
+        "p": {
+          "name": "HEViTPose: High-Efficiency Vision Transformer for Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2311.13615v1"
+        },
+        "c": "",
+        "n": "HEViTPose-B",
+        "d": "2023-11-22",
+        "m1": "72.6",
+        "m2": "92.0",
+        "m3": "80.9",
+        "m4": "78.0"
+      },
+      {
+        "p": {
+          "name": "RMPE: Regional Multi-person Pose Estimation",
+          "link": "http://arxiv.org/abs/1612.00137v5"
+        },
+        "c": "https://github.com/MVIG-SJTU/AlphaPose",
+        "n": "RMPE++",
+        "d": "2016-12-01",
+        "m1": "72.3",
+        "m2": "89.2",
+        "m3": "79.1"
+      },
+      {
+        "p": {
+          "name": "QueryPose: Sparse Multi-Person Pose Regression via Spatial-Aware Part-Level Query",
+          "link": "https://arxiv.org/abs/2212.07855v1"
+        },
+        "c": "https://github.com/buptxyb666/QueryPose",
+        "n": "QueryPose (HRNet-W48)",
+        "d": "2022-12-15",
+        "m1": "72.3",
+        "m2": "91.5",
+        "m3": "78.7"
+      },
+      {
+        "p": {
+          "name": "A Characteristic Function-Based Method for Bottom-Up Human Pose Estimation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2023/html/Qu_A_Characteristic_Function-Based_Method_for_Bottom-Up_Human_Pose_Estimation_CVPR_2023_paper.html"
+        },
+        "c": "",
+        "n": "Characteristic Function (HrHRNet-W48, multi-scale)",
+        "d": "2023-06-18",
+        "m1": "72.3",
+        "m2": "91.5",
+        "m3": "79.8"
+      },
+      {
+        "p": {
+          "name": "TFPose: Direct Human Pose Estimation with Transformers",
+          "link": "https://arxiv.org/abs/2103.15320v1"
+        },
+        "c": "",
+        "n": "TFPose (ND=6 ResNet-50)",
+        "d": "2021-03-29",
+        "m1": "72.2",
+        "m2": "90.9",
+        "m3": "80.1"
+      },
+      {
+        "p": {
+          "name": "QueryPose: Sparse Multi-Person Pose Regression via Spatial-Aware Part-Level Query",
+          "link": "https://arxiv.org/abs/2212.07855v1"
+        },
+        "c": "https://github.com/buptxyb666/QueryPose",
+        "n": "QueryPose (Swin-L)",
+        "d": "2022-12-15",
+        "m1": "72.2",
+        "m2": "92.0",
+        "m3": "78.8"
+      },
+      {
+        "p": {
+          "name": "DETRPose: Real-Time End-to-End Multi-Person Pose Estimation via Modified Transformer Decoder and Novel Denoising Keypoints",
+          "link": "https://arxiv.org/abs/2506.13027v1"
+        },
+        "c": "https://github.com/SebastianJanampa/DETRPose",
+        "n": "DETRPose-X",
+        "d": "2025-06-16",
+        "m1": "72.2",
+        "m2": "91.4",
+        "m3": "79.3",
+        "m4": "78.8"
+      },
+      {
+        "p": {
+          "name": "Cascaded Pyramid Network for Multi-Person Pose Estimation",
+          "link": "http://arxiv.org/abs/1711.07319v2"
+        },
+        "c": "https://github.com/chenyilun95/tf-cpn",
+        "n": "CPN",
+        "d": "2017-11-20",
+        "m1": "72.1",
+        "m2": "91.4",
+        "m3": "80.0",
+        "m4": "78.5",
+        "m5": "95.1",
+        "m6": "85.3"
+      },
+      {
+        "p": {
+          "name": "ER-Pose: Rethinking Keypoint-Driven Representation Learning for Real-Time Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2603.08681v1"
+        },
+        "c": "",
+        "n": "ER-Pose-l (800x800)",
+        "d": "2026-03-09",
+        "m1": "71.9",
+        "m2": "91.9",
+        "m3": "79.6"
+      },
+      {
+        "p": {
+          "name": "Learning Quality-aware Representation for Multi-person Pose Regression",
+          "link": "https://arxiv.org/abs/2201.01087v1"
+        },
+        "c": "",
+        "n": "CIR&QEM (HRNet-W48, multi-scale)",
+        "d": "2022-01-04",
+        "m1": "71.7",
+        "m2": "90.4",
+        "m3": "78.7",
+        "m4": "76.5"
+      },
+      {
+        "p": {
+          "name": "ScaleNAS: One-Shot Learning of Scale-Aware Representations for Visual Recognition",
+          "link": "https://arxiv.org/abs/2011.14584v1"
+        },
+        "c": "",
+        "n": "HigherHRNet (ScaleNet_P4)",
+        "d": "2020-11-30",
+        "m1": "71.6",
+        "m2": "90.3",
+        "m3": "78.2",
+        "m4": "76.0",
+        "m5": "92.3"
+      },
+      {
+        "p": {
+          "name": "RTMO: Towards High-Performance One-Stage Real-Time Multi-Person Pose Estimation",
+          "link": "https://arxiv.org/abs/2312.07526v1"
+        },
+        "c": "https://github.com/open-mmlab/mmpose/tree/main/projects/rtmo",
+        "n": "RTMO-l",
+        "d": "2023-12-12",
+        "m1": "71.6",
+        "m2": "91.1",
+        "m3": "79.0",
+        "m4": "75.6"
+      },
+      {
+        "p": {
+          "name": "Bottom-Up 2D Pose Estimation via Dual Anatomical Centers for Small-Scale Persons",
+          "link": "https://arxiv.org/abs/2208.11975v1"
+        },
+        "c": "",
+        "n": "Dual Anatomical Centers (HRNet-W48, multi-scale)",
+        "d": "2022-08-25",
+        "m1": "71.5",
+        "m2": "89.1",
+        "m3": "78.5"
+      },
+      {
+        "p": {
+          "name": "The Center of Attention: Center-Keypoint Grouping via Attention for Multi-Person Pose Estimation",
+          "link": "https://arxiv.org/abs/2110.05132v1"
+        },
+        "c": "https://github.com/dvl-tum/center-group",
+        "n": "CenterGroup",
+        "d": "2021-10-11",
+        "m1": "71.4"
+      },
+      {
+        "p": {
+          "name": "AdaptivePose++: A Powerful Single-Stage Network for Multi-Person Pose Regression",
+          "link": "https://arxiv.org/abs/2210.04014v1"
+        },
+        "c": "https://github.com/buptxyb666/AdaptivePose",
+        "n": "AdaptivePose++ (HRNet-W48, multi-scale)",
+        "d": "2022-10-08",
+        "m1": "71.4",
+        "m2": "90.2",
+        "m3": "78.5"
+      },
+      {
+        "p": {
+          "name": "AdaptivePose: Human Parts as Adaptive Points",
+          "link": "https://arxiv.org/abs/2112.13635v1"
+        },
+        "c": "https://github.com/buptxyb666/AdaptivePose",
+        "n": "AdaptivePose (HRNet-W48, multi-scale)",
+        "d": "2021-12-27",
+        "m1": "71.3",
+        "m2": "90.0",
+        "m3": "78.3"
+      },
+      {
+        "p": {
+          "name": "BAPose: Bottom-Up Pose Estimation with Disentangled Waterfall Representations",
+          "link": "https://arxiv.org/abs/2112.10716v1"
+        },
+        "c": "https://github.com/bmartacho/BAPose",
+        "n": "BAPose (W48, multi-scale)",
+        "d": "2021-12-20",
+        "m1": "71.2",
+        "m2": "89.4",
+        "m3": "78.1",
+        "m4": "76.8"
+      },
+      {
+        "p": {
+          "name": "End-to-End Multi-Person Pose Estimation with Transformers",
+          "link": "https://openaccess.thecvf.com/content/CVPR2022/html/Shi_End-to-End_Multi-Person_Pose_Estimation_With_Transformers_CVPR_2022_paper.html"
+        },
+        "c": "https://github.com/hikvision-research/opera",
+        "n": "PETR (Swin-L, multi-scale)",
+        "d": "2022-06-19",
+        "m1": "71.2",
+        "m2": "91.4",
+        "m3": "79.6"
+      },
+      {
+        "p": {
+          "name": "BoIR: Box-Supervised Instance Representation for Multi-Person Pose Estimation",
+          "link": "https://arxiv.org/abs/2309.14072v1"
+        },
+        "c": "https://github.com/uyoung-jeong/BoIR",
+        "n": "BoIR (HRNet-W48)",
+        "d": "2023-09-25",
+        "m1": "71.2",
+        "m2": "90.8",
+        "m3": "78.6",
+        "m4": "77.1"
+      },
+      {
+        "p": {
+          "name": "DETRPose: Real-Time End-to-End Multi-Person Pose Estimation via Modified Transformer Decoder and Novel Denoising Keypoints",
+          "link": "https://arxiv.org/abs/2506.13027v1"
+        },
+        "c": "https://github.com/SebastianJanampa/DETRPose",
+        "n": "DETRPose-L",
+        "d": "2025-06-16",
+        "m1": "71.2",
+        "m2": "91.2",
+        "m3": "78.1",
+        "m4": "78.1"
+      },
+      {
+        "p": {
+          "name": "SIMPLE: SIngle-network with Mimicking and Point Learning for Bottom-up Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2104.02486v1"
+        },
+        "c": "",
+        "n": "SIMPLE-W32 (multi-scale)",
+        "d": "2021-04-06",
+        "m1": "71.1",
+        "m2": "90.2",
+        "m3": "79.4"
+      },
+      {
+        "p": {
+          "name": "A Characteristic Function-Based Method for Bottom-Up Human Pose Estimation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2023/html/Qu_A_Characteristic_Function-Based_Method_for_Bottom-Up_Human_Pose_Estimation_CVPR_2023_paper.html"
+        },
+        "c": "",
+        "n": "Characteristic Function (HrHRNet-W48)",
+        "d": "2023-06-18",
+        "m1": "71.1",
+        "m2": "90.4",
+        "m3": "78.2"
+      },
+      {
+        "p": {
+          "name": "Learning Quality-aware Representation for Multi-person Pose Regression",
+          "link": "https://arxiv.org/abs/2201.01087v1"
+        },
+        "c": "",
+        "n": "CIR&QEM (HRNet-W48)",
+        "d": "2022-01-04",
+        "m1": "71.0",
+        "m2": "90.2",
+        "m3": "78.2",
+        "m4": "76.0"
+      },
+      {
+        "p": {
+          "name": "Bottom-Up 2D Pose Estimation via Dual Anatomical Centers for Small-Scale Persons",
+          "link": "https://arxiv.org/abs/2208.11975v1"
+        },
+        "c": "",
+        "n": "Dual Anatomical Centers (HRNet-W48)",
+        "d": "2022-08-25",
+        "m1": "71.0",
+        "m2": "89.5",
+        "m3": "78.0"
+      },
+      {
+        "p": {
+          "name": "DistilPose: Tokenized Pose Regression with Heatmap Distillation",
+          "link": "https://arxiv.org/abs/2303.02455v1"
+        },
+        "c": "https://github.com/yshMars/DistilPose",
+        "n": "DistilPose-S",
+        "d": "2023-03-04",
+        "m1": "71.0",
+        "m2": "91.0",
+        "m3": "78.9"
+      },
+      {
+        "p": {
+          "name": "Pose Neural Fabrics Search",
+          "link": "https://arxiv.org/abs/1909.07068v4"
+        },
+        "c": "https://github.com/yangsenius/Pose-Neural-Fabrics-Search",
+        "n": "PNFS",
+        "d": "2019-09-16",
+        "m1": "70.9"
+      },
+      {
+        "p": {
+          "name": "OpenPifPaf: Composite Fields for Semantic Keypoint Detection and Spatio-Temporal Association",
+          "link": "https://arxiv.org/abs/2103.02440v2"
+        },
+        "c": "https://github.com/openpifpaf/openpifpaf",
+        "n": "OpenPifPaf",
+        "d": "2021-03-03",
+        "m1": "70.9"
+      },
+      {
+        "p": {
+          "name": "An improved lightweight high-resolution network based on multi-dimensional weighting for human pose estimation",
+          "link": "https://doi.org/10.1038/s41598-023-33938-x"
+        },
+        "c": "",
+        "n": "MDW-HRNet-30 (384x288)",
+        "d": "2023-05-04",
+        "m1": "70.9",
+        "m2": "91.0",
+        "m3": "78.3",
+        "m4": "76.8"
+      },
+      {
+        "p": {
+          "name": "FasterPose: A Faster Simple Baseline for Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2107.03215v1"
+        },
+        "c": "https://github.com/hbin-ac/FasterPose",
+        "n": "FasterPose (ResNet-50, 256x192)",
+        "d": "2021-07-07",
+        "m1": "70.8",
+        "m2": "91.3",
+        "m3": "78.8",
+        "m4": "76.4"
+      },
+      {
+        "p": {
+          "name": "Learning Local-Global Contextual Adaptation for Multi-Person Pose Estimation",
+          "link": "https://arxiv.org/abs/2109.03622v1"
+        },
+        "c": "https://github.com/cherubicXN/logocap",
+        "n": "LOGO-CAP (HRNet-W48)",
+        "d": "2021-09-08",
+        "m1": "70.8",
+        "m2": "89.7",
+        "m3": "77.8"
+      },
+      {
+        "p": {
+          "name": "Dite-HRNet: Dynamic Lightweight High-Resolution Network for Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2204.10762v3"
+        },
+        "c": "https://github.com/ziyizhang27/dite-hrnet",
+        "n": "Dite-HRNet-30",
+        "d": "2022-04-22",
+        "m1": "70.6",
+        "m2": "90.8",
+        "m3": "78.2",
+        "m4": "76.4"
+      },
+      {
+        "p": {
+          "name": "HigherHRNet: Scale-Aware Representation Learning for Bottom-Up Human Pose Estimation",
+          "link": "https://arxiv.org/abs/1908.10357v3"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
+        "n": "HigherHRNet (HR-Net-48)",
+        "d": "2019-08-27",
+        "m1": "70.5",
+        "m2": "89.3",
+        "m3": "77.2"
+      },
+      {
+        "p": {
+          "name": "End-to-End Multi-Person Pose Estimation with Transformers",
+          "link": "https://openaccess.thecvf.com/content/CVPR2022/html/Shi_End-to-End_Multi-Person_Pose_Estimation_With_Transformers_CVPR_2022_paper.html"
+        },
+        "c": "https://github.com/hikvision-research/opera",
+        "n": "PETR (Swin-L)",
+        "d": "2022-06-19",
+        "m1": "70.5",
+        "m2": "91.5",
+        "m3": "78.7"
+      },
+      {
+        "p": {
+          "name": "Greit-HRNet: Grouped Lightweight High-Resolution Network for Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2407.07389v1"
+        },
+        "c": "",
+        "n": "Greit-HRNet-30 (384x288)",
+        "d": "2024-07-10",
+        "m1": "70.5",
+        "m2": "90.6",
+        "m3": "78.1",
+        "m4": "76.1"
+      },
+      {
+        "p": {
+          "name": "LGM-Pose: A Lightweight Global Modeling Network for Real-time Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2506.04561v1"
+        },
+        "c": "",
+        "n": "LGM-Pose (384x288)",
+        "d": "2025-06-05",
+        "m1": "70.4",
+        "m2": "91.2",
+        "m3": "77.8",
+        "m4": "75.7"
+      },
+      {
+        "p": {
+          "name": "ViPNAS: Efficient Video Pose Estimation via Neural Architecture Search",
+          "link": "https://arxiv.org/abs/2105.10154v1"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
+        "n": "S-ViPNAS-Res50",
+        "d": "2021-05-21",
+        "m1": "70.3",
+        "m2": "90.7",
+        "m3": "78.8",
+        "m4": "77.3"
+      },
+      {
+        "p": {
+          "name": "Rethinking Keypoint Representations: Modeling Keypoints and Poses as Objects for Multi-Person Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2111.08557v4"
+        },
+        "c": "https://github.com/wmcnally/kapao",
+        "n": "KAPAO-L",
+        "d": "2021-11-16",
+        "m1": "70.3",
+        "m2": "91.2",
+        "m3": "77.8",
+        "m4": "77.7"
+      },
+      {
+        "p": {
+          "name": "BAPose: Bottom-Up Pose Estimation with Disentangled Waterfall Representations",
+          "link": "https://arxiv.org/abs/2112.10716v1"
+        },
+        "c": "https://github.com/bmartacho/BAPose",
+        "n": "BAPose (W48)",
+        "d": "2021-12-20",
+        "m1": "70.3",
+        "m2": "89.6",
+        "m3": "77.5",
+        "m4": "75.4"
+      },
+      {
+        "p": {
+          "name": "ER-Pose: Rethinking Keypoint-Driven Representation Learning for Real-Time Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2603.08681v1"
+        },
+        "c": "",
+        "n": "ER-Pose-m (800x800)",
+        "d": "2026-03-09",
+        "m1": "70.3",
+        "m2": "91.4",
+        "m3": "77.9"
+      },
+      {
+        "p": {
+          "name": "SMPR: Single-Stage Multi-Person Pose Regression",
+          "link": "https://arxiv.org/abs/2006.15576v2"
+        },
+        "c": "https://github.com/cmdi-dlut/SMPR",
+        "n": "SMPR (HR-Net-32)",
+        "d": "2020-06-28",
+        "m1": "70.2",
+        "m2": "89.7",
+        "m3": "77.5"
+      },
+      {
+        "p": {
+          "name": "Global Relation Modeling and Refinement for Bottom-Up Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2303.14888v1"
+        },
+        "c": "",
+        "n": "GRM (HRNet-W48, multi-scale)",
+        "d": "2023-03-27",
+        "m1": "70.2",
+        "m2": "88.9",
+        "m3": "77.2",
+        "m4": "76.1",
+        "m5": "93.1",
+        "m6": "82.2"
+      },
+      {
+        "p": {
+          "name": "Group Pose: A Simple Baseline for End-to-End Multi-person Pose Estimation",
+          "link": "https://arxiv.org/abs/2308.07313v1"
+        },
+        "c": "",
+        "n": "Group Pose (ResNet-50)",
+        "d": "2023-08-14",
+        "m1": "70.2",
+        "m2": "90.5",
+        "m3": "77.8"
+      },
+      {
+        "p": {
+          "name": "X-HRNet: Towards Lightweight Human Pose Estimation with Spatially Unidimensional Self-Attention",
+          "link": "https://arxiv.org/abs/2310.08042v1"
+        },
+        "c": "",
+        "n": "X-HRNet-30 (384x288)",
+        "d": "2023-10-12",
+        "m1": "70.0",
+        "m2": "90.6",
+        "m3": "77.7",
+        "m4": "75.5"
+      },
+      {
+        "p": {
+          "name": "Explicit Box Detection Unifies End-to-End Multi-Person Pose Estimation",
+          "link": "https://arxiv.org/abs/2302.01593v1"
+        },
+        "c": "https://github.com/IDEA-Research/ED-Pose",
+        "n": "ED-Pose (ResNet-50)",
+        "d": "2023-02-03",
+        "m1": "69.8",
+        "m2": "90.2",
+        "m3": "77.2"
+      },
+      {
+        "p": {
+          "name": "Lite-HRNet: A Lightweight High-Resolution Network",
+          "link": "https://arxiv.org/abs/2104.06403v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
+        "n": "Lite-HRNet-30",
+        "d": "2021-04-13",
+        "m1": "69.7",
+        "m2": "90.7",
+        "m3": "77.5",
+        "m4": "75.4"
+      },
+      {
+        "p": {
+          "name": "MultiPoseNet: Fast Multi-Person Pose Estimation using Pose Residual Network",
+          "link": "http://arxiv.org/abs/1807.04067v1"
+        },
+        "c": "https://github.com/salihkaragoz/pose-residual-network-pytorch",
+        "n": "Pose Residual Network",
+        "d": "2018-07-11",
+        "m1": "69.6",
+        "m2": "86.3",
+        "m3": "76.6",
+        "m4": "73.5"
+      },
+      {
+        "p": {
+          "name": "Lightweight Human Pose Estimation Using Heatmap-Weighting Loss",
+          "link": "https://arxiv.org/abs/2205.10611v1"
+        },
+        "c": "https://github.com/HAIV-Lab/ICPR22w",
+        "n": "Heatmap-Weighting Loss (MobileNetV3, 384x288)",
+        "d": "2022-05-21",
+        "m1": "69.2",
+        "m2": "90.6",
+        "m3": "76.9",
+        "m4": "74.7"
+      },
+      {
+        "p": {
+          "name": "Global Relation Modeling and Refinement for Bottom-Up Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2303.14888v1"
+        },
+        "c": "",
+        "n": "GRM (HRNet-W48)",
+        "d": "2023-03-27",
+        "m1": "69.1",
+        "m2": "89.0",
+        "m3": "76.0",
+        "m4": "74.8",
+        "m5": "92.7",
+        "m6": "80.7"
+      },
+      {
+        "p": {
+          "name": "DHRNet: A Dual-Path Hierarchical Relation Network for Multi-Person Pose Estimation",
+          "link": "https://arxiv.org/abs/2404.14025v1"
+        },
+        "c": "https://github.com/YHDang/dhrnet-multi-pose-estimation",
+        "n": "DHRNet (HRNet-W32)",
+        "d": "2024-04-22",
+        "m1": "69.0",
+        "m2": "89.8",
+        "m3": "76.4",
+        "m4": "74.7"
+      },
+      {
+        "p": {
+          "name": "Rethinking Keypoint Representations: Modeling Keypoints and Poses as Objects for Multi-Person Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2111.08557v4"
+        },
+        "c": "https://github.com/wmcnally/kapao",
+        "n": "KAPAO-M",
+        "d": "2021-11-16",
+        "m1": "68.8",
+        "m2": "90.5",
+        "m3": "76.5",
+        "m4": "76.3"
+      },
+      {
+        "p": {
+          "name": "Lightweight Multiperson Pose Estimation With Staggered Alignment Self-Distillation",
+          "link": "https://doi.org/10.1109/tmm.2024.3387754"
+        },
+        "c": "",
+        "n": "SASD-L",
+        "d": "2024-04-12",
+        "m1": "68.8"
+      },
+      {
+        "p": {
+          "name": "PersonLab: Person Pose Estimation and Instance Segmentation with a Bottom-Up, Part-Based, Geometric Embedding Model",
+          "link": "http://arxiv.org/abs/1803.08225v1"
+        },
+        "c": "https://github.com/google-coral/project-posenet",
+        "n": "PersonLab (multi-scale)",
+        "d": "2018-03-22",
+        "m1": "68.7",
+        "m2": "89.0",
+        "m3": "75.4"
+      },
+      {
+        "p": {
+          "name": "Towards Accurate Multi-person Pose Estimation in the Wild",
+          "link": "http://arxiv.org/abs/1701.01779v2"
+        },
+        "c": "",
+        "n": "G-RMI*",
+        "d": "2017-01-06",
+        "m1": "68.5",
+        "m2": "87.1",
+        "m3": "75.5",
+        "m4": "73.3"
+      },
+      {
+        "p": {
+          "name": "YOLO-Pose: Enhancing YOLO for Multi Person Pose Estimation Using Object Keypoint Similarity Loss",
+          "link": "https://arxiv.org/abs/2204.06806v1"
+        },
+        "c": "https://github.com/texasinstruments/edgeai-yolov5",
+        "n": "YOLOv5l6-pose",
+        "d": "2022-04-14",
+        "m1": "68.5",
+        "m2": "90.3",
+        "m3": "74.8",
+        "m4": "75.0"
+      },
+      {
+        "p": {
+          "name": "Dite-HRNet: Dynamic Lightweight High-Resolution Network for Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2204.10762v1"
+        },
+        "c": "https://github.com/ZiyiZhang27/Dite-HRNet",
+        "n": "Dite-HRNet-18 (384x288)",
+        "d": "2022-04-22",
+        "m1": "68.4",
+        "m2": "89.9",
+        "m3": "75.8",
+        "m4": "74.4"
+      },
+      {
+        "p": {
+          "name": "BiHRNet: A Binary high-resolution network for Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2311.10296v1"
+        },
+        "c": "",
+        "n": "BiHRNet (384x288)",
+        "d": "2023-11-17",
+        "m1": "68.3",
+        "m2": "90.2",
+        "m3": "76.1"
+      },
+      {
+        "p": {
+          "name": "Simple Pose: Rethinking and Improving a Bottom-up Approach for Multi-Person Pose Estimation",
+          "link": "https://arxiv.org/abs/1911.10529v1"
+        },
+        "c": "https://github.com/osmr/imgclsmob",
+        "n": "Simple Pose",
+        "d": "2019-11-24",
+        "m1": "68.1",
+        "m4": "72.1",
+        "m5": "88.2"
+      },
+      {
+        "p": {
+          "name": "Integral Human Pose Regression",
+          "link": "https://arxiv.org/abs/1711.08229v1"
+        },
+        "c": "https://github.com/JimmySuen/integral-human-pose",
+        "n": "Integral Pose (ResNet-101, 256x256)",
+        "d": "2017-11-22",
+        "m1": "67.8",
+        "m2": "88.2",
+        "m3": "74.8"
+      },
+      {
+        "p": {
+          "name": "2D Human Pose Estimation with Explicit Anatomical Keypoints Structure Constraints",
+          "link": "https://arxiv.org/abs/2212.02163v1"
+        },
+        "c": "",
+        "n": "DEKR + keypoint structure constraints (HRNet-W32)",
+        "d": "2022-12-05",
+        "m1": "67.7",
+        "m2": "88.3",
+        "m3": "74.6",
+        "m5": "72.8"
+      },
+      {
+        "p": {
+          "name": "Joint Coordinate Regression and Association For Multi-Person Pose Estimation, A Pure Neural Network Approach",
+          "link": "https://arxiv.org/abs/2307.01004v1"
+        },
+        "c": "",
+        "n": "JCRA (ResNet-50)",
+        "d": "2023-07-03",
+        "m1": "67.6",
+        "m2": "90.0",
+        "m3": "75.2"
+      },
+      {
+        "p": {
+          "name": "AdaptivePose: Human Parts as Adaptive Points",
+          "link": "https://arxiv.org/abs/2112.13635v1"
+        },
+        "c": "https://github.com/buptxyb666/AdaptivePose",
+        "n": "AdaptivePose (DLA-34, multi-scale)",
+        "d": "2021-12-27",
+        "m1": "67.4",
+        "m2": "88.2",
+        "m3": "73.7"
+      },
+      {
+        "p": {
+          "name": "PoseTrans: A Simple Yet Effective Pose Transformation Augmentation for Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2208.07755v1"
+        },
+        "c": "",
+        "n": "HigherHRNet-W32 + PoseTrans",
+        "d": "2022-08-16",
+        "m1": "67.4",
+        "m2": "88.3",
+        "m3": "73.9",
+        "m4": "72.2"
+      },
+      {
+        "p": {
+          "name": "Towards High Performance One-Stage Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2301.04842v1"
+        },
+        "c": "",
+        "n": "One-Stage HPE (ResNet-101)",
+        "d": "2023-01-12",
+        "m1": "67.1",
+        "m2": "89.0",
+        "m3": "74.0"
+      },
+      {
+        "p": {
+          "name": "Single-Stage Multi-Person Pose Machines",
+          "link": "https://arxiv.org/abs/1908.09220v1"
+        },
+        "c": "https://github.com/murdockhou/Single-Stage-Multi-person-Pose-Machines",
+        "n": "SPM",
+        "d": "2019-08-24",
+        "m1": "66.9",
+        "m2": "88.5",
+        "m3": "72.9"
+      },
+      {
+        "p": {
+          "name": "Lite-HRNet: A Lightweight High-Resolution Network",
+          "link": "https://arxiv.org/abs/2104.06403v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
+        "n": "Lite-HRNet-18",
+        "d": "2021-04-13",
+        "m1": "66.9",
+        "m2": "89.4",
+        "m3": "74.4",
+        "m4": "72.6"
+      },
+      {
+        "p": {
+          "name": "PifPaf: Composite Fields for Human Pose Estimation",
+          "link": "http://arxiv.org/abs/1903.06593v2"
+        },
+        "c": "https://github.com/thanhtrung98/human_pose_estimation",
+        "n": "PifPaf (single-scale)",
+        "d": "2019-03-15",
+        "m1": "66.7"
+      },
+      {
+        "p": {
+          "name": "YOLO-Pose: Enhancing YOLO for Multi Person Pose Estimation Using Object Keypoint Similarity Loss",
+          "link": "https://arxiv.org/abs/2204.06806v1"
+        },
+        "c": "https://github.com/TexasInstruments/edgeai-yolov5",
+        "n": "YOLOv5m6-pose",
+        "d": "2022-04-14",
+        "m1": "66.6",
+        "m2": "89.8",
+        "m3": "73.8",
+        "m4": "73.4"
+      },
+      {
+        "p": {
+          "name": "PersonLab: Person Pose Estimation and Instance Segmentation with a Bottom-Up, Part-Based, Geometric Embedding Model",
+          "link": "http://arxiv.org/abs/1803.08225v1"
+        },
+        "c": "https://github.com/google-coral/project-posenet",
+        "n": "PersonLab (single-scale)",
+        "d": "2018-03-22",
+        "m1": "66.5",
+        "m2": "88.0",
+        "m3": "72.6",
+        "m4": "71.0"
+      },
+      {
+        "p": {
+          "name": "Attend to Who You Are: Supervising Self-Attention for Keypoint Detection and Instance-Aware Association",
+          "link": "https://arxiv.org/abs/2111.12892v1"
+        },
+        "c": "https://github.com/yangsenius/ssa",
+        "n": "Supervising Self-Attention",
+        "d": "2021-11-25",
+        "m1": "66.5"
+      },
+      {
+        "p": {
+          "name": "Towards High Performance One-Stage Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2301.04842v1"
+        },
+        "c": "",
+        "n": "One-Stage HPE (ResNet-50)",
+        "d": "2023-01-12",
+        "m1": "66.4",
+        "m2": "88.4",
+        "m3": "73.1"
+      },
+      {
+        "p": {
+          "name": "MovePose: A High-performance Human Pose Estimation Algorithm on Mobile and Edge Devices",
+          "link": "https://arxiv.org/abs/2308.09084v1"
+        },
+        "c": "",
+        "n": "MovePose (flip test)",
+        "d": "2023-08-17",
+        "m1": "65.9",
+        "m2": "88.9",
+        "m3": "73.0"
+      },
+      {
+        "p": {
+          "name": "Greedy Offset-Guided Keypoint Grouping for Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2107.03098v2"
+        },
+        "c": "https://github.com/hellojialee/OffsetGuided",
+        "n": "Hourglass-104",
+        "d": "2021-07-07",
+        "m1": "65.6"
+      },
+      {
+        "p": {
+          "name": "Associative Embedding: End-to-End Learning for Joint Detection and Grouping",
+          "link": "http://arxiv.org/abs/1611.05424v2"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
+        "n": "AE",
+        "d": "2016-11-16",
+        "m1": "65.5",
+        "m2": "86.8",
+        "m3": "72.3",
+        "m4": "70.2",
+        "m5": "89.5",
+        "m6": "76.0"
+      },
+      {
+        "p": {
+          "name": "MDPose: Real-Time Multi-Person Pose Estimation via Mixture Density Model",
+          "link": "https://arxiv.org/abs/2302.08751v1"
+        },
+        "c": "",
+        "n": "MDPose (ResNet-101)",
+        "d": "2023-02-17",
+        "m1": "65.0",
+        "m2": "88.9",
+        "m3": "72.8"
+      },
+      {
+        "p": {
+          "name": "Towards Accurate Multi-person Pose Estimation in the Wild",
+          "link": "http://arxiv.org/abs/1701.01779v2"
+        },
+        "c": "",
+        "n": "G-RMI",
+        "d": "2017-01-06",
+        "m1": "64.9",
+        "m2": "85.5",
+        "m3": "71.3",
+        "m4": "69.7",
+        "m5": "88.7",
+        "m6": "75.5"
+      },
+      {
+        "p": {
+          "name": "DirectPose: Direct End-to-End Multi-Person Pose Estimation",
+          "link": "https://arxiv.org/abs/1911.07451v2"
+        },
+        "c": "https://github.com/aim-uofa/adet",
+        "n": "DirectPose (ResNet-101, multi-scale)",
+        "d": "2019-11-18",
+        "m1": "64.8",
+        "m2": "87.8",
+        "m3": "71.1"
+      },
+      {
+        "p": {
+          "name": "Revisiting Unreasonable Effectiveness of Data in Deep Learning Era",
+          "link": "http://arxiv.org/abs/1707.02968v2"
+        },
+        "c": "https://github.com/Tencent/tencent-ml-images",
+        "n": "Faster R-CNN (ImageNet+300M)",
+        "d": "2017-07-10",
+        "m1": "64.4",
+        "m2": "85.7",
+        "m3": "70.7"
+      },
+      {
+        "p": {
+          "name": "OpenPose: Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields",
+          "link": "https://arxiv.org/abs/1812.08008v2"
+        },
+        "c": "https://github.com/CMU-Perceptual-Computing-Lab/openpose",
+        "n": "OpenPose",
+        "d": "2018-12-18",
+        "m1": "64.2",
+        "m2": "86.2",
+        "m3": "70.1"
+      },
+      {
+        "p": {
+          "name": "Rethinking Keypoint Representations: Modeling Keypoints and Poses as Objects for Multi-Person Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2111.08557v4"
+        },
+        "c": "https://github.com/wmcnally/kapao",
+        "n": "KAPAO-S",
+        "d": "2021-11-16",
+        "m1": "63.8",
+        "m2": "88.4",
+        "m3": "70.4",
+        "m4": "71.2"
+      },
+      {
+        "p": {
+          "name": "DirectPose: Direct End-to-End Multi-Person Pose Estimation",
+          "link": "https://arxiv.org/abs/1911.07451v2"
+        },
+        "c": "https://github.com/aim-uofa/adet",
+        "n": "DirectPose (ResNet-101)",
+        "d": "2019-11-18",
+        "m1": "63.3",
+        "m2": "86.7",
+        "m3": "69.4"
+      },
+      {
+        "p": {
+          "name": "Mask R-CNN",
+          "link": "http://arxiv.org/abs/1703.06870v3"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/official/vision",
+        "n": "Mask-RCNN",
+        "d": "2017-03-20",
+        "m1": "63.1",
+        "m2": "87.3",
+        "m3": "68.7"
+      },
+      {
+        "p": {
+          "name": "Associative Embedding: End-to-End Learning for Joint Detection and Grouping",
+          "link": "http://arxiv.org/abs/1611.05424v2"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
+        "n": "AE (single-scale)",
+        "d": "2016-11-16",
+        "m1": "62.8"
+      },
+      {
+        "p": {
+          "name": "Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields",
+          "link": "http://arxiv.org/abs/1611.08050v2"
+        },
+        "c": "https://github.com/CMU-Perceptual-Computing-Lab/openpose",
+        "n": "CMU-Pose",
+        "d": "2016-11-24",
+        "m1": "61.8",
+        "m2": "84.9",
+        "m3": "67.5",
+        "m4": "66.5",
+        "m5": "87.2"
+      },
+      {
+        "p": {
+          "name": "RMPE: Regional Multi-person Pose Estimation",
+          "link": "http://arxiv.org/abs/1612.00137v5"
+        },
+        "c": "https://github.com/MVIG-SJTU/AlphaPose",
+        "n": "RMPE",
+        "d": "2016-12-01",
+        "m1": "61.8",
+        "m2": "83.7",
+        "m3": "69.8"
+      },
+      {
+        "p": {
+          "name": "Lite Pose: Efficient Architecture Design for 2D Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2205.01271v4"
+        },
+        "c": "https://github.com/mit-han-lab/litepose",
+        "n": "LitePose-S",
+        "d": "2022-05-03",
+        "m1": "56.7"
+      }
+    ]
+  }
+}
