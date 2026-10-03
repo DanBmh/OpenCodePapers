@@ -1,16 +1,21 @@
 """Merges the sync MR that brings the GitHub-mirrored branch into TARGET_BRANCH.
 
 SYNC_BRANCH is pull-mirrored from GitHub's intake branch. This opens an MR from SYNC_BRANCH into
-TARGET_BRANCH if none exists yet, and merges it once its pipeline succeeds. The votes were
-already collected on GitHub (see data_merge.py's counterpart there), so only the folder check and
-the pipeline are required here. It is merged without squashing and the source branch is kept,
-because the mirror needs it.
+TARGET_BRANCH if none exists yet, and merges it once its pipeline succeeds. Everything on the
+intake branch was already approved on GitHub: either by votes and GitHub's merge bot (which only
+merges data-only changes), or by a maintainer merging by hand. So only the pipeline is required
+here. It is merged without squashing and the source branch is kept, because the mirror needs it.
+
+A new MR (or a new commit on it) isn't mergeable right away: GitLab checks the merge status in the
+background and starts the MR pipeline. The bot waits up to SYNC_WAIT_SECONDS for both, so the sync
+doesn't have to wait for the next scheduled run.
 
 Does nothing if SYNC_BRANCH is not set: the sync isn't wired up yet.
 """
 
 import os
 import sys
+import time
 from typing import Any, Dict, List, Optional
 
 import requests
@@ -20,19 +25,19 @@ import requests
 API = os.getenv("GITLAB_API", "https://gitlab.com/api/v4")
 TOKEN = os.environ["GITLAB_TOKEN"]
 PROJECT_ID = os.getenv("PROJECT_ID") or os.getenv("CI_PROJECT_ID")
-TARGET_FOLDER = os.environ.get("TARGET_FOLDER", "").rstrip("/")
 TARGET_BRANCH = os.environ.get("TARGET_BRANCH") or os.environ.get(
     "CI_DEFAULT_BRANCH", "main"
 )
 SYNC_BRANCH = os.environ.get("SYNC_BRANCH", "")
-SYNC_MAX_CHANGED_FILES = int(os.environ.get("SYNC_MAX_CHANGED_FILES", "100"))
+SYNC_WAIT_SECONDS = int(os.environ.get("SYNC_WAIT_SECONDS", "900"))
+POLL_INTERVAL_SECONDS = 15
+
+# GitLab is still computing these, the MR may become mergeable without any change
+PENDING_MERGE_STATUSES = {"unchecked", "checking", "preparing", "ci_still_running"}
+FINISHED_PIPELINE_STATUSES = {"success", "failed", "canceled", "skipped", "manual"}
 
 if SYNC_BRANCH and not PROJECT_ID:
     print("PROJECT_ID or CI_PROJECT_ID must be set", file=sys.stderr)
-    sys.exit(2)
-if SYNC_BRANCH and not TARGET_FOLDER:
-    # Without a folder restriction the sync MR would let anything through
-    print("TARGET_FOLDER must be set", file=sys.stderr)
     sys.exit(2)
 
 session = requests.Session()
@@ -106,7 +111,7 @@ def create_sync_mr() -> Optional[Dict[str, Any]]:
     payload = {
         "source_branch": SYNC_BRANCH,
         "target_branch": TARGET_BRANCH,
-        "title": f"Sync data from '{SYNC_BRANCH}' (GitHub)",
+        "title": f"Sync '{SYNC_BRANCH}' from GitHub",
         "remove_source_branch": False,
         "squash": False,
     }
@@ -122,29 +127,29 @@ def create_sync_mr() -> Optional[Dict[str, Any]]:
 # ==================================================================================================
 
 
-def only_in_folder(changes: List[Dict[str, Any]], folder: str) -> bool:
-    prefix = folder.rstrip("/") + "/"
-    # A renamed file has both a new and a previous path, both have to be inside the folder
-    for ch in changes:
-        for key in ("new_path", "old_path"):
-            p = ch.get(key)
-            if p and not p.startswith(prefix):
-                return False
-    return True
+def head_sha(details: Dict[str, Any]) -> str:
+    return details.get("sha") or details.get("diff_head_sha") or ""
 
 
-def file_list_usable(details: Dict[str, Any], changes: Dict[str, Any]) -> bool:
-    """The file list must be complete and small, else a file could be hidden in it."""
+def still_pending(details: Dict[str, Any]) -> bool:
+    if details.get("detailed_merge_status") in PENDING_MERGE_STATUSES:
+        return True
+    head = details.get("head_pipeline") or {}
+    if head.get("sha") != head_sha(details):
+        # The pipeline for the current commit wasn't created yet
+        return True
+    return head.get("status") not in FINISHED_PIPELINE_STATUSES
 
-    # Large MRs have a count like "1000+" and a truncated file list
-    count = str(details.get("changes_count") or "")
-    if (
-        changes.get("overflow")
-        or not count.isdigit()
-        or int(count) > SYNC_MAX_CHANGED_FILES
-    ):
-        return False
-    return len(changes.get("changes", [])) <= SYNC_MAX_CHANGED_FILES
+
+def wait_until_settled(iid: int) -> Dict[str, Any]:
+    """Return the MR details once GitLab is done checking it, or the latest ones on timeout."""
+
+    deadline = time.monotonic() + SYNC_WAIT_SECONDS
+    while True:
+        details = get_json(f"/projects/{PROJECT_ID}/merge_requests/{iid}")
+        if not still_pending(details) or time.monotonic() >= deadline:
+            return details
+        time.sleep(POLL_INTERVAL_SECONDS)
 
 
 # ==================================================================================================
@@ -194,28 +199,22 @@ def main() -> int:
         return 0
 
     iid = mr["iid"]
-    details = get_json(f"/projects/{PROJECT_ID}/merge_requests/{iid}")
-    changes = get_json(f"/projects/{PROJECT_ID}/merge_requests/{iid}/changes")
-    if not file_list_usable(details, changes):
-        print(f"Skip sync MR !{iid}: too many files or incomplete file list")
-        return 0
-    if not only_in_folder(changes.get("changes", []), TARGET_FOLDER):
-        print(f"Skip sync MR !{iid}: touches files outside {TARGET_FOLDER}")
-        return 0
+    details = wait_until_settled(iid)
     if details.get("has_conflicts"):
         print(f"Skip sync MR !{iid}: has conflicts")
         return 0
 
-    sha = (
-        details.get("sha")
-        or details.get("diff_head_sha")
-        or (details.get("merge_commit_sha") or "")
-    )
+    sha = head_sha(details)
     if not sha:
         print(f"Skip sync MR !{iid}: missing head sha", file=sys.stderr)
         return 0
     if not pipeline_succeeded(details, sha):
-        print(f"Skip sync MR !{iid}: no successful pipeline for the current commit")
+        status = (details.get("head_pipeline") or {}).get("status")
+        print(
+            f"Skip sync MR !{iid}: no successful pipeline for the current commit"
+            f" (merge status: {details.get('detailed_merge_status')},"
+            f" pipeline: {status})"
+        )
         return 0
 
     try_merge(iid, sha)
