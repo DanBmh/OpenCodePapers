@@ -1,0 +1,5584 @@
+{
+  "title": "object-detection-on-coco-val2017",
+  "task-hierarchy": [
+    "Object Detection"
+  ],
+  "dataset-info": {
+    "link": "https://cocodataset.org/#detection-2017",
+    "paper": "Microsoft COCO: Common Objects in Context"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "box AP",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "AP50",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "AP75",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "APS",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "APM",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "APL",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "Params (M)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DINOv3",
+          "link": "https://arxiv.org/abs/2508.10104v1"
+        },
+        "c": "https://github.com/facebookresearch/dinov3",
+        "n": "DINOv3 7B/16 (Plain-DETR, frozen backbone, TTA)",
+        "d": "2025-08-13",
+        "m1": "66.1",
+        "m7": "7100"
+      },
+      {
+        "p": {
+          "name": "Perception Encoder: The best visual embeddings are not at the output of the network",
+          "link": "https://arxiv.org/abs/2504.13181v1"
+        },
+        "c": "https://github.com/facebookresearch/perception_models",
+        "n": "PE_spatial (DETA)",
+        "d": "2025-04-17",
+        "m1": "66.0",
+        "m7": "1900"
+      },
+      {
+        "p": {
+          "name": "DETRs with Collaborative Hybrid Assignments Training",
+          "link": "https://arxiv.org/abs/2211.12860v5"
+        },
+        "c": "https://github.com/Sense-X/Co-DETR",
+        "n": "Co-DETR",
+        "d": "2022-11-22",
+        "m1": "65.9",
+        "m7": "314"
+      },
+      {
+        "p": {
+          "name": "DINOv3",
+          "link": "https://arxiv.org/abs/2508.10104v1"
+        },
+        "c": "https://github.com/facebookresearch/dinov3",
+        "n": "DINOv3 7B/16 (Plain-DETR, frozen backbone, no TTA)",
+        "d": "2025-08-13",
+        "m1": "65.6",
+        "m7": "7100"
+      },
+      {
+        "p": {
+          "name": "InternImage: Exploring Large-Scale Vision Foundation Models with Deformable Convolutions",
+          "link": "https://arxiv.org/abs/2211.05778v4"
+        },
+        "c": "https://github.com/opengvlab/internimage",
+        "n": "InternImage-H",
+        "d": "2022-11-10",
+        "m1": "65.0"
+      },
+      {
+        "p": {
+          "name": "DETRs with Collaborative Hybrid Assignments Training",
+          "link": "https://arxiv.org/abs/2211.12860v5"
+        },
+        "c": "https://github.com/Sense-X/Co-DETR",
+        "n": "Co-DETR (Swin-L)",
+        "d": "2022-11-22",
+        "m1": "64.7",
+        "m7": "218"
+      },
+      {
+        "p": {
+          "name": "A Strong and Reproducible Object Detector with Only Public Datasets",
+          "link": "https://arxiv.org/abs/2304.13027v1"
+        },
+        "c": "https://github.com/microsoft/FocalNet",
+        "n": "Focal-Stable-DINO (Focal-Huge, no TTA)",
+        "d": "2023-04-25",
+        "m1": "64.6",
+        "m2": "81.5",
+        "m3": "71.4",
+        "m4": "50.4",
+        "m5": "68.5",
+        "m6": "78.5",
+        "m7": "689"
+      },
+      {
+        "p": {
+          "name": "EVA: Exploring the Limits of Masked Visual Representation Learning at Scale",
+          "link": "https://arxiv.org/abs/2211.07636v2"
+        },
+        "c": "https://github.com/baaivision/EVA",
+        "n": "EVA (Cascade Mask R-CNN, TTA)",
+        "d": "2022-11-14",
+        "m1": "64.5"
+      },
+      {
+        "p": {
+          "name": "ViT-CoMer: Vision Transformer with Convolutional Multi-scale Feature Interaction for Dense Predictions",
+          "link": "https://arxiv.org/abs/2403.07392v1"
+        },
+        "c": "https://github.com/Traffic-X/ViT-CoMer",
+        "n": "ViT-CoMer",
+        "d": "2024-03-12",
+        "m1": "64.3",
+        "m7": "363"
+      },
+      {
+        "p": {
+          "name": "Focal Modulation Networks",
+          "link": "https://arxiv.org/abs/2203.11926v3"
+        },
+        "c": "https://github.com/microsoft/FocalNet",
+        "n": "FocalNet-H (DINO)",
+        "d": "2022-03-22",
+        "m1": "64.2"
+      },
+      {
+        "p": {
+          "name": "InternImage: Exploring Large-Scale Vision Foundation Models with Deformable Convolutions",
+          "link": "https://arxiv.org/abs/2211.05778v4"
+        },
+        "c": "https://github.com/opengvlab/internimage",
+        "n": "InternImage-XL",
+        "d": "2022-11-10",
+        "m1": "64.2"
+      },
+      {
+        "p": {
+          "name": "CP-DETR: Concept Prompt Guide DETR Toward Stronger Universal Object Detection",
+          "link": "https://arxiv.org/abs/2412.09799v1"
+        },
+        "c": "",
+        "n": "CP-DETR-L Swin-L(Fine tuning separately in COCO)",
+        "d": "2024-12-13",
+        "m1": "64.1"
+      },
+      {
+        "p": {
+          "name": "Reversible Column Networks",
+          "link": "https://arxiv.org/abs/2212.11696v3"
+        },
+        "c": "https://github.com/megvii-research/revcol",
+        "n": "RevCol-H(DINO)",
+        "d": "2022-12-22",
+        "m1": "63.8"
+      },
+      {
+        "p": {
+          "name": "DINO: DETR with Improved DeNoising Anchor Boxes for End-to-End Object Detection",
+          "link": "https://arxiv.org/abs/2203.03605v4"
+        },
+        "c": "https://github.com/IDEA-Research/DINO",
+        "n": "DINO (Swin-L)",
+        "d": "2022-03-07",
+        "m1": "63.2"
+      },
+      {
+        "p": {
+          "name": "Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection",
+          "link": "https://arxiv.org/abs/2303.05499v5"
+        },
+        "c": "https://github.com/IDEA-Research/GroundingDINO",
+        "n": "Grounding DINO L (1.5x image size)",
+        "d": "2023-03-09",
+        "m1": "63.0"
+      },
+      {
+        "p": {
+          "name": "Swin Transformer V2: Scaling Up Capacity and Resolution",
+          "link": "https://arxiv.org/abs/2111.09883v2"
+        },
+        "c": "https://github.com/microsoft/Swin-Transformer",
+        "n": "SwinV2-G (HTC++)",
+        "d": "2021-11-18",
+        "m1": "62.5"
+      },
+      {
+        "p": {
+          "name": "Florence: A New Foundation Model for Computer Vision",
+          "link": "https://arxiv.org/abs/2111.11432v1"
+        },
+        "c": "",
+        "n": "Florence-CoSwin-H",
+        "d": "2021-11-22",
+        "m1": "62"
+      },
+      {
+        "p": {
+          "name": "General Object Foundation Model for Images and Videos at Scale",
+          "link": "https://arxiv.org/abs/2312.09158v1"
+        },
+        "c": "https://github.com/FoundationVision/GLEE",
+        "n": "GLEE-Pro",
+        "d": "2023-12-14",
+        "m1": "62.0"
+      },
+      {
+        "p": {
+          "name": "Fast-iTPN: Integrally Pre-Trained Transformer Pyramid Network with Token Migration",
+          "link": "https://arxiv.org/abs/2211.12735v2"
+        },
+        "c": "https://github.com/sunsmarterjie/iTPN",
+        "n": "Fast-iTPN-B (DINO, CLIP-distilled pre-training + Objects365 detection pre-training)",
+        "d": "2022-11-23",
+        "m1": "61.8"
+      },
+      {
+        "p": {
+          "name": "Mr. DETR: Instructive Multi-Route Training for Detection Transformers",
+          "link": "https://arxiv.org/abs/2412.10028v2"
+        },
+        "c": "https://github.com/Visual-AI/Mr.DETR",
+        "n": "Mr. DETR-Align (Swin-L, Objects365 pre-training, 5-scale; official repo)",
+        "d": "2024-12-13",
+        "m1": "61.8",
+        "m2": "79.0",
+        "m3": "67.6",
+        "m4": "47.7",
+        "m5": "65.6",
+        "m6": "75.7"
+      },
+      {
+        "p": {
+          "name": "Exploring Plain Vision Transformer Backbones for Object Detection",
+          "link": "https://arxiv.org/abs/2203.16527v2"
+        },
+        "c": "https://github.com/facebookresearch/detectron2/tree/main/projects/ViTDet",
+        "n": "ViTDet, ViT-H Cascade (multiscale)",
+        "d": "2022-03-30",
+        "m1": "61.3"
+      },
+      {
+        "p": {
+          "name": "Grounded Language-Image Pre-training",
+          "link": "https://arxiv.org/abs/2112.03857v2"
+        },
+        "c": "https://github.com/microsoft/GLIP",
+        "n": "GLIP (Swin-L, multi-scale)",
+        "d": "2021-12-07",
+        "m1": "60.8"
+      },
+      {
+        "p": {
+          "name": "End-to-End Semi-Supervised Object Detection with Soft Teacher",
+          "link": "https://arxiv.org/abs/2106.09018v3"
+        },
+        "c": "https://github.com/microsoft/SoftTeacher",
+        "n": "Soft Teacher + Swin-L (HTC++, multi-scale)",
+        "d": "2021-06-16",
+        "m1": "60.7"
+      },
+      {
+        "p": {
+          "name": "Universal Instance Perception as Object Discovery and Retrieval",
+          "link": "https://arxiv.org/abs/2303.06674v2"
+        },
+        "c": "https://github.com/MasterBin-IIAU/UNINEXT",
+        "n": "UNINEXT-H",
+        "d": "2023-03-12",
+        "m1": "60.6",
+        "m2": "77.5",
+        "m3": "66.7",
+        "m4": "45.1",
+        "m5": "64.8",
+        "m6": "75.3"
+      },
+      {
+        "p": {
+          "name": "Vision Transformer Adapter for Dense Predictions",
+          "link": "https://arxiv.org/abs/2205.08534v4"
+        },
+        "c": "https://github.com/czczup/vit-adapter",
+        "n": "ViT-Adapter-L (HTC++, BEiTv2 pretrain, multi-scale)",
+        "d": "2022-05-17",
+        "m1": "60.5"
+      },
+      {
+        "p": {
+          "name": "Exploring Plain Vision Transformer Backbones for Object Detection",
+          "link": "https://arxiv.org/abs/2203.16527v2"
+        },
+        "c": "https://github.com/facebookresearch/detectron2/tree/main/projects/ViTDet",
+        "n": "ViTDet, ViT-H Cascade",
+        "d": "2022-03-30",
+        "m1": "60.4"
+      },
+      {
+        "p": {
+          "name": "General Object Foundation Model for Images and Videos at Scale",
+          "link": "https://arxiv.org/abs/2312.09158v1"
+        },
+        "c": "https://github.com/FoundationVision/GLEE",
+        "n": "GLEE-Plus",
+        "d": "2023-12-14",
+        "m1": "60.4"
+      },
+      {
+        "p": {
+          "name": "Dynamic Head: Unifying Object Detection Heads with Attentions",
+          "link": "https://arxiv.org/abs/2106.08322v1"
+        },
+        "c": "https://github.com/microsoft/DynamicHead",
+        "n": "DyHead (Swin-L, multi scale, self-training)",
+        "d": "2021-06-15",
+        "m1": "60.3"
+      },
+      {
+        "p": {
+          "name": "Vision Transformer Adapter for Dense Predictions",
+          "link": "https://arxiv.org/abs/2205.08534v4"
+        },
+        "c": "https://github.com/czczup/vit-adapter",
+        "n": "ViT-Adapter-L (HTC++, BEiT pretrain, multi-scale)",
+        "d": "2022-05-17",
+        "m1": "60.2"
+      },
+      {
+        "p": {
+          "name": "End-to-End Semi-Supervised Object Detection with Soft Teacher",
+          "link": "https://arxiv.org/abs/2106.09018v3"
+        },
+        "c": "https://github.com/microsoft/SoftTeacher",
+        "n": "Soft Teacher+Swin-L(HTC++, single scale)",
+        "d": "2021-06-16",
+        "m1": "60.1"
+      },
+      {
+        "p": {
+          "name": "Parameter-Inverted Image Pyramid Networks",
+          "link": "https://arxiv.org/abs/2406.04330v2"
+        },
+        "c": "https://github.com/opengvlab/piip",
+        "n": "PIIP-H6B (DINO)",
+        "d": "2024-06-06",
+        "m1": "60.0",
+        "m2": "79.0",
+        "m3": "65.4"
+      },
+      {
+        "p": {
+          "name": "SimPLR: A Simple and Plain Transformer for Efficient Object Detection and Segmentation",
+          "link": "https://arxiv.org/abs/2310.05920v4"
+        },
+        "c": "https://github.com/kienduynguyen/SimPLR",
+        "n": "SimPLR (ViT-H, MAE IN-1K pre-training, 1024px)",
+        "d": "2023-10-09",
+        "m1": "59.8",
+        "m4": "42.2",
+        "m5": "63.8",
+        "m6": "74.9"
+      },
+      {
+        "p": {
+          "name": "CBNet: A Composite Backbone Network Architecture for Object Detection",
+          "link": "https://arxiv.org/abs/2107.00420v7"
+        },
+        "c": "https://github.com/VDIGPKU/CBNetV2",
+        "n": "CBNetV2 (Dual-Swin-L HTC, multi-scale)",
+        "d": "2021-07-01",
+        "m1": "59.6"
+      },
+      {
+        "p": {
+          "name": "Could Giant Pretrained Image Models Extract Universal Representations?",
+          "link": "https://arxiv.org/abs/2211.02043v1"
+        },
+        "c": "",
+        "n": "Frozen Backbone, SwinV2-G-ext22K (HTC)",
+        "d": "2022-11-03",
+        "m1": "59.3"
+      },
+      {
+        "p": {
+          "name": "HorNet: Efficient High-Order Spatial Interactions with Recursive Gated Convolutions",
+          "link": "https://arxiv.org/abs/2207.14284v3"
+        },
+        "c": "https://github.com/raoyongming/HorNet",
+        "n": "HorNet-L",
+        "d": "2022-07-28",
+        "m1": "59.2"
+      },
+      {
+        "p": {
+          "name": "MOAT: Alternating Mobile Convolution and Attention Brings Strong Vision Models",
+          "link": "https://arxiv.org/abs/2210.01820v2"
+        },
+        "c": "https://github.com/google-research/deeplab2",
+        "n": "MOAT-3 (IN-22K pretraining, single-scale)",
+        "d": "2022-10-04",
+        "m1": "59.2"
+      },
+      {
+        "p": {
+          "name": "CBNet: A Composite Backbone Network Architecture for Object Detection",
+          "link": "https://arxiv.org/abs/2107.00420v7"
+        },
+        "c": "https://github.com/VDIGPKU/CBNetV2",
+        "n": "CBNetV2 (Dual-Swin-L HTC, multi-scale)",
+        "d": "2021-07-01",
+        "m1": "59.1"
+      },
+      {
+        "p": {
+          "name": "Fast-iTPN: Integrally Pre-Trained Transformer Pyramid Network with Token Migration",
+          "link": "https://arxiv.org/abs/2211.12735v2"
+        },
+        "c": "https://github.com/sunsmarterjie/iTPN",
+        "n": "Fast-iTPN-L (DINO 12ep, CLIP-distilled pre-training)",
+        "d": "2022-11-23",
+        "m1": "58.8"
+      },
+      {
+        "p": {
+          "name": "ScaleDet: A Scalable Multi-Dataset Object Detector",
+          "link": "https://arxiv.org/abs/2306.04849v1"
+        },
+        "c": "",
+        "n": "ScaleDet-B (Swin-B, multi-dataset training)",
+        "d": "2023-06-08",
+        "m1": "58.8"
+      },
+      {
+        "p": {
+          "name": "Focal Self-attention for Local-Global Interactions in Vision Transformers",
+          "link": "https://arxiv.org/abs/2107.00641v1"
+        },
+        "c": "https://github.com/microsoft/Focal-Transformer",
+        "n": "Focal-L (DyHead, multi-scale)",
+        "d": "2021-07-01",
+        "m1": "58.7"
+      },
+      {
+        "p": {
+          "name": "MViTv2: Improved Multiscale Vision Transformers for Classification and Detection",
+          "link": "https://arxiv.org/abs/2112.01526v2"
+        },
+        "c": "https://github.com/facebookresearch/mvit",
+        "n": "MViTv2-L (Cascade Mask R-CNN, multi-scale, IN21k pre-train)",
+        "d": "2021-12-02",
+        "m1": "58.7"
+      },
+      {
+        "p": {
+          "name": "SimPLR: A Simple and Plain Transformer for Efficient Object Detection and Segmentation",
+          "link": "https://arxiv.org/abs/2310.05920v4"
+        },
+        "c": "https://github.com/kienduynguyen/SimPLR",
+        "n": "SimPLR (ViT-L, BEiTv2 IN-21K pre-training, 1024px)",
+        "d": "2023-10-09",
+        "m1": "58.7",
+        "m4": "40.4",
+        "m5": "63.2",
+        "m6": "74.8"
+      },
+      {
+        "p": {
+          "name": "Mr. DETR: Instructive Multi-Route Training for Detection Transformers",
+          "link": "https://arxiv.org/abs/2412.10028v2"
+        },
+        "c": "https://github.com/Visual-AI/Mr.DETR",
+        "n": "Mr. DETR++ (Swin-L, 12ep)",
+        "d": "2024-12-13",
+        "m1": "58.7",
+        "m2": "76.5",
+        "m3": "64.0",
+        "m4": "42.2",
+        "m5": "62.9",
+        "m6": "75.2"
+      },
+      {
+        "p": {
+          "name": "MOAT: Alternating Mobile Convolution and Attention Brings Strong Vision Models",
+          "link": "https://arxiv.org/abs/2210.01820v2"
+        },
+        "c": "https://github.com/google-research/deeplab2",
+        "n": "MOAT-2 (IN-22K pretraining, single-scale)",
+        "d": "2022-10-04",
+        "m1": "58.5"
+      },
+      {
+        "p": {
+          "name": "SimPLR: A Simple and Plain Transformer for Efficient Object Detection and Segmentation",
+          "link": "https://arxiv.org/abs/2310.05920v4"
+        },
+        "c": "https://github.com/kienduynguyen/SimPLR",
+        "n": "SimPLR (ViT-L, MAE IN-1K pre-training, 1024px)",
+        "d": "2023-10-09",
+        "m1": "58.5",
+        "m4": "42.2",
+        "m5": "62.5",
+        "m6": "73.4"
+      },
+      {
+        "p": {
+          "name": "Dynamic Head: Unifying Object Detection Heads with Attentions",
+          "link": "https://arxiv.org/abs/2106.08322v1"
+        },
+        "c": "https://github.com/microsoft/DynamicHead",
+        "n": "DyHead (Swin-L, multi scale)",
+        "d": "2021-06-15",
+        "m1": "58.4"
+      },
+      {
+        "p": {
+          "name": "Fast-iTPN: Integrally Pre-Trained Transformer Pyramid Network with Token Migration",
+          "link": "https://arxiv.org/abs/2211.12735v2"
+        },
+        "c": "https://github.com/sunsmarterjie/iTPN",
+        "n": "Fast-iTPN-B (DINO 12ep, CLIP-distilled pre-training)",
+        "d": "2022-11-23",
+        "m1": "58.4"
+      },
+      {
+        "p": {
+          "name": "Mr. DETR: Instructive Multi-Route Training for Detection Transformers",
+          "link": "https://arxiv.org/abs/2412.10028v2"
+        },
+        "c": "https://github.com/Visual-AI/Mr.DETR",
+        "n": "Mr. DETR (Swin-L, 12ep)",
+        "d": "2024-12-13",
+        "m1": "58.4",
+        "m2": "76.3",
+        "m3": "63.9",
+        "m4": "40.8",
+        "m5": "62.8",
+        "m6": "75.3"
+      },
+      {
+        "p": {
+          "name": "FeatAug-DETR: Enriching One-to-Many Matching for DETRs with Feature Augmentation",
+          "link": "https://arxiv.org/abs/2303.01503v1"
+        },
+        "c": "https://github.com/rongyaofang/FeatAug-DETR",
+        "n": "H-Deformable-DETR + FeatAug-Flip (Swin-L, 24ep, 300 predictions)",
+        "d": "2023-03-02",
+        "m1": "58.3",
+        "m2": "77.1",
+        "m3": "64.0",
+        "m4": "41.7",
+        "m5": "62.4",
+        "m6": "73.9"
+      },
+      {
+        "p": {
+          "name": "MI-DETR: An Object Detection Model with Multi-time Inquiries Mechanism",
+          "link": "https://arxiv.org/abs/2503.01463v1"
+        },
+        "c": "https://github.com/CQU-ADHRI-Lab/MI-DETR",
+        "n": "MI-DETR (Swin-L, 12ep)",
+        "d": "2025-03-03",
+        "m1": "58.2",
+        "m2": "76.5",
+        "m3": "63.4",
+        "m4": "42.5",
+        "m5": "62.8",
+        "m6": "74.6"
+      },
+      {
+        "p": {
+          "name": "Relation DETR: Exploring Explicit Position Relation Prior for Object Detection",
+          "link": "https://arxiv.org/abs/2407.11699v1"
+        },
+        "c": "https://github.com/xiuqhou/relation-detr",
+        "n": "Relation-DETR (Swin-L, 24ep; official repo)",
+        "d": "2024-07-16",
+        "m1": "58.1",
+        "m2": "76.4",
+        "m3": "63.5",
+        "m4": "41.8",
+        "m5": "63.0",
+        "m6": "73.5"
+      },
+      {
+        "p": {
+          "name": "LP-DETR: Layer-wise Progressive Relations for Object Detection",
+          "link": "https://arxiv.org/abs/2502.05147v3"
+        },
+        "c": "",
+        "n": "LP-DETR (Swin-L, 12ep)",
+        "d": "2025-02-07",
+        "m1": "58.1",
+        "m2": "76.4",
+        "m3": "63.2",
+        "m4": "41.0",
+        "m5": "62.2",
+        "m6": "74.7"
+      },
+      {
+        "p": {
+          "name": "MDS-DETR: DETR with Masked Duplicate Suppressor",
+          "link": "https://arxiv.org/abs/2605.23507v1"
+        },
+        "c": "https://github.com/DChoLee/MDS-DETR",
+        "n": "MDS-DETR (Swin-L)",
+        "d": "2026-05-22",
+        "m1": "58.1",
+        "m2": "76.2",
+        "m3": "63.6",
+        "m4": "42.6",
+        "m5": "62.7",
+        "m6": "74.7"
+      },
+      {
+        "p": {
+          "name": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+          "link": "https://arxiv.org/abs/2103.14030v2"
+        },
+        "c": "https://github.com/microsoft/Swin-Transformer",
+        "n": "Swin-L (HTC++, multi scale)",
+        "d": "2021-03-25",
+        "m1": "58"
+      },
+      {
+        "p": {
+          "name": "Fractional Correspondence Framework in Detection Transformer",
+          "link": "https://arxiv.org/abs/2503.04107v1"
+        },
+        "c": "",
+        "n": "DINO + RTP (Swin-L, 12ep)",
+        "d": "2025-03-06",
+        "m1": "57.9",
+        "m2": "76.1",
+        "m3": "63.6",
+        "m4": "41.5",
+        "m5": "62.3",
+        "m6": "74.9"
+      },
+      {
+        "p": {
+          "name": "Relation DETR: Exploring Explicit Position Relation Prior for Object Detection",
+          "link": "https://arxiv.org/abs/2407.11699v1"
+        },
+        "c": "https://github.com/xiuqhou/relation-detr",
+        "n": "Relation-DETR (Swin-L, 12ep)",
+        "d": "2024-07-16",
+        "m1": "57.8",
+        "m2": "76.1",
+        "m3": "62.9",
+        "m4": "41.2",
+        "m5": "62.1",
+        "m6": "74.4"
+      },
+      {
+        "p": {
+          "name": "DI-MaskDINO: A Joint Object Detection and Instance Segmentation Model",
+          "link": "https://arxiv.org/abs/2410.16707v1"
+        },
+        "c": "",
+        "n": "DI-MaskDINO (Swin-L, 50ep)",
+        "d": "2024-10-22",
+        "m1": "57.8",
+        "m4": "41.5",
+        "m5": "61.2",
+        "m6": "73.9"
+      },
+      {
+        "p": {
+          "name": "PaQ-DETR: Learning Pattern and Quality-Aware Dynamic Queries for Object Detection",
+          "link": "https://arxiv.org/abs/2603.06917v2"
+        },
+        "c": "",
+        "n": "PaQ-DINO (Swin-L, 12ep)",
+        "d": "2026-03-06",
+        "m1": "57.8",
+        "m2": "76.2",
+        "m3": "62.6",
+        "m4": "41.4",
+        "m5": "62.2",
+        "m6": "74.2"
+      },
+      {
+        "p": {
+          "name": "MOAT: Alternating Mobile Convolution and Attention Brings Strong Vision Models",
+          "link": "https://arxiv.org/abs/2210.01820v2"
+        },
+        "c": "https://github.com/google-research/deeplab2",
+        "n": "MOAT-1 (IN-1K pretraining, single-scale)",
+        "d": "2022-10-04",
+        "m1": "57.7"
+      },
+      {
+        "p": {
+          "name": "FeatAug-DETR: Enriching One-to-Many Matching for DETRs with Feature Augmentation",
+          "link": "https://arxiv.org/abs/2303.01503v1"
+        },
+        "c": "https://github.com/rongyaofang/FeatAug-DETR",
+        "n": "Deformable-DETR w/ tricks + FeatAug-FC (Swin-L, 24ep, 300 predictions)",
+        "d": "2023-03-02",
+        "m1": "57.6",
+        "m2": "76.7",
+        "m3": "63.1",
+        "m4": "41.1",
+        "m5": "61.5",
+        "m6": "73.8"
+      },
+      {
+        "p": {
+          "name": "Frozen-DETR: Enhancing DETR with Image Understanding from Frozen Foundation Models",
+          "link": "https://arxiv.org/abs/2410.19635v1"
+        },
+        "c": "https://github.com/iSEE-Laboratory/Frozen-DETR",
+        "n": "Frozen-DETR (Co-DINO-4scale, Swin-B IN-22K, frozen foundation model, 12ep)",
+        "d": "2024-10-25",
+        "m1": "57.6",
+        "m2": "75.8",
+        "m3": "63.2",
+        "m4": "41.4",
+        "m5": "61.7",
+        "m6": "74.3"
+      },
+      {
+        "p": {
+          "name": "Dual-R-DETR: Resolving Query Competition with Pairwise Routing in Transformer Decoders",
+          "link": "https://arxiv.org/abs/2512.13876v2"
+        },
+        "c": "https://github.com/YZk67/Dual-R-DETR",
+        "n": "Dual-R-DETR (Swin-L, 12ep)",
+        "d": "2025-12-15",
+        "m1": "57.6",
+        "m2": "76.4",
+        "m3": "63.2",
+        "m4": "40.8",
+        "m5": "61.8",
+        "m6": "73.6"
+      },
+      {
+        "p": {
+          "name": "Uniform Masking: Enabling MAE Pre-training for Pyramid-based Vision Transformers with Locality",
+          "link": "https://arxiv.org/abs/2205.10063v1"
+        },
+        "c": "https://github.com/implus/um-mae",
+        "n": "UM-MAE(HTC++, Swin-L, IN1K)",
+        "d": "2022-05-20",
+        "m1": "57.4"
+      },
+      {
+        "p": {
+          "name": "Salience DETR: Enhancing Detection Transformer with Hierarchical Salience Filtering Refinement",
+          "link": "https://arxiv.org/abs/2403.16131v1"
+        },
+        "c": "https://github.com/xiuqhou/Salience-DETR",
+        "n": "Salience DETR (FocalNet-L, 12ep; official repo)",
+        "d": "2024-03-24",
+        "m1": "57.3",
+        "m2": "75.5",
+        "m3": "62.3",
+        "m4": "40.9",
+        "m5": "61.8",
+        "m6": "74.5"
+      },
+      {
+        "p": {
+          "name": "YOLOv6 v3.0: A Full-Scale Reloading",
+          "link": "https://arxiv.org/abs/2301.05586v1"
+        },
+        "c": "https://github.com/meituan/YOLOv6",
+        "n": "YOLOv6-L6(46 fps, 1280, V100)",
+        "d": "2023-01-13",
+        "m1": "57.2",
+        "m2": "74.5"
+      },
+      {
+        "p": {
+          "name": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+          "link": "https://arxiv.org/abs/2103.14030v2"
+        },
+        "c": "https://github.com/microsoft/Swin-Transformer",
+        "n": "Swin-L (HTC++, single scale)",
+        "d": "2021-03-25",
+        "m1": "57.1"
+      },
+      {
+        "p": {
+          "name": "TransNeXt: Robust Foveal Visual Perception for Vision Transformers",
+          "link": "https://arxiv.org/abs/2311.17132v3"
+        },
+        "c": "https://github.com/DaiShiResearch/TransNeXt",
+        "n": "TransNeXt-Base (IN-1K pretrain, DINO 1x)",
+        "d": "2023-11-28",
+        "m1": "57.1"
+      },
+      {
+        "p": {
+          "name": "Simple Copy-Paste is a Strong Data Augmentation Method for Instance Segmentation",
+          "link": "https://arxiv.org/abs/2012.07177v2"
+        },
+        "c": "https://github.com/tensorflow/tpu",
+        "n": "Cascade Eff-B7 NAS-FPN (1280, self-training Copy Paste, single-scale)",
+        "d": "2020-12-13",
+        "m1": "57.0"
+      },
+      {
+        "p": {
+          "name": "TransNeXt: Robust Foveal Visual Perception for Vision Transformers",
+          "link": "https://arxiv.org/abs/2311.17132v3"
+        },
+        "c": "https://github.com/DaiShiResearch/TransNeXt",
+        "n": "TransNeXt-Small (IN-1K pretrain, DINO 1x)",
+        "d": "2023-11-28",
+        "m1": "56.6"
+      },
+      {
+        "p": {
+          "name": "UniConvNet: Expanding Effective Receptive Field while Maintaining Asymptotically Gaussian Distribution for ConvNets of Any Scale",
+          "link": "https://arxiv.org/abs/2508.09000v1"
+        },
+        "c": "https://github.com/ai-paperwithcode/UniConvNet",
+        "n": "UniConvNet-L (IN-22K, Cascade Mask R-CNN 3x)",
+        "d": "2025-08-12",
+        "m1": "56.6",
+        "m2": "75.6",
+        "m3": "61.8",
+        "m7": "254.8"
+      },
+      {
+        "p": {
+          "name": "Salience DETR: Enhancing Detection Transformer with Hierarchical Salience Filtering Refinement",
+          "link": "https://arxiv.org/abs/2403.16131v1"
+        },
+        "c": "https://github.com/xiuqhou/Salience-DETR",
+        "n": "Salience DETR (Swin-L, 12ep; official repo)",
+        "d": "2024-03-24",
+        "m1": "56.5",
+        "m2": "75.0",
+        "m3": "61.5",
+        "m4": "40.2",
+        "m5": "61.2",
+        "m6": "72.8"
+      },
+      {
+        "p": {
+          "name": "UniRepLKNet: A Universal Perception Large-Kernel ConvNet for Audio, Video, Point Cloud, Time-Series and Image Recognition",
+          "link": "https://arxiv.org/abs/2311.15599v2"
+        },
+        "c": "https://github.com/ailab-cvc/unireplknet",
+        "n": "UniRepLKNet-XL (IN-22K, Cascade Mask R-CNN 3x)",
+        "d": "2023-11-27",
+        "m1": "56.4",
+        "m7": "443"
+      },
+      {
+        "p": {
+          "name": "MogaNet: Multi-order Gated Aggregation Network",
+          "link": "https://arxiv.org/abs/2211.03295v3"
+        },
+        "c": "https://github.com/Westlake-AI/MogaNet",
+        "n": "MogaNet-XL (IN-22K, Cascade Mask R-CNN 3x)",
+        "d": "2022-11-07",
+        "m1": "56.2",
+        "m2": "75.0",
+        "m3": "61.2",
+        "m7": "238"
+      },
+      {
+        "p": {
+          "name": "Instances as Queries",
+          "link": "https://arxiv.org/abs/2105.01928v3"
+        },
+        "c": "https://github.com/hustvl/QueryInst",
+        "n": "QueryInst (Swin-L)",
+        "d": "2021-05-05",
+        "m1": "56.1"
+      },
+      {
+        "p": {
+          "name": "MViTv2: Improved Multiscale Vision Transformers for Classification and Detection",
+          "link": "https://arxiv.org/abs/2112.01526v2"
+        },
+        "c": "https://github.com/facebookresearch/mvit",
+        "n": "MViTv2-H (Cascade Mask R-CNN, single-scale, IN21k pre-train)",
+        "d": "2021-12-02",
+        "m1": "56.1"
+      },
+      {
+        "p": {
+          "name": "MOAT: Alternating Mobile Convolution and Attention Brings Strong Vision Models",
+          "link": "https://arxiv.org/abs/2210.01820v2"
+        },
+        "c": "https://github.com/google-research/deeplab2",
+        "n": "MOAT-0 (IN-1K pretraining, single-scale)",
+        "d": "2022-10-04",
+        "m1": "55.9"
+      },
+      {
+        "p": {
+          "name": "Fast-iTPN: Integrally Pre-Trained Transformer Pyramid Network with Token Migration",
+          "link": "https://arxiv.org/abs/2211.12735v2"
+        },
+        "c": "https://github.com/sunsmarterjie/iTPN",
+        "n": "Fast-iTPN-S (DINO 12ep, CLIP-distilled pre-training)",
+        "d": "2022-11-23",
+        "m1": "55.8"
+      },
+      {
+        "p": {
+          "name": "UniRepLKNet: A Universal Perception Large-Kernel ConvNet for Audio, Video, Point Cloud, Time-Series and Image Recognition",
+          "link": "https://arxiv.org/abs/2311.15599v2"
+        },
+        "c": "https://github.com/ailab-cvc/unireplknet",
+        "n": "UniRepLKNet-L (IN-22K, Cascade Mask R-CNN 3x)",
+        "d": "2023-11-27",
+        "m1": "55.8",
+        "m7": "276"
+      },
+      {
+        "p": {
+          "name": "TransNeXt: Robust Foveal Visual Perception for Vision Transformers",
+          "link": "https://arxiv.org/abs/2311.17132v3"
+        },
+        "c": "https://github.com/DaiShiResearch/TransNeXt",
+        "n": "TransNeXt-Tiny (IN-1K pretrain, DINO 1x)",
+        "d": "2023-11-28",
+        "m1": "55.7"
+      },
+      {
+        "p": {
+          "name": "Frozen-DETR: Enhancing DETR with Image Understanding from Frozen Foundation Models",
+          "link": "https://arxiv.org/abs/2410.19635v1"
+        },
+        "c": "https://github.com/iSEE-Laboratory/Frozen-DETR",
+        "n": "Frozen-DETR (DDQ + HPR, ResNet-50, frozen foundation model, 12ep)",
+        "d": "2024-10-25",
+        "m1": "55.7",
+        "m2": "73.9",
+        "m3": "61.3",
+        "m4": "38.4",
+        "m5": "58.8",
+        "m6": "72.3"
+      },
+      {
+        "p": {
+          "name": "UniConvNet: Expanding Effective Receptive Field while Maintaining Asymptotically Gaussian Distribution for ConvNets of Any Scale",
+          "link": "https://arxiv.org/abs/2508.09000v1"
+        },
+        "c": "https://github.com/ai-paperwithcode/UniConvNet",
+        "n": "UniConvNet-L (IN-22K, Cascade Mask R-CNN 1x)",
+        "d": "2025-08-12",
+        "m1": "55.7",
+        "m2": "74.4",
+        "m3": "60.4",
+        "m7": "254.8"
+      },
+      {
+        "p": {
+          "name": "Semantic Equitable Clustering: A Simple and Effective Strategy for Clustering Vision Tokens",
+          "link": "https://arxiv.org/abs/2405.13337v3"
+        },
+        "c": "",
+        "n": "SECViT-B (Cascade Mask R-CNN 3x)",
+        "d": "2024-05-22",
+        "m1": "55.4",
+        "m2": "74.1",
+        "m3": "59.9",
+        "m7": "114"
+      },
+      {
+        "p": {
+          "name": "MOAT: Alternating Mobile Convolution and Attention Brings Strong Vision Models",
+          "link": "https://arxiv.org/abs/2210.01820v2"
+        },
+        "c": "https://github.com/google-research/deeplab2",
+        "n": "tiny-MOAT-3 (IN-1K pretraining, single-scale)",
+        "d": "2022-10-04",
+        "m1": "55.2"
+      },
+      {
+        "p": {
+          "name": "Understanding The Robustness in Vision Transformers",
+          "link": "https://arxiv.org/abs/2204.12451v4"
+        },
+        "c": "https://github.com/nvlabs/fan",
+        "n": "FAN-L-Hybrid",
+        "d": "2022-04-26",
+        "m1": "55.1"
+      },
+      {
+        "p": {
+          "name": "Hiera: A Hierarchical Vision Transformer without the Bells-and-Whistles",
+          "link": "https://arxiv.org/abs/2306.00989v1"
+        },
+        "c": "https://github.com/facebookresearch/hiera",
+        "n": "Hiera-L",
+        "d": "2023-06-01",
+        "m1": "55"
+      },
+      {
+        "p": {
+          "name": "General Object Foundation Model for Images and Videos at Scale",
+          "link": "https://arxiv.org/abs/2312.09158v1"
+        },
+        "c": "https://github.com/FoundationVision/GLEE",
+        "n": "GLEE-Lite",
+        "d": "2023-12-14",
+        "m1": "55.0"
+      },
+      {
+        "p": {
+          "name": "DS-Det: Single-Query Paradigm and Attention Disentangled Learning for Flexible Object Detection",
+          "link": "https://arxiv.org/abs/2507.19807v1"
+        },
+        "c": "https://github.com/Med-Process/DS-Det",
+        "n": "DS-Det (Strip-MLP-T, 36ep)",
+        "d": "2025-07-26",
+        "m1": "55.0",
+        "m2": "72.5",
+        "m3": "60.0",
+        "m4": "38.4",
+        "m5": "58.9",
+        "m6": "69.9",
+        "m7": "45"
+      },
+      {
+        "p": {
+          "name": "DS-Det: Single-Query Paradigm and Attention Disentangled Learning for Flexible Object Detection",
+          "link": "https://arxiv.org/abs/2507.19807v1"
+        },
+        "c": "https://github.com/Med-Process/DS-Det",
+        "n": "DS-Det (Swin-T, 36ep)",
+        "d": "2025-07-26",
+        "m1": "54.9",
+        "m2": "72.4",
+        "m3": "59.9",
+        "m4": "38.3",
+        "m5": "58.6",
+        "m6": "69.6",
+        "m7": "49"
+      },
+      {
+        "p": {
+          "name": "UniRepLKNet: A Universal Perception Large-Kernel ConvNet for Audio, Video, Point Cloud, Time-Series and Image Recognition",
+          "link": "https://arxiv.org/abs/2311.15599v2"
+        },
+        "c": "https://github.com/ailab-cvc/unireplknet",
+        "n": "UniRepLKNet-B (IN-22K, Cascade Mask R-CNN 3x)",
+        "d": "2023-11-27",
+        "m1": "54.8",
+        "m7": "155"
+      },
+      {
+        "p": {
+          "name": "Towards Sustainable Self-supervised Learning",
+          "link": "https://arxiv.org/abs/2210.11016v1"
+        },
+        "c": "https://github.com/sail-sg/tec",
+        "n": "TEC(VIT-B, Mask-RCNN)",
+        "d": "2022-10-20",
+        "m1": "54.6"
+      },
+      {
+        "p": {
+          "name": "Simple Copy-Paste is a Strong Data Augmentation Method for Instance Segmentation",
+          "link": "https://arxiv.org/abs/2012.07177v2"
+        },
+        "c": "https://github.com/tensorflow/tpu",
+        "n": "Cascade Eff-B7 NAS-FPN (1280)",
+        "d": "2020-12-13",
+        "m1": "54.5"
+      },
+      {
+        "p": {
+          "name": "Context Autoencoder for Self-Supervised Representation Learning",
+          "link": "https://arxiv.org/abs/2202.03026v3"
+        },
+        "c": "https://github.com/Atten4Vis/CAE",
+        "n": "CAE* (ViT-L, 1600ep, Mask R-CNN 1x)",
+        "d": "2022-02-07",
+        "m1": "54.5",
+        "m2": "75.2",
+        "m3": "60.1"
+      },
+      {
+        "p": {
+          "name": "RMT: Retentive Networks Meet Vision Transformers",
+          "link": "https://arxiv.org/abs/2309.11523v6"
+        },
+        "c": "https://github.com/qhfan/RMT",
+        "n": "RMT-B (Cascade Mask R-CNN 3x)",
+        "d": "2023-09-20",
+        "m1": "54.5",
+        "m2": "72.8",
+        "m3": "59.0",
+        "m7": "111"
+      },
+      {
+        "p": {
+          "name": "Rotary Position Embedding for Vision Transformer",
+          "link": "https://arxiv.org/abs/2403.13298v2"
+        },
+        "c": "https://github.com/naver-ai/rope-vit",
+        "n": "Swin-B + RoPE-Mixed (DINO, 12ep)",
+        "d": "2024-03-20",
+        "m1": "54.5"
+      },
+      {
+        "p": {
+          "name": "Match One, Learn with Graph: One-to-Graph Query Collaboration with Backward Sharing for Object Detection",
+          "link": "https://arxiv.org/abs/2609.26092v1"
+        },
+        "c": "",
+        "n": "BS-O2G (DEIM, ResNet-50, 60ep)",
+        "d": "2026-08-06",
+        "m1": "54.5",
+        "m2": "72.5",
+        "m3": "59.2",
+        "m4": "37.8",
+        "m5": "58.7",
+        "m6": "71.3"
+      },
+      {
+        "p": {
+          "name": "EfficientDet: Scalable and Efficient Object Detection",
+          "link": "https://arxiv.org/abs/1911.09070v7"
+        },
+        "c": "https://github.com/google/automl",
+        "n": "EfficientDet-D7x (single-scale)",
+        "d": "2019-11-20",
+        "m1": "54.4"
+      },
+      {
+        "p": {
+          "name": "MViTv2: Improved Multiscale Vision Transformers for Classification and Detection",
+          "link": "https://arxiv.org/abs/2112.01526v2"
+        },
+        "c": "https://github.com/facebookresearch/mvit",
+        "n": "MViTv2-L (Cascade Mask R-CNN, single-scale)",
+        "d": "2021-12-02",
+        "m1": "54.3"
+      },
+      {
+        "p": {
+          "name": "MixMAE: Mixed and Masked Autoencoder for Efficient Pretraining of Hierarchical Vision Transformers",
+          "link": "https://arxiv.org/abs/2205.13137v4"
+        },
+        "c": "https://github.com/sense-x/mixmim",
+        "n": "MixMAE (Swin-L, 600ep, Mask R-CNN)",
+        "d": "2022-05-26",
+        "m1": "54.3",
+        "m7": "319"
+      },
+      {
+        "p": {
+          "name": "UniRepLKNet: A Universal Perception Large-Kernel ConvNet for Audio, Video, Point Cloud, Time-Series and Image Recognition",
+          "link": "https://arxiv.org/abs/2311.15599v2"
+        },
+        "c": "https://github.com/ailab-cvc/unireplknet",
+        "n": "UniRepLKNet-S (IN-22K, Cascade Mask R-CNN 3x)",
+        "d": "2023-11-27",
+        "m1": "54.3",
+        "m7": "113"
+      },
+      {
+        "p": {
+          "name": "Frozen-DETR: Enhancing DETR with Image Understanding from Frozen Foundation Models",
+          "link": "https://arxiv.org/abs/2410.19635v1"
+        },
+        "c": "https://github.com/iSEE-Laboratory/Frozen-DETR",
+        "n": "Frozen-DETR (Co-DINO-4scale, ResNet-50, frozen foundation model, 24ep)",
+        "d": "2024-10-25",
+        "m1": "54.3",
+        "m2": "72.9",
+        "m3": "59.2",
+        "m4": "36.6",
+        "m5": "58.0",
+        "m6": "72.1"
+      },
+      {
+        "p": {
+          "name": "Rethinking Pre-training and Self-training",
+          "link": "https://arxiv.org/abs/2006.06882v2"
+        },
+        "c": "https://github.com/tensorflow/tpu/tree/master/models/official/detection/projects/self_training",
+        "n": "SpineNet-190 (1280, with Self-training on OpenImages, single-scale)",
+        "d": "2020-06-11",
+        "m1": "54.2"
+      },
+      {
+        "p": {
+          "name": "OverLoCK: An Overview-first-Look-Closely-next ConvNet with Context-Mixing Dynamic Kernels",
+          "link": "https://arxiv.org/abs/2502.20087v3"
+        },
+        "c": "",
+        "n": "OverLoCK-B (Cascade Mask R-CNN 3x)",
+        "d": "2025-02-27",
+        "m1": "53.9",
+        "m7": "154"
+      },
+      {
+        "p": {
+          "name": "Spectral-Adaptive Modulation Networks for Visual Perception",
+          "link": "https://arxiv.org/abs/2503.23947v2"
+        },
+        "c": "https://github.com/DoranLyong/SPANetV2-official",
+        "n": "SPANetV2-S36-hybrid (Cascade Mask R-CNN 3x)",
+        "d": "2025-03-31",
+        "m1": "53.8",
+        "m2": "72.9",
+        "m3": "58.4"
+      },
+      {
+        "p": {
+          "name": "Simple Training Strategies and Model Scaling for Object Detection",
+          "link": "https://arxiv.org/abs/2107.00057v1"
+        },
+        "c": "https://github.com/tensorflow/tpu",
+        "n": "Cascade RCNN-RS (SpineNet-143L, single scale)",
+        "d": "2021-06-30",
+        "m1": "53.6",
+        "m4": "34.5",
+        "m5": "56.7",
+        "m6": "70.6"
+      },
+      {
+        "p": {
+          "name": "Exploring Target Representations for Masked Autoencoders",
+          "link": "https://arxiv.org/abs/2209.03917v3"
+        },
+        "c": "https://github.com/liuxingbin/dbot",
+        "n": "dBOT (ViT-B, CLIP teacher, Mask R-CNN)",
+        "d": "2022-09-08",
+        "m1": "53.6"
+      },
+      {
+        "p": {
+          "name": "OverLoCK: An Overview-first-Look-Closely-next ConvNet with Context-Mixing Dynamic Kernels",
+          "link": "https://arxiv.org/abs/2502.20087v3"
+        },
+        "c": "",
+        "n": "OverLoCK-S (Cascade Mask R-CNN 3x)",
+        "d": "2025-02-27",
+        "m1": "53.6",
+        "m7": "114"
+      },
+      {
+        "p": {
+          "name": "Match One, Learn with Graph: One-to-Graph Query Collaboration with Backward Sharing for Object Detection",
+          "link": "https://arxiv.org/abs/2609.26092v1"
+        },
+        "c": "",
+        "n": "BS-O2G (DEIM, ResNet-50, 24ep)",
+        "d": "2026-08-06",
+        "m1": "53.5",
+        "m2": "71.3",
+        "m3": "58.1",
+        "m4": "36.9",
+        "m5": "58.0",
+        "m6": "70.5"
+      },
+      {
+        "p": {
+          "name": "EfficientDet: Scalable and Efficient Object Detection",
+          "link": "https://arxiv.org/abs/1911.09070v7"
+        },
+        "c": "https://github.com/google/automl",
+        "n": "EfficientDet-D7 (1536)",
+        "d": "2019-11-20",
+        "m1": "53.4"
+      },
+      {
+        "p": {
+          "name": "MaxViT: Multi-Axis Vision Transformer",
+          "link": "https://arxiv.org/abs/2204.01697v4"
+        },
+        "c": "https://github.com/google-research/maxvit",
+        "n": "MaxViT-B (Cascade Mask R-CNN)",
+        "d": "2022-04-04",
+        "m1": "53.4",
+        "m2": "72.9",
+        "m3": "58.1",
+        "m7": "157"
+      },
+      {
+        "p": {
+          "name": "Masked Autoencoders Are Scalable Vision Learners",
+          "link": "https://arxiv.org/abs/2111.06377v2"
+        },
+        "c": "https://github.com/facebookresearch/mae",
+        "n": "MAE (ViT-L, Mask R-CNN)",
+        "d": "2021-11-11",
+        "m1": "53.3"
+      },
+      {
+        "p": {
+          "name": "MogaNet: Multi-order Gated Aggregation Network",
+          "link": "https://arxiv.org/abs/2211.03295v3"
+        },
+        "c": "https://github.com/Westlake-AI/MogaNet",
+        "n": "MogaNet-L (Cascade Mask R-CNN 3x)",
+        "d": "2022-11-07",
+        "m1": "53.3",
+        "m2": "71.8",
+        "m3": "57.8",
+        "m7": "140"
+      },
+      {
+        "p": {
+          "name": "RMT: Retentive Networks Meet Vision Transformers",
+          "link": "https://arxiv.org/abs/2309.11523v6"
+        },
+        "c": "https://github.com/qhfan/RMT",
+        "n": "RMT-S (Cascade Mask R-CNN 3x)",
+        "d": "2023-09-20",
+        "m1": "53.2",
+        "m2": "72.0",
+        "m3": "57.8",
+        "m7": "83"
+      },
+      {
+        "p": {
+          "name": "Frozen-DETR: Enhancing DETR with Image Understanding from Frozen Foundation Models",
+          "link": "https://arxiv.org/abs/2410.19635v1"
+        },
+        "c": "https://github.com/iSEE-Laboratory/Frozen-DETR",
+        "n": "Frozen-DETR (DINO-4scale, ResNet-50, frozen foundation model, 24ep)",
+        "d": "2024-10-25",
+        "m1": "53.2",
+        "m2": "71.8",
+        "m3": "58.0",
+        "m4": "35.1",
+        "m5": "56.5",
+        "m6": "70.6"
+      },
+      {
+        "p": {
+          "name": "Simple Training Strategies and Model Scaling for Object Detection",
+          "link": "https://arxiv.org/abs/2107.00057v1"
+        },
+        "c": "https://github.com/tensorflow/tpu",
+        "n": "Cascade RCNN-RS (ResNet-200, single scale)",
+        "d": "2021-06-30",
+        "m1": "53.1",
+        "m4": "33.9",
+        "m5": "56.2",
+        "m6": "70.3"
+      },
+      {
+        "p": {
+          "name": "MaxViT: Multi-Axis Vision Transformer",
+          "link": "https://arxiv.org/abs/2204.01697v4"
+        },
+        "c": "https://github.com/google-research/maxvit",
+        "n": "MaxViT-S (Cascade Mask R-CNN)",
+        "d": "2022-04-04",
+        "m1": "53.1",
+        "m2": "72.5",
+        "m3": "58.1",
+        "m7": "107"
+      },
+      {
+        "p": {
+          "name": "PeLK: Parameter-efficient Large Kernel ConvNets with Peripheral Convolution",
+          "link": "https://arxiv.org/abs/2403.07589v2"
+        },
+        "c": "",
+        "n": "PeLK-B-101 (Cascade Mask R-CNN 3x)",
+        "d": "2024-03-12",
+        "m1": "53.1",
+        "m7": "147"
+      },
+      {
+        "p": {
+          "name": "Spectral-Adaptive Modulation Networks for Visual Perception",
+          "link": "https://arxiv.org/abs/2503.23947v2"
+        },
+        "c": "https://github.com/DoranLyong/SPANetV2-official",
+        "n": "SPANetV2-S36-pure (Cascade Mask R-CNN 3x)",
+        "d": "2025-03-31",
+        "m1": "53.1",
+        "m2": "72.2",
+        "m3": "57.6"
+      },
+      {
+        "p": {
+          "name": "MOAT: Alternating Mobile Convolution and Attention Brings Strong Vision Models",
+          "link": "https://arxiv.org/abs/2210.01820v2"
+        },
+        "c": "https://github.com/google-research/deeplab2",
+        "n": "tiny-MOAT-2 (IN-1K pretraining, single-scale)",
+        "d": "2022-10-04",
+        "m1": "53.0"
+      },
+      {
+        "p": {
+          "name": "UniRepLKNet: A Universal Perception Large-Kernel ConvNet for Audio, Video, Point Cloud, Time-Series and Image Recognition",
+          "link": "https://arxiv.org/abs/2311.15599v2"
+        },
+        "c": "https://github.com/ailab-cvc/unireplknet",
+        "n": "UniRepLKNet-S (Cascade Mask R-CNN 3x)",
+        "d": "2023-11-27",
+        "m1": "53.0",
+        "m7": "113"
+      },
+      {
+        "p": {
+          "name": "PeLK: Parameter-efficient Large Kernel ConvNets with Peripheral Convolution",
+          "link": "https://arxiv.org/abs/2403.07589v2"
+        },
+        "c": "",
+        "n": "PeLK-B (Cascade Mask R-CNN 3x)",
+        "d": "2024-03-12",
+        "m1": "52.9",
+        "m7": "147"
+      },
+      {
+        "p": {
+          "name": "Rotary Position Embedding for Vision Transformer",
+          "link": "https://arxiv.org/abs/2403.13298v2"
+        },
+        "c": "https://github.com/naver-ai/rope-vit",
+        "n": "ViT-L + RoPE-Mixed (DINO-ViTDet, 12ep)",
+        "d": "2024-03-20",
+        "m1": "52.9"
+      },
+      {
+        "p": {
+          "name": "DeepMIM: Deep Supervision for Masked Image Modeling",
+          "link": "https://arxiv.org/abs/2303.08817v2"
+        },
+        "c": "https://github.com/OliverRensu/DeepMIM",
+        "n": "DeepMIM-MAE-CLIP (ViT-B, Mask R-CNN)",
+        "d": "2023-03-15",
+        "m1": "52.8"
+      },
+      {
+        "p": {
+          "name": "Semantic Equitable Clustering: A Simple and Effective Strategy for Clustering Vision Tokens",
+          "link": "https://arxiv.org/abs/2405.13337v3"
+        },
+        "c": "",
+        "n": "SECViT-B (Mask R-CNN 3x)",
+        "d": "2024-05-22",
+        "m1": "52.8",
+        "m2": "73.6",
+        "m3": "57.7",
+        "m7": "75"
+      },
+      {
+        "p": {
+          "name": "MambaVision: A Hybrid Mamba-Transformer Vision Backbone",
+          "link": "https://arxiv.org/abs/2407.08083v2"
+        },
+        "c": "https://github.com/NVlabs/MambaVision",
+        "n": "MambaVision-B (Cascade Mask R-CNN 3x)",
+        "d": "2024-07-10",
+        "m1": "52.8",
+        "m2": "71.3",
+        "m3": "57.2",
+        "m7": "145"
+      },
+      {
+        "p": {
+          "name": "MViTv2: Improved Multiscale Vision Transformers for Classification and Detection",
+          "link": "https://arxiv.org/abs/2112.01526v2"
+        },
+        "c": "https://github.com/facebookresearch/mvit",
+        "n": "MViT-L (Mask R-CNN, single-scale, IN21k pre-train)",
+        "d": "2021-12-02",
+        "m1": "52.7"
+      },
+      {
+        "p": {
+          "name": "MixMAE: Mixed and Masked Autoencoder for Efficient Pretraining of Hierarchical Vision Transformers",
+          "link": "https://arxiv.org/abs/2205.13137v4"
+        },
+        "c": "https://github.com/sense-x/mixmim",
+        "n": "MixMAE (Swin-B/W14, 600ep, Mask R-CNN)",
+        "d": "2022-05-26",
+        "m1": "52.7",
+        "m7": "110"
+      },
+      {
+        "p": {
+          "name": "MogaNet: Multi-order Gated Aggregation Network",
+          "link": "https://arxiv.org/abs/2211.03295v3"
+        },
+        "c": "https://github.com/Westlake-AI/MogaNet",
+        "n": "MogaNet-B (Cascade Mask R-CNN 3x)",
+        "d": "2022-11-07",
+        "m1": "52.6",
+        "m2": "72.0",
+        "m3": "57.3",
+        "m7": "101"
+      },
+      {
+        "p": {
+          "name": "HIRI-ViT: Scaling Vision Transformer with High Resolution Inputs",
+          "link": "https://arxiv.org/abs/2403.11999v1"
+        },
+        "c": "",
+        "n": "HIRI-ViT-S (Cascade Mask R-CNN 3x, 1600px input)",
+        "d": "2024-03-18",
+        "m1": "52.6",
+        "m2": "71.3",
+        "m3": "57.1",
+        "m7": "88.9"
+      },
+      {
+        "p": {
+          "name": "PaQ-DETR: Learning Pattern and Quality-Aware Dynamic Queries for Object Detection",
+          "link": "https://arxiv.org/abs/2603.06917v2"
+        },
+        "c": "",
+        "n": "PaQ-DINO (ResNet-50, 24ep)",
+        "d": "2026-03-06",
+        "m1": "52.6",
+        "m2": "69.7",
+        "m3": "56.9",
+        "m4": "35.7",
+        "m5": "56.4",
+        "m6": "67.0"
+      },
+      {
+        "p": {
+          "name": "Active Token Mixer",
+          "link": "https://arxiv.org/abs/2203.06108v2"
+        },
+        "c": "https://github.com/microsoft/TokenMixers",
+        "n": "ATMNet-B (Cascade Mask R-CNN 3x, MS)",
+        "d": "2022-03-11",
+        "m1": "52.5",
+        "m2": "71.6",
+        "m3": "57.0"
+      },
+      {
+        "p": {
+          "name": "LP-DETR: Layer-wise Progressive Relations for Object Detection",
+          "link": "https://arxiv.org/abs/2502.05147v3"
+        },
+        "c": "",
+        "n": "LP-DETR (ResNet-50, 24ep)",
+        "d": "2025-02-07",
+        "m1": "52.5",
+        "m2": "70.0",
+        "m3": "57.2",
+        "m4": "36.2",
+        "m5": "56.3",
+        "m6": "67.1"
+      },
+      {
+        "p": {
+          "name": "Language-aware Multiple Datasets Detection Pretraining for DETRs",
+          "link": "https://arxiv.org/abs/2304.03580v1"
+        },
+        "c": "",
+        "n": "METR (ResNet-50, Objects365+OpenImages pre-training, 12ep)",
+        "d": "2023-04-07",
+        "m1": "52.4",
+        "m2": "70.3",
+        "m3": "57.5",
+        "m4": "35.7",
+        "m5": "55.9",
+        "m6": "66.4",
+        "m7": "50"
+      },
+      {
+        "p": {
+          "name": "POA: Pre-training Once for Models of All Sizes",
+          "link": "https://arxiv.org/abs/2408.01031v1"
+        },
+        "c": "https://github.com/Qichuzyy/POA",
+        "n": "POA ViT-B/16 (Cascade Mask R-CNN)",
+        "d": "2024-08-02",
+        "m1": "52.4"
+      },
+      {
+        "p": {
+          "name": "PaQ-DETR: Learning Pattern and Quality-Aware Dynamic Queries for Object Detection",
+          "link": "https://arxiv.org/abs/2603.06917v2"
+        },
+        "c": "",
+        "n": "PaQ-DETR (ResNet-50, hybrid matching, 12ep)",
+        "d": "2026-03-06",
+        "m1": "52.4",
+        "m2": "69.8",
+        "m3": "57.4",
+        "m4": "36.1",
+        "m5": "55.6",
+        "m6": "66.2"
+      },
+      {
+        "p": {
+          "name": "MambaVision: A Hybrid Mamba-Transformer Vision Backbone",
+          "link": "https://arxiv.org/abs/2407.08083v2"
+        },
+        "c": "https://github.com/NVlabs/MambaVision",
+        "n": "MambaVision-S (Cascade Mask R-CNN 3x)",
+        "d": "2024-07-10",
+        "m1": "52.3",
+        "m2": "71.1",
+        "m3": "56.7",
+        "m7": "108"
+      },
+      {
+        "p": {
+          "name": "LP-DETR: Layer-wise Progressive Relations for Object Detection",
+          "link": "https://arxiv.org/abs/2502.05147v3"
+        },
+        "c": "",
+        "n": "LP-DETR (ResNet-50, 12ep)",
+        "d": "2025-02-07",
+        "m1": "52.3",
+        "m2": "69.6",
+        "m3": "56.8",
+        "m4": "35.8",
+        "m5": "55.9",
+        "m6": "66.6"
+      },
+      {
+        "p": {
+          "name": "MDS-DETR: DETR with Masked Duplicate Suppressor",
+          "link": "https://arxiv.org/abs/2605.23507v1"
+        },
+        "c": "https://github.com/DChoLee/MDS-DETR",
+        "n": "MDS-DETR (ResNet-50, 900 queries, 24ep)",
+        "d": "2026-05-22",
+        "m1": "52.3",
+        "m2": "69.7",
+        "m3": "56.9",
+        "m4": "35.5",
+        "m5": "56.0",
+        "m6": "67.0"
+      },
+      {
+        "p": {
+          "name": "SpineNet: Learning Scale-Permuted Backbone for Recognition and Localization",
+          "link": "https://arxiv.org/abs/1912.05027v3"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/official/vision/beta/modeling/backbones",
+        "n": "Mask R-CNN (SpineNet-190, 1536x1536)",
+        "d": "2019-12-10",
+        "m1": "52.2"
+      },
+      {
+        "p": {
+          "name": "RMT: Retentive Networks Meet Vision Transformers",
+          "link": "https://arxiv.org/abs/2309.11523v6"
+        },
+        "c": "https://github.com/qhfan/RMT",
+        "n": "RMT-B (Mask R-CNN 3x)",
+        "d": "2023-09-20",
+        "m1": "52.2",
+        "m2": "72.9",
+        "m3": "57.0",
+        "m7": "73"
+      },
+      {
+        "p": {
+          "name": "PeLK: Parameter-efficient Large Kernel ConvNets with Peripheral Convolution",
+          "link": "https://arxiv.org/abs/2403.07589v2"
+        },
+        "c": "",
+        "n": "PeLK-S (Cascade Mask R-CNN 3x)",
+        "d": "2024-03-12",
+        "m1": "52.2",
+        "m7": "108"
+      },
+      {
+        "p": {
+          "name": "CoCAViT: Compact Vision Transformer with Robust Global Coordination",
+          "link": "https://arxiv.org/abs/2508.05307v1"
+        },
+        "c": "",
+        "n": "CoCAViT-28M (Cascade Mask R-CNN 3x)",
+        "d": "2025-08-07",
+        "m1": "52.2",
+        "m2": "71.0",
+        "m3": "56.8"
+      },
+      {
+        "p": {
+          "name": "MaxViT: Multi-Axis Vision Transformer",
+          "link": "https://arxiv.org/abs/2204.01697v4"
+        },
+        "c": "https://github.com/google-research/maxvit",
+        "n": "MaxViT-T (Cascade Mask R-CNN)",
+        "d": "2022-04-04",
+        "m1": "52.1",
+        "m2": "71.9",
+        "m3": "56.8",
+        "m7": "69"
+      },
+      {
+        "p": {
+          "name": "Relation DETR: Exploring Explicit Position Relation Prior for Object Detection",
+          "link": "https://arxiv.org/abs/2407.11699v1"
+        },
+        "c": "https://github.com/xiuqhou/relation-detr",
+        "n": "Relation-DETR (ResNet-50, 24ep)",
+        "d": "2024-07-16",
+        "m1": "52.1",
+        "m2": "69.7",
+        "m3": "56.6",
+        "m4": "36.1",
+        "m5": "56.0",
+        "m6": "66.5"
+      },
+      {
+        "p": {
+          "name": "Semantic Equitable Clustering: A Simple and Effective Strategy for Clustering Vision Tokens",
+          "link": "https://arxiv.org/abs/2405.13337v3"
+        },
+        "c": "",
+        "n": "SECViT-L (Mask R-CNN 1x)",
+        "d": "2024-05-22",
+        "m1": "52.0",
+        "m2": "73.5",
+        "m3": "57.3",
+        "m7": "119"
+      },
+      {
+        "p": {
+          "name": "MOAT: Alternating Mobile Convolution and Attention Brings Strong Vision Models",
+          "link": "https://arxiv.org/abs/2210.01820v2"
+        },
+        "c": "https://github.com/google-research/deeplab2",
+        "n": "tiny-MOAT-1 (IN-1K pretraining, single-scale)",
+        "d": "2022-10-04",
+        "m1": "51.9"
+      },
+      {
+        "p": {
+          "name": "HIRI-ViT: Scaling Vision Transformer with High Resolution Inputs",
+          "link": "https://arxiv.org/abs/2403.11999v1"
+        },
+        "c": "",
+        "n": "HIRI-ViT-S (Sparse R-CNN 3x, 1600px input)",
+        "d": "2024-03-18",
+        "m1": "51.9",
+        "m2": "71.9",
+        "m3": "56.6",
+        "m7": "113.0"
+      },
+      {
+        "p": {
+          "name": "DI-MaskDINO: A Joint Object Detection and Instance Segmentation Model",
+          "link": "https://arxiv.org/abs/2410.16707v1"
+        },
+        "c": "",
+        "n": "DI-MaskDINO (ResNet-50, 50ep)",
+        "d": "2024-10-22",
+        "m1": "51.9",
+        "m4": "36.3",
+        "m5": "54.7",
+        "m6": "66.7"
+      },
+      {
+        "p": {
+          "name": "PaQ-DETR: Learning Pattern and Quality-Aware Dynamic Queries for Object Detection",
+          "link": "https://arxiv.org/abs/2603.06917v2"
+        },
+        "c": "",
+        "n": "PaQ-DINO (ResNet-50, 12ep)",
+        "d": "2026-03-06",
+        "m1": "51.9",
+        "m2": "69.1",
+        "m3": "56.3",
+        "m4": "35.1",
+        "m5": "56.0",
+        "m6": "66.6"
+      },
+      {
+        "p": {
+          "name": "Global Context Networks",
+          "link": "https://arxiv.org/abs/2012.13375v1"
+        },
+        "c": "https://github.com/xvjiarui/GCNet",
+        "n": "GCNet (ResNeXt-101 + DCN + cascade + GC r4)",
+        "d": "2020-12-24",
+        "m1": "51.8",
+        "m2": "70.4",
+        "m3": "56.1"
+      },
+      {
+        "p": {
+          "name": "UniRepLKNet: A Universal Perception Large-Kernel ConvNet for Audio, Video, Point Cloud, Time-Series and Image Recognition",
+          "link": "https://arxiv.org/abs/2311.15599v2"
+        },
+        "c": "https://github.com/ailab-cvc/unireplknet",
+        "n": "UniRepLKNet-T (Cascade Mask R-CNN 3x)",
+        "d": "2023-11-27",
+        "m1": "51.8",
+        "m7": "89"
+      },
+      {
+        "p": {
+          "name": "LORS: Low-rank Residual Structure for Parameter-Efficient Network Stacking",
+          "link": "https://arxiv.org/abs/2403.04303v1"
+        },
+        "c": "",
+        "n": "AdaMixer + LORS (Swin-S, 3x)",
+        "d": "2024-03-07",
+        "m1": "51.8",
+        "m2": "71.6",
+        "m3": "56.4",
+        "m4": "35.4",
+        "m5": "55.0",
+        "m6": "68.4",
+        "m7": "85"
+      },
+      {
+        "p": {
+          "name": "Enhancing DETRs Variants through Improved Content Query and Similar Query Aggregation",
+          "link": "https://arxiv.org/abs/2405.03318v1"
+        },
+        "c": "",
+        "n": "DINO + SACQ (Swin-T, 12ep)",
+        "d": "2024-05-06",
+        "m1": "51.8",
+        "m2": "70.4",
+        "m3": "56.7",
+        "m4": "34.6",
+        "m5": "54.4",
+        "m6": "67.5"
+      },
+      {
+        "p": {
+          "name": "CoCAViT: Compact Vision Transformer with Robust Global Coordination",
+          "link": "https://arxiv.org/abs/2508.05307v1"
+        },
+        "c": "",
+        "n": "CoCAViT-21M (Cascade Mask R-CNN 3x)",
+        "d": "2025-08-07",
+        "m1": "51.8",
+        "m2": "70.5",
+        "m3": "56.1"
+      },
+      {
+        "p": {
+          "name": "Align-DETR: Enhancing End-to-end Object Detection with Aligned Loss",
+          "link": "https://arxiv.org/abs/2304.07527v2"
+        },
+        "c": "https://github.com/FelixCaae/AlignDETR",
+        "n": "Align-DETR (ResNet-50, 24ep)",
+        "d": "2023-04-15",
+        "m1": "51.7",
+        "m2": "69.0",
+        "m3": "56.3",
+        "m4": "35.5",
+        "m5": "55.0",
+        "m6": "66.1"
+      },
+      {
+        "p": {
+          "name": "Relation DETR: Exploring Explicit Position Relation Prior for Object Detection",
+          "link": "https://arxiv.org/abs/2407.11699v1"
+        },
+        "c": "https://github.com/xiuqhou/relation-detr",
+        "n": "Relation-DETR (ResNet-50, 12ep)",
+        "d": "2024-07-16",
+        "m1": "51.7",
+        "m2": "69.1",
+        "m3": "56.3",
+        "m4": "36.1",
+        "m5": "55.6",
+        "m6": "66.1"
+      },
+      {
+        "p": {
+          "name": "ELSA: Enhanced Local Self-Attention for Vision Transformer",
+          "link": "https://arxiv.org/abs/2112.12786v1"
+        },
+        "c": "https://github.com/damo-cv/elsa",
+        "n": "ELSA-S (Cascade Mask RCNN)",
+        "d": "2021-12-23",
+        "m1": "51.6",
+        "m2": "70.5",
+        "m3": "56.0"
+      },
+      {
+        "p": {
+          "name": "MogaNet: Multi-order Gated Aggregation Network",
+          "link": "https://arxiv.org/abs/2211.03295v3"
+        },
+        "c": "https://github.com/Westlake-AI/MogaNet",
+        "n": "MogaNet-S (Cascade Mask R-CNN 3x)",
+        "d": "2022-11-07",
+        "m1": "51.6",
+        "m2": "70.8",
+        "m3": "56.3",
+        "m7": "83"
+      },
+      {
+        "p": {
+          "name": "DeepMIM: Deep Supervision for Masked Image Modeling",
+          "link": "https://arxiv.org/abs/2303.08817v2"
+        },
+        "c": "https://github.com/OliverRensu/DeepMIM",
+        "n": "DeepMIM-MAE (ViT-B, Mask R-CNN)",
+        "d": "2023-03-15",
+        "m1": "51.6"
+      },
+      {
+        "p": {
+          "name": "RMT: Retentive Networks Meet Vision Transformers",
+          "link": "https://arxiv.org/abs/2309.11523v6"
+        },
+        "c": "https://github.com/qhfan/RMT",
+        "n": "RMT-L (Mask R-CNN 1x)",
+        "d": "2023-09-20",
+        "m1": "51.6",
+        "m2": "73.1",
+        "m3": "56.5",
+        "m7": "114"
+      },
+      {
+        "p": {
+          "name": "Focal Modulation Networks",
+          "link": "https://arxiv.org/abs/2203.11926v3"
+        },
+        "c": "https://github.com/microsoft/FocalNet",
+        "n": "FocalNet-T (LRF, Cascade Mask R-CNN)",
+        "d": "2022-03-22",
+        "m1": "51.5",
+        "m2": "70.3",
+        "m3": "56.0"
+      },
+      {
+        "p": {
+          "name": "SpectFormer: Frequency and Attention is what you need in a Vision Transformer",
+          "link": "https://arxiv.org/abs/2304.06446v2"
+        },
+        "c": "",
+        "n": "SpectFormer-H-S (Cascade Mask R-CNN 3x)",
+        "d": "2023-04-13",
+        "m1": "51.5",
+        "m2": "70.2",
+        "m3": "56.3"
+      },
+      {
+        "p": {
+          "name": "PeLK: Parameter-efficient Large Kernel ConvNets with Peripheral Convolution",
+          "link": "https://arxiv.org/abs/2403.07589v2"
+        },
+        "c": "",
+        "n": "PeLK-T (Cascade Mask R-CNN 3x)",
+        "d": "2024-03-12",
+        "m1": "51.4",
+        "m7": "86"
+      },
+      {
+        "p": {
+          "name": "OverLoCK: An Overview-first-Look-Closely-next ConvNet with Context-Mixing Dynamic Kernels",
+          "link": "https://arxiv.org/abs/2502.20087v3"
+        },
+        "c": "",
+        "n": "OverLoCK-B (Mask R-CNN 3x)",
+        "d": "2025-02-27",
+        "m1": "51.4",
+        "m7": "114"
+      },
+      {
+        "p": {
+          "name": "DINO: DETR with Improved DeNoising Anchor Boxes for End-to-End Object Detection",
+          "link": "https://arxiv.org/abs/2203.03605v4"
+        },
+        "c": "https://github.com/IDEA-Research/DINO",
+        "n": "DINO-5scale (24 epoch)",
+        "d": "2022-03-07",
+        "m1": "51.3",
+        "m2": "69.1",
+        "m3": "56",
+        "m4": "34.5",
+        "m5": "54.2",
+        "m6": "65.8"
+      },
+      {
+        "p": {
+          "name": "DS-Det: Single-Query Paradigm and Attention Disentangled Learning for Flexible Object Detection",
+          "link": "https://arxiv.org/abs/2507.19807v1"
+        },
+        "c": "https://github.com/Med-Process/DS-Det",
+        "n": "DS-Det (ResNet-50, 24ep)",
+        "d": "2025-07-26",
+        "m1": "51.3",
+        "m2": "68.4",
+        "m3": "55.9",
+        "m4": "35.5",
+        "m5": "54.8",
+        "m6": "65.7",
+        "m7": "48"
+      },
+      {
+        "p": {
+          "name": "DINO: DETR with Improved DeNoising Anchor Boxes for End-to-End Object Detection",
+          "link": "https://arxiv.org/abs/2203.03605v4"
+        },
+        "c": "https://github.com/IDEA-Research/DINO",
+        "n": "DINO-5scale (36 epoch)",
+        "d": "2022-03-07",
+        "m1": "51.2",
+        "m2": "69",
+        "m3": "55.8",
+        "m4": "35",
+        "m5": "54.3",
+        "m6": "65.3"
+      },
+      {
+        "p": {
+          "name": "Rotary Position Embedding for Vision Transformer",
+          "link": "https://arxiv.org/abs/2403.13298v2"
+        },
+        "c": "https://github.com/naver-ai/rope-vit",
+        "n": "ViT-B + RoPE-Mixed (DINO-ViTDet, 12ep)",
+        "d": "2024-03-20",
+        "m1": "51.2"
+      },
+      {
+        "p": {
+          "name": "UniConvNet: Expanding Effective Receptive Field while Maintaining Asymptotically Gaussian Distribution for ConvNets of Any Scale",
+          "link": "https://arxiv.org/abs/2508.09000v1"
+        },
+        "c": "https://github.com/ai-paperwithcode/UniConvNet",
+        "n": "UniConvNet-B (Mask R-CNN 3x)",
+        "d": "2025-08-12",
+        "m1": "51.2",
+        "m2": "72.2",
+        "m3": "56.1",
+        "m7": "118.0"
+      },
+      {
+        "p": {
+          "name": "MDS-DETR: DETR with Masked Duplicate Suppressor",
+          "link": "https://arxiv.org/abs/2605.23507v1"
+        },
+        "c": "https://github.com/DChoLee/MDS-DETR",
+        "n": "Hybrid-MDS-DETR (ResNet-50, 12ep)",
+        "d": "2026-05-22",
+        "m1": "51.2",
+        "m2": "68.9",
+        "m3": "55.8",
+        "m4": "34.0",
+        "m5": "54.8",
+        "m6": "66.2"
+      },
+      {
+        "p": {
+          "name": "MambaVision: A Hybrid Mamba-Transformer Vision Backbone",
+          "link": "https://arxiv.org/abs/2407.08083v2"
+        },
+        "c": "https://github.com/NVlabs/MambaVision",
+        "n": "MambaVision-T (Cascade Mask R-CNN 3x)",
+        "d": "2024-07-10",
+        "m1": "51.1",
+        "m2": "70.0",
+        "m3": "55.6",
+        "m7": "86"
+      },
+      {
+        "p": {
+          "name": "MDS-DETR: DETR with Masked Duplicate Suppressor",
+          "link": "https://arxiv.org/abs/2605.23507v1"
+        },
+        "c": "https://github.com/DChoLee/MDS-DETR",
+        "n": "MDS-DETR (ResNet-50, 900 queries, 12ep)",
+        "d": "2026-05-22",
+        "m1": "51.1",
+        "m2": "68.8",
+        "m3": "55.5",
+        "m4": "34.0",
+        "m5": "55.0",
+        "m6": "66.0"
+      },
+      {
+        "p": {
+          "name": "ResNeSt: Split-Attention Networks",
+          "link": "https://arxiv.org/abs/2004.08955v2"
+        },
+        "c": "https://github.com/zhanghang1989/detectron2-ResNeSt",
+        "n": "ResNeSt-200 (Cascade R-CNN, DCN, tricks, 3x; official repo)",
+        "d": "2020-04-19",
+        "m1": "50.91"
+      },
+      {
+        "p": {
+          "name": "RF-Next: Efficient Receptive Field Search for Convolutional Neural Networks",
+          "link": "https://arxiv.org/abs/2206.06637v2"
+        },
+        "c": "https://github.com/ShangHua-Gao/G2L-search",
+        "n": "RF-ConvNeXt-T (Cascade Mask R-CNN)",
+        "d": "2022-06-14",
+        "m1": "50.9",
+        "m2": "69.5",
+        "m3": "55.5",
+        "m4": "34.3",
+        "m5": "54.6",
+        "m6": "65.8"
+      },
+      {
+        "p": {
+          "name": "Learning Data Augmentation Strategies for Object Detection",
+          "link": "https://arxiv.org/abs/1906.11172v1"
+        },
+        "c": "https://github.com/tensorflow/tpu",
+        "n": "NAS-FPN (AmoebaNet-D, learned aug)",
+        "d": "2019-06-26",
+        "m1": "50.7",
+        "m4": "34.2",
+        "m5": "55.5",
+        "m6": "64.5"
+      },
+      {
+        "p": {
+          "name": "Dual-R-DETR: Resolving Query Competition with Pairwise Routing in Transformer Decoders",
+          "link": "https://arxiv.org/abs/2512.13876v2"
+        },
+        "c": "https://github.com/YZk67/Dual-R-DETR",
+        "n": "Dual-R-DETR (ResNet-50, 12ep)",
+        "d": "2025-12-15",
+        "m1": "50.7",
+        "m2": "68.8",
+        "m3": "55.0",
+        "m4": "34.1",
+        "m5": "54.2",
+        "m6": "64.6"
+      },
+      {
+        "p": {
+          "name": "POA: Pre-training Once for Models of All Sizes",
+          "link": "https://arxiv.org/abs/2408.01031v1"
+        },
+        "c": "https://github.com/Qichuzyy/POA",
+        "n": "POA ViT-S/16 (Cascade Mask R-CNN)",
+        "d": "2024-08-02",
+        "m1": "50.6"
+      },
+      {
+        "p": {
+          "name": "Hyb-KAN ViT: Hybrid Kolmogorov-Arnold Networks Augmented Vision Transformer",
+          "link": "https://arxiv.org/abs/2505.04740v1"
+        },
+        "c": "",
+        "n": "Hyb-KAN ViT-B (Mask R-CNN, ViTDet-style, 3x)",
+        "d": "2025-05-07",
+        "m1": "50.6",
+        "m2": "71.3",
+        "m3": "55.3",
+        "m7": "140"
+      },
+      {
+        "p": {
+          "name": "ResNeSt: Split-Attention Networks",
+          "link": "https://arxiv.org/abs/2004.08955v2"
+        },
+        "c": "https://github.com/zhanghang1989/detectron2-ResNeSt",
+        "n": "ResNeSt-200 (Cascade R-CNN, tricks, 3x; official repo)",
+        "d": "2020-04-19",
+        "m1": "50.54"
+      },
+      {
+        "p": {
+          "name": "MOAT: Alternating Mobile Convolution and Attention Brings Strong Vision Models",
+          "link": "https://arxiv.org/abs/2210.01820v2"
+        },
+        "c": "https://github.com/google-research/deeplab2",
+        "n": "tiny-MOAT-0 (IN-1K pretraining, single-scale)",
+        "d": "2022-10-04",
+        "m1": "50.5"
+      },
+      {
+        "p": {
+          "name": "Align-DETR: Enhancing End-to-end Object Detection with Aligned Loss",
+          "link": "https://arxiv.org/abs/2304.07527v2"
+        },
+        "c": "https://github.com/FelixCaae/AlignDETR",
+        "n": "Align-DETR (ResNet-50, 12ep)",
+        "d": "2023-04-15",
+        "m1": "50.5",
+        "m2": "67.7",
+        "m3": "55.3",
+        "m4": "34.7",
+        "m5": "53.6",
+        "m6": "64.6"
+      },
+      {
+        "p": {
+          "name": "DS-Det: Single-Query Paradigm and Attention Disentangled Learning for Flexible Object Detection",
+          "link": "https://arxiv.org/abs/2507.19807v1"
+        },
+        "c": "https://github.com/Med-Process/DS-Det",
+        "n": "DS-Det (ResNet-50, 12ep)",
+        "d": "2025-07-26",
+        "m1": "50.5",
+        "m2": "67.5",
+        "m3": "55.1",
+        "m4": "34.3",
+        "m5": "54.6",
+        "m6": "64.5",
+        "m7": "48"
+      },
+      {
+        "p": {
+          "name": "VisionHOPE: Visual Backbones as Self-Modifying Learning Systems",
+          "link": "https://arxiv.org/abs/2609.33325v1"
+        },
+        "c": "",
+        "n": "VisionHOPE-B (Mask R-CNN 1x)",
+        "d": "2026-09-27",
+        "m1": "50.5"
+      },
+      {
+        "p": {
+          "name": "VisionHOPE: Visual Backbones as Self-Modifying Learning Systems",
+          "link": "https://arxiv.org/abs/2609.33325v1"
+        },
+        "c": "",
+        "n": "VisionHOPE-S (Mask R-CNN 3x)",
+        "d": "2026-09-27",
+        "m1": "50.5",
+        "m2": "71.7",
+        "m3": "55.5"
+      },
+      {
+        "p": {
+          "name": "FeatAug-DETR: Enriching One-to-Many Matching for DETRs with Feature Augmentation",
+          "link": "https://arxiv.org/abs/2303.01503v1"
+        },
+        "c": "https://github.com/rongyaofang/FeatAug-DETR",
+        "n": "H-Deformable-DETR + FeatAug-Flip (ResNet-50, 24ep)",
+        "d": "2023-03-02",
+        "m1": "50.4",
+        "m2": "68.7",
+        "m3": "54.9",
+        "m4": "32.7",
+        "m5": "53.6",
+        "m6": "65.2"
+      },
+      {
+        "p": {
+          "name": "Fractional Correspondence Framework in Detection Transformer",
+          "link": "https://arxiv.org/abs/2503.04107v1"
+        },
+        "c": "",
+        "n": "RTP-DETR (ResNet-50, 12ep)",
+        "d": "2025-03-06",
+        "m1": "50.4",
+        "m2": "67.9",
+        "m3": "55.2",
+        "m4": "34.7",
+        "m5": "53.8",
+        "m6": "64.2"
+      },
+      {
+        "p": {
+          "name": "Masked Autoencoders Are Scalable Vision Learners",
+          "link": "https://arxiv.org/abs/2111.06377v2"
+        },
+        "c": "https://github.com/facebookresearch/mae",
+        "n": "MAE (ViT-B, Mask R-CNN)",
+        "d": "2021-11-11",
+        "m1": "50.3"
+      },
+      {
+        "p": {
+          "name": "SpectFormer: Frequency and Attention is what you need in a Vision Transformer",
+          "link": "https://arxiv.org/abs/2304.06446v2"
+        },
+        "c": "",
+        "n": "SpectFormer-H-S (GFL 3x)",
+        "d": "2023-04-13",
+        "m1": "50.3",
+        "m2": "70.0",
+        "m3": "55.2"
+      },
+      {
+        "p": {
+          "name": "DAT++: Spatially Dynamic Vision Transformer with Deformable Attention",
+          "link": "https://arxiv.org/abs/2309.01430v1"
+        },
+        "c": "https://github.com/leaplabthu/dat",
+        "n": "DAT-S++ (RetinaNet 3x)",
+        "d": "2023-09-04",
+        "m1": "50.2",
+        "m2": "71.5",
+        "m3": "54.0",
+        "m4": "34.7",
+        "m5": "54.6",
+        "m6": "65.3",
+        "m7": "63"
+      },
+      {
+        "p": {
+          "name": "Semantic Equitable Clustering: A Simple and Effective Strategy for Clustering Vision Tokens",
+          "link": "https://arxiv.org/abs/2405.13337v3"
+        },
+        "c": "",
+        "n": "SECViT-L (RetinaNet 1x)",
+        "d": "2024-05-22",
+        "m1": "50.2",
+        "m2": "71.4",
+        "m3": "53.9",
+        "m4": "33.2",
+        "m5": "54.5",
+        "m6": "66.3",
+        "m7": "105"
+      },
+      {
+        "p": {
+          "name": "PVT v2: Improved Baselines with Pyramid Vision Transformer",
+          "link": "https://arxiv.org/abs/2106.13797v7"
+        },
+        "c": "https://github.com/whai362/PVT",
+        "n": "Sparse R-CNN (PVTv2-B2)",
+        "d": "2021-06-25",
+        "m1": "50.1",
+        "m2": "69.5",
+        "m3": "54.9"
+      },
+      {
+        "p": {
+          "name": "GlobalMamba: Global Image Serialization for Vision Mamba",
+          "link": "https://arxiv.org/abs/2410.10316v1"
+        },
+        "c": "https://github.com/wangck20/GlobalMamba",
+        "n": "GlobalMamba-S (Mask R-CNN 3x)",
+        "d": "2024-10-14",
+        "m1": "50.1",
+        "m3": "54.9",
+        "m7": "70"
+      },
+      {
+        "p": {
+          "name": "UniConvNet: Expanding Effective Receptive Field while Maintaining Asymptotically Gaussian Distribution for ConvNets of Any Scale",
+          "link": "https://arxiv.org/abs/2508.09000v1"
+        },
+        "c": "https://github.com/ai-paperwithcode/UniConvNet",
+        "n": "UniConvNet-T (Mask R-CNN 3x)",
+        "d": "2025-08-12",
+        "m1": "50.1",
+        "m2": "71.0",
+        "m3": "54.8",
+        "m7": "50.0"
+      },
+      {
+        "p": {
+          "name": "Pix2seq: A Language Modeling Framework for Object Detection",
+          "link": "https://arxiv.org/abs/2109.10852v2"
+        },
+        "c": "https://github.com/google-research/pix2seq",
+        "n": "Pix2seq (ViT-L)",
+        "d": "2021-09-22",
+        "m1": "50.0"
+      },
+      {
+        "p": {
+          "name": "V2M: Visual 2-Dimensional Mamba for Image Representation Learning",
+          "link": "https://arxiv.org/abs/2410.10382v1"
+        },
+        "c": "https://github.com/wangck20/V2M",
+        "n": "V2M-B (Mask R-CNN 3x)",
+        "d": "2024-10-14",
+        "m1": "50.0",
+        "m2": "70.9",
+        "m3": "54.8",
+        "m7": "70"
+      },
+      {
+        "p": {
+          "name": "DaViT: Dual Attention Vision Transformers",
+          "link": "https://arxiv.org/abs/2204.03645v1"
+        },
+        "c": "https://github.com/dingmyu/davit",
+        "n": "DaViT-T (Mask R-CNN, 36 epochs)",
+        "d": "2022-04-07",
+        "m1": "49.9"
+      },
+      {
+        "p": {
+          "name": "FeatAug-DETR: Enriching One-to-Many Matching for DETRs with Feature Augmentation",
+          "link": "https://arxiv.org/abs/2303.01503v1"
+        },
+        "c": "https://github.com/rongyaofang/FeatAug-DETR",
+        "n": "Deformable-DETR w/ tricks + FeatAug-FC (ResNet-50, 24ep)",
+        "d": "2023-03-02",
+        "m1": "49.9",
+        "m2": "68.3",
+        "m3": "54.7",
+        "m4": "32.5",
+        "m5": "52.9",
+        "m6": "65.1"
+      },
+      {
+        "p": {
+          "name": "VMamba: Visual State Space Model",
+          "link": "https://arxiv.org/abs/2401.10166v4"
+        },
+        "c": "https://github.com/MzeroMiko/VMamba",
+        "n": "VMamba-S (Mask R-CNN 3x)",
+        "d": "2024-01-18",
+        "m1": "49.9",
+        "m2": "70.9",
+        "m3": "54.7",
+        "m7": "70"
+      },
+      {
+        "p": {
+          "name": "OverLoCK: An Overview-first-Look-Closely-next ConvNet with Context-Mixing Dynamic Kernels",
+          "link": "https://arxiv.org/abs/2502.20087v3"
+        },
+        "c": "",
+        "n": "OverLoCK-B (Mask R-CNN 1x)",
+        "d": "2025-02-27",
+        "m1": "49.9",
+        "m7": "114"
+      },
+      {
+        "p": {
+          "name": "Enhanced Training of Query-Based Object Detection via Selective Query Recollection",
+          "link": "https://arxiv.org/abs/2212.07593v3"
+        },
+        "c": "https://github.com/Fangyi-Chen/SQR",
+        "n": "SQR-AdaMixer (ResNet-101)",
+        "d": "2022-12-15",
+        "m1": "49.8",
+        "m2": "68.8",
+        "m3": "54.0",
+        "m4": "32.0",
+        "m5": "53.4",
+        "m6": "65.1"
+      },
+      {
+        "p": {
+          "name": "Bottleneck Transformers for Visual Recognition",
+          "link": "https://arxiv.org/abs/2101.11605v2"
+        },
+        "c": "",
+        "n": "BoTNet 200 (Mask R-CNN, single scale, 72 epochs)",
+        "d": "2021-01-27",
+        "m1": "49.7",
+        "m2": "71.3",
+        "m3": "54.6"
+      },
+      {
+        "p": {
+          "name": "Dynamic Head: Unifying Object Detection Heads with Attentions",
+          "link": "https://arxiv.org/abs/2106.08322v1"
+        },
+        "c": "https://github.com/microsoft/DynamicHead",
+        "n": "DyHead (Swin-T, 2x)",
+        "d": "2021-06-15",
+        "m1": "49.7",
+        "m2": "68.0",
+        "m3": "54.3",
+        "m4": "33.3",
+        "m5": "54.2",
+        "m6": "64.2"
+      },
+      {
+        "p": {
+          "name": "Language-aware Multiple Datasets Detection Pretraining for DETRs",
+          "link": "https://arxiv.org/abs/2304.03580v1"
+        },
+        "c": "",
+        "n": "METR (ResNet-50, 50ep)",
+        "d": "2023-04-07",
+        "m1": "49.7",
+        "m2": "67.6",
+        "m3": "53.8",
+        "m4": "32.2",
+        "m5": "52.6",
+        "m6": "64.9",
+        "m7": "50"
+      },
+      {
+        "p": {
+          "name": "Vision Non-Causal Trapezoidal Mamba: Eliminating Directional Scanning in Vision SSMs with Second-Order Dynamics",
+          "link": "https://arxiv.org/abs/2607.03589v2"
+        },
+        "c": "https://github.com/anvitha305/VNCT",
+        "n": "VNCT-T (Mask R-CNN 3x)",
+        "d": "2026-07-03",
+        "m1": "49.7",
+        "m2": "71.3",
+        "m3": "54.6"
+      },
+      {
+        "p": {
+          "name": "Spectral-Adaptive Modulation Networks for Visual Perception",
+          "link": "https://arxiv.org/abs/2503.23947v2"
+        },
+        "c": "https://github.com/DoranLyong/SPANetV2-official",
+        "n": "SPANetV2-S18-hybrid (Mask R-CNN 3x)",
+        "d": "2025-03-31",
+        "m1": "49.6",
+        "m2": "71.3",
+        "m3": "54.8"
+      },
+      {
+        "p": {
+          "name": "Bottleneck Transformers for Visual Recognition",
+          "link": "https://arxiv.org/abs/2101.11605v2"
+        },
+        "c": "",
+        "n": "BoTNet 152 (Mask R-CNN, single scale, 72 epochs)",
+        "d": "2021-01-27",
+        "m1": "49.5",
+        "m2": "71",
+        "m3": "54.2"
+      },
+      {
+        "p": {
+          "name": "DN-DETR: Accelerate DETR Training by Introducing Query DeNoising",
+          "link": "https://arxiv.org/abs/2203.01305v3"
+        },
+        "c": "https://github.com/IDEA-Research/DN-DETR",
+        "n": "DN-Deformable-DETR-R50++",
+        "d": "2022-03-02",
+        "m1": "49.5",
+        "m2": "67.6",
+        "m3": "53.8",
+        "m4": "31.3",
+        "m5": "52.6",
+        "m6": "65.4",
+        "m7": "47"
+      },
+      {
+        "p": {
+          "name": "Architecture-Agnostic Masked Image Modeling -- From ViT back to CNN",
+          "link": "https://arxiv.org/abs/2205.13943v4"
+        },
+        "c": "https://github.com/open-mmlab/mmpretrain",
+        "n": "A2MIM (ViT-B, Mask R-CNN)",
+        "d": "2022-05-27",
+        "m1": "49.4"
+      },
+      {
+        "p": {
+          "name": "MogaNet: Multi-order Gated Aggregation Network",
+          "link": "https://arxiv.org/abs/2211.03295v3"
+        },
+        "c": "https://github.com/Westlake-AI/MogaNet",
+        "n": "MogaNet-L (Mask R-CNN 1x)",
+        "d": "2022-11-07",
+        "m1": "49.4",
+        "m2": "70.7",
+        "m3": "54.1",
+        "m7": "102"
+      },
+      {
+        "p": {
+          "name": "Enhancing DETRs Variants through Improved Content Query and Similar Query Aggregation",
+          "link": "https://arxiv.org/abs/2405.03318v1"
+        },
+        "c": "",
+        "n": "DINO + SACQ (ResNet-50, 12ep)",
+        "d": "2024-05-06",
+        "m1": "49.4",
+        "m2": "66.9",
+        "m3": "53.9",
+        "m4": "31.8",
+        "m5": "52.3",
+        "m6": "64.6",
+        "m7": "58"
+      },
+      {
+        "p": {
+          "name": "Dual-R-DETR: Resolving Query Competition with Pairwise Routing in Transformer Decoders",
+          "link": "https://arxiv.org/abs/2512.13876v2"
+        },
+        "c": "https://github.com/YZk67/Dual-R-DETR",
+        "n": "Deformable-DETR++ + Dual-R (ResNet-50, 24ep)",
+        "d": "2025-12-15",
+        "m1": "49.4",
+        "m2": "67.9",
+        "m3": "53.9",
+        "m4": "33.1",
+        "m5": "52.6",
+        "m6": "64.0"
+      },
+      {
+        "p": {
+          "name": "VisionHOPE: Visual Backbones as Self-Modifying Learning Systems",
+          "link": "https://arxiv.org/abs/2609.33325v1"
+        },
+        "c": "",
+        "n": "VisionHOPE-T (Mask R-CNN 3x)",
+        "d": "2026-09-27",
+        "m1": "49.4",
+        "m2": "70.6",
+        "m3": "54.5"
+      },
+      {
+        "p": {
+          "name": "GlobalMamba: Global Image Serialization for Vision Mamba",
+          "link": "https://arxiv.org/abs/2410.10316v1"
+        },
+        "c": "https://github.com/wangck20/GlobalMamba",
+        "n": "GlobalMamba-B (Mask R-CNN 1x)",
+        "d": "2024-10-14",
+        "m1": "49.3",
+        "m2": "71.4",
+        "m3": "54.2",
+        "m7": "108"
+      },
+      {
+        "p": {
+          "name": "ViDT: An Efficient and Effective Fully Transformer-based Object Detector",
+          "link": "https://arxiv.org/abs/2110.03921v2"
+        },
+        "c": "https://github.com/naver-ai/vidt",
+        "n": "ViDT (Swin-base, 50ep)",
+        "d": "2021-10-08",
+        "m1": "49.2",
+        "m2": "69.4",
+        "m3": "53.1",
+        "m4": "30.6",
+        "m5": "52.6",
+        "m6": "66.9"
+      },
+      {
+        "p": {
+          "name": "DAT++: Spatially Dynamic Vision Transformer with Deformable Attention",
+          "link": "https://arxiv.org/abs/2309.01430v1"
+        },
+        "c": "https://github.com/leaplabthu/dat",
+        "n": "DAT-T++ (RetinaNet 3x)",
+        "d": "2023-09-04",
+        "m1": "49.2",
+        "m2": "70.3",
+        "m3": "53.0",
+        "m4": "32.7",
+        "m5": "53.4",
+        "m6": "64.7",
+        "m7": "34"
+      },
+      {
+        "p": {
+          "name": "VMamba: Visual State Space Model",
+          "link": "https://arxiv.org/abs/2401.10166v4"
+        },
+        "c": "https://github.com/MzeroMiko/VMamba",
+        "n": "VMamba-B (Mask R-CNN 1x)",
+        "d": "2024-01-18",
+        "m1": "49.2",
+        "m2": "71.4",
+        "m3": "54.0",
+        "m7": "108"
+      },
+      {
+        "p": {
+          "name": "Salience DETR: Enhancing Detection Transformer with Hierarchical Salience Filtering Refinement",
+          "link": "https://arxiv.org/abs/2403.16131v1"
+        },
+        "c": "https://github.com/xiuqhou/Salience-DETR",
+        "n": "Salience DETR (ResNet-50, 12ep)",
+        "d": "2024-03-24",
+        "m1": "49.2",
+        "m2": "67.1",
+        "m3": "53.8",
+        "m4": "32.7",
+        "m5": "53.0",
+        "m6": "63.1",
+        "m7": "56.1"
+      },
+      {
+        "p": {
+          "name": "Recurrent Glimpse-based Decoder for Detection with Transformer",
+          "link": "https://arxiv.org/abs/2112.04632v2"
+        },
+        "c": "https://github.com/zhechen/deformable-detr-rego",
+        "n": "REGO-Deformable DETR-X101",
+        "d": "2021-12-09",
+        "m1": "49.1",
+        "m2": "67.5",
+        "m3": "53.1",
+        "m4": "30",
+        "m5": "52.6",
+        "m6": "65"
+      },
+      {
+        "p": {
+          "name": "Semantic-Aligned Matching for Enhanced DETR Convergence and Multi-Scale Feature Fusion",
+          "link": "https://arxiv.org/abs/2207.14172v2"
+        },
+        "c": "https://github.com/ZhangGongjie/SAM-DETR",
+        "n": "SAM-DETR++ w/ SMCA+DN (ResNet-50, 50ep)",
+        "d": "2022-07-28",
+        "m1": "49.1",
+        "m2": "67.2",
+        "m3": "53.2",
+        "m4": "30.5",
+        "m5": "52.6",
+        "m6": "64.7",
+        "m7": "55"
+      },
+      {
+        "p": {
+          "name": "HIRI-ViT: Scaling Vision Transformer with High Resolution Inputs",
+          "link": "https://arxiv.org/abs/2403.11999v1"
+        },
+        "c": "",
+        "n": "HIRI-ViT-B (Mask R-CNN 1x, 1600px input)",
+        "d": "2024-03-18",
+        "m1": "49.1",
+        "m2": "71.0",
+        "m3": "54.3",
+        "m7": "69.4"
+      },
+      {
+        "p": {
+          "name": "EATFormer: Improving Vision Transformer Inspired by Evolutionary Algorithm",
+          "link": "https://arxiv.org/abs/2206.09325v3"
+        },
+        "c": "https://github.com/zhangzjn/EATFormer",
+        "n": "EATFormer-Base (Mask R-CNN 3x)",
+        "d": "2022-06-19",
+        "m1": "49.0",
+        "m2": "70.3",
+        "m3": "53.6",
+        "m7": "68"
+      },
+      {
+        "p": {
+          "name": "V2M: Visual 2-Dimensional Mamba for Image Representation Learning",
+          "link": "https://arxiv.org/abs/2410.10382v1"
+        },
+        "c": "https://github.com/wangck20/V2M",
+        "n": "V2M-S (Mask R-CNN 3x)",
+        "d": "2024-10-14",
+        "m1": "49.0",
+        "m2": "70.6",
+        "m3": "53.5",
+        "m7": "50"
+      },
+      {
+        "p": {
+          "name": "GlobalMamba: Global Image Serialization for Vision Mamba",
+          "link": "https://arxiv.org/abs/2410.10316v1"
+        },
+        "c": "https://github.com/wangck20/GlobalMamba",
+        "n": "GlobalMamba-T (Mask R-CNN 3x)",
+        "d": "2024-10-14",
+        "m1": "49.0",
+        "m2": "70.5",
+        "m3": "53.7",
+        "m7": "50"
+      },
+      {
+        "p": {
+          "name": "GlobalMamba: Global Image Serialization for Vision Mamba",
+          "link": "https://arxiv.org/abs/2410.10316v1"
+        },
+        "c": "https://github.com/wangck20/GlobalMamba",
+        "n": "GlobalMamba-S (Mask R-CNN 1x)",
+        "d": "2024-10-14",
+        "m1": "49.0",
+        "m2": "70.5",
+        "m3": "53.5",
+        "m7": "70"
+      },
+      {
+        "p": {
+          "name": "Enhanced Training of Query-Based Object Detection via Selective Query Recollection",
+          "link": "https://arxiv.org/abs/2212.07593v3"
+        },
+        "c": "https://github.com/Fangyi-Chen/SQR",
+        "n": "SQR-AdaMixer (ResNet-50)",
+        "d": "2022-12-15",
+        "m1": "48.9",
+        "m2": "67.5",
+        "m3": "53.2",
+        "m4": "32.0",
+        "m5": "51.8",
+        "m6": "63.7"
+      },
+      {
+        "p": {
+          "name": "V2M: Visual 2-Dimensional Mamba for Image Representation Learning",
+          "link": "https://arxiv.org/abs/2410.10382v1"
+        },
+        "c": "https://github.com/wangck20/V2M",
+        "n": "V2M-B (Mask R-CNN 1x)",
+        "d": "2024-10-14",
+        "m1": "48.9",
+        "m2": "70.2",
+        "m3": "53.6",
+        "m7": "70"
+      },
+      {
+        "p": {
+          "name": "VMamba: Visual State Space Model",
+          "link": "https://arxiv.org/abs/2401.10166v4"
+        },
+        "c": "https://github.com/MzeroMiko/VMamba",
+        "n": "VMamba-T (Mask R-CNN 3x)",
+        "d": "2024-01-18",
+        "m1": "48.8",
+        "m2": "70.4",
+        "m3": "53.5",
+        "m7": "50"
+      },
+      {
+        "p": {
+          "name": "MogaNet: Multi-order Gated Aggregation Network",
+          "link": "https://arxiv.org/abs/2211.03295v3"
+        },
+        "c": "https://github.com/Westlake-AI/MogaNet",
+        "n": "MogaNet-L (RetinaNet 1x)",
+        "d": "2022-11-07",
+        "m1": "48.7",
+        "m2": "69.5",
+        "m3": "52.6",
+        "m4": "31.5",
+        "m5": "53.4",
+        "m6": "62.7",
+        "m7": "92"
+      },
+      {
+        "p": {
+          "name": "VMamba: Visual State Space Model",
+          "link": "https://arxiv.org/abs/2401.10166v4"
+        },
+        "c": "https://github.com/MzeroMiko/VMamba",
+        "n": "VMamba-S (Mask R-CNN 1x)",
+        "d": "2024-01-18",
+        "m1": "48.7",
+        "m2": "70.0",
+        "m3": "53.4",
+        "m7": "70"
+      },
+      {
+        "p": {
+          "name": "Rethinking ImageNet Pre-training",
+          "link": "http://arxiv.org/abs/1811.08883v1"
+        },
+        "c": "",
+        "n": "Mask R-CNN (ResNeXt-152-FPN, cascade)",
+        "d": "2018-11-21",
+        "m1": "48.6",
+        "m2": "66.8",
+        "m3": "52.9"
+      },
+      {
+        "p": {
+          "name": "CenterMask : Real-Time Anchor-Free Instance Segmentation",
+          "link": "https://arxiv.org/abs/1911.06667v6"
+        },
+        "c": "https://github.com/youngwanlee/centermask2",
+        "n": "CenterMask2 (VoVNetV2-99, 3x, TTA; official repo)",
+        "d": "2019-11-15",
+        "m1": "48.6"
+      },
+      {
+        "p": {
+          "name": "USB: Universal-Scale Object Detection Benchmark",
+          "link": "https://arxiv.org/abs/2103.14027v3"
+        },
+        "c": "https://github.com/shinya7y/UniverseNet",
+        "n": "UniverseNet-20.08d (Res2Net-50, DCN)",
+        "d": "2021-03-25",
+        "m1": "48.6",
+        "m2": "67.1",
+        "m3": "52.7",
+        "m4": "30.1",
+        "m5": "53.0",
+        "m6": "63.8"
+      },
+      {
+        "p": {
+          "name": "BiFormer: Vision Transformer with Bi-Level Routing Attention",
+          "link": "https://arxiv.org/abs/2303.08810v1"
+        },
+        "c": "https://github.com/rayleizhu/biformer",
+        "n": "BiFormer-B (Mask R-CNN 1x)",
+        "d": "2023-03-15",
+        "m1": "48.6",
+        "m2": "70.5",
+        "m3": "53.8"
+      },
+      {
+        "p": {
+          "name": "XCiT: Cross-Covariance Image Transformers",
+          "link": "https://arxiv.org/abs/2106.09681v2"
+        },
+        "c": "https://github.com/facebookresearch/xcit",
+        "n": "XCiT-M24/8",
+        "d": "2021-06-17",
+        "m1": "48.5"
+      },
+      {
+        "p": {
+          "name": "DeBiFormer: Vision Transformer with Deformable Agent Bi-level Routing Attention",
+          "link": "https://arxiv.org/abs/2410.08582v1"
+        },
+        "c": "https://github.com/maclong01/DeBiFormer",
+        "n": "DeBiFormer-B (Mask R-CNN 1x)",
+        "d": "2024-10-11",
+        "m1": "48.5",
+        "m2": "70.2",
+        "m3": "53.3"
+      },
+      {
+        "p": {
+          "name": "HIRI-ViT: Scaling Vision Transformer with High Resolution Inputs",
+          "link": "https://arxiv.org/abs/2403.11999v1"
+        },
+        "c": "",
+        "n": "HIRI-ViT-B (RetinaNet 1x, 1600px input)",
+        "d": "2024-03-18",
+        "m1": "48.4",
+        "m2": "69.7",
+        "m3": "51.9",
+        "m4": "33.4",
+        "m5": "52.6",
+        "m6": "63.4",
+        "m7": "59.8"
+      },
+      {
+        "p": {
+          "name": "ELSA: Enhanced Local Self-Attention for Vision Transformer",
+          "link": "https://arxiv.org/abs/2112.12786v1"
+        },
+        "c": "https://github.com/damo-cv/elsa",
+        "n": "ELSA-S (Mask RCNN)",
+        "d": "2021-12-23",
+        "m1": "48.3",
+        "m2": "70.4",
+        "m3": "52.9"
+      },
+      {
+        "p": {
+          "name": "Hyb-KAN ViT: Hybrid Kolmogorov-Arnold Networks Augmented Vision Transformer",
+          "link": "https://arxiv.org/abs/2505.04740v1"
+        },
+        "c": "",
+        "n": "Hyb-KAN ViT-S (Mask R-CNN, ViTDet-style, 3x)",
+        "d": "2025-05-07",
+        "m1": "48.3",
+        "m2": "69.8",
+        "m3": "52.7",
+        "m7": "51.7"
+      },
+      {
+        "p": {
+          "name": "LORS: Low-rank Residual Structure for Parameter-Efficient Network Stacking",
+          "link": "https://arxiv.org/abs/2403.04303v1"
+        },
+        "c": "",
+        "n": "AdaMixer + LORS (ResNet-101, 3x)",
+        "d": "2024-03-07",
+        "m1": "48.2",
+        "m2": "67.5",
+        "m3": "52.6",
+        "m4": "31.7",
+        "m5": "51.3",
+        "m6": "63.8",
+        "m7": "79"
+      },
+      {
+        "p": {
+          "name": "XCiT: Cross-Covariance Image Transformers",
+          "link": "https://arxiv.org/abs/2106.09681v2"
+        },
+        "c": "https://github.com/facebookresearch/xcit",
+        "n": "XCiT-S24/8",
+        "d": "2021-06-17",
+        "m1": "48.1"
+      },
+      {
+        "p": {
+          "name": "GCNet: Non-local Networks Meet Squeeze-Excitation Networks and Beyond",
+          "link": "http://arxiv.org/abs/1904.11492v1"
+        },
+        "c": "https://github.com/xvjiarui/GCNet",
+        "n": "GCNet (ResNeXt-101 + DCN + cascade + GC r16)",
+        "d": "2019-04-25",
+        "m1": "47.9",
+        "m2": "66.9",
+        "m3": "52.2"
+      },
+      {
+        "p": {
+          "name": "Vision Transformer with Deformable Attention",
+          "link": "https://arxiv.org/abs/2201.00520v3"
+        },
+        "c": "https://github.com/leaplabthu/dat",
+        "n": "DAT-S (RetinaNet 3x)",
+        "d": "2022-01-03",
+        "m1": "47.9",
+        "m2": "69.6",
+        "m3": "51.2",
+        "m4": "32.3",
+        "m5": "51.8",
+        "m6": "63.4"
+      },
+      {
+        "p": {
+          "name": "MogaNet: Multi-order Gated Aggregation Network",
+          "link": "https://arxiv.org/abs/2211.03295v3"
+        },
+        "c": "https://github.com/Westlake-AI/MogaNet",
+        "n": "MogaNet-B (Mask R-CNN 1x)",
+        "d": "2022-11-07",
+        "m1": "47.9",
+        "m2": "70.0",
+        "m3": "52.7",
+        "m7": "63"
+      },
+      {
+        "p": {
+          "name": "BiFormer: Vision Transformer with Bi-Level Routing Attention",
+          "link": "https://arxiv.org/abs/2303.08810v1"
+        },
+        "c": "https://github.com/rayleizhu/biformer",
+        "n": "BiFormer-S (Mask R-CNN 1x)",
+        "d": "2023-03-15",
+        "m1": "47.8",
+        "m2": "69.8",
+        "m3": "52.3"
+      },
+      {
+        "p": {
+          "name": "Vision Non-Causal Trapezoidal Mamba: Eliminating Directional Scanning in Vision SSMs with Second-Order Dynamics",
+          "link": "https://arxiv.org/abs/2607.03589v2"
+        },
+        "c": "https://github.com/anvitha305/VNCT",
+        "n": "VNCT-T (Mask R-CNN 1x)",
+        "d": "2026-07-03",
+        "m1": "47.8",
+        "m2": "70.3",
+        "m3": "52.6"
+      },
+      {
+        "p": {
+          "name": "MogaNet: Multi-order Gated Aggregation Network",
+          "link": "https://arxiv.org/abs/2211.03295v3"
+        },
+        "c": "https://github.com/Westlake-AI/MogaNet",
+        "n": "MogaNet-B (RetinaNet 1x)",
+        "d": "2022-11-07",
+        "m1": "47.7",
+        "m2": "68.9",
+        "m3": "51.0",
+        "m4": "30.5",
+        "m5": "52.2",
+        "m6": "61.7",
+        "m7": "54"
+      },
+      {
+        "p": {
+          "name": "MAE-DET: Revisiting Maximum Entropy Principle in Zero-Shot NAS for Efficient Object Detection",
+          "link": "https://arxiv.org/abs/2111.13336v5"
+        },
+        "c": "https://github.com/alibaba/lightweight-neural-architecture-search",
+        "n": "MAE-DET-L + GFLV2",
+        "d": "2021-11-26",
+        "m1": "47.6",
+        "m4": "30.2",
+        "m5": "51.8",
+        "m6": "60.8"
+      },
+      {
+        "p": {
+          "name": "Language-aware Multiple Datasets Detection Pretraining for DETRs",
+          "link": "https://arxiv.org/abs/2304.03580v1"
+        },
+        "c": "",
+        "n": "METR (ResNet-50, 12ep)",
+        "d": "2023-04-07",
+        "m1": "47.6",
+        "m2": "65.6",
+        "m3": "52.0",
+        "m4": "29.8",
+        "m5": "50.9",
+        "m6": "62.6",
+        "m7": "50"
+      },
+      {
+        "p": {
+          "name": "LORS: Low-rank Residual Structure for Parameter-Efficient Network Stacking",
+          "link": "https://arxiv.org/abs/2403.04303v1"
+        },
+        "c": "",
+        "n": "AdaMixer + LORS (ResNet-50, 3x)",
+        "d": "2024-03-07",
+        "m1": "47.6",
+        "m2": "66.6",
+        "m3": "52.0",
+        "m4": "31.1",
+        "m5": "50.2",
+        "m6": "62.5",
+        "m7": "60"
+      },
+      {
+        "p": {
+          "name": "Enhancing DETRs Variants through Improved Content Query and Similar Query Aggregation",
+          "link": "https://arxiv.org/abs/2405.03318v1"
+        },
+        "c": "",
+        "n": "DAB-Deformable-DETR + SACQ (ResNet-50, 50ep)",
+        "d": "2024-05-06",
+        "m1": "47.6",
+        "m2": "65.7",
+        "m3": "51.9",
+        "m4": "30.0",
+        "m5": "50.5",
+        "m6": "62.4",
+        "m7": "58"
+      },
+      {
+        "p": {
+          "name": "ViDT: An Efficient and Effective Fully Transformer-based Object Detector",
+          "link": "https://arxiv.org/abs/2110.03921v2"
+        },
+        "c": "https://github.com/naver-ai/vidt",
+        "n": "ViDT (Swin-small, 50ep)",
+        "d": "2021-10-08",
+        "m1": "47.5",
+        "m2": "67.7",
+        "m3": "51.4",
+        "m4": "29.2",
+        "m5": "50.7",
+        "m6": "64.8",
+        "m7": "61"
+      },
+      {
+        "p": {
+          "name": "Semantic-Aligned Matching for Enhanced DETR Convergence and Multi-Scale Feature Fusion",
+          "link": "https://arxiv.org/abs/2207.14172v2"
+        },
+        "c": "https://github.com/ZhangGongjie/SAM-DETR",
+        "n": "SAM-DETR++ (ResNet-50, 50ep)",
+        "d": "2022-07-28",
+        "m1": "47.5",
+        "m2": "66.5",
+        "m3": "51.3",
+        "m4": "29.3",
+        "m5": "50.8",
+        "m6": "62.7",
+        "m7": "55"
+      },
+      {
+        "p": {
+          "name": "DeBiFormer: Vision Transformer with Deformable Agent Bi-level Routing Attention",
+          "link": "https://arxiv.org/abs/2410.08582v1"
+        },
+        "c": "https://github.com/maclong01/DeBiFormer",
+        "n": "DeBiFormer-S (Mask R-CNN 1x)",
+        "d": "2024-10-11",
+        "m1": "47.5",
+        "m2": "69.7",
+        "m3": "52.1"
+      },
+      {
+        "p": {
+          "name": "Rethinking ImageNet Pre-training",
+          "link": "http://arxiv.org/abs/1811.08883v1"
+        },
+        "c": "",
+        "n": "Mask R-CNN (ResNet-101-FPN, GN, Cascade)",
+        "d": "2018-11-21",
+        "m1": "47.4"
+      },
+      {
+        "p": {
+          "name": "EATFormer: Improving Vision Transformer Inspired by Evolutionary Algorithm",
+          "link": "https://arxiv.org/abs/2206.09325v3"
+        },
+        "c": "https://github.com/zhangzjn/EATFormer",
+        "n": "EATFormer-Small (Mask R-CNN 3x)",
+        "d": "2022-06-19",
+        "m1": "47.4",
+        "m2": "69.3",
+        "m3": "51.9",
+        "m7": "44"
+      },
+      {
+        "p": {
+          "name": "MambaOut: Do We Really Need Mamba for Vision?",
+          "link": "https://arxiv.org/abs/2405.07992v3"
+        },
+        "c": "https://github.com/yuweihao/MambaOut",
+        "n": "MambaOut-Small (Mask R-CNN 1x)",
+        "d": "2024-05-13",
+        "m1": "47.4",
+        "m2": "69.1",
+        "m3": "52.4",
+        "m7": "65"
+      },
+      {
+        "p": {
+          "name": "MambaOut: Do We Really Need Mamba for Vision?",
+          "link": "https://arxiv.org/abs/2405.07992v3"
+        },
+        "c": "https://github.com/yuweihao/MambaOut",
+        "n": "MambaOut-Base (Mask R-CNN 1x)",
+        "d": "2024-05-13",
+        "m1": "47.4",
+        "m2": "69.3",
+        "m3": "52.2",
+        "m7": "100"
+      },
+      {
+        "p": {
+          "name": "Pix2seq: A Language Modeling Framework for Object Detection",
+          "link": "https://arxiv.org/abs/2109.10852v2"
+        },
+        "c": "https://github.com/google-research/pix2seq",
+        "n": "Pix2seq (R50-C4)",
+        "d": "2021-09-22",
+        "m1": "47.3"
+      },
+      {
+        "p": {
+          "name": "Enhancing DETRs Variants through Improved Content Query and Similar Query Aggregation",
+          "link": "https://arxiv.org/abs/2405.03318v1"
+        },
+        "c": "",
+        "n": "Two-stage Deformable-DETR + SACQ (ResNet-50, 50ep)",
+        "d": "2024-05-06",
+        "m1": "47.3",
+        "m2": "66.7",
+        "m3": "51.2",
+        "m4": "30.6",
+        "m5": "50.0",
+        "m6": "62.6",
+        "m7": "51"
+      },
+      {
+        "p": {
+          "name": "EATFormer: Improving Vision Transformer Inspired by Evolutionary Algorithm",
+          "link": "https://arxiv.org/abs/2206.09325v3"
+        },
+        "c": "https://github.com/zhangzjn/EATFormer",
+        "n": "EATFormer-Base (Mask R-CNN 1x)",
+        "d": "2022-06-19",
+        "m1": "47.2",
+        "m2": "69.4",
+        "m3": "52.1",
+        "m7": "68"
+      },
+      {
+        "p": {
+          "name": "Pix2seq: A Language Modeling Framework for Object Detection",
+          "link": "https://arxiv.org/abs/2109.10852v2"
+        },
+        "c": "https://github.com/google-research/pix2seq",
+        "n": "Pix2seq (ViT-B)",
+        "d": "2021-09-22",
+        "m1": "47.1"
+      },
+      {
+        "p": {
+          "name": "DeBiFormer: Vision Transformer with Deformable Agent Bi-level Routing Attention",
+          "link": "https://arxiv.org/abs/2410.08582v1"
+        },
+        "c": "https://github.com/maclong01/DeBiFormer",
+        "n": "DeBiFormer-B (RetinaNet 1x)",
+        "d": "2024-10-11",
+        "m1": "47.1",
+        "m2": "68.2",
+        "m3": "50.2",
+        "m4": "30.3",
+        "m5": "51.1",
+        "m6": "63.0"
+      },
+      {
+        "p": {
+          "name": "Deep High-Resolution Representation Learning for Visual Recognition",
+          "link": "https://arxiv.org/abs/1908.07919v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "HTC (HRNetV2p-W48)",
+        "d": "2019-08-20",
+        "m1": "47.0",
+        "m4": "28.8",
+        "m5": "50.3",
+        "m6": "62.2"
+      },
+      {
+        "p": {
+          "name": "Augmenting Convolutional networks with attention-based aggregation",
+          "link": "https://arxiv.org/abs/2112.13692v1"
+        },
+        "c": "https://github.com/facebookresearch/deit",
+        "n": "PatchConvNet-S120 (Mask R-CNN)",
+        "d": "2021-12-27",
+        "m1": "47.0"
+      },
+      {
+        "p": {
+          "name": "SpectFormer: Frequency and Attention is what you need in a Vision Transformer",
+          "link": "https://arxiv.org/abs/2304.06446v2"
+        },
+        "c": "",
+        "n": "SpectFormer-B (Mask R-CNN)",
+        "d": "2023-04-13",
+        "m1": "46.9",
+        "m2": "68.8",
+        "m3": "51.8"
+      },
+      {
+        "p": {
+          "name": "DI-MaskDINO: A Joint Object Detection and Instance Segmentation Model",
+          "link": "https://arxiv.org/abs/2410.16707v1"
+        },
+        "c": "",
+        "n": "DI-MaskDINO (ResNet-50, 12ep)",
+        "d": "2024-10-22",
+        "m1": "46.9",
+        "m4": "28.8",
+        "m5": "49.5",
+        "m6": "62.9"
+      },
+      {
+        "p": {
+          "name": "RepPoints: Point Set Representation for Object Detection",
+          "link": "https://arxiv.org/abs/1904.11490v2"
+        },
+        "c": "https://github.com/microsoft/RepPoints",
+        "n": "RPDet (ResNeXt-101-DCN, multi-scale)",
+        "d": "2019-04-25",
+        "m1": "46.8"
+      },
+      {
+        "p": {
+          "name": "Cross Resolution Encoding-Decoding For Detection Transformers",
+          "link": "https://arxiv.org/abs/2410.04088v1"
+        },
+        "c": "https://github.com/ashishkumar822/CRED-DETR",
+        "n": "DN-DETR + CRED-OO (ResNet-50, 50ep)",
+        "d": "2024-10-05",
+        "m1": "46.8",
+        "m2": "66.8",
+        "m3": "50.5",
+        "m4": "27.4",
+        "m5": "50.7",
+        "m6": "64.0",
+        "m7": "45"
+      },
+      {
+        "p": {
+          "name": "MogaNet: Multi-order Gated Aggregation Network",
+          "link": "https://arxiv.org/abs/2211.03295v3"
+        },
+        "c": "https://github.com/Westlake-AI/MogaNet",
+        "n": "MogaNet-S (Mask R-CNN 1x)",
+        "d": "2022-11-07",
+        "m1": "46.7",
+        "m2": "68.0",
+        "m3": "51.3",
+        "m7": "45"
+      },
+      {
+        "p": {
+          "name": "DAB-DETR: Dynamic Anchor Boxes are Better Queries for DETR",
+          "link": "https://arxiv.org/abs/2201.12329v4"
+        },
+        "c": "https://github.com/IDEA-Research/DAB-DETR",
+        "n": "DAB-DETR-DC5-R101",
+        "d": "2022-01-28",
+        "m1": "46.6",
+        "m2": "67",
+        "m3": "50.2",
+        "m4": "28.1",
+        "m5": "50.5",
+        "m6": "64.1",
+        "m7": "63"
+      },
+      {
+        "p": {
+          "name": "LBMamba: Locally Bi-directional Mamba",
+          "link": "https://arxiv.org/abs/2506.15976v2"
+        },
+        "c": "https://github.com/cvlab-stonybrook/LBMamba",
+        "n": "LBVim-300 (Cascade Mask R-CNN)",
+        "d": "2025-06-19",
+        "m1": "46.6",
+        "m2": "65.2",
+        "m3": "50.5",
+        "m4": "27.0",
+        "m5": "50.6",
+        "m6": "63.6",
+        "m7": "74"
+      },
+      {
+        "p": {
+          "name": "Rethinking ImageNet Pre-training",
+          "link": "http://arxiv.org/abs/1811.08883v1"
+        },
+        "c": "",
+        "n": "Mask R-CNN (ResNeXt-152-FPN)",
+        "d": "2018-11-21",
+        "m1": "46.4",
+        "m2": "67.1",
+        "m3": "51.1"
+      },
+      {
+        "p": {
+          "name": "RepPoints: Point Set Representation for Object Detection",
+          "link": "https://arxiv.org/abs/1904.11490v2"
+        },
+        "c": "https://github.com/microsoft/RepPoints",
+        "n": "RPDet (ResNet-101-DCN, multi-scale)",
+        "d": "2019-04-25",
+        "m1": "46.4"
+      },
+      {
+        "p": {
+          "name": "Sparse R-CNN: End-to-End Object Detection with Learnable Proposals",
+          "link": "https://arxiv.org/abs/2011.12450v2"
+        },
+        "c": "https://github.com/PeizeSun/SparseR-CNN",
+        "n": "Sparse R-CNN (ResNet-101, learnable proposals, random crop aug, FPN)",
+        "d": "2020-11-25",
+        "m1": "46.4",
+        "m2": "64.6",
+        "m3": "49.5",
+        "m4": "28.3",
+        "m5": "48.3",
+        "m6": "61.6"
+      },
+      {
+        "p": {
+          "name": "Augmenting Convolutional networks with attention-based aggregation",
+          "link": "https://arxiv.org/abs/2112.13692v1"
+        },
+        "c": "https://github.com/facebookresearch/deit",
+        "n": "PatchConvNet-S60 (Mask R-CNN)",
+        "d": "2021-12-27",
+        "m1": "46.4"
+      },
+      {
+        "p": {
+          "name": "AttentionViG: Cross-Attention-Based Dynamic Neighbor Aggregation in Vision GNNs",
+          "link": "https://arxiv.org/abs/2509.25570v2"
+        },
+        "c": "",
+        "n": "AttentionViG-B (Mask R-CNN 1x)",
+        "d": "2025-09-29",
+        "m1": "46.4",
+        "m2": "68.5",
+        "m3": "51.3",
+        "m7": "32.3"
+      },
+      {
+        "p": {
+          "name": "PVT v2: Improved Baselines with Pyramid Vision Transformer",
+          "link": "https://arxiv.org/abs/2106.13797v7"
+        },
+        "c": "https://github.com/whai362/PVT",
+        "n": "Cascade Mask R-CNN (ResNet-50, 3x; reported by PVTv2)",
+        "d": "2021-06-25",
+        "m1": "46.3",
+        "m2": "64.3",
+        "m3": "50.5"
+      },
+      {
+        "p": {
+          "name": "Cross Resolution Encoding-Decoding For Detection Transformers",
+          "link": "https://arxiv.org/abs/2410.04088v1"
+        },
+        "c": "https://github.com/ashishkumar822/CRED-DETR",
+        "n": "DN-DETR + CRED (ResNet-50, 50ep)",
+        "d": "2024-10-05",
+        "m1": "46.2",
+        "m2": "65.8",
+        "m3": "49.8",
+        "m4": "26.8",
+        "m5": "50.0",
+        "m6": "63.5",
+        "m7": "45"
+      },
+      {
+        "p": {
+          "name": "HoughNet: Integrating near and long-range evidence for bottom-up object detection",
+          "link": "https://arxiv.org/abs/2007.02355v3"
+        },
+        "c": "https://github.com/giddyyupp/coco-minitrain",
+        "n": "HoughNet (HG-104, MS)",
+        "d": "2020-07-05",
+        "m1": "46.1",
+        "m2": "64.6",
+        "m3": "50.3",
+        "m4": "30.0",
+        "m5": "48.8",
+        "m6": "59.7"
+      },
+      {
+        "p": {
+          "name": "Deep High-Resolution Representation Learning for Visual Recognition",
+          "link": "https://arxiv.org/abs/1908.07919v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "Cascade Mask R-CNN (HRNetV2p-W48)",
+        "d": "2019-08-20",
+        "m1": "46.0",
+        "m4": "27.5",
+        "m6": "60.1",
+        "m5": "48.9"
+      },
+      {
+        "p": {
+          "name": "SpectFormer: Frequency and Attention is what you need in a Vision Transformer",
+          "link": "https://arxiv.org/abs/2304.06446v2"
+        },
+        "c": "",
+        "n": "SpectFormer-B (RetinaNet)",
+        "d": "2023-04-13",
+        "m1": "46.0",
+        "m2": "66.4",
+        "m3": "49.7",
+        "m4": "29.5",
+        "m5": "49.7",
+        "m6": "61.1"
+      },
+      {
+        "p": {
+          "name": "Bottleneck Transformers for Visual Recognition",
+          "link": "https://arxiv.org/abs/2101.11605v2"
+        },
+        "c": "",
+        "n": "BoTNet 50 (72 epochs)",
+        "d": "2021-01-27",
+        "m1": "45.9"
+      },
+      {
+        "p": {
+          "name": "Conditional DETR for Fast Training Convergence",
+          "link": "https://arxiv.org/abs/2108.06152v3"
+        },
+        "c": "https://github.com/Atten4Vis/ConditionalDETR",
+        "n": "Conditional DETR-DC5-R101",
+        "d": "2021-08-13",
+        "m1": "45.9",
+        "m2": "66.8",
+        "m3": "49.5",
+        "m4": "27.2",
+        "m5": "50.3",
+        "m6": "63.3",
+        "m7": "63"
+      },
+      {
+        "p": {
+          "name": "MogaNet: Multi-order Gated Aggregation Network",
+          "link": "https://arxiv.org/abs/2211.03295v3"
+        },
+        "c": "https://github.com/Westlake-AI/MogaNet",
+        "n": "MogaNet-S (RetinaNet 1x)",
+        "d": "2022-11-07",
+        "m1": "45.8",
+        "m2": "66.6",
+        "m3": "49.0",
+        "m4": "29.1",
+        "m5": "50.1",
+        "m6": "59.8",
+        "m7": "35"
+      },
+      {
+        "p": {
+          "name": "CenterMask : Real-Time Anchor-Free Instance Segmentation",
+          "link": "https://arxiv.org/abs/1911.06667v6"
+        },
+        "c": "https://github.com/youngwanLEE/CenterMask",
+        "n": "CenterMask (VoVNetV2-99, 3x; official repo)",
+        "d": "2019-11-15",
+        "m1": "45.6",
+        "m4": "29.2",
+        "m6": "58.8",
+        "m5": "49.3"
+      },
+      {
+        "p": {
+          "name": "DeBiFormer: Vision Transformer with Deformable Agent Bi-level Routing Attention",
+          "link": "https://arxiv.org/abs/2410.08582v1"
+        },
+        "c": "https://github.com/maclong01/DeBiFormer",
+        "n": "DeBiFormer-S (RetinaNet 1x)",
+        "d": "2024-10-11",
+        "m1": "45.6",
+        "m2": "66.6",
+        "m3": "48.9",
+        "m4": "28.7",
+        "m5": "49.3",
+        "m6": "61.6"
+      },
+      {
+        "p": {
+          "name": "Cross Resolution Encoding-Decoding For Detection Transformers",
+          "link": "https://arxiv.org/abs/2410.04088v1"
+        },
+        "c": "https://github.com/ashishkumar822/CRED-DETR",
+        "n": "DAB-DETR + CRED (ResNet-50, 50ep)",
+        "d": "2024-10-05",
+        "m1": "45.4",
+        "m2": "64.9",
+        "m3": "49.4",
+        "m4": "27.0",
+        "m5": "48.5",
+        "m6": "62.2",
+        "m7": "45"
+      },
+      {
+        "p": {
+          "name": "LBMamba: Locally Bi-directional Mamba",
+          "link": "https://arxiv.org/abs/2506.15976v2"
+        },
+        "c": "https://github.com/cvlab-stonybrook/LBMamba",
+        "n": "LBVim-Ti (Cascade Mask R-CNN)",
+        "d": "2025-06-19",
+        "m1": "45.4",
+        "m2": "63.8",
+        "m3": "49.3",
+        "m4": "25.5",
+        "m5": "49.4",
+        "m6": "62.4",
+        "m7": "66"
+      },
+      {
+        "p": {
+          "name": "Deep High-Resolution Representation Learning for Visual Recognition",
+          "link": "https://arxiv.org/abs/1908.07919v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "HTC (HRNetV2p-W32)",
+        "d": "2019-08-20",
+        "m1": "45.3",
+        "m4": "27.0",
+        "m5": "48.4",
+        "m6": "59.5"
+      },
+      {
+        "p": {
+          "name": "Conditional DETR for Fast Training Convergence",
+          "link": "https://arxiv.org/abs/2108.06152v3"
+        },
+        "c": "https://github.com/Atten4Vis/ConditionalDETR",
+        "n": "Conditional DETR-DC5-R50",
+        "d": "2021-08-13",
+        "m1": "45.1",
+        "m2": "65.4",
+        "m3": "48.5",
+        "m4": "25.3",
+        "m5": "49",
+        "m6": "62.2",
+        "m7": "44"
+      },
+      {
+        "p": {
+          "name": "Anchor DETR: Query Design for Transformer-Based Object Detection",
+          "link": "https://arxiv.org/abs/2109.07107v2"
+        },
+        "c": "https://github.com/megvii-research/AnchorDETR",
+        "n": "Anchor DETR-DC5-R101",
+        "d": "2021-09-15",
+        "m1": "45.1",
+        "m2": "65.7",
+        "m3": "48.8",
+        "m4": "25.8",
+        "m5": "49.4",
+        "m6": "61.6"
+      },
+      {
+        "p": {
+          "name": "MambaOut: Do We Really Need Mamba for Vision?",
+          "link": "https://arxiv.org/abs/2405.07992v3"
+        },
+        "c": "https://github.com/yuweihao/MambaOut",
+        "n": "MambaOut-Tiny (Mask R-CNN 1x)",
+        "d": "2024-05-13",
+        "m1": "45.1",
+        "m2": "67.3",
+        "m3": "49.6",
+        "m7": "43"
+      },
+      {
+        "p": {
+          "name": "Non-local Neural Networks",
+          "link": "http://arxiv.org/abs/1711.07971v3"
+        },
+        "c": "https://github.com/facebookresearch/detectron",
+        "n": "Mask R-CNN (ResNeXt-152 + 1 NL)",
+        "d": "2017-11-21",
+        "m1": "45.0",
+        "m2": "67.8",
+        "m3": "48.9"
+      },
+      {
+        "p": {
+          "name": "Sparse R-CNN: End-to-End Object Detection with Learnable Proposals",
+          "link": "https://arxiv.org/abs/2011.12450v2"
+        },
+        "c": "https://github.com/PeizeSun/SparseR-CNN",
+        "n": "Sparse R-CNN (ResNet-50, learnable proposals, random crop aug, FPN)",
+        "d": "2020-11-25",
+        "m1": "45.0",
+        "m2": "63.4",
+        "m3": "48.2",
+        "m4": "26.9",
+        "m5": "47.2",
+        "m6": "59.5"
+      },
+      {
+        "p": {
+          "name": "Pix2seq: A Language Modeling Framework for Object Detection",
+          "link": "https://arxiv.org/abs/2109.10852v2"
+        },
+        "c": "https://github.com/google-research/pix2seq",
+        "n": "Pix2seq (R101-DC5)",
+        "d": "2021-09-22",
+        "m1": "45.0",
+        "m2": "63.2",
+        "m3": "48.6",
+        "m4": "28.2",
+        "m5": "48.9",
+        "m6": "60.4"
+      },
+      {
+        "p": {
+          "name": "Attentive Normalization",
+          "link": "https://arxiv.org/abs/1908.01259v3"
+        },
+        "c": "https://github.com/iVMCL/AOGNet-v2",
+        "n": "Mask R-CNN-FPN (AOGNet-40M)",
+        "d": "2019-08-04",
+        "m1": "44.9",
+        "m2": "66.2",
+        "m3": "49.1"
+      },
+      {
+        "p": {
+          "name": "CenterMask : Real-Time Anchor-Free Instance Segmentation",
+          "link": "https://arxiv.org/abs/1911.06667v6"
+        },
+        "c": "https://github.com/youngwanlee/centermask2",
+        "n": "Mask R-CNN (VoVNetV2-99, 3x; CenterMask2 repo)",
+        "d": "2019-11-15",
+        "m1": "44.9"
+      },
+      {
+        "p": {
+          "name": "End-to-End Object Detection with Transformers",
+          "link": "https://arxiv.org/abs/2005.12872v3"
+        },
+        "c": "https://github.com/facebookresearch/detr",
+        "n": "DETR-DC5 (ResNet-101)",
+        "d": "2020-05-26",
+        "m1": "44.9",
+        "m2": "64.7",
+        "m3": "47.7",
+        "m4": "23.7",
+        "m5": "49.5",
+        "m6": "62.3"
+      },
+      {
+        "p": {
+          "name": "RepPoints: Point Set Representation for Object Detection",
+          "link": "https://arxiv.org/abs/1904.11490v2"
+        },
+        "c": "https://github.com/microsoft/RepPoints",
+        "n": "RPDet (ResNet-101-DCN, multi-scale train)",
+        "d": "2019-04-25",
+        "m1": "44.8"
+      },
+      {
+        "p": {
+          "name": "Recursively Refined R-CNN: Instance Segmentation with Self-RoI Rebalancing",
+          "link": "https://arxiv.org/abs/2104.01329v2"
+        },
+        "c": "https://github.com/IMPLabUniPr/mmdetection",
+        "n": "R3-CNN (ResNet-50-FPN, DCN)",
+        "d": "2021-04-03",
+        "m1": "44.8",
+        "m2": "64.3",
+        "m3": "48.9",
+        "m4": "26.6",
+        "m5": "48.3",
+        "m6": "59.6"
+      },
+      {
+        "p": {
+          "name": "ViDT: An Efficient and Effective Fully Transformer-based Object Detector",
+          "link": "https://arxiv.org/abs/2110.03921v2"
+        },
+        "c": "https://github.com/naver-ai/vidt",
+        "n": "ViDT (Swin-tiny, 50ep)",
+        "d": "2021-10-08",
+        "m1": "44.8",
+        "m2": "64.5",
+        "m3": "48.7",
+        "m4": "25.9",
+        "m5": "47.6",
+        "m6": "62.1",
+        "m7": "38"
+      },
+      {
+        "p": {
+          "name": "Semantic-Aligned Matching for Enhanced DETR Convergence and Multi-Scale Feature Fusion",
+          "link": "https://arxiv.org/abs/2207.14172v2"
+        },
+        "c": "https://github.com/ZhangGongjie/SAM-DETR",
+        "n": "SAM-DETR++ w/ SMCA+DN (ResNet-50, 12ep)",
+        "d": "2022-07-28",
+        "m1": "44.8",
+        "m2": "62.6",
+        "m3": "47.9",
+        "m4": "26.7",
+        "m5": "48.2",
+        "m6": "60.9",
+        "m7": "55"
+      },
+      {
+        "p": {
+          "name": "Deep High-Resolution Representation Learning for Visual Recognition",
+          "link": "https://arxiv.org/abs/1908.07919v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "Cascade R-CNN (HRNetV2p-W48)",
+        "d": "2019-08-20",
+        "m1": "44.6",
+        "m2": "62.7",
+        "m3": "48.7",
+        "m4": "26.3",
+        "m5": "48.1",
+        "m6": "58.5"
+      },
+      {
+        "p": {
+          "name": "CenterMask : Real-Time Anchor-Free Instance Segmentation",
+          "link": "https://arxiv.org/abs/1911.06667v6"
+        },
+        "c": "https://github.com/youngwanLEE/CenterMask",
+        "n": "CenterMask (VoVNetV2-57, 3x; official repo)",
+        "d": "2019-11-15",
+        "m1": "44.6",
+        "m4": "27.7",
+        "m5": "48.3",
+        "m6": "57.3"
+      },
+      {
+        "p": {
+          "name": "RecConv: Efficient Recursive Convolutions for Multi-Frequency Representations",
+          "link": "https://arxiv.org/abs/2412.19628v3"
+        },
+        "c": "https://github.com/suous/RecNeXt",
+        "n": "RecNeXt-M5 (Mask R-CNN)",
+        "d": "2024-12-27",
+        "m1": "44.6",
+        "m2": "66.3",
+        "m3": "49.0"
+      },
+      {
+        "p": {
+          "name": "RepPoints: Point Set Representation for Object Detection",
+          "link": "https://arxiv.org/abs/1904.11490v2"
+        },
+        "c": "https://github.com/microsoft/RepPoints",
+        "n": "RPDet (ResNeXt-101-DCN)",
+        "d": "2019-04-25",
+        "m1": "44.5"
+      },
+      {
+        "p": {
+          "name": "Deep High-Resolution Representation Learning for Visual Recognition",
+          "link": "https://arxiv.org/abs/1908.07919v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "Cascade Mask R-CNN (HRNetV2p-W32)",
+        "d": "2019-08-20",
+        "m4": "26.1",
+        "m5": "47.9",
+        "m1": "44.5",
+        "m6": "58.5"
+      },
+      {
+        "p": {
+          "name": "PVT v2: Improved Baselines with Pyramid Vision Transformer",
+          "link": "https://arxiv.org/abs/2106.13797v7"
+        },
+        "c": "https://github.com/whai362/PVT",
+        "n": "GFL (ResNet-50, 3x; reported by PVTv2)",
+        "d": "2021-06-25",
+        "m1": "44.5",
+        "m2": "63.0",
+        "m3": "48.3"
+      },
+      {
+        "p": {
+          "name": "Conditional DETR for Fast Training Convergence",
+          "link": "https://arxiv.org/abs/2108.06152v3"
+        },
+        "c": "https://github.com/Atten4Vis/ConditionalDETR",
+        "n": "Conditional DETR-R101",
+        "d": "2021-08-13",
+        "m1": "44.5",
+        "m2": "65.6",
+        "m3": "47.5",
+        "m4": "23.6",
+        "m5": "48.4",
+        "m6": "63.6",
+        "m7": "63"
+      },
+      {
+        "p": {
+          "name": "CenterMask : Real-Time Anchor-Free Instance Segmentation",
+          "link": "https://arxiv.org/abs/1911.06667v6"
+        },
+        "c": "https://github.com/youngwanLEE/CenterMask",
+        "n": "CenterMask (X-101-32x8d, 3x; official repo)",
+        "d": "2019-11-15",
+        "m1": "44.4",
+        "m4": "26.7",
+        "m6": "57.1",
+        "m5": "47.7"
+      },
+      {
+        "p": {
+          "name": "Recursively Refined R-CNN: Instance Segmentation with Self-RoI Rebalancing",
+          "link": "https://arxiv.org/abs/2104.01329v2"
+        },
+        "c": "https://github.com/IMPLabUniPr/mmdetection",
+        "n": "R3-CNN (ResNet-50-FPN, GC-Net)",
+        "d": "2021-04-03",
+        "m1": "44.3",
+        "m2": "64.1",
+        "m3": "48.4",
+        "m4": "27",
+        "m5": "47.1",
+        "m6": "58.9"
+      },
+      {
+        "p": {
+          "name": "Anchor DETR: Query Design for Transformer-Based Object Detection",
+          "link": "https://arxiv.org/abs/2109.07107v2"
+        },
+        "c": "https://github.com/megvii-research/AnchorDETR",
+        "n": "Anchor DETR-DC5-R50",
+        "d": "2021-09-15",
+        "m1": "44.2",
+        "m2": "64.7",
+        "m3": "47.5",
+        "m4": "24.7",
+        "m5": "48.2",
+        "m6": "60.6"
+      },
+      {
+        "p": {
+          "name": "SCSA: Exploring the Synergistic Effects Between Spatial and Channel Attention",
+          "link": "https://arxiv.org/abs/2407.05128v2"
+        },
+        "c": "",
+        "n": "Cascade R-CNN + SCSA (ResNet-101, 1x)",
+        "d": "2024-07-06",
+        "m1": "44.2",
+        "m2": "63.1",
+        "m3": "48.2",
+        "m4": "26.0",
+        "m5": "48.2",
+        "m6": "57.5",
+        "m7": "88.52"
+      },
+      {
+        "p": {
+          "name": "Sparse R-CNN: End-to-End Object Detection with Learnable Proposals",
+          "link": "https://arxiv.org/abs/2011.12450v2"
+        },
+        "c": "https://github.com/PeizeSun/SparseR-CNN",
+        "n": "Sparse R-CNN (ResNet-101, FPN)",
+        "d": "2020-11-25",
+        "m1": "44.1",
+        "m2": "62.1",
+        "m3": "47.2",
+        "m4": "26.1",
+        "m5": "46.3",
+        "m6": "59.7"
+      },
+      {
+        "p": {
+          "name": "DAB-DETR: Dynamic Anchor Boxes are Better Queries for DETR",
+          "link": "https://arxiv.org/abs/2201.12329v4"
+        },
+        "c": "https://github.com/IDEA-Research/DAB-DETR",
+        "n": "DAB-DETR-R101",
+        "d": "2022-01-28",
+        "m1": "44.1",
+        "m2": "64.7",
+        "m3": "47.2",
+        "m4": "24.1",
+        "m5": "48.2",
+        "m6": "62.9",
+        "m7": "63"
+      },
+      {
+        "p": {
+          "name": "Supervision Interpolation via LossMix: Generalizing Mixup for Object Detection and Beyond",
+          "link": "https://arxiv.org/abs/2303.10343v2"
+        },
+        "c": "",
+        "n": "Faster R-CNN + LossMix (ResNet-101-FPN, 3x)",
+        "d": "2023-03-18",
+        "m1": "44.07",
+        "m2": "64.48",
+        "m3": "48.40",
+        "m4": "26.73",
+        "m5": "48.11",
+        "m6": "56.80"
+      },
+      {
+        "p": {
+          "name": "End-to-End Object Detection with Transformers",
+          "link": "https://arxiv.org/abs/2005.12872v3"
+        },
+        "c": "https://github.com/facebookresearch/detr",
+        "n": "Faster RCNN-R101-FPN+",
+        "d": "2020-05-26",
+        "m1": "44",
+        "m2": "63.9",
+        "m3": "47.8",
+        "m4": "27.2",
+        "m5": "48.1",
+        "m6": "56"
+      },
+      {
+        "p": {
+          "name": "Deep High-Resolution Representation Learning for Visual Recognition",
+          "link": "https://arxiv.org/abs/1908.07919v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "Cascade R-CNN (HRNetV2p-W32)",
+        "d": "2019-08-20",
+        "m1": "43.7",
+        "m2": "61.7",
+        "m3": "47.7",
+        "m4": "25.6",
+        "m5": "46.5",
+        "m6": "57.4"
+      },
+      {
+        "p": {
+          "name": "Micro-Batch Training with Batch-Channel Normalization and Weight Standardization",
+          "link": "https://arxiv.org/abs/1903.10520v2"
+        },
+        "c": "https://github.com/joe-siyuan-qiao/Batch-Channel-Normalization",
+        "n": "Mask R-CNN-FPN (ResNet-101, GN+WS+BCN)",
+        "d": "2019-03-25",
+        "m1": "43.6",
+        "m2": "64.4",
+        "m3": "47.9",
+        "m4": "25.6",
+        "m5": "47.5",
+        "m6": "57.4"
+      },
+      {
+        "p": {
+          "name": "PVT v2: Improved Baselines with Pyramid Vision Transformer",
+          "link": "https://arxiv.org/abs/2106.13797v7"
+        },
+        "c": "https://github.com/whai362/PVT",
+        "n": "ATSS (ResNet-50, 3x; reported by PVTv2)",
+        "d": "2021-06-25",
+        "m1": "43.5",
+        "m2": "61.9",
+        "m3": "47.0"
+      },
+      {
+        "p": {
+          "name": "RecConv: Efficient Recursive Convolutions for Multi-Frequency Representations",
+          "link": "https://arxiv.org/abs/2412.19628v3"
+        },
+        "c": "https://github.com/suous/RecNeXt",
+        "n": "RecNeXt-M4 (Mask R-CNN)",
+        "d": "2024-12-27",
+        "m1": "43.5",
+        "m2": "64.9",
+        "m3": "47.7"
+      },
+      {
+        "p": {
+          "name": "AttentionViG: Cross-Attention-Based Dynamic Neighbor Aggregation in Vision GNNs",
+          "link": "https://arxiv.org/abs/2509.25570v2"
+        },
+        "c": "",
+        "n": "AttentionViG-S (Mask R-CNN 1x)",
+        "d": "2025-09-29",
+        "m1": "43.5",
+        "m2": "65.8",
+        "m3": "47.6",
+        "m7": "12.3"
+      },
+      {
+        "p": {
+          "name": "Pyramid Vision Transformer: A Versatile Backbone for Dense Prediction without Convolutions",
+          "link": "https://arxiv.org/abs/2102.12122v2"
+        },
+        "c": "https://github.com/whai362/PVT",
+        "n": "PVT-Large (RetinaNet 3x,MS)",
+        "d": "2021-02-24",
+        "m1": "43.4",
+        "m2": "63.6",
+        "m3": "46.1",
+        "m4": "26.1",
+        "m5": "46.0",
+        "m6": "59.5"
+      },
+      {
+        "p": {
+          "name": "Bottom-up Object Detection by Grouping Extreme and Center Points",
+          "link": "http://arxiv.org/abs/1901.08043v3"
+        },
+        "c": "https://github.com/xingyizhou/ExtremeNet",
+        "n": "ExtremeNet (Hourglass-104, multi-scale)",
+        "d": "2019-01-23",
+        "m1": "43.3",
+        "m2": "59.6",
+        "m3": "46.8",
+        "m4": "25.7",
+        "m5": "46.6",
+        "m6": "59.4"
+      },
+      {
+        "p": {
+          "name": "Hybrid Task Cascade for Instance Segmentation",
+          "link": "http://arxiv.org/abs/1901.07518v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "HTC (cascade)",
+        "d": "2019-01-22",
+        "m1": "43.2",
+        "m2": "59.4",
+        "m3": "40.7",
+        "m4": "20.3",
+        "m5": "40.9",
+        "m6": "52.3"
+      },
+      {
+        "p": {
+          "name": "Pix2seq: A Language Modeling Framework for Object Detection",
+          "link": "https://arxiv.org/abs/2109.10852v2"
+        },
+        "c": "https://github.com/google-research/pix2seq",
+        "n": "Pix2seq (R50-DC5 )",
+        "d": "2021-09-22",
+        "m1": "43.2",
+        "m2": "61.0",
+        "m3": "46.1",
+        "m4": "26.6",
+        "m5": "47",
+        "m6": "58.6"
+      },
+      {
+        "p": {
+          "name": "Deformable ConvNets v2: More Deformable, Better Results",
+          "link": "http://arxiv.org/abs/1811.11168v2"
+        },
+        "c": "",
+        "n": "Mask R-CNN (ResNet-101, DCNv2)",
+        "d": "2018-11-27",
+        "m1": "43.1"
+      },
+      {
+        "p": {
+          "name": "Deep High-Resolution Representation Learning for Visual Recognition",
+          "link": "https://arxiv.org/abs/1908.07919v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "HTC (HRNetV2p-W18)",
+        "d": "2019-08-20",
+        "m1": "43.1",
+        "m4": "26.6",
+        "m5": "46.0",
+        "m6": "56.9"
+      },
+      {
+        "p": {
+          "name": "HoughNet: Integrating near and long-range evidence for bottom-up object detection",
+          "link": "https://arxiv.org/abs/2007.02355v3"
+        },
+        "c": "https://github.com/giddyyupp/coco-minitrain",
+        "n": "HoughNet (HG-104)",
+        "d": "2020-07-05",
+        "m1": "43.0",
+        "m2": "62.2",
+        "m3": "46.9",
+        "m4": "25.5",
+        "m5": "47.6",
+        "m6": "55.8"
+      },
+      {
+        "p": {
+          "name": "Conditional DETR for Fast Training Convergence",
+          "link": "https://arxiv.org/abs/2108.06152v3"
+        },
+        "c": "https://github.com/Atten4Vis/ConditionalDETR",
+        "n": "Conditional DETR-R50",
+        "d": "2021-08-13",
+        "m1": "43",
+        "m2": "64",
+        "m3": "45.7",
+        "m4": "22.7",
+        "m5": "46.7",
+        "m6": "61.5",
+        "m7": "44"
+      },
+      {
+        "p": {
+          "name": "Scaling Graph Convolutions for Mobile Vision",
+          "link": "https://arxiv.org/abs/2406.05850v1"
+        },
+        "c": "https://github.com/SLDGroup/MobileViGv2",
+        "n": "MobileViGv2-B (Mask R-CNN 1x)",
+        "d": "2024-06-09",
+        "m1": "43.0",
+        "m2": "64.9",
+        "m3": "47.1",
+        "m7": "27.7"
+      },
+      {
+        "p": {
+          "name": "Sparse R-CNN: End-to-End Object Detection with Learnable Proposals",
+          "link": "https://arxiv.org/abs/2011.12450v2"
+        },
+        "c": "https://github.com/PeizeSun/SparseR-CNN",
+        "n": "Sparse R-CNN (ResNet-50, FPN)",
+        "d": "2020-11-25",
+        "m1": "42.8",
+        "m2": "61.2",
+        "m3": "45.7",
+        "m4": "26.7",
+        "m5": "44.6",
+        "m6": "57.6"
+      },
+      {
+        "p": {
+          "name": "X-volution: On the unification of convolution and self-attention",
+          "link": "https://arxiv.org/abs/2106.02253v2"
+        },
+        "c": "",
+        "n": "Faster R-CNN (FPN, X-volution)",
+        "d": "2021-06-04",
+        "m1": "42.8",
+        "m2": "64",
+        "m3": "46.4",
+        "m4": "26.9",
+        "m5": "46",
+        "m6": "55"
+      },
+      {
+        "p": {
+          "name": "UniHead: Unifying Multi-Perception for Detection Heads",
+          "link": "https://arxiv.org/abs/2309.13242v2"
+        },
+        "c": "https://github.com/zht8506/UniHead",
+        "n": "UniHead (ResNet-50, 1x)",
+        "d": "2023-09-23",
+        "m1": "42.8",
+        "m2": "61.0",
+        "m3": "46.2",
+        "m4": "24.8",
+        "m5": "46.8",
+        "m6": "56.8"
+      },
+      {
+        "p": {
+          "name": "Cascade R-CNN: Delving into High Quality Object Detection",
+          "link": "http://arxiv.org/abs/1712.00726v1"
+        },
+        "c": "https://github.com/zhaoweicai/cascade-rcnn",
+        "n": "Cascade R-CNN (ResNet-101-FPN+, cascade)",
+        "d": "2017-12-03",
+        "m1": "42.7",
+        "m2": "61.6",
+        "m3": "46.6",
+        "m4": "23.8",
+        "m5": "46.2",
+        "m6": "57.4"
+      },
+      {
+        "p": {
+          "name": "Dynamic Feature Pyramid Networks for Object Detection",
+          "link": "https://arxiv.org/abs/2012.00779v2"
+        },
+        "c": "",
+        "n": "Cascade R-CNN + DyFPN (ResNet-101, 1x)",
+        "d": "2020-12-01",
+        "m1": "42.7"
+      },
+      {
+        "p": {
+          "name": "CornerNet-Lite: Efficient Keypoint Based Object Detection",
+          "link": "https://arxiv.org/abs/1904.08900v2"
+        },
+        "c": "https://github.com/princeton-vl/CornerNet-Lite",
+        "n": "CornerNet-Saccade (Hourglass-54)",
+        "d": "2019-04-18",
+        "m1": "42.6",
+        "m4": "25.5",
+        "m5": "44.3",
+        "m6": "58.4"
+      },
+      {
+        "p": {
+          "name": "Pyramid Vision Transformer: A Versatile Backbone for Dense Prediction without Convolutions",
+          "link": "https://arxiv.org/abs/2102.12122v2"
+        },
+        "c": "https://github.com/whai362/PVT",
+        "n": "PVT-Large (RetinaNet 1x)",
+        "d": "2021-02-24",
+        "m1": "42.6",
+        "m2": "63.7",
+        "m3": "45.4",
+        "m4": "25.8",
+        "m5": "46.0",
+        "m6": "58.4"
+      },
+      {
+        "p": {
+          "name": "Pix2seq: A Language Modeling Framework for Object Detection",
+          "link": "https://arxiv.org/abs/2109.10852v2"
+        },
+        "c": "https://github.com/google-research/pix2seq",
+        "n": "Pix2seq (R50)",
+        "d": "2021-09-22",
+        "m1": "42.6"
+      },
+      {
+        "p": {
+          "name": "MogaNet: Multi-order Gated Aggregation Network",
+          "link": "https://arxiv.org/abs/2211.03295v3"
+        },
+        "c": "https://github.com/Westlake-AI/MogaNet",
+        "n": "MogaNet-T (Mask R-CNN 1x)",
+        "d": "2022-11-07",
+        "m1": "42.6",
+        "m2": "64.0",
+        "m3": "46.4",
+        "m7": "25"
+      },
+      {
+        "p": {
+          "name": "S2AFormer: Strip Self-Attention for Efficient Vision Transformer",
+          "link": "https://arxiv.org/abs/2505.22195v2"
+        },
+        "c": "",
+        "n": "S2AFormer-M (Mask R-CNN 1x)",
+        "d": "2025-05-28",
+        "m1": "42.6",
+        "m2": "64.5",
+        "m3": "46.9",
+        "m7": "42"
+      },
+      {
+        "p": {
+          "name": "Scaling Graph Convolutions for Mobile Vision",
+          "link": "https://arxiv.org/abs/2406.05850v1"
+        },
+        "c": "https://github.com/SLDGroup/MobileViGv2",
+        "n": "MobileViGv2-M (Mask R-CNN 1x)",
+        "d": "2024-06-09",
+        "m1": "42.5",
+        "m2": "63.9",
+        "m3": "46.3",
+        "m7": "15.4"
+      },
+      {
+        "p": {
+          "name": "Group Normalization",
+          "link": "http://arxiv.org/abs/1803.08494v3"
+        },
+        "c": "https://github.com/facebookresearch/Detectron",
+        "n": "Mask R-CNN (ResNet-101-FPN, GroupNorm, long)",
+        "d": "2018-03-22",
+        "m1": "42.3",
+        "m2": "62.8",
+        "m3": "46.2"
+      },
+      {
+        "p": {
+          "name": "Deep High-Resolution Representation Learning for Visual Recognition",
+          "link": "https://arxiv.org/abs/1908.07919v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "Mask R-CNN (HRNetV2p-W32)",
+        "d": "2019-08-20",
+        "m1": "42.3",
+        "m4": "25.0",
+        "m5": "45.4",
+        "m6": "54.9"
+      },
+      {
+        "p": {
+          "name": "Rethinking and Improving Relative Position Encoding for Vision Transformer",
+          "link": "https://arxiv.org/abs/2107.14222v1"
+        },
+        "c": "https://github.com/microsoft/cream",
+        "n": "DETR-ResNet50 with iRPE-K (300 epochs)",
+        "d": "2021-07-29",
+        "m1": "42.3"
+      },
+      {
+        "p": {
+          "name": "UniHead: Unifying Multi-Perception for Detection Heads",
+          "link": "https://arxiv.org/abs/2309.13242v2"
+        },
+        "c": "https://github.com/zht8506/UniHead",
+        "n": "GFL + UniHead (ResNet-50, 1x)",
+        "d": "2023-09-23",
+        "m1": "42.3",
+        "m2": "61.1",
+        "m3": "45.6",
+        "m4": "24.5",
+        "m5": "46.0",
+        "m6": "55.3",
+        "m7": "31.81"
+      },
+      {
+        "p": {
+          "name": "Scale-Aware Trident Networks for Object Detection",
+          "link": "https://arxiv.org/abs/1901.01892v2"
+        },
+        "c": "https://github.com/facebookresearch/detectron2/tree/master/projects/TridentNet/",
+        "n": "TridentNet (ResNet-101)",
+        "d": "2019-01-07",
+        "m1": "42",
+        "m2": "63.5",
+        "m3": "45.5",
+        "m4": "24.9",
+        "m5": "47",
+        "m6": "56.9"
+      },
+      {
+        "p": {
+          "name": "Recursively Refined R-CNN: Instance Segmentation with Self-RoI Rebalancing",
+          "link": "https://arxiv.org/abs/2104.01329v2"
+        },
+        "c": "https://github.com/IMPLabUniPr/mmdetection",
+        "n": "R3-CNN (ResNet-50-FPN)",
+        "d": "2021-04-03",
+        "m1": "42",
+        "m2": "61",
+        "m3": "46.3",
+        "m4": "24.5",
+        "m5": "45.2",
+        "m6": "55.7"
+      },
+      {
+        "p": {
+          "name": "Supervision Interpolation via LossMix: Generalizing Mixup for Object Detection and Beyond",
+          "link": "https://arxiv.org/abs/2303.10343v2"
+        },
+        "c": "",
+        "n": "Faster R-CNN + LossMix (ResNet-50-FPN, 3x)",
+        "d": "2023-03-18",
+        "m1": "41.82",
+        "m2": "62.51",
+        "m3": "45.81",
+        "m4": "25.04",
+        "m5": "45.48",
+        "m6": "54.03"
+      },
+      {
+        "p": {
+          "name": "Deep High-Resolution Representation Learning for Visual Recognition",
+          "link": "https://arxiv.org/abs/1908.07919v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "Faster R-CNN (HRNetV2p-W48)",
+        "d": "2019-08-20",
+        "m1": "41.8",
+        "m2": "62.8",
+        "m3": "45.9",
+        "m5": "44.7",
+        "m6": "54.6"
+      },
+      {
+        "p": {
+          "name": "Deformable ConvNets v2: More Deformable, Better Results",
+          "link": "http://arxiv.org/abs/1811.11168v2"
+        },
+        "c": "",
+        "n": "Faster R-CNN (ResNet-101, DCNv2)",
+        "d": "2018-11-27",
+        "m1": "41.7",
+        "m4": "22.2",
+        "m5": "45.8",
+        "m6": "58.7"
+      },
+      {
+        "p": {
+          "name": "LIP: Local Importance-based Pooling",
+          "link": "https://arxiv.org/abs/1908.04156v3"
+        },
+        "c": "https://github.com/sebgao/LIP",
+        "n": "Faster R-CNN (LIP-ResNet-101)",
+        "d": "2019-08-12",
+        "m1": "41.7",
+        "m2": "63.6",
+        "m3": "45.6",
+        "m4": "25.2",
+        "m5": "45.8"
+      },
+      {
+        "p": {
+          "name": "RecConv: Efficient Recursive Convolutions for Multi-Frequency Representations",
+          "link": "https://arxiv.org/abs/2412.19628v3"
+        },
+        "c": "https://github.com/suous/RecNeXt",
+        "n": "RecNeXt-M3 (Mask R-CNN)",
+        "d": "2024-12-27",
+        "m1": "41.7",
+        "m2": "63.4",
+        "m3": "45.4"
+      },
+      {
+        "p": {
+          "name": "S2AFormer: Strip Self-Attention for Efficient Vision Transformer",
+          "link": "https://arxiv.org/abs/2505.22195v2"
+        },
+        "c": "",
+        "n": "S2AFormer-M (RetinaNet 1x)",
+        "d": "2025-05-28",
+        "m1": "41.7",
+        "m2": "62.4",
+        "m3": "44.5",
+        "m4": "25.8",
+        "m5": "44.6",
+        "m6": "55.4",
+        "m7": "32"
+      },
+      {
+        "p": {
+          "name": "Feature Selective Anchor-Free Module for Single-Shot Object Detection",
+          "link": "http://arxiv.org/abs/1903.00621v1"
+        },
+        "c": "",
+        "n": "FSAF (ResNeXt-101, anchor-based branches)",
+        "d": "2019-03-02",
+        "m1": "41.6",
+        "m2": "62.4"
+      },
+      {
+        "p": {
+          "name": "SCSA: Exploring the Synergistic Effects Between Spatial and Channel Attention",
+          "link": "https://arxiv.org/abs/2407.05128v2"
+        },
+        "c": "",
+        "n": "Faster R-CNN + SCSA (ResNet-101, 1x)",
+        "d": "2024-07-06",
+        "m1": "41.5",
+        "m2": "62.9",
+        "m3": "45.4",
+        "m4": "24.6",
+        "m5": "45.3",
+        "m6": "53.7",
+        "m7": "60.88"
+      },
+      {
+        "p": {
+          "name": "CornerNet-Lite: Efficient Keypoint Based Object Detection",
+          "link": "https://arxiv.org/abs/1904.08900v2"
+        },
+        "c": "https://github.com/princeton-vl/CornerNet-Lite",
+        "n": "CornerNet-Saccade (Hourglass-104)",
+        "d": "2019-04-18",
+        "m1": "41.4",
+        "m4": "23.8",
+        "m5": "43.5",
+        "m6": "57.1"
+      },
+      {
+        "p": {
+          "name": "MogaNet: Multi-order Gated Aggregation Network",
+          "link": "https://arxiv.org/abs/2211.03295v3"
+        },
+        "c": "https://github.com/Westlake-AI/MogaNet",
+        "n": "MogaNet-T (RetinaNet 1x)",
+        "d": "2022-11-07",
+        "m1": "41.4",
+        "m2": "61.5",
+        "m3": "44.4",
+        "m4": "25.1",
+        "m5": "45.7",
+        "m6": "53.6",
+        "m7": "14"
+      },
+      {
+        "p": {
+          "name": "Grid R-CNN",
+          "link": "http://arxiv.org/abs/1811.12030v1"
+        },
+        "c": "https://github.com/STVIR/Grid-R-CNN",
+        "n": "Grid R-CNN (ResNet-101-FPN)",
+        "d": "2018-11-29",
+        "m1": "41.3",
+        "m2": "60.3",
+        "m3": "44.4",
+        "m4": "23.4",
+        "m5": "45.8",
+        "m6": "54.1"
+      },
+      {
+        "p": {
+          "name": "CenterNet: Keypoint Triplets for Object Detection",
+          "link": "http://arxiv.org/abs/1904.08189v3"
+        },
+        "c": "https://github.com/Duankaiwen/CenterNet",
+        "n": "CenterNet511 (Hourglass-52)",
+        "d": "2019-04-17",
+        "m1": "41.3",
+        "m2": "59.2",
+        "m3": "43.9",
+        "m4": "23.6",
+        "m5": "43.8",
+        "m6": "55.8"
+      },
+      {
+        "p": {
+          "name": "Deep High-Resolution Representation Learning for Visual Recognition",
+          "link": "https://arxiv.org/abs/1908.07919v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "Cascade R-CNN (HRNetV2p-W18)",
+        "d": "2019-08-20",
+        "m1": "41.3",
+        "m2": "59.2",
+        "m3": "44.9",
+        "m4": "23.7",
+        "m5": "44.2",
+        "m6": "54.1"
+      },
+      {
+        "p": {
+          "name": "RetinaMask: Learning to predict masks improves state-of-the-art single-shot detection for free",
+          "link": "http://arxiv.org/abs/1901.03353v1"
+        },
+        "c": "https://github.com/chengyangfu/retinamask",
+        "n": "RetinaMask (ResNet-101-FPN)",
+        "d": "2019-01-10",
+        "m1": "41.1",
+        "m2": "60.2",
+        "m3": "44.1"
+      },
+      {
+        "p": {
+          "name": "MetaFormer Is Actually What You Need for Vision",
+          "link": "https://arxiv.org/abs/2111.11418v3"
+        },
+        "c": "https://github.com/sail-sg/poolformer",
+        "n": "PoolFormer-S36 (Mask R-CNN)",
+        "d": "2021-11-22",
+        "m1": "41.0",
+        "m2": "63.1",
+        "m3": "44.8"
+      },
+      {
+        "p": {
+          "name": "LeYOLO, New Scalable and Efficient CNN Architecture for Object Detection",
+          "link": "https://arxiv.org/abs/2406.14239v1"
+        },
+        "c": "https://github.com/LilianHollard/LeYOLO",
+        "n": "LeYOLO-Large (768)",
+        "d": "2024-06-20",
+        "m1": "41.0",
+        "m7": "2.4",
+        "m2": "57.9",
+        "m3": "44.3",
+        "m4": "21.9",
+        "m5": "46.1",
+        "m6": "56.8"
+      },
+      {
+        "p": {
+          "name": "Deep High-Resolution Representation Learning for Visual Recognition",
+          "link": "https://arxiv.org/abs/1908.07919v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "Faster R-CNN (HRNetV2p-W32)",
+        "d": "2019-08-20",
+        "m1": "40.9",
+        "m2": "61.8",
+        "m3": "44.8",
+        "m4": "24.4",
+        "m5": "43.7",
+        "m6": "53.3"
+      },
+      {
+        "p": {
+          "name": "VirTex: Learning Visual Representations from Textual Annotations",
+          "link": "https://arxiv.org/abs/2006.06666v3"
+        },
+        "c": "https://github.com/kdexd/virtex",
+        "n": "VirTex Mask R-CNN (ResNet-50-FPN)",
+        "d": "2020-06-11",
+        "m1": "40.9"
+      },
+      {
+        "p": {
+          "name": "Dynamic Feature Pyramid Networks for Object Detection",
+          "link": "https://arxiv.org/abs/2012.00779v2"
+        },
+        "c": "",
+        "n": "Mask R-CNN + DyFPN (ResNet-101, 1x)",
+        "d": "2020-12-01",
+        "m1": "40.9"
+      },
+      {
+        "p": {
+          "name": "PP-PicoDet: A Better Real-Time Object Detector on Mobile Devices",
+          "link": "https://arxiv.org/abs/2111.00902v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
+        "n": "PP-PicoDet-L (640)",
+        "d": "2021-11-01",
+        "m1": "40.9",
+        "m2": "57.6",
+        "m7": "3.30"
+      },
+      {
+        "p": {
+          "name": "Non-local Neural Networks",
+          "link": "http://arxiv.org/abs/1711.07971v3"
+        },
+        "c": "https://github.com/facebookresearch/detectron",
+        "n": "Mask R-CNN (ResNet-101 + 1 NL)",
+        "d": "2017-11-21",
+        "m1": "40.8",
+        "m2": "63.1",
+        "m3": "44.5"
+      },
+      {
+        "p": {
+          "name": "Group Normalization",
+          "link": "http://arxiv.org/abs/1803.08494v3"
+        },
+        "c": "https://github.com/facebookresearch/Detectron",
+        "n": "Mask R-CNN (ResNet-50-FPN, GroupNorm, long)",
+        "d": "2018-03-22",
+        "m1": "40.8",
+        "m2": "61.6",
+        "m3": "44.4"
+      },
+      {
+        "p": {
+          "name": "RepPoints: Point Set Representation for Object Detection",
+          "link": "https://arxiv.org/abs/1904.11490v2"
+        },
+        "c": "https://github.com/microsoft/RepPoints",
+        "n": "RPDet (ResNet-50, multi-scale train)",
+        "d": "2019-04-25",
+        "m1": "40.8"
+      },
+      {
+        "p": {
+          "name": "Rethinking and Improving Relative Position Encoding for Vision Transformer",
+          "link": "https://arxiv.org/abs/2107.14222v1"
+        },
+        "c": "https://github.com/microsoft/cream",
+        "n": "DETR-ResNet50 with iRPE-K (150 epochs)",
+        "d": "2021-07-29",
+        "m1": "40.8"
+      },
+      {
+        "p": {
+          "name": "LSNet: See Large, Focus Small",
+          "link": "https://arxiv.org/abs/2503.23135v1"
+        },
+        "c": "https://github.com/jameslahm/lsnet",
+        "n": "LSNet-B (Mask R-CNN 1x)",
+        "d": "2025-03-29",
+        "m1": "40.8",
+        "m2": "63.4",
+        "m3": "44.0"
+      },
+      {
+        "p": {
+          "name": "A Ranking-based, Balanced Loss Function Unifying Classification and Localisation in Object Detection",
+          "link": "https://arxiv.org/abs/2009.13592v4"
+        },
+        "c": "https://github.com/kemaloksuz/aLRPLoss",
+        "n": "Faster R-CNN+aLRP Loss (ResNet-50, 500 scale)",
+        "d": "2020-09-28",
+        "m1": "40.7",
+        "m2": "60.7",
+        "m3": "43.3"
+      },
+      {
+        "p": {
+          "name": "MogaNet: Multi-order Gated Aggregation Network",
+          "link": "https://arxiv.org/abs/2211.03295v3"
+        },
+        "c": "https://github.com/Westlake-AI/MogaNet",
+        "n": "MogaNet-XT (Mask R-CNN 1x)",
+        "d": "2022-11-07",
+        "m1": "40.7",
+        "m2": "62.3",
+        "m3": "44.4",
+        "m7": "23"
+      },
+      {
+        "p": {
+          "name": "ParFormer: A Vision Transformer with Parallel Mixer and Sparse Channel Attention Patch Embedding",
+          "link": "https://arxiv.org/abs/2403.15004v3"
+        },
+        "c": "",
+        "n": "ParFormer-M (Mask R-CNN 1x)",
+        "d": "2024-03-22",
+        "m1": "40.7",
+        "m2": "63.3",
+        "m3": "44.2",
+        "m7": "42.2"
+      },
+      {
+        "p": {
+          "name": "Acquisition of Localization Confidence for Accurate Object Detection",
+          "link": "http://arxiv.org/abs/1807.11590v1"
+        },
+        "c": "https://github.com/vacancy/PreciseRoIPooling",
+        "n": "IoU-Net (ResNet-101-FPN, IoU-NMS + refinement)",
+        "d": "2018-07-30",
+        "m1": "40.6",
+        "m2": "59.0"
+      },
+      {
+        "p": {
+          "name": "Reducing Label Noise in Anchor-Free Object Detection",
+          "link": "https://arxiv.org/abs/2008.01167v2"
+        },
+        "c": "https://github.com/nerminsamet/ppdet",
+        "n": "PPDet (ResNet-101-FPN)",
+        "d": "2020-08-03",
+        "m1": "40.5",
+        "m2": "59.5",
+        "m3": "44.2",
+        "m4": "25.4",
+        "m5": "44.7",
+        "m6": "52.3"
+      },
+      {
+        "p": {
+          "name": "ViDT: An Efficient and Effective Fully Transformer-based Object Detector",
+          "link": "https://arxiv.org/abs/2110.03921v2"
+        },
+        "c": "https://github.com/naver-ai/vidt",
+        "n": "ViDT (Swin-nano, 50ep)",
+        "d": "2021-10-08",
+        "m1": "40.4",
+        "m2": "59.6",
+        "m3": "43.3",
+        "m4": "23.2",
+        "m5": "42.5",
+        "m6": "55.8",
+        "m7": "16"
+      },
+      {
+        "p": {
+          "name": "A lightweight mechanism for vision-transformer-based object detection",
+          "link": "https://doi.org/10.1007/s40747-025-01904-x"
+        },
+        "c": "",
+        "n": "XFCOS (ResNet-50, 3x)",
+        "d": "2025-05-22",
+        "m1": "40.4",
+        "m2": "58.9",
+        "m3": "43.9",
+        "m4": "24.0",
+        "m5": "43.9",
+        "m6": "52.0"
+      },
+      {
+        "p": {
+          "name": "Cascade R-CNN: Delving into High Quality Object Detection",
+          "link": "http://arxiv.org/abs/1712.00726v1"
+        },
+        "c": "https://github.com/zhaoweicai/cascade-rcnn",
+        "n": "Cascade R-CNN (ResNet-50-FPN+)",
+        "d": "2017-12-03",
+        "m1": "40.3",
+        "m2": "59.4",
+        "m3": "43.7",
+        "m4": "22.9",
+        "m5": "43.7",
+        "m6": "54.1"
+      },
+      {
+        "p": {
+          "name": "Group Normalization",
+          "link": "http://arxiv.org/abs/1803.08494v3"
+        },
+        "c": "https://github.com/facebookresearch/Detectron",
+        "n": "Mask R-CNN (ResNet-50-FPN, GroupNorm)",
+        "d": "2018-03-22",
+        "m1": "40.3",
+        "m2": "61",
+        "m3": "44"
+      },
+      {
+        "p": {
+          "name": "Bottom-up Object Detection by Grouping Extreme and Center Points",
+          "link": "http://arxiv.org/abs/1901.08043v3"
+        },
+        "c": "https://github.com/xingyizhou/ExtremeNet",
+        "n": "ExtremeNet (Hourglass-104, single-scale)",
+        "d": "2019-01-23",
+        "m1": "40.3",
+        "m2": "55.1",
+        "m3": "43.7",
+        "m4": "21.6",
+        "m5": "44.0",
+        "m6": "56.1"
+      },
+      {
+        "p": {
+          "name": "RepPoints: Point Set Representation for Object Detection",
+          "link": "https://arxiv.org/abs/1904.11490v2"
+        },
+        "c": "https://github.com/microsoft/RepPoints",
+        "n": "RPDet (ResNet-101)",
+        "d": "2019-04-25",
+        "m1": "40.3"
+      },
+      {
+        "p": {
+          "name": "A novel Region of Interest Extraction Layer for Instance Segmentation",
+          "link": "https://arxiv.org/abs/2004.13665v2"
+        },
+        "c": "https://github.com/IMPLabUniPr/mmdetection",
+        "n": "GC-Net + GRoIE (ResNet-50-FPN)",
+        "d": "2020-04-28",
+        "m1": "40.3",
+        "m2": "62.4",
+        "m3": "44",
+        "m4": "24.2",
+        "m5": "44.4",
+        "m6": "52.5"
+      },
+      {
+        "p": {
+          "name": "A Ranking-based, Balanced Loss Function Unifying Classification and Localisation in Object Detection",
+          "link": "https://arxiv.org/abs/2009.13592v4"
+        },
+        "c": "https://github.com/kemaloksuz/aLRPLoss",
+        "n": "RetinaNet+aLRP Loss (ResNet-50, 500 scale)",
+        "d": "2020-09-28",
+        "m1": "40.2",
+        "m2": "60.3",
+        "m3": "42.3"
+      },
+      {
+        "p": {
+          "name": "Cross-Iteration Batch Normalization",
+          "link": "https://arxiv.org/abs/2002.05712v3"
+        },
+        "c": "https://github.com/Howal/Cross-iterationBatchNorm",
+        "n": "Mask R-CNN (ResNet-101-FPN, CBN)",
+        "d": "2020-02-13",
+        "m1": "40.1",
+        "m2": "60.5",
+        "m3": "44.1"
+      },
+      {
+        "p": {
+          "name": "Architecture-Agnostic Masked Image Modeling -- From ViT back to CNN",
+          "link": "https://arxiv.org/abs/2205.13943v4"
+        },
+        "c": "https://github.com/open-mmlab/mmpretrain",
+        "n": "A2MIM (ResNet-50-C4, Mask R-CNN 2x)",
+        "d": "2022-05-27",
+        "m1": "39.8"
+      },
+      {
+        "p": {
+          "name": "A Ranking-based, Balanced Loss Function Unifying Classification and Localisation in Object Detection",
+          "link": "https://arxiv.org/abs/2009.13592v4"
+        },
+        "c": "https://github.com/kemaloksuz/aLRPLoss",
+        "n": "FoveaBox+aLRP Loss (ResNet-50, 500 scale)",
+        "d": "2020-09-28",
+        "m1": "39.7",
+        "m2": "58.8",
+        "m3": "41.5"
+      },
+      {
+        "p": {
+          "name": "MogaNet: Multi-order Gated Aggregation Network",
+          "link": "https://arxiv.org/abs/2211.03295v3"
+        },
+        "c": "https://github.com/Westlake-AI/MogaNet",
+        "n": "MogaNet-XT (RetinaNet 1x)",
+        "d": "2022-11-07",
+        "m1": "39.7",
+        "m2": "60.0",
+        "m3": "42.4",
+        "m4": "23.8",
+        "m5": "43.6",
+        "m6": "51.7",
+        "m7": "12"
+      },
+      {
+        "p": {
+          "name": "Grid R-CNN",
+          "link": "http://arxiv.org/abs/1811.12030v1"
+        },
+        "c": "https://github.com/STVIR/Grid-R-CNN",
+        "n": "Grid R-CNN (ResNet-50-FPN)",
+        "d": "2018-11-29",
+        "m1": "39.6",
+        "m2": "58.3",
+        "m3": "42.4",
+        "m4": "22.6",
+        "m5": "43.8",
+        "m6": "51.5"
+      },
+      {
+        "p": {
+          "name": "Adaptively Connected Neural Networks",
+          "link": "http://arxiv.org/abs/1904.03579v1"
+        },
+        "c": "https://github.com/wanggrun/Adaptively-Connected-Neural-Networks",
+        "n": "Mask R-CNN (ResNet-50, ACNet)",
+        "d": "2019-04-07",
+        "m1": "39.5"
+      },
+      {
+        "p": {
+          "name": "Feature Selective Anchor-Free Module for Single-Shot Object Detection",
+          "link": "http://arxiv.org/abs/1903.00621v1"
+        },
+        "c": "",
+        "n": "FSAF (ResNet-101, anchor-based branches)",
+        "d": "2019-03-02",
+        "m1": "39.3",
+        "m2": "59.2"
+      },
+      {
+        "p": {
+          "name": "LeYOLO, New Scalable and Efficient CNN Architecture for Object Detection",
+          "link": "https://arxiv.org/abs/2406.14239v1"
+        },
+        "c": "https://github.com/LilianHollard/LeYOLO",
+        "n": "LeYOLO-Medium (640)",
+        "d": "2024-06-20",
+        "m1": "39.3",
+        "m2": "55.7",
+        "m3": "42.5",
+        "m4": "18.8",
+        "m5": "44.1",
+        "m6": "56.1"
+      },
+      {
+        "p": {
+          "name": "Deep High-Resolution Representation Learning for Visual Recognition",
+          "link": "https://arxiv.org/abs/1908.07919v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "Mask R-CNN (HRNetV2p-W18)",
+        "d": "2019-08-20",
+        "m1": "39.2",
+        "m5": "41.7",
+        "m6": "51.0",
+        "m4": "23.7"
+      },
+      {
+        "p": {
+          "name": "LSNet: See Large, Focus Small",
+          "link": "https://arxiv.org/abs/2503.23135v1"
+        },
+        "c": "https://github.com/jameslahm/lsnet",
+        "n": "LSNet-B (RetinaNet 1x)",
+        "d": "2025-03-29",
+        "m1": "39.2",
+        "m2": "60.0",
+        "m3": "41.5",
+        "m4": "22.1",
+        "m5": "43.0",
+        "m6": "52.9"
+      },
+      {
+        "p": {
+          "name": "Non-local Neural Networks",
+          "link": "http://arxiv.org/abs/1711.07971v3"
+        },
+        "c": "https://github.com/facebookresearch/detectron",
+        "n": "Mask R-CNN (ResNet-50 + 1 NL)",
+        "d": "2017-11-21",
+        "m1": "39.0",
+        "m2": "61.1",
+        "m3": "41.9"
+      },
+      {
+        "p": {
+          "name": "FoveaBox: Beyond Anchor-based Object Detector",
+          "link": "https://arxiv.org/abs/1904.03797v1"
+        },
+        "c": "https://github.com/taokong/FoveaBox",
+        "n": "FoveaBox (ResNet-101-FPN, 800x800)",
+        "d": "2019-04-08",
+        "m1": "38.9",
+        "m2": "58.4",
+        "m3": "41.5",
+        "m4": "22.3",
+        "m5": "43.5",
+        "m6": "51.7"
+      },
+      {
+        "p": {
+          "name": "FCOS: Fully Convolutional One-Stage Object Detection",
+          "link": "https://arxiv.org/abs/1904.01355v5"
+        },
+        "c": "https://github.com/tianzhi0549/FCOS",
+        "n": "FCOS (ResNet-50-FPN + improvements)",
+        "d": "2019-04-02",
+        "m1": "38.6",
+        "m2": "57.4",
+        "m3": "41.4",
+        "m4": "22.3",
+        "m5": "42.5",
+        "m6": "49.8"
+      },
+      {
+        "p": {
+          "name": "RepPoints: Point Set Representation for Object Detection",
+          "link": "https://arxiv.org/abs/1904.11490v2"
+        },
+        "c": "https://github.com/microsoft/RepPoints",
+        "n": "RPDet (ResNet-50)",
+        "d": "2019-04-25",
+        "m1": "38.6"
+      },
+      {
+        "p": {
+          "name": "Libra R-CNN: Towards Balanced Learning for Object Detection",
+          "link": "http://arxiv.org/abs/1904.02701v1"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "Libra R-CNN (ResNet-50 FPN)",
+        "d": "2019-04-04",
+        "m1": "38.5",
+        "m2": "59.3",
+        "m3": "42.0",
+        "m4": "22.9",
+        "m5": "42.1",
+        "m6": "50.5"
+      },
+      {
+        "p": {
+          "name": "CornerNet: Detecting Objects as Paired Keypoints",
+          "link": "http://arxiv.org/abs/1808.01244v2"
+        },
+        "c": "https://github.com/princeton-vl/CornerNet",
+        "n": "CornerNet511 (Hourglass-104)",
+        "d": "2018-08-03",
+        "m1": "38.4",
+        "m2": "53.8",
+        "m3": "40.9",
+        "m4": "18.6",
+        "m5": "40.5",
+        "m6": "51.8"
+      },
+      {
+        "p": {
+          "name": "A novel Region of Interest Extraction Layer for Instance Segmentation",
+          "link": "https://arxiv.org/abs/2004.13665v2"
+        },
+        "c": "https://github.com/IMPLabUniPr/mmdetection",
+        "n": "Mask R-CNN (ResNet-50-FPN, GRoIE)",
+        "d": "2020-04-28",
+        "m1": "38.4",
+        "m2": "59.9",
+        "m3": "41.7",
+        "m4": "22.9",
+        "m5": "42.1",
+        "m6": "49.7"
+      },
+      {
+        "p": {
+          "name": "LeYOLO, New Scalable and Efficient CNN Architecture for Object Detection",
+          "link": "https://arxiv.org/abs/2406.14239v1"
+        },
+        "c": "https://github.com/LilianHollard/LeYOLO",
+        "n": "LeYOLO-Small (640)",
+        "d": "2024-06-20",
+        "m1": "38.2",
+        "m7": "1.9",
+        "m2": "54.1",
+        "m3": "41.3",
+        "m4": "17.6",
+        "m5": "42.2",
+        "m6": "55.1"
+      },
+      {
+        "p": {
+          "name": "FoveaBox: Beyond Anchor-based Object Detector",
+          "link": "https://arxiv.org/abs/1904.03797v1"
+        },
+        "c": "https://github.com/taokong/FoveaBox",
+        "n": "FoveaBox (ResNet-101-FPN, 600x600)",
+        "d": "2019-04-08",
+        "m1": "38",
+        "m2": "57.8",
+        "m3": "40.2",
+        "m4": "19.5",
+        "m5": "42.2",
+        "m6": "52.7"
+      },
+      {
+        "p": {
+          "name": "Deep High-Resolution Representation Learning for Visual Recognition",
+          "link": "https://arxiv.org/abs/1908.07919v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "Faster R-CNN (HRNetV2p-W18)",
+        "d": "2019-08-20",
+        "m1": "38.0",
+        "m2": "58.9",
+        "m3": "41.5",
+        "m4": "22.6",
+        "m5": "40.8",
+        "m6": "49.6"
+      },
+      {
+        "p": {
+          "name": "Feature Selective Anchor-Free Module for Single-Shot Object Detection",
+          "link": "http://arxiv.org/abs/1903.00621v1"
+        },
+        "c": "",
+        "n": "FSAF (ResNet-101)",
+        "d": "2019-03-02",
+        "m1": "37.9",
+        "m2": "58.0"
+      },
+      {
+        "p": {
+          "name": "ELA: Efficient Local Attention for Deep Convolutional Neural Networks",
+          "link": "https://arxiv.org/abs/2403.01123v1"
+        },
+        "c": "",
+        "n": "YOLOF + ELA-L (1x)",
+        "d": "2024-03-02",
+        "m1": "37.81",
+        "m2": "57.9",
+        "m3": "40.2",
+        "m4": "18.8",
+        "m5": "42.6",
+        "m6": "52.4"
+      },
+      {
+        "p": {
+          "name": "A novel Region of Interest Extraction Layer for Instance Segmentation",
+          "link": "https://arxiv.org/abs/2004.13665v2"
+        },
+        "c": "https://github.com/IMPLabUniPr/mmdetection",
+        "n": "Faster R-CNN (ResNet-50-FPN, GRoIE)",
+        "d": "2020-04-28",
+        "m1": "37.5",
+        "m2": "59.2",
+        "m3": "40.6",
+        "m4": "22.3",
+        "m5": "41.5",
+        "m6": "47.8"
+      },
+      {
+        "p": {
+          "name": "Boosting Convolutional Neural Networks with Middle Spectrum Grouped Convolution",
+          "link": "https://arxiv.org/abs/2304.06305v1"
+        },
+        "c": "https://github.com/hellozhuo/msgc",
+        "n": "Faster R-CNN (ResNet-50-MSGC, 1x)",
+        "d": "2023-04-13",
+        "m1": "37.4",
+        "m2": "59.1",
+        "m3": "40.2"
+      },
+      {
+        "p": {
+          "name": "ParFormer: A Vision Transformer with Parallel Mixer and Sparse Channel Attention Patch Embedding",
+          "link": "https://arxiv.org/abs/2403.15004v3"
+        },
+        "c": "",
+        "n": "ParFormer-T (Mask R-CNN 1x)",
+        "d": "2024-03-22",
+        "m1": "37.3",
+        "m2": "59.0",
+        "m3": "40.4",
+        "m7": "25.7"
+      },
+      {
+        "p": {
+          "name": "PP-PicoDet: A Better Real-Time Object Detector on Mobile Devices",
+          "link": "https://arxiv.org/abs/2111.00902v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
+        "n": "YOLOv5s (640, reported by PP-PicoDet)",
+        "d": "2021-11-01",
+        "m1": "37.2",
+        "m2": "56.0",
+        "m7": "7.2"
+      },
+      {
+        "p": {
+          "name": "torchdistill: A Modular, Configuration-Driven Framework for Knowledge Distillation",
+          "link": "https://arxiv.org/abs/2011.12913v2"
+        },
+        "c": "https://github.com/yoshitomo-matsubara/torchdistill",
+        "n": "Mask R-CNN (Bottleneck-injected ResNet-50, FPN)",
+        "d": "2020-11-25",
+        "m1": "36.9"
+      },
+      {
+        "p": {
+          "name": "Mask R-CNN",
+          "link": "http://arxiv.org/abs/1703.06870v3"
+        },
+        "c": "https://github.com/facebookresearch/Detectron",
+        "n": "Mask R-CNN (ResNeXt-101-FPN)",
+        "d": "2017-03-20",
+        "m1": "36.7",
+        "m2": "59.5",
+        "m3": "38.9"
+      },
+      {
+        "p": {
+          "name": "FoveaBox: Beyond Anchor-based Object Detector",
+          "link": "https://arxiv.org/abs/1904.03797v1"
+        },
+        "c": "https://github.com/taokong/FoveaBox",
+        "n": "FoveaBox (ResNet-50-FPN, 600x600)",
+        "d": "2019-04-08",
+        "m1": "36.0",
+        "m2": "55.2",
+        "m3": "37.9",
+        "m4": "18.6",
+        "m5": "39.4",
+        "m6": "50.5"
+      },
+      {
+        "p": {
+          "name": "Feature Selective Anchor-Free Module for Single-Shot Object Detection",
+          "link": "http://arxiv.org/abs/1903.00621v1"
+        },
+        "c": "",
+        "n": "FSAF (ResNet-50)",
+        "d": "2019-03-02",
+        "m1": "35.9",
+        "m2": "55.0",
+        "m3": "37.9",
+        "m4": "19.8",
+        "m5": "39.6",
+        "m6": "48.2"
+      },
+      {
+        "p": {
+          "name": "torchdistill: A Modular, Configuration-Driven Framework for Knowledge Distillation",
+          "link": "https://arxiv.org/abs/2011.12913v2"
+        },
+        "c": "https://github.com/yoshitomo-matsubara/torchdistill",
+        "n": "Faster R-CNN (Bottleneck-injected ResNet-50 and FPN)",
+        "d": "2020-11-25",
+        "m1": "35.9"
+      },
+      {
+        "p": {
+          "name": "Gradient Harmonized Single-stage Detector",
+          "link": "http://arxiv.org/abs/1811.05181v1"
+        },
+        "c": "https://github.com/libuyu/GHM_Detection",
+        "n": "GHM-C + GHM-R (RetinaNet-FPN-ResNet-50, M=30)",
+        "d": "2018-11-13",
+        "m1": "35.8",
+        "m2": "55.5",
+        "m3": "38.1",
+        "m4": "19.6",
+        "m5": "39.6",
+        "m6": "46.7"
+      },
+      {
+        "p": {
+          "name": "Generating Positive Bounding Boxes for Balanced Training of Object Detectors",
+          "link": "https://arxiv.org/abs/1909.09777v3"
+        },
+        "c": "https://github.com/kemaloksuz/BoundingBoxGenerator",
+        "n": "Online Fg Bal. Sampling+Hard Negative Mining (ResNet-50)",
+        "d": "2019-09-21",
+        "m1": "35.6",
+        "m2": "55.3"
+      },
+      {
+        "p": {
+          "name": "PP-PicoDet: A Better Real-Time Object Detector on Mobile Devices",
+          "link": "https://arxiv.org/abs/2111.00902v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
+        "n": "PP-PicoDet-M (416)",
+        "d": "2021-11-01",
+        "m1": "34.3",
+        "m2": "49.8",
+        "m7": "2.15"
+      },
+      {
+        "p": {
+          "name": "M2Det: A Single-Shot Object Detector based on Multi-Level Feature Pyramid Network",
+          "link": "http://arxiv.org/abs/1811.04533v3"
+        },
+        "c": "https://github.com/qijiezhao/M2Det",
+        "n": "M2Det (ResNet-101, 320x320)",
+        "d": "2018-11-12",
+        "m1": "34.1",
+        "m2": "53.7",
+        "m4": "15.9",
+        "m5": "39.5",
+        "m6": "49.3"
+      },
+      {
+        "p": {
+          "name": "Res2Net: A New Multi-scale Backbone Architecture",
+          "link": "https://arxiv.org/abs/1904.01169v3"
+        },
+        "c": "https://github.com/Res2Net/Res2Net-PretrainedModels",
+        "n": "Faster R-CNN (Res2Net-50)",
+        "d": "2019-04-02",
+        "m1": "33.7",
+        "m2": "53.6",
+        "m4": "14",
+        "m5": "38.3",
+        "m6": "51.1"
+      },
+      {
+        "p": {
+          "name": "M2Det: A Single-Shot Object Detector based on Multi-Level Feature Pyramid Network",
+          "link": "http://arxiv.org/abs/1811.04533v3"
+        },
+        "c": "https://github.com/qijiezhao/M2Det",
+        "n": "M2Det (VGG-16, 320x320)",
+        "d": "2018-11-12",
+        "m1": "33.2",
+        "m2": "52.2",
+        "m4": "15",
+        "m5": "38.2",
+        "m6": "49.1"
+      },
+      {
+        "p": {
+          "name": "YOLOX: Exceeding YOLO Series in 2021",
+          "link": "https://arxiv.org/abs/2107.08430v2"
+        },
+        "c": "https://github.com/Megvii-BaseDetection/YOLOX",
+        "n": "YOLOX-Tiny (416)",
+        "d": "2021-07-18",
+        "m1": "32.8",
+        "m7": "5.06"
+      },
+      {
+        "p": {
+          "name": "YOLOX: Exceeding YOLO Series in 2021",
+          "link": "https://arxiv.org/abs/2107.08430v2"
+        },
+        "c": "https://github.com/Megvii-BaseDetection/YOLOX",
+        "n": "YOLOX-Nano (416)",
+        "d": "2021-07-18",
+        "m1": "25.3",
+        "m7": "0.91"
+      },
+      {
+        "p": {
+          "name": "PP-PicoDet: A Better Real-Time Object Detector on Mobile Devices",
+          "link": "https://arxiv.org/abs/2111.00902v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
+        "n": "NanoDet-M (416, reported by PP-PicoDet)",
+        "d": "2021-11-01",
+        "m1": "23.5",
+        "m7": "0.95"
+      },
+      {
+        "p": {
+          "name": "You Only Learn One Representation: Unified Network for Multiple Tasks",
+          "link": "https://arxiv.org/abs/2105.04206v1"
+        },
+        "c": "https://github.com/WongKinYiu/yolor",
+        "n": "YOLOR-D6 (1280, single-scale, 31 fps)",
+        "d": "2021-05-10",
+        "m2": "73.5",
+        "m3": "60.6",
+        "m4": "40.4",
+        "m5": "60.1",
+        "m6": "68.7"
+      },
+      {
+        "p": {
+          "name": "You Only Learn One Representation: Unified Network for Multiple Tasks",
+          "link": "https://arxiv.org/abs/2105.04206v1"
+        },
+        "c": "https://github.com/WongKinYiu/yolor",
+        "n": "YOLOR-P6 (1280, single-scale, 72 fps)",
+        "d": "2021-05-10",
+        "m2": "70.6",
+        "m3": "57.4",
+        "m4": "37.4",
+        "m5": "57.3",
+        "m6": "65.2"
+      },
+      {
+        "p": {
+          "name": "Focal Modulation Networks",
+          "link": "https://arxiv.org/abs/2203.11926v3"
+        },
+        "c": "https://github.com/microsoft/FocalNet",
+        "n": "FocalNet-T (SRF, Cascade Mask R-CNN)",
+        "d": "2022-03-22",
+        "m2": "70.1",
+        "m3": "55.8"
+      },
+      {
+        "p": {
+          "name": "Recursively Refined R-CNN: Instance Segmentation with Self-RoI Rebalancing",
+          "link": "https://arxiv.org/abs/2104.01329v2"
+        },
+        "c": "https://github.com/IMPLabUniPr/mmdetection",
+        "n": "R3-CNN (ResNet-50-FPN, GRoIE)",
+        "d": "2021-04-03",
+        "m2": "61.2",
+        "m3": "45.6",
+        "m4": "24.4"
+      },
+      {
+        "p": {
+          "name": "When Shift Operation Meets Vision Transformer: An Extremely Simple Alternative to Attention Mechanism",
+          "link": "https://arxiv.org/abs/2201.10801v1"
+        },
+        "c": "https://github.com/microsoft/SPACH",
+        "n": "Shift-T",
+        "d": "2022-01-26",
+        "m5": "42.3"
+      }
+    ]
+  }
+}
